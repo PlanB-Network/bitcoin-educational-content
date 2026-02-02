@@ -1,0 +1,8 @@
+question: Jaký je zásadní rozdíl mezi zpracováním maker a funkcí v Rust?
+answer: Makra jsou překladačem rozšířena v době kompilace před zahájením kompilace, zatímco funkce jsou volány za běhu
+wrong_answers:
+  - Makra používají ke kontrole typu porovnávání vzorů, zatímco funkce používají k ověření za běhu statickou analýzu
+  - Makra Optimalizovaný kód assembleru generate přímo, zatímco funkce jsou interpretovány virtuálním strojem Rust
+  - Makra se během provádění ukládají do paměti, zatímco funkce se při volání načítají z disku
+explanation: |
+  Správná odpověď identifikuje klíčový časový rozdíl: makra pracují během kompilace prostřednictvím expanze kódu, zatímco funkce se vykonávají během běhu programu. Špatné odpovědi zaměňují různé programátorské koncepty - Rust nepoužívá virtuální stroj, makra i funkce procházejí typovou kontrolou (ale v různých fázích) a funkce ani makra se během provádění popisovaným způsobem nenačítají z disku.

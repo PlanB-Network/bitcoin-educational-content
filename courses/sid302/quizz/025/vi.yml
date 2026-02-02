@@ -1,0 +1,8 @@
+question: So với các nền tảng mã hóa token dựa trên Ethereum, sự khác biệt cơ bản nào trong kiến trúc blockchain khiến Liquid phù hợp hơn cho các hoạt động tài chính quan trọng?
+answer: Liquid sử dụng mô hình UTXO của Bitcoin, cung cấp kết quả giao dịch mang tính xác định, trong khi mô hình tài khoản của Ethereum có thể dẫn đến các giao dịch thất bại nhưng vẫn tiêu tốn phí gas.
+wrong_answers:
+  - Liquid hoạt động dựa trên cơ chế đồng thuận bằng chứng cổ phần trong khi Ethereum dựa vào proof-of-work và mining tiêu tốn nhiều năng lượng để xác thực giao dịch.
+  - "Cấu trúc chuỗi phụ liên kết của Liquid cho phép thông lượng giao dịch không giới hạn, trong khi Ethereum bị hạn chế bởi kích thước khối của chuỗi đơn."
+  - Liquid triển khai chức năng hợp đồng thông minh gốc thông qua kịch bản Elements, trong khi Ethereum yêu cầu môi trường thực thi máy ảo bên ngoài.
+explanation: |
+  Tính chất xác định của mô hình UTXO rất quan trọng đối với các tổ chức tài chính vì các giao dịch hoặc thành công hoàn toàn hoặc thất bại mà không phát sinh chi phí, mang lại kết quả có thể dự đoán được. Mô hình tài khoản của Ethereum có thể dẫn đến các giao dịch thất bại nhưng vẫn tiêu tốn phí gas, tạo ra sự không chắc chắn trong hoạt động và các chi phí bổ sung không thể chấp nhận được đối với các hoạt động tài chính quan trọng, nơi độ tin cậy và khả năng dự đoán chi phí là tối quan trọng.

@@ -1,0 +1,8 @@
+question: Zgodnie z analizą Bastiata, jaki jest logiczny problem ze stwierdzeniem Proudhona "własność jest kradzieżą"?
+answer: Jeśli własność jest kradzieżą, to kradzież staje się własnością, tworząc logiczną sprzeczność
+wrong_answers:
+  - Własność nie może istnieć bez regulacji rządowych i ram prawnych
+  - Kradzież jest moralnie zła, podczas gdy własność jest moralnie słuszna w każdych okolicznościach
+  - Własność wymaga fizycznego posiadania, podczas gdy kradzież wiąże się z tymczasowym nabyciem
+explanation: |
+  Bastiat wykazał wewnętrzną logiczną sprzeczność w słynnym zdaniu Proudhona, pokazując, że jeśli przyjmiemy, że własność równa się kradzieży, to logicznie rzecz biorąc, kradzież musi równać się własności. Prowadzi to do niemożliwego błędnego rozumowania, w którym coś legalnego jest jednocześnie nielegalne. Zamiast tego Bastiat argumentował, że własność naturalnie wywodzi się z pracy, własności i ludzkich zdolności, co czyni ją raczej fundamentalną i logiczną koncepcją niż formą kradzieży.

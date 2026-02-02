@@ -166,7 +166,7 @@ https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 
 - En privat nyckel från Nostr** (format `nsec1...`)
- - Skapa en dedikerad handelsnyckel på [nostrkeygen.com] (https://nostrkeygen.com/)
+ - Skapa en dedikerad handelsnyckel på [nostrkeygen.com](https://nostrkeygen.com/)
  - Viktigt**: Använd aldrig din huvudsakliga personliga Nostr-nyckel
  - Förvara din privata nyckel på en säker plats (lösenordshanterare)
 
@@ -344,7 +344,7 @@ Följ sedan steg 3 och 4 i avsnittet om macOS.
 
 
 
-Installera först Rust via [rustup.rs] (https://rustup.rs/), använd sedan PowerShell :
+Installera först Rust via [rustup.rs](https://rustup.rs/), använd sedan PowerShell :
 
 
 
@@ -368,7 +368,7 @@ Identisk konfiguration: kopiera `.env-sample` till `.env` och fyll i dina parame
 
 
 
-**Steg 1**: Gå till [GitHub releases page] (https://github.com/MostroP2P/mobile/releases) och ladda ner filen **app-release.apk** (ca 65 MB).
+**Steg 1**: Gå till [GitHub releases page](https://github.com/MostroP2P/mobile/releases) och ladda ner filen **app-release.apk** (ca 65 MB).
 
 
 
@@ -951,7 +951,7 @@ För bitcoiners som föredrar autonomi och sekretess är Mostro ett genomförbar
 
 
 - [Mostros officiella webbplats](https://mostro.network)
-- [Teknisk dokumentation] (https://mostro.network/docs-english/index.html)
+- [Teknisk dokumentation](https://mostro.network/docs-english/index.html)
 - [Mostro Foundation](https://mostro.foundation)
 
 
@@ -961,8 +961,8 @@ För bitcoiners som föredrar autonomi och sekretess är Mostro ett genomförbar
 
 
 
-- [Huvudarkiv på GitHub] (https://github.com/MostroP2P/mostro)
-- [Webbklient] (https://github.com/MostroP2P/mostro-web)
+- [Huvudarkiv på GitHub](https://github.com/MostroP2P/mostro)
+- [Webbklient](https://github.com/MostroP2P/mostro-web)
 - [Kund CLI](https://github.com/MostroP2P/mostro-cli)
 
 

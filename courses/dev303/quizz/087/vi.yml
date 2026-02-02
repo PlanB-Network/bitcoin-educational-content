@@ -1,0 +1,8 @@
+question: Điều gì sẽ xảy ra với các cấu trúc Rust có các phương thức liên kết khi chúng được ánh xạ thông qua UDL của UniFFI sang các ngôn ngữ đích như Kotlin hoặc Swift?
+answer: Chúng được hiển thị dưới dạng giao diện trong UDL và generate dưới dạng các lớp có phương thức trong các ngôn ngữ đích hướng đối tượng.
+wrong_answers:
+  - Chúng được chuyển đổi thành các từ điển đơn giản mà không có bất kỳ chức năng phương thức nào trong các ngôn ngữ đích.
+  - Chúng yêu cầu việc triển khai thủ công từng phương thức trong ngôn ngữ đích bằng cách sử dụng giao diện gọi lại.
+  - Chúng được tự động chuyển đổi thành các hàm trong không gian tên, nhận cấu trúc làm tham số đầu tiên.
+explanation: |
+  UniFFI bảo toàn các mẫu thiết kế hướng đối tượng bằng cách ánh xạ các cấu trúc Rust với các phương thức liên kết sang các giao diện trong UDL, sau đó chuyển đổi chúng thành generate dưới dạng các lớp gốc với các phương thức trong ngôn ngữ đích. Điều này duy trì tính toàn vẹn cấu trúc và hành vi của triển khai Rust gốc trong khi vẫn cung cấp các giao diện hướng đối tượng quen thuộc cho các nhà phát triển trong các ngôn ngữ như Kotlin và Swift. Các tùy chọn khác không chính xác vì UniFFI duy trì chức năng của phương thức thay vì làm phẳng thành từ điển, không yêu cầu triển khai thủ công vì các liên kết được tạo tự động và không chuyển đổi các phương thức của cấu trúc thành các hàm trong không gian tên.

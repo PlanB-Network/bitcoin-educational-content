@@ -1,6 +1,7 @@
 ---
 term: XOR
 
+definition: Phép toán logic boolean cơ bản trong mật mã học, chỉ cho kết quả đúng khi hai toán hạng khác nhau.
 ---
 Acronym for the operation "Exclusive or," in French "Ou exclusif." It is a fundamental function of Boolean logic. This operation takes two Boolean operands, each being $true$ or $false$, and produces a $true$ output only when the two operands differ. In other words, the output of the XOR operation is $true$ if exactly one (but not both) of the operands is $true$. For example, the XOR operation between $1$ and $0$ will result in $1$. We note:
 

@@ -1,0 +1,8 @@
+question: Proč moderní těžaři ASIC upravují data v rámci transakce Coinbase a nespoléhají se pouze na pole nonce v záhlaví bloku?
+answer: Čtyřbajtové pole nonce neposkytuje moderním ASIC dostatečný vyhledávací prostor, takže těžaři upravují data Coinbase, aby změnili Merkleho kořen a vytvořili další vyhledávací prostor
+wrong_answers:
+  - Úprava transakce Coinbase umožňuje těžařům nárokovat vyšší blokové odměny, než umožňuje standardní výše dotace
+  - "Transakce Coinbase musí být upravena tak, aby obsahovala digitální podpis těžaře pro účely ověření bloku."
+  - Změna dat Coinbase snižuje výpočetní náročnost tím, že umožňuje těžařům obejít standardní požadavky proof-of-work
+explanation: |
+  Moderní ASICy mohou vyčerpat 4bajtový prostor pro nonce (2^32 možností) velmi rychle, což vyžaduje další vyhledávací prostor. Změnou dat v transakci Coinbase těžaři mění hash transakce, čímž se mění Merkleho kořen v záhlaví bloku, čímž se efektivně vytvářejí miliardy dalších hodnot podobných nonce, které je třeba vyzkoušet. Tato technika, nazývaná "extra-nonce", je nezbytná pro moderní operace mining, kde hardware značně přesahuje kapacitu původního pole nonce.

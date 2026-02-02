@@ -60,7 +60,7 @@ No seu computador, o **Cryptomator criará uma pasta na qual criará um cofre**.
 
 
 
-Para começar, é necessário **descarregar** e **instalar** **Cryptomator**. Quando o download estiver completo, bastam alguns cliques para completar a instalação. Tal como o [Rclone] (https://www.it-connect.fr/rclone-un-outil-gratuit-pour-synchroniser-vos-donnees-dans-le-cloud/), o Cryptomator baseia-se no WinFsp para **montar uma unidade virtual na sua máquina Windows**.
+Para começar, é necessário **descarregar** e **instalar** **Cryptomator**. Quando o download estiver completo, bastam alguns cliques para completar a instalação. Tal como o [Rclone](https://www.it-connect.fr/rclone-un-outil-gratuit-pour-synchroniser-vos-donnees-dans-le-cloud/), o Cryptomator baseia-se no WinFsp para **montar uma unidade virtual na sua máquina Windows**.
 
 
 
@@ -114,7 +114,7 @@ Em seguida, pode ajustar uma opção nas definições de especialistas.
 
 
 
-Em seguida, é necessário definir **uma palavra-passe correspondente à chave de encriptação**. Esta palavra-passe permitir-lhe-á **desbloquear o seu cofre Cryptomator** e aceder aos seus dados. **Se a perder, perde o acesso aos seus dados**. Por fim, tem ainda a opção de **criar uma chave de segurança**, marcando a opção "**Sim, mais vale prevenir do que remediar**", no mesmo espírito da chave de recuperação [BitLocker] (https://www.it-connect.fr/comment-activer-bitlocker-sur-windows-11-pour-chiffrer-son-disque/). Isto é aconselhável, mas não guarde esta chave de cópia de segurança na raiz do seu OneDrive!
+Em seguida, é necessário definir **uma palavra-passe correspondente à chave de encriptação**. Esta palavra-passe permitir-lhe-á **desbloquear o seu cofre Cryptomator** e aceder aos seus dados. **Se a perder, perde o acesso aos seus dados**. Por fim, tem ainda a opção de **criar uma chave de segurança**, marcando a opção "**Sim, mais vale prevenir do que remediar**", no mesmo espírito da chave de recuperação [BitLocker](https://www.it-connect.fr/comment-activer-bitlocker-sur-windows-11-pour-chiffrer-son-disque/). Isto é aconselhável, mas não guarde esta chave de cópia de segurança na raiz do seu OneDrive!
 
 
 

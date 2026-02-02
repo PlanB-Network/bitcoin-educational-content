@@ -1,5 +1,6 @@
 ---
-term: OFF-GRID
+term: Off-grid
+definition: Autonoomne kaevandamine, mis kasutab alternatiivseid energiaallikaid, väljaspool peamist elektrivõrku.
 ---
 
 Viitab Bitcoin Mining operatsioonile, mis töötab autonoomselt, ilma et oleks ühendatud peamise elektrivõrguga. Võrguvälised kaevandajad kasutavad tavaliselt alternatiivseid energiaallikaid, nagu päikese-, tuule- või hüdroenergia, või isegi fossiilkütustel töötavaid generaatoreid (nt gaasi põletamiseks). Seda mudelit eelistatakse sageli energiakulude vähendamiseks, kuna see põhineb osaliselt energial, mis ilma Mining-ta läheks raisku. Võrguvälistel kaevandajatel on see eelis, et nad saavad end üles seada isoleeritud kohtades, et tarbida seda energiat liiga kaugel elanikkonnast.

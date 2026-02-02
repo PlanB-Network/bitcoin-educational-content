@@ -1,0 +1,8 @@
+question: Hva er den grunnleggende forskjellen mellom hvordan makroer og funksjoner behandles i Rust?
+answer: Makroer utvides av kompilatoren på kompileringstidspunktet før kompileringen begynner, mens funksjoner kalles på kjøretid
+wrong_answers:
+  - Makroer bruker mønstermatching for typekontroll, mens funksjoner bruker statisk analyse for validering under kjøring
+  - Makroer generate-optimalisert assemblerkode direkte, mens funksjoner tolkes av den virtuelle Rust-maskinen
+  - Makroer lagres i minnet under kjøring, mens funksjoner lastes inn fra disk når de kalles
+explanation: |
+  Det riktige svaret identifiserer det viktigste tidsmessige skillet: Makroer opererer under kompilering gjennom kodeutvidelse, mens funksjoner utføres under kjøring av programmet. De gale svarene blander sammen ulike programmeringskonsepter - Rust bruker ikke en virtuell maskin, både makroer og funksjoner gjennomgår typekontroll (men på ulike stadier), og verken funksjoner eller makroer lastes inn fra disk under kjøring på den beskrevne måten.

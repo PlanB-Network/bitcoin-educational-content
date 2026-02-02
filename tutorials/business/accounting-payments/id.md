@@ -45,7 +45,7 @@ Konfigurasi yang sedikit lebih canggih adalah menggunakan fitur Point of Sale Wa
 ![image](assets/en/01.webp)
 
 
-Ini adalah salah satu dari dua cara untuk mengakses fitur Point of Sale. Cara lainnya adalah melalui aplikasi khusus [Wallet dari aplikasi Satoshi PoS] (https://www.walletofsatoshi.com/pos.)
+Ini adalah salah satu dari dua cara untuk mengakses fitur Point of Sale. Cara lainnya adalah melalui aplikasi khusus [Wallet dari aplikasi Satoshi PoS](https://www.walletofsatoshi.com/pos.)
 
 
 Manfaat menggunakan fitur Point of Sale ada tiga:

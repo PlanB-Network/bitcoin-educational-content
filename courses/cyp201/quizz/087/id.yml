@@ -6,4 +6,4 @@ wrong_answers:
   - Mereka menggunakan hash kunci publik dalam alamat.
 explanation: |
   Alamat SegWit v1 (P2TR) tidak menggunakan hash dari kunci publik, tetapi langsung menggunakan kunci publik Taproot.
-ditinjau: false
+reviewed: true

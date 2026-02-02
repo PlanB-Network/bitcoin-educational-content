@@ -1,0 +1,8 @@
+question: Hva er hovedformålet med navneromserklæringen i en UniFFI UDL-fil?
+answer: Å tilby en container for funksjoner som kan kalles direkte uten å kreve instansiering av objekter
+wrong_answers:
+  - Slik definerer du pakkestrukturen og importavhengighetene for de genererte språkbindingene
+  - Slik spesifiserer du programmeringsspråkene som skal bruke Rust-biblioteket gjennom UniFFI
+  - Å etablere en strategi for minnehåndtering for datahåndteringsoperasjoner på tvers av språk
+explanation: |
+  Navnerommet i UniFFIs UDL fungerer som en beholder for frittstående funksjoner som kan påkalles direkte uten å opprette objekter først. Disse navneromsfunksjonene håndterer vanligvis enkle operasjoner som tar verdier som parametere og returnerer resultater. De andre alternativene er feil fordi: pakkestruktur og import håndteres automatisk av bindingsgenereringsprosessen, målspråk spesifiseres under byggeprosessen i stedet for i UDL-filen, og minnehåndtering håndteres transparent av UniFFIs kjøretidslag i stedet for å bli eksplisitt deklarert i navnerom.

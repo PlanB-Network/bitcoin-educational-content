@@ -1,0 +1,8 @@
+question: Milline põhimõtteline erinevus eristab liberaalses majandusteoorias ennetavat süsteemi repressiivsest süsteemist?
+answer: Ennetav süsteem reguleerib eelnevalt, et vältida võimalikku kahju, samas kui repressiivne süsteem tegutseb alles pärast tegeliku kahju tekkimist
+wrong_answers:
+  - Preventiivne süsteem keskendub kriminaalõiguse jõustamisele, samas kui repressiivne süsteem tegeleb tsiviilõiguslike vaidluste ja lepingutega
+  - Ennetav süsteem võimaldab vaba turukonkurentsi, samas kui repressiivne süsteem piirab kaubandust valitsuse sekkumise kaudu
+  - Ennetav süsteem kaitseb individuaalset omandiõigust, samas kui repressiivne süsteem jaotab rikkust ümber maksustamise kaudu
+explanation: |
+  Ennetav süsteem loob eelnevalt regulatsioone, et väidetavalt ennetada võimalikke õiguste rikkumisi, kuid tegelikult alustab õiguste rikkumist ise, piirates vabaduse ohutut kasutamist. Liberaalide poolt soositud repressiivne süsteem põhineb individuaalsel vastutusel, kus inimesed võetakse vastutusele alles siis, kui nad tegelikult teiste õigusi kahjustavad. See erinevus on oluline, sest ennetav lähenemisviis piirab vabadust ennetavalt, samas kui repressiivne lähenemisviis säilitab maksimaalse vabaduse kuni tegeliku kahju tekkimiseni.

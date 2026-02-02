@@ -1,6 +1,7 @@
 ---
-term: ACCIONES
+term: Shares
 
+definition: Indicador que cuantifica la contribución de un minero individual dentro de un pool de minería.
 ---
 En el contexto de los pools de minería, una cuota es un indicador utilizado para cuantificar la contribución de un minero individual dentro del pool. Esta medida sirve de base para calcular la recompensa que el pool redistribuye a cada minero. Cada cuota corresponde a un hash que satisface un objetivo de dificultad inferior al de la red Bitcoin.
 
@@ -13,10 +14,9 @@ Para cada hash calculado, un minero individual de un pool puede encontrarse con 
 - Si el hash es menor que el objetivo de dificultad de la acción, pero mayor o igual que el objetivo de dificultad de Bitcoin, entonces este hash constituye una acción válida que, sin embargo, no es suficiente para validar un bloque. El minero puede enviar este hash a su pool para reclamar la recompensa asociada a la acción: `acción > hash > bloque`.
 - Si el hash es inferior al objetivo de dificultad de la red Bitcoin, se considera tanto una acción como un bloque válidos. El minero transmite este hash a su pool, que se apresura a difundirlo en la red Bitcoin. Este hash también se cuenta como una acción válida para el minero: `share > bloc > hash`.
 
-![](../../dictionnaire/assets/32.webp)
+
 
 Este sistema de acciones se utiliza para estimar el trabajo realizado por cada minero individual dentro de un pool, sin tener que recalcular individualmente todos los hashes generados por un minero, lo que sería completamente ineficiente para el pool.
 
 Los pools de minería ajustan la dificultad de las participaciones para equilibrar la carga de verificación y garantizar que cada minero, ya sea pequeño o grande, envíe participaciones aproximadamente cada pocos segundos. Esto permite calcular con precisión el hashrate de cada minero y distribuir las recompensas según el método de cálculo de compensación elegido (PPS, PPLNS, TIDES...).
 
-> ► *En francés, "shares" puede traducirse por "parte "*

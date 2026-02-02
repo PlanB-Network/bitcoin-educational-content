@@ -1,5 +1,6 @@
 ---
-term: Bitcoin-DEV
+term: Bitcoin-dev
+definition: 專門用於討論比特幣協議開發技術討論的郵件列表。
 ---
 
 專門用於開發 Bitcoin 通訊協定的電子郵件論壇。Bitcoin-dev 由 Jeff Garzik 於 2011 年建立，最初寄存於 Sourceforge.net。此郵件列表後來移至 Linux Foundation，再移至 Open Source Lab，最後，自 2024 年 2 月起寄存於 Google Groups：https://groups.google.com/g/bitcoindev。

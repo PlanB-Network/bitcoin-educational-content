@@ -1,0 +1,8 @@
+question: Jaké je hlavní omezení použití knihovny anyhow pro zpracování chyb při vývoji knihovny Rust?
+answer: Převádí všechny chyby na řetězcové zprávy, čímž brání spotřebitelům programově reagovat na různé chybové stavy
+wrong_answers:
+  - Pracuje pouze s typy výsledků a neumí pracovat s typy možností, což omezuje jeho užitečnost ve smíšených scénářích
+  - Vyžaduje ruční konverzi chyb pro každý typ chyby, takže je mnohem obsáhlejší než standardní zpracování výsledků
+  - Automaticky panikaří při určitých typech chyb, takže je nevhodný pro produkční knihovní kód
+explanation: |
+  Hlavní nevýhodou knihovny anyhow pro vývoj knihoven je, že v podstatě zplošťuje všechny chyby na řetězcovou reprezentaci, čímž ztrácí strukturované informace o chybách, které uživatelé knihovny potřebují k programovému rozhodování. Zatímco anyhow vyniká ve zjednodušení zpracování chyb pro aplikace pro koncové uživatele, kde se chyby primárně zobrazují, knihovny musí poskytovat specifické typy chyb, které konzumentům umožní rozlišovat mezi různými způsoby selhání (například neplatný vstup vs. chyby za běhu) a vhodně na ně reagovat. Ostatní možnosti jsou nesprávné: anyhow pracuje dobře s typy Result i Option, ve skutečnosti snižuje slovosled díky automatické konverzi a nezpůsobuje paniku.

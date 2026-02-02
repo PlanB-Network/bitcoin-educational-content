@@ -1,0 +1,8 @@
+question: Deweloper chce przetestować emisję zasobów na Elements bez zewnętrznych zależności lub oczekiwania na potwierdzenia bloków - jakiej konfiguracji powinien użyć?
+answer: Ustawienie chain=elementsregtest tworzy lokalne środowisko testowe z natychmiastowym generowaniem bloków
+wrong_answers:
+  - Ustaw łańcuch=liquidv1, aby połączyć się z główną siecią Liquid w celu natychmiastowego przetestowania
+  - Użyj polecenia issueasset RPC z flagą --testmode do odizolowanego programowania
+  - "Skonfiguruj chain=bitcoin-regtest, aby uzyskać dostęp do funkcji Elements w środowisku testowym Bitcoin"
+explanation: |
+  Konfiguracja elementsregtest tworzy lokalne środowisko testowania regresji, w którym programiści mogą natychmiast tworzyć bloki generate za pomocą poleceń takich jak generateblock, umożliwiając im testowanie wydawania zasobów i innych funkcji bez czekania na potwierdzenia sieci lub w zależności od zewnętrznych węzłów. Ustawienie chain=liquidv1 łączy się z produkcyjną siecią Liquid, która ma 1-minutowe czasy bloków i zewnętrzne zależności. Polecenie issueasset nie ma flagi --testmode, a bitcoin-regtest jest przeznaczony dla Bitcoin Core, a nie funkcjonalności Elements.

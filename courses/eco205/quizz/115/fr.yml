@@ -1,0 +1,8 @@
+question: Dans l'exemple de la boulangère et de l'acheteur, qu'est-ce qui permet fondamentalement que la transaction ait lieu et soit mutuellement profitable?
+answer: La boulangère valorise davantage l'argent que sa baguette tandis que l'acheteur valorise davantage la baguette que son argent
+wrong_answers:
+  - Le prix de la baguette correspond exactement à sa valeur objective déterminée par les coûts de production
+  - Les deux parties attribuent la même valeur à la baguette mais acceptent un compromis sur le prix
+  - "La boulangère et l'acheteur s'accordent sur une valeur commune de la baguette basée sur l'utilité marginale"
+explanation: |
+  Selon la théorie autrichienne, l'échange n'est possible que grâce à la différence de valorisation subjective entre les parties. La boulangère préfère recevoir l'argent plutôt que de garder sa baguette, tandis que l'acheteur préfère obtenir la baguette plutôt que de conserver son argent. Cette discordance des jugements de valeur rend l'échange mutuellement bénéfique. Si les deux parties valorisaient identiquement les biens, aucun échange n'aurait lieu car il n'y aurait aucun avantage mutuel à retirer de la transaction.

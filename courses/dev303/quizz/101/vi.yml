@@ -1,0 +1,8 @@
+question: Đặc điểm cụ thể nào của kiến trúc hướng sự kiện của LDK cho phép các ứng dụng duy trì sự tách biệt rõ ràng giữa logic giao thức Lightning và các phản hồi dành riêng cho ứng dụng?
+answer: Thông báo không đồng bộ được cung cấp cho tất cả các thao tác quan trọng và thay đổi trạng thái, cho phép triển khai các trình xử lý sự kiện tùy chỉnh một cách độc lập.
+wrong_answers:
+  - Các hàm gọi lại đồng bộ được kích hoạt trực tiếp trong trình quản lý kênh, yêu cầu phản hồi ngay lập tức để duy trì sự tuân thủ giao thức.
+  - Các trình xử lý sự kiện được tự động tạo dựa trên cấu hình ứng dụng, loại bỏ nhu cầu về logic triển khai tùy chỉnh.
+  - Tất cả các sự kiện được xếp vào hàng đợi trong bộ đệm trung tâm và được xử lý tuần tự để đảm bảo hoạt động của ứng dụng diễn ra theo quy luật xác định.
+explanation: |
+  Hệ thống sự kiện của LDK cung cấp thông báo không đồng bộ cho tất cả các hoạt động Lightning, bao gồm kết nối ngang hàng, thanh toán và thay đổi kênh. Điều này cho phép các nhà phát triển triển khai các trình xử lý sự kiện tùy chỉnh phản hồi phù hợp trong khi vẫn duy trì sự tách biệt rõ ràng giữa chức năng cốt lõi của LDK và logic ứng dụng. Các tùy chọn khác không chính xác vì LDK không sử dụng các hàm gọi lại đồng bộ làm chặn các hoạt động giao thức, không tự động tạo trình xử lý generate và không bắt buộc xử lý sự kiện theo trình tự.

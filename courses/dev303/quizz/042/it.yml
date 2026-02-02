@@ -1,0 +1,8 @@
+question: Qual è il principale vantaggio del fatto che gli iteratori siano pigri in Rust?
+answer: Non eseguono alcun lavoro finché non vengono consumati, consentendo un concatenamento efficiente senza creare raccolte intermedie
+wrong_answers:
+  - Parallelizzano automaticamente le operazioni su più core della CPU per migliorare le prestazioni
+  - Memorizzano i risultati precedenti per evitare di calcolare più volte gli stessi valori
+  - Utilizzano meno memoria memorizzando solo i riferimenti invece di copiare i valori reali dei dati
+explanation: |
+  La valutazione pigra negli iteratori di Rust significa che non eseguono alcuna elaborazione finché non viene chiamato un metodo di consumo. Ciò consente di concatenare più operazioni come map, filter e altri adattatori senza creare collezioni intermedie tra un passaggio e l'altro. Il compilatore può ottimizzare l'intera catena in un codice efficiente che elabora gli elementi uno alla volta attraverso tutte le trasformazioni, anziché creare vettori temporanei o altre raccolte a ogni passaggio.

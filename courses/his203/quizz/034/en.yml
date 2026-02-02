@@ -1,0 +1,10 @@
+question: What was the concept behind P2Pool, the distributed mining pool created by Forrest Voight in 2011?
+answer: The chain of shares
+wrong_answers:
+  - Long polling
+  - The coinbase signature
+  - The FPGA
+explanation: |
+ The "chain of shares", or sharechain, was made up of partial proofs of work contributed by participants. It was maintained by the participants, who were connected
+ peer-to-peer. Each share contained the fingerprint of the previous share, ensuring the integrity of the whole.
+reviewed: true

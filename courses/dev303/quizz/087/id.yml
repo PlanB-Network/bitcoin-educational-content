@@ -1,0 +1,8 @@
+question: Apa yang terjadi pada struktur Rust dengan metode terkait ketika dipetakan melalui UDL UniFFI ke bahasa target seperti Kotlin atau Swift?
+answer: Mereka diekspos sebagai antarmuka di UDL dan generate sebagai kelas dengan metode dalam bahasa target berorientasi objek
+wrong_answers:
+  - Mereka dikonversi menjadi kamus sederhana tanpa fungsionalitas metode apa pun dalam bahasa target
+  - Mereka membutuhkan implementasi manual dari setiap metode dalam bahasa target menggunakan antarmuka callback
+  - Mereka secara otomatis diubah menjadi fungsi ruang nama yang mengambil struct sebagai parameter pertama
+explanation: |
+  UniFFI mempertahankan pola desain berorientasi objek dengan memetakan struktur Rust dengan metode terkait ke antarmuka dalam UDL, yang kemudian generate sebagai kelas asli dengan metode dalam bahasa target. Hal ini mempertahankan integritas struktural dan perilaku implementasi Rust asli sambil menyajikan antarmuka berorientasi objek yang sudah dikenal oleh para pengembang dalam bahasa seperti Kotlin dan Swift. Pilihan lain tidak tepat karena UniFFI secara khusus mempertahankan fungsionalitas metode daripada meratakan ke kamus, tidak memerlukan implementasi manual karena binding dibuat secara otomatis, dan tidak mengkonversi metode struct ke fungsi namespace.

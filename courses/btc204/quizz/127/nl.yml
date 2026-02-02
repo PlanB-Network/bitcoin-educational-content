@@ -2,8 +2,8 @@ question: Wat is het grootste nadeel van coinswaps en atomic swaps op het gebied
 answer: Ze breken de geschiedenis van de omgewisselde munten niet af
 wrong_answers:
   - Ze zijn erg duur in transactiekosten
-  - Ze vereisen de Exchange van persoonlijke informatie tussen partijen
-  - Ze kunnen worden geanalyseerd door Exchange platforms
+  - Ze vereisen de uitwisseling van persoonlijke informatie tussen partijen
+  - Ze kunnen worden geanalyseerd door exchange-platforms
 explanation: |
   Het grootste nadeel van deze methoden is dat ze erg riskant zijn zonder het gebruik van een extra techniek om de geschiedenis van de munt te breken.
   

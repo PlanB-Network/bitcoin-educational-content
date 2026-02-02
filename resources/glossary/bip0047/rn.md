@@ -1,5 +1,6 @@
 ---
 term: BIP0047
+definition: Codes zo kwishyura zishobora gukoreshwa kenshi ziremera kwakira iyishyurwa ryinshi utarinze gukoresha adresse imwe kenshi, bituma ibanga ryongerekana. Bikoreshwa na PayNym.
 ---
 
 Iyi porotokole yashikirijwe na Justus Ranvier mu 2015, ivuga ku kibazo gikomeye co gusubira gukoresha Bitcoin Address, umugenzo uhungabanya cane ubuzima bwite bw’abakoresha. Satoshi Nakamoto, mu gitabu cera ca Bitcoin, yari amaze kugaragaza akamaro ko gukoresha amajambo y’ingenzi atandukanye ku bijanye n’ugucuruza kwose kugira ngo hagumyeho itandukaniro mu bikorwa bitandukanye vy’abakoresha.

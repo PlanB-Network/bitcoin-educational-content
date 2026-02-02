@@ -1,0 +1,8 @@
+question: ¿Qué garantiza que las dos partes de un intercambio cruzado completen con éxito la transacción o que ambas fallen sin perder fondos?
+answer: En ambas redes se utiliza el mismo hash de bloqueo, lo que crea un vínculo criptográfico entre los tramos de intercambio
+wrong_answers:
+  - Los bloqueos temporales impiden a cualquiera de las partes reclamar fondos hasta que ambas redes confirman las transacciones
+  - La agregación de claves MuSig2 requiere que ambas partes firmen conjuntamente antes de poder mover fondos
+  - "La ruta del script de Taproot invierte automáticamente las transacciones si una red no se completa"
+explanation: |
+  La naturaleza atómica de los intercambios entre capas se basa en el uso de cerraduras hash idénticas en ambas redes. Cuando el receptor revela la preimagen secreta para reclamar fondos en una capa, ese mismo secreto se hace visible y utilizable por el emisor para reclamar fondos recíprocos en la otra capa. Este enlace criptográfico garantiza la atomicidad: o ambas partes obtienen sus fondos o ninguna lo hace, lo que elimina el riesgo de contraparte en los intercambios sin confianza.

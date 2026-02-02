@@ -1,0 +1,8 @@
+question: Varför är filosofin "move fast and break things" särskilt olämplig för Bitcoin-utveckling jämfört med traditionell mjukvaruutveckling?
+answer: Bitcoin-transaktioner är irreversibla utan någon central myndighet som kan återkräva medel från misstag
+wrong_answers:
+  - Bitcoin-utveckling kräver snabbare iterationscykler än traditionella webbapplikationer
+  - "Rust:s kompilator förhindrar den snabba prototypframtagning som behövs för blockkedjeinnovation"
+  - "Bitcoin:s karaktär av öppen källkod gör det svårare att åtgärda buggar efter driftsättning"
+explanation: |
+  Det korrekta svaret belyser Bitcoin:s grundläggande egenskap: dess decentraliserade natur innebär att det inte finns någon myndighet att vända sig till för återvinning av medel när transaktioner har sänts. Till skillnad från traditionella finansiella system med regleringsskydd och återbetalningsmekanismer är Bitcoin-misstag permanenta och oåterkalleliga. De felaktiga svaren missförstår kärnfrågan - det handlar inte om utvecklingshastighet, kompilatorbegränsningar eller utmaningar med öppen källkod, utan om den oåterkalleliga karaktären hos finansiella transaktioner i ett decentraliserat system där användarnas medel är i permanent risk.

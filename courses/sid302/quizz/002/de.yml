@@ -1,0 +1,8 @@
+question: Wie oft werden im Liquid Network neue Blöcke erzeugt?
+answer: Jede Minute
+wrong_answers:
+  - Alle 10 Minuten
+  - Alle 30 Sekunden
+  - Alle 5 Minuten
+explanation: |
+  Der Liquid Network produziert jede Minute Blöcke in einem deterministischen Round-Robin-Verfahren, was viel schneller und vorhersehbarer ist als die probabilistischen 10-Minuten-Intervalle des Bitcoin. Dieses präzise einminütige Timing ist für die Anwendungsfälle des Netzwerks wie Arbitrage und schnelle Abrechnung zwischen den Börsen entscheidend und sorgt für die Geschwindigkeit, die für den institutionellen Handel erforderlich ist.

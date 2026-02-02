@@ -6,4 +6,4 @@ wrong_answers:
   - AETF
 explanation: |
   ARPA (Advanced Research Projects Agency) inicirala je ARPANET, koji je postavio temelje za razvoj TCP/IP protokola. Godine 1972, agencija je preimenovana u DARPA (Defense Advanced Research Projects Agency).
-reviewed: false
+reviewed: true

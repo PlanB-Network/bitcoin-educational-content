@@ -8,7 +8,7 @@ description: Hur kan du delta i korrekturläsning/granskning av utbildningsinneh
 ## Sammanfattning
 
 
-Om du vill korrekturläsa eller granska innehåll för Plan ₿ Academy, gå med i [vår Telegramgrupp] (https://t.me/PlanBNetwork_ContentBuilder) som är avsedd för bidrag. Presentera dig själv kort och ange sedan vilket innehåll du vill granska och vilket språk det gäller. Gör dina korrigeringar på en arbetsgren och skicka in en PR när din granskning är klar.
+Om du vill korrekturläsa eller granska innehåll för Plan ₿ Academy, gå med i [vår Telegramgrupp](https://t.me/PlanBNetwork_ContentBuilder) som är avsedd för bidrag. Presentera dig själv kort och ange sedan vilket innehåll du vill granska och vilket språk det gäller. Gör dina korrigeringar på en arbetsgren och skicka in en PR när din granskning är klar.
 
 
 Om du inte förstod delen ovan, oroa dig inte - den här handledningen är för dig!
@@ -31,7 +31,7 @@ Plan ₿ Academy strävar efter att bli det offentliga torget i Bitcoin-cyberspa
 Plan ₿ Academy är i grunden flerspråkig, eftersom vårt mål är att göra Bitcoin-resurser tillgängliga för alla i hela världen. Vi anser att språk inte ska vara ett hinder för suveräna pengar.
 
 
-För att uppnå detta använder vi en Human x AI-strategi. Genom vårt [program] (https://github.com/Asi0Flammeus/LLM-Translator) kan vi automatiskt översätta vårt innehåll till många språk. Vi behöver dock en person som talar språket flytande för att granska det och se till att innehållet är begripligt och fritt från olämpliga termer.
+För att uppnå detta använder vi en Human x AI-strategi. Genom vårt [program](https://github.com/Asi0Flammeus/LLM-Translator) kan vi automatiskt översätta vårt innehåll till många språk. Vi behöver dock en person som talar språket flytande för att granska det och se till att innehållet är begripligt och fritt från olämpliga termer.
 
 
 Om du vill hjälpa till att bygga detta utbildningsprojekt för att främja Bitcoin-utbildning i ditt samhälle kan du börja med att granska en kurs eller handledning.
@@ -55,7 +55,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- Skapa ett konto på [GitHub] (https://github.com/) för att börja bidra. Om du vill ha vägledning om hur du skapar ditt GitHub-konto kan du gå till handledningen som nämns ovan.
+- Skapa ett konto på [GitHub](https://github.com/) för att börja bidra. Om du vill ha vägledning om hur du skapar ditt GitHub-konto kan du gå till handledningen som nämns ovan.
 
 <<<<<<< HUVUDEN
 
@@ -64,14 +64,14 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 > 29182ddfc9 (Uppdatering av handledning i korrekturläsning (#1642))
 
-- Du behöver också ett konto på meddelandeappen [Telegram] (https://telegram.org/).
+- Du behöver också ett konto på meddelandeappen [Telegram](https://telegram.org/).
 
 
 ## 2. Gå med i Telegram-gruppen
 
 
 
-- Gå med i [Plan ₿ Academy Content Builder-gruppen] (https://t.me/PlanBNetwork_ContentBuilder) på Telegram.
+- Gå med i [Plan ₿ Academy Content Builder-gruppen](https://t.me/PlanBNetwork_ContentBuilder) på Telegram.
 
 
 ![REVIEW](assets/fr/01.webp)
@@ -202,7 +202,7 @@ För att få mer information om riktlinjerna som ska följas vid korrekturläsni
 
 
 
-- Grattis, din PR har skickats in! Du kan följa dess framsteg under fliken "Pull requests" på [Plan ₿ Academy:s GitHub-arkiv] (https://github.com/PlanB-Network/Bitcoin-educational-content/pulls):
+- Grattis, din PR har skickats in! Du kan följa dess framsteg under fliken "Pull requests" på [Plan ₿ Academy:s GitHub-arkiv](https://github.com/PlanB-Network/Bitcoin-educational-content/pulls):
 
 
 ![REVIEW](assets/fr/12.webp)
@@ -217,4 +217,4 @@ För att få mer information om riktlinjerna som ska följas vid korrekturläsni
 
 
 
-- Om du har några anmärkningar, frågor eller kommentarer om detta projekt får du gärna skicka ett DM [till bidragsgivarnas Telegram-grupp] (https://t.me/PlanBNetwork_ContentBuilder).
+- Om du har några anmärkningar, frågor eller kommentarer om detta projekt får du gärna skicka ett DM [till bidragsgivarnas Telegram-grupp](https://t.me/PlanBNetwork_ContentBuilder).

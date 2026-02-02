@@ -1,5 +1,6 @@
 ---
 term: MIT X11
+definition: Permissieve vrije softwarelicentie die door Bitcoin Core wordt gebruikt sinds de oprichting.
 ---
 
 Een zeer tolerante vrije softwarelicentie die gebruikers toestaat de software te kopiëren, aan te passen, samen te voegen, te publiceren, te verspreiden, in sublicentie te geven en te verkopen. De licentie vereist alleen dat de originele licentie en copyright vermeldingen behouden blijven in alle substantiële kopieën of distributies van de software. In tegenstelling tot de GPL-licentie vereist de MIT-licentie niet dat aanpassingen of afgeleide versies van de software onder dezelfde licentie worden verspreid. Deze flexibiliteit maakt de MIT X11 licentie een populaire keuze voor veel open source projecten, waaronder in het Bitcoin ecosysteem. Satoshi Nakamoto koos deze licentie voor de eerste versie van Bitcoin, die in 2009 werd uitgebracht, en ze wordt nog steeds gebruikt voor het Bitcoin core project.

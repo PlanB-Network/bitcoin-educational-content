@@ -1,6 +1,7 @@
 ---
-term: MÉTODO DE ACTIVAÇÃO
+term: Método de ativação
 
+definition: O processo pelo qual a comunidade Bitcoin decide ativar um soft fork, buscando consenso entre mineradores e usuários para evitar uma divisão do blockchain.
 ---
 Um método de ativação é o processo pelo qual a comunidade de utilizadores decide sobre a implementação de um soft fork no protocolo Bitcoin, com o objetivo de evitar uma divisão da blockchain. Este processo envolve solicitar a opinião dos mineiros para aprovar um soft fork antes da sua ativação. Se uma maioria significativa aceitar o soft fork, o risco de uma divisão da blockchain é minimizado. Este consenso é crucial porque se a maioria dos mineiros se recusar a fazer a modificação, o soft fork pode criar duas cadeias distintas: uma com as regras modificadas e outra sem. Existem 2 categorias principais de métodos de ativação:
 

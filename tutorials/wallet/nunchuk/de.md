@@ -20,7 +20,7 @@ Nach mehr als 4 Jahren der Entwicklung und Nutzung ist es nun bereit, in großem
 ## Herunterladen
 
 
-Der erste Schritt ist definitiv die Entscheidung, wo Sie die App herunterladen können. Gehen Sie auf die [offizielle Website] (https://nunchuk.io/), wo Sie einige Dokumentationen (nicht viel, aber ein Anfang), die Präsentation der Funktionen und am Ende der Seite alle Download-Links finden.
+Der erste Schritt ist definitiv die Entscheidung, wo Sie die App herunterladen können. Gehen Sie auf die [offizielle Website](https://nunchuk.io/), wo Sie einige Dokumentationen (nicht viel, aber ein Anfang), die Präsentation der Funktionen und am Ende der Seite alle Download-Links finden.
 
 
 
@@ -394,7 +394,7 @@ Sie befinden sich in _Home_, wo Sie das neu erstellte Wallet sehen, das den Kont
 
 
 - Über das Linsensymbol in der oberen rechten Ecke können Sie eine Transaktionssuche durchführen;
-- gW-35-Konfiguration anzeigen" ermöglicht den Zugriff auf das Konfigurationsmenü, in dem Sie den Namen des Wallet bearbeiten und die erweiterten Optionen oben rechts aktivieren können (von denen Sie keine Bildschirmfotos erhalten können). Hier können Sie die Wallet-Konfiguration exportieren, Beschriftungen vornehmen, Tasten ersetzen, die [Lückengrenze] (https://planb.academy/en/resources/glossary/gap-limit) ändern und mehr.
+- gW-35-Konfiguration anzeigen" ermöglicht den Zugriff auf das Konfigurationsmenü, in dem Sie den Namen des Wallet bearbeiten und die erweiterten Optionen oben rechts aktivieren können (von denen Sie keine Bildschirmfotos erhalten können). Hier können Sie die Wallet-Konfiguration exportieren, Beschriftungen vornehmen, Tasten ersetzen, die [Lückengrenze](https://planb.academy/en/resources/glossary/gap-limit) ändern und mehr.
 
 
 

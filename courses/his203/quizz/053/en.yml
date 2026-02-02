@@ -1,0 +1,11 @@
+question: What was the name of the private-to-private foreign exchange service launched by Jeremias Kangas and his brother in June 2012?
+answer: LocalBitcoins
+wrong_answers:
+  - BTC NEAR ME
+  - BitInstant
+  - Coinabul
+explanation: |
+ This was a matchmaking platform, which was launched on June 7. Over the summer, LocalBitcoins integrated an escrow system, through which bitcoins could be
+ momentarily held by the platform and released via SMS for payment to the buyer. In particular, this enabled face-to-face exchanges, where the seller would 
+ release the bitcoins once cash had been received.
+reviewed: true

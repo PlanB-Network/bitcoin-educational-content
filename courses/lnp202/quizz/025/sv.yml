@@ -1,0 +1,9 @@
+question: Vilka förutsättningar krävs för att ett blixtstraff ska vara effektivt?
+answer: Detektering före slutet av tidslåset
+wrong_answers:
+  - Detektering innan tidslåset börjar
+  - Detektering av fusk före lansering TX
+  - Detektering efter tidslåsets slut
+explanation: |
+  Justice-transaktionen måste frigöras innan tidslåset löper ut för att fusket ska bestraffas. Den kan inte släppas innan tidslåset börjar eller TX publiceras, eftersom det skulle innebära att fusket helt enkelt inte ägde rum.
+reviewed: false

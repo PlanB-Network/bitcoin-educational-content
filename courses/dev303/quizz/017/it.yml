@@ -1,0 +1,8 @@
+question: Quali sono i tre componenti che costituiscono la struttura di una stringa nel layout di memoria di Rust?
+answer: Un puntatore ai dati dell'heap, alla lunghezza corrente e alla capacità totale
+wrong_answers:
+  - Un puntatore ai dati della pila, la dimensione corrente e la lunghezza massima
+  - Un indirizzo di memoria, il conteggio dei caratteri e il tipo di allocazione
+  - Un riferimento ai dati, la dimensione del byte e lo stato della proprietà
+explanation: |
+  Una stringa in Rust consiste esattamente di tre componenti memorizzati sullo stack: un puntatore ai dati dei caratteri allocati nell'heap, la lunghezza corrente del contenuto della stringa e la capacità totale del buffer allocato. Questa struttura consente alle stringhe di crescere e ridursi in modo efficiente, mantenendo la conoscenza dei loro confini. Le altre opzioni non sono corrette perché fanno riferimento a posizioni sbagliate (stack invece di heap), usano una terminologia imprecisa (dimensione vs. lunghezza, conteggio dei caratteri vs. lunghezza dei byte) o includono componenti inesistenti come il tipo di allocazione o lo stato di proprietà.

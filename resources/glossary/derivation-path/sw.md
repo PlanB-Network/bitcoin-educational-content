@@ -1,5 +1,6 @@
 ---
-term: NJIA YA DERIVATION
+term: Njia ya utoaji
+definition: Msururu wa faharisi unaoelezea njia ya unyumbulishaji wa funguo za watoto kutoka kwa ufunguo mkuu katika pochi ya HD.
 ---
 
 Katika muktadha wa pochi za Hierarkia Deterministic (HD), njia ya uasilia inarejelea mlolongo wa fahirisi zinazotumiwa kupata funguo za watoto kutoka kwa ufunguo mkuu. Imefafanuliwa katika BIP32, njia hii inabainisha muundo wa mti wa kupata funguo za watoto. Njia ya unyambulishaji inawakilishwa na mfululizo wa fahirisi zilizotenganishwa na mikwaju, na kila mara huanza na ufunguo mkuu (unaoashiria `m/`). Kwa mfano, njia ya kawaida inaweza kuwa `m/84'/0'/0'/0/0`. Kila ngazi ya derivation inahusishwa na kina maalum:
@@ -26,4 +27,3 @@ Kwa mfano, ikiwa upokeaji wangu wa Address una njia ya derivation `m / 86' / 0' 
 - `5` inaonyesha kuwa ni Address ya sita ya akaunti hii.
 
 
-![](../../dictionnaire/assets/18.webp)

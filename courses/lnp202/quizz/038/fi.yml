@@ -1,0 +1,9 @@
+question: Miksi kuluttajaprofiilia on helppo hallita?
+answer: Vähäinen tarve tulevaan likviditeettiin
+wrong_answers:
+  - Kanavaa ei tarvita
+  - Vähäinen tarve lähtevälle likviditeetille
+  - Ei tarvetta varmuuskopioinnille
+explanation: |
+  Kuluttajat eivät tarvitse paljon tulevaa likviditeettiä, ja lähtevät maksut luovat luonnollisesti jonkin verran tulevaa likviditeettiä ilman monimutkaista strategiaa.
+reviewed: false

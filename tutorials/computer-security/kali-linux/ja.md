@@ -459,29 +459,30 @@ Kali Linuxの基本的なタスクを表にまとめてみよう。
 
 
 
-| **Catégorie**              | **Tâche de base**                      | **Description / Objectif**                                 | **Méthode principale**                                       |
+
+| **カテゴリー** | **基本タスク** | **説明 / 目的** | **主な方法** |
 | -------------------------- | -------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------ |
-| **Navigation système**     | Ouvrir le terminal                     | Accéder à la ligne de commande principale de Kali          | Cliquez sur l’icône du terminal ou utilisez `Ctrl + Alt + T` |
-|                            | Parcourir les dossiers                 | Se déplacer dans l’arborescence du système                 | `cd /chemin/du/dossier`, `ls` pour lister les fichiers       |
-|                            | Créer / supprimer un dossier           | Organiser les fichiers                                     | `mkdir nom_dossier`, `rm -r nom_dossier`                     |
-| **Gestion des fichiers**   | Copier / déplacer un fichier           | Manipuler des fichiers dans le terminal                    | `cp fichier destination`, `mv fichier destination`           |
-|                            | Supprimer un fichier                   | Libérer de l’espace disque                                 | `rm nom_du_fichier`                                          |
-|                            | Afficher le contenu d’un fichier texte | Lire rapidement un fichier                                 | `cat fichier.txt`, `less fichier.txt`                        |
-| **Gestion du système**     | Mettre à jour Kali Linux               | Installer les dernières versions et correctifs de sécurité | `sudo apt update && sudo apt full-upgrade -y`                |
-|                            | Installer un logiciel                  | Ajouter un nouvel outil ou utilitaire                      | `sudo apt install nom_du_paquet`                             |
-|                            | Supprimer un logiciel                  | Nettoyer le système                                        | `sudo apt remove nom_du_paquet`                              |
-|                            | Nettoyer les dépendances inutiles      | Gagner de l’espace disque                                  | `sudo apt autoremove`                                        |
-| **Réseau et Internet**     | Vérifier la connexion réseau           | Tester l’accès à Internet                                  | `ping google.com`                                            |
-|                            | Identifier l’adresse IP                | Connaître sa configuration réseau                          | `ip a` ou `ifconfig`                                         |
-|                            | Changer de réseau Wi-Fi                | Se connecter à un autre point d’accès                      | Icône réseau → Sélectionner le Wi-Fi voulu                   |
-| **Comptes et permissions** | Exécuter une commande administrateur   | Obtenir les droits root temporairement                     | `sudo commande`                                              |
-|                            | Créer un nouvel utilisateur            | Ajouter un compte local                                    | `sudo adduser nom_utilisateur`                               |
-|                            | Modifier un mot de passe               | Sécuriser un compte                                        | `passwd`                                                     |
-| **Apparence et confort**   | Changer le fond d’écran                | Personnaliser le bureau                                    | Clic droit sur le bureau → **Paramètres du bureau**          |
-|                            | Modifier le thème / icônes             | Améliorer la lisibilité et l’esthétique                    | Paramètres → Apparence / Thèmes                              |
-| **Outils Kali**            | Ouvrir le menu des outils              | Explorer les outils de test et de sécurité                 | Menu **Applications → Kali Linux**                           |
-|                            | Lancer un outil (ex : nmap, wireshark) | Découverte pratique des utilitaires de sécurité            | `sudo nmap`, `wireshark`, etc.                               |
-| **Aide et documentation**  | Obtenir de l’aide sur une commande     | Comprendre une commande avant de l’utiliser                | `man commande` ou `commande --help`                          |
+| **システムナビゲーション** | ターミナルを開く | Kaliのメインコマンドラインにアクセスする | ターミナルアイコンをクリックするか `Ctrl + Alt + T` を使用 |
+| | フォルダを閲覧する | システムのディレクトリツリー内を移動する | `cd /path/to/folder`、ファイル一覧を表示するには `ls` |
+| | フォルダの作成 / 削除 | ファイルを整理する | `mkdir folder_name`、`rm -r folder_name` |
+| **ファイル管理** | ファイルのコピー / 移動 | ターミナルでファイルを操作する | `cp file destination`、`mv file destination` |
+| | ファイルの削除 | ディスク容量を確保する | `rm file_name` |
+| | テキストファイルの内容を表示 | ファイルを素早く読み取る | `cat file.txt`、`less file.txt` |
+| **システム管理** | Kali Linuxのアップデート | 最新バージョンとセキュリティパッチをインストール | `sudo apt update && sudo apt full-upgrade -y` |
+| | ソフトウェアのインストール | 新しいツールやユーティリティを追加する | `sudo apt install package_name` |
+| | ソフトウェアの削除 | システムをクリーンアップする | `sudo apt remove package_name` |
+| | 不要な依存関係の削除 | ディスク容量を節約する | `sudo apt autoremove` |
+| **ネットワークとインターネット** | ネットワーク接続の確認 | インターネットアクセスをテストする | `ping google.com` |
+| | IPアドレスの特定 | ネットワーク設定を確認する | `ip a` または `ifconfig` |
+| | Wi-Fiネットワークの変更 | 別のアクセスポイントに接続する | ネットワークアイコン → 目的のWi-Fiを選択 |
+| **アカウントと権限** | 管理者コマンドを実行する | 一時的にroot権限を取得する | `sudo command` |
+| | 新規ユーザーを作成する | ローカルアカウントを追加する | `sudo adduser username` |
+| | パスワードを変更する | アカウントを保護する | `passwd` |
+| **外観と快適性** | 壁紙を変更する | デスクトップをカスタマイズする | デスクトップを右クリック → **デスクトップの設定** |
+| | テーマ / アイコンを変更する | 視認性と美観を向上させる | 設定 → 外観 / テーマ |
+| **Kaliツール** | ツールメニューを開く | テストおよびセキュリティツールを探索する | **アプリケーション → Kali Linux** メニュー |
+| | ツールを起動（例: nmap, wireshark） | セキュリティユーティリティの実践的な発見 | `sudo nmap`、`wireshark` など |
+| **ヘルプとドキュメント** | コマンドのヘルプを取得 | 使用前にコマンドを理解する | `man command` または `command --help` |
 
 ## 結論
 

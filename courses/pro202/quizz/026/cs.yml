@@ -1,0 +1,8 @@
+question: Proč má starší ověřování transakcí Bitcoin kvadratickou časovou složitost vzhledem k počtu vstupů?
+answer: Každý vstup vyžaduje vlastní výpočet sighash nad strukturou, která zahrnuje všechny vstupy v transakci
+wrong_answers:
+  - Každý vstup musí ověřit podpisy všech ostatních vstupů, aby se zabránilo double-spending v rámci transakce
+  - Model provádění založený na zásobníku vyžaduje vnořené smyčky pro zpracování opkódů pro každou kombinaci vstupů
+  - "ScriptSig každého vstupu musí být ověřen proti ScriptPubKey každého výstupu, aby byla nalezena správná shoda."
+explanation: |
+  Starší validace Bitcoin vytváří kvadratickou složitost, protože každý vstup potřebuje vlastní výpočet sighash, ale každý výpočet zpracovává strukturu transakce obsahující všechny vstupy. Při n vstupech to vytváří n×n operací. SegWit to vyřešil ukládáním sdílených částí výpočtu sighash do mezipaměti, čímž snížil složitost na lineární čas a zabránil potenciálním útokům na odepření služby z velkých transakcí s více vstupy.

@@ -1,5 +1,6 @@
 ---
-term: ACCIONES DIFICULTAD
+term: Dificultad de los shares
 
+definition: Objetivo de dificultad más bajo definido por un pool para calificar un hash como share.
 ---
 Una dificultad objetivo superior a la de Bitcoin (por tanto, menos difícil), definida por un pool de minería para calificar el hash de una acción y evaluar la contribución de cada minero individual dentro del pool. Para gestionar eficazmente la carga de verificación y garantizar que cada minero, independientemente de su potencia de cálculo, envíe participaciones con regularidad, los pools ajustan la dificultad de las participaciones. La dificultad asignada a cada minero determina el número de participaciones que acumula: por ejemplo, si un minero tiene una dificultad asignada de 10 y presenta 5 pruebas de trabajo válidas a esta dificultad, obtiene 50 participaciones. Un minero más potente con una dificultad de 100 que presente 7 pruebas de trabajo válidas recibirá 700 participaciones. Este sistema permite cuantificar con precisión el hashrate de cada minero y distribuir las recompensas en función del método de cálculo elegido para la compensación (PPS, PPLNS, TIDES...).

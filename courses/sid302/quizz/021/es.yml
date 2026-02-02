@@ -1,0 +1,8 @@
+question: ¿Cuál es la principal ventaja empresarial que ofrece el tiempo de liquidación de 2 minutos de Liquid frente a los sistemas financieros tradicionales?
+answer: Reduce el riesgo de contraparte al permitir una liquidación atómica en la que la entrega y el pago se producen simultáneamente
+wrong_answers:
+  - Elimina la necesidad de cumplir la normativa y los requisitos KYC en el comercio de activos
+  - Permite una escalabilidad ilimitada para la negociación de alta frecuencia sin comisiones por transacción
+  - Permite la determinación automática de precios mediante algoritmos de creación de mercado integrados
+explanation: |
+  La liquidación en 2 minutos de Liquid permite la liquidación atómica, que es crucial para reducir el riesgo de contraparte, ya que ambas partes reciben lo que se les debe simultáneamente, eliminando la brecha en la que una parte podría incumplir. La liquidación tradicional T+2 crea una ventana en la que existe riesgo de contraparte. Las otras opciones son incorrectas: Liquid sigue exigiendo el cumplimiento a través de AMP, tiene comisiones por transacción y límites de escala, y no ofrece creación automática de mercado.

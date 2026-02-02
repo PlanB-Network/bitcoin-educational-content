@@ -29,7 +29,7 @@ Cursussen zijn van nature langer en meer gestructureerd dan tutorials. Ze moeten
 Handleidingen zijn over het algemeen korter. Ze zijn bedoeld als stap-voor-stap instructiegids voor het uitvoeren van een specifieke Bitcoin-gerelateerde taak, met afbeeldingen als ondersteuning.
 
 
-[Ontdek Plan ₿ Academy tutorials] (https://planb.academy/tutorials)
+[Ontdek Plan ₿ Academy tutorials](https://planb.academy/tutorials)
 
 
 ![TUTO](assets/fr/38.webp)
@@ -96,7 +96,7 @@ Wat u ook kiest, houd er rekening mee dat alle inhoud die gepubliceerd wordt op 
 ## 2 - Neem contact op met het Plan ₿ Academy team
 
 
-Zodra je het thema voor je tutorial hebt gekozen, is de volgende stap om ons te informeren over je intentie om deze inhoud aan het platform toe te voegen. De makkelijkste manier, als je een Telegram-account hebt, is om [lid te worden van onze groep] (https://t.me/PlanBNetwork_ContentBuilder).
+Zodra je het thema voor je tutorial hebt gekozen, is de volgende stap om ons te informeren over je intentie om deze inhoud aan het platform toe te voegen. De makkelijkste manier, als je een Telegram-account hebt, is om [lid te worden van onze groep](https://t.me/PlanBNetwork_ContentBuilder).
 
 
 ![TUTO](assets/fr/39.webp)

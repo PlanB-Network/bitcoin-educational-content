@@ -1,0 +1,9 @@
+question: Zgodnie z teorią rozproszonej wiedzy Hayeka, dlaczego gospodarki centralnie planowane mają trudności z ustalaniem cen w porównaniu z wolnymi rynkami?
+answer: Centralni planiści nie mają dostępu do subiektywnej, zlokalizowanej wiedzy o indywidualnych kosztach, korzyściach i preferencjach, którą posiadają tylko uczestnicy rynku
+wrong_answers:
+  - Centralnym planistom brakuje wystarczającej mocy obliczeniowej i zaawansowanych algorytmów do przetwarzania wszystkich dostępnych im danych ekonomicznych
+  - Centralni planiści są z natury skorumpowani i ustalają ceny z korzyścią dla siebie, a nie dla społeczeństwa, w przeciwieństwie do uczestników rynku, którzy są altruistyczni
+  - Centralni planiści zbytnio koncentrują się na długoterminowej stabilności gospodarczej, zamiast reagować na natychmiastowe wahania podaży i popytu
+explanation: |
+  Kluczowym spostrzeżeniem Hayeka jest to, że wiedza istnieje tylko jako "rozproszone fragmenty niekompletnej i często sprzecznej wiedzy posiadanej przez wszystkie odrębne jednostki" Wiedza ta jest subiektywna i zlokalizowana - tylko jednostki znają swoje własne koszty, korzyści i preferencje. Wolne rynki poprzez dobrowolną wymianę i negocjacje cenowe pozwalają na pojawienie się tej rozproszonej wiedzy i koordynację działalności gospodarczej.
+  Centralni planiści, niezależnie od ich intencji i możliwości, nie mogą uzyskać dostępu do tych subiektywnych, rozproszonych informacji, które istnieją w umysłach milionów osób, co uniemożliwia skuteczne ustalanie cen.

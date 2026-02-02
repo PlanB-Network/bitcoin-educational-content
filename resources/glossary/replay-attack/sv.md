@@ -1,5 +1,6 @@
 ---
-term: REPLAY-ATTACK
+term: Repetitionsattack
+definition: Attack som återskapar en giltig transaktion från en blockkedja på en annan som delar samma historik.
 ---
 
 I samband med Bitcoin inträffar en replay-attack när en giltig transaktion på en Blockchain på ett illvilligt sätt reproduceras på en annan Blockchain som har samma transaktionshistorik. Med andra ord kan en transaktion som sänds på en kanal replikeras på en annan utan medgivande från avsändaren av den första transaktionen.

@@ -1,5 +1,6 @@
 ---
-term: FPPS (HISSE BAŞINA TAM ÖDEME)
+term: Fpps (full pay per share)
+definition: Payları ve işlem ücretlerinin bir kısmını içeren madencilik ödül yöntemi.
 ---
 
 Mining havuzlarında madencilerin tazminatlarının hesaplanmasına yönelik yöntem. PPS (*Pay Per Share*) yönteminin geliştirilmiş halidir. Madencilere yalnızca gönderdikleri her geçerli paylaşım için ödeme yapmakla kalmaz, aynı zamanda blok ödüllerinin bir kısmını da içerir. Tazminat, önceki işlemlerin ortalamasına ve havuzun Hashrate'ına göre hesaplanır. Böylece madenciler, bir blok bulunsun ya da bulunmasın, gönderilen hisseler için bir ödül alırlar, ancak bu yöntem aynı zamanda beklenen değeri de telafi eder. Madenciler için istikrarlı ve öngörülebilir bir tazminat sunar, çünkü bir blok bulma olasılığı ile ilişkili varyansı ortadan kaldırırken, onları piyasa ücreti dalgalanmalarına maruz bırakır. Bununla birlikte, havuz operatörleri için daha risklidir, çünkü hiçbir blok bulunmadığında bile madencilere ödeme yapmaları gerekir, böylece varyans riskini üstlenirler.

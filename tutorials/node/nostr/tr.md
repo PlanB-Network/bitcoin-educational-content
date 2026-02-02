@@ -5,7 +5,7 @@ description: NOSTR'u keşfedin ve kullanmaya başlayın
 
 
 
-![A new challenger has arrived](assets/1.webp)
+![A new challenger has arrived](assets/cover.webp)
 
 
 *Bu kılavuzun sonunda Nostr’un ne olduğunu anlayacak, bir hesap oluşturmuş olacak ve onu kullanabileceksiniz.*

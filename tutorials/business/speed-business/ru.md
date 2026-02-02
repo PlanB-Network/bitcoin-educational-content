@@ -94,7 +94,7 @@ Speed поставляется с набором средств разработ
 
 
 
-Если вы еще не владеете Bitcoin и/или Lightning Wallet, рекомендуем вам ознакомиться с нашими учебниками по [мобильным кошелькам] (https://planb.academy/tutorials/wallet).
+Если вы еще не владеете Bitcoin и/или Lightning Wallet, рекомендуем вам ознакомиться с нашими учебниками по [мобильным кошелькам](https://planb.academy/tutorials/wallet).
 
 
 

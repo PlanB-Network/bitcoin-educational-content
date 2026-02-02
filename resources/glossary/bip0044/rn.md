@@ -1,5 +1,6 @@
 ---
 term: BIP0044
+definition: Standard isobanura imiterere yuzuye y'inzira za derivation ku mawallet ya HD purpose, coin_type, account, change na address_index.
 ---
 
 Iciyumviro co gushiramwo uburyo busanzwe bwo gukuraho amakuru ku ma wallets ya HD. BIP44 yubakiye ku ngingo ngenderwako zashinzwe muri BIP32 ku bijanye n’ugukuraho urufunguzo no muri BIP43 ku bijanye no gukoresha umurima w’intumbero.

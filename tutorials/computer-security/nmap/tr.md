@@ -312,7 +312,7 @@ Bu bölümde, Nmap ağ tarama aracının Linux ve Windows işletim sistemlerine 
 
 
 
-Nmap başlangıçta GNU/Linux işletim sistemlerinde çalışmak üzere tasarlanmıştır. Sonuç olarak, uzun ömürlülüğü ve popülerliği sayesinde, onu büyük Unix dağıtımlarının tüm resmi depolarında bulabilirsiniz. Bu eğitimde Debian tabanlı bir işletim sistemi [Kali Linux] (https://www.it-connect.fr/cours/debuter-avec-kali-linux/ "Kali Linux") kullanacağım. Ancak klasik bir Debian, CentOS, Red Hat ya da her neyse aynı şekilde kullanabilirsiniz!
+Nmap başlangıçta GNU/Linux işletim sistemlerinde çalışmak üzere tasarlanmıştır. Sonuç olarak, uzun ömürlülüğü ve popülerliği sayesinde, onu büyük Unix dağıtımlarının tüm resmi depolarında bulabilirsiniz. Bu eğitimde Debian tabanlı bir işletim sistemi [Kali Linux](https://www.it-connect.fr/cours/debuter-avec-kali-linux/ "Kali Linux") kullanacağım. Ancak klasik bir Debian, CentOS, Red Hat ya da her neyse aynı şekilde kullanabilirsiniz!
 
 
 
@@ -551,7 +551,7 @@ Bu bölümde, Nmap ağ tarama aracını kullanarak ilk port taramalarımızı na
 
 
 
-- Bir hatırlatma olarak: [Ceza Kanunu: Bölüm III: Otomatik bilgi işlem sistemlerine saldırılar] (https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
+- Bir hatırlatma olarak: [Ceza Kanunu: Bölüm III: Otomatik bilgi işlem sistemlerine saldırılar](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
 
 
 
@@ -901,7 +901,7 @@ nmap taraması sırasında uDP paket iletimi ve ICMP alımı (bağlantı noktas�
 
 
 
-Yukarıdaki ekran görüntüsünde Nmap'in çok sayıda UDP paketi göndereceğini ve bunların çoğu için yanıt olarak bir ICMP "Hedefe ulaşılamıyor (Port ulaşılamıyor)" paketi alacağını görebiliriz. Bu normaldir, çünkü bir UDP portuna ulaşılamadığında [RFC 1122] (https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122") tarafından tanımlanan uygun yanıttır:
+Yukarıdaki ekran görüntüsünde Nmap'in çok sayıda UDP paketi göndereceğini ve bunların çoğu için yanıt olarak bir ICMP "Hedefe ulaşılamıyor (Port ulaşılamıyor)" paketi alacağını görebiliriz. Bu normaldir, çünkü bir UDP portuna ulaşılamadığında [RFC 1122](https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122") tarafından tanımlanan uygun yanıttır:
 
 
 
@@ -1636,7 +1636,7 @@ Bu bölümde, taranan ana bilgisayarlar tarafından kullanılan hizmetlerin ve i
 
 
 
-Bu eğitimin önceki bölümlerinde gördüğümüz gibi, Nmap varsayılan olarak taradığı ve açık olarak kabul ettiği portlarda hangi servisin açık olduğuna bakmaz. Dolayısıyla, TCP/22 bağlantı noktasındaki bir web hizmetini dinliyorsanız, Nmap bunu açık olarak rapor etmeye devam edecektir, ancak bir `SSH` hizmeti olarak. Bunun nedeni, bir port/protokol ile bir hizmetin adı (`/etc/services/` dosyası) arasında bir ilişki aramak için sisteminizde yerel olarak bulunan bir [veritabanı] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) kullanmasıdır.
+Bu eğitimin önceki bölümlerinde gördüğümüz gibi, Nmap varsayılan olarak taradığı ve açık olarak kabul ettiği portlarda hangi servisin açık olduğuna bakmaz. Dolayısıyla, TCP/22 bağlantı noktasındaki bir web hizmetini dinliyorsanız, Nmap bunu açık olarak rapor etmeye devam edecektir, ancak bir `SSH` hizmeti olarak. Bunun nedeni, bir port/protokol ile bir hizmetin adı (`/etc/services/` dosyası) arasında bir ilişki aramak için sisteminizde yerel olarak bulunan bir [veritabanı](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) kullanmasıdır.
 
 
 
@@ -2183,7 +2183,7 @@ Açık olalım: Nmap, bilgi sisteminizin tam bir sızma testini gerçekleştirme
 
 
 
-- **Güncellemelere bağımlılık**: Nmap'in NSE komut dosyalarının [veritabanı] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) sürekli olarak gelişmektedir, ancak yeni bir güvenlik açığının keşfedilmesi ile ilgili bir komut dosyasının Nmap'e eklenmesi arasında bir gecikme olabilir. Sonuç olarak, Nmap her zaman en son güvenlik açıkları ile güncel olmayabilir.
+- **Güncellemelere bağımlılık**: Nmap'in NSE komut dosyalarının [veritabanı](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) sürekli olarak gelişmektedir, ancak yeni bir güvenlik açığının keşfedilmesi ile ilgili bir komut dosyasının Nmap'e eklenmesi arasında bir gecikme olabilir. Sonuç olarak, Nmap her zaman en son güvenlik açıkları ile güncel olmayabilir.
 
 
 
@@ -2238,23 +2238,24 @@ Bu senaryolar kategorilere göre düzenlenmiştir ve tek bir senaryo birden fazl
 
 
 
-| Catégorie       | Description |
-|----------------|-------------|
-| **auth**       | Contient les scripts relatifs à l’authentification sur des services, dont l’accès anonyme ou l’énumération des utilisateurs. Exemples: `oracle-enum-users`, `ftp-anon`. |
-| **broadcast**  | Contient les scripts relatifs aux opérations de broadcast sur le réseau, notamment en vue d’exploiter et de découvrir certains services, hôtes ou protocoles reposant sur le broadcast (IPv6, wake on lan, IGMP, etc.). Exemples: `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
-| **brute**      | Contient les scripts relatifs aux opérations de brute force de l’authentification sur les services (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, etc.). Exemples: `ssh-brute`, `vnc-brute`. |
-| **default**    | Contient les scripts utilisés dans le cas par défaut (utilisation de `-sC`). Plusieurs critères sont utilisés afin de valider l’entrée d’un script dans cette catégorie dont la vitesse d’exécution, la structure de la sortie, la fiabilité du test, le caractère “intrusif” ou “risqué”, etc. |
-| **discovery**  | Contient les scripts relatifs à la découverte avancée du réseau et des services. On y retrouve par exemple l’énumération du contenu d’un partage SMB, d’une version d’un service VNC, des requêtes SNMP, etc. Exemples: `mysql-info`, `http-security-headers`. |
-| **dos**        | Contient les scripts pouvant causer un déni de service. Il peut s’agir de scripts créés pour exploiter une vulnérabilité de type déni de service ou alors de scripts ayant pour effet de bord un déni de service. Prudence donc (ils sont exclus de la catégorie `default`). Exemples: `http-slowloris`, `ipv6-ra-flood`. |
-| **exploit**    | Contient les scripts créés pour exploiter de manière directe une vulnérabilité. Exemples: `http-shellsock`, `smb-vuln-ms08-067`. |
-| **external**   | Contient les scripts qui nécessitent l’utilisation d’une ressource tierce, comme une base d’information en ligne. Cela indique notamment une tentative de connexion vers l’extérieur (attention à la confidentialité). Exemples: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
-| **fuzzer**     | Contient les scripts conçus pour envoyer des trames, paquets ou paramètres inattendus par un service. Cela permet notamment de causer des erreurs ou dysfonctionnements afin d’obtenir des pistes de vulnérabilité ou des informations techniques. Exemples: `dns-fuzz`, `http-form-fuzzer`. |
-| **intrusive**  | Contient les scripts qui sont catégorisés comme “risqués” d’un point de vue disponibilité, ou détection. Ils peuvent provoquer un crash du système ou être détectés comme malveillant par une solution de sécurité. Il s’agit de la catégorie inverse de `safe`. Exemples: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
-| **malware**    | Contient les scripts conçus pour détecter la présence d’élément caractéristique d’un malware, tel qu’un port en écoute communément utilisé par une backdoor connue. Exemples: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
-| **safe**       | Contient les scripts qui sont considérés comme sûrs d’un point de vue détection ou stabilité. Il s’agit de la catégorie inverse de `intrusive` et elle contient en grande majorité des scripts avancés d’identification de version ou de relevé d’élément de configuration. Exemples: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
-| **version**    | Contient les scripts qui permettent une détection avancée de version. Ils peuvent être utilisés en complément des Probes et Matchs étudiés précédemment quand la détection d’une version nécessite des opérations un peu plus complexes. Exemples: `http-php-version`, `vmware-version`. |
-| **vuln**       | Contient les scripts conçus pour détecter la présence de vulnérabilité connue (CVE) sans pour autant les exploiter (à l’inverse de la catégorie `exploit`). Ils se contentent en général de rapporter le statut “vulnérable” ou non d’un service. Exemples: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
 
+
+| Kategori | Açıklama |
+|----------------|-------------|
+| **auth** | Anonim erişim veya kullanıcı listeleme dahil olmak üzere servislerdeki kimlik doğrulamayla ilgili betikleri içerir. Örnekler: `oracle-enum-users`, `ftp-anon`. |
+| **broadcast** | Özellikle ağ üzerindeki broadcast operasyonlarıyla ilgili betikleri içerir; bu betikler broadcast tabanlı belirli servisleri, ana makineleri veya protokolleri (IPv6, wake on lan, IGMP vb.) kötüye kullanmak ve keşfetmek amacıyla kullanılır. Örnekler: `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
+| **brute** | Servislerdeki kimlik doğrulama üzerinde brute force (kaba kuvvet) operasyonlarıyla ilgili betikleri içerir ([SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL vb. üzerinde brute force). Örnekler: `ssh-brute`, `vnc-brute`. |
+| **default** | Varsayılan durumda (`-sC` kullanımı) kullanılan betikleri içerir. Bir betiğin bu kategoriye dahil edilmesini onaylamak için yürütme hızı, çıktı yapısı, testin güvenilirliği, "müdahaleci" veya "riskli" karakter vb. gibi çeşitli kriterler kullanılır. |
+| **discovery** | Gelişmiş ağ ve servis keşfiyle ilgili betikleri içerir. Örneğin, bir SMB paylaşımının içeriğinin listelenmesi, bir VNC servisinin versiyonu, SNMP sorguları vb. burada yer alır. Örnekler: `mysql-info`, `http-security-headers`. |
+| **dos** | Servis dışı bırakma (denial of service) saldırısına neden olabilecek betikleri içerir. Bunlar, bir servis dışı bırakma türü güvenlik açığını kötüye kullanmak için oluşturulmuş betikler veya yan etki olarak servis dışı bırakmaya neden olan betikler olabilir. Bu nedenle dikkatli olunmalıdır (`default` kategorisinin dışındadırlar). Örnekler: `http-slowloris`, `ipv6-ra-flood`. |
+| **exploit** | Bir güvenlik açığını doğrudan kötüye kullanmak için oluşturulmuş betikleri içerir. Örnekler: `http-shellsock`, `smb-vuln-ms08-067`. |
+| **external** | Çevrimiçi bir bilgi tabanı gibi üçüncü taraf bir kaynağın kullanılmasını gerektiren betikleri içerir. Bu, özellikle dışarıya doğru bir bağlantı girişimini gösterir (gizliliğe dikkat edin). Örnekler: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
+| **fuzzer** | Bir servis tarafından beklenmeyen çerçeveler, paketler veya parametreler göndermek üzere tasarlanmış betikleri içerir. Bu, özellikle güvenlik açığı ipuçları veya teknik bilgiler elde etmek için hatalara veya arızalara neden olmayı sağlar. Örnekler: `dns-fuzz`, `http-form-fuzzer`. |
+| **intrusive** | Erişilebilirlik veya tespit açısından "riskli" olarak kategorize edilen betikleri içerir. Sistemin çökmesine neden olabilirler veya bir güvenlik çözümü tarafından kötü amaçlı olarak tespit edilebilirler. Bu, `safe` kategorisinin tersidir. Örnekler: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
+| **malware** | Bilinen bir arka kapı (backdoor) tarafından yaygın olarak kullanılan bir dinleme portu gibi zararlı yazılımların (malware) karakteristik öğelerinin varlığını tespit etmek için tasarlanmış betikleri içerir. Örnekler: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
+| **safe** | Tespit veya kararlılık açısından güvenli kabul edilen betikleri içerir. Bu, `intrusive` kategorisinin tersidir ve büyük çoğunlukla gelişmiş versiyon tanımlama veya yapılandırma öğesi toplama betiklerini içerir. Örnekler: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
+| **version** | Gelişmiş versiyon tespitine olanak tanıyan betikleri içerir. Bir versiyonun tespiti biraz daha karmaşık işlemler gerektirdiğinde daha önce incelenen Probes ve Matchs öğelerine ek olarak kullanılabilirler. Örnekler: `http-php-version`, `vmware-version`. |
+| **vuln** | Bilinen güvenlik açıklarının (CVE) varlığını, bunları kötüye kullanmadan tespit etmek için tasarlanmış betikleri içerir (`exploit` kategorisinin aksine). Genellikle bir servisin "vulnerable" (savunmasız) olup olmadığını raporlamakla yetinirler. Örnekler: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
 
 Teknik olarak, bir komut dosyasının ait olduğu kategoriler doğrudan kodunda belirtilir.
 
@@ -2989,7 +2990,7 @@ Metasploit bir istismar ve saldırı çerçevesidir. Ücretsiz bir çözümdür 
 
 
 
-Özellikle, bu iyi bilinen ve yaygın olarak kullanılan işletim çerçevesi, ana bilgisayarların, bağlantı noktalarının, hizmetlerin, kimlik doğrulama bilgilerinin ve daha fazlasının depolandığı bir postgreSQL [veritabanı] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) ile çalışabilir.
+Özellikle, bu iyi bilinen ve yaygın olarak kullanılan işletim çerçevesi, ana bilgisayarların, bağlantı noktalarının, hizmetlerin, kimlik doğrulama bilgilerinin ve daha fazlasının depolandığı bir postgreSQL [veritabanı](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) ile çalışabilir.
 
 
 
@@ -3385,7 +3386,7 @@ Bir ağı veya sistemi taramadan önce, uygun yetkileri aldığınızdan emin ol
 
 
 
-- Bir hatırlatma olarak: [Ceza Kanunu: Bölüm III: Otomatik bilgi işlem sistemlerine saldırılar] (https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
+- Bir hatırlatma olarak: [Ceza Kanunu: Bölüm III: Otomatik bilgi işlem sistemlerine saldırılar](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
 
 
 
@@ -3437,7 +3438,7 @@ Bu eğitim boyunca gördüğümüz gibi, Nmap ağ düzeyinde çok ayrıntılı o
 
 
 
-Herhangi bir olaydan kaçınmak için, Nmap'in davranışına hakim olmanız ve bu eğitimde tartışılan çeşitli seçenekler aracılığıyla onu kullanıldığı bağlama nasıl uyarlayacağınızı bilmeniz gerekir. Nmap'i endüstriyel [donanım] (https://www.it-connect.fr/actualites/actu-materiel/) içeren bir bilgi sisteminde, yerel bir güvenlik duvarı tarafından korunan Windows sistemlerinden oluşan bir kullanıcı ağında veya bir ağ çekirdeğinde aynı şekilde kullanmamız gerekmeyecektir.
+Herhangi bir olaydan kaçınmak için, Nmap'in davranışına hakim olmanız ve bu eğitimde tartışılan çeşitli seçenekler aracılığıyla onu kullanıldığı bağlama nasıl uyarlayacağınızı bilmeniz gerekir. Nmap'i endüstriyel [donanım](https://www.it-connect.fr/actualites/actu-materiel/) içeren bir bilgi sisteminde, yerel bir güvenlik duvarı tarafından korunan Windows sistemlerinden oluşan bir kullanıcı ağında veya bir ağ çekirdeğinde aynı şekilde kullanmamız gerekmeyecektir.
 
 
 
@@ -3521,7 +3522,7 @@ Buradaki fikir, bu yöntemlerden bazılarını açıklamak, farklılıklarını,
 
 
 
-İnceleyeceğimiz ilk TCP tarama türü `Yarı Açık Tarama` olarak da bilinen `TCP SYN Taraması`dır. İlk port taramalarımızdan sonra yaptığımız ağ taramalarını hatırlarsanız, bu, root haklarıyla çalıştırıldığında [Nmap] (https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) tarafından varsayılan olarak kullanılan tarama türüdür.
+İnceleyeceğimiz ilk TCP tarama türü `Yarı Açık Tarama` olarak da bilinen `TCP SYN Taraması`dır. İlk port taramalarımızdan sonra yaptığımız ağ taramalarını hatırlarsanız, bu, root haklarıyla çalıştırıldığında [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) tarafından varsayılan olarak kullanılan tarama türüdür.
 
 
 

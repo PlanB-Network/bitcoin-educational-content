@@ -178,6 +178,6 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 恭喜您！您的工作環境已經設定好，可以為 Plan ₿ Academy 投稿。現在您可以針對每種貢獻方式(翻譯、校對、寫作......)探索我們其他特定的教學。
 
 
-https://planb.academy/tutorials/others
+https://planb.academy/tutorials/contribution
 
 ..).

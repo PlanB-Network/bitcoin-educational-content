@@ -1,0 +1,8 @@
+question: Dlaczego P2WSH używa haszowania SHA256 zamiast haszowania 160 (RIPEMD160+SHA256) dla zaangażowania skryptu w programach świadków?
+answer: SHA256 zapewnia 32-bajtowy skrót, który odróżnia P2WSH od 20-bajtowego skrótu P2WPKH160 i oferuje większe bezpieczeństwo dla złożonych skryptów
+wrong_answers:
+  - SHA256 jest szybszy w obliczeniach niż hash160, co skraca czas weryfikacji złożonych transakcji wieloznakowych w scenariuszach o wysokiej przepustowości
+  - "Hash160 został wycofany w SegWit z powodu potencjalnych luk w zabezpieczeniach wykrytych podczas wczesnej fazy rozwoju Bitcoin"
+  - SHA256 zezwala na skrypty świadków większe niż 520 bajtów, podczas gdy hash160 nakłada ścisłe ograniczenia rozmiaru na złożoność skryptów
+explanation: |
+  P2WSH wykorzystuje SHA256 do tworzenia 32-bajtowych skrótów specjalnie w celu odróżnienia od 20-bajtowego zobowiązania P2WPKH hash160, umożliwiając węzłom natychmiastową identyfikację wersji programu świadka. Dłuższy hash zapewnia również większe bezpieczeństwo dla złożonych skryptów, które mogą mieć wyższą wartość lub większą powierzchnię ataku. Pozostałe opcje są nieprawidłowe: SHA256 niekoniecznie jest szybszy niż hash160, hash160 nie został wycofany z powodu luk w zabezpieczeniach, a wybór funkcji skrótu nie wpływa na limity rozmiaru skryptu.

@@ -1,0 +1,8 @@
+question: En una HTLC con Taproot, ¿qué información se revela a la red Bitcoin cuando falla el intercambio y una de las partes necesita recuperar sus fondos a través de la vía adversarial?
+answer: Sólo la rama específica del árbol Merkle que contiene las condiciones de bloqueo hash/tiempo necesarias para la recuperación de fondos
+wrong_answers:
+  - "La lógica completa del script incluyendo todas las posibles rutas de ejecución y las claves públicas individuales de ambas partes"
+  - La preimagen secreta y todas las claves públicas agregadas utilizadas en el proceso de combinación de claves MuSig2
+  - Todas las condiciones del contrato HTLC, incluidos los importes de los swaps, los plazos y las direcciones tanto de Lightning como de Liquid
+explanation: |
+  Taproot organiza las condiciones de HTLC en una estructura de árbol de Merkle, lo que permite una revelación selectiva. Cuando falla la cooperación, sólo se revela la rama específica necesaria para demostrar el derecho a recuperar los fondos, mientras que otros detalles del contrato permanecen ocultos. Esto es distinto de los HTLC heredados que exponían guiones completos, y difiere de los casos cooperativos en los que no se revela ningún detalle del guión.

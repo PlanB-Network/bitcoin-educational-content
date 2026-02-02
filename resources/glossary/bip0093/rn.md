@@ -1,5 +1,6 @@
 ---
 term: BIP0093
+definition: Standard ya Codex32 yemera kuzigama seed mu kuyigaba mu bice vyinshi hifashishijwe Shamir's secret sharing.
 ---
 
 Amakuru BIP atanga iciyumviro co kuzigama no kugarura seed ya Wallet y’ubukuru (bishingiye kuri BIP32) hakoreshejwe Ugusangira Ibanga rya Shamir.

@@ -1,0 +1,9 @@
+question: Mihin protokollaan Tailscale perustuu?
+answer: WireGuard
+wrong_answers:
+  - OpenVPN
+  - IPsec IKEv2
+  - PPTP
+explanation: |
+  Tailscale on WireGuard:een perustuva VPN-ratkaisu.
+reviewed: false

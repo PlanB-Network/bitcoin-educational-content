@@ -1,0 +1,8 @@
+question: Ketika mengembangkan makro seperti fungsi kustom di Rust, apa tujuan utama penggunaan penentu fragmen seperti `expr`, `ty`, dan `ident` dalam pencocokan pola?
+answer: Untuk menentukan jenis elemen kode yang dapat dicocokkan dan memastikan input yang valid secara sintaksis
+wrong_answers:
+  - Untuk menentukan jenis pengembalian kode yang dihasilkan dan mengoptimalkan kinerja kompilasi
+  - Untuk menentukan urutan eksekusi cabang makro dan menangani pemeriksaan jenis runtime
+  - Untuk mengontrol pola alokasi memori dan menentukan aturan cakupan variabel dalam kode yang diperluas
+explanation: |
+  Penentu fragmen dalam pola makro berfungsi sebagai batasan tipe yang memvalidasi sintaks token input selama ekspansi makro. Mereka memastikan bahwa makro menerima jenis elemen kode yang benar (ekspresi, tipe, pengenal, dll.) dan memberikan pesan kesalahan yang jelas ketika sintaks yang tidak valid ditemukan. Hal ini terjadi pada saat kompilasi selama pencocokan pola, bukan pada saat eksekusi runtime, dan tidak secara langsung mengontrol alokasi memori, urutan eksekusi, atau jenis pengembalian dari kode yang dihasilkan.

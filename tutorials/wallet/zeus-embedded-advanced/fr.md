@@ -207,13 +207,13 @@ Si certains de vos paiements LN échouent, vous pouvez augmenter les frais pour 
 **3 - Paramètres des factures**
 
 
-Cette section propose quelques options pour les factures generate :
+Cette section propose quelques options pour les factures générées :
 
 
 
-- Définir un mémo standard à afficher dans le Invoice ou le generate
+- Définir un mémo standard à afficher dans l'Invoice ou le générer
 - Délai d'expiration en secondes, au cas où vous souhaiteriez un délai spécifique, plus ou moins long, pour le paiement de votre Invoice
-- Inclure des indications d'itinéraire - fournir des informations pour trouver des canaux non annoncés, ou privés. Cela permet d'acheminer les paiements vers des nœuds qui ne sont pas publiquement visibles sur le réseau. Un indice d'acheminement fournit un itinéraire partiel entre le nœud privé du destinataire et un nœud public. Cet indice de routage est ensuite inclus dans le Invoice généré par le destinataire et fourni au payeur. Je suggère de l'activer par défaut, sinon les paiements entrants pourraient échouer (aucune route trouvée).
+- Inclure des indications d'itinéraire - fournir des informations pour trouver des canaux non annoncés, ou privés. Cela permet d'acheminer les paiements vers des nœuds qui ne sont pas publiquement visibles sur le réseau. Un indice d'acheminement fournit un itinéraire partiel entre le nœud privé du destinataire et un nœud public. Cet indice de routage est ensuite inclus dans l'Invoice généré par le destinataire et fourni au payeur. Je suggère de l'activer par défaut, sinon les paiements entrants pourraient échouer (aucune route trouvée).
 - AMP Invoice - Atomic Multi-path Payments est un nouveau type de paiement Lightning implémenté par LND qui permet de recevoir Sats sans Invoice spécifique, en utilisant [keysend](https://docs.lightning.engineering/lightning-network-tools/LND/send-messages-with-keysend). Il s'agit pratiquement d'un code de paiement statique. [Pour en savoir plus, cliquez ici](https://docs.lightning.engineering/lightning-network-tools/LND/amp).
 - Show custom preimage field - n'utilisez cette option que dans des cas très spécifiques, lorsque vous souhaitez vraiment utiliser des champs personnalisés dans la préimage. (Pour en savoir plus, cliquez ici) (https://Bitcoin.stackexchange.com/questions/90797/how-can-i-generate-preimage-for-lightning-network-Invoice-should-i).
 
@@ -224,7 +224,7 @@ Une autre option de cette section consiste à définir le type de chaîne Addres
 ![Image](assets/en/04.webp)
 
 
-Cliquez sur le bouton de la roue du haut et un écran popup apparaîtra pour choisir le type de Address désiré. Une fois ce choix effectué, la prochaine fois que vous appuierez sur le bouton de réception de la chaîne, le type de Address sélectionné s'appliquera à la generate. Vous pouvez le changer à tout moment.
+Cliquez sur le bouton de la roue du haut et un écran popup apparaîtra pour choisir le type d'adresse désiré. Une fois ce choix effectué, la prochaine fois que vous appuierez sur le bouton de réception de la chaîne, le type d'adresse sélectionné sera généré. Vous pouvez le changer à tout moment.
 
 
 **4 - Réglages des canaux**
@@ -319,7 +319,7 @@ CONSEIL DE PUISSANCE : Lorsque vous sauvegardez votre seed, sauvegardez égaleme
 SCB n'est nécessaire que si vous avez des canaux LN ouverts. Si vous n'avez que des fonds onchain, ce n'est pas nécessaire.
 
 
-Si vous voyez qu'après un long moment, les txs de l'ancien historique ne sont toujours pas affichés, allez dans Embedded node - Peers et désactivez l'option d'utilisation de la liste des pairs sélectionnés (par défaut le btcd.lnolymp.us). Cela déclenchera un redémarrage et permettra de se connecter au premier nœud neutrino disponible avec un meilleur temps de réponse. Vous pouvez également utiliser les autres peers neutrino bien connus mentionnés ci-dessous.
+Si vous voyez qu'après un long moment, les txs de l'ancien historique ne sont toujours pas affichés, allez dans Embedded node, Peers et désactivez l'option d'utilisation de la liste des pairs sélectionnés (par défaut le btcd.lnolymp.us). Cela déclenchera un redémarrage et permettra de se connecter au premier nœud neutrino disponible avec un meilleur temps de réponse. Vous pouvez également utiliser les autres peers neutrino bien connus mentionnés ci-dessous.
 
 
 Si vous voulez voir d'autres options de récupération pour un nœud LND, [veuillez lire mon guide précédent](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), où vous pouvez trouver les étapes pour importer un seed aseptisé dans Sparrow Wallet ou d'autres méthodes.
@@ -488,7 +488,7 @@ Par défaut, Zeus utilise son propre LSP, Olympus. Mais plus tard, vous pourrez 
 En créant simplement une Invoice sur votre Zeus (indiquez le montant et cliquez sur le bouton "demander"), vous pourrez recevoir ces Sats immédiatement.
 
 
-La Invoice que vous avez generate sera [enveloppée](https://docs.zeusln.app/lsp/wrapped-invoices) et les frais associés au service vous seront présentés s'ils sont payés. Cette Invoice enveloppée contient des indications de route vers votre nœud Zeus, de sorte que le FSL puisse trouver votre nouveau nœud et ouvrir un canal avec les nouveaux fonds que vous déposez.
+L'Invoice que vous avez généré sera [enveloppée](https://docs.zeusln.app/lsp/wrapped-invoices) et les frais associés au service vous seront présentés s'ils sont payés. Cette Invoice enveloppée contient des indications de route vers votre nœud Zeus, de sorte que le FSL puisse trouver votre nouveau nœud et ouvrir un canal avec les nouveaux fonds que vous déposez.
 
 
 ![Image](assets/en/06.webp)
@@ -500,7 +500,7 @@ La Invoice que vous avez generate sera [enveloppée](https://docs.zeusln.app/lsp
 Afin d'obtenir un canal LN du FSL avec les fonds que vous souhaitez recevoir la première fois, cette Invoice doit être payée à partir d'une autre LN Wallet et attendre quelques instants jusqu'à ce que le FSL ouvre le canal vers votre nœud Zeus, déduise les frais et pousse le montant restant du paiement de votre côté du canal.
 
 
-Tout ce que vous avez à faire est de payer le Invoice généré pour vous dans ZEUS avec un autre Wallet, et votre canal s'ouvrira instantanément. [Veuillez consulter les tarifs de Zeus LSP](https://docs.zeusln.app/lsp/fees).
+Tout ce que vous avez à faire est de payer l'Invoice généré pour vous dans ZEUS avec un autre Wallet, et votre canal s'ouvrira instantanément. [Veuillez consulter les tarifs de Zeus LSP](https://docs.zeusln.app/lsp/fees).
 
 
 Un autre avantage du paiement pour un canal est le routage sans frais. Cela signifie que lors de l'acheminement des paiements, le premier saut à travers OLYMPUS by ZEUS n'entraîne pas de frais d'acheminement. Notez que les sauts au-delà d'OLYMPUS by ZEUS vous seront toujours facturés.
@@ -536,7 +536,7 @@ Si vous avez besoin de recevoir plus de 88k Sats (la liquidité entrante disponi
 C'est pourquoi, afin d'éviter de payer plus de frais pour l'ouverture de plusieurs canaux, il est recommandé d'ouvrir d'abord un canal plus grand, disons 1-2M Sats. Une fois le canal ouvert, vous pouvez échanger une partie de ces Sats contre une chaîne, disons 50%, en utilisant n'importe quel service d'échange externe décrit dans ce guide.
 
 
-Une fois que vous avez quitté ce canal, disons 50 %, et que vous avez récupéré le Sats dans votre propre Zeus onchain Wallet, vous êtes prêt à passer à la méthode suivante d'ouverture d'un nouveau canal - à partir de la balance onchain.
+Une fois que vous avez quitté ce canal, disons 50 %, et que vous avez récupéré le Sats dans votre propre Zeus onchain Wallet, vous êtes prêt à passer à la méthode suivante d'ouverture d'un nouveau canal, à partir de la balance onchain.
 
 
 #### Méthode B - Utiliser votre solde onchain
@@ -658,19 +658,19 @@ Une fois que vous avez ouvert un canal plus important, vous pouvez toujours util
 Si vous souhaitez ajouter plus de confidentialité lors de la réception, vous pouvez utiliser la méthode "Invoice enveloppé". Rappel : pour pouvoir utiliser cette méthode, vous devez disposer d'un canal avec Olympus LSP. Les factures enveloppées "cachent" la destination finale (votre nœud Zeus) et affichent votre nœud LSP comme destination pour le payeur.
 
 
-Pour obtenir un Invoice emballé, allez à l'écran principal du clavier, indiquez le montant et cliquez sur demander. Un code QR normal s'affichera pour votre Invoice. Cliquez ensuite sur le bouton "X" en haut à droite et vous serez redirigé vers d'autres options pour le Invoice.
+Pour obtenir une Invoice emballée, allez à l'écran principal du clavier, indiquez le montant et cliquez sur demander. Un code QR normal s'affichera pour votre Invoice. Cliquez ensuite sur le bouton "X" en haut à droite et vous serez redirigé vers d'autres options pour l'Invoice.
 
 
 ![Image](assets/en/14.webp)
 
 
-Vous devez maintenant activer l'option "Enable LSP" en haut de la page et cliquer sur le bouton "Create Invoice". Cette option créera la Invoice enveloppée et, n'oubliez pas, facturera une petite redevance.
+Vous devez maintenant activer l'option "Enable LSP" en haut de la page et cliquer sur le bouton "Create Invoice". Cette option créera l'Invoice enveloppée et, n'oubliez pas, facturera une petite redevance.
 
 
 ### Factures avec indications d'itinéraires
 
 
-Cette fonction est très utile si vous souhaitez gérer la liquidité de plusieurs canaux entrants. En pratique, vous pouvez indiquer vers quel canal entrant vous souhaitez recevoir le Sats d'un Invoice.
+Cette fonction est très utile si vous souhaitez gérer la liquidité de plusieurs canaux entrants. En pratique, vous pouvez indiquer vers quel canal entrant vous souhaitez recevoir le Sats d'une Invoice.
 
 
 Cette fonction peut également être utilisée pour le rééquilibrage circulaire, lorsque vous souhaitez déplacer des liquidités d'un canal rempli vers un autre canal appauvri.
@@ -682,11 +682,11 @@ Comment créer une Invoice avec des indications d'itinéraires ?
 
 - Sur l'écran principal, faites glisser vers la droite le tiroir LN et cliquez sur "Recevoir"
 - Dans la configuration Invoice, allez dans la partie inférieure et activez le bouton "Insert route hints", puis sélectionnez l'onglet "Custom". Un écran s'ouvrira avec tous les canaux disponibles. Sélectionnez celui que vous voulez recevoir.
-- Remplissez tous les autres détails de la Invoice, le montant, le mémo, etc. et cliquez sur "créer la Invoice".
+- Remplissez tous les autres détails de l'Invoice, le montant, le mémo, etc. et cliquez sur "créer l'Invoice".
 - Payer cette Invoice amènera la Sats dans le canal indiqué.
 
 
-Si vous voulez vous payer ce Invoice (rééquilibrage circulaire), lorsque vous le payez à partir du même nœud Zeus, dans l'écran de paiement, sélectionnez le canal de sortie (celui qui a le plus de liquidité) que vous voulez utiliser pour l'envoi du paiement.
+Si vous voulez vous payer cette Invoice (rééquilibrage circulaire), lorsque vous le payez à partir du même nœud Zeus, dans l'écran de paiement, sélectionnez le canal de sortie (celui qui a le plus de liquidité) que vous voulez utiliser pour l'envoi du paiement.
 
 
 ### Payer avec Keysend

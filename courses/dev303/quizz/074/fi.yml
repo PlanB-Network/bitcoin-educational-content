@@ -1,0 +1,8 @@
+question: Mikä on tärkein rajoitus, joka liittyy anyhow-kirjaston käyttöön virheiden käsittelyssä Rust-kirjastojen kehittämisessä?
+answer: Se muuntaa kaikki virheet merkkijonoviesteiksi, mikä estää kuluttajia reagoimasta ohjelmallisesti erilaisiin virhetilanteisiin
+wrong_answers:
+  - Se toimii vain Result-tyyppien kanssa eikä voi käsitellä Option-tyyppejä, mikä rajoittaa sen hyödyllisyyttä sekatilanteissa
+  - Se vaatii manuaalisen virhemuunnoksen jokaiselle virhetyypille, mikä tekee siitä tavanomaista tuloskäsittelyä yksityiskohtaisemman
+  - Se menee automaattisesti paniikkiin tietyissä virhetyypeissä, joten se ei sovellu tuotantokirjastokoodiin
+explanation: |
+  Anyhow-kirjaston suurin haitta kirjastokehityksen kannalta on se, että se käytännössä latistaa kaikki virheet merkkijonomuotoisiksi esityksiksi, jolloin menetetään jäsennelty virhetieto, jota kirjaston kuluttajat tarvitsevat tehdäkseen ohjelmallisia päätöksiä. Vaikka anyhow on erinomainen yksinkertaistamaan virheiden käsittelyä loppukäyttäjäsovelluksissa, joissa virheet näytetään pääasiassa, kirjastojen on tarjottava erityisiä virhetyyppejä, joiden avulla kuluttajat voivat erottaa eri virhetilat toisistaan (kuten virheellinen syöttö vs. suoritusaikavirheet) ja reagoida niihin asianmukaisesti. Muut vaihtoehdot ovat virheellisiä: anyhow toimii hyvin sekä Result- että Option-tyyppien kanssa, vähentää itse asiassa sanamäärää automaattisen muuntamisen avulla eikä aiheuta paniikkia.

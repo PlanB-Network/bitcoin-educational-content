@@ -1,0 +1,8 @@
+question: UniFFI giải quyết thách thức cơ bản nào trong phát triển đa nền tảng khi làm việc với các thư viện Rust?
+answer: Việc phải tự tạo mã liên kết tùy chỉnh cho từng ngôn ngữ đích khi hiển thị giao diện FFI cấp thấp của Rust là điều cần thiết.
+wrong_answers:
+  - Rust không thể biên dịch thành các tệp nhị phân gốc có thể chạy trên nhiều hệ điều hành.
+  - Việc thiếu các đảm bảo an toàn bộ nhớ khi mã Rust tương tác với các ngôn ngữ có cơ chế thu gom rác tự động.
+  - "Chi phí hiệu năng phát sinh khi chuyển đổi mô hình sở hữu của Rust sang các ngôn ngữ có hệ thống đếm tham chiếu."
+explanation: |
+  UniFFI giải quyết cụ thể vấn đề phải tự viết mã liên kết cho từng ngôn ngữ đích. Khi Rust biên dịch thành đầu ra nhị phân, nó tạo ra một hàm ngoại lai Interface (FFI) ở cấp độ thấp và khó sử dụng trực tiếp từ các ngôn ngữ cấp cao hơn. Theo truyền thống, các nhà phát triển phải viết mã liên kết tùy chỉnh cho mỗi ngôn ngữ đích (Python, Swift, Kotlin, v.v.), tạo ra những rào cản đáng kể cho việc áp dụng. UniFFI loại bỏ sự dư thừa này bằng cách tự động tạo ra các liên kết này thông qua hệ thống đặc tả UDL của nó.

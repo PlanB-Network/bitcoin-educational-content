@@ -1,5 +1,6 @@
 ---
-term: MIXER
+term: Mikser
+definition: Centralizovani servis koji meša bitcoine više korisnika kako bi prekinuo njihovu istoriju.
 ---
 
 Centralizovana usluga za razbijanje istorije Bitcoin novčića mešanjem sredstava od više korisnika. Za razliku od CoinJoin, gde korisnici zadržavaju kontrolu nad svojim sredstvima tokom celog procesa mešanja, blender privremeno preuzima vlasništvo nad bitcoinima korisnika, meša ih sa onima drugih korisnika, a zatim šalje sredstva nazad na nove adrese.

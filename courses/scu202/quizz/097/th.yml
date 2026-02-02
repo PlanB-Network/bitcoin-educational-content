@@ -1,0 +1,9 @@
+question: บริการใดที่แทนที่ ISP DNS เพื่อปกป้องความลับของการร้องขอเว็บ?
+answer: Quad9
+wrong_answers:
+  - Google DNS
+  - DHCP
+  - SMTP
+explanation: |
+  Quad9 เป็นเซิร์ฟเวอร์ DNS สาธารณะที่เน้นความเป็นส่วนตัว ซึ่งกรองโดเมนที่เป็นอันตรายและไม่เก็บบันทึกชื่อผู้ใช้
+reviewed: false

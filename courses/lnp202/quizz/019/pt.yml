@@ -1,0 +1,9 @@
+question: Quais são os pré-requisitos para instalar o LND no Umbrel?
+answer: Nó Bitcoin sincronizado
+wrong_answers:
+  - Conta Premium Umbrel
+  - Canal de iluminação existente
+  - Endereço de relâmpago ativo
+explanation: |
+  O LND depende de um nó Bitcoin 100% sincronizado, um pré-requisito para o seu funcionamento.
+reviewed: false

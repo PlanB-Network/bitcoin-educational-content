@@ -1,6 +1,7 @@
 ---
-term: CESTA DERIVACE
+term: Derivační cesta
 
+definition: Sekvence indexů popisující derivační cestu dceřiných klíčů z hlavní klíče v HD peněžence.
 ---
 V kontextu hierarchických deterministických (HD) peněženek se odvozovací cestou rozumí posloupnost indexů použitých k odvození podřízených klíčů z hlavního klíče. Tato cesta, popsaná v BIP32, identifikuje stromovou strukturu pro odvození podřízených klíčů. Odvozovací cesta je reprezentována řadou indexů oddělených lomítky a vždy začíná hlavním klíčem (označeným jako `m/`). Typickou cestou může být například `m/84'/0'/0'/0/0`. Každá úroveň odvození je spojena s určitou hloubkou:
 
@@ -21,4 +22,3 @@ Pokud má například moje přijímací adresa odvozovací cestu `m / 86' / 0' /
 - `0` znamená, že se jedná o externí adresu;
 - `5` znamená, že se jedná o šestou externí adresu tohoto účtu.
 
-![](../../dictionnaire/assets/18.webp)

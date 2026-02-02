@@ -151,6 +151,6 @@ Para esto, tienes varias opciones disponibles. Aunque el bloc de notas estándar
   
 ¡Felicidades! Tu entorno de trabajo ahora está configurado para contribuir a Plan ₿ Academy. Ahora puedes explorar nuestros otros tutoriales específicos para cada tipo de contribución (traducción, corrección de pruebas, escritura.
 
-https://planb.academy/tutorials/others
+https://planb.academy/tutorials/contribution
 
 ..).

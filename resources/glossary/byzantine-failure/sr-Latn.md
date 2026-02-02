@@ -1,5 +1,6 @@
 ---
-term: BYZANTINSKI NEUSPEH
+term: Vizantijska greška
+definition: Ponašanje sistema koje nije u skladu sa njegovim specifikacijama, što može biti prirodno ili namerno.
 ---
 
 Bizantijski kvar, ili bizantijsko ponašanje, odnosi se na bilo koje ponašanje sistema koje nije u skladu sa sopstvenim specifikacijama, proizvodeći rezultate koji nisu u skladu sa normama.

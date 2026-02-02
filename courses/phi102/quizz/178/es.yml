@@ -1,0 +1,8 @@
+question: Según el análisis liberal presentado, ¿por qué sería imposible mantener la libertad de prensa en un sistema económico colectivista?
+answer: El Estado controla todos los medios de producción, incluidas las imprentas, y decide lo que se publica
+wrong_answers:
+  - Los periodistas individuales carecerían de incentivos económicos para producir contenidos de calidad
+  - Los periódicos privados serían demasiado caros para los ciudadanos si los precios estuvieran controlados por el Estado
+  - Los partidos políticos competirían con demasiada intensidad por el control de los medios de comunicación, lo que llevaría a la censura
+explanation: |
+  El análisis liberal identifica una imposibilidad estructural: puesto que el Estado posee todos los medios de producción en un sistema colectivista, necesariamente controla las imprentas y la infraestructura editorial. Esto da al Estado un poder absoluto para determinar lo que se imprime y distribuye, haciendo imposible la libertad de prensa independiente, independientemente de las intenciones políticas. Las otras opciones pasan por alto este punto fundamental sobre el control económico que determina las posibilidades políticas.

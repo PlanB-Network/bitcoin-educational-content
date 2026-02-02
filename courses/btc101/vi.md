@@ -40,46 +40,6 @@ Trong khóa học, chúng ta sẽ thảo luận về một số khía cạnh khi
  
 Điều quan trọng là phải hiểu rằng Bitcoin là một hệ thống tiền tệ mới sẽ thay đổi hoàn toàn mối quan hệ của chúng ta với tài sản\tiền bạc, vì vậy việc học cách sử dụng nó là một kỹ năng cần thiết cho bất kỳ ai muốn kiểm soát tài sản\tiền của mình.
 
-**Mục 1 - Tiền**
-
-
-- Chương 1 - Tiền là gì?
-- Chương 2 - Tiền pháp định
-- Chương 3 - Siêu lạm phát
-- Chương 4 - Chính sách tiền tệ của Bitcoin
-
-**Phần 2 - Các loại ví Bitcoin**
-
-
-- Chương 5 - Ví Bitcoin hoạt động như thế nào?
-- Chương 6 - Lựa chọn cách bảo mật của bạn
-- Chương 7 - Cài đặt và tinh chỉnh ví của bạn
-- Chương 8 - Bảo quản ví qua thời gian
-
-**Phần 3 - Các chức năng kỹ thuật của Bitcoin**
-
-
-- Chương 9 - Một giao dịch Bitcoin là gì?
-- Chương 10 - Các máy chủ Bitcoin
-- Chương 11 - Người khai thác (thợ đào)
-- Chương 12 - Người khai thác (thợ đào) và hệ sinh thái
-
-**Mục 4 - Tiết kiệm với Bitcoin**
-
-
-- Chương 13 - Giá Bitcoin
-- Chương 14 - Làm thế nào để mua Bitcoin?
-- Chương 15 - Làm việc để lấy Bitcoin
-- Chương 16 - Quy trình bitcoin hóa
-
-**Phần 5 - Mạng Lightning**
-
-
-- Chương 17 - Giới thiệu về mạng tia chớp (Lightning)
-- Chương 18 - Các ứng dụng của mạng tia chớp (Lightning)
-
-
-
 Trước khi tìm hiểu về tiền và chức năng của tiền trong xã hội trong Chương 1, chúng ta nên bắt đầu từ nguồn cội của Bitcoin. Ra mắt vào năm 2009, Bitcoin là một công nghệ khá mới mẻ không giống với các công nghệ khác. Do đó, việc không hiểu gì về nó hay không có một cái nhìn toàn diện trong giai đoạn đầu là điều hiển nhiên. Giống như khi học cách sử dụng Internet hoặc lái xe, bạn không cần phải biết tất cả các chi tiết kỹ thuật ngay lập tức: bạn có thể bắt đầu bằng cách học cách nhận Bitcoin, thanh toán và bảo lưu nguồn vốn của mình bằng Bitcoin, sau đó từng bước nghiên cứu sâu hơn.
 
 Hiện tại, chúng ta đã qua giai đoạn cất cánh nhưng chỉ mới ở giai đoạn đầu của quá trình áp dụng: vì thế bạn đang ở đúng thời điểm như mong muốn để đạt được nhiều kiến thức nhất có thể về cải tiến quan trọng này.
@@ -90,7 +50,6 @@ Hiện tại, chúng ta đã qua giai đoạn cất cánh nhưng chỉ mới ở
 
 Bạn đã sẵn sàng để khám phá thế giới hấp dẫn của Bitcoin và hiểu tất cả các hoạt động bên trong của nó chưa? Hãy cùng đi nào!
 
-**Lưu ý**: Nếu bạn gặp phải các thuật ngữ không quen thuộc trong khóa học, vui lòng tham khảo [bảng thuật ngữ](https://planb.academy/resources/glossary) để biết định nghĩa.
 
 ## Lịch sử của Bitcoin
 
@@ -225,7 +184,7 @@ Ngược lại, tiền tệ do nhà nước phát hành (tiền pháp định) r
 
 Tiền tệ vẫn đang phát triển cho đến ngày nay, điều chỉnh hình thức của chúng để đáp ứng các trường hợp sử dụng khác nhau. Như đã nói, trong khi vàng là một kho lưu trữ giá trị tuyệt vời, nó không còn phù hợp với nền kinh tế toàn cầu hóa hiện tại. Tương tự như vậy, các loại tiền tệ ủy thác như đô la và euro rất thanh khoản và dễ vận chuyển vì hiện nay chúng chủ yếu là kỹ thuật số, nhưng giá trị của chúng liên tục giảm do lạm phát tiền tệ.
 
-Mặt khác, Bitcoin mang đến những khả năng mới. Các đặc tính của nó, chẳng hạn như nguồn cung hạn chế nghiêm ngặt, khiến nó trở thành một kho lưu trữ giá trị tuyệt vời. Hơn nữa, với tư cách là một loại tiền tệ trung lập trên internet, nó đóng vai trò là một **phương tiện trao đổi** khả thi vượt qua biên giới. Tuy nhiên, nó vẫn chưa được chấp nhận rộng rãi trong thương mại ngày nay, mặc dù [được áp dụng liên tục](https://btcmap.org/map).
+Mặt khác, Bitcoin mở ra những triển vọng mới. Các đặc tính của nó, đặc biệt là nguồn cung bị giới hạn nghiêm ngặt, khiến nó trở thành một kho lưu trữ giá trị xuất sắc. Đồng thời, với tư cách là một đồng tiền internet trung lập, nó cấu thành một **phương tiện trao đổi** khả thi, có khả năng vượt qua biên giới. Tuy nhiên, mặc dù việc chấp nhận vẫn đang tiếp diễn (như được minh họa bởi [bản đồ BTCmap](https://btcmap.org/map)), hiện nay nó vẫn chưa được chấp nhận rộng rãi trong thương mại.
 
 ## tiền tệ ủy thác
 
@@ -395,7 +354,7 @@ Việc tạo ra bitcoin mới là kết quả của quá trình khai thác. Nói
 
 ![image](assets/vi/022.webp)
 
-Sau khi hoàn thành nhiệm vụ này thành công, người khai thác (thợ đào) sẽ được thưởng bitcoin mới được sản xuất ra sau mỗi mười phút. Phần thưởng này được lập trình để giảm một nửa sau mỗi 210.000 khối, tức là khoảng bốn năm một lần (một sự kiện được gọi là "halving"), tạo cho đường cong phát hành tiền tệ có hình dạng giống như cầu thang. Do cơ chế này, có thể dự đoán về mặt toán học rằng việc tạo ra bitcoin mới sẽ chấm dứt vào khoảng năm 2140, khi tổng số lượng đạt đến giới hạn là 21 triệu.
+Sau khi hoàn thành nhiệm vụ này thành công, người khai thác (thợ đào) sẽ được thưởng bitcoin mới được sản xuất ra sau mỗi mười phút. Phần thưởng này được lập trình để giảm một nửa sau mỗi 210.000 khối, tức là khoảng bốn năm một lần (một sự kiện được gọi là "[halving](https://planb.academy/resources/glossary/halving)"), tạo cho đường cong phát hành tiền tệ có hình dạng giống như cầu thang. Do cơ chế này, có thể dự đoán về mặt toán học rằng việc tạo ra bitcoin mới sẽ chấm dứt vào khoảng năm 2140, khi tổng số lượng đạt đến giới hạn là 21 triệu.
 
 | Halving Number | Chiều cao khối |Phần thưởng BTC sau khi Halving  | Ước tính BTC lưu hành sau khi Halving |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
@@ -750,7 +709,7 @@ Mặc dù Satoshi vắng mặt, Bitcoin vẫn tiếp tục được phát triể
 
 Đối với một số người, Bitcoin được định nghĩa là một loại nấm giống như một [hệ nấm sợi](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), trong khi người khác mô tả nó như một [hố đen](https://dergigi.com/). Dù bạn thích hay không thì Bitcoin vẫn tiếp tục tồn tại, với nhịp độ đều đặn liên tục 10 phút cho mỗi khối, giống như nhịp đập trái tim của một hệ thống tiền tệ mới.
 
-Để tìm hiểu thêm về các bài viết của Satoshi Nakamoto, chúng tôi khuyên bạn nên đọc ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) của Phil Champagne hoặc phim tài liệu "Le mystaire Satoshi" của ARTE.
+Để tìm hiểu sâu hơn về các tác phẩm của Satoshi Nakamoto, tôi khuyến nghị đọc [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) của Phil Champagne, tác phẩm tập hợp và đặt các văn bản chính của ông vào bối cảnh, cũng như bộ phim tài liệu của ARTE [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), mang đến một cuộc điều tra dễ tiếp cận và được tư liệu hóa đầy đủ về danh tính và di sản của ông.
 
 ![image](assets/vi/044.webp)
 
@@ -785,13 +744,13 @@ Bob thực hiện giao dịch bằng cách mở ví Bitcoin của mình và nh�
 
 Tại thời điểm này, mặc dù giao dịch này được mọi người biết đến (thông qua một công cụ gọi là Mempool), nhưng nó không được xem là đã xác nhận cho đến khi nó được chèn vào một khối bởi một thợ đào, đây là người duy nhất xác thực các giao dịch bằng cách đưa chúng vào chuỗi khối dữ liệu.
 
-Trên thực tế, thợ đào có vai trò thu thập các giao dịch hợp lệ và chưa được xác nhận để tập hợp chúng thành một khối. Nói một cách ngắn gọn, họ phải giải đáp một mật mã, và quá trình này được xem là "bằng chứng công việc" (Proof of work) để khối của họ trở thành khối tiếp theo trong chuỗi khối Bitcoin.
+Trên thực tế, thợ đào có vai trò thu thập các giao dịch hợp lệ và chưa được xác nhận để tập hợp chúng thành một khối. Nói một cách ngắn gọn, họ phải giải đáp một mật mã, và quá trình này được xem là "bằng chứng công việc" ([proof of work](https://planb.academy/resources/glossary/proof-of-work)) để khối của họ trở thành khối tiếp theo trong chuỗi khối Bitcoin.
 
 ![image](assets/vi/047.webp)
 
 ### Bước 3: Giao dịch được thợ đào khai thác trong một khối.
 
-Hệ thống quy trình minh chứng công việc - Proof of work yêu cầu phải tìm một "mã hóa" hợp lệ cho khối đang xét: hãy nghĩ về nó như một dấu vân tay độc nhất của khối dữ liệu, bao gồm 256 ký tự. Tính hợp lệ của mã hóa này phụ thuộc vào độ khó của mạng Bitcoin (chúng ta sẽ đi sâu hơn vào chi tiết sau). Trong ví dụ này, cho rằng một thợ đào đã tìm thấy một khối dữ liệu hợp lệ và giao dịch của Bob với Alice được chứa trong khối này. Tiếp đến, khối dữ liệu hợp lệ mới này được thêm vào chuỗi khối (Blockchain), sổ cái chung cho tất cả người sử dụng Bitcoin.
+Hệ thống quy trình minh chứng công việc - [proof of work](https://planb.academy/resources/glossary/proof-of-work) yêu cầu phải tìm một "mã hóa" hợp lệ cho khối đang xét: hãy nghĩ về nó như một dấu vân tay độc nhất của khối dữ liệu, bao gồm 256 ký tự. Tính hợp lệ của mã hóa này phụ thuộc vào độ khó của mạng Bitcoin (chúng ta sẽ đi sâu hơn vào chi tiết sau). Trong ví dụ này, cho rằng một thợ đào đã tìm thấy một khối dữ liệu hợp lệ và giao dịch của Bob với Alice được chứa trong khối này. Tiếp đến, khối dữ liệu hợp lệ mới này được thêm vào chuỗi khối (Blockchain), sổ cái chung cho tất cả người sử dụng Bitcoin.
 
 ![image](assets/vi/048.webp)
 
@@ -869,13 +828,13 @@ Sau chiến thắng này, các máy chủ đã kích hoạt bản cập nhật c
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Thợ đào bảo mật mạng lưới và thêm giao dịch vào các khối. Họ sử dụng điện thông qua máy ASIC để giải quyết bằng chứng công việc của Bitcoin.**
+**Thợ đào bảo mật mạng lưới và thêm giao dịch vào các khối. Họ sử dụng điện thông qua máy [ASIC](https://planb.academy/resources/glossary/asic) để giải quyết bằng chứng công việc của Bitcoin.**
 
 ![image](assets/vi/054.webp)
 
-### Giải thích về Bằng chứng công việc - "Proof of Work" (POW)
+### Giải thích về Bằng chứng công việc - "[proof of work](https://planb.academy/resources/glossary/proof-of-work)" (POW)
 
-Bằng chứng công việc - "Proof of Work" (POW) là cơ chế đồng thuận bảo mật của giao thức Bitcoin. Đây là nền tảng của mọi thứ và đóng vai trò quan trọng trong lý thuyết trò chơi của Bitcoin.
+Bằng chứng công việc - "[proof of work](https://planb.academy/resources/glossary/proof-of-work)" (POW) là cơ chế đồng thuận bảo mật của giao thức Bitcoin. Đây là nền tảng của mọi thứ và đóng vai trò quan trọng trong lý thuyết trò chơi của Bitcoin.
 
 Để giải thích cách thức hoạt động, chúng ta hãy hình dung một cuộc xổ số phổ thông mà mọi người đều có thể tham gia. Mục tiêu là tìm ra một con số cụ thể để cho phép người chiến thắng ký một khối hợp lệ và nhận được phần thưởng bằng Bitcoin. Con số này rất dễ xác minh bằng hàm mã hóa SHA-256, nhưng khó tìm: những người tham gia khai thác (thợ đào) sẽ thử hàng tỷ khả năng, chẳng hạn như 1, 52, 2648, 26874615, 15344854131318631, v.v., cho đến khi họ tìm ra đúng.
 
@@ -927,7 +886,7 @@ Phương pháp khen thưởng thứ hai được xác định theo số tiền m
 
 ### Tại sao phải bận tâm về tất cả những điều này?
 
-Tóm lại, sự đổi mới của Bitcoin là đề xuất một giải pháp cho vấn đề chi tiêu khống (2 lần) thông qua việc sử dụng chuỗi khối (Blockchain) dựa trên bằng chứng công việc (Proof of Work) với tỷ lệ độ khó khai thác thả nổi. Trong thế giới kỹ thuật số, khái niệm sở hữu khác với khái niệm sở hữu trong thế giới vật lý. Trên thực tế, trong thế giới kỹ thuật số, mọi thứ đều có thể được sao chép và cắt dán, điều này tạo ra rủi ro chi tiêu khống các tài sản kỹ thuật số có giá trị. Các trung gian đáng tin cậy, chẳng hạn như ngân hàng, đã được tạo ra để giải quyết vấn đề công nghệ này và đảm bảo rằng khi một tài sản được chuyển giao, nó không còn thuộc về người gửi nữa.
+Tóm lại, sự đổi mới của Bitcoin là đề xuất một giải pháp cho vấn đề chi tiêu khống (2 lần) thông qua việc sử dụng chuỗi khối (Blockchain) dựa trên bằng chứng công việc ([proof of work](https://planb.academy/resources/glossary/proof-of-work)) với tỷ lệ độ khó khai thác thả nổi. Trong thế giới kỹ thuật số, khái niệm sở hữu khác với khái niệm sở hữu trong thế giới vật lý. Trên thực tế, trong thế giới kỹ thuật số, mọi thứ đều có thể được sao chép và cắt dán, điều này tạo ra rủi ro chi tiêu khống các tài sản kỹ thuật số có giá trị. Các trung gian đáng tin cậy, chẳng hạn như ngân hàng, đã được tạo ra để giải quyết vấn đề công nghệ này và đảm bảo rằng khi một tài sản được chuyển giao, nó không còn thuộc về người gửi nữa.
 
 Nhưng làm sao có thể thực hiện được điều này mà không có một bên trung gian đáng tin cậy? Vấn đề này được mô tả rõ qua thuyết "nghịch lý Byzantine", một vấn đề về việc phối hợp thông tin trong một hệ thống mà không thể tin tưởng nhiều bên khác nhau. Trong bài toán Byzantine, một nhóm các vị tướng phải phối hợp tấn công một thành phố, nhưng trong số đó có thể là những kẻ phản bội đang cố gắng phá vỡ kế hoạch. Thách thức đưa ra là các vị tướng trung thành phải đạt được sự đồng thuận về việc nên tấn công hay rút lui, mặc dù nhận được những thông điệp có khả năng gây hiềm khích và hiểu lầm từ những kẻ phản bội.
 
@@ -1079,7 +1038,9 @@ Nền kinh tế Bitcoin tồn tại và đang phát triển ở một số khu v
 
 Tuy nhiên, ở El Salvador và ở những nơi khác trên thế giới, ngày càng có nhiều cá nhân, doanh nghiệp và tổ chức chấp nhận Bitcoin như một phương tiện thanh toán cho sản phẩm hoặc dịch vụ của họ.
 
-![image](assets/vi/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
+
+*Nguồn : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
 Bên cạnh đó, một dự án hợp tác mã nguồn mở đã được ra mắt, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), để tạo điều kiện thuận lợi cho việc sử dụng Bitcoin trong các giao dịch hàng ngày. Nền tảng này liệt kê tất cả các thương gia chấp nhận Bitcoin, cũng như các cộng đồng Bitcoin khác nhau trên toàn thế giới, để bạn có thể truy cập trang web của họ để khám phá hệ sinh thái Bitcoin xung quanh bạn. Do đó, bất chấp những khó khăn và do dự, vẫn có những sáng kiến như BTCMap góp phần làm cho nền kinh tế Bitcoin dễ tiếp cận và thuận tiện hơn cho mọi người.
 

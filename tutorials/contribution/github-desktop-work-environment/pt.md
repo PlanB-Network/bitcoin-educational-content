@@ -96,6 +96,6 @@ Para isso, várias opções estão disponíveis para você. Embora o bloco de no
 - Instale um desses programas de software e mantenha-o à parte para suas futuras modificações. ![github-desktop](assets/26.webp)
 Parabéns! Seu ambiente de trabalho agora está configurado para contribuir com a Plan ₿ Academy. Agora você pode explorar nossos outros tutoriais específicos para cada tipo de contribuição (tradução, revisão, escrita.
 
-https://planb.academy/tutorials/others
+https://planb.academy/tutorials/contribution
 
 ..).

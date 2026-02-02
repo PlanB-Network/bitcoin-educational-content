@@ -1,5 +1,5 @@
 question: Коя структура от данни обобщава транзакциите в даден блок?
-answer: Дървото на Меркъл
+answer: Дървото на Меркъл (Merkle tree)
 wrong_answers:
   - Таблицата Hash UTXO
   - Файлът peers.dat

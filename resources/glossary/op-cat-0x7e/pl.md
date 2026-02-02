@@ -1,5 +1,6 @@
 ---
 term: OP_CAT (0X7E)
+definition: Wyłączony opkod umożliwiający łączenie (konkatenację) dwóch elementów na szczycie stosu.
 ---
 
 Umożliwia konkatenację dwóch najwyższych Elements na stosie (tj. łączenie ich od końca do końca). Ten kod operacyjny został wyłączony, co uniemożliwia jego użycie. Niedawno jednak ponownie znalazł się w centrum uwagi. Niektórzy chcą dodać go do Tapscript, aby umożliwić łączenie obiektów na stosie, zwiększając tym samym ekspresyjność tego języka. To proste dodatkowe narzędzie mogłoby pozwolić na:

@@ -1,5 +1,6 @@
 ---
-term: UDHIBITI WA SARAFU
+term: Coin control
+definition: Kipengele kinachoruhusu uteuzi wa mwongozo wa UTXO utumike kama pembejeo za muamala.
 ---
 
 Kipengele kinachopatikana katika baadhi ya programu ya Bitcoin Wallet ambacho huwapa watumiaji uwezo wa kuchagua wenyewe UTXO maalum (Nyeo Zisizotumika za Muamala) ili kutumia kama nyenzo za kufanya muamala. Kwa maneno mengine, udhibiti wa sarafu hutoa uwezekano wa kuchagua kwa usahihi vipande vya bitcoins vitatumika. Utendaji huu ni sawa na hatua ya kuchagua sarafu mahususi kutoka kwa Wallet yako ili kulipia baguette yako.

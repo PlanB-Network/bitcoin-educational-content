@@ -76,7 +76,7 @@ description: Como utilizar o Hardware Wallet com a aplicação Blockstream num c
 
 
 
-- Aceda ao [sítio Web oficial] (https://blockstream.com/app/) e clique em "_Download Now_". Descarregar a versão correspondente ao seu sistema operativo (Windows, macOS, Linux).
+- Aceda ao [sítio Web oficial](https://blockstream.com/app/) e clique em "_Download Now_". Descarregar a versão correspondente ao seu sistema operativo (Windows, macOS, Linux).
 - **Nota**: Certifique-se de que efectua a transferência a partir da fonte oficial para evitar software fraudulento.
 
 
@@ -534,7 +534,7 @@ https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 - **Limites** :
     - O RBF não está disponível para transacções Liquid ou Lightning.
     - A transação inicial deve ser marcada como compatível com o RBF, o que a Blockstream App faz automaticamente.
-- Para mais informações, consultar [o nosso glossário] (https://planb.academy/resources/glossary/rbf-replacebyfee).
+- Para mais informações, consultar [o nosso glossário](https://planb.academy/resources/glossary/rbf-replacebyfee).
 
 
 
@@ -600,7 +600,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 - **Ligações oficiais**:
     - [Sítio Web oficial](https://blockstream.com/)
-    - [Suporte para a aplicação Blockstream] (https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): documentação e conversação
+    - [Suporte para a aplicação Blockstream](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): documentação e conversação
     - [GitHub](https://github.com/Blockstream/green_qt)
 
 
@@ -630,7 +630,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-[Glossário] (https://planb.academy/fr/resources/glossary/liquid-network)
+[Glossário](https://planb.academy/fr/resources/glossary/liquid-network)
 
 
 
@@ -642,7 +642,7 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-[Glossário] (https://planb.academy/fr/resources/glossary/lightning-network)
+[Glossário](https://planb.academy/fr/resources/glossary/lightning-network)
 
 
 

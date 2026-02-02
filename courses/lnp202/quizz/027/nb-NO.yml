@@ -1,0 +1,9 @@
+question: Hvilken informasjon mottar vakttårnet for å overvåke juks?
+answer: Delvis TXID for juksetransaksjonen
+wrong_answers:
+  - Privat kanalnøkkel
+  - Fullstendig kanalstatus
+  - TXID for juksetransaksjonen
+explanation: |
+  Vakttårnet mottar bare en del av TXID-en til juksetransaksjonen for å identifisere en mistenkelig transaksjon uten å kjenne kanalen.
+reviewed: false

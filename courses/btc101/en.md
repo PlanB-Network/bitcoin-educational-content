@@ -29,7 +29,7 @@ Welcome to the BTC101 course!
 
 Bitcoin is a technological and a monetary revolution, capable of making us question our relationship with money and society. In fact, Bitcoin (referred to as BTC) is a **neutral** and **decentralized** currency, which means that it is not controlled by any entity or institution. It is an innovation that goes beyond a mere "internet currency": it is both a computer protocol (Bitcoin) and a monetary unit (bitcoin).
 
-The Bitcoin protocol uses underlying technologies such as cryptography, network communication, and the famous "blockchain", while the bitcoin unit serves as the necessary currency for the proper functioning of this protocol. In everyday life, Salvadorians and bitcoiners around the world use the bitcoin currency to buy and sell goods and services, relying on this technology to make their lives better.
+The Bitcoin protocol uses underlying technologies such as cryptography, network communication, and the famous "[blockchain](https://planb.academy/resources/glossary/blockchain)", while the bitcoin unit serves as the necessary currency for the proper functioning of this protocol. In everyday life, Salvadorians and bitcoiners around the world use the bitcoin currency to buy and sell goods and services, relying on this technology to make their lives better.
 
 **A comprehensive yet accessible curriculum:**
 
@@ -38,40 +38,6 @@ In this course, we will discuss some monetary aspects of Bitcoin, including how 
 ![image](assets/en/001.webp)
 
 It is essential to understand that Bitcoin is a new monetary system that completely changes our relationship with money, so learning how to use it is a necessary skill for anyone who wants to be in control of their own funds.
-
-**Section 1 - Introduction**  
-- Chapter 1 - Course Overview  
-- Chapter 2 - The Prehistory of Bitcoin  
-
-**Section 2 - Money**  
-- Chapter 3 - Money Throughout History  
-- Chapter 4 - Fiat Currencies  
-- Chapter 5 - Hyperinflation  
-- Chapter 6 - 21 Million Bitcoins  
-
-**Section 3 - Bitcoin Wallets**  
-- Chapter 7 - What is a Bitcoin Wallet?  
-- Chapter 8 - Bitcoin Wallets and Security  
-- Chapter 9 - Setting Up a Wallet  
-- Chapter 10 - Standing the Test of Time  
-
-**Section 4 - The Technical Aspects of Bitcoin**  
-- Chapter 11 - Launching Bitcoin  
-- Chapter 12 - Bitcoin Transactions  
-- Chapter 13 - Bitcoin Nodes  
-- Chapter 14 - Miners  
-- Chapter 15 - Bitcoin and Ecology  
-
-**Section 5 - How to Obtain Bitcoins?**  
-- Chapter 16 - Bitcoin Never Sleeps!  
-- Chapter 17 - Earning Bitcoins Through Work  
-- Chapter 18 - Saving with Bitcoin  
-- Chapter 19 - Hyperbitcoinization  
-
-**Section 6 - The Future of Bitcoin: The Lightning Network**  
-- Chapter 20 - A Brief Introduction to the Lightning Network  
-- Chapter 21 - Lightning Network Use Cases  
-- Chapter 22 - Red Pill or Blue Pill?  
 
 Before introducing the definition of money and its function in society (Chapter 1), we should start from the genesis of Bitcoin. Launched in 2009, Bitcoin is a relatively new technology unlike anything else. It is therefore normal not to understand everything about it, all at once. In fact, just like when learning how to use the Internet or to drive a car, you don’t need to know all the technical details right away: you can start by learning how to receive, pay, and secure your funds, and then take small steps to study it more deeply.
 
@@ -83,7 +49,6 @@ The important point here is to understand this new technology in a general way, 
 
 Ready to dive into the fascinating world of Bitcoin and understand all its inner workings? Let's go!
 
-**N.B.**: If you come across any unfamiliar terms during the course, please consult [the glossary](https://planb.academy/resources/glossary) for definitions.
 
 ## The Prehistory of Bitcoin
 
@@ -126,7 +91,7 @@ The image below clearly illustrates the development of the movement through its 
 
 ![image](assets/en/005.webp)
 
-It was in this fertile environment that the mysterious Satoshi Nakamoto published the Bitcoin whitepaper in 2008. In this document, he combined several ideas from the cypherpunk movement, such as proof of work and cryptographic timestamps, to create a decentralized and censorship-resistant digital currency.
+It was in this fertile environment that the mysterious Satoshi Nakamoto published the Bitcoin whitepaper in 2008. In this document, he combined several ideas from the cypherpunk movement, such as [proof of work](https://planb.academy/resources/glossary/proof-of-work) and cryptographic timestamps, to create a decentralized and censorship-resistant digital currency.
 
 However, Bitcoin was more than just that: it represented the achievement of the cypherpunk ideals. Beyond its technology, it symbolized a revolution against traditional financial systems and offered an alternative based on transparency, decentralization, and individual sovereignty.
 
@@ -203,7 +168,7 @@ In order to meet these criteria, currency has historically evolved by taking dif
 
 Currencies are still evolving to this day, adapting their forms to meet different use cases. As we said, while gold is an excellent store of value, it is no longer suitable for the current globalized economy. Similarly, fiduciary currencies such as the dollar and the euro are very liquid and easily transportable because they are now mostly digital, but their value is constantly lowered by monetary inflation.
 
-On the other hand, Bitcoin presents new possibilities. Its properties, such as the strictly limited supply, make it an excellent store of value. Moreover, as a neutral internet currency, it serves as a viable **medium of exchange** that transcends borders. However, it is still not widely accepted in commerce today, despite its [constant adoption](https://btcmap.org/map).
+On the other hand, Bitcoin opens up new perspectives. Its properties, notably a strictly limited supply, make it an excellent store of value. Likewise, as a neutral internet currency, it constitutes a viable **medium of exchange**, capable of transcending borders. However, despite ongoing adoption (as illustrated by [the BTCmap map](https://btcmap.org/map)), it is not yet widely accepted in commerce today.
 
 ## Fiduciary currencies
 
@@ -265,7 +230,7 @@ https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
 
-Hyperinflation is a monetary phenomenon that is specific to fiat currencies: it is charterized by a complete loss of confidence in a currency and a drastic increase in inflation due to monetary printing by authorities. As a result, the savings accumulated by individuals can dissipate in a relatively short period of time, pushing the country on the brink of economic, social, and political collapse.
+Hyperinflation is a monetary phenomenon that is specific to fiat currencies: it is characterized by a complete loss of confidence in a currency and a drastic increase in inflation due to monetary printing by authorities. As a result, the savings accumulated by individuals can dissipate in a relatively short period of time, pushing the country on the brink of economic, social, and political collapse.
 
 ### Inflation running wild!
 
@@ -366,7 +331,7 @@ The creation of new bitcoins is the result of the mining process. In a nutshell,
 
 ![image](assets/en/022.webp)
 
-After successfully performing this task, miners get rewarded with the issuance of new bitcoins every ten minutes. This reward is programmed to halve every 210,000 blocks, which is approximately every four years (an event known as "halving"), giving the monetary issuance curve a stair-like shape. Due to this mechanism, it can be mathematically predicted that the creation of new bitcoins will cease arount the year 2140, when the total number reaches its limit of 21 million.
+After successfully performing this task, miners get rewarded with the issuance of new bitcoins every ten minutes. This reward is programmed to halve every 210,000 blocks, which is approximately every four years (an event known as "[halving](https://planb.academy/resources/glossary/halving)"), giving the monetary issuance curve a stair-like shape. Due to this mechanism, it can be mathematically predicted that the creation of new bitcoins will cease arount the year 2140, when the total number reaches its limit of 21 million.
 
 | Halving Number | Block Height | BTC Reward After Halving  | Estimated BTC in Circulation After Halving |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
@@ -419,7 +384,7 @@ The idea of devaluing the currency goes against the fundamental philosophy of Bi
 
 The scarcity of Bitcoin is a major asset, and the maximum quantity of 21 million bitcoins in circulation is public and verifiable by anyone.
 
-In fact, anyone can do this through a Bitcoin node (i.e. a transaction validator) by simply entering the following command: `bitcoin-cli gettxoutsetinfo`. This transparency strengthens trust in the Bitcoin system, which is not based on central institutions or individuals, but rather on the mathematical and cryptographic guarantees inherent in its protocol (You will learn how to do this easily in LNP201).
+In fact, anyone can do this through a Bitcoin [node](https://planb.academy/resources/glossary/node) (i.e. a transaction validator) by simply entering the following command: `bitcoin-cli gettxoutsetinfo`. This transparency strengthens trust in the Bitcoin system, which is not based on central institutions or individuals, but rather on the mathematical and cryptographic guarantees inherent in its protocol (You will learn how to do this easily in LNP201).
 
 ```json
 {
@@ -471,7 +436,7 @@ Whether it's your Bitcoin "banker" or yourself, the vast majority of Bitcoin wal
 
   When initializing a wallet, a secret recovery phrase, also known as a mnemonic phrase (private key), is generated and presented to you in the form of 12 or 24 words.
 
-  The private key is fundamental because it constitutes the ownership of the bitcoins and therefore the right to use or send them. Therefore, the holder of the private key is the true owner of the bitcoins. As the popularized statement goes, “Not your keys, not your coins.”
+  The [private key](https://planb.academy/resources/glossary/private-key) is fundamental because it constitutes the ownership of the bitcoins and therefore the right to use or send them. Therefore, the holder of the private key is the true owner of the bitcoins. As the popularized statement goes, “Not your keys, not your coins.”
 
   This key must be kept secret and well protected, as it unlocks your fortune!
 
@@ -677,7 +642,7 @@ Now that we have covered the basics of Bitcoin wallets and the best practices fo
 
 ![image](assets/en/038.webp)
 
-October 31, 2008 marks the birth of the new financial technology that is Bitcoin. On this day, the anonymous Satoshi Nakamoto presented his innovation to the world through an email sent to the mailing list of the cypherpunks, a community of cryptography enthusiasts dedicated to promoting privacy on the internet. This email contained a document called "White Paper", which presented how Bitcoin worked.
+October 31, 2008 marks the birth of the new financial technology that is Bitcoin. On this day, the anonymous Satoshi Nakamoto presented his innovation to the world through an email sent to the mailing list of the cypherpunks, a community of cryptography enthusiasts dedicated to promoting privacy on the internet. This email contained a document called "[White Paper](https://planb.academy/resources/glossary/white-paper)", which presented how Bitcoin worked.
 
 This initiative did not immediately generate enthusiasm, probably because of the previous failures in the attempts to create a digital cash systems. Nevertheless, this White Paper eventually became a reference for Bitcoin users and has been the subject of many debates in the Bitcoin ecosystem through the years.
 
@@ -717,7 +682,7 @@ Despite Satoshi's absence, Bitcoin continued to be developed: the history of Bit
 
 For some, Bitcoin is a defined as fungal entity like a [mycelium](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), while others describe it as a [black hole](https://dergigi.com/). Love it or hate it, Bitcoin continues to exist, with its constant rhythm of 10 minutes per block, like the heartbeat of a new monetary system.
 
-To learn more about Satoshi Nakamoto's writings, we recommend reading ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) by Phil Champagne or the ARTE documentary "Le mystaire Satoshi".
+To delve deeper into the writings of Satoshi Nakamoto, I recommend reading [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) by Phil Champagne, which brings together and contextualizes his main texts, as well as the ARTE documentary [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), which offers an accessible and well-documented investigation into his identity and legacy.
 
 ![image](assets/en/044.webp)
 
@@ -835,7 +800,7 @@ Following this victory, the nodes activated an update called SegWit, paving the 
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Miners secure the network and add transactions to the blocks. They use electricity through ASIC machines to solve the Bitcoin proof of work.**
+**Miners secure the network and add transactions to the blocks. They use electricity through [ASIC](https://planb.academy/resources/glossary/asic) machines to solve the Bitcoin proof of work.**
 
 ![image](assets/en/054.webp)
 
@@ -1040,7 +1005,9 @@ The Bitcoin economy exists and is developing in certain regions of the world, li
 
 Nonetheless, in El Salvador and in other parts of the world, there are more and more individuals, businesses, and organizations that accept Bitcoin as a means of payment for their products or services.
 
-![image](assets/en/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
+
+*Source : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
 In addition, an open-source and collaborative project has been launched, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), to facilitate the use of Bitcoin in everyday transactions. This platform lists all the merchants that accept Bitcoin, as well as the different Bitcoin communities around the world, so you can visit their website to discover the Bitcoin ecosystem around you. Thus, despite the difficulties and the hesitations, there are initiatives like BTCMap that contribute to making the Bitcoin economy more accessible and convenient for everyone.
 

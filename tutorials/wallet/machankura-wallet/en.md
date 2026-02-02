@@ -60,18 +60,19 @@ Unlike a conventional wallet solution, Machankura was able to use USSD technolog
 Machankura is a service developed and then linked to a GSM code to enable users to receive and send bitcoins without Internet. You can use the service in the following countries using the associated USSD code:
 
 
-| PAYS           | CODE USSD              |
+
+| COUNTRY           | USSD CODE              |
 | -------------- | ---------------------- |
 | Ghana          | `*920*8333#`           |
 | Kenya          | `*483*8333#`           |
 | Malawi         | `*384*8333#`           |
-| Namibie        | `*142*8333#`           |
+| Namibia        | `*142*8333#`           |
 | Nigeria        | `*347*8333#`           |
-| Afrique du Sud | `54052.co.za`          |
-| Tanzanie       | `SMS +255 679 066 977` |
-| Ouganda        | `SMS +256 744 830 624` |
-| Zambie         | `*384*8333#`           |
-| Côte d’Ivoire  | `*9141#`               |
+| South Africa | `54052.co.za`          |
+| Tanzania       | `SMS +255 679 066 977` |
+| Uganda        | `SMS +256 744 830 624` |
+| Zambia         | `*384*8333#`           |
+| Côte d'Ivoire  | `*9141#`               |
 
 Based on this table, we can see that countries such as Tanzania, Uganda and South Africa have no specific USSD code for the service.
 

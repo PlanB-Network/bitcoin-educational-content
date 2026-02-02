@@ -33,7 +33,7 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3
 
 
 
-Om Ashigaru Terminal te installeren heb je Tor Browser nodig, omdat de binaries alleen via het Tor netwerk worden gedistribueerd. Als je dit nog niet hebt gedaan, [installeer het op je machine] (https://www.torproject.org/download/).
+Om Ashigaru Terminal te installeren heb je Tor Browser nodig, omdat de binaries alleen via het Tor netwerk worden gedistribueerd. Als je dit nog niet hebt gedaan, [installeer het op je machine](https://www.torproject.org/download/).
 
 
 
@@ -109,7 +109,7 @@ Als er in dit stadium een foutmelding verschijnt, is de handtekening ongeldig. I
 
 
 
-Keybase heeft je voorzien van de geverifieerde hash van de applicatie. We gaan nu controleren of de hash van het `.deb`, `.zip` of `.dmg` bestand dat je hebt gedownload overeenkomt met de hash die is gevalideerd op Keybase. Ga hiervoor naar [HASH FILE ONLINE] (https://hash-file.online/).
+Keybase heeft je voorzien van de geverifieerde hash van de applicatie. We gaan nu controleren of de hash van het `.deb`, `.zip` of `.dmg` bestand dat je hebt gedownload overeenkomt met de hash die is gevalideerd op Keybase. Ga hiervoor naar [HASH FILE ONLINE](https://hash-file.online/).
 
 
 

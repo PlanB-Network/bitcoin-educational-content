@@ -1,9 +1,9 @@
-question: Wat is de naam van het patroon dat bestaat uit een enkele UTXO in de invoer en een enkele UTXO in de uitvoer?
+question: Wat is de naam van het patroon dat bestaat uit een enkele input-UTXO en een enkele output-UTXO?
 answer: Vegen
 wrong_answers:
   - Consolidatie
   - CoinJoin
   - Batch-uitgaven
 explanation: |
-  De interpretatie van deze structuur is dat we ons in de aanwezigheid van een sweep bevinden, wat een zelfoverdracht van bitcoins betekent.
+  De interpretatie van deze structuur is dat we ons in de aanwezigheid van een sweep (vegen) bevinden, wat een zelfoverdracht van bitcoins betekent.
 reviewed: false

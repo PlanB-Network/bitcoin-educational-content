@@ -1,5 +1,6 @@
 ---
-term: gw-0コアgui-qml
+term: Bitcoin Core GUI-QML
+definition: よりスムーズなユーザー体験のためにQMLを使用した、Bitcoin Core向けのモダンなグラフィカル・インターフェース・プロジェクト。
 ---
 
 QML (*Qt Modeling Language*) を用いて開発された直感的なグラフィカルInterfaceを用いて、Bitcoin CoreをベースとしたBitcoinポートフォリオとノードアプリケーションを作成するための進行中のプロジェクトです。BitcoinコアのGUI-QMLの目的は、BitcoinコアのInterfaceユーザーエクスペリエンスを近代化し、よりシンプルでスムーズ、そしてダイナミックなエクスペリエンスを提供することです。

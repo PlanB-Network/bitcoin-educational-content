@@ -1,8 +1,9 @@
-question: Dukurikije umutwe w’igitabu canditswe na Le Trosne, umwidegemvyo wo gucuruza udondorwa gute?
-answer: Igihe cose ni ngirakamaro, ntiyigera igira nabi
+question: Dukurikije umutwe w’igitabu canditswe na Le Trosne, umwidegemvyo wo gucuruza uvugwa gute?
+answer: Igihe cose kiba gikenewe, nticigera kiba kibi(conona)
 wrong_answers:
-  - Igihe cose bifise inyungu kandi bimaze igihe cose bifise akamaro
-  - Akenshi biragira inyungu, vyama bifise inyifato runtu
-  - Rimwe na rimwe biratuma umuntu agira inyungu, rimwe na rimwe biragira nabi
+  - Igihe cose bigira inyungu kandi iminsi yose cama gikenewe
+  - Akenshi bizana uturusho, iminsi yose bizana umunezero
+  - Rimwe na rimwe biratuma umuntu akuramwo uturusho, rimwe na rimwe bironona
 explanation: |
-  Le Trosne yanditse mu gitabu ciwe citwa « Inyungu y’imibano, ku bijanye n’agaciro, ku nzira y’ubudandaji, ku bijanye n’inganda n’ubudandaji bwo mu mutima no hanze », aho aburanira ubudandaji bwigenga ko buhora ari ngirakamaro kandi ko butazokwigera bugira ico bukoze ku kibano.
+  Le Trosne yanditse mu gitabu ciwe citwa « Inyungu y’imibano, ufatiye ku gaciro n’agaciro, ku nzira y’ubudandaji, ku bijanye n’inganda n’ubudandaji bwo mu mutima no hanze », aho aburanira ubudandaji bwigenga ko buhora ari ngirakamaro kandi ko butazokwigera bugira ico bukoze ku kibano.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Miksi BIP34 edellyttää lohkon korkeuden sisällyttämistä Coinbase-tapahtuman scriptSig-kenttään?
+answer: Sen varmistamiseksi, että jokainen Coinbase transaction ID on ainutlaatuinen kaikissa lohkoissa
+wrong_answers:
+  - Tarjota ylimääräistä entropiaa louhijoille, kun nonce-avaruus on käytetty loppuun
+  - Jotta kevyet asiakkaat voivat tarkistaa lohkojen järjestyksen lataamatta kokonaisia lohkoja
+  - Estää kaivostyöläisiä vaatimasta lohkotukia, jotka ylittävät sallitun määrän
+explanation: |
+  BIP34 edellyttää lohkon korkeuden sisällyttämistä Coinbase scriptSigiin erityisesti jokaisen Coinbase transaction ID:n ainutkertaisuuden takaamiseksi. Ilman tätä vaatimusta kahdella eri korkeudella olevalla lohkolla voisi teoriassa olla identtisiä Coinbase-transaktioita, jolloin syntyisi päällekkäisiä txid-tietokantoja, jotka rikkoisivat Bitcoin:n transaktioiden ainutkertaisuusoletuksia ja aiheuttaisivat mahdollisesti tietokantaristiriitoja txid:n mukaan indeksoivissa toteutuksissa.

@@ -1,12 +1,16 @@
 ---
-term: ASSUME UTXO
+term: Assume utxo
+definition: Parametr Bitcoin Core umożliwiający szybką synchronizację nowego węzła przy użyciu snapshot zbioru UTXO założonego za poprawny, przed weryfikacją historii w tle.
 ---
+Parametr konfiguracyjny w głównym kliencie Bitcoin Core, który umożliwia węzłowi, który właśnie został zainicjowany (ale nie przeprowadził jeszcze IBD), odroczenie weryfikacji transakcji i zestawu UTXO przed danym snapshotem. Koncepcja opiera się na wykorzystaniu zestawu UTXO (listy wszystkich istniejących UTXO w danym momencie) dostarczonego przez Core i uznanego za dokładny, co pozwala węzłowi na bardzo szybką synchronizację z łańcuchem o największej skumulowanej pracy. Ponieważ węzeł pomija długi etap IBD, staje się on bardzo szybko funkcjonalny dla użytkownika.
 
-Parametr konfiguracyjny w wiodącym kliencie Bitcoin Core, który umożliwia węzłowi, który właśnie został zainicjowany (ale nie przeszedł jeszcze IBD), odroczenie weryfikacji transakcji i zestawu UTXO do określonej migawki. Koncepcja ta opiera się na wykorzystaniu zestawu UTXO (lista wszystkich istniejących UTXO w danym momencie) dostarczonego przez Core i zakładanego jako dokładny, co pozwala na bardzo szybką synchronizację węzła z łańcuchem o największej ilości zgromadzonej pracy. Ponieważ węzeł pomija długi krok IBD, bardzo szybko staje się operacyjny dla swojego użytkownika. Załóżmy, że UTXO dzieli synchronizację (IBD) na dwie części:
+Assume UTXO dzieli synchronizację (IBD) na dwie części: Po pierwsze, węzeł wykonuje Header First Sync (tylko weryfikacja nagłówków) i uznaje zestaw UTXO dostarczony przez Core za ważny; Następnie, gdy już będzie funkcjonalny, węzeł sprawdzi pełną historię bloków w tle, aktualizując nowy zestaw UTXO, który sam zweryfikuje. Jeśli ten ostatni nie będzie zgadzał się z zestawem UTXO dostarczonym przez Core, wyświetli komunikat o błędzie.
+
+Assume UTXO pozwala zatem przyspieszyć przygotowanie nowego węzła Bitcoin poprzez odroczenie procesu weryfikacji transakcji i zestawu UTXO dzięki zaktualizowanemu snapshotowi dostarczonemu w Core.
 
 
-- Najpierw węzeł wykonuje Header First Sync (weryfikacja tylko nagłówków) i uznaje zestaw UTXO dostarczony przez Core za prawidłowy;
-- Następnie, po uruchomieniu, węzeł zweryfikuje pełną historię bloków w tle, aktualizując nowy zestaw UTXO, który sam zweryfikował. Jeśli ten nowy zestaw UTXO nie pasuje do tego dostarczonego przez Core, wygeneruje komunikat o błędzie.
 
 
-Dlatego załóżmy, że UTXO przyspiesza przygotowanie nowego węzła Bitcoin poprzez odroczenie procesu weryfikacji transakcji i zestawu UTXO poprzez zaktualizowaną migawkę dostarczoną w Core.
+
+
+

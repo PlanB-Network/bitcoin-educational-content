@@ -1,5 +1,6 @@
 ---
-term: MIXER
+term: Mixer
+definition: Zentralisierter Dienst, der die Bitcoins mehrerer Nutzer mischt, um deren Historie zu verschleiern.
 ---
 
 Zentraler Dienst zum Aufbrechen der Bitcoin-Münzgeschichte durch Mischen von Geldern mehrerer Nutzer. Im Gegensatz zu CoinJoin, wo die Nutzer während des gesamten Mischvorgangs die Kontrolle über ihre Gelder behalten, nimmt ein Blender die Bitcoins der Nutzer vorübergehend in Besitz, mischt sie mit denen anderer Nutzer und sendet die Gelder dann an neue Adressen zurück.

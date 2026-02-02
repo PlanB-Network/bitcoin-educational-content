@@ -1,6 +1,7 @@
 ---
-term: SCRIPTWITNESS
+term: Scriptwitness
 
+definition: Prvek SegWit obsahující podpisy a veřejné klíče k odemknutí bitcoinů.
 ---
 Prvek v záznamech transakcí SegWit, který obsahuje podpisy a veřejné klíče potřebné k odemčení bitcoinů odeslaných v transakci. Podobně jako `scriptSig` u transakcí Legacy se však `scriptWitness` nenachází na stejném místě. Ve skutečnosti je právě tato část, označovaná jako "svědek" (anglicky `*witness*`), přesunuta do samostatné databáze, aby se vyřešil problém s falšovatelností transakcí. Každý vstup SegWit má svůj vlastní `scriptWitness` a všechny prvky `scriptWitness` dohromady tvoří pole `Witness` transakce.
 

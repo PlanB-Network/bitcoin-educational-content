@@ -1,0 +1,8 @@
+question: Blockstream AMP'nin kör edici mimarisinde, işlem geçerliliği doğrulamasını sürdürürken varlık miktarı şifrelemesini sağlayan kriptografik mekanizma hangisidir?
+answer: Şifrelenmiş değerleri açığa çıkarmadan işlem geçerliliğini doğrulayan aralık kanıtlarına sahip Eliptik Eğri Diffie-Hellman anahtar değişimi
+wrong_answers:
+  - Hesaplama bütünlüğünü kanıtlarken işlem miktarlarını gizleyen taahhüt şemalarına sahip sıfır bilgili SNARK'lar
+  - Kriptografik denetlenebilirliği korurken gönderenin kimliğini gizleyen gizli adreslere sahip halka imzalar
+  - Şifrelenmiş işlem verileri üzerinde matematiksel işlemlere olanak tanıyan merkle ağacı taahhütleri ile homomorfik şifreleme
+explanation: |
+  AMP, göndericilerin alıcıların kör edici açık anahtarlarını kullanarak varlık tutarlarını şifrelediği ve değerleri açığa çıkarmadan işlem geçerliliğini matematiksel olarak doğrulayan aralık kanıtları oluşturduğu ECDH anahtar değişimini kullanır. Bu, SNARK'lardan (hesaplama kanıtları), halka imzalardan (anonimlik odağı) veya homomorfik şifrelemeden (şifrelenmiş veriler üzerinde hesaplama) farklıdır - AMP özellikle gizli ancak doğrulanabilir işlemlere ihtiyaç duyar.

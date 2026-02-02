@@ -1,0 +1,9 @@
+question: ตามใบอนุญาต MIT ที่ Bitcoin Core ถูกแจกจ่าย มีข้อจำกัดอะไรบ้างเกี่ยวกับการแจกจ่ายผลงานที่ดัดแปลง?
+answer: งานที่ดัดแปลงต้องแจกจ่ายภายใต้เงื่อนไขเดียวกันกับใบอนุญาตของซอฟต์แวร์ต้นฉบับ
+wrong_answers:
+  - ผลงานที่ดัดแปลงไม่สามารถขายในเชิงพาณิชย์ได้และต้องแจกจ่ายฟรีเสมอ
+  - งานที่ดัดแปลงต้องได้รับอนุญาตเป็นลายลักษณ์อักษรจากนักพัฒนา Bitcoin Core ก่อนการแจกจ่าย
+  - ผลงานที่ดัดแปลงต้องรวมถึงการใช้แบรนด์ Bitcoin Core ดั้งเดิมและไม่สามารถเปลี่ยนชื่อหรือเปลี่ยนแบรนด์ได้
+explanation: |
+  The MIT License requires that derived works be distributed under the same license terms as the original software, ensuring the open source nature is preserved. This doesn't prohibit commercial sale (wrong answer 1), doesn't require permission from developers (wrong answer 2), and doesn't mandate keeping original branding (wrong answer 3). The license specifically states that modifications and derived works must be allowed under the same terms, maintaining the permissionless development model that enables innovation like Lightning Network and sidechains.
+reviewed: false

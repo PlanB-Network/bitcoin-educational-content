@@ -1,0 +1,8 @@
+question: 在传统 ECDSA 签名验证的 sighash 构建过程中，所有输入的 ScriptSig 字段会发生什么变化？
+answer: 清空所有 ScriptSig 字段，然后用相应的 ScriptPubKey 替换当前输入的 ScriptSig
+wrong_answers:
+  - 所有 ScriptSig 字段均保持不变，并以原始形式包含在 sighash 计算中。
+  - "只保留当前输入的 ScriptSig，而从事务中删除所有其他输入的 ScriptSig 字段"
+  - 所有 ScriptSig 字段都会被替换为引用输出中相应的 ScriptPubKey 值
+explanation: |
+  在为传统交易构建叹息时，流程会特别先清空所有 ScriptSig 字段，然后仅用其正在使用的输出中相应的 ScriptPubKey 替换当前正在验证的输入。这样可以确保签名提交到支出条件，而不会产生循环依赖关系，即签名需要自己签名。其他选项都是不正确的，因为它们要么将签名留在原处（造成逻辑上的不可能），要么统一修改所有输入（无法正确隔离当前输入的验证上下文）。

@@ -1,0 +1,8 @@
+question: Hvilken syntaks brukes for å få tilgang til det første feltet i en tupelstruktur i Rust?
+answer: Punktnotasjon med indeks 0 (f.eks. instance.0)
+wrong_answers:
+  - Firkantede parenteser med indeks 0 (f.eks. instance[0])
+  - Pilnotasjon med indeks 0 (f.eks. instans->0)
+  - Dobbelt kolon med indeks 0 (f.eks. instance::0)
+explanation: |
+  Tupelstrukturer i Rust bruker punktnotasjon etterfulgt av feltindeksen for å få tilgang til de ikke-navngitte feltene. Det første feltet nås med .0, det andre med .1, og så videre. Dette er forskjellig fra matriser eller vektorer, som bruker firkantede parenteser, og i motsetning til C++, som bruker pilnotasjon for pekere. Syntaksen med dobbelt kolon er reservert for assosierte funksjoner og namespacing, ikke for felttilgang.

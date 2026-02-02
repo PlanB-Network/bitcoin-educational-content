@@ -1,0 +1,8 @@
+question: Was ist der Hauptzweck der Kombination von RC und RefCell bei der Rust-Programmierung?
+answer: Ermöglichung der gemeinsamen Nutzung und Mutation derselben Daten durch mehrere Eigentümer mit Laufzeitprüfungen für die Ausleihe
+wrong_answers:
+  - Verlagerung der Durchsetzung von Ausleihregeln von der Laufzeit zurück in die Kompilierzeit zur Verbesserung der Leistung
+  - Erstellen unveränderlicher gemeinsamer Daten, auf die sicher über mehrere Threads hinweg zugegriffen werden kann
+  - Zur Vermeidung von Referenzzyklen und Speicherlecks bei der gemeinsamen Nutzung von Daten durch mehrere Eigentümer
+explanation: |
+  RC<RefCell<T>> kombiniert Referenzzählung für gemeinsamen Besitz mit interner Mutabilität für zur Laufzeit überprüfte Mutationen. RC erlaubt es mehreren Teilen des Codes, dieselben Daten zu besitzen, während RefCell die Mutation durch unveränderliche Referenzen ermöglicht, indem die Ausleihregeln zur Laufzeit überprüft werden. Die anderen Optionen sind falsch: Dieses Muster verlagert die Prüfungen auf die Laufzeit (nicht auf die Kompilierzeit), erzeugt veränderbare (nicht unveränderbare) gemeinsame Daten und kann tatsächlich Referenzzyklen verursachen, anstatt sie zu verhindern.

@@ -1,5 +1,6 @@
 ---
 term: Mempool
+definition: Bir bloğa dahil edilmeyi bekleyen işlemlerin her bir düğüm tarafından saklandığı alan.
 ---
 
 "Bellek" ve "havuz" terimlerinin kısaltmasıdır. Bu, bir bloğa dahil edilmeyi bekleyen Bitcoin işlemlerinin bir arada gruplandırıldığı sanal bir alanı ifade eder. Bir işlem oluşturulduğunda ve Bitcoin ağında yayınlandığında, ilk olarak ağın düğümleri tarafından doğrulanır. Geçerli kabul edilirse, daha sonra her düğümün Mempool'sine yerleştirilir ve burada bir bloğa dahil edilmek üzere bir Miner tarafından seçilene kadar kalır.

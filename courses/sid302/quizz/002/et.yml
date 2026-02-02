@@ -1,0 +1,8 @@
+question: Kui tihti luuakse Liquid Network-s uusi plokke?
+answer: Iga minut
+wrong_answers:
+  - Iga 10 minuti tagant
+  - Iga 30 sekundi tagant
+  - Iga 5 minuti tagant
+explanation: |
+  Liquid Network toodab plokke iga minuti tagant deterministliku ringrežiimi alusel, mis on palju kiirem ja prognoositavam kui Bitcoin tõenäolised 10-minutilised 10-minutilised intervallid. See täpne üheminutiline ajastus on kriitilise tähtsusega võrgu kasutusjuhtumite, näiteks arbitraaži ja kiire börsidevahelise arvelduse jaoks, tagades institutsionaalsete kauplemisoperatsioonide jaoks vajaliku kiiruse.

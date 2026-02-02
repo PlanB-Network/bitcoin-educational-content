@@ -1,0 +1,8 @@
+question: Qual é o fundamento matemático que torna o problema do logaritmo discreto computacionalmente inviável na criptografia de curvas elípticas?
+answer: A distribuição imprevisível de pontos ao gerar um grupo cíclico através da adição repetida de pontos
+wrong_answers:
+  - A propriedade de simetria das curvas elípticas que reflecte os pontos ao longo do eixo x
+  - As operações aritméticas modulares efectuadas em campos finitos em vez de números reais
+  - O número primo grande utilizado como caraterística do campo na equação da curva
+explanation: |
+  A dificuldade do problema do logaritmo discreto resulta da distribuição imprevisível e não linear dos pontos ao gerar um grupo cíclico (G, 2G, 3G, ..., nG). Embora os pontos sejam gerados sequencialmente, aparecem dispersos e aleatórios, tornando computacionalmente inviável a determinação do escalar s a partir do ponto P = sG. Embora a simetria, a aritmética modular e os primos grandes sejam propriedades importantes das curvas elípticas, não criam diretamente a função unidirecional que permite a criptografia segura de chaves públicas.

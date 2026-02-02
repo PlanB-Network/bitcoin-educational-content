@@ -1,9 +1,9 @@
-question: Hoe gaat Wabisabi om met verandering in vergelijking met Wasabi 1.0?
+question: Hoe gaat Wabisabi om met wisselgeld in vergelijking met Wasabi 1.0?
 answer: Het splitst het in verschillende kleine bedragen die in gelijke coupures worden verdeeld.
 wrong_answers:
-  - Het consolideert ze om te voorkomen dat ze Dust worden.
-  - Het sluit ze uit vóór de CoinJoin transactie door de inputs gelijk te maken.
-  - Het wordt automatisch overgebracht naar een reserve Wallet.
+  - Het consolideert ze om te voorkomen dat ze dust worden.
+  - Het sluit ze uit vóór de CoinJoin-transactie door de inputs gelijk te maken.
+  - Het wordt automatisch overgebracht naar een reserve wallet.
 explanation: |
   In tegenstelling tot Wasabi 1.0, waar het wisselgeld direct gekoppeld was aan de input van de gebruikers, wil Wabisabi het wisselgeld onderverdelen in verschillende kleine bedragen die in gelijke coupures worden verdeeld onder alle deelnemers.
   

@@ -1,0 +1,8 @@
+question: Miks kaasaegsed ASIC kaevandajad muudavad andmeid Coinbase'i tehingu sees, selle asemel, et tugineda ainult ploki päise nonce-väljale?
+answer: 4 baidi suurune nonce-väli ei paku kaasaegsetele ASIC-dele piisavalt otsinguruumi, mistõttu kaevurid muudavad Coinbase'i andmeid, et muuta Merkle'i juurt ja luua täiendavat otsinguruumi
+wrong_answers:
+  - Coinbase'i tehingu muutmine võimaldab kaevandajatel nõuda suuremaid plokkide preemiaid, kui standardne toetussumma lubab
+  - "Coinbase'i tehing tuleb muuta, et lisada kaevandaja digitaalallkiri ploki valideerimiseks"
+  - Coinbase'i andmete muutmine vähendab arvutuslikke raskusi, võimaldades kaevandajatel mööda minna standardsetest proof-of-work nõuetest
+explanation: |
+  Kaasaegsed ASIC-id võivad 4 baidi suuruse nonce-ruumi (2^32 võimalust) väga kiiresti ammendada, mistõttu on vaja täiendavat otsinguruumi. Coinbase'i tehingu andmeid muutes muudavad kaevandajad tehingu hash'i, mis muudab ploki päises olevat Merkle'i juurt, tekitades tegelikult miljardeid täiendavaid nonce'i-taolisi väärtusi, mida proovida. See tehnika, mida nimetatakse "extra-nonce'iks", on oluline kaasaegsete mining operatsioonide jaoks, kus riistvara ületab kaugelt esialgse nonce-välja mahutavuse.

@@ -6,4 +6,4 @@ wrong_answers:
   - Proof-of-Work
 explanation: |
   RGB bergantung pada validasi lokal atas status, dengan blockchain hanya berfungsi sebagai jangkar kriptografis dan perlindungan terhadap pengeluaran ganda.
-reviewed: false
+reviewed: true

@@ -1,0 +1,9 @@
+question: มาตรฐาน Bitcoin ใดที่แนะนำกระเป๋าเงินแบบกำหนดลำดับชั้น?
+answer: BIP32
+wrong_answers:
+  - BIP39
+  - BIP44
+  - BIP141
+explanation: |
+  BIP32 กำหนดการทำงานของ HD wallets โดยอนุญาตให้มีการสืบทอดลำดับชั้นของกุญแจส่วนตัวจาก seed
+reviewed: false

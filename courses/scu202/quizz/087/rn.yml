@@ -1,9 +1,9 @@
-question: Ni iyihe porogarama ya VPN ifunguye yemerera gukora konti ata email kandi yemera kwishura Bitcoin?
-answer: Muluvadi
+question: Ni iyihe porogarame ya VPN y’isoko yuguruye yemera gukora konti bitamenyekanye ata imeyiri kandi yemera kuriha ukoresheje bitcoin?
+answer: Mullvad
 wrong_answers:
-  - VPN yerekana
-  - Porotoni VPN
+  - ExpressVPN
+  - Proton VPN
   - NordVPN
 explanation: |
-  Mullvad VPN igaragara kubera ko ikora konti yayo ata mazina, ata email canke ijambobanga bisabwa, kandi yemera kwishura muri Bitcoin canke amahera.
-reviewed: false
+  Mullvad VPN igaragara kubera ko ushobora gukora konti yayo ata mazina canke akaranga kawe, ata imeyiri canke ijambo ry’ibanga bisaba, kandi yemera kuriha na bitcoin canke amahera.
+reviewed: true

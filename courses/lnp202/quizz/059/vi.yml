@@ -1,0 +1,9 @@
+question: Ứng dụng di động nào trong số này tương thích với kết nối NWC?
+answer: Alby Go
+wrong_answers:
+  - Phoenix
+  - Wallet of Satoshi
+  - Muun
+explanation: |
+  Trong số các đề xuất, chỉ có Alby Go là tương thích với NWC, mặc dù các ứng dụng khác như Zeus cũng vậy.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Jaki jest podstawowy mechanizm, który umożliwia RC korzystanie z wielu własności przy jednoczesnym zachowaniu bezpieczeństwa pamięci?
+answer: Wewnętrzny licznik, który śledzi odniesienia i zwalnia pamięć tylko wtedy, gdy licznik osiągnie zero
+wrong_answers:
+  - Analiza w czasie kompilacji, która weryfikuje wszystkie wzorce referencyjne przed wykonaniem programu
+  - Garbage collector, który okresowo skanuje i czyści nieosiągalne alokacje pamięci
+  - System oparty na blokadach, który synchronizuje dostęp między wieloma właścicielami tych samych danych
+explanation: |
+  RC utrzymuje wewnętrzny licznik odwołań, który zwiększa się po sklonowaniu i zmniejsza po porzuceniu, zapewniając, że pamięć jest zwalniana tylko wtedy, gdy nie ma już żadnych odwołań. Różni się to od analizy w czasie kompilacji (której używa Box), zbierania śmieci (którego Rust nie stosuje) lub mechanizmów blokowania (które są używane do synchronizacji wątków, a nie śledzenia własności). Podejście oparte na licznikach pozwala na bezpieczną współwłasność bez narzutów związanych z odśmiecaniem lub ograniczeń związanych z pojedynczą własnością.

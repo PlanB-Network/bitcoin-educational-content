@@ -1,5 +1,6 @@
 ---
 term: OP_2DUP (0X6E)
+definition: Opcode dupliquant les deux éléments en haut de la pile.
 ---
 
 Duplique les deux éléments en haut de la pile, puis les place en haut de la pile. Par exemple, si la pile est :

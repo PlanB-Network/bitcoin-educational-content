@@ -1,0 +1,8 @@
+question: Mu HTLC ikoreshwa na Taproot, bigenda gute iyo abo bompi bemeranije guheza igikorwa co guhinduranya?
+answer: Bashira umukono hamwe bakoresheje urufunguzo rwabo rwa bose rwo gukorana biciye kuri MuSig2, bagatuma haba ugucuruza kudatandukanywa n’ukwishura gusanzwe kw’umukono umwe .
+wrong_answers:
+  - Bategerezwa guhishura inyandiko yuzuye irimwo hash n'ibifungurwa vy'igihe on-chain kugira ngo bagenzure urubuga
+  - Basohora gusa ishami ry’igiti ca Merkle ryihariye rikenewe mu gihe bagumana urufunguzo rwo gukoranya rwihishije abarorerezi .
+  - Batangaza amakuru atandukanye ku rwego rumwe rumwe icarimwe kugira ngo bashobore gushinga atome ata n’urufunguzo rwo gukoranya .
+explanation: |
+  "Inzira y'urufunguzo" y'ubufatanye muri Taproot iremesha abafatanyabikorwa gufatanya urufunguzo rwabo mu rufunguzo rumwe rwa bose bakoresheje MuSig2. Iyo bompi bemeranije, barasinya gusa ku bijanye n’ugucuruza, ivyo bikaba bimeze nk’ivyo kwishura vyose bimenyerewe ku rubuga rwa blockchain. Ivyo bitanga ubuzima bwite n’ubushobozi bwinshi kuko ata nzira y’inyandiko ihishurirwa, ifata umwanya mutoyi w’ibice. Ayandi mahitamwo adondora nabi inyifato ya HTLC y'iragi canke inzira y'inyandiko y'abansi.

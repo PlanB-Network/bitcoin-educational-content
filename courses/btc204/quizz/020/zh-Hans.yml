@@ -1,4 +1,4 @@
-question: 在搜索模式时，我们将研究交易的哪个部分？
+question: 研究交易模式时，我们将关注交易的哪个部分？
 answer: 它的结构
 wrong_answers:
   - 它的元数据

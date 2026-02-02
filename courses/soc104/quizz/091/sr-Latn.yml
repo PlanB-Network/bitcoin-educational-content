@@ -1,0 +1,9 @@
+question: Prema osnovnoj kritici Satoshi Nakamota, koji je glavni problem sa konvencionalnim fiat valutama koji je Bitcoin dizajniran da reši?
+answer: Prekomerno poverenje potrebno u centralizovanim institucijama koje su istorijski više puta izneverile to poverenje obezvređivanjem valuta
+wrong_answers:
+  - Nedostatak digitalne infrastrukture i sporo vreme obrade transakcija u poređenju sa modernim sistemima plaćanja
+  - Nemogućnost obavljanja međunarodnih transakcija bez skupih posrednika i naknada za konverziju valuta
+  - Ranljivost na falsifikovanje i fizičku krađu zbog oslanjanja na papirni novac i fizičko skladištenje
+explanation: |
+  Satoshi Nakamoto je eksplicitno naveo da je 'osnovni problem sa konvencionalnom valutom sav taj poverenje koje je potrebno da bi funkcionisala' i da je 'istorija fiat valuta puna kršenja tog poverenja.' 
+  Ova filozofska osnova pokrenula je dizajn Bitcoin kao sistema bez poverenja koji ne zahteva veru u centralne banke ili vlade za održavanje monetarne stabilnosti, direktno se baveći istorijskim obrascem devalvacije valute kroz prekomerno štampanje novca.

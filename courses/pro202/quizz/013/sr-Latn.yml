@@ -1,0 +1,8 @@
+question: Grupa
+answer: Matematička grupa sa zatvorenošću, asocijativnošću, identitetom i inverzima
+wrong_answers:
+  - Konačno polje sa definisanim operacijama množenja i deljenja
+  - Vektorski prostor sa skalarnim množenjem i linearnim kombinacijama
+  - Prstenasta struktura sa operacijama sabiranja i množenja
+explanation: |
+  Tačke eliptičke krive formiraju matematičku grupu pod operacijom sabiranja, što znači da zadovoljavaju četiri osnovna svojstva: zatvorenost (sabiranje dve tačke daje drugu tačku na krivi), asocijativnost (redosled operacija nije bitan), identitet (tačka u beskonačnosti deluje kao nula) i inverzi (svaka tačka ima refleksiju preko x-ose koja je poništava). Ova struktura grupe je fundamentalna za kriptografiju eliptičkih krivih jer osigurava da su operacije poput skalarne multiplikacije (ponovljeno sabiranje tačke sa samom sobom) dobro definisane i predvidljive, omogućavajući sigurne kriptografske protokole kao što su oni korišćeni u Bitcoin.

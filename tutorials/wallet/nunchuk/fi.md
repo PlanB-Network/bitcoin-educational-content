@@ -20,7 +20,7 @@ Yli neljä vuotta kestäneen kehittämisen ja käytön jälkeen se on valmis kok
 ## Lataa
 
 
-Ensimmäinen askel on ehdottomasti päättää, mistä sovellus ladataan. Mene [viralliselle sivustolle] (https://nunchuk.io/), josta löydät dokumentaatiota (ei paljon, mutta se on alku), ominaisuuksien esittelyn sekä sivun loppupuolella kaikki latauslinkit.
+Ensimmäinen askel on ehdottomasti päättää, mistä sovellus ladataan. Mene [viralliselle sivustolle](https://nunchuk.io/), josta löydät dokumentaatiota (ei paljon, mutta se on alku), ominaisuuksien esittelyn sekä sivun loppupuolella kaikki latauslinkit.
 
 
 

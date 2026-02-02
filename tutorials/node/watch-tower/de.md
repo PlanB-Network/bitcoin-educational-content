@@ -33,7 +33,7 @@ In diesem Tutorial werden wir uns 3 Möglichkeiten ansehen, einen **Watchtower**
 
 
 
-*Diese Anleitung stammt aus [der offiziellen LND-Dokumentation] (https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). An der Originalversion wurden möglicherweise einige Änderungen vorgenommen
+*Diese Anleitung stammt aus [der offiziellen LND-Dokumentation](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). An der Originalversion wurden möglicherweise einige Änderungen vorgenommen
 
 
 
@@ -327,7 +327,7 @@ OPTIONS:
 
 
 
-*Diese Anleitung ist teilweise einem Artikel aus dem [Summer of Bitcoin Blog] (https://blog.summerofbitcoin.org/) entnommen. An der ursprünglichen Version wurden Änderungen vorgenommen*
+*Diese Anleitung ist teilweise einem Artikel aus dem [Summer of Bitcoin Blog](https://blog.summerofbitcoin.org/) entnommen. An der ursprünglichen Version wurden Änderungen vorgenommen*
 
 
 
@@ -519,7 +519,7 @@ Im gleichen Menü finden Sie auch die URI Ihres Watchtower-Dienstes, wenn Sie ih
 
 
 
-Es gibt mehrere online verfügbare Wachtürme. Zum Beispiel bieten [LN+ und Voltage einen altruistischen Watchtower] (https://lightningnetwork.plus/Watchtower) an, mit dem Sie sich verbinden können:
+Es gibt mehrere online verfügbare Wachtürme. Zum Beispiel bieten [LN+ und Voltage einen altruistischen Watchtower](https://lightningnetwork.plus/Watchtower) an, mit dem Sie sich verbinden können:
 
 
 

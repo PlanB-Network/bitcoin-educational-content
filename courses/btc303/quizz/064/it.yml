@@ -1,9 +1,9 @@
-question: Secondo il trade-off tra throughput e decentralizzazione discusso da Gregory Maxwell, cosa succede quando l'utilizzo delle risorse della blockchain Bitcoin diventa eccessivo rispetto alla tecnologia disponibile?
+question: Secondo il trade-off tra throughput e decentralizzazione discusso da Gregory Maxwell, cosa succede quando l'utilizzo delle risorse della blockchain di Bitcoin diventa eccessivo rispetto alla tecnologia disponibile?
 answer: Bitcoin perde vantaggi competitivi rispetto ai sistemi legacy perché la convalida diventa troppo costosa, escludendo molti utenti e costringendo la fiducia a tornare nel sistema
 wrong_answers:
   - Bitcoin diventa più sicuro perché solo gli utenti più impegnati e con hardware potente possono partecipare alla convalida, creando una rete più forte
   - Bitcoin regola automaticamente il suo algoritmo di difficoltà per ridurre i requisiti di risorse e mantenere lo stesso livello di decentralizzazione tra tutti i partecipanti
   - Bitcoin si divide in più catene parallele per distribuire il carico computazionale mantenendo le stesse garanzie di sicurezza per tutti gli utenti
 explanation: |
-  Maxwell ha identificato un compromesso fondamentale in cui i requisiti eccessivi di risorse spingono gli utenti verso terze parti fidate piuttosto che verso la convalida indipendente. Quando i costi di convalida diventano proibitivi, gli utenti non possono permettersi di gestire nodi completi e devono affidarsi ad altri, minando la natura priva di fiducia di Bitcoin. Le risposte sbagliate suggeriscono erroneamente risultati vantaggiosi (maggiore sicurezza, regolazioni automatiche o garanzie mantenute) quando l'utilizzo di risorse elevate costringe in realtà alla centralizzazione e alla dipendenza dalla fiducia.
-reviewed: false
+  Maxwell ha identificato un compromesso fondamentale in cui i requisiti eccessivi di risorse spingono gli utenti verso terze parti fidate piuttosto che verso la convalida indipendente. Quando i costi di convalida diventano proibitivi, gli utenti non possono permettersi di gestire nodi completi e devono affidarsi ad altri, minando la natura trustless di Bitcoin. Le risposte sbagliate suggeriscono erroneamente risultati vantaggiosi (maggiore sicurezza, regolazioni automatiche o garanzie mantenute) quando l'utilizzo di risorse elevate costringe in realtà alla centralizzazione e alla dipendenza dalla fiducia.
+reviewed: true

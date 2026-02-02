@@ -1,6 +1,7 @@
 ---
-term: OP_CHECKSIGADD (0xBA)
+term: OP_CHECKSIGADD (0XBA)
 
+definition: 验证签名并在有效时递增计数器的Tapscript操作码。
 ---
 从堆栈中提取前三个值：一个`public key`（公钥)、一个`CScript` 数，其为`n` 和一个`signature` (签名) 。如果签名不是空向量且无效，脚本将错误终止。如果签名有效或是空向量（`OP_0`），则会出现两种情况：
 

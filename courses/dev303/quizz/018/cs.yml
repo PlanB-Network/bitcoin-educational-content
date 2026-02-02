@@ -1,0 +1,8 @@
+question: Jaký mechanismus používá Rust k automatickému vyčištění proměnných a jejich prostředků, když se dostanou mimo rozsah?
+answer: Mechanismus drop, který volá funkce drop na proměnné
+wrong_answers:
+  - Garbage collector, který pravidelně vyhledává nevyužitou paměť
+  - Ruční uvolnění paměti prostřednictvím explicitního volání funkce free()
+  - Počítání odkazů, které sleduje, kolik ukazatelů odkazuje na každou hodnotu
+explanation: |
+  Rust používá mechanismus drop k automatickému vyčištění prostředků, když proměnné opustí obor. Tento systém implicitně volá funkci drop pro každou proměnnou, když se dostane mimo obor, označí paměť jako dostupnou pro opětovné použití a provede všechny nezbytné operace čištění, jako je zavření rukojetí souborů. Tento přístup, převzatý ze vzoru RAII jazyka C++, zajišťuje automatickou správu prostředků, aniž by vyžadoval garbage collection, ruční správu paměti nebo systémy počítání referencí používané v jiných jazycích.

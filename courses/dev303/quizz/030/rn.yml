@@ -1,0 +1,8 @@
+question: Ni iyihe ntumbero nyamukuru y'ikimenyetso c'ikibazo ca Rust (?) iyo ikoreshejwe n'ubwoko bw'Ibisubizo?
+answer: Kugira ngo uhite gufungura agaciro kashitse no kugarura amakosa ubwo nyene kuva ku gikorwa kiriho ubu
+wrong_answers:
+  - Guhindura ubwoko bwose bw'ibisubizo mu bwoko bw'amahitamwo kugira ngo ushobore gukoresha ubusa
+  - Kugira ngo ushireho ubwoba n'ubutumwa busanzwe iyo habaye ikosa
+  - Kuzingira agaciro kashitse mu gisubizo c'inyongera kugira ngo ugire umutekano mwinshi
+explanation: |
+  Ikimenyetso c'ikibazo (?) cagenewe canecane gukwiragiza amakosa muri Rust. Iyo ikoreshejwe ku Gisubizo, ikuraho agaciro k'uguterimbere iyo igikorwa caroraniwe, bigatuma kode ikomeza n'ako gaciro. Ariko rero, iyo habaye ikosa, ? operator ubwo nyene igarura iryo kosa kuva ku gikorwa kiriho, akayikwiragiza neza hejuru y'ikirundo c'amahamagara. Ivyo bikuraho ivy’uko hakenewe amajambo ahuye n’amajambo menshi mu gihe hagumaho insobanuro y’ugufata amakosa asobanutse. Igikoresho gishobora gukoreshwa gusa mu bikorwa bigarura ubwoko bw'Ibisubizo, kugira ngo amakosa akwiragizwe neza.

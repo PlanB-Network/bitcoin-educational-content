@@ -1,0 +1,8 @@
+question: Hvordan kommer Rusts kompatibilitet på tvers av plattformer Bitcoin-applikasjonsutvikling i ulike distribusjonsmiljøer til gode?
+answer: Det gjør det mulig å kjøre enhetlige kodebaser på mobile plattformer, nettlesere via WebAssembly og tradisjonelle operativsystemer
+wrong_answers:
+  - Den håndterer automatisk omregning av kryptovalutakurser på tvers av ulike regionale markeder og valutaer
+  - Den har innebygde synkroniseringsprotokoller for blokkjeder som fungerer identisk på tvers av alle nettverksarkitekturer
+  - Den tilbyr innebygd integrasjon med maskinvarelommebøker og sikkerhetsmoduler på alle plattformer som støttes
+explanation: |
+  Rusts plattformovergripende egenskaper gjør det mulig for utviklere å skrive Bitcoin-applikasjoner som kan distribueres på tvers av ulike miljøer, inkludert mobiler (Android/iOS), nettlesere (gjennom WebAssembly-kompilering) og tradisjonelle skrivebordsoperativsystemer. Denne allsidigheten demonstreres av prosjekter som Mutiny Wallet, som utnytter Rusts WebAssembly-støtte til å lage Lightning-lommebøker som kjører direkte i nettlesere. De gale svarene beskriver funksjoner som ikke er relatert til kompatibilitet på tvers av plattformer - valutakonvertering er en funksjon på applikasjonsnivå, blokkjedeprotokoller er nettverkslagsproblemer, og maskinvareintegrasjon krever spesifikke API-er i stedet for generell støtte på tvers av plattformer.

@@ -1,0 +1,8 @@
+question: Wat weerhoudt gebruikers ervan om geld uit het niets te creëren in het Elements' Confidential Transactions systeem?
+answer: Bereik Bewijzen die wiskundig aantonen dat verborgen waarden positieve gehele getallen zijn binnen geldige bereiken
+wrong_answers:
+  - Pedersen Verbintenissen die transactiebedragen cryptografisch binden aan openbare sleutels
+  - Validatie van activaregister waarbij alle transactiebedragen worden vergeleken met geregistreerde activalimieten
+  - Federatieve consensusknooppunten die alle vertrouwelijke transactiebedragen ontsleutelen en verifiëren
+explanation: |
+  Range Proofs zijn het specifieke cryptografische mechanisme dat voorkomt dat gebruikers het vertrouwelijke transactiesysteem misbruiken door negatieve getallen of ongeldige bedragen te gebruiken om geld uit het niets te creëren. Terwijl Pedersen Commitments de werkelijke bedragen verbergen, zorgen Range Proofs voor wiskundige integriteit door te bewijzen dat de verborgen waarden binnen een legitiem bereik vallen. Het activaregister koppelt alleen activa-ID's aan door mensen leesbare namen en valideert geen bedragen, en gefedereerde knooppunten ontsleutelen vertrouwelijke transacties niet - ze verifiëren ze zonder de werkelijke waarden te zien.

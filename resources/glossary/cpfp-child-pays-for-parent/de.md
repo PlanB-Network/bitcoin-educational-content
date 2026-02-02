@@ -1,6 +1,7 @@
 ---
-term: CPFP (KIND ZAHLT FÜR ELTERN)
+term: CPFP (Child Pays For Parent)
 
+definition: Methode, die es dem Empfänger ermöglicht, eine feststeckende Transaktion zu beschleunigen, indem er eine Child-Transaktion mit hohen Gebühren erstellt.
 ---
 Ein Transaktionsmechanismus, der darauf abzielt, die Bestätigung einer Bitcoin-Transaktion zu beschleunigen, ähnlich wie Replace-by-Fee (RBF), aber auf der Seite des Empfängers. Wenn eine Transaktion mit im Vergleich zum Markt zu niedrigen Gebühren in den Mempools der Nodes stecken bleibt und nicht schnell genug bestätigt wird, kann der Empfänger eine neue Transaktion durchführen und die Bitcoins ausgeben, die er in der blockierten Transaktion erhalten hat, obwohl diese noch nicht bestätigt ist. Diese zweite Transaktion erfordert zwangsläufig, dass die erste Transaktion abgebaut wird, um bestätigt zu werden. Die Miner sind daher gezwungen, beide Transaktionen zusammen zu erfassen. Für die zweite Transaktion fallen wesentlich höhere Transaktionsgebühren an als für die erste, so dass die durchschnittliche Gebühr die Miner dazu veranlasst, beide Transaktionen einzubeziehen. Die untergeordnete Transaktion (die zweite) zahlt für die übergeordnete Transaktion, die feststeckt (die erste). Aus diesem Grund spricht man von einem "CPFP"
 

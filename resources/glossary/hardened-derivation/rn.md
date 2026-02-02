@@ -1,5 +1,6 @@
 ---
-term: IVYO GUKOMEZA
+term: Hardened derivation
+definition: Uburyo bwo gukura bukoresha urufunguruzo rw'ibanga rw'umuvyeyi, mu kwirinda iremwa ry'imfunguruzo zivuye ku rufunguruzo rweruye rwaguye.
 ---
 
 Inzira yo gutanga imfunguruzo z’abana mu bikoresho vya HD. Ivyakozwe bikomeye bikoresha urufunguzo rw'ibanga rw'umuvyeyi nk'inyungu y'igikorwa ca `HMAC-SHA512`, bikaba bidashoboka generate urufunguzo rwa bose rw'abana kuva ku rufunguzo rwa bose rw'umuvyeyi n'umuvyeyi chain code. Ivyo birimwo gufatanya urufunguzo rw'ibanga rw'umuvyeyi n'urutonde runini canke rungana na $2^{31}$, hanyuma hakurikirwa ugukoresha `HMAC-SHA512` n'umuvyeyi chain code. Ico gisubizo kigabanywamwo ibice bibiri: ibice 256 vya mbere vyongerwa ku rufunguzo rw'ibanga rw'umuvyeyi kugira ngo uronke urufunguzo rw'ibanga rw'umwana, mu gihe ibice 256 bisigaye bikora umwana chain code. Ubu buryo buratuma naho urufunguzo rwa bose rwagutse rwoba rwacitse intege, rudashobora gukoreshwa mu gukuraho urufunguzo rwa bose rw'abana. Mu gukuraho ibintu mu buryo busanzwe, gukuraho ibintu bikomeye bikoreshwa ku rwego rwose rw’ugukuraho gushika ku burebure bw’inkuru. Mu nzira y'inkomoko, inkomoko ikomeye igaragazwa n'inyuguti `'` canke gake cane n'inyuguti `h`.

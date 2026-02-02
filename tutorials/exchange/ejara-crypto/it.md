@@ -644,7 +644,7 @@ Poiché l'obiettivo è quello di digitalizzare i risparmi e rendere più facile 
 
 
 
-È possibile inviare una richiesta direttamente nell'app o contattare il loro solerte [supporto clienti] (https://t.me/EjaraCSbot) tramite Telegram.
+È possibile inviare una richiesta direttamente nell'app o contattare il loro solerte [supporto clienti](https://t.me/EjaraCSbot) tramite Telegram.
 
 
 

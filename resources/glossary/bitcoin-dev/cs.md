@@ -1,5 +1,6 @@
 ---
-term: Bitcoin-DEV
+term: Bitcoin-dev
+definition: E-mailová konference věnovaná technickým diskusím o vývoji protokolu Bitcoin.
 ---
 
 E-mailová konference věnovaná vývoji protokolu Bitcoin. Bitcoin-dev vytvořil Jeff Garzik v roce 2011 a zpočátku byl hostován na Sourceforge.net. Poté byla poštovní konference přesunuta na Linux Foundation, následně na Open Source Lab a nakonec je od února 2024 hostována na Google Groups: https://groups.google.com/g/bitcoindev

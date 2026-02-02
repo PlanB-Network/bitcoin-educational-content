@@ -1,6 +1,7 @@
 ---
-term: NEW YORK-AVTALEN (NYA)
+term: New York Agreement (NYA)
 
+definition: Møte i 2017 som foreslo SegWit2x, som til slutt ble forlatt på grunn av manglende konsensus.
 ---
 Et privat møte som ble holdt i 2017, og som samlet mer enn 50 selskaper fra Bitcoin-økosystemet etter Consensus 2017-konferansen. Målet med dette møtet var å avslutte den langvarige debatten om skalering av Bitcoin ved å komme til enighet. Møtet førte til forslaget SegWit2x, som hentet inspirasjon fra det tidligere SegWit2Mb-forslaget. Det planla to store endringer i Bitcoin-protokollen:
 

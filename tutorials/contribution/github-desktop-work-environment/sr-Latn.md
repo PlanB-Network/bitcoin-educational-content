@@ -178,6 +178,6 @@ Za ovo vam je dostupno nekoliko opcija. Iako se standardni notepad vašeg račun
 Čestitamo! Vaše radno okruženje je sada postavljeno za doprinos PlanB mreži. Sada možete istražiti naše druge specifične vodiče za svaku vrstu doprinosa (prevođenje, lektura, pisanje).
 
 
-https://planb.academy/tutorials/others
+https://planb.academy/tutorials/contribution
 
 ..).

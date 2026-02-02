@@ -1,5 +1,6 @@
 ---
 term: BIP0380
+definition: Output Script Descriptors, a standard language for describing the output scripts of HD wallets.
 ---
 
 BIP380 introduces a standard language for describing collections of output scripts used in HD Bitcoin wallets, known as “Output Script Descriptors.” 

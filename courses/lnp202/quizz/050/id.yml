@@ -1,0 +1,9 @@
+question: Apa tujuan utama dari konfigurasi LND + Tailscale + Zeus?
+answer: Menggunakan wallet seluler pada node Lightning Anda
+wrong_answers:
+  - Menggunakan wallet kustodian tanpa simpul Lightning
+  - Penggandaan beberapa node LND
+  - Mining sats menggunakan Umbrel
+explanation: |
+  Tujuannya adalah untuk menggunakan aplikasi Lightning wallet seluler yang berjalan di latar belakang pada node Anda sendiri.
+reviewed: false

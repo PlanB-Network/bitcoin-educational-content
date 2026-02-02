@@ -427,7 +427,7 @@ Approaching it this way ensures that you're not putting your financial well-bein
 
 ![image](assets/en/023.webp)
 
-Once your budget is defined, think about how you want to invest. One of the most beginner-friendly and widely recommended methods is Dollar Cost Averaging (DCA), buying a fixed amount of bitcoin at regular intervals (weekly, monthly, etc.). This strategy helps smooth out your average entry price over time and reduces the emotional impact of price swings. It's a smart approach for most people, especially newcomers.
+Once your budget is defined, think about how you want to invest. One of the most beginner-friendly and widely recommended methods is [Dollar Cost Averaging (DCA)](https://planb.academy/resources/glossary/dollar-cost-averaging-dca), buying a fixed amount of bitcoin at regular intervals (weekly, monthly, etc.). This strategy helps smooth out your average entry price over time and reduces the emotional impact of price swings. It's a smart approach for most people, especially newcomers.
 
 Then, ask yourself: What's my time horizon?
 Are you looking to make quick moves in and out of the market (trading)? Or are you more aligned with the long-term mindset of holding Bitcoin over several years (hodler)? If you're a hodler, you're probably less concerned with daily price swings and more focused on long-term security and self-custody. If you're trading, you'll be more exposed to short-term market noise, higher risk, and the stress that often comes with rapid decision-making. There's no one-size-fits-all answer, but knowing your own approach will help guide your decisions.
@@ -449,7 +449,7 @@ Above all, never invest more than you can afford to lose. Avoid borrowing money 
 
 ### Managing and securing your Bitcoin wallet
 
-One of Bitcoin's most powerful (and often underestimated) features is **self-custody**. With a self-hosted wallet, you alone are responsible for your funds. These wallets are typically generated from a **recovery phrase** (also known as a seed phrase), a series of 12 or 24 words that grants full access to your BTC. If you lose this phrase (or if someone else gets hold of it) your bitcoins are gone for good. **No customer support. No reset button.**
+One of Bitcoin's most powerful (and often underestimated) features is **[self-custody](https://planb.academy/resources/glossary/selfcustody)**. With a self-hosted wallet, you alone are responsible for your funds. These wallets are typically generated from a **recovery phrase** (also known as a [seed phrase](https://planb.academy/resources/glossary/seed)), a series of 12 or 24 words that grants full access to your BTC. If you lose this phrase (or if someone else gets hold of it) your bitcoins are gone for good. **No customer support. No reset button.**
 
 ![image](assets/en/025.webp)
 
@@ -690,7 +690,7 @@ This characteristic is especially appealing to those who fear censorship or the 
 
 Bitcoin can be seen as a "Zero to One": a radical break with established financial paradigms. For the first time in history, a global monetary network, accessible to all, operates without a central authority, enabling censorship-resistant and private transactions.
 
-Nevertheless, after more than a decade of existence, Bitcoin continues to spark debates and passions. Its adoption is growing, second-layer solutions (like the Lightning Network) are emerging to improve transaction speed and lower fees, and businesses worldwide are experimenting with new use cases. It is likely that Bitcoin will continue to influence payment systems and even the way we perceive money for decades to come.
+Nevertheless, after more than a decade of existence, Bitcoin continues to spark debates and passions. Its adoption is growing, second-layer solutions (like the [Lightning Network](https://planb.academy/resources/glossary/lightning-network)) are emerging to improve transaction speed and lower fees, and businesses worldwide are experimenting with new use cases. It is likely that Bitcoin will continue to influence payment systems and even the way we perceive money for decades to come.
 
 ![image](assets/en/040.webp)
 
@@ -957,7 +957,7 @@ Exchanges play a critical role in the Bitcoin ecosystem, acting as bridges betwe
 - an option for automatic recurring purchases (ARP);
 - easy, free withdrawal of bitcoins to a personal wallet.
 
-Exchanges that comply with local regulations typically have to follow strict **"Know Your Customer"** (KYC) protocols, requiring users to provide identification documents before accessing services. While these processes are designed to prevent illegal activity, they can compromise the privacy that Bitcoin inherently offers.
+Exchanges that comply with local regulations typically have to follow strict **"[Know Your Customer](https://planb.academy/resources/glossary/kyc-know-your-customer)"** (KYC) protocols, requiring users to provide identification documents before accessing services. While these processes are designed to prevent illegal activity, they can compromise the privacy that Bitcoin inherently offers.
 
 ![image](assets/en/058.webp)
 
@@ -1037,7 +1037,7 @@ Each type of wallet offers a different balance of:
 
 The Bitcoin wallet industry is divided into several categories, each catering to different needs and levels of technical expertise:
 
-- **Hardware Wallet Manufacturers**: These companies develop physical devices designed for secure key storage. Some are open-source, while others offer proprietary solutions with varying features and levels of security. Notable names include Ledger, Trezor, Coinkite, Foundation, and Shiftcrypto.
+- **[Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet) Manufacturers**: These companies develop physical devices designed for secure key storage. Some are open-source, while others offer proprietary solutions with varying features and levels of security. Notable names include Ledger, Trezor, Coinkite, Foundation, and Shiftcrypto.
 - **Software Wallet Developers**: These range from companies to independent developers creating mobile and desktop applications. Their offerings vary in user experience, security, and features. Examples include Sparrow, Wizard Sardine, Galoy, Synonym, and Blockstream.
 - **DIY (*Do It Yourself*) Wallets**:These open-source solutions are designed for advanced users who want full control and minimal reliance on third parties. Building your own wallet reduces trust dependencies and can increase your security posture. Notable DIY options include Seedsigner and Specter DIY.
 
@@ -1143,7 +1143,7 @@ This layered design stands in contrast to much of the broader crypto industry, w
 
 ### Merchant Tools for Accepting Bitcoin
 
-Today, there are plenty of tools available for merchants who want to accept Bitcoin as a form of payment. For small businesses looking for a simple setup, using a hot wallet (or even a Lightning wallet) is often enough to start accepting payments directly. Larger businesses that require proper accounting and reporting will usually prefer more advanced payment processing systems. Fortunately, there are several options available depending on your needs.
+Today, there are plenty of tools available for merchants who want to accept Bitcoin as a form of payment. For small businesses looking for a simple setup, using a [hot wallet](https://planb.academy/resources/glossary/hot-wallet--software-wallet) (or even a Lightning wallet) is often enough to start accepting payments directly. Larger businesses that require proper accounting and reporting will usually prefer more advanced payment processing systems. Fortunately, there are several options available depending on your needs.
 
 If you prefer a hands-off solution and want to receive fiat currency directly into your bank account, custodial services like OpenNode offer a streamlined experience:
 

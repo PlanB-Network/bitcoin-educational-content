@@ -1,0 +1,8 @@
+question: Co musi zweryfikować węzeł podczas walidacji transakcji Bitcoin, aby upewnić się, że każde wejście jest odpowiednio autoryzowane do wydania powiązanego z nim wyniku?
+answer: ScriptSig musi pomyślnie odblokować odpowiedni ScriptPubKey, gdy zostanie wykonany razem
+wrong_answers:
+  - "Podpis cyfrowy danych wejściowych musi być dokładnie zgodny z osadzonym kluczem publicznym danych wyjściowych"
+  - Hash transakcji musi być równy korzeniowi merkle przechowywanemu w nagłówku bloku, do którego się odwołuje
+  - Kwota wejściowa musi być większa lub równa wydawanej kwocie wyjściowej
+explanation: |
+  System skryptów Bitcoin wymaga, aby każdy skrypt wejściowy ScriptSig (skrypt odblokowujący) został pomyślnie wykonany ze skryptem wyjściowym ScriptPubKey (skrypt blokujący), aby uzyskać prawdziwy wynik na stosie. Ten model wykonywania skryptów pozwala na elastyczne warunki wydawania wykraczające poza proste dopasowywanie sygnatur. Pozostałe opcje opisują nieprawidłowe wymagania dotyczące walidacji - podpisy nie muszą dokładnie pasować do osadzonych kluczy, skróty transakcji nie są porównywane z korzeniami merkle podczas walidacji danych wejściowych, a poszczególne dane wejściowe nie muszą przekraczać swoich danych wyjściowych (tylko łączne dane wejściowe muszą przekraczać łączne dane wyjściowe).

@@ -1,0 +1,8 @@
+question: Che cosa consente di fare la sintassi di aggiornamento della struttura quando si creano nuove istanze di struttura in Rust?
+answer: Creare una nuova istanza specificando solo i campi modificati e copiando i campi rimanenti da un'istanza esistente
+wrong_answers:
+  - Modificare i campi della struttura esistente senza creare una nuova istanza
+  - generate valori predefiniti automatici per campi non specificati, utilizzando il tratto Default
+  - Unire più istanze di struttura in un'unica istanza combinata
+explanation: |
+  La sintassi struct update di Rust consente di creare una nuova istanza di struttura specificando solo i campi che si desidera modificare, copiando automaticamente tutti gli altri campi da un'istanza esistente. Questo avviene utilizzando la sintassi `..existing_instance`. Le altre opzioni non sono corrette: la sintassi struct update crea sempre una nuova istanza piuttosto che modificare quelle esistenti, non utilizza i valori predefiniti di generate ma copia da istanze esistenti e lavora con un'istanza sorgente piuttosto che unire più istanze insieme.

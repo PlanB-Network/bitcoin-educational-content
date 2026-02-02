@@ -1,0 +1,8 @@
+question: Hva er hovedgrunnen til at skriptpuslespill som kun baserer seg på offentlige data uten signaturkontroller, er sårbare i Bitcoin?
+answer: Utvinnere kan kopiere løsningen fra mempoolen og omdirigere utbetalingen til seg selv
+wrong_answers:
+  - Skriptutførelsen blir ikke-deterministisk på tvers av ulike nettverksnoder
+  - Transaksjonsvalideringstiden øker kvadratisk med puslespillets kompleksitet
+  - Den stabelbaserte kjøringsmodellen kan ikke håndtere komplekse matematiske operasjoner på en sikker måte
+explanation: |
+  Skriptgåter som kun baserer seg på offentlige data (som matteproblemer eller hashbilder) uten signaturkontroller, er sårbare for "front-running" fra utvinnere. Når en gyldig løsning dukker opp i mempoolen, kan alle utvinnere observere den, kopiere løsningen og opprette sin egen transaksjon som omdirigerer utbetalingen til deres adresse. Dette er grunnen til at Bitcoin-kontrakter i den virkelige verden nesten alltid inkluderer signaturkontroller - signaturer binder løsningen til en spesifikk part og hindrer andre i å stjele utbetalingen, noe som opprettholder riktige insentiver for gåteløsere.

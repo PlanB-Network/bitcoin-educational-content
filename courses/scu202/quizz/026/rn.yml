@@ -1,9 +1,9 @@
-question: Ni itegeko irihe ryerekana ido n’ido ry’ibirimwo muri dosiye, harimwo n’amadosiye yihishije?
+question: Ni ibwirizwa irihe ryerekana ido n’ido ry’ibirimwo mu bubiko bwa dosiye, harimwo n’amadosiye anyegejwe?
 answer: ls -lah
 wrong_answers:
-  - kwerekana ububiko
-  - urutonde rw'amadosiye -ido n'ido
-  - kureba -a
+  - show-folder
+  - list-files -detailed
+  - viewdir -a
 explanation: |
-  "ls -lah" yerekana amadosiye n'amadosiye mu buryo burambuye, harimwo n'amadosiye yihishije (gutangura n'akadomo).
-reviewed: false
+  "ls -lah" yerekana amadosiye n’ubu biko bw’amadosiye ido n’ido, harimwo n’amadosiye anyegejwe (ayo atanguzwa n'akaburungu).
+reviewed: true

@@ -1,0 +1,8 @@
+question: Ni igiki nyamukuru gituma ibiharuro vy’inyandiko vyishingikiriza gusa ku makuru ya bose ata gusuzuma umukono bishobora guhungabana muri Bitcoin?
+answer: Abacukuzi barashobora gukopa umuti muri mempool maze bagasubiza amahera kuri bo nyene
+wrong_answers:
+  - Inyandiko irashirwa mu ngiro ihinduka idashobora gufatwa ku nzira zitandukanye z'urubuga
+  - Igihe co kwemeza ubucuruzi kiduga mu buryo bune n'uburemere bw'uruzitiro
+  - Igishushanyo c'ugushirwa mu ngiro gishingiye ku kirundo ntigishobora gukora neza ibikorwa vy'imibare bikomeye
+explanation: |
+  Ivyiyumviro vy’inyandiko vyishingikiriza gusa ku makuru ya bose (nk’ingorane z’imibare canke amashusho y’imbere) ata gusuzuma umukono birashobora gushikirwa n’abacukuzi b’imbere. Igihe umuti ubereye ubonetse muri mempool, umucukuzi wese arashobora kuwubona, agakopa umuti, maze akarema igikorwa ciwe co guhindura amahera yishurwa kuri aderesi yiwe. Ni co gituma amasezerano y’isi nyayo ya Bitcoin hafi y’igihe cose arimwo ivy’ugusuzuma imikono - imikono ibohera umuti ku ruhande runaka kandi ibuza abandi kwiba amahera, bikazigama inkurikizi zibereye ku batorera umuti ibibazo.

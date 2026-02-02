@@ -1,0 +1,8 @@
+question: Milline on peamine erinevus selles, kuidas paanika ja Result käitlevad vigade taastamist Rust rakendustes?
+answer: Paanika peatab täitmise koheselt ja seda ei saa taastada, samas kui tulemus võimaldab kutsujale väärikalt vigadega ümber käia
+wrong_answers:
+  - Paanika annab üksikasjalikku veateavet, samas kui tulemus näitab ainult edu või ebaõnnestumist ilma kontekstita
+  - Paanika on niidikindel ja seda saab käsitleda kõikides niidides, samas kui tulemusvigade puhul piirdutakse üksikute niitidega
+  - Paanika logib vead automaatselt süsteemi, samas kui Tulemus nõuab käsitsi vigade logimist ja aruandlust
+explanation: |
+  Paanika kujutab endast parandamatuid vigu, mis lõpetavad koheselt täitmise lahtiharutamise või katkestamise teel, mistõttu kutsuv kood ei saa veaga hakkama ja jätkata. Tulemus kui enum, mis sisaldab Ok(value) või Err(error), sunnib kutsujaid selgesõnaliselt tunnistama võimalikke tõrkeid ja valima, kuidas reageerida - kas viga käsitleda, pakkuda vaikimisi väärtusi või levitada seda ülespoole kutsete virna. See põhimõtteline erinevus teeb Result'i eelistatud valikuks taastatavate vigade puhul tootmiskoodis, samas kui paanika peaks olema reserveeritud tõeliselt taastamatute olukordade või arendusstsenaariumide jaoks.

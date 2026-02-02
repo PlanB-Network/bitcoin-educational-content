@@ -1,0 +1,8 @@
+question: Milline Cargo käsk teostab kompileerimise kontrolli ilma käivitatavat faili genereerimata?
+answer: lastikontroll
+wrong_answers:
+  - lasti ehitamine
+  - kaubasõit
+  - lasti testimine
+explanation: |
+  Käsk 'cargo check' teostab kõik kompileerimiskontrollid ja kontrollib, et teie kood kompileerub õigesti, ilma et see tegelikult tekitaks lõplikku käivitatavat faili. See teeb selle oluliselt kiiremaks kui täieliku buildi, kui soovite lihtsalt kontrollida koodi korrektsust. Seevastu käsk 'cargo build' kompileerib ja genereerib käivitatavad failid, käsk 'cargo run' nii kompileerib kui ka täidab programmi ning käsk 'cargo test' kompileerib ja viib läbi testid.

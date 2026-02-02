@@ -3169,7 +3169,7 @@ Puede transmitirse a Bob a través de cualquier canal (texto, código QR, etc.).
 Para transferir desde este invoice:
 
 
-- Bob (que tiene los tokens en su stash) tiene una wallet Bitcoin. Necesita preparar una transacción Bitcoin (en forma de PSBT, por ejemplo `tx.psbt`) que gaste los UTXOs donde se encuentran los tokens RGB necesarios, más un UTXO para la moneda (intercambio);
+- Bob (que posee los tokens en su stash) dispone de una wallet de Bitcoin. Debe preparar una transacción de Bitcoin (en forma de PSBT, por ejemplo `tx.psbt`) que gaste los UTXO donde se encuentran los tokens RGB necesarios, además de un UTXO para el cambio (change);
 - Bob ejecuta el siguiente comando:
 
 ```bash

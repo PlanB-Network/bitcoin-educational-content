@@ -54,7 +54,7 @@ Per l'installazione locale sul PC, [scaricare e installare il software in base a
 
 Il primo passo è creare un account Alby. Sebbene non sia indispensabile per utilizzare Alby Hub, consente di sfruttare appieno le opzioni disponibili, compresa la possibilità di ottenere un indirizzo Lightning.
 
-Andate su [il sito ufficiale di Alby] (https://getalby.com/) e cliccate sul pulsante "*Crea account*".
+Andate su [il sito ufficiale di Alby](https://getalby.com/) e cliccate sul pulsante "*Crea account*".
 
 ![ALBY HUB](assets/fr/04.webp)
 

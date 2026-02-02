@@ -76,9 +76,9 @@ O RGB tem sua própria toca de coelho dentro da toca de coelho do Bitcoin, enqua
 
 - 5 https://github.com/LNP-BP/LNPBPs/blob/master/lnpbp-0021.md
 
-# Tutorial do RGB-node
+## Tutorial do RGB-node
 
-## Introdução
+### Introdução
 
 Neste tutorial, explicamos como usar o RGB-node para criar um token fungível e como transferi-lo, este documento é baseado na demonstração do RGB-node e difere no fato de que este tutorial usa dados reais da testnet e, para isso, devemos construir nossa própria Transação Bitcoin Parcialmente Assinada, psbt a partir de agora.
 
@@ -86,7 +86,7 @@ Francisco Calderón publicado em
 01 de março de 2022
 https://grunch.dev/blog/rgbnode-tutorial/
 
-## Requisitos
+### Requisitos
 
 O uso de uma distribuição Linux é recomendado, este tutorial foi escrito usando o Pop!/\_OS, que é baseado no Ubuntu e você precisará de:
 
@@ -223,7 +223,7 @@ $ rgbd -vvvv -b ~/.cargo/bin -d ./data0 -n testnet
 $ rgbd -vvvv -b ~/.cargo/bin -d ./data1 -n testnet
 ```
 
-## Emissão
+### Emissão
 
 Para emitir um ativo, executamos o rgb0-cli com os subcomandos de emissão fungível, em seguida, os argumentos, o ticker USDT, o nome "USD Tether" e na alocação usaremos a quantidade de emissão e o issuance_utxo como vemos abaixo:
 
@@ -269,7 +269,7 @@ $ rgb0-cli fungible list
   ticker: USDT
 ```
 
-## Gerar UTXO cegado
+### Gerar UTXO cegado
 
 Para receber o novo USDT, rgb-node-1 precisa gerar um UTXO cegado correspondente a receive_utxo para manter o ativo.
 
@@ -282,7 +282,7 @@ Outpoint blinding secret: 1679197189805229975
 
 Para poder aceitar transferências relacionadas a este UTXO, precisaremos do receive_utxo original e do blinding_factor.
 
-## Transferência
+### Transferência
 
 Para transferir uma certa quantidade do ativo para rgb-node-1, precisamos enviá-lo para o UTXO cegado, rgb-node-0 precisa criar um consignment e uma disclosure, e comprometê-lo em uma transação bitcoin. Em seguida, precisaremos de um psbt que modificaremos para incluir o commit. Além disso, as opções -i e -a nos permitem fornecer um outpoint de entrada que seria a origem do ativo e uma alocação onde receberemos o troco, devemos indicá-lo da seguinte maneira @<change_utxo>.
 
@@ -294,7 +294,7 @@ Dados de remessa para compartilhar: consignment1qxz4g7ec6da33llaxe97u9hx8p9wcgp2
 
 Isso irá escrever três novos arquivos, consignment, disclosure e o psbt incluindo o ajuste, este psbt é chamado de transação de testemunha, a consignment é enviada para rgb-node-1.
 
-## Testemunha
+### Testemunha
 
 A transação de testemunha deve ser assinada e transmitida, para isso precisamos codificá-la novamente em base64.
 
@@ -323,11 +323,11 @@ $ bcli finalizepsbt "cHNidP8BAHECAAAAAe2pydT0BqfK5nBCdBSbm3W/vNKE/QxTr4eJcjwjDLD
 }
 ```
 
-## Transmitir
+### Transmitir
 
 Transmita-o usando o subcomando sendrawtransaction para que seja confirmado na blockchain.
 
-## Aceitar
+### Aceitar
 
 Para aceitar uma transferência recebida, o rgb-node-1 deve ter recebido o arquivo de consignação do rgb-node-0, ter o receive_utxo e o fator de cegamento correspondente gerado durante a geração de UTXO cegos.
 
@@ -406,7 +406,7 @@ $ rgb0-cli fungible list -l
         blinding: ddba9e0efdd614614420fa0b68ecd2d3376a05dd3d809b2ad1f5fe0f6ed75ea2
 ````
 
-## Conclusões
+### Conclusões
 
 Conseguimos criar um ativo fungível e movê-lo de uma transação para outra de forma privada, se verificarmos a transação confirmada em um explorador de blocos, não encontraríamos nada diferente de uma transação regular, isso se deve ao fato de que o RGB usa selos de uso único para ajustar as transações. Neste post, faço uma introdução sobre como o RGB funciona.
 

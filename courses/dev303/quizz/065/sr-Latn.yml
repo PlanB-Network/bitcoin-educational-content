@@ -1,0 +1,8 @@
+question: Zašto je filozofija 'move fast and break things' posebno nepodesna za razvoj Bitcoin u poređenju sa tradicionalnim razvojem softvera?
+answer: Transakcije Bitcoin su nepovratne bez centralnog autoriteta za povrat sredstava u slučaju grešaka.
+wrong_answers:
+  - Razvoj Bitcoin zahteva brže iteracione cikluse nego tradicionalne veb aplikacije
+  - "Kompajler Rust sprečava brzo prototipiranje potrebno za inovacije u blockchainu"
+  - "Otvorena priroda Bitcoin otežava ispravljanje grešaka nakon implementacije"
+explanation: |
+  Tačan odgovor ističe fundamentalnu karakteristiku Bitcoin: njegova decentralizovana priroda znači da ne postoji autoritet kojem se može obratiti za povrat sredstava nakon što su transakcije emitovane. Za razliku od tradicionalnih finansijskih sistema sa regulatornim zaštitama i mehanizmima povraćaja sredstava, greške u Bitcoin su trajne i nepovratne. Pogrešni odgovori pogrešno razumeju suštinsko pitanje - nije reč o brzini razvoja, ograničenjima kompajlera ili izazovima otvorenog koda, već o nepovratnoj prirodi finansijskih operacija u decentralizovanom sistemu gde su sredstva korisnika trajno ugrožena.

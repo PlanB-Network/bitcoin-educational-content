@@ -94,7 +94,7 @@ Po dezaktywacji trybu testowego należy skonfigurować portfel wypłat.
 
 
 
-Jeśli nie posiadasz jeszcze Bitcoin i/lub Lightning Wallet, zalecamy zapoznanie się z naszymi samouczkami [portfele mobilne] (https://planb.academy/tutorials/wallet).
+Jeśli nie posiadasz jeszcze Bitcoin i/lub Lightning Wallet, zalecamy zapoznanie się z naszymi samouczkami [portfele mobilne](https://planb.academy/tutorials/wallet).
 
 
 
@@ -371,7 +371,7 @@ W menu **Developers** utwórz klucze publiczne i prywatne, aby korzystać z meto
 
 
 
-Znajdź pełną [dokumentację] (https://apidocs.tryspeed.com/reference/introduction) dla lepszej integracji Speed Business.
+Znajdź pełną [dokumentację](https://apidocs.tryspeed.com/reference/introduction) dla lepszej integracji Speed Business.
 
 
 

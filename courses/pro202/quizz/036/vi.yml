@@ -1,0 +1,8 @@
+question: Điều gì sẽ xảy ra với quyền riêng tư của các điều kiện chi tiêu trong giao dịch P2SH theo thời gian?
+answer: Các điều kiện chi tiêu vẫn được giữ kín cho đến khi khoản chi tiêu đầu tiên được thực hiện, sau đó sẽ được công khai vĩnh viễn on-chain
+wrong_answers:
+  - Các điều kiện chi tiêu vẫn được giữ kín vĩnh viễn ngay cả sau khi nhiều giao dịch được thực hiện.
+  - Các điều kiện chi tiêu sẽ hiển thị ngay khi địa chỉ P2SH được tạo lần đầu.
+  - Các điều kiện chi tiêu chỉ tạm thời hiển thị trong quá trình chi tiêu nhưng lại được che giấu sau đó.
+explanation: |
+  P2SH cung cấp tính bảo mật bằng cách ẩn các điều kiện chi tiêu thực tế (kịch bản đổi thưởng) đằng sau một hàm băm trong scriptPubKey. Ban đầu, chỉ có hàm băm 20 byte hiển thị, che giấu việc đó là đa chữ ký, khóa thời gian hay các điều kiện phức tạp khác. Tuy nhiên, khi đầu ra của P2SH được chi tiêu lần đầu tiên, toàn bộ kịch bản đổi thưởng phải được tiết lộ cho on-chain để xác thực, khiến các điều kiện chi tiêu hiển thị vĩnh viễn cho tất cả những người tham gia mạng. Việc tiết lộ một lần này là sự đánh đổi mà P2SH thực hiện giữa tính bảo mật và chức năng.

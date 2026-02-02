@@ -1,5 +1,6 @@
 ---
-term: BETTERHASH
+term: Betterhash
+definition: Miningprotokoll som gör det möjligt för miners att själva kontrollera transaktionsvalet, vilket minskar poolernas centralisering. Föregångare till Stratum V2.
 ---
 
 Mining-protokollet utvecklades av Matt Corallo 2018 i ett försök att motverka den växande centraliseringen av Mining på pooler. Det skiljer sig från Stratum, som var standarden vid den tiden, genom att erbjuda hashare mer kontroll över valet av transaktioner som ska ingå i blockmallar. Huvudidén bakom BetterHash är att ge chasers tillbaka möjligheten att själva hantera konstruktionen av blockmallar, samtidigt som fördelarna med Mining-pooler bibehålls, såsom minskad intäktsvariation.

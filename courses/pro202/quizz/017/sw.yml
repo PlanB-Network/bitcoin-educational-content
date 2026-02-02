@@ -1,0 +1,8 @@
+question: Ni sharti gani muhimu la usalama ambalo lazima litimizwe wakati wa kutoa nonce K katika uundaji wa sahihi ya ECDSA?
+answer: K lazima iwe ya kipekee na isiyotabirika kwa kila sahihi ili kuzuia maelewano ya funguo za kibinafsi
+wrong_answers:
+  - K lazima itolewe kutoka kwa ufunguo wa umma ili kuhakikisha uthibitishaji wa sahihi unafanya kazi kwa usahihi
+  - K lazima iwe sawa katika sahihi nyingi ili kudumisha uthabiti katika mchakato wa kusaini
+  - K lazima iwe sawa na ufunguo wa faragha unaozidishwa na hash ya ujumbe kwa usahihi wa hisabati
+explanation: |
+  Nambari ya K isiyo na maana lazima iwe ya kipekee na isiyotabirika kwa kila sahihi kwa sababu kutumia tena K au kuiwezesha kutabirika huruhusu washambuliaji kurejesha ufunguo wa faragha. Ikiwa K hiyo hiyo inatumika mara mbili na ujumbe tofauti, aljebra rahisi inaweza kufichua ufunguo wa faragha. Utekelezaji wa kisasa hutumia kizazi cha K kinachoamua (RFC 6979) ili kuepuka kushindwa kwa jenereta nambari bila mpangilio huku ikihakikisha upekee. Chaguzi zingine si sahihi: K haipaswi kamwe kutolewa kutoka kwa ufunguo wa umma, kamwe isitumiwe tena, na kamwe isilingane na hashi ya ujumbe wa nyakati za ufunguo wa faragha.

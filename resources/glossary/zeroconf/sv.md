@@ -1,5 +1,6 @@
 ---
-term: ZEROCONF
+term: Zeroconf
+definition: Riskfylld praxis att betrakta en obekräftad transaktion som slutgiltig, sårbar för dubbelspendering.
 ---
 
 En riskabel praxis att behandla en Bitcoin-transaktion som slutlig och fortsätta med genomförandet av den tillhörande handlingen i gengäld (t.ex. försäljning av en vara eller tjänst), innan transaktionen faktiskt ingår i ett block på Blockchain. Obekräftade transaktioner, eller zeroconf, är sårbara för double-spend-attacker, eftersom de ännu inte är oåterkalleligen registrerade i Ledger. Zeroconf kan övervägas i mycket specifika sammanhang där snabbhet är en prioritet, t.ex. vid små kommersiella transaktioner eller vid en transaktion mellan bekanta. I dessa situationer anses risken för dubbla utgifter ofta vara acceptabel i jämförelse med fördelen med en snabb transaktion. Vid betydande transaktioner, särskilt när avsändaren är okänd, är det dock viktigt att vänta på flera bekräftelser innan man betraktar transaktionen som oföränderlig. Den allmänt accepterade standarden är att vänta på 6 bekräftelser, vilket innebär att ytterligare 5 block måste brytas efter det som innehåller transaktionen för att den ska betraktas som slutgiltig.

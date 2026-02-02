@@ -1,0 +1,8 @@
+question: I Liquid:s Asset Management Platform (AMP), vad är den primära tekniska mekanismen som förhindrar efterlevnadsåtgärder med en enda punkt av misslyckande samtidigt som den upprätthåller reglerande kontroll över tokeniserade tillgångar?
+answer: Behörighet med flera signaturer som kräver att flera parter godkänner efterlevnadsåtgärder som frysning av medel eller återutgivning av tokens
+wrong_answers:
+  - Smart contract governance tokens som gör det möjligt att rösta på alla beslut om efterlevnad och tillämpning av regelverk
+  - Tidsbundna spärrkonton som automatiskt verkställer efterlevnadsåtgärder efter att förutbestämda väntetider löpt ut
+  - Kryptografisk proof-of-stake-konsensus där validerare måste nå majoritetsöverenskommelse innan de utför någon efterlevnadsåtgärd
+explanation: |
+  AMP använder multisignaturkontroll för att säkerställa att efterlevnadsåtgärder kräver godkännande från flera parter, vilket förhindrar att en enskild anställd agerar ensidigt. Detta skapar ett system för kontroll och balans för känsliga operationer samtidigt som den lagstadgade tillsyn som krävs för institutionella tillgångar upprätthålls. De felaktiga svaren beskriver mekanismer som antingen inte finns i AMP eller som skulle vara olämpliga för reglerad finansiell efterlevnad.

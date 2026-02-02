@@ -1,6 +1,7 @@
 ---
-term: FRASE DE RECUPERAÇÃO
+term: Frase de recuperação
 
+definition: Sequência de 12 ou 24 palavras que permite fazer o backup e restaurar uma carteira Bitcoin.
 ---
 Uma frase de recuperação, por vezes também designada por mnemónica, frase-semente ou frase secreta, é uma sequência normalmente composta por 12 ou 24 palavras, gerada de forma pseudo-aleatória a partir de uma fonte de entropia. A sequência pseudo-aleatória é sempre completada com uma soma de controlo. A frase mnemónica, juntamente com uma frase-passe opcional, é utilizada para derivar deterministicamente todas as chaves associadas a uma carteira HD (Hierarchical Deterministic). Isto significa que, a partir desta frase, é possível gerar e recriar deterministicamente todas as chaves privadas e públicas da carteira Bitcoin e, consequentemente, aceder aos fundos associados à mesma. O objetivo da frase de recuperação é fornecer um meio de backup e recuperação de bitcoins que seja seguro e fácil de usar.
 

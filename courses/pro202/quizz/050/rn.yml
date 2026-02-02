@@ -1,0 +1,8 @@
+question: Iyo node ya Bitcoin ifunguye maze ikaja mu rubuga ku ncuro ya mbere, ni ubuhe buryo nyamukuru ikoresha kugira ngo ivumbure abagenzi bakora?
+answer: Imbuto za DNS zifise amakode akomeye zibungabungwa n'abahinguzi b'ingenzi kugira ngo baronke IPs z'urunganwe rukora
+wrong_answers:
+  - Gutangaza ubutumwa bwo kuvumbura kuri aderesi zose za IP mu mirongo y'urubuga rwategekanijwe
+  - Ihuza na server y'iyandikwa hagati ibungabunga urutonde rw'ibice vyose bikora
+  - Ikoresha DHT (Imbonerahamwe ya Hash) kugira ngo uronke urunganwe biciye mu nzira ishingiye kuri hash
+explanation: |
+  Bitcoin ikoresha imbuto za DNS zifise amakode akomeye nk’uburyo bwo gutangura kuko itanga uburyo bushingiye ku rwego rwo hejuru kugira ngo ama node mashasha yinjire mu rubuga ata kwizigira ubutegetsi bwa mbere. Imbuto za DNS zibungabungwa n’abahinguzi b’ingenzi kandi zigasubiza amaderesi IP y’urunganwe rukora ubu. Iyo zimaze guhuzwa, nodes zishobora gukoresha itegeko rya getaddr kugira ngo zibone abandi bagenzi. Inyishu zitari zo zidondora uburyo canke amategeko akoreshwa na Bitcoin - nta n'inyandiko y'imbere, nta n'itangazamakuru ry'urubuga, kandi nta n'ukuvumbura kw'urunganwe gushingiye kuri DHT mu guhingura Bitcoin.

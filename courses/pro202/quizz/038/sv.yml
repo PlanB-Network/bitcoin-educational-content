@@ -1,0 +1,8 @@
+question: Vad bestämmer beloppet för transaktionsavgiften i en Bitcoin-transaktion under byggprocessen?
+answer: Skillnaden mellan det totala värdet av alla input och det totala värdet av alla output
+wrong_answers:
+  - En fast procentsats av det totala transaktionsvärdet som beräknas av nätverksprotokollet
+  - Transaktionens storlek i bytes multiplicerat med en standardränta som fastställts av gruvarbetare
+  - Det antal signaturer som krävs för alla ingångar plus en grundläggande nätverksavgift
+explanation: |
+  Bitcoin:s transaktionsavgifter bestäms av skillnaden mellan totala inmatningar och totala utmatningar. När du konstruerar en transaktion väljer du UTXO som input och skapar output för mottagare och förändring. Eventuellt överblivet belopp blir avgiften som ger gruvarbetare incitament att inkludera din transaktion. Avgiften beräknas inte genom procent, fasta priser eller antal signaturer - det är helt enkelt det som förblir oallokerat i transaktionens värdebalans.

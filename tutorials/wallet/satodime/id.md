@@ -38,7 +38,7 @@ Satodime, sebuah **carte au porteur, adalah milik siapa pun yang secara fisik me
 
 
 
-Aplikasi ini berkembang secara teratur. Periksa situs web atau toko Satochip untuk pembaruan. Misalnya, blockchain baru atau fungsi pembelian dapat ditambahkan. Periksa [Satochip GitHub] (https://github.com/Toporin/Satodime-Applet) untuk perkembangan yang sedang berlangsung.
+Aplikasi ini berkembang secara teratur. Periksa situs web atau toko Satochip untuk pembaruan. Misalnya, blockchain baru atau fungsi pembelian dapat ditambahkan. Periksa [Satochip GitHub](https://github.com/Toporin/Satodime-Applet) untuk perkembangan yang sedang berlangsung.
 
 
 
@@ -70,7 +70,7 @@ Sebelum memulai dengan **Satodime**, pastikan Anda memiliki hal-hal berikut ini:
  - [App Store](https://apps.apple.com/be/app/satodime/id1672273462)** (iOS)
  - [Google Play Store](https://play.google.com/store/apps/details?id=org.satochip.satodimeapp)** (Android)
  - Periksa pengembang (Satochip) untuk menghindari penipuan.
- - Satodime adalah **sumber terbuka**. Kode sumber : [GitHub Satochip] (https://github.com/Toporin/Satodime-Applet).
+ - Satodime adalah **sumber terbuka**. Kode sumber : [GitHub Satochip](https://github.com/Toporin/Satodime-Applet).
 
 
 
@@ -124,7 +124,7 @@ Untuk penggunaan pertama, jadilah pemilik kartu untuk mengamankannya:
 - Klik "*Take Ownership*" di aplikasi.
 - Konfirmasikan operasi: ini akan menghasilkan kunci pemilik yang unik.
 - Pindai peta sekali lagi untuk menerapkan perubahan.
-- Peringatan**: Langkah ini tidak dapat diubah. Silakan merujuk ke [artikel tentang *kepemilikan*] (https://satochip.io/satodime-ownership-explained/).
+- Peringatan**: Langkah ini tidak dapat diubah. Silakan merujuk ke [artikel tentang *kepemilikan*](https://satochip.io/satodime-ownership-explained/).
 
 
 

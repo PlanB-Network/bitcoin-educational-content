@@ -1,5 +1,6 @@
 ---
-term: COMPATIBILIDAD CON VERSIONES ANTERIORES
+term: Compatibilidad hacia atrás
 
+definition: Capacidad de una actualización de protocolo para seguir siendo compatible con versiones anteriores, permitiendo que los nodos antiguos sigan funcionando en la red.
 ---
 Se refiere a la capacidad de una actualización de reglas de protocolo para mantener la compatibilidad con versiones anteriores. Esto significa que los cambios se diseñan de forma que los nodos más antiguos (nodos que ejecutan versiones anteriores al cambio de reglas) puedan seguir interactuando con la red y seguir la cadena con más trabajo acumulado. Por tanto, es esencial que los nodos más antiguos no rechacen los nuevos bloques ni las nuevas transacciones. La compatibilidad con versiones anteriores reduce significativamente la probabilidad de que una actualización fragmente la red, evitando así la división de los nodos en subgrupos de cadenas diferentes. Para garantizar la compatibilidad con versiones anteriores del protocolo, una actualización debe hacer más estrictas las normas existentes o introducir otras nuevas. Este principio define un "soft fork". Por el contrario, si una actualización relaja las normas existentes o elimina algunas, no será compatible con versiones anteriores. Esto sería un "hard fork".

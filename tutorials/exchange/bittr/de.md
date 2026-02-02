@@ -21,7 +21,7 @@ Wir zeigen Ihnen, wie einfach es ist, Sats mit Bittr zu stapeln.
 ## Erste Schritte mit Bittr
 
 
-- Gehen Sie im Internet oder auf dem Handy zu [getbittr.com] (https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) und klicken Sie auf "Bitcoin kaufen"
+- Gehen Sie im Internet oder auf dem Handy zu [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) und klicken Sie auf "Bitcoin kaufen"
 
 
 

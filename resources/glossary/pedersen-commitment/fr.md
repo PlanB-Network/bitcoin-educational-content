@@ -1,5 +1,6 @@
 ---
-term: PEDERSEN COMMITMENT
+term: Pedersen commitment
+definition: Engagement cryptographique homomorphique permettant de vérifier des sommes sans révéler les valeurs.
 ---
 
 Un Pedersen commitment est un type d'engagement cryptographique présentant la propriété d’être homomorphique vis-à-vis de l’opération d’addition. Cela signifie qu’il est possible de valider la somme de deux engagements sans dévoiler les valeurs individuelles.

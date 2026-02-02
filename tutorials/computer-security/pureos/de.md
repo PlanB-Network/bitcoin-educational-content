@@ -64,11 +64,11 @@ Für die Installation und Konfiguration von PureOS auf Ihrem Computer benötigen
 
 
 
-Rufen Sie die [offizielle PureOS-Website] (https://pureos.net/) auf und laden Sie das ISO-Image des Betriebssystems entsprechend der Architektur Ihres Computers herunter.
+Rufen Sie die [offizielle PureOS-Website](https://pureos.net/) auf und laden Sie das ISO-Image des Betriebssystems entsprechend der Architektur Ihres Computers herunter.
 
 
 
-Um die PureOS-Installation zu starten, müssen Sie einen bootfähigen USB-Stick mit einer Flash-Software wie [Balena Etcher] (https://www.balena.io/etcher) erstellen.
+Um die PureOS-Installation zu starten, müssen Sie einen bootfähigen USB-Stick mit einer Flash-Software wie [Balena Etcher](https://www.balena.io/etcher) erstellen.
 
 
 

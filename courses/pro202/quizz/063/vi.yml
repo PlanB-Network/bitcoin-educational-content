@@ -1,0 +1,8 @@
+question: Thuộc tính mật mã chính nào cho phép các bộ lọc khối nhỏ gọn (BIP158) cung cấp tính bảo mật cho các máy khách nhẹ trong khi vẫn duy trì độ chính xác tuyệt đối?
+answer: Chúng có thể tạo ra kết quả dương tính giả nhưng không bao giờ tạo ra kết quả âm tính giả khi đối khớp giao dịch.
+wrong_answers:
+  - Họ sử dụng bằng chứng không tiết lộ thông tin để che giấu địa chỉ nào đang được truy vấn từ các nút.
+  - "Họ mã hóa tất cả dữ liệu bộ lọc bằng khóa công khai của khách hàng để ngăn chặn việc nghe lén."
+  - Họ sắp xếp ngẫu nhiên thứ tự các mã băm giao dịch để che giấu mô hình chi tiêu khỏi người quan sát.
+explanation: |
+  Các bộ lọc khối nhỏ gọn sử dụng cấu trúc dữ liệu xác suất có thể chỉ ra sai một kết quả trùng khớp (sai dương tính) nhưng sẽ không bao giờ bỏ sót một kết quả trùng khớp thực sự (sai âm tính). Thuộc tính bất đối xứng này rất quan trọng: sai dương tính chỉ gây ra việc tải xuống khối không cần thiết, trong khi sai âm tính sẽ khiến ví bỏ lỡ hoàn toàn các khoản thanh toán. Lợi ích về quyền riêng tư đến từ sự không chắc chắn này - người quan sát không thể phân biệt giữa các kết quả trùng khớp thực sự và sai dương tính, làm che khuất việc giao dịch nào thực sự thuộc về wallet đang truy vấn.

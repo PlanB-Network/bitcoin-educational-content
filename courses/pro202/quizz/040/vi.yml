@@ -1,0 +1,8 @@
+question: Tại sao các thợ đào ASIC hiện đại lại sửa đổi dữ liệu bên trong giao dịch Coinbase thay vì chỉ dựa vào trường nonce trong tiêu đề khối?
+answer: Trường nonce 4 byte cung cấp không gian tìm kiếm không đủ cho các ASIC hiện đại, vì vậy thợ đào sửa đổi dữ liệu Coinbase để thay đổi gốc Merkle và tạo thêm không gian tìm kiếm.
+wrong_answers:
+  - Việc sửa đổi giao dịch Coinbase cho phép thợ đào nhận được phần thưởng khối cao hơn mức trợ cấp tiêu chuẩn cho phép.
+  - "Giao dịch Coinbase cần được sửa đổi để bao gồm chữ ký số của người khai thác nhằm mục đích xác thực khối."
+  - Việc thay đổi dữ liệu Coinbase làm giảm độ khó tính toán bằng cách cho phép thợ đào bỏ qua các yêu cầu proof-of-work tiêu chuẩn.
+explanation: |
+  Các chip ASIC hiện đại có thể khai thác hết không gian nonce 4 byte (2^32 khả năng) cực kỳ nhanh chóng, đòi hỏi không gian tìm kiếm bổ sung. Bằng cách sửa đổi dữ liệu trong giao dịch Coinbase, thợ đào thay đổi mã băm của giao dịch, điều này làm thay đổi gốc Merkle trong tiêu đề khối, tạo ra hàng tỷ giá trị tương tự nonce bổ sung để thử. Kỹ thuật này, được gọi là 'extra-nonce', rất cần thiết cho các hoạt động mining hiện đại, nơi phần cứng vượt xa dung lượng của trường nonce ban đầu.

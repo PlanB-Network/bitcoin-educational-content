@@ -5,5 +5,5 @@ wrong_answers:
   - Schema, Interface, Signature et PSBT
   - Genesis, Interface, PSBT et Historique
 explanation: |
-  Le consignment d'un contrat RGB regroupe la Genesis, le Schema, l’Interface et l’Interface Implementation, qui fournissent toutes les données nécessaires à la validation du contrat.
+  Le consignment d'un contrat RGB regroupe le Genesis, le Schema, l’Interface et l’Interface Implementation, qui fournissent toutes les données nécessaires à la validation du contrat.
 reviewed: false

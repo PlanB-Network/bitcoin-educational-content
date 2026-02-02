@@ -46,7 +46,7 @@ Kết nối Ledger vào máy tính và mở khóa.
 
 
 
-Để cài đặt ứng dụng, hãy mở phần mềm [Ledger Live] (https://www.Ledger.com/Ledger-live), sau đó chuyển đến tab "*My Ledger*". Tìm ứng dụng "*Security Key*" và cài đặt trên thiết bị của bạn.
+Để cài đặt ứng dụng, hãy mở phần mềm [Ledger Live](https://www.Ledger.com/Ledger-live), sau đó chuyển đến tab "*My Ledger*". Tìm ứng dụng "*Security Key*" và cài đặt trên thiết bị của bạn.
 
 
 

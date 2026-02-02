@@ -1,0 +1,8 @@
+question: Metne göre, güvenlik ve ekonomik ilerleme arasında nasıl bir paradoks vardır?
+answer: Güvenlik, kalkınma için hem bir ön koşul hem de kalkınmanın bir sonucudur
+wrong_answers:
+  - Güvenlik her zaman ekonomik kalkınma sağlandıktan sonra gelir
+  - Ekonomik ilerleme doğal olarak güvenlik önlemlerine olan ihtiyacı ortadan kaldırır
+  - Güvenlik ve ekonomik ilerleme birbirinden tamamen bağımsızdır
+explanation: |
+  Bu bölüm, güvenlik ve ekonomik ilerlemenin paradoksal bir ilişki yarattığını açıklamaktadır: kalkınma gerçekleşmeden önce güvenliğe ihtiyaç vardır (güvenlik olmadan yenilik yapamaz veya uzun vadeli yatırım yapamazsınız), ancak güvenliği sağlayan kurumları finanse etmek için üretimden elde edilen ekonomik fazlaya da ihtiyacınız vardır. Bu, başlaması zor bir döngü yaratır, ancak bir kez başladıktan sonra kendi kendini güçlendirir. Diğer cevaplar yanlıştır çünkü bu karmaşık karşılıklı bağımlılık yerine basit bir tek yönlü ilişki veya bağımsızlık önermektedirler.

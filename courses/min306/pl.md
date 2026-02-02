@@ -614,7 +614,7 @@ Pomyślne utworzenie domowej puli mining stanowi znaczący krok w kierunku zdece
 W świecie lutowania urządzeń do montażu powierzchniowego (SMD), szczególnie podczas pracy z projektami Bitaxe, posiadanie odpowiednich narzędzi stanowi różnicę między frustracją a sukcesem. Ten kompleksowy przewodnik obejmuje niezbędny sprzęt potrzebny do skutecznego radzenia sobie z projektami lutowania SMD, od podstawowych narzędzi ręcznych po specjalistyczny sprzęt, który zwiększy twoje możliwości lutownicze.
 
 
-Jeśli chcesz zapoznać się z dokumentacją dotyczącą schematów, sprawdź to [repozytorium GitHub] (https://github.com/skot/bitaxe-doc/tree/main).
+Jeśli chcesz zapoznać się z dokumentacją dotyczącą schematów, sprawdź to [repozytorium GitHub](https://github.com/skot/bitaxe-doc/tree/main).
 
 
 ### Podstawowe narzędzia ręczne i przyrządy precyzyjne

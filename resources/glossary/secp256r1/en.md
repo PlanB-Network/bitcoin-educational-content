@@ -1,5 +1,6 @@
 ---
 term: SECP256R1
+definition: Elliptic curve of the NIST standard, not used by Bitcoin which prefers secp256k1.
 ---
 
 Name given to an elliptical curve defined by the NIST standard for public key cryptography. It uses a prime field of 256 bits and an elliptical curve equation $y^2 = x^3 + ax + b$ with the constants:

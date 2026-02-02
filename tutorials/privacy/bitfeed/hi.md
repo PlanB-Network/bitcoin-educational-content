@@ -11,7 +11,7 @@ description: मुख्य Bitcoin प्रोटोकॉल श्रृं
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 इस ट्यूटोरियल में, हम इस टूल पर नज़र डालेंगे, जो आपको नेटवर्क पर सभी लेनदेन और ब्लॉक का पता लगाने की सुविधा देता है।
 
@@ -95,7 +95,7 @@ https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43c
 
 
 
-https://planb.academy/courses/obtenir-ses-premiers-bitcoins-f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 डिफ़ॉल्ट रूप से, किसी ब्लॉक में लेनदेन को दो मानदंडों के अनुसार दर्शाया जाता है:
 

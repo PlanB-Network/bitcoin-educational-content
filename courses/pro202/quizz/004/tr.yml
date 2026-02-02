@@ -1,0 +1,8 @@
+question: Eliptik bir eğri üzerinde P + Q noktasını bulmak için hangi matematiksel işlem kullanılır?
+answer: P ve Q noktalarından geçen bir doğru çizin, üçüncü kesişme noktası R'yi bulun, ardından R'yi x ekseni boyunca yansıtın
+wrong_answers:
+  - Modüler aritmetik kullanarak P ve Q'nun x koordinatlarını ve y koordinatlarını doğrudan toplayın
+  - P ve Q koordinatlarını çarpın ve sonucu bulmak için eğri denklemini uygulayın
+  - P ve Q arasındaki orta noktayı hesaplayın ve ardından toplamı elde etmek için teğet doğrusu yöntemini uygulayın
+explanation: |
+  Eliptik eğri nokta toplama işlemi belirli bir geometrik kuralı izler: P ve Q noktalarından geçen ve eğriyi üçüncü bir R noktasında kesen bir doğru çizin, ardından P + Q elde etmek için R'yi x ekseni boyunca yansıtın. Bu geometrik işlem sonlu alanlar üzerinde çalışırken cebirsel hale gelir, ancak aynı temel ilkeyi korur. Diğer seçenekler, eliptik eğriler için yerleşik grup yasasını takip etmeyen yanlış yöntemleri tanımlamaktadır.

@@ -1,0 +1,8 @@
+question: Milline põhieeldus on aluseks avaliku eestkostesüsteemi lähenemisele potentsiaalselt kahjulike individuaalsete tegude ennetamisele?
+answer: Kodanikud on loomupäraselt võimetud enesevalitsemiseks ja vajavad ennetavat juhendamist, et vältida valede valikute tegemist
+wrong_answers:
+  - Individuaalsed õigused peavad olema tasakaalus kollektiivse julgeolekuga demokraatliku konsensuse ja häälteenamuse kaudu
+  - Varasemad kodanike poolt toime pandud kahjulikud teod näitavad vajadust pigem reaktiivsete karistuste kui ennetavate meetmete järele
+  - Majanduse turutõrked tõestavad, et poliitiline sekkumine on vajalik süstemaatiliste otsuste tegemise vigade korrigeerimiseks
+explanation: |
+  Tekstis märgitakse selgesõnaliselt, et avalik eestkoste "põhineb ühel põhimõttel: le citoyen serait fondamentalement incapable de se conduire lui-même et nécessiterait une direction générale pour éviter, par prévention, les actes potentiellement nuisibles" See eeldus fundamentaalsest võimetusest tingib ennetamise ja raamistiku eelistamise tegelike rikkumiste mahasurumisele. Teised võimalused moonutavad eestkostesüsteemi loogikat, keskendudes pigem demokraatlikule tasakaalule, reaktiivsetele lähenemisviisidele või majanduslikele põhjendustele kui põhieeldusele kodanike loomupärasest võimetusest.

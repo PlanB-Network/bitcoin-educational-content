@@ -1,0 +1,8 @@
+question: Nếu cơ chế điều chỉnh độ khó của Bitcoin gặp phải trường hợp 2016 khối trước đó mất chính xác 6 tuần để khai thác thay vì 2 tuần như dự kiến, thì hệ số điều chỉnh nào sẽ được áp dụng?
+answer: Độ khó sẽ giảm đi 4 lần (mức giảm tối đa cho phép).
+wrong_answers:
+  - Độ khó sẽ giảm đi 3 lần (6 tuần ÷ 2 tuần)
+  - Độ khó sẽ giảm đi 2,5 lần để tránh việc điều chỉnh quá mức.
+  - Độ khó sẽ giảm đi 6 lần dựa trên tỷ lệ thời gian.
+explanation: |
+  Cơ chế điều chỉnh độ khó của Bitcoin có các giới hạn tích hợp, hạn chế sự thay đổi trong phạm vi gấp bốn lần theo cả hai hướng. Mặc dù 6 tuần ÷ 2 tuần = 3, cho thấy mức giảm 3 lần, nhưng giao thức giới hạn mức điều chỉnh ở mức 4 lần để ngăn chặn sự biến động quá mức. Cơ chế an toàn này đảm bảo sự ổn định của mạng trong các thay đổi lớn về tốc độ băm, chẳng hạn như lệnh cấm mining hoặc sự cố thiết bị, bằng cách ngăn chặn sự điều chỉnh quá mức có thể làm mất ổn định thời gian tạo khối.

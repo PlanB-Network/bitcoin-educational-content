@@ -20,7 +20,7 @@ Når det gjelder tilkobling, lar Sparrow deg koble deg til din egen Bitcoin-node
 
 ## Installer Sparrow Wallet
 
-Gå til [den offisielle nedlastingssiden for Sparrow Wallet] (https://sparrowwallet.com/download/) og velg programvareversjonen som passer til operativsystemet ditt.
+Gå til [den offisielle nedlastingssiden for Sparrow Wallet](https://sparrowwallet.com/download/) og velg programvareversjonen som passer til operativsystemet ditt.
 
 ![Image](assets/fr/01.webp)
 
@@ -95,13 +95,14 @@ Ikke glem å starte programvaren på nytt etter at du har gjort disse endringene
 
 Gå deretter tilbake til Sparrow Wallet og skriv inn banen til cookie-filen din, som vanligvis ligger i samme mappe som `Bitcoin.conf`, avhengig av operativsystemet ditt:
 
-| **macOS** | ~/Bibliotek/Applikasjonssupport/Bitcoin | ~
 
+
+
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-
-| **Windows** | %APPDATA%\Bitcoin | %APPDATA%\Bitcoin
-
-| **Linux** | ~/.Bitcoin | ~/.Bitcoin
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 
@@ -123,19 +124,20 @@ server=1
 
 Når du har redigert filen, må du sørge for å lagre den i riktig mappe for operativsystemet ditt:
 
-| **macOS** | ~/Bibliotek/Applikasjonssupport/Bitcoin | | **macOS** | ~/Library/Application Support/Bitcoin
 
+
+
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-
-| **Windows** | %APPDATA%\Bitcoin | %APPDATA%\Bitcoin
-
-| **Linux** | ~/.Bitcoin | ~/.Bitcoin
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 Denne operasjonen kan også utføres via den grafiske Interface Bitcoin-QT Interface. Gå til menyen "*Settings*", deretter "*Options...*", og aktiver alternativet "*Enable RPC server*" ved å krysse av i den tilhørende boksen. Hvis filen `Bitcoin.conf` ikke finnes, kan du opprette den direkte fra denne Interface ved å klikke på "*Open Configuration File*".
 
 ![Image](assets/fr/12.webp)
 
-Finn IP Address til maskinen som er vert for Bitcoin Core i ditt lokale nettverk. For å gjøre dette kan du bruke et verktøy som [Angry IP Scanner] (https://angryip.org/). La oss for eksempel anta at IP Address på noden din er `192.168.1.18`.
+Finn IP Address til maskinen som er vert for Bitcoin Core i ditt lokale nettverk. For å gjøre dette kan du bruke et verktøy som [Angry IP Scanner](https://angryip.org/). La oss for eksempel anta at IP Address på noden din er `192.168.1.18`.
 
 I filen `Bitcoin.conf` legger du til følgende linjer, og setter `rpcbind=192.168.1.18` til å samsvare med IP Address på noden din.
 

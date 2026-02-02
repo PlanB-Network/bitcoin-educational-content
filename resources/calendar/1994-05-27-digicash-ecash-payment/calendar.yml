@@ -1,0 +1,18 @@
+id: 1bbb23a6-27dc-4c29-80f0-6e5ba2194d80
+
+calendar_date: 1994-05-27
+
+contributor_names:
+  - LoicPandul
+
+original_language: fr
+
+# Proofreading metadata
+
+proofreading:
+  - language: fr
+    last_contribution_date: 2026-01-08
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

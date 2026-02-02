@@ -1,5 +1,6 @@
 ---
 term: P2SH-P2WSH
+definition: Script SegWit (P2WSH) enveloppé dans P2SH pour la compatibilité, adresses commençant par 3.
 ---
 
 P2SH-P2WSH est le sigle pour *Pay to Script Hash - Pay to Witness Script Hash* (en français « payer au hachage du script - payer au témoin du hachage du script »). C’est un modèle de script standard utilisé pour établir des conditions de dépense sur un UTXO, également connu sous le nom de « Nested SegWit ».

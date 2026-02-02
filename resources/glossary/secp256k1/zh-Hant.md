@@ -1,5 +1,6 @@
 ---
 term: SECP256K1
+definition: 比特幣上用於ECDSA和Schnorr數位簽名的橢圓曲線。
 ---
 
 Bitcoin 協定中用來實作 ECDSA (*Elliptic Curve Digital Signature Algorithm*) 和 Schnorr 數位簽章演算法的特定橢圓曲線的名稱。secp256k1」曲線是由 Bitcoin 的發明者 Satoshi Nakamoto 選擇的。它有一些有趣的特性，尤其是性能優勢。

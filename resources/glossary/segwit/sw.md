@@ -1,5 +1,6 @@
 ---
-term: SegWit
+term: Segwit
+definition: Sasisho la 2017 linalotenganisha saini ili kuongeza uwezo na kutatua malleability.
 ---
 
 SegWit, kifupi cha "Shahidi Aliyetengwa," ni sasisho la itifaki ya Bitcoin iliyoanzishwa Agosti 2017. Inalenga kutatua masuala kadhaa ya kiufundi, ikiwa ni pamoja na tatizo la uwezo wa muamala wa mtandao, suala la uharibifu wa muamala, na kuwezesha marekebisho ya itifaki ya siku zijazo.

@@ -34,7 +34,7 @@ Lengo la mafunzo haya ni kukupa funguo za kufahamu zana unazotumia kila siku. Po
 
 Kabla ya kupiga mbizi katika maelezo ya ujenzi na uendeshaji wa pochi za Bitcoin, tutaanza na sura chache juu ya primitives ya cryptographic kujua nini Kina (depth)fuata.
 
-Tutaanza na kazi za kriptografia za Hash, za msingi kwa pochi zote mbili na itifaki ya Bitcoin yenyewe. Utagundua sifa zao kuu, kazi maalum zinazotumiwa katika Bitcoin, na katika sura ya kiufundi zaidi, utajifunza kwa undani kuhusu kazi za malkia wa kazi za Hash: SHA256.
+Tutaanza na kazi za kriptografia za Hash, za msingi kwa pochi zote mbili na itifaki ya Bitcoin yenyewe. Utagundua sifa zao kuu, kazi maalum zinazotumiwa katika Bitcoin, na katika sura ya kiufundi zaidi, utajifunza kwa undani kuhusu kazi za malkia wa kazi za Hash: [SHA256](https://planb.academy/resources/glossary/sha256).
 
 ![CYP201](assets/en/001.webp)
 
@@ -46,7 +46,7 @@ Mara tu tunapokuwa na ufahamu mzuri wa Elements hizi za kriptografia, hatimaye t
 
 ![CYP201](assets/en/003.webp)
 
-Mafunzo yataendelea na utafiti wa BIP39 passphrase, seed (bila kuchanganyikiwa na maneno ya Mnemonic), msimbo wa mnyororo mkuu, na Ufunguo (Key) mkuu. Tutaona kwa undani Elements hizi ni nini, majukumu yao husika, na jinsi zinavyohesabiwa.
+Mafunzo yataendelea na utafiti wa [BIP39](https://planb.academy/resources/glossary/bip0039) passphrase, seed (bila kuchanganyikiwa na maneno ya Mnemonic), msimbo wa mnyororo mkuu, na Ufunguo (Key) mkuu. Tutaona kwa undani Elements hizi ni nini, majukumu yao husika, na jinsi zinavyohesabiwa.
 
 ![CYP201](assets/en/004.webp)
 
@@ -726,7 +726,7 @@ Kwa hivyo, mtumiaji anayetaka kufanya muamala wa Bitcoin lazima aunde sahihi ya 
 
 Kwa hivyo, mtumiaji ambaye anamiliki bitcoins zilizofungwa kwa Ufunguo (Key) wa umma lazima atafute njia ya kuhifadhi kwa usalama kile Kina (depth)choruhusu kufungua fedha zao: Ufunguo (Key) wa kibinafsi. Bitcoin Wallet ni kifaa haswa ambacho kitakuruhusu kuweka funguo zako zote kwa urahisi bila watu wengine kuzifikia. Kwa hivyo ni kama chain ya vitufe kuliko Wallet.
 
-Kiungo cha hisabati kati ya Ufunguo (Key) wa umma na Ufunguo (Key) wa faragha, pamoja na uwezo wa kutia sahihi ili kuthibitisha umiliki wa Ufunguo (Key) wa faragha bila kuufunua, huwezeshwa na algoriti ya sahihi ya dijiti. Katika itifaki ya Bitcoin, algoriti 2 za sahihi zinatumika: **ECDSA** (_Elliptic Curve Digital Signature Algorithm_) na **Mpango wa sahihi wa Schnorr**. ECDSA ni itifaki ya sahihi ya dijiti iliyotumiwa katika Bitcoin tangu mwanzo. Schnorr ni ya hivi majuzi zaidi katika Bitcoin, kama ilianzishwa mnamo Novemba 2021 na sasisho la Taproot.
+Kiungo cha hisabati kati ya Ufunguo (Key) wa umma na Ufunguo (Key) wa faragha, pamoja na uwezo wa kutia sahihi ili kuthibitisha umiliki wa Ufunguo (Key) wa faragha bila kuufunua, huwezeshwa na algoriti ya sahihi ya dijiti. Katika itifaki ya Bitcoin, algoriti 2 za sahihi zinatumika: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Digital Signature Algorithm_) na **Mpango wa sahihi wa Schnorr**. ECDSA ni itifaki ya sahihi ya dijiti iliyotumiwa katika Bitcoin tangu mwanzo. Schnorr ni ya hivi majuzi zaidi katika Bitcoin, kama ilianzishwa mnamo Novemba 2021 na sasisho la Taproot.
 
 Algorithms hizi mbili zinafanana kabisa katika mifumo yao. Zote mbili zinatokana na kriptografia ya curve ya elliptical. Tofauti kuu kati ya itifaki hizi mbili iko katika muundo wa saini na baadhi ya sifa maalum za hisabati. Kwa hivyo tutasoma utendakazi wa kanuni hizi, tukianza na za zamani zaidi: ECDSA.
 
@@ -1277,7 +1277,7 @@ Katika sura zijazo, tutachunguza utendakazi wa ndani wa pochi za HD, ikijumuisha
 
 :::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
 
-Mikoba ya kisasa ya HD (ya kuamua na ya daraja) hutegemea taarifa moja ya awali inayoitwa "entropy" ili kubainisha generate seti nzima ya funguo za Wallet. Entropy hii ni nambari ya pseudo-random ambayo kiwango cha machafuko huamua usalama wa Wallet.
+Mikoba ya kisasa ya HD (ya kuamua na ya daraja) hutegemea taarifa moja ya awali inayoitwa "[entropy](https://planb.academy/resources/glossary/entropy)" ili kubainisha generate seti nzima ya funguo za Wallet. Entropy hii ni nambari ya pseudo-random ambayo kiwango cha machafuko huamua usalama wa Wallet.
 
 ### Ufafanuzi wa Entropy
 

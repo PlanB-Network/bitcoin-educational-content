@@ -1,0 +1,8 @@
+question: Trong kiến trúc mã hóa ẩn danh của Blockstream AMP, cơ chế mật mã nào cho phép mã hóa số tiền tài sản trong khi vẫn duy trì xác minh tính hợp lệ của giao dịch?
+answer: Trao đổi khóa Diffie-Hellman trên đường cong Elliptic với bằng chứng phạm vi xác minh tính hợp lệ của giao dịch mà không tiết lộ giá trị được mã hóa.
+wrong_answers:
+  - SNARK không tiết lộ thông tin với các lược đồ cam kết che giấu số tiền giao dịch đồng thời chứng minh tính toàn vẹn tính toán.
+  - Chữ ký vòng với địa chỉ ẩn danh giúp che giấu danh tính người gửi trong khi vẫn duy trì khả năng kiểm toán mật mã.
+  - Mã hóa đồng cấu với các cam kết cây Merkle cho phép thực hiện các phép toán trên dữ liệu giao dịch đã mã hóa.
+explanation: |
+  AMP sử dụng phương thức trao đổi khóa ECDH, trong đó người gửi mã hóa số lượng tài sản bằng khóa công khai ẩn danh của người nhận, tạo ra bằng chứng phạm vi xác minh tính hợp lệ của giao dịch về mặt toán học mà không làm lộ giá trị. Điều này khác với SNARK (bằng chứng tính toán), chữ ký vòng (tập trung vào tính ẩn danh) hoặc mã hóa đồng hình (tính toán trên dữ liệu được mã hóa) - AMP đặc biệt cần các giao dịch bí mật nhưng có thể xác minh được.

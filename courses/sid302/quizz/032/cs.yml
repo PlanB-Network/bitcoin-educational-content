@@ -1,0 +1,8 @@
+question: Co se stane, když v architektuře Breez SDK selže reverzní výměna ponorky nebo dojde k jejímu přerušení?
+answer: SDK automaticky vytvoří a odvysílá transakci vrácení peněz na účet wallet uživatele
+wrong_answers:
+  - Poskytovatel swapu ručně zahájí proces obnovy vyžadující zásah uživatele do 24 hodin
+  - Prostředky zůstanou trvale zablokovány, dokud nebude obnoveno spojení Lightning Network
+  - Uživatel musí kontaktovat podporu Boltz, aby mohl ručně spustit transakci federated peg-out
+explanation: |
+  Sada Breez SDK implementuje automatické řízení náhrad jako kritický bezpečnostní mechanismus. Při selhání nebo vypršení časového limitu výměny sleduje SDK všechny stavy výměny a automaticky provádí proces obnovy bez zásahu uživatele. Tím se abstrahuje od složitosti časově omezených smluv a zajišťuje, že finanční prostředky nejsou nikdy trvale ztraceny. Ostatní možnosti jsou nesprávné, protože buď vyžadují manuální zásah, předpokládají trvalou ztrátu prostředků, nebo zahrnují procesy, které v automatizovaném systému neexistují.

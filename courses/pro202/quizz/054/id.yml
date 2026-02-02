@@ -1,0 +1,8 @@
+question: Dalam proses jabat tangan jaringan Bitcoin P2P, kondisi spesifik apa yang harus dipenuhi sebelum dua node dapat mulai secara aktif menyampaikan inventaris dan data transaksi?
+answer: Kedua node harus saling bertukar pesan versi dan verack satu sama lain
+wrong_answers:
+  - Node penghubung harus menerima konfirmasi DNS seed dari pengembang inti
+  - "Kedua node harus saling memverifikasi tinggi blok dan hash ujung rantai"
+  - "Node penerima harus memvalidasi sertifikat peer node penghubung"
+explanation: |
+  Jabat tangan Bitcoin P2P membutuhkan pertukaran dua arah di mana node penghubung mengirimkan pesan versi, penerima membalas dengan verack dan pesan versinya sendiri, dan pengirim asli merespons dengan verack-nya. Hanya setelah pertukaran empat pesan lengkap ini (versi → verack + versi → verack), node dapat memulai komunikasi aktif. DNS seed hanya digunakan untuk penemuan peer awal, bukan jabat tangan. Bitcoin tidak menggunakan sertifikat, dan validasi rantai terjadi setelah koneksi dibuat.

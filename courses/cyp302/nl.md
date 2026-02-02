@@ -1332,7 +1332,7 @@ Voor verdere discussie over moderne getaltheorie kun je veel geavanceerde discus
 [3] Bekijk [YouTube Video](https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be)
 
 
-[4] Socratica, [Abstracte Algebra] (https://www.socratica.com/subject/abstract-algebra)
+[4] Socratica, [Abstracte Algebra](https://www.socratica.com/subject/abstract-algebra)
 
 
 [5] Katz en Lindell, *Introduction to Modern Cryptography*, 2nd edn, 2015 (CRC Press: Boca Raton, FL). Paar en Pelzl, *Understanding Cryptography*, 2010 (Springer-Verlag: Berlijn).
@@ -2719,7 +2719,7 @@ Botsingsbestendige Hash functies zijn bijvoorbeeld belangrijk bij de verificatie
 
 2.	Vervolgens moet je de publieke sleutels die je hebt geïmporteerd verifiëren. Ten minste één stap die je moet nemen is controleren of de publieke sleutels die je gevonden hebt dezelfde zijn als die gepubliceerd zijn op verschillende andere locaties. Je zou bijvoorbeeld de persoonlijke webpagina's, Twitter-pagina's of Github-pagina's kunnen raadplegen van de mensen van wie je de publieke sleutels hebt geïmporteerd. Meestal wordt deze vergelijking van publieke sleutels gedaan door een korte Hash van de publieke sleutel te vergelijken, ook wel bekend als een vingerafdruk.
 
-3.	Vervolgens moet je de executable voor Bitcoin Core downloaden van hun [website] (www.bitcoincore.org). Er zijn pakketten beschikbaar voor Linux, Windows en MAC besturingssystemen.
+3.	Vervolgens moet je de executable voor Bitcoin Core downloaden van hun [website](www.bitcoincore.org). Er zijn pakketten beschikbaar voor Linux, Windows en MAC besturingssystemen.
 
 4.	Vervolgens moet je twee release bestanden vinden. Het eerste bevat de officiële SHA-256 Hash voor het uitvoerbare bestand dat je hebt gedownload, samen met de hashes van alle andere pakketten die zijn uitgebracht. Een ander releasebestand bevat de handtekeningen van verschillende bijdragers over het releasebestand met de hashes van de pakketten. Beide release bestanden zouden zich op de Bitcoin Core website moeten bevinden.
 

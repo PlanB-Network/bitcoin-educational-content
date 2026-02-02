@@ -34,7 +34,7 @@ Thunderbird to aplikacja e-mail znana ze swojej elastyczności i szerokiego zakr
 ### Pobierz
 
 
-Aby zainstalować Thunderbird, należy pobrać oprogramowanie z [oficjalnej strony] (https://www.thunderbird.net/). Należy pamiętać, że aplikacja jest dostępna dla różnych systemów operacyjnych. Domyślną wersją będzie jednak ta, która zostanie automatycznie wykryta na podstawie danych dostarczonych przez przeglądarkę.
+Aby zainstalować Thunderbird, należy pobrać oprogramowanie z [oficjalnej strony](https://www.thunderbird.net/). Należy pamiętać, że aplikacja jest dostępna dla różnych systemów operacyjnych. Domyślną wersją będzie jednak ta, która zostanie automatycznie wykryta na podstawie danych dostarczonych przez przeglądarkę.
 
 
 
@@ -42,7 +42,7 @@ Aby zainstalować Thunderbird, należy pobrać oprogramowanie z [oficjalnej stro
 
 
 
-Aby pobrać określoną wersję programu Thunderbird, przejdź do [tej strony] (https://www.thunderbird.net/an/thunderbird/all/). Wybierz język, docelowy system operacyjny i architekturę procesora, a następnie uruchom pobieranie.
+Aby pobrać określoną wersję programu Thunderbird, przejdź do [tej strony](https://www.thunderbird.net/an/thunderbird/all/). Wybierz język, docelowy system operacyjny i architekturę procesora, a następnie uruchom pobieranie.
 
 
 

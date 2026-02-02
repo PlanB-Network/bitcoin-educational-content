@@ -1,0 +1,8 @@
+question: Wat is het primaire beveiligingsmechanisme dat ervoor zorgt dat de Greenlight-infrastructuur geen toegang heeft tot gebruikersfondsen, ondanks dat Lightning-nodes in de cloud worden gehost?
+answer: De privésleutels verlaten nooit de apparaten van de gebruiker en alle handelingen vereisen een actieve ondertekening van de applicatie
+wrong_answers:
+  - Portemonnees met meerdere handtekeningen met gedistribueerde sleutelhards over meerdere cloudaanbieders
+  - Hardwarebeveiligingsmodules die alle transacties versleutelen voordat ze in de cloud worden verwerkt
+  - Slimme contracten met tijdslot die automatisch geld teruggeven bij ongeoorloofde toegang
+explanation: |
+  De Breez SDK handhaaft de veiligheid door middel van een architectuur zonder vertrouwen, waarbij privésleutels uitsluitend op apparaten van gebruikers blijven. Hoewel Greenlight de infrastructuur van het Lightning knooppunt host, kan het geen bewerkingen uitvoeren zonder een actief verbonden applicatie die transacties en berichten kan ondertekenen. Dit ontwerp zorgt ervoor dat ook al draait het knooppunt in de cloud, Greenlight nooit toegang heeft tot gebruikerssleutels en geen geld kan verplaatsen zonder expliciete toestemming van de gebruiker via hun lokale applicatie. De andere opties beschrijven verschillende beveiligingsmechanismen die niet in deze architectuur worden gebruikt.

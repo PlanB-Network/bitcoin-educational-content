@@ -5,5 +5,5 @@ wrong_answers:
   - Xác minh thanh toán đơn giản
   - Blockchain
 explanation: |
-  Chính sách tiền tệ ban đầu tương ứng với việc phát hành không đổi (X BTC/khối) như được chỉ ra trong phiên bản đầu tiên của bản trắng và các [trao đổi](https: //www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) của Satoshi với Ray Dillinger.
+  Chính sách tiền tệ ban đầu tương ứng với việc phát hành không đổi (X BTC/khối) như được chỉ ra trong phiên bản đầu tiên của bản trắng và các [trao đổi](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) của Satoshi với Ray Dillinger.
 reviewed: false

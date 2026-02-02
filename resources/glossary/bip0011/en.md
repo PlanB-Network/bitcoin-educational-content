@@ -1,5 +1,6 @@
 ---
 term: BIP0011
+definition: Standard introducing M-of-N multisignature transactions on Bitcoin, today known as bare-multisig or P2MS.
 ---
 
 BIP11, introduced by Gavin Andresen in March 2012, proposed a standard method for creating multisignature transactions on Bitcoin. Its goal was to enhance the security of bitcoins by requiring multiple signatures to authorize a transaction. 

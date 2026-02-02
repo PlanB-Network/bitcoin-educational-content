@@ -1,0 +1,8 @@
+question: Šta omogućava LDK-u da podržava različite transportne mehanizme kao što su TCP soketi, WebSockets i USB serijske veze za Lightning Network komunikaciju?
+answer: Sistem upravljanja vršnjacima radi nezavisno od osnovnog transportnog mehanizma dok rukuje šifrovanjem protokola za šum
+wrong_answers:
+  - Menadžer kanala koordinira sa više mrežnih adaptera kroz objedinjeni sloj apstrakcije soketa
+  - LDK implementira drajvere specifične za protokol za svaki tip transporta unutar svog osnovnog mrežnog modula
+  - Sistem događaja automatski detektuje dostupne metode transporta i konfiguriše odgovarajuće rukovaoce konekcija
+explanation: |
+  LDK-ov sistem za upravljanje čvorovima je posebno dizajniran da rukuje komunikacijom Lightning protokola (uključujući noise enkripciju i strukture poruka) nezavisno od stvarnog transportnog sloja. Ovo arhitektonsko razdvajanje omogućava programerima da implementiraju bilo koji dvosmerni komunikacioni kanal dok se menadžer čvorova fokusira isključivo na usklađenost sa Lightning protokolom. Druge opcije pogrešno sugerišu da LDK pruža ugrađene implementacije transporta ili automatsko otkrivanje, dok u stvarnosti LDK-ova snaga leži u apstrahovanju od specifičnih transportnih mehanizama u potpunosti.

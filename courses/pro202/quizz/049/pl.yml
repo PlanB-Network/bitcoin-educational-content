@@ -1,0 +1,8 @@
+question: Jakie są dwie krytyczne kontrole weryfikacyjne, które węzeł Bitcoin musi wykonać po otrzymaniu nowego bloku przed zaakceptowaniem go w łańcuchu bloków?
+answer: Hash bloku musi być poniżej docelowej trudności, a obliczony korzeń Merkle musi pasować do korzenia Merkle nagłówka
+wrong_answers:
+  - Znacznik czasu bloku musi być ważny, a wszystkie podpisy transakcji muszą być zweryfikowane kryptograficznie
+  - Rozmiar bloku musi być mniejszy niż 1 MB, a poprzedni hash bloku musi odnosić się do znanego prawidłowego bloku
+  - Wersja bloku musi być zgodna z konsensusem sieciowym, a całkowite opłaty transakcyjne muszą przekraczać nagrodę mining
+explanation: |
+  Zasada Bitcoin "nie ufaj, weryfikuj" wymaga dokładnie dwóch podstawowych kontroli akceptacji bloku: Walidacja proof-of-work (hash bloku poniżej docelowego poziomu trudności) i weryfikacja integralności transakcji (dopasowanie korzenia Merkle). Podczas gdy inne kontrole, takie jak weryfikacja znacznika czasu, weryfikacja podpisu i limity rozmiaru są ważne, te dwie konkretne kontrole zapewniają, że blok spełnia wymagania dotyczące trudności i zawiera deklarowane transakcje bez manipulacji.

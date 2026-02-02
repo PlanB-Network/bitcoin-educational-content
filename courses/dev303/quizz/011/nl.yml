@@ -1,0 +1,8 @@
+question: Wat is het belangrijkste voordeel van Rust's compileer-tijd geheugenveiligheidsbenadering vergeleken met garbage collection?
+answer: Het elimineert runtime overhead en onvoorspelbare prestatiepauzes
+wrong_answers:
+  - Het gebruikt meer geheugen maar biedt betere veiligheidsgaranties
+  - Het vereist minder code om te schrijven, maar werkt langzamer dan vuilnisverzameling
+  - Het voorkomt alle runtime errors maar gebruikt meer CPU tijdens de uitvoering
+explanation: |
+  Rust's compileertime geheugenveiligheid analyseert code tijdens het compileren om geheugenveiligheid te garanderen zonder runtime kosten. In tegenstelling tot garbage collection, gebruikt in talen als Java en Go, dat prestatie-overhead introduceert en onvoorspelbare pauzes kan veroorzaken tijdens het uitvoeren van programma's, heeft het systeem van Rust geen enkele impact op de runtime. De andere opties zijn onjuist, omdat Rust het geheugen efficiënter gebruikt (niet meer), niet langzamer draait (het draait sneller zonder runtime controles) en niet meer CPU gebruikt tijdens de uitvoering (het werk wordt gedaan tijdens het compileren).

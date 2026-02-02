@@ -22,7 +22,7 @@ https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 ## 1 - Skapa ett Bitfinex-konto
 
 
-Gå till [den officiella Bitfinex-webbplatsen] (https://www.bitfinex.com/). På hemsidan hittar du och klickar på alternativet "* Registrera dig *" för att börja skapa ditt konto. Först skapar du ett standardkonto som för individer, alternativet "* Företag *" kommer att väljas senare under verifieringsprocessen.
+Gå till [den officiella Bitfinex-webbplatsen](https://www.bitfinex.com/). På hemsidan hittar du och klickar på alternativet "* Registrera dig *" för att börja skapa ditt konto. Först skapar du ett standardkonto som för individer, alternativet "* Företag *" kommer att väljas senare under verifieringsprocessen.
 
 
 ![BITFINEX](assets/fr/01.webp)

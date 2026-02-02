@@ -5,5 +5,5 @@ wrong_answers:
   - 20.999.817,3131 BTC
   - 20.500.000,0000 BTC circa
 explanation: |
-  Pieter Wuille ha calcolato che l'offerta massima teorica è di 20.999.999,9769 BTC, leggermente inferiore ai 21 milioni comunemente citati. Ciò è dovuto allo specifico programma di dimezzamento e all'arrotondamento nel codice del Bitcoin. La cifra di 21 milioni è un'approssimazione arrotondata. La cifra di 21 milioni è un'approssimazione arrotondata. La cifra di 20.999.817,3131 rappresenta la disponibilità effettiva in circolazione dopo aver tenuto conto delle monete perse e degli errori del mining fino a un blocco specifico, non il massimo teorico.
-reviewed: false
+  Pieter Wuille ha calcolato che l'offerta massima teorica è di 20.999.999,9769 BTC, leggermente inferiore ai 21 milioni comunemente citati. Ciò è dovuto allo specifico programma di halving e all'arrotondamento nel codice di Bitcoin. La cifra di 21 milioni è un'approssimazione arrotondata. La cifra di 20.999.817,3131 rappresenta la disponibilità effettiva in circolazione dopo aver tenuto conto delle monete perse e degli errori del mining fino a un blocco specifico, non il massimo teorico.
+reviewed: true

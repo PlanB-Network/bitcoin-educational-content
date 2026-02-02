@@ -1,0 +1,8 @@
+question: Jaký zásadní poznatek o přijetí Lightningu vedl společnost Breez k přechodu od budování jedné mobilní aplikace k vývoji architektury SDK?
+answer: Ekosystém mobilních aplikací neumožňuje snadnou komunikaci mezi aplikacemi, což brání specializovaným aplikacím využívat sdílenou infrastrukturu Lightning
+wrong_answers:
+  - Mobilní zařízení nemají dostatečný výpočetní výkon pro spolehlivý provoz bleskových uzlů a pro správný provoz vyžadují infrastrukturu založenou na cloudu
+  - Dodržování předpisů vyžaduje, aby funkce Lightning byly centralizovány v SDK, nikoli distribuovány v jednotlivých mobilních aplikacích
+  - Průzkum uživatelských zkušeností ukázal, že spotřebitelé dávají přednost správě bleskových plateb prostřednictvím služeb třetích stran před jednotlivými aplikacemi
+explanation: |
+  Správná odpověď identifikuje klíčové architektonické omezení, které bylo objeveno v původní aplikaci Breez: mobilní ekosystémy neumožňují snadnou komunikaci mezi aplikacemi, což nutí vývojáře zabudovávat všechny funkce Lightning do jednotlivých aplikací namísto vytváření specializovaných aplikací, které sdílejí infrastrukturu Lightning. Tento poznatek vedl k přístupu SDK umožňujícímu připojení více aplikací ke stejnému uzlu Lightning. Špatné odpovědi se zaměřují na technická omezení, regulační otázky nebo preference uživatelů, ale ty nebyly základním architektonickým vhledem, který vedl ke strategickému přechodu na model SDK.

@@ -1,0 +1,8 @@
+question: Millist keskkonnamuutujat saab määrata, et kuvada täielik kutsete virna jälg, kui Rust-s tekib paanika?
+answer: RUST_BACKTRACE
+wrong_answers:
+  - RUST_STACKTRACE
+  - RUST_DEBUG_TRACE
+  - RUST_PANIC_TRACE
+explanation: |
+  RUST_BACKTRACE on õige keskkonnamuutuja, mis annab täiendavat silumisalast teavet, näidates kogu paanikani viinud kõnede virna. See aitab arendajatel täpselt jälgida, milline funktsioonikutsete jada põhjustas vea. Teised valikud (RUST_STACKTRACE, RUST_DEBUG_TRACE ja RUST_PANIC_TRACE) ei ole kehtivad Rust keskkonnamuutujad ja need ei anna paanika tekkimisel mingeid silumisväljundeid.

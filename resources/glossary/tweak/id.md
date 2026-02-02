@@ -1,5 +1,6 @@
 ---
-term: TWEAK
+term: Tweak
+definition: Nilai skalar yang ditambahkan ke kunci publik untuk memodifikasinya sambil tetap mempertahankan kegunaannya dengan kunci pribadi asli.
 ---
 
 Dalam kriptografi, untuk "mengubah" atau men-"_tweak_" kunci publik adalah dengan memodifikasinya menggunakan nilai tambahan yang disebut "_tweak_", sehingga kunci tersebut tetap dapat digunakan dengan pengetahuan tentang kunci privat asli dan _tweak_. Secara teknis, _tweak_ adalah sebuah nilai skalar yang ditambahkan ke dalam kunci publik yang asli. Jika $P$ adalah kunci publik dan $t$ adalah _tweak_, maka kunci publik yang di-_tweak_ menjadi :

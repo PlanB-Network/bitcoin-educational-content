@@ -1,0 +1,8 @@
+question: Qual é a vulnerabilidade operacional crítica que emerge do modelo de autorização de co-assinatura da AMP para transferências de activos regulamentadas?
+answer: A liquidez dos activos pára completamente se o servidor AMP ficar indisponível, uma vez que todas as transferências requerem a co-assinatura do servidor
+wrong_answers:
+  - As taxas de transação aumentam exponencialmente quando vários co-signatários tentam autorizar transferências em simultâneo
+  - Confidencial A privacidade das transacções é quebrada porque a co-assinatura expõe factores cegos aos observadores da rede
+  - Os detentores de activos perdem o controlo de custódia, uma vez que o mecanismo de co-assinatura transfere as chaves privadas para o servidor AMP
+explanation: |
+  O modelo de autorização do AMP requer que o servidor AMP assine cada transferência de activos, criando um ponto único de falha. Se o servidor ficar offline, nenhuma transação pode ser concluída, congelando efetivamente toda a liquidez dos activos. As outras opções estão incorrectas: as taxas não aumentam exponencialmente com a co-assinatura, a privacidade da Transação Confidencial permanece intacta (apenas o emissor ganha visibilidade) e os utilizadores mantêm as suas chaves privadas enquanto o servidor apenas fornece assinaturas de autorização.

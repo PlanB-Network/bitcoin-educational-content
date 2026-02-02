@@ -1,11 +1,10 @@
-question: Ni impembo iyihe abacukuzi bo mu mugwi wa Bitcoin bazoronka?
-answer: Bitcoins nshasha n’amahera yo gukoresha.
+question: Ni agashimwe akahe k’abacukuzi mu muhora wa Bitcoin?
+answer: Bitcoins nshasha n’amafaranga akatwa kubikorwa.
 wrong_answers:
-  - Ivyuma bishasha gusa.
+  - Bitcoins nshasha gusa.
   - Amafaranga y’ugucuruza gusa.
-  - Nta mpera y’abacukuzi b’amabuye y’agaciro.
+  - Nta gashimwe k’abacukuzi.
 explanation: |
-  Abacukuzi bo mu murongo wa Bitcoin barahembwa n’ibintu bishasha .
-  bitcoins n'amahera y'ugucuruza kubera igikorwa cabo co kwemeza
-  no kurema amabuye.
+  Abacukuzi bo mu muhora wa Bitcoin bahembwa Bitcoins nshasha n'amafaranga akatwa kubikorwa no kwemeza
+  no kurema block.
 reviewed: true

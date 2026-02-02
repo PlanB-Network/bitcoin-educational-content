@@ -1,11 +1,11 @@
-question: Apa tujuan dari kolam penambangan?
-answer: Kolam penambangan memungkinkan penambang untuk menggabungkan sumber daya komputasi mereka dan menerima hadiah yang lebih kecil namun lebih teratur.
+question: Apa tujuan dari mining pool?
+answer: Mining pool memungkinkan penambang untuk menggabungkan sumber daya komputasi mereka dan menerima imbalan yang lebih kecil tetapi lebih teratur.
 wrong_answers:
-  - Kolam penambangan digunakan untuk meningkatkan HashRate dari jaringan Bitcoin.
-  - Kolam penambangan digunakan untuk menurunkan kesulitan penambangan.
-  - Kolam penambangan digunakan untuk meningkatkan hadiah dari penambangan.
+  - Mining pool digunakan untuk meningkatkan HashRate dari keseluruhan jaringan Bitcoin.
+  - Mining pool digunakan untuk mengurangi kesulitan penambangan.
+  - Mining pool digunakan untuk meningkatkan imbalan penambangan.
 explanation: >-
-  Kolam penambangan adalah kelompok penambang yang menggabungkan kekuatan komputasi mereka
-  untuk meningkatkan peluang mereka dalam menambang sebuah blok. Dengan menggabungkan sumber daya mereka, mereka dapat
-  menambang blok lebih sering dan menerima hadiah yang lebih kecil namun lebih teratur.
-reviewed: false
+  Mining pool adalah kelompok penambang yang menggabungkan daya komputasi mereka
+  untuk meningkatkan peluang mereka menambang blok. Dengan menggabungkan sumber daya mereka, mereka dapat
+  menambang blok lebih sering dan menerima imbalan yang lebih kecil tetapi lebih teratur.
+reviewed: true

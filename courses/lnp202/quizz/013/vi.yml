@@ -1,0 +1,9 @@
+question: Giải pháp nào cho phép bạn chạy một node Lightning thực sự trên điện thoại di động?
+answer: Nút LN nhúng
+wrong_answers:
+  - Sét canh giữ wallet
+  - Trao đổi nguyên tử chớp nhoáng
+  - Các kênh liên kết
+explanation: |
+  Các giải pháp như Phoenix hoặc Zeus Embedded tích hợp trực tiếp một nút Lightning thực sự vào ứng dụng.
+reviewed: false

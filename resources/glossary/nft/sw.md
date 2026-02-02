@@ -1,5 +1,6 @@
 ---
 term: NFT
+definition: Sehemu ya bitcoin inayofasiriwa kama isiyoweza kufananishwa (non-fungible) na kuhusishwa na rasilimali ya nje kupitia itifaki.
 ---
 
 Kifupi cha *Tokeni Isiyo Fungible*. NFT inawakilisha kitengo cha Bitcoin ambacho, na watumiaji wa itifaki ya pili ya Layer, inafasiriwa kama isiyoweza kuvu na inahusishwa na Ownership ya mali ya nje ya Bitcoin, kama vile picha au aina nyingine ya data.

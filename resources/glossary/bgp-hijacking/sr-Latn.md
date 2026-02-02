@@ -1,5 +1,6 @@
 ---
-term: BGP HIJACKING
+term: BGP otmica
+definition: Napad koji manipuliše internet rutiranjem radi preusmeravanja saobraćaja ka zlonamernoj mreži, što se može koristiti za izolaciju Bitcoin čvorova.
 ---
 
 Napad u kojem zlonamerni akter manipuliše BGP oglasima kako bi preusmerio Internet saobraćaj na svoju mrežu. Pretvarajući se da je legitimni izvor određenih IP Address opsega, napadač može presresti, nadgledati ili blokirati saobraćaj namenjen tim adresama.

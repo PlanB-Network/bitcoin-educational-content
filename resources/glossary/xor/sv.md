@@ -1,5 +1,6 @@
 ---
 term: XOR
+definition: Grundläggande boolesk logisk operation inom kryptografi som ger sant endast när de två operanderna skiljer sig åt.
 ---
 
 Akronym för operationen "Exklusivt eller", på franska "Ou exclusif" Det är en grundläggande funktion i boolesk logik. Denna operation tar två booleska operander, var och en är $sann$ eller $falsk$, och producerar en $sann$ utdata endast när de två operanderna skiljer sig åt. Med andra ord är resultatet av XOR-operationen $sant$ om exakt en (men inte båda) av operanderna är $sant$. Till exempel kommer XOR-operationen mellan $1$ och $0$ att resultera i $1$. Vi noterar:

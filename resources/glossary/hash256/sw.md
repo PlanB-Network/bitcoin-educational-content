@@ -1,5 +1,6 @@
 ---
 term: HASH256
+definition: Kazi inayotumia SHA256 mara mbili mtawalia, inayotumika katika programu mbalimbali za Bitcoin.
 ---
 
 Kitendaji cha kriptografia kinachotumika kwa programu mbali mbali kwenye Bitcoin. Inajumuisha kutumia kazi ya SHA256 mara mbili kwenye data ya ingizo. Ujumbe hupitishwa kupitia SHA256 mara moja, na matokeo ya operesheni hii hutumiwa kama ingizo la kupita kwa pili kupitia SHA256. Matokeo ya chaguo hili la kukokotoa ni biti 256.

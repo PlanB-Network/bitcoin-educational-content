@@ -1,0 +1,8 @@
+question: Seorang pengembang ingin menguji penerbitan aset di Elements tanpa ketergantungan eksternal atau menunggu konfirmasi blok - konfigurasi mana yang harus mereka gunakan?
+answer: Setel chain=elementsregtest untuk membuat lingkungan pengujian lokal dengan pembuatan blok instan
+wrong_answers:
+  - Tetapkan chain=liquidv1 untuk menyambung ke jaringan Liquid utama untuk pengujian langsung
+  - Gunakan perintah issueasset RPC dengan flag --testmode untuk pengembangan terisolasi
+  - "Konfigurasikan chain=bitcoin-regtest untuk mengakses fitur Elements di lingkungan pengujian Bitcoin"
+explanation: |
+  Konfigurasi elementsregtest menciptakan lingkungan pengujian regresi lokal di mana pengembang dapat membuat blok generate secara instan menggunakan perintah seperti generateblock, yang memungkinkan mereka untuk menguji penerbitan aset dan fitur lainnya tanpa menunggu konfirmasi jaringan atau bergantung pada node eksternal. Pengaturan chain=liquidv1 menghubungkan ke jaringan Liquid produksi yang memiliki waktu blok 1 menit dan ketergantungan eksternal. Perintah issueasset tidak memiliki flag --testmode, dan bitcoin-regtest adalah untuk Bitcoin Core, bukan fungsionalitas Elements.

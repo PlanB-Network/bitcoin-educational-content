@@ -1,5 +1,6 @@
 ---
 term: OP_TUCK (0X7D)
+definition: Opcode copying the top of the stack and inserting it in the third position.
 ---
 
 Copies the item at the top of the stack and inserts it between the second and third items of the stack. For example, if the stack is:

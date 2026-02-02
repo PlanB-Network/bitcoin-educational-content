@@ -165,7 +165,7 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-Visitar [o sítio Web oficial da Debifi] (https://debifi.com/app).
+Visitar [o sítio Web oficial da Debifi](https://debifi.com/app).
 
 
 
@@ -287,7 +287,7 @@ Uma vez concluídas estas etapas, clique no menu **Ofertas** para ver as ofertas
 
 
 
-Quando o seu dispositivo estiver ligado, aceda ao [sítio Web da Debifi] (https://debifi.com/). Inicie sessão para estabelecer uma ligação segura entre a aplicação móvel Debifi e a plataforma web. Desta forma, é mais fácil interagir com as ofertas de crédito disponíveis (uma visão clara dos detalhes de cada oferta) e gerir a sua conta.
+Quando o seu dispositivo estiver ligado, aceda ao [sítio Web da Debifi](https://debifi.com/). Inicie sessão para estabelecer uma ligação segura entre a aplicação móvel Debifi e a plataforma web. Desta forma, é mais fácil interagir com as ofertas de crédito disponíveis (uma visão clara dos detalhes de cada oferta) e gerir a sua conta.
 
 
 

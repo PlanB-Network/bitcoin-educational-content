@@ -1,0 +1,8 @@
+question: Mis juhtub aritmeetiliste operatsioonidega, kui elliptilised kõverad on defineeritud reaalarvude asemel piiratud väljadel?
+answer: Kõik operatsioonid kasutavad modulaararitmeetikat, säilitades samasugused algebralised reeglid
+wrong_answers:
+  - Punktide liitmisvalemid tuleb diskreetse matemaatika jaoks täielikult ümber kirjutada
+  - Punkti diskreetse iseloomu tõttu muutuvad kalde arvutused ebamääraseks
+  - Kõik algebralised reeglid muutuvad põhjalikult, et võtta arvesse piiratud valdkonna struktuuri
+explanation: |
+  Kui elliptilised kõverad viiakse reaalarvudest üle piiratud väljadele, jäävad aluseks olev algebraline struktuur ja reeglid samaks - ainult aritmeetika muutub modulaararitmikaks. Kõik punktide liitmisvalemid, kalde arvutused ja geomeetrilised seosed toimivad täpselt samamoodi, kuid kõik arvutused tehakse modulo p. Selline algebraliste reeglite säilitamine, muutes samal ajal ainult aritmeetilist alust, teeb lõpliku valdkonna elliptilised kõverad krüptograafias nii võimsaks, säilitades kõik vajalikud matemaatilised omadused ja luues samal ajal turvalisuse jaoks olulise diskreetse, ettearvamatu käitumise.

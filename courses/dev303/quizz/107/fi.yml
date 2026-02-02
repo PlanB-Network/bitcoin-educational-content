@@ -1,0 +1,8 @@
+question: Minkä kriittisen ominaisuuden ansiosta LDK voi ylläpitää Lightning-toiminnallisuutta mobiililompakoissa, joiden yhteys on katkonainen, verrattuna perinteisiin daemon-pohjaisiin Lightning-solmuihin?
+answer: LDK:n kyky synkronoitua Lightning-palveluntarjoajien (LSP) kanssa, kun se tulee verkkoon, säilyttäen samalla yksityisen avaimen hallinnan, jota ei ole säilytetty
+wrong_answers:
+  - "LDK:n sisäänrakennettu offline-maksujen käsittelyjärjestelmä, joka asettaa tapahtumat jonoon, kunnes verkkoyhteys palautuu"
+  - "LDK:n hajautettu kanavatilan varmuuskopiointijärjestelmä, joka replikoi tiedot automaattisesti useiden pilvipalveluntarjoajien välillä"
+  - "LDK:n vertaisverkkoprotokolla, joka mahdollistaa suorat laitteiden väliset salamamaksut ilman internetiä"
+explanation: |
+  LDK:n modulaarisen arkkitehtuurin ansiosta mobiilisovellukset voivat toteuttaa ajoittaisia yhteysmalleja synkronoimalla LSP:t verkkoon tullessaan, jolloin käyttäjät voivat vastaanottaa maksuja ja hallita kanavia myös silloin, kun mobiililaite oli offline-tilassa. Tämä eroaa olennaisesti perinteisistä Lightning-demoneista, jotka vaativat jatkuvaa toimintaa. Väärät vastaukset kuvaavat olemattomia ominaisuuksia - LDK:ssa ei ole sisäänrakennettua offline-maksujen käsittelyä, hajautettuja varmuuskopioita tai mesh-verkko-ominaisuuksia.

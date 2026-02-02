@@ -1,0 +1,8 @@
+question: Qual é o principal objetivo da declaração do espaço de nomes num ficheiro UDL UniFFI?
+answer: Fornecer um contentor para funções que podem ser chamadas diretamente sem necessidade de instanciação de objectos
+wrong_answers:
+  - Para definir a estrutura do pacote e as dependências de importação para os language bindings gerados
+  - Para especificar as linguagens de programação alvo que irão consumir a biblioteca Rust através da UniFFI
+  - Estabelecer a estratégia de gestão da memória para as operações de tratamento de dados entre linguagens
+explanation: |
+  O espaço de nomes na UDL do UniFFI serve como um contentor para funções autónomas que podem ser invocadas diretamente sem criar objectos primeiro. Estas funções do espaço de nomes tratam normalmente de operações simples que recebem valores como parâmetros e devolvem resultados. As outras opções estão incorrectas porque: a estrutura de pacotes e as importações são tratadas automaticamente pelo processo de geração de ligações, as linguagens de destino são especificadas durante o processo de construção e não no ficheiro UDL e a gestão da memória é tratada de forma transparente pela camada de tempo de execução do UniFFI, em vez de ser explicitamente declarada em espaços de nomes.

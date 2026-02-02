@@ -1,0 +1,8 @@
+question: Co uniemożliwia użytkownikom tworzenie pieniędzy z powietrza w systemie Elements' Confidential Transactions?
+answer: Dowody zakresowe, które matematycznie udowadniają, że ukryte wartości są dodatnimi liczbami całkowitymi w prawidłowych zakresach
+wrong_answers:
+  - Zobowiązania Pedersena, które kryptograficznie wiążą kwoty transakcji z kluczami publicznymi
+  - Weryfikacja rejestru aktywów, która sprawdza wszystkie kwoty transakcji pod kątem zarejestrowanych limitów aktywów
+  - Sfederowane węzły konsensusu, które odszyfrowują i weryfikują wszystkie poufne kwoty transakcji
+explanation: |
+  Range Proofs to specyficzny mechanizm kryptograficzny, który uniemożliwia użytkownikom wykorzystywanie poufnego systemu transakcji poprzez używanie liczb ujemnych lub nieprawidłowych kwot do tworzenia pieniędzy z niczego. Podczas gdy Pedersen Commitments ukrywają rzeczywiste kwoty, Range Proofs zapewniają matematyczną integralność poprzez udowodnienie, że ukryte wartości mieszczą się w legalnych zakresach. Rejestr aktywów mapuje jedynie identyfikatory aktywów na nazwy czytelne dla człowieka i nie weryfikuje kwot, a węzły federacyjne nie odszyfrowują poufnych transakcji - weryfikują je bez wglądu w rzeczywiste wartości.

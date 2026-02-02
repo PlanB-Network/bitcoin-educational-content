@@ -1,0 +1,8 @@
+question: Ni igiki kiba ku nkuru y'imiterere y'umwimerere iyo ukoresheje insiguro y'imiterere n'ubwoko butagira Kopi?
+answer: Imyanya ikopiwe ntishobora gukoreshwa mu ntango kubera insobanuro yo kwimura
+wrong_answers:
+  - Inkuru y'intango iguma itahindutse kandi irashikira
+  - Inkuru yose y'umwimerere irakozwe, igasiga izo nkuru zompi zikora neza
+  - Imyanya yonyene wahinduye mu buryo butomoye nivyo bidashobora gushikwako mu ntango
+explanation: |
+  Igihe ukoresha struct update syntax n'ubwoko butagira Kopi, uburyo bw'ubutunzi bwa Rust bwimura ivyicaro vyakopiwe kuva ku nkuru y'intango bikaja ku nshasha. Ibi bisigura ko izo nzira zidakoreshwa mu ntango, naho izo nzira zitakopiwe ziguma zishobora gukoreshwa. Ico gikoresho gikurikirana izo nzira z’ibice mu buryo bw’ubwenge, kikabuza umuntu gushika ku bibanza vyimukiye mu gihe kireka gukomeza gukoresha ivyimburwa bitahinduwe. Iyi nyifato ituma ubwonko bugira umutekano mu kubuza abantu benshi bafise amakuru amwe.

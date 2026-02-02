@@ -1,0 +1,9 @@
+question: คำสั่งใดแสดงเส้นทางที่แพ็กเก็ตใช้ไปยังปลายทาง IP?
+answer: traceroute
+wrong_answers:
+  - ss
+  - arp
+  - tcpdump
+explanation: |
+  traceroute แสดงเราเตอร์ระหว่างทางแต่ละตัวระหว่างผู้ส่งและเป้าหมาย โดยใช้ TTL.
+reviewed: false

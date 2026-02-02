@@ -11,7 +11,7 @@ objectives:
 
 Mitä tarvitaan Bitcoinin päälle rakentamiseen? Tämä 20 tunnin kurssi vie sinut Bitcoinin ja Lightning Networkin pinnan alle, tutkien protokollia, jotka voimistavat maailman kestävintä rahoitusinfrastruktuuria. Olitpa sitten kiinnostunut osallistumaan avoimen lähdekoodin projekteihin tai rakentamaan seuraavan sukupolven Bitcoin-sovelluksia, saat teknisen syvyyden, jota tarvitset työskennelläksesi luottavaisesti tässä ekosysteemissä.
 
-Tallennettu CUBO+ 2023 bootcampin aikana El Salvadorissa, tämä kurssi kokoaa yhteen johtavien Bitcoin-kehittäjien ja kouluttajien näkökulmat, jotka ovat muovanneet teknologiaa. Paras osa? Se on täysin ilmainen, mahdollistettu Fulgure Venturen, Bitcoin Officen ja DecouvreBitcoinin toimesta. Jos olet ollut utelias siitä, miten Bitcoin todella toimii protokollatasolla, tämä on tilaisuutesi selvittää se.
+Tallennettu CUBO+ 2023 bootcampin aikana El Salvadorissa, tämä kurssi kokoaa yhteen johtavien Bitcoin-kehittäjien ja kouluttajien näkökulmat, jotka ovat muovanneet teknologiaa. Paras osa? Se on täysin ilmainen, mahdollistettu Fulgure Venturesn, Bitcoin Officen ja DecouvreBitcoinin toimesta. Jos olet ollut utelias siitä, miten Bitcoin todella toimii protokollatasolla, tämä on tilaisuutesi selvittää se.
 +++
 # Johdanto ja valmistavat kurssit
 
@@ -59,7 +59,7 @@ Kurssin aikana osallistujat hyödyntävät keskeisiä työkaluja, jotka auttavat
 
 :::video id=ff820fb2-83d4-450f-bda0-17cc5044a902:::
 
-Tervetuloa **Cubo Plus** -koulutusohjelman ensimmäiselle luennolle. Tänään sukellamme Bitcoin:n maailmaan Rickyn, **Bitcoin Italia Podcastin** perustajan, johdolla. Ricky on intohimoinen ihmisoikeusaktivisti, joka käyttää Bitcoin:ta välineenä ihmisoikeuksien suojelemiseksi ja edistämiseksi. Yli kuuden vuoden kokemuksella Ricky on matkustanut paljon ja dokumentoinut Bitcoin:n käyttöönottoa kehittyvillä markkinoilla, kuten El Salvadorissa ja Guatemalassa. Hänen työnsä on muutakin kuin podcastia; hän on aktiivinen myös YouTubessa (**Bitcoin Explorers**) ja Twitterissä (**BTC Explorer**, **Ricky6**). Rickyn Commitment:n ja Bitcoin:n välinen suhde johtuu hänen vakaumuksestaan, että se tarjoaa taloudellista vapautta ja yksityisyyttä ja haastaa perinteiset, keskitetyt pankkijärjestelmät.
+Tervetuloa **Cubo Plus** -koulutusohjelman ensimmäiselle luennolle. Tänään sukellamme Bitcoin:n maailmaan Rikkin, **Bitcoin Italia Podcastin** perustajan, johdolla. Rikki on intohimoinen ihmisoikeusaktivisti, joka käyttää Bitcoin:ta välineenä ihmisoikeuksien suojelemiseksi ja edistämiseksi. Yli kuuden vuoden kokemuksella Rikki on matkustanut paljon ja dokumentoinut Bitcoin:n käyttöönottoa kehittyvillä markkinoilla, kuten El Salvadorissa ja Guatemalassa. Hänen työnsä on muutakin kuin podcastia; hän on aktiivinen myös YouTubessa (**Bitcoin Explorers**) ja Twitterissä (**BTC Explorer**, **Rikki6**). Rikkin Commitment:n ja Bitcoin:n välinen suhde johtuu hänen vakaumuksestaan, että se tarjoaa taloudellista vapautta ja yksityisyyttä ja haastaa perinteiset, keskitetyt pankkijärjestelmät.
 
 
 ![Unbanked Population](assets/en/001.webp)
@@ -81,10 +81,10 @@ Tämä luento, **"Miksi El Salvador tarvitsee Bitcoin:n "**, tarjoaa yleiskatsau
 - _Rahoitusmarkkinoille osallistaminen:_ Rahoituspalvelujen tarjoaminen ihmisille, jotka ovat jääneet perinteisten pankkijärjestelmien ulkopuolelle ja joihin usein viitataan nimellä "ilman pankkitoimintaa"
 - _ Sensuroimaton raha:_ Raha, jota hallitukset tai rahoituslaitokset eivät voi valvoa tai rajoittaa.
 
-#### Rickyn tausta ja Bitcoin:n puolustaminen
+#### Rikkin tausta ja Bitcoin:n puolustaminen
 
 
-Rickyn matka Bitcoin:een juontaa juurensa hänen työhönsä ihmisoikeuksien puolustajana. Hän uskoo, että Bitcoin voi antaa yksilöille mahdollisuuden hallita raha-asioitaan, jolloin he voivat suojella yksityisyyttään ja välttää keskitettyjen pankkien rajoitukset. Hänen tutkimuksensa Bitcoin:n käyttöönotosta El Salvadorin kaltaisissa paikoissa korostaa, miten tämä teknologia voi antaa kehittyvien markkinoiden ihmisille mahdollisuuden saavuttaa taloudellinen riippumattomuus.
+Rikkin matka Bitcoin:een juontaa juurensa hänen työhönsä ihmisoikeuksien puolustajana. Hän uskoo, että Bitcoin voi antaa yksilöille mahdollisuuden hallita raha-asioitaan, jolloin he voivat suojella yksityisyyttään ja välttää keskitettyjen pankkien rajoitukset. Hänen tutkimuksensa Bitcoin:n käyttöönotosta El Salvadorin kaltaisissa paikoissa korostaa, miten tämä teknologia voi antaa kehittyvien markkinoiden ihmisille mahdollisuuden saavuttaa taloudellinen riippumattomuus.
 
 
 ### Bitcoin:n maailmanlaajuinen merkitys ja haasteet

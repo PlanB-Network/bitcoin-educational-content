@@ -737,7 +737,7 @@ Sateenvarjosi on nyt käyttövalmis. Osallistut aktiivisesti Bitcoin-verkkoon ja
 
 
 
-- [Bitcoin Core] (https://Bitcoin.org/fr/)
+- [Bitcoin Core](https://Bitcoin.org/fr/)
 - [Electrs](https://github.com/romanz/electrs)
 - [Mempool](https://Mempool.space)
 - [Varpunen Wallet](https://sparrowwallet.com)

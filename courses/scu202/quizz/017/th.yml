@@ -1,0 +1,9 @@
+question: การแจกจ่ายใดที่ถือว่าเก่าแก่ที่สุดที่ยังคงได้รับการดูแลรักษา?
+answer: Slackware
+wrong_answers:
+  - Fedora
+  - เจนทู
+  - Manjaro
+explanation: |
+  Slackware, สร้างขึ้นในปี 1993 โดย Patrick Volkerding, เป็นการแจกจ่าย Linux ที่เก่าแก่ที่สุดที่ยังคงใช้งานอยู่ในปัจจุบัน
+reviewed: false

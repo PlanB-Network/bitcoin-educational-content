@@ -247,7 +247,7 @@ Anda akan segera melihat area berwarna oranye. Seperti yang Anda lihat, ini adal
 
 
 
-BTC Map memungkinkan Anda untuk [menambahkan komunitas Anda sendiri] (https://btcmap.org/communities/add/), mari kita lihat langkah demi langkah:
+BTC Map memungkinkan Anda untuk [menambahkan komunitas Anda sendiri](https://btcmap.org/communities/add/), mari kita lihat langkah demi langkah:
 
 
 
@@ -274,7 +274,7 @@ BTC Map memungkinkan Anda untuk [menambahkan komunitas Anda sendiri] (https://bt
 
 
 
-[Halaman ini] (https://btcmap.org/add-location/) menunjukkan kepada Anda bagaimana cara menambahkan daftar properti yang sesuai dengan Bitcoin secara mandiri, dengan menggunakan Open Street Map. Jika Anda mengalami kesulitan, ada formulir yang dapat Anda isi, sehingga orang lain dapat membuatkan daftar untuk Anda (ini dapat memakan waktu beberapa minggu). Mari kita lihat:
+[Halaman ini](https://btcmap.org/add-location/) menunjukkan kepada Anda bagaimana cara menambahkan daftar properti yang sesuai dengan Bitcoin secara mandiri, dengan menggunakan Open Street Map. Jika Anda mengalami kesulitan, ada formulir yang dapat Anda isi, sehingga orang lain dapat membuatkan daftar untuk Anda (ini dapat memakan waktu beberapa minggu). Mari kita lihat:
 
 
 

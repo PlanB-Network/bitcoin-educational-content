@@ -61,7 +61,7 @@ Ehe icateye ubwoba abakoresha benshi: Gushinga Blink biranyaruka kuruta gukora k
 
 
 - Gukuraho Blink Wallet
- - Rondera “Blink Wallet” ku [Iduka ry’Iporogarama] (iOS), [Iduka rya Google] (Iduka ry’Iporogarama) (Iduka ry’Iporogarama) [Igikoresho ca porogarama] (Huawei), bivanye n’igikoresho cawe.
+ - Rondera “Blink Wallet” ku [Iduka ry’Iporogarama](iOS), [Iduka rya Google](Iduka ry’Iporogarama) (Iduka ry’Iporogarama) [Igikoresho ca porogarama](Huawei), bivanye n’igikoresho cawe.
  - Ushobora kandi kuyikura ku rubuga rwa [Blink Wallet](https://blink.sv).
 - Rema Wallet
  - Kanda kuri “Rema Wallet nshasha”

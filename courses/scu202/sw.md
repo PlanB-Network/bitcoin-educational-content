@@ -6332,7 +6332,7 @@ Lengo ni rahisi: kuzuia tukio linalohusisha shughuli mahususi (kama vile kuvuja 
 
 
 
-- Tumia vyombo vilivyojengewa ndani: Firefox inatoa kiendelezi cha [Vyombo vya Akaunti nyingi] (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), ambayo hukuwezesha kufungua vichupo tofauti, kila kimoja kikiwa na kuingia na vidakuzi vyake. Unaweza pia kukabidhi tovuti fulani kiotomatiki kwa kontena mahususi, ili kuzitenganisha kila zinapofunguliwa.
+- Tumia vyombo vilivyojengewa ndani: Firefox inatoa kiendelezi cha [Vyombo vya Akaunti nyingi](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), ambayo hukuwezesha kufungua vichupo tofauti, kila kimoja kikiwa na kuingia na vidakuzi vyake. Unaweza pia kukabidhi tovuti fulani kiotomatiki kwa kontena mahususi, ili kuzitenganisha kila zinapofunguliwa.
 
 
 

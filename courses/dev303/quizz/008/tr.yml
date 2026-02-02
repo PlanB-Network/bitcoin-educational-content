@@ -1,0 +1,8 @@
+question: Rustup kullanarak Rust'ı kurarken hangi güvenlik hususlarına dikkat etmelisiniz?
+answer: Kurulum, HTTPS kullanmasına ve resmi güvenilir kaynaklardan gelmesine rağmen bir komut dosyasının indirilmesini ve çalıştırılmasını içerir
+wrong_answers:
+  - Kurulum, potansiyel sistem güvenlik açıkları yaratan yönetici ayrıcalıkları gerektirir
+  - Kararlı araç zinciri, keşfedilmemiş güvenlik açıklarına sahip olabilecek deneysel özellikler içerir
+  - Yükleme işlemi, potansiyel olarak güvenli olmayan mimariler de dahil olmak üzere tüm derleme hedeflerini otomatik olarak etkinleştirir
+explanation: |
+  Rustup'ı kurarken, resmi Rust web sitesinden bir komut dosyası indirir ve çalıştırırsınız. Bu, taşıma katmanı güvenliği için HTTPS kullanır ve paketler crates.io gibi güvenilir kaynaklardan gelir. Bu, çoğu kullanım durumu için güvenli olsa da, sıkı güvenlik politikalarına sahip bazı kuruluşlar, dağıtımın kendi imzalama altyapısını ekleyen dağıtımlarının paket yöneticisini tercih edebilir. Diğer seçenekler yanlıştır: Rustup, yönetici ayrıcalıkları gerektirmeden kullanıcının ev dizinine yüklenir, kararlı araç zinciri özellikle deneysel özellikleri hariç tutar ve derleme hedefleri ayrı olarak eklenir ve doğal güvenlik riskleri oluşturmaz.

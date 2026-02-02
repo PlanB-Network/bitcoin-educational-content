@@ -14,7 +14,7 @@ En este tutorial, descubrimos Aurora Store, una alternativa sencilla, de código
 
 
 
-# Primeros pasos con Aurora Store
+## Primeros pasos con Aurora Store
 
 
 
@@ -88,7 +88,7 @@ Desde Aurora Store, puede acceder al catálogo de aplicaciones disponibles en Go
 
 
 
-## Características
+### Características
 
 
 

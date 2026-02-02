@@ -1,0 +1,8 @@
+question: Jaki jest element tożsamości w grupie krzywych eliptycznych używany do operacji dodawania punktów?
+answer: Punkt w nieskończoności
+wrong_answers:
+  - Punkt początkowy (0,0)
+  - Punkt generatora G
+  - Parametr krzywej a
+explanation: |
+  Punkt w nieskończoności służy jako element tożsamości w grupach krzywych eliptycznych, co oznacza, że dodanie dowolnego punktu P do punktu w nieskończoności zwraca P bez zmian. Jest to analogiczne do dodawania zera w zwykłej arytmetyce. Punkt początkowy (0,0) niekoniecznie znajduje się na krzywej, punkt generatora G jest używany do tworzenia kluczy publicznych, a parametr krzywej a jest tylko współczynnikiem w równaniu krzywej, a nie elementem tożsamości.

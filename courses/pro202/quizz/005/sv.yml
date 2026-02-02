@@ -1,0 +1,8 @@
+question: Vilken matematisk egenskap säkerställer att varje element som inte är noll i ett primtalsfält F(p) har en multiplikativ invers?
+answer: Fältet definieras av ett primtal p
+wrong_answers:
+  - Fältet innehåller exakt p-1 element
+  - Fältet använder modulära aritmetiska operationer
+  - Fältet stöder addition och multiplikation
+explanation: |
+  Ett ändligt fält F(p) måste definieras av ett primtal p för att säkerställa att varje element som inte är noll har en multiplikativ invers. Detta är ett grundläggande krav inom fältteorin - när p är ett primtal bildar heltalen modulo p ett fält där division alltid är möjlig (utom med noll). Om p var sammansatt skulle vissa element som inte är noll inte ha inverser, vilket skulle bryta fältstrukturen. De andra alternativen beskriver egenskaper hos finita fält, men endast primaliteten hos p garanterar att det finns multiplikativa inverser för alla element som inte är nollor.

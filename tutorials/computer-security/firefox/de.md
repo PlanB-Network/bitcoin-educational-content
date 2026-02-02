@@ -627,7 +627,7 @@ https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 - [Wiki und Installationsanleitung](https://github.com/arkenfox/user.js/wiki): Vollständige Arkenfox-Projektdokumentation
-- [Hinterlegung und Freigaben] (https://github.com/arkenfox/user.js): Datei user.js herunterladen und Aktualisierungen verfolgen
+- [Hinterlegung und Freigaben](https://github.com/arkenfox/user.js): Datei user.js herunterladen und Aktualisierungen verfolgen
 
 
 
@@ -647,7 +647,7 @@ https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 
-- [Cover Your Tracks (EFF)] (https://coveryourtracks.eff.org/): Digitale Fingerabdrücke und wirksamer Schutz vor Verfolgung
+- [Cover Your Tracks (EFF)](https://coveryourtracks.eff.org/): Digitale Fingerabdrücke und wirksamer Schutz vor Verfolgung
 - [DNS-Leck-Test](https://www.dnsleaktest.com/): DNS-Lecktest und DoH-Effizienz
 - [BrowserLeaks](https://browserleaks.com/): Vollständige Test-Suite (WebRTC, Canvas, Schriftarten, etc.)
 - [BadSSL](https://badssl.com/): SSL/TLS-Zertifikat-Validierungstests

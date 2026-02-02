@@ -122,7 +122,7 @@ Ga terug naar [de officiële Ashigaru website](https://ashigaru.rs/download/) in
 
 
 
-Open nog steeds op je telefoon een nieuw tabblad in Tor Browser en ga naar [de Keybase verificatietool] (https://keybase.io/verify). Plak het bericht dat je zojuist hebt gekopieerd in het daarvoor bestemde veld en klik dan op de `Verifieer` knop.
+Open nog steeds op je telefoon een nieuw tabblad in Tor Browser en ga naar [de Keybase verificatietool](https://keybase.io/verify). Plak het bericht dat je zojuist hebt gekopieerd in het daarvoor bestemde veld en klik dan op de `Verifieer` knop.
 
 
 
@@ -142,7 +142,7 @@ Als er in dit stadium echter een foutmelding verschijnt, betekent dit dat de han
 
 
 
-Keybase heeft je de hash van de applicatie gegeven. We zullen nu controleren of de hash van het `.apk` bestand dat je hebt gedownload overeenkomt met de hash die is geverifieerd op Keybase. Ga hiervoor naar [HASH FILE ONLINE] (https://hash-file.online/).
+Keybase heeft je de hash van de applicatie gegeven. We zullen nu controleren of de hash van het `.apk` bestand dat je hebt gedownload overeenkomt met de hash die is geverifieerd op Keybase. Ga hiervoor naar [HASH FILE ONLINE](https://hash-file.online/).
 
 
 

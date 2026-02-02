@@ -1,0 +1,8 @@
+question: Lý do chính khiến các câu đố dựa vào kịch bản chỉ sử dụng dữ liệu công khai mà không kiểm tra chữ ký lại dễ bị tấn công trong Bitcoin là gì?
+answer: Thợ đào có thể sao chép giải pháp từ mempool và chuyển hướng khoản thanh toán về cho mình.
+wrong_answers:
+  - Việc thực thi kịch bản trở nên không xác định trên các nút mạng khác nhau.
+  - Thời gian xác thực giao dịch tăng theo bình phương độ phức tạp của câu đố
+  - Mô hình thực thi dựa trên ngăn xếp không thể xử lý các phép toán phức tạp một cách an toàn.
+explanation: |
+  Các câu đố dựa trên mã lệnh chỉ sử dụng dữ liệu công khai (như bài toán toán học hoặc tìm ảnh ngược của hàm băm) mà không có kiểm tra chữ ký rất dễ bị tấn công bởi người khai thác trước. Khi một lời giải hợp lệ xuất hiện trong mempool, bất kỳ người khai thác nào cũng có thể quan sát, sao chép lời giải và tạo giao dịch riêng của họ để chuyển hướng khoản thanh toán đến địa chỉ của họ. Đó là lý do tại sao các hợp đồng Bitcoin trong thực tế hầu như luôn bao gồm kiểm tra chữ ký - chữ ký ràng buộc lời giải với một bên cụ thể và ngăn người khác đánh cắp khoản thanh toán, duy trì động lực phù hợp cho người giải câu đố.

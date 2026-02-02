@@ -1,18 +1,20 @@
 ---
-term: ANONSET (HIMPUNAN ANONIMITAS)
+term: Anonsets (anonymity sets)
 
+definition: Indikator yang mengukur tingkat privasi UTXO dengan menghitung jumlah UTXO yang tidak dapat dibedakan dalam satu set, biasanya setelah coinjoin.
 ---
-_Anonset_ berfungsi sebagai indikator untuk menilai tingkat privasi dari UTXO tertentu. Mereka mengukur jumlah UTXO yang tidak dapat dibedakan di dalam himpunan yang mencakup koin yang sedang dianalisis. Karena melibatkan sekelompok UTXO yang identik, _anonset_ biasanya dihitung dalam siklus _Coinjoin_. _Anonset_ memungkinkan, jika diperlukan, untuk menilai efektivitas _Coinjoin_. _Anonset_ yang besar berarti tingkat anonimitas yang besar, karena sulit untuk membedakan UTXO tertentu di dalam himpunan. Ada dua jenis _anonset_:
+Anonsets berfungsi sebagai indikator untuk menilai tingkat privasi dari suatu UTXO tertentu. Secara lebih spesifik, anonsets mengukur jumlah UTXO yang tidak dapat dibedakan dalam himpunan yang mencakup koin yang sedang dikaji. Karena diperlukan sekumpulan UTXO yang identik, anonsets umumnya dihitung dalam satu siklus coinjoins. Hal ini memungkinkan, jika diperlukan, untuk menilai kualitas coinjoins. Anonset yang berukuran besar menunjukkan tingkat anonimitas yang lebih tinggi, karena menjadi sulit untuk membedakan satu UTXO tertentu di dalam himpunan tersebut.
 
-- Himpunan anonimitas prospektif;
-- Himpunan anonimitas retrospektif.
+Terdapat dua jenis anonset: forward anonset (forward-looking metrics); dan backward anonset (backward-looking metrics). Istilah "*score*" juga terkadang digunakan untuk merujuk pada anonset.
 
-Himpunan anonimitas prospektif menunjukkan ukuran himpunan di mana UTXO yang dipelajari disembunyikan, dengan mengetahui UTXO pada input. Indikator ini memungkinkan untuk mengukur ketahanan privasi koin terhadap analisis dari masa lalu ke masa sekarang (input ke output). Dalam bahasa Inggris, nama indikator ini adalah "*forward anonset*," atau "*forward-looking metrics*."
+Yang pertama menunjukkan ukuran kelompok tempat UTXO keluaran yang diteliti bersembunyi, dengan mengetahui UTXO masukan. Indikator ini memungkinkan pengukuran ketahanan privasi koin terhadap analisis dari masa lalu ke masa kini (masukan ke keluaran). Yang kedua menunjukkan jumlah sumber yang mungkin untuk suatu koin tertentu, dengan mengetahui UTXO keluaran. Indikator ini memungkinkan pengukuran ketahanan privasi koin terhadap analisis dari masa kini ke masa lalu (keluaran ke masukan).
 
-![](../../dictionnaire/assets/39.webp)
 
-Himpunan anonimitas retrospektif menunjukkan jumlah kemungkianan asal suatu UTXO, dengan mengetahui UTXO pada output. Indikator ini memungkinkan untuk mengukur ketahanan privasi koin terhadap analisis dari masa kini ke masa lalu (output ke input). Dalam bahasa Inggris, nama indikator ini adalah "*backward anonset*," atau "*backward-looking metrics*."
 
-![](../../dictionnaire/assets/40.webp)
 
-> ► *Dalam bahasa Inggris, istilah "score" juga terkadang digunakan untuk merujuk pada anonset ("_prospective score_" dan "_retrospective score_")*
+
+
+
+
+
+

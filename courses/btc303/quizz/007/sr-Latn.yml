@@ -1,9 +1,12 @@
-question: Na šta se odnosi decentralizacija full node u Bitcoin?
-answer: Validacija blokova se vrši na ivici mreže od strane korisnika, a ne od strane pouzdanih autoriteta.
+question: Na šta se odnosi decentralizacija full node-a u Bitcoinu?
+answer: Validacija blokova se vrši na ivici mreže od strane korisnika, a ne od strane pouzdanih autoriteta
 wrong_answers:
-  - Obrada transakcija je raspoređena među više mining grupa umesto jedne jedinice
-  - Pravila protokola Bitcoin donosi distribuirana grupa glavnih programera.
-  - Privatni ključevi su pohranjeni na više uređaja umesto na jednom wallet
+  - Obrada transakcija je raspoređena među više rudarskih grupa umesto jedne jedinice
+  - Pravila Bitcoin protokola donosi distribuirana grupa glavnih programera
+  - Privatni ključevi su pohranjeni na više uređaja umesto na jednom novčaniku
 explanation: |
-  Decentralizacija Full node znači da se validacija blokova (podataka koje rudari proizvode) dešava na ivici mreže od strane individualnih korisnika koji pokreću svoje čvorove, umesto da se oslanja na nekoliko pouzdanih autoriteta za verifikaciju transakcija. Ovo je različito od decentralizacije rudara, koja se bavi redosledom i obradom transakcija. Druge opcije mešaju decentralizaciju full node sa distribucijom mining, strukturama upravljanja ili bezbednosnim praksama, ali nijedna ne obuhvata suštinski koncept distribuirane validacije blokova od strane učesnika mreže.
-reviewed: false
+  Decentralizacija full node znači da se validacija blokova (podataka koje rudari proizvode) dešava na ivici mreže od strane individualnih korisnika koji
+  pokreću svoje čvorove, umesto da se oslanja na nekoliko pouzdanih autoriteta za verifikaciju transakcija. Ovo je različito od decentralizacije rudara, 
+  koja se bavi redosledom i obradom transakcija. Druge opcije mešaju decentralizaciju full node sa distribucijom rudarenja, strukturama upravljanja ili 
+  bezbednosnim praksama, ali nijedna ne obuhvata suštinski koncept distribuirane validacije blokova od strane učesnika mreže.
+reviewed: true

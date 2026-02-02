@@ -3,7 +3,7 @@ name: RaspiBlitz
 description: Przewodnik po konfiguracji RaspiBlitz
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 
 RaspiBlitz to węzeł Lightning Node (LND i/lub Core Lightning) działający razem z węzłem Bitcoin-Fullnode na RaspberryPi (1 TB SSD) i ładnym wyświetlaczem ułatwiającym konfigurację i monitorowanie.
@@ -17,7 +17,7 @@ RaspiBlitz jest przeznaczony głównie do nauki, jak uruchomić własny węzeł 
 RASPIBLITZ - Jak uruchomić piorun i Bitcoin Full node przez sesję BTC
 
 
-# Podręcznik konfiguracji Raspiblitz firmy Parman
+## Podręcznik konfiguracji Raspiblitz firmy Parman
 
 
 Raspiblitz to doskonały system do uruchamiania węzła Bitcoin i powiązanych aplikacji. Polecam go wraz z węzłem MyNode większości użytkowników (najlepiej mieć dwa węzły dla redundancji). Jedną z głównych zalet jest to, że węzeł Raspiblitz jest „Free Open Source Software”, w przeciwieństwie do MyNode lub Umbrel. [Dlaczego to jest ważne? Wyjaśnia Vlad Costa.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Możesz także uruchomić Raspiblitz z połączeniem WiFi zamiast ethernet – oto [dodatkowy przewodnik](https://armantheparman.com/headless-wifi/) do tego. (Nie znalazłem sposobu, aby zrobić to z MyNode).
@@ -32,7 +32,7 @@ Możesz kupić gotowy węzeł z dołączonym mini ekranem lub zbudować go samod
 Zasadniczo proces jest bardzo podobny do procesu konfiguracji [węzła MyNode](https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/) z Raspberry Pi 4. Przewodnik Raspiblitz sugeruje zakup monitora, ale naprawdę go nie potrzebujesz i nie polecałbym tego. Nie potrzebujesz nawet dodatkowej klawiatury ani myszy. Wystarczy uzyskać dostęp do menu terminala urządzenia za pomocą komputera w tej samej sieci domowej i użyć polecenia ssh w terminalu. Jest to możliwe w systemie Linux/Mac (łatwe) i trochę trudniejsze w systemie Windows.
 
 
-## Krok 1: Zakup sprzętu.
+### Krok 1: Zakup sprzętu.
 
 
 Potrzebujesz dokładnie tego samego sprzętu, którego potrzebujesz do uruchomienia węzła MyNode. Możesz spróbować jednego lub drugiego, jedyną różnicą są dane na karcie micro SD.
@@ -69,7 +69,7 @@ Jest to szybsze rozwiązanie, ale niepotrzebnie kosztowne:
 ![image](assets/3.webp)
 
 
-## Krok 2: Pobierz obraz Raspiblitz
+### Krok 2: Pobierz obraz Raspiblitz
 
 
 Przejdź do [strony GitHub Raspiblitz](https://github.com/rootzoll/raspiblitz) i znajdź link „download image”:
@@ -84,7 +84,7 @@ Hash sha-256 pobranego pliku jest podany na stronie internetowej. Będzie się z
 ![image](assets/5.webp)
 
 
-## Krok 3: Weryfikacja obrazu
+### Krok 3: Weryfikacja obrazu
 
 
 Przed kontynuowaniem, jeśli nie znasz się na systemie plików w wierszu poleceń, łatwo się tego nauczyć i powinieneś to zrobić.
@@ -129,7 +129,7 @@ gdzie `xxxxxxxxxxxxxx` to nazwa właśnie pobranego pliku. Jeśli nie jesteś w 
 Komputer zastanawia się przez około 20 sekund. Sprawdź, czy wyjściowy plik skrótu jest zgodny z plikiem pobranym ze strony internetowej w poprzednim kroku. Jeśli jest identyczny, możesz kontynuować.
 
 
-## Krok 4: Flashowanie karty SD
+### Krok 4: Flashowanie karty SD
 
 
 Możesz użyć Balena Etcher, aby to zrobić. [Pobierz go tutaj](https://www.balena.io/etcher/).
@@ -153,7 +153,7 @@ Etcher jest intuicyjny w obsłudze. Włóż kartę micro SD i sflashuj oprogramo
 Po zakończeniu dysk nie będzie już czytelny. Może pojawić się błąd systemu operacyjnego, a dysk powinien zniknąć z pulpitu. Wyciągnij kartę.
 
 
-## Krok 5: Konfiguracja Pi i włożenie karty SD
+### Krok 5: Konfiguracja Pi i włożenie karty SD
 
 
 Części (nie pokazano obudowy):
@@ -183,7 +183,7 @@ Na koniec podłącz zasilanie:
 ![image](assets/14.webp)
 
 
-## Krok 6: Znajdź adres IP Address komputera Pi
+### Krok 6: Znajdź adres IP Address komputera Pi
 
 
 Raspiblitz nigdy nie wymaga monitora. Potrzebujesz jednak innego komputera w sieci domowej. Jeśli Pi nie jest podłączone przez ethernet i chcesz polegać na WiFi, znalezienie adresu IP wymaga pewnych umiejętności komputerowych. Nie mogę ci pomóc, przykro mi. Potrzebujesz połączenia ethernetowego. (Problem wynika z potrzeby dostępu do monitora i systemu operacyjnego, aby podłączyć WiFi i wprowadzić hasło)
@@ -201,7 +201,7 @@ Znalezienie adresu IP jest kluczowe.
 **Uwaga:** Możesz użyć terminala na komputerze Mac lub Linux, aby znaleźć IP Address wszystkich urządzeń podłączonych do sieci Ethernet w sieci domowej za pomocą polecenia "arp -a". Dane wyjściowe nie są tak ładne, jak te wyświetlane przez router, ale zawierają wszystkie potrzebne informacje. Jeśli nie jest oczywiste, które to Pi, wykonaj metodę prób i błędów.
 
 
-## Krok 7: SSH do Pi
+### Krok 7: SSH do Pi
 
 
 Pamiętaj, aby włożyć kartę SD do Pi przed jego włączeniem. Odczekaj kilka minut, a następnie w innym systemie Linux/Mac otwórz terminal.

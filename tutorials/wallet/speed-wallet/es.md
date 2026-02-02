@@ -63,7 +63,7 @@ Speed Wallet está disponible como aplicación móvil en las plataformas Android
 
 
 
-Encontrará enlaces a las plataformas de descarga en el sitio web oficial [Speed Wallet] (https://speed.app).
+Encontrará enlaces a las plataformas de descarga en el sitio web oficial [Speed Wallet](https://speed.app).
 
 
 

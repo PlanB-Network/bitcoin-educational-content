@@ -58,7 +58,7 @@ Prosjektet er tilgjengelig på denne Address på **Github**:
 
 
 - [GitHub - Lynis](https://github.com/CISOfy/lynis)
-- [Last ned Lynis fra CISOFY] (https://cisofy.com/lynis/#download)
+- [Last ned Lynis fra CISOFY](https://cisofy.com/lynis/#download)
 
 
 
@@ -892,7 +892,7 @@ Ikke glem å kommunisere med teamene dine før implementeringen: Du må få dem 
 
 
 
-Til slutt kan du også sammenligne **Lynis** med andre verktøy, som det finnes flere av. Hvis du ønsker å gå i retning av sentralisert administrasjon samtidig som du vil beholde åpen kildekode, anbefaler jeg verktøyet [Wazuh] (https://wazuh.com/).
+Til slutt kan du også sammenligne **Lynis** med andre verktøy, som det finnes flere av. Hvis du ønsker å gå i retning av sentralisert administrasjon samtidig som du vil beholde åpen kildekode, anbefaler jeg verktøyet [Wazuh](https://wazuh.com/).
 
 
 

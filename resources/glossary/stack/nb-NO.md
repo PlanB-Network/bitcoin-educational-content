@@ -1,5 +1,6 @@
 ---
-term: BATTERI
+term: Stabel (stack)
+definition: LIFO-datastruktur brukt i Bitcoin Script for å lagre og manipulere midlertidige elementer under utførelse.
 ---
 
 I forbindelse med skriptspråket som brukes til å knytte utgiftsbetingelser til Bitcoin UTXO-er, er stakken en LIFO-datastruktur (*Last In, First Out*) som brukes til å lagre midlertidige Elements under skripteksekvering. Hver operasjon i skriptet manipulerer disse stablene, der Elements kan legges til (*push*) eller fjernes (*pop*). Skript bruker stabler til å evaluere uttrykk, lagre midlertidige variabler og håndtere betingelser.

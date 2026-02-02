@@ -1,5 +1,6 @@
 ---
-term: POOL (PENAMBANGAN)
+term: Pool (Mining)
+definition: Pengelompokan penambang yang menggabungkan kekuatan komputasi mereka untuk menemukan blok bersama-sama.
 ---
 
 Mengacu pada sekumpulan penambang yang berkolaborasi dengan menggabungkan kekuatan komputasi mereka untuk berpartisipasi dalam pencarian _proof-of-work_ valid atas pekerjaan di Bitcoin. Penggabungan ini ke dalam satu organisasi adalah solusi untuk meningkatkan kesulitan _Bitcoin Mining_, yang membuatnya tidak mungkin bagi seorang penambang individu untuk bersaing dan mendapatkan _reward_ secara stabil. Para penambang dalam _mining pool_ berkontribusi dengan mesin mereka untuk mencari bagian yang valid. Ketika sebuah blok ditambang oleh _pool_, _reward_ - yang terdiri dari bitcoin yang baru dibuat dan juga biaya transaksi yang termasuk dalam blok tersebut - akan didistribusikan di antara anggota _pool_ sesuai dengan metode kompensasi yang dipilih. Distribusi ini sebanding dengan daya komputasi yang dikontribusikan oleh setiap penambang.

@@ -371,7 +371,7 @@ Speed Business, ödeme çözümünü kendi web sitenize entegre etmenizi sağlay
 
 
 
-Speed Business'ın daha iyi entegrasyonu için [belgelerin] (https://apidocs.tryspeed.com/reference/introduction) tamamını bulun.
+Speed Business'ın daha iyi entegrasyonu için [belgelerin](https://apidocs.tryspeed.com/reference/introduction) tamamını bulun.
 
 
 

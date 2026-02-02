@@ -1,5 +1,6 @@
 ---
-term: RELAIS
+term: Relay
+definition: Werkzeug oder Entität, deren Funktion es ist, neue gültige Blöcke im Netzwerk zu verbreiten.
 ---
 
 Im Zusammenhang mit Proof-of-Work im Bitcoin-Netz bedeutet dies ein Werkzeug, dessen Hauptfunktion darin besteht, neue gültige Blöcke, die gefunden wurden, weiterzuleiten. Manchmal wird unterschieden zwischen der Rolle des Miner, der am gesamten Proof-of-Work-Prozess beteiligt ist, von der Erstellung des Blockkandidaten bis zur Verbreitung des validierten Blocks, und der Rolle des Choppers, die sich auf die Teilnahme am Hashing eines Blocks beschränkt, ohne in seine Auswahl oder Verbreitung einzugreifen. Die Rolle des Relayers hingegen besteht darin, neue, von einem Chopper gefundene Blöcke zu verbreiten. Im Falle von Mining-Pools wird diese Relaisfunktion vom Pool selbst wahrgenommen. Diese Rolle verleiht dem Pool eine große Macht gegenüber den einzelnen Choppern. Der Begriff "Relayer" kann sich auch auf die Person oder Einrichtung beziehen, die ein Relais betreibt.

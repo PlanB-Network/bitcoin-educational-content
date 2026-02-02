@@ -1,0 +1,8 @@
+question: Qual è il principale rischio per la sicurezza che rende il P2SH fondamentalmente diverso dalle transazioni standard Bitcoin in termini di recupero dei fondi?
+answer: La perdita delil redeem script blocca permanentemente i fondi anche se si dispone delle chiavi private
+wrong_answers:
+  - L'hash a 20 byte può essere forzato se il redeem script è troppo semplice
+  - Gli indirizzi P2SH scadono dopo una certa altezza di blocco, rendendo i fondi irrecuperabili
+  - Il processo di convalida in due fasi può fallire in modo casuale, causando la perdita permanente del fondo
+explanation: |
+  Il P2SH introduce un requisito di sicurezza unico: per spendere i fondi sono necessarie sia le chiavi private che il redeem script. A differenza delle transazioni standard, in cui sono necessarie solo le chiavi private, il P2SH richiede che venga fornito il redeem script durante la spesa. Se il redeem script viene smarrito, i fondi diventano permanentemente inaccessibili, indipendentemente dal possesso delle chiavi private corrette, perché le condizioni di spesa non possono essere ricostruite o convalidate.

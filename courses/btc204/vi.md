@@ -66,7 +66,7 @@ Trong phần thứ ba của khóa đào tạo, chúng ta sẽ đi sâu vào vấ
 
 ![BTC204](assets/vi/003.webp)
 
-**Phần 4: Hiểu về giao dịch coinjoin**
+**Phần 4: Hiểu về giao dịch [coinjoin](https://planb.academy/resources/glossary/coinjoin)**
 
 Làm sao chúng ta có thể nói về quyền riêng tư trên Bitcoin mà không nhắc đến coinjoin? Trong phần 4, bạn sẽ tìm hiểu tất cả những gì bạn cần biết về phương pháp trộn này. Bạn sẽ tìm hiểu coinjoin là gì, lịch sử và mục tiêu của chúng, cũng như các loại coinjoin khác nhau hiện có. Cuối cùng, đối với người dùng có nhiều kinh nghiệm hơn, chúng ta sẽ xem xét anonset và entropy là gì và cách tính chúng.
 
@@ -74,7 +74,7 @@ Làm sao chúng ta có thể nói về quyền riêng tư trên Bitcoin mà khô
 
 **Phần 5: Hiểu những thách thức của các kỹ thuật bảo mật tiên tiến khác**
 
-Trong phần thứ năm, chúng ta sẽ xem xét tất cả các kỹ thuật khác có sẵn để bảo vệ quyền riêng tư của bạn trên Bitcoin, ngoài coinjoin. Trong nhiều năm qua, các nhà phát triển đã thể hiện sự sáng tạo đáng kể trong việc thiết kế các công cụ dành riêng cho quyền riêng tư. Chúng ta sẽ xem xét tất cả các phương pháp này, chẳng hạn như payjoin, giao dịch hợp tác, Coin Swap và Atomic Swap, trình bày chi tiết cách chúng hoạt động, mục tiêu của chúng và bất kỳ điểm yếu nào.
+Trong phần thứ năm, chúng ta sẽ xem xét tất cả các kỹ thuật khác có sẵn để bảo vệ quyền riêng tư của bạn trên Bitcoin, ngoài coinjoin. Trong nhiều năm qua, các nhà phát triển đã thể hiện sự sáng tạo đáng kể trong việc thiết kế các công cụ dành riêng cho quyền riêng tư. Chúng ta sẽ xem xét tất cả các phương pháp này, chẳng hạn như [payjoin](https://planb.academy/resources/glossary/payjoin), giao dịch hợp tác, Coin Swap và Atomic Swap, trình bày chi tiết cách chúng hoạt động, mục tiêu của chúng và bất kỳ điểm yếu nào.
 
 Chúng ta cũng sẽ xem xét quyền riêng tư ở cấp độ mạng lưới các nút và việc phân phối giao dịch. Chúng ta cũng sẽ thảo luận về các giao thức khác nhau đã được đề xuất trong nhiều năm để tăng cường quyền riêng tư của người dùng trên Bitcoin, bao gồm các giao thức địa chỉ tĩnh.
 
@@ -85,7 +85,7 @@ Sẵn sàng khám phá những ngóc ngách về quyền riêng tư trên Bitcoi
 
 <partId>b9bbbde3-34c0-4851-83e8-e2ffb029cf31</partId>
 
-## Mô hình UTXO của Bitcoin
+## Mô hình [UTXO](https://planb.academy/resources/glossary/utxo) của Bitcoin
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
@@ -569,7 +569,7 @@ Nguồn: [Mempool.space](https://mempool.space/tx/db07516288771ce5d0a06b275962ec
 
 Ở phần sau, chúng ta có thể thấy rằng đầu vào số 0 và đầu ra số 1 sử dụng tập lệnh P2WPKH (SegWit V0), trong khi đầu ra số 0 sử dụng tập lệnh P2PKH khác (Legacy).
 
-Vào đầu những năm 2010, phương pháp tìm kiếm dựa trên phiên bản tập lệnh này tương đối không hữu ích do các loại tập lệnh có sẵn bị hạn chế. Tuy nhiên, theo thời gian và với các bản cập nhật Bitcoin liên tiếp, sự đa dạng ngày càng tăng của các loại tập lệnh đã được giới thiệu. Do đó, phương pháp tìm kiếm này ngày càng trở nên phù hợp, vì với nhiều loại tập lệnh hơn, người dùng chia thành các nhóm nhỏ hơn, do đó tăng khả năng áp dụng phương pháp tìm kiếm tái sử dụng phiên bản nội bộ này. Vì lý do này, chỉ xét về góc độ bảo mật, nên chọn loại tập lệnh phổ biến nhất. Ví dụ, khi tôi viết những dòng này, tập lệnh Taproot (`bc1p`) ít được sử dụng hơn tập lệnh SegWit V0 (`bc1q`). Mặc dù các tập lệnh trước mang lại lợi ích về mặt kinh tế và bảo mật trong một số bối cảnh cụ thể, nhưng đối với các mục đích sử dụng chữ ký đơn truyền thống hơn, việc sử dụng tiêu chuẩn cũ hơn vì lý do bảo mật có thể hợp lý, cho đến khi tiêu chuẩn mới được áp dụng rộng rãi hơn.
+Vào đầu những năm 2010, phương pháp tìm kiếm dựa trên phiên bản tập lệnh này tương đối không hữu ích do các loại tập lệnh có sẵn bị hạn chế. Tuy nhiên, theo thời gian và với các bản cập nhật Bitcoin liên tiếp, sự đa dạng ngày càng tăng của các loại tập lệnh đã được giới thiệu. Do đó, phương pháp tìm kiếm này ngày càng trở nên phù hợp, vì với nhiều loại tập lệnh hơn, người dùng chia thành các nhóm nhỏ hơn, do đó tăng khả năng áp dụng phương pháp tìm kiếm tái sử dụng phiên bản nội bộ này. Vì lý do này, chỉ xét về góc độ bảo mật, nên chọn loại tập lệnh phổ biến nhất. Ví dụ, khi tôi viết những dòng này, tập lệnh [Taproot](https://planb.academy/resources/glossary/taproot) (`bc1p`) ít được sử dụng hơn tập lệnh SegWit V0 (`bc1q`). Mặc dù các tập lệnh trước mang lại lợi ích về mặt kinh tế và bảo mật trong một số bối cảnh cụ thể, nhưng đối với các mục đích sử dụng chữ ký đơn truyền thống hơn, việc sử dụng tiêu chuẩn cũ hơn vì lý do bảo mật có thể hợp lý, cho đến khi tiêu chuẩn mới được áp dụng rộng rãi hơn.
 
 ### Thanh toán số tròn
 

@@ -1,0 +1,8 @@
+question: Miksi liberaalin analyysin mukaan taloudellisen vapauden tukahduttaminen kollektivistisessa järjestelmässä johtaa väistämättä asuinpaikan ja kotipaikan vapauden menettämiseen?
+answer: Koska ilman vapautta valita työpaikkansa ihmisten on asuttava lähellä osoitettua työpaikkaa eivätkä he voi valita asuinpaikkaansa
+wrong_answers:
+  - Koska valtion on valvottava kansalaisia tarkoin ja keskitettävä heidät määrätyille asuinalueille
+  - Koska omaisuuden kollektiivinen omistus tarkoittaa, että yksilöt eivät voi omistaa asuntoja, vaan heidän on hyväksyttävä valtion osoittama asunto
+  - Koska taloussuunnittelu edellyttää väestön jakautumista eri alueiden resurssien saatavuuden mukaan
+explanation: |
+  Liberaali analyysi osoittaa suoran kausaalisen ketjun: kollektivistisessa järjestelmässä valtio osoittaa yksilöt tiettyihin työpaikkoihin ja tuotannonaloihin ilman heidän valintansa mukaan. Koska ihmiset yleensä asuvat käytännön syistä lähellä työpaikkaansa eivätkä voi valita työtään, he eivät voi myöskään valita asuinpaikkaa. Tämä osoittaa, miten taloudellinen vapauden puute luo dominovaikutuksen, joka järjestelmällisesti poistaa muita henkilökohtaisia vapauksia, jotka eivät näytä liittyvän talouteen.

@@ -1,0 +1,8 @@
+question: Jaký je minimální počet funkčních podpisů potřebných k ověření bloku a jaký je maximální počet selhání uzlů, která může síť tolerovat, v modelu federativního konsensu Liquid?
+answer: 11 požadovaných podpisů, lze tolerovat až 4 selhání uzlu
+wrong_answers:
+  - je vyžadováno 8 podpisů, lze tolerovat až 7 selhání uzlu
+  - 15 požadovaných podpisů, lze tolerovat až 2 selhání uzlu
+  - 9 požadovaných podpisů, lze tolerovat až 6 selhání uzlu
+explanation: |
+  Liquid používá systém 11 z 15, kdy každý blok musí podepsat alespoň 11 z 15 funkcionářů, aby byl platný. Tato konstrukce umožňuje, aby síť fungovala i v případě, že selžou až 4 uzly (15 - 11 = 4). Ostatní varianty buď uvádějí nesprávné prahové hodnoty podpisů, nebo chybně počítají odolnost proti poruchám, která je vždy rovna celkovému počtu uzlů minus požadované podpisy.

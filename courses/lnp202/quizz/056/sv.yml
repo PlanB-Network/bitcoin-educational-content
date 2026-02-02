@@ -1,0 +1,9 @@
+question: Vilket steg följer omedelbart efter publiceringen av en NWC-begäran av mobilapplikationen på ett relä?
+answer: Noden dekrypterar och verifierar auktorisationen
+wrong_answers:
+  - Reläet signerar begäran för noden
+  - Relä utför betalning på LND
+  - Noden öppnar en kanal automatiskt
+explanation: |
+  Noden läser händelsen, dekrypterar den och kontrollerar sedan att författaren är behörig innan åtgärden utförs.
+reviewed: false

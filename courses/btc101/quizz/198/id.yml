@@ -5,5 +5,6 @@ wrong_answers:
   - Untuk mencegah Bitcoin Anda dicuri.
   - Untuk memastikan Bitcoin Anda selalu tersedia.
 explanation: >-
-  Teks tersebut menyebutkan bahwa mengkonsolidasikan UTXO Anda di dompet Anda dari waktu ke waktu sangat penting untuk mengelola bitcoin Anda secara efektif dan menghindari biaya yang tidak perlu selama transaksi.
-reviewed: false
+  Teks tersebut menyebutkan bahwa mengkonsolidasikan UTXO Anda di dompet Anda dari waktu ke waktu sangat penting
+  untuk mengelola bitcoin Anda secara efektif dan menghindari biaya yang tidak perlu selama transaksi.
+reviewed: true

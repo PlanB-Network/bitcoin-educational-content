@@ -1,0 +1,8 @@
+question: Welches Skript muss bei der Erzeugung von Signaturen für eine P2SH-Eingabe während der Transaktionskonstruktion in der Sighash-Berechnung verwendet werden?
+answer: Das Redeem-Skript muss anstelle des ScriptPubKey verwendet werden
+wrong_answers:
+  - Der ursprüngliche scriptPubKey, der den Hash enthält, muss direkt verwendet werden
+  - Es muss eine Kombination aus scriptPubKey und redeem script verwendet werden
+  - Stattdessen muss die ScriptSig verwendet werden, die die Entsperrungsdaten enthält
+explanation: |
+  Bei der P2SH-Signaturerstellung erfordert der Sighash-Prozess die Verwendung des Redeem-Skripts anstelle des scriptPubKey. Dies ist von entscheidender Bedeutung, da der scriptPubKey nur den Hash des Redeem-Skripts enthält, nicht aber die tatsächlichen Ausgabebedingungen. Das Redeem-Skript enthält die eigentliche Logik (z. B. Multisig-Anforderungen), die bestimmt, wie die Ausgabe ausgegeben werden kann. Die direkte Verwendung des scriptPubKey würde fehlschlagen, da er nur einen Hash-Vergleich enthält, nicht aber die tatsächlichen Ausgabenbedingungen, die erfüllt werden müssen.

@@ -1,5 +1,6 @@
 ---
-term: sighash_anyprevout
+term: SIGHASH_ANYPREVOUT
+definition: 署名を特定のUTXOに縛り付けないことを可能にするSigHashの提案。
 ---
 BIP118で導入されたBitcoinの新しいSigHash Flag修飾子の実装に関する提案。SIGHASH_ANYPREVOUT`により、特にライトニングネットワーク上の決済チャネルやEltooアップデートのような高度なアプリケーションにおいて、トランザクション管理の柔軟性が向上する。SIGHASH_ANYPREVOUT`は、シグネチャを特定の以前のUTXO（*Any Previous Output*）に結び付けないことを可能にする。SIGHASH_ALL`と組み合わせて使用すると、トランザクションのすべての出力に署名することができますが、入力には署名できません。これは、ある特定の条件が満たされている限り、異なるトランザクショ ンに対して署名を再利用することを可能にする。
 

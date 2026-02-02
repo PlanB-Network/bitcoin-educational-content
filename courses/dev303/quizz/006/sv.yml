@@ -1,0 +1,8 @@
+question: Hur ofta släpper Rust en ny stabil version enligt deras utgivningsschema?
+answer: Ungefär var sjätte vecka
+wrong_answers:
+  - Ungefär var tredje månad
+  - Ungefär varannan vecka
+  - Ungefär var fjärde månad
+explanation: |
+  Rust följer ett förutsägbart utgivningsschema med nya stabila versioner som kommer ut ungefär var sjätte vecka. Denna frekventa utgivningscykel säkerställer att nya funktioner och förbättringar når användarna regelbundet samtidigt som stabiliteten bibehålls. De andra tidsramarna är felaktiga - tre månader och fyra månader skulle vara mycket långsammare än Rust:s faktiska takt, medan två veckor skulle vara orealistiskt snabbt för stabila versioner som kräver noggrann testning.

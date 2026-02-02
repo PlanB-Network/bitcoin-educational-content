@@ -1,0 +1,8 @@
+question: Koja je primarna svrha deklaracije prostora imena u UniFFI UDL fajlu?
+answer: Da obezbedi kontejner za funkcije koje mogu biti pozvane direktno bez potrebe za instanciranjem objekta
+wrong_answers:
+  - Da definišete strukturu paketa i uvezete zavisnosti za generisane jezičke veze
+  - Da navedete ciljne programske jezike koji će koristiti Rust biblioteku putem UniFFI
+  - Da se uspostavi strategija upravljanja memorijom za operacije prenosa podataka između različitih jezika
+explanation: |
+  Imenski prostor u UniFFI-jevom UDL služi kao kontejner za samostalne funkcije koje se mogu pozivati direktno bez prethodnog kreiranja objekata. Ove funkcije u imenskom prostoru obično obrađuju jednostavne operacije koje uzimaju vrednosti kao parametre i vraćaju rezultate. Ostale opcije su netačne zato što: struktura paketa i importi se automatski obrađuju procesom generisanja veza, ciljni jezici se specificiraju tokom procesa izgradnje, a ne u UDL fajlu, i upravljanje memorijom se transparentno obrađuje od strane UniFFI-jevog sloja za izvršavanje umesto da bude eksplicitno deklarisano u imenskim prostorima.

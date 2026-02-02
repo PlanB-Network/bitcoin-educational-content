@@ -1,0 +1,8 @@
+question: Ni iyihe ntumbero nyamukuru y’intambwe zitatu z’uguhuza, gutegura, no gushitsa mu nzira y’abahinguzi ba Breez SDK?
+answer: Kugira ngo amafaranga agenda neza mu guhuza amasakoshi, kubara amafaranga yose imbere y’igihe, hanyuma ugakora amafaranga .
+wrong_answers:
+  - Gushinga amahuzu y'ububiko bw'inyuma hagati y'abatanga amakuru menshi imbere yo gutangura ibikorwa vyose vy'atome
+  - Kugira ngo ureme imikono itandukanye y'ububiko bw'amakuru ku rubuga rwose rujanye n'uguhinduranya amato y'amazi
+  - Kugira ngo wemeze amashusho y'ukwishyura imbere y'igihe ku masezerano y'igihe kirekire imbere yo kurekura amafaranga avuye mu buryo bwo kubika amafaranga
+explanation: |
+  Igishushanyo ca Connect, Prepare, Execute corosha iterambere mu gucapura ibikorwa bikomeye mu ntambwe zishobora gutunganirizwa: Connect itanguza ama wallets kandi igashinga amahuzu yo kugenzura, Prepare ibara kandi igaragaza ibiciro vyose ku bakoresha, Execute na yo ikora ibikorwa vy’ubwubatsi n’ivy’ugutangaza amakuru. Ivyo bihuza bikuraho ubugoyagoye bw’uguhinduranya ibikoresho vyo mu mazi n’ibikorwa vy’uruhererekane, bikaba vyoroha ku bategura gushiramwo ibikorwa vya Bitcoin ata gucungera amakuru yo hasi.

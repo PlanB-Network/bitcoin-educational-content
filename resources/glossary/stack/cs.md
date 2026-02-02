@@ -1,5 +1,6 @@
 ---
-term: BATERIE
+term: Zásobník (stack)
+definition: Datová struktura LIFO používaná v Bitcoin Scriptu k ukládání a manipulaci s dočasnými prvky během provádění.
 ---
 
 V kontextu skriptovacího jazyka, který se používá k přiřazování podmínek výdajů k UTXO Bitcoin, je zásobník datová struktura LIFO (*Last In, First Out*), která se používá k ukládání dočasných Elements během provádění skriptu. Každá operace ve skriptu manipuluje s těmito zásobníky, do nichž lze přidávat (*push*) nebo z nich odebírat (*pop*) Elements. Skripty používají zásobníky k vyhodnocování výrazů, ukládání dočasných proměnných a správě podmínek.

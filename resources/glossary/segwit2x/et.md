@@ -1,6 +1,7 @@
 ---
-term: SEGWIT2X
+term: Segwit2x
 
+definition: Vastuoluline hard forki katse ploki suuruse kahekordistamiseks, tühistati novembris 2017.
 ---
 Vastuoluline katse kõva kahvliga, mille eesmärk on kahekordistada Bitcoini plokimahu piirmäära, integreerides samal ajal SegWit'i. SegWit2x tutvustati 2017. aastal New Yorgi kokkuleppe ajal, mis oli üle 50 ökosüsteemi ettevõtte konfidentsiaalne kohtumine, mille eesmärk oli leida lahendus süsteemi skaleerimiseks. SegWit2x eesmärk oli suurendada Bitcoini tehingumahtu, tõstes maksimaalse plokisuuruse algselt 1 MB-lt 2 MB-le. Hard Fork oli kavandatud plokki 494,784, mis toimus 2017. aasta novembris.
 

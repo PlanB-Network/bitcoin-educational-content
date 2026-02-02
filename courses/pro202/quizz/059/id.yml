@@ -1,0 +1,8 @@
+question: Dalam konteks filter blok ringkas (BIP158) untuk klien ringan yang menjaga privasi, apa pertukaran penting yang membuatnya efektif untuk privasi wallet?
+answer: Mereka dapat menghasilkan positif palsu tetapi tidak pernah negatif palsu, memungkinkan klien untuk mengunduh blok yang berpotensi tidak relevan tanpa mengungkapkan alamat tertentu
+wrong_answers:
+  - Mereka dapat menghasilkan negatif palsu tetapi tidak pernah positif palsu, memastikan klien hanya mengunduh blok yang berisi transaksi mereka
+  - Mereka menghilangkan positif palsu dan negatif palsu dengan menggunakan pemfilteran deterministik berdasarkan alamat wallet
+  - "Mereka menghasilkan positif palsu dan negatif palsu dalam proporsi yang sama untuk mengaburkan pola transaksi klien yang sebenarnya"
+explanation: |
+  Filter blok yang ringkas didesain dengan model kesalahan asimetris: filter ini dapat mengindikasikan sebuah blok berisi transaksi yang relevan padahal sebenarnya tidak (positif palsu), tetapi tidak akan pernah melewatkan blok yang benar-benar berisi transaksi yang relevan (tidak ada negatif palsu). Desain ini sangat penting karena false negative berarti melewatkan pembayaran yang sebenarnya, sedangkan false positive hanya akan mengakibatkan pengunduhan blok yang tidak perlu. Tingkat false positive memberikan privasi dengan memaksa klien untuk mengunduh beberapa blok yang tidak relevan, sehingga mustahil bagi pengamat untuk menentukan blok mana yang sebenarnya berisi transaksi klien.

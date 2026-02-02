@@ -1,8 +1,9 @@
-question: Ni uwuhe mushikiranganji Condorcet yarwanya mu kuburanira ubudandaji bw’ubuntu?
-answer: Izosi
+question: Ni uwuhe mushikiranganji Condorcet yarwanya mu kuburanira ubudandaji bw’umwidegemvyo?
+answer: Necker
 wrong_answers:
-  - Caloni
+  - Calonne
   - Trudaine
-  - Guhitamwo
+  - Choiseul
 explanation: |
-  Condorcet yarwanya Necker ku kibazo c’ubudandaji bwigenga, arwanira ingingo ngenderwako z’ubwigenge bw’ubutunzi.
+  Condorcet yarwanya Necker ku kibazo c’ubudandaji bw'umwidegemvyo, arwanira ingingo ngenderwako z’ubwigenge bw’ubutunzi.
+reviewed: true

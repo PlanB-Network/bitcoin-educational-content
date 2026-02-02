@@ -1,0 +1,8 @@
+question: Jaký je hlavní účel procesu konstrukce sighash při ověřování transakcí Bitcoin?
+answer: Vytvoření přesné zprávy, která byla původně podepsána soukromým klíčem pro ověření podpisu
+wrong_answers:
+  - Pro generate jedinečný identifikátor transakce, který zabraňuje útokům na double-spending
+  - Komprimovat data transakce do menšího formátu pro efektivní přenos po síti
+  - Zašifrovat obsah transakce tak, aby ji mohl dešifrovat a mince utratit pouze příjemce
+explanation: |
+  Konstrukce sighash vytvoří přesnou zprávu, která byla podepsána soukromým klíčem, což umožní OP_CHECKSIG ověřit pravost podpisu. Tento proces zahrnuje vyprázdnění ScriptSigs, nahrazení ScriptSig aktuálního vstupu odpovídajícím ScriptPubKey a přidání typu hashe před dvojitým hashováním. Ostatní možnosti jsou nesprávné: ID transakcí slouží jako identifikátory, komprese je řešena odděleně a transakce Bitcoin nejsou šifrovány, ale jsou veřejně viditelné v blockchainu.

@@ -1,0 +1,9 @@
+question: ระบบปฏิบัติการใดที่ครองตลาดพีซีในปัจจุบัน?
+answer: Windows
+wrong_answers:
+  - macOS
+  - GNU/Linux
+  - Chrome OS
+explanation: |
+  Windows มีส่วนแบ่งตลาด 71% ในคอมพิวเตอร์ส่วนบุคคล เนื่องจากการติดตั้งเป็นค่าเริ่มต้นและระบบนิเวศซอฟต์แวร์ที่กว้างขวาง
+reviewed: false

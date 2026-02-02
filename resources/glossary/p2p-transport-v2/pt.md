@@ -1,6 +1,7 @@
 ---
-term: TRANSPORTE P2P V2
+term: P2P TRANSPORT V2
 
+definition: Nova versão do protocolo P2P de Bitcoin com encriptação para melhorar a privacidade.
 ---
 Nova versão do protocolo de transporte Bitcoin P2P que incorpora encriptação oportunista para melhorar a privacidade e a segurança das comunicações entre nós. Esta melhoria visa resolver vários problemas com a versão básica do protocolo P2P, nomeadamente tornando os dados trocados indistinguíveis para um observador passivo (como um fornecedor de serviços Internet), reduzindo assim os riscos de censura e ataques através da deteção de padrões específicos nos pacotes de dados.
 

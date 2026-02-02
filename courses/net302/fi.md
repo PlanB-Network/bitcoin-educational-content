@@ -90,7 +90,7 @@ Oletko valmis sukeltamaan tietokoneverkkojen maailmaan? Mennään!
 **HUOMAUTUS**: Kuvaukset perustuvat GNU/Linux CentOS 7 -järjestelmään. Verkkokokoonpanot ovat kuitenkin suurelta osin samat, kun verrataan Debian- ja CentOS-järjestelmiä. Emme siis tee mitään eroa. Jos on, liitämme siihen erityisen logon.
 
 
-**N.B.**: Jos törmäät kurssin aikana tuntemattomiin termeihin, katso määritelmät [sanastosta] (https://planb.academy/resources/glossary).
+**N.B.**: Jos törmäät kurssin aikana tuntemattomiin termeihin, katso määritelmät [sanastosta](https://planb.academy/resources/glossary).
 
 
 
@@ -306,18 +306,19 @@ Otsikon ensimmäinen kenttä on nimeltään Version. Tämä 4-bittinen arvo mä�
 
 
 
-| Version Number | Protocol   | Version Description         | Reference               |
+
+| Versionumero | Protokolla | Version kuvaus | Viite |
 | -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Reserved   | Reserved                    |                         |
-| 2–3            | Unassigned | Unassigned                  |                         |
-| 4              | IP         | Internet Protocol           | RFC 791                 |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
-| 6              | IPv6       | Internet Protocol version 6 | RFC 8200                |
-| 7              | TP/IX      | The Next Internet           | RFC 1475                |
-| 8              | PIP        | The P Internet Protocol     | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | Unassigned | Unassigned                  |                         |
-| 15             | Reserved   | Reserved                    |                         |
+| 0–1 | Varattu | Varattu | |
+| 2–3 | Varaamaton | Varaamaton | |
+| 4 | IP | Internet-protokolla | RFC 791 |
+| **5** | **ST** | **ST-datagrammitila** | **RFC 1190** / RFC 1819 |
+| 6 | IPv6 | Internet-protokolla versio 6 | RFC 8200 |
+| 7 | TP/IX | Seuraava internet | RFC 1475 |
+| 8 | PIP | P-internet-protokolla | RFC 1621 |
+| 9 | TUBA | Tuba | RFC 1347 |
+| 10–14 | Varaamaton | Varaamaton | |
+| 15 | Varattu | Varattu | |
 
 Näihin kuuluu IPv5, joka oli olemassa ST-protokollana (_Stream Protocol_), vaikka se on suurelta osin tuntematon yleisölle. IPv5 kehitettiin 1980-luvulla, ja se suunniteltiin Address:n tuohon aikaan kasvavaan tarpeeseen: palvelun laadun (QoS) tarjoamiseen tietyille tietovirroille, jotka vaativat jatkuvaa ja vakaata siirtoa, kuten Voice over IP tai multimediavirrat. Sen tavoitteena oli taata päästä päähän ulottuva kaistanleveys ja prioriteetti, mikä on samankaltainen käsite kuin RSVP (_Resource Reservation Protocol_), jonka avulla verkkoresursseja voidaan nykyään varata dynaamisesti nykyaikaisissa reitittimissä.
 
@@ -485,14 +486,15 @@ Aikaisemmin IPv4-järjestelmä perustui luokkapohjaiseen järjestelmään, joka 
 
 
 
-| **Class** | **IPv4 Address Range**            | **Usage**                    |
+
+| **Luokka** | **IPv4-osoitealue**              | **Käyttö**                  |
 | --------- | --------------------------------- | ---------------------------- |
-| A         | 1.x.x.x to 126.x.x.x              | Unicast addresses            |
-|           | (127.x.x.x reserved for loopback) | Local loopback               |
-| B         | 128.0.x.x to 191.255.x.x          | Unicast addresses            |
-| C         | 192.0.0.x to 223.255.255.x        | Unicast addresses            |
-| D         | 224.0.0.0 to 239.255.255.255      | IP Multicast                 |
-| E         | 240.0.0.0 to 255.255.255.255      | Reserved for experimentation |
+| A         | 1.x.x.x – 126.x.x.x               | Unicast-osoitteet            |
+|           | (127.x.x.x varattu loopbackille)  | Paikallinen loopback         |
+| B         | 128.0.x.x – 191.255.x.x           | Unicast-osoitteet            |
+| C         | 192.0.0.x – 223.255.255.x         | Unicast-osoitteet            |
+| D         | 224.0.0.0 – 239.255.255.255       | IP Multicast                 |
+| E         | 240.0.0.0 – 255.255.255.255       | Varattu kokeiluihin          |
 
 Kaikkia mahdollisia arvoja ei voida määrittää isännille. Esimerkiksi **luokan C** Address:ssa viimeinen tavu tarjoaa 8 bittiä (256 arvoa). Näistä kaksi on kuitenkin varattu:
 
@@ -573,13 +575,14 @@ Haluamme 4 aliverkkoa, joissa kussakin voi olla enintään 60 isäntää.
 
 
 
-| Subnet ID (bits) | Subnet Address   | Subnet Mask     | Address Range                 | Broadcast Address |
+
+
+| Aliverkon tunnus (bitit) | Aliverkon osoite | Aliverkon peite | Osoitealue                | Broadcast-osoite |
 | ---------------- | ---------------- | --------------- | ----------------------------- | ----------------- |
 | 00               | 192.168.1.0/26   | 255.255.255.192 | 192.168.1.1 – 192.168.1.62    | 192.168.1.63      |
 | 01               | 192.168.1.64/26  | 255.255.255.192 | 192.168.1.65 – 192.168.1.126  | 192.168.1.127     |
 | 10               | 192.168.1.128/26 | 255.255.255.192 | 192.168.1.129 – 192.168.1.190 | 192.168.1.191     |
 | 11               | 192.168.1.192/26 | 255.255.255.192 | 192.168.1.193 – 192.168.1.254 | 192.168.1.255     |
-
 
 **Vaihe 5**: Tämä luo neljä aliverkkoa, joista kukin tukee enintään 62 konetta, mutta pitää samalla yleisen osoitusjärjestelmän tehokkaana. _hostid_-osio jaetaan _subnetid_-osioon ja host-osioon.
 
@@ -623,7 +626,9 @@ Esimerkki:
 Jotta CIDR:n mitoituksen ymmärtäminen olisi helpompaa, tässä on taulukko yleisimmistä etuliitteistä ja niitä vastaavista aliverkkomaskista ja käyttökelpoisista osoitteista:
 
 
-| CIDR Prefix | Available Host Bits | Subnet Mask     | Usable Host Addresses         |
+
+
+| CIDR-etuliite | Käytettävissä olevat host-bitit | Aliverkon peite | Käytettävät host-osoitteet |
 | ----------- | ------------------- | --------------- | ----------------------------- |
 | /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16,777,214         |
 | /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1,048,574          |
@@ -635,9 +640,8 @@ Jotta CIDR:n mitoituksen ymmärtäminen olisi helpompaa, tässä on taulukko yle
 | /28         | 4                   | 255.255.255.240 | 2^4 - 2 = 14                  |
 | /29         | 3                   | 255.255.255.248 | 2^3 - 2 = 6                   |
 | /30         | 2                   | 255.255.255.252 | 2^2 - 2 = 2                   |
-| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point only) |
-| /32         | 0                   | 255.255.255.255 | 1 (host address only)         |
-
+| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (vain point-to-point) |
+| /32         | 0                   | 255.255.255.255 | 1 (vain host-osoite)          |
 
 **HUOMAUTUS**: RFC 950:ssä on aiemmin kehotettu käyttämään aliverkon nollaa, lähinnä reitityksen sekaannusten välttämiseksi.  Tämä rajoitus poistui käytöstä RFC 1878:n myötä, joka sallii sen käytön täysin. Vanha rajoitus johtui lähinnä yhteensopimattomuudesta vanhempien laitteistojen kanssa, jotka eivät pystyneet käsittelemään CIDR:ää oikein. Nykyaikaisilla laitteilla ei ole tällaista ongelmaa.
 
@@ -819,12 +823,13 @@ Kerrosarkkitehtuurissa noudatetaan periaatetta, jonka mukaan kukin Layer käsitt
 Alla olevassa taulukossa on yhteenveto TCP- ja UDP-yhteyksien termeistä:
 
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| TCP/IP-kerros        | Yksikön nimi (TCP) | Yksikön nimi (UDP) |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| Sovelluskerros       | Virta            | Viesti           |
+| Kuljetuskerros       | Segmentti        | Paketti          |
+| Internet-kerros      | Datagrammi       | Datagrammi       |
+| Verkkoyhteyskerros   | Kehys            | Kehys            |
 
 ### Palvelun alkuosat ja datayksiköt
 
@@ -907,7 +912,8 @@ Seuraavassa taulukossa esitetään tämä vastaavuus:
 
 
 
-| Binary Code | Activated Bit Values          | Decimal Value |
+
+| Binäärikoodi | Aktivoidut bittiarvot        | Desimaaliarvo |
 |-------------|-------------------------------|---------------|
 | 00000000    | 0                             | 0             |
 | 00000001    | 1                             | 1             |
@@ -922,7 +928,8 @@ Seuraavassa taulukossa esitetään tämä vastaavuus:
 Kun haluat muuntaa binäärin desimaaliluvuksi, lisää niiden bittien painot, jotka on asetettu arvoon 1.
 
 
-| Binary     | Decimal Value |
+
+| Binääri    | Desimaaliarvo |
 | ---------- | ------------- |
 | `10101100` | 172           |
 | `00010000` | 16            |
@@ -961,13 +968,14 @@ Alun perin IPv4-verkot jaettiin viiteen **luokkaan**: (A, B, C, D ja E). Kukin l
 
 
 
-| Class | Leading Bits | First Byte Range | Default Subnet Mask | Purpose                          |
+
+| Luokka | Johtavat bitit | Ensimmäisen tavun alue | Oletusverkon peite | Tarkoitus                      |
 | ----- | ------------ | ---------------- | ------------------- | -------------------------------- |
-| A     | 0            | 0 – 127          | 255.0.0.0           | Very large networks              |
-| B     | 10           | 128 – 191        | 255.255.0.0         | Medium-sized networks            |
-| C     | 110          | 192 – 223        | 255.255.255.0       | Small networks                   |
-| D     | 1110         | 224 – 239        | N/A                 | Multicast addresses              |
-| E     | 1111         | 240 – 255        | N/A                 | Experimental (not publicly used) |
+| A     | 0            | 0 – 127          | 255.0.0.0           | Erittäin suuret verkot           |
+| B     | 10           | 128 – 191        | 255.255.0.0         | Keskikokoiset verkot             |
+| C     | 110          | 192 – 223        | 255.255.255.0       | Pienet verkot                    |
+| D     | 1110         | 224 – 239        | Ei sovelleta        | Multicast-osoitteet              |
+| E     | 1111         | 240 – 255        | Ei sovelleta        | Kokeellinen (ei julkisessa käytössä) |
 
 Erityispuheenvuorot:
 
@@ -1222,7 +1230,8 @@ Reititystaulukko, jota hallinnoidaan joko manuaalisesti (staattinen reititys) ta
 Reititystaulukko toimii kartoitustaulukkona kohde-IP-osoitteiden ja seuraavien yhdyskäytävien välillä. Siihen tallennetaan yleensä verkkotunnukset (_network ID_) eikä jokaista yksittäistä isäntää Address, mikä pienentää sen kokoa huomattavasti.
 
 
-| Destination Address | Next-Hop Router Address | Interface |
+
+| Kohdeosoite | Seuraavan hypyn reitittimen osoite | Liitäntä |
 | ------------------- | ----------------------- | --------- |
 
 Näiden merkintöjen avulla reititin voi nopeasti määrittää, minkä Interface:n kautta ja mihin solmuun kukin datagrammi on lähetettävä. Yhdessä ARP:n kanssa, joka ratkaisee vastaavat MAC-osoitteet, tämä takaa tehokkaan ja luotettavan tiedonsiirron verkossa.
@@ -1298,11 +1307,12 @@ Tämä dynaamisen käännöksen periaate perustuu tarkkaan taulukon hallintaan: 
 _Esimerkki yksinkertaistetusta NAT-käännöstaulukosta:_
 
 
-| Internal IP   | External IP    | Duration (sec) | Reusable? |
+
+| Sisäinen IP | Ulkoinen IP | Kesto (sek) | Uudelleenkäytettävä? |
 | ------------- | -------------- | -------------- | --------- |
-| 10.101.10.20  | 193.48.100.174 | 1,200          | no        |
-| 10.100.54.251 | 193.48.101.8   | 3,601          | yes       |
-| 10.100.0.89   | 193.48.100.46  | 0              | no        |
+| 10.101.10.20  | 193.48.100.174 | 1,200          | ei        |
+| 10.100.54.251 | 193.48.101.8   | 3,601          | kyllä     |
+| 10.100.0.89   | 193.48.100.46  | 0              | ei        |
 
 Tässä esimerkissä, jos yksikään paketti ei ole kulkenut toisen merkinnän kautta yli tuntiin (3600 sekuntiin), se merkitään uudelleenkäytettäväksi. Sitä vastoin kesto nolla osoittaa aktiivista viestintää, jolloin kartoitus on lukittu.
 
@@ -1766,13 +1776,14 @@ Määrittelemätöntä IPv6 Address:tä edustaa `::` tai tarkemmin sanottuna `::
 
 
 
-| IPv6 Address Prefix | Description                                 |
+
+| IPv6-osoitteen etuliite | Kuvaus                           |
 | ------------------- | ------------------------------------------- |
-|::/8                | Reserved addresses                          |
-| 2000::/3            | Unicast addresses, routable on the Internet |
-| fc00::/7            | Unique local addresses (1)                  |
-| fe80::/10           | Link-local addresses                        |
-| ff00::/8            | Multicast addresses                         |
+|::/8                | Varatut osoitteet                           |
+| 2000::/3            | Unicast-osoitteet, reititettävissä Internetissä |
+| fc00::/7            | Yksilölliset paikalliset osoitteet (1)     |
+| fe80::/10           | Link-local-osoitteet                        |
+| ff00::/8            | Multicast-osoitteet                         |
 
 (1): *Etuliite `fd00::/8` on suositeltavampi yksityisessä lähiverkossa sellaisten sisäisten osoitteiden osoittamisessa, jotka eivät ole reititettävissä Internetiin.*
 
@@ -1854,24 +1865,28 @@ Yksilölliset paikalliset osoitteet (_ULA_, lyhenne sanoista _Unique Local Addre
 Käsitteellisesti IPv6-osoitteet esitetään usein binäärirakenteena, jonka ensimmäinen puolikas (ensimmäiset 64 bittiä) yksilöi verkon etuliitteen ja toinen puolikas (myös 64 bittiä) yksilöi laitteen Interface:n kyseisessä verkossa. Tämä jako helpottaa Address automaattista konfigurointia SLAAC:n (_Stateless Address Autoconfiguration_) kaltaisten mekanismien avulla, joiden avulla koneet voivat automaattisesti generate valita vakaan Address MAC Address:n tai pseudosattumanvaraisen tunnisteen perusteella.
 
 
-| Field     | Prefix | L | Global ID | Subnet | Interface ID |
+
+| Kenttä    | Etuliite | L | Globaali tunniste | Aliverkko | Liitännän tunniste |
 |-----------|--------|---|-----------|--------|---------------|
-| Bits      | 7      | 1 | 40        | 16     | 64            |
+| Bitit     | 7      | 1 | 40        | 16     | 64            |
 
 IPv6-arkkitehtuuri noudattaa nykyisen Internetin hierarkkista globaalia reititysmallia. Prefiksien jakamisen avulla alueelliset rekisterit ja verkko-operaattorit voivat hallita Address:n jakamista hajautetusti ja varmistaa samalla maailmanlaajuisen yksikäsitteisyyden. Tässä järjestelmässä sama isäntä voi samanaikaisesti pitää hallussaan maailmanlaajuista yksilähetys Address:tä Internet-viestintää varten ja linkkilokaalista Address:tä paikallista vuorovaikutusta varten, esimerkiksi välittömien naapurien kanssa tai reitittimen etsintäviestejä varten.
 
 
-| Field     | Prefix | Zero | Interface ID |
+
+
+| Kenttä    | Etuliite | Nolla | Liitännän tunniste |
 |-----------|--------|------|--------------|
-| Bits      | 10     | 54   | 64           |
+| Bitit     | 10     | 54   | 64           |
 
 **Anycast-osoitteet** ovat välikäsite, joka perustuu unicast-malliin mutta voi tietyissä tapauksissa käyttäytyä kuten multicast. Anycast Address on pohjimmiltaan unicast Address, joka on osoitettu useille eri verkkosolmujen välille jaetuille liitännöille. Kun paketti lähetetään anycast Address:lle, IPv6-protokolla pyrkii toimittamaan sen jollekin kyseisen Address:n jakavista isännistä, yleensä reititystopologialtaan lähimmälle. Tämä lähestymistapa optimoi kyselyjen käsittelynopeuden ja parantaa hajautettujen palvelujen häiriönsietokykyä. Klassinen esimerkki tästä ovat DNS-palvelimet, joissa anycast-osoitteet ohjaavat kyselyt automaattisesti lähimpään läsnäolopisteeseen.
 
 
 
-| Field     | Prefix | Subnet | Interface ID |
-|-----------|--------|--------|--------------|
-| Bits      | 48     | 16     | 64           |
+
+| Kenttä     | Etuliite | Aliverkko | Liittymän tunnus |
+|-----------|--------|--------|______________|
+| Bitit      | 48     | 16     | 64           |
 
 IPv6:ssa **monilähetysosoitteet** korvaavat broadcast-mekanismin, jota pidettiin liian kalliina ja sopimattomana maailmanlaajuiseen verkkoon. Monilähetys Address yksilöi ryhmän liitäntöjä, tyypillisesti useita isäntiä, jotka haluavat vastaanottaa samoja paketteja samanaikaisesti.
 
@@ -1893,9 +1908,10 @@ IPv6-multicast Address:n rakenne sisältää seuraavat osat:
 - tunnistekenttä (112 bittiä), joka yksilöi monilähetysryhmän numeron.
 
 
-| Field      | Prefix | Flags | Scope | Group ID |
+
+| Kenttä      | Etuliite | Liput | Laajuus | Ryhmän tunnus |
 |------------|--------|--------|--------|----------|
-| Bits       | 8      | 4      | 4      | 112      |
+| Bitit       | 8      | 4      | 4      | 112      |
 
 Tunnettu esimerkki IPv6-monilähetysten käytöstä on _Neighbor Discovery Protocol_ (NDP). Sen sijaan, että NDP käyttäisi ARP:tä kuten IPv4:ssä, se käyttää monilähetysosoitteita, kuten `ff02::1:ff00:0/104`, naapurien löytämispyyntöjen lähettämiseen, ja se kohdistuu vain samalla linkillä oleviin isäntäkoneisiin.
 
@@ -2013,8 +2029,9 @@ Vuodesta 2006 lähtien kukin RIR on saanut IANA:lta IPv6 /12-lohkon, jonka kiint
 Tyypillinen jakohierarkia näyttää seuraavalta:
 
 
-| IANA | RIR | LIR | Customer | Subnet | Interface |
-|------|-----|-----|----------|--------|-----------|
+
+| IANA | RIR | LIR | Asiakas | Aliverkko | Liittymä |
+|------|-----|-----|----------|--------|----------|
 |  3   | 20  |  9  |    16    |   16   |     64    |
 
 Kun osoitteita on näin runsaasti, NAT (*Network Address Translation*), joka oli aikoinaan IPv4:ssä välttämätön Address-pulan ratkaisemiseksi, ei ole enää tarpeen. Jokaisella isännällä voi olla yksilöllinen, globaalisti reititettävissä oleva julkinen Address, mikä yksinkertaistaa päästä päähän -yhteyttä ja helpottaa IPSecin, VoIP:n tai saapuvien yhteyksien kaltaisten protokollien käyttöä.

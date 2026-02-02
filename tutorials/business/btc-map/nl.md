@@ -28,7 +28,7 @@ Beschikbaar op:
 
 
 - iOS via [AppStore](https://apps.apple.com/app/btc-world-map/id6443604345)
-- Android via [Play Store] (https://play.google.com/store/apps/details?id=org.btcmap.app)
+- Android via [Play Store](https://play.google.com/store/apps/details?id=org.btcmap.app)
 - [F-Droid](https://f-droid.org/en/packages/org.btcmap/) de android open-source app catalogus
 - door de [apk android](https://github.com/teambtcmap/btcmap-android/releases/latest) rechtstreeks te downloaden van de github van het project
 - via de webapp vanuit je browser (onze huidige weergave)
@@ -247,7 +247,7 @@ Je zult meteen de oranje gekleurde gebieden opmerken. Zoals je kunt zien, zijn d
 
 
 
-Met BTC Map kun je [je eigen gemeenschap toevoegen] (https://btcmap.org/communities/add/), laten we het stap voor stap bekijken:
+Met BTC Map kun je [je eigen gemeenschap toevoegen](https://btcmap.org/communities/add/), laten we het stap voor stap bekijken:
 
 
 

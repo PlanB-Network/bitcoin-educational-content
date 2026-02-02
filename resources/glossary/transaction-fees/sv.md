@@ -1,5 +1,6 @@
 ---
-term: TRANSAKTIONSAVGIFTER
+term: Transaktionsavgifter
+definition: Belopp som ersätter miners för att inkludera en transaktion i ett block, beräknat som skillnaden mellan inputs och outputs.
 ---
 
 Transaktionsavgifter utgör en summa som syftar till att kompensera miners för deras deltagande i Proof of Work-mekanismen. Dessa avgifter uppmuntrar miners att inkludera transaktioner i de block de skapar. De uppstår genom skillnaden mellan den totala mängden inmatningar och den totala mängden utmatningar i en transaktion:
@@ -28,4 +29,3 @@ I detta specifika exempel var det en transaktion som initierades av direktören 
 
 Det är också nödvändigt att ta hänsyn till gränserna för rensning. Under perioder med hög belastning rensar nodernas mempools sina väntande transaktioner under ett visst tröskelvärde för att respektera deras tilldelade RAM-gräns. Denna gräns väljs fritt av användaren, men många lämnar standardvärdet för Bitcoin Core på 300 MB. Det kan modifieras i filen `Bitcoin.conf` med parametern `maxmempool`.
 
-> ► * På engelska kallas det för "transaction fees" *

@@ -1,5 +1,6 @@
 ---
-term: bech32 和 bech32m
+term: Bech32與Bech32m
+definition: SegWit 地址（以 bc1 開頭）的編碼格式，與 Legacy 地址相比，提供更好的錯誤檢測和更佳的可讀性。
 ---
 
 `Bech32`和`Bech32m`是用於接收比特幣的兩種 Address 編碼格式。它們基於稍作修改的基 32。它們結合了基於錯誤校正演算法 BCH (*Bose-Chaudhuri-Hocquenghem*) 的校驗和。與以 `Base58check` 編碼的 Legacy 位址相比，`Bech32` 和 `Bech32m` 位址的校驗和更有效率，可偵測錯字並自動更正。它們的格式也提供了更好的可讀性，只有小寫字符。以下是此格式以 10 為基數的加法矩陣：

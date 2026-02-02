@@ -1,6 +1,7 @@
 ---
-term: KORDUVKASUTATAV MAKSEKOOD
+term: Korduvkasutatav maksekood
 
+definition: BIP47 staatiline identifikaator, mis võimaldab tuletada unikaalseid aadresse ilma aadresse taaskasutamata.
 ---
 BIP47 puhul on korduvkasutatav maksekood staatiline identifikaator, mis genereeritakse Bitcoini rahakotist, mis võimaldab teatamistehingut ja unikaalsete aadresside tuletamist. Sellega välditakse aadresside korduvkasutamist, mis toob kaasa privaatsuse kadumise, ilma et iga makse puhul oleks vaja käsitsi tuletada ja edastada uusi, kasutamata aadresse. BIP47 puhul on korduvkasutatavad maksekoodid konstrueeritud järgmiselt:
 

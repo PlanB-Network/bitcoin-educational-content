@@ -1,6 +1,7 @@
 ---
-term: ASSUME VALID
+term: Assume valid
 
+definition: Bitcoin Core-parametri, joka sallii allekirjoitus-tarkistuksen ohittamisen blokeille ennen tiettyä pistettä, nopeuttaen alkuperäistä synkronointia.
 ---
 Määritysparametri enemmistöasiakasohjelmassa Bitcoin Core, jonka avulla solmu, joka on juuri alustettu (mutta ei ole vielä suorittanut IBD:tä), voi ohittaa allekirjoitusten tarkistamisen kaikkien lohkoihin sisältyvien transaktioiden osalta ennen tiettyä tiettyä lohkoa. Tämä kuuluisa lohko määritellään sen otsikon eli hash:n jäljen perusteella. Valittu lohko uusitaan jokaisen uuden Bitcoin Core -version myötä. Jos solmu on aktivoinut tämän parametrin, se tarkistaa siis alustuksen yhteydessä lohkon otsikkoketjun löytääkseen haaran, jossa on eniten kertynyttä työtä. Jos solmu havaitsee Core:n tarjoaman hashin valitsemassaan haarassa, se jättää edeltävien lohkojen allekirjoitusten tarkistamisen pois. Muussa tapauksessa solmu jatkaa perinteisellä synkronoinnilla (IBD) ja tarkistaa kaiken itse.
 

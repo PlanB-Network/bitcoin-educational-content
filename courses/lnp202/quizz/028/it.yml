@@ -1,0 +1,9 @@
+question: Qual è il ruolo della watchtower quando rileva un tentativo di imbroglio?
+answer: Pubblicare la transazione della sanzione
+wrong_answers:
+  - Chiudere il canale in modo cooperativo
+  - Congelare i fondi
+  - Segnalazione di un pari al nucleo Bitcoin
+explanation: |
+  La watchtower trasmette automaticamente la transazione di penalità per conto dell'utente.
+reviewed: false

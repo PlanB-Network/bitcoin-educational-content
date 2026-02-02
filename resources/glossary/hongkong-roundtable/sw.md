@@ -1,5 +1,6 @@
 ---
-term: HONG-KONG ROUNDTABLE
+term: Hong-kong roundtable
+definition: Mkutano wa kihistoria wa 2016 kati ya watengenezaji wa Bitcoin Core na wachimbaji kuhusu upanuzi (scalability) wa mfumo.
 ---
 
 Tukio la kihistoria la Vita vya Blocksize lililofanyika Februari 20, 2016, huko Hong Kong. Ulikuwa mkutano muhimu kati ya watengenezaji wa Bitcoin Core na wachimba migodi ili kujadili ukubwa wa mfumo na mkakati wa kuupanua. Mvutano ulikuwa mkubwa kabla ya mkutano, hasa kutokana na kuongezeka kwa Bitcoin Classic, pendekezo la Hard Fork lililoungwa mkono na Gavin Andressen lililolenga kuongeza ukubwa wa block hadi 2 MB. Watu mashuhuri katika mfumo wa ikolojia walishiriki katika mijadala hiyo, wakiwemo Jihan Wu na Micree Zhan, waanzilishi-wenza wa Bitmain, Adam Back, rais wa Blockstream, na Luke Dashjr, Matt Corallo, na Peter Todd.

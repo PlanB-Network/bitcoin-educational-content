@@ -1,0 +1,8 @@
+question: Co odróżnia aktywa regulowane od nieregulowanych w systemie aktywów natywnych Liquid?
+answer: Regulowane aktywa wymagają drugiego podpisu z serwera autoryzacji przed ich przeniesieniem, umożliwiając zgodność z KYC/AML
+wrong_answers:
+  - Aktywa regulowane wykorzystują inteligentne kontrakty, podczas gdy aktywa nieregulowane wykorzystują proste wezwania do emisji RPC
+  - Aktywa regulowane są wspierane przez rezerwy Bitcoin, podczas gdy aktywa nieregulowane istnieją tylko w łańcuchu bocznym
+  - Aktywa regulowane wymagają zgody funkcjonariusza na utworzenie, podczas gdy aktywa nieregulowane mogą być wydawane bez zezwolenia
+explanation: |
+  W architekturze Liquid zarówno aktywa regulowane, jak i nieregulowane mogą być emitowane bez pozwolenia przy użyciu prostych wywołań RPC bez inteligentnych kontraktów. Kluczowa różnica polega na ich ruchu: aktywa regulowane wykorzystują platformę zarządzania aktywami Blockstream (AMP) do egzekwowania zgodności, wymagając dodatkowego podpisu autoryzacyjnego przed transferami, podczas gdy aktywa nieregulowane mogą poruszać się swobodnie bez takich ograniczeń.

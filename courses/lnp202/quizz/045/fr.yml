@@ -1,0 +1,9 @@
+question: Pourquoi un profil d'opérateur de nœud Lightning commerçant ne peut-il pas compter sur ses propres paiements ?
+answer: Flux majoritairement entrants
+wrong_answers:
+  - Flux majoritairement sortants
+  - Canaux trop petits
+  - Frais onchain élevés
+explanation: |
+  En encaissant sans dépenser, le commerçant ne déplace pas naturellement la liquidité vers l’extérieur de ses canaux.
+reviewed: false

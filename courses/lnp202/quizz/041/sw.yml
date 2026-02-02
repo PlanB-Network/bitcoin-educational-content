@@ -1,0 +1,9 @@
+question: Ninaweza kusakinisha ThunderHub wapi kwenye Umbrel?
+answer: Duka la Programu
+wrong_answers:
+  - Koni ya SSH
+  - Mipangilio ya mfumo
+  - Kiini cha Interface Bitcoin
+explanation: |
+  ThunderHub imewekwa kama programu kupitia Duka la Programu la Umbrel.
+reviewed: false

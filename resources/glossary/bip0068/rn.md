@@ -1,5 +1,6 @@
 ---
 term: BIP0068
+definition: Ishirwaho rya timelocks zijanye bifashishije nSequence field, ryemera guhagarika itunshwa mu gihe kanaka inyuma y'iyemezwa ry'itunshwa ryayibaruye.
 ---
 
 BIP68 yashizeho ubushobozi bwo gukoresha ibihe vy'ugufunga biciye ku mwanya wa `nSequence`.

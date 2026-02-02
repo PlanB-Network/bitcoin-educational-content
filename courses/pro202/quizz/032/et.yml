@@ -1,0 +1,8 @@
+question: Mis on peamine põhjus, miks paljas multisigitehing suures osas asendus P2SHga keeruliste kulutingimuste puhul?
+answer: Paljas multisig avaldab kõik avalikud võtmed on-chain, mis muudab tehingud suureks, kalliks ja raskesti aadressidena kodeeritavaks
+wrong_answers:
+  - Paljas multisig nõuab rohkem allkirju kui P2SH, et saavutada mitme osapoolega tehtavate tehingute puhul sama turvatase
+  - Paljas multisig ei saa käsitleda ajaliselt lukustatud tehinguid või tingimuslikke kulutamisnõudeid, nagu P2SH suudab
+  - Paljad multisig signatuurid ei ühildu kaasaegse wallet tarkvaraga ja neid ei saa edastada praegustele sõlmpunktidele
+explanation: |
+  P2SH võeti kasutusele spetsiaalselt paljaste multisigide ebatõhususe kõrvaldamiseks. Paljas multisig nõuab, et kõik avalikud võtmed oleksid nähtavad scriptPubKey's, mis tekitab suuri tehingusuurusi, mis maksavad rohkem tasusid ja mida on raske esitada kasutajasõbralike aadressidena. P2SH lahendab selle probleemi, peites keerulise skripti 20 baidi suuruse hashi taha, paljastades tegelikud kulutustingimused alles siis, kui väljund on kulutatud. See vähendab on-chain jalajälge, parandab privaatsust ja võimaldab standardseid aadressiformaate, säilitades samas samad turvatagatised.

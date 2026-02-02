@@ -1,6 +1,7 @@
 ---
-term: ADAPTERI ALLEKIRJOITUS
+term: Adaptor signature
 
+definition: Kryptografinen tekniikka, joka sitoo allekirjoituksen salaisuuteen niin, että allekirjoituksen julkaiseminen paljastaa salaisuuden. Hyödyllinen atomivaihtoihin ilman luotettavaa välikäyttäjää.
 ---
 Kryptografinen menetelmä, jonka avulla voidaan yhdistää aito allekirjoitus ja ylimääräinen allekirjoitus (ns. "sovitinallekirjoitus") salaisen tiedon paljastamiseksi. Menetelmä toimii siten, että kun tiedetään kaksi elementtiä oikeasta allekirjoituksesta, mukautetusta allekirjoituksesta ja salaisesta tiedosta, voidaan päätellä puuttuva kolmas elementti. Yksi tämän menetelmän mielenkiintoisista ominaisuuksista on se, että jos tiedämme vastapuolemme mukautetun allekirjoituksen ja kyseisen mukautetun allekirjoituksen laskemiseen käytettyyn salaisuuteen liittyvän elliptisen käyrän tietyn pisteen, voimme johtaa oman mukautetun allekirjoituksen, joka vastaa samaa salaisuutta, ilman että meillä on koskaan suoraa pääsyä itse salaisuuteen. Kahden toisilleen epäluotettavan sidosryhmän välisessä vaihdossa tämä tekniikka mahdollistaa kahden arkaluonteisen tiedon samanaikaisen paljastamisen osallistujien välillä. Tämä prosessi poistaa luottamuksen tarpeen hetkellisissä transaktioissa, kuten kolikon- tai atomivaihdossa. Otetaanpa esimerkki, jotta ymmärrämme sen paremmin. Alice ja Bob haluavat lähettää toisilleen 1 BTC, mutta he eivät luota toisiinsa. Siksi he käyttävät adaptaattorisignaattoreita, jotta he eivät tarvitse tässä vaihdossa luottamusta toiseen osapuoleen (jolloin vaihdosta tulee "atominen" vaihto). Ne toimivat seuraavasti:
 

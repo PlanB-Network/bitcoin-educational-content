@@ -1,0 +1,9 @@
+question: Hvorfor er det mer komplisert å sikkerhetskopiere en Lightning-node enn en Bitcoin onchain wallet?
+answer: Kanalenes tilstand er i utvikling
+wrong_answers:
+  - Kanalens likviditet avhenger av mempool
+  - Ta opp sladder om Lightning-nettverket
+  - Tilbakekallingsnøkler utløper over tid
+explanation: |
+  Lynkanaler endrer tilstand ved hver betaling, noe som gjør en enkel fast eller periodisk sikkerhetskopiering farlig.
+reviewed: false

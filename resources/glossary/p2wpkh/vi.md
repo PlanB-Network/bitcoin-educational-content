@@ -1,6 +1,7 @@
 ---
 term: P2WPKH
 
+definition: Kịch bản SegWit gốc khóa bitcoin vào hàm băm của khóa công khai, địa chỉ bc1q.
 ---
 P2WPKH stands for *Pay to Witness Public Key Hash*. It is a standard script model used to establish spending conditions on a UTXO. P2WPKH was introduced with the implementation of SegWit in August 2017.
 

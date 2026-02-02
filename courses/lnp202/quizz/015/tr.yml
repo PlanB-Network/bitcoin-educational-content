@@ -1,0 +1,9 @@
+question: Lightning düğümünün gelişmiş ayarlarında neler özelleştirilebilir?
+answer: Düğümün genel adı
+wrong_answers:
+  - Düğüm mutabakat kuralları
+  - Düğümün özel anahtarları
+  - Düğüm tarafından seçilen rotalar
+explanation: |
+  Gelişmiş ayarlar, fikir birliğini veya Lightning ağının çalışmasını etkilemeden düğüm tanımlama öğelerini özelleştirmenize olanak tanır.
+reviewed: false

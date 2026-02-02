@@ -1,0 +1,8 @@
+question: ¿Cuál es el principal mecanismo por el que la función de reservas de canal cero del SDK de Breez crea un riesgo adicional que deben absorber los proveedores de servicios de rayos?
+answer: Los PSL deben aceptar el riesgo de que los usuarios gasten todo su saldo de canal, eliminando el colchón de seguridad que tradicionalmente protege contra los cierres forzosos de canal
+wrong_answers:
+  - Los PSL se convierten en responsables de mantener la sincronización continua de los gráficos de red en múltiples dispositivos de usuario sin la tradicional compensación de tarifas basada en reservas
+  - Los PSL deben garantizar el encaminamiento instantáneo de los pagos sin el colchón de liquidez que proporcionan las reservas de canales para hacer frente a los escenarios de congestión de la red
+  - Los PSL asumen la responsabilidad de los fallos de intercambio de on-chain cuando los usuarios intentan convertir todo su saldo de rayos a Bitcoin durante los periodos de tarifas altas
+explanation: |
+  Las reservas de canal cero permiten a los usuarios gastar todo su saldo mostrado, pero esto elimina el tradicional colchón de seguridad que protege a los proveedores de servicios de rayos durante los cierres forzosos de canal. Las reservas de canal suelen garantizar que algunos fondos permanezcan bloqueados para cubrir los costes de cierre y proporcionar seguridad frente a comportamientos malintencionados. Al eliminar estas reservas para mejorar la experiencia del usuario, los PSL deben absorber los riesgos operativos y financieros adicionales para cuya mitigación se diseñaron estos amortiguadores, lo que representa una clara compensación en la que la complejidad técnica y el riesgo se trasladan de los usuarios a los proveedores de servicios.

@@ -41,7 +41,7 @@ Teises osas keskendutakse 1. osas vaadeldud teoreetiliste kontseptsioonide raken
 Viimase osa juhivad teised kõnelejad, kes tutvustavad konkreetseid RGB-põhiseid rakendusi, et tuua esile reaalseid kasutusjuhtumeid.
 
 ---
-See koolituskursus kasvas algselt välja kahenädalasest edasijõudnute arenduslaagrist Viareggios, Toscanas, mille korraldas [Fulgur'Ventures] (https://fulgur.ventures/). Esimene nädal, mis keskendus Rustile ja SDK-dele, on leitav sellest teisest kursusest:
+See koolituskursus kasvas algselt välja kahenädalasest edasijõudnute arenduslaagrist Viareggios, Toscanas, mille korraldas [Fulgur'Ventures](https://fulgur.ventures/). Esimene nädal, mis keskendus Rustile ja SDK-dele, on leitav sellest teisest kursusest:
 
 https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
@@ -623,7 +623,7 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 
 ### Tapret
 
-Viimane võimalus on kasutada **Taproot** (kasutusele võetud koos BIP341) koos *Tapret* skeemiga. *Tapret* on deterministliku kohustuse keerukam vorm, mis toob kaasa parandusi seoses jalajälje vähenemisega plokiahelas ja lepinguoperatsioonide konfidentsiaalsusega. Põhiidee seisneb selles, et kohustus on peidetud [taproot-tehingu] (https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki) `Script Path Spend` osasse.
+Viimane võimalus on kasutada **Taproot** (kasutusele võetud koos BIP341) koos *Tapret* skeemiga. *Tapret* on deterministliku kohustuse keerukam vorm, mis toob kaasa parandusi seoses jalajälje vähenemisega plokiahelas ja lepinguoperatsioonide konfidentsiaalsusega. Põhiidee seisneb selles, et kohustus on peidetud [taproot-tehingu](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki) `Script Path Spend` osasse.
 
 ![RGB-Bitcoin](assets/en/036.webp)
 
@@ -660,7 +660,7 @@ Esimesel juhul alustame taproot väljundvõtmest (*Taproot Output Key*) `Q`, mis
 
 
 - "P": _Key Path Spend_ sisemine avalik võti.
-- "G": elliptilise kõvera [secp256k1] (https://en.bitcoin.it/wiki/Secp256k1) genereeriv punkt.
+- "G": elliptilise kõvera [secp256k1](https://en.bitcoin.it/wiki/Secp256k1) genereeriv punkt.
 - t = tH_TWEAK(P)` on tweak-tegur, mis arvutatakse _tagged hash_ abil (nt `SHA-256(SHA-256(TapTweak) || P)`) vastavalt [BIP86](https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki#address-derivation). See tõestab, et varjatud skripti ei ole.
 
 **Tapret** kulukohustuse lisamiseks lisage **Skripti tee kulutused** koos **üheselt mõistetava skriptiga** järgmiselt:
@@ -808,7 +808,7 @@ Konkreetselt öeldes kuulub iga _üleminekupakett_ konkreetsele lepingule. Kogu 
 
 #### MPC root Hash
 
-Tegelik väärtus, mis kirjutatakse ahelas (`Opret` või `Tapret`), kannab nime `mpc::Commitment`. See arvutatakse kujul [BIP-341] (https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki), vastavalt valemile :
+Tegelik väärtus, mis kirjutatakse ahelas (`Opret` või `Tapret`), kannab nime `mpc::Commitment`. See arvutatakse kujul [BIP-341](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki), vastavalt valemile :
 
 ```txt
 mpc::Commitment = SHA-256(SHA-256(mpc_tag) || SHA-256(mpc_tag) || depth || cofactor || mpc::Root )
@@ -3168,7 +3168,7 @@ Seda saab edastada Bobile mis tahes kanali kaudu (tekst, QR-kood jne).
 Sellest arvest ülekandmiseks :
 
 
-- Bobil (kes hoiab žetoonid oma peidus) on Bitcoini rahakott. Ta peab ette valmistama Bitcoini tehingu (PSBT kujul, nt `tx.psbt`), mis kulutab UTXO-d, kus asuvad vajalikud RGB-märgid, pluss üks UTXO valuuta jaoks (vahetus) ;
+- Bob (kes hoiab tokeneid oma stash’is) omab Bitcoini rahakotti. Ta peab ette valmistama Bitcoini tehingu (PSBT kujul, nt `tx.psbt`), mis kulutab UTXO-d, kus asuvad vajalikud RGB tokenid, ning lisaks ühe UTXO vahetusraha jaoks (change);
 - Bob täidab järgmise käsu:
 
 ```bash
@@ -3437,7 +3437,7 @@ Alates umbes 2022. aastast on Bitfinexi RGB meeskond keskendunud tehnoloogilise 
 
 - Osalemine lähtekoodi ja protokollide spetsifikatsioonides, sealhulgas parendusettepanekute kirjutamine, vigade parandamine jne;
 - Tööriistad arendajatele, et lihtsustada RGB integreerimist oma rakendustesse;
-- Mobiilse rahakoti [Iris] (https://iriswallet.com/) kujundamine, et katsetada ja illustreerida RGB kasutamise parimaid tavasid;
+- Mobiilse rahakoti [Iris](https://iriswallet.com/) kujundamine, et katsetada ja illustreerida RGB kasutamise parimaid tavasid;
 - Kohandatud Lightning-sõlme loomine, mis on võimeline haldama RGB-vara kanalit;
 - Teiste meeskondade toetamine RGB-lahenduste loomisel, et soodustada mitmekesisust ja tugevat ökosüsteemi.
 

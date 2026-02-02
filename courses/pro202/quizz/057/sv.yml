@@ -1,0 +1,8 @@
+question: Varför använder P2WSH SHA256-hashning i stället för hash160 (RIPEMD160+SHA256) för skriptåtagandet i vittnesprogram?
+answer: SHA256 ger en 32-byte-hash som skiljer P2WSH från P2WPKH:s 20-byte-hash160 och ger starkare säkerhet för komplexa skript
+wrong_answers:
+  - SHA256 är snabbare att beräkna än hash160, vilket minskar valideringstiden för komplexa transaktioner med flera siffror i scenarier med hög genomströmning
+  - "Hash160 utrangerades i SegWit på grund av potentiella kollisionssårbarheter som upptäcktes under Bitcoin: s tidiga utvecklingsfas"
+  - SHA256 tillåter att vittnesskript är större än 520 byte, medan hash160 införde strikta storleksbegränsningar för skriptets komplexitet
+explanation: |
+  P2WSH använder SHA256 för att skapa 32-byte-hashar specifikt för att skilja sig från P2WPKH:s 20-byte-hash160-engagemang, vilket gör att noder omedelbart kan identifiera vittnesprogrammets version. Den längre hashen ger också förbättrad säkerhet för komplexa skript som kan ha högre värde eller mer attackyta. De andra alternativen är felaktiga: SHA256 är inte nödvändigtvis snabbare än hash160, hash160 utrangerades inte på grund av sårbarheter och valet av hashfunktion påverkar inte skriptstorleksgränserna.

@@ -1,5 +1,6 @@
 ---
-term: MINER
+term: Miner
+definition: Person managing a machine participating in proof of work to validate Bitcoin transactions.
 ---
 
 In the context of Bitcoin, a miner refers to a person who manages a mine, i.e. a computer engaged in the mining process, which consists of participating in the proof-of-work (*Proof-of-Work*). The miner groups the pending transactions in his Mempool to form a candidate block. He then searches for a valid hash, less than or equal to the target, for the header of this block by modifying the various nonces. If he finds a valid hash, he broadcasts his block to the Bitcoin network and pockets the associated pecuniary reward, made up of the block subsidy (creation of new bitcoins ex-nihilo), and the transaction fees.

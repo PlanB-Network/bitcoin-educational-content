@@ -1,0 +1,9 @@
+question: Mengapa perutean di Lightning sulit untuk menghasilkan keuntungan?
+answer: Biaya dan persaingan
+wrong_answers:
+  - Batas saluran
+  - Tidak ada permintaan
+  - Kurangnya likuiditas global
+explanation: |
+  Biaya onchain, persaingan, dan persyaratan operasional membuat profitabilitas bisnis perutean menjadi tidak pasti.
+reviewed: false

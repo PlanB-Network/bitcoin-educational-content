@@ -1,0 +1,9 @@
+question: Jaká je hlavní nevýhoda nuceného uzavření?
+answer: Prostředky zablokované časovým zámkem
+wrong_answers:
+  - Částečná ztráta finančních prostředků
+  - Zastaralost uzlu Lightning
+  - Desynchronizace uzlu Lightning
+explanation: |
+  Finanční prostředky jsou blokovány časovým zámkem a poplatky jsou často vysoké.
+reviewed: false

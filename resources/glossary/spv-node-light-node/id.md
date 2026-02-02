@@ -1,6 +1,7 @@
 ---
-term: SPV (NODE RINGAN)
+term: Node SPV (node ringan)
 
+definition: Klien ringan yang memvalidasi transaksi dengan hanya menyimpan header blok dan memverifikasi bukti Merkle.
 ---
 Sebuah node SPV (*Simple Payment Verification*), terkadang disebut "_light node"_, adalah sebuah klien ringan dari sebuah node Bitcoin yang mengizinkan pengguna untuk memvalidasi transaksi tanpa harus menyimpan seluruh _blockchain_. Sebagai gantinya, sebuah node SPV hanya menyimpan _header_ blok dan mendapatkan informasi mengenai transaksi tertentu dengan menanyakan seluruh node jika diperlukan. Prinsip verifikasi ini dimungkinkan oleh struktur transaksi dalam blok Bitcoin, yang diatur dalam akumulator kriptografi (Pohon Merkle).
 

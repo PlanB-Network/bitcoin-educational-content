@@ -1,0 +1,9 @@
+question: Menurut kritik fundamental Satoshi Nakamoto, apa masalah utama dari mata uang fiat konvensional yang dirancang untuk dipecahkan oleh Bitcoin?
+answer: Kepercayaan berlebihan yang diperlukan dalam lembaga-lembaga terpusat yang secara historis telah berulang kali melanggar kepercayaan itu dengan merendahkan mata uang
+wrong_answers:
+  - Kurangnya infrastruktur digital dan lambatnya waktu pemrosesan transaksi dibandingkan dengan sistem pembayaran modern
+  - Ketidakmampuan untuk melakukan transaksi internasional tanpa perantara yang mahal dan biaya konversi mata uang
+  - Kerentanan terhadap pemalsuan dan pencurian fisik karena ketergantungan pada uang kertas dan penyimpanan fisik
+explanation: |
+  Satoshi Nakamoto secara eksplisit menyatakan bahwa 'akar masalah mata uang konvensional adalah kepercayaan yang diperlukan untuk membuatnya bekerja' dan bahwa 'sejarah mata uang fiat penuh dengan pelanggaran kepercayaan tersebut'
+  Landasan filosofis ini mendorong desain Bitcoin sebagai sistem tanpa kepercayaan yang tidak membutuhkan kepercayaan pada bank sentral atau pemerintah untuk menjaga stabilitas moneter, yang secara langsung menangani pola historis pelemahan mata uang melalui pencetakan uang yang berlebihan.

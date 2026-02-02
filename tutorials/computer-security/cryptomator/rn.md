@@ -114,7 +114,7 @@ Igikurikira, urashobora guhindura amahitamwo ari munsi y’imiterere y’abahing
 
 
 
-Igikurikira, ukeneye gusobanura **ijambobanga rihuye n'urufunguzo rwo gupfuka**. Iri jambobanga rizogufasha **gufungura safe yawe ya Cryptomator** no gushika ku makuru yayo. **Iyo uyitakaje, uratakaza uburenganzira bwo kuronka amakuru yawe**. Ubwa nyuma, uracari n'uburenganzira bwo **guhingura urufunguzo rwo gusubiza inyuma** mu gusuzuma uburyo bwa "**Ego, birarushiriza kuba vyiza kuruta kubabarira**", vyinshi mu mpwemu imwe n'urufunguzo rwo gusubizaho [BitLocker] ( Ivyo ni vyiza, ariko ntubike urufunguzo rwo gusubiza inyuma ku muzi wa OneDrive yawe!
+Igikurikira, ukeneye gusobanura **ijambobanga rihuye n'urufunguzo rwo gupfuka**. Iri jambobanga rizogufasha **gufungura safe yawe ya Cryptomator** no gushika ku makuru yayo. **Iyo uyitakaje, uratakaza uburenganzira bwo kuronka amakuru yawe**. Ubwa nyuma, uracari n'uburenganzira bwo **guhingura urufunguzo rwo gusubiza inyuma** mu gusuzuma uburyo bwa "**Ego, birarushiriza kuba vyiza kuruta kubabarira**", vyinshi mu mpwemu imwe n'urufunguzo rwo gusubizaho [BitLocker]( Ivyo ni vyiza, ariko ntubike urufunguzo rwo gusubiza inyuma ku muzi wa OneDrive yawe!
 
 
 

@@ -1,0 +1,8 @@
+question: Izina ry’igiserukira Bitcoin gikoreshwa muri Liquid Network ni irihe?
+answer: Liquid Bitcoin (LBTC)
+wrong_answers:
+  - Bitcoin yazingiwe (WBTC)
+  - Sidechain Bitcoin (SBTC)
+  - Ishirahamwe Bitcoin (FBTC)
+explanation: |
+  Liquid Bitcoin (LBTC) ni izina ryiza rya Bitcoin iyo iri ku ruhande rwa Liquid. Iyo abakoresha bashize Bitcoin yabo kuri Liquid, baronka amahera angana na LBTC ashobora gukoreshwa mu gucuruza muri Liquid Network. WBTC ni Bitcoin token ishingiye kuri Ethereum, mu gihe SBTC na FBTC atari ibimenyetso vy’ukuri vya Bitcoin bikoreshwa mu rubuga runini urwo ari rwo rwose.

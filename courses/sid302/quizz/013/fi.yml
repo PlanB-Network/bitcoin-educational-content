@@ -1,0 +1,8 @@
+question: Mitä tapahtuu Taproot:ta käyttävässä HTLC:ssä, kun molemmat osapuolet sopivat yhteistyössä, että kerroksen ylittävä vaihto suoritetaan loppuun?
+answer: He allekirjoittavat yhdessä käyttäen MuSig2:n kautta yhdistettyä julkista avaintaan, jolloin maksutapahtuma ei eroa tavanomaisesta yhden allekirjoituksen maksusta
+wrong_answers:
+  - Niiden on paljastettava täydellinen komentosarja, joka sisältää hash- ja aikalukot on-chain:n verkon todentamista varten
+  - Ne julkaisevat vain tarvittavan Merkle-puun haaran ja pitävät yhdistetyn avaimen piilossa tarkkailijoilta
+  - Ne lähettävät erillisiä transaktioita kullakin kerroksella samanaikaisesti varmistaakseen atomisoidun selvityksen ilman avainten aggregointia
+explanation: |
+  Taproot:n yhteistoiminnallinen "avainpolku" antaa osapuolille mahdollisuuden yhdistää avaimensa yhdeksi yhdistetyksi julkiseksi avaimeksi MuSig2:n avulla. Kun molemmat ovat samaa mieltä, he yksinkertaisesti allekirjoittavat yhdessä tapahtuman, joka näyttää samanlaiselta kuin mikä tahansa tavallinen maksu lohkoketjussa. Tämä tarjoaa maksimaalisen yksityisyyden ja tehokkuuden, koska mitään käsikirjoituslogiikkaa ei paljasteta ja lohkotilaa kuluu vain vähän. Muut vaihtoehdot kuvaavat virheellisesti joko HTLC:n perinteistä käyttäytymistä tai skriptipolun vastakkaista skenaariota.

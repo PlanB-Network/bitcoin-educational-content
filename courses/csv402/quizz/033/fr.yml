@@ -1,7 +1,7 @@
 question: Quel est l’objectif du terminal consignment dans le processus de transfert RGB ?
 answer: Fournir l’historique des State Transitions
 wrong_answers:
-  - Valider la Genesis du contrat
+  - Valider le Genesis du contrat
   - Supprimer les anciennes Transitions
   - Générer un nouveau Schema pour le transfert
 explanation: |

@@ -1,0 +1,8 @@
+question: Hva skjer med ScriptSig-feltene i alle inndata under konstruksjonsprosessen for sukk for eldre ECDSA-signaturverifisering?
+answer: Alle ScriptSig-feltene tømmes, og ScriptSig for den aktuelle inndataen erstattes med den tilsvarende ScriptPubKey
+wrong_answers:
+  - Alle ScriptSig-feltene forblir uendret og inngår i sin opprinnelige form i sukkberegningen
+  - "Bare ScriptSig for den aktuelle inngangen beholdes, mens ScriptSig-feltene for alle andre innganger fjernes fra transaksjonen"
+  - Alle ScriptSig-feltene erstattes med de tilsvarende ScriptPubKey-verdiene fra de refererte utdataene
+explanation: |
+  Under sighash-konstruksjon for eldre transaksjoner tømmer prosessen spesifikt alle ScriptSig-feltene først, og erstatter deretter bare den aktuelle inndataen som valideres, med den tilsvarende ScriptPubKey fra utdataen den bruker. Dette sikrer at signaturen forplikter seg til utgiftsbetingelsene uten å skape sirkulære avhengigheter der signaturer må signere seg selv. De andre alternativene er feil fordi de enten lar signaturer være på plass (noe som skaper logiske umuligheter) eller endrer alle inndata på samme måte (noe som ikke ville isolere den aktuelle inndatas valideringskontekst).

@@ -127,7 +127,7 @@ Att använda Tiankii kräver inga komplicerade tekniska förutsättningar. Appli
 
 
 
-**För privata användare (IBI App)**: Ingen tidigare wallet Lightning krävs. När du skapar ditt konto konfigurerar Tiankii automatiskt en fungerande Address Lightning via [Breez SDK Liquid] (https://sdk-doc-liquid.breez.technology/guide/about_breez_sdk_liquid.html), en nodlös implementering som använder Liquid-nätverket i bakgrunden. Du kan omedelbart ta emot och skicka betalningar utan någon teknisk konfiguration. Denna lösning förenklar drastiskt åtkomsten för nybörjare, samtidigt som den förblir självförsvarande.
+**För privata användare (IBI App)**: Ingen tidigare wallet Lightning krävs. När du skapar ditt konto konfigurerar Tiankii automatiskt en fungerande Address Lightning via [Breez SDK Liquid](https://sdk-doc-liquid.breez.technology/guide/about_breez_sdk_liquid.html), en nodlös implementering som använder Liquid-nätverket i bakgrunden. Du kan omedelbart ta emot och skicka betalningar utan någon teknisk konfiguration. Denna lösning förenklar drastiskt åtkomsten för nybörjare, samtidigt som den förblir självförsvarande.
 
 
 
@@ -431,9 +431,9 @@ För handlare innebär Tiankii en möjlighet att drastiskt minska transaktionsko
 
 - [Tiankiis officiella webbplats](https://tiankii.com)
 - [Tiankii Hjälpcenter](https://help.tiankii.com)
-- [IBI-ansökan] (https://go.ibi.me)
-- [Instrumentpanel för handlare] (https://pay.tiankii.com)
-- [Kommandocentral] (https://cc.ibi.me)
+- [IBI-ansökan](https://go.ibi.me)
+- [Instrumentpanel för handlare](https://pay.tiankii.com)
+- [Kommandocentral](https://cc.ibi.me)
 
 
 
@@ -442,10 +442,10 @@ För handlare innebär Tiankii en möjlighet att drastiskt minska transaktionsko
 
 
 
-- [Anslut LNbits] (https://help.tiankii.com/portal/en/kb/articles/connect-your-lnbits-wallet)
+- [Anslut LNbits](https://help.tiankii.com/portal/en/kb/articles/connect-your-lnbits-wallet)
 - [Connect BlueWallet (LNDHub)](https://help.tiankii.com/portal/en/kb/articles/connect-your-lndhub-bluewallet)
-- [Anslut Alby Wallet] (https://help.tiankii.com/portal/en/kb/articles/connect-your-alby-wallet)
-- [Connect Strike Wallet] (https://help.tiankii.com/portal/es/kb/articles/como-vincular-strike-wallet)
+- [Anslut Alby Wallet](https://help.tiankii.com/portal/en/kb/articles/connect-your-alby-wallet)
+- [Connect Strike Wallet](https://help.tiankii.com/portal/es/kb/articles/como-vincular-strike-wallet)
 
 
 
@@ -464,6 +464,6 @@ För handlare innebär Tiankii en möjlighet att drastiskt minska transaktionsko
 
 
 
-- [Blink Wallet] (https://blink.sv) - Wallet Lightning-kompatibel rekommenderas
+- [Blink Wallet](https://blink.sv) - Wallet Lightning-kompatibel rekommenderas
 - [LNbits](https://lnbits.com) - Självhanterad wallet-lösning
 - [Standard Bolt-kort](https://github.com/boltcard) - Tekniska specifikationer för NFC-kort

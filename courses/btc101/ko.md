@@ -55,56 +55,28 @@ Bitcoin 프로토콜은 암호화, 네트워크 통신, 유명한 "Blockchain"�
 Bitcoin는 돈과의 관계를 완전히 바꾸는 새로운 화폐 시스템이므로 사용법을 배우는 것은 자신의 자금을 통제하고자 하는 모든 사람에게 필수적인 기술이라는 것을 이해하는 것이 중요합니다.
 
 
-**섹션 1 - 소개**
 
 
-- 1장 - 코스 개요
-- 2장 - Bitcoin의 선사 시대
 
 
-**섹션 2 - 돈**
 
 
-- 3장 - 역사 속의 화폐
-- 4장 - 법정 화폐
-- 5장 - 하이퍼인플레이션
-- 6장 - 2100만 비트코인
 
 
-**섹션 3 - Bitcoin 지갑**
 
 
-- 7장 - Bitcoin Wallet이란 무엇인가요?
-- 8장 - Bitcoin 지갑과 보안
-- 9장 - Wallet 설정하기
-- 10장 - 시간의 시험을 견뎌내기
 
 
-*섹션 4 - Bitcoin의 기술적 측면****
 
 
-- 11장 - Bitcoin 출시
-- 12장 - Bitcoin 거래
-- 13장 - Bitcoin 노드
-- 14장 - 채굴자
-- 15장 - Bitcoin와 생태학
 
 
-**섹션 5 - 비트코인은 어떻게 얻나요?
 
 
-- 16장 - Bitcoin은 잠들지 않습니다!
-- 17장 - 일을 통해 비트코인 획득하기
-- 18장 - Bitcoin로 저장하기
-- 19장 - 하이퍼비트코인화
 
 
-**섹션 6 - Bitcoin의 미래: Lightning Network**
 
 
-- 20장 - Lightning Network에 대한 간략한 소개
-- 21장 - Lightning Network 사용 사례
-- 22장 - 빨간 약, 파란 약?
 
 
 화폐의 정의와 사회에서의 화폐의 기능(1장)을 소개하기 전에 Bitcoin의 Genesis부터 살펴볼 필요가 있습니다. 2009년에 출시된 Bitcoin는 다른 어떤 것과도 달리 비교적 새로운 기술입니다. 따라서 한 번에 모든 것을 이해하지 못하는 것은 당연한 일입니다. 사실 인터넷 사용이나 자동차 운전법을 배울 때처럼 모든 기술적 세부 사항을 바로 알 필요는 없습니다. 자금을 받고, 지불하고, 보호하는 방법을 배우는 것부터 시작한 다음 조금씩 단계를 밟아 더 깊이 있게 공부할 수 있습니다.
@@ -184,7 +156,7 @@ Bitcoin이 등장하기 전에도 디지털 화폐를 만들려는 시도는 여
 ![image](assets/ko/005.webp)
 
 
-이러한 비옥한 환경에서 2008년 미스터리한 Satoshi 나카모토가 Bitcoin 백서를 발표했습니다. 이 문서에서 그는 Proof of Work 및 암호화 타임스탬프와 같은 Cypherpunk 운동의 여러 아이디어를 결합하여 검열에 저항하는 탈중앙화된 디지털 화폐를 만들었습니다.
+이러한 비옥한 환경에서 2008년 미스터리한 Satoshi 나카모토가 Bitcoin 백서를 발표했습니다. 이 문서에서 그는 [proof of work](https://planb.academy/resources/glossary/proof-of-work) 및 암호화 타임스탬프와 같은 Cypherpunk 운동의 여러 아이디어를 결합하여 검열에 저항하는 탈중앙화된 디지털 화폐를 만들었습니다.
 
 
 하지만 Bitcoin는 그 이상의 의미를 지녔습니다. Cypherpunk의 이상을 실현한 것이었죠. 기술을 넘어 기존 금융 시스템에 대한 혁명을 상징하며 투명성, 탈중앙화, 개인 주권에 기반한 대안을 제시했습니다.
@@ -302,7 +274,7 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 화폐는 오늘날까지도 다양한 사용 사례에 맞게 형태를 바꾸며 진화하고 있습니다. 앞서 말했듯이 금은 훌륭한 가치 저장 수단이지만 현재의 글로벌화된 경제에는 더 이상 적합하지 않습니다. 마찬가지로 달러와 유로와 같은 기축 통화는 현재 대부분 디지털화되어 있기 때문에 이동이 쉽지만 통화 인플레이션으로 인해 가치가 지속적으로 낮아지고 있습니다.
 
 
-반면 Bitcoin은 새로운 가능성을 제시합니다. 엄격하게 제한된 Supply와 같은 특성으로 인해 훌륭한 가치 저장 수단이 될 수 있습니다. 또한 중립적인 인터넷 통화로서 국경을 초월하는 Exchange**의 실행 가능한 **매개체** 역할을 합니다. 그러나 [지속적인 채택](https://btcmap.org/map)에도 불구하고 오늘날 상거래에서는 여전히 널리 받아들여지지 않고 있습니다.
+한편 비트코인은 새로운 가능성을 열어준다. 특히 엄격하게 제한된 공급량이라는 특성은 비트코인을 뛰어난 가치 저장 수단으로 만든다. 또한 중립적인 인터넷 화폐로서, 국경을 초월할 수 있는 실행 가능한 **교환 수단**을 구성한다. 그러나 지속적인 채택에도 불구하고([BTCmap 지도](https://btcmap.org/map)가 이를 보여주듯), 현재 상거래에서는 아직 널리 받아들여지지 않고 있다.
 
 
 ## 신탁 통화
@@ -1055,7 +1027,7 @@ Satoshi의 부재에도 불구하고 Bitcoin는 계속 개발되어 Bitcoin의 �
 어떤 이들은 Bitcoin을 [균사체](https://brandonquittem.com/Bitcoin-is-the-mycelium-of-money/)와 같은 곰팡이 개체로 정의하고, 어떤 이들은 [블랙홀](https://dergigi.com/)로 묘사하기도 합니다. 좋든 싫든 Bitcoin은 새로운 화폐 시스템의 심장 박동처럼 블록당 10분의 일정한 리듬을 유지하며 계속 존재하고 있습니다.
 
 
-Satoshi 나카모토의 저술에 대해 자세히 알아보시려면 필 샴페인의 ["Satoshi의 책"](https://planb.academy/en/resources/books/98) 또는 ARTE 다큐멘터리 "르 미스테어 Satoshi"을 시청해 보시기 바랍니다.
+사토시 나카모토의 저작을 더 깊이 이해하기 위해, 그의 주요 글들을 모아 맥락화한 필 샴페인의 [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30)와, 그의 정체성과 유산을 둘러싼 접근하기 쉬우면서도 잘 문서화된 조사를 제시하는 ARTE의 다큐멘터리 [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c)를 추천합니다.
 
 
 ![image](assets/ko/044.webp)
@@ -1108,7 +1080,7 @@ Bob이 Alice에게 비트코인을 전송하려면 Bitcoin 주소 중 하나를 
 이 시점에서 이 트랜잭션은 Mempool이라는 도구를 통해 모든 사람에게 알려지더라도, Miner가 블록에 삽입할 때까지는 확정된 것으로 간주할 수 없으며, Blockchain에 포함시켜 트랜잭션을 검증하는 유일한 사람인 Miner가 이를 확인할 수 있습니다.
 
 
-실제로 채굴자는 유효한 트랜잭션과 확인되지 않은 트랜잭션을 모아 블록으로 컴파일하는 역할을 합니다. 간단히 말해, 채굴자는 'Proof of Work'이라는 프로세스에서 암호화 퍼즐을 풀어야만 Bitcoin Blockchain의 다음 블록이 될 수 있습니다.
+실제로 채굴자는 유효한 트랜잭션과 확인되지 않은 트랜잭션을 모아 블록으로 컴파일하는 역할을 합니다. 간단히 말해, 채굴자는 '[proof of work](https://planb.academy/resources/glossary/proof-of-work)'이라는 프로세스에서 암호화 퍼즐을 풀어야만 Bitcoin Blockchain의 다음 블록이 될 수 있습니다.
 
 
 ![image](assets/ko/047.webp)
@@ -1117,7 +1089,7 @@ Bob이 Alice에게 비트코인을 전송하려면 Bitcoin 주소 중 하나를 
 ### 3단계: 트랜잭션은 Miner에 의해 블록에서 채굴됩니다.
 
 
-Proof of Work 시스템은 해당 블록에 대해 유효한 "Hash"을 찾아야 합니다. 256자로 구성된 블록과 관련된 고유 지문이라고 생각하시면 됩니다. 이 Hash의 유효성은 Bitcoin 네트워크의 난이도에 따라 달라집니다(자세한 내용은 나중에 설명하겠습니다). 지금은 Miner가 유효한 블록을 찾았고 Alice에 대한 Bob의 트랜잭션이 여기에 포함되어 있다고 가정해 보겠습니다. 그런 다음 새로운 유효한 블록이 모든 Bitcoin 사용자의 공통 Ledger인 Blockchain에 추가됩니다.
+[proof of work](https://planb.academy/resources/glossary/proof-of-work) 시스템은 해당 블록에 대해 유효한 "Hash"을 찾아야 합니다. 256자로 구성된 블록과 관련된 고유 지문이라고 생각하시면 됩니다. 이 Hash의 유효성은 Bitcoin 네트워크의 난이도에 따라 달라집니다(자세한 내용은 나중에 설명하겠습니다). 지금은 Miner가 유효한 블록을 찾았고 Alice에 대한 Bob의 트랜잭션이 여기에 포함되어 있다고 가정해 보겠습니다. 그런 다음 새로운 유효한 블록이 모든 Bitcoin 사용자의 공통 Ledger인 Blockchain에 추가됩니다.
 
 
 ![image](assets/ko/048.webp)
@@ -1231,16 +1203,16 @@ Bitcoin 노드가 어떻게 작동하는지 자세히 살펴보겠습니다.
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
 
-**마이너는 네트워크를 보호하고 블록에 트랜잭션을 추가합니다. 채굴자는 ASIC 머신을 통해 전기를 사용하여 Bitcoin Proof of Work.**를 해결합니다
+**마이너는 네트워크를 보호하고 블록에 트랜잭션을 추가합니다. 채굴자는 [ASIC](https://planb.academy/resources/glossary/asic) 머신을 통해 전기를 사용하여 Bitcoin [proof of work](https://planb.academy/resources/glossary/proof-of-work).**를 해결합니다
 
 
 ![image](assets/ko/054.webp)
 
 
-### Proof of Work에 대한 설명
+### [proof of work](https://planb.academy/resources/glossary/proof-of-work)에 대한 설명
 
 
-"Proof of Work"(POW)은 Bitcoin 프로토콜의 보안 합의 메커니즘입니다. 이는 모든 것의 기초이며 Bitcoin의 게임 이론에서 중요한 역할을 합니다.
+"[proof of work](https://planb.academy/resources/glossary/proof-of-work)"(POW)은 Bitcoin 프로토콜의 보안 합의 메커니즘입니다. 이는 모든 것의 기초이며 Bitcoin의 게임 이론에서 중요한 역할을 합니다.
 
 
 작동 방식을 설명하기 위해 모든 사람이 참여할 수 있는 범용 복권을 상상해 보겠습니다. 목표는 당첨자가 유효한 블록에 서명할 수 있는 특정 숫자를 찾아 Bitcoin로 보상을 받는 것입니다. 참여자(채굴자)는 올바른 숫자를 찾을 때까지 1, 52, 2648, 26874615, 15344854131318631 등과 같은 수십억 개의 가능성을 시도할 것입니다.
@@ -1542,8 +1514,10 @@ Bitcoin은 상품이나 서비스를 판매하고 Bitcoin로 결제할 수 있�
 그럼에도 불구하고 엘살바도르와 전 세계 다른 지역에서는 제품이나 서비스에 대한 결제 수단으로 Bitcoin을 받아들이는 개인, 기업, 단체가 점점 더 많아지고 있습니다.
 
 
-![image](assets/ko/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
 
+
+*출처 : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
 또한, 일상적인 거래에서 Bitcoin의 사용을 촉진하기 위해 오픈 소스 및 협업 프로젝트인 [BTCMap](https://btcmap.org/map#2/21.28937/5.46680)이 시작되었습니다. 이 플랫폼에는 Bitcoin을 허용하는 모든 가맹점과 전 세계의 다양한 Bitcoin 커뮤니티가 나열되어 있으므로 웹사이트를 방문하여 주변의 Bitcoin 생태계를 살펴볼 수 있습니다. 따라서 어려움과 망설임에도 불구하고 BTC맵과 같은 이니셔티브는 모든 사람이 Bitcoin 경제에 더 쉽게 접근하고 편리하게 이용할 수 있도록 하는 데 기여하고 있습니다.
 

@@ -1,5 +1,6 @@
 ---
-term: IBICIRO
+term: Iyiduga ry'ibiciro
+definition: Wongerereka ry'amahera mu gihugu bituma agaciro k'ayo mahera kagabanuka.
 ---
 
 Yerekeza ku kwiyongera kw’amahera Supply ariko arakoreshwa, bikaba bituma agaciro k’ikintu cose c’amahera kagabanuka, igiciro c’ibintu n’ibikorwa kikaduga. Ku mafaranga ya Leta, ico kintu kiba iyo amabanki akomeye asohoye amafaranga mashasha.

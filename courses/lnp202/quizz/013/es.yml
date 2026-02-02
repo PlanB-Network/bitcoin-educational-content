@@ -1,0 +1,9 @@
+question: ¿Qué solución permite ejecutar un nodo Lightning real en teléfonos móviles?
+answer: Nodo LN integrado
+wrong_answers:
+  - Custodia Rayo wallet
+  - Cambio atómico relámpago
+  - Canales federados
+explanation: |
+  Soluciones como Phoenix o Zeus Embedded integran un auténtico nodo Lightning directamente en la aplicación.
+reviewed: false

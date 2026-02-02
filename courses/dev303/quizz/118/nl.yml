@@ -1,0 +1,8 @@
+question: Wat is de belangrijkste technische reden waarom Greenlight-portemonnees een superieure betrouwbaarheid van de betalingsrouting bereiken in vergelijking met traditionele mobiele Lightning-implementaties?
+answer: Greenlight nodes draaien continu in de cloud, met real-time synchronisatie van netwerkgrafieken en directe toegang tot volledige grafiekgegevens
+wrong_answers:
+  - Greenlight gebruikt geavanceerde machine learning algoritmes om optimale betalingsroutes te voorspellen op basis van historische transactiepatronen
+  - Greenlight implementeert eigen multi-path betalingssplitsing die transacties over meerdere kanalen tegelijk verdeelt voor redundantie
+  - Greenlight onderhoudt speciale verbindingen met hoge bandbreedte met grote Lightning-hubs, waardoor prioritaire routering via de meest liquide kanalen wordt gegarandeerd
+explanation: |
+  Het juiste antwoord identificeert het fundamentele architecturale voordeel van Greenlight's cloud-gebaseerde aanpak. Traditionele mobiele Lightning wallets moeten netwerkgrafiekgegevens synchroniseren wanneer ze opstarten, wat vertragingen oplevert en mogelijk werkt met oudbakken routeringsinformatie. Greenlight lost dit op door Lightning nodes continu in de cloud te laten draaien, zodat ze altijd actuele netwerkkennis hebben en direct volledige grafiekgegevens kunnen leveren wanneer gebruikers verbinding maken. De foute antwoorden beschrijven plausibele maar niet-bestaande functies - Greenlight gebruikt geen ML-routeringsalgoritmen, eigen betalingssplitsing die verder gaat dan de standaard Lightning-protocollen of speciale hubverbindingen voor prioriteitsroutering.

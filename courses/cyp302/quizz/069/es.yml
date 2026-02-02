@@ -6,4 +6,4 @@ wrong_answers:
   - La longitud de la clave no tiene impacto en Salsa20.
 explanation: |
   En el esquema de cifrado simétrico Salsa20, la longitud de la clave (128 o 256 bits) afecta el número de rondas en el algoritmo, sin alterar el núcleo del algoritmo en sí.
-reviewed: false
+reviewed: true

@@ -53,7 +53,7 @@ Jos haluat asentaa paikallisesti tietokoneeseen, [lataa ja asenna ohjelmisto kä
 
 Ensimmäinen vaihe on luoda Alby-tili. Vaikka tämä ei ole välttämätöntä Alby Hubin käyttämiseksi, sen avulla voit hyödyntää kaikkia käytettävissä olevia vaihtoehtoja, kuten mahdollisuutta saada Lightning-osoite.
 
-Mene [Albyn viralliselle verkkosivustolle] (https://getalby.com/) ja napsauta "*Luo tili*" -painiketta.
+Mene [Albyn viralliselle verkkosivustolle](https://getalby.com/) ja napsauta "*Luo tili*" -painiketta.
 
 ![ALBY HUB](assets/fr/04.webp)
 

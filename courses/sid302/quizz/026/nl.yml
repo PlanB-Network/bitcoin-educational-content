@@ -1,0 +1,8 @@
+question: Wat is het belangrijkste architectonische verschil tussen Blockstream AMP versie 1 en versie 2 met betrekking tot transactieconstructie en knooppuntvereisten?
+answer: Versie 2 verschuift de complexiteit naar de server die de transactieconstructie afhandelt en emittenten PSET's aanbiedt, waardoor er geen full node synchronisatie meer nodig is
+wrong_answers:
+  - Versie 2 vereist dat emittenten meerdere gesynchroniseerde Elements knooppunten gebruiken voor redundantie, terwijl versie 1 slechts een verbinding met één knooppunt vereiste
+  - Versie 2 verplaatst alle cryptografische bewerkingen naar hardware wallets aan de cliëntzijde, terwijl versie 1 alle ondertekeningsbewerkingen op de serverinfrastructuur uitvoert
+  - Versie 2 maakt medeondertekening volledig overbodig en staat directe peer-to-peer overdrachten toe, terwijl versie 1 voor elke transactie toestemming van de server vereiste
+explanation: |
+  De evolutie van AMP versie 1 naar versie 2 vertegenwoordigt een fundamentele verschuiving van een 'slimme client, complexe infrastructuur'-model naar een 'slimme server, vereenvoudigde client'-benadering. Versie 1 vereiste dat emittenten volledig gesynchroniseerde Elements nodes onderhielden en sterk vertrouwden op de monolithische Green SDK, waardoor hoge technische barrières ontstonden. Versie 2 verplaatst de complexiteit naar de server, waar de AMP-server de transactieconstructie, UTXO selectie en kostenberekening afhandelt en emittenten vervolgens Gedeeltelijk Ondertekende Elements Transacties (PSET's) aanbiedt die alleen handtekeningen vereisen. Dit elimineert de noodzaak voor volledige nodes en maakt standaard wallet integraties mogelijk.

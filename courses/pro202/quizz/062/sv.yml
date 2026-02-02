@@ -1,0 +1,8 @@
+question: Varför måste ett tomt element inkluderas längst ner i vittnesstacken för en 2-av-3 multisig i en P2WSH-transaktion?
+answer: För att kompensera för CHECKMULTISIGs "off-by-one"-bugg som förbrukar ett extra stapelelement under exekveringen
+wrong_answers:
+  - "För att tillhandahålla en platshållare för den tredje signaturen som inte användes i 2-av-3 multisig-valideringen"
+  - För att separera signaturdata från vittnesskriptet för korrekt analys av SegWit-validering
+  - För att säkerställa att vittnesstacken har ett jämnt antal element för effektiv konstruktion av merkleträd
+explanation: |
+  CHECKMULTISIG-opkoden har en historisk bugg som gör att den plockar ut ett extra element från stacken utöver vad som behövs. Detta påverkar alla multisig-transaktioner, inklusive P2WSH. Det tomma elementet kompenserar för denna bugg och säkerställer att de återstående stapelelementen (signaturer och vittnesskript) är korrekt placerade för validering. De andra alternativen är felaktiga: oanvända signaturer representeras inte av tomma element, vittnesparsning kräver inte separationselement och vittnesstackar behöver inte jämna elementantal för merkleoperationer.

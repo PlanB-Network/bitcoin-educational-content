@@ -10,14 +10,14 @@ Nettstedet vårt er for øyeblikket tilgjengelig på en rekke språk, og vi jobb
 
 Hvis morsmålet ditt ennå ikke er tilgjengelig på nettstedet vårt, og du ønsker å legge det til, er denne veiledningen noe for deg!
 
-Først må du kontakte Plan ₿ Academy-teamet via vår [Telegram-gruppe] (https://t.me/PlanBNetwork_ContentBuilder). Hvis du ikke har Telegram, kan du sende en e-post til mari@planb.network. Sørg for å skrive en liten presentasjon om hvem du er og hvilke språk du snakker.
+Først må du kontakte Plan ₿ Academy-teamet via vår [Telegram-gruppe](https://t.me/PlanBNetwork_ContentBuilder). Hvis du ikke har Telegram, kan du sende en e-post til mari@planb.network. Sørg for å skrive en liten presentasjon om hvem du er og hvilke språk du snakker.
 
 ## Sjekke om et språk finnes på Weblate
 
 For å sjekke om språket ditt allerede er blant dem vi jobber med.
 
 
-- Gå til [vår Weblate-plattform] (https://weblate.planb.network/projects/planb-network-website/):
+- Gå til [vår Weblate-plattform](https://weblate.planb.network/projects/planb-network-website/):
 
 ![language](assets/01.webp)
 
@@ -45,7 +45,7 @@ Hvis språket ditt ikke finnes der, kan du følge veiledningen nedenfor for å l
 ![language](assets/04.webp)
 
 
-- Åpne nedtrekkslisten og velg språket du ønsker å legge til. Hvis språket du leter etter ikke er tilgjengelig i nedtrekkslisten, kan du ta kontakt på [Telegramgruppen] (https://t.me/PlanBNetwork_ContentBuilder), slik at teamet vårt kan opprette det manuelt:
+- Åpne nedtrekkslisten og velg språket du ønsker å legge til. Hvis språket du leter etter ikke er tilgjengelig i nedtrekkslisten, kan du ta kontakt på [Telegramgruppen](https://t.me/PlanBNetwork_ContentBuilder), slik at teamet vårt kan opprette det manuelt:
 
 ![language](assets/05.webp)
 

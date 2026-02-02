@@ -53,10 +53,10 @@ https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-90
 Первым делом, конечно же, нужно загрузить приложение Green. Перейдите в магазин приложений:
 
 - [Для Android](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet);
-- [Для Apple] (https://apps.apple.com/us/app/green-bitcoin-wallet/id1402243590).
+- [Для Apple](https://apps.apple.com/us/app/green-bitcoin-wallet/id1402243590).
 ![GREEN 2FA MULTISIG](assets/fr/03.webp)
 
-Пользователи Android также могут установить приложение с помощью файла `.apk` [доступен на GitHub компании Blockstream] (https://github.com/Blockstream/green_android/releases).
+Пользователи Android также могут установить приложение с помощью файла `.apk` [доступен на GitHub компании Blockstream](https://github.com/Blockstream/green_android/releases).
 
 ![GREEN 2FA MULTISIG](assets/fr/04.webp)
 

@@ -20,7 +20,7 @@ Sparrow поддерживает кошельки с одной и нескол�
 
 ## Установить воробья Wallet
 
-Перейдите на [официальную страницу загрузки Sparrow Wallet] (https://sparrowwallet.com/download/) и выберите версию программного обеспечения, соответствующую вашей операционной системе.
+Перейдите на [официальную страницу загрузки Sparrow Wallet](https://sparrowwallet.com/download/) и выберите версию программного обеспечения, соответствующую вашей операционной системе.
 
 ![Image](assets/fr/01.webp)
 
@@ -95,13 +95,14 @@ server=1
 
 Затем вернитесь в Sparrow Wallet и введите путь к файлу cookie, который обычно находится в той же папке, что и `Bitcoin.conf`, в зависимости от вашей операционной системы:
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
 
+
+
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-
-| **Windows** | %APPDATA%\Bitcoin |
-
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 
@@ -123,13 +124,14 @@ server=1
 
 После редактирования файла убедитесь, что вы сохранили его в соответствующей папке для вашей операционной системы:
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
 
+
+
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-
-| **Windows** | %APPDATA%\Bitcoin |
-
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 Эту операцию также можно выполнить через графический Bitcoin-QT Interface. Зайдите в меню "*Настройки*", затем "*Опции...*" и активируйте опцию "*Включить сервер RPC*", установив соответствующий флажок. Если файл `Bitcoin.conf` не существует, вы можете создать его прямо из этого Interface, нажав на кнопку "*Открыть файл конфигурации*".
 

@@ -6,4 +6,4 @@ wrong_answers:
   - Control de acceso a servidores web
 explanation: |
   El DNS (Sistema de Nombres de Dominio) traduce los nombres de dominio legibles por el ser humano en direcciones IP numéricas necesarias para el enrutamiento.
-reviewed: false
+reviewed: true

@@ -52,7 +52,7 @@ Birumvikana ko intambwe ya mbere ari ugukuraho porogarama ya Aqua. Genda mu bubi
 
 
 - [Ku bijanye na Android](Id=Io.Aquawallet.Android);
-- [Ku bijanye na Apple] (imbuga ngurukanabumenyi).
+- [Ku bijanye na Apple](imbuga ngurukanabumenyi).
 
 ![AQUA](assets/fr/04.webp)
 

@@ -3,7 +3,7 @@ name: RaspiBlitz
 description: Opas RaspiBlitzin pystyttämiseen
 ---
 
-![kuva](assets/0.webp)
+![kuva](assets/cover.webp)
 
 RaspiBlitz on tee-se-itse Lightning Node (LND ja/tai Core Lightning), joka toimii yhdessä Bitcoin-Fullnoden kanssa RaspberryPillä (1TB SSD) ja mukavalla näytöllä helppoa asetusta & seurantaa varten.
 
@@ -12,7 +12,7 @@ RaspiBlitz on suunnattu pääasiassa oppimaan, miten pyörittää omaa nodia haj
 ![video](https://youtu.be/DTHlSPMz3ns)
 RASPIBLITZ - Kuinka Pyörittää Lightning ja Bitcoin Full Nodea BTC sessionin toimesta
 
-# Parmanin Raspiblitzin asennusopas
+## Parmanin Raspiblitzin asennusopas
 
 Raspiblitz on erinomainen järjestelmä Bitcoin-noden ja siihen liittyvien sovellusten ajamiseen. Suosittelen tätä ja MyNode-nodia useimmille käyttäjille (ihanteellisesti kaksi nodia redundanssin vuoksi). Yksi suuri etu on, että Raspiblitz-node on "Free Open Source Software", toisin kuin MyNode tai Umbrel. [Miksi se on tärkeää? Vlad Costa selittää.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Voit myös käyttää Raspiblitziä WiFi-yhteydellä ethernetin sijaan – tässä on [lisäopas](https://armantheparman.com/headless-wifi/) siihen. (En ole löytänyt tapaa tehdä tätä MyNode:n kanssa).
 
@@ -22,7 +22,7 @@ Voit ostaa valmiin noden kiinnitetyllä mininäytöllä, tai voit rakentaa sen i
 
 Periaatteessa prosessi on hyvin samanlainen kuin [MyNode-solmun](https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/) asettaminen Raspberry Pi 4:llä. Raspiblitz-opas ehdottaa monitorin ostamista, mutta et oikeasti tarvitse sellaista, enkä suosittelisi sitä. Et tarvitse edes ylimääräistä näppäimistöä tai hiirtä. Pääset vain laitteen terminaalivalikkoon tietokoneelta, joka on samassa kotiverkossa, ja käytät ssh-komentoa terminaalissa. Tämä onnistuu Linuxilla/Macilla (helppoa) ja hieman vaikeampaa Windowsilla.
 
-## Vaihe 1: Osta laitteet.
+### Vaihe 1: Osta laitteet.
 
 Tarvitset täsmälleen samat laitteet, joita tarvitset MyNode-noden ajamiseen. Voit kokeilla toista tai toista, ainoa ero on mikro SD-kortin tiedoissa.
 
@@ -48,7 +48,7 @@ Tämä on nopeampi, mutta tarpeettoman kallis:
 
 ![kuva](assets/3.webp)
 
-## Vaihe 2: Lataa Raspiblitz-kuva
+### Vaihe 2: Lataa Raspiblitz-kuva
 Siirry [Raspiblitzin GitHub-sivustolle](https://github.com/rootzoll/raspiblitz) ja etsi linkki ”download image”:
 ![kuva](assets/4.webp)
 
@@ -56,7 +56,7 @@ Ladatun tiedoston sha-256-hajautus on saatavilla verkkosivustolla. Se muuttuu jo
 
 ![kuva](assets/5.webp)
 
-## Vaihe 3: Vahvista kuva
+### Vaihe 3: Vahvista kuva
 
 Ennen kuin jatkat, jos et tunne tiedostojärjestelmää komentorivillä, on helppo oppia, ja sinun pitäisi.
 
@@ -87,7 +87,7 @@ missä xxxxxxxxxxxxxx on juuri lataamasi tiedoston nimi. Jos et ole hakemistossa
 
 Tietokone ajattelee noin 20 sekuntia. Tarkista, että tulosteen tiiviste vastaa verkkosivustolta edellisessä vaiheessa ladattua tiivistettä. Jos se on identtinen, voit jatkaa.
 
-## Vaihe 4: Flashaa SD-kortti
+### Vaihe 4: Flashaa SD-kortti
 
 Voit käyttää tähän Balena Etcheriä. [Lataa se täältä](https://www.balena.io/etcher/).
 
@@ -103,7 +103,7 @@ Etcher on itsestään selvä käyttää. Aseta micro SD -korttisi ja flashaa Ras
 
 Kun se on valmis, asema ei ole enää luettavissa. Saatat saada käyttöjärjestelmältä virheilmoituksen, ja aseman pitäisi kadota työpöydältä. Vedä kortti ulos.
 
-## Vaihe 5: Aseta Pi paikoilleen ja aseta SD-kortti
+### Vaihe 5: Aseta Pi paikoilleen ja aseta SD-kortti
 
 Osat (kotelo ei näy):
 
@@ -123,7 +123,7 @@ Lopuksi, yhdistä virta:
 
 ![kuva](assets/14.webp)
 
-## Vaihe 6: Etsi Pin IP-osoite
+### Vaihe 6: Etsi Pin IP-osoite
 
 Raspiblitzin kanssa et tarvitse näyttöä. Tarvitset kuitenkin toisen tietokoneen kotiverkossa. Jos Pi ei ole yhdistetty ethernetillä ja haluat luottaa WiFiin, IP-osoitteen löytäminen vaatii jonkin verran tietokonetaitoja. Valitettavasti en voi auttaa tässä. Tarvitset ethernet-yhteyden. (Ongelma johtuu tarpeesta päästä käsiksi näyttöön ja käyttöjärjestelmään WiFiin yhdistämiseksi ja salasanan syöttämiseksi.)
 
@@ -133,7 +133,7 @@ IP-osoitteen löytäminen on ratkaisevan tärkeää.
 
 > PÄIVITYS: voit käyttää terminaalia Mac- tai Linux-koneella löytääksesi kaikkien Ethernetillä yhdistettyjen laitteiden IP-osoitteet kotiverkossa komennolla “arp -a”. Tuloste ei ole yhtä selkeä kuin mitä reititin näyttää, mutta kaikki tarvittava tieto on siellä. Jos ei ole ilmeistä, mikä on Pi, suorita kokeilu ja virhe -menetelmää.
 
-## Vaihe 7: SSH-yhteys Pi:hin
+### Vaihe 7: SSH-yhteys Pi:hin
 
 Muista laittaa SD-kortti Pi:hin ennen sen päälle kytkemistä. Odota muutama minuutti, ja sitten toisella Linux/Mac-koneella, avaa terminaali.
 

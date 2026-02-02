@@ -1,5 +1,6 @@
 ---
-term: INPUT
+term: Input
+definition: UTXO yang digunakan sebagai sumber dana dalam transaksi Bitcoin, mereferensikan output sebelumnya.
 ---
 
 Dalam konteks Bitcoin, input dalam sebuah transaksi mengacu pada UTXO (*Unspent Transaction Outputs*) yang digunakan sebagai dana awal untuk memenuhi output. Setiap input berisi referensi ke UTXO sebelumnya, yang kemudian akan dipakai dalam sebuah transaksi. Input ini digunakan untuk memberi makan UTXO baru yang akan dibuat sebagai output transaksi, dan yang kemudian dapat digunakan dalam transaksi di masa mendatang.

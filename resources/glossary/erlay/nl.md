@@ -1,5 +1,6 @@
 ---
-term: ERLAY
+term: Erlay
+definition: Protocol dat de efficiëntie van transactiedoorgifte verbetert om het bandbreedteverbruik te verminderen.
 ---
 
 Voorgesteld netwerkprotocol om de efficiëntie van het doorgeven van onbevestigde transacties tussen Bitcoin knooppunten te verbeteren.

@@ -1,0 +1,8 @@
+question: Welche mathematische Beziehung muss bei der ECDSA-Signaturprüfung erfüllt sein, damit eine Signatur als gültig angesehen wird?
+answer: Die x-Koordinate von UG + VP muss gleich R sein, wobei U = Z/S und V = R/S
+wrong_answers:
+  - Die y-Koordinate von UG + VP muss gleich S sein, wobei U = R/Z und V = S/Z
+  - Die x-Koordinate von KG + ZP muss S entsprechen, wobei K die Nonce und Z der Hash ist
+  - Die Summe von R + S muss der x-Koordinate des öffentlichen Schlüsselpunkts P entsprechen
+explanation: |
+  Bei der ECDSA-Verifikation wird der ursprüngliche Punkt KG durch die Gleichung UG + VP rekonstruiert, wobei U = Z/S (Hash geteilt durch S) und V = R/S. Wenn die x-Koordinate dieses rekonstruierten Punktes mit R aus der Signatur übereinstimmt, ist die Verifizierung erfolgreich. Diese mathematische Beziehung ermöglicht eine Verifizierung ohne Kenntnis des privaten Schlüssels oder der Nonce K, da die Algebra KG indirekt über die Komponenten öffentlicher Schlüssel und Signatur rekonstruiert.

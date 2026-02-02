@@ -614,7 +614,7 @@ De succesvolle oprichting van een mining thuispool betekent een belangrijke stap
 In de wereld van SMD-solderen, vooral bij Bitaxe-projecten, maakt het hebben van het juiste gereedschap het verschil tussen frustratie en succes. Deze uitgebreide gids behandelt de essentiële apparatuur die nodig is om SMD-soldeerprojecten effectief aan te pakken, van basishandgereedschap tot gespecialiseerde apparatuur die uw soldeervaardigheden zal verbeteren.
 
 
-Als je documentatie over de schema's wilt bekijken, kijk dan eens naar deze [GitHub repo] (https://github.com/skot/bitaxe-doc/tree/main).
+Als je documentatie over de schema's wilt bekijken, kijk dan eens naar deze [GitHub repo](https://github.com/skot/bitaxe-doc/tree/main).
 
 
 ### Basis handgereedschap en precisie-instrumenten

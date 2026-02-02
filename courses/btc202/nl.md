@@ -328,7 +328,7 @@ Een miner heeft een Bitcoin node nodig voor interactie met het netwerk.
 
 
 
-De rol van de miner wordt soms ook onderscheiden van die van de hakker. Een hakker is een machine wiens taak het is om door de pool server aangeleverde sjabloonblokken te hashen, op zoek naar hashes die voldoen aan de moeilijkheidsdoelstelling gedefinieerd voor aandelen, en niet die van Bitcoin. De rest van het mining proces, dat de eigenlijke blokconstructie, transactieselectie of Proof-of-Work zoeken volgens Bitcoin's eigen moeilijkheidsgraad en distributie omvat, wordt direct door de pools uitgevoerd.
+De rol van de miner wordt soms ook onderscheiden van die van de grind. Een grind is een machine wiens taak het is om door de pool server aangeleverde sjabloonblokken te hashen, op zoek naar hashes die voldoen aan de moeilijkheidsdoelstelling gedefinieerd voor aandelen, en niet die van Bitcoin. De rest van het mining proces, dat de eigenlijke blokconstructie, transactieselectie of Proof-of-Work zoeken volgens Bitcoin's eigen moeilijkheidsgraad en distributie omvat, wordt direct door de pools uitgevoerd.
 
 
 
@@ -853,7 +853,7 @@ Dit is de meest soevereine en flexibele aanpak: je weet precies wat er draait, w
 
 
 
-[Bitcoin core is de ultra-majority client van het netwerk] (https://bitcoincore.org/). Het downloadt, valideert en onderhoudt de blockchain, biedt RPC/REST API's en kan een wallet integreren. Als je de voorkeur hebt voor standaard tools en je comfortabel voelt om zelf diensten toe te voegen (zoals Electrum server, verkenner en LND), dan kun je Core beter gebruiken zoals het is.
+[Bitcoin core is de ultra-majority client van het netwerk](https://bitcoincore.org/). Het downloadt, valideert en onderhoudt de blockchain, biedt RPC/REST API's en kan een wallet integreren. Als je de voorkeur hebt voor standaard tools en je comfortabel voelt om zelf diensten toe te voegen (zoals Electrum server, verkenner en LND), dan kun je Core beter gebruiken zoals het is.
 
 
 
@@ -1633,7 +1633,7 @@ Ga naar [de officiële Umbrel website om de ISO-image te downloaden](https://dow
 
 
 
-Om de opstartbare USB-stick te maken, gebruik je een eenvoudig, platformonafhankelijk hulpprogramma genaamd [Balena Etcher] (https://www.balena.io/etcher/). Download en installeer het op je computer.
+Om de opstartbare USB-stick te maken, gebruik je een eenvoudig, platformonafhankelijk hulpprogramma genaamd [Balena Etcher](https://www.balena.io/etcher/). Download en installeer het op je computer.
 
 
 
@@ -2168,7 +2168,7 @@ Als je gewoon een wallet, zoals Sparrow, op je node wilt aansluiten om saldi te 
 
 
 
-Aan de andere kant, om meer geavanceerde software te gebruiken, zoals het draaien van een Mempool.Locally, wordt de installatie van een adres indexer onontbeerlijk voor de space block explorer.
+Aan de andere kant, om meer geavanceerde software te gebruiken, zoals het lokaal draaien van een mempool.space blok explorer, wordt de installatie van een adres indexer onontbeerlijk.
 
 
 
@@ -2514,9 +2514,11 @@ Tot slot raad ik de applicatie *Lightning Network+* aan, waarmee je collega's ku
 
 
 
-Dankzij Umbrel is het beheren van een persoonlijke Lightning-node sterk vereenvoudigd, maar het is nog steeds relatief complex. Daarom zullen we in een toekomstige cursus die volledig aan dit gebruik is gewijd dieper op dit onderwerp ingaan.
+Dankzij Umbrel is het beheer van een persoonlijke Lightning-node vereenvoudigd, maar het blijft niettemin relatief complex. Daarom raad ik u aan de cursus LNP 202 te volgen, die het logische vervolg vormt op de cursus BTC 202, en waarin ik u stap voor stap begeleid bij het opzetten en beheren van uw Lightning-node op Umbrel.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Tailscale
 
@@ -3894,11 +3896,13 @@ Je kunt nu overgaan naar het laatste deel van de cursus, waar je BTC 202 kunt ev
 
 
 
-U hebt nu verschillende opties voor u open. De volgende logische stap is het opzetten van je eigen Lightning node, zodat je volledig onafhankelijk bent voor je off-chain transacties. Dit zal het onderwerp zijn van een komende cursus, die dit najaar zal worden gepubliceerd in 2025 over Plan ₿ Academy.
+Er liggen nu meerdere wegen voor u open. De volgende logische stap bestaat erin uw eigen Lightning-node op te zetten, zodat u volledig onafhankelijk bent voor uw off-chain-transacties. Dit is precies het onderwerp van een andere cursus op Plan ₿ Academy:
 
 
 
-Ondertussen nodig ik je uit om de BTC 204 training te ontdekken, die je in staat zal stellen om de principes van privacybescherming te begrijpen en te beheersen bij je gebruik van Bitcoin:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Ik nodig u tevens uit om de opleiding BTC 204 te ontdekken, die u in staat zal stellen de principes van privacybescherming bij uw gebruik van Bitcoin te begrijpen en te beheersen:
 
 
 

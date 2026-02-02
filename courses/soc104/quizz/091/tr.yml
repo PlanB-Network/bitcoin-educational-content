@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto'nun temel eleştirisine göre, Bitcoin'ın çözmek için tasarlandığı geleneksel itibari para birimlerindeki temel sorun nedir?
+answer: Para birimlerini değersizleştirerek bu güveni tarihsel olarak defalarca ihlal etmiş olan merkezi kurumlara duyulan aşırı güven
+wrong_answers:
+  - Dijital altyapı eksikliği ve modern ödeme sistemlerine kıyasla yavaş işlem süreleri
+  - Uluslararası işlemlerin pahalı aracılar ve para birimi dönüştürme ücretleri olmadan gerçekleştirilememesi
+  - Kağıt paraya ve fiziksel depolamaya bağımlılık nedeniyle sahteciliğe ve fiziksel hırsızlığa karşı kırılganlık
+explanation: |
+  Satoshi Nakamoto açıkça 'geleneksel para biriminin temel sorununun, işlemesi için gereken güven olduğunu' ve 'itibari para birimlerinin tarihinin bu güvenin ihlal edilmesiyle dolu olduğunu' belirtmiştir
+  Bu felsefi temel, Bitcoin'nin parasal istikrarı korumak için merkez bankalarına ya da hükümetlere güvenmeyi gerektirmeyen ve aşırı para basımı yoluyla para biriminin değerinin düşürülmesinin tarihsel modelini doğrudan ele alan güvensiz bir sistem olarak tasarlanmasını sağlamıştır.

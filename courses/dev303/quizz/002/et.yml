@@ -1,0 +1,8 @@
+question: Mis juhtub, kui te deklareerite muutuja Rust-s, kasutades 'let x = 5' ilma täiendavate võtmesõnadeta?
+answer: Muutuja muutub muutumatuks ja seda ei saa pärast määramist muuta
+wrong_answers:
+  - Muutuja muutub muutuvaks ja seda saab igal ajal muuta
+  - Muutuja on automaatselt optimeeritud ainult versioonide jaoks
+  - Muutuja vajab edukaks kompileerimiseks selgesõnalist tüübimärgistust
+explanation: |
+  Rust-s on muutujad vaikimisi muutumatud, kui need on deklareeritud 'let'-ga. See tähendab, et kui te määrate muutujale väärtuse, näiteks 'let x = 5', ei saa te seda väärtust hiljem programmis muuta. Kui te proovite seda muuta, annab kompilaator veateate. See vaikimisi muutumatus on peamine turvaelement, mis hoiab ära paljud levinud programmeerimisvead, mis tulenevad ootamatutest olekumuutustest. Muutuja muutuvaks muutmiseks tuleb selgesõnaliselt kasutada võtmesõna 'mut', näiteks 'let mut x = 5'.

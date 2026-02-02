@@ -127,7 +127,7 @@ Aşağıda bu wallet donanımı için öğreticimizi bulacaksınız:
 
 
 
-https://planb.academy/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.academy/tutorials/wallet/hardware/coldcard-mk4-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
 
 Coldcard için, açık anahtarları wallet donanımından bir USB bağlantısı veya bir microSD kart aracılığıyla dışa aktarmanız gerekir.
 

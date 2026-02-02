@@ -36,7 +36,7 @@ Keňané tak mohou nakupovat satoši ve třech jednoduchých krocích, bez nutno
 
 
 
-Chcete-li řešení používat, navštivte platformu [Bitika] (https://bitika.xyz/). Rozhraní zůstává stejné, ať už na počítači nebo na chytrém telefonu.
+Chcete-li řešení používat, navštivte platformu [Bitika](https://bitika.xyz/). Rozhraní zůstává stejné, ať už na počítači nebo na chytrém telefonu.
 
 
 

@@ -1,0 +1,8 @@
+question: Trong mô hình đồng thuận liên kết của Liquid, số lượng chữ ký chức năng tối thiểu cần thiết để xác thực một khối là bao nhiêu, và số lượng lỗi nút tối đa mà mạng có thể chịu đựng được là bao nhiêu?
+answer: Cần 11 chữ ký, có thể chịu được tối đa 4 lỗi nút.
+wrong_answers:
+  - Cần 8 chữ ký, có thể chịu được tối đa 7 lỗi nút.
+  - Cần 15 chữ ký, có thể chịu được tối đa 2 lỗi nút.
+  - Cần 9 chữ ký, có thể chịu được tối đa 6 lỗi nút.
+explanation: |
+  Liquid sử dụng hệ thống ngưỡng 11/15, trong đó ít nhất 11 trên 15 chức năng viên phải ký vào mỗi khối để khối đó được coi là hợp lệ. Thiết kế này cho phép mạng tiếp tục hoạt động ngay cả khi có tới 4 nút bị lỗi (15 - 11 = 4). Các tùy chọn khác hoặc cung cấp ngưỡng chữ ký không chính xác hoặc tính toán sai khả năng chịu lỗi, vốn luôn là tổng số nút trừ đi số chữ ký cần thiết.

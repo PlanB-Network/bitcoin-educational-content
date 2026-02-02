@@ -35,7 +35,7 @@ BitSpenda on veebipõhine platvorm, millel saate Exchange Bitcoin ja mobiilse ra
 
 
 
-Tehingu tegemine BitSpendaga on üsna intuitiivne, nõudes vähe samme. Ametlikul BitSpenda [veebisaidil] (https://bitspenda.app) klõpsake nupule "Start" ja teid suunatakse edasi Interface Exchange.
+Tehingu tegemine BitSpendaga on üsna intuitiivne, nõudes vähe samme. Ametlikul BitSpenda [veebisaidil](https://bitspenda.app) klõpsake nupule "Start" ja teid suunatakse edasi Interface Exchange.
 
 
 
@@ -177,7 +177,7 @@ Kontrollige ja kinnitage oma Exchange number ja summa, seejärel makske oma Exch
 
 
 
-BitSpenda kaudu on [Bitcoin Dua] (https://www.bitcoindua.org/) eesmärk luua ideaalne raamistik Bitcoin kasutuselevõtuks Aafrikas. BitSpenda paistab silma peamiselt :
+BitSpenda kaudu on [Bitcoin Dua](https://www.bitcoindua.org/) eesmärk luua ideaalne raamistik Bitcoin kasutuselevõtuks Aafrikas. BitSpenda paistab silma peamiselt :
 
 
 

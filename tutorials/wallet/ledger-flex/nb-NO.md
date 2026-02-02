@@ -54,7 +54,7 @@ Når du åpner esken, bør du finne følgende elementer i den:
 - Kort for å skrive ned huskereglene dine.
 ![LEDGER FLEX](assets/notext/05.webp)
 
-For denne opplæringen trenger du to programvarer: Ledger Live for å initialisere Ledger Flex, og Sparrow Wallet for å administrere Bitcoin-lommeboken din. Last ned [Ledger Live] (https://www.ledger.com/ledger-live) og [Sparrow Wallet] (https://sparrowwallet.com/download/) fra deres offisielle nettsider.
+For denne opplæringen trenger du to programvarer: Ledger Live for å initialisere Ledger Flex, og Sparrow Wallet for å administrere Bitcoin-lommeboken din. Last ned [Ledger Live](https://www.ledger.com/ledger-live) og [Sparrow Wallet](https://sparrowwallet.com/download/) fra deres offisielle nettsider.
 
 ![LEDGER FLEX](assets/notext/06.webp)
 

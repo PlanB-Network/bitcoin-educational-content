@@ -1,0 +1,8 @@
+question: ECDSA imzaları için DER kodlama formatında, ham imza verisinden son kodlanmış imzaya kadar tipik boyut artışı nedir?
+answer: DER biçimlendirme ek yükü nedeniyle 64 bayttan yaklaşık 71-72 bayta
+wrong_answers:
+  - R ve S bileşen kodlaması nedeniyle 32 bayttan yaklaşık 64 bayta
+  - İmza bileşenlerinin çift kodlanması nedeniyle 64 bayttan tam 128 bayta
+  - Sıra işaretleyicilerinin sıkıştırılması nedeniyle 71 bayttan yaklaşık 64 bayta
+explanation: |
+  DER kodlaması ECDSA imzalarına sıra işaretleri (0x30), uzunluk baytları ve bileşen önekleri (0x02) aracılığıyla yapısal ek yük ekler. Ham ECDSA imzası toplam 64 baytlık iki 32 baytlık değerden (R ve S) oluşur, ancak DER biçimlendirmesi bunu yaklaşık 71-72 bayta genişletir. Bu verimsizlik, Bitcoin'ın daha sonra Taproot'de Schnorr imzalarını benimsemesinin bir nedeniydi, bu da kodlama ek yükü olmadan sabit 64 baytlık imzalar kullanır.

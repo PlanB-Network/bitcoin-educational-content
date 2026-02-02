@@ -1,9 +1,9 @@
-question: Welche Technologie kann eingesetzt werden, um im Falle einer Diskrepanz verschiedene Versionen des Verzeichnisses zusammenzuführen?
+question: Welche Technologie kann eingesetzt werden, um im Falle einer Diskrepanz verschiedene Versionen des Stashes zusammenzuführen?
 answer: CRDT
 wrong_answers:
   - HTLC
-  - Siegel für den einmaligen Gebrauch
+  - Single-use Seals
   - Log-basierte Replikation
 explanation: |
-  CRDTs gewährleisten die Datenkonsistenz, indem sie es ermöglichen, dass mehrere Versionen des Stash ohne clientseitige Konflikte zusammengeführt werden können.
+  CRDTs gewährleisten die Datenkonsistenz, indem sie es ermöglichen, dass mehrere Versionen des Stash ohne client-side Konflikte zusammengeführt werden können.
 reviewed: false

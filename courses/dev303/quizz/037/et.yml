@@ -1,0 +1,8 @@
+question: Mis on peamine omadus, mis teeb Rust-s sulgemised võimsaks?
+answer: Nende võime tabada muutujaid ümbritsevast keskkonnast
+wrong_answers:
+  - Nende võime töötada kiiremini kui tavalised funktsioonid
+  - Nende võime automaatselt mälu eraldamist hallata
+  - Nende võime täita koodi paralleelselt lõimedes
+explanation: |
+  Põhiline omadus, mis teeb sulgemised võimsaks, on nende võime "sulgeda" oma keskkonda, mis tähendab, et nad saavad kasutada ja kasutada muutujaid, mis on olemas selles ulatuses, kus sulgemine on defineeritud. See kinnipüüdmise võime võimaldab sulgemiskomponentidel säilitada oma loomise keskkonnast lähtuvat olekut ja konteksti, mis teeb nad palju paindlikumaks kui tavalised funktsioonid. Kuigi sulgemisi saab optimeerida jõudluse seisukohalt ja kasutada keermestamise kontekstis, on need teisejärgulised eelised - nende põhiline võimsus tuleneb keskkonna muutujate hõivamisest.

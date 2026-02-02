@@ -1,5 +1,6 @@
 ---
-term: SIGHASH BAYRAĞI
+term: Sighash bayrağı
+definition: Bir işlemin hangi bileşenlerinin imza tarafından kapsandığını belirleyen parametre.
 ---
 
 Bir Bitcoin işleminde, bir işlemin hangi bileşenlerinin (girdiler ve çıktılar) ilgili imza tarafından kapsanacağını ve böylece değişmez hale geleceğini belirleyen bir parametre. SigHash Bayrağı her bir girdinin dijital imzasına eklenen bir bayttır. Bu nedenle SigHash Bayrağı seçimi, işlemin hangi kısımlarının imza tarafından dondurulduğunu ve hangilerinin daha sonra değiştirilebileceğini doğrudan etkiler. Bu mekanizma, imzaların işlem verilerini imzalayanın niyetine göre kesin ve güvenli bir şekilde işlemesini sağlar. Üç ana SigHash Bayrağı vardır:

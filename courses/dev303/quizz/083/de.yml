@@ -1,0 +1,8 @@
+question: Wie handhabt UniFFI die Fehlerfortpflanzung von Rust-Funktionen zu Zielsprachen wie Kotlin und Python?
+answer: Funktionen, die Ergebnistypen zurückgeben, sind in UDL mit 'throws' und in den Zielsprachen mit generate mit nativen Ausnahmen gekennzeichnet
+wrong_answers:
+  - Fehlertypen werden automatisch in Zeichenketten umgewandelt und als optionale Werte in allen Zielsprachen zurückgegeben
+  - Alle Rust-Fehler sind in einen generischen UniFFI-Fehlertyp verpackt, der von den Entwicklern manuell entpackt werden muss
+  - Die Fehlerbehandlung erfordert von den Entwicklern die manuelle Implementierung von Fehlerübersetzungscodes für jede Zielsprachenplattform
+explanation: |
+  UniFFI bietet eine ausgefeilte Fehlerbehandlung, die das ergebnisbasierte Fehlermodell von Rust beibehält und es für jede Zielsprache entsprechend übersetzt. Funktionen, die in Rust Ergebnistypen zurückgeben, sind in UDL mit dem Schlüsselwort "throws" gekennzeichnet, und diese generate native Ausnahmebehandlung in den Zielsprachen - Kotlin-Methoden werfen Ausnahmen gemäß Java/Kotlin-Konventionen, während Python das Python-Ausnahmemodell verwendet. Dadurch wird sichergestellt, dass sich die Fehlerbehandlung in jeder Sprache natürlich und idiomatisch anfühlt, während die semantische Bedeutung der ursprünglichen Rust-Fehlertypen erhalten bleibt, im Gegensatz zu generischen Wrappern oder manuellen Übersetzungsansätzen.

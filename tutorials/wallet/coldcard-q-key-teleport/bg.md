@@ -32,7 +32,7 @@ description: Какво е Key Teleport и как да го използвам?
 
 
 - gW-0 фрази** (майсторът на seed на ColdCardQ или тайните, съхранявани в [seed Vault] на ColdCardQ(https://coldcard.com/docs/temporary-seeds/#seed-vault).
-- конфиденциални бележки и пароли**: това може да бъде всяка тайна или цялата директория [Secure Notes & Passwords] (https://coldcard.com/docs/secure_notes/) на вашия ColdCardQ.
+- конфиденциални бележки и пароли**: това може да бъде всяка тайна или цялата директория [Secure Notes & Passwords](https://coldcard.com/docs/secure_notes/) на вашия ColdCardQ.
 - резервно копие на цялата ви **ColdCardQ**: за да работи, ColdCardQ, която получава това резервно копие, не трябва да има seed Master.
 - gW-3 (*Частично подписани трансакции Bitcoin*) като част от **схема с множество подписи**.
 
@@ -324,4 +324,4 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-*Източник: [Официален уебсайт на ColdCard] (https://coldcard.com/)*
+*Източник: [Официален уебсайт на ColdCard](https://coldcard.com/)*

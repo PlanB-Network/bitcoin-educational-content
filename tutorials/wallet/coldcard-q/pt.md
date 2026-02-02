@@ -55,7 +55,7 @@ No que respeita ao software, o COLDCARD Q está tão bem equipado como os outros
 
 Em suma, o COLDCARD Q oferece uma experiência de utilização melhorada em relação ao MK4 e pode ser ideal para utilizadores intermédios a avançados que procuram uma maior facilidade de utilização.
 
-O COLDCARD Q está disponível para venda [no sítio Web oficial da Coinkite] (https://store.coinkite.com/store/coldcard). Também pode ser adquirido num retalhista.
+O COLDCARD Q está disponível para venda [no sítio Web oficial da Coinkite](https://store.coinkite.com/store/coldcard). Também pode ser adquirido num retalhista.
 
 ## Preparar o tutorial
 
@@ -79,7 +79,7 @@ Se preferir alimentar o seu COLDCARD sem o ligar a um computador (air-gap), insi
 
 ![CCQ](assets/fr/005.webp)
 
-Para este tutorial, também vai precisar da Sparrow Wallet para gerir a sua carteira Bitcoin no seu computador. Descarregue a [Sparrow Wallet] (https://sparrowwallet.com/download/) a partir do site oficial. Aconselho-o vivamente a verificar a sua autenticidade (com GnuPG) e integridade (via hash) antes de prosseguir com a instalação. Se não sabe como o fazer, siga este tutorial:
+Para este tutorial, também vai precisar da Sparrow Wallet para gerir a sua carteira Bitcoin no seu computador. Descarregue a [Sparrow Wallet](https://sparrowwallet.com/download/) a partir do site oficial. Aconselho-o vivamente a verificar a sua autenticidade (com GnuPG) e integridade (via hash) antes de prosseguir com a instalação. Se não sabe como o fazer, siga este tutorial:
 
 https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
@@ -153,11 +153,11 @@ Pode verificar a versão atual do firmware da sua COLDCARD. Por exemplo, no meu 
 
 ![CCQ](assets/fr/019.webp)
 
-Verifique [no sítio Web oficial do COLDCARD] (https://coldcard.com/downloads) para ver se está disponível uma versão mais recente. Clique em "*Download*" para descarregar o novo firmware.
+Verifique [no sítio Web oficial do COLDCARD](https://coldcard.com/downloads) para ver se está disponível uma versão mais recente. Clique em "*Download*" para descarregar o novo firmware.
 
 ![CCQ](assets/fr/020.webp)
 
-Neste ponto, recomendamos vivamente que verifique a integridade e autenticidade do firmware descarregado. Para tal, descarregue [o documento que contém os hashes de todas as versões, assinado pelos programadores] (https://raw.githubusercontent.com/Coldcard/firmware/master/releases/signatures.txt), verifique a assinatura com [a chave pública do programador] (https://keybase.io/dochex) e certifique-se de que o hash indicado no documento assinado corresponde ao do firmware descarregado do sítio. Se tudo estiver correto, pode prosseguir com a atualização.
+Neste ponto, recomendamos vivamente que verifique a integridade e autenticidade do firmware descarregado. Para tal, descarregue [o documento que contém os hashes de todas as versões, assinado pelos programadores](https://raw.githubusercontent.com/Coldcard/firmware/master/releases/signatures.txt), verifique a assinatura com [a chave pública do programador](https://keybase.io/dochex) e certifique-se de que o hash indicado no documento assinado corresponde ao do firmware descarregado do sítio. Se tudo estiver correto, pode prosseguir com a atualização.
 
 Se não estiver familiarizado com este processo de verificação, recomendo que siga este tutorial:
 

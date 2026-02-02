@@ -1,0 +1,9 @@
+question: Jakie informacje otrzymuje Watchtower w celu monitorowania oszustw?
+answer: Częściowy TXID oszukańczej transakcji
+wrong_answers:
+  - Klucz kanału prywatnego
+  - Pełny status kanału
+  - TXID oszukańczej transakcji
+explanation: |
+  Strażnik otrzymuje tylko część TXID oszukańczej transakcji, aby zidentyfikować podejrzaną transakcję bez znajomości kanału.
+reviewed: false

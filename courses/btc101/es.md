@@ -29,7 +29,7 @@ No se requiere conocimiento previo para comenzar este curso. BTC 101 fue diseña
 
 Bitcoin es una revolución tecnológica y monetaria, capaz de hacernos cuestionar nuestra relación con el dinero y la sociedad. De hecho, Bitcoin (referido como BTC) es una moneda **neutral** y **descentralizada**, lo que significa que no está controlada por ninguna entidad o institución. Es una innovación que va más allá de una mera "moneda de Internet": es a la vez un protocolo informático (Bitcoin) y una unidad monetaria (bitcoin).
 
-El protocolo utiliza tecnologías subyacentes como la criptografía, la comunicación en red y el famoso "blockchain", mientras que la unidad bitcoin sirve como moneda necesaria para el correcto funcionamiento de este protocolo. En la vida cotidiana, salvadoreños y bitcoiners de todo el mundo utilizan la moneda bitcoin para comprar y vender bienes y servicios, confiando en esta tecnología para mejorar sus vidas.
+El protocolo utiliza tecnologías subyacentes como la criptografía, la comunicación en red y el famoso "[blockchain](https://planb.academy/resources/glossary/blockchain)", mientras que la unidad bitcoin sirve como moneda necesaria para el correcto funcionamiento de este protocolo. En la vida cotidiana, salvadoreños y bitcoiners de todo el mundo utilizan la moneda bitcoin para comprar y vender bienes y servicios, confiando en esta tecnología para mejorar sus vidas.
 
 **Un programa de estudios completo pero accesible:**
 
@@ -40,39 +40,11 @@ En este curso, discutiremos algunos aspectos monetarios de Bitcoin, incluyendo c
 Es esencial entender que Bitcoin es un nuevo sistema monetario que cambia por completo nuestra relación con el dinero, por lo que aprender a usarlo es una habilidad necesaria para cualquiera que quiera tener el control de sus propios fondos.
 
 
-**Sección 1 - Introducción**  
-- Capítulo 1 - Descripción del curso  
-- Capítulo 2 - La prehistoria de Bitcoin  
 
-**Sección 2 - El dinero**  
-- Capítulo 3 - El dinero a través de la historia  
-- Capítulo 4 - Monedas fiduciarias  
-- Capítulo 5 - Hiperinflación  
-- Capítulo 6 - 21 millones de bitcoins  
 
-**Sección 3 - Carteras Bitcoin**  
-- Capítulo 7 - ¿Qué es una cartera Bitcoin?  
-- Capítulo 8 - Carteras Bitcoin y seguridad  
-- Capítulo 9 - Configuración de una cartera  
-- Capítulo 10 - Superar la prueba del tiempo  
 
-**Sección 4 - Aspectos técnicos de Bitcoin**  
-- Capítulo 11 - Lanzamiento de Bitcoin  
-- Capítulo 12 - Transacciones en bitcoins  
-- Capítulo 13 - Nodos de Bitcoin  
-- Capítulo 14 - Mineros  
-- Capítulo 15 - Bitcoin y ecología  
 
-**Sección 5 - ¿Cómo obtener bitcoins?**  
-- Capítulo 16 - ¡Bitcoin nunca duerme!  
-- Capítulo 17 - Obtener bitcoins trabajando  
-- Capítulo 18 - Ahorrar con Bitcoin  
-- Capítulo 19 - La hiperbitcoinización  
 
-**Sección 6 - El futuro de Bitcoin: Lightning Network**  
-- Capítulo 20 - Una breve introducción a Lightning Network  
-- Capítulo 21 - Casos de uso de Lightning Network  
-- Capítulo 22 - ¿Píldora roja o píldora azul?  
 
 Antes de introducir la definición de dinero y su función en la sociedad (Capítulo 1), debemos partir de la génesis de Bitcoin. Lanzado en 2009, Bitcoin es una tecnología relativamente nueva y diferente a todo lo demás. Por lo tanto, es normal no entenderlo todo sobre ella, todo a la vez. De hecho, al igual que cuando se aprende a utilizar Internet o a conducir un coche, no es necesario conocer todos los detalles técnicos de inmediato: se puede empezar por aprender a recibir, pagar y asegurar los fondos, y luego dar pequeños pasos para estudiarlo más a fondo.
 
@@ -84,7 +56,6 @@ Lo importante aquí es comprender esta nueva tecnología de forma general, así 
 
 ¿Listo para sumergirte en el fascinante universo de Bitcoin y comprender todos sus engranajes? ¡Vamos allá!
 
-**N.B.**: Si encuentra términos desconocidos durante el curso, por favor consulte [el glosario](https://planb.academy/resources/glossary) para obtener definiciones.
 
 ## La prehistoria de Bitcoin
 
@@ -207,7 +178,7 @@ Para cumplir estos criterios, la moneda ha evolucionado históricamente dando di
 
 Las monedas siguen evolucionando a día de hoy, adaptando sus formas para satisfacer diferentes casos de uso. Como decíamos, aunque el oro es un excelente depósito de valor, ya no es adecuado para la actual economía globalizada. Del mismo modo, las monedas fiduciarias como el dólar y el euro son muy líquidas y fácilmente transportables porque ahora son en su mayoría digitales, pero su valor disminuye constantemente debido a la inflación monetaria.
 
-Por otro lado, Bitcoin presenta nuevas posibilidades. Sus propiedades, como la oferta estrictamente limitada, lo convierten en un excelente depósito de valor. Además, como moneda neutral de Internet, sirve como **medio de intercambio** viable que trasciende fronteras. Sin embargo, a día de hoy todavía no goza de gran aceptación en el comercio, a pesar de su [constante adopción](https://btcmap.org/map).
+Por otra parte, Bitcoin abre nuevas perspectivas. Sus propiedades, en particular una oferta estrictamente limitada, lo convierten en una excelente reserva de valor. Asimismo, como moneda de internet neutral, constituye un **medio de intercambio** viable, capaz de trascender fronteras. No obstante, a pesar de una adopción continua (como lo ilustra [el mapa de BTCmap](https://btcmap.org/map)), todavía no es ampliamente aceptado en el comercio actual.
 
 ## Monedas fiduciarias
 
@@ -681,7 +652,7 @@ Ahora que hemos cubierto los fundamentos de los monederos Bitcoin y las mejores 
 
 ![image](assets/es/038.webp)
 
-El 31 de octubre de 2008 marca el nacimiento de la nueva tecnología financiera que es Bitcoin. Ese día, el anónimo Satoshi Nakamoto presentó su innovación al mundo a través de un correo electrónico enviado a la lista de correo de los cypherpunks, una comunidad de entusiastas de la criptografía dedicada a promover la privacidad en Internet. Este correo contenía un documento llamado "White Paper", que presentaba el funcionamiento de Bitcoin.
+El 31 de octubre de 2008 marca el nacimiento de la nueva tecnología financiera que es Bitcoin. Ese día, el anónimo Satoshi Nakamoto presentó su innovación al mundo a través de un correo electrónico enviado a la lista de correo de los cypherpunks, una comunidad de entusiastas de la criptografía dedicada a promover la privacidad en Internet. Este correo contenía un documento llamado "[White Paper](https://planb.academy/resources/glossary/white-paper)", que presentaba el funcionamiento de Bitcoin.
 
 Esta iniciativa no generó entusiasmo de inmediato, probablemente debido a los fracasos anteriores en los intentos de crear un sistema de dinero digital. No obstante, este Libro Blanco acabó convirtiéndose en una referencia para los usuarios de Bitcoin y ha sido objeto de numerosos debates en el ecosistema Bitcoin a lo largo de los años.
 
@@ -720,7 +691,7 @@ En 2010, cuando Bitcoin empezó a atraer la atención de los medios, Satoshi dec
 
 Para algunos, Bitcoin se define como una entidad fúngica como un [micelio](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), mientras que otros lo describen como un [agujero negro](https://dergigi.com/). Lo ame o lo odie, Bitcoin sigue existiendo, con su ritmo constante de 10 minutos por bloque, como el latido de un nuevo sistema monetario.
 
-Para saber más sobre los escritos de Satoshi Nakamoto, recomendamos leer ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) de Phil Champagne o el documental de ARTE "Le mystaire Satoshi".
+Para profundizar en los escritos de Satoshi Nakamoto, recomiendo la lectura de [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) de Phil Champagne, que reúne y contextualiza sus principales textos, así como el documental de ARTE [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), que propone una investigación accesible y bien documentada sobre su identidad y su legado.
 
 ![image](assets/es/044.webp)
 
@@ -761,7 +732,7 @@ De hecho, los mineros tienen la función de reunir transacciones válidas y no c
 
 ### Paso 3: La transacción es minada en un bloque por un minero.
 
-El sistema Proof of work requiere encontrar un "hash" válido para el bloque en cuestión: piense en él como una huella digital única asociada al bloque, compuesta por 256 caracteres. La validez de este hash depende de la tasa de dificultad de la red Bitcoin (entraremos en más detalles más adelante). Por ahora, considere que un minero ha encontrado un bloque válido, y que la transacción de Bob a Alice está incluida en él. Entonces, el nuevo bloque válido se añade al blockchain, el libro de contabilidad común para todos los usuarios de Bitcoin.
+El sistema [proof of work](https://planb.academy/resources/glossary/proof-of-work) requiere encontrar un "hash" válido para el bloque en cuestión: piense en él como una huella digital única asociada al bloque, compuesta por 256 caracteres. La validez de este hash depende de la tasa de dificultad de la red Bitcoin (entraremos en más detalles más adelante). Por ahora, considere que un minero ha encontrado un bloque válido, y que la transacción de Bob a Alice está incluida en él. Entonces, el nuevo bloque válido se añade al blockchain, el libro de contabilidad común para todos los usuarios de Bitcoin.
 
 ![image](assets/es/048.webp)
 
@@ -838,7 +809,7 @@ Tras esta victoria, los nodos activaron una actualización llamada SegWit, allan
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Los mineros aseguran la red y añaden transacciones a los bloques. Utilizan electricidad a través de máquinas ASIC para resolver la prueba de trabajo de Bitcoin.**
+**Los mineros aseguran la red y añaden transacciones a los bloques. Utilizan electricidad a través de máquinas [ASIC](https://planb.academy/resources/glossary/asic) para resolver la prueba de trabajo de Bitcoin.**
 
 ![image](assets/es/054.webp)
 
@@ -1045,7 +1016,9 @@ La economía Bitcoin existe y se está desarrollando en ciertas regiones del mun
 
 No obstante, en El Salvador y en otras partes del mundo, hay cada vez más individuos, empresas y organizaciones que aceptan Bitcoin como medio de pago por sus productos o servicios.
 
-![image](assets/es/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
+
+*Fuente : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
 Además, se ha puesto en marcha un proyecto colaborativo y de código abierto, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), para facilitar el uso de Bitcoin en las transacciones cotidianas. Esta plataforma enumera todos los comerciantes que aceptan Bitcoin, así como las diferentes comunidades Bitcoin de todo el mundo, por lo que puede visitar su sitio web para descubrir el ecosistema Bitcoin que le rodea. Así, a pesar de las dificultades y las dudas, existen iniciativas como BTCMap que contribuyen a que la economía Bitcoin sea más accesible y cómoda para todos.
 

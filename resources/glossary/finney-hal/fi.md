@@ -1,6 +1,7 @@
 ---
-term: FINNEY HAL
+term: Finney hal
 
+definition: Kryptografi ja kehittäjä, jolla oli ratkaiseva rooli Bitcoinin alkuvaiheessa Satoshin rinnalla.
 ---
 Harold T. Finney II, joka tunnettiin nimellä Hal Finney, oli salakirjoittaja ja kehittäjä, joka oli kuuluisa ratkaisevasta roolistaan Bitcoinin alkuaikoina ja panoksestaan salakirjoitukseen. Bitcoinin valkoisen kirjan julkaisusta vuonna 2008 lähtien hän oli ensimmäisten joukossa vuorovaikutuksessa Satoshi Nakamoton kanssa. Hän antoi palautetta, raportoi virheistä ja ehdotti parannuksia sen jälkeen, kun ohjelmisto julkaistiin tammikuussa 2009. Hän oli ensimmäisen Bitcoin-tapahtuman vastaanottaja (kolikkopankkien ulkopuolella), kun hän sai 10 BTC:tä Satoshilta lohkossa numero 170. Hän oli myös ensimmäisen Bitcoin-tapahtuman vastaanottaja:
 

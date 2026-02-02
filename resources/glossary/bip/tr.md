@@ -1,5 +1,6 @@
 ---
 term: BIP
+definition: Bitcoin Improvement Proposal. Topluluğun Bitcoin protokolü için iyileştirmeler önermesine, tartışmasına ve belgelemesine olanak tanıyan resmi süreç.
 ---
 
 "Bitcoin İyileştirme Teklifi "nin kısaltmasıdır Bitcoin İyileştirme Teklifi (BIP), Bitcoin protokolünde ve standartlarında iyileştirmeler ve değişiklikler önermek ve belgelemek için resmi bir süreçtir. Bitcoin'in güncellemelere karar verecek merkezi bir kuruluşu olmadığından, BIP'ler topluluğun yapılandırılmış ve şeffaf bir şekilde iyileştirmeler önermesine, tartışmasına ve uygulamasına olanak tanır. Her BIP önerilen iyileştirmenin hedeflerini, gerekçelerini, uyumluluk üzerindeki potansiyel etkilerini, avantaj ve dezavantajlarını detaylandırır. BIP'ler topluluğun herhangi bir üyesi tarafından yazılabilir, ancak diğer geliştiriciler ve Bitcoin core GitHub veritabanını koruyan editörler tarafından onaylanmalıdır: Bryan Bishop, Jon Atack, Luke Dashjr, Mark Erhardt (Murch), Olaoluwa Osuntokun ve Ruben Somsen. Ancak, bu kişilerin BIP'lerin düzenlenmesindeki rollerinin Bitcoin'i kontrol ettikleri anlamına gelmediğini anlamak önemlidir. Birisi resmi BIP çerçevesinde kabul edilmeyen bir iyileştirme önerirse, bunu yine de doğrudan Bitcoin topluluğuna sunabilir veya hatta değişikliklerini içeren bir Fork oluşturabilir. BIP sürecinin avantajı, Bitcoin kullanıcıları arasında bölünmeyi önlemek için tartışmayı kolaylaştıran ve güncellemeleri uzlaşmacı bir şekilde uygulamaya çalışan formalitesi ve merkezileştirilmesinde yatmaktadır. Sonuçta protokol içindeki güç dinamiklerini belirleyen ekonomik çoğunluk ilkesidir.
@@ -38,7 +39,6 @@ BIP'ler daha sonra yaşam döngüleri boyunca farklı durumlardan geçerler. Mev
 - Değiştirildi / Geçersiz: BIP artık uygulanabilir değildir veya onu gereksiz kılan daha yeni bir teklifle değiştirilmiştir.
 
 
-![](../../dictionnaire/assets/25.webp)
 
 
-> ► *BIP, "Bitcoin İyileştirme Önerisi "nin kısaltmasıdır. Fransızca'da "Proposition d'amélioration de Bitcoin" olarak tercüme edilebilir. Bununla birlikte, çoğu Fransızca metin "BIP" kısaltmasını bazen dişil, bazen eril olmak üzere doğrudan ortak bir isim olarak kullanır.*
+

@@ -6,4 +6,4 @@ wrong_answers:
   - Membuat ladang penambangan menjadi sangat kaya
 explanation: |
   Lightning Network bertujuan memungkinkan pembayaran bitcoin yang hampir instan dengan biaya rendah, tanpa membebani blockchain utama.
-reviewed: false
+reviewed: true

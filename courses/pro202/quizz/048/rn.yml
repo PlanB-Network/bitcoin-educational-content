@@ -1,0 +1,8 @@
+question: Ni igiki kiba iyo wubatse igiti ca Merkle uhereye ku bikorwa iyo umubare w’ama hashes ku rugero urwo ari rwo rwose ari uwudasanzwe?
+answer: Hash ya nyuma irasubirwamwo kugira ngo ureme umubare w'ababiri ku rwego rukurikira
+wrong_answers:
+  - Hash ya nyuma ijanwa imbere itahindutse ku rugero rukurikira ata gufatanya
+  - Hash ya nyuma ni XORed na hash ya mbere y'urwo rwego kugira ngo urangize gukorana
+  - Hash ya nyuma ifatanijwe na hash y'ubusa (zero zose) kugira ngo ureme umugwi wa nyuma
+explanation: |
+  Ubwubatsi bw’igiti ca Merkle bwa Bitcoin busaba gukorana n’ama hashes ku rugero rwose. Iyo umubare udasanzwe uriho, porotokole isubiramwo hash ya nyuma kugira ngo ibone ko hariho uguhuza neza. Ivyo bigumya imiterere y'igiti kandi bikaba bituma habaho uguharura kw'imizi. Ibindi bihitamwo vyoca bihuza n’amategeko y’ubumwe ya Bitcoin maze bikarema imizi itandukanye ya Merkle ku migwi y’ibikorwa bisa.

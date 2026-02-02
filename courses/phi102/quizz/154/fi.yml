@@ -1,0 +1,8 @@
+question: Minkä perusongelman liberaalin talousteorian mukaan alijäämäinen rahankäyttö aiheuttaa demokraattisissa yhteiskunnissa?
+answer: Se antaa nykyisille sukupolville mahdollisuuden nauttia eduista ja siirtää kustannukset tuleville sukupolville, jotka eivät voi osallistua nykyisiin demokraattisiin päätöksiin
+wrong_answers:
+  - Se aiheuttaa liiallista inflaatiota, joka välittömästi vähentää nykyisten veronmaksajien ostovoimaa ja horjuttaa taloutta
+  - Se keskittää liikaa taloudellista valtaa varakkaiden velkojien käsiin, jotka voivat sitten vaikuttaa hallituksen poliittisiin päätöksiin
+  - Se vähentää hallinnon tehokkuutta luomalla byrokraattista kilpailua eri menoja käyttävien osastojen välille rajallisista resursseista
+explanation: |
+  Luvussa selitetään, että alijäämämenot katkaisevat luonnollisen yhteyden nautinnon ja vastuun välillä, koska ne antavat nykyisille kansalaisille mahdollisuuden hyötyä julkisista palveluista ja siirtävät samalla kustannukset laillisesti tuleville sukupolville. Tämä luo perustavanlaatuisen demokraattisen ristiriidan, koska ne tulevat kansalaiset, jotka joutuvat kantamaan taloudellisen taakan, eivät voi osallistua nykyisiin poliittisiin päätöksiin, joilla velka luodaan. Tämä on vastoin periaatetta "ei verotusta ilman edustusta", koska tulevia sukupolvia verotetaan tosiasiallisesti ilman, että heillä on sananvaltaa päätöksentekoprosessissa.

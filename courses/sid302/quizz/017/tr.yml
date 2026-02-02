@@ -1,0 +1,8 @@
+question: Liquid'ın federe mutabakat modelinde, bir bloğu doğrulamak için gereken minimum görevli imzası sayısı ve ağın tolere edebileceği maksimum düğüm hatası sayısı nedir?
+answer: 11 imza gereklidir, 4 düğüm arızasına kadar tolere edebilir
+wrong_answers:
+  - 8 imza gereklidir, 7 düğüm arızasına kadar tolere edebilir
+  - 15 imza gereklidir, 2 düğüm arızasına kadar tolere edebilir
+  - 9 imza gereklidir, 6 düğüm arızasına kadar tolere edebilir
+explanation: |
+  Liquid, geçerli olması için 15 görevliden en az 11'inin her bloğu imzalaması gereken 11'e 15 eşik sistemi kullanmaktadır. Bu tasarım, en fazla 4 düğüm arızalansa bile (15 - 11 = 4) ağın çalışmaya devam etmesini sağlar. Diğer seçenekler ya yanlış imza eşikleri sağlamakta ya da hata toleransını yanlış hesaplamaktadır; bu da her zaman toplam düğüm eksi gerekli imzalar anlamına gelmektedir.

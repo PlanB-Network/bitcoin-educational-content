@@ -1,5 +1,6 @@
 ---
-term: OVERLAY
+term: Layer
+definition: Über Bitcoin aufgebautes Protokoll zur Erweiterung seiner Funktionen, wie das Lightning Network.
 ---
 
 Protokoll oder Netz, das auf dem Hauptnetz Bitcoin aufbaut. Es nutzt das Bitcoin-Netz als Grundlage und ist daher von dessen Protokoll abhängig. Das Bitcoin-Netz ist jedoch nicht von seinen Overlays abhängig. Ein Beispiel für ein solches Overlay ist Lightning Network.

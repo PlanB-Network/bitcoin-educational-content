@@ -146,10 +146,11 @@ Ntukibagire gusubira gufungura porogarama umaze guhindura ivyo.
 Hanyuma usubire kuri Sparrow wallet winjize inzira ija kuri dosiye yawe y'amakuru, akenshi iri muri dosiye imwe na `Bitcoin.conf`, bivanye n'uburyo ukoresha:
 
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-| **Windows** | %APPDATA%\Bitcoin |
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 
@@ -180,10 +181,11 @@ server=1
 Uhejeje guhindura dosiye, urabe ko uyibika muri dosiye ibereye sisitemu yawe:
 
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-| **Windows** | %APPDATA%\Bitcoin |
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 Ivyo bishobora kandi gukorwa biciye ku gishushanyo Bitcoin-QT Interface Interface. Genda kuri "*Ivyagezwe*", hanyuma "*Amahitamwo...*", hanyuma ukoreshe amahitamwo ya "*Gushoboza server ya RPC*" mu guca akamenyetso mu gasandugu kahuye. Niba dosiye `Bitcoin.conf` itahari, ushobora kuyihingura ukoresheje iyi Interface ukanda kuri "*Gufungura dosiye y'imiterere*".
 

@@ -1,0 +1,9 @@
+question: Rủi ro tài chính khi sử dụng Lightning wallet làm thiết bị giám sát là gì?
+answer: Dự trữ phân đoạn
+wrong_answers:
+  - Tăng phí mining một cách tùy tiện
+  - Tấn công 51%
+  - Chấm dứt hoàn toàn xu hướng giảm giá trên thị trường
+explanation: |
+  Người dùng không thể xác minh rằng số dư hiển thị thực sự tương ứng với số bitcoin đang nắm giữ. Do đó, tồn tại rủi ro dự trữ không đầy đủ.
+reviewed: false

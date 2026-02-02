@@ -522,15 +522,16 @@ brew install --cask orion
 
 
 
-| Critère | Orion | Safari | Chrome | Firefox | Brave |
+
+| मानदंड | Orion | Safari | Chrome | Firefox | Brave |
 |---------|-------|--------|---------|----------|--------|
-| **Télémétrie** | Aucune | Minimale | Extensive | Modérée | Minimale |
-| **Bloqueur natif** | 99,9% efficace | Basique | Absent | Partiel | Complet |
-| **Extensions** | Chrome + Firefox | Limitées | Chrome uniquement | Firefox uniquement | Chrome uniquement |
-| **Performance Mac** | Excellente | Excellente | Bonne | Moyenne | Bonne |
-| **Consommation RAM** | Très faible | Faible | Élevée | Moyenne | Moyenne |
-| **Open Source** | Partiel | Partiel (WebKit) | Partiel | Complet | Complet |
-| **Plateformes** | Mac/iOS | Mac/iOS | Toutes | Toutes | Toutes |
+| **टेलीमेट्री** | कोई नहीं | न्यूनतम | व्यापक | मध्यम | न्यूनतम |
+| **देशी अवरोधक** | 99.9% प्रभावी | मूल | अनुपस्थित | आंशिक | पूर्ण |
+| **एक्सटेंशन** | Chrome + Firefox | सीमित | केवल Chrome | केवल Firefox | केवल Chrome |
+| **Mac प्रदर्शन** | उत्कृष्ट | उत्कृष्ट | अच्छा | औसत | अच्छा |
+| **RAM खपत** | बहुत कम | कम | अधिक | औसत | औसत |
+| **ओपन सोर्स** | आंशिक | आंशिक (WebKit) | आंशिक | पूर्ण | पूर्ण |
+| **प्लेटफॉर्म** | Mac/iOS | Mac/iOS | सभी | सभी | सभी |
 
 **सफारी के विपरीत**: ओरियन अपने उन्नत अवरोधक और एक्सटेंशन समर्थन के साथ बेहतर सुरक्षा प्रदान करता है, जबकि वेबकिट प्रदर्शन को बनाए रखता है।
 

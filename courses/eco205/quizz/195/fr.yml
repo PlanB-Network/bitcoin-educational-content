@@ -1,0 +1,8 @@
+question: Selon l'école autrichienne, quelle est la principale différence entre l'adoption de Bitcoin et l'établissement des monnaies fiduciaires modernes?
+answer: Bitcoin émerge spontanément par reconnaissance de ses propriétés par les individus, tandis que les monnaies fiduciaires sont imposées par décret gouvernemental
+wrong_answers:
+  - Bitcoin est adopté par les institutions financières centralisées, tandis que les monnaies fiduciaires émergent des marchés décentralisés
+  - Bitcoin nécessite une planification centrale pour son adoption, tandis que les monnaies fiduciaires se développent naturellement par imitation
+  - "Bitcoin est établi par consensus démocratique des nations, tandis que les monnaies fiduciaires résultent de processus d'échanges spontanés"
+explanation: |
+  Selon Menger et l'école autrichienne, la monnaie authentique émerge spontanément quand les agents économiques reconnaissent et adoptent progressivement le bien le plus échangeable, créant un effet de réseau. Bitcoin illustre parfaitement ce processus naturel d'émergence monétaire, aucune autorité centrale n'ayant décidé de sa valeur. À l'inverse, les monnaies fiduciaires sont imposées par les États et maintenues par la contrainte légale, non par reconnaissance spontanée de leurs qualités monétaires.

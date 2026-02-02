@@ -1,0 +1,9 @@
+question: Manakah dari operasi Lightning ini yang memerlukan publikasi transaksi onchain?
+answer: Pembukaan saluran
+wrong_answers:
+  - Pembayaran kilat
+  - Perutean multi-hop
+  - Koneksi klien seluler
+explanation: |
+  Pembukaan sebuah saluran sesuai dengan transaksi Bitcoin yang diterbitkan di blockchain.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Dlaczego warto korzystać z menedżera węzłów Lightning?
+answer: Łatwy dostęp do zaawansowanych funkcji
+wrong_answers:
+  - Zastąpienie implementacji LND
+  - Eliminacja zależności od Umbrel
+  - Modyfikowanie protokołu Lightning
+explanation: |
+  Zaawansowane menedżery oferują funkcje niedostępne w podstawowym interfejsie, pozostając jednocześnie prostymi interfejsami.
+reviewed: false

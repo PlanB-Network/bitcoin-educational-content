@@ -14,13 +14,13 @@ De to hoveddelene av plattformen vår er kurs og veiledninger. Kursene inneholde
 
 Kurs er naturlig nok lengre og mer strukturerte enn veiledninger. De bør utforske et spesifikt tema relatert til Bitcoin eller dets økosystem i dybden, med presisjon og detaljer.
 
-[Discover Plan ₿ Nettverkskurs] (https://planb.academy/courses)
+[Discover Plan ₿ Nettverkskurs](https://planb.academy/courses)
 
 ![TUTO](assets/fr/37.webp)
 
 Veiledninger er vanligvis kortere. De er ment som trinnvise veiledninger i hvordan du utfører en spesifikk Bitcoin-relatert oppgave, med bilder som støtte.
 
-[Discover Plan ₿ Nettverksveiledninger] (https://planb.academy/tutorials)
+[Discover Plan ₿ Nettverksveiledninger](https://planb.academy/tutorials)
 
 ![TUTO](assets/fr/38.webp)
 
@@ -68,7 +68,7 @@ Uansett hva du velger, må du huske på at alt innhold som publiseres på Plan �
 
 ## 2 - Kontakt Plan ₿ Nettverksteam
 
-Når du har valgt tema for opplæringen din, er neste trinn å informere oss om at du har til hensikt å legge til dette innholdet på plattformen. Den enkleste måten, hvis du har en Telegram-konto, er å [bli med i gruppen vår] (https://t.me/PlanBNetwork_ContentBuilder).
+Når du har valgt tema for opplæringen din, er neste trinn å informere oss om at du har til hensikt å legge til dette innholdet på plattformen. Den enkleste måten, hvis du har en Telegram-konto, er å [bli med i gruppen vår](https://t.me/PlanBNetwork_ContentBuilder).
 
 ![TUTO](assets/fr/39.webp)
 

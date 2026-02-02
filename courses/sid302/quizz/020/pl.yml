@@ -1,0 +1,8 @@
+question: Co dzieje się z konfiguracją sieci podczas procesu dynamicznej federacji Liquid (Dynafed), gdy pracownik funkcyjny musi zostać zastąpiony?
+answer: Sieć rozgłasza transakcję przejścia, po której następuje dwutygodniowy okres nakładania się, zanim nowa konfiguracja zostanie przejęta
+wrong_answers:
+  - Sieć natychmiast przełącza się na nową konfigurację funkcyjną po rozgłaszaniu transakcji przejścia
+  - Wszyscy pracownicy funkcyjni muszą jednocześnie zagłosować za zatwierdzeniem wymiany przed wprowadzeniem jakichkolwiek zmian w konfiguracji
+  - Sieć wymaga twardego fork i tymczasowego wyłączenia w celu aktualizacji listy funkcjonariuszy i ponownego uruchomienia operacji
+explanation: |
+  Dynamiczna federacja pozwala Liquid ewoluować bez twardych rozwidleń poprzez starannie zaaranżowany proces przejścia. Gdy konieczna jest wymiana funkcjonariuszy, sieć transmituje transakcję przejścia, która sygnalizuje nadchodzącą zmianę. Po tym następuje obowiązkowy dwutygodniowy okres nakładania się, w którym współistnieją zarówno stare, jak i nowe konfiguracje, zapewniając płynną ciągłość. Inne opcje są nieprawidłowe, ponieważ natychmiastowe przełączenie groziłoby niestabilnością sieci, jednoczesne głosowanie nie jest używanym mechanizmem, a twarde widełki są właśnie tym, czego Dynafed został zaprojektowany, aby uniknąć.

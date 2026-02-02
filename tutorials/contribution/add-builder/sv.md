@@ -20,7 +20,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- Gå till [GitHub-arkivet för PlanB som är dedikerat till data] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects) i avsnittet `resources/project/`:
+- Gå till [GitHub-arkivet för PlanB som är dedikerat till data](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects) i avsnittet `resources/project/`:
 
 ![project](assets/02.webp)
 

@@ -10,7 +10,7 @@ In diesem Tutorial lernen Sie Schritt für Schritt, wie Sie einen Lightning-RGB-
 
 Das RGB-Team von Bitfinex arbeitet seit 2022 daran, das RGB-Ökosystem durch die Entwicklung eines kompletten Technologie-Stacks zu bereichern. Anstatt ein einzelnes kommerzielles Produkt anzustreben, konzentrieren sich die Bemühungen darauf, Open-Source-Softwarebausteine verfügbar zu machen, zu den RGB-Protokollspezifikationen beizutragen und Implementierungsreferenzen zu erstellen.
 
-Zu den bemerkenswerten Beiträgen von Bitfinex zum RGB-Ökosystem gehört [die *RGBlib*-Bibliothek] (https://github.com/RGB-Tools/rgb-lib), die in Rust geschrieben und über Bindungen in Kotlin und Python zugänglich ist und die Entwicklung von RGB-Anwendungen durch die Kapselung komplexer Validierungs- und Engagement-Mechanismen erheblich vereinfacht.
+Zu den bemerkenswerten Beiträgen von Bitfinex zum RGB-Ökosystem gehört [die *RGBlib*-Bibliothek](https://github.com/RGB-Tools/rgb-lib), die in Rust geschrieben und über Bindungen in Kotlin und Python zugänglich ist und die Entwicklung von RGB-Anwendungen durch die Kapselung komplexer Validierungs- und Engagement-Mechanismen erheblich vereinfacht.
 
 Das Bitfinex-Team hat auch eine mobile RGB-Wallet mit dem Namen "[*Iris Wallet*](https://iriswallet.com/)" entwickelt, die auf Android verfügbar ist. Diese Wallet integriert die Verwendung eines RGB-Proxy-Servers, um den Off-Chain-Datenaustausch (*Consignments*) für die *Client-side Validation* auf RGB einfach zu verwalten.
 

@@ -1,5 +1,6 @@
 ---
 term: OP_CHECKSEQUENCEVERIFY (0XB2)
+definition: Opcode inayoweka kizuizi cha muda wa jamaa kwenye utumiaji wa UTXO.
 ---
 
 Hufanya muamala kuwa batili ikiwa mojawapo ya sifa hizi itazingatiwa:

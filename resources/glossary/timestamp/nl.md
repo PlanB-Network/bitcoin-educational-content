@@ -1,6 +1,7 @@
 ---
-term: TIMESTAMP
+term: Timestamp
 
+definition: Mechanisme dat een tijdstip koppelt aan een gebeurtenis om de chronologie van transacties en blokken vast te stellen.
 ---
 
 Timestamping, of "Timestamp" in het Engels, is een mechanisme om een precieze tijdmarkering te associëren met een gebeurtenis, data of bericht. In de algemene context van computersystemen wordt tijdstempeling gebruikt om de chronologische volgorde van bewerkingen te bepalen en om de integriteit van gegevens in de loop van de tijd te controleren.

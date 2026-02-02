@@ -6,1285 +6,635 @@ description: 瞭解如何使用 Wallet Bull Bitcoin
 ![cover](assets/cover.webp)
 
 
+![video](https://www.youtube.com/watch?v=6b0xTB2sE8E)
 
-本指南將介紹 Bull Bitcoin Mobile 的安裝、配置和使用。您將學習如何在三個網路（onchain、Liquid 和 Lightning）上接收和發送資金，以及如何將您的 Bitcoin 從一個網路轉移到另一個網路。附錄提供資源與聯絡方式、背景資訊以及技術概念的簡要說明。
 
+*BTC Sessions 的這段視訊教學將帶您了解設定和使用 Bull Bitcoin Wallet 的過程！* * BTC Sessions 的這段視訊教學將帶您了解設定和使用 Bull Bitcoin Wallet 的過程
+
+
+本指南將介紹 Bull Bitcoin Wallet 的安裝、配置和使用。您將學習在 Bitcoin On-Chain、Liquid 和 Lightning 網路上傳送和接收資金，以及如何在它們之間移動 Bitcoin。wallet 豐富的功能使其成為管理 Bitcoin 的功能強大的多合一工具。讓我們開始吧
 
 
 ## 簡介
 
 
-
-**Bull Bitcoin Mobile**，由 **[Bull Bitcoin](https://www.bullbitcoin.com/)** ([create account](https://app.bullbitcoin.com/registration/orangepeel)) 所開發，是一款**自我保管**的 Bitcoin Wallet，這表示您可以完全控制您的私密金鑰，因此也可以完全控制您的資金，而不需要仰賴第三方。此 Wallet 採用開放原始碼並植根於 Cypherpunk 哲學，結合了簡易性、保密性和進階功能，例如跨網路交換和 PayJoin 支援。它可讓您在三個網路中管理您的比特幣： **Bitcoin onchain**、**Liquid** 和 **Lightning**，每個都是針對特定用途量身打造。
-
+Bull Bitcoin Wallet 由 [Bull Bitcoin](https://www.bullbitcoin.com/)開發，是一款**自我保管**的 Bitcoin wallet，這意味著您可以完全控制您的私人金鑰，因此也可以完全控制您的資金，而無需依賴第三方。此 Wallet 採用開放原始碼並植根於 Cypherpunk 哲學，結合了簡單性、保密性和先進功能，例如跨網路交換和 PayJoin 支援。它可讓您在三個網路中管理您的比特幣： **Bitcoin onchain**、**Liquid** 和 **Lightning**，每個都是針對特定用途量身打造。在 [BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49) 上，您可以查看目前的主題和即將進行的開發。由於該專案是 100% 開源且「公開建置」，您也可以傳送您的建議和遇到的任何 bug。雖然有些錢包現在支援多個網路，但 Bull Bitcoin Wallet 卻透過深度整合所有網路的隱私權功能而脫穎而出，使其成為在所有主要網路管理您的 Bitcoin 的強大工具。
 
 
-### 發展背景
+## 1️⃣先決條件
 
 
-
-Wallet 回應了一項重大挑戰：Bitcoin 網路收費不適合小額支付，或開設小型自管 Lightning 通路。Wallet Bull Bitcoin Mobile 在依賴 3 個主要 Bitcoin 網路的同時，提供了自保管解決方案：
-
-
-
-
-
-- Bitcoin 網路 (onchain)：中長期儲存 UTXO 和大額交易的理想選擇，費用在比例上可以忽略不计。
-- **Liquid Network**：專為快速（約 2 分鐘）、更保密（隱藏金額）、低成本的交易而設計，非常適合累積小額金額或保護您的隱私。
-- **Lightning** 網路：針對即時、低成本付款進行最佳化，適用於中小價值的日常交易。
-
-
-
-以 Bull Bitcoin Mobile 為例，您可以在 **Liquid** 或 **Lightning** 組合中累積小額資金，當您累積的資金達到相當可觀的數額時，您就可以 ：
-
-
-
-
-
-- 轉移到 onchain 網路進行安全的中期或長期儲存，與上游的 Liquid 和/或 Lightning 一起提高了機密性，並且單筆交易可收取 onchain 費用
-
-
-
-### 持續演進
-
-
-
-Wallet 在不斷演進，因此如果您發現本教學與您最新的應用程式之間有差異，請不要感到驚訝。
-
-
-
-
-- 例如，自 2025 年 7 月 19 日起，**「買入/賣出/支付 」** 按鈕在應用程式中是可見的，但呈灰色，因為這些選項可在 Exchange [bullbitcoin.com](https://app.bullbitcoin.com/registration/orangepeel) 上使用，不久將整合為統一的體驗。它們的使用仍然是完全可選的。許多其他開發正在進行或計劃中：多 Wallet 管理、passphrase、與硬體錢包的相容性...
-- 在 [BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49)，您可以查看當前主題和即將進行的開發。由於本專案是 100% 開放原始碼且「公開建置」，您也可以將您的建議和遇到的任何 bug 寄給我們。
-
-
-
-
-## 1.先決條件
-
-
-
-在您開始使用 **Bull Bitcoin Mobile** 之前，請確定您已備妥下列物品：
-
-
+在您開始使用 **Bull Bitcoin Wallet** 之前，請確定您已備妥下列物品：
 
 
 
 - 相容的智慧型手機**：iOS**（iPhone 或 iPad）或**Android**裝置
 - 網際網路連線
-- 安全備份媒體：在紙張或金屬上寫下您的**恢復詞組**（12 個字），並將其存放在安全的地方。
-- **基本知識**：對 Bitcoin 概念 (位址、交易、費用) 有最低限度的瞭解是有用的，不過本教程會為初學者解釋每個步驟。
+- 安全備份媒體**：在紙張或金屬上寫下您的**恢復詞組**（12 個字），並將其存放在安全的地方。
+- 基本知識**：對 Bitcoin 概念 (位址、交易、費用) 有最低限度的瞭解是有用的，不過本教程會為初學者解釋每個步驟。
+
+
+## 2️⃣安裝
+
+
+您可以透過下列方式安裝應用程式：
 
 
 
-## 2.安裝
+- [Apple App Store](https://apps.apple.com/app/bull-bitcoin/id6743380972)[ ](https://apps.apple.com/us/app/bitchat-mesh/id6748219622)(適用於 iOS 裝置)
+- [Google Play 商店](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&hl=en) (適用於 Android 裝置)
+
+
+Android 使用者也有其他選擇：
 
 
 
+- 直接從 [GitHub Releases](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) 頁面下載 APK 或
+- 透過與 Nostr 相容的 [Zapstore] 安裝(https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq7xwd748yfjrsu5yuerm56fcn9tntmyv04w95etn0e23xrczvvraqqtxxmmd9e382mrvvf5hgcm0d9hzumt0vf5kcegnah0ap)
 
 
-- **下載申請表**：
-- [Google Play 商店](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&pcampaignid=web_share) **從 Android 裝置的應用程式商店下載**
-- [GitHub](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) 直接下載 Android 裝置的 **APK**。
-- [iOS](https://testflight.apple.com/join/FJbE4JPN) 透過 TestFlight 為 Apple 裝置下載
- - 檢查開發者的名稱 (Bull Bitcoin)，以避免詐騙性的應用程式。
- - 確保下載的版本與 GitHub 上顯示的最新穩定版本相符。
- - Bull Bitcoin Mobile 是**開放原始碼**。查看程式碼：[BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49)
+安裝應用程式後，請跟進歡迎畫面以設定您的帳戶。
 
 
+## 3️⃣初始配置
 
 
-
-- 安裝應用程式
+開啟時，系統會提示您下列選項：
 
 
 
-
-## 3.初始設定
-
-
-
-### 3.1 啟動應用程式 ：
+- 建立新的 Wallet
+- 回收 Wallet ` 和
+- 進階選項
 
 
-
-該應用程式對兩個組合都使用了獨特的 12 個字的復原短語：
-
+讓我們先點選「進階選項」。
 
 
-
-- 安全 **Bitcoin Wallet**：用於 Bitcoin 網路 (onchain) 上的交易
-- **Instant Payments' Wallet**：用於 Liquid 和 Lightning 網路上的即時交易
+在這裡，我們可以在建立或復原 wallet 前設定進階設定：
 
 
+1.啟用 `Tor proxy` 以透過 Tor 網路路由流量。
 
-開啟時，系統會提示您匯入現有的復原短語，或建立新的 Wallet ：
+1.啟用 [Orbot 應用程式](https://orbot.app/en/) 前需要先安裝並執行
 
+2.Tor Proxy 僅適用於 Bitcoin（不適用於 Liquid），可能會導致連線速度較慢。
 
+2.設定「自訂 Electrum Server」，或
 
-![image](assets/fr/02.webp)
-
-
-
-### 3.2 恢復詞組 ：
-
+3.調整 `Recover Bull` 設定。稍後我們將進一步了解 [Recover Bull](https://recoverbull.com/)。
 
 
-如果您希望重新使用現有的 Wallet，請按一下「**復原 Wallet**」，然後填寫復原用語的 12 個字。
+完成所有選購的調整後，點選 `完成`。如果您想重新使用現有的 Wallet，請點選 `復原 Wallet`，然後填寫復原用語的 12 個字。
 
 
+否則，請按一下「建立新的 Wallet」。
 
-否則，請按一下「**建立新 Wallet**」：
 
+![image](assets/en/01.webp)
+
+
+## 4️⃣首頁畫面
+
+
+在深入了解之前，讓我們先看看「主畫面」，以瞭解其方向：
 
 
 
-- 謹慎寫下您的復原用語。寫在紙上或金屬上，並將其保存在安全的地方（保管箱、離線位置）。此短語是您在裝置遺失或應用程式刪除時存取比特幣的唯一方法。
+- 交易總覽」和「設定功能表」位於頂部。
+- 可用餘額」有一個隱私選項，可以「開啟」或「關閉」。
+- 存取「Bitcoin Bull Exchange」以進行「購買、銷售或付款」（這取決於司法管轄區，可能需要 KYC）。
+- 在錢包間轉移資金
+- `Secure Bitcoin` 等於 Onchain Bitcoin Wallet
+- 透過 Lightning- / Liquid Network 進行「即時付款」 *(註：Bull Bitcoin Wallet 可透過 Lightning 進行付款和收款。由於透過 [*Boltz exchange](https://boltz.exchange/) 的自動交換，透過 Lightning 收到的資金會儲存在 [*Liquid network](https://liquid.net/) (Wallet Instant Payments 中)。這使您能夠與 Lightning 進行互動，而無需管理流動資金渠道，同時保持自我託管。)* *
+- 資金的 「發送 」和 "接收
+
+
+![image](assets/en/02.webp)
+
+
+首先，讓我們進行一些重要的設定，並從 `Backup` 開始。
+
+
+## 5️⃣備份
+
+
+若要開始備份程序，請點選應用程式右上角的 ` 裝備圖示 (⚙)`，然後選擇 `Wallet 備份`。您會看到兩種保護 wallet 的方法：「加密儲存庫」和「實體備份」。讓我們逐一探討。
+
+
+![image](assets/en/03.webp)
+
+
+### 實體備份
+
+
+點選「實體備份」，即可看到代表您的復原或 seed 詞組的 12 個單字清單。請考慮下列內容：
+
+
+
+- 謹慎地寫下您的「復原詞句」。寫在紙上或金屬上，並將其保存在安全的地方（保管箱，離線位置）。這個詞組是您在裝置遺失或應用程式刪除時存取比特幣的唯一方法。
 - 還要注意的是，任何人只要有這句話，就可以偷走您所有的 bitcoins。永遠不要以數位方式儲存：
- - 沒有截圖
- - 無雲端、電子郵件或訊息備份
- - 無複製/貼上（儲存至剪貼簿的風險）
+- 沒有截圖
+- 無雲端、電子郵件或訊息備份
+- 無複製/貼上（儲存至剪貼簿的風險）
 
 
+![image](assets/en/25.webp)
 
-**!這一點非常重要**。如需更多協助 ：
 
+下一個畫面會讓您將字詞以正確的順序排列，以確保您的 seed 詞組正確無誤。測試完成且成功後，您會收到確認訊息。
+
+
+! **這一點非常重要**。如需更多協助 ：
 
 
 https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-### 3.3 安全存取 ：
+### 加密保險庫
 
 
+也可以選擇在雲端進行加密的匿名備份。但我們在上一段不是提到雲端備份有風險，應該避免嗎？不過，Bull Bitcoin 團隊已經開發出一種巧妙的方法，讓這個過程變得安全。以下是它的工作原理：
 
 
+`Recoverbull` 是一個備份協定，透過將備份分割成兩個部分，簡化保護您的 Bitcoin wallet 的安全。首先，您的 wallet 的備份檔案會使用強大的加密金鑰在您的裝置上加密。您可以將這個加密檔案儲存到任何您想要的地方，例如 Google Drive 或您的裝置。其次，解鎖檔案所需的加密金鑰由 Recoverbull 密鑰伺服器儲存。若要復原您的 wallet，您需要同時擁有加密備份檔案和密鑰，您可以使用 PIN 或密碼存取密鑰。這樣的設計可以確保僅有您的雲端備份是無用的，而沒有您的特定備份檔案，僅有密鑰伺服器也是無用的。即使其中一部分受到損害，也能確保您的資金安全。
 
-- 前往設定，然後按一下 **PIN 碼**。
-- 設定強大的 **PIN 碼**，以保護對應用程式的存取。
-- 此步驟為可選步驟，但強烈建議您進行此步驟，以防止任何可存取您手機的人取得 Wallet 的存取權。
 
+將它想像成保險箱。加密的備份檔案就是*保險箱*，您可以將其存放在任何地方（如 Google Drive）。您的恢復密碼就是*鑰匙*，由 Recoverbull 密鑰伺服器單獨儲存。小偷需要得到您特定的盒子和特定的鑰匙才能打開盒子。這樣的設計確保了即使有人得到了您的備份檔案，如果沒有伺服器的鑰匙，它也是無用的，而伺服器的鑰匙如果沒有您獨特的備份檔案，也是無用的。
 
 
-![image](assets/fr/03.webp)
+進一步瞭解 `Recoverbull` wallet 備份通訊協定 [在此](https://recoverbull.com/)。
 
 
+點選 `加密的金庫`，然後點選`繼續`，確認使用預設伺服器。連線將透過 `Tor` 網路，以確保隱私及匿名性。
 
-### 3.4 連接到個人節點 (選用)：
 
+**瞭解您的 PIN**
 
 
-Wallet BullBitcoin 預設連線至 Electrum 伺服器：第一台由 Bull Bitcoin 管理，第二台伺服器來自 Blockstream，這兩台伺服器都被認為不會保留任何日誌，降低了追蹤的風險。
 
+- 應用程式解鎖密碼」***:**在「設定 > 安全密碼」中設定的可選密碼，用於鎖定手機上的應用程式。
+- `Recovery PIN`**:** 在 `Encrypted Vault` 備份過程中建立的強制性 PIN，用於在復原過程中解密您的備份檔案。
 
 
-為了更高的保密性，您可以透過 Electrum 伺服器將應用程式連接到您自己的 Bitcoin 節點 (說明請參考 [BullBitcoin's GitHub](https://github.com/orgs/SatoshiPortal/projects/49) )。
+這是兩個不同的 PIN。請勿忘記您的復原 PIN 碼，因為它對於復原您的 wallet 非常重要。
 
 
+**復原 PIN 設定：**
 
 
-## 4.接收資金
 
+- 您必須建立 PIN 或密碼才能恢復 wallet 的存取權。
+- PIN / 密碼必須至少有 6 位數長（例如，避免使用像 123456 這類不被接受的簡單序列）。
+- 沒有這個 PIN，wallet 就無法復原。
 
 
-使用 **Bull Bitcoin Mobile ** 收取資金非常簡單，而且是針對您的需求量身打造，無論您使用的是 ：
+接下來，選擇儲存庫提供者：
 
 
 
+- Google Drive」或
+- 自訂位置」（例如您的裝置）
 
-  - **Bitcoin（onchain）** 網絡進行長期保護、
-  - **Liquid**網路，以獲得快速、更多的 Confidential Transactions、
-  - **Lightning**網路進行即時、低價值付款。
 
+![image](assets/en/04.webp)
 
 
-應用程式會自動產生 Lightning 接收或 Invoice 位址，視所選擇的網路而定。以下是每個網路的操作方法。
+現在，儲存`備份檔案`。接下來，點選`測試復原`，選擇您儲存的備份檔案或儲存庫，然後點選`解密儲存庫`。輸入您的 `PIN` 或 `Password`。如果一切正常，就會出現 `測試成功完成` 畫面。
 
 
+### 進口/出口標籤
 
-### 4.1. onchain (Bitcoin 網路)
 
+現在我們建立了備份，讓我們來看看「標籤」。  Bull Bitcoin wallet 允許用戶為收款地址和交易創建自定義標籤，從而增強隱私性和組織性。這些標籤可以幫助您將您的資金分類，因為傳送至標籤地址的交易將會繼承該標籤，您也可以為傳出的交易加上標籤以追蹤其變更。wallet 完全支援 [BIP-329](https://bip329.org/) 標準，這表示您可以將所有的標籤匯出到檔案，然後匯入另一個 wallet。此功能可確保您能無縫備份交易歷史和分類，或在不同的 wallet 實體間遷移，而不會遺失個人化的組織。
 
 
-在主畫面上，您可以 ：
+![image](assets/en/05.webp)
 
 
+## 6️⃣設定
 
 
-- 或選擇 **Secure Bitcoin Wallet**，然後按一下「**接收」** ：
+有了主要備份的安全保障，讓我們來探索設定中的其他可用功能。
 
 
+### A - 確保存取安全
 
-![image](assets/fr/04.webp)
 
+若要保護應用程式的安全，請導航至 `設定「，然後選擇 `安全 PIN」，以選取 PIN 碼。建立強大的 PIN 碼以鎖定 wallet 的存取權。雖然此步驟是可選的，但我們強烈建議您這樣做，以防止他人使用您的手機時產生未經授權的存取。
 
 
+![image](assets/en/06.webp)
 
 
-- 或按一下「**接收」**，然後選擇 **Bitcoin** 網路：
+### B - 連接至個人節點 (選用)
 
 
+Wallet BullBitcoin 預設連接到 Electrum 伺服器：第一台由 Bull Bitcoin 管理，第二台伺服器來自 Blockstream，這兩台伺服器都被認為不會保留日誌，降低了追蹤的風險。
 
-![image](assets/fr/05.webp)
 
+為了提高保密性，您可以透過 Electrum 伺服器將應用程式連接到您自己的 Bitcoin 節點。若要這樣做，請點選 `設定 ` > `Bitcoin 設定 ` > `Electrum Server 設定 `，然後點選 `+ 新增自訂伺服器 `，輸入您的伺服器位址和憑證。
 
 
-#### 4.1.1.僅複製或掃描 Address」選項已停用（預設值）
+![image](assets/en/07.webp)
 
 
+### C - 貨幣
 
-![image](assets/fr/06.webp)
 
+可用餘額會以 `sats` 和 `USD` 顯示在主畫面上。若要變更，請導航至`設定` > `貨幣`。您可以在 `sats/BTC` 之間切換，並選擇您的 `預設法定貨幣`。
 
 
+![image](assets/en/08.webp)
 
 
-- 這可讓您存取可選的進階參數。您可以指定 ：
-- 以 BTC、Sats 或法定貨幣計算的**金額**。
-- 要包含在 URI / QR Code 副本中的**個人說明**。
- - 啟動 **PayJoin**（詳情請參閱附錄 3），可透過結合寄件者和收件者項目提高機密性。
+### D - Bitcoin 設定
 
 
+Bitcoin 設定」功能表可深入存取 wallet 的核心設定和資料。在這裡，您可以檢視您的「Secure Bitcoin」和「Instant 支付錢包」的基本細節，讓您完全透明和控制。此功能表的主要功能包括
 
 
 
-- **自動產生 URI 的範例**：
+- Wallet 詳細資訊：** 導覽至您的安全 Bitcoin 或即時付款 wallet 以檢視特定資訊。
+- Wallet 指紋：** 您 wallet 的唯一識別碼。
+- 公開金鑰 (Pubkey)：** 用於 generate 您的 Bitcoin 接收位址的金鑰。
+- Descriptor：** 您的 wallet 結構的技術摘要。
+- 衍生路徑：** 用於從您的主私人密碼匙 generate 所有位址的特定路徑。
+- Address 檢視：** 存取您未使用的收件地址清單，並變更地址（即將推出）。
 
+
+此外，您還可以選擇
+
+
+
+- 啟用自動轉帳」設定可設定 wallet 即時餘額上限，然後會自動轉帳至安全的 bitcoin wallet。
+- 透過 `Mnemonic` 語句匯入一般錢包或匯入 `watch-only` 錢包
+- 連接「硬體錢包」：目前支援的裝置有 ColdcardQ、SeedSigner、Specter、Krux、Blockstream Jade 和 Foundation Passport。
+
+
+## 7️⃣ Bull Bitcoin Exchange
+
+
+從 wallet 直接進入 [Bull Bitcoin 交易所](https://www.bullbitcoin.com/)，讓您無須離開應用程式即可購買、出售和支付 Bitcoin。此整合提供了一個方便的解決方案來管理您的 Bitcoin 需求。請注意，根據您的司法管轄區，存取交易所及其服務可能會受到限制，而且可能需要完成「認識您的客戶」(KYC) 驗證，以符合監管標準和使用平台的完整功能。
+
+
+若要開始使用，請點選右下角的「Exchange」，然後點選「註冊」或「登入」到您的帳戶。
+
+
+交易所提供以下 [功能](https://www.bullbitcoin.com/)：
+
+
+
+- 從您的銀行帳戶購買 Bitcoin 並自行保管
+- 非監護
+- 個人或公司
+- 即時提款
+- 無隱藏費用
+- Lightning Network 可用
+- 無交易限制
+- 重複購買選項
+
+
+![image](assets/en/09.webp)
+
+
+若要瞭解更多資訊，請造訪本教學：
+
+
+https://planb.academy/en/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+
+## 8️⃣接收資金
+
+
+使用 **Bull Bitcoin Wallet** 收取資金既簡單又靈活，可支援三種針對不同使用情況量身打造的網路：
+
+
+
+- Bitcoin (onchain)」網路用於安全的長期儲存。
+- `Liquid` 網路可進行快速、更機密的交易。
+- 提供即時、低成本付款的「Lightning」網路。
+
+
+應用程式會根據您選擇的網路自動產生適當的地址或發票。以下是每個網路的操作方法。
+
+
+### 透過 Onchain (Bitcoin 網路) 接收
+
+
+要接收 on-chain 資金，您可以從主畫面點選 `Secure Bitcoin Wallet`，然後點選 `Receive`，或點選主畫面的 `Receive` 按鈕，然後選擇 `Bitcoin network`。
+
+
+您有兩種產生接收位址的主要模式：
+
+
+** 預設模式 (URI 含額外輸入參數)
+
+
+預設情況下，wallet 會產生 [BIP21 URI](https://bips.dev/21/)。這是一種標準化格式，包裝了比簡單地址更多的資訊，包括金額、個人備註和 PayJoin 參數，以提高隱私性。這個全面的 URI 會編碼成 QR 碼，並可供複製。格式如下`bitcoin:<地址>?<參數1>=<value1>&<參數2>=<value2>`。
+
+
+
+- 其他輸入參數：**
+    - 金額：** 以 BTC、sats 或法定貨幣指定要求的金額。
+    - 訊息：** 新增寄件者可看到的個人備註。
+    - PayJoin:** 啟用此選項可結合交易中寄件人和收件人的輸入，以改善隱私。
+
+
+範例 URI：
 
 
 ```
-bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=2.1e-7&message=Exemple+de+note&pj=HTTPS%3A%2F%2FPAYJO.IN%2FUJA9LJ6L4CMHY%23RK1QT3YSGFC6PMKRUXND2DSGQMLESTUNH29AY0305XAQ678742CVT5ES+OH1QYP87E2AVMDKXDTU6R25WCPQ5ZUF02XHNPA65JMD8ZA2W4YRQN6UUWG+EX1RRH8C6Q
+bitcoin:bc1q0vv86t2sj7daduvdc50njms6u6jzh2y54xxxxx?amount=0.0005&message=Tip+for+tutorial&pj=HTTPS%3A%2F%2FPAYJO.IN%2F78UH9WZUP8KKJ%23RK1Q2H30FASCU9WW09DQY2LK0K8P2DPRJ99V72CA78ACQAEL675QYTMQ+OH1QYP87E2AVMDKXDTU6R25WCPQ5ZUF02XHNPA65JMD8ZA2W4YRQN6UUWG+EX1L0LYV6G
 ```
 
 
+*重要提示：請不要向本教程中的地址發送任何資金，wallet 將被刪除。
 
 
+![image](assets/en/10.webp)
 
-- 使用方式：複製 URI 與寄件者分享，或讓寄件者掃描 QR 代碼。
 
+**僅啟用複製或掃瞄 Address 選項
 
 
-#### 4.1.2.僅複製或掃瞄 Address」選項已啟用
-
-
-
-![image](assets/fr/07.webp)
-
-
-
-
-
-- 啟用 **「僅複製或掃描 Address」** 選項後，應用程式會以 SegWit (bech32) 格式產生簡單的 Bitcoin Address。
-
-
-
-
-
-- 範例：
-
-
-
-```
-bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq
-```
-
-
-
-即使您輸入金額或備註，它們也不會包含在 QR 代碼或 Address 的複本中。
-
-
-
-
-
-- 使用方式：複製 Address 與寄件者分享，或讓他掃描 QR 代碼。
-
-
-
-#### 4.1.3.產生新的 Address
-
-
-
-
-
-- 為什麼每次交易都要使用新的 Address？此舉可**保護您的隱私**，防止多筆付款連結到同一個 Address，並限制在 Blockchain 上追蹤的可能性。
-- 預設情況下，Bull Bitcoin 會自動產生一個未使用的 Address。
- - 您可以點選畫面下方的 **「New Address」**，強制建立新的 Address。
- - 您所有的地址都會連結到您的 seed 短語：無論您使用多少個地址，您的投資組合都會顯示單一餘額，並可在出貨時自動整合資金。
-
-
-
-
-
-- 提示：除非您有特殊需求 (例如：使用公共 Address 接受捐款)，否則請務必使用 Bull Bitcoin 提供的新 **Address**。
-
-
-
-### 4.2.Liquid
-
-
-
-在主畫面上，您可以 ：
-
-
-
-
-- 或選擇 ** 即時付款 Wallet**，然後按一下 **「接收」**，再按一下 **「Liquid」**：
-
-
-
-![image](assets/fr/08.webp)
-
-
-
-
-
-- 或按一下「**接收」**，然後選擇 **Liquid** 網路：
-
-
-
-![image](assets/fr/09.webp)
-
-
-
-進入 **「接收 」** 畫面後，複製一個 Liquid Address：
-
-
-
-
-
-- 無金額或備註。範例：
-
-
-
-```
-lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz
-```
-
-
-
-
-
-- 或指定**金額**（BTC、Sats 或法幣）和/或**個人備註**，以包含在 URI / QR Code 的副本中。範例：
-
-
-
-```
-liquidnetwork:lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz?amount=2.1e-7&message=Test+de+note+Liquid&assetid=6f0279e9ed041c3d710a9f57d0c02928416460c4b722ae3457a11eec381c526d
-```
-
-
-
-**使用**：複製 Address/URI 與寄件者分享，或讓他掃描 QR 代碼。
-
-
-
-### 4.3.閃電
-
-
-
-在主畫面上，您可以 ：
-
-
-
-
-- 或選擇 ** 即時付款 Wallet**，然後按一下「**接收」** ：
-
-
-
-![image](assets/fr/10.webp)
-
-
-
-
-
-- 或按一下「**接收」**，然後選擇 **Lightning** 網路：
-
-
-
-![image](assets/fr/11.webp)
-
-
-
-#### 4.3.1.操作、限制和效益
-
-
-
-
-
-- 機制：**Bull Bitcoin Wallet** 是一個可以透過 Lightning 付款和收款的 Wallet。由於透過 **Boltz** 進行自動交換，透過 Lightning 收到的資金會儲存在 **Liquid** 網路（Wallet Instant Payments 中）。這讓您能夠與 Lightning 互動，而無需管理流動資金管道，同時保持自我保管。
-
-
-
-
-
-- 限制：
-- 當您 generate Invoice 時，最低金額**為 100 Satoshis**（截至 07/19/2025）。
-- 您支付的費用，將從寄件者寄出的金額中扣除，這與使用 Wallet Lightning native 收件不同，在 Wallet Lightning native 收件中，除了寄出的金額之外，只有寄件者支付轉帳費用。截至 2025 年 7 月 19 日，47 Sats 會從寄出的金額中扣除。
-
-
-
-
-
-- **福利**：
-- 自行保管：您的資金仍由您控制，儲存在 Liquid Network 上。
-- 沒有高昂的上鏈費用：儲存在 Liquid 上可避免開啟您的 Lightning 通道或增加流動性所需的昂貴上鏈存款。當 Liquid 上累積的金額足以支付費用時，這些操作可以稍後再進行。
-
-
-
-
-
-- 提示：**如果寄件者有 Wallet Bull Bitcoin，請直接使用 Liquid Network 以避免交換費用**
-
-
-
-#### 4.3.2.generate Invoice
-
-
-
-
-
-- 輸入**金額**（BTC、Sats 或法定貨幣）
-
-
-
-
-
-- 加入**個人備註**，此備註將整合至 Invoice。如果寄件者支付 Invoice，您的 Wallet 也會將其納入交易詳細資料中。
-
-
-
-
-
-- Invoice 有效期：**Lightning Invoice 的有效期為 12 小時**。此時間過後即失效，無法再支付。必須產生新的 Invoice。
-
-
-
-
-
-- 使用方法：複製 Invoice 與寄件者分享，或讓他掃描 QR 代碼。
-
-
-
-
-## 5.寄送資金
-
-
-
-### 5.1.基本原則
-
-
-
-從首頁或從錢包 ：
-
-
-
-![image](assets/fr/12.webp)
-
-
-
-進入傳送畫面：
-
-
-
-![image](assets/fr/13.webp)
-
-
-
-**Bull Bitcoin Mobile** 可根據輸入的 Address 或 Invoice（複製或透過 QR 碼掃描）自動偵測網路（Bitcoin、Liquid 或 Lightning），讓您輕鬆匯款。
-
-
-
-### 5.2. 鏈上傳輸 (Bitcoin 網路)
-
-
-
-#### 5.2.1.傳送畫面
-
-
-
-**Action**：輸入或掃描 Bitcoin onchain Address
-
-
-
-
-
-- 如果尚未定義金額，例如 ：
-
-
-
-```
-bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq
-```
-
-
-
-
-
-- 然後您可以在傳送畫面中選擇 ：
- - 金額以 BTC、sat 或法幣計算。最低金額：546薩托希斯，2025 年 7 月 22 日。
- - 識別交易的可選備註。只有您可以在交易詳細資料中看到。
-
-
-
-![image](assets/fr/14.webp)
-
-
-
-
-
-- 如果已經定義了金額，例如 ：
-
-
-
-```
-bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=0.000006&pj=HTTPS%3A%2F%2FPAYJO.IN%2F7GAEA52UMTYQ7%23RK1QVJZYR38X2MC585ZPZ60QY72DMXHWT67LERFWW6GQ4LDEA7MRP78X+OH1QYP87E2AVMDKXDTU6R25WCPQ5ZUF02XHNPA65JMD8ZA2W4YRQN6UUWG+EX1EJ78U6Q
-```
-
-
-
-接著您會直接進入以下的確認畫面。
-
-
-
-#### 5.2.2 確認畫面
-
-
-
-花時間檢查所有參數，尤其是金額、目的地 Address 和費用。
-
-
-然後您可以調整參數：
-
-
-
-![image](assets/fr/15.webp)
-
-
-
-
-- **費用**：您可以選擇：
-- 無論是您交易的執行速度，還是相關費用都會估算出來。
-- 無論是絕對費用 (以 Satoshis 為單位的總費用) 或相對費用 (每位元組的費用) 模式，都會估算您的交易速度。
-
-
-
-
-
-- **進階設定**：
-
-
-
-
-
-- **Replace-by-fee (RBF)**：預設已啟動，此功能可透過支付較高費用加快交易速度 (詳情請參閱附錄 4)。
-
-
-
-
-
- - 手動選擇 UTXO**：如果您的資金存放在數個不同的 Wallet 位址，您可以選擇從哪些位址寄送資金。為什麼要這樣做？隨著 Bitcoin 的採用越來越多，轉帳費用也在不斷上升。從數個地址發送小額資金比從單個 Address 發送資金更昂貴，但現在這樣做可避免日後需要這樣做，屆時費用會更高。這稱為 UTXO 的**整合。
-
-
-
-![image](assets/fr/16.webp)
-
-
-
-
-
-- 使用 **PayJoin** 發送：如果提供 URI 的收件者已啟動該功能，例如：
-
-
-
-```
-bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=0.000006&pj=HTTPS%3A%2F%2FPAYJO.IN%2F7GAEA52UMTYQ7%23RK1QVJZYR38X2MC585ZPZ60QY72DMXHWT67LERFWW6GQ4LDEA7MRP78X+OH1QYP87E2AVMDKXDTU6R25WCPQ5ZUF02XHNPA65JMD8ZA2W4YRQN6UUWG+EX1EJ78U6Q
-```
-
-
-
-然後 Bull Bitcoin Mobile 將結合您的 UTXO 與收件者的 UTXO 作為輸入來設定傳送，以提高機密性 (詳情請參閱附錄 3)。
-
-
-
-### 5.3.傳送至 Liquid
-
-
-
-#### 5.3.1 傳送畫面
-
-
-
-**Liquid**網路可實現快速交易（由於每分鐘一個區塊，因此約 2 分鐘即可完成交易），與 onchain 網路相比，更加保密（遮蔽金額），而且費用非常低。資金從 **Instant Payments Wallet** 提取。
-
-
-
-**動作**：輸入或掃描 Liquid Address
-
-
-
-
-
-- 如果尚未定義金額，例如 ：
-
-
-
-```
-lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz
-```
-
-
-
-然後您可以在傳送畫面中選擇 ：
-
-
-
-
-- 金額以 BTC、sat 或法幣計算。無最低金額，1 Satoshi 可能；
-- 識別交易的可選備註。只有您可以在交易詳細資料中看到。
-
-
-
-![image](assets/fr/17.webp)
-
-
-
-
-
-- 如果已經定義了金額，例如 ：
-
-
-
-```
-liquidnetwork:lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz?amount=2.1e-7&message=Test+de+note+Liquid&assetid=6f0279e9ed041c3d710a9f57d0c02928416460c4b722ae3457a11eec381c526d
-```
-
-
-
-接著您會直接進入以下的確認畫面。
-
-
-
-#### 5.3.2 確認畫面
-
-
-
-花時間檢查所有參數，特別是金額和目的地 Address。
-
-
-
-![image](assets/fr/18.webp)
-
-
-
-
-
-- 費用：與交易的複雜性成正比，一般以 0.1 Sat/vB 為基礎，即簡單交易為 20-40 Satoshis (07/22/2025 時為 33 Sats)。
-
-
-
-### 5.4.傳送至閃電
-
-
-
-#### 5.4.1 傳送畫面
-
-
-
-**Lightning**網路可實現即時、低成本的小額支付，是日常小額交易的理想選擇。
-
-
-
-**動作**：輸入或掃描「閃電」Invoice
-
-
-
-
-
-- 如果您掃描 LN-URL Address，可讓您設定金額
-
-
-例如： `orangepeel@walletofsatoshi.com`。
-
-
-然後您可以在傳送畫面中選擇 ：
-
-
-
-
- - 金額為 BTC、sat 或法幣。23/07/2025 最低金額為 1000 Satoshis
- - 用於識別交易的可選備註。它會寄給收件人。
-
-
-
-![image](assets/fr/19.webp)
-
-
-
-
-
-- 如果您掃描的 Lightning Invoice 包含定義的數量
+啟用「僅複製或掃描 Address 選項」後，應用程式會以 SegWit (bech32) 格式產生簡單的 Bitcoin 位址。
 
 
 範例：
 
 
-
-```
-lnbc210n1p58hhk6bullbitcoint4a9jq34dmrmcrursjmw3wjf8elz0nxtdsw9pscqzyssp52jg9dm8vc3xy26er5rc965lxjllhd82je97au7ysvv6lpq7r7shs9q7sqqqqqqqqqqqqqqqqqqqsqqqqqysgqdqqmqz9gxqyjw5qrzjqwryaup9lh50kkranzgcdnn2fgvx390wgj5jd07rwr3vxeje0glclle6wrlm37k39uqqqqlgqqqqqeqqjqnf7w9f2evnzptm2vtdknk7483hsndkl98c4mv2kfe64v5pkq0j6x2dqt9y9wayszv3z33az7c8hkj3yqj9jd7ans7ugq8xv0xefp23gqltph72
-```
-
-
-
-接著您會直接進入以下的確認畫面。
-
-
-
-註：金額必須大於 21 Sats on 07/23/2025
-
-
-
-#### 5.4.2 運作、限制與效益
-
-
-
-
-
-- 機制：資金來自 **Instant Payments Wallet** (Liquid)，並透過 **Liquid → Lightning** 與 **Boltz** 的交換進行轉換。
-
-
-
-
-
-- 限制：
-- 最低金額**高於 Wallet Lightning 本機** (見上文)
-- 支出**加上 Liquid → 透過 Boltz 進行閃電交換**
-
-
-
-
-
-- **福利**：
- - 自行保管**：您的資金仍由您控制，儲存在 Liquid Network 上，如有需要，可透過 Lightning 轉帳
-- 沒有高昂的上鏈費用：儲存在 Liquid 上為您省下了高昂的上鏈存款費用，以打開您的 Lightning 通道或增加流動性。當 Liquid 上累積的金額足以支付費用時，這些操作可以稍後再進行。
-
-
-
-
-
-- 提示：**如果收件人有 Wallet Bull Bitcoin，請直接使用 Liquid Network，以避免交換成本**
-
-
-
-#### 5.3.3 確認畫面
-
-
-
-花時間檢查所有參數，尤其是金額和目的地 Address。
-
-
-
-![image](assets/fr/20.webp)
-
-
-
-
-## 6.檢視歷史
-
-
-
-**Bull Bitcoin Mobile** 可讓您輕鬆追蹤您在**Bitcoin（onchain）**、**Liquid**和**Lightning**網路的交易。歷史記錄可以兩種方式存取，並顯示每種交易的詳細資訊。您也可以使用外部區塊瀏覽器檢查您的交易。
-
-
-
-### 6.1.存取歷史
-
-
-
-
-
-- 透過主畫面：
- - 按一下 **Secure Bitcoin Wallet** 檢視 **onchain** 交易，或按一下 **Instant Payments Wallet** 檢視 **Liquid** 和 **Lightning** 交易。
- - 歷史記錄會顯示在投資組合總計的正下方，並根據所選的 Wallet 類型進行篩選。
-
-
-
-![image](assets/fr/21.webp)
-
-
-
-
-
-- 透過專屬頁面：
- - 在主畫面上，按一下 ** 歷史符號** (時鐘圖示或類似圖示)。
- - 存取列出所有交易的頁面，並可依行動類型篩選： **Send**, **Receive**, **Swap**, **PayJoin**, **Sell**, **Buy** (註：Sell 和 Buy 正在開發中，目前尚未提供，2025 年 7 月 20 日)。
-
-
-
-![image](assets/fr/22.webp)
-
-
-
-### 6.2.交易詳細資訊
-
-
-
-每筆交易都會根據網路和動作類型（發送或接收）顯示特定資訊。以下是**鏈上交易的可用詳細資訊**：
-
-
-
-![image](assets/fr/23.webp)
-
-
-
-### 6.3.透過 Block explorer 進行檢查
-
-
-
-**Bitcoinonchain**、**Liquid**和**Lightning**網路的探測者名單列於附錄 4。
-
-
-
-對於**Lightning**，公共瀏覽器上看不到交易。請在應用程式中檢查詳細資訊 (包括 Boltz 的交換 ID)。
-
-
-
-
-## 7.設定
-
-
-
-可直接從 Bull Bitcoin 應用程式首頁存取「設定」頁面，該頁面可用於設定和管理組合的各個方面以及使用者體驗。
-
-
-
-![image](assets/fr/24.webp)
-
-
-
-
-
-- Wallet 備份：顯示安全備份組合的復原短語。有關管理和儲存復原片語的最佳作法，請參閱第 **3** 節的組合建立。
-
-
-
-
-
-- **Wallet 詳細資訊**：
-- **Pubkey**：與 Wallet 相關的公開金鑰，用於 generate Bitcoin 接收位址。
-- 衍生路徑：用來從私人金鑰 generate Wallet 位址的衍生路徑。
-
-
-
-
-
-- Electrum 伺服器 (Bitcoin 節點)：建立與客製化 Bitcoin 節點的連線，以進行鏈上交易。
-
-
-
-
-
-- PIN 碼：啟動和/或修改安全碼，以保護對應用程式和 **Wallet** 功能的存取。
-
-
-
-
-
-- 貨幣**：選擇是否以 BTC 或 Sats 顯示金額，以及預設法定貨幣（美元、歐元等）。
-
-
-
-
-
-- 自動交換設定：自動交換功能允許您自動將您的 BTC 從 **Instant Payments Wallet (Liquid)** 轉移到您的 **Bitcoin On-Chain** Wallet，只要金額達到您認為高到足以證明交易費用合理的臨界值。
-
-
-
-
-
-- 日誌：可檢視的活動日誌，可與技術支援人員分享，以便排除故障。
-
-
-
-
-
-- Telegram 支援訪問：直接連結至官方 Telegram 頻道，以提供使用者協助。
-
-
-
-
-
-- Github 存取：連結至 [Bull Bitcoin Github 套件庫](https://github.com/SatoshiPortal) 以檢視開放原始碼或報告問題。
-
-
-
-
-## 附錄
-
-
-
-### A1.PayJoin (P2EP) 說明
-
-
-
-![image](assets/fr/25.webp)
-
-
-
-** 定義** ：
-
-
-
-
-- PayJoin 或 **Pay-to-EndPoint (P2EP)** 是一種 Bitcoin 交易技術，可增強 **onchain** 網路的機密性。它在單一交易中結合了寄件者和收件者項目，使金額和地址更難被追蹤。
-
-
-
-**操作：**
-
-
-
-
-- 在 PayJoin 交易中，寄件者和收件者透過相容的 PayJoin 伺服器共同合作，以 generate 進行聯合交易。
-- 接收方不再只提供寄件方的項目 (UTXO)，而是也提供自己的一個 UTXO。這使得 Blockchain 上可見的資訊變得模糊：現在並非只有一個項目對應實際金額，而是有兩個項目，而且輸出並不直接反映交換的金額。
-- 最後的交易類似於標準的 Bitcoin 交易 (多輸入/多輸出)，但由於採用了隱藏結構，因此隱藏了實際發送的金額和地址之間的連結。
-
-
-
-**適用於公牛 Bitcoin 移動**
-
-
-
-
-- 接收 **(Address Supply)**：預設啟用 PayJoin。
-- 發送** ：Wallet 會自動偵測 PayJoin URI 並據此設定交易，例如
-
-
-
-```
-bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPAYJO.IN%2F475QR36G3ZCFZ%23...
+```javascript
+bc1q0vv86t2sj7daduvdc50njms6u6jzh2y54x3g56
 ```
 
 
+即使您輸入金額或備註，它們也不會包含在 QR 碼或複製的地址中。
 
 
-**福利**
+![image](assets/en/11.webp)
 
 
+### 透過 Liquid Network 接收
 
 
-- 加強保密性：PayJoin 使交易中的所有項目均屬於單一實體的假設失效。有了 PayJoin，輸入會同時來自發送者和接收者，打破這個假設。
-- **金額遮蔽**：實際交換金額不會直接出現在輸出中。它是以接收方的 UTXO 入站和出站之間的差額來計算的，使得分析具有誤導性。
+您可以在 Liquid Network 上接收付款。進入「接收」畫面後，您有相同的兩個選項可產生付款請求：
 
 
+**1.簡單的 Address：** 複製標準的 `Liquid 位址`。這是您的 wallet 在 Liquid 網路上的唯一識別碼，不包含任何特定金額或訊息。
 
-**限制**
 
+範例 Address：
 
 
+```javascript
+lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7xxxxxxx
+```
 
-- PayJoin 要求寄件者和收件者使用相容的錢包，否則會使用標準的 onchain 交易。
-- 交易略為複雜（更多的輸入和輸出），導致成本略高。
-- 雖然設計上與標準交易類似，但先進的啟發式（例如：模稜兩可的輸出、已知的 PayJoin 伺服器）可能會讓人懷疑其用途，儘管沒有絕對的確定性。
 
+**2.詳細付款請求 (URI)：** 若要提出更有系統的請求，您可以指定金額和個人備註。此資訊會自動編碼為可分享的 URI 及其對應的 QR 代碼。
 
 
-**更多資訊：**
 
+- 金額：** 您可以 Bitcoin (BTC)、Satoshis (Sats) 或法定貨幣設定金額。
+- 註：** 加入個人訊息以識別交易。
 
 
+**URI 示例：**
 
-- [詞彙](https://planb.academy/fr/resources/glossary/payjoin)
-- Chapitre [Les transactions PayJoin](https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c/c1e90b95-f709-4574-837b-2ec26b11286f)
 
+```javascript
+liquidnetwork:lq1qqdhgs7w537nun55a5sdy4gxkd08pclk3d7v4qz36sy4xp0cq6gvl52fcfv7kdgkgzmfycrud0zsygqgyjclycckpasxxxxxx?amount=0.00001&message=Test&assetid=6f0279e9ed041c3d710a9f57d0c02928416460c4b722ae3457a11eec381c526d
+```
 
 
+要完成交易，請向寄件人提供「地址」或「URI」。您可以將它複製到剪貼簿，或讓他們直接從您的螢幕掃描 QR 代碼。
 
-### A2.Replace-by-fee（RBF）的解釋
 
+![image](assets/en/12.webp)
 
 
-**定義**：Replace-by-fee (RBF) 是 Bitcoin 網路的一項功能，允許寄件者透過同意支付較高的費用，加速**鏈上**交易的確認。
+### 透過 Lightning 接收
 
 
 
-**Limits** ：
+Bull Bitcoin Wallet 也可讓您透過 Lightning Network 收發付款。其主要特點是透過 Lightning 收到的資金會自動交換並儲存在您的 `Instant Payments Wallet` 內的 `Liquid Network`。這項服務由 `Boltz`提供。這種設計使您能夠享受 Lightning 的速度和低成本，而無需管理流動資金渠道的複雜性，同時保持您資金的完全自我託管。雖然這種混合方法是自我託管，避免了管理渠道的複雜性，但它引入了第三方服務（Boltz），小額的交換費，並依賴Liquid Network的功能聯盟作為關鍵持有人，這與傳統的非託管Lightning wallet不同，您可以管理自己的渠道。您可以在此瞭解更多關於 Liquid 及其管理模式的資訊：
 
 
+https://planb.academy/en/courses/e17ee350-41d4-49fa-b270-29e4d26d22f8/overview-of-liquid-architecture-and-governance-model-17650c4b-cd1f-4bc6-b490-708f92dc9306
 
 
-- RBF 不適用於 Liquid 或 Lightning 交易。
-- 初始交易在建立時必須標記為 RBF 相容，除非禁用，否則 Bull Bitcoin Mobile 會自動這樣做。
+- 限制：**
+    - 最低金額：** 需要最低發票金額。請在應用程式中查看當前限額
+    - 費用：** 您，即收款人，需承擔少量的交換費用。此費用會從寄件者的轉帳金額中扣除，且可能會有所變動。
+- 福利：**
+    - 自我監護：** 您的資金永遠在您的控制之下，並在 Liquid 網路上受到保護。
+    - 避免高昂的 On-Chain 費用：** 透過使用 Lightning 並儲存於 Liquid，您可避開開啟傳統 Lightning 通道所需的 on-chain 費用。您可以選擇稍後將資金轉移到 on-chain 通道，當累積金額足以支付費用時。
+    - 提示：** 若要在兩個 Bull Bitcoin 使用者之間進行最具成本效益的交易，請直接使用**Liquid 網路**，以完全避免 Lightning 交換費用。
 
 
+若要收到付款，您必須 generate 領取「Lightning 發票」：
 
-**更多資訊：**
 
+1.`Enter an Amount`**:** 指定您希望以 Bitcoin (BTC)、Satoshis (Sats) 或法定貨幣接收的金額。
 
+2.添加備註 `**（可選）：** 包含備忘或備註。這將會內嵌在發票中，並在付款完成後顯示在您的交易記錄中，讓您更容易識別。
 
+3.`Invoice有效期`**:**「閃電 」發票具有時效性，在**12小時**後失效。如果在這段時間內沒有付款，它就會無效，您需要 generate 新的發票。
 
-- [詞彙](https://planb.academy/fr/resources/glossary/rbf-replacebyfee)
 
+將發票複製到剪貼簿，或讓寄件人掃描顯示在螢幕上的 QR 代碼，即可向寄件人提供發票。
 
 
+![image](assets/en/13.webp)
 
-### A3.最佳實踐
 
+## 9️⃣寄送資金
 
 
-要安全有效地使用 **Bull Bitcoin Mobile**，請遵循這些建議。它們將幫助您在**Bitcoin (onchain)**、**Liquid**和**Lightning**網絡上保護您的資金、優化您的交易並維護您的機密性。
+您可以直接從首頁或任何錢包中存取傳送畫面。Bull Bitcoin Wallet 可根據您輸入的地址或發票（無論是貼上或透過 QR 碼掃描）自動偵測目的地網路 - `Bitcoin`、`Liquid` 或 `Lightning`，從而簡化流程。
 
 
+### On-Chain 透過 Bitcoin 網路傳輸
 
 
+發送資金 on-chain 表示您的交易直接記錄在 Bitcoin 區塊鏈上。此方法最適合較大額的轉帳或非時間敏感的轉帳。開始時，您可以點擊右下方的「傳送按鈕」，掃描或輸入一個「標準 Bitcoin 地址」。
 
-- **保護您的復原短語**：
- - 教學：[Save your Mnemonic phrase](https://planb.academy/fr/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)
- - Cours [La phrase mnémonique](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8f9340c1-e6dc-5557-a2f2-26c9669987d5)
 
+如果您提供的地址不包括具體金額，則會在發送螢幕上提示您填寫詳細資訊。您可以用自己喜歡的單位指定金額，例如 BTC、薩托希或等值的法幣。您還可以選擇添加個人備註，這是供您自己參考的私人備忘，有助於您日後識別交易。此備註不會與收款人分享。
 
 
+相反，如果您掃描或貼上的付款請求已包含所有必要的詳細資訊，例如預先定義金額的 BIP21 URI，wallet 將會繞過資料輸入畫面，直接帶您到確認畫面授權付款。
 
 
-- 使用**安全認證**：
- - 啟動**強大 PIN**或**生物辨識驗證** (指紋或臉部辨識) 以保護對應用程式的存取。
- - 切勿分享您的 PIN 碼或生物辨識資料。
+![image](assets/en/14.webp)
 
 
+在播放交易之前，您會看到一個確認畫面。請花一點時間仔細查看每項參數，密切注意收件人地址、傳送金額和網路費用，這一點非常重要。這個畫面也提供了強大的工具來自訂您的交易。
 
 
+您可以用兩種主要方式控制費用。第一種方法是選擇所需的交易速度，例如低、中或高，wallet 會自動為您計算適當的費用。第二種方法可讓您更精確地控制，讓您設定特定的費用，可以是以 Satoshis 為單位的絕對總額，也可以是以每個位元組為單位的相對費率，然後提供估計的確認時間。
 
-- **保護您的隱私**：
- - generate 為每個 onchain 或 Liquid 接收一個新的 Address，以限制在 Blockchain 上進行追蹤。
- - 在可用的情況下使用 PayJoin，以提高鏈上傳送數量的保密性。
- - 為了獲得最大的保密性，請透過 Electrum 伺服器將您的 Wallet 連接到您自己的 Bitcoin 節點，而不要使用公共節點
 
+對於進階使用者，wallet 提供多種設定來微調交易。預設啟用了 `Replace-by-Fee` (RBF)，這是一項很有價值的功能，當交易卡在 mempool 時，可以用較高的費用重新廣播，加速交易。您也可以手動選擇要花費的「未花費交易輸出」(UTXOs)。這是 UTXO 整合的強大工具，這是一種將多個小投入合併為一個較大投入的策略。雖然這可能會增加目前交易的費用，但可以大幅降低未來交易的費用，尤其是當網路費用預期會增加時。
 
 
+![image](assets/en/15.webp)
 
 
-- 選擇最適合您需求的**網路**：
-- **Onchain**：長期託管或大額交易的首選 (費用相較於金額可忽略不计)。
-- **Liquid**：用於快速、低成本的傳輸，並加強保密性。
-- 閃電：選擇即時、低成本的小額轉帳。如果您是兩位 Wallet Bull Bitcoin 使用者，請選擇 **Liquid** 以避免透過 Boltz 的 Lightning <> Liquid 掉期費用。
+當您掃描收件人的付款請求 (BIP21 URI) 且其中包含 `pj=` 參數時，系統會自動嘗試 PayJoin。如果您只是貼上沒有額外參數的純地址，此功能將不會啟動。這種協作方法透過結合寄件者和收件者的輸入來增強隱私，打破了共同輸入擁有的啟發式，在某些情況下也能有更好的擴展性和節省費用。
 
 
+### 傳送至 Liquid Network
 
 
+Liquid Network`專為快速、保密的交易而設計，費用極低。當您透過 Liquid 傳送資金時，資金會從您的 `Instant Payments Wallet` 中提取。過程簡單直接：您只需輸入或掃描收件人的`Liquid 地址`。
 
-- 請務必檢查送貨地址：
- - 發送資金之前，請仔細檢查 Address。發送至錯誤的 Address 的資金將永久丟失。使用複製/貼上或 QR 代碼掃描，切勿手抄/修改 Address。
 
+如果地址未指定金額，則會要求您在發送螢幕上提供金額。您可以輸入 BTC、Satoshis 或法幣金額。Liquid 的一個關鍵優勢是其最低門檻很低。與 on-chain 交易一樣，您可以添加可選的個人備註，以作記錄。如果付款請求已包含金額，wallet 將直接進入確認畫面。
 
 
+在 Liquid 交易的確認畫面中，您將查看詳細資訊。費用顯然很低，根據交易的複雜程度來計算。費用通常約為 0.1 Sat/vB，對於簡單的交易而言，僅需 20-40 Satoshis（例如，截至 2025 年 12 月 21 日為 26 Satoshis）。
 
 
-- **優化成本**：
- - 對於 onchain 交易，根據緊急程度和網路擁塞情況選擇適當的費用 (慢、中、快)。
- - 少量使用 Liquid，或 Lightning。
- - 如果您預期需要加快確認速度，請啟動 Replace-by-fee (RBF)（請參閱附錄 4）以進行串聯出貨。
+![image](assets/en/16.webp)
 
 
+### 傳送至 Lightning Network
 
 
+您可以掃描 Lightning Address（例如 `runningbitcoin@rizful.com`），它可讓您設定金額和收件人的選項備註，或者掃描預先定義金額的發票，它可讓您直接進入確認畫面。
 
-- 隨時更新應用程式
 
+*請注意，最低金額和費用適用。
 
 
+Bull Bitcoin Wallet通過從您的`Instant Payments Wallet`（Liquid上）提取資金並通過`Boltz`進行交換來發送閃電付款。這種混合方式可完全自行保管，並避免管理專用 Lightning 通道所需的高昂 on-chain 費用，但需要支付「交換費用」。若要成本最低，可直接發送至收件人的 Liquid 位址，如果他們也使用 Bull Bitcoin wallet。
 
-### A4.額外資源
 
+## 在您的錢包間轉移資金
 
 
+Bull Bitcoin 允許您在 Liquid Network 上的 `Secure Bitcoin` wallet 和 `Instant Payments Wallet` 之間轉移您的 Bitcoin，或轉移到 `外部 Wallet`。若要執行轉帳，只需導航至`轉帳`部分，選擇來源和目的地錢包，輸入您要轉帳的金額，然後確認交易。
 
 
-- 官方連結與支援：
-- [staff@bitcoinsupport.com](mailto:staff@bitcoinsupport.com), **support@bullbitcoin.com** : 支援電子郵件
-- [Bull Bitcoin 官方網站](https://bullbitcoin.com/): 有關 Bull Bitcoin 服務、建立帳號、存取應用程式的資訊
-- [GitHub Bull Bitcoin Mobile](https://github.com/SatoshiPortal/bullbitcoin-mobile): **檢視程式碼、演進與路線圖，為開發貢獻心力...**
-- [Account X - Twitter Bull Bitcoin](https://x.com/BullBitcoin_)
-- Wallet Mobile 的 **Telegram** 群組：與支援人員群組聊天，請參閱「設定」頁面。
+![image](assets/en/17.webp)
 
 
+## 1️⃣ 1️⃣恢復您的 Bull Bitcoin Wallet
 
 
+本節說明如果您遺失裝置、卸載應用程式，或只是需要切換到一個新的裝置，如何重新取得您的 Bull Bitcoin Wallet 資金。如前所述，有兩種主要的恢復方法：使用獨特的「Recoverbull」方法和使用標準的「BIP39 seed phrase」。
 
-- 區塊探索者 :**
- - on chain ： **[Mempool.space](https://Mempool.space/)**
- - Liquid ： **[Blockstream Info](https://blockstream.info/Liquid)**
- - 閃電： **[1ML (Lightning Network)](https://1ml.com/)**
 
+### 方法 1：恢復公牛
 
 
+重溫：Wallet 備份會在本機加密。加密後的檔案可儲存於雲端儲存空間，或其他裝置上。加密密鑰由 Recoverbull 密鑰伺服器儲存。兩者是分開保存的，必須結合起來才能復原 wallet。
 
 
-- 學習與教學：**[Plan ₿ Academy](https://planb.academy/)**：
- - 保護您的復原短語
+首先，我將刪除 Wallet 及其上的所有資金，然後再重新安裝 wallet。我們會再次進入「歡迎畫面」。這次，請選擇「恢復 Wallet」選項。然後，導覽到 `加密金庫` 方法，確認使用 `預設金鑰伺服器`，並選擇您儲存備份檔案的位置或 `金庫提供者`。
 
 
+![image](assets/en/18.webp)
 
-https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
+表示儲存庫已成功匯入。點選 `Decrypt Vault` 按鈕，然後輸入 `PIN` 。下一個畫面會顯示您的`結餘`和已復原的`交易筆數`。
 
 
-https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+![image](assets/en/19.webp)
 
 
+### 方法 2：種子短語
 
 
-- **Liquid Network**：
-- [詞彙](https://planb.academy/resources/glossary/liquid-network)
+此方法使用 wallet 的主恢復詞組，這是一個標準的 12 個字清單，可作為您資金的最終備份。這是恢復 Bitcoin wallet 最通用的方法，因為它與任何特定服務或伺服器無關。只要您有這個詞組，您就可以在任何相容的裝置上復原您的 wallet，即使無法存取 Bull Bitcoin 金鑰伺服器也沒問題。
 
 
+從「歡迎」畫面，選擇「復原 Wallet」。這次請選擇 ` 實體備份 ` 方法。應用程式會顯示一個單字方格。按照正確的順序仔細選擇 12 個 seed 詞組中的每個單詞。請務必仔細，因為任何一個錯誤都會造成錯誤的 wallet。
 
 
-https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+## 1️⃣ 2️⃣連接 Hardware Wallet
 
 
+為了獲得最高等級的安全性，許多 Bitcoin 使用者選擇將他們的資金儲存在「冷儲存」中。這表示將控制 Bitcoin 的「私密金鑰」儲存在絕不連接網際網路的裝置上。硬體 wallet（或簽署裝置）是專門為此目的而設計的實體裝置。它就像是您金鑰的數位保險庫，可確保金鑰永遠不會受到線上電腦或智慧型手機的潛在威脅。
 
 
+透過將硬體 wallet 連接到 Bull Bitcoin 應用程式，您可以獲得兩者的最佳結合：冷凍儲存為您的私人密碼匙提供絕對的安全性，並結合 Bull Bitcoin wallet 的強大功能和友善介面，方便您檢視餘額和管理交易。在最後一章，我們將教您如何連接硬體 wallet，例如 [Coldcard Q](https://coldcard.com/q)，到您的 Bull Bitcoin wallet。本教學不會深入介紹如何設定 Coldcard Q，您可以在此瞭解：
 
-- **Lightning Network**：
-- [詞彙](https://planb.academy/resources/glossary/lightning-network)
 
+https://planb.academy/en/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
+https://planb.academy/en/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
+### 匯入 Wallet
 
-https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
+![image](assets/en/26.webp)
 
-### A5.公牛 Bitcoin
 
+首先，從 Coldcard Q 的主功能表中選擇 ` 匯出 Wallet`，然後選擇 ` 公牛 Wallet`。您的 Coldcard 將會 generate 一個 QR 碼。
 
 
-#### 公司概覽
+![image](assets/en/20.webp)
 
 
+開啟 Bull Bitcoin Wallet，並導覽至「設定」>「Bitcoin 設定」>「匯入 wallet」，然後選擇手機上的「Coldcard Q」，點選「開啟相機」掃瞄此 QR 碼，即可匯入硬體 wallet 的公開金鑰。
 
-**[Bull Bitcoin](https://www.bullbitcoin.com/fr)**，是專門針對 Bitcoin 的歷史最悠久的非存款 Exchange 平台，於 2013 年在加拿大蒙特婁的 Bitcoin 大使館成立。該公司由 Bitcoin 生態系統中公認的先驅 Francis Pouliot 領導，將自身定位為促進金融主權和用戶自主的關鍵角色。其使命是讓個人透過使用 Bitcoin 作為自由和付款的工具，重新掌控自己的金錢，同時拒絕使用 Bitcoin 以外的法定貨幣和加密貨幣。
 
+![image](assets/en/21.webp)
 
 
-![image](assets/fr/26.webp)
+### 使用 Coldcard Q 收件
 
 
+若要使用已連接的 Coldcard Q 接收 Bitcoin，您不需要將裝置實際連接到您的手機。Bull Bitcoin Wallet 已經匯入必要的公開金鑰，讓它可以自行 generate 位址。
 
-[建立您的帳號](https://app.bullbitcoin.com/registration/orangepeel) Bitcoin 買賣可享有 0.25% 折扣。
 
+1.點選您已匯入的 Coldcard Q 簽章裝置，然後選擇 `接收`。
 
+2.應用程式會自動從 Coldcard 的 wallet 顯示新的 Bitcoin 位址。
 
-#### 價值與理念
+3.使用此地址接收資金。Bitcoin 會直接固定到硬體 wallet 的金鑰，即使在過程中裝置是離線的。
 
 
+![image](assets/en/22.webp)
 
-公牛 Bitcoin 以其 Commitment 到 Cypherpunk 的原則和 Bitcoin 的道德觀脫穎而出：
 
+### 使用 Coldcard Q 傳送
 
 
+使用 Coldcard Q 傳送 Bitcoin 需要您的實體確認，才能授權任何交易。雖然 Bull Wallet 應用程式可用來建立交易，但最終簽章只能在硬體 wallet 本身上建立。
 
 
-- 獨家專訪 **Bitcoin**：該平台忠於去中心化、抗審查貨幣的願景。
+首先，打開您的「Coldcard Q」wallet，點選「傳送」。然後，`打開相機`掃描接收地址的 QR 碼。掃描後，輸入您要傳送的`金額`，並視需要調整`費用優先順序`。
 
 
+如需更多選項，您可以在 Advanced Settings（進階設定）下查看。在這裡您可以找到 `Replace by Fee` (RBF) 選項，預設為啟動，可讓您稍後加快卡住的交易。您也可以使用 `Coin Control` 選項，讓您手動選擇想要花費的特定 UTXO。
 
 
+檢視所有詳細資料後，點選 `Show PSBT` 準備交易。
 
-- **非保管人**：使用者可將資金傳送至自己的投資組合，保留對比特幣的完全控制權。
 
+![image](assets/en/23.webp)
 
 
+點選 Coldcard Q 上的「掃瞄」按鈕，使用其相機掃瞄手機上顯示的 QR 代碼。Coldcard 畫面隨即會顯示所有交易詳細資訊。仔細核實金額、收件人地址和您的變更地址。如果一切無誤，請按下 Coldcard Q 上的「Enter」鍵簽署交易。接下來，螢幕上會出現已簽署交易的 QR 代碼。
 
 
-- **保密性**：盡量減少個人資料的收集，999 美元以下的交易提供免 KYC 購買選項。資料依照法規受到保護 (加拿大的 FINTRAC、法國的 AMF)。
+![image](assets/en/24.webp)
 
 
+在 Bull wallet 上，點選`我完成了`，然後點選`相機「按鈕，從您的 Coldcard Q 掃描`已簽署交易」的 QR 代碼，Bull Wallet 現在會顯示已簽署交易的摘要畫面。最後檢視一次，然後點選 ` 廣播` 交易。這將完成交易傳送至 Bitcoin 網路的程序，您的資金就會到帳了。
 
 
+## 🎯 結論
 
-- **透明度**：沒有隱藏費用，成本包含在差價（買入價和賣出價之間的差額）中。
 
+現在您已完成 Bull Bitcoin Wallet 之旅。此應用程式將強大的隱私與安全工具放在您的指尖，讓進階功能簡單易用。它可透過「PayJoin」（隱藏您在區塊鏈上的交易）和「Tor 整合」（遮掩您的網路活動，使其不被窺視）等功能幫助您保持隱私。對於想要終極控制的人，您可以連接到「自己的個人 Bitcoin 節點」，以停止依賴第三方伺服器，並使用「硬體 wallet 」來保持您的私密金鑰完全離線和安全。Bull Bitcoin Wallet 具備智慧型備份選項，並可無縫支援 Bitcoin、Liquid 和 Lightning，對於任何認真維護資金私密性、安全性，並完全由自己掌控的人而言，Bull Bitcoin Wallet 是強大的多合一選擇。
 
 
+## 公牛 Wallet 資源
 
 
-- **金融主權**：Bull Bitcoin 提倡獨立於傳統的銀行系統和中央機構。
-
-
-
-#### 主要服務
-
-
-
-
-
-- **法幣存款**：使用者可在指定的加拿大郵局，透過銀行轉帳或現金/借記卡，以法定貨幣（加元、歐元等）為 Bull Bitcoin 帳戶存入資金。
-
-
-
-
-
-- 購買 **Bitcoin** ：使用者可購買 Bitcoin，Bitcoin 會直接傳送到他們的非存管投資組合，保證完全掌控他們的資金。
-
-
-
-
-
-- 定期購買 **Bitcoin**：Bull Bitcoin 提供定期自動循環購買服務 (DCA - Dollar Cost Averaging)，動用您的可用餘額，直接將比特幣轉移至使用者控制的 Wallet，減少價格波動的影響。
-
-
-
-請注意，一個名為「自動購買」的選項可讓您在法幣觸及您的 Bull Bitcoin 結餘時立即進行轉換，並將您的比特幣傳送到您自己的 Wallet。此選項也可以與您的銀行預定的定期銀行轉帳結合，進行 DCA。此選項可自動累積您的 Bitcoin，而無需打開應用程式。
-
-
-
-
-
-
-- 以固定價格買入 Bitcoin「限價訂單」：允許您以使用者事先指定的價格買入 Bitcoin，當 Bull Bitcoin 指數價格達到或低於設定的限價時，該指令會自動執行。
-
-
-
-
-
-- 出售 **Bitcoin**：使用者可以出售他們的比特幣，並透過銀行或 SEPA 轉帳直接將款項以法定貨幣存入他們的銀行帳戶。
-
-
-
-
-
-- 第三方支付：Bull Bitcoin 可讓使用者用比特幣向銀行帳戶傳送法幣，對收款人完全透明。
-
-
-
-
-
-- **Bull Bitcoin Prime**：Bull Bitcoin Prime 是專為高淨值和企業客戶提供的尊貴服務，可提供客製化解決方案和尊貴支援。這包括享有較低的費用、專屬的帳戶經理以及量身打造的企業服務。這項服務主要針對尋求深入專業知識和優先待遇的機構、專業交易員和企業客戶。
-
-
-
-
-
-- 行動版 **Wallet**：公牛 Bitcoin 提供開放原始碼、自我保管的行動版 Wallet，可在 Android 和 iOS 上使用，支援 onchain、Liquid 和 Lightning Network 交易。
-
-
-
-
-
-- 教育支援：免費指南與個人化輔導，協助使用者建立、保全及管理 Bitcoin 投資組合，強化財務自主性。
-
-
-
-#### 合規與安全
-
-
-
-
-
-- 監管：在加拿大 FINTRAC 和法國 AMF 註冊，Bull Bitcoin 符合 KYC/AML 要求。
-
-
-
-
-
-- **安全性**：使用安全的投資組合和離線儲存建議。個人資料託管於 Bull 的 Bitcoin 基礎架構，此基礎架構為 100% 自行託管，不依賴任何第三方。
+[Github](https://github.com/SatoshiPortal/bullbitcoin-mobile) | [Website ](https://www.bullbitcoin.com/)| [Recoverbull](https://recoverbull.com/)

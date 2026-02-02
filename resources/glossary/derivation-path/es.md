@@ -1,6 +1,7 @@
 ---
-term: VÍA DE DERIVACIÓN
+term: Ruta de derivación
 
+definition: Secuencia de índices que describe la ruta de derivación de las claves hijas a partir de la clave maestra en un monedero HD.
 ---
 En el contexto de los monederos deterministas jerárquicos (HD), una ruta de derivación se refiere a la secuencia de índices utilizados para derivar claves hijas a partir de una clave maestra. Descrita en BIP32, esta ruta identifica la estructura de árbol para derivar claves hijas. Una ruta de derivación está representada por una serie de índices separados por barras oblicuas, y siempre comienza con la clave maestra (denotada como `m/`). Por ejemplo, una ruta típica podría ser `m/84'/0'/0'/0/0`. Cada nivel de derivación está asociado a una profundidad específica:
 
@@ -21,4 +22,3 @@ Por ejemplo, si mi dirección de recepción tiene la ruta de derivación `m / 86
 - `0` indica que se trata de una dirección externa;
 - `5` indica que es la sexta dirección externa de esta cuenta.
 
-![](../../dictionnaire/assets/18.webp)

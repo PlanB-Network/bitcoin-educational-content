@@ -1,5 +1,6 @@
 ---
-term: OUTPOINT
+term: Outpoint
+definition: Référence unique à un UTXO, composée du txid et de l'index de sortie.
 ---
 
 Référence unique à une sortie de transaction non dépensée (UTXO). Il est constitué de deux éléments :

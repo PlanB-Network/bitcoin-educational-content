@@ -223,9 +223,9 @@ Niba ushaka gufungura/kuzimya Antminer yawe ukoresheje telefone yawe ngendanwa n
 - 2X 3D igice c'umuhinduzi 140mm kugeza kuri 120mm
 - 2X NF-A14 iPPC-2000 PWM [ihuza]
 - 2X 140mm umuyaga w'umuyaga [ihuza]
-- Noctua NF-A6x25 PWM [ihuriro] (ihuriro]
+- Noctua NF-A6x25 PWM [ihuriro](ihuriro]
 - Isukari y'umuyagankuba 2,5mm2 [ihuriro]
-- 11g-300 [ihuriro] (ikiraro-cohindura-Ethernet/dp/B014SK2H6W)
+- 11g-300 [ihuriro](ikiraro-cohindura-Ethernet/dp/B014SK2H6W)
 
 
 ## Igice ca 3 - INYIGISHO: Ni gute wohindura Miner ngo ibe Heater?

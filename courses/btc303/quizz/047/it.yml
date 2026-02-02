@@ -1,9 +1,9 @@
 question: Secondo le tattiche del Simple Sabotage Field Manual, in che modo un avversario potrebbe interrompere più efficacemente il processo di sviluppo aperto di Bitcoin?
 answer: Infiltrandosi nelle discussioni per bloccare il progresso attraverso preoccupazioni infinite su questioni irrilevanti e rimaneggiando dibattiti già conclusi
 wrong_answers:
-  - "Lanciando attacchi distribuiti di tipo denial-of-service contro i computer e i server degli sviluppatori del Bitcoin Core"
-  - Corrompendo i pool mining affinché rifiutino gli aggiornamenti del software e mantengano indefinitamente le vecchie versioni del protocollo
+  - Lanciando attacchi distribuiti di tipo denial-of-service contro i computer e i server degli sviluppatori di Bitcoin Core
+  - Corrompendo le minig pool affinché rifiutino gli aggiornamenti del software e mantengano indefinitamente le vecchie versioni del protocollo
   - Creando criptovalute concorrenti che offrono caratteristiche migliori per distogliere gli sviluppatori dai progetti Bitcoin
 explanation: |
-  Il Manuale di Sabotaggio Semplice descriveva le tattiche di infiltrazione per distruggere le organizzazioni dall'interno, tra cui il blocco dei progressi attraverso preoccupazioni irrilevanti e il rimaneggiamento di discussioni consolidate. Poiché lo sviluppo del Bitcoin è aperto a tutti, queste tattiche di ingegneria sociale rappresentano una minaccia reale. Le altre opzioni rappresentano attacchi esterni piuttosto che i metodi di sabotaggio interno descritti nel manuale, che si concentrano sullo sfruttamento della natura aperta e collaborativa del processo di sviluppo di Bitcoin.
-reviewed: false
+  Il Manuale di Sabotaggio Semplice descriveva le tattiche di infiltrazione per distruggere le organizzazioni dall'interno, tra cui il blocco dei progressi attraverso preoccupazioni irrilevanti e il rimaneggiamento di discussioni consolidate. Poiché lo sviluppo di Bitcoin è aperto a tutti, queste tattiche di ingegneria sociale rappresentano una minaccia reale. Le altre opzioni rappresentano attacchi esterni piuttosto che i metodi di sabotaggio interno descritti nel manuale, che si concentrano sullo sfruttamento della natura aperta e collaborativa del processo di sviluppo di Bitcoin.
+reviewed: true

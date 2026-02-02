@@ -6,7 +6,7 @@ description: Tutorial über Cake Wallet und Stille Zahlungen
 ![cover](assets/cover.webp)
 
 
-Dieser Leitfaden befasst sich mit [**Cake Wallet**] (https://cakewallet.com/): ein quelloffenes, nicht-kustodiales, datenschutzorientiertes wallet mit mehreren Währungen, das für Android, iOS, macOS, Linux und Windows verfügbar ist. Wir werden in die Bitcoin-spezifischen Datenschutzfunktionen eintauchen, das Senden/Empfangen von Bitcoin über **Silent Payments** (ein verbessertes on-chain-Datenschutzprotokoll) durchgehen und einen Blick auf die Implementierung von PayJoin v2 für asynchrone Transaktionen werfen.
+Dieser Leitfaden befasst sich mit [**Cake Wallet**](https://cakewallet.com/): ein quelloffenes, nicht-kustodiales, datenschutzorientiertes wallet mit mehreren Währungen, das für Android, iOS, macOS, Linux und Windows verfügbar ist. Wir werden in die Bitcoin-spezifischen Datenschutzfunktionen eintauchen, das Senden/Empfangen von Bitcoin über **Silent Payments** (ein verbessertes on-chain-Datenschutzprotokoll) durchgehen und einen Blick auf die Implementierung von PayJoin v2 für asynchrone Transaktionen werfen.
 
 
 ## 🎉 Hauptmerkmale
@@ -148,7 +148,7 @@ Um unser wallet zu sichern, können wir eine Sicherungskopie erstellen, indem wi
 ![image](assets/en/08.webp)
 
 
-**Anmerkung**: Ab September 2025 muss die biometrische Authentifizierung per Fingerabdruck auf Android-Geräten mindestens mit einer biometrischen Implementierung der Klasse 2 funktionieren; weitere Einzelheiten finden Sie [hier] (https://source.android.com/docs/security/features/biometric/measure#biometric-classes). Diese Anforderung kann sich jedoch in Zukunft ändern.
+**Anmerkung**: Ab September 2025 muss die biometrische Authentifizierung per Fingerabdruck auf Android-Geräten mindestens mit einer biometrischen Implementierung der Klasse 2 funktionieren; weitere Einzelheiten finden Sie [hier](https://source.android.com/docs/security/features/biometric/measure#biometric-classes). Diese Anforderung kann sich jedoch in Zukunft ändern.
 
 
 ### D - Datenschutzeinstellungen 🔒

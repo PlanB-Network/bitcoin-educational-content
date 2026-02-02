@@ -83,7 +83,7 @@ Czytelnikom, którzy po zapoznaniu się z tym wprowadzeniem chcieliby poszukać 
 **Wkład**
 
 
-Prosimy o zapoznanie się z [plikiem wkładu w repozytorium] (https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) w celu uzyskania wskazówek, jak wspierać projekt.
+Prosimy o zapoznanie się z [plikiem wkładu w repozytorium](https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) w celu uzyskania wskazówek, jak wspierać projekt.
 
 
 
@@ -185,7 +185,7 @@ Po odszyfrowaniu druga wiadomość zawiera szczegółową zawartość skarbu (z�
 **Uwagi:**
 
 
-[1] Dobre podsumowanie tej historii można znaleźć w Simon Singh, *The Code Book*, Fourth Estate (Londyn, 1999), s. 82-99. Krótki film przedstawiający tę historię został nakręcony przez Andrew Allena w 2010 roku. Można go znaleźć pod tytułem "The Thomas Beale Cipher" [na jego stronie internetowej] (http://www.thomasbealecipher.com/).
+[1] Dobre podsumowanie tej historii można znaleźć w Simon Singh, *The Code Book*, Fourth Estate (Londyn, 1999), s. 82-99. Krótki film przedstawiający tę historię został nakręcony przez Andrew Allena w 2010 roku. Można go znaleźć pod tytułem "The Thomas Beale Cipher" [na jego stronie internetowej](http://www.thomasbealecipher.com/).
 
 
 [2] Ten obraz jest dostępny na stronie Wikipedii poświęconej szyfrom Beale'a.
@@ -2715,11 +2715,11 @@ O funkcji Hash $H$ mówi się, że jest **odporna na kolizje**, jeśli nie jest 
 Odporne na kolizje funkcje Hash są ważne na przykład przy weryfikacji oprogramowania. Załóżmy, że chcesz pobrać wersję Bitcoin Core 0.21.0 dla systemu Windows (aplikacja serwerowa do przetwarzania ruchu sieciowego Bitcoin). Główne kroki, które należałoby wykonać, aby zweryfikować legalność oprogramowania, są następujące:
 
 
-1.	Najpierw należy pobrać i zaimportować klucze publiczne jednego lub więcej współtwórców Bitcoin Core do oprogramowania, które może weryfikować podpisy cyfrowe (np. Kleopetra). Te klucze publiczne można znaleźć [tutaj] (https://github.com/Bitcoin/Bitcoin/blob/master/contrib/builder-keys/keys.txt). Zaleca się zweryfikowanie oprogramowania Bitcoin Core za pomocą kluczy publicznych od wielu dostawców.
+1.	Najpierw należy pobrać i zaimportować klucze publiczne jednego lub więcej współtwórców Bitcoin Core do oprogramowania, które może weryfikować podpisy cyfrowe (np. Kleopetra). Te klucze publiczne można znaleźć [tutaj](https://github.com/Bitcoin/Bitcoin/blob/master/contrib/builder-keys/keys.txt). Zaleca się zweryfikowanie oprogramowania Bitcoin Core za pomocą kluczy publicznych od wielu dostawców.
 
 2.	Następnie należy zweryfikować zaimportowane klucze publiczne. Przynajmniej jednym krokiem, który powinieneś podjąć, jest sprawdzenie, czy znalezione klucze publiczne są takie same, jak opublikowane w różnych innych lokalizacjach. Możesz na przykład zapoznać się z osobistymi stronami internetowymi, stronami Twittera lub stronami Github osób, których klucze publiczne zaimportowałeś. Zazwyczaj porównanie kluczy publicznych odbywa się poprzez porównanie krótkiego Hash klucza publicznego znanego jako odcisk palca.
 
-3.	Następnie należy pobrać plik wykonywalny dla Bitcoin Core z ich [strony internetowej] (www.bitcoincore.org). Dostępne będą pakiety dla systemów operacyjnych Linux, Windows i MAC.
+3.	Następnie należy pobrać plik wykonywalny dla Bitcoin Core z ich [strony internetowej](www.bitcoincore.org). Dostępne będą pakiety dla systemów operacyjnych Linux, Windows i MAC.
 
 4.	Następnie należy zlokalizować dwa pliki wydania. Pierwszy z nich zawiera oficjalny SHA-256 Hash dla pobranego pliku wykonywalnego wraz ze skrótami wszystkich innych wydanych pakietów. Kolejny plik wydania będzie zawierał podpisy różnych współtwórców nad plikiem wydania wraz ze skrótami pakietów. Oba te pliki powinny znajdować się na stronie Bitcoin Core.
 

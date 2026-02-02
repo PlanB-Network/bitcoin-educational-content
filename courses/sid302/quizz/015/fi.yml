@@ -1,0 +1,8 @@
+question: Mitä tietoja Taproot:tä käyttävässä HTLC:ssa paljastuu Bitcoin-verkolle, kun swap-operaatio epäonnistuu ja toisen osapuolen on saatava varansa takaisin vastapuolen reitin kautta?
+answer: Ainoastaan tietty Merkle-puun haara, joka sisältää rahaston palauttamiseen tarvittavat hash/aikalukitusehdot
+wrong_answers:
+  - "Koko komentosarjan logiikka, mukaan lukien kaikki mahdolliset suoritusreitit ja molempien osapuolten henkilökohtaiset julkiset avaimet"
+  - Esikuvan salaisuus ja kaikki MuSig2-avainten yhdistämisprosessissa käytetyt aggregoidut julkiset avaimet
+  - Koko HTLC-sopimuksen ehdot, mukaan lukien swap-määrät, aikataulut sekä Lightning- ja Liquid-osoitteet
+explanation: |
+  Taproot järjestää HTLC-ehdot Merkle-puurakenteeseen, mikä mahdollistaa valikoivan julkistamisen. Kun yhteistyö ei onnistu, vain tietty haara, jota tarvitaan varojen takaisinperintäoikeuden todistamiseen, paljastetaan, kun taas muut sopimuksen yksityiskohdat pysyvät piilossa. Tämä poikkeaa perinteisistä HTLC:istä, jotka paljastivat täydelliset käsikirjoitukset, ja eroaa yhteistyötapauksista, joissa käsikirjoituksen yksityiskohtia ei paljasteta lainkaan.

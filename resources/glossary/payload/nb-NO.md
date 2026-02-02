@@ -1,5 +1,6 @@
 ---
-term: NYTTIG LAST
+term: Payload
+definition: Viktige data som bæres i en større datapakke.
 ---
 
 I generell datasammenheng er en nyttelast de viktigste dataene i en større datapakke. I en SegWit V0 over Bitcoin Address tilsvarer nyttelasten for eksempel Hash av den offentlige nøkkelen, uten de ulike metadataene (HRP, separator, SegWit-versjon og kontrollsum). For eksempel, ved Address `bc1qc2eukw7reasfcmrafevp5dhv8635yuqays50gj`, har vi :

@@ -43,7 +43,7 @@ Min konfiguration: **en Windows 11-arbetsstation där jag ska installera Virtual
 
 
 
-För att ladda ner VirtualBox för installation på en Windows-maskin finns det bara en bra Address: den [officiella VirtualBox-webbplatsen] (https://www.virtualbox.org/wiki/Downloads) i avsnittet "**Downloads**". Klicka bara på "Windows hosts" för att börja ladda ner den här körbara filen, som är drygt 100 MB stor.
+För att ladda ner VirtualBox för installation på en Windows-maskin finns det bara en bra Address: den [officiella VirtualBox-webbplatsen](https://www.virtualbox.org/wiki/Downloads) i avsnittet "**Downloads**". Klicka bara på "Windows hosts" för att börja ladda ner den här körbara filen, som är drygt 100 MB stor.
 
 
 

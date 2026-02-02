@@ -1,12 +1,11 @@
-question: Ni ingamba izihe zivugwa kugira ngo barwanye ugushira hamwe Mining muri Bitcoin?
-answer: Ingamba zaganiriweko zo kurwanya ugushira hamwe Mining muri Bitcoin harimwo Home Mining, umurongo wa Stratum V2, porogarama ya Mining ifunguye, n’uguhinduranya abakinyi n’ivy’ubutaka.
+question: Ni ingamba izihe zivugwa kugira ngo harwanywe ugukoraniriza hamwe Mining muri Bitcoin?
+answer: Ingamba zaganiriweko zo kurwanya ugukoraniriza hamwe mining muri Bitcoin harimwo Home Mining, itegeko rya Stratum V2, Kugira isoko y’uguruye porogarame za mining, n’Ukugira Abakinyi n’ibihugu bitandukanye vyohirya no hino.
 wrong_answers:
   - Ingamba zaganiriweko zo kurwanya ugushira hamwe Mining muri Bitcoin harimwo kwongera ubunini bw’ibarabara, gushirwa mu ngiro ibimenyamenya vy’uruhara, no gushinga ubuyobozi bukuru buzogenzura Mining.
   - Ingamba zaganiriweko zo kurwanya ugushira hamwe Mining muri Bitcoin harimwo kugabanya Block reward, gushirwa mu ngiro amafaranga y’ugucuruza, no gushinga umusoro wa Mining.
-  - Ingamba zaganiriweko zo kurwanya ugushira hamwe Mining muri Bitcoin harimwo kwongera ingorane za Mining, gushiramwo igipfukisho ca Mining, no gushinga urukino rwa Mining.
+  - Ingamba zaganiriweko zo kurwanya ugushira hamwe Mining muri Bitcoin harimwo kwongera ingorane za Mining, gushiraho umupaka kuri Mining, no gushinga lottery rwa Mining.
 explanation: |
-  Ico kigabane kiravuga ingamba zitari nke zo kurwanya Mining.
-  gushiramwo ibintu vyose muri Bitcoin, harimwo n’Ingoro Mining, i
-  Itegeko rya Stratum V2, porogaramu ya Mining, na
-  guhinduranya abakinyi n’ivy’ubutaka.
+  Iki gice kiravuga ingamba zitari nke zo kurwanya ugukoraniriza hamwe mining muri Bitcoin,
+  harimwo na mining muhira, itegeko rya Stratum V2, kugira isoko y'uguruye porogarame za mining, no 
+  kugira Abakinyi n’ibihugu bitandukanye vyohirya no hino.
 reviewed: true

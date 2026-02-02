@@ -127,7 +127,7 @@ Die Vorkonfiguration von Zahlungsmethoden ist optional, wird aber empfohlen, um 
 
 **Datensicherung:**
 
-Im Gegensatz zu Bisq 1 ist in Bisq 2 derzeit keine Bitcoin-Wallet integriert: Transaktionen werden daher über Ihre eigenen externen Wallets abgewickelt. Dennoch empfehlen wir Ihnen, regelmäßig ein Backup Ihres Bisq 2 Datenordners zu erstellen. Um Ihren Datenordner zu finden, konsultieren Sie das [offizielle Bisq-Wiki] (https://bisq.wiki/Backing_up_application_data#Back_up_the_entire_Bisq_data_directory).
+Im Gegensatz zu Bisq 1 ist in Bisq 2 derzeit keine Bitcoin-Wallet integriert: Transaktionen werden daher über Ihre eigenen externen Wallets abgewickelt. Dennoch empfehlen wir Ihnen, regelmäßig ein Backup Ihres Bisq 2 Datenordners zu erstellen. Um Ihren Datenordner zu finden, konsultieren Sie das [offizielle Bisq-Wiki](https://bisq.wiki/Backing_up_application_data#Back_up_the_entire_Bisq_data_directory).
 
 **Identitätsmanagement:**
 

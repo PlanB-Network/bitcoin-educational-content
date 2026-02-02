@@ -1,5 +1,6 @@
 ---
-term: FORCE CLOSE
+term: Force close
+definition: Einseitiges Schließen eines Lightning-Kanals durch Übertragung der letzten signierten Commitment-Transaktion.
 ---
 
 Nicht-kooperativer Mechanismus zum Schließen von Lightning-Kanälen. Wenn zwei Nutzer einen Kanal mit einem Multisig 2/2 öffnen, kann jeder von ihnen den Kanal einseitig schließen, indem er den letzten Commitment Transaction sendet, der bereits signiert wurde, um seine Onchain-Bitcoins zurückzugewinnen. Dies wird als "Zwangsschließung" bezeichnet.

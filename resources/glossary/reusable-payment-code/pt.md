@@ -1,6 +1,7 @@
 ---
-term: CÓDIGO DE PAGAMENTO REUTILIZÁVEL
+term: Código de pagamento reutilizável
 
+definition: Identificador estático do BIP47 que permite derivar endereços únicos sem reutilização de endereços.
 ---
 No BIP47, um código de pagamento reutilizável é um identificador estático gerado a partir de uma carteira Bitcoin que permite uma transação de notificação e a derivação de endereços únicos. Isto evita a reutilização de endereços, que conduz a uma perda de privacidade, sem ter de derivar e transmitir manualmente novos endereços não utilizados para cada pagamento. No BIP47, os códigos de pagamento reutilizáveis são construídos da seguinte forma:
 

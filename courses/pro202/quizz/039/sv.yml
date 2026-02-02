@@ -1,0 +1,8 @@
+question: Vilken är den primära säkerhetsrisken som gör att P2SH skiljer sig fundamentalt från vanliga Bitcoin-transaktioner när det gäller återvinning av medel?
+answer: Om du förlorar inlösenskriptet låses fonderna permanent även om du har de privata nycklarna
+wrong_answers:
+  - Hashvärdet på 20 byte kan forceras om inlösenskriptet är för enkelt
+  - P2SH-adresser upphör att gälla efter en viss blockhöjd, vilket gör att medel inte kan återvinnas
+  - Valideringsprocessen i två steg kan misslyckas slumpmässigt och orsaka permanent fondförlust
+explanation: |
+  P2SH introducerar ett unikt säkerhetskrav: både de privata nycklarna OCH inlösenskriptet är nödvändiga för att spendera pengar. Till skillnad från standardtransaktioner där endast privata nycklar behövs, kräver P2SH att det faktiska inlösenskriptet tillhandahålls under utgifterna. Om inlösenmanualen försvinner blir pengarna permanent oåtkomliga, oavsett om man har rätt privata nycklar, eftersom utgiftsvillkoren inte kan rekonstrueras eller valideras.

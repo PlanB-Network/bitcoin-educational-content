@@ -1,5 +1,6 @@
 ---
-term: CLÉ PUBLIQUE COMPRESSÉE
+term: Clé publique compressée
+definition: Forme compacte d'une clé publique utilisant seulement la coordonnée x et un préfixe de parité (02 ou 03).
 ---
 
 Une clé publique est utilisée dans les scripts (soit directement sous la forme d'une clé publique, soit sous la forme d'une adresse) pour recevoir et sécuriser des bitcoins. Une clé publique brute est représentée par un point sur une courbe elliptique, composé de deux coordonnées (`x, y`) chacune de 256 bits. En format brut, une clé publique mesure donc 512 bits, sans compter l'octet supplémentaire pour identifier le format. Une clé publique compressée, en revanche, est une forme plus compacte de représentation d'une clé publique. Elle utilise seulement la coordonnée `x` et un préfixe (`02` ou `03`) qui indique la parité de la coordonnée `y` (pair ou impair).

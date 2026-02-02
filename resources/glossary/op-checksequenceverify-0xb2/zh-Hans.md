@@ -1,6 +1,7 @@
 ---
-term: OP_CHECKSEQUENCEVERIFY (0xB2)
+term: OP_CHECKSEQUENCEVERIFY (0XB2)
 
+definition: 对花费UTXO施加相对时间限制的操作码。
 ---
 如果发现其中任何一个特征，则交易无效：
 

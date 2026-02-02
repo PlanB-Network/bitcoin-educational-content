@@ -1,0 +1,8 @@
+question: Hvilket nøkkelord brukes til å definere implementasjonsblokker som inneholder metoder og tilhørende funksjoner for strukturer i Rust?
+answer: impl
+wrong_answers:
+  - metode
+  - struktur
+  - fn
+explanation: |
+  Nøkkelordet `impl` brukes spesielt til å lage implementasjonsblokker der du definerer metoder og tilhørende funksjoner for strukturer. Mens `struct` definerer selve strukturen, `fn` definerer individuelle funksjoner, og `method` ikke er et Rust-nøkkelord i det hele tatt, er det bare `impl` som skaper blokken som inneholder atferden som er knyttet til en type. Implementeringsblokker som bruker `impl`, gjør at du kan legge til funksjonalitet i strukturene dine, slik at de blir mer enn bare databeholdere.

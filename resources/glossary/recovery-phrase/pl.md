@@ -1,5 +1,6 @@
 ---
-term: FRAZA ODZYSKIWANIA
+term: Fraza odzyskiwania
+definition: Sekwencja 12 lub 24 słów pozwalająca na tworzenie kopii zapasowej i przywracanie portfela Bitcoin.
 ---
 
 Fraza odzyskiwania, czasami nazywana również frazą Mnemonic, seed lub tajną frazą, to sekwencja zwykle składająca się z 12 lub 24 słów, która jest generowana w sposób pseudolosowy ze źródła entropii. Sekwencja pseudolosowa jest zawsze uzupełniana sumą kontrolną. Fraza Mnemonic, wraz z opcjonalną passphrase, jest używana do deterministycznego wyprowadzenia wszystkich kluczy powiązanych z HD (Hierarchical Deterministic) Wallet. Oznacza to, że na podstawie tej frazy możliwe jest deterministyczne generate i odtworzenie wszystkich kluczy prywatnych i publicznych Bitcoin Wallet, a w konsekwencji uzyskanie dostępu do powiązanych z nim środków. Celem frazy odzyskiwania jest zapewnienie sposobu tworzenia kopii zapasowych i odzyskiwania bitcoinów, który jest zarówno bezpieczny, jak i łatwy w użyciu.

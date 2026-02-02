@@ -1,6 +1,7 @@
 ---
-term: ASICBOOST
+term: Asicboost
 
+definition: Uma otimização algorítmica que permite aumentar a eficiência de mineração em aproximadamente 20% reutilizando uma parte dos cálculos de hash entre várias tentativas.
 ---
 O ASICBOOST é um método de otimização algorítmica inventado em 2016, concebido para aumentar a eficiência da mineração de Bitcoin em cerca de 20%, reduzindo a quantidade de cálculos necessários para cada tentativa de hash do cabeçalho. Esta técnica explora uma caraterística da função hash SHA256, usada para mineração, que divide os dados em blocos antes de os processar. O ASICBOOST mantém um desses blocos inalterado em várias tentativas de hashing, permitindo que o minerador faça apenas parte do trabalho para esse bloco em várias tentativas. Esta partilha de dados permite a reutilização de resultados de cálculos anteriores, reduzindo assim o número total de cálculos necessários para encontrar um hash válido.
 

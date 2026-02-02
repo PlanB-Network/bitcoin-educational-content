@@ -326,7 +326,7 @@ Het custodial model vereist waakzaamheid en goede beveiligingspraktijken. Op de 
 
 
 - Officiële website: [macadamia.cash](https://macadamia.cash)
-- Macadamia FAQ: [macadamia.cash/faq] (https://macadamia.cash/faq)
+- Macadamia FAQ: [macadamia.cash/faq](https://macadamia.cash/faq)
 - GitHub broncode: [github.com/zeugmaster/macadamia](https://github.com/zeugmaster/macadamia)
 
 

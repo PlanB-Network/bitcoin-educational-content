@@ -68,7 +68,7 @@ Sammanfattningsvis är Tor-nätverket den infrastruktur som ger oss integritet n
 ## Hur installerar jag Tor Browser?
 
 
-Tor Browser finns tillgänglig för Windows, Linux och macOS för datorer, samt för Android på smartphones. För att installera Tor Browser på din dator, besök [den officiella Tor Project-webbplatsen] (https://www.torproject.org/).
+Tor Browser finns tillgänglig för Windows, Linux och macOS för datorer, samt för Android på smartphones. För att installera Tor Browser på din dator, besök [den officiella Tor Project-webbplatsen](https://www.torproject.org/).
 
 ![TOR BROWSER](assets/notext/05.webp)
 

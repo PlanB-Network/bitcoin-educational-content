@@ -139,7 +139,7 @@ Du kan også kjøpe **et OPNsense rackmonterbart apparat** i nettbutikken vår.
 
 
 
-Du må ta hensyn til maskinvareressursene som kreves for å kjøre OPNsense. Dette er beskrevet på [denne dokumentasjonssiden] (https://docs.opnsense.org/manual/hardware.html).
+Du må ta hensyn til maskinvareressursene som kreves for å kjøre OPNsense. Dette er beskrevet på [denne dokumentasjonssiden](https://docs.opnsense.org/manual/hardware.html).
 
 
 
@@ -147,17 +147,18 @@ Du må ta hensyn til maskinvareressursene som kreves for å kjøre OPNsense. Det
 
 
 
-| Caractéristiques | Minimum | Recommandation |
+
+| Egenskaper | Minimum | Anbefaling |
 | --- | --- | --- |
-| Processeur | 1 GHz - 2 cœurs | 1.5 GHz - Multi-coeurs |
-| Mémoire vive (RAM) | 2 Go | 8 Go |
-| Espace de stockage pour le système | Disque dur, disque SSD ou carte SD (4 Go) | 120 Go en SSD |
+| Prosessor | 1 GHz - 2 kjerner | 1.5 GHz - Flerkjernet |
+| RAM | 2 GB | 8 GB |
+| Lagringsplass for systemet | Harddisk, SSD eller SD-kort (4 GB) | 120 GB på SSD |
 
 Til slutt: **Ressursbehovet ditt avhenger først og fremst av antall tilkoblinger som skal administreres**, og dermed av **båndbreddebehovet**. I tillegg må du **ha i tankene hvilke tjenester som skal aktiveres og brukes** (proxy, inntrengingsdeteksjon osv.), ettersom de kan være CPU- og/eller RAM-krevende.
 
 
 
-Du trenger også OPNsense-installasjonens ISO-bilde, som du kan laste ned fra [det offisielle nettstedet] (https://opnsense.org/download/). For installasjon på en virtuell maskin velger du "**dvd**" som avbildningstype for å få et ISO-bilde (og gjør hva du vil med det ...). For installasjon via en oppstartbar USB-nøkkel velger du alternativet "**vga**" for å få en "**.img**"-fil.
+Du trenger også OPNsense-installasjonens ISO-bilde, som du kan laste ned fra [det offisielle nettstedet](https://opnsense.org/download/). For installasjon på en virtuell maskin velger du "**dvd**" som avbildningstype for å få et ISO-bilde (og gjør hva du vil med det ...). For installasjon via en oppstartbar USB-nøkkel velger du alternativet "**vga**" for å få en "**.img**"-fil.
 
 
 
@@ -213,7 +214,7 @@ Etter nedlasting får du **et arkiv som inneholder et bilde i ".img"**-format. D
 
 
 
-- [Last ned balenaEtcher] (https://etcher.balena.io/)
+- [Last ned balenaEtcher](https://etcher.balena.io/)
 
 
 

@@ -97,7 +97,7 @@ Select your wallet hardware. In this example, we're using a Coldcard MK4.
 Below you will find our tutorial for this wallet hardware:
 
 
-https://planb.academy/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.academy/tutorials/wallet/hardware/coldcard-mk4-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
 
 For a Coldcard, you need to export the public keys from the wallet hardware either via a USB connection or a microSD card.
 

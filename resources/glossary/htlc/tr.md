@@ -1,5 +1,6 @@
 ---
 term: HTLC
+definition: Bir transferi, bir sırrın zaman sınırı içinde ifşa edilmesine bağlayan akıllı sözleşme.
 ---
 
 "*Hashed Timelock Contract*" anlamına gelir. Bu, çoğunlukla Lightning'de kullanılan bir Smart contract mekanizmasıdır. Bazen atomik takaslarda da bulunur. Temel olarak, HTLC bir para transferini bir sırrın açığa çıkmasına bağlı hale getirir ve ayrıca başarısız bir işlem durumunda gönderenin parasını korumak için bir zaman koşulu içerir.

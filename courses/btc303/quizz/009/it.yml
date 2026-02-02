@@ -1,9 +1,9 @@
-question: Che cosa identifica Gregory Maxwell come un rischio maggiore per la Bitcoin rispetto agli attacchi del 51%?
-answer: Persone che non capiscono o non proteggono le proprietà di decentralizzazione del Bitcoin
+question: Che cosa identifica Gregory Maxwell come un rischio maggiore per Bitcoin rispetto agli attacchi del 51%?
+answer: Che le ersone non capiscano o non proteggano le proprietà di decentralizzazione di Bitcoin
 wrong_answers:
-  - I minatori concentrano troppa potenza di calcolo in un unico luogo
-  - Regolamenti governativi che impediscono le operazioni Bitcoin mining
-  - "Vulnerabilità tecniche negli algoritmi crittografici del Bitcoin"
+  - I miner concentrano troppa potenza di calcolo in un unico luogo
+  - Regolamenti governativi che impediscono le operazioni di Bitcoin mining
+  - Vulnerabilità tecniche negli algoritmi crittografici di Bitcoin
 explanation: |
-  Secondo il post di Gregory Maxwell su Reddit citato nel capitolo, mentre gli attacchi del 51% sono un problema teorico, il rischio molto più grande è che gli utenti del Bitcoin non capiscano, non si preoccupino e non proteggano le proprietà di decentralizzazione che rendono il Bitcoin prezioso rispetto alle alternative centralizzate. Questo perché la decentralizzazione è ciò che garantisce la resistenza alla censura del Bitcoin, il suo elemento di differenziazione principale rispetto ai sistemi monetari tradizionali. Se le persone non proteggono attivamente queste proprietà, il Bitcoin potrebbe gradualmente diventare centralizzato fino a quando la censura diventerà possibile, distruggendo la maggior parte della sua proposta di valore. Le altre opzioni, pur essendo potenziali preoccupazioni, non sono quelle che Maxwell ha specificamente identificato come la minaccia maggiore per il successo a lungo termine del Bitcoin.
-reviewed: false
+  Secondo il post di Gregory Maxwell su Reddit citato nel capitolo, mentre gli attacchi del 51% sono un problema teorico, il rischio molto più grande è che gli utenti di Bitcoin non capiscano, non si preoccupino e non proteggano le proprietà di decentralizzazione che rendono Bitcoin prezioso rispetto alle alternative centralizzate. Questo perché la decentralizzazione è ciò che garantisce la resistenza alla censura di Bitcoin, il suo elemento di differenziazione principale rispetto ai sistemi monetari tradizionali. Se le persone non proteggono attivamente queste proprietà, Bitcoin potrebbe gradualmente diventare centralizzato fino a quando la censura diventerà possibile, distruggendo la maggior parte della sua proposta di valore. Le altre opzioni, pur essendo potenziali preoccupazioni, non sono quelle che Maxwell ha specificamente identificato come la minaccia maggiore per il successo a lungo termine di Bitcoin.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Vilket protokoll är Tailscale baserat på?
+answer: WireGuard
+wrong_answers:
+  - OpenVPN
+  - IPsec IKEv2
+  - PPTP
+explanation: |
+  Tailscale är en VPN-lösning baserad på WireGuard.
+reviewed: false

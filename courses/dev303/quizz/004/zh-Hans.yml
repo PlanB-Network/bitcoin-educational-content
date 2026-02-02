@@ -1,0 +1,8 @@
+question: 在 Rust 中，需要使用什么关键字才能使变量在初始声明后可以修改？
+answer: 突变
+wrong_answers:
+  - 变异
+  - 可变
+  - 改变
+explanation: |
+  在 Rust 中，必须使用 "mut "关键字才能将变量声明为可变变量，允许在初始赋值后更改其值。出于安全考虑，Rust 中的所有变量默认都是不可变的。可变变量的语法是 "let mut x = 5"，不可变变量的语法是 "let x = 5"。其他选项如 "var"、"mutable "和 "change "都不是 Rust 的有效关键字。

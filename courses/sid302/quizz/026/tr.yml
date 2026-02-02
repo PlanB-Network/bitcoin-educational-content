@@ -1,0 +1,8 @@
+question: Blockstream AMP Sürüm 1 ve Sürüm 2 arasında işlem yapısı ve düğüm gereksinimleri açısından temel mimari fark nedir?
+answer: Sürüm 2, karmaşıklığı işlem yapımını gerçekleştiren ve düzenleyicilere PSET'leri sunan sunucuya kaydırarak full node senkronizasyonuna olan ihtiyacı ortadan kaldırır
+wrong_answers:
+  - Versiyon 2, ihraççıların yedeklilik için birden fazla senkronize Elements düğümü çalıştırmasını gerektirirken, Versiyon 1 yalnızca tek bir düğüm bağlantısı gerektirmektedir
+  - Versiyon 1 tüm imzalama işlemlerini sunucu altyapısında gerçekleştirirken, Versiyon 2 tüm kriptografik işlemleri istemci tarafı donanım cüzdanlarına taşır
+  - Versiyon 2, ortak imza gerekliliğini tamamen ortadan kaldırır ve doğrudan eşler arası transferlere izin verirken, Versiyon 1 her işlem için sunucu yetkilendirmesi gerektiriyordu
+explanation: |
+  AMP Versiyon 1'den Versiyon 2'ye geçiş, 'akıllı istemci, karmaşık altyapı' modelinden 'akıllı sunucu, basitleştirilmiş istemci' yaklaşımına temel bir geçişi temsil etmektedir. Versiyon 1, ihraççıların tamamen senkronize Elements düğümlerini muhafaza etmelerini ve monolitik Green SDK'ya büyük ölçüde güvenmelerini gerektirerek yüksek teknik engeller yaratmıştır. Versiyon 2 karmaşıklığı sunucu tarafına taşır; AMP sunucusu işlem oluşturma, UTXO seçimi ve ücret hesaplama işlemlerini gerçekleştirir ve ardından ihraççılara yalnızca imza gerektiren Kısmen İmzalı Elements İşlemleri (PSET'ler) sunar. Bu, tam düğümlere olan ihtiyacı ortadan kaldırır ve standart wallet entegrasyonlarını mümkün kılar.

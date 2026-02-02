@@ -1,5 +1,6 @@
 ---
 term: P2TR
+definition: Bir genel anahtar veya Merkle betikleri aracılığıyla harcamaya izin veren Taproot betiği, bc1p adresleri.
 ---
 
 P2TR, UTXO (Harcanmamış İşlem Çıktısı) üzerinde harcama koşulları oluşturmak için kullanılan standart bir senaryo modeli olan *Taproot'e Öde* anlamına gelir. Kasım 2021'de Taproot'in uygulanmasıyla birlikte tanıtılmıştır. P2TR, kriptografik anahtarları bir araya getirmek için Schnorr protokolünün yanı sıra MAST (*Merkelized Alternative Script Tree*) olarak bilinen alternatif senaryolar için Merkle ağaçlarını kullanır. Harcama koşullarının kamuya açık olduğu geleneksel işlemlerin aksine (bazen alım sırasında, bazen de harcama sırasında), P2TR karmaşık senaryoların tek bir görünür açık anahtarın arkasına gizlenmesine olanak tanır.

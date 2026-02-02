@@ -1,10 +1,10 @@
-question: Wat betekent de Boltzmann score in de context van Bitcoin transacties?
-answer: De voorwaardelijke waarschijnlijkheid dat een ingang gekoppeld is aan een bepaalde uitgang.
+question: Wat betekent de Boltzmann-score in de context van Bitcoin transacties?
+answer: De voorwaardelijke waarschijnlijkheid dat een input gekoppeld is aan een bepaalde output.
 wrong_answers:
   - Het totale bedrag aan Bitcoins dat is overgedragen.
-  - Het aantal ingangen in een transactie.
-  - De entropie gerelateerd aan elke ingang of uitgang.
+  - Het aantal inputs in een transactie.
+  - De entropie gerelateerd aan elke input of output.
 explanation: |
-  De Boltzmann score geeft de voorwaardelijke waarschijnlijkheid aan dat een specifieke input gekoppeld is aan een bepaalde output. Het is dus een kwantitatieve maat voor de voorwaardelijke waarschijnlijkheid dat een associatie tussen een input en een output in een transactie optreedt, gebaseerd op de verhouding van het aantal gunstige voorvallen van deze gebeurtenis ten opzichte van het totale aantal mogelijke voorvallen in een reeks interpretaties.
+  De Boltzmann-score geeft de voorwaardelijke waarschijnlijkheid aan dat een specifieke input gekoppeld is aan een bepaalde output. Het is dus een kwantitatieve maat voor de voorwaardelijke waarschijnlijkheid dat een associatie tussen een input en een output in een transactie optreedt, gebaseerd op de verhouding van het aantal gunstige voorvallen van deze gebeurtenis ten opzichte van het totale aantal mogelijke voorvallen in een reeks interpretaties.
   
 reviewed: false

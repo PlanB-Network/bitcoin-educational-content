@@ -6,4 +6,4 @@ wrong_answers:
   - Kunci anak biasa lebih aman daripada kunci anak yang diperkuat.
 explanation: |
   Kunci anak biasa dapat diturunkan dari kunci publik orang tua, tidak seperti kunci anak yang diperkuat yang memerlukan kunci privat orang tua.
-ditinjau: false
+ditinjau: true

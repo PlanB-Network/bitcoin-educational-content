@@ -1,0 +1,8 @@
+question: Vilken typ av fel bör utlösa en panik i Rust-program?
+answer: Fel som inte kan återställas och som indikerar fel i programmeringslogiken eller osäkra tillstånd
+wrong_answers:
+  - Fel i nätverksanslutningen eller timeout-fel från externa tjänster
+  - Ogiltig användarinmatning eller saknade konfigurationsfiler
+  - Felet Fil hittades inte eller undantag för nekad behörighet
+explanation: |
+  Panik bör reserveras för oåterkalleliga fel som representerar programmeringsmissar eller situationer där programmet har gått in i ett osäkert tillstånd, t.ex. överträdelser av arraygränser eller minnessäkerhetsproblem. De felaktiga svaren beskriver alla återställbara fel - nätverksfel, problem med användarinmatning och filsystemsproblem är förväntade förhållanden som programmen bör hantera på ett elegant sätt med Result-typer i stället för att krascha. Dessa återställbara fel gör att programmen kan fortsätta att köras genom att implementera lämpliga felhanteringsstrategier.

@@ -1,0 +1,8 @@
+question: Od czego zależy wysokość opłaty transakcyjnej w transakcji Bitcoin podczas procesu budowy?
+answer: Różnica między całkowitą wartością wszystkich danych wejściowych a całkowitą wartością wszystkich danych wyjściowych
+wrong_answers:
+  - Stały procent całkowitej wartości transakcji obliczony przez protokół sieciowy
+  - Rozmiar transakcji w bajtach pomnożony przez standardową stawkę ustaloną przez górników
+  - Liczba wymaganych podpisów na wszystkich wejściach plus podstawowa opłata sieciowa
+explanation: |
+  Opłaty transakcyjne Bitcoin są określane na podstawie różnicy między całkowitymi danymi wejściowymi i całkowitymi danymi wyjściowymi. Podczas konstruowania transakcji wybierasz UTXO jako dane wejściowe i tworzysz dane wyjściowe dla odbiorców i zmiany. Każda pozostała kwota staje się opłatą, która zachęca górników do uwzględnienia transakcji. Opłata nie jest obliczana na podstawie wartości procentowej, stałych stawek lub liczby podpisów - jest to po prostu to, co pozostaje nieprzydzielone w saldzie wartości transakcji.

@@ -1,0 +1,9 @@
+question: Quel était le pseudonyme du créateur originel du jeu de dés en ligne SatoshiDICE ?
+answer: Fireduck
+wrong_answers:
+  - Evoorhees
+  - Tuxavant
+  - Hippich
+explanation: |
+ Joseph Gleason, alias Fireduck, était un développeur américain de 30 ans. Après avoir programmé quelques outils logiciels pour Bitcoin, il a mis au point le casino de bitcoins SatoshiDICE (qui se présentait comme un jeu de dés) le 9 avril 2012. Quelques semaines plus tard, il a vendu la plateforme à Erik Voorhees (Evoorhees) pour 40 bitcoins, soit environ 200 $.
+reviewed: false

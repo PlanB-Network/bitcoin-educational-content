@@ -1,0 +1,8 @@
+question: ¿Cuál es la principal ventaja de utilizar el formato SEC comprimido frente al formato SEC sin comprimir para las claves públicas de Bitcoin?
+answer: Reduce el tamaño de almacenamiento de 65 bytes a 33 bytes manteniendo la misma seguridad criptográfica
+wrong_answers:
+  - Proporciona mayor seguridad criptográfica al utilizar capas de cifrado adicionales
+  - Permite acelerar las operaciones de multiplicación de puntos durante los procesos de verificación de firmas
+  - Permite obtener varias claves públicas a partir de un único formato comprimido
+explanation: |
+  El formato SEC comprimido reduce el tamaño de la clave pública de 65 bytes (sin comprimir) a 33 bytes al almacenar sólo la coordenada x y un bit de paridad (prefijo 0x02 o 0x03) en lugar de las dos coordenadas completas. La coordenada y puede reconstruirse matemáticamente a partir de la coordenada x y la información de paridad, ya que las curvas elípticas tienen como máximo dos valores y para cualquier x dada. Esta compresión supone un importante ahorro de almacenamiento sin pérdida de seguridad, razón por la que Bitcoin prefiere ahora las claves comprimidas por eficiencia.

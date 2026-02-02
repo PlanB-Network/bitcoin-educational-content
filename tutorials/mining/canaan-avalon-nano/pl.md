@@ -75,17 +75,18 @@ Poniżej znajduje się tabela podsumowująca ogólne specyfikacje techniczne Nan
 
 
 
-| Caractéristique                                      | Valeur                                                  |
+
+| Cecha                                      | Wartość                                                  |
 | ---------------------------------------------------- | ------------------------------------------------------- |
-| Taux de hachage                                      | 6 Th/s +- 5%                                            |
-| Consommation d'énergie                               | 140 W                                                   |
-| Bruit                                                | 30 - 40 dB                                              |
-| Plage de température de sortie d'air                 | 60-70°C (sous température ambiante 25°C)                |
-| Exigences de température ambiante pour l'utilisation | de -5 à 30°C                                            |
-| Plage d'entrée de l'appareil                         | 28V 5A continu                                          |
-| Plage d'entrée de l'adaptateur                       | 110-240V AC 50/60Hz                                     |
-| Taille de la machine                                 | Longueur: 205 mm /  Largeur: 115 mm / Hauteur:  58.5 mm |
-| Poids de la machine                                  | 0.86 kg                                                 |
+| Szybkość haszowania                                      | 6 Th/s +- 5%                                            |
+| Zużycie energii                               | 140 W                                                   |
+| Hałas                                                | 30 - 40 dB                                              |
+| Zakres temperatury powietrza wylotowego                 | 60-70°C (przy temperaturze otoczenia 25°C)                |
+| Wymagania dotyczące temperatury otoczenia do użytku | -5 do 30°C                                            |
+| Zakres napięcia wejściowego urządzenia                         | 28V 5A ciągły                                          |
+| Zakres napięcia wejściowego adaptera                       | 110-240V AC 50/60Hz                                     |
+| Rozmiar urządzenia                                 | Długość: 205 mm / Szerokość: 115 mm / Wysokość: 58.5 mm |
+| Waga urządzenia                                  | 0.86 kg                                                 |
 
 ## Włączanie zasilania i łączenie z siecią lokalną
 

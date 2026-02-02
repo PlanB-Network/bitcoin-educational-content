@@ -1,5 +1,6 @@
 ---
-term: KÓD BCH
+term: BCH kód
+definition: Kódy pro opravu chyb používané v adresách Bech32 a Bech32m k detekci chyb při zadávání.
 ---
 
 Třída kódů pro opravu chyb, které se používají k detekci a opravě chyb v datové posloupnosti. Jinými slovy, kódy pro opravu chyb BCH se používají k vyhledávání a opravě náhodných chyb v přenášených informacích, aby se zajistilo, že informace dorazí do cíle v neporušeném stavu. Zkratka "BCH" znamená iniciály jmen vynálezců těchto kódů: Bose, Ray-Chaudhuri a Hocquenghem.

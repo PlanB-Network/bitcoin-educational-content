@@ -300,7 +300,7 @@ Vì vậy, tôi chỉ cần thêm từ **đóng góp** vào những dòng như t
 
 
 
-Các bước còn lại được liệt kê trên trang web [NtopNG] (https://packages.ntop.org/apt/), tại đó, đối với Debian 11, bạn cần thêm nguồn Ntop để cài đặt trong tương lai. Việc bổ sung này được tự động hóa bằng cách sử dụng lệnh:
+Các bước còn lại được liệt kê trên trang web [NtopNG](https://packages.ntop.org/apt/), tại đó, đối với Debian 11, bạn cần thêm nguồn Ntop để cài đặt trong tương lai. Việc bổ sung này được tự động hóa bằng cách sử dụng lệnh:
 
 
 

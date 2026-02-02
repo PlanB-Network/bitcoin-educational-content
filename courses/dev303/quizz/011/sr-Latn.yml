@@ -1,0 +1,8 @@
+question: Koja je primarna prednost Rust pristupa bezbednosti memorije u vreme kompajliranja u poređenju sa sakupljanjem smeća?
+answer: Eliminiše troškove izvršavanja i nepredvidive prekide u performansama
+wrong_answers:
+  - Koristi više memorije, ali pruža bolje sigurnosne garancije
+  - Za pisanje je potrebno manje koda, ali radi sporije od prikupljanja smeća.
+  - Sprečava sve greške u izvršavanju, ali koristi više CPU-a tokom izvršavanja.
+explanation: |
+  Rust-ov pristup bezbednosti memorije u vreme kompajliranja analizira kod tokom kompajliranja kako bi osigurao bezbednost memorije bez ikakvih troškova u vreme izvršavanja. Za razliku od prikupljanja smeća koje se koristi u jezicima kao što su Java i Go, a koje uvodi opterećenje performansi i može izazvati nepredvidive pauze tokom izvršavanja programa, Rust-ov sistem nema uticaj na vreme izvršavanja. Ostale opcije su netačne jer Rust zapravo koristi memoriju efikasnije (ne više), ne radi sporije (radi brže bez provera u vreme izvršavanja) i ne koristi više CPU-a tokom izvršavanja (posao se obavlja u vreme kompajliranja).

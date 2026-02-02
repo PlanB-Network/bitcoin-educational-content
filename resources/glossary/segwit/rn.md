@@ -1,5 +1,6 @@
 ---
-term: SegWit
+term: Segwit
+definition: Isubiranyuma ryo mu 2017 ryatandukanije ibigikumu kugira ngo ryongere ubushobozi kandi rikureho ikibazo ca malleability.
 ---
 
 SegWit, ni ijambo ry'inyongera risobanura "Icabona gitandukanye," ni ivugurura ry'amasezerano ya Bitcoin yashizweho muri Myandagaro 2017. Agamije gutorera umuti ibibazo vyinshi vy'ubuhinga, harimwo ingorane y'ubushobozi bwo gukorana n'urubuga, ikibazo c'ubushobozi bwo gukorana, no kworohereza amasezerano azohindurwa muri kazoza.

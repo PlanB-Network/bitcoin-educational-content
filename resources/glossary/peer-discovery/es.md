@@ -1,6 +1,7 @@
 ---
-term: PEER DISCOVERY
+term: Descubrimiento de pares
 
+definition: Proceso por el cual un nodo Bitcoin descubre y se conecta a otros nodos de la red.
 ---
 Proceso por el que los nodos de la red Bitcoin se conectan a otros nodos para obtener información. Cuando un nodo Bitcoin se lanza por primera vez, no tiene información sobre otros nodos de la red. Sin embargo, debe establecer conexiones para sincronizarse con la blockchain que tenga más trabajo acumulado. Para descubrir a estos pares se utilizan varios mecanismos, por orden de prioridad:
 

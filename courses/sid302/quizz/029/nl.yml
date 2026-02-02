@@ -1,0 +1,8 @@
+question: Welke fundamentele trade-off moeten investeerders accepteren als ze deelnemen aan Blockstream AMP asset ecosystemen in vergelijking met standaard Liquid Network transacties?
+answer: Volledige zichtbaarheid van hun bezittingen en transactiegeschiedenis voor de emittent van de activa, ondanks het behoud van privacy voor andere gebruikers
+wrong_answers:
+  - Hogere transactiekosten door de extra computationele overhead die nodig is voor medeondertekenende autorisatiemechanismen
+  - Lagere transactiesnelheid omdat alle transfers moeten worden gevalideerd door gecentraliseerde compliance servers voordat ze worden bevestigd
+  - Beperkte overdraagbaarheid van activa omdat AMP-tokens alleen kunnen worden verzonden naar vooraf goedgekeurde portemonnees binnen dezelfde regelgevende jurisdictie
+explanation: |
+  Het juiste antwoord identificeert de kern van de privacy-ruil van AMP: terwijl Confidential Transactions de privacy van gebruiker tot gebruiker behoudt, geven AMP-activa emittenten volledige unblinded zichtbaarheid voor naleving van de regelgeving. De foute antwoorden beschrijven operationele beperkingen (kosten, snelheid, overdraagbaarheid) in plaats van het fundamentele transparantiecompromis dat AMP onderscheidt van het standaard volledig vertrouwelijke Liquid-model.

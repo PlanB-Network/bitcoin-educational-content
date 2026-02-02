@@ -1,0 +1,8 @@
+question: LDK'nın kalıcılık katmanı tasarımı ile platformlar arası dağıtım esnekliği sağlayan geleneksel Lightning node veri yönetimi arasındaki kritik fark nedir?
+answer: LDK depolama için soyut ikili veri blobları sağlarken, uygulamalar kendi depolama mekanizmalarını uygular
+wrong_answers:
+  - Geleneksel düğümler özel dosya sistemi uygulamaları gerektirirken LDK standartlaştırılmış SQL veritabanları kullanır
+  - Geleneksel düğümler verileri yalnızca yerel olarak depolarken LDK verileri birden fazla platformda otomatik olarak senkronize eder
+  - LDK tüm kalıcılık verilerini varsayılan olarak şifrelerken, geleneksel düğümler uygulama düzeyinde şifrelemeye güvenir
+explanation: |
+  LDK'nın kalıcılık katmanı, Yıldırım kanalı durumlarını ve ağ verilerini dahili olarak serileştirmenin tüm karmaşıklığını ele alırken, uygulamalara güvenilir bir şekilde depolanması ve alınması gereken serileştirilmiş ikili veri blobları sağlayarak depolamayı soyutlar. Bu, uygulamaların platform gereksinimlerine uyan herhangi bir depolama çözümünü (dosya sistemleri, bulut depolama, veritabanları) seçmelerine olanak tanır. Geleneksel Lightning düğümleri tipik olarak belirli depolama mekanizmalarına bağlı kendi özel veri yönetim sistemlerini uygular ve bu da onları farklı dağıtım ortamlarında daha az esnek hale getirir.

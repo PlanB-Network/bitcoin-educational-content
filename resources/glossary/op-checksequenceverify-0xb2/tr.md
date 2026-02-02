@@ -1,5 +1,6 @@
 ---
 term: OP_CHECKSEQUENCEVERIFY (0XB2)
+definition: Bir UTXO'nun harcanması üzerinde göreceli bir zaman kısıtlaması getiren işlem kodu.
 ---
 
 Bu özelliklerden herhangi birinin gözlemlenmesi durumunda işlemi geçersiz kılar:

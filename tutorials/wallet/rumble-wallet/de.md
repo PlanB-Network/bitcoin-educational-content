@@ -6,7 +6,7 @@ description: Schließen Sie sich den Urhebern an, die die Redefreiheit durch fin
 ![cover](assets/cover.webp)
 
 
-Sie kennen wahrscheinlich [Rumble] (https://rumble.com/), die 2013 gegründete Online-Videoplattform, die sich nach und nach als unabhängige Alternative zu Big Tech etabliert hat. Rumble ist bekannt für sein Engagement für die freie Meinungsäußerung und sein Ziel, Urhebern einen Raum frei von Zensur und Abhängigkeit von großen zentralisierten Infrastrukturen zu bieten, und hat ein komplettes Ökosystem aufgebaut. Heute unternimmt Rumble mit der Einführung von [**Rumble Wallet**] (https://wallet.rumble.com/), einer wallet-Anwendung, die in Zusammenarbeit mit Tether entwickelt wurde, einen neuen Schritt in den Finanzbereich.
+Sie kennen wahrscheinlich [Rumble](https://rumble.com/), die 2013 gegründete Online-Videoplattform, die sich nach und nach als unabhängige Alternative zu Big Tech etabliert hat. Rumble ist bekannt für sein Engagement für die freie Meinungsäußerung und sein Ziel, Urhebern einen Raum frei von Zensur und Abhängigkeit von großen zentralisierten Infrastrukturen zu bieten, und hat ein komplettes Ökosystem aufgebaut. Heute unternimmt Rumble mit der Einführung von [**Rumble Wallet**](https://wallet.rumble.com/), einer wallet-Anwendung, die in Zusammenarbeit mit Tether entwickelt wurde, einen neuen Schritt in den Finanzbereich.
 
 
 Das Ziel ist klar: die Kombination von Meinungsfreiheit und finanzieller Freiheit. Während Rumble die unzensierte Online-Verbreitung von Inhalten fördert, zielt Rumble Wallet darauf ab, Urhebern und Nutzern ein schnelles, souveränes, nicht-rechtsstaatliches Zahlungssystem zu bieten. In der Praxis bedeutet dies, dass Sie die volle Kontrolle über Ihre privaten Schlüssel - und damit über Ihr Geld - behalten, ohne sich auf eine Bank, einen Zahlungsabwickler oder eine Drittplattform verlassen zu müssen: weniger Risiken, niedrigere Gebühren und keine Verzögerungen bei der Auszahlung.
@@ -27,7 +27,7 @@ Dank einer Partnerschaft mit MoonPay ist es auch möglich, Bitcoin und andere Kr
 ## 2. Wie wird Rumble Wallet installiert?
 
 
-Die Anwendung kann sowohl auf [Android] (https://play.google.com/store/apps/details?id=com.wallet.rumble) als auch auf iOS über die jeweiligen offiziellen Stores installiert werden.
+Die Anwendung kann sowohl auf [Android](https://play.google.com/store/apps/details?id=com.wallet.rumble) als auch auf iOS über die jeweiligen offiziellen Stores installiert werden.
 
 
 ![Image](assets/fr/01.webp)
@@ -285,7 +285,7 @@ Auf die gleiche Weise können Sie Ihre Bitcoins gegen Euro, Dollar oder eine and
 ## 7. Kippen eines Schöpfers auf Rumble
 
 
-Wie bereits in der Einleitung erwähnt, ist Rumble Wallet perfekt mit [der Rumble-Videoplattform] (https://rumble.com/) integriert. So können Sie ganz einfach Tipps in Bitcoin oder USDT an Ihre Lieblingsschöpfer senden, ohne dass Sie einen Zwischenweg einlegen müssen.
+Wie bereits in der Einleitung erwähnt, ist Rumble Wallet perfekt mit [der Rumble-Videoplattform](https://rumble.com/) integriert. So können Sie ganz einfach Tipps in Bitcoin oder USDT an Ihre Lieblingsschöpfer senden, ohne dass Sie einen Zwischenweg einlegen müssen.
 
 
 Dazu müssen Sie die Funktion ***Tip Jars*** aktivieren. Klicken Sie auf der Homepage des Rumble Wallet auf die Schaltfläche "*Tip Jars aktivieren*".

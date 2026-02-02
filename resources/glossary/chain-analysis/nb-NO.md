@@ -1,6 +1,7 @@
 ---
-term: KJEDEANALYSE
+term: Kjedeanalyse
 
+definition: Praksis med å spore bitcoin-strømmer på blokkjeden ved bruk av heuristikk og mønstre.
 ---
 Praksis som omfatter alle metoder som brukes til å spore strømmen av bitcoins i blokkjeden. Kjedeanalyse baserer seg vanligvis på observasjon av karakteristikker i eksempler på tidligere transaksjoner. Deretter handler det om å identifisere de samme kjennetegnene i en transaksjon som man ønsker å analysere, og utlede plausible tolkninger. Denne problemløsningsmetoden, som er basert på en praktisk tilnærming for å finne en tilstrekkelig god løsning, kalles en heuristikk. For å forenkle gjøres kjedeanalysen i to hovedtrinn:
 

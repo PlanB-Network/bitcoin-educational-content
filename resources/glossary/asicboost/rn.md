@@ -1,5 +1,6 @@
 ---
-term: ASICBOOST
+term: Asicboost
+definition: Icyuma cyimvugo cyemeza kunimba ubusobozi bwikinini igipimo cy'20% kohereza ibigambi byahashi bimwe ubwiyunge bwabantu.
 ---
 
 ASICBOOST ni uburyo bwo gutuma ubuhinga bugenda neza bwavumbuwe mu 2016, bugenewe gutuma Bitcoin Mining ikora neza hafi 20% mu kugabanya umubare w’imibare isabwa ku kigeragezo cose co gukora hashing y’umutwe w’ibarabara. Ubu buhinga bukoresha ikintu kimwe c’igikorwa ca SHA256 Hash, gikoreshwa kuri Mining, gikora amakuru mu bice. AsicBoost igumya kimwe muri ivyo bice bitahindutse mu ngeragezo nyinshi zo gukora hashing, bituma abacukuzi basubira gukoresha igice c'imibare ya kera, gutyo bikagabanya umubare wose w'imibare ikenewe kugira ngo umuntu aronke Hash ibereye.

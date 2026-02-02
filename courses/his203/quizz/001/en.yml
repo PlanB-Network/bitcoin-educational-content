@@ -1,0 +1,10 @@
+question: What political philosophy theorized by Samuel Edward Konkin III particularly influenced Ross Ulbricht in the creation of Silk Road?
+answer: Agorism
+wrong_answers:
+  - Minarchism
+  - Classical liberalism
+  - Librism
+explanation: |
+ It's a political philosophy advocating the practice of the black market (which Konkin calls the "counter-economy") as a peaceful means of reducing the influence 
+ of the state. Ross Ulbricht acknowledged the affiliation with agorism in a March 2012 post on the Silk Road forum.
+reviewed: true

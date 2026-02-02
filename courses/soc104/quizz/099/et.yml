@@ -1,0 +1,9 @@
+question: Milline põhimõtteline lähenemine eristab Eric Hughesi Cypherpunk manifesti kohaselt salakirjanikke neist, kes pelgalt loodavad eraelu puutumatuse kaitsele?
+answer: Nad kirjutavad aktiivselt koodi, et luua krüptosüsteeme, selle asemel, et oodata, et institutsioonid pakuksid privaatsust
+wrong_answers:
+  - Nad keskenduvad poliitilisele lobitööle ja õigusreformidele, et kehtestada põhiseaduslikud õigused eraelu puutumatusele
+  - Nad seavad prioriteediks avalikkuse harimise järelevalveriskide kohta akadeemiliste uuringute ja väljaannete kaudu
+  - Nad töötavad olemasolevates finantsasutustes, et järk-järgult rakendada eraelu puutumatust säilitavaid tehnoloogiaid
+explanation: |
+  Eric Hughes sõnas selgesõnaliselt, et "Cypherpunks kirjutavad koodi" on nende määratlev metoodika. Manifestis rõhutatakse, et cypherpunks ei oota, et valitsused, korporatsioonid või muud organisatsioonid pakuksid eraelu puutumatuse kaitset.
+  Selle asemel tegutsevad nad otse, luues krüptograafilisi vahendeid ja detsentraliseeritud süsteeme. Selline aktiivne ehituslik lähenemine, mitte passiivne lootus või institutsionaalne reform, sai aluseks uuendustele nagu Bitcoin, mis kehastas nende filosoofiat alternatiivsete süsteemide ehitamisest väljaspool traditsioonilisi jõustruktuure.

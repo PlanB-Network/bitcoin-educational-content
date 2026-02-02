@@ -1,6 +1,7 @@
 ---
 term: P2SH-P2WPKH
 
+definition: SegWit-skripti (P2WPKH) käärittynä P2SHhon yhteensopivuuden vuoksi, osoitteet alkavat numerolla 3.
 ---
 P2SH-P2WPKH tarkoittaa *Pay to Script Hash - Pay to Witness Public Key Hash*. Se on vakioskriptimalli, jota käytetään UTXO:n käyttöehtojen luomiseen, joka tunnetaan myös nimellä "Nested SegWit".
 

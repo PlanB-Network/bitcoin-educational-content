@@ -344,7 +344,7 @@ Kemudian ikuti langkah 3 dan 4 di bagian macOS.
 
 
 
-Pertama-tama instal Rust melalui [rustup.rs] (https://rustup.rs/), kemudian gunakan PowerShell :
+Pertama-tama instal Rust melalui [rustup.rs](https://rustup.rs/), kemudian gunakan PowerShell :
 
 
 
@@ -368,7 +368,7 @@ Konfigurasi yang sama: salin `.env-sample` ke `.env` dan isi parameter Anda.
 
 
 
-**Langkah 1**: Buka [halaman rilis GitHub] (https://github.com/MostroP2P/mobile/releases) dan unduh file **app-release.apk** (sekitar 65 MB).
+**Langkah 1**: Buka [halaman rilis GitHub](https://github.com/MostroP2P/mobile/releases) dan unduh file **app-release.apk** (sekitar 65 MB).
 
 
 
@@ -963,7 +963,7 @@ Bagi para pengguna bitcoin yang lebih memilih otonomi dan kerahasiaan, Mostro me
 
 - [Repositori GitHub utama](https://github.com/MostroP2P/mostro)
 - [Klien web](https://github.com/MostroP2P/mostro-web)
-- [Pelanggan CLI] (https://github.com/MostroP2P/mostro-cli)
+- [Pelanggan CLI](https://github.com/MostroP2P/mostro-cli)
 
 
 

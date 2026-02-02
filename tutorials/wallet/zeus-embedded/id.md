@@ -38,7 +38,7 @@ Di sisi lain, menurut saya, saat ini tidak cocok untuk pemula yang tidak terbias
 
 
 
-Kunjungi [situs web proyek] (https://zeusln.com/) untuk mengunduh aplikasi untuk OS ponsel cerdas Anda:
+Kunjungi [situs web proyek](https://zeusln.com/) untuk mengunduh aplikasi untuk OS ponsel cerdas Anda:
 
 
 

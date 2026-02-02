@@ -1,9 +1,9 @@
 question: Ni ikihe ciyumviro c’amahera y’ubuhinga bwa none cavuzwe mu buryo butomoye na Satoshi Nakamoto mu gitabu cera ca Bitcoin?
-answer: b-amahera (Wei Dai)
+answer: b-money (Wei Dai)
 wrong_answers:
-  - inzahabu (Nick Szabo)
-  - RPOW (Hali Fini)
-  - Amafranga (Dawidi Chaum)
-explanation: |
+  - bit gold (Nick Szabo)
+  - RPOW (Hal Finney)
+  - eCash (David Chaum)
+explanation: 
   Ico ni co cari ikigereranyo ca mbere. Satoshi yarongeyeko muri Myandagaro 2008 akurikije ivyo yavuganye na Wei Dai.
 reviewed: true

@@ -1,0 +1,8 @@
+question: Wat is het primaire doel van Pedersen-verbintenissen in Elements' Confidential Transactions?
+answer: Zichtbare transactiebedragen vervangen door cryptografische verplichtingen die kunnen worden gevalideerd zonder de werkelijke waarden te onthullen
+wrong_answers:
+  - Naar generate unieke hexadecimale identifiers van 64 tekens voor nieuw uitgegeven activa op de Elements blockchain
+  - double-spending voorkomen door wiskundige bewijzen te maken dat verborgen waarden positieve gehele getallen zijn binnen geldige bereiken
+  - Om de overdracht van Bitcoin van de hoofdketen naar Elements zijketens mogelijk te maken via cryptografische peggingmechanismen
+explanation: |
+  Pedersen Commitments zijn de kern van het cryptografische mechanisme dat privacy in Confidential Transactions mogelijk maakt door zichtbare bedragen te vervangen door wiskundige commitments. Door hun homomorfe eigenschappen kunnen validators verifiëren dat inputs gelijk zijn aan outputs plus vergoedingen zonder de werkelijke waarden te zien. Range Proofs voorkomen negatieve bedragen, asset ID's identificeren tokens, en pegging mechanismen behandelen cross-chain transfers, maar geen van deze zijn specifiek de functie van Pedersen Commitments.

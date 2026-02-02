@@ -1,0 +1,8 @@
+question: Koliko često se generišu novi blokovi u Liquid Network?
+answer: Svake minute
+wrong_answers:
+  - Svakih 10 minuta
+  - Svakih 30 sekundi
+  - Svakih 5 minuta
+explanation: |
+  Liquid Network proizvodi blokove svake minute na deterministički round-robin način, što je mnogo brže i predvidljivije od Bitcoin-ovih probabilističkih intervala od 10 minuta. Ovo precizno jednominutno vreme je ključno za upotrebu mreže u slučajevima kao što su arbitraža i brzo međuburzovno poravnanje, pružajući brzinu potrebnu za institucionalne trgovačke operacije.

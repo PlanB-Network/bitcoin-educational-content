@@ -1,6 +1,7 @@
 ---
-term: DISKRET LOGARITME
+term: Diskret logaritme
 
+definition: Vanskelig matematisk problem som utgjør fundamentet for Bitcoins kryptografiske sikkerhet.
 ---
 Den diskrete logaritmen er et matematisk problem som brukes i noen kryptografiske algoritmer med offentlig nøkkel. I en syklisk gruppe av orden $q$, med en generator $g$, hvis man har en ligning av formen $g^x = h$, så kalles $x$ den diskrete logaritmen til $h$ med hensyn til basen $g$, modulo $q$. Enkelt sagt handler det om å bestemme eksponenten $x$ når $g$, $h$ og $q$ er kjent. Den diskrete logaritmen er dermed den inverse av eksponentialen i en endelig syklisk gruppe. For store verdier av $q$ anses det imidlertid som algoritmisk vanskelig å løse problemet med den diskrete logaritmen. Denne egenskapen utnyttes for å garantere sikkerheten i mange kryptografiske protokoller, for eksempel Diffie-Hellman-protokollen for nøkkelutveksling.
 

@@ -6,4 +6,4 @@ wrong_answers:
   - 7
 explanation: |
   IPv4 corresponde al valor 4 en el campo "Versión" de la cabecera IP.
-reviewed: false
+reviewed: true

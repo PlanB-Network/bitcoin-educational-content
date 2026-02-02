@@ -63,7 +63,7 @@ Mas escolher o Firefox é apenas o primeiro passo. Por defeito, até o Firefox n
 
 
 
-**Transferência oficial:** Aceda a [firefox.com/browsers/desktop] (https://www.firefox.com/en-US/browsers/desktop/). Nesta página, selecione o seu sistema operativo (Windows, macOS, Linux) para aceder à página de transferência adequada com instruções de instalação específicas.
+**Transferência oficial:** Aceda a [firefox.com/browsers/desktop](https://www.firefox.com/en-US/browsers/desktop/). Nesta página, selecione o seu sistema operativo (Windows, macOS, Linux) para aceder à página de transferência adequada com instruções de instalação específicas.
 
 
 

@@ -6,3 +6,4 @@ wrong_answers:
   - Panjang
 explanation: |
   Perubahan kecil pada masukan menghasilkan perubahan radikal pada hash, inilah yang disebut efek salju.
+reviewed: true

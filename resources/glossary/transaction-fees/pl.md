@@ -1,5 +1,6 @@
 ---
-term: OPŁATY TRANSAKCYJNE
+term: Opłaty transakcyjne
+definition: Kwota wynagradzająca górników za włączenie transakcji do bloku, obliczana jako różnica między wejściami a wyjściami.
 ---
 
 Opłaty transakcyjne stanowią sumę, która ma na celu zrekompensowanie górnikom ich udziału w mechanizmie Proof of Work. Opłaty te zachęcają górników do uwzględniania transakcji w tworzonych przez nich blokach. Wynikają one z różnicy między całkowitą ilością danych wejściowych a całkowitą ilością danych wyjściowych w transakcji:
@@ -28,4 +29,3 @@ W tym konkretnym przykładzie była to transakcja zainicjowana przez dyrektora F
 
 Konieczne jest również rozważenie limitów oczyszczania. W okresach dużego przeciążenia, mempoole węzłów oczyszczają swoje oczekujące transakcje poniżej pewnego progu, aby przestrzegać przydzielonego limitu pamięci RAM. Limit ten jest dowolnie wybierany przez użytkownika, ale wielu pozostawia domyślną wartość Bitcoin Core na poziomie 300 MB. Można go zmodyfikować w pliku `Bitcoin.conf` za pomocą parametru `maxmempool`.
 
-> w języku angielskim określamy je jako "opłaty transakcyjne"

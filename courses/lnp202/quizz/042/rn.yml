@@ -1,0 +1,9 @@
+question: Ni ikihe kibazo nyamukuru co gufunga ku nguvu?
+answer: Amafaranga yabujijwe n'igihe
+wrong_answers:
+  - Gutakaza igice c'amahera
+  - Ugusaza kw'urudodo rw'umuravyo
+  - Gusenyura urudodo rw'umuravyo
+explanation: |
+  Amahera arabuzwa n’igihe kandi amafaranga akenshi aba ari menshi.
+reviewed: false

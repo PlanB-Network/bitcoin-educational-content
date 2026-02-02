@@ -1,0 +1,8 @@
+question: Welche grundlegende Erkenntnis über die Einführung von Lightning hat Breez dazu veranlasst, von der Entwicklung einer einzelnen mobilen Anwendung zur Entwicklung einer SDK-Architektur überzugehen?
+answer: Das Ökosystem für mobile Anwendungen ermöglicht keine einfache Kommunikation zwischen Anwendungen und verhindert, dass spezialisierte Anwendungen die gemeinsame Lightning-Infrastruktur nutzen können
+wrong_answers:
+  - Mobile Geräte verfügen nicht über genügend Rechenleistung, um Lightning-Knoten zuverlässig zu betreiben, so dass eine Cloud-basierte Infrastruktur für den ordnungsgemäßen Betrieb erforderlich ist
+  - Die Einhaltung gesetzlicher Vorschriften erfordert, dass die Lightning-Funktionalität in SDKs zentralisiert und nicht auf einzelne mobile Anwendungen verteilt wird
+  - Untersuchungen der Nutzererfahrungen haben gezeigt, dass die Verbraucher es vorziehen, Lightning-Zahlungen über Drittanbieterdienste statt über einzelne Apps zu verwalten
+explanation: |
+  Die richtige Antwort identifiziert die zentrale architektonische Einschränkung, die durch die ursprüngliche Breez-App entdeckt wurde: Mobile Ökosysteme erlauben keine einfache Kommunikation zwischen Apps, was Entwickler dazu zwingt, alle Lightning-Funktionen in einzelne Apps zu integrieren, anstatt spezialisierte Anwendungen zu erstellen, die die Lightning-Infrastruktur gemeinsam nutzen. Diese Erkenntnis führte zu dem SDK-Ansatz, der es mehreren Apps ermöglicht, sich mit demselben Lightning-Knoten zu verbinden. Die falschen Antworten konzentrieren sich auf technische Einschränkungen, regulatorische Fragen oder Nutzerpräferenzen, aber das waren nicht die grundlegenden architektonischen Erkenntnisse, die den strategischen Wechsel zu einem SDK-Modell vorantrieben.

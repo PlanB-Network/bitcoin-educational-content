@@ -170,10 +170,10 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - För **Android**:
-    - Ladda ner [Blockstream App] (https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) från Google Play Store.
-    - Alternativ: Installera via APK-filen som finns på [Blockstreams officiella GitHub] (https://github.com/Blockstream/green_android).
+    - Ladda ner [Blockstream App](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) från Google Play Store.
+    - Alternativ: Installera via APK-filen som finns på [Blockstreams officiella GitHub](https://github.com/Blockstream/green_android).
 - För **iOS**:
-    - Ladda ner [Blockstream App] (https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) från App Store.
+    - Ladda ner [Blockstream App](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) från App Store.
 - **Obs**: Var noga med att ladda ner från officiella källor för att undvika bedrägliga applikationer.
 
 
@@ -430,10 +430,10 @@ https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 - Ordlista :
- - [Utökade publika nycklar] (https://planb.academy/fr/resources/glossary/extended-key)
- - [xpub] (https://planb.academy/fr/resources/glossary/xpub)
- - [ypub] (https://planb.academy/fr/resources/glossary/ypub)
- - [zpub] (https://planb.academy/fr/resources/glossary/zpub)
+ - [Utökade publika nycklar](https://planb.academy/fr/resources/glossary/extended-key)
+ - [xpub](https://planb.academy/fr/resources/glossary/xpub)
+ - [ypub](https://planb.academy/fr/resources/glossary/ypub)
+ - [zpub](https://planb.academy/fr/resources/glossary/zpub)
 - Kurs :
  - [Les clés publiques étendues](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f)
 

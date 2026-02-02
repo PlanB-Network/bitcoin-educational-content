@@ -1,0 +1,9 @@
+question: Koje zajedničke karakteristike dele Aqua i Bull Bitcoin Wallet?
+answer: Atomske zamene munje
+wrong_answers:
+  - Native Lightning kanali
+  - Centralizovano starateljstvo
+  - Integrisani Lightning čvor
+explanation: |
+  Ovi wallet koriste atomske zamene za plaćanje Lightning faktura bez direktnog korišćenja Lightning čvora na vašem telefonu i uz zadržavanje samostalnog starateljstva.
+reviewed: false

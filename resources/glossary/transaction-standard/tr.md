@@ -1,5 +1,6 @@
 ---
-term: IŞLEM STANDARDI
+term: Standart işlem
+definition: Hem konsensüs kurallarına hem de Bitcoin Core düğümlerinin varsayılan standartlaştırma kurallarına uyan işlem.
 ---
 
 Mutabakat kurallarına uymanın yanı sıra Bitcoin core düğümlerinde varsayılan olarak belirlenen standartlaştırma kurallarına da uyan bir Bitcoin işlemi. Bu standardizasyon kuralları, mutabakat kurallarına ek olarak, Mempool'de kabul ettiği ve eşlerine yayınladığı onaylanmamış işlemlerin yapısını tanımlamak için her Bitcoin düğümü tarafından ayrı ayrı uygulanır.

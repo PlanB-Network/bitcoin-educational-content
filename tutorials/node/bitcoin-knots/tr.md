@@ -38,7 +38,7 @@ Core yerine Knots gibi alternatif bir istemci kullanmanın iki ana nedeni vardı
 ## Bitcoin Düğümlerini nasıl kurabilirim?
 
 
-İşletim sisteminize uygun sürümü indirmek için [resmi Bitcoin Knots web sitesine] (https://bitcoinknots.org/#download) gidin. Yazılımı doğrulamak için parmak izini ve imzaları indirmeyi unutmayın. Bu dosyalar ayrıca [Bitcoin Knots GitHub deposunda](https://github.com/bitcoinknots/Bitcoin) da mevcuttur.
+İşletim sisteminize uygun sürümü indirmek için [resmi Bitcoin Knots web sitesine](https://bitcoinknots.org/#download) gidin. Yazılımı doğrulamak için parmak izini ve imzaları indirmeyi unutmayın. Bu dosyalar ayrıca [Bitcoin Knots GitHub deposunda](https://github.com/bitcoinknots/Bitcoin) da mevcuttur.
 
 
 ![Image](assets/fr/02.webp)
@@ -317,10 +317,11 @@ Bu değişiklikleri yaptıktan sonra yazılımı yeniden başlatmayı unutmayın
 Ardından Wallet yönetim yazılımınıza (örn. Sparrow wallet veya Liana) gidin ve işletim sisteminize bağlı olarak genellikle `Bitcoin.conf` ile aynı klasörde bulunan çerez dosyanızın yolunu girin:
 
 
-|**macOS**|~/Library/Application Support/Bitcoin|
-|---|---|
-|**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 
@@ -345,10 +346,11 @@ server=1
 Dosyayı düzenledikten sonra, işletim sisteminiz için uygun klasöre kaydettiğinizden emin olun:
 
 
+
 |**macOS**|~/Library/Application Support/Bitcoin|
 |---|---|
 |**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+|**Linux**|~/.bitcoin|
 
 Bu işlem Bitcoin-QT'nin Interface grafikleri üzerinden de gerçekleştirilebilir. "*Ayarlar*" menüsüne gidin, ardından "*Seçenekler...*" ve ilgili kutuyu işaretleyerek "*RPC sunucusunu etkinleştir*" seçeneğini etkinleştirin. Eğer `Bitcoin.conf` dosyası mevcut değilse, "*Open Configuration File*" seçeneğine tıklayarak doğrudan bu Interface'ten oluşturabilirsiniz.
 
@@ -356,7 +358,7 @@ Bu işlem Bitcoin-QT'nin Interface grafikleri üzerinden de gerçekleştirilebil
 ![Image](assets/fr/37.webp)
 
 
-Yerel ağınızda Bitcoin Knots'u barındıran makinenin IP Address'sini bulun. Bunu yapmak için [Angry IP Scanner] (https://angryip.org/) gibi bir araç kullanabilirsiniz. Tartışma adına, düğümünüzün IP Address'sinin `192.168.1.18` olduğunu varsayalım.
+Yerel ağınızda Bitcoin Knots'u barındıran makinenin IP Address'sini bulun. Bunu yapmak için [Angry IP Scanner](https://angryip.org/) gibi bir araç kullanabilirsiniz. Tartışma adına, düğümünüzün IP Address'sinin `192.168.1.18` olduğunu varsayalım.
 
 
 Bitcoin.conf` dosyasına aşağıdaki satırları ekleyin ve `rpcbind=192.168.1.18` değerini düğümünüzün IP Address'u ile eşleşecek şekilde ayarlayın.

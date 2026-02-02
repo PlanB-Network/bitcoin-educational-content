@@ -623,7 +623,7 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 
 ### Tapret
 
-L'ultima opzione è l'uso di **Taproot** (introdotto con BIP341) con lo schema *Tapret*. *Tapret* è una forma più complessa di impegno deterministico, che apporta miglioramenti in termini di ingombro sulla blockchain e di riservatezza per le operazioni contrattuali. L'idea principale è quella di nascondere l'impegno nella parte `Script Path Spend` di una [taproot transaction] (https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki).
+L'ultima opzione è l'uso di **Taproot** (introdotto con BIP341) con lo schema *Tapret*. *Tapret* è una forma più complessa di impegno deterministico, che apporta miglioramenti in termini di ingombro sulla blockchain e di riservatezza per le operazioni contrattuali. L'idea principale è quella di nascondere l'impegno nella parte `Script Path Spend` di una [taproot transaction](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki).
 
 ![RGB-Bitcoin](assets/en/036.webp)
 
@@ -818,7 +818,7 @@ mpc::Commitment = SHA-256(SHA-256(mpc_tag) || SHA-256(mpc_tag) || depth || cofac
 dove :
 
 
-- `mpc_tag` è un tag: `urn:ubideco:mpc:commitment#2024-01-31`, scelto in base alle [convenzioni di etichettatura RGB] (https://github.com/RGB-WG/rgb-core/blob/master/doc/Commitments.md);
+- `mpc_tag` è un tag: `urn:ubideco:mpc:commitment#2024-01-31`, scelto in base alle [convenzioni di etichettatura RGB](https://github.com/RGB-WG/rgb-core/blob/master/doc/Commitments.md);
 - `depth` (1 byte) indica la profondità dell'albero *MPC* ;
 - cofactor` (16 bit, in Little Endian) è un parametro utilizzato per promuovere l'unicità delle posizioni assegnate a ciascun contratto nell'albero;
 - `mpc::Root` è la radice di *MPC Tree*, calcolata secondo il processo descritto nella prossima sezione.
@@ -3171,7 +3171,7 @@ Può essere trasmesso a Bob tramite qualsiasi canale (testo, codice QR, ecc.).
 Per trasferire da questa fattura :
 
 
-- Bob (che detiene i token nella sua scorta) ha un portafoglio Bitcoin. Deve preparare una transazione Bitcoin (sotto forma di PSBT, ad esempio `tx.psbt`) che spende gli UTXO in cui si trovano i token RGB richiesti, più un UTXO per la valuta (scambio);
+- Bob (che detiene i token nel suo stash) dispone di un wallet Bitcoin. Deve preparare una transazione Bitcoin (sotto forma di PSBT, ad es. `tx.psbt`) che spenda gli UTXO in cui si trovano i token RGB necessari, più un UTXO per il resto (change);
 - Bob esegue il seguente comando:
 
 ```bash

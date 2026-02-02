@@ -1,6 +1,7 @@
 ---
 term: OP_CHECKSEQUENCEVERIFY (0XB2)
 
+definition: Op-koodi, joka asettaa suhteellisen aika-rajoitteen UTXOn käytölle.
 ---
 Tekee tapahtuman mitättömäksi, jos jokin näistä ominaisuuksista havaitaan:
 

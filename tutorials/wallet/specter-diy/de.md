@@ -31,7 +31,7 @@ QR-Codes sind eine Standardmethode für Specter zur Kommunikation mit dem Host. 
 Für die Speicherung von Geheimnissen unterstützen wir den agnostischen Modus (wallet vergisst alle Geheimnisse, wenn es ausgeschaltet wird), den rücksichtslosen Modus (speichert Geheimnisse im Flash des Anwendungsmikrocontrollers) und die Integration von secure element ist in Kürze geplant.
 
 
-Unser Hauptaugenmerk liegt auf dem Multisignatur-Setup mit anderen Hardware-Wallets, aber wallet kann auch als Einzelsignierer arbeiten. Wir versuchen, es mit Bitcoin Core kompatibel zu machen, wo wir können - PSBT für unsignierte Transaktionen, wallet Deskriptoren zum Importieren/Exportieren von Multisig-Wallets. Um die Kommunikation mit Bitcoin Core zu vereinfachen, arbeiten wir auch an [Specter Desktop app] (https://github.com/cryptoadvance/specter-desktop) - ein kleiner Python-Flask-Server, der mit Ihrem Bitcoin Core-Knoten kommuniziert.
+Unser Hauptaugenmerk liegt auf dem Multisignatur-Setup mit anderen Hardware-Wallets, aber wallet kann auch als Einzelsignierer arbeiten. Wir versuchen, es mit Bitcoin Core kompatibel zu machen, wo wir können - PSBT für unsignierte Transaktionen, wallet Deskriptoren zum Importieren/Exportieren von Multisig-Wallets. Um die Kommunikation mit Bitcoin Core zu vereinfachen, arbeiten wir auch an [Specter Desktop app](https://github.com/cryptoadvance/specter-desktop) - ein kleiner Python-Flask-Server, der mit Ihrem Bitcoin Core-Knoten kommuniziert.
 
 
 Der größte Teil der Firmware ist in MicroPython geschrieben, wodurch der Code leicht zu prüfen und zu ändern ist. Wir verwenden die Bibliothek [secp256k1](https://github.com/bitcoin-core/secp256k1) von Bitcoin Core für elliptische Kurvenberechnungen und die Bibliothek [LittlevGL](https://lvgl.io/) für die grafische Benutzeroberfläche.
@@ -59,7 +59,7 @@ Hauptbestandteil des Geräts ist die Entwicklerplatine:
 
 
 
-- STM32F469I-DISCO-Entwicklerplatine (z. B. von [Mouser] (https://eu.mouser.com/ProductDetail/STMicroelectronics/STM32F469I-DISCO?qs=kWQV1gtkNndotCjy2DKZ4w==) oder [Digikey] (https://www.digikey.com/product-detail/en/stmicroelectronics/STM32F469I-DISCO/497-15990-ND/5428811))
+- STM32F469I-DISCO-Entwicklerplatine (z. B. von [Mouser](https://eu.mouser.com/ProductDetail/STMicroelectronics/STM32F469I-DISCO?qs=kWQV1gtkNndotCjy2DKZ4w==) oder [Digikey](https://www.digikey.com/product-detail/en/stmicroelectronics/STM32F469I-DISCO/497-15990-ND/5428811))
 - Mini**USB-Kabel
 - Standard-MicroUSB-Kabel für die Kommunikation über USB
 
@@ -85,7 +85,7 @@ Für den QR-Code-Scanner haben Sie mehrere Möglichkeiten.
 **Option 1. Empfehlenswert ** Angenehm guter Scanner von Waveshare (40$)
 
 
-[Waveshare-Scanner] (https://www.waveshare.com/barcode-scanner-module.htm) - Sie müssen eine Möglichkeit finden, ihn gut zu befestigen, vielleicht mit einer Art Arduino-Prototyp-Schild und etwas Klebeband.
+[Waveshare-Scanner](https://www.waveshare.com/barcode-scanner-module.htm) - Sie müssen eine Möglichkeit finden, ihn gut zu befestigen, vielleicht mit einer Art Arduino-Prototyp-Schild und etwas Klebeband.
 
 
 Löten ist nicht erforderlich, aber wenn du über Lötkenntnisse verfügst, kannst du den wallet viel schöner machen ;)
@@ -176,12 +176,12 @@ Mit dem sicheren Bootloader ist die Erstinstallation der Firmware etwas anders. 
 ### Flashen der ursprünglichen Firmware
 
 
-**Hinweis** Wenn Sie keine Binärdateien aus den Veröffentlichungen verwenden wollen, lesen Sie die [Bootloader-Dokumentation] (https://github.com/cryptoadvance/specter-bootloader/blob/master/doc/selfsigned.md), in der erklärt wird, wie Sie den Bootloader kompilieren und so konfigurieren, dass er Ihre öffentlichen Schlüssel anstelle unserer verwendet.
+**Hinweis** Wenn Sie keine Binärdateien aus den Veröffentlichungen verwenden wollen, lesen Sie die [Bootloader-Dokumentation](https://github.com/cryptoadvance/specter-bootloader/blob/master/doc/selfsigned.md), in der erklärt wird, wie Sie den Bootloader kompilieren und so konfigurieren, dass er Ihre öffentlichen Schlüssel anstelle unserer verwendet.
 
 
 
 - Wenn Sie von Versionen unter `1.4.0` upgraden oder die Firmware zum ersten Mal hochladen, verwenden Sie die `initial_firmware_<version>.bin` von der [releases](https://github.com/cryptoadvance/specter-diy/releases) Seite.
- - Überprüfe die Signatur der Datei "sha256.signed.txt" mit [Stepans PGP-Schlüssel] (https://stepansnigirev.com/ss-specter-release.asc)
+ - Überprüfe die Signatur der Datei "sha256.signed.txt" mit [Stepans PGP-Schlüssel](https://stepansnigirev.com/ss-specter-release.asc)
  - Überprüfen Sie den Hash der Datei `initial_firmware_<version>.bin` mit dem in der Datei `sha256.signed.txt` gespeicherten Hash
 - Wenn Sie ein Upgrade von einem leeren Bootloader durchführen oder die Fehlermeldung des Bootloaders erscheint, dass die Firmware nicht gültig ist, lesen Sie den nächsten Abschnitt - Flashen signierter Specter-Firmware.
 - Vergewissern Sie sich, dass der Power-Jumper Ihres Discovery-Boards auf der Position STLK steht

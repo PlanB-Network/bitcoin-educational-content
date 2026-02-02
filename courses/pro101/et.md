@@ -11,7 +11,7 @@ objectives:
 
 Mida on vaja Bitcoinil ehitamiseks? See 20-tunnine kursus viib teid Bitcoin'i ja Lightning Network'i pinna alla, uurides protokolle, mis toitavad maailma vastupidavamat finantstaristut. Olenemata sellest, kas soovite panustada avatud lähtekoodiga projektidesse või ehitada järgmise põlvkonna Bitcoin'i rakendusi, omandате tehnilise sügavuse, mis on vajalik selles ökosüsteemis enesekindlalt töötamiseks.
 
-Salvestatud CUBO+ 2023 laagri ajal El Salvadoris, toob see kursus kokku juhtivate Bitcoin'i arendajate ja haridustegelaste vaatenurgad, kes on tehnoloogiat kujundanud. Parim osa? See on täiesti tasuta, võimaldatud Fulgure Venture'i, Bitcoin Office'i ja DecouvreBitcoin'i poolt. Kui olete olnud uudishimulik, kuidas Bitcoin protokolli tasemel tegelikult töötab, on see teie võimalus seda välja selgitada.
+Salvestatud CUBO+ 2023 laagri ajal El Salvadoris, toob see kursus kokku juhtivate Bitcoin'i arendajate ja haridustegelaste vaatenurgad, kes on tehnoloogiat kujundanud. Parim osa? See on täiesti tasuta, võimaldatud Fulgure Ventures'i, Bitcoin Office'i ja DecouvreBitcoin'i poolt. Kui olete olnud uudishimulik, kuidas Bitcoin protokolli tasemel tegelikult töötab, on see teie võimalus seda välja selgitada.
 +++
 # Sissejuhatus ja ettevalmistavad kursused
 
@@ -59,7 +59,7 @@ Kogu kursuse jooksul kasutavad osalejad peamisi vahendeid, mis aitavad neil mõi
 
 :::video id=ff820fb2-83d4-450f-bda0-17cc5044a902:::
 
-Tere tulemast **Cubo Plus** haridusprogrammi esimesele loengule. Täna sukeldume Bitcoin maailma, mida juhib Ricky, **Bitcoin Italia podcasti** asutaja. Ricky on kirglik inimõiguste aktivist, kes kasutab Bitcoin vahendina inimõiguste kaitsmiseks ja edendamiseks. Rohkem kui kuueaastase kogemusega Ricky on palju reisinud, dokumenteerides Bitcoin kasutuselevõttu sellistel arenevatel turgudel nagu El Salvador ja Guatemala. Tema töö ulatub kaugemale podcastimisest; ta on aktiivne ka YouTube'is (**Bitcoin Explorers**) ja Twitteris (**BTC Explorer**, **Ricky6**). Ricky Commitment ja Bitcoin vahel lähtub tema veendumusest, et see pakub finantsvabadust ja privaatsust, esitades väljakutse traditsioonilistele tsentraliseeritud pangandussüsteemidele.
+Tere tulemast **Cubo Plus** haridusprogrammi esimesele loengule. Täna sukeldume Bitcoin maailma, mida juhib Rikki, **Bitcoin Italia podcasti** asutaja. Rikki on kirglik inimõiguste aktivist, kes kasutab Bitcoin vahendina inimõiguste kaitsmiseks ja edendamiseks. Rohkem kui kuueaastase kogemusega Rikki on palju reisinud, dokumenteerides Bitcoin kasutuselevõttu sellistel arenevatel turgudel nagu El Salvador ja Guatemala. Tema töö ulatub kaugemale podcastimisest; ta on aktiivne ka YouTube'is (**Bitcoin Explorers**) ja Twitteris (**BTC Explorer**, **Rikki6**). Rikki Commitment ja Bitcoin vahel lähtub tema veendumusest, et see pakub finantsvabadust ja privaatsust, esitades väljakutse traditsioonilistele tsentraliseeritud pangandussüsteemidele.
 
 
 ![Unbanked Population](assets/en/001.webp)
@@ -81,10 +81,10 @@ Selles loengus **"Miks El Salvador vajab Bitcoin"** antakse ülevaade **Bitcoin 
 - _Finantskaasamine:_ Finantsteenuste kättesaadavus inimestele, kes on traditsioonilisest pangandussüsteemist kõrvale jäänud ja keda sageli nimetatakse "pangata inimesteks"
 - _Tsenseerimata raha:_ Raha, mida ei saa valitsuste või finantsasutuste poolt kontrollida ega piirata.
 
-#### Ricky taust ja Bitcoin propageerimine
+#### Rikki taust ja Bitcoin propageerimine
 
 
-Ricky teekond Bitcoin-sse on seotud tema tööga inimõiguste kaitsjana. Ta usub, et Bitcoin võib anda üksikisikutele kontrolli oma rahaasjade üle, võimaldades neil kaitsta oma eraelu puutumatust ja vältida tsentraliseeritud pankade piiranguid. Tema uurimus Bitcoin kasutuselevõtu kohta sellistes kohtades nagu El Salvador toob esile, kuidas see tehnoloogia võib anda inimestele arenevatel turgudel võimaluse saavutada rahaline sõltumatus.
+Rikki teekond Bitcoin-sse on seotud tema tööga inimõiguste kaitsjana. Ta usub, et Bitcoin võib anda üksikisikutele kontrolli oma rahaasjade üle, võimaldades neil kaitsta oma eraelu puutumatust ja vältida tsentraliseeritud pankade piiranguid. Tema uurimus Bitcoin kasutuselevõtu kohta sellistes kohtades nagu El Salvador toob esile, kuidas see tehnoloogia võib anda inimestele arenevatel turgudel võimaluse saavutada rahaline sõltumatus.
 
 
 ### Bitcoin ülemaailmne tähtsus ja probleemid

@@ -1,6 +1,7 @@
 ---
-term: FIRMA DEL ADAPTADOR
+term: Adaptor signature
 
+definition: Una técnica criptográfica que vincula una firma a un secreto, de modo que publicar la firma revela el secreto. Útil para intercambios atómicos sin un intermediario de confianza.
 ---
 Método criptográfico que permite combinar una firma auténtica con una firma adicional (denominada "firma adaptadora") para revelar un dato secreto. Este método funciona de tal manera que conocer dos elementos entre la firma válida, la firma adaptadora y el secreto permite deducir el tercer elemento que falta. Una de las propiedades interesantes de este método es que si conocemos la firma del adaptador de nuestra contraparte y el punto específico de la curva elíptica vinculado al secreto utilizado para calcular esta firma del adaptador, podemos deducir nuestra propia firma del adaptador que coincidirá con el mismo secreto, sin tener nunca acceso directo al propio secreto. En un intercambio entre dos partes interesadas que no confían la una en la otra, esta técnica permite desvelar simultáneamente dos informaciones sensibles entre los participantes. Este proceso elimina la necesidad de confianza en transacciones instantáneas como un intercambio de monedas o un intercambio atómico. Pongamos un ejemplo para entenderlo mejor. Alice y Bob quieren enviarse mutuamente 1 BTC, pero no confían el uno en el otro. Por lo tanto, utilizarán firmas adaptadoras para anular la necesidad de confiar en la otra parte en este intercambio (convirtiéndolo así en un intercambio "atómico"). Proceden de la siguiente manera:
 

@@ -1,5 +1,6 @@
 ---
 term: BIP0009
+definition: Method for activating soft forks where miners signal their support via a bit in blocks, requiring 95% approval for activation.
 ---
 
 Method for activating soft forks on Bitcoin proposed in 2015. It introduced a mechanism in which miners signal their support for a soft fork by setting a specific bit in the block version field. 

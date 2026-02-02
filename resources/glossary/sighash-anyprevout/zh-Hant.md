@@ -1,5 +1,6 @@
 ---
-term: 嘆息_anyprevout
+term: SIGHASH_ANYPREVOUT
+definition: SigHash 提案，允許簽名不與特定的 UTXO 綁定。
 ---
 
 在 Bitcoin 中實作新 SigHash Flag 修改器的提案，與 BIP118 一同推出。`SIGHASH_ANYPREVOUT` 可讓交易管理更具彈性，特別是對於 Lightning Network 上的付款通道和 Eltoo 更新等進階應用。`SIGHASH_ANYPREVOUT` 使簽章不與任何特定的先前 UTXO (*Any Previous Output*) 綁定。與 `SIGHASH_ALL`結合使用，可以簽署交易的所有輸出，但不簽署任何輸入。只要符合特定的條件，就可以在不同的交易中重複使用簽章。

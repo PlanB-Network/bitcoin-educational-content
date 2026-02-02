@@ -1,0 +1,8 @@
+question: Mitä tapahtuu aritmeettisille operaatioille, kun elliptiset käyrät määritellään reaalukujen sijasta äärellisten kenttien yli?
+answer: Kaikissa operaatioissa käytetään modulaarista aritmetiikkaa säilyttäen samat algebralliset säännöt
+wrong_answers:
+  - Pisteiden yhteenlaskukaavat on kirjoitettava kokonaan uudelleen diskreettia matematiikkaa varten
+  - Kaltevuuslaskelmista tulee epämääräisiä pisteiden erillisen luonteen vuoksi
+  - Kaikki algebralliset säännöt muuttuvat perusteellisesti äärellisen kentän rakenteen huomioon ottamiseksi
+explanation: |
+  Kun elliptiset käyrät siirretään reaaluvuista äärellisiin kenttiin, taustalla oleva algebrallinen rakenne ja säännöt pysyvät samanlaisina - vain aritmetiikka muuttuu modulaariseksi aritmiaksi. Kaikki pisteiden yhteenlaskukaavat, kaltevuuslaskelmat ja geometriset suhteet toimivat täsmälleen samalla tavalla, mutta kaikki laskutoimitukset suoritetaan modulo p:nä. Tämä algebrallisten sääntöjen säilyttäminen ja vain aritmeettisen perustan muuttaminen tekee äärellisten kenttien elliptisistä käyristä niin tehokkaita salauskäytössä, sillä ne säilyttävät kaikki tarvittavat matemaattiset ominaisuudet ja luovat samalla turvallisuuden kannalta välttämättömän diskreetin, arvaamattoman käyttäytymisen.

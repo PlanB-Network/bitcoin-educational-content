@@ -1,0 +1,8 @@
+question: Ni nini hutokea mtoa huduma anapolipa ankara ya Lightning ili kukamilisha ubadilishaji wa Liquid-to-Lightning kwa kutumia HTLC?
+answer: Mtoa huduma hupokea picha ya awali kutoka kwa malipo ya Lightning, ambayo wanaweza kuitumia kufungua na kudai L-BTC kutoka kwa HTLC.
+wrong_answers:
+  - Mtoa huduma lazima asubiri muda wa kufuli uishe kabla ya kufikia L-BTC iliyofungwa katika mkataba wa HTLC.
+  - "Mteja hupokea kiotomatiki picha ya awali na kuitumia kutoa L-BTC moja kwa moja kwenye Liquid wallet ya mtoa huduma"
+  - Mkataba wa HTLC hutekeleza na kuhamisha L-BTC kiotomatiki kwa mtoa huduma bila kuhitaji uthibitisho wowote wa ziada wa kriptografia.
+explanation: |
+  HTLC huunda ubadilishaji wa atomiki kupitia uunganishaji wa kriptografia kwa kutumia kufuli moja la hashi kwenye mitandao yote miwili. Mtoa huduma anapolipa ankara ya Lightning kwa mafanikio, hupata picha ya awali (siri) inayolingana na kufuli la hashi. Picha hii ya awali ni ufunguo wa kriptografia unaowaruhusu kufungua L-BTC ambayo hapo awali ilikuwa imefungwa kwenye HTLC. Chaguzi zingine si sahihi kwa sababu hazionyeshi asili ya atomiki ya HTLC - kufuli kwa wakati ni utaratibu wa kurudi nyuma tu, wateja hawashughulikii usambazaji wa picha ya awali, na HTLC zinahitaji uthibitisho wa kriptografia unaofanya kazi badala ya utekelezaji otomatiki.

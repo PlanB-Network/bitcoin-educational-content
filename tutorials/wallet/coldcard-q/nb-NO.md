@@ -55,7 +55,7 @@ På programvaresiden er COLDCARD Q like godt utstyrt som Coinkites andre enheter
 
 COLDCARD Q gir kort sagt en bedre brukeropplevelse enn MK4, og kan være ideelt for middels til avanserte brukere som ønsker større brukervennlighet.
 
-COLDCARD Q er tilgjengelig for salg [på Coinkites offisielle nettsted] (https://store.coinkite.com/store/coldcard). Det kan også kjøpes hos en forhandler.
+COLDCARD Q er tilgjengelig for salg [på Coinkites offisielle nettsted](https://store.coinkite.com/store/coldcard). Det kan også kjøpes hos en forhandler.
 
 ## Forbereder opplæringen
 
@@ -79,7 +79,7 @@ Hvis du foretrekker å drive COLDCARD uten å koble det til en datamaskin (air-g
 
 ![CCQ](assets/fr/005.webp)
 
-For denne opplæringen trenger du også Sparrow Wallet for å administrere Bitcoin-lommeboken din på datamaskinen din. Last ned [Sparrow Wallet] (https://sparrowwallet.com/download/) fra den offisielle nettsiden. Jeg anbefaler på det sterkeste at du sjekker både autentisiteten (med GnuPG) og integriteten (via hash) før du fortsetter med installasjonen. Hvis du ikke vet hvordan du gjør dette, kan du følge denne veiledningen:
+For denne opplæringen trenger du også Sparrow Wallet for å administrere Bitcoin-lommeboken din på datamaskinen din. Last ned [Sparrow Wallet](https://sparrowwallet.com/download/) fra den offisielle nettsiden. Jeg anbefaler på det sterkeste at du sjekker både autentisiteten (med GnuPG) og integriteten (via hash) før du fortsetter med installasjonen. Hvis du ikke vet hvordan du gjør dette, kan du følge denne veiledningen:
 
 https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
@@ -153,11 +153,11 @@ Du kan sjekke den gjeldende fastvareversjonen av COLDCARD. I mitt tilfelle er ve
 
 ![CCQ](assets/fr/019.webp)
 
-Sjekk [på det offisielle COLDCARD-nettstedet] (https://coldcard.com/downloads) for å se om en nyere versjon er tilgjengelig. Klikk på "*Download*" for å laste ned den nye fastvaren.
+Sjekk [på det offisielle COLDCARD-nettstedet](https://coldcard.com/downloads) for å se om en nyere versjon er tilgjengelig. Klikk på "*Download*" for å laste ned den nye fastvaren.
 
 ![CCQ](assets/fr/020.webp)
 
-På dette tidspunktet anbefaler vi på det sterkeste at du kontrollerer integriteten og ektheten til den nedlastede fastvaren. Dette gjør du ved å laste ned [dokumentet som inneholder hash-verdier for alle versjoner, signert av utviklerne] (https://raw.githubusercontent.com/Coldcard/firmware/master/releases/signatures.txt), verifisere signaturen med [utviklerens offentlige nøkkel] (https://keybase.io/dochex), og kontrollere at hash-verdien som er angitt i det signerte dokumentet, stemmer overens med fastvaren som er lastet ned fra nettstedet. Hvis alt stemmer, kan du fortsette med oppdateringen.
+På dette tidspunktet anbefaler vi på det sterkeste at du kontrollerer integriteten og ektheten til den nedlastede fastvaren. Dette gjør du ved å laste ned [dokumentet som inneholder hash-verdier for alle versjoner, signert av utviklerne](https://raw.githubusercontent.com/Coldcard/firmware/master/releases/signatures.txt), verifisere signaturen med [utviklerens offentlige nøkkel](https://keybase.io/dochex), og kontrollere at hash-verdien som er angitt i det signerte dokumentet, stemmer overens med fastvaren som er lastet ned fra nettstedet. Hvis alt stemmer, kan du fortsette med oppdateringen.
 
 Hvis du ikke er kjent med denne verifiseringsprosessen, anbefaler jeg at du følger denne veiledningen:
 

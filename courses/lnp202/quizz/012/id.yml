@@ -1,0 +1,9 @@
+question: Apa kompromi utama dengan node on-board LN?
+answer: Ketergantungan operator
+wrong_answers:
+  - Hilangnya kunci pribadi
+  - Tidak ada penahanan diri
+  - Pembayaran onchain wajib untuk semua transaksi Lightning
+explanation: |
+  Pengguna sangat bergantung pada operator utama untuk konektivitas dan manajemen saluran.
+reviewed: false

@@ -85,15 +85,15 @@ Ga naar je app store om Envoy te downloaden:
 
 
 
-- In de [Google Play Store] (https://play.google.com/store/apps/details?id=com.foundationdevices.envoy);
-- In de [App Store] (https://apps.apple.com/us/app/envoy-by-foundation/id1584811818);
+- In de [Google Play Store](https://play.google.com/store/apps/details?id=com.foundationdevices.envoy);
+- In de [App Store](https://apps.apple.com/us/app/envoy-by-foundation/id1584811818);
 - Op [F-Cold](https://foundation.xyz/fdroid/).
 
 
 ![Image](assets/fr/50.webp)
 
 
-Je kunt het APK-bestand ook rechtstreeks downloaden [van Foundation's GitHub repository] (https://github.com/Foundation-Devices/envoy/releases).
+Je kunt het APK-bestand ook rechtstreeks downloaden [van Foundation's GitHub repository](https://github.com/Foundation-Devices/envoy/releases).
 
 
 ![Image](assets/fr/51.webp)

@@ -1,10 +1,10 @@
-question: Welke heuristiek kan worden gebruikt om alle ingangen van een consolidatie te koppelen?
+question: Welke heuristiek kan worden gebruikt om alle inputs van een consolidatie te koppelen?
 answer: Het CIOH.
 wrong_answers:
-  - Address hergebruik.
-  - De grootste uitvoer.
+  - Adreshergebruik.
+  - De grootste output.
   - Ronde betaling.
 explanation: |
-  Een externe waarnemer kan de CIOH toepassen om te veronderstellen dat alle ingangen van een consolidatie tot dezelfde entiteit behoren.
+  Een externe waarnemer kan de CIOH toepassen om te veronderstellen dat alle inputs van een consolidatie tot dezelfde entiteit behoren.
   
 reviewed: false

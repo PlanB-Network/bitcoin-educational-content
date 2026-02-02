@@ -1,0 +1,8 @@
+question: Mitä tapahtuu, kun ilmoitat muuttujan Rust:ssa käyttämällä 'let x = 5' ilman muita avainsanoja?
+answer: Muuttujasta tulee muuttumaton, eikä sitä voi muuttaa osoittamisen jälkeen
+wrong_answers:
+  - Muuttujasta tulee muuttuva ja sitä voidaan muuttaa milloin tahansa
+  - Muuttuja optimoidaan automaattisesti vain julkaisuversioille
+  - Muuttuja vaatii nimenomaisen tyyppimerkinnän kääntääkseen onnistuneesti
+explanation: |
+  Rust:ssä muuttujat ovat oletusarvoisesti muuttumattomia, kun ne ilmoitetaan 'let'-merkillä. Tämä tarkoittaa sitä, että kun annat muuttujalle arvon, kuten 'let x = 5', et voi muuttaa tätä arvoa myöhemmin ohjelmassa. Jos yrität muuttaa sitä, kääntäjä antaa virheilmoituksen. Tämä oletusarvoinen muuttumattomuus on keskeinen turvaominaisuus, joka estää monia yleisiä ohjelmointivirheitä, jotka johtuvat odottamattomista tilamuutoksista. Muuttujan muuttaminen muuttuvaksi edellyttää, että käytät nimenomaisesti mut-avainsanaa, kuten 'let mut x = 5'.

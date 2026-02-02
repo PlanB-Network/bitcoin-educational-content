@@ -1,0 +1,10 @@
+question: Quelle innovation technique de SatoshiDICE permettait aux joueurs de vérifier que le casino ne trichait pas ?
+answer: La publication d'empreintes de secrets sur la chaine de blocs, suivie de celle desdits secret pour permettre le recalcul des résultats
+wrong_answers:
+  - La publication d'empreintes de secrets sur la chaine de blocs, suivie de celle desdits secret pour permettre le recalcul des résultats
+  - Le déploiement d'une chaine de blocs de validation décentralisée sur laquelle chaque transaction est vérifiée par plusieurs nœuds indépendants
+  - L'utilisation d'adresses fixes sur la chaine de blocs qui rendent possibles l'audit des tirages, assurant ainsi leur équité
+  - L'exécution des calculs de probabilité directement sur la chaine de blocs par le biais de contrats autonomes publics
+explanation: |
+ SatoshiDICE était révolutionnaire car il était « assurément équitable ». Chaque tirage lié à une probabilité dépendait d'un secret généré au début de la journée, dont l'empreinte était publiée sur la chaine de blocs. Le secret lui-même était dévoilé quelques jours plus tard pour permettre à l'utilisateur de recalculer le résultat lui-même.
+reviewed: false

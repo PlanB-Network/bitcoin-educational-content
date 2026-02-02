@@ -70,7 +70,7 @@ https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 
 
 
-Для этого посетите [их веб-сайт] (https://thebitcoincompany.com/).
+Для этого посетите [их веб-сайт](https://thebitcoincompany.com/).
 
 
 

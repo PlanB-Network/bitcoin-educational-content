@@ -1,9 +1,9 @@
 question: Koji je rendering engine danas najrasprostranjeniji i pokreće većinu modernih pregledača?
-answer: Treptaj
+answer: Blink
 wrong_answers:
   - Gecko
   - Trident
   - WebKit
 explanation: |
   Blink, razvijen iz WebKit Fork od strane Google-a, danas je dominantni rendering engine, pokrećući Chrome, Edge, Opera, Brave, Vivaldi i druge.
-reviewed: false
+reviewed: true

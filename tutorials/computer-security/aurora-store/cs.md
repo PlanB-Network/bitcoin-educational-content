@@ -14,7 +14,7 @@ V tomto návodu se seznámíme s obchodem Aurora, jednoduchou, otevřenou a bezp
 
 
 
-# Začínáme s aplikací Aurora Store
+## Začínáme s aplikací Aurora Store
 
 
 
@@ -88,7 +88,7 @@ V obchodě Aurora Store můžete získat přístup ke katalogu aplikací dostupn
 
 
 
-## Funkce
+### Funkce
 
 
 

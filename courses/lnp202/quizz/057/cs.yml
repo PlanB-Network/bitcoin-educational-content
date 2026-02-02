@@ -1,0 +1,9 @@
+question: Která aplikace musí být v systému Umbrel nainstalována, aby bylo možné vytvořit připojení NWC?
+answer: Alby Hub
+wrong_answers:
+  - NWC Connector
+  - ThunderHub
+  - Server Zeus
+explanation: |
+  Protože aplikace Umbrel určená speciálně pro NWC již není k dispozici, musíte nyní pro tento typ připojení použít Alby Hub.
+reviewed: false

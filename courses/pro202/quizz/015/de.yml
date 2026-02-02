@@ -1,0 +1,8 @@
+question: Was passiert mit den arithmetischen Operationen, wenn elliptische Kurven über endlichen Feldern statt über reellen Zahlen definiert sind?
+answer: Alle Operationen verwenden die modulare Arithmetik unter Beibehaltung der gleichen algebraischen Regeln
+wrong_answers:
+  - Die Punktadditionsformeln müssen für die diskrete Mathematik komplett umgeschrieben werden
+  - Die Neigungsberechnungen werden aufgrund der diskreten Natur der Punkte undefiniert
+  - Alle algebraischen Regeln ändern sich grundlegend, um der Struktur endlicher Felder Rechnung zu tragen
+explanation: |
+  Wenn elliptische Kurven von reellen Zahlen auf endliche Felder übertragen werden, bleiben die zugrundeliegende algebraische Struktur und die Regeln identisch - nur die Arithmetik ändert sich zu modularer Arithmetik. Alle Punktadditionsformeln, Steigungsberechnungen und geometrischen Beziehungen funktionieren genau gleich, aber jede Berechnung wird modulo p durchgeführt. Diese Beibehaltung der algebraischen Regeln bei gleichzeitiger Änderung nur der arithmetischen Grundlage macht elliptische Kurven mit endlichen Feldern so leistungsfähig für die Kryptografie, da sie alle erforderlichen mathematischen Eigenschaften beibehalten und gleichzeitig das diskrete, unvorhersehbare Verhalten erzeugen, das für die Sicherheit wesentlich ist.

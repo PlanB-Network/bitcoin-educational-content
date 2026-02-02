@@ -234,7 +234,7 @@ Za bolje razumevanje ovog mehanizma i koliko ciklusa vredi čekati, preporučuje
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 Da biste videli broj remiksa izvedenih za svako od vaših dela, otvorite meni `UTXOs` u nalogu `Postmix`.
 
@@ -354,7 +354,7 @@ Performanse nekoliko ciklusa coinjoin-a meri se veličinom skupova u kojima je n
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 ## Kako upravljati postmixom?
 

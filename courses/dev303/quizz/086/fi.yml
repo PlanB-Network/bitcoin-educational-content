@@ -1,0 +1,8 @@
+question: Mikä on nimiavaruusilmoituksen ensisijainen tarkoitus UniFFI UDL-tiedostossa?
+answer: Tarjota säiliö funktioille, joita voidaan kutsua suoraan ilman objektin instantiointia
+wrong_answers:
+  - Määrittääksesi pakettirakenteen ja tuontiriippuvuudet luotuja kielisidoksia varten
+  - Määritä kohdeohjelmointikielet, jotka käyttävät Rust-kirjastoa UniFFI:n kautta
+  - Muistinhallintastrategian määrittäminen kieltenvälisiä datan marshaling-operaatioita varten
+explanation: |
+  UniFFI:n UDL:n nimiavaruus toimii säiliönä itsenäisille funktioille, joita voidaan kutsua suoraan luomatta ensin objekteja. Nämä nimiavaruuden funktiot käsittelevät tyypillisesti yksinkertaisia operaatioita, jotka ottavat parametreina arvoja ja palauttavat tuloksia. Muut vaihtoehdot ovat virheellisiä, koska: pakettirakenne ja tuodut tiedostot käsitellään automaattisesti sidosten luomisprosessissa, kohdekielet määritetään rakentamisprosessin aikana eikä UDL-tiedostossa, ja muistinhallinta hoidetaan läpinäkyvästi UniFFIn ajantasakerroksessa sen sijaan, että se ilmoitettaisiin nimenomaisesti nimiavaruuksissa.

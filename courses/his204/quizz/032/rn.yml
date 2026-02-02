@@ -1,8 +1,9 @@
-question: Gournay yararwanije ubudandaji bw'ubuntu mu bicuruzwa bibiri cane cane .
-answer: Intete n'igitambaro gisizwe irangi
+question: Gournay yararwanije ubudandaji bw'umwidegemvyo mu bicuruzwa bibiri cane cane .
+answer: Intete n'ibitambaro bisizwe irangi
 wrong_answers:
   - Ivyuma n'amakara
   - Umuvinyu n'intete
   - Umunyu n'itabi .
 explanation: |
-  Gournay yaragize ubukangurambaga bwo kwidegemvya kw’ubudandaji bw’intete n’ivy’impuzu, yizera ko amategeko aremera ivyo bice ari bibi ku bukungu.
+  Gournay yararwanije bwo kwidegemvya kw’ubudandaji bw’intete n’ivy’impuzu, yizera ko amategeko aremera ivyo bice ari bibi ku butunzi.
+reviewed: true

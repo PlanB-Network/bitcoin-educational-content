@@ -1,5 +1,6 @@
 ---
 term: BIP0143
+definition: Nieuw hashingalgoritme voor SegWit-handtekeningen, dat kwadratische groei oplost en de waarde van de inputs bevat.
 ---
 
 Introduceert een nieuwe manier om de transactie te hashen voor handtekeningverificatie in post-SegWit scripts. Het doel is om overbodige operaties tijdens de verificatie te minimaliseren en om de waarde van de UTXO's in de invoer op te nemen in de handtekening. Dit lost twee grote problemen op met het originele transactie hashing algoritme:

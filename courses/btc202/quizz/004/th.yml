@@ -1,0 +1,9 @@
+question: Bitcoin node คืออะไร?
+answer: คอมพิวเตอร์ที่รันซอฟต์แวร์ที่ใช้โปรโตคอล Bitcoin
+wrong_answers:
+  - ฮาร์ดแวร์ wallet ที่ใช้งานเครือข่าย Bitcoin
+  - คนงานเหมืองที่ผลิตบล็อกใหม่สำหรับ Bitcoin
+  - เซิร์ฟเวอร์กลางที่จัดการเครือข่าย Bitcoin และการยืนยันธุรกรรม
+explanation: |
+  โหนด Bitcoin คือคอมพิวเตอร์ที่รันซอฟต์แวร์ เช่น Bitcoin Core ซึ่งทำหน้าที่ตามโปรโตคอลและเข้าร่วมในเครือข่าย Bitcoin
+reviewed: true

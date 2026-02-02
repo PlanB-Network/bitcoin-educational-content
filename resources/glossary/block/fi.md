@@ -1,6 +1,7 @@
 ---
-term: BLOCK
+term: Lohko
 
+definition: Tietorakenne, joka sisältää vahvistetut siirrot ja metatiedot, ja joka on linkitetty muihin lohkoihin tiivistämällä.
 ---
 Bitcoin-järjestelmän tietorakenne. Lohko sisältää joukon voimassa olevia transaktioita ja sen otsikkoon sisältyviä metatietoja. Kukin lohko liittyy seuraavaan lohkoon sen otsikon hash-tiedon avulla, mikä muodostaa lohkoketjun. Lohkoketju toimii aikaleimapalvelimena, jonka avulla jokainen käyttäjä voi tietää kaikki aiemmat transaktiot, jotta voidaan todentaa, ettei transaktiota ole ja estää kaksinkertainen rahankäyttö. Transaktiot järjestetään Merkle-puuhun. Tämä kryptografinen akkumulaattori mahdollistaa lohkon kaikkien transaktioiden digestin tuottamisen, jota kutsutaan "Merkle-juureksi" Lohkon otsikko sisältää 6 elementtiä:
 

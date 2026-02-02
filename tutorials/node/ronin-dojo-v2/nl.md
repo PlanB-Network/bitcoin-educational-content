@@ -56,7 +56,7 @@ Nu we RoninDojo hebben geschetst, laten we samen kijken hoe we dit knooppunt kun
 
 ## Welke hardware moet ik kiezen om RoninDojo v2 te installeren?
 
-RoninDojo biedt een afbeelding voor de automatische installatie van zijn software op een [RockPro64] (https://ronindojo.io/en/download). Onze handleiding richt zich echter op de handmatige installatieprocedure op een Raspberry Pi 4. Hoewel de Raspberry Pi 5 onlangs gelanceerd is, en deze handleiding theoretisch compatibel zou moeten zijn met dit nieuwe model, heb ik nog niet de kans gehad om het persoonlijk te testen, en ik heb geen feedback uit de gemeenschap gevonden. Zodra ik de Pi 5 en compatibele onderdelen heb, zal ik deze handleiding bijwerken om jullie op de hoogte te houden. In de tussentijd raad ik aan om voorrang te geven aan de Pi 4, omdat die perfect werkt voor mijn knooppunt.
+RoninDojo biedt een afbeelding voor de automatische installatie van zijn software op een [RockPro64](https://ronindojo.io/en/download). Onze handleiding richt zich echter op de handmatige installatieprocedure op een Raspberry Pi 4. Hoewel de Raspberry Pi 5 onlangs gelanceerd is, en deze handleiding theoretisch compatibel zou moeten zijn met dit nieuwe model, heb ik nog niet de kans gehad om het persoonlijk te testen, en ik heb geen feedback uit de gemeenschap gevonden. Zodra ik de Pi 5 en compatibele onderdelen heb, zal ik deze handleiding bijwerken om jullie op de hoogte te houden. In de tussentijd raad ik aan om voorrang te geven aan de Pi 4, omdat die perfect werkt voor mijn knooppunt.
 
 Zelf draai ik RoninDojo op een Raspberry Pi met 8 GB RAM. Hoewel sommige leden van de gemeenschap erin geslaagd zijn om het werkend te krijgen op apparaten met slechts 4 GB RAM, heb ik deze configuratie zelf niet getest. Gezien het kleine prijsverschil lijkt het verstandig om te kiezen voor de 8 GB RAM versie. Dit kan ook handig zijn als je van plan bent om je Raspberry Pi in de toekomst voor andere doeleinden te gebruiken.
 
@@ -333,7 +333,7 @@ Eenmaal op de RoninUI homepage, zal je gevraagd worden om de setup te starten. K
 ![lets start](assets/notext/25.webp)
 
 
-In dit stadium geeft RoninUI je je `root` wachtwoord. Het is essentieel om het veilig te bewaren. Je kunt kiezen voor een fysieke back-up, op papier, of sla het op in een [wachtwoordmanager] (https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
+In dit stadium geeft RoninUI je je `root` wachtwoord. Het is essentieel om het veilig te bewaren. Je kunt kiezen voor een fysieke back-up, op papier, of sla het op in een [wachtwoordmanager](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
 
 
 ![root password](assets/notext/26.webp)

@@ -1,0 +1,8 @@
+question: Hvilken spesifikk betingelse må oppfylles i Bitcoins P2P-nettverkshåndtrykksprosess før to noder kan begynne å aktivt videresende lagerbeholdninger og transaksjonsdata?
+answer: Begge nodene må utveksle versjons- og verack-meldinger med hverandre
+wrong_answers:
+  - Den tilkoblende noden må motta DNS seed-bekreftelse fra kjerneutviklere
+  - "Begge nodene må verifisere hverandres blokkhøyde og kjedetippens hash"
+  - "Mottaksnoden må validere den tilkoblede nodens peer-sertifikat"
+explanation: |
+  Bitcoin P2P-håndtrykket krever en toveis utveksling der den tilkoblende noden sender en versjonsmelding, mottakeren svarer med verack og sin egen versjonsmelding, og den opprinnelige avsenderen svarer med sin verack. Først etter denne komplette utvekslingen av fire meldinger (versjon→verack+versjon→verack) kan nodene begynne aktiv kommunikasjon. DNS-frø brukes bare til å finne motparter, ikke til håndtrykk. Bitcoin bruker ikke sertifikater, og kjedevalidering skjer etter at forbindelsen er etablert.

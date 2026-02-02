@@ -169,7 +169,7 @@ curl -fsSL https://tailscale.com/install.sh | sh
 
 
 
-Dit script voegt de officiële Tailscale repository toe en installeert het pakket. Je kunt ook [handmatig de APT repository toevoegen] (https://pkgs.tailscale.com) of gewone Snap of apt pakketten gebruiken. Eenmaal geïnstalleerd, zal daemon `tailscaled` op de achtergrond draaien. Je moet dan de node **authenticeren** (zie Interface CLI vs web hieronder). Op andere distributies (Fedora, Arch...) is het pakket ook beschikbaar via de standaard repositories of het universele installatiescript. Voor een headless server, gebruik CLI: bijvoorbeeld `sudo tailscale up --auth-key <key>` als je een vooraf gegenereerde authenticatiesleutel gebruikt, of gewoon `tailscale up` voor een interactieve login (die een URL zal geven om te bezoeken om het apparaat te authenticeren).
+Dit script voegt de officiële Tailscale repository toe en installeert het pakket. Je kunt ook [handmatig de APT repository toevoegen](https://pkgs.tailscale.com) of gewone Snap of apt pakketten gebruiken. Eenmaal geïnstalleerd, zal daemon `tailscaled` op de achtergrond draaien. Je moet dan de node **authenticeren** (zie Interface CLI vs web hieronder). Op andere distributies (Fedora, Arch...) is het pakket ook beschikbaar via de standaard repositories of het universele installatiescript. Voor een headless server, gebruik CLI: bijvoorbeeld `sudo tailscale up --auth-key <key>` als je een vooraf gegenereerde authenticatiesleutel gebruikt, of gewoon `tailscale up` voor een interactieve login (die een URL zal geven om te bezoeken om het apparaat te authenticeren).
 
 
 

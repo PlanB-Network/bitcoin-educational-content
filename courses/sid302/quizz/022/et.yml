@@ -1,0 +1,8 @@
+question: Millise kriitilise strateegilise eelise annab Liquid regulatiivne positsioon võrreldes teiste tokeniseerimisplatvormidega nagu Ethereum või Solana?
+answer: Liquid väldib registreerimata väärtpabeririske, kasutades Bitcoin (L-BTC) oma emakeelse varana ilma mining-eelse või ICO läbiviimiseta
+wrong_answers:
+  - Liquid tegutseb spetsiaalse regulatiivse liivakasti all, mis vabastab selle enamikus jurisdiktsioonides väärtpaberiseadustest
+  - "Liquid föderatsioonimudel kvalifitseerib automaatselt kõik emiteeritud märgid olemasolevate raamistike kohaselt reguleeritud väärtpaberiteks"
+  - Liquid on saanud peamistelt finantsasutustelt üldise regulatiivse heakskiidu kõigile oma platvormil olevatele tokeniseeritud varadele
+explanation: |
+  Liquid strateegiline regulatiivne eelis tuleneb pigem selle tehnilisest ülesehitusest kui erivabastustest või kinnitustest. Kasutades Bitcoin oma emakeelse varana (L-BTC) ilma mining-eelsete märgiste või ICO läbiviimiseta, väldib Liquid "registreerimata väärtpaberi" klassifikatsiooni, mis ohustab paljusid teisi plokiahelaplatvorme. See on oluline, sest reguleerivad asutused, nagu SEC, on üha enam kontrollinud plokiahela projekte, mis on loonud ja müünud oma tokenid, liigitades need potentsiaalselt registreerimata väärtpaberiteks. Vale vastused viitavad ekslikult sellele, et Liquid-l on erilised regulatiivsed load või automaatsed vastavusfunktsioonid, kui tegelikult tuleneb selle eelis sellest, et ta väldib täielikult problemaatilist token-ökonoomikat.

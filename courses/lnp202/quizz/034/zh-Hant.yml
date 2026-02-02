@@ -1,0 +1,9 @@
+question: 這些標準中，哪一項對於對等連線最重要？
+answer: 在圖表中的中心位置
+wrong_answers:
+  - 圖形中節點的名稱
+  - 圖表中節點的顏色
+  - 圖形中的訊息數量
+explanation: |
+  Lightning 圖中位置良好的節點有助於路由到許多目的地。
+reviewed: false

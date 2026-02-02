@@ -1,5 +1,6 @@
 ---
-term: Bitcoin-IMPLEMENTATIE
+term: Bitcoin implementatie
+definition: Software die de regels van het Bitcoin-protocol toepast, waarbij Bitcoin Core de referentie-implementatie is.
 ---
 
 Verwijst naar software die de regels van het Bitcoin protocol toepast en volgt. Wat over het algemeen "Bitcoin" wordt genoemd, is het elektronisch geldsysteem. Het is een protocol dat regels specificeert. Het wordt concreet voorgesteld door knooppunten die een netwerk vormen. Dit systeem heeft geen specifieke code. Het is gewoon een verzameling brede stilzwijgende regels die worden opgelegd door de consensus van gebruikers via hun knooppunten. Wat wel computercode heeft, en dus ontwikkeld, onderhouden en aangepast kan worden, is de Bitcoin knooppuntensoftware. Dit zijn onafhankelijke implementaties van het Bitcoin protocol, die verbinding kunnen maken met de rest van het netwerk.

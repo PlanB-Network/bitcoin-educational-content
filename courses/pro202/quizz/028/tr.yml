@@ -1,0 +1,8 @@
+question: P2PK ve P2PKH arasındaki temel fark, madeni paralar harcanmadan önce hangi bilgilerin açıklanması açısından nedir?
+answer: P2PK harcamadan önce ScriptPubKey'deki açık anahtarın tamamını ifşa ederken, P2PKH harcanana kadar yalnızca açık anahtarın bir karmasını ifşa eder
+wrong_answers:
+  - P2PK doğrulama için birden fazla imza gerektirirken, P2PKH madeni paraların kilidini açmak için yalnızca bir imzaya ihtiyaç duyar
+  - P2PK, P2PKH'den farklı bir hash algoritması kullanır, bu da onu kuantum hesaplama saldırılarına karşı daha güvenli hale getirir
+  - P2PK özel anahtarı ScriptPubKey'de saklarken, P2PKH yalnızca imza doğrulama sonucunu saklar
+explanation: |
+  P2PK, coinleri herhangi bir harcama gerçekleşmeden önce doğrudan ScriptPubKey'de görülebilen tam bir açık anahtara kilitler. P2PKH, ScriptPubKey'de genel anahtarın yalnızca 20 baytlık bir özetini göstererek gizliliği artırır ve gerçek genel anahtarı, sahibi harcama sırasında ScriptSig'de sağlayana kadar gizler. Bu gizlilik iyileştirmesi, P2PKH'nin önceki P2PK modeline göre en önemli avantajlarından biridir.

@@ -653,7 +653,7 @@ Let's take a closer look at each of these two scenarios.
 
 #### Tapret incorporation without existing Script Path
 
-In this first case, we start from a taproot output key (*Taproot Output Key*) `Q` which contains only the internal public key `P` *(Internal Key*), with no associated script path (*Script Path*):
+In this first case, we start from a taproot output key (*Taproot Output Key*) `Q` which contains only the internal public key `P` (*Internal Key*), with no associated script path (*Script Path*):
 
 ![RGB-Bitcoin](assets/en/047.webp)
 
@@ -819,7 +819,7 @@ where:
 
 - `mpc_tag` is a tag: `urn:ubideco:mpc:commitment#2024-01-31`, chosen according to [RGB tagging conventions](https://github.com/RGB-WG/rgb-core/blob/master/doc/Commitments.md);
 - `depth` (1 byte) indicates the depth of the *MPC Tree*;
-- cofactor` (16 bits, in Little Endian) is a parameter used to promote the uniqueness of the positions assigned to each contract in the tree;
+- `cofactor` (16 bits, in Little Endian) is a parameter used to promote the uniqueness of the positions assigned to each contract in the tree;
 - `mpc::Root` is the root of *MPC Tree*, calculated according to the process described in the next section.
 
 ![RGB-Bitcoin](assets/en/044.webp)
@@ -861,7 +861,7 @@ where:
 - `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, is always chosen according to the Merkle conventions of RGB;
 - `0x10` identifies a _contract leaf_;
 - `c_i` is the 32-byte contract identifier (derived from the Genesis hash);
-- bundleId(c_i)` is a 32-byte hash describing the set of `State Transitions` relative to `c_i` (gathered into a *Transition Bundle*).
+- `bundleId(c_i)` is a 32-byte hash describing the set of `State Transitions` relative to `c_i` (gathered into a *Transition Bundle*).
 
 #### Uninhabited leaves
 
@@ -891,10 +891,10 @@ where:
 
 
 - `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, is always chosen according to the Merkle conventions of RGB;
-- b` is the _branching factor_ (8 bits). Most often, `b=0x02` because the tree is binary and complete;
-- d` is the depth of the node in the tree;
+- `b` is the _branching factor_ (8 bits). Most often, `b=0x02` because the tree is binary and complete;
+- `d` is the depth of the node in the tree;
 - `w` is the tree width (in 256-bit Little Endian binary);
-- tH1` and `tH2` are the hashes of the child nodes (or leaves), already calculated as shown above.
+- `tH1` and `tH2` are the hashes of the child nodes (or leaves), already calculated as shown above.
 
 Progressing in this way, we obtain the root `mpc::Root`. We can then calculate `mpc::Commitment` (as explained above) and insert it on-chain.
 
@@ -1047,7 +1047,7 @@ This separation of roles contributes to censorship resistance, by ensuring that 
 From a practical point of view, the contract's **Business Logic** takes the form of rules and scripts, defined in what RGB calls a **Schema**. The Schema encodes:
 
 
-- State structure (which fields are public? Which fields are owned by which parties?
+- State structure (which fields are public? Which fields are owned by which parties)?
 - Validity conditions (what must be checked before authorizing a state update?);
 - Authorizations (who can initiate a *State Transition*? Who can only observe?).
 
@@ -1203,7 +1203,7 @@ InputMap =
 
 
 - `N` is the total number of entries in the transaction that refer to an `OpId`;
-- opId(input_j)` is the operation identifier of one of the State Transitions present in the bundle.
+- `opId(input_j)` is the operation identifier of one of the State Transitions present in the bundle.
 
 By referencing each entry only once and in an orderly fashion, we prevent the same seal from being spent twice in two simultaneous State Transitions.
 
@@ -1601,7 +1601,7 @@ BEiLYE-am9WhTW1-oK8cpvw4-FEMtzMrf-mKocuGZn-qWK6YF#ginger-parking-nirvana
 
 This makes it possible to manage consensus or implementation updates, while ensuring detailed traceability of the versions used in the network.
 
-To prevent the state of an RGB contract from becoming too cumbersome to validate on the client side, a consensus rule imposes a maximum size of `2^16` bytes (64 Kio) for any data involved in validation calculations. This applies to each variable or structure: no more than 65536 bytes, or the equivalent in numbers (32768 16-bit integers, etc.). This also applies to collections (lists, sets, maps), which may not exceed `2^16` elements.
+To prevent the state of an RGB contract from becoming too cumbersome to validate on the client side, a consensus rule imposes a maximum size of `2^16` bytes (64 KiB) for any data involved in validation calculations. This applies to each variable or structure: no more than 65536 bytes, or the equivalent in numbers (32768 16-bit integers, etc.). This also applies to collections (lists, sets, maps), which may not exceed `2^16` elements.
 
 This limit guarantees:
 
@@ -2684,7 +2684,7 @@ To initiate the transfer of an RGB asset, Bob must first issue an invoice. This 
 
 - Tell Alice the type of operation to be performed (for example, a `Transfer` from an RGB20 interface);
 - Provide Alice with Bob's *seal definition* (i.e. the UTXO where he wishes to receive the asset);
-- Specify the quantity of active ingredient required (e.g. 100 units).
+- Specify the quantity of active units required (e.g. 100 units).
 
 Bob uses the `rgb` tool on the command line. Suppose he wants 100 units of a token whose `ContractId` is known, wants to rely on `Tapret`, and specifies its UTXO (`456e3..dfe1:0`):
 
@@ -2894,10 +2894,10 @@ rgb:7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK/RGB21/DbwzvSu-4BZU81
 Here we see:
 
 
-- `rgb:`**: URL prefix;
+- **`rgb:`**: URL prefix;
 - **`7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK`**: Contract ID (NFT);
-- **rGB21**: interface for non-fungible assets (NFT);
-- `DbwzvSu-4BZU81jEp-...`: **an explicit reference to the unique part of the NFT, for example a hash of the data blob (media, metadata...);**
+- **`rGB21`**: interface for non-fungible assets (NFT);
+- **`DbwzvSu-4BZU81jEp-...`**: an explicit reference to the unique part of the NFT, for example a hash of the data blob (media, metadata...);**
 - **`+utxob:egXsFnw-...`**: the seal definition.
 
 The idea is the same: transmit a unique link that the wallet can interpret, clearly identifying the unique asset to be transferred.
@@ -2966,7 +2966,7 @@ When you run the following command, you'll see that an `RGB20` interface is alre
 rgb interfaces
 ```
 
-If this interface is not integrated, clone the:
+If this interface is not integrated, clone it using the following command: 
 
 ```bash
 git clone https://github.com/RGB-WG/rgb-interfaces
@@ -3106,8 +3106,7 @@ rgb state '<ContractId>'
 
 ### Export, import and validation
 
-To share this contract with other users, it can be exported from the stash to a:
-
+To share this contract with other users, it can be exported from the stash to a file:
 ```bash
 rgb export '<ContractId>' myContractPBN.rgb
 ```
@@ -3152,7 +3151,8 @@ In most cases, interaction between the participants in a contract (e.g. Alice an
 - **Alice** (the issuer of the invoice);
 - **Bob** (who receives and executes the invoice).
 
-Unlike other ecosystems, an RGB invoice is not limited to the notion of payment. It can embed any request linked to the contract: revoke a key, vote, create an engraving (*engraving*) on an NFT, etc. The corresponding operation can be described in the contract interface. The corresponding operation can be described in the contract interface.
+Unlike other ecosystems, an RGB invoice is not limited to the notion of payment. It can embed any request linked to the contract: revoke a key, vote, create an engraving (*engraving*) on an NFT, etc. The corresponding operation can be described in the contract interface.<img width="1728" height="198" alt="immagine" src="https://github.com/user-attachments/assets/e3427037-bc39-4ed1-aa0f-cdcedb452ba4" />
+
 
 The following command generates an RGB invoice:
 
@@ -3190,7 +3190,7 @@ It can be transmitted to Bob via any channel (text, QR code, etc.).
 To transfer from this invoice:
 
 
-- Bob (who holds the tokens in his stash) has a Bitcoin wallet. He needs to prepare a Bitcoin transaction (in the form of a PSBT, e.g. `tx.psbt`) which spends the UTXOs where the required RGB tokens are located, plus one UTXO for currency (exchange);
+- Bob (who holds the tokens in his stash) has a Bitcoin wallet. He must prepare a Bitcoin transaction (in the form of a PSBT, e.g. `tx.psbt`) that spends the UTXOs where the required RGB tokens are located, plus one UTXO for change;
 - Bob executes the following command:
 
 ```bash
@@ -3309,7 +3309,7 @@ Management of deterministic anchoring in Bitcoin transactions (Tapret, OP_RETURN
 - **Repository**: [client_side_validation](https://github.com/LNP-BP/client_side_validation)
 - **Crate**: [commit_verify](https://crates.io/crates/commit_verify)
 
-Multiple engagement combinations and integration with different protocols.
+Multiple engagement combinations and integration with different protocols. 
 
 #### Strict Types & Strict Encoding
 
@@ -3508,7 +3508,7 @@ All in all, Iris offers a user experience close to that of a classic Bitcoin wal
 
 ### Proxy server and user experience
 
-The proxy server introduced above deserves to be detailed, as it is the key to a smooth user experience. Instead of the sender having to manually transmit the *consignments* to the recipient, the RGB transaction takes place in the background via a:
+The proxy server introduced above deserves to be detailed, as it is the key to a smooth user experience. Instead of the sender having to manually transmit the *consignments* to the recipient, the RGB transaction takes place in the background via:
 
 
 - The recipient generates an *invoice* (containing, among other things, the proxy address);
@@ -3528,7 +3528,7 @@ Another key focus of the Bitfinex team's work is to make the Lightning Network c
 - Generate Lightning commitment transactions (Bitcoin side) accompanied by corresponding RGB state transitions. Each time the channel is updated, an RGB transition redefines the asset distribution in the Lightning outputs;
 - Enable unilateral closure, where the asset is retrieved in an exclusive UTXO, in compliance with Lightning Network rules (HTLC, timelock, punishment, etc.).
 
-This solution, dubbed "**RGB Lightning Node**", uses LDK (*Lightning Dev Kit*) as a base, and adds the mechanisms needed to inject RGB tokens into the channels. Lightning commitments retain the classic structure (puncturable outputs, timelock...), and in addition anchor an RGB state transition (via `Opret` or `Tapret`). For the user, this opens the way to Lightning channels in stablecoins or in any other asset emitted via RGB.
+This solution, dubbed "**RGB Lightning Node**", uses LDK (*Lightning Dev Kit*) as a base, and adds the mechanisms needed to inject RGB tokens into the channels. Lightning commitments retain the classic structure (punishable outputs, timelock...), and in addition anchor an RGB state transition (via `Opret` or `Tapret`). For the user, this opens the way to Lightning channels in stablecoins or in any other asset emitted via RGB.
 
 ### DEX potential and impact on Bitcoin
 
@@ -3592,7 +3592,7 @@ The code is still at the alpha stage: we recommend using it in **regtest** or on
 
 ### Node installation
 
-To compile and install the `rgb-lightning-node` binary, we start by cloning the repository and its sub-modules, then we run the:
+To compile and install the `rgb-lightning-node` binary, we start by cloning the repository and its sub-modules, then we run the command:
 
 ```bash
 git clone https://github.com/RGB-Tools/rgb-lightning-node --recurse-submodules --shallow-submodules
@@ -3736,12 +3736,12 @@ rgb-lightning-node dataldk2/ --daemon-listening-port 3003 \
 --ldk-peer-listening-port 9737 --network testnet
 ```
 
-By default, if no configuration is found, the daemon will try to use the:
+By default, if no configuration is found, the daemon will try to use the following:
 
 
 - `bitcoind_rpc_host`: `electrum.iriswallet.com`
 - `bitcoind_rpc_port`: `18332`
-- indexer_url`: `ssl://electrum.iriswallet.com:50013`
+- `indexer_url`: `ssl://electrum.iriswallet.com:50013`
 - `proxy_endpoint`: `rpcs://proxy.iriswallet.com/0.2/json-rpc`
 
 With login:
@@ -3770,7 +3770,7 @@ curl -X POST -H "Content-Type: application/json" \
 
 ![RGB-Bitcoin](assets/en/107.webp)
 
-You can, of course, adapt the order. To confirm the transaction, we mine a:
+You can, of course, adapt the order. To confirm the transaction, we will mine a block:
 
 ```bash
 ./regtest.sh mine 1

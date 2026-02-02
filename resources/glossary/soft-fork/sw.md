@@ -1,5 +1,6 @@
 ---
-term: Soft Fork
+term: Soft fork
+definition: Marekebisho yanayooana nyuma ya sheria za itifaki ya Bitcoin, bila mgawanyiko wa mtandao.
 ---
 
 Marekebisho ya sheria za itifaki kwa njia inayolingana ya nyuma. Tofauti na Hard Fork, Soft Fork haisababishi kugawanywa kwa nodi za mtandao wa Bitcoin katika vikundi viwili tofauti, mradi tu nguvu nyingi za kompyuta ziko kwenye msururu uliosasishwa. Ikiwa kila kitu kinakwenda vizuri, nodes zilizo na sasisho na nodes bila sasisho zinabaki kwenye Blockchain sawa. Marekebisho yanaweza kutumika nyuma wakati yanaongeza au kufanya sheria fulani za itifaki kuwa na vikwazo zaidi.

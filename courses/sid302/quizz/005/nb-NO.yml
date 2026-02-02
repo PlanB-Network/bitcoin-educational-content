@@ -1,0 +1,8 @@
+question: Hva er navnet på Bitcoin-representasjonen som brukes i Liquid Network?
+answer: Liquid Bitcoin (LBTC)
+wrong_answers:
+  - Innpakket Bitcoin (WBTC)
+  - Sidechain Bitcoin (SBTC)
+  - Federated Bitcoin (FBTC)
+explanation: |
+  Liquid Bitcoin (LBTC) er det korrekte navnet for Bitcoin når den finnes på Liquid-sidekjeden. Når brukere pegger inn sin Bitcoin til Liquid, mottar de en tilsvarende mengde LBTC som kan brukes til transaksjoner i Liquid Network. WBTC er en Ethereum-basert Bitcoin token, mens SBTC og FBTC ikke er ekte Bitcoin-representasjoner som brukes i noen større nettverk.

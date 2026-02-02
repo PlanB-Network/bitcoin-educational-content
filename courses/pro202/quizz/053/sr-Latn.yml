@@ -1,0 +1,8 @@
+question: Koji specifičan izazov konverzije endianness-a moraju rešiti Bitcoin čvorovi prilikom konstruisanja i verifikacije Merkle stabala iz podataka o transakcijama?
+answer: Heševi transakcija moraju biti preokrenuti iz malog-endijan serijalizovanog formata u veliki-endijan za internu računsku obradu stabla, a zatim ponovo preokrenuti za skladištenje.
+wrong_answers:
+  - Zaglavlja blokova moraju biti konvertovana iz big-endian u little-endian pre računanja Merkle korena kako bi se poklopila sa formatom prenosa mreže
+  - Konačni Merkle root mora biti konvertovan iz big-endian u little-endian samo prilikom prenosa drugim čvorovima putem P2P poruka.
+  - ID-ovi transakcija su sačuvani u big-endian formatu, ali moraju biti konvertovani u little-endian pre heširanja parova u Merkle drvetu
+explanation: |
+  Konstrukcija Merkle stabla u Bitcoin uključuje kritičan korak konverzije endianness-a. Dok serijalizovani podaci bloka koriste little-endian format, interna računanja Merkle stabla zahtevaju big-endian heševe. Čvorovi moraju obrnuti heševe transakcija iz njihovog serijalizovanog little-endian formata u big-endian pre konstrukcije stabla, a zatim obrnuti konačni koren nazad u little-endian za skladištenje u zaglavlju bloka. Ova konverzija je esencijalna za pravilnu verifikaciju.

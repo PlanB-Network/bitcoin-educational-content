@@ -1,0 +1,8 @@
+question: Koja je primarna prednost statičkog tipiziranja Rust u odnosu na dinamičko tipiziranje prilikom razvoja Bitcoin aplikacija?
+answer: Greške tipa se hvataju u vreme kompajliranja pre implementacije, sprečavajući greške u radu prilikom rukovanja sredstvima korisnika.
+wrong_answers:
+  - Staticko tipiziranje omogućava bržu brzinu izvršavanja prilikom obrade Bitcoin transakcija na blokčejnu
+  - "Dinamičko tipiziranje zahteva više alokacije memorije što je u sukobu sa zahtevima za laganim čvorovima Bitcoin"
+  - Staticko tipiziranje omogućava automatsko generisanje koda za implementacije Bitcoin protokola i pametne ugovore
+explanation: |
+  Rust-ovo statičko tipiziranje otkriva neusaglašenosti tipova tokom kompilacije, osiguravajući da se greške reše pre nego što softver može biti izgrađen ili implementiran. Ovo je ključno za razvoj Bitcoin jer kada softver jednom rukuje stvarnim korisničkim sredstvima, greške tipa u vreme izvršavanja mogle bi izazvati nepovratne finansijske gubitke. Dinamičko tipiziranje otkriva greške samo tokom izvršavanja, potencijalno nakon implementacije kada je novac korisnika u opasnosti. Ostale opcije su netačne jer primarna prednost statičkog tipiziranja nije brzina izvršavanja, upotreba memorije ili generisanje koda, već prevencija grešaka u vreme kompilacije.

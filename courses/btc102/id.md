@@ -634,7 +634,7 @@ Dengan melakukan pendekatan seperti ini, Anda tidak akan membahayakan kesehatan 
 ![image](assets/id/023.webp)
 
 
-Setelah anggaran Anda ditentukan, pikirkan bagaimana Anda ingin berinvestasi. Salah satu metode yang paling ramah pemula dan banyak direkomendasikan adalah Dollar Cost Averaging (DCA), membeli Bitcoin dalam jumlah tetap secara berkala (mingguan, bulanan, dll). Strategi ini membantu memuluskan harga masuk rata-rata Anda dari waktu ke waktu dan mengurangi dampak emosional dari perubahan harga. Ini adalah pendekatan yang cerdas bagi kebanyakan orang, terutama pendatang baru.
+Setelah anggaran Anda ditentukan, pikirkan bagaimana Anda ingin berinvestasi. Salah satu metode yang paling ramah pemula dan banyak direkomendasikan adalah [Dollar Cost Averaging (DCA)](https://planb.academy/resources/glossary/dollar-cost-averaging-dca), membeli Bitcoin dalam jumlah tetap secara berkala (mingguan, bulanan, dll). Strategi ini membantu memuluskan harga masuk rata-rata Anda dari waktu ke waktu dan mengurangi dampak emosional dari perubahan harga. Ini adalah pendekatan yang cerdas bagi kebanyakan orang, terutama pendatang baru.
 
 
 Kemudian, tanyakan pada diri sendiri: Apa jangka waktu saya?
@@ -668,7 +668,7 @@ Yang terpenting, jangan pernah berinvestasi lebih dari yang Anda mampu untuk keh
 ### Mengelola dan mengamankan Bitcoin Wallet Anda
 
 
-Salah satu fitur Bitcoin yang paling kuat (dan sering diremehkan) adalah **self-custody**. Dengan Wallet yang disimpan sendiri, Anda sendiri yang bertanggung jawab atas dana Anda. Dompet ini biasanya dibuat dari **frase pemulihan** (juga dikenal sebagai frase seed), serangkaian 12 atau 24 kata yang memberikan akses penuh ke BTC Anda. Jika Anda kehilangan frasa ini (atau jika orang lain mendapatkannya), maka bitcoin Anda akan hilang untuk selamanya. **Tidak ada dukungan pelanggan. Tidak ada tombol reset.**
+Salah satu fitur Bitcoin yang paling kuat (dan sering diremehkan) adalah **[self-custody](https://planb.academy/resources/glossary/selfcustody)**. Dengan Wallet yang disimpan sendiri, Anda sendiri yang bertanggung jawab atas dana Anda. Dompet ini biasanya dibuat dari **frase pemulihan** (juga dikenal sebagai frase seed), serangkaian 12 atau 24 kata yang memberikan akses penuh ke BTC Anda. Jika Anda kehilangan frasa ini (atau jika orang lain mendapatkannya), maka bitcoin Anda akan hilang untuk selamanya. **Tidak ada dukungan pelanggan. Tidak ada tombol reset.**
 
 
 ![image](assets/id/025.webp)
@@ -977,7 +977,7 @@ Salah satu kekuatan Bitcoin yang paling diremehkan adalah kemampuannya untuk dip
 #### Protokol publik, dapat diverifikasi oleh semua orang
 
 
-Bitcoin berjalan pada protokol **open-source** publik (terutama melalui [Bitcoin Core] (https://github.com/Bitcoin/Bitcoin)). Ini berarti kodenya tersedia secara bebas bagi siapa saja untuk diperiksa, diaudit, dan ditingkatkan. Tidak ada mekanisme tersembunyi atau sistem tertutup; segala sesuatu tentang cara kerja Bitcoin ada di tempat terbuka.
+Bitcoin berjalan pada protokol **open-source** publik (terutama melalui [Bitcoin Core](https://github.com/Bitcoin/Bitcoin)). Ini berarti kodenya tersedia secara bebas bagi siapa saja untuk diperiksa, diaudit, dan ditingkatkan. Tidak ada mekanisme tersembunyi atau sistem tertutup; segala sesuatu tentang cara kerja Bitcoin ada di tempat terbuka.
 
 Tingkat transparansi ini membuatnya sangat sulit untuk memperkenalkan pintu belakang atau membuat perubahan rahasia. Siapa pun yang memiliki keterampilan teknis dapat menjalankan node, berkontribusi pada pengembangan, atau membangun alat yang kompatibel. Dalam Bitcoin, kepercayaan diperoleh melalui kode dan konsensus, bukan melalui kontrol terpusat.
 
@@ -1006,7 +1006,7 @@ Meskipun pendekatan ini lebih bersifat teknis, pendekatan ini menawarkan para pe
 #### Metode Pembayaran Lintas Batas yang Tangguh
 
 
-Karena sifatnya yang terdesentralisasi, Bitcoin beroperasi 24/7, tidak terpengaruh oleh perbatasan atau zona waktu. Di wilayah di mana kurangnya infrastruktur perbankan tradisional, Bitcoin sering digunakan sebagai solusi cepat dan murah untuk mengirim atau menerima dana tanpa bergantung pada perantara yang mahal. Meskipun biaya transaksi dapat bervariasi berdasarkan kepadatan jaringan, biaya ini umumnya jauh lebih rendah daripada biaya yang dikenakan oleh bank untuk transfer internasional. Selain itu, solusi Layer-2 seperti Lightning Network memungkinkan transaksi Bitcoin yang lebih cepat dan lebih murah.
+Karena sifatnya yang terdesentralisasi, Bitcoin beroperasi 24/7, tidak terpengaruh oleh perbatasan atau zona waktu. Di wilayah di mana kurangnya infrastruktur perbankan tradisional, Bitcoin sering digunakan sebagai solusi cepat dan murah untuk mengirim atau menerima dana tanpa bergantung pada perantara yang mahal. Meskipun biaya transaksi dapat bervariasi berdasarkan kepadatan jaringan, biaya ini umumnya jauh lebih rendah daripada biaya yang dikenakan oleh bank untuk transfer internasional. Selain itu, solusi Layer-2 seperti [Lightning Network](https://planb.academy/resources/glossary/lightning-network) memungkinkan transaksi Bitcoin yang lebih cepat dan lebih murah.
 
 
 #### Tempat penyimpanan nilai
@@ -1536,7 +1536,7 @@ Industri Bitcoin Wallet dibagi menjadi beberapa kategori, masing-masing melayani
 
 
 
-- **Produsen Hardware Wallet**: Perusahaan-perusahaan ini mengembangkan perangkat fisik yang dirancang untuk penyimpanan kunci yang aman. Beberapa diantaranya merupakan sumber terbuka, sementara yang lainnya menawarkan solusi eksklusif dengan berbagai fitur dan tingkat keamanan. Nama-nama yang terkenal termasuk Ledger, Trezor, Coinkite, Foundation, dan Shiftcrypto.
+- **Produsen [Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet)**: Perusahaan-perusahaan ini mengembangkan perangkat fisik yang dirancang untuk penyimpanan kunci yang aman. Beberapa diantaranya merupakan sumber terbuka, sementara yang lainnya menawarkan solusi eksklusif dengan berbagai fitur dan tingkat keamanan. Nama-nama yang terkenal termasuk Ledger, Trezor, Coinkite, Foundation, dan Shiftcrypto.
 - **Software Wallet Pengembang**: Mulai dari perusahaan hingga pengembang independen yang membuat aplikasi seluler dan desktop. Penawaran mereka bervariasi dalam hal pengalaman pengguna, keamanan, dan fitur. Contohnya termasuk Sparrow, Wizard Sarden, Galoy, Synonym, dan Blockstream.
 - **Dompet DIY (*Do It Yourself*)**: Solusi sumber terbuka ini dirancang untuk pengguna tingkat lanjut yang menginginkan kontrol penuh dan ketergantungan minimal pada pihak ketiga. Membangun Wallet Anda sendiri akan mengurangi ketergantungan pada pihak ketiga dan dapat meningkatkan postur keamanan Anda. Opsi DIY yang terkenal termasuk Seedsigner dan Specter DIY.
 
@@ -2108,7 +2108,7 @@ Membeli Bitcoin tanpa mengungkapkan identitas Anda adalah pilihan bagi mereka ya
 - **Platform P2P**: Platform seperti Bisq, RoboSats, dan Peach memfasilitasi pertukaran antara individu pribadi tanpa perlu verifikasi identitas, menggunakan sistem escrow untuk mengamankan transaksi. Platform-platform ini masih memiliki risiko pencurian jika pihak lain tidak bekerja sama, tetapi risiko ini diminimalkan dengan layanan escrow.
 - **Anjungan Tunai Mandiri (ATM) Bitcoin **: Beberapa ATM (kios) memungkinkan Anda membeli Bitcoin dengan uang tunai, meskipun biayanya cenderung tinggi, dan beberapa memerlukan verifikasi ID untuk transaksi yang lebih besar.
 - **Platform Exchange bebas KYC**: Beberapa platform, terutama di Swiss, memungkinkan Anda membeli Bitcoin dalam jumlah kecil tanpa memerlukan verifikasi identitas.
-- **Mining**: Perorangan dapat menambang Bitcoin. Mesin yang lebih tua atau lebih kecil dapat diakses, memberikan cara non-tradisional untuk mendapatkan Bitcoin tanpa KYC. Dengan bergabung dengan Mining pool, Anda dapat memperoleh pembayaran reguler, bahkan dengan peralatan dasar. Untuk info lebih lanjut, [lihat tutorial Mining] (https://planb.academy/tutorials/mining).
+- **Mining**: Perorangan dapat menambang Bitcoin. Mesin yang lebih tua atau lebih kecil dapat diakses, memberikan cara non-tradisional untuk mendapatkan Bitcoin tanpa KYC. Dengan bergabung dengan Mining pool, Anda dapat memperoleh pembayaran reguler, bahkan dengan peralatan dasar. Untuk info lebih lanjut, [lihat tutorial Mining](https://planb.academy/tutorials/mining).
 - **Pembayaran / Gaji dalam bitcoin**: Jika Anda menjalankan bisnis, Anda dapat menerima Bitcoin sebagai pembayaran. Jika Anda bekerja, tergantung pada yurisdiksi Anda, Anda mungkin dapat meminta untuk dibayar dengan Bitcoin. Metode-metode ini memungkinkan Anda memperoleh Bitcoin tanpa KYC.
 
 
@@ -2803,7 +2803,7 @@ Pilihan untuk membelanjakan bitcoin sering kali menjadi sasaran kritik. Beberapa
 Pendekatan yang lebih logis adalah metode "Habiskan dan Ganti". Ini berarti membelanjakan Bitcoin untuk semua alasan yang disebutkan sebelumnya, dan kemudian, alih-alih membiarkan tabungan Bitcoin Anda menyusut, Anda mengganti Sats yang telah dihabiskan dengan membeli yang baru dengan mata uang fiat.
 
 
-Untuk mempermudah pembelanjaan Bitcoin, ada banyak alat yang tersedia, seperti [BTC Map] (https://btcmap.org/), yang menunjukkan kepada Anda pedagang di seluruh dunia yang menerima Bitcoin. Beberapa merchant ini bahkan memungkinkan Anda untuk memesan secara online dan mengirimkan produk.
+Untuk mempermudah pembelanjaan Bitcoin, ada banyak alat yang tersedia, seperti [BTC Map](https://btcmap.org/), yang menunjukkan kepada Anda pedagang di seluruh dunia yang menerima Bitcoin. Beberapa merchant ini bahkan memungkinkan Anda untuk memesan secara online dan mengirimkan produk.
 
 
 Karena kita masih dalam tahap transisi di mana tidak semua pedagang harian menerima BTC, ada beberapa solusi yang sederhana namun efektif. Misalnya, membeli kartu hadiah dengan Bitcoin adalah solusi praktis, dan banyak penyedia seperti Bitrefill, Coinsbee, atau The Bitcoin Company yang menawarkan layanan ini.
@@ -2897,7 +2897,7 @@ Pengguna paranoid tidak pernah mencampur dana berdasarkan asal atau penggunaanny
 
 
 
-- **A Cold Wallet (air-gapped dan/atau DIY)** Kepemilikan jangka panjang disimpan dalam dompet yang sangat aman, air-gapped atau DIY. Ini biasanya merupakan perangkat sumber terbuka atau perangkat dengan kode yang dapat diverifikasi, seperti Jade, Coldcard, SeedSigner, Portal, atau Passport... Jika memungkinkan, mereka akan mendapatkan perangkat ini secara anonim; baik dengan membayar tunai atau menggunakan Bitcoin di toko fisik, atau dengan memesan secara online dengan opsi pengiriman yang bijaksana dan pembayaran BTC. Di Prancis, misalnya, [Bitcoin Bazar] (https://bitcoinbazar.fr/) adalah salah satu toko tersebut. Anda dapat mencari penyedia serupa di wilayah Anda.
+- **A Cold Wallet (air-gapped dan/atau DIY)** Kepemilikan jangka panjang disimpan dalam dompet yang sangat aman, air-gapped atau DIY. Ini biasanya merupakan perangkat sumber terbuka atau perangkat dengan kode yang dapat diverifikasi, seperti Jade, Coldcard, SeedSigner, Portal, atau Passport... Jika memungkinkan, mereka akan mendapatkan perangkat ini secara anonim; baik dengan membayar tunai atau menggunakan Bitcoin di toko fisik, atau dengan memesan secara online dengan opsi pengiriman yang bijaksana dan pembayaran BTC. Di Prancis, misalnya, [Bitcoin Bazar](https://bitcoinbazar.fr/) adalah salah satu toko tersebut. Anda dapat mencari penyedia serupa di wilayah Anda.
 
 
 https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
@@ -3170,7 +3170,7 @@ Meluangkan waktu hanya 15 menit hingga satu jam untuk membuat rencana warisan da
 ### Tujuan dari Rencana Suksesi Bitcoin
 
 
-Pamela Morgan, dalam bukunya *[Perencanaan Warisan Aset Kripto] (https://www.amazon.com/gp/product/1947910116/)*, menguraikan empat tujuan utama untuk rencana warisan yang solid:
+Pamela Morgan, dalam bukunya *[Perencanaan Warisan Aset Kripto](https://www.amazon.com/gp/product/1947910116/)*, menguraikan empat tujuan utama untuk rencana warisan yang solid:
 
 
 
@@ -3183,10 +3183,10 @@ Pamela Morgan, dalam bukunya *[Perencanaan Warisan Aset Kripto] (https://www.ama
 Rencana yang matang bukan hanya tentang mentransfer kekayaan; tetapi juga tentang melindungi orang yang Anda cintai dari kesalahan umum dan potensi ancaman.
 
 
-Bab ini terinspirasi oleh karya [Pamela Morgan] (https://x.com/pamelawjd). [Bukunya] (https://www.amazon.com/gp/product/1947910116/) dan meskipun bukunya menawarkan metode yang terperinci dan divalidasi oleh para ahli untuk membuat rencana waris Bitcoin, **isi ini bukan merupakan nasihat hukum**.  Ini adalah pendekatan yang telah terbukti, tetapi setiap orang harus melakukan penelitian sendiri dan menyesuaikan rekomendasinya agar sesuai dengan situasi dan yurisdiksi pribadi mereka.
+Bab ini terinspirasi oleh karya [Pamela Morgan](https://x.com/pamelawjd). [Bukunya](https://www.amazon.com/gp/product/1947910116/) dan meskipun bukunya menawarkan metode yang terperinci dan divalidasi oleh para ahli untuk membuat rencana waris Bitcoin, **isi ini bukan merupakan nasihat hukum**.  Ini adalah pendekatan yang telah terbukti, tetapi setiap orang harus melakukan penelitian sendiri dan menyesuaikan rekomendasinya agar sesuai dengan situasi dan yurisdiksi pribadi mereka.
 
 
-[Pamela Morgan] (https://x.com/pamelawjd) telah dengan murah hati mengizinkan penggunaan [karyanya] (https://www.amazon.com/gp/product/1947910116/) untuk kursus ini, dan kita akan mengikuti pendekatannya untuk membuat rencana waris Bitcoin yang konkret. Pada bab ini, kita akan fokus pada bagian pertama dari bukunya.
+[Pamela Morgan](https://x.com/pamelawjd) telah dengan murah hati mengizinkan penggunaan [karyanya](https://www.amazon.com/gp/product/1947910116/) untuk kursus ini, dan kita akan mengikuti pendekatannya untuk membuat rencana waris Bitcoin yang konkret. Pada bab ini, kita akan fokus pada bagian pertama dari bukunya.
 
 
 ![image](assets/id/097.webp)
@@ -3454,10 +3454,10 @@ Jika perlu, konsultasikan dengan pengacara atau notaris untuk mengintegrasikan r
 
 https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
-Referensi: [*Perencanaan Warisan Aset Kripto, Panduan Sederhana untuk Pemilik* - Pamela Morgan, 2018.] (https://www.amazon.com/gp/product/1947910116/)
+Referensi: [*Perencanaan Warisan Aset Kripto, Panduan Sederhana untuk Pemilik* - Pamela Morgan, 2018.](https://www.amazon.com/gp/product/1947910116/)
 
 
-Terima kasih khusus kepada [Pamela Morgan] (https://x.com/pamelawjd) atas karyanya dan telah mengizinkan konten ini untuk diadaptasi.
+Terima kasih khusus kepada [Pamela Morgan](https://x.com/pamelawjd) atas karyanya dan telah mengizinkan konten ini untuk diadaptasi.
 
 
 
@@ -3584,7 +3584,7 @@ Bitcoin lebih dari sekadar alat keuangan; ini adalah sebuah gerakan. Bergantung 
 - **Bergabunglah dengan komunitas lokal**: Berpartisipasilah dalam acara, pertemuan, dan forum untuk bertemu dengan para pengguna bitcoin lainnya dan Exchange melihat perkembangan terbaru.
 
 
-Jika Anda ingin membantu mengedukasi orang lain, Plan ₿ Academy selalu mencari kontributor! Semua konten edukasi kami bersifat open-source dan dihosting di GitHub. Kami menyambut para kontributor untuk membantu mengoreksi dan menerjemahkan konten ke dalam berbagai bahasa; di Exchange untuk beberapa Sats! Baik sekarang atau nanti dalam perjalanan Bitcoin Anda, Anda diundang untuk bergabung dengan [grup Telegram kami untuk kontributor] (https://t.me/PlanBNetwork_ContentBuilder) di Plan ₿ Academy.
+Jika Anda ingin membantu mengedukasi orang lain, Plan ₿ Academy selalu mencari kontributor! Semua konten edukasi kami bersifat open-source dan dihosting di GitHub. Kami menyambut para kontributor untuk membantu mengoreksi dan menerjemahkan konten ke dalam berbagai bahasa; di Exchange untuk beberapa Sats! Baik sekarang atau nanti dalam perjalanan Bitcoin Anda, Anda diundang untuk bergabung dengan [grup Telegram kami untuk kontributor](https://t.me/PlanBNetwork_ContentBuilder) di Plan ₿ Academy.
 
 
 ### Kata-kata terakhir

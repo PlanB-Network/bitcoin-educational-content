@@ -1,10 +1,10 @@
-question: Welke van de volgende antwoorden vormt geen risico bij het versturen van bitcoins die een CoinJoin hebben ondergaan naar een gereguleerd platform?
+question: Welke van de volgende antwoorden vormt geen risico bij het versturen van bitcoins, die een CoinJoin hebben ondergaan, naar een gereguleerd platform?
 answer: Het platform kan de transactiekosten verhogen
 wrong_answers:
   - Het platform kan de fondsen bevriezen
   - Het platform kan het account van de gebruiker blokkeren
   - Het platform kan verdacht gedrag melden aan de autoriteiten
 explanation: |
-  Als je je munt naar een gereguleerd Exchange platform stuurt, maar deze heeft onlangs een CoinJoin ondergaan, dan zal de ketenanalysetool van het platform dit feit detecteren. Het platform kan dan weigeren om je UTXO te accepteren die een CoinJoin heeft ondergaan, of zelfs uitleg van je eisen, met het risico dat je account wordt opgeschort of je fondsen worden bevroren. In sommige gevallen kan het platform je gedrag ook rapporteren aan overheidsinstanties.
+  Als je je munt naar een gereguleerd exchange-platform stuurt, maar deze heeft onlangs een CoinJoin ondergaan, dan zal de ketenanalysetool van het platform dit feit detecteren. Het platform kan dan weigeren om je UTXO te accepteren die een CoinJoin heeft ondergaan, of zelfs uitleg van je eisen, met het risico dat je account wordt opgeschort of je fondsen worden bevroren. In sommige gevallen kan het platform je gedrag ook rapporteren aan overheidsinstanties.
   
 reviewed: false

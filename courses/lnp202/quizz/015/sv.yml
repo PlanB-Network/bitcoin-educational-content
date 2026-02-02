@@ -1,0 +1,9 @@
+question: Vad kan anpassas i Lightning-nodens avancerade inställningar?
+answer: Nodens publika namn
+wrong_answers:
+  - Regler för samförstånd mellan noder
+  - Nodens privata nycklar
+  - De rutter som valts av noden
+explanation: |
+  Med avancerade inställningar kan du anpassa nodidentifieringselementen utan att påverka konsensus eller Lightning-nätverkets funktion.
+reviewed: false

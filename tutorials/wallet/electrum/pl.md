@@ -527,7 +527,7 @@ Czasami, pomimo robienia wszystkiego dobrze, pozornie odmawia połączenia. Oto 
 - Zaktualizuj Electrum i oprogramowanie węzła do nowszej wersji;
 - Spróbuj usunąć folder pamięci podręcznej w katalogu ".electrum";
 - Spróbuj zmienić port z 50002 na 50001 w ustawieniach sieciowych;
-- Skorzystaj z [tego przewodnika] (https://armantheparman.com/tor/), aby połączyć się za pomocą Tora jako alternatywy;
+- Skorzystaj z [tego przewodnika](https://armantheparman.com/tor/), aby połączyć się za pomocą Tora jako alternatywy;
 - Ponownie zainstaluj Electrum Server na węźle.
 
 

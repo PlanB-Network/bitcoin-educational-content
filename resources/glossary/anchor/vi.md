@@ -1,5 +1,6 @@
 ---
 term: Anchor
+definition: Trong giao thức RGB, một tập hợp dữ liệu chứng minh sự bao gồm một cam kết trong giao dịch Bitcoin, mà không tiết lộ công khai nội dung của nó.
 ---
 
 Trong giao thức RGB, Anchor biểu diễn một tập hợp dữ liệu phía máy khách được sử dụng để chứng minh việc đưa một Commitment duy nhất vào một giao dịch. Trong giao thức RGB, Anchor bao gồm Elements sau:

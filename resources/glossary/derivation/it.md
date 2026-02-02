@@ -1,6 +1,7 @@
 ---
-term: DERIVAZIONE
+term: Derivazione
 
+definition: Processo di generazione di chiavi figlie da una coppia di chiavi parenti in un wallet HD.
 ---
 Si riferisce al processo di generazione di coppie di chiavi figlio da una coppia di chiavi genitore (chiave privata e chiave pubblica) e da un codice a catena all'interno di un portafoglio deterministico e gerarchico (HD). Questo processo consente la segmentazione dei rami e l'organizzazione di un portafoglio in diversi livelli con numerose coppie di chiavi figlio, che possono essere tutte recuperate conoscendo solo le informazioni di base per il recupero (la frase mnemonica e qualsiasi potenziale passphrase). Per derivare una chiave figlia, si utilizza la funzione `HMAC-SHA512` con il codice di catena del genitore e la concatenazione della chiave del genitore e di un indice a 32 bit. Esistono due tipi di derivazioni:
 

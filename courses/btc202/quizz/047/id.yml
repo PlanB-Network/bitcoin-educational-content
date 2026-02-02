@@ -5,5 +5,5 @@ wrong_answers:
   - Menggunakan kode PIN
   - Menonaktifkan semua koneksi
 explanation: |
-  2FA menambahkan perlindungan ekstra dan sangat direkomendasikan, terutama ketika menggunakan simpul Lightning atau hosting mandiri yang sensitif.
+  2FA menambahkan perlindungan ekstra dan sangat direkomendasikan, terutama ketika menggunakan node Lightning atau hosting mandiri yang sensitif.
 reviewed: true

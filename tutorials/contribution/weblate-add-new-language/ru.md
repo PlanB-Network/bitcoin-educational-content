@@ -17,7 +17,7 @@ description: Как добавить новый язык в Plan ₿ Academy?
 Чтобы проверить, входит ли ваш язык в число тех, над которыми мы работаем.
 
 
-- Перейдите на [нашу платформу Weblate] (https://weblate.planb.network/projects/planb-network-website/):
+- Перейдите на [нашу платформу Weblate](https://weblate.planb.network/projects/planb-network-website/):
 
 ![language](assets/01.webp)
 

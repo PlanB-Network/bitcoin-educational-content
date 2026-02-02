@@ -1,0 +1,8 @@
+question: Bir hizmet sağlayıcı HTLC'leri kullanarak bir Liquid-Lightning takasını tamamlamak için bir Lightning faturası ödediğinde ne olur?
+answer: Sağlayıcı, Lightning ödemesinden ön görüntüyü alır ve bunu daha sonra kilidi açmak ve HTLC'den L-BTC'yi talep etmek için kullanabilir
+wrong_answers:
+  - Sağlayıcı, HTLC sözleşmesinde kilitli L-BTC'ye erişmeden önce zaman kilidinin sona ermesini beklemelidir
+  - "İstemci ön görüntüyü otomatik olarak alır ve bunu L-BTC'yi doğrudan sağlayıcının Liquid wallet'üne bırakmak için kullanır"
+  - HTLC sözleşmesi otomatik olarak yürütülür ve herhangi bir ek kriptografik kanıt gerektirmeden L-BTC'yi sağlayıcıya aktarır
+explanation: |
+  HTLC'ler, her iki ağda da aynı hash kilidini kullanarak kriptografik bağlama yoluyla atomik takaslar oluşturur. Sağlayıcı Lightning faturasını başarıyla ödediğinde, hash kilidiyle eşleşen ön görüntüyü (gizli) elde eder. Bu ön görüntü, daha önce HTLC'da kilitli olan L-BTC'nin kilidini açmalarını sağlayan kriptografik anahtardır. Diğer seçenekler HTLC'lerin atomik doğasını yansıtmadığı için yanlıştır - zaman kilidi yalnızca bir geri dönüş mekanizmasıdır, istemciler ön görüntü dağıtımını gerçekleştirmez ve HTLC'ler otomatik yürütme yerine aktif kriptografik kanıt gerektirir.

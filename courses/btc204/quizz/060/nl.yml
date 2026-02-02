@@ -1,4 +1,4 @@
-question: Welke informatie moet er op een etiket staan?
+question: Welke informatie moet er op een label staan?
 answer: De oorsprong van een UTXO.
 wrong_answers:
   - De aanmaakdatum van een UTXO.

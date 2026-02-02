@@ -1,0 +1,9 @@
+question: Assignment ในโปรโตคอล RGB คืออะไร?
+answer: เอาต์พุตที่แก้ไข ปรับปรุง หรือสร้างคุณสมบัติในสถานะของสัญญา
+wrong_answers:
+  - คำมั่นสัญญาทางการเข้ารหัสที่ไม่ซ้ำกันซึ่งถูกเก็บไว้ในธุรกรรม Bitcoin
+  - ธุรกรรม Bitcoin ที่ลงนามบางส่วนก่อนการตรวจสอบขั้นสุดท้าย
+  - การอัปเดตสาธารณะของ Global State
+explanation: |
+  Assignment รวม Seal Definition และ Owned State เพื่อแสดงส่วนที่จัดสรรของรัฐ
+reviewed: false

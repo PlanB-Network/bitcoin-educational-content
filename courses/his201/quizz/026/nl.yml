@@ -5,5 +5,5 @@ wrong_answers:
   - Vereenvoudigde betalingsverificatie
   - De Blockchain
 explanation: |
-  Het aanvankelijke monetaire beleid kwam overeen met een constante uitgifte (X BTC/blok), zoals aangegeven in de eerste versie van het witte papier en Satoshi's [exchanges](https: //www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) met Ray Dillinger.
+  Het aanvankelijke monetaire beleid kwam overeen met een constante uitgifte (X BTC/blok), zoals aangegeven in de eerste versie van het witte papier en Satoshi's [exchanges](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) met Ray Dillinger.
 reviewed: true

@@ -1,8 +1,9 @@
-question: Ni inyigisho iyihe Boisguilbert atavuzwe?
+question: Ni inyigisho iyihe Boisguilbert yakuyemwo?
 answer: Nta n'imwe muri izo nyishu ibereye .
 wrong_answers:
   - Ivyiyumviro vya Keynes vyerekeye ubukene bw'akazi
-  - Ivyiyumviro vy'aba Marxiste
+  - Ivyiyumviro vy'aba Marxiste bw'ubusumbasumbane
   - Ivyiyumviro vy'ugusubirana birongowe n'ugukoresha
 explanation: |
   Boisguilbert yaravuzwe ko ari we yatanguriye ivyiyumviro vya Keynes vyerekeye ubukene bw’akazi, ivyiyumviro vya Marx vyerekeye umugwi n’ivyiyumviro vy’ugusubirana birongowe n’ugukoresha, naho nyene atari we yashizeho ivyo vyiyumviro mu buryo butomoye.
+reviewed: true

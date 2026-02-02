@@ -210,7 +210,7 @@ Juntos hacen de Bitcoin un **activo al portador** y una moneda digital **sin emi
 
 ![BIZ101](assets/es/003.webp)
 
-Bitcoin tiene una política monetaria fija, con un **màximo de 21 millones de bitcoins**, de los que ya se han distribuido ~19,8 millones. Esto hace que sea **deflaccionario**, y que su valor aumente con el tiempo a medida que los usuarios almacenan en él ahorros y ganancias de productividad.
+Bitcoin tiene una política monetaria fija, con un **máximo de 21 millones de bitcoins**, de los cuales ya se han minado ~19,8 (2024) millones. Esto lo hace **deflacionario**, aumentando su valor con el tiempo a medida que los usuarios almacenan en él ahorros y ganancias de productividad.
 
 Sus características técnicas superan las del oro y el dólar juntos, lo que lo convierte en el activo financiero más duro jamás creado. Bitcoin es a la vez un depósito de valor y un medio de intercambio, una moneda en proceso de formacion. Imagínese transferir valor de la tesorería de una empresa a otra con rapidez, sin intermediarios, a un coste mínimo, sin fraudes, 24 horas al día, 7 días a la semana, y sin que intervenga ningún tercero.
 
@@ -222,7 +222,7 @@ Bitcoin es disruptivo porque nos anima a aprender conceptos de matemáticas, cri
 
 Bitcoin nos reta a reconsiderar la naturaleza misma del dinero. ¿Podría explicar qué es realmente el dinero? Un trabajador asalariado o un empresario puede pasar entre 50.000 y 100.000 horas de su vida ganando dinero, pero ¿cuántos **dedican siquiera 100 horas a entenderlo mejor** y a preservarlo? Bitcoin nos anima a cuestionar las razones fundamentales de nuestra necesidad de dinero y nuestra perspectiva temporal. ¿El dinero es para lujos o para ser resiliente a largo plazo? Si tuviéramos un activo que se revalorizara y nos permitiera retrasar las compras, ¿qué decisiones tomaríamos? ¿Qué conversaciones desearíamos tener con nosotros mismos dentro de 20 o 30 años?
 
-**DOCUMENTO DE IDENTIDAD BITCOIN**
+**DOCUMENTO DE IDENTIDAD DE BITCOIN (en 2024)**
 
 - **Edad:** 15 años (3 de enero de 2009)
 - **Valor de cambio diario:** 10.000 millones de dólares (> CAC40)
@@ -306,7 +306,7 @@ La Lightning Network es ideal para pagos con Bitcoin en tiendas físicas u onlin
 - **Finalidad:** Una vez que se realiza un pago en Lightning, es definitivo. No hay posibilidad de devoluciones de cargo por parte de terceros ni de disputas relacionadas con fraudes.
 - **Comisiones:** Las comisiones por transacción en la red Lightning son mínimas y las paga el usuario, no el comerciante. Los comerciantes solo incurren en comisiones si posteriormente necesitan transferir su Bitcoin a otra red o servicio.
 
-**DOCUMENTO DE IDENTIDAD LIGHTNING**
+**DOCUMENTO DE IDENTIDAD DE LIGHTNING (en 2024)**
 
 
 - **Invención:** 2015

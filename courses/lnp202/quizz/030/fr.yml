@@ -1,0 +1,9 @@
+question: Du point de vue de votre nœud, quelle est la répartition initiale de la liquidité après l’ouverture d’un canal par celui-ci ?
+answer: 100 % sortante
+wrong_answers:
+  - 50 % entrante 50 % sortante
+  - 100 % entrante
+  - 90 % sortante 10 % entrante
+explanation: |
+  Lorsqu’on ouvre un canal, toute la liquidité se trouve initialement du côté de l’initiateur.
+reviewed: false

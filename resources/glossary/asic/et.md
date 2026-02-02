@@ -1,7 +1,8 @@
 ---
 term: ASIC
 
+definition: Spetsialiseeritud integreeritud skeem, mis on ette nähtud SHA256 rässide arvutamiseks Bitcoin kaevandamiseks, pakkudes energiatõhusust, mis on CPU ja GPU-st palju parem.
 ---
-ASIC on elektroonikakomponent, mis on loodud konkreetse funktsiooni täitmiseks optimaalse tõhususega. Bitcoini kaevandamise kontekstis on ASIC-d spetsiaalsed integraallülitused, mis teostavad kiireid ja madala energiakuluga hash-operatsioone. Need on spetsialiseerunud töö tõestusmehhanismis kasutatava šHA256 hash-funktsiooni täitmisele. Algselt viitab ASIC kiibi nimele. Laiendatult viitab lühend "ASIC" sageli ka masinale, milles see kiip asub. Seega kutsutakse Bitcoini kaevandamisele spetsialiseerunud arvuteid mõnikord "ASIC-deks" või "kaevandajateks" ASIC-d on järk-järgult asendanud teised kaevandamismeetodid, näiteks protsessorite (CPU) ja graafikakaartide (GPU) kasutamine, kuna need on energiatõhusamad ja palju suurema hash-kiirusega.
+ASIC on elektrooniline komponent, mis on loodud täitma konkreetset funktsiooni optimaalse tõhususega. Bitcoini kaevandamise kontekstis on ASIC-id spetsialiseeritud integraallülitused, mis teostavad räsitoiminguid suurel kiirusel ja väikese energiatarbega. Need on spetsialiseerunud töö tõendamise mehhanismis kasutatava räsifunktsiooni `SHA256` täitmisele. Algselt tähistab ASIC kiibi nime. Laiendatud tähenduses kasutatakse lühendit "ASIC" sageli ka selle kiipi majutava masina tähistamiseks. Seega nimetatakse Bitcoini kaevandamisele spetsialiseerunud arvuteid mõnikord "ASIC-iteks" või "kaevuriteks". ASIC-id on järk-järgult asendanud teised kaevandamismeetodid, nagu protsessorite (CPU) kasutamine Bitcoini algusaegadel ja hiljem graafikakaartide (GPU) kasutamine, tänu nende paremale energiatõhususele ja palju kõrgemale räsikiirusele.
 
-> *Lühend "ASIC" tähendab "Application-Specific Integrated Circuit" (rakendusspetsiifiline integraallülitus) Prantsuse keelde võib seda terminit tõlkida kui "Circuit intégré spécifique à une application".*
+Akronüüm "*ASIC*" tähendab inglise keeles "*Application-Specific Integrated Circuit*".

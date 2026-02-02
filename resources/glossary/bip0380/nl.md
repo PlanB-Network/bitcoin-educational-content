@@ -1,5 +1,6 @@
 ---
 term: BIP0380
+definition: Output Script Descriptors, een standaardtaal voor het beschrijven van de outputscripts van HD-wallets.
 ---
 
 Een voorstel voor verbetering dat een standaardtaal introduceert voor het beschrijven van de verzamelingen uitvoerscripts van HD Bitcoin wallets. Deze taal wordt "Output Script Descriptors" genoemd Het doel is het standaardiseren van de manier om uitvoerscripts weer te geven en te beheren, om de back-up, export en import van wallets te vergemakkelijken. Naast privégegevens zoals de herstelzin, geven de descriptors alle nodige informatie om de sleutelparen gebruikt in een HD Wallet op te halen. BIP380 beschrijft de algemene werking van descriptors, terwijl BIP381, BIP382, BIP383, BIP384, BIP385 en BIP386 de gebruikte expressies specificeren. BIP380 werd geïmplementeerd samen met alle andere Descriptor-gerelateerde BIP's (behalve BIP386) in versie 0.17 van Bitcoin core.

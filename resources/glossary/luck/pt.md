@@ -1,6 +1,7 @@
 ---
-term: SORTE
+term: Luck
 
+definition: Indicador que mede o desempenho de um pool de mineração em comparação com as expectativas teóricas.
 ---
 Um indicador utilizado em pools de mineração para medir o desempenho de um pool em relação às suas expectativas teóricas. Como o seu nome sugere, avalia a sorte do grupo em encontrar um bloco. A sorte é calculada comparando o número de acções teoricamente necessárias para encontrar um bloco válido, com base na dificuldade atual da Bitcoin, com o número real de acções produzidas para encontrar esse bloco. Um número de acções inferior ao esperado indica boa sorte, enquanto um número superior indica má sorte.
 

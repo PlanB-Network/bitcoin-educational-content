@@ -1,0 +1,8 @@
+question: Quale differenza fondamentale nell'architettura della blockchain rende Liquid più adatta alle operazioni finanziarie mission-critical rispetto alle piattaforme di tokenizzazione basate su Ethereum?
+answer: Liquid utilizza il modello UTXO di Bitcoin che fornisce risultati deterministici alle transazioni, mentre il modello di conto di Ethereum può dare luogo a transazioni fallite che consumano comunque gas
+wrong_answers:
+  - Liquid opera su un meccanismo di consenso proof-of-stake, mentre Ethereum si affida al proof-of-work mining, ad alta intensità energetica, per la convalida delle transazioni
+  - "La struttura della sidechain federata di Liquid consente un throughput di transazioni illimitato, mentre Ethereum è vincolato da limiti di dimensione dei blocchi a catena singola"
+  - Liquid implementa le funzionalità native degli smart contract attraverso lo scripting di Elements, mentre Ethereum richiede ambienti di esecuzione di macchine virtuali esterne
+explanation: |
+  La natura deterministica del modello UTXO è cruciale per le istituzioni finanziarie, perché le transazioni riescono completamente o falliscono senza alcun costo, fornendo risultati prevedibili. Il modello di conto di Ethereum può portare a transazioni fallite che consumano comunque le tariffe del gas, creando incertezza operativa e costi aggiuntivi che sono inaccettabili per le operazioni finanziarie mission-critical in cui l'affidabilità e la prevedibilità dei costi sono fondamentali.

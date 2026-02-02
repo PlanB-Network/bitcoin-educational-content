@@ -29,7 +29,7 @@ Bem-vindo ao curso BTC101!
 
 O Bitcoin é uma revolução tecnológica e monetária, capaz de nos fazer questionar a nossa relação com o dinheiro e com a sociedade. De facto, a Bitcoin (designada por BTC) é uma moeda **neutra** e **descentralizada**, o que significa que não é controlada por nenhuma entidade ou instituição. Trata-se de uma inovação que vai para além de uma mera "moeda da Internet": é simultaneamente um protocolo informático (Bitcoin) e uma unidade monetária (bitcoin).
 
-O protocolo utiliza tecnologias subjacentes como a criptografia, a comunicação em rede e a famosa "blockchain", enquanto a unidade bitcoin serve como a moeda necessária para o bom funcionamento deste protocolo. Na vida quotidiana, os salvadorenhos e os bitcoiners de todo o mundo utilizam a moeda bitcoin para comprar e vender bens e serviços, confiando nesta tecnologia para melhorar as suas vidas.
+O protocolo utiliza tecnologias subjacentes como a criptografia, a comunicação em rede e a famosa "[blockchain](https://planb.academy/resources/glossary/blockchain)", enquanto a unidade bitcoin serve como a moeda necessária para o bom funcionamento deste protocolo. Na vida quotidiana, os salvadorenhos e os bitcoiners de todo o mundo utilizam a moeda bitcoin para comprar e vender bens e serviços, confiando nesta tecnologia para melhorar as suas vidas.
 
 **Um currículo abrangente, mas acessível:**
 
@@ -39,39 +39,11 @@ Neste curso, discutiremos alguns aspectos monetários do Bitcoin, incluindo como
 
 É essencial compreender que o Bitcoin é um novo sistema monetário que altera completamente a nossa relação com o dinheiro, pelo que aprender a utilizá-lo é uma competência necessária para qualquer pessoa que queira ter o controlo dos seus próprios fundos.
 
-**Seção 1 - Introdução**  
-- Capítulo 1 - Visão Geral do Curso  
-- Capítulo 2 - A pré-história do Bitcoin  
 
-**Seção 2 - O Dinheiro**  
-- Capítulo 3 - O dinheiro ao longo da história  
-- Capítulo 4 - Moedas fiduciárias  
-- Capítulo 5 - Hiperinflação  
-- Capítulo 6 - 21 milhões de bitcoins  
 
-**Seção 3 - Carteiras Bitcoin**  
-- Capítulo 7 - O que é uma carteira Bitcoin?  
-- Capítulo 8 - Carteiras Bitcoin e segurança  
-- Capítulo 9 - Configuração de uma carteira  
-- Capítulo 10 - Superando o teste do tempo  
 
-**Seção 4 - Aspectos técnicos do Bitcoin**  
-- Capítulo 11 - Lançamento do Bitcoin  
-- Capítulo 12 - Transações em bitcoins  
-- Capítulo 13 - Nós Bitcoin  
-- Capítulo 14 - Mineradores  
-- Capítulo 15 - Bitcoin e ecologia  
 
-**Seção 5 - Como obter bitcoins?**  
-- Capítulo 16 - O Bitcoin nunca dorme!  
-- Capítulo 17 - Obter bitcoins através do trabalho  
-- Capítulo 18 - Poupar com Bitcoin  
-- Capítulo 19 - Hiperbitcoinização  
 
-**Seção 6 - O futuro do Bitcoin: a Lightning Network**  
-- Capítulo 20 - Uma breve introdução à Lightning Network  
-- Capítulo 21 - Casos de uso da Lightning Network  
-- Capítulo 22 - Pílula vermelha ou pílula azul?  
 
 Antes de introduzirmos a definição de dinheiro e a sua função na sociedade (Capítulo 1), devemos começar pela génese da Bitcoin. Lançada em 2009, a Bitcoin é uma tecnologia relativamente nova e diferente de tudo o resto. Por isso, é normal que não se compreenda tudo sobre ela, de uma só vez. De facto, tal como quando se aprende a utilizar a Internet ou a conduzir um automóvel, não é necessário conhecer todos os pormenores técnicos de imediato: pode começar por aprender a receber, pagar e proteger os seus fundos e, em seguida, dar pequenos passos para os estudar mais profundamente.
 
@@ -83,7 +55,6 @@ O importante aqui é compreender esta nova tecnologia de uma forma geral, por is
 
 Pronto para mergulhar no fascinante universo do Bitcoin e entender todos os seus mecanismos? Vamos lá!
 
-**N.B.**: Se encontrar termos desconhecidos durante o curso, consulte [o glossário](https://planb.academy/resources/glossary) para definições.
 
 ## A pré-história do Bitcoin
 
@@ -206,7 +177,7 @@ Para satisfazer estes critérios, a moeda tem evoluído historicamente através 
 
 As moedas continuam a evoluir até aos dias de hoje, adaptando as suas formas para responder a diferentes casos de utilização. Como dissemos, embora o ouro seja uma excelente reserva de valor, já não é adequado para a atual economia globalizada. Da mesma forma, as moedas fiduciárias, como o dólar e o euro, são muito líquidas e facilmente transportáveis, porque agora são maioritariamente digitais, mas o seu valor é constantemente reduzido pela inflação monetária.
 
-Por outro lado, a Bitcoin apresenta novas possibilidades. As suas propriedades, como a oferta estritamente limitada, fazem dela uma excelente reserva de valor. Além disso, sendo uma moeda neutra da Internet, serve como um **meio de troca** viável que transcende as fronteiras. No entanto, ainda não é amplamente aceite no comércio atual, apesar da sua [constante adoção] (https://btcmap.org/map).
+Por outro lado, o Bitcoin abre novas perspetivas. As suas propriedades, nomeadamente uma oferta estritamente limitada, fazem dele uma excelente reserva de valor. Além disso, enquanto moeda neutra da internet, constitui um **meio de troca** viável, capaz de transcender fronteiras. Contudo, apesar de uma adoção contínua (como ilustra [o mapa da BTCmap](https://btcmap.org/map)), ainda não é amplamente aceite no comércio atualmente.
 
 ## Moedas fiduciárias
 
@@ -370,7 +341,7 @@ A criação de novos bitcoins é o resultado do processo de mineração. Em pouc
 
 ![image](assets/pt/022.webp)
 
-Depois de executarem esta tarefa com sucesso, os mineiros são recompensados com a emissão de novos bitcoins a cada dez minutos. Esta recompensa está programada para reduzir para metade a cada 210 000 blocos, o que corresponde aproximadamente a cada quatro anos (um evento conhecido como "halving"), dando à curva de emissão monetária uma forma semelhante a uma escada. Devido a este mecanismo, pode prever-se matematicamente que a criação de novos bitcoins cessará por volta do ano 2140, quando o número total atingir o seu limite de 21 milhões.
+Depois de executarem esta tarefa com sucesso, os mineiros são recompensados com a emissão de novos bitcoins a cada dez minutos. Esta recompensa está programada para reduzir para metade a cada 210 000 blocos, o que corresponde aproximadamente a cada quatro anos (um evento conhecido como "[halving](https://planb.academy/resources/glossary/halving)"), dando à curva de emissão monetária uma forma semelhante a uma escada. Devido a este mecanismo, pode prever-se matematicamente que a criação de novos bitcoins cessará por volta do ano 2140, quando o número total atingir o seu limite de 21 milhões.
 
 | Halving Number | Block Height | BTC Reward After Halving  | Estimated BTC in Circulation After Halving |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
@@ -395,7 +366,7 @@ Depois de executarem esta tarefa com sucesso, os mineiros são recompensados com
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-Revisitaremos o conceito de mineração em mais pormenor no [capítulo sobre mineração] (https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
+Revisitaremos o conceito de mineração em mais pormenor no [capítulo sobre mineração](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
 ### Garantir a escassez digital
 
@@ -503,7 +474,7 @@ E se alguém adivinhar acidentalmente a nossa lista de 12 ou 24 palavras? A resp
 
 Assim, a probabilidade de piratear a sua carteira Bitcoin é astronomicamente baixa se seguir as boas práticas de segurança que iremos detalhar na próxima secção.
 
-Não se esqueça de escolher a carteira certa para as suas necessidades e utilização: estão disponíveis tutoriais detalhados sobre a gestão e segurança de diferentes carteiras na [secção de tutoriais da nossa universidade] (https://planb.academy/tutorials/wallet).
+Não se esqueça de escolher a carteira certa para as suas necessidades e utilização: estão disponíveis tutoriais detalhados sobre a gestão e segurança de diferentes carteiras na [secção de tutoriais da nossa universidade](https://planb.academy/tutorials/wallet).
 
 Se, durante a sua viagem pela toca do coelho, quiser aprender mais sobre a construção de uma carteira Bitcoin, desde a entropia até à receção de endereços, recomendamos o curso CYP 201 dedicado a este tópico:
 
@@ -572,7 +543,7 @@ O montante que se está disposto a deixar num nível de segurança específico d
 
 Em conclusão, a propriedade direta dos seus bitcoins é um elemento essencial para garantir a soberania financeira. Recomenda-se a utilização de uma carteira móvel para despesas diárias e uma carteira física offline, ou "fria", para armazenar quantias maiores. As empresas, por outro lado, devem considerar a utilização de sistemas de assinaturas múltiplas, ou "multisig", para uma segurança acrescida e partilhada. É também essencial evitar serviços de custódia, que podem replicar algumas vulnerabilidades do sistema financeiro tradicional.
 
-Com isto em mente, podemos agora passar para a próxima secção onde descrevemos como criar uma carteira Bitcoin. No entanto, se quiser explorar mais o tema da segurança, pode ler este [artigo de DarthCoin] (https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
+Com isto em mente, podemos agora passar para a próxima secção onde descrevemos como criar uma carteira Bitcoin. No entanto, se quiser explorar mais o tema da segurança, pode ler este [artigo de DarthCoin](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
 
 ## Configurar uma carteira
 
@@ -595,7 +566,7 @@ Quando configura uma carteira, o software cria normalmente a sua chave privada, 
 - Nunca deixe as suas palavras sem vigilância na sua secretária.
 - Nunca esconda a sua lista de palavras num local invulgar.
 
-Deve pegar literalmente numa folha de papel em branco ou imprimir este [modelo] (https://bitcoiner.guide/backup.pdf) e escrever a lista de palavras com uma caneta, seguindo a ordem apresentada de forma clara e organizada. Tenha em atenção que, se a tinta se desvanecer com o tempo, pode perder os seus fundos. Por isso, é importante manter esta folha de papel protegida dos factores ambientais que a podem danificar, como a humidade ou o fogo.
+Deve pegar literalmente numa folha de papel em branco ou imprimir este [modelo](https://bitcoiner.guide/backup.pdf) e escrever a lista de palavras com uma caneta, seguindo a ordem apresentada de forma clara e organizada. Tenha em atenção que, se a tinta se desvanecer com o tempo, pode perder os seus fundos. Por isso, é importante manter esta folha de papel protegida dos factores ambientais que a podem danificar, como a humidade ou o fogo.
 
 Segue-se um exemplo de como compilar o documento: as palavras são falsas, por isso não as utilize!
 
@@ -637,7 +608,7 @@ Existem várias soluções disponíveis: algumas delas são de baixo custo, como
 
 Juntamente com esta primeira prática, a criação de um plano de herança é um passo crucial para garantir que os seus bitcoins são geridos corretamente após a sua morte. Este plano implica escrever à mão uma carta onde descreve a natureza dos seus bens, os seus métodos de acesso e as informações de contacto das pessoas de confiança que têm responsabilidade sobre eles. Também é importante discutir a herança de bitcoins com um notário para garantir a conformidade fiscal, mesmo que essa pessoa nunca deva ser encarregada diretamente da gestão dos seus bitcoins.
 
-Se desejar aprofundar o tema do plano de herança para os seus bitcoins, recomendamos a leitura do livro de Pamela Morgan [Cryptoasset Inheritance Plan] (https://planb.academy/resources/books/28) ou a inscrição no curso BTC102, onde fornecemos orientações sobre a criação do seu plano.
+Se desejar aprofundar o tema do plano de herança para os seus bitcoins, recomendamos a leitura do livro de Pamela Morgan [Cryptoasset Inheritance Plan](https://planb.academy/resources/books/28) ou a inscrição no curso BTC102, onde fornecemos orientações sobre a criação do seu plano.
 
 ![image](assets/pt/037.webp)
 
@@ -714,11 +685,11 @@ Em 2010, quando a Bitcoin começou a atrair a atenção dos meios de comunicaç�
 > "Os governos são bons a cortar as cabeças de um sistema centralizado
 > controladas como o Napster, mas redes P2P puras como o
 > O Gnutella e o Tor parecem estar a aguentar-se" - Satoshi Nakamoto
-> Apesar da ausência de Satoshi, a Bitcoin continuou a ser desenvolvida: a história da Bitcoin é escrita a cada 10 minutos, e o protocolo continua a funcionar até hoje como pretendido. Independentemente de qualquer medo, incerteza ou dúvida, o Bitcoin continua a avançar, com uma disponibilidade online muito forte. De facto, de acordo com este [website] (https://bitcoinuptime.com/), a Bitcoin tem estado funcional e a funcionar sem grandes problemas durante 99,988% do tempo desde que foi criada.
+> Apesar da ausência de Satoshi, a Bitcoin continuou a ser desenvolvida: a história da Bitcoin é escrita a cada 10 minutos, e o protocolo continua a funcionar até hoje como pretendido. Independentemente de qualquer medo, incerteza ou dúvida, o Bitcoin continua a avançar, com uma disponibilidade online muito forte. De facto, de acordo com este [website](https://bitcoinuptime.com/), a Bitcoin tem estado funcional e a funcionar sem grandes problemas durante 99,988% do tempo desde que foi criada.
 
-Para alguns, o Bitcoin é definido como uma entidade fúngica, como um [micélio] (https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), enquanto outros o descrevem como um [buraco negro] (https://dergigi.com/). Ame-o ou odeie-o, o Bitcoin continua a existir, com o seu ritmo constante de 10 minutos por bloco, como o batimento cardíaco de um novo sistema monetário.
+Para alguns, o Bitcoin é definido como uma entidade fúngica, como um [micélio](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), enquanto outros o descrevem como um [buraco negro](https://dergigi.com/). Ame-o ou odeie-o, o Bitcoin continua a existir, com o seu ritmo constante de 10 minutos por bloco, como o batimento cardíaco de um novo sistema monetário.
 
-Para saber mais sobre os escritos de Satoshi Nakamoto, recomendamos a leitura de ["The Book of Satoshi"] (https://planb.academy/en/resources/books/98) de Phil Champagne ou o documentário da ARTE "Le mystaire Satoshi".
+Para aprofundar os escritos de Satoshi Nakamoto, recomendo a leitura de [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) de Phil Champagne, que reúne e contextualiza os seus principais textos, bem como o documentário da ARTE [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), que propõe uma investigação acessível e bem documentada sobre a sua identidade e o seu legado.
 
 ![image](assets/pt/044.webp)
 
@@ -759,7 +730,7 @@ De facto, os mineiros têm o papel de reunir transacções válidas e não confi
 
 ### Passo 3: A transação é extraída num bloco por um mineiro.
 
-O sistema Proof of work requer encontrar um "hash" válido para o bloco em questão: pense nele como uma impressão digital única associada ao bloco, composta por 256 caracteres. A validade deste hash depende da taxa de dificuldade da rede Bitcoin (entraremos em mais pormenores mais tarde). Por enquanto, considere que um minerador encontrou um bloco válido e que a transação de Bob para Alice está incluída nele. Então, o novo bloco válido é adicionado ao blockchain, o livro-razão comum para todos os utilizadores de Bitcoin.
+O sistema [proof of work](https://planb.academy/resources/glossary/proof-of-work) requer encontrar um "hash" válido para o bloco em questão: pense nele como uma impressão digital única associada ao bloco, composta por 256 caracteres. A validade deste hash depende da taxa de dificuldade da rede Bitcoin (entraremos em mais pormenores mais tarde). Por enquanto, considere que um minerador encontrou um bloco válido e que a transação de Bob para Alice está incluída nele. Então, o novo bloco válido é adicionado ao blockchain, o livro-razão comum para todos os utilizadores de Bitcoin.
 
 ![image](assets/pt/048.webp)
 
@@ -794,13 +765,13 @@ Os nós são um elemento fundamental da arquitetura da rede Bitcoin, uma vez que
 - Transmitir informações a outros nós
 - Aplicação das regras do protocolo Bitcoin.
 
-Portanto, qualquer dispositivo que execute um software Bitcoin, chamado nó Bitcoin (muitas vezes usando [Bitcoin Core] (https://bitcoin.org/en/bitcoin-core/)), contribui para a descentralização da rede.
+Portanto, qualquer dispositivo que execute um software Bitcoin, chamado nó Bitcoin (muitas vezes usando [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/)), contribui para a descentralização da rede.
 
 ![image](assets/pt/050.webp)
 
 ### Os nós são o núcleo central do Bitcoin.
 
-Cada nó possui uma cópia da cadeia de blocos, que permite a verificação das transacções e impede qualquer tentativa de fraude. A natureza descentralizada da rede confere ao Bitcoin uma resiliência e robustez excepcionais. De facto, para parar o protocolo Bitcoin, todos os nós do mundo teriam de ser desligados. Para sua informação, em setembro de 2023 existiam aproximadamente [45.000 nós] (https://bitnodes.io/nodes/all/) distribuídos por todo o mundo.
+Cada nó possui uma cópia da cadeia de blocos, que permite a verificação das transacções e impede qualquer tentativa de fraude. A natureza descentralizada da rede confere ao Bitcoin uma resiliência e robustez excepcionais. De facto, para parar o protocolo Bitcoin, todos os nós do mundo teriam de ser desligados. Para sua informação, em setembro de 2023 existiam aproximadamente [45.000 nós](https://bitnodes.io/nodes/all/) distribuídos por todo o mundo.
 
 Os nós são capazes de verificar a validade dos blocos e das transacções porque seguem as regras do consenso da Bitcoin. Estas regras estabelecem a política monetária da Bitcoin, como o montante da recompensa dos mineiros (que discutiremos em mais pormenor na próxima secção) e a quantidade de bitcoin em circulação. De certa forma, os nós actuam como o sistema jurídico da rede, uma vez que todos os participantes na rede seguem as mesmas regras, pelo que asseguram a neutralidade do protocolo Bitcoin. As regras de consenso dificilmente variam, se é que variam, porque para efetuar alterações é necessária a aprovação de todos os nós.
 
@@ -836,7 +807,7 @@ Após esta vitória, os nós activaram uma atualização denominada SegWit, abri
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-\*\*Os mineiros protegem a rede e adicionam transacções aos blocos. Eles usam eletricidade através de máquinas ASIC para resolver a prova de trabalho do Bitcoin
+\*\*Os mineiros protegem a rede e adicionam transacções aos blocos. Eles usam eletricidade através de máquinas [ASIC](https://planb.academy/resources/glossary/asic) para resolver a prova de trabalho do Bitcoin
 
 ![image](assets/pt/054.webp)
 
@@ -1042,9 +1013,11 @@ A economia Bitcoin existe e está se desenvolvendo em certas regiões do mundo, 
 
 No entanto, em El Salvador e em outras partes do mundo, há cada vez mais indivíduos, empresas e organizações que aceitam Bitcoin como meio de pagamento por seus produtos ou serviços.
 
-![image](assets/pt/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
 
-Além disso, foi lançado um projeto de código aberto e colaborativo, [BTCMap] (https://btcmap.org/map#2/21.28937/5.46680), para facilitar a utilização da Bitcoin nas transacções diárias. Esta plataforma lista todos os comerciantes que aceitam Bitcoin, bem como as diferentes comunidades Bitcoin em todo o mundo, pelo que pode visitar o seu sítio Web para descobrir o ecossistema Bitcoin à sua volta. Assim, apesar das dificuldades e das hesitações, existem iniciativas como o BTCMap que contribuem para tornar a economia Bitcoin mais acessível e cómoda para todos.
+*Fonte : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
+
+Além disso, foi lançado um projeto de código aberto e colaborativo, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), para facilitar a utilização da Bitcoin nas transacções diárias. Esta plataforma lista todos os comerciantes que aceitam Bitcoin, bem como as diferentes comunidades Bitcoin em todo o mundo, pelo que pode visitar o seu sítio Web para descobrir o ecossistema Bitcoin à sua volta. Assim, apesar das dificuldades e das hesitações, existem iniciativas como o BTCMap que contribuem para tornar a economia Bitcoin mais acessível e cómoda para todos.
 
 ### Porque é que devemos aceitar a Bitcoin em vez de a comprar?
 
@@ -1157,7 +1130,7 @@ Após a compra, é aconselhável retirar imediatamente os bitcoins das plataform
 
 ### Soluções não-KYC
 
-Além disso, existem vários [marketplaces] (https://planb.academy/tutorials/exchange) onde se pode comprar e vender bitcoins numa troca peer-to-peer. Em geral, pode considerar o seguinte:
+Além disso, existem vários [marketplaces](https://planb.academy/tutorials/exchange) onde se pode comprar e vender bitcoins numa troca peer-to-peer. Em geral, pode considerar o seguinte:
 
 - ATMs de Bitcoin
 - Encontros físicos com outros entusiastas da bitcoin

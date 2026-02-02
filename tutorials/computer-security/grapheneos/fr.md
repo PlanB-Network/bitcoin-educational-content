@@ -211,10 +211,10 @@ Ces dernières années, les solutions de messagerie chiffrée sont devenues nomb
 
 La plupart des personnes qui ne s'intéressent pas à la vie privée utilisent probablement WhatsApp ou iMessage. Le premier peut être téléchargé via Aurora Store, mais le second ne fonctionnera pas sur GrapheneOS (évidemment !).
 
-- [Signal](https://signal.org/) est l'un des messagers chiffrés de bout en bout (E2EE) les plus populaires, avec un solide historique et un ensemble de fonctionnalités riches. Signal nécessite un numéro de téléphone pour l'inscription, donc si vous prévoyez de discuter avec des personnes à qui vous ne souhaitez pas divulguer votre numéro de téléphone, envisagez peut-être certaines des alternatives. Signal doit être téléchargé via Aurora Store.
+- [Signal](https://signal.org/) est l'un des messagers chiffrés de bout en bout (E2EE) les plus populaires, avec un solide historique et un ensemble de fonctionnalités riches. Signal nécessite un numéro de téléphone pour l'inscription, donc si vous prévoyez de discuter avec des personnes à qui vous ne souhaitez pas divulguer votre numéro de téléphone, envisagez peut-être certaines des alternatives **_[ou masquez le numéro dans l'écran de votre profil](https://support.signal.org/hc/fr/articles/6712070553754-Confidentialit%C3%A9-du-num%C3%A9ro-de-t%C3%A9l%C3%A9phone-et-noms-d-utilisateur)_**. Signal doit être téléchargé via Aurora Store.
 - [Simplex](https://f-droid.org/en/packages/chat.simplex.app/) est un messager E2EE assez récent. Il n'a pas d'identifiant d'utilisateur, ne nécessite pas de numéro de téléphone ni d'informations personnelles. Les gens vous trouvent en scannant votre code QR personnel ou en visitant votre lien unique. Simplex permet également aux utilisateurs avancés de faire fonctionner leur propre serveur pour réduire davantage la dépendance à une entité centralisée. Simplex n'a pas de client de bureau, il peut donc ne pas convenir si la prise en charge de plusieurs appareils est une priorité pour vous. Simplex pour Android est disponible via F-Droid.
 - [Threema](https://threema.ch/en/faq/libre_installation) offre une expérience similaire à Simplex, mais existe depuis plus longtemps et, par conséquent, semble un peu plus abouti. Threema n'est pas gratuit, une licence à vie coûte 4,99 $ et peut être achetée avec Bitcoin. Threema propose un client web et des applications de bureau natives. L'application Android est disponible via F-Droid.
-- [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) est un fork FOSS non officiel de l'application Telegram officielle pour Android. Telegram dispose de "chats secrets" E2EE, mais l'option par défaut n'est pas privée. Telegram FOSS peut être téléchargé depuis F-Droid.
+- [Mercurygram](https://f-droid.org/fr/packages/it.belloworld.mercurygram/) est un fork FOSS non officiel de l'application Telegram officielle pour Android. Telegram dispose de "chats secrets" E2EE, mais l'option par défaut n'est pas privée. Mercurygram peut être téléchargé depuis F-Droid.
 
 ![image](assets/fr/9.webp)
 Gauche : Threema; Droite : Simplex
@@ -233,14 +233,8 @@ https://planb.academy/tutorials/computer-security/communication/signal-8dfb5572-
 ### Médias
 
 - [Spotube](https://f-droid.org/packages/oss.krtirtho.spotube/) est un client Spotify multiplateforme qui ne nécessite pas de compte Premium. Spotube est disponible via F-Droid.
-- [ViMusic](https://f-droid.org/en/packages/it.vfsfitvnm.vimusic/) est une application fantastique pour diffuser gratuitement de la musique à partir de YouTube Music. ViMusic est disponible sur F-Droid.
 - [Newpipe](https://f-droid.org/packages/org.schabi.newpipe/) offre une expérience YouTube sans publicités ennuyeuses et sans autorisations douteuses. Avec NewPipe, vous pouvez vous abonner à des chaînes, écouter en arrière-plan et même télécharger pour une visualisation hors ligne. NewPipe est accessible via F-Droid.
 - [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/) est un lecteur de podcast qui vous permet de vous abonner et de gérer tous vos émissions préférées. AntennaPod est disponible via F-Droid.
-
-![image](assets/fr/11.webp)
-
-Gauche : Spotube
-Droite : ViMusic
 
 ### Cartes
 
@@ -268,7 +262,7 @@ Droite : Tutanota
 
 ### Productivité
 
-- [Syncthing](https://f-droid.org/packages/com.nutomic.syncthingandroid/) est un programme de synchronisation de fichiers. Il synchronise les fichiers entre deux appareils ou plus en temps réel, en les protégeant en toute sécurité des regards indiscrets. Vos données vous appartiennent et vous méritez de choisir où elles sont stockées, si elles sont partagées avec des tiers et comment elles sont transmises sur Internet. Syncthing est disponible via F-Droid.
+- [Syncthing Fork](https://f-droid.org/fr/packages/com.github.catfriend1.syncthingfork/) est un fork du programme de synchronisation de fichiers entre deux appareils ou plus en temps réel, en les protégeant en toute sécurité des regards indiscrets. Vos données vous appartiennent et vous méritez de choisir où elles sont stockées, si elles sont partagées avec des tiers et comment elles sont transmises sur Internet. Syncthing Fork est disponible via F-Droid.
 - [KDE Connect](https://f-droid.org/packages/org.kde.kdeconnect_tp/) permet à tous vos appareils de communiquer facilement entre eux lorsqu'ils sont connectés à votre réseau domestique. Vous pouvez facilement envoyer des fichiers, des photos et des données du presse-papiers sur tous vos appareils (même sur iOS !). KDE Connect peut être téléchargé depuis F-Droid.
 - [Notesnook](https://f-droid.org/en/packages/com.streetwriters.notesnook/) est une application de prise de notes E2EE qui permet de synchroniser vos pensées et vos listes de tâches sur tous vos appareils. Leur plan gratuit devrait couvrir la plupart des cas d'utilisation personnels. Notesnook est disponible sur F-Droid.
 - [Standard Notes](https://f-droid.org/en/packages/com.standardnotes/) est très similaire à Notesnook, mais nécessite un abonnement payant pour correspondre à l'ensemble des fonctionnalités. Standard Notes est disponible via F-Droid.
@@ -282,13 +276,13 @@ Droite : KDE Connect
 
 ### Style de vie
 
-- [Geometric Weather](https://f-droid.org/en/packages/wangdaye.com.geometricweather/) est une application météo Open Source au design magnifique, disponible via F-Droid. Elle prend également en charge de nombreux formats de widgets différents, vous permettant ainsi de voir la météo dans l'emplacement de votre choix directement depuis votre écran d'accueil.
+- [Breezy Weather](https://f-droid.org/fr/packages/org.breezyweather/) est une application météo riche en fonctionnalités et open source avec une interface Material 3 Expressive ; elle offre des visualisations bien pensées, des prévisions, des conditions en temps réel, la qualité de l'air, les pollens, des alertes météo obtenues auprès de plus de 50 sources, comme Météo-France et Open-Meteo.
 - [Translate You](https://f-droid.org/packages/com.bnyro.translate/) est une application de traduction Open Source respectueuse de la vie privée qui prend en charge plus de 200 langues. Translate You est disponible via F-Droid.
 - [Proton Calendar](https://proton.me/calendar/download) est un calendrier simple à utiliser et E2EE qui interagit parfaitement avec vos comptes de messagerie Proton. Proton Calendar peut être téléchargé sous forme d'APK ou via le magasin Aurora.
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) est une application permettant d'afficher et de stocker des cartes d'embarquement, des coupons, des billets de cinéma et des cartes de membre, etc. Il vous suffit de télécharger le fichier `pkpass` ou `espass` correspondant et de l'ouvrir avec l'application. PassAndroid est disponible via F-Droid.
 
 ![image](assets/fr/19.webp)
-Gauche : Geometric Weather
+Gauche : Breezy Weather
 Droite : Proton Calendar
 
 ### Sécurité/Vie privée
@@ -297,7 +291,7 @@ Droite : Proton Calendar
 - [Proton Pass](https://proton.me/pass/download) propose un service gratuit similaire à Bitwarden, mais les clients [Proton Unlimited](https://proton.me/pricing) peuvent accéder à des fonctionnalités avancées supplémentaires. Proton Pass est disponible via APK ou Aurora.
 - [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/) est une application d'authentification à deux facteurs pour les systèmes utilisant des protocoles de mots de passe à usage unique. Les jetons peuvent être ajoutés facilement en scannant un code QR. FreeOTP est disponible via F-Droid.
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) est une application gratuite, sécurisée et open source pour Android qui permet de gérer vos jetons de vérification en deux étapes pour vos services en ligne. Aegis est disponible via F-Droid.
-- [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) est un service payant multiplateforme qui chiffre vos données localement afin que vous puissiez les télécharger en toute sécurité sur votre service cloud préféré. Cryptomator peut être téléchargé via F-Droid.
+- [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) est un service multiplateforme gratuit (_payant uniquement via Google Play sur Android_) qui chiffre vos données localement afin que vous puissiez les télécharger en toute sécurité sur votre service cloud préféré. Cryptomator peut être téléchargé via F-Droid.
 
 ![image](assets/fr/21.webp)
 À gauche : Proton Pass

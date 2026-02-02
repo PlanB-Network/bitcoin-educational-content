@@ -51,7 +51,7 @@ Ce livre a été commandé et financé par [Chaincode Labs](https://learning.cha
 <chapterId>28b7256b-9cb0-463e-a82d-d732be86c98c</chapterId>
 
 
-Bienvenue dans ce cours PHI 302 sur la philosophie de développement de Bitcoin.
+Bienvenue dans ce cours BTC 303 sur la philosophie de développement de Bitcoin.
 
 
 Le Bitcoin est plus qu'une simple crypto-monnaie, il incarne une vision philosophique de la décentralisation, de la vie privée, de l'absence de confiance et de la résilience. Ce cours est conçu spécifiquement pour les développeurs qui connaissent déjà les fondements techniques du Bitcoin et qui cherchent maintenant à approfondir leur compréhension des principes qui sous-tendent la conception et la gouvernance du Bitcoin.
@@ -665,7 +665,7 @@ Ce chapitre examine la limite de Bitcoin de 21 millions de BTC, ou combien est-e
 La fameuse quantité finie de 21 millions de BTC est considérée comme une propriété fondamentale de Bitcoin. Mais est-elle vraiment gravée dans le marbre ?
 
 
-Commençons par examiner ce que les règles de consensus actuelles disent à propos de la quantité de Bitcoin, et combien de celle-ci sera réellement utilisable. Pieter Wuille a écrit un article à ce sujet [sur la pile Exchange](https://Bitcoin.stackexchange.com/a/38998/69518), dans lequel il a compté le nombre de bitcoins qu'il y aurait une fois que toutes les pièces auraient été extraites :
+Commençons par examiner ce que les règles de consensus actuelles disent à propos de la quantité de Bitcoin, et combien de celle-ci sera réellement utilisable. Pieter Wuille a écrit un article à ce sujet [sur StackExchange](https://Bitcoin.stackexchange.com/a/38998/69518), dans lequel il a compté le nombre de bitcoins qu'il y aurait une fois que toutes les pièces auraient été extraites :
 
 
 > Si vous additionnez tous ces chiffres, vous obtenez 20999999.9769 BTC.
@@ -898,7 +898,7 @@ Ce que Corallo propose est une combinaison d'un Soft Fork activé par mineur et 
 Lorsque Taproot a été prêt à être déployé en octobre 2020, c'est-à-dire lorsque tous les détails techniques relatifs aux règles de consensus ont été mis en œuvre et ont été largement approuvés par la communauté, les discussions sur la manière de le déployer ont commencé à s'intensifier. Jusqu'alors, ces discussions étaient restées assez discrètes.
 
 
-De nombreuses propositions de mécanismes d'activation ont commencé à circuler, et David Harding [résumé sur le wiki Bitcoin] (https://en.Bitcoin.it/wiki/Taproot_activation_proposals). Dans son article, il explique certaines propriétés du BIP8 qui, à l'époque, avaient fait l'objet de modifications récentes visant à le rendre plus flexible.
+De nombreuses propositions de mécanismes d'activation ont commencé à circuler, et David Harding [résumé sur le wiki Bitcoin](https://en.Bitcoin.it/wiki/Taproot_activation_proposals). Dans son article, il explique certaines propriétés du BIP8 qui, à l'époque, avaient fait l'objet de modifications récentes visant à le rendre plus flexible.
 
 
 > Au moment de la rédaction du présent document, [BIP8](https://github.com/Bitcoin/bips/blob/master/bip-0008.mediawiki) a été rédigé sur la base des enseignements tirés en 2017. Un changement notable suite aux BIP 9+148 est que l'activation forcée est désormais basée sur la hauteur du bloc plutôt que sur le temps médian passé ; un second changement notable est que l'activation forcée est un paramètre booléen choisi lorsque les paramètres d'activation d'un Soft Fork sont définis soit pour le déploiement initial, soit mis à jour lors d'un déploiement ultérieur.
@@ -1139,14 +1139,14 @@ Bitcoin Core respecte cette définition en étant distribué sous la [MIT Licens
 
 
 ```
-The MIT License (MIT)
+La Licence MIT (MIT)
 
-Copyright (c) 2009-2022 The Bitcoin Core developers
-Copyright (c) 2009-2022 Bitcoin Developers
+Copyright (c) 2009-2022 Les développeurs de Bitcoin Core
+Copyright (c) 2009-2022 Les développeurs Bitcoin
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Par la présente, l'autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « Logiciel »), de traiter le Logiciel sans restriction, y compris, sans limitation, les droits d'utiliser, copier, modifier, fusionner, publier, distribuer, sous-licencier et/ou vendre des copies du Logiciel, et de permettre aux personnes à qui le Logiciel est fourni de le faire, sous réserve des conditions suivantes :
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+L'avis de copyright ci-dessus et cet avis d'autorisation doivent être inclus dans toutes les copies ou portions substantielles du Logiciel.
 ```
 
 

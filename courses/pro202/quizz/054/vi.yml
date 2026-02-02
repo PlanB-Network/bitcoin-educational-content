@@ -1,0 +1,8 @@
+question: Trong quá trình bắt tay mạng P2P của Bitcoin, điều kiện cụ thể nào phải được đáp ứng trước khi hai nút có thể bắt đầu chủ động chuyển tiếp dữ liệu tồn kho và giao dịch?
+answer: Cả hai nút phải trao đổi thông điệp về phiên bản và xác thực với nhau.
+wrong_answers:
+  - Nút kết nối phải nhận được xác nhận DNS seed từ các nhà phát triển cốt lõi.
+  - "Cả hai nút phải xác minh chiều cao khối và mã băm đầu chuỗi của nhau."
+  - "Nút nhận phải xác thực chứng chỉ của nút kết nối."
+explanation: |
+  Quá trình bắt tay Bitcoin P2P yêu cầu trao đổi hai chiều, trong đó nút kết nối gửi một thông điệp phiên bản, bên nhận trả lời bằng thông điệp xác nhận (verack) và thông điệp phiên bản của chính nó, và bên gửi ban đầu phản hồi bằng thông điệp xác nhận của mình. Chỉ sau khi hoàn tất quá trình trao đổi bốn thông điệp này (phiên bản → xác nhận + phiên bản → xác nhận), các nút mới có thể bắt đầu giao tiếp tích cực. Các hạt giống DNS chỉ được sử dụng để phát hiện ngang hàng ban đầu, chứ không phải để bắt tay. Bitcoin không sử dụng chứng chỉ, và việc xác thực chuỗi diễn ra sau khi kết nối được thiết lập.

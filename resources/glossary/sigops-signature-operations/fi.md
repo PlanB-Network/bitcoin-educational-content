@@ -1,6 +1,7 @@
 ---
-term: SIGOPS (SIGNATURE OPERATIONS)
+term: Sigops (allekirjoitustoiminnot)
 
+definition: Digitaaliset allekirjoitusoperaatiot, joita tarvitaan Bitcoin-tapahtumien vahvistamiseen.
 ---
 Tarkoittaa tapahtumien validointiin tarvittavia digitaalisia allekirjoitustoimintoja. Kukin Bitcoin-tapahtuma voi sisältää useita syötteitä, joista jokainen voi vaatia yhden tai useamman allekirjoituksen, jotta sitä voidaan pitää pätevänä. Näiden allekirjoitusten todentaminen tapahtuu käyttämällä erityisiä opkoodeja, joita kutsutaan nimellä "sigops". Näitä ovat erityisesti `OP_CHECKSIG`, `OP_CHECKSIGVERIFY`, `OP_CHECKMULTISIG` ja `OP_CHECKMULTISIGVERIFY`. Nämä operaatiot aiheuttavat tiettyä työtaakkaa verkon solmuille, joiden on tarkistettava ne. Jotta estettäisiin DoS-hyökkäykset, jotka johtuvat sigopsien määrän keinotekoisesta paisuttamisesta, protokollassa asetetaan rajoitus lohkoa kohti sallittujen sigopsien määrälle, jotta varmistettaisiin, että validointikuorma pysyy solmujen hallinnassa. Tämä raja on tällä hetkellä asetettu enintään 80 000 sigopsiin lohkoa kohti. Solmut noudattavat laskennassa seuraavia sääntöjä:
 

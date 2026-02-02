@@ -1,0 +1,8 @@
+question: Was ist der Hauptzweck des Feldes für die laufende Nummer in Bitcoin-Transaktionseingaben?
+answer: So aktivieren Sie Zeitsperren und die Funktion "Replace-by-Fee" (RBF)
+wrong_answers:
+  - Um die Reihenfolge festzulegen, in der die Eingaben von den Minern verarbeitet werden müssen
+  - Verhinderung von double-spending durch Erstellung einer eindeutigen Kennung für jede Eingabe
+  - Zur Angabe der Prioritätsstufe des Vorgangs für die Gebührenberechnung
+explanation: |
+  Das Sequenznummernfeld in Bitcoin-Transaktionseingaben dient zwei Hauptzwecken: der Implementierung von Timelocks (die verzögern, wann eine Transaktion bestätigt werden kann) und der Aktivierung der Funktion "Replace-by-Fee" (RBF) (die es Nutzern ermöglicht, die Gebühren für unbestätigte Transaktionen zu erhöhen). Die anderen Optionen sind falsch, denn: Eingaben müssen von den Minern nicht in einer bestimmten Reihenfolge verarbeitet werden, die double-spending-Verhinderung wird durch das UTXO-Modell und den Blockchain-Konsens und nicht durch Sequenznummern gehandhabt, und die Transaktionspriorität wird durch Gebührensätze und nicht durch Sequenznummern bestimmt.

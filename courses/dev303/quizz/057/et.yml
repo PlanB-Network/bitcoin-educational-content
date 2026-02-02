@@ -1,0 +1,8 @@
+question: Milline on makronime järel oleva hüüumärgi (!) esmane eesmärk Rust-s?
+answer: See on visuaalne märk sellest, et tegemist on pigem kompileerimisajaga koodi genereerimisega kui tööaegse funktsioonikutsega
+wrong_answers:
+  - See näitab, et makro satub paanikasse, kui täitmise ajal antakse valed sisendparameetrid
+  - See tähistab makrot kui ebaturvalist ja nõuab selgesõnalist tunnistust võimalikest mälu ohutusega seotud probleemidest
+  - See määrab, et makro tagastab tulemuse tüübi, mida tuleb käsitleda veakontrolliga
+explanation: |
+  Hüüumärk Rust makrosüntaksis on tahtlik disainivalik, mis eristab visuaalselt makrosid funktsioonidest. Kui näete `println!()` või `vec![]`, siis annab `!` kohe märku, et toimub koodi laiendamine kompileerimise ajal, mitte funktsioonikõne tööajal. See eristamine on oluline, sest makros toimivad põhimõtteliselt teisiti kui funktsioonid - nad generate koodi kompileerimise ajal läbi mustri sobitamise ja laiendamise. Valed vastused ajavad selle segamini selliste jooksuaegsete käitumistega nagu paanika, ebaturvalised operatsioonid või veakäitlus, kuid hüüumärk näitab konkreetselt makrode kompileerimisajalist metaprogrammeerimise olemust.

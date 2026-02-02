@@ -1,0 +1,8 @@
+question: Milline on peamine eelis, mida pakub Taproot koos MuSig2-ga kihtide vahetamiseks võrreldes vanade SegWit v0 HTLC-dega?
+answer: Koostöövahetused näivad tavaliste ühe allkirjaga tehingutena, mis tagavad täieliku privaatsuse ja minimaalse plokkruumikasutuse
+wrong_answers:
+  - Taproot välistab vajaduse ajalukkude järele, muutes vahetused kiiremaks ja tõhusamaks kui varasemad HTLC-d
+  - MuSig2 võimaldab samaaegselt kasutada mitut hash-lukku, võimaldades keerukamaid mitme osapoole vahetuskokkuleppeid
+  - Taproot vahetusi saab teostada ilma krüptograafilisi saladusi paljastamata, erinevalt vanadest HTLC-dest, mis alati paljastavad eelkuvasid
+explanation: |
+  Taproot koos MuSig2-ga muudab HTLC privaatsust võtmete koondamise kaudu. Koostöös "õnneliku tee" puhul ühendavad mõlemad pooled oma võtmed üheks koondatud avalikuks võtmeks ja allkirjastavad tehingu ühiselt. See muudab vahetuse tavalisest maksest eristamatuks, tarbib minimaalselt plokiruumi ja ei avalda vahetustingimusi. Varasemad SegWit v0 HTLC-d nõudsid kogu on-chain skriptiloogika avaldamist, mis tegi need kergesti tuvastatavaks ja kallimaks. Teised valikud on valed: ajalukud jäävad ohutuse tagamiseks oluliseks, mitmekordsed hash-lukud ei ole peamine uuendus ja raha nõudmisel paljastatakse endiselt eelviimased tingimused.

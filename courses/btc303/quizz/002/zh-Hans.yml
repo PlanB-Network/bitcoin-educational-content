@@ -1,7 +1,7 @@
-question: Bitcoin 中权力下放的两个主要方面是什么？
-answer: Miner 下放和 full node 下放
+question: 比特币中去中心化的两个主要方面是什么？
+answer: 矿工去中心化和全节点去中心化
 wrong_answers:
-  - 交易权力下放和 wallet 权力下放
+  - 交易去中心化和钱包去中心化
   - 网络去中心化和协议去中心化
   - 用户去中心化和开发者去中心化
 explanation: |

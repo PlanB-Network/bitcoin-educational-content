@@ -543,7 +543,7 @@ W miarę zagłębiania się w świat Bitcoin zauważysz, że ryzyko rośnie wraz
 Krótko mówiąc: nie lekceważ cyberbezpieczeństwa, poświęć czas na skonfigurowanie podstaw i pamiętaj, że kluczem jest konsekwencja. Bez odpowiedniej higieny cyfrowej, nawet najlepsze narzędzia nie zdadzą się na wiele.
 
 
-Zapoznaj się również z [naszymi samouczkami dotyczącymi bezpieczeństwa komputerowego] (https://planb.academy/tutorials/computer-security) na Plan ₿ Academy.
+Zapoznaj się również z [naszymi samouczkami dotyczącymi bezpieczeństwa komputerowego](https://planb.academy/tutorials/computer-security) na Plan ₿ Academy.
 
 
 ![image](assets/pl/020.webp)
@@ -635,7 +635,7 @@ Podejście w ten sposób gwarantuje, że nie narażasz swojego dobrobytu finanso
 ![image](assets/pl/023.webp)
 
 
-Po określeniu budżetu zastanów się, w jaki sposób chcesz inwestować. Jedną z najbardziej przyjaznych dla początkujących i powszechnie zalecanych metod jest Dollar Cost Averaging (DCA), kupowanie stałej ilości Bitcoin w regularnych odstępach czasu (co tydzień, co miesiąc itp.). Strategia ta pomaga wygładzić średnią cenę wejścia w czasie i zmniejsza emocjonalny wpływ wahań cen. Jest to mądre podejście dla większości ludzi, zwłaszcza nowicjuszy.
+Po określeniu budżetu zastanów się, w jaki sposób chcesz inwestować. Jedną z najbardziej przyjaznych dla początkujących i powszechnie zalecanych metod jest [Dollar Cost Averaging (DCA)](https://planb.academy/resources/glossary/dollar-cost-averaging-dca), kupowanie stałej ilości Bitcoin w regularnych odstępach czasu (co tydzień, co miesiąc itp.). Strategia ta pomaga wygładzić średnią cenę wejścia w czasie i zmniejsza emocjonalny wpływ wahań cen. Jest to mądre podejście dla większości ludzi, zwłaszcza nowicjuszy.
 
 
 Następnie zadaj sobie pytanie: Jaki jest mój horyzont czasowy?
@@ -1007,7 +1007,7 @@ Chociaż podejście to jest bardziej techniczne, oferuje najbardziej wymagający
 #### Odporna, transgraniczna metoda płatności
 
 
-Ze względu na swój zdecentralizowany charakter, Bitcoin działa 24 godziny na dobę, 7 dni w tygodniu, bez względu na granice czy strefy czasowe. W regionach, w których brakuje tradycyjnej infrastruktury bankowej, Bitcoin jest często wykorzystywany jako szybkie, tanie rozwiązanie do wysyłania lub odbierania środków bez polegania na drogich pośrednikach. Chociaż opłaty transakcyjne mogą się różnić w zależności od przeciążenia sieci, są one generalnie znacznie niższe niż opłaty pobierane przez banki za przelewy międzynarodowe. Ponadto rozwiązania Layer-2, takie jak Lightning Network, pozwalają na jeszcze szybsze i tańsze transakcje Bitcoin.
+Ze względu na swój zdecentralizowany charakter, Bitcoin działa 24 godziny na dobę, 7 dni w tygodniu, bez względu na granice czy strefy czasowe. W regionach, w których brakuje tradycyjnej infrastruktury bankowej, Bitcoin jest często wykorzystywany jako szybkie, tanie rozwiązanie do wysyłania lub odbierania środków bez polegania na drogich pośrednikach. Chociaż opłaty transakcyjne mogą się różnić w zależności od przeciążenia sieci, są one generalnie znacznie niższe niż opłaty pobierane przez banki za przelewy międzynarodowe. Ponadto rozwiązania Layer-2, takie jak [Lightning Network](https://planb.academy/resources/glossary/lightning-network), pozwalają na jeszcze szybsze i tańsze transakcje Bitcoin.
 
 
 #### Magazyn wartości
@@ -1538,7 +1538,7 @@ Branża Bitcoin Wallet jest podzielona na kilka kategorii, z których każda zas
 
 
 
-- **Producenci Hardware Wallet**: Firmy te opracowują fizyczne urządzenia przeznaczone do bezpiecznego przechowywania kluczy. Niektóre z nich są typu open-source, podczas gdy inne oferują własne rozwiązania o różnych funkcjach i poziomach bezpieczeństwa. Godne uwagi nazwy to Ledger, Trezor, Coinkite, Foundation i Shiftcrypto.
+- **Producenci [Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet)**: Firmy te opracowują fizyczne urządzenia przeznaczone do bezpiecznego przechowywania kluczy. Niektóre z nich są typu open-source, podczas gdy inne oferują własne rozwiązania o różnych funkcjach i poziomach bezpieczeństwa. Godne uwagi nazwy to Ledger, Trezor, Coinkite, Foundation i Shiftcrypto.
 - **Deweloperzy Software Wallet**: Są to zarówno firmy, jak i niezależni deweloperzy tworzący aplikacje mobilne i desktopowe. Ich oferty różnią się pod względem doświadczenia użytkownika, bezpieczeństwa i funkcji. Przykłady obejmują Sparrow, Wizard Sardine, Galoy, Synonym i Blockstream.
 - Portfele DIY (*Do It Yourself*): Te rozwiązania open-source są przeznaczone dla zaawansowanych użytkowników, którzy chcą mieć pełną kontrolę i minimalną zależność od stron trzecich. Zbudowanie własnego Wallet zmniejsza zależność od zaufania i może zwiększyć poziom bezpieczeństwa. Godne uwagi opcje DIY obejmują Seedsigner i Specter DIY.
 
@@ -1712,7 +1712,7 @@ Gdzieś pośrodku znajduje się Swiss Bitcoin Pay, przyjazne dla użytkownika, a
 
 https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
-Akceptacja Bitcoin może przynieść firmie szereg praktycznych i finansowych korzyści. Podobnie jak gotówka, Bitcoin umożliwia bezpośrednie płatności między klientem a sprzedawcą (bez potrzeby korzystania z tradycyjnego banku). Płatności dokonywane za pośrednictwem Lightning Network są natychmiastowe i ostateczne, co zmniejsza ryzyko obciążeń zwrotnych. A gdy sprzedawcy posiadają własne Bitcoin (self-custody), zyskują większą autonomię finansową.
+Akceptacja Bitcoin może przynieść firmie szereg praktycznych i finansowych korzyści. Podobnie jak gotówka, Bitcoin umożliwia bezpośrednie płatności między klientem a sprzedawcą (bez potrzeby korzystania z tradycyjnego banku). Płatności dokonywane za pośrednictwem Lightning Network są natychmiastowe i ostateczne, co zmniejsza ryzyko obciążeń zwrotnych. A gdy sprzedawcy posiadają własne Bitcoin ([self-custody](https://planb.academy/resources/glossary/selfcustody)), zyskują większą autonomię finansową.
 
 
 Może również pomóc obniżyć koszty, eliminując opłaty bankowe i potrzebę korzystania z tradycyjnych terminali płatniczych; często wystarczy smartfon lub laptop. Nawet przy zaangażowaniu procesorów płatności, opłaty są generalnie niższe niż te pobierane przez banki.

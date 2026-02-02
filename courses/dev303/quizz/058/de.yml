@@ -1,0 +1,8 @@
+question: Welche Kombination aus Fragmentspezifizierer und Wiederholungsmuster wäre bei der Erstellung eines benutzerdefinierten funktionsähnlichen Makros, das eine unterschiedliche Anzahl von Eingabeargumenten verarbeiten muss, am besten geeignet?
+answer: Verwenden Sie $($x:expr),*, um null oder mehr durch Kommas getrennte Ausdrücke zu finden
+wrong_answers:
+  - Verwenden Sie $($x:ident)+, um einen oder mehrere Bezeichner ohne Trennzeichen zu finden
+  - Verwenden Sie $($x:ty);*, um null oder mehr durch Semikolon getrennte Typen zu finden
+  - Verwenden Sie $($x:expr)?, um einen optionalen einzelnen Ausdruck ohne Wiederholung zu finden
+explanation: |
+  Das Muster $($x:expr),* wurde speziell für Makros mit variablen Argumenten entwickelt, wobei expr mit einem beliebigen Ausdruck übereinstimmt und die ,*-Syntax null oder mehr durch Kommata getrennte Wiederholungen zulässt. Dies ist genau das, was für Makros wie vec! benötigt wird, die eine unterschiedliche Anzahl von Argumenten akzeptieren können. Die anderen Optionen sind falsch, denn: ident passt nur auf Bezeichner (nicht auf vollständige Ausdrücke), ty passt auf Typen (nicht auf Werte), und ? passt auf optionale einzelne Elemente und nicht auf variable Wiederholungen.

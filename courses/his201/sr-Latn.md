@@ -42,7 +42,7 @@ Ovaj kurs ima za cilj da vam ispriča priču o stvaranju Bitcoin na način na ko
 **Kratak Pregled**
 
 
-Bitcoin je dizajnirao pojedinac (ili grupa) koristeći pseudonim Satoshi Nakamoto. Dana 31. oktobra 2008, podelio je beli papir koji opisuje njegov model putem opskurne email liste na Internetu. Dana 8. januara 2008, implementirao je svoj koncept objavljivanjem izvornog koda softvera i pokretanjem mreže lansiranjem prvih blokova lanca Mining. Želeći da privuče kritičan broj korisnika, promovisao je svoje stvaranje kroz različite komunikacione kanale.
+Bitcoin je osmislio pojedinac (ili grupa) koji je koristio pseudonim Satoši Nakamoto. Dana 31. oktobra 2008. godine, on je podelio beli dokument koji opisuje njegov model putem jedne slabo poznate imejl liste na Internetu. Dana 8. januara 2009. godine, primenio je svoj koncept u praksi objavljivanjem izvornog koda softvera i pokretanjem mreže kroz rudarenje prvih blokova lanca. U želji da privuče kritičan broj korisnika, promovisao je svoju tvorevinu putem različitih komunikacionih kanala.
 
 
 Nakon teškog početka, bootstrapovanje sistema konačno se dogodilo u oktobru 2009. godine, kada je jedinica obračuna – takođe nazvana Bitcoin – dobila cenu. Prve trgovačke usluge počele su da se pojavljuju početkom 2010. godine, počevši sa Exchange uslugama koje su povezivale sa dolarom. Takođe, otprilike u to vreme, Mining sa grafičkom karticom, efikasniji, je inicijalno implementiran, a prvi Exchange za fizičku robu, konkretno picu, se dogodio, prateći inicijativu Laszla Hanyecza.

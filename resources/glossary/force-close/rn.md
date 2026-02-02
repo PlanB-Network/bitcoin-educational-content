@@ -1,5 +1,6 @@
 ---
-term: GUFUNGA INGUVU
+term: Kugarika ku nguvu
+definition: Kwugarira uruhande rumwe umuyoboro wa Lightning mu gukwiragiza ivunjisha rya nyuma ryashizweko umukono (commitment transaction).
 ---
 
 Uburyo bwo gufunga umurongo w’umuravyo udakorana. Iyo abakoresha babiri bafunguye umurongo ufise Multisig 2/2, umwe wese arashobora gufunga uwo muhora ku ruhande rumwe mu gutangaza Commitment Transaction ya nyuma yari yaramaze gusinywa, kugira ngo bashobore kugarura amahera yabo ya onchain bitcoins. Ivyo bizwi nka "ugufunga inguvu".

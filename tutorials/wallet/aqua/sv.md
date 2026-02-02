@@ -51,13 +51,13 @@ Det första steget är naturligtvis att ladda ner Aqua-applikationen. Gå till d
 
 
 
-- [För Android] (https://play.google.com/store/apps/details?id=io.aquawallet.android);
-- [För Apple] (https://apps.apple.com/us/app/Aqua-Wallet/id6468594241).
+- [För Android](https://play.google.com/store/apps/details?id=io.aquawallet.android);
+- [För Apple](https://apps.apple.com/us/app/Aqua-Wallet/id6468594241).
 
 ![AQUA](assets/fr/04.webp)
 
 
-För Android-användare har du också möjlighet att installera applikationen via filen `.apk` [tillgänglig på deras GitHub] (https://github.com/AquaWallet/Aqua-Wallet/releases).
+För Android-användare har du också möjlighet att installera applikationen via filen `.apk` [tillgänglig på deras GitHub](https://github.com/AquaWallet/Aqua-Wallet/releases).
 
 
 ![AQUA](assets/fr/05.webp)

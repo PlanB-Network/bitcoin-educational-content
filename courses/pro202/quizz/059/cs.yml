@@ -1,0 +1,8 @@
+question: Jaký je v souvislosti s kompaktními blokovými filtry (BIP158) pro světelné klienty zachovávající soukromí kritický kompromis, který je činí účinnými pro soukromí wallet?
+answer: Mohou vytvářet falešně pozitivní výsledky, ale nikdy ne falešně negativní, což klientům umožňuje stahovat potenciálně nerelevantní bloky, aniž by odhali konkrétní adresy
+wrong_answers:
+  - Mohou vytvářet falešné negativní výsledky, ale nikdy ne falešné pozitivní výsledky, což zajišťuje, že klienti stahují pouze bloky obsahující jejich transakce
+  - Pomocí deterministického filtrování založeného na adresách wallet eliminují falešně pozitivní i falešně negativní výsledky
+  - "Ve stejném poměru vytvářejí falešně pozitivní i falešně negativní výsledky, aby zamlžily skutečné transakční vzorce klienta."
+explanation: |
+  Kompaktní blokové filtry jsou navrženy s asymetrickým chybovým modelem: mohou indikovat, že blok obsahuje relevantní transakce, i když je neobsahuje (falešná pozitivita), ale nikdy nevynechají blok, který skutečně obsahuje relevantní transakce (žádná falešná negativita). Tato konstrukce je klíčová, protože falešně negativní výsledky by znamenaly vynechání skutečných plateb, zatímco falešně pozitivní výsledky mají za následek pouze stažení zbytečných bloků. Míra falešně pozitivních plateb zajišťuje soukromí tím, že nutí klienty stahovat některé nerelevantní bloky, což znemožňuje pozorovatelům zjistit, které bloky skutečně obsahují klientovy transakce.

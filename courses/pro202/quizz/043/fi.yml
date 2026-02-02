@@ -1,0 +1,8 @@
+question: Kun Bitcoin-lohkojen hasheja tulkitaan kohdevertailua varten pieninä kokonaislukuina, miksi kelvollisten lohkojen heksadesimaalisessa esityksessä on tyypillisesti monta nollaa?
+answer: Koska little-endian-tulkinta tarkoittaa, että oikeanpuoleisimmat tavut heksadesimaalissa vastaavat kokonaisluvun arvosta merkittävimpiä bittejä
+wrong_answers:
+  - Koska SHA-256-algoritmi tuottaa luonnollisesti nollia perään, kun syötteessä on tapahtumatietoja, joissa on toistuvia kuvioita
+  - Koska louhijat tarkoituksella pehmustavat lohkon otsikon nollatavuilla, jotta hash-laskenta olisi tehokkaampaa ASIC-laitteistolle
+  - Koska nonce-kenttää kasvatetaan nollasta ylöspäin, mikä aiheuttaa sen, että hash-funktio käyttää generate-kuvioita, joissa on nollia perässä
+explanation: |
+  Little-endian-tulkinnassa tavut luetaan käänteisessä järjestyksessä, joten heksadesimaalisessa muodossa oikeanpuoleisimmat tavut ovat kokonaisluvun merkittävin osa. Jotta hash olisi alle tavoitteen (pieni luku), sen merkitsevimpien bittien on oltava nollia, jotka näkyvät heksadesimaalinäytössä perässä olevina nolliina. Tämä on puhtaasti endianssimuunnoksen esitystapa, ei SHA-256- tai mining-laitteiston ominaisuus.

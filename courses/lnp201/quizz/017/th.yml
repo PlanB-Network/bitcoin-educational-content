@@ -1,0 +1,9 @@
+question: จะเกิดอะไรขึ้นถ้า Bob ส่งใบแจ้งหนี้ไปยัง Alice เป็นจำนวน 30,000 ซาโตชิ?
+answer: Alice สร้าง commitment transaction เพื่อโอน 30,000 ซาโตชิไปยัง Bob ในช่องทาง
+wrong_answers:
+  - Alice ต้องเปิดช่องทางใหม่เพื่อทำการโอนนี้
+  - Bob จะได้รับ 30,000 satoshis ใน wallet ของเขาโดยอัตโนมัติ
+  - ใบแจ้งหนี้ชำระผ่านธุรกรรม on-chain บน Bitcoin
+explanation: |
+  เมื่อ Bob ส่งใบแจ้งหนี้ไปยัง Alice เธอจะสร้างและลงนามใน commitment transaction ใหม่เพื่อปรับการกระจายเงินทุน โดยการโอน 30,000 ซาโตชิในช่องทาง
+reviewed: true

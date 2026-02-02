@@ -1,6 +1,7 @@
 ---
-term: CPFP (BARN BETALER FOR FORELDER)
+term: CPFP (Child Pays For Parent)
 
+definition: Metode som lar mottakeren øke hastigheten på en fastlåst transaksjon ved å lage en barntransaksjon med høye gebyrer.
 ---
 En transaksjonsmekanisme som tar sikte på å akselerere bekreftelsen av en Bitcoin-transaksjon, på samme måte som Replace-by-Fee (RBF) gjør, men fra mottakerens side. Når en transaksjon med for lave gebyrer sammenlignet med markedet blir stående fast i nodenes mempools og ikke bekreftes raskt nok, kan mottakeren foreta en ny transaksjon og bruke bitcoinsene som ble mottatt i den blokkerte transaksjonen, selv om den ennå ikke er bekreftet. Denne andre transaksjonen krever nødvendigvis at den første utvinnes for å bli bekreftet. Utvinnere er dermed tvunget til å inkludere begge transaksjonene sammen. Den andre transaksjonen vil gi mye mer i transaksjonsgebyr enn den første, slik at det gjennomsnittlige gebyret oppmuntrer utvinnere til å inkludere begge transaksjonene. Barnetransaksjonen (den andre) betaler for foreldretransaksjonen som sitter fast (den første). Dette er grunnen til at det kalles en "CPFP"
 

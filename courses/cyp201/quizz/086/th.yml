@@ -1,0 +1,9 @@
+question: วิธีการคำนวณ checksum สำหรับที่อยู่ SegWit v0 ที่เข้ารหัสใน bech32 คืออะไร?
+answer: การใช้รหัส BCH
+wrong_answers:
+  - โดยการใช้ HASH256 สองครั้ง
+  - โดยการเพิ่มแฮช RIPEMD160
+  - โดยการเข้ารหัสโดยตรงใน base64
+explanation: |
+  ที่อยู่ Bech32 ใช้รหัส BCH ในการคำนวณค่า checksum.
+reviewed: false

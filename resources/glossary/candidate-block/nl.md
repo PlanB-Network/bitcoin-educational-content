@@ -1,5 +1,6 @@
 ---
-term: KANDIDAAT-BLOK
+term: Kandidaat-blok
+definition: Blok dat momenteel door een miner wordt gemaakt en nog geen geldig bewijs van arbeid (proof of work) heeft.
 ---
 
 Een kandidaatblok is een blok dat wordt aangemaakt door een Miner die deelneemt aan het Mining proces van het Bitcoin systeem. Het kandidaatblok is een tijdelijke datastructuur die transacties bevat die wachten op bevestiging, maar nog geen geldige Proof-of-Work hebben om aan de Blockchain te worden toegevoegd. De Miner selecteert transacties om op te nemen in het kandidaat-blok op basis van verschillende factoren, zoals de bijbehorende transactiekosten en de beperkingen van de blokgrootte. Zodra de transacties zijn geselecteerd, genereert de Miner de koptekst van het blok, die de versie, een vertering van de transacties (Merkle Root), een Timestamp, de Hash van het vorige blok, het moeilijkheidsdoel en een Nonce bevat. De Miner probeert dan een Hash van zijn header te vinden die voldoet aan de huidige moeilijkheidsdoelstelling. Om dit te doen, wijzigt de Miner de Nonce in de header. De Miner mag ook andere informatie in hun kandidaatblok wijzigen. Dit is het Proof-of-Work mechanisme. Als de Miner erin slaagt een geldige Hash te vinden, wordt het kandidaatblok een geldig blok en wordt het uitgezonden naar het netwerk om toegevoegd te worden aan de Blockchain.

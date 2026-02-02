@@ -300,7 +300,7 @@ Specifiek voor Satodime :
 
 
 
-- [Satodime-product] (https://satochip.io/fr/product/satodime/)
+- [Satodime-product](https://satochip.io/fr/product/satodime/)
 - [Mobiele Gids](https://satochip.io/wp-content/uploads/2024/11/Satodime-FR-Short-tuto-app-mobile.pdf)
 
 

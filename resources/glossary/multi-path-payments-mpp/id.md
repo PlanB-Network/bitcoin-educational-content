@@ -1,5 +1,6 @@
 ---
-term: MULTI PATH PAYMENT (MPP)
+term: Multi-path payments (MPP)
+definition: Teknik Lightning yang membagi pembayaran menjadi beberapa bagian yang dirutekan melalui rute yang berbeda.
 ---
 
 Istilah umum untuk semua teknik pembayaran di Lightning yang memungkinkan sebuah transaksi dipecah menjadi beberapa bagian yang lebih kecil dan dilewatkan rute yang berbeda. Dengan kata lain, setiap pecahan pembayaran mengambil jalur node yang berbeda. Hal ini memungkinkan untuk melewati batasan likuiditas pada satu saluran dalam rute.

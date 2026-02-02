@@ -1,6 +1,7 @@
 ---
-term: ASUMIR VÁLIDO
+term: Assume valid
 
+definition: Un parámetro de Bitcoin Core que permite omitir la verificación de firmas para bloques anteriores a un cierto punto, acelerando la sincronización inicial.
 ---
 Parámetro de configuración en el cliente mayoritario Bitcoin Core que permite a un nodo que acaba de ser inicializado (pero que aún no ha realizado el IBD) omitir la verificación de firmas para todas las transacciones incluidas en bloques anteriores a un determinado bloque dado. Este famoso bloque se define por la huella de su cabecera, es decir, su hash. El bloque elegido se renueva con cada nueva versión de Bitcoin Core. Al inicializarse, si el nodo ha activado este parámetro, comprobará la cadena de cabecera de bloque para encontrar la rama con más trabajo acumulado. Si el nodo detecta el hash proporcionado por Core en la rama que ha elegido, omitirá la verificación de firmas de los bloques precedentes. En caso contrario, el nodo procederá con una sincronización tradicional (IBD) para verificar todo por sí mismo.
 

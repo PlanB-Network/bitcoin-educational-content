@@ -11,7 +11,7 @@ Memulai dengan Bitcoin tampaknya menjadi tantangan besar bagi orang-orang yang s
 
 
 
-Dalam tutorial ini kita akan melihat Blue Wallet, Bitcoin Wallet yang sederhana namun sangat efektif yang memungkinkan Anda untuk mengelola bitcoin Anda secara pribadi dan juga untuk membuat koperasi manajemen berdasarkan [Multisig] (https://planb.academy/resources/glossary/multisig) (jangan khawatir, kita akan kembali ke sana).
+Dalam tutorial ini kita akan melihat Blue Wallet, Bitcoin Wallet yang sederhana namun sangat efektif yang memungkinkan Anda untuk mengelola bitcoin Anda secara pribadi dan juga untuk membuat koperasi manajemen berdasarkan [Multisig](https://planb.academy/resources/glossary/multisig) (jangan khawatir, kita akan kembali ke sana).
 
 
 
@@ -219,7 +219,7 @@ Ikuti praktik terbaik dengan memilih format P2WSH.
 
 
 
-❗ **[P2WSH] (https://planb.academy/resources/glossary/p2wsh) atau Pay to Witness Script Hash** adalah metode penguncian yang mengunci bitcoin keluar (Output) dari transaksi Anda ke Hash dari skrip khusus yang dibuat oleh Blue Wallet. Keuntungan utama dari jenis penguncian ini adalah mengurangi ukuran data transaksi dan secara implisit memungkinkan Anda untuk membayar biaya transaksi yang lebih rendah.
+❗ **[P2WSH](https://planb.academy/resources/glossary/p2wsh) atau Pay to Witness Script Hash** adalah metode penguncian yang mengunci bitcoin keluar (Output) dari transaksi Anda ke Hash dari skrip khusus yang dibuat oleh Blue Wallet. Keuntungan utama dari jenis penguncian ini adalah mengurangi ukuran data transaksi dan secara implisit memungkinkan Anda untuk membayar biaya transaksi yang lebih rendah.
 
 
 
@@ -263,7 +263,7 @@ Saat memvalidasi transaksi Anda, Anda memerlukan tanda tangan kedua untuk menyet
 
 
 
-Penandatangan Wallet kedua, jika dia juga seorang pengguna, dapat menandatangani transaksi meskipun dia tidak terhubung ke Internet (tidak ada Wi-Fi, tidak ada data seluler) dengan memindai kode QR dari [transaksi yang ditandatangani sebagian] (https://planb.academy/resources/glossary/psbt) yang baru saja Anda buat.
+Penandatangan Wallet kedua, jika dia juga seorang pengguna, dapat menandatangani transaksi meskipun dia tidak terhubung ke Internet (tidak ada Wi-Fi, tidak ada data seluler) dengan memindai kode QR dari [transaksi yang ditandatangani sebagian](https://planb.academy/resources/glossary/psbt) yang baru saja Anda buat.
 
 
 

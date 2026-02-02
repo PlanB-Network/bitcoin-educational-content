@@ -1,0 +1,8 @@
+question: ¿Qué mecanismo criptográfico permite a Liquid Network verificar que las entradas de las transacciones son iguales a las salidas más las comisiones sin revelar las cantidades reales al público?
+answer: Compromisos de Pedersen y pruebas de alcance
+wrong_answers:
+  - Árboles Merkle y firmas digitales
+  - Hash Contratos con bloqueo temporal y multifirmas
+  - Firmas Schnorr y guiones Taproot
+explanation: |
+  Los Compromisos de Pedersen y las Pruebas de Rango son las primitivas criptográficas específicas que permiten a Liquid's Confidential Transactions ocultar importes sin dejar de permitir la verificación matemática. Los Compromisos de Pedersen se vinculan criptográficamente a valores sin revelarlos, mientras que las Pruebas de Rango garantizan que todas las cantidades son enteros positivos, impidiendo que los usuarios creen dinero a través de valores negativos. Las otras opciones son herramientas criptográficas legítimas de Bitcoin, pero no proporcionan la capacidad de ocultación necesaria para transacciones confidenciales en las que las cantidades permanecen ocultas pero son verificables.

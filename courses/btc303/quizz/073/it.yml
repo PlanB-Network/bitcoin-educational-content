@@ -3,7 +3,7 @@ answer: Dopo che più dell'80% dei nodi Bitcoin ha distribuito le correzioni
 wrong_answers:
   - Subito dopo il rilascio della patch per evitare false ipotesi di sicurezza
   - Dopo che tutte le principali altcoin sono state avvisate e hanno aggiornato le loro implementazioni
-  - Dopo un periodo di embargo standard di 90 giorni, indipendentemente dallo stato di schieramento
+  - Dopo un periodo di embargo standard di 90 giorni, indipendentemente dallo stato di adozione
 explanation: |
   Bitcoin Core segue una tempistica di divulgazione basata sulla distribuzione piuttosto che su un periodo di tempo fisso. La soglia dell'80% garantisce che la maggior parte della rete sia protetta prima che gli aggressori possano venire a conoscenza della vulnerabilità grazie alla divulgazione pubblica. Questo approccio privilegia la sicurezza della rete rispetto a tempistiche arbitrarie, in quanto una divulgazione prematura potrebbe esporre il restante 20% dei nodi ad attacchi mirati. Le altre opzioni rappresentano pratiche comuni nella sicurezza del software tradizionale, ma non tengono conto della natura decentralizzata di Bitcoin, dove gli utenti devono aggiornare volontariamente i propri nodi.
-reviewed: false
+reviewed: true

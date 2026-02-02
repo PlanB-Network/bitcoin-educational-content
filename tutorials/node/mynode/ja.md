@@ -3,7 +3,7 @@ name: My Node
 description: ビットコイン「MyNode」を設定しよう
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 https://mynodebtc.com/
 

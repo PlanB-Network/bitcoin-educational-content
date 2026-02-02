@@ -1,0 +1,8 @@
+question: Co udělá metoda unwrap, když je zavolána na typu Result v Rust?
+answer: Extrahuje hodnotu úspěchu, ale v případě chyby zpanikaří
+wrong_answers:
+  - Vrací hodnotu None, pokud dojde k chybě, a Some, pokud se chyba vyskytne
+  - Převede chybu na varovnou zprávu a pokračuje ve vykonávání
+  - Automaticky přenese chybu do volající funkce
+explanation: |
+  Metoda unwrap extrahuje hodnotu úspěchu z výsledku, ale způsobí, že program zpanikaří, pokud dojde k chybě. To ji činí užitečnou pro rychlé prototypování nebo v situacích, kdy jste si jisti, že operace bude úspěšná. Ostatní možnosti popisují odlišné chování: vracení None/Some popisuje typy Option, převod chyb na varování není standardním vzorem Rust a automatické šíření chyb provádí operátor otazníku (?), nikoli unwrap.

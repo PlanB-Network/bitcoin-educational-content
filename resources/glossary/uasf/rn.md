@@ -1,5 +1,6 @@
 ---
 term: UASF
+definition: Ihindagurika ryo mu bwoko bwa soft fork ryatangujwe kandi ryemezwa n'abakoresha urusobe binyuze kuri nodes zabo, badategereje uruhushya rw'abaminer.
 ---
 
 Inyuguti y'inyongera y'ikirundi "*Soft Fork yakoreshejwe n'ukoresha*". Idondora Soft Fork muri Bitcoin iyo itangujwe kandi igashirwa mu ngiro n’abakoresha urubuga biciye ku nzira zabo, ata kwizigira kwemererwa na Miner. Ivyo bice vy’uruja n’uruza birahindura porogarama zavyo kugira ngo vyemeze amategeko mashasha ya Soft Fork, maze bireke ama chips agwe aho ashobora!

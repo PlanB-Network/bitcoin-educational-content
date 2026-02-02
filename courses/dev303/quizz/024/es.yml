@@ -1,0 +1,8 @@
+question: ¿Qué sintaxis se utiliza para acceder al primer campo de una estructura de tupla en Rust?
+answer: Notación de puntos con índice 0 (por ejemplo, instancia.0)
+wrong_answers:
+  - Corchetes con índice 0 (por ejemplo, instancia[0])
+  - Notación de flecha con índice 0 (por ejemplo, instancia->0)
+  - Dos puntos dobles con índice 0 (por ejemplo, instancia::0)
+explanation: |
+  Las estructuras de tupla en Rust utilizan la notación de punto seguida del índice de campo para acceder a sus campos sin nombre. El primer campo se accede con .0, el segundo con .1, y así sucesivamente. Esto es diferente de las matrices o vectores que utilizan corchetes, y a diferencia de C++ que utiliza la notación de flecha para los punteros. La sintaxis de dos puntos dobles está reservada para las funciones asociadas y el espaciado de nombres, no para el acceso a campos.

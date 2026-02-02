@@ -1,0 +1,8 @@
+question: Mitkä kolme komponenttia muodostavat merkkijonon rakenteen Rust:n muistiasettelussa?
+answer: Osoitin kasan tietoihin, nykyinen pituus ja kokonaiskapasiteetti
+wrong_answers:
+  - Osoitin pinon tietoihin, nykyinen koko ja enimmäispituus
+  - Muistiosoite, merkkien lukumäärä ja allokaatiotyyppi
+  - Tietoviittaus, tavun koko ja omistustila
+explanation: |
+  Rust:ssä merkkijono koostuu täsmälleen kolmesta pinoon tallennetusta komponentista: osoittimesta kasaan varattuun merkkidataan, merkkijonon sisällön nykyisestä pituudesta ja varatun puskurin kokonaiskapasiteetista. Tämän rakenteen avulla merkkijonot voivat kasvaa ja kutistua tehokkaasti ja samalla säilyttää tietonsa niiden rajoista. Muut vaihtoehdot ovat virheellisiä, koska niissä joko viitataan vääriin paikkoihin (pino eikä kasa), käytetään epätarkkaa terminologiaa (koko vs. pituus, merkkimäärä vs. tavun pituus) tai ne sisältävät osia, joita ei ole olemassa, kuten allokaatiotyyppi tai omistustila.

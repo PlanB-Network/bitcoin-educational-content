@@ -1,0 +1,9 @@
+question: Apa yang diwakili oleh ID Node dari node Lightning?
+answer: Kunci publik dan alamat node
+wrong_answers:
+  - Node seed dan alamat
+  - Alias simpul dan kunci publik
+  - Hash alias simpul alias dan seed
+explanation: |
+  ID Node menggabungkan kunci publik node dengan alamat jaringan dan port.
+reviewed: false

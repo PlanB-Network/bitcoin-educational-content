@@ -6,4 +6,4 @@ wrong_answers:
   - No hay una longitud fija para S en RC4 estándar
 explanation: |
   En RC4 estándar, el arreglo S contiene 256 bytes, lo que aumenta significativamente la complejidad de los cálculos y mejora la seguridad en comparación con la versión simplificada que solo tiene 8 bytes.
-reviewed: false
+reviewed: true

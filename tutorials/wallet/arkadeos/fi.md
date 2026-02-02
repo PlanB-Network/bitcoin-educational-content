@@ -372,14 +372,15 @@ Jotta ymmärtäisimme paremmin Arkaden asemaa, verrataan sitä kahteen muuhun me
 
 
 
-| Critère | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
+
+| Kriteeri | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
 | :--- | :--- | :--- | :--- |
-| **Modèle** | UTXO partagé coordonné par serveur (ASP) | Réseau P2P de canaux de paiement | Jetons aveugles émis par une banque (Mint) |
-| **Custodie** | **Non-custodial** (vous avez les clés) | **Non-custodial** (vous avez les clés) | **Custodial** (le Mint a les fonds) |
-| **Confidentialité** | **Élevée** (CoinJoin natif, aveugle pour le public) | **Moyenne** (Routage en oignon, mais canaux visibles) | **Très Élevée** (Aveugle même pour le Mint) |
-| **Scalabilité** | Excellente (Batching massif on-chain) | Excellente (Transactions infinies off-chain) | Excellente (Simples signatures serveur) |
-| **Expérience** | Simple (proche d'un wallet on-chain) | Complexe (gestion de canaux, liquidité) | Très simple (comme du cash numérique) |
-| **Risque principal** | Disponibilité de l'ASP & Expiration | Gestion des canaux & Backups | Confiance dans le Mint (risque de vol) |
+| **Malli** | Palvelimen (ASP) koordinoima jaettu UTXO | Maksukanavien P2P-verkko | Pankin (Mint) myöntämät sokeat poletit |
+| **Säilytys** | **Ei-säilytyksellinen** (avaimet ovat sinulla) | **Ei-säilytyksellinen** (avaimet ovat sinulla) | **Säilytyksellinen** (Mintillä on varat) |
+| **Yksityisyys** | **Korkea** (Natiivi CoinJoin, sokea yleisölle) | **Keskitaso** (Sipulireititys, mutta kanavat näkyvissä) | **Erittäin korkea** (Sokea jopa Mintille) |
+| **Skaalautuvuus** | Erinomainen (Massiivinen on-chain batching) | Erinomainen (Loputtomat off-chain transaktiot) | Erinomainen (Yksinkertaiset palvelin-allekirjoitukset) |
+| **Kokemus** | Yksinkertainen (lähellä on-chain-lompakkoa) | Monimutkainen (kanavien hallinta, likviditeetti) | Erittäin yksinkertainen (kuin digitaalinen käteinen) |
+| **Pääriski** | ASP:n saatavuus & Vanheneminen | Kanavien hallinta & Varmuuskopiot | Luottamus Minttiin (varkausriski) |
 
 **Arkade** on ihanteellinen kompromissi: Cashun yksinkertaisuus ja luottamuksellisuus, mutta Lightningin suvereenius (ei-hallinnollinen).
 

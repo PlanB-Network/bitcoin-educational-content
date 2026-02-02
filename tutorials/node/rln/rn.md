@@ -14,7 +14,7 @@ Muri iyi nyigisho y’intambwe ku yindi, uzomenya ingene woshiraho urudodo rwa L
 Ishirahamwe rya Bitfinex rya RGB ryakoze kuva mu 2022 kugira ngo ritunganye ibidukikije vya RGB mu gutegura ikirundo c’ubuhinga bushitse. Aho gushimikira ku kintu kimwe c’ubudandaji, utwigoro twayo twibanze ku gutuma amatafari y’ubuhinga bufunguye aboneka, agatanga umusanzu ku mirongo ngenderwako y’amasezerano ya RGB no guhingura ibimenyetso vyo gushirwa mu ngiro.
 
 
-Mu vyo Bitfinex yashizeko mu bijanye n’ibidukikije vya RGB harimwo [ububiko bw’ibitabu bwa *RGBlib*] (https://github.com/RGB-Tools/RGB-lib), bwanditswe muri Rust kandi bushobora gushikwako biciye ku gufatanya mu rurimi rwa Kotlin na Python, ivyo bikaba vyorosha cane gukoresha ubuhinga bwa RGB. uburyo bwo gukorana n’abandi.
+Mu vyo Bitfinex yashizeko mu bijanye n’ibidukikije vya RGB harimwo [ububiko bw’ibitabu bwa *RGBlib*](https://github.com/RGB-Tools/RGB-lib), bwanditswe muri Rust kandi bushobora gushikwako biciye ku gufatanya mu rurimi rwa Kotlin na Python, ivyo bikaba vyorosha cane gukoresha ubuhinga bwa RGB. uburyo bwo gukorana n’abandi.
 
 
 Ishirahamwe rya Bitfinex ryakoze kandi telefone ngendanwa yitwa RGB, yitwa "[*Iris Wallet*](https://iriswallet.com/)", iboneka kuri Android. Iyi Wallet ikoresha ikoreshwa rya proxy server ya RGB kugira ngo ushobore gucunga neza amakuru ya off-chain (*ibirungikwa*) ku *Client-side Validation* kuri RGB.

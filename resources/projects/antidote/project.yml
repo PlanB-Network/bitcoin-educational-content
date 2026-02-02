@@ -1,0 +1,28 @@
+id: 6dff85a2-b4a7-4268-be9c-d067b363cd46
+name: Antidote
+category: communities
+
+address_city_country: London, United Kingdom
+address_line_2: 51-53 Hatton Garden, London EC1N 8HN, United Kingdom
+address_line_3: The Bindery
+
+language:
+  - en
+
+links:
+  website: https://antidotebtc.com/
+  linkedin: https://linkedin.com/company/antidote-btc
+
+tags:
+  - business
+  - adoption
+  - use-case
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-12-15
+    urgency: 1
+    contributor_names:
+      - PaoloFoti
+    reward: 0

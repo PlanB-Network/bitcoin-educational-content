@@ -1,0 +1,8 @@
+question: Was ist bei der Verwendung von RefCell in einer Multithreading-Umgebung das wichtigste Sicherheitsrisiko?
+answer: RefCell ist nicht thread-sicher und führt zu undefiniertem Verhalten, wenn der Zugriff von mehreren Threads aus erfolgt
+wrong_answers:
+  - RefCell synchronisiert den Zugriff zwischen Threads automatisch, allerdings mit erheblichem Leistungs-Overhead
+  - RefCell gerät zur Laufzeit in Panik, wenn mehrere Threads gleichzeitig versuchen, darauf zuzugreifen
+  - RefCell blockiert, wenn mehrere Threads gleichzeitig versuchen, dieselben Daten zu leihen
+explanation: |
+  RefCell ist ausschließlich für Single-Thread-Szenarien konzipiert und verfügt über keinerlei Thread-Synchronisationsmechanismen. Im Gegensatz zu thread-sicheren Alternativen wie Mutex führt RefCell keine atomaren Operationen oder Sperren durch, so dass der gleichzeitige Zugriff von mehreren Threads zu undefiniertem Verhalten und potenziellen Datenrennen führt. Die von RefCell zur Laufzeit durchgeführten Ausleihprüfungen sind nicht thread-sicher und können durch gleichzeitigen Zugriff beschädigt werden, was zu Verstößen gegen die Speichersicherheit führt, die Rust normalerweise verhindert.

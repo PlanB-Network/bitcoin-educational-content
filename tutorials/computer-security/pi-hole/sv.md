@@ -345,7 +345,7 @@ När skriptet är klart visas resultatet på sidan, vilket innebär att listan h
 
 
 
-Som meddelades i början av denna handledning låter Pi-Hole dig också **blockera domäner som är kända för att distribuera skadlig kod. För att förstärka denna funktion föreslår jag att du också lägger till den regelbundet uppdaterade domänlistan som distribueras av Abuse.ch**, vilket kommer att stärka säkerheten i ditt nätverk avsevärt, tillgänglig på [this Address] (https://urlhaus.abuse.ch/downloads/hostfile/).
+Som meddelades i början av denna handledning låter Pi-Hole dig också **blockera domäner som är kända för att distribuera skadlig kod. För att förstärka denna funktion föreslår jag att du också lägger till den regelbundet uppdaterade domänlistan som distribueras av Abuse.ch**, vilket kommer att stärka säkerheten i ditt nätverk avsevärt, tillgänglig på [this Address](https://urlhaus.abuse.ch/downloads/hostfile/).
 
 
 

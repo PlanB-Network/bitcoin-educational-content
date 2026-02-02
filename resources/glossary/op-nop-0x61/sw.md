@@ -1,5 +1,6 @@
 ---
 term: OP_NOP (0X61)
+definition: Opcode isiyo na athari yoyote, inayotumika kama mahali pa kuingiza soft forks za baadaye.
 ---
 
 Haileti athari kwa rafu au hali ya hati. Haifanyi harakati, ukaguzi, au marekebisho. Haifanyi chochote isipokuwa kuamuliwa vinginevyo kupitia Soft Fork. Hakika, tangu kubadilishwa kwao na Satoshi Nakamoto mwaka wa 2010, amri `OP_NOP` (`OP_NOP1` (`0XB0`) hadi `OP_NOP10` (`0XB9`)) hutumika kuongeza opcodes mpya katika mfumo wa Soft Fork.

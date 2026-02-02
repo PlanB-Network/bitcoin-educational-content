@@ -195,7 +195,7 @@ Masukkan kode PIN Anda.
 
 ![Image](assets/fr/39.webp)
 
-Kemudian buka [situs web Blockstream] (https://jadefw.blockstream.com/pinqr/qrpin.html) untuk menukar kode QR dengan oracle.
+Kemudian buka [situs web Blockstream](https://jadefw.blockstream.com/pinqr/qrpin.html) untuk menukar kode QR dengan oracle.
 
 ![Image](assets/fr/40.webp)
 
@@ -213,7 +213,7 @@ Klik "*Mulai*".
 
 ![Image](assets/fr/15.webp)
 
-Anda dapat menggunakan basis kode QR yang disediakan dalam kotak Jade Plus. Pilih kotak yang sesuai, tergantung pada apakah Anda memilih kalimat 12 atau 24 kata. Anda juga dapat [mencetak template dari situs web Blockstream] (https://help.blockstream.com/hc/article_attachments/41928319071769).
+Anda dapat menggunakan basis kode QR yang disediakan dalam kotak Jade Plus. Pilih kotak yang sesuai, tergantung pada apakah Anda memilih kalimat 12 atau 24 kata. Anda juga dapat [mencetak template dari situs web Blockstream](https://help.blockstream.com/hc/article_attachments/41928319071769).
 
 Jade Plus Anda akan menampilkan setiap zona kode QR Anda.
 
@@ -328,7 +328,7 @@ https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 Dalam tutorial ini, saya menyajikan penggunaan tingkat lanjut Jade Plus menggunakan Sparrow Wallet. Namun, dompet perangkat keras ini kompatibel dengan banyak program lain, seperti Liana, Nunchuk, Spectre, Green, dan Keeper. Kompatibilitas ini bervariasi dalam hal koneksi: USB, Bluetooth atau kode QR (lihat tabel di bagian pendahuluan untuk detailnya).
 
-Mulailah dengan mengunduh dan menginstal Sparrow Wallet [dari situs web resmi] (https://sparrowwallet.com/) di komputer Anda, jika Anda belum melakukannya.
+Mulailah dengan mengunduh dan menginstal Sparrow Wallet [dari situs web resmi](https://sparrowwallet.com/) di komputer Anda, jika Anda belum melakukannya.
 
 ![Image](assets/fr/50.webp)
 

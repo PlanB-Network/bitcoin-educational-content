@@ -1,8 +1,10 @@
-question: Ni igiki Petero mweranda asaba ko haba amahoro hagati y’amahanga?
-answer: Ibindi bisubizo 3 rimwe .
+question: Niki aterera Saint Pierre asaba ko haba amahoro hagati y’amahanga?
+answer: Izindi nyishu 3 mu mwanya umwe .
 wrong_answers:
-  - Gushinga inama y’amahanga .
+  - Gushinga ubuhanuzi bw'’amahanga .
   - Gushinga ingabo rusangi .
-  - Gukoresha ubukemurampaka mu gihe habaye amatati
+  - Gukoresha ukumvikanisha mu gihe habaye amatati
 explanation: |
-  Abbé de Saint-Pierre yasavye urutonde rw’ingingo zo gutuma haba amahoro, harimwo inama y’ibihugu, ingabo rusangi n’ubukemurampaka. Yarizera ko izo nzego zofasha gutorera umuti amatati mu mahoro no gukingira intambara.
+  Abbé de Saint-Pierre yasavye urutonde rw’ingingo zo gutuma haba amahoro, harimwo inama y’ibihugu, ingabo rusangi n’ubukemurampaka. Yarizera ko izo nzego zofasha gutorera umuti amatati mu mahoro no gukinga intambara.
+reviewed: true
+  

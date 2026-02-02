@@ -196,7 +196,7 @@ Ensemble, ils font du bitcoin **un actif au porteur** et une monnaie numérique 
 
 ![BIZ101](assets/fr/003.webp)
 
-Le bitcoin a une politique monétaire fixe, avec un **cap de 21 millions de bitcoins**, dont ~19,8 millions ont déjà été distribués. Cela le rend **déflationniste**, sa valeur augmentant au fil du temps à mesure que les utilisateurs y stockent leurs économies et leurs gains de productivité.
+Le Bitcoin a une politique monétaire fixe, avec un **maximum de 21 millions de bitcoins**, dont environ 19,8 (2024) millions ont déjà été minés. Cela le rend **déflationniste**, sa valeur augmentant au fil du temps à mesure que les utilisateurs y stockent leur épargne et leurs gains de productivité.
 
 Ses caractéristiques techniques dépassent celles de l'or et du dollar réunis, ce qui en fait l'actif financier le plus "dur" jamais créé. Le bitcoin est à la fois une réserve de valeur et un moyen d'échange, une monnaie en devenir. Imaginez que vous puissiez transférer de la valeur, depuis la trésorerie d'une entreprise à une autre, rapidement, sans intermédiaire, à un coût minime, sans fraude, 24 heures sur 24, 7 jours sur 7, et sans l'intervention d'une tierce partie.
 
@@ -208,8 +208,7 @@ Le bitcoin est perturbateur parce qu'il nous encourage à apprendre des concepts
 
 Le bitcoin nous pousse à reconsidérer la nature même de l'argent. Pourriez-vous nous expliquer ce qu'est vraiment l'argent ? Un salarié ou un entrepreneur va passer 50 000 à 100 000 heures de sa vie à gagner de l'argent, mais combien **consacrent ne serait-ce que 100 heures à mieux le comprendre** et à le préserver ? Le bitcoin nous incite à nous interroger sur les raisons fondamentales de notre besoin d'argent et sur notre perspective temporelle. L'argent est-il un luxe immédiat ou une résilience à long terme ? Si nous disposions d'un actif qui s'apprécie et nous permettait de retarder nos achats, quels choix ferions-nous ? Quelles conversations souhaiterions-nous avoir avec nous-mêmes dans 20 ou 30 ans ?
 
-**CARTE D'IDENTITÉ DE BITCOIN**
-
+**CARTE D'IDENTITÉ DE BITCOIN (en 2024)**
 
 - **Âge:** 15 ans (3 janvier 2009)
 - **Valeur boursière quotidienne:** 10 milliards de dollars (> CAC40)
@@ -293,7 +292,7 @@ Le Lightning Network est idéal pour les paiements en bitcoins dans les magasins
 - **Finalité:** Une fois qu'un paiement est effectué sur Lightning, il est définitif. Il n'y a pas de possibilité de rétro-facturation par des tiers ou de litiges liés à la fraude.
 - **Frais:** Les frais de transaction sur le Lightning Network sont minimes et payés par l'utilisateur, pas par le commerçant. Les commerçants ne paient des frais que s'ils ont besoin de transférer leurs bitcoins vers un autre réseau ou service.
 
-**CARTE D'IDENTITÉ DE LIGHTNING**
+**CARTE D'IDENTITÉ DE LIGHTNING (en 2024)**
 
 
 - **Invention:** 2015
@@ -585,7 +584,7 @@ Le bitcoin fonctionnant comme un moyen d'échange, il est possible d'envisager u
 
 Il s'agit de tirer des revenus de l'exploitation de machines dites "minières" (ordinateurs). Pour les entreprises non spécialisées dans cette activité, cela reste relativement marginal. Vous pouvez participer par le biais d'intermédiaires qui vous vendront ou vous loueront l'ordinateur, le réseau et la maintenance. Si vous possédez les machines, vous pouvez les comptabiliser comme des actifs amortissables. À grande échelle, vous devrez calculer soigneusement le retour sur investissement, car le marché est très concurrentiel et nécessite une bonne anticipation des coûts, notamment de l'électricité.
 
-Pour en savoir plus sur les méthodes d'exploitation minière, vous pouvez [consulter la section "exploitation minière" de nos tutoriels] (https://planb.academy/tutorials/mining).
+Pour en savoir plus sur les méthodes d'exploitation minière, vous pouvez [consulter la section "exploitation minière" de nos tutoriels](https://planb.academy/tutorials/mining).
 
 
 - **Acheter des bitcoins:**
@@ -598,7 +597,7 @@ https://planb.academy/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-
 
 https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
-Pour en savoir plus sur les méthodes d'acquisition de bitcoins via un échange ou en peer-to-peer, vous pouvez [consulter la section "échange" de nos tutoriels] (https://planb.academy/tutorials/exchange).
+Pour en savoir plus sur les méthodes d'acquisition de bitcoins via un échange ou en peer-to-peer, vous pouvez [consulter la section "échange" de nos tutoriels](https://planb.academy/tutorials/exchange).
 
 ![BIZ101](assets/fr/012.webp)
 
@@ -904,7 +903,7 @@ Si vous êtes prêt à mettre les mains dans le cambouis et que vous souhaitez a
 
 https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
-Enfin, en complément des points de vente physiques, vous pouvez envisager de mettre en place [un point de vente Bitcoinize] (https://bitcoinize.com/).
+Enfin, en complément des points de vente physiques, vous pouvez envisager de mettre en place [un point de vente Bitcoinize](https://bitcoinize.com/).
 
 ## Le professionnel
 
@@ -936,7 +935,7 @@ Pour ce qui est des exemples concrets, prenons l'exemple d'un magasin de commerc
 
 ![BIZ101-profiles](assets/fr/028.webp)
 
-*[Crédit : Boutique Bitcoin Bazar à Paris, France] (https://bitcoinbazar.fr/)*
+*[Crédit : Boutique Bitcoin Bazar à Paris, France](https://bitcoinbazar.fr/)*
 
 Pour approfondir les spécificités de l'implémentation et explorer les configurations pratiques de BTC Pay Server, reportez-vous au cours suivant :
 
@@ -1000,7 +999,7 @@ Les nouvelles infrastructures réussissent parce qu'elles sont plus efficaces, e
 
 ![BIZ101-profiles](assets/fr/029.webp)
 
-*[Source : BTC Map] (https://btcmap.org/)*
+*[Source : BTC Map](https://btcmap.org/)*
 
 
 - **Métriques du réseau:** Le nombre total de canaux et de bitcoins bloqués sur Lightning reste stable, avec environ 20 000 nœuds, 5 200 BTC et 60 000 canaux. Toutefois, ces chiffres ne reflètent qu'une partie du réseau et indiquent une rotation parmi les participants, avec moins de particuliers et plus de professionnels.

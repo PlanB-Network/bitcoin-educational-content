@@ -1,0 +1,8 @@
+question: Zašto moderni ASIC rudari modifikuju podatke unutar Coinbase transakcije umesto da se oslanjaju isključivo na nonce polje zaglavlja bloka?
+answer: Polje nonce od 4 bajta pruža nedovoljan prostor za pretragu za moderne ASIC-ove, pa rudari menjaju podatke u Coinbase-u kako bi promenili Merkle root i stvorili dodatni prostor za pretragu.
+wrong_answers:
+  - Modifikovanje Coinbase transakcije omogućava rudarima da zahtevaju veće nagrade za blokove nego što standardni iznos subvencije dozvoljava
+  - "Coinbase transakcija mora biti izmenjena da uključi digitalni potpis rudara za potrebe validacije bloka"
+  - Promena Coinbase podataka smanjuje računarsku težinu omogućavajući rudarima da zaobiđu standardne proof-of-work zahteve.
+explanation: |
+  Moderni ASIC-i mogu izuzetno brzo iscrpeti prostor 4-bajtnih nonce-ova (2^32 mogućnosti), što zahteva dodatni prostor za pretragu. Menjanjem podataka u Coinbase transakciji, rudari menjaju hash transakcije, što menja Merkle root u zaglavlju bloka, efektivno stvarajući milijarde dodatnih vrednosti sličnih nonce-u za isprobavanje. Ova tehnika, nazvana 'extra-nonce,' je esencijalna za moderne mining operacije gde hardver daleko premašuje kapacitet originalnog polja za nonce.

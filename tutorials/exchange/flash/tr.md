@@ -23,7 +23,7 @@ Bu eğitimde, 100 CFA frangı gibi düşük bir fiyattan bitcoin almanızı sağ
 
 
 
-Flash, [BlockSolut] (https://bitcoinflash.xyz) tarafından geliştirilen ve çeşitli Batı Afrika ülkelerinde faaliyet gösteren bir KİS-2 platformudur. Flash'ın ana misyonu, Exchange'nin edinilmesini, Bitcoin'ün günlük yaşamda kullanılmasını kolaylaştırmaktır.
+Flash, [BlockSolut](https://bitcoinflash.xyz) tarafından geliştirilen ve çeşitli Batı Afrika ülkelerinde faaliyet gösteren bir KİS-2 platformudur. Flash'ın ana misyonu, Exchange'nin edinilmesini, Bitcoin'ün günlük yaşamda kullanılmasını kolaylaştırmaktır.
 
 
 Flash, Bitcoin işlemlerini güvenli ve sorunsuz bir şekilde gerçekleştirmek için bir Bitcoin kaplaması olan Lightning Network'e güveniyor ve topluluğuna Bitcoin'in günlük yaşamdaki gücünü gösteriyor.

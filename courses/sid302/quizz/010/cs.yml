@@ -1,0 +1,8 @@
+question: Co brání uživatelům vytvářet peníze ze vzduchu v systému Elements' Confidential Transactions?
+answer: Rozsah Důkazy, které matematicky dokazují, že skryté hodnoty jsou kladná celá čísla v platných rozsazích
+wrong_answers:
+  - Pedersen Závazky, které kryptograficky vážou částky transakcí na veřejné klíče
+  - Ověřování registru aktiv, které kontroluje všechny částky transakcí s registrovanými limity aktiv
+  - Sdružené konsensuální uzly, které dešifrují a ověřují všechny důvěrné částky transakcí
+explanation: |
+  Důkazy rozsahu jsou specifickým kryptografickým mechanismem, který brání uživatelům zneužít systém důvěrných transakcí použitím záporných čísel nebo neplatných částek k vytvoření peněz z ničeho. Zatímco Pedersenovy závazky skrývají skutečné částky, Range Proofs zajišťují matematickou integritu tím, že dokazují, že skryté hodnoty spadají do legitimních rozsahů. Registr aktiv pouze mapuje ID aktiv na lidsky čitelné názvy a neověřuje částky a sdružené uzly nedešifrují důvěrné transakce - ověřují je, aniž by viděly skutečné hodnoty.

@@ -1,0 +1,8 @@
+question: Koji fundamentalni problem RC rešava koji Box ne može da reši u sistemu vlasništva Rust?
+answer: RC omogućava višestruko vlasništvo nad istim podacima putem brojanja referenci
+wrong_answers:
+  - RC obezbeđuje bržu alokaciju i dealokaciju memorije od Box
+  - RC omogućava automatsko upravljanje memorijom bez ikakvog runtime opterećenja
+  - RC omogućava provere pozajmljivanja u vreme kompilacije koje Box ne može da izvrši
+explanation: |
+  RC (Reference Counter) specifično rešava ograničenje Box-ovog modela jedinstvenog vlasništva omogućavajući da više delova koda istovremeno deli vlasništvo nad istim podacima. Box prati tradicionalna pravila vlasništva gde samo jedan entitet može imati vlasništvo nad podacima u datom trenutku, što onemogućava kreiranje scenarija poput deljenih struktura podataka gde više lista referencira isti završni deo. RC održava interni brojač koji prati reference, povećavajući se kada se klonira i smanjujući kada se odbaci, oslobađajući memoriju tek kada broj dostigne nulu. Ovo omogućava fleksibilne obrasce deljenja podataka uz održavanje bezbednosti memorije, što je suštinski različito od Box-ovog pristupa ekskluzivnog vlasništva.

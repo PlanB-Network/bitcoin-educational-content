@@ -20,7 +20,7 @@ description: Tutorial completo do Blink Wallet - Enviar, receber e usar o Bitcoi
 Esqueça tudo o que pensa que sabe sobre as carteiras Bitcoin serem complicadas. Blink é o iPhone das carteiras Bitcoin.
 
 
-Anteriormente conhecido como Bitcoin Beach Wallet, o Blink é uma aplicação móvel de fácil utilização que leva o Bitcoin a todos - em qualquer parte do mundo. Foi originalmente [construído para a comunidade Bitcoin Beach] (https://bitcoinmagazine.com/business/Bitcoin-beach-Wallet-renamed-to-blink) em El Salvador, e agora está a ajudar pessoas em todo o mundo a enviar, receber e usar o Bitcoin sem esforço.
+Anteriormente conhecido como Bitcoin Beach Wallet, o Blink é uma aplicação móvel de fácil utilização que leva o Bitcoin a todos - em qualquer parte do mundo. Foi originalmente [construído para a comunidade Bitcoin Beach](https://bitcoinmagazine.com/business/Bitcoin-beach-Wallet-renamed-to-blink) em El Salvador, e agora está a ajudar pessoas em todo o mundo a enviar, receber e usar o Bitcoin sem esforço.
 
 
 Quer seja novo no Bitcoin ou um utilizador experiente, este guia apresenta-lhe tudo o que precisa de saber para começar.
@@ -62,7 +62,7 @@ Eis o que chocou muitos utilizadores: A criação do Blink é mais rápida do qu
 
 - Descarregar o Blink Wallet
  - Procurar "Blink Wallet" na [App Store](https://apps.apple.com/ng/app/Bitcoin-beach-Wallet/id1531383905) (iOS), [Google Play](https://play.google.com/store/apps/details?id=com.galoyapp) (Android) ou [App Gallery](https://appgallery.huawei.com/app/C105387593) (Huawei), consoante o dispositivo.
- - Também é possível transferi-lo diretamente do [sítio Web do Blink Wallet] (https://blink.sv).
+ - Também é possível transferi-lo diretamente do [sítio Web do Blink Wallet](https://blink.sv).
 - Criar um Wallet
  - Toque em "Criar novo Wallet"
  - Concordar com os termos e condições
@@ -79,7 +79,7 @@ Eis o que chocou muitos utilizadores: A criação do Blink é mais rápida do qu
 ![image](assets/fr/02.webp)
 
 
-Quando abrir o [Blink Wallet] (https://blink.sv/) pela primeira vez, verá algo refrescantemente limpo. Não há gráficos a gritar, nem números a piscar, apenas o seu saldo e alguns botões simples.
+Quando abrir o [Blink Wallet](https://blink.sv/) pela primeira vez, verá algo refrescantemente limpo. Não há gráficos a gritar, nem números a piscar, apenas o seu saldo e alguns botões simples.
 
 
 ### Resumo do ecrã principal
@@ -269,7 +269,7 @@ Aceder a ferramentas avançadas do comerciante em Definições → Formas de pag
  - Nenhum montante especificado - os clientes escolhem o montante da gorjeta/pagamento
 
 
-Obtenha mais informações sobre [Blink POS] (https://www.blink.sv/blog/transform-your-payment-experience-with-the-blink-pos) e explore recursos valiosos para comerciantes em [Blink Branding and Onboarding resources] (https://www.blink.sv/en/brand).
+Obtenha mais informações sobre [Blink POS](https://www.blink.sv/blog/transform-your-payment-experience-with-the-blink-pos) e explore recursos valiosos para comerciantes em [Blink Branding and Onboarding resources](https://www.blink.sv/en/brand).
 
 
 ## Aprender e ganhar o Bitcoin de forma fácil com a Blink
@@ -305,7 +305,7 @@ A Blink é uma empresa de custódia Wallet, o que significa que detém e gere os
 
 
 - Prós: Configuração simples, Interface fácil de utilizar, apoio ao cliente disponível
-- Contras: Não controla as suas [chaves privadas] (https://www.blink.sv/blog/not-your-keys-not-your-coins), o que significa que depende do Blink para gerir os seus fundos
+- Contras: Não controla as suas [chaves privadas](https://www.blink.sv/blog/not-your-keys-not-your-coins), o que significa que depende do Blink para gerir os seus fundos
 
 
 ### Limites de transação
@@ -358,8 +358,8 @@ A Blink é uma empresa de custódia Wallet, o que significa que detém e gere os
 
 - Consulte a documentação do Blink e [FAQ](https://faq.blink.sv/)
 - Contactar o apoio ao cliente através da aplicação
-- Verificar [Página de suporte do Blink] (https://www.blink.sv/en/support)
-- Junte-se à [comunidade Blink Telegram] (https://t.me/blinkbtc) para questões gerais
+- Verificar [Página de suporte do Blink](https://www.blink.sv/en/support)
+- Junte-se à [comunidade Blink Telegram](https://t.me/blinkbtc) para questões gerais
 
 
 ### Avançando na sua jornada Bitcoin:

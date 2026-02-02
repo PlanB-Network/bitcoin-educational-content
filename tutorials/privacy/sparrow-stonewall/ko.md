@@ -76,7 +76,7 @@ description: Sparrow에서 스톤월 트랜잭션의 이해와 사용
 
 
 
-[스톤월 거래에 대해 자세히 알아보기 x2**](https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
+[스톤월 거래에 대해 자세히 알아보기 x2**](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
 
 
 

@@ -1,0 +1,8 @@
+question: Jaký je hlavní důsledek zapomenutí zahrnout výstup změny při čerpání UTXO, který obsahuje více Bitcoin, než je potřeba?
+answer: Přebytečná částka se automaticky stává poplatkem horníkovi
+wrong_answers:
+  - Síť transakci odmítne jako neplatnou
+  - "Přeplatek se vrací na adresu původního odesílatele"
+  - Přebytečná částka zůstává uzamčena v původním účtu UTXO
+explanation: |
+  V modelu Bitcoin UTXO se transakční poplatky počítají implicitně jako rozdíl mezi celkovými vstupy a celkovými výstupy (poplatek = suma(vstupy) - suma(výstupy)). Když utrácíte položku UTXO, musíte ji utratit celou - částečné utrácení není možné. Pokud potřebujete utratit pouze část hodnoty UTXO, musíte vytvořit výstup změny, abyste získali zbývající část. Pokud tento výstup změny zapomenete zahrnout, nezapočtený rozdíl mezi vstupy a výstupy se automaticky stává poplatkem těžaři. Proto je správná konstrukce změnového výstupu nezbytná - bez ní byste mohli omylem zaplatit těžařům obrovské poplatky.

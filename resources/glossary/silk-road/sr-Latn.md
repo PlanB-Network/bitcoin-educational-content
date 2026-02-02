@@ -1,5 +1,6 @@
 ---
-term: PUT SVILE
+term: Silk road
+definition: Platforma na dark web-u koja je koristila Bitcoin i Tor, zatvorena 2013. godine od strane FBI-a.
 ---
 
 Silk Road je bila platforma na mračnom vebu koju je osnovao Ross Ulbricht, poznat i pod pseudonimom Dread Pirate Roberts. Pokrenuta 2011. godine, ova onlajn pijaca omogućavala je korisnicima da kupuju i prodaju proizvode i usluge, kako legalne tako i ilegalne, uz očuvanje anonimnosti korišćenjem Tor-a i Bitcoin plaćanja. Silk Road je nudio širok spektar artikala, uglavnom droge i lekove na recept, ali je isključivao aktivnosti koje se smatraju suprotnim principima prirodnog prava, kao što su prodaja usluga plaćenih ubica ili sadržaja dečije pornografije.
@@ -11,4 +12,3 @@ Platforma je odražavala agoristička uverenja Rossa Ulbrichta, promovišući sl
 Silk Road je zatvoren 2013. godine. Ross Ulbricht je uhapšen iste godine i osuđen na dve doživotne kazne plus 40 godina, bez mogućnosti uslovnog otpusta, uz kaznu od 183 miliona dolara. Ova presuda postavlja pitanja o proporcionalnosti kazni za nenasilne onlajn zločine. Ross je i dalje u zatvoru danas.
 
 
-![](../../dictionnaire/assets/24.webp)

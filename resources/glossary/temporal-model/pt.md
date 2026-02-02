@@ -1,6 +1,7 @@
 ---
-term: MODELO TEMPORAL
+term: Modelo temporal
 
+definition: Análise dos horários de difusão das transações para deduzir a natureza ou localização de uma entidade on-chain.
 ---
 Certos comportamentos humanos são reconhecíveis na cadeia. Talvez o mais útil na análise da cadeia seja o seu padrão de sono! Sim, quando você está dormindo, você presumivelmente não está transmitindo transações de Bitcoin. Geralmente, você dorme por volta das mesmas horas. Portanto, as análises temporais são comumente usadas na análise da cadeia. Trata-se simplesmente de registar as horas em que as transacções de uma determinada entidade são transmitidas para a rede Bitcoin. A análise destes padrões temporais permite-nos deduzir inúmeras informações.
 
@@ -8,4 +9,4 @@ Em primeiro lugar, uma análise temporal pode, por vezes, identificar a natureza
 
 Para além da natureza da entidade observada, o padrão temporal também pode indicar aproximadamente a localização do utilizador através dos fusos horários. Isto permite-nos correlacionar outras transacções e utilizar o carimbo de data/hora destas como uma heurística adicional que pode ser incluída numa análise em cadeia.
 
-Num registo diferente, foi também este tipo de análise temporal que levou à hipótese de que Satoshi Nakamoto não operava a partir do Japão, mas sim dos Estados Unidos: [_The Time Zones of Satoshi Nakamoto_] (https://medium.com/@insearchofsatoshi/the-time-zones-of-satoshi-nakamoto-aa40f035178f).
+Num registo diferente, foi também este tipo de análise temporal que levou à hipótese de que Satoshi Nakamoto não operava a partir do Japão, mas sim dos Estados Unidos: [_The Time Zones of Satoshi Nakamoto_](https://medium.com/@insearchofsatoshi/the-time-zones-of-satoshi-nakamoto-aa40f035178f).

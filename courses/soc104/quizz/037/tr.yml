@@ -1,0 +1,9 @@
+question: Friedman'ın bakış açısına göre, sosyal politikaları gerçek sonuçlarından ziyade beyan edilen niyetlerine göre değerlendirmenin temel sorunu nedir?
+answer: İyi niyetli politikalar genellikle ekonomik bağımlılık ve piyasa çarpıklıkları gibi asıl hedefleriyle çelişen istenmeyen sonuçlar yaratır
+wrong_answers:
+  - Politika çıktıları ve sonuçlarının doğrudan değerlendirilmesine kıyasla niyetlerin objektif olarak ölçülmesi çok zordur
+  - Politikacılar gerçek niyetleri konusunda kamuoyunu kasıtlı olarak yanıltmakta, bu da niyete dayalı değerlendirmeyi temelde güvenilmez ve aldatıcı hale getirmektedir
+  - Niyetler, politikanın uygulanması sırasında çok sık değişir ve bu da onları uzun vadeli politika değerlendirmesi için istikrarsız bir temel haline getirir
+explanation: |
+  Friedman, cömert niyetli politikaların, hedeflerinin tam tersi sapkın etkiler yaratabileceğini, örneğin politikaların uygulandığı kişiler arasında bağımlılık yaratabileceğini savunmaktadır
+  yardım etmeyi amaçlamaktadır. Mesele ölçüm zorluğu, siyasi aldatma veya niyetlerin değişmesi değil, iyi niyetin olumlu sonuçları garanti etmemesi. Bu nedenle, gözlemlenebilir özelliklere ve ölçülebilir sonuçlara odaklanan yapısal tanımlar, belirtilen motivasyonlara dayanan kasıtlı tanımlara tercih edilir.

@@ -1,5 +1,6 @@
 ---
 term: BIP0022
+definition: JSON-RPC getblocktemplate standard allowing mining software to communicate with full nodes to construct blocks.
 ---
 
 BIP proposed in 2012 by Luke Dashjr that introduces a standardized JSON-RPC method for external mining interfaces, called "getblocktemplate". As mining difficulty increased, the use of specialized external software for performing proof-of-work computations became more common.

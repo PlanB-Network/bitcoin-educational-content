@@ -1,9 +1,9 @@
-question: エレクトラーとフルクラムの大きな違いは何ですか？
-answer: エレクトラの方がコンパクト、フルクラムの方がパワフル
+question: ElectrsとFulcrumの大きな違いは何ですか？
+answer: Electrsの方がコンパクト、Fulcrumの方がパワフル
 wrong_answers:
-  - エレクトロンは無料ではない、フルクラムは無料だ
-  - フルクラムはElectrumプロトコルをサポートしていません。
-  - エレクトラはプロプライエタリ、フルクラムはオープンソース
+  - Electrsは有料、Fulcrumは無料
+  - FulcrumはElectrumプロトコルをサポートしていない
+  - Electrsはプロプライエタリ、Fulcrumはオープンソース
 explanation: |
   Electrsはより少ないディスクスペースしか使用しないが、Fulcrumはリクエストへのレスポンスは速いが、より多くのリソースを消費する。
 reviewed: true

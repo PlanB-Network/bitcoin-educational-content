@@ -1,5 +1,6 @@
 ---
 term: Halving
+definition: Ibikorwa bigabanya agashimwe k'abacukuzi mu kabiri kuri buri bice 210,000.
 ---
 
 Ijambo "Halving" ryerekeza ku kintu gitegekanijwe kigabanya igice c'impera ihabwa abacukuzi ku gice cose c'amabuye y'agaciro biciye mu nkunga y'amabuye y'agaciro. Ivyo bigabanywa vyerekeye canecane igice c’infashanyo y’amabuye igizwe n’ama bitcoins mashasha yaremwe avuye mu kirere gitoya. Halving yakozwe na Satoshi Nakamoto, umuremyi wa Bitcoin, nk’uburyo bwo kugenzura inflation no kumenya ko Supply y’ibiceri bifise aho igarukira.

@@ -67,13 +67,13 @@ Siden lanseringen av Bitcoin, nesten 13 år siden, har det vært mye forskning o
 
 RGB har sitt eget kaninhull innenfor Bitcoin-kaninhullet, mens jeg faller ned gjennom dem vil jeg poste det jeg har lært, i den neste artikkelen vil vi ha en introduksjon til LNP og RGB-noder og hvordan man bruker dem.
 
-# RGB-node Tutorial
+## RGB-node Tutorial
 
-## Introduksjon
+### Introduksjon
 
 I denne veiledningen forklarer vi hvordan man bruker RGB-node til å opprette en fungibel token og hvordan man overfører den, dette dokumentet er basert på RGB-node demo og skiller seg i at denne veiledningen bruker ekte testnettdata og for det, må vi bygge vår egen Partially Signed Bitcoin Transaction, psbt fra nå av.
 
-## Krav
+### Krav
 
 Bruk av en Linux-distribusjon anbefales, denne veiledningen ble skrevet ved hjelp av Pop!OS, som er basert på Ubuntu og du vil trenge:
 
@@ -208,7 +208,7 @@ $ rgbd -vvvv -b ~/.cargo/bin -d ./data0 -n testnet
 $ rgbd -vvvv -b ~/.cargo/bin -d ./data1 -n testnet
 ```
 
-## Utstedelse
+### Utstedelse
 
 For å utstede en eiendel kjører vi rgb0-cli med fungible issue-underkommandoene, deretter argumentene, tickeren USDT, navnet "USD Tether" og i tildelingen vil vi bruke utstedelsesmengden og issuance_utxo som vi ser nedenfor:
 

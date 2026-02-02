@@ -1,5 +1,6 @@
 ---
-term: KNAPSACK SOLVER
+term: Knapsack solver
 
+definition: Bitcoin Core 中旧的硬币选择方法，已被 Branch-and-Bound 取代。
 ---
 Bitcoin Core 钱包在 0.17 版之前用于选币的一种旧方法。它通过不断随机挑选 UTXO 并以子集的方式累加来解决选币问题，其目标是最大限度地减少费用和交易规模。这种方法后来被分支与限界法所取代。

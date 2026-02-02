@@ -1,6 +1,7 @@
 ---
 term: ECDSA
 
+definition: Thuật toán chữ ký số đường cong elip được sử dụng trên Bitcoin để ký các giao dịch.
 ---
 Acronym for "Elliptic Curve Digital Signature Algorithm." It is a digital signature algorithm based on elliptic curve cryptography (ECC). It is a variant of the DSA (Digital Signature Algorithm). ECDSA utilizes the properties of elliptic curves to provide levels of security comparable to those of traditional public key algorithms, such as RSA, while using significantly smaller key sizes. ECDSA allows for the generation of key pairs (public and private keys) as well as the creation and verification of digital signatures.
 

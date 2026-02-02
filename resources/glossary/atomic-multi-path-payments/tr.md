@@ -1,5 +1,6 @@
 ---
-term: ATOMIK ÇOK YOLLU ÖDEMELER
+term: Atomic multi-path payments
+definition: Lightning üzerinde çok yollu ödemelerin geliştirilmiş versiyonu, burada her parçanın farklı bir sırrı vardır, ödemenin tamamen veya hiç çözülmemesini garantiler.
 ---
 
 MPP'nin (*Çok Yollu Ödemeler*) her ödeme parçasının farklı bir kısmi sırra sahip olduğu, işlemin atomik olarak, yani tam olarak veya hiç yapılmamasını sağlayan geliştirilmiş versiyonu.

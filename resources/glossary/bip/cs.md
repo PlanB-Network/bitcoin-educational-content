@@ -1,6 +1,7 @@
 ---
 term: BIP
 
+definition: Bitcoin Improvement Proposal. Formální proces umožňující komunitě navrhovat, diskutovat a dokumentovat vylepšení protokolu Bitcoin.
 ---
 Zkratka pro "Bitcoin Improvement Proposal" Bitcoin Improvement Proposal (BIP) je formální proces navrhování a dokumentování vylepšení a změn protokolu Bitcoin a jeho standardů. Vzhledem k tomu, že Bitcoin nemá centrální subjekt, který by rozhodoval o aktualizacích, umožňují BIP komunitě navrhovat, diskutovat a zavádět vylepšení strukturovaným a transparentním způsobem. Každý BIP podrobně popisuje cíle navrhovaného vylepšení, zdůvodnění, potenciální dopady na kompatibilitu a také výhody a nevýhody. BIP může napsat kterýkoli člen komunity, ale musí být schválen ostatními vývojáři a editory, kteří spravují databázi Bitcoin Core GitHub: Bryan Bishop, Jon Atack, Luke Dashjr, Mark Erhardt (Murch), Olaoluwa Osuntokun a Ruben Somsen. Je však důležité si uvědomit, že úloha těchto osob při editaci BIP neznamená, že ovládají Bitcoin. Pokud někdo navrhne vylepšení, které není přijato v rámci formálního rámce BIP, může je stále předložit přímo komunitě Bitcoinu nebo dokonce vytvořit fork zahrnující jeho úpravu. Výhoda procesu BIP spočívá v jeho formálnosti a centralizaci, které usnadňují diskusi, aby se zabránilo rozdělení mezi uživateli Bitcoinu, kteří se snaží implementovat aktualizace konsensuálním způsobem. Nakonec je to princip ekonomické většiny, který určuje dynamiku moci v rámci protokolu.
 
@@ -33,6 +34,5 @@ BIP pak v průběhu svého životního cyklu procházejí různými statusy. Akt
 - Aktivní: Tento status je přidělen pouze procesním BIP, jakmile je dosaženo určitého konsensu;
 - Nahrazeno / zastaralé: BIP již není použitelný nebo byl nahrazen novějším návrhem, který jej činí zbytečným.
 
-![](../../dictionnaire/assets/25.webp)
 
-> ► *BIP je zkratka pro "Bitcoin Improvement Proposal". Do francouzštiny se dá přeložit jako "Proposition d'amélioration de Bitcoin". Ve většině francouzských textů se však zkratka "BIP" používá přímo jako obecné podstatné jméno, někdy v ženském, někdy v mužském rodě.*
+

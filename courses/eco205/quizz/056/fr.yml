@@ -1,0 +1,8 @@
+question: Selon l'école autrichienne, comment les économistes néoclassiques conçoivent-ils le capital dans leurs modèles?
+answer: Comme une masse homogène de biens de production sans considérer sa composition interne
+wrong_answers:
+  - Comme un ensemble hétérogène de biens spécialisés non interchangeables entre eux
+  - "Comme une structure complexe d'étapes de production organisées dans le temps"
+  - Comme un système de détours de production déterminé par les préférences temporelles
+explanation: |
+  Les économistes néoclassiques, notamment dans le modèle de Solow-Swan, traitent le capital comme un stock homogène sans s'attarder sur sa composition interne. Cette vision restrictive leur permet de mesurer facilement le capital dans leurs modèles macroéconomiques, mais néglige la complexité de la structure productive. À l'inverse, l'école autrichienne développe une conception riche du capital comme ensemble hétérogène et complexe, intégrant les notions de temps, de détours de production et de préférences temporelles.

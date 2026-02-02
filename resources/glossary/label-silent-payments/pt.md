@@ -1,6 +1,7 @@
 ---
-term: ETIQUETA (PAGAMENTOS SILENCIOSOS)
+term: Label (silent payments)
 
+definition: Números inteiros utilizados para criar endereços estáticos derivados que separam as utilizações em Silent Payments.
 ---
 No âmbito do protocolo de pagamentos silenciosos, as etiquetas são números inteiros utilizados para modificar o endereço estático inicial, a fim de criar muitos outros endereços estáticos. O uso dessas etiquetas permite a segregação dos pagamentos enviados via Silent Payments, empregando endereços estáticos diferentes para cada uso, sem aumentar excessivamente a carga operacional para a deteção desses pagamentos (scanning). O Bob utiliza um endereço estático $B$, composto por duas chaves públicas: $B_{\text{scan}}$ para o scanning e $B_{\text{spend}}$ para o spending. O hash de $b_{\text{scan}}$ e um inteiro $m$, multiplicado por escalar pelo ponto gerador $G$, é adicionado à chave pública de despesa $B_{\text{spend}}$ para criar uma espécie de nova chave pública de despesa $B_m$:
 

@@ -1,0 +1,8 @@
+question: Bitcoin açık anahtarları için sıkıştırılmış SEC formatını sıkıştırılmamış SEC formatına göre kullanmanın temel avantajı nedir?
+answer: Aynı kriptografik güvenliği korurken depolama boyutunu 65 bayttan 33 bayta düşürür
+wrong_answers:
+  - Ek şifreleme katmanları kullanarak daha güçlü kriptografik güvenlik sağlar
+  - İmza doğrulama işlemleri sırasında nokta çarpma işlemlerinin daha hızlı yapılmasını sağlar
+  - Tek bir sıkıştırılmış formattan birden fazla açık anahtar türetilmesine olanak tanır
+explanation: |
+  Sıkıştırılmış SEC formatı, her iki tam koordinat yerine yalnızca x-koordinatını ve bir eşlik bitini (0x02 veya 0x03 öneki) depolayarak açık anahtar boyutunu 65 bayttan (sıkıştırılmamış) 33 bayta düşürür. Eliptik eğriler herhangi bir x için en fazla iki y değerine sahip olduğundan, y-koordinatı x-koordinatı ve eşlik bilgisinden matematiksel olarak yeniden oluşturulabilir. Bu sıkıştırma, herhangi bir güvenlik kaybı olmadan önemli depolama tasarrufu sağlar, bu nedenle Bitcoin artık verimlilik için sıkıştırılmış anahtarları tercih etmektedir.

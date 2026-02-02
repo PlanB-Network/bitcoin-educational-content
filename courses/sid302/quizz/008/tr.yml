@@ -1,0 +1,8 @@
+question: Bir geliştirici, harici bağımlılıklar olmadan veya blok onaylarını beklemeden Elements üzerinde varlık ihracını test etmek istiyor - hangi yapılandırmayı kullanmalı?
+answer: Anında blok üretimi ile yerel bir test ortamı oluşturmak için chain=elementsregtest olarak ayarlayın
+wrong_answers:
+  - Hemen test etmek üzere ana Liquid ağına bağlanmak için chain=liquidv1 olarak ayarlayın
+  - İzole geliştirme için issueasset RPC komutunu --testmode bayrağı ile kullanın
+  - "Bitcoin'in test ortamında Elements özelliklerine erişmek için chain=bitcoin-regtest'i yapılandırın"
+explanation: |
+  Elementsregtest yapılandırması, geliştiricilerin generateblock gibi komutları kullanarak anında generate blokları oluşturabilecekleri yerel bir regresyon testi ortamı oluşturarak, ağ onaylarını beklemeden veya harici düğümlere bağlı kalmadan varlık yayınlama ve diğer özellikleri test etmelerine olanak tanır. Chain=liquidv1 ayarı, 1 dakikalık blok sürelerine ve harici bağımlılıklara sahip üretim Liquid ağına bağlanır. issueasset komutunun --testmode bayrağı yoktur ve bitcoin-regtest Elements işlevselliği için değil Bitcoin Core içindir.

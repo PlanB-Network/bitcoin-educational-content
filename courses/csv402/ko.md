@@ -4425,7 +4425,7 @@ rgb:iZgIN9EL-2H21UgQ-x!A3uJc-WwXhCSm-$9Lwcc1-v!mUkKY/RGB20/100+utxob:zlVS28Rb-..
 
 
 
-- Bob(Stash에 토큰을 보유한 사람)은 Bitcoin Wallet를 가지고 있습니다. 그는 필요한 RGB 토큰이 있는 UTXO를 사용하는 Bitcoin 트랜잭션(예: `tx.PSBT`)과 통화(Exchange)를 위한 UTXO 트랜잭션(예: PSBT 형태)을 준비해야 합니다;
+- Bob(자신의 stash에 토큰을 보유하고 있음)은 비트코인 지갑을 가지고 있다. 그는 필요한 RGB 토큰이 있는 UTXO를 소비하고, 추가로 잔돈용 UTXO 하나를 포함하는 비트코인 거래(PSBT 형식, 예: `tx.psbt`)를 준비해야 한다;
 - Bob는 다음 명령을 실행합니다:
 
 

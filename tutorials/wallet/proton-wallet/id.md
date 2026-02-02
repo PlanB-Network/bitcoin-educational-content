@@ -18,7 +18,7 @@ https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b0
 
 ## Hubungkan ke Dompet Proton
 
-Kunjungi [situs web Proton Wallet] (https://proton.me/wallet) dan klik tombol "*Dapatkan Proton Wallet*".
+Kunjungi [situs web Proton Wallet](https://proton.me/wallet) dan klik tombol "*Dapatkan Proton Wallet*".
 
 ![Image](assets/fr/01.webp)
 

@@ -23,7 +23,7 @@ Alates antiikajast kuni valgustusajastuni tõusis vabadus, kui ühiskonnad võts
 
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
-Tere tulemast kursusele PHI201!
+Tere tulemast kursusele PHI101!
 
 See kursus kutsub teid uurima vabaduse arengut läbi ajaloo, analüüsides peamisi mõttesuundi, mis on seda kujundanud. Avastate, kuidas on vabaduse mõiste kujunenud sajandite jooksul, kas võimule vastu seistes või sellega koostööd tehes, läbi ajaloolise rännaku antiikajast tänapäevastesse aruteludesse.
 

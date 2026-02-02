@@ -35,7 +35,7 @@ BitSpenda ist eine webbasierte Plattform, auf der Sie Exchange Bitcoin und Mobil
 
 
 
-Die Durchführung einer Transaktion mit BitSpenda ist ziemlich intuitiv und erfordert nur wenige Schritte. Klicken Sie auf der offiziellen BitSpenda-[Website] (https://bitspenda.app) auf die Schaltfläche "Start", und Sie werden zum Interface Exchange weitergeleitet.
+Die Durchführung einer Transaktion mit BitSpenda ist ziemlich intuitiv und erfordert nur wenige Schritte. Klicken Sie auf der offiziellen BitSpenda-[Website](https://bitspenda.app) auf die Schaltfläche "Start", und Sie werden zum Interface Exchange weitergeleitet.
 
 
 
@@ -177,7 +177,7 @@ Geben Sie dann die Mobile Money-Nummer des Empfängers Ihres Exchange ein.
 
 
 
-Mit BitSpenda will [Bitcoin Dua] (https://www.bitcoindua.org/) einen idealen Rahmen für die Einführung von Bitcoin in Afrika schaffen. BitSpenda zeichnet sich vor allem durch :
+Mit BitSpenda will [Bitcoin Dua](https://www.bitcoindua.org/) einen idealen Rahmen für die Einführung von Bitcoin in Afrika schaffen. BitSpenda zeichnet sich vor allem durch :
 
 
 

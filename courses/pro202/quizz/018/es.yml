@@ -1,0 +1,8 @@
+question: En el formato de codificación DER para firmas ECDSA, ¿cuál es el aumento de tamaño típico desde los datos de firma sin procesar hasta la firma codificada final?
+answer: De 64 bytes a aproximadamente 71-72 bytes debido a la sobrecarga de formato DER
+wrong_answers:
+  - De 32 bytes a aproximadamente 64 bytes debido a la codificación de los componentes R y S
+  - De 64 bytes a exactamente 128 bytes debido a la doble codificación de los componentes de la firma
+  - De 71 bytes a aproximadamente 64 bytes debido a la compresión de los marcadores de secuencia
+explanation: |
+  La codificación DER añade sobrecarga estructural a las firmas ECDSA mediante marcadores de secuencia (0x30), bytes de longitud y prefijos de componentes (0x02). La firma ECDSA en bruto consta de dos valores de 32 bytes (R y S) que suman 64 bytes, pero el formato DER lo amplía a aproximadamente 71-72 bytes. Esta ineficiencia fue una de las razones por las que Bitcoin adoptó posteriormente las firmas Schnorr en Taproot, que utilizan firmas fijas de 64 bytes sin sobrecarga de codificación.

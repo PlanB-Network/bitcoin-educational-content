@@ -1,5 +1,6 @@
 ---
-term: FINney HAL
+term: Finney hal
+definition: Kriptografia na msanidi programu ambaye alichukua jukumu muhimu katika siku za kwanza za Bitcoin pamoja na Satoshi.
 ---
 
 Harold T. Finney II, anayejulikana kama Hal Finney, alikuwa mwandishi wa siri na msanidi maarufu kwa jukumu lake muhimu katika siku za mwanzo za Bitcoin na mchango wake katika usimbaji fiche. Kutoka kuchapishwa kwa Karatasi Nyeupe ya Bitcoin mnamo 2008, alikuwa mmoja wa wa kwanza kuingiliana na Satoshi Nakamoto. Alitoa maoni, akaripoti hitilafu, na akapendekeza uboreshaji baada ya programu kuzinduliwa mnamo Januari 2009. Alikuwa mpokeaji wa shughuli ya kwanza ya Bitcoin (nje ya coinbases), akipokea BTC 10 kutoka Satoshi katika nambari ya block 170:

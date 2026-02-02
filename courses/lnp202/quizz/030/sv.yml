@@ -1,0 +1,9 @@
+question: Hur ser den initiala fördelningen av likviditet ut från din nods synvinkel efter att den har öppnat en kanal?
+answer: 100% utgående
+wrong_answers:
+  - 50% inkommande 50% utgående
+  - 100% inkommande
+  - 90% utgående 10% inkommande
+explanation: |
+  När en kanal öppnas finns all likviditet inledningsvis på initiativtagarens sida.
+reviewed: false

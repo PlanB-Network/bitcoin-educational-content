@@ -1,12 +1,11 @@
-question: Ni ingingo ngenderwako iyihe Bitcoin Mining ikorerako?
-answer: Bitcoin Mining ikora ku ngingo ngenderwako y'amatora, aho amahirwe yo gutsinda igice (kandi rero impembo ya Bitcoin) buri minota cumi ari make cane ku muntu mutoyi Miner.
+question: Ni ingingo ngenderwako iyihe Bitcoin mining ikorerako?
+answer: mining ikora ku ngingo ngenderwako ya lottery (umukino w’amahirwe), kandi amahirwe yo gutsindira igice (block) (hanyuma rero agashimwe ka Bitcoin) buri minota cumi ni make cane ku mu miner mutoyi ari wenyene.
 wrong_answers:
-  - Bitcoin Mining ikora ku ngingo ngenderwako y’uko uwubanza kuza ari we azobanza guhabwa, aho Miner wa mbere azotorera umuti ingorane igoye y’imibare aronka impembo ya Bitcoin.
-  - Bitcoin Mining ikora ku ngingo ngenderwako y’ugutanga amahera, aho Miner atanga amahera menshi cane aronka impembo ya Bitcoin.
-  - Bitcoin Mining ikora ku ngingo ngenderwako y’uguhinduranya, aho Miner yose ironka urugendo rwo gucukura ibuye maze ikaronka impembo ya Bitcoin.
+  - Bitcoin mining ikora ku ngingo ngenderwako y’uko uwubanza kuza ari we azobanza guhabwa, aho miner wa mbere azotorera umuti ingorane igoye y’imibare aronka impembo ya Bitcoin.
+  - Bitcoin mining ikora ku ngingo ngenderwako y’ugutanga amafaranga, aho miner atanga amafaranga menshi cane aronka impembo ya Bitcoin.
+  - Bitcoin mining ikora ku ngingo ngenderwako y’uguhinduranya, aho miner yose ironka urugendo rwo gucukura ibuye maze ikaronka impembo ya Bitcoin.
 explanation: |
-  Ikigabane kirasigura ko Bitcoin Mining ikora ku bijanye n’ugutora .
-  ingingo ngenderwako, aho amahirwe yo gutsinda igice (kandi
-  rero impembo ya Bitcoin) iminota cumi yose ni .
-  n’agaciro gato cane ku muntu ku giti ciwe mutoyi Miner.
+  Iki gice ca gisigura Bitcoin mining uko ikorera ku ingingo ngenderwako ya lottery, 
+  aho amahirwe yo gutsindira igice (block) (hanyuma rero agashimwe ka Bitcoin) buri
+  minota cumi ni make cane ku mu miner mutoyi ari wenyene
 reviewed: true

@@ -1,0 +1,8 @@
+question: 在 Rust 中，要使變數在初始宣告之後可以修改，需要什麼關鍵字？
+answer: 突變
+wrong_answers:
+  - 變異
+  - 可变
+  - 變更
+explanation: |
+  在 Rust 中，必須使用 'mut' 關鍵字來宣告變數為可變，允許在初始指派之後變更其值。為了安全起見，Rust 中所有的變數預設都是不可變的。語法是 'let mut x = 5「 表示可變變數，而 」let x = 5' 表示不可變變數。其他的選項如 'var'、'mutable'、'change' 都不是 Rust 的關鍵字。

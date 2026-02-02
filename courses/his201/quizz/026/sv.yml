@@ -5,5 +5,5 @@ wrong_answers:
   - Förenklad verifiering av betalningar
   - Blockchain
 explanation: |
-  Den inledande penningpolitiken motsvarade en konstant utgivning (X BTC/block), vilket framgår av den första versionen av vitboken och Satoshi:s [utbyten](https: //www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) med Ray Dillinger.
+  Den inledande penningpolitiken motsvarade en konstant utgivning (X BTC/block), vilket framgår av den första versionen av vitboken och Satoshi:s [utbyten](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) med Ray Dillinger.
 reviewed: true

@@ -1,9 +1,9 @@
 question: Ni gute RGB ibungabunga ibanga mu gucunga umutungo w’ubuhinga bwa none?
 answer: Mu kwandika gusa amasezerano y’ubuhinga bwa none kuri Blockchain.
 wrong_answers:
-  - Mu gushiramwo amakuru yose akoreshwa kuva ku mpera kugeza ku mpera kuri Blockchain.
+  - Mu gushiramwo ubuhinga bunyegez inyandiko bwose bukoreshwa kuva ku mpera kugeza ku mpera kuri Blockchain.
   - Mu guhisha akaranga k'abakoresha biciye ku bikoresho vy'uguvanga
   - Gukoresha gusa aderesi za Bitcoin z'igihe gito ku kwimurirwa kwose
 explanation: |
-  Mu kubika gusa ibimenyamenya vy’ibanga vya On-Chain, RGB igumya ibanga ry’amakuru y’agaciro Contract n’amakuru yo gutanga amakuru.
-reviewed: false
+  Mu kubika gusa ibimenyamenya vy’ibanga vya On-Chain, RGB igumya ibanga ry’amakuru y’agaciro k'Amasezerano n'ukurungika amakuru y'ibanga.
+reviewed: true

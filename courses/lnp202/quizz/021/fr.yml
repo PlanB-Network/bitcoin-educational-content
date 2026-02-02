@@ -1,0 +1,9 @@
+question: Quel fichier contient l’état détaillé des canaux sur LND ?
+answer: channel.db
+wrong_answers:
+  - wallet.db
+  - lightning.db
+  - peers.db
+explanation: |
+  Le fichier channel.db stocke les états des canaux, les pairs et les transactions d’engagement.
+reviewed: false

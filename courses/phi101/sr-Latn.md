@@ -27,7 +27,7 @@ Od antike kroz prosvetiteljstvo, sloboda je napredovala kako su društva prihvat
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
 
-Dobrodošli u PHI201!
+Dobrodošli u PHI101!
 
 
 Ovaj kurs vas poziva da istražite evoluciju slobode kroz istoriju analizirajući glavne škole mišljenja koje su je oblikovale. Otkrićete kako je koncept slobode konstruisan tokom vekova, bilo u suprotnosti sa ili u saradnji sa moći, kroz istorijsko putovanje od Antike do savremenih debata.

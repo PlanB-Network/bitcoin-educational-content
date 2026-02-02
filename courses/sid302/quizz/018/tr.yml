@@ -1,0 +1,8 @@
+question: Hangi kriptografik mekanizma Liquid Network'ın gerçek tutarları kamuya açıklamadan işlem girdilerinin çıktılar artı ücretlere eşit olduğunu doğrulamasını sağlar?
+answer: Pedersen Taahhütleri ve Aralık Kanıtları
+wrong_answers:
+  - Merkle Ağaçları ve Dijital İmzalar
+  - Hash Zaman Kilitli Sözleşmeler ve Çoklu İmzalar
+  - Schnorr İmzaları ve Taproot Komut Dosyaları
+explanation: |
+  Pedersen Taahhütleri ve Aralık Kanıtları, Liquid'in Confidential Transactions'ünün matematiksel doğrulamaya izin verirken miktarları gizlemesini sağlayan özel kriptografik ilkellerdir. Pedersen Taahhütleri değerleri açığa çıkarmadan kriptografik olarak bağlarken, Aralık Kanıtları tüm tutarların pozitif tamsayılar olmasını sağlayarak kullanıcıların negatif değerlerle para yaratmasını engeller. Diğer seçenekler meşru Bitcoin kriptografik araçlarıdır, ancak tutarların gizli kaldığı ancak doğrulanabilir olduğu gizli işlemler için gereken körleme yeteneklerini sağlamazlar.

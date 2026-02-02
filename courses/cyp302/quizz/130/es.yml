@@ -6,4 +6,4 @@ wrong_answers:
   - Aseguran la encriptación de mensajes entre usuarios
 explanation: |
   Las autoridades de certificación emiten certificados que vinculan una clave pública con su propietario, permitiendo a los usuarios verificar la autenticidad de las claves públicas que utilizan.
-reviewed: false
+reviewed: true

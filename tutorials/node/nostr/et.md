@@ -4,7 +4,7 @@ description: Avasta ja hakka kasutama Nostrit
 ---
 
 
-![Uus väljakutsuja on saabunud](assets/1.webp)
+![Uus väljakutsuja on saabunud](assets/cover.webp)
 
 *Selle juhendi lõpuks mõistate, mis on Nostr, olete loonud konto ja saate seda kasutada.*
 

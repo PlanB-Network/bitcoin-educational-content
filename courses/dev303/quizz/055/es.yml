@@ -1,0 +1,8 @@
+question: ¿Qué ocurre durante el proceso de compilación cuando el compilador Rust encuentra una invocación de macro?
+answer: El compilador compara la entrada con los patrones definidos y sustituye la llamada a la macro por código generado antes de que se produzca la comprobación de tipos
+wrong_answers:
+  - El compilador aplaza la expansión de macros hasta después de la comprobación de tipos y la optimización para garantizar la validez del código
+  - El compilador almacena la macro llamada como bytecode y la expande dinámicamente durante la ejecución en tiempo real
+  - El compilador valida la sintaxis de la macro, pero deja que el enlazador se encargue de la expansión real
+explanation: |
+  Las macros se expanden durante la compilación antes de que se produzca la comprobación de tipos y la optimización. Cuando el compilador encuentra una invocación a una macro, compara inmediatamente la entrada con los patrones definidos de la macro y sustituye toda la llamada a la macro por el código generado. A continuación, este código expandido se somete a los procesos de compilación normales, incluida la comprobación de tipos. Las otras opciones son incorrectas porque las macros operan en tiempo de compilación, no en tiempo de ejecución, y la expansión debe producirse antes de la comprobación de tipos, ya que el código generado necesita ser validado para su corrección.

@@ -1,0 +1,8 @@
+question: Quelle est la principale différence entre l'approche cardinale et l'approche ordinale de l'utilité selon le texte?
+answer: L'approche cardinale suppose que l'utilité peut être mesurée en unités quantifiables, tandis que l'ordinale se base sur les préférences subjectives
+wrong_answers:
+  - "L'approche cardinale étudie les besoins individuels, tandis que l'ordinale analyse les besoins collectifs de la société"
+  - "L'approche cardinale se concentre sur la valeur travail, tandis que l'ordinale privilégie la valeur basée sur la rareté des biens"
+  - "L'approche cardinale considère la valeur comme objective, tandis que l'ordinale la considère comme dépendante du coût de production"
+explanation: |
+  L'approche cardinale de Walras et Jevons permet de mesurer l'utilité en points quantifiables (par exemple, 10 points pour le premier ordinateur, 5 pour le second). L'approche ordinale de Menger rejette cette mathématisation et affirme qu'on peut seulement ordonner nos préférences (préférer A à B) sans mesurer l'écart d'intensité entre elles. Cette distinction est fondamentale car elle mène au subjectivisme méthodologique autrichien.

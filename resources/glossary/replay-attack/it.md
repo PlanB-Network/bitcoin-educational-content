@@ -1,5 +1,6 @@
 ---
-term: RIPRODUZIONE RISERVATA
+term: Replay attack
+definition: Attacco che riproduce una transazione valida di una blockchain su un'altra che condivide la stessa cronologia.
 ---
 
 Nel contesto del Bitcoin, un attacco replay si verifica quando una transazione valida su un Blockchain viene riprodotta maliziosamente su un altro Blockchain che ha la stessa storia di transazioni. In altre parole, una transazione trasmessa su un canale può essere replicata su un altro senza il consenso del mittente della prima transazione.

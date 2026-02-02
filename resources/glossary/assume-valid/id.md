@@ -1,6 +1,7 @@
 ---
-term: ASSUME VALID
+term: Assume valid
 
+definition: Parameter Bitcoin Core yang memungkinkan untuk melewati verifikasi tanda tangan untuk blok sebelum titik tertentu, mempercepat sinkronisasi awal.
 ---
 Parameter konfigurasi di Bitcoin Core (mayoritas _node_ Bitcoin) yang memungkinkan _node_ yang baru saja diinisialisasi (tetapi belum melakukan IBD) untuk melewatkan verifikasi tanda tangan untuk semua transaksi yang termasuk dalam blok sebelum blok tertentu. Blok ini ditentukan oleh jejak _header_-nya, yaitu _hash_-nya. Blok yang dipilih akan diperbaharui dengan setiap versi baru Bitcoin Core. Pada saat inisialisasi, jika _node_ telah mengaktifkan parameter ini, maka _node_ akan memeriksa rantai _header_ blok untuk menemukan rantai dengan kerja terakumulasi yang paling banyak. Jika _node_ mendeteksi _hash_ yang disediakan oleh Core di cabang yang dipilihnya, maka _node_ akan mengabaikan verifikasi tanda tangan untuk blok-blok sebelumnya. Jika tidak, _node_ akan melanjutkan dengan sinkronisasi (IBD) untuk memverifikasi semua dengan sendirinya.
 

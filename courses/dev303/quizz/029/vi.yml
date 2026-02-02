@@ -1,0 +1,8 @@
+question: Hai biến thể của kiểu liệt kê Result của Rust được sử dụng để xử lý các lỗi có thể khắc phục là gì?
+answer: Ok(T) cho các thao tác thành công và Err(E) cho các lỗi.
+wrong_answers:
+  - Thành công (T) dành cho các hoạt động thành công và Thất bại (E) dành cho các trường hợp thất bại.
+  - Một số (T) cho các hoạt động thành công và Không có cho các thất bại
+  - Đạt (T) khi thao tác thành công và Hoảng loạn (E) khi thất bại
+explanation: |
+  Kiểu liệt kê Result trong Rust có chính xác hai biến thể: Ok(T) chứa giá trị thành công thuộc kiểu T, và Err(E) chứa lỗi thuộc kiểu E. Thiết kế này buộc các nhà phát triển phải xử lý rõ ràng cả trường hợp thành công và thất bại. Các tùy chọn khác không chính xác - Success/Failure không phải là biến thể của Result, Some/None thuộc về kiểu liệt kê Option để xử lý giá trị null, và Pass/Panic không phải là các biến thể tiêu chuẩn của kiểu liệt kê Rust để xử lý lỗi.

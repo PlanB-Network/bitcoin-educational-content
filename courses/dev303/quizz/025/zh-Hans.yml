@@ -1,0 +1,8 @@
+question: 什么关键字用于定义包含 Rust 结构方法和相关函数的实现块？
+answer: 内含
+wrong_answers:
+  - 方法
+  - 结构
+  - fn
+explanation: |
+  impl "关键字专门用于创建实现块，为结构定义方法和相关函数。struct "定义了结构本身，"fn "定义了单个函数，而 "method "根本不是 Rust 关键字，只有 "impl "创建了包含与类型相关行为的代码块。使用 `impl` 的实现块可以为结构添加功能，使其不仅仅是数据容器。

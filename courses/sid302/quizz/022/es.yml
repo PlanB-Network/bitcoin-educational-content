@@ -1,0 +1,8 @@
+question: ¿Qué ventaja estratégica crítica proporciona el posicionamiento normativo de Liquid en comparación con otras plataformas de tokenización como Ethereum o Solana?
+answer: Liquid evita los riesgos de valores no registrados mediante el uso de Bitcoin (L-BTC) como su activo nativo sin pre-mining o la realización de una ICO
+wrong_answers:
+  - Liquid opera en un marco regulador especial que la exime de la legislación sobre valores en la mayoría de las jurisdicciones
+  - "El modelo de federación de Liquid califica automáticamente todos los tokens emitidos como valores regulados bajo los marcos existentes"
+  - Liquid ha obtenido la aprobación reglamentaria general de las principales autoridades financieras para todos los activos tokenizados de su plataforma
+explanation: |
+  La ventaja regulatoria estratégica de Liquid se deriva de su arquitectura técnica más que de exenciones o aprobaciones especiales. Al utilizar Bitcoin como su activo nativo (L-BTC) sin tokens pre-mining ni realizar una ICO, Liquid evita la clasificación de "valor no registrado" que amenaza a muchas otras plataformas de blockchain. Esto es crucial porque las autoridades reguladoras como la SEC han examinado cada vez más los proyectos de blockchain que crearon y vendieron sus propios tokens, clasificándolos potencialmente como valores no registrados. Las respuestas incorrectas sugieren erróneamente que Liquid tiene permisos regulatorios especiales o características de cumplimiento automático, cuando en realidad su ventaja proviene de evitar por completo la problemática economía de token.

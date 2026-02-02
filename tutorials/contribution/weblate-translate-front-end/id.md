@@ -12,12 +12,12 @@ Dalam tutorial ini, kami akan menunjukkan kepada Anda cara mudah berkontribusi d
 - data/elemen statis frontend (halaman, tombol, dll.);
 - konten pendidikan (tutorial, kursus, sumber daya...).
 
-Untuk menerjemahkan konten edukasi, kami menggunakan [kecerdasan buatan] (https://github.com/Asi0Flammeus/LLM-Translator). Kemudian, untuk mengoreksi kesalahan yang mungkin terjadi pada berkas-berkas ini, kami mengundang para korektor untuk berkontribusi. Jika Anda ingin mengoreksi beberapa konten, bacalah tutorial berikut ini:
+Untuk menerjemahkan konten edukasi, kami menggunakan [kecerdasan buatan](https://github.com/Asi0Flammeus/LLM-Translator). Kemudian, untuk mengoreksi kesalahan yang mungkin terjadi pada berkas-berkas ini, kami mengundang para korektor untuk berkontribusi. Jika Anda ingin mengoreksi beberapa konten, bacalah tutorial berikut ini:
 
 https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 Di sisi lain, jika Anda tertarik untuk menerjemahkan elemen statis situs web (tidak termasuk konten pendidikan), Anda berada di tempat yang tepat! Untuk menerjemahkan bagian depan secara efektif, kami menggunakan alat Weblate, yang sangat mudah digunakan dan memfasilitasi pendekatan penerjemahan.
 
-Jika Anda ingin menambahkan bahasa yang sama sekali baru ke Plan ₿ Academy, pastikan untuk menghubungi tim Plan ₿ Academy melalui [grup Telegram] (https://t.me/PlanBNetwork_ContentBuilder). Jika Anda tidak memiliki telegram, Anda dapat mengirim email ke mari@planb.network. Pastikan untuk menulis presentasi singkat tentang siapa Anda dan bahasa yang Anda kuasai.
+Jika Anda ingin menambahkan bahasa yang sama sekali baru ke Plan ₿ Academy, pastikan untuk menghubungi tim Plan ₿ Academy melalui [grup Telegram](https://t.me/PlanBNetwork_ContentBuilder). Jika Anda tidak memiliki telegram, Anda dapat mengirim email ke mari@planb.network. Pastikan untuk menulis presentasi singkat tentang siapa Anda dan bahasa yang Anda kuasai.
 
 Anggota tim kami akan memberi Anda instruksi khusus dan akan membuka "masalah" terkait di Github untuk mengoordinasikan pekerjaan Anda.
 

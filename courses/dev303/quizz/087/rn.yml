@@ -1,0 +1,8 @@
+question: Ni igiki kiba ku mibumbe ya Rust n’uburyo bujanye n’ivyo iyo ikoreshejwe ku ikarita biciye mu UDL ya UniFFI kugira ngo igere ku ndimi nka Kotlin canke Swift?
+answer: Bigaragazwa nk'ibihuza muri UDL na generate nk'amashure afise uburyo mu ndimi zishingiye ku bintu
+wrong_answers:
+  - Bihindurwamwo inkoranyabumenyi yoroshe ata buryo na bumwe bukoreshwa mu ndimi zikoreshwa
+  - Bisaba gushirwa mu ngiro n'amaboko uburyo bwose mu rurimi rwo gukoresha hakoreshejwe uburyo bwo guhamagara
+  - Bihinduka ubwavyo bikaba ibikorwa vy'amazina bifata struct nk'itegeko rya mbere
+explanation: |
+  UniFFI izigama uburyo bwo guhingura bushingiye ku bintu mu gukora ikarita y’imiterere ya Rust n’uburyo bujanye n’ivyo gukoresha mu UDL, ivyo bikaba bica bihinduka generate nk’amashure y’imvukira afise uburyo mu ndimi zikoreshwa. Ivyo bigumya ubutungane bw’imiterere n’inyifato y’ishyirwa mu ngiro rya Rust ry’intango mu gihe ryerekana imirongo y’ibintu imenyerewe ku bategura mu ndimi nka Kotlin na Swift. Ibindi bihitamwo ntibibereye kuko UniFFI ibungabunga cane cane uburyo bwo gukora aho gucapura ku nkoranyamagambo, ntibisaba gushirwa mu ngiro n'amaboko kuko amabohe ahita akora, kandi ntihindura uburyo bwa struct mu mikorere y'amazina.

@@ -113,7 +113,7 @@ Kasus penggunaan lain yang sangat menarik untuk Seedkeeper adalah kemungkinan un
 
 
 
-Ada dua cara utama untuk mendapatkan Seedkeeper. Anda dapat [membelinya langsung dari toko resmi Satochip](https://satochip.io/product/seedkeeper/) atau dari pengecer resmi. Tetapi karena [applet Seedkeeper adalah sumber terbuka] (https://github.com/Toporin/Seedkeeper-Applet), Anda juga memiliki pilihan untuk menginstalnya sendiri pada [kartu pintar kosong] (https://satochip.io/product/blank-javacard-for-diy-project/).
+Ada dua cara utama untuk mendapatkan Seedkeeper. Anda dapat [membelinya langsung dari toko resmi Satochip](https://satochip.io/product/seedkeeper/) atau dari pengecer resmi. Tetapi karena [applet Seedkeeper adalah sumber terbuka](https://github.com/Toporin/Seedkeeper-Applet), Anda juga memiliki pilihan untuk menginstalnya sendiri pada [kartu pintar kosong](https://satochip.io/product/blank-javacard-for-diy-project/).
 
 
 

@@ -1,6 +1,7 @@
 ---
-term: FRASE DE CONTRASEÑA (BIP39)
+term: PASSPHRASE (BIP39)
 
+definition: Contraseña opcional añadida a la frase de recuperación para asegurar una billetera HD.
 ---
 Una contraseña opcional que, cuando se combina con la frase de recuperación, proporciona una capa adicional de seguridad para los monederos Bitcoin deterministas y jerárquicos. Los monederos HD suelen generarse a partir de una frase de recuperación compuesta por 12 o 24 palabras. Esta frase de recuperación es muy importante, ya que permite restaurar todas las claves de un monedero en caso de pérdida. Sin embargo, constituye un punto único de fallo (SPOF). Si se ve comprometida, los bitcoins corren peligro. Aquí es donde entra en juego la frase de contraseña. Se trata de una contraseña opcional, elegida por el usuario, que se añade a la frase de recuperación para reforzar la seguridad del monedero. No debe confundirse con un código PIN o una contraseña ordinaria, la frase de contraseña desempeña un papel en la derivación de claves criptográficas.
 

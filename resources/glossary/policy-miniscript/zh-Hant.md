@@ -1,11 +1,12 @@
 ---
-term: 方針
+term: 策略 (Miniscript)
+definition: 在 Miniscript 中用於指定 UTXO 支出條件的語言。
 ---
 
 一種以使用者為導向的高階語言，允許在 Miniscript 的框架內簡單指定 UTXO 解鎖的條件。政策是消費規則的抽象描述。然後可以編譯成 miniscript，與 Bitcoin 原生腳本語言的操作一一對應。
 
 
-![](../../dictionnaire/assets/30.webp)
+
 
 
 政策語言與 miniscript 語言略有不同。例如，假設一個安全系統的主要路徑是金鑰 A，復原路徑是金鑰 B，但時間鎖是一年（約 52,560 個區塊）。在政策中，這將是

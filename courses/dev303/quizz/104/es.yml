@@ -1,0 +1,8 @@
+question: ¿Qué permite a LDK soportar diversos mecanismos de transporte como sockets TCP, WebSockets y conexiones serie USB para la comunicación Lightning Network?
+answer: El sistema de gestión de pares funciona independientemente del mecanismo de transporte subyacente mientras gestiona el cifrado del protocolo de ruido
+wrong_answers:
+  - El gestor de canales se coordina con varios adaptadores de red a través de una capa de abstracción de socket unificada
+  - LDK implementa controladores específicos de protocolo para cada tipo de transporte dentro de su módulo de red principal
+  - El sistema de eventos detecta automáticamente los métodos de transporte disponibles y configura los gestores de conexión adecuados
+explanation: |
+  El sistema de gestión de pares de LDK está específicamente diseñado para manejar la comunicación del protocolo Lightning (incluyendo el cifrado de ruido y las estructuras de mensajes) independientemente de la capa de transporte real. Esta separación arquitectónica permite a los desarrolladores implementar cualquier canal de comunicación bidireccional mientras que el gestor de pares se centra únicamente en el cumplimiento del protocolo Lightning. Las otras opciones sugieren incorrectamente que LDK proporciona implementaciones de transporte integradas o detección automática, cuando en realidad la fuerza de LDK reside en abstraerse completamente de mecanismos de transporte específicos.

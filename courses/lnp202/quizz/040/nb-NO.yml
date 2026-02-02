@@ -1,0 +1,9 @@
+question: Hvorfor bruke en Lightning node manager?
+answer: Enkel tilgang til avanserte funksjoner
+wrong_answers:
+  - Erstatt LND-implementering
+  - Eliminere avhengigheten av Umbrel
+  - Modifisering av Lightning-protokollen
+explanation: |
+  Avanserte administratorer tilbyr funksjoner som ikke er tilgjengelige i det grunnleggende grensesnittet, samtidig som de forblir enkle grensesnitt.
+reviewed: false

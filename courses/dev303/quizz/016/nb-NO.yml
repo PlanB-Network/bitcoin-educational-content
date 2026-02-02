@@ -1,0 +1,8 @@
+question: Hvilken type operasjon utfører Rust som standard når en String-variabel tilordnes til en annen?
+answer: En flytteoperasjon som overfører eierskap og ugyldiggjør kildevariabelen
+wrong_answers:
+  - En dyp kopi som dupliserer alle heap-data for å skape uavhengige strenger
+  - En overfladisk kopi som oppretter to pekere til samme heap-minne
+  - En referanseoppretting som gjør at begge variablene kan dele skrivebeskyttet tilgang
+explanation: |
+  Rust utfører som standard en flytteoperasjon når komplekse typer som String tilordnes. Dette overfører eierskap fra kilden til målvariabelen samtidig som kilden ugyldiggjøres, noe som forhindrer farlige scenarier der flere variabler kan modifisere det samme heap-minnet. En dyp kopi ville være ineffektiv for store strenger, en grunn kopi ville skape minnesikkerhetsproblemer med flere pekere til de samme dataene, og referanseoppretting krever eksplisitt syntaks med ampersand-operatoren.

@@ -1,5 +1,6 @@
 ---
 term: P2TR
+definition: Taproot skripta koja omogućava trošenje putem javnog ključa ili Merkle skripti, bc1p adrese.
 ---
 
 P2TR označava *Pay to Taproot*, što je standardni model skripte koji se koristi za uspostavljanje uslova trošenja na UTXO (nepotrošeni izlaz transakcije). Uveden je implementacijom Taproot u novembru 2021. P2TR koristi Schnorr protokol za agregaciju kriptografskih ključeva, kao i Merkle stabla za alternativne skripte, poznate kao MAST (*Merkelized Alternative Script Tree*). Za razliku od tradicionalnih transakcija gde su uslovi trošenja javno izloženi (ponekad u trenutku primanja, ponekad u trenutku trošenja), P2TR omogućava skrivanje složenih skripti iza jednog očiglednog javnog ključa.

@@ -1,0 +1,8 @@
+question: Kuidas võimaldab LDK modulaarne komponentide ülesehitus Lightning-tehingute jaoks riistvaralise turvamooduli (HSM) integreerimist?
+answer: Võimaldades konkreetsete allkirjastamiskomponentide eraldamist, mis võimaldavad analüüsida välktehingute konteksti ja turvalisuse mõjusid
+wrong_answers:
+  - Pakkudes täielikku HSM daemon, mis töötab iseseisvalt ja suhtleb krüpteeritud kanalite kaudu
+  - Rakendades riistvaraspetsiifilisi draivereid, mis otse liidestuvad HSM-kiibistikuga krüptograafiliste operatsioonide jaoks
+  - Luues isoleeritud liivakastid, mis täidavad Lightning-protokolli loogikat täielikult HSMi keskkonnas
+explanation: |
+  LDK modulaarne ülesehitus võimaldab arendajatel võtta HSM-i integreerimiseks välja ainult tehingu allkirjastamise ja kontrollimise komponendid. See võimaldab luua Lightning-teadlikke allkirjastamisseadmeid, mis mõistavad tehingu konteksti lisaks lihtsale allkirjastamisele - nad saavad hinnata, kas tehing kujutab endast seaduslikke makseid, marsruutimisoperatsioone või potentsiaalseid turvaohte. Teised võimalused kirjeldavad monoliitseid või riistvaraspetsiifilisi lähenemisviise, mis on vastuolus LDK paindliku ja modulaarse filosoofiaga, mille kohaselt pakutakse pigem komplekteeritavaid komponente kui terviklahendusi.

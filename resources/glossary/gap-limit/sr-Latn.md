@@ -1,5 +1,6 @@
 ---
-term: OGRANIČENJE JAZA
+term: Gap limit
+definition: Maksimalni broj uzastopnih neiskorišćenih adresa pre prekida potrage za transakcijama.
 ---
 
 Parametar koji se koristi u Bitcoin Wallet softveru za određivanje maksimalnog broja uzastopnih neiskorišćenih adresa do generate pre nego što se zaustavi pretraga za dodatnim transakcijama. Podešavanje ovog parametra je često neophodno prilikom oporavka Wallet kako bi se osiguralo da su sve transakcije pronađene. Nedovoljan Gap Limit može rezultirati propuštanjem nekih transakcija ako su adrese preskočene tokom faza derivacije. Povećanje Gap Limita omogućava Wallet da pretražuje dalje u Address sekvenci, kako bi se oporavile sve povezane transakcije.

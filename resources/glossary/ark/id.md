@@ -1,5 +1,6 @@
 ---
-term: ARK
+term: Ark
 
+definition: Protokol lapisan kedua yang memungkinkan pembayaran Bitcoin yang cepat, anonim, dan berbiaya rendah, tanpa memerlukan likuiditas masuk seperti pada Lightning.
 ---
 Protokol lapisan kedua baru yang diluncurkan oleh Burak pada bulan Mei 2023. Seperti halnya _Lightning Network_, Ark adalah sebuah sistem yang beroperasi di atas blockchain utama Bitcoin. Sistem ini akan memungkinkan pembayaran dalam bitcoin di luar rantai dengan cepat, anonim, dan berbiaya rendah. Dibandingkan dengan _Lightning_, _Ark_ tidak membutuhkan likuiditas masuk untuk menerima pembayaran, yang dapat secara signifikan meningkatkan pengalaman pengguna. Selain itu, ia menawarkan tingkat privasi yang mirip dengan transaksi coinjoin, sedangkan _Lightning_ adalah model yang relatif buruk untuk melindungi privasi. Terakhir, _Ark_ juga bisa menjadi tidak interaktif jika perjanjian ditambahkan ke Bitcoin. Burak sering mengkritik skalabilitas _Lightning_ karena ketergantungannya pada rantai utama Bitcoin dan menyarankan bahwa Ark secara teoritis dapat mengakomodasi seluruh populasi global dalam memiliki kendali atas harta mereka sendiri. Meskipun _Ark_ dapat dilihat sebagai protokol yang dapat bersaing dengan _Lightning Network_, keduanya sebenarnya dapat ada secara berdampingan. Mereka bahkan dapat saling melengkapi. Namun, penting untuk dicatat bahwa, untuk saat ini, _Ark_ hanyalah sebuah konsep. Burak belum mengungkapkan kode untuk penemuannya.

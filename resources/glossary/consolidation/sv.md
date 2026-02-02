@@ -1,5 +1,6 @@
 ---
-term: KONSOLIDERING
+term: Konsolidering
+definition: Transaktion som slår samman flera små UTXOer till en enda större för att minska framtida avgifter.
 ---
 
 En specifik transaktion där flera små UTXO:er slås samman till en input för att bilda en enda större UTXO som output. Denna operation är en transaktion som görs till ens egen Wallet. Målet med konsolidering är att dra nytta av perioder när avgifterna i Bitcoin-nätverket är låga för att slå samman flera små UTXO:er till en som är större i värde. På så sätt förutser man obligatoriska utgifter vid avgiftshöjningar, vilket möjliggör besparingar på framtida transaktionsavgifter.
@@ -11,4 +12,3 @@ Transaktioner med många inmatningar är tyngre och följaktligen dyrare. Utöve
 Det är dock viktigt att notera att konsolideringstransaktioner är igenkännliga under en kedjeanalys. En sådan transaktion indikerar en Common Input Ownership Heuristic (CIOH), vilket innebär att inputs i konsolideringstransaktionen ägs av en enda enhet. Detta kan ha konsekvenser när det gäller användarens integritet.
 
 
-![](../../dictionnaire/assets/7.webp)

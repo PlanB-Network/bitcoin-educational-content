@@ -122,7 +122,7 @@ https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21
 ### 2. Sisteminize göre kurulum
 
 
-Lütfen işletim sisteminize uygun kurulum adımlarını izleyin. Kurulum sırasında herhangi bir zorlukla karşılaşırsanız, [resmi Bisq wiki] (https://bisq.wiki/Downloading_and_installing) adresindeki ayrıntılı kılavuza başvurabilirsiniz.
+Lütfen işletim sisteminize uygun kurulum adımlarını izleyin. Kurulum sırasında herhangi bir zorlukla karşılaşırsanız, [resmi Bisq wiki](https://bisq.wiki/Downloading_and_installing) adresindeki ayrıntılı kılavuza başvurabilirsiniz.
 
 
 ### 3. İlk başlangıç
@@ -180,7 +180,7 @@ Lütfen işletim sisteminize uygun kurulum adımlarını izleyin. Kurulum sıras
 **Veri yedekleme:**
 
 
-Bisq 1'in aksine, Bisq 2 şu anda bir Bitcoin Wallet'i entegre etmemektedir: bu nedenle işlemler kendi harici cüzdanlarınız aracılığıyla gerçekleştirilir. Bununla birlikte, Bisq 2 veri klasörünüzü düzenli olarak yedeklemenizi öneririz. Veri klasörünüzü bulmak için [resmi Bisq wiki] (https://bisq.wiki/Backing_up_application_data#Back_up_the_entire_Bisq_data_directory) adresine bakın.
+Bisq 1'in aksine, Bisq 2 şu anda bir Bitcoin Wallet'i entegre etmemektedir: bu nedenle işlemler kendi harici cüzdanlarınız aracılığıyla gerçekleştirilir. Bununla birlikte, Bisq 2 veri klasörünüzü düzenli olarak yedeklemenizi öneririz. Veri klasörünüzü bulmak için [resmi Bisq wiki](https://bisq.wiki/Backing_up_application_data#Back_up_the_entire_Bisq_data_directory) adresine bakın.
 
 
 **Kimlik yönetimi:**

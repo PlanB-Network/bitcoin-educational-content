@@ -1,0 +1,8 @@
+question: Was ist der Hauptzweck von Rustup im Rust-Entwicklungsökosystem?
+answer: Ein umfassendes Toolchain-Management-System für die Installation und Verwaltung von Rust
+wrong_answers:
+  - Ein Paketmanager für die Verwaltung von Abhängigkeiten in Rust-Projekten
+  - Ein fortschrittlicher Linter, der den Code analysiert und Verbesserungsvorschläge liefert
+  - Ein Build-System, das Rust-Programme kompiliert und die Projektstruktur verwaltet
+explanation: |
+  Rustup ist speziell als Toolchain-Management-System konzipiert, das die Installation, Aktualisierung und Verwaltung von Rust selbst über verschiedene Projekte und Plattformen hinweg übernimmt. Während Cargo als Paketmanager und Build-System für Rust-Projekte dient und Clippy als Linter für die Code-Analyse fungiert, arbeitet Rustup auf einer höheren Ebene und verwaltet die gesamte Rust-Entwicklungsumgebung. Es erlaubt Entwicklern, verschiedene Rust Versionen zu installieren, Kompilierungsziele für verschiedene Plattformen zu verwalten und mit einfachen Befehlen wie 'rustup update' auf neue Rust Versionen zu aktualisieren.

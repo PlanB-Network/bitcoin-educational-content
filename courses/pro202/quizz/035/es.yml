@@ -1,0 +1,8 @@
+question: Al generar firmas para una entrada P2SH durante la construcción de una transacción, ¿qué script debe utilizarse en el proceso de cálculo de sighash?
+answer: En lugar de scriptPubKey debe utilizarse el script redeem
+wrong_answers:
+  - La scriptPubKey original que contiene el hash debe utilizarse directamente
+  - Debe utilizarse una combinación de scriptPubKey y script redeem
+  - En su lugar debe utilizarse el ScriptSig que contiene los datos de desbloqueo
+explanation: |
+  Durante la generación de la firma P2SH, el proceso sighash requiere el uso del script redeem en lugar del scriptPubKey. Esto es crucial porque el scriptPubKey sólo contiene el hash del script redeem, no las condiciones reales de gasto. El script de canje contiene la lógica real (como los requisitos multisig) que determina cómo se puede gastar la salida, por lo que las firmas deben generarse contra este script subyacente para que sean válidas. El uso directo de scriptPubKey fallaría porque sólo contiene una comparación hash, no las condiciones de gasto reales que deben cumplirse.

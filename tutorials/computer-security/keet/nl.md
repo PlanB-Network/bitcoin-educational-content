@@ -61,7 +61,7 @@ Keet is beschikbaar op alle platforms. Je kunt de applicatie rechtstreeks downlo
 
 
 
-Op Android is het ook mogelijk om [te installeren via APK] (https://github.com/holepunchto/keet-mobile-releases/releases).
+Op Android is het ook mogelijk om [te installeren via APK](https://github.com/holepunchto/keet-mobile-releases/releases).
 
 
 

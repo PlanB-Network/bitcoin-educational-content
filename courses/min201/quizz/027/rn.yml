@@ -1,14 +1,11 @@
-question: Ni kuki Proof of Work ari ngirakamaro mu murongo wa Bitcoin?
-answer: Igereranya ihuriro ry’umubiri hagati y’isi nyakuri na Bitcoin, bisaba inguvu ziboneka kugira ngo hakorwe no kwemeza amafaranga y’ama bitcoins n’ama blocks.
+question: Ni kuki Proof of Work ari ngirakamaro mu muhora wa Bitcoin?
+answer: Ihagarariye isano rigaragara hagati y’isi nyakuri na Bitcoin, bisaba inguvu ziboneka kugira ngo hakorwe no kwemeza bitcoins n’ama blocks.
 wrong_answers:
-  - Bituma abacukuzi b’amabuye y’agaciro bagira uruhara rutoyi, cane cane abari mu bibanza bigenzurwa cane.
+  - Bituma abacukuzi bagira uruhara rutoyi, cane cane abari mu bibanza bigenzurwa cane.
   - Iratanga uburinzi ku gushiramwo ibintu vyose hagati.
-  - Birerekana ubusumbasumbane bw’ububasha buriho mu kibano.
+  - Birerekana ubusumbane bw’ububasha buriho mu kibano.
 explanation: |
-  Proof of Work ni nkenerwa mu murongo wa Bitcoin kuko .
-  rigereranya isano ry’umubiri riri hagati y’isi nyakuri n’
-  Bitcoin. Ivyo gukora no kwemeza amafaranga y’ama bitcoins n’
-  amabuye asaba inguvu ziboneka, ashingira intahe Bitcoin.
-  urubuga mu vy’ukuri vy’umubiri no kubuza ko rwuzuye
-  ubutegetsi bw’ibigo bikomeye.
+  Proof of Work ni nkenerwa mu muhora wa Bitcoin kuko ihagarariye isano rigaragara riri hagati y’isi nyakuri na 
+  Bitcoin. Uguhingura no kwemeza bitcoins na block bifita igiciro nyaco c’inguvu,
+  gutyo bigatuma umuhora wa Bitcoin ushinga akaguru mw'isi y’ukuri kandi bikabuza kuganzwa n’ibigo bikomeye.
 reviewed: true

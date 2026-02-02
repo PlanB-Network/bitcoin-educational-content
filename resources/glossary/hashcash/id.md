@@ -1,6 +1,7 @@
 ---
-term: HASHCASH
+term: Hashcash
 
+definition: Sistem proof-of-work yang dirancang oleh Adam Back pada tahun 1997, pendahulu mekanisme penambangan Bitcoin.
 ---
 HashCash adalah sebuah sistem _proof-of-work_ yang didesain oleh Adam Back pada tahun 1997 untuk mengatasi spam dan serangan DoS. Sistem ini didasarkan pada prinsip bahwa pengirim harus melakukan tugas komputasi (khususnya, menemukan tabrakan parsial pada fungsi _hash_ kriptografi) untuk membuktikan hasil kerja mereka. Tugas ini intensif dalam hal waktu dan energi untuk pengirim, tetapi penerima dapat memverifikasi hasilnya dengan cepat dan sederhana. Protokol ini telah terbukti sangat cocok untuk memerangi spam dalam komunikasi email, karena protokol ini tidak terlalu membebani pengguna yang sah dan juga menjadi penghalang yang signifikan bagi para pengirim spam. Memang, mengirim satu email membutuhkan beberapa detik komputasi, tetapi mereplikasi operasi ini jutaan kali menjadi sangat mahal dalam hal energi dan waktu, yang sering kali menghilangkan insentif ekonomi dari kampanye spam, baik yang bertujuan pemasaran maupun yang bersifat jahat. Selain itu, hal ini juga memungkinkan pengirim tetap anonim.
 

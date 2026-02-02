@@ -1,0 +1,8 @@
+question: Koja je osnovna razlika između LDK-ovog pristupa integraciji blockchaina i tradicionalnih Lightning čvorova u kontekstu okruženja sa ograničenim resursima?
+answer: LDK pruža apstrakciju zasnovanu na filtriranju koja omogućava aplikacijama da implementiraju nadgledanje putem lakih izvora podataka kao što su Electrum serveri
+wrong_answers:
+  - LDK zahteva potpunu sinhronizaciju blockchain-a, ali optimizuje skladištenje putem kompresovanih zaglavlja blokova i mehanizama za uklanjanje transakcija.
+  - LDK implementira prilagođeni blockchain protokol koji smanjuje propusnost održavanjem samo transakcija relevantnih za kanal u memoriji
+  - LDK koristi hibridni mehanizam konsenzusa koji validira samo transakcije povezane sa Lightning-om, dok ignoriše standardne Bitcoin operacije.
+explanation: |
+  Integracija LDK-a sa blockchainom dizajnirana je sa dva režima: režim punog bloka za okruženja bogata resursima i režim zasnovan na filtriranju za ograničena okruženja. Pristup filtriranju omogućava LDK-u da komunicira svoje potrebe za nadzorom putem apstraktnih interfejsa, zahtevajući nadzor specifičnih transakcija, UTXO-a ili skript šablona. Aplikacije zatim mogu implementirati ovaj nadzor koristeći lagane izvore kao što su Electrum serveri ili block explorer-i, dramatično smanjujući zahteve za propusnim opsegom i skladištem u poređenju sa punom sinhronizacijom blockchaina. Ova apstrakcija omogućava mobilnim novčanicima i web aplikacijama da održavaju Lightning funkcionalnost bez resursnog opterećenja koje zahtevaju tradicionalni Lightning čvorovi.

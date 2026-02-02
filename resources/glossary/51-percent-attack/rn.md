@@ -1,8 +1,7 @@
 ---
-term: 51 IJANA RY'IGITERWA
+term: Igitero ca 51%
+definition: Ikibazo aho ubwiganze bubi bwigisha kariyuka cakurikira na icyigize cyarwo nta muteuro, bireka kumenyekanya iya se cakurikira n'incuro kabiri.
 ---
 
-Igishushanyo c’ivyiyumviro muri sisitemu ya Bitcoin aho umukinyi w’ububisha agenzura ibice birenga 50% vy’ububasha bwose bwo guharura bwa Mining (Hashrate). Iyo umuntu afise ubwo butegetsi, arashobora gukoresha nabi uburyo bwo kwumvikana, agatuma haba ibikorwa bibi nk’ugukoresha amahera incuro zibiri, aho ayo ma bitcoins nyene akoreshwa ku ruzitiro ruca ruca rudakoreshwa, hanyuma agasubira ku ruzitiro rufise akamaro. Ikindi gishobora guterwa n’igitero ca 51% ni ugucengera amafaranga. Ariko rero, gukora igitero c’ibice 51 kw’ijana bisaba amahera menshi, abantu, inguvu n’ubuhinga, ivyo bikaba bituma bishoboka cane ko uwo mugizi w’ububisha yomenyekana imbere y’uko igitero kiba. Naho mu vyiyumviro bishoboka, igitero ca 51% kuri Bitcoin kibonwa ko kidashoboka cane kubera ugusenyuka kwa Mining n’ububasha bwinshi cane bw’ubuhinga bw’ibarabara buriko burakoreshwa ubu.
+Ni isenario y’ivyiyumviro ku sisiteme ya Bitcoin aho umukinyi mubi agenzura hejuru ya 50% y’ubushobozi bwose bwo kubara mu bucukuzi (hashrate). Kubera ubwo butegetsi, uwutera ashobora guhindura inzira y’ubwumvikane rusangi, bigatuma ibikorwa bibi bishoboka nko gukoresha kabiri, aho ayo bitcoin nyene akoreshwa ubwa mbere ku ruhererekane ruzoba rwarashaje, hanyuma agakoreshwa ubwa kabiri ku ruhererekane rwemewe. Iyindi ntego y’igitero ca 51% ni uguhagarika ibikorwa vy’ivyinjijwe. Ariko gukora igitero ca 51% bisaba ubutunzi bwinshi bw’amahera, abantu, inguvu n’ubuhinga, kandi bigatuma umukinyi mubi ashobora gutahurwa imbere y’uko igitero kiba. Naho bishoboka mu vyiyumviro, igitero ca 51% kuri Bitcoin gifatwa nk’ikidashoboka cane kubera ugusaranganya kw’ubucukuzi n’ubushobozi bunini bwo kubara buriho ubu. Iki gitero kandi citwa "Igitero ca Goldfinger".
 
-
-> ► *Ico gitero kizwi kandi kw’izina rya “Igitero c’Urutoke rw’Inzahabu”.*

@@ -1,0 +1,8 @@
+question: O que determina o montante da taxa de transação numa transação Bitcoin durante o processo de construção?
+answer: A diferença entre o valor total de todas as entradas e o valor total de todas as saídas
+wrong_answers:
+  - Uma percentagem fixa do valor total da transação calculada pelo protocolo de rede
+  - O tamanho da transação em bytes multiplicado por uma taxa padrão definida pelos mineiros
+  - O número de assinaturas necessárias em todas as entradas mais uma taxa de rede de base
+explanation: |
+  As taxas de transação Bitcoin são determinadas pela diferença entre o total de entradas e o total de saídas. Ao construir uma transação, seleciona UTXOs como entradas e cria saídas para destinatários e trocos. Qualquer montante restante torna-se a taxa que incentiva os mineiros a incluir a sua transação. A taxa não é calculada por percentagem, taxas fixas ou contagens de assinaturas - é simplesmente o que permanece não atribuído no saldo de valor da transação.

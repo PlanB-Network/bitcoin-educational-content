@@ -326,7 +326,7 @@ Macadamia предлага усъвършенствани инструменти
 
 
 - Официален уебсайт: [macadamia.cash](https://macadamia.cash)
-- Често задавани въпроси за макадамия: [macadamia.cash/faq] (https://macadamia.cash/faq)
+- Често задавани въпроси за макадамия: [macadamia.cash/faq](https://macadamia.cash/faq)
 - Изходен код в GitHub: [github.com/zeugmaster/macadamia](https://github.com/zeugmaster/macadamia)
 
 
@@ -347,4 +347,4 @@ Macadamia предлага усъвършенствани инструменти
 
 
 
-- Група Telegram Cashu: [t.me/cashu_ecash] (https://t.me/cashu_ecash)
+- Група Telegram Cashu: [t.me/cashu_ecash](https://t.me/cashu_ecash)

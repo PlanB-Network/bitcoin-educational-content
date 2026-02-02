@@ -106,7 +106,7 @@ When you select `#geohashes` mode, Bitchat integrates with the Nostr protocol to
 ![image](assets/en/04.webp) 
 
 ### Monitor Peers
-licence: CC-BY-SA-V4
+license: CC-BY-SA-V4
 The peer counter shows users:
 
 - Nearby (BLE Mesh) or

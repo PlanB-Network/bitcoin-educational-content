@@ -267,7 +267,7 @@ Kontrollera detaljerna på skärmen "Sign transaction" och bekräfta sedan med *
 
 
 
-**on-chain sekretess för utdata**: Exemplet nedan visar en [Ark-utdatatransaktion på mempool.space] (https://mempool.space/fr/tx/153a70384d1c8a183c0e408e29b0a11820fd71a8bd5b4b00b12bc9b7f9decacb). Vi observerar en distribuerad inmatning till 4 olika utmatningar, som en CoinJoin. För en extern observatör är det omöjligt att avgöra vilken mängd som tillhör vilken användare.
+**on-chain sekretess för utdata**: Exemplet nedan visar en [Ark-utdatatransaktion på mempool.space](https://mempool.space/fr/tx/153a70384d1c8a183c0e408e29b0a11820fd71a8bd5b4b00b12bc9b7f9decacb). Vi observerar en distribuerad inmatning till 4 olika utmatningar, som en CoinJoin. För en extern observatör är det omöjligt att avgöra vilken mängd som tillhör vilken användare.
 
 
 
@@ -372,14 +372,15 @@ För att bättre förstå Arkades positionering, låt oss jämföra den med de a
 
 
 
-| Critère | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
+
+| Kriterium | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
 | :--- | :--- | :--- | :--- |
-| **Modèle** | UTXO partagé coordonné par serveur (ASP) | Réseau P2P de canaux de paiement | Jetons aveugles émis par une banque (Mint) |
-| **Custodie** | **Non-custodial** (vous avez les clés) | **Non-custodial** (vous avez les clés) | **Custodial** (le Mint a les fonds) |
-| **Confidentialité** | **Élevée** (CoinJoin natif, aveugle pour le public) | **Moyenne** (Routage en oignon, mais canaux visibles) | **Très Élevée** (Aveugle même pour le Mint) |
-| **Scalabilité** | Excellente (Batching massif on-chain) | Excellente (Transactions infinies off-chain) | Excellente (Simples signatures serveur) |
-| **Expérience** | Simple (proche d'un wallet on-chain) | Complexe (gestion de canaux, liquidité) | Très simple (comme du cash numérique) |
-| **Risque principal** | Disponibilité de l'ASP & Expiration | Gestion des canaux & Backups | Confiance dans le Mint (risque de vol) |
+| **Modell** | Delad UTXO koordinerad av server (ASP) | P2P-nätverk av betalkanaler | Blinda tokens utfärdade av en bank (Mint) |
+| **Vårdnad** | **Icke-vårdnadshavande** (du har nycklarna) | **Icke-vårdnadshavande** (du har nycklarna) | **Vårdnadshavande** (Mint innehar medlen) |
+| **Integritet** | **Hög** (Native CoinJoin, blind för allmänheten) | **Medel** (Onion-routing, men kanaler synliga) | **Mycket hög** (Blind även för Mint) |
+| **Skalbarhet** | Utmärkt (Massiv on-chain batching) | Utmärkt (Oändliga off-chain transaktioner) | Utmärkt (Enkla serversignaturer) |
+| **Upplevelse** | Enkel (liknar en on-chain-plånbok) | Komplex (kanalhantering, likviditet) | Mycket enkel (som digitala kontanter) |
+| **Huvudrisk** | ASP-tillgänglighet & Utgång | Kanalhantering & Backuper | Tillit till Mint (risk för stöld) |
 
 **Arkade** är den perfekta kompromissen: enkelheten och sekretessen hos Cashu, men med suveräniteten (icke-frihetsberövande) hos Lightning.
 

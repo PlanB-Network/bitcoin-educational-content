@@ -1,0 +1,9 @@
+question: Hva er vakttårnets rolle når det oppdager et forsøk på juks?
+answer: Publiser straffetransaksjonen
+wrong_answers:
+  - Lukk kanalen i fellesskap
+  - Frys midler
+  - Rapporter peer til Bitcoin Core
+explanation: |
+  Vakttårnet sender automatisk ut straffetransaksjonen på vegne av brukeren.
+reviewed: false

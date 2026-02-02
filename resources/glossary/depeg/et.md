@@ -1,5 +1,6 @@
 ---
-term: DEPEG
+term: Depeg
 
+definition: Olukord, kus digitaalne vara kaotab pariteedi alusvaraga, millega see on tavaliselt seotud.
 ---
 Viitab olukorrale, kus digitaalse vara, tavaliselt võlainstrumendi, väärtus muutub sõltumatuks alusvarast, millega see tavaliselt on indekseeritud, mis toob kaasa hinnakõikumised selle vara suhtes. Seda nähtust täheldatakse eelkõige stabiilse mündi puhul, mis on mõeldud säilitama ranget pariteeti fiatvaluutade või muude võrdlusvaradega. Depegging võib esineda ka bitcoinide esinduste puhul sidechains või ETFide puhul, kus probleemi korral võib nominaalväärtus erineda bitcoini väärtusest.

@@ -1,5 +1,6 @@
 ---
-term: ĐẦU VÀO
+term: Đầu vào
+definition: UTXO được sử dụng làm nguồn tiền trong giao dịch Bitcoin, tham chiếu đến một đầu ra trước đó.
 ---
 
 Trong bối cảnh của Bitcoin, một đầu vào trong một giao dịch đề cập đến UTXO (*Đầu ra giao dịch chưa chi*) được sử dụng làm quỹ gốc để đáp ứng các đầu ra. Mỗi đầu vào chứa các tham chiếu đến UTXO trước đó, sau đó sẽ được giao dịch sử dụng. Các đầu vào này được sử dụng để cung cấp UTXO mới sẽ được tạo thành đầu ra của giao dịch và sau đó có thể được chi tiêu trong các giao dịch trong tương lai.

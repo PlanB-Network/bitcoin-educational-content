@@ -6,7 +6,7 @@ description: Liity tekijöihin, jotka puolustavat sananvapautta taloudellisen va
 ![cover](assets/cover.webp)
 
 
-Tunnet todennäköisesti [Rumble] (https://rumble.com/), vuonna 2013 perustetun verkkovideoalustan, joka on vähitellen vakiinnuttanut asemansa riippumattomana vaihtoehtona suurelle teknologiayhtiölle. Rumble tunnetaan sitoutumisestaan sananvapauteen ja tavoitteestaan tarjota tekijöille tila, jossa ei ole sensuuria eikä riippuvuutta suurista keskitetyistä infrastruktuureista, ja se on rakentanut täydellisen ekosysteemin. Tänään Rumble ottaa uuden askeleen rahoitusalalle lanseeraamalla [**Rumble Wallet**](https://wallet.rumble.com/), wallet-sovelluksen, joka on kehitetty yhteistyössä Tetherin kanssa.
+Tunnet todennäköisesti [Rumble](https://rumble.com/), vuonna 2013 perustetun verkkovideoalustan, joka on vähitellen vakiinnuttanut asemansa riippumattomana vaihtoehtona suurelle teknologiayhtiölle. Rumble tunnetaan sitoutumisestaan sananvapauteen ja tavoitteestaan tarjota tekijöille tila, jossa ei ole sensuuria eikä riippuvuutta suurista keskitetyistä infrastruktuureista, ja se on rakentanut täydellisen ekosysteemin. Tänään Rumble ottaa uuden askeleen rahoitusalalle lanseeraamalla [**Rumble Wallet**](https://wallet.rumble.com/), wallet-sovelluksen, joka on kehitetty yhteistyössä Tetherin kanssa.
 
 
 Tavoite on selkeä: sananvapauden ja taloudellisen vapauden yhdistäminen. Rumble edistää sensuroimattoman sisällön jakelua verkossa, mutta Rumble Wallet pyrkii tarjoamaan tekijöille ja käyttäjille nopean, suvereenin ja vapaamuotoisen maksujärjestelmän. Käytännössä tämä tarkoittaa sitä, että pidät yksityiset avaimesi - ja siten myös varasi - täysin hallinnassasi ilman, että olet riippuvainen pankista, maksuprosessorista tai kolmannen osapuolen alustasta: vähemmän riskejä, alhaisemmat palkkiot ja ei nostoviiveitä.
@@ -285,7 +285,7 @@ Samalla tavalla voit myydä bitcoinisi euroiksi, dollareiksi tai muuksi fiat-val
 ## 7. Luojan vinkkaaminen Rumble-palvelussa
 
 
-Kuten johdannossa mainittiin, Rumble Wallet on integroitu täydellisesti [Rumble-videoalustaan] (https://rumble.com/). Näin voit helposti lähettää vinkkejä Bitcoin:ssa tai USDT:ssä suosikkiluojillesi ilman välikäsiä.
+Kuten johdannossa mainittiin, Rumble Wallet on integroitu täydellisesti [Rumble-videoalustaan](https://rumble.com/). Näin voit helposti lähettää vinkkejä Bitcoin:ssa tai USDT:ssä suosikkiluojillesi ilman välikäsiä.
 
 
 Tätä varten sinun on aktivoitava ***Tip Jars*** -toiminto. Napsauta Rumble Wallet:n etusivulta "*Activate Tip Jars*" -painiketta.

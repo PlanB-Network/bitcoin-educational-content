@@ -1,0 +1,8 @@
+question: Mitä kriittisiä rajoituksia mobiilisovellusten ekosysteemeissä ilmeni alkuperäisessä Breez-sovelluksessa, mikä vaikutti SDK-arkkitehtuurin kehittämiseen?
+answer: Mobiilisovellukset eivät voi helposti kommunikoida keskenään, mikä pakottaa kehittäjät rakentamaan kaikki Lightning-ominaisuudet yksittäisiin sovelluksiin sen sijaan, että ne jakaisivat Lightning-infrastruktuuria
+wrong_answers:
+  - Mobiililaitteissa ei ole riittävästi laskentatehoa Lightning-solmujen luotettavan toiminnan varmistamiseksi, joten monimutkaisten reitityslaskentojen hoitamiseen tarvitaan pilvipohjaista infrastruktuuria
+  - Mobiilikäyttöjärjestelmät rajoittavat taustaprosesseja liian tiukasti, mikä estää Lightning-solmuja ylläpitämästä pysyviä yhteyksiä verkkoon
+  - Mobiilisovelluskaupat kieltävät muut kuin säilytyssovellukset, mikä pakottaa kehittäjät toteuttamaan säilytysratkaisuja sovelluskaupan hyväksynnän saamiseksi
+explanation: |
+  Alkuperäinen Breez-sovellus osoitti, että mobiiliekosysteemit eivät helpota sovellusten välistä viestintää, mikä estää erikoissovelluksia hyödyntämästä yhteistä Lightning-infrastruktuuria. Tämä arkkitehtuurirajoitus pakotti kaikki Lightning-toiminnot monoliittisiin sovelluksiin. Muut vaihtoehdot ovat virheellisiä: mobiililaitteissa voidaan käyttää Lightning-solmuja (kuten Breez osoitti), taustarajoitukset ovat hallittavissa asianmukaisella arkkitehtuurilla, ja sovelluskaupat sallivat yleensä muut kuin varastoivat rahoitussovellukset.

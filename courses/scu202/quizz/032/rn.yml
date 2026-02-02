@@ -1,9 +1,9 @@
-question: Ni itegeko irihe ryerekeye umutekano wo kuri Internet risaba ko uburenganzira bw’umuntu wese akoresha canke porogarama wese bugarukira ku vyo ari ngombwa cane?
-answer: Ingingo ngenderwako y'agateka gatoyi
+question: Ni itegeko irihe ryerekeye umutekano wo kuri Internet risaba ko uburenganzira bw’umuntu wese akoresha canke porogarame yose bugarukira kubiri ngombwa cane gusa?
+answer: Ihame ry’uburenganzira buke
 wrong_answers:
-  - Kwemeza kabiri
-  - Ijambobanga rikomeye
-  - Gusubiza inyuma ubudasiba
+  - Kwemeza uwinjira kabiri
+  - Ijambo ry’ibanga rikomeye
+  - Gukora ubu biko bw’inyongera (backup) ubudasiba
 explanation: |
-  Ingingo ngenderwako y’agateka gatoyi cane isobanura guha uburenganzira bukenewe gusa ku gikorwa cose, gutyo bikagabanya ingorane zo gusenyera ku mugozi umwe.
-reviewed: false
+  Ihame ry’uburenganzira buke risobanura guha uburenganzira bukenewe gusa ku gikorwa cose, gutyo bikagabanya ingorane zo guhunganywa.
+reviewed: true

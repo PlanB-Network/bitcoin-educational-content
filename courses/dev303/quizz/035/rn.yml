@@ -1,0 +1,8 @@
+question: Uburyo bwo gufungura bukora iki iyo buhamagawe ku bwoko bw’Igisubizo muri Rust?
+answer: Gukuraho agaciro k'uguterimbere ariko gutera ubwoba iyo habaye ikosa
+wrong_answers:
+  - Igarura Ntaco iyo habaye ikosa na bimwe iyo bishitse
+  - Guhindura ikosa mu butumwa bwo kugabisha no kubandanya gushirwa mu ngiro
+  - Ihita ikwiragiza ikosa ku gikorwa co guhamagara
+explanation: |
+  Uburyo bwo gufungura bukura agaciro k'uguterimbere mu Gisubizo ariko bugatuma porogarama igira ubwoba iyo habaye ikosa. Ivyo bituma biba ngirakamaro mu gukora ivyerekanwa vyihuse canke mu bihe wizigiye ko igikorwa kizororanirwa. Ayandi mahitamwo adondora inyifato zitandukanye: kugarura Nta/Imwe idondora ubwoko bw'amahitamwo, guhindura amakosa mu ngabisho si urugero rwa Rust rusanzwe, kandi gukwiragiza amakosa kwihuta ni co umukoresha w'ikimenyetso c'ikibazo (?) akora, atari ugufungura.

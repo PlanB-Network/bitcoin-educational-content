@@ -64,7 +64,7 @@ Kugira ngo ukoreshe SeedSigner yawe n’Umucungezi w’Imbuto, ukeneye gushiramw
 
 
 
-Niba utayifise, fungura porogarama ya [Balena Etcher] (https://etcher.balena.io/), hanyuma ugende gutya:
+Niba utayifise, fungura porogarama ya [Balena Etcher](https://etcher.balena.io/), hanyuma ugende gutya:
 
 
 

@@ -1,0 +1,9 @@
+question: ฟังก์ชันแฮชที่ใช้โดย HMAC ในบริบทของ Bitcoin คืออะไร?
+answer: SHA512
+wrong_answers:
+  - SHA256
+  - RIPEMD160
+  - HASH160
+explanation: |
+  HMAC ใช้ SHA512 เพื่อสร้างแฮชที่ปลอดภัยขนาด 512 บิต
+reviewed: false

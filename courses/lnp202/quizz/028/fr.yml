@@ -1,0 +1,9 @@
+question: Quel est le rôle de la watchtower lorsqu'elle détecte une tentative de triche ?
+answer: Publier la transaction de justice
+wrong_answers:
+  - Fermer coopérativement le canal
+  - Geler les fonds
+  - Signaler le pair à Bitcoin Core
+explanation: |
+  La watchtower diffuse automatiquement la transaction de pénalité au nom de l’utilisateur.
+reviewed: false

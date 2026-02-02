@@ -1,5 +1,6 @@
 ---
 term: BIP0384
+definition: Umurimo wa combo() wo gusobanura amoko menshi y'amadosiye ku rufunguzo rumwe mu ma-descriptors.
 ---
 
 Itangaza `combo(KEY)` igikorwa c'ibisobanuro. Iyi nshingano idondora urutonde rw'inyandiko zishobora gusohoka ku rufunguzo rwa bose, zipfutse ubwoko bwinshi bw'inyandiko icarimwe, harimwo P2PK, P2PKH, P2WPKH, na P2SH‐P2WPKH.

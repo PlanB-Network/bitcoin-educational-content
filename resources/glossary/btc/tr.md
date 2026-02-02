@@ -1,5 +1,6 @@
 ---
 term: BTC
+definition: 100 milyon satoshi'ye eşit olan, bir bitcoin birimini temsil eden borsa simgesi.
 ---
 
 Exchange platformlarında bir Bitcoin birimini temsil etmek için kullanılan hisse senedi veya para birimi sembolü (*ticker*). Bitcoin'i diğer varlıklar ve para birimleri arasında hızlı bir şekilde tanımlamak için kullanılır. Bir birim Bitcoin (1 BTC) 100.000.000 satoshiye (veya "Sats") eşittir.

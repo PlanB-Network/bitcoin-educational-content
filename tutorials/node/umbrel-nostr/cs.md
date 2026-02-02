@@ -137,7 +137,7 @@ Na tuto stránku vložte adresu URL svého relé Umbrel, kterou jste zkopíroval
 
 
 
-**Připojení:** noStrudel nabízí několik možností připojení. V našem případě zvolíme "Private Key" a vložíme dříve vygenerovaný soukromý klíč Nostr. Pokud klíč ještě nemáte, můžete si nainstalovat rozšíření [Nostr Connect] (https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj), které vám umožní vytvořit a/nebo uložit klíče Nostr a tím bezpečněji komunikovat s různými aplikacemi Nostr.
+**Připojení:** noStrudel nabízí několik možností připojení. V našem případě zvolíme "Private Key" a vložíme dříve vygenerovaný soukromý klíč Nostr. Pokud klíč ještě nemáte, můžete si nainstalovat rozšíření [Nostr Connect](https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj), které vám umožní vytvořit a/nebo uložit klíče Nostr a tím bezpečněji komunikovat s různými aplikacemi Nostr.
 
 
 

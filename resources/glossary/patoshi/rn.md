@@ -1,6 +1,7 @@
 ---
-term: PATOSHI
+term: Patoshi
 
+definition: Imitero yiharije mu mabloc ya mbere yaminywe, ishobora kuba yakozwe na Satoshi Nakamoto.
 ---
 
 Yerekeza ku buryo budasanzwe bw’ibimenyetso vy’amanonce n’ibimenyetso vy’igihe vyabonetse mu mabuye yacukuwe mu mezi ya mbere y’ukubaho kwa Bitcoin. Ivyo bikekwa ko biva ku kigo kimwe canke ku muntu umwe, bishoboka cane ko ari Satoshi Nakamoto ubwiwe, uwahinguye Bitcoin. Ijambo "Patoshi" ni ijambo ry'ikigiriki rifatanya "ikigereranyo" na "Satoshi". Isesengura ryinshi ry’ibice vya mbere vya Bitcoin ryarerekanye uburyo ama nonces n’ama extra-nonces yatorwa, n’ingene ibimenyetso vy’igihe vyashirwaho. Ivyo bigereranyo vyari bitandukanye cane ku buryo bishobora gutuma umuntu abona ko umucukuzi canke umugwi w’abacukuzi ari we wari ushinzwe igice kinini c’amabuye y’agaciro yacukuwe muri ico kiringo, mu gihe yakoresha umukiriya yahinduwe. Sergio Demian Lerner, umuhinga mu vy’urudandazwa rwa orodinateri, ni we yavumbuye iyo nzira mu 2013. Lerner yagereranyije ko uwo mucukuzi w’amabuye y’agaciro w’i Patoshi yari yaracukuye amafaranga agera ku miliyoni 1,1 y’ama bitcoins. Ivyo vyatumye abantu benshi bavuga ibijanye n’ivyo uwo mucukuzi w’amabuye y’agaciro w’i Patoshi yavyuriwe umutima, akaranga kiwe be n’imigambi afise ubu. Bamwe bemera ko Patoshi yari Satoshi ubwiwe, mining bitcoins kugira ngo ashigikire kandi akingire urubuga ruriko rurakura. Ni ngombwa kumenya ko, naho urugero rwa Patoshi rwemerwa cane nk’ikimenyamenya c’ibikorwa vya mining vy’intango vyibanda cane, ata kimenyamenya gitomoye c’akaranga kari inyuma ya Patoshi canke imigambi yabo.

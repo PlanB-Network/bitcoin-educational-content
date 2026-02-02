@@ -431,7 +431,7 @@ Si toutes les informations sont bien justes, cliquez sur le bouton de confirmati
 
 ![Image](assets/fr/89.webp)
 
-Votre Passport vous montre donne votre transaction signée sous forme de QR code.
+Votre Passport vous donne votre transaction signée sous forme de QR code.
 
 ![Image](assets/fr/90.webp)
 

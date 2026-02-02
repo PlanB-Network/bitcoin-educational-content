@@ -125,7 +125,7 @@ Se pretender utilizar a funcionalidade de cópia de segurança do Seedkeeper, te
 
 
 
-Neste tutorial, faremos uma cópia de segurança da nossa carteira seed no nosso Seedkeeper. A primeira etapa consiste em instalar o software no seu computador ou smartphone. Num PC, é necessário [descarregar a versão mais recente do Satochip-Utils] (https://github.com/Toporin/Satochip-Utils/releases). No telemóvel, a aplicação Seedkeeper está disponível na [Google Play Store](https://play.google.com/store/apps/details?id=org.satochip.seedkeeper), bem como na [Apple App Store](https://apps.apple.com/be/app/seedkeeper/id6502836060).
+Neste tutorial, faremos uma cópia de segurança da nossa carteira seed no nosso Seedkeeper. A primeira etapa consiste em instalar o software no seu computador ou smartphone. Num PC, é necessário [descarregar a versão mais recente do Satochip-Utils](https://github.com/Toporin/Satochip-Utils/releases). No telemóvel, a aplicação Seedkeeper está disponível na [Google Play Store](https://play.google.com/store/apps/details?id=org.satochip.seedkeeper), bem como na [Apple App Store](https://apps.apple.com/be/app/seedkeeper/id6502836060).
 
 
 

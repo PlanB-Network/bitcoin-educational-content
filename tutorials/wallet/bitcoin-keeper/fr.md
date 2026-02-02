@@ -67,7 +67,7 @@ Pour un serveur privé, renseignez l'URL (par exemple umbrel.local pour un nœud
 
 Si vous n'avez pas encore votre nœud Bitcoin, n'hésitez pas à consulter notre tutoriel sur Umbrel, une solution simple et accessible à tous pour faire tourner son propre nœud :
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## Recevoir des bitcoins
 
@@ -123,7 +123,7 @@ Choisissez « Add key from a hardware » pour connecter un portefeuille matérie
 
 Le Tapsigner est une carte NFC de Coinkite particulièrement adaptée à l'usage mobile. Si vous voulez en apprendre davantage, nous avons un tutoriel dédié :
 
-https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 Pour ajouter le Tapsigner, sélectionnez-le dans la liste des hardware wallets.
 

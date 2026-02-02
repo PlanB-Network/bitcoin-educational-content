@@ -1,0 +1,8 @@
+question: Các điểm trên đường cong elip tạo thành loại cấu trúc toán học nào dưới phép cộng?
+answer: Một nhóm toán học có tính chất đóng, tính chất kết hợp, phần tử đơn vị và phần tử nghịch đảo.
+wrong_answers:
+  - Một trường hữu hạn với các phép toán nhân và chia được định nghĩa.
+  - Một không gian vectơ với phép nhân vô hướng và tổ hợp tuyến tính.
+  - Một cấu trúc vòng bao gồm cả phép cộng và phép nhân.
+explanation: |
+  Các điểm trên đường cong elip tạo thành một nhóm toán học dưới phép cộng, có nghĩa là chúng thỏa mãn bốn tính chất thiết yếu: tính đóng (cộng hai điểm cho ra một điểm khác trên đường cong), tính kết hợp (thứ tự các phép toán không quan trọng), tính đơn vị (điểm vô cực đóng vai trò là số không), và tính nghịch đảo (mỗi điểm đều có một phép phản chiếu qua trục x triệt tiêu nó). Cấu trúc nhóm này là nền tảng của mật mã đường cong elip vì nó đảm bảo rằng các phép toán như phép nhân vô hướng (cộng một điểm với chính nó nhiều lần) được xác định rõ ràng và có thể dự đoán được, cho phép các giao thức mật mã an toàn như những giao thức được sử dụng trong Bitcoin.

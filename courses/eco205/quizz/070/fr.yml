@@ -1,0 +1,8 @@
+question: Pourquoi le coût d'opportunité est-il souvent plus difficile à calculer au moment de l'action qu'après coup?
+answer: Parce que l'action économique est une spéculation basée sur des informations imparfaites et constamment changeantes
+wrong_answers:
+  - Parce que les individus manquent de formation économique pour évaluer correctement les alternatives disponibles
+  - Parce que les émotions influencent négativement la capacité de calcul rationnel des agents économiques
+  - "Parce que les coûts d'opportunité varient selon les cycles économiques et l'inflation monétaire"
+explanation: |
+  Le texte explique clairement que le coût d'opportunité est plus facile à calculer a posteriori qu'à prédire au moment d'agir, car toute action économique constitue une spéculation fondée sur des informations imparfaites et en évolution constante. Cette difficulté ne provient pas d'un manque de formation, d'influences émotionnelles ou de facteurs macroéconomiques, mais de la nature même de l'information disponible au moment de la décision.

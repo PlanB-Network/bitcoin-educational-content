@@ -43,7 +43,7 @@ A maior parte do firmware é escrita em MicroPython, o que torna o código fáci
 O projeto amadureceu significativamente, ao ponto de o nível de segurança do Specter-DIY ser agora comparável ao das carteiras de hardware comerciais no mercado. Implementámos um carregador de arranque seguro que verifica as actualizações de firmware, para que possa ter a certeza de que apenas o firmware assinado pode ser carregado no dispositivo após a configuração inicial. No entanto, ao contrário dos dispositivos de assinatura comerciais, o carregador de arranque tem de ser instalado manualmente pelo utilizador e não é definido na fábrica do fornecedor do dispositivo. Por isso, preste atenção extra durante a instalação inicial do firmware e certifique-se de que verificou as assinaturas PGP e de que faz o flash do firmware a partir de um computador seguro.
 
 
-Se algo não funcionar, abra um problema aqui ou faça uma pergunta no nosso [grupo do Telegram] (https://t.me/+VEinVSYkW5TUl5Ai).
+Se algo não funcionar, abra um problema aqui ou faça uma pergunta no nosso [grupo do Telegram](https://t.me/+VEinVSYkW5TUl5Ai).
 
 
 ## Lista de compras para o Specter-DIY
@@ -94,7 +94,7 @@ Não é necessário soldar, mas se tiveres conhecimentos de soldadura podes torn
 **Opção 2: Um scanner muito bom da Mikroe, mas bastante caro (150$):
 
 
-[Clique no código de barras] (https://www.mikroe.com/barcode-click) + [Adaptador] (https://www.mikroe.com/arduino-uno-click-shield)
+[Clique no código de barras](https://www.mikroe.com/barcode-click) + [Adaptador](https://www.mikroe.com/arduino-uno-click-shield)
 
 
 **Opção 3: Qualquer outro scanner QR
@@ -150,7 +150,7 @@ Na parte superior da placa, existe um jumper que define a fonte de alimentação
 ### Caixa para bricolage
 
 
-Consulte a pasta [enclosures] (https://github.com/cryptoadvance/specter-diy/tree/master/docs/enclosures).
+Consulte a pasta [enclosures](https://github.com/cryptoadvance/specter-diy/tree/master/docs/enclosures).
 
 
 ### Seja criativo!

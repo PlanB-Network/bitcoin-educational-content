@@ -7,7 +7,7 @@ description: Configurer et utiliser les applications Nostr sur Umbrel
 
 ## Prérequis : Installation d'Umbrel
 
-Umbrel est une plateforme open-source qui vous permet d'héberger facilement des applications Bitcoin et autres services sur votre propre serveur personnel. C'est une solution tout-en-un qui simplifie grandement l'auto-hébergement de nœuds Bitcoin et d'applications décentralisées.
+Umbrel est une plateforme open-source qui vous permet d'héberger facilement des applications Bitcoin et divers services sur votre propre serveur personnel. C'est une solution tout-en-un qui simplifie grandement l'auto-hébergement de nœuds Bitcoin et d'applications décentralisées.
 
 Assurez-vous d'avoir installé Umbrel en suivant notre guide d'installation :
 
@@ -15,15 +15,15 @@ https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 ## Introduction à Nostr
 
-**Nostr** est un protocole de réseau ouvert, décentralisé et pensé pour les réseaux sociaux. Son nom est l'acronyme de _"Notes and Other Stuff Transmitted by Relays"_. Il permet à n'importe qui de publier des messages (notes), gérés sous forme d'événements JSON, et de les propager à travers des serveurs relais plutôt que par une plateforme centralisée. Chaque utilisateur possède une paire de clés cryptographiques (privée/publique) qui sert d'identifiant : la clé publique (npub) identifie l'utilisateur et la clé privée (nsec) permet de signer ses messages. Grâce à cette architecture distribuée, **Nostr offre une résistance à la censure** et une grande flexibilité : on peut utiliser plusieurs clients et se connecter à autant de relais que souhaité, sans dépendre d'un serveur unique.
+**Nostr** est un protocole de réseau ouvert, décentralisé et pensé pour les réseaux sociaux. Son nom est l'acronyme de _"Notes and Other Stuff Transmitted by Relays"_. Il permet à chacun de publier des messages (notes), gérés sous forme d'événements JSON, puiis de les diffuser à travers des serveurs relais plutôt que par une plateforme centralisée. Chaque utilisateur possède une paire de clés cryptographiques (privée/publique) qui sert d'identifiant : la clé publique (npub) identifie l'utilisateur et la clé privée (nsec) permet de signer ses messages. Grâce à cette architecture distribuée, **Nostr offre une résistance à la censure** et une grande flexibilité : on peut utiliser plusieurs clients et se connecter à autant de relais que souhaité, sans dépendre d'un serveur unique.
 
-En résumé, Nostr est un protocole de communication décentralisé où les **clients** (applications utilisateur) envoient et reçoivent des événements via des **relais** (serveurs). Ce protocole est particulièrement prisé par la communauté Bitcoin depuis 2023 en raison de ses valeurs de décentralisation et de souveraineté des données.
+En résumé, Nostr est un protocole de communication décentralisé dans lequel les **clients** (applications utilisateur) envoient et reçoivent des événements via des **relais** (serveurs). Ce protocole est particulièrement apprécié par la communauté Bitcoin depuis 2023 en raison de ses valeurs de décentralisation et de souveraineté des données.
 
-**Note :** Pour utiliser Nostr, vous aurez besoin de votre clé privée (générée par un client Nostr ou via une extension dédiée). **Ne partagez jamais votre clé privée**, elle permettrait à quiconque de se faire passer pour vous. Conservez-la en lieu sûr et privilégiez les outils de gestion sécurisée de clés (voir Astuce plus bas).
+**Note :** Pour utiliser Nostr, vous devez disposer de votre clé privée (générée par un client Nostr ou via une extension dédiée). **Ne partagez jamais votre clé privée**, elle permettrait à quiconque de se faire passer pour vous. Conservez-la en lieu sûr et utilisez si possible les outils de gestion sécurisée de clés (voir Astuce plus bas).
 
 ## Applications Umbrel pour Nostr
 
-Umbrel propose un écosystème d'applications intégrées pour profiter pleinement de Nostr sur votre nœud personnel. Nous allons détailler l'utilisation des principales apps liées à Nostr : **Nostr Relay**, **noStrudel**, **Snort** et **Nostr Wallet Connect**. Chacune répond à un besoin spécifique : _Nostr Relay_ est un **serveur relais privé**, _noStrudel_ et _Snort_ sont des **clients Nostr** (interfaces pour lire/publier des notes), tandis que _Nostr Wallet Connect_ est un outil pour relier votre **portefeuille Lightning** à Nostr.
+Umbrel propose un ensemble d'applications intégrées pour profiter pleinement de Nostr sur votre nœud personnel. Nous allons passer en revue les principales applications liées à Nostr : **Nostr Relay**, **noStrudel**, **Snort** et **Nostr Wallet Connect**. Chacune répond à un besoin spécifique : _Nostr Relay_ est un **serveur relais privé**, _noStrudel_ et _Snort_ sont des **clients Nostr** (interfaces pour lire/publier des notes), tandis que _Nostr Wallet Connect_ est un outil pour relier votre **portefeuille Lightning** à Nostr.
 
 ### Nostr Relay – Votre relais privé sur Umbrel
 
@@ -35,7 +35,7 @@ Umbrel propose un écosystème d'applications intégrées pour profiter pleineme
 
 ![Interface de Nostr Relay avec l'URL du relais](assets/fr/02.webp)
 
-Vous verrez son interface web via Umbrel : elle fournit des informations basiques et surtout l'URL de votre relais (en haut à droite) que vous devrez copier pour la suite. Un bouton de synchronisation (icône de globe) est également disponible.
+Vous accéderez à son interface web via Umbrel : elle fournit des informations basiques et surtout l'URL de votre relais (en haut à droite) que vous devrez copier pour la suite. Un bouton de synchronisation (icône de globe) est également disponible.
 
 **Configuration du relais avec un client Nostr :** Pour tirer parti de votre relais Umbrel :
 
@@ -45,37 +45,37 @@ Si vous utilisez Tailscale (voir plus bas), vous pouvez même utiliser l'alias D
 
 Si vous préférez Tor, récupérez l'adresse .onion de votre Umbrel et utilisez-la avec le port 4848 via un navigateur ou un client compatible Tor. (Voir section dédiée à Tor.)
 
-Une fois l'URL ajoutée dans la configuration Relais de votre client Nostr, connectez-vous à ce relais. Vous devriez voir dans votre client que le relais Umbrel est bien connecté (généralement indiqué par une pastille verte ou similaire).
+Une fois l'URL ajoutée dans la liste de relais de votre client Nostr, connectez-vous à ce relais. Vous devriez voir dans votre client que le relais Umbrel est bien connecté (généralement indiqué par une pastille verte ou similaire).
 
-**Synchronisez l'historique (optionnel)** : Dans l'interface web de _Nostr Relay_ sur Umbrel, cliquez sur l'icône **globe** 🌐 (en haut de la page). Cette action va forcer votre relais Umbrel à se connecter à vos autres relais (ceux configurés dans votre client) pour **importer vos anciennes activités** publiques. Cela signifie que les notes passées que vous aviez publiées ou lues via des relais publics seront téléchargées et stockées aussi sur votre relais privé. Patientez le temps que la synchronisation s'effectue.
+**Synchronisez l'historique (optionnel)** : Dans l'interface web de _Nostr Relay_ sur Umbrel, cliquez sur l'icône **globe** 🌐 (en haut de la page). Cette action va forcer votre relais Umbrel à se connecter à vos autres relais (ceux configurés dans votre client) pour **importer vos anciennes activités** publiques. Cela signifie que les notes passées que vous aviez publiées ou consultées via des relais publics seront récupérées et stockées aussi sur votre relais privé. Patientez le temps que la synchronisation s'effectue.
     
-**Utilisez Nostr normalement :** Désormais, toute nouvelle activité (notes publiées, réactions, messages privés chiffrés, etc.) que vous effectuez sur Nostr sera transmise comme d'habitude aux relais publics **et en parallèle à votre relais Umbrel**. Si votre client Nostr est bien configuré, il enverra chaque événement à tous les relais (y compris le vôtre). Votre relais privé agira comme une sauvegarde en temps réel. Même en cas de déconnexion temporaire, vos clients pourront resynchroniser les données manquantes plus tard grâce à ce relais. _Vous avez ainsi la maîtrise complète de vos données Nostr._
+**Utilisez Nostr normalement :** Désormais, toute nouvelle activité (notes publiées, réactions, messages privés chiffrés, etc.) que vous effectuez sur Nostr sera transmise comme d'habitude aux relais publics **et en parallèle à votre relais Umbrel**. Si votre client Nostr est bien configuré, chaque événement sera transmis à tous les relais (y compris le vôtre). Votre relais privé agira comme une sauvegarde en temps réel. Même en cas de coupure ou de déconnexion temporaire, vos clients pourront resynchroniser les données manquantes plus tard grâce à ce relais. _Vous avez ainsi la maîtrise complète de vos données Nostr._
 
-En arrière-plan, _Nostr Relay_ d'Umbrel s'appuie sur le projet open-source **nostr-rs-relay** (implémentation Rust du protocole). Il supporte l'ensemble du protocole Nostr et de nombreux NIPs standards (NIP-01, 02, 03, 09, 11, 12, 15, 16, 20, 22, 26, 28, 33, etc.), garantissant une compatibilité maximale avec les clients.
+En arrière-plan, _Nostr Relay_ d'Umbrel s'appuie sur le projet open-source **nostr-rs-relay** (implémentation Rust du protocole). Il supporte l'ensemble du protocole Nostr et de nombreux NIPs standards (NIP-01, 02, 03, 09, 11, 12, 15, 16, 20, 22, 26, 28, 33, etc.), assurant anisi une compatibilité optim avec les clients.
 
 ### noStrudel – Client Nostr pour explorateurs
 
 ![Page d'installation de noStrudel sur l'App Store Umbrel](assets/fr/03.webp)
 
-**noStrudel** est un client web Nostr orienté "power users", idéal pour comprendre et explorer le réseau Nostr en détail. Il s'agit d'une sorte de bac à sable permettant d'inspecter les événements, les relais et d'expérimenter avec les fonctionnalités avancées du protocole. L'interface est en anglais et relativement technique, ce qui la destine plutôt à des utilisateurs expérimentés curieux du fonctionnement interne de Nostr.
+**noStrudel** est un client web Nostr orienté "power users", idéal pour comprendre et explorer le réseau Nostr en détail. Il s'agit d'une sorte de bac à sable permettant d'inspecter les événements, les relais et d'expérimenter avec les fonctionnalités avancées du protocole. L'interface est en anglais et relativement technique, ce qui la destine plutôt à des utilisateurs avancés curieux du fonctionnement interne de Nostr.
 
 **Installation :** Installez _noStrudel_ depuis l'App Store Umbrel (catégorie _Social_). Une fois lancé, il est accessible via votre navigateur à l'adresse de votre Umbrel (ex. `http://umbrel.local` ou via son .onion/Tailscale, cf. section accès externe).
 
 ![Page d'accueil de noStrudel avec le bouton Setup Relays](assets/fr/04.webp)
 
-**Configuration des relais :** À l'ouverture de noStrudel, vous verrez un bouton "Setup Relays" en haut à droite. Cliquez dessus pour configurer vos relais.
+**Configuration des relais :** À l'ouverture de noStrudel, cliquez sur le bouton "Setup Relays"  situé en haut à droite pour configurer vos relais.
 
 ![Page de configuration des relais dans noStrudel](assets/fr/05.webp)
 
-Sur cette page, collez l'URL de votre relais Umbrel que vous avez copiée précédemment. Vous pouvez également ajouter d'autres relais proposés par défaut par l'application. Une fois les relais configurés, cliquez sur "Sign in" en bas à gauche pour continuer.
+Sur cette page, collez l'URL de votre relais Umbrel que vous avez copiée auparavant. Vous pouvez également ajouter d'autres relais proposés par défaut par l'application. Une fois les relais configurés, cliquez sur "Sign in" en bas à gauche pour continuer.
 
 ![Options de connexion dans noStrudel](assets/fr/06.webp)
 
-**Connexion :** noStrudel vous propose plusieurs options de connexion. Dans notre cas, nous allons choisir "Private Key" et coller votre clé privée Nostr précédemment générée. Si vous n'avez pas encore de clé, vous pouvez installer l'extension [Nostr Connect](https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj) pour créer et/ou sauvegarder vos clés Nostr et ainsi communiquer de manière plus sécurisée avec les différentes applications Nostr.
+**Connexion :** noStrudel vous propose plusieurs méthodes pour se connecter. Dans notre cas, sélectionnez "Private Key" puis coller votre clé privée Nostr que vous avez générée plus tôt. Si vous n'en avez pas encore, vous pouvez installer l'extension [Nostr Connect](https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj) pour créer et/ou sauvegarder vos clés Nostr et ainsi communiquer de manière plus sécurisée avec les différentes applications Nostr.
 
 ![Interface principale de noStrudel](assets/fr/07.webp)
 
-Une fois connecté, vous pouvez utiliser noStrudel pour partager vos notes via Nostr. L'interface vous donne accès à :
+Une fois connecté, vous pouvez utiliser noStrudel pour partager vos notes via Nostr. L'interface vous permet notamment d'accéder à :
 
 - Un tableau de bord Nostr complet avec timeline des notes, notifications, messagerie, recherche de profils
 - La gestion des relais et leur état de connexion
@@ -98,7 +98,7 @@ Une fois connecté, vous pouvez utiliser noStrudel pour partager vos notes via N
 
 ![Options de connexion dans Snort](assets/fr/10.webp)
 
-Vous pouvez choisir de vous inscrire ou de vous connecter à un compte existant (ce que nous allons faire pour ce tutoriel).
+Vous pouvez soit créer un nouveau compte, soit vous connecter à un compte existant (ce que nous allons faire pour ce tutoriel).
 
 ![Méthodes de connexion dans Snort](assets/fr/11.webp)
 
@@ -112,7 +112,7 @@ L'interface de _Snort_ propose :
 - La gestion des **abonnements (following)** et **listes**
 - Un menu de gestion des **Relais** pour ajouter/retirer des relais et suivre leur disponibilité
 
-**Configuration recommandée des relais :** Pour ajouter votre relais Umbrel, allez dans Settings - Relays. Saisissez l'URL de votre relais (`ws://umbrel:4848` ou autre URL selon votre config) dans la liste des relais de Snort. De cette manière, Snort publiera vos notes sur votre relais privé en plus des relais publics.
+**Configuration recommandée des relais :** Pour ajouter votre relais Umbrel, allez dans Settings - Relays. Saisissez l'URL de votre relais (`ws://umbrel:4848` ou autre URL selon votre config) dans la liste des relais de Snort. De cette manière, Snort diffusera vos notes sur votre relais privé en plus des relais publics.
 
 ### Nostr Wallet Connect – Lier votre portefeuille Lightning à Nostr
 
@@ -152,22 +152,22 @@ Cliquez sur "connecter" pour finaliser.
 
 Vous êtes redirigé vers noStrudel avec un message de confirmation : vous pouvez maintenant zapper le monde entier depuis votre wallet/nœud LND !
 
-Grâce à NWC, vos **paiements Lightning via Nostr** (zaps pour récompenser des posts, paiements _Value for Value_, etc.) partent de **votre propre nœud**. Vous n'avez plus à faire transiter vos transactions par des services externes ni à scanner un QR depuis votre téléphone à chaque fois. L'expérience utilisateur est considérablement améliorée tout en restant _non custodiale_ et respectueuse de la vie privée.
+Grâce à NWC, vos **paiements Lightning via Nostr** (zaps pour récompenser des posts, paiements _Value for Value_, etc.) partent de **votre propre nœud**. Vous n'avez plus besoin de passer par un service tiers ni de scanner un QR depuis votre téléphone à chaque fois. L'expérience utilisateur est considérablement améliorée tout en restant _non custodiale_ et respectueuse de la vie privée.
 
-Si vous souhaitez savoir comment configurer votre propre nœud Lightning sur Umbrel, je vous recommande de consulter cet autre tutoriel complet :
+Si vous souhaitez apprendre à configurer votre propre nœud Lightning sur Umbrel, je vous invite à consulter cet autre tutoriel complet :
 
 https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 ## Configuration avancée et sécurité
 
-L'utilisation conjointe d'Umbrel et de Nostr à un niveau avancé nécessite de porter une attention particulière à la **sécurité** et à la **connectivité**. Voici quelques conseils pour protéger votre configuration et y accéder de manière optimale, où que vous soyez.
+L'utilisation conjointe d'Umbrel et de Nostr à un niveau avancé nécessite de porter une attention particulière à la **sécurité** et à la **connectivité**. Voici plusieurs bonnes pratiques pour protéger votre configuration et y accéder de manière optimale, où que vous soyez.
 
 ### Accès externe sécurisé : Tor et Tailscale
 
 Votre Umbrel, par souci de sécurité, n'est accessible par défaut que sur votre réseau local (et via Tor). Pour interagir avec Nostr en dehors de chez vous, deux solutions privilégiées s'offrent à vous : **Tor** (accès anonyme via réseau onion) et **Tailscale** (VPN mesh privé).
 
-- **Accès via Tor :** Umbrel configure automatiquement un **service Tor (.onion)** pour son interface web et ses applications. Cela signifie que vous pouvez accéder à l'interface Umbrel (y compris _noStrudel_ ou _Snort_) depuis n'importe où, en utilisant le navigateur Tor, sans exposer votre IP publique. _Tor est utilisé pour accéder à vos services Umbrel depuis l'extérieur de votre réseau local, sans exposer votre appareil à Internet ([Setup Tor on your system - Guides - Umbrel Community](https://community.umbrel.com/t/setup-tor-on-your-system/7509#:~:text=Official%20website%3A%20https%3A%2F%2Fwww))._ Pour utiliser cette option, rendez-vous dans les paramètres Umbrel et récupérez l'URL .onion de votre Umbrel (ou scannez le QR code fourni). Sur un navigateur Tor, accédez à cette adresse .onion : vous aurez la même interface qu'en local. Vous pouvez alors utiliser vos apps Nostr comme à la maison.  
-    **Relais Nostr via Tor :** Si vous souhaitez que votre relais Nostr soit joignable via Tor par vos clients (ou par des amis autorisés), c'est possible. Umbrel ne fournit pas directement l'adresse .onion du relais, mais comme il tourne sur le port 4848, vous pouvez soit :
+- **Accès via Tor :** Umbrel configure automatiquement un **service Tor (.onion)** pour son interface web et ses applications. Cela signifie que vous pouvez accéder à l'interface Umbrel (y compris _noStrudel_ ou _Snort_) depuis n'importe où, en utilisant le navigateur Tor, sans exposer votre IP publique. _Tor est utilisé pour accéder à vos services Umbrel depuis l'extérieur de votre réseau local, sans exposer votre appareil à Internet ([Setup Tor on your system - Guides - Umbrel Community](https://community.umbrel.com/t/setup-tor-on-your-system/7509#:~:text=Official%20website%3A%20https%3A%2F%2Fwww))._ Pour utiliser cette option, rendez-vous dans les paramètres Umbrel et récupérez l'URL .onion de votre Umbrel (ou scannez le QR code fourni). Sur un navigateur Tor, accédez à cette adresse .onion : vous aurez la même interface qu'en local. Vous pouvez alors utiliser vos applications Nostr comme à la maison.  
+    **Relais Nostr via Tor :** Si vous voulez que votre relais Nostr soit joignable via Tor par vos clients (ou par des amis autorisés), c'est possible. Umbrel ne fournit pas directement l'adresse .onion du relais, mais comme il tourne sur le port 4848, vous pouvez soit :
     
     - Utiliser l'adresse .onion de l'UI Umbrel et configurer votre client pour qu'il se connecte via cette interface (peu pratique pour du WebSocket),
         
@@ -178,7 +178,7 @@ Votre Umbrel, par souci de sécurité, n'est accessible par défaut que sur votr
     En outre, Tailscale vous permet d'accéder à l'interface Umbrel (et donc aux clients web _noStrudel/Snort_) via un simple navigateur, en utilisant l'IP privée ou le nom de domaine assigné. Pas besoin de Tor Browser, et les débits seront en général meilleurs que via le réseau Tor.
     
 
-**Note :** Tor et Tailscale ne sont pas mutuellement exclusifs. Vous pouvez garder Tor actif pour l'accès anonymisé ou pour des services spécifiques, et utiliser Tailscale au quotidien pour sa simplicité. Dans les deux cas, aucune ouverture de port sur votre routeur n'est nécessaire, ce qui renforce la sécurité.
+**Note :** Tor et Tailscale ne sont pas exclusifs l'un de l'autre. Vous pouvez conserver Tor actif pour l'accès anonymisé ou pour des services spécifiques, et utiliser Tailscale au quotidien pour sa simplicité. Dans les deux cas, aucune ouverture de port sur votre routeur n'est nécessaire, ce qui renforce la sécurité.
 
 ### Sécuriser votre relais Nostr (pratiques recommandées)
 
@@ -195,4 +195,4 @@ Si vous hébergez un relais Nostr sur Umbrel, surtout dans un contexte avancé, 
 - **Sécurisation des clés Nostr :** Ce point a déjà été évoqué, mais il est crucial : ne renseignez jamais vos clés privées Nostr dans une interface en laquelle vous n'avez pas totalement confiance. Préférez l'usage d'extensions de navigateur ou de dispositifs externes (il existe par exemple des _signers_ Nostr sur téléphone séparé) pour signer les actions sensibles. Sur Umbrel, vos clients web comme _Snort_ et _noStrudel_ peuvent fonctionner sans connaître votre clé secrète, via NIP-07. Profitez-en pour concilier confort et sécurité.
     
 
-En suivant ces conseils, votre intégration d'un nœud Umbrel avec Nostr sera à la fois puissante **et** sûre. Vous disposerez d'un environnement complet : un nœud Bitcoin pour les paiements Lightning, un relais Nostr privé pour la souveraineté de vos données, et des clients Nostr web performants pour naviguer sur ce nouveau réseau social décentralisé. Bonne exploration de Nostr avec Umbrel !
+En appliquant ces recommandations, votre intégration d'un nœud Umbrel avec Nostr sera à la fois robuste **et** sûre. Vous disposerez d'un environnement complet : un nœud Bitcoin pour les paiements Lightning, un relais Nostr privé pour la souveraineté de vos données, et des clients Nostr web performants pour naviguer sur ce nouveau réseau social décentralisé. Bonne découverte de Nostr avec Umbrel !

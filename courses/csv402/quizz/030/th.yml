@@ -1,0 +1,9 @@
+question: ส่วนประกอบที่มีอยู่ในการส่งมอบ RGB ที่ Bob (ผู้รับ) ได้รับสำหรับสัญญาคืออะไร?
+answer: Genesis, Schema, Interface และ Interface Implementation
+wrong_answers:
+  - Genesis, Schema, การเปลี่ยนผ่านและการขยาย
+  - Schema, Interface, Signature and PSBT
+  - Genesis, Interface, PSBT และ History
+explanation: |
+  การจัดส่งของสัญญา RGB รวมถึง Genesis, Schema, Interface และ Interface Implementation ซึ่งให้ข้อมูลทั้งหมดที่จำเป็นในการตรวจสอบสัญญา
+reviewed: false

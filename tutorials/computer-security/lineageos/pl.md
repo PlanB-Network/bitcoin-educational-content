@@ -149,7 +149,7 @@ Według oficjalnych statystyk, najczęściej używane modele obejmują różne u
 
 
 
-- Narzędzie Android Flash**: Użyj oficjalnego narzędzia Google [flash.android.com] (https://flash.android.com), aby łatwo przywrócić urządzenie Pixel do standardowego systemu Android z poziomu przeglądarki internetowej (wymagany Chrome/Edge)
+- Narzędzie Android Flash**: Użyj oficjalnego narzędzia Google [flash.android.com](https://flash.android.com), aby łatwo przywrócić urządzenie Pixel do standardowego systemu Android z poziomu przeglądarki internetowej (wymagany Chrome/Edge)
 - Alternatywa**: Obrazy fabryczne ręcznie z [developers.google.com/android/images](https://developers.google.com/android/images)
 
 
@@ -685,13 +685,14 @@ ograniczenia:**
 
 
 
-| **Aspect** | **GrapheneOS** | **LineageOS** |
+
+| **Aspekt** | **GrapheneOS** | **LineageOS** |
 |------------|----------------|---------------|
-| **Compatibilité** | Pixels uniquement | Centaines d'appareils |
-| **Sécurité** | Mitigations avancées | Sécurité AOSP standard |
-| **Google Play** | Sandboxé optionnel | Installation classique possible |
-| **Installation** | Interface web + USB | Procédure manuelle technique |
-| **Philosophie** | Sécurité avant tout | Équilibre et liberté de choix |
+| **Zgodność** | Tylko Pixels | Setki urządzeń |
+| **Bezpieczeństwo** | Zaawansowane ograniczenia | Standardowe bezpieczeństwo AOSP |
+| **Google Play** | Opcjonalna piaskownica | Możliwa klasyczna instalacja |
+| **Instalacja** | Interfejs internetowy + USB | Techniczna procedura ręczna |
+| **Filozofia** | Bezpieczeństwo ponad wszystko | Równowaga i wolność wyboru |
 
 ### Zalecenia dotyczące użytkowania
 

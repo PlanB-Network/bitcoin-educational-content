@@ -1,5 +1,6 @@
 ---
-term: HASH FUNCTION
+term: Hash function
+definition: Mathematical function producing a fixed-size output from a variable-size input.
 ---
 
 A mathematical function that takes a variable-size input (called a message) and produces a fixed-size output (called hash, hashing, digest, or fingerprint). Hash functions are widely used primitives in cryptography. They exhibit specific properties that make them suitable for use in secure contexts:
@@ -13,4 +14,3 @@ In the context of Bitcoin, hash functions are used for several purposes, includi
 * `SHA512` within the `HMAC` and `PBKDF2` algorithms used in the process of deriving deterministic and hierarchical wallets;
 * `HASH160`, which describes a successive use of a `SHA256` and a `RIPEMD160`. `HASH160` is used in the process of generating receiving addresses (except P2PK and P2TR) and in calculating parent key fingerprints for extended keys.
 
-> ► *In English, it is referred to as a "hash function".*

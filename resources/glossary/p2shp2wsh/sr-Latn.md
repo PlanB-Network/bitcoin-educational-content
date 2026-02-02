@@ -1,5 +1,6 @@
 ---
 term: P2SH-P2WSH
+definition: SegWit skripta (P2WSH) upakovana u P2SH radi kompatibilnosti, adrese počinju sa 3.
 ---
 
 P2SH-P2WSH označava *Pay to Script Hash - Pay to Witness Script Hash*. To je standardni model skripte koji se koristi za uspostavljanje uslova trošenja na UTXO, takođe poznat kao "Nested SegWit".

@@ -1,5 +1,6 @@
 ---
-term: KUNANIRA KWA BIZANTI
+term: Igihombo ca Byzantine
+definition: Inyifato y'uburyo butubahiriza amategeko yabwo, bishobora kuba ivy'akaranda canke ivyabishaka.
 ---
 
 Ukunanirwa kw’Abanyabizantine, canke inyifato y’Abanyabizantine, ni inyifato iyo ari yo yose y’urutonde ruva ku vyo rutegekanije, rugatuma habaho ibisubizo bidahuye.

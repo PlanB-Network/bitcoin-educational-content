@@ -1,5 +1,6 @@
 ---
-term: HERHALINGSAANVAL
+term: Replay attack
+definition: Aanval waarbij een geldige transactie van de ene blockchain wordt gereproduceerd op een andere die dezelfde geschiedenis deelt.
 ---
 
 In de context van Bitcoin treedt een replay aanval op wanneer een geldige transactie op een Blockchain kwaadwillig wordt gereproduceerd op een andere Blockchain die dezelfde transactiegeschiedenis heeft. Met andere woorden, een transactie die op het ene kanaal wordt uitgezonden, kan op een ander kanaal worden gereproduceerd zonder toestemming van de verzender van de eerste transactie.

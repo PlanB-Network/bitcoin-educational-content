@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste doel van een router op Lightning?
+answer: Verdien geld met routing fees
+wrong_answers:
+  - Verdien geld door de weg te wijzen
+  - Geld verdienen door inkomende liquiditeit te verkopen
+  - Verdien geld door verouderde kanaalstaten te publiceren
+explanation: |
+  De router probeert betalingen van anderen te routeren door routeringsvergoedingen te innen.
+reviewed: false

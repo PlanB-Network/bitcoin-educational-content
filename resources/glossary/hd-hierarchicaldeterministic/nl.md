@@ -1,5 +1,6 @@
 ---
-term: HD (HIËRARCHISCH-DETERMINISTISCH)
+term: Hd (hierarchical-deterministic)
+definition: Wallet die sleutels sequentieel en reproduceerbaar genereert vanuit één enkele seed.
 ---
 
 Verwijst naar een Bitcoin Wallet die een uniek stuk informatie (de seed) gebruikt om generate een veelheid aan publieke en private sleutelparen op een sequentiële en reproduceerbare manier te beheren. Deze methode om sleutels te beheren wordt gedefinieerd door de BIP32 standaard. Het belangrijkste voordeel van HD wallets is dat ze gebruikers in staat stellen om een veelvoud aan verschillende sleutelparen te hebben, met name om hergebruik van Address te voorkomen, terwijl ze ze allemaal kunnen regenereren vanuit een enkel stuk informatie. Deze structuur wordt beschreven als hiërarchisch omdat het een boomachtige organisatie van meerdere sleutels en adressen mogelijk maakt vanuit een enkele seed. Het is deterministisch in de zin dat het de mogelijkheid biedt om meerdere sleutels en adressen te genereren. En het is deterministisch in de zin dat elke seed altijd dezelfde sleutelvolgorde genereert in elke Wallet die voldoet aan dit systeem.

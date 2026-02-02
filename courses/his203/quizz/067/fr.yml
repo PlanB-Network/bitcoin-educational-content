@@ -1,0 +1,9 @@
+question: Quelle proportion approximative des bitcoins en circulation représentaient l'argent géré par le fonds Bitcoin Savings & Trust à son apogée ?
+answer: Environ 5 %
+wrong_answers:
+  - Environ 0,05 %
+  - Environ 0,5 %
+  - Environ 50 %
+explanation: |
+ À son apogée en août 2012, le fonds de Trendon Shavers (alias PirateAt40) gérait plus de 500 000 bitcoins, qui représentaient environ 5 % des 9,7 millions de bitcoins en circulation ! Bitcoin Savings & Trust s'est effondré juste après, alors que la confiance s'évanouissait.
+reviewed: false

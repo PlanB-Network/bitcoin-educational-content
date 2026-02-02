@@ -1,0 +1,10 @@
+question: Why did the Pay to Script Hash upgrade need 55% of the network's hash power to be activated?
+answer: So that it is "backward compatible" and does not create a chain split
+wrong_answers:
+  - Because protocol governance depends on the vote of miners ("one processor, one vote")
+  - In order not to centralize the mining business, then dominated by a few mining pools
+  - Because project leader Gavin Andresen didn't want to be a "benevolent dictator"
+explanation: |
+ This was a restriction of the consensus rules, what would later be called a "soft fork". The upgrade does not create a chain split if it is supported by a 
+ majority of the network's computing power.
+reviewed: true

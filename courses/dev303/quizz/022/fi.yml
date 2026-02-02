@@ -1,0 +1,8 @@
+question: Mikä on Rust:n Option<T>-enum-tyypin ensisijainen tarkoitus?
+answer: Esittää turvallisesti arvoja, joita voi olla tai ei voi olla, ja estää nollaosoitinvirheet
+wrong_answers:
+  - Useiden eri tietotyyppien tallentaminen yhteen muuttujaan ilman tyyppitarkistusta
+  - Voit luoda funktiomäärittelyihin valinnaisia parametreja, jotka voidaan ohittaa kutsujen aikana
+  - Tarjota tapa palauttaa useita mahdollisia virhetyyppejä yhdestä funktiosta
+explanation: |
+  Option<T>-luokka toimii Rust:n ratkaisuna nollaosoitinongelmiin pakottamalla puuttuvien arvojen selkeään käsittelyyn. Siitä on kaksi vaihtoehtoa: Some(T) nykyisille arvoille ja None puuttuville arvoille. Kääntäjä vaatii tarkistamaan, kumpi variantti on käytössä ennen arvon käyttämistä, mikä estää ajovirheitä. Väärät vastaukset sekoittavat Optionin muihin käsitteisiin: unionit/muunnokset (ensimmäinen), oletusparametrit (toinen) ja virheiden käsittelyyn käytettävät Result-tyypit (kolmas).

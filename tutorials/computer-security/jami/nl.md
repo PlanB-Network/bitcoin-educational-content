@@ -19,25 +19,26 @@ Tegenwoordig is Jami beschikbaar op veel systemen. Het staat bekend om zijn pres
 
 
 
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
+
+| Applicatie | E2EE 1:1 | E2EE groepen | Anonieme registratie | Open-source clientlicentie | Open-source serverlicentie | Gedecentraliseerde server | Jaar van creatie |
 | -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(pas d'annuaire)   | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| **Jami**                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| Tox              | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+| WhatsApp | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2009 |
+| WeChat | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Facebook Messenger | ✅ | 🟡 (optioneel) | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Telegram | 🟡 (optioneel) | ❌ | 🟡 | ✅ | ❌ | ❌ | 2013 |
+| LINE | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Signal | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | 2014 |
+| Threema | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | 2012 |
+| Element (Matrix) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (gefedereerd) | 2016 |
+| Delta Chat | ✅ | ✅ | ✅ | ✅ | N/A | 🟡 (via e-mail) | 2017 |
+| Conversations (XMPP) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (gefedereerd) | 2014 |
+| Session | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2020 |
+| SimpleX | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2021 |
+| Olvid | ✅ | ✅ | ✅ | ✅ | ❌ | 🟡 (geen directory) | 2019 |
+| Keet | ✅ | ✅ | ✅ | ❌ | N/A | ✅ | 2022 |
+| **Jami** | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2005 |
+| Briar | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2018 |
+| Tox | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2013 |
 
 *E2EE = End-to-endencryptie*
 
@@ -82,7 +83,7 @@ De applicatie is direct beschikbaar in de App Store of Play Store. Zoek ernaar i
 
 
 
-Om Jami op je apparaat te installeren, moet je eerst de officiële Jami website bezoeken. Standaard toont de site de software die overeenkomt met het besturingssysteem van je apparaat en je kunt direct op de downloadknop klikken om het te starten. Je kunt het Windows-besturingsprogramma echter ook rechtstreeks downloaden van de [downloadpagina] (https://jami.net/download-jami-windows/).
+Om Jami op je apparaat te installeren, moet je eerst de officiële Jami website bezoeken. Standaard toont de site de software die overeenkomt met het besturingssysteem van je apparaat en je kunt direct op de downloadknop klikken om het te starten. Je kunt het Windows-besturingsprogramma echter ook rechtstreeks downloaden van de [downloadpagina](https://jami.net/download-jami-windows/).
 
 
 
@@ -90,7 +91,7 @@ Om Jami op je apparaat te installeren, moet je eerst de officiële Jami website 
 
 
 
-Voor macOS-gebruikers is het bestand ook beschikbaar op [macOS downloadpagina] (https://jami.net/download-jami-macos/).
+Voor macOS-gebruikers is het bestand ook beschikbaar op [macOS downloadpagina](https://jami.net/download-jami-macos/).
 
 
 
@@ -118,7 +119,7 @@ Om Jami op Linux te installeren, kun je het beste de opdrachtregel gebruiken. He
 
 
 
-Zodra je je distributie hebt gekozen, kun je het systeem installeren. Je moet de afhankelijkheden installeren die nodig zijn om Jami op je Linux OS te draaien. De commando's zijn direct beschikbaar op [deze pagina] (https://jami.net/download-jami-linux/).
+Zodra je je distributie hebt gekozen, kun je het systeem installeren. Je moet de afhankelijkheden installeren die nodig zijn om Jami op je Linux OS te draaien. De commando's zijn direct beschikbaar op [deze pagina](https://jami.net/download-jami-linux/).
 
 
 
@@ -312,7 +313,7 @@ Zodra het wachtwoord is ingevoerd, zal het apparaat automatisch verbinding maken
 
 
 
-Een interessante eigenschap van Jami is de mogelijkheid om nieuwe opties te integreren via extensies (plugins). Plugins zijn native modules (C/C++); de SDK biedt tools en scripts (met name in Python) om ze te helpen maken. Sommige plugins zijn direct beschikbaar [hier] (https://jami.net/extensions/).
+Een interessante eigenschap van Jami is de mogelijkheid om nieuwe opties te integreren via extensies (plugins). Plugins zijn native modules (C/C++); de SDK biedt tools en scripts (met name in Python) om ze te helpen maken. Sommige plugins zijn direct beschikbaar [hier](https://jami.net/extensions/).
 
 
 

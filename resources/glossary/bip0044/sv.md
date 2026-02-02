@@ -1,5 +1,6 @@
 ---
 term: BIP0044
+definition: Standard som definierar den fullständiga strukturen för härledningssökvägar för HD-plånböcker purpose, coin_type, account, change och address_index.
 ---
 
 Ett förbättringsförslag som introducerar en standardiserad hierarkisk härledningsstruktur för HD-plånböcker. BIP44 bygger på de principer som fastställdes av BIP32 för härledning av nycklar och på BIP43 för användningen av fältet "purpose". Den introducerar en härledningsstruktur på fem nivåer: `m / purpose' / coin_type' / account' / change / address_index`. Här är detaljerna för varje djup:

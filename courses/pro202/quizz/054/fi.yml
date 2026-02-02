@@ -1,0 +1,8 @@
+question: Minkä erityisehdon on täytyttävä Bitcoin:n P2P-verkon kättelyprosessissa, ennen kuin kaksi solmua voi aloittaa aktiivisen varasto- ja transaktiotietojen välittämisen?
+answer: Molempien solmujen on vaihdettava keskenään versio- ja verack-viestejä
+wrong_answers:
+  - Yhdistävän solmun on saatava DNS seed -vahvistus ydinkehittäjiltä
+  - "Molempien solmujen on tarkistettava toistensa lohkon korkeus ja ketjun kärjen hash"
+  - "Vastaanottavan solmun on vahvistettava yhdistävän solmun vertaisvarmenne"
+explanation: |
+  Bitcoin P2P-kättely edellyttää kaksisuuntaista vaihtoa, jossa yhdistävä solmu lähettää versioviestin, vastaanottaja vastaa verackilla ja omalla versioviestillään, ja alkuperäinen lähettäjä vastaa verackilla. Vasta tämän täydellisen neljän viestin vaihdon (versio→verack+versio→verack) jälkeen solmut voivat aloittaa aktiivisen viestinnän. DNS-siemeniä käytetään vain vertaisten alustavaan löytämiseen, ei kättelyyn. Bitcoin ei käytä varmenteita, ja ketjun validointi tapahtuu yhteyden muodostamisen jälkeen.

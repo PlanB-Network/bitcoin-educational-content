@@ -639,7 +639,7 @@ Självhosting innebär ansvar: säkerhetskopiera frön, skydda åtkomst, börja 
 
 
 - [LNbits-dokumentation](https://docs.lnbits.org)
-- [LNbits GitHub] (https://github.com/lnbits/lnbits)
+- [LNbits GitHub](https://github.com/lnbits/lnbits)
 - [Phoenixd GitHub](https://github.com/ACINQ/phoenixd)
 - [Officiell installationsguide](https://github.com/lnbits/lnbits/blob/main/docs/guide/installation.md)
 
@@ -650,7 +650,7 @@ Självhosting innebär ansvar: säkerhetskopiera frön, skydda åtkomst, börja 
 
 
 
-- [Initial Ubuntu-serverkonfiguration] (https://danielpcostas.dev/ubuntu-server-initial-configuration-a-step-by-step-guide/) av Daniel P. Costas (steg-för-steg VPS-säkerhet)
+- [Initial Ubuntu-serverkonfiguration](https://danielpcostas.dev/ubuntu-server-initial-configuration-a-step-by-step-guide/) av Daniel P. Costas (steg-för-steg VPS-säkerhet)
 - [LNbits + Phoenixd-installation på Ubuntu VPS](https://danielpcostas.dev/install-lnbits-phoenixd-vps-ubuntu/) av Daniel P. Costas (fullständig guide)
 - [LNbits Server på Clearnet](https://ereignishorizont.xyz/lnbits-server/en/) av Axel
 - [LNbits på VPS](https://github.com/TrezorHannes/vps-lnbits) av Hannes

@@ -1,5 +1,6 @@
 ---
 term: MAST
+definition: Merkle stablo koje grupiše nekoliko uslova trošenja gde se samo jedan mora otkriti da bi se sredstva potrošila.
 ---
 
 Akronim za "Merkelised Alternative Script Tree." Tehnika koja koristi Merkle Tree za sumiranje proizvoljnog broja uslova potrošnje koje korisnik odabere u primajućem Address, od kojih jedan mora biti ispunjen da bi se potrošili dotični bitkoini. Merkle Tree omogućava korisniku da izabere koji uslov želi da ispuni bez otkrivanja detalja drugih uslova na Blockchain. Ovo pomaže u smanjenju naknada povezanih sa ovim skriptama, kreiranju mnogo složenijih uslova i, tokom vremena, poboljšanju privatnosti korisnika (pored korišćenja Schnorr potpisa). Ovaj koncept je bio predmet nekoliko predloga, ali je na kraju dodat u Bitcoin putem Taproot Soft Fork u 2021.

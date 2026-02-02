@@ -1,0 +1,8 @@
+question: "Sự khác biệt chính giữa phương thức unwrap_or() và unwrap_or_default() khi xử lý các kiểu dữ liệu Result và Option là gì?"
+answer: "Phương thức `unwrap_or()` yêu cầu bạn chỉ định một giá trị dự phòng, trong khi `unwrap_or_default()` sử dụng cách triển khai mặc định của kiểu dữ liệu."
+wrong_answers:
+  - "`unwrap_or()` sẽ gây ra lỗi nghiêm trọng trong khi `unwrap_or_default()` trả về `None`, giúp xử lý lỗi an toàn hơn trong môi trường sản xuất."
+  - "unwrap_or() chỉ hoạt động với kiểu Result trong khi unwrap_or_default() chỉ hoạt động với kiểu Option để trích xuất giá trị."
+  - "Hàm `unwrap_or()` truyền lỗi lên ngăn xếp cuộc gọi trong khi `unwrap_or_default()` chuyển đổi tất cả lỗi thành thông báo chuỗi mặc định."
+explanation: |
+  Phương thức `unwrap_or()` cho phép bạn cung cấp một giá trị dự phòng cụ thể khi `Result` chứa lỗi hoặc `Option` chứa `None`, giúp bạn kiểm soát giá trị cần sử dụng trong trường hợp lỗi. Ngược lại, `unwrap_or_default()` tự động sử dụng triển khai trait `Default` của kiểu dữ liệu, điều này rất tiện lợi khi giá trị mặc định phù hợp với trường hợp sử dụng của bạn. Cả hai phương thức đều hoạt động với cả kiểu `Result` và `Option` và không gây ra lỗi hoặc lan truyền lỗi - cả hai đều cung cấp khả năng giảm thiểu lỗi một cách khéo léo bằng cách trả về các giá trị có thể sử dụng được thay vì gây lỗi.

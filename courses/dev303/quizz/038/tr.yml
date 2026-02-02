@@ -1,0 +1,8 @@
+question: Rust kapanışlarında parametreleri tanımlamak için hangi sözdizimi kullanılır?
+answer: Parametreleri içine almak için boru karakterleri (|)
+wrong_answers:
+  - Parametreleri çevrelemek için parantezler ()
+  - Parametreleri içine almak için köşeli parantez []
+  - Parametreleri içine almak için küme parantezleri {}
+explanation: |
+  Rust kapanışları parametreleri tanımlamak için boru karakterleri (|) kullanır, bu da onları parantez kullanan normal fonksiyonlardan ayırır. Örneğin, parametresi olmayan bir closure || şeklinde yazılırken, parametresi olan bir closure |x, y| şeklinde görünür. Bu benzersiz sözdizimi, kapanışların kolayca tanınmasını sağlar ve onları fonksiyon tanımlarından ayırır. Parantezler normal fonksiyonlar için kullanılırken, köşeli parantezler ve küme parantezleri Rust sözdiziminde başka amaçlara hizmet eder.

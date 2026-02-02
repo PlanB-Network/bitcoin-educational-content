@@ -650,7 +650,7 @@ Kubera iyo nzira y’ugusubira inyuma kw’imishahara ku bici- ro vy’itunga, t
 ![image](assets/en/002.webp)
 
 
-Igishushanyo: Umugabane w'Igitigiri cose [Agaciro] (uruhererekane/WFRBSN40188#0.)
+Igishushanyo: Umugabane w'Igitigiri cose [Agaciro](uruhererekane/WFRBSN40188#0.)
 
 
 ### Boom & Bust
@@ -821,7 +821,7 @@ Uko biri kwose, reka turabe inkuru z’imigani n’imigani.
 Satoshi Nakamoto yasohotse kuri internet mu 2008 afise iciyumviro gishasha: amahera y’ubuhinga bwa none y’urunganwe. Yasangije iyerekwa ryiwe mu [mpapuro z'impapuro icenda](https://Bitcoin.org/Bitcoin.pdf) zitwa "Bitcoin: Uburyo bwo gukoresha amahera y'ubuhinga bwa none" n'urutonde rw'abarungika ubutumwa rwa Cypherpunk. Naho mu ntango benshi mu bagize urutonde rw'abarungika ubutumwa batavyishimiye, ico ciyumviro caratumye umunyamuryango umwe, Hal Finney, agira amatsiko ahagije, amaherezo ashikira Satoshi. Ukwifatanya kwa Hal mu gutegura Bitcoin kwagaragaye ko ari ihinduka rikomeye, bituma abantu benshi batanga infashanyo yabo.
 
 
-Ariko rero, inyuma y'imyaka ibiri akora kuri uwo mugambi, Satoshi yarazimiye ata n'akarongo, n'[itangazo ryiwe rya nyuma ry'ukuri] (https://plan99.net/~mike/Satoshi-emails/thread5.html) ku wa 23 Ndamukiza 2011, aho yavuze ko "yimukiye mu bindi bintu."
+Ariko rero, inyuma y'imyaka ibiri akora kuri uwo mugambi, Satoshi yarazimiye ata n'akarongo, n'[itangazo ryiwe rya nyuma ry'ukuri](https://plan99.net/~mike/Satoshi-emails/thread5.html) ku wa 23 Ndamukiza 2011, aho yavuze ko "yimukiye mu bindi bintu."
 
 
 Ukuzimira kw’akabanga kwa Satoshi Nakamoto kwatumye habaho ivyiyumviro bitandukanye ku bijanye n’aho yagiye. Bamwebamwe biyumvira ko yumvise ko yarashitse ku co yari yiyemeje gukora, abandi na bo bemera ko yacitse intege kubera abantu bariko baramwitaho Bitcoin. Mu kwezi kwa kigarama [2010](2010), igihe WikiLeaks yabujijwe gukoresha uburyo bwa kera bwo kwishura, G11. Ivyiyumviro vya Satoshi ku bijanye n’uko abantu barushiriza kwitwararika Bitcoin be n’ingaruka zishobora guterwa n’amategeko yo kurema amafaranga akoreshwa mu guhungabanya inyungu za Amerika mu vy’ubuhinga bw’isi, bishobora kuba vyatumye asubira inyuma. Canke rero, yoba yarahinduye ivyiyumviro vyiwe akabishira ku yindi migambi, yoba agitanga intererano kuri Bitcoin mu yandi mazina, canke mbere akaba yarapfuye.
@@ -1476,7 +1476,7 @@ Ariko rero, abayinegura baracariko baribaza nimba Tether ifise amadolari y’Ame
 Ivyo bivuzwe, mu gihe c’izo mpaka n’ibibazo ku bijanye n’ibizigamirwa vyayo, USDt yarashoboye kuguma ihagaze neza kw’igiciro kuva yatanguye. Ivyo vyatumye iguma ari yo stablecoin izwi cane kw’isoko, mbere n’aho hari n’izindi nyinshi zaserutse zigahiganwa kugira ngo zironke umugabane w’isoko. Muri iki gihe, hariho amafaranga menshi cane adahinduka, imwe yose ikaba ifise uburyo bwayo bwihariye bwo kuguma ifise agaciro kadahinduka.
 
 
-Ikindi kandi, uko isoko ry’amahera y’agaciro ryagenda rirakura, Tether yaraguye aho ishika kugira ngo igere ku vyo abantu basaba. Mu ntango, Tether yatanga gusa USDt kuri Bitcoin Blockchain ikoresheje “metaprotocol” ya Omni, ariko uko isoko ryakura kandi ibibazo bijanye n’uguhindura On-Chain bikagenda biragaragara, yaratanguye [gutanga] Algorand, n’abandi. Uyu musi, hariho ubushakashatsi n’iterambere bikomeye vyo kwongera amahera ya Tether ku Bitcoin, biciye ku [RGB] (https://www.rgbfaq.com/faq/ico-ari-RGB) na [Pear Inguzanyo](https://tether.to/ru/inguzanyo-y’imbogo-n’ijambo-rimwe-ri-gutanguza-inguzanyo-y’amapera-inguzanyo-ya-P2P-uburyo-bw’inguzanyo/). Tether kandi yashizeho ibintu bishasha vy’amahera y’agaciro bishingiye ku mafaranga atandukanye nk’ama euro, yen, n’ama yuan y’abashinwa.
+Ikindi kandi, uko isoko ry’amahera y’agaciro ryagenda rirakura, Tether yaraguye aho ishika kugira ngo igere ku vyo abantu basaba. Mu ntango, Tether yatanga gusa USDt kuri Bitcoin Blockchain ikoresheje “metaprotocol” ya Omni, ariko uko isoko ryakura kandi ibibazo bijanye n’uguhindura On-Chain bikagenda biragaragara, yaratanguye [gutanga] Algorand, n’abandi. Uyu musi, hariho ubushakashatsi n’iterambere bikomeye vyo kwongera amahera ya Tether ku Bitcoin, biciye ku [RGB](https://www.rgbfaq.com/faq/ico-ari-RGB) na [Pear Inguzanyo](https://tether.to/ru/inguzanyo-y’imbogo-n’ijambo-rimwe-ri-gutanguza-inguzanyo-y’amapera-inguzanyo-ya-P2P-uburyo-bw’inguzanyo/). Tether kandi yashizeho ibintu bishasha vy’amahera y’agaciro bishingiye ku mafaranga atandukanye nk’ama euro, yen, n’ama yuan y’abashinwa.
 
 
 Mu gusozera, stablecoins zaje kure cane kuva zatanguye. Kuva mu misi ya mbere ya bitUSD na NuBits gushika ku gukundwa cane kw’ibicuruzwa vya Tether no ku guseruka kw’izindi stablecoins, isoko rya stablecoin ryarateye imbere cane. Naho impaka zikikuje Tether zatumye habaho ivyiyumviro ku bijanye n’uguseruka no kubazwa n’abatanga amafaranga, isoko ry’amafaranga riguma rikura, ritanga ikiraro c’isi yose kandi gishobora guhinduka kuri Bitcoin. Ariko rero, ivyo vyiza biza bivuye ku kwongerekana kw’ugushira hamwe no kwizigira ukwizigirana.
@@ -1622,7 +1622,7 @@ Naho stablecoins akenshi zifatwa nk’izitekanye kubera kamere zazo “zidahindu
 <chapterId>a6806b45-b92e-5791-8f5f-804098a522b2</chapterId>
 
 
-Hura na Adanna, umugore akiri muto aba mu gisagara co mu misozi yo muri Afirika aho amafaranga CFA, yatakaje ubushobozi bwo kugura buteye ubwoba [99,5%] (https://bitcoinmagazine.com/culture/Bitcoin-a-faranga-y’ugukuraho ubukoloni) mu myaka 70 iheze, ibidashoboka.
+Hura na Adanna, umugore akiri muto aba mu gisagara co mu misozi yo muri Afirika aho amafaranga CFA, yatakaje ubushobozi bwo kugura buteye ubwoba [99,5%](https://bitcoinmagazine.com/culture/Bitcoin-a-faranga-y’ugukuraho ubukoloni) mu myaka 70 iheze, ibidashoboka.
 
 
 Adanna yama akunda cane iciyumviro co kugira ububasha ku mahera yiwe, ariko vyagumye ari indoto idashoboka gushika ubu. Amafaranga akoresha agenzurwa n’abantu bagaragaje ko badafise inyungu z’abantu babo ku mutima, kandi aho aba mu ntara y’i burasirazuba bituma adashobora gukoresha amabanki. Ku bw’ivyo, Adanna nta kindi akora atari ukwizigira amahera y’umubiri, ivyo bikaba bimusiga ari mu kaga k’ubusuma n’ugutakaza uretse n’ugusenyuka kw’ubushobozi bwo kugura.
@@ -2159,7 +2159,7 @@ Kandi ubwanyuma...
 Turashaka gutangura tuvuga ngo: **Ibintu vyose bifata inguvu**, twaba tubibona canke tutabibona. Mbere n’igikorwa coroshe, nk’ukwirukana n’imbwa yawe, birasaba ko wewe ubwawe wiha amavuta be n’uwo mufatanije ubwoya. Wewe n’imbwa yawe muri abakoresha inguvu.
 
 
-Ubu rero umugambi wacu si uwo kunegura izindi nganda kubera uko zikoresha inguvu kuko nk’uko twabibonye haruguru, gukoresha inguvu bisobanura agaciro abantu basanga mu bikorwa canke mu bicuruzwa bitangwa. Ariko rero, ni ngombwa ko umuntu abona neza ingene Bitcoin ikoresha inguvu. Rimbura ibi bikurikira [ibigereranyo] (https:
+Ubu rero umugambi wacu si uwo kunegura izindi nganda kubera uko zikoresha inguvu kuko nk’uko twabibonye haruguru, gukoresha inguvu bisobanura agaciro abantu basanga mu bikorwa canke mu bicuruzwa bitangwa. Ariko rero, ni ngombwa ko umuntu abona neza ingene Bitcoin ikoresha inguvu. Rimbura ibi bikurikira [ibigereranyo](https:
 
 
 

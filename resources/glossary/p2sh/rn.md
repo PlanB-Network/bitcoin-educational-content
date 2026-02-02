@@ -1,5 +1,6 @@
 ---
 term: P2SH
+definition: Script yemerera ibisabwa mu gukoresha bitandukanye biciye muri hash ya redeemScript.
 ---
 
 P2SH bisobanura *Ishura ku nyandiko Hash*. Ni urugero rw'inyandiko rusanzwe rukoreshwa mu gushinga ivyangombwa vyo gukoresha amahera kuri UTXO. Udakunze inyandiko za P2PK na P2PKH, aho ivyangombwa vyo gukoresha amahera bitegekanijwe imbere y’igihe, P2SH iremeza gushiramwo ivyangombwa vyo gukoresha amahera ataco bimaze n’ibindi bikorwa vy’inyongera mu nyandiko y’ugucuruza.

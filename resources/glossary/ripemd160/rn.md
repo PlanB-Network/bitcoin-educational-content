@@ -1,5 +1,6 @@
 ---
 term: RIPEMD160
+definition: Ururapi rwa cryptographic hash rukora ikunzo rya 160 bits, rukoreshwa ku ma aderesi ya Bitcoin.
 ---
 
 Inyuguti y'ikirundi *Ubushakashatsi n'iterambere mu buhinga bwo guhanahana amakuru buteye imbere mu Buraya Ubutumwa bwo gusuzuma ivy'ubutungane Digest 160*. Ni igikorwa c’ubuhinga bwa Hash gitanga amakuru y’ibice 160 biva ku vyo winjije ataco bimaze. Ikoreshwa muri Bitcoin guhindura urufunguzo rwa bose mu kwakira Address ku bijanye n'ingingo mfatirwako za Legacy na SegWit v0 (ku SegWit v1, urufunguzo rwa bose ntirufatwa). Ivyo bibanza gukoresha igikorwa ca `SHA256` Hash ku rufunguzo rwa bose, hanyuma hakurikirwa ugukoresha `RIPEMD160` ku gisubizo. Iryo huriro ry'ibikorwa bibiri bitandukanye vya Hash rizwi nka `HASH160` mu bijanye na Bitcoin. `RIPEMD160` ikoreshwa kandi mu bikoresho vy'ubuhinga n'ubuhinga bwo kubara ibimenyetso vy'intoke vy'ingenzi. Mu buryo bwihariye, `HASH160` ikoreshwa mu kubara urutoke rw'urufunguzo rw'umuvyeyi, hanyuma igashirwa mu makuru y'urufunguzo rwagutse (xpub, xprv...).

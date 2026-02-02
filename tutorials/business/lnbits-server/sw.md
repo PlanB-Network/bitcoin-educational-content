@@ -7,11 +7,11 @@ description: Ufungaji na usanidi wa seva ya LNbits inayojiendesha yenyewe kwenye
 
 
 
-LNbits ni kiolesura cha tovuti huria ambacho hubadilisha mandharinyuma yoyote ya Umeme (LND, Umeme wa Msingi, Phoenixd) kuwa jukwaa kamili la huduma. Suluhisho hili la kujipangia mwenyewe hukuwezesha kudhibiti jalada nyingi za Umeme ukiwa umejitenga, kusambaza sehemu za mauzo, kuunda mifumo ya uchangiaji au huduma za utozaji, huku ukihifadhi udhibiti kamili wa pesa zako.
+LNbits ni kiolesura cha tovuti huria kinachobadilisha mandharinyuma yoyote ya Lightning (kama LND, Core Lightning, au Phoenixd) kuwa jukwaa kamili la huduma. Suluhisho hili la kujipangia mwenyewe hukuwezesha kudhibiti wallet nyingi za Lightning kwa kujitegemea, kusambaza sehemu za mauzo, kuunda mifumo ya michango au huduma za utozaji, huku ukiendelea kuhifadhi udhibiti kamili wa pesa zako.
 
 
 
-Mafunzo haya yanashughulikia mbinu mbili za usakinishaji: **VPS Ubuntu iliyo na Phoenixd** (suluhisho jepesi bila nodi kamili ya Bitcoin) na **Mwavuli** (muunganisho na nodi yako iliyopo ya LND). Tofauti na mafunzo ya jumla ya LNbits ya Chuo cha Plan ₿, ambayo yanashughulikia dhana na viendelezi, mwongozo huu unaangazia taratibu za kiufundi za hatua kwa hatua za usakinishaji.
+Mafunzo haya yanashughulikia mbinu mbili za usakinishaji: **VPS Ubuntu iliyo na Phoenixd** (suluhisho jepesi bila  Full Node ya Bitcoin) na **Umbrel** (muunganisho na node yako iliyopo ya LND). Tofauti na mafunzo ya jumla ya LNbits ya Chuo cha Plan ₿, ambayo yanashughulikia dhana na viendelezi, mwongozo huu unaangazia taratibu za kiufundi za hatua kwa hatua za usakinishaji.
 
 
 
@@ -19,11 +19,11 @@ Mafunzo haya yanashughulikia mbinu mbili za usakinishaji: **VPS Ubuntu iliyo na 
 
 
 
-LNbits ni mfumo wa uhasibu wa Umeme uliotengenezwa katika Python (FastAPI) unaounganishwa na mazingira ya nyuma yaliyopo (LND, Core Lightning, Phoenixd). Tofauti na nodi za jadi za Umeme, LNbits hutoa kiolesura kinachoweza kufikiwa kwa ajili ya kudhibiti portfolios kadhaa zilizotengwa na funguo zao za API. Unaweza kuunda akaunti ndogo za familia yako, wafanyikazi au miradi, bila kuwapa ufikiaji wa pesa zako zote.
+LNbits ni mfumo wa uhasibu wa Lightning uliotengenezwa katika Python (FastAPI) unaounganishwa na mazingira ya nyuma yaliyopo (LND, Core Lightning, Phoenixd). Tofauti na node za jadi za Lightning, LNbits hutoa kiolesura kinachoweza kufikiwa kwa ajili ya kudhibiti portfolios kadhaa zilizotengwa na funguo zao za API. Unaweza kuunda akaunti ndogo za familia yako, wafanyikazi au miradi, bila kuwapa ufikiaji wa pesa zako zote.
 
 
 
-Usanifu uliotenganishwa huhifadhi maelezo katika SQLite (chaguo-msingi) au PostgreSQL (uzalishaji), huku pesa zikisalia kusimamiwa na mazingira yako ya nyuma ya Umeme. Utengano huu unahakikisha kubebeka: unaweza kuhama kutoka Phoenixd hadi LND bila kupoteza data yako ya mtumiaji.
+Usanifu uliotenganishwa huhifadhi maelezo katika SQLite (chaguo-msingi) au PostgreSQL (uzalishaji), huku pesa zikisalia kusimamiwa na mazingira yako ya nyuma ya Lightning. Utengano huu unahakikisha kubebeka: unaweza kuhama kutoka Phoenixd hadi LND bila kupoteza data yako ya mtumiaji.
 
 
 
@@ -31,11 +31,11 @@ Usanifu uliotenganishwa huhifadhi maelezo katika SQLite (chaguo-msingi) au Postg
 
 
 
-LNbits inatoa **mfumo wa upanuzi** unaoweza kutumika tofauti: TPoS (maeneo ya kuuza), Paywall (uchumaji wa maudhui), Matukio (tiketi), LndHub (seva ya BlueWallet), Kadi za Bolt (malipo ya NFC), Malipo ya Gawanya (usambazaji otomatiki), na Kidhibiti cha Mtumiaji (udhibiti wa mtumiaji na uthibitishaji).
+LNbits inatoa **mfumo wa upanuzi** unaoweza kutumika tofauti: TPoS (maeneo ya kuuza), Paywall (uchumaji wa maudhui), Matukio (tiketi), LndHub (server ya BlueWallet), Kadi za Bolt (malipo ya NFC), Malipo ya Gawanya (usambazaji otomatiki), na Kidhibiti cha Mtumiaji (udhibiti wa mtumiaji na uthibitishaji).
 
 
 
-**dashibodi** huonyesha salio la wakati halisi, historia ya miamala na zana za kulipa. Kila wallet ina URL ya kipekee iliyo na funguo zake za API, kuruhusu ufikiaji bila kuingia kwa kawaida. Mfumo wa ufunguo wa ngazi tatu wa API** (msimamizi, ankara, kusoma tu) hutoa udhibiti wa punjepunje wa ruhusa kwa miunganisho salama.
+**dashibodi** huonyesha salio la wakati halisi, historia ya miamala na zana za kulipa. Kila wallet ina URL ya kipekee iliyo na funguo zake za API, kuruhusu ufikiaji bila kuingia kwa kawaida. Mfumo wa ufunguo wa ngazi tatu wa APIUmbrel (msimamizi, ankara, kusoma tu) hutoa udhibiti wa punjepunje wa ruhusa kwa miunganisho salama.
 
 
 
@@ -47,11 +47,11 @@ LNbits hutekeleza **LNURL** (LNURL-pay, LNURL-withdraw, LNURL-auth) na inaauni *
 
 
 
-**Ubuntu VPS**: Suluhisho nyepesi bila nodi kamili ya Bitcoin. Masharti: 1 vCPU, RAM ya GB 1-2, Ubuntu 22.04 LTS, Python 3.10+, Git, UV. HTTPS + jina la kikoa linahitajika kwa kufichuliwa kwa umma (huduma za LNURL).
+**Ubuntu VPS**: Suluhisho nyepesi bila  Full Node ya Bitcoin. Masharti: 1 vCPU, RAM ya GB 1-2, Ubuntu 22.04 LTS, Python 3.10+, Git, UV. HTTPS + jina la kikoa linahitajika kwa kufichuliwa kwa umma (huduma za LNURL).
 
 
 
-**Mwavuli**: Usakinishaji kwa urahisi kutoka kwa Duka la Programu. Sharti: nodi ya Umbrel inayofanya kazi na LND iliyosawazishwa na chaneli wazi. Usanidi otomatiki.
+**Umbrel**: Usakinishaji kwa urahisi kutoka kwa Duka la Programu. Sharti: node ya Umbrel inayofanya kazi na LND iliyosawazishwa na chaneli wazi. Usanidi otomatiki.
 
 
 
@@ -67,19 +67,19 @@ https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-
 
 
 
-### Hatua ya 1: Kulinda seva ya VPS
+### Hatua ya 1: Kulinda server ya VPS
 
 
 
-**Kabla ya usakinishaji wowote **, unahitaji kulinda seva yako ya Ubuntu VPS kulingana na sheria za sanaa. Hatua hii ni **muhimu** ili kulinda miundombinu yako na fedha zako za Umeme.
+**Kabla ya usakinishaji wowote**, unahitaji kulinda server yako ya Ubuntu VPS kulingana na sheria za sanaa. Hatua hii ni **muhimu** ili kulinda miundombinu yako na fedha zako za Lightning.
 
 
 
-Huu hapa ni mwongozo wa kina wa kukusaidia kuanza: **[Usanidi wa awali wa seva ya Ubuntu - Mwongozo wa hatua kwa hatua](https://danielpcostas.dev/ubuntu-server-initial-configuration-a-step-by-step-guide/)** na Daniel P. Costas.
+Huu hapa ni mwongozo wa kina wa kukusaidia kuanza: **[Usanidi wa awali wa server ya Ubuntu - Mwongozo wa hatua kwa hatua](https://danielpcostas.dev/ubuntu-server-initial-configuration-a-step-by-step-guide/)** na Daniel P. Costas.
 
 
 
-Mwongozo huu unashughulikia usanidi wa mtumiaji, SSH salama, ngome (UFW), fail2ban, masasisho ya kiotomatiki, na mbinu bora za usalama za mfumo.
+Mwongozo huu unashughulikia usanidi wa mtumiaji, SSH salama, firewall (UFW), fail2ban, masasisho ya kiotomatiki, na mbinu bora za usalama wa mfumo.
 
 
 
@@ -87,7 +87,7 @@ Mwongozo huu unashughulikia usanidi wa mtumiaji, SSH salama, ngome (UFW), fail2b
 
 
 
-Mara seva yako ikiwa salama, unahitaji kusakinisha na kusanidi Phoenixd. Plan ₿ Academy inatoa usakinishaji wa kina wa kufunika mafunzo, kizazi cha seed na usanidi wa huduma ya mfumo :
+Mara server yako ikiwa salama, unahitaji kusakinisha na kusanidi Phoenixd. Plan ₿ Academy inatoa usakinishaji wa kina wa kufunika mafunzo, kizazi cha seed na usanidi wa huduma ya mfumo :
 
 
 
@@ -163,7 +163,7 @@ cat ~/lnbits/data/.super_user
 
 
 
-Nenda kwa `http://<IP-VPS>:5000/wallet?usr=<SuperUserID>` kwa paneli ya usimamizi. Menyu ya "Seva" inakuwezesha kusanidi vyanzo vya ufadhili, viendelezi na akaunti za mtumiaji.
+Nenda kwa `http://<IP-VPS>:5000/wallet?usr=<SuperUserID>` kwa paneli ya usimamizi. Menyu ya "server" inakuwezesha kusanidi vyanzo vya ufadhili, viendelezi na akaunti za mtumiaji.
 
 
 
@@ -188,9 +188,9 @@ Kutoka kwa kiolesura cha usimamizi wa SuperUser, nenda kwa "Mipangilio" na kisha
 
 
 
-- Lazima uzime** chaguo la "Ruhusu uundaji wa watumiaji wapya".
+- Lazima uzime chaguo la "Ruhusu uundaji wa watumiaji wapya".
 - Bila ulinzi huu, mtu yeyote kwenye Mtandao anaweza kufungua akaunti kwa mfano wako
-- Mshambulizi anaweza kuunda akaunti na kutumia ukwasi wa nodi yako ya Umeme bila wewe kujua
+- Mshambulizi anaweza kuunda akaunti na kutumia ukwasi wa node yako ya Lightning bila wewe kujua
 - Utahitaji kuunda akaunti za mtumiaji mwenyewe kutoka kwa kiolesura cha SuperUser
 
 
@@ -205,7 +205,7 @@ Kutoka kwa kiolesura cha usimamizi wa SuperUser, nenda kwa "Mipangilio" na kisha
 
 
 
-Baada ya kusanidiwa, msimamizi wa SuperUser pekee ndiye anayeweza kuunda akaunti mpya za watumiaji kupitia kiolesura cha "Watumiaji". Mbinu hii inahakikisha udhibiti kamili juu ya nani anaweza kufikia miundombinu yako ya Umeme na kutumia pesa zako.
+Baada ya kusanidiwa, msimamizi wa SuperUser pekee ndiye anayeweza kuunda akaunti mpya za watumiaji kupitia kiolesura cha "Watumiaji". Mbinu hii inahakikisha udhibiti kamili juu ya nani anaweza kufikia miundombinu yako ya Lightning na kutumia pesa zako.
 
 
 
@@ -213,7 +213,7 @@ Baada ya kusanidiwa, msimamizi wa SuperUser pekee ndiye anayeweza kuunda akaunti
 
 
 
-Phoenixd inadhibiti chaneli kiotomatiki kupitia uwazi kiotomatiki. Tengeneza ankara ya umeme ya ~30,000 sats kutoka LNbits na ulipe kutoka kwa wallet nyingine. Phoenixd hufungua kituo kiotomatiki kwa ACINQ. Ada ya ufunguzi (~ 20-23k sats) inatolewa, salio iliyobaki (~ 7-10k sats) inaonekana baada ya uthibitisho wa on-chain.
+Phoenixd inadhibiti chaneli kiotomatiki kupitia uwazi kiotomatiki. Tengeneza lightning invoice  ya ~30,000 sats kutoka LNbits na ulipe kutoka kwa wallet nyingine. Phoenixd hufungua kituo kiotomatiki kwa ACINQ. Ada ya ufunguzi (~ 20-23k sats) inatolewa, salio iliyobaki (~ 7-10k sats) inaonekana baada ya uthibitisho wa on-chain.
 
 
 
@@ -229,7 +229,7 @@ Angalia hali na `./phoenix-cli getinfo`. Kisha zingatia kuzima uwazi wa kiotomat
 
 
 
-**Caddy (inapendekezwa)**: SSL otomatiki. `sudo apt install -y caddy`, hariri `/etc/caddy/Caddyfile` :
+**Caddy (inapendekezwa)**: SSL automatic. `sudo apt install -y caddy`, hariri `/etc/caddy/Caddyfile` :
 
 
 ```
@@ -267,7 +267,7 @@ Ongeza kwa `.env`: `FORWARDED_ALLOW_IPS=*`
 
 
 
-## Ufungaji wa mwavuli
+## Ufungaji wa Umbrel
 
 
 
@@ -283,7 +283,7 @@ Nenda kwenye Duka la Programu ya Umbrel, tafuta "LNbits", na ubofye "Sakinisha".
 
 
 
-Umbrel hukagua kiotomatiki vitegemezi vinavyohitajika. LNbits inahitaji Njia ya Umeme (LND) kufanya kazi. Ikiwa nodi yako ya Umeme tayari inafanya kazi, bofya kwenye "Sakinisha LNbits" ili kuthibitisha.
+Umbrel hukagua kiotomatiki vitegemezi vinavyohitajika. LNbits inahitaji Lightning node (LND) kufanya kazi. Ikiwa node yako ya Lightning tayari inafanya kazi, bofya kwenye "Sakinisha LNbits" ili kuthibitisha.
 
 
 
@@ -332,13 +332,13 @@ Sehemu ya "Usimamizi wa Pochi" huonyesha taarifa muhimu kuhusu usanidi wako:
 
 
 
-- Chanzo cha Ufadhili** : LndBtcRestWallet (muunganisho wa moja kwa moja kwenye nodi yako ya Mwavuli ya LND)
-- Salio la Nodi** : Jumla ya ukwasi unaopatikana katika chaneli zako za Umeme
+- Chanzo cha Ufadhili** : LndBtcRestWallet (muunganisho wa moja kwa moja kwenye node yako ya Umbrel ya LND)
+- Salio la node** : Jumla ya ukwasi unaopatikana katika chaneli zako za Lightning
 - Salio la LNbits**: Fedha zilizotengwa kwa mfumo wa LNbits (mwanzoni 0 sats)
 
 
 
-Sasa unaweza kutumia moja kwa moja ukwasi wa nodi yako ya Umbrel kwa pochi zote za LNbits unazounda. Hakuna usanidi wa ziada unaohitajika - LNbits iko na inafanya kazi.
+Sasa unaweza kutumia moja kwa moja ukwasi wa node yako ya Umbrel kwa pochi zote za LNbits unazounda. Hakuna usanidi wa ziada unaohitajika - LNbits iko na inafanya kazi.
 
 
 
@@ -346,7 +346,7 @@ Sasa unaweza kutumia moja kwa moja ukwasi wa nodi yako ya Umbrel kwa pochi zote 
 
 
 
-Moja ya vipengele vya nguvu zaidi vya LNbits ni uwezo wake wa kuunda watumiaji wengi huru, kila moja ikiwa na uthibitishaji wa nenosiri na pochi zilizotengwa. Usanifu huu hufanya iwezekane kuchukua fursa ya ukwasi wa nodi yako ya Umbrel huku ukitoa akaunti ndogo zilizotengwa kwa matumizi tofauti: biashara, familia, wafanyikazi, miradi, n.k.
+Moja ya vipengele vya nguvu zaidi vya LNbits ni uwezo wake wa kuunda watumiaji wengi huru, kila moja ikiwa na uthibitishaji wa nenosiri na pochi zilizotengwa. Usanifu huu hufanya iwezekane kuchukua fursa ya ukwasi wa node yako ya Umbrel huku ukitoa akaunti ndogo zilizotengwa kwa matumizi tofauti: biashara, familia, wafanyikazi, miradi, n.k.
 
 
 
@@ -397,7 +397,7 @@ Mtumiaji wako mpya sasa anaonekana katika orodha ya watumiaji na kitambulisho ch
 
 
 
-Sasa kwa kuwa mtumiaji wa "satoshi" ameundwa, unahitaji kumpa Umeme wa wallet. Bofya kwenye ikoni ya wallet (ikoni ya pili) kwa mtumiaji husika, kisha kwenye "UNDA WALLET MPYA".
+Sasa kwa kuwa mtumiaji wa "satoshi" ameundwa, unahitaji kumpa Lightning wallet. Bofya kwenye ikoni ya wallet (ikoni ya pili) kwa mtumiaji husika, kisha kwenye "UNDA WALLET MPYA".
 
 
 
@@ -411,9 +411,9 @@ Kisanduku cha mazungumzo kinakuhimiza kutaja wallet. Weka jina la maelezo (k.m. 
 
 ![Création wallet](assets/fr/10.webp)
 
+wa
 
-
-Bonyeza "CREATE". LNbits hutengeneza umeme wa wallet papo hapo kwa mtumiaji huyu.
+Bonyeza "CREATE". LNbits hutengeneza Lightning  wallet papo hapo kwa mtumiaji huyu.
 
 
 
@@ -429,11 +429,11 @@ Sasa unaona pochi mbili zilizopo: chaguo-msingi wallet "LNbits wallet" iliyoundw
 
 
 
-Mtumiaji wa "satoshi" sasa ana wallet moja, iliyotambuliwa wazi. Kila mtumiaji wa wallet anafanya kazi kwa uhuru huku akitumia ukwasi wa nodi yako ya msingi ya LND.
+Mtumiaji wa "satoshi" sasa ana wallet moja, iliyotambuliwa wazi. Kila mtumiaji wa wallet anafanya kazi kwa uhuru huku akitumia ukwasi wa node yako ya msingi ya LND.
 
 
 
-**Dhana kuu**: Pochi hizi zote hushiriki ukwasi wa kimataifa wa nodi yako ya Umbrel. Hutengenezi chaneli mpya za Radi kwa kila wallet - LNbits hufanya kazi kama safu mahiri ya uhasibu ambayo inadhibiti ugawaji wa fedha ndani ya miundombinu yako iliyopo ya Umeme. Hiyo ndiyo nguvu ya mfumo wa wallet wa LNbits.
+**Dhana kuu**: Pochi hizi zote hushiriki ukwasi wa kimataifa wa node yako ya Umbrel. Hutengenezi chaneli mpya za Radi kwa kila wallet - LNbits hufanya kazi kama safu mahiri ya uhasibu ambayo inadhibiti ugawaji wa fedha ndani ya miundombinu yako iliyopo ya Lightning. Hiyo ndiyo nguvu ya mfumo wa wallet wa LNbits.
 
 
 
@@ -457,7 +457,7 @@ Ingiza jina la mtumiaji ("satoshi") na nenosiri lililoelezwa hapo awali, kisha u
 
 
 
-Mara baada ya kuingia, mtumiaji hufikia kiolesura chake kamili cha Umeme cha wallet.
+Mara baada ya kuingia, mtumiaji hufikia kiolesura chake kamili cha Lightning wallet.
 
 
 
@@ -470,10 +470,10 @@ Vipengele vya interface:
 
 
 
-- Salio la sasa**: Imeonyeshwa katika sats na katika sarafu iliyochaguliwa (CUC katika mfano huu)
-- Vitendo vikuu**: BANDIKIA OMBI, UNDA ankara, ikoni ya QR (changanuzi haraka)
-- Historia ya muamala** : Kamilisha orodha ya malipo na risiti zote
-- Paneli ya upande wa kulia**: Chaguo za usanidi na ufikiaji
+- **Salio la sasa**: Imeonyeshwa katika sats na katika sarafu iliyochaguliwa (CUC katika mfano huu)
+- **Vitendo vikuu**: BANDIKIA OMBI, UNDA ankara, ikoni ya QR (changanuzi haraka)
+- **Historia ya muamala** : Kamilisha orodha ya malipo na risiti zote
+- **Paneli ya upande wa kulia**: Chaguo za usanidi na ufikiaji
 
 
 
@@ -519,7 +519,7 @@ LNbits inatoa njia kadhaa za kutumia wallet hii kwenye simu mahiri:
 
 
 
-Kipengele hiki cha rununu hugeuza mfano wako wa Umbrel wa LNbits kuwa seva halisi ya Lightning wallet kwa ajili yako na marafiki zako, huku kikihifadhi mamlaka kamili juu ya fedha zako kutokana na nodi yako inayojiendesha.
+Kipengele hiki cha rununu hubadilisha mfano wako wa Umbrel wa LNbits kuwa server halisi ya Lightning wallet kwa ajili yako na marafiki zako, huku ukihifadhi mamlaka kamili juu ya fedha zako kupitia node yako inayojitegemea.
 
 
 
@@ -527,25 +527,25 @@ Kipengele hiki cha rununu hugeuza mfano wako wa Umbrel wa LNbits kuwa seva halis
 
 
 
-Kesi kuu ya utumiaji wa usanidi huu wa watumiaji wengi ni **kushiriki pochi na familia yako au mduara wa karibu**. Mara tu unapounda mtumiaji aliye na wallet maalum (kama vile "satoshi" katika mfano wetu), unaweza kushiriki vitambulisho hivi vya kuingia na wanafamilia wako unaowaamini.
+Kesi kuu ya matumizi ya usanidi huu wa watumiaji wengi ni kushiriki pochi na familia yako au mduara wa karibu. Mara tu unapounda mtumiaji mwenye wallet maalum (kama "satoshi" katika mfano wetu), unaweza kushiriki vitambulisho vya kuingia na wanafamilia wako unaowaamini.
 
 
 
-**Usalama wa ufikiaji kwenye Mwavuli**: Ufikiaji wa mfano wako wa LNbits kwenye Umbrel unalindwa kwa kawaida, kwani unaweza kufikiwa tu :
+**Usalama wa ufikiaji kwenye Umbrel**: Ufikiaji wa mfano wako wa LNbits kwenye Umbrel unalindwa kwa kawaida, kwani unaweza kufikiwa tu :
 
 
 
 
-- Kwenye mtandao wa ndani** : Wanafamilia wako waliounganishwa kwenye mtandao sawa wa WiFi/Ethernet wanaweza kufikia mfano huo
-- Kupitia VPN**: Ikiwa unatumia VPN kama vile Tailscale iliyosanidiwa kwenye seva yako ya Umbrel, watumiaji walioidhinishwa wanaweza kupata ufikiaji salama wa mbali.
+- **Kwenye mtandao wa ndani** : Wanafamilia wako waliounganishwa kwenye mtandao sawa wa WiFi/Ethernet wanaweza kufikia mfano huo
+- **Kupitia VPN**: Ikiwa unatumia VPN kama vile Tailscale iliyosanidiwa kwenye server yako ya Umbrel, watumiaji walioidhinishwa wanaweza kupata ufikiaji salama wa mbali.
 
 
 
-Safu hii mbili ya ulinzi (ufikiaji wa mtandao + uthibitishaji wa mtumiaji) hufanya chaguo la "Ruhusu uundaji wa watumiaji wapya" kuwa muhimu sana kwenye Mwavuli. Watu ambao tayari wana ufikiaji wa mtandao wako au VPN wanaweza kufikia kiolesura cha kuingia.
+Safu hii mbili ya ulinzi (ufikiaji wa mtandao + uthibitishaji wa mtumiaji) hufanya chaguo la "Ruhusu uundaji wa watumiaji wapya" kuwa muhimu sana kwenye Umbrel. Watu ambao tayari wana ufikiaji wa mtandao wako au VPN wanaweza kufikia kiolesura cha kuingia.
 
 
 
-**Hali ya kawaida**: Unafungua akaunti ya "baba", akaunti ya "mama", akaunti ya "biashara" na kadhalika. Kila mwanafamilia ana Umeme wake wa pekee wa wallet, huku akinufaika na ukwasi ulioshirikiwa wa nodi yako ya Umbrel. Shiriki kwa urahisi jina la mtumiaji na nenosiri - mtumiaji anaweza kisha kuunganisha kutoka kwa kifaa chochote kwenye mtandao wako wa karibu au kupitia Tailscale VPN yako. Tafadhali tazama mafunzo yetu yaliyojitolea ya Tailscale kwa habari zaidi:
+**Hali ya kawaida**: Unafungua akaunti ya "baba", akaunti ya "mama", akaunti ya "biashara" na kadhalika. Kila mwanafamilia ana Lightning yake ya pekee wa yallet, huku akinufaika na ukwasi ulioshirikiwa wa node yako ya Umbrel. Shiriki kwa urahisi jina la mtumiaji na nenosiri - mtumiaji anaweza kisha kuunganisha kutoka kwa kifaa chochote kwenye mtandao wako wa karibu au kupitia Tailscale VPN yako. Tafadhali tazama mafunzo yetu yaliyojitolea ya Tailscale kwa habari zaidi:
 
 
 
@@ -563,26 +563,26 @@ Rudi kwenye kiolesura cha SuperUser na ufikie menyu ya "Viendelezi" katika panel
 
 
 
-LNbits inatoa katalogi nono ya viendelezi vinavyobadilisha mfano wako kuwa jukwaa la huduma za Umeme halisi:
+LNbits inatoa katalogi nono ya viendelezi vinavyobadilisha mfano wako kuwa jukwaa la huduma za Lightning halisi:
 
 
 
 
 
-- Jukebox**: Mfumo wa jukebox unaoendeshwa na sats (malipo ya Spotify)
-- Tiketi za Usaidizi**: Mfumo wa usaidizi unaolipishwa (pokea satss kujibu maswali)
-- TPoS**: Salama, kituo cha mauzo cha simu kwa wauzaji reja reja
-- Kidhibiti cha Mtumiaji**: mtumiaji wa hali ya juu na usimamizi wa wallet (ambao tumetumia hivi punde)
-- Matukio**: Uuzaji na uthibitishaji wa tikiti za hafla
-- LNURLDevices**: Usimamizi wa sehemu ya mauzo, ATM, swichi zilizounganishwa
-- SMTP**: Wezesha watumiaji kutuma barua pepe na kupata sats
-- Boltcards**: Kupanga kadi za NFC kwa malipo ya umeme ya bomba-ili-kulipa
-- NostrNip5**: Unda anwani za NIP5 za vikoa vyako
-- Malipo ya kugawanyika**: Usambazaji wa malipo kiotomatiki kati ya pochi nyingi
+- **Jukebox**: Mfumo wa jukebox unaoendeshwa na sats (malipo ya Spotify)
+- **Tiketi za Usaidizi**: Mfumo wa usaidizi unaolipishwa (pokea satss kujibu maswali)
+- **TPoS**: Salama, kituo cha mauzo cha simu kwa wauzaji reja reja
+- **Kidhibiti cha Mtumiaji**: mtumiaji wa hali ya juu na usimamizi wa wallet (ambao tumetumia hivi punde)
+-**Matukio**: Uuzaji na uthibitishaji wa tikiti za hafla
+- **LNURLDevices**: Usimamizi wa sehemu ya mauzo, ATM, swichi zilizounganishwa
+- **SMTP**: Wezesha watumiaji kutuma barua pepe na kupata sats
+- **Boltcards**: Kupanga kadi za NFC kwa malipo ya Lightning ya bomba-ili-kulipa
+- **NostrNip5**: Unda anwani za NIP5 za vikoa vyako
+- **Malipo ya kugawanyika**: Usambazaji wa malipo kiotomatiki kati ya pochi nyingi
 
 
 
-Kila kiendelezi kimeamilishwa kwa mbofyo mmoja kutoka kwa kiolesura hiki. Viendelezi vilivyowekewa alama ya "BURE" havilipishwi, ilhali vingine vinapatikana kama matoleo "INAYOLIPIWA". Kagua katalogi ili kubaini zile zinazolingana na mahitaji yako - iwe kwa biashara, usimamizi wa familia, au kufanya majaribio na uwezo wa Lightning Network.
+Kila kiendelezi kinaamilishwa kwa mbofyo mmoja kutoka kwenye kiolesura hiki. Viendelezi vilivyowekewa alama ya "BURE" havilipishwi, wakati vingine vinapatikana kama matoleo "YANAYOLIPIWA". Kagua katalogi ili kubaini zile zinazokidhi mahitaji yako—iwe kwa biashara, usimamizi wa familia, au kufanya majaribio na uwezo wa Lightning Network.
 
 
 
@@ -602,18 +602,18 @@ Kila kiendelezi kimeamilishwa kwa mbofyo mmoja kutoka kwa kiolesura hiki. Viende
 
 
 
-**Hifadhi rudufu**: Vitambulisho vya Phoenixd Seed/LND, hifadhidata ya LNbits, faili za .env. Weka otomatiki kila siku, weka mbali na seva ya uzalishaji, iliyosimbwa. Mtihani hurejesha mara kwa mara.
+**Hifadhi rudufu**: Vitambulisho vya Phoenixd Seed/LND, hifadhidata ya LNbits, faili za .env. Weka otomatiki kila siku, weka mbali na server ya uzalishaji, iliyosimbwa. Mtihani hurejesha mara kwa mara.
 
 
 
-**Matengenezo**: Angalia mara kwa mara masasisho (LNbits, nyuma ya umeme, mfumo wa uendeshaji). Angalia vidokezo vya toleo kila wakati kabla ya sasisho kuu.
+**Matengenezo**: Angalia mara kwa mara masasisho (LNbits, nyuma ya Lightning, mfumo wa uendeshaji). Angalia vidokezo vya toleo kila wakati kabla ya sasisho kuu.
 
 
 
 
 
-- Kwenye Umbrel**: Duka la Programu hukuarifu kiotomatiki matoleo mapya. Sawazisha viendelezi kupitia "Dhibiti Viendelezi" > "Sasisha Vyote". Angalia ujumuishaji wa hifadhidata ya SQLite kwenye chelezo otomatiki za Umbrel.
-- Kwenye VPS**: Sasisha wewe mwenyewe ukitumia `cd lnbits && git pull && uv sync --all-extras && sudo systemctl anzisha upya lnbits`. Fuatilia kumbukumbu za mfumo: `sudo journalctl -u lnbits -f`.
+- **Kwenye Umbrel**: Duka la Programu hukuarifu kiotomatiki matoleo mapya. Sawazisha viendelezi kupitia "Dhibiti Viendelezi" > "Sasisha Vyote". Angalia ujumuishaji wa hifadhidata ya SQLite kwenye chelezo otomatiki za Umbrel.
+- **Kwenye VPS**: Sasisha wewe mwenyewe ukitumia `cd lnbits && git pull && uv sync --all-extras && sudo systemctl anzisha upya lnbits`. Fuatilia kumbukumbu za mfumo: `sudo journalctl -u lnbits -f`.
 
 
 
@@ -621,11 +621,11 @@ Kila kiendelezi kimeamilishwa kwa mbofyo mmoja kutoka kwa kiolesura hiki. Viende
 
 
 
-Upangishaji wa kibinafsi wa LNbits hutoa njia thabiti ya uhuru wa kifedha wa Umeme. VPS + Phoenixd inatoa suluhisho nyepesi kwa huduma za haraka, ujumuishaji kamili wa Umbrel na nodi iliyopo ya Bitcoin. Usanifu unaoweza kuenea huwezesha mageuzi kutoka kwa watumiaji wengi wa wallet hadi kesi za matumizi ya biashara ya kisasa.
+Upangishaji wa kibinafsi wa LNbits hutoa njia thabiti ya uhuru wa kifedha wa Lightning. VPS + Phoenixd inatoa suluhisho nyepesi kwa huduma za haraka, ujumuishaji kamili wa Umbrel na node iliyopo ya Bitcoin. Usanifu unaoweza kuenea huwezesha mageuzi kutoka kwa watumiaji wengi wa wallet hadi kesi za matumizi ya biashara ya kisasa.
 
 
 
-Kujikaribisha mwenyewe kunamaanisha kuwajibika: kuhifadhi nakala za mbegu, linda ufikiaji, anza na viwango vya kawaida. Kwa tahadhari hizi, LNbits inakuwa suluhisho thabiti kwa uchumi wa Umeme, huku ikihifadhi ugatuaji na uhuru.
+Kujikaribisha mwenyewe kunamaanisha kuwajibika: kuhifadhi nakala za seed, linda ufikiaji, anza na viwango vya kawaida. Kwa tahadhari hizi, LNbits inakuwa suluhisho thabiti kwa uchumi wa Lightning, huku ikihifadhi ugatuaji na uhuru.
 
 
 
@@ -650,7 +650,7 @@ Kujikaribisha mwenyewe kunamaanisha kuwajibika: kuhifadhi nakala za mbegu, linda
 
 
 
-- [Usanidi wa awali wa seva ya Ubuntu](https://danielpcostas.dev/ubuntu-server-initial-configuration-a-step-by-step-guide/) na Daniel P. Costas (usalama wa hatua kwa hatua wa VPS)
+- [Usanidi wa awali wa server ya Ubuntu](https://danielpcostas.dev/ubuntu-server-initial-configuration-a-step-by-step-guide/) na Daniel P. Costas (usalama wa hatua kwa hatua wa VPS)
 - [LNbits + Phoenixd usakinishaji kwenye Ubuntu VPS](https://danielpcostas.dev/install-lnbits-phoenixd-vps-ubuntu/) na Daniel P. Costas (mwongozo kamili)
-- [Seva ya LNbits kwenye Clearnet](https://ereignishorizont.xyz/lnbits-server/en/) na Axel
+- [server ya LNbits kwenye Clearnet](https://ereignishorizont.xyz/lnbits-server/en/) na Axel
 - [LNbits kwenye VPS](https://github.com/TrezorHannes/vps-lnbits) na Hannes

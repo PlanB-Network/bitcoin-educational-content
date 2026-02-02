@@ -68,7 +68,7 @@ PureOS resmi web sitesine] (https://pureos.net/) gidin ve ardından makinenizin 
 
 
 
-PureOS kurulumunu başlatmak için, [Balena Etcher] (https://www.balena.io/etcher) gibi bir flash yazılımı kullanarak önyüklenebilir bir USB anahtarı oluşturmanız gerekir.
+PureOS kurulumunu başlatmak için, [Balena Etcher](https://www.balena.io/etcher) gibi bir flash yazılımı kullanarak önyüklenebilir bir USB anahtarı oluşturmanız gerekir.
 
 
 

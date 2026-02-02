@@ -1,0 +1,8 @@
+question: Arendaja soovib testida varade väljastamist Elements-l ilma välissõltuvusteta või plokkide kinnitusi ootamata - millist konfiguratsiooni peaks ta kasutama?
+answer: Seadistage chain=elementsregtest, et luua lokaalne testimiskeskkond koos kohese plokkide genereerimisega
+wrong_answers:
+  - Seadistage kett=liquidv1, et luua ühendus Liquid põhivõrguga koheseks testimiseks
+  - Kasutage käsku issueasset RPC koos lipuga --testmode isoleeritud arendamiseks
+  - "Konfigureeri kett=bitcoin-regtest, et pääseda Elements funktsioonidele Bitcoin testkeskkonnas ligi"
+explanation: |
+  Elementsregtest-konfiguratsioon loob lokaalse regressioonitestimise keskkonna, kus arendajad saavad generate plokki koheselt kasutada selliseid käske nagu generateblock, võimaldades neil testida varade väljastamist ja muid funktsioone ilma võrgu kinnitusi ootamata või välistest sõlmedest sõltumata. Seadistus chain=liquidv1 ühendab tootmisvõrku Liquid, millel on 1-minutilised plokkide ajad ja välised sõltuvused. issueasset käsul ei ole --testmode-fippi ja bitcoin-regtest on mõeldud Bitcoin Core'ile, mitte Elements funktsionaalsusele.

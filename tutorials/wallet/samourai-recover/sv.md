@@ -12,7 +12,7 @@ Efter gripandet av grundarna av Samourai Wallet och beslagtagandet av deras serv
 Efter att ha hjälpt flera användare att återhämta sina bitcoins de senaste dagarna tror jag att jag har stött på de flesta av de problem som kan uppstå under restaureringen av en Samourai Wallet. Därför kommer denna handledning att börja med en situationsrapport för att identifiera de funktioner som förblir operativa och de som inte längre är tillgängliga inom Samourai Wallet-ekosystemet och den programvara som påverkas av denna incident. Därefter fortsätter vi steg för steg för att återställa en Samourai Wallet med hjälp av Sparrow wallet-programvaran. Vi kommer att undersöka alla potentiella hinder som uppstår under denna process och se lösningar för att lösa dem. Slutligen, i den sista delen, kommer du att upptäcka de potentiella riskerna för din integritet efter serverbeslaget.
 
 
-_Ett stort tack till [@Louferlou] (https://twitter.com/Louferlou), som har hjälpt flera användare i deras återhämtning och delat med sig av sina erfarenheter till mig, och som också har bidragit till tester för att avgöra vad som fortfarande fungerar._
+_Ett stort tack till [@Louferlou](https://twitter.com/Louferlou), som har hjälpt flera användare i deras återhämtning och delat med sig av sina erfarenheter till mig, och som också har bidragit till tester för att avgöra vad som fortfarande fungerar._
 
 
 ## Är Samourai Wallet fortfarande i arbete?
@@ -105,7 +105,7 @@ Webbplatsen KYCP.org är för närvarande inte längre tillgänglig.
 Det GitLab som innehöll koden för Python-verktyget Boltzmann Calculator har också beslagtagits. För närvarande är det därför inte längre möjligt att ladda ner detta verktyg. Men om du har en RoninDojo kan du fortsätta att använda Boltzmann Calculator på samma sätt som tidigare.
 
 
-När det gäller RoninDojo fortsätter denna node-in-box-programvara att fungera korrekt trots att vissa specifika verktyg som Whirlpool, CLI och WST inte är tillgängliga. Den kan fortfarande användas för annan Wallet-programvara tack vare Fulcrum eller Electrs. Om du vill få mer information om RoninDojo eller om du har specifika frågor, uppmuntrar jag dig att gå med i [deras Telegram-grupp] (https://t.me/RoninDojoNode).
+När det gäller RoninDojo fortsätter denna node-in-box-programvara att fungera korrekt trots att vissa specifika verktyg som Whirlpool, CLI och WST inte är tillgängliga. Den kan fortfarande användas för annan Wallet-programvara tack vare Fulcrum eller Electrs. Om du vill få mer information om RoninDojo eller om du har specifika frågor, uppmuntrar jag dig att gå med i [deras Telegram-grupp](https://t.me/RoninDojoNode).
 
 
 Källkoden för RoninDojo är dock för närvarande inte längre tillgänglig, eftersom den fanns på Samourais GitLab. Det är därför inte möjligt att manuellt installera den på en Raspberry Pi för tillfället.
@@ -240,7 +240,7 @@ Om du använder en annan programvara än Sparrow, som Electrum, för att återst
 - Postmix: `m/84'/0'/2147483646'`
 
 
-Du har nu tillgång till dina bitcoins på Sparrow. Om du behöver hjälp med att använda Sparrow wallet kan du också kolla in [vår dedikerade handledning] (https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
+Du har nu tillgång till dina bitcoins på Sparrow. Om du behöver hjälp med att använda Sparrow wallet kan du också kolla in [vår dedikerade handledning](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 
 Jag rekommenderar också att du manuellt importerar de etiketter som du hade associerade med dina UTXO:er på Samourai. Detta gör att du kan utföra effektiv myntkontroll på Sparrow därefter.
@@ -329,7 +329,7 @@ Om du använder en annan programvara som Electrum för att återställa din Samo
 - Postmix: `m/84'/0'/2147483646'`
 
 
-Du har nu tillgång till dina bitcoins på Sparrow. Om du behöver hjälp med att använda Sparrow wallet kan du också läsa [vår dedikerade handledning] (https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
+Du har nu tillgång till dina bitcoins på Sparrow. Om du behöver hjälp med att använda Sparrow wallet kan du också läsa [vår dedikerade handledning](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 
 Jag rekommenderar också att du manuellt importerar de etiketter som du hade associerade med dina UTXO:er på Samourai. Detta gör att du kan utföra effektiv myntkontroll på Sparrow därefter.
@@ -425,7 +425,7 @@ Klicka på `Apply` för att slutföra. Sparrow kommer sedan att härleda ett st�
 ![samourai](assets/36.webp)
 
 
-Det täcker de olika återhämtningsproblem som jag har stött på under de senaste dagarna. Om du fortfarande har problem efter att ha provat alla dessa lösningar, inbjuder jag dig att gå med i [Discover Bitcoin Discord] (https://discord.gg/xKKm29XGBb) för att be om hjälp. Jag besöker regelbundet denna Discord och skulle vara glad att hjälpa till om jag har lösningen. Andra bitcoiners kommer också att kunna dela med sig av sina erfarenheter och erbjuda sin hjälp. **I vilket fall som helst är det viktigt att hålla din återställningsfras, din backup-fil och dina passphrase konfidentiella**. Dela dem inte med någon, eftersom det skulle kunna göra det möjligt för dem att stjäla dina bitcoins.
+Det täcker de olika återhämtningsproblem som jag har stött på under de senaste dagarna. Om du fortfarande har problem efter att ha provat alla dessa lösningar, inbjuder jag dig att gå med i [Discover Bitcoin Discord](https://discord.gg/xKKm29XGBb) för att be om hjälp. Jag besöker regelbundet denna Discord och skulle vara glad att hjälpa till om jag har lösningen. Andra bitcoiners kommer också att kunna dela med sig av sina erfarenheter och erbjuda sin hjälp. **I vilket fall som helst är det viktigt att hålla din återställningsfras, din backup-fil och dina passphrase konfidentiella**. Dela dem inte med någon, eftersom det skulle kunna göra det möjligt för dem att stjäla dina bitcoins.
 
 
 När återställningen är klar har du nu tillgång till dina bitcoins. Det är bra, men det kanske inte är tillräckligt. Beslagtagandet av servrar innebär nämligen nya potentiella risker för din integritet. I följande avsnitt kommer vi att undersöka dessa risker i detalj och beskriva de försiktighetsåtgärder som du kan vidta för att skydda din integritet.
@@ -533,4 +533,4 @@ I den osannolika händelsen att du använde din Dojo med Samourai men inte med S
 ## Slutsats
 
 
-Tack för att du läste den här artikeln till slutet. Om du tycker att information saknas eller om du har förslag, tveka inte att kontakta mig för att dela dina tankar. Dessutom, om du behöver ytterligare hjälp med att återställa din Samourai Wallet trots denna handledning, inbjuder jag dig att gå med i [Discover Bitcoin Discord] (https://discord.gg/xKKm29XGBb) för att be om hjälp. Jag besöker regelbundet denna Discord och skulle med glädje hjälpa dig om jag har lösningen. Andra bitcoiners kommer också att kunna dela med sig av sina erfarenheter och erbjuda sitt stöd. **I vilket fall som helst är det viktigt att hålla din återställningsfras, din backup-fil och din passphrase konfidentiella**. Dela dem inte med någon, eftersom det skulle kunna göra det möjligt för dem att stjäla dina bitcoins.
+Tack för att du läste den här artikeln till slutet. Om du tycker att information saknas eller om du har förslag, tveka inte att kontakta mig för att dela dina tankar. Dessutom, om du behöver ytterligare hjälp med att återställa din Samourai Wallet trots denna handledning, inbjuder jag dig att gå med i [Discover Bitcoin Discord](https://discord.gg/xKKm29XGBb) för att be om hjälp. Jag besöker regelbundet denna Discord och skulle med glädje hjälpa dig om jag har lösningen. Andra bitcoiners kommer också att kunna dela med sig av sina erfarenheter och erbjuda sitt stöd. **I vilket fall som helst är det viktigt att hålla din återställningsfras, din backup-fil och din passphrase konfidentiella**. Dela dem inte med någon, eftersom det skulle kunna göra det möjligt för dem att stjäla dina bitcoins.

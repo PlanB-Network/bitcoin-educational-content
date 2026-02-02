@@ -809,7 +809,7 @@ See raamat koondas Quesnay peamised panused. Selles sätestati füsiokraatide ju
 Füsiokraatia sai Prantsusmaal ja isegi kogu Euroopas moodi vaevalt kümne aasta jooksul. Pärast pikka arenguperioodi saavutas see tuntuse 1760. aastate keskel. Selleks ajaks, kui Turgot 1776. aastal võimule tuli, oli see liikumine juba oma populaarsust kaotanud ja minister hoidis oma toetust Quesnay koolkonnale enamasti varjatud.
 
 
-Selle algupära peitub majanduslike ideede arengus 1750ndatel aastatel. Mitmed autorid aitasid ületada lõhet Boisguilbert'i ja selle vahel, mis hiljem sai tuntuks füsiokraatia nime all. Nagu eespool mainitud, olid Vincent de Gournay ja tema majandusteadlaste ring paljude väljaannete taga, mis tutvustasid prantsuse lugejatele välismaist majandusmõtet ja aitasid sütitada nende kirge majanduse vastu. Füsiokraatia alused olid juba olemas sellistes raamatutes nagu Boisguilbert'i "Détail de la France" ja ["Essee kaubanduse üldisest olemusest"] (https://archive.org/details/essaisurlanature0000cant), mille autoriks oli Cantillon.
+Selle algupära peitub majanduslike ideede arengus 1750ndatel aastatel. Mitmed autorid aitasid ületada lõhet Boisguilbert'i ja selle vahel, mis hiljem sai tuntuks füsiokraatia nime all. Nagu eespool mainitud, olid Vincent de Gournay ja tema majandusteadlaste ring paljude väljaannete taga, mis tutvustasid prantsuse lugejatele välismaist majandusmõtet ja aitasid sütitada nende kirge majanduse vastu. Füsiokraatia alused olid juba olemas sellistes raamatutes nagu Boisguilbert'i "Détail de la France" ja ["Essee kaubanduse üldisest olemusest"](https://archive.org/details/essaisurlanature0000cant), mille autoriks oli Cantillon.
 
 
 ![image](assets/et/047.webp)
@@ -1002,7 +1002,7 @@ Venemaal valmistas Katariina II ette seadusandlikku reformi ja palus Diderot'l s
 ![image](assets/et/059.webp)
 
 
-Lugedes 1767. aastal ilmunud raamatut [*Poliitiliste ühiskondade loomulik ja olemuslik kord*] (https://archive.org/details/lordrenaturelete00mercuoft), mille autoriks oli füsiokraat Mercier de la Rivière, saatis ta selle autorile.
+Lugedes 1767. aastal ilmunud raamatut [*Poliitiliste ühiskondade loomulik ja olemuslik kord*](https://archive.org/details/lordrenaturelete00mercuoft), mille autoriks oli füsiokraat Mercier de la Rivière, saatis ta selle autorile.
 
 
 
@@ -1409,7 +1409,7 @@ Condillaci abt mängis olulist rolli selle vale ettekujutuse lõplikul lammutami
 "Kindlasti" on ehk liialdus, sest avalikus arutelus tuleb see sofism sageli uuesti esile. Võib-olla ongi see põhjus, miks Condillac jääb vähetuntud majandusteadlaseks. Peale Austria majandusteadlaste on vähesed mõistnud tema Exchange teooria tähtsust, keegi ei tunne tema vastu enam huvi.
 
 
-Enamiku majandusmõtte ajaloolaste jaoks on 1776. aastat tähistab *The Wealth of Nations*, mis rajas majandusteaduse. Äsja lõpetatud viisteist õppetundi, milles me oleme uurinud Prantsuse majandusteadust enne Adam Smithi, piisab, et tõestada selle arusaama ekslikkust. Samal 1776. aastal ilmus pealegi veel üks raamat, mis väärib ajaloolastelt ehk rohkem kiitust kui Adam Smithi raamat: selle kirjutas Condillac ja selle pealkiri on lihtsalt [*Commerce and Government Considered in Their Mutual Relationship*] (https://archive.org/details/commercegovernme0000cond).
+Enamiku majandusmõtte ajaloolaste jaoks on 1776. aastat tähistab *The Wealth of Nations*, mis rajas majandusteaduse. Äsja lõpetatud viisteist õppetundi, milles me oleme uurinud Prantsuse majandusteadust enne Adam Smithi, piisab, et tõestada selle arusaama ekslikkust. Samal 1776. aastal ilmus pealegi veel üks raamat, mis väärib ajaloolastelt ehk rohkem kiitust kui Adam Smithi raamat: selle kirjutas Condillac ja selle pealkiri on lihtsalt [*Commerce and Government Considered in Their Mutual Relationship*](https://archive.org/details/commercegovernme0000cond).
 
 
 ![image](assets/et/085.webp)
@@ -1498,7 +1498,7 @@ Edaspidi võttis Condorcet' karjäär uue pöörde, kui ta astus majandusdebatti
 Aastatel 1774-1776, Turgot' ministri ajal, tegi Condorcet arvukalt sekkumisi, mida kõiki iseloomustas tema Commitment laissez-faire'ile. Tema teoste hulka kuuluvad *Picardia põllumehe kirjad härra Neckerile*, milles ta kaitseb vabakaubandust; *Monopolid ja monopolid*, milles ta pooldab vaba konkurentsi; *Reflections on Corvées*, milles ta nõuab nende kaotamist; ja *Reflections on the Grain Trade*, milles ta taas kiidab vabakaubandust ja kritiseerib Neckeri raamatut samal teemal.
 
 
-Oma [*Kirjad teraviljakaubanduse kohta*] (https://archive.org/details/bub_gb_hg8jFw-y6bwC) toob Condorcet välja mitu olulist punkti.
+Oma [*Kirjad teraviljakaubanduse kohta*](https://archive.org/details/bub_gb_hg8jFw-y6bwC) toob Condorcet välja mitu olulist punkti.
 
 
 ![image](assets/et/089.webp)

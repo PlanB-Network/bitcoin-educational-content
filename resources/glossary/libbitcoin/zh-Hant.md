@@ -1,5 +1,6 @@
 ---
-term: 萊比特幣
+term: Libbitcoin
+definition: 用於建立 Bitcoin 應用程式的一組模組化 C++ 函式庫。
 ---
 
 一套以 C++ 寫成的函式庫，設計用來建立 Bitcoin 相關的應用程式。Libbitcoin 提供了獨立的基礎來開發行動應用程式、軟體和其他圍繞 Bitcoin 的系統。因此，Libbitcoin 具有模組化的架構。該專案的所有函式庫都是以免費的 AGPL 授權釋出。

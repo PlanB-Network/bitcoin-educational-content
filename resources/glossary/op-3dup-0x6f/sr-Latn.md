@@ -1,5 +1,6 @@
 ---
 term: OP_3DUP (0X6F)
+definition: Opkod koji duplira tri elementa na vrhu steka.
 ---
 
 Duplicira prva tri Elements sa vrha steka, zatim ih postavlja na vrh steka. Na primer, ako je stek:

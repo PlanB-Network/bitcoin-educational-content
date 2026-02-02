@@ -1,5 +1,6 @@
 ---
 term: CISA
+definition: Pendekezo la kiufundi la kuchanganya sahihi za pembejeo zote za muamala kuwa moja, kupunguza saizi na ada.
 ---
 
 Kifupi cha "Ujumlisho wa Sahihi ya Ingizo Mtambuka". Hili ni pendekezo la kiufundi lililoundwa ili kuboresha ukubwa wa miamala ya Bitcoin kwa kupunguza idadi ya sahihi zinazohitajika ili kuzithibitisha.

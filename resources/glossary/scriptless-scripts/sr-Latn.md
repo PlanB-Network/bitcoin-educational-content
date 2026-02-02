@@ -1,5 +1,6 @@
 ---
-term: SCRIPTLESS SCRIPTS
+term: Scriptless scripts
+definition: Pametni ugovori koji se izvršavaju van lanca (off-chain) bez izlaganja logike na Bitcoin blockchain-u.
 ---
 
 Prvobitno razvijen od strane Andrewa Poelstre, ovaj koncept omogućava izvršavanje pametnih ugovora bez eksplicitnog izlaganja logike Contract na Bitcoin Blockchain. Kao što naziv "skriptless skripte" sugeriše, ideja se zasniva na izvršavanju skripti (ili ugovora) bez eksplicitnog korišćenja skripti. Ovi ugovori koriste svojstva Schnorr potpisa, koji omogućavaju korišćenje *Adaptor Potpisa*, posebno za sprovođenje *Atomske Zamene*. Uslovi Contract se primenjuju i izvršavaju off-chain od strane uključenih strana, koje su jedine svesne uslova. Za razliku od tradicionalnih pametnih ugovora, *Skriptless Skripte* minimiziraju svoj otisak na Blockchain, čime se smanjuje trošak operacije. Ovi ugovori su takođe diskretniji od tradicionalnih pametnih ugovora, koji ostavljaju tragove na Blockchain. Tako, oni podsećaju na obične transakcije, što povećava njihov skup anonimnosti.

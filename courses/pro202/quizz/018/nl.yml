@@ -1,0 +1,8 @@
+question: In het DER-coderingsformaat voor ECDSA-handtekeningen, wat is de typische groottestijging van de ruwe handtekeninggegevens naar de uiteindelijke gecodeerde handtekening?
+answer: Van 64 bytes naar ongeveer 71-72 bytes vanwege DER-opmaakoverhead
+wrong_answers:
+  - Van 32 bytes naar ongeveer 64 bytes door codering van R- en S-componenten
+  - Van 64 bytes naar precies 128 bytes door dubbele codering van handtekeningcomponenten
+  - Van 71 bytes naar ongeveer 64 bytes door compressie van de sequentiemarkers
+explanation: |
+  DER codering voegt structurele overhead toe aan ECDSA handtekeningen door sequentie markers (0x30), lengte bytes en component prefixen (0x02). De ruwe ECDSA handtekening bestaat uit twee waarden van 32 bytes (R en S) in totaal 64 bytes, maar DER formatteren breidt dit uit tot ongeveer 71-72 bytes. Deze inefficiëntie was één van de redenen waarom Bitcoin later Schnorr-handtekeningen in Taproot heeft overgenomen, die vaste 64-byte handtekeningen gebruiken zonder coderingsoverhead.

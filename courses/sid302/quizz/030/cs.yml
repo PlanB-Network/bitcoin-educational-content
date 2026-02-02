@@ -1,0 +1,8 @@
+question: Jaký je hlavní účel mechanismu výměny klíčů ECDH v architektuře Liquid Confidential Transactions?
+answer: Umožnit odesílatelům šifrovat množství a typy aktiv pomocí zaslepujícího veřejného klíče příjemce a zároveň generovat ověřitelné důkazy o rozsahu
+wrong_answers:
+  - Vytvoření zabezpečených komunikačních kanálů mezi servery AMP a klienty wallet během procesů autorizace transakcí
+  - Vytvoření sdílených tajemství pro registraci deskriptorů více podpisů mezi peněženkami a infrastrukturou serveru AMP
+  - Ke kryptografickým podpisům generate, které prokazují vlastnictví majetku, aniž by byly odhaleny základní informace o soukromém klíči
+explanation: |
+  Výměna klíčů ECDH (Elliptic Curve Diffie-Hellman) v Liquid's Confidential Transactions konkrétně umožňuje přenosy aktiv se zachováním soukromí tím, že odesílatelům umožňuje šifrovat výstupní hodnoty transakcí pomocí zaslepujícího veřejného klíče příjemce. Tím se vytvoří sdílené tajemství, které může dešifrovat pouze příjemce pomocí svého soukromého zaslepujícího klíče, a současně se generují důkazy o rozsahu, které umožňují ověřovatelům sítě ověřit platnost transakce, aniž by viděli skutečné částky. Ostatní možnosti nesprávně popisují ECDH jako funkci sloužící k zabezpečení komunikace, registraci deskriptorů nebo důkazu vlastnictví, které jsou v ekosystému Liquid řešeny různými kryptografickými mechanismy.

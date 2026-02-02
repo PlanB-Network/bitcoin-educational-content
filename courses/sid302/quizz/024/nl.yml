@@ -1,0 +1,8 @@
+question: Wat is in Liquid's Asset Management Platform (AMP) het primaire technische mechanisme dat single-point-of-failure compliance-acties voorkomt terwijl de wettelijke controle over tokenized activa behouden blijft?
+answer: Autorisatie met meerdere handtekeningen waarbij meerdere partijen nodig zijn om compliance-acties goed te keuren, zoals het bevriezen van fondsen of het opnieuw uitgeven van tokens
+wrong_answers:
+  - Smart contract governance tokens waarmee de gemeenschap kan stemmen over alle nalevingsbeslissingen en handhaving van de regelgeving
+  - Escrow-rekeningen met tijdslot die automatisch nalevingsacties uitvoeren na afloop van vooraf bepaalde wachtperiodes
+  - Cryptografische 'proof-of-stake'-consensus waarbij validators een meerderheidsakkoord moeten bereiken voordat ze een compliance-actie uitvoeren
+explanation: |
+  AMP maakt gebruik van controle met meerdere handtekeningen om ervoor te zorgen dat compliance-acties autorisatie vereisen van meerdere partijen, waardoor wordt voorkomen dat een enkele medewerker eenzijdig handelt. Dit creëert een checks-and-balancesysteem voor gevoelige activiteiten, terwijl het wettelijk toezicht dat vereist is voor institutionele activa behouden blijft. De foute antwoorden beschrijven mechanismen die niet bestaan in AMP of die ongeschikt zouden zijn voor gereguleerde financiële compliance.

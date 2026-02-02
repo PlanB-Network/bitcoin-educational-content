@@ -1,5 +1,6 @@
 ---
-term: PSEUDO-RANDOM
+term: Pseudoslumptalsmässig
+definition: Sekvens av nummer genererad deterministiskt med egenskaper nära slumpmässighet.
 ---
 
 Detta adjektiv används för att beskriva en talföljd som, trots att den är resultatet av en deterministisk process, uppvisar egenskaper som ligger nära egenskaperna hos en idealisk, verkligt slumpmässig talföljd. Begreppet idealisk slumpmässighet innebär en total avsaknad av förutsägbarhet och korrelation mellan på varandra följande Elements. Ett pseudoslumpmässigt tal genereras av en deterministisk algoritm och är därför i teorin helt förutsägbart om man känner till generatorns initiala tillstånd.

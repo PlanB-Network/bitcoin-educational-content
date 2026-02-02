@@ -3,8 +3,8 @@ name: Quelle est votre tendance politique ?
 goal: Comprendre la complexité du spectre politique moderne afin d’identifier sa propre tendance et situer les grandes familles idéologiques au-delà du clivage gauche-droite.
 objectives:
   - Comprendre que la typologie politique est plus nuancée qu'un simple axe gauche/droite
-  - Identifier les deux dimensions principales qui structurent le spectre politique; les thèmes économiques et les thèmes sociétaux
-  - Caractériser les quatre grandes familles politiques, Libertariens, Socialistes, Conservateurs, Centristes
+  - Identifier les deux dimensions principales qui structurent le spectre politique
+  - Caractériser les quatre grandes familles politiques
   - Explorer le positionnement des bitcoiners dans le spectre politique
 
 ---
@@ -173,7 +173,7 @@ Le diagramme représente les libertés économiques  (niveau des impôts, march�
 Ce schéma repose sur l’idée que la majorité des questions politiques peuvent être divisées en deux grandes catégories : économiques et personnelles (ou sociétales).
 
 ### Les libertés économiques
-La catégorie Libertés économiques comprend ce que vous faites en tant que producteur et consommateur — ce que vous pouvez acheter, vendre ou produire. Où vous travaillez, qui vous embauchez ou ce que vous faites avec votre argent.
+La catégorie des libertés économiques comprend ce que vous faites en tant que producteur et consommateur — ce que vous pouvez acheter, vendre ou produire. Où vous travaillez, qui vous embauchez ou ce que vous faites avec votre argent.
 
 Exemples d’activité économique : créer une entreprise ; acheter une maison ; construire un bâtiment ; faire ses courses ; travailler dans un bureau.
 
@@ -189,7 +189,7 @@ Exemples d’activité économique : créer une entreprise ; acheter une maison 
 
 ### Les libertés personnelles et sociétales
 
-La catégorie Libertés personnelles comprend ce que vous faites dans vos relations privées, avec vos opinions et vos croyances. En général, il s’agit de tout ce que vous faites avec votre propre corps et votre esprit.
+La catégorie des libertés personnelles comprend ce que vous faites dans vos relations privées, avec vos opinions et vos croyances. En général, il s’agit de tout ce que vous faites avec votre propre corps et votre esprit.
 
 *Exemples d’activités personnelles :* le mariage ; choisir les livres que vous lisez et les films que vous regardez ; les aliments, les médicaments et les drogues que vous choisissez de consommer ; le sport ; vos choix religieux ; les organisations auxquelles vous adhérez ; les personnes avec lesquelles vous choisissez de vous associer.
 
@@ -205,7 +205,7 @@ La catégorie Libertés personnelles comprend ce que vous faites dans vos relati
 
 ![Libertes Graphique](./assets/fr/012.webp)
 
-## Etes-vous étatiste de droite ou de gauche ?
+## Êtes-vous étatiste de droite ou de gauche ?
 
 <chapterId>06d903fc-9453-47d4-b0b1-38b6b82ccf99</chapterId>
 
@@ -235,7 +235,7 @@ Ainsi, les gens de droite pensent que la moralité personnelle est la chose la p
 
 De son côté, la gauche n’accorde pas beaucoup d’importance aux exigences morales et religieuses traditionnelles. Moins préoccupée par la justice divine, elle se préoccupe surtout de la justice sociale, ou peut-être de l’idée que la justice divine *serait* la justice sociale. Pour elle, la distribution appropriée des récompenses dans la société est considérée comme une question de décision judiciaire ou politique. En conséquence, la gauche politique est hostile à la liberté économique et au marché libre, qui ne semblent pas distribuer les richesses et les récompenses en fonction des besoins  de chacun.
 
-## Etes-vous conservateur culturel ou conservateur politique?
+## Êtes-vous conservateur culturel ou conservateur politique?
 <chapterId>bef3d6f1-390a-472d-8f18-a559d38aea54</chapterId>
 
 ![video](https://www.youtube.com/watch?v=4DDAZGjQk2Q)
@@ -246,7 +246,7 @@ Si on est un conservateur culturel, on est favorable à la famille traditionnell
 
 En revanche le **conservatisme politique** est une manière d’organiser la société selon un ordre fixe. C’est pourquoi les conservateurs sont opposés au progrès. Ils veulent figer la société dans l'état qu'elle a atteint au moment où ils parlent et pensent que tout changement serait pire.
 
-Politiquement les conservateurs culturels rejoignent souvent les rangs du conservatisme politique. Mais c’est n’est pas toujours le cas. Les deux conservatismes ne sont pas nécessairement indissociables. **On peut être conservateur culturel et libertarien.**
+Politiquement, les conservateurs culturels rejoignent souvent les rangs du conservatisme politique. Mais c’est n’est pas toujours le cas. Les deux conservatismes ne sont pas nécessairement indissociables. **On peut être conservateur culturel et libertarien.**
 
 Par exemple, un individu peut défendre des traditions culturelles (comme la famille, la religion ou les coutumes locales) dans sa vie personnelle ou communautaire tout en prônant un gouvernement limité qui n'impose pas ces valeurs par la loi. Ce type de personne pourrait encourager des normes conservatrices par le biais de la persuasion, de l'éducation ou de l'exemple, tout en respectant le droit des autres à vivre différemment, conformément aux principes libertariens.
 
@@ -256,7 +256,7 @@ En pratique, des figures comme Ron Paul ou des penseurs comme Rothbard et Hoppe 
 
 ![Libertes Graphique](./assets/fr/014.webp)
 
-## Etes-vous libéral ou libertarien ?
+## Êtes-vous libéral ou libertarien ?
 <chapterId>d382c40b-78ce-416f-9f63-6ad43768406b</chapterId>
 
 ![video](https://www.youtube.com/watch?v=pPA2uyoaBrE)
@@ -273,9 +273,9 @@ C’est pourquoi, le terme *liberals* est trompeur pour un européen. La politiq
 
 Historiquement, le *liberalism* américain a soutenu un interventionnisme étatique important (le *New Deal* de Franklin Delano Roosevelt et la *Great Society* de Lyndon B. Johnson), y compris la redistribution des richesses et les programmes sociaux. Aux États-Unis, le terme *liberal* est donc associé aux politiques de gauche ou sociales-démocrates, telles que l'assurance maladie publique et les plans publics de lutte contre la pauvreté.
 
-Ainsi les partisans du libéralisme classiques se sont appelés *libertarians* aux Etats-Unis à partir des années soixante pour bien se démarquer des libéraux américains. Ils sont les héritiers du libéralisme classique européen du XIXe siècle.
+Ainsi les partisans du libéralisme classique se sont-ils appelés *libertarians* aux Etats-Unis à partir des années soixante pour bien se démarquer des libéraux américains. Ils sont les héritiers du libéralisme classique européen du XIXe siècle.
 
-## Etes-vous libertarien ou libertaire ?
+## Êtes-vous libertarien ou libertaire ?
 <chapterId>fc761194-249f-4009-a20f-1f98b7226cf2</chapterId>
 
 ![video](https://www.youtube.com/watch?v=qi6HPBmrJkg)
@@ -292,9 +292,9 @@ Les anarchistes socialistes comme Mikhaïl Bakounine et Pierre Kropotkine consid
 
 Un libertaire pourrait militer pour des communes autogérées, des coopératives ou des mouvements anti-hiérarchiques, tout en rejetant l'autorité étatique et les structures capitalistes.
 
-Ils sont pour l’abolition de l’Etat mais ils ont renoncé aux actions violentes contre l’Etat faute d’efficacité. En revanche ils n’ont pas renoncé à l’usage de cette violence contre les entreprises privées. Ils soutiennent les monopoles publics, ils acceptent la théorie de la valeur travail, condamnent le système salarial, et considèrent le profit et les taux d’intérêt comme de l'exploitation. Rares sont les anarchistes de gauche, comme Pierre-Joseph Proudhon, qui militent de manière active contre l'impôt.
+Ils sont pour l’abolition de l’Etat mais ils ont renoncé aux actions violentes contre l’Etat faute d’efficacité. En revanche ils n’ont pas renoncé à l’usage de cette violence contre les entreprises privées. Ils soutiennent les monopoles publics, ils acceptent la théorie de la valeur du travail, condamnent le système salarial, et considèrent le profit et les taux d’intérêts comme de l'exploitation. Rares sont les anarchistes de gauche, comme Pierre-Joseph Proudhon, qui militent de manière active contre l'impôt.
 
-Au contraire pour les libertariens la seule façon d’assurer la liberté individuelle est de garantir la propriété privée. La divergence essentielle entre les libertariens et les libertaires concerne donc la notion de propriété individuelle et de liberté contractuelle. De plus la doctrine des libertariens concernant la violence est défensive : légitime défense et la résistance à l’oppression.
+Au contraire pour les libertariens, la seule façon d’assurer la liberté individuelle est de garantir la propriété privée. La divergence essentielle entre les libertariens et les libertaires concerne donc la notion de propriété individuelle et de liberté contractuelle. De plus, la doctrine des libertariens concernant la violence est défensive : légitime défense et la résistance à l’oppression.
 
 Les libertins quant à eux sont des militants de la liberté sexuelle. Il s’agit moins d’une philosophie politique que d’un mode de vie personnel, fondé sur une morale sans tabou, opposée à la morale bourgeoise. Politiquement ils rejoignent souvent les rangs des anarchistes de gauche, c’est-à-dire des libertaires.
 
@@ -333,7 +333,7 @@ Les chapitres suivants expliquent comment définir les familles politiques de ma
 - **Les libertés :** assez fortes dans le domaine sociétal mais faibles dans le domaine économique.
 - **Valeurs cardinales :** l’égalité, le progrès, la justice sociale, la solidarité.
 - **Philosophie et principes :** Primat de l’organisation collective. Le socialisme est une pratique qui se fonde sur la société considérée comme un tout (holisme) et s'exprime à travers l'État. L'État socialiste veut prendre en charge et diriger au maximum l'activité humaine. Il y a chez les socialistes une foi presque illimitée dans la possibilité de construire un nouvel ordre social fondé sur la raison.
-- **Politique :** Les socialistes prônent des programmes de santé, des hausses d’impôts et des subventions pour garantir l’équité. Cela implique un dirigisme économique et social, la planification (organisation de la production en amont). Hayek parle de constructivisme , c'est-à-dire l'idée que c'est à l'État de construire la société et de lui donner une certaine forme, contrairement à l'ordre libéral où la société se construit d'elle-même (ordre spontané ). Le socialisme le plus radical et abouti est totalitaire, car l'État prend en charge la totalité de l'activité humaine.
+- **Politique :** Les socialistes prônent des programmes de santé, des hausses d’impôts et des subventions pour garantir l’équité. Cela implique un dirigisme économique et social, la planification (organisation de la production en amont). Hayek parle de constructivisme , c'est-à-dire l'idée que c'est à l'État de construire la société et de lui donner une certaine forme, contrairement à l'ordre libéral où la société se construit d'elle-même (ordre spontané). Le socialisme le plus radical et abouti est totalitaire, car l'État prend en charge la totalité de l'activité humaine.
 - **Économie :** Le socialisme implique un contrôle fort de l'État sur l’économie, au profit de l’équité (permettre à chacun de subvenir à ses besoins). Les socialistes se méfient des marchés libres, qu'ils voient comme un système permettant aux forts de s'attaquer aux vulnérables. Ils sont favorables à une redistribution des richesses et à des programmes sociaux centralisés financés par des impôts et des recettes élevés.
 
 **Types de socialistes :**
@@ -434,10 +434,10 @@ Cependant, toutes deux s'accordent sur le principe fondamental de souveraineté 
 Le centrisme reconnaît également l'importance de programmes sociaux ciblés pour corriger les inégalités sans pour autant créer une dépendance excessive à l'État. Ce système de redistribution des richesses vise moins l'égalitarisme dogmatique que la paix sociale et le "vivre-ensemble".
 
 **Types de centristes :** les centristes peuvent pencher vers le socialisme, le conservatisme, le libertarianisme ou l’autoritarisme, non par principe mais par pragmatisme ou opportunisme politique.
-- **Emmanuel Macron (France) :** son positionnement se veut et de droite et de gauche . avec des réformes économiques libérales (droite économique) et un soutien à certaines libertés sociétales (gauche sociale), cherchant une voie médiane.
-- **Tony Blair (UK) :** avec son concept de "Third Way" (Troisième Voie). il a cherché à concilier des politiques de marché avec des objectifs de justice sociale, se démarquant des socialistes traditionnels et des conservateurs.
+- **Emmanuel Macron (France) :** son positionnement se veut et de droite et de gauche avec des réformes économiques libérales (droite économique) et un soutien à certaines libertés sociétales (gauche sociale), cherchant une voie médiane.
+- **Tony Blair (UK) :** avec son concept de "Third Way" (Troisième Voie), il a cherché à concilier des politiques de marché avec des objectifs de justice sociale, se démarquant des socialistes traditionnels et des conservateurs.
 
-Sur un plan économique le keynésianisme est une théorie économique qui prône l'intervention active des gouvernements pour stabiliser l'économie.
+Sur un plan économique, le keynésianisme est une théorie économique qui prône l'intervention active des gouvernements pour stabiliser l'économie.
 
 Plutôt que de laisser les marchés s'autoréguler, Keynes soutenait que l'État devait utiliser des politiques budgétaires et monétaires — telles que les dépenses publiques, la taxation et les taux d'intérêt — pour stimuler la demande globale en période de récession ou la freiner en cas de surchauffe économique.
 
@@ -446,7 +446,7 @@ Keynes ne prônait ni un laissez-faire absolu (comme les pro-marché purs) ni un
 Cette approche représente une "troisième voie" économique, cherchant un équilibre entre le libéralisme classique, qui veut un marché libre, et le socialisme dirigiste, qui veut planifier au maximum.
 Sur le plan philosophique, on peut se référer au très célèbre philosophe politique John Rawls, l’auteur de *Théorie de la justice* (1971).
 
-Ses deux principes de justice (liberté égale pour tous et principe de différence permettant des inégalités uniquement si elles bénéficient aux plus désavantagés) incarnent cette tentative de synthèse entre libéralisme et égalitarisme,
+Ses deux principes de justice (liberté égale pour tous et principe de différence permettant des inégalités uniquement si elles bénéficient aux plus désavantagés) incarnent cette tentative de synthèse entre libéralisme et égalitarisme.
 
 Le concept de **consensus par recoupement** (ou overlapping consensus en anglais) est également central dans la pensée de John Rawls, notamment dans son ouvrage *Libéralisme politique* (1993). Voici une citation qui illustre ce concept :
 
@@ -464,8 +464,8 @@ Il est important de noter ici que le terme totalitarisme fait référence à un 
 ![regimes totalitaires Graphique](./assets/fr/019.webp)
 
 - **Libertés :** les régimes totalitaires soutiennent un contrôle gouvernemental très fort sur la vie personnelle et économique. Il y a totalitarisme quand l’Etat dirige tout dans la société et dispose d’un pouvoir sans limite.
-- **Philosophie :** les totalitaire pensent que l'autorité centralisée est seule à même de garantir l'ordre et l'équité, tandis que la liberté est facteur de désordre. Ils veulent que l'État contrôle tous les aspects de la vie économique et personnelle car ils croient qu'un tel contrôle est plus susceptible de donner naissance à une société idéale. Ce sont des régimes révolutionnaires qui justifient la violence au motif que le système existant avant était entièrement mauvais et qu’il faut instaurer un nouveau modèle par la table rase. Ils ne peuvent tolérer une diversité excessive d’opinions ou toute expression qui remet en question leur autorité. 
-- **Politique :** le totalitarisme désigne un système de parti unique. Selon Hannah Arendt, le totalitarisme n'est pas une famille politique, ni un régime politique despotique. C'est une négation même de la politique : un système dans lequel les hommes sont rendus incapables d'agir de façon indépendante. Selon elle, le but de l’éduction totalitaire n’a jamais été d’inculquer des convictions mais de détruire la faculté d’en former aucune autre (The Origins of Totalitarianism, 1951). En effet, les sociétés totalitaires se distinguent par l'usage d'une idéologie, la promesse d'un *paradis*, comme la fin de l'histoire ou la pureté de la race. Par conséquent elles éliminent toute forme d’opposition grâce à la police politique et l’usage de la terreur. 
+- **Philosophie :** les totalitaires pensent que l'autorité centralisée est seule à même de garantir l'ordre et l'équité, tandis que la liberté est facteur de désordre. Ils veulent que l'État contrôle tous les aspects de la vie économique et personnelle car ils croient qu'un tel contrôle est plus susceptible de donner naissance à une société idéale. Ce sont des régimes révolutionnaires qui justifient la violence au motif que le système existant avant était entièrement mauvais et qu’il faut instaurer un nouveau modèle par la table rase. Ils ne peuvent tolérer une diversité excessive d’opinions ou toute expression qui remet en question leur autorité. 
+- **Politique :** le totalitarisme désigne un système de parti unique. Selon Hannah Arendt, le totalitarisme n'est pas une famille politique, ni un régime politique despotique. C'est une négation même de la politique : un système dans lequel les hommes sont rendus incapables d'agir de façon indépendante. Selon elle, le but de l’éducation totalitaire n’a jamais été d’inculquer des convictions mais de détruire la faculté d’en former aucune autre (The Origins of Totalitarianism, 1951). En effet, les sociétés totalitaires se distinguent par l'usage d'une idéologie, la promesse d'un *paradis*, comme la fin de l'histoire ou la pureté de la race. Par conséquent elles éliminent toute forme d’opposition grâce à la police politique et l’usage de la terreur. 
 - **Economie :** les régimes totalitaires peuvent tolérer l'entreprise privée si elle est contrainte de servir les intérêts de l'État, ou exiger que l'État contrôle tous les moyens de production. Ils considèrent le marché libre comme une menace pour l'ordre général, car les sociétés idéales doivent être planifiées par les autorités.
 
 **Types de régimes totalitaires :** il existe deux catégories générales, les totalitaires de gauche (communisme, national-socialisme), les totalitaires de droite (dictatures militaires, fascisme). Mais ces catégories perdent leur sens si l’on comprend que la matrice est la même. C’est le cas d’Hitler et de Staline. Malgré leur antagonisme historique, on trouve le même culte du chef, l’embrigadement de la jeunesse, la censure, la surveillance, la répression de toute opposition, la persécution politique et l’écrasement de toute liberté individuelle.
@@ -506,7 +506,7 @@ Les questions sociétales ne concernent pas l'argent, mais les choix relatifs à
 
 - **Conservateurs :** Non. L'État a le droit souverain de contrôler ses frontières et de choisir qui entre sur son territoire. Des restrictions peuvent être nécessaires pour protéger la sécurité nationale, l'identité culturelle ou la capacité d'intégration de la société. Ils craignent qu’en permettant l’immigration on détruise l’identité des nations et qu’on fragilise un peu plus le travail des citoyens les plus modestes. Le fait d’avoir des frontières et une population bien définie fait partie des valeurs civilisées.
 
-- **Libertariens :** Oui et non. Oui à l’immigration de marché et non à L'immigration d’Etat. Car dans un monde fortement étatisé, l’immigration est toujours subventionnée et crée un droit fâcheux sur le travail des autres, c’est-à-dire un faux droit, une forme de spoliation. Toutefois, du point de vue de l’axe liberté/coercition, une frontière ouverte donne à l’individu le choix de son gouvernement et la capacité de voter avec ses pieds. C’est pourquoi la meilleure politique d’immigration consisterait à désétatiser la société et à laisser les citoyens décider. 
+- **Libertariens :** Oui et non. Oui à l’immigration de marché et non à l'immigration d’Etat. Car dans un monde fortement étatisé, l’immigration est toujours subventionnée et crée un droit fâcheux sur le travail des autres, c’est-à-dire un faux droit, une forme de spoliation. Toutefois, du point de vue de l’axe liberté/coercition, une frontière ouverte donne à l’individu le choix de son gouvernement et la capacité de voter avec ses pieds. C’est pourquoi la meilleure politique d’immigration consisterait à désétatiser la société et à laisser les citoyens décider. 
 
 - **Centristes :** Le gouvernement doit gérer l'immigration de manière équilibrée. Si les restrictions basées sur la religion sont généralement inacceptables, celles basées sur la nationalité ou les compétences peuvent être nécessaires pour répondre aux besoins économiques et garantir une intégration réussie, tout en respectant les conventions internationales et les droits humains.
 
@@ -528,7 +528,7 @@ Les questions sociétales ne concernent pas l'argent, mais les choix relatifs à
 
 - **Socialistes : Oui.** La pénalisation est inefficace. La légalisation permet de contrôler et générer des revenus.
 - **Conservateurs : Non.** La consommation est nuisible à la santé et à l'ordre social.
-- **Libertariens : Oui** à condition de désétatiser la société. L'État n'a pas à s'immiscer dans les décisions personnelles tant qu'elles ne nuisent pas directement à autrui.
+- **Libertariens : Oui.** À condition de désétatiser la société. L'État n'a pas à s'immiscer dans les décisions personnelles tant qu'elles ne nuisent pas directement à autrui.
 - **Centristes :** Débat complexe. Décriminalisation possible mais régulation stricte impérative.
 
 
@@ -552,7 +552,7 @@ Les questions sociétales ne concernent pas l'argent, mais les choix relatifs à
 
 ![video](https://www.youtube.com/watch?v=8MM2cFzPtRg)
 
-Les questions économiques concernent l'argent, telles que l'emploi, l'achat et la vente, les investissements ou les transactions commerciales. J’ai retenu cinq questions pour exposer les réponses de chaque famille politique. Évidemment, ces réponses rapides n'offrent qu'un aperçu de chaque point de vue.
+Les questions économiques concernent l'argent, l'emploi, l'achat et la vente, les investissements ou les transactions commerciales. J’ai retenu cinq questions pour exposer les réponses de chaque famille politique. Évidemment, ces réponses rapides n'offrent qu'un aperçu de chaque point de vue.
 
 ### Les impôts
 
@@ -595,7 +595,7 @@ Les questions économiques concernent l'argent, telles que l'emploi, l'achat et 
 
 - **Socialistes :** Non. L'État doit imposer des réglementations strictes pour protéger l'environnement et lutter contre le changement climatique. Le marché seul n'est pas capable de résoudre ces problèmes qui nécessitent une action collective et une planification. Les subventions sont considérées comme nécessaires pour assurer la transition écologique. De plus, le libre-échange international doit être régulé pour protéger l'environnement.
 
-- **Conservateurs :.** En principe oui, car la liberté d'entreprendre est importante. Cependant, un certain niveau de réglementation est nécessaire pour protéger l'environnement en tant que patrimoine et ressource, mais sans étouffer l'économie.
+- **Conservateurs :** En principe oui, car la liberté d'entreprendre est importante. Cependant, un certain niveau de réglementation est nécessaire pour protéger l'environnement en tant que patrimoine et ressource, mais sans étouffer l'économie.
 
 - **Libertariens :** Oui. Les réglementations environnementales sont des entraves à la liberté économique et à la propriété. Ils estiment que la meilleure façon de protéger l'environnement est de le faire via la propriété privée et non par l'intermédiaire d'organisations bureaucratiques. Ils ajoutent que les propriétaires sont plus susceptibles de prendre soin de leurs biens, car ils ont un intérêt direct à en préserver la valeur. Les problèmes environnementaux peuvent être résolus par le marché, la responsabilité individuelle et les droits de propriété. Ainsi les pollueurs doivent être tenus responsables des dommages qu'ils causent à l'environnement. 
 
@@ -623,7 +623,7 @@ Les questions économiques concernent l'argent, telles que l'emploi, l'achat et 
 
 ![video](https://www.youtube.com/watch?v=Qznu_mAOji8)
 
-Si on compare entre elles les familles politiques, nous voyons apparaitre des rapprochements possibles mais aussi des points d’incompatibilité. C’est particulièrement le cas quand on compare les libertariens aux autres profils idéologiques.  Nous allons analyser ces divergences à partir de quelques concepts philosophiques.
+Si on compare entre elles les familles politiques, nous voyons apparaître des rapprochements possibles mais aussi des points d’incompatibilité. C’est particulièrement le cas quand on compare les libertariens aux autres profils idéologiques. Nous allons analyser ces divergences à partir de quelques concepts philosophiques.
 
 ### La liberté : principe ou opportunité ?
 
@@ -670,9 +670,9 @@ Les langues, par exemple ou les coutumes, sont des choses créées par l'homme. 
 >
 >F. Hayek, L’utilisation de la connaissance dans la société, 1945
 
-Le marché est un outil de coopération car il permet de s’informer sur l’état réel des besoins et des compétences. C’est est une procédure de découverte d'informations et de mobilisation de connaissances dispersées sur la valeur et les besoins. En effet le marché est la rencontre des préférences individuelles conduisant à la formation des prix. Le système des prix est donc un mécanisme qui émerge spontanément des contrats pour coordonner les échanges. Ainsi les prix, quand ils sont librement débattus, sont le miroir la diversité des avis et des préférences des consommateurs.
+Le marché est un outil de coopération car il permet de s’informer sur l’état réel des besoins et des compétences. C’est est une procédure de découverte d'informations et de mobilisation de connaissances dispersées sur la valeur et les besoins. En effet le marché est la rencontre des préférences individuelles conduisant à la formation des prix. Le système des prix est donc un mécanisme qui émerge spontanément des contrats pour coordonner les échanges. Ainsi les prix, quand ils sont librement débattus, sont le miroir de la diversité des avis et des préférences des consommateurs.
 
-Seuls les individus sont capables de savoir les coûts et bénéfices d'un bien car ils sont subjectifs. Au contraire, dans un système centralisé et planifié, l’État fixe les prix mais comme il ne connaît qu'une partie des préférences des consommateurs et des spécificités locales, il fausse le marché. Seul un système d’échanges décentralisé, avec des prix librement négociés peut fait surgir cette connaissance dispersée.
+Seuls les individus sont capables de savoir les coûts et bénéfices d'un bien car ils sont subjectifs. Au contraire, dans un système centralisé et planifié, l’État fixe les prix mais comme il ne connaît qu'une partie des préférences des consommateurs et des spécificités locales, il fausse le marché. Seul un système d’échanges décentralisé, avec des prix librement négociés peut faire surgir cette connaissance dispersée.
 
 Les libertariens s’opposent donc à la fois aux socialistes et aux conservateurs, c’est-à-dire à deux catégories de constructivistes : les socialistes veulent réformer la société, les conservateurs veulent la maintenir dans l’état où elle se trouve. Il y a donc des constructivistes de gauche et des constructivistes de droite.
 
@@ -680,7 +680,7 @@ Les libertariens s’opposent donc à la fois aux socialistes et aux conservateu
 **La politique ou le marché ?**
 Les constructivistes, centristes, conservateurs et socialistes se rejoignent donc sur un point clé : ils jugent le processus politique plus efficace que le processus de marché. 
 
-- Par processus politique j’entends ici la capacité d’un gouvernement central à créer par la force de la loi un ordre social à la fois juste et stable pour le plus grand nombre. 
+- Par processus politique, j’entends ici la capacité d’un gouvernement central à créer par la force de la loi un ordre social à la fois juste et stable pour le plus grand nombre. 
 
 - Et par processus de marché, j’entends l’échange libre et volontaire comme mode d’interaction et mécanisme de coopération. 
 
@@ -701,11 +701,11 @@ Pour les libertariens la vraie régulation de la société n’est pas la démoc
 ![video](https://www.youtube.com/watch?v=PsEfNf5xHdk)
 
 L'individualisme et le collectivisme représentent deux visions fondamentalement opposées de la relation entre l'individu et la société. 
-L’économiste autrichien Ludwig von Mises avait l’habitude de dire : Seul l’individu pense, seul il raisonne, seul il agit.
+L’économiste autrichien Ludwig Von Mises avait l’habitude de dire : Seul l’individu pense, seul il raisonne, seul il agit.
 
 Il en résulte qu’une collectivité n'a pas d'existence ni de réalité, autre que les actions des individus qui en sont membres. La société n’a pas de volonté ni de pensée. Toutes les actions collectives doivent être expliquées à partir de leurs composants individuels. On ne saurait parler de *l’action de l’Etat, d’un pays ou d’une entreprise, d’un syndicat* : ce sont toujours des individus qui agissent.
 
-Tout corps social n'existe donc que par l'intermédiaire de ceux qui s'en réclament dans leurs actions. Si nul individu ne s'en réclamait il cesserait d'exister. De même une langue n'existe qu'à partir des individus qui la parlent. S’ils cessent de la parler, elle cesse d'exister.
+Tout corps social n'existe donc que par l'intermédiaire de ceux qui s'en réclament dans leurs actions. Si nul individu ne s'en réclamait, il cesserait d'exister. De même une langue n'existe qu'à partir des individus qui la parlent. S’ils cessent de la parler, elle cesse d'exister.
 
 D’un point de vue éthique et juridique, l’individu est le seul agent moral. Il n’y a pas d'autre référence que celui-ci pour définir le bien et le mal. Les notions de bien et de mal, de droits et de devoirs, n’ont de sens que pour des personnes singulières, non pour des collectivités, des pays et encore moins pour des animaux.
 
@@ -713,7 +713,7 @@ Le principe anthropologique fondamental à la base de cet individualisme bien co
 
 Cette injonction, initialement issue d'une épître de Horace publiée vingt ans avant notre ère, a été reprise et popularisée par Emmanuel Kant dans son essai *Qu'est-ce que les* Lumières ? publié en 1784. Pour Kant, cette phrase constitue la devise des Lumières, symbolisant la sortie de l'homme de sa minorité, un état d'incapacité à utiliser son entendement sans la direction d'autrui, dont il est lui-même responsable, par paresse et lâcheté.
 
-L'être humain n'est pas ni un simple animal, ni un esclave. Il s’appartient à lui-même et il est doué de volonté libre, d’une capacité de choix éclairé par sa raison. En bref, l'être humain est une fin en soi et non un moyen pour les autres. C’est ce qui fait sa dignité morale. 
+L'être humain n'est pas ni un simple animal, ni un esclave. Il s’appartient à lui-même et il est doué de volonté libre, d’une capacité de choix éclairée par sa raison. En bref, l'être humain est une fin en soi et non un moyen pour les autres. C’est ce qui fait sa dignité morale. 
 
 Mais en autonomisant ainsi les êtres humains, l’individualisme peut toutefois sembler à beaucoup une expérience angoissante. Sommes-nous prêts à prendre la responsabilité de notre vie ?
 
@@ -721,13 +721,13 @@ Le collectivisme, économique ou politique, est une philosophie qui compte sur u
 
 Le collectivisme place ainsi la collectivité, qu'elle soit nationale, culturelle ou religieuse, au premier plan, considérant les individus comme des moyens pour renforcer et assurer la perpétuité de cette entité suprême. Les objectifs de la collectivité, que ce soit la nation, l’Etat ou l’Eglise, sont supérieurs aux buts de l’individu. Dans cette perspective, les institutions ont une fonction prioritaire de servir la société, même au détriment des individus.
 
-Pour Karl Max : *ce n'est pas la conscience des hommes qui détermine leur existence, c'est au contraire leur existence sociale qui détermine leur conscience*. Marx souligne par-là que l'individu est profondément ancré dans la réalité sociale et que sa conscience est déterminée par cette réalité. Autrement dit, l'individu n'a de réalité qu'en tant qu'il est membre de la société et son existence individuelle n'a de sens que dans le cadre de la lutte des classes pour le bien commun.
+Pour Karl Marx : *ce n'est pas la conscience des hommes qui détermine leur existence, c'est au contraire leur existence sociale qui détermine leur conscience*. Marx souligne par là que l'individu est profondément ancré dans la réalité sociale et que sa conscience est déterminée par cette réalité. Autrement dit, l'individu n'a de réalité qu'en tant qu'il est membre de la société et son existence individuelle n'a de sens que dans le cadre de la lutte des classes pour le bien commun.
 
 Selon Mises : *Il n’existe pas une idéologie collectiviste uniforme, mais de nombreuses doctrines collectivistes. Chacune exalte une entité collective différente et exige que tous les gens honnêtes s’y soumettent. Chaque secte vénère sa propre idole et est intolérante envers les idoles rivales.*(Théorie et Histoire).
 
-Il y a ainsi pour Mises des collectivismes de droite et de gauche. Le national-socialisme, avec le fascisme de Mussolini, sont des collectivismes de droite. Le communisme et le socialisme sont des collectivismes de gauche. Pour lui il n’y a pas de grande différence entre le nazisme d’Hitler et le communisme de Staline. Même si les motivations sont différentes, dans les deux cas on retrouve une haine de la liberté individuelle et une justification de la violence. 
+Il y a ainsi pour Mises des collectivismes de droite et de gauche. Le national-socialisme, avec le fascisme de Mussolini, sont des collectivismes de droite. Le communisme et le socialisme sont des collectivismes de gauche. Pour lui, il n’y a pas de grande différence entre le nazisme d’Hitler et le communisme de Staline. Même si les motivations sont différentes, dans les deux cas on retrouve une haine de la liberté individuelle et une justification de la violence. 
 
-A partir de cette distinction, on peut analyser les familles politiques de la manière suivante : 
+À partir de cette distinction, on peut analyser les familles politiques de la manière suivante : 
 *Deux conceptions opposées de la société resteront toujours inconciliables : la conception individualiste - pour laquelle l'homme est un être de raison et de liberté, capable d'organiser lui-même ses rapports avec les autres hommes - et la conception collectiviste, d'après laquelle la **société** existe indépendamment des hommes qui la composent, de leurs désirs, de leurs volontés. La conception collectiviste a connu certaines de ses concrétisations les plus monstrueuses dans le totalitarisme marxiste, mais, malgré les apparences, c'est aussi à elle que se rattache la social-démocratie.* Pascal Salin, Libéralisme.
 
 De façon similaire, dans son ouvrage La Société ouverte et ses ennemis (1945), le philosophe Karl Popper écrivait : *J'appelle société close la société magique ou tribale, et société ouverte, celle où les individus sont confrontés à des décisions personnelles.* (Tome I, p.199). 
@@ -735,7 +735,7 @@ Selon Karl Popper, la société ouverte et la société close sont des concepts 
   -	La société close est une société qui refuse par principe la liberté critique des individus, les échanges avec l'extérieur, les progrès et la diversité qui en résultent. C’est un modèle sociétal ancré dans une mentalité collective qui craint le changement, rejette la critique et la responsabilité individuelle, et idéalise un ordre statique et harmonieux, souvent tribal.
   -	La société ouverte est caractérisée par l'aptitude de l'homme à exercer un jugement critique, à pratiquer une responsabilité individuelle. Avec elle s'impose donc un nouveau principe d'organisation sociale fondé sur le primat de la responsabilité, du libre choix de ses valeurs, de ses croyances, de ses échanges et de ses relations, dans le cadre de règles abstraites de juste conduite.
 
-Le totalitarisme est la forme politique que prend cette société close lorsqu'elle est mise en œuvre de manière radicale et moderne, en s'appuyant sur une idéologie de certitude et en utilisant des mécanismes de contrôle étatique (censure, propagande, culte du leader) pour imposer une stabilité forcée, au détriment des libertés individuelles et de la pensée critique. Son obsession c’est la perpétuation de son ordre hiérarchisé, et la soumission à ses traditions immuables, à ses croyances collectives. Dans ces sociétés, le contrôle social prend la forme d'une constante et étroite surveillance mutuelle tandis que l'individu n’existe pas en tant que tel, la communauté le surplombe et l'englobe tout entière.
+Le totalitarisme est la forme politique que prend cette société close lorsqu'elle est mise en œuvre de manière radicale et moderne, en s'appuyant sur une idéologie de certitude et en utilisant des mécanismes de contrôle étatique (censure, propagande, culte du leader) pour imposer une stabilité forcée, au détriment des libertés individuelles et de la pensée critique. Son obsession, c’est la perpétuation de son ordre hiérarchisé et la soumission à ses traditions immuables, à ses croyances collectives. Dans ces sociétés, le contrôle social prend la forme d'une constante et étroite surveillance mutuelle tandis que l'individu n’existe pas en tant que tel, la communauté le surplombe et l'englobe tout entière.
 La différence principale entre les deux modèles de société réside dans l'attitude face à la connaissance, au changement et à l'organisation politique : 
 
 - La société ouverte est dynamique, critique et axée sur la liberté individuelle et la possibilité de réformer des normes.
@@ -758,7 +758,7 @@ Au terme de ce cours, il nous parait essentiel d’aborder la question du positi
 
 ### Bitcoin est-il un projet politique ?
 
-Bitcoin est une cryptomonnaie décentralisée, créée par Satoshi Nakamoto en 2008, qui permet des transactions financières sans tiers de confiance, de pair à pair. 
+Bitcoin est une cryptomonnaie décentralisée, créée par Satoshi Nakamoto en 2008, qui permet des transactions financières sans tiers, de confiance, de pair à pair. 
 Bitcoin est contrôlé par un protocole logiciel open source, sans CEO, sans siège social, sans budget marketing, sans autorité désignée. Ce qui signifie qu'aucune entité politique ou gouvernement n'en a le contrôle.
 
 Cette neutralité est déconcertante pour certains et peut laisser penser qu’il s’agit d’une technologie apolitique, comme l’Internet au XXe siècle ou l’imprimerie au XIVe siècle.
@@ -767,7 +767,7 @@ Si Bitcoin en lui-même n’est ni de droite, ni de gauche, ni d’aucune religi
 
 ![Bitcoin Whitepaper Abstract](./assets/fr/020.webp)
 
-A la lecture du White Paper de Satoshi Nakamoto, on voit que Bitcoin a été pensé pour offrir une protection novatrice face à deux menaces contemporaines majeures : la surveillance généralisée et l'accélération de la création monétaire artificielle.
+À la lecture du White Paper de Satoshi Nakamoto, on voit que Bitcoin a été pensé pour offrir une protection novatrice face à deux menaces contemporaines majeures : la surveillance généralisée et l'accélération de la création monétaire artificielle.
 
 1. Bien que n'étant pas totalement anonyme, Bitcoin renforce considérablement la protection de la vie privée en limitant la surveillance financière des individus. Cette capacité permet, par exemple, à un dissident dans une dictature de détenir et d'échanger de la valeur en ligne sans craindre la confiscation ou la censure. Bien que cela puisse sembler lointain pour les citoyens des démocraties, il s'agit d'une avancée cruciale pour les libertés individuelles.
 
@@ -793,7 +793,7 @@ Quand l'État impose un contrôle strict sur toutes les transactions (notamment 
 
 Or Bitcoin a été conçu pour fonctionner sans l'intervention des banques centrales ni d'autres intermédiaires financiers contrôlés par l’Etat. Par sa nature décentralisée, pseudonyme et sa résistance à la manipulation, il pourrait affaiblir les fondements de l'État-providence en réduisant son contrôle sur la monnaie, l'impôt, et le système financier.
 
-Ainsi l’une des propriétés essentielles de Bitcoin c’est la capacité à posséder soi-même. Dans le monde de la finance traditionnelle, on ne peut pas posséder soi-même. Ce sont toujours des créances chez des intermédiaires financiers, qui veulent bien nous laisser accès à un compte.
+Ainsi l’une des propriétés essentielles de Bitcoin, c’est la capacité à posséder soi-même. Dans le monde de la finance traditionnelle, on ne peut pas posséder soi-même. Ce sont toujours des créances chez des intermédiaires financiers, qui veulent bien nous laisser accès à un compte.
 
 Bitcoin a été conçu pour limiter le pouvoir des gouvernements sur la monnaie.
 Il empêche d'utiliser la monnaie à des fins politiques comme : la dépense publique, les guerres, le formatage idéologique, le contrôle des opinions. 
@@ -842,7 +842,7 @@ Ils prônent un modèle où la confiance est placée dans des systèmes cryptogr
 
 #### La méthode des cypherpunks
 
-> Les Cypherpunks écrivent du code
+> Les Cypherpunks écrivent du code,
 
 proclame Éric Hughes en conclusion de son manifeste.
 
@@ -867,7 +867,7 @@ De ce point de vue, sans se revendiquer explicitement d'un camp politique, Bitco
 
 Dans ce cours, j’ai essayé de montrer que le véritable clivage n'est pas entre la gauche, la droite ou le centre, qui ont tous assumé un postulat étatiste. Finalement, on trouve dans toutes les familles politiques classiques une défiance commune envers le marché libre et un penchant pour l'interventionnisme étatique.
 
-Mais qu’en est-il alors de ceux qui veulent moins d’Etat et moins de centralisation. Les utilisateurs de Bitcoin par exemple, qui veulent mettre fin au monopole de la création monétaire. Comment les placer dans ce spectre politique ?
+Mais, qu’en est-il alors de ceux qui veulent moins d’Etat et moins de centralisation ? Les utilisateurs de Bitcoin par exemple, qui veulent mettre fin au monopole de la création monétaire. Comment les placer dans ce spectre politique ?
 En fait, le vrai clivage politique est à chercher du côté des principes philosophiques fondamentaux : la liberté ou la coercition, le consentement volontaire ou la contrainte, l’individu responsable ou la collectivité. 
 
 La bonne façon de penser la politique est de partir des principes éthiques plutôt que des étiquettes.
@@ -899,7 +899,7 @@ La monnaie d'État, ou monnaie fiat, est un système coercitif et centralisé, f
 
 Ainsi Bitcoin, grâce à son offre fixe et sa nature décentralisée, représente la forme de monnaie la plus saine jamais inventée, offrant une alternative potentielle à l'expansion du pouvoir étatique et au financement illimité des guerres.
 
-Finalement Bitcoin n'est pas un projet politique classique, au sens d'une initiative étatique ou coercitive. C'est une technologie qui permet aux individus de décider par eux-mêmes, ce qui a, paradoxalement, des conséquences politiques profondes en limitant les pouvoirs centralisés et dominateurs.
+Finalement, Bitcoin n'est pas un projet politique classique, au sens d'une initiative étatique ou coercitive. C'est une technologie qui permet aux individus de décider par eux-mêmes, ce qui a, paradoxalement, des conséquences politiques profondes en limitant les pouvoirs centralisés et dominateurs.
 
 ![Leonard Read Quote](./assets/fr/025.webp)
 

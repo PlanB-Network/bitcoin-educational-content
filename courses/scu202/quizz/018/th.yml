@@ -1,0 +1,9 @@
+question: ตัวจัดการแพ็กเกจที่ใช้โดย Debian และ Ubuntu คืออะไร?
+answer: APT
+wrong_answers:
+  - RPM
+  - แพคแมน
+  - Zypper
+explanation: |
+  Debian และ Ubuntu ใช้ตัวจัดการแพ็กเกจ APT ซึ่งอิงตามรูปแบบ .deb ในการจัดการการติดตั้งและอัปเดตซอฟต์แวร์
+reviewed: false

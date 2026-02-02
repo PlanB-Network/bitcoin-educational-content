@@ -1,5 +1,6 @@
 ---
-term: FPPS (UMUGAMBI WOSE KU MUGAMBI)
+term: Fpps (full pay per share)
+definition: Uburyo bwo guha agashimwe k'ubucukuzi burimwo imigabane n'igice c'amahera y'ivunjisha.
 ---
 
 Uburyo bwo kubara indishi y’abacukuzi mu bidengeri vya Mining. Ni ugutera imbere kw’uburyo bwa PPS (*Pay Per Share*). Ntiriha gusa abacukuzi b’amabuye y’agaciro ku mugabane wose ubereye batanga ariko kandi harimwo n’igice c’impera z’amabuye. Ivyo bihembo biharurwa bishingiye ku giciro c'ibikorwa vya kera n'igiciro ca Hashrate c'ikidengeri. Gutyo, abacukuzi b’amabuye y’agaciro bararonka impembo ku migabane bashikirije, haba habonetse ububiko canke butabonetse, ariko ubwo buryo burasubiza kandi agaciro bari biteze. Itanga indishi ihamye kandi ishobora gutegekanirwa ku bacukuzi, kuko ikuraho itandukaniro rijanye n’ubushobozi bwo kuronka ububiko, mu gihe ibashira mu guhinduka kw’amahera y’isoko. Ariko rero, biratera ingorane ku bakoresha amazi y’ibidengeri, kuko bategerezwa kuriha abacukuzi b’amabuye y’agaciro n’igihe ata bubiko buboneka, gutyo bagafata ingorane z’uguhinduka.

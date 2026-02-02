@@ -39,7 +39,7 @@ Cliquez sur Install. Umbrel vérifie automatiquement que Bitcoin Core et LND son
 
 ![Dépendances requises pour BTCPay Server](assets/fr/02.webp)
 
-Une fois installé, ouvrez l'application. Vous devez créer un compte administrateur avec des identifiants robustes.
+Une fois installée, ouvrez l'application. Vous devez créer un compte administrateur avec des identifiants robustes.
 
 ![Création du compte administrateur BTCPay Server](assets/fr/03.webp)
 

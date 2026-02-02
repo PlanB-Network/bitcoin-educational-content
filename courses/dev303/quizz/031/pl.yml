@@ -1,0 +1,8 @@
+question: Jaki typ błędu powinien wywołać panikę w programach Rust?
+answer: Nienaprawialne błędy wskazujące na błędy logiki programowania lub niebezpieczne stany
+wrong_answers:
+  - Awarie połączenia sieciowego lub błędy przekroczenia limitu czasu z usług zewnętrznych
+  - Nieprawidłowe dane wprowadzone przez użytkownika lub brakujące pliki konfiguracyjne
+  - Błędy nieodnalezienia pliku lub wyjątki odmowy uprawnień
+explanation: |
+  Paniki powinny być zarezerwowane dla nienaprawialnych błędów, które reprezentują błędy programistyczne lub sytuacje, w których program wszedł w niebezpieczny stan, taki jak naruszenie granic tablicy lub problemy z bezpieczeństwem pamięci. Wszystkie błędne odpowiedzi opisują błędy możliwe do odzyskania - awarie sieci, problemy z wprowadzaniem danych przez użytkownika i problemy z systemem plików to oczekiwane warunki, z którymi programy powinny sobie radzić z wdziękiem przy użyciu typów wyników, a nie zawieszać się. Te możliwe do odzyskania błędy pozwalają programom kontynuować działanie poprzez wdrożenie odpowiednich strategii obsługi błędów.

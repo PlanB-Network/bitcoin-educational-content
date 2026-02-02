@@ -1,0 +1,8 @@
+question: Welke wiskundige eigenschap maakt het rekenkundig onuitvoerbaar om de bewerking k-P op een elliptische kromme om te keren?
+answer: Het discrete logaritmeprobleem
+wrong_answers:
+  - De modulaire aritmetiek van het eindige veld
+  - De punt op oneindig-eigenschap
+  - De krommevergelijking y² = x³ + 7
+explanation: |
+  Het discrete logaritme probleem is de wiskundige basis die elliptische curve cryptografie veilig maakt. Terwijl het berekenen van k-P (scalaire vermenigvuldiging) rekenkundig eenvoudig is, is het vinden van k wanneer P en k-P gegeven worden extreem moeilijk - dit staat bekend als het elliptische kromme discrete logaritme probleem. De andere opties zijn belangrijke wiskundige componenten, maar bieden niet de veiligheidsbarrière: eindige veld rekenkunde maakt de bewerkingen mogelijk, het punt op oneindig dient als identiteitselement en de krommevergelijking definieert de structuur, maar geen van deze creëert de computationele oneindigheid die de cryptografische veiligheid van Bitcoin beschermt.

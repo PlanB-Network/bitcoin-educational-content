@@ -1,5 +1,6 @@
 ---
-term: 覆蓋
+term: 層
+definition: 構建在 Bitcoin 之上的協議，用於擴充其功能，例如 Lightning Network。
 ---
 
 建立在主 Bitcoin 網路之上的通訊協定或網路。它使用 Bitcoin 網路作為基礎，因此依賴於其通訊協定。但是，Bitcoin 網路並不依賴其覆蓋。Lightning Network 就是這樣一個覆蓋的例子。

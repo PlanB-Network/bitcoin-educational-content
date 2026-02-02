@@ -1,6 +1,7 @@
 ---
-term: LUCK
+term: Luck
 
+definition: Indikaattori, joka mittaa louhintapoolin suorituskykyä suhteessa teoreettisiin odotuksiin.
 ---
 Indikaattori, jota käytetään kaivospooleissa mittaamaan poolin suorituskykyä suhteessa sen teoreettisiin odotuksiin. Kuten nimestä voi päätellä, sillä arvioidaan poolin onnea lohkojen löytämisessä. Onnellisuus lasketaan vertaamalla kelvollisen lohkon löytämiseen teoreettisesti tarvittavien osakkeiden määrää Bitcoinin nykyisen vaikeusasteen perusteella lohkon löytämiseksi tuotettujen osakkeiden todelliseen määrään. Odotettua alhaisempi osakkeiden määrä tarkoittaa hyvää onnea, kun taas korkeampi määrä tarkoittaa huonoa onnea.
 

@@ -1,0 +1,8 @@
+question: Hva skjer når entreprenører for tidlig forutser forbrukernes etterspørsel etter en innovasjon som ennå ikke finnes, ifølge frimarkedsøkonomisk teori?
+answer: Fraværet av fortjeneste avskrekker dem naturligvis fra å fortsette og hindrer andre i å følge deres eksempel
+wrong_answers:
+  - Myndighetene griper inn og omdirigerer innsatsen deres mot mer samfunnsnyttige prosjekter gjennom subsidier
+  - De fortsetter å investere til forbrukernes preferanser til slutt stemmer overens med de opprinnelige spådommene
+  - Markedsreguleringer tvinger dem til å legge ned prosjektene sine for å unngå økonomisk sløsing
+explanation: |
+  I et fritt markedssystem fungerer profitt som et viktig signal om forbrukernes reelle etterspørsel. Når entreprenører feilbedømmer markedstimingen og forventer en etterspørsel som ikke finnes, mislykkes de i å oppnå generate-profitt, noe som naturlig nok motvirker videre investeringer i den retningen. Denne selvkorrigerende mekanismen forhindrer at ressurser sløses bort på for tidlig innovasjon. De andre alternativene antyder feilaktig ekstern inngripen eller vedvarende investeringer til tross for markedssignaler, noe som er i strid med kapitlets vektlegging av hvordan profittsignaler styrer rasjonelle økonomiske beslutninger.

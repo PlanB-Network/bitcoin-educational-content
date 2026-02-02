@@ -1,5 +1,6 @@
 ---
-term: UNIX TID
+term: Unixtid
+definition: Antal sekunder som förflutit sedan den 1 januari 1970 vid midnatt UTC, används för tidshantering på Bitcoin.
 ---
 
 Unix Time eller Unix Timestamp representerar antalet sekunder som har förflutit sedan den 1 januari 1970 vid midnatt UTC (Unix Epoch). Detta system används i Unix operativsystem och derivat för att markera tid på ett universellt och standardiserat sätt. Det möjliggör synkronisering av klockor och hantering av tidsbaserade händelser, oberoende av tidszoner.

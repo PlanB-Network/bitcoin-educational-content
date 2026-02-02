@@ -11,7 +11,7 @@ objectives:
 
 Šta je potrebno da biste gradili na Bitcoinu? Ovaj 20-časovni kurs vas vodi ispod površine Bitcoina i Lightning mreže, istražujući protokole koji pokreću najotporniju finansijsku infrastrukturu na svetu. Bilo da želite da doprinosite open-source projektima ili da gradite novu generaciju Bitcoin aplikacija, steći ćete tehničku dubinu potrebnu da počnete da radite sa samopouzdanjem u ovom ekosistemu.
 
-Snimljen tokom CUBO+ 2023 bootcamp-a u El Salvadoru, ovaj kurs okuplja perspektive vodećih Bitcoin programera i edukatora koji su oblikovali tehnologiju. Najbolji deo? Potpuno je besplatan, omogućen zahvaljujući Fulgure Venture, Bitcoin Office i DecouvreBitcoin. Ako ste bili radoznali o tome kako Bitcoin zaista funkcioniše na nivou protokola, ovo je vaša prilika da saznate.
+Snimljen tokom CUBO+ 2023 bootcamp-a u El Salvadoru, ovaj kurs okuplja perspektive vodećih Bitcoin programera i edukatora koji su oblikovali tehnologiju. Najbolji deo? Potpuno je besplatan, omogućen zahvaljujući Fulgure Ventures, Bitcoin Office i DecouvreBitcoin. Ako ste bili radoznali o tome kako Bitcoin zaista funkcioniše na nivou protokola, ovo je vaša prilika da saznate.
 +++
 # Uvodni i pripremni kursevi
 
@@ -59,7 +59,7 @@ Tokom kursa, učesnici će koristiti ključne alate koji će im pomoći u razume
 
 :::video id=ff820fb2-83d4-450f-bda0-17cc5044a902:::
 
-Dobrodošli na prvo predavanje obrazovnog programa **Cubo Plus**. Danas zaranjamo u svet Bitcoin, pod vođstvom Rikija, osnivača **Bitcoin Italia Podcast**. Riki je strastveni aktivista za ljudska prava koji koristi Bitcoin kao alat za zaštitu i promociju ljudskih prava. Sa više od šest godina iskustva, Riki je mnogo putovao, dokumentujući usvajanje Bitcoin na tržištima u razvoju kao što su El Salvador i Gvatemala. Njegov rad prevazilazi podkasting; takođe je aktivan na YouTube-u (**Bitcoin Explorers**) i Twitter-u (**BTC Explorer**, **Ricky6**). Rikijev prelazak sa Commitment na Bitcoin proizilazi iz njegovog uverenja da nudi finansijsku slobodu i privatnost, izazivajući tradicionalne, centralizovane bankarske sisteme.
+Dobrodošli na prvo predavanje obrazovnog programa **Cubo Plus**. Danas zaranjamo u svet Bitcoin, pod vođstvom Rikija, osnivača **Bitcoin Italia Podcast**. Riki je strastveni aktivista za ljudska prava koji koristi Bitcoin kao alat za zaštitu i promociju ljudskih prava. Sa više od šest godina iskustva, Riki je mnogo putovao, dokumentujući usvajanje Bitcoin na tržištima u razvoju kao što su El Salvador i Gvatemala. Njegov rad prevazilazi podkasting; takođe je aktivan na YouTube-u (**Bitcoin Explorers**) i Twitter-u (**BTC Explorer**, **Rikki6**). Rikijev prelazak sa Commitment na Bitcoin proizilazi iz njegovog uverenja da nudi finansijsku slobodu i privatnost, izazivajući tradicionalne, centralizovane bankarske sisteme.
 
 
 ![Unbanked Population](assets/en/001.webp)
@@ -81,10 +81,10 @@ Ovo predavanje, **"Zašto El Salvador treba Bitcoin,"** pruža pregled **Bitcoin
 - _Finansijska inkluzija:_ Pružanje pristupa finansijskim uslugama ljudima koji su bili isključeni iz tradicionalnih bankarskih sistema, često nazivanih "nebankarizovani."
 - _Necenzurisani novac:_ Novac koji ne može biti kontrolisan ili ograničen od strane vlada ili finansijskih institucija.
 
-#### Rickyjeva pozadina i zagovaranje Bitcoin
+#### Rikkijeva pozadina i zagovaranje Bitcoin
 
 
-Rickyjevo putovanje u Bitcoin ukorenjeno je u njegovom radu kao zagovornika ljudskih prava. Veruje da Bitcoin može omogućiti pojedincima kontrolu nad njihovim finansijama, omogućavajući im da zaštite svoju privatnost i izbegnu ograničenja centralizovanih banaka. Njegovo istraživanje usvajanja Bitcoin u mestima kao što je El Salvador ističe kako ova tehnologija može osnažiti ljude na tržištima u razvoju da steknu finansijsku nezavisnost.
+Rikkijevo putovanje u Bitcoin ukorenjeno je u njegovom radu kao zagovornika ljudskih prava. Veruje da Bitcoin može omogućiti pojedincima kontrolu nad njihovim finansijama, omogućavajući im da zaštite svoju privatnost i izbegnu ograničenja centralizovanih banaka. Njegovo istraživanje usvajanja Bitcoin u mestima kao što je El Salvador ističe kako ova tehnologija može osnažiti ljude na tržištima u razvoju da steknu finansijsku nezavisnost.
 
 
 ### Globalni značaj i izazovi Bitcoin

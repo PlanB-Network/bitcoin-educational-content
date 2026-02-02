@@ -1,5 +1,6 @@
 ---
-term: Genesis BLOK
+term: Yaratılış bloğu
+definition: Satoshi Nakamoto tarafından 3 Ocak 2009'da oluşturulan Bitcoin sisteminin ilk bloğu.
 ---
 
 Genesis Bloğu, Bitcoin sisteminin ilk bloğudur. Bitcoin'in somut olarak başlatılmasını ifade eder. Genesis Bloğu, Bitcoin'in anonim kurucusu Satoshi Nakamoto tarafından 3 Ocak 2009 tarihinde oluşturulmuştur. Onun Hash'ü:

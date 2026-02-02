@@ -1,5 +1,6 @@
 ---
-term: GUHINDURA AMAFARANGA
+term: Coinswap
+definition: Uburyo bwo guhana itunga rya bitcoin hagati y'abakoresha biciye mu masezerano y'ubwenge.
 ---
 
 Porotokole yo gutanga Ownership mu mpisho hagati y’abakoresha. Ubu buryo bufise intumbero yo gukura ubutunzi bw’ama bitcoins ku muntu umwe bukabujana ku wundi, n’ibihushanye n’ivyo, ata Exchange iboneka neza kuri Blockchain. Coinwap ikoresha amasezerano y’ubwenge kugira ngo ikore iyo nzira ata kwizigirana hagati y’ababiri.

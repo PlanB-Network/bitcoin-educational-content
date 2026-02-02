@@ -1,12 +1,16 @@
 ---
-term: VARSAYIM UTXO
+term: Assume utxo
+definition: Yeni bir düğümün arka planda geçmiş doğrulamadan önce geçerli kabul edilen UTXO setinin bir anlık görüntüsünü kullanarak hızlı bir şekilde senkronize edilmesine izin veren Bitcoin Core parametresi.
 ---
+Bitcoin Core çoğunluk istemcisindeki bir yapılandırma parametresi, yeni başlatılan (ancak henüz IBD yapmamış) bir düğümün, belirli bir anlık görüntüden (snapshot) önceki işlemlerin ve UTXO setinin doğrulamasını ertelemesine olanak tanır. Konsept, Core tarafından sağlanan ve doğru olduğu varsayılan bir UTXO setinin (belirli bir zamanda var olan tüm UTXO'ların listesi) kullanılmasına dayanır ve bu da düğümün en çok birikmiş işe sahip zincirde çok hızlı bir şekilde senkronize olmasını sağlar. Düğüm uzun IBD adımını atladığı için kullanıcısı için çok hızlı bir şekilde işlevsel hale gelir.
 
-Önde gelen Bitcoin core istemcisinde, yeni başlatılmış (ancak henüz IBD'den geçmemiş) bir düğümün işlemlerin ve UTXO setinin doğrulanmasını belirli bir anlık görüntüye kadar ertelemesine olanak tanıyan bir yapılandırma parametresi. Konsept, Çekirdek tarafından sağlanan ve doğru olduğu varsayılan bir UTXO setinin (belirli bir zamanda mevcut tüm UTXO'ların bir listesi) kullanımına dayanır, bu da düğümün en çok birikmiş işe sahip zincirle çok hızlı bir şekilde senkronize edilmesini sağlar. Düğüm uzun IBD adımını atladığından, kullanıcısı için çok hızlı bir şekilde çalışır hale gelir. UTXO'nin senkronizasyonu (IBD) iki kısma ayırdığını varsayalım:
+Assume UTXO senkronizasyonu (IBD) iki parçaya böler: İlk olarak, düğüm Header First Sync (sadece üstbilgi doğrulaması) gerçekleştirir ve Core tarafından kendisine sağlanan UTXO setini geçerli kabul eder; Ardından, işlevsel hale geldiğinde, düğüm arka planda tam blok geçmişini doğrulayacak ve kendisinin doğruladığı yeni bir UTXO setini güncelleyecektir. Eğer bu sonuncu Core tarafından sağlanan UTXO seti ile eşleşmezse, bir hata mesajı verecektir.
+
+Assume UTXO, Core'da sağlanan güncel bir anlık görüntü (snapshot) sayesinde işlemlerin ve UTXO setinin doğrulama sürecini erteleyerek yeni bir Bitcoin düğümünün hazırlığını hızlandırmaya olanak tanır.
 
 
-- İlk olarak, düğüm Header First Sync (yalnızca başlıkların doğrulanması) gerçekleştirir ve Core tarafından sağlanan UTXO setini geçerli olarak kabul eder;
-- Daha sonra, çalışmaya başladığında, düğüm arka planda tüm blok geçmişini doğrulayacak ve kendi doğruladığı yeni bir UTXO setini güncelleyecektir. Bu yeni UTXO seti Core tarafından sağlananla eşleşmezse, bir hata mesajı üretecektir.
 
 
-Bu nedenle, UTXO'nın işlem doğrulama sürecini erteleyerek yeni bir Bitcoin düğümünün hazırlanmasını hızlandırdığını ve UTXO'nın Çekirdek'te sağlanan güncellenmiş bir anlık görüntü aracılığıyla ayarlandığını varsayalım.
+
+
+

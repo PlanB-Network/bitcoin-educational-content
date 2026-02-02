@@ -542,13 +542,14 @@ Joinstr tuottaa tällä hetkellä keskimäärin **2-5 osallistujan** poolit. Nä
 
 
 
-| Aspect | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
+
+| Aspekti | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
 |--------|--------|--------------------|------------|-------------|
-| **Participants par pool** | 50-100 | 5-10 | Variable (P2P) | **2-5** |
-| **Coordinateur** | Centralisé (fermé 2024) | Centralisé (actif) | P2P maker/taker | **Aucun (Nostr)** |
-| **Résistance à la censure** | Faible | Moyenne | Très élevée | **Très élevée** |
-| **Frais de coordination** | Pourcentage | Frais d'entrée | Payés aux makers | **Aucun** |
-| **Discrimination UTXO** | Oui (blacklists) | Non | Non | **Non** |
+| **Osallistujat poolissa** | 50-100 | 5-10 | Muuttuva (P2P) | **2-5** |
+| **Koordinaattori** | Keskitetty (suljettu 2024) | Keskitetty (aktiivinen) | P2P maker/taker | **Ei mitään (Nostr)** |
+| **Sensuuri-vastustus** | Heikko | Keskitaso | Hyvin korkea | **Hyvin korkea** |
+| **Koordinaatiomaksut** | Prosentti | Sisäänpääsymaksu | Maksettu tekijöille | **Ei mitään** |
+| **UTXO-syrjintä** | Kyllä (mustat listat) | Ei | Ei | **Ei** |
 
 💡 **Muut aktiiviset CoinJoin-liuokset** :
 

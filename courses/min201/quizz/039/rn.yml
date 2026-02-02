@@ -1,14 +1,12 @@
-question: Ni igiki gishobora gutera ingorane Mining ku rubuga?
-answer: Iyo ata nkunga ihagije y’amahera, birashobora kugora abacukuzi kubandanya bashigikira iyo nzira .
+question: Ni ibibi ibihe vya mining ku muhora?
+answer: Iyo ata gutera intege mu vy’ubutuunzi bihagije, birashobora kugora abacukuzi kubandanya bashigikira umuhora.
 wrong_answers:
-  - Bishobora gutuma igiciro ca Bitcoin00 kigabanuka.
-  - Bishobora gutuma Hashrate y'urubuga yiyongera .
-  - Bishobora gutuma umubare w'ibihimba bikora mu muhora ugabanuka .
+  - Bishobora gutuma igiciro ca Bitcoin kigabanuka
+  - Bishobora gutuma Hashrate y’urubuga yiyongera 
+  - Bishobora gutuma igiharuro ca node zikora mu muhora zigabanuka 
 explanation: |
-  Mining ku bijanye n’urubuga ni umugambi mwiza cane
-  n'ugutera imbere mu mutekano no mu kwegereza ubutegetsi
-  Bitcoin urusobe rw’ibintu. Ariko rero, ata mahera ahagije .
-  inkurikizi, birashobora kugora abacukuzi kubandanya .
-  gushigikira urubuga, canecane iyo bakorera ku
-  ugutakaza.
+  Gukora mining kugira utange utange umusada mu mutekano no mu kwiragiza 
+  umuhora wa Bitcoin ni igikorwa ciza cane c'ubutwari. Ariko rero, ata nkunga 
+  ihagije y’amafaranga, bishobora kugora aba miners kubandanya bashigikira umuhora,
+  cane cane iyo bakorera mugihombo.
 reviewed: true

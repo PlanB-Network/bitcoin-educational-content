@@ -1,0 +1,8 @@
+question: Koja je osnovna razlika između načina na koji se makroi i funkcije obrađuju u Rust?
+answer: Makroi se proširuju od strane kompajlera u vreme kompajliranja pre nego što kompajliranje počne, dok se funkcije pozivaju u vreme izvršavanja.
+wrong_answers:
+  - Makroi koriste prepoznavanje obrazaca za proveru tipova dok funkcije koriste statičku analizu za validaciju u vreme izvršavanja
+  - Makroi generate optimizovali su kod sklapanja direktno dok funkcije interpretira virtuelna mašina Rust
+  - Makroi se čuvaju u memoriji tokom izvršavanja dok se funkcije učitavaju sa diska kada se pozovu.
+explanation: |
+  Tačan odgovor identifikuje ključnu vremensku razliku: makroi rade tokom kompilacije kroz proširenje koda, dok se funkcije izvršavaju tokom izvođenja programa. Pogrešni odgovori mešaju različite programske koncepte - Rust ne koristi virtuelnu mašinu, i makroi i funkcije prolaze proveru tipa (ali u različitim fazama), i ni funkcije ni makroi se ne učitavaju sa diska tokom izvršenja na opisani način.

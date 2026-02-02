@@ -24,7 +24,7 @@ Es gibt zwei Hauptgründe für die Verwendung eines alternativen Clients wie Kno
 
 ## Wie installiere ich Bitcoin-Knoten?
 
-Gehen Sie auf [die offizielle Bitcoin-Knoten-Website] (https://bitcoinknots.org/#download), um die Version für Ihr Betriebssystem herunterzuladen. Vergessen Sie nicht, den Fingerabdruck und die Signaturen herunterzuladen, um die Software zu verifizieren. Diese Dateien sind auch [im Bitcoin Knots GitHub Repository](https://github.com/bitcoinknots/Bitcoin) verfügbar.
+Gehen Sie auf [die offizielle Bitcoin-Knoten-Website](https://bitcoinknots.org/#download), um die Version für Ihr Betriebssystem herunterzuladen. Vergessen Sie nicht, den Fingerabdruck und die Signaturen herunterzuladen, um die Software zu verifizieren. Diese Dateien sind auch [im Bitcoin Knots GitHub Repository](https://github.com/bitcoinknots/Bitcoin) verfügbar.
 
 ![Image](assets/fr/02.webp)
 
@@ -212,13 +212,14 @@ Vergessen Sie nicht, die Software neu zu starten, nachdem Sie diese Änderungen 
 
 Gehen Sie dann zu Ihrer Portfolioverwaltungssoftware (z. B. Sparrow Wallet oder Liana) und geben Sie den Pfad zu Ihrer Cookie-Datei ein, die sich je nach Betriebssystem normalerweise im selben Ordner wie die `Bitcoin.conf` befindet:
 
-|**macOS**|~/Library/Application Support/Bitcoin|
 
-|---|---|
 
-|**Windows**|%APPDATA%\Bitcoin|
 
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 
@@ -236,13 +237,14 @@ server=1
 
 Nachdem Sie die Datei bearbeitet haben, speichern Sie sie im entsprechenden Ordner Ihres Betriebssystems:
 
+
+
+
+
 |**macOS**|~/Library/Application Support/Bitcoin|
-
 |---|---|
-
 |**Windows**|%APPDATA%\Bitcoin|
-
-|**Linux**|~/.Bitcoin|
+|**Linux**|~/.bitcoin|
 
 Dieser Vorgang kann auch über die Interface-Grafik des Bitcoin-QT durchgeführt werden. Gehen Sie in das Menü "*Einstellungen*", dann "*Optionen...*", und aktivieren Sie die Option "*RPC-Server aktivieren*", indem Sie das entsprechende Kästchen anklicken. Wenn die Datei `Bitcoin.conf` nicht existiert, können Sie sie direkt von diesem Interface aus erstellen, indem Sie auf "*Open Configuration File*" klicken.
 

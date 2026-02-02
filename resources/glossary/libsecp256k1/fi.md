@@ -1,5 +1,6 @@
 ---
 term: LIBSECP256K1
+definition: Kryptografinen C-kirjasto allekirjoituksia ja operaatioita varten Bitcoinin käyttämällä secp256k1-elliptisellä käyrällä.
 ---
 
 Suorituskykyinen ja erittäin turvallinen C-kirjasto digitaalisia allekirjoituksia ja muita kryptografisia alkutekijöitä varten `secp256k1` elliptisellä käyrällä. Koska tätä käyrää ei ole koskaan käytetty laajasti Bitcoin:n ulkopuolella (toisin kuin usein suosittua `secp256r1`-käyrää), tämän kirjaston tarkoituksena on olla kattavin viite sen käytöstä. Libsecp256k1:n kehitys suunnattiin ensisijaisesti Bitcoin:n tarpeisiin, ja muihin sovelluksiin tarkoitettuja ominaisuuksia saatetaan testata tai todentaa vähemmän. Tämän kirjaston asianmukainen käyttö vaatii huolellista huomiota, jotta voidaan varmistaa, että se soveltuu muidenkin sovellusten kuin Bitcoin:n erityistarkoituksiin.

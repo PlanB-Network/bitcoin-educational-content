@@ -1,0 +1,8 @@
+question: Eski Bitcoin işlem doğrulaması neden girdi sayısına göre ikinci dereceden zaman karmaşıklığı sergiliyor?
+answer: Her girdi, işlemdeki tüm girdileri içeren bir yapı üzerinde kendi sighash hesaplamasını gerektirir
+wrong_answers:
+  - Her girdi, işlem içinde double-spending'i önlemek için diğer tüm girdilere karşı imzaları doğrulamalıdır
+  - Yığın tabanlı yürütme modeli, her bir girdi kombinasyonu için işlem kodlarını işlemek üzere iç içe döngüler gerektirir
+  - "Doğru eşleşmeyi bulmak için her girdinin ScriptSig'i her çıktının ScriptPubKey'ine karşı doğrulanmalıdır"
+explanation: |
+  Eski Bitcoin doğrulaması ikinci dereceden karmaşıklık yaratır çünkü her girdinin kendi sighash hesaplamasına ihtiyacı vardır, ancak her hesaplama tüm girdileri içeren bir işlem yapısını işler. N girdi ile bu n×n işlem yaratır. SegWit bunu, sighash hesaplamasının paylaşılan kısımlarını önbelleğe alarak çözdü, karmaşıklığı doğrusal zamana indirdi ve büyük çok girdili işlemlerden kaynaklanan potansiyel hizmet reddi saldırılarını önledi.

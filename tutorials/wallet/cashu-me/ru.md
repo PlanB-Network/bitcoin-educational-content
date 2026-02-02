@@ -215,7 +215,7 @@ Cashu.me интегрируется с [npub.cash](https://npub.cash/), чтоб
 Сначала зайдите в `Настройки` и нажмите `Включить` Молния Address с npub.cash. Это позволит generate создать npub.cash Address, используя по умолчанию строку `npub`, полученную из вашей фразы Wallet seed.
 
 
-Кроме того, посетите [эту страницу] (https://npub.cash/username), чтобы получить имя пользователя, используя свой собственный Nostr `nsec`, и вы получите персонализированный Lightning Address, как на username@npub.cash.
+Кроме того, посетите [эту страницу](https://npub.cash/username), чтобы получить имя пользователя, используя свой собственный Nostr `nsec`, и вы получите персонализированный Lightning Address, как на username@npub.cash.
 
 
 ![image](assets/en/11.webp)

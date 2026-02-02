@@ -1,0 +1,8 @@
+question: Ni igiki kiba ku buzima bwite bw’imiterere y’ugukoresha amahera y’isoko rya P2SH mu gihe c’igihe?
+answer: Ivyo gukoresha amahera biguma vyihishijwe gushika igihe umuntu akoresha amahera ya mbere, hanyuma bikaba bigaragara ubudasiba on-chain.
+wrong_answers:
+  - Ivyo gukoresha amahera biguma ari ivy'ibanga n'inyuma y'aho hakozwe amafaranga menshi
+  - Ivyo gukoresha amahera biraca biboneka iyo aderesi ya P2SH iremewe ubwa mbere .
+  - Ivyo gukoresha amahera biraboneka mu gihe gitoyi mu gihe umuntu akoresha amahera ariko bigasubira guhishwa inyuma y’aho .
+explanation: |
+  P2SH itanga ubuzima bwite mu guhisha ivyangombwa vy’ugukoresha amahera (inyandiko yo gucungura) inyuma y’inyandikoPubKey. Hash y’amabyte 20 gusa ni yo iboneka mu ntango, ihisha nimba ari multisig, timelock, canke ibindi bintu bikomeye. Ariko rero, iyo umusaruro wa P2SH ukoreshejwe ubwa mbere, inyandiko yuzuye y’ugucungura itegerezwa guhishurirwa on-chain kugira ngo yemezwe, bigatuma ivyangombwa vyo gukoresha biboneka ubudasiba ku bari muri iyo nzira bose. Iryo hishurwa ry’igihe kimwe ni ryo ry’uguhuza P2SH hagati y’ubuzima bwite n’ugukora.

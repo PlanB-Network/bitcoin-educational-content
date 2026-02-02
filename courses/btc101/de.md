@@ -39,39 +39,11 @@ In diesem Kurs werden wir einige monetäre Aspekte von Bitcoin besprechen, einsc
 
 Es ist wichtig zu verstehen, dass Bitcoin ein neues Geldsystem ist, das unsere Beziehung zum Geld völlig verändert. Daher ist das Erlernen des Umgangs mit Bitcoin eine notwendige Fähigkeit für jeden, der die Kontrolle über sein eigenes Geld haben möchte.
 
-**Abschnitt 1 - Einführung**  
-- Kapitel 1 - Kursüberblick  
-- Kapitel 2 - Die Vorgeschichte von Bitcoin  
 
-**Abschnitt 2 - Geld**  
-- Kapitel 3 - Geld im Laufe der Geschichte  
-- Kapitel 4 - Fiat-Währungen  
-- Kapitel 5 - Hyperinflation  
-- Kapitel 6 - 21 Millionen Bitcoins  
 
-**Abschnitt 3 - Bitcoin-Wallets**  
-- Kapitel 7 - Was ist eine Bitcoin-Wallet?  
-- Kapitel 8 - Bitcoin-Wallets und Sicherheit  
-- Kapitel 9 - Einrichtung einer Wallets
-- Kapitel 10 - Bitcoins sicher verwahren
 
-**Abschnitt 4 - Die technischen Aspekte von Bitcoin**  
-- Kapitel 11 - Der Start von Bitcoin  
-- Kapitel 12 - Bitcoin-Transaktionen  
-- Kapitel 13 - Bitcoin-Nodes  
-- Kapitel 14 - Miner  
-- Kapitel 15 - Bitcoin und Ökologie  
 
-**Abschnitt 5 - Wie erhält man Bitcoins?**  
-- Kapitel 16 - Bitcoin schläft nie!  
-- Kapitel 17 - Bitcoins durch Arbeit verdienen  
-- Kapitel 18 - Sparen mit Bitcoin  
-- Kapitel 19 - Hyperbitcoinisierung  
 
-**Abschnitt 6 - Die Zukunft von Bitcoin: das Lightning Network**  
-- Kapitel 20 - Eine kurze Einführung in das Lightning Network  
-- Kapitel 21 - Anwendungsfälle des Lightning Network  
-- Kapitel 22 - Rote Pille oder blaue Pille?  
 
 Bevor wir die Definition von Geld und seine Funktion in der Gesellschaft vorstellen (Kapitel 1), sollten wir mit der Entstehungsgeschichte von Bitcoin beginnen. Bitcoin wurde 2009 eingeführt und ist eine relativ neue Technologie, die sich von allen anderen unterscheidet. Es ist daher normal, dass man nicht alles auf einmal versteht. Genau wie beim Lernen der Internetnutzung oder des Autofahrens müssen Sie nicht sofort alle technischen Details kennen: Du kannst damit beginnen, zu lernen, wie man Geld empfängt, bezahlt und sichert, und sich dann in kleinen Schritten eingehender damit befassen.
 
@@ -83,7 +55,6 @@ Das Wichtigste ist, diese neue Technologie allgemein zu verstehen. Wir wünschen
 
 Bereit, in die faszinierende Welt von Bitcoin einzutauchen und all seine Mechanismen zu verstehen? Los geht's!
 
-**Anm.**: Wenn Sie während des Kurses auf unbekannte Begriffe stoßen, konsultieren Sie bitte [das Glossar](https://planb.academy/resources/glossary) für Definitionen.
 
 ## Die Vorgeschichte von Bitcoin
 
@@ -127,7 +98,7 @@ Die nachstehende Abbildung veranschaulicht die Entwicklung der Bewegung durch ih
 
 ![image](assets/de/005.webp)
 
-In diesem fruchtbaren Umfeld veröffentlichte der geheimnisvolle Satoshi Nakamoto im Jahr 2008 das Bitcoin-Whitepaper. In diesem Dokument kombinierte er mehrere Ideen aus der Cypherpunk-Bewegung, wie den Arbeitsnachweis (proof of work) und kryptografische Zeitstempel (cryptographic timestamps), um eine dezentrale und zensurresistente digitale Währung zu schaffen.
+In diesem fruchtbaren Umfeld veröffentlichte der geheimnisvolle Satoshi Nakamoto im Jahr 2008 das Bitcoin-Whitepaper. In diesem Dokument kombinierte er mehrere Ideen aus der Cypherpunk-Bewegung, wie den Arbeitsnachweis ([proof of work](https://planb.academy/resources/glossary/proof-of-work)) und kryptografische Zeitstempel (cryptographic timestamps), um eine dezentrale und zensurresistente digitale Währung zu schaffen.
 
 Bitcoin war jedoch mehr als nur das: Er repräsentierte die Verwirklichung der Cypherpunk-Ideale. Über seine Technologie hinaus symbolisierte er eine Revolution gegen traditionelle Finanzsysteme und bot eine Alternative, die auf Transparenz, Dezentralisierung und individueller Souveränität basierte.
 
@@ -206,7 +177,7 @@ Um diese Kriterien zu erfüllen, hat sich die Währung in der Vergangenheit in v
 
 Währungen entwickeln sich auch heute noch weiter und passen ihre Formen an die verschiedenen Verwendungszwecke an. Wie wir bereits sagten, ist Gold zwar ein ausgezeichneter Wertaufbewahrer, aber für die heutige globalisierte Wirtschaft nicht mehr geeignet. Auch Fiat-Währungen wie der Dollar und der Euro sind sehr liquide und leicht zu transportieren, da sie heute größtenteils digital sind, aber ihr Wert wird durch die Geldinflation ständig gesenkt.
 
-Andererseits bietet der Bitcoin neue Möglichkeiten. Seine Eigenschaften, wie das streng begrenzte Angebot, machen ihn zu einem hervorragenden Wertaufbewahrungsmittel. Außerdem dient er als neutrale Internetwährung als praktikables **Tauschmittel**, das Grenzen überschreitet. Allerdings ist er trotz seiner [ständigen Verbreitung](https://btcmap.org/map) im Handel noch nicht weithin akzeptiert.
+Andererseits eröffnet Bitcoin neue Perspektiven. Seine Eigenschaften, insbesondere ein strikt begrenztes Angebot, machen ihn zu einem hervorragenden Wertspeicher. Zudem stellt er als neutrale Internetwährung ein tragfähiges **Tauschmittel** dar, das Grenzen überwinden kann. Dennoch ist er trotz einer kontinuierlichen Adoption (wie die [BTCmap-Karte](https://btcmap.org/map) zeigt) im Handel bislang noch nicht weit verbreitet akzeptiert.
 
 ## Fiat-Währungen
 
@@ -370,7 +341,7 @@ Die Schaffung neuer Bitcoins ist das Ergebnis des Mining-Prozesses. Kurz gesagt,
 
 ![image](assets/de/022.webp)
 
-Nach erfolgreicher Durchführung dieser Aufgabe werden die Miner alle zehn Minuten mit der Ausgabe neuer Bitcoins belohnt. Diese Belohnung ist so programmiert, dass sie sich alle 210.000 Blöcke halbiert, d. h. etwa alle vier Jahre (ein Ereignis, das als "halving" bekannt ist), wodurch die Kurve der Geldausgabe eine treppenartige Form erhält. Aufgrund dieses Mechanismus lässt sich mathematisch vorhersagen, dass die Schaffung neuer Bitcoins um das Jahr 2140 herum aufhören wird, wenn die Gesamtzahl der Bitcoins die Grenze von 21 Millionen erreicht.
+Nach erfolgreicher Durchführung dieser Aufgabe werden die Miner alle zehn Minuten mit der Ausgabe neuer Bitcoins belohnt. Diese Belohnung ist so programmiert, dass sie sich alle 210.000 Blöcke halbiert, d. h. etwa alle vier Jahre (ein Ereignis, das als "[halving](https://planb.academy/resources/glossary/halving)" bekannt ist), wodurch die Kurve der Geldausgabe eine treppenartige Form erhält. Aufgrund dieses Mechanismus lässt sich mathematisch vorhersagen, dass die Schaffung neuer Bitcoins um das Jahr 2140 herum aufhören wird, wenn die Gesamtzahl der Bitcoins die Grenze von 21 Millionen erreicht.
 
 | Halbierungsnummer | Blockhöhe | BTC-Belohnung nach Halbierung | Geschätzte BTC im Umlauf nach Halbierung |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
@@ -680,7 +651,7 @@ Nachdem wir nun die Grundlagen von Bitcoin-Wallets und die besten Praktiken für
 
 ![image](assets/de/038.webp)
 
-Der 31. Oktober 2008 markiert die Geburtsstunde der neuen Finanztechnologie Bitcoin. An diesem Tag stellte der anonyme Satoshi Nakamoto der Welt seine Innovation in einer E-Mail an die Mailingliste der Cypherpunks vor, einer Gemeinschaft von Kryptographie-Enthusiasten, die sich für den Schutz der Privatsphäre im Internet einsetzen. Diese E-Mail enthielt ein Dokument namens "White Paper", in dem die Funktionsweise von Bitcoin erläutert wurde.
+Der 31. Oktober 2008 markiert die Geburtsstunde der neuen Finanztechnologie Bitcoin. An diesem Tag stellte der anonyme Satoshi Nakamoto der Welt seine Innovation in einer E-Mail an die Mailingliste der Cypherpunks vor, einer Gemeinschaft von Kryptographie-Enthusiasten, die sich für den Schutz der Privatsphäre im Internet einsetzen. Diese E-Mail enthielt ein Dokument namens "[White Paper](https://planb.academy/resources/glossary/white-paper)", in dem die Funktionsweise von Bitcoin erläutert wurde.
 
 Diese Initiative löste nicht sofort Begeisterung aus, wahrscheinlich wegen der früheren Fehlschläge bei den Versuchen, ein digitales Bargeldsystem zu schaffen. Nichtsdestotrotz wurde dieses White Paper schließlich zu einer Referenz für Bitcoin-Nutzer und war im Laufe der Jahre Gegenstand vieler Debatten im Bitcoin-Ökosystem.
 
@@ -717,7 +688,8 @@ Trotz Satoshis Abwesenheit wurde Bitcoin weiter entwickelt: Die Geschichte von B
 
 Für die einen ist Bitcoin ein pilzartiges Gebilde wie ein [Myzel](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), während andere es als [Schwarzes Loch](https://dergigi.com/) bezeichnen. Ob man es liebt oder hasst, Bitcoin existiert weiter, mit seinem konstanten Rhythmus von 10 Minuten pro Block, wie der Herzschlag eines neuen Geldsystems.
 
-Um mehr über Satoshi Nakamotos Schriften zu erfahren, empfehlen wir die Lektüre von ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) von Phil Champagne oder die ARTE-Dokumentation "Le mystaire Satoshi".
+Um die Schriften von Satoshi Nakamoto zu vertiefen, empfehle ich die Lektüre von [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) von Phil Champagne, das seine wichtigsten Texte zusammenführt und einordnet, sowie die ARTE-Dokumentation [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), die eine zugängliche und gut dokumentierte Untersuchung seiner Identität und seines Vermächtnisses bietet.
+
 
 ![image](assets/de/044.webp)
 
@@ -836,7 +808,7 @@ Nach diesem Sieg aktivierten die Nodes ein Update namens SegWit und ebneten dami
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Miner sichern das Netzwerk und fügen Transaktionen zu den Blöcken hinzu. Sie verwenden Elektrizität durch ASIC-Maschinen, um den Bitcoin-Arbeitsnachweis (proof-of-wokr) zu lösen.**
+**Miner sichern das Netzwerk und fügen Transaktionen zu den Blöcken hinzu. Sie verwenden Elektrizität durch [ASIC](https://planb.academy/resources/glossary/asic)-Maschinen, um den Bitcoin-Arbeitsnachweis (proof-of-wokr) zu lösen.**
 
 ![image](assets/de/054.webp)
 
@@ -1043,7 +1015,9 @@ Die Bitcoin-Ökonomie existiert und entwickelt sich in bestimmten Regionen der W
 
 Dennoch gibt es in El Salvador und in anderen Teilen der Welt immer mehr Einzelpersonen, Unternehmen und Organisationen, die Bitcoin als Zahlungsmittel für ihre Produkte oder Dienstleistungen akzeptieren.
 
-![image](assets/de/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
+
+*Quelle : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
 Darüber hinaus wurde ein Open-Source- und Gemeinschaftsprojekt ins Leben gerufen, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), um die Verwendung von Bitcoin bei alltäglichen Transaktionen zu erleichtern. Diese Plattform listet alle Händler auf, die Bitcoin akzeptieren, sowie die verschiedenen Bitcoin-Gemeinschaften auf der ganzen Welt, so dass du ihre Website besuchen kannst, um das Bitcoin-Ökosystem um dich herum zu entdecken. Trotz der Schwierigkeiten und des Zögerns gibt es also Initiativen wie BTCMap, die dazu beitragen, die Bitcoin-Wirtschaft für alle zugänglicher und bequemer zu machen.
 
@@ -1116,7 +1090,7 @@ Eine schrittweise Strategie beinhaltet wiederkehrende Käufe, d. h. den Kauf kle
 
 **Vorsicht vor UTXO's**: Denk daran, deine UTXOs von Zeit zu Zeit in deinen Wallets zu konsolidieren. Diese Praxis ist wichtig, um Ihre Bitcoins effektiv zu verwalten und unnötige Gebühren bei Transaktionen zu vermeiden.
 
-Ein [UTXO](https://planb.academy/resources/glossary/utxo#:~:text=utxo) (Unspent Transaction Output) ist ein Ausgang einer Transaktion, der noch nicht ausgegeben wurde, was bedeutet, dass er nicht als Eingabe für eine neue Transaktion verwendet wurde. Die Konsolidierung von UTXOs bedeutet, mehrere kleine UTXOs zu einem größeren zusammenzufassen, um das "Gewicht" der Transaktion zu verringern und somit niedrigere Gebühren zu zahlen.
+Ein [UTXO](https://planb.academy/resources/glossary/utxo) (Unspent Transaction Output) ist ein Ausgang einer Transaktion, der noch nicht ausgegeben wurde, was bedeutet, dass er nicht als Eingabe für eine neue Transaktion verwendet wurde. Die Konsolidierung von UTXOs bedeutet, mehrere kleine UTXOs zu einem größeren zusammenzufassen, um das "Gewicht" der Transaktion zu verringern und somit niedrigere Gebühren zu zahlen.
 
 - Spontankauf
 

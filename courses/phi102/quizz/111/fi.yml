@@ -1,0 +1,8 @@
+question: Mikä on tärkein syy siihen, että keskitetty taloussuunnittelu ei onnistu koordinoimaan tuotantoa tehokkaasti talousteorian mukaan?
+answer: Siitä puuttuvat hintasignaalit, jotka osoittaisivat kuluttajien todelliset tarpeet ja tuotannon painopisteet
+wrong_answers:
+  - Se nojaa liikaa voittoa tavoitteleviin motiiveihin, jotka korruptoivat hallituksen päätöksentekoa
+  - Se luo valtionyhtiöiden välille liiallista kilpailua resursseista
+  - Se sallii liikaa yksilön vapautta tuotanto- ja kulutusvalinnoissa
+explanation: |
+  Keskitetty suunnittelu epäonnistuu, koska se poistaa hintamekanismin, joka toimii keskeisenä tietojärjestelmänä vapailla markkinoilla. Ilman kysynnän ja tarjonnan mukaan vaihtelevia hintoja keskussuunnittelijat toimivat sokeasti, koska he eivät pysty tietämään, mitä kuluttajat todella haluavat, milloin he haluavat sitä tai kuinka paljon he ovat valmiita uhraamaan siitä. Hinnat toimivat monimutkaisissa talouksissa kompassina, joka ohjaa tuottajia kohti kannattavia mahdollisuuksia, jotka vastaavat kuluttajien todellisia tarpeita. Väärät vastaukset ovat virheellisiä, koska: keskitetty suunnittelu pikemminkin poistaa kuin tukeutuu voittoa tavoitteleviin motiiveihin; se tyypillisesti pikemminkin vähentää kuin lisää kilpailua; ja se pikemminkin rajoittaa kuin sallii yksilön taloudellista vapautta.

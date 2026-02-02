@@ -1,5 +1,6 @@
 ---
 term: BIP0035
 
+definition: Proposal yang memungkinkan node untuk membagikan informasi mempool mereka (transaksi yang tertunda) dengan pelaku jaringan lainnya.
 ---
 Proposal yang mengizinkan sebuah node Bitcoin untuk membuka informasi mengenai mempool-nya atau informasi tentang transaksi yang menunggu konfirmasi. Berkat ini, peserta lain dapat menerima data _real-time_ tentang transaksi yang belum dikonfirmasi dengan mengirimkan pesan tertentu ke sebuah node. Sebelum adopsi BIP35, node hanya dapat mengakses informasi tentang transaksi yang sudah dikonfirmasi. Peningkatan ini menawarkan dompet SPV kemampuan untuk menerima informasi tentang transaksi yang belum dikonfirmasi, memungkinkan penambang untuk menghindari transaksi yang hilang dengan biaya tinggi selama proses _restart_, dan memfasilitasi analisis informasi mempool oleh layanan eksternal.

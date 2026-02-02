@@ -1,0 +1,8 @@
+question: Proč P2WSH používá pro závazek skriptu ve svědeckých programech hašování SHA256 místo haš160 (RIPEMD160+SHA256)?
+answer: SHA256 poskytuje 32bajtový hash, který odlišuje P2WSH od 20bajtového hashe P2WPKH160 a nabízí silnější zabezpečení pro složité skripty
+wrong_answers:
+  - SHA256 se počítá rychleji než hash160, což zkracuje dobu ověřování složitých vícedigitálních transakcí ve scénářích s vysokou propustností
+  - "Hash160 byl v SegWit vyřazen kvůli potenciálním kolizním zranitelnostem objeveným v rané fázi vývoje Bitcoin."
+  - SHA256 umožňuje, aby skripty svědků byly větší než 520 bajtů, zatímco hash160 zavedl přísná omezení velikosti pro složitost skriptů
+explanation: |
+  P2WSH používá SHA256 k vytvoření 32bajtových hashů, aby se odlišil od 20bajtového závazku hash160 P2WPKH, což uzlům umožňuje okamžitě identifikovat verzi svědeckého programu. Delší hash také poskytuje vyšší zabezpečení pro složité skripty, které mohou mít vyšší hodnotu nebo větší plochu pro útoky. Ostatní možnosti jsou nesprávné: SHA256 není nutně rychlejší než hash160, hash160 nebyl kvůli zranitelnostem vyřazen a volba hashovací funkce nemá vliv na omezení velikosti skriptu.

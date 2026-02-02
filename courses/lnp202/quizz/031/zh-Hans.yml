@@ -1,0 +1,9 @@
+question: Lightning 节点的节点 ID 代表什么？
+answer: 节点公钥和地址
+wrong_answers:
+  - 节点 seed 和地址
+  - 节点别名和公钥
+  - Hash 节点别名和 seed
+explanation: |
+  节点 ID 将节点的公钥与其网络地址和端口相结合。
+reviewed: false

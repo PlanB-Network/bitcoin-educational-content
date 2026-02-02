@@ -1,0 +1,9 @@
+question: Miksi vanhan channel.db:n palauttaminen on vaarallista?
+answer: Rangaistusriski
+wrong_answers:
+  - seed:n menetys
+  - Juorut korruptio
+  - Reitityksen estäminen
+explanation: |
+  Vanhentunut tila tedaan tulkita huijausyritykseksi ja johtaa kanavavarojen menettämiseen.
+reviewed: false

@@ -1,0 +1,8 @@
+question: ¿Qué mecanismo específico garantiza que los nodos anteriores a SegWit acepten como válidas las transacciones de P2WPKH sin entender las reglas de validación de testigos?
+answer: Los nodos anteriores a SegWit interpretan la secuencia de comandos OP_0 + hash de 20 bytes como una salida "anyone-can-spend" que no requiere verificación de firma
+wrong_answers:
+  - Los nodos anteriores a SegWit reenvían automáticamente las transacciones de P2WPKH a los nodos actualizados para que los testigos las validen antes de aceptarlas
+  - Los nodos anteriores a SegWit reconocen el patrón P2WPKH y se saltan la validación por completo, tratando todas las transacciones testigo como prevalidadas
+  - Los nodos pre-SegWit vuelven a convertir los datos del testigo al formato tradicional scriptSig utilizando reglas de transformación de compatibilidad con versiones anteriores
+explanation: |
+  La genialidad del diseño de SegWit reside en explotar la forma en que los nodos anteriores a SegWit manejan los patrones de script desconocidos. Cuando estos nodos más antiguos se encuentran con un script P2WPKH (OP_0 seguido de un push de 20 bytes), no lo reconocen como un programa testigo especial. En su lugar, lo evalúan como un script estándar que deja OP_0 y el hash en la pila. Dado que OP_0 se evalúa como falso en el sistema de scripts de Bitcoin, los nodos pre-SegWit interpretan esto como una condición 'anyone-can-spend', lo que significa que no se requiere verificación de firma desde su perspectiva. Esto permite que la transacción sea aceptada en su mempool y bloques sin romper el consenso, mientras que los nodos SegWit realizan la validación criptográfica real utilizando los datos del testigo.

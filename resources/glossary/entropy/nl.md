@@ -1,5 +1,6 @@
 ---
-term: ENTROPY
+term: Entropie
+definition: Maatstaf voor de onvoorspelbaarheid van een gegevensbron, cruciaal voor het genereren von veilige sleutels.
 ---
 
 Entropie, in de context van cryptografie en informatie, is een kwantitatieve maat voor de onzekerheid of onvoorspelbaarheid geassocieerd met een gegevensbron of een willekeurig proces. Entropie speelt een cruciale rol in de veiligheid van cryptografische systemen, vooral bij het genereren van sleutels en willekeurige getallen. Een hoge entropie zorgt ervoor dat de gegenereerde sleutels voldoende onvoorspelbaar zijn en bestand tegen brute-force aanvallen, waarbij een aanvaller alle mogelijke combinaties probeert om de sleutel te raden.

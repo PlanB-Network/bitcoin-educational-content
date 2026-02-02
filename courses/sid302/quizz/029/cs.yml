@@ -1,0 +1,8 @@
+question: Jaký zásadní kompromis musí investoři přijmout při účasti v ekosystémech aktiv Blockstream AMP ve srovnání se standardními transakcemi Liquid Network?
+answer: Úplný přehled o držených aktivech a transakční historii pro emitenta aktiv, přestože si zachovávají soukromí před ostatními uživateli
+wrong_answers:
+  - Vyšší poplatky za transakce v důsledku dodatečné výpočetní režie nutné pro mechanismy spolupodepisování autorizace
+  - Snížení rychlosti transakcí, protože všechny převody musí být před potvrzením ověřeny prostřednictvím centralizovaných serverů pro dodržování předpisů
+  - Omezená převoditelnost aktiv, protože tokeny AMP lze posílat pouze do předem schválených peněženek v rámci stejné regulační jurisdikce
+explanation: |
+  Správná odpověď identifikuje hlavní kompromis AMP v oblasti ochrany soukromí: zatímco aktiva AMP zachovávají soukromí mezi uživateli, aktiva AMP umožňují vydavatelům úplnou viditelnost unblinded pro zajištění souladu s právními předpisy. Nesprávné odpovědi popisují spíše provozní omezení (poplatky, rychlost, převoditelnost) než základní kompromis v oblasti transparentnosti, který odlišuje AMP od standardního modelu Liquid s plnou důvěrností.

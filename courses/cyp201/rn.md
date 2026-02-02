@@ -47,7 +47,7 @@ Intumbero y’iyi nyigisho ni ukuguha imfunguruzo zo kumenya neza ibikoresho uko
 
 Imbere yo kwisuka mu ndondoro y’ubwubatsi n’imikorere y’amasakoshi ya Bitcoin, tuzotangura n’ibice bikeyi ku bijanye n’ibintu vya kera vy’ubuhinga bwa cryptography kugira ngo tumenye ibizokurikira.
 
-Tuzotangura n’ibikorwa vy’ubuhinga bwa Hash, ivy’ishimikiro ku bikoresho vyose bibiri vy’amahera no ku bijanye n’umurongo wa Bitcoin ubwawo. Uzobona ibiranga cane, ibikorwa vyihariye bikoreshwa muri Bitcoin, kandi mu kigabane c'ubuhinga, uzomenya mu buryo burambuye ibijanye n'imikorere y'umwamikazi w'ibikorwa vya Hash: SHA256.
+Tuzotangura n’ibikorwa vy’ubuhinga bwa Hash, ivy’ishimikiro ku bikoresho vyose bibiri vy’amahera no ku bijanye n’umurongo wa Bitcoin ubwawo. Uzobona ibiranga cane, ibikorwa vyihariye bikoreshwa muri Bitcoin, kandi mu kigabane c'ubuhinga, uzomenya mu buryo burambuye ibijanye n'imikorere y'umwamikazi w'ibikorwa vya Hash: [SHA256](https://planb.academy/resources/glossary/sha256).
 
 
 ![CYP201](assets/en/001.webp)
@@ -65,7 +65,7 @@ Tumaze gutahura neza izo Elements z’ubuhinga bwo gukingira amakuru, tuzoheza t
 ![CYP201](assets/en/003.webp)
 
 
-Iryo huriro rizobandanya n’ukwiga BIP39 passphrase, seed (ntituvyivangane n’ijambo Mnemonic), chain code nyamukuru, n’urufunguzo nyamukuru. Turaza kubona mu buryo burambuye ivyo Elements ari vyo, uruhara rwavyo, n’ingene biharurwa.
+Iryo huriro rizobandanya n’ukwiga [BIP39](https://planb.academy/resources/glossary/bip0039) passphrase, seed (ntituvyivangane n’ijambo Mnemonic), chain code nyamukuru, n’urufunguzo nyamukuru. Turaza kubona mu buryo burambuye ivyo Elements ari vyo, uruhara rwavyo, n’ingene biharurwa.
 
 
 ![CYP201](assets/en/004.webp)
@@ -949,7 +949,7 @@ Uwukoresha yipfuza gukora igikorwa co gucuruza Bitcoin ategerezwa rero gukora um
 Ivyo bituma uwukoresha amafaranga yitwa bitcoins yugarijwe n’urufunguzo rwa bose ategerezwa kurondera uburyo bwo kubika neza ico kimufasha gufungura amahera yiwe: urufunguzo rw’ibanga. Bitcoin Wallet ni igikoresho nyaco kizotuma ushobora kubika imfunguruzo zawe zose mu buryo bworoshe ata bandi bantu bashobora kuzironka. Ni co gituma imeze nk’urufunguzo kuruta Wallet.
 
 
-Ihuriro ry’imibare hagati y’urufunguzo rwa bose n’urufunguzo rw’ibanga, hamwe n’ubushobozi bwo gukora umukono kugira ngo umuntu yerekane ko afise urufunguzo rw’ibanga ataco ahishuriye, bishoboka biciye ku buhinga bwo gusinya mu buryo bwa digitale. Mu masezerano ya Bitcoin, hakoreshwa ubuhinga bubiri bwo gusinya: **ECDSA** (_Ubuhinga bwo gusinya bwa digitale_) na **Igishushanyo co gusinya ca Schnorr**. ECDSA ni porotokole y’umukono wa digitale ikoreshwa muri Bitcoin kuva mu ntango zayo. Schnorr ni yo iherutse gusohoka muri Bitcoin, nk’uko yashizweho mu kwezi kwa 11 2021 n’ivugurura rya Taproot.
+Ihuriro ry’imibare hagati y’urufunguzo rwa bose n’urufunguzo rw’ibanga, hamwe n’ubushobozi bwo gukora umukono kugira ngo umuntu yerekane ko afise urufunguzo rw’ibanga ataco ahishuriye, bishoboka biciye ku buhinga bwo gusinya mu buryo bwa digitale. Mu masezerano ya Bitcoin, hakoreshwa ubuhinga bubiri bwo gusinya: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_Ubuhinga bwo gusinya bwa digitale_) na **Igishushanyo co gusinya ca Schnorr**. ECDSA ni porotokole y’umukono wa digitale ikoreshwa muri Bitcoin kuva mu ntango zayo. Schnorr ni yo iherutse gusohoka muri Bitcoin, nk’uko yashizweho mu kwezi kwa 11 2021 n’ivugurura rya Taproot.
 
 Izo algorithme zibiri zirasa cane mu buryo zikora. Ivyo vyose bishingiye ku buhinga bwo gukingira amabara y’uruzitiro. Itandukaniro rikomeye hagati y’izo porotokole zibiri riri mu mibumbe y’umukono be n’ibintu bimwebimwe vy’imibare vyihariye. Tuzokwiga rero ingene izo nzira zikora, dutangurire ku rwa kera cane: ECDSA.
 
@@ -957,7 +957,7 @@ Izo algorithme zibiri zirasa cane mu buryo zikora. Ivyo vyose bishingiye ku buhi
 ### Ugupfuka kw'ibara ry'umuhondo
 
 
-Elliptic Curve Cryptography (ECC) ni urutonde rw’ubuhinga bukoresha umurongo w’uruzitiro kubera imiterere yayo itandukanye y’imibare n’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga. Umutekano w’izo nzira ushingiye ku ngorane z’ingorane y’ubuhinga bwa logarithme butandukanye ku nzira zigoramye. Ivyiyumviro vy'uruzitiro bikoreshwa cane cane mu guhindura urufunguzo, mu gushiramwo amakuru ataringaniye, canke mu guhingura imikono y'ubuhinga bwa none.
+[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Cryptography (ECC) ni urutonde rw’ubuhinga bukoresha umurongo w’uruzitiro kubera imiterere yayo itandukanye y’imibare n’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga. Umutekano w’izo nzira ushingiye ku ngorane z’ingorane y’ubuhinga bwa logarithme butandukanye ku nzira zigoramye. Ivyiyumviro vy'uruzitiro bikoreshwa cane cane mu guhindura urufunguzo, mu gushiramwo amakuru ataringaniye, canke mu guhingura imikono y'ubuhinga bwa none.
 
 
 Ikintu gihambaye kiranga izo nzira ni uko zihuye n’umurongo wa x. Gutyo, umurongo wose udahagaze uca umurongo w’umurongo ku ntumbero zibiri zitandukanye uzokwama uca umurongo w’umurongo ku ntumbero ya gatatu. Ikindi kandi, tangente iyo ari yo yose y’umurongo w’umurongo ku ntumbero itari imwe izoca n’umurongo w’umurongo ku yindi ntumbero. Ivyo bizogira akamaro mu gusobanura ibikorwa ku nzira.
@@ -1743,7 +1743,7 @@ Mu bice bizoza, tuzokwihweza ingene ama wallet ya HD akora imbere mu mutima, har
 
 :::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
 
-Ivyuma vya HD vy'ubu vyishingikiriza ku makuru amwe y'intango yitwa "entropy" kugira ngo bimenyekane generate umugwi wose w'imfunguruzo za Wallet. Iyi entropie ni umubare w'ibinyoma ugena umutekano wa Wallet.
+Ivyuma vya HD vy'ubu vyishingikiriza ku makuru amwe y'intango yitwa "[entropy](https://planb.academy/resources/glossary/entropy)" kugira ngo bimenyekane generate umugwi wose w'imfunguruzo za Wallet. Iyi entropie ni umubare w'ibinyoma ugena umutekano wa Wallet.
 
 
 ### Insobanuro ya Entropi

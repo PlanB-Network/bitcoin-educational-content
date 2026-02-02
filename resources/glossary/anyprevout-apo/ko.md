@@ -1,5 +1,6 @@
 ---
-term: 애니프레바우트(APO)
+term: Anyprevout (apo)
+definition: 새로운 SigHash 플래그를 추가하는 제안 (BIP118)으로 거래의 특정 입력을 다루지 않는 서명을 생성할 수 있도록 한다.
 ---
 
-새로운 시그해시 플래그 수정자 두 개를 추가할 것을 제안하는 BIP118의 이름으로, `SIGHASH_ANYPREVOUT`과 `SIGHASH_ANYPREVOUTANYSCRIPT`입니다. "*AnyPrevOut*"이라는 용어는 "*Any Previous Output*"의 축약어이며 프랑스어로 "toute sortie précédente"로 번역할 수 있습니다.
+두 개의 새로운 SigHash 플래그 수정자 `SIGHASH_ANYPREVOUT` 및 `SIGHASH_ANYPREVOUTANYSCRIPT`의 추가를 제안하는 BIP118에 부여된 명칭이다. "*AnyPrevOut*"라는 용어는 "*Any Previous Output*"의 축약에서 유래한다.

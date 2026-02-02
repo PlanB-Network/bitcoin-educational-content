@@ -1,5 +1,6 @@
 ---
-term: SERANGAN REPLAY
+term: Replay attack
+definition: Serangan yang mereproduksi transaksi valid dari satu blockchain ke blockchain lain yang memiliki riwayat yang sama.
 ---
 
 Dalam konteks Bitcoin, serangan _replay_ terjadi ketika sebuah transaksi yang valid pada satu _blockchain_ direproduksi secara jahat pada _blockchain_ lain yang memiliki riwayat transaksi yang sama. Dengan kata lain, sebuah transaksi yang disiarkan pada satu saluran dapat direplikasi pada saluran lain tanpa persetujuan dari pengirim transaksi pertama.

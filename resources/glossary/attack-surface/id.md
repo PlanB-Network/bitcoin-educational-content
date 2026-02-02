@@ -1,5 +1,6 @@
 ---
-term: PERMUKAAN SERANGAN
+term: Permukaan serangan
 
+definition: Serangkaian titik masuk potensial yang dapat dieksploitasi penyerang untuk mendapatkan akses ke sistem. Mengurangi permukaan ini meningkatkan keamanan.
 ---
 Mengacu pada jumlah total titik masuk potensial yang dapat dieksploitasi oleh penyerang untuk mendapatkan akses ke suatu sistem. Permukaan serangan mencakup semua antarmuka, layanan, _port_, protokol, dan vektor komunikasi lain yang dapat terekspos bahaya. Permukaan serangan yang luas dapat meningkatkan kerentanan, sehingga membuat sistem lebih mudah diserang. Mengurangi permukaan serangan adalah praktik keamanan yang baik yang melibatkan penonaktifan layanan yang tidak diperlukan. Sebagai contoh, dalam konteks Bitcoin, dompet perangkat keras memiliki permukaan serangan yang jauh lebih kecil dibandingkan dengan dompet perangkat lunak. Nyatanya, dompet perangkat keras ini mengisolasi kunci pada perangkat yang tidak terhubung ke Internet, dengan hanya memiliki sedikit aplikasi antarmuka dan layanan. Sebaliknya, dompet perangkat lunak dipasang pada PC serbaguna, yang memiliki permukaan serangan yang jauh lebih besar karena berbagai fungsi dan koneksi jaringan yang didukungnya.

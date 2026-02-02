@@ -141,7 +141,7 @@ Il destinatario dovrà scansionare il codice QR generato per richiedere i satosh
 
 
 
-I pagamenti offline vengono effettuati principalmente tramite [e-cash] (https://planb.academy/resources/glossary/ecash-david-chaum). La transazione viene memorizzata nel telefono e, non appena si accede a Internet, la conferma della transazione diventa automatica. È anche possibile confermare il pagamento manualmente facendo clic su **Conferma transazione**.
+I pagamenti offline vengono effettuati principalmente tramite [e-cash](https://planb.academy/resources/glossary/ecash-david-chaum). La transazione viene memorizzata nel telefono e, non appena si accede a Internet, la conferma della transazione diventa automatica. È anche possibile confermare il pagamento manualmente facendo clic su **Conferma transazione**.
 
 
 

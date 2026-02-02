@@ -1,0 +1,8 @@
+question: Jaki jest podstawowy mechanizm bezpieczeństwa, który zapewnia, że infrastruktura Greenlight nie może uzyskać dostępu do środków użytkowników pomimo hostowania węzłów Lightning w chmurze?
+answer: Klucze prywatne nigdy nie opuszczają urządzeń użytkowników, a wszystkie operacje wymagają aktywnego podpisywania aplikacji
+wrong_answers:
+  - Portfele z wieloma podpisami i rozproszonymi odłamkami kluczy u wielu dostawców usług w chmurze
+  - Sprzętowe moduły bezpieczeństwa, które szyfrują wszystkie transakcje przed przetwarzaniem w chmurze
+  - Inteligentne kontrakty z blokadą czasową, które automatycznie zwracają środki w przypadku nieautoryzowanego dostępu
+explanation: |
+  Breez SDK zapewnia bezpieczeństwo dzięki architekturze pozbawionej zaufania, w której klucze prywatne pozostają wyłącznie na urządzeniach użytkowników. Podczas gdy Greenlight hostuje infrastrukturę węzła Lightning, nie może wykonywać żadnych operacji bez aktywnie połączonej aplikacji, która może podpisywać transakcje i wiadomości. Taka konstrukcja zapewnia, że nawet jeśli węzeł działa w chmurze, Greenlight nigdy nie ma dostępu do kluczy użytkownika i nie może przenosić środków bez wyraźnej autoryzacji użytkownika za pośrednictwem jego lokalnej aplikacji. Pozostałe opcje opisują różne mechanizmy bezpieczeństwa, które nie są używane w tej architekturze.

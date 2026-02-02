@@ -1,5 +1,6 @@
 ---
-term: KURTARMA IFADESI
+term: Kurtarma ifadesi
+definition: Bir Bitcoin cüzdanını yedeklemeyi ve geri yüklemeyi sağlayan 12 veya 24 kelimelik dizi.
 ---
 
 Bazen Mnemonic, seed cümlesi veya gizli cümle olarak da adlandırılan bir kurtarma cümlesi, genellikle 12 veya 24 kelimeden oluşan ve bir entropi kaynağından sözde rastgele bir şekilde üretilen bir dizidir. Sözde rastgele dizi her zaman bir sağlama toplamı ile tamamlanır. Mnemonic ifadesi, isteğe bağlı bir passphrase ile birlikte, bir HD (Hiyerarşik Deterministik) Wallet ile ilişkili tüm anahtarları deterministik olarak türetmek için kullanılır. Bu, bu ifadeden, Bitcoin Wallet'ün tüm özel ve açık anahtarlarını deterministik olarak generate ve yeniden oluşturmanın ve sonuç olarak onunla ilişkili fonlara erişmenin mümkün olduğu anlamına gelir. Kurtarma ifadesinin amacı, bitcoinlerin hem güvenli hem de kullanımı kolay bir şekilde yedeklenmesi ve kurtarılması için bir araç sağlamaktır.

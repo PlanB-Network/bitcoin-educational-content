@@ -1,5 +1,6 @@
 ---
-term: ZUIA KICHWA
+term: Kichwa cha kitalu
+definition: Muundo wa baiti 80 ulio na metadata ya kitalu (toleo, hashi iliyotangulia, mzizi wa Merkle, muhuri wa muda, lengo, nonce).
 ---
 
 Kichwa cha kuzuia ni muundo wa data ambao hutumika kama sehemu kuu katika ujenzi wa block ya Bitcoin. Kila kizuizi kina kichwa na orodha ya miamala. Kichwa cha kuzuia kina habari muhimu ambayo inahakikisha uadilifu na uhalali wa kizuizi ndani ya Blockchain. Kichwa cha kuzuia kina baiti 80 za metadata na kinaundwa na Elements ifuatayo:
@@ -82,4 +83,3 @@ b2e00517
 Ili kiwe halali, ni lazima kizuizi kiwe na kichwa ambacho, kikishaharakishwa kwa `SHA256d`, kitatoa Hash ambayo ni ndogo kuliko au sawa na lengo la ugumu.
 
 
-> ► *Kwa Kiingereza, inajulikana kama "Block Header".*

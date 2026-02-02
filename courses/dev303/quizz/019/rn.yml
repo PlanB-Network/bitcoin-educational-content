@@ -1,0 +1,8 @@
+question: Ni irihe sezerano ryo gutanga amazina Rust ishira mu ngiro ku mazina y’imibumbe n’amazina y’imirima?
+answer: CamelCase ku mazina y'imibumbe na snake_case ku mazina y'umurima
+wrong_answers:
+  - inzoka_case ku mazina y'imibumbe na CamelCase ku mazina y'umurima
+  - kebab-ikibazo c'amazina y'imiterere n'ingamiya y'ikibazo c'amazina y'umurima
+  - UPPER_CASE ku mazina y'imibumbe n'inyuguti nto ku mazina y'umurima
+explanation: |
+  Rust ikurikiza amategeko yihariye y’ugutanga amazina uwo muhinguzi ashira mu ngiro biciye ku ngabisho. Amazina y'imiterere akwiye gukoresha CamelCase (izwi kandi nka PascalCase), aho ijambo ryose ritangura n'inyuguti nini nka 'MyStruct'. Amazina y'imirima mu mibumbe akwiye gukoresha snake_case n'imirongo itandukanya amajambo nka 'my_field'. Iri sezerano rigumya ubumwe mu bibanza vyose vya Rust kandi rituma abahinguzi bashobora gusoma neza.

@@ -635,7 +635,7 @@ Enfocarlo de este modo le garantiza que no está poniendo en riesgo su bienestar
 ![image](assets/es/023.webp)
 
 
-Una vez definido su presupuesto, piense en cómo quiere invertir. Uno de los métodos más recomendables para los principiantes es el Dollar Cost Averaging (DCA), que consiste en comprar una cantidad fija de Bitcoin a intervalos regulares (semanales, mensuales, etc.). Esta estrategia ayuda a suavizar el precio medio de entrada a lo largo del tiempo y reduce el impacto emocional de las oscilaciones de precios. Es un enfoque inteligente para la mayoría de la gente, especialmente para los recién llegados.
+Una vez definido su presupuesto, piense en cómo quiere invertir. Uno de los métodos más recomendables para los principiantes es el [Dollar Cost Averaging (DCA)](https://planb.academy/resources/glossary/dollar-cost-averaging-dca), que consiste en comprar una cantidad fija de Bitcoin a intervalos regulares (semanales, mensuales, etc.). Esta estrategia ayuda a suavizar el precio medio de entrada a lo largo del tiempo y reduce el impacto emocional de las oscilaciones de precios. Es un enfoque inteligente para la mayoría de la gente, especialmente para los recién llegados.
 
 
 Entonces, pregúntese: ¿Cuál es mi horizonte temporal?
@@ -1007,7 +1007,7 @@ Aunque este enfoque es más técnico, ofrece a los usuarios más exigentes la po
 #### Un método de pago transfronterizo resistente
 
 
-Debido a su naturaleza descentralizada, Bitcoin funciona 24 horas al día, 7 días a la semana, sin verse afectada por fronteras o husos horarios. En regiones que carecen de infraestructuras bancarias tradicionales, Bitcoin se utiliza a menudo como solución rápida y barata para enviar o recibir fondos sin depender de intermediarios caros. Aunque las comisiones por transacción pueden variar en función de la congestión de la red, suelen ser muy inferiores a las que cobran los bancos por las transferencias internacionales. Además, las soluciones Layer-2 como la Lightning Network permiten realizar transacciones Bitcoin aún más rápidas y baratas.
+Debido a su naturaleza descentralizada, Bitcoin funciona 24 horas al día, 7 días a la semana, sin verse afectada por fronteras o husos horarios. En regiones que carecen de infraestructuras bancarias tradicionales, Bitcoin se utiliza a menudo como solución rápida y barata para enviar o recibir fondos sin depender de intermediarios caros. Aunque las comisiones por transacción pueden variar en función de la congestión de la red, suelen ser muy inferiores a las que cobran los bancos por las transferencias internacionales. Además, las soluciones Layer-2 como la [Lightning Network](https://planb.academy/resources/glossary/lightning-network) permiten realizar transacciones Bitcoin aún más rápidas y baratas.
 
 
 #### Un depósito de valor
@@ -1538,7 +1538,7 @@ La industria de la Bitcoin Wallet se divide en varias categorías, cada una de l
 
 
 
-- **Fabricantes de Hardware Wallet**: Estas empresas desarrollan dispositivos físicos diseñados para el almacenamiento seguro de claves. Algunos son de código abierto, mientras que otros ofrecen soluciones propietarias con distintas características y niveles de seguridad. Entre ellas destacan Ledger, Trezor, Coinkite, Foundation y Shiftcrypto.
+- **Fabricantes de [Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet)**: Estas empresas desarrollan dispositivos físicos diseñados para el almacenamiento seguro de claves. Algunos son de código abierto, mientras que otros ofrecen soluciones propietarias con distintas características y niveles de seguridad. Entre ellas destacan Ledger, Trezor, Coinkite, Foundation y Shiftcrypto.
 - **Desarrolladores de Software Wallet**: Desde empresas a desarrolladores independientes que crean aplicaciones para móviles y ordenadores de sobremesa. Sus ofertas varían en experiencia de usuario, seguridad y prestaciones. Algunos ejemplos son Sparrow, Wizard Sardine, Galoy, Synonym y Blockstream.
 - Carteras DIY (*Hágalo usted mismo*): Estas soluciones de código abierto están diseñadas para usuarios avanzados que desean un control total y una dependencia mínima de terceros. Construir su propia Wallet reduce las dependencias de confianza y puede aumentar su postura de seguridad. Entre las opciones DIY destacan Seedsigner y Specter DIY.
 

@@ -392,7 +392,7 @@ Opat Saint-Pierre argumentował, że panowanie Ludwika XIV, z jego luksusowym dw
 Jeśli chodzi o myślenie ekonomiczne, konsekwentnie stosował zasadę użyteczności, podobnie jak później Jeremy Bentham, i często oferował solidne spostrzeżenia. Aby być uczciwym, wciąż pozostawał pod wpływem idei merkantylistycznych, których nikt w tamtym czasie w pełni nie porzucił.
 
 
-Mimo to opat z Saint-Pierre poczynił kilka trafnych spostrzeżeń na temat gospodarki. Nawet przed *Condillac*, któremu często przypisuje się ten pomysł, stwierdził on wyraźnie, że w każdym Exchange obie strony odnoszą korzyści. Można to znaleźć w jego 1733 ["Project for Improving France's Trade"] (https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/), gdzie napisał:
+Mimo to opat z Saint-Pierre poczynił kilka trafnych spostrzeżeń na temat gospodarki. Nawet przed *Condillac*, któremu często przypisuje się ten pomysł, stwierdził on wyraźnie, że w każdym Exchange obie strony odnoszą korzyści. Można to znaleźć w jego 1733 ["Project for Improving France's Trade"](https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/), gdzie napisał:
 
 
 > "Gdy sprzedaż dokonywana jest między kupcami, zyskuje na tym sprzedający, a także kupujący; gdyby bowiem nie było pewnych rzeczywistych lub postrzeganych korzyści po obu stronach, ani sprzedający nie sprzedawałby po takiej a takiej cenie, ani kupujący, ze swojej strony, nie kupowałby po takiej cenie".
@@ -573,27 +573,27 @@ Dzięki współpracy kilku członków kręgu Gournaya, wielu autorów było w st
 
 
 
-- Herbert's Essay on the [General Police of Grain] (https://archive.org/details/essaisurlapolice00herb/page/n7/mode/2up) (6 wydań w ciągu 4 lat)
+- Herbert's Essay on the [General Police of Grain](https://archive.org/details/essaisurlapolice00herb/page/n7/mode/2up) (6 wydań w ciągu 4 lat)
 
 
 ![image](assets/pl/033.webp)
 
 
 
-- Coyer's [Noblesse commerçante] (https://archive.org/details/lanoblessecommer00coye/page/n3/mode/2up) (5 wydań w ciągu 2 lat)
+- Coyer's [Noblesse commerçante](https://archive.org/details/lanoblessecommer00coye/page/n3/mode/2up) (5 wydań w ciągu 2 lat)
 
 
 
 
 
 
-- Plumard de Dangeul's [Remarks on the Advantages and Disadvantages of France and Great Britain] (https://archive.org/details/bim_eighteenth-century_remarks-on-the-advantage_plumard-de-dangeul-loui_1754) (3 wydania w pierwszym roku)
-- Cliquot-Blervache i Gournay's [Memoir on the Trades] (https://www.amazon.com/Memoire-sur-corps-metiers-French/dp/1978196903) (2 wydania w 1758 r.)
+- Plumard de Dangeul's [Remarks on the Advantages and Disadvantages of France and Great Britain](https://archive.org/details/bim_eighteenth-century_remarks-on-the-advantage_plumard-de-dangeul-loui_1754) (3 wydania w pierwszym roku)
+- Cliquot-Blervache i Gournay's [Memoir on the Trades](https://www.amazon.com/Memoire-sur-corps-metiers-French/dp/1978196903) (2 wydania w 1758 r.)
 
 Grupa odegrała również kluczową rolę w publikacji
 
 
-- [Esej o naturze handlu w ogóle] (https://archive.org/details/essayonnatureofc0000cant) autorstwa Richarda Cantillona.
+- [Esej o naturze handlu w ogóle](https://archive.org/details/essayonnatureofc0000cant) autorstwa Richarda Cantillona.
 
 
 ![image](assets/pl/034.webp)
@@ -608,7 +608,7 @@ Intelektualny dorobek kręgu Gournay miał znaczący wpływ na historię idei. W
 ![image](assets/pl/035.webp)
 
 
-Aby rozpowszechnić wśród francuskiej populacji zamiłowanie do dyskusji ekonomicznych, Gournay i jego przyjaciele pracowali nad tym, by uczynić je dostępnymi za pośrednictwem powieści. Po *Memoir on the Trades*, który krytykował gildie, Gournay i Cliquot-Blervache pomogli Gabrielowi-François Coyerowi napisać krótką powieść satyryczną zatytułowaną Chinki: [A Cochinchinese Tale Applicable to Other Nations] (https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
+Aby rozpowszechnić wśród francuskiej populacji zamiłowanie do dyskusji ekonomicznych, Gournay i jego przyjaciele pracowali nad tym, by uczynić je dostępnymi za pośrednictwem powieści. Po *Memoir on the Trades*, który krytykował gildie, Gournay i Cliquot-Blervache pomogli Gabrielowi-François Coyerowi napisać krótką powieść satyryczną zatytułowaną Chinki: [A Cochinchinese Tale Applicable to Other Nations](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
 
 
 ![image](assets/pl/036.webp)
@@ -641,7 +641,7 @@ Dzięki swojemu talentowi i miejscu w historii Francji przyćmił swojego ojca, 
 ![image](assets/pl/038.webp)
 
 
-Markiz de Mirabeau zyskał ogromną sławę jeszcze przed przyjęciem fizjokratyzmu dzięki książce zatytułowanej "The Friend of Mankind. Traktat o populacji [FR: L'ami des hommes, ou, Traité de la population] (https://archive.org/details/lamideshommesou00unkngoog). Mimo że pierwsze wydanie ukazało się w 1756 r., stało się sławne około 1757 r., na rok przed spotkaniem z Quesnayem.
+Markiz de Mirabeau zyskał ogromną sławę jeszcze przed przyjęciem fizjokratyzmu dzięki książce zatytułowanej "The Friend of Mankind. Traktat o populacji [FR: L'ami des hommes, ou, Traité de la population](https://archive.org/details/lamideshommesou00unkngoog). Mimo że pierwsze wydanie ukazało się w 1756 r., stało się sławne około 1757 r., na rok przed spotkaniem z Quesnayem.
 
 
 
@@ -694,7 +694,7 @@ Mając za sobą swój największy sukces, Mirabeau był rozchwytywany. François
 Debatowali wściekle i w końcu stało się coś, co zwykle nigdy nie zdarza się w debatach: Mirabeau przyznał, że się mylił. Zgodził się z pomysłami Quesnaya i powiedział, że jest gotów je rozpowszechnić.
 
 
-Razem utworzyli rdzeń tego, co miało stać się szkołą fizjokratyczną, wzmocnioną przez regularnych rekrutów, których sprowadzili. Wkrótce po nawróceniu Mirabeau, Quesnay zaangażował go do obrony swoich pomysłów na opodatkowanie. Doprowadziło to do powstania ["Teorii opodatkowania"] (https://archive.org/details/thoriedelimpot00mira), za którą Mirabeau został wysłany na kilka dni do więzienia w Vincennes, a następnie zesłany do Bignon.
+Razem utworzyli rdzeń tego, co miało stać się szkołą fizjokratyczną, wzmocnioną przez regularnych rekrutów, których sprowadzili. Wkrótce po nawróceniu Mirabeau, Quesnay zaangażował go do obrony swoich pomysłów na opodatkowanie. Doprowadziło to do powstania ["Teorii opodatkowania"](https://archive.org/details/thoriedelimpot00mira), za którą Mirabeau został wysłany na kilka dni do więzienia w Vincennes, a następnie zesłany do Bignon.
 
 
 ![image](assets/pl/042.webp)
@@ -809,7 +809,7 @@ Ta książka zebrała główny wkład Quesnaya. Przedstawiono w niej ekonomiczny
 Fizjokracja stała się modna we Francji, a nawet w całej Europie, zaledwie przez dekadę. Po długim okresie rozwoju zyskała na znaczeniu w połowie lat sześćdziesiątych XVII wieku. Zanim Turgot doszedł do władzy w 1776 r., ruch ten stracił już na popularności, a minister w większości ukrywał swoje poparcie dla szkoły Quesnaya.
 
 
-Jego początki leżą w ewolucji idei ekonomicznych w latach pięćdziesiątych XVII wieku. Kilku autorów pomogło wypełnić lukę między Boisguilbertem a tym, co później stało się znane jako fizjokracja. Jak wspomniano wcześniej, Vincent de Gournay i jego krąg ekonomistów stali za wieloma publikacjami, które wprowadziły francuskich czytelników w zagraniczną myśl ekonomiczną i pomogły rozpalić ich pasję do ekonomii. Podstawy fizjokratyzmu były już obecne w książkach takich jak "Détail de la France" Boisguilberta i ["Essay on the Nature of Trade in General"] (https://archive.org/details/essaisurlanature0000cant) Cantillona.
+Jego początki leżą w ewolucji idei ekonomicznych w latach pięćdziesiątych XVII wieku. Kilku autorów pomogło wypełnić lukę między Boisguilbertem a tym, co później stało się znane jako fizjokracja. Jak wspomniano wcześniej, Vincent de Gournay i jego krąg ekonomistów stali za wieloma publikacjami, które wprowadziły francuskich czytelników w zagraniczną myśl ekonomiczną i pomogły rozpalić ich pasję do ekonomii. Podstawy fizjokratyzmu były już obecne w książkach takich jak "Détail de la France" Boisguilberta i ["Essay on the Nature of Trade in General"](https://archive.org/details/essaisurlanature0000cant) Cantillona.
 
 
 ![image](assets/pl/047.webp)
@@ -962,7 +962,7 @@ W swoich wcześniej cytowanych *Maxims* Quesnay stwierdza:
 Fizjokraci widzieli szkody spowodowane ingerencją rządu, zwłaszcza w handlu zbożem. Trzeba przyznać, że władza nigdy nie będzie w stanie zarządzać handlem tak dobrze, jak robią to jednostki, ponieważ musiałaby reagować na każdą potrzebę i reagować na każdą zmianę popytu lub Supply. Wszystko to wykracza daleko poza możliwości nawet najmądrzejszego rządu, jaki można sobie wyobrazić. Dlatego konieczne jest, aby pozwolić rzeczom być i pozwolić im płynąć.
 
 
-Korzystny z natury handel musi być całkowicie i doskonale wolny. Jeden z ich członków, Le Trosne, napisał nawet broszurę zatytułowaną [*The Freedom of the Grain Trade: Always Useful, Never Harmful*] (https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
+Korzystny z natury handel musi być całkowicie i doskonale wolny. Jeden z ich członków, Le Trosne, napisał nawet broszurę zatytułowaną [*The Freedom of the Grain Trade: Always Useful, Never Harmful*](https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
 
 
 ### Piąta zasada: Wszyscy ludzie są braćmi
@@ -1002,7 +1002,7 @@ W Rosji Katarzyna II przygotowywała reformę ustawodawczą i poprosiła Diderot
 ![image](assets/pl/059.webp)
 
 
-Będąc pod wrażeniem lektury [*The Natural and Essential Order of Political Societies*] (https://archive.org/details/lordrenaturelete00mercuoft), opublikowanej w 1767 roku, wysłał jej jej autora, fizjokratę Merciera de la Rivière.
+Będąc pod wrażeniem lektury [*The Natural and Essential Order of Political Societies*](https://archive.org/details/lordrenaturelete00mercuoft), opublikowanej w 1767 roku, wysłał jej jej autora, fizjokratę Merciera de la Rivière.
 
 
 
@@ -1409,7 +1409,7 @@ Opat z Condillac odegrał ważną rolę w ostatecznym obaleniu tego fałszywego 
 "Definitywnie" jest być może przesadą, ponieważ w debacie publicznej sofizmat ten często powraca. Być może dlatego Condillac pozostaje mało znanym ekonomistą. Poza austriackimi ekonomistami, niewielu zrozumiało znaczenie jego teorii Exchange, nikt już się nim nie interesuje.
 
 
-Dla większości historyków myśli ekonomicznej rok 1776 jest naznaczony publikacją *The Wealth of Nations*, która stworzyła naukę ekonomiczną. Piętnaście lekcji, które właśnie ukończyliśmy, w których studiowaliśmy francuską naukę ekonomiczną przed Adamem Smithem, wystarczy, aby udowodnić błąd tej koncepcji. Co więcej, w tym samym roku 1776 ukazała się inna książka, która być może zasługuje na większe uznanie historyków niż książka Adama Smitha: została ona napisana przez Condillaca i nosi prosty tytuł [*Commerce and Government Considered in Their Mutual Relationship*] (https://archive.org/details/commercegovernme0000cond).
+Dla większości historyków myśli ekonomicznej rok 1776 jest naznaczony publikacją *The Wealth of Nations*, która stworzyła naukę ekonomiczną. Piętnaście lekcji, które właśnie ukończyliśmy, w których studiowaliśmy francuską naukę ekonomiczną przed Adamem Smithem, wystarczy, aby udowodnić błąd tej koncepcji. Co więcej, w tym samym roku 1776 ukazała się inna książka, która być może zasługuje na większe uznanie historyków niż książka Adama Smitha: została ona napisana przez Condillaca i nosi prosty tytuł [*Commerce and Government Considered in Their Mutual Relationship*](https://archive.org/details/commercegovernme0000cond).
 
 
 ![image](assets/pl/085.webp)
@@ -1498,7 +1498,7 @@ Od tego momentu kariera Condorceta nabrała tempa, gdy zaangażował się w deba
 W latach 1774-1776, podczas ministerstwa Turgota, Condorcet dokonał licznych interwencji, wszystkie naznaczone jego Commitment do leseferyzmu. Jego prace obejmują *Letters from a Farmer of Picardy to Mr. Necker*, broniące wolnego handlu; *Monopolies and Monopolists*, opowiadające się za wolną konkurencją; *Reflections on Corvées*, wzywające do ich zniesienia; oraz *Reflections on the Grain Trade*, które ponownie wychwalają wolny handel i krytykują książkę Neckera na ten sam temat.
 
 
-W swoich [*Letters on the Grain Trade*] (https://archive.org/details/bub_gb_hg8jFw-y6bwC) Condorcet przedstawia kilka kluczowych punktów.
+W swoich [*Letters on the Grain Trade*](https://archive.org/details/bub_gb_hg8jFw-y6bwC) Condorcet przedstawia kilka kluczowych punktów.
 
 
 ![image](assets/pl/089.webp)
@@ -1565,7 +1565,7 @@ Propozycja ta została odrzucona.
 
 W tym samym roku, 1790, rozpoczęły się debaty na temat emisji nowej papierowej waluty w celu pokrycia wydatków rządowych.
 
-Dupont de Nemours stanowczo sprzeciwił się temu i opublikował broszurę zatytułowaną [*Effects of Assignats on the Price of Bread*] (https://archive.org/details/effetdesassignat00dupo). Tytuł był trafny, ponieważ wyjaśnił, że emisja assignatów nieuchronnie doprowadzi do inflacji, wzrostu cen towarów, w tym chleba.
+Dupont de Nemours stanowczo sprzeciwił się temu i opublikował broszurę zatytułowaną [*Effects of Assignats on the Price of Bread*](https://archive.org/details/effetdesassignat00dupo). Tytuł był trafny, ponieważ wyjaśnił, że emisja assignatów nieuchronnie doprowadzi do inflacji, wzrostu cen towarów, w tym chleba.
 
 
 

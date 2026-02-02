@@ -72,10 +72,10 @@ En la siguiente pantalla, vuelve a comprobar el número que has facilitado. Si e
 Telegram ya es totalmente funcional en el móvil, podemos pasar a los primeros ajustes básicos.
 
 
-# Seguridad y privacidad
+## Seguridad y privacidad
 
 
-## Configuración del nombre de usuario
+### Configuración del nombre de usuario
 
 
 El nombre de usuario de Telegram - a veces también llamado `handle` - es mucho más que algo superficial. De hecho, el "handle" es **único para cada usuario**.
@@ -129,7 +129,7 @@ No pueden, gracias a la unicidad del nombre de usuario.
 **Lo que pueden hacer es mostrar un handle "similar", cambiando ligeramente (una letra/número), de forma que sólo un ojo atento pueda ver claramente que se trata de un estafador**. Presta siempre mucha atención al nombre de usuario, y verás que los impostores no tendrán un juego fácil.
 
 
-## Privacidad
+### Privacidad
 
 
 Otra precaución importante que puedes tomar es limitar la información que dejas salir de tu cuenta recién creada.
@@ -165,7 +165,7 @@ Son medidas que evitarán que tu número de teléfono quede al descubierto, por 
 Ahora que tu cuenta de Telegram está configurada y has ganado un poco de privacidad, puedes empezar a usarla.
 
 
-## Añadir contactos y chats
+### Añadir contactos y chats
 
 
 Si acabas de crear tu cuenta, es probable que la página principal aparezca completamente vacía.
@@ -229,7 +229,7 @@ Por defecto, todo el mundo, desde los usuarios individuales hasta los canales te
 ⚠️Cuidado: **evita unirte a grupos y canales sin verificar su autenticidad**. Para encontrar el canal/grupo oficial de Telegram de una empresa o tema que desees seguir, busca ayuda en la sección _Contactos_ de los sitios web oficiales o en fuentes confiables.
 
 
-### Funciones avanzadas de mensajería
+#### Funciones avanzadas de mensajería
 
 
 Telegram te permite utilizar funciones avanzadas únicas a la hora de intercambiar mensajes. Entra en un chat y haz clic en el fondo, junto a cualquier mensaje de otro remitente.
@@ -257,7 +257,7 @@ También puedes adjuntar archivos de gran tamaño, intercambiando medios "pesado
 ![image](assets/en/46.webp)
 
 
-### Nube personal
+#### Nube personal
 
 
 Entre las muchas características increíbles de Telegram, también hay una nube personal que -en el momento de escribir esto- es **ilimitada**.
@@ -285,7 +285,7 @@ El chat aparece en primer plano, listo para ser utilizado.
 ***
 
 
-## Programación de mensajes y envío silencioso
+### Programación de mensajes y envío silencioso
 
 
 Otras útiles funciones avanzadas permiten enviar mensajes respetando la privacidad de los destinatarios, elegir entre el envío silencioso y programar el mensaje en horas y días adecuados.
@@ -301,7 +301,7 @@ Todo lo que tienes que hacer es escribir el mensaje pero, en lugar de enviarlo i
 ![image](assets/en/48.webp)
 
 
-### Borrar la caché del teléfono
+#### Borrar la caché del teléfono
 
 
 Otra práctica útil para mantener tu teléfono funcionando eficientemente es borrar la caché de Telegram de vez en cuando. Dependiendo de cuántos grupos y canales sigas, de hecho, la información y los medios procedentes de estas fuentes podrían acumularse en la caché, haciendo que tu teléfono vaya más lento.
@@ -350,7 +350,7 @@ En la siguiente foto puedes ver dónde encontrar este ajuste.
 ![image](assets/en/28.webp)
 
 
-## Escritorio de Telegram
+### Escritorio de Telegram
 
 
 Telegram se puede utilizar desde el ordenador, de forma que se sincronice con la cuenta que aparece en el teléfono. Puedes optar por no descargar la aplicación y utilizarla sólo vía web. Sin embargo, esta versión tiene limitaciones en comparación con la que se ejecuta en el ordenador, por lo que recomendamos descargarla e instalarla para aprovechar al máximo esta potente herramienta.
@@ -421,7 +421,7 @@ Una notificación en el teléfono confirma que el nuevo dispositivo se ha añadi
 Especialmente, Telegram está activo y utilizable también en tu ordenador de escritorio.
 
 
-### Llamada de grupo
+#### Llamada de grupo
 
 
 Si eres administrador o propietario de un grupo de Telegram, puedes iniciar una llamada desde el propio menú del grupo. De esta forma, puedes hacer retransmisiones en directo con varios participantes, grabarlas en audio y vídeo, compartirlas o utilizarlas para fines como la educación.
@@ -433,7 +433,7 @@ En la siguiente imagen, puedes ver cómo iniciar una llamada grupal usando el es
 ![image](assets/en/47.webp)
 
 
-### Consideraciones finales
+#### Consideraciones finales
 
 
 Ahora que has leído este tutorial, eres perfectamente capaz de elegir cómo usar Telegram, sin dejarte influenciar por el ruido generado por el hype de sus usuarios, o por el mainstream. Puedes empezar con un enfoque suave y luego descubrir cómo sacarle el máximo partido, para tus necesidades personales, a esta app de mensajería.

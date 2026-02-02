@@ -5,5 +5,5 @@ wrong_answers:
   - Tehingutasud põletatakse töötlemise ajal, vähendades järk-järgult olemasolevat bitcoini pakkumist
   - "Bitcoin protokoll lukustab automaatselt mündid, mis ei ole pikemat aega liikunud, et vältida inflatsiooni"
 explanation: |
-  Peatükis selgitatakse, et kuigi teoreetiline maksimum on umbes 20 999 817 BTC, on tegelik kasutatav varu inimlike vigade ja kadude tõttu palju väiksem. Kaotatud privaatvõtmed muudavad bitcoinid püsivalt kättesaamatuks, rahakotid varastatakse või unustatakse ning mündid saadetakse mõnikord kehtetutele aadressidele. Need tegurid tekitavad püsiva pakkumise vähenemise, mis tuleb ülejäänud omanikele kasuks, sest Satoshi märkis, et kadunud mündid muudavad kõigi teiste müntide väärtuse suuremaks.
+  Kui teoreetiline maksimum on 20 999 999.9769 BTC, on tegelik kasutatav pakkumine inimlike vigade ja kaotuste tõttu märksa väiksem. Kaotatud privaatvõtmed muudavad bitcoinid jäädavalt kättesaamatuks, rahakotid varastatakse või unustatakse ning münte saadetakse mõnikord kehtetutele aadressidele. Need tegurid toovad kaasa pakkumise püsiva vähenemise, millest võidavad allesjäänud hoidjad, nagu Satoshi märkis: kaotatud mündid suurendavad teiste müntide väärtust.
 reviewed: false

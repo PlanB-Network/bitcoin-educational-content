@@ -20,7 +20,7 @@ Após mais de 4 anos de desenvolvimento e utilização, está pronto para ser ex
 ## Descarregar
 
 
-O primeiro passo é, sem dúvida, decidir onde descarregar a aplicação. Vá ao [site oficial] (https://nunchuk.io/) onde pode encontrar alguma documentação (não é muito, mas é um começo), a apresentação das funcionalidades, bem como, no final da página, todas as ligações de transferência.
+O primeiro passo é, sem dúvida, decidir onde descarregar a aplicação. Vá ao [site oficial](https://nunchuk.io/) onde pode encontrar alguma documentação (não é muito, mas é um começo), a apresentação das funcionalidades, bem como, no final da página, todas as ligações de transferência.
 
 
 
@@ -394,7 +394,7 @@ Encontra-se em _Home_, onde é apresentado o Wallet recém-criado, que indica o 
 
 
 - O ícone da lente no canto superior direito permite-lhe fazer uma pesquisa de transacções;
-- `View Wallet config` dá acesso ao menu de configuração, onde pode editar o nome do Wallet e ativar as opções avançadas, no canto superior direito (das quais não é possível obter screenshots). Aqui pode exportar a configuração do Wallet, etiquetas, substituir teclas, alterar o [gap limit] (https://planb.academy/en/resources/glossary/gap-limit) e mais.
+- `View Wallet config` dá acesso ao menu de configuração, onde pode editar o nome do Wallet e ativar as opções avançadas, no canto superior direito (das quais não é possível obter screenshots). Aqui pode exportar a configuração do Wallet, etiquetas, substituir teclas, alterar o [gap limit](https://planb.academy/en/resources/glossary/gap-limit) e mais.
 
 
 

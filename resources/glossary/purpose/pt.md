@@ -1,5 +1,6 @@
 ---
-term: OBJECTIVO
+term: Propósito
+definition: Nível de derivação nas carteiras HD que identifica o padrão de endereços utilizado.
 ---
 
 Nas carteiras determinísticas e hierárquicas (HD), o objetivo, definido pela BIP43, representa um nível de derivação específico. Este índice, localizado na primeira profundidade da árvore de derivação (`m / purpose' /`), identifica o padrão de derivação adotado pela carteira, para facilitar a compatibilidade entre diferentes softwares de gestão de carteiras. Por exemplo, no caso dos endereços SegWit (BIP84), a finalidade é anotada como `/84'/`. Este método permite que as chaves sejam organizadas de forma eficiente entre diferentes tipos de Address dentro de uma única carteira HD. Os índices padrão utilizados são :

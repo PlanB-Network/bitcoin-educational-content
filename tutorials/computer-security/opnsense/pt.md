@@ -139,7 +139,7 @@ Também pode adquirir **um aparelho OPNsense montável em bastidor** através da
 
 
 
-É necessário ter em conta os recursos de hardware necessários para executar o OPNsense. Isto está detalhado em [esta página de documentação] (https://docs.opnsense.org/manual/hardware.html).
+É necessário ter em conta os recursos de hardware necessários para executar o OPNsense. Isto está detalhado em [esta página de documentação](https://docs.opnsense.org/manual/hardware.html).
 
 
 
@@ -147,17 +147,18 @@ Também pode adquirir **um aparelho OPNsense montável em bastidor** através da
 
 
 
-| Caractéristiques | Minimum | Recommandation |
+
+| Características | Mínimo | Recomendação |
 | --- | --- | --- |
-| Processeur | 1 GHz - 2 cœurs | 1.5 GHz - Multi-coeurs |
-| Mémoire vive (RAM) | 2 Go | 8 Go |
-| Espace de stockage pour le système | Disque dur, disque SSD ou carte SD (4 Go) | 120 Go en SSD |
+| Processador | 1 GHz - 2 núcleos | 1.5 GHz - Multi-núcleo |
+| RAM | 2 GB | 8 GB |
+| Espaço de armazenamento para o sistema | Disco rígido, SSD ou cartão SD (4 GB) | 120 GB em SSD |
 
 Por fim, **as suas necessidades de recursos dependem sobretudo do número de ligações a gerir** e, por conseguinte, das **suas necessidades de largura de banda**. Além disso, é necessário **ter em conta os serviços que serão activados e utilizados** (proxy, deteção de intrusões, etc...), uma vez que podem exigir muito da CPU e/ou da RAM.
 
 
 
-Também precisará da imagem ISO de instalação do OPNsense, que pode ser descarregada a partir do [sítio Web oficial] (https://opnsense.org/download/). Para a instalação numa VM, selecione "**dvd**" como o tipo de imagem para obter uma imagem ISO (e faça o que quiser com ela...). Para a instalação através de uma chave USB de arranque, selecione a opção "**vga**" para obter um ficheiro "**.img**".
+Também precisará da imagem ISO de instalação do OPNsense, que pode ser descarregada a partir do [sítio Web oficial](https://opnsense.org/download/). Para a instalação numa VM, selecione "**dvd**" como o tipo de imagem para obter uma imagem ISO (e faça o que quiser com ela...). Para a instalação através de uma chave USB de arranque, selecione a opção "**vga**" para obter um ficheiro "**.img**".
 
 
 

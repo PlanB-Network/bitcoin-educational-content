@@ -1,6 +1,7 @@
 ---
-term: GENESIS BLOCK
+term: Genezis plokk
 
+definition: Bitcoini süsteemi esimene blokk, mille lõi Satoshi Nakamoto 3. jaanuaril 2009.
 ---
 Genesis Block on Bitcoini süsteemi esimene plokk. See tähistab Bitcoini konkreetset käivitamist. Genesis Blocki lõi Bitcoini anonüümne asutaja Satoshi Nakamoto 3. jaanuaril 2009. aastal. Selle hash on järgmine:
 

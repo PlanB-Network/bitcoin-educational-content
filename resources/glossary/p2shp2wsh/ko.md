@@ -1,5 +1,6 @@
 ---
 term: P2SH-P2WSH
+definition: 호환성을 위해 P2SH로 감싼 SegWit(P2WSH) 스크립트로, 주소는 3으로 시작함.
 ---
 
 P2SH-P2WSH는 *스크립트 Hash에 지불 - 증인 스크립트 Hash에 지불*의 약자입니다. "중첩된 SegWit"이라고도 하는 UTXO에 대한 지출 조건을 설정하는 데 사용되는 표준 스크립트 모델입니다.

@@ -1,0 +1,8 @@
+question: Šta se dešava kada pozovete lock() na mutex u Rust i zašto mnogi programeri smatraju da je prihvatljivo otpakovati ovu operaciju?
+answer: Vraća Result koji može da ne uspe ako je drugi thread paničio dok je držao mutex, i korišćenje unwrap je prihvatljivo jer ne možete razumno rukovati greškama iz panike drugih thread-ova.
+wrong_answers:
+  - Vraća opciju koja može biti None ako je muteks zauzet, a otpakivanje je prihvatljivo jer zauzeti muteksi treba da izazovu momentalni prekid programa.
+  - Vraća Result koji može da ne uspe zbog detekcije zastoja, a otpakivanje je prihvatljivo jer zastoji ukazuju na osnovne greške u dizajnu koje bi trebalo da izazovu paniku.
+  - Uvek uspeva i direktno vraća čuvara zaključavanja, čineći otpakivanje nepotrebnim jer su operacije sa međusklopom zagarantovano bezbedne za niti u Rust.
+explanation: |
+  Kada pozovete lock() na muteksu, Rust vraća Result jer operacija može da ne uspe ako je drugi thread doživeo paniku dok je držao muteks, ostavljajući ga u otrovanom stanju. Ovo stvara jedinstvenu situaciju gde vaš lokalni kod prima grešku zbog nečega što se dogodilo u kontekstu potpuno drugog threada. Pošto ne možete razumno da obradite ili oporavite grešku koja je nastala zbog panike drugog threada, mnogi programeri smatraju prihvatljivim da otpakiraju muteks brave, posebno u kodnim bazama bez panike. Druge opcije su netačne jer muteksi ne vraćaju Options za zauzeta stanja, nemaju ugrađenu detekciju deadlock-a koja izaziva neuspehe Result-a, i operacija ne uspeva uvek zbog mehanizma trovanja.

@@ -132,9 +132,9 @@ Kwa mfano, iwapo kikundi cha wachimbaji (mining pool) kitapata kitalu na kushind
 
 ### Programu inayotumiwa na tasnia
 
-Katika muktadha wa Bitcoin Mining, jukumu la programu ni muhimu kama maunzi. Mfano wa hili unaonyeshwa na jukumu la Bitmain, mtengenezaji wa kutosha aliyetengeneza Antminer S9. Kando na maunzi ya Mining, tasnia hii inategemea sana mabwawa ya Mining, kama vile Brainspool, ambayo inadhibiti takriban 5% ya Hashrate ya kimataifa ya mtandao wa Bitcoin.
+Katika muktadha wa Bitcoin Mining, jukumu la programu ni muhimu kama maunzi. Mfano wa hili unaonyeshwa na jukumu la Bitmain, mtengenezaji wa kutosha aliyetengeneza Antminer S9. Kando na maunzi ya Mining, tasnia hii inategemea sana mabwawa ya Mining, kama vile Braiinspool, ambayo inadhibiti takriban 5% ya Hashrate ya kimataifa ya mtandao wa Bitcoin.
 
-Wahusika katika tasnia hii wanatafuta kila mara kuongeza ufanisi kupitia maunzi na programu. Kwa mfano, programu maarufu inayotumiwa katika muktadha huu ni BrainsOS Plus. Programu hii inachukua nafasi ya mfumo wa awali wa uendeshaji wa mashine ya Mining, kuruhusu shughuli sawa kufanywa kwa ufanisi zaidi. Kwa programu hiyo, Miner inaweza kuongeza ufanisi wa mashine yao kwa 25%. Hii ina maana kwamba kwa kiasi sawa cha umeme, mashine inaweza kuzalisha 25% ya ziada ya Hashrate, na hivyo kuongeza malipo yaliyopokelewa na Miner. Uboreshaji huu wa programu ni kipengele muhimu cha ushindani katika Bitcoin Mining, inayoonyesha umuhimu wa mbinu jumuishi inayochanganya uboreshaji wa maunzi na programu ili kuongeza ufanisi na urejeshaji.
+Wahusika katika tasnia hii wanatafuta kila mara kuongeza ufanisi kupitia maunzi na programu. Kwa mfano, programu maarufu inayotumiwa katika muktadha huu ni BraiinsOS Plus. Programu hii inachukua nafasi ya mfumo wa awali wa uendeshaji wa mashine ya Mining, kuruhusu shughuli sawa kufanywa kwa ufanisi zaidi. Kwa programu hiyo, Miner inaweza kuongeza ufanisi wa mashine yao kwa 25%. Hii ina maana kwamba kwa kiasi sawa cha umeme, mashine inaweza kuzalisha 25% ya ziada ya Hashrate, na hivyo kuongeza malipo yaliyopokelewa na Miner. Uboreshaji huu wa programu ni kipengele muhimu cha ushindani katika Bitcoin Mining, inayoonyesha umuhimu wa mbinu jumuishi inayochanganya uboreshaji wa maunzi na programu ili kuongeza ufanisi na urejeshaji.
 
 ### Udhibiti na ushuru wa umeme
 

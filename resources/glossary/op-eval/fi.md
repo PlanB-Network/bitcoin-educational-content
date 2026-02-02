@@ -1,5 +1,6 @@
 ---
 term: OP_EVAL
 
+definition: Vuonna 2011 ehdotettu ja hylätty opcode, jonka lopulta korvasi P2SH.
 ---
 Gavin Andresenin vuonna 2011 ehdottama opkoodi. Se ottaa pinon yläosassa olevan skriptin, suorittaa sen ikään kuin se olisi osa `scriptPubKey`:tä ja sijoittaa tuloksen pinoon. `OP_EVAL` hylättiin tämän opkoodin monimutkaisuuteen liittyvien huolenaiheiden vuoksi, ja P2SH syrjäyttäisi sen lopulta.

@@ -1,6 +1,7 @@
 ---
 term: BIP0143
 
+definition: Uus räsimisalgoritm SegWiti allkirjade jaoks, mis lahendab ruutkasvu probleemi ja sisaldab sisendite väärtust.
 ---
 Võtab kasutusele uue viisi tehingu hashinguks allkirja kontrollimiseks SEGWit-järgsetes skriptides. Eesmärgiks on minimeerida üleliigseid operatsioone kontrollimise ajal ja lisada UTXOde väärtus sisendisse allkirja. See lahendab kaks peamist probleemi, mis on seotud algse tehingu hashimise algoritmiga:
 

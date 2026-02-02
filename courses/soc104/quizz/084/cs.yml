@@ -1,0 +1,8 @@
+question: Proč je podle Hayekovy teorie rozptýlených znalostí centrální plánování jako ekonomický koordinační mechanismus zásadně chybné?
+answer: Znalosti existují pouze jako rozptýlené fragmenty mezi jednotlivci, což centrálním plánovačům znemožňuje přístup ke kompletním informacím potřebným pro účinnou koordinaci
+wrong_answers:
+  - Centrální plánovači nemají morální autoritu rozhodovat za ostatní, i když mají úplné informace o trhu
+  - Politická korupce a vlastní zájmy brání centrálním plánovačům realizovat ekonomicky optimální řešení, přestože mají přístup ke všem potřebným údajům
+  - Centrální plánování vyžaduje příliš velký výpočetní výkon a technologie, které v Hayekově době nebyly k dispozici, ale dnes by mohly fungovat
+explanation: |
+  Hayekova kritika centrálního plánování je epistemologická, nikoli morální nebo technologická. Tvrdil, že znalosti nikdy neexistují v koncentrované podobě, ale pouze jako "rozptýlené fragmenty neúplných a často protichůdných znalostí, kterými disponují všichni odlišní jedinci" Tento problém rozptýlených znalostí znamená, že centrální plánovači nemají přístup k subjektivním nákladům, přínosům a místním preferencím, které mají pouze jednotlivci, což znemožňuje efektivní ekonomickou koordinaci bez ohledu na jejich záměry nebo výpočetní schopnosti.

@@ -29,7 +29,7 @@ Vítejte v kurzu BTC101!
 
 Bitcoin je technologická a peněžní revoluce, která má potenciál přimět nás zpochybnit náš vztah k penězům a společnosti. Bitcoin (označovaný jako BTC) je totiž **neutrální** a **decentralizovaná** měna, což znamená, že není kontrolována žádným subjektem ani institucí. Jedná se o inovaci, která přesahuje rámec pouhé "internetové měny": je to jak počítačový protokol (Bitcoin), tak peněžní jednotka (bitcoin).
 
-Protokol využívá základní technologie, jako je kryptografie, síťová komunikace a známý "blockchain", zatímco jednotka bitcoin slouží jako nezbytná měna pro správné fungování tohoto protokolu. V každodenním životě používají obyvatelé Salvadoru a bitcoineři po celém světě měnu bitcoin k nákupu a prodeji zboží a služeb a spoléhají na to, že jim tato technologie zlepší život.
+Protokol využívá základní technologie, jako je kryptografie, síťová komunikace a známý "[blockchain](https://planb.academy/resources/glossary/blockchain)", zatímco jednotka bitcoin slouží jako nezbytná měna pro správné fungování tohoto protokolu. V každodenním životě používají obyvatelé Salvadoru a bitcoineři po celém světě měnu bitcoin k nákupu a prodeji zboží a služeb a spoléhají na to, že jim tato technologie zlepší život.
 
 **Komplexní, ale přístupný studijní program:**
 
@@ -39,39 +39,11 @@ V tomto kurzu probereme některé peněžní aspekty bitcoinu, včetně toho, ja
 
 Je nutné si uvědomit, že Bitcoin je nový peněžní systém, který zcela mění náš vztah k penězům, takže naučit se ho používat je nezbytnou dovedností pro každého, kdo chce mít kontrolu nad svými vlastními prostředky.
 
-**Sekce 1 - Úvod**  
-- Kapitola 1 - Přehled kurzu  
-- Kapitola 2 - Prehistorie Bitcoinu  
 
-**Sekce 2 - Peníze**  
-- Kapitola 3 - Peníze napříč historií  
-- Kapitola 4 - Fiat měny  
-- Kapitola 5 - Hyperinflace  
-- Kapitola 6 - 21 milionů bitcoinů  
 
-**Sekce 3 - Bitcoinové peněženky**  
-- Kapitola 7 - Co je to bitcoinová peněženka?  
-- Kapitola 8 - Bitcoinové peněženky a bezpečnost  
-- Kapitola 9 - Nastavení peněženky  
-- Kapitola 10 - Překonání zkoušky času  
 
-**Sekce 4 - Technické aspekty Bitcoinu**  
-- Kapitola 11 - Spuštění Bitcoinu  
-- Kapitola 12 - Bitcoinové transakce  
-- Kapitola 13 - Bitcoinové uzly  
-- Kapitola 14 - Mineři  
-- Kapitola 15 - Bitcoin a ekologie  
 
-**Sekce 5 - Jak získat bitcoiny?**  
-- Kapitola 16 - Bitcoin nikdy nespí!  
-- Kapitola 17 - Získání bitcoinů prací  
-- Kapitola 18 - Spoření s Bitcoinem  
-- Kapitola 19 - Hyperbitcoinizace  
 
-**Sekce 6 - Budoucnost Bitcoinu: Lightning Network**  
-- Kapitola 20 - Stručný úvod do Lightning Network  
-- Kapitola 21 - Případové použití Lightning Network  
-- Kapitola 22 - Červená pilulka nebo modrá pilulka?  
 
 Než se seznámíme s definicí peněz a jejich funkcí ve společnosti (kapitola 1), měli bychom začít od vzniku Bitcoinu. Bitcoin, který byl uveden na trh v roce 2009, je relativně nová technologie, která se liší od všech ostatních. Je proto normální, že o něm nepochopíme všechno a najednou. Stejně jako když se učíte používat internet nebo řídit auto, nemusíte hned znát všechny technické detaily: můžete začít tím, že se naučíte přijímat, platit a zabezpečovat své finanční prostředky, a pak po malých krocích Bitcoin studovat hlouběji.
 
@@ -83,7 +55,6 @@ Důležité je pochopit tuto novou technologii v obecné rovině, takže doufám
 
 Jste připraveni ponořit se do fascinujícího světa Bitcoinu a pochopit všechny jeho mechanismy? Jdeme na to!
 
-**Pozn.**: Pokud během kurzu narazíte na neznámé termíny, obraťte se prosím na [slovníček](https://planb.academy/resources/glossary) pro definice.
 
 ## Prehistorie bitcoinu
 
@@ -206,7 +177,7 @@ Aby tato kritéria splnila, měna se v minulosti vyvíjela různými kroky:
 
 Měny se dodnes vyvíjejí a přizpůsobují své formy různým případům použití. Jak jsme již řekli, zlato je sice vynikajícím uchovatelem hodnoty, ale pro současnou globalizovanou ekonomiku již není vhodné. Stejně tak fiduciární měny, jako je dolar a euro, jsou velmi likvidní a snadno přepravitelné, protože jsou dnes převážně digitální, ale jejich hodnota je neustále snižována měnovou inflací.
 
-Na druhou stranu bitcoin představuje nové možnosti. Jeho vlastnosti, jako je přísně omezená nabídka, z něj činí vynikající úložiště hodnoty. Navíc jako neutrální internetová měna slouží jako životaschopné **prostředí směny**, které překračuje hranice. I přes jeho [neustálé přijímání](https://btcmap.org/map) však dnes stále není v obchodě široce přijímán.
+Na druhé straně bitcoin otevírá nové perspektivy. Jeho vlastnosti, zejména přísně omezená nabídka, z něj činí vynikající uchovatel hodnoty. Také jako neutrální internetová měna představuje životaschopný **směnný prostředek**, schopný překračovat hranice. Přesto navzdory pokračujícímu přijetí (jak ukazuje [mapa BTCmap](https://btcmap.org/map)) zatím není v obchodě široce přijímán.
 
 ## Fiduciární měny
 
@@ -370,7 +341,7 @@ Výsledkem procesu těžby je vznik nových bitcoinů. Stručně řečeno, těž
 
 ![image](assets/cs/022.webp)
 
-Po úspěšném splnění tohoto úkolu jsou těžaři odměněni vydáním nových bitcoinů každých deset minut. Tato odměna je naprogramována tak, aby se každých 210 000 bloků, tedy přibližně každé čtyři roky, snížila na polovinu (událost známá jako "halving"), což dává křivce emise peněz schodovitý tvar. Díky tomuto mechanismu lze matematicky předpovědět, že tvorba nových bitcoinů se zastaví kolem roku 2140, kdy jejich celkový počet dosáhne hranice 21 milionů.
+Po úspěšném splnění tohoto úkolu jsou těžaři odměněni vydáním nových bitcoinů každých deset minut. Tato odměna je naprogramována tak, aby se každých 210 000 bloků, tedy přibližně každé čtyři roky, snížila na polovinu (událost známá jako "[halving](https://planb.academy/resources/glossary/halving)"), což dává křivce emise peněz schodovitý tvar. Díky tomuto mechanismu lze matematicky předpovědět, že tvorba nových bitcoinů se zastaví kolem roku 2140, kdy jejich celkový počet dosáhne hranice 21 milionů.
 
 | Pořadí půlení | Výška bloku | Odměna za BTC po půlení  | Odhadovaný počet BTC v oběhu po půlení |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
@@ -718,11 +689,11 @@ V roce 2010, kdy Bitcoin začal přitahovat pozornost médií, se Satoshi rozhod
 
 Pro některé je Bitcoin definován jako houbová entita, jako [mycelium](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), zatímco jiní ho popisují jako [černou díru](https://dergigi.com/). Ať už ho milujete, nebo nenávidíte, Bitcoin nadále existuje, se svým stálým rytmem 10 minut na blok, jako tlukot srdce nového peněžního systému.
 
-Chcete-li se o Satoshi Nakamotovi dozvědět více, doporučujeme přečíst si ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) od Phila Champagneho nebo dokumentární film od ARTE "Le mystaire Satoshi".
+Pro hlubší porozumění spisům Satoshiho Nakamota doporučuji knihu [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) od Phila Champagnea, která shromažďuje a zasazuje do kontextu jeho hlavní texty, a také dokument stanice ARTE [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), jenž nabízí přístupné a dobře zdokumentované pátrání po jeho identitě a odkazu.
 
 ![image](assets/cs/044.webp)
 
-> "Základním problémem konvenční měny je důvěra, která je nutná k jejímu fungování. Je třeba důvěřovat centrální bance, že měnu neznehodnotí, ale historie fiat měn je plná porušení této důvěry. Bankám je třeba důvěřovat, že naše peníze budou držet a převádět elektronicky, ale ony je půjčují ve vlnách úvěrových bublin se sotva zlomkem v rezervě." - [Satoshi Nakamoto] (https://satoshi.nakamotoinstitute.org/posts/p2pfoundation/1/)
+> "Základním problémem konvenční měny je důvěra, která je nutná k jejímu fungování. Je třeba důvěřovat centrální bance, že měnu neznehodnotí, ale historie fiat měn je plná porušení této důvěry. Bankám je třeba důvěřovat, že naše peníze budou držet a převádět elektronicky, ale ony je půjčují ve vlnách úvěrových bublin se sotva zlomkem v rezervě." - [Satoshi Nakamoto](https://satoshi.nakamotoinstitute.org/posts/p2pfoundation/1/)
 > Nyní, když jsme se seznámili s některými souvislostmi, prozkoumejme, jak transakce s bitcoiny obecně probíhá.
 
 ## Transakce s bitcoiny
@@ -753,13 +724,13 @@ V této fázi byla transakce vytvořena a Bobova peněženka ji bude sdílet se 
 
 V tomto okamžiku je sice tato transakce všem známá (prostřednictvím nástroje zvaného Mempool), ale nelze ji považovat za potvrzenou, dokud ji do bloku nevloží těžař, který jako jediný potvrzuje transakce tím, že je zařazuje do blockchainu.
 
-Těžaři mají za úkol shromažďovat platné a nepotvrzené transakce a sestavovat z nich blok. Stručně řečeno, musí vyřešit kryptografickou hádanku v procesu zvaném "Proof of work", aby se jejich blok stal dalším v bitcoinovém blockchainu.
+Těžaři mají za úkol shromažďovat platné a nepotvrzené transakce a sestavovat z nich blok. Stručně řečeno, musí vyřešit kryptografickou hádanku v procesu zvaném "[proof of work](https://planb.academy/resources/glossary/proof-of-work)", aby se jejich blok stal dalším v bitcoinovém blockchainu.
 
 ![image](assets/cs/047.webp)
 
 ### Krok 3: Těžař transakci vytěží v bloku.
 
-Systém Proof of work vyžaduje nalezení platného "hashe" pro daný blok: představte si jej jako jedinečný otisk prstu spojený s blokem, který se skládá z 256 znaků. Platnost tohoto hashe závisí na míře obtížnosti sítě Bitcoin (podrobněji se jí budeme věnovat později). Prozatím uvažujme, že těžař našel platný blok a že je v něm zahrnuta transakce Boba s Alicí. Poté je nový platný blok přidán do blockchainu, společné účetní knihy pro všechny uživatele Bitcoinu.
+Systém [proof of work](https://planb.academy/resources/glossary/proof-of-work) vyžaduje nalezení platného "hashe" pro daný blok: představte si jej jako jedinečný otisk prstu spojený s blokem, který se skládá z 256 znaků. Platnost tohoto hashe závisí na míře obtížnosti sítě Bitcoin (podrobněji se jí budeme věnovat později). Prozatím uvažujme, že těžař našel platný blok a že je v něm zahrnuta transakce Boba s Alicí. Poté je nový platný blok přidán do blockchainu, společné účetní knihy pro všechny uživatele Bitcoinu.
 
 ![image](assets/cs/048.webp)
 
@@ -836,13 +807,13 @@ Po tomto vítězství uzly aktivovaly aktualizaci nazvanou SegWit, čímž přip
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Těžaři zabezpečují síť a přidávají transakce do bloků. K řešení bitcoinových důkazů práce používají elektřinu prostřednictvím strojů ASIC**
+**Těžaři zabezpečují síť a přidávají transakce do bloků. K řešení bitcoinových důkazů práce používají elektřinu prostřednictvím strojů [ASIC](https://planb.academy/resources/glossary/asic)**
 
 ![image](assets/cs/054.webp)
 
 ### Vysvětlení důkazu o práci
 
-"Proof of work" (POW) je bezpečnostní konsenzuální mechanismus bitcoinového protokolu. Je základem všeho a hraje klíčovou roli v teorii her Bitcoinu.
+"[proof of work](https://planb.academy/resources/glossary/proof-of-work)" (POW) je bezpečnostní konsenzuální mechanismus bitcoinového protokolu. Je základem všeho a hraje klíčovou roli v teorii her Bitcoinu.
 
 Pro vysvětlení, jak to funguje, si představte univerzální loterii, které se může zúčastnit každý. Cílem je najít konkrétní číslo, které výherci umožní podepsat platný blok a získat odměnu v bitcoinech. Toto číslo je velmi jednoduché ověřit pomocí hašovací funkce SHA-256, ale je obtížné ho najít: účastníci (těžaři) budou zkoušet miliardy a miliardy možností, jako například 1, 52, 2648, 26874615, 15344854131318631 a tak dále, dokud neobjeví tu správnou.
 
@@ -893,7 +864,7 @@ Aby těžaři stabilizovali svůj obchodní model, který je založen na odměn�
 
 ### Proč se tím vším zabývat?
 
-Stručně řečeno, inovace Bitcoinu spočívá v návrhu řešení problému dvojího utrácení pomocí blockchainu založeného na Proof of Work s plovoucí obtížností. V digitálním světě se pojetí vlastnictví liší od fyzického světa. V digitálním světě lze totiž vše kopírovat a vkládat, což vytváří riziko vícenásobného použití digitálních hodnotných aktiv. Důvěryhodní zprostředkovatelé, jako jsou banky, byli vytvořeni proto, aby tento technologický problém vyřešili a zajistili, že po převodu aktiva již nepatří odesílateli.
+Stručně řečeno, inovace Bitcoinu spočívá v návrhu řešení problému dvojího utrácení pomocí blockchainu založeného na [proof of work](https://planb.academy/resources/glossary/proof-of-work) s plovoucí obtížností. V digitálním světě se pojetí vlastnictví liší od fyzického světa. V digitálním světě lze totiž vše kopírovat a vkládat, což vytváří riziko vícenásobného použití digitálních hodnotných aktiv. Důvěryhodní zprostředkovatelé, jako jsou banky, byli vytvořeni proto, aby tento technologický problém vyřešili a zajistili, že po převodu aktiva již nepatří odesílateli.
 
 Jak to ale udělat bez důvěryhodného zprostředkovatele? Tento problém dobře popisuje problém byzantských generálů, problém koordinace informací v systému, kde různým aktérům nelze důvěřovat. V problému byzantských generálů musí skupina generálů koordinovat útok na město, ale někteří z nich mohou být zrádci, kteří se snaží plán narušit. Úkolem loajálních generálů je dosáhnout konsensu o tom, zda zaútočit, nebo ustoupit, přestože od zrádců dostávají potenciálně zavádějící zprávy.
 
@@ -903,7 +874,7 @@ Bitcoin je tedy určitým řešením, jak tento problém vyřešit nebo alespoň
 
 Těžaři jsou tvůrci zabezpečení sítě Bitcoin. Tím, že vynakládají energii na výrobu hashů, staví zeď, díky níž je pro škodlivého agenta extrémně nákladné přepsat historii transakcí, a tento ekonomický odrazující faktor odrazuje ostatní od nečestného chování.
 
-I v případě 51% útoku, kdy by agent disponoval více než polovinou hashrate, by síť zůstala bezpečná, protože útočník musí vynaložit tolik energie, kolik všichni těžaři dohromady, aby se pokusil změnit blockchain. Právě tento energeticky náročný mechanismus proof of work zajišťuje bezpečnost sítě.
+I v případě 51% útoku, kdy by agent disponoval více než polovinou hashrate, by síť zůstala bezpečná, protože útočník musí vynaložit tolik energie, kolik všichni těžaři dohromady, aby se pokusil změnit blockchain. Právě tento energeticky náročný mechanismus [proof of work](https://planb.academy/resources/glossary/proof-of-work) zajišťuje bezpečnost sítě.
 
 ### Shrnutí
 
@@ -1043,7 +1014,9 @@ Bitcoinová ekonomika existuje a vyvíjí se v určitých regionech světa, jako
 
 Nicméně, v El Salvadoru a v dalších částech světa je stále více jednotlivců, podniků a organizací, které přijímají bitcoin jako prostředek platby za své produkty nebo služby.
 
-![image](assets/cs/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
+
+*Zdroj : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
 Kromě toho byl spuštěn projekt [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), který je založen na otevřeném zdrojovém kódu a spolupráci a který má usnadnit používání bitcoinu při každodenních transakcích. Na této platformě jsou uvedeni všichni obchodníci, kteří přijímají bitcoiny, a také různé bitcoinové komunity po celém světě, takže můžete navštívit jejich webové stránky a objevit bitcoinový ekosystém ve svém okolí. Navzdory obtížím a váhání tedy existují iniciativy, jako je BTCMap, které přispívají k tomu, aby byla ekonomika bitcoinu dostupnější a pohodlnější pro všechny.
 

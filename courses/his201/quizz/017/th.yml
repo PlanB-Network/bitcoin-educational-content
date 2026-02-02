@@ -1,0 +1,9 @@
+question: Nick Szabo ได้นำเสนอแนวคิดของ bit gold เป็นครั้งแรกในปี 1998 ที่ไหน?
+answer: รายการส่งจดหมาย libtech-l
+wrong_answers:
+  - รายการส่งจดหมายไซเฟอร์พังค์
+  - รายชื่อผู้รับจดหมาย Cryptography
+  - รายชื่อผู้รับจดหมายของ extropians
+explanation: |
+  นี่คือรายชื่อผู้รับจดหมายส่วนตัวของเขา ซึ่งรวมถึงกลุ่มไซเฟอร์พังค์เช่น Wei Dai และ Hal Finney และนักเศรษฐศาสตร์อย่าง Larry White และ George Selgin
+reviewed: true

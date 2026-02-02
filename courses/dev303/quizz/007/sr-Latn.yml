@@ -1,0 +1,8 @@
+question: Koja je glavna prednost korišćenja komande `cargo check` tokom razvoja?
+answer: Izvodi provere kompilacije brže nego kompletna izgradnja bez generisanja izvršnih datoteka
+wrong_answers:
+  - Automatski ispravlja greške pri kompilaciji i probleme sa stilom koda u vašem projektu.
+  - Preuzima i ažurira sve zavisnosti projekta na njihove najnovije verzije
+  - Pokreće vaš program sa informacijama za debagovanje i detaljnim izveštavanjem o greškama.
+explanation: |
+  Komanda `cargo check` je dizajnirana za brzu iteraciju razvoja tako što obavlja sve iste provere kompilacije kao `cargo build`, ali preskače završni korak generisanja izvršnog fajla. Ovo je čini značajno bržom od kompletne izgradnje kada samo treba da proverite da li se vaš kod ispravno kompajlira. Pogrešni odgovori opisuju funkcionalnost drugih alata: Clippy i drugi linteri mogu predložiti ispravke, ali ih ne primenjuju automatski, `cargo update` upravlja ažuriranjima zavisnosti, a `cargo run` izvršava programe sa mogućnostima debagovanja.

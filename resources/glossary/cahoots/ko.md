@@ -1,5 +1,6 @@
 ---
-term: CAHOOTS
+term: Cahoots
+definition: Samourai Wallet에서 Stowaway 또는 Stonewall x2와 같이 사용자 간에 협력하여 수행하는 트랜잭션.
 ---
 
 사무라이 Wallet 및 이를 구현하는 기타 Wallet 소프트웨어의 맥락에서 캐훗은 여러 사용자 간에 공동으로 수행되는 모든 유형의 트랜잭션을 의미합니다.

@@ -1,0 +1,9 @@
+question: ฉันจะติดตั้งเครื่องมือ rgb ผ่าน Cargo ได้อย่างไร?
+answer: ติดตั้ง cargo rgb-contracts --all-features
+wrong_answers:
+  - ติดตั้ง cargo rgb --features all
+  - ติดตั้ง cargo rgb-bitcoin --all
+  - cargo build rgb-lightning --release
+explanation: |
+  การติดตั้งดำเนินการด้วยคำสั่ง "cargo install rgb-contracts --all-features", โดย crate มีชื่อว่า "rgb-contracts", ซึ่งจะติดตั้งเครื่องมือ rgb.
+reviewed: false

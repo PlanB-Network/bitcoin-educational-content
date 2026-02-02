@@ -1,0 +1,9 @@
+question: Quali criteri determinano la scelta della soluzione Lightning?
+answer: Frequenza d'uso e disponibilità alla gestione
+wrong_answers:
+  - Importi scambiati e velocità del protocollo
+  - Geolocalizzazione e istruzione
+  - Tolleranza al rischio e progettazione del software
+explanation: |
+  La scelta dipende principalmente dalla frequenza di utilizzo di Lightning e dall'interesse per la gestione tecnica.
+reviewed: false

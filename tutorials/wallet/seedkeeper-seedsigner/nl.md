@@ -507,4 +507,4 @@ Als deze opstelling je heeft overtuigd, aarzel dan niet om de projecten te steun
 
 - Door uw apparatuur rechtstreeks [op de website van Satochip] te kopen (https://satochip.io/shop/);
 - Door [een donatie te doen aan het SeedSigner project](https://seedsigner.com/donate/);
-- Door u te abonneren op het YouTube-kanaal van [Crypto Guide] (https://www.youtube.com/@CryptoGuide/), dat wordt beheerd door de persoon die de GitHub-repository onderhoudt waarop de gewijzigde firmware staat.
+- Door u te abonneren op het YouTube-kanaal van [Crypto Guide](https://www.youtube.com/@CryptoGuide/), dat wordt beheerd door de persoon die de GitHub-repository onderhoudt waarop de gewijzigde firmware staat.

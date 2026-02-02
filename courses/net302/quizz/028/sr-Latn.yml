@@ -1,9 +1,9 @@
-question: Koja je jedinica podataka koja prolazi kroz Transport Layer za TCP?
+question: Koja je jedinica podataka koja prolazi kroz transportni sloj za TCP?
 answer: Segment
 wrong_answers:
   - Datagram
   - Ram
   - Tok
 explanation: |
-  Na Transportnom sloju Layer sa TCP-om, jedinica podataka se naziva segment, dok UDP koristi termin paket.
-reviewed: false
+  Na transportnom sloju za TCP, jedinica podataka se naziva segment, dok UDP koristi termin paket.
+reviewed: true

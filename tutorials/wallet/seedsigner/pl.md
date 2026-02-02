@@ -95,7 +95,7 @@ Do zbudowania SeedSigner potrzebne będą następujące komponenty:
 - Obudowa (opcjonalna, ale zalecana)** (opcjonalna, ale zalecana)** (opcjonalna, ale zalecana)** (opcjonalna, ale zalecana)**)
     - Chroni urządzenie i ułatwia korzystanie z niego.
     - Najpopularniejszym modelem jest "*Orange Pill Case*", dla którego dostępne są pliki STL do druku 3D (https://github.com/SeedSigner/seedsigner/tree/dev/enclosureshttps://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
-    - Pudełka są również dostępne u [niezależnych sprzedawców powiązanych z projektem] (https://seedsigner.com/hardware/).
+    - Pudełka są również dostępne u [niezależnych sprzedawców powiązanych z projektem](https://seedsigner.com/hardware/).
 
 
 
@@ -289,7 +289,7 @@ Pomyślna weryfikacja gwarantuje, że plik `.img` jest zarówno autentyczny (pod
 
 
 
-Jeśli jeszcze go nie masz, pobierz oprogramowanie [Balena Etcher] (https://etcher.balena.io/), a następnie :
+Jeśli jeszcze go nie masz, pobierz oprogramowanie [Balena Etcher](https://etcher.balena.io/), a następnie :
 
 
 

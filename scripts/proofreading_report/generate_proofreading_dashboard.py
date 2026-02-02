@@ -50,7 +50,7 @@ LANGUAGE_NAMES = {
     'zh-Hans': 'Chinese (Simplified)', 'zh-Hant': 'Chinese (Traditional)',
     'ko': 'Korean', 'vi': 'Vietnamese', 'hi': 'Hindi', 'id': 'Indonesian',
     'fa': 'Persian', 'tr': 'Turkish', 'sw': 'Swahili', 'rn': 'Kirundi',
-    'bg': 'Bulgarian'
+    'bg': 'Bulgarian', 'th': 'Thai'
 }
 
 # Excluded contributors from leaderboards
@@ -64,10 +64,28 @@ def calculate_status(contributors):
     count = len(contributors)
     if count == 1:
         return 1
-    elif count == 2:
+    else:  # 2 or more
         return 2
-    else:  # 3 or more
-        return 3
+
+
+def extract_english_title(content_dir):
+    """Extract the English title from en.md file."""
+    en_file = Path(content_dir) / 'en.md'
+    try:
+        if en_file.exists():
+            with open(en_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+                # Extract YAML front matter
+                if content.startswith('---'):
+                    parts = content.split('---', 2)
+                    if len(parts) >= 3:
+                        yaml_content = parts[1]
+                        yaml_data = yaml.safe_load(yaml_content)
+                        return yaml_data.get('name', '')
+        return ''
+    except Exception as e:
+        print(f"Error extracting title from {en_file}: {e}")
+        return ''
 
 
 def parse_course_file(filepath, base_dir):
@@ -79,9 +97,14 @@ def parse_course_file(filepath, base_dir):
         # Extract course ID from path
         course_id = Path(filepath).parent.name
 
+        # Extract English title from en.md file
+        course_dir = Path(filepath).parent
+        english_title = extract_english_title(course_dir)
+
         course_data = {
             'id': course_id,
             'name': data.get('name', course_id.upper()),
+            'english_title': english_title,
             'type': 'course',
             'topic': data.get('topic', 'unknown'),
             'subtopic': data.get('subtopic', ''),
@@ -128,9 +151,14 @@ def parse_tutorial_file(filepath, base_dir):
         category = parts[-3]  # tutorials/category/name/tutorial.yml
         tutorial_name = parts[-2]
 
+        # Extract English title from en.md file
+        tutorial_dir = Path(filepath).parent
+        english_title = extract_english_title(tutorial_dir)
+
         tutorial_data = {
             'id': f"{category}/{tutorial_name}",
             'name': data.get('name', tutorial_name.replace('-', ' ').title()),
+            'english_title': english_title,
             'type': 'tutorial',
             'category': category,
             'level': data.get('level', 'unknown'),
@@ -1033,14 +1061,13 @@ def generate_html(data):
             --color-text: #2c3e50;
             --color-text-light: #7f8c8d;
             --color-border: #e1e8ed;
-            --color-primary: #3498db;
-            --color-primary-dark: #2980b9;
+            --color-primary: #ff6b00;
+            --color-primary-dark: #cc5500;
             --color-status-0: #e74c3c;
-            --color-status-1: #e67e22;
-            --color-status-2: #f39c12;
-            --color-status-3: #27ae60;
+            --color-status-1: #f39c12;
+            --color-status-2: #27ae60;
             --color-hover: #ecf0f1;
-            --color-purple: #9b59b6;
+            --color-purple: #ff8c42;
         }}
 
         * {{
@@ -1090,7 +1117,7 @@ def generate_html(data):
         .section h2 {{
             font-size: 1.5rem;
             margin-bottom: 1.5rem;
-            color: var(--color-primary);
+            color: #000000;
             border-bottom: 2px solid var(--color-border);
             padding-bottom: 0.5rem;
         }}
@@ -1257,12 +1284,12 @@ def generate_html(data):
         }}
 
         .matrix-table th {{
-            background: var(--color-purple);
-            color: white;
+            background: #dfe4ea;
+            color: #000000;
             padding: 0.75rem;
             text-align: center;
             font-weight: 600;
-            border: 1px solid var(--color-border);
+            border: 2px solid #ffffff;
             position: sticky;
             top: 0;
             z-index: 10;
@@ -1309,12 +1336,12 @@ def generate_html(data):
         }}
 
         .matrix-complete {{
-            background: var(--color-status-3);
+            background: var(--color-status-2);
             color: white;
         }}
 
         .matrix-partial {{
-            background: var(--color-status-2);
+            background: var(--color-status-1);
             color: white;
         }}
 
@@ -1394,7 +1421,6 @@ def generate_html(data):
         .status-0 {{ background: var(--color-status-0); }}
         .status-1 {{ background: var(--color-status-1); }}
         .status-2 {{ background: var(--color-status-2); }}
-        .status-3 {{ background: var(--color-status-3); }}
 
         .level-badge {{
             background: var(--color-purple);
@@ -1412,11 +1438,12 @@ def generate_html(data):
         }}
 
         .lang-stats-table th {{
-            background: var(--color-bg);
+            background: #dfe4ea;
+            color: #000000;
             padding: 0.75rem;
             text-align: left;
             font-weight: 600;
-            border-bottom: 2px solid var(--color-border);
+            border: 2px solid #ffffff;
         }}
 
         .lang-stats-table td {{
@@ -1619,7 +1646,7 @@ def generate_html(data):
         .toc-section h2 {{
             font-size: 1.3rem;
             margin-bottom: 1rem;
-            color: var(--color-primary);
+            color: #000000;
         }}
 
         .toc-nav {{
@@ -1728,7 +1755,7 @@ def generate_html(data):
         }}
 
         .monthly-intro {{
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #ff6b00 0%, #cc5500 100%);
             color: white;
             padding: 1.5rem;
             border-radius: 8px;
@@ -1837,11 +1864,12 @@ def generate_html(data):
         }}
 
         .monthly-lang-table th {{
-            background: var(--color-bg);
+            background: #dfe4ea;
+            color: #000000;
             padding: 0.75rem;
             text-align: left;
             font-weight: 600;
-            border-bottom: 2px solid var(--color-border);
+            border: 2px solid #ffffff;
         }}
 
         .monthly-lang-table td {{
@@ -1922,6 +1950,169 @@ def generate_html(data):
                 font-size: 1.3rem;
             }}
         }}
+
+        /* Resources Section at Bottom */
+        .resources-section {{
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 3rem 2rem;
+            margin-top: 3rem;
+            border-top: 3px solid var(--color-primary);
+        }}
+
+        .resources-container {{
+            max-width: 1200px;
+            margin: 0 auto;
+        }}
+
+        .resources-section h2 {{
+            text-align: center;
+            color: var(--color-primary);
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }}
+
+        .resources-intro {{
+            text-align: center;
+            color: var(--color-text-light);
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+        }}
+
+        .resources-grid {{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }}
+
+        .resource-card {{
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            text-decoration: none;
+            color: var(--color-text);
+            transition: all 0.3s;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border: 2px solid transparent;
+            display: block;
+        }}
+
+        .resource-card:hover {{
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+            border-color: var(--color-primary);
+        }}
+
+        .resource-card-icon {{
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            display: block;
+        }}
+
+        .resource-card-title {{
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            color: var(--color-text);
+        }}
+
+        .resource-card-desc {{
+            font-size: 0.9rem;
+            color: var(--color-text-light);
+            line-height: 1.5;
+        }}
+
+        .resource-type-badge {{
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            background: var(--color-primary);
+            color: white;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            margin-top: 0.5rem;
+            font-weight: 600;
+        }}
+
+        /* Thank You Section */
+        .thank-you-section {{
+            background: var(--color-card);
+            color: var(--color-text);
+            padding: 3rem 2rem;
+            text-align: center;
+            border-top: 4px solid var(--color-primary);
+        }}
+
+        .thank-you-section h2 {{
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--color-text);
+        }}
+
+        .thank-you-section p {{
+            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+            color: var(--color-text);
+        }}
+
+        .community-links {{
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }}
+
+        .community-link {{
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }}
+
+        .community-link.telegram {{
+            background: #0088cc;
+            color: white;
+        }}
+
+        .community-link.telegram:hover {{
+            background: #006699;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0,136,204,0.3);
+        }}
+
+        .community-link.discord {{
+            background: #5865F2;
+            color: white;
+        }}
+
+        .community-link.discord:hover {{
+            background: #4752C4;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(88,101,242,0.3);
+        }}
+
+        .community-icon {{
+            font-size: 1.5rem;
+        }}
+
+        @media (max-width: 768px) {{
+            .community-links {{
+                flex-direction: column;
+                align-items: stretch;
+            }}
+
+            .community-link {{
+                width: 100%;
+                justify-content: center;
+            }}
+        }}
     </style>
 </head>
 <body>
@@ -1945,6 +2136,7 @@ def generate_html(data):
                 <a href="#recent-contributions" class="toc-link">🕒 Last Proofreading Contributions</a>
                 <a href="#leaderboards" class="toc-link">🏆 Leaderboards</a>
                 <a href="#monthly-leaderboard" class="toc-link">📅 Monthly Language Team Leaderboard</a>
+                <a href="#resources" class="toc-link">📚 Proofreading Resources</a>
             </nav>
         </div>
 
@@ -2208,7 +2400,7 @@ def generate_html(data):
 
             [...courses, ...tutorials].forEach(item => {{
                 item.proofreading.forEach(pr => {{
-                    if (pr.status === 3) completeCount++;
+                    if (pr.status === 2) completeCount++;
                     if (pr.status === 0) urgentCount++;
                 }});
             }});
@@ -2395,7 +2587,7 @@ def generate_html(data):
 
             // Render header
             const header = document.getElementById('matrix-header');
-            header.innerHTML = '<th>Content</th>';
+            header.innerHTML = '<th>English Title</th><th>Code</th>';
             filteredLanguages.forEach(lang => {{
                 const th = document.createElement('th');
                 th.textContent = lang.code.toUpperCase();
@@ -2409,14 +2601,14 @@ def generate_html(data):
 
             if (data.length === 0) {{
                 const tr = document.createElement('tr');
-                tr.innerHTML = `<td colspan="${{filteredLanguages.length + 1}}" class="empty-state">No content found</td>`;
+                tr.innerHTML = `<td colspan="${{filteredLanguages.length + 2}}" class="empty-state">No content found</td>`;
                 tbody.appendChild(tr);
                 return;
             }}
 
             if (filteredLanguages.length === 0) {{
                 const tr = document.createElement('tr');
-                tr.innerHTML = `<td colspan="1" class="empty-state">Please select at least one language</td>`;
+                tr.innerHTML = `<td colspan="2" class="empty-state">Please select at least one language</td>`;
                 tbody.appendChild(tr);
                 return;
             }}
@@ -2424,11 +2616,17 @@ def generate_html(data):
             data.forEach(item => {{
                 const tr = document.createElement('tr');
 
-                // Content name cell
-                const nameTd = document.createElement('td');
-                nameTd.textContent = item.id;
-                nameTd.title = item.name;
-                tr.appendChild(nameTd);
+                // English title cell
+                const titleTd = document.createElement('td');
+                titleTd.textContent = item.english_title || '';
+                titleTd.title = item.english_title || '';
+                tr.appendChild(titleTd);
+
+                // Content code cell
+                const codeTd = document.createElement('td');
+                codeTd.textContent = item.id;
+                codeTd.title = item.name;
+                tr.appendChild(codeTd);
 
                 // Language cells (only for selected languages)
                 filteredLanguages.forEach(lang => {{
@@ -2436,14 +2634,13 @@ def generate_html(data):
                     const pr = item.proofreading.find(p => p.language === lang.code);
 
                     if (pr) {{
-                        const status = pr.status; // 0, 1, 2, or 3
-                        const total = 3;
+                        const status = pr.status; // 0, 1, or 2
+                        const total = 2;
                         const contributorCount = status;
-                        const percentage = Math.round((status / 3) * 100);
+                        const percentage = Math.round((status / 2) * 100);
 
                         let className = 'matrix-empty';
-                        if (status === 3) className = 'matrix-complete';
-                        else if (status === 2) className = 'matrix-partial';
+                        if (status === 2) className = 'matrix-complete';
                         else if (status === 1) className = 'matrix-partial';
 
                         td.className = className;
@@ -2540,8 +2737,8 @@ def generate_html(data):
 
             allItems.forEach(item => {{
                 const pr = item.proofreading;
-                const statusText = ['Urgent - No Contributors', 'Needs Review - 1 Contributor', 'In Progress - 2 Contributors', 'Complete - 3+ Contributors'][pr.status];
-                const contributorsNeeded = Math.max(0, 3 - pr.contributors.length);
+                const statusText = ['Urgent - No Contributors', 'In Progress - 1 Contributor', 'Complete - 2+ Contributors'][pr.status];
+                const contributorsNeeded = Math.max(0, 2 - pr.contributors.length);
                 const lastUpdate = pr.last_date ? `Last updated: ${{pr.last_date}}` : 'Never updated';
 
                 const div = document.createElement('div');
@@ -2669,7 +2866,7 @@ def generate_html(data):
                 const languageName = lang ? lang.name : contribution.language.toUpperCase();
                 const date = new Date(contribution.date);
                 const formattedDate = date.toLocaleDateString('en-US', {{ year: 'numeric', month: 'short', day: 'numeric' }});
-                const statusText = ['Needs Proofreading', 'In Progress (1)', 'In Progress (2)', 'Complete (3+)'][contribution.status];
+                const statusText = ['Needs Proofreading', 'In Progress (1/2)', 'Complete (2/2)'][contribution.status];
 
                 const div = document.createElement('div');
                 div.className = 'contribution-item';
@@ -2956,6 +3153,76 @@ def generate_html(data):
             }});
         }});
     </script>
+
+    <!-- Resources Section at Bottom -->
+    <section class="resources-section" id="resources">
+        <div class="resources-container">
+            <h2>📚 Proofreading Resources</h2>
+            <p class="resources-intro">
+                Learn how to proofread and review content effectively with our comprehensive guides and video tutorials
+            </p>
+
+            <div class="resources-grid">
+                <a href="https://planb.academy/en/tutorials/contribution/content/proofreading-guidelines-52348db0-8cd0-4658-9de4-0e8c25bea1a0"
+                   target="_blank" class="resource-card">
+                    <span class="resource-card-icon">📖</span>
+                    <div class="resource-card-title">Proofreading Guidelines</div>
+                    <div class="resource-card-desc">
+                        Complete guide on how to proofread educational content. Learn best practices, common mistakes, and quality standards.
+                    </div>
+                    <span class="resource-type-badge">GUIDE</span>
+                </a>
+
+                <a href="https://planb.academy/en/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017"
+                   target="_blank" class="resource-card">
+                    <span class="resource-card-icon">✅</span>
+                    <div class="resource-card-title">Review Tutorial</div>
+                    <div class="resource-card-desc">
+                        Step-by-step tutorial on reviewing and approving proofreading submissions in the platform.
+                    </div>
+                    <span class="resource-type-badge">TUTORIAL</span>
+                </a>
+
+                <a href="https://workspace.planb.network/s/7FK5scZRK5cxRmf"
+                   target="_blank" class="resource-card">
+                    <span class="resource-card-icon">🎥</span>
+                    <div class="resource-card-title">General Proofreading Process</div>
+                    <div class="resource-card-desc">
+                        Watch this video walkthrough of the complete proofreading workflow on GitHub, from start to finish.
+                    </div>
+                    <span class="resource-type-badge">VIDEO</span>
+                </a>
+
+                <a href="https://workspace.planb.network/s/RXq3ALHWZidASLD"
+                   target="_blank" class="resource-card">
+                    <span class="resource-card-icon">🎥</span>
+                    <div class="resource-card-title">Proofread Quizzes and Tutorial Sections</div>
+                    <div class="resource-card-desc">
+                        Learn how to proofread tutorial quizzes and course sections effectively using GitHub's review tools.
+                    </div>
+                    <span class="resource-type-badge">VIDEO</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Thank You Section -->
+    <section class="thank-you-section">
+        <h2>🙏 Thank You!</h2>
+        <p>Thank you to everyone who contributes to making Bitcoin education accessible worldwide.</p>
+        <p>Join the Plan ₿ Community and start proofreading now!</p>
+        <p style="font-size: 1rem; margin-top: 0.5rem; color: var(--color-text-light);">You only need to tag the admin to receive your first proofreading task!</p>
+        <div class="community-links">
+            <a href="https://t.me/PlanBNetwork_ContentBuilder" target="_blank" class="community-link telegram">
+                <span class="community-icon">💬</span>
+                <span>Join us on Telegram</span>
+            </a>
+            <a href="https://discord.com/invite/q9CFPmRNAD" target="_blank" class="community-link discord">
+                <span class="community-icon">💬</span>
+                <span>Join us on Discord</span>
+            </a>
+        </div>
+    </section>
 
     <!-- Back to Top Button -->
     <button class="back-to-top" aria-label="Back to top">↑</button>

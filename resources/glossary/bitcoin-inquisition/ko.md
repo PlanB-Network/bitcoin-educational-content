@@ -1,5 +1,6 @@
 ---
-term: Bitcoin 인퀴지션
+term: Bitcoin Inquisition
+definition: 테스트 네트워크에서 새로운 개선 제안을 테스트하기 위한 Bitcoin Core의 포크.
 ---
 
 Bitcoin 인퀴지션은 주로 시그넷과 같은 테스트 네트워크에서 통제된 환경에서 새로운 Bitcoin 개선 제안(BIPs)의 통합을 테스트하기 위해 설계된 Bitcoin core 소프트웨어의 Fork입니다. 예를 들어, 여기에는 BIP118(애니프리아웃) 및 BIP119(체크템플레이트버파이)에 대한 지원이 포함됩니다.

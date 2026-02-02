@@ -57,7 +57,7 @@ Umugambi uraboneka kuri iyi Address kuri **Github**:
 
 
 
-- [GitHub - Lynis] (Ubuhinga bwa none)
+- [GitHub - Lynis](Ubuhinga bwa none)
 - [Kura Lynis kuri CISOFY]
 
 
@@ -892,7 +892,7 @@ Ntimwibagire kuvugana n’imigwi yanyu imbere y’uko mushira mu ngiro: mukeneye
 
 
 
-Ubwa nyuma, urashobora kandi kugereranya **Lynis** n’ibindi bikoresho, muri vyo harimwo vyinshi. Niba ushaka kuja mu burongozi buhurikiye hamwe mu gihe uguma ufise inkomoko yuguruye, ndagusavye igikoresho [Wazuh] (https://wazuh.com/).
+Ubwa nyuma, urashobora kandi kugereranya **Lynis** n’ibindi bikoresho, muri vyo harimwo vyinshi. Niba ushaka kuja mu burongozi buhurikiye hamwe mu gihe uguma ufise inkomoko yuguruye, ndagusavye igikoresho [Wazuh](https://wazuh.com/).
 
 
 

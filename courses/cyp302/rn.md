@@ -1329,7 +1329,7 @@ Kugira ngo uronke ibindi biganiro ku vyerekeye inyigisho y’imibare yo muri iki
 **Ivyiyumviro:**
 
 
-[3] Raba [Ividewo yo kuri YouTube] (v=NOMUnMuxDZY&feature=youtu.be)
+[3] Raba [Ividewo yo kuri YouTube](v=NOMUnMuxDZY&feature=youtu.be)
 
 
 [4] Socratique, [Igitabu c'Aligebra](https://www.socratique.com/ikiganiro/igitabu-c'Aligebra)

@@ -1,5 +1,6 @@
 ---
-term: 纖維
+term: Fibre
+definition: 旨在加速比特幣區塊在全球範圍內傳播的協定。
 ---
 
 *Fast Internet Bitcoin Relay Engine*" 的縮寫。它是 Matt Corallo 在 2016 年設計的一個協定，用來加速 Bitcoin 區塊在全球的分佈。其目標是盡可能減少接近物理極限的傳播延遲。FIBRE 旨在確保更公平地分配 Mining 機會，方法是確保參與者挖出的區塊比例準確反映其在計算力方面的貢獻，而不論其在網絡中的位置如何。

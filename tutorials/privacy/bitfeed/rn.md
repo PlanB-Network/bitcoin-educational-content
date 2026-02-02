@@ -11,7 +11,7 @@ Bitfeed ni urubuga rwo gushushanya uruzitiro rw’umurongo wa Bitcoin. Yatangujw
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 Muri iyi nyigisho, turaza kuraba iki gikoresho, kigufasha gutohoza amafaranga yose n’amabuye yose ari ku rubuga.
 
@@ -95,7 +95,7 @@ Igikoresho ca mbere c’iyi block giserukira igikorwa ca **coinbase** gishoboza 
 
 
 
-https://planb.academy/courses/obtenir-ses-premiers-bitcoins-f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 Ku mburabuzi, amafaranga yo mu bubiko aserukirwa hakurikijwe ibigenderwako bibiri:
 

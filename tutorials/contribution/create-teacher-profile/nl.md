@@ -8,7 +8,7 @@ description: Hoe kan ik mijn docentenprofiel op Plan ₿ Academy toevoegen of wi
 Als je van plan bent bij te dragen aan Plan ₿ Academy door een nieuwe tutorial of cursus te schrijven, heb je een docentprofiel nodig. Met dit profiel ontvang je de juiste credits voor de inhoud die je bijdraagt aan het platform.
 
 
-Voor degenen die al betrokken zijn geweest bij het maken van educatieve inhoud op Plan ₿ Academy, heb je waarschijnlijk al een docentenprofiel. Je kunt het vinden in de `/professors` map [op onze GitHub repository] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Als je profiel al bestaat, dan vind je je login in het `professor.yml` bestand.
+Voor degenen die al betrokken zijn geweest bij het maken van educatieve inhoud op Plan ₿ Academy, heb je waarschijnlijk al een docentenprofiel. Je kunt het vinden in de `/professors` map [op onze GitHub repository](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Als je profiel al bestaat, dan vind je je login in het `professor.yml` bestand.
 
 
 Om je profiel te wijzigen, ga je naar het gedeelte "Je docentenprofiel bewerken" aan het einde van deze tutorial.
@@ -23,7 +23,7 @@ De makkelijkste manier om je docentenprofiel op Plan ₿ Academy aan te maken is
 ### 1 - Uw lokale omgeving configureren
 
 
-Je moet je eigen fork hebben van [Plan ₿ Academy repository op GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content).
+Je moet je eigen fork hebben van [Plan ₿ Academy repository op GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 
 Synchroniseer de hoofdbranch (`dev`) van je fork met het bronrepository.
@@ -157,7 +157,7 @@ Voor beginners raad ik aan om de wijziging direct via GitHub's web interface te 
 
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-Ga naar [de Plan ₿ Academy GitHub repository gewijd aan gegevens] (https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
+Ga naar [de Plan ₿ Academy GitHub repository gewijd aan gegevens](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
 
 
 ![Image](assets/fr/03.webp)

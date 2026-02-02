@@ -1,5 +1,6 @@
 ---
-term: POWIERZCHNIA ATAKU
+term: Powierzchnia ataku
+definition: Zbiór potencjalnych punktów wejścia, które atakujący może wykorzystać do uzyskania dostępu do systemu. Zmniejszenie tej powierzchni poprawia bezpieczeństwo.
 ---
 
 Odnosi się do całkowitej liczby potencjalnych punktów wejścia, które atakujący może wykorzystać w celu uzyskania dostępu do systemu. Powierzchnia ataku obejmuje wszystkie interfejsy, usługi, porty, protokoły i inne wektory komunikacji, które mogą zostać ujawnione. Rozszerzona powierzchnia ataku zwiększa podatność na ataki, czyniąc system bardziej podatnym na ataki. Zmniejszenie powierzchni ataku jest dobrą praktyką bezpieczeństwa, która obejmuje wyłączenie niepotrzebnych usług. Na przykład, w kontekście Bitcoin, portfele sprzętowe mają znacznie mniejszą powierzchnię ataku niż portfele programowe. Rzeczywiście, izolują one klucze na urządzeniu niepodłączonym do Internetu, posiadając bardzo niewiele interfejsów i usług. Natomiast portfele programowe są instalowane na wszechstronnych komputerach PC, które mają znacznie większą powierzchnię ataku ze względu na liczne funkcje i połączenia sieciowe, które obsługują.

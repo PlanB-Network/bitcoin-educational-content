@@ -1,6 +1,7 @@
 ---
-term: DNS SEEDS
+term: Dns seeds
 
+definition: 为加入比特币网络的新节点提供活跃节点 IP 地址的 DNS 服务器。
 ---
 新加入网络的比特币节点的初始连接点。这些种子实际上是特定的 DNS 服务器，它们的地址永久嵌入在 Bitcoin Core 代码中。当一个新节点启动时，它会联系这些服务器，以获得一个随机的 IP 地址列表，其中可能包含已启用的比特币节点。然后，新节点可以与列表中的节点建立连接，获取初始化区块下载（IBD）所需的信息，并与累积工作量最多的区块链同步。截至 2024 年，以下是Bitcoin Core DNS 种子列表及其维护负责人 (https://github.com/bitcoin/bitcoin/blob/master/src/kernel/chainparams.cpp)：
 

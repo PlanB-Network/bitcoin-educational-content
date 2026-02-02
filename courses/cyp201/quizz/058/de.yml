@@ -2,7 +2,7 @@ question: Welche Funktion wird verwendet, um den Seed aus der mnemonischen Phras
 answer: PBKDF2 mit HMAC-SHA512
 wrong_answers:
   - SHA256 allein
-  - Doppeltes SHA256
+  - Doppelte SHA256
   - AES-256
 explanation: |
   Der Seed wird mit der Funktion PBKDF2 mit HMAC-SHA512 und 2048 Iterationen aus der mnemonischen Phrase und der Passphrase generiert.

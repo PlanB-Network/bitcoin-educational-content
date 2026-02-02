@@ -1,0 +1,9 @@
+question: Hvilket av disse kriteriene er viktigst for peer-tilkobling?
+answer: Sentral posisjon i grafen
+wrong_answers:
+  - Navn på node i grafen
+  - Farge på nodene i grafen
+  - Antall meldinger i grafen
+explanation: |
+  En godt plassert node i Lightning-grafen gjør det enklere å rute til mange destinasjoner.
+reviewed: false

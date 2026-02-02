@@ -38,7 +38,7 @@ Denne kan brukes til å overføre:
 
 
 
-Dette krever at du har oppgradert [enhetens fastvare til versjon v1.3.2Q] (https://coldcard.com/docs/upgrade/) eller høyere.
+Dette krever at du har oppgradert [enhetens fastvare til versjon v1.3.2Q](https://coldcard.com/docs/upgrade/) eller høyere.
 
 
 
@@ -214,7 +214,7 @@ Deretter dekrypteres dataene og gjøres forståelige for mottakerenheten. Meldin
 
 
 
-Dette forutsetter at din Wallet Multisig allerede er opprettet, og at ColdCardQ-enheten din allerede er forhåndsinnstilt til å kunne utføre multisignaturtransaksjoner. Hvis dette ikke er tilfelle, finner du forklaringer [her] (https://coldcard.com/docs/Multisig/) på Coinkites nettsted.
+Dette forutsetter at din Wallet Multisig allerede er opprettet, og at ColdCardQ-enheten din allerede er forhåndsinnstilt til å kunne utføre multisignaturtransaksjoner. Hvis dette ikke er tilfelle, finner du forklaringer [her](https://coldcard.com/docs/Multisig/) på Coinkites nettsted.
 
 
 

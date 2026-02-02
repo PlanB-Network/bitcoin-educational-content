@@ -68,13 +68,13 @@ Meie koolituskursuse kolmandas osas läheme asja juurde: praktika! Eesmärk on o
 
 **4. jagu: Coinjoin-tehingute mõistmine**
 
-Kuidas me saame rääkida Bitcoini privaatsusest, ilma et mainiksime coinjoins'i? Jaotises 4 leiate kõik, mida selle segamismeetodi kohta teada peate. Saate teada, mis on coinjoinid, nende ajalugu ja eesmärgid, samuti erinevad olemasolevad coinjoini tüübid. Lõpuks vaatame kogenumatele kasutajatele, mis on anonsetid ja entroopia ning kuidas neid arvutada.
+Kuidas me saame rääkida Bitcoini privaatsusest, ilma et mainiksime [coinjoin](https://planb.academy/resources/glossary/coinjoin)s'i? Jaotises 4 leiate kõik, mida selle segamismeetodi kohta teada peate. Saate teada, mis on coinjoinid, nende ajalugu ja eesmärgid, samuti erinevad olemasolevad coinjoini tüübid. Lõpuks vaatame kogenumatele kasutajatele, mis on anonsetid ja entroopia ning kuidas neid arvutada.
 
 ![BTC204](assets/et/004.webp)
 
 **5. jagu: Teiste täiustatud konfidentsiaalsustehnikate probleemide mõistmine**
 
-Viiendas jaotises vaatleme kõiki teisi meetodeid, mis on saadaval teie privaatsuse kaitsmiseks Bitcoinis, välja arvatud coinjoin. Aastate jooksul on arendajad näidanud märkimisväärset loovust privaatsusele pühendatud vahendite väljatöötamisel. Vaatleme kõiki neid meetodeid, nagu payjoin, ühistehingud, Coin Swap ja Atomic Swap, kirjeldades üksikasjalikult nende toimimist, eesmärke ja võimalikke nõrkusi.
+Viiendas jaotises vaatleme kõiki teisi meetodeid, mis on saadaval teie privaatsuse kaitsmiseks Bitcoinis, välja arvatud coinjoin. Aastate jooksul on arendajad näidanud märkimisväärset loovust privaatsusele pühendatud vahendite väljatöötamisel. Vaatleme kõiki neid meetodeid, nagu [payjoin](https://planb.academy/resources/glossary/payjoin), ühistehingud, Coin Swap ja Atomic Swap, kirjeldades üksikasjalikult nende toimimist, eesmärke ja võimalikke nõrkusi.
 
 Samuti vaatleme privaatsust sõlmede võrgu ja tehingute levitamise tasandil. Samuti arutame erinevaid protokolle, mida on aastate jooksul pakutud kasutajate privaatsuse suurendamiseks Bitcoinis, sealhulgas staatiliste aadresside protokollid.
 
@@ -85,7 +85,7 @@ Kas olete valmis uurima Bitcoini privaatsuse keerdkäike? Lähme!
 
 <partId>b9bbbde3-34c0-4851-83e8-e2ffb029cf31</partId>
 
-## Bitcoini UTXO mudel
+## Bitcoini [UTXO](https://planb.academy/resources/glossary/utxo) mudel
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
@@ -572,7 +572,7 @@ Source : [Mempool.space](https://mempool.space/tx/db07516288771ce5d0a06b275962ec
 
 Viimase puhul näeme, et sisend nr 0 ja väljund nr 1 kasutavad P2WPKH skripte (SegWit V0), samas kui väljund nr 0 kasutab teistsugust P2PKH skripti (Legacy).
 
-2010. aastate alguses oli see skriptide versioonil põhinev heuristika suhteliselt vähekasulik, kuna skriptide tüübid olid piiratud. Aja jooksul ja järjestikuste Bitcoini uuendustega on siiski kasutusele võetud üha rohkem erinevaid skripttüüpe. Seetõttu muutub see heuristika üha asjakohasemaks, kuna skripti tüüpide laiema valiku korral jagunevad kasutajad väiksemateks gruppideks, mis suurendab selle sisemise versioonide taaskasutamise heuristika rakendamise võimalusi. Sel põhjusel on üksnes konfidentsiaalsuse seisukohalt soovitatav valida kõige levinum skriptitüüp. Näiteks, kui ma neid ridu kirjutan, kasutatakse Taproot-skripte (`bc1p`) harvemini kui SegWit V0-skripte (`bc1q`). Kuigi esimesed pakuvad teatud spetsiifilistes kontekstides majanduslikke ja konfidentsiaalsuse eeliseid, võib traditsioonilisemate ühe allkirja kasutusalade puhul olla mõistlik jääda konfidentsiaalsuse huvides vanema standardi juurde, kuni uus standard on laiemalt kasutusele võetud.
+2010. aastate alguses oli see skriptide versioonil põhinev heuristika suhteliselt vähekasulik, kuna skriptide tüübid olid piiratud. Aja jooksul ja järjestikuste Bitcoini uuendustega on siiski kasutusele võetud üha rohkem erinevaid skripttüüpe. Seetõttu muutub see heuristika üha asjakohasemaks, kuna skripti tüüpide laiema valiku korral jagunevad kasutajad väiksemateks gruppideks, mis suurendab selle sisemise versioonide taaskasutamise heuristika rakendamise võimalusi. Sel põhjusel on üksnes konfidentsiaalsuse seisukohalt soovitatav valida kõige levinum skriptitüüp. Näiteks, kui ma neid ridu kirjutan, kasutatakse [Taproot](https://planb.academy/resources/glossary/taproot)-skripte (`bc1p`) harvemini kui SegWit V0-skripte (`bc1q`). Kuigi esimesed pakuvad teatud spetsiifilistes kontekstides majanduslikke ja konfidentsiaalsuse eeliseid, võib traditsioonilisemate ühe allkirja kasutusalade puhul olla mõistlik jääda konfidentsiaalsuse huvides vanema standardi juurde, kuni uus standard on laiemalt kasutusele võetud.
 
 ### Ümmargused maksed
 
@@ -1417,7 +1417,7 @@ Sellest hoolimata on isikliku julgeoleku riskid. Peamine oht seisneb selles, et 
 
 ![BTC204](assets/et/089.webp)
 
-Selle riski piiramiseks soovitan teil eelistada sularahatehinguid usaldusväärsete isikutega, näiteks pereliikmete või lähedaste sõpradega. Alternatiivina võiksite kaaluda ka [kohalikel Bitcoini kohtumistel] (https://btcmap.org/communities/map) kauplemist, kui olete paar korda seal osalenud. See võimaldab teil teisi osalejaid paremini tundma õppida ja mitte olla füüsiliselt vahetades üksi. Siiski on oluline tunnistada, et P2P-sularahavahetusega kaasnevad olemuslikult riskid teie isiklikule turvalisusele, mida ei ole olemas, kui ostate reguleeritud platvormi ja pangakonto kaudu.
+Selle riski piiramiseks soovitan teil eelistada sularahatehinguid usaldusväärsete isikutega, näiteks pereliikmete või lähedaste sõpradega. Alternatiivina võiksite kaaluda ka [kohalikel Bitcoini kohtumistel](https://btcmap.org/communities/map) kauplemist, kui olete paar korda seal osalenud. See võimaldab teil teisi osalejaid paremini tundma õppida ja mitte olla füüsiliselt vahetades üksi. Siiski on oluline tunnistada, et P2P-sularahavahetusega kaasnevad olemuslikult riskid teie isiklikule turvalisusele, mida ei ole olemas, kui ostate reguleeritud platvormi ja pangakonto kaudu.
 
 Veelgi enam, sõltuvalt sellest, kus te elate, võib suurte rahasummade transportimine ja säilitamine olla riskantne, olenemata sellest, kas tegemist on bitcoini või sularahaga.
 
@@ -1457,7 +1457,7 @@ Mis puutub lahendustesse, siis mina isiklikult olen alati kasutanud [Bisq](https
 
 https://planb.academy/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
-Lihtsama variandi jaoks võite proovida [Peach] (https://peachbitcoin.com/), mobiilirakendust, mis ühendab ostjad ja müüjad sisseehitatud konfliktide lahendamise süsteemiga. Protsess on intuitiivsem kui Bisqi oma.
+Lihtsama variandi jaoks võite proovida [Peach](https://peachbitcoin.com/), mobiilirakendust, mis ühendab ostjad ja müüjad sisseehitatud konfliktide lahendamise süsteemiga. Protsess on intuitiivsem kui Bisqi oma.
 
 -> Vaata meie õpetust "Virsik".
 
@@ -3892,7 +3892,7 @@ BIP47 on laialdaselt kritiseeritud selle ebaefektiivsuse tõttu. Nagu eelmises p
 
 Teatud olukordades võib teavitustehing siiski olla kasutajale takistuseks. Võtame näiteks ühekordse annetuse saajale: klassikalise Bitcoini aadressi puhul piisab annetuse lõpuleviimiseks ühest tehingust. BIP47 puhul on aga vaja kahte tehingut: üks teavitamiseks ja teine tegelikuks maksmiseks. Kui nõudlus plokiruumi järele on väike ja tehingutasud madalad, ei ole see täiendav samm tavaliselt probleemiks. Ülekoormuse ajal võivad aga tehingutasud ühe makse eest muutuda ülemääraseks, mis võib kasutaja jaoks kahekordistada kulusid võrreldes tavalise Bitcoini tehinguga, mis võib osutuda kasutajale vastuvõetamatuks.
 
-Olukordade jaoks, kus kasutaja kavatseb teha ainult mõned maksed staatilisele identifikaatorile, on välja töötatud muid lahendusi. Nende hulka kuuluvad vaikivad maksed, mida on kirjeldatud dokumendis [BIP352] (https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki). See protokoll võimaldab kasutada staatilist identifikaatorit maksete vastuvõtmiseks ilma aadressi korduvkasutust tekitamata ja ilma, et oleks vaja kasutada teatamistehinguid. Vaatame, kuidas see protokoll töötab.
+Olukordade jaoks, kus kasutaja kavatseb teha ainult mõned maksed staatilisele identifikaatorile, on välja töötatud muid lahendusi. Nende hulka kuuluvad vaikivad maksed, mida on kirjeldatud dokumendis [BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki). See protokoll võimaldab kasutada staatilist identifikaatorit maksete vastuvõtmiseks ilma aadressi korduvkasutust tekitamata ja ilma, et oleks vaja kasutada teatamistehinguid. Vaatame, kuidas see protokoll töötab.
 
 ---
 *Selle peatüki täielikuks mõistmiseks on oluline omandada ECDH (Elliptic Curve Diffie-Hellman) ja krüptograafilise võtme tuletamise tööpõhimõte HD rahakotis. Neid mõisteid käsitleti üksikasjalikult eelmises peatükis BIP47 kohta. Ma ei hakka neid siinkohal kordama. Kui te ei ole nende mõistetega veel tuttav, soovitan teil enne selle peatüki jätkamist tutvuda eelmise peatükiga. Ma ei hakka siinkohal veel kord üle vaatama vastuvõtuaadresside korduvkasutamisega seotud riske ega ka seda, kui oluline on unikaalne identifikaator maksete vastuvõtmiseks *, vaid mainin siinkohal vaid mõned punktid, mida tahaksin siinkohal välja tuua

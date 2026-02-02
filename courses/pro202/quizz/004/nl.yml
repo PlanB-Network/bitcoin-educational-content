@@ -1,0 +1,8 @@
+question: Welke wiskundige bewerking wordt gebruikt om het punt P + Q op een elliptische kromme te vinden?
+answer: Trek een lijn door de punten P en Q, zoek het derde snijpunt R en spiegel R over de x-as
+wrong_answers:
+  - Tel de x-coördinaten en y-coördinaten van P en Q direct op met modulair rekenen
+  - Vermenigvuldig de coördinaten van P en Q met elkaar en pas de krommevergelijking toe om het resultaat te vinden
+  - Bereken het middelpunt tussen P en Q en pas dan de raaklijnmethode toe om de som te krijgen
+explanation: |
+  Puntentelling bij elliptische krommen volgt een specifieke meetkundige regel: trek een lijn door de twee punten P en Q, die de kromme snijdt in een derde punt R, en spiegel R over de x-as om P + Q te krijgen. Deze meetkundige bewerking wordt algebraïsch als je over eindige velden werkt, maar behoudt hetzelfde fundamentele principe. De andere opties beschrijven incorrecte methodes die de gevestigde groepswet voor elliptische krommen niet volgen.

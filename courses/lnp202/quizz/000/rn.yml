@@ -1,0 +1,9 @@
+question: None ubushobozi bw’umurongo w’umuravyo ni ubuhe?
+answer: Amahera yose yafunzwe
+wrong_answers:
+  - Amafaranga yose ariho mu nzira imwe
+  - Amafaranga menshi
+  - Umubare munini w'amahera ashoboka
+explanation: |
+  Ubushobozi bujanye n’umubare wose wa sats wabujijwe mu gisohoka c’umuyoboro w’amazi (multisig).
+reviewed: false

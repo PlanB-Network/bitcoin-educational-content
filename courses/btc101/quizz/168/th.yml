@@ -1,0 +1,8 @@
+question: วิธีหนึ่งในการลดความผันผวนของ Bitcoin คืออะไร?
+answer: การป้องกันความเสี่ยงทางการเงิน (stablecoins)
+wrong_answers:
+  - ลงทุนเงินทั้งหมดของคุณใน Bitcoin.
+  - การเพิกเฉยต่อแนวโน้มตลาด
+  - ซื้อ Bitcoin เพิ่มเมื่อราคาลดลง
+explanation: >-
+reviewed: true

@@ -1,6 +1,7 @@
 ---
-term: KODE BCH
+term: Kode BCH
 
+definition: Kode pengoreksi kesalahan yang digunakan dalam alamat Bech32 dan Bech32m untuk mendeteksi kesalahan input.
 ---
 
 Kelas kode koreksi kesalahan yang digunakan untuk mendeteksi dan mengoreksi kesalahan dalam urutan data. Dengan kata lain, kode koreksi kesalahan BCH digunakan untuk menemukan dan mengoreksi kesalahan acak dalam informasi yang ditransmisikan, untuk memastikan bahwa informasi tersebut tiba secara utuh di tempat tujuan. Akronim "BCH" adalah singkatan dari inisial nama-nama penemu kode-kode ini: Bose, Ray-Chaudhuri, dan Hocquenghem.

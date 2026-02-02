@@ -1,9 +1,9 @@
-question: Ni ikihe kintu nyamukuru kiranga ibimenyetso vy’ikoreshwa rimwe gusa bikoreshwa muri RGB?
-answer: Bishobora gupfungwa rimwe gusa .
+question: Ni ikihe kintu nyamukuru kiranga ibimenyetso vya Serire ikoreshwa rimwe ikoreshwa muri RGB?
+answer: Zishobora kwugarwa rimwe gusa.
 wrong_answers:
-  - Bishobora gupfungwa incuro zibiri gusa .
-  - Batanga ibanga ry'ibikorwa .
-  - Bikuraho ivy’uguhurizako ku bijanye na Blockchain.
+  - Zishobora kwugarwa incuro zibiri gusa.
+  - Zitanga ibanga ry'amahanahanwa .
+  - Zikuraho ivy’uguhurizako ku bijanye na Blockchain.
 explanation: |
-  Ivyuma bikoreshwa rimwe gusa birashoboza kurema amasezerano yihariye y’ubuhinga bwa none, bikabuza gusubiramwo canke gukoresha amahera kabiri.
-reviewed: false
+  Serire ikoreshwa rimwe gusa zituma habaho amasezerano yihariye y’ubuhinga bunyegeza inyandiko, bikabuza gusubiramwo canke kuriha incuro zibiri.
+reviewed: true

@@ -80,18 +80,19 @@ Machankura er en tjeneste som er utviklet og deretter knyttet til en GSM-kode fo
 
 
 
-| PAYS           | CODE USSD              |
+
+| LAND           | USSD-KODE              |
 | -------------- | ---------------------- |
 | Ghana          | `*920*8333#`           |
 | Kenya          | `*483*8333#`           |
 | Malawi         | `*384*8333#`           |
-| Namibie        | `*142*8333#`           |
+| Namibia        | `*142*8333#`           |
 | Nigeria        | `*347*8333#`           |
-| Afrique du Sud | `54052.co.za`          |
-| Tanzanie       | `SMS +255 679 066 977` |
-| Ouganda        | `SMS +256 744 830 624` |
-| Zambie         | `*384*8333#`           |
-| Côte d’Ivoire  | `*9141#`               |
+| Sør-Afrika | `54052.co.za`          |
+| Tanzania       | `SMS +255 679 066 977` |
+| Uganda        | `SMS +256 744 830 624` |
+| Zambia         | `*384*8333#`           |
+| Elfenbeinkysten  | `*9141#`               |
 
 Basert på denne tabellen kan vi se at land som Tanzania, Uganda og Sør-Afrika ikke har noen spesifikk USSD-kode for tjenesten.
 
@@ -101,7 +102,7 @@ Machankura tar imidlertid tak i dette problemet ved å utvide funksjonaliteten v
 
 
 
-For å bli informert om nye land der tjenesten vil være tilgjengelig, vennligst besøk deres [nettsted] (https://8333.mobi) regelmessig.
+For å bli informert om nye land der tjenesten vil være tilgjengelig, vennligst besøk deres [nettsted](https://8333.mobi) regelmessig.
 
 
 
@@ -301,7 +302,7 @@ En melding sendes automatisk til det forhåndsregistrerte nummeret, og brukeren 
 
 
 
-Du kan se [video sending demo] (https://www.linkedin.com/posts/activity-7351143606121820162-Ua3T?utm_source=share&utm_medium=member_android&rcm=ACoAAAeTubUB8GuaMia5yNBlBg4WhZpGOeVLY0w) av bitcoins av PIO TARAS (Lead Machankura Afrique Francophone) via Machankura på en grunnleggende telefon.
+Du kan se [video sending demo](https://www.linkedin.com/posts/activity-7351143606121820162-Ua3T?utm_source=share&utm_medium=member_android&rcm=ACoAAAeTubUB8GuaMia5yNBlBg4WhZpGOeVLY0w) av bitcoins av PIO TARAS (Lead Machankura Afrique Francophone) via Machankura på en grunnleggende telefon.
 
 
 
@@ -370,7 +371,7 @@ Den andre, som er en logisk forlengelse av den første, er å være en inkludere
 
 
 
-For å komme i gang må du skrive en melding til Machankuras WhatsApp-bot (et enkelt "Hei" er mer enn nok). WhatsApp-nummeret hans er [+27 73 762 5720] (https://wa.me/+27737625720).
+For å komme i gang må du skrive en melding til Machankuras WhatsApp-bot (et enkelt "Hei" er mer enn nok). WhatsApp-nummeret hans er [+27 73 762 5720](https://wa.me/+27737625720).
 
 
 

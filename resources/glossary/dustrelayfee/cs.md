@@ -1,6 +1,7 @@
 ---
-term: DUSTRELAYFEE
+term: Dustrelayfee
 
+definition: Parametr uzlu definující sazbu poplatku použitou pro výpočet limitu prachu.
 ---
 Standardizační pravidlo, které uzly sítě používají k určení toho, co považují za "hranici prašnosti" Tento parametr nastavuje sazbu poplatků v satech za virtuální kilobajt (saty/kvB), která slouží jako referenční hodnota pro výpočet, zda je hodnota UTXO nižší než poplatky nutné k jeho zahrnutí do transakce. UTXO je totiž v Bitcoinu považováno za "prach", pokud k převodu vyžaduje více poplatků, než je hodnota, kterou samo představuje. Výpočet tohoto limitu je následující:
 

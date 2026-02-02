@@ -1,6 +1,7 @@
 ---
 term: PBKDF2
 
+definition: Funktsioon krüptograafiliste võtmete tuletamiseks paroolist iteratsioonide kaudu.
 ---
 `PBKDF2` tähistab *Password-Based Key Derivation Function 2*. See on meetod krüptograafiliste võtmete loomiseks paroolist tuletamisfunktsiooni abil. See võtab sisendiks parooli, krüptograafilise soola ja rakendab nende andmete suhtes iteratiivselt eelnevalt määratud funktsiooni (sageli hash-funktsiooni nagu `SHA256` või `HMAC`). Seda protsessi korratakse mitu korda, et genereerida krüptograafiline võti.
 

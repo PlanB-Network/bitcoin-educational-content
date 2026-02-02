@@ -1,0 +1,8 @@
+question: Enligt Rust:s ägarsystem, hur många ägare kan ett värde ha vid varje givet tillfälle?
+answer: Exakt en ägare
+wrong_answers:
+  - Flera ägare är tillåtna
+  - Högst två ägare
+  - Inga ägare förrän tillträdet
+explanation: |
+  Rust:s ägarsystem bygger på tre grundläggande regler, där den första är att varje värde har exakt en ägare i varje givet ögonblick. Denna princip om en enda ägare är avgörande för minnessäkerheten eftersom den förhindrar att flera delar av programmet försöker frigöra samma minne eller modifiera data samtidigt. Att ha flera ägare skulle leda till "use-after-free"-buggar och datarace, medan att inte ha några ägare skulle innebära att minnet aldrig kan rensas upp ordentligt.

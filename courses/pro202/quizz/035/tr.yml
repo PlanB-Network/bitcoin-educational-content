@@ -1,0 +1,8 @@
+question: İşlem oluşturma sırasında bir P2SH girişi için imza oluştururken, sighash hesaplama işleminde hangi komut dosyası kullanılmalıdır?
+answer: Redeem komut dosyası, scriptPubKey yerine kullanılmalıdır
+wrong_answers:
+  - Hash içeren orijinal scriptPubKey doğrudan kullanılmalıdır
+  - Hem scriptPubKey hem de redeem script'in bir kombinasyonu kullanılmalıdır
+  - Bunun yerine kilit açma verilerini içeren ScriptSig kullanılmalıdır
+explanation: |
+  P2SH imza oluşturma sırasında, sighash işlemi scriptPubKey yerine redeem komut dosyasının kullanılmasını gerektirir. Bu çok önemlidir çünkü scriptPubKey gerçek harcama koşullarını değil, yalnızca redeem komut dosyasının özetini içerir. Redeem komut dosyası, çıktının nasıl harcanabileceğini belirleyen gerçek mantığı (multisig gereksinimleri gibi) içerir, bu nedenle imzaların geçerli olması için bu temel komut dosyasına göre oluşturulması gerekir. ScriptPubKey'i doğrudan kullanmak başarısız olur, çünkü karşılanması gereken gerçek harcama koşullarını değil, yalnızca bir karma karşılaştırma içerir.

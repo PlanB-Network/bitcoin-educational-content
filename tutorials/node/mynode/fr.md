@@ -3,7 +3,7 @@ name: My Node
 description: Configurez votre nœud Bitcoin MyNode
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 https://mynodebtc.com/
 

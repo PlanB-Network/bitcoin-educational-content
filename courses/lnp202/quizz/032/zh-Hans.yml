@@ -1,0 +1,9 @@
+question: 为什么要避免将非常大的节点作为第一通道？
+answer: 限制性政策
+wrong_answers:
+  - 低连接性
+  - 成本过低
+  - 缺乏流动性
+explanation: |
+  非常大的节点通常会规定很高的最低金额，并很容易关闭小通道。
+reviewed: false

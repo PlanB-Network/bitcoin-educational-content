@@ -1,5 +1,6 @@
 ---
-term: IVYANDITSWE
+term: Inscriptions
+definition: Ibirimo ivyo ari vyo vyose bishizwe kuri satoshis biciye kuri protocol ya Ordinals, bikora ibintu vy'agaciro vyo kuri internet (digital artifacts).
 ---
 
 Mu bijanye n’Ivyiyumviro vy’Ivya kera, inyandiko ni ibintu bitari vyo vyanditswe kuri Sats, bikabihindura ibikoresho vy’ubuhinga bwa none vy’akavukire vya Bitcoin. Ivyanditswe bikorwa biciye mu bikorwa vyerekana ibiri mu makuru ari mu nyandiko y’inyungu ya Taproot muri ubu buryo:

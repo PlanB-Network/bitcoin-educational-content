@@ -60,7 +60,7 @@ Die Anwendung benötigt ein paar Voraussetzungen, um richtig zu funktionieren. Z
 
 
 
-Um die `.apk` Datei über Tor herunterzuladen, brauchst du einen Browser, der auf `.onion` Seiten zugreifen kann. Am einfachsten ist es, die Tor-Browser-Anwendung auf deinem Handy zu installieren, die im [Google Play Store] (https://play.google.com/store/apps/details?id=org.torproject.torbrowser) oder direkt [über die `.apk`] (https://www.torproject.org/download/#android) erhältlich ist.
+Um die `.apk` Datei über Tor herunterzuladen, brauchst du einen Browser, der auf `.onion` Seiten zugreifen kann. Am einfachsten ist es, die Tor-Browser-Anwendung auf deinem Handy zu installieren, die im [Google Play Store](https://play.google.com/store/apps/details?id=org.torproject.torbrowser) oder direkt [über die `.apk`](https://www.torproject.org/download/#android) erhältlich ist.
 
 
 
@@ -98,7 +98,7 @@ Wenn Sie es sich wirklich nicht leisten können, Ihr eigenes Dojo zu betreiben, 
 
 
 
-Öffne auf deinem Handy den Tor-Browser und gehe zu [der offiziellen Ashigaru-Website] (https://ashigaru.rs/download/), im Bereich "Downloads". Klicke dann auf die Schaltfläche "Download für Android", um die Installationsdatei herunterzuladen.
+Öffne auf deinem Handy den Tor-Browser und gehe zu [der offiziellen Ashigaru-Website](https://ashigaru.rs/download/), im Bereich "Downloads". Klicke dann auf die Schaltfläche "Download für Android", um die Installationsdatei herunterzuladen.
 
 
 
@@ -114,7 +114,7 @@ Bevor wir die Anwendung auf Ihrem Gerät installieren, überprüfen wir ihre Aut
 
 
 
-Gehen Sie zurück zur [offiziellen Ashigaru-Website] (https://ashigaru.rs/download/) in den Abschnitt `Download` und kopieren Sie die Nachricht, die unter dem Titel `SHA-256 Hash der APK-Datei` angezeigt wird. Kopieren Sie den gesamten Block, von `BEGIN PGP SIGNED MESSAGE` bis `END PGP SIGNATURE`.
+Gehen Sie zurück zur [offiziellen Ashigaru-Website](https://ashigaru.rs/download/) in den Abschnitt `Download` und kopieren Sie die Nachricht, die unter dem Titel `SHA-256 Hash der APK-Datei` angezeigt wird. Kopieren Sie den gesamten Block, von `BEGIN PGP SIGNED MESSAGE` bis `END PGP SIGNATURE`.
 
 
 
@@ -122,7 +122,7 @@ Gehen Sie zurück zur [offiziellen Ashigaru-Website] (https://ashigaru.rs/downlo
 
 
 
-Öffne auf deinem Handy einen neuen Tab im Tor-Browser und gehe zu [dem Keybase-Verifizierungstool] (https://keybase.io/verify). Füge die soeben kopierte Nachricht in das dafür vorgesehene Feld ein und klicke dann auf die Schaltfläche "Überprüfen".
+Öffne auf deinem Handy einen neuen Tab im Tor-Browser und gehe zu [dem Keybase-Verifizierungstool](https://keybase.io/verify). Füge die soeben kopierte Nachricht in das dafür vorgesehene Feld ein und klicke dann auf die Schaltfläche "Überprüfen".
 
 
 
@@ -142,7 +142,7 @@ Wenn jedoch in diesem Stadium ein Fehler erscheint, bedeutet dies, dass die Sign
 
 
 
-Keybase hat Ihnen den Hash der Anwendung zur Verfügung gestellt. Wir werden nun überprüfen, ob der Hash der heruntergeladenen .apk-Datei mit dem von Keybase verifizierten Hash übereinstimmt. Gehen Sie dazu auf [HASH DATEI ONLINE] (https://hash-file.online/).
+Keybase hat Ihnen den Hash der Anwendung zur Verfügung gestellt. Wir werden nun überprüfen, ob der Hash der heruntergeladenen .apk-Datei mit dem von Keybase verifizierten Hash übereinstimmt. Gehen Sie dazu auf [HASH DATEI ONLINE](https://hash-file.online/).
 
 
 

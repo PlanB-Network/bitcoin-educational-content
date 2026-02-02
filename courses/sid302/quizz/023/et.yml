@@ -1,0 +1,8 @@
+question: Miks kasutab Mayfell Liquid võlakirjade rakendamisel Confidential Transactions spetsiaalselt Liquid, mitte läbipaistvaid plokiahela kirjeid?
+answer: Kaubanduslikud privaatsusnõuded nõuavad, et laenusummad jääksid nähtavaks ainult laenuandjale ja laenuvõtjale, säilitades samal ajal audiitorite kontrollimise võimalused
+wrong_answers:
+  - Mehhiko õigusnormide järgimine nõuab, et kõik finantstehingud peavad olema täielikult varjatud valitsuse järelevalve ja maksuameti eest
+  - Läbipaistvad kirjed tekitaksid skaleeritavuse kitsaskohti, mis takistaksid süsteemi nõutava 25 000+ võlakirja tõhusat töötlemist
+  - Laenusummade avalik nähtavus käivitaks automaatsed maksusündmused, mis muudaks sümboolika protsessi osalejate jaoks rahaliselt elujõuetuks
+explanation: |
+  Confidential Transactions lahendab ärilaenude valdkonnas kriitilise äriprobleemi: säilitada konkurentsivõimeline privaatsus, võimaldades samal ajal regulatiivsetele nõuetele vastavust. Traditsioonilises finantssektoris on ettevõtete vahelised laenusummad konfidentsiaalne äriteave, millele konkurendid ei tohiks ligi pääseda, kuid audiitorid ja reguleerivad asutused peavad kontrollima pearaamatu terviklikkust. Liquid Confidential Transactions saavutab selle tasakaalu, varjates krüptograafiliselt summad avalikkuse eest, võimaldades samal ajal volitatud osapooltel tehinguid kontrollida. Valed vastused moonutavad tehnoloogiat - CT ei peida tehinguid reguleerivate asutuste eest (privaatsus vs. salajasus), ei lahenda skaleeritavuse probleeme (see on eraldi tehniline probleem) ega loo maksustamise vältimise mehhanisme (seaduslikud privaatsusvahendid ei hoia kõrvale maksukohustustest).

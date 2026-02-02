@@ -1,6 +1,7 @@
 ---
-term: BITCOIN POOLED MINING (BPM)
+term: Bitcoin pooled mining (BPM)
 
+definition: Menetelmä palkkioiden laskemiseksi pooleissa, jossa osuudet (shares) arvotetaan syklissä kuluneen ajan perusteella.
 ---
 Toinen nimi, joka on annettu "SCORE BASED METHOD" -menetelmälle, jolla lasketaan kaivostyöläisten korvaukset kaivospooleissa. Se on suhteellinen palkkiomenetelmä, mutta sitä painotetaan osakkeen toimitusajankohdan mukaan. BPM arvottaa osakkeet kaivostoiminnan alkamisesta kuluneen ajan perusteella. Mitä myöhemmin osake on toimitettu syklin aikana, sitä korkeampi sen arvo on. Tämä menetelmä kannustaa louhijoita pysymään, koska aina kun he lopettavat louhinnan, heidän pistemääränsä pysähtyy, kun taas muiden pisteet kasvavat nopeammin.
 

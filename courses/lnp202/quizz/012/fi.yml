@@ -1,0 +1,9 @@
+question: Mikä on tärkein kompromissi LN:n ajoneuvosolmujen kanssa?
+answer: Operaattorin riippuvuus
+wrong_answers:
+  - Yksityisten avainten menetys
+  - Ei omahuoltajuutta
+  - Onchain-maksut pakollisia kaikissa Lightning-tapahtumissa
+explanation: |
+  Käyttäjä on vahvasti riippuvainen pääoperaattorista yhteyksien ja kanavien hallinnan osalta.
+reviewed: false

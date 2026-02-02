@@ -300,7 +300,7 @@ deb http://deb.debian.org/debian/ bullseye main
 
 
 
-بقیه مراحل در سایت [NtopNG] (https://packages.ntop.org/apt/) فهرست شده‌اند، جایی که برای Debian 11، نیاز دارید منابع Ntop را برای نصب‌های آینده اضافه کنید. این افزودن با استفاده از یک:
+بقیه مراحل در سایت [NtopNG](https://packages.ntop.org/apt/) فهرست شده‌اند، جایی که برای Debian 11، نیاز دارید منابع Ntop را برای نصب‌های آینده اضافه کنید. این افزودن با استفاده از یک:
 
 
 

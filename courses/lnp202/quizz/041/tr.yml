@@ -1,0 +1,9 @@
+question: ThunderHub'ı Umbrel üzerinde nereye kurabilirim?
+answer: App Store
+wrong_answers:
+  - SSH konsolu
+  - Sistem ayarları
+  - Interface Bitcoin Çekirdek
+explanation: |
+  ThunderHub, Umbrel App Store üzerinden bir uygulama olarak yüklenir.
+reviewed: false

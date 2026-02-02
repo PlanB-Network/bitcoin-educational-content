@@ -214,7 +214,7 @@ De gegevens worden vervolgens gedecodeerd en begrijpelijk gemaakt voor het ontva
 
 
 
-Dit veronderstelt dat uw Wallet Multisig al is aangemaakt en dat uw ColdCardQ apparaat al is ingesteld om multi-handtekening transacties uit te voeren. Indien dit niet het geval is, is er [hier] (https://coldcard.com/docs/Multisig/) uitleg beschikbaar op de Coinkite website.
+Dit veronderstelt dat uw Wallet Multisig al is aangemaakt en dat uw ColdCardQ apparaat al is ingesteld om multi-handtekening transacties uit te voeren. Indien dit niet het geval is, is er [hier](https://coldcard.com/docs/Multisig/) uitleg beschikbaar op de Coinkite website.
 
 
 

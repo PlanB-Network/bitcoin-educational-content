@@ -1,6 +1,7 @@
 ---
 term: OP_2ROT (0X71)
 
+definition: Opcode yang memindahkan elemen ke-5 dan ke-6 dari tumpukan ke bagian atas.
 ---
 Memindahkan dua elemen yang berada di posisi keenam dan kelima dari atas _stack_ ke atas _stack_. Misalnya, jika keadaan _stack_ awal adalah:
 

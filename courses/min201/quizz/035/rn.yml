@@ -1,11 +1,10 @@
-question: Hashrate ipima iki mu murongo wa Bitcoin?
-answer: Ivyo biharuro ku segonda
+question: Hashrate ipima iki mu muhora wa Bitcoin?
+answer: Ibiharuro ku musegonda
 wrong_answers:
-  - Umubare w'ibikorwa ku segonda
-  - Umubare w'ibice bikora
-  - Ingero y'umuyagankuba ukoreshwa n'urubuga
+  - Igiharuro c’ibikorwa ku segonda
+  - Igiharuro c’ibice bikora
+  - Urugero rw’umuyagankuba ukoreshwa n’ubuga
 explanation: |
-  Hashrate iri mu murongo wa Bitcoin ipima umubare w’abantu .
-  imibare ishobora gukorwa ku segonda. Ni urufunguzo
-  ikimenyetso c’ubuzima n’umutekano w’urubuga.
+  Hashrate iri mu muhora wa Bitcoin ipima Igiharuro c’ibiharuro bishobora gukorwa ku musegonda. Ni urufunguzo
+  rwikimenyetso c’ubuzima n’umutekano vy’umuhora.
 reviewed: true

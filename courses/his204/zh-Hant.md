@@ -1409,7 +1409,7 @@ Turgot 擬備了六份敕令，以改革法國經濟。
 「確切地 」也許是一種誇張的說法，因為在公開辯論中，這種詭辯經常重現。這也許就是孔迪拉克至今仍是一位鮮為人知的經濟學家的原因。除了奧地利經濟學家之外，很少人了解他的 Exchange 理論的重要性，也沒有人再對他感興趣。
 
 
-對於大多數經濟思想史學家來說，1776 年的標誌是創立了經濟科學的《國富論》的出版。我們剛剛上完的十五課，研究了亞當‧斯密之前的法國經濟科學，足以證明這種觀念的錯誤。此外，在同一年的 1776 年，另一本書或許比亞當‧斯密的著作更值得歷史學家讚揚：這本書是由孔迪拉克所寫的，書名很簡單，就是 [*Commerce and Government Considered in Their Mutual Relationship*] (https://archive.org/details/commercegovernme0000cond)。
+對於大多數經濟思想史學家來說，1776 年的標誌是創立了經濟科學的《國富論》的出版。我們剛剛上完的十五課，研究了亞當‧斯密之前的法國經濟科學，足以證明這種觀念的錯誤。此外，在同一年的 1776 年，另一本書或許比亞當‧斯密的著作更值得歷史學家讚揚：這本書是由孔迪拉克所寫的，書名很簡單，就是 [*Commerce and Government Considered in Their Mutual Relationship*](https://archive.org/details/commercegovernme0000cond)。
 
 
 ![image](assets/zh-Hant/085.webp)

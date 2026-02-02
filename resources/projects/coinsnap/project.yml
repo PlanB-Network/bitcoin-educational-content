@@ -1,0 +1,28 @@
+id: 84e651ef-cae5-4422-9ee1-fa7d6f44db52
+name: Coinsnap
+links:
+  website: https://coinsnap.io/
+  twitter: https://x.com/coinsnap_io
+  github: https://github.com/coinsnap/
+
+category: infrastructure
+
+tags:
+  - business
+  - user-friendly
+  - adoption
+
+
+contributor_names:
+  - heyolaniran
+
+
+# proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-12-19
+    urgency: 1
+    contributor_names:
+      - heyolaniran
+    reward: 0

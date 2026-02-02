@@ -1,0 +1,8 @@
+question: Jaké jsou dvě kritické ověřovací kontroly, které musí uzel Bitcoin provést při přijetí nového bloku před jeho přijetím do blockchainu?
+answer: Hash bloku musí být nižší než cílová obtížnost a vypočtený Merkleho kořen musí odpovídat Merkleho kořenu záhlaví
+wrong_answers:
+  - Časové razítko bloku musí být platné a všechny podpisy transakcí musí být kryptograficky ověřeny
+  - Velikost bloku musí být menší než 1 MB a předchozí hash bloku musí odkazovat na známý platný blok
+  - Verze bloku musí odpovídat konsensu sítě a celkové transakční poplatky musí být vyšší než odměna mining
+explanation: |
+  Zásada Bitcoin "nedůvěřuj, ověřuj" vyžaduje pro přijetí bloku přesně dvě základní kontroly: proof-of-work (hash bloku pod cílovou hodnotou obtížnosti) a ověření integrity transakce (Merkleho shoda s kořenem). I když jsou důležité i další kontroly, jako je ověření časového razítka, ověření podpisu a omezení velikosti, tyto dvě konkrétní kontroly zajišťují, že blok splňuje požadavky na obtížnost a obsahuje deklarované transakce bez manipulace.

@@ -1,0 +1,8 @@
+question: Wat is het primaire doel van het volgnummerveld in Bitcoin transactie-invoer?
+answer: Tijdsregistratie en de functie Vervanging door vergoeding (RBF) inschakelen
+wrong_answers:
+  - Om de volgorde op te geven waarin inputs door miners moeten worden verwerkt
+  - double-spending voorkomen door een unieke identificatie te maken voor elke ingang
+  - Om het prioriteitsniveau van de transactie voor het berekenen van kosten aan te geven
+explanation: |
+  Het volgnummerveld in Bitcoin transactie-inputs dient twee hoofddoelen: het implementeren van timelocks (die vertragen wanneer een transactie bevestigd kan worden) en het mogelijk maken van Replace-by-Fee (RBF) functionaliteit (die gebruikers toestaat om vergoedingen te verhogen voor onbevestigde transacties). De andere opties zijn onjuist omdat: inputs niet in een specifieke volgorde verwerkt hoeven te worden door miners, double-spending preventie wordt afgehandeld door het UTXO model en blockchain consensus in plaats van sequentienummers, en transactieprioriteit wordt bepaald door vergoedingspercentages in plaats van sequentienummers.

@@ -60,12 +60,12 @@ Olvid finns tillgänglig på alla plattformar. Du kan ladda ner applikationen di
 
 
 
-- [Google Play] (https://play.google.com/store/apps/details?id=io.olvid.messenger);
-- [App Store] (https://apps.apple.com/app/olvid/id1414865219);
+- [Google Play](https://play.google.com/store/apps/details?id=io.olvid.messenger);
+- [App Store](https://apps.apple.com/app/olvid/id1414865219);
 
 
 
-På Android är det också möjligt att [installera via APK] (https://www.olvid.io/download/).
+På Android är det också möjligt att [installera via APK](https://www.olvid.io/download/).
 
 
 

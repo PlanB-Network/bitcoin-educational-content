@@ -32,7 +32,7 @@ Hii inaweza kutumika kuhamisha:
 
 
 - Vifungu vya maneno vya **gW-0** (Nyimbo kuu ya seed ya ColdCard Q au siri zilizohifadhiwa katika [seed Vault] ya ColdCardQ)(https://coldcard.com/docs/temporary-seeds/#seed-vault).
-- **madokezo ya siri na manenosiri**: hii inaweza kuwa siri yoyote au saraka nzima ya [Vidokezo Salama na Manenosiri] (https://coldcard.com/docs/secure_notes/) kwenye ColdCardQ yako.
+- **madokezo ya siri na manenosiri**: hii inaweza kuwa siri yoyote au saraka nzima ya [Vidokezo Salama na Manenosiri](https://coldcard.com/docs/secure_notes/) kwenye ColdCardQ yako.
 - **chelezo ya ColdCardQ yako yote**: ColdCardQ inayopokea nakala hii lazima isiwe na seed Master ili hii ifanye kazi.
 - gW-3 (**Miamala ya Bitcoin Iliyotiwa Saini kwa Kiasi**) kama sehemu ya mpango wa sahihi nyingi.
 

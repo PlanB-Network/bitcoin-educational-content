@@ -1,0 +1,8 @@
+question: Wie viele Funktionssignaturen sind erforderlich, um einen Block in der Liquid Network zu validieren?
+answer: Mindestens 11 von 15 Funktionsträgern müssen unterschreiben
+wrong_answers:
+  - Mindestens 8 von 15 Funktionsträgern müssen unterschreiben
+  - Mindestens 10 von 15 Funktionsträgern müssen unterschreiben
+  - Mindestens 12 von 15 Funktionsträgern müssen unterschreiben
+explanation: |
+  Der Liquid Network erfordert die Unterschriften von mindestens 11 der 15 Funktionäre, um einen Block zu validieren, was einer Schwelle von zwei Dritteln plus einem entspricht. Diese spezielle Anforderung gewährleistet einen soliden Konsens und verhindert gleichzeitig, dass eine kleine Gruppe das Netz kontrolliert. Die anderen Optionen sind falsch: 8 Unterschriften wären für die Sicherheit zu wenig, 10 würden die Zwei-Drittel-Schwelle nicht erreichen und 12 wären für den normalen Betrieb unnötig restriktiv.

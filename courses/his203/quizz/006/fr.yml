@@ -1,0 +1,9 @@
+question: Quel pourcentage approximatif de l'activité sur la chaine de Bitcoin représentait Silk Road à la fin de l'été 2011 ?
+answer: 10 %
+wrong_answers:
+  - 3 %
+  - 30 %
+  - 90 %
+explanation: |
+ D'après un rapport ultérieur de Chainalysis, l'activité de Silk Road représentait près de 10 % du volume échangé sur la chaine de Bitcoin au début du mois de septembre 2011.
+reviewed: false

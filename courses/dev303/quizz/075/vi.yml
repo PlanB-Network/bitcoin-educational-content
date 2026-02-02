@@ -1,0 +1,8 @@
+question: Ưu điểm chính của việc sử dụng các phương thức map() và map_err() trên kiểu dữ liệu Result so với các mô hình xử lý lỗi try-catch truyền thống là gì?
+answer: Chúng cho phép xâu chuỗi các thao tác theo kiểu hàm trong khi vẫn giữ việc xử lý lỗi gần với các thao tác có thể thất bại.
+wrong_answers:
+  - Chúng tự động chuyển đổi tất cả các loại lỗi thành thông báo dạng chuỗi để dễ dàng gỡ lỗi và hiển thị cho người dùng.
+  - Chúng loại bỏ sự cần thiết của toán tử dấu chấm hỏi bằng cách cung cấp các cơ chế lan truyền lỗi tích hợp sẵn.
+  - Họ ngăn chặn tình trạng hoảng loạn bằng cách gói gọn tất cả các hoạt động có khả năng thất bại vào các vùng chứa Kết quả an toàn.
+explanation: |
+  Các phương thức `map()` và `map_err()` cho phép xử lý lỗi theo kiểu hàm, nơi bạn có thể xích chuỗi các thao tác và chuyển đổi giá trị hoặc lỗi ngay tại điểm chúng xảy ra. Điều này giữ cho logic xử lý lỗi gần với các thao tác có thể thất bại, không giống như các khối `try-catch` nơi việc xử lý lỗi được tách biệt khỏi các thao tác thực tế. Các tùy chọn khác không chính xác: các phương thức `map` không chuyển đổi lỗi thành chuỗi (đó là vai trò của `anyhow`), chúng hoạt động cùng với toán tử dấu hỏi chứ không phải thay thế nó, và chúng không ngăn chặn các lỗi nghiêm trọng (panic) mà chỉ cung cấp khả năng xử lý lỗi có cấu trúc cho `Results`.

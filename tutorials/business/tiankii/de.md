@@ -127,7 +127,7 @@ Die Nutzung von Tiankii erfordert keine komplexen technischen Voraussetzungen. D
 
 
 
-**Für private Nutzer (IBI App)**: Es ist kein vorheriger wallet Lightning erforderlich. Wenn Sie Ihr Konto erstellen, konfiguriert Tiankii automatisch ein funktionierendes Address Lightning über das [Breez SDK Liquid] (https://sdk-doc-liquid.breez.technology/guide/about_breez_sdk_liquid.html), eine nodeless Implementierung, die das Liquid Netzwerk im Hintergrund nutzt. Sie können sofort Zahlungen empfangen und senden, ohne dass eine technische Konfiguration erforderlich ist. Diese Lösung vereinfacht den Zugang für Einsteiger drastisch und bleibt dabei selbsterklärend.
+**Für private Nutzer (IBI App)**: Es ist kein vorheriger wallet Lightning erforderlich. Wenn Sie Ihr Konto erstellen, konfiguriert Tiankii automatisch ein funktionierendes Address Lightning über das [Breez SDK Liquid](https://sdk-doc-liquid.breez.technology/guide/about_breez_sdk_liquid.html), eine nodeless Implementierung, die das Liquid Netzwerk im Hintergrund nutzt. Sie können sofort Zahlungen empfangen und senden, ohne dass eine technische Konfiguration erforderlich ist. Diese Lösung vereinfacht den Zugang für Einsteiger drastisch und bleibt dabei selbsterklärend.
 
 
 

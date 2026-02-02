@@ -1,0 +1,8 @@
+question: Bir Bitcoin wallet gelen ödemeler için blokları tararken, ağ eşlerinden tek tek işlem talep etmek yerine neden tüm blokların indirilmesi tercih edilir?
+answer: Tüm blokların indirilmesi, wallet'nin hangi belirli işlemleri veya adresleri izlemekle ilgilendiğini göstermeyerek daha iyi gizlilik koruması sağlar
+wrong_answers:
+  - Blokların tamamını indirmek hesaplama açısından daha verimlidir çünkü işlemin gerçekliğini doğrulamak için daha az kriptografik hash işlemi gerektirir
+  - Tüm blokların indirilmesi, eşler tek tek işlem yanıtları yerine sıkıştırılmış blok verileri gönderebildiğinden daha hızlı senkronizasyon sağlar
+  - Blokların tamamının indirilmesi daha iyi güvenlik sağlar çünkü wallet'ün her işlem için proof-of-work'ün tamamını doğrulamasına olanak tanır
+explanation: |
+  Gizlilik, blok tabanlı erişimin en önemli avantajıdır. Bir wallet belirli işlemleri talep ettiğinde, kullanıcı etkinliği hakkında güçlü sinyaller sızdırır ve hangi adreslerin o wallet'e ait olduğunu ortaya çıkarır. Tüm blokların indirilmesi, wallet'in tüm blok işlemleri arasındaki gerçek ilgi alanlarını maskeler. Yanlış cevaplar verimlilik, hız ya da güvenlik avantajlarına odaklanır, ancak bunlar temel motivasyon değildir - bireysel işlem talepleri teorik olarak aynı derecede güvenli ya da verimli olabilir, ancak wallet'in izleme modellerini ağ eşlerine ifşa ederek gizliliği temelden tehlikeye atarlar.

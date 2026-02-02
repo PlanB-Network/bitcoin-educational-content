@@ -1,0 +1,8 @@
+question: Který příkaz Cargo provádí kontrolu kompilace bez generování spustitelného souboru?
+answer: kontrola nákladu
+wrong_answers:
+  - stavba nákladu
+  - nákladní jízda
+  - test nákladu
+explanation: |
+  Příkaz 'cargo check' provede všechny kontroly kompilace a ověří, zda se váš kód správně kompiluje, aniž by skutečně generoval konečný spustitelný soubor. Díky tomu je výrazně rychlejší než úplné sestavení, pokud chcete pouze ověřit správnost kódu. Naproti tomu příkaz 'cargo build' zkompiluje a vygeneruje spustitelné soubory, příkaz 'cargo run' zkompiluje i spustí program a příkaz 'cargo test' zkompiluje a spustí testy.

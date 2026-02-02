@@ -90,7 +90,7 @@ _Samuti võiksite kaaluda täiendava, valikulise, kuid soovitatava sammu astumis
 
 Video, mis kirjeldab ülalnimetatud lihtsaid samme
 
-Kui need lihtsad sammud tunduvad liiga keerulised, võiksite kaaluda Pixeli ostmist, millel on GrapheneOS tarkvara [eelinstalleeritud](https://ronindojo.io/en/roninmobile). Pidage lihtsalt meeles, et usaldate teenusepakkujat väikesel määral.
+Kui need lihtsad sammud tunduvad liiga keerulised, võiksite kaaluda Pixeli ostmist, millel on GrapheneOS tarkvara eelinstalleeritud (on ettevõtteid, kes neid müüvad). Pidage lihtsalt meeles, et usaldate teenusepakkujat väikesel määral.
 
 ### Eelinstalleeritud Rakendused
 
@@ -212,10 +212,10 @@ Viimastel aastatel on krüpteeritud sõnumivahetuslahendused muutunud arvukaks. 
 
 Enamik inimesi, kes ei huvitu privaatsuse valdkonnast, kasutavad tõenäoliselt WhatsAppi või iMessage'i. Esimest saab alla laadida Aurora poest, kuid viimane ei tööta GrapheneOS-is (ilmselgelt!).
 
-- [Signal](https://signal.org/) on üks populaarsemaid otsast lõpuni krüpteeritud (E2EE) sõnumivahetusrakendusi, millel on tugev ajalugu ja rikkalik funktsioonide komplekt. Signal nõuab registreerumiseks telefoninumbrit, nii et kui plaanite vestelda inimestega, kellele te ei sooviks oma telefoninumbrit avaldada, võiksite kaaluda mõnda alternatiivi. Signali tuleb alla laadida Aurora poest.
+- [Signal](https://signal.org/) on üks populaarsemaid otsast lõpuni krüpteeritud (E2EE) sõnumivahetusrakendusi, millel on tugev ajalugu ja rikkalik funktsioonide komplekt. Signal nõuab registreerumiseks telefoninumbrit, nii et kui plaanite vestelda inimestega, kellele te ei sooviks oma telefoninumbrit avaldada, võiksite kaaluda mõnda alternatiivi **_[või peita oma number profiili seadetes](https://support.signal.org/hc/en-us/articles/6712070553754-Phone-Number-Privacy-and-Usernames)_**. Signali tuleb alla laadida Aurora poest.
 - [Simplex](https://f-droid.org/en/packages/chat.simplex.app/) on suhteliselt uus E2EE sõnumivahetusrakendus. Sellel puudub kasutaja ID, see ei nõua telefoninumbrit ega isiklikku teavet. Inimesed leiavad teid, skaneerides teie isiklikku QR-koodi või külastades teie unikaalset linki. Simplex võimaldab ka edasijõudnud kasutajatel oma serverit käitada, vähendades veelgi sõltuvust mis tahes tsentraliseeritud üksusest. Simplexil puudub lauaarvuti klient, seega ei pruugi see olla sobiv, kui mitme seadme kasutamine on teie prioriteetide nimekirjas. Simplex Androidile on saadaval F-Droidi kaudu.
 - [Threema](https://threema.ch/en/faq/libre_installation) pakub sarnast kogemust Simplexiga, kuid on olnud olemas kauem ja seetõttu tundub veidi viimistletum. Threema ei ole tasuta, eluaegne litsents maksab 4,99 dollarit ja seda saab osta Bitcoinidega. Threema pakub veebiklienti ja lauaarvutirakendusi. Androidi rakendus on saadaval F-Droidi kaudu.
-- [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) on ametliku Telegrami rakenduse Androidile mitteametlik FOSS-fork. Telegramil on E2EE "salajased vestlused", kuid vaikimisi valik ei ole privaatne. Telegram FOSSi saab alla laadida F-Droidist.
+- [Mercurygram](https://f-droid.org/en/packages/it.belloworld.mercurygram/) on ametliku Telegrami rakenduse Androidile mitteametlik FOSS-fork. Telegramil on E2EE "salajased vestlused", kuid vaikimisi valik ei ole privaatne. Mercurygrami saab alla laadida F-Droidist.
 
 ![pilt](assets/fr/9.webp)
 Vasakul: Threema; Paremal: Simplex
@@ -232,14 +232,12 @@ https://planb.academy/tutorials/computer-security/communication/threema-24382d25
 
 ### Meedia
 - [Spotube](https://f-droid.org/packages/oss.krtirtho.spotube/) on platvormideülene Spotify klient, mis ei nõua Premium konto olemasolu. Spotube on saadaval F-Droidi kaudu.
-- [ViMusic](https://f-droid.org/en/packages/it.vfsfitvnm.vimusic/) on suurepärane rakendus, mis võimaldab tasuta striimida muusikat YouTube Musicust. ViMusic on saadaval F-Droidist.
 - [Newpipe](https://f-droid.org/packages/org.schabi.newpipe/) pakub YouTube'i kogemust ilma tüütute reklaamide ja küsitavate lubadeta. NewPipe'iga saate tellida kanaleid, kuulata taustal ja isegi alla laadida offline vaatamiseks. NewPipe on kättesaadav F-Droidi kaudu.
 - [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/) on podcastide mängija, mis võimaldab tellida ja hallata kõiki teie lemmiksaateid. AntennaPod on saadaval F-Droidi kaudu.
 
 ![image](assets/fr/11.webp)
 
-Vasakul: Spotube
-Paremal: ViMusic
+Spotube
 
 ### Kaardid
 
@@ -267,7 +265,7 @@ Paremal: Tutanota
 
 ### Tootlikkus
 
-- [Syncthing](https://f-droid.org/packages/com.nutomic.syncthingandroid/) on failide sünkroniseerimise programm. See sünkroniseerib faile reaalajas kahe või enama seadme vahel, olles kaitstud uudishimulike silmade eest. Teie andmed kuuluvad ainult teile ja teil on õigus valida, kus neid hoitakse, kas neid jagatakse kolmanda osapoolega ja kuidas neid interneti kaudu edastatakse. Syncthing on saadaval F-Droidi kaudu.
+- [Syncthing Fork](https://f-droid.org/en/packages/com.github.catfriend1.syncthingfork/) on failide sünkroniseerimise programmi fork. See sünkroniseerib faile reaalajas kahe või enama seadme vahel, olles kaitstud uudishimulike silmade eest. Teie andmed kuuluvad ainult teile ja teil on õigus valida, kus neid hoitakse, kas neid jagatakse kolmanda osapoolega ja kuidas neid interneti kaudu edastatakse. Syncthing Fork on saadaval F-Droidi kaudu.
 - [KDE Connect](https://f-droid.org/packages/org.kde.kdeconnect_tp/) võimaldab kõigil teie seadmetel kodus võrguga ühendudes omavahel lihtsalt suhelda. Saatke hõlpsalt faile, fotosid, lõikelaua andmeid kõikide oma seadmete vahel (isegi iOS-il!). KDE Connecti saab alla laadida F-Droidist.
 - [Notesnook](https://f-droid.org/en/packages/com.streetwriters.notesnook/) on E2EE märkmerakendus, mis võimaldab sünkroniseerida teie mõtteid ja to-do nimekirju kõikide oma seadmetega. Nende tasuta plaan peaks katma enamiku isiklikke kasutusjuhte. Notesnook on saadaval F-Droidis.
 - [Standard Notes](https://f-droid.org/en/packages/com.standardnotes/) on väga sarnane Notesnookiga, kuid vajab tasulise plaani olemasolu, et pakkuda samaväärset funktsionaalsust. Standard Notes on saadaval läbi F-Droidi.
@@ -281,13 +279,13 @@ Paremal: KDE Connect
 
 ### Elustiil
 
-- [Geometric Weather](https://f-droid.org/en/packages/wangdaye.com.geometricweather/) on ilusalt kujundatud avatud lähtekoodiga ilmarakendus, mis on saadaval F-Droidi kaudu. See toetab ka mitmesuguseid vidina suurusi, nii et saate oma valitud asukoha ilma kohe oma avakuvalt näha.
+- [Breezy Weather](https://f-droid.org/en/packages/org.breezyweather/) on funktsioonirikas avatud lähtekoodiga ilmarakendus Material 3 Expressive liidesega; pakub läbimõeldud visualiseeringuid, prognoose, reaalajas tingimusi, õhukvaliteeti, õietolmu, ilmahoiatusi enam kui 50 allikast.
 - [Translate You](https://f-droid.org/packages/com.bnyro.translate/) on avatud lähtekoodiga ja privaatsust säilitav tõlkerakendus, mis toetab enam kui 200 keelt. Translate You on saadaval F-Droidi kaudu.
 - [Proton Calendar](https://proton.me/calendar/download) on lihtsalt kasutatav E2EE kalender, mis suhtleb sujuvalt teie Protoni e-posti kontodega. Proton Calendari saab alla laadida APK-na või Aurora poest.
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) on rakendus pardakaartide, kupongide, kinopiletite ja liikmekaartide jms kuvamiseks ja talletamiseks. Lihtsalt laadige alla vastav `pkpass` või `espass` fail ja avage rakendusega. PassAndroid on saadaval F-Droidi kaudu.
 
 ![image](assets/fr/19.webp)
-Vasakul: Geometric Weather
+Vasakul: Breezy Weather
 Paremal: Proton Calendar
 
 ### Turvalisus/Privaatsus
@@ -296,7 +294,7 @@ Paremal: Proton Calendar
 - [Proton Pass](https://proton.me/pass/download) pakub sarnast tasuta teenust nagu Bitwarden, kuid [Proton Unlimited](https://proton.me/pricing) klientidele on kättesaadavad lisatud edasijõudnud funktsioonid. Proton Pass on saadaval APK või Aurora kaudu.
 - [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/) on kahefaktorilise autentimise rakendus süsteemidele, mis kasutavad ühekordse parooli protokolle. Tokeneid saab hõlpsasti lisada QR-koodi skaneerides. FreeOTP on saadaval F-Droidi kaudu.
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) on tasuta, turvaline ja avatud lähtekoodiga rakendus Androidile, et hallata teie 2-etapilise autentimise tokeneid teie veebiteenustele. Aegis on saadaval F-Droidi kaudu.
-- [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) on tasuline, platvormideülene teenus, mis krüpteerib teie andmed kohapeal, et saaksite need turvaliselt oma lemmikpilveteenusesse üles laadida. Cryptomatori saab alla laadida F-Droidi kaudu.
+- [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) on tasuta platvormideülene teenus (_tasuline ainult Google Play kaudu Androidis_), mis krüpteerib teie andmed kohapeal, et saaksite need turvaliselt oma lemmikpilveteenusesse üles laadida. Cryptomatori saab alla laadida F-Droidi kaudu.
 
 ![pilt](assets/fr/21.webp)
 Vasakul: Proton Pass

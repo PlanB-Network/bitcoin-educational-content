@@ -1,0 +1,8 @@
+question: Rust'ın closure özellik hiyerarşisinde tüm closure'ların uyguladığı en temel özellik nedir?
+answer: FnOnce
+wrong_answers:
+  - FnMut
+  - Fn
+  - Yineleyici
+explanation: |
+  FnOnce, Rust'de tüm kapanışların uyguladığı en temel özelliktir. En az bir kez çağrılabilen kapanışları temsil eder ve kapanış özelliği hiyerarşisinin temelini oluşturur. FnMut ve Fn, FnOnce üzerine inşa edilen daha kısıtlayıcı özelliklerdir - FnMut mutasyon ile birden fazla çağrıya izin verirken, Fn mutasyon olmadan birden fazla çağrıya izin verir. Iterator'ın closure özellikleriyle ilgisi yoktur ve veri dizilerini işlemek için kullanılır.

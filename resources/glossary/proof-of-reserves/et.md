@@ -1,5 +1,6 @@
 ---
-term: TÕEND BRONEERINGUTE KOHTA
+term: Reservide tõestus
+definition: Mehhanism, mis võimaldab vahetusplatvormidel tõestada, et nad hoiavad oma klientide bitcoine.
 ---
 
 Mehhanism, mida Bitcoin Exchange platvormid kasutavad, et näidata, et nad tegelikult hoiavad oma klientide vara. Eesmärk on tõestada ettevõtte maksevõimet, kontrollides, et tema bitcoinid on võrdsed või suuremad kui kasutajate saldod, mida nad peaksid hoidma.

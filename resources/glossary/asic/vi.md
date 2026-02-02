@@ -1,7 +1,8 @@
 ---
 term: ASIC
 
+definition: Một mạch tích hợp chuyên biệt được thiết kế để tính toán hash SHA256 cho khai thác Bitcoin, cung cấp hiệu quả năng lượng vượt trội so với CPU và GPU.
 ---
-An ASIC is an electronic component designed to perform a specific function with optimal efficiency. In the context of Bitcoin mining, ASICs are specialized integrated circuits that perform high-speed, low-energy hash operations. They specialize in executing the `SHA256` hash function used in the proof-of-work mechanism. Initially, ASIC refers to the name of the chip. By extension, the acronym "ASIC" often also refers to the machine that houses this chip. Thus, specialized computers in Bitcoin mining are sometimes called "ASICs," or "miners." ASICs have gradually replaced other mining methods, such as using processors (CPU) and graphics cards (GPU), due to their superior energy efficiency and much higher hash rate.
+ASIC là một linh kiện điện tử được thiết kế để thực hiện một chức năng cụ thể với hiệu suất tối ưu. Trong bối cảnh khai thác Bitcoin, ASIC là các mạch tích hợp chuyên dụng thực hiện các phép toán băm với tốc độ cao và mức tiêu thụ năng lượng thấp. Chúng chuyên về việc thực thi hàm băm `SHA256` được sử dụng trong cơ chế bằng chứng công việc. Ban đầu, ASIC là tên gọi của con chip. Theo nghĩa mở rộng, từ viết tắt "ASIC" thường cũng được dùng để chỉ máy móc chứa con chip đó. Do đó, các máy tính chuyên dụng cho việc khai thác Bitcoin đôi khi được gọi là "ASIC" hoặc "thợ đào". ASIC đã dần thay thế các phương pháp khai thác khác, như việc sử dụng bộ xử lý (CPU) trong giai đoạn đầu của Bitcoin và sau đó là card đồ họa (GPU), nhờ vào hiệu quả năng lượng vượt trội và tỷ lệ băm cao hơn nhiều.
 
-> *The acronym "ASIC" stands for "Application-Specific Integrated Circuit." In French, this term can be translated as "Circuit intégré spécifique à une application".*
+Từ viết tắt "*ASIC*" trong tiếng Anh có nghĩa là "*Application-Specific Integrated Circuit*".

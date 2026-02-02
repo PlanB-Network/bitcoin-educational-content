@@ -1,0 +1,8 @@
+question: Ni igiki gihambaye gikenewe mu bijanye n’umutekano kigomba gushitswako igihe umuntu akora nonce K mu kurema umukono wa ECDSA?
+answer: K itegerezwa kuba yihariye kandi idashobora kumenyekana ku musinya wose kugira ngo urufunguzo rw'ibanga ntirwenyurwe
+wrong_answers:
+  - K itegerezwa kuva ku rufunguzo rwa bose kugira ngo igenzura ry'umukono rikore neza
+  - K itegerezwa kuba imwe mu mikono myinshi kugira ngo ugume uhuye mu nzira yo gusinya .
+  - K itegerezwa kuba ingana n'urufunguzo rwihariye rwaguzwe n'ubutumwa hash kugira ngo imibare ibe nziza
+explanation: |
+  Nonce K itegerezwa kuba ari yo yonyene kandi idashobora kumenyekana ku musinya wose kuko gusubira gukoresha K canke kugira ngo imenyekane bituma abatera bashobora kugarura urufunguzo rw’ibanga. Iyo K imwe ikoreshejwe incuro zibiri n’ubutumwa butandukanye, aligebra yoroshe irashobora guhishura urufunguzo rw’ibanga. Ishirwa mu ngiro ry'ubu rikoresha uruvyaro rwa K (RFC 6979) kugira ngo umuntu yirinde gusenyuka kw'umubare w'imburakimazi mu gihe ashobora kumenya ko ari uwudasanzwe. Ayandi mahitamwo ntabwo ari meza: K ntikwiye kwigera ikomoka ku rufunguzo rwa bose, ntikwigera ikoreshwa, kandi ntikwigera ingana n'urufunguzo rw'ibanga incuro z'ubutumwa hash.

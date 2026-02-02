@@ -1,5 +1,6 @@
 ---
 term: BIP0012
+definition: Proposal introducing the OP_EVAL opcode for nested scripts, replaced by BIP16 (P2SH) for security reasons.
 ---
 
 Proposal by Gavin Andresen to enhance the flexibility and privacy of Bitcoin transaction scripts. This BIP suggests implementing a new script opcode, named `OP_EVAL`, which would allow the evaluation of a script contained within the data of a `scriptSig` during transaction validation. 

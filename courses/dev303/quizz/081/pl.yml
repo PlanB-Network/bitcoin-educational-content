@@ -1,0 +1,8 @@
+question: Jaki jest główny cel używania funkcji map_err() podczas łączenia operacji z typami Result w Rust?
+answer: Aby przekształcić typy błędów, pozostawiając wartości sukcesu niezmienione podczas propagacji błędów
+wrong_answers:
+  - Aby przekształcić wartości sukcesu, automatycznie propagując błędy bez modyfikacji
+  - Aby przekonwertować typy Result na typy Option, gdy błędy muszą zostać zignorowane
+  - Aby zapobiec propagacji błędów, konwertując wszystkie błędy na domyślne wartości powodzenia
+explanation: |
+  Metoda map_err() została specjalnie zaprojektowana do przekształcania typów błędów przy jednoczesnym zachowaniu niezmienionych wartości sukcesu. Ma to kluczowe znaczenie przy tworzeniu aplikacji warstwowych, w których różne komponenty wymagają różnych reprezentacji błędów. Na przykład, można przekonwertować niskopoziomowe błędy parsowania na błędy specyficzne dla domeny, które zapewniają lepszy kontekst. Pozostałe opcje są nieprawidłowe: map() przekształca wartości sukcesu (nie map_err()), map_err() nie konwertuje na typy Option i nie zapobiega propagacji ani nie tworzy domyślnych wartości sukcesu.

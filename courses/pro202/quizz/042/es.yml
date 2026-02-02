@@ -1,0 +1,8 @@
+question: Si el mecanismo de ajuste de dificultad de Bitcoin encuentra un escenario en el que los bloques anteriores de 2016 tardaron exactamente 6 semanas en extraerse en lugar de las 2 semanas esperadas, ¿qué factor de ajuste se aplicaría?
+answer: La dificultad se reduciría en un factor de 4 (reducción máxima permitida)
+wrong_answers:
+  - La dificultad se reduciría en un factor de 3 (6 semanas ÷ 2 semanas)
+  - La dificultad se reduciría en un factor de 2,5 para evitar la sobrecorrección
+  - La dificultad se reduciría en un factor de 6 en función de la relación de tiempo
+explanation: |
+  El ajuste de dificultad de Bitcoin tiene límites incorporados que restringen los cambios a un factor de cuatro en cualquier dirección. Aunque 6 semanas ÷ 2 semanas = 3, lo que sugiere una reducción de 3x, el protocolo limita los ajustes a 4x para evitar una volatilidad extrema. Este mecanismo de seguridad garantiza la estabilidad de la red durante cambios importantes en la tasa de hash, como prohibiciones de mining o fallos en los equipos, evitando una corrección excesiva que podría desestabilizar la sincronización de los bloques.

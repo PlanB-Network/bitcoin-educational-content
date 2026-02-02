@@ -1,0 +1,8 @@
+question: LDK'nın modüler bileşen mimarisi Lightning işlemleri için Donanım Güvenlik Modülü (HSM) entegrasyonunu nasıl sağlıyor?
+answer: Yıldırım işlemi bağlamını ve güvenlik etkilerini analiz edebilen belirli imzalama bileşenlerinin çıkarılmasına izin vererek
+wrong_answers:
+  - Bağımsız olarak çalışan ve şifreli kanallar aracılığıyla iletişim kuran eksiksiz bir HSM daemon sağlayarak
+  - Kriptografik işlemler için HSM yonga setleri ile doğrudan arayüz oluşturan donanıma özel sürücüler uygulayarak
+  - Lightning protokol mantığını tamamen HSM ortamında yürüten yalıtılmış kum havuzları oluşturarak
+explanation: |
+  LDK'nın modüler tasarımı, geliştiricilerin HSM entegrasyonu için yalnızca işlem imzalama ve doğrulama bileşenlerini çıkarmasına olanak tanır. Bu, basit imzalamanın ötesinde işlem bağlamını anlayan Lightning farkındalı imzalama cihazlarının oluşturulmasını sağlar - bir işlemin meşru ödemeleri, yönlendirme işlemlerini veya potansiyel güvenlik tehditlerini temsil edip etmediğini değerlendirebilirler. Diğer seçenekler, LDK'nın komple çözümler yerine birleştirilebilir bileşenler sağlamaya yönelik esnek, modüler felsefesiyle çelişen monolitik veya donanıma özgü yaklaşımları tanımlamaktadır.

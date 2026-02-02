@@ -1,0 +1,9 @@
+question: Manakah dari kriteria berikut ini yang paling penting untuk konektivitas peer?
+answer: Posisi tengah dalam grafik
+wrong_answers:
+  - Nama simpul dalam grafik
+  - Warna simpul dalam grafik
+  - Jumlah pesan dalam grafik
+explanation: |
+  Node yang diposisikan dengan baik dalam grafik Lightning memfasilitasi perutean ke banyak tujuan.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Milline on 102 kinnituse ooteaja peamine eesmärk Bitcoin-st Liquid-ni ülemineku ajal?
+answer: Kaitseks Bitcoin plokiahela reorganiseerimise eest enne L-BTC vermimist
+wrong_answers:
+  - Et föderatsioonil oleks piisavalt aega kasutajate identiteedi ja vastavuse kontrollimiseks
+  - Tagamaks, et Liquid võrgu läbilaskevõime on piisav sissetuleva tehingu töötlemiseks
+  - Et anda aega liidu liikmete 11-15 mitmekordse allkirjaga volituse andmiseks
+explanation: |
+  102 kinnituse ooteaeg (umbes 17 tundi) on spetsiaalselt loodud Bitcoin plokiahela ümberkujundamise eest kaitsmiseks. Kuna Bitcoin töötab tõenäosusliku lõplikkuse alusel, on alati väike võimalus, et plokke võidakse reorganiseerida, mis võib tehinguid kehtetuks muuta. Oodates 102 kinnitust, tagab süsteem, et Bitcoin tehing, mis saadab föderatsiooni aadressile raha, on sügavalt maetud ja selle tühistamine on äärmiselt ebatõenäoline. See hoiab ära stsenaariumi, kus L-BTC on vermitud Liquid-l, kuid selle aluseks olev Bitcoin-tehing tühistatakse reorganiseerimise tõttu. Teised valikud on valed, sest: identiteedi kontroll ei ole osa automaatsest peg-in-protsessist, võrgu võimsus ei ole piirav tegur, mis nõuab selliseid viivitusi, ja 11-of-15 multisig-autoriseerimist kasutatakse peg-outide, mitte peg-inide puhul.

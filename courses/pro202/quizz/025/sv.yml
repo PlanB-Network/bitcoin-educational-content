@@ -1,0 +1,8 @@
+question: Vid validering av P2PKH-transaktioner, vilken specifik sekvens av operationer utför ScriptPubKey för att verifiera utgiftsvillkoren?
+answer: Duplicerar den offentliga nyckeln, hashar den, jämför med den bekräftade hashen och verifierar sedan signaturen
+wrong_answers:
+  - Hashar signaturen, jämför med hashen för den offentliga nyckeln och verifierar sedan mot det bekräftade värdet
+  - Verifierar först signaturen, hashar sedan den offentliga nyckeln och jämför med den bekräftade hashen
+  - Kombinerar signaturen och den offentliga nyckeln, hashar resultatet och jämför sedan med den bekräftade hashen
+explanation: |
+  P2PKH:s ScriptPubKey följer en specifik sekvens: OP_DUP OP_HASH160 <pubkey_hash> OP_EQUALVERIFY OP_CHECKSIG. Detta duplicerar den tillhandahållna offentliga nyckeln, tillämpar SHA256 och sedan RIPEMD160-hashning, verifierar att resultatet matchar den bekräftade hashningen och kontrollerar slutligen signaturen. De andra alternativen beskriver felaktigt ordningsföljden eller föreslår hashning av signaturer i stället för offentliga nycklar, vilket skulle bryta valideringslogiken.

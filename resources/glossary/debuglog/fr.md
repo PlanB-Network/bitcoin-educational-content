@@ -1,5 +1,6 @@
 ---
-term: DEBUG.LOG
+term: Debug.log
+definition: Fichier de journalisation de Bitcoin Core contenant les erreurs et informations de débogage.
 ---
 
 Fichier contenant l'historique des événements de Bitcoin Core. Il contient des données de journalisation, telles que les messages d'erreur, les avertissements et d'autres informations de débogage. Ce fichier est utilisé pour résoudre d'éventuels problèmes techniques.

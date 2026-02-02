@@ -1,11 +1,10 @@
-question: Jaki był pierwszy Layer pieniądza w XIII-wiecznych Włoszech?
-answer: Złoto, reprezentowane przez floren
+question: Jaka była pierwsza warstwa pieniądza w XIII-wiecznych Włoszech?
+answer: Złoto, reprezentowane przez floren.
 wrong_answers:
-  - Rachunki Exchange
+  - Rachunki giełdowe
   - Weksle własne
   - Srebrne monety
 explanation: |
-  W XIII-wiecznych Włoszech, a konkretnie we Florencji, pierwszym pieniądzem Layer
-  było prawdziwe złoto, reprezentowane przez floren. Złotnicy emitowali weksle Exchange w
-  Exchange za zdeponowane floreny, które stanowiły drugi Layer pieniądza.
-reviewed: false
+  W XIII-wiecznych Włoszech, a konkretnie we Florencji, pierwszą warstwą pieniądza
+  było prawdziwe złoto - złotnicy emitowali weksle wymiany w zamian za zdeponowane złote floreny.
+reviewed: true

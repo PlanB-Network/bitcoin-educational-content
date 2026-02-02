@@ -1,5 +1,6 @@
 ---
 term: BIP0061
+definition: Ubutumwa bwo kwanka hagati y'ama node bwerekana igituma itunshwa canke blok atari vyo. Bwashizwe kuruhande muri Bitcoin Core 0.20.0.
 ---
 
 Yashizeho ubutumwa bwo kwanka mu nzira y’uguhanahana amakuru hagati y’ibice. Intumbero yayo yari iyo gutanga uburyo bwo gutanga inyishu kugira ngo iyo node yaronse igikorwa canke ububiko ibona ko ata co imaze, ishobore kumenyesha uwuyirungitse imvo y’uko yanse.

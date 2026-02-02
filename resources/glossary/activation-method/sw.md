@@ -1,5 +1,6 @@
 ---
-term: NJIA YA kuwezesha
+term: Njia ya kuwezesha
+definition: Mchakato ambapo jamii ya Bitcoin inaamua kuongeza soft fork, ikitaka heshima kati ya wakazi na watumiaji ili kuepuka mgawanyiko wa blockchain.
 ---
 
 Mbinu ya kuwezesha ni mchakato ambao jumuiya ya watumiaji huamua juu ya utekelezaji wa Soft Fork kwenye itifaki ya Bitcoin, inayolenga kuepuka mgawanyiko wa Blockchain. Utaratibu huu unahusisha kuomba maoni ya wachimbaji kuidhinisha Soft Fork kabla ya kuwezesha. Iwapo walio wengi watakubali Soft Fork, hatari ya mgawanyiko wa Blockchain itapunguzwa. Makubaliano haya ni muhimu kwa sababu kama wachimbaji wengi watakataa kufanya marekebisho, Soft Fork inaweza kuunda minyororo miwili tofauti: moja ikiwa na sheria zilizorekebishwa na nyingine bila. Kuna aina 2 kuu za njia za uanzishaji:

@@ -1,5 +1,6 @@
 ---
-term: OUTPUT
+term: Output
+definition: Output transaksi yang membuat UTXO baru yang ditujukan untuk sebuah alamat.
 ---
 
 Dalam konteks Bitcoin, output dalam sebuah transaksi mengacu pada _Unspent Transaction Outputs_ (UTXO) yang dipakai sebagai dana tujuan pembayaran. Lebih tepatnya, hal ini adalah mekanisme yang digunakan untuk mendistribusikan dana. Sebuah transaksi menggunakan UTXO, yaitu bit-bit bitcoin, sebagai "input" dan menciptakan UTXOs baru sebagai "output". Keluaran ini menetapkan jumlah bitcoin tertentu, yang biasanya dialokasikan ke alamat tertentu, serta kondisi di mana dana ini dapat digunakan di kemudian hari.

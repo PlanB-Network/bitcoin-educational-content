@@ -1,0 +1,8 @@
+question: Ni akamaro akahe k’intango k’ubuhinga bwo gukoresha kabiri no kwongerako ku bijanye n’ugukubita kw’ibiharuro mu buhinga bwo gukingira amakuru y’uruzitiro rw’uruzitiro?
+answer: Bigabanya uburemere bw'imibare kuva ku bikorwa vya O(n) gushika ku bikorwa vya O(log n)
+wrong_answers:
+  - Bikuraho ivy'imibare y'ibice mu bibanza bifise impera
+  - Ihindura ikibazo ca logarithme itandukanye mu muti w'igihe c'ibiharuro vyinshi
+  - Ishobora guharura ataco ihinduye imfunguruzo z'ibanga zivuye ku mfunguruzo za bose
+explanation: |
+  Igikoresho co kwongerako kabiri kigatuma habaho ugukora neza mu kugabanya uburemere bw’ibarabara kuva ku kwongerako kw’umurongo O(n) gushika ku bikorwa vya O(log n). Ivyo bikorwa mu gucapura igiharuro c’ibiharuro bibiri, gutera kabiri akarongo ku ntambwe yose, no kwongerako akarongo k’umuyagankuba gusa iyo bit ari 1. Ayandi mahitamwo ntaco amaze: imibare y’ibiharuro iracari ikenewe mu bibanza bifise impera, ingorane y’imibare y’ibiharuro itandukanye iguma idashoboka mu buryo bw’imibare ya bose (ivyo bishobora kuba ivy’ibanga kandi ari ivy’agaciro ku imfunguruzo utitaye ku buhinga bwo gukubita bukoreshwa.

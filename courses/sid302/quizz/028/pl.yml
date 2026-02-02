@@ -1,0 +1,8 @@
+question: Jaka jest krytyczna luka operacyjna, która wynika z modelu autoryzacji współpodpisywania przez AMP dla regulowanych transferów aktywów?
+answer: Płynność aktywów zostaje całkowicie wstrzymana, jeśli serwer AMP staje się niedostępny, ponieważ każdy transfer wymaga podpisu serwera
+wrong_answers:
+  - Opłaty transakcyjne rosną wykładniczo, gdy wielu współsygnatariuszy próbuje jednocześnie autoryzować przelewy
+  - Prywatność transakcji poufnych zostaje naruszona, ponieważ współpodpisywanie ujawnia czynniki zaślepiające obserwatorów sieci
+  - Posiadacze aktywów tracą kontrolę nad nimi, ponieważ mechanizm podpisywania współdzielonego przekazuje klucze prywatne do serwera AMP
+explanation: |
+  Model autoryzacji AMP wymaga, aby serwer AMP podpisywał każdy transfer aktywów, tworząc pojedynczy punkt awarii. Jeśli serwer przestanie działać, żadne transakcje nie będą mogły zostać zrealizowane, co skutecznie zamrozi płynność wszystkich aktywów. Inne opcje są nieprawidłowe: opłaty nie rosną wykładniczo przy współpodpisywaniu, prywatność transakcji poufnych pozostaje nienaruszona (tylko emitent zyskuje widoczność), a użytkownicy zachowują swoje klucze prywatne, podczas gdy serwer zapewnia jedynie podpisy autoryzacyjne.

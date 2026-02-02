@@ -1,10 +1,11 @@
 ---
-term: UTREEXO
+term: Utreexo
 
+definition: Protocollo che compatta il set UTXO dei nodi Bitcoin tramite un accumulatore basato sugli alberi di Merkle.
 ---
 Protocollo progettato da Tadge Dryja per compattare l'insieme UTXO dei nodi Bitcoin utilizzando un accumulatore basato sugli alberi di Merkle. A differenza dell'insieme UTXO classico, che richiede un notevole spazio di archiviazione, Utreexo riduce drasticamente la memoria necessaria memorizzando solo le radici dell'albero di Merkle. Ciò consente al nodo di verificare l'esistenza degli UTXO utilizzati negli input delle transazioni, senza dover conservare l'insieme completo degli UTXO. Utilizzando Utreexo, ogni nodo conserva solo un'impronta crittografica chiamata radice di Merkle. Quando viene effettuata una transazione, l'utente fornisce le prove di proprietà degli UTXO e i corrispondenti percorsi Merkle. In questo modo, il nodo può verificare le transazioni senza memorizzare l'intero set di UTXO. Facciamo un esempio con un diagramma per capire questo meccanismo:
 
-![](../../dictionnaire/assets/15.webp)
+
 
 In questo esempio, ho intenzionalmente ridotto il set di UTXO a 4 UTXO per facilitare la comprensione. In realtà, è importante immaginare che ci sono quasi 140 milioni di UTXO su Bitcoin al momento di scrivere queste righe. In questo diagramma, il nodo Utreexo avrebbe solo bisogno di mantenere la Merkle Root nella RAM. Se riceve una transazione che spende l'UTXO n. 3 (in nero), la prova consisterebbe nei seguenti elementi:
 

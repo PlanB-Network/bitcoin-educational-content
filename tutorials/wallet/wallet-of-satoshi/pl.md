@@ -4,6 +4,12 @@ description: Najprostszy Wallet do rozpoczęcia działalności
 ---
 ![cover](assets/cover.webp)
 
+---
+
+*Uwaga: od początku 2026 roku Wallet of Satoshi w trybie custodial (jak przedstawiono w tym poradniku) nie jest już dostępny na terenie Unii Europejskiej. Jeśli mieszkasz w tym regionie i chcesz nadal korzystać z tego narzędzia, będziesz musiał skorzystać z VPN zlokalizowanego poza UE. Inną opcją jest korzystanie z Wallet of Satoshi w trybie self-custodial. Dedykowany poradnik zostanie wkrótce opublikowany na Plan ₿ Academy.*
+
+---
+
 _Ten poradnik został napisany przez_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 

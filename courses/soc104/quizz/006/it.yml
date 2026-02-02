@@ -1,0 +1,11 @@
+question: Quali sono le cinque sezioni identificate nel diagramma politico Nolan Chart?
+answer: Statalismo (in basso), socialismo (a sinistra), conservatorismo (a destra), libertarismo (in alto) e centrismo (al centro)
+wrong_answers:
+  - Autoritarismo (in basso), Liberalismo (a sinistra), Nazionalismo (a destra), Anarchismo (in alto) e Populismo (al centro)
+  - Totalitarismo (in basso), progressismo (a sinistra), tradizionalismo (a destra), capitalismo (in alto) e moderatismo (al centro)
+  - Fascismo (in basso), comunismo (a sinistra), repubblicanesimo (a destra), democrazia (in alto) e pragmatismo (al centro)
+explanation: |
+  Il diagramma di Nolan divide specificamente lo spettro politico in cinque sezioni distinte basate sulla libertà economica e personale. Lo statalismo rappresenta
+  lo statalismo rappresenta il massimo controllo governativo in basso, mentre il libertarismo in alto rappresenta la massima libertà in entrambe le dimensioni. Il socialismo (a sinistra) sostiene la libertà personale
+  libertà personale ma si oppone alla libertà economica, mentre il conservatorismo (destra) sostiene la libertà economica ma limita la libertà personale. Il centrismo occupa la terra di mezzo,
+  mescolando elementi di entrambe le libertà con una certa regolamentazione.

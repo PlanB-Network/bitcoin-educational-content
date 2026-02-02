@@ -1,0 +1,8 @@
+question: Comment Jean-Baptiste Say concevait-il le rôle de la monnaie dans l'économie et en quoi cette vision influence-t-elle la pensée autrichienne?
+answer: La monnaie est uniquement un instrument de circulation des échanges, non une source de richesse en elle-même
+wrong_answers:
+  - La monnaie constitue une réserve de valeur fondamentale qui génère naturellement de la richesse par accumulation
+  - "La monnaie représente l'étalon absolu de mesure des prix qui détermine la valeur intrinsèque des biens"
+  - "La monnaie fonctionne comme un multiplicateur de richesse permettant d'augmenter la production par l'investissement"
+explanation: |
+  Jean-Baptiste Say considérait la monnaie comme un simple intermédiaire dans les échanges, facilitant les transactions sans créer de richesse par elle-même. Cette conception résonne parfaitement avec la vision autrichienne qui voit la monnaie comme un moyen d'échange plutôt qu'une fin. Les autres réponses sont incorrectes car elles attribuent à la monnaie des propriétés créatrices de richesse que Say rejetait, privilégiant plutôt la production réelle et l'entrepreneuriat comme sources véritables de prospérité économique.

@@ -1,0 +1,8 @@
+question: Mitä tapahtuu, kun muuttuja poistuu Rust:n omistusjärjestelmässä?
+answer: Arvo poistetaan automaattisesti ja sen muisti vapautetaan
+wrong_answers:
+  - Arvo siirretään uudelleenkäyttöä varten globaaliin alueeseen
+  - Arvo muuttuu muuttumattomaksi ja pysyy muistissa
+  - Arvo kopioidaan varmuuskopiointisäilöön varmuuden vuoksi
+explanation: |
+  Rust:n omistusjärjestelmässä muuttujan siirtyessä pois toimialueelta (tyypillisesti silloin, kun suoritus poistuu suluissa määritellystä lohkosta), arvo poistetaan automaattisesti ja sen muisti vapautetaan. Tämä automaattinen siivous toteutetaan Rust:n pudotusmekanismilla, jossa kieli kutsuu implisiittisesti pudotusfunktiota muuttujille, jotka poistuvat alueelta. Näin varmistetaan asianmukainen resurssienhallinta ilman, että ohjelmoijalta vaaditaan nimenomaista siivouskoodia, C++:sta lainatun RAII-mallin mukaisesti.

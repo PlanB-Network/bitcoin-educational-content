@@ -1,6 +1,7 @@
 ---
-term: BECH32 UND BECH32M
+term: Bech32 und bech32m
 
+definition: Kodierungsformate für SegWit-Adressen (beginnend mit bc1), die eine bessere Fehlererkennung und verbesserte Lesbarkeit im Vergleich zu Legacy-Adressen bieten.
 ---
 bech32" und "Bech32m" sind zwei Adresskodierungsformate für den Empfang von Bitcoins. Sie basieren auf einer leicht modifizierten Basis 32. Sie enthalten eine Prüfsumme, die auf einem Fehlerkorrekturalgorithmus namens BCH (*Bose-Chaudhuri-Hocquenghem*) basiert. Im Vergleich zu den "Legacy"-Adressen, die in "Base58check" kodiert sind, verfügen die "Bech32"- und "Bech32m"-Adressen über eine effizientere Prüfsumme, die die Erkennung und potenzielle automatische Korrektur von Tippfehlern ermöglicht. Ihr Format bietet auch eine bessere Lesbarkeit, da es nur Kleinbuchstaben enthält. Hier ist die Additionsmatrix für dieses Format zur Basis 10:
 

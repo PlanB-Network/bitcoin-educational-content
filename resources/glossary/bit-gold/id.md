@@ -1,5 +1,6 @@
 ---
-term: BIT GOLD
+term: Bit gold
 
+definition: Konsep mata uang digital terdesentralisasi Nick Szabo pada tahun 1998, pendahulu Bitcoin.
 ---
 _Bit gold_ adalah sistem mata uang digital terdesentralisasi yang dikonseptualisasikan oleh Nick Szabo pada tahun 1998 dan dijelaskan secara publik pada tahun 2005. _Bit gold_ dirancang untuk menghasilkan dan menukarkan sumber daya virtual yang disebut _bit gold_. Sistem ini tidak didasarkan pada barang fisik apa pun, tetapi bertujuan untuk menciptakan suatu bentuk kelangkaan yang tidak dapat dipalsukan. Protokol _bit gold_ mengandalkan pembuatan mata uang melalui _proof-of-work_, di mana kepingan _bit gold_ dibuat dengan menggunakan kekuatan komputasi komputer, sehingga membentuk sebuah rantai bukti kerja. Setiap bukti kerja diberi stempel waktu dan kemudian ditambahkan ke dalam daftar properti. Verifikasi dan transfer kepemilikan _bit gold_ dilakukan melalui registri publik, di mana pengguna diidentifikasi dengan kunci publik. _Bit gold_ tetap berada pada tahap konseptual dan tidak pernah diimplementasikan. Sistem ini merupakan salah satu pendahulu Bitcoin, bersama dengan _b-money_ dan _RPoW_, namun Satoshi tampaknya tidak menyadari keberadaannya sebelum penciptaan Bitcoin. Hal ini disebutkan kemudian di situs web dan forum Bitcoin.

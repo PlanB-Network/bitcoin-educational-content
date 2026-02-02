@@ -1,5 +1,6 @@
 ---
 term: NFT
+definition: Bitcoini üksus, mida tõlgendatakse mitteasendatavana ja mis on protokolli kaudu seotud välise varaga.
 ---
 
 Akronüüm *Non-Fungible Token*. NFT tähistab Bitcoin ühikut, mida teise Layer protokolli kasutajad tõlgendavad kui Bitcoin-välise vara, näiteks pildi või muud liiki andmete Ownership-ga seotud mittekõrvaldatavat ja mis on seotud Bitcoin-välise vara, näiteks pildi või muud liiki andmetega.

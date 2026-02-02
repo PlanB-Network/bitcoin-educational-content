@@ -1,5 +1,6 @@
 ---
 term: BIP0050
+definition: Berkeley DB에서 LevelDB로 전환하는 동안 발생하여 24개 블록의 재구성을 초래한 2013년 3월의 버그를 설명하는 정보 문서.
 ---
 
 BIP50은 버클리 DB에서 레벨DB로의 전환과 관련된 버그를 문서화한 유익한 BIP로, 2013년 3월 12일에 Bitcoin Blockchain의 체인 분할과 24블록의 대대적인 개편을 일으켰습니다.

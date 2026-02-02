@@ -1,5 +1,6 @@
 ---
-term: COINSWAP
+term: Coinswap
+definition: 通过智能合约在用户之间进行比特币所有权原子交换的协议。
 ---
 
 用户之间秘密转移 Ownership 的协议。这种方法旨在将比特币的所有权从一个人转移到另一个人，反之亦然，而不会在 Blockchain 上明确显示该 Exchange。Coinwap 使用智能合约进行转移，无需各方之间的信任。

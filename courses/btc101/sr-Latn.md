@@ -55,56 +55,28 @@ U ovom kursu ćemo diskutovati o nekim monetarnim aspektima Bitkoina, uključuju
 Važno je razumeti da je Bitkoin novi monetarni sistem koji potpuno menja naš odnos prema novcu, tako da je učenje kako ga koristiti neophodna veština za svakoga ko želi da ima kontrolu nad sopstvenim sredstvima.
 
 
-**Sekcija 1 - Uvod**
 
 
-- Poglavlje 1 - Pregled Kursa
-- Poglavlje 2 - Praistorija Bitkoina
 
 
-**Sekcija 2 - Novac**
 
 
-- Poglavlje 3 - Novac kroz istoriju
-- Poglavlje 4 - Fiat Valute
-- Poglavlje 5 - Hiperinflacija
-- Poglavlje 6 - 21 Milion bitkoina
 
 
-**Sekcija 3 - Bitkoin Novčanici**
 
 
-- Poglavlje 7 - Šta je Bitkoin novčanik?
-- Poglavlje 8 - Bitkoin novčanici i sigurnost
-- Poglavlje 9 - Podešavanje novčanika
-- Poglavlje 10 - Odolevanje vremenu - test vremena
 
 
-**Sekcija 4 - Tehnički aspekti Bitkoina**
 
 
-- Poglavlje 11 - Lansiranje Bitkoina
-- Poglavlje 12 - Bitkoin transakcije
-- Poglavlje 13 - Bitkoin čvorovi
-- Poglavlje 14 - Rudari
-- Poglavlje 15 - Bitkoin i ekologija
 
 
-**Section 5 - Kako doći do Bitkoina?**
 
 
-- Poglavlje 16 - Bitkoin nikad ne spava!
-- Poglavlje 17 - Zarađivanje bitkoina kroz rad
-- Poglavlje 18 - Štednja sa bitkoinom
-- Poglavlje 19 - Hiperbitkoinizacija
 
 
-**Sekcija 6 - Budućnost Bitkoina: Lightning Network**
 
 
-- Poglavlje 20 - Kratak uvod u Lightning Network
-- Poglavlje 21 - Upotreba Lightning Network-a 
-- Poglavlje 22 - Crvena pilula ili plava pilula?
 
 
 Pre nego što uvedemo definiciju novca i njegovu funkciju u društvu (Poglavlje 1), trebali bismo početi od Genesis (generisanja) Bitkoina. Lansiran 2009. godine, Bitkoin je relativno nova tehnologija za razliku od bilo čega drugog. Stoga je normalno ne razumeti sve o tome, odjednom. Zapravo, baš kao kada učite kako koristiti Internet ili voziti automobil, ne morate odmah znati sve tehničke detalje: možete početi učenjem kako primati, plaćati i osigurati svoja sredstva, a zatim postepeno proučavati to dublje.
@@ -122,7 +94,6 @@ Važno je da ovu novu tehnologiju razumete na opšti način, tako da se nadamo d
 Spremni da zaronite u fascinantan svet Bitkoina i razumete sve njegove unutrašnje mehanizme? Hajde da krenemo!
 
 
-**Napomena**: Ako tokom kursa naiđete na nepoznate termine, molimo vas da pogledate [glosar](https://planb.academy/resources/glossary) za definicije.
 
 ## Praistorija Bitkoina
 
@@ -186,7 +157,7 @@ Slika ispod jasno ilustruje razvoj pokreta kroz njegove mnoge tehnološke inovac
 ![image](assets/sr-Latn/005.webp)
 
 
-U ovom plodnom okruženju, misteriozni Satoshi Nakamoto objavio je Bitkoin whitepaper 2008. godine. U ovom dokumentu, on je kombinovao nekoliko ideja iz Cypherpunk pokreta, kao što su Proof of Work i kriptografski vremenski pečati, kako bi stvorio decentralizovanu i digitalnu valutu otpornu na cenzuru.
+U ovom plodnom okruženju, misteriozni Satoshi Nakamoto objavio je Bitkoin whitepaper 2008. godine. U ovom dokumentu, on je kombinovao nekoliko ideja iz Cypherpunk pokreta, kao što su [proof of work](https://planb.academy/resources/glossary/proof-of-work) i kriptografski vremenski pečati, kako bi stvorio decentralizovanu i digitalnu valutu otpornu na cenzuru.
 
 
 Međutim, Bitkoin je bio više od toga: predstavljao je ostvarenje ideala Cypherpunk-a. Pored svoje tehnologije, simbolizovao je revoluciju protiv tradicionalnih finansijskih sistema i ponudio alternativu zasnovanu na transparentnosti, decentralizaciji i individualnom suverenitetu.
@@ -304,7 +275,7 @@ Da bi ispunila ove kriterijume, valuta se istorijski evoluirala kroz različite 
 Valute i dalje evoluiraju do danas, prilagođavajući svoje oblike kako bi zadovoljile različite slučajeve upotrebe. Kao što smo rekli, iako je zlato odličan čuvar vrednosti, više nije pogodno za trenutnu globalizovanu ekonomiju. Slično tome, fiducijarne valute kao što su dolar i evro su vrlo likvidne i lako prenosive jer su sada uglavnom digitalne, ali njihova vrednost je konstantno smanjena monetarnom inflacijom.
 
 
-S druge strane, Bitkoin predstavlja nove mogućnosti. Njegova svojstva, kao što je strogo ograničena ponuda, čine ga odličnim čuvarom vrednosti. Štaviše, kao neutralna internet valuta, služi kao održivo **sredstvo razmene** koje prevazilazi granice. Međutim, i dalje nije široko prihvaćen u trgovini danas, uprkos njegovom [stalnom usvajanju](https://btcmap.org/map).
+S druge strane, Bitcoin otvara nove perspektive. Njegova svojstva, naročito strogo ograničena ponuda, čine ga odličnim čuvarom vrednosti. Takođe, kao neutralna internet valuta, predstavlja održivo **sredstvo razmene**, sposobno da prevaziđe granice. Ipak, uprkos kontinuiranom usvajanju (što ilustruje [mapa BTCmap](https://btcmap.org/map)), danas još uvek nije široko prihvaćen u trgovini.
 
 
 ## Fiducijarne valute
@@ -1003,7 +974,7 @@ Sada kada smo pokrili osnove Bitkoin novčanika i najbolje prakse za njihovu za�
 ![image](assets/sr-Latn/038.webp)
 
 
-31. oktobar 2008. označava rođenje nove finansijske tehnologije koja se zove Bitkoin. Tog dana, anonimni Satoshi Nakamoto predstavio je svoju inovaciju svetu putem emaila poslatog na mailing listu cypherpunks-a, zajednice entuzijasta kriptografije posvećenih promociji privatnosti na internetu. Ovaj email je sadržao dokument nazvan "White Paper", koji je predstavio kako Bitkoin funkcioniše.
+31. oktobar 2008. označava rođenje nove finansijske tehnologije koja se zove Bitkoin. Tog dana, anonimni Satoshi Nakamoto predstavio je svoju inovaciju svetu putem emaila poslatog na mailing listu cypherpunks-a, zajednice entuzijasta kriptografije posvećenih promociji privatnosti na internetu. Ovaj email je sadržao dokument nazvan "[White Paper](https://planb.academy/resources/glossary/white-paper)", koji je predstavio kako Bitkoin funkcioniše.
 
 
 Ova inicijativa nije odmah izazvala entuzijazam, verovatno zbog prethodnih neuspeha u pokušajima stvaranja sistema digitalnog novca. Ipak, ovaj White Paper je na kraju postao referenca za Bitkoin korisnike i bio je predmet mnogih debata u Bitkoin ekosistemu tokom godina.
@@ -1060,7 +1031,7 @@ Uprkos odsustvu Satoshija, Bitkoin je nastavio da se razvija: istorija Bitkoin-a
 Za neke, Bitkoin je definisan kao gljivični entitet poput [micelijuma](https://brandonquittem.com/bitkoin-is-the-mycelium-of-money/), dok ga drugi opisuju kao [crnu rupu](https://dergigi.com/). Voleli ga ili mrzeli, Bitkoin nastavlja da postoji, sa svojim konstantnim ritmom od 10 minuta po bloku, poput otkucaja srca novog monetarnog sistema.
 
 
-Da biste saznali više o spisima Satoshi-ja Nakamoto-a, preporučujemo čitanje ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) autora Phil Champagne ili ARTE dokumentarac "Le mystaire Satoshi".
+Radi dubljeg razumevanja spisa Satošija Nakamota, preporučujem čitanje knjige [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) Fila Šampanja, koja okuplja i kontekstualizuje njegove glavne tekstove, kao i dokumentarni film ARTE [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), koji nudi pristupačnu i dobro dokumentovanu istragu njegove identiteta i nasleđa.
 
 
 ![image](assets/sr-Latn/044.webp)
@@ -1113,7 +1084,7 @@ U ovoj fazi, transakcija je kreirana i Bobov novčanik će je podeliti sa Bitkoi
 U ovom trenutku, iako je ova transakcija poznata svima (putem alata zvanog Mempool), ne može se smatrati potvrđenom dok ne bude umetnuta u blok od strane rudara, koji je jedini koji potvrđuje transakcije uključujući ih u Blockchain.
 
 
-Zapravo, rudari imaju ulogu prikupljanja važećih i nepotvrđenih transakcija kako bi ih sastavili u blok. Ukratko, moraju rešiti kriptografski zadatak u procesu nazvanom "Proof of Work"(dokaz o radu) kako bi njihov blok bio sledeći u Bitkoin Blockchain-u.
+Zapravo, rudari imaju ulogu prikupljanja važećih i nepotvrđenih transakcija kako bi ih sastavili u blok. Ukratko, moraju rešiti kriptografski zadatak u procesu nazvanom "[proof of work](https://planb.academy/resources/glossary/proof-of-work)"(dokaz o radu) kako bi njihov blok bio sledeći u Bitkoin Blockchain-u.
 
 
 ![image](assets/sr-Latn/047.webp)
@@ -1122,7 +1093,7 @@ Zapravo, rudari imaju ulogu prikupljanja važećih i nepotvrđenih transakcija k
 ### Korak 3: Transakcija se rudari u bloku pod strane rudara.
 
 
-Sistem Proof of Work zahteva pronalaženje važećeg "Hash-a" za dati blok: zamislite to kao jedinstveni otisak prsta povezan sa blokom, sastavljen od 256 karaktera. Validnost ovog Hash-a zavisi od stepena težine Bitkoin mreže (o tome ćemo kasnije detaljnije). Za sada, uzmite u obzir da je rudar  pronašao važeći blok, i da je Bobova transakcija ka Alisi uključena u njega. Zatim, novi važeći blok se dodaje u Blockchain, zajednički Ledger za sve korisnike bitkoina.
+Sistem [proof of work](https://planb.academy/resources/glossary/proof-of-work) zahteva pronalaženje važećeg "Hash-a" za dati blok: zamislite to kao jedinstveni otisak prsta povezan sa blokom, sastavljen od 256 karaktera. Validnost ovog Hash-a zavisi od stepena težine Bitkoin mreže (o tome ćemo kasnije detaljnije). Za sada, uzmite u obzir da je rudar  pronašao važeći blok, i da je Bobova transakcija ka Alisi uključena u njega. Zatim, novi važeći blok se dodaje u Blockchain, zajednički Ledger za sve korisnike bitkoina.
 
 
 ![image](assets/sr-Latn/048.webp)
@@ -1236,16 +1207,16 @@ Nakon ove pobede, čvorovi su aktivirali ažuriranje pod nazivom SegWit, otvaraj
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
 
-**Rudari osiguravaju mrežu i dodaju transakcije u blokove. Koriste električnu energiju putem ASIC mašina da reše Bitkoin Proof of Work(dokaz o radu).**
+**Rudari osiguravaju mrežu i dodaju transakcije u blokove. Koriste električnu energiju putem [ASIC](https://planb.academy/resources/glossary/asic) mašina da reše Bitkoin [proof of work](https://planb.academy/resources/glossary/proof-of-work)(dokaz o radu).**
 
 
 ![image](assets/sr-Latn/054.webp)
 
 
-### Objašnjenje Proof of Work
+### Objašnjenje [proof of work](https://planb.academy/resources/glossary/proof-of-work)
 
 
-"Proof of Work" (POW) je mehanizam konsenzusa za bezbednost Bitkoin protokola. To je osnova svega i igra ključnu ulogu u teoriji igara Bitkoina.
+"[proof of work](https://planb.academy/resources/glossary/proof-of-work)" (POW) je mehanizam konsenzusa za bezbednost Bitkoin protokola. To je osnova svega i igra ključnu ulogu u teoriji igara Bitkoina.
 
 
 Da objasnimo kako to funkcioniše, zamislite univerzalnu lutriju u kojoj svako može učestvovati. Cilj je pronaći specifičan broj koji omogućava pobedniku da potpiše validan blok, zarađujući nagradu u bitkoinima. Ovaj broj je veoma jednostavan za verifikaciju korišćenjem SHA-256 Hash funkcije, ali ga je teško pronaći: učesnici (rudari) će pokušavati milijarde i milijarde mogućnosti, kao što su 1, 52, 2648, 26874615, 15344854131318631, i tako dalje, sve dok ne otkriju pravi.
@@ -1546,8 +1517,10 @@ Bitcoin ekonomija postoji i razvija se u određenim regionima sveta, kao što je
 Ipak, u El Salvadoru i u drugim delovima sveta, sve više pojedinaca, preduzeća i organizacija prihvata Bitcoin kao sredstvo plaćanja za svoje proizvode ili usluge.
 
 
-![image](assets/sr-Latn/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
 
+
+*Izvor : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
 Pored toga, pokrenut je  otvoreni i kolaborativni projekat, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), kako bi se olakšala upotreba bitkoin u svakodnevnim transakcijama. Ova platforma navodi sve trgovce koji prihvataju bitkoin, kao i različite bitkoin zajednice širom sveta, tako da možete posetiti njihov veb-sajt kako biste otkrili Bitkoin ekosistem oko vas. Tako, uprkos poteškoćama i oklevanjima, postoje inicijative poput BTCMap koje doprinose tome da Bitkoin ekonomija postane pristupačnija i pogodnija za sve.
 
@@ -1793,7 +1766,7 @@ Bitcoin blockchain je dizajniran tako da ga može proveravati što veći broj lj
 
 ![image](assets/sr-Latn/081.webp)
 
-Na Bitcoinu su programeri svesno donosili odluke kako bi favorizovali ove ciljeve. Sa jedne strane, veličina blokova ograničena na 1 MB i prosečno vreme od 10 minuta između dva bloka omogućavaju pokretanje Bitcoin čvora uz nizak trošak, što podstiče decentralizaciju mreže. Sa druge strane, proizvodnja blokova putem proof of work mehanizma čini svaki pokušaj prevare izuzetno skupim, dok istovremeno olakšava proveru čvorovima i jača ukupnu bezbednost protokola.
+Na Bitcoinu su programeri svesno donosili odluke kako bi favorizovali ove ciljeve. Sa jedne strane, veličina blokova ograničena na 1 MB i prosečno vreme od 10 minuta između dva bloka omogućavaju pokretanje Bitcoin čvora uz nizak trošak, što podstiče decentralizaciju mreže. Sa druge strane, proizvodnja blokova putem [proof of work](https://planb.academy/resources/glossary/proof-of-work) mehanizma čini svaki pokušaj prevare izuzetno skupim, dok istovremeno olakšava proveru čvorovima i jača ukupnu bezbednost protokola.
 
 Ove odluke, međutim, nameću važno ograničenje: broj transakcija koje se mogu uključiti u svaki blok je ograničen. To odgovara svega nekoliko transakcija u sekundi. Ovaj broj je zanemarljiv u poređenju sa kapacitetima centralizovanih platnih sistema poput Vise (koja ima teorijski maksimalni kapacitet od oko 65.000 transakcija u sekundi), ali to je cena koju treba platiti da bi se omogućile transakcije bez cenzure i bez posrednika od poverenja.
 

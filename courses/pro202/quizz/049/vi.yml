@@ -1,0 +1,8 @@
+question: Hai bước kiểm tra xác thực quan trọng nào mà một nút Bitcoin phải thực hiện khi nhận được một khối mới trước khi chấp nhận nó vào chuỗi khối?
+answer: Mã băm của khối phải nhỏ hơn độ khó mục tiêu và gốc Merkle được tính toán phải khớp với gốc Merkle của tiêu đề.
+wrong_answers:
+  - Dấu thời gian của khối phải hợp lệ và tất cả chữ ký giao dịch phải được xác minh bằng mật mã.
+  - Kích thước khối phải nhỏ hơn 1MB và mã băm của khối trước đó phải tham chiếu đến một khối hợp lệ đã biết.
+  - Phiên bản khối phải phù hợp với sự đồng thuận của mạng và tổng phí giao dịch phải vượt quá phần thưởng mining.
+explanation: |
+  Nguyên tắc "không tin tưởng, hãy xác minh" của Bitcoin yêu cầu chính xác hai bước kiểm tra cơ bản để chấp nhận khối: xác thực proof-of-work (mã băm khối thấp hơn mục tiêu độ khó) và xác minh tính toàn vẹn giao dịch (khớp với gốc Merkle). Mặc dù các bước kiểm tra khác như xác thực dấu thời gian, xác minh chữ ký và giới hạn kích thước cũng quan trọng, nhưng hai bước kiểm tra cụ thể này đảm bảo khối đáp ứng các yêu cầu về độ khó và chứa các giao dịch được khai báo mà không bị giả mạo.

@@ -1,5 +1,6 @@
 ---
 term: Mempool
+definition: Prostor u kojem svaki čvor čuva transakcije koje čekaju na uključivanje u blok.
 ---
 
 Kontrakcija termina "memorija" i "bazen". Ovo se odnosi na virtuelni prostor u kojem se Bitcoin transakcije koje čekaju uključivanje u blok grupišu zajedno. Kada se transakcija kreira i emituje na Bitcoin mreži, prvo je verifikuju čvorovi mreže. Ako se smatra validnom, zatim se smešta u Mempool svakog čvora, gde ostaje dok je ne odabere Miner za uključivanje u blok.

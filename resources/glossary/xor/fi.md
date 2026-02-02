@@ -1,6 +1,7 @@
 ---
 term: XOR
 
+definition: Kryptografiassa keskeinen looginen Boolen operaatio, joka on tosi vain, kun operandit ovat erilaiset.
 ---
 Toiminnon "Exclusive or" lyhenne, ranskaksi "Ou exclusif" Se on Boolen logiikan perustoiminto. Tämä operaatio ottaa kaksi Boolen operandia, joista kumpikin on $true$ tai $false$, ja tuottaa tuloksen $true$ vain silloin, kun nämä kaksi operandia eroavat toisistaan. Toisin sanoen XOR-operaation tulos on $true$, jos täsmälleen toinen (mutta eivät molemmat) operandeista on $true$. Esimerkiksi $1$:n ja $0$:n välinen XOR-operaatio antaa tulokseksi $1$. Huom:
 

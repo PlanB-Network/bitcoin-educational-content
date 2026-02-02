@@ -1,0 +1,8 @@
+question: Hvilken matematisk egenskap sikrer at ethvert element som ikke er null i et primtallfelt F(p), har en multiplikativ invers?
+answer: Feltet er definert av et primtall p
+wrong_answers:
+  - Feltet inneholder nøyaktig p-1 elementer
+  - Feltet bruker modulære aritmetiske operasjoner
+  - Feltet støtter addisjon og multiplikasjon
+explanation: |
+  Et endelig felt F(p) må være definert av et primtall p for å sikre at hvert element som ikke er null, har en multiplikativ invers. Dette er et grunnleggende krav i feltteori - når p er et primtall, danner heltallene modulo p et felt der divisjon alltid er mulig (bortsett fra med null). Hvis p var sammensatt, ville noen elementer som ikke er null, ikke ha inverser, noe som ville bryte feltstrukturen. Mens de andre alternativene beskriver egenskaper ved endelige felt, er det bare primaliteten til p som garanterer eksistensen av multiplikative inverser for alle elementer som ikke er null.

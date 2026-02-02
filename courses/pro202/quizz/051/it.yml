@@ -1,0 +1,8 @@
+question: Nella struttura del messaggio di rete P2P di Bitcoin, quali dati specifici costituiscono il campo di checksum a 4 byte in ogni busta di messaggio?
+answer: I primi 4 byte dell'hash256 del carico utile del messaggio
+wrong_answers:
+  - I primi 4 byte dell'hash SHA256 dell'intera busta del messaggio
+  - I primi 4 byte dell'hash256 del campo di comando concatenato con il payload
+  - I primi 4 byte dell'hash RIPEMD160 del payload del messaggio
+explanation: |
+  La busta del messaggio Bitcoin P2P utilizza un meccanismo di checksum specifico in cui il campo di checksum a 4 byte contiene i primi 4 byte dell'hash256 applicato solo al payload del messaggio. Ciò consente di verificare l'integrità dei dati del carico utile durante la trasmissione in rete. Le altre opzioni non sono corrette perché fanno riferimento a funzioni di hash diverse (SHA256 singolo, RIPEMD160) o a dati di input diversi (busta intera, comando+carico utile) rispetto a quanto effettivamente implementato dal Bitcoin nel suo protocollo di rete.

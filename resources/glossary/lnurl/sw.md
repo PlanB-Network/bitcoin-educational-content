@@ -1,5 +1,6 @@
 ---
 term: LNURL
+definition: Itifaki inayorahisisha mwingiliano wa Lightning kupitia URL zilizosimbwa kwa bech32.
 ---
 
 Itifaki ya mawasiliano inayobainisha seti ya vipengele vilivyoundwa ili kurahisisha mwingiliano kati ya nodi za Umeme na wateja, pamoja na programu za wahusika wengine. Itifaki hii inategemea HTTP na huwezesha viungo kuundwa kwa ajili ya shughuli mbalimbali, kama vile ombi la malipo, ombi la kujiondoa au vipengele vingine vinavyoboresha matumizi ya mtumiaji. Kila LNURL ni URL iliyosimbwa katika bech32 yenye kiambishi awali `lnurl`, ambayo, inapochanganuliwa, husababisha mfululizo wa vitendo otomatiki kwenye Lightning Wallet.

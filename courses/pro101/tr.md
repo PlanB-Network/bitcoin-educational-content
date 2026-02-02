@@ -11,7 +11,7 @@ objectives:
 
 Bitcoin üzerinde inşa etmek için ne gerekir? Bu 20 saatlik kurs sizi Bitcoin ve Lightning Network'ün yüzeyinin altına götürerek, dünyanın en dayanıklı finansal altyapısını güçlendiren protokolleri keşfetmenizi sağlar. İster açık kaynak projelerine katkıda bulunmak ister yeni nesil Bitcoin uygulamaları oluşturmak isteyin, bu ekosistemde güvenle çalışmaya başlamak için gereken teknik derinliği kazanacaksınız.
 
-El Salvador'daki CUBO+ 2023 bootcamp'i sırasında kaydedilen bu kurs, teknolojiyi şekillendirmiş önde gelen Bitcoin geliştiricilerinin ve eğitimcilerinin bakış açılarını bir araya getiriyor. En iyi yanı? Fulgure Venture, Bitcoin Office ve DecouvreBitcoin tarafından mümkün kılınan tamamen ücretsiz. Bitcoin'in protokol düzeyinde gerçekten nasıl çalıştığını merak ediyorsanız, bunu öğrenme şansınız bu.
+El Salvador'daki CUBO+ 2023 bootcamp'i sırasında kaydedilen bu kurs, teknolojiyi şekillendirmiş önde gelen Bitcoin geliştiricilerinin ve eğitimcilerinin bakış açılarını bir araya getiriyor. En iyi yanı? Fulgure Ventures, Bitcoin Office ve DecouvreBitcoin tarafından mümkün kılınan tamamen ücretsiz. Bitcoin'in protokol düzeyinde gerçekten nasıl çalıştığını merak ediyorsanız, bunu öğrenme şansınız bu.
 +++
 # Giriş ve Hazırlık Kursları
 
@@ -59,7 +59,7 @@ Kurs boyunca katılımcılar, anlayışlarına yardımcı olacak ve öğrenme de
 
 :::video id=ff820fb2-83d4-450f-bda0-17cc5044a902:::
 
-Cubo Plus** eğitim programının ilk dersine hoş geldiniz. Bugün, **Bitcoin Italia Podcast**'in kurucusu Ricky'nin liderliğinde Bitcoin dünyasına dalıyoruz. Ricky, Bitcoin'yı insan haklarını korumak ve teşvik etmek için bir araç olarak kullanan tutkulu bir insan hakları aktivistidir. Altı yılı aşkın deneyimiyle Ricky, El Salvador ve Guatemala gibi gelişmekte olan pazarlarda Bitcoin'nın benimsenmesini belgelemek için kapsamlı seyahatler gerçekleştirmiştir. Çalışmaları podcast yayıncılığının ötesine geçiyor; YouTube (**Bitcoin Explorers**) ve Twitter'da (**BTC Explorer**, **Ricky6**) da aktif. Ricky'nin Commitment'ten Bitcoin'ya geçişi, geleneksel, merkezi bankacılık sistemlerine meydan okuyarak finansal özgürlük ve gizlilik sunduğuna olan inancından kaynaklanıyor.
+Cubo Plus** eğitim programının ilk dersine hoş geldiniz. Bugün, **Bitcoin Italia Podcast**'in kurucusu Rikki'nin liderliğinde Bitcoin dünyasına dalıyoruz. Rikki, Bitcoin'yı insan haklarını korumak ve teşvik etmek için bir araç olarak kullanan tutkulu bir insan hakları aktivistidir. Altı yılı aşkın deneyimiyle Rikki, El Salvador ve Guatemala gibi gelişmekte olan pazarlarda Bitcoin'nın benimsenmesini belgelemek için kapsamlı seyahatler gerçekleştirmiştir. Çalışmaları podcast yayıncılığının ötesine geçiyor; YouTube (**Bitcoin Explorers**) ve Twitter'da (**BTC Explorer**, **Rikki6**) da aktif. Rikki'nin Commitment'ten Bitcoin'ya geçişi, geleneksel, merkezi bankacılık sistemlerine meydan okuyarak finansal özgürlük ve gizlilik sunduğuna olan inancından kaynaklanıyor.
 
 
 ![Unbanked Population](assets/en/001.webp)
@@ -81,10 +81,10 @@ _Bankasız Küresel Nüfus_
 - finansal içerme:_ Geleneksel bankacılık sistemlerinden dışlanmış olan ve genellikle "bankasızlar" olarak adlandırılan kişilerin finansal hizmetlere erişiminin sağlanması
 - sansürsüz para:_ Hükümetler veya finansal kurumlar tarafından kontrol edilemeyen veya kısıtlanamayan para.
 
-#### Ricky'nin geçmişi ve Bitcoin savunuculuğu
+#### Rikki'nin geçmişi ve Bitcoin savunuculuğu
 
 
-Ricky'nin Bitcoin'ye yolculuğu, bir insan hakları savunucusu olarak yaptığı çalışmalara dayanıyor. Bitcoin'nin bireylere mali durumları üzerinde kontrol sağlayarak mahremiyetlerini korumalarına ve merkezi bankaların sınırlamalarından kaçınmalarına olanak tanıyabileceğine inanıyor. Bitcoin'nin El Salvador gibi yerlerde benimsenmesini araştırması, bu teknolojinin gelişmekte olan pazarlardaki insanları finansal bağımsızlık kazanmaları için nasıl güçlendirebileceğini vurgulamaktadır.
+Rikki'nin Bitcoin'ye yolculuğu, bir insan hakları savunucusu olarak yaptığı çalışmalara dayanıyor. Bitcoin'nin bireylere mali durumları üzerinde kontrol sağlayarak mahremiyetlerini korumalarına ve merkezi bankaların sınırlamalarından kaçınmalarına olanak tanıyabileceğine inanıyor. Bitcoin'nin El Salvador gibi yerlerde benimsenmesini araştırması, bu teknolojinin gelişmekte olan pazarlardaki insanları finansal bağımsızlık kazanmaları için nasıl güçlendirebileceğini vurgulamaktadır.
 
 
 ### Bitcoin'ün küresel önemi ve karşılaştığı zorluklar

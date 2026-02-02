@@ -1,5 +1,6 @@
 ---
 term: BIP0091
+definition: Uburyo bwashize SegWit mu ngiro mu 2017 n'urugero rwa 80%, mu kwirinda amatati ya UASF rya BIP148.
 ---
 
 Iciyumviro ca James Hilliard (injeniyeri muri Bitmain) co kworohereza gukoresha SegWit Soft Fork, isobanuwe muri BIP141, BIP143, na BIP147, biciye mu MASF ataco ishitse ku rugero rukenewe rwa 95% rw'ubushobozi bwo gukoresha ubuhinga bwa none biciye mu bit 1.

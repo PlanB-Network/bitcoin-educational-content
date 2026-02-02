@@ -127,7 +127,7 @@ Specter Desktop поддържа множество хардуерни порт�
 
 
 
-https://planb.academy/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.academy/tutorials/wallet/hardware/coldcard-mk4-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
 
 За Coldcard е необходимо да експортирате публичните ключове от хардуера wallet чрез USB връзка или microSD карта.
 
@@ -498,7 +498,7 @@ Specter Desktop демократизира усъвършенстваните к
 
 
 
-- [Официален уебсайт на Specter Desktop] (https://specter.solutions/desktop/)
+- [Официален уебсайт на Specter Desktop](https://specter.solutions/desktop/)
 - [Изходен код на GitHub](https://github.com/cryptoadvance/specter-desktop)
 - [Пълна документация](https://docs.specter.solutions/)
 

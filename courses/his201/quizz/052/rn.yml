@@ -1,9 +1,9 @@
-question: Ni ubuhe bunini bw’amabuye bwongerewe na Satoshi ku masezerano ya Bitcoin muri Nzero 2010?
+question: Ni ubuhe bunini bwa block bwuzuye bwa Satoshi kuri porotokore ya Bitcoin yafashe?
 answer: MB 1
 wrong_answers:
   - 2 MB
   - 4 MB
   - 8 MB
 explanation: |
-  Igiharuro ca MAX_BLOCK_SIZE congerewe muri Nyakanga, kandi umupaka washizweho ku nzira zose z'urubuga ku wa 12 Nzero.
+  Igiharuro ca MAX_BLOCK_SIZE congerewe muri Mukakaro, kandi umupaka washizweho ku nzira zose z'urubuga ku wa 12 Nyakanga.
 reviewed: true

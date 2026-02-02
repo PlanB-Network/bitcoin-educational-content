@@ -202,7 +202,7 @@ Til sammen gjør de Bitcoin til en **bærende eiendel** og en digital valuta **u
 
 ![BIZ101](assets/nb-NO/003.webp)
 
-Bitcoin har en fast pengepolitikk, med et **tak på 21 millioner bitcoins**, hvorav ~19,8 millioner allerede har blitt distribuert. Dette gjør den **deflasjonær**, og verdien øker over tid etter hvert som brukerne lagrer sparepenger og produktivitetsgevinster i den.
+Bitcoin har en fast pengepolitikk, med et **maksimum på 21 millioner bitcoins**, hvorav ~19,8 (2024) millioner allerede er utvunnet. Dette gjør den **deflasjonær**, der verdien øker over tid ettersom brukere lagrer sparing og produktivitetsgevinster i den.
 
 De tekniske egenskapene overgår gull og dollar til sammen, noe som gjør den til den hardeste finansielle eiendelen som noensinne er skapt. Bitcoin er både et verdioppbevaringsmiddel og et byttemiddel, og en fremtidig valuta. Forestill deg å overføre verdier fra et selskaps beholdning til et annet raskt, uten mellomledd, til minimale kostnader, uten svindel, døgnet rundt og uten at noen tredjepart er involvert.
 
@@ -214,7 +214,7 @@ Bitcoin er disruptiv fordi den oppfordrer oss til å lære konsepter innen matem
 
 Bitcoin utfordrer oss til å revurdere selve pengenes natur. Kan du forklare hva penger egentlig er? En lønnsmottaker eller gründer kan bruke 50 000 til 100 000 timer av livet sitt på å tjene penger, men hvor mange **bruker så mye som 100 timer på å forstå dem bedre** og bevare dem? Bitcoin oppfordrer oss til å stille spørsmål ved de grunnleggende årsakene til vårt behov for penger og vårt tidsperspektiv. Er penger til for umiddelbar luksus eller langsiktig motstandsdyktighet? Hvilke valg ville vi tatt hvis vi hadde en verdiøkning som gjorde det mulig for oss å utsette kjøp? Hvilke samtaler ville vi ønske å ha med oss selv om 20 eller 30 år?
 
-**BITCOINS IDENTITETSKORT**
+**BITCOIN IDENTITETSKORT (i 2024)**
 
 
 - **Alder:** 15 år (3. januar 2009)
@@ -299,7 +299,7 @@ Lightning-nettverket er ideelt for Bitcoin-betalinger i fysiske butikker eller n
 - **Endelighet:** Når en betaling er utført på Lightning, er den endelig. Det er ingen mulighet for tilbakeføringer fra tredjeparter eller svindelrelaterte tvister.
 - **Gebyrer:** Transaksjonsgebyrene i Lightning Network er minimale og betales av brukeren, ikke selgeren. Forhandlere pådrar seg kun gebyrer hvis de senere trenger å overføre Bitcoin til et annet nettverk eller en annen tjeneste.
 
-**LIGHTNINGS IDENTITETSKORT**
+**LIGHTNING IDENTITETSKORT (i 2024)**
 
 
 - **Oppfinnelse:** 2015
@@ -599,7 +599,7 @@ Siden Bitcoin fungerer som et byttemiddel, er det mulig å se for seg en sirkul�
 
 Dette innebærer å tjene penger på å drive såkalt "mining". For ikke-spesialiserte virksomheter er dette fortsatt relativt marginalt. Du kan delta gjennom mellommenn som selger eller leier deg databehandling, nettverk og vedlikehold. Hvis du eier maskinene, kan du bokføre dem som avskrivbare eiendeler. I stor skala må du beregne avkastningen på investeringen nøye, fordi markedet er svært konkurranseutsatt og krever god fremsynhet når det gjelder kostnader, særlig strøm.
 
-Hvis du vil lære mer om mining-metoder, kan du [se avsnittet "Mining" i veiledningene våre] (https://planb.academy/tutorials/mining).
+Hvis du vil lære mer om mining-metoder, kan du [se avsnittet "Mining" i veiledningene våre](https://planb.academy/tutorials/mining).
 
 
 - **Kjøpe Bitcoin:**
@@ -612,7 +612,7 @@ https://planb.academy/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-
 
 https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
-Hvis du vil lære mer om metoder for å anskaffe bitcoin via en børs eller peer-to-peer, kan du [se avsnittet "børs" i veiledningene våre] (https://planb.academy/tutorials/exchange).
+Hvis du vil lære mer om metoder for å anskaffe bitcoin via en børs eller peer-to-peer, kan du [se avsnittet "børs" i veiledningene våre](https://planb.academy/tutorials/exchange).
 
 ![BIZ101](assets/nb-NO/012.webp)
 
@@ -640,7 +640,7 @@ Eiendomsbransjen gjentar ofte at "det er alltid det rette tidspunktet å kjøpe"
 
 ![BIZ101](assets/nb-NO/013.webp)
 
-*Kilde: [Bitcoin Office] (https://bitcoin.gob.sv/)*
+*Kilde: [Bitcoin Office](https://bitcoin.gob.sv/)*
 
 ### I hvilken form skal jeg kjøpe? (Metoder av forvaring)
 
@@ -924,7 +924,7 @@ Hvis du er klar for mer og vil ha full kontroll over prosessen, er BTCPay Server
 
 https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
-Til slutt, som et supplement til fysiske utsalgssteder, kan du vurdere å sette opp [en Bitcoinize PoS] (https://bitcoinize.com/).
+Til slutt, som et supplement til fysiske utsalgssteder, kan du vurdere å sette opp [en Bitcoinize PoS](https://bitcoinize.com/).
 
 ## Eksperten
 
@@ -944,7 +944,7 @@ Når det gjelder teknologi og verktøy, utgjør løsninger som **BTC Pay Server*
 
 ![BIZ101-profiles](assets/nb-NO/026.webp)
 
-I tillegg kan verktøy som [Zaprite] (https://zaprite.com/) eller [Musqet] (https://musqet.tech/) forbedre kasse-opplevelsen ytterligere, noe som gir mulighet for mer detaljert tilpasning (fra merkevarevalg til sofistikerte rapporteringsmuligheter). De som foretrekker et alt-i-ett-nettbutikkmiljø, kan trekke mot [Be-BOP](https://be-bop.io/), en e-butikkløsning som er bygget for å legge til rette for Bitcoin-betalinger uten å ofre brukervennligheten.
+I tillegg kan verktøy som [Zaprite](https://zaprite.com/) eller [Musqet](https://musqet.tech/) forbedre kasse-opplevelsen ytterligere, noe som gir mulighet for mer detaljert tilpasning (fra merkevarevalg til sofistikerte rapporteringsmuligheter). De som foretrekker et alt-i-ett-nettbutikkmiljø, kan trekke mot [Be-BOP](https://be-bop.io/), en e-butikkløsning som er bygget for å legge til rette for Bitcoin-betalinger uten å ofre brukervennligheten.
 
 ![BIZ101-profiles](assets/nb-NO/027.webp)
 
@@ -956,7 +956,7 @@ Når det gjelder eksempler fra den virkelige verden, kan du tenke deg en melloms
 
 ![BIZ101-profiles](assets/nb-NO/028.webp)
 
-*[Kilde: Bitcoin Bazar-butikken i Paris, Frankrike] (https://bitcoinbazar.fr/)*
+*[Kilde: Bitcoin Bazar-butikken i Paris, Frankrike](https://bitcoinbazar.fr/)*
 
 Hvis du vil gå dypere inn i implementeringsdetaljer og utforske praktiske konfigurasjoner av BTC Pay Server, kan du gå til følgende kurs:
 
@@ -1194,7 +1194,7 @@ Virksomheter må sørge for at de **betalingsverktøyene** de bruker, gir muligh
 
 <chapterId>e7b31be5-1176-4835-944e-3cba1b7040fa</chapterId>
 
-Når et selskap bestemmer seg for å integrere Bitcoin i regnskapet, finnes det ulike verktøy og spesialisert programvare som forenkler innsamling og behandling av data. Blant de mest kjente løsningene er [CoinTracker] (https://www.cointracker.io/), [Waltio] (https://www.waltio.com/), [Cryptio] (https://cryptio.co/), [Koinly] (https://koinly.io/), [TokenTax] (https://tokentax.co/) og [ZenLedger] (https://zenledger.io/). Disse plattformene fokuserer primært på fire aspekter:
+Når et selskap bestemmer seg for å integrere Bitcoin i regnskapet, finnes det ulike verktøy og spesialisert programvare som forenkler innsamling og behandling av data. Blant de mest kjente løsningene er [CoinTracker](https://www.cointracker.io/), [Waltio](https://www.waltio.com/), [Cryptio](https://cryptio.co/), [Koinly](https://koinly.io/), [TokenTax](https://tokentax.co/) og [ZenLedger](https://zenledger.io/). Disse plattformene fokuserer primært på fire aspekter:
 
 
 - automatisk datainnsamling;

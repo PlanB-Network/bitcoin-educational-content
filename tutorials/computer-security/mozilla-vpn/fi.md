@@ -20,7 +20,7 @@ Tietojenkeruun digitaalisella aikakaudella yksityisyydestä verkossa on tullut m
 
 https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
-Tähän periaatteeseen perustuva [Mozilla VPN] (https://www.mozilla.org/fr/products/vpn/download/) on avoimen lähdekoodin VPN-palvelu, jonka Mozilla Foundation kehitti vuonna 2020. Se on saatavilla osoitteessa:
+Tähän periaatteeseen perustuva [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) on avoimen lähdekoodin VPN-palvelu, jonka Mozilla Foundation kehitti vuonna 2020. Se on saatavilla osoitteessa:
 
 
 
@@ -153,7 +153,7 @@ Mozilla VPN antaa sinun valita sijaintisi kahdessa muodossa:
 
 
 
-- Single-Hop: siirtää tietokoneesi IP Address:n ja salaa tiedot palvelimelle, joka sijaitsee tietyllä valitulla alueella, esimerkissämme Sofiassa Valko-Venäjällä.
+- Single-Hop: siirtää tietokoneesi IP Address:n ja salaa tiedot palvelimelle, joka sijaitsee tietyllä valitulla alueella, esimerkissämme Sofiassa Bulgariassa.
 
 
 

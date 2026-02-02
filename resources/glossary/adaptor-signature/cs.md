@@ -1,6 +1,7 @@
 ---
-term: PODPIS ADAPTÉRU
+term: Adaptor signature
 
+definition: Kryptografická technika spojující podpis s tajemstvím tak, že zveřejnění podpisu odhalí toto tajemství. Užitečná pro atomické výměny bez důvěryhodné třetí strany.
 ---
 Kryptografická metoda, která umožňuje kombinovat pravý podpis s dalším podpisem (tzv. "adaptorovým podpisem") a odhalit tak tajnou část dat. Tato metoda funguje tak, že znalost dvou prvků mezi platným podpisem, adaptorovým podpisem a tajným údajem umožňuje odvodit chybějící třetí prvek. Jednou ze zajímavých vlastností této metody je, že pokud známe podpis adaptéru našeho protějšku a konkrétní bod na eliptické křivce spojený s tajemstvím použitým k výpočtu tohoto podpisu adaptéru, můžeme pak odvodit vlastní podpis adaptéru, který bude odpovídat stejnému tajemství, aniž bychom měli přímý přístup k samotnému tajemství. Při výměně mezi dvěma zúčastněnými stranami, které si navzájem nedůvěřují, umožňuje tato technika současné odhalení dvou citlivých informací mezi účastníky. Tento proces eliminuje potřebu důvěry v okamžitých transakcích, jako je výměna mincí nebo atomová výměna. Pro lepší pochopení si uveďme příklad. Alice a Bob si chtějí poslat 1 BTC, ale navzájem si nedůvěřují. Použijí proto adaptérové podpisy, aby v této výměně negovali potřebu důvěry v druhou stranu (čímž se z ní stane "atomická" výměna). Postupují následujícím způsobem:
 

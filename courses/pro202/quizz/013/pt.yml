@@ -1,0 +1,8 @@
+question: Que tipo de estrutura matemática formam os pontos da curva elíptica sob a operação de adição?
+answer: Um grupo matemático com fecho, associatividade, identidade e inversos
+wrong_answers:
+  - Um campo finito com operações de multiplicação e divisão definidas
+  - Um espaço vetorial com multiplicação por escalar e combinações lineares
+  - Uma estrutura em anel com operações de adição e multiplicação
+explanation: |
+  Os pontos da curva elíptica formam um grupo matemático sob adição, o que significa que satisfazem quatro propriedades essenciais: fecho (a adição de dois pontos dá outro ponto na curva), associatividade (a ordem das operações não importa), identidade (o ponto no infinito actua como zero) e inversos (cada ponto tem uma reflexão sobre o eixo x que o anula). Esta estrutura de grupo é fundamental para a criptografia de curvas elípticas porque garante que operações como a multiplicação escalar (adicionar um ponto a si próprio repetidamente) são bem definidas e previsíveis, permitindo protocolos criptográficos seguros como os utilizados no Bitcoin.

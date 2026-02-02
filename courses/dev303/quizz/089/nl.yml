@@ -1,0 +1,8 @@
+question: Wat is de belangrijkste reden dat UniFFI vereist dat ontwikkelaars een apart UDL-bestand maken in plaats van het automatisch genereren van bindingen direct vanuit Rust code?
+answer: UDL dient als een expliciet interfacecontract dat specificeert welke delen van de Rust bibliotheek blootgesteld moeten worden aan andere talen
+wrong_answers:
+  - "UDL is nodig omdat het typesysteem van Rust zonder vertaling niet compatibel is met andere programmeertalen"
+  - UDL-bestanden zijn nodig om de prestaties van taaloverstijgende functieaanroepen te optimaliseren tijdens runtime-uitvoering
+  - "UDL biedt een manier om Rust's eigendomsmodel automatisch om te zetten naar afvalverzameling voor doeltalen"
+explanation: |
+  UniFFI gebruikt UDL als een bewuste ontwerpkeuze om de scheiding van zorgen tussen implementatie en interface te behouden. Het UDL-bestand fungeert als een expliciet contract dat ontwikkelaars toestaat om selectief delen van hun Rust bibliotheek bloot te leggen, terwijl interne implementatiedetails privé blijven. Deze aanpak voorkomt automatische blootstelling van alle openbare Rust items, en geeft ontwikkelaars fijnkorrelige controle over hun API oppervlak. De andere opties zijn onjuist, omdat Rust types in kaart gebracht kunnen worden zonder UDL (hoewel minder elegant), optimalisatie van prestaties niet het primaire doel van UDL is en UDL geen eigendomsmodellen converteert.

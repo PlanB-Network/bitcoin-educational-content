@@ -1,0 +1,8 @@
+question: Minkä matemaattisen suhteen on oltava totta ECDSA-allekirjoituksen todentamisprosessissa, jotta allekirjoituksen voidaan katsoa olevan pätevä?
+answer: UG + VP:n x-koordinaatin on oltava yhtä suuri kuin R, kun U = Z/S ja V = R/S
+wrong_answers:
+  - UG + VP:n y-koordinaatin on oltava yhtä suuri kuin S, kun U = R/Z ja V = S/Z
+  - KG + ZP:n x-koordinaatin on oltava yhtä suuri kuin S, jossa K on salaus ja Z on hash-muisti
+  - R + S:n summan on oltava yhtä suuri kuin julkisen avaimen pisteen P x-koordinaatti
+explanation: |
+  ECDSA-varmistus toimii rekonstruoimalla alkuperäinen piste KG yhtälön UG + VP avulla, jossa U = Z/S (hash jaettuna S:llä) ja V = R/S. Jos tämän rekonstruoidun pisteen x-koordinaatti on sama kuin allekirjoituksen R, todentaminen onnistuu. Tämä matemaattinen suhde mahdollistaa todentamisen tuntematta yksityistä avainta tai noncea K, koska algebra rekonstruoi KG:n epäsuorasti julkisen avaimen ja allekirjoituskomponenttien kautta.

@@ -1,0 +1,8 @@
+question: Dushingiye ku buryo bw’ubutunzi bwa Rust, ni bangahe agaciro gashobora kugira ubutunzi mu gihe ico ari co cose?
+answer: Nyir'umwe nyene
+wrong_answers:
+  - Abafise benshi bararekuriwe
+  - Babiri ba nyen'ivyo
+  - Nta nyen'ivyo gushika bishitse
+explanation: |
+  Uburyo bw’ubutunzi bwa Rust bukora ku mategeko atatu y’ishimikiro, irya mbere rikaba ari uko agaciro kose gafise nyen’ubutunzi umwe nyabuna mu gihe ico ari co cose. Iryo hame ry’ubunywanyi bumwe ni ngirakamaro cane ku bijanye n’umutekano w’ubwenge kuko ribuza ibice vyinshi vya porogarama kugerageza gukuraho ubwonko bumwe canke guhindura amakuru icarimwe. Kugira ba nyen’ibintu vyinshi vyotuma habaho ibikoko bikoreshwa inyuma y’ubuntu n’amarushanwa y’amakuru, mu gihe kutagira ba nyen’ibintu vyotuma ubwonko butashobora kwigera busukurwa neza.

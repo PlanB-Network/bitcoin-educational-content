@@ -38,7 +38,7 @@ Kısacası, bu **potansiyel olarak** cypherpunk'ların hayallerindeki Wallet cep
 
 
 
-Akıllı telefonunuzun işletim sistemi için uygulamayı indirmek üzere [proje web sitesine] (https://zeusln.com/) gidin:
+Akıllı telefonunuzun işletim sistemi için uygulamayı indirmek üzere [proje web sitesine](https://zeusln.com/) gidin:
 
 
 

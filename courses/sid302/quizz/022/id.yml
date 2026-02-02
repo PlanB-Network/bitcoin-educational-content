@@ -1,0 +1,8 @@
+question: Apa keuntungan strategis penting yang diberikan oleh posisi regulasi Liquid dibandingkan dengan platform tokenisasi lain seperti Ethereum atau Solana?
+answer: Liquid menghindari risiko keamanan yang tidak terdaftar dengan menggunakan Bitcoin (L-BTC) sebagai aset aslinya tanpa melakukan pra-mining atau melakukan ICO
+wrong_answers:
+  - Liquid beroperasi di bawah kotak pasir peraturan khusus yang membebaskannya dari undang-undang sekuritas di sebagian besar yurisdiksi
+  - "Model federasi Liquid secara otomatis memenuhi syarat semua token yang diterbitkan sebagai sekuritas yang diatur di bawah kerangka kerja yang ada"
+  - Liquid telah memperoleh persetujuan peraturan menyeluruh dari otoritas keuangan utama untuk semua aset tokenized di platformnya
+explanation: |
+  Keuntungan regulasi strategis Liquid berasal dari arsitektur teknisnya, bukan dari pengecualian atau persetujuan khusus. Dengan menggunakan Bitcoin sebagai aset asli (L-BTC) tanpa token pra-mining atau melakukan ICO, Liquid menghindari klasifikasi "keamanan tidak terdaftar" yang mengancam banyak platform blockchain lainnya. Hal ini sangat penting karena otoritas pengawas seperti SEC semakin mengawasi proyek-proyek blockchain yang membuat dan menjual token mereka sendiri, yang berpotensi mengklasifikasikannya sebagai sekuritas yang tidak terdaftar. Jawaban yang salah secara keliru menunjukkan bahwa Liquid memiliki izin regulasi khusus atau fitur kepatuhan otomatis, padahal pada kenyataannya keuntungannya berasal dari menghindari ekonomi token yang bermasalah sepenuhnya.

@@ -63,7 +63,7 @@ Speed Wallet jest dostępny jako aplikacja mobilna na platformach Android (Googl
 
 
 
-Linki do platform pobierania można znaleźć na oficjalnej stronie [Speed Wallet] (https://speed.app).
+Linki do platform pobierania można znaleźć na oficjalnej stronie [Speed Wallet](https://speed.app).
 
 
 
@@ -333,7 +333,7 @@ https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90
 
 
 
-Oprócz aplikacji mobilnej, Speed Wallet oferuje również [rozszerzenie Chrome Web] (https://chromewebstore.google.com/detail/speed-Bitcoin-lightning-w/miccfnlbijkmbckaagllchcfknjhgfnk), które można dodać do przeglądarki Google Chrome na komputerze w celu bezpiecznego przeprowadzania transakcji.
+Oprócz aplikacji mobilnej, Speed Wallet oferuje również [rozszerzenie Chrome Web](https://chromewebstore.google.com/detail/speed-Bitcoin-lightning-w/miccfnlbijkmbckaagllchcfknjhgfnk), które można dodać do przeglądarki Google Chrome na komputerze w celu bezpiecznego przeprowadzania transakcji.
 
 
 

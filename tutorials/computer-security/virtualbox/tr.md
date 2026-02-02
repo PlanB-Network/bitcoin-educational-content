@@ -43,7 +43,7 @@ Benim yapılandırmam: **VirtualBox'ı yükleyeceğim bir Windows 11 iş istasyo
 
 
 
-Bir Windows makinesine kurulum için VirtualBox'ı indirmek için tek bir iyi Address vardır: [resmi VirtualBox web sitesi] (https://www.virtualbox.org/wiki/Downloads) "**Downloads**" bölümünde. Boyutu 100 MB'ın biraz üzerinde olan bu çalıştırılabilir dosyayı indirmeye başlamak için "Windows hosts" seçeneğine tıklamanız yeterlidir.
+Bir Windows makinesine kurulum için VirtualBox'ı indirmek için tek bir iyi Address vardır: [resmi VirtualBox web sitesi](https://www.virtualbox.org/wiki/Downloads) "**Downloads**" bölümünde. Boyutu 100 MB'ın biraz üzerinde olan bu çalıştırılabilir dosyayı indirmeye başlamak için "Windows hosts" seçeneğine tıklamanız yeterlidir.
 
 
 

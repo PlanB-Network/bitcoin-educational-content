@@ -35,7 +35,7 @@ BitSpenda är en webbaserad plattform där du kan använda Exchange Bitcoin och 
 
 
 
-Att göra en transaktion med BitSpenda är ganska intuitivt och kräver få steg. På den officiella BitSpenda [webbplatsen] (https://bitspenda.app) klickar du på "Start"-knappen och du kommer att omdirigeras till Interface Exchange.
+Att göra en transaktion med BitSpenda är ganska intuitivt och kräver få steg. På den officiella BitSpenda [webbplatsen](https://bitspenda.app) klickar du på "Start"-knappen och du kommer att omdirigeras till Interface Exchange.
 
 
 
@@ -177,7 +177,7 @@ Kontrollera och bekräfta ditt Exchange-nummer och belopp, betala sedan blixten 
 
 
 
-Genom BitSpenda syftar [Bitcoin Dua] (https://www.bitcoindua.org/) till att skapa ett idealiskt ramverk för antagandet av Bitcoin i Afrika. BitSpenda utmärker sig främst för :
+Genom BitSpenda syftar [Bitcoin Dua](https://www.bitcoindua.org/) till att skapa ett idealiskt ramverk för antagandet av Bitcoin i Afrika. BitSpenda utmärker sig främst för :
 
 
 

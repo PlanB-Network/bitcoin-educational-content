@@ -1,0 +1,8 @@
+question: Hva er det matematiske forholdet mellom Bitcoins vanskelighetsverdi og det gjeldende målet som brukes for blokkvalidering?
+answer: Vanskelighetsgrad er lik det lavest mulige målet dividert med det gjeldende målet
+wrong_answers:
+  - Vanskelighetsgrad er lik gjeldende mål dividert med lavest mulige mål
+  - Vanskelighetsgrad er lik gjeldende mål multiplisert med lavest mulige mål
+  - Vanskelighetsgrad er lik koeffisienten ganger 256 opphøyd til eksponenten minus 3
+explanation: |
+  Bitcoins vanskelighetsgrad er spesifikt definert som lowest_target / current_target, som uttrykker hvor mange ganger vanskeligere mining er sammenlignet med den lettest mulige vanskelighetsgraden. Dette omvendte forholdet betyr at når målet blir mindre (noe som gjør det vanskeligere å finne gyldige hasher), øker vanskelighetsgraden proporsjonalt. Formelen sikrer at vanskelighetsgrad 1 representerer de enkleste mining-betingelsene, mens høyere verdier indikerer proporsjonalt mer beregningsarbeid som kreves for å finne gyldige blokker.

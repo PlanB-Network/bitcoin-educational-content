@@ -35,8 +35,8 @@ Du kan ta del av avsnittet via dessa direktlänkar:
 
 
 
-- [Spotify] (https://open.spotify.com/episode/1UaeQxpNq9capLE3KwArbo)
-- [Google podcast] (https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9iZDVkNWIyMC9wb2RjYXN0L3Jzcw/episode/N2Y1NmRlZDAtZTc4Mi00MDJmLTk3ODktODIyYzgwODBjODYx?sa=X&ved=0CAUQkfYCahcKEwjohMaiv6n8AhUAAAAAHQAAAAAQEw)
+- [Spotify](https://open.spotify.com/episode/1UaeQxpNq9capLE3KwArbo)
+- [Google podcast](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9iZDVkNWIyMC9wb2RjYXN0L3Jzcw/episode/N2Y1NmRlZDAtZTc4Mi00MDJmLTk3ODktODIyYzgwODBjODYx?sa=X&ved=0CAUQkfYCahcKEwjohMaiv6n8AhUAAAAAHQAAAAAQEw)
 - [Amazon music](https://music.amazon.it/podcasts/b1b27a88-c1c9-48de-a301-20f31d29c676/episodes/54dec992-5b03-463a-bb98-f653b72ccb63/il-priorato-del-Bitcoin-joinmarket-dalla-teoria-alla-pratica---turtlecute)
 - [Anchor](https://Anchor.fm/turtle-cute5/episodes/Joinmarket-dalla-Teoria-alla-Pratica---Turtlecute-e1t0bep) (här kan du lyssna på det direkt från webbläsaren).
 - [Antenna pod](https://antennapod.org/) är en gratis podcasthanterare med öppen källkod som inte kräver registrering. För att hitta avsnittet ladda ner appen, lägg till min podcast manuellt genom att klistra in [den här länken](https://Anchor.fm/s/bd5d5b20/podcast/rss) i avsnittet _feed rss_ och sök sedan efter avsnittet tillägnad JoinMarket.
@@ -167,7 +167,7 @@ saved to wallet.jmdat
 ```
 
 
-om ett fel visas är det troligt att vi har ställt in de 4 RPC-fälten som anges ovan felaktigt. I så fall kan det hjälpa att följa [denna guide] (https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/USAGE.md#configure) som finns i den ursprungliga JoinMarket-dokumentationen.
+om ett fel visas är det troligt att vi har ställt in de 4 RPC-fälten som anges ovan felaktigt. I så fall kan det hjälpa att följa [denna guide](https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/USAGE.md#configure) som finns i den ursprungliga JoinMarket-dokumentationen.
 
 
 
@@ -491,4 +491,4 @@ Lycklig blandning av sköldpaddor!🐢 💚
 
 
 
-[Här] (https://btcpay.priorato.org/api/v1/invoices?storeId=2B1STLH5REvhHZBRQuyJNieRTexpeuJ4Usjn4ziEfEfd&currency=EUR) kan du stödja Turtlecute
+[Här](https://btcpay.priorato.org/api/v1/invoices?storeId=2B1STLH5REvhHZBRQuyJNieRTexpeuJ4Usjn4ziEfEfd&currency=EUR) kan du stödja Turtlecute

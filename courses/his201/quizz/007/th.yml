@@ -1,0 +1,9 @@
+question: สกุลเงินใดที่อิงตามทองคำและเงินถูกสร้างขึ้นโดย Bernard von NotHaus ในปี 1998?
+answer: เดอะ ลิเบอร์ตี้ ดอลลาร์
+wrong_answers:
+  - Liberty Reserve
+  - e-gold
+  - GoldMoney
+explanation: |
+  สกุลเงินนี้มีให้ในรูปแบบเหรียญเงินและธนบัตรตัวแทน และเริ่มตั้งแต่ปี 2003 ในรูปแบบดิจิทัล
+reviewed: true

@@ -1,6 +1,7 @@
 ---
-term: NONCE
+term: Nonce
 
+definition: Số chỉ được sử dụng một lần, được các thợ đào sửa đổi để tìm hàm băm khối hợp lệ.
 ---
 In the context of computing, the term "nonce" refers to a number that is used only once and then replaced. It is often random or pseudo-random. Nonces are used in various cryptographic protocols to ensure the security of the process. For example, the ECDSA signatures used within the Bitcoin protocol include the use of a nonce. This means that this number must be new for each signature. If this is not the case, it is possible to calculate the private key used by comparing two signatures that use the same nonce.
 

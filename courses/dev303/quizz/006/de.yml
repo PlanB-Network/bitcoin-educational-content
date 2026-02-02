@@ -1,0 +1,8 @@
+question: Wie oft veröffentlicht Rust eine neue stabile Version gemäß ihrem Veröffentlichungszeitplan?
+answer: Ungefähr alle sechs Wochen
+wrong_answers:
+  - Ungefähr alle drei Monate
+  - Ungefähr alle zwei Wochen
+  - Ungefähr alle vier Monate
+explanation: |
+  Rust folgt einem vorhersehbaren Veröffentlichungsplan mit neuen stabilen Versionen, die etwa alle sechs Wochen erscheinen. Dieser häufige Veröffentlichungszyklus stellt sicher, dass neue Funktionen und Verbesserungen die Benutzer regelmäßig erreichen und gleichzeitig die Stabilität erhalten bleibt. Die anderen Zeitrahmen sind nicht korrekt - drei Monate und vier Monate wären viel langsamer als das tatsächliche Tempo von Rust, während zwei Wochen für stabile Versionen, die gründliche Tests erfordern, unrealistisch schnell wären.

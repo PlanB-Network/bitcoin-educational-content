@@ -1,5 +1,6 @@
 ---
-term: Genesis BLOCK
+term: Genesis-blocket
+definition: Första blocket i Bitcoin-systemet skapat av Satoshi Nakamoto den 3 januari 2009.
 ---
 
 Genesis-blocket är det första blocket i Bitcoin-systemet. Det innebär den konkreta lanseringen av Bitcoin. Genesis-blocket skapades av Bitcoin:s anonyma grundare, Satoshi Nakamoto, den 3 januari 2009. Dess Hash är:

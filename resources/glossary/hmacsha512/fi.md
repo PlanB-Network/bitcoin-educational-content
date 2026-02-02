@@ -1,6 +1,7 @@
 ---
 term: HMAC-SHA512
 
+definition: Kryptografinen algoritmi, jota käytetään avainten johtamiseen Bitcoin HD -lompakoissa.
 ---
 "HMAC-SHA512" tarkoittaa "Hash-based Message Authentication Code - Secure Hash Algorithm 512". Se on salausalgoritmi, jota käytetään kahden osapuolen välillä vaihdettujen viestien eheyden ja aitouden todentamiseen. Siinä yhdistetään kryptografinen hash-funktio `SHA512` ja jaettu salainen avain, jotta jokaiselle viestille voidaan luoda yksilöllinen Message Authentication Code (MAC).
 

@@ -1,0 +1,9 @@
+question: Quel est le dernier halving selon le protocole ?
+answer: Le 33e
+wrong_answers:
+  - Le 21e
+  - Le 38e
+  - Le 64e
+explanation: |
+  Le 33e halving, à la hauteur 6 930 000, mettra fin à la subvention de bloc car elle passera en-dessous de l'unité minimale.
+reviewed: false

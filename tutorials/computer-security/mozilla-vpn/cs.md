@@ -153,7 +153,7 @@ Mozilla VPN umožňuje vybrat polohu ve dvou formátech:
 
 
 
-- Single-Hop: který přemístí IP adresu vašeho počítače Address a zašifruje data na server v konkrétní vybrané oblasti, v našem případě v Sofii v Bělorusku.
+- Single-Hop: který přemístí IP adresu vašeho počítače Address a zašifruje data na server v konkrétní vybrané oblasti, v našem případě v Sofii v Bulharsku.
 
 
 

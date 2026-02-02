@@ -1,9 +1,9 @@
-question: 高度なInterfaceでLightningノードを管理できるUmbrelアプリケーションは？
-answer: ライド・ザ・ライトニング
+question: 高度なInterfaceでライトニングノードを管理できるUmbrelアプリケーションは？
+answer: Ride The Lightning
 wrong_answers:
-  - BTCPayライトニング
-  - ノストルリレー
-  - ビットフィード
+  - BTCPay Laightning
+  - Nostr Relay
+  - Bitfeed
 explanation: |
-  Ride The LightningとThunderHubは、Lightningノードを管理するための完全なウェブベースのInterfaceを提供します。
+  Ride The LightningとThunderHubは、ライトニングノードを管理するための完全なウェブベースInterfaceを提供します。
 reviewed: true

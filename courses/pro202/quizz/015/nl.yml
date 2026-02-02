@@ -1,0 +1,8 @@
+question: Wat gebeurt er met de rekenkundige bewerkingen als elliptische krommen gedefinieerd worden over eindige velden in plaats van reële getallen?
+answer: Alle bewerkingen gebruiken modulair rekenen met behoud van dezelfde algebraïsche regels
+wrong_answers:
+  - De formules voor puntentelling moeten volledig herschreven worden voor discrete wiskunde
+  - De hellingsberekeningen worden ongedefinieerd door de discrete aard van de punten
+  - Alle algebraïsche regels veranderen fundamenteel om de eindige veldstructuur aan te passen
+explanation: |
+  Wanneer elliptische krommen verplaatst worden van reële getallen naar eindige velden, blijven de onderliggende algebraïsche structuur en regels identiek - alleen de rekenkunde verandert naar modulair rekenen. Alle formules voor puntentelling, hellingsberekeningen en geometrische relaties werken op precies dezelfde manier, maar elke berekening wordt uitgevoerd modulo p. Dit behoud van algebraïsche regels terwijl alleen de rekenkundige basis verandert, is wat eindige veld elliptische krommen zo krachtig maakt voor cryptografie, waarbij alle benodigde wiskundige eigenschappen behouden blijven terwijl het discrete, onvoorspelbare gedrag essentieel is voor veiligheid.

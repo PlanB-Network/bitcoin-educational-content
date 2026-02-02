@@ -1,0 +1,8 @@
+question: Bir P2SH çıktısı harcanırken, işlemin geçerli sayılması için hangi iki aşamalı doğrulama süreci gerçekleşmelidir?
+answer: Önce redeem script'in HASH160'ının scriptPubKey hash'iyle eşleştiğini doğrulayın, ardından sağlanan verilerle redeem script'i çalıştırın
+wrong_answers:
+  - Önce redeem betiğini sağlanan verilerle çalıştırın, ardından elde edilen hash'in scriptPubKey ile eşleştiğini doğrulayın
+  - Önce tüm imzaların açık anahtarlarına göre geçerli olduğunu doğrulayın, ardından redeem script hash'inin eşleşip eşleşmediğini kontrol edin
+  - Önce redeem komut dosyasının geçerli işlem kodları içerdiğini doğrulayın, ardından komut dosyası yürütmesinin doğru bir sonuç ürettiğini doğrulayın
+explanation: |
+  P2SH doğrulaması, iki aşamalı özel bir süreç gerektirir: ilk olarak, sağlanan kullanma komut dosyasının karması, scriptPubKey'deki 20 baytlık karma ile eşleşmelidir (HASH160 doğrulaması) ve ancak bu doğrulama geçtikten sonra ağ, kilit açma verileriyle kullanma komut dosyasını kendisi yürütür. Bu tasarım, harcama gerçekleşene kadar gerçek harcama koşullarını gizli tutarken yalnızca doğru kodun kullanılabilmesini sağlar. Diğer seçenekler, gerçek P2SH protokolünü takip etmeyen makul ancak yanlış doğrulama dizilerini tanımlamaktadır.

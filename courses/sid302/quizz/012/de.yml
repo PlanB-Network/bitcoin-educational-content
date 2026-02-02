@@ -1,0 +1,8 @@
+question: Was ist der Hauptvorteil der Verwendung von Taproot mit MuSig2 für den schichtübergreifenden Austausch im Vergleich zu den alten SegWit v0 HTLCs?
+answer: Kooperative Swaps erscheinen als Standardtransaktionen mit einer einzigen Unterschrift und bieten vollständige Vertraulichkeit und minimalen Blockplatzverbrauch
+wrong_answers:
+  - Taproot macht Zeitsperren überflüssig, was den Austausch schneller und effizienter macht als herkömmliche HTLCs
+  - Mit MuSig2 können mehrere Hash-Sperren gleichzeitig verwendet werden, was komplexere Mehrparteien-Tauschvereinbarungen ermöglicht
+  - Taproot-Austausche können abgeschlossen werden, ohne dass kryptografische Geheimnisse preisgegeben werden, im Gegensatz zu herkömmlichen HTLCs, die immer Vorabbilder preisgeben
+explanation: |
+  Taproot mit MuSig2 revolutioniert den HTLC-Datenschutz durch Schlüsselaggregation. Auf dem kooperativen "glücklichen Weg" kombinieren beide Parteien ihre Schlüssel zu einem einzigen aggregierten öffentlichen Schlüssel und unterzeichnen die Transaktion gemeinsam. Dadurch ist der Swap nicht mehr von einer regulären Zahlung zu unterscheiden, verbraucht nur minimalen Blockplatz und offenbart keine Swap-Bedingungen. Ältere SegWit v0 HTLCs erforderten die Veröffentlichung der gesamten Skriptlogik on-chain, was sie leicht identifizierbar und teurer machte. Die anderen Optionen sind falsch: Zeitsperren sind nach wie vor wichtig für die Sicherheit, Mehrfach-Hash-Sperren sind nicht die wichtigste Neuerung, und Preimages werden bei der Beantragung von Geldern immer noch offengelegt.

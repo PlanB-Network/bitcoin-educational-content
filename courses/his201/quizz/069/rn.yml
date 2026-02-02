@@ -1,9 +1,9 @@
 question: Ni hehe abakora Bitcoin bahurira kugira ngo bagire ibiganiro vy’ubuhinga bitari mu buryo busanzwe?
 answer: Ku muhora wa IRC \#Bitcoin-dev
 wrong_answers:
-  - Ku gice kidasanzwe c'ihuriro
-  - Ku rutonde rw'ivyo Bitcoin-iterambere
-  - Ku rubuga rwa r/Bitcoin.
+  - Ku gice kidasanzwe c'ihuriro (On a special section of the forum)
+  - Ku rutonde rw'ivyo Bitcoin-iterambere (On the bitcoin-development mailing list)
+  - Kuri subreddit r/Bitcoin ( On the subreddit r/Bitcoin)
 explanation: |
-  Ivyo vyaremwe na Martti Malmi muri Myandagaro 2009. Vyamenyekanye cane inyuma y'aho Slashdotting ikorewe muri Nyakanga 2010.
+  Ivyo vyaremwe na Martti Malmi muri Myandagaro 2009. Vyamenyekanye cane inyuma y'aho Slashdotting ikorewe muri MUkakaro 2010.
 reviewed: true

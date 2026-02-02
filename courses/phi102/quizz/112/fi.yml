@@ -1,0 +1,8 @@
+question: Miksi taloudellinen vapaus mahdollistaa tuotannon ajoituksen, joka on vapaiden markkinoiden teorian mukaan parempi kuin poliittinen interventio?
+answer: Voittosignaalit ohjaavat yrittäjiä tuottamaan silloin, kun kuluttajakysyntää todella on, mikä luo luonnollisen ajoituksen koordinoinnin
+wrong_answers:
+  - Hallitusten suunnittelun avulla voidaan ennustaa yhteiskunnan tarpeita pitkällä aikavälillä paremmin kuin yksittäisten markkinaosapuolten avulla
+  - Poliittiseen päätöksentekoon sisältyy laajempia yhteiskunnallisia näkökohtia, joita yksittäiset voitontavoittelijat eivät voi ottaa huomioon
+  - Valtion toimilla voidaan ennakoida tulevia tarpeita tehokkaammin analysoimalla järjestelmällisesti demografisia ja taloudellisia suuntauksia
+explanation: |
+  Luvussa selitetään, että taloudellinen vapaus luo ylivoimaisen ajoituksen voittosignaalien avulla, jotka osoittavat todellista kuluttajakysyntää. Kun voittoja on saatavilla, yrittäjät reagoivat nopeasti; kun niitä ei ole, ennenaikainen tuotanto estyy. Tämä luo koordinointia, joka perustuu todellisiin kuluttajien mieltymyksiin eikä poliittisiin oletuksiin. Poliittinen puuttuminen toimii vaalisyklien ja idealisoitujen tyydytysten perusteella, jotka eivät välttämättä heijasta markkinoiden todellisia tarpeita, mikä johtaa väärin ajoitettuihin tuotantopäätöksiin.

@@ -3,7 +3,7 @@ name: RaspiBlitz
 description: RaspiBlitz'inizi kurmak için kılavuz
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 
 RaspiBlitz, RaspberryPi (1TB SSD) üzerinde bir Bitcoin-Fullnode ile birlikte çalışan bir kendin yap Lightning Node (LND ve/veya Core Lightning) ve kolay kurulum ve izleme için güzel bir ekrandır.
@@ -17,7 +17,7 @@ RaspiBlitz temel olarak evden merkezi olmayan kendi düğümünüzü nasıl çal
 RASPIBLITZ - Yıldırım ve Bitcoin Full node BTC oturumu ile Nasıl Çalıştırılır
 
 
-# Parman'ın Raspiblitz Kurulum Kılavuzu
+## Parman'ın Raspiblitz Kurulum Kılavuzu
 
 
 Raspiblitz, bir Bitcoin Node ve ilgili uygulamaları çalıştırmak için mükemmel bir sistemdir. Bunu ve My Node düğümünü çoğu kullanıcıya tavsiye ederim (İdeal olarak yedeklilik için iki düğüme sahip olun.) En büyük avantajı, Raspiblitz düğümünün MyNode veya Umbrel'den farklı olarak "Ücretsiz Açık Kaynak Yazılımı" olmasıdır. Bu neden önemli? Vlad Costa açıklıyor. RaspbiBlitz'i ethernet yerine WiFi bağlantısı ile de çalıştırabilirsiniz - işte bunun için ek bir kılavuz. (Bunu MyNode ile yapmanın bir yolunu bulamadım).
@@ -32,7 +32,7 @@ Github sayfasındaki kılavuz mükemmel, ancak muhtemelen orta derecede deneyiml
 Esasen, süreç Raspberry Pi 4 ile bir MyNode düğümü kurma sürecine çok benzer. Raspiblitz kılavuzu bir monitör almanızı öneriyor, ancak gerçekten bir monitöre ihtiyacınız yok ve ben de tavsiye etmem. Ekstra bir klavye ya da fareye bile ihtiyacınız yok. Sadece aynı ev ağındaki bir bilgisayar üzerinden cihazın terminal menüsüne erişin ve terminal kullanarak ssh komutunu kullanın. Bu Linux/Mac ile mümkün (kolay) ve Windows ile biraz daha zor.
 
 
-## Adım 1: Ekipmanı satın alın.
+### Adım 1: Ekipmanı satın alın.
 
 
 Bir MyNode düğümünü çalıştırmak için ihtiyacınız olan ekipmanla tamamen aynı ekipmana ihtiyacınız var. Birini ya da diğerini deneyebilirsiniz, tek fark mikro SD karttaki verilerdir.
@@ -69,7 +69,7 @@ Bu daha hızlıdır, ancak gereksiz yere pahalıdır:
 ![image](assets/3.webp)
 
 
-## Adım 2: Raspiblitz Görüntüsünü İndirin
+### Adım 2: Raspiblitz Görüntüsünü İndirin
 
 
 Raspiblitz github web sitesine gidin ve "resmi indir" bağlantısını bulun:
@@ -84,7 +84,7 @@ Raspiblitz github web sitesine gidin ve "resmi indir" bağlantısını bulun:
 ![image](assets/5.webp)
 
 
-## Adım 3: Görüntüyü Doğrulayın
+### Adım 3: Görüntüyü Doğrulayın
 
 
 Devam etmeden önce, komut satırında dosya sistemini bilmiyorsanız, öğrenmesi kolaydır ve öğrenmelisiniz.
@@ -128,7 +128,7 @@ burada `xxxxxxxxxxxxxx` yeni indirdiğiniz dosyanın adıdır. Eğer o dosyanın
 Bilgisayar 20 saniye kadar düşünür. Çıkan hash dosyasının bir önceki adımda web sitesinden indirilenle eşleşip eşleşmediğini kontrol edin. Eğer aynıysa devam edebilirsiniz.
 
 
-## Adım 4: SD kartı flaşlayın
+### Adım 4: SD kartı flaşlayın
 
 
 Bunu yapmak için Balena Etcher'ı kullanabilirsiniz. Buradan indirebilirsiniz.
@@ -152,7 +152,7 @@ Etcher'ın kullanımı kendi kendini açıklar. Mikro SD kartınızı takın ve 
 Bu işlem tamamlandığında sürücü artık okunamaz. İşletim sisteminden bir hata alabilirsiniz ve sürücü masaüstünden kaybolmalıdır. Kartı dışarı çekin.
 
 
-## Adım 5: Pi'yi kurun ve SD kartı takın
+### Adım 5: Pi'yi kurun ve SD kartı takın
 
 
 Parçalar (kasa gösterilmemiştir):
@@ -182,7 +182,7 @@ Son olarak, gücü bağlayın:
 ![image](assets/14.webp)
 
 
-## Adım 6: Pi'nin IP Address'unu bulun
+### Adım 6: Pi'nin IP Address'unu bulun
 
 
 Raspiblitz ile asla bir monitöre ihtiyacınız olmaz. Ancak ev ağında başka bir bilgisayara ihtiyacınız var. Pi'niz ethernet ile bağlı değilse ve WiFi'ye güvenmek istiyorsanız, IP'yi bulmak bazı bilgisayar becerileri gerektirir. Size yardımcı olamam, üzgünüm. Bir ethernet bağlantısına ihtiyacınız var. (Sorun, WiFi'ye bağlanmak ve bir şifre girmek için bir monitöre ve işletim sistemine erişime ihtiyaç duymanızdan kaynaklanıyor)
@@ -200,7 +200,7 @@ IP'yi bulmak çok önemlidir.
 **Not:** "arp -a" komutunu kullanarak ev ağındaki tüm Ethernet bağlantılı cihazların IP Address'ini bulmak için bir Mac veya Linux makinesinde terminali kullanabilirsiniz. Çıktı, yönlendiricinin göstereceği kadar güzel değildir, ancak ihtiyacınız olan tüm bilgiler oradadır. Eğer Pi'nin hangisi olduğu belli değilse, deneme yanılma yöntemini kullanın.
 
 
-## Adım 7: Pi'ye SSH ile bağlanın
+### Adım 7: Pi'ye SSH ile bağlanın
 
 
 Açmadan önce SD kartı Pi'ye takmayı unutmayın. Birkaç dakika bekleyin ve ardından başka bir Linux/Mac'te terminali açın.

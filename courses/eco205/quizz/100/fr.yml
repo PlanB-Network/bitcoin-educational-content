@@ -1,0 +1,8 @@
+question: Selon la théorie de Menger, quel mécanisme principal permet aux agents économiques moins perspicaces d'adopter progressivement la monnaie émergente?
+answer: L'imitation spontanée des comportements des individus les plus performants économiquement
+wrong_answers:
+  - "L'intervention directe des autorités centrales pour imposer un standard monétaire commun"
+  - La planification collective et la négociation entre tous les agents du marché
+  - "L'analyse rationnelle individuelle et indépendante de chaque agent économique"
+explanation: |
+  Menger explique que l'imitation joue un rôle déterminant car la connaissance n'est pas uniforme dans la population. Les agents moins perspicaces imitent naturellement les comportements des entrepreneurs les plus capables, créant un raccourci pour ceux qui n'ont ni le temps ni les connaissances nécessaires. Ce processus d'imitation spontanée permet la diffusion rapide de l'adoption monétaire sans intervention institutionnelle.

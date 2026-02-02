@@ -1,6 +1,7 @@
 ---
 term: BIP0123
 
+definition: BIP-ide klassifitseerimine 4 kategooriasse Konsensus, Peer Services, API/RPC ja Rakendused.
 ---
 Kehtestab uue standardiseeritud protsessi Bitcoini parendusettepanekute klassifitseerimiseks. Bitcoini ettepanekud tuleb nüüd liigitada 4 kategooriasse:
 

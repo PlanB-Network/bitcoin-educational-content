@@ -1,0 +1,8 @@
+question: Jaký je základní důvod, proč architektura sady Breez SDK zabraňuje regulačním překážkám, které obvykle ovlivňují služby custodial Lightning?
+answer: Uživatelé mají plnou kontrolu nad svými soukromými klíči, které nikdy neopouštějí jejich zařízení, takže se nejedná o software, který by byl zneužitelný
+wrong_answers:
+  - SDK funguje prostřednictvím decentralizovaných LSP, které rozdělují regulační odpovědnost mezi více jurisdikcí
+  - Infrastruktura Greenlight je umístěna v jurisdikcích, které jsou příznivé pro regulaci a které udělují výjimku cloudovým službám Lightning
+  - Mechanismus kanálů just-in-time vytváří dočasné platební kanály, které nespadají pod tradiční finanční předpisy
+explanation: |
+  SDK Breez se vyhýbá regulačním překážkám, protože zachovává principy neomezeného uchovávání - soukromé klíče uživatelů nikdy neopouštějí jejich zařízení a společnost Greenlight nemůže přistupovat k prostředkům uživatelů ani provádět neoprávněné operace. Tato neúschovná architektura znamená, že software nedrží finanční prostředky zákazníků, na rozdíl od úschovných služeb, které čelí významným regulačním požadavkům, protože kontrolují aktiva uživatelů. Ostatní možnosti nesprávně naznačují, že regulační výhody plynou z technických funkcí nebo jurisdikčních strategií, zatímco hlavní výhodou je jednoduše to, že neúschovný software čelí globálně méně regulačním překážkám.

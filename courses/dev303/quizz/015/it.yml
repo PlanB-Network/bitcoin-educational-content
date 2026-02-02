@@ -1,0 +1,8 @@
+question: Qual è il meccanismo principale che Rust utilizza per prevenire i bug legati alla memoria, come use-after-free e buffer overflow?
+answer: Analisi statica eseguita interamente in fase di compilazione
+wrong_answers:
+  - Garbage collection in tempo reale con pulizia automatica della memoria
+  - Controllo dinamico della memoria durante l'esecuzione del programma
+  - Gestione manuale della memoria con chiamate di allocazione esplicite
+explanation: |
+  Rust previene i bug legati alla memoria attraverso un'analisi statica eseguita interamente in fase di compilazione, in cui il compilatore esamina il codice sorgente e determina con certezza se le operazioni di memoria sono sicure. Ciò differisce dalla garbage collection (utilizzata da Java/Go) che introduce un overhead di runtime, dal controllo dinamico che richiede una verifica di runtime e dalla gestione manuale della memoria (utilizzata da C/C++) che si basa sulla disciplina del programmatore. L'approccio a tempo di compilazione di Rust garantisce la sicurezza della memoria senza costi di runtime o pause imprevedibili.

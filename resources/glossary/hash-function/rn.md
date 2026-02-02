@@ -1,5 +1,6 @@
 ---
-term: Hash IMIKORO
+term: Ikorwa rya hash
+definition: Uburyo bw'ubuharure (fonction mathématique) burema ibisohoka bifise urugero ruzwi bivuye mu binjira bifise urugero ruhinduka.
 ---
 
 Igikorwa kijanye n’imibare gifata inyungu y’ingero ihinduka (yitwa ubutumwa) kigatanga inyungu y’ingero idahinduka (yitwa Hash, hashing, digest, canke urutoke). Ibikorwa vya Hash ni ibintu vya kera bikoreshwa cane mu gukora amakuru y’ibanga. Birerekana ibintu vyihariye bituma bibereye gukoreshwa mu bibanza bitekanye:
@@ -21,4 +22,3 @@ Mu bijanye na Bitcoin, ibikorwa vya Hash bikoreshwa mu ntumbero nyinshi, harimwo
 - `HASH160`, idondora ikoreshwa rikurikirana rya `SHA256` na `RIPEMD160`. `HASH160` ikoreshwa mu nzira yo gutanga amaderesi y'ukwakira (uretse P2PK na P2TR) no mu kubara ibimenyetso vy'intoke vy'urufunguzo rw'umuvyeyi ku rufunguzo rwagutse.
 
 
-> ► *Mu congereza, vyitwa "igikorwa ca Hash".*

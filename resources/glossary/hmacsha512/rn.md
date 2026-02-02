@@ -1,5 +1,6 @@
 ---
 term: HMAC-SHA512
+definition: Algorithm ya kriptografiya ikoreshwa mu gukura imfunguzo mu magapu ya Bitcoin HD.
 ---
 
 `HMAC-SHA512` bisobanura "Kode y'ukwemeza ubutumwa bushingiye kuri Hash - Ubuhinga bwa Hash butekanye 512". Ni ubuhinga bwo gupima amakuru bukoreshwa mu kugenzura ubutungane n’ukuri kw’ubutumwa bushikirizwa hagati y’abantu babiri. Ihuza igikorwa c'ibanga ca Hash `SHA512` n'urufunguzo rw'ibanga rusangi kuri generate kode yihariye y'ubutumwa bwo kwemeza (MAC) ku butumwa bwose.

@@ -2871,7 +2871,7 @@ Denne naive metoden innebærer imidlertid en høy risiko når det gjelder tillit
 
 ![BTC204](assets/nb-NO/201.webp)
 
-Videre er det ingen garanti for at Alice ikke vil motta Bobs private nøkkel $B$ og aldri gi videre sin private nøkkel $A$ i bytte. Denne utvekslingen er derfor avhengig av overdreven tillit mellom partene, og er ineffektiv når det gjelder å sikre en sikker hemmelig overføring av eierskap.
+Dessuten finnes det ingen garanti for at Alice, etter å ha mottatt Bobs private nøkkel $B$, vil sende sin private nøkkel $A$ i bytte. Denne utvekslingen hviler derfor på en enorm tillit mellom partene og viser seg å være ineffektiv for å sikre en hemmelig overføring av eierskap på en sikker måte.
 
 ![BTC204](assets/nb-NO/202.webp)
 

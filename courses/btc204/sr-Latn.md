@@ -4062,7 +4062,7 @@ Međutim, ovaj naivni metod predstavlja visok rizik u smislu poverenja. Ništa n
 ![BTC204](assets/sr-Latn/201.webp)
 
 
-Nadalje, nema garancije da će Alisa dobiti Bobov privatni ključ, niti da će zauzvrat predati svoj. Ova razmena stoga se oslanja na prekomerno poverenje između strana i neefikasan je u osiguravanju sigurnog i tajnog prenosa vlasništva.
+Štaviše, ne postoji garancija da će Alisa, nakon što primi Bobov privatni ključ $B$, zauzvrat poslati svoj privatni ključ $A$. Ova razmena se stoga oslanja na ogromno poverenje između strana i pokazuje se kao neefikasna za osiguravanje tajnog prenosa vlasništva na bezbedan način.
 
 
 ![BTC204](assets/sr-Latn/202.webp)

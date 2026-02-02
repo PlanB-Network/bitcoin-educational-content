@@ -2871,7 +2871,7 @@ Akan tetapi, metode yang naif ini memiliki risiko yang tinggi dalam hal kepercay
 
 ![BTC204](assets/id/201.webp)
 
-Selain itu, tidak ada jaminan bahwa Alice tidak akan menerima private key $B$ milik Bob dan tidak akan pernah memberikan private key $A$ miliknya sebagai gantinya. Oleh karena itu, pertukaran ini bergantung pada kepercayaan yang berlebihan di antara kedua belah pihak, dan tidak efektif untuk memastikan transfer kepemilikan yang aman dan rahasia.
+Selain itu, tidak ada jaminan bahwa Alice, setelah menerima kunci privat $B$ milik Bob, akan mengirimkan kunci privat $A$ miliknya sebagai gantinya. Oleh karena itu, pertukaran ini sangat bergantung pada kepercayaan yang besar di antara para pihak dan terbukti tidak efisien untuk memastikan transfer kepemilikan rahasia secara aman.
 
 ![BTC204](assets/id/202.webp)
 

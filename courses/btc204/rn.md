@@ -4073,7 +4073,7 @@ Ariko rero, ubwo buryo bw’ubujuju burafise ingorane nyinshi mu bijanye n’ukw
 ![BTC204](assets/rn/201.webp)
 
 
-Ikindi, nta cizere ko Alice atazoronka urufunguzo rw'ibanga rwa Bob $B$ kandi ko atazokwigera atanga urufunguzo rwiwe rw'ibanga $A$ muri Exchange. Iyi Exchange rero ishingiye ku kwizigirana gukaze hagati y'ababuranyi, kandi ntaco imaze mu gutuma Ownership irungikwa mu mpisho.
+Vyongeye, nta ntabe n’imwe ihari yuko Alice, amaze kuronka urufunguzo rw’ibanga $B$ rwa Bob, nawe yoca atanga urufunguzo rwiwe rw’ibanga $A$. Uku guhana rero gushira imbere icizere kinini hagati y’impande zombi kandi biragaragara ko bidakora neza mu kwizera ihererekanya ry’ibanga ry’itunga mu buryo butekanye.
 
 
 ![BTC204](assets/rn/202.webp)

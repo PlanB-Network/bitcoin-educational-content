@@ -4060,7 +4060,7 @@ Denna naiva metod innebär dock en hög risk när det gäller förtroende. Det f
 ![BTC204](assets/sv/201.webp)
 
 
-Dessutom finns det ingen garanti för att Alice inte kommer att ta emot Bob:s privata nyckel $B$ och aldrig vidarebefordra sin privata nyckel $A$ i Exchange. Denna Exchange bygger därför på överdrivet förtroende mellan parterna och är ineffektiv när det gäller att säkerställa en säker hemlig överföring av Ownership.
+Dessutom finns det ingen garanti för att Alice, efter att ha tagit emot Bobs privata nyckel $B$, skickar sin privata nyckel $A$ i utbyte. Detta utbyte bygger därför på ett massivt förtroende mellan parterna och visar sig vara ineffektivt för att säkerställa en hemlig överföring av äganderätt på ett säkert sätt.
 
 
 ![BTC204](assets/sv/202.webp)

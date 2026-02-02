@@ -2873,7 +2873,7 @@ Sin embargo, este método ingenuo presenta un alto riesgo en términos de confia
 
 ![BTC204](assets/es/201.webp)
 
-Además, no hay ninguna garantía de que Alicia no reciba la clave privada $B$ de Bob y nunca transmita a cambio su clave privada $A$. Por tanto, este intercambio se basa en una confianza excesiva entre las partes, y es ineficaz para garantizar una transferencia secreta segura de la propiedad.
+Además, no existe garantía alguna de que Alice, una vez recibida la clave privada $B$ de Bob, transmita a cambio su clave privada $A$. Por lo tanto, este intercambio se basa en una confianza masiva entre las partes y resulta ineficaz para garantizar una transferencia secreta de propiedad de manera segura.
 
 ![BTC204](assets/es/202.webp)
 

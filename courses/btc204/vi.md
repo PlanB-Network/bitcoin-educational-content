@@ -2869,7 +2869,7 @@ Tuy nhiên, phương pháp ngây thơ này có rủi ro cao về mặt lòng tin
 
 ![BTC204](assets/vi/201.webp)
 
-Hơn nữa, không có gì đảm bảo rằng Alice sẽ không nhận được khóa riêng $B$ của Bob và không bao giờ chuyển khóa riêng $A$ của cô ấy để đổi lại. Do đó, việc trao đổi này dựa trên sự tin tưởng quá mức giữa các bên và không hiệu quả trong việc đảm bảo chuyển giao quyền sở hữu bí mật an toàn.
+Hơn nữa, không có gì đảm bảo rằng Alice, sau khi nhận được khóa bí mật $B$ của Bob, sẽ gửi lại khóa bí mật $A$ của mình để trao đổi. Do đó, việc trao đổi này dựa trên sự tin tưởng rất lớn giữa các bên và tỏ ra không hiệu quả trong việc đảm bảo chuyển giao quyền sở hữu bí mật một cách an toàn.
 
 ![BTC204](assets/vi/202.webp)
 

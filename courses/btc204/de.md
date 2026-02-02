@@ -2839,7 +2839,7 @@ Diese naive Methode birgt jedoch ein hohes Risiko in Bezug auf das Vertrauen. Ni
 
 ![BTC204](assets/de/201.webp)
 
-Außerdem gibt es keine Garantie, dass Alice nicht Bobs privaten Schlüssel $B$ erhält und im Gegenzug niemals ihren privaten Schlüssel $A$ weitergibt. Dieser Austausch beruht daher auf übermäßigem Vertrauen zwischen den Parteien und ist nicht geeignet, eine sichere geheime Übertragung des Eigentums zu gewährleisten.
+Zudem gibt es keine Garantie dafür, dass Alice nach Erhalt von Bobs privatem Schlüssel $B$ im Gegenzug ihren privaten Schlüssel $A$ übermittelt. Dieser Austausch beruht daher auf einem massiven Vertrauen zwischen den Parteien und erweist sich als ineffizient, um eine geheime Eigentumsübertragung auf sichere Weise zu gewährleisten.
 
 ![BTC204](assets/de/202.webp)
 

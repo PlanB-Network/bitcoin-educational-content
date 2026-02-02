@@ -2817,7 +2817,7 @@ Wacha tufikirie mfano wa kufikirika na Alice na Bob. Alice anashikilia BTC 1 ili
 Walakini, njia hii ya kufikirika inatoa hatari kubwa katika suala la uaminifu. Hakuna cha kumzuia Alice kuweka nakala ya ufunguo wa faragha wa \$A\$ baada ya exchange na kuitumia baadaye kuiba bitcoins, mara ufunguo ukiwa mikononi mwa Bob.
 ![BTC204](assets/sw/201.webp)
 
-Zaidi ya hayo, hakuna hakikisho kwamba Alice hatapokea ufunguo wa faragha wa Bob \$B\$ na hatawahi kupitisha ufunguo wake wa faragha \$A\$ katika exchange. Kwa hivyo exchange huu unategemea kuaminiana kupita kiasi kati ya wahusika, na haina ufanisi katika kuhakikisha uhamishaji wa siri wa Umiliki.
+Aidha, hakuna dhamana kwamba Alice, baada ya kupokea ufunguo wa siri $B$ wa Bob, atatuma ufunguo wake wa siri $A$ kwa malipo. Mabadilishano haya kwa hivyo yanategemea uaminifu mkubwa kati ya wahusika na yanathibitika kuwa hayana tija katika kuhakikisha uhamisho wa siri wa mali kwa njia salama.
 ![BTC204](assets/sw/202.webp)
 
 Ili kutatua matatizo haya na kuwezesha exchange kati ya wahusika ambao hawaaminiani, tutatumia mifumo ya *smart contract* badala yake. *Smart contract* ni programu ambayo hutekeleza kiotomatiki masharti yaliyoainishwa awali yanapofikiwa. Kwa upande wetu, hii inahakikisha kwamba exchange wa mali unafanyika moja kwa moja, bila ya haja ya uaminifu wa pande zote.

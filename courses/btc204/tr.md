@@ -4075,7 +4075,7 @@ Ancak bu naif yöntem güven açısından yüksek bir risk teşkil etmektedir. A
 ![BTC204](assets/tr/201.webp)
 
 
-Ayrıca, Alice'nin Bob'in özel anahtarı $B$'yi almayacağının ve Exchange'da kendi özel anahtarı $A$'yı asla aktarmayacağının garantisi yoktur. Bu nedenle bu Exchange taraflar arasında aşırı güvene dayanır ve Ownership'in güvenli bir gizli transferini sağlamada etkisizdir.
+Ayrıca, Alice'in Bob'un özel anahtarı $B$'yi aldıktan sonra karşılığında kendi özel anahtarı $A$'yı ileteceğinin hiçbir garantisi yoktur. Dolayısıyla bu değişim, taraflar arasındaki büyük bir güvene dayanmaktadır ve mülkiyetin gizli transferini güvenli bir şekilde sağlamada yetersiz kalmaktadır.
 
 
 ![BTC204](assets/tr/202.webp)

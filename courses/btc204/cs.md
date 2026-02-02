@@ -2873,7 +2873,7 @@ Tato naivní metoda však představuje vysoké riziko z hlediska důvěryhodnost
 
 ![BTC204](assets/cs/201.webp)
 
-Navíc není zaručeno, že Alice neobdrží Bobův soukromý klíč $B$ a nepředá mu výměnou svůj soukromý klíč $A$. Tato výměna tedy závisí na přílišné důvěře mezi stranami a je neúčinná při zajišťování bezpečného tajného převodu vlastnictví.
+Navíc neexistuje žádná záruka, že Alice poté, co obdrží Bobův soukromý klíč $B$, předá na oplátku svůj soukromý klíč $A$. Tato výměna tedy spočívá na obrovské důvěře mezi stranami a ukazuje se jako neúčinná pro zajištění tajného převodu vlastnictví zabezpečeným způsobem.
 
 ![BTC204](assets/cs/202.webp)
 

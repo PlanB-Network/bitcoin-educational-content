@@ -2847,7 +2847,7 @@ However, this naive method presents a high risk in terms of trust. There's nothi
 
 ![BTC204](assets/en/201.webp)
 
-Furthermore, there is no guarantee that Alice, once she has received Bob's private key $B$, will transmit her private key $A$ in exchange. This exchange, therefore, relies excessively on trust between the parties and is ineffective in ensuring a secure transfer of ownership.
+Furthermore, there is no guarantee that Alice, once she has received Bob's private key $B$, will transmit her private key $A$ in exchange. This exchange therefore relies on massive trust between the parties and proves ineffective for ensuring a secret transfer of ownership in a secure manner.
 
 ![BTC204](assets/en/202.webp)
 

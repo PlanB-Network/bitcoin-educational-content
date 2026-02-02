@@ -2873,7 +2873,7 @@ Tämä naiivi menetelmä on kuitenkin suuri riski luottamuksen kannalta. Mikää
 
 ![BTC204](assets/fi/201.webp)
 
-Lisäksi ei ole mitään takeita siitä, ettei Alice saa Bobin yksityistä avainta $B$ eikä koskaan anna vastineeksi omaa yksityistä avainta $A$. Tämä vaihto perustuu siis osapuolten väliseen liialliseen luottamukseen, eikä se ole tehokas keino varmistaa turvallista salaista omistusoikeuden siirtoa.
+Lisäksi ei ole mitään takeita siitä, että Alice, saatuaan Bobin yksityisen avaimen $B$, lähettäisi vastineeksi oman yksityisen avaimensa $A$. Tämä vaihto perustuu siten osapuolten väliseen valtavaan luottamukseen ja osoittautuu tehottomaksi varmistamaan omistusoikeuden salainen ja turvallinen siirto.
 
 ![BTC204](assets/fi/202.webp)
 

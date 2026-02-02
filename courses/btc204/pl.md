@@ -4058,7 +4058,7 @@ Ta naiwna metoda wiąże się jednak z wysokim ryzykiem pod względem zaufania. 
 ![BTC204](assets/pl/201.webp)
 
 
-Co więcej, nie ma gwarancji, że Alicja nie otrzyma klucza prywatnego Boba $B$ i nigdy nie przekaże swojego klucza prywatnego $A$ w Exchange. Exchange opiera się zatem na nadmiernym zaufaniu między stronami i jest nieskuteczny w zapewnieniu bezpiecznego tajnego transferu Ownership.
+Ponadto nie ma gwarancji, że Alice po otrzymaniu klucza prywatnego $B$ Boba przekaże w zamian swój klucz prywatny $A$. Wymiana ta opiera się zatem na ogromnym zaufaniu między stronami i okazuje się nieskuteczna w zapewnieniu tajnego przeniesienia własności w bezpieczny sposób.
 
 
 ![BTC204](assets/pl/202.webp)

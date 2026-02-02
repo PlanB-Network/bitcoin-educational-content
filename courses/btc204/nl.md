@@ -4023,7 +4023,7 @@ Deze eenvoudige methode brengt echter een groot vertrouwensrisico met zich mee. 
 ![BTC204](assets/nl/201.webp)
 
 
-Bovendien is er geen garantie dat Alice, eenmaal de privésleutel $B$ van Bob ontvangen, in ruil daarvoor haar privésleutel $A$ zal overdragen. Deze exchange berust dus op overmatig vertrouwen tussen de partijen en is niet effectief om een veilige geheime overdracht van eigenaar te garanderen.
+Bovendien is er geen garantie dat Alice, zodra zij de privésleutel $B$ van Bob heeft ontvangen, in ruil daarvoor haar privésleutel $A$ zal verzenden. Deze uitwisseling berust dus op een enorm vertrouwen tussen de partijen en blijkt inefficiënt te zijn om een geheime eigendomsoverdracht op een veilige manier te waarborgen.
 
 
 ![BTC204](assets/nl/202.webp)

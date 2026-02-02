@@ -2873,7 +2873,7 @@ Selline naiivne meetod kujutab endast siiski suurt riski usalduse osas. Mitte mi
 
 ![BTC204](assets/et/201.webp)
 
-Lisaks ei ole mingit garantiid, et Alice ei saa Bobi privaatvõtit $B$ ja ei anna selle eest kunagi edasi oma privaatvõtit $A$. Seetõttu sõltub see vahetus osapoolte vahelisest liigsest usaldusest ja on ebatõhus, et tagada turvaline salajane omandiõiguse üleandmine.
+Lisaks puudub garantii, et Alice edastab pärast Bobi privaatvõtme $B$ kättesaamist vastutasuks oma privaatvõtme $A$. See vahetus tugineb seega pooltevahelisele tohutule usaldusele ja on ebatõhus omandi salajase ülemineku tagamiseks turvalisel viisil.
 
 ![BTC204](assets/et/202.webp)
 

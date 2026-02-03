@@ -1,0 +1,9 @@
+question: Was macht ein Bitcoin-Node nach der Verifizierung mit einer validen, aber unbestätigten Transaktion?
+answer: Er leitet sie an seine Peers weiter
+wrong_answers:
+  - Er fügt sie seiner lokalen Kopie der Blockchain hinzu
+  - Er signiert sie mit seinem privaten Schlüssel
+  - Er verschlüsselt sie mit seinem öffentlichen Schlüssel
+explanation: |
+  Im Bitcoin-Netzwerk leitet jeder Node valide Transaktionen an die Nodes weiter, mit denen er verbunden ist.
+reviewed: false

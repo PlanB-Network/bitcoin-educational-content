@@ -1,0 +1,9 @@
+question: Welk bewijs wordt op Bitcoin het meest gebruikt om een UTXO te ontgrendelen?
+answer: Een digitale handtekening
+wrong_answers:
+  - Een accountwachtwoord
+  - Een hash van het huidige blok
+  - Een SSL-certificaat
+explanation: |
+  De uitgavevoorwaarde vereist gewoonlijk een handtekening die is gemaakt met de bijbehorende privésleutel.
+reviewed: false

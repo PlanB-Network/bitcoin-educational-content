@@ -1,0 +1,9 @@
+question: Theo ý tưởng được Satoshi tóm tắt, cách duy nhất để đảm bảo không có chi tiêu gấp đôi (double-spending) là gì?
+answer: Biết tất cả các giao dịch
+wrong_answers:
+  - Biết tất cả các nút (nodes) đang hoạt động
+  - Biết tất cả các thợ đào đang hoạt động
+  - Biết tất cả các khóa cá nhân
+explanation: |
+  Chi tiêu gấp đôi được phát hiện bằng cách so sánh một giao dịch với các khoản chi tiêu trong quá khứ được ghi lại trong một sổ cái chung.
+reviewed: false

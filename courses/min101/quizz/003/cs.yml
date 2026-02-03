@@ -1,0 +1,9 @@
+question: Jaký důkaz se v Bitcoinu nejčastěji používá k odemknutí UTXO?
+answer: Digitální podpis
+wrong_answers:
+  - Heslo k účtu
+  - Hash aktuálního bloku
+  - SSL certifikát
+explanation: |
+  Podmínka utrácení obvykle vyžaduje podpis vytvořený pomocí příslušného soukromého klíče.
+reviewed: false

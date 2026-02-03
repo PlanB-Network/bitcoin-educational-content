@@ -1,0 +1,9 @@
+question: Które stwierdzenie dotyczące mempoola jest poprawne?
+answer: Każdy węzeł ma swój własny mempool
+wrong_answers:
+  - Istnieje jeden unikalny mempool
+  - Mempool to plik zawarty w każdym bloku
+  - Mempool to centralny serwer
+explanation: |
+  Mempool jest lokalny dla każdego węzła, więc jego zawartość może się różnić w zależności od reguł stosowanych przez dany węzeł.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Trên Bitcoin, bằng chứng nào thường được sử dụng nhất để mở khóa một UTXO?
+answer: Một chữ ký số
+wrong_answers:
+  - Mật khẩu tài khoản
+  - Một mã băm (hash) của khối hiện tại
+  - Một chứng chỉ SSL
+explanation: |
+  Điều kiện chi tiêu thường yêu cầu một chữ ký được tạo bằng khóa cá nhân tương ứng.
+reviewed: false

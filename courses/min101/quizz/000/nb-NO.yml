@@ -1,0 +1,9 @@
+question: Hva forbruker inputs i en Bitcoin-transaksjon?
+answer: Eksisterende UTXO-er
+wrong_answers:
+  - Fremtidige outputs
+  - Eksisterende blokker
+  - Fremtidige adresser
+explanation: |
+  En input refererer til en ubrukt output fra en tidligere transaksjon, som kalles en UTXO.
+reviewed: false

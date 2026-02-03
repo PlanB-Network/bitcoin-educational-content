@@ -1,0 +1,9 @@
+question: 在比特币上，最常用于解锁 UTXO 的证明是什么？
+answer: 数字签名
+wrong_answers:
+  - 账户密码
+  - 当前区块的哈希值
+  - SSL 证书
+explanation: |
+  花费条件通常需要使用相应的私钥生成的签名。
+reviewed: false

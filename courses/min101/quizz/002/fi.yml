@@ -1,0 +1,9 @@
+question: Mikä väite mempoolista on oikea?
+answer: Jokaisella solmulla on oma mempoolinsa
+wrong_answers:
+  - On olemassa yksi ainoa mempool
+  - Mempool on tiedosto, joka sisältyy jokaiseen lohkoon
+  - Mempool on keskuspalvelin
+explanation: |
+  Mempool on jokaiselle solmulle paikallinen, joten sen sisältö voi vaihdella solmusta toiseen riippuen kunkin soveltamista säännöistä.
+reviewed: false

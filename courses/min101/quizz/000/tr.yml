@@ -1,0 +1,9 @@
+question: Bir Bitcoin işleminde girdiler (inputs) ne tüketir?
+answer: Mevcut UTXO'lar
+wrong_answers:
+  - Gelecekteki çıktılar (outputs)
+  - Mevcut bloklar
+  - Gelecekteki adresler
+explanation: |
+  Bir girdi, geçmiş bir işlemden gelen ve UTXO olarak adlandırılan harcanmamış bir çıktıya atıfta bulunur.
+reviewed: false

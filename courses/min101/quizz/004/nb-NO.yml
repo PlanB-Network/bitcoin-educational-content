@@ -1,0 +1,9 @@
+question: Hva er ifølge ideen oppsummert av Satoshi den eneste måten å sikre fravær av dobbelbruk (double-spending)?
+answer: Å kjenne til alle transaksjoner
+wrong_answers:
+  - Å kjenne til alle aktive noder
+  - Å kjenne til alle aktive minere
+  - Å kjenne til alle private nøkler
+explanation: |
+  Dobbelbruk oppdages ved å sammenligne en transaksjon med tidligere bruk registrert i en delt hovedbok.
+reviewed: false

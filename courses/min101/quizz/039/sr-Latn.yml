@@ -1,0 +1,9 @@
+question: Zašto se coinbase transakcija razlikuje od ostalih transakcija?
+answer: Ona ne troši nijedan stvarni UTXO
+wrong_answers:
+  - Nema TXID
+  - Nema izlaze
+  - Nije u Merkle stablu
+explanation: |
+  Njen ulaz ukazuje na fiktivni UTXO, što omogućava kreiranje subvencije i prikupljanje naknada.
+reviewed: false

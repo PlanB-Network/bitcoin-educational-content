@@ -1,0 +1,9 @@
+question: Które zdanie najlepiej podsumowuje usługę świadczoną przez pulę wydobywczą (mining pool)?
+answer: Sprzedaje ona przewidywalność
+wrong_answers:
+  - Sprzedaje ona trudność wydobycia
+  - Sprzedaje ona większe bloki
+  - Sprzedaje ona maszyny górnicze
+explanation: |
+  Wspólne wydobycie przekształca bardzo zmienny dochód w bardziej regularne wypłaty, w zamian za udziały i opłaty.
+reviewed: false

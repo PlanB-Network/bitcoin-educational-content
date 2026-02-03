@@ -1,0 +1,9 @@
+question: Millist tüüpi riistvaraga teostati kaevandamist Bitcoini algusaegadel?
+answer: CPU
+wrong_answers:
+  - GPU
+  - ASIC
+  - FPGA
+explanation: |
+  Alguses töötas tarkvara personaalarvutis ja kasutas peamiselt protsessorit.
+reviewed: false

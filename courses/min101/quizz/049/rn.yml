@@ -1,0 +1,9 @@
+question: Ni iyihe ngorane pool de minage ishaka gutorera umuti canecane?
+answer: Guhindagurika kw'amahera yinjira (variance des revenus)
+wrong_answers:
+  - Ingorane z'urusobe (difficulté du réseau)
+  - Ubunini bw'ibice (taille des blocs)
+  - Igiciro ca ASIC
+explanation: |
+  Mu gushira hamwe inguvu (hashrate), pool ihindura amahera aboneka rimwe na rimwe kuba amahera aboneka kenshi. Ni ukugabanya guhindagurika kw'amahera yinjira ku mucukuzi.
+reviewed: false

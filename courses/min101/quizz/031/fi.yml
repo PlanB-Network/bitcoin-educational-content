@@ -1,0 +1,9 @@
+question: Mikä on protokollan mukaan viimeinen puoliintuminen (halving)?
+answer: 33.
+wrong_answers:
+  - 21.
+  - 38.
+  - 64.
+explanation: |
+  33. puoliintuminen korkeudella 6 930 000 lopettaa lohkosubsidion, koska se laskee pienimmän yksikön alapuolelle.
+reviewed: false

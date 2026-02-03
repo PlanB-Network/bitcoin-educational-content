@@ -1,0 +1,9 @@
+question: S jakým typem hardwaru se těžilo na úplném začátku Bitcoinu?
+answer: CPU
+wrong_answers:
+  - GPU
+  - ASIC
+  - FPGA
+explanation: |
+  Při spuštění běžel software na osobním počítači a využíval hlavně procesor.
+reviewed: false

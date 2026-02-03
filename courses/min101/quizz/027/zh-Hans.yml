@@ -1,0 +1,9 @@
+question: 交易费用是如何计算的？
+answer: 输入减去输出
+wrong_answers:
+  - 输出减去输入
+  - 输入加上输出
+  - 输出除以输入
+explanation: |
+  费用对应于在输入中消耗但未在输出中重新创建的价值。
+reviewed: false

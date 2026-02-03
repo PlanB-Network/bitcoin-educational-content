@@ -1,0 +1,9 @@
+question: Dengan jenis perangkat keras apa penambangan terutama dilakukan pada awal berdirinya Bitcoin?
+answer: CPU
+wrong_answers:
+  - GPU
+  - ASIC
+  - FPGA
+explanation: |
+  Saat peluncuran, perangkat lunak berjalan di komputer pribadi dan terutama menggunakan prosesor.
+reviewed: false

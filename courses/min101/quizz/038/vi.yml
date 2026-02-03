@@ -1,0 +1,9 @@
+question: Kể từ BIP-34, phần đầu của scriptSig trong coinbase phải chứa nội dung gì?
+answer: Chiều cao khối (block height)
+wrong_answers:
+  - Hashrate của thợ đào
+  - Mục tiêu độ khó
+  - Dấu vết của khối
+explanation: |
+  BIP-34 yêu cầu ghi chiều cao khối vào scriptSig của coinbase.
+reviewed: false

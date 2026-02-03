@@ -1,0 +1,9 @@
+question: Jaký zdroj je potřeba k těžbě Bitcoinu?
+answer: Elektřina
+wrong_answers:
+  - Voda
+  - Drahé kameny
+  - Zlato
+explanation: |
+  Těžba je validační práce, která spotřebovává elektřinu prostřednictvím počítačů.
+reviewed: false

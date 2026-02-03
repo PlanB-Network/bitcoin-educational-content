@@ -1,0 +1,9 @@
+question: 区块中的交易何时被确认？
+answer: 当区块被添加到区块链时
+wrong_answers:
+  - 当交易被矿工签名时
+  - 当交易被节点广播时
+  - 当矿工开始寻找证明时
+explanation: |
+  比特币支付的确认是包含该支付的区块被添加到区块链之后的结果。
+reviewed: false

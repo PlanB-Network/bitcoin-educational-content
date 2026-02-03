@@ -1,0 +1,9 @@
+question: Since SegWit, where is the block witness commitment committed?
+answer: In a coinbase output
+wrong_answers:
+  - In the coinbase scriptSig
+  - In the version field
+  - In the coinbase fees
+explanation: |
+  SegWit uses a commitment recorded in the coinbase via an OP_RETURN output.
+reviewed: false

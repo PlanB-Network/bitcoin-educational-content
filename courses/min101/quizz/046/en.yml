@@ -1,0 +1,9 @@
+question: Which sentence summarizes the service provided by a mining pool?
+answer: It sells predictability
+wrong_answers:
+  - It sells mining difficulty
+  - It sells larger blocks
+  - It sells mining machines
+explanation: |
+  Pooling transforms a very volatile income into more regular payments, in exchange for sharing and fees.
+reviewed: false

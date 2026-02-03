@@ -1,0 +1,9 @@
+question: 32 bitlik nonce tükendiğinde arama alanını hangi mekanizma genişletir?
+answer: Extra-nonce
+wrong_answers:
+  - Super-nonce
+  - Coinbase-nonce
+  - Double-nonce
+explanation: |
+  Coinbase scriptSig içindeki extra-nonce'u değiştirerek Merkle kökü ve dolayısıyla başlık (header) değiştirilir.
+reviewed: false

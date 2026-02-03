@@ -1,0 +1,9 @@
+question: 哪句話總結了礦池所提供的服務？
+answer: 它出售可預測性
+wrong_answers:
+  - 它出售挖礦難度
+  - 它出售更大的區塊
+  - 它出售挖礦機
+explanation: |
+  透過集合算力，礦池將波動極大的收入轉變為更規律的支付，代價是分成和手續費。
+reviewed: false

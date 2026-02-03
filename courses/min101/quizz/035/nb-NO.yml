@@ -1,0 +1,9 @@
+question: Hvor er blokkens witness commitment forpliktet siden SegWit?
+answer: I en coinbase-output
+wrong_answers:
+  - I coinbase scriptSig
+  - I versjonsfeltet
+  - I coinbase-gebyrene
+explanation: |
+  SegWit bruker en forpliktelse skrevet i coinbase via en OP_RETURN-output.
+reviewed: false

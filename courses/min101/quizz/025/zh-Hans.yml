@@ -1,0 +1,9 @@
+question: 比特币交易费用是一个输出（output）吗？
+answer: 不是
+wrong_answers:
+  - 是
+  - 是，但仅限于 SegWit 交易
+  - 不是，但在 2012 年之前是这种情况
+explanation: |
+  费用是总输入（inputs）与总输出（outputs）之间的差值，而不是一个专门的输出。自始至终都是如此。
+reviewed: false

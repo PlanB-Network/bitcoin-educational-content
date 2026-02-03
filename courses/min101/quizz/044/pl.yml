@@ -1,0 +1,9 @@
+question: Na jakim typie sprzętu odbywało się wydobycie na samym początku Bitcoina?
+answer: CPU
+wrong_answers:
+  - GPU
+  - ASIC
+  - FPGA
+explanation: |
+  W momencie uruchomienia oprogramowanie działało na komputerze osobistym i wykorzystywało głównie procesor.
+reviewed: false

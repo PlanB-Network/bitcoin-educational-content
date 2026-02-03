@@ -1,0 +1,9 @@
+question: 區塊獎勵由什麼組成？
+answer: 補貼 + 費用
+wrong_answers:
+  - 補貼 + 難度
+  - 費用 + nonce
+  - 算力 + 費用
+explanation: |
+  獎勵是區塊補貼與包含的所有交易費用之和。
+reviewed: false

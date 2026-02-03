@@ -1,0 +1,9 @@
+question: Enkelt forklart, hva er en blokk på Bitcoin?
+answer: En pakke med transaksjoner
+wrong_answers:
+  - En betaling
+  - En sentral server
+  - En privat nøkkel
+explanation: |
+  Forenklet sett er en blokk bare en samling av grupperte transaksjoner.
+reviewed: false

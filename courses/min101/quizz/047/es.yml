@@ -1,0 +1,9 @@
+question: ¿Qué principio estadístico explica que la frecuencia de bloques encontrados converja a la cuota de hashrate a largo plazo?
+answer: Ley de los grandes números
+wrong_answers:
+  - Teorema de Bayes
+  - Paradoja del cumpleaños
+  - Principio de mínima acción
+explanation: |
+  La convergencia de los resultados se debe a la ley de los grandes números, ya que cada hash es un intento independiente.
+reviewed: false

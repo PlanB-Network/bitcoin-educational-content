@@ -1,0 +1,9 @@
+question: Vid vilken blockhöjd ägde den fjärde halveringen rum?
+answer: 840 000
+wrong_answers:
+  - 880 000
+  - 860 000
+  - 900 000
+explanation: |
+  Den fjärde halveringen ägde rum på höjd 840 000 den 20 april 2024.
+reviewed: false

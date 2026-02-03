@@ -1,0 +1,9 @@
+question: What is the shared public ledger called where the history of bitcoin payments is written?
+answer: The blockchain
+wrong_answers:
+  - The mempool
+  - The wallet
+  - The hashrate
+explanation: |
+  The shared public ledger that contains all transactions is the blockchain.
+reviewed: false

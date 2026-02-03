@@ -1,0 +1,9 @@
+question: Miten siirtomaksut lasketaan?
+answer: Syötteet miinus tulosteet
+wrong_answers:
+  - Tulosteet miinus syötteet
+  - Syötteet plus tulosteet
+  - Tulosteet jaettuna syötteillä
+explanation: |
+  Maksut vastaavat syötteissä kulutettua arvoa, jota ei luoda uudelleen tulosteissa.
+reviewed: false

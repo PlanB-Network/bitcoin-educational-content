@@ -1,0 +1,9 @@
+question: Khi nào các giao dịch trong một khối được xác nhận?
+answer: Khi khối đó được thêm vào blockchain
+wrong_answers:
+  - Khi giao dịch được thợ đào ký
+  - Khi giao dịch được nút phát tán
+  - Khi thợ đào bắt đầu tìm kiếm bằng chứng
+explanation: |
+  Xác nhận một khoản thanh toán trên Bitcoin là kết quả của việc thêm khối chứa khoản thanh toán đó vào blockchain.
+reviewed: false

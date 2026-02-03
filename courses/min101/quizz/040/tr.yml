@@ -1,0 +1,9 @@
+question: Endüstriyel madenciliğin rekabet gücünde en önemli unsur hangisidir?
+answer: Elektrik maliyeti
+wrong_answers:
+  - Maaş giderlerinin tutarı
+  - Altyapının ergonomik kalitesi
+  - Yazılım lisans maliyeti
+explanation: |
+  Büyük ölçekte madenciliğin karlılığı, hesaplama birimi başına düşen maliyete bağlıdır ve bu maliyet esas olarak elektrik maliyeti tarafından belirlenir.
+reviewed: false

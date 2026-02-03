@@ -1,0 +1,9 @@
+question: Millal muutuvad plokis olevad tehingud kinnitatuks?
+answer: Kui plokk lisatakse plokiahelasse
+wrong_answers:
+  - Kui kaevandaja on tehingu allkirjastanud
+  - Kui sõlm edastab tehingu
+  - Kui kaevandaja hakkab tõendit otsima
+explanation: |
+  Makse kinnitamine Bitcoini võrgus on selle ploki lisamise tagajärg plokiahelasse, mis seda tehingut sisaldab.
+reviewed: false

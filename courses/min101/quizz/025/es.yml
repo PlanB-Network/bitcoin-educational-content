@@ -1,0 +1,9 @@
+question: ¿Son las comisiones de una transacción de Bitcoin un output?
+answer: No
+wrong_answers:
+  - Sí
+  - Sí, pero solo para transacciones SegWit
+  - No, pero lo era antes de 2012
+explanation: |
+  Las comisiones son la diferencia entre el total de inputs y el total de outputs, no un output dedicado. Esto ha sido así desde siempre.
+reviewed: false

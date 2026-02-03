@@ -1,0 +1,9 @@
+question: Jaki algorytm jest specjalnie zaprojektowany do uruchamiania przez ASIC Bitcoin?
+answer: SHA256d
+wrong_answers:
+  - SHA512d
+  - SHA1
+  - SHA512
+explanation: |
+  Urządzenia ASIC Bitcoin są wyspecjalizowane w podwójnym algorytmie SHA256 stosowanym w proof-of-work Bitcoina.
+reviewed: false

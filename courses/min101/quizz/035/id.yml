@@ -1,0 +1,9 @@
+question: Sejak SegWit, di mana komitmen saksi (witness commitment) blok ditempatkan?
+answer: Dalam output coinbase
+wrong_answers:
+  - Dalam scriptSig coinbase
+  - Dalam bidang versi
+  - Dalam biaya coinbase
+explanation: |
+  SegWit menggunakan komitmen yang tertulis di coinbase melalui output OP_RETURN.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jakiego zasobu wymaga wydobywanie Bitcoina?
+answer: Energii elektrycznej
+wrong_answers:
+  - Wody
+  - Kamieni szlachetnych
+  - Złota
+explanation: |
+  Wydobywanie to praca związana z walidacją, która zużywa energię elektryczną za pośrednictwem komputerów.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welches statistische Prinzip erklärt, dass die Häufigkeit der gefundenen Blöcke langfristig gegen den Anteil an der Hashrate konvergiert?
+answer: Gesetz der großen Zahlen
+wrong_answers:
+  - Bayes-Theorem
+  - Geburtstagsparadoxon
+  - Prinzip der kleinsten Wirkung
+explanation: |
+  Die Konvergenz der Ergebnisse ist auf das Gesetz der großen Zahlen zurückzuführen, da jeder Hash ein unabhängiger Versuch ist.
+reviewed: false

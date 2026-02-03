@@ -1,0 +1,9 @@
+question: Wie berechnet man die Gebühren einer Transaktion?
+answer: Inputs minus Outputs
+wrong_answers:
+  - Outputs minus Inputs
+  - Inputs plus Outputs
+  - Outputs geteilt durch Inputs
+explanation: |
+  Die Gebühren entsprechen dem Wert, der in den Inputs verbraucht, aber nicht in den Outputs neu erstellt wurde.
+reviewed: false

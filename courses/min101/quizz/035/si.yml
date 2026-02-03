@@ -1,0 +1,9 @@
+question: SegWit සිට, බ්ලොක් එකේ සාක්ෂිකරුවන්ගේ (witness) කැපවීම ඇතුළත් කර ඇත්තේ කොතැනද?
+answer: Coinbase එකක ප්‍රතිදානයක (output)
+wrong_answers:
+  - Coinbase එකේ scriptSig තුළ
+  - version ක්ෂේත්‍රය තුළ
+  - Coinbase එකේ ගාස්තු තුළ
+explanation: |
+  SegWit විසින් OP_RETURN ප්‍රතිදානයක් හරහා coinbase තුළ ලියාපදිංචි කරන ලද කැපවීමක් භාවිතා කරයි.
+reviewed: false

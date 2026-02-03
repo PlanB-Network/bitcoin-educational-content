@@ -1,0 +1,9 @@
+question: Mellom midten av 2010 og midten av 2011, med hvilken faktor ble mining-vanskelighetsgraden multiplisert?
+answer: 1000
+wrong_answers:
+  - 100
+  - 500
+  - 50
+explanation: |
+  En 1 000-dobling fant sted i denne perioden, spesielt på grund av bruken av GPU-er.
+reviewed: false

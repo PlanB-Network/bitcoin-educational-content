@@ -1,0 +1,9 @@
+question: De que se compõe a recompensa de bloco?
+answer: Subsídio + taxas
+wrong_answers:
+  - Subsídio + dificuldade
+  - Taxas + nonce
+  - Hashrate + taxas
+explanation: |
+  A recompensa soma o subsídio de bloco e o conjunto das taxas das transações incluídas.
+reviewed: false

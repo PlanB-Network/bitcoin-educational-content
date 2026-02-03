@@ -1,0 +1,9 @@
+question: Terdiri dari apa imbalan blok?
+answer: Subsidi + biaya
+wrong_answers:
+  - Subsidi + kesulitan
+  - Biaya + nonce
+  - Hashrate + biaya
+explanation: |
+  Imbalan menjumlahkan subsidi blok dan seluruh biaya transaksi yang disertakan.
+reviewed: false

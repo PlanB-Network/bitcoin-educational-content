@@ -1,0 +1,9 @@
+question: 比特币历史上第一个矿池是什么？
+answer: Braiins Pool
+wrong_answers:
+  - Foundry USA
+  - AntPool
+  - F2Pool
+explanation: |
+  Braiins Pool（原名 Slush Pool 和 Bitcoin CZ）是比特币上第一个矿池，创建于 2010 年。
+reviewed: false

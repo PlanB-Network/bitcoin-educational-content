@@ -1,0 +1,9 @@
+question: Ni utaratibu gani unaopanua nafasi ya utafutaji wakati nonce ya 32-bit inapoisha?
+answer: Extra-nonce
+wrong_answers:
+  - Super-nonce
+  - Coinbase-nonce
+  - Double-nonce
+explanation: |
+  Kwa kurekebisha extra-nonce katika scriptSig ya coinbase, mzizi wa Merkle hubadilika na hivyo kichwa (header) hubadilika.
+reviewed: false

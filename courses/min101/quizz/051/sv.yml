@@ -1,0 +1,9 @@
+question: Vilken resurs behöver Bitcoin-mining använda?
+answer: Elektricitet
+wrong_answers:
+  - Vatten
+  - Ädelstenar
+  - Guld
+explanation: |
+  Mining är ett valideringsarbete som förbrukar elektricitet via datorer.
+reviewed: false

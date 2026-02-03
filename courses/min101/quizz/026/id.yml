@@ -1,0 +1,9 @@
+question: Parameter Bitcoin Core mana yang menetapkan ambang batas relai minimum secara default?
+answer: minRelayTxFee
+wrong_answers:
+  - minConfirmTxFee
+  - relayTxWeight
+  - mempoolMinBits
+explanation: |
+  Node menerapkan kebijakan lokal dan Bitcoin Core menggunakan parameter minRelayTxFee untuk ambang batas relai minimum.
+reviewed: false

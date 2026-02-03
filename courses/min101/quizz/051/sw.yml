@@ -1,0 +1,9 @@
+question: Ni rasilimali gani ambayo uchimbaji wa Bitcoin unahitaji kutumia?
+answer: Umeme
+wrong_answers:
+  - Maji
+  - Mawe ya thamani
+  - Dhahabu
+explanation: |
+  Uchimbaji ni kazi ya uhakiki inayotumia umeme kupitia kompyuta.
+reviewed: false

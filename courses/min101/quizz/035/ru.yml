@@ -1,0 +1,9 @@
+question: Начиная с SegWit, где фиксируется обязательство свидетелей (witness commitment) блока?
+answer: В выходе (output) coinbase-транзакции
+wrong_answers:
+  - В scriptSig coinbase-транзакции
+  - В поле версии
+  - В комиссиях coinbase-транзакции
+explanation: |
+  SegWit использует обязательство, записанное в coinbase-транзакции через выход OP_RETURN.
+reviewed: false

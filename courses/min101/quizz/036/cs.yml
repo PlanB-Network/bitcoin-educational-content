@@ -1,0 +1,9 @@
+question: Po kolika potvrzeních se výstupy coinbase stávají utratitelnými?
+answer: 101 potvrzení
+wrong_answers:
+  - 6 potvrzení
+  - 201 potvrzení
+  - 210 potvrzení
+explanation: |
+  Období splatnosti je 100 bloků, takže je potřeba 101 potvrzení, aby se tyto UTXO staly utratitelnými.
+reviewed: false

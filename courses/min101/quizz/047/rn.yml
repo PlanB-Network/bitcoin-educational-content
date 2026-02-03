@@ -1,0 +1,9 @@
+question: Ni iyihe tegeko rya statistike ryerekana ko incuro ibice (blocs) biboneka bihurira ku rugero rw'inguvu (hashrate) mu gihe kirekire?
+answer: Itegeko ry'ibiharuro binini (Loi des grands nombres)
+wrong_answers:
+  - Théorème de Bayes
+  - Paradoxe des anniversaires
+  - Principe de moindre action
+explanation: |
+  Guhura kw'ibivamo biva ku tegeko ry'ibiharuro binini, kuko hash imwe imwe ari igerageza ryigenga.
+reviewed: false

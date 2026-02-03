@@ -1,0 +1,9 @@
+question: Was muss seit BIP-34 am Anfang des scriptSig der Coinbase-Transaktion stehen?
+answer: Die Blockhöhe
+wrong_answers:
+  - Die Hashrate des Miners
+  - Das Difficulty Target
+  - Der Block-Fingerabdruck
+explanation: |
+  BIP-34 schreibt vor, dass die Blockhöhe im scriptSig der Coinbase-Transaktion eingetragen werden muss.
+reviewed: false

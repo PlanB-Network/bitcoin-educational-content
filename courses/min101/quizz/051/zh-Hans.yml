@@ -1,0 +1,9 @@
+question: 比特币挖矿需要使用什么资源？
+answer: 电能
+wrong_answers:
+  - 水
+  - 宝石
+  - 黄金
+explanation: |
+  挖矿是一种通过计算机消耗电力的验证工作。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vad betyder ASIC?
+answer: Application-Specific Integrated Circuits
+wrong_answers:
+  - Advanced Secure Integrated Circuit
+  - Automated Silicon Integrated Circuit
+  - Application-Shared Integrated Circuit
+explanation: |
+  En ASIC är ett chip som är designat för en enda uppgift. Det är alltså en Application-Specific Integrated Circuits.
+reviewed: false

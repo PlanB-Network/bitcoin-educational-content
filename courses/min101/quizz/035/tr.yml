@@ -1,0 +1,9 @@
+question: SegWit'ten beri, blok tanık taahhüdü (witness commitment) nerede yer alır?
+answer: Bir coinbase çıktısında (output)
+wrong_answers:
+  - Coinbase scriptSig içinde
+  - Sürüm (version) alanında
+  - Coinbase ücretlerinde
+explanation: |
+  SegWit, bir OP_RETURN çıktısı aracılığıyla coinbase içine yazılmış bir taahhüt kullanır.
+reviewed: false

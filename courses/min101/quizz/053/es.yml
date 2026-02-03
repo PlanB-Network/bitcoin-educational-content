@@ -1,0 +1,9 @@
+question: Antes de ser añadidas a la blockchain, ¿en qué se agrupan las transacciones?
+answer: En un bloque
+wrong_answers:
+  - En un UTXO
+  - En un ASIC
+  - En un scriptSig
+explanation: |
+  La transacción no se escribe instantáneamente en la blockchain. Primero se integra en un bloque.
+reviewed: false

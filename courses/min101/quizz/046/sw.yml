@@ -1,0 +1,9 @@
+question: Ni sentensi gani inayofupisha huduma inayotolewa na pool ya uchimbaji (mining pool)?
+answer: Inauza utabiri (predictability)
+wrong_answers:
+  - Inauza ugumu wa uchimbaji
+  - Inauza bloku kubwa zaidi
+  - Inauza mashine za uchimbaji
+explanation: |
+  Ushirikiano unageuza mapato yanayobadilika sana kuwa malipo ya mara kwa mara zaidi, kwa kubadilishana na ushiriki na ada.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Кой е първият майнинг пул за Биткойн?
+answer: Braiins Pool
+wrong_answers:
+  - Foundry USA
+  - AntPool
+  - F2Pool
+explanation: |
+  Braiins Pool, по-рано Slush Pool и Bitcoin CZ, е първият майнинг пул за Биткойн, създаден през 2010 г.
+reviewed: false

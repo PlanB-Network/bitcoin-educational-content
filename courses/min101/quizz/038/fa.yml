@@ -1,0 +1,9 @@
+question: از زمان BIP-34، ابتدای scriptSig مربوط به coinbase باید شامل چه چیزی باشد؟
+answer: ارتفاع بلوک (Block height)
+wrong_answers:
+  - نرخ هش (hashrate) ماینر
+  - هدف سختی (difficulty target)
+  - اثر انگشت بلوک
+explanation: |
+  BIP-34 الزامی می‌کند که ارتفاع بلوک در scriptSig مربوط به coinbase ثبت شود.
+reviewed: false

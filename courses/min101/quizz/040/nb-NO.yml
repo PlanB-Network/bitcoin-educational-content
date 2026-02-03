@@ -1,0 +1,9 @@
+question: Hvilket element er viktigst for konkurranseevnen i industriell mining?
+answer: Strømkostnader
+wrong_answers:
+  - Lønnskostnader
+  - Ergonomisk kvalitet på infrastrukturen
+  - Kostnader for programvarelisenser
+explanation: |
+  I stor skala avhenger lønnsomheten i mining av kostnaden per beregningsenhet, som hovedsakelig bestemmes av strømkostnadene.
+reviewed: false

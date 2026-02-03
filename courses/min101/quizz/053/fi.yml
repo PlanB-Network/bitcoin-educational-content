@@ -1,0 +1,9 @@
+question: Mihin tapahtumat ryhmitellään ennen niiden lisäämistä lohkoketjuun?
+answer: Lohkoon
+wrong_answers:
+  - UTXO:on
+  - ASIC:iin
+  - scriptSig:iin
+explanation: |
+  Tapahtumaa ei kirjoiteta välittömästi lohkoketjuun. Se sisällytetään ensin lohkoon.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kako se zove zajednička javna knjiga u kojoj se zapisuje istorija plaćanja u bitcoinima?
+answer: Blockchain
+wrong_answers:
+  - Mempool
+  - Novčanik (wallet)
+  - Hashrate
+explanation: |
+  Zajednička javna knjiga koja sadrži sve transakcije je blockchain.
+reviewed: false

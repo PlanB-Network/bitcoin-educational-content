@@ -1,0 +1,9 @@
+question: Millist praktilist probleemi püüab kaevandamisbassein eelkõige lahendada?
+answer: Sissetulekute varieeruvus
+wrong_answers:
+  - Võrgu raskusaste
+  - Bloki suurus
+  - ASIC-seadmete hind
+explanation: |
+  Hashrate'i koondamisega muudab bassein väga ebaregulaarse sissetuleku regulaarsemateks makseteks. See on kaevandaja jaoks sissetulekute varieeruvuse vähendamine.
+reviewed: false

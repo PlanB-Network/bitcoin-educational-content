@@ -1,0 +1,9 @@
+question: Kuidas nimetatakse jagatud avalikku registrit, kuhu kirjutatakse bitcoini maksete ajalugu?
+answer: Plokiahel (blockchain)
+wrong_answers:
+  - Mempool
+  - Rahakott (wallet)
+  - Hashrate
+explanation: |
+  Jagatud avalik register, mis sisaldab kõiki tehinguid, on plokiahel.
+reviewed: false

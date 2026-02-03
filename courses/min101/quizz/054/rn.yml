@@ -1,0 +1,9 @@
+question: Iragi (registre) rusangi rishirwako amateka y'ingene bitcoins zishurwa ryitwa gute?
+answer: Blockchain
+wrong_answers:
+  - Mempool
+  - Wallet
+  - Hashrate
+explanation: |
+  Ikaye rusangi irimwo ivyakozwe (transactions) vyose niyo blockchain.
+reviewed: false

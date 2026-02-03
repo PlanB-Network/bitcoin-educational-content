@@ -1,0 +1,9 @@
+question: Kila baada ya vitalu vingapi halving hutokea?
+answer: 210,000
+wrong_answers:
+  - 2,016
+  - 100,000
+  - 21,000,000
+explanation: |
+  Itifaki hutumia halving katika kila kizidisho cha 210,000 katika kimo cha kitalu.
+reviewed: false

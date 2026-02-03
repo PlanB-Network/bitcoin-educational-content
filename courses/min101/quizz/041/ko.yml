@@ -1,0 +1,9 @@
+question: 비트코인 ASIC은 구체적으로 어떤 알고리즘을 실행하도록 설계되었습니까?
+answer: SHA256d
+wrong_answers:
+  - SHA512d
+  - SHA1
+  - SHA512
+explanation: |
+  비트코인 ASIC은 비트코인의 작업 증명(proof-of-work)에 사용되는 이중 SHA256에 특화되어 있습니다.
+reviewed: false

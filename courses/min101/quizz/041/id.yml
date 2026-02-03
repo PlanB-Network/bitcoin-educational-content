@@ -1,0 +1,9 @@
+question: Algoritma apa yang dirancang khusus untuk dijalankan oleh ASIC Bitcoin?
+answer: SHA256d
+wrong_answers:
+  - SHA512d
+  - SHA1
+  - SHA512
+explanation: |
+  ASIC Bitcoin dikhususkan untuk SHA256 ganda yang digunakan oleh proof-of-work Bitcoin.
+reviewed: false

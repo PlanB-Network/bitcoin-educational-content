@@ -1,0 +1,9 @@
+question: Od BIP-34, šta mora da sadrži početak scriptSig-a coinbase transakcije?
+answer: Visinu bloka
+wrong_answers:
+  - Hashrate rudara
+  - Cilj težine (difficulty target)
+  - Otisak bloka
+explanation: |
+  BIP-34 nalaže upisivanje visine bloka u scriptSig coinbase transakcije.
+reviewed: false

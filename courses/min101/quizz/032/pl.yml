@@ -1,0 +1,9 @@
+question: Jaka była kwota subsydii blokowej w momencie uruchomienia Bitcoina w 2009 roku?
+answer: 50 BTC
+wrong_answers:
+  - 25 BTC
+  - 12,5 BTC
+  - 100 BTC
+explanation: |
+  Początkowa subsydia wynosiła 50 BTC na blok, przed kolejnymi podziałami.
+reviewed: false

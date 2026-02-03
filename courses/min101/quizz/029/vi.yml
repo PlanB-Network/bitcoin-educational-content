@@ -1,0 +1,9 @@
+question: Phần thưởng khối bao gồm những gì?
+answer: Trợ cấp + phí
+wrong_answers:
+  - Trợ cấp + độ khó
+  - Phí + nonce
+  - Hashrate + phí
+explanation: |
+  Phần thưởng là tổng của trợ cấp khối và tất cả các phí từ các giao dịch đi kèm.
+reviewed: false

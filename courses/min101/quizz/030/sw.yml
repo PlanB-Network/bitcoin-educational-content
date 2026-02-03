@@ -1,0 +1,9 @@
+question: Halving ya nne ilitokea katika kimo gani cha kitalu (block height)?
+answer: 840,000
+wrong_answers:
+  - 880,000
+  - 860,000
+  - 900,000
+explanation: |
+  Halving ya nne ilitokea katika kimo cha 840,000, mnamo Aprili 20, 2024.
+reviewed: false

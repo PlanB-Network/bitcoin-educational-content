@@ -1,0 +1,9 @@
+question: Welke Bitcoin Core-parameter stelt de standaard minimale relay-drempel in?
+answer: minRelayTxFee
+wrong_answers:
+  - minConfirmTxFee
+  - relayTxWeight
+  - mempoolMinBits
+explanation: |
+  Nodes passen lokaal beleid toe en Bitcoin Core gebruikt de parameter minRelayTxFee voor de minimale relay-drempel.
+reviewed: false

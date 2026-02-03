@@ -1,0 +1,9 @@
+question: Co od czasu BIP-34 musi zawierać początek scriptSig transakcji coinbase?
+answer: Wysokość bloku
+wrong_answers:
+  - Hashrate górnika
+  - Cel trudności
+  - Odcisk bloku
+explanation: |
+  BIP-34 nakłada obowiązek zapisywania wysokości bloku w scriptSig transakcji coinbase.
+reviewed: false

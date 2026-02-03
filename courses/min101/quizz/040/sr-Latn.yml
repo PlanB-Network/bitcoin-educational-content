@@ -1,0 +1,9 @@
+question: Koji element je najvažniji za konkurentnost industrijskog rudarenja?
+answer: Trošak električne energije
+wrong_answers:
+  - Visina troškova plata
+  - Ergonomski kvalitet infrastrukture
+  - Trošak softverskih licenci
+explanation: |
+  U velikim razmerama, profitabilnost rudarenja zavisi od cene po jedinici proračuna, što je prvenstveno određeno cenom električne energije.
+reviewed: false

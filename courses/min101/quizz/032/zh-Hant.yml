@@ -1,0 +1,9 @@
+question: 2009 年比特幣發布時，區塊補貼金額是多少？
+answer: 50 BTC
+wrong_answers:
+  - 25 BTC
+  - 12.5 BTC
+  - 100 BTC
+explanation: |
+  在歷次減半之前，初始補貼為每個區塊 50 BTC。
+reviewed: false

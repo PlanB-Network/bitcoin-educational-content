@@ -1,0 +1,9 @@
+question: Koji je bio prvi mining pool za Bitcoin?
+answer: Braiins Pool
+wrong_answers:
+  - Foundry USA
+  - AntPool
+  - F2Pool
+explanation: |
+  Braiins Pool, ranije poznat kao Slush Pool i Bitcoin CZ, je prvi rudarski bazen za Bitcoin, osnovan 2010. godine.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 在經過多少次確認後，coinbase 的輸出才變得可以支出？
+answer: 101 次確認
+wrong_answers:
+  - 6 次確認
+  - 201 次確認
+  - 210 次確認
+explanation: |
+  成熟期為 100 個區塊，因此需要 101 次確認才能使這些 UTXO 變得可以支出。
+reviewed: false

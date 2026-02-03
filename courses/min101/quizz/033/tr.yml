@@ -1,0 +1,9 @@
+question: Her kaç blokta bir halving gerçekleşir?
+answer: 210.000
+wrong_answers:
+  - 2.016
+  - 100.000
+  - 21.000.000
+explanation: |
+  Protokol, blok yüksekliğinde her 210.000'in katında bir halving uygular.
+reviewed: false

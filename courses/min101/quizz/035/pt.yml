@@ -1,0 +1,9 @@
+question: Desde o SegWit, onde é incluído o compromisso dos testemunhos (witness commitment) do bloco?
+answer: Num output da coinbase
+wrong_answers:
+  - No scriptSig da coinbase
+  - No campo version
+  - Nas taxas da coinbase
+explanation: |
+  O SegWit utiliza um compromisso inscrito na coinbase através de um output OP_RETURN.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 简单来说，比特币上的区块是什么？
+answer: 一组交易包
+wrong_answers:
+  - 一笔支付
+  - 一个中心服务器
+  - 一个私钥
+explanation: |
+  简单来说，一个区块就是一组被打包在一起的交易。
+reviewed: false

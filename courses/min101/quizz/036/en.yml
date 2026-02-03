@@ -1,0 +1,9 @@
+question: After how many confirmations do coinbase outputs become spendable?
+answer: 101 confirmations
+wrong_answers:
+  - 6 confirmations
+  - 201 confirmations
+  - 210 confirmations
+explanation: |
+  The maturity period is 100 blocks, so it takes 101 confirmations to make these UTXOs spendable.
+reviewed: false

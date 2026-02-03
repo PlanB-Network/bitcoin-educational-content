@@ -1,0 +1,9 @@
+question: Kas Bitcoini tehingutasud on väljund (output)?
+answer: Ei
+wrong_answers:
+  - Jah
+  - Jah, kuid ainult SegWiti tehingute puhul
+  - Ei, kuid see oli nii enne 2012. aastat
+explanation: |
+  Tasud on sisendite (inputs) kogusumma ja väljundite (outputs) kogusumma vahe, mitte eraldi väljund. See on alati nii olnud.
+reviewed: false

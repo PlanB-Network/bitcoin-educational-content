@@ -1,0 +1,9 @@
+question: Minkä tyyppisellä laitteistolla louhintaa tehtiin aivan Bitcoinin alkuaikoina?
+answer: CPU
+wrong_answers:
+  - GPU
+  - ASIC
+  - FPGA
+explanation: |
+  Julkaisuvaiheessa ohjelmisto toimi tavallisella tietokoneella ja käytti pääasiassa suoritinta.
+reviewed: false

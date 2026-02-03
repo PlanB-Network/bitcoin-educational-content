@@ -1,0 +1,9 @@
+question: Millist keskmist ajavahemikku plokkide vahel Bitcoin sihib?
+answer: 10 minutit
+wrong_answers:
+  - 1 minut
+  - 30 minutit
+  - 60 minutit
+explanation: |
+  Protokoll sihib pika perioodi jooksul keskmiselt umbes ühte plokki iga 10 minuti järel.
+reviewed: false

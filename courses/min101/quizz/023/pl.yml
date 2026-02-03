@@ -1,0 +1,9 @@
+question: Jeśli bloki zostały znalezione zbyt szybko w ostatnim okresie, co się dzieje?
+answer: Cel spada
+wrong_answers:
+  - Cel rośnie
+  - Cel pozostaje bez zmian
+  - Rozmiar bloku wzrasta
+explanation: |
+  Bloki znalezione zbyt szybko wskazują na wyższy hashrate, więc Bitcoin zaostrza warunki, obniżając cel.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Apa yang diukur oleh hashrate?
+answer: Hash per detik
+wrong_answers:
+  - Blok per detik
+  - Transaksi per detik
+  - Byte per detik
+explanation: |
+  Hashrate menyatakan jumlah upaya hashing yang dilakukan setiap detik, dalam H/s.
+reviewed: false

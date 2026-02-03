@@ -1,0 +1,9 @@
+question: Ako su blokovi pronađeni previše brzo u poslednjem periodu, šta se dešava?
+answer: Cilj pada
+wrong_answers:
+  - Cilj raste
+  - Cilj ostaje identičan
+  - Veličina bloka se povećava
+explanation: |
+  Blokovi pronađeni previše brzo ukazuju na veći hešrejt, pa Bitcoin pooštrava uslov snižavanjem cilja.
+reviewed: false

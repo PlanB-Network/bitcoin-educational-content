@@ -1,0 +1,9 @@
+question: Vilket år föreslogs Hashcash?
+answer: 1997
+wrong_answers:
+  - 1993
+  - 2004
+  - 1995
+explanation: |
+  Hashcash tillkännagavs för första gången i mars 1997.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vilket fenomen gör fördröjningen mellan två block fundamentalt variabel?
+answer: Hashningens probabilistiska karaktär
+wrong_answers:
+  - Hashningens deterministiska karaktär
+  - Hashningens rekursiva karaktär
+  - Hashningens periodiska karaktär
+explanation: |
+  Varje hash är ett oberoende försök, vilket gör upptäcktstiderna slumpmässiga även vid en konstant hashrate.
+reviewed: false

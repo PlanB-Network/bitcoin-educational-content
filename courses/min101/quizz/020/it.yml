@@ -1,0 +1,9 @@
+question: Quale intervallo medio tra ogni blocco punta Bitcoin?
+answer: 10 minuti
+wrong_answers:
+  - 1 minuto
+  - 30 minuti
+  - 60 minuti
+explanation: |
+  Il protocollo punta a una media di circa un blocco ogni 10 minuti su un lungo periodo.
+reviewed: false

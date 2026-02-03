@@ -1,0 +1,9 @@
+question: Hashcash සොයාගත්තේ කවුද?
+answer: Adam Back
+wrong_answers:
+  - Nick Szabo
+  - Hal Finney
+  - David Chaum
+explanation: |
+  Hashcash සොයා ගන්නා ලද්දේ Adam Back විසිනි. එය ප්‍රථම වැඩ පිළිබඳ සාක්ෂි (proof-of-work) යාන්ත්‍රණයයි.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 比特幣的目標是每個區塊之間平均間隔多久？
+answer: 10 分鐘
+wrong_answers:
+  - 1 分鐘
+  - 30 分鐘
+  - 60 分鐘
+explanation: |
+  該協議的目標是在較長一段時間內平均大約每 10 分鐘產生一個區塊。
+reviewed: false

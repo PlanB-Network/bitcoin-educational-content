@@ -1,0 +1,9 @@
+question: Hashcash का आविष्कार किसने किया?
+answer: Adam Back
+wrong_answers:
+  - Nick Szabo
+  - Hal Finney
+  - David Chaum
+explanation: |
+  Hashcash का आविष्कार एडम बैक द्वारा किया गया था। यह पहला प्रूफ-ऑफ-वर्क तंत्र है।
+reviewed: false

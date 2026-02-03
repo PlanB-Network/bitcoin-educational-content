@@ -1,0 +1,9 @@
+question: कौन सी घटना दो ब्लॉकों के बीच के विलंब को मौलिक रूप से परिवर्तनशील बनाती है?
+answer: हैशिंग की संभाव्य प्रकृति (probabilistic nature)
+wrong_answers:
+  - हैशिंग की नियतात्मक प्रकृति (deterministic nature)
+  - हैशिंग की पुनरावर्ती प्रकृति (recursive nature)
+  - हैशिंग की आवधिक प्रकृति (periodic nature)
+explanation: |
+  प्रत्येक हैश एक स्वतंत्र प्रयास है, जो स्थिर हैशरेट पर भी खोज के समय को यादृच्छिक बनाता है।
+reviewed: false

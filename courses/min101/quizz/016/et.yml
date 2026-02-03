@@ -1,0 +1,9 @@
+question: Mida tähendab akronüüm RPOW?
+answer: Reusable Proofs of Work
+wrong_answers:
+  - Recursive Proofs of Work
+  - Random Proofs of Work
+  - Replayed Proofs of Work
+explanation: |
+  RPOW tähistab korduvkasutatavaid ja vahetatavaid töötõendeid, mille pakkus välja Hal Finney 2004. aastal.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Bit Gold konseptinin arkasında kim var?
+answer: Nick Szabo
+wrong_answers:
+  - Satoshi Nakamoto
+  - Hal Finney
+  - Wei Dai
+explanation: |
+  Bit Gold, Nick Szabo tarafından önerilen elektronik para sistemi konsept projesidir.
+reviewed: false

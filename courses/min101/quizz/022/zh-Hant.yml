@@ -1,0 +1,9 @@
+question: 算力（hashrate）測量的是什麼？
+answer: 每秒哈希數
+wrong_answers:
+  - 每秒區塊數
+  - 每秒交易數
+  - 每秒位元組數
+explanation: |
+  算力表示每秒進行的哈希嘗試次數，單位為 H/s。
+reviewed: false

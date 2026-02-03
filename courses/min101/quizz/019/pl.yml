@@ -1,0 +1,9 @@
+question: Kto wynalazł Hashcash?
+answer: Adam Back
+wrong_answers:
+  - Nick Szabo
+  - Hal Finney
+  - David Chaum
+explanation: |
+  Hashcash został wynaleziony przez Adama Backa. Jest to pierwszy mechanizm dowodu pracy.
+reviewed: false

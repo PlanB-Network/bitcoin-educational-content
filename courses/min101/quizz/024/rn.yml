@@ -1,0 +1,9 @@
+question: Ni igiki gituma umwanya uri hagati y'ibice (blocks) bibiri uhindagurika?
+answer: Akaranga k'amahirwe ka hachage (probabilistic)
+wrong_answers:
+  - Akaranga k'ukuri kwa hachage (deterministic)
+  - Akaranga k'ukwisubiriza kwa hachage (recursive)
+  - Akaranga k'ibihe kwa hachage (periodic)
+explanation: |
+  Buri hachage ni igerageza ryigenga, bituma ibihe vyo gutura biba nk'amahirwe naho hashrate yoba idahinduka.
+reviewed: false

@@ -1,0 +1,9 @@
+question: در چه سالی Hashcash پیشنهاد شد؟
+answer: 1997
+wrong_answers:
+  - 1993
+  - 2004
+  - 1995
+explanation: |
+  Hashcash برای اولین بار در مارس 1997 اعلام شد.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welches durchschnittliche Intervall zwischen den Blöcken strebt Bitcoin an?
+answer: 10 Minuten
+wrong_answers:
+  - 1 Minute
+  - 30 Minuten
+  - 60 Minuten
+explanation: |
+  Das Protokoll strebt einen Durchschnitt von etwa einem Block alle 10 Minuten über einen langen Zeitraum an.
+reviewed: false

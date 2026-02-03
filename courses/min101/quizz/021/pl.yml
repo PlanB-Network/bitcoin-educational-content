@@ -1,0 +1,9 @@
+question: Co ile bloków korygowany jest cel trudności?
+answer: 2016 bloków
+wrong_answers:
+  - 2000 bloków
+  - 2100 bloków
+  - 4096 bloków
+explanation: |
+  Korekta następuje co 2016 bloków, co zajmuje około dwóch tygodni przy 10 minutach na blok.
+reviewed: false

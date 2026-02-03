@@ -1,0 +1,9 @@
+question: 难度目标每隔多少个区块调整一次？
+answer: 2016 个区块
+wrong_answers:
+  - 2000 个区块
+  - 2100 个区块
+  - 4096 个区块
+explanation: |
+  调整每 2016 个区块进行一次，按每个区块 10 分钟计算，大约相当于两周时间。
+reviewed: false

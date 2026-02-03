@@ -1,0 +1,9 @@
+question: Ni nani aliyevumbua Hashcash?
+answer: Adam Back
+wrong_answers:
+  - Nick Szabo
+  - Hal Finney
+  - David Chaum
+explanation: |
+  Hashcash ilivumbuliwa na Adam Back. Ni utaratibu wa kwanza wa ushahidi wa kazi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: В каком году был предложен Hashcash?
+answer: 1997
+wrong_answers:
+  - 1993
+  - 2004
+  - 1995
+explanation: |
+  Hashcash был впервые анонсирован в марте 1997 года.
+reviewed: false

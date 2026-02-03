@@ -1,0 +1,9 @@
+question: Jaki średni odstęp między blokami zakłada Bitcoin?
+answer: 10 minut
+wrong_answers:
+  - 1 minuta
+  - 30 minut
+  - 60 minut
+explanation: |
+  Protokół zakłada średnio około jeden blok co 10 minut w dłuższym okresie czasu.
+reviewed: false

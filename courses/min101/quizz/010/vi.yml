@@ -1,0 +1,9 @@
+question: Kích thước của nonce trong tiêu đề khối là bao nhiêu?
+answer: 32 bit
+wrong_answers:
+  - 128 bit
+  - 64 bit
+  - 256 bit
+explanation: |
+  Nonce là một trường 32 bit trong tiêu đề.
+reviewed: false

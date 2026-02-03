@@ -1,0 +1,9 @@
+question: کدام تابع هش برای استخراج در بیت‌کوین استفاده می‌شود؟
+answer: SHA256d
+wrong_answers:
+  - SHA1d
+  - RIPEMD160d
+  - SHA512d
+explanation: |
+  استخراج بیت‌کوین از SHA256 که دو بار اعمال شده استفاده می‌کند که عموماً به عنوان SHA256d نشان داده می‌شود.
+reviewed: false

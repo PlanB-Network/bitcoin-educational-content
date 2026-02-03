@@ -1,0 +1,9 @@
+question: 什么是比特币中的候选区块？
+answer: 由矿工准备但尚未有效的区块
+wrong_answers:
+  - 由网络验证但尚未共享的区块
+  - 由钱包创建但尚未有效的区块
+  - 存储在 mempool 中的区块
+explanation: |
+  每个矿工在尝试寻找有效的算力证明之前，都会在本地组装一个候选区块。
+reviewed: false

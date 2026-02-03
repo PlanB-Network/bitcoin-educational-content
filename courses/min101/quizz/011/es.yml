@@ -1,0 +1,9 @@
+question: ¿Para qué sirve el nonce en el encabezado del bloque?
+answer: Variar el encabezado para reintentar
+wrong_answers:
+  - Aumentar el tamaño del bloque
+  - Representar el conjunto de transacciones del bloque
+  - Indicar el objetivo de dificultad
+explanation: |
+  Modificar el nonce cambia la entrada del hash y produce una huella totalmente diferente. Esto permite intentar de nuevo encontrar un hash válido.
+reviewed: false

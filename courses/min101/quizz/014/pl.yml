@@ -1,0 +1,9 @@
+question: Jaka funkcja haszująca jest używana do wydobywania Bitcoinów?
+answer: SHA256d
+wrong_answers:
+  - SHA1d
+  - RIPEMD160d
+  - SHA512d
+explanation: |
+  Wydobywanie Bitcoinów wykorzystuje dwukrotnie zastosowaną funkcję SHA256, ogólnie oznaczaną jako SHA256d.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 区块头中的 nonce 有什么作用？
+answer: 改变区块头以进行重试
+wrong_answers:
+  - 增加区块大小
+  - 代表区块中的所有交易
+  - 指示难度目标
+explanation: |
+  修改 nonce 会改变哈希运算的输入，并产生完全不同的指纹。这使得矿工可以不断重试以寻找有效的哈希值。
+reviewed: false

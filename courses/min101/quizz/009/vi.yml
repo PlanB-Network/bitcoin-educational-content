@@ -1,0 +1,9 @@
+question: Khối ứng cử viên (candidate block) trong Bitcoin là gì?
+answer: Một khối do thợ đào chuẩn bị nhưng chưa có hiệu lực
+wrong_answers:
+  - Một khối đã được mạng lưới xác nhận nhưng chưa được chia sẻ
+  - Một khối do ví tạo ra nhưng chưa có hiệu lực
+  - Một khối được lưu trữ trong mempool
+explanation: |
+  Mỗi thợ đào tự lắp ráp một khối ứng cử viên tại máy của mình trước khi cố gắng tìm bằng chứng công việc hợp lệ.
+reviewed: false

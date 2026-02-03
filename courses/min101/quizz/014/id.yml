@@ -1,0 +1,9 @@
+question: Fungsi hash apa yang digunakan untuk penambangan di Bitcoin?
+answer: SHA256d
+wrong_answers:
+  - SHA1d
+  - RIPEMD160d
+  - SHA512d
+explanation: |
+  Penambangan Bitcoin menggunakan SHA256 yang diterapkan dua kali, umumnya disebut sebagai SHA256d.
+reviewed: false

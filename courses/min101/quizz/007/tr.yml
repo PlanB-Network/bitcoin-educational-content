@@ -1,0 +1,9 @@
+question: Bir madencinin işlem seçimini hangi ekonomik kriter yönlendirir?
+answer: Ücret oranı (fee rate)
+wrong_answers:
+  - Toplam ücret tutarı
+  - UTXO'ların yaşı
+  - UTXO sayısı
+explanation: |
+  Blok alanı sınırlı olduğundan, madenci bayt başına en karlı işlemlere öncelik verir. Dolayısıyla işlem seçimini yönlendiren ücret oranıdır.
+reviewed: false

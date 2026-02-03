@@ -1,0 +1,9 @@
+question: Blok başlığındaki nonce'un boyutu nedir?
+answer: 32 bit
+wrong_answers:
+  - 128 bit
+  - 64 bit
+  - 256 bit
+explanation: |
+  Nonce, başlıkta bulunan 32 bitlik bir alandır.
+reviewed: false

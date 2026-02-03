@@ -1,0 +1,9 @@
+question: Jaká podmínka činí blok v Bitcoinu platným?
+answer: SHA256d(hlavička bloku) <= cíl
+wrong_answers:
+  - SHA256d(hlavička bloku) >= cíl
+  - SHA256d(blok) >= cíl
+  - SHA256d(hlavička bloku) > cíl
+explanation: |
+  Aby byl blok v Bitcoinu platný, musí být hash jeho hlavičky, interpretovaný jako číslo, menší nebo roven (<=) cíli.
+reviewed: false

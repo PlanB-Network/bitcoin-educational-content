@@ -1,0 +1,9 @@
+question: Jaká hashovací funkce se používá pro těžbu v Bitcoinu?
+answer: SHA256d
+wrong_answers:
+  - SHA1d
+  - RIPEMD160d
+  - SHA512d
+explanation: |
+  Těžba bitcoinu využívá funkci SHA256 aplikovanou dvakrát, obvykle označovanou jako SHA256d.
+reviewed: false

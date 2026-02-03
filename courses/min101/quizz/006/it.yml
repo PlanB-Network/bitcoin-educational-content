@@ -1,0 +1,9 @@
+question: A cosa serve la Merkle root nell'intestazione di un blocco Bitcoin?
+answer: A impegnare tutte le transazioni del blocco
+wrong_answers:
+  - Calcolare la proof of work del blocco
+  - Segnalare la versione del blocco
+  - Conoscere la difficoltà del blocco
+explanation: |
+  La Merkle root riassume l'insieme delle transazioni; se una cambia, cambia anche la root.
+reviewed: false

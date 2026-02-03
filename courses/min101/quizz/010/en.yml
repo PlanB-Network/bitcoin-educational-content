@@ -1,0 +1,9 @@
+question: What is the size of the nonce in the block header?
+answer: 32 bits
+wrong_answers:
+  - 128 bits
+  - 64 bits
+  - 256 bits
+explanation: |
+  The nonce is a 32-bit field in the header.
+reviewed: false

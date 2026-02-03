@@ -1,0 +1,9 @@
+question: Pada elemen apa bukti kerja di Bitcoin dihitung?
+answer: Header blok
+wrong_answers:
+  - Tinggi blok
+  - Mempool jaringan
+  - 21 transaksi pertama di blok tersebut
+explanation: |
+  Penambangan terdiri dari pengulangan hash pada header blok 80 byte, yang melibatkan isi blok tersebut.
+reviewed: false

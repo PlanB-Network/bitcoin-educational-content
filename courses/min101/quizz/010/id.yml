@@ -1,0 +1,9 @@
+question: Berapa ukuran nonce dalam header blok?
+answer: 32 bit
+wrong_answers:
+  - 128 bit
+  - 64 bit
+  - 256 bit
+explanation: |
+  Nonce adalah field 32 bit dalam header.
+reviewed: false

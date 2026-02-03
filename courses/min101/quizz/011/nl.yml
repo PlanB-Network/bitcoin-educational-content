@@ -1,0 +1,9 @@
+question: Waarvoor dient de nonce in de block header?
+answer: De header variëren voor een nieuwe poging
+wrong_answers:
+  - De blokgrootte vergroten
+  - Alle transacties in het blok vertegenwoordigen
+  - Het moeilijkheidsdoel aangeven
+explanation: |
+  Het wijzigen van de nonce verandert de invoer van de hash en produceert een totaal andere vingerafdruk. Dit maakt het mogelijk om opnieuw te proberen een geldige hash te vinden.
+reviewed: false

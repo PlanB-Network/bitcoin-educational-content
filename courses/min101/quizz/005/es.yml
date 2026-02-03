@@ -1,0 +1,9 @@
+question: ¿A qué corresponde el campo nbits en el encabezado del bloque?
+answer: El objetivo de dificultad codificado
+wrong_answers:
+  - El tamaño del bloque en bytes
+  - El número de transacciones en el bloque
+  - La marca de tiempo del bloque
+explanation: |
+  El campo nbits codifica el objetivo de dificultad activo.
+reviewed: false

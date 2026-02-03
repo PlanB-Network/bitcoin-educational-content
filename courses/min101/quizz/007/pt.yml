@@ -1,0 +1,9 @@
+question: Que critério económico guia a escolha das transações por um mineiro?
+answer: A taxa de taxa (fee rate)
+wrong_answers:
+  - O montante das taxas
+  - A antiguidade dos UTXOs
+  - O número de UTXOs
+explanation: |
+  Sendo limitado o espaço de um bloco, o mineiro privilegia as transações mais rentáveis por byte. É, portanto, a taxa de taxa que guia a seleção das transações.
+reviewed: false

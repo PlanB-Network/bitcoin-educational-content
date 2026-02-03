@@ -1,0 +1,9 @@
+question: Какъв е размерът на nonce в заглавната част на блока?
+answer: 32 бита
+wrong_answers:
+  - 128 бита
+  - 64 бита
+  - 256 бита
+explanation: |
+  Nonce е поле от 32 бита в заглавната част.
+reviewed: false

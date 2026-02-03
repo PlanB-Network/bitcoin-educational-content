@@ -1,0 +1,9 @@
+question: Ni kigezo gani cha kiuchumi kinachomuongoza mchimba migodi (miner) kuchagua miamala?
+answer: Kiwango cha ada (fee rate)
+wrong_answers:
+  - Kiasi cha ada
+  - Umri wa UTXO
+  - Idadi ya UTXOs
+explanation: |
+  Kwa kuwa nafasi ya bloku ni ndogo, mchimba migodi hupendelea miamala yenye faida zaidi kwa kila baiti. Kwa hivyo ni kiwango cha ada kinachoongoza uteuzi wa miamala.
+reviewed: false

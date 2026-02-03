@@ -1,0 +1,9 @@
+question: Ikiwa lengo la ugumu litapungua, nini kinatokea kwa uchimbaji?
+answer: Inakuwa vigumu zaidi
+wrong_answers:
+  - Inakuwa rahisi zaidi
+  - Inabaki vile vile
+  - Haiwezekani
+explanation: |
+  Lengo la chini huacha matokeo machache yanayowezekana chini ya kiwango, kwa hivyo majaribio zaidi yanahitajika ili kupata hashi halali. Hii inamaanisha kuwa uchimbaji ni mgumu zaidi.
+reviewed: false

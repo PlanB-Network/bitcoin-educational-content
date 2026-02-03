@@ -1,0 +1,9 @@
+question: Nonce ikora iki mu mutwe w'ububiko?
+answer: Guhindura umutwe w'ububiko kugira ugerageze kandi
+wrong_answers:
+  - Kwongereza ubunini bw'ububiko
+  - Kwerekana ibikorwa vyose biri mu bubiko
+  - Kwerekana intego y'ingorane
+explanation: |
+  Guhindura nonce bihindura ivyinjira muri hachage bigatuma hasohoka ikimenyetso (hash) gitandukanye cane. Ivyo bituma umu-miner ashobora kugerageza kurondera hash yemewe.
+reviewed: false

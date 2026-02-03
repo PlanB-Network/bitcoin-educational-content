@@ -1,0 +1,9 @@
+question: ブロックヘッダー内のナンスのサイズはどれくらいですか？
+answer: 32ビット
+wrong_answers:
+  - 128ビット
+  - 64ビット
+  - 256ビット
+explanation: |
+  ナンスはヘッダー内の32ビットのフィールドです。
+reviewed: false

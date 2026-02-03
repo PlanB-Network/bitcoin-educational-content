@@ -1,0 +1,9 @@
+question: Hva tilsvarer nbits-feltet i blokkhodet?
+answer: Det kodede vanskelighetsmålet
+wrong_answers:
+  - Blokkstørrelsen i bytes
+  - Antall transaksjoner i blokken
+  - Blokkens tidsstempel
+explanation: |
+  nbits-feltet koder det aktive vanskelighetsmålet.
+reviewed: false

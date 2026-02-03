@@ -1,0 +1,9 @@
+question: Koja je veličina nonce-a u zaglavlju bloka?
+answer: 32 bita
+wrong_answers:
+  - 128 bita
+  - 64 bita
+  - 256 bita
+explanation: |
+  Nonce je polje od 32 bita u zaglavlju.
+reviewed: false

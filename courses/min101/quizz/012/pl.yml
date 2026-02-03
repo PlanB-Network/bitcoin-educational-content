@@ -1,0 +1,9 @@
+question: Jeśli cel trudności maleje, co dzieje się z wydobyciem?
+answer: Staje się trudniejsze
+wrong_answers:
+  - Staje się łatwiejsze
+  - Pozostaje takie samo
+  - Staje się niemożliwe
+explanation: |
+  Niższy cel pozostawia mniej możliwych wyników poniżej progu, więc potrzeba więcej prób, aby znaleźć prawidłowy hasz. Oznacza to, że wydobycie jest trudniejsze.
+reviewed: false

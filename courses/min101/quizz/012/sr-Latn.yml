@@ -1,0 +1,9 @@
+question: Ako se cilj težine smanji, šta se dešava sa rudarenjem?
+answer: Postaje teže
+wrong_answers:
+  - Postaje lakše
+  - Ostaje isto
+  - Postaje nemoguće
+explanation: |
+  Niži cilj ostavlja manje mogućih rezultata ispod praga, pa je potrebno više pokušaja da se pronađe validan heš. To znači da je rudarenje teže.
+reviewed: false

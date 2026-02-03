@@ -1,0 +1,9 @@
+question: Co je to kandidátský blok v Bitcoinu?
+answer: Blok připravený těžařem, který však ještě není platný
+wrong_answers:
+  - Blok validovaný sítí, který však ještě nebyl sdílen
+  - Blok vytvořený peněženkou, který však ještě není platný
+  - Blok uložený v mempoolu
+explanation: |
+  Každý těžař si lokálně sestaví kandidátský blok a poté se pokusí najít platný proof of work.
+reviewed: false

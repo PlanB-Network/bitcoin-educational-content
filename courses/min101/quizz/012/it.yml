@@ -1,0 +1,9 @@
+question: Se il target di difficoltà diminuisce, cosa succede al mining?
+answer: Diventa più difficile
+wrong_answers:
+  - Diventa più facile
+  - Rimane identico
+  - Diventa impossibile
+explanation: |
+  Un target più basso lascia meno risultati possibili al di sotto della soglia, quindi sono necessari più tentativi per trovare un hash valido. Ciò significa che il mining è più difficile.
+reviewed: false

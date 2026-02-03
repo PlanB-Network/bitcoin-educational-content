@@ -1,0 +1,9 @@
+question: Para que serve a raiz de Merkle no cabeçalho de um bloco Bitcoin?
+answer: Comprometer todas as transações do bloco
+wrong_answers:
+  - Calcular a prova de trabalho do bloco
+  - Sinalizar a versão do bloco
+  - Conhecer a dificuldade do bloco
+explanation: |
+  A raiz de Merkle resume o conjunto das transações; se uma mudar, a raiz também muda.
+reviewed: false

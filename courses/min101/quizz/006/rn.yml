@@ -1,0 +1,9 @@
+question: Merkle root mu mutwe w'ububiko bwa Bitcoin ikora iki?
+answer: Gufata neza ibikorwa vyose biri mu bubiko
+wrong_answers:
+  - Guharura ikimenyetso c'igikorwa (proof of work) c'ububiko
+  - Kwerekana verisiyo y'ububiko
+  - Kumenya ingorane z'ububiko
+explanation: |
+  Merkle root niyo ncamake y'ibikorwa vyose; iyo hagize igihinduka, na racine irahinduka.
+reviewed: false

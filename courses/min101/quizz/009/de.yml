@@ -1,0 +1,9 @@
+question: Was ist ein Kandidatenblock in Bitcoin?
+answer: Ein von einem Miner vorbereiteter Block, der aber noch nicht gültig ist
+wrong_answers:
+  - Ein vom Netzwerk validierter Block, der aber noch nicht geteilt wurde
+  - Ein von einer Wallet erstellter Block, der aber noch nicht gültig ist
+  - Ein im Mempool gespeicherter Block
+explanation: |
+  Jeder Miner stellt lokal einen Kandidatenblock zusammen, bevor er versucht, einen gültigen Proof-of-Work zu finden.
+reviewed: false

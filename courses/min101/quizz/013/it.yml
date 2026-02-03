@@ -1,0 +1,9 @@
+question: Quale condizione rende un blocco valido in Bitcoin?
+answer: SHA256d(intestazione del blocco) <= target
+wrong_answers:
+  - SHA256d(intestazione del blocco) >= target
+  - SHA256d(blocco) >= target
+  - SHA256d(intestazione del blocco) > target
+explanation: |
+  Affinché un blocco sia valido su Bitcoin, l'hash della sua intestazione, interpretato come un numero, deve essere inferiore o uguale (<=) al target.
+reviewed: false

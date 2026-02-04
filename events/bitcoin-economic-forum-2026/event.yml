@@ -1,0 +1,22 @@
+id: b6d02e19-eb1a-4d56-8425-b2e6ae818e21
+start_date: 2026-05-15
+end_date: 2026-05-17
+timezone: Europe/Paris
+address_city_country: Bretagne, France
+name: Bitcoin Economic Forum
+type: conference
+description: |
+  Notre objectif est de rassembler la communauté francophone pendant deux jours dans un cadre atypique, convivial et déconnecté de la société afin de débattre, éduquer et de construire ensemble Bitcoin.
+
+language:
+  - fr
+
+links:
+  website: https://www.breizhbitcoin.com/
+
+project_id: 8ac2bfcc-7d12-4d9f-b85e-ac03eff327c9
+
+tags:
+  - self-sovereignty
+  - guides
+  - adoption

@@ -1,5 +1,6 @@
 ---
-term: Coin KUGENZURA
+term: Coin control
+definition: Uburyo butuma umuntu yihitiramwo UTXOs akoresha mu kwinjiza ivunjisha.
 ---
 
 Ikintu kiboneka muri porogarama zimwe zimwe za Bitcoin Wallet giha abakoresha ubushobozi bwo guhitamwo n’amaboko UTXOs zidasanzwe (Unspent Transaction Outputs) kugira ngo bakoreshe nk’ibintu vyo gukoresha mu gukora ibikorwa. Mu yandi majambo, Coin control itanga ubushobozi bwo guhitamwo neza ibice vy’ama bitcoins bizokoreshwa. Ivyo bikorwa bisa n’igikorwa co guhitamwo Coin yihariye muri Wallet yawe kugira ngo wishyure baguette yawe.

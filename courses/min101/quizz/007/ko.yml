@@ -1,0 +1,9 @@
+question: 채굴자가 트랜잭션을 선택할 때 지침이 되는 경제적 기준은 무엇입니까?
+answer: 수수료율(fee rate)
+wrong_answers:
+  - 총 수수료 금액
+  - UTXO의 연령
+  - UTXO의 수
+explanation: |
+  블록 공간은 제한되어 있으므로 채굴자는 바이트당 수익성이 가장 높은 트랜잭션을 우선시합니다. 따라서 트랜잭션 선택을 안내하는 것은 수수료율입니다.
+reviewed: false

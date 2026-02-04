@@ -1,0 +1,9 @@
+question: Que problema prático procura um pool de mineração resolver principalmente?
+answer: A variância dos rendimentos
+wrong_answers:
+  - A dificuldade da rede
+  - O tamanho dos blocos
+  - O preço dos ASIC
+explanation: |
+  Ao mutualizar o hashrate, um pool transforma um rendimento muito irregular em pagamentos mais regulares. É uma redução da variância dos rendimentos para o mineiro.
+reviewed: false

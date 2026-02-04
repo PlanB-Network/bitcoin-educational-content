@@ -1,5 +1,6 @@
 ---
-term: DUSTRELAYFEE
+term: Dustrelayfee
+definition: Node-parameter die het tarief definieert dat wordt gebruikt om de stoflimiet te berekenen.
 ---
 
 Een standaardisatieregel die door netwerkknooppunten wordt gebruikt om te bepalen wat zij als de "Dust limiet" beschouwen Deze parameter bepaalt een tarief in Sats per virtuele kilobyte (Sats/kvB) dat als referentie dient om te berekenen of de waarde van een UTXO minder is dan de benodigde kosten om het in een transactie op te nemen. Een UTXO wordt namelijk beschouwd als "Dust" op Bitcoin als het meer aan vergoedingen vereist om te worden overgedragen dan de waarde die het zelf vertegenwoordigt. De berekening van deze limiet is als volgt:

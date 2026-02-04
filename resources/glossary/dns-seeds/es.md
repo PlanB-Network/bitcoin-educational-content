@@ -1,6 +1,7 @@
 ---
-term: DNS SEMILLAS
+term: Dns seeds
 
+definition: Servidores DNS que proporcionan direcciones IP de nodos activos a los nuevos nodos que se unen a la red Bitcoin.
 ---
 Puntos de conexión iniciales para los nuevos nodos Bitcoin que se unen a la red. Estas semillas, que en realidad son servidores DNS específicos, tienen su dirección permanentemente incrustada en el código Bitcoin Core. Cuando un nuevo nodo se inicia, contacta con estos servidores para obtener una lista aleatoria de direcciones IP de nodos Bitcoin presumiblemente activos. El nuevo nodo puede entonces establecer conexiones con los nodos de esta lista para obtener la información necesaria para realizar su Descarga Inicial de Bloques (IBD) y sincronizarse con la cadena que tenga más trabajo acumulado. A partir de 2024, esta es la lista de semillas DNS de Bitcoin Core y los individuos responsables de su mantenimiento (https://github.com/bitcoin/bitcoin/blob/master/src/kernel/chainparams.cpp):
 

@@ -1,0 +1,9 @@
+question: ¿Para qué sirve la raíz de Merkle en el encabezado de un bloque de Bitcoin?
+answer: Comprometer todas las transacciones del bloque
+wrong_answers:
+  - Calcular la prueba de trabajo del bloque
+  - Señalar la versión del bloque
+  - Conocer la dificultad del bloque
+explanation: |
+  La raíz de Merkle resume el conjunto de transacciones; si una cambia, la raíz también cambia.
+reviewed: false

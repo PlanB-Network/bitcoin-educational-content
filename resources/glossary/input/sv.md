@@ -1,5 +1,6 @@
 ---
-term: INPUT
+term: Input
+definition: UTXO som används som källa för medel i en Bitcoin-transaktion, som refererar till en tidigare utgång.
 ---
 
 Inom ramen för Bitcoin avser en input i en transaktion UTXO:er (*Unspent Transaction Outputs*) som används som ursprungliga medel för att uppfylla outputs. Varje input innehåller referenser till tidigare UTXO:er, som sedan kommer att förbrukas av transaktionen. Dessa inmatningar används för att mata nya UTXO:er som kommer att skapas som utmatningar av transaktionen och som sedan kan spenderas i framtida transaktioner.

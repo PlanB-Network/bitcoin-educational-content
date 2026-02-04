@@ -1,0 +1,9 @@
+question: Bitcoin yiyemeje umwanya ungana gute hagati y'igice n'ikindi (block)?
+answer: Iminuta 10
+wrong_answers:
+  - Umunuta 1
+  - Iminuta 30
+  - Iminuta 60
+explanation: |
+  Uburyo bwa Bitcoin bwipfuza ko haba igice kimwe mu minuta 10 mu gihe kirekire.
+reviewed: false

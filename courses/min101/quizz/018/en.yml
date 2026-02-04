@@ -1,0 +1,9 @@
+question: What problem was Hashcash primarily looking to reduce?
+answer: Email spam
+wrong_answers:
+  - Double spending
+  - DNS phishing
+  - Theft of private keys
+explanation: |
+  Hashcash imposes a computational cost per message to make mass emailing unprofitable.
+reviewed: false

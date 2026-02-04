@@ -1,5 +1,6 @@
 ---
 term: P2PKH
+definition: Script dat bitcoins vergrendelt op de hash van een publieke sleutel, adressen beginnen met 1.
 ---
 
 P2PKH staat voor *Betalen aan Openbare Sleutel Hash*. Het is een standaard scriptmodel dat wordt gebruikt om bestedingsvoorwaarden op een UTXO vast te stellen. Het maakt het mogelijk om bitcoins vast te zetten op een Hash van een publieke sleutel, dus op een ontvangende Address. Dit script wordt geassocieerd met de Legacy-standaard en werd geïntroduceerd in de vroege versies van Bitcoin door Satoshi Nakamoto.

@@ -1,13 +1,12 @@
 question: Ni akamaro akahe nyamukuru k’ama ASIC mu bijanye na Bitcoin Mining?
-answer: Bashobora gukora neza cane ubwoko bumwe bw'imibare .
+answer: Zishobora gukora ubwoko bumwe bw’ibiharuro
 wrong_answers:
-  - Bashobora gukora ubwoko bwinshi bw'imibare itandukanye .
-  - Zikoresha umuyagankuba muto kuruta ama CPU .
-  - Birahenda kurusha ama CPU .
+  - Zishobora gukora ubwoko bwinshi bw’ibiharuro butandukanye
+  - Zikoresha umuyagankuba muto kuruta ama CPU
+  - Birazimvye kurusha ama CPUs
 explanation: |
-  ASICs ni ibice, bigereranywa n’ibice vya CPU, yamara rero, bira
-  birategurwa kugira ngo bikore ubwoko bumwe gusa bwihariye bw’
-  guharura mu buryo bwiza kuruta ubundi bwose. Mu rubanza
-  ya Bitcoin ASICs, zigenewe kubara .
-  n'ubuhinga bwa SHA256.
+  ASICs ni chips, zigereranywa na chip ya CPU, ariko rero, zateguwe kugira
+  ngo zikore ubwoko bumwe gusa bw’uguharura mu buryo bwiza cane. mu gihe ASIC izoshobora gukora ubwoko
+  bumwe gusa bw’ibiharuro, ariko ikabikora neza cane. Ku bijanye n’ama ASICs ya Bitcoin, yagenewe
+  guharura igenabikorwa(algorithm) ya SHA-256.
 reviewed: true

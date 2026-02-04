@@ -1,9 +1,9 @@
-question: Wat is het grootste nadeel van het gebruik van Tor voor een Bitcoin knooppunt?
+question: Wat is het grootste nadeel van het gebruik van Tor voor een Bitcoin-node?
 answer: Vermindering van communicatiesnelheid
 wrong_answers:
   - Stijging van transactiekosten
   - Risico op transactiecensuur
-  - Risico van Eclipse-aanval op het knooppunt
+  - Risico van eclipse-aanval op de node
 explanation: |
   Communicatie via Tor is langzamer. Deze latentie is vooral lastig tijdens de initiële lancering van een node, omdat de IBD (Initial Block Download) veel communicatie vereist.
   

@@ -1,6 +1,7 @@
 ---
-term: MAINTAINER (CORE)
+term: Správce (core)
 
+definition: Jednotlivci zodpovědní за správu projektu Bitcoin Core a slučování změn kódu.
 ---
 V kontextu projektu Bitcoin Core, který je převládající implementací uzlů v síti Bitcoin, jsou správci jednotlivci, kteří mají za úkol projekt spravovat. Nesou odpovědnost za jeho implementaci. Jsou zodpovědní za moderování v repozitáři Bitcoin Core na GitHubu a za stanovení harmonogramu vydávání nových verzí. Jsou zodpovědní především za provádění slučování žádostí o stažení (pull request, PR) navržených přispěvateli.
 

@@ -1,0 +1,9 @@
+question: 블록 헤더의 nbits 필드는 무엇에 해당합니까?
+answer: 인코딩된 난이도 목표
+wrong_answers:
+  - 바이트 단위의 블록 크기
+  - 블록 내 트랜잭션 수
+  - 블록 타임스탬프
+explanation: |
+  nbits 필드는 활성 난이도 목표를 인코딩합니다.
+reviewed: false

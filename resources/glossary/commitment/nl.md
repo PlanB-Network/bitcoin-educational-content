@@ -1,5 +1,6 @@
 ---
 term: Commitment
+definition: Cryptografisch object waarmee het bestaan van gegevens kan worden bewezen zonder deze te onthullen.
 ---
 
 Een Commitment (in cryptografische zin) is een wiskundig object, aangeduid met $C$, dat deterministisch is afgeleid van een bewerking op gestructureerde gegevens $m$ (het bericht) en een willekeurige waarde $r$. We schrijven :

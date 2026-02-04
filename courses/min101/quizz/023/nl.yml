@@ -1,0 +1,9 @@
+question: Als de blokken in de laatste periode te snel zijn gevonden, wat gebeurt er dan?
+answer: Het doel daalt
+wrong_answers:
+  - Het doel stijgt
+  - Het doel blijft hetzelfde
+  - De blokgrootte neemt toe
+explanation: |
+  Blokken die te snel worden gevonden wijzen op een hogere hashrate, dus Bitcoin verstevigt de voorwaarde door het doel te verlagen.
+reviewed: false

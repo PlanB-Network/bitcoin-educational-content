@@ -1,5 +1,6 @@
 ---
-term: ECASH (DAVID CHAUM)
+term: Ecash (david chaum)
+definition: Protokol anonimnog digitalnog novca koji je predložio David Chaum 1982. godine, preteča kriptovaluta.
 ---
 
 Protokol koji je predložio David Chaum 1982. godine, jedan je od prvih sistema digitalne valute dizajniranih da očuva anonimnost korisnika. Zasniva se na principima kriptografije javnog ključa kako bi se stvorila digitalna valuta koja se može razmenjivati sigurno i anonimno. eCash funkcioniše tako što kreira digitalne tokene koje potpisuje banka. Tako predstavlja evoluciju depozitnih banaka, bez decentralizacije. Tokom transakcija, ovi tokeni se prenose između strana bez otkrivanja identiteta korisnika, čime se čuva njihova privatnost. eCash se smatra pretečom kriptovaluta. Često se pominje u diskusijama o Bitcoin, pri čemu neki žele da koriste sisteme slične eCash-u kao Layer na vrhu. Danas je trend više ka takozvanim "federativnim Chaumian" sistemima kao što je Fedimint.

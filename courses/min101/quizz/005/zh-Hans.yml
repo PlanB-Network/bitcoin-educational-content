@@ -1,0 +1,9 @@
+question: 区块头中的 nbits 字段对应于什么？
+answer: 编码后的难度目标
+wrong_answers:
+  - 以字节为单位的区块大小
+  - 区块中的交易数量
+  - 区块的时间戳
+explanation: |
+  nbits 字段对比特币当前的难度目标进行编码。
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: ANGRIFF WIEDERHOLEN
+term: Replay Attack
+definition: Angriff, bei dem eine gültige Transaktion von einer Blockchain auf einer anderen mit derselben Historie reproduziert wird.
 ---
 
 Im Zusammenhang mit Bitcoin liegt ein Replay-Angriff vor, wenn eine gültige Transaktion auf einem Blockchain böswillig auf einem anderen Blockchain reproduziert wird, der die gleiche Transaktionshistorie hat. Mit anderen Worten, eine auf einem Kanal übertragene Transaktion kann auf einem anderen Kanal ohne die Zustimmung des Absenders der ersten Transaktion reproduziert werden.

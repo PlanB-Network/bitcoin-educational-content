@@ -1,5 +1,6 @@
 ---
-term: passphrase (BIP39)
+term: Lösenfras (BIP39)
+definition: Valfritt lösenord som läggs till återställningsfrasen för att säkra en HD-plånbok.
 ---
 
 Ett valfritt lösenord som, när det kombineras med återställningsfrasen, ger ytterligare Layer i säkerhet för deterministiska och hierarkiska Bitcoin-plånböcker. HD-plånböcker genereras vanligtvis från en återställningsfras som består av 12 eller 24 ord. Denna återställningsfras är mycket viktig eftersom den gör det möjligt att återställa alla nycklar i en Wallet vid förlust. Den utgör dock en enda felkälla (single point of failure, SPOF). Om den äventyras är bitcoins i riskzonen. Det är här passphrase kommer in i bilden. Det är ett valfritt lösenord, valt av användaren, som läggs till i återställningsfrasen för att förbättra Wallet:s säkerhet. passphrase ska inte förväxlas med en PIN-kod eller ett vanligt lösenord, utan spelar en roll i härledningen av kryptografiska nycklar.

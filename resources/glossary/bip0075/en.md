@@ -1,5 +1,6 @@
 ---
 term: BIP0075
+definition: Extension of BIP70 adding signing of payment requests and encryption of responses. Never widely adopted.
 ---
 
 Extension that enhances the BIP70 payment protocol by introducing two major innovations. 

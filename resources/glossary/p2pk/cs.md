@@ -1,6 +1,7 @@
 ---
 term: P2PK
 
+definition: Skript zamykající bitcoiny přímo na veřejný klíč bez hashování.
 ---
 P2PK je zkratka pro *Pay to Public Key*. Jedná se o standardní model skriptu používaný v Bitcoinu pro stanovení podmínek pro utrácení na UTXO. Umožňuje uzamknout bitcoiny přímo na veřejný klíč, nikoli na adresu.
 

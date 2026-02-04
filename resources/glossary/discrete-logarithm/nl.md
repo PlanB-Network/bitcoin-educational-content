@@ -1,5 +1,6 @@
 ---
-term: DISCRETE LOGARITME
+term: Discrete logaritme
+definition: Moeilijk op te lossen wiskundig probleem dat de basis vormt van de cryptografische beveiliging van Bitcoin.
 ---
 
 De discrete logaritme is een wiskundig probleem dat gebruikt wordt in sommige cryptografische algoritmen met een openbare sleutel. In een cyclische groep van orde $q$, met een generator $g$, als men een vergelijking heeft van de vorm $g^x = h$, dan heet $x$ de discrete logaritme van $h$ met betrekking tot de basis $g$, modulo $q$. Eenvoudig gezegd gaat het erom de exponent $x$ te bepalen als $g$, $h$ en $q$ bekend zijn. De discrete logaritme is dus de inverse van de exponentiaal in een eindige cyclische groep. Voor grote waarden van $q$ wordt het oplossen van het discrete logaritmeprobleem echter als algoritmisch moeilijk beschouwd. Deze eigenschap wordt gebruikt om de veiligheid van veel cryptografische protocollen te garanderen, zoals het Diffie-Hellman-protocol voor Exchange-sleutels.

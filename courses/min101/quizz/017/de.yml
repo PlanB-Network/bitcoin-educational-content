@@ -1,0 +1,9 @@
+question: Wer ist der Urheber des Konzepts Bit Gold?
+answer: Nick Szabo
+wrong_answers:
+  - Satoshi Nakamoto
+  - Hal Finney
+  - Wei Dai
+explanation: |
+  Bit Gold ist ein konzeptionelles Projekt für ein elektronisches Geldsystem, das von Nick Szabo vorgeschlagen wurde.
+reviewed: false

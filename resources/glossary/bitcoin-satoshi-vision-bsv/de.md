@@ -1,6 +1,7 @@
 ---
-term: BITCOIN SATOSHI VISION (BSV)
+term: Bitcoin Satoshi Vision (BSV)
 
+definition: Kryptowährung, die 2018 aus einem Hard Fork von Bitcoin Cash hervorgegangen ist, mit sehr großen Blockgrößen.
 ---
 Kryptowährungssystem, das aus einer harten Abspaltung von Bitcoin Cash (BCH) hervorgegangen ist, das selbst eine Abspaltung von Bitcoin (BTC) ist. Die Bitcoin SV-Gabelung erfolgte am 15. November 2018 bei Block 556.766 aufgrund von Meinungsverschiedenheiten innerhalb der Bitcoin Cash-Gemeinschaft, insbesondere in Bezug auf die Blockgröße und die angebliche Vision von Satoshi Nakamoto, dem Schöpfer von Bitcoin. Zwei Fraktionen gerieten aneinander:
 
@@ -10,4 +11,3 @@ Kryptowährungssystem, das aus einer harten Abspaltung von Bitcoin Cash (BCH) he
 
 Bitcoin SV unterscheidet sich von Bitcoin Cash und noch mehr von Bitcoin durch seine deutlich höhere Blockgrößenbegrenzung. Dieses Merkmal zielt darauf ab, mit dem übereinzustimmen, was seine Befürworter als Satoshi Nakamotos ursprüngliche Vision für Bitcoin betrachten.
 
-![](../../dictionnaire/assets/50.webp)

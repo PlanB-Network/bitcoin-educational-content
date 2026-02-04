@@ -1,5 +1,6 @@
 ---
-term: SELFISH Mining
+term: Itsekäs louhinta
+definition: Louhintastrategia, jossa lohkoja pidetään salassa etumatkan saamiseksi muihin louhijoihin nähden.
 ---
 
 Mining:n strategia (tai hyökkäys), jossa Miner tai ryhmä louhijoita pitää tarkoituksella hallussaan lohkoja, joilla on voimassa oleva Proof of Work, vapauttamatta niitä välittömästi verkkoon. Tavoitteena on pysyä muiden louhijoiden edellä Proof of Work:n suhteen, jolloin he voivat mahdollisesti Miner:n avulla julkaista useita lohkoja peräkkäin ja kerralla ja maksimoida näin voittonsa. Toisin sanoen hyökkäävä louhijaryhmä ei louhi koko verkon validoimaa viimeistä lohkoa, vaan itse luomansa lohkon, joka poikkeaa verkon validoimasta lohkosta.

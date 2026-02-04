@@ -1,5 +1,6 @@
 ---
 term: BIP
+definition: Bitcoin Improvement Proposal. Mchakato rasmi unaoruhusu jumuiya kupendekeza, kujadili, na kuandika maboresho ya itifaki ya Bitcoin.
 ---
 
 Kifupi cha "Pendekezo la Uboreshaji la Bitcoin." Pendekezo la Uboreshaji la Bitcoin (BIP) ni mchakato rasmi wa kupendekeza na kuweka kumbukumbu za maboresho na mabadiliko ya itifaki ya Bitcoin na viwango vyake. Kwa kuwa Bitcoin haina huluki kuu ya kuamua masasisho, BIPs huruhusu jumuiya kupendekeza, kujadili na kutekeleza maboresho kwa njia iliyopangwa na ya uwazi. Kila BIP inaangazia malengo ya uboreshaji unaopendekezwa, uhalalishaji, athari zinazowezekana kwenye uoanifu, pamoja na faida na hasara. BIP zinaweza kuandikwa na mwanajumuiya yeyote, lakini lazima ziidhinishwe na wasanidi programu wengine na wahariri wanaodumisha hifadhidata ya Bitcoin Core GitHub: Bryan Bishop, Jon Atack, Luke Dashjr, Mark Erhardt (Murch), Olaoluwa Osuntokun, na Ruben Somsen. Hata hivyo, ni muhimu kuelewa kwamba jukumu la watu hawa katika kuhariri BIP haimaanishi kuwa wanadhibiti Bitcoin. Ikiwa mtu anapendekeza uboreshaji ambao haukubaliwi ndani ya mfumo rasmi wa BIP, bado anaweza kuuwasilisha moja kwa moja kwa jumuiya ya Bitcoin au hata kuunda Fork ikijumuisha urekebishaji wao. Faida ya mchakato wa BIP iko katika urasmi na uwekaji wake kati, ambao hurahisisha mjadala ili kuepuka mgawanyiko kati ya watumiaji wa Bitcoin, wakitaka kutekeleza masasisho kwa njia ya maelewano. Mwishowe, ni kanuni ya wengi wa kiuchumi ambayo huamua mienendo ya nguvu ndani ya itifaki.
@@ -38,7 +39,6 @@ BIP kisha hupitia hali tofauti katika mzunguko wa maisha yao. Hali ya sasa imeai
 - Imebadilishwa / Haitumiki: BIP haitumiki tena au imebadilishwa na pendekezo la hivi majuzi zaidi ambalo linaifanya kuwa sio lazima.
 
 
-![](../../dictionnaire/assets/25.webp)
 
 
-> ► *BIP ni kifupi cha "Pendekezo la Uboreshaji la Bitcoin". Kwa Kifaransa, inaweza kutafsiriwa kama "Proposition d'amélioration de Bitcoin". Hata hivyo, maandishi mengi ya Kifaransa yanatumia moja kwa moja kifupi "BIP" kama nomino ya kawaida, wakati mwingine ya kike, wakati mwingine ya kiume.*
+

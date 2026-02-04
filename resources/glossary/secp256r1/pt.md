@@ -1,6 +1,7 @@
 ---
 term: SECP256R1
 
+definition: Curva elíptica do padrão NIST, não utilizada pelo Bitcoin que prefere secp256k1.
 ---
 Nome dado a uma curva elíptica definida pela norma NIST para criptografia de chave pública. Utiliza um campo primo de 256 bits e uma equação de curva elíptica $y^2 = x^3 + ax + b$ com as constantes:
 

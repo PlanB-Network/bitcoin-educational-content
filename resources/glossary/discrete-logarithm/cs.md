@@ -1,6 +1,7 @@
 ---
-term: DISKRÉTNÍ LOGARITMUS
+term: Diskrétní logaritmus
 
+definition: Těžko řešitelný matematický problém tvořící základ kryptografické bezpečnosti sítě Bitcoin.
 ---
 Diskrétní logaritmus je matematická úloha, která se používá v některých kryptografických algoritmech s veřejným klíčem. V cyklické grupě řádu $q$ s generátorem $g$, máme-li rovnici tvaru $g^x = h$, pak se $x$ nazývá diskrétní logaritmus $h$ vzhledem k základu $g$, modulo $q$. Zjednodušeně řečeno jde o určení exponentu $x$, když jsou známy $g$, $h$ a $q$. Diskrétní logaritmus je tedy inverzí exponenciály v konečné cyklické grupě. Pro velké hodnoty $q$ je však řešení úlohy diskrétního logaritmu považováno za algoritmicky obtížné. Tato vlastnost se využívá k zajištění bezpečnosti mnoha kryptografických protokolů, například Diffieho-Hellmanova protokolu pro výměnu klíčů.
 

@@ -1,6 +1,7 @@
 ---
 term: URI
 
+definition: Standardiseeritud vorming, mis võimaldab kodeerida Bitcoini aadressi ja tehinguparameetrid maksete hõlbustamiseks.
 ---
 Lühend "*Uniform Resource Identifier*". See on standardiseeritud stringivorming, mida kasutatakse ressursi identifitseerimiseks Internetis. URI võib olla kas URL (*Uniform Resource Locator*), mis võimaldab ressursile juurdepääsu, näidates selle asukohta arvutivõrgus, või URN (*Uniform Resource Name*), mis nimetab ressurssi ilma selle asukoha määramata. URId on olulised *World Wide Webi* toimimises, sest need võimaldavad juurdepääsu sellistele ressurssidele nagu veebilehed, dokumendid ja teenused.
 

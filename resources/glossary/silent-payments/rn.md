@@ -1,5 +1,6 @@
 ---
-term: IVYISHURA BICECERE
+term: Silent payments
+definition: Uburyo bwo kwakira inkwisho biciye ku aderesi ihoraho utarinze kuyisubiriza.
 ---
 
 Uburyo bwo gukoresha aderesi za Bitcoin zidahinduka kugira ngo umuntu aronke amahera ata Address isubira gukoresha, ata gukorana, kandi ata n’ihuriro riboneka rya On-Chain hagati y’amahera atandukanye na Address idahinduka. Ubwo buryo burakuraho ivy’ugutanga amaderesi mashasha, atakoreshwa yo kwakira generate ku bijanye n’ugucuruza kwose, gutyo hakaba umuntu yirinda imigenderanire isanzwe muri Bitcoin aho uwuronka ategerezwa gutanga Address nshasha ku wuyitanga.

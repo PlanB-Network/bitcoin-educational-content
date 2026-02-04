@@ -1,0 +1,9 @@
+question: Twisunze iciyumviro cashikirijwe na Satoshi, ni ubuhe buryo bwonyene bwo kwizera ko ata gukoresha amafaranga kabiri (double-spending) bihari?
+answer: Kumenya ibikorwa (transactions) vyose
+wrong_answers:
+  - Kumenya node zose zikora
+  - Kumenya abami (miners) bose bakora
+  - Kumenya mfunguzo z'ibanga zose
+explanation: |
+  Gukoresha amafaranga kabiri bitahurwa mu kugereranya igikorwa n'ivyakozwe kera vyanditse mu gitabo rusangi.
+reviewed: false

@@ -1,6 +1,7 @@
 ---
-term: TAPROOT
+term: Taproot
 
+definition: Zásadní aktualizace Bitcoinu aktivovaná v listopadu 2021, která přináší soukromí, efektivitu a flexibilitu prostřednictvím BIP340, 341 a 342.
 ---
 Významná aktualizace protokolu bitcoinu, přijatá v listopadu 2021 prostřednictvím soft forku. Tato aktualizace přináší významná zlepšení z hlediska soukromí, efektivity a flexibility díky implementaci BIP340, BIP341 a BIP342. Tato aktualizace byla uzamčena v bloku 687 284 dne 12. června 2021, kdy 90 % bloků vygenerovaných během určitého období signalizovalo pro, čímž naznačilo připravenost těžařů k aktivaci aktualizace (*Speedy Trial*). Aktivace nakonec proběhla na bloku 709 632 dne 14. listopadu 2021, téměř čtyři roky po počátečních jednáních o této záležitosti mezi Pieterem Wuillem, Andrewem Poelstrou a Gregorym Maxwellem. Jednalo se o první větší pokus o aktualizaci od sporné aktivace SegWitu v roce 2017.
 

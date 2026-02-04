@@ -1,0 +1,9 @@
+question: Кой е изобретил Hashcash?
+answer: Adam Back
+wrong_answers:
+  - Nick Szabo
+  - Hal Finney
+  - David Chaum
+explanation: |
+  Hashcash е изобретен от Адам Бек. Това е първият механизъм за доказателство за работа.
+reviewed: false

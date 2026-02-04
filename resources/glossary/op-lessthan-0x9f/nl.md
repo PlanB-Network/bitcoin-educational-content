@@ -1,5 +1,6 @@
 ---
 term: OP_LESSTHAN (0X9F)
+definition: Opcode die controleert of het eerste element op de stack kleiner is dan het tweede.
 ---
 
 Vergelijkt de twee bovenste items op de stack en controleert of het eerste item kleiner is dan het tweede. Als het eerste item kleiner is dan het tweede, duwt het `1` (waar) op de stack, anders duwt het `0` (onwaar).

@@ -1,5 +1,6 @@
 ---
 term: BIP0016
+definition: Introduktion av P2SH (Pay-to-Script-Hash) som möjliggör betalning till en scripthash, vilket förenklar användningen av komplexa transaktioner som multisig.
 ---
 
 BIP16 introducerade konceptet *Pay-to-Script-Hash* (P2SH), vilket översätts till "betala till skriptets Hash". BIP16, som ursprungligen föreslogs 2012 och aktiverades 2013, syftade till att förenkla användningen av transaktioner som kräver komplexa skript, t.ex. transaktioner med flera signaturer, genom att låta användare betala till en Hash för det skript som krävs för att spendera dessa bitcoins i stället för till själva skriptet. Denna innovation minskade mängden data som behövdes i den inledande transaktionen och flyttade bördan att tillhandahålla det fullständiga skriptet till den part som spenderar bitcoins. Det gjorde det också möjligt att avslöja manuset först när bitcoins spenderades, snarare än vid tidpunkten för mottagandet. BIP16 har en historisk betydelse eftersom det representerar en av de första större modifieringarna av Bitcoin-protokollet efter Nakamotos tillbakadragande 2011. Denna BIP var centrum för mycket heta debatter som till och med ledde till att Gavin Andresen, Satoshi:s efterträdare som huvudansvarig, tog tjänstledigt en period. Det fanns många andra förslag, och vissa var till och med nära att aktiveras istället för BIP16.

@@ -1,5 +1,6 @@
 ---
 term: BIP0123
+definition: Itondorwa rya BIP mu mice 4 Consensus, Peer Services, API/RPC na Applications.
 ---
 
 BIP123 ishiraho uburyo bumwe bwo gushikiriza ivyifuzo vyo guteza imbere Bitcoin (BIPs).BIPs ubu itegerezwa gushirwa mu mice 4:

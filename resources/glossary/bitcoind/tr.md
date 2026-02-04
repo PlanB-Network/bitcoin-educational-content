@@ -1,5 +1,6 @@
 ---
 term: bitcoind
+definition: Bir Bitcoin düğümünü çalıştırmak ve RPC aracılığıyla etkileşim kurmak için kullanılan bir komut satırı programı olan Bitcoin Daemon.
 ---
 
 "*Bitcoin daemon*" için kısaltma. Bitcoin protokolünü uygulayan ve kullanıcıların RPC (*Uzaktan Prosedür Çağrısı*) işlemleri için bir düğüm çalıştırmasına izin veren bir yazılımdır. Interface ile Bitcoin arasında bir iletişim görevi gören bir komut satırı programıdır (GUI olmadan). Başka bir deyişle, kullanıcının etkileşime girebileceği arka planda çalışan bir programdır (daemon). gW-3`, Satoshi Nakamoto'nun orijinal istemcisinin bir parçasıydı. Bazıları bunu Satoshi'in ilkinden sonra Bitcoin tarihindeki ikinci istemci olarak kabul eder, çünkü yazılım sürümü 0.2.6, grafiksel bir Interface olmadan bir daemon olarak yürütülmesine izin verdi. Daha sonra 2011 yılında Bitcoin QT ile birlikte paketlendi, daha sonra 2014 yılında "Bitcoin core" olarak yeniden adlandırılan bir istemci. Bugün, `bitcoind` Bitcoin core istemcisine tamamen entegre edilmiştir.

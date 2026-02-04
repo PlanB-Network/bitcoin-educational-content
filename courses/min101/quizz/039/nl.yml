@@ -1,0 +1,9 @@
+question: Waarom onderscheidt de coinbase-transactie zich van andere transacties?
+answer: Het geeft geen enkele echte UTXO uit
+wrong_answers:
+  - Het heeft geen TXID
+  - Het heeft geen outputs
+  - Het staat niet in de Merkle tree
+explanation: |
+  De input verwijst naar een fictieve UTXO, wat het mogelijk maakt om de subsidie te creëren en de fees te innen.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
 term: BIP0021
+definition: リンクやQRコードを介した支払いを容易にするための、Bitcoin URI (bitcoin で始まるリンク) の形式を定義する標準規格。
 ---
 Nils SchneiderとMatt Coralloによって書かれた提案で、Luke Dashjrによって書かれたBIP20に基づいている。BIP21は、支払いを容易にするために、受信アドレスをURI（*Uniform Resource Identifier*）でどのようにエンコードすべきかを定義している。例えば、私が "*Pandul*"というラベルの下で0.1 BTCを送るように要求するBIP21に従ったビットコインURIは次のようになります：
 

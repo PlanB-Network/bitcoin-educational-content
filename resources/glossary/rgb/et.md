@@ -1,5 +1,6 @@
 ---
 term: RGB
+definition: Detsentraliseeritud ja konfidentsiaalne nutilepingute süsteem, mis töötab Bitcoini peal.
 ---
 
 Detsentraliseeritud, konfidentsiaalne Smart contract süsteem, mis on mõeldud töötama koos Bitcoin ja Lightning Network süsteemidega. RGB töötab Client-side Validation mudelil ja eraldab Contract State salvestuse Blockchain-st, nii et sellel hoitakse ainult krüptograafilisi kohustusi. Sel viisil hoitakse kogu riigi ajalugu väljaspool ahelat, mis võimaldab suuremat skaleeritavust ja konfidentsiaalsust. RGB võimaldab seega luua keerulisi lepinguid, et salvestada märgid, NFT-d, detsentraliseeritud identiteedid või DeFi-lahendused otse Bitcoin peal.

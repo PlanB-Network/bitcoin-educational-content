@@ -1,5 +1,6 @@
 ---
-term: BİZANS BAŞARISIZLIĞI
+term: Bizans hatası
+definition: Bir sistemin teknik özelliklerine uymayan davranışı; doğal veya kasıtlı olabilir.
 ---
 
 Bizans hatası veya Bizans davranışı, bir sistemin kendi spesifikasyonlarına uymayan ve uygun olmayan sonuçlar üreten herhangi bir davranışını ifade eder.

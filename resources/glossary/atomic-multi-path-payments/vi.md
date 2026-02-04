@@ -1,5 +1,6 @@
 ---
-term: THANH TOÁN ĐA ĐƯỜNG NGUYÊN TỬ
+term: Atomic multi-path payments
+definition: Một phiên bản nâng cao của thanh toán đa đường trên Lightning, nơi mỗi đoạn có một bí mật riêng biệt, đảm bảo rằng khoản thanh toán được giải quyết hoàn toàn hoặc không.
 ---
 
 Phiên bản cải tiến của MPP (*Thanh toán đa đường dẫn*) trong đó mỗi phần thanh toán có một bí mật riêng biệt, đảm bảo rằng giao dịch được giải quyết một cách nguyên tử, tức là toàn bộ hoặc không giải quyết gì cả.

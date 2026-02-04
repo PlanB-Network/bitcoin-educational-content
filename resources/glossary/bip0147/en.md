@@ -1,5 +1,6 @@
 ---
 term: BIP0147
+definition: NULLDUMMY rule requiring the dummy element of multisig opcodes to be empty, eliminating a malleability vector.
 ---
 
 Proposal included in the SegWit soft fork aimed at resolving a malleability vector related to the dummy element consumed by the `OP_CHECKMULTISIG` and `OP_CHECKMULTISIGVERIFY` operations. Due to a historical off-by-one bug (unit shift error), these 2 opcodes remove an additional element from the stack in addition to their intended function. 

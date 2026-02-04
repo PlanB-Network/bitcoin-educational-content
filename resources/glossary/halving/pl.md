@@ -1,5 +1,6 @@
 ---
 term: Halving
+definition: Zdarzenie polegające na zmniejszeniu nagrody dla górników o połowę co 210 000 bloków.
 ---
 
 Termin "Halving" odnosi się do zaplanowanego wydarzenia, które zmniejsza o połowę nagrodę przyznawaną górnikom za każdy wydobyty blok za pośrednictwem dotacji blokowej. Redukcja ta dotyczy w szczególności części dotacji blokowej składającej się z nowych bitcoinów stworzonych z powietrza. Halving został zaprojektowany przez Satoshi Nakamoto, twórcę Bitcoin, jako mechanizm kontroli inflacji i zapewnienia ograniczonej Supply bitcoinów.

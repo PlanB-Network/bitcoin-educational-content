@@ -1,0 +1,9 @@
+question: Kuka on Bit Gold -konseptin takana?
+answer: Nick Szabo
+wrong_answers:
+  - Satoshi Nakamoto
+  - Hal Finney
+  - Wei Dai
+explanation: |
+  Bit Gold on Nick Szabon ehdottama elektronisen rahajärjestelmän konseptuaalinen projekti.
+reviewed: false

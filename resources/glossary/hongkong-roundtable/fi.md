@@ -1,6 +1,7 @@
 ---
-term: HONGKONGIN PYÖREÄN PÖYDÄN TAPAAMINEN
+term: Hong-kong roundtable
 
+definition: Historiallinen vuoden 2016 tapaaminen Bitcoin Core -kehittäjien ja louhijoiden välillä järjestelmän skaalautuvuudesta.
 ---
 Historiallinen tapahtuma Blocksize-sodasta, joka tapahtui 20. helmikuuta 2016 Hongkongissa. Kyseessä oli merkittävä kokous Bitcoin Coren kehittäjien ja louhijoiden välillä, jossa keskusteltiin järjestelmän skaalautuvuudesta ja sen skaalausstrategiasta. Jännitteet olivat korkealla ennen kokousta, erityisesti Gavin Andressenin tukeman hard fork -ehdotuksen Bitcoin Classicin nousun vuoksi, jonka tavoitteena oli lohkokoon kasvattaminen 2 MB:iin. Keskusteluihin osallistuivat ekosysteemin vaikuttajat, kuten Bitmainin perustajat Jihan Wu ja Micree Zhan, Blockstreamin johtaja Adam Back sekä Luke Dashjr, Matt Corallo ja Peter Todd.
 

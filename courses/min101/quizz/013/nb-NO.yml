@@ -1,0 +1,9 @@
+question: Hvilken betingelse gjør en blokk gyldig i Bitcoin?
+answer: SHA256d(blokkhode) <= mål
+wrong_answers:
+  - SHA256d(blokkhode) >= mål
+  - SHA256d(blokk) >= mål
+  - SHA256d(blokkhode) > mål
+explanation: |
+  For at en blokk skal være gyldig i Bitcoin, må hashen av blokkhodet, tolket som et tall, være mindre enn eller lik (<=) målet.
+reviewed: false

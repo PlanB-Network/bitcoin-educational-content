@@ -1,6 +1,7 @@
 ---
-term: MAGIC NETWORK
+term: Magic network
 
+definition: Konstanta 4 bita yang mengidentifikasi jaringan (mainnet, testnet, regtest) dalam pesan antar node.
 ---
 Konstanta yang digunakan dalam protokol Bitcoin untuk mengidentifikasi jaringan tertentu (mainnet, testnet, regtest...) dari sebuah pesan yang dipertukarkan antar node. Nilai-nilai ini dituliskan pada awal setiap pesan untuk memudahkan identifikasi mereka dalam aliran data. _Magic Network_ dirancang untuk jarang hadir dalam data komunikasi biasa. Informasi 4 byte ini jarang ditemukan dalam ASCII, tidak valid dalam UTF-8, dan menghasilkan bilangan bulat 32-bit yang sangat besar, apa pun format penyimpanan datanya. _Magic Network_ (dalam format _little-endian_):
 

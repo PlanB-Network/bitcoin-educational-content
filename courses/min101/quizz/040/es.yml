@@ -1,0 +1,9 @@
+question: ¿Qué elemento es el más importante en la competitividad de la minería industrial?
+answer: Coste de la electricidad
+wrong_answers:
+  - Importe de los costes salariales
+  - Calidad ergonómica de las infraestructuras
+  - Coste de las licencias de software
+explanation: |
+  A gran escala, la rentabilidad de la minería depende del coste por unidad de cálculo, que viene determinado principalmente por el coste de la electricidad.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Cosa misura l'hashrate?
+answer: Hash al secondo
+wrong_answers:
+  - Blocchi al secondo
+  - Transazioni al secondo
+  - Byte al secondo
+explanation: |
+  L'hashrate esprime il numero di tentativi di hashing effettuati ogni secondo, in H/s.
+reviewed: false

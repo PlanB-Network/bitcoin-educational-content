@@ -1,6 +1,7 @@
 ---
-term: GENESIS BLOCK
+term: Khối nguyên thủy
 
+definition: Khối đầu tiên của hệ thống Bitcoin do Satoshi Nakamoto tạo ra vào ngày 3 tháng 1 năm 2009.
 ---
 The Genesis Block is the first block of the Bitcoin system. It signifies the concrete launch of Bitcoin. The Genesis Block was created by Bitcoin's anonymous founder, Satoshi Nakamoto, on January 3, 2009. Its hash is:
 

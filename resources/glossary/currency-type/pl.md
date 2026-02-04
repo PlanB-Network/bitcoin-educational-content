@@ -1,5 +1,6 @@
 ---
-term: RODZAJ WALUTY
+term: Typ waluty
+definition: Poziom derywacji portfeli HD pozwalający na oddzielenie gałęzi według używanych kryptowalut.
 ---
 
 W kontekście portfeli deterministycznych i hierarchicznych (HD), typ waluty (*coin type* w języku angielskim) jest poziomem derywacji, który pozwala na rozróżnienie gałęzi Wallet w oparciu o różne używane kryptowaluty. Ten Layer derywacji, zdefiniowany przez BIP 44, znajduje się na głębokości 2 struktury derywacji, po kluczu głównym i celu. Na przykład dla Bitcoin przypisany indeks to `0x80000000`, oznaczony jako `/0'/` w ścieżce derywacji. Oznacza to, że wszystkie adresy i konta wyprowadzone z tej ścieżki są powiązane z Bitcoin. Ten Layer derywacji umożliwia wyraźne oddzielenie różnych aktywów w wielowalutowym Wallet. Oto indeksy używane dla różnych kryptowalut:
@@ -12,4 +13,3 @@ W kontekście portfeli deterministycznych i hierarchicznych (HD), typ waluty (*c
 - Ethereum: `0x8000003c`...
 
 
-![](../../dictionnaire/assets/21.webp)

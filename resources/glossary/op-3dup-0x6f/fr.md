@@ -1,5 +1,6 @@
 ---
 term: OP_3DUP (0X6F)
+definition: Opcode dupliquant les trois éléments en haut de la pile.
 ---
 
 Duplique les trois éléments en haut de la pile, puis les place en haut de la pile. Par exemple, si la pile est :

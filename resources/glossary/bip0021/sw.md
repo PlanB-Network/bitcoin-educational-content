@@ -1,5 +1,6 @@
 ---
 term: BIP0021
+definition: Kiwango kinachofafanua muundo wa URI za Bitcoin (viungo vinavyoanza na bitcoin) ili kurahisisha malipo kupitia viungo au nambari za QR.
 ---
 
 Pendekezo lililoandikwa na Nils Schneider na Matt Corallo, kulingana na BIP20 iliyoandikwa na Luke Dashjr, ambayo kwa upande wake ilitoka kwa hati nyingine iliyoandikwa na Nils Schneider. BIP21 inafafanua jinsi anwani za kupokea zinapaswa kusimba katika URIs (*Kitambulisho cha Nyenzo Sawa*) ili kuwezesha malipo. Kwa mfano, Bitcoin URI inayofuata BIP21 ambayo ningeomba chini ya lebo ya “*Pandul*” kunitumia 0.1 BTC ingeonekana hivi:

@@ -1,6 +1,7 @@
 ---
-term: ETICHETTA (PAGAMENTI SILENZIOSI)
+term: Label (silent payments)
 
+definition: Interi utilizzati per creare indirizzi statici derivati che separano gli utilizzi nei Silent Payments.
 ---
 Nel protocollo Silent Payments, le etichette sono numeri interi utilizzati per modificare l'indirizzo statico iniziale al fine di creare molti altri indirizzi statici. L'uso di queste etichette consente di segregare i pagamenti inviati tramite Silent Payments, impiegando indirizzi statici diversi per ogni utilizzo, senza aumentare eccessivamente l'onere operativo per la rilevazione di questi pagamenti (scansione). Bob utilizza un indirizzo statico $B$, composto da due chiavi pubbliche: $B_{\text{scan}}$ per la scansione e $B_{\text{spend}}$ per la spesa. L'hash di $b_{\text{scan}}$ e di un intero $m$, moltiplicato scalarmente per il punto generatore $G$, viene aggiunto alla chiave pubblica di spesa $B_{\text{spend}}$ per creare una sorta di nuova chiave pubblica di spesa $B_m$:
 

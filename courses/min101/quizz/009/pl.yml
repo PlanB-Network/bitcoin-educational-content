@@ -1,0 +1,9 @@
+question: Czym jest blok kandydacki w Bitcoinie?
+answer: Blokiem przygotowanym przez górnika, ale jeszcze nieprawidłowym
+wrong_answers:
+  - Blokiem zatwierdzonym przez sieć, ale jeszcze nieudostępnionym
+  - Blokiem utworzonym przez portfel, ale jeszcze nieprawidłowym
+  - Blokiem przechowywanym w mempoolu
+explanation: |
+  Każdy górnik lokalnie składa blok kandydacki, zanim spróbuje znaleźć ważny proof of work.
+reviewed: false

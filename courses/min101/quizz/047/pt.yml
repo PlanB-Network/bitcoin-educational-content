@@ -1,0 +1,9 @@
+question: Qual princípio estatístico explica que a frequência de blocos encontrados converge para a parte do hashrate a longo prazo?
+answer: Lei dos grandes números
+wrong_answers:
+  - Teorema de Bayes
+  - Paradoxo do aniversário
+  - Princípio da mínima ação
+explanation: |
+  A convergência dos resultados deve-se à lei dos grandes números, uma vez que cada hash é uma tentativa independente.
+reviewed: false

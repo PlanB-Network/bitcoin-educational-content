@@ -144,7 +144,7 @@ bb038b4503ac5d90e1205788b00f8f314583c5e22f72bec84b8735ba5a36df3f
 
 ![CYP201](assets/en/008.webp)
 
-Properti ini memastikan bahwa bahkan perubahan kecil dari pesan asli segera terdeteksi, karena tidak hanya mengubah bagian kecil dari hash, tetapi seluruh hash. Ini bisa menjadi menarik di berbagai bidang untuk memverifikasi integritas pesan, perangkat lunak, atau bahkan transaksi Bitcoin.
+Hal ini memastikan bahwa perubahan kecil dari pesan asli segera terdeteksi, karena tidak hanya mengubah bagian kecil dari hash, tetapi seluruh hash. Ini bisa menjadi menarik di berbagai bidang untuk memverifikasi integritas pesan, perangkat lunak, atau bahkan transaksi Bitcoin.
 
 #### 3. Ketahanan terhadap Tabrakan
 
@@ -519,10 +519,14 @@ Setiap variabel adalah integer 32-bit, sehingga penggabungan mereka selalu mengh
 Lalu, bagaimana fungsi ini tidak dapat dibalikkan, tahan terhadap tabrakan, dan tahan terhadap perubahan?
 
 Untuk ketahanan terhadap perubahan, cukup mudah untuk dipahami. Ada begitu banyak perhitungan yang dilakukan secara berurutan, yang bergantung baik pada input maupun konstanta, sehingga perubahan terkecil pada pesan awal sepenuhnya mengubah jalur yang diambil, dan dengan demikian sepenuhnya mengubah hash output. Ini adalah apa yang disebut efek salju. Properti ini sebagian dijamin oleh pencampuran keadaan-keadaan antara dengan keadaan-keadaan awal untuk setiap bagian.
-Selanjutnya, ketika membahas fungsi hash kriptografi, istilah "irreversibility" umumnya tidak digunakan. Sebaliknya, kita berbicara tentang "preimage resistance," yang menentukan bahwa untuk setiap $y$ yang diberikan, sulit untuk menemukan $x$ sedemikian sehingga $h(x) = y$. Preimage resistance ini dijamin oleh kompleksitas aljabar dan non-linearitas kuat dari operasi yang dilakukan dalam fungsi kompresi, serta oleh kehilangan informasi tertentu dalam proses tersebut. Sebagai contoh, untuk hasil penambahan modulo yang diberikan, ada beberapa operan yang mungkin:$$
+Selanjutnya, ketika membahas fungsi hash kriptografi, istilah "irreversibility" umumnya tidak digunakan. Sebaliknya, kita berbicara tentang "preimage resistance," yang menentukan bahwa untuk setiap $y$ yang diberikan, sulit untuk menemukan $x$ sedemikian sehingga $h(x) = y$. Preimage resistance ini dijamin oleh kompleksitas aljabar dan non-linearitas kuat dari operasi yang dilakukan dalam fungsi kompresi, serta oleh kehilangan informasi tertentu dalam proses tersebut. Sebagai contoh, untuk hasil penambahan modulo yang diberikan, ada beberapa operan yang mungkin:
+
+$$
+
 3+2 \mod 10 = 5 \\
 7+8 \mod 10 = 5 \\
 5+10 \mod 10 = 5
+
 $$
 
 Dalam contoh ini, hanya dengan mengetahui modulo yang digunakan (10) dan hasilnya (5), seseorang tidak dapat menentukan dengan pasti operan mana yang benar digunakan dalam penambahan. Dikatakan bahwa ada beberapa kongruensi modulo 10.
@@ -532,7 +536,7 @@ Untuk operasi XOR, kita dihadapkan pada masalah yang sama. Ingatlah tabel kebena
 Fungsi kompresi juga menggunakan operasi $\text{ShR}$. Operasi ini menghilangkan sebagian informasi dasar, yang kemudian tidak mungkin untuk diambil kembali. Sekali lagi, tidak ada cara aljabar untuk membalikkan operasi ini. Semua operasi satu arah dan kehilangan informasi ini digunakan sangat sering dalam fungsi kompresi. Jumlah input yang mungkin untuk sebuah output hampir tak terbatas, dan setiap upaya perhitungan balik akan menghasilkan persamaan dengan jumlah yang tidak diketahui sangat tinggi, yang akan meningkat secara eksponensial pada setiap langkahnya.
 
 Akhirnya, untuk karakteristik tahan benturan (collision resistance), beberapa parameter berperan. Pra-pemrosesan pesan asli memainkan peran penting. Tanpa pra-pemrosesan ini, mungkin lebih mudah untuk menemukan benturan pada fungsi tersebut. Meskipun, secara teoritis, benturan ada (karena prinsip pigeonhole), struktur fungsi hash, dikombinasikan dengan sifat-sifat yang disebutkan di atas, membuat kemungkinan menemukan benturan sangat rendah.
-Agar sebuah fungsi hash tahan benturan, sangat penting bahwa:
+Agar sebuah fungsi hash tahan benturan, al-hal berikut sangat penting:
 
 - Outputnya tidak dapat diprediksi: Setiap kemungkinan prediksi dapat dimanfaatkan untuk menemukan benturan lebih cepat daripada dengan serangan brute force. Fungsi tersebut memastikan bahwa setiap bit dari output bergantung pada input dengan cara yang tidak trivial. Dengan kata lain, fungsi tersebut dirancang sehingga setiap bit dari hasil akhir memiliki probabilitas independen untuk menjadi 0 atau 1, meskipun kemandirian ini tidak absolut dalam praktiknya.
 - Distribusi hash adalah pseudo-random: Ini memastikan bahwa hash didistribusikan secara seragam.
@@ -774,7 +778,7 @@ Karakteristik utama dari operasi ini adalah bahwa itu adalah fungsi satu arah. M
 
 ### Penambahan dan Penggandaan Titik pada Kurva Eliptik
 
-Konsep penambahan pada kurva eliptik didefinisikan secara geometris. Jika kita memiliki dua titik $P$ dan $Q$ pada kurva, operasi $P + Q$ dihitung dengan menggambar garis yang melewati $P$ dan $Q$. Garis ini akan selalu berpotongan dengan kurva di titik ketiga $R'$. Kemudian kita mengambil citra cermin dari titik ini terhadap sumbu-x untuk mendapatkan titik $R$, yang merupakan hasil dari penambahan:
+Konsep penambahan pada kurva eliptik didefinisikan secara geometris. Jika kita memiliki dua titik $P$ dan $Q$ pada kurva, operasi $P + Q$ dihitung dengan menggambar garis yang melewati $P$ dan $Q$. Garis ini akan selalu berpotongan dengan kurva di titik ketiga $R'$. Kemudian kita mengambil bayangan cermin dari titik ini terhadap sumbu-x untuk mendapatkan titik $R$, yang merupakan hasil dari penambahan:
 
 $$
 P + Q = R
@@ -784,7 +788,7 @@ Secara grafis, ini dapat diwakili sebagai berikut:
 
 ![CYP201](assets/en/024.webp)
 
-Untuk penggandaan titik, yaitu operasi $P + P$, kita menggambar tangen ke kurva di titik $P$. Tangen ini berpotongan dengan kurva di titik lain $S'$. Kemudian kita mengambil citra cermin dari titik ini terhadap sumbu-x untuk mendapatkan titik $S$, yang merupakan hasil dari penggandaan:
+Untuk penggandaan titik, yaitu operasi $P + P$, kita menggambar tangen ke kurva di titik $P$. Tangen ini berpotongan dengan kurva di titik lain $S'$. Kemudian kita mengambil bayangan cermin dari titik ini terhadap sumbu-x untuk mendapatkan titik $S$, yang merupakan hasil dari penggandaan:
 
 $$
 2P = S
@@ -1175,7 +1179,7 @@ Dalam bab-bab berikutnya, kita akan menjelajahi cara kerja internal dompet HD, t
 
 :::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
 
-Dompet HD modern (deterministik dan hierarkis) mengandalkan satu potongan informasi awal yang disebut "entropi" untuk menghasilkan seluruh set kunci dompet secara deterministik. Entropi ini adalah nomor pseudo-acak yang tingkat kekacaunya sebagian menentukan keamanan dompet.
+Dompet HD modern (deterministik dan hierarkis) mengandalkan satu potongan informasi awal yang disebut "entropi" untuk menghasilkan seluruh set kunci dompet secara deterministik. Entropi ini adalah nomor pseudo-acak yang sebagian menentukan keamanan dompet.
 
 ### Definisi Entropi
 
@@ -1319,12 +1323,14 @@ Frasa sandi bekerja bersama dengan frasa mnemonik, memodifikasi benih dari mana 
 
 Frasa sandi bersifat sewenang-wenang dan bisa berupa kombinasi karakter apa pun yang dipilih oleh pengguna. Menggunakan frasa sandi dengan demikian menawarkan beberapa keuntungan. Pertama-tama, ini mengurangi semua risiko yang terkait dengan kompromi frasa mnemonik dengan memerlukan faktor kedua untuk mengakses dana (pencurian, akses ke rumah Anda, dll.).
 
-Selanjutnya, ini dapat digunakan secara strategis untuk menciptakan dompet umpan, untuk menghadapi kendala fisik mencuri dana Anda seperti serangan "_$5 wrench_" yang terkenal. Dalam skenario ini, ideanya adalah memiliki dompet tanpa frasa sandi yang hanya berisi sejumlah kecil bitcoin, cukup untuk memuaskan penyerang potensial, sambil memiliki dompet tersembunyi. Yang terakhir ini menggunakan frasa mnemonik yang sama tetapi diamankan dengan frasa sandi tambahan.
+Selanjutnya, ini dapat digunakan secara strategis untuk menciptakan dompet umpan, untuk menghadapi kendala fisik mencuri dana Anda seperti serangan "_$5 wrench_" yang terkenal. Dalam skenario ini, ideanya adalah memiliki dompet tanpa frasa sandi yang hanya berisi sejumlah kecil bitcoin, cukup untuk memuaskan calon penyerang potensial, sambil memiliki dompet tersembunyi. Yang terakhir ini menggunakan frasa mnemonik yang sama tetapi diamankan dengan frasa sandi tambahan.
 Akhirnya, penggunaan frasa sandi menarik ketika seseorang ingin mengontrol keacakan dari generasi benih dompet HD.
+
 ### Bagaimana memilih frasa sandi yang baik?
 
-Agar frasa sandi efektif, harus cukup panjang dan acak. Seperti dengan kata sandi yang kuat, saya merekomendasikan memilih frasa sandi yang sepanjang dan seacak mungkin, dengan keragaman huruf, angka, dan simbol untuk membuat serangan brute force menjadi mustahil.
+Agar frasa sandi efektif, harus cukup panjang dan acak. Seperti dengan kata sandi yang kuat, saya merekomendasikan memilih frasa sandi yang cukup panjang dan seacak mungkin, dengan keragaman huruf, angka, dan simbol untuk membuat serangan brute force menjadi mustahil.
 Juga penting untuk menyimpan passphrase ini dengan benar, sama seperti frase mnemonik. **Kehilangannya berarti kehilangan akses ke bitcoin Anda**. Saya sangat menyarankan agar tidak hanya mengingatnya di kepala, karena ini meningkatkan risiko kehilangan secara tidak wajar. Yang ideal adalah menuliskannya pada media fisik (kertas atau logam) yang terpisah dari frase mnemonik. Cadangan ini jelas harus disimpan di tempat yang berbeda dari tempat penyimpanan frase mnemonik Anda untuk mencegah keduanya dikompromikan secara bersamaan.
+
 ![CYP201](assets/en/047.webp)
 
 Pada bagian berikut, kita akan menemukan bagaimana kedua elemen ini di dasar dompet Anda — frase mnemonik dan passphrase — digunakan untuk menurunkan pasangan kunci yang digunakan dalam *scriptPubKey* yang mengunci UTXO Anda.
@@ -1369,8 +1375,10 @@ Nilai seed ini dipengaruhi oleh nilai frase mnemonik dan passphrase. Dengan meng
 **Catatan:** Dalam bahasa umum, istilah "seed" sering kali merujuk, karena penyalahgunaan bahasa, ke frase mnemonik. Memang, tanpa passphrase, satu hanyalah pengkodean dari yang lain. Namun, seperti yang telah kita lihat, dalam realitas teknis dompet, seed dan frase mnemonik memang dua elemen yang berbeda.
 
 Sekarang kita memiliki seed kita, kita dapat melanjutkan dengan penurunan dompet Bitcoin kita.
+
 ### Kunci Utama dan Kode Rantai Utama
-Setelah benih diperoleh, langkah selanjutnya dalam menghasilkan dompet HD melibatkan perhitungan kunci privat utama dan kode rantai utama, yang akan mewakili kedalaman 0 dari dompet kita.
+
+Setelah seed diperoleh, langkah selanjutnya dalam menghasilkan dompet HD melibatkan perhitungan kunci privat utama dan kode rantai utama, yang akan mewakili kedalaman 0 dari dompet kita.
 
 Untuk mendapatkan kunci privat utama dan kode rantai utama, fungsi HMAC-SHA512 diterapkan pada benih, menggunakan kunci tetap "*Bitcoin Seed*" yang identik untuk semua pengguna Bitcoin. Konstanta ini dipilih untuk memastikan bahwa derivasi kunci spesifik untuk Bitcoin. Berikut adalah elemennya:
 - $\text{HMAC-SHA512}$: fungsi derivasi;
@@ -1505,23 +1513,27 @@ xpub6CTNzMUkzpurBWaT4HQoYzLP4uBbGJuWY358Rj7rauiw4rMHCyq3Rfy9w4kyJXJzeFfyrKLUar2r
 
 Kunci ekstensi ini terpecah menjadi beberapa elemen berbeda:
 
-- **Versi**: `0488B21E`
+1.**Versi**: `0488B21E`
 
 4 byte pertama adalah versi. Di sini, ini sesuai dengan kunci publik ekstensi pada Mainnet dengan tujuan derivasi baik *Legacy* atau *SegWit v1*.
 
-- **Kedalaman**: `03`
+2.**Kedalaman**: `03`
 
 Bidang ini menunjukkan tingkat hierarkis kunci dalam dompet HD. Dalam kasus ini, kedalaman `03` berarti bahwa kunci ini adalah tiga tingkat derivasi di bawah kunci induk.
 
-- **Sidik jari induk**: `6D5601AD`
+3.**Sidik jari induk**: `6D5601AD`
+
 Ini adalah 4 byte pertama dari hash HASH160 dari kunci publik induk yang digunakan untuk menurunkan `xpub` ini.
-- **Nomor Indeks**: `80000000`
+
+4.**Nomor Indeks**: `80000000`
 
 Indeks ini menunjukkan posisi kunci di antara anak-anak induknya. Prefiks `0x80` menunjukkan bahwa kunci diturunkan dengan cara yang diperketat, dan karena sisanya diisi dengan nol, ini menunjukkan bahwa kunci ini adalah yang pertama di antara saudara kandungnya yang mungkin.
 
-- **Kode Rantai**: `C605DF9FBD77FD6965BD02B77831EC5C78646AD3ACA14DC3984186F72633A893`
-- **Kunci Publik**: `03772CCB99F4EF346078D167065404EED8A58787DED31BFA479244824DF5065805`
-- **Checksum**: `1F067C3A`
+5.**Kode Rantai**: `C605DF9FBD77FD6965BD02B77831EC5C78646AD3ACA14DC3984186F72633A893`
+
+6.**Kunci Publik**: `03772CCB99F4EF346078D167065404EED8A58787DED31BFA479244824DF5065805`
+
+7.**Checksum**: `1F067C3A`
 
 Checksum ini sesuai dengan 4 byte pertama dari hash (SHA256 ganda) dari semua yang lain.
 
@@ -1777,7 +1789,9 @@ Untuk memberi Anda contoh lain, berikut adalah indeks dari beberapa mata uang:
 Setiap dompet dapat dibagi menjadi beberapa akun, bernomor dari $2^{31}$, dan diwakili pada kedalaman 3 oleh $/0'/$ untuk akun pertama, $/1'/$ untuk kedua, dan seterusnya. Umumnya, ketika merujuk pada kunci terluas `xpub`, ini merujuk pada kunci pada kedalaman turunan ini.
 
 Pemisahan ke dalam akun yang berbeda ini opsional. Ini bertujuan untuk menyederhanakan organisasi dompet bagi pengguna. Dalam praktiknya, seringkali hanya satu akun yang digunakan, biasanya yang pertama secara default. Namun, dalam beberapa kasus, jika seseorang ingin membedakan pasangan kunci untuk penggunaan yang berbeda secara jelas, ini bisa berguna. Sebagai contoh, dimungkinkan untuk membuat akun pribadi dan akun profesional dari benih yang sama, dengan kelompok kunci yang sepenuhnya berbeda dari kedalaman turunan ini.
+
 **Kedalaman 4: Rantai (BIP32)**
+
 Setiap akun yang ditentukan pada kedalaman 3 kemudian terstruktur menjadi dua rantai:
 - **Rantai eksternal**: Dalam rantai ini, apa yang dikenal sebagai alamat "publik" diturunkan. Alamat penerima ini dimaksudkan untuk mengunci UTXO yang datang dari transaksi eksternal (yaitu, berasal dari konsumsi UTXO yang tidak milik Anda). Secara sederhana, rantai eksternal ini digunakan kapan pun seseorang ingin menerima bitcoin. Ketika Anda mengklik "*terima*" di perangkat lunak dompet Anda, selalu alamat dari rantai eksternal yang ditawarkan kepada Anda. Rantai ini diwakili oleh pasangan kunci yang diturunkan dengan indeks $/0/$.
 - **Rantai internal (kembalian)**: Rantai ini diperuntukkan bagi alamat penerima yang mengunci bitcoin yang berasal dari konsumsi UTXO yang milik Anda, dengan kata lain, alamat kembalian. Ini diidentifikasi oleh indeks $/1/$.

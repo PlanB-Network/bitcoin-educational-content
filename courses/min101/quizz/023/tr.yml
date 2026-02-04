@@ -1,0 +1,9 @@
+question: Son dönemde bloklar çok hızlı bulunmuşsa ne olur?
+answer: Hedef düşer
+wrong_answers:
+  - Hedef yükselir
+  - Hedef aynı kalır
+  - Blok boyutu artar
+explanation: |
+  Blokların çok hızlı bulunması hashrate'in yüksek olduğunu gösterir, bu nedenle Bitcoin hedefi düşürerek koşulu zorlaştırır.
+reviewed: false

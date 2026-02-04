@@ -1,5 +1,6 @@
 ---
-term: 標籤
+term: Label (silent payments)
+definition: 用於建立衍生靜態地址以區分 Silent Payments 中不同用途的整數。
 ---
 
 在 Silent Payments 協議中，標籤是用來修改初始靜態 Address 的整數，以便創建許多其他靜態地址。這些標籤的使用允許透過無聲支付發送的付款進行分隔，每次使用都使用不同的靜態地址，而不會過度增加檢測這些付款（掃描）的操作負擔。Bob 使用靜態 Address $B$，由兩個公開金鑰組成：$B_{\text{scan}}$ 用於掃描，$B_{\text{spend}}$ 用於支出。$B_{\text{scan}}$的Hash和一個整數$m$，經標量乘以產生點$G$，被添加到花費公開密鑰$B_{\text{spend}}$，以創建一種新的花費公開密鑰$B_m$：

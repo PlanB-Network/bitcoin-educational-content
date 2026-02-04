@@ -1,5 +1,6 @@
 ---
 term: VIN
+definition: Element Bitcoin transakcije koji specifikuje izvor sredstava putem reference na prethodni UTXO.
 ---
 
 Specifičan element Bitcoin transakcije koji određuje izvor sredstava korišćenih za ispunjavanje izlaza. Svaki `vin` se odnosi na neutrošeni izlaz (UTXO) iz prethodne transakcije. Transakcija može sadržati više ulaza, od kojih je svaki identifikovan kombinacijom `txid` (identifikator originalne transakcije) i `vout` (indeks izlaza u toj transakciji).

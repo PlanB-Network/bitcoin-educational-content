@@ -1,6 +1,7 @@
 ---
-term: FORQUILHA
+term: Fork
 
+definition: Cisão da rede de nós ou modificação das regras do protocolo Bitcoin.
 ---
 O termo "fork" tem vários significados no contexto da Bitcoin. Pode referir-se quer a uma divisão da rede de nós em vários grupos separados, levando à criação de várias cadeias de blocos diferentes, quer a uma modificação das regras do protocolo, ou a ambas em simultâneo. Para simplificar, podemos distinguir 4 categorias principais de forks:
 

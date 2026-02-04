@@ -6,4 +6,4 @@ wrong_answers:
   - 10 bit
 explanation: |
   Setiap segmen 11-bit sesuai dengan satu kata dari daftar standar 2048 kata dalam BIP39.
-ditinjau: false
+reviewed: true

@@ -1,5 +1,6 @@
 ---
-term: POTPIS ADAPTORA
+term: Adaptor signature
+definition: Kriptografska tehnika koja povezuje potpis sa tajnom, tako da objavljivanje potpisa otkriva tajnu. Korisna za atomske razmene bez pouzdanog posrednika.
 ---
 
 Kriptografski metod koji omogućava kombinovanje originalnog potpisa sa dodatnim potpisom (nazvanim "adaptor potpis") kako bi se otkrio tajni deo podataka. Ovaj metod funkcioniše na takav način da poznavanje dva Elements među važećim potpisom, adaptor potpisom i tajnom omogućava izvođenje trećeg nedostajućeg elementa. Jedna od zanimljivih osobina ovog metoda je da ako znamo adaptor potpis našeg partnera i specifičnu tačku na eliptičnoj krivi povezanu sa tajnom korišćenom za izračunavanje ovog adaptor potpisa, možemo zatim izvesti sopstveni adaptor potpis koji će se poklapati sa istom tajnom, bez ikakvog direktnog pristupa samoj tajni. U Exchange između dva učesnika koji ne veruju jedan drugom, ova tehnika omogućava simultano otkrivanje dva osetljiva dela informacija između učesnika. Ovaj proces eliminiše potrebu za poverenjem u trenutnim transakcijama kao što su Coin Swap ili Atomic Swap. Uzmimo primer da bismo to bolje razumeli. Alisa i Bob žele da pošalju jedno drugom 1 BTC, ali ne veruju jedno drugom. Stoga će koristiti adaptor potpise kako bi negirali potrebu za poverenjem u drugu stranu u ovom Exchange (čime ga čine "atomskim" Exchange). Oni postupaju na sledeći način:

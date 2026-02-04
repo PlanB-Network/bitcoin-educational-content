@@ -1,0 +1,9 @@
+question: Qual parâmetro do Bitcoin Core define o limite mínimo de retransmissão (relay) por padrão?
+answer: minRelayTxFee
+wrong_answers:
+  - minConfirmTxFee
+  - relayTxWeight
+  - mempoolMinBits
+explanation: |
+  Os nós aplicam políticas locais e o Bitcoin Core usa o parâmetro minRelayTxFee para o limite mínimo de retransmissão.
+reviewed: false

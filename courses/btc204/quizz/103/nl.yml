@@ -1,9 +1,9 @@
-question: Hoe wordt de efficiëntie van een Bitcoin transactie berekend in termen van privacy?
+question: Hoe wordt de efficiëntie van een Bitcoin-transactie berekend in termen van privacy?
 answer: Door de werkelijke entropie van de transactie te vergelijken met de maximaal mogelijke entropie.
 wrong_answers:
-  - Door het aantal ingangen te vermenigvuldigen met het aantal uitgangen.
-  - Door de werkelijke entropie van de transactie te vermenigvuldigen met het aantal in- en uitgangen.
-  - Door het aantal ingangen te vergelijken met het aantal uitgangen.
+  - Door het aantal inputs te vermenigvuldigen met het aantal outputs.
+  - Door de werkelijke entropie van de transactie te vermenigvuldigen met het aantal in- en outputs.
+  - Door het aantal inputs te vergelijken met het aantal outputs.
 explanation: |
   De efficiëntie van de transactie wordt berekend door de maximale entropie af te trekken van de werkelijke entropie van de geanalyseerde transactie.
   

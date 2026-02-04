@@ -5,5 +5,5 @@ wrong_answers:
   - Der Schlüssel (privat oder öffentlich)
   - Der Chain-Code
 explanation: |
-  Ein erweiterter Schlüssel enthält nur die Informationen, die notwendig sind, um Kinderschlüssel abzuleiten, nicht jedoch Informationen, die sich auf Transaktionen beziehen.
+  Ein erweiterter Schlüssel enthält nur die Informationen, die notwendig sind, um untergeordnete Schlüssel abzuleiten, nicht jedoch Informationen, die sich auf Transaktionen beziehen.
 reviewed: true

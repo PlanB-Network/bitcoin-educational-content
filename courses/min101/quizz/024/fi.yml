@@ -1,0 +1,9 @@
+question: Mikä ilmiö tekee kahden lohkon välisestä viiveestä perustavanlaatuisesti vaihtelevan?
+answer: Tiivistyksen (hashing) probabilistinen luonne
+wrong_answers:
+  - Tiivistyksen deterministinen luonne
+  - Tiivistyksen rekursiivinen luonne
+  - Tiivistyksen jaksollinen luonne
+explanation: |
+  Jokainen tiiviste on itsenäinen yritys, mikä tekee löytöajoista satunnaisia jopa vakiolla hashratella.
+reviewed: false

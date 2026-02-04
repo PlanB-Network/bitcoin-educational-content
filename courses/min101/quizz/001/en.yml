@@ -1,0 +1,9 @@
+question: After verification, what does a Bitcoin node do with a valid but unconfirmed transaction?
+answer: It relays it to its peers
+wrong_answers:
+  - It adds it to its local copy of the blockchain
+  - It signs it with its private key
+  - It encrypts it with its public key
+explanation: |
+  In the Bitcoin network, each node propagates valid transactions to the nodes it is connected to.
+reviewed: false

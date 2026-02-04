@@ -1,0 +1,9 @@
+question: Quale criterio economico guida la scelta delle transazioni da parte di un miner?
+answer: Il tasso di commissione (fee rate)
+wrong_answers:
+  - L'importo totale delle commissioni
+  - L'anzianità degli UTXO
+  - Il numero di UTXOs
+explanation: |
+  Essendo limitato lo spazio in un blocco, il miner privilegia le transazioni più redditizie per byte. È quindi il tasso di commissione a guidare la selezione delle transazioni.
+reviewed: false

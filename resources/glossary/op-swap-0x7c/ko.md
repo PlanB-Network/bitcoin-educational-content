@@ -1,5 +1,6 @@
 ---
-term: OP_SWAP(0X7C)
+term: OP_SWAP (0X7C)
+definition: 스택 최상단의 두 요소를 서로 맞바꾸는 Opcode.
 ---
 
 스택의 맨 위 Elements 두 개를 바꿉니다. 맨 위에 있던 요소는 두 번째 위치로 이동하고 두 번째 위치에 있던 요소는 스택의 맨 위에 배치됩니다.

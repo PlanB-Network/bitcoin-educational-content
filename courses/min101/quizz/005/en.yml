@@ -1,0 +1,9 @@
+question: What does the nbits field in the block header correspond to?
+answer: The encoded difficulty target
+wrong_answers:
+  - The block size in bytes
+  - The number of transactions in the block
+  - The block timestamp
+explanation: |
+  The nbits field encodes the active difficulty target.
+reviewed: false

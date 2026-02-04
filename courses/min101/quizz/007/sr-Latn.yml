@@ -1,0 +1,9 @@
+question: Koji ekonomski kriterijum vodi izbor transakcija od strane rudara?
+answer: Stopa naknade (fee rate)
+wrong_answers:
+  - Iznos naknada
+  - Starost UTXO-a
+  - Broj UTXO-a
+explanation: |
+  Pošto je prostor u bloku ograničen, rudar daje prednost najprofitabilnijim transakcijama po bajtu. Dakle, stopa naknade je ta koja vodi izbor transakcija.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hashcashを発明したのは誰ですか？
+answer: Adam Back
+wrong_answers:
+  - Nick Szabo
+  - Hal Finney
+  - David Chaum
+explanation: |
+  Hashcashはアダム・バックによって発明されました。これは最初のプルーフ・オブ・ワーク・メカニズムです。
+reviewed: false

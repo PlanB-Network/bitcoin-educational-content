@@ -1,0 +1,9 @@
+question: ASIC isobanura iki?
+answer: Application-Specific Integrated Circuits
+wrong_answers:
+  - Advanced Secure Integrated Circuit
+  - Automated Silicon Integrated Circuit
+  - Application-Shared Integrated Circuit
+explanation: |
+  ASIC ni agapande k'ikuma (chip) kateguriwe gukora igikorwa kimwe gusa. Ni ryo Application-Specific Integrated Circuits.
+reviewed: false

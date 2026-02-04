@@ -1,0 +1,9 @@
+question: 在比特幣初期，挖礦主要使用哪種硬體？
+answer: CPU
+wrong_answers:
+  - GPU
+  - ASIC
+  - FPGA
+explanation: |
+  在發布初期，軟體在個人電腦上執行，主要使用處理器進行計算。
+reviewed: false

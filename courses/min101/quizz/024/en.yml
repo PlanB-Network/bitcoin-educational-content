@@ -1,0 +1,9 @@
+question: What phenomenon makes the delay between two blocks fundamentally variable?
+answer: The probabilistic nature of hashing
+wrong_answers:
+  - The deterministic nature of hashing
+  - The recursive nature of hashing
+  - The periodic nature of hashing
+explanation: |
+  Each hash is an independent attempt, which makes discovery times random even at a constant hashrate.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
 term: Fork
+definition: Mgawanyiko wa mtandao wa nodi au upendeleo wa sheria za itifaki ya Bitcoin.
 ---
 
 Neno "Fork" lina maana kadhaa katika muktadha wa Bitcoin. Inaweza kurejelea ama mgawanyiko wa mtandao wa nodi katika vikundi kadhaa tofauti, na kusababisha kuundwa kwa blockchains nyingi tofauti, au marekebisho ya sheria za itifaki, au zote mbili kwa wakati mmoja. Ili kurahisisha, tunaweza kutofautisha aina 4 kuu za uma:

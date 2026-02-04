@@ -1,0 +1,9 @@
+question: Se os blocos foram encontrados muito rápido no último período, o que acontece?
+answer: O alvo baixa
+wrong_answers:
+  - O alvo sobe
+  - O alvo permanece idêntico
+  - O tamanho do bloco aumenta
+explanation: |
+  Blocos encontrados muito rapidamente indicam um hashrate mais elevado, portanto o Bitcoin endurece a condição baixando o alvo.
+reviewed: false

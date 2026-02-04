@@ -1,10 +1,11 @@
 ---
-term: UTREEXO
+term: Utreexo
 
+definition: Protokolla, joka tiivistää Bitcoin-solmujen UTXO-joukon Merkle-puihin perustuvan akkumulaattorin avulla.
 ---
 Tadge Dryjan suunnittelema protokolla Bitcoin-solmujen UTXO-joukon tiivistämiseksi käyttämällä Merkle-puihin perustuvaa akkumulaattoria. Toisin kuin klassinen UTXO-joukko, joka vaatii huomattavaa tallennustilaa, Utreexo vähentää huomattavasti muistin tarvetta tallentamalla vain Merkle-puiden juuret. Näin solmu voi tarkistaa tapahtumien syötteissä käytettyjen UTXO:iden olemassaolon ilman, että sen tarvitsee säilyttää koko UTXO-joukkoa. Utreexoa käyttämällä kukin solmu säilyttää vain kryptografisen sormenjäljen, jota kutsutaan Merkle-juureksi. Kun transaktio tehdään, käyttäjä toimittaa UTXO:iden ja niitä vastaavien Merkle-polkujen omistustodistukset. Näin solmu voi todentaa transaktiot tallentamatta koko UTXO-joukkoa. Otetaanpa esimerkki kaavion avulla tämän mekanismin ymmärtämiseksi:
 
-![](../../dictionnaire/assets/15.webp)
+
 
 Tässä esimerkissä supistin UTXO-joukon tarkoituksella neljään UTXO:hon ymmärtämisen helpottamiseksi. Todellisuudessa on tärkeää kuvitella, että näitä rivejä kirjoitettaessa Bitcoinissa on lähes 140 miljoonaa UTXOa. Tässä kaaviossa Utreexo-solmun tarvitsisi pitää RAM-muistissa vain Merkle-juurta. Jos se vastaanottaa transaktion, joka kuluttaa UTXO nro 3 (mustalla), todiste koostuisi seuraavista elementeistä:
 

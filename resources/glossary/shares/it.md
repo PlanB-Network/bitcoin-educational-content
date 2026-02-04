@@ -1,6 +1,7 @@
 ---
-term: AZIONI
+term: Share
 
+definition: Indicatore che quantifica il contributo di un singolo miner all'interno di una mining pool.
 ---
 Nel contesto dei pool di mining, la quota è un indicatore utilizzato per quantificare il contributo di un singolo miner all'interno del pool. Questa misura serve come base per calcolare la ricompensa che il pool ridistribuisce a ciascun minatore. Ogni quota corrisponde a un hash che soddisfa un obiettivo di difficoltà inferiore a quello della rete Bitcoin.
 
@@ -13,10 +14,9 @@ Per ogni hash calcolato, un singolo miner in un pool può incontrare tre diversi
 - Se l'hash è inferiore all'obiettivo di difficoltà della quota, ma maggiore o uguale all'obiettivo di difficoltà di Bitcoin, allora questo hash costituisce una quota valida che, tuttavia, non è sufficiente a convalidare un blocco. Il minatore può inviare questo hash al proprio pool per richiedere la ricompensa associata alla quota: `condivisione > hash > blocco`.
 - Se l'hash è inferiore all'obiettivo di difficoltà della rete Bitcoin, viene considerato sia una quota valida che un blocco valido. Il minatore trasmette questo hash al proprio pool, che si affretta a diffonderlo sulla rete Bitcoin. Anche questo hash viene conteggiato come quota valida per il minatore: `quota > blocco > hash`.
 
-![](../../dictionnaire/assets/32.webp)
+
 
 Questo sistema di quote viene utilizzato per stimare il lavoro svolto da ogni singolo minatore all'interno di un pool, senza dover ricalcolare individualmente tutti gli hash generati da un minatore, cosa che sarebbe del tutto inefficiente per il pool.
 
 I pool minerari regolano la difficoltà delle quote per bilanciare il carico di verifica e garantire che ogni minatore, piccolo o grande che sia, invii quote ogni pochi secondi circa. Ciò consente di calcolare con precisione l'hashrate di ciascun minatore e di distribuire le ricompense in base al metodo di calcolo della compensazione scelto (PPS, PPLNS, TIDES...).
 
-> *In francese, "azioni" può essere tradotto come "parte "*

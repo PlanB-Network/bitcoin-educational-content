@@ -1,5 +1,6 @@
 ---
-term: VARYANS
+term: Varyans
+definition: Geçerli blok aramanın olasılıksal doğası nedeniyle madencilik gelirlerindeki dalgalanmalar.
 ---
 
 Mining'da bu, geçerli blokları bulmanın olasılıklı doğası nedeniyle bir Miner'in gelirindeki dalgalanmaları ifade eder. Sabit hesaplama gücüyle bile, bir bloğu bulmak için gereken süre önemli ölçüde değişebilir. Sonuç olarak, madenciler herhangi bir ödül almadan uzun süreler geçirebilir ve bunu yüksek kazanç dönemleri izleyebilir.

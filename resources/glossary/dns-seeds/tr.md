@@ -1,5 +1,6 @@
 ---
-term: DNS TOHUMLARI
+term: Dns seeds
+definition: Bitcoin ağına yeni katılan düğümlere aktif düğümlerin IP adreslerini sağlayan DNS sunucuları.
 ---
 
 Ağa katılan yeni Bitcoin düğümleri için ilk bağlantı noktaları. Aslında belirli DNS sunucuları olan bu tohumların Address'leri kalıcı olarak Bitcoin core koduna gömülüdür. Yeni bir düğüm başladığında, muhtemelen aktif Bitcoin düğümlerinin IP adreslerinin rastgele bir listesini elde etmek için bu sunucularla iletişime geçer. Yeni düğüm daha sonra bu listedeki düğümlerle bağlantı kurarak İlk Blok İndirme (IBD) işlemini gerçekleştirmek ve en fazla birikmiş işe sahip olan zincirle senkronize olmak için gereken bilgileri elde edebilir. 2024 itibariyle Bitcoin core DNS tohumlarının ve bunların bakımından sorumlu kişilerin listesi aşağıdadır (https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp):

@@ -1,0 +1,9 @@
+question: Начиная с BIP-34, что должно содержаться в начале scriptSig coinbase-транзакции?
+answer: Высота блока
+wrong_answers:
+  - Хешрейт майнера
+  - Цель сложности
+  - Отпечаток блока
+explanation: |
+  BIP-34 требует записывать высоту блока в scriptSig coinbase-транзакции.
+reviewed: false

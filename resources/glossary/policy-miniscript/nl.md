@@ -1,11 +1,12 @@
 ---
-term: BELEID (MINISCRIPT)
+term: Policy (Miniscript)
+definition: Hogere programmeertaal voor het specificeren van UTXO-uitgavevoorwaarden in Miniscript.
 ---
 
 Een gebruikersgeoriënteerde taal op hoog niveau waarmee eenvoudig de voorwaarden kunnen worden gespecificeerd waaronder een UTXO kan worden ontgrendeld binnen het kader van Miniscript. Het beleid is een abstracte beschrijving van de bestedingsregels. Het kan dan worden gecompileerd in miniscript, wat een één-op-één equivalent is met operaties uit Bitcoin's eigen scripttaal.
 
 
-![](../../dictionnaire/assets/30.webp)
+
 
 
 De beleidstaal is iets anders dan de miniscripttaal. Stel je bijvoorbeeld een beveiligingssysteem voor met een primair pad dat sleutel A is en een herstelpad dat sleutel B is, maar met een tijdslot van één jaar (ongeveer 52.560 blokken). In beleid zou dit zijn:

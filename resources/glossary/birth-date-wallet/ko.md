@@ -1,5 +1,6 @@
 ---
-term: 생년월일(Wallet)
+term: 생성일 (지갑)
+definition: 복구 중 동기화를 최적화하는 데 사용되는 지갑 생성 날짜.
 ---
 
 생년월일(Wallet)은 Wallet이 생성된 날짜를 의미합니다.

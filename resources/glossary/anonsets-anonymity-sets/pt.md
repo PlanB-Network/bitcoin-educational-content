@@ -1,19 +1,20 @@
 ---
-term: ANONSETS (CONJUNTOS DE ANONIMATO)
+term: Anonsets (anonymity sets)
 
+definition: Indicadores que medem o grau de privacidade de um UTXO contando o número de UTXOs indistinguíveis em um conjunto, geralmente após um coinjoin.
 ---
-Os anonsets servem como indicadores para avaliar o nível de privacidade de um determinado UTXO. Mais especificamente, medem o número de UTXOs indistinguíveis dentro do conjunto que inclui a moeda em estudo. Uma vez que é necessário um grupo de UTXOs idênticos, os anonsets são geralmente calculados dentro de um ciclo de coinjoins. Permitem, quando apropriado, avaliar a qualidade dos coinjoins. Um anonset grande significa um maior nível de anonimato, uma vez que se torna difícil distinguir um UTXO específico dentro do conjunto. Existem dois tipos de anonsets:
+Os anonsets servem como indicadores para avaliar o grau de confidencialidade de um UTXO específico. Mais especificamente, medem o número de UTXOs indistinguíveis dentro do conjunto que inclui a moeda em análise. Como é necessário dispor de um grupo de UTXOs idênticos, os anonsets são geralmente calculados no âmbito de um ciclo de coinjoins. Permitem, quando aplicável, avaliar a qualidade dos coinjoins. Um anonset de grande dimensão implica um nível mais elevado de anonimato, pois torna-se difícil distinguir um UTXO específico dentro do conjunto.
+
+Existem dois tipos de anonsets: o forward anonset (forward-looking metrics); e o backward anonset (backward-looking metrics). O termo "*score*" também é por vezes utilizado para designar os anonsets.
+
+O primeiro indica o tamanho do grupo no qual o UTXO analisado em saída se esconde, dado o UTXO em entrada. Este indicador permite medir a resistência da confidencialidade da moeda face a uma análise do passado para o presente (da entrada para a saída). O segundo indica o número de fontes possíveis para uma determinada moeda, dado o UTXO em saída. Este indicador permite medir a resistência da confidencialidade da moeda face a uma análise do presente para o passado (da saída para a entrada).
 
 
-- O conjunto de anonimato prospetivo;
-- O conjunto de anonimato retrospetivo.
 
-O primeiro indica o tamanho do grupo entre o qual o UTXO estudado está escondido, conhecendo o UTXO na entrada. Este indicador permite medir a resistência da privacidade da moeda contra uma análise do passado para o presente (input para output). Em inglês, o nome deste indicador é "*forward anonset*", ou "*forward-looking metrics*"
 
-![](../../dictionnaire/assets/39.webp)
 
-O segundo indica o número de fontes possíveis para uma dada moeda, conhecendo o UTXO na saída. Este indicador permite medir a resistência da privacidade da moeda contra uma análise do presente para o passado (saída para entrada). Em inglês, o nome deste indicador é "*backward anonset*", ou "*backward-looking metrics*"
 
-![](../../dictionnaire/assets/40.webp)
 
-> ► *Em francês, é geralmente aceite a utilização do termo "anonset" No entanto, pode ser traduzido como "ensemble d'anonymat" ou "potentiel d'anonymat" Tanto em inglês como em francês, o termo "score" é também por vezes utilizado para designar anonsets (prospective score e retrospective score).*
+
+
+

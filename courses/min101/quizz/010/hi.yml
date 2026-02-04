@@ -1,0 +1,9 @@
+question: ब्लॉक हेडर में नॉन्स (nonce) का आकार क्या है?
+answer: 32 बिट्स
+wrong_answers:
+  - 128 बिट्स
+  - 64 बिट्स
+  - 256 बिट्स
+explanation: |
+  नॉन्स हेडर में 32-बिट का एक फ़ील्ड है।
+reviewed: false

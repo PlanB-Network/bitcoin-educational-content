@@ -1,0 +1,9 @@
+question: Milline statistiline põhimõte selgitab, et leitud blokkide sagedus läheneb pikas perspektiivis hashrate'i osakaalule?
+answer: Suurte arvude seadus
+wrong_answers:
+  - Bayesi teoreem
+  - Sünnipäevaparadoks
+  - Vähima mõju printsiip
+explanation: |
+  Tulemuste koondumine on tingitud suurte arvude seadusest, kuna iga hash on sõltumatu katse.
+reviewed: false

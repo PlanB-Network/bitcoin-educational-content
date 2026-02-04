@@ -1,6 +1,7 @@
 ---
-term: TAPPETO
+term: Taproot
 
+definition: Importante aggiornamento di Bitcoin attivato a novembre 2021 che apporta privacy, efficienza e flessibilità tramite BIP340, 341 e 342.
 ---
 Un importante aggiornamento del protocollo Bitcoin, adottato attraverso un soft fork nel novembre 2021. Questo aggiornamento apporta miglioramenti significativi in termini di privacy, efficienza e flessibilità implementando BIP340, BIP341 e BIP342. L'aggiornamento è stato bloccato al blocco 687.284 il 12 giugno 2021, quando il 90% dei blocchi generati durante un periodo ha segnalato il proprio favore, indicando così la disponibilità dei minatori ad attivare l'aggiornamento (*Speedy Trial*). L'attivazione ha infine avuto luogo nel blocco 709.632 il 14 novembre 2021, quasi quattro anni dopo le discussioni iniziali sulla questione tra Pieter Wuille, Andrew Poelstra e Gregory Maxwell. Si è trattato del primo tentativo di aggiornamento importante dopo la controversa attivazione di SegWit nel 2017.
 

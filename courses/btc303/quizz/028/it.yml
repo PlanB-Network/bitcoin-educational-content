@@ -1,9 +1,9 @@
-question: Qual è la preoccupazione principale per il fee sniping quando il sussidio di blocco del Bitcoin si avvicina a zero?
-answer: I minatori potrebbero trovare più redditizio riscrivere i blocchi precedenti con tariffe elevate piuttosto che mining nuovi blocchi
+question: Qual è la preoccupazione principale per il fee sniping quando la ricompensa del blocco di Bitcoin si avvicina a zero?
+answer: I miner potrebbero trovare più redditizio riscrivere i blocchi precedenti con tariffe elevate piuttosto che minare nuovi blocchi
 wrong_answers:
-  - Le commissioni di transazione diventeranno troppo costose per gli utenti abituali che potranno permettersi le transazioni Bitcoin
+  - Le commissioni di transazione diventeranno troppo costose per gli utenti abituali che non potranno permettersi le transazioni Bitcoin
   - L'offerta totale di Bitcoin supererà i 21 milioni di euro grazie all'aumento degli incentivi per il mining
-  - I minatori interromperanno completamente il mining perché le sole commissioni di transazione non possono coprire i costi dell'elettricità
+  - I miner interromperanno completamente il mining perché le sole commissioni di transazione non possono coprire i costi dell'elettricità
 explanation: |
-  Il fee sniping si verifica quando i minatori tentano di estrarre nuovamente blocchi precedenti che contenevano transazioni ad alto costo piuttosto che estendere onestamente la catena. Ciò diventa economicamente razionale quando le tariffe di un blocco precedente superano significativamente quelle del mempool corrente. Sebbene la probabilità di successo sia inferiore rispetto al mining onesto, la ricompensa potenziale può essere molto più alta. Questo comportamento è particolarmente preoccupante perché può creare un effetto a cascata in cui più minatori si impegnano in pratiche disoneste, minacciando in ultima analisi il modello di sicurezza di Bitcoin quando le sovvenzioni dei blocchi diminuiscono.
-reviewed: false
+  Il fee sniping si verifica quando i minatori tentano di estrarre nuovamente blocchi precedenti che contenevano transazioni ad alto costo piuttosto che estendere onestamente la catena. Ciò diventa economicamente razionale quando le tariffe di un blocco precedente superano significativamente quelle del mempool corrente. Sebbene la probabilità di successo sia inferiore rispetto al mining onesto, la ricompensa potenziale può essere molto più alta. Questo comportamento è particolarmente preoccupante perché può creare un effetto a cascata in cui più miner si impegnano in pratiche disoneste, minacciando in ultima analisi il modello di sicurezza di Bitcoin quando le ricompense dei blocchi diminuiscono.
+reviewed: true

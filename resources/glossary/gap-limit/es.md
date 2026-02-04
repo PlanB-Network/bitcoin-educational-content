@@ -1,6 +1,7 @@
 ---
-term: GAP LÍMITE
+term: Gap limit
 
+definition: Número máximo de direcciones consecutivas no utilizadas antes de detener la búsqueda de transacciones.
 ---
 Parámetro utilizado en el software del monedero Bitcoin para determinar el número máximo de direcciones consecutivas no utilizadas que se deben generar antes de detener la búsqueda de transacciones adicionales. A menudo es necesario ajustar este parámetro cuando se recupera un monedero para asegurar que se encuentran todas las transacciones. Un Límite de Brecha insuficiente podría resultar en la pérdida de algunas transacciones si las direcciones fueron omitidas durante las fases de derivación. Aumentar el Gap Limit permite al monedero buscar más en la secuencia de direcciones, para recuperar todas las transacciones asociadas.
 

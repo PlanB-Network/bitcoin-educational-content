@@ -1,0 +1,9 @@
+question: 半減期（halving）はビットコインの何を変更しますか？
+answer: ブロック補助金
+wrong_answers:
+  - トランザクション手数料
+  - ブロックサイズ
+  - 難易度ターゲット
+explanation: |
+  半減期は、手数料に触れることなく、ブロックごとに作成される最大補助金を半分にします。
+reviewed: false

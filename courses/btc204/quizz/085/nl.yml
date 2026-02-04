@@ -5,6 +5,6 @@ wrong_answers:
   - Ruilen op basis van Nederlandse veilingen.
   - Bemiddelingsdienst die handmatig deelnemers selecteert.
 explanation: |
-  JoinMarket werkt op een P2P Exchange markt waar sommige gebruikers, de makers, hun bitcoins aanbieden om te mengen, terwijl anderen, de nemers, deze fondsen gebruiken om coinjoins uit te voeren in Exchange tegen betaling.
+  JoinMarket werkt op een P2P-ruilmarkt waar sommige gebruikers, de makers, hun bitcoins aanbieden om te mengen, terwijl anderen, de nemers, deze fondsen gebruiken om coinjoins uit te voeren in ruil tegen betaling.
   
 reviewed: false

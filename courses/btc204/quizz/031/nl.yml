@@ -1,9 +1,9 @@
-question: Als in een eenvoudige betalingstransactie dezelfde Address wordt gebruikt in een ingang en op een van de 2 uitgangen, welke uitgang vertegenwoordigt dan waarschijnlijk de verandering?
-answer: Die met dezelfde Address als de ingang.
+question: Als in een eenvoudige betalingstransactie dezelfde Address wordt gebruikt in een input en in een van de 2 outputs, welke uitgang vertegenwoordigt dan waarschijnlijk het wisselgeld?
+answer: Die met hetzelfde adres als de input.
 wrong_answers:
-  - Degene met de meest recente Address.
-  - Die met een andere Address dan de ingang.
-  - Die met een onbekende Address.
+  - Degene met met meest recente adres.
+  - Die met een ander input-adres.
+  - Die met een onbekend adres.
 explanation: |
-  Als hergebruik van Address binnen dezelfde transactie plaatsvindt, is het redelijk om aan te nemen dat de gebruiker nog steeds de bijbehorende UTXO bezit. Daarom is de uitvoer met dezelfde Address als de invoer waarschijnlijk de wijziging.
+  Als adreshergebruik binnen dezelfde transactie plaatsvindt, is het redelijk om aan te nemen dat de gebruiker nog steeds de bijbehorende UTXO bezit. Daarom is de output met hetzelfde adres als de input waarschijnlijk het wisselgeld.
 reviewed: false

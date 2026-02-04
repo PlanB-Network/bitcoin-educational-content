@@ -1,0 +1,9 @@
+question: 트랜잭션 수수료는 어떻게 계산합니까?
+answer: 입력(inputs) 빼기 출력(outputs)
+wrong_answers:
+  - 출력 빼기 입력
+  - 입력 더하기 출력
+  - 출력을 입력으로 나눈 값
+explanation: |
+  수수료는 입력에서 소비된 가치 중 출력에서 다시 생성되지 않은 금액에 해당합니다.
+reviewed: false

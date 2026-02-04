@@ -1,0 +1,9 @@
+question: බිට්කොයින් ගනුදෙනුවකදී, inputs විසින් පරිභෝජනය කරනු ලබන්නේ කුමක්ද?
+answer: පවතින UTXO
+wrong_answers:
+  - අනාගත outputs
+  - පවතින blocks
+  - අනාගත ලිපින
+explanation: |
+  input එකක් මගින් UTXO ලෙස හැඳින්වෙන, අතීත ගනුදෙනුවකින් ලැබුණු වියදම් නොකළ output එකක් දක්වයි.
+reviewed: false

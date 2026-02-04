@@ -1,5 +1,6 @@
 ---
-term: VERGOEDINGEN
+term: Fee sniping
+definition: Aanval waarbij miners een recent blok herschrijven om de hoge transactiekosten ervan te innen.
 ---
 
 Een aanvalsscenario waarbij miners een recent bevestigd blok proberen te herschrijven om de transactiekosten die het blok bevat op te eisen, terwijl ze transacties met hoge kosten toevoegen die ondertussen in de Mempool zijn binnengekomen. Het uiteindelijke doel van deze aanval voor de Miner is om hun winstgevendheid te verhogen. Fee sniping kan steeds winstgevender worden naarmate de Block reward afneemt en transactievergoedingen een groter deel van de inkomsten van miners uitmaken. Het kan ook voordelig zijn als de vergoedingen in het vorige blok aanzienlijk hoger zijn dan die in het volgende beste kandidaatblok. Ter vereenvoudiging, de Miner wordt geconfronteerd met deze keuze in termen van stimulansen:

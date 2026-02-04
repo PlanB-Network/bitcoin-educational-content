@@ -1,5 +1,6 @@
 ---
-term: ENTROPIE (ANALYSE)
+term: Entropie-analyse
+definition: Indicator die het gebrek aan kennis bij analisten meet over de configuratie van een Bitcoin-transactie.
 ---
 
 In de specifieke context van ketenanalyse is entropie ook de naam van een indicator, afgeleid van Shannon entropie, uitgevonden door LaurentMT. Deze indicator maakt het mogelijk om het gebrek aan kennis te meten dat analisten hebben over de exacte configuratie van een Bitcoin transactie. Met andere woorden, hoe hoger de entropie van een transactie, hoe moeilijker het wordt voor analisten om de bewegingen van bitcoins tussen inputs en outputs te identificeren.

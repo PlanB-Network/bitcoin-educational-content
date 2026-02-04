@@ -1,6 +1,7 @@
 ---
-term: MESA REDONDA DE HONG-KONG
+term: Hong-kong roundtable
 
+definition: Reunión histórica de 2016 entre desarrolladores de Bitcoin Core y mineros sobre la escalabilidad del sistema.
 ---
 Un evento histórico de la Guerra del Tamaño de Bloque que tuvo lugar el 20 de febrero de 2016 en Hong Kong. Fue una importante reunión entre desarrolladores y mineros de Bitcoin Core para discutir la escalabilidad del sistema y la estrategia para escalarlo. Las tensiones eran elevadas antes de la reunión, sobre todo debido al auge de Bitcoin Classic, una propuesta de hard fork apoyada por Gavin Andressen cuyo objetivo era aumentar el tamaño de bloque a 2 MB. En los debates participaron figuras influyentes del ecosistema, como Jihan Wu y Micree Zhan, cofundadores de Bitmain, Adam Back, presidente de Blockstream, y Luke Dashjr, Matt Corallo y Peter Todd.
 

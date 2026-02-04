@@ -1,5 +1,6 @@
 ---
 term: VIN
+definition: Igice kigize itunshwa ry'amafaranga rya Bitcoin cyerekana inkomoko y'amafaranga binyuze ku kwerekeza kuri UTXO yakozwe kera.
 ---
 
 Ikintu kidasanzwe c’isoko rya Bitcoin kigaragaza aho amahera akoreshwa mu guhazwa n’ibiva. Buri `vin` yerekeza ku giciro kitakoreshejwe (UTXO) kivuye mu gucuruza kwa kera. Igikorwa kishobora kubamwo ibintu vyinshi vyinjizwa, kimwe cose kigaragazwa n’uguhuza `txid` (ikimenyetso c’igikorwa c’intango) na `vout` (urutonde rw’ivyo biva muri ico gicuruzwa).

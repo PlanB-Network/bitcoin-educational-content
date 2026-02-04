@@ -1,6 +1,7 @@
 ---
-term: SEGWIT2X
+term: Segwit2x
 
+definition: Nỗ lực hard fork gây tranh cãi nhằm gấp đôi kích thước khối, đã bị hủy bỏ vào tháng 11 năm 2017.
 ---
 A controversial attempt at a hard fork aimed at doubling the block size limit on Bitcoin, while integrating SegWit. SegWit2x was introduced during the New York Agreement in 2017, a confidential meeting among over 50 companies from the ecosystem that aimed to find a solution for scaling the system. SegWit2x sought to increase Bitcoin's transactional capacity by raising the maximum block size to 2 MB, from the initial 1 MB. The hard fork was scheduled at block 494,784, which was during November 2017.
 

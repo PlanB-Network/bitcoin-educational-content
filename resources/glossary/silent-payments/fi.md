@@ -1,6 +1,7 @@
 ---
-term: HILJAISET MAKSUT
+term: Silent payments
 
+definition: Menetelmä maksujen vastaanottamiseen staattisen osoitteen kautta ilman osoitteen uudelleenkäyttöä.
 ---
 Menetelmä staattisten Bitcoin-osoitteiden käyttämiseksi maksujen vastaanottamiseen ilman osoitteen uudelleenkäyttöä, ilman vuorovaikutusta ja ilman näkyvää ketjussa olevaa yhteyttä eri maksujen ja staattisen osoitteen välillä. Tämä tekniikka poistaa tarpeen luoda uusia, käyttämättömiä vastaanottoosoitteita jokaista maksutapahtumaa varten, jolloin vältetään Bitcoinissa tavanomaiset vuorovaikutustilanteet, joissa vastaanottajan on annettava maksajalle uusi osoite.
 

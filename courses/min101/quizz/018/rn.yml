@@ -1,0 +1,9 @@
+question: Hashcash yashaka kugabanya ingorane iyihe canecane?
+answer: Ubutumwa bwinshi (spam email)
+wrong_answers:
+  - Ugukoresha amafaranga kabiri
+  - Ubujura bwa DNS (phishing)
+  - Ubujura bw'imfunguruzo z'ibanga
+explanation: |
+  Hashcash isaba ko haba igiciro c'ubumenyi kuri buri butumwa kugira ngo kurungika ubutumwa bwinshi bibe bitunguka.
+reviewed: false

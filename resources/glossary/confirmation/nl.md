@@ -1,5 +1,6 @@
 ---
-term: BEVESTIGING
+term: Bevestiging
+definition: Aantal blokken gemined na het blok dat een transactie bevat, wat het niveau van beveiliging en onveranderlijkheid aangeeft.
 ---
 
 Verwijst naar het aantal blokken waarvoor een transactie profiteert van hun veiligheid. Wanneer een transactie wordt uitgezonden naar het Bitcoin netwerk, blijft deze eerst in afwachting in de mempools van de nodes. Daarna wordt ze door een Miner opgenomen in een geldig blok. In dit stadium is de transactie net toegevoegd aan de Blockchain, dus profiteert het van de eerste bevestiging. Wanneer een nieuw blok wordt gevonden bovenop het blok dat de transactie in kwestie bevat, krijgt het een tweede bevestiging, enzovoort. Elk nieuw blok dat bovenop het blok met de transactie wordt gedolven, vormt een nieuwe bevestiging. Door het aantal bevestigingen voor een transactie te tellen, kunnen we het risico inschatten dat de transactie uiteindelijk wordt geannuleerd vanwege een reorganisatie. Het aantal bevestigingen stelt ons in staat om het niveau van onveranderlijkheid van een transactie op de Blockchain te beoordelen.

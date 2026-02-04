@@ -1,0 +1,9 @@
+question: Bitcoin madenciliği hangi kaynağı kullanmaya ihtiyaç duyar?
+answer: Elektrik
+wrong_answers:
+  - Su
+  - Değerli taşlar
+  - Altın
+explanation: |
+  Madencilik, bilgisayarlar aracılığıyla elektrik tüketen bir doğrulama işidir.
+reviewed: false

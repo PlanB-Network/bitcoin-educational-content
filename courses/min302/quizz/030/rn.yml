@@ -1,12 +1,10 @@
-question: Ni igiki gishobora gutera ubwoba Ikimenyamenya c’Umugabane mu rubuga rwa Bitcoin?
-answer: Abasanzwe bafise amafaranga menshi cane barafise ububasha budahuye, ivyo bikaba vyerekana ubusumbasumbane bw’ububasha buriho.
+question: Ni igiki giteye amakenga kuri Proof of Stake mu muhora wa Bitcoin?
+answer: Abasanzwe bafise amafaranga menshi barafise ububasha butangana, ivyo bikaba vyerekana ubusumbane bw’ububasha buriho.
 wrong_answers:
   - Vyoba ari intambamyi ikomeye ku bashingira intahe bafise amahera menshi.
   - Ntivyemera ko umuntu agira uruhara mu rugero rutoyi.
   - Ntibisaba ubutunzi buboneka.
 explanation: |
-  Mu nzira y’Ikimenyamenya c’Igiti, abasanzwe bafise amahera menshi .
-  umubare w’amahera afise ububasha budahuye. Ibi
-  ubushobozi bwoshobora gutuma habaho ugushira hamwe n'
-  kwibanda ku bubasha mu minwe y’abantu bakeyi.
+  Mu nzira y'umuhora wa Proof of Stake abasanzwe bafise amafaranga menshi barafise ububasha butangana.
+  Ivyo bishobora gutuma haguma kubaho gukoranizwa hamwe (centralization) no kwibanda mu minwe y’abantu bake kw'ububasha.
 reviewed: true

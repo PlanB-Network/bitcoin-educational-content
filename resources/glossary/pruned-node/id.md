@@ -1,6 +1,7 @@
 ---
-term: PRUNED NODE
+term: Node terpangkas
 
+definition: Node lengkap yang menghapus blok lama yang telah diverifikasi untuk menghemat ruang penyimpanan.
 ---
 Sebuah node yang dipangkas, dalam bahasa Inggris "_Pruned Node_", adalah sebuah node penuh yang melakukan pemangkasan pada _blockchain_. Hal ini melibatkan penghapusan blok-blok tertua secara progresif, setelah memverifikasinya dengan benar, dan hanya menyimpan blok-blok terbaru. Batas penyimpanan ditentukan dalam file `bitcoin.conf` melalui parameter `prune=n`, di mana `n` adalah ukuran maksimum yang diambil oleh blok dalam megabyte (MB). Jika `0` dicatat setelah parameter ini, maka pemangkasan dinonaktifkan, dan node akan menyimpan _blockchain_ secara keseluruhan.
 

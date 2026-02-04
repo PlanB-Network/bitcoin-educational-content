@@ -6,4 +6,4 @@ wrong_answers:
   - Masalah kubus diskrit
 explanation: |
   Keamanan kriptografi kurva eliptik didasarkan pada kesulitan dalam menyelesaikan masalah logaritma diskrit pada kurva tersebut.
-ditinjau: false
+reviewed: true

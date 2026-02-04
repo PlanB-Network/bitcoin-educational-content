@@ -1,5 +1,6 @@
 ---
 term: BIP0038
+definition: Standaard voor het versleutelen van private Bitcoin-sleutels met een wachtwoordzin, met name gebruikt voor het beveiligen van paper wallets.
 ---
 
 Een Bitcoin Verbeteringsvoorstel dat een versleutelingsmechanisme introduceert om extra bescherming toe te voegen aan private sleutels via een passphrase. BIP38 zorgt ervoor dat zelfs als een derde de versleutelde privésleutel fysiek in handen krijgt, hij deze niet kan gebruiken zonder de passphrase ervan te kennen. Dit voegt een extra Layer beveiliging toe om bitcoins te beschermen tegen diefstal, vooral voor de beveiliging van oude papieren portemonnees.

@@ -1,0 +1,9 @@
+question: 比特币的目标是每个区块之间平均间隔多久？
+answer: 10 分钟
+wrong_answers:
+  - 1 分钟
+  - 30 分钟
+  - 60 分钟
+explanation: |
+  该协议的目标是在较长一段时间内平均大约每 10 分钟产生一个区块。
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: RBF (REPLACE-BY-FEE)
+term: Rbf (replace-by-fee)
+definition: Mécanisme permettant de remplacer une transaction non confirmée par une autre avec des frais plus élevés.
 ---
 
 Mécanisme transactionnel permettant à l'expéditeur de remplacer une transaction par une autre avec des frais plus élevés, afin d'accélérer la confirmation de celle-ci. Si une transaction avec des frais trop faibles reste bloquée, l'expéditeur peut utiliser *Replace-By-Fee* (remplacement par les frais) pour augmenter les frais et prioriser sa transaction de remplacement dans les mempools.

@@ -1,0 +1,9 @@
+question: 区块补贴对应于什么？
+answer: 货币创造
+wrong_answers:
+  - 交易费用
+  - 用户存款
+  - 垃圾邮件惩罚
+explanation: |
+  补贴是奖励的一部分，它根据协议规则从无到有地（ex nihilo）创造新的比特币。
+reviewed: false

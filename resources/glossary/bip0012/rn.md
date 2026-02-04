@@ -1,5 +1,6 @@
 ---
 term: BIP0012
+definition: Ishikirizwa rishiraho opcode OP_EVAL ku bwa iscripts zigerekeranye, ryasubirijwe na BIP16 (P2SH) kubera impamvu z'umutekano.
 ---
 
 Iciyumviro ca Gavin Andresen co kwongerera ubushobozi bwo guhinduranya no gukingira inyandiko z’ibikorwa vya Bitcoin. Iyi BIP itanga iciyumviro co gushiramwo opcode nshasha y'inyandiko, yitwa `OP_EVAL`, yotuma hakorwa isuzuma ry'inyandiko iri mu makuru ya `scriptSig` mu gihe co kwemeza ibikorwa.

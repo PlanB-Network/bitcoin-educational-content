@@ -1,0 +1,9 @@
+question: Su quale elemento viene calcolata la proof of work in Bitcoin?
+answer: L'intestazione del blocco
+wrong_answers:
+  - L'altezza del blocco
+  - La mempool della rete
+  - Le prime 21 transazioni del blocco
+explanation: |
+  Il mining consiste nell'effettuare ripetutamente l'hashing dell'intestazione del blocco di 80 byte, che impegna il contenuto del blocco.
+reviewed: false

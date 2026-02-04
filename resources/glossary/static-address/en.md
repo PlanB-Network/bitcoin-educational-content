@@ -1,5 +1,6 @@
 ---
-term: STATIC ADDRESS
+term: Static address
+definition: Unique identifier for Silent Payments allowing payments to be received without address reuse or visible on-chain link.
 ---
 
 In the context of Silent Payments, refers to a unique identifier that allows for the receipt of payments without address reuse, without interaction, and without a visible on-chain link between the various payments and the static address. This technique eliminates the need to generate new, unused receiving addresses for each transaction, thereby avoiding the usual interactions in Bitcoin where the recipient must provide a new address to the payer. It is somewhat equivalent to the reusable payment code in the context of BIP47.

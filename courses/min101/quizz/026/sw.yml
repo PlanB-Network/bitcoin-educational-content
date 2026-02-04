@@ -1,0 +1,9 @@
+question: Ni kigezo (parameter) gani cha Bitcoin Core kinachoweka kizingiti cha chini cha relay kwa chaguo-msingi?
+answer: minRelayTxFee
+wrong_answers:
+  - minConfirmTxFee
+  - relayTxWeight
+  - mempoolMinBits
+explanation: |
+  Node hutumia sera za ndani na Bitcoin Core hutumia kigezo cha minRelayTxFee kwa kizingiti cha chini cha relay.
+reviewed: false

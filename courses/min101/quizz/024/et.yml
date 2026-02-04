@@ -1,0 +1,9 @@
+question: Milline nähtus muudab kahe ploki vahelise viivituse põhimõtteliselt varieeruvaks?
+answer: Räsimise tõenäosuslik iseloom
+wrong_answers:
+  - Räsimise deterministlik iseloom
+  - Räsimise rekursiivne iseloom
+  - Räsimise perioodiline iseloom
+explanation: |
+  Iga räsi on iseseisev katse, mis muudab leidmisajad juhuslikuks isegi konstantse hashrate'i korral.
+reviewed: false

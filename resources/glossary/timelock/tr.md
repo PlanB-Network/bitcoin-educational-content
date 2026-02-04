@@ -1,5 +1,6 @@
 ---
-term: TIMELOCK
+term: Zaman kilidi
+definition: Bir işlemin bir bloğa dahil edilebilmesi için zamansal bir koşul tanımlayan akıllı sözleşme ilkelidir.
 ---
 
 A Smart contract primitive that allows setting a time-based condition that must be met for a transaction to be added to a block. There are two types of timelocks on Bitcoin:

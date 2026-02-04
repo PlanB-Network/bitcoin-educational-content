@@ -1,5 +1,6 @@
 ---
 term: LIBSECP256K1
+definition: Krüptograafiline C-raamatukogu allkirjade ja toimingute jaoks Bitcoini poolt kasutataval secp256k1 elliptilisel kõveral.
 ---
 
 Suure jõudlusega ja kõrge turvalisusega C-keelkirjade ja muude krüptograafiliste primitiivide jaoks `secp256k1` elliptilisel kõveral. Kuna seda kõverat ei ole kunagi laialdaselt kasutatud väljaspool Bitcoin (erinevalt sageli eelistatud `secp256r1` kõverast), on selle raamatukogu eesmärk olla kõige põhjalikum viide selle kasutamiseks. Libsecp256k1 arendus oli peamiselt suunatud Bitcoin vajadustele ning teiste rakenduste jaoks mõeldud funktsioone võib olla vähem testitud või kontrollitud. Selle raamatukogu asjakohane kasutamine nõuab hoolikat tähelepanu, et tagada selle sobivus muude rakenduste kui Bitcoin spetsiifilisteks eesmärkideks.

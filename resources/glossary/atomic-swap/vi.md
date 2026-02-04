@@ -1,6 +1,7 @@
 ---
-term: ATOMIC SWAP
+term: Atomic swap
 
+definition: Một trao đổi tiền điện tử giữa hai bên mà không có bên thứ ba được tin tưởng, nơi trao đổi hoàn toàn thành công hoặc bị hủy toàn bộ.
 ---
 Technology allowing the direct exchange of cryptocurrencies between two parties, without the need for trust and without requiring an intermediary. These exchanges are called "atomic" because they can only result in two outcomes:
 

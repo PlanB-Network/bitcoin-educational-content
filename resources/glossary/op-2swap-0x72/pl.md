@@ -1,5 +1,6 @@
 ---
 term: OP_2SWAP (0X72)
+definition: Opkod zamieniający pierwsze dwa elementy stosu z dwoma kolejnymi.
 ---
 
 Zamienia dwa Elements znajdujące się na górze stosu z dwoma Elements znajdującymi się tuż pod nimi. Na przykład, jeśli stos to:

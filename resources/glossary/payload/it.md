@@ -1,5 +1,6 @@
 ---
-term: CARICO UTILE
+term: Payload
+definition: Dati essenziali trasportati all'interno di un pacchetto di dati più ampio.
 ---
 
 Nel contesto generale dell'informatica, un payload è il dato essenziale trasportato in un pacchetto di dati più grande. Ad esempio, in un SegWit V0 su Bitcoin Address, il payload corrisponde al Hash della chiave pubblica, senza i vari metadati (HRP, separatore, versione SegWit e checksum). Ad esempio, al Address `bc1qc2eukw7reasfcmrafevp5dhv8635yuqays50gj`, abbiamo :

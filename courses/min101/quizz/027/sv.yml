@@ -1,0 +1,9 @@
+question: Hur beräknas transaktionsavgifter?
+answer: Inputs minus outputs
+wrong_answers:
+  - Outputs minus inputs
+  - Inputs plus outputs
+  - Outputs dividerat med inputs
+explanation: |
+  Avgifter motsvarar värdet som förbrukas i inputs som inte återskapas i outputs.
+reviewed: false

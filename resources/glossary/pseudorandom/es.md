@@ -1,6 +1,7 @@
 ---
-term: PSEUDO-RANDOM
+term: Pseudoaleatorio
 
+definition: Secuencia de números generada de manera determinista con propiedades cercanas a lo aleatorio.
 ---
 Este adjetivo se utiliza para describir una secuencia de números que, a pesar de ser el resultado de un proceso determinista, presenta características próximas a las de una secuencia ideal verdaderamente aleatoria. El concepto de aleatoriedad ideal implica una ausencia total de previsibilidad y correlación entre elementos sucesivos. Un número pseudoaleatorio se genera mediante un algoritmo determinista y, por tanto, en teoría, es totalmente predecible si se conoce el estado inicial del generador.
 

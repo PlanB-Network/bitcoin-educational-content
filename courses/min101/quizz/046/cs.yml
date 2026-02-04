@@ -1,0 +1,9 @@
+question: Která věta shrnuje službu poskytovanou těžebním poolem?
+answer: Prodává předvídatelnost
+wrong_answers:
+  - Prodává obtížnost těžby
+  - Prodává větší bloky
+  - Prodává těžební stroje
+explanation: |
+  Sdílení zdrojů mění velmi kolísavý příjem na pravidelnější platby výměnou za podíl a poplatky.
+reviewed: false

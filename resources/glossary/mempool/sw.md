@@ -1,5 +1,6 @@
 ---
 term: Mempool
+definition: Nafasi ambapo miamala inayongojea kujumuishwa kwenye kizuizi huhifadhiwa na kila nodi.
 ---
 
 Ufupisho wa maneno "kumbukumbu" na "bwawa". Hii inarejelea nafasi pepe ambayo miamala ya Bitcoin inayosubiri kujumuishwa kwenye kizuizi imepangwa pamoja. Shughuli inapoundwa na kutangazwa kwenye mtandao wa Bitcoin, inathibitishwa kwanza na nodi za mtandao. Ikiwa inachukuliwa kuwa halali, basi imewekwa kwenye Mempool ya kila node, ambapo inabakia mpaka itachaguliwa na Miner ili kuingizwa kwenye kizuizi.

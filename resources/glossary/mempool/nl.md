@@ -1,5 +1,6 @@
 ---
 term: Mempool
+definition: Ruimte waar transacties die wachten op opname in een blok door elke node worden opgeslagen.
 ---
 
 Een samentrekking van de termen "geheugen" en "pool". Dit verwijst naar een virtuele ruimte waarin Bitcoin transacties die wachten op opname in een blok, gegroepeerd zijn. Wanneer een transactie wordt aangemaakt en uitgezonden op het Bitcoin netwerk, wordt deze eerst geverifieerd door de knooppunten van het netwerk. Als het geldig wordt geacht, wordt het in de Mempool van elk knooppunt geplaatst, waar het blijft totdat het door een Miner wordt geselecteerd om in een blok te worden opgenomen.

@@ -1,5 +1,6 @@
 ---
-term: SELFISH Mining
+term: Egoistisk gruvedrift
+definition: Utvinningsstrategi der blokker holdes hemmelige for å få et forsprang på andre utvinnere.
 ---
 
 Strategi (eller angrep) i Mining, der en Miner eller en gruppe utvinnere med vilje holder på blokker med en gyldig Proof of Work uten å frigjøre dem umiddelbart til nettverket. Målet er å ligge foran andre utvinnere når det gjelder Proof of Work, slik at de potensielt kan Miner flere blokker på rad og publisere dem alle samtidig, og dermed maksimere gevinsten. Med andre ord utvinner ikke den angripende gruppen av utvinnere på den siste blokken som er validert av hele nettverket, men på en blokk de selv har laget, som er forskjellig fra den som er validert av nettverket.

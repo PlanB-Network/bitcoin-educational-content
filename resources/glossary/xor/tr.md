@@ -1,5 +1,6 @@
 ---
 term: XOR
+definition: Kriptografide, yalnızca iki işlenen farklı olduğunda doğru sonucunu veren temel bir boole mantık işlemi.
 ---
 
 "Exclusive or" işleminin kısaltması, Fransızca "Ou exclusif" Boole mantığının temel bir işlevidir. Bu işlem, her biri $doğru$ ya da $yanlış$ olan iki Boole işleneni alır ve yalnızca iki işlenen farklı olduğunda bir $doğru$ çıktı üretir. Başka bir deyişle, XOR işleminin çıktısı, işlenenlerden tam olarak biri (ancak ikisi birden değil) $true$ ise $true$ olur. Örneğin, $1$ ve $0$ arasındaki XOR işlemi $1$ sonucunu verecektir. Not ediyoruz:

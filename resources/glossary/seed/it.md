@@ -1,5 +1,6 @@
 ---
-term: GRANO
+term: Seed
+definition: Informazioni a 512 bit che consentono di generare tutte le chiavi di un portafoglio HD Bitcoin.
 ---
 
 Nel contesto specifico di un portafoglio deterministico gerarchico Bitcoin, un seed è un'informazione a 512 bit derivata da un evento casuale. Viene utilizzato per determinare in modo deterministico e gerarchico generate un insieme di chiavi private, e le corrispondenti chiavi pubbliche, per un portafoglio Bitcoin. Il seed viene spesso confuso con la frase di recupero stessa. Ma non è la stessa cosa. Il seed si ottiene applicando la funzione `PBKDF2` alla frase Mnemonic e a qualsiasi passphrase.

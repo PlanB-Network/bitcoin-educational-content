@@ -1,0 +1,9 @@
+question: 根据协议，最后一次减半（halving）是哪一次？
+answer: 第 33 次
+wrong_answers:
+  - 第 21 次
+  - 第 38 次
+  - 第 64 次
+explanation: |
+  在区块高度 6,930,000 处的第 33 次减半将结束区块补贴，因为补贴金额将低于最小单位。
+reviewed: false

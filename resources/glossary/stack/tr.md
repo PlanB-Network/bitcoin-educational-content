@@ -1,5 +1,6 @@
 ---
-term: AKÜ
+term: Yığın (stack)
+definition: Yürütme sırasında geçici öğeleri depolamak ve işlemek için Bitcoin Script'te kullanılan LIFO veri yapısı.
 ---
 
 Bitcoin UTXO'lara harcama koşulları eklemek için kullanılan komut dosyası dili bağlamında, yığın, komut dosyası yürütme sırasında geçici Elements depolamak için kullanılan bir LIFO (*Son Giren İlk Çıkar*) veri yapısıdır. Koddaki her işlem, Elements'ın eklenebildiği (*push*) veya kaldırılabildiği (*pop*) bu yığınları manipüle eder. Kodlar ifadeleri değerlendirmek, geçici değişkenleri saklamak ve koşulları yönetmek için yığınları kullanır.

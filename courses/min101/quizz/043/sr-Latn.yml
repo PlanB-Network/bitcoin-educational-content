@@ -1,0 +1,9 @@
+question: Između sredine 2010. i sredine 2011. godine, kojim faktorom je pomnožena težina rudarenja?
+answer: 1000
+wrong_answers:
+  - 100
+  - 500
+  - 50
+explanation: |
+  U tom periodu došlo je do povećanja od 1.000 puta, naročito zbog korišćenja GPU-ova.
+reviewed: false

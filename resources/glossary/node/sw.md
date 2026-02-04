@@ -1,5 +1,6 @@
 ---
-term: NODE
+term: Nodi
+definition: Kompyuta inayoendesha mteja wa Bitcoin, inayoshiriki kwenye mtandao kwa kuhifadhi nakala ya blockchain.
 ---
 
 Katika mtandao wa Bitcoin, nodi (au "nodi" kwa Kiingereza) ni kompyuta inayoendesha mteja wa itifaki ya Bitcoin (kama vile Bitcoin Core, kwa mfano). Inashiriki katika mtandao kwa kudumisha nakala ya Blockchain, kusambaza na kuthibitisha miamala na vizuizi vipya, na kwa hiari, kushiriki katika mchakato wa Mining. Jumla ya nodi zote za Bitcoin inawakilisha mtandao wa Bitcoin yenyewe.

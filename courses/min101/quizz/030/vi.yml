@@ -1,0 +1,9 @@
+question: Lần halving thứ tư diễn ra ở chiều cao khối nào?
+answer: 840.000
+wrong_answers:
+  - 880.000
+  - 860.000
+  - 900.000
+explanation: |
+  Lần halving thứ tư diễn ra tại chiều cao 840.000, vào ngày 20 tháng 4 năm 2024.
+reviewed: false

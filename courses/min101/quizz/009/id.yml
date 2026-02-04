@@ -1,0 +1,9 @@
+question: Apa itu blok kandidat di Bitcoin?
+answer: Blok yang disiapkan oleh penambang, tetapi belum valid
+wrong_answers:
+  - Blok yang divalidasi oleh jaringan, tetapi belum dibagikan
+  - Blok yang dibuat oleh dompet, tetapi belum valid
+  - Blok yang disimpan di mempool
+explanation: |
+  Setiap penambang menyusun blok kandidat secara lokal, sebelum mencoba menemukan bukti kerja yang valid.
+reviewed: false

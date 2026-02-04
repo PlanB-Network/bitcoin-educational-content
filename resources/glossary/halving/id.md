@@ -1,6 +1,7 @@
 ---
-term: HALVING
+term: Halving
 
+definition: Peristiwa pengurangan hadiah penambang menjadi setengahnya setiap 210.000 blok.
 ---
 Istilah "_halving_" merujuk pada peristiwa terjadwal yang mengurangi hadiah yang diberikan kepada penambang untuk setiap blok yang ditambang melalui subsidi blok menjadi setengahnya. Pengurangan ini secara khusus berlaku untuk bagian dari subsidi blok yang terdiri dari bitcoin baru yang tercipta. _Halving_ dirancang oleh Satoshi Nakamoto, pencipta Bitcoin, sebagai sebuah mekanisme untuk mengontrol inflasi dan memastikan pasokan bitcoin yang terbatas.
 

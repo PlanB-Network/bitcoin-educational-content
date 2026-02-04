@@ -1,0 +1,9 @@
+question: Quale frase riassume il servizio offerto da una pool di mining?
+answer: Vende prevedibilità
+wrong_answers:
+  - Vende difficoltà di mining
+  - Vende blocchi più grandi
+  - Vende macchine da mining
+explanation: |
+  La mutualizzazione trasforma un reddito molto volatile in pagamenti più regolari, in cambio di condivisione e commissioni.
+reviewed: false

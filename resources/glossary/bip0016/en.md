@@ -1,5 +1,6 @@
 ---
 term: BIP0016
+definition: Introduction of P2SH (Pay-to-Script-Hash) allowing payment to a script hash, simplifying the use of complex transactions like multisig.
 ---
 
 BIP16 introduced the concept of *Pay-to-Script-Hash* (P2SH), which means to "pay to the script's hash". Initially proposed in 2012 and activated in 2013, BIP16 simplified the use of complex transaction scripts, such as multisignature transactions, by allowing users to pay to the hash of a redeem script rather than including the full script in the output. 

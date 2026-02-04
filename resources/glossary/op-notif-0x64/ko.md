@@ -1,5 +1,6 @@
 ---
-term: OP_NOTIF (0x64)
+term: OP_NOTIF (0X64)
+definition: 최상단의 조건이 거짓이면 스크립트의 일부를 실행하는 Opcode (OP_IF의 반대).
 ---
 
 스택 상단의 값이 0(거짓)이면 스크립트의 다음 부분을 실행하는 `OP_IF`와 반대 방식으로 작동합니다.

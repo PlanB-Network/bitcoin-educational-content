@@ -1,5 +1,6 @@
 ---
-term: BATERIA
+term: Pilha (stack)
+definition: Estrutura de dados LIFO usada no Bitcoin Script para armazenar e manipular elementos temporários durante a execução.
 ---
 
 No contexto da linguagem de scripting utilizada para associar condições de despesa a UTXOs Bitcoin, a pilha é uma estrutura de dados LIFO (*Last In, First Out*) utilizada para armazenar Elements temporários durante a execução do script. Cada operação no script manipula estas pilhas, onde o Elements pode ser adicionado (*push*) ou removido (*pop*). Os scripts utilizam pilhas para avaliar expressões, armazenar variáveis temporárias e gerir condições.

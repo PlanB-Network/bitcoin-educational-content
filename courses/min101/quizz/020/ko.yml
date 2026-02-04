@@ -1,0 +1,9 @@
+question: 비트코인은 각 블록 사이에 평균적으로 어느 정도의 간격을 목표로 합니까?
+answer: 10분
+wrong_answers:
+  - 1분
+  - 30분
+  - 60분
+explanation: |
+  프로토콜은 장기간에 걸쳐 평균 약 10분마다 하나의 블록을 생성하는 것을 목표로 합니다.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
 term: NFT
+definition: Đơn vị bitcoin được diễn giải là không thể thay thế và được liên kết với một tài sản bên ngoài thông qua một giao thức.
 ---
 
 Từ viết tắt của *Non-Fungible Token*. NFT biểu thị một đơn vị Bitcoin, được người dùng giao thức Layer thứ hai hiểu là không thể thay thế và liên kết với Ownership của một tài sản bên ngoài Bitcoin, chẳng hạn như hình ảnh hoặc loại dữ liệu khác.

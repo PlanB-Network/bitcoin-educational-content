@@ -1,5 +1,6 @@
 ---
-term: HERBRUIKBARE BETAALCODE
+term: Herbruikbare betalingscode
+definition: Statische identifier van BIP47 die de afleiding van unieke adressen mogelijk maakt zonder adreshergebruik.
 ---
 
 In BIP47 is een herbruikbare betaalcode een statische identifier die wordt gegenereerd uit een Bitcoin Wallet die een meldingstransactie en de afleiding van unieke adressen mogelijk maakt. Dit voorkomt hergebruik van adressen, wat leidt tot verlies van privacy, zonder dat voor elke betaling handmatig nieuwe, ongebruikte adressen moeten worden afgeleid en verzonden. In BIP47 worden herbruikbare betalingscodes als volgt opgebouwd:

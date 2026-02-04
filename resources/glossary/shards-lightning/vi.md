@@ -1,5 +1,6 @@
 ---
-term: MẢNH VẠCH (SÉT)
+term: Mảnh (lightning)
+definition: Một phần của khoản thanh toán được định tuyến riêng biệt qua các lộ trình Lightning khác nhau (MPP/AMP).
 ---
 
 Trong bối cảnh *Thanh toán đa đường dẫn (MPP)* hoặc *Thanh toán đa đường dẫn nguyên tử (AMP)*, Shard là một phần của thanh toán toàn cầu. Mỗi Shard đại diện cho một phần của tổng thanh toán, được định tuyến riêng qua một tuyến đường khác trên Lightning.

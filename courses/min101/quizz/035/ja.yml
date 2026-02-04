@@ -1,0 +1,9 @@
+question: SegWit以降、ブロックのウィットネス・コミットメントはどこに配置されますか？
+answer: コインベースの出力（output）内
+wrong_answers:
+  - コインベースのscriptSig内
+  - バージョンフィールド内
+  - コインベースの手数料内
+explanation: |
+  SegWitは、OP_RETURN出力を介してコインベースに書き込まれたコミットメントを使用します。
+reviewed: false

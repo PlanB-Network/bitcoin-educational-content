@@ -1,0 +1,9 @@
+question: Millist probleemi püüdis Hashcash peamiselt vähendada?
+answer: E-posti spämm
+wrong_answers:
+  - Topeltkulutamine
+  - DNS-i õngitsemine
+  - Privaatvõtmete vargus
+explanation: |
+  Hashcash kehtestab sõnumipõhise arvutuskulu, et muuta e-kirjade massiline saatmine ebakasumlikuks.
+reviewed: false

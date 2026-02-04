@@ -1,5 +1,6 @@
 ---
 term: BIP0137
+definition: Gestandaardiseerd formaat voor het ondertekenen van berichten met een Bitcoin private key om eigendom van een adres te bewijzen.
 ---
 
 Stelt een gestandaardiseerd formaat voor voor het ondertekenen van berichten met Bitcoin private sleutels en hun geassocieerde adressen, om Ownership van een Address aan te tonen. Deze BIP is bedoeld om de ambiguïteit op te lossen die samenhangt met de verschillende typen Bitcoin adressen (P2PKH, P2SH, P2WPKH...) bij het ondertekenen van een bericht. Het introduceert een methode voor het expliciet onderscheiden van deze Address formaten door middel van handtekeningen. Deze handtekeningen zijn nuttig voor verschillende toepassingen, zoals geldbewijzen, auditing en andere toepassingen die authenticatie van een Address via zijn private sleutel vereisen. BIP322 heeft sindsdien een nieuw handtekeningformaat geïntroduceerd dat het mogelijk maakt om deze standaard uit te breiden en te veralgemenen voor elk type script.

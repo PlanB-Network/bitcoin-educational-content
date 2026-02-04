@@ -1,6 +1,7 @@
 ---
-term: SIGHASH FLAG
+term: Sighash-lippu
 
+definition: Parametri, joka määrittää, mitkä tapahtuman osat allekirjoitus kattaa.
 ---
 Bitcoin-tapahtuman parametri, joka määrittää, mitkä tapahtuman osat (tulot ja lähdöt) kuuluvat siihen liittyvän allekirjoituksen piiriin, jolloin niistä tulee muuttumattomia. SigHash Flag on tavu, joka lisätään kunkin syötteen digitaaliseen allekirjoitukseen. Näin ollen SigHash Flagin valinta vaikuttaa suoraan siihen, mitkä transaktion osat jäädytetään allekirjoituksella ja mitkä voidaan vielä muuttaa jälkikäteen. Tällä mekanismilla varmistetaan, että allekirjoitukset sitovat transaktiotiedot täsmällisesti ja turvallisesti allekirjoittajan aikomuksen mukaisesti. SigHash-lipukkeita on kolme pääasiallista:
 

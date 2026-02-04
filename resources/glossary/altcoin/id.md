@@ -1,5 +1,6 @@
 ---
-term: ALTCOIN
+term: Altcoin
 
+definition: Menunjuk pada setiap cryptocurrency selain Bitcoin. Kontraksi dari alternative dan coin.
 ---
-Mengacu pada mata uang kripto selain Bitcoin (BTC). Istilah "_altcoin_" adalah singkatan dari "_alternative_" dan "_coin_" (koin alternatif). Beberapa Bitcoiner maksimalis juga menggunakan istilah "_shitcoins_" untuk merujuk pada _altcoin_.
+Merujuk pada semua mata uang kripto selain bitcoin (BTC). Istilah "altcoin" merupakan gabungan dari kata "alternative" dan "coin". Beberapa bitcoin maksimalis juga menggunakan istilah "shitcoins" untuk menyebut altcoin.

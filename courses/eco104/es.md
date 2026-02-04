@@ -1,11 +1,11 @@
 ---
-name: Introducción a Bitcoin y Stablecoin
+name: Introducción a Bitcoin y Stablecoins
 goal: Una mirada profunda a Bitcoin, Stablecoins y la soberanía que conllevan
 objectives:
   - Comprender la evolución histórica del dinero y los principales problemas derivados de nuestro sistema financiero actual.
   - Desarrollar un entendimiento comprensivo de Bitcoin, diferenciándolo de las monedas fiduciarias tradicionales.
-  - Examinar el papel de los stablecoins, específicamente Tether, en la estabilidad financiera y como un puente entre Bitcoin y las monedas fiduciarias tradicionales.
-  - Identificar y desmentir los conceptos erróneos comunes en torno a Bitcoin y los stablecoins.
+  - Examinar el papel de las stablecoins, específicamente Tether, en la estabilidad financiera y como un puente entre Bitcoin y las monedas fiduciarias tradicionales.
+  - Identificar y desmentir los conceptos erróneos comunes en torno a Bitcoin y las stablecoins.
 ---
 
 ¿Alguna vez te has preguntado:
@@ -13,11 +13,11 @@ objectives:
 ¿Por qué mi costo de vida sigue aumentando?
 ¿Realmente la inflación es buena para mí?
 ¿Qué opciones están disponibles para ayudarme a protegerme contra la inflación?
-¿Cómo encajan Bitcoin o los stablecoins en todo esto?
+¿Cómo encajan Bitcoin o las stablecoins en todo esto?
 
 Si respondiste sí a alguna de estas preguntas, estás en el lugar correcto.
 
-Bienvenido a "Optando por el Cambio", donde profundizamos bajo la superficie de nuestros sistemas monetarios mientras observamos algunas herramientas disponibles para crear un cambio positivo. Mientras nuestro mundo lucha con amenazas crecientes a las libertades y escaladas de violaciones a los derechos humanos, este curso intenta ofrecer una luz guía: un sistema alternativo que devuelve el control a manos del individuo.
+Bienvenido a "Optando por el Cambio", donde profundizamos bajo la superficie de nuestros sistemas monetarios mientras observamos algunas herramientas disponibles para crear un cambio positivo. Mientras nuestro mundo lucha con amenazas crecientes a las libertades y escaladas de violaciones a los derechos humanos, este curso intenta ofrecer una luz guía: Un sistema alternativo que devuelve el control a manos del individuo.
 
 Si lo que acabas de leer ha despertado tu interés, esperamos que te unas a nosotros en este viaje educativo.
 
@@ -65,16 +65,16 @@ Con esto en mente, nuestra misión es llevarte al frente del cambio en nuestro p
 
 **Qué esperar:**
 
-**Módulo 1: El Precio del Progreso - Una Mirada Cercana a Nuestro Sistema Financiero**
+**Módulo 1: El Precio del progreso - Una mirada cercana a nuestro sistema financiero**
 Comenzamos nuestra exploración echando un vistazo detrás de las cortinas de nuestro sistema financiero actual, donde la censura financiera, la desigualdad de riqueza y la inflación azotan nuestra vida diaria. A través de una breve historia del dinero, veremos cómo llegamos a donde estamos, arrojando luz sobre algunos de los principales puntos de dolor que todos estamos experimentando.
 
 **Módulo 2: Liberación Financiera - Una Introducción a Bitcoin**
 Este módulo desmitificará Bitcoin, trascendiendo la jerga para ayudarte a entender qué diferencia a Bitcoin de las monedas fiduciarias tradicionales. Desde cómo funciona hasta cómo usarlo, te guiamos a través de la funcionalidad y formas de interactuar con Bitcoin.
 
-**Módulo 3: Estabilidad en Medio del Caos - Una Introducción a Tether & el Mundo de las Stablecoins**
+**Módulo 3: Estabilidad en medio del caos - Una introducción a Tether & el mundo de las Stablecoins**
 En este módulo, echamos un vistazo bajo el capó de la stablecoin líder, Tether, explorando cómo esta moneda digital mantiene su valor y tiene el potencial de dar libertad a aquellos que enfrentan un gobierno opresivo, falta de servicios financieros o inflación desenfrenada.
 
-**Módulo 4: Superando Dudas - Desmintiendo Conceptos Erróneos Comunes & Casos de Uso en el Mundo Real**
+**Módulo 4: Superando Dudas - Desmintiendo conceptos erróneos comunes & casos de uso en el mundo real**
 Para terminar, desafiaremos los conceptos erróneos comunes sobre Bitcoin y las stablecoins y ofreceremos casos de uso reales de individuos que ya han adoptado y se están beneficiando de estas tecnologías.
 
 Al final de este curso, no solo habrás ganado un conocimiento poderoso y herramientas invaluables para navegar nuestro complejo panorama financiero, sino que también entenderás mejor cómo Bitcoin y las stablecoins, como Tether, empoderan a los usuarios al permitirles optar por un sistema monetario alternativo— uno que prioriza al individuo, dando a cualquiera un mayor control de su situación financiera. Con este entendimiento, estarás mejor equipado para perseguir la libertad financiera, el empoderamiento personal y la liberación.
@@ -89,7 +89,7 @@ Estamos emocionados de tenerte con nosotros en este viaje hacia las profundidade
 
 <chapterId>927ad49a-d8d6-5dd3-9250-cdcadcbf425e</chapterId>
 
-El dinero es una parte fascinante y esencial de nuestras vidas diarias. Lo usamos todos los días para comprar alimentos, pagar facturas y realizar innumerables transacciones. Pero, ¿qué es realmente el dinero? En su esencia, el dinero es simplemente un medio de intercambio, una herramienta que nos permite comerciar bienes y servicios entre nosotros. Es un concepto abstracto que todos damos por sentado, pero es fundamental para nuestro sistema económico.
+El dinero es una parte fascinante y esencial de nuestras vidas diarias. Lo usamos todos los días para comprar alimentos, pagar facturas y realizar innumerables transacciones. Pero, ¿Qué es realmente el dinero? En su esencia, el dinero es simplemente un medio de intercambio, una herramienta que nos permite comerciar bienes y servicios entre nosotros. Es un concepto abstracto que todos damos por sentado, pero es fundamental para nuestro sistema económico.
 Pero no todo el dinero es creado igual. Algunas formas de dinero son mejores que otras, dependiendo de su capacidad para servir como reserva de valor, medio de intercambio y unidad de cuenta. El oro, por ejemplo, ha sido altamente valorado durante miles de años debido a su durabilidad y escasez. Por otro lado, el dinero en papel solo es tan valioso como la confianza que depositamos en las instituciones que lo emiten.
 En este módulo, exploraremos las diferentes funciones y características del dinero y qué hace que un dinero sea bueno. Ya seas un ciudadano promedio, un dueño de negocio, un inversor o simplemente alguien curioso sobre el mundo de las finanzas, nuestro objetivo es ayudarte a obtener una comprensión más profunda de este concepto abstracto pero esencial que toca todas nuestras vidas. Así que sumerjámonos…
 
@@ -112,7 +112,7 @@ Al ver el dinero como una reserva de tiempo y energía, metafóricamente habland
 
 ### ¿Qué hace al dinero excelente?
 
-Al leer la introducción, es posible que hayas notado tres términos importantes: reserva de valor, medio de intercambio y unidad de cuenta. No te preocupes si no estás familiarizado con este lenguaje. Estas tres funciones son esenciales para que el dinero proporcione valor a su poseedor y comúnmente se refieren como las funciones del dinero.
+Al leer la introducción, es posible que hayas notado tres términos importantes: Reserva de valor, medio de intercambio y unidad de cuenta. No te preocupes si no estás familiarizado con este lenguaje. Estas tres funciones son esenciales para que el dinero proporcione valor a su poseedor y comúnmente se refieren como las funciones del dinero.
 
 Echemos un vistazo a cada una:
 
@@ -122,7 +122,7 @@ Echemos un vistazo a cada una:
    Cuando estas tres funciones esenciales del dinero se cumplen en su totalidad, dicho dinero tiene la capacidad de satisfacer las rigurosas demandas del comercio. Sin estas funciones, el dinero es mucho menos confiable y digno de confianza, lo que lleva a inseguridad e incertidumbre en el comercio, lo que puede tener efectos perjudiciales tanto a nivel personal como nacional.
    Con esto en mente, cuando el dinero que usamos nos ofrece un medio confiable para almacenar valor, un método efectivo para facilitar transacciones y una medida común de valor, nos permite ahorrar y construir riqueza, comerciar con confianza y realizar transacciones con facilidad. Estas funciones juntas no solo nos asisten en nuestra capacidad para comerciar y ahorrar, sino que también sientan las bases para un sistema económico estable y eficiente, fomentando un mayor crecimiento económico y prosperidad para individuos y sociedades.
 
-Probablemente estés pensando, "Ok, entiendo que para que el dinero ofrezca valor, debe cumplir con las funciones del dinero mencionadas arriba, pero ¿cómo lo hace?"
+Probablemente estés pensando, "Ok, entiendo que para que el dinero ofrezca valor, debe cumplir con las funciones del dinero mencionadas arriba, pero ¿Cómo lo hace?"
 
 Gran pregunta...
 
@@ -155,9 +155,9 @@ Para que el dinero se use como una medida común del valor de bienes y servicios
 
 **Fungible:** Cuando se dice que el dinero es fungible, cada unidad de moneda es intercambiable con cualquier otra unidad. En términos más simples, significa que el dinero es uniforme e idéntico, independientemente de dónde provino o quién lo posee. Por ejemplo, si le debes a alguien \$10 y le das un billete de \$10, no importa si el billete vino de tu billetera o de la billetera de alguien más. Mientras sea un billete genuino de \$10, se considera que tiene igual valor. El concepto de fungibilidad es importante porque permite que el dinero funcione efectivamente como una unidad común de medición, haciendo las transacciones más simples y eficientes.
 
-Conclusión
+Conclusión.
 
-El dinero es una parte crucial y fascinante de nuestras vidas diarias. Sirve como intermediario, permitiéndonos intercambiar bienes y servicios entre nosotros. Sin embargo, no todo el dinero se crea igual. Algunas formas de dinero son superiores como reserva de valor, como la moneda de oro, mientras que otras pueden ser más efectivas como medio de intercambio, el dólar estadounidense. Sin embargo, cuando estas funciones se cumplen en su totalidad, nos permite realizar transacciones con confianza y facilidad, lo que no solo nos ayuda como individuos sino que fomenta un mayor crecimiento económico y prosperidad para nuestra economía.
+El dinero es una parte crucial y fascinante de nuestras vidas diarias. Sirve como intermediario, permitiéndonos intercambiar bienes y servicios entre nosotros. Sin embargo, no todo el dinero se crea igual. Algunas formas de dinero son superiores como reserva de valor, como la moneda de oro, mientras que otras pueden ser más efectivas como medio de intercambio, como el dólar estadounidense. Sin embargo, cuando estas funciones se cumplen en su totalidad, nos permite realizar transacciones con confianza y facilidad, lo que no solo nos ayuda como individuos sino que fomenta un mayor crecimiento económico y prosperidad para nuestra economía.
 
 En los módulos siguientes, exploraremos dos formas populares de dinero: Bitcoin y stablecoins. Al examinarlos a través del contenido discutido en esta sección, exploraremos cómo cumplen las diversas funciones de la moneda y cómo pueden beneficiar enormemente a la sociedad.
 
@@ -168,7 +168,7 @@ Desde el trueque hasta la invención de monedas y billetes, el dinero ha experim
 <chapterId>4c8ebb36-a6d5-5637-93ca-9a4a222a1c58</chapterId>
 Desde los días del trueque hasta la era moderna de las monedas digitales, el dinero ha experimentado una evolución fascinante. Nuestros antepasados utilizaban conchas, cuentas e incluso ganado como medio de intercambio. Hoy, tenemos billeteras virtuales y pagos sin contacto. Es un viaje notable que ha visto innumerables iteraciones, compensaciones y adaptaciones para satisfacer las necesidades siempre cambiantes de la sociedad.
 
-Pero, ¿cómo ha evolucionado el dinero que usamos para convertirse en la parte indispensable de nuestras vidas que es hoy? En esta sección, exploraremos la evolución del dinero, desde sus formas más tempranas hasta las modernas monedas digitales que usamos hoy. Profundizaremos en cada iteración importante del dinero, observando cómo han ayudado a dar forma a nuestra sociedad moderna.
+Pero, ¿Cómo ha evolucionado el dinero que usamos para convertirse en la parte indispensable de nuestras vidas que es hoy? En esta sección, exploraremos la evolución del dinero, desde sus formas más tempranas hasta las modernas monedas digitales que usamos hoy. Profundizaremos en cada iteración importante del dinero, observando cómo han ayudado a dar forma a nuestra sociedad moderna.
 
 _**Una nota rápida:** Es importante destacar que esta sección no es necesariamente un relato cronológico de la evolución del dinero. En cambio, es más bien un viaje educativo sobre el auge y la caída de diferentes formas de dinero. Muchos de estos medios de intercambio han existido simultáneamente, y algunos todavía existen hoy en día de alguna forma._
 
@@ -181,9 +181,9 @@ Entender este concepto de evolución monetaria es importante porque nos ayuda a 
 Con esto en mente, echemos un vistazo a las formas primarias de intercambio que se utilizan hoy en día o que se han utilizado en algún momento en el pasado.
 
 1. **Trueque:** El intercambio de bienes o servicios directamente sin el uso de dinero.
-2. **Dinero Mercancía:** El intercambio de una mercancía acordada que se considera de valor, como la sal o las conchas marinas.
-3. **Dinero Acuñado:** El uso de metales preciosos, como el oro o la plata, en forma de monedas como medio de intercambio.
-4. **Dinero de Papel Respaldado por Metal:** Dinero de papel respaldado por una mercancía física, como el oro o la plata.
+2. **Dinero mercancía:** El intercambio de una mercancía acordada que se considera de valor, como la sal o las conchas marinas.
+3. **Dinero acuñado:** El uso de metales preciosos, como el oro o la plata, en forma de monedas como medio de intercambio.
+4. **Dinero de papel respaldado por metal:** Dinero de papel respaldado por una mercancía física, como el oro o la plata.
 5. **Dinero Fiat:** Moneda que no está respaldada por una mercancía física sino que tiene valor porque un gobierno la declara como moneda de curso legal.
 6. **Criptomonedas:** Tokens digitales o virtuales que utilizan criptografía para asegurar transacciones y controlar la creación de nuevas unidades.
 
@@ -191,11 +191,11 @@ Con estos en mente, examinemos cada uno para obtener una comprensión más holí
 
 ### Trueque
 
-¡El trueque! Es un concepto simple: intercambias algo que tienes por algo que quieres o necesitas.
+¡El trueque! Es un concepto simple: Intercambias algo que tienes por algo que quieres o necesitas.
 
 ¿Pero es práctico?
 
-El problema con el trueque es que encontrar a alguien que quiera lo que tienes y tenga lo que quieres puede ser desafiante. Por ejemplo, imagina que eres un agricultor de trigo en necesidad de una camisa nueva. Podrías tener que buscar por todas partes para encontrar un fabricante de camisas dispuesto a intercambiar una camisa por tu trigo. Pero, ¿y si al fabricante de camisas no le interesa tu trigo? Este problema se conoce como la doble coincidencia de deseos. Una transacción exitosa requiere una doble coincidencia de deseos, lo que significa que ambas partes deben tener algo que la otra desea intercambiar.
+El problema con el trueque es que encontrar a alguien que quiera lo que tienes y tenga lo que quieres puede ser desafiante. Por ejemplo, imagina que eres un agricultor de trigo en necesidad de una camisa nueva. Podrías tener que buscar por todas partes para encontrar un fabricante de camisas dispuesto a intercambiar una camisa por tu trigo. Pero, ¿Y si al fabricante de camisas no le interesa tu trigo? Este problema se conoce como la doble coincidencia de deseos. Una transacción exitosa requiere una doble coincidencia de deseos, lo que significa que ambas partes deben tener algo que la otra desea intercambiar.
 Otro problema con el trueque es que puede ser impráctico para ciertos artículos. ¿Cómo dividirías una vaca viva para intercambiarla por un par de zapatos? Y sin una unidad de cuenta estandarizada, comparar el valor de bienes y servicios es difícil. ¿Vale una vaca más o menos que diez sacos de trigo o dos rollos de tela?
 Además de todo eso, muchos bienes y servicios son perecederos y pierden valor con el tiempo. Así que si dependes del trueque como medio de intercambio, debes comerciar y consumir tus bienes y servicios continuamente para evitar una pérdida de valor.
 
@@ -211,7 +211,7 @@ Lo grandioso de seleccionar un medio de intercambio predefinido era que las comu
 
 Sin embargo, a medida que los viajes se facilitaban, el mundo comenzó a abrirse, y la gente reconocía que los recursos escasos en una área eran abundantes en otras. Esto llevó a la explotación, dilución del suministro y desencadenó eventos como el comercio de esclavos. Por ejemplo, los colonizadores europeos que exploraban África vieron que las comunidades locales usaban cuentas de vidrio como forma de dinero. Sorprendidos, debido a la facilidad de producción de vidrio en Europa, los colonizadores traerían grandes cantidades de estas cuentas a África, diluyendo su valor. Algunos incluso argumentarían que esta dilución fue uno de los desencadenantes que encendió el [comercio de esclavos](https://breedlove22.medium.com/masters-and-slaves-of-money-255ecc93404f), lo que contribuyó al colapso de la economía africana.
 
-En general, el dinero commodity jugó un papel esencial en el desarrollo del comercio y el comercio, ya que proporcionó un medio de intercambio estandarizado que fue ampliamente aceptado. Sin embargo, a medida que las sociedades se volvieron más avanzadas, comenzaron a surgir otras formas de dinero que eran más convenientes y divisibles.
+En general, el dinero commodity jugó un papel esencial en el desarrollo del comercio, ya que proporcionó un medio de intercambio estandarizado que fue ampliamente aceptado. Sin embargo, a medida que las sociedades se volvieron más avanzadas, comenzaron a surgir otras formas de dinero que eran más convenientes y divisibles.
 
 Para resolver estos problemas, la gente comenzó a buscar commodities que tuvieran una escasez reconocida globalmente, lo que dio lugar al uso de metales preciosos como medio de intercambio.
 
@@ -228,7 +228,7 @@ Entra el papel moneda respaldado por metal, una solución a los considerables co
 
 Hemos recorrido un largo camino desde los días del trueque e intercambio de bienes. Con la llegada de los metales monetarios, finalmente tuvimos una reserva de valor estable que se podía usar universalmente. Pero fue la introducción de la moneda de papel respaldada por metal lo que realmente revolucionó la forma en que realizamos transacciones.
 
-Piénsalo: no más cargar pesadas bolsas de oro o preocuparse por el robo. En su lugar, las personas podían depositar su oro en un almacén y recibir un recibo que podían comerciar como si fuera oro físico. Esto mejoró la fungibilidad, divisibilidad y portabilidad del dinero, haciendo el comercio global significativamente más fácil. Estos recibos podrían entonces ser fácilmente transportados a largas distancias, haciendo posible realizar comercio internacional sin incurrir en costos de transporte significativos. Aunque tomó un poco de tiempo para que el papel moneda respaldado por metal despegara como una forma de dinero, con la expansión del Imperio Británico, rápidamente se convirtió en la norma.
+Piénsalo: No más cargar pesadas bolsas de oro o preocuparse por el robo. En su lugar, las personas podían depositar su oro en un almacén y recibir un recibo que podían comerciar como si fuera oro físico. Esto mejoró la fungibilidad, divisibilidad y portabilidad del dinero, haciendo el comercio global significativamente más fácil. Estos recibos podrían entonces ser fácilmente transportados a largas distancias, haciendo posible realizar comercio internacional sin incurrir en costos de transporte significativos. Aunque tomó un poco de tiempo para que el papel moneda respaldado por metal despegara como una forma de dinero, con la expansión del Imperio Británico, rápidamente se convirtió en la norma.
 
 Pero como con cualquier nueva tecnología, comenzaron a surgir problemas.
 
@@ -241,7 +241,7 @@ Aunque la moneda de papel respaldada por metal tuvo su parte justa de problemas,
 ### Moneda Fiduciaria
 
 Las monedas fiduciarias han sido la base de nuestro sistema monetario durante décadas. El término "fiat" es latín para "hágase" y se refiere a la autoridad del estado para declarar una moneda como moneda de curso legal. A diferencia de las monedas que alguna vez estuvieron respaldadas por oro u otros objetos de valor, el valor fiduciario proviene de la promesa del gobierno de que alguien la aceptará a cambio de bienes y servicios.
-Las monedas fiduciarias surgieron cuando los países enfrentaron frustraciones en torno a la moneda de papel respaldada por metales: los gobiernos tendrían que obtener más oro para imprimir más dinero en papel. Esto era un obstáculo, así que cada vez que un país necesitaba capital, abandonaba temporalmente este respaldo y expandía su oferta monetaria. Esta nueva moneda no estaba respaldada por nada más que la fe en el gobierno debido a que era moneda de curso legal. No solo eso, esta nueva moneda devaluaba la moneda restante en circulación al inflar la oferta de dinero, y con más dólares persiguiendo la misma cantidad de bienes, los precios subían.
+Las monedas fiduciarias surgieron cuando los países enfrentaron frustraciones en torno a la moneda de papel respaldada por metales: Los gobiernos tendrían que obtener más oro para imprimir más dinero en papel. Esto era un obstáculo, así que cada vez que un país necesitaba capital, abandonaba temporalmente este respaldo y expandía su oferta monetaria. Esta nueva moneda no estaba respaldada por nada más que la fe en el gobierno debido a que era moneda de curso legal. No solo eso, esta nueva moneda devaluaba la moneda restante en circulación al inflar la oferta de dinero, y con más dólares persiguiendo la misma cantidad de bienes, los precios subían.
 El declive de la moneda de papel respaldada por metales comenzó hacia el final de la Segunda Guerra Mundial. Con mucha fe en los EE. UU., líderes globales se reunieron en Bretton Woods, New Hampshire, y determinaron que los EE. UU. fijarían su dólar al oro y el resto del mundo fijaría su moneda al dólar. Esto significaba que la mayor parte del oro del mundo se vertía en los EE. UU. para su custodia, agotando a muchos países de sus reservas domésticas de oro.
 
 Avanzando rápidamente hasta finales de los '60 y principios de los '70, los EE. UU., sintiéndose restringidos por su respaldo al oro, comenzaron a expandir su oferta monetaria para financiar la guerra en Vietnam. Francia no estaba contenta con esto y exigió su oro de vuelta. Esto causó una corrida por el oro, y como los EE. UU. habían impreso significativamente más dólares de los que tenía en oro disponible, rápidamente abandonaron este respaldo por completo. Este evento, conocido como el Shock de Nixon, significó que individuos y países ya no podrían canjear sus dólares por oro. Desde este día, vimos la proliferación de monedas fiduciarias, una moneda que está respaldada por nada más que deuda y nuestra fe en el gobierno.
@@ -277,7 +277,7 @@ En los módulos siguientes, exploraremos Bitcoin a través de un lente alternati
 
 Mientras tanto, aunque las monedas digitales de los bancos centrales puedan ser vistas como la competencia directa de Bitcoin, muchos argumentan que no son diferentes de cualquier otra moneda fiduciaria digital excepto por las aterradoras implicaciones políticas y sociales.
 
-A medida que continuamos avanzando hacia un mundo de dinero programable, Bitcoin permanece en una liga propia. Su oferta no puede ser diluida o expandida, tiene los mayores efectos de red y base de usuarios, y su propuesta de valor y seguridad continuarán fortaleciéndose a medida que la red crezca. Y aunque puede que no sea la moneda digital más nueva, ofrece algo mucho más valioso: verdadera soberanía sobre el propio dinero.
+A medida que continuamos avanzando hacia un mundo de dinero programable, Bitcoin permanece en una liga propia. Su oferta no puede ser diluida o expandida, tiene los mayores efectos de red y base de usuarios, y su propuesta de valor y seguridad continuarán fortaleciéndose a medida que la red crezca. Y aunque puede que no sea la moneda digital más nueva, ofrece algo mucho más valioso: Verdadera soberanía sobre el propio dinero.
 
 Dicho esto, aunque las monedas digitales representan una nueva frontera en la evolución del dinero, ofreciendo un alto grado de seguridad, privacidad y conveniencia, también vienen con sus propios riesgos y desafíos, los cuales deben ser cuidadosamente considerados antes de adoptarlos como una forma de dinero.
 
@@ -289,9 +289,9 @@ A lo largo de este viaje, hemos explorado la fascinante evolución del dinero, t
 
 Sin embargo, como hemos visto, el camino de la evolución monetaria no ha estado exento de desafíos. El surgimiento del recorte de monedas y la manipulación de la moneda, el movimiento hacia la centralización y alejamiento de un medio de intercambio generalmente aceptado son solo algunos ejemplos de los obstáculos que hemos enfrentado en el camino.
 A medida que avanzamos hacia el futuro, debemos preguntarnos, **¿cómo continuará la manipulación de la moneda afectando nuestro bienestar financiero?**
-Y, aunque es claro que hemos priorizado la facilidad de uso a medida que hemos transitado del trueque a las mercancías hasta las monedas digitalizadas, **¿deberíamos replantearnos qué características valoramos más en la forma perfecta de dinero?**
+Y, aunque es claro que hemos priorizado la facilidad de uso a medida que hemos transitado del trueque a las mercancías hasta las monedas digitalizadas, **¿Deberíamos replantearnos qué características valoramos más en la forma perfecta de dinero?**
 
-Estas son preguntas complejas que requieren una consideración y reflexión cuidadosas. Sin embargo, una cosa es clara: el futuro del dinero está en nuestras manos. Tenemos el poder de dar forma a nuestro dinero, asegurando que sirva a las necesidades de la sociedad en lugar de simplemente al emisor o a nuestros gobiernos.
+Estas son preguntas complejas que requieren una consideración y reflexión cuidadosas. Sin embargo, una cosa es clara: El futuro del dinero está en nuestras manos. Tenemos el poder de dar forma a nuestro dinero, asegurando que sirva a las necesidades de la sociedad en lugar de simplemente al emisor o a nuestros gobiernos.
 
 A medida que continuamos nuestra exploración del mundo del dinero, es importante reconocer los cambios significativos que han tenido lugar desde el surgimiento de las monedas fiduciarias. Si bien estas monedas han traído un nivel de conveniencia y estabilidad, también han presentado nuevos desafíos, como la inflación, el aumento de los niveles de deuda y la desigualdad de riqueza. En la siguiente sección, profundizaremos más en estos problemas, y en los módulos siguientes, exploraremos soluciones potenciales a estos complicados problemas.
 
@@ -349,7 +349,7 @@ Con el tiempo, EE.UU. y otros gobiernos desarrollaron un apetito insalubre por l
 
 Los bancos centrales ahora se encuentran en una posición difícil. Dada la carga de la deuda, tienen pocas opciones además de suprimir artificialmente las tasas de interés en un intento de reducir la carga de la deuda. Si las tasas de interés son más bajas, los pagos del servicio de la deuda también lo son. Si las tasas aumentaran, muchos sectores de la economía probablemente serían incapaces de atender sus pagos de intereses, llevando rápidamente a la morosidad.
 
-Sin embargo, esta supresión de las tasas de interés tiene un costo: hace que el capital esté más fácilmente disponible. Como resultado, individuos, empresas y gobiernos están más inclinados a asumir deudas adicionales, exacerbando así la carga general de la deuda. Esto crea un acto de equilibrio desafiante para los bancos centrales, que deben mantener las tasas de interés lo suficientemente bajas para manejar la deuda existente mientras también previenen la acumulación de nueva deuda que podría dañar la economía a largo plazo.
+Sin embargo, esta supresión de las tasas de interés tiene un costo: Hace que el capital esté más fácilmente disponible. Como resultado, individuos, empresas y gobiernos están más inclinados a asumir deudas adicionales, exacerbando así la carga general de la deuda. Esto crea un acto de equilibrio desafiante para los bancos centrales, que deben mantener las tasas de interés lo suficientemente bajas para manejar la deuda existente mientras también previenen la acumulación de nueva deuda que podría dañar la economía a largo plazo.
 
 Este acto de equilibrio no va según lo planeado...
 
@@ -379,7 +379,7 @@ Cuando el dinero entra en la economía, tiende a acumularse en ciertas áreas: �
 
 ¿Por qué? Podrías preguntar. Cuando los bancos centrales aumentan la oferta monetaria imprimiendo nueva moneda, el valor de cada unidad individual de moneda disminuye. Esto significa que los precios de bienes y servicios tienden a aumentar con el tiempo, llevando a costos más altos para necesidades básicas como alimentos, vivienda y atención médica. Esta presión inflacionaria sobre los precios erosiona el poder adquisitivo de aquellos que dependen de salarios y sueldos para sus ingresos.
 
-Con esto en mente, ¿estás incentivado a almacenar tus ahorros en la moneda? Por supuesto que no. Si tienes la capacidad, sales y compras activos. Dada la demanda artificial por activos, su valor aumenta. Por lo tanto, aquellos que poseen activos como acciones, bonos y bienes raíces se benefician, hasta cierto punto, de la inflación ya que el valor de estos activos tiende a aumentar con la inflación. Como resultado, la inflación exacerba la desigualdad de riqueza creando una división entre aquellos que poseen activos y aquellos que dependen de salarios y sueldos, llevando a una concentración de riqueza en manos de la clase alta.
+Con esto en mente, ¿Estás incentivado a almacenar tus ahorros en la moneda? Por supuesto que no. Si tienes la capacidad, sales y compras activos. Dada la demanda artificial por activos, su valor aumenta. Por lo tanto, aquellos que poseen activos como acciones, bonos y bienes raíces se benefician, hasta cierto punto, de la inflación ya que el valor de estos activos tiende a aumentar con la inflación. Como resultado, la inflación exacerba la desigualdad de riqueza creando una división entre aquellos que poseen activos y aquellos que dependen de salarios y sueldos, llevando a una concentración de riqueza en manos de la clase alta.
 
 Usemos nuestro nuevo entendimiento para analizar el sector inmobiliario.
 
@@ -432,19 +432,19 @@ A medida que avanzamos, te alentamos a acercarte a esta nueva tecnología con un
 
 <chapterId>f25c229f-2af0-5324-bc40-e90f7668985a</chapterId>
 
-Ahora que has pasado por el Módulo "El Precio del Progreso", tendrás que poner a prueba tus conocimientos recién adquiridos para asegurarte de que has entendido las últimas secciones. Comenzaremos con varias preguntas abiertas y luego un pequeño cuestionario.
+Ahora que has pasado por el Módulo "El precio del progreso", tendrás que poner a prueba tus conocimientos recién adquiridos para asegurarte de que has entendido las últimas secciones. Comenzaremos con varias preguntas abiertas y luego un pequeño cuestionario.
 
 1. Considera la aparición de Bitcoin y las stablecoins como sistemas alternativos a la moneda fiduciaria tradicional. ¿Cuáles crees que son algunas de las ventajas y desventajas potenciales, y cómo podrían contribuir a un futuro económico más equitativo?
 2. ¿Qué información puedes recopilar de la relación deuda-PIB de Estados Unidos? ¿Cuál es la deuda respecto al PIB de tu propio país?
 3. ¿Cómo afecta la supresión de las tasas de interés a la carga total de la deuda?
 4. ¿Cómo exacerba el sistema monetario actual la desigualdad de riqueza?
-5. A la luz de la información proporcionada sobre la deuda y la inflación, ¿cuál es tu opinión sobre la sostenibilidad del sistema monetario actual? ¿Crees que nuestro sistema actual es beneficioso o perjudicial a largo plazo?
+5. A la luz de la información proporcionada sobre la deuda y la inflación, ¿Cuál es tu opinión sobre la sostenibilidad del sistema monetario actual? ¿Crees que nuestro sistema actual es beneficioso o perjudicial a largo plazo?
 
 # Liberación Financiera - Una Introducción a Bitcoin
 
 <partId>c00843b2-bde3-57bb-ae2e-8ecad6631d71</partId>
 
-## Pioneros, Innovadores y los Fundamentos de Bitcoin
+## Pioneros, innovadores y los fundamentos de Bitcoin
 
 <chapterId>37d779ce-46b5-56d1-91d8-d04442236e35</chapterId>
 
@@ -459,8 +459,8 @@ Al final de este módulo, tendrás una sólida comprensión de los orígenes, ca
 
 ### ¿Qué es esto llamado Bitcoin?
 
-Bitcoin es una moneda digital descentralizada sin confianza y sin permisos. Eso puede sonar confuso, así que permítenos explicar. Dado que ningún gobierno o institución controla Bitcoin, no tienes que confiar en terceros ni requerir permiso para usarlo. En cambio, es mantenido por una red de usuarios alrededor del mundo que validan y procesan transacciones en algo llamado blockchain.
-Piensa en el blockchain como un gran libro de contabilidad o una hoja de cálculo digital que mantiene un registro de cada transacción realizada a través de Bitcoin. Como cualquier persona en el mundo con una conexión a internet puede monitorear, validar o procesar transacciones, esto asegura que la moneda sea segura y no pueda ser falsificada.
+Bitcoin es una moneda digital descentralizada sin confianza y sin permisos. Eso puede sonar confuso, así que permítenos explicarlo. Dado que ningún gobierno o institución controla Bitcoin, no tienes que confiar en terceros ni requerir permiso para usarlo. En cambio, es mantenido por una red de usuarios alrededor del mundo que validan y procesan transacciones en algo llamado blockchain.
+Piensa en la blockchain como un gran libro de contabilidad o una hoja de cálculo digital que mantiene un registro de cada transacción realizada a través de Bitcoin. Como cualquier persona en el mundo con una conexión a internet puede monitorear, validar o procesar transacciones, esto asegura que la moneda sea segura y no pueda ser falsificada.
 
 Bitcoin también es único en que tiene un suministro limitado. Solo se crearán 21 millones de bitcoin, lo que le otorga escasez, como el oro y otros metales preciosos. Esta escasez es parte de lo que le da valor al bitcoin.
 
@@ -505,16 +505,16 @@ Sin embargo, como con cualquier nueva tecnología, E-gold enfrentó desafíos re
 
 A pesar de su fracaso final, E-gold fue un paso crucial en la evolución de las monedas digitales. Las lecciones aprendidas de las experiencias de E-gold proporcionaron un mapa de ruta para que futuros innovadores abordaran desafíos regulatorios y preocupaciones de seguridad.
 
-Dado el ascenso meteórico de Bitcoin, muchas personas creen erróneamente que fue la primera moneda digital que existió. Sin embargo, como espero que ahora sea evidente, esta suposición está lejos de ser cierta. La aparición de Bitcoin fue el resultado de décadas de investigación y experimentación por pioneros en el campo de la criptografía. Sin las contribuciones de los individuos mencionados anteriormente y muchos otros, Bitcoin podría nunca haber sido creado. Aunque estas primeras monedas digitales finalmente fracasaron, Bitcoin aprendió de sus errores, convirtiéndose finalmente en la moneda digital que conocemos hoy.
+Dado el ascenso meteórico de Bitcoin, muchas personas creen erróneamente que fue la primera moneda digital que existió. Sin embargo, como esperamos que ahora sea evidente, esta suposición está lejos de ser cierta. La aparición de Bitcoin fue el resultado de décadas de investigación y experimentación por pioneros en el campo de la criptografía. Sin las contribuciones de los individuos mencionados anteriormente y muchos otros, Bitcoin podría nunca haber sido creado. Aunque estas primeras monedas digitales finalmente fracasaron, Bitcoin aprendió de sus errores, convirtiéndose finalmente en la moneda digital que conocemos hoy.
 
 Dicho esto, si no fuera por un individuo... o grupo (no lo sabemos con certeza), Bitcoin no existiría. Y ese es Satoshi Nakamoto. El enigmático creador.
 
 #### Satoshi Nakamoto
 
-Aunque Bitcoin ha cautivado la mente de millones con su potencial disruptivo y tecnología única, a pesar de su popularidad, sus orígenes misteriosos continúan fascinando y confundiendo a la gente. Satoshi Nakamoto, el creador de Bitcoin, sigue siendo desconocido hasta el día de hoy, a pesar de numerosos intentos por descubrir su verdadera identidad. Aunque ha pasado más de una década desde la aparición de Bitcoin, todavía estamos lejos de resolver la pregunta de: ¿Quién es Satoshi Nakamoto? Sin embargo, dada la naturaleza descentralizada de Bitcoin, ¿realmente importa?
+Aunque Bitcoin ha cautivado la mente de millones con su potencial disruptivo y tecnología única, a pesar de su popularidad, sus orígenes misteriosos continúan fascinando y confundiendo a la gente. Satoshi Nakamoto, el creador de Bitcoin, sigue siendo desconocido hasta el día de hoy, a pesar de numerosos intentos por descubrir su verdadera identidad. Aunque ha pasado más de una década desde la aparición de Bitcoin, todavía estamos lejos de resolver la pregunta de: ¿Quién es Satoshi Nakamoto? Sin embargo, dada la naturaleza descentralizada de Bitcoin, ¿Realmente importa?
 
 De cualquier manera, echemos un vistazo al mito y la leyenda.
-Satoshi Nakamoto emergió en internet en 2008 con una idea revolucionaria: efectivo electrónico de igual a igual (peer-to-peer). Compartió su visión en un [documento de nueve páginas](https://bitcoin.org/bitcoin.pdf) titulado "Bitcoin: Un Sistema de Efectivo Electrónico Peer-to-Peer" con la lista de correo de los cypherpunks. A pesar del desinterés inicial de la mayoría de los miembros de la lista, la idea despertó suficiente curiosidad en un miembro, Hal Finney, quien eventualmente se puso en contacto con Satoshi. La participación de Hal en el desarrollo de Bitcoin demostró ser un punto de inflexión, llevando a más personas a ofrecer su apoyo.
+Satoshi Nakamoto emergió en internet en 2008 con una idea revolucionaria: Efectivo electrónico de igual a igual (peer-to-peer). Compartió su visión en un [documento de nueve páginas](https://bitcoin.org/bitcoin.pdf) titulado "Bitcoin: Un Sistema de Efectivo Electrónico Peer-to-Peer" con la lista de correo de los cypherpunks. A pesar del desinterés inicial de la mayoría de los miembros de la lista, la idea despertó suficiente curiosidad en un miembro, Hal Finney, quien eventualmente se puso en contacto con Satoshi. La participación de Hal en el desarrollo de Bitcoin demostró ser un punto de inflexión, llevando a más personas a ofrecer su apoyo.
 Sin embargo, después de dos años trabajando en el proyecto, Satoshi desapareció sin dejar rastro, con [su última comunicación creíble](https://plan99.net/~mike/satoshi-emails/thread5.html) el 23 de abril de 2011, donde afirmó que había "pasado a otras cosas".
 
 La misteriosa desaparición de Satoshi Nakamoto ha llevado a varias teorías sobre su paradero. Algunos especulan que sintió que había logrado lo que se propuso hacer, mientras que otros creen que se sintió incómodo con la atención que Bitcoin estaba atrayendo. En diciembre de [2010](https://www.forbes.com/sites/andygreenberg/2010/12/07/visa-mastercard-move-to-choke-wikileaks/?sh=614d78052cad), cuando WikiLeaks fue prohibido de usar métodos de pago tradicionales, recurrió a Bitcoin para financiación. Las preocupaciones de Satoshi sobre la atención aumentada en Bitcoin y las posibles ramificaciones legales de crear una moneda utilizada para interferir con los intereses geopolíticos de EE.UU. pueden haberlo impulsado a retirarse. Alternativamente, podría haber cambiado su enfoque a otros proyectos, aún podría estar contribuyendo a Bitcoin bajo otros nombres, o incluso haber fallecido.
@@ -539,18 +539,18 @@ Para resumir, Bitcoin ha revolucionado la forma en que pensamos sobre el dinero 
 - **Peer-to-Peer:** Bitcoin permite a los individuos enviar y recibir pagos directamente sin la necesidad de intermediarios, como bancos o procesadores de pago.
 - **Descentralizado:** Bitcoin opera en una red descentralizada, lo que significa que no hay una autoridad central o control sobre la moneda.
 - **Seguro:** Las transacciones de Bitcoin están aseguradas usando criptografía, lo que hace difícil la falsificación o el doble gasto de monedas.
-- **Limitado en Suministro y Divisible:** El suministro de bitcoin es finito, con solo 21 millones de monedas en existencia, mientras que al mismo tiempo, es divisible hasta ocho lugares decimales, permitiendo transacciones por una fracción de centavo. Esta escasez está diseñada para darle valor a la moneda y prevenir la inflación.
+- **Limitado en suministro y divisible:** El suministro de bitcoin es finito, con solo 21 millones de monedas en existencia, mientras que al mismo tiempo, es divisible hasta ocho lugares decimales, permitiendo transacciones por una fracción de centavo. Esta escasez está diseñada para darle valor a la moneda y prevenir la inflación.
 - **Pseudoanónimo:** Aunque las transacciones de Bitcoin no son completamente anónimas, ofrecen un nivel de privacidad y pseudonimato que los métodos de pago tradicionales no ofrecen.
 
 Estos puntos combinados significan que Bitcoin ofrece a cualquiera privacidad financiera, seguridad y la capacidad de realizar transacciones globalmente con mínimas comisiones y fricciones. En última instancia, Bitcoin es una herramienta poderosa para aquellos que buscan una mayor libertad económica y autonomía. Esto es un cambio de juego para aquellos que buscan un vehículo de ahorro seguro, sin mencionar a aquellos que viven bajo regímenes autoritarios, experimentando hiperinflación, huyendo de países en guerra, o enviando dinero a seres queridos en el extranjero. Como Bitcoin ofrece una alternativa asequible a los métodos tradicionales de transferencia de dinero, esto deja más dinero en manos de quienes más lo necesitan. Con Bitcoin, cualquiera puede convertirse en su propio banco y tomar control de su futuro financiero.
 
 Para terminar, independientemente de quién sea Satoshi Nakamoto, es innegable que la invención de Bitcoin ha iniciado una nueva forma de pensar sobre la transferencia de valor.
 
-## ¿Cómo Funciona Bitcoin? Los Entresijos de Este Mágico Dinero de Internet
+## ¿Cómo Funciona Bitcoin? Los entresijos de este dinero mágico de internet
 
 <chapterId>b0f736fc-ed4d-5887-b22e-d958db9144d1</chapterId>
 
-Bitcoin es a menudo referido como mágico dinero de internet... y por una buena razón. Piénsalo: con Bitcoin, puedes enviar valor a cualquier persona, en cualquier parte del mundo, sin la necesidad de un intermediario como un banco o gobierno. Es como tener control de tu propio banco personal, el poder de transferir fondos a través de fronteras con solo unos pocos clics.
+Bitcoin es a menudo referido como dinero mágico de internet... y por una buena razón. Piénsalo: con Bitcoin, puedes enviar valor a cualquier persona, en cualquier parte del mundo, sin la necesidad de un intermediario como un banco o gobierno. Es como tener control de tu propio banco personal, el poder de transferir fondos a través de fronteras con solo unos pocos clics.
 
 Dado los numerosos beneficios que Bitcoin tiene para ofrecer, desde proporcionar una forma rápida, segura y de bajo costo para realizar transacciones hasta permitir a los individuos tomar control de sus propios futuros financieros sin la necesidad de una autoridad centralizada, además de los complejos desafíos criptográficos que ha tenido que resolver para hacer realidad la moneda digital de igual a igual, es natural sentir que su funcionalidad es algo que solo unos pocos deben entender. Incluso podrías sentirte un poco intimidado por la idea de una moneda digital descentralizada. Pero la verdad es que Bitcoin es en realidad bastante simple una vez que entiendes sus entresijos.
 
@@ -592,7 +592,7 @@ Los desarrolladores son miembros altamente capacitados y respetados de la comuni
 
 Sin los desarrolladores, la red de Bitcoin no podría evolucionar y adaptarse a las circunstancias cambiantes. Son responsables de asegurar la viabilidad a largo plazo de la red y de garantizar que siga siendo un sistema de pago confiable y descentralizado durante los años venideros. En resumen, los desarrolladores son la columna vertebral del ecosistema de Bitcoin, trabajando constantemente para mejorar la tecnología subyacente de la red y asegurar su éxito continuo.
 
-Finalmente, hay otro rol que queremos destacar: la comunidad, que es lo que le da valor a bitcoin. La comunidad consiste en todos los que usan la red, realizan transacciones de ida y vuelta e incentivan a los nodos, mineros y desarrolladores a seguir trabajando en Bitcoin. A medida que la comunidad crece, también lo hace el valor de la red de Bitcoin.
+Finalmente, hay otro rol que queremos destacar: La comunidad, que es lo que le da valor a Bitcoin. La comunidad consiste en todos los que usan la red, realizan transacciones de ida y vuelta e incentivan a los nodos, mineros y desarrolladores a seguir trabajando en Bitcoin. A medida que la comunidad crece, también lo hace el valor de la red de Bitcoin.
 
 _**Nota al margen:** Es importante enfatizar que la naturaleza descentralizada de Bitcoin permite que cualquiera, independientemente de su origen o estatus, participe en la red y asuma cualquiera de los roles necesarios para su funcionamiento. Esto distingue a Bitcoin de las monedas tradicionales, que a menudo están sujetas al control de bancos centrales o gobiernos. En otras palabras, Bitcoin devuelve el poder a la gente al permitirles ser participantes activos en la red en lugar de consumidores pasivos de un sistema centralizado._
 
@@ -604,7 +604,7 @@ Para entender cómo todos estos actores trabajan juntos, imaginemos una simple t
 
 Cada transacción de Bitcoin comienza con su iniciación, cuando el remitente, en este caso Alice, crea una transacción especificando al destinatario, Bob, y la cantidad, 0.00100000 bitcoin. El nodo asociado con la billetera de Alice luego transmite la transacción a la red, donde los nodos confirman su validez, y se envía a los mineros para su confirmación.
 
-En este punto, la transacción entra en lo que se conoce como el mempool, esencialmente una sala de espera para transacciones listas para ser agregadas a la blockchain. Piénselo como una lista de transacciones pendientes, muy parecido a las que ve en su estado de cuenta de tarjeta de crédito, que han sido iniciadas pero están esperando ser procesadas. Una vez que la transacción ha sido iniciada y está sentada en el mempool, ahora está en manos de los mineros.
+En este punto, la transacción entra en lo que se conoce como el mempool, esencialmente una sala de espera para transacciones listas para ser agregadas a la blockchain. Piénsalo como una lista de transacciones pendientes, muy parecido a las que ves en tu estado de cuenta de tarjeta de crédito, que han sido iniciadas pero están esperando ser procesadas. Una vez que la transacción ha sido iniciada y está sentada en el mempool, ahora está en manos de los mineros.
 
 #### Confirmación de la Transacción
 
@@ -613,7 +613,7 @@ Los mineros ahora toman estas transacciones pendientes, las agrupan en un nuevo 
 #### Validación de la Transacción
 
 Una vez que la transacción es confirmada, Bob debería poder ver ahora los 0.00100000 bitcoin en su monedero. Pero no termina ahí. Los nodos luego verifican que el minero haya realizado su trabajo correctamente y que las transacciones incluidas en este nuevo bloque cumplan con las reglas acordadas por los nodos. Si el bloque no lo hace, entonces el nuevo bloque será rechazado, y el minero perderá su recompensa de minería.
-_**Dato Curioso:** Incluso después de que una transacción de Bitcoin es confirmada, existe la posibilidad de reversión si los nodos rechazan bloques. Sin embargo, con cada nuevo bloque añadido a la cadena de bloques después de la transacción, la probabilidad de reversión disminuye exponencialmente. Para aumentar la seguridad, los intercambios y monederos a menudo ponen en espera tus bitcoins hasta que varios bloques subsiguientes se añaden— usualmente de tres a seis. Esto protege los fondos y garantiza la tranquilidad de la transacción._
+_**Dato Curioso:** Incluso después de que una transacción de Bitcoin es confirmada, existe la posibilidad de reversión si los nodos rechazan bloques. Sin embargo, con cada nuevo bloque añadido a la cadena de bloques después de la transacción, la probabilidad de reversión disminuye exponencialmente. Para aumentar la seguridad, los intercambios y monederos a menudo ponen en espera tu bitcoin hasta que varios bloques subsiguientes se añaden— usualmente de tres a seis. Esto protege los fondos y garantiza la tranquilidad de la transacción._
 
 **Conclusión**
 
@@ -632,7 +632,7 @@ Cada uno de estos roles es esencial para la funcionalidad y el éxito de Bitcoin
 
 En la sección anterior, profundizamos en la funcionalidad única de Bitcoin que lo diferencia de las monedas tradicionales y cómo Bitcoin logra la codiciada insignia de ser descentralizado. Ahora, cambiemos nuestro enfoque y exploremos cómo Bitcoin difiere de la moneda fiduciaria en términos de las características que hacen grande a una moneda. Solo examinando estas características clave podemos obtener una comprensión más profunda de por qué Bitcoin es único y está en un mundo propio cuando se trata de dinero.
 
-Si recuerdas del Módulo Uno, echamos un vistazo tanto a las funciones como a las características del dinero, siendo estas:
+Si recuerdas del módulo uno, echamos un vistazo tanto a las funciones como a las características del dinero, siendo estas:
 
 **Reserva de Valor:** Mantiene el poder adquisitivo a lo largo del tiempo.
 
@@ -662,24 +662,24 @@ Mientras que las monedas fiduciarias están sujetas a la inflación y histórica
 
 #### Medio de Intercambio
 
-Aunque el bitcoin aún no es aceptado globalmente como las monedas fiduciarias, su naturaleza de peer-to-peer, tiempos de transacción rápidos y bajas comisiones lo hacen un medio de intercambio cada vez más atractivo, particularmente para transacciones transfronterizas. Esto es posible debido a que es:
+Aunque bitcoin aún no es aceptado globalmente como las monedas fiduciarias, su naturaleza de peer-to-peer, tiempos de transacción rápidos y bajas comisiones lo hacen un medio de intercambio cada vez más atractivo, particularmente para transacciones transfronterizas. Esto es posible debido a que es:
 
-- **Portátil:** El bitcoin, al ser digital, permite transferencias sin fronteras y sin intermediarios entre individuos, lo que lo hace un medio de intercambio conveniente y accesible. Aunque algunas monedas fiduciarias también ofrecen soluciones digitales, aquellos en países en desarrollo o en guerra pueden tener dificultades para acceder a servicios bancarios que cumplan esta necesidad. La naturaleza descentralizada del bitcoin lo hace accesible para cualquier persona con una conexión a internet, proporcionando una alternativa viable a los sistemas bancarios tradicionales en áreas con acceso limitado a servicios financieros.
-- **Divisible:** La extrema divisibilidad del bitcoin es una de sus principales ventajas como moneda. Con cada bitcoin divisible hasta ocho lugares decimales, la unidad más pequeña, un Satoshi, vale apenas una fracción de centavo. Dependiendo del método de transacción, es decir, capa uno o dos, esto hace que el bitcoin sea altamente adaptable a transacciones de cualquier tamaño, desde pequeñas compras hasta grandes inversiones.
-- **Aceptado:** Aunque la aceptación del bitcoin aún no es universal, su creciente adopción por comerciantes, instituciones e individuos alrededor del mundo sugiere que se está volviendo más ampliamente aceptado como una forma legítima de pago.
+- **Portátil:** Bitcoin, al ser digital, permite transferencias sin fronteras y sin intermediarios entre individuos, lo que lo hace un medio de intercambio conveniente y accesible. Aunque algunas monedas fiduciarias también ofrecen soluciones digitales, aquellos en países en desarrollo o en guerra pueden tener dificultades para acceder a servicios bancarios que cumplan esta necesidad. La naturaleza descentralizada de bitcoin lo hace accesible para cualquier persona con una conexión a internet, proporcionando una alternativa viable a los sistemas bancarios tradicionales en áreas con acceso limitado a servicios financieros.
+- **Divisible:** La extrema divisibilidad del bitcoin es una de sus principales ventajas como moneda. Con cada bitcoin divisible hasta ocho lugares decimales, la unidad más pequeña, un Satoshi, vale apenas una fracción de centavo. Dependiendo del método de transacción, es decir, capa uno o dos, esto hace que bitcoin sea altamente adaptable a transacciones de cualquier tamaño, desde pequeñas compras hasta grandes inversiones.
+- **Aceptado:** Aunque la aceptación de bitcoin aún no es universal, su creciente adopción por comerciantes, instituciones e individuos alrededor del mundo sugiere que se está volviendo más ampliamente aceptado como una forma legítima de pago.
 
 ### Unidad de Cuenta
 
-A medida que el bitcoin ha ganado reconocimiento como medio de intercambio, rápidamente ha escalado posiciones como una unidad de cuenta confiable para bienes y servicios, muy similar a las monedas fiduciarias. Sin embargo, lo que distingue al Bitcoin de las fiduciarias es su capacidad para proporcionar un método de transacción seguro, transparente y descentralizado. El principal contribuyente a la creciente adopción de Bitcoin como unidad de cuenta es el hecho de que es:
+A medida que bitcoin ha ganado reconocimiento como medio de intercambio, rápidamente ha escalado posiciones como una unidad de cuenta confiable para bienes y servicios, muy similar a las monedas fiduciarias. Sin embargo, lo que distingue a Bitcoin de las fiduciarias es su capacidad para proporcionar un método de transacción seguro, transparente y descentralizado. El principal contribuyente a la creciente adopción de Bitcoin como unidad de cuenta es el hecho de que es:
 
 - **Fungible:** Cada bitcoin es indistinguible de cualquier otro, lo que lo hace fácilmente intercambiable, lo cual no siempre es el caso con las monedas físicas que pueden tener identificadores únicos o ser de calidad variante.
 
-### El Activo vs La Red
+### El Activo vs la red
 
 Puede que hayas notado arriba que Bitcoin no es simplemente un activo poderoso para almacenar valor, sino que sus características únicas también lo hacen una red increíblemente segura y eficiente para transaccionar. Esto puede sonar un poco confuso, así que permítenos explicar. Bitcoin, como las monedas fiduciarias, se compone de dos componentes:
 
 **El activo (referido como bitcoin con una “b” minúscula)** – Esto es lo que compramos que es accesible desde nuestra billetera. Cuando se almacena fuera de los intercambios centralizados o billeteras, nuestra dependencia en la confianza se minimiza, centrando principalmente alrededor de la seguridad de nuestro hardware. Incluso entonces, podemos minimizar esa confianza asegurando de forma segura nuestra frase semilla o utilizando opciones de custodia como la multi-firma. Además, considerando que cualquier decisión dirigida a modificar los atributos fundamentales de Bitcoin, como su oferta total, son determinadas y mantenidas por la comunidad, hay una salvaguarda robusta contra la implementación de cambios perjudiciales que podrían dañar a los usuarios, es decir, la devaluación de la moneda a través de la expansión de la oferta.
-**La red (referida como Bitcoin con una "B" mayúscula)** - Estos son los rieles que facilitan el comercio del bitcoin-como-activo. La red permite a cualquiera enviar, verificar o confirmar transacciones. La naturaleza descentralizada de Bitcoin, respaldada por numerosos nodos, mineros y desarrolladores, asegura una estructura distribuida donde ninguna entidad única tiene dominio sobre otra. Esto ofrece una sensación reconfortante de seguridad y fiabilidad al realizar transacciones, eliminando preocupaciones sobre posibles revocaciones, negaciones, congelaciones u otras interrupciones.
+**La red (referida como Bitcoin con una "B" mayúscula)** - Estos son los rieles que facilitan el comercio de bitcoin-como-activo. La red permite a cualquiera enviar, verificar o confirmar transacciones. La naturaleza descentralizada de Bitcoin, respaldada por numerosos nodos, mineros y desarrolladores, asegura una estructura distribuida donde ninguna entidad única tiene dominio sobre otra. Esto ofrece una sensación reconfortante de seguridad y fiabilidad al realizar transacciones, eliminando preocupaciones sobre posibles revocaciones, negaciones, congelaciones u otras interrupciones.
 Cuando vemos las monedas fiduciarias desde la perspectiva de "el activo" y "la red", se hace evidente que debemos colocar mucha más confianza y dependencia en terceros e intermediarios. Por ejemplo:
 
 #### **El Activo** - _Las monedas fiduciarias que usamos como reserva de valor (por ejemplo, dólar estadounidense, euro, yen, franco, libra esterlina, etc.)._
@@ -699,7 +699,7 @@ Como ciudadanos, estamos sujetos a las decisiones tomadas por aquellos a cargo d
 **Los organismos reguladores supervisan varias ramas de las vías financieras que usamos diariamente** - Si nuestras opiniones políticas entran en conflicto con las regulaciones que gobiernan las redes monetarias o cualquier parte del proceso intermediario, nuestras transacciones pueden correr el riesgo de ser bloqueadas, y nuestros activos podrían ser confiscados. En casos extremos, incluso podríamos enfrentar la posibilidad de ser excluidos del sistema financiero por completo.
 ¿Te parece esto aterrador o improbable? A principios de 2022, durante la manifestación de camioneros en Canadá, individuos donaron para apoyar la causa. El Primer Ministro Trudeau hizo congelar las cuentas bancarias de algunos de estos individuos por su decreto. Independientemente de la opinión que se tenga sobre el asunto, el hecho de que se incautaran los activos de las personas por sus opiniones diferentes debería ser una señal de alerta.
 
-Con esto en mente, hay enormes ventajas no solo de tener acceso a un activo valioso y escaso, sino también a una red segura, eficiente, sin confianza, global y de bajo costo para intercambiar valor. Y es aquí donde Bitcoin sobresale. Como se ha discutido extensamente, la naturaleza descentralizada y digital de Bitcoin hace una red sin paralelo para transacciones rápidas, seguras y rentables sin la necesidad de intermediarios o terceras partes. Aquí hay algunos ejemplos de aquellos que se benefician del activo y la red sin igual de Bitcoin:
+Con esto en mente, hay enormes ventajas no solo de tener acceso a un activo valioso y escaso, sino también a una red segura, eficiente, confiable, global y de bajo costo para intercambiar valor. Y es aquí donde Bitcoin sobresale. Como se ha discutido extensamente, la naturaleza descentralizada y digital de Bitcoin hace una red sin paralelo para transacciones rápidas, seguras y rentables sin la necesidad de intermediarios o terceras partes. Aquí hay algunos ejemplos de aquellos que se benefician del activo y la red sin igual de Bitcoin:
 
 #### Comercio
 
@@ -716,7 +716,7 @@ Bitcoin proporciona una opción viable para mover valor para aquellos que huyen 
 #### Transferencia de Dinero
 
 Discutiremos esto con mucho más detalle en el siguiente módulo, pero por ahora, queremos mencionar que Bitcoin proporciona a los individuos una manera eficiente y rentable de enviar dinero de vuelta a sus seres queridos en el extranjero. A diferencia de los métodos tradicionales de remesas, que a menudo involucran altas tarifas de transacción y tiempos de procesamiento largos, las transacciones de Bitcoin se pueden completar rápidamente y con tarifas mínimas.
-En vista de esto, aunque el bitcoin, como activo, puede ofrecer beneficios significativos para aquellos que buscan escapar de la inflación o almacenar valor en una moneda más segura, reconocemos que muchas personas pueden no ser capaces de aprovechar el activo, es decir, la volatilidad del bitcoin como activo, puede no ser adecuada para el almacenamiento de valor a corto plazo o para aquellos con ahorros limitados. Afortunadamente, la red de Bitcoin jugará un papel crucial aquí, especialmente para individuos sin acceso a bancos o activos financieros, dado que los raíles de pago de la red facilitan transacciones financieras digitales para cualquier persona con un teléfono móvil y conexión a internet.
+En vista de esto, aunque bitcoin, como activo, puede ofrecer beneficios significativos para aquellos que buscan escapar de la inflación o almacenar valor en una moneda más segura, reconocemos que muchas personas pueden no ser capaces de aprovechar el activo, es decir, la volatilidad de bitcoin como activo, puede no ser adecuada para el almacenamiento de valor a corto plazo o para aquellos con ahorros limitados. Afortunadamente, la red de Bitcoin jugará un papel crucial aquí, especialmente para individuos sin acceso a bancos o activos financieros, dado que los raíles de pago de la red facilitan transacciones financieras digitales para cualquier persona con un teléfono móvil y conexión a internet.
 Bitcoin también se está convirtiendo rápidamente en el protocolo subyacente de transferencia de valor de internet. Debido a la capacidad de transacción de bajo costo, servicios como el streaming de valor están empezando a proliferar, conectando a los creadores de contenido directamente con sus audiencias. De manera similar, esta capacidad de streaming de bajo costo está viendo avances en servicios pagados como la medición de energía, donde los usuarios pueden pagar por demanda instantánea, transmitiendo bitcoin en una base de costo por uso. Las ofertas de pago peer-to-peer sin fricciones están revolucionando la forma en que las personas interactúan con bienes y servicios a través del ámbito digital.
 
 **Conclusión**
@@ -770,12 +770,12 @@ Lo que hace revolucionario a Bitcoin es que, por primera vez en la historia, pod
 
 #### Dónde almacenar tu bitcoin
 
-El primer paso para asegurar tu bitcoin es elegir la billetera adecuada. Sin entrar en demasiados detalles, hay principalmente dos tipos de billeteras disponibles: custodia y no custodia.
+El primer paso para asegurar tu bitcoin es elegir la billetera adecuada. Sin entrar en demasiados detalles, hay principalmente dos tipos de billeteras disponibles: Custodia y no custodia.
 
 **Billeteras de Custodia**
 Estas son billeteras donde, aunque puedes acceder a tu billetera y mover fondos, un tercero almacena y asegura tu bitcoin.
 
-Un ejemplo común de una billetera de custodia es una cuenta de intercambio. Cuando compras bitcoin a través de un intercambio y dejas tu bitcoin en el intercambio, estás usando una billetera de custodia. El intercambio tiene custodia sobre tu bitcoin y es responsable de almacenar y asegurar tus fondos.
+Un ejemplo común de una billetera de custodia es una cuenta en una casa de intercambio. Cuando compras bitcoin a través de una casa de intercambio y dejas tu bitcoin ahí, estás usando una billetera de custodia. La casa de intercambio tiene custodia sobre tu bitcoin y es responsable de almacenar y asegurar tus fondos.
 
 También hay innumerables otras soluciones de billetera de custodia disponibles para dispositivos móviles que te dan fácil acceso a tu bitcoin. Estas billeteras son típicamente fáciles de usar y ofrecen una manera simple de manejar tu bitcoin, pero aún así retienen las llaves de tu bitcoin.
 
@@ -784,7 +784,7 @@ Las billeteras no custodiales son un tipo de billetera Bitcoin donde tú eres el
 
 Las billeteras no custodiales ofrecen un nivel más alto de seguridad y privacidad sobre las billeteras de custodia, ya que tú eres el único responsable de la seguridad de tus fondos. Ejemplos de billeteras no custodiales incluyen billeteras de hardware como [Coldcard](https://store.coinkite.com/store/coldcard) y [Trezor](https://trezor.io/), que son dispositivos físicos que almacenan tus llaves privadas fuera de línea y proporcionan una capa extra de seguridad. Otras billeteras no custodiales populares son billeteras de software como [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), y [Blockstream Green](https://blockstream.com/green/), que pueden ser descargadas e instaladas en tu computadora o dispositivo móvil.
 
-*Aunque no podemos recomendar una billetera específica, te aconsejamos encarecidamente tomar control de tu bitcoin a través de la auto-custodia o custodia colaborativa, lo que implica seleccionar una billetera que se ajuste a tus necesidades y preferencias. Es esencial realizar una investigación exhaustiva antes de decidir sobre una billetera para asegurar que se alinee con tus requisitos de seguridad y usabilidad.*
+*Aunque no podemos recomendar una billetera específica, te aconsejamos tomar control de tu bitcoin a través de la auto-custodia o custodia colaborativa, lo que implica seleccionar una billetera que se ajuste a tus necesidades y preferencias. Es esencial realizar una investigación exhaustiva antes de decidir sobre una billetera para asegurar que se alinee con tus requisitos de seguridad y usabilidad.*
 
 Aunque las billeteras de custodia pueden parecer convenientes, vienen con riesgos significativos. Al dar custodia de tus llaves privadas a un tercero, efectivamente les das control sobre tus fondos. Si el custodio se vuelve insolvente, es hackeado o cierra, podrías perder acceso a tu bitcoin. Y esto ha ocurrido en innumerables ocasiones, con ejemplos de alto perfil incluyendo los hackeos de Mt. Gox y QuadrigaCX resultando en la pérdida de fondos de los clientes, o FTX, Voyager, BlockFi y Celsius experimentando insolvencias catastróficas, llevando a la pérdida de sus fondos de clientes. Especialmente para ahorros, practicar la auto-custodia y tomar responsabilidad por asegurar tu bitcoin es crucial.
 
@@ -798,26 +798,26 @@ Una vez que hayas decidido sobre una billetera, la diversión y los juegos aún 
 
 Aunque la auto-custodia es nuestro enfoque recomendado, entendemos que puede no ser adecuado para todos. Aquí hay algunas pautas generales para ayudar a minimizar el riesgo:
 
-- Usa intercambios para comprar bitcoin, billeteras móviles para transacciones cotidianas y billeteras de hardware para almacenar tus ahorros de bitcoin a largo plazo.
-- Trata los intercambios o billeteras móviles como tu billetera física, manteniendo solo la cantidad de bitcoin que llevarías en tu billetera cotidiana.
+- Usa plataformas de intercambio para comprar bitcoin, billeteras móviles para transacciones cotidianas y billeteras de hardware para almacenar tus ahorros de bitcoin a largo plazo.
+- Trata las cuentas en plataformas de intercambio o billeteras móviles como tu billetera física, manteniendo solo la cantidad de bitcoin que llevarías en tu billetera cotidiana.
 - Considera tu billetera de hardware como tu cuenta de ahorros. Está destinada para un acceso infrecuente y prioriza la seguridad y protección a largo plazo.
 
-Y si estás usando un intercambio:
+Y si estás usando una plataforma de intercambio:
 
 1. Crea una contraseña fuerte y única. Evita usar frases comunes o contraseñas fáciles de adivinar. Considera usar un gestor de contraseñas.
 2. Habilita la autenticación de dos factores (2FA) siempre que sea posible. Esto agrega una capa extra de seguridad al requerir un código de tu teléfono o dispositivo de hardware además de tu contraseña.
 
-Si aún tienes dudas, te recomendamos encarecidamente que consultes a Ben de [BTCsessions](https://www.youtube.com/c/BTCSessions) en YouTube.
+Si aún tienes dudas, te recomendamos que consultes a Ben de [BTCsessions](https://www.youtube.com/c/BTCSessions) en YouTube.
 
-Recuerda, con gran poder viene una gran responsabilidad, y tomarte el tiempo para asegurar tu bitcoin adecuadamente es esencial para proteger tu futuro financiero.
+Recuerda, con un gran poder viene una gran responsabilidad, y tomarte el tiempo para asegurar tu bitcoin adecuadamente es esencial para proteger tu futuro financiero.
 
-Antes de cerrar este módulo, me gustaría dejarte con un último pensamiento...
+Antes de cerrar este módulo, nos gustaría dejarte con un último pensamiento...
 
 ### Profundizando
 
 Si estás interesado en explorar más a fondo el mundo de Bitcoin, hay muchas opciones disponibles. Tales como:
 
-1. **Nodos:** Ejecutar un nodo es un excelente punto de entrada para aquellos curiosos sobre Bitcoin más allá de las transacciones básicas. Te permite no solo contribuir a la red de Bitcoin verificando la blockchain e influenciando en nuevas actualizaciones o cambios, sino que minimiza la confianza y ofrece una privacidad mejorada al darte la capacidad de verificar tus propias transacciones y saldos. Al ejecutar un nodo, te conviertes en parte de la red descentralizada y ayudas a asegurar su seguridad e integridad.
+1. **Nodos:** Ejecutar un nodo es un excelente punto de entrada para aquellos curiosos sobre Bitcoin más allá de las transacciones básicas. Te permite no solo contribuir a la red de Bitcoin verificando la blockchain e influenciando en nuevas actualizaciones o cambios, sino que aumenta la confianza y ofrece una privacidad mejorada al darte la capacidad de verificar tus propias transacciones y saldos. Al ejecutar un nodo, te conviertes en parte de la red descentralizada y ayudas a asegurar su seguridad e integridad.
 2. **Minería:** La minería es otra forma de contribuir a la red de Bitcoin y potencialmente ganar bitcoin. Aunque requiere un poco más de recursos que ejecutar un nodo y no es tan rentable como solía ser, la minería es una actividad gratificante para aquellos interesados en los aspectos técnicos de la red.
 3. **Desarrollo:** Si tienes experiencia en desarrollo de software y estás interesado en contribuir al desarrollo de Bitcoin, un gran punto de partida es el repositorio de [GitHub](https://github.com/bitcoin/bitcoin) de Bitcoin.
    Independientemente de tus intereses, hay muchos recursos disponibles para ayudarte a aprender más sobre Bitcoin y a involucrarte.
@@ -832,20 +832,20 @@ La mayor ventaja de Bitcoin es que nos permite tener auto-custodia de un activo 
 
 <chapterId>1c7b8165-d67b-5f7c-a1cb-b83db58b77c7</chapterId>
 
-Ahora que has pasado por el Módulo "Un Examen de Cómo Llegamos Aquí", tendrás que poner a prueba tus conocimientos recién adquiridos para asegurarte de que has entendido las últimas secciones. Comenzaremos con varias Preguntas Abiertas y luego un pequeño cuestionario.
+Ahora que has pasado por el Módulo "Un examen de cómo llegamos aquí", tendrás que poner a prueba tus conocimientos recién adquiridos para asegurarte de que has entendido las últimas secciones. Comenzaremos con varias Preguntas Abiertas y luego un pequeño cuestionario.
 
-1. ¿Cuáles son tus pensamientos sobre el concepto de una moneda digital descentralizada sin confianza y sin permisos como Bitcoin? ¿Cómo crees que se compara con las formas tradicionales de moneda?
+1. ¿Cuáles son tus pensamientos sobre el concepto de una moneda digital descentralizada confiable y sin permisos como Bitcoin? ¿Cómo crees que se compara con las formas tradicionales de moneda?
 2. ¿Crees que el suministro limitado de bitcoin, con solo 21 millones de monedas, le da valor y lo hace más deseable? ¿Por qué sí o por qué no?
 3. Basado en la información proporcionada sobre Satoshi Nakamoto, ¿crees que es importante conocer la verdadera identidad del creador de Bitcoin? ¿Por qué sí o por qué no?
 4. ¿Estás de acuerdo con las preocupaciones de Satoshi Nakamoto sobre los sistemas bancarios centralizados y la confianza requerida en las monedas convencionales? ¿Por qué sí o por qué no?
 5. Imagina que vives en un país que experimenta alta inflación. ¿Cómo podría bitcoin proporcionar una solución para preservar tu poder adquisitivo?
 6. Considera un escenario donde necesitas enviar dinero a un familiar en un país diferente. ¿Cómo podría la naturaleza de igual a igual de Bitcoin y las bajas comisiones beneficiarte en esta situación?
 
-# Estabilidad en Medio del Caos - Una Introducción a Tether y el Mundo de las Stablecoins
+# Estabilidad en Medio del Caos - Una introducción a Tether y el mundo de las Stablecoins
 
 <partId>60b1f3c4-e161-53fe-84ca-88d8cd62aa75</partId>
 
-## Una Introducción a Tether y el Mundo de las Stablecoins
+## Una Introducción a Tether y el mundo de las Stablecoins
 
 <chapterId>427a72b5-8af7-503e-bc45-bb8b95483993</chapterId>
 
@@ -869,7 +869,7 @@ Durante esta crisis, los bancos estuvieron cerrados, los retiros de los cajeros 
 
 Aunque el efectivo puede ofrecer una solución a tal crisis, depender de la moneda física en un mundo donde las transacciones digitales son una necesidad no es una solución viable a largo plazo.
 
-Esto plantea la question: Dada la fricción con la banca tradicional y que la volatilidad a corto plazo de Bitcoin puede verse como un obstáculo para aquellos con ahorros mínimos, ¿cómo podemos realizar transacciones de manera segura en la era digital sin enfrentar estos riesgos y limitaciones?
+Esto plantea la question: Dada la fricción con la banca tradicional y que la volatilidad a corto plazo de Bitcoin puede verse como un obstáculo para aquellos con ahorros mínimos, ¿Cómo podemos realizar transacciones de manera segura en la era digital sin enfrentar estos riesgos y limitaciones?
 
 Necesitamos una moneda vinculada a algo de valor relativo, nativamente digital y disponible siempre que la necesitemos, independientemente de la hora o el día de la semana.
 
@@ -879,13 +879,13 @@ Y aquí es donde entra Tether.
 
 En el panorama en constante evolución de las monedas fiduciarias, Tether ha surgido como un jugador pivotal, impulsado por una visión para abordar las necesidades financieras del mundo moderno. Mientras las monedas tradicionales continúan luchando para mantener el ritmo con las demandas de nuestra economía global rápidamente cambiante, y la volatilidad a corto plazo de Bitcoin lo hace desafiante para aquellos que carecen de la capacidad de ahorrar, los fundadores de Tether reconocieron una oportunidad para unir estos mundos.
 
-Tether es "un disruptor del sistema financiero convencional y un pionero en el uso digital de monedas tradicionales". Su propósito principal es mejorar la adopción de Bitcoin al tender un puente entre el mundo financiero tradicional y el mundo digital de Bitcoin. Logran esto ofreciendo una variedad de tokens digitales, a menudo llamados “stablecoins”, que mantienen valor debido a su vinculación—sin juego de palabras—con activos del mundo físico. Tether también invierte en minería de Bitcoin, educación sobre Bitcoin, infraestructura de pagos de Bitcoin y en investigación y desarrollo avanzados de Bitcoin.
+Tether es "un disruptor del sistema financiero convencional y un pionero en el uso digital de monedas tradicionales". Su propósito principal es mejorar la adopción de Bitcoin al tender un puente entre el mundo financiero tradicional y el mundo digital de Bitcoin. Logran esto ofreciendo una variedad de tokens digitales, a menudo llamados “stablecoins”, que mantienen valor debido a su vinculación —sin juego de palabras— con activos del mundo físico. Tether también invierte en minería de Bitcoin, educación sobre Bitcoin, infraestructura de pagos de Bitcoin y en investigación y desarrollo avanzados de Bitcoin.
 
 #### ¿Qué es una stablecoin?
 
 Las stablecoins, como se mencionó anteriormente, son tokens digitales diseñados para mantener un valor estable con respecto a algo que los mercados actuales reconocen como valioso, como el oro o monedas fiduciarias ampliamente utilizadas como el dólar estadounidense. Ofrecen una mezcla de ambos mundos: las características digitales de auto-custodia de Bitcoin, al menos hasta cierto punto, con la estabilidad de precio a corto plazo de las monedas tradicionales.
 
-Las stablecoins de Tether, como USDt, respaldadas por dólares estadounidenses, o XAUt, respaldadas por oro, ofrecen una ventaja distintiva sobre las monedas tradicionales en el sentido de que operan de manera independiente, fuera de las limitaciones de las horas y restricciones bancarias tradicionales. Como resultado, son accesibles 24/7, otorgando a las personas un mayor control y flexibilidad sobre su dinero.
+Las stablecoins de Tether, como USDT, respaldadas por dólares estadounidenses, o XAUT, respaldadas por oro, ofrecen una ventaja distintiva sobre las monedas tradicionales en el sentido de que operan de manera independiente, fuera de las limitaciones de las horas y restricciones bancarias tradicionales. Como resultado, son accesibles 24/7, otorgando a las personas un mayor control y flexibilidad sobre su dinero.
 
 Con esto en mente, las personas pueden realizar transacciones en sus propios términos, independientemente de si su banco está abierto, y tienen acceso a un nivel de seguridad que los sistemas bancarios tradicionales no pueden igualar. En el evento de una reforma bancaria impuesta por el gobierno, como la de Grecia en 2015, las stablecoins pueden ofrecer una manera de evitar los riesgos asociados con tener tu dinero retenido dentro del sistema bancario tradicional. Con las stablecoins, las personas pueden mantener el control sobre su dinero, incluso en tiempos inciertos.
 
@@ -895,17 +895,17 @@ A diferencia de Bitcoin, cuyo valor, para beneficio o detrimento del poseedor, p
 
 Para lograr esta estabilidad, Tether asegura que cada token digital esté respaldado con colateral (junto con su reputación), y las transacciones pueden facilitarse a través de varios sistemas de igual a igual, incluidas las blockchains de otras criptomonedas. Esto aumenta la transparencia y elimina la necesidad de intermediarios como los bancos. Esto no solo proporciona acceso a servicios bancarios a aquellos con una conexión a internet, sino que resulta en transacciones rápidas y de bajo costo que se pueden completar 24/7, 365 días al año, independientemente de las horas bancarias tradicionales o los días festivos.
 
-Dicho esto, las stablecoins ofrecidas por Tether, como USDt, también difieren de las monedas fiduciarias tradicionales. Mientras mantienen una paridad con el valor de activos como el USD, no son monedas emitidas por el gobierno y no tienen lealtad a ninguna nación. Esta característica les otorga una ventaja única, especialmente en países que luchan contra la inflación, donde acceder a monedas más estables como el USD puede ser desafiante. A diferencia del efectivo físico, obtener USDt u otras stablecoins a través de un intercambio en línea solo requiere una conexión a internet, asegurando la accesibilidad independientemente de la ubicación geográfica de uno. Por lo tanto, la distinción clave entre el fiat y las diversas stablecoins de Tether radica en la indiferencia jurisdiccional: opera sin problemas a través de las fronteras, permitiendo el acceso global a una moneda digital estable. Además, las stablecoins ofrecen beneficios como tarifas de transacción reducidas, transacciones transfronterizas más rápidas y una mayor inclusión financiera, haciéndolas una alternativa atractiva a las monedas fiduciarias tradicionales.
+Dicho esto, las stablecoins ofrecidas por Tether, como USDT, también difieren de las monedas fiduciarias tradicionales. Mientras mantienen una paridad con el valor de activos como el USD, no son monedas emitidas por el gobierno y no tienen lealtad a ninguna nación. Esta característica les otorga una ventaja única, especialmente en países que luchan contra la inflación, donde acceder a monedas más estables como el USD puede ser desafiante. A diferencia del efectivo físico, obtener USDT u otras stablecoins a través de un intercambio en línea solo requiere una conexión a internet, asegurando la accesibilidad independientemente de la ubicación geográfica de uno. Por lo tanto, la distinción clave entre el fiat y las diversas stablecoins de Tether radica en la indiferencia jurisdiccional: opera sin problemas a través de las fronteras, permitiendo el acceso global a una moneda digital estable. Además, las stablecoins ofrecen beneficios como tarifas de transacción reducidas, transacciones transfronterizas más rápidas y una mayor inclusión financiera, haciéndolas una alternativa atractiva a las monedas fiduciarias tradicionales.
 
 #### ¿Cuántos tipos diferentes de stablecoins hay?
 
 Tras el advenimiento de Tether, muchas otras compañías e iniciativas lanzaron productos de Stablecoin similares. Estos numerosos intentos se pueden categorizar ampliamente en tres tipos principales: stablecoins respaldadas por fiat, respaldadas por commodities y stablecoins algorítmicas.
 
-- **Stablecoins respaldadas por fiat**, como USDt de Tether, están respaldadas por monedas tradicionales como el dólar estadounidense o el euro, y su valor está directamente vinculado al valor de la moneda fiat subyacente.
-- **Stablecoins respaldadas por commodities** están respaldadas por materias primas como el oro o el petróleo, es decir, el stablecoin de oro de Tether, XAUt.
-- **Stablecoins algorítmicas** dependen de un conjunto de reglas o algoritmos para mantener su valor. Dicho esto, aún tenemos que ver un stablecoin puramente algorítmico tener éxito en el mercado.
+- **Stablecoins respaldadas por fiat**, como USDT de Tether, están respaldadas por monedas tradicionales como el dólar estadounidense o el euro, y su valor está directamente vinculado al valor de la moneda fiat subyacente.
+- **Stablecoins respaldadas por commodities** están respaldadas por materias primas como el oro o el petróleo, es decir, el stablecoin de oro de Tether, XAUT.
+- **Stablecoins algorítmicas** dependen de un conjunto de reglas o algoritmos para mantener su valor. Dicho esto, aún tenemos que ver una stablecoin puramente algorítmica tener éxito en el mercado.
 
-En conclusión, a medida que nuestra sociedad continúa evolucionando y la tecnología avanza, también lo hace nuestra relación con el dinero. Desde monedas hasta divisas digitales, hemos visto un cambio en cómo interactuamos y realizamos transacciones con dinero. Aunque los sistemas bancarios tradicionales tienen sus limitaciones, Tether, a través de su selección de stablecoins, ofrece una solución potencial a estos desafíos. Al proporcionar la estabilidad relativa a corto plazo de las monedas tradicionales con la flexibilidad y accesibilidad de las divisas digitales nativas, sus stablecoins ofrecen a los usuarios un mayor control sobre su dinero. Ya sea que carezcas de acceso a servicios bancarios, enfrentes excesos gubernamentales o simplemente necesites realizar transacciones fuera del horario bancario tradicional, stablecoins como USDt pueden proporcionar una alternativa confiable. Como resultado, rápidamente están convirtiéndose en una parte integral de nuestro sistema financiero.
+En conclusión, a medida que nuestra sociedad continúa evolucionando y la tecnología avanza, también lo hace nuestra relación con el dinero. Desde monedas hasta divisas digitales, hemos visto un cambio en cómo interactuamos y realizamos transacciones con dinero. Aunque los sistemas bancarios tradicionales tienen sus limitaciones, Tether, a través de su selección de stablecoins, ofrece una solución potencial a estos desafíos. Al proporcionar la estabilidad relativa a corto plazo de las monedas tradicionales con la flexibilidad y accesibilidad de las divisas digitales nativas, sus stablecoins ofrecen a los usuarios un mayor control sobre su dinero. Ya sea que carezcas de acceso a servicios bancarios, enfrentes excesos gubernamentales o simplemente necesites realizar transacciones fuera del horario bancario tradicional, stablecoins como USDT pueden proporcionar una alternativa confiable. Como resultado, rápidamente están convirtiéndose en una parte integral de nuestro sistema financiero.
 
 _**Nota al margen:** No te preocupes si algunos de estos términos no tienen mucho sentido. Exploraremos cada uno de los temas con mayor detalle a lo largo de este módulo._
 
@@ -913,25 +913,25 @@ _**Nota al margen:** No te preocupes si algunos de estos términos no tienen muc
 
 <chapterId>174e2cab-ef14-5e14-99c8-8457b6fc5fee</chapterId>
 
-Los stablecoins se han convertido en un tema popular en el mundo de las criptomonedas, ofreciendo una alternativa menos volátil a corto plazo a criptomonedas como Bitcoin. Como se detalló en la introducción a este módulo, los stablecoins son activos digitales que están vinculados a un activo estable como la moneda fiduciaria o metales preciosos, diseñados para mantener un valor estable. Por lo tanto, exploremos la historia de los stablecoins y echemos un vistazo más de cerca a algunos de los primeros stablecoins, incluyendo el USDt de Tether, el stablecoin más conocido y ampliamente utilizado.
+Las stablecoins se han convertido en un tema popular en el mundo de las criptomonedas, ofreciendo una alternativa menos volátil a corto plazo a criptomonedas como Bitcoin. Como se detalló en la introducción a este módulo, las stablecoins son activos digitales que están vinculados a un activo estable como la moneda fiduciaria o metales preciosos, diseñados para mantener un valor estable. Por lo tanto, exploremos la historia de las stablecoins y echemos un vistazo más de cerca a algunas de las primeras stablecoins, incluyendo el USDT de Tether, la stablecoin más conocida y ampliamente utilizada.
 
-_**Dato Curioso:** Al momento de escribir, el USDt de Tether promedia \$20 mil millones en volumen de transacciones diarias. Esto supera el volumen diario reciente de bitcoin de \$15 mil millones. Además, USDt ocupa la tercera posición en cuanto a la mayor capitalización de mercado detrás de Bitcoin y Ethereum._
+_**Dato Curioso:** Al momento de escribir, el USDT de Tether promedia \$20 mil millones en volumen de transacciones diarias. Esto supera el volumen diario reciente de bitcoin de \$15 mil millones. Además, USDT ocupa la tercera posición en cuanto a la mayor capitalización de mercado detrás de Bitcoin y Ethereum._
 
-La idea de los stablecoins se remonta a los primeros días de la criptomoneda, con el concepto de una criptomoneda respaldada por un activo estable propuesto en 2012 por el proyecto Mastercoin. Sin embargo, no fue hasta unos años después que los stablecoins ganaron impulso, con proyectos como Bitshares y NuBits lanzándose en 2014.
+La idea de las stablecoins se remonta a los primeros días de las criptomonedas, con el concepto de una criptomoneda respaldada por un activo estable propuesto en 2012 por el proyecto Mastercoin. Sin embargo, no fue hasta unos años después que las stablecoins ganaron impulso, con proyectos como Bitshares y NuBits lanzándose en 2014.
 
-Bitshares introdujo el primer stablecoin llamado “bitUSD”, que estaba diseñado para estar vinculado al dólar estadounidense, con el valor de un bitUSD siempre igual a un dólar estadounidense. Esto significaba que bitUSD estaba respaldado por dólares estadounidenses mantenidos en reserva, asegurando que su valor permaneciera estable en tiempos de volatilidad del mercado. NuBits, por otro lado, utilizaba mecánicas de oferta y demanda para mantener su paridad con el dólar estadounidense. Pero más sobre eso en el próximo capítulo.
+Bitshares introdujo la primer stablecoin llamada “bitUSD”, que estaba diseñada para estar vinculada al dólar estadounidense, con el valor de un bitUSD siempre igual a un dólar estadounidense. Esto significaba que bitUSD estaba respaldado por dólares estadounidenses mantenidos en reserva, asegurando que su valor permaneciera estable en tiempos de volatilidad del mercado. NuBits, por otro lado, utilizaba mecánicas de oferta y demanda para mantener su paridad con el dólar estadounidense. Pero más sobre eso en el próximo capítulo.
 
-A pesar de estos primeros intentos, no fue hasta que el USDt de Tether se lanzó en 2014 que los stablecoins ganaron atención generalizada. USDt, al igual que bitUSD, es un stablecoin que está diseñado para estar vinculado al dólar estadounidense, con el valor de un USDt igual a un dólar estadounidense. USDt fue creado por una compañía llamada Tether Limited, cuya empresa matriz también posee el intercambio de criptomonedas Bitfinex.
-Inicialmente, Tether se utilizaba principalmente por los traders para mover fondos entre exchanges sin la necesidad de convertirlos a moneda fiduciaria. Sin embargo, a medida que más personas comenzaron a usar Tether, ganó su propio impulso y popularidad. Hoy en día, Tether es la stablecoin más utilizada a nivel mundial, procesando más de \$30 mil millones diarios. Para poner este número en perspectiva, [MasterCard](https://www.cardrates.com/advice/number-of-credit-card-transactions-per-day-year/#:~:text=4%20billion%20transactions%20were%20processed,a%20Japanese%20credit%20card%20company)) y [Visa](https://blog.unibulmerchantservices.com/processing-24000-visa-transactions-per-second-how-its-done/#:~:text=VisaNet%2C%20the%20card%20network's%20payment,24%2C000%20Visa%20transactions%20per%20second.) procesan, en [promedio](https://www.statista.com/statistics/279249/purchase-transactions-on-general-purpose-cards-worldwide/), \$8.1 mil millones y \$12 mil millones por día, respectivamente. Esencialmente, se transan diariamente 50% más dólares estadounidenses en USDt que Visa y Mastercard combinados.
+A pesar de estos primeros intentos, no fue hasta que el USDT de Tether se lanzó en 2014 que las stablecoins ganaron atención generalizada. USDT, al igual que bitUSD, es una stablecoin que está diseñada para estar vinculada al dólar estadounidense, con el valor de un USDT igual a un dólar estadounidense. USDT fue creado por una compañía llamada Tether Limited, cuya empresa matriz también posee el intercambio de criptomonedas Bitfinex.
+Inicialmente, Tether se utilizaba principalmente por los traders para mover fondos entre exchanges sin la necesidad de convertirlos a moneda fiduciaria. Sin embargo, a medida que más personas comenzaron a usar Tether, ganó su propio impulso y popularidad. Hoy en día, Tether es la stablecoin más utilizada a nivel mundial, procesando más de \$30 mil millones diarios. Para poner este número en perspectiva, [MasterCard](https://www.cardrates.com/advice/number-of-credit-card-transactions-per-day-year/#:~:text=4%20billion%20transactions%20were%20processed,a%20Japanese%20credit%20card%20company)) y [Visa](https://blog.unibulmerchantservices.com/processing-24000-visa-transactions-per-second-how-its-done/#:~:text=VisaNet%2C%20the%20card%20network's%20payment,24%2C000%20Visa%20transactions%20per%20second.) procesan, en [promedio](https://www.statista.com/statistics/279249/purchase-transactions-on-general-purpose-cards-worldwide/), \$8.1 mil millones y \$12 mil millones por día, respectivamente. Esencialmente, se transan diariamente 50% más dólares estadounidenses en USDT que Visa y Mastercard combinados.
 
-A pesar de su amplio uso, Tether no ha sido inmune a la controversia. En 2017, Tether y BitFinex, ambas propiedad de iFinex Inc, fueron acusadas de inflar artificialmente el precio del bitcoin. Estas acusaciones estaban relacionadas con la alegación de que Tether y BitFinex estaban emitiendo nuevos tokens USDt sin tener la cantidad correspondiente de dólares estadounidenses para respaldarlos. Esto aumentaría la oferta de USDt, que a su vez supuestamente se utilizaba para inflar artificialmente el precio del bitcoin.
+A pesar de su amplio uso, Tether no ha sido inmune a la controversia. En 2017, Tether y BitFinex, ambas propiedad de iFinex Inc, fueron acusadas de inflar artificialmente el precio del bitcoin. Estas acusaciones estaban relacionadas con la alegación de que Tether y BitFinex estaban emitiendo nuevos tokens USDT sin tener la cantidad correspondiente de dólares estadounidenses para respaldarlos. Esto aumentaría la oferta de USDT, que a su vez supuestamente se utilizaba para inflar artificialmente el precio del bitcoin.
 
-Tether ha negado consistentemente tales alegaciones. De hecho, una auditoría independiente realizada en 2017 no encontró evidencia de intentos de manipulación de precios. Además, considera esto: si Bitfinex tuviera la intención de conjurar USD aparentemente de la nada para aumentar artificialmente el valor del bitcoin e inflar su propio valor, ¿no sería más sencillo hacerlo de manera privada y negable dentro de sus propias cuentas internas en USD, haciendo que la detección sea más desafiante en comparación con ejecutar tales acciones en un libro mayor público como USDt?
+Tether ha negado consistentemente tales alegaciones. De hecho, una auditoría independiente realizada en 2017 no encontró evidencia de intentos de manipulación de precios. Además, considera esto: si Bitfinex tuviera la intención de conjurar USD aparentemente de la nada para aumentar artificialmente el valor del bitcoin e inflar su propio valor, ¿no sería más sencillo hacerlo de manera privada y negable dentro de sus propias cuentas internas en USD, haciendo que la detección sea más desafiante en comparación con ejecutar tales acciones en un libro mayor público como USDT?
 
-Sin embargo, los críticos aún cuestionan si Tether tiene suficientes dólares estadounidenses para respaldar todos los USDt en circulación. Para abordar estas preocupaciones y aumentar la transparencia, Tether ahora publica informes trimestrales de reservas realizados por la firma internacional de contabilidad BDO. Estos informes proporcionan información detallada sobre las reservas de Tether. Aunque algunos todavía tienen dudas sobre las prácticas de reserva de Tether, los esfuerzos de la compañía para mejorar la transparencia han ayudado a construir confianza con sus usuarios y la comunidad de criptomonedas en general.
+Sin embargo, los críticos aún cuestionan si Tether tiene suficientes dólares estadounidenses para respaldar todos los USDT en circulación. Para abordar estas preocupaciones y aumentar la transparencia, Tether ahora publica informes trimestrales de reservas realizados por la firma internacional de contabilidad BDO. Estos informes proporcionan información detallada sobre las reservas de Tether. Aunque algunos todavía tienen dudas sobre las prácticas de reserva de Tether, los esfuerzos de la compañía para mejorar la transparencia han ayudado a construir confianza con sus usuarios y la comunidad de criptomonedas en general.
 
-Dicho esto, frente a estas controversias y preguntas sobre sus reservas, USDt ha logrado mantener la estabilidad de precios desde su creación. Como resultado, sigue siendo la stablecoin más popular en el mercado, incluso cuando muchas otras han surgido y competido por la cuota de mercado. Hoy en día, hay numerosas stablecoins disponibles, cada una con su propio mecanismo único para mantener un valor estable.
-Además, a medida que el mercado de stablecoins ha crecido, Tether ha expandido su alcance para mantenerse al día con la demanda. Inicialmente, Tether solo ofrecía USDt en la blockchain de Bitcoin utilizando el "metaprotocolo" Omni, pero a medida que el mercado crecía y los problemas de escalabilidad en cadena se hacían más evidentes, comenzó a [ofrecer](https://tether.to/en/transparency/) representaciones de USDt en las blockchains de otras criptomonedas, incluyendo Ethereum, Tron, Algorand, y otras. Hoy en día, hay una investigación y desarrollo activos para agregar una vez más las stablecoins de Tether sobre Bitcoin, a través de [RGB](https://www.rgbfaq.com/faq/what-is-rgb) y [Pear Credit](https://tether.to/en/tether-holepunch-and-synonym-launch-pear-credit-a-p2p-credit-system/). Tether también ha lanzado nuevos productos de stablecoin vinculados a diferentes monedas fiduciarias como el euro, el yen y el yuan chino.
+Dicho esto, frente a estas controversias y preguntas sobre sus reservas, USDT ha logrado mantener la estabilidad de precios desde su creación. Como resultado, sigue siendo la stablecoin más popular en el mercado, incluso cuando muchas otras han surgido y competido por la cuota de mercado. Hoy en día, hay numerosas stablecoins disponibles, cada una con su propio mecanismo único para mantener un valor estable.
+Además, a medida que el mercado de stablecoins ha crecido, Tether ha expandido su alcance para mantenerse al día con la demanda. Inicialmente, Tether solo ofrecía USDT en la blockchain de Bitcoin utilizando el "metaprotocolo" Omni, pero a medida que el mercado crecía y los problemas de escalabilidad en cadena se hacían más evidentes, comenzó a [ofrecer](https://tether.to/en/transparency/) representaciones de USDT en las blockchains de otras criptomonedas, incluyendo Ethereum, Tron, Algorand, y otras. Hoy en día, hay una investigación y desarrollo activos para agregar una vez más las stablecoins de Tether sobre Bitcoin, a través de [RGB](https://www.rgbfaq.com/faq/what-is-rgb) y [Pear Credit](https://tether.to/en/tether-holepunch-and-synonym-launch-pear-credit-a-p2p-credit-system/). Tether también ha lanzado nuevos productos de stablecoin vinculados a diferentes monedas fiduciarias como el euro, el yen y el yuan chino.
 En conclusión, las stablecoins han recorrido un largo camino desde su creación. Desde los primeros días de bitUSD y NuBits hasta la popularidad generalizada de los productos de Tether y la aparición de otras stablecoins, el mercado de stablecoins ha evolucionado rápidamente. Aunque las controversias en torno a Tether han suscitado preocupaciones sobre la transparencia y la responsabilidad de los emisores de stablecoins, el mercado de stablecoins continúa creciendo, ofreciendo un puente global y flexible hacia Bitcoin. Sin embargo, esta conveniencia viene con el costo de una mayor centralización y dependencia de la confianza.
 
 ## Características de las Stablecoins
@@ -940,7 +940,7 @@ En conclusión, las stablecoins han recorrido un largo camino desde su creación
 
 Como debería ser evidente hasta ahora, una stablecoin es un tipo de token digital diseñado para mantener un valor estable basado en un activo subyacente vinculado. Estos activos pueden incluir moneda fiduciaria, metales preciosos, materias primas o una combinación de estos (por ejemplo, una cesta de monedas fiduciarias).
 
-El propósito de una stablecoin, como USDt, es proporcionar un almacén de valor digital relativamente estable en comparación con la volatilidad experimentada no solo por otras criptomonedas, sino también por otras monedas fiduciarias como el peso argentino, que perdió el [97%](https://www.statista.com/statistics/316750/inflation-rate-in-argentina/) de su poder adquisitivo entre 2012 y 2022.
+El propósito de una stablecoin, como USDT, es proporcionar un almacén de valor digital relativamente estable en comparación con la volatilidad experimentada no solo por otras criptomonedas, sino también por otras monedas fiduciarias como el peso argentino, que perdió el [97%](https://www.statista.com/statistics/316750/inflation-rate-in-argentina/) de su poder adquisitivo entre 2012 y 2022.
 
 Esencialmente, una stablecoin actúa como un puente entre los activos tradicionales y Bitcoin, permitiendo a los usuarios realizar transacciones con mayor confianza y previsibilidad.
 
@@ -950,25 +950,25 @@ La mayoría de las stablecoins a menudo eligen usar una moneda fiduciaria como s
 
 ### Respaldadas por Fiat
 
-Las stablecoins están diseñadas para mantener un valor estable en relación con un activo vinculado. Cuando se trata de stablecoins respaldadas por fiat, como USDt, la forma más sencilla de que el token mantenga su valor es que el emisor del token mantenga la moneda a la que el token está vinculado en una relación de 1:1.
+Las stablecoins están diseñadas para mantener un valor estable en relación con un activo vinculado. Cuando se trata de stablecoins respaldadas por fiat, como USDT, la forma más sencilla de que el token mantenga su valor es que el emisor del token mantenga la moneda a la que el token está vinculado en una relación de 1:1.
 
 ¿Suena un poco confuso? No te preocupes. Aquí hay un ejemplo:
-Supongamos que tienes \$50 USD y quieres enviar este dinero a tus amigos y familiares usando USDt. Para iniciar este proceso, inicias sesión en tu casa de cambio en línea y cambias tus \$50 dólares estadounidenses por \$50 USDt. Sin embargo, esta casa de cambio no simplemente crea \$50 de nuevo USDt. En cambio, periódicamente, cuando las reservas de USDt de la casa de cambio se reducen, el emisor, en este escenario Tether, genera nuevo USDt para la casa de cambio a cambio de USD. Los USD respaldan estos tokens de USDt recién creados. Esto asegura que cada \$1 USDt en circulación esté respaldado por efectivo o equivalentes de efectivo equivalentes.
+Supongamos que tienes \$50 USD y quieres enviar este dinero a tus amigos y familiares usando USDT. Para iniciar este proceso, inicias sesión en tu casa de cambio en línea y cambias tus \$50 dólares estadounidenses por \$50 USDT. Sin embargo, esta casa de cambio no simplemente crea \$50 de nuevo USDT. En cambio, periódicamente, cuando las reservas de USDT de la casa de cambio se reducen, el emisor, en este escenario Tether, genera nuevo USDT para la casa de cambio a cambio de USD. Los USD respaldan estos tokens de USDT recién creados. Esto asegura que cada \$1 USDT en circulación esté respaldado por efectivo o equivalentes de efectivo equivalentes.
 
-Con esto en mente, cuando adquieres USDt, no es una emisión recién acuñada. Más bien, en un momento anterior, la casa de cambio intercambió USD por USDt, que ahora estás adquiriendo de la casa de cambio. A medida que pasa el tiempo y más usuarios compran USDt, las reservas de la casa de cambio disminuyen mientras que sus tenencias de USD se expanden. Esto incita a la casa de cambio a comunicarse una vez más con Tether para generar USDt adicional a cambio de USD.
+Con esto en mente, cuando adquieres USDT, no es una emisión recién acuñada. Más bien, en un momento anterior, la casa de cambio intercambió USD por USDT, que ahora estás adquiriendo de la casa de cambio. A medida que pasa el tiempo y más usuarios compran USDT, las reservas de la casa de cambio disminuyen mientras que sus tenencias de USD se expanden. Esto incita a la casa de cambio a comunicarse una vez más con Tether para generar USDT adicional a cambio de USD.
 
-Este sistema de "respaldo" de stablecoins con una reserva de activos está diseñado para proporcionar estabilidad y confianza a los usuarios, ya que asegura que el valor del stablecoin esté atado a un activo tangible. En el evento de que todos los que poseen USDt decidan cambiar sus tokens por dólares estadounidenses, las reservas mantenidas por Tether deberían ser suficientes para cubrir la demanda y prevenir una pérdida en el valor del USDt.
+Este sistema de "respaldo" de stablecoins con una reserva de activos está diseñado para proporcionar estabilidad y confianza a los usuarios, ya que asegura que el valor del stablecoin esté atado a un activo tangible. En el evento de que todos los que poseen USDT decidan cambiar sus tokens por dólares estadounidenses, las reservas mantenidas por Tether deberían ser suficientes para cubrir la demanda y prevenir una pérdida en el valor del USDT.
 
-Ahora, vale la pena notar que no todos los stablecoins son creados iguales. Algunos, desde un punto de vista funcional, operan de manera diferente, mientras que otros pueden tener diferentes niveles de colateralización o descentralización, lo que puede impactar su estabilidad y confiabilidad como reserva de valor. Sin embargo, todos intentan lograr el mismo resultado: un precio estable.
+Ahora, vale la pena notar que no todas las stablecoins son creados iguales. Algunas, desde un punto de vista funcional, operan de manera diferente, mientras que otras pueden tener diferentes niveles de colateralización o descentralización, lo que puede impactar su estabilidad y confiabilidad como reserva de valor. Sin embargo, todas intentan lograr el mismo resultado: un precio estable.
 
 Aunque la mayoría de estas instituciones están fuertemente reguladas y auditadas para asegurar que son confiables, este enfoque centralizado sí plantea un riesgo potencial.
 
-Por ejemplo, dado que estos stablecoins dependen no solo de un emisor centralizado sino también de instituciones financieras para gestionar la moneda mantenida en reservas, si alguna de estas entidades fallara, existe el potencial de una disminución en el valor del stablecoin y la pérdida de confianza del público en el emisor.
+Por ejemplo, dado que estas stablecoins dependen no solo de un emisor centralizado sino también de instituciones financieras para gestionar la moneda mantenida en reservas, si alguna de estas entidades fallara, existe el potencial de una disminución en el valor de la stablecoin y la pérdida de confianza del público en el emisor.
 
-Considera USDC, el segundo stablecoin más popular después de USDt. Cuando Silicon Valley Bank [colapsó](https://www.circle.com/blog/an-update-on-usdc-and-silicon-valley-bank) en marzo de 2023, USDC perdió temporalmente su paridad 1:1 con el USD y se negoció tan bajo como [\$0.88](https://www.coingecko.com/en/coins/usd-coin). Eso es una pérdida del 12% del poder adquisitivo de la noche a la mañana, lo cual es preocupante para algo que se supone que es estable en precio.
-La razón detrás de esta caída en el precio fue que Circle, el emisor de USDC, había mantenido una porción de sus reservas en Silicon Valley Bank. Como resultado, cuando la gente se dio cuenta, comenzaron a vender sus tenencias de USDC por miedo a que Circle no pudiera honrar todas las solicitudes de redención. Afortunadamente para Circle, la Reserva Federal y la Corporación Federal de Seguro de Depósitos (FDIC) intervinieron y garantizaron todos los depósitos del banco. Esto significó que Circle no perdería sus reservas, y USDC se recuperó rápidamente a \$1. Sin embargo, fácilmente podría haber sido de otra manera, dejando a USDC como un relicto del pasado. Con esto en mente, es importante investigar los diferentes stablecoins disponibles antes de elegir invertir o comerciar.
+Considera USDC, la segunda stablecoin más popular después de USDT. Cuando Silicon Valley Bank [colapsó](https://www.circle.com/blog/an-update-on-usdc-and-silicon-valley-bank) en marzo de 2023, USDC perdió temporalmente su paridad 1:1 con el USD y se negoció tan bajo como [\$0.88](https://www.coingecko.com/en/coins/usd-coin). Eso es una pérdida del 12% del poder adquisitivo de la noche a la mañana, lo cual es preocupante para algo que se supone que es estable en precio.
+La razón detrás de esta caída en el precio fue que Circle, el emisor de USDC, había mantenido una porción de sus reservas en Silicon Valley Bank. Como resultado, cuando la gente se dio cuenta, comenzaron a vender sus tenencias de USDC por miedo a que Circle no pudiera honrar todas las solicitudes de redención. Afortunadamente para Circle, la Reserva Federal y la Corporación Federal de Seguro de Depósitos (FDIC) intervinieron y garantizaron todos los depósitos del banco. Esto significó que Circle no perdería sus reservas, y USDC se recuperó rápidamente a \$1. Sin embargo, fácilmente podría haber sido de otra manera, dejando a USDC como un relicto del pasado. Con esto en mente, es importante investigar las diferentes stablecoins disponibles antes de elegir invertir o comerciar.
 
-A pesar de estas deficiencias, la mayoría de los stablecoins de confianza están respaldados por fiat. Tokens como el USDt de Tether usan este método de respaldo y regularmente mueven \$5 mil millones o más diariamente.
+A pesar de estas deficiencias, la mayoría de las stablecoins de confianza están respaldadas por fiat. Tokens como el USDT de Tether usan este método de respaldo y regularmente mueven \$5 mil millones o más diariamente.
 Ahora echemos un vistazo al siguiente tipo de stablecoin...
 
 ### Respaldadas por Commodities
@@ -979,19 +979,19 @@ Sin embargo, a diferencia de las stablecoins respaldadas por fiat, que dependen 
 
 En el caso de una stablecoin respaldada por commodities, el emisor, típicamente en colaboración con una institución financiera, adquiriría activos físicos, manteniéndolos como reservas mientras emite stablecoins equivalentes en valor a estos activos. El propietario de la stablecoin puede entonces comerciar sus tokens sin necesidad de manejar el activo físico subyacente o, en algunos casos, intercambiar sus tokens por la commodity física si es necesario.
 
-[Tether Gold](https://gold.tether.to/) (XAUt) es un ejemplo de una stablecoin respaldada por commodities donde Tether mantiene una onza troy de oro fino por cada token emitido. Esto asegura que su precio se mueva en sincronía con el precio de la commodity subyacente, en este caso... oro.
+[Tether Gold](https://gold.tether.to/) (XAUT) es un ejemplo de una stablecoin respaldada por commodities donde Tether mantiene una onza troy de oro fino por cada token emitido. Esto asegura que su precio se mueva en sincronía con el precio de la commodity subyacente, en este caso... oro.
 
-Lo interesante de XAUt es que los titulares de tokens pueden rastrear las tenencias de oro de la compañía para asegurar transparencia, minimizando cualquier conducta indebida. Además, pueden canjear sus tokens por oro en cualquier momento, proporcionando seguridad y flexibilidad adicionales.
+Lo interesante de XAUT es que los titulares de tokens pueden rastrear las tenencias de oro de la compañía para asegurar transparencia, minimizando cualquier conducta indebida. Además, pueden canjear sus tokens por oro en cualquier momento, proporcionando seguridad y flexibilidad adicionales.
 
-A la luz de esto, a cambio de un mayor riesgo de contraparte, XAUt ofrece varios beneficios sobre el oro físico.
+A la luz de esto, a cambio de un mayor riesgo de contraparte, XAUT ofrece varios beneficios sobre el oro físico.
 
-Primero, XAUt proporciona una manera más conveniente y accesible de invertir en oro, ya que es digital y puede ser fácilmente comercializado y almacenado en billeteras digitales. Esto elimina la necesidad de almacenamiento físico y los costos de transporte asociados con el oro físico.
+Primero, XAUT proporciona una manera más conveniente y accesible de invertir en oro, ya que es digital y puede ser fácilmente comercializado y almacenado en billeteras digitales. Esto elimina la necesidad de almacenamiento físico y los costos de transporte asociados con el oro físico.
 
 Segundo, permite la propiedad fraccional, facilitando a los inversores la compra de cantidades menores de oro.
 
 **¿Por qué alguien querría esto?** En el mundo físico, comprar una onza entera de oro por \$1900 estaría fuera del alcance de muchos. Pero 1/1000 de una onza de oro ahora es alcanzable a través de la fraccionalización de los tokens. En el ámbito digital, una reclamación a una partícula de polvo de oro es alcanzable— algo inviable en el ámbito físico.
 
-Por último, XAUt a menudo es más líquido que el oro físico, lo que significa que puede ser fácilmente convertido en fiat o bitcoin, permitiendo a los inversores liquidar rápidamente sus tenencias si es necesario.
+Por último, XAUT a menudo es más líquido que el oro físico, lo que significa que puede ser fácilmente convertido en fiat o bitcoin, permitiendo a los inversores liquidar rápidamente sus tenencias si es necesario.
 
 Sin embargo, al igual que las stablecoins respaldadas por fiat, las stablecoins respaldadas por commodities dependen de una institución centralizada para sus operaciones, lo que las hace vulnerables a las mismas debilidades. Además, estas stablecoins tienen que considerar los costos de almacenamiento ya que las commodities físicas como el oro y los bienes raíces ocupan espacio. Por lo tanto, deberías esperar pagar una pequeña tarifa por el servicio.
 
@@ -1001,7 +1001,7 @@ Ahora echemos un vistazo a la tercera forma de stablecoin...
 
 Una stablecoin algorítmica es el último tipo de stablecoin que discutiremos y, al igual que las otras, está diseñada para mantener un valor estable.
 
-A diferencia de otras stablecoins respaldadas por activos físicos, las stablecoins algorítmicas utilizan fórmulas matemáticas o algoritmos— a menudo en conjunto con algunos activos— para regular su oferta en relación con la demanda para mantener la estabilidad de precios.
+A diferencia de otras stablecoins respaldadas por activos físicos, las stablecoins algorítmicas utilizan fórmulas matemáticas o algoritmos —a menudo en conjunto con algunos activos— para regular su oferta en relación con la demanda para mantener la estabilidad de precios.
 
 Para aquellos no familiarizados con el término algoritmo, pueden pensar en un algoritmo simplemente como un conjunto de reglas a seguir. Esto puede sonar confuso, así que veamos un tipo de mecanismo de estabilidad algorítmica, llamado el método de rebase, como un ejemplo.
 Digamos que lanzamos una nueva stablecoin algorítmica llamada AlgoCoin que utiliza el método de reajuste (rebase) para asegurar un precio de \$1. En tal escenario, AlgoCoin ajustaría automáticamente la oferta de tokens para mantener un precio estable. Esto se lograría aumentando o disminuyendo la oferta de tokens basado en el cambio de precio del token.
@@ -1015,11 +1015,11 @@ En mayo de 2022, algunos traders explotaron una vulnerabilidad en TerraUSD (UST)
 
 Con esto en mente, mientras que las stablecoins algorítmicas han ganado atención por su potencial para revolucionar la forma en que pensamos sobre el valor estable en el mundo digital, es importante notar que aún son un concepto relativamente nuevo y han sido propensas a errores y vulnerabilidades. Dado que solo están parcialmente, o a veces, no respaldadas por activos físicos y dependen en gran medida de los desarrolladores y la codificación, así como de intentos delicados de ingeniería financiera, recomendamos ejercer precaución e investigar a fondo antes de usar cualquier stablecoin algorítmica.
 
-En conclusión, las stablecoins ofrecen un puente entre el mundo tradicional y Bitcoin, permitiendo diferentes compromisos entre soberanía y practicidad. Aunque hay tres tipos principales de stablecoins—las respaldadas por moneda fiduciaria, metales preciosos o algoritmos—las stablecoins respaldadas por fiat son, con mucho, las más populares.
+En conclusión, las stablecoins ofrecen un puente entre el mundo tradicional y Bitcoin, permitiendo diferentes compromisos entre soberanía y practicidad. Aunque hay tres tipos principales de stablecoins —las respaldadas por moneda fiduciaria, metales preciosos o algoritmos— las stablecoins respaldadas por fiat son, con mucho, las más populares.
 
 Aunque las stablecoins a menudo se consideran seguras debido a su naturaleza “estable”, es importante recordar que no están completamente libres de riesgos. Dado que las stablecoins dependen de emisores centralizados, es decir, Tether, e instituciones financieras, existe un potencial de pérdida. Para mitigar estos riesgos, es crucial investigar a fondo diferentes stablecoins antes de invertir. Al hacerlo, puedes tomar decisiones informadas y minimizar el potencial de pérdidas inesperadas.
 
-## Ventajas de las Ofertas de Stablecoin de Tether
+## Ventajas de las ofertas de stablecoin de Tether
 
 <chapterId>a6806b45-b92e-5791-8f5f-804098a522b2</chapterId>
 
@@ -1027,13 +1027,13 @@ Conoce a Adanna, una joven que vive en una aldea rural africana donde el Franco 
 Adanna siempre ha estado intrigada por la idea de tener control sobre su dinero, pero hasta hace poco, esto había sido un sueño imposible. La moneda que utiliza está supervisada por individuos que han demostrado no tener el mejor interés de su gente en el corazón, y su ubicación rural limita su acceso a los servicios bancarios. En consecuencia, Adanna no tiene más opción que depender del efectivo físico, dejándola vulnerable al robo y la pérdida, además de la disminución en el poder adquisitivo.
 Pero todo está a punto de cambiar.
 
-Un día, un amigo le presentó a Adanna Bitcoin y USDt, estas nuevas monedas digitales que operan independientemente de los sistemas bancarios tradicionales. Mientras Adanna reconoce los méritos de Bitcoin, su volatilidad representa un obstáculo. Dados sus modestos ahorros y desafíos financieros inmediatos, actualmente no es una opción viable para ella. Sin embargo, con USDt, aprende que no solo puede realizar transacciones en dólares estadounidenses, una moneda mucho más estable, sino que también puede auto custodiar su dinero y, con una conexión básica a internet, puede realizar transacciones con cualquier persona en cualquier lugar sin necesidad de visitar una sucursal bancaria.
+Un día, un amigo le presentó a Adanna Bitcoin y USDT, estas nuevas monedas digitales que operan independientemente de los sistemas bancarios tradicionales. Mientras Adanna reconoce los méritos de Bitcoin, su volatilidad representa un obstáculo. Dados sus modestos ahorros y desafíos financieros inmediatos, actualmente no es una opción viable para ella. Sin embargo, con USDT, aprende que no solo puede realizar transacciones en dólares estadounidenses, una moneda mucho más estable, sino que también puede auto custodiar su dinero y, con una conexión básica a internet, puede realizar transacciones con cualquier persona en cualquier lugar sin necesidad de visitar una sucursal bancaria.
 
 Esto es un cambio radical para Adanna. Con la capacidad de almacenar y acceder de manera segura a sus fondos, ya no tiene que preocuparse por los riesgos asociados con llevar efectivo o la devaluación excesiva de la moneda. Y lo que es más importante, ahora puede realizar compras en línea y enviar dinero a miembros de su familia en otras partes de África sin lidiar con las complicaciones de la banca tradicional.
 
-A medida que continúa explorando las posibilidades de USDt, Adanna se da cuenta de que esta tecnología puede transformar potencialmente la vida de las personas en situaciones similares. Con USDt, todos tienen acceso a la libertad y seguridad financiera que predominantemente ha estado fuera del alcance de muchos.
+A medida que continúa explorando las posibilidades de USDT, Adanna se da cuenta de que esta tecnología puede transformar potencialmente la vida de las personas en situaciones similares. Con USDT, todos tienen acceso a la libertad y seguridad financiera que predominantemente ha estado fuera del alcance de muchos.
 
-Estos son solo dos de los numerosos beneficios asociados con las stablecoins, como USDt:
+Estos son solo dos de los numerosos beneficios asociados con las stablecoins, como USDT:
 
 1. **Elección Financiera:** Las stablecoins ofrecen una oportunidad de cambio de vida para individuos como Adanna que viven en áreas rurales con acceso limitado a servicios bancarios confiables. Con una conexión básica a internet, los individuos pueden usar stablecoins para acceder a monedas de su elección, como el dólar estadounidense, y escapar de su moneda local que se deteriora rápidamente. Esto significa que pueden tener más control sobre su dinero sin tener que preocuparse nunca por la inestabilidad de la moneda.
 2. **Bancarización de los No Bancarizados:** Las stablecoins proporcionan una solución necesaria para la población no bancarizada, incluidos aquellos que residen en áreas remotas o que enfrentan dificultades para abrir cuentas bancarias tradicionales. Al habilitar el acceso a monedas digitales, las stablecoins ofrecen una forma conveniente y eficiente de realizar transacciones digital y globalmente, empoderando a individuos que anteriormente carecían de tales oportunidades.
@@ -1042,7 +1042,7 @@ Estos son solo dos de los numerosos beneficios asociados con las stablecoins, co
 #### Remesas
 
 Imagina por un segundo que naciste y creciste en Tonga. Pero por mucho que ames tu país de origen, a una edad temprana, te das cuenta de que hay oportunidades de trabajo limitadas en tu comunidad local. Por lo tanto, en cuanto te mudas, decides dejar Tonga y mudarte a una nación con un mayor grupo de oportunidades laborales. Al hacerlo, ahora puedes apoyar mejor a tu familia al enviar una parte de tu cheque de pago a casa.
-Aunque este escenario pueda parecer improbable, es, de hecho, una realidad para miles de millones de personas en todo el mundo, especialmente para aquellos en Tonga. A partir de 2021, las remesas—el acto de enviar dinero de vuelta a seres queridos para su apoyo—representaron un asombroso [45.5%](https://www.theglobaleconomy.com/Tonga/remittances_percent_GDP/#:~:text=Remittances%20as%20percent%20of%20GDP&text=The%20average%20value%20for%20Tonga,171%20countries%20is%205.66%20percent.) del producto interno bruto (PIB) de Tonga.
+Aunque este escenario pueda parecer improbable, es, de hecho, una realidad para miles de millones de personas en todo el mundo, especialmente para aquellos en Tonga. A partir de 2021, las remesas —el acto de enviar dinero de vuelta a seres queridos para su apoyo— representaron un asombroso [45.5%](https://www.theglobaleconomy.com/Tonga/remittances_percent_GDP/#:~:text=Remittances%20as%20percent%20of%20GDP&text=The%20average%20value%20for%20Tonga,171%20countries%20is%205.66%20percent.) del producto interno bruto (PIB) de Tonga.
 Probablemente te estés preguntando: ¿Cuál es el problema aquí?
 
 Enviar dinero al extranjero a través de un servicio de transferencia de dinero como Western Union no es gratuito. Cuesta dinero, y no solo un poco, sino una cantidad significativa.
@@ -1060,11 +1060,11 @@ Aquí tienes una muestra de cuánto [cobra](https://www.westernunion.com/content
 - **Canadá, EE. UU., México:** tarifa de \$16.86 + pérdida de \$1.20 por tipo de cambio (18.06% de pérdida)
 - **Reino Unido, Albania, Bosnia, Serbia, Eslovenia:** tarifa de \$17.92 + pérdida de \$3.10 por tipo de cambio (21.02% de pérdida)
 - **Oceanía y el Sudeste Asiático:** tarifa de \$12.61 + pérdida de \$8.60 por tipo de cambio (21.21% de pérdida)
-  Esta es una cantidad asombrosa de dinero que ahora está en manos de grandes corporaciones estadounidenses. Y aquí es donde entra USDt, ya que proporcionan una solución al problema de las altas tarifas de remesas.
+  Esta es una cantidad asombrosa de dinero que ahora está en manos de grandes corporaciones estadounidenses. Y aquí es donde entra USDT, ya que proporcionan una solución al problema de las altas tarifas de remesas.
 
-A diferencia de los servicios tradicionales de transferencia de dinero, USDt es una moneda digital que, con el propósito de realizar transacciones, se mueve sobre las vías de la blockchain. Dado que no requiere intermediarios como bancos o servicios de transferencia de dinero, las tarifas son significativamente más bajas. Además, dado que las transacciones se ejecutan en una blockchain pública, esto asegura una mayor transparencia así como privacidad. Esto significa que las personas pueden enviar dinero a sus seres queridos en otros países casi al instante, de manera segura y a un costo mucho menor.
-Por ejemplo, USDt, que opera principalmente en las blockchains de Ethereum y Tron, ha promediado tarifas de transacción de [\$1.02](https://ycharts.com/indicators/ethereum_average_transaction_fee#:~:text=Ethereum%20Average%20Transaction%20Fee%20is,20.90%25%20from%20one%20year%20ago.) y [\$0.000005](https://bitpowr.com/blog/how-to-send-fee-less-tron-transactions), respectivamente, durante el último año, independientemente de la cantidad enviada— la tarifa permanece igual ya sea que se envíen \$5 o \$10,000. Y mientras hablamos, los desarrolladores están trabajando en [stablecoins](https://www.coindesk.com/tech/2022/09/28/lightning-labs-releases-software-to-allow-bitcoin-developers-to-mint-and-transfer-assets-on-the-blockchain/) construidas en la red Lightning de Bitcoin, lo que implicaría tarifas de alrededor de [\$0.0003](https://www.nasdaq.com/articles/the-state-of-lightning-network-adoption).
-Con USDt, los tonganos, así como todos aquellos que envían dinero a sus familias, pueden recibir mucho más de sus remesas, lo que puede mejorar significativamente su calidad de vida y contribuir al desarrollo económico de su país.
+A diferencia de los servicios tradicionales de transferencia de dinero, USDT es una moneda digital que, con el propósito de realizar transacciones, se mueve sobre las vías de la blockchain. Dado que no requiere intermediarios como bancos o servicios de transferencia de dinero, las tarifas son significativamente más bajas. Además, dado que las transacciones se ejecutan en una blockchain pública, esto asegura una mayor transparencia así como privacidad. Esto significa que las personas pueden enviar dinero a sus seres queridos en otros países casi al instante, de manera segura y a un costo mucho menor.
+Por ejemplo, USDT, que opera principalmente en las blockchains de Ethereum y Tron, ha promediado tarifas de transacción de [\$1.02](https://ycharts.com/indicators/ethereum_average_transaction_fee#:~:text=Ethereum%20Average%20Transaction%20Fee%20is,20.90%25%20from%20one%20year%20ago.) y [\$0.000005](https://bitpowr.com/blog/how-to-send-fee-less-tron-transactions), respectivamente, durante el último año, independientemente de la cantidad enviada la tarifa permanece igual ya sea que se envíen \$5 o \$10,000. Y mientras hablamos, los desarrolladores están trabajando en [stablecoins](https://www.coindesk.com/tech/2022/09/28/lightning-labs-releases-software-to-allow-bitcoin-developers-to-mint-and-transfer-assets-on-the-blockchain/) construidas en la red Lightning de Bitcoin, lo que implicaría tarifas de alrededor de [\$0.0003](https://www.nasdaq.com/articles/the-state-of-lightning-network-adoption).
+Con USDT, los tonganos, así como todos aquellos que envían dinero a sus familias, pueden recibir mucho más de sus remesas, lo que puede mejorar significativamente su calidad de vida y contribuir al desarrollo económico de su país.
 
 Veamos cómo las ofertas de stablecoin de Tether ofrecen estabilidad a aquellos que viven en situaciones inestables.
 
@@ -1085,16 +1085,16 @@ Una vez más, aquí es donde las ofertas de stablecoin de Tether pueden marcar u
 Dado que sus stablecoins están vinculadas al valor de un activo subyacente, como el dólar estadounidense o el oro, su precio es relativamente estable en comparación con otras monedas que experimentan inflación desenfrenada. Como resultado, ofrecen una alternativa viable para las personas que viven en países con monedas inestables. Proporcionan a estas personas una manera de mover su dinero a una moneda que no está sujeta a las mismas tasas de inflación que su moneda local. Esto puede ayudarles a mantener el valor de sus ahorros y protegerse de la erosión del poder adquisitivo causada por la inflación.
 
 Sin embargo, esto plantea la question: ¿Qué pasa cuando monedas como el dólar estadounidense están experimentando una inflación elevada?
-Además del USDt, que está vinculado al USD, Tether ofrece XAUt—respaldado por oro—ofreciendo una alternativa aún más robusta para aquellas personas que buscan escapar de las altas tasas de inflación.
-El oro ha sido un depósito de valor de confianza durante siglos, gracias a su escasez y estabilidad de precio. Sin embargo, hasta hace poco, no era posible utilizar el oro como medio de pago digital. XAUt, respaldado por oro, resuelve este problema al proporcionar un método de transacción en oro sin la necesidad de posesión física. Como resultado, las personas pueden proteger su poder adquisitivo independientemente de si es su moneda o el USD el que experimenta alta inflación.
+Además del USDT, que está vinculado al USD, Tether ofrece XAUT —respaldado por oro— ofreciendo una alternativa aún más robusta para aquellas personas que buscan escapar de las altas tasas de inflación.
+El oro ha sido un depósito de valor de confianza durante siglos, gracias a su escasez y estabilidad de precio. Sin embargo, hasta hace poco, no era posible utilizar el oro como medio de pago digital. XAUT, respaldado por oro, resuelve este problema al proporcionar un método de transacción en oro sin la necesidad de posesión física. Como resultado, las personas pueden proteger su poder adquisitivo independientemente de si es su moneda o el USD el que experimenta alta inflación.
 
 Puedes decir: ¿Pero qué hay del e-gold en los años 90?
 
-Primero, las estructuras operativas y de reserva de eGold eran altamente centralizadas y carecían de la transparencia de las stablecoins modernas como XAUt. En consecuencia, surgieron dudas respecto al verdadero respaldo en oro que soportaba los tokens de eGold.
+Primero, las estructuras operativas y de reserva de eGold eran altamente centralizadas y carecían de la transparencia de las stablecoins modernas como XAUT. En consecuencia, surgieron dudas respecto al verdadero respaldo en oro que soportaba los tokens de eGold.
 
 Segundo, eGold hizo su debut durante un período en el que el mercado de criptomonedas estaba considerablemente menos desarrollado. En consecuencia, luchó por lograr un reconocimiento generalizado. Estos desafíos combinados resultaron en que eGold encontrara obstáculos regulatorios significativos y complicaciones legales, lo que finalmente llevó a su caída.
 
-En contraste, productos como XAUt han superado estos obstáculos, beneficiándose de marcos regulatorios de criptomonedas mejorados, la sabiduría obtenida de fracasos pasados y un compromiso con una mayor transparencia.
+En contraste, productos como XAUT han superado estos obstáculos, beneficiándose de marcos regulatorios de criptomonedas mejorados, la sabiduría obtenida de fracasos pasados y un compromiso con una mayor transparencia.
 
 Esto hace que las stablecoins respaldadas por oro sean una opción segura y confiable para aquellos que buscan proteger su riqueza de la inflación o durante períodos de incertidumbre económica.
 
@@ -1102,61 +1102,61 @@ En última instancia, las stablecoins ofrecen una solución convincente para las
 
 #### Mejora de la Usabilidad
 
-Dado todo lo que hemos tocado hasta ahora, tengo la sensación de que estás empezando a comprender cómo las stablecoins ofrecen una mayor usabilidad en comparación con las monedas tradicionales. Pero para asegurarnos, hablemos un poco más de ello.
+Dado todo lo que hemos tocado hasta ahora, tenemos la sensación de que estás empezando a comprender cómo las stablecoins ofrecen una mayor usabilidad en comparación con las monedas tradicionales. Pero para asegurarnos, hablemos un poco más de ello.
 Las ofertas de stablecoin de Tether han revolucionado el mundo de las finanzas al ofrecer un nivel de usabilidad que las monedas fiduciarias tradicionales simplemente no pueden igualar.
 
-¿Qué quiero decir con mayor usabilidad? Profundicemos en algunos de los beneficios principales y exploremos por qué la adopción de sus stablecoins está creciendo rápidamente.
+¿Qué queremos decir con mayor usabilidad? Profundicemos en algunos de los beneficios principales y exploremos por qué la adopción de sus stablecoins está creciendo rápidamente.
 
 En primer lugar, la **autocustodia** nos permite tomar posesión de nuestro dinero sin depender de servicios bancarios centralizados. Esto significa que tenemos control total sobre nuestros fondos y podemos acceder a ellos cuando necesitemos, sin la necesidad de un intermediario. No más esperas para que nuestro banco autorice una transacción o preocupaciones sobre que nuestra cuenta sea congelada sin razón— con las stablecoins, nosotros estamos al mando. Dicho esto, no hemos eliminado completamente la supervisión centralizada al tomar la autocustodia. La mayoría de las stablecoins, incluyendo las de Tether, son emitidas por compañías centralizadas basadas en blockchains centralizadas como Ethereum y Tron. Por lo tanto, depositamos un nivel inherente de confianza en estas compañías y sistemas.
 
-En segundo lugar, dado que las stablecoins, como USDt y XAUt, son **digitales por naturaleza**, podemos realizar transacciones de manera digital, 24/7. No más preocupaciones sobre los horarios de apertura del banco o retrasos causados por diferentes zonas horarias— con las stablecoins, podemos realizar transacciones cuando nos convenga, desde cualquier lugar del mundo.
-Las tarifas reducidas, como se discutió anteriormente, son otra gran ventaja de los stablecoins de Tether. A diferencia de las monedas fiat tradicionales, USDt, así como cualquiera de sus otras ofertas, tienen menos intermediarios involucrados en cada transacción, lo que significa que retenemos mucho más de nuestro poder adquisitivo— con los stablecoins, conseguimos conservar más de lo que ganamos.
-Finalmente, los stablecoins ofrecen **menor supervisión**, lo que significa que tenemos mayor libertad para dirigir nuestro dinero donde consideremos conveniente. A diferencia de las monedas fiat tradicionales, que están sujetas a todo tipo de regulaciones y restricciones, los stablecoins son similares al efectivo, lo que significa que hay muchos menos intermediarios involucrados en una transacción. Esto nos da mayor libertad para mover nuestro dinero más fácilmente sin tener que preocuparnos por la supervisión gubernamental o la burocracia.
+En segundo lugar, dado que las stablecoins, como USDT y XAUT, son **digitales por naturaleza**, podemos realizar transacciones de manera digital, 24/7. No más preocupaciones sobre los horarios de apertura del banco o retrasos causados por diferentes zonas horarias— con las stablecoins, podemos realizar transacciones cuando nos convenga, desde cualquier lugar del mundo.
+Las tarifas reducidas, como se discutió anteriormente, son otra gran ventaja de los stablecoins de Tether. A diferencia de las monedas fiat tradicionales, USDT, así como cualquiera de sus otras ofertas, tienen menos intermediarios involucrados en cada transacción, lo que significa que retenemos mucho más de nuestro poder adquisitivo— con las stablecoins, conseguimos conservar más de lo que ganamos.
+Finalmente, las stablecoins ofrecen **menor supervisión**, lo que significa que tenemos mayor libertad para dirigir nuestro dinero donde consideremos conveniente. A diferencia de las monedas fiat tradicionales, que están sujetas a todo tipo de regulaciones y restricciones, las stablecoins son similares al efectivo, lo que significa que hay muchos menos intermediarios involucrados en una transacción. Esto nos da mayor libertad para mover nuestro dinero más fácilmente sin tener que preocuparnos por la supervisión gubernamental o la burocracia.
 
-En general, los diversos stablecoins de Tether ofrecen un nivel de flexibilidad y libertad que las monedas fiat tradicionales simplemente no pueden igualar. Con la auto-custodia, transacciones digitales, tarifas reducidas y menor supervisión, no es de extrañar que cada vez más personas se estén volcando a sus stablecoins como una forma segura y confiable de realizar transacciones y almacenar riqueza.
+En general, las diversos stablecoins de Tether ofrecen un nivel de flexibilidad y libertad que las monedas fiat tradicionales simplemente no pueden igualar. Con la auto-custodia, transacciones digitales, tarifas reducidas y menor supervisión, no es de extrañar que cada vez más personas se estén volcando a sus stablecoins como una forma segura y confiable de realizar transacciones y almacenar riqueza.
 
 #### Aumento en la Adopción de Bitcoin
 
 Por último, pero no menos importante, Tether está jugando un papel vital en aumentar la adopción de Bitcoin al actuar como un puente entre la banca tradicional y los carriles descentralizados, sin confianza y sin permisos de Bitcoin.
 
-Antes de la llegada de los stablecoins, como USDt, realizar transacciones de entrada y salida de bitcoin era un proceso complejo y arriesgado. Teníamos que encontrar a alguien dispuesto a intercambiar su bitcoin por nuestro dinero o localizar un banco o intercambio amigable con Bitcoin. Esto hacía que fuera desafiante comprar y vender bitcoin, especialmente si vivíamos en una jurisdicción hostil hacia este mágico dinero de internet. Y aun si encontrábamos una manera de realizar transacciones de entrada y salida, teníamos que depender en gran medida del sector bancario tradicional y confiar en que no congelarían nuestra cuenta o perjudicarían nuestra capacidad para comprar o vender bitcoin.
+Antes de la llegada de las stablecoins, como USDT, realizar transacciones de entrada y salida de bitcoin era un proceso complejo y arriesgado. Teníamos que encontrar a alguien dispuesto a intercambiar su bitcoin por nuestro dinero o localizar un banco o intercambio amigable con Bitcoin. Esto hacía que fuera desafiante comprar y vender bitcoin, especialmente si vivíamos en una jurisdicción hostil hacia este dinero mágico de internet. Y aun si encontrábamos una manera de realizar transacciones de entrada y salida, teníamos que depender en gran medida del sector bancario tradicional y confiar en que no congelarían nuestra cuenta o perjudicarían nuestra capacidad para comprar o vender bitcoin.
 
-Con el surgimiento de los diversos stablecoins de Tether, la situación ha cambiado. USDt y XAUt ahora ofrecen un medio digital confiable de intercambio que conecta los carriles bancarios tradicionales con los carriles descentralizados y sin confianza de Bitcoin. Al usar estos stablecoins, las personas ahora pueden realizar transacciones de entrada y salida de bitcoin con facilidad y sin tener que volver a los carriles bancarios tradicionales. Esto ha llevado a un aumento en la adopción de Bitcoin, ya que las personas ahora pueden realizar transacciones de entrada y salida sin preocuparse por las barreras impuestas por el sistema financiero tradicional.
+Con el surgimiento de los diversos stablecoins de Tether, la situación ha cambiado. USDT y XAUT ahora ofrecen un medio digital confiable de intercambio que conecta los carriles bancarios tradicionales con los carriles descentralizados y confiables de Bitcoin. Al usar estas stablecoins, las personas ahora pueden realizar transacciones de entrada y salida de bitcoin con facilidad y sin tener que volver a los carriles bancarios tradicionales. Esto ha llevado a un aumento en la adopción de Bitcoin, ya que las personas ahora pueden realizar transacciones de entrada y salida sin preocuparse por las barreras impuestas por el sistema financiero tradicional.
 
-Por ejemplo, si un usuario quiere comprar bitcoin, simplemente puede comprar USDt en un intercambio y luego usar el stablecoin para comprar bitcoin directamente, eliminando la necesidad de transferir fondos a través de un banco. Alternativamente, si necesitan vender bitcoin, pueden intercambiarlo por USDt sin tener que convertirlo de nuevo a su moneda local.
+Por ejemplo, si un usuario quiere comprar bitcoin, simplemente puede comprar USDT en una casa de cambio y luego usar la stablecoin para comprar bitcoin directamente, eliminando la necesidad de transferir fondos a través de un banco. Alternativamente, si necesitan vender bitcoin, pueden intercambiarlo por USDT sin tener que convertirlo de nuevo a su moneda local.
 
-Con esto en mente, los stablecoins están cambiando la forma en que realizamos transacciones con activos soberanos, como Bitcoin, al proporcionar un puente sin fisuras y fácil de usar entre la banca tradicional y el mundo digital descentralizado. A medida que la adopción de stablecoins continúa creciendo, podemos esperar ver incluso una mayor adopción de Bitcoin a medida que más personas se dan cuenta de que no hay necesidad de reingresar al mundo bancario tradicional, dada la usabilidad y naturaleza digital de los stablecoins.
+Con esto en mente, las stablecoins están cambiando la forma en que realizamos transacciones con activos soberanos, como Bitcoin, al proporcionar un puente sin fisuras y fácil de usar entre la banca tradicional y el mundo digital descentralizado. A medida que la adopción de stablecoins continúa creciendo, podemos esperar ver incluso una mayor adopción de Bitcoin a medida que más personas se dan cuenta de que no hay necesidad de reingresar al mundo bancario tradicional, dada la usabilidad y naturaleza digital de los stablecoins.
 
 En conclusión, las ofertas de stablecoin de Tether ayudan a la libertad y seguridad financiera no solo para individuos cotidianos, sino también para aquellos que viven en áreas remotas o inestables con acceso limitado a servicios bancarios confiables.
-Tomemos, por ejemplo, la historia de Adanna, que ilustra cómo USDt puede ayudar a personas como ella a escapar de su moneda local que se deteriora rápidamente y tener más control sobre su dinero sin tener que preocuparse por la inestabilidad de la moneda o el hecho de que USDt ofrece una solución crucial para la población no bancarizada, permitiendo el acceso a una moneda digital, lo cual empodera a individuos que anteriormente carecían de tales oportunidades.
+Tomemos, por ejemplo, la historia de Adanna, que ilustra cómo USDT puede ayudar a personas como ella a escapar de su moneda local que se deteriora rápidamente y tener más control sobre su dinero sin tener que preocuparse por la inestabilidad de la moneda o el hecho de que USDT ofrece una solución crucial para la población no bancarizada, permitiendo el acceso a una moneda digital, lo cual empodera a individuos que anteriormente carecían de tales oportunidades.
 Y si eso no fuera suficiente, estas stablecoins no solo aumentan la usabilidad de la moneda tradicional, sino que ayudan a reducir los costos asociados con las remesas, permitiendo a los individuos enviar dinero a sus seres queridos sin incurrir en altas tarifas.
 
-En general, las stablecoins, como USDt y XAUt, tienen el potencial de transformar las vidas de miles de millones al ofrecerles acceso a servicios financieros inclusivos y muy necesarios.
+En general, las stablecoins, como USDT y XAUT, tienen el potencial de transformar las vidas de miles de millones al ofrecerles acceso a servicios financieros inclusivos y muy necesarios.
 
 ## Examen
 
 <chapterId>1294d874-6edb-5feb-b070-0ead1836bd0b</chapterId>
 
-Ahora que has pasado por el Módulo "Estabilidad en Medio del Caos", tendrás que poner a prueba tus conocimientos recién adquiridos para asegurarte de que has entendido las últimas secciones. Comenzaremos con varias Preguntas Abiertas y luego un pequeño cuestionario.
+Ahora que has pasado por el Módulo "Estabilidad en medio del caos", tendrás que poner a prueba tus conocimientos recién adquiridos para asegurarte de que has entendido las últimas secciones. Comenzaremos con varias preguntas abiertas y luego un pequeño cuestionario.
 
 1. ¿Cuáles son las ventajas y desventajas de usar stablecoins respaldadas por fiat en comparación con monedas fiat tradicionales como el dólar estadounidense?
-2. En tu opinión, ¿cuáles son los beneficios potenciales de USDt para individuos que carecen de acceso a servicios bancarios?
-3. En tu opinión, ¿qué tan significativo es el papel de las stablecoins en proteger a los individuos de los efectos negativos de la inflación? ¿Pueden las stablecoins proporcionar verdaderamente estabilidad financiera en un mundo incierto?
+2. En tu opinión, ¿Cuáles son los beneficios potenciales de USDT para individuos que carecen de acceso a servicios bancarios?
+3. En tu opinión, ¿Qué tan significativo es el papel de las stablecoins en proteger a los individuos de los efectos negativos de la inflación? ¿Pueden las stablecoins proporcionar verdaderamente estabilidad financiera en un mundo incierto?
 4. ¿Cómo crees que las stablecoins pueden contribuir a la inclusión financiera y el desarrollo económico en países en desarrollo?
-5. En tu opinión, ¿qué medidas deberían tomar los emisores de stablecoins para asegurar la estabilidad y confiabilidad de sus stablecoins? ¿Qué tan importante es que los emisores de stablecoins sean transparentes sobre sus prácticas de reserva y proporcionen informes regulares?
+5. En tu opinión, ¿Qué medidas deberían tomar los emisores de stablecoins para asegurar la estabilidad y confiabilidad de sus stablecoins? ¿Qué tan importante es que los emisores de stablecoins sean transparentes sobre sus prácticas de reserva y proporcionen informes regulares?
 
-# Superando Dudas - Desmitificando Conceptos Erróneos y Casos de Uso en el Mundo Real
+# Superando dudas - Desmitificando conceptos erróneos y casos de uso en el mundo real
 
 <partId>246a7dc0-a203-5b2e-ae13-9c8f08e6bfad</partId>
 
-## Conceptos Erróneos
+## Conceptos erróneos
 
 <chapterId>4da9319d-6306-500f-adbb-5fa31c673cd2</chapterId>
 
 Bitcoin ha estado rodeado de rechazo, críticas y conceptos erróneos desde su nacimiento en 2009. A pesar de su crecimiento en popularidad y adopción, muchos todavía lo consideran una burbuja a punto de estallar. Siguiendo estas mismas líneas, las stablecoins han atraído una atención y escepticismo similares. La idea de una moneda respaldada por un activo estable suena prometedora, pero muchas personas no entienden cómo funcionan las stablecoins y su impacto potencial en el sistema financiero.
 
 En esta sección, exploraremos algunos de los conceptos erróneos más comunes en torno a Bitcoin y las stablecoins. Profundizaremos en la verdad detrás de estos conceptos erróneos y desmentiremos aquellos que han causado más confusión y escepticismo. Desde la creencia de que bitcoin es demasiado volátil para ser una moneda viable hasta preocupaciones sobre su uso de energía, examinaremos cada problema para que puedas formar tu propia opinión. Al final de este capítulo, tendrás un entendimiento mucho mayor de estas tecnologías y si hay legitimidad detrás de estos rechazos.
-Conceptos Erróneos sobre Bitcoin
+Conceptos erróneos sobre Bitcoin
 Aunque numerosos conceptos erróneos rodean a Bitcoin, toquemos los nueve más prominentes:
 
 1. Bitcoin es una burbuja a punto de estallar
@@ -1169,7 +1169,7 @@ Aunque numerosos conceptos erróneos rodean a Bitcoin, toquemos los nueve más p
 8. Bitcoin consume demasiada energía
 
 Profundicemos…
-Esto plantea la question: ¿Qué es lo que da a las personas la impresión de que Bitcoin es una burbuja a punto de estallar? A lo largo de la historia, cuando algo ha experimentado un aumento monumental en precio, también tiende a ver un colapso catastrófico, ya que este precio es insostenible y a menudo impulsado por la especulación y la codicia. Entonces, ¿qué hace diferente a Bitcoin?
+Esto plantea la pregunta: ¿Qué es lo que da a las personas la impresión de que Bitcoin es una burbuja a punto de estallar? A lo largo de la historia, cuando algo ha experimentado un aumento monumental en precio, también tiende a ver un colapso catastrófico, ya que este precio es insostenible y a menudo impulsado por la especulación y la codicia. Entonces, ¿qué hace diferente a Bitcoin?
 
 Primero, bitcoin tiene un suministro limitado de 21 millones de monedas, lo que significa que, a diferencia de las monedas fiduciarias tradicionales, no puede ser devaluado por la expansión monetaria. Esta escasez, combinada con la adopción global creciente de Bitcoin, ha llevado a un aumento constante pero volátil en su valor a lo largo del tiempo. Esto es diferente a cualquier otro activo, donde a medida que los precios suben, también lo hace el suministro. Esto significa que el suministro superará la demanda en algún punto, y los precios tendrán que colapsar.
 
@@ -1177,9 +1177,9 @@ Segundo, incorporado en el código de Bitcoin hay una característica llamada el
 
 _**Nota al margen:** Si has estudiado finanzas, es posible que hayas oído hablar del "teorema del mercado eficiente", construido alrededor de la idea de que los mercados son perfectamente eficientes debido al comportamiento racional. Por lo tanto, postula que los precios de los activos en los mercados financieros reflejan toda la información disponible, haciendo imposible lograr consistentemente rendimientos superiores al promedio analizando datos históricos u otra información del mercado._
 
-_Sin embargo, esta teoría olvida que los mercados están compuestos por individuos, y la naturaleza humana es inherentemente irracional e influenciada por emociones. Esta irracionalidad conduce a sesgos, comportamiento de manada y errores cognitivos, causando que los precios se desvíen de su verdadero valor. Por ejemplo, en el contexto de los eventos de halving de Bitcoin, los mercados racionales deberían anticipar y reflejar la futura reducción de suministro en el precio actual de bitcoin. Sin embargo, los aumentos periódicos de precio destacan que los participantes no han tenido en cuenta tal información. Esta irracionalidad ha demostrado proporcionar recompensas financieras significativas a los tenedores a largo plazo pacientes._
+_Sin embargo, esta teoría olvida que los mercados están compuestos por individuos, y la naturaleza humana es inherentemente irracional e influenciada por emociones. Esta irracionalidad conduce a sesgos, comportamiento de manada y errores cognitivos, causando que los precios se desvíen de su verdadero valor. Por ejemplo, en el contexto de los eventos de halving de Bitcoin, los mercados racionales deberían anticipar y reflejar la futura reducción de suministro en el precio actual de bitcoin. Sin embargo, los aumentos periódicos de precio destacan que los participantes no han tenido en cuenta tal información. Esta irracionalidad ha demostrado proporcionar recompensas financieras significativas a los inversores pacientes a largo plazo._
 
-Tercero, Bitcoin tiene el potencial de revolucionar el intercambio global. Por primera vez en la historia, tenemos un método de transacción de manera sin confianza, sin permisos y descentralizada. Como se discutió anteriormente en este curso, esto es sin paralelo y ofrece inmensos beneficios tanto para países desarrollados como en desarrollo.
+Tercero, Bitcoin tiene el potencial de revolucionar el intercambio global. Por primera vez en la historia, tenemos un método de transacción de manera confiable, sin permisos y descentralizado. Como se discutió anteriormente en este curso, esto es sin paralelo y ofrece inmensos beneficios tanto para países desarrollados como en desarrollo.
 
 Por último, el valor total de mercado de bitcoin está justo por debajo de los 550 mil millones de dólares estadounidenses. Esto puede parecer una cantidad astronómica hasta que te das cuenta de que el oro, dependiendo del cálculo de uno, está en cualquier lugar desde 10 billones hasta 20 billones de dólares. Eso significa que aunque Bitcoin ofrece muchos de los mismos beneficios que el oro, se negocia a 1/40 del valor. Y cuando miramos otros activos, esa divergencia es aún mayor.
 
@@ -1242,7 +1242,7 @@ Primero, en el mundo de las criptomonedas, existe esta idea llamada el trilema d
 
 En segundo lugar, Bitcoin se construye sobre el consenso, lo que significa que no importa quién seas o dónde vivas en el mundo, al ejecutar un software, puedes tener voz en la dirección de Bitcoin. Esto significa que a medida que el mundo avanza, Bitcoin puede adaptarse a su entorno cambiante. Esto se ilustra con las muchas mejoras que se han hecho a Bitcoin a lo largo de los años, como SegWit, que mejoró su escalabilidad, y la Red Lightning, que permite transacciones más rápidas y económicas.
 
-Por último, aunque hay miles de otras criptomonedas que ofrecen diferentes beneficios, Bitcoin no intenta ser todo para todas las personas. En cambio, intenta hacer una cosa increíblemente bien: ser una moneda descentralizada, sin necesidad de confianza y sin permisos. Y... lo hace mejor que nadie, como lo demuestra su capitalización de mercado, que es múltiples de cualquier otra criptomoneda.
+Por último, aunque hay miles de otras criptomonedas que ofrecen diferentes beneficios, Bitcoin no intenta ser todo para todas las personas. En cambio, intenta hacer una cosa increíblemente bien: Ser una moneda descentralizada, confiable y sin permisos. Y... lo hace mejor que nadie, como lo demuestra su capitalización de mercado, que es múltiples de cualquier otra criptomoneda.
 
 Sin embargo, se debe notar que el paisaje de "criptomoneda" a menudo está lleno de palabras de moda, muchas de las cuales tienen sus raíces en ideas propuestas, probadas y posteriormente abandonadas por criptógrafos OG y desarrolladores de Bitcoin. Una serie de ejemplos destaca esta tendencia: La tecnología de conocimiento cero (ZK) ahora promocionada encontró su génesis en discusiones por el mismo Satoshi en 2010 y Gregory Maxwell en 2013. Conceptos como transacciones confidenciales (CT) y bulletproof, ahora integrales para Monero y Grin, fueron creados y realizados en dos sidechains de Bitcoin, Elements y Liquid. La noción de "braiding" —entrelazar o vincular múltiples cadenas de blockchain juntas para lograr ciertos beneficios o funcionalidades— fue originalmente propuesta por desarrolladores de Bitcoin como una solución potencial a ciertos desafíos de escalabilidad e interoperabilidad y ahora es empleada por Kaspa, Byteball, Nano y Hedera. El origen de mucha innovación de "NFT" se remonta a los esfuerzos pioneros de Bitcoin en 2013/14/15. Incluso el ampliamente comercializado "Proof of Stake", que ganó prominencia a través de Peercoin, Bitshares, NXT y Ethereum, es un concepto revivido derivado del segundo protocolo b-money de Wei Dai, originalmente concebido en 1998—aunque Satoshi finalmente lo descartó, favoreciendo Proof of Work. Aunque no es necesario profundizar en cada detalle, es evidente que la "innovación" que subyace a muchas monedas alternativas encuentra sus raíces en la evolución de Bitcoin mismo.
 
@@ -1251,7 +1251,7 @@ Por lo tanto, una vez más, el argumento de que Bitcoin está obsoleto es infund
 #### Malentendido Cinco: Bitcoin es demasiado lento y costoso para ser un medio de intercambio efectivo
 
 Si recuerdas de la Sección Cuatro del Módulo Dos, la blockchain de Bitcoin está compuesta por bloques, cada uno con un tamaño máximo de alrededor de 1mb. Debido al tamaño limitado del bloque, la capa base de Bitcoin tiene un límite superior de procesamiento de alrededor de siete transacciones por segundo (tps), mucho menor que redes como Visa o Mastercard, que transaccionan a 1,700 tps. Por lo tanto, se dice a menudo que Bitcoin es demasiado lento para funcionar alguna vez como un medio de intercambio viable.
-Sin embargo, es vital señalar que Bitcoin no intenta competir con Visa o Mastercard. En cambio, es más similar a la capa uno, capaz de procesar transacciones de alto valor pero una fracción de la velocidad y costo de los métodos tradicionales de capa uno, mientras que también es sin confianza, sin permisos y ofrece transacciones con liquidación final.
+Sin embargo, es vital señalar que Bitcoin no intenta competir con Visa o Mastercard. En cambio, es más similar a la capa uno, capaz de procesar transacciones de alto valor pero una fracción de la velocidad y costo de los métodos tradicionales de capa uno, mientras que también es confiable, sin permisos y ofrece transacciones con liquidación final.
 Pero Bitcoin también compite con métodos de transacción de capa dos, con tecnologías como Lightning construidas sobre la capa uno. Lightning permite transacciones casi instantáneas con tarifas mínimas, haciendo posible las microtransacciones y pequeñas compras. Desde que El Salvador adoptó Bitcoin como moneda de curso legal, la población general ha estado utilizando Lightning para transaccionar con Bitcoin debido a sus beneficios inigualables, como tiempos de transacción casi instantáneos y tarifas por una fracción de centavo. Esto lo hace perfecto para pequeños comerciantes e individuos.
 
 #### Concepto erróneo seis: Bitcoin se utiliza principalmente para actividades ilegales
@@ -1295,9 +1295,9 @@ Bitcoin frecuentemente se convierte en el blanco de campañas de desprestigio, a
 También vale la pena señalar que las críticas sobre el uso de energía de Bitcoin a menudo provienen de individuos en sociedades privilegiadas y desarrolladas. Estos individuos típicamente tienen acceso a instalaciones bancarias, usan secadoras de ropa, dependen de acondicionadores de aire para calefacción o enfriamiento, decoran sus hogares con luces navideñas y frecuentemente participan en vacaciones al extranjero o de larga distancia. Todos estos esfuerzos consumen energía.
 Con esto en mente, queremos discutir tres puntos:
 
-1. **La Subjetividad del Valor:** Por qué no existe tal cosa como "demasiado" consumo de energía. La cantidad de energía consumida por una actividad o industria refleja el valor que las personas le atribuyen. Si algo requiere energía para operar, es porque hay una demanda y un beneficio percibido asociado con ello.
-2. **Monetización Directa de la Energía:** Tenemos un método para monetizar la energía directamente por primera vez en la historia.
-3. **Comparaciones Justas:** Al comparar el uso de energía de Bitcoin con el de otros sectores, podemos obtener una perspectiva más equilibrada y evaluar la validez de las afirmaciones hechas contra él.
+1. **La subjetividad del valor:** Por qué no existe tal cosa como "demasiado" consumo de energía. La cantidad de energía consumida por una actividad o industria refleja el valor que las personas le atribuyen. Si algo requiere energía para operar, es porque hay una demanda y un beneficio percibido asociado con ello.
+2. **Monetización directa de la energía:** Tenemos un método para monetizar la energía directamente por primera vez en la historia.
+3. **Comparaciones justas:** Al comparar el uso de energía de Bitcoin con el de otros sectores, podemos obtener una perspectiva más equilibrada y evaluar la validez de las afirmaciones hechas contra él.
 
 Pero primero, respondamos a la pregunta evidente: **¿Por qué Bitcoin consume energía?**
 
@@ -1305,7 +1305,7 @@ De manera similar a cómo se consume energía en la minería de oro físico, los
 
 A la luz de esto, echemos un vistazo a los tres puntos de discusión mencionados anteriormente.
 
-#### La Subjetividad del Valor
+#### La Subjetividad del valor
 
 En algún momento, es posible que te hayas encontrado con el argumento de que el bitcoin no tiene valor intrínseco, lo que lleva a preguntas sobre por qué debería permitirse que consuma energía.
 Como se discutió en el malentendido número tres, el valor intrínseco es subjetivo y depende de las circunstancias individuales y necesidades. Por ejemplo, imagínate en un desierto abrasador, y alguien te ofrece una gruesa chaqueta de plumas. Sería inútil. Ahora, imagina que estás en el frío glacial del Ártico. De repente, esa chaqueta se vuelve inmensamente valiosa. Esto ilustra que el valor no es inherente a un objeto, sino que está determinado por el contexto específico, las condiciones y la utilidad que el objeto proporciona a un individuo para satisfacer sus necesidades. Sin embargo, la subjetividad no se extiende solo al valor. También se extiende al consumo de energía. Si algo requiere energía para operar, indica claramente que las personas le encuentran valor, ya que están dispuestas a dedicar su tiempo, recursos y energía hacia ello.
@@ -1316,7 +1316,7 @@ Considera los avances en tecnología, transporte y entretenimiento que han surgi
 
 Con esto en mente, es importante reconocer que la percepción del valor varía entre individuos y comunidades. Lo que una persona puede considerar como un uso de energía valioso, otra podría verlo como excesivo o innecesario. Sin embargo, esta subjetividad no debería disminuir el reconocimiento de que el consumo de energía está intrínsecamente vinculado al valor que las personas atribuyen a ciertos esfuerzos.
 
-Por ejemplo, muchos individuos consideran que Bitcoin es un uso de energía valioso debido a su capacidad para proporcionar un medio de transacción descentralizado, sin confianza y sin permisos, sin intermediarios. Mientras que algunas personas en países desarrollados pueden no apreciar completamente esta propuesta de valor, tiene una importancia tremenda para aquellos que viven en países donde el control gubernamental es restrictivo y la inflación es rampante. En tales circunstancias, una moneda como Bitcoin ofrece un valor inmenso, llevando a las personas en estas situaciones a estar dispuestas a dedicar su energía y recursos para apoyar su operación.
+Por ejemplo, muchos individuos consideran que Bitcoin es un uso de energía valioso debido a su capacidad para proporcionar un medio de transacción descentralizado, confiable y sin permisos, sin intermediarios. Mientras que algunas personas en países desarrollados pueden no apreciar completamente esta propuesta de valor, tiene una importancia tremenda para aquellos que viven en países donde el control gubernamental es restrictivo y la inflación es rampante. En tales circunstancias, una moneda como Bitcoin ofrece un valor inmenso, llevando a las personas en estas situaciones a estar dispuestas a dedicar su energía y recursos para apoyar su operación.
 
 #### Monetización Directa de la Energía
 
@@ -1340,7 +1340,7 @@ Sin embargo, con Bitcoin, los ingenieros han ideado una manera de utilizar este 
 En resumen, dado que los mineros de Bitcoin están incentivados a buscar fuentes de energía rentables, a menudo prefiriendo la energía renovable, Bitcoin presume de una de las mezclas de energía [más sostenibles](https://bitcoinminingcouncil.com/wp-content/uploads/2021/07/2021.07.01-BMC-Q2-2021-Materials.pdf) entre industrias e incluso países. Por lo tanto, la próxima vez que alguien exprese preocupaciones sobre la huella ambiental de Bitcoin, puedes contrarrestar con confianza el hecho de que Bitcoin está a la vanguardia de las prácticas de energía sostenible.
 Y por último…
 
-#### Comparaciones Justas
+#### Comparaciones justas
 
 Queremos empezar diciendo: **Todo consume energía**, ya sea que nos demos cuenta o no. Incluso una acción simple, como correr con tu perro, requiere alimentarte a ti y a tu compañero peludo. Tanto tú como tu perro son consumidores de energía.
 
@@ -1359,7 +1359,7 @@ Además, cuando consideramos los amplios beneficios que Bitcoin proporciona, inc
 - Acceso bancario para la población no bancarizada
 - Transacciones globales de igual a igual sin intermediarios
 - Opciones de remesas rentables para que las personas envíen dinero a sus familias
-- Un sistema de moneda digital sin confianza y sin permisos
+- Un sistema de moneda digital confiable y sin permisos
 - Un medio para que aquellos que viven bajo regímenes autoritarios ahorren y transporten valor de manera segura
 - Monetización directa de energía varada
 
@@ -1405,9 +1405,9 @@ Un desvinculamiento ocurre cuando una stablecoin ya no tiene las reservas necesa
 
 Permítanos explicar. Supongamos que un exchange más pequeño carece de la capacidad para redimir el activo subyacente de valor, y hay una fuerte presión de venta de personas que buscan retirar el activo subyacente de valor que respalda la stablecoin. En ese caso, el precio de la stablecoin puede caer temporalmente por debajo de su precio ideal vinculado. Esta desviación temporal del vinculo es un suceso a corto plazo y debería normalizarse una vez que el exchange obtenga los activos subyacentes necesarios para satisfacer las necesidades de sus clientes. Esta volatilidad de precio temporal no necesariamente indica que la stablecoin ha fallado y está colapsando. En cambio, refleja niveles bajos de liquidez que impactan la capacidad de los usuarios para retirar fondos de manera oportuna.
 
-Por otro lado, también es posible observar stablecoins comerciando por encima de su precio vinculado. Esta situación surge cuando la demanda de stablecoins supera la capacidad de un exchange para satisfacer las demandas de los clientes. Típicamente, este fenómeno ocurre en exchanges más pequeños que carecen de un vínculo directo con la stablecoin y cuando el activo subyacente mantiene un valor significativo, lo que lleva a las personas a pagar un precio premium para adquirirlo. Por ejemplo, considera un escenario donde individuos que residen en un país autoritario que experimenta inflación rampante buscan refugio en stablecoins como USDt. En tales casos, las personas pueden estar dispuestas a pagar un premium para obtener dólares en forma de USDt. Esta disposición proviene de la comprensión de que no hacerlo los expondría a una mayor disminución de su poder adquisitivo causada por el ambiente inflacionario.
+Por otro lado, también es posible observar stablecoins comerciando por encima de su precio vinculado. Esta situación surge cuando la demanda de stablecoins supera la capacidad de un exchange para satisfacer las demandas de los clientes. Típicamente, este fenómeno ocurre en exchanges más pequeños que carecen de un vínculo directo con la stablecoin y cuando el activo subyacente mantiene un valor significativo, lo que lleva a las personas a pagar un precio premium para adquirirlo. Por ejemplo, considera un escenario donde individuos que residen en un país autoritario que experimenta inflación rampante buscan refugio en stablecoins como USDT. En tales casos, las personas pueden estar dispuestas a pagar un premium para obtener dólares en forma de USDT. Esta disposición proviene de la comprensión de que no hacerlo los expondría a una mayor disminución de su poder adquisitivo causada por el ambiente inflacionario.
 
-A la luz de esto, la volatilidad de precios está fuera del control de los emisores de stablecoin, como Tether, ya que no interactúan directamente con el cliente. En cambio, los clientes obtienen USDt a través de exchanges. Por lo tanto, dependen del exchange para mantener una liquidez adecuada de stablecoin/activo subyacente para satisfacer las necesidades de sus clientes.
+A la luz de esto, la volatilidad de precios está fuera del control de los emisores de stablecoin, como Tether, ya que no interactúan directamente con el cliente. En cambio, los clientes obtienen USDT a través de exchanges. Por lo tanto, dependen del exchange para mantener una liquidez adecuada de stablecoin/activo subyacente para satisfacer las necesidades de sus clientes.
 
 En resumen, la próxima vez que una stablecoin se comercie por encima o por debajo de su precio previsto, ten en cuenta la distinción entre la volatilidad de precio a corto plazo causada por problemas de liquidez y un evento genuino de desvinculación.
 
@@ -1415,20 +1415,20 @@ En resumen, la próxima vez que una stablecoin se comercie por encima o por deba
 
 Al abordar el concepto erróneo de que los stablecoins pueden congelar tus fondos debido a su naturaleza centralizada, es importante enfatizar la distinción entre entidades centralizadas y descentralizadas, cada una con sus propias ventajas y desventajas. Aunque abogamos fuertemente por activos descentralizados como Bitcoin, esto no significa que los stablecoins centralizados carezcan de valor o beneficios.
 
-Una de las principales ventajas de la centralización es la capacidad de intervenir cuando está en el mejor interés de los usuarios y la estabilidad general del sistema. Aunque es cierto que los emisores de stablecoins tienen el potencial de congelar fondos, en esencialmente todas las instancias, esto no se utiliza como un ataque malicioso contra el poseedor del stablecoin. En cambio, se hace en conjunto con la aplicación de la ley para proteger a los consumidores. Un ejemplo notable es el caso del colapso del intercambio FTX. En colaboración con la aplicación de la ley, Tether congeló [\$46 millones](https://www.coindesk.com/business/2022/11/10/tether-freezes-46m-of-usdt-following-law-enforcement-request/) de USDt para proteger los fondos de los consumidores.
+Una de las principales ventajas de la centralización es la capacidad de intervenir cuando está en el mejor interés de los usuarios y la estabilidad general del sistema. Aunque es cierto que los emisores de stablecoins tienen el potencial de congelar fondos, en esencialmente todas las instancias, esto no se utiliza como un ataque malicioso contra el poseedor del stablecoin. En cambio, se hace en conjunto con la aplicación de la ley para proteger a los consumidores. Un ejemplo notable es el caso del colapso del intercambio FTX. En colaboración con la aplicación de la ley, Tether congeló [\$46 millones](https://www.coindesk.com/business/2022/11/10/tether-freezes-46m-of-USDT-following-law-enforcement-request/) de USDT para proteger los fondos de los consumidores.
 
-Otra instancia que demuestra los beneficios de la intervención centralizada ocurrió después del [hackeo de KuCoin](https://cointelegraph.com/news/tether-freezes-150-million-in-usdt) en septiembre de 2020. Tether congeló aproximadamente \$35 millones de USDt para evitar que los hackers se beneficiaran de sus actividades ilícitas. Estos ejemplos destacan cómo los stablecoins centralizados, en ciertos escenarios, pueden responder rápidamente a actores maliciosos y salvaguardar los intereses de sus usuarios.
+Otra instancia que demuestra los beneficios de la intervención centralizada ocurrió después del [hackeo de KuCoin](https://cointelegraph.com/news/tether-freezes-150-million-in-USDT) en septiembre de 2020. Tether congeló aproximadamente \$35 millones de USDT para evitar que los hackers se beneficiaran de sus actividades ilícitas. Estos ejemplos destacan cómo los stablecoins centralizados, en ciertos escenarios, pueden responder rápidamente a actores maliciosos y salvaguardar los intereses de sus usuarios.
 
-Con esto en mente, mientras priorizamos bitcoin para ahorros a largo plazo debido a la ausencia de intermediarios o individuos que puedan cooptar la red, los stablecoins centralizados aún poseen varios beneficios, es decir, mientras la naturaleza centralizada de los stablecoins permite la congelación potencial de fondos, esta característica puede ser una herramienta valiosa en la lucha contra actividades ilícitas y la protección de los usuarios.
+Con esto en mente, mientras priorizamos bitcoin para ahorros a largo plazo debido a la ausencia de intermediarios o individuos que puedan cooptar la red, las stablecoins centralizados aún poseen varios beneficios, es decir, mientras la naturaleza centralizada de las stablecoins permite la congelación potencial de fondos, esta característica puede ser una herramienta valiosa en la lucha contra actividades ilícitas y la protección de los usuarios.
 
 #### Concepto erróneo cuatro: Perderás tus fondos si la cadena subyacente se cae
 
-Uno de los conceptos erróneos comunes sobre los stablecoins es que perderás tus fondos si la cadena subyacente de un stablecoin se cae. Por lo tanto, sentimos que es importante explicar cómo operan los stablecoins en su capa de transporte, como TRON, Ethereum y Algorand, entre otros. Aunque inicialmente puede ser preocupante perder acceso a tus stablecoins cuando la cadena subyacente enfrenta problemas, te alegrará saber que hay medidas en lugar para salvaguardar tus fondos.
+Uno de los conceptos erróneos comunes sobre las stablecoins es que perderás tus fondos si la cadena subyacente de un stablecoin se cae. Por lo tanto, sentimos que es importante explicar cómo operan los stablecoins en su capa de transporte, como TRON, Ethereum y Algorand, entre otros. Aunque inicialmente puede ser preocupante perder acceso a tus stablecoins cuando la cadena subyacente enfrenta problemas, te alegrará saber que hay medidas en lugar para salvaguardar tus fondos.
 
-Tomemos, por ejemplo, USDt. Muchos caen en la trampa de pensar que el respaldo en USD de USDt se encuentra en la capa de transporte. En realidad, el USD se mantiene en reservas por Tether y no directamente por la cadena subyacente. Por lo tanto, si la cadena en la que mantienes USDt experimenta una interrupción, no significa que las reservas subyacentes de USD se pierdan. En cambio, es probable que se desarrolle uno de dos escenarios:
+Tomemos, por ejemplo, USDT. Muchos caen en la trampa de pensar que el respaldo en USD de USDT se encuentra en la capa de transporte. En realidad, el USD se mantiene en reservas por Tether y no directamente por la cadena subyacente. Por lo tanto, si la cadena en la que mantienes USDT experimenta una interrupción, no significa que las reservas subyacentes de USD se pierdan. En cambio, es probable que se desarrolle uno de dos escenarios:
 
 1. En la mayoría de los casos, las interrupciones en la cadena subyacente son contratiempos temporales, y la cadena reanudará su funcionamiento en breve. Estas interrupciones suelen resolverse, permitiendo a los usuarios recuperar el acceso a sus stablecoins.
-2. En casos más significativos, como un hackeo mayor o fallo de la cadena, Tether puede tomar medidas correctivas. Pueden establecer un sitio web de preparación para los poseedores de USDt de la cadena no funcional. A través de este sitio web, los usuarios pueden entonces probar la propiedad de sus tokens USDt usando sus claves privadas. Una vez confirmada la propiedad, Tether puede quemar los tokens USDt no funcionales en posesión de los usuarios y reemitirlos en una cadena funcional. Estos tokens USDt reemitidos se envían entonces a los usuarios, asegurando la continuidad de sus fondos.
+2. En casos más significativos, como un hackeo mayor o fallo de la cadena, Tether puede tomar medidas correctivas. Pueden establecer un sitio web de preparación para los poseedores de USDT de la cadena no funcional. A través de este sitio web, los usuarios pueden entonces probar la propiedad de sus tokens USDT usando sus claves privadas. Una vez confirmada la propiedad, Tether puede quemar los tokens USDT no funcionales en posesión de los usuarios y reemitirlos en una cadena funcional. Estos tokens USDT reemitidos se envían entonces a los usuarios, asegurando la continuidad de sus fondos.
    Con esto en mente, existen medidas en lugar que, incluso si la cadena subyacente de una stablecoin encuentra dificultades, los emisores de stablecoin tienen pasos que pueden tomar para que puedas recuperar tus fondos.
    En resumen, aunque es natural tener preocupaciones sobre perder acceso a tus fondos si la cadena subyacente de una stablecoin falla, es importante reconocer los planes de contingencia y procesos establecidos por los emisores de stablecoin.
 
@@ -1458,7 +1458,7 @@ Aquí hay solo algunos ejemplos de las condiciones que las mujeres alrededor del
 
 Estos son solo algunos ejemplos de los tipos de obstáculos que las mujeres en muchas sociedades actuales todavía enfrentan cuando se trata de acceder a servicios financieros y lograr la independencia financiera.
 
-Esta falta de acceso a servicios fundamentales hace increíblemente difícil para estas mujeres lograr la independencia económica y tomar control de sus vidas financieras. Sin embargo, hay esperanza en el horizonte. Desde el surgimiento de Bitcoin, estas mujeres ahora tienen una solución a este problema. A través de una simple conexión a internet, ahora tienen acceso a un medio de intercambio sin confianza, sin permisos y descentralizado que la industria bancaria tradicional ha fallado en proporcionar. Bitcoin está empoderando a mujeres que han sido dejadas atrás por el sistema financiero tradicional.
+Esta falta de acceso a servicios fundamentales hace increíblemente difícil para estas mujeres lograr la independencia económica y tomar control de sus vidas financieras. Sin embargo, hay esperanza en el horizonte. Desde el surgimiento de Bitcoin, estas mujeres ahora tienen una solución a este problema. A través de una simple conexión a internet, ahora tienen acceso a un medio de intercambio confiable, sin permisos y descentralizado que la industria bancaria tradicional ha fallado en proporcionar. Bitcoin está empoderando a mujeres que han sido dejadas atrás por el sistema financiero tradicional.
 
 Veamos un ejemplo de cómo Bitcoin ha transformado la vida de las mujeres...
 
@@ -1468,14 +1468,16 @@ Sin embargo, en los últimos años, Bitcoin ha surgido como una herramienta pode
 
 Mientras el mundo observaba con horror cómo los talibanes tomaban el control de Afganistán en [1996](https://bitcoinmagazine.com/culture/bitcoin-financial-freedom-in-afghanistan#:~:text=She%20and%20the%20women%20liked,privacy%20and%20peace%20of%20mind.%E2%80%9D), esta joven, Roya, vivía en el corazón del conflicto. A tan solo siete años, se encontró atrapada en la turbulencia e incertidumbre de la guerra mientras su ciudad natal era invadida y ocupada por los talibanes. A pesar del peligro y la adversidad que enfrentó, además del hecho de que no podía ir a la escuela, Roya se negó a ser derrotada. En cambio, se volcó a la educación como una forma de superar las limitaciones impuestas por sus circunstancias.
 
-![imagen](assets/en/005.webp) **Figura:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-bitcoin-to-empower-women/?sh=df9cbbb59724)
+![imagen](assets/en/005.webp) 
+
+**Figura:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-bitcoin-to-empower-women/?sh=df9cbbb59724)
 Roya Mahboob es una pionera en el campo de la tecnología y el emprendimiento en Afganistán. No solo fue [nombrada](https://www.wto.org/english/thewto_e/acc_e/01_b_roya_mahboob_bio.pdf) por la revista TIME como una de las 100 Personas Más Influyentes del Mundo en 2013 después de "construir aulas de internet en escuelas secundarias en Afganistán". También fundó la Afghan Citadel Software Company en 2010, que tiene como objetivo "crear empleos para recién graduados universitarios - especialmente mujeres". Y si eso no fuera suficiente, luego pasó a iniciar el Digital Citizen Fund. Esta organización sin fines de lucro trabaja para empoderar a mujeres y niños en países en desarrollo a través de la tecnología.
 
 Sin embargo, a lo largo de este viaje, Roya no estuvo sola. Bitcoin ha demostrado ser una herramienta invaluable en su misión de empoderar a las mujeres. A pesar de enfrentar numerosos obstáculos, incluidas barreras legales que impiden que las mujeres trabajen y abran cuentas bancarias, Roya estaba decidida a encontrar una manera de pagar a las mujeres que trabajaban con ella.
 
 Aquí es donde entra Bitcoin... Dado que poseer bitcoin no requiere que el propietario tenga una cuenta bancaria tradicional, cualquiera con una conexión a internet puede usarlo. Esto significa que las mujeres en Afganistán que pueden no tener acceso a servicios bancarios tradicionales aún pueden acceder a servicios financieros a través de Bitcoin.
 
-Por lo tanto, dadas sus características de ser sin confianza, sin permisos y descentralizado, proporcionó un salvavidas para estas mujeres que anteriormente habían sido excluidas del sistema financiero tradicional.
+Por lo tanto, dadas sus características de ser confiable, sin permisos y descentralizado, proporcionó un salvavidas para estas mujeres que anteriormente habían sido excluidas del sistema financiero tradicional.
 
 Roya Mahboob reconoció este potencial desde el principio y comenzó a incorporarlo en su trabajo con el Digital Citizen Fund. Vio que Bitcoin podría proporcionar una manera para que las mujeres en Afganistán accedieran a servicios financieros y tomaran control de sus vidas financieras.
 
@@ -1521,43 +1523,49 @@ Propietario de un Café, Vietnam
 “En mi café en el distrito de Binh Thanh, atendemos a una clientela joven y turistas ocasionales, ofreciendo una variedad de bebidas, incluyendo café, refrescos y cócteles. Tether se ha convertido en nuestra solución preferida para procesar pagos de clientes extranjeros que carecen de moneda local o cuentas bancarias. Aunque las ventas a través de Tether pueden ser pequeñas actualmente, nos proporciona una manera conveniente de cerrar la brecha de moneda y acomodar a nuestros clientes internacionales. Los clientes a menudo se asombran de nuestra apertura a aceptar pagos en criptomonedas, dejando una impresión duradera en su experiencia."
 
 ![image](assets/en/006.webp)
+
 Parvinee Ratchaphokhinpiti
 Jubilado, Tailandia
 
-“USDt revolucionó mis transferencias de dinero internacionales. Como jubilado, solía depender de transferencias bancarias lentas. Gracias a USDt, ahora puedo enviar dinero sin esfuerzo a través de un intercambio de activos digitales. En 30 minutos, mi hermana recibió los fondos. Los beneficios en términos de ahorro de tiempo son invaluables, asegurando transacciones rápidas y sin complicaciones.”
+“USDT revolucionó mis transferencias de dinero internacionales. Como jubilado, solía depender de transferencias bancarias lentas. Gracias a USDT, ahora puedo enviar dinero sin esfuerzo a través de un intercambio de activos digitales. En 30 minutos, mi hermana recibió los fondos. Los beneficios en términos de ahorro de tiempo son invaluables, asegurando transacciones rápidas y sin complicaciones.”
 
 ![image](assets/en/007.webp)
+
 Jamie Tran
 Profesor de Piano, Vietnam
 
-"Enviar dinero a mis familiares en el extranjero ha sido una necesidad frecuente, pero el proceso de convertir monedas en casas de cambio locales resultaba tanto lento como costoso. Para abordar estos desafíos, presenté a mis familiares la conveniencia de usar USDt. Este simple cambio ha permitido a nuestra familia ahorrar tiempo y dinero significativos en nuestras transacciones financieras. Con USDt, ahora disfrutamos de transferencias al extranjero simplificadas, asegurando un soporte eficiente y rentable para nuestros seres queridos."
+"Enviar dinero a mis familiares en el extranjero ha sido una necesidad frecuente, pero el proceso de convertir monedas en casas de cambio locales resultaba tanto lento como costoso. Para abordar estos desafíos, presenté a mis familiares la conveniencia de usar USDT. Este simple cambio ha permitido a nuestra familia ahorrar tiempo y dinero significativos en nuestras transacciones financieras. Con USDT, ahora disfrutamos de transferencias al extranjero simplificadas, asegurando un soporte eficiente y rentable para nuestros seres queridos."
 
 ![image](assets/en/008.webp)
+
 Roman
 Expatriado Ruso viviendo en Vietnam
 
 “Viviendo en Vietnam, frecuentemente envío Tether a mis familiares y primos en Rusia. Transferir dinero al extranjero con Tether es sin complicaciones en comparación con usar métodos bancarios tradicionales. No se requieren visitas al banco, documentos notariados ni explicaciones. Sin límites de envío, tarifas mínimas y transacciones rápidas, los fondos se entregan en minutos.”
 
 ![image](assets/en/009.webp)
+
 Luis Graterol
 Audiovisual, Venezuela
 
-“Mi nombre es Luis Graterol, y Tether me ayudó a asegurar mis ahorros de otra manera. En Venezuela, sufrimos debido a la alta inflación, y Tether ha ayudado mucho. Su usabilidad es simple, y en muchos casos, puedes realizar transacciones sin ninguna tarifa. ¡USDt hace mi vida más fácil! También me ayuda a educar y fomentar su uso en los medios audiovisuales; desde que descubrí su facilidad, recibo mis pagos por USDt, y me ahorro el tedioso fiat local que afecta a muchos de nosotros!”
+“Mi nombre es Luis Graterol, y Tether me ayudó a asegurar mis ahorros de otra manera. En Venezuela, sufrimos debido a la alta inflación, y Tether ha ayudado mucho. Su usabilidad es simple, y en muchos casos, puedes realizar transacciones sin ninguna tarifa. ¡USDT hace mi vida más fácil! También me ayuda a educar y fomentar su uso en los medios audiovisuales; desde que descubrí su facilidad, recibo mis pagos por USDT, y me ahorro el tedioso fiat local que afecta a muchos de nosotros!”
 
 ![image](assets/en/010.webp)
+
 Dubraska Villanloga
 CEO Tu Cachapa Caricuao, Caracas, Venezuela
 
-“Soy de Venezuela y dirijo un pequeño negocio de entrega de desayunos. Tether USDt ha sido una solución viable para el problema del efectivo físico para mí. USDt también me ha ayudado con mis ahorros porque si mantuviera las cuentas de mi negocio en Bolívar Venezolano, no podría haber planificado con anticipación mi abastecimiento de alimentos debido a la constante devaluación”
+“Soy de Venezuela y dirijo un pequeño negocio de entrega de desayunos. Tether USDT ha sido una solución viable para el problema del efectivo físico para mí. USDT también me ha ayudado con mis ahorros porque si mantuviera las cuentas de mi negocio en Bolívar Venezolano, no podría haber planificado con anticipación mi abastecimiento de alimentos debido a la constante devaluación”
+
 Marcela Romero
 Gerente de Marketing y RR.PP., Guanacaste, Costa Rica
 
-“Hace unos años, me mudé al país de mi esposo. Debido a la pandemia, enfrenté una condición migratoria única, resultando en una larga espera por la residencia o ciudadanía. Durante casi tres años, carecí de acceso a una cuenta bancaria y no pude trabajar legalmente en el país. Sin embargo, aprovechando mis capacidades de trabajo en línea y recibiendo mi salario en USDt, continué mi carrera de forma remota con empresas internacionales. Con Tether, puedo enviar dinero a casa instantáneamente sin altas comisiones ni demoras. Tether me ha permitido perseguir mis objetivos profesionales y mantener mi independencia financiera a pesar de las restricciones gubernamentales.”
+“Hace unos años, me mudé al país de mi esposo. Debido a la pandemia, enfrenté una condición migratoria única, resultando en una larga espera por la residencia o ciudadanía. Durante casi tres años, carecí de acceso a una cuenta bancaria y no pude trabajar legalmente en el país. Sin embargo, aprovechando mis capacidades de trabajo en línea y recibiendo mi salario en USDT, continué mi carrera de forma remota con empresas internacionales. Con Tether, puedo enviar dinero a casa instantáneamente sin altas comisiones ni demoras. Tether me ha permitido perseguir mis objetivos profesionales y mantener mi independencia financiera a pesar de las restricciones gubernamentales.”
 
 Simoneth Gomez
 Ingeniera de QA, Venezuela, viviendo en Argentina
 
-“Hola, mi nombre es Simoneth Gomez. Soy de Venezuela, pero actualmente vivo en Buenos Aires, donde trabajo como analista de calidad de software. Cuando llegué a Argentina, tenía una distancia de 12 km entre mi trabajo y el lugar donde tenía que cambiar dinero para enviar a mi familia en Venezuela. Así que me presentaron a USDt y comencé a usarlo porque, en lugar de tener que recorrer esa ruta por \$5 o \$10 en autobús, pude resolverlo desde mi escritorio en dos minutos”
+“Hola, mi nombre es Simoneth Gomez. Soy de Venezuela, pero actualmente vivo en Buenos Aires, donde trabajo como analista de calidad de software. Cuando llegué a Argentina, tenía una distancia de 12 km entre mi trabajo y el lugar donde tenía que cambiar dinero para enviar a mi familia en Venezuela. Así que me presentaron a USDT y comencé a usarlo porque, en lugar de tener que recorrer esa ruta por \$5 o \$10 en autobús, pude resolverlo desde mi escritorio en dos minutos”
 
 Carlos Caballero
 Psicólogo, Argentina
@@ -1567,12 +1575,12 @@ Psicólogo, Argentina
 Heloisa Passos
 CEO de Sp4ce Games, Brasil
 
-"He estado trabajando de forma remota para empresas internacionales durante unos cinco años ahora, y la mayor parte de ese tiempo, sufrí con las altas tasas de interés de los bancos nacionales, que cobran un gran porcentaje por cada remesa internacional realizada, además del tiempo de espera para la liquidación de pagos a través del sistema Swift (unas 24 horas). Cuando comencé a recibir mi salario en Tether, me di cuenta de cuánto tiempo y dinero comencé a ahorrar simplemente al ser pagada en USDt."
+"He estado trabajando de forma remota para empresas internacionales durante unos cinco años ahora, y la mayor parte de ese tiempo, sufrí con las altas tasas de interés de los bancos nacionales, que cobran un gran porcentaje por cada remesa internacional realizada, además del tiempo de espera para la liquidación de pagos a través del sistema Swift (unas 24 horas). Cuando comencé a recibir mi salario en Tether, me di cuenta de cuánto tiempo y dinero comencé a ahorrar simplemente al ser pagada en USDT."
 
 Samuel
-Empresa de Trading, Nigeria
+Empresa de trading, Nigeria
 
-“Usar USDt ha ahorrado a nuestro negocio mucho tiempo porque, como un negocio nigeriano que obtiene USD requiere ir a nuestro banco mientras se pasa un tiempo valioso llenando formularios y haciendo cola durante horas para hacer retiros o transferencias. Con USDt, sin embargo, podemos cambiarlo por moneda local en menos de 5 minutos y ejecutar cualquier transacción que podríamos tener.”
+“Usar USDT ha ahorrado a nuestro negocio mucho tiempo porque, como un negocio nigeriano que obtiene USD requiere ir a nuestro banco mientras se pasa un tiempo valioso llenando formularios y haciendo cola durante horas para hacer retiros o transferencias. Con USDT, sin embargo, podemos cambiarlo por moneda local en menos de 5 minutos y ejecutar cualquier transacción que podríamos tener.”
 
 Joshua
 Estudiante, Nigeria
@@ -1582,17 +1590,17 @@ Estudiante, Nigeria
 Esther
 Agencia de RR.HH., Nigeria
 
-“En la industria de RR.HH., tenemos muchas personas a las que pagar en diferentes países. Y simplemente no podemos pagar a todos en su moneda nacional. Con Tether USDt, podemos pagar a todos independientemente de su nacionalidad y desde donde estén trabajando, y ellos pueden cambiar el USDt ellos mismos cuando quieran.“
+“En la industria de RR.HH., tenemos muchas personas a las que pagar en diferentes países. Y simplemente no podemos pagar a todos en su moneda nacional. Con Tether USDT, podemos pagar a todos independientemente de su nacionalidad y desde donde estén trabajando, y ellos pueden cambiar el USDT ellos mismos cuando quieran.“
 
 ### **Conclusión**
 
-Esperamos que hayas encontrado estas historias inspiradoras. Dicho esto, debería quedar claro que los stablecoins, como USDt, juegan un papel fundamental al permitir a los individuos acceso a transferencias internacionales rápidas y eficientes, facturación y pagos en USD, salarios denominados en USD y, lo más importante, un almacén de valor relativamente estable en comparación con las innumerables monedas volátiles. Sin los stablecoins, muchos de estos individuos enfrentarían barreras significativas al intentar acceder al mercado global, conectarse con familiares internacionales o alcanzar clientes de otro modo inaccesibles. Los stablecoins han mejorado indudablemente su conectividad financiera y proporcionado una herramienta valiosa para navegar las complejidades de nuestra economía global.
+Esperamos que hayas encontrado estas historias inspiradoras. Dicho esto, debería quedar claro que las stablecoins, como USDT, juegan un papel fundamental al permitir a los individuos acceso a transferencias internacionales rápidas y eficientes, facturación y pagos en USD, salarios denominados en USD y, lo más importante, un almacén de valor relativamente estable en comparación con las innumerables monedas volátiles. Sin las stablecoins, muchos de estos individuos enfrentarían barreras significativas al intentar acceder al mercado global, conectarse con familiares internacionales o alcanzar clientes de otro modo inaccesibles. Las stablecoins han mejorado indudablemente su conectividad financiera y proporcionado una herramienta valiosa para navegar las complejidades de nuestra economía global.
 
 ## Examen
 
 <chapterId>3b23b0ae-41a7-53b0-bc48-7343a64f28bc</chapterId>
 
-Ahora que has pasado por el Módulo "Superando Dudas", tendrás que poner a prueba tus conocimientos recién adquiridos para asegurarte de que has comprendido las últimas secciones. Comenzaremos con varias Preguntas Abiertas y luego un pequeño cuestionario.
+Ahora que has pasado por el Módulo "Superando dudas", tendrás que poner a prueba tus conocimientos recién adquiridos para asegurarte de que has comprendido las últimas secciones. Comenzaremos con varias preguntas abiertas y luego un pequeño cuestionario.
 
 1. ¿Cómo ves el concepto de valor en relación con bitcoin? ¿Crees que es necesario que una moneda esté respaldada por algo tangible para ser valiosa?
 2. Reflexionando sobre el trabajo de Roya Mahboob con el Digital Citizen Fund y la Women's Annex Foundation, ¿cuáles crees que son los beneficios clave de incorporar tecnología y Bitcoin en iniciativas dirigidas a empoderar a mujeres en países en desarrollo?
@@ -1609,26 +1617,26 @@ Ahora que has pasado por el Módulo "Superando Dudas", tendrás que poner a prue
 - La fascinante historia del dinero.
 - La revolucionaria invención que es Bitcoin.
 - El mundo de Tether y sus diversas ofertas de stablecoins.
-- Separar los hechos de la ficción en torno a los muchos conceptos erróneos asociados con Bitcoin y los Stablecoins.
+- Separar los hechos de la ficción en torno a los muchos conceptos erróneos asociados con Bitcoin y las Stablecoins.
 - Varios ejemplos de la vida real que muestran cómo estas tecnologías se utilizan activamente en nuestro mundo dinámico y en constante cambio.
 
-Dicho esto, si hubiera una conclusión principal de este curso, giraría en torno a comprender la distinción entre Bitcoin y los stablecoins al reconocer las propuestas de valor únicas que cada una de estas tecnologías aporta a la mesa.
+Dicho esto, si hubiera una conclusión principal de este curso, giraría en torno a comprender la distinción entre Bitcoin y las stablecoins al reconocer las propuestas de valor únicas que cada una de estas tecnologías aporta a la mesa.
 
-Los stablecoins de Tether ofrecen una solución valiosa para individuos que enfrentan desafíos económicos, viven bajo regímenes autoritarios o carecen de acceso a monedas estables o sistemas bancarios tradicionales. Proporcionan a cualquiera los medios para acceder a monedas más estables, facilitar pagos digitales y habilitar la movilidad de riqueza transfronteriza. Sin embargo, es esencial reconocer que los stablecoins no están exentos de riesgos. No solo las monedas fiduciarias han demostrado perder valor a largo plazo, sino que la mayoría de los stablecoins dependen de emisores de terceros, lo que requiere una confianza inherente. Esto no debe tomarse a la ligera. Por lo tanto, es de suma importancia realizar una diligencia debida exhaustiva antes de almacenar riqueza en stablecoins.
-Por otro lado, Bitcoin ofrece una solución a problemas históricos asociados con la mayoría de las formas de dinero—centralizadas y propensas a la devaluación—al ofrecer el potencial a largo plazo para un aumento del poder adquisitivo a través de una capa base digital descentralizada construida alrededor de la escasez de oferta, lo que pone la gobernanza en manos de los usuarios. Aunque la volatilidad a corto plazo de bitcoin puede ser una barrera de entrada para personas con capital limitado, para aquellos que tienen la capacidad de mirar a largo plazo, su capacidad para transformar vidas a través de la acumulación de riqueza a largo plazo es notable e indiscutible.
+Las stablecoins de Tether ofrecen una solución valiosa para individuos que enfrentan desafíos económicos, viven bajo regímenes autoritarios o carecen de acceso a monedas estables o sistemas bancarios tradicionales. Proporcionan a cualquiera los medios para acceder a monedas más estables, facilitar pagos digitales y habilitar la movilidad de riqueza transfronteriza. Sin embargo, es esencial reconocer que los stablecoins no están exentos de riesgos. No solo las monedas fiduciarias han demostrado perder valor a largo plazo, sino que la mayoría de las stablecoins dependen de emisores de terceros, lo que requiere una confianza inherente. Esto no debe tomarse a la ligera. Por lo tanto, es de suma importancia realizar una diligencia debida exhaustiva antes de almacenar riqueza en stablecoins.
+Por otro lado, Bitcoin ofrece una solución a problemas históricos asociados con la mayoría de las formas de dinero —centralizadas y propensas a la devaluación— al ofrecer el potencial a largo plazo para un aumento del poder adquisitivo a través de una capa base digital descentralizada construida alrededor de la escasez de oferta, lo que pone la gobernanza en manos de los usuarios. Aunque la volatilidad a corto plazo de bitcoin puede ser una barrera de entrada para personas con capital limitado, para aquellos que tienen la capacidad de mirar a largo plazo, su capacidad para transformar vidas a través de la acumulación de riqueza a largo plazo es notable e indiscutible.
 
 A lo largo de nuestro viaje juntos, nuestro objetivo ha sido doble: proporcionarte una comprensión más profunda de cómo el dinero tiene el potencial de dar forma al futuro y, más importante aún, empoderarte con el conocimiento necesario para tomar decisiones más informadas y participar con mayor confianza en el mundo digital global. Esperamos haber alcanzado estos objetivos.
 
 Al concluir este curso, esperamos que apliques el conocimiento adquirido aquí en tus empeños personales o profesionales. Ya sea que te encuentres navegando desafíos financieros, impulsado por la curiosidad, aspirando a invertir, o buscando aprovechar estas tecnologías para emprendimientos comerciales, esperamos que las valiosas perspectivas obtenidas de este curso se vuelvan invaluables en tu camino.
 
 ¡Que este nuevo entendimiento te empodere para navegar el mundo evolutivo de las finanzas con confianza y propósito! ¡La mejor de las suertes en tu camino de crecimiento y descubrimiento!
-¡El Futuro es Brillante!
+¡El futuro es brillante!
 
 # Sección final
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 
-## Reseñas & Valoraciones
+## Reseñas & valoraciones
 
 <chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
 <isCourseReview>true</isCourseReview>

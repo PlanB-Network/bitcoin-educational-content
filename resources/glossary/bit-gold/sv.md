@@ -1,5 +1,6 @@
 ---
-term: BIT GULD
+term: Bit gold
+definition: Nick Szabos koncept för en decentraliserad digital valuta från 1998, en föregångare till Bitcoin.
 ---
 
 Bitguld är ett decentraliserat digitalt valutasystem som konceptualiserades av Nick Szabo 1998 och beskrevs offentligt 2005. Bitguld var utformat för att generate och Exchange en virtuell resurs som kallas bitguld. Detta system baserades inte på någon fysisk vara utan syftade till att skapa en form av oförfalskad knapphet. Bitguldprotokollet byggde på valutaskapande genom Proof of Work, där bitar av bitguld skapades med hjälp av datorers beräkningskraft och på så sätt bildade en kedja av Proof of Work. Varje Proof of Work tidsstämplades och lades sedan till i ett fastighetsregister. Verifieringen och överföringen av bitguld Ownership skedde via ett offentligt register där användarna identifierades med hjälp av offentliga nycklar. Bitguld förblev på konceptstadiet och implementerades aldrig. Detta system är en av föregångarna till Bitcoin, tillsammans med b-money och RPoW, men Satoshi verkade inte vara medvetna om dess existens innan Bitcoin skapades. Det nämndes senare på Bitcoin:s webbplats och forum.

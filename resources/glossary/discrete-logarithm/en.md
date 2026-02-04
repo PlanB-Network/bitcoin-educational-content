@@ -1,5 +1,6 @@
 ---
-term: DISCRETE LOGARITHM
+term: Discrete logarithm
+definition: Difficult-to-solve mathematical problem constituting the foundation of Bitcoin's cryptographic security.
 ---
 
 The discrete logarithm is a mathematical problem that is used in some public key cryptographic algorithms. In a cyclic group of order $q$, with a generator $g$, if one has an equation of the form $g^x = h$, then $x$ is called the discrete logarithm of $h$ with respect to the base $g$, modulo $q$. In simple terms, it involves determining the exponent $x$ when $g$, $h$, and $q$ are known. The discrete logarithm is thus the inverse of the exponential in a finite cyclic group. However, for large values of $q$, solving the discrete logarithm problem is considered algorithmically difficult. This property is exploited to ensure the security of many cryptographic protocols, such as the Diffie-Hellman protocol for key exchange.

@@ -1,6 +1,7 @@
 ---
-term: RECURSICE (COVENANT)
+term: Kovenan rekursif
 
+definition: Covenant yang membebankan syarat pada transaksi saat ini dan semua transaksi berikutnya tanpa batas waktu.
 ---
 _Covenant_ rekursif pada Bitcoin adalah sebuah jenis kontrak pintar yang memberlakukan ketentuan tidak hanya pada transaksi saat ini tetapi juga pada transaksi di masa depan yang menggunakan hasil dari transaksi ini. Hal ini memungkinkan terciptanya rantai transaksi di mana masing-masing harus mematuhi aturan tertentu yang ditentukan oleh rantai pertama. Rekursivitas menciptakan urutan transaksi di mana masing-masing mewarisi batasan dari transaksi induknya. Hal ini memungkinkan kontrol yang kompleks dan jangka panjang atas bagaimana bitcoin dapat digunakan, tetapi juga akan menimbulkan risiko terkait kebebasan penggunaan dan kesepadanan.
 

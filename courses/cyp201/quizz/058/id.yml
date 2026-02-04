@@ -6,3 +6,4 @@ wrong_answers:
   - AES-256
 explanation: |
   Seed dihasilkan menggunakan fungsi PBKDF2 dengan HMAC-SHA512 dan 2048 iterasi, dari frasa mnemonik dan passphrase.
+reviewed: true

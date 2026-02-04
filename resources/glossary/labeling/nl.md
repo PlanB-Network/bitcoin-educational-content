@@ -1,5 +1,6 @@
 ---
-term: ETIKETTERING
+term: Labeling
+definition: Praktijk van het toekennen van annotaties aan UTXO's om fondsbeheer en privacy te vergemakkelijken.
 ---
 
 De praktijk van het toekennen van een annotatie of label aan een specifieke UTXO in een Bitcoin Wallet. Als ik bijvoorbeeld een UTXO heb van een P2P aankoop op Bisq met Charles, kan ik het labelen als "`Non-KYC Bisq Charles`".

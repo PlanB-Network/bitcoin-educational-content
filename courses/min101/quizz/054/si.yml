@@ -1,0 +1,9 @@
+question: බිට්කොයින් ගෙවීම් ඉතිහාසය සටහන් කරනු ලබන හවුල් පොදු ලේඛනය (shared public ledger) හඳුන්වන්නේ කුමන නමකින්ද?
+answer: බ්ලොක්චේන් (Blockchain)
+wrong_answers:
+  - මෙම්පූල් (mempool)
+  - වොලට් (wallet)
+  - හෑෂ් රේට් (hashrate)
+explanation: |
+  සියලුම ගනුදෙනු අඩංගු හවුල් පොදු පොත බ්ලොක්චේන් එකයි.
+reviewed: false

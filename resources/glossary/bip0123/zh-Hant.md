@@ -1,5 +1,6 @@
 ---
 term: BIP0123
+definition: 將 BIP 分為 4 個類別：共識、對等服務、API/RPC 和應用。
 ---
 
 為 Bitcoin 改善提案的分類建立了新的標準化流程。BIP 現在必須分為 4 類：

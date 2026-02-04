@@ -1,0 +1,9 @@
+question: If blocks were found too quickly over the last period, what happens?
+answer: The target lowers
+wrong_answers:
+  - The target rises
+  - The target remains the same
+  - The block size increases
+explanation: |
+  Blocks found too quickly indicate a higher hashrate, so Bitcoin tightens the condition by lowering the target.
+reviewed: false

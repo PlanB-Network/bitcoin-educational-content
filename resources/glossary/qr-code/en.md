@@ -1,5 +1,6 @@
 ---
-term: QR CODE
+term: QR code
+definition: Two-dimensional barcode used to easily transmit Bitcoin addresses and other information.
 ---
 
 A type of two-dimensional barcode that can be quickly scanned by mobile devices. The QR code stores information in the form of black and white pixels arranged in a square on a white background. An important feature of QR codes is that they incorporate BCH error correction codes, which allow data to be restored even if the QR code is partially obscured.

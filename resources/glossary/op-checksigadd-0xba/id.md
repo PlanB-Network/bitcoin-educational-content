@@ -1,6 +1,7 @@
 ---
 term: OP_CHECKSIGADD (0XBA)
 
+definition: Opcode Tapscript yang memverifikasi tanda tangan dan menambah penghitung jika valid.
 ---
 Mengekstrak tiga nilai teratas dari tumpukan: `kunci publik`, `CScriptNum` `n`, dan `tanda tangan`. Jika tanda tangan bukan vektor kosong dan tidak valid, skrip akan diakhiri sebagai salah. Jika tanda tangan valid atau vektor kosong (`OP_0`), dua skenario akan ditampilkan:
 

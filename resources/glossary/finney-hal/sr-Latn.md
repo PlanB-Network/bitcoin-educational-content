@@ -1,5 +1,6 @@
 ---
-term: FINNEY HAL
+term: Finney hal
+definition: Kriptograf i programer koji je igrao ključnu ulogu u ranim danima Bitcoina uz Satoshija.
 ---
 
 Harold T. Finney II, poznat kao Hal Finney, bio je kriptograf i programer poznat po svojoj ključnoj ulozi u ranim danima Bitcoin i svojim doprinosima kriptografiji. Od objavljivanja Bitcoin White Paper-a 2008. godine, bio je jedan od prvih koji je stupio u interakciju sa Satoshi Nakamoto. Pružao je povratne informacije, prijavljivao greške i predlagao poboljšanja nakon lansiranja softvera u januaru 2009. godine. Bio je primalac prve Bitcoin transakcije (izvan coinbase-ova), primivši 10 BTC od Satoshi u bloku broj 170:

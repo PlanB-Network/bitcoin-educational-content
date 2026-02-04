@@ -1,5 +1,6 @@
 ---
-term: 설정.JSON
+term: Settings.json
+definition: 그래픽 사용자 인터페이스 설정을 저장하는 Bitcoin Core 파일.
 ---
 
 Bitcoin core에서 그래픽 사용자 Interface(GUI)의 설정을 저장하는 데 사용되는 파일입니다. 예를 들어 열린 지갑과 같은 사용자 구성에 대한 정보를 유지합니다. Bitcoin core이 다시 시작되면 이 파일은 애플리케이션을 닫기 전에 활성화되어 있던 지갑을 자동으로 다시 열 수 있게 해줍니다. GUI를 통해 Wallet를 닫으면 이 파일에서도 제거되므로 다음에 시작할 때 자동으로 다시 열리지 않습니다.

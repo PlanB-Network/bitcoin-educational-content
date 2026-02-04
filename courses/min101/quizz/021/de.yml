@@ -1,0 +1,9 @@
+question: Alle wie viele Blöcke wird das Schwierigkeitsziel angepasst?
+answer: 2016 Blöcke
+wrong_answers:
+  - 2000 Blöcke
+  - 2100 Blöcke
+  - 4096 Blöcke
+explanation: |
+  Die Anpassung erfolgt alle 2016 Blöcke, was etwa zwei Wochen bei 10 Minuten pro Block entspricht.
+reviewed: false

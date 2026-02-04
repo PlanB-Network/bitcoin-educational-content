@@ -1,5 +1,6 @@
 ---
 term: Anchor
+definition: 在RGB协议中，一组数据证明了承诺包含在比特币交易中，而不会公开其内容。
 ---
 
 在 RGB 协议中，Anchor 代表一组客户端数据，用于证明交易中包含单个 Commitment。在 RGB 协议中，Anchor 由以下 Elements 组成：

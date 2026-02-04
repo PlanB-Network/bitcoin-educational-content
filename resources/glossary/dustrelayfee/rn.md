@@ -1,5 +1,6 @@
 ---
-term: AMAFARANGA Y'IKUNGU
+term: Dustrelayfee
+definition: Uburyo bw'inkingi bwerekana igiciro gikoreshwa mu kuharura urugero rwa poussière.
 ---
 
 Itegeko ry'urugero rikoreshwa n'imirongo y'urubuga kugira ngo bamenye ico babona ko ari "umupaka wa Dust." Iyi parametere ishiraho igipimo c’amahera mu Sats kuri kilobyte y’ukuri (Sats/kvB) ikora nk’ishingiro ryo kubara nimba agaciro ka UTXO kari munsi y’amahera akenewe kugira ngo umuntu ayishire mu bikorwa. Nkako, UTXO ifatwa nk'"Dust" kuri Bitcoin iyo isaba amafaranga menshi kugira ngo yimurirwe kuruta agaciro yiserukira. Ibara ry’ico kigero ni iri:

@@ -1,5 +1,6 @@
 ---
-term: TWEAK
+term: Tweak
+definition: Valore scalare aggiunto a una chiave pubblica per modificarla mantenendo la sua utilizzabilità con la chiave privata originale.
 ---
 
 In crittografia, "tweakare" una chiave pubblica significa modificarla utilizzando un valore additivo chiamato "tweak", in modo che rimanga utilizzabile con la conoscenza sia della chiave privata originale sia del tweak. Tecnicamente, un tweak è un valore scalare che viene aggiunto alla chiave pubblica originale. Se $P$ è la chiave pubblica e $t$ è il tweak, la chiave pubblica modificata diventa :

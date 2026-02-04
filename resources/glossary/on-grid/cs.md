@@ -1,5 +1,6 @@
 ---
-term: ON-GRID
+term: On-grid
+definition: Těžba připojená k obecné elektrické síti pro napájení ASICů.
 ---
 
 Vztahuje se na provoz Bitcoin Mining, který je připojen k obecné elektrické síti. Těžaři v síti se připojují k běžné elektrické síti, kterou využívají i spotřebitelé v domácnostech, aby mohli napájet své ASIC. Tento způsob nabízí stabilní zdroj energie, ale je často dražší než off-grid Mining kvůli omezenějším vyjednávacím rezervám.

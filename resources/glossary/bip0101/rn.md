@@ -1,5 +1,6 @@
 ---
 term: BIP0101
+definition: Icishirwaho co kwongereza amablok gushika kuri 8 MB cashizwe muri Bitcoin XT mu 2015. Ntiyigeze yakirwa, ibonwa nk'itanguriro rya Blocksize War.
 ---
 
 BIP101, yashizweho na Gavin Andresen mu 2015, yasavye kwongera ubunini bw'ibice kuva kuri 1 MB gushika kuri 8 MB, hanyuma ugakubita kabiri iyo nzira inyuma y'imyaka ibiri gushika ishitse ku 8 GB mu 2036.

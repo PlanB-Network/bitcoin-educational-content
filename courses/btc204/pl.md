@@ -264,7 +264,7 @@ Intuicyjnie można by pomyśleć, że koszty transakcyjne również reprezentuj�
 
 
 ```plaintext
-Frais = total inputs - total outputs
+Opłaty transakcyjne = total inputs - total outputs
 ```
 
 
@@ -278,10 +278,10 @@ Stosując wzór na opłatę, widzimy, że rzeczywiście pozostało `200 Sats` dl
 
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+Opłaty transakcyjne = total inputs - total outputs
+Opłaty transakcyjne = 10 000 - (4 000 + 5 800)
+Opłaty transakcyjne = 10 000 - 9 800
+Opłaty transakcyjne = 200
 ```
 
 
@@ -2195,7 +2195,7 @@ W tym przykładzie, chociaż transakcja B oferuje wyższą całkowitą opłatę,
 
 ```text
 TXA : 1994 / 141 = 14 sats/vB
-TXB : 2640 / 220 = 12 sats / vB
+TXB : 2640 / 220 = 12 sats/vB
 ```
 
 
@@ -2483,7 +2483,7 @@ CoinJoin oferuje jednak również możliwość wzmocnienia poufności w obliczu 
 ![BTC204](assets/pl/118.webp)
 
 
-W pierwszym przykładzie widzieliśmy, jak CoinJoin może chronić prywatność pokoju w odniesieniu do jego przeszłości, a w drugim przykładzie, jak może również zabezpieczyć historię pokoju w odniesieniu do jego przyszłości. Dlatego właśnie wspomniałem, że CoinJoin powinien być postrzegany jako jednorazowe wydarzenie, które segmentuje część historii w obu kierunkach:
+W pierwszym przykładzie zobaczyliśmy, jak coinjoin może chronić prywatność monety w odniesieniu do jej przeszłości, a w drugim przykładzie, jak może on również zabezpieczać historię monety w odniesieniu do jej przyszłości. Dlatego wspomniałem, że coinjoin powinien być postrzegany jako jednorazowe zdarzenie, które segmentuje historię monety w obu kierunkach:
 
 
 ![BTC204](assets/pl/119.webp)
@@ -2771,7 +2771,7 @@ Metody zarządzania Exchange również odróżniały te dwie implementacje. W Wh
 ![BTC204](assets/pl/139.webp)
 
 
-Dzięki Wabisabi, Wasabi w wersji 2.0 dostosowało swoje podejście do coinjoinów do tego z Whirlpool. Chociaż transakcje CoinJoin pozostają bardzo duże, możliwe jest teraz połączenie kilku kolejnych cykli, zgodnie z modelem Whirlpool. Szczególną uwagę zwrócono również na zarządzanie kursem Exchange: w przeciwieństwie do Wasabi 1.0, gdzie kurs Exchange był bezpośrednio powiązany z danymi wejściowymi użytkownika, Wabisabi stara się podzielić kurs Exchange na kilka małych kwot, podzielonych na równe nominały dla wszystkich uczestników.
+Dzięki Wabisabi wersja 2.0 dostosowała swoje podejście do coinjoinów, aby zbliżyć się do modelu Whirlpool. Chociaż transakcje coinjoin nadal pozostają bardzo duże, możliwe jest teraz łączenie kilku kolejnych cykli, zgodnie z modelem Whirlpool. Szczególną uwagę poświęcono również zarządzaniu resztą: w przeciwieństwie do Wasabi 1.0, gdzie reszta była bezpośrednio powiązana z wejściami użytkowników, Wabisabi stara się podzielić resztę na kilka mniejszych kwot, rozdzielonych w równych nominałach pomiędzy wszystkich uczestników.
 
 
 Zilustrujmy to uproszczonym przykładem obejmującym tylko 2 użytkowników: Alice chce wymieszać 115.000 Sats, a Bob, 210.000 Sats. Ignorując opłaty, z Wasabi 1.0, transakcja CoinJoin wygenerowałaby 3 wyjścia 100.000 Sats, plus 1 Exchange z 15.000 Sats dla Alicji i 1 Exchange z 10.000 Sats dla Boba. Wyjścia Exchange byłyby nadal powiązane z wejściami:
@@ -3021,7 +3021,7 @@ Przyjrzyjmy się różnym etapom Whirlpool CoinJoin w ramach tych kont.
 Punktem startowym każdego Whirlpool CoinJoin jest **konto depozytowe**. Jest to konto używane automatycznie podczas tworzenia nowego Bitcoin Wallet. To konto będzie musiało zostać zasilone bitcoinami, które chcesz wymieszać.
 
 
-Tx0" to pierwszy krok w procesie mieszania Whirlpool. Jego celem jest przygotowanie i wyrównanie UTXO dla CoinJoin, dzieląc je na jednostki odpowiadające ilości wybranej puli, aby zapewnić jednorodne mieszanie. Tak wyrównane UTXO są następnie wysyłane na konto **premix**. Jeśli chodzi o różnicę, która nie może wejść do puli, jest ona rozdzielana na specjalne konto: **bad bank** (lub "doxxic change").
+`Tx0` to pierwszy krok w procesie mieszania Whirlpool. Jego celem jest przygotowanie i wyrównanie UTXO dla CoinJoin, dzieląc je na jednostki odpowiadające ilości wybranej puli, aby zapewnić jednorodne mieszanie. Tak wyrównane UTXO są następnie wysyłane na konto **premix**. Jeśli chodzi o różnicę, która nie może wejść do puli, jest ona rozdzielana na specjalne konto: **bad bank** (lub "doxxic change").
 
 
 Ta początkowa transakcja `Tx0` jest również wykorzystywana do uiszczenia opłaty za usługę należnej koordynatorowi CoinJoin. W przeciwieństwie do kolejnych kroków, ta transakcja nie jest oparta na współpracy, więc użytkownik musi ponieść pełny koszt Mining:
@@ -3077,7 +3077,7 @@ Pod koniec tych pierwszych miksów, konto **premix** będzie puste, podczas gdy 
 ### Remiksy
 
 
-Po wstępnym zmiksowaniu UTXO są przenoszone na konto **postmix**. To konto gromadzi UTXO już zmiksowane i te oczekujące na remiksowanie. Gdy klient Whirlpool jest aktywny, UTXO znajdujące się na koncie **postmix** są automatycznie dostępne do remiksowania i zostaną losowo wybrane do udziału w tych nowych cyklach.
+Po wykonaniu początkowego miksu UTXO są przenoszone na konto **postmix**. Konto to gromadzi UTXO już zmiksowane oraz te oczekujące na remix. Gdy klient Whirlpool jest aktywny, UTXO znajdujące się na koncie **postmix** są automatycznie dostępne do remixowania i będą losowo wybierane do udziału w tych nowych cyklach.
 
 
 Przypominamy, że remiksy są wtedy w 100% darmowe: nie są wymagane żadne dodatkowe opłaty za usługi ani opłaty Mining. Utrzymywanie UTXO na koncie **postmix** utrzymuje zatem ich wartość w stanie nienaruszonym, a jednocześnie poprawia ich anonsety. Dlatego ważne jest, aby pozwolić tym monetom uczestniczyć w kilku cyklach CoinJoin. To nic nie kosztuje, a zwiększa ich poziom anonimowości.
@@ -3299,7 +3299,7 @@ Na przykład prosta transakcja płatnicza z 1 wejściem i 2 wyjściami będzie m
 ![BTC204](assets/pl/165.webp)
 
 
-Z drugiej strony, narożnik Whirlpool 5x5 ma $1\,496$ możliwych kombinacji:
+Natomiast coinjoin ustrukturyzowany według modelu Whirlpool 5x5 oferuje $1\,496$ możliwych kombinacji:
 
 
 ![BTC204](assets/pl/166.webp)
@@ -3523,7 +3523,7 @@ Wynik Boltzmanna jest obliczany przez podzielenie liczby interpretacji, w który
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}
@@ -3547,9 +3547,9 @@ Jeśli weźmiemy przykład Whirlpool 8x8 Surge Cycle CoinJoin, tabela Boltzmanna
 Jednak w przypadku prostej transakcji z jednym wejściem i dwoma wyjściami sytuacja wygląda inaczej:
 
 
-| Output 0 | Output 1 |
+| %       | Output 0 | Output 1 |
 |---------|----------|----------|
-| Input 0 | 100% | 100% |
+| Input 0 | 100%     | 100%     |
 
 Tutaj widzimy, że prawdopodobieństwo każdego wyjścia pochodzącego z wejścia #0 wynosi 100%. Niższe prawdopodobieństwo odzwierciedla zatem większą poufność, osłabiając bezpośrednie powiązania między wejściami i wyjściami.
 
@@ -4058,7 +4058,7 @@ Ta naiwna metoda wiąże się jednak z wysokim ryzykiem pod względem zaufania. 
 ![BTC204](assets/pl/201.webp)
 
 
-Co więcej, nie ma gwarancji, że Alicja nie otrzyma klucza prywatnego Boba $B$ i nigdy nie przekaże swojego klucza prywatnego $A$ w Exchange. Exchange opiera się zatem na nadmiernym zaufaniu między stronami i jest nieskuteczny w zapewnieniu bezpiecznego tajnego transferu Ownership.
+Ponadto nie ma gwarancji, że Alice po otrzymaniu klucza prywatnego $B$ Boba przekaże w zamian swój klucz prywatny $A$. Wymiana ta opiera się zatem na ogromnym zaufaniu między stronami i okazuje się nieskuteczna w zapewnieniu tajnego przeniesienia własności w bezpieczny sposób.
 
 
 ![BTC204](assets/pl/202.webp)

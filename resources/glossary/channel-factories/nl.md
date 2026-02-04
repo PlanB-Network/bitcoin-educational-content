@@ -1,5 +1,6 @@
 ---
-term: KANAALFABRIEKEN
+term: Channel factories
+definition: Lightning-mechanisme dat het mogelijk maakt om meerdere betalingskanalen te creëren vanuit een enkele UTXO.
 ---
 
 Een geavanceerd mechanisme dat momenteel wordt ontwikkeld op Lightning, waarmee meerdere betalingskanalen kunnen worden aangemaakt en beheerd vanaf een enkele UTXO. Kanaalfabrieken maken gebruik van `n-of-n` Multisig adressen, zodat een groep gebruikers gezamenlijk een enkele UTXO kan bezitten. Van daaruit kunnen ze onderling betaalkanalen openen en sluiten zonder extra On-Chain transacties, behalve wanneer ze hun geld uit de fabriek willen halen. Deze methode kan de kosten en de ruimte op Bitcoin voor Lightning-transacties aanzienlijk verminderen. In de praktijk betekent dit dat operaties waarvoor normaal On-Chain transacties nodig zijn voor elke opening of sluiting van een kanaal, off-chain kunnen worden uitgevoerd, waarbij de veiligheid wordt gegarandeerd door de mogelijkheid om de niet-gepubliceerde transacties indien nodig te publiceren. Om de woorden van David A. Harding te gebruiken, kanaalfabrieken kunnen worden beschreven als Lightning-kanalen die worden gebruikt om generate andere Lightning-kanalen.

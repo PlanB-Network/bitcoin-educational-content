@@ -1,0 +1,9 @@
+question: Inyuguti nbits mu mutwe w'ububiko (block header) isobanura iki?
+answer: Intego y'ingorane yakozwe mu buryo bwihereranye
+wrong_answers:
+  - Ubunini bw'ububiko mu bytes
+  - Igitigiri c'ibikorwa biri mu bubiko
+  - Igihe ububiko bwakorewe
+explanation: |
+  Inyuguti nbits nizo zerekana intego y'ingorane ikoreshwa ubu.
+reviewed: false

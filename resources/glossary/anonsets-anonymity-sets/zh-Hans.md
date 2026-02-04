@@ -1,19 +1,21 @@
 ---
-term: ANONIMITY SET (匿名集)
+term: 匿名集 (Anonsets)
 
+definition: 通过计算集合中不可区分的UTXO数量来衡量UTXO隐私程度的指标，通常在coinjoin之后。
 ---
-匿名集是评估特定 UTXO 隐私水平的指标。具体地说，它们衡量包括所研究的钱币在内的集合中无法区分的 UTXO 数量。因为需要一组完全相同的UTXO，因此匿名集通常是在一个混币循环内计算得出的。在适当的情况下，它们可以用来判断混币的表现。大的匿名集意味着匿名程度的提高，因为很难区分集合中的特定UTXO。匿名集有两种类型：
+Anonset 用作评估特定 UTXO 隐私程度的指标。更具体而言，它们衡量包含所研究币的集合中不可区分的 UTXO 数量。由于需要一组相同的 UTXO，anonset 通常在 coinjoin 周期内计算。在必要时，它们可以用于评估 coinjoin 的质量。较大的 anonset 意味着更高水平的匿名性，因为在集合中区分某个特定 UTXO 变得更加困难。
+
+Anonset 分为两种类型：forward anonset（forward-looking metrics）；以及 backward anonset（backward-looking metrics）。术语 "*score*" 有时也用于指代 anonset。
+
+第一个指标表示在已知输入 UTXO 的情况下，被研究的输出 UTXO 所隐藏的集合规模。该指标可用于衡量该币种在从过去到现在的分析（从输入到输出）下的隐私抗性。第二个指标表示在已知输出 UTXO 的情况下，某一币种可能的来源数量。该指标可用于衡量该币种在从现在到过去的分析（从输出到输入）下的隐私抗性。
 
 
-- 预期匿名集；
-- 回顾匿名集。
 
-第一个指标表示所研究的 UTXO 在给定输入 UTXO 的情况下，被隐藏在其中的群体的大小。该指标可以测量钱币的隐私对从过去到现在（输入到输出）的分析的阻力。该指标的英文名称为 “*forward anonset*”或 “*forward-looking metrics*”。
 
-![](../../dictionnaire/assets/39.webp)
 
-第二个指标是在了解输出端的 UTXO 后，显示特定钱币的可能来源数量。这个指标可以测量钱币的隐私对从现在到过去（从输出到输入）的分析的阻力。该指标的英文名称为 “*backward anonset*”或 “*backward-looking metrics*”。
 
-![](../../dictionnaire/assets/40.webp)
 
-> ► *在中文中，可以使用“匿名集”这一词来指 ”anonset“*
+
+
+
+

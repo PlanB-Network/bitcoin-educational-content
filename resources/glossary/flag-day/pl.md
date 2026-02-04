@@ -1,5 +1,6 @@
 ---
-term: DZIEŃ FLAGI
+term: Flag day
+definition: Metoda aktywacji soft forka wyznaczająca ostateczny termin na przyjęcie nowych zasad.
 ---
 
 Metoda aktywacji Soft Fork używana we wczesnych latach Bitcoin. Proces ten po prostu wyznacza termin, znany jako "Dzień Flagi", przed którym aktualizacja protokołu musi zostać przyjęta przez całą sieć. Podejście to jest proste: po tej dacie węzły i górnicy muszą zaktualizować swoje oprogramowanie, aby było zgodne z nowymi zasadami, w przeciwnym razie ryzykują, że znajdą się w niekompatybilnym łańcuchu.

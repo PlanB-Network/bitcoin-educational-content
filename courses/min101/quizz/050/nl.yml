@@ -1,0 +1,9 @@
+question: Wanneer worden de transacties in een blok bevestigd?
+answer: Wanneer het blok wordt toegevoegd aan de blockchain
+wrong_answers:
+  - Wanneer de transactie is ondertekend door de miner
+  - Wanneer de transactie wordt verspreid door de node
+  - Wanneer de miner begint met het zoeken naar het bewijs
+explanation: |
+  De bevestiging van een betaling op Bitcoin is het gevolg van de toevoeging van het blok dat de transactie bevat aan de blockchain.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: BGP KWISHURA
+term: BGP hijacking
+definition: Igitero gihindura amayira y'ikure y'isi kugira ngo kiyobye urujya n'uruza rw'amakuru mu muhora mubi, gishobora gukoreshwa mu guheza utunode twa Bitcoin.
 ---
 
 Igitero aho umukinyi w’umunyaruyeri akoresha amatangazo ya BGP kugira ngo asubire kurungika uruja n’uruza rwa Internet ku rubuga rwabo bwite. Mu kwigira nk’aho ari inkomoko yemewe y’ibice bimwebimwe vya IP Address, uwutera arashobora gufata, gukurikirana canke guhagarika uruja n’uruza ruja kuri izo aderesi.

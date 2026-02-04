@@ -1,5 +1,6 @@
 ---
-term: LOGARYTM DYSKRETNY
+term: Logarytm dyskretny
+definition: Trudny do rozwiązania problem matematyczny stanowiący podstawę bezpieczeństwa kryptograficznego sieci Bitcoin.
 ---
 
 Logarytm dyskretny to problem matematyczny, który jest wykorzystywany w niektórych algorytmach kryptograficznych klucza publicznego. W grupie cyklicznej rzędu $q$, z generatorem $g$, jeśli mamy równanie postaci $g^x = h$, to $x$ nazywamy logarytmem dyskretnym $h$ względem podstawy $g$, modulo $q$. Mówiąc prościej, polega to na określeniu wykładnika $x$, gdy znane są $g$, $h$ i $q$. Logarytm dyskretny jest więc odwrotnością wykładnika w skończonej grupie cyklicznej. Jednakże, dla dużych wartości $q$, rozwiązanie problemu logarytmu dyskretnego jest uważane za algorytmicznie trudne. Właściwość ta jest wykorzystywana do zapewnienia bezpieczeństwa wielu protokołów kryptograficznych, takich jak protokół Diffiego-Hellmana dla klucza Exchange.

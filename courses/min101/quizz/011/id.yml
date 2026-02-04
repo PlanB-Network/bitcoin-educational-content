@@ -1,0 +1,9 @@
+question: Apa kegunaan nonce dalam header blok?
+answer: Mengubah header untuk mencoba lagi
+wrong_answers:
+  - Meningkatkan ukuran blok
+  - Mewakili semua transaksi di dalam blok
+  - Menunjukkan target kesulitan
+explanation: |
+  Mengubah nonce akan mengubah input hash dan menghasilkan sidik jari yang sama sekali berbeda. Hal ini memungkinkan untuk mencoba kembali mencari hash yang valid.
+reviewed: false

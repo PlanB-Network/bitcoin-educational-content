@@ -1,0 +1,9 @@
+question: Vilket genomsnittligt intervall mellan block siktar Bitcoin på?
+answer: 10 minuter
+wrong_answers:
+  - 1 minut
+  - 30 minuter
+  - 60 minuter
+explanation: |
+  Protokollet siktar på ett genomsnitt på ungefär ett block var tionde minut under en lång period.
+reviewed: false

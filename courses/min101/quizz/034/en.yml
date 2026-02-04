@@ -1,0 +1,9 @@
+question: What does the halving change on Bitcoin?
+answer: The block subsidy
+wrong_answers:
+  - Transaction fees
+  - Block size
+  - Difficulty target
+explanation: |
+  The halving halves the maximum subsidy created per block, without affecting fees.
+reviewed: false

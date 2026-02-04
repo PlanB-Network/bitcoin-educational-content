@@ -1,0 +1,9 @@
+question: 哪種統計原理說明了從長期來看，發現區塊的頻率會趨於算力份額？
+answer: 大數定律
+wrong_answers:
+  - 貝葉斯定理
+  - 生日悖論
+  - 最小作用量原理
+explanation: |
+  結果的收斂歸功於大數定律，因為每一次雜湊都是一次獨立的嘗試。
+reviewed: false

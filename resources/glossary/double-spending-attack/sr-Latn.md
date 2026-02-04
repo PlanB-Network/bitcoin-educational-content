@@ -1,5 +1,6 @@
 ---
-term: DVOSTRUKO TROŠENJE (NAPAD)
+term: Dupla potrošnja
+definition: Napad kojim se pokušava korišćenje istih bitkoina više puta radi prevare suprotnih strana.
 ---
 
 Napad u kojem zlonamerni korisnik pokušava da iskoristi isti UTXO (*Unspent Transaction Output*) više puta kako bi se obogatio na račun strana uključenih u transakcije. U principu, kada je transakcija potvrđena u bloku i dodata u Blockchain, korišćenje tih bitkoina je trajno zabeleženo, sprečavajući bilo kakvo dalje trošenje istih bitkoina. Sprečavanje dvostrukog trošenja je čak primarna korisnost Blockchain.

@@ -1,9 +1,9 @@
 question: Was ermöglicht ein erweiterter öffentlicher Schlüssel abzuleiten?
-answer: Nur normale öffentliche Kind-Schlüssel
+answer: Nur normale öffentliche untergeordnete Schlüssel
 wrong_answers:
-  - Nur normale Kind-private Schlüssel
-  - Sowohl gehärtete als auch normale Kind-öffentliche Schlüssel
-  - Sowohl gehärtete als auch normale Kind-private Schlüssel
+  - Nur normale private untergeordnete Schlüssel
+  - Sowohl gehärtete als auch normale öffentliche untergeordnete Schlüssel
+  - Sowohl gehärtete als auch normale private untergeordnete Schlüssel
 explanation: |
-  Ein erweiterter öffentlicher Schlüssel ermöglicht nur die Ableitung von normalen Kind-öffentlichen Schlüsseln, nicht von privaten Schlüsseln oder gehärteten Schlüsseln.
+  Ein erweiterter öffentlicher Schlüssel ermöglicht nur die Ableitung von normalen öffentlichen untergeordnete Schlüsseln, aber nicht von privaten Schlüsseln oder gehärteten Schlüsseln.
 reviewed: true

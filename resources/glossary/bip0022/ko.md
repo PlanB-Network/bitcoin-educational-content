@@ -1,5 +1,6 @@
 ---
 term: BIP0022
+definition: 채굴 소프트웨어가 풀 노드와 통신하여 블록을 생성할 수 있도록 하는 JSON-RPC getblocktemplate 표준.
 ---
 
 BIP는 2012년에 Luke Dashjr에 의해 제안된 것으로, 외부 Mining 인터페이스를 위한 표준화된 JSON-RPC 방법인 "getblocktemplate"을 도입했습니다. Mining의 난이도가 높아짐에 따라 Proof-of-Work 계산을 수행하기 위한 특수 외부 소프트웨어의 사용이 더욱 보편화되었습니다.

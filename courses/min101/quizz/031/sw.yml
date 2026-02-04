@@ -1,0 +1,9 @@
+question: Ni halving ya ngapi ya mwisho kulingana na itifaki?
+answer: Ya 33
+wrong_answers:
+  - Ya 21
+  - Ya 38
+  - Ya 64
+explanation: |
+  Halving ya 33, katika kimo cha 6,930,000, itamaliza ruzuku ya kitalu kwa sababu itaanguka chini ya kitengo cha chini kabisa.
+reviewed: false

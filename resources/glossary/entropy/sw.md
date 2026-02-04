@@ -1,5 +1,6 @@
 ---
-term: ENTROPY
+term: Entropia
+definition: Kipimo cha kutotabirika kwa chanzo cha data, muhimu kwa kuzalisha vitufe salama.
 ---
 
 Entropy, katika muktadha wa fiche na maelezo, ni kipimo cha kiasi cha kutokuwa na uhakika au kutotabirika kuhusishwa na chanzo cha data au mchakato wa nasibu. Entropy ina jukumu muhimu katika usalama wa mifumo ya kriptografia, haswa katika utengenezaji wa funguo na nambari za nasibu. Kiwango cha juu cha entropy huhakikisha kuwa funguo zinazozalishwa hazitabiriki vya kutosha na hustahimili mashambulizi ya nguvu, ambapo mshambuliaji hujaribu michanganyiko yote inayowezekana ili kubashiri ufunguo.

@@ -1,5 +1,6 @@
 ---
-term: TRANSACTION STANDARD
+term: Standardna transakcija
+definition: Transakcija koja poštuje i pravila konsenzusa i podrazumevana pravila standardizacije Bitcoin Core čvorova.
 ---
 
 Transakcija Bitcoin koja, pored pridržavanja pravila konsenzusa, takođe spada u pravila standardizacije postavljena podrazumevano na Bitcoin Core čvorovima. Ova pravila standardizacije nameće pojedinačno svaki Bitcoin čvor, pored pravila konsenzusa, kako bi definisao strukturu nepotvrđenih transakcija koje prihvata u svom Mempool i prenosi svojim vršnjacima.

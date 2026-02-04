@@ -1,6 +1,7 @@
 ---
 term: PBKDF2
 
+definition: Fungsi untuk menurunkan kunci kriptografi dari kata sandi melalui iterasi.
 ---
 `PBKDF2` adalah singkatan dari *Password-Based Key Derivation Function 2*, yang merupakan sebuah metode untuk membuat kunci kriptografi dari kata sandi dengan menggunakan sebuah fungsi turunan. Metode ini membutuhkan masukan berupa kata sandi, _salt_ kriptografi, dan secara berulang-ulang menerapkan fungsi yang telah ditentukan sebelumnya (biasanya berupa fungsi _hash_ seperti `SHA256` atau `HMAC`) pada data tersebut. Proses ini diulang berkali-kali untuk menghasilkan kunci kriptografi.
 

@@ -1,0 +1,9 @@
+question: Jaký algoritmus je specificky navržen k provádění Bitcoin ASIC?
+answer: SHA256d
+wrong_answers:
+  - SHA512d
+  - SHA1
+  - SHA512
+explanation: |
+  Bitcoinové ASICy jsou specializovány na dvojitý SHA256 používaný v proof-of-work Bitcoinu.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
 term: BIP0322
+definition: Tüm betik (script) türleriyle uyumlu, BIP137'nin yerini alan yeni mesaj imzalama standardı.
 ---
 
 Bir Address'in Ownership'ını kanıtlamak amacıyla mesajları Bitcoin özel anahtarları ve ilişkili adresleri ile imzalamak için BIP137'nin yerini alacak yeni bir standart önerir. Bu imzalar, fon kanıtı, denetim ve bir Address'in özel anahtarı aracılığıyla kimlik doğrulamasını gerektiren diğer kullanımlar gibi çeşitli uygulamalar için kullanışlıdır. BIP137 ile karşılaştırıldığında BIP322, komut dosyalarına dayalı bir yaklaşım kullanarak mesaj imzalama standardını geleneksel adreslerin ötesine taşır. Wallet yazılımının bitcoin harcamak için kilidini açabilecekleri herhangi bir komut dosyası için bir mesaj imzalamasına izin verir. Bunu yapmak için yöntem, sanal bir Bitcoin işlemi için bir imza üreterek bir metni imzalamayı içerir. Geleneksel P2PKH adresleri için BIP322 geleneksel imza formatıyla uyumlu olmaya devam eder.

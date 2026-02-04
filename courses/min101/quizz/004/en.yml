@@ -1,0 +1,9 @@
+question: According to the idea summarized by Satoshi, what is the only way to ensure the absence of double-spending?
+answer: To know all transactions
+wrong_answers:
+  - To know all active nodes
+  - To know all active miners
+  - To know all private keys
+explanation: |
+  Double-spending is detected by comparing a transaction to past spending recorded in a shared ledger.
+reviewed: false

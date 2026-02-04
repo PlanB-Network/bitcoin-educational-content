@@ -1,5 +1,6 @@
 ---
-term: BATERIA
+term: Stos
+definition: Struktura danych LIFO używana w Bitcoin Script do przechowywania i manipulowania elementami tymczasowymi podczas wykonywania.
 ---
 
 W kontekście języka skryptowego używanego do dołączania warunków wydatkowania do Bitcoin UTXO, stos jest strukturą danych LIFO (*Last In, First Out*) używaną do przechowywania tymczasowych Elements podczas wykonywania skryptu. Każda operacja w skrypcie manipuluje tymi stosami, gdzie Elements mogą być dodawane (*push*) lub usuwane (*pop*). Skrypty wykorzystują stosy do oceny wyrażeń, przechowywania zmiennych tymczasowych i zarządzania warunkami.

@@ -1,0 +1,9 @@
+question: Koji parametar Bitcoin Core-a postavlja podrazumevani minimalni prag za relej (relay)?
+answer: minRelayTxFee
+wrong_answers:
+  - minConfirmTxFee
+  - relayTxWeight
+  - mempoolMinBits
+explanation: |
+  Čvorovi primenjuju lokalne politike, a Bitcoin Core koristi parametar minRelayTxFee za minimalni prag releja.
+reviewed: false

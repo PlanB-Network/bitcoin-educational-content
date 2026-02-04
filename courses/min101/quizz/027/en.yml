@@ -1,0 +1,9 @@
+question: How are transaction fees calculated?
+answer: Inputs minus outputs
+wrong_answers:
+  - Outputs minus inputs
+  - Inputs plus outputs
+  - Outputs divided by inputs
+explanation: |
+  Fees correspond to the value consumed in inputs that is not recreated in outputs.
+reviewed: false

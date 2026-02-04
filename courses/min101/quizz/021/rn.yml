@@ -1,0 +1,9 @@
+question: Intego y'ingorane ihindurwa inyuma y'ibice (blocks) bingahe?
+answer: Ibice 2016
+wrong_answers:
+  - Ibice 2000
+  - Ibice 2100
+  - Ibice 4096
+explanation: |
+  Ihindurwa rimwe rimwe rimwe inyuma y'ibice 2016, ni ukuvuga nk'indwi zibiri ku gice kimwe mu minuta 10.
+reviewed: false

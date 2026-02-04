@@ -1,6 +1,7 @@
 ---
-term: STATILINE AADRESS
+term: Staatiline aadress
 
+definition: Silent Paymentsi ainulaadne identifikaator, mis võimaldab maksete vastuvõtmist ilma aadressi korduvkasutamiseta või nähtava on-chain seoseta.
 ---
 Vaikivate maksete kontekstis viitab unikaalsele identifikaatorile, mis võimaldab makseid vastu võtta ilma aadressi korduvkasutamiseta, ilma interaktsioonita ja ilma nähtava seoseta erinevate maksete ja staatilise aadressi vahel. See tehnika välistab vajaduse luua iga tehingu jaoks uus, kasutamata vastuvõtuaadress, vältides seega Bitcoinis tavapäraseid suhtlusi, kus saaja peab maksjale uue aadressi andma. See on mõnevõrra samaväärne taaskasutatava maksekoodiga BIP47 kontekstis.
 

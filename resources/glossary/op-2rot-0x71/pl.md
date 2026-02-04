@@ -1,5 +1,6 @@
 ---
 term: OP_2ROT (0X71)
+definition: Opkod przenoszący 5. i 6. element stosu na jego szczyt.
 ---
 
 Przenosi dwa Elements znajdujące się na szóstej i piątej pozycji z wierzchołka stosu na wierzchołek. Na przykład, jeśli stos to:

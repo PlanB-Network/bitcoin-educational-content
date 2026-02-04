@@ -1,6 +1,7 @@
 ---
-term: LAAJENNETTU AVAIN
+term: Laajennettu avain
 
+definition: Merkkijono, joka yhdistää avaimen, sen ketjukoodin (chain code) ja metatiedot HD-lompakoiden johtamista (derivation) varten.
 ---
 Merkkisarja, jossa yhdistyvät avain (julkinen tai yksityinen), siihen liittyvä ketjukoodi ja joukko metatietoja. Laajennettu avain kokoaa kaikki lapsiavainten johtamiseen tarvittavat elementit yhdeksi tunnisteeksi. Niitä käytetään deterministisissä ja hierarkkisissa lompakoissa, ja niitä voi olla kahta tyyppiä: laajennettu julkinen avain (jota käytetään julkisten lapsiavainten johtamiseen) tai laajennettu yksityinen avain (jota käytetään sekä yksityisten että julkisten lapsiavainten johtamiseen). Laajennettu avain sisältää siis useita eri tietoja, jotka on kuvattu BIP32:ssa seuraavassa järjestyksessä:
 

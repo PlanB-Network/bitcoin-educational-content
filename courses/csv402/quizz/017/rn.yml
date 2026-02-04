@@ -1,9 +1,9 @@
 question: Ni uwuhe mubumbe wemeza ko amahinduka agenda neza mu gihe c’igihe muri RGB?
 answer: A DAG (Directed Acyclic Graph)
 wrong_answers:
-  - Urudodo rworoshe rw'umurongo
-  - Urubuga rw'urunganwe rukora
-  - Igiti c'ibice bibiri vy'ama UTXO
+  - Umugozi usanzwe ugororotse
+  - Urubuga rwubakiye kubantu babiri
+  - Igiti c'amashami abiri y'ama UTXO
 explanation: |
-  DAG ishoboza guhindura Leta gutunganirizwa, mu gihe yemera uguhinduka guhuye ata guhuza.
-reviewed: false
+  DAG ifasha uko ibintu bihinduka gutunganirizwa, mu gihe yemera uguhinduka guhuye ata guhuza.
+reviewed: true

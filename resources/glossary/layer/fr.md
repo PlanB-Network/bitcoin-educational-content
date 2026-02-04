@@ -1,5 +1,6 @@
 ---
-term: SURCOUCHE
+term: Surcouche
+definition: Protocole construit au-dessus de Bitcoin pour étendre ses capacités, comme le Lightning Network.
 ---
 
 Protocole ou réseau construit en supplément, en s'empilant sur le réseau Bitcoin principal. Elle utilise le réseau Bitcoin comme une fondation et est donc dépendante de son protocole. Cependant, le réseau Bitcoin n'est pas dépendant de ses surcouches. Un exemple d'une telle surcouche est le Lightning Network.

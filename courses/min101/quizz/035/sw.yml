@@ -1,0 +1,9 @@
+question: Tangu SegWit, ni wapi ahadi ya mashahidi wa kitalu (block witness commitment) inapowekwa?
+answer: Katika output ya coinbase
+wrong_answers:
+  - Katika scriptSig ya coinbase
+  - Katika uwanja wa toleo (version field)
+  - Katika ada za coinbase
+explanation: |
+  SegWit hutumia ahadi iliyoandikwa kwenye coinbase kupitia output ya OP_RETURN.
+reviewed: false

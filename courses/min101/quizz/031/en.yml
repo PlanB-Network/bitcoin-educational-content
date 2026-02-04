@@ -1,0 +1,9 @@
+question: Which is the last halving according to the protocol?
+answer: The 33rd
+wrong_answers:
+  - The 21st
+  - The 38th
+  - The 64th
+explanation: |
+  The 33rd halving, at height 6,930,000, will end the block subsidy because it will fall below the minimum unit.
+reviewed: false

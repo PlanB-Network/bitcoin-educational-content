@@ -1,0 +1,9 @@
+question: Od SegWit-a, gde se upisuje obaveza svedoka (witness commitment) bloka?
+answer: U izlazu (output) coinbase transakcije
+wrong_answers:
+  - U scriptSig-u coinbase transakcije
+  - U polju verzije
+  - U naknadama coinbase transakcije
+explanation: |
+  SegWit koristi obavezu upisanu u coinbase putem OP_RETURN izlaza.
+reviewed: false

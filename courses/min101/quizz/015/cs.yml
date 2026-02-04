@@ -1,0 +1,9 @@
+question: V jakém roce byl navržen Hashcash?
+answer: 1997
+wrong_answers:
+  - 1993
+  - 2004
+  - 1995
+explanation: |
+  Hashcash byl poprvé oznámen v březnu 1997.
+reviewed: false

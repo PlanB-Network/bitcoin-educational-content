@@ -1,5 +1,6 @@
 ---
 term: P2TR
+definition: Taproot script allowing spending via a public key or Merkle scripts, bc1p addresses.
 ---
 
 P2TR stands for *Pay to Taproot*, which is a standard script model used to establish spending conditions on a UTXO (Unspent Transaction Output). It was introduced with the implementation of Taproot in November 2021. P2TR utilizes the Schnorr protocol to aggregate cryptographic keys, as well as Merkle trees for alternative scripts, known as MAST (*Merkelized Alternative Script Tree*). Unlike traditional transactions where the spending conditions are publicly exposed (sometimes at the time of receiving, sometimes at the time of spending), P2TR allows for the hiding of complex scripts behind a single apparent public key.

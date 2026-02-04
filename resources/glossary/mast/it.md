@@ -1,6 +1,7 @@
 ---
 term: MAST
 
+definition: Albero di Merkle che raggruppa diverse condizioni di spesa di cui solo una deve essere rivelata per spendere.
 ---
 Acronimo di "Merkelised Alternative Script Tree" Tecnica che utilizza un albero di Merkle per riassumere un numero arbitrario di condizioni di spesa selezionate dall'utente in un indirizzo di ricezione, una delle quali deve essere soddisfatta per spendere i bitcoin in questione. L'albero di Merkle consente all'utente di scegliere quale condizione desidera soddisfare senza rivelare i dettagli delle altre condizioni sulla blockchain. Ciò contribuisce a ridurre le commissioni associate a questi script, a creare condizioni molto più complesse e, nel tempo, a migliorare la privacy degli utenti (oltre all'uso delle firme Schnorr). Questo concetto è stato oggetto di diverse proposte, ma alla fine è stato aggiunto a Bitcoin tramite il soft fork Taproot nel 2021.
 

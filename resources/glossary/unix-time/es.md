@@ -1,6 +1,7 @@
 ---
-term: TIEMPO UNIX
+term: Tiempo Unix
 
+definition: Número de segundos transcurridos desde el 1 de enero de 1970 a medianoche UTC, utilizado para la gestión del tiempo en Bitcoin.
 ---
 Unix Time o Unix Timestamp representa el número de segundos que han transcurrido desde el 1 de enero de 1970, a medianoche UTC (Unix Epoch). Este sistema se utiliza en los sistemas operativos Unix y derivados para marcar el tiempo de forma universal y estandarizada. Permite la sincronización de relojes y la gestión de eventos basados en el tiempo, independientemente de las zonas horarias.
 

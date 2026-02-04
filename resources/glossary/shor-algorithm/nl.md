@@ -1,5 +1,0 @@
----
-term: SHOR (ALGORITME)
----
-
-Kwantumalgoritme uitgevonden in 1994 door Peter Shor dat de factorisatie van grote gehele getallen in een product van priemgetallen in polynomiale tijd mogelijk maakt. Door het aantal bewerkingen dat nodig is om gehele getallen te ontbinden in factoren te verminderen, kon Shor de cryptografie-algoritmen die op dit wiskundige probleem gebaseerd waren, zoals RSA, onuitvoerbaar maken. Shor kan licht aangepast worden om in te werken op bijna alle algoritmen die een groepsstructuur gebruiken. Het heeft met name al een efficiënte variant op cryptografie met elliptische krommen (ECDSA, Schnorr...). Daarom zijn Shor en zijn nauwe varianten effectief op algoritmen voor asymmetrische cryptografie. Op dit moment hebben we nog geen kwantumcomputer die krachtig en stabiel genoeg is om het algoritme van Shor succesvol uit te voeren.

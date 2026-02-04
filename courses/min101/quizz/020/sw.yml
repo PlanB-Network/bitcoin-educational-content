@@ -1,0 +1,9 @@
+question: Ni muda gani wa wastani kati ya kila kitalu (block) ambao Bitcoin inalenga?
+answer: Dakika 10
+wrong_answers:
+  - Dakika 1
+  - Dakika 30
+  - Dakika 60
+explanation: |
+  Itifaki inalenga wastani wa takriban kitalu kimoja kila dakika 10 kwa kipindi kirefu.
+reviewed: false

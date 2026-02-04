@@ -1,6 +1,7 @@
 ---
-term: FORCHETTA
+term: Fork
 
+definition: Scissione della rete dei nodi o modifica delle regole del protocollo Bitcoin.
 ---
 Il termine "fork" ha diversi significati nel contesto di Bitcoin. Può riferirsi sia a una divisione della rete di nodi in più gruppi separati, che porta alla creazione di più blockchain diverse, sia a una modifica delle regole del protocollo, o a entrambe le cose contemporaneamente. Per semplificare, possiamo distinguere 4 categorie principali di fork:
 

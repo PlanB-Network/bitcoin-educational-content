@@ -1,5 +1,6 @@
 ---
-term: FORCE CLOSE
+term: Force close
+definition: Fermeture unilatérale d'un canal Lightning en diffusant la dernière transaction d'engagement signée.
 ---
 
 Mécanisme de fermeture non coopérative d’un canal Lightning. Lorsque deux utilisateurs ouvrent un canal avec un multisig 2/2, chacun peut unilatéralement fermer le canal en diffusant la dernière transaction d’engagement qui est déjà signée, afin de récupérer ses bitcoins onchain. Dans ce cas, on parle d'un « force close ».

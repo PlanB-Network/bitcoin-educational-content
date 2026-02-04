@@ -1,0 +1,9 @@
+question: Uthibitisho wa kazi (proof of work) katika Bitcoin huhesabiwa kwenye kipengele gani?
+answer: Kichwa cha bloku (block header)
+wrong_answers:
+  - Urefu wa bloku
+  - Mempool ya mtandao
+  - Miamala 21 ya kwanza ya bloku
+explanation: |
+  Uchimbuaji unajumuisha kuhashi mara kwa mara kichwa cha bloku cha baiti 80, ambacho kinafungamanisha maudhui ya bloku.
+reviewed: false

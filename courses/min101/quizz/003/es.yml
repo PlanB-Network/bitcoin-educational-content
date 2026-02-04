@@ -1,0 +1,9 @@
+question: En Bitcoin, ¿qué prueba se utiliza más a menudo para desbloquear un UTXO?
+answer: Una firma digital
+wrong_answers:
+  - Una contraseña de cuenta
+  - Un hash del bloque actual
+  - Un certificado SSL
+explanation: |
+  La condición de gasto suele requerir una firma generada con la clave privada correspondiente.
+reviewed: false

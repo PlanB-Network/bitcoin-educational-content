@@ -1,5 +1,6 @@
 ---
 term: DER
+definition: 用于比特币 ECDSA 签名标准二进制编码格式。
 ---
 
 区别编码规则*的缩写。它是规范[ITU-T X.690, 2002.](https://www.itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf) 中定义的 ASN.1 编码规则的严格子集，用于以二进制序列对任何类型的数据进行编码。DER 主要用于密码学等特定领域，在这些领域中，数据必须以标准、可预测的方式进行编码。

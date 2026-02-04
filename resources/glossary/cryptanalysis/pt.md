@@ -1,5 +1,6 @@
 ---
-term: CRIPTANÁLISE
+term: Criptoanálise
 
+definition: Estudo das técnicas matemáticas destinadas a encontrar fraquezas nos métodos criptográficos.
 ---
 Estudo de técnicas matemáticas para tentar quebrar técnicas criptográficas. Isto inclui os processos de procura de erros ou fraquezas na implementação de um método criptográfico ou no próprio método criptográfico.

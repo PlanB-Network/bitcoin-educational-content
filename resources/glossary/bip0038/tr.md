@@ -1,5 +1,6 @@
 ---
 term: BIP0038
+definition: Bitcoin özel anahtarlarını bir parola ile şifrelemek için kullanılan ve özellikle kağıt cüzdanları korumak için kullanılan standart.
 ---
 
 Bir passphrase aracılığıyla özel anahtarlara ekstra koruma eklemek için bir şifreleme mekanizması sunan bir Bitcoin İyileştirme Önerisi. BIP38, üçüncü bir tarafın şifrelenmiş özel anahtarı fiziksel olarak elde etse bile, passphrase'ı bilmeden kullanamamasını sağlar. Bu, özellikle eski kağıt cüzdanların güvenliği için bitcoinleri hırsızlığa karşı korumak için ek bir Layer güvenlik ekler.

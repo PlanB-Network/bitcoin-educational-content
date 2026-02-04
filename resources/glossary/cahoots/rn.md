@@ -1,6 +1,7 @@
 ---
-term: CAHOOTS
+term: Cahoots
 
+definition: Ivunjisha ryo gufashanya hagati y'abakoresha muri Samourai Wallet, nka Stowaway canke Stonewall x2.
 ---
 
 Mu bijanye n’ivyo Samourai Wallet n’izindi porogarama za wallet ziyishira mu ngiro, Cahoot yerekeza ku bwoko bwose bw’ugucuruza bukorwa mu bufatanye hagati y’abakoresha benshi.

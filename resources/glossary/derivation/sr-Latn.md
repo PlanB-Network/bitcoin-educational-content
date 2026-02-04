@@ -1,5 +1,6 @@
 ---
-term: DERIVACIJA
+term: Derivacija
+definition: Proces generisanja ključeva dece iz para roditeljskih ključeva u HD novčaniku.
 ---
 
 Odnosi se na proces generisanja parova ključeva za decu iz roditeljskog para ključeva (privatni ključ i javni ključ) i lanca kodova unutar determinističkog i hijerarhijskog (HD) Wallet. Ovaj proces omogućava segmentaciju grana i organizaciju Wallet u različite nivoe sa brojnim parovima ključeva za decu, koji se svi mogu povratiti znajući samo osnovne informacije za oporavak (Mnemonic fraza i bilo koji potencijalni passphrase). Za izvođenje ključa za dete koristi se funkcija `HMAC-SHA512` sa roditeljskim lancem kodova i konkatenacijom roditeljskog ključa i 32-bitnog indeksa. Postoje dve vrste derivacija:

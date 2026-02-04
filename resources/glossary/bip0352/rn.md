@@ -1,5 +1,6 @@
 ---
 term: BIP0352
+definition: Silent Payments, uburyo bukoresha aderesi zidahinduka kugira ngo bakire amapayementi hatabayeho kwongera gukoresha aderesi bigaragara.
 ---
 
 Iciyumviro co gutera imbere ca Josibake na Ruben Somsen kizana Silent Payments, uburyo bwo gukoresha aderesi za Bitcoin zidahinduka kugira ngo umuntu aronke amahera ata Address isubira gukoresha, ata gukorana, kandi ata n’ihuriro riboneka rya On-Chain hagati y’amahera atandukanye. Ubwo buryo burakuraho ivy’uko umuntu akeneye gutanga amaderesi mashasha, atakoreshwa yo kwakira generate ku bijanye n’ugucuruza kwose, gutyo hakaba umuntu yirinda imigenderanire isanzwe muri Bitcoin aho uwuronka ategerezwa gutanga Address nshasha ku wuyitanga.

@@ -1,0 +1,9 @@
+question: Wat is volgens het door Satoshi samengevatte idee de enige manier om de afwezigheid van dubbele uitgaven (double-spending) te garanderen?
+answer: Alle transacties kennen
+wrong_answers:
+  - Alle actieve nodes kennen
+  - Alle actieve miners kennen
+  - Alle privésleutels kennen
+explanation: |
+  Dubbele uitgaven worden gedetecteerd door een transactie te vergelijken met eerdere uitgaven die in een gedeeld grootboek zijn vastgelegd.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: OFF-GRID
+term: Nje ya gridi
+definition: Uchimbuaji huru kwa kutumia vyanzo mbadala vya nishati, nje ya gridi kuu ya umeme.
 ---
 
 Inarejelea operesheni ya Bitcoin Mining inayofanya kazi kwa uhuru, bila kuunganishwa kwenye gridi kuu ya nguvu. Wachimbaji madini wasiotumia gridi ya taifa kwa ujumla hutumia vyanzo mbadala vya nishati kama vile nishati ya jua, upepo au umeme wa maji, au hata jenereta zinazotumia nishati ya kisukuku (k.m. gesi ya kuwaka). Mtindo huu mara nyingi hupendekezwa kupunguza gharama za nishati, kwani inategemea sehemu ya nishati ambayo, bila Mining, ingepotea. Wachimbaji madini wasio na gridi ya taifa wana faida ya kuwa na uwezo wa kuweka katika maeneo yaliyotengwa, ili kutumia nishati hii mbali sana na idadi ya watu.

@@ -1,13 +1,9 @@
-question: Miten varsi vaihe toimii Voikukka-protokollassa?
-
-answer: Transaktio lähetetään satunnaisen solmujen polun kautta
-
+question: Mikä BIP virallisti Dandelion-lähetysprotokollan?
+answer: BIP156
 wrong_answers:
-  - Transaktio lähetetään välittömästi kaikille lähdesolmun vertaisille
-  - Transaktio tallennetaan väliaikaisesti keskussolmuun ennen lähetystä
-  - Transaktio salataan asteittain jokaisessa lähetysvaiheessa
-
+  - BIP34
+  - BIP47
+  - BIP324
 explanation: |
-  Voikukka käyttää ensin varsi vaihetta, jossa transaktio lähetetään satunnaisen solmujen polun kautta. Tämän jälkeen transaktio lähetetään koko verkolle pörrö vaiheessa.
-
+  Dandelion virallistettiin BIP156:ssa, mutta sitä ei lopulta integroitu Bitcoin Coreen.
 reviewed: false

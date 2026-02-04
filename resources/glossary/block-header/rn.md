@@ -1,5 +1,6 @@
 ---
-term: UMUTWE W'IBUBUKO
+term: Umutwe w'icitunza
+definition: Imitako y'ubushobozi bwa 80 octets irimwo amakuru y'igice (version, empreinte précédente, racine Merkle, horodatage, cible, nonce).
 ---
 
 Umutwe w'ibarabara ni umubumbe w'amakuru ukora nk'igice nyamukuru c'ibarabara rya Bitcoin. Igipande cose gifise umutwe n’urutonde rw’ibintu bikoreshwa. Umutwe w'ibara urimwo amakuru ahambaye yemeza ubutungane n'ukuri kw'ibara muri Blockchain.

@@ -1,5 +1,6 @@
 ---
-term: HONG-KONG ROUNDTABLE
+term: Hong-kong roundtable
+definition: Istorijski sastanak iz 2016. godine između Bitcoin Core programera i rudara o skalabilnosti sistema.
 ---
 
 Istorijski događaj Bloksize rata koji se odigrao 20. februara 2016. u Hong Kongu. Bio je to značajan sastanak između Bitcoin Core developera i rudara kako bi se razgovaralo o skalabilnosti sistema i strategiji za njegovo skaliranje. Napetosti su bile visoke pre sastanka, posebno zbog uspona Bitcoin Classic, Hard Fork predloga koji je podržao Gavin Andressen sa ciljem povećanja veličine bloka na 2 MB. Uticajne ličnosti u ekosistemu učestvovale su u debatama, uključujući Jihan Wu i Micree Zhan, suosnivače Bitmain-a, Adam Back-a, predsednika Blockstream-a, i Luke Dashjr-a, Matt Corallo-a i Peter Todd-a.

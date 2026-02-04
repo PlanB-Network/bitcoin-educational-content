@@ -1,6 +1,7 @@
 ---
-term: CYPHERPUNK
+term: Cypherpunks
 
+definition: Komunitas yang mempromosikan kriptografi sebagai sarana untuk melindungi kebebasan individu di Internet.
 ---
 Sebuah komunitas informal dan internasional yang mempromosikan penggunaan kriptografi sebagai sarana untuk memastikan kebebasan individu di Internet. Cypherpunks mengadvokasi hak dasar individu untuk melindungi privasi mereka, terutama dalam konteks meningkatnya pengawasan negara dan eksploitasi data oleh entitas swasta. Nama mereka berasal dari kata bahasa Inggris *cypher*, yang berarti "kode rahasia", dan *punk*. Ini adalah permainan kata dari istilah *cyberpunk*, yang menggambarkan genre sastra yang menggambarkan masa depan distopia di mana teknologi mutakhir terkait dengan kejahatan dan kejahatan dalam masyarakat yang memburuk.
 

@@ -1,0 +1,9 @@
+question: ¿Sobre qué elemento se calcula la prueba de trabajo en Bitcoin?
+answer: El encabezado del bloque
+wrong_answers:
+  - La altura del bloque
+  - La mempool de la red
+  - Las primeras 21 transacciones del bloque
+explanation: |
+  La minería consiste en hashear repetidamente el encabezado del bloque de 80 bytes, que compromete el contenido del bloque.
+reviewed: false

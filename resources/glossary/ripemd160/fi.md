@@ -1,5 +1,6 @@
 ---
 term: RIPEMD160
 
+definition: Kryptografinen tiiviste-eli hash-funktio, joka luo 160-bittisen tiivisteen, käytetään Bitcoin-osoitteissa.
 ---
 Lyhenne tarkoittaa *Research and development in Advanced Communications technologies in Europe Integrity Primitives Evaluation Message Digest 160*. Se on kryptografinen hash-funktio, joka tuottaa 160-bittisen digestin mielivaltaisesta syötteestä. Sitä käytetään Bitcoinissa julkisen avaimen muuntamiseen vastaanottavaksi osoitteeksi Legacy- ja SegWit v0 -standardeissa (SegWit v1 -standardissa julkista avainta ei hakkeroida). Prosessissa julkiseen avaimeen sovelletaan ensin `SHA256`-hajautusfunktiota, minkä jälkeen tulokseen sovelletaan `RIPEMD160`-hajautusfunktiota. Tämä kahden eri hash-funktion yhdistelmä tunnetaan Bitcoinin yhteydessä nimellä `HASH160`. `RIPEMD160`:tä käytetään myös deterministisissä ja hierarkkisissa lompakoissa avainten sormenjälkien laskemiseen. Tarkemmin sanottuna `HASH160`:tä käytetään vanhemman avaimen sormenjäljen laskemiseen, joka sitten sisällytetään laajennetun avaimen metatietoihin (xpub, xprv...).

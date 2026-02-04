@@ -1,5 +1,6 @@
 ---
-term: ERLAY
+term: Erlay
+definition: Giao thức cải thiện hiệu quả chuyển tiếp giao dịch để giảm mức tiêu thụ băng thông.
 ---
 
 Giao thức mạng được đề xuất để cải thiện hiệu quả chuyển tiếp các giao dịch chưa được xác nhận giữa các nút Bitcoin.

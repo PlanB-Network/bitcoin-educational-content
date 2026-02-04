@@ -1,14 +1,11 @@
-question: Ni akamaro akahe nyamukuru k’ama bitcoins y’isugi ya Mining?
-answer: Ntizigeze zikoreshwa kandi nta mateka zifatanye na zo.
+question: Ni akamaro akahe nyamukuru kogucukura bitcoins z’isugi?
+answer: Ntizirigera zikoreshwa kandi ata mateka zifise.
 wrong_answers:
   - Bishobora kugurishwa ku giciro kinini.
   - Bishobora gukoreshwa mu bikorwa bitemewe n’amategeko.
   - Bishobora kubikwa igihe kirekire ataco bitakaje.
 explanation: |
-  Inyungu nyamukuru y’ama bitcoins y’isugi ya Mining ni uko
-  ntizigeze zikoreshwa kandi nta mateka zifatanye na zo.
-  Izo bitcoins akenshi zibonwa ko zifise agaciro kuruta kubera ko .
-  ntivyigeze bihumanya, bikaba bitanga ikimenyamenya kinaka .
-  ku bijanye no kwangwa n’abagenzuzi canke Exchange ikomeye.
-  ama platforms.
+  Inyungu nyamukuru yo gucukura ama bitcoins y’isugi ni uko zitarigera zikoreshwa kandi ata mateka zifise.
+  Izo bitcoins akenshi zibonwa ko zifise agaciro kanini kubera ko zitigeze "zihumanywa," 
+  zitanga icemezo kinaka co kutankwa n'abagenzuzi canke imbuga zikomeye zo guhanahana.
 reviewed: true

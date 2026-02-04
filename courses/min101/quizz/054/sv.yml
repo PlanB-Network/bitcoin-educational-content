@@ -1,0 +1,9 @@
+question: Vad kallas den delade offentliga huvudboken där historiken över bitcoin-betalningar skrivs?
+answer: Blockchain
+wrong_answers:
+  - Mempool
+  - Wallet
+  - Hashrate
+explanation: |
+  Den delade offentliga boken som innehåller alla transaktioner är blockchain.
+reviewed: false

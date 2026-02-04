@@ -1,5 +1,6 @@
 ---
-term: BARE-MULTISIG
+term: Bare-multisig
 
+definition: Kịch bản chuẩn (P2MS) cho phép khóa bitcoin bằng nhiều khóa công khai, yêu cầu số lượng chữ ký tối thiểu để chi tiêu chúng.
 ---
 Standard script model P2MS used to establish spending conditions on a UTXO. It allows locking bitcoins with multiple public keys. To spend these bitcoins, a signature with a predefined number of associated private keys must be provided. For example, a `2/3` P2MS has `3` public keys with `3` associated secret private keys. To spend the bitcoins locked with this P2MS script, a signature with at least `2` of the `3` private keys must be made. This is a threshold security system. This script was invented in 2011 by Gavin Andresen when he had just taken over the maintenance of the main Bitcoin client. Today, P2MS is only marginally used by some applications. The vast majority of modern multisignatures use other script models like P2SH or P2WSH. Compared to these, P2MS is extremely trivial. The public keys it consists of are revealed upon receiving the transaction. Using a P2MS is also more expensive than other multisignature scripts.

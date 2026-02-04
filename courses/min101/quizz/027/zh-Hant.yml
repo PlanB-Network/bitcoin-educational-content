@@ -1,0 +1,9 @@
+question: 交易費用是如何計算的？
+answer: 輸入減去輸出
+wrong_answers:
+  - 輸出減去輸入
+  - 輸入加上輸出
+  - 輸出除以輸入
+explanation: |
+  費用對應於在輸入中消耗但未在輸出中重新創建的價值。
+reviewed: false

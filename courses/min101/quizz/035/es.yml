@@ -1,0 +1,9 @@
+question: Desde SegWit, ¿dónde se compromete el resumen de los testigos del bloque?
+answer: En un output de la coinbase
+wrong_answers:
+  - En el scriptSig de la coinbase
+  - En el campo version
+  - En las comisiones de la coinbase
+explanation: |
+  SegWit utiliza un compromiso inscrito en la coinbase a través de un output OP_RETURN.
+reviewed: false

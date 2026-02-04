@@ -1,5 +1,6 @@
 ---
-term: SPV DÜĞÜMÜ (IŞIK DÜĞÜMÜ)
+term: SPV düğümü (hafif düğüm)
+definition: Yalnızca blok başlıklarını saklayarak ve Merkle kanıtlarını doğrulayarak işlemleri onaylayan hafif istemci.
 ---
 
 Bazen "hafif düğüm" olarak da adlandırılan SPV (*Basit Ödeme Doğrulama*) düğümü, kullanıcıların tüm Blockchain'i saklamak zorunda kalmadan işlemleri doğrulamasına olanak tanıyan bir Bitcoin düğümünün hafif bir istemcisidir. Bunun yerine, bir SPV düğümü yalnızca blok başlıklarını depolar ve gerektiğinde tam düğümleri sorgulayarak belirli işlemler hakkında bilgi edinir. Bu doğrulama prensibi, bir kriptografik akümülatör (Merkle Tree) içinde organize edilen Bitcoin bloklarındaki işlemlerin yapısı ile mümkün olmaktadır.

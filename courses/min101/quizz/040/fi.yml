@@ -1,0 +1,9 @@
+question: Mikä tekijä on tärkein teollisen louhinnan kilpailukyvyssä?
+answer: Sähkön hinta
+wrong_answers:
+  - Palkkakustannusten määrä
+  - Infrastruktuurin ergonominen laatu
+  - Ohjelmistolisenssien hinta
+explanation: |
+  Suuressa mittakaavassa louhinnan kannattavuus riippuu laskentayksikön kustannuksista, jotka määräytyvät pääasiassa sähkön hinnan mukaan.
+reviewed: false

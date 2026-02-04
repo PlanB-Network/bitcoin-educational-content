@@ -1,6 +1,7 @@
 ---
 term: OP_IF (0X63)
 
+definition: Opcode yang mengeksekusi sebagian script jika kondisi di atas tumpukan benar.
 ---
 Mengeksekusi bagian skrip berikut ini jika nilai di bagian atas _stack_ bukan nol (benar). Jika nilainya nol (salah), operasi ini akan dilewati, dan langsung berpindah ke operasi setelah `OP_ELSE`, jika ada. `OP_IF` memungkinkan peluncuran struktur kontrol bersyarat dalam skrip. Struktur ini menentukan aliran kontrol dalam skrip berdasarkan kondisi yang diberikan pada saat eksekusi transaksi. `OP_IF` digunakan dengan `OP_ELSE` dan `OP_ENDIF` dengan cara berikut:
 

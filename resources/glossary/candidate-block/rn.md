@@ -1,5 +1,6 @@
 ---
-term: UMUGAMBI W'UMUKANDIDA
+term: Icitunza-kandida
+definition: Igice kiriko gikorwa n'umucukuzi, kikaba kitararonka ikimenyetso c'igikorwa cemewe.
 ---
 
 Igipande c’abakandida ni igipande kiri mu nzira yo kuremwa na Miner igira uruhara mu nzira ya Mining ya Bitcoin. Igipande c'abashaka gutora ni urutonde rw'amakuru y'igihe gito rurimwo amafaranga arindiriye kwemezwa ariko nta Proof-of-Work ibereye yo kwongerwa kuri Blockchain. Miner ihitamwo amafaranga yo gushiramwo mu gice c’abashaka gutora ashingiye ku bintu bitandukanye, nk’amahera y’amafaranga ajanye n’ivyo n’ingene ubunini bw’igice bugenda. Igihe amafaranga amaze gutorwa, Miner itanga umutwe w’ibarabara, urimwo verisiyo, igice c’amafaranga (Merkle Root), Timestamp, Hash y’ibarabara ry’imbere, intumbero y’ingorane, na Nonce. Miner ica igerageza kurondera Hash y’umutwe wayo ihuye n’intumbero y’ingorane iriho ubu. Kugira ngo ivyo bishoboke, Miner irahindura Nonce iri mu mutwe. Miner ishobora kandi guhindura ayandi makuru ari mu gice cabo c’abakandida. Ubu ni bwo buryo bwa Proof-of-Work. Iyo Miner ishoboye kuronka Hash ibereye, iyo block y'umukandida iba block ibereye maze igaca itangazwa ku rubuga kugira ngo yongererwe kuri Blockchain.

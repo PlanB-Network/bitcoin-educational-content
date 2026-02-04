@@ -1,5 +1,6 @@
 ---
 term: Nonce
+definition: Nambari inayotumika mara moja tu, inayorekebishwa na wachimbaji ili kupata hash halali ya kitalu.
 ---
 
 Katika muktadha wa kompyuta, neno "Nonce" linamaanisha nambari ambayo hutumiwa mara moja tu na kisha kubadilishwa. Mara nyingi ni nasibu au pseudo-nasibu. Nonces hutumiwa katika itifaki mbalimbali za kriptografia ili kuhakikisha usalama wa mchakato. Kwa mfano, sahihi za ECDSA zinazotumiwa ndani ya itifaki ya Bitcoin ni pamoja na matumizi ya Nonce. Hii ina maana kwamba nambari hii lazima iwe mpya kwa kila sahihi. Ikiwa sio hivyo, inawezekana kuhesabu ufunguo wa kibinafsi unaotumiwa kwa kulinganisha saini mbili zinazotumia Nonce sawa.

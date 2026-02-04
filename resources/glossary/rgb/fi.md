@@ -1,5 +1,6 @@
 ---
 term: RGB
+definition: Hajautettu ja luottamuksellinen älysopimusjärjestelmä, joka toimii Bitcoinin päällä.
 ---
 
 Hajautettu, luottamuksellinen Smart contract-järjestelmä, joka on suunniteltu toimimaan yhdessä Bitcoin:n ja Lightning Network:n kanssa. RGB toimii Client-side Validation-mallilla ja erottaa Contract State:n tallennuksen Blockchain:stä niin, että siinä säilytetään vain kryptografisia sitoumuksia. Näin koko tilahistoria säilytetään ketjun ulkopuolella, mikä mahdollistaa paremman skaalautuvuuden ja luottamuksellisuuden. RGB mahdollistaa siten monimutkaisten sopimusten luomisen tokenien, NFT:iden, hajautettujen identiteettien tai DeFi-ratkaisujen tallentamiseksi suoraan Bitcoin:n päälle.

@@ -1,5 +1,6 @@
 ---
 term: BIP0042
+definition: Correction of a bug that could have created bitcoin inflation after 64 halvings (around 2214), guaranteeing the 21 million limit.
 ---
 
 A Bitcoin Core improvement proposal that fixed a minor bug in the block reward halving schedule. If left uncorrected, this bug would have resulted in the creation of more than the intended 21 million bitcoins.

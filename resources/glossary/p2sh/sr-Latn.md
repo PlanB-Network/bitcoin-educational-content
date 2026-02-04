@@ -1,5 +1,6 @@
 ---
 term: P2SH
+definition: Skripta koja omogućava proizvoljne uslove trošenja putem heša redeemScript-a.
 ---
 
 P2SH označava *Pay to Script Hash*. To je standardni model skripte koji se koristi za uspostavljanje uslova trošenja na UTXO. Za razliku od P2PK i P2PKH skripti, gde su uslovi trošenja unapred definisani, P2SH omogućava integraciju proizvoljnih uslova trošenja i dodatnih funkcionalnosti unutar transakcione skripte.

@@ -1,5 +1,6 @@
 ---
-term: MFUMUKO WA BEI
+term: Mfumuko wa bei
+definition: Kuongezeka kwa usambazaji wa pesa kunakosababisha kupungua kwa thamani ya kila kitengo.
 ---
 
 Inahusu ongezeko la fedha Supply katika mzunguko, na kusababisha kushuka kwa thamani ya kila kitengo cha fedha na kupanda kwa bei ya bidhaa na huduma. Kwa sarafu zinazomilikiwa na serikali, jambo hili hutokea wakati benki kuu zinatoa vitengo vipya vya sarafu.

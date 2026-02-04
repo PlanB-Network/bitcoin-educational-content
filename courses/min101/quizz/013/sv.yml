@@ -1,0 +1,9 @@
+question: Vilket villkor gör ett block giltigt i Bitcoin?
+answer: SHA256d(blockhuvud) <= mål
+wrong_answers:
+  - SHA256d(blockhuvud) >= mål
+  - SHA256d(block) >= mål
+  - SHA256d(blockhuvud) > mål
+explanation: |
+  För att ett block ska vara giltigt i Bitcoin måste dess blockhuvudhash, tolkad som ett tal, vara mindre än eller lika med (<=) målet.
+reviewed: false

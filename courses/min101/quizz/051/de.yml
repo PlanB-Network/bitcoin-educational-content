@@ -1,0 +1,9 @@
+question: Welche Ressource muss beim Bitcoin-Mining verwendet werden?
+answer: Elektrizität
+wrong_answers:
+  - Wasser
+  - Edelsteine
+  - Gold
+explanation: |
+  Mining ist eine Validierungsarbeit, die über Computer Strom verbraucht.
+reviewed: false

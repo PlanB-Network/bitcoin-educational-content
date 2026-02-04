@@ -1,5 +1,6 @@
 ---
-term: UMUBUNGAZI (CORE)
+term: Maintainer (core)
+definition: Abantu bajejwe kwitaho umushinga wa Bitcoin Core no guhuza amahinduka y'ikode.
 ---
 
 Mu bijanye n’umugambi wa Bitcoin core, ni ukuvuga ugushirwa mu ngiro kw’ibihimba vy’umubiri ku rubuga rwa Bitcoin, ababibungabunga ni abantu bashinzwe gucunga umugambi. Ni bo bikorera inshingano yo gushirwa mu ngiro kwayo. Ni bo bajejwe gucungera ububiko bwa Bitcoin core GitHub no gushinga urutonde rwo gusohora verisiyo nshasha. Ni bo bajejwe canecane gukora ivy’uguhuza ibisabwa vyo gukurura (PR) vyashikirijwe n’abatanga.

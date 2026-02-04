@@ -1,5 +1,6 @@
 ---
-term: chain code
+term: Kedjekod
+definition: 256-bitars kryptografiskt saltvärde som används vid HD-härledning av plånboksnycklar.
 ---
 
 I samband med hierarkisk deterministisk (HD) härledning av Bitcoin plånböcker är chain code ett 256-bitars kryptografiskt saltvärde som används för att generate barnnycklar från en överordnad nyckel, enligt BIP32-standarden. chain code används i kombination med den överordnade nyckeln och barnets index för att på ett deterministiskt sätt skapa generate för ett nytt nyckelpar (privat nyckel och publik nyckel) utan att avslöja den överordnade nyckeln eller andra härledda barnnycklar.
@@ -11,4 +12,3 @@ Därför finns det en unik chain code för varje nyckelpar. chain code erhålls 
 Det är omöjligt att härleda nycklar utan att känna till den chain code som är associerad med varje föräldrapar. Den introducerar pseudoslumpmässiga data i härledningsprocessen för att säkerställa att genereringen av kryptografiska nycklar förblir oförutsägbar för angripare samtidigt som den är deterministisk för Wallet-innehavaren.
 
 
-> ► * På engelska kallas en "code de chaîne" för en "chain code" och en "code de chaîne maître" för en "master chain code".*

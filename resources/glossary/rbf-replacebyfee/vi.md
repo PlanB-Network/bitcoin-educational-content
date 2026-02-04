@@ -1,6 +1,7 @@
 ---
-term: RBF (REPLACE-BY-FEE)
+term: RBF (thay thế bằng phí)
 
+definition: Cơ chế cho phép thay thế một giao dịch chưa được xác nhận bằng một giao dịch khác có phí cao hơn.
 ---
 A transactional mechanism that allows the sender to replace one transaction with another by paying higher fees, in order to speed up its confirmation. If a transaction with too low fees gets stuck, the sender can use *Replace-By-Fee* to increase the fees and prioritize their replacement transaction in the mempools.
 

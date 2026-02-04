@@ -1,0 +1,9 @@
+question: Kondisi apa yang membuat blok valid di Bitcoin?
+answer: SHA256d(header blok) <= target
+wrong_answers:
+  - SHA256d(header blok) >= target
+  - SHA256d(blok) >= target
+  - SHA256d(header blok) > target
+explanation: |
+  Agar blok valid di Bitcoin, hash headernya, yang diinterpretasikan sebagai angka, harus lebih kecil atau sama dengan (<=) target.
+reviewed: false

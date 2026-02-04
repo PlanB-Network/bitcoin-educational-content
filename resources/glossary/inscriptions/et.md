@@ -1,6 +1,7 @@
 ---
-term: INSCRIPTIONS
+term: Inscriptions
 
+definition: Meelevaldne sisu, mis on jäädvustatud satoshidele Ordinals protokolli kaudu, luues digitaalseid artefakte.
 ---
 Ordinatsiooniteooria kontekstis on sissekirjutus suvaline sisu, mis on graveeritud satsidele, muutes need Bitcoini digitaalseteks artefaktideks. Sissekirjutused tehakse tehingute kaudu, mis paljastavad Taproot-sisendi käsikirjas oleva teabe sisu sellisel viisil:
 

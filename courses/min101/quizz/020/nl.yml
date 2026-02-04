@@ -1,0 +1,9 @@
+question: Welk gemiddeld interval tussen elk blok streeft Bitcoin na?
+answer: 10 minuten
+wrong_answers:
+  - 1 minuut
+  - 30 minuten
+  - 60 minuten
+explanation: |
+  Het protocol streeft naar een gemiddelde van ongeveer één blok elke 10 minuten over een lange periode.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
 term: RGB
+definition: 运行在比特币上的去中心化且机密的智能合约系统。
 ---
 
 分散、保密的 Smart contract 系统，旨在与 Bitcoin 和 Lightning Network 协同工作。RGB 以 Client-side Validation 模式运行，将 Contract State 与 Blockchain 的存储分离，只保留加密承诺。这样，完整的状态历史就被保存在链之外，从而提高了可扩展性和保密性。因此，RGB 可以直接在 Bitcoin 上创建复杂的合约，以存储代币、NFT、去中心化身份或 DeFi 解决方案。

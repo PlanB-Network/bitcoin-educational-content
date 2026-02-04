@@ -1,0 +1,9 @@
+question: Hashcashが主に削減しようとした問題は何ですか？
+answer: Eメールスパム
+wrong_answers:
+  - 二重支払い
+  - DNSフィッシング
+  - 秘密鍵の盗難
+explanation: |
+  Hashcashは、電子メールの大量送信を不採算にするために、メッセージごとに計算コストを課します。
+reviewed: false

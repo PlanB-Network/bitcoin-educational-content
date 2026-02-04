@@ -1,5 +1,6 @@
 ---
 term: BIP0085
+definition: Uburyo bwemera kurema amajambo y'ubwenge menshi ku mawallet atandukanye bivuye kuri master seed imwe.
 ---
 
 BIP85 itanga umuti wo guhuza ivy'amasakoshi menshi ya Bitcoin hakoreshejwe seed imwe.

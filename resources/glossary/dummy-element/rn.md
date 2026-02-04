@@ -1,5 +1,6 @@
 ---
-term: IKINTU C'IKINYOMA
+term: Dummy element
+definition: Ikintu c'itiriro gikenewe n'ama multisig opcodes kugira ngo hagoshorwe ikosa rya kera ry'ubuharure (off-by-one).
 ---
 
 Yerekeza ku kintu c'inyongera kandi kidakenewe gikoreshwa n'amakode y'ibikorwa `OP_CHECKMULTISIG` na `OP_CHECKMULTISIGVERIFY` mu gihe co kugenzura imikono mu gucuruza. Kubera ikibazo c’amateka c’uguhagarika-ku-kimwe (ikosa ry’uguhindura igice), izo opcodes 2 zikuraho ikintu c’inyongera mu kirundo congereye ku gikorwa cazo c’ishimikiro. Kugira ngo wirinde ikosa, ni ngombwa rero gushiramwo agaciro k'ikinyoma mu ntango ya `scriptSig` kugira ngo uhaze ugukuraho no guca ku nzira y'ikibazo. Agaciro kadakenewe ni co citwa "*ikintu c'ikinyoma*". BIP11, yashizeho urugero rwa P2MS, yatanze impanuro yo gukoresha `OP_0` nk'agaciro k'ikinyoma. Ariko rero, iyo ngingo ntiyashizwe mu ngiro ku rugero rw’itegeko ry’uguhurizako, bisobanura ko agaciro ako ari ko kose kashobora gushirwa ng’aho ataco gahinduye ku bijanye n’ugucuruza. Gutyo, ikintu c’ikinyoma cari umurongo w’uguhinduranya. BIP147, yashizweho na SegWit Soft Fork, yategetse ko iki kintu c’ikinyoma kiba ari urutonde rw’ibintu ataco bimaze (`OP_0`), gutyo bigakuraho ubugoyagoye bujanye n’iki kintu mu gutuma igikorwa cose kidakurikiza amategeko kitagira akamaro hakurikijwe amategeko y’uguhurizako. Iri tegeko, ryitwa `NULLDUMMY`, rikoreshwa ku bikorwa vyose vya SegWit n'imbere ya SegWit.

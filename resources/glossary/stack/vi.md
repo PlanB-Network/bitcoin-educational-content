@@ -1,5 +1,6 @@
 ---
-term: ẮC QUY
+term: Ngăn xếp (stack)
+definition: Cấu trúc dữ liệu LIFO được sử dụng trong Bitcoin Script để lưu trữ và thao tác các phần tử tạm thời trong quá trình thực thi.
 ---
 
 Trong ngữ cảnh của ngôn ngữ kịch bản được sử dụng để gắn các điều kiện chi tiêu vào Bitcoin UTXO, ngăn xếp là một cấu trúc dữ liệu LIFO (*Vào sau, Ra trước*) được sử dụng để lưu trữ Elements tạm thời trong quá trình thực thi kịch bản. Mỗi thao tác trong kịch bản đều thao tác các ngăn xếp này, trong đó Elements có thể được thêm vào (*đẩy*) hoặc xóa đi (*bật*). Các kịch bản sử dụng ngăn xếp để đánh giá các biểu thức, lưu trữ các biến tạm thời và quản lý các điều kiện.

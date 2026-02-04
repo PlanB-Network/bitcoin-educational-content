@@ -1,0 +1,9 @@
+question: 비트코인 코어(Bitcoin Core)의 어떤 파라미터가 기본 최소 릴레이 임계값을 설정합니까?
+answer: minRelayTxFee
+wrong_answers:
+  - minConfirmTxFee
+  - relayTxWeight
+  - mempoolMinBits
+explanation: |
+  노드는 로컬 정책을 적용하며, 비트코인 코어는 최소 릴레이 임계값으로 minRelayTxFee 파라미터를 사용합니다.
+reviewed: false

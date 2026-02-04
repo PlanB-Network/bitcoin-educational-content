@@ -1,5 +1,6 @@
 ---
 term: OP_CHECKLOCKTIMEVERIFY (0XB1)
+definition: Opcode inayoweka kizuizi cha muda kamili kwenye utumiaji wa UTXO.
 ---
 
 Hufanya muamala kuwa batili isipokuwa masharti haya yote yatimizwe:

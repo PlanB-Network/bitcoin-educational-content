@@ -1,0 +1,9 @@
+question: Mikä on Merkle-juuren tarkoitus Bitcoin-lohkon otsakkeessa?
+answer: Sitouttaa kaikki lohkon tapahtumat
+wrong_answers:
+  - Lohkon työtodistuksen laskeminen
+  - Lohkoversion ilmoittaminen
+  - Lohkon vaikeustason selvittäminen
+explanation: |
+  Merkle-juuri tiivistää kaikki tapahtumat; jos jokin muuttuu, myös juuri muuttuu.
+reviewed: false

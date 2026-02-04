@@ -1,12 +1,13 @@
 ---
-term: RESYNCHRONISATION
+term: Resynchronisation
 
+definition: Ersetzung eines Teils der Blockchain durch eine konkurrierende Kette mit mehr akkumulierter Arbeit.
 ---
 Bezieht sich auf ein Phänomen, bei dem die Blockchain aufgrund der Existenz konkurrierender Blöcke auf gleicher Höhe eine Änderung ihrer Struktur erfährt. Dies geschieht, wenn ein Teil der Blockchain durch eine andere Kette mit einer größeren Menge an angesammelter Arbeit ersetzt wird.
 
 Diese Resynchronisationen sind Teil der natürlichen Funktionsweise von Bitcoin, bei der verschiedene Miner fast gleichzeitig neue Blöcke finden können, wodurch das Bitcoin-Netzwerk in zwei Teile gespalten wird. In solchen Fällen kann sich das Netzwerk vorübergehend in konkurrierende Ketten aufspalten. Wenn eine dieser Ketten mehr Arbeit anhäuft, werden die anderen Ketten von den Knoten aufgegeben, und ihre Blöcke werden zu so genannten "veralteten Blöcken" oder "verwaisten Blöcken" Dieser Prozess des Ersetzens einer Kette durch eine andere ist die Resynchronisierung.
 
-![](../../dictionnaire/assets/9.webp)
+
 
 Resynchronisierungen können verschiedene Folgen haben. Erstens, wenn ein Nutzer eine Transaktion in einem Block bestätigt hat, der sich als abgebrochen herausstellt, aber diese Transaktion nicht in der letztendlich gültigen Kette gefunden wird, dann wird seine Transaktion wieder unbestätigt. Aus diesem Grund wird empfohlen, immer mindestens 6 Bestätigungen abzuwarten, um eine Transaktion als wirklich unveränderlich zu betrachten. Nach 6 Blöcken sind Neusynchronisierungen so unwahrscheinlich, dass die Chance, dass sie auftreten, als praktisch null angesehen werden kann.
 

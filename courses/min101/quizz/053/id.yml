@@ -1,0 +1,9 @@
+question: Sebelum ditambahkan ke blockchain, ke dalam apa transaksi dikelompokkan?
+answer: Dalam sebuah blok
+wrong_answers:
+  - Dalam sebuah UTXO
+  - Dalam sebuah ASIC
+  - Dalam sebuah scriptSig
+explanation: |
+  Transaksi tidak langsung ditulis ke dalam blockchain. Transaksi tersebut terlebih dahulu dimasukkan ke dalam sebuah blok.
+reviewed: false

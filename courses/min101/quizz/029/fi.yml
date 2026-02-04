@@ -1,0 +1,9 @@
+question: Mistä lohkopalkkio koostuu?
+answer: Subsidio + maksut
+wrong_answers:
+  - Subsidio + vaikeustaso
+  - Maksut + nonce
+  - Hashrate + maksut
+explanation: |
+  Palkkio on lohkosubsidion ja kaikkien mukaan otettujen siirtomaksujen summa.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: ĐẦU RA
+term: Output
+definition: Đầu ra giao dịch tạo ra một UTXO mới dành cho một địa chỉ.
 ---
 
 Trong bối cảnh của Bitcoin, một đầu ra trong một giao dịch đề cập đến _Đầu ra giao dịch chưa chi_ (UTXO) được tạo ra như là quỹ đích để thanh toán. Chính xác hơn, đó là một cơ chế mà giao dịch phân phối quỹ. Một giao dịch lấy UTXO, tức là các bit bitcoin, làm "đầu vào" và tạo ra các UTXO mới làm "đầu ra". Các đầu ra này quy định một số lượng bitcoin nhất định, thường được phân bổ cho một Address cụ thể, cũng như các điều kiện mà các quỹ này có thể được chi tiêu vào một ngày sau đó.

@@ -1,0 +1,9 @@
+question: Op welke blokhoogte vond de vierde halving plaats?
+answer: 840.000
+wrong_answers:
+  - 880.000
+  - 860.000
+  - 900.000
+explanation: |
+  De vierde halving vond plaats op hoogte 840.000, op 20 april 2024.
+reviewed: false

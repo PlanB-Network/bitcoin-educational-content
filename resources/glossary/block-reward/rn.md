@@ -1,5 +1,6 @@
 ---
-term: Block reward
+term: Agashimwe k'icitunza
+definition: Ingano yose ya bitcoins (intererano + amafaranga y'ivunjisha) umucukuzi aronka iyo atoronse igice (block) cemewe.
 ---
 
 Block reward ni umubare wose w’ama bitcoins yaronswa na Miner iyo ashoboye gucukura neza igice gifise akamaro.
@@ -14,4 +15,3 @@ Gigizwe n’ibice bibiri:
 Block reward isohorwa biciye ku nzira idasanzwe yitwa Coinbase Transaction. Bitcoins zaronswa na Coinbase Transaction zishobora gukoreshwa igihe co gukura c’ama blocks 100 imbere y’uko zishobora gukoreshwa.
 
 
-> ► *Impinduro y'igifaransa ni "Récompense de bloc".*

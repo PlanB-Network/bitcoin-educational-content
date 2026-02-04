@@ -1,10 +1,10 @@
-question: Welke van de volgende antwoorden is geen aanbevolen praktijk voor het beheren van iemands doxische verandering?
+question: Welke van de volgende antwoorden is geen aanbevolen praktijk voor het beheren van iemands doxische changes (wisselgeld)?
 answer: Doxische UTXO's samenvoegen.
 wrong_answers:
   - Doxische UTXO's mengen in een kleinere pool.
   - Je doxische UTXO's doneren.
   - Je doxische UTXO's markeren als niet-uitgeefbaar.
 explanation: |
-  Het wordt afgeraden om doxische UTXO's samen te voegen, omdat er dan een verband gelegd kan worden tussen de verschillende ingangen van de gebruiker in Whirlpool.
+  Het wordt afgeraden om doxische UTXO's samen te voegen, omdat er dan een verband gelegd kan worden tussen de verschillende inputs van de gebruiker in Whirlpool.
   
 reviewed: false

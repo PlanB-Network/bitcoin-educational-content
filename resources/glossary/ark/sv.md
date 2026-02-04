@@ -1,5 +1,6 @@
 ---
-term: ARK
+term: Ark
+definition: Ett andra lagrets protokoll som möjliggör snabba, anonyma och billiga Bitcoin-betalningar utan att kräva inkommande likviditet som på Lightning.
 ---
 
 Nytt andra Layer-protokoll som presenterades av Burak i maj 2023. Liksom Lightning Network är Ark ett system som fungerar ovanpå det huvudsakliga Bitcoin Blockchain. Det skulle möjliggöra betalningar i bitcoins off-chain på ett snabbt, anonymt och billigt sätt. Jämfört med Lightning kräver Ark inte inkommande likviditet för att ta emot betalningar, vilket avsevärt förbättrar användarupplevelsen. Dessutom erbjuder den integritet som liknar CoinJoin-transaktioner, medan Lightning är en relativt dålig modell för att skydda integriteten. Slutligen kan Ark också vara icke-interaktiv om covenants läggs till i Bitcoin. Burak kritiserar ofta Lightnings skalbarhet på grund av dess beroende av huvudkedjan och föreslår att Ark teoretiskt skulle kunna rymma hela den globala befolkningen i självförvar. Även om Ark kan ses som ett konkurrerande protokoll till Lightning Network, skulle de två faktiskt kunna samexistera. De kan till och med vara komplementära. Det är dock viktigt att notera att Ark än så länge bara är ett koncept. Burak har ännu inte avslöjat koden för sin uppfinning.

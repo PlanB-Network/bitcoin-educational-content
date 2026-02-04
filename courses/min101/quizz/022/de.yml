@@ -1,0 +1,9 @@
+question: Was misst die Hashrate?
+answer: Hashes pro Sekunde
+wrong_answers:
+  - Blöcke pro Sekunde
+  - Transaktionen pro Sekunde
+  - Bytes pro Sekunde
+explanation: |
+  Die Hashrate gibt die Anzahl der pro Sekunde durchgeführten Hash-Versuche in H/s an.
+reviewed: false

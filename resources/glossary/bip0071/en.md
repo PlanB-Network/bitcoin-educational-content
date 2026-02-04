@@ -1,5 +1,6 @@
 ---
 term: BIP0071
+definition: Definition of the MIME type for BIP70 payment messages. Never widely adopted.
 ---
 
 Defines a MIME (*Multipurpose Internet Mail Extensions*) media type, in accordance with the RFC 2046 standard, for bitcoin payment request messages in BIP70. 

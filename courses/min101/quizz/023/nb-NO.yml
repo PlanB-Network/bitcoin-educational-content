@@ -1,0 +1,9 @@
+question: Hva skjer hvis blokkene ble funnet for raskt i den siste perioden?
+answer: Målet synker
+wrong_answers:
+  - Målet stiger
+  - Målet forblir identisk
+  - Blokkstørrelsen øker
+explanation: |
+  Blokker funnet for raskt indikerer en høyere hashrate, så Bitcoin strammer inn betingelsen ved å senke målet.
+reviewed: false

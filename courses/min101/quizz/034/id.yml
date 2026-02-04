@@ -1,0 +1,9 @@
+question: Apa yang diubah oleh halving pada Bitcoin?
+answer: Subsidi blok
+wrong_answers:
+  - Biaya transaksi
+  - Ukuran blok
+  - Target kesulitan
+explanation: |
+  Halving membagi dua subsidi maksimum yang diciptakan per blok, tanpa menyentuh biaya.
+reviewed: false

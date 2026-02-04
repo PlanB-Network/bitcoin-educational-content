@@ -1,0 +1,9 @@
+question: Jaka zasada statystyczna wyjaśnia, że częstotliwość znalezionych bloków zbiega się z udziałem w hashrate w dłuższym terminie?
+answer: Prawo wielkich liczb
+wrong_answers:
+  - Twierdzenie Bayesa
+  - Paradoks dnia urodzin
+  - Zasada najmniejszego działania
+explanation: |
+  Zbieżność wyników wynika z prawa wielkich liczb, ponieważ każdy hash jest niezależną próbą.
+reviewed: false

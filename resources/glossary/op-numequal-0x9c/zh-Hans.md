@@ -1,5 +1,6 @@
 ---
-term: OP_NUMEQUAL (0x9C)
+term: OP_NUMEQUAL (0X9C)
 
+definition: 检查堆栈顶部的两个元素在数值上是否相等的Opcode。
 ---
 对堆栈中最上面的两个元素进行比较，检查它们的数值是否相等。如果数值相等，则向堆栈推入 `1`（true），否则推入 `0`（false）。

@@ -1,0 +1,9 @@
+question: At what block height did the fourth halving take place?
+answer: 840,000
+wrong_answers:
+  - 880,000
+  - 860,000
+  - 900,000
+explanation: |
+  The fourth halving took place at height 840,000 on April 20, 2024.
+reviewed: false

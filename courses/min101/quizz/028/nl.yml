@@ -1,0 +1,9 @@
+question: Waarmee komt de bloksubsidie overeen?
+answer: Monetaire creatie
+wrong_answers:
+  - Transactiekosten
+  - Gebruikersdeposito
+  - Spamstraf
+explanation: |
+  De subsidie is het deel van de beloning dat nieuwe bitcoins ex nihilo creëert volgens de regels van het protocol.
+reviewed: false

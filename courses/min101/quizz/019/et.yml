@@ -1,0 +1,9 @@
+question: Kes leiutas Hashcashi?
+answer: Adam Back
+wrong_answers:
+  - Nick Szabo
+  - Hal Finney
+  - David Chaum
+explanation: |
+  Hashcashi leiutas Adam Back. See on esimene töö tõendamise (proof-of-work) mehhanism.
+reviewed: false

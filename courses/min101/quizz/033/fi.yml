@@ -1,0 +1,9 @@
+question: Kuinka monen lohkon välein puoliintuminen (halving) tapahtuu?
+answer: 210 000
+wrong_answers:
+  - 2 016
+  - 100 000
+  - 21 000 000
+explanation: |
+  Protokolla suorittaa puoliintumisen aina, kun lohkokorkeus on 210 000:n monikerta.
+reviewed: false

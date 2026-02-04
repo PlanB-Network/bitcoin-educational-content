@@ -1,6 +1,7 @@
 ---
 term: GNU
 
+definition: Vaba operatsioonisüsteemi projekt, mis on vaba tarkvara liikumise aluseks.
 ---
 Richard Stallmani poolt 1983. aastal algatatud projekt Unixiga ühilduva vaba operatsioonisüsteemi loomiseks. Projekti raames töötati välja arvukalt vaba tarkvara, mida saab kasutada operatsioonisüsteemina või teise operatsioonisüsteemi kõrval. GNU on vaba tarkvara liikumise aluseks, mis on Bitcoini kogukonnas laialdaselt omaks võetud. Koos Linuxi tuumaga moodustab see GNU/Linuxi operatsioonisüsteemid.
 

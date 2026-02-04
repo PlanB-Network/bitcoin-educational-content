@@ -1,9 +1,9 @@
-question: Ni gute noshiramwo "Itunga Ridashobora Gutera.RGB" Schema muri Stash yo mu karere?
+question: Ni gute noshiramwo "Itunga Ridashobora Gutera.RGB" Igicapo muri Stash yo mu karere?
 answer: RGB ibishushanyo vyo kwinjiza mu gihugu/Ibintu bidashobora gutera.RGB.
 wrong_answers:
-  - RGB kwinjiza Schema/Ibintu Bitashobora Gufutwa.RGB.
+  - RGB kwinjiza Igicapo/Ibintu Bitashobora Gufutwa.RGB.
   - RGB igishushanyo c'ivy'ubuhinga/Ibintu bitashobora gutera.RGB.
-  - RGB igishushanyo Schema/Itunga Ridashobora Gufutwa.RGB.
+  - RGB igishushanyo Igicapo/Itunga Ridashobora Gufutwa.RGB.
 explanation: |
-  Schema yashizwe hamwe yinjizwa muri Stash yo mu karere hakoreshejwe itegeko "Imirongo y'injiza ya RGB/Imitungo idashobora gutera.RGB".
-reviewed: false
+  Igicapo cashizwe hamwe yinjizwa muri Stash yo mu karere hakoreshejwe itegeko "Imirongo y'injiza ya RGB/Imitungo idashobora gutera.RGB".
+reviewed: true

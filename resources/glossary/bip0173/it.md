@@ -1,6 +1,7 @@
 ---
 term: BIP0173
 
+definition: Formato di indirizzo bech32 per SegWit V0 con prefisso bc1q, che offre una migliore leggibilità e rilevamento degli errori.
 ---
 Introdotto il formato di indirizzo bech32 per gli indirizzi SegWit V0. Questo formato di indirizzo è caratterizzato dal prefisso `bc1q`. Il formato bech32 offre diversi vantaggi:
 

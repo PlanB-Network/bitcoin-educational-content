@@ -1,6 +1,7 @@
 ---
 term: OP_3DUP (0X6F)
 
+definition: Opcode, der die drei obersten Elemente auf dem Stack dupliziert.
 ---
 Dupliziert die obersten drei Elemente des Stapels und legt sie dann oben auf den Stapel. Zum Beispiel, wenn der Stapel ist:
 

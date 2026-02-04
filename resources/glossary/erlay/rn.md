@@ -1,5 +1,6 @@
 ---
-term: ERLAY
+term: Erlay
+definition: Amategeko aryohora ukuntu ivunjisha ryunguruzwa kugira ngo hagabanuke ikoreshwa rya bandwidth.
 ---
 
 Ivyiyumviro vy’uruja n’uruza kugira ngo haboneke ubushobozi bwo gutanga amakuru ataremejwe hagati y’ibice vya Bitcoin.

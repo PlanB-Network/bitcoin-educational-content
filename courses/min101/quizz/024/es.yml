@@ -1,0 +1,9 @@
+question: ¿Qué fenómeno hace que el retraso entre dos bloques sea fundamentalmente variable?
+answer: El carácter probabilístico del hash
+wrong_answers:
+  - El carácter determinista del hash
+  - El carácter recursivo del hash
+  - El carácter periódico del hash
+explanation: |
+  Cada hash es un intento independiente, lo que hace que los tiempos de descubrimiento sean aleatorios incluso con un hashrate constante.
+reviewed: false

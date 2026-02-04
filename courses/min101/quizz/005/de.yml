@@ -1,0 +1,9 @@
+question: Was entspricht dem nbits-Feld im Block-Header?
+answer: Das kodierte Schwierigkeitsziel
+wrong_answers:
+  - Die Blockgröße in Bytes
+  - Die Anzahl der Transaktionen im Block
+  - Der Zeitstempel des Blocks
+explanation: |
+  Das Feld nbits kodiert das aktive Schwierigkeitsziel.
+reviewed: false

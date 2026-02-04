@@ -1,0 +1,9 @@
+question: Gdzie od czasu SegWit zapisywane jest zobowiązanie świadków (witness commitment) bloku?
+answer: W wyjściu (output) transakcji coinbase
+wrong_answers:
+  - W scriptSig transakcji coinbase
+  - W polu wersji
+  - W opłatach transakcji coinbase
+explanation: |
+  SegWit wykorzystuje zobowiązanie zapisane w coinbase poprzez wyjście OP_RETURN.
+reviewed: false

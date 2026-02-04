@@ -1,0 +1,9 @@
+question: Co zmienia halving w Bitcoinie?
+answer: Subsydia blokowa
+wrong_answers:
+  - Opłaty transakcyjne
+  - Rozmiar bloku
+  - Cel trudności
+explanation: |
+  Halving dzieli na pół maksymalną subsydię tworzoną na blok, nie wpływając na opłaty.
+reviewed: false

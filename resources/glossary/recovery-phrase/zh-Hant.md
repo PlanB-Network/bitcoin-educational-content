@@ -1,5 +1,6 @@
 ---
-term: 恢復短語
+term: 恢復助記詞
+definition: 包含12或24個單詞的序列，用於備份和恢復比特幣錢包。
 ---
 
 恢復詞組，有時也稱為 Mnemonic、seed 詞組或秘密詞組，是通常由 12 或 24 個字組成的序列，由熵源以偽隨機方式產生。偽隨機序列總是以校驗和來完成。Mnemonic 詞組與可選的 passphrase 一起，用來確定性地推導出與 HD (Hierarchical Deterministic) Wallet 相關的所有金鑰。這表示從這個詞組可以確定地 generate 並重新產生 Bitcoin Wallet 的所有私密金鑰和公開金鑰，進而存取與之相關的資金。恢復短語的目的是提供一個既安全又容易使用的比特幣備份和恢復方式。

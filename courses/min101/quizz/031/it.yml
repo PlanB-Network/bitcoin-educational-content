@@ -1,0 +1,9 @@
+question: Qual è l'ultimo halving secondo il protocollo?
+answer: Il 33esimo
+wrong_answers:
+  - Il 21esimo
+  - Il 38esimo
+  - Il 64esimo
+explanation: |
+  Il 33esimo halving, all'altezza 6.930.000, metterà fine al sussidio di blocco poiché scenderà al di sotto dell'unità minima.
+reviewed: false

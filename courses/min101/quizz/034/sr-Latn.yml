@@ -1,0 +1,9 @@
+question: Šta halving menja na Bitcoin-u?
+answer: Subvencija bloka
+wrong_answers:
+  - Naknade za transakcije
+  - Veličina bloka
+  - Cilj težine
+explanation: |
+  Halving prepolovljuje maksimalnu subvenciju koja se stvara po bloku, bez uticaja na naknade.
+reviewed: false

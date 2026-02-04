@@ -1,6 +1,7 @@
 ---
-term: SCRIPTWITNESS
+term: Scriptwitness
 
+definition: SegWit-elementti, joka sisältää allekirjoitukset ja julkiset avaimet bitcoinien avaamiseksi.
 ---
 SegWit-tapahtumamerkintöjen elementti, joka sisältää allekirjoitukset ja julkiset avaimet, joita tarvitaan tapahtumassa lähetettyjen bitcoinien lukituksen avaamiseen. Samanlainen kuin Legacy-tapahtumien `scriptSig`, `scriptWitness` ei kuitenkaan sijaitse samassa paikassa. Juuri tämä "todistajaksi" (englanniksi `*witness*`) kutsuttu osa siirretään erilliseen tietokantaan, jotta transaktion muokattavuusongelma voidaan ratkaista. Jokaisella SegWit-syötteellä on oma `scriptWitness`-elementtinsä, ja kaikki `scriptWitness`-elementit muodostavat yhdessä tapahtuman `Witness`-kentän.
 

@@ -1,5 +1,6 @@
 ---
-term: ATTACK SURFACE
+term: Hyökkäyspinta
 
+definition: Joukko mahdollisia sisäänpääsypisteitä, joita hyökkääjä voi hyödyntää järjestelmän pääsyyn. Tämän pinnan pienentäminen parantaa turvallisuutta.
 ---
 Tarkoittaa niiden mahdollisten sisäänpääsypisteiden kokonaismäärää, joita hyökkääjä voisi käyttää hyväkseen päästäkseen järjestelmään. Hyökkäyspinta käsittää kaikki rajapinnat, palvelut, portit, protokollat ja muut viestintävektorit, jotka voivat paljastua. Laajempi hyökkäyspinta lisää haavoittuvuuksia, jolloin järjestelmä on alttiimpi hyökkäyksille. Hyökkäyspinnan pienentäminen on hyvä tietoturvakäytäntö, johon kuuluu tarpeettomien palvelujen poistaminen käytöstä. Esimerkiksi Bitcoinin yhteydessä laitteistolompakoilla on paljon pienempi hyökkäyspinta kuin ohjelmistolompakoilla. Ne eristävät avaimet laitteeseen, joka ei ole yhteydessä Internetiin, ja niissä on hyvin vähän käyttöliittymiä ja palveluja. Sitä vastoin ohjelmistolompakot asennetaan monipuolisiin tietokoneisiin, joilla on paljon suurempi hyökkäyspinta niiden tukemien lukuisten toimintojen ja verkkoyhteyksien vuoksi.

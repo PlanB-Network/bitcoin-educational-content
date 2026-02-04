@@ -1,5 +1,6 @@
 ---
-term: FIBER
+term: Fibre
+definition: Itifaki iliyoundwa ili kuharakisha uenezaji wa block za Bitcoin ulimwenguni kote.
 ---
 
 Kifupi cha "*Injini ya Usambazaji wa Mtandao ya Haraka ya Bitcoin*". Ni itifaki iliyoundwa na Matt Corallo mnamo 2016 ili kuharakisha usambazaji wa vitalu vya Bitcoin kote ulimwenguni. Lengo lake lilikuwa kupunguza ucheleweshaji wa uenezi karibu na mipaka ya kimwili iwezekanavyo. FIBER ililenga kuhakikisha usambazaji sawa zaidi wa fursa za Mining, kwa kuhakikisha kwamba uwiano wa vitalu vilivyochimbwa na mshiriki unaonyesha kwa usahihi mchango wao katika suala la nguvu za kompyuta, bila kujali nafasi zao katika mtandao.

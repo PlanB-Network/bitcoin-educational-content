@@ -1,0 +1,9 @@
+question: Um welchen Faktor hat sich die Mining-Difficulty zwischen Mitte 2010 und Mitte 2011 vervielfacht?
+answer: 1000
+wrong_answers:
+  - 100
+  - 500
+  - 50
+explanation: |
+  In diesem Zeitraum fand eine Ver-1.000-fachung statt, insbesondere aufgrund des Einsatzes von GPUs.
+reviewed: false

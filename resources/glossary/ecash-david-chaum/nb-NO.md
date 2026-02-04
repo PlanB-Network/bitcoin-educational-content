@@ -1,5 +1,6 @@
 ---
-term: ECASH (DAVID CHAUM)
+term: Ecash (david chaum)
 
+definition: Anonym digital kontantprotokoll foreslått av David Chaum i 1982, en forløper til kryptovalutaer.
 ---
 Protokollen ble foreslått av David Chaum i 1982, og er et av de første digitale valutasystemene som er utformet for å bevare brukernes anonymitet. Den er basert på prinsipper for offentlig nøkkelkryptografi for å skape en digital valuta som kan utveksles sikkert og anonymt. eCash fungerer ved å skape digitale tokens signert av en bank. Dermed representerer den en videreutvikling av innskuddsbanker, uten å være desentralisert. Under transaksjoner overføres disse tokens mellom partene uten å avsløre brukernes identitet, slik at personvernet deres bevares. eCash regnes som en forløper for kryptovalutaer. Det dukker ofte opp i diskusjoner om Bitcoin, og noen ønsker å bruke systemer som ligner på eCash som et lag på toppen. I dag går trenden mer i retning av såkalte "fødererte chaumianske" systemer som Fedimint.

@@ -1,5 +1,6 @@
 ---
 term: BIP0141
+definition: Ishirwaho rya SegWit (Segregated Witness), gitandukanya ibimenyetso n'ibindi bice vy'itunshwa kugira ngo gikemure ikibazo ca malleability.
 ---
 
 BIP141 yashizeho iciyumviro c’Icabona Gitandukanye (SegWit), kikaba ari co catumye citwa SegWit Soft Fork.

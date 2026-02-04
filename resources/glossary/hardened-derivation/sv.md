@@ -1,5 +1,6 @@
 ---
-term: HÄRDAD HÄRLEDNING
+term: Härdad härledning
+definition: Derivering som använder föräldernyckelns privata nyckel, vilket förhindrar nyckelgenerering från den utökade publika nyckeln.
 ---
 
 Processen för att generera barnnycklar i HD-plånböcker. Vid härdad härledning används den överordnade privata nyckeln som indata för funktionen `HMAC-SHA512`, vilket gör det omöjligt att generate skapa underordnade offentliga nycklar från den överordnade offentliga nyckeln och den överordnade chain code. Processen omfattar sammankoppling av den överordnade privata nyckeln och ett index som är större än eller lika med $2^{31}$, följt av tillämpning av `HMAC-SHA512` med den överordnade chain code. Resultatet delas upp i två delar: de första 256 bitarna läggs till den överordnade privata nyckeln för att erhålla den underordnade privata nyckeln, medan de återstående 256 bitarna bildar den underordnade chain code. Den här metoden säkerställer att även om en utökad publik nyckel äventyras kan den inte användas för att härleda publika nycklar för barn. Vid standardavledning används härdad avledning på alla avledningsnivåer upp till kontodjupet. I notationer för härledningsvägar identifieras en härdad härledning med en apostrof `'` eller mer sällan med ett `h`.

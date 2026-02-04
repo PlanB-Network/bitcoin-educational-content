@@ -1,0 +1,9 @@
+question: 记录比特币支付历史的共享公共账本称为什么？
+answer: 区块链
+wrong_answers:
+  - 内存池 (mempool)
+  - 钱包 (wallet)
+  - 算力 (hashrate)
+explanation: |
+  包含所有交易的共享公共账本就是区块链。
+reviewed: false

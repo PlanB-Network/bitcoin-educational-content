@@ -1,0 +1,9 @@
+question: 哪句话总结了矿池所提供的服务？
+answer: 它出售可预测性
+wrong_answers:
+  - 它出售挖矿难度
+  - 它出售更大的区块
+  - 它出售挖矿机
+explanation: |
+  通过集合算力，矿池将波动极大的收入转变为更规律的支付，代价是分成和手续费。
+reviewed: false

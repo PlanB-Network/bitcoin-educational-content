@@ -1,0 +1,9 @@
+question: ¿Por qué la transacción coinbase se distingue de las demás transacciones?
+answer: No gasta ningún UTXO real
+wrong_answers:
+  - No tiene TXID
+  - No tiene outputs
+  - No está en el árbol de Merkle
+explanation: |
+  Su input apunta a un UTXO ficticio, lo que permite crear el subsidio y captar las comisiones.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: PONOVLJIVI KOD ZA PLAĆANJE
+term: Višekratni platni kod
+definition: Statički identifikator iz BIP47 koji omogućava izvođenje jedinstvenih adresa bez ponovne upotrebe adresa.
 ---
 
 U BIP47, višekratno upotrebljiv kod za plaćanje je statični identifikator generisan iz Bitcoin Wallet koji omogućava transakciju obaveštenja i derivaciju jedinstvenih adresa. Ovo izbegava ponovnu upotrebu adresa, što dovodi do gubitka privatnosti, bez potrebe za ručnim derivisanjem i prenosom novih, neiskorišćenih adresa za svaku uplatu. U BIP47, višekratno upotrebljivi kodovi za plaćanje se konstruiraju na sledeći način:

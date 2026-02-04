@@ -1,0 +1,9 @@
+question: Mikä on sen jaetun julkisen kirjanpidon nimi, johon bitcoin-maksujen historia kirjoitetaan?
+answer: Lohkoketju (blockchain)
+wrong_answers:
+  - Mempool
+  - Lompakko (wallet)
+  - Hashrate
+explanation: |
+  Jaettu julkinen kirjanpito, joka sisältää kaikki tapahtumat, on lohkoketju.
+reviewed: false

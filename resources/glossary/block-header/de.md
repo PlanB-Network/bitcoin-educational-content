@@ -1,6 +1,7 @@
 ---
-term: BLOCKKOPF
+term: Block-Header
 
+definition: 80 Byte große Struktur, die die Metadaten eines Blocks enthält (Version, vorheriger Hash, Merkle Root, Zeitstempel, Target, Nonce).
 ---
 Der Block-Header ist eine Datenstruktur, die als Hauptkomponente bei der Konstruktion eines Bitcoin-Blocks dient. Jeder Block besteht aus einem Header und einer Liste von Transaktionen. Der Block-Header enthält wichtige Informationen, die die Integrität und Gültigkeit eines Blocks innerhalb der Blockchain sicherstellen. Der Block-Header enthält 80 Bytes an Metadaten und setzt sich aus den folgenden Elementen zusammen:
 
@@ -66,4 +67,3 @@ b2e00517
 
 Um gültig zu sein, muss ein Block einen Header haben, der nach dem Hashing mit `SHA256d` einen Hash ergibt, der kleiner oder gleich dem Schwierigkeitsziel ist.
 
-> ► *Im Englischen wird er als "Block Header" bezeichnet*

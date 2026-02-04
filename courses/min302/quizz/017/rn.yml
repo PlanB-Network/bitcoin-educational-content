@@ -1,13 +1,11 @@
-question: Ni ingaruka izihe amategeko ashobora kugira kuri Bitcoin Mining?
-answer: Iyo igihugu nka Amerika gifata ingingo yo gutegeka canke kubuza amafaranga amwamwe ya Bitcoin, vyoshobora kugira ingaruka zikomeye ku rubuga, cane cane iyo igice kinini c’ububasha bwo gukora hashing kiri muri ico gihugu.
+question: Ni ingaruka izihe amategeko ashobora kugira kuri Bitcoin mining?
+answer: Iyo igihugu nka Leta Zunze Ubumwe za Amerika gifata ingingo yo gutegeka canke kubuza ibikorwa vy’amafaranga bimwe bimwe vya Bitcoin, vyoshobora kugira ingaruka zikomeye ku muhora, cane cane iyo igice kinini c’ububasha bwo gukora hashing kiri muri ico gihugu.
 wrong_answers:
-  - Iyo igihugu nka Amerika gifata ingingo yo gutegeka canke kubuza Bitcoin Mining, vyoshobora gutuma agaciro ka Bitcoin kaduga.
-  - Iyo igihugu nka Amerika gifata ingingo yo gutegeka canke kubuza Bitcoin Mining, vyoshobora gutuma Block reward yongerekana.
-  - Iyo igihugu nka Amerika gifata ingingo yo gutegeka canke kubuza Bitcoin Mining, vyoshobora gutuma umuvuduko wo gucuruza wiyongera.
+  - Iyo igihugu nka Amerika gifata ingingo yo gutegeka canke kubuza Bitcoin mining, vyoshobora gutuma agaciro ka Bitcoin kaduga.
+  - Iyo igihugu nka Amerika gifata ingingo yo gutegeka canke kubuza Bitcoin mining, vyoshobora gutuma Block reward yongerekana.
+  - Iyo igihugu nka Amerika gifata ingingo yo gutegeka canke kubuza Bitcoin mining, vyoshobora gutuma umuvuduko wo gucuruza wiyongera.
 explanation: |
-  Ico kigabane kirasigura ko iyo igihugu nk’Ubumwe .
-  Leta zari zikwiye gufata ingingo yo gutegeka canke kubuza Bitcoin zimwe zimwe.
-  amafaranga, vyoshobora kugira ingaruka zikomeye ku
-  urubuga, cane cane iyo igice kinini c'ububasha bwo gukora
-  ni ryo ry’imbere muri ico gihugu.
+  Iki gice kirasigura ko Iyo igihugu nka Leta Zunze Ubumwe za Amerika gifata ingingo yo gutegeka canke kubuza
+  ibikorwa vy’amafaranga bimwe bimwe vya Bitcoin, vyoshobora kugira ingaruka zikomeye ku muhora, cane
+  cane iyo igice kinini c’ububasha bwo gukora hashing kiri muri ico gihugu.
 reviewed: true

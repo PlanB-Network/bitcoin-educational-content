@@ -1,5 +1,6 @@
 ---
-term: ETYKIETA (CICHE PŁATNOŚCI)
+term: Label (silent payments)
+definition: Liczby całkowite używane do tworzenia pochodnych adresów statycznych oddzielających zastosowania w Silent Payments.
 ---
 
 W protokole Silent Payments etykiety są liczbami całkowitymi używanymi do modyfikacji początkowego statycznego Address w celu utworzenia wielu innych adresów statycznych. Zastosowanie tych etykiet pozwala na segregację płatności wysyłanych za pośrednictwem Silent Payments, poprzez zastosowanie różnych adresów statycznych dla każdego użycia, bez nadmiernego zwiększania obciążenia operacyjnego związanego z wykrywaniem tych płatności (skanowanie). Bob używa statycznego Address $B$, składającego się z dwóch kluczy publicznych: $B_{\text{scan}}$ do skanowania i $B_{\text{spend}}$ do wydawania. Hash $b_{\text{scan}}$ i liczba całkowita $m$, pomnożona skalarnie przez punkt generatora $G$, jest dodawana do klucza publicznego $B_{\text{spend}}$ w celu utworzenia nowego klucza publicznego $B_m$:

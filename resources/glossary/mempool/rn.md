@@ -1,5 +1,6 @@
 ---
 term: Mempool
+definition: Ikibanza ihererekanya ry'amafaranga ririndiriye gushirwa mu mubumbe ribikwamwo na buri node.
 ---
 
 Inyuguti z'amajambo "ukwibuka" na "ikidengeri". Ivyo vyerekeye ikibanza c’ukuri aho amafaranga y’ubudandaji ya Bitcoin arindiriye gushirwa mu gice c’ibarabara akoranirizwa hamwe. Iyo igikorwa co gucuruza kiremwe kandi kigatangazwa ku rubuga rwa Bitcoin, kibanza kugenzurwa n’ibihimba vy’urubuga. Iyo bibonwa ko ari vyiza, rero bishirwa muri Mempool y’urudodo rumwe rumwe, aho biguma gushika bitowe na Miner kugira ngo bishirwe mu gice.

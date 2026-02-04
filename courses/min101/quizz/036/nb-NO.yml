@@ -1,0 +1,9 @@
+question: Etter hvor mange bekreftelser blir coinbase-outputs brukbare?
+answer: 101 bekreftelser
+wrong_answers:
+  - 6 bekreftelser
+  - 201 bekreftelser
+  - 210 bekreftelser
+explanation: |
+  Modningsperioden er på 100 blokker, så det kreves 101 bekreftelser for å gjøre disse UTXO-ene brukbare.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Какво означава съкращението RPOW?
+answer: Reusable Proofs of Work
+wrong_answers:
+  - Recursive Proofs of Work
+  - Random Proofs of Work
+  - Replayed Proofs of Work
+explanation: |
+  RPOW означава заменяеми доказателства за работа за многократна употреба, предложени от Хал Фини през 2004 г.
+reviewed: false

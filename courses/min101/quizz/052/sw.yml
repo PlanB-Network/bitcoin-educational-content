@@ -1,0 +1,9 @@
+question: Kwa urahisi, bloku ni nini kwenye Bitcoin?
+answer: Pakiti ya miamala
+wrong_answers:
+  - Malipo
+  - Seva kuu
+  - Ufunguo wa siri
+explanation: |
+  Tukirahisisha, bloku ni seti tu ya miamala iliyopangwa pamoja.
+reviewed: false

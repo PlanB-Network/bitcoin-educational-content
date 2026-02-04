@@ -1,6 +1,7 @@
 ---
-term: SIGNATUR DES ADAPTERS
+term: Adaptor signature
 
+definition: Eine kryptografische Technik, die eine Signatur an ein Geheimnis bindet, so dass die Veröffentlichung der Signatur das Geheimnis offenbart. Nützlich für atomare Austausch ohne vertrauenswürdigen Dritten.
 ---
 Kryptografische Methode, die es ermöglicht, eine echte Unterschrift mit einer zusätzlichen Unterschrift (einer so genannten "Anpassungssignatur") zu kombinieren, um ein geheimes Datenelement zu enthüllen. Diese Methode funktioniert so, dass die Kenntnis von zwei Elementen der gültigen Signatur, der Anpassungssignatur und des Geheimnisses die Ableitung des fehlenden dritten Elements ermöglicht. Eine der interessanten Eigenschaften dieser Methode ist, dass wir, wenn wir die Anpassungssignatur unseres Gegenübers und den spezifischen Punkt auf der elliptischen Kurve kennen, der mit dem Geheimnis verbunden ist, das zur Berechnung dieser Anpassungssignatur verwendet wurde, unsere eigene Anpassungssignatur ableiten können, die mit demselben Geheimnis übereinstimmt, ohne jemals direkten Zugang zum Geheimnis selbst zu haben. Bei einem Austausch zwischen zwei Akteuren, die einander nicht vertrauen, ermöglicht diese Technik die gleichzeitige Offenlegung von zwei sensiblen Informationen zwischen den Teilnehmern. Durch diesen Prozess entfällt die Notwendigkeit des Vertrauens bei sofortigen Transaktionen wie einem Coin Swap oder einem Atomic Swap. Nehmen wir ein Beispiel, um es besser zu verstehen. Alice und Bob wollen sich gegenseitig 1 BTC schicken, aber sie vertrauen einander nicht. Sie werden daher Adapter-Signaturen verwenden, um das Vertrauen in die andere Partei bei diesem Austausch zu negieren (wodurch es ein "atomarer" Austausch wird). Sie gehen wie folgt vor:
 

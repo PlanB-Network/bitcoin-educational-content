@@ -1,5 +1,6 @@
 ---
-term: ANCHOR-AUSGÄNGE
+term: Anchor outputs
 
+definition: Ein Mechanismus auf Lightning, der es ermöglicht, die Gebühren einer Verpflichtungstransaktion nach ihrer Erstellung anzupassen, um eine schnelle Kanalschließung zu gewährleisten.
 ---
 Ein Vorschlag, der darauf abzielt, die Verwaltung von Transaktionsgebühren innerhalb von Lightning-Kanälen zu verbessern. Bei jeder Statusänderung in einem Lightning-Kanal erstellen und unterzeichnen die Beteiligten eine neue Verpflichtungstransaktion, die die neue Verteilung der Mittel innerhalb des Kanals widerspiegelt. Das Problem bei diesem Mechanismus liegt in der Festlegung der Transaktionsgebühren zum Zeitpunkt der Erstellung. Die Transaktionsgebühren im Bitcoin-Netzwerk sind nämlich erheblichen Schwankungen unterworfen, sowohl nach oben als auch nach unten. Wenn die für die letzte Verpflichtungstransaktion festgelegten Gebühren zum Zeitpunkt der einseitigen Schließung des Kanals unzureichend sind, dauert es nicht nur sehr lange, bis die Transaktion bestätigt wird, sondern die zeitlichen Sperrmechanismen (Timelocks) könnten auch den Diebstahl von Geldern ermöglichen. Ankerausgänge reservieren einen kleinen Teil der Mittel in einer Verpflichtungstransaktion, um zukünftige Gebühren zu decken. Im Falle einer Netzüberlastung und steigender Gebühren ermöglichen Ankerausgänge die Änderung der Transaktionsgebühren nach der Erstellung der Commitment-Transaktion und gewährleisten so eine ausreichend schnelle Schließung des Lightning-Kanals.

@@ -1,5 +1,6 @@
 ---
 term: BIP0016
+definition: Karmaşık işlemlerin (örneğin multisig) kullanımını basitleştiren ve bir betik karmasına ödeme yapılmasını sağlayan P2SH (Pay-to-Script-Hash) tanıtımı.
 ---
 
 BIP16, "komut dosyasının Hash'üne ödeme" anlamına gelen *Pay-to-Script-Hash* (P2SH) kavramını tanıttı. İlk olarak 2012'de önerilen ve 2013'te aktif hale getirilen BIP16, çoklu imza işlemleri gibi karmaşık komut dosyaları gerektiren işlemlerin kullanımını, kullanıcıların komut dosyasının kendisi yerine bu bitcoinleri harcamak için gereken komut dosyasının Hash'üne ödeme yapmalarına izin vererek basitleştirmeyi amaçlamıştır. Bu yenilik, ilk işlemde ihtiyaç duyulan veri miktarını azaltarak, komut dosyasının tamamını sağlama yükünü bitcoinleri harcayan tarafa kaydırdı. Ayrıca, senaryonun alındığı anda değil, yalnızca bitcoinlerin harcandığı anda ortaya çıkmasını sağladı. BIP16, Nakamoto'nun 2011 yılında çekilmesinden sonra Bitcoin protokolünde yapılan ilk büyük değişikliklerden birini temsil ettiği için tarihi bir öneme sahiptir. Bu BIP, Satoshi'nin baş bakımcısı olarak halefi olan Gavin Andresen'in bir süre izne ayrılmasına bile neden olan çok hararetli tartışmaların merkeziydi. Çok sayıda başka öneri de mevcuttu ve hatta bazıları BIP16 yerine aktif hale getirilmeye çok yakındı.

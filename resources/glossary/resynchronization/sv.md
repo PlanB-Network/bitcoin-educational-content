@@ -1,5 +1,6 @@
 ---
-term: RESYNKRONISERING
+term: Resynkronisering
+definition: Ersättning av en del av blockkedjan med en konkurrerande kedja som har mer ackumulerat arbete.
 ---
 
 Avser ett fenomen där Blockchain genomgår en modifiering av sin struktur på grund av att det finns konkurrerande block på samma höjd. Detta inträffar när en del av Blockchain ersätts av en annan kedja med en större mängd ackumulerat arbete.
@@ -8,7 +9,7 @@ Avser ett fenomen där Blockchain genomgår en modifiering av sin struktur på g
 Dessa resynkroniseringar är en del av Bitcoin:s naturliga funktion, där olika gruvarbetare kan hitta nya block nästan samtidigt och därmed dela Bitcoin-nätverket i två. I sådana fall kan nätverket tillfälligt delas upp i konkurrerande kedjor. Så småningom, när en av dessa kedjor ackumulerar mer arbete, överges de andra kedjorna av noderna och deras block blir vad som kallas "föråldrade block" eller "föräldralösa block" Denna process där en kedja ersätts med en annan kallas resynkronisering.
 
 
-![](../../dictionnaire/assets/9.webp)
+
 
 
 Resynkroniseringar kan få olika konsekvenser. För det första, om en användare fick en transaktion bekräftad i ett block som visar sig vara övergivet, men den här transaktionen inte finns i den slutligen giltiga kedjan, blir deras transaktion obekräftad igen. Det är därför som det rekommenderas att alltid vänta på minst 6 bekräftelser för att betrakta en transaktion som verkligt oföränderlig. Efter 6 djupa block är resynkroniseringar så osannolika att risken för att en sådan ska inträffa kan betraktas som praktiskt taget noll.

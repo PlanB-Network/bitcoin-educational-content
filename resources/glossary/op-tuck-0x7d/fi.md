@@ -1,6 +1,7 @@
 ---
 term: OP_TUCK (0X7D)
 
+definition: Opcode, joka kopioi pinon huipun ja asettaa sen kolmanneksi alkioksi.
 ---
 Kopioi pinon ylimmässä kohdassa olevan kohteen ja lisää sen pinon toisen ja kolmannen kohteen väliin. Jos pino on esimerkiksi:
 

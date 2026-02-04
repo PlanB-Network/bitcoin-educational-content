@@ -1,9 +1,9 @@
-question: Ni ibihe bintu bibiri nyamukuru vy’ubwenge Contract State muri RGB?
-answer: Global State n'Ibihugu vy'Igihugu
+question: Ni ibihe bintu bibiri nyamukuru vya smart contract nuko RGB imeze ?
+answer: Uko bimeze muri rusangi n'uko bimeze
 wrong_answers:
-  - Commitment na Genesis.
-  - Seal Definition na State Transition.
-  - Valency na Contract Rights.
+  - Ukwiyemeza hamwe n'itanguriro.
+  - Insiguro ya Serire n'uko bihinduka.
+  - Valency n'amategeko y'amasezerano.
 explanation: |
-  Global State irimwo amakuru ya bose, mu gihe Leta zifise uburenganzira zifitaniye isano n’abafise uburenganzira bwihariye biciye ku ma UTXO.
-reviewed: false
+  Uko bimeze muri rusangi harimwo amakuru ya bose, mu gihe ukobimeze birikumwe n'uko ibintu bimeze uburenganzira zifitaniye isano n’abafise uburenganzira bwihariye biciye ku ma UTXO.
+reviewed: true

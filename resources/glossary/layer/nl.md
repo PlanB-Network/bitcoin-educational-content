@@ -1,5 +1,6 @@
 ---
-term: OVERLAY
+term: Laag
+definition: Protocol gebouwd bovenop Bitcoin om de mogelijkheden ervan uit te breiden, zoals het Lightning Network.
 ---
 
 Protocol of netwerk dat bovenop het hoofdnetwerk Bitcoin is gebouwd. Het gebruikt het Bitcoin netwerk als basis en is daarom afhankelijk van het protocol. Het Bitcoin netwerk is echter niet afhankelijk van zijn overlays. Een voorbeeld van zo'n overlay is Lightning Network.

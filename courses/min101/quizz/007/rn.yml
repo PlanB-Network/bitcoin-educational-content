@@ -1,0 +1,9 @@
+question: Ni iyihe ngingo y'ubutunzi ifasha umu-miner guhitamo ibikorwa (transactions)?
+answer: Igiciro c'ikori (fee rate)
+wrong_answers:
+  - Amafaranga y'amakori yose
+  - Imyaka ya UTXO
+  - Igitigiri ca UTXOs
+explanation: |
+  Kubera ko ikibanza mu bubiko (block) ari gito, umu-miner ahitamo ibikorwa vyinjiza menshi kurusha ibindi kuri buri byte. Ivyo bituma igiciro c'ikori arico kerekana ibikorwa bihitanwa.
+reviewed: false

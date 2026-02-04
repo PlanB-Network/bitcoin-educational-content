@@ -1,6 +1,7 @@
 ---
-term: CYPHERPUNKS
+term: Cypherpunks
 
+definition: Kogukond, mis propageerib krüptograafiat kui vahendit üksikisiku vabaduste kaitsmiseks internetis.
 ---
 Mitteametlik ja rahvusvaheline üksikisikute ühendus, mis edendab krüptograafia kasutamist kui vahendit, mis tagab üksikisikute vabadused Internetis. Cypherpunks pooldab üksikisikute põhiõigust kaitsta oma eraelu puutumatust, eriti olukorras, kus riiklikku järelevalvet ja andmete ärakasutamist eraettevõtete poolt üha enam rakendatakse. Nende nimi tuleneb ingliskeelsetest sõnadest *cypher*, mis tähendab "salajane kood", ja *punk*. See on mängimine terminiga *cyberpunk*, mis kirjeldab kirjandusžanri, mis kujutab düstoopilist tulevikku, kus tipptasemel tehnoloogia põimub lagunevas ühiskonnas pahede ja kuritegevusega.
 

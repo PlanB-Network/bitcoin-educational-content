@@ -1,0 +1,9 @@
+question: Är avgifterna för en Bitcoin-transaktion en output?
+answer: Nej
+wrong_answers:
+  - Ja
+  - Ja, men bara för SegWit-transaktioner
+  - Nej, men det var fallet före 2012
+explanation: |
+  Avgifterna är skillnaden mellan summan av inputs och summan av outputs, inte en dedikerad output. Detta har alltid varit fallet.
+reviewed: false

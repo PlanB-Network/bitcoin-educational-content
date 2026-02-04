@@ -1,0 +1,9 @@
+question: Desde el BIP-34, ¿qué debe contener el inicio del scriptSig de la coinbase?
+answer: La altura del bloque
+wrong_answers:
+  - El hashrate del minero
+  - El objetivo de dificultad
+  - La huella del bloque
+explanation: |
+  El BIP-34 impone inscribir la altura del bloque en el scriptSig de la coinbase.
+reviewed: false

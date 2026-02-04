@@ -1,5 +1,6 @@
 ---
-term: BGP HIJACKING
+term: BGP kaçırma
+definition: İnternet yönlendirmesini manipüle ederek trafiği kötü niyetli bir ağa yönlendiren ve Bitcoin düğümlerini izole etmek için kullanılabilen saldırı.
 ---
 
 Kötü niyetli bir aktörün İnternet trafiğini kendi ağına yönlendirmek için BGP reklamlarını manipüle ettiği saldırı. Saldırgan, belirli IP Address aralıklarının meşru kaynağı gibi davranarak, bu adreslere yönelik trafiği durdurabilir, izleyebilir veya engelleyebilir.

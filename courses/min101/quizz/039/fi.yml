@@ -1,0 +1,9 @@
+question: Miksi coinbase-transaktio eroaa muista transaktioista?
+answer: Se ei käytä mitään todellista UTXO:ta
+wrong_answers:
+  - Sillä ei ole TXID:tä
+  - Sillä ei ole tulosteita (outputs)
+  - Se ei ole Merkle-puussa
+explanation: |
+  Sen syöte osoittaa fiktiiviseen UTXO:on, mikä mahdollistaa lohkopalkkion luomisen ja maksujen keräämisen.
+reviewed: false

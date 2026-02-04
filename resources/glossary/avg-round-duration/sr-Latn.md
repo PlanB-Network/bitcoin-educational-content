@@ -1,5 +1,6 @@
 ---
-term: PROS. TRAJANJE RUNDE
+term: Prosečno trajanje runde
+definition: Indikator koji procenjuje prosečno vrijeme potrebno za rudarsku grupu da pronađe blok, na osnovu njene računske moći i težine mreže.
 ---
 
 Prosečno trajanje runde je pokazatelj koji se koristi za procenu vremena potrebnog da Mining pool pronađe blok, na osnovu težine mreže i Hashrate bazena. Izračunava se tako što se broj deonica potrebnih za pronalaženje bloka podeli sa Hashrate bazena. Na primer, ako Mining pool ima 200 rudara, i svaki generiše u proseku 4 deonice u sekundi, ukupna računarska snaga bazena je 800 deonica u sekundi:

@@ -1,6 +1,7 @@
 ---
-term: RBF (REPLACE BY FEE)
+term: RBF (ganti dengan biaya)
 
+definition: Mekanisme yang memungkinkan transaksi yang belum dikonfirmasi diganti dengan transaksi lain dengan biaya lebih tinggi.
 ---
 Mekanisme transaksi yang memungkinkan pengirim untuk mengganti satu transaksi dengan transaksi lain dengan membayar biaya yang lebih tinggi, untuk mempercepat konfirmasinya. Jika transaksi dengan biaya yang terlalu rendah macet, pengirim dapat menggunakan *Replace-by-Fee* untuk meningkatkan biaya dan memprioritaskan transaksi penggantinya di _mempool_.
 

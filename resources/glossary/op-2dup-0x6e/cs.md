@@ -1,6 +1,7 @@
 ---
 term: OP_2DUP (0X6E)
 
+definition: Opkód duplikuje dva prvky na vrcholu zásobníku.
 ---
 Duplikuje dva horní prvky zásobníku a umístí je na jeho vrchol. Pokud je například zásobník:
 

@@ -1,5 +1,6 @@
 ---
 term: BIP0011
+definition: Amategeko azwi ashiraho ibikorwa vy'imikono myinshi M-of-N kuri Bitcoin, ubu azwi nka bare-multisig canke P2MS.
 ---
 
 BIP11, yashizweho na Gavin Andresen muri Ntwarante 2012, yasavye uburyo busanzwe bwo gukora amafaranga y'imikono myinshi kuri Bitcoin. Intumbero yayo yari iyo kwongereza umutekano w’ama bitcoins mu gusaba imikono myinshi kugira ngo umuntu yemererwe gucuruza.

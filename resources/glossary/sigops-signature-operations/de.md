@@ -1,6 +1,7 @@
 ---
-term: SIGOPS (SIGNATUROPERATIONEN)
+term: Sigops (Signature Operations)
 
+definition: Digitale Signaturoperationen, die zur Validierung von Bitcoin-Transaktionen erforderlich sind.
 ---
 Bezieht sich auf die digitalen Signaturvorgänge, die zur Validierung von Transaktionen erforderlich sind. Jede Bitcoin-Transaktion kann mehrere Eingaben enthalten, von denen jede eine oder mehrere Signaturen erfordert, um als gültig zu gelten. Die Überprüfung dieser Signaturen erfolgt durch die Verwendung spezifischer Opcodes, die "Sigops" genannt werden. Dazu gehören insbesondere `OP_CHECKSIG`, `OP_CHECKSIGVERIFY`, `OP_CHECKMULTISIG` und `OP_CHECKMULTISIGVERIFY`. Diese Operationen verursachen eine gewisse Arbeitslast für die Netzknoten, die sie überprüfen müssen. Um DoS-Angriffe durch eine künstliche Aufblähung der Anzahl der Sigops zu verhindern, sieht das Protokoll eine Begrenzung der pro Block zulässigen Anzahl von Sigops vor, um sicherzustellen, dass die Validierungslast für die Knoten überschaubar bleibt. Diese Grenze ist derzeit auf maximal 80.000 Sigops pro Block festgelegt. Um zu zählen, befolgen die Knoten diese Regeln:
 

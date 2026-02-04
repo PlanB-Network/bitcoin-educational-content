@@ -1,5 +1,6 @@
 ---
-term: SLEPAK POTPIS
+term: Slepi potpis
+definition: Digitalni potpis gde potpisnik ne poznaje potpisani sadržaj, koristi se u Chaumian CoinJoins i ecash sistemima.
 ---
 
 Chaumovi slepi potpisi su oblik digitalnog potpisa gde izdavalac potpisa ne zna sadržaj poruke koju potpisuje. Međutim, potpis se kasnije može verifikovati uz originalnu poruku. Ovu tehniku je razvio kriptograf David Chaum 1983. godine.

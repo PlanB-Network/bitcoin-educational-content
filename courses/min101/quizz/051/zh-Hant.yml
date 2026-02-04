@@ -1,0 +1,9 @@
+question: 比特幣挖礦需要使用什麼資源？
+answer: 電能
+wrong_answers:
+  - 水
+  - 寶石
+  - 黃金
+explanation: |
+  挖礦是一種透過計算機消耗電力的驗證工作。
+reviewed: false

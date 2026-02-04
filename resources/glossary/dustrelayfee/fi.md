@@ -1,6 +1,7 @@
 ---
-term: DUSTRELAYFEE
+term: Dustrelayfee
 
+definition: Solmun parametri, joka määrittää pölyrajan laskemiseen käytettävän maksutason.
 ---
 Standardisointisääntö, jota verkon solmut käyttävät määritellessään, mitä ne pitävät "pölyrajana" Tämä parametri asettaa maksun määrän sateina virtuaalista kilotavua kohti (sats/kvB), joka toimii viitteenä laskettaessa, jos UTXO:n arvo on pienempi kuin sen sisällyttämiseen transaktioon tarvittavat maksut. UTXO:ta pidetäänkin "pölynä" Bitcoinissa, jos sen siirtäminen vaatii enemmän maksuja kuin sen itse edustama arvo. Tämän rajan laskenta on seuraava:
 

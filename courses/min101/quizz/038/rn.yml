@@ -1,0 +1,9 @@
+question: Kuva BIP-34, ni igiki gitegerezwa kuba kiri mu ntango ya scriptSig ya coinbase?
+answer: Uburebure bw'ibuye (block height)
+wrong_answers:
+  - Inguvu z'uwukora mining (hashrate)
+  - Intego y'urugero rwo kugora (difficulty target)
+  - Ikimenyetso c'ibuye
+explanation: |
+  BIP-34 isaba kwandika uburebure bw'ibuye muri scriptSig ya coinbase.
+reviewed: false

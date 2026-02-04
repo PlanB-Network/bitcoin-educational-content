@@ -1,0 +1,9 @@
+question: Was ändert das Halving bei Bitcoin?
+answer: Die Block-Subvention
+wrong_answers:
+  - Die Transaktionsgebühren
+  - Die Blockgröße
+  - Das Schwierigkeitsziel
+explanation: |
+  Das Halving halbiert die maximale Subvention, die pro Block erstellt wird, ohne die Gebühren zu beeinflussen.
+reviewed: false

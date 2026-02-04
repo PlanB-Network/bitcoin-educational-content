@@ -1,5 +1,6 @@
 ---
-term: 오버레이
+term: 레이어
+definition: Lightning Network와 같이 Bitcoin의 기능을 확장하기 위해 그 위에 구축된 프로토콜입니다.
 ---
 
 기본 Bitcoin 네트워크 위에 구축된 프로토콜 또는 네트워크입니다. Bitcoin 네트워크를 기반으로 사용하므로 해당 프로토콜에 종속됩니다. 그러나 Bitcoin 네트워크는 오버레이에 의존하지 않습니다. 이러한 오버레이의 예로는 Lightning Network이 있습니다.

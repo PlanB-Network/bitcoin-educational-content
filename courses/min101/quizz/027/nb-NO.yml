@@ -1,0 +1,9 @@
+question: Hvordan beregnes transaksjonsgebyrer?
+answer: Inputs minus outputs
+wrong_answers:
+  - Outputs minus inputs
+  - Inputs pluss outputs
+  - Outputs delt på inputs
+explanation: |
+  Gebyrene tilsvarer verdien brukt i inputs som ikke gjenskapes i outputs.
+reviewed: false

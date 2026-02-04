@@ -6,4 +6,4 @@ wrong_answers:
   - Dengan mengkodekan langsung dalam base64
 explanation: |
   Alamat Bech32 menggunakan kode BCH untuk menghitung checksum.
-ditinjau: false
+reviewed: true

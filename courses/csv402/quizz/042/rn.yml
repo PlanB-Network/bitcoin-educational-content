@@ -1,9 +1,9 @@
-question: Iyo habayeho ukwishyura mu muhora wa RGB, bigenda gute ku biva muri RGB mu bikorwa vya Commitment?
-answer: Bihindurwa kugira ngo vyerekane ukuntu ivy'ubutunzi bisubira gusangira mu bari muri iyo nama .
+question: Iyo habayeho ukuriha mu muhora wa RGB, bigenda gute ku biva muri RGB mwirungika ry'ihanahanwa ry'ukwiyemeza ?
+answer: Bihindurwa kugira ngo vyerekane ukuntu ivy'ubutunzi bisubira gusangira n'abayikoresha.
 wrong_answers:
-  - Biguma bitahindutse kugira ngo bizigame amateka y’intango gushika umuyoboro ufunze .
+  - Biguma bitahindutse kugira ngo bizigame kahise k'ianze gushika umuhora wugaye .
   - Bica bikurwaho, bisubirizwa n’ibindi bishasha bita multi-sig.
   - Bihindurwa bikaba UTXO za kera za Bitcoin .
 explanation: |
-  Iyo umuntu yishuye, RGB State Transition iratunganya ibisohoka vya RGB kugira ngo isubire gusangira ivy’ubutunzi hakurikijwe umubare mushasha w’imirongo.
-reviewed: false
+  Iyo umuntu yarishe, uko RGB imeze iratunganya ibisohoka vya RGB kugira ngo isubire gusangira ivy’ubutunzi hakurikijwe igitigiri gishasha c'umuhora.
+reviewed: true

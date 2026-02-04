@@ -1,0 +1,9 @@
+question: Do čeho jsou transakce seskupeny předtím, než jsou přidány do blockchainu?
+answer: Do bloku
+wrong_answers:
+  - Do UTXO
+  - Do ASIC
+  - Do scriptSig
+explanation: |
+  Transakce není do blockchainu zapsána okamžitě. Nejprve je integrována do bloku.
+reviewed: false

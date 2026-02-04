@@ -1,5 +1,6 @@
 ---
-term: MAELEZO
+term: Outpoint
+definition: Rejeleo la kipekee kwa UTXO, linalojumuisha txid na faharisi ya kutoa.
 ---
 
 Rejeleo la kipekee la pato la muamala ambalo halijatumika (UTXO). Inajumuisha Elements mbili:

@@ -1,0 +1,9 @@
+question: Mida poolitamine (halving) Bitcoinis muudab?
+answer: Ploki toetus
+wrong_answers:
+  - Tehingutasud
+  - Ploki suurus
+  - Raskusastme sihtväärtus
+explanation: |
+  Poolitamine jagab kahega maksimaalse ploki kohta loodava toetuse, puudutamata tasusid.
+reviewed: false

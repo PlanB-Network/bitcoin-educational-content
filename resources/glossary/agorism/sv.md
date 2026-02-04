@@ -1,5 +1,6 @@
 ---
-term: AGORISM
+term: Agorism
+definition: En libertär politisk filosofi som förespråkar ekonomiska åtgärder utanför statlig kontroll (motökonomi) för att gradvis undergräva statsmakten.
 ---
 
 En politisk filosofi som grundades av Samuel Edward Konkin III på 1980-talet. Det är en förlängning av libertarianismen, som betonar direkt handling för att frigöra sig från den statliga auktoritetens ok genom kontraekonomi, en ekonomisk praxis som sker utanför statligt reglerade ramar. Den agoristiska ideologin bygger på naturrättslig teori, som hävdar att individers naturliga rättigheter är överordnade lagar som införts av staten. Detta inkluderar den privata egendomens företräde, respekt för fysisk integritet och friheten att Contract. Agorister förkastar alla former av traditionellt politiskt deltagande såsom röstning, som de ser som en validering av statens tvingande auktoritet. De strävar efter ett samhälle där ekonomiska och sociala utbyten sker fritt på en öppen marknad, kallad Agora, med målet att en fredlig revolution gradvis ska urholka statens makt. Deras emblem är "A3", som står för "Agora, Anarki, Handling". Principen om agorism beskrivs i *New Libertarian Manifesto* som publicerades 1980. Detta dokument är baserat på Murray Rothbards *Libertarian Manifesto*, men går ännu längre. Många Bitcoin-entusiaster identifierar sig med agorism och tror att Bitcoin är det perfekta verktyget för det.

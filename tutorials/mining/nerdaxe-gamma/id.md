@@ -1,6 +1,6 @@
 ---
 name: NerdAxe Gamma
-description: Panduan konfigurasi NerdAxe Gamma
+description: Panduan pengaturan NerdAxe Gamma
 ---
 
 ![cover](assets/cover.webp)

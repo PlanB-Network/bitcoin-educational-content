@@ -1,5 +1,6 @@
 ---
-term: HISA
+term: Shares
+definition: Kiashiria kinachopima mchango wa mchimbaji binafsi ndani ya bwawa la uchimbaji.
 ---
 
 Katika muktadha wa vikundi vya Mining, hisa ni kiashirio kinachotumika kukadiria mchango wa mtu binafsi wa Miner ndani ya bwawa. Hatua hii hutumika kama msingi wa kukokotoa zawadi ambayo bwawa hugawanya upya kwa kila Miner. Kila hisa inalingana na Hash ambayo inakidhi lengo la ugumu chini ya ile ya mtandao wa Bitcoin.
@@ -16,7 +17,7 @@ Kwa kila Hash iliyokokotolewa, Miner ya kibinafsi kwenye bwawa inaweza kukumbana
 - Ikiwa Hash iko chini kuliko lengo la ugumu la mtandao wa Bitcoin, inachukuliwa kuwa sehemu halali na kizuizi halali. Miner husambaza Hash hii kwenye bwawa lao, ambayo huharakisha kuitangaza kwenye mtandao wa Bitcoin. Hash hii pia inahesabiwa kama mgao halali wa Miner: `shiriki > kambi > Hash`.
 
 
-![](../../dictionnaire/assets/32.webp)
+
 
 
 Mfumo huu wa hisa hutumika kukadiria kazi iliyofanywa na kila mtu Miner ndani ya bwawa, bila kulazimika kukokotoa upya heshi zote zinazozalishwa na Miner, ambayo haitakuwa na ufanisi kabisa kwa bwawa.
@@ -25,4 +26,3 @@ Mfumo huu wa hisa hutumika kukadiria kazi iliyofanywa na kila mtu Miner ndani ya
 Makundi ya Mining hurekebisha ugumu wa hisa ili kusawazisha mzigo wa uthibitishaji na kuhakikisha kwamba kila Miner, iwe ndogo au kubwa, inawasilisha hisa takriban kila sekunde chache. Hii inaruhusu hesabu sahihi ya kila Hashrate ya Miner na usambazaji wa zawadi kulingana na mbinu iliyochaguliwa ya hesabu ya fidia (PPS, PPLNS, TIDES...).
 
 
-> ► *Kwa Kifaransa, "hisa" inaweza kutafsiriwa kama "sehemu".*

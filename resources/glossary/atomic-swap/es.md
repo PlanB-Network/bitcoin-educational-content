@@ -1,6 +1,7 @@
 ---
-term: INTERCAMBIO ATÓMICO
+term: Atomic swap
 
+definition: Un intercambio de criptomonedas entre dos partes sin intermediario de confianza, donde el intercambio se completa enteramente o se cancela completamente.
 ---
 Tecnología que permite el intercambio directo de criptomonedas entre dos partes, sin necesidad de confianza ni intermediarios. Estos intercambios se denominan "atómicos" porque solo pueden dar lugar a dos resultados:
 

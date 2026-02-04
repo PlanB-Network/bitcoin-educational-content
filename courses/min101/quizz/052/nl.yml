@@ -1,0 +1,9 @@
+question: Simpel gezegd, wat is een blok op Bitcoin?
+answer: Een pakket transacties
+wrong_answers:
+  - Een betaling
+  - Een centrale server
+  - Een privésleutel
+explanation: |
+  Simpel gezegd is een blok gewoon een verzameling gegroepeerde transacties.
+reviewed: false

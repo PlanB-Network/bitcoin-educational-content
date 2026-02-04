@@ -1,9 +1,9 @@
-question: Welke van deze opties is geen methode voor automatische onderdeelselectie?
-answer: Stille betalingen
+question: Welke van deze opties is geen methode voor automatische UTXO-selectie?
+answer: Silent Payments
 wrong_answers:
-  - Tak-en-grens
+  - Branch-and-Bound
   - FIFO
-  - Knapzakoplosser
+  - Knapsack Solver
 explanation: |
   In tegenstelling tot de andere drie opties is Silent Payments geen methode om onderdelen te selecteren, maar een protocol om statische adressen te gebruiken.
   

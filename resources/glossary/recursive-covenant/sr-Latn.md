@@ -1,5 +1,6 @@
 ---
-term: REKURZIVNO (SAVEZ)
+term: Rekurzivni (covenant)
+definition: Covenant koji nameće uslove trenutnoj transakciji i svim onima koje slede u nedogled.
 ---
 
 Rekurzivni savez na Bitcoin je tip Smart contract koji nameće uslove ne samo na trenutnu transakciju već i na buduće transakcije koje troše izlaze ove transakcije. Ovo omogućava kreiranje lanaca transakcija gde svaka mora da se pridržava određenih pravila definisanih od strane prve u lancu. Rekurzivnost stvara sekvencu transakcija gde svaka nasleđuje ograničenja od svoje roditeljske transakcije. Ovo bi omogućilo složenu i dugoročnu kontrolu nad načinom na koji se bitkoini mogu trošiti, ali bi takođe uvelo rizike u pogledu slobode trošenja i fungibilnosti.

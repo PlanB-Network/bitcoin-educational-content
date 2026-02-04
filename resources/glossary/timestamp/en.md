@@ -1,5 +1,6 @@
 ---
-term: TIMESTAMP
+term: Timestamp
+definition: Mechanism associating a time marker with an event to establish the chronology of transactions and blocks.
 ---
 
 Timestamping, or "Timestamp" in English, is a mechanism for associating a precise time mark with an event, data or message. In the general context of computer systems, timestamping is used to determine the chronological order of operations and to verify the integrity of data over time.

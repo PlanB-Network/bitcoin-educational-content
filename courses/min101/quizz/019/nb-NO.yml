@@ -1,0 +1,9 @@
+question: Hvem oppfant Hashcash?
+answer: Adam Back
+wrong_answers:
+  - Nick Szabo
+  - Hal Finney
+  - David Chaum
+explanation: |
+  Hashcash ble oppfunnet av Adam Back. Det er den første mekanismen for bevis på arbeid.
+reviewed: false

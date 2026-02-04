@@ -1,0 +1,9 @@
+question: 减半（halving）改变了比特币的什么？
+answer: 区块补贴
+wrong_answers:
+  - 交易费用
+  - 区块大小
+  - 难度目标
+explanation: |
+  减半将每个区块创造的最大补贴减半，而不影响费用。
+reviewed: false

@@ -1,0 +1,9 @@
+question: 在 2010 年年中到 2011 年年中之間，挖礦難度增加了多少倍？
+answer: 1000
+wrong_answers:
+  - 100
+  - 500
+  - 50
+explanation: |
+  由於 GPU 的使用，在此期間難度增加了 1000 倍。
+reviewed: false

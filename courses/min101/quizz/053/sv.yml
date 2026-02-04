@@ -1,0 +1,9 @@
+question: Vad grupperas transaktionerna i innan de läggs till i blockchain?
+answer: I ett block
+wrong_answers:
+  - I en UTXO
+  - I en ASIC
+  - I en scriptSig
+explanation: |
+  Transaktionen skrivs inte omedelbart in i blockchain. Den integreras först i ett block.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Da cosa è composta la ricompensa di blocco?
+answer: Sussidio + commissioni
+wrong_answers:
+  - Sussidio + difficoltà
+  - Commissioni + nonce
+  - Hashrate + commissioni
+explanation: |
+  La ricompensa somma il sussidio di blocco e l'insieme delle commissioni delle transazioni incluse.
+reviewed: false

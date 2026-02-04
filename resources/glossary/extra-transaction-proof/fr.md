@@ -1,5 +1,6 @@
 ---
-term: EXTRA TRANSACTION PROOF
+term: Extra transaction proof
+definition: Données complémentaires dans le protocole RGB pour valider un commitment de type Tapret.
 ---
 
 Dans le cadre du protocole RGB, l’ETP constitue la partie de l’Anchor qui intègre les données complémentaires indispensables à la validation d’un commitment de type Tapret (dans le contexte de Taproot). Elle comprend, entre autres, la clé publique interne associée au script Taproot et les informations spécifiques requises pour le *Script Path Spend*. Cette composante assure ainsi la vérification précise des engagements cryptographiques.

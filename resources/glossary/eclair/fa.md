@@ -1,5 +1,6 @@
 ---
-term: اکلر
+term: Eclair
+definition: پیاده‌سازی پروتکل Lightning Network به زبان Scala که توسط Acinq توسعه یافته است.
 ---
 
 یک پیاده‌سازی عمده از پروتکل Lightning Network که به زبان اسکالا نوشته شده است. Eclair توسط شرکت فرانسوی Acinq توسعه داده شده است.

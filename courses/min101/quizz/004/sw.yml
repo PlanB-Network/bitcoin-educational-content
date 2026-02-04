@@ -1,0 +1,9 @@
+question: Kulingana na wazo lililofupishwa na Satoshi, ni njia gani pekee ya kuhakikisha kutokuwepo kwa matumizi mara mbili (double-spending)?
+answer: Kujua miamala yote
+wrong_answers:
+  - Kujua node zote zinazofanya kazi
+  - Kujua wachimbaji (miners) wote wanaofanya kazi
+  - Kujua funguo zote za siri
+explanation: |
+  Matumizi mara mbili hugunduliwa kwa kulinganisha muamala na matumizi ya awali yaliyorekodiwa katika rejista ya pamoja.
+reviewed: false

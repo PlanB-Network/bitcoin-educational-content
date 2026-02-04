@@ -1,15 +1,12 @@
-question: Ni akamaro akahe nyamukuru ko kugira ibikoresho vyawe bwite vya Mining?
+question: Ni akamaro akahe nyamukuru ko kugira ibikoresho vyawe bwite vya mining?
 answer: Kuronka ama bitcoins y’isugi.
 wrong_answers:
   - Kwirinda gukenera kugura Bitcoin ataco uhinduye.
   - Gukora inyungu mu kugurisha ivyo bikoresho mu nyuma.
   - Kwirinda kwizigira abandi bacukuzi b’amabuye y’agaciro.
 explanation: |
-  Kugira ibikoresho vyawe bwite vya Mining biratanga vyinshi .
-  ivyiza. Uretse n’ukunyurwa kw’umuntu ku giti ciwe kw’
-  gutanga umusanzu n’umwete mu mutekano wa Bitcoin.
-  network no kubona ingororano zigwa muri Wallet yawe, ng’aho
-  ni umuce ukwegera w’ama bitcoins y’isugi. Ivyo ni .
-  bitcoins ziherutse gucukurwa zitigeze zikoreshwa kandi zifise
-  nta mateka afatanye na bo.
+  Kugira ibikoresho vyawe bwite vya mining biratanga inyungu nyinshi. Uretse ukunyurwa kw'umuntu 
+  ku giti ciwe mu gutanga umusada mu mutekano w'umuhora wa Bitcoin no kubona udushimwe udushimwe 
+  tugwa mu ngodo yawe, ico nico kiryoshe ca bitcoins y’isugi. Izo ni bitcoins ziherutse gucukurwa,
+  zitarigera zikoreshwa kandi ata mateka zifise.
 reviewed: true

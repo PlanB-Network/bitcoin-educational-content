@@ -1,0 +1,9 @@
+question: Wat doet een Bitcoin-node na verificatie met een geldige, maar onbevestigde transactie?
+answer: Het stuurt deze door naar zijn peers
+wrong_answers:
+  - Het voegt deze toe aan zijn lokale kopie van de blockchain
+  - Het ondertekent deze met zijn privésleutel
+  - Het versleutelt deze met zijn openbare sleutel
+explanation: |
+  In het Bitcoin-netwerk propageert elke node geldige transacties naar de nodes waarmee hij verbonden is.
+reviewed: false

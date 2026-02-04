@@ -1,12 +1,13 @@
 ---
-term: RISINCRONIZZAZIONE
+term: Risincronizzazione
 
+definition: Sostituzione di una parte della blockchain con una catena concorrente con più lavoro accumulato.
 ---
 Si riferisce a un fenomeno in cui la blockchain subisce una modifica della sua struttura a causa dell'esistenza di blocchi concorrenti alla stessa altezza. Ciò si verifica quando una parte della blockchain viene sostituita da un'altra catena con una maggiore quantità di lavoro accumulato.
 
 Queste risincronizzazioni fanno parte del funzionamento naturale di Bitcoin, dove diversi minatori possono trovare nuovi blocchi quasi contemporaneamente, dividendo così la rete Bitcoin in due. In questi casi, la rete può temporaneamente dividersi in catene concorrenti. Alla fine, quando una di queste catene accumula più lavoro, le altre catene vengono abbandonate dai nodi e i loro blocchi diventano i cosiddetti "blocchi obsoleti" o "blocchi orfani" Questo processo di sostituzione di una catena con un'altra è la risincronizzazione.
 
-![](../../dictionnaire/assets/9.webp)
+
 
 Le risincronizzazioni possono avere diverse conseguenze. In primo luogo, se un utente ha avuto una transazione confermata in un blocco che si è rivelato abbandonato, ma questa transazione non si trova nella catena finale valida, la sua transazione diventa nuovamente non confermata. Per questo motivo si consiglia di attendere sempre almeno 6 conferme per considerare una transazione veramente immutabile. Dopo 6 blocchi, le risincronizzazioni sono così improbabili che la possibilità che si verifichino può essere considerata praticamente nulla.
 

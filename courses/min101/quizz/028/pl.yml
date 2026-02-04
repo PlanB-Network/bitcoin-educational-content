@@ -1,0 +1,9 @@
+question: Czym jest subsydia blokowa?
+answer: Emisja pieniądza
+wrong_answers:
+  - Opłaty transakcyjne
+  - Depozyt użytkowników
+  - Kara za spam
+explanation: |
+  Subsydia to część nagrody, która tworzy nowe bitcoiny ex nihilo zgodnie z zasadami protokołu.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Fenomena apa yang membuat jeda antara dua blok pada dasarnya bervariasi?
+answer: Sifat probabilistik dari hashing
+wrong_answers:
+  - Sifat deterministik dari hashing
+  - Sifat rekursif dari hashing
+  - Sifat periodik dari hashing
+explanation: |
+  Setiap hash adalah upaya independen, yang membuat waktu penemuan menjadi acak bahkan pada hashrate yang konstan.
+reviewed: false

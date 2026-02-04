@@ -1,5 +1,6 @@
 ---
-term: FPPS (VOLLEDIGE BETALING PER AANDEEL)
+term: Fpps (full pay per share)
+definition: Beloningsmethode voor mining inclusief shares en een deel van de transactiekosten.
 ---
 
 Methode voor het berekenen van de compensatie van mijnwerkers binnen Mining pools. Het is een evolutie van de PPS-methode (*Pay Per Share*). Het compenseert miners niet alleen voor elk geldig aandeel dat ze insturen, maar omvat ook een deel van de blokbeloningen. De compensatie wordt berekend op basis van het gemiddelde van vorige transacties en de Hashrate van de pool. Miners ontvangen dus een beloning voor de aandelen die ze indienen, of er nu een blok wordt gevonden of niet, maar deze methode compenseert ook voor de verwachte waarde. Het biedt een stabiele en voorspelbare compensatie voor mijnwerkers, omdat het de variantie elimineert die geassocieerd wordt met de waarschijnlijkheid dat een blok wordt gevonden, terwijl ze worden blootgesteld aan schommelingen in de marktprijs. Het is echter riskanter voor poolbeheerders, omdat ze mijnwerkers moeten betalen zelfs als er geen blok wordt gevonden, waardoor ze het variancerisico absorberen.

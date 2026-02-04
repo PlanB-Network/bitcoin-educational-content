@@ -1,5 +1,6 @@
 ---
-term: CHAUMIAN CoinJoin
+term: Chaumian coinjoin
+definition: Protokół coinjoin wykorzystujący ślepe podpisy Chauma w celu zapewnienia prywatności uczestników.
 ---
 
 Protokół CoinJoin, który wykorzystuje ślepe podpisy Davida Chauma i Tor do komunikacji między uczestnikami a serwerem koordynatora. Celem Chaumian CoinJoin jest zapewnienie uczestnikom, że koordynator nie może ukraść bitcoinów ani połączyć ze sobą wejść i wyjść.
@@ -8,7 +9,7 @@ Protokół CoinJoin, który wykorzystuje ślepe podpisy Davida Chauma i Tor do k
 Aby to osiągnąć, użytkownicy przesyłają swoje dane wejściowe i kryptograficznie blinded odbiór Address do koordynatora. Ten Address, po unblinded, ma na celu otrzymanie bitcoinów jako danych wyjściowych z CoinJoin. Koordynator podpisuje te tokeny i zwraca je użytkownikom. Następnie użytkownicy ponownie łączą się anonimowo z serwerem koordynatora z nową tożsamością Tor i ujawniają swoje adresy wyjściowe w postaci zwykłego tekstu w celu skonstruowania transakcji. Koordynator może zweryfikować, że wszystkie te adresy odbiorcze pochodzą od legalnych użytkowników, ponieważ wcześniej podpisał ich wersję blinded swoim kluczem prywatnym. Nie może on jednak powiązać konkretnego wyjściowego Address z danym użytkownikiem wejściowym. Dlatego też nie ma powiązania między danymi wejściowymi i wyjściowymi, nawet z perspektywy koordynatora. Gdy transakcja zostanie skonstruowana przez koordynatora, wysyła ją z powrotem do uczestników, którzy podpisują ją, aby odblokować swoje dane wejściowe, po sprawdzeniu, czy ich dane wyjściowe rzeczywiście znajdują się w tej transakcji. Uczestnicy wysyłają podpis do koordynatora. Po zebraniu wszystkich podpisów koordynator może rozgłosić transakcję CoinJoin w sieci Bitcoin.
 
 
-![](../../dictionnaire/assets/38.webp)
+
 
 
 Metoda ta zapewnia, że koordynator nie może naruszyć anonimowości uczestników ani ukraść bitcoinów podczas całego procesu CoinJoin.

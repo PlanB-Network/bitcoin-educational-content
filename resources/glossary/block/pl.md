@@ -1,5 +1,6 @@
 ---
-term: BLOK
+term: Blok
+definition: Struktura danych zawierająca zatwierdzone transakcje i metadane, połączona z innymi blokami za pomocą hashowania.
 ---
 
 Struktura danych w systemie Bitcoin. Blok zawiera zestaw ważnych transakcji i metadanych zawartych w jego nagłówku. Każdy blok jest połączony z następnym przez Hash jego nagłówka, tworząc w ten sposób Blockchain. Blockchain działa jako serwer znaczników czasu, który pozwala każdemu użytkownikowi poznać wszystkie przeszłe transakcje, aby zweryfikować nieistnienie transakcji i zapobiec podwójnym wydatkom. Transakcje są zorganizowane w Merkle Tree. Ten kryptograficzny akumulator pozwala na utworzenie skrótu wszystkich transakcji w bloku, zwanego "Merkle Root" Nagłówek bloku zawiera 6 Elements:

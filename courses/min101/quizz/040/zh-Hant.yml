@@ -1,0 +1,9 @@
+question: 工業挖礦競爭力中最重要的因素是什麼？
+answer: 電費
+wrong_answers:
+  - 工資成本金額
+  - 基礎設施的人機工程品質
+  - 軟體授權成本
+explanation: |
+  在大規模挖礦中，獲利能力取決於單位計算成本，而電費是決定這一成本的主要因素。
+reviewed: false

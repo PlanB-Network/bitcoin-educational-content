@@ -1,5 +1,6 @@
 ---
-term: 維護員（核心）
+term: 維護者 (Core)
+definition: 負責管理Bitcoin Core專案並合併程式碼更改的人員。
 ---
 
 在 Bitcoin 核心專案（Bitcoin 網路上的主要執行節點）的背景下，維護者是負責管理專案的個人。他們對專案的執行負責。他們負責管理 Bitcoin Core GitHub 資源庫，並設定新版本的發行時間表。他們主要負責合併貢獻者提出的拉取請求 (PR)。

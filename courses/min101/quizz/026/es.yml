@@ -1,0 +1,9 @@
+question: ¿Qué parámetro de Bitcoin Core establece el umbral de retransmisión (relay) mínimo por defecto?
+answer: minRelayTxFee
+wrong_answers:
+  - minConfirmTxFee
+  - relayTxWeight
+  - mempoolMinBits
+explanation: |
+  Los nodos aplican políticas locales y Bitcoin Core utiliza el parámetro minRelayTxFee para el umbral mínimo de retransmisión.
+reviewed: false

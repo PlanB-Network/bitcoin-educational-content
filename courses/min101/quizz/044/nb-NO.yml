@@ -1,0 +1,9 @@
+question: Hva slags maskinvare ble mining hovedsakelig utført med helt i begynnelsen av Bitcoin?
+answer: CPU
+wrong_answers:
+  - GPU
+  - ASIC
+  - FPGA
+explanation: |
+  Ved lanseringen kjørte programvaren på en personlig datamaskin og brukte hovedsakelig prosessoren.
+reviewed: false

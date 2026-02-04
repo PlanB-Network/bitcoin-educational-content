@@ -1,5 +1,6 @@
 ---
 term: P2SH
+definition: Script dat willekeurige uitgavevoorwaarden toestaat via de hash van een redeemScript.
 ---
 
 P2SH staat voor *Pay to Script Hash*. Het is een standaard scriptmodel dat wordt gebruikt om de bestedingsvoorwaarden op een UTXO vast te stellen. In tegenstelling tot P2PK- en P2PKH-scripts, waarbij de bestedingsvoorwaarden vooraf zijn gedefinieerd, kunnen met P2SH willekeurige bestedingsvoorwaarden en aanvullende functionaliteiten in een transactiescript worden geïntegreerd.

@@ -1,9 +1,9 @@
 question: Quale caratteristica chiave del processo di sviluppo di Bitcoin lo rende particolarmente vulnerabile alle tattiche di infiltrazione descritte nei manuali di sabotaggio della guerra?
-answer: Lo sviluppo del Bitcoin è aperto a tutti, senza bisogno di custodi
+answer: Lo sviluppo di Bitcoin è aperto a tutti, senza bisogno di custodi
 wrong_answers:
-  - Lo sviluppo di Bitcoin si affida a un piccolo gruppo di manutentori fidati del nucleo centrale
-  - Lo sviluppo del Bitcoin richiede l'approvazione formale del governo per le modifiche più importanti
-  - Lo sviluppo di Bitcoin utilizza un codice chiuso che limita i contributi esterni
+  - Lo sviluppo di Bitcoin si affida a un piccolo gruppo di manutentori fidati
+  - Lo sviluppo di Bitcoin richiede l'approvazione formale del governo per le modifiche più importanti
+  - Lo sviluppo di Bitcoin utilizza un codice proprietario che limita i contributi esterni
 explanation: |
-  Il processo di sviluppo aperto di Bitcoin, pur essendo uno dei suoi maggiori punti di forza per la decentralizzazione e la trasparenza, crea anche una vulnerabilità alle infiltrazioni avversarie. Poiché chiunque può partecipare alle discussioni, proporre modifiche e impegnarsi nel processo di revisione senza bisogno di permessi o credenziali, gli aggressori dedicati possono sfruttare questa apertura. Possono bloccare i progressi con interminabili preoccupazioni su questioni irrilevanti, contrattare su formulazioni precise, ripetere discussioni già concluse, o mettere in atto "attacchi di Sibilla sociale" utilizzando molteplici identità false per creare false impressioni di resistenza. Questa apertura contrasta nettamente con i modelli di sviluppo chiusi, che prevedono gatekeeper o processi di approvazione che potrebbero filtrare i cattivi attori.
-reviewed: false
+  Il processo di sviluppo aperto di Bitcoin, pur essendo uno dei suoi maggiori punti di forza per la decentralizzazione e la trasparenza, crea anche una vulnerabilità alle infiltrazioni avversarie. Poiché chiunque può partecipare alle discussioni, proporre modifiche e impegnarsi nel processo di revisione senza bisogno di permessi o credenziali, gli aggressori dedicati possono sfruttare questa apertura. Possono bloccare i progressi con interminabili preoccupazioni su questioni irrilevanti, contrattare su formulazioni precise, ripetere discussioni già concluse, o mettere in atto "social Sybil attack" utilizzando molteplici identità false per creare false impressioni di resistenza. Questa apertura contrasta nettamente con i modelli di sviluppo chiusi, che prevedono gatekeeper o processi di approvazione che potrebbero filtrare i cattivi attori.
+reviewed: true

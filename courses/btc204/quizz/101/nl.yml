@@ -1,10 +1,10 @@
 question: Hoe wordt entropie berekend in de context van ketenanalyse op Bitcoin?
-answer: Door de binaire logaritme van het aantal interpretaties te nemen.
+answer: Door het binaire logaritme van het aantal interpretaties te nemen.
 wrong_answers:
-  - Door het aantal ingangen te vermenigvuldigen met het aantal uitgangen.
-  - Door het aantal ingangen en uitgangen bij elkaar op te tellen.
-  - Door de binaire logaritme van het aantal ingangen en uitgangen te nemen.
+  - Door het aantal inputs te vermenigvuldigen met het aantal outputs.
+  - Door het aantal inputs en outputs bij elkaar op te tellen.
+  - Door de binaire logaritme van het aantal inputs en outputs te nemen.
 explanation: |
-  Entropie wordt gedefinieerd als de binaire logaritme van het aantal mogelijke combinaties.
+  Entropie wordt gedefinieerd als het binaire logaritme van het aantal mogelijke combinaties.
   
 reviewed: false

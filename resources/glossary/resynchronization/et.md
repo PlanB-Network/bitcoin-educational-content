@@ -1,12 +1,13 @@
 ---
-term: RESÜNKRONISEERIMINE
+term: Resünkroonimine
 
+definition: Plokiahela osa asendamine konkureeriva ahelaga, millel on rohkem kogutud tööd.
 ---
 Viitab nähtusele, mille puhul plokiahelas toimub selle struktuuri muutmine konkureerivate plokkide olemasolu tõttu samal kõrgusel. See toimub siis, kui osa plokiahelast asendatakse teise ahelaga, millel on suurem kogus kogutud tööd.
 
 Need resünkroniseerimised on osa Bitcoini loomulikust toimimisest, kus erinevad kaevurid võivad leida uusi plokke peaaegu samaaegselt, jagades seega Bitcoini võrgu kaheks. Sellistel juhtudel võib võrk ajutiselt jaguneda konkureerivateks ahelateks. Lõpuks, kui üks neist ahelatest kogub rohkem tööd, loobuvad teised ahelad sõlmedest ja nende plokid muutuvad nn "vananenud plokkideks" või "orvuks jäänud plokkideks" See ühe ahela asendamine teise ahelaga on resünkroniseerimine.
 
-![](../../dictionnaire/assets/9.webp)
+
 
 Resünkroniseerimisel võib olla mitmesuguseid tagajärgi. Esiteks, kui kasutajal on kinnitatud tehing plokis, mis osutub mahajäetud tehinguks, kuid seda tehingut ei leidu lõppkokkuvõttes kehtivas ahelas, siis muutub tema tehing uuesti kinnitamata tehinguks. Seepärast on soovitatav alati oodata vähemalt 6 kinnitust, et pidada tehingut tõeliselt muutumatuks. Pärast 6 ploki sügavust on resünkroniseerimine nii ebatõenäoline, et selle esinemise tõenäosust võib pidada praktiliselt olematuks.
 

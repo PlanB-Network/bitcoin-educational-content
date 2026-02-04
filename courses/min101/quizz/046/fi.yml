@@ -1,0 +1,9 @@
+question: Mikä lause tiivistää louhintapoolin tarjoaman palvelun?
+answer: Se myy ennustettavuutta
+wrong_answers:
+  - Se myy louhintavaikeutta
+  - Se myy suurempia lohkoja
+  - Se myy louhintakoneita
+explanation: |
+  Yhteistyö muuttaa erittäin vaihtelevan tulon säännöllisemmiksi maksuiksi vastineeksi osuudesta ja maksuista.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: DNS 種子
+term: Dns seeds
+definition: 為加入比特幣網絡的新節點提供活躍節點 IP 地址的 DNS 伺服器。
 ---
 
 新加入網路的 Bitcoin 節點的初始連線點。這些種子實際上是特定的 DNS 伺服器，它們的 Address 永久嵌入在 Bitcoin 核心程式碼中。當一個新節點啟動時，它會聯絡這些伺服器，以取得一個隨機的 IP 位址清單，這些 IP 位址應該是活躍的 Bitcoin 節點。然後，新節點可以與此清單上的節點建立連線，以取得執行初始區塊下載 (IBD) 所需的資訊，並與累積工作最多的鏈同步。截至 2024 年，以下是 Bitcoin 核心 DNS 種子清單，以及負責其維護的個人 (https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp)：

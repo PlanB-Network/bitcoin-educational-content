@@ -1,5 +1,6 @@
 ---
-term: MIXER
+term: Mixer
+definition: Layanan terpusat yang mencampur bitcoin dari beberapa pengguna untuk memutus riwayat mereka.
 ---
 
 Layanan terpusat untuk memecahkan riwayat koin Bitcoin dengan mencampurkan dana dari beberapa pengguna. Tidak seperti _coinjoin_, di mana pengguna tetap memegang kendali atas dana mereka selama proses pencampuran, blender untuk sementara waktu mengambil alih bitcoin pengguna, mencampurnya dengan bitcoin pengguna lain, kemudian mengirimkan kembali dana tersebut ke alamat yang baru.

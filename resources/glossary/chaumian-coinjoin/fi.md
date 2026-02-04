@@ -1,12 +1,13 @@
 ---
-term: CHAUMIAN COINJOIN
+term: Chaumian coinjoin
 
+definition: Coinjoin-protokolla, joka käyttää Chaumin sokeita allekirjoituksia osallistujien yksityisyyden varmistamiseksi.
 ---
 Coinjoin-protokolla, jossa käytetään David Chaumin sokeaa allekirjoitusta ja Toria osallistujien ja koordinaattorin palvelimen väliseen viestintään. Chaumin coinjoinin tavoitteena on varmistaa osallistujille, että koordinaattori ei voi varastaa bitcoineja eikä yhdistää tuloja ja lähtöjä toisiinsa.
 
 Tätä varten käyttäjät toimittavat koordinaattorille syötteensä ja salatun vastaanotto-osoitteensa. Kun tämä osoite on vapautettu, sen on tarkoitus vastaanottaa bitcoinit coinjoinin tuloksena. Koordinaattori allekirjoittaa nämä rahakkeet ja palauttaa ne käyttäjille. Tämän jälkeen käyttäjät ottavat uudelleen yhteyden anonyymisti koordinaattorin palvelimeen uudella Tor-tunnuksella ja paljastavat lähtöosoitteensa selväkielisenä transaktion rakentamista varten. Koordinaattori voi varmistaa, että kaikki nämä vastaanottoosoitteet ovat peräisin laillisilta käyttäjiltä, koska hän on aiemmin allekirjoittanut niiden sokkoutetun version yksityisellä avaimellaan. Hän ei kuitenkaan voi yhdistää tiettyä lähtöosoitetta tiettyyn tulokäyttäjään. Näin ollen tulo- ja lähtöosoitteiden välillä ei ole yhteyttä edes koordinaattorin näkökulmasta. Kun koordinaattori on rakentanut transaktion, hän lähettää sen takaisin osallistujille, jotka allekirjoittavat sen avatakseen syötteensä varmistettuaan, että heidän tulosteensa todella kuuluu tähän transaktioon. Osallistujat lähettävät allekirjoituksen koordinaattorille. Kun kaikki allekirjoitukset on kerätty, koordinaattori voi lähettää coinjoin-transaktion Bitcoin-verkossa.
 
-![](../../dictionnaire/assets/38.webp)
+
 
 Tällä menetelmällä varmistetaan, että koordinaattori ei voi vaarantaa osallistujien anonymiteettiä eikä varastaa bitcoineja koko coinjoin-prosessin aikana.
 

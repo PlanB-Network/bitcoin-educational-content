@@ -1,0 +1,9 @@
+question: 誰發明了 Hashcash？
+answer: Adam Back
+wrong_answers:
+  - Nick Szabo
+  - Hal Finney
+  - David Chaum
+explanation: |
+  Hashcash 是由 Adam Back 發明的。它是第一個工作量證明機制。
+reviewed: false

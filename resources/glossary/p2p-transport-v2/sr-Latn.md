@@ -1,5 +1,6 @@
 ---
 term: P2P TRANSPORT V2
+definition: Nova verzija Bitcoin P2P protokola sa enkripcijom radi poboljšanja privatnosti.
 ---
 
 Nova verzija Bitcoin P2P transportnog protokola koja uključuje oportunističku enkripciju radi poboljšanja privatnosti i sigurnosti komunikacija između čvorova. Ovo poboljšanje ima za cilj da Address nekoliko problema sa osnovnom verzijom P2P protokola, posebno tako što čini razmenjene podatke neprepoznatljivim pasivnom posmatraču (kao što je internet provajder), čime se smanjuju rizici od cenzure i napada kroz detekciju specifičnih obrazaca u paketima podataka.

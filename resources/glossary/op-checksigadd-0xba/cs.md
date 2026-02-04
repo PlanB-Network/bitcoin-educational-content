@@ -1,6 +1,7 @@
 ---
 term: OP_CHECKSIGADD (0XBA)
 
+definition: Opkód Tapscriptu, který ověří podpis a v případě platnosti zvýší čítač.
 ---
 Extrahuje tři nejvyšší hodnoty ze zásobníku: `veřejný klíč`, `CScriptNum` `n` a `podpis`. Pokud podpis není prázdný vektor a není platný, skript se ukončí s chybou. Pokud je podpis platný nebo je prázdným vektorem (`OP_0`), zobrazí se dva scénáře:
 

@@ -6,4 +6,4 @@ wrong_answers:
   - Signature Compaction
 explanation: |
   Schnorr memungkinkan untuk agregasi beberapa kunci publik menjadi satu kunci tunggal.
-ditinjau: false
+reviewed: true

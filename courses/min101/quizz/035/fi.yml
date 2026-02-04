@@ -1,0 +1,9 @@
+question: SegWitin jälkeen, minne lohkon todistajien sitoumus (witness commitment) on kirjattu?
+answer: Coinbase-transaktion tulosteeseen (output)
+wrong_answers:
+  - Coinbase-transaktion scriptSig-kenttään
+  - Versio-kenttään
+  - Coinbase-transaktion palkkioihin
+explanation: |
+  SegWit käyttää sitoumusta, joka on kirjoitettu coinbaseen OP_RETURN-tulosteen kautta.
+reviewed: false

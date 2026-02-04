@@ -1,5 +1,6 @@
 ---
 term: BIP0118
+definition: ANYPREVOUT proposal introducing new SigHash Flags allowing signatures to be reused between transactions, useful for Eltoo.
 ---
 
 Proposal introducing two new SigHash Flag modifiers: `SIGHASH_ANYPREVOUT` and `SIGHASH_ANYPREVOUTANYSCRIPT`. 

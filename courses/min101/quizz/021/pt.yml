@@ -1,0 +1,9 @@
+question: A cada quantos blocos o alvo de dificuldade é ajustado?
+answer: 2016 blocos
+wrong_answers:
+  - 2000 blocos
+  - 2100 blocos
+  - 4096 blocos
+explanation: |
+  O ajuste é feito a cada 2016 blocos, o que corresponde a cerca de duas semanas com 10 minutos por bloco.
+reviewed: false

@@ -1,6 +1,7 @@
 ---
-term: QR CODE
+term: Mã QR
 
+definition: Mã vạch hai chiều được sử dụng để truyền tải địa chỉ Bitcoin và các thông tin khác một cách dễ dàng.
 ---
 A type of two-dimensional barcode that can be quickly scanned by mobile devices. The QR code stores information in the form of black and white pixels arranged in a square on a white background. An important feature of QR codes is that they incorporate BCH error correction codes, which allow data to be restored even if the QR code is partially obscured.
 

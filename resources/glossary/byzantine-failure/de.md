@@ -1,6 +1,7 @@
 ---
-term: BYZANTINISCHES SCHEITERN
+term: Byzantinischer Fehler
 
+definition: Verhalten eines Systems, das seine Spezifikationen nicht einhält, was natürlicher oder absichtlicher Natur sein kann.
 ---
 Byzantinisches Versagen oder byzantinisches Verhalten bezieht sich auf jedes Verhalten eines Systems, das nicht mit seinen eigenen Spezifikationen übereinstimmt und zu nicht konformen Ergebnissen führt.
 

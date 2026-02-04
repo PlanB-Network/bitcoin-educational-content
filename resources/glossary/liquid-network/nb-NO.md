@@ -1,5 +1,6 @@
 ---
-term: LIQUID NETWORK
+term: Liquid network
 
+definition: Federert sidekjede for Bitcoin som tilbyr raske og konfidensielle transaksjoner.
 ---
 En Bitcoin-sidekjede utviklet av Blockstream for å tilby raske og konfidensielle transaksjoner. I motsetning til Bitcoins hovedblokkjede bruker Liquid en konsensusmekanisme basert på en føderasjon (en utvalgt gruppe av nodeoperatører, vanligvis bedrifter relatert til Bitcoin), og erstatter dermed Nakamotos konsensusmekanisme. Denne tilnærmingen gjør transaksjonene betydelig raskere og reduserer kostnadene, samtidig som den tilbyr mer avanserte funksjoner. Liquid gjør det også mulig å utstede digitale eiendeler, inkludert tokens som representerer andre kryptovalutaer. Bitcoins på Liquid, kjent som L-BTC, er knyttet til BTC gjennom et toveis peg-system basert på en del av føderasjonen. Deltakerne i denne føderasjonen kalles "funksjonærer", og de kan fungere både som "vakter" og som "blokkunderskrivere"

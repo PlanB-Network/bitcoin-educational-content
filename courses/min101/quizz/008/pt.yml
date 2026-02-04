@@ -1,0 +1,9 @@
+question: Sobre que elemento é calculada a prova de trabalho no Bitcoin?
+answer: O cabeçalho do bloco
+wrong_answers:
+  - A altura do bloco
+  - A mempool da rede
+  - As primeiras 21 transações do bloco
+explanation: |
+  A mineração consiste em computar repetidamente o hash do cabeçalho do bloco de 80 bytes, que compromete o conteúdo do bloco.
+reviewed: false

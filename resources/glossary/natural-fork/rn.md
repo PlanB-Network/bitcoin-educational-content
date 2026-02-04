@@ -1,5 +1,6 @@
 ---
-term: Fork Y'IBIMENYETSO
+term: Embranchement naturel
+definition: Ukwitandukanya kw'igihe gito kw'uruhererekane rw'imibumbe igihe imibumbe ibiri itowe icyarimwe.
 ---
 
 Ugutandukanya kw’igihe gito kwa Blockchain kwavuye mu gutangaza hafi icarimwe amabuye menshi n’abacukuzi batandukanye bari ku burebure bumwe. Ivyo bishika iyo amabuye abiri, yitwa $A$ na $B$, abonetse hafi igihe kimwe, bikaba bituma urubuga rugabanywa mu gihe gito. Kubera ko urudodo rumwe rumwe rubona ko igice ca mbere rwaronse ari co gifise akamaro, ariko si bose babanza kwakira igice kimwe, igice c’urudodo gikurikira uruzitiro rurimwo igice $A$, mu gihe ikindi gice gikurikira ico gifise igice $B$. Iyi Fork itorerwa umuti iyo imwe muri izo nzira zibiri zihiganwa irengeye iyindi mu bijanye n’ibikorwa vyirundanijwe. Iciyo gihe, utugingo ngengabuzima twose turi muri iyo nzira tuca twemeranya ku ruhererekane rurerure (rufise igikorwa cirundanirijwe cane), ivyo bikaba ari ibintu bizwi kw’izina ry’ugusubira gutunganya canke gusubira gukorana. Ivyo bice vy'umubiri ni vyo bimenyerewe mu bikorwa vya Bitcoin. Birasanzwe kandi birahera ubwavyo inyuma y’ibice bikeyi (kenshi na kenshi ni kimwe gusa). Ariko rero, iyo zishitse kenshi cane, izo nkoko zirashobora kuba zigitera ingorane, kuko zituma ububasha bwo gukoresha ubuhinga bwo guharura butakazwa kw’ishami rizoheza rikabura ico rikora.

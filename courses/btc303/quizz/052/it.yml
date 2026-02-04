@@ -1,9 +1,9 @@
-question: Secondo l'assioma di resistenza di Eric Voskuil, quale assunto fondamentale deve essere accettato perché il Bitcoin abbia senso come sistema?
+question: Secondo l'assioma di resistenza di Eric Voskuil, quale assunto fondamentale deve essere accettato perché Bitcoin abbia senso come sistema?
 answer: Che è possibile per un sistema resistere al controllo dello Stato
 wrong_answers:
   - Che la maggior parte del potere della rete rimarrà sempre onesto
-  - Che gli algoritmi crittografici non saranno mai violati dall'informatica quantistica
+  - Che gli algoritmi crittografici non saranno mai violati da computer quantistici
   - Che gli utenti daranno sempre la priorità alla decentralizzazione rispetto alla convenienza
 explanation: |
-  L'assioma della resistenza presuppone che i sistemi possano resistere al controllo statale, il che è fondamentale per lo scopo del Bitcoin come denaro senza permesso. Senza questo presupposto, l'intera premessa del Bitcoin crolla, poiché sarebbe inevitabilmente controllato dagli Stati. Le altre opzioni, pur essendo rilevanti per la sicurezza del Bitcoin, non fanno parte dell'assioma di resistenza di Voskuil, che riguarda specificamente il fondamento filosofico della possibilità di resistere al controllo statale.
-reviewed: false
+  L'assioma della resistenza presuppone che i sistemi possano resistere al controllo statale, il che è fondamentale per lo scopo di Bitcoin come denaro senza permessi. Senza questo presupposto, l'intera premessa di Bitcoin crolla, poiché sarebbe inevitabilmente controllato dagli Stati. Le altre opzioni, pur essendo rilevanti per la sicurezza di Bitcoin, non fanno parte dell'assioma di resistenza di Voskuil, che riguarda specificamente il fondamento filosofico della possibilità di resistere al controllo statale.
+reviewed: true

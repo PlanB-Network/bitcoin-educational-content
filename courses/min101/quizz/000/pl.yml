@@ -1,0 +1,9 @@
+question: Co zużywają wejścia (inputs) w transakcji Bitcoin?
+answer: Istniejące UTXO
+wrong_answers:
+  - Przyszłe wyjścia (outputs)
+  - Istniejące bloki
+  - Przyszłe adresy
+explanation: |
+  Wejście odwołuje się do niewydanego wyjścia z przeszłej transakcji, zwanego UTXO.
+reviewed: false

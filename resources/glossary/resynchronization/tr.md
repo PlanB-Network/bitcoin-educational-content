@@ -1,5 +1,6 @@
 ---
-term: YENIDEN SENKRONIZASYON
+term: Yeniden senkronizasyon
+definition: Blok zincirinin bir kısmının, daha fazla birikmiş işe sahip rakip bir zincirle değiştirilmesi.
 ---
 
 Blockchain'ın aynı yükseklikteki rakip blokların varlığı nedeniyle yapısında bir değişikliğe uğradığı bir olguyu ifade eder. Bu, Blockchain'ın bir kısmı daha fazla miktarda birikmiş işe sahip başka bir zincirle değiştirildiğinde meydana gelir.
@@ -8,7 +9,7 @@ Blockchain'ın aynı yükseklikteki rakip blokların varlığı nedeniyle yapıs
 Bu yeniden senkronizasyonlar, farklı madencilerin neredeyse aynı anda yeni bloklar bulabildiği ve böylece Bitcoin ağını ikiye bölen Bitcoin'in doğal işleyişinin bir parçasıdır. Bu gibi durumlarda ağ geçici olarak rakip zincirlere bölünebilir. Sonunda, bu zincirlerden biri daha fazla iş biriktirdiğinde, diğer zincirler düğümler tarafından terk edilir ve blokları "eski bloklar" veya "yetim bloklar" olarak adlandırılır Bir zincirin diğeriyle değiştirildiği bu süreç yeniden senkronizasyondur.
 
 
-![](../../dictionnaire/assets/9.webp)
+
 
 
 Yeniden senkronizasyonların çeşitli sonuçları olabilir. İlk olarak, bir kullanıcı terk edildiği ortaya çıkan bir blokta bir işlemi onaylatmışsa, ancak bu işlem nihai olarak geçerli zincirde bulunmazsa, işlemi tekrar onaylanmamış hale gelir. Bu nedenle, bir işlemi gerçekten değişmez olarak kabul etmek için her zaman en az 6 onay beklemeniz önerilir. Derin 6 bloktan sonra, yeniden senkronizasyonlar o kadar düşük bir ihtimaldir ki, bir tanesinin gerçekleşme olasılığı neredeyse sıfır olarak kabul edilebilir.

@@ -1,5 +1,6 @@
 ---
-term: CIBLE DE DIFFICULTÉ
+term: Cible de difficulté
+definition: Valeur numérique de 256 bits déterminant la limite d'acceptabilité pour le hachage des entêtes de blocs.
 ---
 
 Le facteur de difficulté, aussi connu sous le nom de cible de difficulté, est un paramètre utilisé dans le mécanisme de consensus par preuve de travail (Proof of Work, PoW) sur Bitcoin. La cible représente une valeur numérique qui détermine la difficulté pour les mineurs de résoudre un problème cryptographique spécifique, appelé preuve de travail, lors de la création d'un nouveau bloc sur la blockchain.

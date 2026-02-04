@@ -5,5 +5,5 @@ wrong_answers:
   - Senioritas dalam jaringan
   - Tidak ada, karena setiap node memiliki satu suara
 explanation: |
-  Pengaruh pada aturan konsensus tergantung pada aktivitas ekonomi yang didukung oleh simpul tersebut, bukan jumlahnya.
+  Pengaruh pada aturan konsensus tergantung pada aktivitas ekonomi yang didukung oleh node tersebut, bukan jumlahnya.
 reviewed: true

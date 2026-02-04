@@ -1,0 +1,9 @@
+question: mempoolについて、正しい記述はどれですか？
+answer: 各ノードが独自のmempoolを持っている
+wrong_answers:
+  - 唯一のmempoolが存在する
+  - mempoolは各ブロックに含まれるファイルである
+  - mempoolは中央サーバーである
+explanation: |
+  mempoolは各ノードに局所的なものであるため、その内容は各ノードが適用するルールに応じてノードごとに異なる場合があります。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vad händer om blocken hittades för snabbt under den senaste perioden?
+answer: Målet sjunker
+wrong_answers:
+  - Målet stiger
+  - Målet förblir detsamma
+  - Blockstorleken ökar
+explanation: |
+  Block som hittas för snabbt tyder på en högre hashrate, så Bitcoin stramar åt villkoren genom att sänka målet.
+reviewed: false

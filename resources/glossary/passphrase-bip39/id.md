@@ -1,6 +1,7 @@
 ---
 term: PASSPHRASE (BIP39)
 
+definition: Kata sandi opsional yang ditambahkan ke frasa pemulihan untuk mengamankan dompet HD.
 ---
 Kata sandi opsional yang, jika digabungkan dengan frasa pemulihan, memberikan lapisan keamanan tambahan untuk dompet Bitcoin yang bersifat deterministik dan hirarkis. Dompet HD biasanya dibuat dari sebuah frasa pemulihan yang terdiri dari 12 atau 24 kata. Frasa pemulihan ini sangat penting, karena memungkinkan pemulihan semua kunci dalam dompet jika terjadi kehilangan. Akan tetapi, hal ini merupakan sebuah titik kegagalan tunggal (SPOF). Jika ini dibobol, maka bitcoin akan berisiko diambil. Di sinilah peran _passphrase_ berguna. Ini adalah kata sandi opsional, yang dipilih oleh pengguna, yang ditambahkan ke frasa pemulihan untuk meningkatkan keamanan dompet. Jangan disamakan dengan kode PIN atau kata sandi biasa, frasa sandi berperan dalam derivasi kunci kriptografi.
 

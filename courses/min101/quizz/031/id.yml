@@ -1,0 +1,9 @@
+question: Manakah halving terakhir menurut protokol?
+answer: Yang ke-33
+wrong_answers:
+  - Yang ke-21
+  - Yang ke-38
+  - Yang ke-64
+explanation: |
+  Halving ke-33, pada ketinggian 6.930.000, akan mengakhiri subsidi blok karena nilainya akan turun di bawah unit minimum.
+reviewed: false

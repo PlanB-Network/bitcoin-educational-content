@@ -1,4 +1,4 @@
-question: Apa keuntungan utama dari node-in-a-box dibandingkan dengan implementasi mentah?
+question: Apa keuntungan utama dari node-in-a-box dibandingkan dengan implementasi manual?
 answer: Instalasi yang mudah dan manajemen aplikasi yang terintegrasi
 wrong_answers:
   - Verifikasi yang lebih ketat terhadap aturan konsensus

@@ -1,5 +1,6 @@
 ---
-term: WĘZEŁ SPV (WĘZEŁ ŚWIETLNY)
+term: Węzeł SPV (lekki węzeł)
+definition: Lekki klient, który waliduje transakcje przechowując jedynie nagłówki bloków i weryfikując dowody Merkle.
 ---
 
 Węzeł SPV (*Simple Payment Verification*), czasami nazywany "lekkim węzłem", jest lekkim klientem węzła Bitcoin, który umożliwia użytkownikom walidację transakcji bez konieczności przechowywania całego Blockchain. Zamiast tego węzeł SPV przechowuje tylko nagłówki bloków i uzyskuje informacje o konkretnych transakcjach, wysyłając w razie potrzeby zapytania do pełnych węzłów. Ta zasada weryfikacji jest możliwa dzięki strukturze transakcji w blokach Bitcoin, które są zorganizowane w ramach akumulatora kryptograficznego (Merkle Tree).

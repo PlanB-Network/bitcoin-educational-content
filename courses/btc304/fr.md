@@ -898,7 +898,8 @@ En France, au cours de l'été 2023, les organisateurs de meet-ups ont ainsi tra
 Cette initiative est particulièrement appréciée dans les meet-ups, et a pour vocation à se développer dans les prochaines années.
 
 La progression suivie en 2023/2024 par les meet-ups français est donc disponible ci-dessous. Pour chacune, **une présentation open source accompagnée de sa vidéo est proposée, vous donnant peut-être des idées sur les notions qui peuvent être abordées**.
-D'autres ressources modifiables sont également disponibles dans la [Boîte à outils pédagogique Bitcoin](https://planb.academy/fr/resources/bet) !
+
+D'autres ressources sont également disponibles dans la section ["Educator Content"](https://planb.academy/educator-content) de Plan ₿ Academy, un espace collaboratif où les éducateurs Bitcoin du monde entier partagent et mettent à disposition leurs supports pédagogiques (présentations, flyers, guides, affiches…) en formats prêts à l'emploi ou modifiables. L'objectif : mutualiser les efforts pour ne pas repartir de zéro à chaque fois !
 
 | Mois | Thème | Vidéo | Ressource modifiable |
 | -------- | -------- | -------- | --- |

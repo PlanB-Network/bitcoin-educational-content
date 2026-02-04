@@ -1041,7 +1041,7 @@ Abgesehen von seinem hohen pädagogischen Wert ermöglicht dieser Ansatz die gem
 
 Nachstehend findest du den Ablauf der französischen Treffen 2023-2024. Zu jedem Thema sind eine Open-Source-Präsentation und ein Video verfügbar, die dir Ideen für Themen geben können, die du bei deinen eigenen Veranstaltungen behandeln könntest.
 
-Zusätzliche editierbare Materialien findest du auch in der [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)!
+Weitere Ressourcen sind auch im Bereich ["Educator Content"](https://planb.academy/educator-content) der Plan ₿ Academy verfügbar, einem kollaborativen Raum, in dem Bitcoin-Pädagogen aus der ganzen Welt ihre Lehrmaterialien (Präsentationen, Flyer, Leitfäden, Poster...) in gebrauchsfertigen oder bearbeitbaren Formaten teilen und zur Verfügung stellen. Das Ziel: die Bemühungen zu bündeln, um nicht jedes Mal bei Null anfangen zu müssen!
 
 | Month | Theme | Video | Bearbeitbare Datei |
 | -------- | -------- | -------- | --- |

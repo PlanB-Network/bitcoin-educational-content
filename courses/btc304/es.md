@@ -1118,7 +1118,7 @@ Más allá de su gran valor pedagógico, este enfoque permite compartir document
 
 A continuación se presenta la progresión de meetups franceses 2023-2024. Para cada tema hay disponibles una presentación de código abierto y un vídeo, que pueden darte ideas sobre temas que podrías tratar en tus propios eventos.
 
-También puedes encontrar material adicional editable en la [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)
+Otros recursos también están disponibles en la sección ["Educator Content"](https://planb.academy/educator-content) de Plan ₿ Academy, un espacio colaborativo donde los educadores de Bitcoin de todo el mundo comparten y ponen a disposición sus materiales educativos (presentaciones, folletos, guías, carteles...) en formatos listos para usar o modificables. El objetivo: aunar esfuerzos para no partir de cero cada vez!
 
 | Mes | Tema | Video | Recurso Editable |
 | -------- | -------- | -------- | --- |

@@ -1820,7 +1820,7 @@ Di luar nilai pendidikannya yang kuat, pendekatan ini memungkinkan untuk berbagi
 Di bawah ini adalah perkembangan pertemuan Prancis 2023-2024. Untuk setiap tema, tersedia presentasi sumber terbuka dan video, yang dapat memberi Anda ide untuk topik yang dapat Anda bahas untuk acara Anda sendiri.
 
 
-Materi tambahan yang dapat diedit juga dapat ditemukan di [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)!
+Sumber daya lainnya juga tersedia di bagian ["Educator Content"](https://planb.academy/educator-content) dari Plan ₿ Academy, sebuah ruang kolaboratif di mana para pendidik Bitcoin dari seluruh dunia berbagi dan menyediakan materi pendidikan mereka (presentasi, selebaran, panduan, poster...) dalam format siap pakai atau dapat diedit. Tujuannya: mengumpulkan upaya agar tidak memulai dari nol setiap kali!
 
 
 

@@ -1820,7 +1820,7 @@ Lisaks tugevale hariduslikule väärtusele võimaldab selline lähenemisviis jag
 Allpool on esitatud 2023-2024. aasta prantsuse kohtumiste kulg. Iga teema kohta on saadaval avatud esitlus ja video, mis võivad anda teile ideid teemade kohta, mida võiksite oma ürituste puhul käsitleda.
 
 
-Täiendavad redigeeritavad materjalid leiate ka [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)!
+Teised ressursid on samuti saadaval Plan ₿ Academy jaotises ["Educator Content"](https://planb.academy/educator-content), mis on koostööruum, kus Bitcoini hariduslikud töötajad üle maailma jagavad ja teevad kättesaadavaks oma õppematerjale (esitlused, flaierid, juhendid, plakatid...) kasutamisvalmis või muudetavates formaatides. Eesmärk: ühendada jõupingutused, et mitte alustada iga kord nullist!
 
 
 

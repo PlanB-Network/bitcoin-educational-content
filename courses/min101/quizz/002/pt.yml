@@ -1,0 +1,9 @@
+question: Sobre a mempool, qual afirmação está correta?
+answer: Cada nó tem a sua própria mempool
+wrong_answers:
+  - Existe uma mempool única
+  - A mempool é um ficheiro contido em cada bloco
+  - A mempool é um servidor central
+explanation: |
+  A mempool é local para cada nó, portanto o seu conteúdo pode variar de nó para nó, dependendo das regras que cada um aplica.
+reviewed: false

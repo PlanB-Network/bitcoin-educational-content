@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo bwa hachage (hash function) bukoreshwa mu ku-miner Bitcoin?
+answer: SHA256d
+wrong_answers:
+  - SHA1d
+  - RIPEMD160d
+  - SHA512d
+explanation: |
+  Umu-mining wa Bitcoin ukoresha SHA256 ikoreshejwe incuro zibiri, bakunze kwita SHA256d.
+reviewed: false

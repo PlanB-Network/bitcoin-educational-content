@@ -1,5 +1,6 @@
 ---
 term: DER
+definition: BitcoinのECDSA署名に使用される標準的なバイナリエンコード形式。
 ---
 
 Distinguished Encoding Rules*の略。これは、仕様[ITU-T X.690, 2002.](https://www.itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf)で定義されているASN.1符号化規則の厳密なサブセットであり、あらゆるタイプのデータを2進数で符号化するために使用される。DERは主に暗号など、データが標準的で予測可能な方法でエンコードされなければならない特定の分野で使用される。

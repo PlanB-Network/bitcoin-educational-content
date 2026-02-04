@@ -1,5 +1,6 @@
 ---
 term: P2SH
+definition: 透過 redeemScript 的哈希實現任意支出條件的腳本。
 ---
 
 P2SH 代表 * 付費腳本 Hash*。它是用於在 UTXO 上建立支出條件的標準腳本模型。P2PK 和 P2PKH 腳本的支出條件是預先定義的，與此不同，P2SH 允許在交易腳本中整合任意的支出條件和附加功能。

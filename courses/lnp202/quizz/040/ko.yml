@@ -1,0 +1,9 @@
+question: 라이트닝 노드 관리자를 사용하는 이유는 무엇인가요?
+answer: 고급 기능에 쉽게 액세스
+wrong_answers:
+  - LND 구현 교체
+  - Umbrel에 대한 종속성 제거
+  - 라이트닝 프로토콜 수정하기
+explanation: |
+  고급 관리자는 기본 인터페이스에서 사용할 수 없는 기능을 제공하면서도 인터페이스는 단순하게 유지합니다.
+reviewed: false

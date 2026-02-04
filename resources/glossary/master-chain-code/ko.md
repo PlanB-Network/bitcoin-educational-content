@@ -1,5 +1,6 @@
 ---
-term: 마스터 chain code
+term: 마스터 체인 코드
+definition: 마스터 키와 연관된 체인 코드로, 모든 지갑 키 파생의 기초가 됨.
 ---
 
 모든 키의 파생 트리의 기초를 형성하는 Wallet의 마스터 키와 연결된 chain code을 참조합니다.

@@ -1,0 +1,8 @@
+question: Selon l'école autrichienne, quelle est la différence fondamentale entre la détermination des prix dans une économie de marché et dans une économie socialiste planifiée?
+answer: Dans une économie de marché, les prix émergent spontanément des échanges volontaires et reflètent les valorisations subjectives, tandis qu'en économie socialiste, les prix sont arbitrairement fixés par les planificateurs sans base objective
+wrong_answers:
+  - "Dans une économie de marché, les prix sont déterminés par les coûts de production, tandis qu'en économie socialiste, ils sont fixés selon l'utilité sociale des biens"
+  - "Dans une économie de marché, les prix fluctuent selon l'inflation, tandis qu'en économie socialiste, ils restent stables grâce au contrôle étatique des variables monétaires"
+  - "Dans une économie de marché, les prix sont manipulés par les monopoles, tandis qu'en économie socialiste, ils représentent la vraie valeur du travail incorporé dans les biens"
+explanation: |
+  L'école autrichienne distingue clairement les prix de marché, qui émergent des échanges volontaires entre propriétaires privés et transmettent l'information sur les préférences individuelles, des prix administratifs socialistes qui sont fixés arbitrairement par les planificateurs. Sans propriété privée et échange libre, il devient impossible de découvrir les vraies valorisations subjectives des individus, rendant le calcul économique rationnel impossible. Cette distinction est au cœur de la critique de Mises du socialisme.

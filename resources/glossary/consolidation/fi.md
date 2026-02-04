@@ -1,6 +1,7 @@
 ---
-term: CONSOLIDATION
+term: Konsolidointi
 
+definition: Siirto, joka yhdistää useita pieniä UTXOita yhdeksi suuremmaksi tulevien kulujen pienentämiseksi.
 ---
 Erikoistapahtuma, jossa useita pieniä UTXO:ita yhdistetään yhteen syötteeseen, jolloin tuloksena on yksi suurempi UTXO. Tämä operaatio on omaan lompakkoon tehty transaktio. Yhdistämisen tavoitteena on hyödyntää aikoja, jolloin Bitcoin-verkon maksut ovat alhaiset, ja yhdistää useita pieniä UTXO:ita yhdeksi arvoltaan suuremmaksi. Näin se ennakoi pakollisia kuluja maksujen noustessa, mikä mahdollistaa säästöt tulevissa transaktiomaksuissa.
 
@@ -8,4 +9,3 @@ Paljon panoksia sisältävät maksutapahtumat ovatkin raskaampia ja näin ollen 
 
 On kuitenkin tärkeää huomata, että konsolidointitapahtumat ovat tunnistettavissa ketjuanalyysin aikana. Tällainen liiketoimi osoittaa Common Input Ownership Heuristic (CIOH), mikä tarkoittaa, että konsolidointitapahtuman panokset omistaa yksi yksikkö. Tällä voi olla vaikutuksia käyttäjän yksityisyyteen.
 
-![](../../dictionnaire/assets/7.webp)

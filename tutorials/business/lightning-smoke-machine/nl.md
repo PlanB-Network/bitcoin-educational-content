@@ -263,11 +263,12 @@ Doel: Sluit het relais aan op de AAN/UIT-knop van de afstandsbediening
 
 
 
-| **Terminal**         | **Description**           | **Fonction**                        |
+
+| **Terminal**         | **Beschrijving**           | **Functie**                        |
 | -------------------- | ------------------------- | ----------------------------------- |
-| NO (Normally Open)   | Circuit ouvert par défaut | Se ferme quand le relais est activé |
-| NC (Normally Closed) | Circuit fermé par défaut  | S'ouvre quand le relais est activé  |
-| COM (Common)         | Terminal central          | Bascule entre NO et NC              |
+| NO (Normaal geopend)   | Schakeling standaard geopend | Sluit wanneer het relais wordt geactiveerd |
+| NC (Normaal gesloten) | Schakeling standaard gesloten  | Opent wanneer het relais wordt geactiveerd  |
+| COM (Gemeenschappelijk)         | Centrale terminal          | Schakelt tussen NO en NC              |
 
 **Bedrading van afstandsbediening naar relaismodule:**
 
@@ -301,11 +302,12 @@ Wanneer de ESP32 het relais uitschakelt, worden COM en NO gescheiden, wat gelijk
 
 
 
-| **ESP32** | **→** | **Module relais** |
+
+| **ESP32** | **→** | **Relaismodule** |
 | --------- | ----- | ----------------- |
 | V5 (5V)   | **→** | VCC               |
 | GND       | **→** | GND               |
-| GPIO 21   | **→** | IN (Input)        |
+| GPIO 21   | **→** | IN (Ingang)        |
 
 **Verificatie:**
 
@@ -894,14 +896,15 @@ Controleer voor de eindtest :
 
 
 
-| **Problème**                        | **Cause probable**              | **Solution**                                                                                 |
+
+| **Probleem**                        | **Waarschijnlijke oorzaak**              | **Oplossing**                                                                                 |
 | ----------------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------- |
-| ESP32 ne se connecte pas            | Driver USB manquant             | Installer [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
-| Relais ne clique pas                | Mauvais câblage GPIO            | Vérifier GPIO 21 → IN                                                                        |
-| Smoke machine ne réagit pas         | Télécommande mal câblée         | Vérifier NO/NC/COM                                                                           |
-| WebSocket timeout                   | URL incorrecte                  | Vérifier wss:// et /bitcoinswitch                                                            |
-| WiFi ne se connecte pas             | SSID/Password erroné            | Re-flasher la config WiFi                                                                    |
-| Paiement reçu mais rien ne se passe | ESP32 non connecté au WebSocket | Vérifier les logs RESET                                                                      |
+| ESP32 maakt geen verbinding            | USB-stuurprogramma ontbreekt             | Installeer [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
+| Relais klikt niet                | Verkeerde GPIO-bedrading            | Controleer GPIO 21 → IN                                                                        |
+| Rookmachine reageert niet         | Afstandsbediening verkeerd aangesloten         | Controleer NO/NC/COM                                                                           |
+| WebSocket-timeout                   | Onjuiste URL                  | Controleer wss:// en /bitcoinswitch                                                            |
+| WiFi maakt geen verbinding             | SSID/Wachtwoord onjuist            | WiFi-configuratie opnieuw flashen                                                                    |
+| Betaling ontvangen maar niets gebeurt | ESP32 niet verbonden met WebSocket | Controleer RESET-logboeken                                                                      |
 
 ## Bronnen
 

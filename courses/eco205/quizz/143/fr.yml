@@ -1,0 +1,8 @@
+question: Selon la théorie autrichienne présentée, quelle est la conséquence directe du décalage entre les signaux de prix artificiels et les préférences temporelles réelles des consommateurs?
+answer: Les entrepreneurs s'engagent dans des détours de production inadaptés créant un faux boom économique suivi d'une crise inévitable
+wrong_answers:
+  - "Les consommateurs ajustent automatiquement leurs préférences temporelles pour s'aligner sur les signaux de prix du marché"
+  - Les banques commerciales compensent spontanément en augmentant leurs réserves pour stabiliser la masse monétaire
+  - "L'épargne réelle augmente progressivement pour rattraper le niveau d'investissement stimulé par les taux bas"
+explanation: |
+  La réponse correcte reflète le cœur de la théorie autrichienne des cycles économiques de Mises et Hayek. Quand les banques centrales manipulent les taux, les entrepreneurs reçoivent de faux signaux suggérant une abondante épargne disponible, alors que la consommation reste élevée et l'épargne réelle inexistante. Ils investissent donc dans des projets non viables, créant un boom artificiel destiné à s'effondrer. Les autres options sont incorrectes car elles suggèrent des mécanismes d'auto-correction qui n'existent pas selon cette théorie.

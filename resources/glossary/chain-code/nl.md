@@ -1,5 +1,6 @@
 ---
-term: chain code
+term: Chain code
+definition: 256-bits cryptografische salt-waarde die wordt gebruikt bij de HD-afleiding van wallet-sleutels.
 ---
 
 In de context van hiërarchische deterministische (HD) afleiding van Bitcoin wallets, is de chain code een 256-bit cryptografische zoutwaarde die gebruikt wordt om generate kindsleutels af te leiden van een oudersleutel, volgens de BIP32 standaard. De chain code wordt gebruikt in combinatie met de oudersleutel en de index van het kind om deterministisch generate een nieuw sleutelpaar (private sleutel en publieke sleutel) te maken zonder de oudersleutel of andere afgeleide kindsleutels te onthullen.
@@ -11,4 +12,3 @@ Daarom is er een unieke chain code voor elk sleutelpaar. De chain code wordt ver
 Het is onmogelijk om sleutels af te leiden zonder de chain code geassocieerd met elk ouderpaar te kennen. Het introduceert pseudo-willekeurige gegevens in het afleidingsproces om ervoor te zorgen dat het genereren van cryptografische sleutels onvoorspelbaar blijft voor aanvallers, terwijl het deterministisch is voor de Wallet houder.
 
 
-> ► *In het Engels wordt een "code de chaîne" een "chain code" genoemd, en een "code de chaîne maître" een "master chain code".*

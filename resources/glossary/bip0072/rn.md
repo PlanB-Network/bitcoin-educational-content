@@ -1,5 +1,6 @@
 ---
 term: BIP0072
+definition: Iyagurwa rya Bitcoin URIs ririko ibipimo vy'ivyishurwa vy'umutekano rya BIP70. Ntiyigeze yakirwa na benshi.
 ---
 
 BIP72 yuzuza BIP70 na BIP71 mu kwagura URIs za Bitcoin (BIP21) n'iyindi nzira `r`.

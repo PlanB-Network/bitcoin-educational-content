@@ -1,6 +1,7 @@
 ---
-term: LABELING
+term: Štítkování
 
+definition: Praxe přiřazování poznámek k UTXO pro usnadnění správy fondů a soukromí.
 ---
 Praxe přiřazení anotace nebo štítku konkrétnímu UTXO v peněžence Bitcoin. Pokud mám například UTXO z P2P nákupu na Bisq s Charlesem, mohu jej označit jako "`Non-KYC Bisq Charles`".
 

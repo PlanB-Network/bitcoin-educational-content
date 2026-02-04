@@ -1,6 +1,7 @@
 ---
 term: OP_2ROT (0X71)
 
+definition: Opcode som flytter det 5. og 6. elementet i stakken til toppen.
 ---
 Flytter de to elementene som befinner seg i sjette og femte posisjon fra toppen av bunken til toppen. For eksempel, hvis bunken er:
 

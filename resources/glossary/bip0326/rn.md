@@ -1,5 +1,6 @@
 ---
 term: BIP0326
+definition: Ikoreshwa ry'ikibanza nSequence kuri Taproot kugira ngo ryongere ibanga ry'amasezerano y'urwego rwa kabiri.
 ---
 
 Iciyumviro co gutera imbere ku bategura porogarama za Bitcoin Wallet zifasha mu bikorwa vya Taproot.

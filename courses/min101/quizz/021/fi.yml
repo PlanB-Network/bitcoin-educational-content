@@ -1,0 +1,9 @@
+question: Kuinka monen lohkon välein vaikeustasoa säädetään?
+answer: 2016 lohkoa
+wrong_answers:
+  - 2000 lohkoa
+  - 2100 lohkoa
+  - 4096 lohkoa
+explanation: |
+  Säätö tapahtuu 2016 lohkon välein, mikä on noin kaksi viikkoa (10 minuuttia lohkoa kohden).
+reviewed: false

@@ -1,0 +1,8 @@
+question: Selon l'école autrichienne, pourquoi les coûts de production tendent-ils à suivre les prix plutôt que l'inverse?
+answer: Parce que c'est le prix que les consommateurs acceptent de payer qui détermine les ressources que les entrepreneurs peuvent investir
+wrong_answers:
+  - Parce que les coûts de production sont trop volatils pour influencer directement la formation des prix sur le marché
+  - "Parce que les entrepreneurs fixent d'abord leurs prix puis ajustent leurs coûts pour maximiser leurs profits"
+  - "Parce que les coûts marginaux ne peuvent être calculés qu'après avoir observé les prix d'équilibre du marché"
+explanation: |
+  L'école autrichienne affirme que les coûts suivent les prix car c'est la valorisation subjective des consommateurs qui détermine le prix final qu'ils sont prêts à payer. Ce prix anticipé influence ensuite les décisions entrepreneuriales concernant les ressources à mobiliser. Si les consommateurs valorisent peu un bien, son prix sera bas indépendamment des coûts engagés. À l'inverse, si ils le valorisent fortement, les entrepreneurs peuvent justifier des coûts élevés. Cette approche s'oppose à la théorie classique où les coûts déterminent les prix.

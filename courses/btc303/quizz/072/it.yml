@@ -1,9 +1,9 @@
-question: Secondo l'analisi di Gregory Maxwell, cosa crea il compromesso fondamentale che spinge gli utenti verso i servizi affidabili nelle discussioni sulla scalabilità di Bitcoin?
+question: Secondo l'analisi di Gregory Maxwell, cosa crea il compromesso fondamentale che spinge gli utenti verso i servizi basati sulla fiducia nelle discussioni sulla scalabilità di Bitcoin?
 answer: Sia l'uso eccessivo delle risorse che mette fuori gioco i validatori, sia l'accesso troppo costoso allo spazio dei blocchi per la risoluzione delle controversie
 wrong_answers:
   - Il conflitto tra l'aumento del flusso di transazioni e il mantenimento di un'adeguata redditività del mining in pool di diverse dimensioni
-  - La tensione tra l'implementazione di aggiornamenti segregati dei testimoni e la conservazione della retrocompatibilità con il software wallet preesistente
+  - La tensione tra l'implementazione di aggiornamenti SegWit e la conservazione della retrocompatibilità con il software wallet preesistente
   - La competizione tra le soluzioni di secondo livello e gli approcci di scala on-chain per le limitate risorse di sviluppo e il sostegno della comunità
 explanation: |
-  Maxwell ha identificato un problema a due facce in cui il Bitcoin perde i suoi vantaggi in entrambe le direzioni: se l'utilizzo delle risorse è troppo elevato rispetto alla tecnologia disponibile, la convalida diventa troppo costosa e spinge gli utenti ad affidarsi a terze parti fidate invece di convalidare autonomamente. Al contrario, se la capacità è troppo bassa e i metodi di transazione sono inefficienti, l'accesso alla blockchain per la risoluzione delle controversie diventa proibitivo, spingendo nuovamente gli utenti verso i servizi di fiducia. Questo crea un delicato equilibrio che le soluzioni di scaling devono gestire.
-reviewed: false
+  Maxwell ha identificato un problema a due facce in cui Bitcoin perde i suoi vantaggi in entrambe le direzioni: se l'utilizzo delle risorse è troppo elevato rispetto alla tecnologia disponibile, la convalida diventa troppo costosa e spinge gli utenti ad affidarsi a terze parti fidate invece di convalidare autonomamente. Al contrario, se la capacità è troppo bassa e i metodi di transazione sono inefficienti, l'accesso alla blockchain per la risoluzione delle controversie diventa proibitivo, spingendo nuovamente gli utenti verso i servizi di fiducia. Questo crea un delicato equilibrio che le soluzioni di scaling devono gestire.
+reviewed: true

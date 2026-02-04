@@ -1,5 +1,6 @@
 ---
-term: PSEUDO-ALÉATOIRE
+term: Pseudo-aléatoire
+definition: Séquence de nombres générée de manière déterministe avec des propriétés proches de l'aléatoire.
 ---
 
 Cet adjectif est employé pour décrire une séquence de nombres qui, bien qu'étant le résultat d'un processus déterministe, affiche des caractéristiques qui se rapprochent de celles idéales d'une séquence véritablement aléatoire. La notion d'aléatoire idéal implique une absence totale de prévisibilité et de corrélation entre les éléments successifs. Un nombre pseudo-aléatoire est généré par un algorithme déterministe et donc, en théorie, il est entièrement prévisible si l'on connaît l'état initial du générateur.

@@ -1,8 +1,8 @@
 question: Quelle est la principale différence entre la façon dont Panic et Result gèrent la récupération des erreurs dans les applications Rust ?
-answer: La panique arrête immédiatement l'exécution et ne peut être récupérée, tandis que le résultat permet aux appelants de gérer les erreurs de manière élégante
+answer: La panique arrête immédiatement l'exécution et ne peut être récupérée, tandis que le résultat permet aux appelants de gérer les erreurs de manière élégante.
 wrong_answers:
-  - Panic fournit des informations détaillées sur les erreurs, tandis que Result indique seulement le succès ou l'échec sans contexte
-  - Les paniques sont sûres pour les threads et peuvent être gérées entre les threads, tandis que les erreurs de résultat sont limitées à un seul thread
-  - Panic enregistre automatiquement les erreurs dans le système, tandis que Result nécessite l'enregistrement manuel des erreurs et l'établissement de rapports
+  - Panic fournit des informations détaillées sur les erreurs, tandis que Result indique seulement le succès ou l'échec sans contexte.
+  - Les paniques sont sûres pour les threads et peuvent être gérées entre les threads, tandis que les erreurs de résultat sont limitées à un seul thread.
+  - Panic enregistre automatiquement les erreurs dans le système, tandis que Result nécessite l'enregistrement manuel des erreurs et l'établissement de rapports.
 explanation: |
   Panic représente les erreurs irrécupérables qui mettent immédiatement fin à l'exécution par déroulement ou abandon, rendant impossible pour le code appelant de gérer l'erreur et de continuer. Result, en tant qu'enum contenant Ok(value) ou Err(error), oblige explicitement les appelants à reconnaître les défaillances potentielles et à choisir comment y répondre, que ce soit en gérant l'erreur, en fournissant des valeurs par défaut ou en la propageant sur la pile d'appels. Cette différence fondamentale fait de Result le choix préféré pour les erreurs récupérables dans le code de production, tandis que panic devrait être réservé aux situations réellement irrécupérables ou aux scénarios de développement.

@@ -1062,6 +1062,10 @@ Abbiamo visto che la gestione della liquidità su Lightning Network, è una sfid
 
 ![LNP201](assets/en/084.webp)
 
+Ora che avete compreso il funzionamento teorico del Lightning Network, potete passare alla pratica e configurare il vostro primo nodo Lightning per acquisire maggiore autonomia nel vostro utilizzo. Per farlo, seguite il corso LNP 202:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
 # Sezione finale
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>

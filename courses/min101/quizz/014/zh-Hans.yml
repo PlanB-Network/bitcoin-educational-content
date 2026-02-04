@@ -1,0 +1,9 @@
+question: 比特币挖矿使用哪种哈希函数？
+answer: SHA256d
+wrong_answers:
+  - SHA1d
+  - RIPEMD160d
+  - SHA512d
+explanation: |
+  比特币挖矿使用两次 SHA256 计算，通常记为 SHA256d。
+reviewed: false

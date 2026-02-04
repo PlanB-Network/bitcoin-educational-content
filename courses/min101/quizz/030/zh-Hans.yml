@@ -1,0 +1,9 @@
+question: 第四次减半（halving）发生在什么区块高度？
+answer: 840,000
+wrong_answers:
+  - 880,000
+  - 860,000
+  - 900,000
+explanation: |
+  第四次减半发生在区块高度 840,000 处，日期为 2024 年 4 月 20 日。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Bir Bitcoin işlem ücreti bir çıktı (output) mıdır?
+answer: Hayır
+wrong_answers:
+  - Evet
+  - Evet, ancak sadece SegWit işlemleri için
+  - Hayır, ancak 2012'den önce durum böyleydi
+explanation: |
+  Ücretler, toplam girdiler (inputs) ile toplam çıktılar (outputs) arasındaki farktır, özel bir çıktı değildir. Bu her zaman böyleydi.
+reviewed: false

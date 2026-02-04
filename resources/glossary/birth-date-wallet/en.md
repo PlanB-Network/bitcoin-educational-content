@@ -1,5 +1,6 @@
 ---
-term: BIRTH DATE (WALLET)
+term: Birth date (wallet)
+definition: Wallet creation date, used to optimize synchronization during restoration.
 ---
 
 Birth Date (Wallet) refers to the date a wallet was created.

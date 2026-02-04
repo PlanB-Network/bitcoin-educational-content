@@ -1,0 +1,9 @@
+question: Pokud byly bloky v posledním období nalezeny příliš rychle, co se stane?
+answer: Cíl klesne
+wrong_answers:
+  - Cíl stoupne
+  - Cíl zůstane stejný
+  - Velikost bloku se zvýší
+explanation: |
+  Příliš rychle nalezené bloky naznačují vyšší hashrate, takže Bitcoin zpřísňuje podmínky snížením cíle.
+reviewed: false

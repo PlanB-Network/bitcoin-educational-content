@@ -1,0 +1,9 @@
+question: Ruzuku ya kitalu inalingana na nini?
+answer: Uundaji wa fedha
+wrong_answers:
+  - Ada za miamala
+  - Amana ya watumiaji
+  - Adhabu ya spam
+explanation: |
+  Ruzuku ni sehemu ya tuzo ambayo huunda bitcoins mpya ex nihilo kulingana na sheria za itifaki.
+reviewed: false

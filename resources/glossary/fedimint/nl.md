@@ -1,5 +1,6 @@
 ---
-term: FEDIMINT
+term: Fedimint
+definition: Protocol voor gedeelde bewaring van bitcoins gebaseerd op federaties van vertrouwde beheerders.
 ---
 
 Betalings- en Bitcoin-beheerprotocol dat is ontworpen om de privacy te verbeteren en de afhankelijkheid van de hoofdketen te verminderen door het poolen van fondsbewaring. Fedimint werd in 2021 gecreëerd door Eric Sirion. Het is gebaseerd op een Chaumiaans banksysteem dat, in plaats van gecentraliseerd rond een enkele vertrouwde actor, vertrouwt op federaties. Deze federaties zijn groepen van vertrouwde bewaarders die collectief de bitcoins van gebruikers in hun groep bewaren en beheren. Binnen de groep kunnen gebruikers betalingen doen met tickets die zijn uitgegeven in Exchange voor hun Bitcoin stortingen. Het idee van Fedimint is om dit concept uit te rollen op het niveau van lokale gemeenschappen. Het is dus een soort evolutie van de depositobank op basis van Bitcoin, met het eCash-systeem van David Chaum en het gebruik van een federatie van vertrouwde personen die verantwoordelijk zijn voor de bewaring en uitgifte van de onderliggende waarde.

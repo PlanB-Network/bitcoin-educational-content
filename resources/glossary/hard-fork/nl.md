@@ -1,5 +1,6 @@
 ---
-term: Hard Fork
+term: Hard fork
+definition: Niet-achterwaarts compatibele wijziging van het protocol die een permanente splitsing van het netwerk veroorzaakt.
 ---
 
 Een wijziging van de protocolregels op een manier die niet achterwaarts compatibel is. Deze verandering leidt tot een permanente scheiding van het Bitcoin netwerk van knooppunten in twee verschillende groepen: knooppunten met de update en knooppunten zonder de update. Deze splitsing wordt gematerialiseerd door de opsplitsing van de oorspronkelijke Blockchain in twee afzonderlijke blockchains, die echter een gemeenschappelijke geschiedenis delen, vandaar het gebruik van de term "Fork," wat in het Frans vertaald kan worden als "embranchement, bifurcation."

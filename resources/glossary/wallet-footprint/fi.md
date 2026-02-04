@@ -1,6 +1,7 @@
 ---
-term: LOMPAKON JALANJÄLKI
+term: Lompakon jalanjälki
 
+definition: Lompakon rahansiirroissa havaittavissa olevat erityispiirteet, joiden avulla sen toimintaa voidaan jäljittää.
 ---
 Joukko erityispiirteitä, jotka ovat havaittavissa saman Bitcoin-lompakon tekemissä transaktioissa. Näihin ominaisuuksiin voi kuulua samankaltaisuuksia skriptityyppien käytössä, osoitteiden uudelleenkäytössä, UTXO:iden järjestyksessä, muutostulosten sijoittelussa, RBF:n (*Replace-by-Fee*) signaloinnissa, versionumerossa, `nSequence`-kentässä ja `nLockTime`-kentässä.
 

@@ -1,0 +1,9 @@
+question: Hvilket trinn følger umiddelbart etter at mobilapplikasjonen har publisert en NWC-forespørsel på et relé?
+answer: Node dekrypterer og verifiserer autorisasjon
+wrong_answers:
+  - Reléet signerer forespørselen for noden
+  - Relé utfører betaling på LND
+  - Noden åpner en kanal automatisk
+explanation: |
+  Noden leser hendelsen, dekrypterer den og kontrollerer deretter at forfatteren er autorisert før handlingen utføres.
+reviewed: false

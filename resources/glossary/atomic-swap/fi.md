@@ -1,6 +1,7 @@
 ---
-term: ATOMIVAIHTOEHTO
+term: Atomic swap
 
+definition: Kryptovaluuttojen vaihto kahden osapuolen välillä ilman luotettavaa välittäjää, jossa vaihto joko onnistuu täysin tai peruuntuu kokonaan.
 ---
 Teknologia, joka mahdollistaa kryptovaluuttojen suoran vaihdon kahden osapuolen välillä ilman luottamusta ja ilman välittäjää. Näitä vaihtoja kutsutaan "atomisiksi", koska ne voivat johtaa vain kahteen lopputulokseen:
 

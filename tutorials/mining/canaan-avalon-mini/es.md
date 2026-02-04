@@ -65,16 +65,17 @@ Una vez conectado a tu red local, tu Mini 3 mostrará información como IP Addre
 
 A continuación se ofrece una tabla resumen de las especificaciones técnicas generales del Mini 3:
 
-| Caractéristica                                       | Valor                                                     |
+
+| Característica                                      | Valor                                                    |
 | ---------------------------------------------------- | --------------------------------------------------------- |
-| Hashrate                                             | 37.5 Th/s +- 5%                                           |
-| Consumo de electricidad                              | 800 W                                                     |
+| Tasa de hash                                             | 37.5 Th/s +- 5%                                           |
+| Consumo de energía                              | 800 W                                                     |
 | Ruido                                                | 35-55 dB                                                  |
-| Temperatura del aire de salida                       | 60-70°C (a temperatura ambiente 25°C)                     |
-| Requisitos de temperatura ambiente para su uso       | -5° C - 40°C                                              |
-| Rango de entrada del dispositivo                     | 110V-240V AC 50/60Hz                                      |
-| Tamaño del dispositivo                               | Largo: 760 mm / Profundo: 104 mm / Alto: 214.5 mm         |
-| Peso del dispositivo                                 |  8.35 kg                                                  |
+| Temperatura del aire de salida                       | 60-70°C (a temperatura ambiente 25°C)                  |
+| Requisitos de temperatura ambiente para el uso | -5° C - 40°C                                              |
+| Rango de voltaje de entrada del dispositivo                         | 110V-240V AC 50/60Hz                                      |
+| Tamaño de la máquina                                 | Largo: 760 mm / Profundidad: 104 mm / Alto: 214.5 mm |
+| Peso de la máquina                                  |  8.35 kg                                                  |
 
 ## Conexión a un Mining pool
 

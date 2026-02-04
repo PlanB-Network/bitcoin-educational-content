@@ -1,5 +1,6 @@
 ---
 term: P2PK
+definition: Bitcoinleri hashleme yapmadan doğrudan bir genel anahtara kilitleyen betik.
 ---
 
 P2PK *Açık Anahtara Ödeme* anlamına gelir. Bir UTXO üzerinde harcama koşulları oluşturmak için Bitcoin üzerinde kullanılan standart bir komut dosyası modelidir. Bitcoinlerin bir Address yerine doğrudan bir açık anahtara kilitlenmesini sağlar.

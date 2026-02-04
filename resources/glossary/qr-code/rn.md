@@ -1,5 +1,6 @@
 ---
-term: KODE ya QR
+term: QR code
+definition: Ibimenyetso vya bar-code bikoreshwa mu kurungika ama aderesi ya Bitcoin n'ayandi makuru mu buryo bworoshe.
 ---
 
 Ubwoko bw’ibarabara ry’ingero zibiri rishobora gucapurwa ningoga n’ibikoresho vy’amaboko. Ico gikoresho ca QR kibika amakuru mu buryo bw’ibipimo vyirabura n’ivyerurutse bishizwe mu buryo bw’akarongo ku mfuruka y’umweru. Ikintu gihambaye kiranga amakode ya QR ni uko ashiramwo amakode yo gukosora amakosa ya BCH, ivyo bikaba bituma amakuru ashobora gusubirwamwo naho iyo kode ya QR yoba yapfutse igice.

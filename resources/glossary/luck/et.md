@@ -1,6 +1,7 @@
 ---
-term: LUCK
+term: Luck
 
+definition: Indikaator, mis mõõdab kaevandamisbasseini (pool) jõudlust võrreldes teoreetiliste ootustega.
 ---
 Näitaja, mida kasutatakse kaevandamisbasseinides, et mõõta basseini tulemuslikkust võrreldes selle teoreetiliste ootustega. Nagu nimigi ütleb, hindab see koondise õnne ploki leidmisel. Õnne arvutatakse, võrreldes kehtiva ploki leidmiseks teoreetiliselt vajalike aktsiate arvu, mis põhineb Bitcoini praegusel raskusastmel, selle ploki leidmiseks toodetud aktsiate tegeliku arvuga. Oodatust väiksem aktsiate arv näitab head õnne, suurem arv aga halba õnne.
 

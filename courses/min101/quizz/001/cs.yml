@@ -1,0 +1,9 @@
+question: Co udělá bitcoinový uzel po ověření s platnou, ale nepotvrzenou transakcí?
+answer: Předá ji svým sousedům (peers)
+wrong_answers:
+  - Přidá ji do své lokální kopie blockchainu
+  - Podepíše ji svým soukromým klíčem
+  - Zašifruje ji svým veřejným klíčem
+explanation: |
+  V síti Bitcoin každý uzel šíří platné transakce uzlům, ke kterým je připojen.
+reviewed: false

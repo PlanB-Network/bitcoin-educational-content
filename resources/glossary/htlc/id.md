@@ -1,5 +1,6 @@
 ---
 term: HTLC
+definition: Kontrak pintar yang mensyaratkan transfer pada pengungkapan rahasia dengan batas waktu tertentu.
 ---
 
 Singkatan dari "*Hashed Timelock Contract*". Hal ini adalah mekanisme kontrak pintar yang terutama digunakan pada Jaringan Lightning, yang kadang-kadang juga ditemukan dalam pertukaran atom (_atomic exchange_). Pada dasarnya, HTLC membuat transfer uang bergantung pada pengungkapan suatu rahasia (_secret_), dan juga menyertakan kondisi waktu untuk melindungi uang pengirim jika terjadi transaksi yang gagal.

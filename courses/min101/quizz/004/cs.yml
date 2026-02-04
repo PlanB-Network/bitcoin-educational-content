@@ -1,0 +1,9 @@
+question: Jaký je podle myšlenky shrnuté Satoshim jediný způsob, jak zajistit absenci dvojího utrácení?
+answer: Znát všechny transakce
+wrong_answers:
+  - Znát všechny aktivní uzly
+  - Znát všechny aktivní těžaře
+  - Znát všechny soukromé klíče
+explanation: |
+  Dvojí utrácení se zjišťuje porovnáním transakce s minulými výdaji zapsanými ve sdílené účetní knize.
+reviewed: false

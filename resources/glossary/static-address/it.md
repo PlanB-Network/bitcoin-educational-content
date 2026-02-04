@@ -1,6 +1,7 @@
 ---
-term: INDIRIZZO STATICO
+term: Indirizzo statico
 
+definition: Identificatore unico per i Silent Payments che consente di ricevere pagamenti senza riutilizzo dell'indirizzo o legami visibili on-chain.
 ---
 Nel contesto dei pagamenti silenziosi, si riferisce a un identificatore unico che consente di ricevere pagamenti senza riutilizzare l'indirizzo, senza interazione e senza un collegamento visibile sulla catena tra i vari pagamenti e l'indirizzo statico. Questa tecnica elimina la necessità di generare nuovi indirizzi di ricezione inutilizzati per ogni transazione, evitando così le consuete interazioni in Bitcoin in cui il destinatario deve fornire un nuovo indirizzo al pagatore. È in qualche modo equivalente al codice di pagamento riutilizzabile nel contesto di BIP47.
 

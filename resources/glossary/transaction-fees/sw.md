@@ -1,5 +1,6 @@
 ---
-term: ADA ZA UAMINIFU
+term: Ada za miamala
+definition: Kiasi kinachowatuza wachimbaji kwa kujumuisha muamala kwenye kitalu, kinachokokotolewa kama tofauti kati ya pembejeo na matokeo.
 ---
 
 Ada za muamala zinawakilisha jumla ambayo inalenga kulipa fidia wachimbaji kwa ushiriki wao katika utaratibu wa Proof of Work. Ada hizi zinawahimiza wachimbaji kujumuisha miamala katika vitalu wanavyounda. Yanatokana na tofauti kati ya jumla ya kiasi cha pembejeo na jumla ya kiasi cha matokeo katika muamala:
@@ -28,4 +29,3 @@ Katika mfano huu maalum, ilikuwa shughuli iliyoanzishwa na mkurugenzi wa F2Pool 
 
 Pia ni lazima kuzingatia mipaka ya kusafisha. Wakati wa msongamano mkubwa, kumbukumbu za nodi husafisha shughuli zao zinazosubiri chini ya kiwango fulani, ili kuheshimu kikomo cha RAM kilichotengwa. Kikomo hiki kinachaguliwa kwa uhuru na mtumiaji, lakini wengi huacha thamani ya msingi ya Bitcoin Core kwa 300 MB. Inaweza kurekebishwa katika faili ya `Bitcoin.conf` kwa kigezo cha `maxmempool`.
 
-> ► *Kwa Kiingereza, tunairejelea kama "ada za muamala".*

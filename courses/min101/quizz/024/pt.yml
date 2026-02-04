@@ -1,0 +1,9 @@
+question: Que fenómeno torna o atraso entre dois blocos fundamentalmente variável?
+answer: O caráter probabilístico do hashing
+wrong_answers:
+  - O caráter determinístico do hashing
+  - O caráter recursivo do hashing
+  - O caráter periódico do hashing
+explanation: |
+  Cada hash é uma tentativa independente, o que torna os tempos de descoberta aleatórios mesmo com um hashrate constante.
+reviewed: false

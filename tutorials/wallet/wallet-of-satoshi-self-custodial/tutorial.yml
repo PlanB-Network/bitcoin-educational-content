@@ -1,0 +1,33 @@
+id: 66e3193b-a821-4713-a380-8d8d607d7f2c
+
+last_update_date: 2026-02-02
+
+category: mobile
+
+project_id: 6ca330b1-d19c-470e-93a7-98bce38ff0f5
+
+tags:
+  - privacy
+  - lightning
+  - backup
+
+level: beginner
+
+professor_id: 56a6dc42-af0b-45f1-a720-b5e8a7de1e81
+
+license: CC-BY-SA-V4
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2026-02-02
+    urgency: 1
+    contributor_names:
+      - marshal-opsource
+      - LoicPandul
+    reward: 0
+  
+    
+ 

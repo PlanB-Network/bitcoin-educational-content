@@ -1,6 +1,7 @@
 ---
-term: MODELLO TEMPORALE
+term: Modello temporale
 
+definition: Analisi degli orari di trasmissione delle transazioni per dedurre la natura o l'ubicazione di un'entità on-chain.
 ---
 Alcuni comportamenti umani sono riconoscibili sulla catena. Forse il più utile per l'analisi della catena è il vostro modello di sonno! Sì, quando dormite, presumibilmente non state trasmettendo transazioni Bitcoin. In genere, si dorme intorno alle stesse ore. Pertanto, le analisi temporali sono comunemente utilizzate nell'analisi della catena. Si tratta semplicemente di registrare gli orari in cui le transazioni di una determinata entità vengono trasmesse alla rete Bitcoin. L'analisi di questi schemi temporali ci permette di dedurre numerose informazioni.
 

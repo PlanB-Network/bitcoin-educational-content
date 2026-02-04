@@ -1,4 +1,4 @@
-question: Miksi analyytikko ei sovella COINJOINia Stonewall-tyyppiseen transaktioon?
+question: Miksi analyytikko ei sovella CIOH:ta Stonewall-tyyppiseen transaktioon?
 
 answer: Koska siinä on 2 samansuuruista lähtöä
 
@@ -8,6 +8,7 @@ wrong_answers:
   - Koska lähtöjä on enemmän kuin sisääntuloja
 
 explanation: |
-  Stonewall-transaktion analysointi ulkopuolelta ei johda COINJOINin soveltamiseen, koska kahden samansuuruisen lähdön esiintyminen viittaa coinjoin-malliin. Ulkoisesta näkökulmasta katsottuna COINJOIN ei siis ole sovellettavissa tässä erityistapauksessa.
+
+  Stonewall-transaktion analysointi ulkopuolelta ei johda CIOH:n soveltamiseen, koska kahden saman suuruisen outputin olemassaolo viittaa coinjoin-malliin. Ulkoisesta näkökulmasta CIOH ei siis ole sovellettavissa tässä erityistapauksessa.
 
 reviewed: false

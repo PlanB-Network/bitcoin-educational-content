@@ -1,4 +1,4 @@
-question: 为什么在BIP47中使用XOR运算符？
+question: 为什么在 BIP47 中使用 XOR 运算？
 
 answer: 用于对发送者支付代码的有效载荷进行对称加密。
 
@@ -8,6 +8,6 @@ wrong_answers:
   - 用于对发送者支付代码的元数据进行非对称加密。
 
 explanation: |
-  XOR运算符在BIP47中被用于对发送者支付代码的有效载荷进行对称加密。
+  XOR 运算符在 BIP47 中被用于对发送者支付代码的有效载荷进行对称加密。
 
 reviewed: false

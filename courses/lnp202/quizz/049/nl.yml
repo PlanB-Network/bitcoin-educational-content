@@ -1,0 +1,9 @@
+question: Op welke van deze platforms kun je inkomende liquiditeit kopen?
+answer: Magma
+wrong_answers:
+  - Bitcoin Kern
+  - 1ML
+  - Boltz
+explanation: |
+  Magma maakt het gemakkelijk om inkomende liquiditeit te kopen via een geautomatiseerde marktplaats.
+reviewed: false

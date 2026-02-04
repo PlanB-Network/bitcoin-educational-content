@@ -1,5 +1,6 @@
 ---
-term: DERIVATION
+term: Utoaji
+definition: Mchakato wa kuzalisha funguo za watoto kutoka kwa jozi ya funguo za mzazi katika pochi ya HD.
 ---
 
 Inarejelea mchakato wa kuzalisha jozi za vitufe vya mtoto kutoka kwa jozi ya ufunguo wa mzazi (ufunguo wa faragha na ufunguo wa umma) na msimbo wa mnyororo ndani ya uaguzi na daraja (HD) Wallet. Utaratibu huu unaruhusu mgawanyiko wa matawi na upangaji wa Wallet katika viwango tofauti na jozi nyingi muhimu za watoto, ambazo zinaweza kurejeshwa kwa kujua tu habari ya msingi ya uokoaji (maneno ya Mnemonic na passphrase yoyote inayowezekana). Ili kupata ufunguo wa mtoto, chaguo za kukokotoa za `HMAC-SHA512` hutumiwa pamoja na msimbo wa mnyororo wa mzazi na muunganisho wa ufunguo wa mzazi na faharasa ya biti 32. Kuna aina mbili za derivations:

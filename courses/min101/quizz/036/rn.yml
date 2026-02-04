@@ -1,0 +1,9 @@
+question: Inyuma y'ivyemezo (confirmations) bingahe niho amafaranga yanditswe muri coinbase ashobora gukoreshwa?
+answer: Ivyemezo 101
+wrong_answers:
+  - Ivyemezo 6
+  - Ivyemezo 201
+  - Ivyemezo 210
+explanation: |
+  Igihe co gutegereza (maturity period) ni amabuye 100, rero bikeneye ivyemezo 101 kugira ayo mafaranga (UTXOs) ashobore gukoreshwa.
+reviewed: false

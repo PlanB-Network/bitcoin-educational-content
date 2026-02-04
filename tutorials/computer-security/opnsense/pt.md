@@ -147,11 +147,12 @@ Também pode adquirir **um aparelho OPNsense montável em bastidor** através da
 
 
 
-| Caractéristiques | Minimum | Recommandation |
+
+| Características | Mínimo | Recomendação |
 | --- | --- | --- |
-| Processeur | 1 GHz - 2 cœurs | 1.5 GHz - Multi-coeurs |
-| Mémoire vive (RAM) | 2 Go | 8 Go |
-| Espace de stockage pour le système | Disque dur, disque SSD ou carte SD (4 Go) | 120 Go en SSD |
+| Processador | 1 GHz - 2 núcleos | 1.5 GHz - Multi-núcleo |
+| RAM | 2 GB | 8 GB |
+| Espaço de armazenamento para o sistema | Disco rígido, SSD ou cartão SD (4 GB) | 120 GB em SSD |
 
 Por fim, **as suas necessidades de recursos dependem sobretudo do número de ligações a gerir** e, por conseguinte, das **suas necessidades de largura de banda**. Além disso, é necessário **ter em conta os serviços que serão activados e utilizados** (proxy, deteção de intrusões, etc...), uma vez que podem exigir muito da CPU e/ou da RAM.
 

@@ -183,7 +183,7 @@ Kuvitellaan nyt, että Alicella ei ole yhtä UTXO:ta, jonka arvo on 10 000 SATS,
 Intuitiivisesti voisi ajatella, että transaktiokustannukset edustavat myös transaktion tuotosta. Todellisuudessa näin ei kuitenkaan ole. Transaktiokustannukset edustavat kokonaispanosten ja kokonaistuotosten välistä erotusta. Tämä tarkoittaa sitä, että kun osa panosten arvosta on käytetty haluttujen tuotosten kattamiseen transaktiossa, tietty osa panoksista jää käyttämättä. Tämä jäljelle jäävä summa muodostaa transaktiokustannukset.
 
 ```plaintext
-Frais = total inputs - total outputs
+Siirtomaksut = total inputs - total outputs
 ```
 
 Otetaan esimerkiksi Alice, jonka UTXO on 10 000 SATS ja joka haluaa ostaa patongin 4 000 SATS:n hintaan. Liisa luo tapahtuman, jonka syötteenä on hänen UTXO:nsa, joka on `10,000 SATS`. Sen jälkeen hän luo 4 000 SATS:n suuruisen tuotoksen leipurille, joka maksaa patongin. Kannustaakseen kaivostyöläisiä sisällyttämään hänen transaktionsa lohkoon Alice jakaa 200 SATS` palkkiota. Sitten hän luo toisen tuotoksen, vaihdon, joka palautetaan hänelle ja jonka arvo on 5 800 SATS`.
@@ -193,10 +193,10 @@ Otetaan esimerkiksi Alice, jonka UTXO on 10 000 SATS ja joka haluaa ostaa patong
 Soveltamalla maksukaavaa näemme, että alaikäisille on todellakin jäljellä 200 SATSia:
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+Siirtomaksut = total inputs - total outputs
+Siirtomaksut = 10 000 - (4 000 + 5 800)
+Siirtomaksut = 10 000 - 9 800
+Siirtomaksut = 200
 ```
 
 Kun louhija onnistuu validoimaan lohkon, hänellä on oikeus periä nämä maksut kaikista lohkoonsa sisältyvistä transaktioista niin sanotun "coinbase"-tapahtuman kautta.
@@ -1550,7 +1550,7 @@ Tässä esimerkissä, vaikka transaktio B tarjoaa korkeamman kokonaispalkkion, l
 
 ```text
 TXA : 1994 / 141 = 14 sats/vB
-TXB : 2640 / 220 = 12 sats / vB
+TXB : 2640 / 220 = 12 sats/vB
 ```
 
 Tämä tarkoittaa sitä, että kutakin painoyksikköä kohden liiketoimi A tarjoaa enemmän kustannuksia kuin liiketoimi B, vaikka liiketoimi B tarjoaa absoluuttisesti enemmän kustannuksia.
@@ -1745,7 +1745,7 @@ Coinjoin tarjoaa kuitenkin myös mahdollisuuden vahvistaa luottamuksellisuutta m
 
 ![BTC204](assets/fi/118.webp)
 
-Ensimmäisessä esimerkissä näimme, miten coinjoin voi suojata huoneen yksityisyyttä suhteessa sen menneisyyteen, ja toisessa esimerkissä, miten se voi myös turvata huoneen historian suhteessa sen tulevaisuuteen. Siksi mainitsin, että coinjoin olisi nähtävä kertaluonteisena tapahtumana, joka segmentoi osan historiaa molempiin suuntiin:
+Ensimmäisessä esimerkissä näimme, kuinka coinjoin voi suojata kolikon yksityisyyttä sen menneisyyteen nähden, ja toisessa esimerkissä, kuinka se voi myös turvata kolikon historian sen tulevaisuuteen nähden. Tämän vuoksi mainitsin, että coinjoin tulisi mieltää kertaluonteiseksi tapahtumaksi, joka segmento i kolikon historian molempiin suuntiin:
 
 ![BTC204](assets/fi/119.webp)
 
@@ -1939,7 +1939,7 @@ Myös vaihdonhallintamenetelmät erottavat nämä kaksi toteutusta toisistaan. W
 
 ![BTC204](assets/fi/139.webp)
 
-Wabisabin myötä Wasabin versio 2.0 on mukauttanut lähestymistapaansa coinjoineihin vastaamaan Whirlpoolin lähestymistapaa. Vaikka coinjoin-transaktiot ovat edelleen hyvin suuria, on nyt mahdollista ketjuttaa useita peräkkäisiä syklejä Whirlpoolin mallin mukaisesti. Erityistä huomiota on kiinnitetty myös valuuttakurssin hallintaan: toisin kuin Wasabi 1.0:ssa, jossa valuuttakurssi oli suoraan sidoksissa käyttäjän syötteisiin, Wabisabissa valuuttakurssi pyritään jakamaan useisiin pieniin summiin, jotka jaetaan kaikille osallistujille samansuuruisiksi nimellisarvoisiksi.
+Wabisabin myötä versio 2.0 on mukauttanut coinjoin-lähestymistapaansa lähemmäs Whirlpoolin mallia. Vaikka coinjoin-transaktiot ovat yhä hyvin suuria, on nyt mahdollista ketjuttaa useita peräkkäisiä kierroksia Whirlpoolin mallin mukaisesti. Erityistä huomiota on kiinnitetty myös vaihtorahan hallintaan: toisin kuin Wasabi 1.0:ssa, jossa vaihtoraha oli suoraan sidoksissa käyttäjien syötteisiin, Wabisabi pyrkii jakamaan vaihtorahan useisiin pienempiin summiin, jotka jaetaan kaikille osallistujille tasamääräisinä nimellisarvoina.
 
 Havainnollistetaan tätä yksinkertaistetulla esimerkillä, jossa on vain kaksi käyttäjää: Alice haluaa sekoittaa 115 000 satsia ja Bob 210 000 satsia. Jos ei oteta huomioon maksuja, Wasabi 1.0:lla coinjoin-transaktio olisi tuottanut kolme 100 000 satsin lähtöä sekä yhden 15 000 satsin vaihdon Alicelle ja yhden 10 000 satsin vaihdon Bobille. Vaihdon tuotokset olisivat edelleen sidoksissa panoksiin:
 
@@ -2117,7 +2117,7 @@ Tarkastellaan Whirlpoolin yhteisliittymän eri vaiheita näillä tileillä.
 
 Kaikkien Whirlpool-kolikkoliittymien lähtökohtana on **talletustili**. Tätä tiliä käytät automaattisesti, kun luot uuden Bitcoin-lompakon. Tälle tilille on hyvitettävä bitcoinit, jotka haluat yhdistää.
 
-Tx0" on Whirlpoolin sekoitusprosessin ensimmäinen vaihe. Sen tarkoituksena on valmistella ja tasata UTXO:t yhteissekoitusta varten jakamalla ne valitun altaan määrää vastaaviin yksiköihin homogeenisen sekoituksen varmistamiseksi. Näin tasoitetut UTXO:t lähetetään sitten **premix**-tilille. Erotus, joka ei voi mennä pooliin, erotetaan erityiselle tilille: **paha pankki** (tai "doksinen muutos").
+`Tx0` on Whirlpoolin sekoitusprosessin ensimmäinen vaihe. Sen tarkoituksena on valmistella ja tasata UTXO:t yhteissekoitusta varten jakamalla ne valitun altaan määrää vastaaviin yksiköihin homogeenisen sekoituksen varmistamiseksi. Näin tasoitetut UTXO:t lähetetään sitten **premix**-tilille. Erotus, joka ei voi mennä pooliin, erotetaan erityiselle tilille: **paha pankki** (tai "doksinen muutos").
 
 Tätä alkuperäistä "Tx0"-tapahtumaa käytetään myös kolikkoyhdistyskoordinaattorille maksettavan palvelumaksun maksamiseen. Toisin kuin seuraavat vaiheet, tämä transaktio ei ole yhteistoiminnallinen, joten käyttäjän on vastattava kaikista louhinnan kustannuksista:
 
@@ -2155,7 +2155,7 @@ Näiden ensimmäisten sekoitusten päätyttyä **premix**-tili on tyhjä, kun ta
 
 ### Remixit
 
-Ensimmäisen sekoituksen jälkeen UTXO:t siirretään **postmix**-tilille. Tälle tilille kerätään jo miksatut UTXO:t ja ne UTXO:t, jotka odottavat remixausta. Kun Whirlpool-asiakas on aktiivinen, **postmix**-tilillä olevat UTXO:t ovat automaattisesti käytettävissä uudelleensekoituksia varten, ja ne valitaan satunnaisesti osallistumaan näihin uusiin sykleihin.
+Alkuperäisen miksauksen jälkeen UTXO:t siirretään **postmix**-tilille. Tämä tili kokoaa jo miksatut UTXO:t sekä ne, jotka odottavat uudelleenmiksausta. Kun Whirlpool-asiakas on aktiivinen, **postmix**-tilillä olevat UTXO:t ovat automaattisesti käytettävissä uudelleenmiksausta varten ja ne valitaan satunnaisesti osallistumaan näihin uusiin kierroksiin.
 
 Muistutuksena mainittakoon, että remixit ovat 100-prosenttisesti ilmaisia: mitään ylimääräisiä palvelumaksuja tai louhintamaksuja ei vaadita. UTXO:iden pitäminen **postmix**-tilillä pitää siis niiden arvon ennallaan ja parantaa samalla niiden anonsettiä. Siksi on tärkeää, että nämä kolikot voivat osallistua useisiin coinjoin-sykleihin. Se ei maksa sinulle yhtään mitään, ja lisää niiden anonymiteettitasoja.
 
@@ -2310,7 +2310,7 @@ Esimerkiksi yksinkertaisella maksutapahtumalla, jossa on yksi panos ja kaksi tul
 
 ![BTC204](assets/fi/165.webp)
 
-Toisaalta Whirlpoolin 5x5-kulmassa on 1\,496 $ mahdollisia yhdistelmiä:
+Sitä vastoin Whirlpool 5x5 -mallin mukaisesti rakenteistettu coinjoin tarjoaa $1\,496$ mahdollista yhdistelmää:
 
 ![BTC204](assets/fi/166.webp)
 
@@ -2488,7 +2488,7 @@ Boltzmann-pistemäärä lasketaan jakamalla niiden tulkintojen lukumäärä, joi
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}
@@ -2873,7 +2873,7 @@ Tämä naiivi menetelmä on kuitenkin suuri riski luottamuksen kannalta. Mikää
 
 ![BTC204](assets/fi/201.webp)
 
-Lisäksi ei ole mitään takeita siitä, ettei Alice saa Bobin yksityistä avainta $B$ eikä koskaan anna vastineeksi omaa yksityistä avainta $A$. Tämä vaihto perustuu siis osapuolten väliseen liialliseen luottamukseen, eikä se ole tehokas keino varmistaa turvallista salaista omistusoikeuden siirtoa.
+Lisäksi ei ole mitään takeita siitä, että Alice, saatuaan Bobin yksityisen avaimen $B$, lähettäisi vastineeksi oman yksityisen avaimensa $A$. Tämä vaihto perustuu siten osapuolten väliseen valtavaan luottamukseen ja osoittautuu tehottomaksi varmistamaan omistusoikeuden salainen ja turvallinen siirto.
 
 ![BTC204](assets/fi/202.webp)
 

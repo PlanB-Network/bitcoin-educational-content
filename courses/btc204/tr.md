@@ -264,7 +264,7 @@ Sezgisel olarak, işlem maliyetlerinin de bir işlemin çıktısını temsil ett
 
 
 ```plaintext
-Frais = total inputs - total outputs
+İşlem ücretleri = total inputs - total outputs
 ```
 
 
@@ -278,10 +278,10 @@ UTXO`i `10,000 Sats` olan ve `4,000 Sats`dan ekmek almak isteyen Alice örneğin
 
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+İşlem ücretleri = total inputs - total outputs
+İşlem ücretleri = 10 000 - (4 000 + 5 800)
+İşlem ücretleri = 10 000 - 9 800
+İşlem ücretleri = 200
 ```
 
 
@@ -2207,7 +2207,7 @@ Bu örnekte, B işlemi daha yüksek bir toplam ücret sunsa da, madenciler ücre
 
 ```text
 TXA: 1994 / 141 = 14 sats/vB
-TXB: 2640 / 220 = 12 sats / vB
+TXB: 2640 / 220 = 12 sats/vB
 ```
 
 
@@ -2495,7 +2495,7 @@ Bununla birlikte, CoinJoin, ileri anonset olarak bilinen geçmişten günümüze
 ![BTC204](assets/tr/118.webp)
 
 
-İlk örnekte CoinJoin'in bir odanın mahremiyetini geçmişiyle bağlantılı olarak nasıl koruyabileceğini, ikinci örnekte ise bir odanın geçmişini geleceğiyle bağlantılı olarak nasıl güvence altına alabileceğini gördük. Bu nedenle CoinJoin'in her iki yönde de bir UTXO geçmişini bölümlere ayıran tek seferlik bir olay olarak görülmesi gerektiğini belirttim:
+İlk örnekte, coinjoin'in bir coinin geçmişine göre gizliliğini nasıl koruyabildiğini ve ikinci örnekte, bir coinin geleceğine göre geçmişini nasıl güvence altına alabildiğini gördük. Bu nedenle coinjoin'in, bir coinin geçmişini her iki yönde de segmentlere ayıran tek seferlik bir olay olarak algılanması gerektiğini belirttim:
 
 
 ![BTC204](assets/tr/119.webp)
@@ -2783,7 +2783,7 @@ Exchange yönetim yöntemleri de iki uygulamayı birbirinden ayırıyordu. Whirl
 ![BTC204](assets/tr/139.webp)
 
 
-Wabisabi ile Wasabi sürüm 2.0, coinjoins yaklaşımını Whirlpool'ünkine uyacak şekilde uyarlamıştır. CoinJoin işlemleri çok büyük kalmaya devam etse de, artık Whirlpool modelini izleyerek birbirini takip eden birkaç döngüyü zincirlemek mümkündür. Exchange oran yönetimine de özellikle dikkat edilmiştir: değişimin doğrudan kullanıcı girdilerine bağlı olduğu Wasabi 1.0'dan farklı olarak, Wabisabi değişimi tüm katılımcılar için eşit değerlere bölünmüş birkaç küçük toplama bölmeyi amaçlamaktadır.
+Wabisabi ile birlikte 2.0 sürümü, coinjoin yaklaşımını Whirlpool modeline daha da yaklaştıracak şekilde uyarlamıştır. Coinjoin işlemleri hâlâ çok büyük boyutlarda olsa da, artık Whirlpool modelini takip ederek birden fazla ardışık döngüyü zincirlemek mümkündür. Ayrıca para üstü yönetimine de özel bir önem verilmiştir: Wasabi 1.0’da para üstü doğrudan kullanıcı girdilerine bağlıyken, Wabisabi para üstünü birkaç küçük meblağa bölerek tüm katılımcılar arasında eşit birimlerde dağıtmayı amaçlamaktadır.
 
 
 Bunu sadece 2 kullanıcıyı içeren basitleştirilmiş bir örnekle açıklayalım: Alice 115.000 Sats ve Bob, 210.000 Sats'i karıştırmak istiyor. Ücretler göz ardı edildiğinde, Wasabi 1.0 ile bir CoinJoin işlemi 100.000 Sats'lik 3 çıktı, artı Alice için 15.000 Sats'lik 1 değişiklik ve Bob için 10.000 Sats'lik 1 değişiklik üretecektir. Değişiklik çıktıları hala girdilerle bağlantılı olacaktır:
@@ -3033,7 +3033,7 @@ Tüm bu hesaplar tek bir seed'ye bağlanarak kullanıcının kurtarma cümlesini
 Herhangi bir Whirlpool CoinJoin'nın başlangıç noktası **deposit** hesabıdır. Bu, yeni bir Bitcoin Wallet oluşturduğunuzda otomatik olarak kullandığınız hesaptır. Bu hesaba karıştırmak istediğiniz bitcoinlerin yatırılması gerekecektir.
 
 
-Tx0" Whirlpool'un karıştırma işlemindeki ilk adımdır. Amacı, CoinJoin için UTXO'ları hazırlamak ve eşitlemek, homojen karışımı sağlamak için seçilen havuzun miktarına karşılık gelen birimlere bölmektir. Bu şekilde eşitlenen UTXO'lar daha sonra **premix** hesabına gönderilir. Havuza giremeyen farka gelince, belirli bir hesaba ayrılır: **kötü banka** (veya "doxxic change").
+`Tx0` Whirlpool'un karıştırma işlemindeki ilk adımdır. Amacı, CoinJoin için UTXO'ları hazırlamak ve eşitlemek, homojen karışımı sağlamak için seçilen havuzun miktarına karşılık gelen birimlere bölmektir. Bu şekilde eşitlenen UTXO'lar daha sonra **premix** hesabına gönderilir. Havuza giremeyen farka gelince, belirli bir hesaba ayrılır: **kötü banka** (veya "doxxic change").
 
 
 Bu ilk `Tx0' işlemi aynı zamanda CoinJoin koordinatörüne ödenmesi gereken hizmet ücretini ödemek için de kullanılır. Aşağıdaki adımlardan farklı olarak, bu işlem işbirliğine dayalı değildir, bu nedenle kullanıcı Mining'nin tüm maliyetini üstlenmelidir:
@@ -3089,7 +3089,7 @@ Bu ilk karışımların sonunda, **premix** hesabı boş olacak ve bu ilk CoinJo
 ### Remixler
 
 
-İlk miksten sonra UTXO'lar **postmix** hesabına aktarılır. Bu hesap, halihazırda karıştırılmış olan ve yeniden karıştırılmayı bekleyen UTXO'ları toplar. Whirlpool müşterisi aktif olduğunda, **postmix** hesabında bulunan UTXO'lar otomatik olarak remiksler için kullanılabilir hale gelir ve bu yeni döngülere katılmak üzere rastgele seçilir.
+İlk miks işlemi gerçekleştirildikten sonra UTXO’lar **postmix** hesabına aktarılır. Bu hesap, halihazırda mikslenmiş UTXO’ları ve yeniden mikslenmeyi bekleyenleri bir araya getirir. Whirlpool istemcisi aktif olduğunda, **postmix** hesabında bulunan UTXO’lar otomatik olarak yeniden miksleme için kullanılabilir hâle gelir ve bu yeni döngülere katılmak üzere rastgele seçilir.
 
 
 Bir hatırlatma olarak, remiksler %100 ücretsizdir: ek hizmet ücreti veya Mining ücreti gerekmez. UTXO'ları **postmix** hesabında tutmak, bu nedenle değerlerini korur ve aynı zamanda anonsetlerini geliştirir. Bu nedenle, bu coinlerin birkaç CoinJoin döngüsüne katılmasına izin vermek önemlidir. Bunun size hiçbir maliyeti yoktur ve anonimlik seviyelerini artırır.
@@ -3311,7 +3311,7 @@ Bir Bitcoin işleminde gözlemlenebilecek ilk gösterge, dışarıdan bir gözle
 ![BTC204](assets/tr/165.webp)
 
 
-Öte yandan, Whirlpool 5x5 köşesinde 1\,496$ olası kombinasyon vardır:
+Buna karşılık, Whirlpool 5x5 modeline göre yapılandırılmış bir coinjoin $1\,496$ olası kombinasyon sunar:
 
 
 ![BTC204](assets/tr/166.webp)
@@ -3536,7 +3536,7 @@ Boltzmann puanı, belirli bir olayın gerçekleştiği yorumların sayısının 
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}
@@ -3561,9 +3561,9 @@ Bir Whirlpool 8x8 Dalgalanma Döngüsü CoinJoin örneğini ele alırsak, Boltzm
 Ancak, tek bir girdi ve 2 çıktıya sahip basit bir işlem söz konusu olduğunda durum farklıdır:
 
 
-| Output 0 | Output 1 |
-|----------|----------|
-| Input 0  | 100%     | 100%    |
+| %       | Output 0 | Output 1 |
+|---------|----------|----------|
+| Input 0 | 100%     | 100%     |
 
 
 Burada, her bir çıktının #0 numaralı girdiden kaynaklanma olasılığının %100 olduğunu görüyoruz. Dolayısıyla daha düşük bir olasılık, girdiler ve çıktılar arasındaki doğrudan bağlantıları seyrelterek daha fazla gizliliği yansıtır.
@@ -3853,7 +3853,7 @@ Bu örnekte, anlaşılmasını kolaylaştırmak için kasıtlı olarak ücretler
 Stonewall yapısı gibi, Stonewall x2 yapısı da işleme büyük miktarda entropi ekler ve zincir analizini karıştırır. Dışarıdan bakıldığında, böyle bir işlem iki kişi arasında küçük bir CoinJoin olarak yorumlanabilir. Ancak gerçekte bu bir ödemedir. Dolayısıyla bu yöntem zincir analizinde belirsizlikler yaratır, hatta yanlış ipuçlarına yol açar.
 
 
-Alice, Bob the Baker ve Charles örneklerini ele alalım. Blockchain'deki işlem şöyle görünecektir:
+Alice, Bob the baker ve Charles örneklerini ele alalım. Blockchain'deki işlem şöyle görünecektir:
 
 
 ![BTC204](assets/tr/184.webp)
@@ -4075,7 +4075,7 @@ Ancak bu naif yöntem güven açısından yüksek bir risk teşkil etmektedir. A
 ![BTC204](assets/tr/201.webp)
 
 
-Ayrıca, Alice'nin Bob'in özel anahtarı $B$'yi almayacağının ve Exchange'da kendi özel anahtarı $A$'yı asla aktarmayacağının garantisi yoktur. Bu nedenle bu Exchange taraflar arasında aşırı güvene dayanır ve Ownership'in güvenli bir gizli transferini sağlamada etkisizdir.
+Ayrıca, Alice'in Bob'un özel anahtarı $B$'yi aldıktan sonra karşılığında kendi özel anahtarı $A$'yı ileteceğinin hiçbir garantisi yoktur. Dolayısıyla bu değişim, taraflar arasındaki büyük bir güvene dayanmaktadır ve mülkiyetin gizli transferini güvenli bir şekilde sağlamada yetersiz kalmaktadır.
 
 
 ![BTC204](assets/tr/202.webp)

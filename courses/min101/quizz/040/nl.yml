@@ -1,0 +1,9 @@
+question: Welk element is het belangrijkst voor de concurrentiekracht van industriële mining?
+answer: Elektriciteitskosten
+wrong_answers:
+  - Hoogte van de loonkosten
+  - Ergonomische kwaliteit van de infrastructuur
+  - Kosten van softwarelicenties
+explanation: |
+  Op grote schaal hangt de winstgevendheid van mining af van de kosten per rekeneenheid, die vooral worden bepaald door de elektriciteitskosten.
+reviewed: false

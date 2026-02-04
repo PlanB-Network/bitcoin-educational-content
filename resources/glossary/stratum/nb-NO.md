@@ -1,6 +1,7 @@
 ---
-term: STRATUM
+term: Stratum
 
+definition: Nettverksprotokoll som optimaliserer kommunikasjonen mellom individuelle utvinnere og serverne til utvinningspooler.
 ---
 En nettverksprotokoll som er lagt på toppen av Bitcoin, og som er spesielt utviklet for å optimalisere kommunikasjonen mellom individuelle utvinnere og utvinningspoolens servere for å øke lønnsomheten. Stratum ble kunngjort i slutten av 2011 av Marek Palatinus, bedre kjent under pseudonymet "Slush" og grunnleggeren av det aller første utvinningspoolen, Slush Pool, som nå har skiftet navn til Braiins. Stratum kom for å erstatte den eldre Getwork-protokollen, som hadde blitt foreldet.
 

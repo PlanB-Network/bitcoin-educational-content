@@ -1,5 +1,6 @@
 ---
 term: BIP0032
+definition: Ishirwaho ry'amawallet ya HD (hierarchical deterministic) yemera kurema imfunguzo zose z'iwallet bivuye kuri seed imwe gusa.
 ---
 
 BIP32 yashizeho iciyumviro c’uburongozi bw’ubukuru Wallet (HD Wallet). Ico ciyumviro kiremesha uguhingura urutonde rw'ibice bibiri vy'ingenzi bivuye ku `master seed` rusangi, hakoreshejwe ibikorwa vy'ugukuraho inzira imwe. Buri rufunguzo rwavutse rushobora ubwarwo kuba umuvyeyi w'izindi mfunguruzo z'abana, zigahingura umubumbe umeze nk'igiti (w'ubukuru).

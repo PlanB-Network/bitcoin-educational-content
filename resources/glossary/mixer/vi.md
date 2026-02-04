@@ -1,5 +1,6 @@
 ---
-term: MÁY TRỘN
+term: Mixer
+definition: Dịch vụ tập trung trộn bitcoin của nhiều người dùng để phá vỡ lịch sử của chúng.
 ---
 
 Dịch vụ tập trung để phá vỡ lịch sử tiền Bitcoin bằng cách trộn tiền từ nhiều người dùng. Không giống như CoinJoin, nơi người dùng giữ quyền kiểm soát tiền của họ trong suốt quá trình trộn, máy trộn tạm thời chiếm hữu bitcoin của người dùng, trộn chúng với bitcoin của những người dùng khác, sau đó gửi tiền trở lại địa chỉ mới.

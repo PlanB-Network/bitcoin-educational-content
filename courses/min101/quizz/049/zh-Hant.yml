@@ -1,0 +1,9 @@
+question: 礦池主要尋求解決什麼實際問題？
+answer: 收入的波動性（方差）
+wrong_answers:
+  - 網路難度
+  - 區塊大小
+  - ASIC 價格
+explanation: |
+  透過集合算力，礦池將極不規律的收入轉變為更規律的支付。這為礦工降低了收入的波動性。
+reviewed: false

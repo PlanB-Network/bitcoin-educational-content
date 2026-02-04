@@ -1,8 +1,8 @@
 ---
-term: TURUNCU HAPLAR
+term: Turuncu hap
+definition: Bitcoin'i anlamaya uyanmayı simgeleyen Matrix'ten ilham alan bir kavram.
 ---
 
 Matrix* filminden esinlenen bu hayali hap Bitcoin'ın bilincini uyandırır.
 
 
-> ► *Ayrıca fiil olarak da kullanılır. Orange-pillage someone = Birini Bitcoin.*'e kaydetmek

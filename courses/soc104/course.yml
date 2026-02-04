@@ -23,143 +23,143 @@ proofreading:
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 6.88
+    reward: 7.63
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 18.3
+    reward: 22.86
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 18.3
+    reward: 22.86
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.75
+    reward: 15.27
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.75
+    reward: 15.27
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.75
+    reward: 15.27
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 18.3
+    reward: 22.86
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 18.3
+    reward: 22.86
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 18.3
+    reward: 22.86
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 22.85
+    reward: 38.02
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 22.85
+    reward: 30.44
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.75
+    reward: 15.27
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 22.85
+    reward: 38.02
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 22.85
+    reward: 30.44
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 18.3
+    reward: 22.86
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 18.3
+    reward: 22.86
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 18.3
+    reward: 22.86
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.75
+    reward: 15.27
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 22.85
+    reward: 38.02
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 18.3
+    reward: 22.86
   - language: sr-Latn
     last_contribution_date: 2025-12-29
     urgency: 1
     contributor_names:
       - Sanja22B
-    reward: 9.15
+    reward: 15.22
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.75
+    reward: 15.27
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 18.3
+    reward: 22.86
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 22.85
+    reward: 30.44
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 22.85
+    reward: 38.02
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 22.85
+    reward: 30.44
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 22.85
+    reward: 30.44
   - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 22.85
+    reward: 30.44
 tags:
   - self-sovereignty
   - deep-dive

@@ -1,5 +1,6 @@
 ---
-term: BETRI
+term: Pile
+definition: Muundo wa data wa LIFO unaotumika katika Hati ya Bitcoin kuhifadhi na kudhibiti vipengele vya muda wakati wa utekelezaji.
 ---
 
 Katika muktadha wa lugha ya uandishi inayotumika kubandika masharti ya matumizi kwa Bitcoin UTXOs, rafu hiyo ni muundo wa data wa LIFO (*Last In, First Out*) unaotumiwa kuhifadhi Elements ya muda wakati wa utekelezaji wa hati. Kila utendakazi kwenye hati hubadilisha rafu hizi, ambapo Elements inaweza kuongezwa (*sukuma*) au kuondolewa (*pop*). Hati hutumia mrundikano kutathmini vielezi, kuhifadhi vibadilisho vya muda na kudhibiti hali.

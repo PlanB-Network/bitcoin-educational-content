@@ -1,0 +1,9 @@
+question: Which statistical principle explains why the frequency of blocks found converges to the share of hashrate in the long term?
+answer: Law of large numbers
+wrong_answers:
+  - Bayes' theorem
+  - Birthday paradox
+  - Principle of least action
+explanation: |
+  The convergence of results is due to the law of large numbers, as each hash is an independent trial.
+reviewed: false

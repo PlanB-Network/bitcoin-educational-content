@@ -1,5 +1,6 @@
 ---
-term: SIKIŞTIRILMIŞ AÇIK ANAHTAR
+term: Sıkıştırılmış genel anahtar
+definition: Yalnızca x-koordinatını ve bir parite ön ekini (02 veya 03) kullanan bir genel anahtarın kompakt formu.
 ---
 
 Bir açık anahtar, bitcoinleri almak ve güvence altına almak için komut dosyalarında (ya doğrudan bir açık anahtar biçiminde ya da bir Address olarak) kullanılır. Ham bir açık anahtar, her biri 256 bitlik iki koordinattan (`x, y`) oluşan eliptik bir eğri üzerindeki bir nokta ile temsil edilir. Dolayısıyla ham formatta bir açık anahtar, formatı tanımlamak için kullanılan ek baytı saymazsak 512 bittir. Öte yandan sıkıştırılmış bir açık anahtar, açık anahtar gösteriminin daha kompakt bir şeklidir. Yalnızca `x` koordinatını ve `y` koordinatının paritesini (çift veya tek) belirten bir önek (`02` veya `03`) kullanır.
@@ -8,7 +9,7 @@ Bir açık anahtar, bitcoinleri almak ve güvence altına almak için komut dosy
 Bunu reel sayılar alanına indirgersek, eliptik eğrinin x eksenine göre simetrik olduğu göz önüne alındığında, eğri üzerindeki herhangi bir $P$ (`x, y`) noktası için, aynı eğri üzerinde olacak bir $P'$ (`x, -y`) noktası vardır. Bu, her `x` için `y`nin pozitif ve negatif olmak üzere yalnızca iki olası değeri olduğu anlamına gelir. Örneğin, belirli bir `x` apsisi için, eliptik eğri üzerinde aynı apsisi paylaşan ancak zıt ordinatlara sahip iki $P1$ ve $P2$ noktası olacaktır:
 
 
-![](../../dictionnaire/assets/29.webp)
+
 
 Eğri üzerindeki iki potansiyel nokta arasında seçim yapmak için, hangi `y`nin seçileceğini belirten bir önek `x`e eklenir. Bu yöntem açık anahtarın boyutunu 520 bitten sadece 264 bite (8 bit önek + 256 bit `x` için) düşürmeyi sağlar. Bu gösterim açık anahtarın sıkıştırılmış biçimi olarak bilinir.
 

@@ -1,6 +1,7 @@
 ---
-term: REKURSIIVINEN (LIITTO)
+term: Rekursiivinen (covenant)
 
+definition: Covenant, joka asettaa ehtoja nykyiselle siirrolle ja kaikille sitä seuraaville siirroille loputtomiన్.
 ---
 Bitcoinin rekursiivinen sopimus on eräänlainen älykäs sopimus, joka asettaa ehtoja nykyisen transaktion lisäksi myös tuleville transaktioille, jotka käyttävät tämän transaktion tuotoksia. Näin voidaan luoda transaktioketjuja, joissa jokaisen on noudatettava tiettyjä sääntöjä, jotka ketjun ensimmäinen osapuoli on määritellyt. Rekursiivisuus luo transaktioiden sarjan, jossa kukin perii vanhemman transaktionsa rajoitukset. Tämä mahdollistaisi monimutkaisen ja pitkäaikaisen kontrollin siitä, miten bitcoineja voidaan käyttää, mutta se toisi myös riskejä, jotka liittyvät kulutusvapauteen ja korvattavuuteen.
 

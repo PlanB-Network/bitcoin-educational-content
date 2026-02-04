@@ -1,5 +1,6 @@
 ---
-term: PATHFINDING
+term: Pathfinding
+definition: Process of determining the optimal path for routing a payment on the Lightning Network.
 ---
 
 Process used by a node to determine the optimal path for routing a payment through the Lightning channel network. Pathfinding is carried out by the payer node, which must select the most suitable intermediate nodes to reach the recipient. This choice is based on a number of criteria, such as fees, channel capacity and timelocks.

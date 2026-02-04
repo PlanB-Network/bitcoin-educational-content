@@ -1,10 +1,10 @@
 question: Met welke van de volgende antwoorden kan de heuristiek van de ketenanalyse niet worden misleid?
-answer: Altijd dezelfde ontvangende Address gebruiken.
+answer: Altijd hetzelfde ontvangstadres gebruiken.
 wrong_answers:
-  - Een verandering creëren waarvan de waarde dicht bij de betaling ligt.
-  - Uitvoer maken van onregelmatige, niet-ronde hoeveelheden.
+  - Een wisselgeld-transactie creëren waarvan de waarde dicht bij de betaling ligt.
+  - Uitvoer maken van onregelmatige, niet-ronde bedragen.
   - De spreiding van transacties over de dag.
 explanation: |
-  Je moet vooral een ontvangende Address niet meerdere keren gebruiken. Alle andere antwoorden maken het mogelijk om de ketenanalyse heuristiek te vermijden.
+  Je moet vooral een ontvangstadres niet meerdere keren gebruiken. Alle andere antwoorden maken het mogelijk om de ketenanalyse heuristiek te vermijden.
   
 reviewed: false

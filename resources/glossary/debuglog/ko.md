@@ -1,5 +1,6 @@
 ---
-term: DEBUG.LOG
+term: Debug.log
+definition: 오류 및 디버깅 정보를 포함하는 Bitcoin Core 로깅 파일.
 ---
 
 Bitcoin core 이벤트 기록이 포함된 파일입니다. 여기에는 오류 메시지, 경고 및 기타 디버깅 정보와 같은 로깅 데이터가 포함됩니다. 이 파일은 잠재적인 기술 문제를 해결하는 데 사용됩니다.

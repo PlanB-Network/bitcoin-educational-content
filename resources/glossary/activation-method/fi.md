@@ -1,6 +1,7 @@
 ---
-term: AKTIVOINTIMENETELMÄ
+term: Aktivointimenetelmä
 
+definition: Prosessi, jonka kautta Bitcoin-yhteisö päättää aktivoida pehmeän haaran, etsimällä konsensusta kaivostyöntekijöiden ja käyttäjien välillä lohkoketjun jakamisen välttämiseksi.
 ---
 Aktivointimenetelmä on prosessi, jossa käyttäjäyhteisö päättää Bitcoin-protokollan pehmeän haarautumisen toteuttamisesta, jonka tavoitteena on välttää lohkoketjun jakautuminen. Tässä prosessissa pyydetään louhijoiden mielipidettä pehmeän haarautumisen hyväksymiseksi ennen sen aktivointia. Jos merkittävä enemmistö hyväksyy soft forkin, lohkoketjun jakautumisen riski minimoidaan. Tämä yksimielisyys on ratkaisevan tärkeää, sillä jos enemmistö louhijoista kieltäytyy tekemästä muutosta, pehmeä haarautuminen voi luoda kaksi erillistä ketjua: toisen, jossa on muutetut säännöt, ja toisen, jossa ei ole niitä. Aktivointimenetelmiä on 2 pääluokkaa:
 

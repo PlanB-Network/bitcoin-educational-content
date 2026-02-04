@@ -1,0 +1,9 @@
+question: Como se chama o registo público partilhado onde se escreve o histórico de pagamentos em bitcoins?
+answer: A blockchain
+wrong_answers:
+  - A mempool
+  - A wallet
+  - O hashrate
+explanation: |
+  O livro público partilhado que contém todas as transações é a blockchain.
+reviewed: false

@@ -202,7 +202,7 @@ Til sammen gjør de Bitcoin til en **bærende eiendel** og en digital valuta **u
 
 ![BIZ101](assets/nb-NO/003.webp)
 
-Bitcoin har en fast pengepolitikk, med et **tak på 21 millioner bitcoins**, hvorav ~19,8 millioner allerede har blitt distribuert. Dette gjør den **deflasjonær**, og verdien øker over tid etter hvert som brukerne lagrer sparepenger og produktivitetsgevinster i den.
+Bitcoin har en fast pengepolitikk, med et **maksimum på 21 millioner bitcoins**, hvorav ~19,8 (2024) millioner allerede er utvunnet. Dette gjør den **deflasjonær**, der verdien øker over tid ettersom brukere lagrer sparing og produktivitetsgevinster i den.
 
 De tekniske egenskapene overgår gull og dollar til sammen, noe som gjør den til den hardeste finansielle eiendelen som noensinne er skapt. Bitcoin er både et verdioppbevaringsmiddel og et byttemiddel, og en fremtidig valuta. Forestill deg å overføre verdier fra et selskaps beholdning til et annet raskt, uten mellomledd, til minimale kostnader, uten svindel, døgnet rundt og uten at noen tredjepart er involvert.
 
@@ -214,7 +214,7 @@ Bitcoin er disruptiv fordi den oppfordrer oss til å lære konsepter innen matem
 
 Bitcoin utfordrer oss til å revurdere selve pengenes natur. Kan du forklare hva penger egentlig er? En lønnsmottaker eller gründer kan bruke 50 000 til 100 000 timer av livet sitt på å tjene penger, men hvor mange **bruker så mye som 100 timer på å forstå dem bedre** og bevare dem? Bitcoin oppfordrer oss til å stille spørsmål ved de grunnleggende årsakene til vårt behov for penger og vårt tidsperspektiv. Er penger til for umiddelbar luksus eller langsiktig motstandsdyktighet? Hvilke valg ville vi tatt hvis vi hadde en verdiøkning som gjorde det mulig for oss å utsette kjøp? Hvilke samtaler ville vi ønske å ha med oss selv om 20 eller 30 år?
 
-**BITCOINS IDENTITETSKORT**
+**BITCOIN IDENTITETSKORT (i 2024)**
 
 
 - **Alder:** 15 år (3. januar 2009)
@@ -299,7 +299,7 @@ Lightning-nettverket er ideelt for Bitcoin-betalinger i fysiske butikker eller n
 - **Endelighet:** Når en betaling er utført på Lightning, er den endelig. Det er ingen mulighet for tilbakeføringer fra tredjeparter eller svindelrelaterte tvister.
 - **Gebyrer:** Transaksjonsgebyrene i Lightning Network er minimale og betales av brukeren, ikke selgeren. Forhandlere pådrar seg kun gebyrer hvis de senere trenger å overføre Bitcoin til et annet nettverk eller en annen tjeneste.
 
-**LIGHTNINGS IDENTITETSKORT**
+**LIGHTNING IDENTITETSKORT (i 2024)**
 
 
 - **Oppfinnelse:** 2015

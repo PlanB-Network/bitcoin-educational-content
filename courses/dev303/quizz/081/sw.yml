@@ -1,4 +1,4 @@
-question: Kusudi kuu la kutumia map_err() wakati wa kuunganisha shughuli na aina za Matokeo katika Rust ni lipi?
+question: Kusudi kuu la kutumia map_err() wakati wa kuunganisha shughuli na aina za Results katika Rust ni lipi?
 answer: Kubadilisha aina za makosa huku ukiacha thamani za mafanikio zikiwa hazijabadilika wakati wa uenezaji wa makosa
 wrong_answers:
   - Kubadilisha thamani za mafanikio huku ukieneza makosa kiotomatiki bila marekebisho

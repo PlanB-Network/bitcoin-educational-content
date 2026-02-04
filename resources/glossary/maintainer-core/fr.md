@@ -1,5 +1,6 @@
 ---
-term: MAINTENEUR (CORE)
+term: Mainteneur (core)
+definition: Individus responsables de la gestion du projet Bitcoin Core et de la fusion des modifications de code.
 ---
 
 Dans le contexte du projet Bitcoin Core, l'implémentation majoritaire de nœuds sur le réseau Bitcoin, les mainteneurs sont des individus chargés de la gestion du projet. Ils portent la responsabilité de l'implémentation. Ils sont chargés de la modération sur le dépôt GitHub Bitcoin Core et de l'établissement du calendrier pour la publication des nouvelles versions. Ils sont surtout chargés de conduire la fusion des pull requests (PR) proposées par les contributeurs.

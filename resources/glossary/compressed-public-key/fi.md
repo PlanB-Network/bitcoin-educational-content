@@ -1,12 +1,13 @@
 ---
-term: PAKATTU JULKINEN AVAIN
+term: Tiivistetty julkinen avain
 
+definition: Julkisen avaimen tiivis muoto, joka käyttää vain x-koordinaattia ja pariteettietuliitettä (02 tai 03).
 ---
 Julkista avainta käytetään skripteissä (joko suoraan julkisen avaimen tai osoitteen muodossa) bitcoinien vastaanottamiseen ja suojaamiseen. Raakaa julkista avainta edustaa elliptisen käyrän piste, joka koostuu kahdesta koordinaatista (`x, y`), joiden kummankin pituus on 256 bittiä. Raakamuodossa julkisen avaimen koko on siis 512 bittiä, kun ei oteta huomioon ylimääräistä tavua muodon tunnistamiseksi. Pakattu julkinen avain on puolestaan kompaktimpi julkisen avaimen esitysmuoto. Siinä käytetään vain `x`-koordinaattia ja etuliitettä (`02` tai `03`), joka ilmaisee `y`-koordinaatin pariteetin (parillinen tai pariton).
 
 Jos yksinkertaistamme tämän reaalilukujen kenttään, elliptisen käyrän ollessa symmetrinen x-akselin suhteen, on olemassa piste $P$ (`x, y`), joka on samalla käyrällä, ja piste $P'$ (`x, -y`), joka on myös samalla käyrällä. Tämä tarkoittaa, että jokaiselle `x`:lle on vain kaksi mahdollista arvoa `y`:lle, positiivinen ja negatiivinen. Esimerkiksi tietyllä absissalla `x` elliptisellä käyrällä on kaksi pistettä $P1$ ja $P2$, joilla on sama absissa mutta vastakkaiset ordinaatit:
 
-![](../../dictionnaire/assets/29.webp)
+
 
 Jos halutaan valita käyrän kahden mahdollisen pisteen välillä, "x"-arvoon lisätään etuliite, joka määrittää, mikä "y"-piste valitaan. Tällä menetelmällä voidaan pienentää julkisen avaimen kokoa 520 bitistä vain 264 bittiin (8 bittiä etuliitettä + 256 bittiä `x`:lle). Tätä esitystapaa kutsutaan julkisen avaimen pakatuksi muodoksi.
 

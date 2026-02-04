@@ -1,0 +1,9 @@
+question: Como são calculadas as taxas de uma transação?
+answer: Inputs menos outputs
+wrong_answers:
+  - Outputs menos inputs
+  - Inputs mais outputs
+  - Outputs dividido por inputs
+explanation: |
+  As taxas correspondem ao valor consumido nos inputs que não é recriado nos outputs.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: ECASH (XEC)
+term: Ecash (xec)
 
+definition: 2020 年 11 月从 Bitcoin Cash 硬分叉出来的加密货币。
 ---
 一种加密货币系统，以前称为比特币 CASH ABC（BCHA），由 BCH 的硬分叉产生出。eCash 的分叉发生在 2020 年 11 月 15 日的第 661,647 个区块，源于比特币现金社区内部的冲突。

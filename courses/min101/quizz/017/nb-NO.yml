@@ -1,0 +1,9 @@
+question: Hvem står bak konseptet Bit Gold?
+answer: Nick Szabo
+wrong_answers:
+  - Satoshi Nakamoto
+  - Hal Finney
+  - Wei Dai
+explanation: |
+  Bit Gold er et konseptuelt prosjekt for et elektronisk pengesystem foreslått av Nick Szabo.
+reviewed: false

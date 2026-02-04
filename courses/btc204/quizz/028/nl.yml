@@ -1,8 +1,8 @@
 question: Wat is sleutelidentificatie?
-answer: De mogelijkheid om een aspect van de identiteit van een gebruiker te associëren met een activiteit op de keten.
+answer: De mogelijkheid om een aspect van de identiteit van een gebruiker te associëren met een activiteit op de blockchain.
 wrong_answers:
-  - Het proces van het toewijzen van een publieke sleutel aan elke nieuwe onchain transactie.
-  - De mogelijkheid om onchain transacties te traceren via de gemeenschappelijke Ownership heuristiek van ingangen.
+  - Het proces van het toewijzen van een publieke sleutel aan elke nieuwe onchain-transactie.
+  - De mogelijkheid om onchain-transacties te traceren via de gemeenschappelijke inputs-eigenaar heuristiek.
   - Het proces waarbij een openbare sleutel wordt afgeleid van een privésleutel.
 explanation: |
   Sleutelidentificatie houdt de mogelijkheid in om een aspect van de identiteit van een gebruiker te koppelen aan een onchain-activiteit.

@@ -1,6 +1,7 @@
 ---
-term: PPS (PAY PER SHARE)
+term: Pps (pay per share)
 
+definition: Metode remunerasi tetap per share yang dikirimkan, terlepas dari blok yang ditemukan.
 ---
 Metode untuk menghitung kompensasi upah penambang dalam konteks kumpulan penambangan. PPS adalah sebuah sistem di mana para penambang dibayar untuk setiap _share_ yang valid yang dikirimkan, terlepas dari apakah _pool_ menemukan blok atau tidak. Oleh karena itu, mereka diberi kompensasi berdasarkan nilai yang diharapkan. Ini adalah metode pembayaran berbasis tugas.
 

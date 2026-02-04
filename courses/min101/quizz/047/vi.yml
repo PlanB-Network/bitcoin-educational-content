@@ -1,0 +1,9 @@
+question: Nguyên tắc thống kê nào giải thích rằng tần suất tìm thấy các khối hội tụ về tỷ lệ hashrate trong dài hạn?
+answer: Luật số lớn
+wrong_answers:
+  - Định lý Bayes
+  - Nghịch lý ngày sinh
+  - Nguyên lý tác dụng tối thiểu
+explanation: |
+  Sự hội tụ của các kết quả là do luật số lớn, vì mỗi hash là một thử nghiệm độc lập.
+reviewed: false

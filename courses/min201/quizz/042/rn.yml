@@ -1,11 +1,11 @@
-question: Ni ingaruka izihe zishobora guterwa n’ukubuza Mining mu karere?
+question: Ni ingaruka izihe zishobora guterwa n’ukubuza mining mu karere?
 answer: Bishobora gutuma Hashrate n’igiciro ca Bitcoin bigabanuka cane.
 wrong_answers:
-  - Bishobora gutuma igiciro ca Bitcoin00 kiduga.
-  - Bishobora gutuma Hashrate y'urubuga yiyongera .
-  - Bishobora gutuma umubare w'ibihimba bikora mu muhora wiyongera .
+  - Bishobora gutuma igiciro ca Bitcoin00 kiduga
+  - Bishobora gutuma Hashrate y’umuhora yiyongera
+  - Bishobora gutuma igitigiri ca node zikora mu muhora ciyongera .
 explanation: |
-  Gukumira Mining mu karere, nk’ivyabaye mu Bushinwa,
-  birashobora gutuma Hashrate n’igiciro ca 100 bigabanuka cane.
-  Bitcoin. Ariko rero, ivyo birashobora gukira ningoga.
+  Gukumira mining mu karere, nk’ivyabaye mu Bushinwa,
+  birashobora gutuma Hashrate n’igiciro ca Bitcoin bigabanuka cane. Ariko rero, 
+  ivyo birashobora gusubira kumurongo ningoga.
 reviewed: true

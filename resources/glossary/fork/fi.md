@@ -1,6 +1,7 @@
 ---
-term: FORK
+term: Fork
 
+definition: Solmuverkoston jakautuminen tai Bitcoin-protokollan sääntöjen muuttaminen.
 ---
 Termillä "haarautuminen" on useita merkityksiä Bitcoinin yhteydessä. Sillä voidaan tarkoittaa joko solmujen verkoston jakautumista useisiin erillisiin ryhmiin, mikä johtaa useiden eri lohkoketjujen luomiseen, tai protokollan sääntöjen muuttamista tai molempia samanaikaisesti. Yksinkertaistaaksemme voidaan erottaa neljä haarautumisen pääluokkaa:
 

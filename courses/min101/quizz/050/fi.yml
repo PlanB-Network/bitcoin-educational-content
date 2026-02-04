@@ -1,0 +1,9 @@
+question: Milloin lohkon tapahtumat vahvistuvat?
+answer: Kun lohko lisätään lohkoketjuun
+wrong_answers:
+  - Kun louhija allekirjoittaa tapahtuman
+  - Kun solmu lähettää tapahtuman
+  - Kun louhija alkaa etsiä todistetta
+explanation: |
+  Bitcoin-maksun vahvistus on seurausta siitä, että se lohko, joka sisältää maksun, lisätään lohkoketjuun.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welches Phänomen macht die Zeitspanne zwischen zwei Blöcken grundlegend variabel?
+answer: Der probabilistische Charakter des Hashings
+wrong_answers:
+  - Der deterministische Charakter des Hashings
+  - Der rekursive Charakter des Hashings
+  - Der periodische Charakter des Hashings
+explanation: |
+  Jeder Hash ist ein unabhängiger Versuch, was die Entdeckungszeiten selbst bei konstanter Hashrate zufällig macht.
+reviewed: false

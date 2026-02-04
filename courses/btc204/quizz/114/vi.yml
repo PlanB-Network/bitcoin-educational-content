@@ -1,4 +1,4 @@
-question: Tại sao nhà phân tích không áp dụng COINJOIN cho một giao dịch kiểu Stonewall?
+question: Tại sao nhà phân tích sẽ không áp dụng CIOH cho giao dịch loại Stonewall?
 
 answer: Bởi vì có 2 đầu ra với cùng một số lượng
 
@@ -8,6 +8,7 @@ wrong_answers:
   - Bởi vì có nhiều đầu ra hơn so với đầu vào
 
 explanation: |
-  Phân tích một giao dịch Stonewall từ bên ngoài không dẫn đến việc áp dụng COINJOIN, bởi vì sự hiện diện của hai đầu ra với cùng một số lượng gợi ý một mẫu coinjoin. Từ quan điểm bên ngoài, COINJOIN do đó không áp dụng được trong trường hợp cụ thể này.
+
+  Phân tích giao dịch Stonewall từ bên ngoài không dẫn đến việc áp dụng CIOH, vì sự hiện diện của hai output có cùng số tiền gợi ý một mô hình coinjoin. Từ quan điểm bên ngoài, CIOH do đó không áp dụng được trong trường hợp cụ thể này.
 
 reviewed: false

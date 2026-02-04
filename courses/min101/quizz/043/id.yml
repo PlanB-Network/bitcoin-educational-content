@@ -1,0 +1,9 @@
+question: Antara pertengahan 2010 dan pertengahan 2011, dengan faktor berapa tingkat kesulitan penambangan berlipat ganda?
+answer: 1000
+wrong_answers:
+  - 100
+  - 500
+  - 50
+explanation: |
+  Terjadi peningkatan 1.000 kali lipat selama periode tersebut, terutama karena penggunaan GPU.
+reviewed: false

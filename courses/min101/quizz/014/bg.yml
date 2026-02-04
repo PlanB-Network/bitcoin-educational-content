@@ -1,0 +1,9 @@
+question: Коя хеш функция се използва за копаене в Биткойн?
+answer: SHA256d
+wrong_answers:
+  - SHA1d
+  - RIPEMD160d
+  - SHA512d
+explanation: |
+  Копаенето на Биткойн използва SHA256, приложена два пъти, обикновено обозначавана като SHA256d.
+reviewed: false

@@ -5,5 +5,6 @@ wrong_answers:
   - It encrypted wallet data using the AES-256 algorithm to prevent Trojan horse theft
   - It made it possible to secure the connection to an existing node to prevent attacks exploiting the malleability of transactions
 explanation: |
- Simplified Payment Verification (SPV) was a crucial innovation described in the Bitcoin white paper that enabled thin clients to verify that their transactions belonged on the blockchain without needing to download and store the entire data.
-reviewed: false
+ Simplified Payment Verification (SPV) was a crucial innovation described in the Bitcoin white paper that enabled thin clients to verify that their transactions 
+ belonged on the blockchain without needing to download and store the entire data.
+reviewed: true

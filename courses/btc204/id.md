@@ -183,7 +183,7 @@ Sekarang mari kita bayangkan bahwa Alice tidak memiliki satu UTXO dengan `10.000
 Secara intuitif, orang mungkin berpikir bahwa biaya transaksi juga mewakili hasil dari sebuah transaksi. Namun pada kenyataannya, tidak demikian. Biaya transaksi mewakili selisih antara total input dan total output. Artinya, setelah menggunakan sebagian dari nilai input untuk menghasilkan output yang diinginkan dalam sebuah transaksi, ada sejumlah input yang tidak terpakai. Jumlah sisa ini merupakan biaya transaksi.
 
 ```plaintext
-Frais = total inputs - total outputs
+Biaya transaksi = total inputs - total outputs
 ```
 
 Mari kita ambil contoh Alice, yang memiliki UTXO sebesar `10.000 SATS` dan ingin membeli sebuah baguette dengan harga `4.000 SATS`. Alice membuat transaksi dengan UTXO-nya sebesar `10.000 SATS` sebagai input. Dia kemudian menghasilkan output sebesar `4.000 SATS` untuk tukang roti untuk membayar roti baguette tersebut. Untuk mendorong para penambang mengintegrasikan transaksinya ke dalam sebuah blok, Alice mengalokasikan biaya sebesar `200 SATS`. Dia kemudian membuat output kedua, yaitu pertukaran, yang akan dikembalikan kepadanya, sebesar `5.800 SATS`.
@@ -193,10 +193,10 @@ Mari kita ambil contoh Alice, yang memiliki UTXO sebesar `10.000 SATS` dan ingin
 Dengan menerapkan rumus biaya, kami melihat bahwa memang ada `200 SATS` yang tersisa untuk anak di bawah umur:
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+Biaya transaksi = total inputs - total outputs
+Biaya transaksi = 10 000 - (4 000 + 5 800)
+Biaya transaksi = 10 000 - 9 800
+Biaya transaksi = 200
 ```
 
 Ketika seorang penambang berhasil memvalidasi sebuah blok, ia memiliki wewenang untuk mengumpulkan biaya ini untuk semua transaksi yang termasuk dalam bloknya, melalui apa yang disebut dengan transaksi "coinbase".
@@ -1548,7 +1548,7 @@ Dalam contoh ini, walaupun transaksi B menawarkan total biaya yang lebih tinggi,
 
 ```text
 TXA : 1994 / 141 = 14 sats/vB
-TXB : 2640 / 220 = 12 sats / vB
+TXB : 2640 / 220 = 12 sats/vB
 ```
 
 Ini berarti bahwa untuk setiap unit berat, transaksi A menawarkan lebih banyak biaya daripada transaksi B, meskipun transaksi B menawarkan lebih banyak biaya secara absolut.
@@ -1743,7 +1743,7 @@ Namun, coinjoin juga menawarkan kemungkinan untuk memperkuat kerahasiaan dalam m
 
 ![BTC204](assets/id/118.webp)
 
-Pada contoh pertama, kita melihat bagaimana coinjoin dapat melindungi privasi sebuah ruangan dalam kaitannya dengan masa lalunya, dan pada contoh kedua, bagaimana coinjoin juga dapat mengamankan sejarah sebuah ruangan dalam kaitannya dengan masa depannya. Itulah mengapa saya menyebutkan bahwa coinjoin harus dilihat sebagai peristiwa sekali pakai yang menyegmentasikan bagian sejarah di kedua arah:
+Pada contoh pertama, kita melihat bagaimana coinjoin dapat melindungi kerahasiaan sebuah koin terhadap masa lalunya, dan pada contoh kedua, bagaimana coinjoin juga dapat mengamankan riwayat sebuah koin terhadap masa depannya. Inilah sebabnya saya menyebutkan bahwa coinjoin seharusnya dipersepsikan sebagai sebuah peristiwa sekali jalan yang membagi riwayat koin ke dua arah:
 
 ![BTC204](assets/id/119.webp)
 
@@ -1937,7 +1937,7 @@ Metode manajemen bursa juga membedakan kedua implementasi tersebut. Dengan Whirl
 
 ![BTC204](assets/id/139.webp)
 
-Dengan Wabisabi, Wasabi versi 2.0 telah mengadaptasi pendekatannya terhadap coinjoin agar sesuai dengan Whirlpool. Meskipun transaksi coinjoin masih sangat besar, sekarang dimungkinkan untuk melakukan beberapa siklus yang berurutan, mengikuti model Whirlpool. Perhatian khusus juga diberikan pada manajemen nilai tukar: tidak seperti Wasabi 1.0, di mana nilai tukar secara langsung terkait dengan input pengguna, Wabisabi berusaha untuk membagi nilai tukar menjadi beberapa jumlah kecil, dibagi ke dalam denominasi yang sama untuk semua peserta.
+Dengan Wabisabi, versi 2.0 telah menyesuaikan pendekatannya terhadap coinjoin agar lebih mendekati model Whirlpool. Meskipun transaksi coinjoin tetap berukuran sangat besar, kini dimungkinkan untuk merangkai beberapa siklus berturut-turut, sehingga mengikuti model Whirlpool. Upaya khusus juga dilakukan pada pengelolaan kembalian: berbeda dengan Wasabi 1.0, di mana kembalian secara langsung terkait dengan input pengguna, Wabisabi berupaya membagi kembalian menjadi beberapa jumlah kecil, yang didistribusikan dalam denominasi yang sama kepada semua peserta.
 
 Mari kita ilustrasikan hal ini dengan contoh sederhana yang hanya melibatkan 2 pengguna: Alice ingin menggabungkan 115.000 satoshi dan Bob, 210.000 satoshi. Dengan mengabaikan biaya, dengan Wasabi 1.0, transaksi coinjoin akan menghasilkan 3 output 100.000 satoshi, ditambah 1 pertukaran 15.000 satoshi untuk Alice dan 1 pertukaran 10.000 satoshi untuk Bob. Output dari pertukaran masih akan terhubung dengan input:
 
@@ -2115,7 +2115,7 @@ Mari kita lihat berbagai tahapan coinjoin Whirlpool dalam akun-akun ini.
 
 Titik awal dari setiap coinjoin Whirlpool adalah akun **deposit**. Ini adalah akun yang secara otomatis Anda gunakan ketika Anda membuat dompet Bitcoin baru. Akun ini harus diisi dengan bitcoin yang ingin Anda gabungkan.
 
-Tx0" adalah langkah pertama dalam proses pencampuran Whirlpool. Tujuannya adalah untuk menyiapkan dan menyamakan UTXO untuk coinjoin, membaginya menjadi unit-unit yang sesuai dengan jumlah kolam yang dipilih, untuk memastikan pencampuran yang homogen. UTXO yang telah disamakan kemudian dikirim ke akun **premix**. Sedangkan untuk selisih yang tidak dapat masuk ke dalam pool, dipisahkan ke dalam akun tertentu: **bad bank** (atau "doxxic change").
+`Tx0` adalah langkah pertama dalam proses pencampuran Whirlpool. Tujuannya adalah untuk menyiapkan dan menyamakan UTXO untuk coinjoin, membaginya menjadi unit-unit yang sesuai dengan jumlah kolam yang dipilih, untuk memastikan pencampuran yang homogen. UTXO yang telah disamakan kemudian dikirim ke akun **premix**. Sedangkan untuk selisih yang tidak dapat masuk ke dalam pool, dipisahkan ke dalam akun tertentu: **bad bank** (atau "doxxic change").
 
 Transaksi awal `Tx0` ini juga digunakan untuk membayar biaya layanan kepada koordinator coinjoin. Tidak seperti langkah-langkah selanjutnya, transaksi ini tidak bersifat kolaboratif, sehingga pengguna harus menanggung seluruh biaya penambangan:
 
@@ -2153,7 +2153,7 @@ Pada akhir campuran pertama ini, akun **premix** akan kosong, sementara koin kit
 
 ### Remixes
 
-Setelah pencampuran awal, UTXO ditransfer ke akun **postmix**. Akun ini mengumpulkan UTXO yang sudah dicampur dan yang sedang menunggu remix. Ketika pelanggan Whirlpool aktif, UTXO yang berada di akun **postmix** secara otomatis tersedia untuk di-remix dan akan dipilih secara acak untuk berpartisipasi dalam siklus baru ini.
+Setelah melakukan mix awal, UTXO dipindahkan ke akun **postmix**. Akun ini mengumpulkan UTXO yang sudah di-mix serta yang menunggu remix. Ketika klien Whirlpool aktif, UTXO yang berada di akun **postmix** secara otomatis tersedia untuk remix dan akan dipilih secara acak untuk berpartisipasi dalam siklus-siklus baru ini.
 
 Sebagai pengingat, remix 100% gratis: tidak ada biaya layanan tambahan atau biaya penambangan yang diperlukan. Oleh karena itu, menyimpan UTXO di akun **postmix** akan menjaga nilainya tetap utuh, dan pada saat yang sama meningkatkan anonsetnya. Itulah mengapa penting untuk mengizinkan koin-koin ini untuk berpartisipasi dalam beberapa siklus koin. Anda tidak akan dikenakan biaya sama sekali, dan meningkatkan tingkat anonimitasnya.
 
@@ -2308,7 +2308,7 @@ Sebagai contoh, sebuah transaksi pembayaran sederhana dengan 1 input dan 2 outpu
 
 ![BTC204](assets/id/165.webp)
 
-Namun, sebuah coinjoin yang disusun menurut model Whirlpool 5x5 memiliki $1\,496$ kemungkinan kombinasi:
+Sebaliknya, sebuah coinjoin yang disusun menurut model Whirlpool 5x5 memiliki $1\,496$ kombinasi yang mungkin:
 
 ![BTC204](assets/id/166.webp)
 
@@ -2486,7 +2486,7 @@ Skor Boltzmann dihitung dengan membagi jumlah interpretasi di mana peristiwa ter
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}
@@ -2719,7 +2719,7 @@ Dalam contoh ini, saya sengaja tidak mencantumkan biaya untuk membuatnya lebih m
 
 Seperti struktur Stonewall, struktur Stonewall x2 menambahkan banyak entropi pada transaksi dan membingungkan analisis rantai. Dilihat dari luar, transaksi seperti ini dapat diartikan sebagai sebuah koin kecil antara dua orang. Namun pada kenyataannya, ini adalah pembayaran. Oleh karena itu, metode ini menciptakan ketidakpastian dalam analisis rantai, atau bahkan menyebabkan petunjuk yang salah.
 
-Mari kita ambil contoh Alice, Bob the Baker, dan Charles. Transaksi pada blockchain akan terlihat seperti ini:
+Mari kita ambil contoh Alice, Bob the baker, dan Charles. Transaksi pada blockchain akan terlihat seperti ini:
 
 ![BTC204](assets/id/184.webp)
 
@@ -2871,7 +2871,7 @@ Akan tetapi, metode yang naif ini memiliki risiko yang tinggi dalam hal kepercay
 
 ![BTC204](assets/id/201.webp)
 
-Selain itu, tidak ada jaminan bahwa Alice tidak akan menerima private key $B$ milik Bob dan tidak akan pernah memberikan private key $A$ miliknya sebagai gantinya. Oleh karena itu, pertukaran ini bergantung pada kepercayaan yang berlebihan di antara kedua belah pihak, dan tidak efektif untuk memastikan transfer kepemilikan yang aman dan rahasia.
+Selain itu, tidak ada jaminan bahwa Alice, setelah menerima kunci privat $B$ milik Bob, akan mengirimkan kunci privat $A$ miliknya sebagai gantinya. Oleh karena itu, pertukaran ini sangat bergantung pada kepercayaan yang besar di antara para pihak dan terbukti tidak efisien untuk memastikan transfer kepemilikan rahasia secara aman.
 
 ![BTC204](assets/id/202.webp)
 

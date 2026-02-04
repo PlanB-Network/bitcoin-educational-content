@@ -1,0 +1,9 @@
+question: Jaki dowód jest najczęściej używany w Bitcoinie do odblokowania UTXO?
+answer: Podpis cyfrowy
+wrong_answers:
+  - Hasło do konta
+  - Hash bieżącego bloku
+  - Certyfikat SSL
+explanation: |
+  Warunek wydania zazwyczaj wymaga podpisu wygenerowanego przy użyciu odpowiedniego klucza prywatnego.
+reviewed: false

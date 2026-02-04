@@ -1,5 +1,6 @@
 ---
 term: BIP0037
+definition: Ishirwaho rya Bloom Filters ryemera amawallet ameze neza (SPV) gushungura itunshwa batarinze gushira hasi blockchain yose. Haranumwe kubera ibibazo vy'ibanga.
 ---
 
 Iciyumviro cagenewe kwemerera amasakoshi yoroshe (*Igenzura ryoroshe ry'ukwishyura*) gucungera amafaranga ataco akeneye gukura kuri Blockchain yose. Ubu buryo bushingiye ku ciyumviro ca Bloom Filters, imiterere y’amakuru y’ibishoboka igerageza neza nimba ikintu kiri mu mugwi.

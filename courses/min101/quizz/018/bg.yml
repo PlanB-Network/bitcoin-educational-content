@@ -1,0 +1,9 @@
+question: Какъв проблем се опитваше да намали основно Hashcash?
+answer: Le spam e-mail
+wrong_answers:
+  - La double dépense
+  - Le phishing DNS
+  - Le vol de clés privées
+explanation: |
+  Hashcash налага изчислителни разходи на съобщение, за да направи масовото изпращане на имейли нерентабилно.
+reviewed: false

@@ -1,9 +1,9 @@
 question: Kolika je trenutna veličina Bitkoin Blockchain-a?
-answer: Oko 500GB.
+answer: Oko 660GB
 wrong_answers:
-  - Oko 100GB.
-  - Oko 1TB.
-  - Oko 2TB.
+  - Oko 110GB
+  - Oko 1TB
+  - Oko 2TB
 explanation: |
-  Bitkoin Blockchain je veličine oko 500GB zaključno sa 2023. godinom.
+  Bitkoin Blockchain je veličine oko 660GB zaključno sa 2025. godinom.
 reviewed: true

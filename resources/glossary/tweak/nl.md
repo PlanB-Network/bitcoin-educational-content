@@ -1,5 +1,6 @@
 ---
-term: TWEAK
+term: Tweak
+definition: Scalaire waarde die aan een openbare sleutel wordt toegevoegd om deze te wijzigen, terwijl de bruikbaarheid met de oorspronkelijke privésleutel behouden blijft.
 ---
 
 In cryptografie is het "tweaken" van een openbare sleutel het wijzigen ervan met behulp van een additieve waarde die een "tweak" wordt genoemd, zodat de sleutel bruikbaar blijft met kennis van zowel de originele privésleutel als de tweak. Technisch gezien is een tweak een scalaire waarde die wordt toegevoegd aan de originele openbare sleutel. Als $P$ de openbare sleutel is en $t$ de aanpassing, dan wordt de aangepaste openbare sleutel :

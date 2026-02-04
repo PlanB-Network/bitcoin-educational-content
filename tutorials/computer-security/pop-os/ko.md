@@ -451,24 +451,25 @@ Pop!_Shop에서 NVIDIA 그래픽 드라이버를 설치할 수도 있습니다.
 
 
 
-| Outil                        | Description                                | Commande d’installation                         |
+
+| 도구 | 설명 | 설치 명령 |
 | ---------------------------- | ------------------------------------------ | ----------------------------------------------- |
-| Firefox                      | Navigateur web libre et populaire          | `sudo apt install firefox`                      |
-| Brave                        | Navigateur web axé sur la confidentialité  | Installation via Pop!_Shop ou site officiel     |
-| Visual Studio Code (VS Code) | Éditeur de code puissant pour développeurs | `flatpak install flathub com.visualstudio.code` |
-| Git                          | Gestionnaire de versions                   | `sudo apt install git`                          |
-| Flatpak                      | Gestionnaire de paquets alternatif         | `sudo apt install flatpak`                      |
-| VLC                          | Lecteur multimédia polyvalent              | `sudo apt install vlc`                          |
-| GNOME Terminal               | Terminal par défaut                        | Préinstallé sur Pop!OS                          |
-| Curl                         | Outil de transfert de données en ligne     | `sudo apt install curl`                         |
-| Wget                         | Téléchargement de fichiers via HTTP/FTP    | `sudo apt install wget`                         |
-| Docker                       | Conteneurisation d’applications            | Installation via script officiel ou `apt`       |
-| Node.js                      | Environnement JavaScript côté serveur      | Installation via `apt` ou NodeSource            |
-| Python3                      | Langage de programmation                   | `sudo apt install python3 python3-pip`          |
-| GIMP                         | Éditeur d’image avancé                     | `sudo apt install gimp`                         |
-| Thunderbird                  | Client mail                                | `sudo apt install thunderbird`                  |
-| Transmission                 | Client BitTorrent léger                    | `sudo apt install transmission-gtk`             |
-| Htop                         | Moniteur de système interactif             | `sudo apt install htop`                         |
+| Firefox | 자유롭고 인기 있는 웹 브라우저 | `sudo apt install firefox` |
+| Brave | 개인정보 보호 중심의 웹 브라우저 | Pop!_Shop 또는 공식 사이트를 통해 설치 |
+| Visual Studio Code (VS Code) | 개발자를 위한 강력한 코드 에디터 | `flatpak install flathub com.visualstudio.code` |
+| Git | 버전 관리 도구 | `sudo apt install git` |
+| Flatpak | 대안 패키지 관리자 | `sudo apt install flatpak` |
+| VLC | 다재다능한 멀티미디어 플레이어 | `sudo apt install vlc` |
+| GNOME Terminal | 기본 터미널 | Pop!OS에 기본 설치됨 |
+| Curl | 온라인 데이터 전송 도구 | `sudo apt install curl` |
+| Wget | HTTP/FTP를 통한 파일 다운로드 | `sudo apt install wget` |
+| Docker | 애플리케이션 컨테이너화 | 공식 스크립트 또는 `apt`를 통해 설치 |
+| Node.js | 서버 측 자바스크립트 환경 | `apt` 또는 NodeSource를 통해 설치 |
+| Python3 | 프로그래밍 언어 | `sudo apt install python3 python3-pip` |
+| GIMP | 고급 이미지 편집기 | `sudo apt install gimp` |
+| Thunderbird | 이메일 클라이언트 | `sudo apt install thunderbird` |
+| Transmission | 가벼운 비트토렌트 클라이언트 | `sudo apt install transmission-gtk` |
+| Htop | 대화형 시스템 모니터 | `sudo apt install htop` |
 
 ### 팝을 통한 설치! Shop(그래픽 인터페이스)을 통해 설치
 

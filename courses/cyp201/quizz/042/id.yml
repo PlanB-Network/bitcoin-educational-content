@@ -6,3 +6,4 @@ wrong_answers:
   - PRNG menggunakan kunci privat, TRNG menggunakan kunci publik.
 explanation: |
   PRNG bersifat deterministik, artinya mereka dapat mengulang urutan dari sebuah keadaan awal, tidak seperti TRNG.
+reviewed: true

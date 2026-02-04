@@ -1,6 +1,7 @@
 ---
-term: BETTERHASH
+term: Betterhash
 
+definition: Protokol penambangan yang memungkinkan penambang untuk mengontrol pemilihan transaksi sendiri, mengurangi sentralisasi pool. Prekursor Stratum V2.
 ---
 
 Protokol penambangan yang dikembangkan oleh Matt Corallo pada tahun 2018 sebagai upaya untuk melawan sentralisasi penambangan yang semakin meningkat pada kolam penambangan. Protokol ini berbeda dengan Stratum, yang merupakan protokol standar pada saat itu, dengan menawarkan _hasher_ lebih banyak kendali atas pemilihan transaksi yang akan dimasukkan ke dalam blok. Ide utama di balik BetterHash adalah untuk memberikan kembali kepada para pemburu kemungkinan untuk mengelola konstruksi template blok mereka sendiri, dengan tetap mempertahankan keuntungan dari kolam penambangan seperti pengurangan ketidaksamaan pendapatan.

@@ -1,0 +1,9 @@
+question: Cosa modifica l'halving su Bitcoin?
+answer: Il sussidio di blocco
+wrong_answers:
+  - Le commissioni di transazione
+  - La dimensione del blocco
+  - L'obiettivo di difficoltà
+explanation: |
+  L'halving divide per due il sussidio massimo creato per blocco, senza toccare le commissioni.
+reviewed: false

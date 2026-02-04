@@ -1,4 +1,4 @@
-question: Welk cryptografisch Exchange sleutelalgoritme vormt de kern van de werking van BIP47?
+question: Welk cryptografisch sleutelomwisselingsalgoritme vormt de kern van de werking van BIP47?
 answer: ECDH
 wrong_answers:
   - RSA

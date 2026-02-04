@@ -1,9 +1,9 @@
-question: Qual è lo scopo principale del decentramento nel Bitcoin?
+question: Qual è lo scopo principale della decentralizzazione in Bitcoin?
 answer: Per ottenere la resistenza alla censura
 wrong_answers:
   - Per aumentare la velocità di elaborazione delle transazioni
   - Ridurre i costi del consumo energetico
   - Per semplificare l'interfaccia utente
 explanation: |
-  La decentralizzazione nel Bitcoin serve principalmente per ottenere la resistenza alla censura, il che significa che nessuna singola entità può controllare, bloccare o manipolare le transazioni. Questo è esplicitamente dichiarato nel testo: "La decentralizzazione è un mezzo per ottenere la resistenza alla censura" Le altre opzioni non sono corrette perché la decentralizzazione rende il Bitcoin più lento e più dispendioso in termini di energia rispetto ai sistemi centralizzati e rende il sistema più complesso anziché più semplice. La resistenza alla censura è ciò che separa il Bitcoin dai sistemi monetari tradizionali e impedisce ai governi o ad altre autorità di chiuderlo o di controllare chi può usarlo.
-reviewed: false
+  La decentralizzazione in Bitcoin serve principalmente per ottenere la resistenza alla censura, il che significa che nessuna singola entità può controllare, bloccare o manipolare le transazioni. Questo è esplicitamente dichiarato nel testo: "La decentralizzazione è un mezzo per ottenere la resistenza alla censura". Le altre opzioni non sono corrette perché la decentralizzazione rende Bitcoin più lento e più dispendioso in termini di energia rispetto ai sistemi centralizzati e rende il sistema più complesso anziché più semplice. La resistenza alla censura è ciò che separa Bitcoin dai sistemi monetari tradizionali e impedisce ai governi o ad altre autorità di chiuderlo o di controllare chi può usarlo.
+reviewed: true

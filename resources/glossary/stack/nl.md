@@ -1,5 +1,6 @@
 ---
-term: BATTERIJ
+term: Stack
+definition: LIFO-datastructuur die in Bitcoin Script wordt gebruikt om tijdelijke elementen op te slaan en te manipuleren tijdens de uitvoering.
 ---
 
 In de context van de scripttaal die gebruikt wordt om bestedingsvoorwaarden toe te voegen aan Bitcoin UTXO's, is de stack een LIFO (*Last In, First Out*) datastructuur die gebruikt wordt om tijdelijke Elements op te slaan tijdens de uitvoering van het script. Elke bewerking in het script manipuleert deze stapels, waarbij Elements kan worden toegevoegd (*push*) of verwijderd (*pop*). Scripts gebruiken stacks om uitdrukkingen te evalueren, tijdelijke variabelen op te slaan en voorwaarden te beheren.

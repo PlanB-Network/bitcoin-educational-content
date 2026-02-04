@@ -1,0 +1,9 @@
+question: 從 Bitcoin onchain 的角度來看，何謂 Lightning 通道？
+answer: Multisig 自然輸出 2/2
+wrong_answers:
+  - 腳本 P2MS 2/2
+  - UTXO 單
+  - 聯盟合約
+explanation: |
+  在 Onchain 上，Lightning 通道由需要雙方參與者簽名的多重簽名輸出表示。
+reviewed: false

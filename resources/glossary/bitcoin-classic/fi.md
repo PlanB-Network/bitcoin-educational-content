@@ -1,5 +1,6 @@
 ---
-term: BITCOIN CLASSIC
+term: Bitcoin classic
 
+definition: Vuonna 2016 ehdotettu haarautuminen (fork), jonka tavoitteena oli kasvattaa lohkokoko 2 megatavuun, mutta se hylättiin myöhemmin.
 ---
 Ehdotus protokollahaarukaksi, joka käynnistettiin tammikuussa 2016 Bitcoin XT:n hylkäämisen jälkeen. Sen tavoitteena oli kasvattaa lohkokokorajoitusta 1 MB:sta 2 MB:iin BIP109:n avulla, mitä pidettiin maltillisempana lähestymistapana verrattuna Bitcoin XT:hen, jossa ehdotettiin paljon suurempaa kasvua (8 MB + kaksinkertaistuminen joka toinen vuosi). Aloitetta johtivat kehittäjät Gavin Andresen ja Jeff Garzik, ja sitä tukivat ekosysteemin suuret yritykset, kuten Coinbase. Bitcoin Classic syntyi lohkokokosodan kiihtyessä voimakkaasti, ja se luokiteltiin isojen lohkojaisten leiriin. Vaikka Bitcoin Classic sai huomiota ja tukea monilta alan toimijoilta, sen aktivointimekanismi, joka edellytti 75 prosentin tukea louhijoilta, oli kiistanalainen ja vaikutti lopulta sen epäonnistumiseen.

@@ -1,8 +1,9 @@
-question: Nk’uko Cantillon abivuga, ni igiki nyamukuru kiranga umudandaza?
-answer: Bitera imbere mu kutamenya neza .
+question: Nk’uko Cantillon abivuga, ni igiki nyamukuru kiranga umudandaza(umuntu yiyungunganya)?
+answer: Bitera imbere mu kutamenya .
 wrong_answers:
-  - Ifise umurwa mukuru .
+  - Ifise umutahe .
   - Ni umuhinguzi w'ibintu bishasha
   - Akomoka mu muryango w'abatunzi .
 explanation: |
   Cantillon ashimika ku ruhara rw’umugwi w’abahinga mu gihe hari ukudakeka n’ingorane. Uwugira rwiyemezamirimo ni we afata ingingo mu kibanza kitamenyekana, akagira ingaruka z’ivyo ahisemwo.
+reviewed: true

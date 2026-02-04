@@ -726,14 +726,15 @@ Máy chủ BTCPay bao gồm các tính năng Wallet tiêu chuẩn sau:
 Quản trị viên có thể xem các giao dịch đến và đi của On-Chain và Wallet được kết nối với cửa hàng cụ thể này trong chế độ xem giao dịch. Mỗi giao dịch có sự phân biệt giữa số tiền đã nhận và đã gửi. Giao dịch đã nhận sẽ là Green, và giao dịch đã gửi sẽ có màu đỏ. Trong chế độ xem giao dịch của Máy chủ BTCPay, quản trị viên cũng sẽ thấy một bộ nhãn tiêu chuẩn.
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| Loại giao dịch | Mô tả                                             |
+| -------------- | ------------------------------------------------- |
+| Ứng dụng        | Thanh toán được nhận thông qua hóa đơn do ứng dụng tạo |
+| Hóa đơn         | Thanh toán được nhận thông qua hóa đơn            |
+| Payjoin         | Chưa thanh toán, bộ đếm thời gian hóa đơn vẫn chưa hết hạn |
+| Payjoin-bị lộ   | UTXO bị lộ thông qua đề xuất payjoin trong hóa đơn |
+| Yêu cầu thanh toán | Thanh toán được nhận thông qua yêu cầu thanh toán |
+| Thanh toán      | Thanh toán được gửi thông qua thanh toán hoặc hoàn tiền |
 
 ### Cách gửi
 
@@ -1803,28 +1804,30 @@ Mỗi loại đều có các tham số riêng để điền. Chủ cửa hàng c
 Máy chủ BTCPay cũng cho phép bạn xây dựng Biểu mẫu bằng mã, đặc biệt là JSON. Thay vì nhìn vào trình soạn thảo, chủ cửa hàng có thể nhấp vào nút MÃ (CODE) ngay bên cạnh trình soạn thảo và truy cập vào mã của Biểu mẫu. Trong định nghĩa trường, chỉ có thể thiết lập các trường sau; giá trị của các trường được lưu trữ trong siêu dữ liệu của Invoice:
 
 
-| Field                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+| Trường | Mô tả |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| .fields.constant      | If true, the .value must be set in the form definition, and the user will not be able to change the field's value. ( example: the form definition's version)                                                                                                                                                                                                                                                                                                       |
-| .fields.type          | The HTML input type text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel                                                                                                                                                                                                                                                                                                |
-| .fields.options       | If .fields.type is select, the list of selectable values                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.options.text  | The text displayed for this option                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| .fields.options.value | The value of the field if this option is selected                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| .fields.type=fieldset | Create a HTML fieldset around the children .fields.fields (see below)                                                                                                                                                                                                                                                                                                                                                                                              |
-| .fields.name          | The JSON property name of the field as it will appear in the invoice's metadata                                                                                                                                                                                                                                                                                                                                                                                    |
-| .fields.value         | The default value of the field                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| .fields.required      | if true, the field will be required                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| .fields.label         | The label of the field                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| .fields.helpText      | Additional text to provide an explanation for the field.                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.fields        | You can organize your fields in a hierarchy, allowing child fields to be nested within the invoice’s metadata. This structure can help you better organize and manage the collected information, making it easier to access and interpret. For example, if you have a form that collects customer information, you can group the fields under a parent field called customer. Within this parent field, you might have child fields like name, Email, and address. |
+| .fields.constant | Nếu true, .value phải được đặt trong định nghĩa biểu mẫu và người dùng sẽ không thể thay đổi giá trị của trường. (ví dụ: phiên bản của định nghĩa biểu mẫu) |
+| .fields.type | Loại đầu vào HTML: text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel |
+| .fields.options | Nếu .fields.type là select, danh sách các giá trị có thể chọn |
+| .fields.options.text | Văn bản hiển thị cho tùy chọn này |
+| .fields.options.value | Giá trị của trường nếu tùy chọn này được chọn |
+| .fields.type=fieldset | Tạo một fieldset HTML xung quanh các trường con .fields.fields (xem bên dưới) |
+| .fields.name | Tên thuộc tính JSON của trường khi nó xuất hiện trong siêu dữ liệu của hóa đơn |
+| .fields.value | Giá trị mặc định của trường |
+| .fields.required | nếu true, trường sẽ là bắt buộc |
+| .fields.label | Nhãn của trường |
+| .fields.helpText | Văn bản bổ sung để cung cấp giải thích cho trường. |
+| .fields.fields | Bạn có thể tổ chức các trường của mình theo một hệ thống phân cấp, cho phép các trường con được lồng bên trong siêu dữ liệu của hóa đơn. Cấu trúc này có thể giúp bạn tổ chức và quản lý thông tin thu thập được tốt hơn, giúp việc truy cập và diễn giải trở nên dễ dàng hơn. Ví dụ: nếu bạn có một biểu mẫu thu thập thông tin khách hàng, bạn có thể nhóm các trường dưới một trường cha có tên là customer. Trong trường cha này, bạn có thể có các trường con như name, Email và address. |
 
 Tên trường đại diện cho tên thuộc tính JSON lưu trữ giá trị do người dùng cung cấp trong siêu dữ liệu của Invoice. Một số tên phổ biến có thể được diễn giải và sửa đổi để điều chỉnh cài đặt của Invoice.
 
 
-| Field name       | Description            |
+
+| Tên trường       | Mô tả                 |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | Số tiền hóa đơn       |
+| invoice_currency | Tiền tệ của hóa đơn   |
 
 Bạn có thể tự động điền trước các trường của Invoice bằng cách thêm chuỗi truy vấn vào URL của biểu mẫu, chẳng hạn như "?your_field=value".
 
@@ -2274,7 +2277,8 @@ docker logs --tail 100 generated_btcpayserver_1
 ```
 
 
-| Logs for     | Container Name                    |
+
+| Nhật ký cho  | Tên vùng chứa                      |
 | ------------ | --------------------------------- |
 | BTCPayServer | generated_btcpayserver_1          |
 | NBXplorer    | generated_nbxplorer_1             |
@@ -2465,21 +2469,22 @@ Trừ khi bạn sử dụng [Wallet](https://docs.btcpayserver.org/Wallet/) tíc
 Bảng dưới đây liệt kê và mô tả các trạng thái Invoice tiêu chuẩn trong BTCPay, cùng với các hành động phổ biến được đề xuất. Các hành động chỉ mang tính chất khuyến nghị. Người dùng tự xác định phương án hành động phù hợp nhất với trường hợp sử dụng và doanh nghiệp của mình.
 
 
-| Invoice Status             | Description                                                                                                                             | Action                                                                                                                      |
+
+| Trạng thái hóa đơn | Mô tả | Hành động |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| New                        | Not paid, invoice timer still has not expired                                                                                           | None                                                                                                                        |
-| New (paidPartial)          | Paid, not in full, invoice timer still has not expired                                                                                  | None                                                                                                                        |
-| Expired                    | Not paid, invoice timer expired                                                                                                         | None                                                                                                                        |
-| Expired (paidPartial) \*\* | Paid, not in full amount, and expired                                                                                                   | Contact buyer to arrange a refund or ask for them to pay their due. Optionally mark the invoice as settled or invalid           |
-| Expired (paidLate)         | Paid, in full amount, after the invoice timer has expired                                                                               | Contact buyer to arrange a refund or process order if late confirmations are acceptable.                                    |
-| Settled (paidOver)         | Paid more than the invoice amount, settled, received sufficient amount of confirmations                                                 | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing                 | Paid in full, but has not received sufficient amount of confirmations specified in the store settings                                   | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing (paidOver)      | Paid more than the invoice amount, not received sufficient amount of confirmations                                                      | Wait to be settled, then contact the  buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
-| Settled                    | Paid, in full, received sufficient amount of confirmations in store                                                                     | Fulfil the order                                                                                                            |
-| Settled (marked)           | Status was manually changed to settled from a processing or invalid status                                                             | Store admin has marked the payment as settled                                                                               |
-| Invalid\*                  | Paid, but failed to receive sufficient amount of confirmations within the time specified in store settings                              | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
-| Invalid (marked)           | Status was manually changed to invalid from a settled or expired status                                                                 | Store admin has marked the payment as invalid                                                                               |
-| Invalid (paidOver)         | Paid more than the invoice amount, but failed to receive sufficient amount of confirmations within the time specified in store settings | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
+| New | Chưa thanh toán, bộ đếm thời gian hóa đơn chưa hết hạn | Không |
+| New (paidPartial) | Đã thanh toán một phần, bộ đếm thời gian hóa đơn chưa hết hạn | Không |
+| Expired | Chưa thanh toán, bộ đếm thời gian hóa đơn đã hết hạn | Không |
+| Expired (paidPartial) ** | Đã thanh toán một phần và đã hết hạn | Liên hệ người mua để hoàn tiền hoặc yêu cầu trả nốt. Có thể đánh dấu hóa đơn là settled hoặc invalid |
+| Expired (paidLate) | Đã thanh toán đủ sau khi bộ đếm thời gian hóa đơn đã hết hạn | Liên hệ người mua để hoàn tiền hoặc xử lý đơn hàng nếu chấp nhận xác nhận muộn. |
+| Settled (paidOver) | Thanh toán nhiều hơn số tiền hóa đơn, đã tất toán, nhận đủ xác nhận | Liên hệ người mua để hoàn lại số tiền thừa, hoặc tùy chọn đợi người mua liên hệ |
+| Processing | Đã thanh toán đủ, nhưng chưa nhận đủ số lượng xác nhận trong cài đặt cửa hàng | Liên hệ người mua để hoàn lại số tiền thừa, hoặc tùy chọn đợi người mua liên hệ |
+| Processing (paidOver) | Thanh toán nhiều hơn số tiền hóa đơn, chưa nhận đủ số lượng xác nhận | Đợi đến khi tất toán, sau đó liên hệ người mua để hoàn tiền thừa, hoặc đợi người mua liên hệ |
+| Settled | Đã thanh toán đủ, đã nhận đủ số lượng xác nhận trong cửa hàng | Hoàn tất đơn hàng |
+| Settled (marked) | Trạng thái được thay đổi thủ công thành settled từ trạng thái processing hoặc invalid | Quản trị viên cửa hàng đã đánh dấu thanh toán là settled |
+| Invalid* | Đã thanh toán, nhưng không nhận đủ xác nhận trong thời gian quy định | Kiểm tra giao dịch trên blockchain explorer; nếu đủ xác nhận, đánh dấu là settled |
+| Invalid (marked) | Trạng thái được thay đổi thủ công thành invalid từ trạng thái settled hoặc expired | Quản trị viên cửa hàng đã đánh dấu thanh toán là invalid |
+| Invalid (paidOver) | Thanh toán nhiều hơn hóa đơn, nhưng không nhận đủ xác nhận trong thời gian quy định | Kiểm tra giao dịch trên blockchain explorer; nếu đủ xác nhận, đánh dấu là settled |
 
 #### Chi tiết Invoice
 

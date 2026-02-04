@@ -147,11 +147,12 @@ Sie müssen die für den Betrieb von OPNsense erforderlichen Hardware-Ressourcen
 
 
 
-| Caractéristiques | Minimum | Recommandation |
+
+| Merkmale | Minimum | Empfehlung |
 | --- | --- | --- |
-| Processeur | 1 GHz - 2 cœurs | 1.5 GHz - Multi-coeurs |
-| Mémoire vive (RAM) | 2 Go | 8 Go |
-| Espace de stockage pour le système | Disque dur, disque SSD ou carte SD (4 Go) | 120 Go en SSD |
+| Prozessor | 1 GHz - 2 Kerne | 1.5 GHz - Multi-Core |
+| Arbeitsspeicher (RAM) | 2 GB | 8 GB |
+| Speicherplatz für das System | Festplatte, SSD oder SD-Karte (4 GB) | 120 GB auf SSD |
 
 Schließlich hängt der **Ressourcenbedarf vor allem von der Anzahl der zu verwaltenden Verbindungen** und damit vom **Bandbreitenbedarf** ab. Darüber hinaus müssen Sie **die Dienste berücksichtigen, die aktiviert und verwendet werden** (Proxy, Intrusion Detection usw.), da diese CPU- und/oder RAM-hungrig sein können.
 

@@ -1,5 +1,6 @@
 ---
 term: P2WPKH
+definition: 將比特幣鎖定在公鑰哈希上的原生 SegWit 腳本，地址為 bc1q。
 ---
 
 P2WPKH 代表 * 付費見證公開金鑰 Hash*。它是一個標準的腳本模型，用於建立 UTXO 的支出條件。P2WPKH 是在 2017 年 8 月實施 SegWit 時引入的。

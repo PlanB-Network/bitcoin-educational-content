@@ -1,0 +1,9 @@
+question: Koji od pomenutih metoda povezivanja između Lightning čvora i mobilnog klijenta eksplicitno nije preporučen za ovu upotrebu?
+answer: Tor
+wrong_answers:
+  - Tailscale
+  - Nostr Wallet Poveži
+  - Nijedno
+explanation: |
+  Tor radi veoma loše u praksi za ovu svrhu, sa neuspesima i kašnjenjem koji stvaraju loše korisničko iskustvo.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: VILJA
+term: Seed
+definition: 512-bittinen tieto, jonka avulla voidaan luoda kaikki HD Bitcoin-lompakon avaimet.
 ---
 
 Bitcoin-hierarkkisen deterministisen portfolion yhteydessä seed on 512-bittinen tieto, joka on johdettu satunnaistapahtumasta. Sitä käytetään deterministisesti ja hierarkkisesti generate yksityisten avainten ja niitä vastaavien julkisten avainten joukkoon Bitcoin-salkkua varten. seed sekoitetaan usein itse palautuslausekkeeseen. Se ei kuitenkaan ole sama asia. seed saadaan soveltamalla `PBKDF2`-funktiota Mnemonic-lauseeseen ja mihin tahansa passphrase-lauseeseen.

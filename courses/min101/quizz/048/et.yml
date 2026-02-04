@@ -1,0 +1,9 @@
+question: Mis on esimene Bitcoini kaevandamisbassein?
+answer: Braiins Pool
+wrong_answers:
+  - Foundry USA
+  - AntPool
+  - F2Pool
+explanation: |
+  Braiins Pool, endise nimega Slush Pool ja Bitcoin CZ, on esimene Bitcoini kaevandamisbassein, mis loodi 2010. aastal.
+reviewed: false

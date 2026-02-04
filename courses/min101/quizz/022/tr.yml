@@ -1,0 +1,9 @@
+question: Hashrate neyi ölçer?
+answer: Saniye başına hash sayısı
+wrong_answers:
+  - Saniye başına blok sayısı
+  - Saniye başına işlem sayısı
+  - Saniye başına bayt sayısı
+explanation: |
+  Hashrate, her saniye yapılan hash denemesi sayısını H/s cinsinden ifade eder.
+reviewed: false

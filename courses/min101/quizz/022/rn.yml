@@ -1,0 +1,9 @@
+question: Hashrate ipima iki?
+answer: Hachage ku isegonda
+wrong_answers:
+  - Ibice ku isegonda
+  - Urudandana rw'amafaranga ku isegonda
+  - Octets ku isegonda
+explanation: |
+  Hashrate yerekana igitigiri c'igerageza rya hachage rikorewe ku isegonda, muri H/s.
+reviewed: false

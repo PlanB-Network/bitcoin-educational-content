@@ -1,0 +1,9 @@
+question: Ikiwa vitalu vilipatikana haraka sana katika kipindi cha mwisho, nini hutokea?
+answer: Lengo linashuka
+wrong_answers:
+  - Lengo linapanda
+  - Lengo linabaki lile lile
+  - Ukubwa wa kitalu huongezeka
+explanation: |
+  Vitalu vinavyopatikana haraka sana vinaonyesha hashrate ya juu, kwa hivyo Bitcoin inaimarisha sharti hilo kwa kushusha lengo.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: PATHFINDING
+term: Búsqueda de rutas
+definition: Proceso de determinación de la ruta óptima para enrutar un pago en Lightning Network.
 ---
 
 Proceso utilizado por un nodo para determinar la ruta óptima para encaminar un pago a través de la red de canales Lightning. La búsqueda de la ruta la realiza el nodo pagador, que debe seleccionar los nodos intermedios más adecuados para llegar al destinatario. Esta elección se basa en una serie de criterios, como las tarifas, la capacidad del canal y los plazos.

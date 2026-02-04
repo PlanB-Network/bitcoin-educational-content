@@ -1,0 +1,9 @@
+question: Sa čime se mora povezati Lightning čvor?
+answer: Bitcoin čvor
+wrong_answers:
+  - Rudar
+  - Istraživač blokova
+  - Federisani server
+explanation: |
+  Lightning čvor zavisi od Bitcoin čvora za pristup informacijama iz glavnog blockchaina.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Prinsip statistik mana yang menjelaskan bahwa frekuensi blok yang ditemukan menyatu dengan pangsa hashrate dalam jangka panjang?
+answer: Hukum bilangan besar
+wrong_answers:
+  - Teorema Bayes
+  - Paradoks ulang tahun
+  - Prinsip aksi terkecil
+explanation: |
+  Konvergensi hasil disebabkan oleh hukum bilangan besar, karena setiap hash adalah percobaan independen.
+reviewed: false

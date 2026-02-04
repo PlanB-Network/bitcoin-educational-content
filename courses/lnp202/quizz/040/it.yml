@@ -1,0 +1,9 @@
+question: Perché utilizzare un gestore di nodi Lightning?
+answer: Facile accesso alle funzioni avanzate
+wrong_answers:
+  - Sostituire l'implementazione di LND
+  - Eliminare la dipendenza da Umbrel
+  - Modifica del protocollo Lightning
+explanation: |
+  I gestori avanzati offrono funzionalità non disponibili nell'interfaccia di base, pur rimanendo interfacce semplici.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: pruned KNODE
+term: Gepruunde node
+definition: Full node die oude geverifieerde blokken verwijdert om opslagruimte te besparen.
 ---
 
 Een pruned node, in het Engels "pruned Node", is een Full node die het snoeien van de Blockchain uitvoert. Dit houdt in het geleidelijk verwijderen van de oudste blokken, nadat deze naar behoren zijn geverifieerd, om alleen de meest recente blokken te behouden. De retentie limiet wordt gespecificeerd in het `Bitcoin.conf` bestand via de `prune=n` parameter, waar `n` de maximale grootte is die de blokken innemen in megabytes (MB). Als `0` achter deze parameter staat, dan is snoeien uitgeschakeld en bewaart het knooppunt de Blockchain in zijn geheel.

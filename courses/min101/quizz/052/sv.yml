@@ -1,0 +1,9 @@
+question: Enkelt uttryckt, vad är ett block på Bitcoin?
+answer: Ett paket med transaktioner
+wrong_answers:
+  - En betalning
+  - En central server
+  - En privat nyckel
+explanation: |
+  Förenklat sett är ett block helt enkelt en uppsättning grupperade transaktioner.
+reviewed: false

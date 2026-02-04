@@ -1,5 +1,6 @@
 ---
 term: P2WSH
+definition: 將比特幣鎖定在腳本哈希上的原生 SegWit 腳本，地址為 bc1q。
 ---
 
 P2WSH 代表 *Pay to Witness Script Hash*。它是用於在 UTXO 上建立支出條件的標準腳本模型。P2WSH 是在 2017 年 8 月實施 SegWit 時引入的。

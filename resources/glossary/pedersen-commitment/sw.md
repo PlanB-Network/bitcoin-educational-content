@@ -1,5 +1,6 @@
 ---
 term: Pedersen commitment
+definition: Ahadi ya siri ya homomorphic inayoruhusu uhakiki wa jumla bila kufichua thamani.
 ---
 
 Pedersen commitment ni aina ya kriptografia Commitment yenye sifa ya kuwa sawa na operesheni ya kuongeza. Hii ina maana kwamba inawezekana kuthibitisha jumla ya ahadi mbili bila kufichua maadili ya mtu binafsi.

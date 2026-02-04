@@ -685,13 +685,14 @@ Dessa regelbundna uppdateringar är en stor tillgång, särskilt för enheter so
 
 
 
-| **Aspect** | **GrapheneOS** | **LineageOS** |
+
+| **Aspekt** | **GrapheneOS** | **LineageOS** |
 |------------|----------------|---------------|
-| **Compatibilité** | Pixels uniquement | Centaines d'appareils |
-| **Sécurité** | Mitigations avancées | Sécurité AOSP standard |
-| **Google Play** | Sandboxé optionnel | Installation classique possible |
-| **Installation** | Interface web + USB | Procédure manuelle technique |
-| **Philosophie** | Sécurité avant tout | Équilibre et liberté de choix |
+| **Kompatibilitet** | Endast Pixels | Hundratals enheter |
+| **Säkerhet** | Avancerade åtgärder | Standard AOSP-säkerhet |
+| **Google Play** | Valfri sandlåda | Klassisk installation möjlig |
+| **Installation** | Webgränssnitt + USB | Teknisk manuell procedur |
+| **Filosofi** | Säkerhet framför allt | Balans och valfrihet |
 
 ### Rekommendationer för användning
 

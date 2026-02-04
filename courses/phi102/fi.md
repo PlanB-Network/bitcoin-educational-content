@@ -40,7 +40,6 @@ Oletko valmis selvittämään, miksi vapaus ei ole vain moraalinen ihanne vaan m
 
 
 
-![video](https://www.youtube.com/watch?v=md-rDzJX0Ws)
 
 
 
@@ -96,7 +95,6 @@ Lisäksi aistimukset ovat luonnostaan yksilöllisiä. Nälkää ei voi kokea toi
 
 
 
-![video](https://www.youtube.com/watch?v=w9DUtXbOYEg)
 
 
 
@@ -152,7 +150,6 @@ Ranskan historia on osoitus tämän vapauden puuttumisen seurauksista. Valistuks
 
 
 
-![video](https://www.youtube.com/watch?v=Vjm91Lve_SA)
 
 
 
@@ -238,7 +235,6 @@ Yhdessä nämä havainnot eivät muodosta abstraktia teoriaa, vaan tiukan arvion
 
 
 
-![video](https://www.youtube.com/watch?v=Wlc3WLYFjXo)
 
 
 
@@ -306,7 +302,6 @@ Avioliittokysymys havainnollistaa näitä periaatteita: puolison valinnan on olt
 
 
 
-![video](https://www.youtube.com/watch?v=8Ib5M-6Rr8M)
 
 
 
@@ -383,7 +378,6 @@ Rahan koron poistaminen ja voittojen sääntely ovat hyökkäyksiä vapaaehtoisi
 
 
 
-![video](https://www.youtube.com/watch?v=eS_LZr9iKto)
 
 
 
@@ -452,7 +446,6 @@ Historiallinen analyysi osoittaa, että vapaus ei ole kadonnut luonnontila, joka
 
 
 
-![video](https://www.youtube.com/watch?v=v7blehzJCr8)
 
 
 
@@ -511,7 +504,6 @@ Vapauden puutteen historiallisten syiden tarkastelu paljastaa perustavanlaatuise
 
 
 
-![video](https://www.youtube.com/watch?v=X4Htu6xM4Qk)
 
 
 
@@ -571,7 +563,6 @@ Kehityksen eri vaiheiden tarkastelu paljastaa syvän korrelaation aineellisten o
 
 
 
-![video](https://www.youtube.com/watch?v=Uzns3FT688k)
 
 
 
@@ -630,7 +621,6 @@ Vallankumouksilla on huomattavia haittoja: ne aiheuttavat paljon väkivaltaa, ja
 
 
 
-![video](https://www.youtube.com/watch?v=0q_m3KIoq-U)
 
 
 
@@ -684,7 +674,6 @@ Tämä pohdinta johtaa olennaisen tärkeään johtopäätökseen: nykyiset olosu
 
 
 
-![video](https://www.youtube.com/watch?v=aEoerhy6ERU)
 
 
 
@@ -745,7 +734,6 @@ Kun nämä edellytykset on vahvistettu, on nyt mahdollista tarkastella vapauteen
 
 
 
-![video](https://www.youtube.com/watch?v=xcaV6Kb21O0)
 
 
 
@@ -801,7 +789,6 @@ Tästä analyysistä seuraa perustavanlaatuinen johtopäätös: lisääntyvä ka
 
 
 
-![video](https://www.youtube.com/watch?v=qrE5GJWNwGE)
 
 
 
@@ -860,7 +847,6 @@ Taloudellisen vapauden ratkaiseva etu on se, että tuotanto ei ole koskaan liian
 
 
 
-![video](https://www.youtube.com/watch?v=tfH8FapqqsE)
 
 
 
@@ -920,7 +906,6 @@ Vapaassa yhteiskunnassa oman edun tavoittelu johtaa innovaatioihin ja edistyksee
 
 
 
-![video](https://www.youtube.com/watch?v=hS1_Nkd_H9M)
 
 
 
@@ -976,7 +961,6 @@ Siirtyminen rauhanomaiseen yhteiskuntaan on pitkä oppimisprosessi. Ihmisten yht
 
 
 
-![video](https://www.youtube.com/watch?v=DzE_iGRP5Z0)
 
 
 
@@ -1035,7 +1019,6 @@ Vapaudettomille järjestelmille on ominaista nimenomaan eriarvoisuus: jotkut yks
 
 
 
-![video](https://www.youtube.com/watch?v=LDMCs9wCTQc)
 
 
 
@@ -1095,7 +1078,6 @@ Sitä vastoin poliittiseen valtaan perustuvat suhteet toimivat typistetyllä tav
 
 
 
-![video](https://www.youtube.com/watch?v=mfvPE1fO3-E)
 
 
 
@@ -1167,7 +1149,6 @@ Vapausoppi vastustaa tätä logiikkaa yksilöllisen ja kollektiivisen irtautumis
 
 
 
-![video](https://www.youtube.com/watch?v=VT3w2BjiD8E)
 
 
 
@@ -1227,7 +1208,6 @@ Nämä kirjoittajat pitivät työvoimaprotektionismia tulevaisuudessa vallitseva
 
 
 
-![video](https://www.youtube.com/watch?v=MRcLZ1SpAo8)
 
 
 
@@ -1297,7 +1277,6 @@ Tämä älyllinen ja tosiasioihin perustuva historia vapaudettomuuden epäonnist
 
 
 
-![video](https://www.youtube.com/watch?v=asOEZJRQuOw)
 
 
 
@@ -1341,7 +1320,6 @@ Negatiivisen ja positiivisen vapauden välinen ero on ratkaiseva. Negatiivinen v
 
 
 
-![video](https://www.youtube.com/watch?v=mkzE0SfSl1Q)
 
 
 
@@ -1396,7 +1374,6 @@ Näiden vaarojen edessä liberaali ajattelu, erityisesti Benjamin Constantin aja
 
 
 
-![video](https://www.youtube.com/watch?v=K1e39vtOoCc)
 
 
 
@@ -1456,7 +1433,6 @@ Taloudelliset harhaluulot ovat kuitenkin vain yksi luokka monien muiden joukossa
 
 
 
-![video](https://www.youtube.com/watch?v=zJhhcxwXpRI)
 
 
 
@@ -1515,7 +1491,6 @@ Liberaalien kirjailijoiden herkkyys köyhyyttä ja heikkoja kohtaan on kuitenkin
 
 
 
-![video](https://www.youtube.com/watch?v=GtxJlUa_H08)
 
 
 
@@ -1582,7 +1557,6 @@ Tämän analyysin avulla voimme myös ymmärtää, miten vapaudenvastaiset järj
 
 
 
-![video](https://www.youtube.com/watch?v=ary4UJhwRl8)
 
 
 
@@ -1646,7 +1620,6 @@ Courcelle-Seneuil yksinkertaisesti vahvisti Ranskan vallankumouksen ajatukset ty
 
 
 
-![video](https://www.youtube.com/watch?v=c8Wi5jkSEu8)
 
 
 
@@ -1707,7 +1680,6 @@ Nykyinen todellisuus paljastaa paradoksaalisen ja surullisen tilanteen. Koulutuk
 
 
 
-![video](https://www.youtube.com/watch?v=cEzFGSnYfnk)
 
 
 
@@ -1771,7 +1743,6 @@ Molinari ja valtaosa hänen aikansa ranskalaisista liberaaleista suhtautuivat ma
 
 
 
-![video](https://www.youtube.com/watch?v=b8PojgZ0TQo)
 
 
 
@@ -1831,7 +1802,6 @@ Tällaista kansainvälisen oikeuden tilaa, jossa tunnustettaisiin toimintavapaus
 
 
 
-![video](https://www.youtube.com/watch?v=OfqTuJvo3MQ)
 
 
 

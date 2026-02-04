@@ -147,11 +147,12 @@ Je třeba vzít v úvahu hardwarové prostředky potřebné k provozu systému O
 
 
 
-| Caractéristiques | Minimum | Recommandation |
+
+| Charakteristiky | Minimum | Doporučení |
 | --- | --- | --- |
-| Processeur | 1 GHz - 2 cœurs | 1.5 GHz - Multi-coeurs |
-| Mémoire vive (RAM) | 2 Go | 8 Go |
-| Espace de stockage pour le système | Disque dur, disque SSD ou carte SD (4 Go) | 120 Go en SSD |
+| Procesor | 1 GHz - 2 jádra | 1.5 GHz - Vícejadrový |
+| Paměť RAM | 2 GB | 8 GB |
+| Místo pro uložení systému | Pevný disk, SSD nebo SD karta (4 GB) | 120 GB na SSD |
 
 A konečně, **vaše požadavky na prostředky závisí především na počtu spravovaných připojení**, a tedy na **vašich požadavcích na šířku pásma**. Kromě toho je třeba **zohlednit služby, které budou aktivovány a používány** (proxy server, detekce narušení atd.), protože mohou být náročné na procesor a/nebo paměť RAM.
 

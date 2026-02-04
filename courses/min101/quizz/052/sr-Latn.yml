@@ -1,0 +1,9 @@
+question: Jednostavno rečeno, šta je blok na Bitcoin mreži?
+answer: Paket transakcija
+wrong_answers:
+  - Plaćanje
+  - Centralni server
+  - Privatni ključ
+explanation: |
+  Ako pojednostavimo, blok je jednostavno skup grupisanih transakcija.
+reviewed: false

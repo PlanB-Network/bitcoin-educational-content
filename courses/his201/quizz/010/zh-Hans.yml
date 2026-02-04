@@ -1,8 +1,8 @@
-question: 谁是PayPal创立背后的主要人物？
-answer: 彼得·泰尔
+question: PayPal 创立背后的主要人物是谁？
+answer: Peter Thiel
 wrong_answers:
-  - 埃隆·马斯克
-  - 马克·安德森
-  - 马克·扎克伯格
+  - Elon Musk
+  - Marc Andreessen
+  - Mark Zuckerberg
 explanation: |
-  PayPal产品是由Confinity Inc.在1999年开发的，该公司由彼得·泰尔和马克斯·列夫琴于1998年12月在旧金山共同创立。
+  PayPal 是由 Confinity Inc. 于 1999 年开发的，该公司由 Peter Thiel 和 Max Levchin 于 1998 年 12 月在旧金山共同创立。

@@ -1,6 +1,7 @@
 ---
-term: LUCK
+term: May mắn
 
+definition: Chỉ số đo lường hiệu suất của một bể đào so với kỳ vọng lý thuyết.
 ---
 An indicator used in mining pools to measure a pool's performance relative to its theoretical expectations. As its name suggests, it evaluates the pool's luck in finding a block. Luck is calculated by comparing the number of shares theoretically needed to find a valid block, based on the current difficulty of Bitcoin, to the actual number of shares produced to find that block. A number of shares lower than expected indicates good luck, while a higher number indicates bad luck.
 

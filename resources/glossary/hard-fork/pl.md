@@ -1,5 +1,6 @@
 ---
-term: Hard Fork
+term: Hard fork
+definition: Niewstecznie kompatybilna zmiana protokołu powodująca trwałe rozszczepienie sieci.
 ---
 
 Zmiana zasad protokołu w sposób, który nie jest kompatybilny wstecz. Zmiana ta prowadzi do trwałego rozdzielenia sieci węzłów Bitcoin na dwie odrębne grupy: węzły z aktualizacją i węzły bez aktualizacji. Podział ten jest zmaterializowany przez podział oryginalnego Blockchain na dwa oddzielne łańcuchy bloków, które jednak mają wspólną historię, stąd użycie terminu "Fork", który można przetłumaczyć na francuski jako "embranchement, bifurcation"

@@ -1,0 +1,9 @@
+question: Từ góc nhìn của nút mạng, sự phân bổ thanh khoản ban đầu sau khi mở kênh là như thế nào?
+answer: 100% xuất cảnh
+wrong_answers:
+  - 50% khách hàng đến, 50% khách hàng đi
+  - 100% khách hàng đến
+  - 90% hàng gửi đi, 10% hàng nhận về
+explanation: |
+  Khi một kênh được mở, toàn bộ thanh khoản ban đầu đều nằm về phía người khởi xướng.
+reviewed: false

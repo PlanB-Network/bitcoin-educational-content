@@ -1,5 +1,6 @@
 ---
-term: CÓDIGO BCH
+term: Código BCH
+definition: Códigos de corrección de errores utilizados en las direcciones Bech32 y Bech32m para detectar errores de entrada.
 ---
 
 Clase de códigos de corrección de errores utilizados para detectar y corregir errores en una secuencia de datos. En otras palabras, los códigos de corrección de errores BCH se utilizan para encontrar y corregir errores aleatorios en la información transmitida, con el fin de garantizar que llegue intacta a su destino. Las siglas "BCH" corresponden a las iniciales de los nombres de los inventores de estos códigos: Bose, Ray-Chaudhuri y Hocquenghem.

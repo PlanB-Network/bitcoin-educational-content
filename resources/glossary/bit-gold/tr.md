@@ -1,5 +1,6 @@
 ---
-term: BİT ALTIN
+term: Bit gold
+definition: Nick Szabo'nun 1998'deki merkeziyetsiz dijital para birimi konsepti, Bitcoin'in öncüsü.
 ---
 
 Bit gold, Nick Szabo tarafından 1998 yılında kavramsallaştırılan ve 2005 yılında kamuya açıklanan merkezi olmayan bir dijital para birimi sistemidir. Bit gold, generate ve Exchange için bit gold adı verilen sanal bir kaynak olarak tasarlanmıştır. Bu sistem herhangi bir fiziksel mala dayanmıyordu ancak bir çeşit taklit edilemez kıtlık yaratmayı amaçlıyordu. Bit gold protokolü, bilgisayarların hesaplama gücü kullanılarak bit gold parçalarının yaratıldığı ve böylece bir Proof of Work zinciri oluşturan Proof of Work aracılığıyla para birimi yaratmaya dayanıyordu. Her bir Proof of Work zaman damgasına sahipti ve daha sonra bir mülk kayıt defterine ekleniyordu. Bit altın Ownership'in doğrulanması ve transferi, kullanıcıların açık anahtarlarla tanımlandığı bir kamu sicili aracılığıyla gerçekleştirilmiştir. Bit gold kavramsal aşamada kaldı ve hiçbir zaman uygulanmadı. Bu sistem, b-para ve RPoW ile birlikte Bitcoin'ün öncüllerinden biridir, ancak Satoshi, Bitcoin'ün oluşturulmasından önce varlığından haberdar görünmüyordu. Daha sonra Bitcoin'ün web sitesinde ve forumunda bahsedilmiştir.

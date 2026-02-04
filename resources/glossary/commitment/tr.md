@@ -1,5 +1,6 @@
 ---
 term: Commitment
+definition: Verileri ifşa etmeden varlığını kanıtlamaya olanak tanıyan kriptografik nesne.
 ---
 
 Bir Commitment (kriptografik anlamda), $C$ ile gösterilen, yapılandırılmış veri $m$ (mesaj) ve rastgele bir değer $r$ üzerindeki bir işlemden deterministik olarak türetilen matematiksel bir nesnedir. Yazıyoruz :

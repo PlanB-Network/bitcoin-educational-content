@@ -1,24 +1,25 @@
 ---
-term: ANONSETS (ANONIMLIK KÜMELERI)
+term: Anonsets (anonimlik kümeleri)
+definition: Bir UTXO'nın gizlilik derecesini bir setteki ayırt edilemeyen UTXO'ların sayısını sayarak ölçen göstergeler, tipik olarak coinjoin'den sonra.
 ---
+Anonsetler, belirli bir UTXO’nun gizlilik derecesini değerlendirmek için gösterge olarak kullanılır. Daha spesifik olarak, incelenen çıktıyı içeren küme içerisindeki ayırt edilemeyen UTXO sayısını ölçerler. Aynı UTXO’lardan oluşan bir grubun gerekli olması nedeniyle anonsetler genellikle bir coinjoin döngüsü içinde hesaplanır. Gerektiğinde coinjoinlerin kalitesini değerlendirmeyi mümkün kılarlar. Büyük bir anonset, daha yüksek bir anonimlik düzeyi anlamına gelir; çünkü küme içinde belirli bir UTXO’yu ayırt etmek zorlaşır.
 
-Anonsetler, belirli bir UTXO'in gizlilik seviyesini değerlendirmek için gösterge görevi görür. Daha spesifik olarak, incelenen Coin'ı içeren küme içindeki ayırt edilemeyen UTXO'ların sayısını ölçerler. Bir grup aynı UTXO gerekli olduğundan, anonsetler genellikle bir eş birleştirme döngüsü içinde hesaplanır. Uygun olduğunda, eş birleşimlerin kalitesinin değerlendirilmesine olanak sağlarlar. Küme içinde belirli bir UTXO'i ayırt etmek zorlaştığından, büyük bir anonset daha yüksek bir anonimlik seviyesi anlamına gelir. İki tür anonset vardır:
+İki tür anonset vardır: forward anonset (forward-looking metrics); ve backward anonset (backward-looking metrics). "*score*" terimi de bazen anonsetleri tanımlamak için kullanılır.
 
-
-- Muhtemel anonimlik seti;
-- Geçmişe dönük anonimlik seti.
-
-
-İlki, UTXO'ü girişte bilerek, incelenen UTXO'ün gizlendiği grubun büyüklüğünü gösterir. Bu gösterge, Coin'nin gizliliğinin geçmişten günümüze (girdiden çıktıya) bir analize karşı direncinin ölçülmesini sağlar. İngilizce'de bu göstergenin adı "*forward anonset*" veya "*forward-looking metrics*"tir
+Birincisi, giriş UTXO’su bilindiğinde, incelenen çıkış UTXO’sunun gizlendiği grubun büyüklüğünü gösterir. Bu gösterge, geçmişten bugüne yönelik bir analize (girişten çıkışa) karşı paranın gizliliğinin dayanıklılığını ölçmeyi sağlar. İkincisi, çıkış UTXO’su bilindiğinde, belirli bir para için olası kaynakların sayısını gösterir. Bu gösterge, bugünden geçmişe yönelik bir analize (çıkıştan girişe) karşı paranın gizliliğinin dayanıklılığını ölçmeyi sağlar.
 
 
-![](../../dictionnaire/assets/39.webp)
 
 
-İkincisi, çıkıştaki UTXO'i bilerek, belirli bir Coin için olası kaynakların sayısını gösterir. Bu gösterge, Coin'ün gizliliğinin günümüzden geçmişe (çıktıdan girdiye) bir analize karşı direncinin ölçülmesini sağlar. İngilizce'de bu göstergenin adı "*backward anonset*" veya "*backward-looking metrics*"tir
 
 
-![](../../dictionnaire/assets/40.webp)
 
 
-> ► *Fransızca'da genellikle "anonset" teriminin kullanılması kabul edilir Ancak, "ensemble d'anonymat" veya "potentiel d'anonymat" olarak tercüme edilebilir Hem İngilizce hem de Fransızca'da "skor" terimi de bazen anonsetlere atıfta bulunmak için kullanılır (prospektif skor ve retrospektif skor).*
+
+
+
+
+
+
+
+

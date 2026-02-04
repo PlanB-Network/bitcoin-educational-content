@@ -542,13 +542,14 @@ Joinstr şu anda ortalama **2 ila 5 katılımcıdan** oluşan havuzlar oluşturm
 
 
 
-| Aspect | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
+
+| Yönü | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
 |--------|--------|--------------------|------------|-------------|
-| **Participants par pool** | 50-100 | 5-10 | Variable (P2P) | **2-5** |
-| **Coordinateur** | Centralisé (fermé 2024) | Centralisé (actif) | P2P maker/taker | **Aucun (Nostr)** |
-| **Résistance à la censure** | Faible | Moyenne | Très élevée | **Très élevée** |
-| **Frais de coordination** | Pourcentage | Frais d'entrée | Payés aux makers | **Aucun** |
-| **Discrimination UTXO** | Oui (blacklists) | Non | Non | **Non** |
+| **Havuz başına Katılımcılar** | 50-100 | 5-10 | Değişken (P2P) | **2-5** |
+| **Koordinatör** | Merkezi (2024 kapalı) | Merkezi (aktif) | P2P maker/taker | **Yok (Nostr)** |
+| **Sansüre Karşı Direnç** | Zayıf | Orta | Çok yüksek | **Çok yüksek** |
+| **Koordinasyon Ücretleri** | Yüzde | Giriş ücreti | Yapıcılara ödenen | **Yok** |
+| **UTXO Ayrımcılığı** | Evet (kara listeler) | Hayır | Hayır | **Hayır** |
 
 💡 **Diğer aktif CoinJoin çözümleri** :
 

@@ -1,5 +1,6 @@
 ---
-term: BITVM
+term: BitVM
+definition: Protokoll som möjliggör godtyckliga off-chain-beräkningar med on-chain-bestridande, vilket utökar Bitcoins kapacitet.
 ---
 
 Protokoll som introducerades av Robin Linus år 2023 och som syftar till att utöka Bitcoin:s möjligheter till applikationsutveckling. BitVM tillåter att alla beräkningsoperationer utförs godtyckligt och använder denna beräkning för att styra de engagerade bitcoins. Protokollet innebär att alla beräkningar flyttas off-chain samtidigt som beräkningen kan bestridas On-Chain om den andra parten hävdar ett bedrägligt resultat. BitVM förser således Bitcoin med en nästan Turing-komplett beräkningskapacitet, utan att kräva några ändringar på konsensusnivå. BitVM replikerar beteendet hos en `NAND` logisk grind genom en kombinerad användning av opkoderna `OP_BOOLAND` (som i sig replikerar beteendet hos en `AND` logisk grind) och `OP_NOT` (som replikerar beteendet hos en `NOT` logisk grind). Denna logiska grind `NAND` kan användas i kedjan för att replikera beteendet hos alla andra befintliga logiska grindar. Detta är vad som kallas en "universalgrind". I förlängningen kan en serie av `NAND` logiska grindar således replikera vilken beräkningskrets som helst. Tanken med BitVM är att lagra dessa `NAND`-beräkningssekvenser som löv i MAST för en Taproot-transaktion.

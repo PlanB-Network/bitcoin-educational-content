@@ -1,5 +1,6 @@
 ---
-term: URUPFUZO RWAGUYE
+term: Extended key
+definition: Ukuritonde ruhuza urufunguruzo, chain code yarwo hamwe n'amakuru y'inyongezo ku bwo gukura mu ma-wallets ya HD.
 ---
 
 Urutonde rw'inyuguti rufatanya urufunguzo (rwa bose canke rw'ibanga), chain code ijana narwo, n'urutonde rw'amakuru y'imbere. Urufunguzo rwagutse rukoranya Elements yose ikenewe kugira ngo umuntu akureho urufunguzo rw'abana mu kimenyetso kimwe. Bikoreshwa mu bikoresho vy’ubuhinga n’ivy’ubuhinga kandi bishobora kuba vy’ubwoko bubiri: urufunguzo rwa bose rwagutse (rukoreshwa mu gukuraho urufunguzo rwa bose rw’abana) canke urufunguzo rw’ibanga rwagutse (rukoreshwa mu gukuraho urufunguzo rw’ibanga rw’abana n’urwa bose). Urufunguzo rwagutse rero rurimwo amakuru atandukanye, adondowe muri BIP32, mu buryo bukurikirana:

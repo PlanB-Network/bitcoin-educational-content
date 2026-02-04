@@ -1,9 +1,9 @@
 question: ตัวเลือกเซิร์ฟเวอร์ Sparrow wallet ใดที่สอดคล้องกับการเชื่อมต่อ RPC?
 answer: Bitcoin Core
 wrong_answers:
-  - เซิร์ฟเวอร์สาธารณะ
-  - ส่วนตัว Electrum
-  - รีโมท API
+  - Public Server
+  - Private Electrum
+  - Remote API
 explanation: |
   ใน Sparrow ตัวเลือก Bitcoin Core สอดคล้องกับการเชื่อมต่อโดยตรงไปยังโหนดผ่าน RPC
 reviewed: true

@@ -1,5 +1,6 @@
 ---
-term: 데이터 없음
+term: Null data
+definition: OP_RETURN을 통해 임의의 데이터를 삽입할 수 있는 트랜잭션 유형.
 ---
 
 Bitcoin`을 통해 소량의 임의 데이터를 삽입할 수 있는 OP_RETURN 트랜잭션 유형입니다. OP_RETURN`은 잘못된 스크립트를 나타내므로 이러한 유형의 출력과 연관된 비트코인은 사용할 수 없는 것이 확실합니다.

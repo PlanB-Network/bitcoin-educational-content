@@ -1,0 +1,9 @@
+question: Hvilken makt har en depotoperatør over brukernes betalinger?
+answer: Sensurens makt
+wrong_answers:
+  - Mining strøm
+  - Kraften i konsensus
+  - Halving strøm
+explanation: |
+  En operatør som kontrollerer midler og kanaler, kan blokkere, forsinke eller filtrere betalinger.
+reviewed: false

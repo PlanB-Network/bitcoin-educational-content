@@ -6,4 +6,4 @@ wrong_answers:
   - Sekitar 20GB per bulan
 explanation: >-
   Dengan asumsi 1 blok 1MB setiap 10 menit, menjalankan sebuah node Bitcoin membutuhkan bandwidth sekitar 5GB per bulan.
-reviewed: false
+reviewed: true

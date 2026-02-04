@@ -1,6 +1,7 @@
 ---
-term: PERANG UKURAN BLOK
+term: Perang ukuran blok
 
+definition: Konflik dalam komunitas Bitcoin (2015-2017) mengenai peningkatan ukuran blok.
 ---
 Mengacu pada periode perdebatan dan konflik yang intens di dalam komunitas Bitcoin antara tahun 2015 dan 2017. Konflik ini berpusat pada apakah ukuran blok, yang telah dibatasi hingga 1 megabyte sejak tahun 2010 oleh Satoshi Nakamoto, harus ditingkatkan agar Bitcoin dapat memproses lebih banyak transaksi per blok, sehingga meningkatkan skalabilitas.
 

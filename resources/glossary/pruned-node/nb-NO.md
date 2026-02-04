@@ -1,6 +1,7 @@
 ---
-term: PRUNED NODE
+term: Beskåret node
 
+definition: Full node som sletter gamle verifiserte blokker for å spare lagringsplass.
 ---
 En beskåret node, på engelsk "Pruned Node", er en full node som utfører beskjæring av blokkjeden. Dette innebærer at de eldste blokkene fjernes gradvis, etter at de er behørig verifisert, slik at bare de nyeste blokkene beholdes. Oppbevaringsgrensen spesifiseres i filen `bitcoin.conf` via parameteren `prune=n`, der `n` er den maksimale størrelsen på blokkene i megabyte (MB). Hvis `0` er angitt etter denne parameteren, er beskjæring deaktivert, og noden beholder blokkjeden i sin helhet.
 

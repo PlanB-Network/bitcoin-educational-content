@@ -1,5 +1,6 @@
 ---
-term: USEFUL LOAD
+term: Payload
+definition: Essential data carried within a larger data packet.
 ---
 
 In the general context of computing, a payload is the essential data carried in a larger data packet. For example, in a SegWit V0 over Bitcoin address, the payload corresponds to the hash of the public key, without the various metadata (the HRP, separator, SegWit version and checksum). For example, at address `bc1qc2eukw7reasfcmrafevp5dhv8635yuqays50gj`, we have :

@@ -1,5 +1,6 @@
 ---
 term: CISA
+definition: Tehnički predlog za kombinovanje potpisa svih ulaza jedne transakcije u jedan, čime se smanjuju veličina i naknade.
 ---
 
 Akronim za "Cross-Input Signature Aggregation". Ovo je tehnički predlog osmišljen da optimizuje veličinu Bitcoin transakcija smanjenjem broja potpisa potrebnih za njihovu validaciju.

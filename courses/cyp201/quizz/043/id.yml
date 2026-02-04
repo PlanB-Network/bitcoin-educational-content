@@ -6,3 +6,4 @@ wrong_answers:
   - 64 bit
 explanation: |
   Frasa mnemonik 24 kata didasarkan pada 256 bit entropi, memastikan keamanan yang sangat tinggi.
+reviewed: true

@@ -1,8 +1,8 @@
 question: Quelle est la limitation architecturale fondamentale du kit de développement Lightning (LDK) qui crée le risque opérationnel le plus grave pour les utilisateurs wallet mobiles lors des pics de frais de réseau ?
-answer: Absence de sorties d'ancrage empêchant la fermeture forcée des canaux lorsque les frais prédéfinis deviennent insuffisants pour la confirmation de la transaction
+answer: Absence de sorties d'ancrage empêchant la fermeture forcée des canaux lorsque les frais prédéfinis deviennent insuffisants pour la confirmation de la transaction.
 wrong_answers:
-  - L'absence de support LNURL nécessite la génération manuelle de factures et le traitement des paiements pour toutes les transactions Lightning
-  - Synchronisation manquante du graphe de réseau provoquant des échecs de routage des paiements lorsque les applications mobiles redémarrent après des périodes prolongées
-  - Gestion insuffisante des réserves de canaux entraînant des blocages de fonds lorsque les utilisateurs tentent de dépenser la totalité de leur solde affiché
+  - L'absence de support LNURL nécessite la génération manuelle de factures et le traitement des paiements pour toutes les transactions Lightning.
+  - Synchronisation manquante du graphe de réseau provoquant des échecs de routage des paiements lorsque les applications mobiles redémarrent après des périodes prolongées.
+  - Gestion insuffisante des réserves de canaux entraînant des blocages de fonds lorsque les utilisateurs tentent de dépenser la totalité de leur solde affiché.
 explanation: |
   L'absence de sorties d'ancrage dans le LDK crée une vulnérabilité critique où les canaux ne peuvent pas être fermés de force pendant les pics de frais parce que les frais prédéfinis deviennent insuffisants pour la confirmation de la blockchain. Cette situation est particulièrement dangereuse pour les portefeuilles mobiles, où les utilisateurs peuvent abandonner l'application sans fermeture coopérative, ce qui risque de bloquer les fonds indéfiniment. Alors que l'absence de LNURL affecte l'expérience de l'utilisateur et que les problèmes de routage ont un impact sur la fiabilité, ni l'un ni l'autre ne crée le risque existentiel pour la récupération des fonds que les limitations de sortie d'ancrage présentent dans des environnements à frais élevés.

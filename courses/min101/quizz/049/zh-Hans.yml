@@ -1,0 +1,9 @@
+question: 矿池主要寻求解决什么实际问题？
+answer: 收入的波动性（方差）
+wrong_answers:
+  - 网络难度
+  - 区块大小
+  - ASIC 价格
+explanation: |
+  通过集合算力，矿池将极不规律的收入转变为更规律的支付。这为矿工降低了收入的波动性。
+reviewed: false

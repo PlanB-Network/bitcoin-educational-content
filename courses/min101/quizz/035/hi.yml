@@ -1,0 +1,9 @@
+question: SegWit के बाद से, ब्लॉक के गवाहों (witnesses) की प्रतिबद्धता कहाँ दर्ज की जाती है?
+answer: Coinbase के एक आउटपुट में
+wrong_answers:
+  - Coinbase के scriptSig में
+  - वर्जन (version) फील्ड में
+  - Coinbase की फीस में
+explanation: |
+  SegWit एक OP_RETURN आउटपुट के माध्यम से coinbase में दर्ज प्रतिबद्धता का उपयोग करता है।
+reviewed: false

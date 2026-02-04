@@ -1,5 +1,6 @@
 ---
-term: 탭스크립트
+term: Tapscript
+definition: Taproot의 일부로 P2TR 지출을 위해 BIP342에서 도입한 수정된 스크립트 언어입니다.
 ---
 
 P2TR 지출에 사용되는 새로운 스크립팅 언어를 정의하기 위해 기존 Bitcoin 스크립팅 언어의 특정 옵코드를 수정하는 것을 목표로 한 업데이트입니다. 탭스크립트는 BIP342에 의해 도입되었으며, Taproot Soft Fork으로 구현되었습니다.

@@ -1,5 +1,6 @@
 ---
 term: P2WSH
+definition: Hati asilia ya SegWit inayofunga bitcoin kwa hash ya hati, anuani za bc1q.
 ---
 
 P2WSH inasimamia *Hati ya Lipa kwa Shahidi Hash*. Ni muundo wa kawaida wa hati unaotumiwa kuweka masharti ya matumizi kwenye UTXO. P2WSH ilianzishwa na utekelezaji wa SegWit mnamo Agosti 2017.

@@ -1,6 +1,7 @@
 ---
 term: SECP256R1
 
+definition: Kurva elips dari standar NIST, tidak digunakan oleh Bitcoin yang lebih memilih secp256k1.
 ---
 Nama yang diberikan kepada kurva elips yang didefinisikan oleh standar NIST untuk kriptografi kunci publik. Kurva ini menggunakan bidang prima 256 bit dan persamaan kurva elips $y^2 = x^3 + ax + b$ dengan konstanta:
 

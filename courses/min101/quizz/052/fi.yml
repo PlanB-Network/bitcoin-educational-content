@@ -1,0 +1,9 @@
+question: Yksinkertaisesti sanottuna, mikä on Bitcoin-lohko?
+answer: Paketti tapahtumia
+wrong_answers:
+  - Maksu
+  - Keskuspalvelin
+  - Yksityinen avain
+explanation: |
+  Yksinkertaistettuna lohko on vain joukko ryhmiteltyjä tapahtumia.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: DUSTRELAYFEE
+term: Dustrelayfee
+definition: 定義用於計算塵埃限制的手續費率的節點參數。
 ---
 
 網路節點使用的標準化規則，用以決定他們認為的 「Dust 限制」。此參數設定了以 Sats 為單位的每虛擬千位元組收費率 (Sats/kvB)，作為計算 UTXO 的價值是否少於將其納入交易的必要費用的參考。事實上，如果 UTXO 所需的轉讓費用高於其本身所代表的價值，則該 UTXO 會被視為 Bitcoin 上的「Dust」。此限制的計算如下：

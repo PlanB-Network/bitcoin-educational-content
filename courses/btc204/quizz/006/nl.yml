@@ -1,9 +1,9 @@
-question: Wat betekent verandering in een transactie?
-answer: Een uitvoer die terugkeert naar de oorspronkelijke afzender van de transactie.
+question: Wat betekent wisselgeld (change) in een transactie?
+answer: Een output die terugkeert naar de oorspronkelijke afzender van de transactie.
 wrong_answers:
-  - Een vergoeding voor het Bitcoin netwerk.
-  - Een uitvoer die wordt overgedragen aan de ontvanger van de transactie.
+  - Een vergoeding voor het Bitcoin-netwerk.
+  - Een output die wordt overgedragen aan de ontvanger van de transactie.
   - Een bonus voor de verzender voor snelle transacties.
 explanation: |
-  Wisselgeld is een uitvoer die het deel van de invoer vertegenwoordigt dat niet is gebruikt om de betaling uit te voeren, en gaat dus terug naar de oorspronkelijke afzender van de transactie.
+  Wisselgeld is een output die het deel van de input vertegenwoordigt dat niet is gebruikt om de betaling uit te voeren, en gaat dus terug naar de oorspronkelijke afzender van de transactie.
 reviewed: false

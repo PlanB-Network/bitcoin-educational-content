@@ -122,16 +122,17 @@ https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a
 
 
 
-| Caractéristique                                      | Valeur                                                    |
+
+| คุณลักษณะ                                      | ค่า                                                    |
 | ---------------------------------------------------- | --------------------------------------------------------- |
 | Hashrate                                             | 37.5 Th/s +- 5%                                           |
-| Consommation électrique                              | 800 W                                                     |
-| Bruit                                                | 35-55 dB                                                  |
-| Température de l'air en sortie                       | 60-70°C (sous température ambiante 25°C)                  |
-| Exigences de température ambiante pour l'utilisation | -5° C - 40°C                                              |
-| Plage d'entrée de l'appareil                         | 110V-240V AC 50/60Hz                                      |
-| Taille de la machine                                 | Longueur: 760 mm / Profondeur: 104 mm / Hauteur: 214.5 mm |
-| Poids de la machine                                  |  8.35 kg                                                  |
+| การใช้พลังงาน                              | 800 W                                                     |
+| เสียง                                                | 35-55 dB                                                  |
+| อุณหภูมิอากาศออก                       | 60-70°C (ที่อุณหภูมิแวดล้อม 25°C)                  |
+| ข้อกำหนดอุณหภูมิแวดล้อมสำหรับการใช้ | -5° C - 40°C                                              |
+| ช่วงแรงดันไฟฟ้าเข้าของอุปกรณ์                         | 110V-240V AC 50/60Hz                                      |
+| ขนาดของเครื่อง                                 | ความยาว: 760 มม / ความลึก: 104 มม / ความสูง: 214.5 มม |
+| น้ำหนักของเครื่อง                                  |  8.35 kg                                                  |
 
 ## เชื่อมต่อกับกลุ่ม mining
 

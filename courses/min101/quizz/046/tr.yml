@@ -1,0 +1,9 @@
+question: Bir madencilik havuzunun (mining pool) sunduğu hizmeti hangi cümle özetler?
+answer: Tahmin edilebilirlik satar
+wrong_answers:
+  - Madencilik zorluğu satar
+  - Daha büyük bloklar satar
+  - Madencilik makineleri satar
+explanation: |
+  Güç birliği yapmak, paylaşım ve masraflar karşılığında, çok değişken bir geliri daha düzenli ödemelere dönüştürür.
+reviewed: false

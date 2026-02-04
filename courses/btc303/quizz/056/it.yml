@@ -2,8 +2,8 @@ question: Secondo la Licenza MIT con cui è distribuito Bitcoin Core, quale rest
 answer: Le opere derivate devono essere distribuite secondo gli stessi termini della licenza del software originale
 wrong_answers:
   - Le opere derivate non possono essere vendute a fini commerciali e devono sempre essere distribuite gratuitamente
-  - Le opere derivate richiedono un'esplicita autorizzazione scritta da parte degli sviluppatori del Bitcoin Core prima della distribuzione
+  - Le opere derivate richiedono un'esplicita autorizzazione scritta da parte degli sviluppatori di Bitcoin Core prima della distribuzione
   - Le opere derivate devono includere il marchio originale Bitcoin Core e non possono essere rinominate o ribattezzate
 explanation: |
   La Licenza MIT richiede che le opere derivate siano distribuite secondo gli stessi termini di licenza del software originale, assicurando che la natura open source sia preservata. Questo non proibisce la vendita commerciale (risposta sbagliata 1), non richiede il permesso degli sviluppatori (risposta sbagliata 2) e non impone di mantenere il marchio originale (risposta sbagliata 3). La licenza stabilisce specificamente che le modifiche e le opere derivate devono essere consentite secondo gli stessi termini, mantenendo il modello di sviluppo senza permessi che consente innovazioni come Lightning Network e le sidechain.
-reviewed: false
+reviewed: true

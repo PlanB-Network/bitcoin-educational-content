@@ -1,10 +1,10 @@
 question: Welke van deze 3 protocollen is geen implementatie van CoinJoin?
-answer: Kettinganalyse.
+answer: Chainalysis.
 wrong_answers:
   - JoinMarket.
   - Wabisabi.
   - Whirlpool.
 explanation: |
-  Chainalysis is helemaal geen implementatie van CoinJoin, omdat het een Blockchain analysebedrijf is.
+  Chainalysis is helemaal geen implementatie van CoinJoin, omdat het een blockchain-analysebedrijf is.
   
 reviewed: false

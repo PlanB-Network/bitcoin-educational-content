@@ -1,0 +1,9 @@
+question: Welk van deze criteria is het belangrijkst voor peer connectiviteit?
+answer: Centrale positie in de grafiek
+wrong_answers:
+  - Naam van knooppunt in grafiek
+  - Knooppuntkleur in de grafiek
+  - Aantal berichten in de grafiek
+explanation: |
+  Een goed geplaatst knooppunt in de Lightning-grafiek vergemakkelijkt de routering naar veel bestemmingen.
+reviewed: false

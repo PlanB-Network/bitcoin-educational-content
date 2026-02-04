@@ -1,0 +1,9 @@
+question: W co grupowane są transakcje przed dodaniem ich do blockchaina?
+answer: W blok
+wrong_answers:
+  - W UTXO
+  - W ASIC
+  - W scriptSig
+explanation: |
+  Transakcja nie jest zapisywana w blockchainie natychmiast. Najpierw trafia do bloku.
+reviewed: false

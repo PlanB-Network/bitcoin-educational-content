@@ -1,0 +1,9 @@
+question: Ku bijanye na mempool, ni iyihe mvugo ari yo?
+answer: Buri node ifise mempool yayo
+wrong_answers:
+  - Habaho mempool imwe gusa idasanzwe
+  - Mempool ni idosiye iri muri buri block
+  - Mempool ni server nkuru
+explanation: |
+  Mempool ni iy'aho nyene kuri buri node, n'ukuvuga ko ivyarimwo bishobora guhinduka kuva kuri node imwe uya ku yindi bivanye n'amategeko buri yose ikurikiza.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Millele vastab ploki toetus (block subsidy)?
+answer: Rahaloome
+wrong_answers:
+  - Tehingutasud
+  - Kasutajate hoius
+  - Spämmi trahv
+explanation: |
+  Toetus on osa preemiast, mis loob protokollipas sätestatud reeglite kohaselt uusi bitcoine ex nihilo.
+reviewed: false

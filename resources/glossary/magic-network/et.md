@@ -1,6 +1,7 @@
 ---
-term: MAAGILINE VÕRK
+term: Magic network
 
+definition: 4-baidised konstandid, mis tuvastavad sõlmedevahelistes sõnumites võrgu (mainnet, testnet, regtest).
 ---
 Konstandid, mida kasutatakse Bitcoini protokollis konkreetse võrgu (mainnet, testnet, regtest...) tuvastamiseks, mille kaudu sõlmede vahel vahetatud sõnumid on pärit. Need väärtused kirjutatakse iga sõnumi algusesse, et hõlbustada nende tuvastamist andmevoos. Magic Networks on loodud nii, et need esinevad harva tavalistes sideandmetes. Tõepoolest, need 4 baiti on ASCII-keeles harva esinevad, UTF-8-keeles kehtetud ja tekitavad väga suure 32-bitise täisarvu, olenemata andmete salvestamise formaadist. Magic Networks on (little-endian formaadis):
 

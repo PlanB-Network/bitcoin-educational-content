@@ -1,0 +1,8 @@
+question: Selon le théorème de régression de Mises, comment une monnaie marchandise acquiert-elle initialement sa valeur monétaire?
+answer: Elle possède une valeur d'utilité prémonétaire dans l'économie de troc qui précède son usage monétaire
+wrong_answers:
+  - Elle acquiert sa valeur par décret gouvernemental et acceptation institutionnelle des autorités monétaires
+  - Elle obtient sa valeur grâce à la confiance collective des utilisateurs dans le système bancaire central
+  - "Elle développe sa valeur par la spéculation des marchés financiers et les mécanismes de l'offre et demande"
+explanation: |
+  Le théorème de régression de Mises résout le paradoxe circulaire selon lequel une monnaie doit avoir de la valeur pour être demandée, mais doit être demandée pour avoir de la valeur. Mises explique que les monnaies marchandises comme l'or ou l'argent possédaient déjà une utilité pratique dans l'économie de troc avant de devenir monnaie. Cette valeur d'usage préexistante permet d'expliquer logiquement leur adoption monétaire ultérieure, contrairement aux explications institutionnelles ou spéculatives.

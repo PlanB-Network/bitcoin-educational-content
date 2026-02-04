@@ -1,0 +1,9 @@
+question: Wie hoch war die Block-Subvention beim Start von Bitcoin im Jahr 2009?
+answer: 50 BTC
+wrong_answers:
+  - 25 BTC
+  - 12,5 BTC
+  - 100 BTC
+explanation: |
+  Die anfängliche Subvention betrug 50 BTC pro Block vor den aufeinanderfolgenden Teilungen.
+reviewed: false

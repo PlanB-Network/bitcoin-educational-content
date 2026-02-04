@@ -1,0 +1,9 @@
+question: Która z tych platform umożliwia zakup przychodzącej płynności?
+answer: Magma
+wrong_answers:
+  - Rdzeń Bitcoin
+  - 1ML
+  - Boltz
+explanation: |
+  Magma ułatwia zakup przychodzącej płynności za pośrednictwem zautomatyzowanego rynku.
+reviewed: false

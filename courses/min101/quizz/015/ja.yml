@@ -1,0 +1,9 @@
+question: Hashcashは何年に提案されましたか？
+answer: 1997
+wrong_answers:
+  - 1993
+  - 2004
+  - 1995
+explanation: |
+  Hashcashは1997年3月に初めて発表されました。
+reviewed: false

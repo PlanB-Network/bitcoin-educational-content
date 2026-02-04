@@ -1,0 +1,9 @@
+question: K čemu slouží Merkle root v hlavičce bitcoinového bloku?
+answer: K závaznému potvrzení všech transakcí v bloku
+wrong_answers:
+  - K výpočtu proof of work bloku
+  - K signalizaci verze bloku
+  - Ke zjištění obtížnosti bloku
+explanation: |
+  Merkle root shrnuje všechny transakce; pokud se jedna změní, změní se i kořen.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - 128 bit
 explanation: |
   Kunci publik Schnorr hanya diwakili oleh koordinat x dari titik pada kurva eliptik, yang mengurangi ukurannya menjadi 32 byte.
+reviewed: true

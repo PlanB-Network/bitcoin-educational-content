@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo bwongereza ikibanza co kurondereramwo (search space) iyo nonce ya 32 bits yarangiye?
+answer: Extra-nonce
+wrong_answers:
+  - Super-nonce
+  - Coinbase-nonce
+  - Double-nonce
+explanation: |
+  Mu guhindura extra-nonce muri scriptSig ya coinbase, urushiriki rwa Merkle rurahinduka, gutyo n'umutwe (header) ugahinduka.
+reviewed: false

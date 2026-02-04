@@ -1,5 +1,6 @@
 ---
-term: CHAIN ANALYSIS
+term: Chain analysis
+definition: Practice of tracing bitcoin flows on the blockchain using heuristics and patterns.
 ---
 
 Practice that encompasses all methods used to trace the flow of bitcoins on the blockchain. Generally, chain analysis relies on the observation of characteristics in samples of previous transactions. It then involves identifying these same characteristics in a transaction that one wishes to analyze, and deducing plausible interpretations. This problem-solving method, based on a practical approach to find a sufficiently good solution, is known as a heuristic. To simplify, chain analysis is done in two main steps:

@@ -1,0 +1,9 @@
+question: Tại sao một khoản thanh toán đi ra lại tự động tạo ra dòng tiền vào?
+answer: Chuyển dịch thanh khoản
+wrong_answers:
+  - Tạo kênh mới
+  - Tăng công suất
+  - Chi phí định tuyến thấp hơn
+explanation: |
+  Một khoản thanh toán đi sẽ đưa sats về mức ngang giá, tạo ra dòng tiền vào ở phía bên này của kênh.
+reviewed: false

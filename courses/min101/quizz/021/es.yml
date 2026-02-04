@@ -1,0 +1,9 @@
+question: ¿Cada cuántos bloques se ajusta el objetivo de dificultad?
+answer: 2016 bloques
+wrong_answers:
+  - 2000 bloques
+  - 2100 bloques
+  - 4096 bloques
+explanation: |
+  El ajuste se realiza cada 2016 bloques, es decir, aproximadamente dos semanas a 10 minutos por bloque.
+reviewed: false

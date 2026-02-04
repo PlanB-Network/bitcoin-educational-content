@@ -5,5 +5,5 @@ wrong_answers:
   - dwdollar
   - SmokeTooMuch
 explanation: |
-  このサービスは基本的なものでした：交換はメールを通じて交渉され、支払いはPayPalを通じて行われました。交換レートはNewLibertyStandard自身の採掘コストに基づいていました。
-  レビュー済み: false
+  このサービスは基本的なものでした：交換はメールを通じて交渉され、支払いはPayPalを通じて行われました。交換レートはNewLibertyStandard自身のマイニングコストに基づいていました。
+reviewed: false

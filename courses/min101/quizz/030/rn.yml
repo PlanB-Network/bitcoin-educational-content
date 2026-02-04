@@ -1,0 +1,9 @@
+question: Halving ya kane yabaye kuri block height iyihe?
+answer: 840 000
+wrong_answers:
+  - 880 000
+  - 860 000
+  - 900 000
+explanation: |
+  Halving ya kane yabaye kuri block height 840 000, kw'igenekerezo rya 20 Ndamukiza 2024.
+reviewed: false

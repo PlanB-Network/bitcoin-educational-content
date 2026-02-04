@@ -1,6 +1,7 @@
 ---
-term: PEER-TO-PEER (P2P)
+term: Likemann-til-likemann (P2P)
 
+definition: Kommunikasjonsmodell der deltakere utveksler direkte uten en sentralisert mellommann.
 ---
 Refererer til en modell for kommunikasjon og datadistribusjon der deltakerne, ofte kalt noder eller peers, deler ressursene sine (for eksempel filer, prosessorkraft, båndbredde, eiendeler osv.) direkte seg imellom, uten behov for et sentralisert mellomledd. I et P2P-system fungerer hver deltaker samtidig som klient (forbruker av ressurser) og server (leverandør av ressurser).
 

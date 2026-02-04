@@ -1,5 +1,6 @@
 ---
-term: PENJELAJAH BLOK
+term: Penjelajah blok
 
+definition: Alat yang mengubah data mentah blockchain ke dalam format yang dapat dibaca dengan mesin pencari.
 ---
 Sebuah alat _online_ atau lokal yang mengubah data mentah _blockchain_ Bitcoin ke dalam format terstruktur yang mudah dibaca oleh manusia. Penjelajah biasanya menyertakan mesin pencari untuk menemukan blok, transaksi, atau alamat tertentu dengan mudah.

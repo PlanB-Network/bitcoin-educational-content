@@ -1,5 +1,6 @@
 ---
 term: BIP0125
 
+definition: Padrão Replace-by-Fee (RBF) permitindo substituir uma transação não confirmada por uma versão com taxas mais elevadas.
 ---
 Define o conceito de *Replace-by-Fee* (RBF), que permite ao remetente substituir uma transação não confirmada por outra versão que inclui taxas de transação mais elevadas. A BIP125 fornece um quadro para a sinalização de RBF numa transação e para a sua aceitação pelos nós da rede.

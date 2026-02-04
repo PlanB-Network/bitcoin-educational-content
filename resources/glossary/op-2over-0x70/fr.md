@@ -1,5 +1,6 @@
 ---
 term: OP_2OVER (0X70)
+definition: Opcode copiant les 3e et 4e éléments de la pile vers le sommet.
 ---
 
 Copie les deux éléments qui se trouvent à la quatrième et à la troisième place en partant du haut de la pile, puis les place en haut de la pile. Par exemple, si la pile est :

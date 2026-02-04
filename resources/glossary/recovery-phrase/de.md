@@ -1,6 +1,7 @@
 ---
-term: GENESUNGSPHRASE
+term: Wiederherstellungsphrase
 
+definition: Folge von 12 oder 24 Wörtern, mit der eine Bitcoin-Wallet gesichert und wiederhergestellt werden kann.
 ---
 Eine Wiederherstellungsphrase, manchmal auch Mnemonik, Seed-Phrase oder geheime Phrase genannt, ist eine Sequenz, die in der Regel aus 12 oder 24 Wörtern besteht und pseudozufällig aus einer Entropiequelle erzeugt wird. Die pseudozufällige Sequenz wird immer durch eine Prüfsumme ergänzt. Die mnemonische Phrase wird zusammen mit einer optionalen Passphrase verwendet, um alle mit einer HD (Hierarchical Deterministic) Wallet verbundenen Schlüssel deterministisch abzuleiten. Das bedeutet, dass es mit dieser Phrase möglich ist, alle privaten und öffentlichen Schlüssel der Bitcoin-Wallet deterministisch zu generieren und wiederherzustellen und folglich auf die damit verbundenen Geldmittel zuzugreifen. Der Zweck des Wiederherstellungssatzes ist es, ein Mittel zur Sicherung und Wiederherstellung von Bitcoins bereitzustellen, das sowohl sicher als auch einfach zu verwenden ist.
 

@@ -283,7 +283,7 @@ Un exemple illustratif de la MMT est le complexe militaro-industriel américain.
 
 Le cas du Japon est souvent cité par les défenseurs de la MMT comme un autre exemple de l'absence d'inflation malgré une impression monétaire importante. Toutefois, la situation au Japon souligne aussi les limites des mesures traditionnelles de l'inflation comme l'Indice des Prix à la Consommation (IPC). Au Japon, une grande partie de l'argent imprimé est soit épargnée, soit investie dans l'immobilier ou les marchés d'actions, et non dépensée dans l'économie de consommation courante. L'IPC, en ne mesurant pas entièrement ces dynamiques, peut sous-estimer l'inflation réelle.
 
-L'analyse du Japon (https://ideas.repec.org/p/ces/ceswps/_9821.html) met également en lumière que le comportement des agents économiques, comme l'épargne ou l'investissement dans des actifs non inclus dans l'IPC, peut masquer l'impact inflationniste de l'impression monétaire. De plus, la capacité des différents secteurs à absorber les liquidités injectées joue un rôle crucial dans la manifestation ou non de l'inflation.
+[L'analyse du Japon](https://ideas.repec.org/p/ces/ceswps/_9821.html) met également en lumière que le comportement des agents économiques, comme l'épargne ou l'investissement dans des actifs non inclus dans l'IPC, peut masquer l'impact inflationniste de l'impression monétaire. De plus, la capacité des différents secteurs à absorber les liquidités injectées joue un rôle crucial dans la manifestation ou non de l'inflation.
 
 #### Le bilan des banques et de la banque centrale
 

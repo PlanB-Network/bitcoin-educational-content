@@ -1,5 +1,6 @@
 ---
 term: NFT
+definition: Jednotka bitcoinu interpretovaná jako nezaměnitelná (non-fungible) a spojená s externím aktivem prostřednictvím protokolu.
 ---
 
 Zkratka pro *Non-Fungible Token*. NFT představuje jednotku Bitcoin, která je uživateli protokolu druhého Layer interpretována jako nefungující a spojena s Ownership aktiva mimo Bitcoin, jako je obrázek nebo jiný typ dat.

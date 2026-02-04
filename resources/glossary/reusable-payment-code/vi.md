@@ -1,6 +1,7 @@
 ---
-term: REUSABLE PAYMENT CODE
+term: Mã thanh toán có thể tái sử dụng
 
+definition: Mã nhận dạng tĩnh từ BIP47 cho phép dẫn xuất các địa chỉ duy nhất mà không cần tái sử dụng địa chỉ.
 ---
 In BIP47, a reusable payment code is a static identifier generated from a Bitcoin wallet that allows for a notification transaction and the derivation of unique addresses. This avoids the reuse of addresses, which leads to a loss of privacy, without having to manually derive and transmit new, unused addresses for each payment. In BIP47, reusable payment codes are constructed as follows:
 

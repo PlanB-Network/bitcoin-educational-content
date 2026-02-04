@@ -1,0 +1,9 @@
+question: Kdy se transakce v bloku stanou potvrzenými?
+answer: Když je blok přidán do blockchainu
+wrong_answers:
+  - Když je transakce podepsána těžařem
+  - Když je transakce šířena uzlem
+  - Když těžař začne hledat důkaz
+explanation: |
+  Potvrzení platby na Bitcoinu je důsledkem přidání bloku, který ji obsahuje, do blockchainu.
+reviewed: false

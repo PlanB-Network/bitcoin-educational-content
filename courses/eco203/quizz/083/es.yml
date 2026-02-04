@@ -1,4 +1,4 @@
-question: Según Bastiat, ¿cuál es la consecuencia de una intervención estatal excesiva sobre la responsabilidad individual?
+question: Según Bastiat, ¿Cuál es la consecuencia de una intervención estatal excesiva sobre la responsabilidad individual?
 answer: Destruye la responsabilidad al proteger a los individuos de las consecuencias de sus acciones
 wrong_answers:
   - Fortalece la responsabilidad individual al establecer más reglas
@@ -6,4 +6,4 @@ wrong_answers:
   - Garantiza una justicia social más equitativa
 explanation: |
   Bastiat cree que la intervención excesiva del estado elimina de los individuos la posibilidad de asumir plenamente las consecuencias de sus acciones, lo que debilita su sentido de responsabilidad.
-reviewed: false
+reviewed: true

@@ -1,6 +1,7 @@
 ---
-term: GAP LIMIT
+term: Gap limit
 
+definition: Maksimalt antall påfølgende ubrukte adresser før søket etter transaksjoner stoppes.
 ---
 En parameter som brukes i Bitcoin-lommebokprogramvare for å bestemme det maksimale antallet ubrukte adresser som skal genereres før søket etter flere transaksjoner stoppes. Det er ofte nødvendig å justere denne parameteren ved gjenoppretting av en lommebok for å sikre at alle transaksjoner blir funnet. En utilstrekkelig Gap Limit kan føre til at noen transaksjoner ikke blir funnet hvis adresser ble hoppet over under avledningsfasene. Ved å øke Gap Limit kan lommeboken søke videre i adressesekvensen for å gjenopprette alle tilknyttede transaksjoner.
 

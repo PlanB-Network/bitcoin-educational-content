@@ -1,5 +1,6 @@
 ---
-term: BANLIST.DAT
+term: Banlist.dat
+definition: Oud Bitcoin Core-bestand waarin de IP-adressen van verbannen nodes werden opgeslagen. Sinds versie 22.0 vervangen door banlist.json.
 ---
 
 Naam van het oude bestand dat gebruikt wordt door de Bitcoin core software om de IP adressen op te slaan van nodes die gebanned zijn door de gebruiker. Sinds versie 22.0 wordt in plaats daarvan het bestand banlist.json gebruikt.

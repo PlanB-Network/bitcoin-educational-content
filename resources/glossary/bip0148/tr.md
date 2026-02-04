@@ -1,5 +1,6 @@
 ---
 term: BIP0148
+definition: Madenci sinyallerinin durma noktasına gelmesi karşısında SegWit aktivasyonunun kullanıcılar tarafından zorlanmasına yönelik UASF teklifi.
 ---
 
 Mart 2017'de Shaolin Fry takma adını kullanan bir geliştirici tarafından sunulan öneri. BIP148'in amacı, BIP9 yöntemi aracılığıyla madenciler tarafından bu Soft Fork için sinyal gönderilmesinin durmasına yanıt olarak Bitcoin protokolünde SegWit güncellemesinin etkinleştirilmesini zorlamaktı. BIP148, madencilerin 1 Ağustos 2017 tarihine kadar SegWit'yi kilitlememiş olmaları halinde, 15 Kasım 2017 tarihinde düğümler tarafından SegWit'nin zorla etkinleştirilmesi için bir UASF (*Kullanıcı Tarafından Etkinleştirilen Soft Fork*) uygulanmasını önermiştir. BIP148 UASF'nin benimsenmesi gerçekleşmiş olsaydı, Bitcoin ağ düğümleri SegWit için destek sinyali vermeyen blokları reddedecek ve böylece madenciler üzerinde güncellemeyi benimsemeleri için baskı uygulayacaktı. Bu tarihi BIP nihayetinde etkinleştirilmemiş olsa da, madencileri BIP91 aracılığıyla Soft Fork'a kilitlenmeye zorlayarak SegWit'nin başarılı bir şekilde benimsenmesinde çok önemli bir rol oynamıştır. Uzun vadede, BIP148, kullanıcıların tüm düğümleri aracılığıyla Bitcoin protokolünün yönetim kararları üzerinde uygulayabilecekleri etkiyi göstererek önemli bir emsal oluşturmuştur.

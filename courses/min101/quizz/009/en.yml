@@ -1,0 +1,9 @@
+question: What is a candidate block in Bitcoin?
+answer: A block prepared by a miner, but not yet valid
+wrong_answers:
+  - A block validated by the network, but not yet shared
+  - A block created by a wallet, but not yet valid
+  - A block stored in the mempool
+explanation: |
+  Each miner locally assembles a candidate block before attempting to find a valid proof of work.
+reviewed: false

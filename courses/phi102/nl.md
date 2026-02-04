@@ -40,7 +40,6 @@ Klaar om te ontdekken waarom vrijheid niet alleen een moreel ideaal is, maar ook
 
 
 
-![video](https://www.youtube.com/watch?v=md-rDzJX0Ws)
 
 
 
@@ -96,7 +95,6 @@ Bovendien zijn gewaarwordingen inherent individueel. Je kunt honger niet ervaren
 
 
 
-![video](https://www.youtube.com/watch?v=w9DUtXbOYEg)
 
 
 
@@ -152,7 +150,6 @@ De Franse geschiedenis illustreert de gevolgen van het ontbreken van deze vrijhe
 
 
 
-![video](https://www.youtube.com/watch?v=Vjm91Lve_SA)
 
 
 
@@ -238,7 +235,6 @@ Alles bij elkaar vormen deze observaties geen abstracte theorie, maar een rigour
 
 
 
-![video](https://www.youtube.com/watch?v=Wlc3WLYFjXo)
 
 
 
@@ -306,7 +302,6 @@ De huwelijkskwestie illustreert deze principes: de keuze van een huwelijkspartne
 
 
 
-![video](https://www.youtube.com/watch?v=8Ib5M-6Rr8M)
 
 
 
@@ -383,7 +378,6 @@ Tot slot zijn de afschaffing van rente op geld en de regulering van winsten aanv
 
 
 
-![video](https://www.youtube.com/watch?v=eS_LZr9iKto)
 
 
 
@@ -452,7 +446,6 @@ Historische analyse laat zien dat vrijheid geen verloren natuurlijke staat is di
 
 
 
-![video](https://www.youtube.com/watch?v=v7blehzJCr8)
 
 
 
@@ -511,7 +504,6 @@ Onderzoek naar de historische redenen voor onvrijheid brengt een fundamentele tr
 
 
 
-![video](https://www.youtube.com/watch?v=X4Htu6xM4Qk)
 
 
 
@@ -571,7 +563,6 @@ Bestudering van de verschillende ontwikkelingsstadia onthult een diepe correlati
 
 
 
-![video](https://www.youtube.com/watch?v=Uzns3FT688k)
 
 
 
@@ -630,7 +621,6 @@ Revoluties hebben belangrijke nadelen: ze generate veel geweld en hebben de neig
 
 
 
-![video](https://www.youtube.com/watch?v=0q_m3KIoq-U)
 
 
 
@@ -684,7 +674,6 @@ Deze reflectie leidt tot een essentiële conclusie: de huidige omstandigheden zi
 
 
 
-![video](https://www.youtube.com/watch?v=aEoerhy6ERU)
 
 
 
@@ -745,7 +734,6 @@ Nu we deze voorwaarden hebben vastgesteld, kunnen we de feitelijke elementen met
 
 
 
-![video](https://www.youtube.com/watch?v=xcaV6Kb21O0)
 
 
 
@@ -801,7 +789,6 @@ Uit deze analyse vloeit een fundamentele conclusie voort: meer handel tussen de 
 
 
 
-![video](https://www.youtube.com/watch?v=qrE5GJWNwGE)
 
 
 
@@ -860,7 +847,6 @@ Het doorslaggevende voordeel van economische vrijheid is dat de productie nooit 
 
 
 
-![video](https://www.youtube.com/watch?v=tfH8FapqqsE)
 
 
 
@@ -920,7 +906,6 @@ In een vrije samenleving leidt eigenbelang tot innovatie en vooruitgang. In een 
 
 
 
-![video](https://www.youtube.com/watch?v=hS1_Nkd_H9M)
 
 
 
@@ -976,7 +961,6 @@ De overgang naar een vreedzame samenleving is een lang leerproces. Menselijke sa
 
 
 
-![video](https://www.youtube.com/watch?v=DzE_iGRP5Z0)
 
 
 
@@ -1035,7 +1019,6 @@ Systemen van onvrijheid worden juist gekenmerkt door ongelijkheid: sommige indiv
 
 
 
-![video](https://www.youtube.com/watch?v=LDMCs9wCTQc)
 
 
 
@@ -1095,7 +1078,6 @@ Omgekeerd functioneren relaties die gebaseerd zijn op politieke macht op een afg
 
 
 
-![video](https://www.youtube.com/watch?v=mfvPE1fO3-E)
 
 
 
@@ -1167,7 +1149,6 @@ De doctrine van de vrijheid stelt deze logica tegenover het principe van individ
 
 
 
-![video](https://www.youtube.com/watch?v=VT3w2BjiD8E)
 
 
 
@@ -1227,7 +1208,6 @@ Deze auteurs identificeerden arbeidsprotectionisme als de toekomstige dominante 
 
 
 
-![video](https://www.youtube.com/watch?v=MRcLZ1SpAo8)
 
 
 
@@ -1297,7 +1277,6 @@ Deze intellectuele en feitelijke geschiedenis van de mislukking van de onvrijhei
 
 
 
-![video](https://www.youtube.com/watch?v=asOEZJRQuOw)
 
 
 
@@ -1341,7 +1320,6 @@ Een cruciaal onderscheid is tussen negatieve en positieve vrijheid. Negatieve vr
 
 
 
-![video](https://www.youtube.com/watch?v=mkzE0SfSl1Q)
 
 
 
@@ -1396,7 +1374,6 @@ Geconfronteerd met deze gevaren ontwikkelde het liberale denken, met name dat va
 
 
 
-![video](https://www.youtube.com/watch?v=K1e39vtOoCc)
 
 
 
@@ -1456,7 +1433,6 @@ Economische drogredenen zijn echter slechts één van de vele. De intellectuele 
 
 
 
-![video](https://www.youtube.com/watch?v=zJhhcxwXpRI)
 
 
 
@@ -1515,7 +1491,6 @@ Niettemin hebben liberale schrijvers een sterke gevoeligheid voor armoede en de 
 
 
 
-![video](https://www.youtube.com/watch?v=GtxJlUa_H08)
 
 
 
@@ -1582,7 +1557,6 @@ Deze analyse stelt ons ook in staat om te begrijpen hoe systemen van onvrijheid 
 
 
 
-![video](https://www.youtube.com/watch?v=ary4UJhwRl8)
 
 
 
@@ -1646,7 +1620,6 @@ Courcelle-Seneuil bevestigde eenvoudigweg de ideeën van de Franse Revolutie ove
 
 
 
-![video](https://www.youtube.com/watch?v=c8Wi5jkSEu8)
 
 
 
@@ -1707,7 +1680,6 @@ De huidige realiteit laat een paradoxale en trieste situatie zien. Professionals
 
 
 
-![video](https://www.youtube.com/watch?v=cEzFGSnYfnk)
 
 
 
@@ -1771,7 +1743,6 @@ Molinari en de overgrote meerderheid van de Franse liberalen uit zijn tijd stond
 
 
 
-![video](https://www.youtube.com/watch?v=b8PojgZ0TQo)
 
 
 
@@ -1831,7 +1802,6 @@ Zo'n staat van internationaal recht, die vrijheid van handelen zou erkennen en t
 
 
 
-![video](https://www.youtube.com/watch?v=OfqTuJvo3MQ)
 
 
 

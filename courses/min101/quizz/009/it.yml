@@ -1,0 +1,9 @@
+question: Cos'è un blocco candidato in Bitcoin?
+answer: Un blocco preparato da un miner, ma non ancora valido
+wrong_answers:
+  - Un blocco validato dalla rete, ma non ancora condiviso
+  - Un blocco creato da un portafoglio, ma non ancora valido
+  - Un blocco memorizzato nella mempool
+explanation: |
+  Ogni miner assembla localmente un blocco candidato, prima di tentare di trovare una proof of work valida.
+reviewed: false

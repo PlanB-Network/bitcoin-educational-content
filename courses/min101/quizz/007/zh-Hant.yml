@@ -1,0 +1,9 @@
+question: 礦工選擇交易的經濟標準是什麼？
+answer: 費率（fee rate）
+wrong_answers:
+  - 手續費總額
+  - UTXO 的時長
+  - UTXO 的數量
+explanation: |
+  由於區塊空間有限，礦工會優先處理每位元組利潤最高的交易。因此，費率是引導交易選擇的關鍵因素。
+reviewed: false

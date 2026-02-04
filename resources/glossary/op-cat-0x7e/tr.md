@@ -1,5 +1,6 @@
 ---
 term: OP_CAT (0X7E)
+definition: Yığının en üstündeki iki öğenin birleştirilmesine (concatenation) izin veren, devre dışı bırakılmış işlem kodu.
 ---
 
 Yığındaki en üstteki iki Elements'ın birleştirilmesine (yani uç uca eklenmesine) izin verir. Bu işlem kodu devre dışı bırakıldığı için şu anda kullanımı imkansızdır. Ancak, son zamanlarda tekrar gündeme gelmiştir. Bazıları bunu Tapscript'e ekleyerek nesnelerin yığın üzerinde birleştirilmesini sağlamak ve böylece bu dilin ifade gücünü artırmak istemektedir. Bu basit ek araç aşağıdakilere olanak sağlayabilir:

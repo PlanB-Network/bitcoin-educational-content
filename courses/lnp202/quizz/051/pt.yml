@@ -1,0 +1,9 @@
+question: Que porta deve ser definida no Zeus para a ligação LND (REST) descrita neste capítulo?
+answer: 8080
+wrong_answers:
+  - 8333
+  - 8332
+  - 50001
+explanation: |
+  Para aceder ao API a partir do seu nó LND no Umbrel, é necessário utilizar a porta 8080 ao configurar o Zeus.
+reviewed: false

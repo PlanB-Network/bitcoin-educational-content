@@ -1,5 +1,6 @@
 ---
 term: ECDSA
+definition: Algoritam digitalnog potpisa eliptičnom krivom koji se koristi na Bitcoinu za potpisivanje transakcija.
 ---
 
 Akronim za "Elliptic Curve Digital Signature Algorithm." To je algoritam za digitalni potpis zasnovan na kriptografiji eliptičkih krivih (ECC). To je varijanta DSA (Digital Signature Algorithm). ECDSA koristi svojstva eliptičkih krivih kako bi obezbedio nivoe sigurnosti uporedive sa tradicionalnim algoritmima javnog ključa, kao što je RSA, dok koristi značajno manje veličine ključeva. ECDSA omogućava generisanje parova ključeva (javni i privatni ključevi) kao i kreiranje i verifikaciju digitalnih potpisa.

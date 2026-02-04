@@ -1,11 +1,10 @@
-question: None Mining ishinga iki kuri Bitcoin?
-answer: Igiciro co hasi
+question: None mining ishinga iki kuri Bitcoin?
+answer: Igiciro ngenderwako ca Bitcoin
 wrong_answers:
   - Igiciro co hejuru
   - Igiciro gihoraho
   - Igiciro gihinduka
 explanation: |
-  Mining ishiraho igiciro co hasi ca Bitcoin, munsi yaco
-  abacukuzi bogurisha bafise igihombo. Igiciro ca Mining.
-  biragira ico bikoze cane ku giciro ca Bitcoin.
+  Mining ishobora gushinga igiciro ngenderwako ca Bitcoin, munsi y’ico giciro
+  ba miners bogurisha mu ruhombo. Ikiguzi ca mining kiragira ico gikoze cane ku giciro ca Bitcoin.
 reviewed: true

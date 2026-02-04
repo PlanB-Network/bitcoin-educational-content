@@ -1,13 +1,9 @@
-question: Hvordan fungerer stem-fasen i Dandelion-protokollen?
-
-answer: Transaksjonen sendes gjennom en tilfeldig sti av noder
-
+question: Hvilken BIP formaliserte Dandelion-kringkastingsprotokollen?
+answer: BIP156
 wrong_answers:
-  - Transaksjonen blir umiddelbart kringkastet til alle naboene til kildenoden
-  - Transaksjonen blir midlertidig lagret i en sentral node før den blir kringkastet
-  - Transaksjonen blir kryptert inkrementelt ved hvert trinn av kringkastingen
-
+  - BIP34
+  - BIP47
+  - BIP324
 explanation: |
-  Dandelion bruker først en stem-fase hvor transaksjonen sendes gjennom en tilfeldig sti av noder. Transaksjonen blir deretter kringkastet til hele nettverket i fluff-fasen.
-
+  Dandelion ble formalisert i BIP156, uten å til slutt bli integrert i Bitcoin Core.
 reviewed: false

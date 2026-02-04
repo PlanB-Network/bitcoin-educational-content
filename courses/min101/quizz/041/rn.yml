@@ -1,0 +1,9 @@
+question: Ni ubuhe buhinga (algorithm) ASIC ya Bitcoin yateguriwe gukoresha cane cane?
+answer: SHA256d
+wrong_answers:
+  - SHA512d
+  - SHA1
+  - SHA512
+explanation: |
+  ASIC za Bitcoin zigenewe gukora SHA256 kabiri ikoreshwa mu gikorwa c'ivyemezo (proof-of-work) ca Bitcoin.
+reviewed: false

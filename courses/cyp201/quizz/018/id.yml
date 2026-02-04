@@ -6,3 +6,4 @@ wrong_answers:
   - Karena memerlukan perangkat keras khusus
 explanation: |
   Satoshi Nakamoto kemungkinan lebih memilih kurva secp256k1, karena parameter dari secp256r1 bisa mengandung kerentanan tersembunyi.
+reviewed: true

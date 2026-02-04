@@ -1,12 +1,12 @@
-question: Ni uruhara uruhe rw’ibihimba vy’umubiri mu rubuga rwa Bitcoin?
-answer: Nodes zigumya ubutungane mu kugenzura no kwemeza amafaranga n’amabuye.
+question: Ni uruhara uruhe rwa node mu muhora wa Bitcoin?
+answer: Nodes zigumya ubutungane mu kugenzura no kwemeza ibikorwa vy’amafaranga n’ama block.
 wrong_answers:
-  - Nodes zirema kandi zikemeza amabuye.
+  - Nodes zirema kandi zikemeza block.
   - Nodes zigenzura gusa amafaranga.
-  - Nodes nta ruhara zifise mu rubuga rwa Bitcoin.
+  - Nodes nta ruhara zifise mu muhora wa Bitcoin.
 explanation: |
-  Mu rubuga rwa Bitcoin, amanode arabungabunga ubutungane bw’
-  urubuga mu kugenzura no kwemeza amafaranga n'
-  amabuye. Igipande kitari co canke c'ubuhendanyi kizokwangwa
-  n’ibihimba, bikabungabunga umutekano w’urubuga.
+  Mu muhora wa Bitcoin, nodes zibungabunga ubutungane bw’
+  umuhora mu kugenzura no kwemeza ibikorwa vy'amafaranga n'ama block. Block 
+  itari yo canke y’ububeshi izokwankwa igihe ishitse kuri node, gutyo bigasanuko 
+  aba miners bagenzurwa kandi bikabungabunga umutekano w’umuhora. 
 reviewed: true

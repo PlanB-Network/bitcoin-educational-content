@@ -1,0 +1,9 @@
+question: Minkä elementin perusteella Bitcoinin työtodistus lasketaan?
+answer: Lohkon otsake
+wrong_answers:
+  - Lohkon korkeus
+  - Verkon mempool
+  - Lohkon 21 ensimmäistä tapahtumaa
+explanation: |
+  Louhinta koostuu 80 tavun mittaisen lohkon otsakkeen toistuvasta tiivistämisestä (hashing), joka sitoo lohkon sisällön.
+reviewed: false

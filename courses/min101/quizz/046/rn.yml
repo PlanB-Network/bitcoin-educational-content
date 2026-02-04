@@ -1,0 +1,9 @@
+question: Ni iyihe nshuro ivunaguye ivuga igikorwa gikorerwa muri pool de minage?
+answer: Igurisha ukumenya uko ibintu bizagenda (prévisibilité)
+wrong_answers:
+  - Igurisha ingorane zo gucukura (difficulté de minage)
+  - Igurisha ibice binini (blocs plus grands)
+  - Igurisha imashini zicukura (machines de minage)
+explanation: |
+  Gushira hamwe bihindura amahera aboneka mu buryo budasobanutse kuba amahera aboneka kenshi, mu guhana n'abandi no kuriha amahera y'akazi.
+reviewed: false

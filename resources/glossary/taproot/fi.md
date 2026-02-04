@@ -1,6 +1,7 @@
 ---
-term: TAPROOT
+term: Taproot
 
+definition: Marraskuussa 2021 aktivoitu merkittävä Bitcoin-päivitys, joka tuo yksityisyyttä, tehokkuutta ja joustavuutta BIP340n, 341n ja 342n kautta.
 ---
 Merkittävä päivitys Bitcoin-protokollaan, joka hyväksyttiin marraskuussa 2021 pehmeällä haarautumisella. Tämä päivitys tuo merkittäviä parannuksia yksityisyyteen, tehokkuuteen ja joustavuuteen toteuttamalla BIP340, BIP341 ja BIP342. Tämä päivitys lukittiin lohkossa 687,284 12. kesäkuuta 2021, kun 90 % jakson aikana tuotetuista lohkoista ilmoitti puoltavansa sitä, mikä osoitti louhijoiden valmiuden aktivoida päivitys (*Speedy Trial*). Aktivointi tapahtui lopulta lohkolla 709,632 14. marraskuuta 2021, lähes neljä vuotta sen jälkeen, kun Pieter Wuille, Andrew Poelstra ja Gregory Maxwell olivat keskustelleet asiasta. Se oli ensimmäinen suuri päivitysyritys sitten SegWitin kiistanalaisen aktivoinnin vuonna 2017.
 

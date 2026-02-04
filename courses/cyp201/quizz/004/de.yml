@@ -1,4 +1,4 @@
-question: Welche Kombination von Hash-Funktionen wird verwendet, um kürzere Fingerabdrücke in Bitcoin zu erzeugen?
+question: Welche Kombination von Hashfunktionen wird verwendet, um kürzere Fingerabdrücke in Bitcoin zu erzeugen?
 answer: HASH160
 wrong_answers:
   - SHA512-SHA256

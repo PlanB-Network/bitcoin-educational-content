@@ -1,0 +1,9 @@
+question: Lihtsalt öeldes, mis on blokk Bitcoini võrgus?
+answer: Tehingute pakett
+wrong_answers:
+  - Makse
+  - Keskserver
+  - Privaatvõti
+explanation: |
+  Lihtsustatult öeldes on blokk lihtsalt rühm rühmitatud tehinguid.
+reviewed: false

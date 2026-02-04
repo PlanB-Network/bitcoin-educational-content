@@ -1,0 +1,9 @@
+question: 比特幣的算力證明是基於哪個元素計算的？
+answer: 區塊頭
+wrong_answers:
+  - 區塊高度
+  - 網絡 mempool
+  - 區塊的前 21 筆交易
+explanation: |
+  挖礦是指對 80 位元組的區塊頭進行循環哈希計算，區塊頭彙總了區塊的所有內容。
+reviewed: false

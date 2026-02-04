@@ -1,0 +1,9 @@
+question: Koliki je bio iznos subvencije bloka pri lansiranju Bitcoina 2009. godine?
+answer: 50 BTC
+wrong_answers:
+  - 25 BTC
+  - 12,5 BTC
+  - 100 BTC
+explanation: |
+  Prvobitna subvencija bila je 50 BTC po bloku, pre uzastopnih podela.
+reviewed: false

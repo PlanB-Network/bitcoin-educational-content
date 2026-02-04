@@ -1,6 +1,7 @@
 ---
-term: FRASE DI RECUPERO
+term: Frase di recupero
 
+definition: Sequenza di 12 o 24 parole che consente di eseguire il backup e il ripristino di un portafoglio Bitcoin.
 ---
 Una frase di recupero, talvolta chiamata anche frase mnemonica, frase seme o frase segreta, è una sequenza solitamente composta da 12 o 24 parole, generata in modo pseudocasuale da una fonte di entropia. La sequenza pseudocasuale è sempre completata da una somma di controllo. La frase mnemonica, insieme a una passphrase opzionale, viene utilizzata per ricavare in modo deterministico tutte le chiavi associate a un portafoglio HD (Hierarchical Deterministic). Ciò significa che da questa frase è possibile generare e ricreare in modo deterministico tutte le chiavi private e pubbliche del portafoglio Bitcoin, e di conseguenza accedere ai fondi ad esso associati. Lo scopo della frase di recupero è quello di fornire un mezzo di backup e recupero dei bitcoin che sia sicuro e facile da usare.
 

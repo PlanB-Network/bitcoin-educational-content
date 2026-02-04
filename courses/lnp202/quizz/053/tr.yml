@@ -1,0 +1,9 @@
+question: Tailscale hangi protokole dayanıyor?
+answer: WireGuard
+wrong_answers:
+  - OpenVPN
+  - IPsec IKEv2
+  - PPTP
+explanation: |
+  Tailscale, WireGuard'ü temel alan bir VPN çözümüdür.
+reviewed: false

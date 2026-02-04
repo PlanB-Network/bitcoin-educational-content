@@ -1,6 +1,7 @@
 ---
-term: BYZANTINE GENERAL PROBLEM (拜占庭将军问题)
+term: 拜占庭将军问题
 
+definition: 说明分布式系统中协调挑战的问题，其中各方无法相互信任。
 ---
 Leslie Lamport、Robert Shostak 和 Marshall Pease 于1982年 7月在专业杂志《ACM Transactions on Programming Languages and Systems》第4卷第3期*["拜占庭将军问题"](https://lamport.azurewebsites.net/pubs/byz.pdf)*上首次提出了这个问题。今天，它用作说明当一个分布式系统无法信任任何行为者时，在决策方面所面临的挑战。
 

@@ -1,0 +1,9 @@
+question: Ni kila baada ya vitalu vingapi lengo la ugumu hurekebishwa?
+answer: Vitalu 2016
+wrong_answers:
+  - Vitalu 2000
+  - Vitalu 2100
+  - Vitalu 4096
+explanation: |
+  Marekebisho hufanyika kila baada ya vitalu 2016, ambayo ni takriban wiki mbili kwa dakika 10 kwa kila kitalu.
+reviewed: false

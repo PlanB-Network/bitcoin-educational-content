@@ -255,12 +255,13 @@ met be-BOP kunt u Bitcoin betalingen rechtstreeks op de Blockchain (On-Chain) ac
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| Veld                  | Beschrijving                                               | Voorbeeld om Te Gebruiken                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **BIP-standaard**       | Het type adressering dat wordt gebruikt                               | BIP84 (voor adressen in bech32-indeling die beginnen met `bc1`) |
+| **Uitgebreide Openbare Sleutel** | Uw Zpub (of Xpub afhankelijk van de gebruikte portefeuille)        | `zpub...` (geëxtraheerd uit uw Bitcoin-portefeuille) |
+| **Derivation Index**   | De startindex voor adresgeneratie         | `1`                                              |
+| **Mempool URL**        | De URL van de mempool-service die wordt gebruikt om transacties bij te houden | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 
@@ -849,12 +850,13 @@ Dit gedeelte bepaalt **waar** en **hoe** het product kan worden bekeken en gekoc
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Platform        | Product Zichtbaar | Toevoegbaar aan Winkelwagen |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (openbare website)        | ✔️              | ✔️                  |
+| Retail POS (verkooppunt)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (verkoop via bot)  | ✔️              | ✔️                  |
 
 Vink alleen de kanalen aan die je wilt gebruiken.
 
@@ -1024,14 +1026,15 @@ Gebruik **shortcodes** in de inhoud van uw CMS pagina's:
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Doel                 | Tag om In Te Voegen                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Een product weergeven      | `[Product=slug?display=img-1]`        |
+| Een afbeelding weergeven       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Een schuifregelaar integreren       | `[Slider=slug?autoplay=3000]`         |
+| Een uitdaging toevoegen     | `[Challenge=slug]`                    |
+| Een aftelling toevoegen | `[Countdown=slug]`                 |
+| Een formulier integreren   | `[Form=slug]`                         |
 
 **Huidige parameters**:
 
@@ -1813,14 +1816,15 @@ Poster:
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Functie                         | Beschrijving                                             |
+|----------------------------------|---------------------------------------------------------|
+| POS-rol                         | Toegewezen via ARM                                         |
+| Hoofdinterface             | `/pos` of `/pos/touch`                                 |
+| Klantendisplay (scherm 2)       | `/pos/session`                                         |
+| Betaling                         | Contant geld, kaart, Lightning enz.                         |
+| Producttoevoeging                    | Alias of barcodescan                              |
+| Kortingen / btw                    | Met verplichte managementbasis              |
 
 Bedankt voor het aandachtig volgen van deze handleiding.

@@ -1,6 +1,7 @@
 ---
-term: HALVING
+term: Halving
 
+definition: Ereignis, bei dem die Belohnung für Miner alle 210.000 Blöcke halbiert wird.
 ---
 Der Begriff "Halbierung" bezieht sich auf ein geplantes Ereignis, bei dem die Belohnung, die die Miner für jeden geschürften Block erhalten, durch die Blocksubvention halbiert wird. Diese Kürzung bezieht sich speziell auf den Teil der Blocksubvention, der aus neuen, aus dem Nichts geschaffenen Bitcoins besteht. Die Halbierung wurde von Satoshi Nakamoto, dem Schöpfer von Bitcoin, als Mechanismus zur Kontrolle der Inflation und zur Gewährleistung eines begrenzten Angebots an Bitcoins entwickelt.
 

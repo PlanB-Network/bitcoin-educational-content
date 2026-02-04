@@ -1,0 +1,9 @@
+question: Hvilken løsning gjør det mulig å kjøre en ekte Lightning-node på mobiltelefoner?
+answer: Innebygd LN-node
+wrong_answers:
+  - Vaktmester Lightning wallet
+  - Lyn-atombytte
+  - Forbundne kanaler
+explanation: |
+  Løsninger som Phoenix eller Zeus Embedded integrerer en ekte Lightning-node direkte i applikasjonen.
+reviewed: false

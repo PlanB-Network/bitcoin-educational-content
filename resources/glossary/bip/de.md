@@ -1,6 +1,7 @@
 ---
 term: BIP
 
+definition: Bitcoin Improvement Proposal. Formaler Prozess, der es der Community ermöglicht, Verbesserungen am Bitcoin-Protokoll vorzuschlagen, zu diskutieren und zu dokumentieren.
 ---
 Akronym für "Bitcoin Improvement Proposal" (Bitcoin-Verbesserungsvorschlag) Ein Bitcoin Improvement Proposal (BIP) ist ein formaler Prozess für das Vorschlagen und Dokumentieren von Verbesserungen und Änderungen am Bitcoin-Protokoll und seinen Standards. Da Bitcoin keine zentrale Instanz hat, die über Aktualisierungen entscheidet, erlauben BIPs der Community, Verbesserungen in einer strukturierten und transparenten Weise vorzuschlagen, zu diskutieren und zu implementieren. Jedes BIP beschreibt detailliert die Ziele der vorgeschlagenen Verbesserung, die Begründungen, mögliche Auswirkungen auf die Kompatibilität sowie die Vor- und Nachteile. BIPs können von jedem Mitglied der Community geschrieben werden, müssen aber von anderen Entwicklern und den Editoren, die die Bitcoin Core GitHub Datenbank pflegen, genehmigt werden: Bryan Bishop, Jon Atack, Luke Dashjr, Mark Erhardt (Murch), Olaoluwa Osuntokun, und Ruben Somsen. Es ist jedoch wichtig zu verstehen, dass die Rolle dieser Personen bei der Bearbeitung von BIPs nicht bedeutet, dass sie Bitcoin kontrollieren. Wenn jemand eine Verbesserung vorschlägt, die innerhalb des formalen BIP-Rahmens nicht akzeptiert wird, kann er sie immer noch direkt der Bitcoin-Gemeinschaft vorlegen oder sogar eine Abspaltung mit seiner Änderung erstellen. Der Vorteil des BIP-Prozesses liegt in seiner Formalität und Zentralisierung, die eine Debatte erleichtern, um eine Spaltung unter den Bitcoin-Nutzern zu vermeiden, und die versuchen, Aktualisierungen in einer einvernehmlichen Weise zu implementieren. Letztendlich ist es das Prinzip der wirtschaftlichen Mehrheit, das die Machtdynamik innerhalb des Protokolls bestimmt.
 
@@ -33,6 +34,5 @@ Im Laufe ihres Lebenszyklus durchlaufen BIPs dann verschiedene Status. Der aktue
 - Aktiv: Dieser Status wird nur für Prozess-BIPs vergeben, sobald ein bestimmter Konsens erreicht ist;
 - Ersetzt / überholt: Die BIP ist nicht mehr anwendbar oder wurde durch einen neueren Vorschlag ersetzt, der sie überflüssig macht.
 
-![](../../dictionnaire/assets/25.webp)
 
-> bIP ist die Abkürzung für "Bitcoin Improvement Proposal" (Bitcoin Verbesserungsvorschlag). Im Französischen kann es mit "Proposition d'amélioration de Bitcoin" übersetzt werden. Die meisten französischen Texte verwenden jedoch das Akronym "BIP" direkt als allgemeines Substantiv, manchmal feminin, manchmal maskulin
+

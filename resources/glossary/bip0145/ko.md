@@ -1,5 +1,6 @@
 ---
 term: BIP0145
+definition: SegWit 지원 및 트랜잭션 가중치 계산을 통합하기 위한 JSON-RPC getblocktemplate 호출 업데이트.
 ---
 
 BIP141에 따라 SegWit에 대한 지원을 포함하도록 JSON-RPC 호출 `getblocktemplate`을 업데이트합니다. 이 업데이트를 통해 채굴자는 SegWit에서 도입된 트랜잭션 및 블록에 대한 새로운 "가중치" 메트릭과 시곱스 한도 계산과 같은 기타 매개 변수를 고려하여 블록을 구성할 수 있습니다.

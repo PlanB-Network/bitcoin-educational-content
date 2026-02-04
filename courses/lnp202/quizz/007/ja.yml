@@ -1,0 +1,9 @@
+question: Bitcoinのどのような基本的性質が、保管によって失われるのか？
+answer: 通貨主権
+wrong_answers:
+  - 金銭的な拡張性
+  - 迅速な支払い
+  - 金銭的相互運用性
+explanation: |
+  鍵の管理がなければ、ユーザーはBitcoinの柱である通貨主権を放棄することになる。
+reviewed: false

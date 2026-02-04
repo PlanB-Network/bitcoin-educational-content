@@ -1,0 +1,9 @@
+question: 비트코인 최초의 마이닝 풀은 무엇입니까?
+answer: Braiins Pool
+wrong_answers:
+  - Foundry USA
+  - AntPool
+  - F2Pool
+explanation: |
+  이전에 Slush Pool 및 Bitcoin CZ로 알려졌던 Braiins Pool은 2010년에 생성된 비트코인 최초의 마이닝 풀입니다.
+reviewed: false

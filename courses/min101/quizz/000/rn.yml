@@ -1,0 +1,9 @@
+question: Mu gikorwa ca Bitcoin, inputs zikoresha iki?
+answer: UTXO ziriho
+wrong_answers:
+  - Outputs zo muri kazoza
+  - Blocks ziriho
+  - Aderesi zo muri kazoza
+explanation: |
+  Input yerekana output itarakoreshwa ivuye mu gikorwa ca kera, bita UTXO.
+reviewed: false

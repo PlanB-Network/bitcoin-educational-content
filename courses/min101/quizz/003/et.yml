@@ -1,0 +1,9 @@
+question: Millist tõendit kasutatakse Bitcoinis kõige sagedamini UTXO vabastamiseks?
+answer: Digitaalallkiri
+wrong_answers:
+  - Konto parool
+  - Käesoleva bloki räsi
+  - SSL-sertifikaat
+explanation: |
+  Kulutamise tingimus nõuab tavaliselt vastava privaatvõtmega loodud allkirja.
+reviewed: false

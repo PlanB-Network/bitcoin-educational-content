@@ -1,0 +1,9 @@
+question: Hva er en kandidatblokk i Bitcoin?
+answer: En blokk forberedt av en miner, men som ennå ikke er gyldig
+wrong_answers:
+  - En blokk validert av nettverket, men ennå ikke delt
+  - En blokk opprettet av en lommebok, men ennå ikke gyldig
+  - En blokk lagret i mempoolen
+explanation: |
+  Hver miner setter sammen en kandidatblokk lokalt før de prøver å finne et gyldig bevis på arbeid.
+reviewed: false

@@ -5,5 +5,6 @@ wrong_answers:
   - All Things Considered
   - Infowars Nightly News
 explanation: |
- Free Talk Live was hosted by Ian Freeman and Mark Edge, who discovered Bitcoin in December 2010 and met Gavin Andresen in February 2011. On March 16, 2011, half of the show was devoted to the use of Bitcoin on Silk Road, which convinced Roger Ver to get more involved with Bitcoin.
-reviewed: false
+ Free Talk Live was hosted by Ian Freeman and Mark Edge, who discovered Bitcoin in December 2010 and met Gavin Andresen in February 2011. On March 16, 2011, half 
+ of the show was devoted to the use of Bitcoin on Silk Road, which convinced Roger Ver to get more involved with Bitcoin.
+reviewed: true

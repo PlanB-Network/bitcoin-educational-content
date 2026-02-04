@@ -1,0 +1,9 @@
+question: Riguardo alla mempool, quale affermazione è corretta?
+answer: Ogni nodo ha la sua mempool
+wrong_answers:
+  - Esiste un'unica mempool
+  - La mempool è un file contenuto in ogni blocco
+  - La mempool è un server centrale
+explanation: |
+  La mempool è locale a ogni nodo, quindi il suo contenuto può variare da un nodo all'altro a seconda delle regole applicate da ciascuno.
+reviewed: false

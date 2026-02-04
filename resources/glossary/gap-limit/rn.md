@@ -1,5 +1,6 @@
 ---
-term: IKIGANIRO
+term: Gap limit
+definition: Igitigiri ntarengwa c'ama-address akurikirana atagira ivunjisha imbere yo guhagarika kurondera ivunjisha.
 ---
 
 Igikoresho gikoreshwa muri porogarama ya Bitcoin Wallet kugira ngo umenye umubare munini w’amaderesi atakoreshwa akurikiranye kuri generate imbere yo guhagarika ugushaka ibindi bikoresho. Guhindura iyo parametere kenshi birakenewe igihe umuntu ariko aragarura Wallet kugira ngo umenye neza ko amafaranga yose akoreshwa abonetse. Igitigiri c'Ikinogo kidahagije coshobora gutuma umuntu abura amafaranga amwe amwe iyo amaderesi asimbuwe mu bice vy'ugukuraho. Kwongera Gap Limit bituma Wallet irondera cane mu rutonde rwa Address, kugira ngo ibone amafaranga yose ajanye.

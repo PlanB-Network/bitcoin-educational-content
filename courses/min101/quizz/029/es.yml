@@ -1,0 +1,9 @@
+question: ¿De qué se compone la recompensa de bloque?
+answer: Subsidio + comisiones
+wrong_answers:
+  - Subsidio + dificultad
+  - Comisiones + nonce
+  - Hashrate + comisiones
+explanation: |
+  La recompensa suma el subsidio de bloque y el conjunto de comisiones de las transacciones incluidas.
+reviewed: false

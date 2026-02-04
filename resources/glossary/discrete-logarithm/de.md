@@ -1,6 +1,7 @@
 ---
-term: DISKRETER LOGARITHMUS
+term: Diskreter Logarithmus
 
+definition: Schwer zu lösendes mathematisches Problem, das die Grundlage für die kryptografische Sicherheit von Bitcoin bildet.
 ---
 Der diskrete Logarithmus ist ein mathematisches Problem, das in einigen kryptographischen Algorithmen für öffentliche Schlüssel verwendet wird. Wenn man in einer zyklischen Gruppe der Ordnung $q$ mit einem Generator $g$ eine Gleichung der Form $g^x = h$ hat, dann nennt man $x$ den diskreten Logarithmus von $h$ in Bezug auf die Basis $g$, modulo $q$. Vereinfacht ausgedrückt, geht es darum, den Exponenten $x$ zu bestimmen, wenn $g$, $h$ und $q$ bekannt sind. Der diskrete Logarithmus ist also die Umkehrung des Exponentials in einer endlichen zyklischen Gruppe. Für große Werte von $q$ wird die Lösung des diskreten Logarithmusproblems jedoch als algorithmisch schwierig angesehen. Diese Eigenschaft wird ausgenutzt, um die Sicherheit vieler kryptographischer Protokolle zu gewährleisten, z. B. des Diffie-Hellman-Protokolls für den Schlüsselaustausch.
 

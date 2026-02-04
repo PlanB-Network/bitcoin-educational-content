@@ -1,0 +1,9 @@
+question: Kriteria ekonomi apa yang memandu pemilihan transaksi oleh penambang?
+answer: Tingkat biaya (fee rate)
+wrong_answers:
+  - Jumlah total biaya
+  - Usia UTXO
+  - Jumlah UTXO
+explanation: |
+  Karena ruang blok terbatas, penambang memprioritaskan transaksi yang paling menguntungkan per byte. Oleh karena itu, tingkat biaya lah yang memandu pemilihan transaksi.
+reviewed: false

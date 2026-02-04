@@ -1,0 +1,9 @@
+question: 這些 Lightning 作業中，哪個需要發佈在線交易？
+answer: 通道開啟
+wrong_answers:
+  - 閃電付款
+  - 多跳路由
+  - 行動用戶端連線
+explanation: |
+  通道的開啟對應於在區塊鏈上公佈的 Bitcoin 交易。
+reviewed: false

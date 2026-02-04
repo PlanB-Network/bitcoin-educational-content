@@ -1,8 +1,8 @@
 question: Qu'advient-il de l'inférence du type de fermeture lorsqu'une fermeture est appelée avec des types spécifiques ?
-answer: Ces types deviennent fixes pour cette instance de clôture
+answer: Ces types deviennent fixes pour cette instance de fermeture.
 wrong_answers:
-  - La fermeture peut encore accepter d'autres types dans des appels ultérieurs
-  - Le compilateur réinitialise les types pour le prochain appel de fonction
-  - Les types restent flexibles et peuvent changer en fonction du contexte
+  - La fermeture peut encore accepter d'autres types dans des appels ultérieurs.
+  - Le compilateur réinitialise les types pour le prochain appel de fonction.
+  - Les types restent flexibles et peuvent changer en fonction du contexte.
 explanation: |
   Dans Rust, les fermetures bénéficient d'une inférence de type automatique, mais cette flexibilité a des limites. Une fois qu'une fermeture est appelée avec des types de paramètres spécifiques, le compilateur verrouille ces types pour cette instance de fermeture particulière. Cela signifie que la même fermeture ne peut pas être appelée plus tard avec des types différents - elle devient monomorphe avec les premiers types qu'elle rencontre. Cela diffère des fonctions génériques qui peuvent être appelées avec différents types parce que chaque appel crée une instanciation distincte. Les autres options sont incorrectes car elles suggèrent une flexibilité permanente qui n'existe pas une fois que les types de la fermeture sont déterminés.

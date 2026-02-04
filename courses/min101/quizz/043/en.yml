@@ -1,0 +1,9 @@
+question: Between mid-2010 and mid-2011, by what factor did the mining difficulty multiply?
+answer: 1000
+wrong_answers:
+  - 100
+  - 500
+  - 50
+explanation: |
+  A 1000-fold multiplication took place over this period, notably due to the use of GPUs.
+reviewed: false

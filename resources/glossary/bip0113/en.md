@@ -1,5 +1,6 @@
 ---
 term: BIP0113
+definition: Modification of timelocks to use Median Time Past (median of the last 11 blocks) instead of the previous block's timestamp.
 ---
 
 Introduced a change in how all timelock operations (`nLockTime`, `OP_CHECKLOCKTIMEVERIFY`, `nSequence`, and `OP_CHECKSEQUENCEVERIFY`) are evaluated. 

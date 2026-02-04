@@ -1,5 +1,6 @@
 ---
-term: MBEGU za DNS
+term: Dns seeds
+definition: Seva za DNS zinazotoa anwani za IP za nodi zinazofanya kazi kwa nodi mpya zinazojiunga na mtandao wa Bitcoin.
 ---
 
 Viunga vya awali vya nodi mpya za Bitcoin zinazojiunga na mtandao. Mbegu hizi, ambazo kwa hakika ni seva mahususi za DNS, Address yao imepachikwa kabisa katika msimbo wa Bitcoin Core. Wakati nodi mpya inapoanza, huwasiliana na seva hizi ili kupata orodha nasibu ya anwani za IP za nodi zinazowezekana za Bitcoin zinazotumika. Kisha nodi mpya inaweza kuanzisha miunganisho na vifundo kwenye orodha hii ili kupata taarifa inayohitajika kutekeleza Upakuaji wake wa Awali wa Kizuizi (IBD) na kusawazisha na msururu ambao una kazi iliyokusanywa zaidi. Kufikia 2024, hii ndiyo orodha ya mbegu za Bitcoin Core DNS na watu binafsi wanaowajibika kuzitunza (https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp):

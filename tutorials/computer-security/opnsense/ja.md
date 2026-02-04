@@ -147,11 +147,12 @@ OPNsenseの実行に必要なハードウェア・リソースを考慮する必
 
 
 
-| Caractéristiques | Minimum | Recommandation |
+
+| 機能 | 最小 | 推奨 |
 | --- | --- | --- |
-| Processeur | 1 GHz - 2 cœurs | 1.5 GHz - Multi-coeurs |
-| Mémoire vive (RAM) | 2 Go | 8 Go |
-| Espace de stockage pour le système | Disque dur, disque SSD ou carte SD (4 Go) | 120 Go en SSD |
+| プロセッサー | 1 GHz - 2 コア | 1.5 GHz - マルチコア |
+| RAM | 2 GB | 8 GB |
+| システムのストレージ容量 | ハードドライブ、SSD または SD カード (4 GB) | SSD上の 120 GB |
 
 最後に、**必要なリソースは、何よりも管理する接続数**に依存し、したがって**必要な帯域幅**に依存します。さらに、**有効化され使用されるサービス**（プロキシ、侵入検知など）は、CPUおよび/またはRAMを消費する可能性があるため、**留意する必要があります**。
 

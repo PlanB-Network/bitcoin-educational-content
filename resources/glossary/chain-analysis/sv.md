@@ -1,5 +1,6 @@
 ---
-term: KEDJEANALYS
+term: Kedjeanalys
+definition: Praxis att spåra bitcoinflöden på blockkedjan med hjälp av heuristik och mönster.
 ---
 
 Praxis som omfattar alla metoder som används för att spåra flödet av bitcoins på Blockchain. I allmänhet bygger kedjeanalys på observation av egenskaper i urval av tidigare transaktioner. Det handlar sedan om att identifiera samma egenskaper i en transaktion som man vill analysera och dra slutsatser om rimliga tolkningar. Denna problemlösningsmetod, som bygger på ett praktiskt tillvägagångssätt för att hitta en tillräckligt bra lösning, kallas heuristisk. För att förenkla görs kedjeanalysen i två huvudsakliga steg:

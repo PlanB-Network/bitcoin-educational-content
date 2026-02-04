@@ -1,9 +1,12 @@
-question: Koji mehanizam osigurava da je ograničenje ponude Bitcoin sprovedeno bez potrebe za poverenjem u bilo koji centralni autoritet?
-answer: Čvorovi puni čvorovi koji pokreću verifikacioni kod koji automatski odbacuje blokove sa nevažećim coinbase transakcijama
+question: Koji mehanizam osigurava da je ograničenje ponude bitcoina sprovedeno bez potrebe za poverenjem u bilo koji centralni autoritet?
+answer: Puni čvorovi koji pokreću verifikacioni kod koji automatski odbacuje blokove sa nevažećim coinbase transakcijama
 wrong_answers:
   - Distribuirani konsenzus algoritam koji zahteva odobrenje većine za bilo kakve promene u snabdevanju
   - Kriptografski proof-of-work koji matematički sprečava kreiranje viška novčića
   - Mrežni validatori koji glasaju o validnosti transakcija kroz demokratski proces
 explanation: |
-  Ograničenje snabdevanja Bitcoin se sprovodi putem punih čvorova koji pokreću verifikacioni kod kako bi proverili svaku blok transakciju coinbase u skladu sa pravilima konsenzusa. Čak i ako neki čvorovi postanu zlonamerni i prihvate nevažeće blokove sa prekomernim nagradama, pošteni čvorovi će ih jednostavno ignorisati i nastaviti sa važećim lancem. Ovo stvara sistem bez poverenja gde ne morate verovati nijednoj osobi ili autoritetu - potrebno je samo da pokrenete kod koji proverava da li se pravila poštuju, čineći mrežu kolektivno sigurnom protiv pokušaja inflacije snabdevanja.
-reviewed: false
+  Ograničenje ponude bitcoina se sprovodi putem punih čvorova koji pokreću verifikacioni kod kako bi proverili svaku coinbase transakciju svakog bloka u skladu sa 
+  pravilima konsenzusa. Čak i ako neki čvorovi postanu zlonamerni i prihvate nevažeće blokove sa prekomernim nagradama, pošteni čvorovi će ih jednostavno 
+  ignorisati i nastaviti sa važećim lancem. Ovo stvara sistem bez poverenja gde ne morate verovati nijednoj osobi ili autoritetu - potrebno je samo da pokrenete 
+  kod koji proverava da li se pravila poštuju, čineći mrežu kolektivno sigurnom protiv pokušaja inflacije snabdevanja.
+reviewed: true

@@ -1,0 +1,9 @@
+question: 为什么要使用 Lightning 节点管理器？
+answer: 轻松访问高级功能
+wrong_answers:
+  - 取代 LND 的实施
+  - 消除对 Umbrel 的依赖
+  - 修改闪电协议
+explanation: |
+  高级管理器提供基本界面不具备的功能，但界面仍然简单。
+reviewed: false

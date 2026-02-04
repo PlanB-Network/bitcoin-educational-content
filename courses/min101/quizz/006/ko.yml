@@ -1,0 +1,9 @@
+question: 비트코인 블록 헤더의 머클 루트(Merkle root)는 어떤 용도로 사용됩니까?
+answer: 블록의 모든 트랜잭션을 약속(commit)하기 위해
+wrong_answers:
+  - 블록의 작업 증명을 계산하기 위해
+  - 블록 버전을 알리기 위해
+  - 블록 난이도를 파악하기 위해
+explanation: |
+  머클 루트는 모든 트랜잭션을 요약합니다. 하나라도 변경되면 루트도 변경됩니다.
+reviewed: false

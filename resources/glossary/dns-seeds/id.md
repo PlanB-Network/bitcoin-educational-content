@@ -1,6 +1,7 @@
 ---
-term: DNS SEEDS
+term: Dns seeds
 
+definition: Server DNS yang menyediakan alamat IP node aktif ke node baru yang bergabung dengan jaringan Bitcoin.
 ---
 Titik koneksi awal untuk node Bitcoin baru yang bergabung dengan jaringan. _Seed-seed_ ini, yang sebenarnya adalah server DNS tertentu, memiliki alamat yang tertanam secara permanen di dalam kode Bitcoin Core. Ketika sebuah node baru diinisiasi, node tersebut akan menghubungi server-server ini untuk mendapatkan daftar alamat IP secara acak dari node Bitcoin yang aktif. Node baru tersebut kemudian dapat membuat koneksi dengan node-node dalam daftar ini untuk mendapatkan informasi yang dibutuhkan untuk melakukan _Initial Block Download_ (IBD) dan melakukan sinkronisasi dengan rantai yang memiliki akumulasi pekerjaan paling banyak. Pada tahun 2024, berikut ini adalah daftar Bitcoin Core DNS dan individu yang bertanggung jawab atas pemeliharaannya (https://github.com/bitcoin/bitcoin/blob/master/src/kernel/chainparams.cpp):
 

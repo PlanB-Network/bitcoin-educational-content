@@ -1,9 +1,9 @@
 question: Qual è il motivo principale per cui, secondo gli esperti di sicurezza, i bug delle prestazioni in Bitcoin possono essere potenzialmente utilizzati come armi per creare partizioni di rete?
-answer: I bug di performance possono essere distribuiti strategicamente per separare specifici miners e exchange dal resto della rete, consentendo attacchi double-spend
+answer: I bug di performance possono essere distribuiti strategicamente per separare specifici miner e exchange dal resto della rete, consentendo attacchi doppia spesa.
 wrong_answers:
   - I bug di performance riguardano principalmente i tempi di conferma delle transazioni, rendendo la rete inaffidabile per commercianti e utenti
   - I bug di performance consumano risorse computazionali eccessive, costringendo i nodi a spegnersi e riducendo la decentralizzazione della rete
   - I bug delle prestazioni creano perdite di memoria che finiscono per bloccare i nodi, causando una temporanea instabilità della rete e una riduzione della velocità di hash
 explanation: |
-  Gregory Maxwell ha specificamente avvertito che i bug delle prestazioni, se impiegati con perizia, possono essere utilizzati per partizionare la rete in modo strategico - ad esempio, separando il "minatore A e lo scambio B" in una partizione mentre tutti gli altri vanno in un'altra, creando le condizioni per gli attacchi a doppia spesa. Questo dimostra perché problemi apparentemente minori dovrebbero essere trattati come potenzialmente gravi, in quanto possono essere utilizzati come armi in modi sofisticati che non sono immediatamente evidenti.
-reviewed: false
+  Gregory Maxwell ha specificamente avvertito che i bug delle prestazioni, se impiegati con perizia, possono essere utilizzati per partizionare la rete in modo strategico - ad esempio, separando il "minatore A e l'exchange B" in una partizione mentre tutti gli altri vanno in un'altra, creando le condizioni per gli attacchi a doppia spesa. Questo dimostra perché problemi apparentemente minori dovrebbero essere trattati come potenzialmente gravi, in quanto possono essere utilizzati come armi in modi sofisticati che non sono immediatamente evidenti.
+reviewed: true

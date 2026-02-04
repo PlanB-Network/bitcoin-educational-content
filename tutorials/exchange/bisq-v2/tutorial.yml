@@ -22,143 +22,143 @@ proofreading:
     contributor_names:
       - Pivii
       - marshal-opsource
-    reward: 1.48
+    reward: 0
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.84
+    reward: 3.33
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.91
+    reward: 2.25
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.91
+    reward: 2.25
   - language: es
     last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
       - Salgraphics
-    reward: 2.95
+    reward: 1.13
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.84
+    reward: 3.33
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.84
+    reward: 3.33
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.78
+    reward: 4.4
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.91
+    reward: 2.25
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.78
+    reward: 5.48
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.84
+    reward: 3.33
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.91
+    reward: 2.25
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.84
+    reward: 3.33
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.78
+    reward: 5.48
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.78
+    reward: 4.4
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.78
+    reward: 5.48
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.84
+    reward: 3.33
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.84
+    reward: 4.4
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.84
+    reward: 3.33
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.78
+    reward: 4.4
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.84
+    reward: 3.33
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.91
+    reward: 2.25
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.84
+    reward: 3.33
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.78
+    reward: 4.4
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.78
+    reward: 4.4
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.78
+    reward: 5.48
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.84
+    reward: 3.33
   - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.78
+    reward: 4.4
 tags:
   - software
   - guides

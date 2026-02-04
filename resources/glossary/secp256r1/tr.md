@@ -1,5 +1,6 @@
 ---
 term: SECP256R1
+definition: secp256k1'i tercih eden Bitcoin tarafından kullanılmayan, NIST standardına ait eliptik eğri.
 ---
 
 Açık anahtar kriptografisi için NIST standardı tarafından tanımlanan bir eliptik eğriye verilen ad. Bu yöntem 256 bitlik bir asal alan ve $y^2 = x^3 + ax + b$ sabitli bir eliptik eğri denklemi kullanır:

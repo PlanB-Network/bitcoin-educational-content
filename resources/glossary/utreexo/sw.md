@@ -1,11 +1,12 @@
 ---
-term: UTREEXO
+term: Utreexo
+definition: Itifaki inayofupisha seti ya UTXO ya nodi za Bitcoin kupitia kiunganishi kinachozingatia miti ya Merkle.
 ---
 
 Itifaki iliyoundwa na Tadge Dryja ili kusawazisha seti ya UTXO ya nodi za Bitcoin kwa kutumia kikusanyaji kulingana na miti ya Merkle. Tofauti na seti ya kawaida ya UTXO ambayo inahitaji nafasi kubwa ya kuhifadhi, Utreexo inapunguza sana kumbukumbu inayohitajika kwa kuhifadhi mizizi ya Merkle Tree pekee. Hii inaruhusu nodi kuthibitisha kuwepo kwa UTXO zinazotumika katika pembejeo za shughuli, bila kulazimika kuweka seti kamili ya UTXO. Kwa kutumia Utreexo, kila nodi hubaki na alama ya vidole ya kriptografia inayoitwa Merkle Root. Wakati muamala unafanywa, mtumiaji hutoa uthibitisho wa Ownership ya UTXO na njia zinazolingana za Merkle. Kwa hivyo, node inaweza kuthibitisha shughuli bila kuhifadhi seti nzima ya UTXO. Wacha tuchukue mfano na mchoro kuelewa utaratibu huu:
 
 
-![](../../dictionnaire/assets/15.webp)
+
 
 
 Katika mfano huu, nilipunguza kwa makusudi seti ya UTXO hadi 4 UTXO ili kuwezesha kuelewa. Kwa kweli, ni muhimu kufikiria kuwa kuna karibu UTXO milioni 140 kwenye Bitcoin wakati wa kuandika mistari hii. Katika mchoro huu, nodi ya Utreexo ingehitaji tu kuweka Merkle Root kwenye RAM. Iwapo itapokea matumizi ya muamala UTXO Na. 3 (nyeusi), uthibitisho utakuwa na Elements zifuatazo:

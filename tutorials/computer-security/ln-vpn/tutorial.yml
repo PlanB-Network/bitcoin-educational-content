@@ -19,146 +19,146 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.36
+    reward: 1.04
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.8
+    reward: 0.73
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.8
+    reward: 0.73
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.8
+    reward: 0.73
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.36
+    reward: 1.04
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 0.9
+    reward: 0.36
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.8
+    reward: 0.73
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.93
+    reward: 1.67
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.8
+    reward: 0.73
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.36
+    reward: 1.04
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.93
+    reward: 1.67
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.36
+    reward: 1.04
   - language: id
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - AgoesRichie
-    reward: 1.46
+    reward: 0.68
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.93
+    reward: 1.36
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.36
+    reward: 1.04
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.93
+    reward: 1.67
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.36
+    reward: 1.04
   - language: sr-Latn
     last_contribution_date: '2025-08-19'
     urgency: 1
     contributor_names:
       - Sanja22B
-    reward: 1.18
+    reward: 0.68
   - language: sw
     last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
       - Tinnah924
-    reward: 1.18
+    reward: 0.52
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.93
+    reward: 1.36
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.36
+    reward: 1.04
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.8
+    reward: 0.73
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.36
+    reward: 1.04
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.93
+    reward: 1.36
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.93
+    reward: 1.36
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.93
+    reward: 1.67
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.36
+    reward: 1.04
   - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.93
+    reward: 1.36
 tags:
   - DIY
   - guides

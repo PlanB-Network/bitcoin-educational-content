@@ -1,0 +1,9 @@
+question: Co měří hashrate?
+answer: Hashe za sekundu
+wrong_answers:
+  - Bloky za sekundu
+  - Transakce za sekundu
+  - Bajty za sekundu
+explanation: |
+  Hashrate vyjadřuje počet pokusů o hash provedených každou sekundu, v H/s.
+reviewed: false

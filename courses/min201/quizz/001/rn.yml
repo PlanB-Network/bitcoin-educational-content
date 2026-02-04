@@ -1,14 +1,13 @@
-question: Ni igiki gifise intumbero y’uburyo bwo guhindura ingorane mu murongo wa Bitcoin?
-answer: Kugira ngo amabuye acukurwe ku rugero rwa mwayeni buri minota 10 .
+question: Ni intumbero iyihe y’uburyo bwo guhindura ingorane mu muhora wa Bitcoin?
+answer: Kugira ngo block zicukurwe ku rugero ruringaniye buri minota 10
 wrong_answers:
-  - Kugira ngo Mining yongere ingorane uko igihe kigenda kirarenga .
-  - Kugira ngo ugabanye ingorane za Mining uko igihe kigenda kirarenga .
-  - Kugira ngo iyo Miner nyene nticukure amabuye akurikiranye .
+  - Kugira ngo Mining yongere ingorane uko igihe kigenda kirarenga
+  - Kugira ngo ugabanye ingorane za Mining uko igihe kigenda kirarenga
+  - Kugira ngo iyo Miner nyene nticukure blocks zikurikiranye
 explanation: |
   Guhindura ingorane ni uburyo buhambaye cane mu
-  ibikorwa vy’urubuga rwa Bitcoin, kumenya neza ko amabuye ari
-  n’ivyo bicukurwa mu mwanya mu minota 10 yose. Iryo hinduka
-  uburyo butuma igihe ca Mining c'amabuye mashasha
-  iguma ari imwe uko igihe kigenda kirarenga, ata kuraba igitigiri c’
-  abacukuzi canke ububasha bwo gukoresha ubuhinga bwose bw’urubuga.
+  bikorwa vy’umuhora wa Bitcoin, kumenya neza ko blocks zicukurwa ku rugero ruringaniye buri 
+  minota 10 yose. Iryo hinduka rituma igihe ca mining ya block nshasha kiguma 
+  ari kimwe uko igihe kigenda kirarenga, ata kuraba igitigiri c’aba miners canke ububasha bwa 
+  bwa computing bw'umuhora.
 reviewed: true

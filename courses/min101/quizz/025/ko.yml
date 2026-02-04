@@ -1,0 +1,9 @@
+question: 비트코인 트랜잭션 수수료는 출력(output)입니까?
+answer: 아니요
+wrong_answers:
+  - 예
+  - 예, 하지만 SegWit 트랜잭션에만 해당됩니다
+  - 아니요, 하지만 2012년 이전에는 그랬습니다
+explanation: |
+  수수료는 총 입력(inputs)과 총 출력(outputs)의 차이일 뿐, 별도의 출력이 아닙니다. 이는 처음부터 그랬습니다.
+reviewed: false

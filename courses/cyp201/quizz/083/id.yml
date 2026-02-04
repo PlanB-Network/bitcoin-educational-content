@@ -6,3 +6,4 @@ wrong_answers:
   - P2TR
 explanation: |
   Alamat P2PKH, yang dikodekan dalam base58check, berasal dari standar Legacy dan dimulai dengan angka `1`.
+reviewed: true

@@ -1,0 +1,9 @@
+question: 약어 RPOW는 무엇을 의미합니까?
+answer: Reusable Proofs of Work
+wrong_answers:
+  - Recursive Proofs of Work
+  - Random Proofs of Work
+  - Replayed Proofs of Work
+explanation: |
+  RPOW는 2004년 할 피니(Hal Finney)가 제안한 재사용 및 교환 가능한 작업 증명을 의미합니다.
+reviewed: false

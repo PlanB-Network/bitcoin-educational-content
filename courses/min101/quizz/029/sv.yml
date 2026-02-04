@@ -1,0 +1,9 @@
+question: Vad består blockbelöningen av?
+answer: Subvention + avgifter
+wrong_answers:
+  - Subvention + svårighetsgrad
+  - Avgifter + nonce
+  - Hashrate + avgifter
+explanation: |
+  Belöningen adderar blocksubventionen och alla avgifter från de inkluderade transaktionerna.
+reviewed: false

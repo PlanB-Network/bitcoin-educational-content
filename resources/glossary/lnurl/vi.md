@@ -1,5 +1,6 @@
 ---
 term: LNURL
+definition: Giao thức đơn giản hóa các tương tác Lightning thông qua các URL được mã hóa bech32.
 ---
 
 Giao thức truyền thông chỉ định một tập hợp các tính năng được thiết kế để đơn giản hóa tương tác giữa các nút Lightning và máy khách, cũng như các ứng dụng của bên thứ ba. Giao thức này dựa trên HTTP và cho phép tạo liên kết cho nhiều hoạt động khác nhau, chẳng hạn như yêu cầu thanh toán, yêu cầu rút tiền hoặc các chức năng khác giúp nâng cao trải nghiệm của người dùng. Mỗi LNURL là một URL được mã hóa trong bech32 với tiền tố `lnurl`, khi được quét, sẽ kích hoạt một loạt các hành động tự động trên Lightning Wallet.

@@ -1,0 +1,9 @@
+question: Berapa interval rata-rata antar blok yang ditargetkan Bitcoin?
+answer: 10 menit
+wrong_answers:
+  - 1 menit
+  - 30 menit
+  - 60 menit
+explanation: |
+  Protokol menargetkan rata-rata sekitar satu blok setiap 10 menit dalam jangka waktu yang lama.
+reviewed: false

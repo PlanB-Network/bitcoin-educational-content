@@ -1,5 +1,6 @@
 ---
-term: BASEN (Mining)
+term: Pula wydobywcza
+definition: Grupowanie górników łączących swoją moc obliczeniową w celu wspólnego znajdowania bloków.
 ---
 
 Odnosi się do zestawu górników, którzy współpracują, łącząc swoją moc obliczeniową, aby uczestniczyć w poszukiwaniu ważnych dowodów pracy na Bitcoin. To połączenie w jedną organizację jest rozwiązaniem dla rosnącej trudności Bitcoin Mining, która sprawia, że jest zbyt mało prawdopodobne, aby pojedynczy Miner mógł konkurować i zdobywać nagrody na stabilnych zasadach. Górnicy w ramach Mining pool przyczyniają się za pomocą swoich maszyn do wyszukiwania ważnych udziałów. Gdy blok jest wydobywany przez pulę, nagroda - obejmująca nowo utworzone bitcoiny, a także opłaty transakcyjne zawarte w bloku - jest rozdzielana między członków puli zgodnie z wybraną metodą wynagradzania. Podział ten jest proporcjonalny do mocy obliczeniowej każdego Miner.

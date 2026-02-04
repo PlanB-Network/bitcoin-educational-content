@@ -1,0 +1,9 @@
+question: Ishimwe rya block rigizwe n'iki?
+answer: Subsidy + fees
+wrong_answers:
+  - Subsidy + difficulty
+  - Fees + nonce
+  - Hashrate + fees
+explanation: |
+  Ishimwe riteranya block subsidy n'amafaranga y'agashirukanyota yose y'uburemanyi burimwo.
+reviewed: false

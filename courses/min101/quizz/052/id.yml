@@ -1,0 +1,9 @@
+question: Secara sederhana, apa itu blok di Bitcoin?
+answer: Sebuah paket transaksi
+wrong_answers:
+  - Sebuah pembayaran
+  - Sebuah server pusat
+  - Sebuah kunci pribadi
+explanation: |
+  Jika kita sederhanakan, sebuah blok hanyalah kumpulan transaksi yang dikelompokkan.
+reviewed: false

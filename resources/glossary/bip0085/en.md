@@ -1,5 +1,6 @@
 ---
 term: BIP0085
+definition: Method allowing several mnemonic phrases for different wallets to be derived from a single master seed.
 ---
 
 BIP85 provides a solution to unify the derivation of multiple Bitcoin wallets using a single master seed.

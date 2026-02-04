@@ -1,9 +1,9 @@
 question: Noshiramwo gute igikoresho ca RGB biciye kuri Cargo?
-answer: imizigo gushiramwo RGB-amasezerano --vyose-ibiranga
+answer: Cargo gushiramwo amasezerano ya RGB---vyose-ibiranga
 wrong_answers:
-  - gushiramwo imitwaro RGB --ibiranga vyose
-  - gushiramwo imizigo RGB-Bitcoin --byose
-  - imitwaro yubaka RGB-umuravyo --rekura
+  - gushiramwo Cargo ya RGB --ibiranga vyose
+  - gushiramwo Cargo RGB-Bitcoin --byose
+  - Kwubaka Cargo RGB-umuravyo --rekura
 explanation: |
-  Gushiramwo bikorwa n'itegeko "gushiramwo RGB-amasezerano --ibiranga vyose", isandugu yitwa "RGB-amasezerano", ishiramwo igikoresho ca RGB.
-reviewed: false
+  Gushiramwo bikorwa n'itegeko "gushiramwo Cargo RGB-amasezerano --ibiranga vyose", isandugu yitwa "RGB-amasezerano", ishiramwo igikoresho ca RGB.
+reviewed: true

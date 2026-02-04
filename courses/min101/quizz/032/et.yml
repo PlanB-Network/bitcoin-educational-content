@@ -1,0 +1,9 @@
+question: Kui suur oli ploki toetus Bitcoini käivitamisel 2009. aastal?
+answer: 50 BTC
+wrong_answers:
+  - 25 BTC
+  - 12,5 BTC
+  - 100 BTC
+explanation: |
+  Esialgne toetus oli 50 BTC ploki kohta enne järjestikuseid poolitamisi.
+reviewed: false

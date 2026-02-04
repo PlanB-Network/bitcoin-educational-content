@@ -1,0 +1,9 @@
+question: What economic criterion guides a miner's choice of transactions?
+answer: The fee rate
+wrong_answers:
+  - The total fee amount
+  - The age of the UTXOs
+  - The number of UTXOs
+explanation: |
+  As block space is limited, miners prioritize the most profitable transactions per byte. Therefore, the fee rate guides transaction selection.
+reviewed: false

@@ -1,8 +1,8 @@
 question: ¿Qué ocurre cuando una variable sale de ámbito en el sistema de propiedad de Rust?
 answer: El valor se elimina automáticamente y se libera su memoria
 wrong_answers:
-  - El valor se traslada al ámbito global para su reutilización
-  - El valor pasa a ser inmutable y permanece en memoria
-  - El valor se copia en una ubicación de respaldo por seguridad
+  - El valor se traslada al ámbito global para su reutilización.
+  - El valor pasa a ser inmutable y permanece en memoria.
+  - El valor se copia en una ubicación de respaldo por seguridad.
 explanation: |
   En el sistema de propiedad de Rust, cuando una variable sale del ámbito (normalmente cuando la ejecución abandona un bloque definido por llaves), el valor se elimina automáticamente y se libera su memoria. Esta limpieza automática se implementa a través del mecanismo drop de Rust, donde el lenguaje implícitamente llama a una función drop en las variables que salen del ámbito. Esto garantiza una gestión adecuada de los recursos sin necesidad de código de limpieza explícito por parte del programador, siguiendo el patrón RAII tomado de C++.

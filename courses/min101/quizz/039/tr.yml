@@ -1,0 +1,9 @@
+question: Coinbase işlemi neden diğer işlemlerden ayrılır?
+answer: Herhangi bir gerçek UTXO harcamaz
+wrong_answers:
+  - TXID'si yoktur
+  - Çıktıları yoktur
+  - Merkle ağacında değildir
+explanation: |
+  Girdisi kurgusal bir UTXO'yu işaret eder, bu da blok ödülünün oluşturulmasına ve ücretlerin toplanmasına olanak tanır.
+reviewed: false

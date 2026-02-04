@@ -1,0 +1,9 @@
+question: Từ góc nhìn của Bitcoin trên chuỗi khối, kênh Lightning là gì?
+answer: Đầu ra Multisig tự nhiên 2/2
+wrong_answers:
+  - Kịch bản P2MS 2/2
+  - UTXO đơn lẻ
+  - Hợp đồng liên bang
+explanation: |
+  Trên chuỗi khối, kênh Lightning được biểu thị bằng một đầu ra đa chữ ký, yêu cầu chữ ký của cả hai bên tham gia.
+reviewed: false

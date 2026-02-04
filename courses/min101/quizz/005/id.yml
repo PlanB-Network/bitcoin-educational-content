@@ -1,0 +1,9 @@
+question: Apa yang dimaksud dengan field nbits di header blok?
+answer: Target kesulitan yang dikodekan
+wrong_answers:
+  - Ukuran blok dalam byte
+  - Jumlah transaksi dalam blok
+  - Stempel waktu blok
+explanation: |
+  Field nbits mengodekan target kesulitan yang aktif.
+reviewed: false

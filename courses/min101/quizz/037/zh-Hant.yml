@@ -1,0 +1,9 @@
+question: 當 32 位元 nonce 耗盡時，哪種機制可以擴展搜尋空間？
+answer: extra-nonce
+wrong_answers:
+  - super-nonce
+  - coinbase-nonce
+  - double-nonce
+explanation: |
+  透過修改 coinbase 的 scriptSig 中的 extra-nonce，Merkle 根會發生變化，從而標頭資訊也會隨之改變。
+reviewed: false

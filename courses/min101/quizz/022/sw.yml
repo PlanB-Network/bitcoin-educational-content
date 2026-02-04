@@ -1,0 +1,9 @@
+question: Hashrate inapima nini?
+answer: Hashi kwa sekunde
+wrong_answers:
+  - Vitalu kwa sekunde
+  - Miamala kwa sekunde
+  - Bait kwa sekunde
+explanation: |
+  Hashrate inaonyesha idadi ya majaribio ya hashing yanayofanywa kila sekunde, katika H/s.
+reviewed: false

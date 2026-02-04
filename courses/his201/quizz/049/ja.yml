@@ -1,4 +1,4 @@
-question: Slashdotに紹介された後の週間で、ビットコインの価格変動はどのようでしたか？
+question: Slashdotに紹介された後の1週間で、ビットコインの価格変動はどのようでしたか？
 answer: $0.008から$0.08まで
 wrong_answers:
   - $0.001から$0.008まで
@@ -6,4 +6,4 @@ wrong_answers:
   - $0.50から$1まで
 explanation: |
   この変動は10倍の増加に相当しました！ハッシュレートも同様の急増を経験しました。
-  レビュー済み: false
+reviewed: false

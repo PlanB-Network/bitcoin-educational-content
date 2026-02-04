@@ -1,6 +1,7 @@
 ---
 term: P2PK
 
+definition: Skript som låser bitcoin direkte til en offentlig nøkkel uten hashing.
 ---
 P2PK står for *Pay to Public Key*. Det er en standard skriptmodell som brukes på Bitcoin for å etablere utgiftsbetingelser på en UTXO. Det gjør det mulig å låse bitcoins direkte til en offentlig nøkkel, i stedet for en adresse.
 

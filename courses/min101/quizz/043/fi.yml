@@ -1,0 +1,9 @@
+question: Millä kertoimella louhinnan vaikeusaste kasvoi vuoden 2010 puolivälin ja vuoden 2011 puolivälin välillä?
+answer: 1000
+wrong_answers:
+  - 100
+  - 500
+  - 50
+explanation: |
+  Tällä ajanjaksolla vaikeusaste kasvoi 1000-kertaiseksi, erityisesti GPU-laitteiden käytön vuoksi.
+reviewed: false

@@ -1,6 +1,7 @@
 ---
 term: P2WPKH
 
+definition: Natiivi SegWit-skripti, joka lukitsee bitcoinit julkisen avaimen tiivisteeseen, bc1q-osoitteet.
 ---
 P2WPKH tarkoittaa *Pay to Witness Public Key Hash*. Se on vakioskriptimalli, jota käytetään UTXO:n käyttöehtojen määrittämiseen. P2WPKH otettiin käyttöön SegWitin käyttöönoton myötä elokuussa 2017.
 

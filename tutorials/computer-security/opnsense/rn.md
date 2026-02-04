@@ -147,11 +147,12 @@ Ukeneye kwitwararika ibikoresho bisabwa kugira ngo ukoreshe OPNsense. Ivyo birad
 
 
 
-| Caractéristiques | Minimum | Recommandation |
+
+| Ibintu | Kinini | Umuvugizi |
 | --- | --- | --- |
-| Processeur | 1 GHz - 2 cœurs | 1.5 GHz - Multi-coeurs |
-| Mémoire vive (RAM) | 2 Go | 8 Go |
-| Espace de stockage pour le système | Disque dur, disque SSD ou carte SD (4 Go) | 120 Go en SSD |
+| Uburyo | 1 GHz - 2 buringanire | 1.5 GHz - Buringanire byinshi |
+| Inyanja y'isuzumabushobozi (RAM) | 2 Go | 8 Go |
+| Inzira y'iyikiza kurisosi | Gitara, SSD canke SD card (4 Go) | 120 Go ku SSD |
 
 Ubwa nyuma, **ivyo usaba ku bijanye n'ibikoresho vyawe bivana cane cane n'umubare w'amahuza azocungirwa**, rero n'ivyo usaba ku bijanye n'uburebure bw'uruja n'uruza**. Ikindi, ukeneye **kuguma mu muzirikanyi ibikorwa bizokora kandi bikoreshwe** (proxy, gutahura intrusion, etc...) kuko bishobora kuba bikeneye CPU na/canke RAM.
 

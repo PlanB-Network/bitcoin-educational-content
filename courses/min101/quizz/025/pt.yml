@@ -1,0 +1,9 @@
+question: As taxas de uma transação Bitcoin são um output?
+answer: Não
+wrong_answers:
+  - Sim
+  - Sim, mas apenas para transações SegWit
+  - Não, mas era o caso antes de 2012
+explanation: |
+  As taxas são a diferença entre o total de inputs e o total de outputs, não um output dedicado. Este tem sido o caso desde sempre.
+reviewed: false

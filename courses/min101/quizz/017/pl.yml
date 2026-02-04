@@ -1,0 +1,9 @@
+question: Kto jest twórcą koncepcji Bit Gold?
+answer: Nick Szabo
+wrong_answers:
+  - Satoshi Nakamoto
+  - Hal Finney
+  - Wei Dai
+explanation: |
+  Bit Gold to koncepcyjny projekt systemu pieniądza elektronicznego zaproponowany przez Nicka Szabo.
+reviewed: false

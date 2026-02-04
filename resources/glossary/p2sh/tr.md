@@ -1,5 +1,6 @@
 ---
 term: P2SH
+definition: Bir redeemScript'in hash'i aracılığıyla rastgele harcama koşullarına izin veren betik.
 ---
 
 P2SH, *Pay to Script Hash* anlamına gelmektedir. Bir UTXO üzerinde harcama koşulları oluşturmak için kullanılan standart bir komut dosyası modelidir. Harcama koşullarının önceden tanımlandığı P2PK ve P2PKH komut dosyalarının aksine P2SH, bir işlem komut dosyasına keyfi harcama koşullarının ve ek işlevlerin entegre edilmesine olanak tanır.

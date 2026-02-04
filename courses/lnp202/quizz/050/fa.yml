@@ -1,0 +1,9 @@
+question: هدف اصلی پیکربندی LND + Tailscale + Zeus چیست؟
+answer: استفاده از wallet موبایل بر روی نود Lightning شما
+wrong_answers:
+  - استفاده از wallet حضانتی بدون نود لایتنینگ
+  - چندپخشی چندین گره LND
+  - Mining sats با استفاده از Umbrel
+explanation: |
+  هدف این است که از یک برنامه موبایل Lightning wallet استفاده کنید که در پس‌زمینه روی نود خودتان اجرا می‌شود.
+reviewed: false

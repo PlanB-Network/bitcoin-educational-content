@@ -1,0 +1,9 @@
+question: Om de hoeveel blokken vindt er een halving plaats?
+answer: 210.000
+wrong_answers:
+  - 2.016
+  - 100.000
+  - 21.000.000
+explanation: |
+  Het protocol past een halving toe bij elk veelvoud van 210.000 in blokhoogte.
+reviewed: false

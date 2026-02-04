@@ -1,0 +1,9 @@
+question: ¿Qué problema práctico busca resolver principalmente un pool de minería?
+answer: La varianza de los ingresos
+wrong_answers:
+  - La dificultad de la red
+  - El tamaño de los bloques
+  - El precio de los ASIC
+explanation: |
+  Al mutualizar el hashrate, un pool transforma un ingreso muy irregular en pagos más regulares. Es una reducción de la varianza de los ingresos para el minero.
+reviewed: false

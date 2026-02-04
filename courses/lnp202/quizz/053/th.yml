@@ -1,0 +1,9 @@
+question: โปรโตคอลใดที่ Tailscale ใช้เป็นพื้นฐาน?
+answer: WireGuard
+wrong_answers:
+  - OpenVPN
+  - IPsec IKEv2
+  - PPTP
+explanation: |
+  Tailscale เป็นโซลูชัน VPN ที่พัฒนาบนพื้นฐานของ WireGuard
+reviewed: false

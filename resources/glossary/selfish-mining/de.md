@@ -1,5 +1,6 @@
 ---
-term: SELFISH Mining
+term: Selfish Mining
+definition: Mining-Strategie, bei der Blöcke geheim gehalten werden, um einen Vorsprung vor anderen Minern zu erlangen.
 ---
 
 Strategie (oder Angriff) in Mining, bei der ein Miner oder eine Gruppe von Schürfern absichtlich Blöcke mit einem gültigen Proof of Work hält, ohne sie sofort an das Netz freizugeben. Das Ziel ist es, anderen Minern in Bezug auf Proof of Work voraus zu sein, was es ihnen möglicherweise ermöglicht, mehrere Blöcke hintereinander zu schürfen und sie alle auf einmal zu veröffentlichen, um so ihre Gewinne zu maximieren. Mit anderen Worten: Die angreifende Gruppe von Minern schürft nicht auf dem letzten vom gesamten Netzwerk validierten Block, sondern auf einem von ihnen selbst erstellten Block, der sich von dem vom Netzwerk validierten unterscheidet.

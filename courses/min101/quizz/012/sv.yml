@@ -1,0 +1,9 @@
+question: Om svårighetsmålet minskar, vad händer med miningen?
+answer: Den blir svårare
+wrong_answers:
+  - Den blir lättare
+  - Den förblir densamma
+  - Den blir omöjlig
+explanation: |
+  Ett lägre mål lämnar färre möjliga resultat under tröskelvärdet, så det krävs fler försök att hitta en giltig hash. Detta innebär att miningen är svårare.
+reviewed: false

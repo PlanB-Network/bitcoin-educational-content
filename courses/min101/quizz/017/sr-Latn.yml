@@ -1,0 +1,9 @@
+question: Ko je pokrenuo koncept Bit Gold-a?
+answer: Nick Szabo
+wrong_answers:
+  - Satoshi Nakamoto
+  - Hal Finney
+  - Wei Dai
+explanation: |
+  Bit Gold je konceptualni projekat elektronskog novčanog sistema koji je predložio Nick Szabo.
+reviewed: false

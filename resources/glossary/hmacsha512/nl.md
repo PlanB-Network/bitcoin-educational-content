@@ -1,5 +1,6 @@
 ---
 term: HMAC-SHA512
+definition: Cryptografisch algoritme dat wordt gebruikt voor sleutelafleiding in Bitcoin HD-wallets.
 ---
 
 `HMAC-SHA512` staat voor "Hash Message Authentication Code - Secure Hash Algorithm 512". Het is een cryptografisch algoritme dat wordt gebruikt om de integriteit en authenticiteit van berichten die tussen twee partijen worden uitgewisseld te verifiëren. Het combineert de cryptografische Hash functie `SHA512` met een gedeelde geheime sleutel om generate een unieke Message Authentication Code (MAC) voor elk bericht te maken.

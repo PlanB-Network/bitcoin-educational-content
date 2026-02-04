@@ -306,18 +306,19 @@ Kõige esimene väli päises kannab nime Version. See 4-bitine väärtus määra
 
 
 
-| Version Number | Protocol   | Version Description         | Reference               |
+
+| Versiooni number | Protokoll | Versiooni kirjeldus | Viide |
 | -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Reserved   | Reserved                    |                         |
-| 2–3            | Unassigned | Unassigned                  |                         |
-| 4              | IP         | Internet Protocol           | RFC 791                 |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
-| 6              | IPv6       | Internet Protocol version 6 | RFC 8200                |
-| 7              | TP/IX      | The Next Internet           | RFC 1475                |
-| 8              | PIP        | The P Internet Protocol     | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | Unassigned | Unassigned                  |                         |
-| 15             | Reserved   | Reserved                    |                         |
+| 0–1 | Reserveeritud | Reserveeritud | |
+| 2–3 | Määramata | Määramata | |
+| 4 | IP | Internetiprotokoll | RFC 791 |
+| **5** | **ST** | **ST datagrammi režiim** | **RFC 1190** / RFC 1819 |
+| 6 | IPv6 | Internetiprotokolli versioon 6 | RFC 8200 |
+| 7 | TP/IX | Järgmine internet | RFC 1475 |
+| 8 | PIP | P internetiprotokoll | RFC 1621 |
+| 9 | TUBA | Tuba | RFC 1347 |
+| 10–14 | Määramata | Määramata | |
+| 15 | Reserveeritud | Reserveeritud | |
 
 Nende hulgas on IPv5, mis on küll avalikkusele suuresti tundmatu, kuid mis oli olemas ST (_Stream Protocol_) nime all. IPv5 töötati välja 1980ndatel aastatel, et tagada "teenuse kvaliteet" (QoS) teatud andmevoogude jaoks, mis nõudsid pidevat ja stabiilset edastamist, näiteks Voice over IP või multimeediavoogude jaoks. Selle eesmärk oli tagada otsest ribalaiust ja prioriteetsust, mis on sarnane kontseptsiooniga, mida RSVP (_Resource Reservation Protocol_) pakub tänapäeval võrguressursside dünaamiliseks reserveerimiseks kaasaegsetes ruuterites.
 
@@ -485,14 +486,15 @@ Ajalooliselt tugines IPv4-süsteem klassipõhisele skeemile, mis oli tähistatud
 
 
 
-| **Class** | **IPv4 Address Range**            | **Usage**                    |
+
+| **Klass** | **IPv4-aadressivahemik**          | **Kasutus**                  |
 | --------- | --------------------------------- | ---------------------------- |
-| A         | 1.x.x.x to 126.x.x.x              | Unicast addresses            |
-|           | (127.x.x.x reserved for loopback) | Local loopback               |
-| B         | 128.0.x.x to 191.255.x.x          | Unicast addresses            |
-| C         | 192.0.0.x to 223.255.255.x        | Unicast addresses            |
-| D         | 224.0.0.0 to 239.255.255.255      | IP Multicast                 |
-| E         | 240.0.0.0 to 255.255.255.255      | Reserved for experimentation |
+| A         | 1.x.x.x kuni 126.x.x.x            | Unicast-aadressid            |
+|           | (127.x.x.x reserveeritud loopback'iks)| Kohalik loopback        |
+| B         | 128.0.x.x kuni 191.255.x.x        | Unicast-aadressid            |
+| C         | 192.0.0.x kuni 223.255.255.x      | Unicast-aadressid            |
+| D         | 224.0.0.0 kuni 239.255.255.255    | IP Multicast                 |
+| E         | 240.0.0.0 kuni 255.255.255.255    | Reserveeritud katsetamiseks |
 
 Kõiki võimalikke väärtusi ei saa määrata hostidele. Näiteks **klassi C** Address puhul pakub viimane bait 8 bitti (256 väärtust). Kuid kaks neist on reserveeritud:
 
@@ -573,13 +575,14 @@ Soovime 4 alamvõrku, millest igaühes on kuni 60 hosti.
 
 
 
-| Subnet ID (bits) | Subnet Address   | Subnet Mask     | Address Range                 | Broadcast Address |
+
+
+| Alamvõrgu ID (bitid) | Alamvõrgu aadress | Alamvõrgu mask | Aadressivahemik             | Broadcast-aadress |
 | ---------------- | ---------------- | --------------- | ----------------------------- | ----------------- |
 | 00               | 192.168.1.0/26   | 255.255.255.192 | 192.168.1.1 – 192.168.1.62    | 192.168.1.63      |
 | 01               | 192.168.1.64/26  | 255.255.255.192 | 192.168.1.65 – 192.168.1.126  | 192.168.1.127     |
 | 10               | 192.168.1.128/26 | 255.255.255.192 | 192.168.1.129 – 192.168.1.190 | 192.168.1.191     |
 | 11               | 192.168.1.192/26 | 255.255.255.192 | 192.168.1.193 – 192.168.1.254 | 192.168.1.255     |
-
 
 **Samm 5**: See loob neli alamvõrku, millest igaüks toetab kuni 62 masinat, säilitades samal ajal üldise adresseerimisskeemi tõhususe. _hostid_ osa jagatakse _subnetid_ osaks ja hostide osaks.
 
@@ -623,7 +626,9 @@ Näide:
 Et CIDRi suuruse määramine oleks lihtsamini arusaadav, on siin tabel tavalistest prefiksitest ja nende vastavatest alamvõrgumaskidest ja kasutatavatest aadressidest:
 
 
-| CIDR Prefix | Available Host Bits | Subnet Mask     | Usable Host Addresses         |
+
+
+| CIDR-prefiks | Saadaval hosti bitid | Alamvõrgu mask | Kasutatavad hostiaadressid |
 | ----------- | ------------------- | --------------- | ----------------------------- |
 | /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16,777,214         |
 | /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1,048,574          |
@@ -635,9 +640,8 @@ Et CIDRi suuruse määramine oleks lihtsamini arusaadav, on siin tabel tavaliste
 | /28         | 4                   | 255.255.255.240 | 2^4 - 2 = 14                  |
 | /29         | 3                   | 255.255.255.248 | 2^3 - 2 = 6                   |
 | /30         | 2                   | 255.255.255.252 | 2^2 - 2 = 2                   |
-| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point only) |
-| /32         | 0                   | 255.255.255.255 | 1 (host address only)         |
-
+| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (ainult point-to-point) |
+| /32         | 0                   | 255.255.255.255 | 1 (ainult hostiaadress)      |
 
 **MÄRKUS**: Ajalooliselt on RFC 950 takistanud alamvõrgu nullmäära kasutamist, peamiselt selleks, et vältida segadust marsruutimisel.  See piirang muutus vananenuks RFC 1878-ga, mis lubab selle kasutamist täielikult. Vana piirang oli peamiselt tingitud vanema riistvara kokkusobimatusest, mis ei suutnud CIDRi korrektselt käsitleda. Kaasaegsetel seadmetel sellist probleemi ei ole.
 
@@ -819,12 +823,13 @@ Kihiline arhitektuur järgib põhimõtet, et iga Layer töötleb ainult oma regu
 Alljärgnevas tabelis on kokkuvõte TCP- ja UDP-kontekstide terminitest:
 
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| TCP/IP kiht          | Üksuse nimi (TCP) | Üksuse nimi (UDP) |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| Rakenduskiht         | Voog             | Sõnum            |
+| Transpordikiht       | Segment          | Pakett           |
+| Internetikiht        | Datagramm        | Datagramm        |
+| Võrgule juurdepääsu kiht | Kaader       | Kaader           |
 
 ### Teenuse primitiivid ja andmeühikud
 
@@ -907,7 +912,8 @@ Järgnev tabel illustreerib seda vastavust:
 
 
 
-| Binary Code | Activated Bit Values          | Decimal Value |
+
+| Binaarkood  | Aktiveeritud bittide väärtused | Kümnendväärtus |
 |-------------|-------------------------------|---------------|
 | 00000000    | 0                             | 0             |
 | 00000001    | 1                             | 1             |
@@ -922,7 +928,8 @@ Järgnev tabel illustreerib seda vastavust:
 Binaarsüsteemi teisendamiseks kümnendsüsteemiks tuleb liita nende bittide osakaalud, mis on seatud 1.
 
 
-| Binary     | Decimal Value |
+
+| Binaarne   | Kümnendväärtus |
 | ---------- | ------------- |
 | `10101100` | 172           |
 | `00010000` | 16            |
@@ -961,13 +968,14 @@ Algselt olid IPv4-võrgud jagatud viide **klassi**: (A, B, C, D ja E). Iga klass
 
 
 
-| Class | Leading Bits | First Byte Range | Default Subnet Mask | Purpose                          |
+
+| Klass | Algusbitid | Esimese baidi vahemik | Vaikimisi alamvõrgu mask | Eesmärk                         |
 | ----- | ------------ | ---------------- | ------------------- | -------------------------------- |
-| A     | 0            | 0 – 127          | 255.0.0.0           | Very large networks              |
-| B     | 10           | 128 – 191        | 255.255.0.0         | Medium-sized networks            |
-| C     | 110          | 192 – 223        | 255.255.255.0       | Small networks                   |
-| D     | 1110         | 224 – 239        | N/A                 | Multicast addresses              |
-| E     | 1111         | 240 – 255        | N/A                 | Experimental (not publicly used) |
+| A     | 0            | 0 – 127          | 255.0.0.0           | Väga suured võrgud               |
+| B     | 10           | 128 – 191        | 255.255.0.0         | Keskmise suurusega võrgud        |
+| C     | 110          | 192 – 223        | 255.255.255.0       | Väikesed võrgud                  |
+| D     | 1110         | 224 – 239        | Puudub              | Multiedastuse aadressid          |
+| E     | 1111         | 240 – 255        | Puudub              | Eksperimentaalne (avalikult ei kasutata) |
 
 Eriaadressid:
 
@@ -1222,7 +1230,8 @@ Marsruutimistabel, mida hallatakse kas käsitsi (staatiline marsruutimine) või 
 Marsruutimistabel toimib siht-IP-aadresside ja järgmiste väravate vahelise kaardistustabelina. Tavaliselt salvestatakse selles pigem võrgu identifikaatorid (_network ID_) kui iga üksiku host Address, mis vähendab oluliselt selle suurust.
 
 
-| Destination Address | Next-Hop Router Address | Interface |
+
+| Sihtaadress | Järgmise hüppe marsruuteri aadress | Liides |
 | ------------------- | ----------------------- | --------- |
 
 Nende kirjete abil saab marsruuter kiiresti kindlaks teha, millise Interface kaudu ja millisele sõlmpunktile iga andmeprogramm tuleks saata. Koos ARP-ga sobivate MAC-aadresside lahendamiseks tagab see tõhusa ja usaldusväärse andmeedastuse üle võrgu.
@@ -1298,11 +1307,12 @@ See dünaamilise tõlkimise põhimõte tugineb täpsele tabelihaldusele: iga kir
 näide lihtsustatud NAT-tõlketabelist:_
 
 
-| Internal IP   | External IP    | Duration (sec) | Reusable? |
+
+| Sisemine IP | Väline IP | Kestus (sek) | Taaskasutatav? |
 | ------------- | -------------- | -------------- | --------- |
-| 10.101.10.20  | 193.48.100.174 | 1,200          | no        |
-| 10.100.54.251 | 193.48.101.8   | 3,601          | yes       |
-| 10.100.0.89   | 193.48.100.46  | 0              | no        |
+| 10.101.10.20  | 193.48.100.174 | 1,200          | ei        |
+| 10.100.54.251 | 193.48.101.8   | 3,601          | jah       |
+| 10.100.0.89   | 193.48.100.46  | 0              | ei        |
 
 Selles näites, kui teise kirje puhul ei ole üle tunni aja (3600 sekundit) ükski pakett läbinud, märgitakse see korduvkasutatavaks. Seevastu kestus null tähistab aktiivset sidet, mille kaardistus on lukustatud.
 
@@ -1766,13 +1776,14 @@ Täpsustamata IPv6 Address on esitatud kujul `::` või täpsemalt `::0.0.0.0.0`.
 
 
 
-| IPv6 Address Prefix | Description                                 |
+
+| IPv6-aadressi prefiks | Kirjeldus                              |
 | ------------------- | ------------------------------------------- |
-|::/8                | Reserved addresses                          |
-| 2000::/3            | Unicast addresses, routable on the Internet |
-| fc00::/7            | Unique local addresses (1)                  |
-| fe80::/10           | Link-local addresses                        |
-| ff00::/8            | Multicast addresses                         |
+|::/8                | Reserveeritud aadressid                     |
+| 2000::/3            | Unicast-aadressid, Internetis marsruuditavad |
+| fc00::/7            | Unikaalsed kohalikud aadressid (1)          |
+| fe80::/10           | Lingikohalikud aadressid                    |
+| ff00::/8            | Multicast-aadressid                         |
 
 (1): *Eralühenduses eelistatakse eelisliidet `fd00::/8` siseaadresside määramiseks, mis ei ole marsruutimisvõimalusega Internetis.*
 
@@ -1854,24 +1865,28 @@ Lõpuks, unikaalsed kohalikud aadressid (_ULA_, mis tähendab _Unique Local Addr
 Kontseptuaalselt esitatakse IPv6-aadressid sageli binaarse struktuurina, mille esimene pool (esimesed 64 bitti) tähistab võrgu eesliidet ja teine pool (samuti 64 bitti) tähistab üheselt seadme Interface selles võrgus. Selline jagunemine lihtsustab Address autokonfigureerimist selliste mehhanismide abil nagu SLAAC (_Stateless Address Autoconfiguration_), mis võimaldavad masinatel automaatselt generate stabiilset Address MAC Address või pseudosituatsioonilise identifikaatori alusel.
 
 
-| Field     | Prefix | L | Global ID | Subnet | Interface ID |
+
+| Väli      | Prefiks | L | Globaalne ID | Alamvõrk | Liidese ID |
 |-----------|--------|---|-----------|--------|---------------|
-| Bits      | 7      | 1 | 40        | 16     | 64            |
+| Bitid     | 7      | 1 | 40        | 16     | 64            |
 
 IPv6 arhitektuur järgib tänase Interneti hierarhilist globaalse marsruutimise mudelit. Prefiksite jaotamine võimaldab piirkondlikel registritel ja võrguoperaatoritel hallata Address jaotamist detsentraliseeritult, tagades samas ülemaailmse unikaalsuse. Selles raamistikus võib üks ja sama host omada samaaegselt globaalset üheaadressi Address Interneti-suhtluseks ja link-lokaalset Address kohalikuks suhtluseks, nt vahetu naabruskonnaga või marsruuteri avastamissõnumite jaoks.
 
 
-| Field     | Prefix | Zero | Interface ID |
+
+
+| Väli      | Prefiks | Null | Liidese ID |
 |-----------|--------|------|--------------|
-| Bits      | 10     | 54   | 64           |
+| Bitid     | 10     | 54   | 64           |
 
 **Anycast-aadressid** kujutavad endast vahepealset kontseptsiooni, mis põhineb unicast-mudelil, kuid võib teatud juhtudel käituda nagu multicast. Anycast Address on sisuliselt unicast Address, mis on määratud mitmele eri võrgusõlmedesse jaotatud liidesele. Kui pakett saadetakse anycast Address-le, püüab IPv6-protokoll edastada selle ühele seda Address jagavale hostile, mis on tavaliselt marsruutimistopoloogia poolest kõige lähemal. Selline lähenemisviis optimeerib päringute töötlemise kiirust ja parandab hajutatud teenuste vastupidavust. Klassikaline näide on juur-DNS-serverid, kus anycast-aadressimine suunab päringud automaatselt lähimale kohalolekupunktile.
 
 
 
-| Field     | Prefix | Subnet | Interface ID |
-|-----------|--------|--------|--------------|
-| Bits      | 48     | 16     | 64           |
+
+| Väli     | Eesliide | Alamvõrk | Liidese ID |
+|-----------|--------|--------|______________|
+| Bitid      | 48     | 16     | 64           |
 
 IPv6s asendavad **multisaateaadressid** ringhäälingumehhanismi, mida peeti liiga kulukaks ja ülemaailmsete võrkude jaoks ebasobivaks. Multisaate Address identifitseerib grupi liideseid, tavaliselt mitme hosti vahel, mis soovivad saada samu pakette samaaegselt.
 
@@ -1893,9 +1908,10 @@ IPv6 multisaate Address struktuur hõlmab järgmist:
 - identifitseerimisväli (112 bitti), mis identifitseerib multisaadete grupi numbri.
 
 
-| Field      | Prefix | Flags | Scope | Group ID |
+
+| Väli      | Eesliide | Lipud | Ulatusala | Grupi ID |
 |------------|--------|--------|--------|----------|
-| Bits       | 8      | 4      | 4      | 112      |
+| Bitid       | 8      | 4      | 4      | 112      |
 
 Tuntud näide IPv6 multisaadetiste toimimisest on _Neighbor Discovery Protocol_ (NDP). Selle asemel, et kasutada ARP-d nagu IPv4-s, kasutab NDP naabrite avastamise päringute edastamiseks multisaateaadresse, näiteks `ff02::1:ff00:0/104`, mis on suunatud ainult asjaomastele hostidele samal lingil.
 
@@ -2013,8 +2029,9 @@ Alates 2006. aastast on iga RIR saanud IANA-lt IPv6 /12 ploki, mis on fikseeritu
 Tüüpiline jaotamise hierarhia näeb välja järgmiselt:
 
 
-| IANA | RIR | LIR | Customer | Subnet | Interface |
-|------|-----|-----|----------|--------|-----------|
+
+| IANA | RIR | LIR | Klient | Alamvõrk | Liides |
+|------|-----|-----|----------|--------|----------|
 |  3   | 20  |  9  |    16    |   16   |     64    |
 
 Sellise aadresside rohkuse tõttu ei ole NAT (*Network Address Translation*), mis oli kunagi IPv4-s hädavajalik, et tulla toime Address puudusega, enam vajalik. Igal hostil võib olla unikaalne, globaalselt marsruutitav avalik Address, mis lihtsustab otsest ühenduvust ja lihtsustab selliste protokollide nagu IPSec, VoIP või sissetulevate ühenduste kasutamist.

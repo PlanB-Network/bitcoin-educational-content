@@ -1,5 +1,6 @@
 ---
-term: GUSANGIRA
+term: Shares
+definition: Ikimenyetso gipima uruhara rw'umucuzi umwe mu mugwi w'abacuzi.
 ---
 
 Mu bijanye n’ibidengeri vya Mining, umugabane ni ikimenyetso gikoreshwa mu gupima umusanzu wa Miner ku giti ciwe mu bidengeri. Ico gipimo ni co gishingiyeko mu kubara impembo iyo pool isubira guha Miner yose. Buri mugabane uhuye na Hash ihaza intumbero y’ingorane iri hasi y’iy’uruzitiro rwa Bitcoin.
@@ -17,7 +18,7 @@ Ku Hash yose iharuwe, Miner imwe imwe iri mu kidengeri irashobora guhura n’ibi
 - Iyo Hash iri hasi y’intumbero y’ingorane y’uruzitiro rwa Bitcoin, ifatwa nk’umugabane ubereye be n’ibara ry’ukuri. Miner irungika iyo Hash ku kidengeri cabo, kigaca cihuta kugitangaza ku rubuga rwa Bitcoin. Iyi Hash nayo iharurwa nk'umugabane ubereye kuri Miner: `umugabane > umugwi > Hash`.
 
 
-![](../../dictionnaire/assets/32.webp)
+
 
 
 Ubu buryo bwo gusangira bukoreshwa mu kugereranya igikorwa gikozwe na Miner imwe imwe mu kidengeri, ataco umuntu wese akeneye gusubira guharura ama hashes yose yashizweho na Miner, ivyo bikaba bidakora neza na gato ku kidengeri.
@@ -26,4 +27,3 @@ Ubu buryo bwo gusangira bukoreshwa mu kugereranya igikorwa gikozwe na Miner imwe
 Ivyuma vya Mining biratunganya ingorane z’imigabane kugira ngo bihuze umuzigo wo kugenzura no kumenya neza ko Miner yose, yaba nto canke nini, itanga imigabane hafi buri masegonda makeyi. Ivyo bituma habarwa neza Hashrate ya Miner yose n’ugusangira impembo hakurikijwe uburyo bwatowe bwo kubara indishi (PPS, PPLNS, TIDES...).
 
 
-> ► *Mu gifaransa, "imigabane" ishobora guhindurwa ngo "igice".*

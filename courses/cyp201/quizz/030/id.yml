@@ -6,4 +6,4 @@ wrong_answers:
   - Untuk menutupi semua output kecuali satu
 explanation: |
   SIGHASH_SINGLE menutupi satu input dan satu output yang bersesuaian dengan indeks dari input yang ditandatangani, meninggalkan sisanya dapat dimodifikasi.
-ditinjau: false
+reviewed: true

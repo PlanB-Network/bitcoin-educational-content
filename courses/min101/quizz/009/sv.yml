@@ -1,0 +1,9 @@
+question: Vad är ett kandidatblock i Bitcoin?
+answer: Ett block förberett av en miner, men ännu inte giltigt
+wrong_answers:
+  - Ett block validerat av nätverket, men ännu inte delat
+  - Ett block skapat av en plånbok, men ännu inte giltigt
+  - Ett block lagrat i mempoolen
+explanation: |
+  Varje miner sätter ihop ett kandidatblock lokalt innan de försöker hitta ett giltigt proof of work.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Към какво трябва да се свърже възел Lightning?
+answer: Възел Bitcoin
+wrong_answers:
+  - Миньор
+  - Изследовател на блокове
+  - Обединен сървър
+explanation: |
+  Възелът Lightning зависи от възел Bitcoin, за да получи достъп до информация от основната блокчейн верига.
+reviewed: false

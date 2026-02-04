@@ -1,5 +1,6 @@
 ---
 term: URI
+definition: Standardizovani format koji omogućava kodiranje Bitcoin adrese i parametara transakcije radi olakšavanja plaćanja.
 ---
 
 Akronim za "*Uniform Resource Identifier*". To je standardizovani format niza koji se koristi za identifikaciju resursa na Internetu. URI može biti ili URL (*Uniform Resource Locator*), koji omogućava pristup resursu ukazujući na njegovu lokaciju na računarskoj mreži, ili URN (*Uniform Resource Name*), koji imenuje resurs bez navođenja kako ga locirati. URI-ji su važni za funkcionisanje *World Wide Web*-a, jer omogućavaju pristup resursima kao što su veb stranice, dokumenti i usluge.

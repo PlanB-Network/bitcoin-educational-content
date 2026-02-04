@@ -1,6 +1,7 @@
 ---
-term: DÍA DE LA BANDERA
+term: Flag day
 
+definition: Método de activación de soft fork que fija una fecha límite para la adopción de las nuevas reglas.
 ---
 Método de activación de una bifurcación suave utilizado en los primeros años de Bitcoin. Este proceso simplemente establece una fecha límite, conocida como "Día de la Bandera", antes de la cual la actualización del protocolo debe ser adoptada por toda la red. Este método es sencillo: después de esta fecha, los nodos y mineros deben haber actualizado su software para cumplir con las nuevas normas, de lo contrario, corren el riesgo de estar en una cadena incompatible.
 

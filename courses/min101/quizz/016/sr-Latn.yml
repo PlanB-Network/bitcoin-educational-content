@@ -1,0 +1,9 @@
+question: Šta znači akronim RPOW?
+answer: Reusable Proofs of Work
+wrong_answers:
+  - Recursive Proofs of Work
+  - Random Proofs of Work
+  - Replayed Proofs of Work
+explanation: |
+  RPOW označava višekratne i razmenljive dokaze o radu, koje je predložio Hal Finney 2004. godine.
+reviewed: false

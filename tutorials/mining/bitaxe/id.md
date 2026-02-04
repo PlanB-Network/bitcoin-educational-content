@@ -7,7 +7,7 @@ description: Bagaimana cara mengatur BitAxe?
 
 BitAxe adalah proyek open-source yang dibuat oleh Skot dan [tersedia di GitHub](https://github.com/skot/bitaxe) yang memungkinkan eksperimen penambangan dengan biaya efektif.
 
-Proyek ini telah merekayasa ulang cara kerja dari Antminer S19 yang terkenal oleh Bitmain, pemimpin pasar dalam ASIC, mesin khusus untuk penambangan bitcoin. Sekarang, chip kuat ini dapat digunakan dalam proyek open-source baru. Berbeda dengan Nerdminer, BitAxe memiliki kekuatan komputasi yang cukup untuk terhubung ke kolam penambangan, yang akan memungkinkan Anda untuk secara rutin mendapatkan beberapa satoshi. Di sisi lain, Nerdminer hanya dapat terhubung ke apa yang disebut solopool, yang berfungsi seperti tiket lotre: Anda memiliki peluang kecil untuk memenangkan hadiah blok penuh.
+Proyek ini telah merekayasa ulang cara kerja Antminer S19 yang terkenal dari Bitmain, pemimpin pasar dalam ASIC, mesin khusus untuk penambangan Bitcoin. Kini, chip bertenaga ini bisa digunakan dalam proyek open-source baru. Berbeda dengan Nerdminer, BitAxe memiliki daya komputasi yang cukup untuk terhubung ke mining pool, yang memungkinkan kamu secara rutin mendapatkan beberapa satoshi. Di sisi lain, Nerdminer hanya bisa terhubung ke yang disebut solo pool, yang berfungsi seperti tiket lotre: kamu memiliki peluang kecil untuk memenangkan hadiah blok penuh.
 
 Ada beberapa versi BitAxe, dengan chip dan performa yang berbeda:
 
@@ -24,13 +24,14 @@ Dalam tutorial ini, kita akan menggunakan BitAxe Ultra 204 yang dilengkapi denga
 
 ![signup](assets/2.webp)
 
-Umumnya, catu daya dijual bersamanya. Jika tidak, Anda akan perlu membeli catu daya dengan kabel jack 5V dan setidaknya 4A.
+Umumnya, catu daya dijual bersamanya. Jika tidak, kamu perlu membeli catu daya dengan kabel jack 5V dan arus setidaknya 4A.
 
 ![signup](assets/1.webp)
 
 ## Konfigurasi
-Ketika Anda pertama kali menyambungkan BitAxe Anda, itu akan mencoba terhubung ke jaringan Wi-Fi secara default. Setelah lima percobaan, itu akan menampilkan nama jaringan Wi-Fi sendiri sehingga Anda dapat terhubung ke sana dan mengonfigurasinya.
-Untuk melakukan ini, Anda dapat menggunakan komputer atau smartphone apa saja. Pergi ke pengaturan Wi-Fi Anda, cari jaringan baru, dan Anda akan melihat Wi-Fi yang bernama Bitaxe_XXXX. Di sini, adalah `Bitaxe_A859`. Sambungkan ke jaringan Wi-Fi ini, dan sebuah jendela akan secara otomatis terbuka.
+Saat pertama kali kamu menyambungkan BitAxe, perangkat ini akan mencoba terhubung ke jaringan Wi-Fi secara default. Setelah lima kali percobaan, BitAxe akan menampilkan nama jaringan Wi-Fi miliknya sendiri agar kamu bisa terhubung dan melakukan konfigurasi.
+
+Untuk melakukannya, kamu bisa menggunakan komputer atau smartphone apa pun. Buka pengaturan Wi-Fi, cari jaringan baru, dan kamu akan melihat jaringan bernama Bitaxe_XXXX. Dalam contoh ini, namanya adalah 'Bitaxe_A859'. Sambungkan ke jaringan Wi-Fi tersebut, dan sebuah jendela akan terbuka secara otomatis.
 
 ![signup](assets/3.webp)
 
@@ -38,41 +39,42 @@ Di jendela ini, klik pada tiga baris horizontal kecil di kiri atas, kemudian pad
 
 ![signup](assets/4.webp)
 
-Anda perlu memasukkan informasi jaringan Wi-Fi Anda secara manual, karena tidak ada sistem penemuan otomatis.
+Kamu perlu memasukkan informasi jaringan Wi-Fi secara manual, karena tidak ada sistem penemuan otomatis.
 ![signup](assets/5.webp)
-Oleh karena itu, masukkan SSID Wi-Fi Anda, yaitu nama jaringan Anda, kata sandi, serta informasi tentang mining pool yang telah Anda pilih. Hati-hati, di sini URL pool tidak disajikan dengan cara yang sama. Sebagai contoh, untuk Braiins, URL pool yang diberikan adalah: `stratum+tcp://eu.stratum.braiins.com:3333`.
+Oleh karena itu, masukkan SSID Wi-Fi kamu, yaitu nama jaringan kamu, kata sandi, serta informasi tentang mining pool yang telah kamu pilih. Hati-hati, di sini URL pool tidak disajikan dengan cara yang sama. Sebagai contoh, untuk Braiins, URL pool yang diberikan adalah: `stratum+tcp://eu.stratum.braiins.com:3333`.
 
 ![signup](assets/6.webp)
 
-Seperti yang Anda lihat pada layar, Anda perlu menghapus bagian `stratum+tcp://` dan `:3333`, meninggalkan hanya `eu.stratum.braiins.com`. Kemudian, di kolom `Port`, masukkan 4 digit di akhir URL yang diberikan oleh pool, tetapi tanpa `:`. Di sini, oleh karena itu `3333`.
+Seperti yang kamu lihat pada layar, kamu perlu menghapus bagian `stratum+tcp://` dan `:3333`, meninggalkan hanya `eu.stratum.braiins.com`. Kemudian, di kolom `Port`, masukkan 4 digit di akhir URL yang diberikan oleh pool, tetapi tanpa `:`. Di sini, oleh karena itu `3333`.
 
-Dalam tutorial ini, kami menggunakan mining pool Braiins, tetapi Anda bebas memilih yang lain. Anda dapat menemukan tutorial kami tentang mining pool [di situs web Plan ₿ Academy](https://planb.academy/en/tutorials/mining).
+Dalam tutorial ini, kami menggunakan mining pool Braiins, tetapi kamu bebas memilih yang lain. Kamu dapat menemukan tutorial kami tentang mining pool [di situs web Plan ₿ Academy](https://planb.academy/en/tutorials/mining).
 
 Selanjutnya, di `User`, masukkan identifikasi Anda kemudian `Password`, biasanya, itu adalah `"x"` atau `"Anything123"`.
 
-Pengaturan `Core Voltage` sebaiknya dibiarkan pada `1200` secara default, dan untuk `Frequency`, juga biarkan nilai default awalnya. Akan dimungkinkan untuk menyesuaikan pengaturan ini nanti untuk mendapatkan lebih banyak daya komputasi. Namun, penting untuk memastikan bahwa suhu chip tidak melebihi 65-70°C, karena BitAxe tidak memiliki sistem untuk mengurangi kinerja dalam kasus overheating. Jika suhu melebihi 65°C terlalu banyak, itu bisa merusak BitAxe Anda.
+Pengaturan `Core Voltage` sebaiknya dibiarkan pada `1200` secara default, dan untuk `Frequency`, juga biarkan nilai default awalnya. Akan dimungkinkan untuk menyesuaikan pengaturan ini nanti untuk mendapatkan lebih banyak daya komputasi. Namun, penting untuk memastikan bahwa suhu chip tidak melebihi 65-70°C, karena BitAxe tidak memiliki sistem untuk mengurangi kinerja dalam kasus overheating. Jika suhu melebihi 65°C terlalu banyak, itu bisa merusak BitAxe kamu.
 
 ![signup](assets/7.webp)
 
-Setelah Anda dengan benar memasukkan semua pengaturan, klik tombol `Save` di bagian bawah, kemudian restart BitAxe Anda hanya dengan mencabutnya dan memasangnya kembali.
-Jika Anda memasukkan informasi Anda dengan benar, perangkat harus segera terhubung ke Wi-Fi Anda, kemudian ke mining pool, dan mulai menampilkan beberapa informasi di layar kecilnya. Mungkin akan membutuhkan beberapa menit agar muncul di dashboard mining pool.
+Setelah kamu memasukkan semua pengaturan dengan benar, klik tombol 'Save' di bagian bawah, lalu restart BitAxe dengan mencabutnya dan memasangnya kembali.
+Jika informasinya dimasukkan dengan benar, perangkat akan langsung terhubung ke Wi-Fi kamu, kemudian ke mining pool, dan mulai menampilkan beberapa informasi di layar kecilnya. Mungkin diperlukan beberapa menit sebelum perangkat muncul di dashboard mining pool.
+
 ## Dasbor dan layar
 
-Tiga tampilan berbeda akan bergulir. Pada halaman ketiga, Anda akan melihat informasi `IP`, yang merupakan alamat IP yang memungkinkan Anda terhubung ke dashboard. Di sini, alamatnya adalah `192.168.1.19`.
+Tiga tampilan berbeda akan bergulir. Pada halaman ketiga, kamu akan melihat informasi `IP`, yang merupakan alamat IP yang memungkinkan kamu terhubung ke dashboard. Di sini, alamatnya adalah `192.168.1.19`.
 
 ![signup](assets/8.webp) ![signup](assets/9.webp) ![signup](assets/10.webp)
 
-Untuk mengakses dashboard, cukup masukkan alamat ini ke dalam browser internet Anda.
+Untuk mengakses dashboard, cukup masukkan alamat ini ke dalam browser internet kamu.
 
-Di dashboard, Anda akan menemukan semua informasi yang ditampilkan di layar kecil, yang sekarang akan kita lihat secara detail.
+Di dashboard, kamu akan menemukan semua informasi yang ditampilkan di layar kecil, yang sekarang akan kita lihat secara detail.
 
 ![signup](assets/11.webp)
 
 | Layar BitAxe | Dashboard                                   | Deskripsi                                                                                                                                                                                                               |
 | ------------- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Gh            | Hashrate                                    | Daya komputasi saat ini, dinyatakan dalam GigaHash/s                                                                                                                                                                      |
-| W/THs         | Efisiensi                                  | Ini adalah efisiensi BitAxe Anda yang dinyatakan dalam W/THs. Ini adalah rasio antara daya listrik yang dikonsumsi dan daya komputasi yang dihasilkan.                                                                          |
-| A/R           | Shares                                      | Jumlah `Shares` yang dikirim oleh BitAxe Anda ke pool, mewakili jumlah pekerjaan yang disediakan.                                                                                                                          |
+| W/THs         | Efisiensi                                  | Ini adalah efisiensi BitAxe kamu yang dinyatakan dalam W/THs. Ini adalah rasio antara daya listrik yang dikonsumsi dan daya komputasi yang dihasilkan.                                                                          |
+| A/R           | Shares                                      | Jumlah `Shares` yang dikirim oleh BitAxe kamu ke pool, mewakili jumlah pekerjaan yang disediakan.                                                                                                                          |
 | UT            | Uptime                                      | Waktu sejak BitAxe Anda beroperasi tanpa gangguan (tersedia di menu kiri di bawah `Logs`).                                                                                                                |
 | BD            | Kesulitan Terbaik                           | Kesulitan maksimum yang dicapai sejak restart terakhir. Untuk perbandingan, kesulitan jaringan saat ini sekitar 85T.                                                                                                      |
 | FAN           | FAN di kotak `Heat`                         | Kecepatan rotasi kipas, dinyatakan dalam rotasi per menit.                                                                                                                                                                 |
@@ -83,5 +85,5 @@ Di dashboard, Anda akan menemukan semua informasi yang ditampilkan di layar keci
 | vCore         | Tegangan ASIC (di kotak Performa)           | Tegangan yang diukur pada chip ASIC.                                                                                                                                                                                      |
 | IP            | NA                                          | Alamat IP.                                                                                                                                                                                                                |
 | V2.1.0        | Versi (menu kiri -> `Logs`)                 | Versi firmware.                                                                                                                                                                                                           |
-Anda dapat mengubah pengaturan Wi-Fi atau kolam kapan saja tanpa masalah.  
-Tergantung pada ventilasi dan suhu ruangan Anda, Anda mungkin perlu meningkatkan atau mungkin harus menurunkan performa agar suhu tidak melebihi 65°C. Jika Anda meningkatkan performa, Anda akan mendapatkan lebih banyak satoshi, tetapi BitAxe Anda juga akan mengonsumsi lebih banyak listrik!
+Kamu dapat mengubah pengaturan Wi-Fi atau kolam kapan saja tanpa masalah.  
+Tergantung pada ventilasi dan suhu ruangan, Kamu mungkin perlu meningkatkan atau mungkin harus menurunkan performa agar suhu tidak melebihi 65°C. Jika kamu meningkatkan performa, kamu akan mendapatkan lebih banyak satoshi, tetapi BitAxe milikmu juga akan mengonsumsi lebih banyak listrik!

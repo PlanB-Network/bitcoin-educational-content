@@ -1,0 +1,9 @@
+question: Mempool ile ilgili hangi ifade doğrudur?
+answer: Her düğümün (node) kendi mempool'u vardır
+wrong_answers:
+  - Tek bir benzersiz mempool vardır
+  - Mempool, her blokta bulunan bir dosyadır
+  - Mempool merkezi bir sunucudur
+explanation: |
+  Mempool her düğüme özeldir, bu nedenle içeriği her birinin uyguladığı kurallara bağlı olarak düğümden düğüme değişebilir.
+reviewed: false

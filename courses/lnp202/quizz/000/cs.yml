@@ -1,0 +1,9 @@
+question: Jaká je kapacita kanálu Lightning?
+answer: Celková blokovaná částka
+wrong_answers:
+  - Celková dostupná likvidita v jednom směru
+  - Maximální poplatky
+  - Maximální počet možných plateb
+explanation: |
+  Kapacita odpovídá celkovému součtu sats blokovaných v multisignálech kanálu.
+reviewed: false

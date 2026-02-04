@@ -1,0 +1,9 @@
+question: Kati ya katikati ya 2010 na katikati ya 2011, ugumu wa uchimbaji uliongezeka kwa sababu gani?
+answer: 1000
+wrong_answers:
+  - 100
+  - 500
+  - 50
+explanation: |
+  Ongezeko la mara 1,000 lilitokea katika kipindi hicho, hasa kutokana na matumizi ya GPU.
+reviewed: false

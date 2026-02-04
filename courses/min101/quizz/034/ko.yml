@@ -1,0 +1,9 @@
+question: 반감기(halving)는 비트코인의 무엇을 변화시킵니까?
+answer: 블록 보조금
+wrong_answers:
+  - 트랜잭션 수수료
+  - 블록 크기
+  - 난이도 목표
+explanation: |
+  반감기는 수수료에는 영향을 주지 않고 블록당 생성되는 최대 보조금을 절반으로 줄입니다.
+reviewed: false

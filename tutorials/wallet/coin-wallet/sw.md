@@ -211,11 +211,12 @@ Kutuma Bitcoin:
 4. Chagua kasi ya muamala:
 
 
-| Speed   | Approx. confirmation time | Fee level     |
+
+| Kasi   | Wakati wa uthibitisho takriban | Kiwango cha ada     |
 |---------|---------------------------|---------------|
-| **Slow**    | ~120 minutes              | Lowest
-| **Default** | ~60 minutes               | Medium
-| **Fast**    | ~20 minutes               | Higher
+| **Polepole**    | ~120 dakika              | Chini zaidi
+| **Chaguo-msingi** | ~60 dakika               | Kati
+| **Haraka**    | ~20 dakika               | Juu zaidi
 
 5. Thibitisha kwa kutumia PIN yako ya tarakimu 4 → muamala unatangazwa
 
@@ -251,12 +252,13 @@ Zaidi kuhusu Replace-by-fee (RBF): https://bitcoinops.org/en/topics/replace-by-f
 (Asilimia 99 ya watumiaji hawafanyi hivyo kamwe — passphrase yenye maneno 12 inatosha)
 
 
-| Situation                                      | Why you need the private key                     |
+
+| Hali                                      | Kwa nini unakuwa mahitaji ya funguo la siri                     |
 |------------------------------------------------|--------------------------------------------------|
-| Sweeping an old paper wallet                   | To move funds to your current wallet             |
-| Importing into a hardware signer (e.g. Coldcard) | For offline signing                              |
-| Emergency recovery (lost seed but app still open) | To rescue coins before the app is gone           |
-| Using tools that don’t accept seed phrases     | Some watch-only or signing utilities             |
+| Kusafisha mkoba wa karatasi wa zamani                   | Kuhamisha fedha kwenye mkoba wako wa sasa             |
+| Kuingiza kwenye saini ya aparelo (mfr. Coldcard) | Kwa ajili ya saini isiyo mtandaoni                              |
+| Upozezi wa dharura (mbegu zilizopotea lakini programu bado ipo) | Kuokoa sarafu kabla programu kuishia           |
+| Kutumia zana ambazo hazikubali maneno ya mbegu     | Baadhi ya zana za ufuatiliaji tu au kuandika             |
 
 ### Jinsi ya kusafirisha funguo za kibinafsi katika Coin Wallet
 
@@ -313,14 +315,16 @@ Coin Wallet inafuata kikamilifu viwango rasmi vya Bitcoin ambavyo hutumiwa na ka
 Kutoka kwa ufunguo mmoja mkuu, wallet inaweza kutoa anwani bilioni 82 za generate kwa mpangilio maalum. Hii ndiyo sababu maneno yaleyale 12 yaliyoingizwa katika Electrum, Sparrow, Trezor, Ledger, BlueWallet, n.k. yataonyesha anwani na mizani sawa kabisa.
 
 
-**Njia za uondoaji zinazotumika katika Coin Wallet kwa Bitcoin**
 
 
-| Address type              | Standard | Derivation path       | Starts with | Comment                              |
+
+**Njia za utokaji zinazotumiwa katika Coin Wallet kwa Bitcoin**
+
+| Aina ya anwani              | Kiwango | Njia ya utokaji       | Huanza kwa | Maoni                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
-| Native SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Modern format, lowest fees           |
-| Nested SegWit (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | Compatibility wrapper for old services |
-| Legacy (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | Oldest format, highest fees          |
+| SegWit ya Asili (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Muundo wa kisasa, ada za chini           |
+| SegWit iliyoimarishwa (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | Kizungiti cha utangamano kwa huduma za zamani |
+| Urithi (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | Muundo wa kale zaidi, ada za juu          |
 
 Ndani ya kila njia:
 

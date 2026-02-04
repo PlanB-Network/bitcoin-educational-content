@@ -1,5 +1,6 @@
 ---
-term: UTHIBITISHO WA KUHIFADHIWA
+term: Ushahidi wa akiba
+definition: Utaratibu unaoruhusu majukwaa ya kubadilishana kuthibitisha kuwa yanashikilia bitcoin za wateja wao.
 ---
 
 Utaratibu unaotumiwa na majukwaa ya Bitcoin Exchange ili kuonyesha kwamba wanashikilia mali za wateja wao. Madhumuni ni kuthibitisha uteuzi wa kampuni kwa kuthibitisha kuwa bitcoins zake ni sawa au kubwa kuliko salio la mtumiaji wanalopaswa kushikilia.

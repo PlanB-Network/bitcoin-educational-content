@@ -1,0 +1,9 @@
+question: Hvilke av disse Lightning-operasjonene krever publisering av en transaksjon i kjeden?
+answer: Kanalåpning
+wrong_answers:
+  - Lynrask betaling
+  - Routing med flere hopp
+  - Mobil klienttilkobling
+explanation: |
+  Åpningen av en kanal tilsvarer en Bitcoin-transaksjon publisert på blokkjeden.
+reviewed: false

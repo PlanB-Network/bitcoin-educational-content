@@ -1,9 +1,11 @@
 question: For which use cases in particular has the Pay to Script Hash upgrade been deployed?
-answer: Securing funds by multi-party signature (multisig)
+answer: For securing funds by multi-party signature (multisig)
 wrong_answers:
-  - Escrow services
-  - Increased network computing power thanks to merged mining mining
-  - Sending remittances abroad
+  - For escrow services
+  - To increase network computing power thanks to merged mining
+  - For sending remittances abroad
 explanation: |
- Securing funds is a very important issue at the moment, due to the increasing number of piracy attacks. The subject was brought to the table on August 23, 2011 by Gavin Andresen, the project leader, who wanted to speed up the standardization of the multisignature functionality already present in the protocol. This led to the development of OP_EVAL and then P2SH over the winter.
-reviewed: false
+ Securing funds is a very important issue at the moment, due to the increasing number of piracy attacks. The subject was brought to the table on August 23, 2011
+ by Gavin Andresen, the project leader, who wanted to speed up the standardization of the multisignature functionality already present in the protocol. 
+ This led to the development of OP_EVAL and then P2SH over the winter.
+reviewed: true

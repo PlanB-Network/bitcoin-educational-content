@@ -1,6 +1,7 @@
 ---
-term: HALVING
+term: Halving
 
+definition: Tapahtuma, jossa louhijoiden palkkio puolittuu 210 000 lohkon välein.
 ---
 Termi "puolitus" viittaa aikataulutettuun tapahtumaan, joka puolittaa louhijoille kustakin louhitusta lohkosta lohkotuen kautta maksettavan palkkion. Tämä vähennys koskee erityisesti sitä osaa lohkotuesta, joka koostuu tyhjästä luoduista uusista bitcoineista. Bitcoinin luoja Satoshi Nakamoto suunnitteli puolittamisen mekanismiksi, jolla hillitään inflaatiota ja varmistetaan bitcoinien rajallinen tarjonta.
 

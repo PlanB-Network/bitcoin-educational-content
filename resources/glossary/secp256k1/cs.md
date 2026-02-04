@@ -1,6 +1,7 @@
 ---
 term: SECP256K1
 
+definition: Eliptická křivka používaná v Bitcoinu pro digitální podpisy ECDSA a Schnorr.
 ---
 Název specifické eliptické křivky používané v protokolu Bitcoin pro implementaci algoritmů digitálního podpisu ECDSA (*Elliptic Curve Digital Signature Algorithm*) a Schnorr. Křivku `secp256k1` vybral vynálezce Bitcoinu Satoshi Nakamoto. Má některé zajímavé vlastnosti, zejména výkonnostní výhody.
 

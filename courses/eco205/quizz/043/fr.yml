@@ -1,0 +1,8 @@
+question: Selon l'école autrichienne, quelle approche méthodologique doit être utilisée pour étudier les sciences humaines ?
+answer: Une approche praxéologique axiomatico-déductive
+wrong_answers:
+  - "Une approche empirique inductive basée sur l'observation"
+  - "Une approche mathématique fondée sur les modèles d'équilibre"
+  - Une approche expérimentale utilisant la réplication en laboratoire
+explanation: |
+  L'école autrichienne préconise une approche praxéologique axiomatico-déductive pour les sciences humaines, partant de principes fondamentaux sur l'action humaine pour en déduire des lois économiques. Cette méthode reconnaît la nature intentionnelle et créatrice de l'action humaine. Les autres approches (empirique inductive, mathématique, expérimentale) sont rejetées car elles traitent l'homme comme un objet mécanique, ignorant sa capacité d'apprentissage et de changement.

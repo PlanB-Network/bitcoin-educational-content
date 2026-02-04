@@ -1,9 +1,9 @@
-question: Quale problema ha risolto la Bitcoin che le valute digitali precedenti non sono riuscite a risolvere?
-answer: Il problema double-spending in modo decentralizzato
+question: Quale problema ha risolto Bitcoin che le valute digitali precedenti non sono riuscite a risolvere?
+answer: Il problema del double-spending in modo decentralizzato
 wrong_answers:
   - Il problema della crittografia nelle reti peer-to-peer
   - Il problema dell'archiviazione delle transazioni digitali
   - Il problema della velocità nei pagamenti online
 explanation: |
-  L'innovazione del Bitcoin consisteva nel risolvere il problema del double-spending senza richiedere un'autorità centrale. Il problema double-spending consiste nell'impedire a qualcuno di spendere due volte la stessa moneta digitale. Le valute digitali precedenti fallivano perché si affidavano a server centrali o ad autorità fidate, rendendole vulnerabili alla censura e a singoli punti di fallimento. Il Bitcoin ha risolto questo problema grazie al suo server di timestamp distribuito peer-to-peer che utilizza il proof-of-work, consentendo alla rete di concordare l'ordine delle transazioni senza alcun controllo centrale.
-reviewed: false
+  L'innovazione di Bitcoin consisteva nel risolvere il problema del double-spending senza richiedere un'autorità centrale. Il problema del double-spending consiste nell'impedire a qualcuno di spendere due volte la stessa moneta digitale. Le valute digitali precedenti fallivano perché si affidavano a server centrali o ad autorità fidate, rendendole vulnerabili alla censura e a singoli punti di fallimento. Bitcoin ha risolto questo problema grazie al suo server di timestamp distribuito peer-to-peer che utilizza il proof-of-work, consentendo alla rete di concordare l'ordine delle transazioni senza alcun controllo centrale.
+reviewed: true

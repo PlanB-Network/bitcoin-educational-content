@@ -1,14 +1,13 @@
-question: Ni igikorwa nyamukuru ikihe c’abacukuzi b’amabuye y’agaciro mu murongo wa Bitcoin?
-answer: Gutorera umuti uruzitiro rwa digitale no kwemeza ububiko bushasha
+question: Ni igikorwa nyamukuru ikihe c’abacukuzi (miners) mu muhora wa Bitcoin?
+answer: Gutorera umuti puzzle y’ubuhinga bwa none no kwemeza block nshasha
 wrong_answers:
   - Kugira ngo ureme ama bitcoins mashasha
-  - Kugira ngo bagenzure igiciro ca Bitcoin.
-  - Kugenzura akaranga k'abakoresha Bitcoin
+  - Kugira ngo bagenzure igiciro ca Bitcoin
+  - Kugenzura akaranga k’abakoresha Bitcoin
 explanation: |
-  Mu bijanye n’ivyo Bitcoin Mining, abacukuzi b’amabuye y’agaciro baragerageza kwihuta .
-  gutorera umuti uruzitiro rw’ivy’ubuhinga bwa none. Miner ya mbere gutorera umuti ikibazo
-  yerekana umuti wabo ku rubuga rwose, rushobora .
-  hanyuma ugasuzuma bitagoranye ko ari ukuri. Ivyo vyaroraniwe .
-  kugenzura bituma Miner yemeza igice gishasha kandi
-  wongereko ku ruzitiro rw’igihe rwa Bitcoin.
+  Mu bijanye na Bitcoin mining, aba miners bagerageza gutorera
+  umuti ningoga puzzle y’ubuhinga bwa none. Umu miner wa mbere ashobora
+  gutorera umuti iyo puzzle yerekana umuti yatoye ku muhora wose, 
+  aho rero ushobora kugenzura bitagoranye ko ari ukuri. Ukwo kugenzura kuroraniwe 
+  gutuma umu miner yemeza igice(block) gishasha maze akagishira kuri Bitcoin Timechain.
 reviewed: true

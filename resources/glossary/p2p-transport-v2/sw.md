@@ -1,5 +1,6 @@
 ---
-term: P2P USAFIRI V2
+term: P2P TRANSPORT V2
+definition: Toleo jipya la itifaki ya P2P ya Bitcoin lenye usimbaji ili kuboresha faragha.
 ---
 
 Toleo jipya la itifaki ya usafiri ya Bitcoin P2P inayojumuisha usimbaji fiche nyemelezi ili kuimarisha faragha na usalama wa mawasiliano kati ya nodi. Uboreshaji huu unalenga Address masuala kadhaa na toleo la msingi la itifaki ya P2P, hasa kwa kufanya data iliyobadilishwa isitofautishwe na mwangalizi tu (kama vile mtoa huduma wa mtandao), na hivyo kupunguza hatari za udhibiti na mashambulizi kupitia ugunduzi wa ruwaza maalum katika pakiti za data.

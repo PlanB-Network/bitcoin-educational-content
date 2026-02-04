@@ -1,0 +1,9 @@
+question: 为什么流出的付款会自动产生流入的流动资金？
+answer: 流动性的变化
+wrong_answers:
+  - 创建新渠道
+  - 容量增加
+  - 降低路由成本
+explanation: |
+  流出的付款会将 sats 移至平价，从而在通道的这一侧产生流入的流动性。
+reviewed: false

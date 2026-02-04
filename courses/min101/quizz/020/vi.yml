@@ -1,0 +1,9 @@
+question: Bitcoin hướng tới khoảng thời gian trung bình giữa mỗi khối là bao nhiêu?
+answer: 10 phút
+wrong_answers:
+  - 1 phút
+  - 30 phút
+  - 60 phút
+explanation: |
+  Giao thức hướng tới mức trung bình khoảng một khối mỗi 10 phút trong một khoảng thời gian dài.
+reviewed: false

@@ -1,0 +1,9 @@
+question: ข้อกำหนดเบื้องต้นสำหรับการติดตั้ง LND บน Umbrel คืออะไร?
+answer: ซิงโครไนซ์ Bitcoin โหนด
+wrong_answers:
+  - Umbrel บัญชีพรีเมียม
+  - ช่องทาง Lightning ที่มีอยู่
+  - ที่อยู่ Lightning ใช้งานอยู่
+explanation: |
+  LND อาศัยโหนด Bitcoin ที่ซิงโครไนซ์ 100% ซึ่งเป็นข้อกำหนดเบื้องต้นสำหรับการทำงานของมัน
+reviewed: false

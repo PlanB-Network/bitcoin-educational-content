@@ -1,0 +1,9 @@
+question: 1 ZH/s යනු කුමකට සමානද?
+answer: 1000 EH/s
+wrong_answers:
+  - 100 EH/s
+  - 1 EH/s
+  - 10 EH/s
+explanation: |
+  1 ZH/s = 1000 EH/s
+reviewed: false

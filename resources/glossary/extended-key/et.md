@@ -1,6 +1,7 @@
 ---
-term: PIKENDATUD KEY
+term: Laiendatud võti
 
+definition: Rida, mis ühendab võtme, selle ahelakoodi (chain code) ja metaandmed tuletamiseks HD-rahakottides.
 ---
 Tähemärkide jada, mis ühendab võtme (avaliku või privaatse), sellega seotud ahelakoodi ja rea metaandmeid. Laiendatud võti koondab kõik lapsvõtmete tuletamiseks vajalikud elemendid ühte identifikaatorisse. Neid kasutatakse deterministlikes ja hierarhilistes rahakottides ning neid võib olla kahte tüüpi: laiendatud avalik võti (mida kasutatakse avalike allvõtmete tuletamiseks) või laiendatud privaatne võti (mida kasutatakse nii privaatsete kui ka avalike allvõtmete tuletamiseks). Laiendatud võti sisaldab seega mitmeid erinevaid andmeid, mida on kirjeldatud BIP32-s, ja seda järgmises järjekorras:
 

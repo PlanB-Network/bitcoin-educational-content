@@ -1,0 +1,9 @@
+question: Koja heš funkcija se koristi za rudarenje u Bitcoin-u?
+answer: SHA256d
+wrong_answers:
+  - SHA1d
+  - RIPEMD160d
+  - SHA512d
+explanation: |
+  Rudarenje Bitkoina koristi SHA256 primenjen dva puta, što se generalno označava kao SHA256d.
+reviewed: false

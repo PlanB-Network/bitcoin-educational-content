@@ -1,5 +1,5 @@
 question: ¿Cuál es la principal limitación que deben superar los desarrolladores al utilizar UniFFI para el desarrollo de aplicaciones móviles que requieren interfaces de usuario con capacidad de respuesta?
-answer: UniFFI sólo admite interfaces síncronas, por lo que los desarrolladores deben gestionar las operaciones asíncronas mediante mecanismos de subprocesamiento independientes
+answer: UniFFI solo admite interfaces síncronas, por lo que los desarrolladores deben gestionar las operaciones asíncronas mediante mecanismos de subprocesamiento independientes
 wrong_answers:
   - UniFFI no puede manejar tipos de datos complejos como enums y structs, lo que limita la riqueza de las interfaces móviles de API
   - UniFFI genera enlaces que no son seguros para la memoria a través de los límites del lenguaje, lo que requiere una gestión manual de la memoria

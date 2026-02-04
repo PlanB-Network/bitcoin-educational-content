@@ -1,0 +1,9 @@
+question: Vad gör en Bitcoin-nod med en giltig men obekräftad transaktion efter verifiering?
+answer: Den vidarebefordrar den till sina peers
+wrong_answers:
+  - Den lägger till den i sin lokala kopia av blockkedjan
+  - Den signerar den med sin privata nyckel
+  - Den krypterar den med sin publika nyckel
+explanation: |
+  I Bitcoin-nätverket sprider varje nod giltiga transaktioner till de noder den är ansluten till.
+reviewed: false

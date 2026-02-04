@@ -5,5 +5,5 @@ wrong_answers:
   - 512 Bits
   - 1024 Bits
 explanation: |
-  Ein privater Schlüssel bei Bitcoin ist eine 256-Bit zufällige Ganzzahl, die einen Schlüsselraum groß genug gewährleistet, um Sicherheit zu garantieren.
+  Ein privater Schlüssel bei Bitcoin ist eine 256-Bit zufällige Ganzzahl, die ein Spektrum von Schlüsseln gewährleistet, welches groß genug ist um Sicherheit zu garantieren.
 reviewed: true

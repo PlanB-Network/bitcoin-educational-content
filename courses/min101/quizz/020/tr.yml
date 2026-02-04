@@ -1,0 +1,9 @@
+question: Bitcoin her blok arasında ortalama ne kadar süre hedefler?
+answer: 10 dakika
+wrong_answers:
+  - 1 dakika
+  - 30 dakika
+  - 60 dakika
+explanation: |
+  Protokol, uzun bir süre boyunca her 10 dakikada yaklaşık bir blok ortalamasını hedefler.
+reviewed: false

@@ -1,11 +1,15 @@
 ---
-term: ASSUNZIONE UTXO
+term: Assume utxo
 
+definition: Un parametro Bitcoin Core che consente la sincronizzazione rapida di un nuovo nodo utilizzando uno snapshot del set UTXO presumibilmente valido, prima di verificare la cronologia in background.
 ---
-Parametro di configurazione del client principale di Bitcoin Core che consente a un nodo appena inizializzato (ma non ancora sottoposto all'IBD) di rinviare la verifica delle transazioni e del set UTXO fino a una determinata istantanea. Il concetto si basa sull'uso di un set UTXO (un elenco di tutti gli UTXO esistenti in un determinato momento) fornito dal Core e presumibilmente accurato, che consente al nodo di sincronizzarsi molto rapidamente con la catena con il maggior numero di lavori accumulati. Poiché il nodo salta la lunga fase di IBD, diventa operativo per il suo utente molto rapidamente. Si supponga che UTXO divida la sincronizzazione (IBD) in due parti:
+Parametro di configurazione nel client di maggioranza Bitcoin Core che consente a un nodo appena inizializzato (ma che non ha ancora eseguito l'IBD) di posticipare la verifica delle transazioni e dell'UTXO set prima di un determinato snapshot. Il concetto si basa sull'uso di un UTXO set (elenco di tutti gli UTXO esistenti in un dato momento) fornito da Core e presunto accurato, che consente al nodo di sincronizzarsi molto rapidamente sulla catena con il maggior lavoro accumulato. Poiché il nodo salta la lunga fase di IBD, diventa operativo per l'utente in tempi brevissimi.
+
+Assume UTXO divide la sincronizzazione (IBD) in due parti: in primo luogo, il nodo esegue l'Header First Sync (solo verifica delle intestazioni) e considera valido l'UTXO set fornitogli da Core; quindi, una volta funzionante, il nodo verificherà la cronologia completa dei blocchi in background, aggiornando un nuovo UTXO set che avrà verificato esso stesso. Se quest'ultimo non corrisponde all'UTXO set fornito da Core, fornirà un messaggio di errore.
+
+Assume UTXO consente quindi di accelerare la preparazione di un nuovo nodo Bitcoin posticipando il processo di verifica delle transazioni e dell'UTXO set grazie a uno snapshot aggiornato fornito in Core.
 
 
-- In primo luogo, il nodo esegue l'Header First Sync (verifica solo delle intestazioni) e considera valido il set UTXO fornito dal Core;
-- Quindi, una volta operativo, il nodo verificherà la cronologia completa dei blocchi in background, aggiornando un nuovo set UTXO che ha verificato da solo. Se questo nuovo set UTXO non corrisponde a quello fornito dal Core, viene visualizzato un messaggio di errore.
 
-Pertanto, supponiamo che UTXO acceleri la preparazione di un nuovo nodo Bitcoin posticipando il processo di verifica delle transazioni e il set UTXO attraverso un'istantanea aggiornata fornita nel Core.
+
+

@@ -1,7 +1,7 @@
 question: Quale distribuzione è più adatta al Raspberry Pi, che è particolarmente leggero?
 answer: RaspiBlitz
 wrong_answers:
-  - Ombrello
+  - Umbrel
   - MioNodo
   - Inizio9
 explanation: |

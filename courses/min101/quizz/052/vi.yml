@@ -1,0 +1,9 @@
+question: Nói một cách đơn giản, một khối trên Bitcoin là gì?
+answer: Một gói các giao dịch
+wrong_answers:
+  - Một khoản thanh toán
+  - Một máy chủ trung tâm
+  - Một khóa riêng tư
+explanation: |
+  Nếu đơn giản hóa, một khối chỉ là một tập hợp các giao dịch được nhóm lại với nhau.
+reviewed: false

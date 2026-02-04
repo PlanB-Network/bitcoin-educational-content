@@ -1,5 +1,6 @@
 ---
-term: 有用なロード
+term: ペイロード
+definition: より大きなデータパケット内で運ばれる主要なデータ。
 ---
 
 コンピューティングの一般的な文脈では、ペイロードとは、より大きなデータパケットに 含まれる重要なデータのことである。例えば、Bitcoin Address上のSegWit V0では、ペイロードは公開鍵のHashに相当し、様々なメタデータ(HRP、セパレータ、SegWitバージョン、チェックサム)は含まれない。たとえば、Addressの `bc1qc2eukw7reasfcmrafevp5dhv8635yuqays50gj` では、：

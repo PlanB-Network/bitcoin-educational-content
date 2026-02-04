@@ -1,5 +1,6 @@
 ---
-term: QR KOD
+term: QR kod
+definition: Dvodimenzionalni bar-kod koji se koristi za lak prenos Bitcoin adresa i drugih informacija.
 ---
 
 Vrsta dvodimenzionalnog bar koda koji mobilni uređaji mogu brzo skenirati. QR kod čuva informacije u obliku crno-belih piksela raspoređenih u kvadratu na beloj pozadini. Važna karakteristika QR kodova je da uključuju BCH kodove za ispravljanje grešaka, što omogućava obnavljanje podataka čak i ako je QR kod delimično zaklonjen.

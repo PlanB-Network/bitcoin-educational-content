@@ -1,0 +1,9 @@
+question: Si los bloques se han encontrado demasiado rápido en el último periodo, ¿qué sucede?
+answer: El objetivo baja
+wrong_answers:
+  - El objetivo sube
+  - El objetivo permanece igual
+  - El tamaño del bloque aumenta
+explanation: |
+  Los bloques encontrados demasiado rápido indican un hashrate más alto, por lo que Bitcoin endurece la condición bajando el objetivo.
+reviewed: false

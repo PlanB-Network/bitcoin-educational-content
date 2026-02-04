@@ -1,5 +1,6 @@
 ---
-term: MIXING
+term: Miksanje
+definition: Svojstvo sistema u kojem su elementi ravnomerno izmešani, koristi se za procenu kvaliteta coinjoin-ova.
 ---
 
 U opštem polju matematike, mešanje ili blendiranje odnosi se na osobinu dinamičkog sistema gde, nakon određenog vremena, svi delovi početnog prostora mogu teoretski postati izmešani sa bilo kojim drugim delom. Mešanje implicira da se položaj čestice ili stanje sistema razvija na takav način da je njegova buduća distribucija nezavisna od početne distribucije, čime se dostiže stanje u kojem su karakteristike početnog stanja ravnomerno raspoređene kroz prostor sistema. U kontekstu Bitcoin, ovaj pojam se može koristiti za procenu kvaliteta procesa mešanja novčića kao što je CoinJoin.

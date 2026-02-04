@@ -1,0 +1,9 @@
+question: 如果難度目標降低，挖礦會變得怎樣？
+answer: 更難
+wrong_answers:
+  - 更容易
+  - 保持不變
+  - 不可能
+explanation: |
+  較低的目標意味著閾值之下的可能結果更少，因此需要更多次嘗試才能找到有效的哈希值。這意味著挖礦難度更大。
+reviewed: false

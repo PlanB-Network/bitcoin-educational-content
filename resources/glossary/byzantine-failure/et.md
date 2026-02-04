@@ -1,6 +1,7 @@
 ---
-term: BYSANTINE EBAÕNNESTUMINE
+term: Bütsantsi tõrge
 
+definition: Süsteemi käitumine, mis ei vasta selle spetsifikatsioonidele, mis võib olla loomulik või tahtlik.
 ---
 Byzantine error ehk Byzantine behavior tähendab süsteemi mis tahes käitumist, mis ei vasta selle enda spetsifikatsioonidele, tekitades mittevastavaid tulemusi.
 

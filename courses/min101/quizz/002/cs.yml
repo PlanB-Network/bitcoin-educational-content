@@ -1,0 +1,9 @@
+question: Které prohlášení o mempoolu je správné?
+answer: Každý uzel má svůj vlastní mempool
+wrong_answers:
+  - Existuje jeden jediný mempool
+  - Mempool je soubor obsažený v každém bloku
+  - Mempool je centrální server
+explanation: |
+  Mempool je lokální pro každý uzel, takže jeho obsah se může lišit uzel od uzlu v závislosti na pravidlech, která každý uzel uplatňuje.
+reviewed: false

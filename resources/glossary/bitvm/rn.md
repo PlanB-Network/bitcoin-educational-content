@@ -1,5 +1,6 @@
 ---
-term: BITVM
+term: BitVM
+definition: Amasezerano akundira iharura iryo ari ryo ryose hanze y'uruhererekane rw'ibice (off-chain) hamwe n'uburyo bwo kubigihiriza ku ruhererekane (on-chain), vyongereza ubushobozi bwa Bitcoin.
 ---
 
 Porotokole yashizweho na Robin Linus mu 2023, igamije kwagura ubushobozi bwo gutegura ibikorwa vya Bitcoin.

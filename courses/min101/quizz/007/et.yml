@@ -1,0 +1,9 @@
+question: Milline majanduslik kriteerium suunab kaevandaja tehingute valikut?
+answer: Tasumäär (fee rate)
+wrong_answers:
+  - Tasude kogusumma
+  - UTXO-de vanus
+  - UTXO-de arv
+explanation: |
+  Kuna ploki ruum on piiratud, eelistab kaevandaja kõige tulusamaid tehinguid baidi kohta. Seetõttu suunab tehingute valikut just tasumäär.
+reviewed: false

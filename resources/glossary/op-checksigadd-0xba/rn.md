@@ -1,6 +1,7 @@
 ---
 term: OP_CHECKSIGADD (0XBA)
 
+definition: Opcode ya Tapscript igenzura ikimenyetso ikongera igiharuro namba ari co.
 ---
 
 Gukuraho agaciro gatatu ka mbere mu kirundo: `urufunguzo rwa bose`, `CScriptNum` `n`, na `umukono`. Iyo umukono utari umurongo w'ubusa kandi udafise akamaro, inyandiko irahera n'ikosa. Niba umukono ari mwiza canke ari ubusa (`OP_0`), ibintu bibiri birashikirizwa:

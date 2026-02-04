@@ -1,0 +1,9 @@
+question: A cosa corrisponde il campo nbits nell'intestazione del blocco?
+answer: Il target di difficoltà codificato
+wrong_answers:
+  - La dimensione del blocco in byte
+  - Il numero di transazioni nel blocco
+  - Il timestamp del blocco
+explanation: |
+  Il campo nbits codifica il target di difficoltà attivo.
+reviewed: false

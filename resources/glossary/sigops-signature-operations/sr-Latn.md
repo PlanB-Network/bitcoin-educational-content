@@ -1,5 +1,6 @@
 ---
-term: SIGOPS (SIGNATURE OPERATIONS)
+term: Sigops (operacije potpisivanja)
+definition: Operacije digitalnog potpisa neophodne za validaciju Bitcoin transakcija.
 ---
 
 Odnosi se na operacije digitalnog potpisa neophodne za validaciju transakcija. Svaka Bitcoin transakcija može sadržati više ulaza, od kojih svaki može zahtevati jedan ili više potpisa da bi se smatrali validnim. Verifikacija ovih potpisa se vrši korišćenjem specifičnih opkodova nazvanih "sigops". Konkretno, to uključuje `OP_CHECKSIG`, `OP_CHECKSIGVERIFY`, `OP_CHECKMULTISIG` i `OP_CHECKMULTISIGVERIFY`. Ove operacije nameću određeno opterećenje na mrežne čvorove koji ih moraju verifikovati. Da bi se sprečili DoS napadi kroz veštačko povećanje broja sigops, protokol stoga nameće ograničenje na broj sigops dozvoljenih po bloku, kako bi se osiguralo da opterećenje validacije ostane upravljivo za čvorove. Ovo ograničenje je trenutno postavljeno na maksimalno 80,000 sigops po bloku. Da bi brojali, čvorovi prate ova pravila:

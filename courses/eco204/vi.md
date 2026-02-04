@@ -272,7 +272,7 @@ Một ví dụ minh họa của MMT là phức hợp quân sự-công nghiệp c
 
 Nhật Bản thường được các nhà ủng hộ MMT trích dẫn là một ví dụ khác về sự vắng mặt của lạm phát bất chấp việc in tiền đáng kể. Tuy nhiên, tình hình ở Nhật Bản cũng làm nổi bật những hạn chế của các biện pháp đo lường lạm phát truyền thống như CPI. Ở Nhật Bản, một phần lớn tiền in ra hoặc được tiết kiệm hoặc được đầu tư vào thị trường bất động sản hoặc thị trường chứng khoán, thay vì chi tiêu trong nền kinh tế tiêu dùng hiện tại. CPI, bằng cách không hoàn toàn tính đến những động lực này, có thể đánh giá thấp lạm phát thực tế.
 
-Phân tích về Nhật Bản (https://ideas.repec.org/p/ces/ceswps/_9821.html) cũng làm nổi bật rằng hành vi của các chủ thể kinh tế, như tiết kiệm hoặc đầu tư vào tài sản không được bao gồm trong CPI, có thể che giấu tác động lạm phát của việc in tiền. Hơn nữa, khả năng của các ngành khác nhau trong việc hấp thụ lượng tiền được bơm vào đóng một vai trò quan trọng trong việc liệu có xảy ra lạm phát hay không.
+[Phân tích về Nhật Bản](https://ideas.repec.org/p/ces/ceswps/_9821.html) cũng làm nổi bật rằng hành vi của các tác nhân kinh tế, như tiết kiệm hoặc đầu tư vào các tài sản không được đưa vào CPI, có thể che giấu tác động lạm phát của việc in tiền. Ngoài ra, khả năng của các lĩnh vực khác nhau trong việc hấp thụ lượng thanh khoản được bơm vào đóng vai trò then chốt trong việc lạm phát có xuất hiện hay không.
 
 #### Bảng cân đối kế toán của Ngân hàng và Ngân hàng trung ương
 

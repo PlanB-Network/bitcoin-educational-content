@@ -6,3 +6,4 @@ wrong_answers:
   - SIGHASH_ANYONECANPAY
 explanation: |
   SIGHASH_ALL adalah tanda sighash default, yang mencakup semua input dan output dari sebuah transaksi, mencegah segala modifikasi.
+reviewed: true

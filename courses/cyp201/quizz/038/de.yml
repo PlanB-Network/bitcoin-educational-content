@@ -1,9 +1,9 @@
 question: Warum wird davon abgeraten, eine Bitcoin-Adresse wiederzuverwenden?
 answer: Es erleichtert Dritten das Nachverfolgen von Transaktionen.
 wrong_answers:
-  - Es offenbart den privaten Schlüssel aufgrund des Nonce
-  - Es macht Transaktionen teurer
-  - Es macht digitale Signaturen ungültig
+  - Es offenbart den privaten Schlüssel aufgrund der Nonce.
+  - Es macht Transaktionen teurer.
+  - Es macht digitale Signaturen ungültig.
 explanation: |
   Das Wiederverwenden einer Adresse ermöglicht es Beobachtern, verschiedene Transaktionen leicht demselben Benutzer zuzuordnen, was deren Privatsphäre beeinträchtigt.
 reviewed: true

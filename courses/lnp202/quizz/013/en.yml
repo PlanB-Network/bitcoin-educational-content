@@ -1,7 +1,7 @@
 question: Which solution enables you to run a real Lightning node on cell phones?
 answer: Embedded LN node
 wrong_answers:
-  - Wallet custodial Lightning
+  - Custodial Lightning wallet
   - Lightning atomic swap
   - Federated channels
 explanation: |

@@ -1,0 +1,9 @@
+question: En una transacción de Bitcoin, ¿qué consumen las entradas (inputs)?
+answer: UTXOs existentes
+wrong_answers:
+  - Salidas (outputs) futuras
+  - Bloques existentes
+  - Direcciones futuras
+explanation: |
+  Una entrada hace referencia a una salida no gastada de una transacción pasada, lo que se denomina UTXO.
+reviewed: false

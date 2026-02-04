@@ -1,0 +1,9 @@
+question: Que frase resume o serviço prestado por um pool de mineração?
+answer: Ele vende previsibilidade
+wrong_answers:
+  - Ele vende dificuldade de mineração
+  - Ele vende blocos maiores
+  - Ele vende máquinas de mineração
+explanation: |
+  A mutualização transforma um rendimento muito volátil em pagamentos mais regulares, em troca de partilha e taxas.
+reviewed: false

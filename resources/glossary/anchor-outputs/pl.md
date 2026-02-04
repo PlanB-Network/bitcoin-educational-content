@@ -1,5 +1,6 @@
 ---
-term: WYJŚCIA Anchor
+term: Anchor outputs
+definition: Mechanizm na Lightning pozwalający na dostosowanie opłat transakcji zobowiązania po jej utworzeniu, aby zapewnić szybkie zamknięcie kanału.
 ---
 
 Propozycja mająca na celu poprawę zarządzania opłatami transakcyjnymi w kanałach Lightning. Przy każdej zmianie stanu kanału Lightning interesariusze tworzą i podpisują nowy Commitment Transaction, który odzwierciedla nowy podział środków w ramach kanału. Problem z tym mechanizmem polega na określeniu opłat transakcyjnych w momencie jego utworzenia. W rzeczywistości opłaty transakcyjne w sieci Bitcoin podlegają znacznym wahaniom, zarówno w górę, jak i w dół. Jeśli opłaty ustalone dla ostatniego Commitment Transaction są niewystarczające w momencie jednostronnego zamknięcia kanału, nie tylko potwierdzenie transakcji zajmie znaczną ilość czasu, ale mechanizmy blokady czasowej (timelocks) mogą również umożliwić kradzież środków. Wyjścia Anchor rezerwują niewielką część środków w Commitment Transaction na pokrycie przyszłych opłat. W przypadku przeciążenia sieci i rosnących opłat, wyjścia Anchor pozwalają na modyfikację opłat transakcyjnych po utworzeniu Commitment Transaction, zapewniając w ten sposób wystarczająco szybkie zamknięcie kanału Lightning.

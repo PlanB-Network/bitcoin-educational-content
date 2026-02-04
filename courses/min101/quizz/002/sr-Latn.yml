@@ -1,0 +1,9 @@
+question: Koja je tvrdnja o mempool-u tačna?
+answer: Svaki čvor ima sopstveni mempool
+wrong_answers:
+  - Postoji jedan jedinstveni mempool
+  - Mempool je datoteka sadržana u svakom bloku
+  - Mempool je centralni server
+explanation: |
+  Mempool je lokalan za svaki čvor, tako da se njegov sadržaj može razlikovati od čvora do čvora u zavisnosti od pravila koja svaki čvor primenjuje.
+reviewed: false

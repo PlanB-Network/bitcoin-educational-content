@@ -314,10 +314,11 @@ server=1
 然後前往您的 Wallet 管理軟體 (例如 Sparrow Wallet 或 Liana)，輸入 cookie 檔案的路徑，通常與 `Bitcoin.conf` 位於同一資料夾，視您的作業系統而定：
 
 
-|**macOS**|~/Library/Application Support/Bitcoin|
-|---|---|
-|**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 
@@ -342,10 +343,11 @@ server=1
 編輯檔案後，請確保將其儲存到您作業系統的適當資料夾：
 
 
+
 |**macOS**|~/Library/Application Support/Bitcoin|
 |---|---|
 |**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+|**Linux**|~/.bitcoin|
 
 此操作也可透過 Bitcoin-QT 的 Interface 圖形執行。進入 "*Settings*「 功能表，然後選擇 」*Options...*「，勾選對應的方塊以啟動 」*Enable RPC server*" 選項。如果「Bitcoin.conf」檔案不存在，您可以點選「*Open Configuration File*」直接從這個 Interface 建立它。
 

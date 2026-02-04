@@ -1,0 +1,9 @@
+question: 第4回ハッシュレート半減期（halving）はどのブロック高で発生しましたか？
+answer: 840,000
+wrong_answers:
+  - 880,000
+  - 860,000
+  - 900,000
+explanation: |
+  第4回半減期は2024年4月20日、ブロック高840,000で発生しました。
+reviewed: false

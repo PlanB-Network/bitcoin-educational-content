@@ -1,0 +1,9 @@
+question: Mikä tilastollinen periaate selittää sen, että löydettyjen lohkojen tiheys lähestyy pitkällä aikavälillä hashrate-osuutta?
+answer: Suurten lukujen laki
+wrong_answers:
+  - Bayesin teoreema
+  - Syntymäpäiväparadoksi
+  - Vähimmän vaikutuksen periaate
+explanation: |
+  Tulosten konvergenssi johtuu suurten lukujen laista, koska jokainen hash on itsenäinen yritys.
+reviewed: false

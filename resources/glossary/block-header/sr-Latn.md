@@ -1,5 +1,6 @@
 ---
-term: ZAGLAVLJE BLOKA
+term: Zaglavlje bloka
+definition: Struktura od 80 bajtova koja sadrži metapodatke bloka (verzija, prethodni heš, Merkle koren, vremenska oznaka, cilj, nonce).
 ---
 
 Zaglavlje bloka je struktura podataka koja služi kao glavni komponent u konstrukciji Bitcoin bloka. Svaki blok se sastoji od zaglavlja i liste transakcija. Zaglavlje bloka sadrži ključne informacije koje osiguravaju integritet i validnost bloka unutar Blockchain. Zaglavlje bloka sadrži 80 bajtova metapodataka i sastoji se od sledećih Elements:
@@ -82,4 +83,3 @@ b2e00517
 Da bi bio važeći, blok mora imati zaglavlje koje, kada se hešira sa `SHA256d`, proizvodi Hash koji je manji ili jednak cilju težine.
 
 
-> ► *Na engleskom se to naziva "Block Header".*

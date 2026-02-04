@@ -1,5 +1,6 @@
 ---
-term: passphrase (BIP39)
+term: PASSPHRASE (BIP39)
+definition: Ijambo ry'ibanga ryiyongera ku ntekane yo kugarura ikigega kugira ngo HD wallet itekane.
 ---
 
 Ijambobanga ry’ubuhinga, iyo rifatanijwe n’ijambo ry’ugusubirana, ritanga Layer y’inyongera y’umutekano ku bikoresho vy’ibanga vy’ubuhinga n’ivy’uburongozi. Amasakoshi ya HD akenshi akomoka ku majambo yo gusubirana agizwe n’amajambo 12 canke 24. Iryo jambo ryo gusubizaho rirahambaye cane, kuko rituma umuntu ashobora gusubizaho imfunguruzo zose ziri muri Wallet iyo zitakaye. Ariko rero, rigize ikintu kimwe co kunanirwa (SPOF). Iyo bishizwe mu kaga, ama bitcoins araba mu kaga. Aho niho passphrase yinjira, ni ijambobanga ry’ubuhinga, ryitowe n’uwukoresha, ryongerwa ku majambo yo gusubizaho kugira ngo ryongere umutekano wa Wallet. Kugira ngo ntituvyivangane na kode ya PIN canke ijambobanga risanzwe, passphrase irafise uruhara mu kuronka imfunguruzo z’ibanga.

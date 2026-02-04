@@ -1,0 +1,9 @@
+question: Wozu dient die Nonce im Block-Header?
+answer: Um den Header für einen erneuten Versuch zu variieren
+wrong_answers:
+  - Um die Blockgröße zu erhöhen
+  - Um die Gesamtheit der Transaktionen des Blocks darzustellen
+  - Um das Schwierigkeitsziel anzugeben
+explanation: |
+  Das Ändern der Nonce verändert die Eingabe des Hashs und erzeugt einen völlig anderen Fingerabdruck. Dies ermöglicht es, erneut zu versuchen, einen gültigen Hash zu finden.
+reviewed: false

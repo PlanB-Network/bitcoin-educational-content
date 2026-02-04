@@ -1,0 +1,9 @@
+question: If the difficulty target decreases, what happens to mining?
+answer: It becomes harder
+wrong_answers:
+  - It becomes easier
+  - It remains identical
+  - It becomes impossible
+explanation: |
+  A lower target leaves fewer possible results below the threshold, so more attempts are needed to find a valid hash. This means mining is more difficult.
+reviewed: false

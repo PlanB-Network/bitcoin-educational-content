@@ -1,0 +1,9 @@
+question: 비트코인에서 작업 증명은 어떤 요소를 기준으로 계산됩니까?
+answer: 블록 헤더
+wrong_answers:
+  - 블록 높이
+  - 네트워크의 mempool
+  - 블록의 첫 21개 트랜잭션
+explanation: |
+  채굴은 블록의 내용을 약속하는 80바이트 블록 헤더를 반복적으로 해싱하는 과정으로 이루어집니다.
+reviewed: false

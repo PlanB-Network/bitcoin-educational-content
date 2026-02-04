@@ -1,6 +1,7 @@
 ---
-term: ENTROPIE (ANALYSE)
+term: Entropie-Analyse
 
+definition: Indikator, der den Mangel an Wissen von Analysten über die Konfiguration einer Bitcoin-Transaktion misst.
 ---
 Im spezifischen Kontext der Kettenanalyse ist Entropie auch der Name eines Indikators, der von der Shannon-Entropie abgeleitet ist und von LaurentMT erfunden wurde. Dieser Indikator ermöglicht es, den Mangel an Wissen zu messen, den Analysten über die genaue Konfiguration einer Bitcoin-Transaktion haben. Mit anderen Worten: Je höher die Entropie einer Transaktion ist, desto schwieriger ist es für Analysten, die Bewegungen von Bitcoins zwischen Ein- und Ausgängen zu identifizieren.
 

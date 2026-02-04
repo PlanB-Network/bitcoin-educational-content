@@ -1,0 +1,9 @@
+question: Hva var blokksubsidiebeløpet ved lanseringen av Bitcoin i 2009?
+answer: 50 BTC
+wrong_answers:
+  - 25 BTC
+  - 12,5 BTC
+  - 100 BTC
+explanation: |
+  Den opprinnelige subsidien var 50 BTC per blokk, før de påfølgende delingene.
+reviewed: false

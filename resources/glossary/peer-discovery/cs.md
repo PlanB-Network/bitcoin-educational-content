@@ -1,6 +1,7 @@
 ---
-term: PEER DISCOVERY
+term: Objevování peerů
 
+definition: Proces, kterým bitcoinový uzel objevuje a připojuje se k ostatním uzlům v síti.
 ---
 Proces, při kterém se uzly v síti Bitcoin spojují s jinými uzly za účelem získání informací. Když je uzel bitcoinu poprvé spuštěn, nemá žádné informace o ostatních uzlech v síti. Přesto musí navázat spojení, aby se synchronizoval s blokovým řetězcem, který má nejvíce nahromaděné práce. K objevení těchto rovnocenných uzlů se používá několik mechanismů, seřazených podle priority:
 

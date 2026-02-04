@@ -1,0 +1,9 @@
+question: Con quale tipo di hardware si effettuava il mining soprattutto all'inizio di Bitcoin?
+answer: CPU
+wrong_answers:
+  - GPU
+  - ASIC
+  - FPGA
+explanation: |
+  Al lancio, il software girava su un personal computer e utilizzava principalmente il processore.
+reviewed: false

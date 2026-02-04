@@ -1,0 +1,9 @@
+question: Je, kipaumbele cha juu cha mfanyabiashara wa umeme ni kipi?
+answer: Upatikanaji wa ukwasi unaoingia
+wrong_answers:
+  - Kupata ukwasi unaotoka
+  - Akiba kwenye gharama za uelekezaji
+  - Kupata maoni mazuri ya LN+
+explanation: |
+  Mfanyabiashara lazima aweze kupata pesa bila kushindwa, jambo ambalo linahitaji ukwasi wa kutosha unaoingia.
+reviewed: false

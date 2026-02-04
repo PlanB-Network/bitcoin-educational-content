@@ -1,6 +1,7 @@
 ---
-term: ENTROPY (ANALYSIS)
+term: Phân tích entropy
 
+definition: Chỉ số đo lường sự thiếu hiểu biết của các nhà phân tích về cấu hình của một giao dịch Bitcoin.
 ---
 In the specific context of chain analysis, entropy is also the name of an indicator, derived from Shannon entropy, invented by LaurentMT. This indicator allows measuring the lack of knowledge analysts have about the exact configuration of a Bitcoin transaction. In other words, the higher the entropy of a transaction, the more difficult it becomes for analysts to identify the movements of bitcoins between inputs and outputs.
 

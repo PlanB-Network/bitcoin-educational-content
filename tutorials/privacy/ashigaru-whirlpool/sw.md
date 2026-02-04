@@ -1,6 +1,6 @@
 ---
 name: Ashigaru - Whirlpool Coinjoin
-description: Je, ninawezaje kufanya coinjoins kwenye programu ya Ashigaru?
+description: Je, ninawezaje kufanya coinjoin kwenye programu ya Ashigaru?
 ---
 
 ![cover](assets/cover.webp)
@@ -11,7 +11,7 @@ description: Je, ninawezaje kufanya coinjoins kwenye programu ya Ashigaru?
 
 
 
-Katika somo hili, utajifunza coinjoin ni nini na jinsi ya kutengeneza moja kwa kutumia Ashigaru Terminal application na utekelezaji wa Whirlpool, itifaki sanjari iliyorithiwa kutoka Samourai Wallet.
+Katika somo hili, utajifunza coinjoin ni nini na jinsi ya kutengeneza moja kwa kutumia Ashigaru Terminal application na utekelezaji wa Whirlpool, protocol sanjari iliyorithiwa kutoka Samourai Wallet.
 
 
 
@@ -19,7 +19,7 @@ Katika somo hili, utajifunza coinjoin ni nini na jinsi ya kutengeneza moja kwa k
 
 
 
-Katika somo hili, sitarudi nyuma kuhusu dhana ya sanjari, manufaa yake au utendakazi wa kinadharia wa Whirlpool, kwa kuwa mada hizi tayari zimefafanuliwa kwa kina katika Sehemu ya 5 ya kozi ya mafunzo ya BTC 204 kuhusu Mpango ₿ Academy. Iwapo bado hujafahamu utendakazi wa Whirlpool au kanuni ya sanjari, ninapendekeza kwa dhati kwamba uwasiliane na sehemu hii ya 5 kabla ya kuendelea :
+Katika somo hili, sitarudi nyuma kuhusu dhana ya sanjari, manufaa yake au utendakazi wa kinadharia wa Whirlpool, kwa kuwa mada hizi tayari zimefafanuliwa kwa kina katika Sehemu ya 5 ya kozi ya mafunzo ya BTC 204 kuhusu Plan ₿ Academy. Iwapo bado hujafahamu utendakazi wa Whirlpool au kanuni ya sanjari, ninapendekeza kwa dhati kwamba uwasiliane na sehemu hii ya 5 kabla ya kuendelea :
 
 
 
@@ -69,7 +69,7 @@ Ili kutengeneza sanjari na Whirlpool, utahitaji programu tatu tofauti:
 
 
 
-- Ashigaru Terminal**, ambayo inakuwezesha kudhibiti coinjoins zako moja kwa moja kutoka kwa kompyuta yako;
+- **Ashigaru Terminal**, ambayo inakuwezesha kudhibiti coinjoins zako moja kwa moja kutoka kwa kompyuta yako;
 
 
 
@@ -77,7 +77,7 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9
 
 
 
-- Ashigaru Wallet**, programu kwenye simu yako mahiri ambayo unaweza kutumia bitcoins zako katika *mchanganyiko wa posta* kutoka mahali popote ;
+- **Ashigaru Wallet**, programu kwenye simu yako mahiri ambayo unaweza kutumia bitcoin zako katika *postmix* kutoka mahali popote ;
 
 
 
@@ -85,7 +85,7 @@ https://planb.academy/tutorials/wallet/mobile/ashigaru-9f903b55-2e55-4b06-9627-8
 
 
 
-- Dojo**, utekelezaji wa nodi ya Bitcoin inayokuhakikishia muunganisho huru kwenye mtandao, bila kutegemea seva ya watu wengine.
+- **Dojo**, utekelezaji wa nodi ya Bitcoin inayokuhakikishia muunganisho huru kwenye mtandao, bila kutegemea server ya watu wengine.
 
 
 
@@ -95,15 +95,15 @@ Sakinisha kila moja ya zana hizi kwa kufuata mafunzo yao husika, kisha unaweza k
 
 
 
-## Pokea bitcoins
+## Pokea bitcoin
 
 
 
-Baada ya kuunda kwingineko yako, utaanza na akaunti moja, iliyotambuliwa na faharasa `0'`. Hii ni akaunti ya `Amana`. Ni kwa akaunti hii ambapo utatuma bitcoins zinazolengwa kuunganishwa. Unaweza kuzipokea kupitia programu ya Ashigaru (angalia sehemu ya 5 ya mafunzo maalum), au kupitia Kituo cha Ashigaru (pia kimefafanuliwa katika sehemu ya 5 ya mafunzo maalum).
+Baada ya kuunda kwingineko yako, utaanza na akaunti moja, iliyotambuliwa na faharasa `0'`. Hii ni akaunti ya `Deposit`. Ni kwa akaunti hii ambapo utatuma bitcoin zinazolengwa kuunganishwa. Unaweza kuzipokea kupitia programu ya Ashigaru (angalia sehemu ya 5 ya mafunzo maalum), au kupitia Kituo cha Ashigaru (pia kimefafanuliwa katika sehemu ya 5 ya mafunzo maalum).
 
 
 
-Pindi tu akaunti yako ya amana inapokuwa na angalau kiasi kinachohitajika ili kushiriki katika hifadhi ndogo zaidi (pamoja na gharama za huduma na kima cha chini kabisa kinachohitajika ili kulipia gharama za mining) utakuwa tayari kuanzisha miunganisho yako ya kwanza.
+Pindi tu akaunti yako ya Deposit inapokuwa na angalau kiasi kinachohitajika ili kushiriki katika hifadhi ndogo zaidi (pamoja na gharama za huduma na kima cha chini kabisa kinachohitajika ili kulipia gharama za mining) utakuwa tayari kuanzisha miunganisho yako ya kwanza.
 
 
 
@@ -115,7 +115,7 @@ Pindi tu akaunti yako ya amana inapokuwa na angalau kiasi kinachohitajika ili ku
 
 
 
-Pesa zikishafika katika akaunti yako ya amana na muamala umethibitishwa, unaweza kuanza mchakato wa sanjari. Ili kufanya hivyo, kwenye Kituo cha Ashigaru, fungua menyu ya `Pochi`, kisha uchague wallet yako. Ikiwa wallet yako imefungwa, programu itakuuliza nenosiri lako na passphrase.
+Pesa zikishafika katika akaunti yako ya amana na muamala umethibitishwa, unaweza kuanza mchakato wa sanjari. Ili kufanya hivyo, kwenye Kituo cha Ashigaru, fungua menyu ya `wallet`, kisha uchague wallet yako. Ikiwa wallet yako imefungwa, programu itakuuliza nenosiri lako na passphrase.
 
 
 
@@ -123,7 +123,7 @@ Pesa zikishafika katika akaunti yako ya amana na muamala umethibitishwa, unaweza
 
 
 
-Kisha chagua akaunti ya `Amana`.
+Kisha chagua akaunti ya `Deposit`.
 
 
 
@@ -143,7 +143,7 @@ Hapa utaona orodha ya UTXO zote kwenye akaunti yako ya amana. Chagua zile unazot
 
 
 
-Kwa usiri zaidi na kuepuka *Ingizo la Kawaida Ownership Heuristic (CIOH)*, inashauriwa kutumia UTXO moja tu kwa kila ingizo katika Whirlpool (ufafanuzi wa kina wa kanuni hii unaweza kupatikana katika BTC 204).
+Kwa usiri zaidi na kuepuka *Common Input Ownership Heuristic (CIOH)*, inashauriwa kutumia UTXO moja tu kwa kila ingizo katika Whirlpool (ufafanuzi wa kina wa kanuni hii unaweza kupatikana katika BTC 204).
 
 
 
@@ -155,7 +155,7 @@ Bonyeza kitufe cha `ENTER` kwenye kibodi yako ili kuchagua UTXO: nyota `(*)` ita
 
 
 
-Kisha bonyeza kitufe cha `Changanya Uliochaguliwa`.
+Kisha bonyeza kitufe cha `Mix Selected`.
 
 
 
@@ -163,12 +163,12 @@ Kisha bonyeza kitufe cha `Changanya Uliochaguliwa`.
 
 
 
-Ikiwa una UTXO kubwa ya kutosha kushiriki katika mojawapo ya madimbwi mawili yanayopatikana, unaweza kuchagua bwawa lengwa kwa kutumia mishale. Kwenye ukurasa huu, utaona maelezo ya Tx0 yako:
+Ikiwa una UTXO kubwa ya kutosha kushiriki katika mojawapo ya pools mbili zinazopatikana, unaweza kuchagua pool lengwa kwa kutumia mishale. Kwenye ukurasa huu, utaona maelezo ya Tx0 yako:
 
 
 
 
-- idadi ya UTXO ambazo zitaingia kwenye bwawa;
+- idadi ya UTXO ambazo zitaingia kwenye pool;
 - ada mbalimbali zinazotumika (ada za huduma na ada za mining);
 - kiasi cha mabadiliko ya *doxxic*.
 
@@ -194,7 +194,7 @@ Kisha Ashigaru itaonyesha TXID ya Tx0 yako, ikithibitisha kwamba muamala umetang
 
 
 
-Baada ya Tx0 kutangazwa, rudi kwenye ukurasa wa nyumbani wa akaunti yako ya amana, kisha ubofye `Akaunti` na uchague akaunti ya `Premix`.
+Baada ya Tx0 kutangazwa, rudi kwenye ukurasa wa nyumbani wa akaunti yako ya Deposit, kisha ubofye `Akaunti` na uchague akaunti ya `Premix`.
 
 
 
@@ -260,7 +260,7 @@ Katika akaunti hii, utaona sarafu zako zote zinazochanganywa kwa sasa. Ili kuzit
 
 
 
-Jaza maelezo ya muamala wako: anwani ya mpokeaji, kiasi kitakachotumwa, na, ukipenda, chagua muundo mahususi wa muamala ili kuboresha zaidi usiri wako (angalia mafunzo yanayolingana).
+Jaza maelezo ya muamala wako: address ya mpokeaji, kiasi kitakachotumwa, na, ukipenda, chagua muundo mahususi wa muamala ili kuboresha zaidi usiri wako (angalia mafunzo yanayolingana).
 
 
 
@@ -300,43 +300,43 @@ Kwa sasa, Ashigaru haitoi ufikiaji wa moja kwa moja kwa akaunti hii ya `Doxxic C
 
 
 
-Hapa kuna mikakati kadhaa inayowezekana ya kudhibiti UTXO zako za ubadilishaji wa fedha za kigeni kutoka kwa coinjoins bila kuathiri faragha yako:
+Hapa kuna mikakati kadhaa inayowezekana ya kudhibiti UTXO zako za exchange ya fedha za kigeni kutoka kwa coinjoins bila kuathiri faragha yako:
 
 
 
 
 
-- Kuzichanganya kwenye madimbwi madogo:** Ikiwa UTXO yako yenye sumu ni kubwa vya kutosha kujiunga na bwawa dogo, kwa ujumla hili ndilo chaguo bora zaidi. Kuwa mwangalifu, hata hivyo, usiwahi kuunganisha UTXO kadhaa zenye sumu ili kufikia hili, kwani hii itaunda kiunganishi kati ya maingizo yako mbalimbali katika Whirlpool.
+- **Kuzichanganya kwenye madimbwi madogo:** Ikiwa UTXO yako yenye sumu ni kubwa vya kutosha kujiunga na bwawa dogo, kwa ujumla hili ndilo chaguo bora zaidi. Kuwa mwangalifu, hata hivyo, usiwahi kuunganisha UTXO kadhaa zenye sumu ili kufikia hili, kwani hii itaunda kiunganishi kati ya maingizo yako mbalimbali katika Whirlpool.
 
 
 
 
 
-- Ziweke alama kama zisizoweza kutegemewa:** Mbinu nyingine ya busara ni kuwaweka tu jinsi walivyo katika akaunti yao tofauti na kuwaacha bila kuguswa. Hii itakuzuia kuzitumia kwa bahati mbaya. Ikiwa thamani ya bitcoin itaongezeka, mabwawa mapya yaliyochukuliwa kwa ukubwa wao yanaweza kufunguliwa.
+- **Ziweke alama kama zisizoweza kutegemewa:** Mbinu nyingine ya busara ni kuwaweka tu jinsi walivyo katika akaunti yao tofauti na kuwaacha bila kuguswa. Hii itakuzuia kuzitumia kwa bahati mbaya. Ikiwa thamani ya bitcoin itaongezeka, pools mpya zilizochukuliwa kwa ukubwa wao yanaweza kufunguliwa.
 
 
 
 
 
-- Toa michango:** Unaweza kuchagua kugeuza UTXO hizi zenye sumu kuwa michango kwa wasanidi wa Bitcoin, miradi huria au vyama vinavyokubali BTC. Hii hukuruhusu kuzitupa kwa manufaa huku ukisaidia mfumo ikolojia.
+- **Toa michango:** Unaweza kuchagua kugeuza UTXO hizi zenye sumu kuwa michango kwa wasanidi wa Bitcoin, miradi huria au vyama vinavyokubali BTC. Hii hukuruhusu kuzitupa kwa manufaa huku ukisaidia mfumo ikolojia.
 
 
 
 
 
-- Nunua kadi za zawadi za kulipia kabla au kadi za Visa:** Mifumo kama vile [Bitrefill](https://www.bitrefill.com/) hukuruhusu kubadilisha bitcoins zako kwa kadi za zawadi au kadi za Visa zinazoweza kupakiwa tena ambazo zinaweza kutumika madukani. Hii inaweza kuwa njia rahisi na ya busara ya kutumia UTXO zako zenye sumu.
+- **Nunua kadi za zawadi za kulipia kabla au kadi za Visa:** Mifumo kama vile [Bitrefill](https://www.bitrefill.com/) hukuruhusu kubadilisha bitcoin zako kwa kadi za zawadi au kadi za Visa zinazoweza kupakiwa tena ambazo zinaweza kutumika madukani. Hii inaweza kuwa njia rahisi na ya busara ya kutumia UTXO zako zenye sumu.
 
 
 
 
 
-- Zibadilishe kwa Monero:** Samourai Wallet ilitumika kutoa huduma ambayo sasa haitumiki ya ubadilishaji wa atomiki ya BTC/XMR. Ikiwa huduma kama hiyo ipo (sijui yoyote ya kibinafsi), ni suluhisho bora la kutenga UTXO hizi, kuzibadilisha kuwa Monero, na kisha kuzirudisha kwa Bitcoin. Walakini, njia hii ilikuwa ghali na inategemea ukwasi uliopatikana.
+- **Zibadilishe kwa Monero:** Samourai Wallet ilitumika kutoa huduma ambayo sasa haitumiki ya ubadilishaji wa atomiki ya BTC/XMR. Ikiwa huduma kama hiyo ipo (sijui yoyote ya kibinafsi), ni suluhisho bora la kutenga UTXO hizi, kuzibadilisha kuwa Monero, na kisha kuzirudisha kwa Bitcoin. Walakini, njia hii ilikuwa ghali na inategemea ukwasi uliopatikana.
 
 
 
 
 
-- Zihamishe hadi Lightning Network:** Kuhamisha UTXO hizi kwa Lightning Network ili kufaidika na ada zilizopunguzwa za muamala ni chaguo linaloweza kuvutia. Walakini, njia hii inaweza kufichua habari fulani kulingana na utumiaji wako wa Umeme, na kwa hivyo inapaswa kutumiwa kwa tahadhari.
+- **Zihamishe hadi Lightning Network:** Kuhamisha UTXO hizi kwa Lightning Network ili kufaidika na ada zilizopunguzwa za muamala ni chaguo linaloweza kuvutia. Walakini, njia hii inaweza kufichua habari fulani kulingana na utumiaji wako wa Lightning, na kwa hivyo inapaswa kutumiwa kwa tahadhari.
 
 
 
@@ -344,7 +344,7 @@ Hapa kuna mikakati kadhaa inayowezekana ya kudhibiti UTXO zako za ubadilishaji w
 
 
 
-Ili coinjoin iwe na ufanisi wa kweli, lazima iwasilishe kiwango cha juu cha usawa kati ya kiasi cha kuingiza na kutoa. Usawa huu huongeza idadi ya tafsiri zinazowezekana kwa mwangalizi wa nje, ambayo huongeza kutokuwa na uhakika kuhusu shughuli. Kupima kutokuwa na uhakika huku, tunatumia dhana ya entropy inayotumika kwa muamala. Mfano wa Whirlpool unatambuliwa kama mojawapo ya ufanisi zaidi katika suala hili, kwani inahakikisha usawa bora kati ya washiriki. Kwa mtazamo wa kina zaidi wa kanuni hii, ninapendekeza uangalie sura ya mwisho ya Sehemu ya 5 ya kozi ya mafunzo ya BTC 204.
+Ili coinjoin iwe na ufanisi wa kweli, lazima iwasilishe kiwango cha juu cha usawa kati ya kiasi cha kuingiza na kutoa. Usawa huu huongeza idadi ya tafsiri zinazowezekana kwa mwangalizi wa nje, ambayo huongeza kutokuwa na uhakika kuhusu muamala. Kupima kutokuwa na uhakika huku, tunatumia dhana ya entropy inayotumika kwa muamala. Mfano wa Whirlpool unatambuliwa kama mojawapo ya ufanisi zaidi katika suala hili, kwani inahakikisha usawa bora kati ya washiriki. Kwa mtazamo wa kina zaidi wa kanuni hii, ninapendekeza uangalie sura ya mwisho ya Sehemu ya 5 ya kozi ya mafunzo ya BTC 204.
 
 
 
@@ -356,7 +356,7 @@ Utendaji wa mizunguko kadhaa ya coinjoin hupimwa kwa saizi ya seti ambazo sarafu
 
 https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
-## Jinsi ya kusimamia mchanganyiko wa posta?
+## Jinsi ya kusimamia postmix?
 
 
 
@@ -364,11 +364,11 @@ Baada ya kuendesha mizunguko kadhaa ya satifu, mkakati bora ni kuweka UTXO zako 
 
 
 
-Watumiaji wengine wanapendelea kuhamisha bitcoins zao zilizochanganywa kwenye wallet iliyolindwa na vifaa vya wallet. Chaguo hili linawezekana, lakini linahitaji kiasi fulani cha ukali ili kuhakikisha kuwa usiri unaopatikana kwa coinjoins hauathiriwi.
+Watumiaji wengine wanapendelea kuhamisha bitcoin zao zilizochanganywa kwenye wallet iliyolindwa na vifaa vya wallet. Chaguo hili linawezekana, lakini linahitaji kiasi fulani cha ukali ili kuhakikisha kuwa usiri unaopatikana kwa coinjoins hauathiriwi.
 
 
 
-Kuunganisha UTXO ndio kosa la mara kwa mara. Ni muhimu kamwe usichanganye UTXO zilizochanganywa na UTXO ambazo hazijachanganywa katika shughuli hiyo hiyo, vinginevyo unaweza kuhatarisha kuanzisha *Ingizo ya Kawaida ya Ownership Heuristic (CIOH)*. Hii inamaanisha usimamizi mkali wa UTXO zako, haswa kupitia uwekaji lebo wazi na sahihi. Kwa ujumla, kuunganisha UTXOs ni mazoea mabaya ambayo mara nyingi husababisha upotezaji wa usiri wakati unasimamiwa vibaya.
+Kuunganisha UTXO ndio kosa la mara kwa mara. Ni muhimu kamwe usichanganye UTXO zilizochanganywa na UTXO ambazo hazijachanganywa katika shughuli hiyo hiyo, vinginevyo unaweza kuhatarisha kuanzisha *Common Input Ownership Heuristic (CIOH)*. Hii inamaanisha usimamizi mkali wa UTXO zako, haswa kupitia uwekaji lebo wazi na sahihi. Kwa ujumla, kuunganisha UTXOs ni mazoea mabaya ambayo mara nyingi husababisha upotezaji wa usiri wakati unasimamiwa vibaya.
 
 
 
@@ -382,7 +382,7 @@ Tunashauri sana dhidi ya kuhamisha UTXO zako za posta hadi kwenye jalada kwa kut
 
 
 
-Hatimaye, kama ilivyo kwa miamala yote ya Bitcoin, usiwahi kutumia tena anwani ya kupokea. Kila malipo lazima yatumwe kwa anwani mpya, ya kipekee, isiyo na kitu.
+Hatimaye, kama ilivyo kwa miamala yote ya Bitcoin, usiwahi kutumia tena address ya kupokea. Kila malipo lazima yatumwe kwa address mpya, ya kipekee, isiyo na kitu.
 
 
 
@@ -390,4 +390,4 @@ Njia rahisi na salama zaidi ni kuruhusu UTXO zako zilizochanganyika zitulie kwen
 
 
 
-Pochi za Ashigaru na Sparrow hujumuisha ulinzi wa ziada dhidi ya makosa ya kawaida yanayohusiana na uchanganuzi wa blockchain, kukusaidia kuhifadhi usiri wa miamala yako.
+Wallet za Ashigaru na Sparrow hujumuisha ulinzi wa ziada dhidi ya makosa ya kawaida yanayohusiana na blockchain analysis, kukusaidia kuhifadhi usiri wa miamala yako.

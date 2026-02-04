@@ -1,0 +1,9 @@
+question: Ni ikihe kintu ca mbere gihambaye mu guhiganwa kw'ubucuruzi bwa mining?
+answer: Igiciro c'umuriro w'amasanyarazi
+wrong_answers:
+  - Amafaranga y'impembo z'abakozi
+  - Ubwiza bw'inyubako n'ibikoresho
+  - Igiciro c'uruhushya rwa software
+explanation: |
+  Mu rugero runini, inyungu ya mining imegera ku giciro c'igice kimwe c'ibiharuro (computation), kikaba kigenwa cane cane n'igiciro c'umuriro w'amasanyarazi.
+reviewed: false

@@ -1,6 +1,7 @@
 ---
-term: PROBLEM DER BYZANTINISCHEN GENERÄLE
+term: Problem der byzantinischen Generäle
 
+definition: Problem, das die Herausforderungen der Koordination in einem verteilten System veranschaulicht, in dem sich die Akteure nicht gegenseitig vertrauen können.
 ---
 Das Problem wurde erstmals von Leslie Lamport, Robert Shostak und Marshall Pease in der Fachzeitschrift *ACM Transactions on Programming Languages and Systems, vol 4, n° 3* ["The Byzantine Generals Problem"](https://lamport.azurewebsites.net/pubs/byz.pdf) im Juli 1982 formuliert. Es wird heute verwendet, um die Herausforderungen in Bezug auf die Entscheidungsfindung zu veranschaulichen, wenn ein verteiltes System keinem Akteur vertrauen kann.
 

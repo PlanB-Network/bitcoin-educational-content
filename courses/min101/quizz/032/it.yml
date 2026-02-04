@@ -1,0 +1,9 @@
+question: Qual era l'importo del sussidio di blocco al lancio di Bitcoin nel 2009?
+answer: 50 BTC
+wrong_answers:
+  - 25 BTC
+  - 12,5 BTC
+  - 100 BTC
+explanation: |
+  Il sussidio iniziale era di 50 BTC per blocco, prima delle successive divisioni.
+reviewed: false

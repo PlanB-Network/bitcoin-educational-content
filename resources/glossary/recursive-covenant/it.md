@@ -1,6 +1,7 @@
 ---
-term: RICORSIVO (PATTO)
+term: Covenant ricorsivo
 
+definition: Covenant che impone condizioni sulla transazione attuale e su tutte quelle successive a tempo indeterminato.
 ---
 Un patto ricorsivo su Bitcoin è un tipo di contratto intelligente che impone condizioni non solo sulla transazione corrente, ma anche sulle transazioni future che spendono i risultati di questa transazione. Ciò consente di creare catene di transazioni in cui ciascuna deve aderire a determinate regole definite dalla prima della catena. La ricorsività crea una sequenza di transazioni in cui ciascuna eredita le restrizioni dalla transazione madre. Ciò consentirebbe un controllo complesso e a lungo termine sulle modalità di spesa dei bitcoin, ma introdurrebbe anche rischi relativi alla libertà di spesa e alla fungibilità.
 

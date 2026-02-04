@@ -183,7 +183,7 @@ Ahora imaginemos que Alice no tiene un único UTXO de `10.000 SATS`, sino dos UT
 Intuitivamente, se podría pensar que los costes de transacción también representan el producto de una transacción. Pero en realidad no es así. Los costes de transacción representan la diferencia entre el total de insumos y el total de productos. Esto significa que, después de utilizar parte del valor de los insumos para cubrir los productos deseados en una transacción, una cierta suma de los insumos queda sin utilizar. Esta suma residual constituye los costes de transacción.
 
 ```plaintext
-Frais = total inputs - total outputs
+Comisiones = total inputs - total outputs
 ```
 
 Tomemos el ejemplo de Alicia, que tiene un UTXO de 10.000 SATS y quiere comprar una baguette a 4.000 SATS. Alice crea una transacción con su UTXO de 10.000 SATS como entrada. A continuación, genera una salida de 4.000 SATS para que el panadero pague la baguette. Para animar a los mineros a integrar su transacción en un bloque, Alice asigna 200 SATS en concepto de comisiones. A continuación, crea un segundo resultado, el intercambio, que le será devuelto y que asciende a 5.800 SATS.
@@ -193,10 +193,10 @@ Tomemos el ejemplo de Alicia, que tiene un UTXO de 10.000 SATS y quiere comprar 
 Aplicando la fórmula de las tasas, vemos que efectivamente quedan `200 SATS` para los menores:
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+Comisiones = total inputs - total outputs
+Comisiones = 10 000 - (4 000 + 5 800)
+Comisiones = 10 000 - 9 800
+Comisiones = 200
 ```
 
 Cuando un minero consigue validar un bloque, está autorizado a cobrar estas tasas por todas las transacciones incluidas en su bloque, a través de la llamada transacción "coinbase".
@@ -1550,7 +1550,7 @@ En este ejemplo, aunque la transacción B ofrece una comisión total más alta, 
 
 ```text
 TXA : 1994 / 141 = 14 sats/vB
-TXB : 2640 / 220 = 12 sats / vB
+TXB : 2640 / 220 = 12 sats/vB
 ```
 
 Esto significa que por cada unidad de peso, la transacción A ofrece más costes que la transacción B, aunque la transacción B ofrezca más costes en términos absolutos.
@@ -1745,7 +1745,7 @@ Sin embargo, coinjoin también ofrece la posibilidad de reforzar la confidencial
 
 ![BTC204](assets/es/118.webp)
 
-En el primer ejemplo, vimos cómo la coinjoin puede proteger la privacidad de una sala en relación con su pasado, y en el segundo ejemplo, cómo también puede asegurar la historia de una sala en relación con su futuro. Por eso mencioné que la coinjoin debe verse como un acontecimiento único que segmenta una parte de la historia en ambas direcciones:
+En el primer ejemplo, vimos cómo coinjoin puede proteger la confidencialidad de una moneda con respecto a su pasado, y en el segundo ejemplo, cómo también puede asegurar el historial de una moneda con respecto a su futuro. Por eso mencioné que coinjoin debería percibirse como un evento puntual que segmenta el historial de una moneda en ambas direcciones:
 
 ![BTC204](assets/es/119.webp)
 
@@ -1939,7 +1939,7 @@ Los métodos de gestión de las divisas también distinguían las dos implementa
 
 ![BTC204](assets/es/139.webp)
 
-Con Wabisabi, la versión 2.0 de Wasabi ha adaptado su enfoque de los coinjoins al de Whirlpool. Aunque las transacciones de coinjoin siguen siendo muy grandes, ahora es posible encadenar varios ciclos sucesivos, siguiendo el modelo de Whirlpool. También se ha prestado especial atención a la gestión del tipo de cambio: a diferencia de Wasabi 1.0, donde el tipo de cambio estaba directamente vinculado a las entradas del usuario, Wabisabi intenta subdividir el tipo de cambio en varias sumas pequeñas, divididas en denominaciones iguales para todos los participantes.
+Con Wabisabi, la versión 2.0 ha adaptado su enfoque de los coinjoins para acercarse al de Whirlpool. Aunque las transacciones coinjoin siguen siendo de gran tamaño, ahora es posible encadenar varios ciclos sucesivos, siguiendo así el modelo de Whirlpool. También se ha puesto un énfasis particular en la gestión del cambio: a diferencia de Wasabi 1.0, donde el cambio estaba directamente vinculado a los inputs de los usuarios, Wabisabi busca subdividir el cambio en varias cantidades pequeñas, distribuidas en denominaciones iguales para todos los participantes.
 
 Ilustrémoslo con un ejemplo simplificado en el que sólo intervienen 2 usuarios: Alice desea mezclar 115.000 sats y Bob, 210.000 sats. Ignorando las comisiones, con Wasabi 1.0, una transacción coinjoin habría generado 3 salidas de 100.000 sats, más 1 intercambio de 15.000 sats para Alice y 1 intercambio de 10.000 sats para Bob. Las salidas de intercambio seguirían vinculadas a las entradas:
 
@@ -2117,7 +2117,7 @@ Veamos las distintas fases de una coinyección de Whirlpool en estas cuentas.
 
 El punto de partida de cualquier coinjoin de Whirlpool es la cuenta **de depósito**. Esta es la cuenta que utilizas automáticamente cuando creas un nuevo monedero Bitcoin. Esta cuenta tendrá que ser acreditada con los bitcoins que desea mezclar.
 
-Tx0" es el primer paso del proceso de mezcla de Whirlpool. Su objetivo es preparar e igualar los UTXO para el coinjoin, dividiéndolos en unidades correspondientes a la cantidad del pool seleccionado, para garantizar una mezcla homogénea. Los UTXOs así igualados se envían a la cuenta **premix**. En cuanto a la diferencia que no puede entrar en el pool, se separa en una cuenta específica: el **banco malo** (o "cambio doxémico").
+`Tx0` es el primer paso del proceso de mezcla de Whirlpool. Su objetivo es preparar e igualar los UTXO para el coinjoin, dividiéndolos en unidades correspondientes a la cantidad del pool seleccionado, para garantizar una mezcla homogénea. Los UTXOs así igualados se envían a la cuenta **premix**. En cuanto a la diferencia que no puede entrar en el pool, se separa en una cuenta específica: el **banco malo** (o "cambio doxémico").
 
 Esta transacción inicial `Tx0` también se utiliza para pagar la cuota de servicio debida al coordinador de coinjoin. A diferencia de los pasos siguientes, esta transacción no es colaborativa, por lo que el usuario debe asumir el coste total de la minería:
 
@@ -2155,7 +2155,7 @@ Al final de estas primeras mezclas, la cuenta **premix** estará vacía, mientra
 
 ### Remezclas
 
-Tras la mezcla inicial, los UTXO se transfieren a la cuenta **postmix**. Esta cuenta recoge los UTXO ya mezclados y los que están pendientes de remezcla. Cuando el cliente de Remezcla está activo, los UTXO situados en la cuenta **postmix** están automáticamente disponibles para remezclas y se seleccionarán aleatoriamente para participar en estos nuevos ciclos.
+Después de realizar el mix inicial, los UTXO se transfieren a la cuenta **postmix**. Esta cuenta agrupa los UTXO ya mezclados y aquellos que están a la espera de ser remezclados. Cuando el cliente Whirlpool está activo, los UTXO ubicados en la cuenta **postmix** están automáticamente disponibles para remezclas y serán seleccionados de forma aleatoria para participar en estos nuevos ciclos.
 
 Como recordatorio, las remezclas son entonces 100% gratuitas: no se requieren cargos adicionales por servicio o tasas de minería. Mantener UTXOs en la cuenta **postmix** por lo tanto mantiene su valor intacto, y mejora sus anonsets al mismo tiempo. Por eso es importante permitir que estas monedas participen en varios ciclos coinjoin. No te cuesta absolutamente nada, y aumenta sus niveles de anonimato.
 
@@ -2310,7 +2310,7 @@ Por ejemplo, una operación de pago simple con 1 entrada y 2 salidas sólo tendr
 
 ![BTC204](assets/es/165.webp)
 
-Por otro lado, una esquina Whirlpool 5x5 tiene $1\.496$ de combinaciones posibles:
+En cambio, un coinjoin estructurado según el modelo Whirlpool 5x5 presenta $1\,496$ combinaciones posibles:
 
 ![BTC204](assets/es/166.webp)
 
@@ -2488,7 +2488,7 @@ La puntuación de Boltzmann se calcula dividiendo el número de interpretaciones
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}
@@ -2873,7 +2873,7 @@ Sin embargo, este método ingenuo presenta un alto riesgo en términos de confia
 
 ![BTC204](assets/es/201.webp)
 
-Además, no hay ninguna garantía de que Alicia no reciba la clave privada $B$ de Bob y nunca transmita a cambio su clave privada $A$. Por tanto, este intercambio se basa en una confianza excesiva entre las partes, y es ineficaz para garantizar una transferencia secreta segura de la propiedad.
+Además, no existe garantía alguna de que Alice, una vez recibida la clave privada $B$ de Bob, transmita a cambio su clave privada $A$. Por lo tanto, este intercambio se basa en una confianza masiva entre las partes y resulta ineficaz para garantizar una transferencia secreta de propiedad de manera segura.
 
 ![BTC204](assets/es/202.webp)
 

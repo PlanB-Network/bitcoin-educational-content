@@ -1,9 +1,9 @@
-question: Ni uruhara uruhe nyamukuru rwa Schema muri RGB Contract?
-answer: Sigura Business Logic n’imiterere y’amakuru ya Contract.
+question: Ni uruhara uruhe nyamukuru rw'igicapo mumasezerano ya RGB ?
+answer: Sigura uko ishoramari rimeze n’uko amakuru yubatse y'ayo masezerano.
 wrong_answers:
-  - Gusobanura Interface ku masakoshi ya RGB
-  - Gucungera ugukoranya inyandiko kuri Blockchain.
-  - On-Chain kwemeza ububiko bw'ibanga
+  - Gusigura ahakorerwa ibintu kungondo ya RGB
+  - Gucungera ugushirahamwe inyandiko kuri Blockchain.
+  - Ukwemeza kw'unuhinga bunyegeza inyandiko kwa On-Chain
 explanation: |
-  Schema isobanura imiterere y’itangazo, ubwoko bw’amakuru n’amategeko yo kwemeza Contract, bikagufasha gucunga Business Logic ku ruhande rw’umukiriya.
-reviewed: false
+  Igicapo gisigura inyubako yemeza, ubwoko bw’amakuru n’amategeko yo kwemeza Amasezerano, bikagufasha gucunga uko ishoramari rimeze ku ruhande rw’umuguzi.
+reviewed: true

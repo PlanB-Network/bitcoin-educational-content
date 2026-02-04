@@ -1,0 +1,9 @@
+question: Z czego składa się nagroda blokowa?
+answer: Subsydia + opłaty
+wrong_answers:
+  - Subsydia + trudność
+  - Opłaty + nonce
+  - Hashrate + opłaty
+explanation: |
+  Nagroda to suma subsydii blokowej oraz wszystkich opłat z zawartych transakcji.
+reviewed: false

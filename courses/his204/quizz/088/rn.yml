@@ -1,8 +1,9 @@
-question: Ni uwuhe munywanyi w’ishure rya Fiziyokarasi Condillac yagiranye impaka n’ingene agaciro k’ibintu kameze?
-answer: Giyomu-Fransua Le Trosne
+question: Ni uwuhe munywanyi w’ishure rya Physiocracy Condillac yagiranye impari n’ingene agaciro k’ibintu kameze?
+answer: Guillaume-François Le Trosne
 wrong_answers:
-  - Fransuwa Kwesine
-  - Piyeri-Samweli Dupont de Nemours
-  - Umukuru w'igisagara ca Mirabeau
+  - François Quesnay
+  - Pierre-Samuel Dupont de Nemours
+  - The Marquis de Mirabeau
 explanation: |
-  Condillac yaraganiriye ku kamere k’agaciro na Le Trosne, arwanira inyigisho y’agaciro y’umuntu ku giti ciwe.
+  Condillac yaraganiriye ku kamere k’agaciro na Le Trosne, arwanira inyigisho y’agaciro gatangwa n'umuntu ku giti ciwe.
+reviewed: true

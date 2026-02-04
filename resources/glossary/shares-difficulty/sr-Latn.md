@@ -1,5 +1,6 @@
 ---
-term: DEONICE TEŠKOĆA
+term: Težina udela
+definition: Cilj niže težine koji postavlja pool kako bi se hash kvalifikovao kao share.
 ---
 
 Ciljana težina viša od one kod Bitcoin (dakle manje teška), definisana od strane Mining pool da kvalifikuje Hash deonice i proceni doprinos svakog pojedinačnog Miner unutar bazena. Da bi se efikasno upravljalo opterećenjem verifikacije i osiguralo da svaki Miner, bez obzira na njihovu računarsku snagu, redovno podnosi deonice, bazeni prilagođavaju težinu deonica. Težina dodeljena svakom Miner određuje broj deonica koje akumuliraju: na primer, ako Miner ima dodeljenu težinu od 10 i podnese 5 validnih dokaza rada na ovoj težini, dobijaju 50 deonica. Snažniji Miner sa težinom od 100 koji podnese 7 validnih dokaza rada dobiće 700 deonica. Ovaj sistem omogućava precizno kvantifikovanje svakog Miner-ovog Hashrate i raspodelu nagrada prema izabranoj metodi obračuna za kompenzaciju (PPS, PPLNS, TIDES...).

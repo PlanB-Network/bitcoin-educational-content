@@ -6,4 +6,4 @@ wrong_answers:
   - Menjamin kerahasiaan transaksi
 explanation: |
   Seed adalah urutan 512-bit yang berasal dari frasa mnemonik dan passphrase. Ini membentuk dasar dari semua kunci dalam dompet.
-direview: false
+reviewed: true

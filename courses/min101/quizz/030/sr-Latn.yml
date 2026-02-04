@@ -1,0 +1,9 @@
+question: Na kojoj visini bloka se dogodio četvrti halving?
+answer: 840 000
+wrong_answers:
+  - 880 000
+  - 860 000
+  - 900 000
+explanation: |
+  Četvrti halving se dogodio na visini 840 000, 20. aprila 2024. godine.
+reviewed: false

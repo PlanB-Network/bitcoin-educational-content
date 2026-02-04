@@ -1,0 +1,9 @@
+question: Jika blok ditemukan terlalu cepat pada periode terakhir, apa yang terjadi?
+answer: Target turun
+wrong_answers:
+  - Target naik
+  - Target tetap sama
+  - Ukuran blok meningkat
+explanation: |
+  Blok yang ditemukan terlalu cepat menunjukkan hashrate yang lebih tinggi, sehingga Bitcoin memperketat kondisi dengan menurunkan target.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: ONDERHOUDER (KERN)
+term: Onderhouder (core)
+definition: Personen die verantwoordelijk zijn voor het beheer van het Bitcoin Core-project en het samenvoegen van codewijzigingen.
 ---
 
 In de context van het Bitcoin core project, de overheersende implementatie van knooppunten op het Bitcoin netwerk, zijn beheerders personen belast met het beheer van het project. Zij dragen de verantwoordelijkheid voor de implementatie. Zij zijn verantwoordelijk voor het beheer van de Bitcoin core GitHub repository en voor het opstellen van het schema voor het uitbrengen van nieuwe versies. Ze zijn primair verantwoordelijk voor het samenvoegen van pull requests (PR) voorgesteld door bijdragers.

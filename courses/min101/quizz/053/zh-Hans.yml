@@ -1,0 +1,9 @@
+question: 交易在添加到区块链之前是被打包进什么的？
+answer: 区块中
+wrong_answers:
+  - UTXO 中
+  - ASIC 中
+  - scriptSig 中
+explanation: |
+  交易不会立即写入区块链。它首先被整合进一个区块中。
+reviewed: false

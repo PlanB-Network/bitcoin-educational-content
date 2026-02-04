@@ -1,7 +1,7 @@
 question: Ni nini hutokea unapopiga simu lock() kwenye butex katika Rust na kwa nini watengenezaji wengi wanaona inakubalika kufungua operesheni hii?
 answer: Inarudisha Matokeo ambayo yanaweza kushindwa ikiwa uzi mwingine utaingiwa na hofu wakati umeshikilia bubtex, na kufungua kunakubalika kwa sababu huwezi kushughulikia makosa kutokana na hofu za uzi mwingine.
 wrong_answers:
-  - Inarudisha Chaguo ambalo linaweza kuwa Hakuna ikiwa mutex iko busy, na kufungua kunakubalika kwa sababu mutex zilizo busy zinapaswa kusababisha kusitishwa kwa programu mara moja.
+  - Inarudisha Chaguo ambalo linaweza kuwa Hakuna ikiwa mutex inatumiks, na kufungua kunakubalika kwa sababu mutex zinazotumiks zinapaswa kusababisha kusitishwa kwa programu mara moja.
   - Inarudisha Matokeo ambayo yanaweza kushindwa kutokana na ugunduzi wa mkwamo, na kufungua kunakubalika kwa sababu mkwamo unaonyesha dosari za msingi za muundo ambazo zinapaswa kuogopesha.
   - Hufanikiwa kila wakati na hurudisha kinga ya kufuli moja kwa moja, na kufanya kufungua kusiwe lazima kwani shughuli za mutex zimehakikishwa kuwa salama kwa nyuzi katika Rust.
 explanation: |

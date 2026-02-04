@@ -1,0 +1,9 @@
+question: 간단히 말해서, 비트코인의 블록이란 무엇입니까?
+answer: 트랜잭션 패킷
+wrong_answers:
+  - 결제
+  - 중앙 서버
+  - 개인 키
+explanation: |
+  단순화하면, 블록은 단순히 그룹화된 트랜잭션들의 집합입니다.
+reviewed: false

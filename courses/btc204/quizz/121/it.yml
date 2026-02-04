@@ -1,13 +1,9 @@
-question: Come funziona la fase stem nel protocollo Dandelion?
-
-answer: La transazione viene inviata attraverso un percorso casuale di nodi
-
+question: Quale BIP ha formalizzato il protocollo di diffusione Dandelion?
+answer: BIP156
 wrong_answers:
-  - La transazione viene immediatamente trasmessa a tutti i peer del nodo sorgente
-  - La transazione viene temporaneamente memorizzata in un nodo centrale prima di essere trasmessa
-  - La transazione viene criptata incrementalmente ad ogni passo della trasmissione
-
+  - BIP34
+  - BIP47
+  - BIP324
 explanation: |
-  Dandelion utilizza prima una fase stem dove la transazione viene inviata attraverso un percorso casuale di nodi. Successivamente, la transazione viene trasmessa all'intera rete nella fase fluff.
-
+  Dandelion è stato formalizzato nel BIP156, senza essere infine integrato in Bitcoin Core.
 reviewed: false

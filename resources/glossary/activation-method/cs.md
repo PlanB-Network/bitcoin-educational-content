@@ -1,6 +1,7 @@
 ---
-term: AKTIVAČNÍ METODA
+term: Metoda aktivace
 
+definition: Proces, kterým komunita Bitcoin rozhoduje o aktivaci soft forku, přičemž hledá konsenzus mezi těžaři a uživateli, aby se zabránilo rozdělení blockchainu.
 ---
 Aktivační metoda je proces, při kterém komunita uživatelů rozhoduje o implementaci měkkého rozvětvení protokolu Bitcoin, jehož cílem je zabránit rozdělení blockchainu. Tento proces zahrnuje vyžádání názoru těžařů, aby schválili soft fork před jeho aktivací. Pokud soft fork schválí výrazná většina, riziko rozdělení blockchainu se minimalizuje. Tento konsenzus je klíčový, protože pokud většina těžařů odmítne změnu provést, mohl by soft fork vytvořit dva odlišné řetězce: jeden s upravenými pravidly a druhý bez nich. Existují 2 hlavní kategorie aktivačních metod:
 

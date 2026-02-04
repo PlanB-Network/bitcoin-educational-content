@@ -1,5 +1,6 @@
 ---
 term: UASF
+definition: 由網路用戶透過其節點發起並強制執行的軟分叉，不依賴於礦工的批准。
 ---
 
 *User-Activated Soft Fork*」的縮寫。描述 Bitcoin 中的 Soft Fork，由網路使用者透過節點發起和強制執行，無需依賴 Miner 的核准。網路節點更新其軟體，以採用 Soft Fork 的新規則，並讓籌碼隨意掉落！

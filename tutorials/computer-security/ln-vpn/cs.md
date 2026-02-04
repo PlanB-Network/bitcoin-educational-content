@@ -8,7 +8,7 @@ description: Nastavte LN VPN s Lightningem pro anonymní a na míru přizpůsobe
 
 LN VPN je přizpůsobitelná VPN služba, která přijímá pouze platby přes lightning. Dnes vám ukážu, jak ji používat a zanechávat při prohlížení internetu méně stop.
 
-Existuje mnoho kvalitních poskytovatelů VPN služeb a my jsme provedli jejich komplexní recenzi v tomto článku (hyperlink). LN VPN však vyniká a nemohli jsme si nechat ujít příležitost ji vám představit.
+Existuje mnoho kvalitních poskytovatelů VPN služeb, ale LN VPN vyniká a nemohli jsme si nechat ujít příležitost ji vám představit.
 
 Většina poskytovatelů VPN služeb, jako jsou ProtonVPN a Mullvad, nabízí možnost platby bitcoiny, ale vyžadují vytvoření účtu a zakoupení plánu na delší nebo kratší dobu, což nemusí vyhovovat každému rozpočtu.
 

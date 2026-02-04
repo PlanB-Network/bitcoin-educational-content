@@ -1,0 +1,9 @@
+question: Incamake RPOW isobanura iki?
+answer: Reusable Proofs of Work
+wrong_answers:
+  - Recursive Proofs of Work
+  - Random Proofs of Work
+  - Replayed Proofs of Work
+explanation: |
+  RPOW isobanura ibimenyetso vy'igikorwa bishobora gukoreshwa kandi bigahanahanwa, vyashikirijwe na Hal Finney mu 2004.
+reviewed: false

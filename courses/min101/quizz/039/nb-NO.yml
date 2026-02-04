@@ -1,0 +1,9 @@
+question: Hvorfor skiller coinbase-transaksjonen seg fra andre transaksjoner?
+answer: Den bruker ingen reelle UTXO-er
+wrong_answers:
+  - Den har ingen TXID
+  - Den har ingen outputs
+  - Den er ikke i Merkle-treet
+explanation: |
+  Inputen peker til en fiktiv UTXO, noe som gjør det mulig å skape subsidien og samle inn gebyrene.
+reviewed: false

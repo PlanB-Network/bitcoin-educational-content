@@ -1,0 +1,9 @@
+question: Sổ cái công khai dùng chung nơi ghi lại lịch sử thanh toán bằng bitcoin được gọi là gì?
+answer: Blockchain
+wrong_answers:
+  - Mempool
+  - Ví (wallet)
+  - Hashrate
+explanation: |
+  Cuốn sổ cái công khai dùng chung chứa tất cả các giao dịch chính là blockchain.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: OP_CHECKHASHVERIFY(CHV)
+term: OP_CHECKHASHVERIFY (CHV)
+definition: 2012년에 P2SH와 유사한 기능을 위해 제안되었으나 구현되지 않은 옵코드.
 ---
 
 2012년 BIP17에서 `OP_EVAL` 또는 P2SH과 동일한 기능을 제공하는 새로운 옵코드로, Luke Dashjr이 제안했습니다. 스크립트 서명`의 끝을 Hash으로 하고, 그 결과를 스택의 상단과 비교하여 두 해시가 일치하지 않으면 트랜잭션을 무효로 만들기 위한 것이었습니다. 이 연산 코드는 구현되지 않았습니다.

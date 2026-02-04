@@ -1,6 +1,7 @@
 ---
-term: DISKREETTI LOGARITMI
+term: Diskreetti logaritmi
 
+definition: Vaikeasti ratkaistava matemaattinen ongelma, joka muodostant Bitcoinin kryptografisen turvallisuuden perustan.
 ---
 Diskreetti logaritmi on matemaattinen ongelma, jota käytetään joissakin julkisen avaimen salausalgoritmeissa. Jos syklisessä ryhmässä, jonka järjestysluku on $q$ ja generaattori $g$, on yhtälö, joka on muotoa $g^x = h$, niin $x$:n arvoa kutsutaan $h$:n diskreetiksi logaritmiksi suhteessa peruslukuun $g$, modulo $q$. Yksinkertaistettuna kyse on eksponentin $x$ määrittämisestä, kun $g$, $h$ ja $q$ tunnetaan. Diskreetti logaritmi on siis eksponentiaalin käänteisluku äärellisessä syklisessä ryhmässä. Diskreetin logaritmin ongelman ratkaisemista pidetään kuitenkin algoritmisesti vaikeana, jos $q$:n arvot ovat suuria. Tätä ominaisuutta hyödynnetään monien salausprotokollien, kuten Diffie-Hellmanin avaintenvaihtoprotokollan, turvallisuuden varmistamiseksi.
 

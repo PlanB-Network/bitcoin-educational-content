@@ -1,0 +1,9 @@
+question: Hoe worden de kosten van een transactie berekend?
+answer: Inputs minus outputs
+wrong_answers:
+  - Outputs minus inputs
+  - Inputs plus outputs
+  - Outputs gedeeld door inputs
+explanation: |
+  Kosten komen overeen met de waarde die in inputs is verbruikt en niet in outputs is herschapen.
+reviewed: false

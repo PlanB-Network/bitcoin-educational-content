@@ -1,6 +1,7 @@
 ---
 term: P2P TRANSPORT V2
 
+definition: Phiên bản mới của giao thức P2P Bitcoin với mã hóa để cải thiện quyền riêng tư.
 ---
 New version of the Bitcoin P2P transport protocol incorporating opportunistic encryption to enhance the privacy and security of communications between nodes. This improvement aims to address several issues with the basic version of the P2P protocol, notably by making the exchanged data indistinguishable to a passive observer (such as an internet service provider), thereby reducing the risks of censorship and attacks through the detection of specific patterns in data packets.
 

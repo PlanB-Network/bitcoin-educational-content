@@ -1,0 +1,9 @@
+question: Wem gehören die Bitcoins bei einem verwahrten Lightning wallet?
+answer: Das Unternehmen
+wrong_answers:
+  - Der Benutzer
+  - Das Lightning-Netzwerk
+  - Bitcoin Kern
+explanation: |
+  Bei einem Verwahrungsmodell hält das Unternehmen die Schlüssel und kontrolliert die Gelder, während der Nutzer nur einen buchhalterischen Saldo hat.
+reviewed: false

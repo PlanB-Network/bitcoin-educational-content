@@ -1,5 +1,6 @@
 ---
-term: OP_GREATERTHAN (0xA0)
+term: OP_GREATERTHAN (0XA0)
 
+definition: 检查堆栈第一个元素是否大于第二个元素的Opcode。
 ---
 对堆栈中最上面的两个元素进行比较，并检查第一个元素是否大于第二个元素。如果第一个元素大于第二个元素，则向堆栈推入 `1`（true），否则推入 `0`（false）。

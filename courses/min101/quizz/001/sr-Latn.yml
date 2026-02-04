@@ -1,0 +1,9 @@
+question: Šta Bitcoin čvor radi sa validnom, ali nepotvrđenom transakcijom nakon verifikacije?
+answer: Prosleđuje je svojim parnjacima (peers)
+wrong_answers:
+  - Dodaje je u svoju lokalnu kopiju blockchain-a
+  - Potpisuje je svojim privatnim ključem
+  - Šifruje je svojim javnim ključem
+explanation: |
+  U Bitcoin mreži, svaki čvor propagira validne transakcije čvorovima sa kojima je povezan.
+reviewed: false

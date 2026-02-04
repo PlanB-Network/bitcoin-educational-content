@@ -1,0 +1,9 @@
+question: Hvor mange blokker går det mellom hver justering av vanskelighetsgraden?
+answer: 2016 blokker
+wrong_answers:
+  - 2000 blokker
+  - 2100 blokker
+  - 4096 blokker
+explanation: |
+  Justeringen skjer hver 2016. blokk, som tilsvarer omtrent to uker med 10 minutter per blokk.
+reviewed: false

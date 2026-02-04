@@ -1,5 +1,6 @@
 ---
-term: BGP HIJACKING
+term: BGP hijacking
+definition: Útok manipulující s internetovým směrováním za účelem přesměrování provozu do škodlivé sítě, který může být použit k izolaci uzlů Bitcoinu.
 ---
 
 Útok, při kterém záškodník manipuluje s reklamami BGP, aby přesměroval internetový provoz do své vlastní sítě. Předstíráním legitimního původu určitých rozsahů IP Address může útočník zachytávat, monitorovat nebo blokovat provoz určený pro tyto adresy.

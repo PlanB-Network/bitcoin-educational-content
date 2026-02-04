@@ -1,0 +1,9 @@
+question: Nakon koliko potvrda izlazi coinbase transakcije postaju potrošivi?
+answer: 101 potvrda
+wrong_answers:
+  - 6 potvrda
+  - 201 potvrda
+  - 210 potvrda
+explanation: |
+  Period sazrevanja je 100 blokova, pa je potrebno 101 potvrda da bi ti UTXO postali potrošivi.
+reviewed: false

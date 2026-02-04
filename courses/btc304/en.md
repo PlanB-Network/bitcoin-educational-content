@@ -1,5 +1,5 @@
 ---
-name: Create a Bitcoin Community
+name: How to Create a Bitcoin Community
 goal: Easily create and organize a Bitcoin community in your local area
 objectives:
 - Create a Bitcoin community and/or meet-up

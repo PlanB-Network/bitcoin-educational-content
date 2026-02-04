@@ -1,9 +1,10 @@
-question: What is Hash Pay to Script?
-answer: Block funds with the imprint of a script, to be executed upon unlocking
+question: What does the Pay-to-Script-Hash (P2SH) script scheme consist of?
+answer: Locking funds with the hash of a script, which must be executed when unlocking
 wrong_answers:
-  - Require M signatures from N participants to authorize the transactional output to be spent
-  - Making bitcoin spending conditional on the provision of a signature linked to a unique public key
-  - Write arbitrary data on the blockchain by making UTXO non-spendable
+  - Requiring M signatures out of N participants to authorize the transaction output to be spent
+  - Making the spending of bitcoins dependent on providing a signature linked to a single public key
+  - Writing arbitrary data on the blockchain by making UTXO non-spendable
 explanation: |
- This involves paying for a script footprint and providing said script when the funds are unlocked. What differentiates it from the OP_EVAL proposal is that it is automatically recognized by the virtual machine, so that it can be executed without the need for any explicit instructions.
-reviewed: false
+ This involves paying for a script hash and providing said script when unlocking the funds. What differentiates it from the OP_EVAL proposal is that it is 
+ automatically recognized by the virtual machine, so that it can be executed without the need for any explicit instructions.
+reviewed: true

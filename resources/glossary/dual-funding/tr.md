@@ -1,5 +1,6 @@
 ---
-term: ÇİFT FONLAMA
+term: Dual funding
+definition: Açılış sırasında her iki tarafın da bir Lightning kanalını finanse etmesine olanak tanıyan yöntem.
 ---
 
 Bir Lightning kanalı açıldığında, ikili fonlama her iki katılımcının da bitcoinleri kanala kilitlemesine olanak tanır. Kanalı yalnızca bir düğümün fonladığı geleneksel modelin aksine, bu yöntem her iki tarafın da kanalı fonlamasına olanak tanıyarak likiditenin anında dengelenmesini sağlar.

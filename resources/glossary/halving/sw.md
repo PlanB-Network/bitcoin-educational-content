@@ -1,5 +1,6 @@
 ---
 term: Halving
+definition: Tukio linalopunguza zawadi ya wachimbaji kwa nusu kila block 210,000.
 ---
 
 Neno "Halving" linarejelea tukio lililoratibiwa ambalo hupunguza nusu ya zawadi wanayopewa wachimbaji kwa kila block iliyochimbwa kupitia ruzuku ya block. Upunguzaji huu unatumika haswa kwa sehemu ya ruzuku ya block inayojumuisha bitcoins mpya iliyoundwa kutoka kwa hewa nyembamba. Halving iliundwa na Satoshi Nakamoto, muundaji wa Bitcoin, kama njia ya kudhibiti mfumuko wa bei na kuhakikisha Supply ndogo ya bitcoins.

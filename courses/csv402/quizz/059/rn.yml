@@ -1,9 +1,9 @@
-question: Ni igiki gikorwa n’umukozi wa proxy RGB mu bidukikije vya RGB Lightning Node?
-answer: Gufasha Exchange y'ibirungikwa RGB
+question: Ni igiki gikorwa n’umukozi wa proxy RGB mu bidukikije vya node ya Lightning ya RGB?
+answer: Gufasha Ihanahanwa y'ibirungikwa RGB
 wrong_answers:
-  - Tanga imfunguruzo za bose ku nzira zo gufungura imirongo
-  - Gumana amateka y'imihindukire ya leta ya RGB
+  - Tanga imfunguruzo zokukarubanda ku nzira zo gufungura imihora
+  - Gumana kahise y'imihindukire ya leta ya RGB
   - Irinde gusubiramwo ibimenyetso vya RGB
 explanation: |
-  Server y’ubutumwa ya RGB yorosha guhanahana amakuru y’ibirungikwa vya RGB hagati y’abaje mu bikorwa vya Lightning mu gukora nk’umuhuza, bikaba bishoboza gukoresha neza uburyo bwo gukoresha Bitcoin na Lightning ubu.
-reviewed: false
+  Uushinguzi y’ubutumwa ya RGB yorosha guhanahana amakuru y’ibirungikwa vya RGB hagati y’abaje mu bikorwa vya Lightning mu gukora nk’umuhuza, bikaba bishoboza gukoresha neza uburyo bwo gukoresha Lightning ya Bitcoin ubu.
+reviewed: true

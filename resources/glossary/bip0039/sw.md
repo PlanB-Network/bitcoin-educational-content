@@ -1,5 +1,6 @@
 ---
 term: BIP0039
+definition: Kiwango kinachofafanua vishazi mnemoni vya maneno 12 au 24 kwa ajili ya kuhifadhi na kurejesha pochi ya Bitcoin.
 ---
 
 BIP39 inatanguliza mbinu ya kubadilisha seed ya nasibu ya Wallet kuwa mfuatano wa maneno ambayo yanaweza kukumbukwa na kusomeka na binadamu, inayojulikana kama fungu la maneno la Mnemonic. Kifungu hiki cha maneno, kwa kawaida kina maneno 12 au 24, huruhusu uundaji upya wa funguo zote za faragha katika Wallet. Kwa hivyo, badala ya kulazimika kukariri au kuhifadhi seed tata ya kriptografia, watumiaji wanaweza kuunga mkono bitcoins zao kwa kifungu cha maneno machache. Kwa hivyo BIP39 imechangia kurahisisha usimamizi wa Bitcoin Wallet.

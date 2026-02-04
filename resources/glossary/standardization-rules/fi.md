@@ -1,6 +1,7 @@
 ---
-term: STANDARDISOINTISÄÄNNÖT
+term: Standardisointisäännöt
 
+definition: Paikalliset säännöt, jotka määrittävät, minkä muotoisia vahvistamattomia tapahtumia solmu hyväksyy mempooliinsa.
 ---
 Kukin Bitcoin-solmu hyväksyy konsensussääntöjen lisäksi erikseen standardisointisäännöt, joilla määritellään niiden vahvistamattomien transaktioiden rakenne, jotka se hyväksyy mempooliinsa ja lähettää vertaisilleen. Kukin solmu siis määrittää ja toteuttaa nämä säännöt paikallisesti, ja ne voivat vaihdella solmusta toiseen. Niitä sovelletaan yksinomaan vahvistamattomiin transaktioihin. Näin ollen solmu hyväksyy epätyypilliseksi katsomansa transaktion vain, jos se sisältyy jo voimassa olevaan lohkoon.
 

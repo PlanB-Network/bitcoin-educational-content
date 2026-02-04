@@ -1,0 +1,9 @@
+question: What does the block reward consist of?
+answer: Subsidy + fees
+wrong_answers:
+  - Subsidy + difficulty
+  - Fees + nonce
+  - Hashrate + fees
+explanation: |
+  The reward adds the block subsidy and all the fees from the included transactions.
+reviewed: false

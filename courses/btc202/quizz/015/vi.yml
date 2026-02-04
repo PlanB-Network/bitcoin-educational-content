@@ -1,7 +1,7 @@
 question: Triển khai thay thế chính của Bitcoin core là gì?
 answer: Bitcoin Knots
 wrong_answers:
-  - Tiền mặt Bitcoin
+  - Bitcoin Cash
   - BTCD
   - Bcoin
 explanation: |

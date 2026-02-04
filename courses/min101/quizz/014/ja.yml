@@ -1,0 +1,9 @@
+question: ビットコインのマイニングに使用されるハッシュ関数はどれですか？
+answer: SHA256d
+wrong_answers:
+  - SHA1d
+  - RIPEMD160d
+  - SHA512d
+explanation: |
+  ビットコインのマイニングでは、SHA256を2回適用したものが使用され、一般にSHA256dと表記されます。
+reviewed: false

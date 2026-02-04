@@ -1,6 +1,7 @@
 ---
-term: SCRIPTPUBKEY
+term: Scriptpubkey
 
+definition: Script en la salida de una transacción que define las condiciones de gasto de un UTXO.
 ---
 Un script ubicado en la parte de salida de una transacción Bitcoin que define las condiciones bajo las cuales el UTXO asociado puede ser gastado. Este script asegura así los bitcoins. En su forma más común, el `scriptPubKey` contiene una condición que requiere que la siguiente transacción proporcione una prueba de posesión de la clave privada correspondiente a una dirección Bitcoin especificada. Esto se consigue a menudo mediante un script que exige una firma correspondiente a la clave pública asociada a la dirección utilizada para asegurar estos fondos. Cuando una transacción intenta utilizar este UTXO como entrada, debe proporcionar un `scriptSig` que, una vez combinado con el `scriptPubKey`, cumpla las condiciones establecidas y produzca un script válido.
 
@@ -16,6 +17,6 @@ El `scriptSig` correspondiente sería:
 <signature> <public key>
 ```
 
-![](../../dictionnaire/assets/35.webp)
+
 
 > ► *Este script también se denomina a veces en inglés "locking script "*

@@ -1,0 +1,9 @@
+question: Hva representerer Node-ID-en til en Lightning-node?
+answer: Node offentlig nøkkel og adresse
+wrong_answers:
+  - Node seed og adresse
+  - Nodealias og offentlig nøkkel
+  - Hash nodealias og seed
+explanation: |
+  Node-ID-en kombinerer nodens offentlige nøkkel med nettverksadressen og porten.
+reviewed: false

@@ -459,29 +459,30 @@ Reka dufate mu ncamake ibikorwa bimwe bimwe vy’ishimikiro vya Kali Linux mu me
 
 
 
-| **Catégorie**              | **Tâche de base**                      | **Description / Objectif**                                 | **Méthode principale**                                       |
+
+| **Igice** | **Igikorwa remezo** | **Insiguro / Intumbero** | **Uburyo nyamukuru** |
 | -------------------------- | -------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------ |
-| **Navigation système**     | Ouvrir le terminal                     | Accéder à la ligne de commande principale de Kali          | Cliquez sur l’icône du terminal ou utilisez `Ctrl + Alt + T` |
-|                            | Parcourir les dossiers                 | Se déplacer dans l’arborescence du système                 | `cd /chemin/du/dossier`, `ls` pour lister les fichiers       |
-|                            | Créer / supprimer un dossier           | Organiser les fichiers                                     | `mkdir nom_dossier`, `rm -r nom_dossier`                     |
-| **Gestion des fichiers**   | Copier / déplacer un fichier           | Manipuler des fichiers dans le terminal                    | `cp fichier destination`, `mv fichier destination`           |
-|                            | Supprimer un fichier                   | Libérer de l’espace disque                                 | `rm nom_du_fichier`                                          |
-|                            | Afficher le contenu d’un fichier texte | Lire rapidement un fichier                                 | `cat fichier.txt`, `less fichier.txt`                        |
-| **Gestion du système**     | Mettre à jour Kali Linux               | Installer les dernières versions et correctifs de sécurité | `sudo apt update && sudo apt full-upgrade -y`                |
-|                            | Installer un logiciel                  | Ajouter un nouvel outil ou utilitaire                      | `sudo apt install nom_du_paquet`                             |
-|                            | Supprimer un logiciel                  | Nettoyer le système                                        | `sudo apt remove nom_du_paquet`                              |
-|                            | Nettoyer les dépendances inutiles      | Gagner de l’espace disque                                  | `sudo apt autoremove`                                        |
-| **Réseau et Internet**     | Vérifier la connexion réseau           | Tester l’accès à Internet                                  | `ping google.com`                                            |
-|                            | Identifier l’adresse IP                | Connaître sa configuration réseau                          | `ip a` ou `ifconfig`                                         |
-|                            | Changer de réseau Wi-Fi                | Se connecter à un autre point d’accès                      | Icône réseau → Sélectionner le Wi-Fi voulu                   |
-| **Comptes et permissions** | Exécuter une commande administrateur   | Obtenir les droits root temporairement                     | `sudo commande`                                              |
-|                            | Créer un nouvel utilisateur            | Ajouter un compte local                                    | `sudo adduser nom_utilisateur`                               |
-|                            | Modifier un mot de passe               | Sécuriser un compte                                        | `passwd`                                                     |
-| **Apparence et confort**   | Changer le fond d’écran                | Personnaliser le bureau                                    | Clic droit sur le bureau → **Paramètres du bureau**          |
-|                            | Modifier le thème / icônes             | Améliorer la lisibilité et l’esthétique                    | Paramètres → Apparence / Thèmes                              |
-| **Outils Kali**            | Ouvrir le menu des outils              | Explorer les outils de test et de sécurité                 | Menu **Applications → Kali Linux**                           |
-|                            | Lancer un outil (ex : nmap, wireshark) | Découverte pratique des utilitaires de sécurité            | `sudo nmap`, `wireshark`, etc.                               |
-| **Aide et documentation**  | Obtenir de l’aide sur une commande     | Comprendre une commande avant de l’utiliser                | `man commande` ou `commande --help`                          |
+| **Kugendagenda muri sisitemu** | Kwugurura ikiranga-ndagiro (terminal) | Kwinjira aho banditse amategeko muri Kali | Fyonda ku gishushanyo c'ikiranga-ndagiro canke koresha `Ctrl + Alt + T` |
+| | Kuraba mu bikubiye mu madosiye | Kugendagenda mu biti vy'amadosiye ya sisitemu | `cd /inzira/iyenda/mw'idosiye`, `ls` kugira urabe amadosiye ahari |
+| | Kurema / gusiba idosiye | Gutunganya amadosiye | `mkdir izina_ry_idosiye`, `rm -r izina_ry_idosiye` |
+| **Gucunga amadosiye** | Kwandukura / kwimura idosiye | Gukoresha amadosiye mu kiranga-ndagiro | `cp idosiye aho_ijanywe`, `mv idosiye aho_ijanywe` |
+| **Gusiba idosiye** | Gusiba idosiye | Kurondera aho dushira ibindi bintu kuri disiki | `rm izina_ry_idosiye` |
+| | Kwerekana ibiri mw'idosiye y'icandiko | Gusoma idosiye vuba na vuba | `cat idosiye.txt`, `less idosiye.txt` |
+| **Gucunga sisitemu** | Kuvugurura Kali Linux | Mushiremo uburyo bushasha n'ukurinda umutekano | `sudo apt update && sudo apt full-upgrade -y` |
+| | Mushiremo porogaramu | Kwongeramo igikoresho gishasha | `sudo apt install izina_ry_igikoresho` |
+| | Gusiba porogaramu | Gusukura sisitemu | `sudo apt remove izina_ry_igikoresho` |
+| | Gusukura ibintu bitagikenewe | Kurondera aho dushira ibindi bintu kuri disiki | `sudo apt autoremove` |
+| **Imiyoboro n'Ikiyago (Internet)** | Kuraba ko imiyoboro ikora | Kugeregeza kwinjira kuri internet | `ping google.com` |
+| | Kuraba IP address | Kumenya uko imiyoboro yawe yubatse | `ip a` canke `ifconfig` |
+| | Guhindura Wi-Fi | Kwinjira mu yindi Wi-Fi | Igishushanyo c'imiyoboro → Hitamo Wi-Fi ushaka |
+| **Makonti n'uburenganzira** | Gukora itegeko ry'umuyobozi | Kuronka uburenganzira bwa root mu mwanya muto | `sudo itegeko` |
+| | Kurema umukoresha mushasha | Kwongeramo ikonti nshasha | `sudo adduser izina_ry_umukoresha` |
+| | Guhindura ijambo ry'ibanga | Kurinda ikonti | `passwd` |
+| **Isura n'uburyohe** | Guhindura ishusho y'inyuma | Gutunganya aho ukorera | Fyonda iburyo ku mbuga ukorerako → **Ibigenewe imbuga** |
+| | Guhindura isura / ibishushanyo | Gutuma vyoroherana gusoma n'ubwiza | Ibigenewe → Isura / Imisura |
+| **Ibikoresho vya Kali** | Kwugurura urutonde rw'ibikoresho | Kuraba ibikoresho vyo kugerageza n'umutekano | Urutonde rw' **Aporikasiyo → Kali Linux** |
+| | Gutanguza igikoresho (nk'akarorero: nmap, wireshark) | Kumenya gukoresha ibikoresho vy'umutekano | `sudo nmap`, `wireshark`, n'ibindi. |
+| **Ubufasha n'inyandiko** | Kuronka ubufasha ku itegeko | Gutahura itegeko imbere yo kurikoresha | `man itegeko` canke `itegeko --help` |
 
 ## Iciyumviro
 

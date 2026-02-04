@@ -1,0 +1,9 @@
+question: Gốc Merkle (Merkle root) trong tiêu đề khối Bitcoin có tác dụng gì?
+answer: Cam kết tất cả các giao dịch trong khối
+wrong_answers:
+  - Tính toán bằng chứng công việc của khối
+  - Thông báo phiên bản của khối
+  - Biết độ khó của khối
+explanation: |
+  Gốc Merkle tóm tắt tất cả các giao dịch; nếu một giao dịch thay đổi, gốc cũng thay đổi.
+reviewed: false

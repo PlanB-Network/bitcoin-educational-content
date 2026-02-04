@@ -1,10 +1,10 @@
-question: Wat geeft de verwachte anonimiteit aan?
-answer: De grootte van de groep niet te onderscheiden UTXO's aan de uitgang van cycli.
+question: Wat geeft de prospectieve anonimiteit aan?
+answer: De grootte van de groep niet te onderscheiden UTXO's aan de output van cycli.
 wrong_answers:
-  - De grootte van de groep niet te onderscheiden UTXO's bij de invoer van cycli.
+  - De grootte van de groep niet te onderscheiden UTXO's bij de input van cycli.
   - De grootte van de groep niet te onderscheiden UTXO's in een pool.
   - Het aantal transacties dat nodig is om anonimiteit te bereiken.
 explanation: |
-  De prospectieve anonset geeft de grootte aan van de groep waartussen de bestudeerde UTXO zich verbergt aan de uitgang van een cyclus, de UTXO aan de ingang kennende, dat wil zeggen, het aantal niet te onderscheiden munten dat binnen deze groep aanwezig is.
+  De prospectieve anonset geeft de grootte aan van de groep waartussen de bestudeerde UTXO zich verbergt aan de output van een cyclus, de UTXO aan de input kennende, dat wil zeggen, het aantal niet te onderscheiden UTXO's dat binnen deze groep aanwezig is.
   
 reviewed: false

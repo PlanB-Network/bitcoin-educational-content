@@ -1,5 +1,6 @@
 ---
-term: DAEMON (守护进程)
+term: 守护进程 (Daemon)
 
+definition: 在后台运行的计算机程序，例如 Bitcoin Core 的 bitcoind。
 ---
 独立于用户控制在后台运行的计算机程序类型。这些程序在不需要直接干预的情况下运行网络服务管理、系统监控和响应查询等任务。在 Bitcoin Core 中，守护进程被称为 "bitcoind"。它代表没有用户界面的 Bitcoin Core 版本，完全通过命令行操作。

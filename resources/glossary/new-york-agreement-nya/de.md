@@ -1,6 +1,7 @@
 ---
-term: NEW YORK ABKOMMEN (NYA)
+term: New York Agreement (NYA)
 
+definition: Treffen im Jahr 2017, bei dem SegWit2x vorgeschlagen wurde, das letztendlich mangels Konsens aufgegeben wurde.
 ---
 Ein privates Treffen im Jahr 2017, an dem mehr als 50 Unternehmen aus dem Bitcoin-Ökosystem im Anschluss an die Konferenz Consensus 2017 teilnahmen. Ziel dieses Treffens war es, die langjährige Debatte über die Skalierung von Bitcoin zu beenden und eine Einigung zu erzielen. Dieses Treffen führte zu dem Vorschlag SegWit2x, der sich an dem früheren Vorschlag SegWit2Mb orientierte. Er sah zwei wesentliche Änderungen am Bitcoin-Protokoll vor:
 

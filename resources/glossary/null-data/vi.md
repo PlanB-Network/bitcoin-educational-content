@@ -1,5 +1,6 @@
 ---
-term: NULL DATA
+term: Null data
 
+definition: Loại giao dịch cho phép chèn dữ liệu tùy ý thông qua OP_RETURN.
 ---
 Type of Bitcoin transaction that allows the insertion of a small amount of arbitrary data through an `OP_RETURN`. The bitcoins possibly associated with this type of output are provably unspendable, as the `OP_RETURN` indicates an invalid script.

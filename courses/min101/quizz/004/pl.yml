@@ -1,0 +1,9 @@
+question: Zgodnie z ideą podsumowaną przez Satoshiego, jaki jest jedyny sposób na zapewnienie braku podwójnego wydatkowania (double-spending)?
+answer: Znajomość wszystkich transakcji
+wrong_answers:
+  - Znajomość wszystkich aktywnych węzłów
+  - Znajomość wszystkich aktywnych górników
+  - Znajomość wszystkich kluczy prywatnych
+explanation: |
+  Podwójne wydatkowanie jest wykrywane poprzez porównanie transakcji z przeszłymi wydatkami zapisanymi we wspólnym rejestrze.
+reviewed: false

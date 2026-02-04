@@ -1,5 +1,6 @@
 ---
-term: OFF-GRID
+term: Off-grid
+definition: Autonomní těžba využívající alternativní zdroje energie mimo hlavní elektrickou síť.
 ---
 
 Označuje provoz Bitcoin Mining, který funguje autonomně, bez připojení k hlavní elektrické síti. Těžaři mimo síť obvykle využívají alternativní zdroje energie, jako je solární, větrná nebo vodní energie, nebo dokonce generátory na fosilní paliva (např. plyn na spalování). Tento model je často upřednostňován za účelem snížení nákladů na energii, protože částečně spoléhá na energii, která by bez Mining přišla nazmar. Těžaři mimo síť mají tu výhodu, že se mohou zřídit na odlehlých místech, aby tuto energii spotřebovávali příliš daleko od obyvatelstva.

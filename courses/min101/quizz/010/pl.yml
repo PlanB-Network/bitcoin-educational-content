@@ -1,0 +1,9 @@
+question: Jaki jest rozmiar nonce w nagłówku bloku?
+answer: 32 bity
+wrong_answers:
+  - 128 bitów
+  - 64 bity
+  - 256 bitów
+explanation: |
+  Nonce to 32-bitowe pole w nagłówku.
+reviewed: false

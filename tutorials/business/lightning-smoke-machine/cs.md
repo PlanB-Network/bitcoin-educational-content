@@ -263,11 +263,12 @@ Cíl: Připojte relé k tlačítku ON/OFF na dálkovém ovladači
 
 
 
-| **Terminal**         | **Description**           | **Fonction**                        |
+
+| **Svorka**         | **Popis**           | **Funkce**                        |
 | -------------------- | ------------------------- | ----------------------------------- |
-| NO (Normally Open)   | Circuit ouvert par défaut | Se ferme quand le relais est activé |
-| NC (Normally Closed) | Circuit fermé par défaut  | S'ouvre quand le relais est activé  |
-| COM (Common)         | Terminal central          | Bascule entre NO et NC              |
+| NO (Normálně otevřeno)   | Obvod otevřený ve výchozím stavu | Zavře se, když je relé aktivováno |
+| NC (Normálně uzavřeno) | Obvod uzavřený ve výchozím stavu  | Otevře se, když je relé aktivováno  |
+| COM (Společné)         | Centrální svorka          | Přepíná mezi NO a NC              |
 
 **Zapojení dálkového ovládání do reléového modulu:**
 
@@ -301,11 +302,12 @@ Když ESP32 přeruší relé, COM a NO se oddělí, což odpovídá uvolnění t
 
 
 
-| **ESP32** | **→** | **Module relais** |
+
+| **ESP32** | **→** | **Modul relé** |
 | --------- | ----- | ----------------- |
 | V5 (5V)   | **→** | VCC               |
 | GND       | **→** | GND               |
-| GPIO 21   | **→** | IN (Input)        |
+| GPIO 21   | **→** | IN (Vstup)        |
 
 **Ověřování:**
 
@@ -894,14 +896,15 @@ Před závěrečným testem zkontrolujte :
 
 
 
-| **Problème**                        | **Cause probable**              | **Solution**                                                                                 |
+
+| **Problém**                        | **Pravděpodobná příčina**              | **Řešení**                                                                                 |
 | ----------------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------- |
-| ESP32 ne se connecte pas            | Driver USB manquant             | Installer [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
-| Relais ne clique pas                | Mauvais câblage GPIO            | Vérifier GPIO 21 → IN                                                                        |
-| Smoke machine ne réagit pas         | Télécommande mal câblée         | Vérifier NO/NC/COM                                                                           |
-| WebSocket timeout                   | URL incorrecte                  | Vérifier wss:// et /bitcoinswitch                                                            |
-| WiFi ne se connecte pas             | SSID/Password erroné            | Re-flasher la config WiFi                                                                    |
-| Paiement reçu mais rien ne se passe | ESP32 non connecté au WebSocket | Vérifier les logs RESET                                                                      |
+| ESP32 se nepřipojuje            | Chybějící ovladač USB             | Nainstalujte [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
+| Relé neklikne                | Špatné zapojení GPIO            | Zkontrolujte GPIO 21 → IN                                                                        |
+| Kouřová stroj nereaguje         | Dálkově ovládaný špatně zapojen         | Zkontrolujte NO/NC/COM                                                                           |
+| Vypršení časového limitu WebSocket                   | Nesprávná URL                  | Zkontrolujte wss:// a /bitcoinswitch                                                            |
+| WiFi se nepřipojuje             | SSID/Password chybný            | Znovu naflashujte konfiguraci WiFi                                                                    |
+| Platba přijata, ale nic se neděje | ESP32 není připojena k WebSocket | Zkontrolujte protokoly RESET                                                                      |
 
 ## Zdroje
 

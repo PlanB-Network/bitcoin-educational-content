@@ -1,0 +1,9 @@
+question: Rejesta ya umma inayoshirikiwa ambapo historia ya malipo ya bitcoin huandikwa inaitwaje?
+answer: Blockchain
+wrong_answers:
+  - Mempool
+  - Wallet
+  - Hashrate
+explanation: |
+  Kitabu cha umma kinachoshirikiwa ambacho kina miamala yote ni blockchain.
+reviewed: false

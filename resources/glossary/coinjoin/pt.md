@@ -1,12 +1,13 @@
 ---
-term: COINJOIN
+term: Coinjoin
 
+definition: Técnica de mistura onde vários utilizadores combinam as suas transações para dificultar o rastreamento dos bitcoins.
 ---
 Coinjoin é uma técnica utilizada para quebrar a rastreabilidade das bitcoins. Baseia-se numa transação colaborativa com uma estrutura específica com o mesmo nome: a transação coinjoin. As transacções Coinjoin ajudam a melhorar a proteção da privacidade dos utilizadores de Bitcoin, dificultando a análise das transacções por parte de observadores externos. Esta estrutura permite a mistura de várias moedas numa única transação, dificultando a determinação das ligações entre os endereços de entrada e de saída.
 
 O funcionamento geral do coinjoin é o seguinte: diferentes utilizadores que desejem misturar depositam um montante como entrada de uma transação. Estas entradas serão apresentadas como saídas diferentes do mesmo montante. No final da transação, é impossível determinar que saída pertence a que utilizador. Tecnicamente, não existe qualquer ligação entre os inputs e os outputs da transação coinjoin. A ligação entre cada utilizador e cada UTXO é quebrada, da mesma forma que o histórico de cada moeda.
 
-![](../../dictionnaire/assets/4.webp)
+
 
 Para permitir a junção de moedas sem que nenhum utilizador perca o controlo sobre os seus fundos em qualquer momento, a transação é primeiro construída por um coordenador e depois transmitida a cada utilizador. Cada um assina a transação do seu lado depois de verificar que lhe convém e, em seguida, todas as assinaturas são adicionadas à transação. Se um utilizador ou o coordenador tentar roubar os fundos de outros modificando os resultados da transação coinjoin, as assinaturas serão inválidas e a transação será rejeitada pelos nós. Quando o registo dos resultados dos participantes é efectuado utilizando as assinaturas cegas de Chaum para evitar a ligação com os resultados, esta operação é designada por "Chaumian coinjoin".
 
@@ -24,4 +25,3 @@ Maxwell, G. (2013, 22 de agosto). *CoinJoin: Privacidade Bitcoin para o mundo re
 
 No entanto, há menções anteriores, tanto para assinaturas Chaum no contexto de mistura, como para coinjoins. [Em junho de 2011, Duncan Townsend apresenta no BitcoinTalk](https://bitcointalk.org/index.php?topic=12751.0) um misturador que utiliza assinaturas Chaum de uma forma bastante semelhante às modernas coinjoins Chaumianas. No mesmo tópico, há [uma mensagem de hashcoin em resposta a Duncan Townsend](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) para melhorar seu mixer. Esta mensagem apresenta o que mais se assemelha a coinjoins. Há também uma menção a um sistema semelhante em [uma mensagem de Alex Mizrahi em 2012](https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry), quando ele estava a aconselhar os criadores da Tenebrix. O termo "coinjoin" em si não foi inventado por Greg Maxwell, mas surgiu de uma ideia de Peter Todd.
 
-> ► *O termo "coinjoin" não tem uma tradução francesa. Alguns bitcoiners utilizam também os termos "mix", "mixing" ou "mixage" para se referirem à transação coinjoin. A mistura é antes o processo utilizado no centro da coinjoin. Além disso, é importante não confundir a mistura através de coinjoins com a mistura através de um ator central que toma posse dos bitcoins durante o processo. Isto não tem nada a ver com a coinjoin em que o utilizador não perde o controlo dos seus bitcoins durante o processo*

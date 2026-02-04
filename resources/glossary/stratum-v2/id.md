@@ -1,5 +1,6 @@
 ---
-term: STRATUM V2
+term: Stratum v2
 
+definition: Evolusi dari Stratum yang menawarkan komunikasi lebih efisien, keamanan lebih baik, dan kekuatan lebih bagi penambang individu.
 ---
 Evolusi Stratum, protokol jaringan _overlay_ terkenal untuk Bitcoin yang dirancang untuk penambangan. Protokol jenis ini didesain untuk mengoptimalkan komunikasi antara penambang individu dengan server pool penambangan untuk meningkatkan keuntungan mereka. Dikembangkan oleh _Braiins pool_ (sebelumnya bernama "_Slush Pool_"), Stratum V2 memperkenalkan beberapa peningkatan, termasuk komunikasi yang lebih efisien antara penambang dan _mining pool_, sehingga mengurangi _bandwidth_ yang diperlukan. Hal ini juga mengurangi kebutuhan infrastruktur untuk _pool_. Dalam hal keamanan, ia menambahkan otentikasi kriptografi untuk mencegah berbagai serangan _man-in-the-middle_, termasuk penyadapan dan pengalihan _hash_ yang berbahaya. Aspek penting dari Stratum V2 adalah bahwa ia menyertakan sub-protokol yang memungkinkan penambang individu untuk memilih set transaksi mereka sendiri untuk dimasukkan ke dalam blok yang mereka kerjakan. Fitur ini memberikan lebih banyak kekuatan kepada penambang individu, tidak seperti protokol asli di mana _pool_ memiliki kontrol penuh atas _template_ blok. Dengan demikian, metode ini dapat memperkuat desentralisasi proses penambangan oleh _pool_.

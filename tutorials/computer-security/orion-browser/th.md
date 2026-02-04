@@ -522,15 +522,16 @@ Orion รองรับส่วนขยาย Chrome และ Firefox โด
 
 
 
-| Critère | Orion | Safari | Chrome | Firefox | Brave |
+
+| เกณฑ์ | Orion | Safari | Chrome | Firefox | Brave |
 |---------|-------|--------|---------|----------|--------|
-| **Télémétrie** | Aucune | Minimale | Extensive | Modérée | Minimale |
-| **Bloqueur natif** | 99,9% efficace | Basique | Absent | Partiel | Complet |
-| **Extensions** | Chrome + Firefox | Limitées | Chrome uniquement | Firefox uniquement | Chrome uniquement |
-| **Performance Mac** | Excellente | Excellente | Bonne | Moyenne | Bonne |
-| **Consommation RAM** | Très faible | Faible | Élevée | Moyenne | Moyenne |
-| **Open Source** | Partiel | Partiel (WebKit) | Partiel | Complet | Complet |
-| **Plateformes** | Mac/iOS | Mac/iOS | Toutes | Toutes | Toutes |
+| **การรวบรวมข้อมูล** | ไม่มี | น้อยที่สุด | กว้างขวาง | ปานกลาง | น้อยที่สุด |
+| **ตัวบล็อกเนทีฟ** | มีประสิทธิภาพ 99.9% | พื้นฐาน | ไม่มี | บางส่วน | เต็มรูปแบบ |
+| **ส่วนขยาย** | Chrome + Firefox | จำกัด | Chrome เท่านั้น | Firefox เท่านั้น | Chrome เท่านั้น |
+| **ประสิทธิภาพ Mac** | ยอดเยี่ยม | ยอดเยี่ยม | ดี | ปานกลาง | ดี |
+| **การใช้ RAM** | ต่ำมาก | ต่ำ | สูง | ปานกลาง | ปานกลาง |
+| **โอเพนซอร์ส** | บางส่วน | บางส่วน (WebKit) | บางส่วน | เต็มรูปแบบ | เต็มรูปแบบ |
+| **แพลตฟอร์ม** | Mac/iOS | Mac/iOS | ทั้งหมด | ทั้งหมด | ทั้งหมด |
 
 **เทียบกับ Safari**: Orion มอบการป้องกันที่เหนือกว่าด้วยตัวบล็อกขั้นสูงและการสนับสนุนส่วนขยาย ในขณะที่ยังคงรักษาประสิทธิภาพของ WebKit
 

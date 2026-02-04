@@ -1,5 +1,6 @@
 ---
-term: SEED
+term: Seed
+definition: Informasi 512-bit yang memungkinkan pembuatan semua kunci dompet HD Bitcoin.
 ---
 
 Dalam konteks spesifik portofolio deterministik hirarkis Bitcoin, sebuah _seed_ adalah sebuah informasi 512-bit yang berasal dari sebuah peristiwa acak. Ini digunakan untuk secara deterministik dan hirarkis melakukan generasi satu set kunci privat, dan kunci publik yang bersangkutan, untuk portofolio Bitcoin. _Seed_ sering kali dikacaukan dengan frasa pemulihan itu sendiri padahal keduanya bukanlah hal yang sama. _Seed_ didapatkan dengan menerapkan fungsi `PBKDF2` pada frasa _mnemonic_ dan _passphrase_.

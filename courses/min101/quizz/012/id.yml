@@ -1,0 +1,9 @@
+question: Jika target kesulitan menurun, apa yang terjadi dengan penambangan?
+answer: Menjadi lebih sulit
+wrong_answers:
+  - Menjadi lebih mudah
+  - Tetap sama
+  - Menjadi tidak mungkin
+explanation: |
+  Target yang lebih rendah menyisakan lebih ít sedikit hasil yang mungkin di bawah ambang batas, sehingga diperlukan lebih banyak upaya untuk menemukan hash yang valid. Ini berarti penambangan menjadi lebih sulit.
+reviewed: false

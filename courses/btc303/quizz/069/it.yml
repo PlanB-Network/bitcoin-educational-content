@@ -1,9 +1,9 @@
-question: Secondo la definizione del libro, quale scenario rappresenta il legittimo ridimensionamento del Bitcoin preservando la resistenza alla censura?
-answer: Implementazione di algoritmi di verifica delle firme più efficienti dal punto di vista spaziale che riducono le dimensioni degli input delle transazioni
+question: Secondo la definizione del libro, quale scenario rappresenta la legittima scalabilità di Bitcoin preservando la resistenza alla censura?
+answer: Implementazione di algoritmi di verifica delle firme più efficienti in termini di spazio, che riducono le dimensioni degli input delle transazioni
 wrong_answers:
-  - Incoraggiare gli utenti a migrare le transazioni verso gli scambi centralizzati per ridurre il volume del on-chain
+  - Incoraggiare gli utenti a migrare le transazioni verso gli exchange centralizzati per ridurre il volume on-chain
   - Implementare il filtraggio automatico delle transazioni per dare priorità a determinati tipi di attività economica
   - Creare nodi di convalida approvati dal governo in grado di elaborare le transazioni in modo più efficiente
 explanation: |
-  Il libro definisce lo scaling del Bitcoin come "l'aumento della capacità di utilizzo del Bitcoin senza compromettere la sua resistenza alla censura" La verifica delle firme efficiente dal punto di vista spaziale si adatta direttamente a questa definizione, facendo sì che le transazioni utilizzino meno byte pur mantenendo la decentralizzazione. Le risposte sbagliate compromettono tutte la resistenza alla censura: gli scambi centralizzati introducono terze parti fidate, il filtraggio delle transazioni crea meccanismi di censura e i nodi approvati dal governo accentrano l'autorità di convalida. Il vero scaling preserva le proprietà fondamentali del Bitcoin, migliorando al contempo l'efficienza.
-reviewed: false
+  Il libro definisce la scalabilità di Bitcoin come "l'aumento della capacità di utilizzo di Bitcoin senza compromettere la sua resistenza alla censura" La verifica delle firme efficiente dal punto di vista spaziale si adatta direttamente a questa definizione, facendo sì che le transazioni utilizzino meno byte pur mantenendo la decentralizzazione. Le risposte sbagliate compromettono tutte la resistenza alla censura: gli scambi centralizzati introducono terze parti fidate, il filtraggio delle transazioni crea meccanismi di censura e i nodi approvati dal governo accentrano l'autorità di convalida. Il vero scaling preserva le proprietà fondamentali di Bitcoin, migliorando al contempo l'efficienza.
+reviewed: true

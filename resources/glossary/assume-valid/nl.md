@@ -1,5 +1,6 @@
 ---
-term: VERONDERSTELLEN GELDIG
+term: Assume valid
+definition: Een Bitcoin Core-parameter die het overslaan van handtekeningverificatie voor blokken vóór een bepaald punt mogelijk maakt, waardoor de initiële synchronisatie wordt versneld.
 ---
 
 Configuratieparameter in de meerderheidsclient Bitcoin core die een knooppunt dat net is geïnitialiseerd (maar de IBD nog niet heeft uitgevoerd) toestaat om de verificatie van handtekeningen over te slaan voor alle transacties in blokken voorafgaand aan een bepaald blok. Dit beroemde blok wordt gedefinieerd door de afdruk van de header, dat wil zeggen, de Hash. Het gekozen blok wordt vernieuwd bij elk nieuw blok. Het gekozen blok wordt vernieuwd met elke nieuwe versie van Bitcoin core. Bij de initialisatie, als het knooppunt deze parameter heeft geactiveerd, zal het daarom de keten van blokkopregels controleren om de tak met het meeste geaccumuleerde werk te vinden. Als het knooppunt de Hash van Core in de gekozen tak aantreft, laat het de verificatie van handtekeningen voor de voorgaande blokken achterwege. Anders zal het knooppunt doorgaan met een traditionele synchronisatie (IBD) om alles zelf te verifiëren.

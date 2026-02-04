@@ -1,5 +1,6 @@
 ---
 term: BIP0326
+definition: İkinci katman protokollerinin gizliliğini artırmak için Taproot için nSequence alanının kullanılması.
 ---
 
 Taproot işlemlerini destekleyen Bitcoin Wallet yazılım geliştiricilerine yönelik bir iyileştirme önerisi. Ana amacı, CoinSwap, Lightning Network veya DLC'ler (*Gizli Günlük Sözleşmeleri*) gibi PTLC'leri (*Nokta Zaman Kilitli Sözleşmeler*) kullanabilen ikinci Layer protokollerinin gizliliğini artırmaktır. Bunu başarmak için, teklif, Taproot işlemlerinin `nSequence` alanını otomatik olarak `nLocktime` alanının diğer işlem türlerinde yapılandırıldığı gibi yapılandırarak makul inkar edilebilirlik yaratmayı amaçlamaktadır. Başka bir deyişle, BIP326, Wallet yazılımından, bu alanı benzer şekilde kullanan tüm off-chain protokolleri için daha fazla gizlilik sağlamak amacıyla, ücret kesme saldırılarını önlemek için `nLocktime` alanı yerine `nSequence` alanını kullanmasını ister. Böylece, `nSequence` alanında belirli bir değere sahip bir Taproot işlemi ya standart bir Wallet harcaması ya da zaman kilidi olan ikinci bir Layer protokolünün uzlaştırma işlemi olabilir ve bu iki durum ayırt edilemez hale gelir. Bu iyileştirme önerisi Bitcoin Wallet yazılım geliştiricileri tarafından yaygın olarak benimsenirse, genel olarak Bitcoin'nin gizliliğini ve değiştirilebilirliğini büyük ölçüde artıracaktır.

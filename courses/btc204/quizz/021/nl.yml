@@ -1,9 +1,9 @@
-question: Wat is het patroon van een vereenvoudigde betaling op Bitcoin?
-answer: 1 of meer UTXO's in ingangen en 2 UTXO's in uitgangen.
+question: Wat is het patroon van een eenvoudige Bitcoin-betaling?
+answer: 1 of meer input-UTXO's en 2 output-UTXO's.
 wrong_answers:
-  - 1 UTXO in input en 1 UTXO in output
-  - Verschillende UTXO's in invoer en 1 UTXO in uitvoer
-  - 5 UTXO's in ingangen en 5 UTXO's in uitgangen
+  - 1 input-UTXO en 1 output-UTXO
+  - Verschillende input-UTXO's en 1 output-UTXO
+  - 5 UTXO's in inputs en 5 UTXO's in outputs
 explanation: |
-  Bij een vereenvoudigde betaling verbruikt de gebruiker een of meer UTXO's als input om in output een betaling UTXO en een verandering UTXO (dus 2 UTXO's) te vervullen.
+  Bij een vereenvoudigde betaling verbruikt de gebruiker een of meer input-UTXO's om in output een betalings-UTXO en een wisselgeld-UTXO (dus 2 UTXO's) te genereren.
 reviewed: false

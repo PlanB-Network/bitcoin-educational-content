@@ -1,6 +1,7 @@
 ---
-term: MAINTAINER (维护者, Bitcoin Core)
+term: 维护者 (Core)
 
+definition: 负责管理Bitcoin Core项目并合并代码更改的人员。
 ---
 在 Bitcoin Core 项目（比特币网络中节点的主要实现方式）中，维护者是负责管理项目的人。他们负责项目的实施。他们负责 Bitcoin Core GitHub 仓库的管理，并制定新版本的发布时间表。他们主要负责合并贡献者提出的拉取请求（PR）。
 

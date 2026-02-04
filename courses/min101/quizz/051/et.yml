@@ -1,0 +1,9 @@
+question: Millist ressurssi peab Bitcoini kaevandamine kasutama?
+answer: Elekter
+wrong_answers:
+  - Vesi
+  - Vääriskivid
+  - Kuld
+explanation: |
+  Kaevandamine on valideerimistöö, mis tarbib arvutite kaudu elektrit.
+reviewed: false

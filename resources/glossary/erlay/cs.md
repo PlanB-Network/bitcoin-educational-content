@@ -1,5 +1,6 @@
 ---
-term: ERLAY
+term: Erlay
+definition: Protokol zlepšující efektivitu šíření transakcí za účelem snížení spotřeby šířky pásma.
 ---
 
 Navrhovaný síťový protokol pro zlepšení účinnosti předávání nepotvrzených transakcí mezi uzly Bitcoin.

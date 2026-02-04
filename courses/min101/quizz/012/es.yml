@@ -1,0 +1,9 @@
+question: Si el objetivo de dificultad disminuye, ¿qué ocurre con la minería?
+answer: Se vuelve más difícil
+wrong_answers:
+  - Se vuelve más fácil
+  - Permanece idéntica
+  - Se vuelve imposible
+explanation: |
+  Un objetivo más bajo deja menos resultados posibles por debajo del umbral, por lo que se necesitan más intentos para encontrar un hash válido. Esto significa que la minería es más difícil.
+reviewed: false

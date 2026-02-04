@@ -1,6 +1,7 @@
 ---
-term: LUCK
+term: Luck
 
+definition: Ukazatel měřící výkon těžebního poolu ve srovnání s teoretickými očekáváními.
 ---
 Ukazatel používaný v těžebních poolech k měření výkonnosti poolu vzhledem k jeho teoretickým očekáváním. Jak název napovídá, hodnotí štěstí poolu při hledání bloku. Štěstí se vypočítá porovnáním počtu podílů teoreticky potřebných k nalezení platného bloku na základě aktuální obtížnosti bitcoinu a skutečného počtu podílů, které byly k nalezení tohoto bloku vyrobeny. Nižší počet podílů, než se očekávalo, znamená štěstí, zatímco vyšší počet podílů znamená smůlu.
 

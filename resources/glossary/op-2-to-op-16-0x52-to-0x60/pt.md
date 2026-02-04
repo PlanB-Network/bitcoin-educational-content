@@ -1,6 +1,7 @@
 ---
 term: OP_2 A OP_16 (0X52 A 0X60)
 
+definition: Opcodes que colocam os valores numéricos de 2 a 16 na pilha.
 ---
 Os códigos de operação de `OP_2` a `OP_16` empurram os respectivos valores numéricos de 2 a 16 para a pilha. São utilizados para simplificar os scripts, permitindo a inserção de pequenos valores numéricos. Este tipo de opcode é utilizado nomeadamente em scripts com várias assinaturas. Aqui está um exemplo de um `scriptPubKey` para um multisig 2/3:
 

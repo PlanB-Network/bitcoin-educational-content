@@ -1,0 +1,9 @@
+question: Co LND seed może przywrócić samodzielnie?
+answer: Onchain wallet
+wrong_answers:
+  - Otwarte kanały
+  - Stany kanałów
+  - Nic
+explanation: |
+  seed pobiera Bitcoin onchain wallet, ale nie aktywne kanały Lightning.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: FEE SNIPING
+term: Fee sniping
+definition: Napad u kojem rudari ponovo ispisuju nedavni blok kako bi preuzeli njegove visoke transakcione naknade.
 ---
 
 Scenarij napada u kojem rudari pokušavaju da prepišu nedavno potvrđeni blok kako bi preuzeli naknade za transakcije koje sadrži, dok dodaju transakcije sa visokim naknadama koje su u međuvremenu stigle u Mempool. Krajnji cilj ovog napada za Miner je povećanje njihove profitabilnosti. Fee sniping može postati sve isplativiji kako se Block reward smanjuje, a naknade za transakcije predstavljaju veći deo prihoda rudara. Takođe može biti korisno kada su naknade sadržane u prethodnom bloku značajno veće od onih u sledećem najboljem kandidatskom bloku. Da pojednostavimo, Miner se suočava sa ovim izborom u smislu podsticaja:

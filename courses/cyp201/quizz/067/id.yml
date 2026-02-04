@@ -6,4 +6,4 @@ wrong_answers:
   - Menambahkan lapisan keamanan tambahan
 explanation: |
   Indeks memungkinkan untuk membedakan kunci anak yang diturunkan dari pasangan induk yang sama.
-ditinjau: false
+reviewed: true

@@ -1,6 +1,7 @@
 ---
 term: P2PK
 
+definition: Script, das Bitcoins direkt mit einem öffentlichen Schlüssel ohne Hashing sperrt.
 ---
 P2PK steht für *Pay to Public Key*. Es ist ein Standard-Skriptmodell, das bei Bitcoin verwendet wird, um die Ausgabenbedingungen für einen UTXO festzulegen. Es ermöglicht das Sperren von Bitcoins direkt an einen öffentlichen Schlüssel, anstatt an eine Adresse.
 

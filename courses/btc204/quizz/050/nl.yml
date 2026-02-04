@@ -1,10 +1,10 @@
 question: Wat is het belangrijkste voordeel van Silent Payments in vergelijking met BIP47?
-answer: Ze vereisen geen meldingstransactie.
+answer: Ze vereisen geen kennisgevingstransactie.
 wrong_answers:
   - Ze bieden volledige privacy bij transacties.
   - Ze staan een terugbetaling door de ontvanger toe.
   - Ze garanderen compatibiliteit met alle portemonnees.
 explanation: |
-  Silent Payments werken zonder meldingstransactie, wat transactiekosten bespaart en overbelasting van de Blockchain voorkomt.
+  Silent Payments werken zonder kennisgevingstransactie, wat transactiekosten bespaart en overbelasting van de blockchain voorkomt.
   
 reviewed: false

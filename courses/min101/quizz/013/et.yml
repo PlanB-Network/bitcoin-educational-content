@@ -1,0 +1,9 @@
+question: Milline tingimus muudab ploki Bitcoinis kehtivaks?
+answer: SHA256d(ploki päis) <= sihtväärtus
+wrong_answers:
+  - SHA256d(ploki päis) >= sihtväärtus
+  - SHA256d(plokk) >= sihtväärtus
+  - SHA256d(ploki päis) > sihtväärtus
+explanation: |
+  Et plokk oleks Bitcoinis kehtiv, peab selle päise räsi, tõlgendatuna numbrina, olema väiksem või võrdne (<=) sihtväärtusega.
+reviewed: false

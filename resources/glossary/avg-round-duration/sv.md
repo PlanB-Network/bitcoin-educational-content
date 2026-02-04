@@ -1,5 +1,6 @@
 ---
-term: AVG. RUND DURATION
+term: Genomsnittlig runda varaktighet
+definition: En indikator som uppskattar genomsnittlig tid som krävs för en gruvepool att hitta ett block, baserat på dess beräkningskraft och nätverkets svårighet.
 ---
 
 Den genomsnittliga omgångstiden är en indikator som används för att uppskatta den tid det tar för en Mining pool att hitta ett block, baserat på nätverkets svårighetsgrad och poolens Hashrate. Den beräknas genom att ta antalet aktier som förväntas hitta ett block och dividera det med poolens Hashrate. Om en Mining pool till exempel har 200 miners, och var och en genererar i genomsnitt 4 aktier per sekund, är poolens totala beräkningskraft 800 aktier per sekund:

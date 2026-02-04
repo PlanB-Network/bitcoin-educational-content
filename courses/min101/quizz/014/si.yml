@@ -1,0 +1,9 @@
+question: බිට්කොයින් හි මයිනින් (mining) සඳහා භාවිතා කරන හෑෂ් ෆන්ක්ෂන් (hash function) එක කුමක්ද?
+answer: SHA256d
+wrong_answers:
+  - SHA1d
+  - RIPEMD160d
+  - SHA512d
+explanation: |
+  බිට්කොයින් මයිනින් සඳහා SHA256 දෙවරක් භාවිතා කරනු ලැබේ, එය සාමාන්‍යයෙන් SHA256d ලෙස දක්වනු ලැබේ.
+reviewed: false

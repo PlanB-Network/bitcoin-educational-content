@@ -1,5 +1,6 @@
 ---
-term: GENİŞLETİLMİŞ ANAHTAR
+term: Genişletilmiş anahtar
+definition: HD cüzdanlarda türetme için bir anahtar, zincir kodu ve meta verileri birleştiren dize.
 ---
 
 Bir anahtarı (genel veya özel), ilişkili chain code'ı ve bir dizi meta veriyi birleştiren bir karakter dizisi. Genişletilmiş bir anahtar, alt anahtarları türetmek için gerekli tüm Elements'i tek bir tanımlayıcıda derler. Deterministik ve hiyerarşik cüzdanlarda kullanılırlar ve iki türde olabilirler: genişletilmiş bir açık anahtar (alt açık anahtarları türetmek için kullanılır) veya genişletilmiş bir özel anahtar (hem alt özel hem de açık anahtarları türetmek için kullanılır). Bu nedenle genişletilmiş bir anahtar, BIP32'de açıklanan birkaç farklı veri parçasını sırayla içerir:

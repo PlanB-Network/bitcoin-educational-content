@@ -1,0 +1,9 @@
+question: What does the acronym RPOW stand for?
+answer: Reusable Proofs of Work
+wrong_answers:
+  - Recursive Proofs of Work
+  - Random Proofs of Work
+  - Replayed Proofs of Work
+explanation: |
+  RPOW stands for reusable and exchangeable proofs of work, proposed by Hal Finney in 2004.
+reviewed: false

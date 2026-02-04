@@ -1,0 +1,9 @@
+question: Milline teave näitab Lightning-sõlme vastuvõtuvõimet?
+answer: Sissetulev likviidsus
+wrong_answers:
+  - Aktiivsed ühendused
+  - Väljaminev likviidsus
+  - Plokkide arv
+explanation: |
+  Sissetulev likviidsus kujutab sats, mida sõlmpunkt saab Lightning'i kaudu vastu võtta.
+reviewed: false

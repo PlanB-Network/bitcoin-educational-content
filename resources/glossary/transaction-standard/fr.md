@@ -1,5 +1,6 @@
 ---
-term: TRANSACTION STANDARD
+term: Transaction standard
+definition: Transaction respectant à la fois les règles de consensus et les règles de standardisation par défaut des nœuds Bitcoin Core.
 ---
 
 Transaction Bitcoin qui, en plus de respecter les règles de consensus, entre également dans les règles de standardisation configurées par défaut sur les nœuds Bitcoin Core. Ces règles de standardisation sont imposées individuellement par chaque nœud Bitcoin, en plus des règles de consensus, pour définir la structure des transactions non confirmées qu'il accepte dans sa mempool et diffuse à ses pairs.

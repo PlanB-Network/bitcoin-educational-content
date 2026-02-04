@@ -1,5 +1,6 @@
 ---
 term: BIP0143
+definition: Karesel büyümeyi (quadratic growth) çözen ve girdilerin değerini içeren SegWit imzaları için yeni karma (hashing) algoritması.
 ---
 
 SegWit sonrası komut dosyalarında imza doğrulaması için işlemi karma hale getirmenin yeni bir yolunu sunar. Amaç, doğrulama sırasında gereksiz işlemleri en aza indirmek ve UTXO'ların değerini imzadaki girdiye dahil etmektir. Bu, orijinal işlem karma algoritması ile ilgili iki önemli sorunu çözer:

@@ -1,5 +1,6 @@
 ---
-term: BITCOIND.PID
+term: bitcoind.pid
 
+definition: 実行中のbitcoindインスタンスのプロセスID（PID）を含むファイル。
 ---
 bitcoind ソフトウェア（Bitcoin Daemon）の実行中に生成されるファイル。このファイルには、現在実行中の bitcoind インスタンスのプロセス識別子 (PID) が含まれています。これはソフトウェアのプロセスを追跡・管理するために使用され、他のアプリケーションやスクリプトがそれを簡単に識別し、必要に応じて対話できるようにします。

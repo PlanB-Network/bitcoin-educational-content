@@ -1,0 +1,9 @@
+question: Bloku ya mgombea (candidate block) katika Bitcoin ni nini?
+answer: Bloku iliyoandaliwa na mchimba migodi, lakini bado si halali
+wrong_answers:
+  - Bloku iliyoidhinishwa na mtandao, lakini bado haijasambazwa
+  - Bloku iliyoundwa na pochi (wallet), lakini bado si halali
+  - Bloku iliyohifadhiwa kwenye mempool
+explanation: |
+  Kila mchimba migodi huunganisha bloku ya mgombea ndani ya mfumo wake, kabla ya kujaribu kupata uthibitisho halali wa kazi.
+reviewed: false

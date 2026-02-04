@@ -1,5 +1,6 @@
 ---
-term: ECASH (DAVID CHAUM)
+term: Ecash (david chaum)
+definition: Protokół anonimowej gotówki cyfrowej zaproponowany przez Davida Chauma w 1982 roku, prekursor kryptowalut.
 ---
 
 Protokół zaproponowany przez Davida Chauma w 1982 roku, który jest jednym z pierwszych cyfrowych systemów walutowych zaprojektowanych w celu zachowania anonimowości użytkowników. Opiera się on na zasadach kryptografii klucza publicznego w celu stworzenia cyfrowej waluty, którą można bezpiecznie i anonimowo wymieniać. eCash działa poprzez tworzenie cyfrowych tokenów podpisanych przez bank. W ten sposób stanowi ewolucję banków depozytowych, ale nie jest zdecentralizowany. Podczas transakcji tokeny te są przekazywane między stronami bez ujawniania tożsamości użytkowników, zachowując w ten sposób ich prywatność. eCash jest uważany za prekursora kryptowalut. Często pojawia się w dyskusjach na temat Bitcoin, a niektórzy chcą używać systemów podobnych do eCash jako Layer. Obecnie trend zmierza raczej w kierunku tak zwanych "sfederowanych systemów Chaumian", takich jak Fedimint.

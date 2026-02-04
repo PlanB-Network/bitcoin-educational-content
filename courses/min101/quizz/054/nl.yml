@@ -1,0 +1,9 @@
+question: Hoe heet het gedeelde openbare register waarin de geschiedenis van bitcoin-betalingen wordt bijgehouden?
+answer: De blockchain
+wrong_answers:
+  - De mempool
+  - De wallet
+  - De hashrate
+explanation: |
+  Het gedeelde openbare kasboek dat alle transacties bevat, is de blockchain.
+reviewed: false

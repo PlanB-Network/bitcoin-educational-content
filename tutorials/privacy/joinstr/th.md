@@ -542,13 +542,14 @@ Joinstr ปัจจุบันสร้างกลุ่มที่มีผ
 
 
 
-| Aspect | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
+
+| ด้าน | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
 |--------|--------|--------------------|------------|-------------|
-| **Participants par pool** | 50-100 | 5-10 | Variable (P2P) | **2-5** |
-| **Coordinateur** | Centralisé (fermé 2024) | Centralisé (actif) | P2P maker/taker | **Aucun (Nostr)** |
-| **Résistance à la censure** | Faible | Moyenne | Très élevée | **Très élevée** |
-| **Frais de coordination** | Pourcentage | Frais d'entrée | Payés aux makers | **Aucun** |
-| **Discrimination UTXO** | Oui (blacklists) | Non | Non | **Non** |
+| **ผู้เข้าร่วมต่อพูล** | 50-100 | 5-10 | ตัวแปร (P2P) | **2-5** |
+| **ผู้ประสานงาน** | ส่วนกลาง (ปิด 2024) | ส่วนกลาง (ใช้งาน) | P2P maker/taker | **ไม่มี (Nostr)** |
+| **ความต้านทานการเซ็นเซอร์** | อ่อน | ปานกลาง | สูงมาก | **สูงมาก** |
+| **ค่าธรรมเนียมการประสานงาน** | เปอร์เซ็นต์ | ค่าธรรมเนียมการเข้า | จ่ายให้กับผู้สร้าง | **ไม่มี** |
+| **UTXO ถูกทำให้ได้รับผลกระทบ** | ใช่ (รายชื่อดำ) | ไม่ใช่ | ไม่ใช่ | **ไม่ใช่** |
 
 💡 **โซลูชัน CoinJoin อื่นๆ ที่ใช้งานอยู่** :
 

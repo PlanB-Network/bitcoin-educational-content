@@ -1,6 +1,7 @@
 ---
 term: XOR
 
+definition: Operasi logika boolean fundamental dalam kriptografi yang menghasilkan nilai benar hanya jika kedua operan berbeda.
 ---
 Akronim untuk operasi "_Exclusive OR_", yang merupakan fungsi mendasar dari logika _Boolean_. Operasi ini mengambil dua operan _Boolean_, masing-masing adalah $true$ atau $false$, dan menghasilkan output $_true_$ hanya jika kedua operan tersebut berbeda. Dengan kata lain, output dari operasi XOR adalah $_true_$ jika salah satu (tetapi tidak keduanya) dari operand bernilai $_true_$. Sebagai contoh, operasi XOR antara $1$ dan $0$ akan menghasilkan $1$. Kami mencatat:
 

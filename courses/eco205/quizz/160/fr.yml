@@ -1,0 +1,8 @@
+question: Selon l'école autrichienne, quel est le problème fondamental qui empêche un planificateur central de reproduire artificiellement le système de prix d'une économie de marché?
+answer: L'information économique change constamment et la quantité d'informations des choix individuels de millions d'acteurs est impossible à centraliser
+wrong_answers:
+  - Les planificateurs manquent de compétences techniques et de formation économique pour calculer correctement les prix optimaux
+  - Les moyens technologiques et informatiques sont insuffisants pour traiter rapidement tous les calculs économiques nécessaires
+  - La corruption et les intérêts personnels des planificateurs faussent systématiquement leurs décisions de fixation des prix
+explanation: |
+  Mises et Hayek ont identifié que le problème n'est pas technique ou moral, mais informationnel par nature. L'information économique dispersée parmi des millions d'acteurs change constamment et ne peut être centralisée. Même avec une technologie parfaite et des planificateurs intègres, il serait impossible de rassembler et traiter cette information dynamique. Les prix de marché émergent spontanément de ces interactions décentralisées, transmettant une information que nul comité ne pourrait reproduire artificiellement.

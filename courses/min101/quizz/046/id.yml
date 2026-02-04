@@ -1,0 +1,9 @@
+question: Kalimat mana yang merangkum layanan yang diberikan oleh pool penambangan?
+answer: Ia menjual prediktabilitas
+wrong_answers:
+  - Ia menjual kesulitan penambangan
+  - Ia menjual blok yang lebih besar
+  - Ia menjual mesin penambangan
+explanation: |
+  Mutualisasi mengubah pendapatan yang sangat fluktuatif menjadi pembayaran yang lebih teratur, dengan imbalan pembagian dan biaya.
+reviewed: false

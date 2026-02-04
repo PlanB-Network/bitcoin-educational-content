@@ -1,0 +1,9 @@
+question: ThunderHub 對於您的 LND 節點扮演什麼角色？
+answer: Interface 管理
+wrong_answers:
+  - 閃電執行
+  - 保管服務
+  - 路由節點
+explanation: |
+  ThunderHub 是與 LND 相連的介面，用來管理節點。
+reviewed: false

@@ -1,6 +1,7 @@
 ---
-term: ASSINATURA CEGA
+term: Assinatura cega
 
+definition: Assinatura digital onde o emissor não conhece o conteúdo assinado, utilizada em CoinJoins chaumianos e ecash.
 ---
 As assinaturas cegas de Chaum são uma forma de assinatura digital em que o emissor da assinatura não conhece o conteúdo da mensagem que está a assinar. No entanto, a assinatura pode ser posteriormente verificada com a mensagem original. Esta técnica foi desenvolvida pelo criptógrafo David Chaum em 1983.
 

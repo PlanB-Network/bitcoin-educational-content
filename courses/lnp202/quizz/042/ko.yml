@@ -1,0 +1,9 @@
+question: 강제 폐쇄의 주요 단점은 무엇인가요?
+answer: 타임락으로 차단된 자금
+wrong_answers:
+  - 부분적인 자금 손실
+  - 라이트닝 노드의 노후화
+  - 라이트닝 노드 동기화 해제
+explanation: |
+  자금이 타임락으로 차단되고 수수료가 높은 경우가 많습니다.
+reviewed: false

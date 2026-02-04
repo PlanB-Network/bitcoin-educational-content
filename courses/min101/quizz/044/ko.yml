@@ -1,0 +1,9 @@
+question: 비트코인 초기에는 주로 어떤 유형의 하드웨어로 채굴이 수행되었습니까?
+answer: CPU
+wrong_answers:
+  - GPU
+  - ASIC
+  - FPGA
+explanation: |
+  출시 당시 소프트웨어는 개인용 컴퓨터에서 실행되었으며 주로 프로세서(CPU)를 사용했습니다.
+reviewed: false

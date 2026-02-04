@@ -1,0 +1,9 @@
+question: Mitä lyhenne RPOW tarkoittaa?
+answer: Reusable Proofs of Work
+wrong_answers:
+  - Recursive Proofs of Work
+  - Random Proofs of Work
+  - Replayed Proofs of Work
+explanation: |
+  RPOW tarkoittaa uudelleenkäytettäviä ja vaihdettavia työntodisteita, joita Hal Finney ehdotti vuonna 2004.
+reviewed: false

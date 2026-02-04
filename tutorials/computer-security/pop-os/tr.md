@@ -451,24 +451,25 @@ Pop!OS, Pop!Shop aracılığıyla geniş bir yazılım yelpazesi sunar, ancak bi
 
 
 
-| Outil                        | Description                                | Commande d’installation                         |
+
+| Araç | Açıklama | Kurulum Komutu |
 | ---------------------------- | ------------------------------------------ | ----------------------------------------------- |
-| Firefox                      | Navigateur web libre et populaire          | `sudo apt install firefox`                      |
-| Brave                        | Navigateur web axé sur la confidentialité  | Installation via Pop!_Shop ou site officiel     |
-| Visual Studio Code (VS Code) | Éditeur de code puissant pour développeurs | `flatpak install flathub com.visualstudio.code` |
-| Git                          | Gestionnaire de versions                   | `sudo apt install git`                          |
-| Flatpak                      | Gestionnaire de paquets alternatif         | `sudo apt install flatpak`                      |
-| VLC                          | Lecteur multimédia polyvalent              | `sudo apt install vlc`                          |
-| GNOME Terminal               | Terminal par défaut                        | Préinstallé sur Pop!OS                          |
-| Curl                         | Outil de transfert de données en ligne     | `sudo apt install curl`                         |
-| Wget                         | Téléchargement de fichiers via HTTP/FTP    | `sudo apt install wget`                         |
-| Docker                       | Conteneurisation d’applications            | Installation via script officiel ou `apt`       |
-| Node.js                      | Environnement JavaScript côté serveur      | Installation via `apt` ou NodeSource            |
-| Python3                      | Langage de programmation                   | `sudo apt install python3 python3-pip`          |
-| GIMP                         | Éditeur d’image avancé                     | `sudo apt install gimp`                         |
-| Thunderbird                  | Client mail                                | `sudo apt install thunderbird`                  |
-| Transmission                 | Client BitTorrent léger                    | `sudo apt install transmission-gtk`             |
-| Htop                         | Moniteur de système interactif             | `sudo apt install htop`                         |
+| Firefox | Özgür ve popüler web tarayıcısı | `sudo apt install firefox` |
+| Brave | Gizlilik odaklı web tarayıcısı | Pop!_Shop veya resmi site üzerinden kurulum |
+| Visual Studio Code (VS Code) | Geliştiriciler için güçlü kod düzenleyici | `flatpak install flathub com.visualstudio.code` |
+| Git | Versiyon yöneticisi | `sudo apt install git` |
+| Flatpak | Alternatif paket yöneticisi | `sudo apt install flatpak` |
+| VLC | Çok yönlü medya oynatıcı | `sudo apt install vlc` |
+| GNOME Terminal | Varsayılan terminal | Pop!OS üzerinde önceden yüklü |
+| Curl | Çevrimiçi veri aktarım aracı | `sudo apt install curl` |
+| Wget | HTTP/FTP üzerinden dosya indirme | `sudo apt install wget` |
+| Docker | Uygulama konteynerleştirme | Resmi betik veya `apt` üzerinden kurulum |
+| Node.js | Sunucu tarafı JavaScript ortamı | `apt` veya NodeSource üzerinden kurulum |
+| Python3 | Programlama dili | `sudo apt install python3 python3-pip` |
+| GIMP | Gelişmiş resim düzenleyici | `sudo apt install gimp` |
+| Thunderbird | E-posta istemcisi | `sudo apt install thunderbird` |
+| Transmission | Hafif BitTorrent istemcisi | `sudo apt install transmission-gtk` |
+| Htop | Etkileşimli sistem monitörü | `sudo apt install htop` |
 
 ### Pop aracılığıyla kurulum! Shop (grafik arayüz)
 

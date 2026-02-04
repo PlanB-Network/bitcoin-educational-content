@@ -1,5 +1,6 @@
 ---
-term: TXID (TRANSAKTION TUNNISTE)
+term: Txid (siirron tunniste)
 
+definition: Bitcoin-rahansiirron yksilöllinen tunniste, joka lasketaan sen tietojen SHA256d-tiivisteestä.
 ---
 Yksilöllinen tunniste, joka liittyy jokaiseen Bitcoin-tapahtumaan. Se luodaan laskemalla transaktiotietojen `SHA256d`-hash. TXID toimii viitteenä tietyn transaktion löytämiseksi lohkoketjusta. Sitä käytetään myös viittaamaan UTXO:hon, joka on pohjimmiltaan edellisen transaktion TXID:n ja nimetyn ulostulon indeksin (kutsutaan myös "voutiksi") ketjutus. SegWitin jälkeisissä transaktioissa TXID ei enää ota huomioon transaktion todistajaa, mikä poistaa muokattavuuden.

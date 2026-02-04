@@ -1,0 +1,9 @@
+question: What was the block subsidy amount at the launch of Bitcoin in 2009?
+answer: 50 BTC
+wrong_answers:
+  - 25 BTC
+  - 12.5 BTC
+  - 100 BTC
+explanation: |
+  The initial subsidy was 50 BTC per block, before successive divisions.
+reviewed: false

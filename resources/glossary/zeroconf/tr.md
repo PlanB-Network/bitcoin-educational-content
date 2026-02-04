@@ -1,5 +1,6 @@
 ---
-term: ZEROCONF
+term: Zeroconf
+definition: Onaylanmamış bir işlemi kesinleşmiş sayan ve çift harcamaya karşı savunmasız olan riskli uygulama.
 ---
 
 Bir Bitcoin işleminin nihai olarak kabul edilmesi ve işlem aslında Blockchain'daki bir bloğa dahil edilmeden önce karşılığında ilgili eylemin (bir mal veya hizmet satışı gibi) gerçekleştirilmesine devam edilmesine yönelik riskli bir uygulama. Onaylanmamış işlemler veya zeroconf, henüz Ledger'ye geri dönülmez bir şekilde kaydedilmedikleri için çift harcama saldırılarına karşı savunmasızdır. Zeroconf, küçük ticari işlemler veya tanıdıklar arasındaki bir işlem gibi hızın öncelikli olduğu çok özel bağlamlarda düşünülebilir. Bu durumlarda, hızlı bir işlemin faydasına kıyasla çifte harcama riski genellikle kabul edilebilir olarak değerlendirilir. Bununla birlikte, önemli işlemlerde, özellikle de gönderenin bilinmediği durumlarda, işlemin değişmez olduğunu düşünmeden önce birkaç onay beklemek çok önemlidir. Genel olarak kabul edilen standart, 6 onay beklemektir; bu, işlemin nihai olarak kabul edilmesi için işlemi içeren bloktan sonra 5 bloğun daha kazılması gerektiği anlamına gelir.

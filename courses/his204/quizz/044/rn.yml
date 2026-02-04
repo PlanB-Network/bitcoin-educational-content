@@ -1,8 +1,9 @@
-question: Mirabeau yarafise uruhara runini mw’ishure ry’ubuhinga bw’umubiri. Ni nde canecane yahinduye?
-answer: Dupont de Nemours
+question: Mirabeau yarafise uruhara runini mw’ishure ry’ubuhinga bwa physiocratic. Ni nde canecane yahinduye?
+answer:  Dupont de Nemours
 wrong_answers:
-  - Faransuwa Keseni
+  - François Quesnay
   - Turgot
-  - Adamu Smith
+  - Adam Smith
 explanation: |
-  Mirabeau yahinduye Dupont de Nemours ngo abe umunyapolitike w’ivy’umubiri, ivyo bikaba vyatumye uwo wa nyuma aba umuvugizi mukuru w’iryo shure ry’ivyiyumviro.
+  Mirabeau yahinduye Dupont de Nemours ngo abe umunyapolitike w'umu physiocrat, ivyo bikaba vyatumye uwo wa nyuma aba umuvugizi mukuru w’iryo shure ry’ivyiyumviro.
+reviewed: true

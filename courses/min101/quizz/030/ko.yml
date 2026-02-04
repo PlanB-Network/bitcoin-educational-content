@@ -1,0 +1,9 @@
+question: 네 번째 반감기(halving)는 어느 블록 높이에서 발생했습니까?
+answer: 840,000
+wrong_answers:
+  - 880,000
+  - 860,000
+  - 900,000
+explanation: |
+  네 번째 반감기는 2024년 4월 20일, 블록 높이 840,000에서 발생했습니다.
+reviewed: false

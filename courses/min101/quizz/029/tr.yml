@@ -1,0 +1,9 @@
+question: Blok ödülü nelerden oluşur?
+answer: Sübvansiyon + ücretler
+wrong_answers:
+  - Sübvansiyon + zorluk
+  - Ücretler + nonce
+  - Hashrate + ücretler
+explanation: |
+  Ödül, blok sübvansiyonu ve dahil edilen işlemlerin tüm ücretlerinin toplamıdır.
+reviewed: false

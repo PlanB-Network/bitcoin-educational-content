@@ -1,6 +1,7 @@
 ---
-term: EINSCHREIBUNGEN
+term: Inscriptions
 
+definition: Beliebige Inhalte, die über das Ordinals-Protokoll in Satoshis eingeschrieben werden und digitale Artefakte erzeugen.
 ---
 Im Kontext der Ordinals-Theorie sind Inschriften beliebige Inhalte, die auf Sats eingraviert werden und sie in native digitale Bitcoin-Artefakte verwandeln. Inschriften werden durch Transaktionen vorgenommen, die den Inhalt der Informationen im Skript einer Taproot-Eingabe auf diese Weise offenlegen:
 

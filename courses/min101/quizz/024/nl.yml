@@ -1,0 +1,9 @@
+question: Welk fenomeen maakt de vertraging tussen twee blokken fundamenteel variabel?
+answer: Het probabilistische karakter van hashing
+wrong_answers:
+  - Het deterministische karakter van hashing
+  - Het recursieve karakter van hashing
+  - Het periodieke karakter van hashing
+explanation: |
+  Elke hash is een onafhankelijke poging, wat de ontdekkingstijden willekeurig maakt, zelfs bij een constante hashrate.
+reviewed: false

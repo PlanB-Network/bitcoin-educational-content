@@ -1,5 +1,5 @@
 question: คำสั่งใดที่ดึงที่อยู่ IP ภายในของ Umbrel ของคุณหากการเข้าถึงผ่าน umbrel.local ล้มเหลว?
-answer: ชื่อโฮสต์ -I
+answer: hostname -I
 wrong_answers:
   - ifconfig -usb
   - umbrel-ip --show

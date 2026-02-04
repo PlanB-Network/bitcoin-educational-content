@@ -2238,23 +2238,24 @@ Các tập lệnh này được sắp xếp theo danh mục và một tập lệ
 
 
 
-| Catégorie       | Description |
-|----------------|-------------|
-| **auth**       | Contient les scripts relatifs à l’authentification sur des services, dont l’accès anonyme ou l’énumération des utilisateurs. Exemples: `oracle-enum-users`, `ftp-anon`. |
-| **broadcast**  | Contient les scripts relatifs aux opérations de broadcast sur le réseau, notamment en vue d’exploiter et de découvrir certains services, hôtes ou protocoles reposant sur le broadcast (IPv6, wake on lan, IGMP, etc.). Exemples: `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
-| **brute**      | Contient les scripts relatifs aux opérations de brute force de l’authentification sur les services (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, etc.). Exemples: `ssh-brute`, `vnc-brute`. |
-| **default**    | Contient les scripts utilisés dans le cas par défaut (utilisation de `-sC`). Plusieurs critères sont utilisés afin de valider l’entrée d’un script dans cette catégorie dont la vitesse d’exécution, la structure de la sortie, la fiabilité du test, le caractère “intrusif” ou “risqué”, etc. |
-| **discovery**  | Contient les scripts relatifs à la découverte avancée du réseau et des services. On y retrouve par exemple l’énumération du contenu d’un partage SMB, d’une version d’un service VNC, des requêtes SNMP, etc. Exemples: `mysql-info`, `http-security-headers`. |
-| **dos**        | Contient les scripts pouvant causer un déni de service. Il peut s’agir de scripts créés pour exploiter une vulnérabilité de type déni de service ou alors de scripts ayant pour effet de bord un déni de service. Prudence donc (ils sont exclus de la catégorie `default`). Exemples: `http-slowloris`, `ipv6-ra-flood`. |
-| **exploit**    | Contient les scripts créés pour exploiter de manière directe une vulnérabilité. Exemples: `http-shellsock`, `smb-vuln-ms08-067`. |
-| **external**   | Contient les scripts qui nécessitent l’utilisation d’une ressource tierce, comme une base d’information en ligne. Cela indique notamment une tentative de connexion vers l’extérieur (attention à la confidentialité). Exemples: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
-| **fuzzer**     | Contient les scripts conçus pour envoyer des trames, paquets ou paramètres inattendus par un service. Cela permet notamment de causer des erreurs ou dysfonctionnements afin d’obtenir des pistes de vulnérabilité ou des informations techniques. Exemples: `dns-fuzz`, `http-form-fuzzer`. |
-| **intrusive**  | Contient les scripts qui sont catégorisés comme “risqués” d’un point de vue disponibilité, ou détection. Ils peuvent provoquer un crash du système ou être détectés comme malveillant par une solution de sécurité. Il s’agit de la catégorie inverse de `safe`. Exemples: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
-| **malware**    | Contient les scripts conçus pour détecter la présence d’élément caractéristique d’un malware, tel qu’un port en écoute communément utilisé par une backdoor connue. Exemples: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
-| **safe**       | Contient les scripts qui sont considérés comme sûrs d’un point de vue détection ou stabilité. Il s’agit de la catégorie inverse de `intrusive` et elle contient en grande majorité des scripts avancés d’identification de version ou de relevé d’élément de configuration. Exemples: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
-| **version**    | Contient les scripts qui permettent une détection avancée de version. Ils peuvent être utilisés en complément des Probes et Matchs étudiés précédemment quand la détection d’une version nécessite des opérations un peu plus complexes. Exemples: `http-php-version`, `vmware-version`. |
-| **vuln**       | Contient les scripts conçus pour détecter la présence de vulnérabilité connue (CVE) sans pour autant les exploiter (à l’inverse de la catégorie `exploit`). Ils se contentent en général de rapporter le statut “vulnérable” ou non d’un service. Exemples: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
 
+
+| Danh mục | Mô tả |
+|----------------|-------------|
+| **auth** | Chứa các tập lệnh liên quan đến xác thực trên các dịch vụ, bao gồm truy cập ẩn danh hoặc liệt kê người dùng. Ví dụ: `oracle-enum-users`, `ftp-anon`. |
+| **broadcast** | Chứa các tập lệnh liên quan đến các hoạt động quảng bá (broadcast) trên mạng, đặc biệt nhằm khai thác và khám phá một số dịch vụ, máy chủ hoặc giao thức dựa trên broadcast (IPv6, wake on lan, IGMP, v.v.). Ví dụ: `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
+| **brute** | Chứa các tập lệnh liên quan đến các hoạt động brute force xác thực trên các dịch vụ (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, v.v.). Ví dụ: `ssh-brute`, `vnc-brute`. |
+| **default** | Chứa các tập lệnh được sử dụng trong trường hợp mặc định (sử dụng `-sC`). Nhiều tiêu chí được sử dụng để xác thực việc đưa một tập lệnh vào danh mục này, bao gồm tốc độ thực thi, cấu trúc đầu ra, độ tin cậy của bài kiểm tra, tính chất “xâm nhập” hoặc “rủi ro”, v.v. |
+| **discovery** | Chứa các tập lệnh liên quan đến việc khám phá mạng và dịch vụ nâng cao. Tại đây, chúng ta tìm thấy ví dụ như liệt kê nội dung của một chia sẻ SMB, phiên bản của dịch vụ VNC, các truy vấn SNMP, v.v. Ví dụ: `mysql-info`, `http-security-headers`. |
+| **dos** | Chứa các tập lệnh có thể gây ra từ chối dịch vụ (denial of service). Đó có thể là các tập lệnh được tạo ra để khai thác lỗ hổng loại từ chối dịch vụ hoặc các tập lệnh có tác dụng phụ là từ chối dịch vụ. Vì vậy hãy thận trọng (chúng bị loại trừ khỏi danh mục `default`). Ví dụ: `http-slowloris`, `ipv6-ra-flood`. |
+| **exploit** | Chứa các tập lệnh được tạo ra để khai thác trực tiếp một lỗ hổng. Ví dụ: `http-shellsock`, `smb-vuln-ms08-067`. |
+| **external** | Chứa các tập lệnh yêu cầu sử dụng tài nguyên của bên thứ ba, chẳng hạn như cơ sở dữ liệu thông tin trực tuyến. Điều này đặc biệt cho thấy một nỗ lực kết nối ra bên ngoài (chú ý đến tính bảo mật). Ví dụ: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
+| **fuzzer** | Chứa các tập lệnh được thiết kế để gửi các khung hình, gói tin hoặc tham số không mong muốn bởi một dịch vụ. Điều này đặc biệt cho phép gây ra lỗi hoặc trục trặc để có được các manh mối về lỗ hổng hoặc thông tin kỹ thuật. Ví dụ: `dns-fuzz`, `http-form-fuzzer`. |
+| **intrusive** | Chứa các tập lệnh được phân loại là “rủi ro” từ góc độ tính khả dụng hoặc phát hiện. Chúng có thể gây ra sự cố hệ thống hoặc bị phát hiện là độc hại bởi một giải pháp bảo mật. Đây là danh mục ngược lại với `safe`. Ví dụ: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
+| **malware** | Chứa các tập lệnh được thiết kế để phát hiện sự hiện diện của các yếu tố đặc trưng của phần mềm độc hại, chẳng hạn như một cổng đang lắng nghe thường được sử dụng bởi một cửa sau (backdoor) đã biết. Ví dụ: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
+| **safe** | Chứa các tập lệnh được coi là an toàn từ góc độ phát hiện hoặc ổn định. Đây là danh mục ngược lại với `intrusive` và phần lớn chứa các tập lệnh nâng cao để nhận dạng phiên bản hoặc thu thập các yếu tố cấu hình. Ví dụ: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
+| **version** | Chứa các tập lệnh cho phép phát hiện phiên bản nâng cao. Chúng có thể được sử dụng bổ sung cho các Probes và Matchs đã nghiên cứu trước đó khi việc phát hiện phiên bản yêu cầu các thao tác phức tạp hơn một chút. Ví dụ: `http-php-version`, `vmware-version`. |
+| **vuln** | Chứa các tập lệnh được thiết kế để phát hiện sự hiện diện của các lỗ hổng đã biết (CVE) mà không nhất thiết phải khai thác chúng (ngược lại với danh mục `exploit`). Chúng thường chỉ dừng lại ở việc báo cáo trạng thái “có lỗ hổng” hoặc không của một dịch vụ. Ví dụ: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
 
 Về mặt kỹ thuật, các danh mục mà một tập lệnh thuộc về được chỉ ra trực tiếp trong mã của nó.
 

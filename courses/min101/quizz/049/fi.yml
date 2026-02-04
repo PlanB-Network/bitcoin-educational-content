@@ -1,0 +1,9 @@
+question: Mitä käytännön ongelmaa louhintapooli ensisijaisesti pyrkii ratkaisemaan?
+answer: Tulojen vaihtelu
+wrong_answers:
+  - Verkon vaikeusaste
+  - Lohkojen koko
+  - ASIC-laitteiden hinta
+explanation: |
+  Yhdistämällä hashraten pool muuttaa erittäin epäsäännöllisen tulon säännöllisemmiksi maksuiksi. Tämä vähentää louhijan tulojen vaihtelua.
+reviewed: false

@@ -685,13 +685,14 @@ Masasisho haya ya mara kwa mara ni nyenzo kuu, hasa kwa vifaa ambavyo vimekatish
 
 
 
-| **Aspect** | **GrapheneOS** | **LineageOS** |
+
+| **Kengezaji** | **GrapheneOS** | **LineageOS** |
 |------------|----------------|---------------|
-| **Compatibilité** | Pixels uniquement | Centaines d'appareils |
-| **Sécurité** | Mitigations avancées | Sécurité AOSP standard |
-| **Google Play** | Sandboxé optionnel | Installation classique possible |
-| **Installation** | Interface web + USB | Procédure manuelle technique |
-| **Philosophie** | Sécurité avant tout | Équilibre et liberté de choix |
+| **Uwiano** | Pixels tu | Mamia ya vifaa |
+| **Usalama** | Kupunguza zaidi | Usalama wa AOSP wa kawaida |
+| **Google Play** | Sandbox ya hiari | Ujifungaji wa kitamaduni inawezekana |
+| **Ujifungaji** | Kiolesura cha wavuti + USB | Utaratibu wa mikono wa taknia |
+| **Falsafa** | Usalama juu ya yote | Usawa na uhuru wa kuchagua |
 
 ### Mapendekezo ya matumizi
 

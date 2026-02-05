@@ -1256,7 +1256,7 @@ Setelah aplikasi terinstall, cukup buka untuk mengakses explorer Anda sendiri.
 
 Untuk mempelajari lebih lanjut tentang cara menggunakan Mempool.Space explorer, saya merekomendasikan tutorial komprehensif ini:
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Lightning Node
 
@@ -1472,7 +1472,7 @@ Ketika node dimulai untuk pertama kalinya, ia belum mengenal peer mana pun. Namu
 
 Ketika node di-restart setelah pernah digunakan, Core pertama-tama mencoba untuk terhubung kembali ke peers keluar yang terdaftar sebelum pemutusan, informasi yang disimpan dalam file `anchors.dat`. Kemudian, ia melihat buku alamat IP-nya **`peers.dat`**, yang menyimpan daftar peers yang ditemui sebelumnya, untuk terhubung kembali dengan mereka. Ini hanyalah file lokal, yang diperbarui dan disimpan oleh Core. Namun, untuk node baru yang baru saja diluncurkan, kedua file ini kosong, karena ia belum pernah berkomunikasi dengan Node Bitcoin lain.
 
-Dalam kasus ini, perangkat lunak menanyakan _**DNS seeds**_. Ini adalah [server yang dikelola oleh pengembang ekosistem yang diakui] (https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), yang mengembalikan daftar alamat IP dari node yang diduga aktif. Alamat-alamat ini memungkinkan node baru untuk memulai koneksi pertamanya dan meminta data yang diperlukan dari IBD. Berikut ini adalah daftar *benih DNS* yang aktif hingga saat ini (Agustus 2025):
+Dalam kasus ini, perangkat lunak menanyakan _**DNS seeds**_. Ini adalah [server yang dikelola oleh pengembang ekosistem yang diakui](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), yang mengembalikan daftar alamat IP dari node yang diduga aktif. Alamat-alamat ini memungkinkan node baru untuk memulai koneksi pertamanya dan meminta data yang diperlukan dari IBD. Berikut ini adalah daftar *benih DNS* yang aktif hingga saat ini (Agustus 2025):
 
 Dalam kasus node baru, perangkat lunak menanyakan _**DNS seeds**_. Ini adalah [server yang dikelola oleh pengembang ekosistem yang diakui](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), yang mengembalikan daftar alamat IP dari node yang dianggap aktif. Alamat-alamat ini memungkinkan node baru untuk memulai koneksi pertamanya dan meminta data yang diperlukan dari IBD. Berikut adalah daftar DNS seeds yang aktif hingga saat ini (Agustus 2025):
 

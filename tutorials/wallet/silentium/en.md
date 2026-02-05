@@ -70,7 +70,7 @@ To install it as a native application on iOS, press the share button (square wit
 ### Portfolio creation
 
 
-On first launch, choose "Create Wallet" to generate a new portfolio, or "Restore Wallet" to restore from an existing recovery phrase.
+On first launch, choose "Create Wallet" to generate a new wallet, or "Restore Wallet" to restore from an existing recovery phrase.
 
 
 Select "Create Wallet". The application generates a 12-word phrase that you must write down carefully. This phrase is the only way to recover your funds. Even on testnet, adopt good backup practices. Press "Continue" after saving your phrase.

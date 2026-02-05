@@ -1,6 +1,6 @@
 ---
 name: ArkadeOS
-description: Complete guide to the Arkade portfolio and Ark Protocol
+description: Complete guide to the Arkade wallet and Ark Protocol
 ---
 
 ![cover](assets/cover.webp)
@@ -9,7 +9,7 @@ description: Complete guide to the Arkade portfolio and Ark Protocol
 The Bitcoin network faces a major challenge: scalability. While the main layer (layer 1) offers unrivalled security and decentralization, it can only handle a limited number of transactions per second. Lightning Network has emerged as a promising second-layer (layer 2) solution, enabling fast, low-cost payments. However, Lightning imposes its own constraints: channel management, the need for incoming liquidity and a technical complexity that may put off new users.
 
 
-This is the background to **Ark**, a new layer 2 protocol designed to offer a simplified user experience without sacrificing sovereignty. **ArkadeOS** (or Arkade) is the first major implementation of this protocol, offering a next-generation Bitcoin portfolio.
+This is the background to **Ark**, a new layer 2 protocol designed to offer a simplified user experience without sacrificing sovereignty. **ArkadeOS** (or Arkade) is the first major implementation of this protocol, offering a next-generation Bitcoin wallet.
 
 
 This tutorial will guide you through the world of Arkade. We'll explore how the Ark protocol works, how to install and configure the Arkade wallet, and how to use it to send and receive bitcoins instantly, confidentially and without the usual Lightning Network frictions.
@@ -56,7 +56,7 @@ This mechanism offers two major advantages:
 ## ArkadeOS presentation
 
 
-ArkadeOS is the concrete application that makes the Ark protocol available to the general public. Developed by Ark Labs, it's a complete ecosystem comprising a portfolio (Wallet), a server (Operator) and developer tools.
+ArkadeOS is the concrete application that makes the Ark protocol available to the general public. Developed by Ark Labs, it's a complete ecosystem comprising a wallet (Wallet), a server (Operator) and developer tools.
 
 
 For the end user, Arkade takes the form of an elegant, intuitive web wallet (PWA - Progressive Web App). It hides the cryptographic complexity of VTXOs and rounds behind a familiar interface. With Arkade, you have an address to receive, a button to send, and a transaction history, just like a classic wallet, but with the power of Ark's immediacy and confidentiality.
@@ -96,7 +96,7 @@ Once installed, Arkade launches like a native application, full-screen and witho
 
 ### Portfolio creation
 
-On first launch, you will be asked to configure your portfolio.
+On first launch, you will be asked to configure your wallet.
 
 
 
@@ -122,7 +122,7 @@ Once in your wallet, you're taken to Arkade's main interface. Here you'll find y
 
 ### Connection to ASP
 
-By default, the portfolio is automatically configured to connect to the official Arkade Labs ASP. You can check which server you're connected to by going to **Settings** > **About** where you'll see the server address (currently `https://arkade.computer`).
+By default, the wallet is automatically configured to connect to the official Arkade Labs ASP. You can check which server you're connected to by going to **Settings** > **About** where you'll see the server address (currently `https://arkade.computer`).
 
 
 In the current version of Arkade (Beta), it is not possible to manually modify the ASP server. The application automatically connects to the official Arkade Labs ASP. In the future, users may be able to choose between different ASPs according to their preferences, but this feature is not yet available.
@@ -158,7 +158,7 @@ Once you've set up your wallet, you're ready to explore Arkade's capabilities. T
 ### Receiving funds
 
 
-To fund your portfolio, press **"Receive "**. Arkade offers three methods of receipt:
+To fund your wallet, press **"Receive "**. Arkade offers three methods of receipt:
 
 
 
@@ -217,10 +217,10 @@ A technical feature of the Ark protocol is that VTXOs have a **limited lifetime*
 **To keep your VTXOs active, they need to be "refreshed" before they expire. Refreshing consists of participating in a new "round" where your VTXOs close to expiration are exchanged for new VTXOs with a new full validity period (≈30 days on Arkade Labs ASP).
 
 
-The Arkade portfolio manages this process automatically: the application constantly monitors the status of your VTXOs and automatically refreshes them a few days before they expire. As long as you open your application regularly (at least once a week), your VTXOs will automatically be kept active.
+The Arkade wallet manages this process automatically: the application constantly monitors the status of your VTXOs and automatically refreshes them a few days before they expire. As long as you open your application regularly (at least once a week), your VTXOs will automatically be kept active.
 
 
-**If you don't open your portfolio for more than 4 weeks, your VTXOs will expire. However, you don't lose your funds: you retain the option of recovering them via a **unilateral exit** (see next section). This procedure is more costly and slower, but it ensures that your funds remain recoverable.
+**If you don't open your wallet for more than 4 weeks, your VTXOs will expire. However, you don't lose your funds: you retain the option of recovering them via a **unilateral exit** (see next section). This procedure is more costly and slower, but it ensures that your funds remain recoverable.
 
 
 The need to open the application regularly makes Arkade a **"Hot Wallet"** designed for day-to-day spending, not a safe for long-term savings. To store bitcoins without using them for long periods, prefer a cold wallet hardware.
@@ -297,7 +297,7 @@ If you encounter any problems or have any questions while using Arkade, the appl
 
 - Go to **Settings** > **Support**.
 - You'll find several options:
-  - Customer support**: Get help with your portfolio, report bugs or ask questions.
+  - Customer support**: Get help with your wallet, report bugs or ask questions.
   - Secure Chat**: Your conversations are secure and private, with history maintained between sessions.
   - Bug Reports**: Report any problems you encounter, including steps to reproduce them.
   - Track Progress**: Keep track of your support tickets and conversations at all times.

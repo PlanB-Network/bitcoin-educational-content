@@ -5,5 +5,5 @@ wrong_answers:
   - Rischio di perdita delle chiavi private
   - Rischio di perdita e monitoraggio
 explanation: |
-  Un nodo di terze parti può analizzare o bloccare le vostre transazioni, o addirittura associare i vostri dati alla vostra identità.
+  Un nodo di terze parti può analizzare o bloccare le tue transazioni, o addirittura associare i tuoi dati alla tua identità.
 reviewed: true

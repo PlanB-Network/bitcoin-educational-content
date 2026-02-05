@@ -1,4 +1,4 @@
-question: Perché un singolo wallet non è considerato un partecipante al network Bitcoin?
+question: Perché un wallet non è considerato un partecipante al network Bitcoin?
 answer: Perché non convalida le transazioni o i blocchi
 wrong_answers:
   - Perché non è in grado di gestire le chiavi private generate

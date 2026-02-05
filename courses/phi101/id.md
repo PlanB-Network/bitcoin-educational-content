@@ -65,6 +65,7 @@ Mengapa memberi judul kursus ini: sejarah kebebasan? Karena kita perlu memahami 
 
 Pada saat yang sama, Auguste Comte berkata: "Seseorang tidak sepenuhnya mengenal sebuah ilmu sampai seseorang mengenal sejarahnya." Kebenaran ini dapat diterapkan pada ide kebebasan.
 Memang, kebebasan bukanlah ide baru. Ini adalah warisan yang diturunkan dari generasi ke generasi. Seluruh sejarah peradaban menjadi saksi perjuangan tanpa henti untuk kebebasan.
+
 ![image](assets/id/002.webp)
 
 Namun, tujuan dari kursus ini bukan hanya untuk menerangi sejarah kebebasan, tetapi juga, dan yang lebih penting, untuk mengembangkan penilaian kritis. Memang, sejarah saja tidak cukup untuk menilai masa kini dan masa depan. Ini perlu disertai dengan refleksi kritis dan penilaian terhadap kesalahan masa lalu. Inilah kontribusi filsafat. Itulah mengapa saya memberi judul kursus ini: sejarah filsafat tentang kebebasan. Memang tentang mengeksplorasi bagaimana filsuf telah memahami kebebasan sepanjang zaman.
@@ -76,6 +77,7 @@ Dari asal-usulnya, memiliki tujuan ganda:
 - Pertama, adalah untuk memberikan makna pada konsep yang samar dan bingung. Apa yang baik, benar, adil, indah? Sama seperti fungsi sejarah adalah untuk menerangi masa lalu, demikian pula filsafat adalah seni mendefinisikan konsep dengan benar. Itulah mengapa kita perlu memulai kursus ini dengan memahami apa itu kebebasan.
 
 ![image](assets/id/003.webp)
+
 Kebebasan adalah konsep yang mencakup berbagai varian, yang semuanya merupakan kemungkinan deklinasi dari realitas yang sama: kebebasan politik, kebebasan ekonomi, kebebasan hati nurani, kebebasan berbicara, kebebasan beragama, kebebasan berserikat, dan lain-lain. Realitas apa yang kita bicarakan?
 
 Kebebasan dapat didefinisikan secara sederhana sebagai kekuatan untuk memilih, dengan apa yang dimiliki oleh diri sendiri. Ini adalah kemampuan bawaan dari manusia. Ini adalah realitas yang pada dasarnya individual. Hanya individu yang dapat berpikir dan bertindak, yaitu, membuat pilihan. Ini tidak berarti bahwa individu itu sendirian, bahwa dia tidak berhutang apa-apa kepada orang lain. Sebaliknya, dia hidup dalam masyarakat dan harus bekerja sama dengan orang lain demi kebaikannya sendiri. Namun, setiap orang tetap bebas untuk bekerja sama atau tidak dan harus menanggung tanggung jawab atas pilihannya.
@@ -100,6 +102,7 @@ Mereka yang membela filsafat pertama di Prancis adalah Fisiokrat, dengan Franço
 > Bukan karena ada hukum yang ada properti, tetapi karena ada properti yang ada hukum. (_Property and Law_).
 
 ![image](assets/id/005.webp)
+
 Untuk Turgot dan Say, murid-murid Quesnay, terdapat hukum alam yang independen dari keinginan para legislator, yang berlaku untuk semua orang dan mendahului setiap masyarakat. Filsafat ini langsung berasal dari skolastisisme abad pertengahan, Stoik, Aristoteles, dan Sophocles. Hukum yang tidak tertulis baik sebelum maupun lebih unggul dari hukum tertulis karena mereka berasal dari sifat manusia dan akal.
 
 ![image](assets/id/006.webp)
@@ -149,7 +152,8 @@ Bastiat memberi tahu kita masih ada dua bentuk perampasan legal:
 > Perampasan eksternal disebut perang, penaklukan, koloni. Perampasan internal disebut pajak, posisi, monopoli. ([_Cobden and the League_](http://bastiat.org/fr/introduction_cobden_ligue.html), Pendahuluan).
 
 Dalam [_The Physiology of Plunder_](http://bastiat.org/fr/physiologie_de_la_spoliation.html), dia menjelaskan lebih lanjut:
-Hukum yang benar dan adil bagi manusia adalah: Pertukaran layanan secara bebas yang diperdebatkan. Perampasan terdiri dari pelarangan dengan kekerasan atau penipuan kebebasan berdebat untuk menerima layanan tanpa memberikan satu pun. Perampasan dengan kekerasan dilakukan sebagai berikut: Seseorang menunggu orang lain menghasilkan sesuatu, kemudian merebutnya dari dia, dengan senjata di tangan. Ini secara formal dikecam oleh Dekalog: Jangan mencuri. Ketika itu terjadi dari individu ke individu, itu disebut pencurian dan mengarah ke penjara; ketika itu dari bangsa ke bangsa, itu disebut penaklukan dan mengarah ke kemuliaan.
+
+Hukum yang benar dan adil bagi manusia adalah: Pertukaran layanan secara bebas yang diperdebatkan. Perampasan terdiri dari pelarangan dengan kekerasan atau penipuan kebebasan berdebat untuk menerima layanan tanpa memberikan satu pun. Perampasan dengan kekerasan dilakukan sebagai berikut: Seseorang menunggu orang lain menghasilkan sesuatu, kemudian merebutnya dari dia, dengan senjata di tangan. Sepuluh Perintah Allah secara resmi mengutuknya: Jangan mencuri : Jangan mencuri. Ketika itu terjadi dari individu ke individu, itu disebut pencurian dan mengarah ke penjara; ketika itu dari bangsa ke bangsa, itu disebut penaklukan dan mengarah ke kemuliaan.
 
 ### Sejarah Perampasan
 
@@ -250,6 +254,7 @@ Mises menambahkan bahwa peningkatan kondisi manusia dengan demikian dimungkinkan
 > Mengenai historiografi Marxis, kita juga bisa merujuk ke Friedrich Hayek dalam _Kapitalisme dan Para Sejarawan_ (University of Chicago Press, 1954) dan babnya yang berjudul "Sejarah dan Politik". Menurut Hayek, bukan industrialisasi yang membuat pekerja menderita, seperti legenda gelap kapitalisme yang dipropagandakan oleh Marxisme mengklaim. Dia mencatat:
 > Sejarah nyata hubungan antara kapitalisme dan munculnya proletariat hampir kebalikan dari apa yang teori-teori ekspropriasi massa ini sarankan.
 > Sebelum Revolusi Industri, sebagian besar orang hidup di masyarakat pedesaan dan bergantung pada pertanian untuk kelangsungan hidup mereka. Mereka memiliki sedikit untuk dijual di pasar, yang membatasi peluang mereka dan standar hidup mereka. Semua orang mengharapkan untuk hidup dalam kemiskinan absolut dan membayangkan nasib serupa untuk keturunannya. Tidak ada yang merasa marah oleh situasi yang tampaknya tidak terhindarkan.
+
 > ![image](assets/id/015.webp)
 
 Dengan munculnya industrialisasi, peluang baru muncul, menciptakan permintaan yang meningkat untuk tenaga kerja. Untuk pertama kalinya, orang-orang tanpa tanah atau sumber daya signifikan dapat menjual tenaga kerja mereka ke pabrik dan perusahaan manufaktur sebagai imbalan untuk upah, memastikan keamanan untuk masa depan.

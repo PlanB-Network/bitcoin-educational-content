@@ -25,7 +25,7 @@ Dari Zaman Kuno hingga Pencerahan, kebebasan meningkat seiring masyarakat merang
 
 Selamat datang di kursus PHI101!
 
-Pelatihan ini mengundang Anda untuk mengeksplorasi evolusi kebebasan sepanjang sejarah dengan menganalisis aliran pemikiran besar yang membentuknya. Anda akan menemukan bagaimana konsep kebebasan dibangun selama berabad-abad, baik dalam oposisi maupun kerja sama dengan kekuasaan, melalui perjalanan sejarah dari Zaman Kuno hingga perdebatan kontemporer.
+Kursus ini mengajak Anda untuk mengeksplorasi evolusi kebebasan sepanjang sejarah dengan menganalisis aliran pemikiran besar yang membentuknya. Anda akan menemukan bagaimana konsep kebebasan dibangun selama berabad-abad, baik dalam oposisi maupun kerja sama dengan kekuasaan, melalui perjalanan sejarah dari Zaman Kuno hingga perdebatan kontemporer.
 
 **Bagian 1: Kebebasan atau Kekuasaan**  
 Kami akan memulai dengan tinjauan tentang dua filosofi politik utama yang telah menandai sejarah: kebebasan dan kekuasaan. Bagian ini akan mengkaji pandangan para pemikir seperti Frédéric Bastiat tentang produksi versus perampasan, Lord Acton yang melihat kebebasan sebagai penggerak sejarah, Karl Marx dengan teori perjuangan kelasnya, dan Murray Rothbard yang menentang negara terhadap masyarakat. Pengantar konseptual ini akan memberikan kerangka analisis untuk periode-periode sejarah.

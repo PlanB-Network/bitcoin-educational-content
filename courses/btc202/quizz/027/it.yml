@@ -5,5 +5,5 @@ wrong_answers:
   - Memorizza solo i blocchi più recenti
   - Mantiene solo il set UTXO, non la blockchain
 explanation: |
-  Un nodo SPV verifica le transazioni attraverso le intestazioni dei blocchi e le Merkle proofs, senza memorizzare i dati completi.
+  Un nodo SPV verifica le transazioni attraverso le intestazioni dei blocchi e le Merkle proof, senza memorizzare i dati completi.
 reviewed: true

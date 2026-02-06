@@ -1,0 +1,12 @@
+id: 5620edc2-5459-4d3e-b4c6-4ef58d7a10d0
+name: Test category
+category: investment
+links: {}
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: '2026-02-06'
+    urgency: 1
+    contributor_names:
+      - kmdev
+    reward: 0

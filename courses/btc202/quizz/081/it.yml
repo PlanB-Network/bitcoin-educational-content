@@ -5,5 +5,5 @@ wrong_answers:
   - mempoolexpiry
   - mempoolsize
 explanation: |
-  maxmempool imposta la dimensione massima della Mempool (300 MB per impostazione predefinita). Quando è pieno, le transazioni meno redditizie vengono espulse.
+  maxmempool imposta la dimensione massima della Mempool (300 MB per impostazione predefinita). Quando è piena, le transazioni meno redditizie vengono espulse.
 reviewed: true

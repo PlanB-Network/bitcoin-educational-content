@@ -1,10 +1,10 @@
 ---
 name: Varm opp hjemmet ditt mens du utvinner bitcoin
-goal: Gjenbruk en Antminer S9 til Attakai, en DIY-varmer for hjemmemining, med veiledet oppsett.
+goal: Omgjør en Antminer S9 til en DIY-varmeovn for hjemme-mining, med veiledet oppsett.
 objectives:
   - Forstå grunnleggende prinsipper for Bitcoin-mining
   - Skaff en brukt Antminer S9 på en trygg måte
-  - Bygg Attakai DIY-varmeren
+  - Bygg DIY-varmeovnen for hjemme-mining
   - Konfigurer BraiinsOS+ og bli med i et gruvebasseng
 ---
 
@@ -437,7 +437,7 @@ Liste over utstyr og lenker
 - [Vonets vap11g-300](https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W/ref=sr_1_3_sspa?__mk_fr_FR=ÅMÅŽÕÑ&crid=13Q33UHRKCKG5&keywords=vonet&qid=1676819146&s=electronics&sprefix=vonet%2Celectronics%2C98&sr=1-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
 - [Valgfri ANTELA smart plugg](https://www.amazon.fr/dp/B09YYMVXJZ/ref=twister_B0B5X46QLW?_encoding=UTF8&psc=1)
 
-# Attakai - Modifisering av programvaren til en Antminer S9
+# Endring av programvaren til en Antminer S9
 
 <partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
 
@@ -567,7 +567,7 @@ På denne første siden kan du observere maskinens sanntidsytelse.
 
 ![image](assets/en/045.webp)
 
-# Attakai - Modifikasjon av vifte
+# Endring av viftene
 
 <partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
 
@@ -691,7 +691,7 @@ Og for den siste finishen, koble til Vonet-broen til Ethernet-porten og dens str
 
 Og der har du det, gratulerer! Du har nettopp erstattet hele den mekaniske delen av din miner. Du bør nå høre mye mindre støy.
 
-# Attakai - Konfigurasjon
+# Konfigurasjon av DIY-oppvarming
 
 <partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>
 

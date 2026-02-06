@@ -1,10 +1,10 @@
 ---
 name: Heat your home while mining bitcoins
-goal: Repurpose an Antminer S9 into Attakai, a DIY heater for home mining, with guided setup.
+goal: Repurpose an Antminer S9 into a DIY heater for home mining, with guided setup.
 objectives:
   - Understand Bitcoin mining fundamentals
   - Source a used Antminer S9 safely
-  - Build the Attakai DIY heater
+  - Build the DIY heater for home mining
   - Configure BraiinsOS+ and join a mining pool
 ---
 
@@ -449,7 +449,7 @@ List of equipment and links
 - [Vonets vap11g-300](https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W)
 - [Optional ANTELA smart plug](https://www.amazon.fr/dp/B09YYMVXJZ)
 
-# Attakai - Modifying the Software of an Antminer S9
+# Modifying the Software of an Antminer S9
 
 <partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
 
@@ -581,7 +581,7 @@ On this first page, you can observe the real-time performance of your machine.
 
 ![image](assets/en/045.webp)
 
-# Attakai - Fan Modification
+# Modification of the Fans
 
 <partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
 
@@ -710,7 +710,7 @@ And for the finishing touch, connect the Vonet bridge to the Ethernet port and i
 
 And there you have it, congratulations! You have just replaced the entire mechanical part of your miner. You should now hear much less noise.
 
-# Attakai - Configuration
+# DIY Heating Configuration
 
 <partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>
 

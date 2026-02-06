@@ -1,11 +1,11 @@
 ---
 name: Bitcoin madenciliği yaparken evinizi ısıtın
-goal: Bir Antminer S9'u Attakai'ye dönüştürmek, evde madencilik için DIY bir ısıtıcıya, rehberli kurulumla.
+goal: Antminer S9'u ev madenciliği için DIY ısıtıcıya dönüştürün, yönlendirilmiş kurulumla.
 objectives: 
 
   - Bitcoin madenciliğinin temellerini anlamak
   - Kullanılmış bir Antminer S9'u güvenli şekilde temin etmek
-  - Attakai DIY ısıtıcıyı inşa etmek
+  - Ev madenciliği için DIY ısıtıcıyı yapın
   - BraiinsOS+ yapılandırın ve bir madencilik havuzuna katılın
 
 ---
@@ -696,7 +696,7 @@ Ekipman listesi ve bağlantılar
 - [Opsiyonel ANTELA akıllı fiş](https://www.amazon.fr/dp/B09YYMVXJZ)
 
 
-# Attakai - Antminer S9 Yazılımının Değiştirilmesi
+# Antminer S9 Yazılımının Değiştirilmesi
 
 
 <partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
@@ -895,7 +895,7 @@ Bu ilk sayfada, makinenizin gerçek zamanlı performansını gözlemleyebilirsin
 ![image](assets/en/045.webp)
 
 
-# Attakai - Fan Modifikasyonu
+# Fanların Değiştirilmesi
 
 
 <partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
@@ -1089,7 +1089,7 @@ Ve son dokunuş için Vonet köprüsünü Ethernet bağlantı noktasına ve Supp
 Ve işte oldu, tebrikler! Az önce Miner'nızın tüm mekanik parçasını değiştirdiniz. Artık çok daha az gürültü duyuyor olmalısınız.
 
 
-# Attakai - Konfigürasyon
+# DIY Isıtma Yapılandırması
 
 
 <partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>

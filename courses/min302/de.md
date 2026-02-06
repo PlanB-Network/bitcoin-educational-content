@@ -1,10 +1,10 @@
 ---
 name: Heizen Sie Ihr Zuhause beim Bitcoin-Mining
-goal: Zweckentfremden Sie einen Antminer S9 zu Attakai, einer DIY-Heizung für das Mining zu Hause, mit geführter Einrichtung.
+goal: Einen Antminer S9 in eine DIY-Heizung für Home-Mining umfunktionieren, mit geführter Einrichtung.
 objectives:
   - Die Grundlagen des Bitcoin-Minings verstehen
   - Einen gebrauchten Antminer S9 sicher beschaffen
-  - Die Attakai-DIY-Heizung bauen
+  - Bauen Sie die DIY-Heizung für Home-Mining
   - BraiinsOS+ konfigurieren und einem Mining-Pool beitreten
 ---
 
@@ -442,7 +442,7 @@ Liste des Materials und Links
 - [Vonets vap11g-300](https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W/ref=sr_1_3_sspa?__mk_fr_FR=ÅMÅŽÕÑ&crid=13Q33UHRKCKG5&keywords=vonet&qid=1676819146&s=electronics&sprefix=vonet%2Celectronics%2C98&sr=1-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
 - [Optionale ANTELA Smart Plug](https://www.amazon.fr/dp/B09YYMVXJZ/ref=twister_B0B5X46QLW?_encoding=UTF8&psc=1)
 
-# Attakai - Änderung der Software eines Antminer S9
+# Modifikation der Software eines Antminer S9
 
 <partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
 
@@ -575,7 +575,7 @@ Auf dieser ersten Seite können Sie die Leistung Ihrer Maschine in Echtzeit übe
 
 ![image](assets/en/045.webp)
 
-# Attakai - Lüftermodifikation
+# Modifikation der Lüfter
 
 <partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
 
@@ -704,7 +704,7 @@ Und als letzter Schliff schließen Sie den Vonet-Bridge am Ethernet-Port an sein
 
 Und voilà, Bravo! Sie haben die gesamte mechanische Komponente Ihres Miners ausgetauscht. Sie sollten jetzt viel weniger Lärm hören.
 
-# Attakai - Konfiguration
+# Konfiguration der DIY-Heizung
 
 <partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>
 

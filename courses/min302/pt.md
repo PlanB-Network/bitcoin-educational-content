@@ -1,10 +1,10 @@
 ---
 name: Aqueça sua casa enquanto minera bitcoins
-goal: Reaproveitar um Antminer S9 como Attakai, um aquecedor DIY para mineração doméstica, com configuração guiada.
+goal: Reaproveitar um Antminer S9 como aquecedor DIY para mineração doméstica, com configuração guiada.
 objectives:
   - Compreender os fundamentos da mineração de Bitcoin
   - Obter um Antminer S9 usado com segurança
-  - Construir o aquecedor DIY Attakai
+  - Construir o aquecedor DIY para mineração doméstica
   - Configurar o BraiinsOS+ e juntar-se a um pool de mineração
 ---
 
@@ -445,7 +445,7 @@ Lista de materiais e links
 - [Vonets vap11g-300](https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W/ref=sr_1_3_sspa?__mk_fr_FR=ÅMÅŽÕÑ&crid=13Q33UHRKCKG5&keywords=vonet&qid=1676819146&s=electronics&sprefix=vonet%2Celectronics%2C98&sr=1-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
 - [Tomada conectada opcional ANTELA](https://www.amazon.fr/dp/B09YYMVXJZ/ref=twister_B0B5X46QLW?_encoding=UTF8&psc=1)
 
-# Attakai - modificação do software de um Antminer S9
+# Modificação do software de um Antminer S9
 
 <partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
 
@@ -580,7 +580,7 @@ Nesta primeira página, você poderá observar o desempenho da sua máquina em t
 
 ![image](assets/en/045.webp)
 
-# Attakai - Modificação dos ventiladores
+# Modificação dos ventiladores
 
 <partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
 
@@ -706,7 +706,7 @@ E para o toque final, conecte a ponte Vonet à porta Ethernet com sua fonte de a
 
 E pronto, parabéns! Você acabou de substituir toda a parte mecânica do seu minerador. Agora você deve ouvir muito menos barulho.
 
-# Attakai - Configuração
+# Configuração do aquecimento DIY
 
 <partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>
 

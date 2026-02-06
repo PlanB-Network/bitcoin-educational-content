@@ -1,11 +1,11 @@
 ---
 name: Grejte svoj dom dok rudarišete bitkoine
-goal: Prenameniti Antminer S9 u Attakai, DIY grejač za kućno rudarenje, uz vođeno podešavanje.
+goal: Prenamijenite Antminer S9 u DIY grijač za kućno rudarenje, sa vođenom postavkom.
 objectives: 
 
   - Razumeti osnove rudarenja bitkoina
   - Bezbedno nabaviti polovni Antminer S9
-  - Izgraditi Attakai DIY grejač
+  - Izgradite DIY grijač za kućno rudarenje
   - Konfigurisati BraiinsOS+ i pridružiti se rudarskom poolu
 
 ---
@@ -692,7 +692,7 @@ Lista opreme i linkovi
 - [Opcioni ANTELA pametni utikač](https://www.amazon.fr/dp/B09YYMVXJZ)
 
 
-# Attakai - Modifikacija softvera Antminer S9
+# Modifikacija softvera Antminer S9
 
 
 <partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
@@ -891,7 +891,7 @@ Na ovoj prvoj stranici možete posmatrati performanse vaše mašine u realnom vr
 ![image](assets/en/045.webp)
 
 
-# Attakai - modifikacija ventilatora
+# Modifikacija ventilatora
 
 
 <partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
@@ -1085,7 +1085,7 @@ I za završni detalj, povežite Vonet bridge sa Ethernet portom i njegovim napaj
 I eto ga, čestitamo! Upravo ste zamenili ceo mehanički deo vašeg uređaja za rudarenje. Sada bi trebalo da čujete mnogo manje buke.
 
 
-# Attakai - Konfiguracija
+# Podešavanje DIY grejanja
 
 
 <partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>

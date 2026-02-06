@@ -1,11 +1,11 @@
 ---
 name: Verwarm je huis terwijl je bitcoins mint
-goal: Hergebruik een Antminer S9 als Attakai, een doe-het-zelfverwarming voor thuismining, met begeleide installatie.
+goal: Hergebruik een Antminer S9 als DIY-verwarming voor thuismining, met begeleide installatie.
 objectives: 
 
   - Begrijp de basisprincipes van Bitcoin-mining
   - Veilig een gebruikte Antminer S9 aanschaffen
-  - Bouw de Attakai DIY-verwarming
+  - Bouw de DIY-verwarming voor thuismining
   - BraiinsOS+ configureren en lid worden van een miningpool
 
 ---
@@ -696,7 +696,7 @@ Lijst met apparatuur en links
 - [Optionele ANTELA smart plug](https://www.amazon.fr/dp/B09YYMVXJZ)
 
 
-# Attakai - De software van een Antminer S9 aanpassen
+# Wijziging van de software van een Antminer S9
 
 
 <partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
@@ -895,7 +895,7 @@ Op deze eerste pagina kun je de realtime prestaties van je machine bekijken.
 ![image](assets/en/045.webp)
 
 
-# Attakai - Aanpassing ventilator
+# Wijziging van de ventilatoren
 
 
 <partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
@@ -1089,7 +1089,7 @@ En voor de finishing touch sluit je de Vonet bridge aan op de Ethernetpoort en d
 En daar heb je het, gefeliciteerd! Je hebt zojuist het gehele mechanische deel van je Miner vervangen. Je zou nu veel minder geluid moeten horen.
 
 
-# Attakai - Configuratie
+# Configuratie van DIY-verwarming
 
 
 <partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>

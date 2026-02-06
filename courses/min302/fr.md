@@ -1,17 +1,14 @@
 ---
 name: Chauffez votre maison tout en minant des bitcoins
-goal: Réutiliser un Antminer S9 en Attakai, un chauffage DIY pour le minage à domicile, avec une configuration guidée.
+goal: Réutiliser un Antminer S9 comme chauffage DIY pour le minage domestique, avec configuration guidée.
 objectives:
   - Comprendre les fondamentaux du minage de Bitcoin
   - Se procurer un Antminer S9 d’occasion en toute sécurité
-  - Construire le chauffage DIY Attakai
+  - Construire le chauffage DIY pour le minage domestique
   - Configurer BraiinsOS+ et rejoindre un pool de minage
 ---
 
 # Construisez votre premier chauffage Bitcoin DIY
-
-
-
 
 Ce cours est construit autour d’Attakai, un projet DIY pratique qui transforme un mineur S9 d’occasion en chauffage Bitcoin domestique.
 
@@ -468,7 +465,7 @@ Liste du matériel et liens
 
 - [Optionnel prise connectée ANTELA](https://www.amazon.fr/dp/B09YYMVXJZ/ref=twister_B0B5X46QLW?_encoding=UTF8&psc=1)
 
-# Attakai - modification du logiciel d’un Antminer S9
+# Modification du logiciel d’un Antminer S9
 
 <partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
 
@@ -607,7 +604,7 @@ Sur cette première page vous pourrez observer les performances de votre machine
 
 ![image](assets/en/045.webp)
 
-# Attakai - Modification des ventilateurs
+# Modification des ventilateurs
 
 <partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
 
@@ -739,7 +736,7 @@ Et pour la touche finale, branchez le bridge Vonet sur le port Ethernet à son a
 
 Et voilà, bravo ! Vous venez de remplacer l’ensemble de la partie mécanique de votre mineur. Vous devriez maintenant entendre beaucoup moins de bruit.
 
-# Attakai - Paramétrage
+# Paramétrage du chauffage DIY
 
 <partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>
 

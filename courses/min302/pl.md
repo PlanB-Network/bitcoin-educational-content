@@ -1,11 +1,11 @@
 ---
 name: Ogrzewaj swój dom podczas kopania bitcoinów
-goal: Przekształć Antminer S9 w Attakai, grzejnik DIY do domowego kopania, z prowadzoną konfiguracją.
+goal: Przekształć Antminer S9 w grzejnik DIY do domowego kopania, z przewodnikiem konfiguracji.
 objectives: 
 
   - Zrozum podstawy kopania bitcoina
   - Bezpiecznie pozyskaj używany Antminer S9
-  - Zbuduj grzejnik DIY Attakai
+  - Zbuduj grzejnik DIY do domowego kopania
   - Skonfiguruj BraiinsOS+ i dołącz do puli wydobywczej
 
 ---
@@ -696,7 +696,7 @@ Lista sprzętu i linki
 - [Opcjonalna inteligentna wtyczka ANTELA](https://www.amazon.fr/dp/B09YYMVXJZ)
 
 
-# Attakai - Modyfikowanie oprogramowania Antminer S9
+# Modyfikacja oprogramowania Antminer S9
 
 
 <partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
@@ -895,7 +895,7 @@ Na tej pierwszej stronie można obserwować wydajność urządzenia w czasie rze
 ![image](assets/en/045.webp)
 
 
-# Attakai - Modyfikacja wentylatora
+# Modyfikacja wentylatorów
 
 
 <partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
@@ -1089,7 +1089,7 @@ Na koniec należy podłączyć mostek Vonet do portu Ethernet i zasilania Supply
 No i proszę, gratulacje! Właśnie wymieniłeś całą część mechaniczną Miner. Teraz powinieneś słyszeć znacznie mniej hałasu.
 
 
-# Attakai - Konfiguracja
+# Konfiguracja ogrzewania DIY
 
 
 <partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>

@@ -1,11 +1,11 @@
 ---
 name: Pasha moto nyumba yako unapochimba bitcoin
-goal: Kutumia tena Antminer S9 kuwa Attakai, hita ya DIY kwa uchimbaji wa nyumbani, yenye usanidi unaoongozwa.
+goal: Tumia tena Antminer S9 kama joto la DIY kwa uchimbaji wa nyumbani, pamoja na usanidi ulioongozwa.
 objectives: 
 
   - Kuelewa misingi ya uchimbaji wa Bitcoin
   - Pata Antminer S9 iliyotumika kwa usalama
-  - Jenga hita ya DIY ya Attakai
+  - Jenga joto la DIY kwa uchimbaji wa nyumbani
   - Sanidi BraiinsOS+ na ujiunge na bwawa la uchimbaji
 
 ---
@@ -487,7 +487,7 @@ Orodha ya vifaa na viungo
 - [Vonets vap11g-300](https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W)
 - [Plagi mahiri ya ANTELA ya hiari](https://www.amazon.fr/dp/B09YYMVXJZ)
 
-# Attakai - Kurekebisha Programu ya Antminer S9
+# Marekebisho ya Programu ya Antminer S9
 
 <partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
 
@@ -625,7 +625,7 @@ Katika ukurasa huu wa kwanza, unaweza kuona utendakazi wa wakati halisi wa mashi
 
 ![image](assets/en/045.webp)
 
-# Attakai - Marekebisho ya Mashabiki
+# Marekebisho ya Mashambulia
 
 <partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
 
@@ -761,7 +761,7 @@ Na kwa kugusa kumaliza, kuunganisha daraja la Vonet kwenye bandari ya Ethernet n
 
 Na hapo unayo, pongezi! Umebadilisha sehemu nzima ya mitambo ya Miner yako. Unapaswa sasa kusikia kelele kidogo.
 
-# Attakai - Usanidi
+# Usanidi wa Joto la DIY
 
 <partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>
 

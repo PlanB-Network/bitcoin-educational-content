@@ -1,11 +1,11 @@
 ---
 name: Shyushya inzu yawe mu gihe uriko ucukura bitcoins
-goal: Gusubiza gukoresha Antminer S9 uyigira Attakai, igikoresho ca DIY co gushusha inzu mu bucukuzi bwo muhira, hamwe n’itunganirizwa riyobowe.
+goal: Guhindura Antminer S9 ibe heater ya DIY yo gucukura mu rugo, hamwe n'imikorere iyobowe.
 objectives: 
 
   - Gutahura ivy’ishimikiro vy’ubucukuzi bwa Bitcoin
   - Kuronka Antminer S9 yakoreshejwe mu buryo butekanye
-  - Kwubaka igikoresho ca DIY co gushusha ca Attakai
+  - Wubake heater ya DIY yo gucukura mu rugo
   - Gutunganya BraiinsOS+ no kwifatanya n’itsinda ryo gucukura
 
 ---
@@ -679,7 +679,7 @@ Urutonde rw'ibikoresho n'amahuza (link)
 - [Optional ANTELA smart plug](https://www.amazon.fr/dp/B09YYMVXJZ)
 
 
-# Attakai - Guhindura porogarame y'ikinyabiziga S9.
+# Guhindura software ya Antminer S9
 
 
 <partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
@@ -877,7 +877,7 @@ Kuri iyi paji ya mbere, urashobora kwihweza ingene imashini yawe ikora mu gihe n
 ![image](assets/en/045.webp)
 
 
-# Attakai - Guhindura fana
+# Guhindura imiyoboro y'umwuka
 
 
 <partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
@@ -1071,7 +1071,7 @@ Mukwongera ko utwanyuma, huza ikiraro ca Vonet ku cambu ca Ethernet na power sup
 Ubu rero urafise vyose, turagukeje! Ubu ushoboye gusubirize igice cose c'ubuhinga bwa Miner yawe. Ubu rero urashobora kumva urusaku ruke cane.
 
 
-# Attakai - Gutunganywa
+# Gutegura ubushyuhe bwa DIY
 
 
 <partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>

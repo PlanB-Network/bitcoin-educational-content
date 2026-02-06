@@ -1,11 +1,11 @@
 ---
 name: Värm ditt hem medan du bryter bitcoin
-goal: Återanvänd en Antminer S9 som Attakai, en DIY-värmare för hembrytning, med guidad installation.
+goal: Återanvänd en Antminer S9 som en DIY-värmare för hemmamining, med guidad installation.
 objectives: 
 
   - Förstå grunderna i Bitcoin-brytning
   - Skaffa en begagnad Antminer S9 på ett säkert sätt
-  - Bygg Attakai DIY-värmaren
+  - Bygg DIY-värmaren för hemmamining
   - Konfigurera BraiinsOS+ och gå med i en miningpool
 
 ---
@@ -696,7 +696,7 @@ Lista över utrustning och länkar
 - [ANTELA smart plug (tillval)](https://www.amazon.fr/dp/B09YYMVXJZ)
 
 
-# Attakai - Modifiering av programvaran i en Antminer S9
+# Ändring av programvaran för en Antminer S9
 
 
 <partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
@@ -895,7 +895,7 @@ På den första sidan kan du se hur din maskin presterar i realtid.
 ![image](assets/en/045.webp)
 
 
-# Attakai - Modifiering av fläkt
+# Ändring av fläktarna
 
 
 <partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
@@ -1089,7 +1089,7 @@ Och som pricken över i:et ansluter du Vonet-bryggan till Ethernet-porten och de
 Och där har du det, grattis! Du har just bytt ut hela den mekaniska delen av din Miner. Du bör nu höra mycket mindre ljud.
 
 
-# Attakai - Konfiguration
+# Konfiguration av DIY-uppvärmning
 
 
 <partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>

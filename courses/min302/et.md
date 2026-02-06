@@ -1,10 +1,10 @@
 ---
 name: Kütke oma kodu bitcoine kaevandades
-goal: Muutke Antminer S9 Attakai'ks, isetegemise küttekehaks koduseks kaevandamiseks, koos juhendatud seadistusega.
+goal: Muuda Antminer S9 DIY kütteseadmeks koduseks kaevandamiseks, juhendatud seadistusega.
 objectives:
   - Mõista Bitcoini kaevandamise aluseid
   - Hangige turvaliselt kasutatud Antminer S9
-  - Ehita Attakai DIY-küttekeha
+  - Ehitage DIY kütteseade koduseks kaevandamiseks
   - Seadista BraiinsOS+ ja liitu kaevandusbasseiniga
 ---
 
@@ -439,7 +439,7 @@ Seadmete ja linkide loetelu
 - [Vonets vap11g-300](https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W/ref=sr_1_3_sspa?__mk_fr_FR=ÅMÅŽÕÑ&crid=13Q33UHRKCKG5&keywords=vonet&qid=1676819146&s=electronics&sprefix=vonet%2Celectronics%2C98&sr=1-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
 - [Valikuline ANTELA nutikas pistik](https://www.amazon.fr/dp/B09YYMVXJZ/ref=twister_B0B5X46QLW?_encoding=UTF8&psc=1)
 
-# Attakai - Antminer S9 tarkvara muutmine
+# Antminer S9 tarkvara muutmine
 
 <partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
 
@@ -570,7 +570,7 @@ Sellel esimesel lehel saate jälgida oma masina reaalajas toimivust.
 
 ![image](assets/en/045.webp)
 
-# Attakai - Ventilaatori Modifikatsioon
+# Ventilaatorite muutmine
 
 <partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
 
@@ -695,7 +695,7 @@ Ja viimaseks lihviks ühendage Vonet sild Etherneti pordiga ja selle toiteallika
 
 Ja ongi valmis, palju õnne! Olete just asendanud oma kaevuri kogu mehaanilise osa. Nüüd peaks müra oluliselt vähem olema.
 
-# Attakai - Konfiguratsioon
+# DIY kütte seadistamine
 
 <partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>
 

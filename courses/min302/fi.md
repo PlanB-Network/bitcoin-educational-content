@@ -1,10 +1,10 @@
 ---
 name: Lämmitä kotisi louhimalla bitcoineja
-goal: Muunna Antminer S9 Attakaiksi, tee-se-itse-lämmittimeksi kotilouhintaa varten, ohjatulla käyttöönotolla.
+goal: Muuta Antminer S9 DIY-lämmittimeksi kotitambointiin, ohjatussa asennuksessa.
 objectives:
   - Ymmärrä Bitcoin-louhinnan perusteet
   - Hanki käytetty Antminer S9 turvallisesti
-  - Rakenna Attakai DIY -lämmitin
+  - Rakenna DIY-lämmitin kotitambointiin
   - Määritä BraiinsOS+ ja liity louhintapooliin
 ---
 
@@ -440,7 +440,7 @@ Laitteiden ja linkkien luettelo
 - [Vonets vap11g-300](https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W/ref=sr_1_3_sspa?__mk_fr_FR=ÅMÅŽÕÑ&crid=13Q33UHRKCKG5&keywords=vonet&qid=1676819146&s=electronics&sprefix=vonet%2Celectronics%2C98&sr=1-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
 - [Valinnainen ANTELA älypistoke](https://www.amazon.fr/dp/B09YYMVXJZ/ref=twister_B0B5X46QLW?_encoding=UTF8&psc=1)
 
-# Attakai - Antminer S9 -ohjelmiston muokkaus
+# Antminer S9:n ohjelmiston muokkaaminen
 
 <partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
 
@@ -568,7 +568,7 @@ Tällä ensimmäisellä sivulla voit tarkkailla koneesi reaaliaikaista suoritusk
 
 ![kuva](assets/en/045.webp)
 
-# Attakai - Tuulettimen muokkaus
+# Tuulettimien muokkaaminen
 
 <partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
 
@@ -692,7 +692,7 @@ Ja viimeisenä silauksena, yhdistä Vonet-silta Ethernet-porttiin ja sen virtal�
 
 Ja siinä se, onneksi olkoon! Olet juuri vaihtanut louhijasi koko mekaanisen osan. Nyt sinun pitäisi kuulla huomattavasti vähemmän melua.
 
-# Attakai - Kokoonpano
+# DIY-lämmityksen asetukset
 
 <partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>
 

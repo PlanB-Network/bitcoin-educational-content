@@ -1,10 +1,10 @@
 ---
 name: Hangatkan rumah Anda sambil menambang bitcoin
-goal: Mengalihfungsikan Antminer S9 menjadi Attakai, pemanas DIY untuk penambangan di rumah, dengan penyiapan terpandu.
+goal: Mengubah Antminer S9 menjadi pemanas DIY untuk penambangan rumah, dengan pengaturan terpandu.
 objectives:
   - Memahami dasar-dasar penambangan Bitcoin
   - Mendapatkan Antminer S9 bekas dengan aman
-  - Membangun pemanas DIY Attakai
+  - Bangun pemanas DIY untuk penambangan rumah
   - Konfigurasikan BraiinsOS+ dan bergabung dengan pool penambangan
 ---
 
@@ -445,7 +445,7 @@ Daftar peralatan dan tautan
 - [Vonets vap11g-300](https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W/ref=sr_1_3_sspa?__mk_fr_FR=ÅMÅŽÕÑ&crid=13Q33UHRKCKG5&keywords=vonet&qid=1676819146&s=electronics&sprefix=vonet%2Celectronics%2C98&sr=1-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
 - [Colokan pintar ANTELA opsional](https://www.amazon.fr/dp/B09YYMVXJZ/ref=twister_B0B5X46QLW?_encoding=UTF8&psc=1)
 
-# Attakai - Memodifikasi Perangkat Lunak Antminer S9
+# Modifikasi Perangkat Lunak Antminer S9
 
 <partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
 
@@ -576,7 +576,7 @@ Di halaman pertama ini, Anda dapat mengamati kinerja mesin Anda secara real-time
 
 ![image](assets/en/045.webp)
 
-# Attakai - Modifikasi Kipas
+# Modifikasi Kipas
 
 <partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
 
@@ -703,7 +703,7 @@ Dan untuk sentuhan akhir, sambungkan jembatan Vonet ke port Ethernet dan catu da
 
 Dan selesai, selamat! Anda baru saja mengganti seluruh bagian mekanis dari penambang Anda. Sekarang Anda seharusnya mendengar jauh lebih sedikit kebisingan.
 
-# Attakai - Konfigurasi
+# Konfigurasi Pemanas DIY
 
 <partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>
 

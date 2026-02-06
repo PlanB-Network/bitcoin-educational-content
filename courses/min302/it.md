@@ -1,10 +1,10 @@
 ---
 name: Riscalda la tua casa mentre estrai bitcoin
-goal: Riutilizzare un Antminer S9 come Attakai, un riscaldatore fai-da-te per il mining domestico, con configurazione guidata.
+goal: Riutilizzare un Antminer S9 come riscaldatore DIY per il mining domestico, con configurazione guidata.
 objectives:
   - Comprendere i fondamenti del mining di Bitcoin
   - Procurarsi in sicurezza un Antminer S9 usato
-  - Costruire il riscaldatore DIY Attakai
+  - Costruire il riscaldatore DIY per il mining domestico
   - Configurare BraiinsOS+ e unirsi a un pool di mining
 ---
 
@@ -457,7 +457,7 @@ Elenco del materiale e link
 - [Vonets vap11g-300](https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W/ref=sr_1_3_sspa?__mk_fr_FR=ÅMÅŽÕÑ&crid=13Q33UHRKCKG5&keywords=vonet&qid=1676819146&s=electronics&sprefix=vonet%2Celectronics%2C98&sr=1-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
 - [Presa intelligente opzionale ANTELA](https://www.amazon.fr/dp/B09YYMVXJZ/ref=twister_B0B5X46QLW?_encoding=UTF8&psc=1)
 
-# Attakai - modifica del software di un Antminer S9
+# Modifica del software di un Antminer S9
 
 <partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
 
@@ -593,7 +593,7 @@ In questa prima pagina potrai osservare le prestazioni della tua macchina in tem
 
 ![image](assets/en/045.webp)
 
-# Attakai - Modifica delle ventole
+# Modifica delle ventole
 
 <partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
 
@@ -719,7 +719,7 @@ E per il tocco finale, collega il bridge Vonet alla porta Ethernet con il suo al
 
 Ecco fatto, bravo! Hai appena sostituito l'intera parte meccanica del tuo minatore. Ora dovresti sentire molto meno rumore.
 
-# Attakai - Configurazione
+# Configurazione del riscaldamento DIY
 
 <partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>
 

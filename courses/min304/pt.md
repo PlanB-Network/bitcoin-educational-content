@@ -29,7 +29,7 @@ Os guias passo a passo orientam você por todo o processo para que possa constru
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Bem-vindo ao MIN 302, o curso sobre o projeto Attakai. Ajelex, Jim e Rogzy irão guiá-lo através dos elementos essenciais da mineração de Bitcoin, depois acompanhá-lo passo a passo na construção do seu Attakai, um sistema de aquecimento doméstico DIY feito a partir de um S9 usado. Esperamos que você aproveite o curso e embarque na aventura da mineração doméstica!
+Bem-vindo ao MIN 304, o curso sobre o projeto Attakai. Ajelex, Jim e Rogzy irão guiá-lo através dos elementos essenciais da mineração de Bitcoin, depois acompanhá-lo passo a passo na construção do seu Attakai, um sistema de aquecimento doméstico DIY feito a partir de um S9 usado. Esperamos que você aproveite o curso e embarque na aventura da mineração doméstica!
 
 Este treinamento leva você ao coração da indústria de mineração de Bitcoin, oferecendo uma compreensão dos aspectos teóricos e práticos. Seja você um iniciante ou alguém já familiarizado com o assunto, este curso o ajudará a entender os desafios econômicos e técnicos relacionados à mineração, enquanto realiza um projeto prático de reutilização de um ASIC para aquecimento doméstico.
 

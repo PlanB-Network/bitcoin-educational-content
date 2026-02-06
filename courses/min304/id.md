@@ -30,7 +30,7 @@ Jika Anda memerlukan bantuan dengan pengaturan Anda, sebuah grup Telegram telah 
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Selamat datang di MIN 302, kursus tentang proyek Attakai. Ajelex, Jim dan Rogzy akan memandu Anda melalui elemen-elemen penting penambangan Bitcoin, kemudian menemani Anda langkah demi langkah dalam membangun Attakai Anda, sebuah pemanas rumah DIY yang dibuat dari S9 bekas. Kami berharap kursus ini akan menyenangkan bagi Anda dan Anda akan memulai petualangan home mining!
+Selamat datang di MIN 304, kursus tentang proyek Attakai. Ajelex, Jim dan Rogzy akan memandu Anda melalui elemen-elemen penting penambangan Bitcoin, kemudian menemani Anda langkah demi langkah dalam membangun Attakai Anda, sebuah pemanas rumah DIY yang dibuat dari S9 bekas. Kami berharap kursus ini akan menyenangkan bagi Anda dan Anda akan memulai petualangan home mining!
 
 Pelatihan ini membenamkan Anda ke dalam jantung industri penambangan Bitcoin dengan menawarkan pemahaman tentang aspek teoritis dan praktisnya. Baik Anda pemula atau sudah familiar dengan topik ini, perjalanan ini akan memungkinkan Anda memahami isu-isu ekonomi dan teknis yang terkait dengan penambangan, sambil mewujudkan proyek praktis penggunaan ulang ASIC untuk pemanas rumah.
 

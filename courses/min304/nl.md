@@ -41,7 +41,7 @@ Stapsgewijze handleidingen leiden je door het hele proces zodat je Attakai thuis
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
 
-Welkom bij MIN 302, de cursus over het Attakai-project. Ajelex, Jim en Rogzy begeleiden je door de essentiële elementen van Bitcoin-mining en begeleiden je vervolgens stap voor stap bij het bouwen van je Attakai, een doe-het-zelf thuisverwarmingssysteem gemaakt van een gebruikte S9. We hopen dat je van de cursus geniet en aan het thuismining-avontuur begint!
+Welkom bij MIN 304, de cursus over het Attakai-project. Ajelex, Jim en Rogzy begeleiden je door de essentiële elementen van Bitcoin-mining en begeleiden je vervolgens stap voor stap bij het bouwen van je Attakai, een doe-het-zelf thuisverwarmingssysteem gemaakt van een gebruikte S9. We hopen dat je van de cursus geniet en aan het thuismining-avontuur begint!
 
 
 Deze training neemt je mee naar het hart van de Bitcoin Mining industrie en biedt zowel theoretische als praktische kennis. Of je nu een beginner bent of al bekend met het onderwerp, deze cursus helpt je de economische en technische aspecten van Mining te begrijpen, terwijl je een praktisch project uitvoert om een ASIC te hergebruiken voor thuisverwarming.

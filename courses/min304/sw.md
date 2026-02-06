@@ -30,7 +30,7 @@ Miongozo ya hatua kwa hatua inakuongoza katika mchakato mzima ili uweze kujenga 
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Karibu kwenye MIN 302, kozi kuhusu mradi wa Attakai. Ajelex, Jim na Rogzy watawaongoza kupitia vipengele muhimu vya uchimbaji wa Bitcoin, kisha watawaandamana hatua kwa hatua katika ujenzi wa Attakai yako, kifaa cha joto cha nyumbani cha DIY kilichotengenezwa kutoka kwa S9 iliyotumika. Tunatumaini kozi itakuwa ya kufurahisha kwako na utaanza safari ya uchimbaji wa nyumbani!
+Karibu kwenye MIN 304, kozi kuhusu mradi wa Attakai. Ajelex, Jim na Rogzy watawaongoza kupitia vipengele muhimu vya uchimbaji wa Bitcoin, kisha watawaandamana hatua kwa hatua katika ujenzi wa Attakai yako, kifaa cha joto cha nyumbani cha DIY kilichotengenezwa kutoka kwa S9 iliyotumika. Tunatumaini kozi itakuwa ya kufurahisha kwako na utaanza safari ya uchimbaji wa nyumbani!
 
 Mafunzo haya yanakuzamisha katika moyo wa tasnia ya uchimbaji wa Bitcoin kwa kukupatia uelewa wa vipengele vyake vya kinadharia na vitendo. Iwe wewe ni mwanafunzi mpya au tayari umejifunza kuhusu mada hii, safari hii itakuruhusu kuelewa masuala ya kiuchumi na kiufundi yanayohusiana na uchimbaji, huku ukitekeleza mradi wa vitendo wa kutumia tena ASIC kwa ajili ya joto la nyumbani.
 

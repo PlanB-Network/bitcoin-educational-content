@@ -29,7 +29,7 @@ Schritt-für-Schritt-Anleitungen führen Sie durch den gesamten Prozess, sodass 
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Willkommen bei MIN 302, dem Kurs über das Attakai-Projekt. Ajelex, Jim und Rogzy führen Sie durch die wesentlichen Elemente des Bitcoin-Minings und begleiten Sie dann Schritt für Schritt beim Bau Ihres Attakai, einer DIY-Hausheizung, die aus einem gebrauchten S9 hergestellt wird. Wir hoffen, dass Ihnen der Kurs gefällt und dass Sie sich auf das Abenteuer des Home-Minings einlassen!
+Willkommen bei MIN 304, dem Kurs über das Attakai-Projekt. Ajelex, Jim und Rogzy führen Sie durch die wesentlichen Elemente des Bitcoin-Minings und begleiten Sie dann Schritt für Schritt beim Bau Ihres Attakai, einer DIY-Hausheizung, die aus einem gebrauchten S9 hergestellt wird. Wir hoffen, dass Ihnen der Kurs gefällt und dass Sie sich auf das Abenteuer des Home-Minings einlassen!
 
 Dieser Kurs führt Sie in die Welt des Bitcoin-Minings ein, indem er Ihnen theoretische und praktische Aspekte vermittelt. Ob Sie Anfänger sind oder bereits mit dem Thema vertraut sind, dieser Kurs wird Ihnen helfen, die wirtschaftlichen und technischen Herausforderungen des Minings zu verstehen und ein praktisches Projekt zur Wiederverwendung eines ASICs für die Heimheizung durchzuführen.
 

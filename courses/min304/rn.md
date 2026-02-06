@@ -32,7 +32,7 @@ Inzira z'intambwe ku ntambwe zikuyobora mu nzira yose kugira ngo ushobore kubaka
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
 
-Murakaza neza kuri MIN 302, isomo ku mushinga wa Attakai. Ajelex, Jim na Rogzy bazakuyobora mu bintu by'ibanze by'ubucukuzi bwa Bitcoin, hanyuma bakuyobore intambwe ku ntambwe mu kubaka Attakai yawe, sisitemu yo gushyushya mu rugo wakora wenyine yakozwe muri S9 yakoreshejwe. Twizera ko isomo rizakwishimisha kandi ko uzatangira ibihe by'ubucukuzi mu rugo!
+Murakaza neza kuri MIN 304, isomo ku mushinga wa Attakai. Ajelex, Jim na Rogzy bazakuyobora mu bintu by'ibanze by'ubucukuzi bwa Bitcoin, hanyuma bakuyobore intambwe ku ntambwe mu kubaka Attakai yawe, sisitemu yo gushyushya mu rugo wakora wenyine yakozwe muri S9 yakoreshejwe. Twizera ko isomo rizakwishimisha kandi ko uzatangira ibihe by'ubucukuzi mu rugo!
 
 
 Iri menyerezwa rigutwara mu mutima w’uruganda rwa Bitcoin mining, riguha ubumenyi bw’ivyiyumviro n’ubumenyi bw’ibikorwa. Waba uri uwutangura canke uri uwumaze kumenya neza ibi turiko turavuga, iki cigwa kizogufasha gutahura ibijanye n'ubutunzi be n’ubuhinga bwa mining, mu gihe uriko urakora umugambi ngirakamaro wo gusubira guha ubushobozi bundi ASIC wifashisha mu gutuma muhira hashuha.

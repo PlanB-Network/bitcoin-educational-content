@@ -41,7 +41,7 @@ Przewodniki krok po kroku przeprowadzą cię przez cały proces, abyś mógł zb
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
 
-Witamy w MIN 302, kursie o projekcie Attakai. Ajelex, Jim i Rogzy poprowadzą Cię przez kluczowe elementy wydobywania Bitcoinów, a następnie będą Ci towarzyszyć krok po kroku w budowie Twojego Attakai, systemu ogrzewania domu DIY wykonanego z używanego S9. Mamy nadzieję, że kurs Ci się spodoba i wyruszysz w przygodę z domowym wydobyciem!
+Witamy w MIN 304, kursie o projekcie Attakai. Ajelex, Jim i Rogzy poprowadzą Cię przez kluczowe elementy wydobywania Bitcoinów, a następnie będą Ci towarzyszyć krok po kroku w budowie Twojego Attakai, systemu ogrzewania domu DIY wykonanego z używanego S9. Mamy nadzieję, że kurs Ci się spodoba i wyruszysz w przygodę z domowym wydobyciem!
 
 
 Szkolenie to przenosi w samo serce branży Bitcoin Mining, zapewniając zarówno wiedzę teoretyczną, jak i praktyczną. Niezależnie od tego, czy jesteś początkującym, czy już zaznajomionym z tematem, ten kurs pomoże Ci zrozumieć ekonomiczne i techniczne aspekty Mining, jednocześnie realizując praktyczny projekt zmiany przeznaczenia ASIC do ogrzewania domu.

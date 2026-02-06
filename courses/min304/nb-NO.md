@@ -29,7 +29,7 @@ Trinn-for-trinn-veiledninger leder deg gjennom hele prosessen slik at du kan byg
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Velkommen til MIN 302, kurset om Attakai-prosjektet. Ajelex, Jim og Rogzy vil guide deg gjennom de essensielle elementene i Bitcoin-mining, og deretter følge deg trinn for trinn i byggingen av din Attakai, et DIY hjemmeoppvarmingssystem laget fra en brukt S9. Vi håper du liker kurset og kaster deg ut i hjemme-mining-eventyret!
+Velkommen til MIN 304, kurset om Attakai-prosjektet. Ajelex, Jim og Rogzy vil guide deg gjennom de essensielle elementene i Bitcoin-mining, og deretter følge deg trinn for trinn i byggingen av din Attakai, et DIY hjemmeoppvarmingssystem laget fra en brukt S9. Vi håper du liker kurset og kaster deg ut i hjemme-mining-eventyret!
 
 Denne opplæringen tar deg med inn i kjernen av Bitcoin-miningindustrien ved å gi deg en forståelse av både teoretiske og praktiske aspekter. Enten du er nybegynner eller allerede kjent med emnet, vil dette kurset hjelpe deg med å forstå de økonomiske og tekniske utfordringene knyttet til mining, mens du fullfører et praktisk prosjekt med å gjenbruke en ASIC til hjemmeklimaoppvarming.
 

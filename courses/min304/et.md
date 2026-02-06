@@ -29,7 +29,7 @@ Samm-sammulised juhendid viivad teid läbi kogu protsessi, et saaksite ehitada A
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Tere tulemast MIN 302-sse, Attakai projekti kursusele. Ajelex, Jim ja Rogzy juhendavad teid Bitcoin'i kaevandamise oluliste elementide kaudu, seejärel saadavad teid samm-sammult teie Attakai ehitamisel, mis on kasutatud S9-st valmistatud DIY kodune küttesüsteem. Loodame, et naudit kursust ja alustad koduse kaevandamise seiklust!
+Tere tulemast MIN 304-sse, Attakai projekti kursusele. Ajelex, Jim ja Rogzy juhendavad teid Bitcoin'i kaevandamise oluliste elementide kaudu, seejärel saadavad teid samm-sammult teie Attakai ehitamisel, mis on kasutatud S9-st valmistatud DIY kodune küttesüsteem. Loodame, et naudit kursust ja alustad koduse kaevandamise seiklust!
 
 See koolitus viib teid Bitcoini kaevandamise tööstuse südamesse, pakkudes teoreetilisi ja praktilisi teadmisi. Olenemata sellest, kas olete algaja või juba teema kohta teadlik, aitab see kursus teil mõista kaevandamise majanduslikke ja tehnilisi aspekte ning viia ellu praktiline projekt ASIC-seadme taaskasutamiseks kodukütteks.
 

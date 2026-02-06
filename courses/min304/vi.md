@@ -29,7 +29,7 @@ Các hướng dẫn từng bước dẫn bạn qua toàn bộ quy trình để b
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Chào mừng bạn đến với MIN 302, khóa học về dự án Attakai. Ajelex, Jim và Rogzy sẽ hướng dẫn bạn qua các yếu tố cần thiết của khai thác Bitcoin, sau đó đồng hành cùng bạn từng bước trong việc xây dựng Attakai của bạn, một hệ thống sưởi ấm gia đình tự làm được chế tạo từ S9 đã qua sử dụng. Chúng tôi hy vọng bạn sẽ thích khóa học và bắt đầu cuộc phiêu lưu khai thác tại nhà!
+Chào mừng bạn đến với MIN 304, khóa học về dự án Attakai. Ajelex, Jim và Rogzy sẽ hướng dẫn bạn qua các yếu tố cần thiết của khai thác Bitcoin, sau đó đồng hành cùng bạn từng bước trong việc xây dựng Attakai của bạn, một hệ thống sưởi ấm gia đình tự làm được chế tạo từ S9 đã qua sử dụng. Chúng tôi hy vọng bạn sẽ thích khóa học và bắt đầu cuộc phiêu lưu khai thác tại nhà!
 
 Khóa học này sẽ đưa bạn đến trung tâm của ngành công nghiệp khai thác Bitcoin, cung cấp cho bạn cả kiến thức lý thuyết và thực hành. Dù bạn là người mới bắt đầu hay đã quen thuộc với chủ đề này, khóa học này sẽ giúp bạn hiểu được các khía cạnh kinh tế và kỹ thuật liên quan đến việc khai thác, đồng thời thực hiện một dự án thực tế để tái sử dụng ASIC cho việc sưởi ấm tại nhà.
 

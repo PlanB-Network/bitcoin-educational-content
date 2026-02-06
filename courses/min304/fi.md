@@ -29,7 +29,7 @@ Vaiheittaiset oppaat ohjaavat sinut läpi koko prosessin, jotta voit rakentaa At
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Tervetuloa MIN 302 -kurssille, joka käsittelee Attakai-projektia. Ajelex, Jim ja Rogzy opastavat sinut Bitcoin-louhinnan olennaisiin elementteihin ja ohjaavat sitten askel askeleelta Attakai-laitteesi rakentamisessa, joka on käytetystä S9:stä valmistettu DIY-kotikäyttöinen lämmitysjärjestelmä. Toivomme, että nautit kurssista ja lähdet mukaan kotilouhinnan seikkailuun!
+Tervetuloa MIN 304 -kurssille, joka käsittelee Attakai-projektia. Ajelex, Jim ja Rogzy opastavat sinut Bitcoin-louhinnan olennaisiin elementteihin ja ohjaavat sitten askel askeleelta Attakai-laitteesi rakentamisessa, joka on käytetystä S9:stä valmistettu DIY-kotikäyttöinen lämmitysjärjestelmä. Toivomme, että nautit kurssista ja lähdet mukaan kotilouhinnan seikkailuun!
 
 Tämä koulutus vie sinut Bitcoin-louhinnan maailmaan tarjoten sekä teoreettista että käytännön tietoa. Olitpa sitten aloittelija tai jo asiasta tietoinen, tämä kurssi auttaa sinua ymmärtämään louhintaan liittyvät taloudelliset ja tekniset haasteet samalla, kun toteutat käytännön projektin ASIC-laitteen uudelleenkäytöstä kotilämmitykseen.
 

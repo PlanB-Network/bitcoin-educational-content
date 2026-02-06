@@ -31,7 +31,7 @@ Las guías paso a paso te llevan a través de todo el proceso para que puedas co
 
 ¡Bienvenido al curso MIN201: Una introducción al minado! Ajelex, Jim y Rogzy están encantados de guiarte en tus primeros pasos en esta industria. Esperamos que disfrutes del curso y que te aventures en la emocionante experiencia de la minería en casa.
 
-Bienvenido a MIN 302, el curso sobre el proyecto Attakai. Ajelex, Jim y Rogzy te guiarán a través de los elementos esenciales de la minería de Bitcoin, luego te acompañarán paso a paso en la construcción de tu Attakai, un sistema de calefacción doméstica DIY fabricado a partir de un S9 de segunda mano. ¡Esperamos que disfrutes del curso y te embarques en la aventura de la minería doméstica!
+Bienvenido a MIN 304, el curso sobre el proyecto Attakai. Ajelex, Jim y Rogzy te guiarán a través de los elementos esenciales de la minería de Bitcoin, luego te acompañarán paso a paso en la construcción de tu Attakai, un sistema de calefacción doméstica DIY fabricado a partir de un S9 de segunda mano. ¡Esperamos que disfrutes del curso y te embarques en la aventura de la minería doméstica!
 
 **Sección 2: La minería, su funcionamiento, su industria y sus desafíos**
 En esta sección, proporcionaremos un conocimiento profundo sobre el minado de Bitcoin. Abordaremos el funcionamiento técnico del minado, su rol en el protocolo de Bitcoin, así como sus implicaciones económicas y geopolíticas. También descubrirás la compleja relación entre el precio del bitcoin y el hashrate, así como los desafíos relacionados con la soberanía y la regulación de esta industria.

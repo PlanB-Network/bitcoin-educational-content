@@ -29,7 +29,7 @@ Podrobné návody vás provedou celým procesem, abyste mohli postavit Attakai d
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Vítejte v MIN 302, kurzu o projektu Attakai. Ajelex, Jim a Rogzy vás provedou základními prvky těžby Bitcoinu a poté vás krok za krokem doprovodí při výstavbě vašeho Attakai, DIY domácího topení vyrobeného z použitého S9. Doufáme, že se vám kurz bude líbit a že se pustíte do dobrodružství domácí těžby!
+Vítejte v MIN 304, kurzu o projektu Attakai. Ajelex, Jim a Rogzy vás provedou základními prvky těžby Bitcoinu a poté vás krok za krokem doprovodí při výstavbě vašeho Attakai, DIY domácího topení vyrobeného z použitého S9. Doufáme, že se vám kurz bude líbit a že se pustíte do dobrodružství domácí těžby!
 
 Tento kurz vás zavede do světa těžby Bitcoinu, kde se seznámíte s teoretickými i praktickými aspekty. Ať už jste nováček nebo máte s těžbou již nějaké zkušenosti, tento kurz vám pomůže pochopit ekonomické a technické výzvy spojené s těžbou, a zároveň se naučíte, jak přeměnit ASIC na zařízení pro domácí vytápění.
 

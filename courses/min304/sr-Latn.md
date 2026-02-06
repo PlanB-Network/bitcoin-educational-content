@@ -41,7 +41,7 @@ Vodiči korak po korak vode vas kroz ceo proces tako da možete izgraditi Attaka
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
 
-Dobrodošli u MIN 302, kurs o projektu Attakai. Ajelex, Jim i Rogzy će vas voditi kroz osnovne elemente Bitcoin rudarenja, a zatim će vas pratiti korak po korak u izgradnji vašeg Attakai-a, DIY sistema kućnog grejanja napravljenog od korišćenog S9. Nadamo se da ćete uživati u kursu i krenuti u avanturu kućnog rudarenja!
+Dobrodošli u MIN 304, kurs o projektu Attakai. Ajelex, Jim i Rogzy će vas voditi kroz osnovne elemente Bitcoin rudarenja, a zatim će vas pratiti korak po korak u izgradnji vašeg Attakai-a, DIY sistema kućnog grejanja napravljenog od korišćenog S9. Nadamo se da ćete uživati u kursu i krenuti u avanturu kućnog rudarenja!
 
 
 Ova obuka vas vodi u srce industrije Bitcoin rudarenja, pružajući i teorijsko i praktično znanje. Bilo da ste početnik ili već upoznati sa temom, ovaj kurs će vam pomoći da razumete ekonomske i tehničke aspekte rudarenja, dok završavate praktični projekat prenamene ASIC-a za grejanje doma.

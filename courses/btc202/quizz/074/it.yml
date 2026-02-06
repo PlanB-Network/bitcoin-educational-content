@@ -5,5 +5,5 @@ wrong_answers:
   - Il file peers.dat
   - Il registro assumeutxo
 explanation: |
-  Le transazioni di un blocco sono impegnate in un Merkle Tree, la cui radice è inclusa nell'intestazione del blocco per garantire l'integrità del blocco stesso.
+  Le transazioni di un blocco sono inserite in un Merkle Tree, la cui radice è inclusa nell'intestazione del blocco per garantire l'integrità del blocco stesso.
 reviewed: true

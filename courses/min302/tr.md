@@ -47,7 +47,7 @@ MIN 302'ye, Attakai projesi hakkındaki kursa hoş geldiniz. Ajelex, Jim ve Rogz
 Bu eğitim sizi Bitcoin Mining endüstrisinin kalbine götürerek hem teorik hem de pratik bilgiler sağlar. İster yeni başlıyor olun ister konuya zaten aşina olun, bu eğitim Mining'ün ekonomik ve teknik yönlerini anlamanıza yardımcı olurken, bir ASIC'ün ev ısıtması için yeniden kullanılmasına yönelik pratik bir projeyi tamamlayacaktır.
 
 
-**Bölüm 2: Mining** hakkında her şey
+**Bölüm 2: Madencilik, işleyişi, endüstrisi ve zorlukları**
 
 Bu bölümde Bitcoin Mining'in kapsamlı bir şekilde anlaşılmasını sağlayacağız. Mining'in teknik işleyişini, Bitcoin protokolündeki rolünü, ekonomik ve jeopolitik etkilerini ele alacağız. Ayrıca Bitcoin fiyatı ile Hashrate arasındaki karmaşık ilişkinin yanı sıra sektördeki egemenlik ve düzenleme ile ilgili konuları da keşfedeceksiniz.
 
@@ -57,17 +57,17 @@ Bu bölümde Bitcoin Mining'in kapsamlı bir şekilde anlaşılmasını sağlaya
 Daha sonra, kullanılmış S9 madencilerini ev ısıtma cihazlarına dönüştürerek ev Mining'yi demokratikleştirmeyi amaçlayan Attakai konseptiyle pratik uygulamaya dalacağız. Donanım değişiklikleri için gerekli ekipmanı hazırlarken, kullanılmış bir ASIC'i nasıl satın alacağınızı ve modifiye edeceğinizi öğreneceksiniz.
 
 
-**Bölüm 4: Attakai - Antminer S9'un Yazılımının Değiştirilmesi**
+**Bölüm 4: Antminer S9 yazılımının değiştirilmesi**
 
 Burada, Antminer S9 cihazınızı ev kullanımı için nasıl yapılandıracağınızı öğreneceksiniz. Bir Wi-Fi/Ethernet köprüsü kurma, cihazınızı sıfırlama, BraiinsOS+ yükleme ve Mining için optimize etme konularında size rehberlik edeceğiz.
 
 
-**Bölüm 5: Attakai - Fan Modifikasyonları**
+**Bölüm 5: Fanların değiştirilmesi**
 
 Antminer S9 cihazınızı yardımcı ısıtıcı olarak kullanmak üzere optimize etmek için bu bölümde Supply güç fanlarının ve ana fanların nasıl değiştirileceği öğretilecektir. Bu modifikasyonlar gürültüyü azaltmak ve cihazın termal verimliliğini artırmak için gereklidir.
 
 
-**Bölüm 6: Attakai - Yapılandırma**
+**Bölüm 6: DIY ısıtma parametrelerinin ayarlanması**
 
 Son olarak, bir Mining pool'e nasıl katılacağınızı ve Antminer S9'unuzun performansını nasıl optimize edeceğinizi öğreneceksiniz. Optimum enerji verimliliğini nasıl elde edeceğinizi ve ilk satoshi madenciliğinizi nasıl etkili bir şekilde yapacağınızı keşfedeceksiniz.
 
@@ -76,7 +76,7 @@ Bitcoin Mining dünyasını keşfetmeye ve Attakai'nin pratik mücadelesini üst
 
 
 
-# Mining Hakkında Bilmeniz Gereken Her Şey
+# Madencilik, işleyişi, endüstrisi ve zorlukları
 
 
 <partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>

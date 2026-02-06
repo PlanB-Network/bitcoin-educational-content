@@ -30,41 +30,28 @@ Miongozo ya hatua kwa hatua inakuongoza katika mchakato mzima ili uweze kujenga 
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Karibu kwenye MIN 302, kozi juu ya mradi wa Attakai. Ajelex, Jim na Rogzy wataongoza kupitia vipengele muhimu vya uchimbaji wa Bitcoin, kisha wakuandamane hatua kwa hatua katika kujenga Attakai yako, mfumo wa kupasha joto nyumbani wa DIY ulioundwa kutoka S9 iliyotumika. Tunatumaini utafurahia kozi na kuanza safari ya uchimbaji wa nyumbani!
+Karibu kwenye MIN 302, kozi kuhusu mradi wa Attakai. Ajelex, Jim na Rogzy watawaongoza kupitia vipengele muhimu vya uchimbaji wa Bitcoin, kisha watawaandamana hatua kwa hatua katika ujenzi wa Attakai yako, kifaa cha joto cha nyumbani cha DIY kilichotengenezwa kutoka kwa S9 iliyotumika. Tunatumaini kozi itakuwa ya kufurahisha kwako na utaanza safari ya uchimbaji wa nyumbani!
 
-### Muhtasari wa Kozi
+Mafunzo haya yanakuzamisha katika moyo wa tasnia ya uchimbaji wa Bitcoin kwa kukupatia uelewa wa vipengele vyake vya kinadharia na vitendo. Iwe wewe ni mwanafunzi mpya au tayari umejifunza kuhusu mada hii, safari hii itakuruhusu kuelewa masuala ya kiuchumi na kiufundi yanayohusiana na uchimbaji, huku ukitekeleza mradi wa vitendo wa kutumia tena ASIC kwa ajili ya joto la nyumbani.
 
-Katika kozi hii, sehemu ya kwanza itazingatia nadharia ya Mining na Ajelex. Tutakuwa na majadiliano ya kina kuhusu mada mbalimbali zinazohusiana na Mining, ambayo yatatusaidia kuelewa vyema tasnia hii na masuala ya kiuchumi na kisiasa ya kijiografia yanayohusiana nayo.
+**Sehemu ya 2: Uchimbaji, jinsi inavyofanya kazi, tasnia yake na changamoto zake**  
+Katika sehemu hii, tutakupatia uelewa wa kina wa uchimbaji wa Bitcoin. Tutashughulikia utendaji wa kiufundi wa uchimbaji, jukumu lake katika itifaki ya Bitcoin, pamoja na athari zake za kiuchumi na kisiasa. Pia utagundua uhusiano tata kati ya bei ya bitcoin na hashrate, pamoja na masuala yanayohusiana na uhuru na udhibiti wa tasnia hii.
 
-Katika sehemu ya pili, tutaanza kesi ya kuvutia ya vitendo, kujifunza jinsi ya kubadilisha S9 Miner iliyotumiwa kwenye mfumo wa kupokanzwa nyumbani. Kupitia miongozo na video zilizoandikwa, hatua zote muhimu zitaelezewa kwa uangalifu, kuhakikisha mafanikio yako katika mradi huu wa ubunifu.
+**Sehemu ya 3: Uchimbaji wa nyumbani na matumizi ya upya ya joto**  
+Kisha tutaingia kwenye matumizi ya vitendo na dhana ya Attakai, ambayo inalenga kudemokratisha uchimbaji wa nyumbani kwa kubadilisha wachimbaji wa S9 waliotumika kuwa vifaa vya joto la nyumbani. Utajifunza kununua na kurekebisha ASIC iliyotumika, huku ukiandaa vifaa vinavyohitajika kwa marekebisho ya vifaa.
 
-Safari hii ya kujifunza itakuonyesha kuwa tasnia ya Mining ni changamano zaidi kuliko inavyoonekana, ikitoa mtazamo sawia juu ya mjadala wa kiikolojia unaohusishwa nayo. Usaidizi unaoendelea utapatikana kupitia kikundi kilichojitolea cha Telegram kwa wanafunzi, na vipengele vyote muhimu vitapatikana kwa urahisi kwenye jukwaa letu la e-commerce.
+**Sehemu ya 4: Marekebisho ya programu ya Antminer S9**  
+Hapa, utajifunza kusanidi Antminer S9 yako kwa matumizi ya nyumbani. Tutakuongoza kupitia hatua za kusanidi bridge ya Wi-Fi/Ethernet, kuweka upya kifaa chako, kusakinisha BraiinsOS+, na usanidi bora wake kwa ajili ya uchimbaji.
 
-### Mtaala
+**Sehemu ya 5: Marekebisho ya masini ya upepo**  
+ili kuboresha Antminer S9 yako kwa matumizi kama kifaa cha joto la ziada, sehemu hii itakufundisha kubadilisha masini ya upepo ya nishati na masini kuu za upepo. Marekebisho haya ni muhimu kupunguza kelele na kuboresha ufanisi wa joto wa kifaa.
 
-Sehemu ya Nadharia:
+**Sehemu ya 6: Usanidi wa joto la DIY**  
+Kwa kumalizia, utajifunza kujiunga na pool ya uchimbaji na kuboresha utendaji wa Antminer S9 yako. Utagundua jinsi ya kupata ufanisi bora wa nishati na kuchimba kwa ufanisi satoshis zako za kwanza.
 
+Basi, uko tayari kugundua ulimwengu wa uchimbaji wa Bitcoin na kukabiliana na changamoto ya vitendo ya Attakai? Twende!
 
-- Maelezo ya Mining.
-- Sekta ya Mining.
-- Nuances ya sekta ya Mining.
-- Mining katika itifaki ya Bitcoin.
-- Bei ya Bitcoin na Hashrate, Uhusiano? Utawala na Udhibiti
-- Mahojiano na Mtaalamu wa Sekta ya Mining
-
-Sehemu ya Vitendo: Attakai
-
-
-- Utangulizi wa Attakai.
-- Mwongozo wa Kununua.
-- Kubadilisha Programu ya Antminer S9.
-- Kubadilisha Mashabiki ili Kupunguza Kelele.
-- Usanidi wa Dimbwi.
-- Inasanidi Antminer S9 na Braiins OS+.
-
-Je, uko tayari kuanza tukio hili la kuvutia? Hebu tuzame pamoja katika ulimwengu unaovutia wa Mining ya nyumbani!
-
-# Kila Kitu Unachohitaji Kujua Kuhusu Mining
+# Uchimbaji, jinsi inavyofanya kazi, tasnia yake na changamoto zake
 
 <partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>
 

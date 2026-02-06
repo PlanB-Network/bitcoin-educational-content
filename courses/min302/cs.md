@@ -33,25 +33,25 @@ Vítejte v MIN 302, kurzu o projektu Attakai. Ajelex, Jim a Rogzy vás provedou 
 
 Tento kurz vás zavede do světa těžby Bitcoinu, kde se seznámíte s teoretickými i praktickými aspekty. Ať už jste nováček nebo máte s těžbou již nějaké zkušenosti, tento kurz vám pomůže pochopit ekonomické a technické výzvy spojené s těžbou, a zároveň se naučíte, jak přeměnit ASIC na zařízení pro domácí vytápění.
 
-**Sekce 2: Vše o těžbě**  
+**Sekce 2: Těžba, její fungování, průmysl a výzvy**
 V této části získáte hluboké porozumění těžbě Bitcoinu. Probereme technické fungování těžby, její roli v Bitcoinovém protokolu a ekonomické a geopolitické důsledky. Také se dozvíte o složitém vztahu mezi cenou bitcoinu a hashrate a o otázkách spojených se suverenitou a regulací tohoto odvětví.
 
 **Sekce 3: Home-mining a opětovné využití tepla**  
 Následně se zaměříme na praktickou aplikaci konceptu Attakai, který se snaží demokratizovat home-mining tím, že staré těžaře S9 přeměňuje na zařízení pro domácí vytápění. Naučíte se, jak koupit a upravit použitý ASIC a připravit potřebné vybavení pro hardwarové úpravy.
 
-**Sekce 4: Attakai - úprava softwaru Antmineru S9**  
+**Sekce 4: Úprava softwaru Antminer S9**
 Zde se naučíte, jak nakonfigurovat svůj Antminer S9 pro domácí použití. Provedeme vás kroky nastavení Wi-Fi/Ethernet bridge, resetováním zařízení, instalací BraiinsOS+ a optimální konfigurací pro těžbu.
 
-**Sekce 5: Attakai - úprava ventilátorů**  
+**Sekce 5: Úprava ventilátorů**
 Pro optimalizaci vašeho Antmineru S9 pro použití jako doplňkové topení vás tato část naučí, jak vyměnit napájecí ventilátory a hlavní ventilátory. Tyto úpravy jsou nezbytné pro snížení hluku a zlepšení tepelné účinnosti zařízení.
 
-**Sekce 6: Attakai - nastavení**  
+**Sekce 6: Nastavení DIY topení**
 Na závěr se naučíte, jak se připojit k těžebnímu poolu a optimalizovat výkon vašeho Antmineru S9. Objevíte, jak dosáhnout optimální energetické účinnosti a efektivně těžit své první satoshi.
 
 Tak co, jste připraveni objevit svět těžby Bitcoinu a zvládnout praktický úkol Attakai? Pojďme na to!
 
 
-# Vše, co potřebujete vědět o těžbě
+# Těžba, její fungování, průmysl a výzvy
 
 <partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>
 

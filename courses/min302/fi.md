@@ -33,25 +33,25 @@ Tervetuloa MIN 302 -kurssille, joka käsittelee Attakai-projektia. Ajelex, Jim j
 
 Tämä koulutus vie sinut Bitcoin-louhinnan maailmaan tarjoten sekä teoreettista että käytännön tietoa. Olitpa sitten aloittelija tai jo asiasta tietoinen, tämä kurssi auttaa sinua ymmärtämään louhintaan liittyvät taloudelliset ja tekniset haasteet samalla, kun toteutat käytännön projektin ASIC-laitteen uudelleenkäytöstä kotilämmitykseen.
 
-**Osa 2: Kaikki louhinnasta**  
+**Osio 2: Louhinta, sen toiminta, teollisuus ja haasteet**
 Tässä osassa tarjoamme sinulle syvällisen ymmärryksen Bitcoin-louhinnasta. Käsittelemme louhinnan teknistä toimintaa, sen roolia Bitcoin-protokollassa sekä sen taloudellisia ja geopoliittisia vaikutuksia. Lisäksi tutustut monimutkaiseen suhteeseen bitcoinin hinnan ja hashraten välillä sekä suvereniteettiin ja sääntelyyn liittyviin kysymyksiin tässä alalla.
 
 **Osa 3: Kotilouhinta ja lämmön uudelleenkäyttö**  
 Seuraavaksi siirrymme käytännön sovellukseen Attakai-konseptin avulla, jonka tavoitteena on demokratisoida kotilouhinta muuttamalla käytetyt S9-louhijat kotilämmityslaitteiksi. Opit, kuinka ostaa ja muokata käytettyä ASIC-laitetta ja valmistella tarvittavat laitteet laitteistomuutoksia varten.
 
-**Osa 4: Attakai - Antminer S9:n ohjelmiston muokkaus**  
+**Osio 4: Antminer S9:n ohjelmiston muokkaus**
 Tässä osassa opit, kuinka konfiguroida Antminer S9 kotikäyttöön. Opastamme sinua Wi-Fi/Ethernet-sillan asettamisessa, laitteen nollaamisessa, BraiinsOS+:n asentamisessa ja sen optimaaliseen käyttöön asettamisessa.
 
-**Osa 5: Attakai - Tuulettimien muokkaus**  
+**Osio 5: Tuulettimien muokkaus**
 Optimoidaksesi Antminer S9:n käytön lisälämmityslaitteena, tämä osa opettaa sinulle, kuinka korvata virtalähteen tuulettimet ja päätuulettimet. Nämä muutokset ovat välttämättömiä melun vähentämiseksi ja laitteen lämmöntuottotehokkuuden parantamiseksi.
 
-**Osa 6: Attakai - Konfigurointi**  
+**Osio 6: DIY-lämmityksen parametrointi**
 Lopuksi opit liittymään louhintapooliin ja optimoimaan Antminer S9:n suorituskykyä. Opit, kuinka saavuttaa optimaalinen energiatehokkuus ja louhia tehokkaasti ensimmäiset satoshisi.
 
 Oletko valmis tutustumaan Bitcoin-louhinnan maailmaan ja ottamaan vastaan käytännön haasteen Attakai? Aloitetaan!
 
 
-# Kaikki mitä sinun tarvitsee tietää louhinnasta
+# Louhinta, sen toiminta, teollisuus ja haasteet
 
 <partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>
 

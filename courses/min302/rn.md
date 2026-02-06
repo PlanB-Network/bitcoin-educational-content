@@ -38,7 +38,7 @@ Murakaza neza kuri MIN 302, isomo ku mushinga wa Attakai. Ajelex, Jim na Rogzy b
 Iri menyerezwa rigutwara mu mutima w’uruganda rwa Bitcoin mining, riguha ubumenyi bw’ivyiyumviro n’ubumenyi bw’ibikorwa. Waba uri uwutangura canke uri uwumaze kumenya neza ibi turiko turavuga, iki cigwa kizogufasha gutahura ibijanye n'ubutunzi be n’ubuhinga bwa mining, mu gihe uriko urakora umugambi ngirakamaro wo gusubira guha ubushobozi bundi ASIC wifashisha mu gutuma muhira hashuha.
 
 
-**Igisata ca 2: Buri kimwe cerekeye Mining**
+**Igice cya 2: Ubucukuzi, imikorere yabwo, inganda zabwo n'ibibazo byabwo**
 
 Muri iki gisata, tuzoguha ugutahura gutomoye kw’ivya Bitcoin mining. Tuzovuga ku mikorere y’ubuhinga ya mining, uruhara rwayo mu mategeko (protocol) ya Bitcoin, n’uruhara igira mu bukungu no muvya poritike y'ibihugu. Uzokwihweza kandi isano rikomeye riri hagati y’igiciro ca Bitcoin na Hashrate, hamwe n’ibibazo bijanye n’ubusegaba n’amategeko mu ruganda.
 
@@ -48,17 +48,17 @@ Muri iki gisata, tuzoguha ugutahura gutomoye kw’ivya Bitcoin mining. Tuzovuga 
 Inyuma y’aho, tuzokwihweza ukwo twokoresha mu buryo bubereye iciyumviro ca Attakai, kigamije gushiraho demokarasi kubakora mining muhira mu guhindura S9 miners igaheza ikaba igikoresho gituma muhira hashusha. Uzomenya ingene wogura n'uko wohindura ASIC yakoreshejwe, cokimwe no gutegura ibikenewe kugirango ugire ico uhindura kubikoresho.
 
 
-**Igisata ca 4: Attakai - Guhindura porogarame ya Antminer S9**
+**Igice cya 4: Guhindura software ya Antminer S9**
 
 Aha, uzomenya ingene wotunganya Antminer S9 yawe kugira ngo uyikoreshe muhira. Tuzokuyobora mu gushinga ikiraro ca Wi-Fi/Ethernet, gutanguza gushasha igikoresho cawe, gushiramwo BraiinsOS+, no kugitunganya kugira mining ikorwe neza.
 
 
-**Igisata ca 5: Attakai - Guhindura Fan(ventilateur)**
+**Igice cya 5: Guhindura abahumyi b'umuyaga**
 
 Kugira ngo ukoreshe neza Antminer S9 yawe kugira ngo ikoreshwe nk’igikoresho co gushusha, iki gice kizokwigisha ingene wosimbura fan z'isoko y'umucanwa na fan nyamukuru. Ivyo bihindugwa ni ngirakamaro kugira ngo urusaku rugabanuke kandi kugira ngo ubushuhe bwico gikoresho bu be bukwiye.
 
 
-**Igisata ca 6: Attakai - Gutunganya**
+**Igice cya 6: Gushiraho imiterere y'ubushyuhe DIY**
 
 Ubwa nyuma, uzomenya ingene wokwifatanya na mining pool hanyuma ugatuma Antminer S9 yawe ikora neza. Uzobona ingene woshika ku gukoresha neza inguvu no ku mine (gucukura) neza ama satoshis yawe ya mbere.
 
@@ -67,7 +67,7 @@ Witeguye kuvumbura isi ya Bitcoin mining no gufata igeregazwa ryo gukoresha Atta
 
 
 
-# Ivyo ukeneye kumenya vyose ku bijanye na Mining
+# Ubucukuzi, imikorere yabwo, inganda zabwo n'ibibazo byabwo
 
 
 <partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>

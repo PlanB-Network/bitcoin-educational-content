@@ -33,25 +33,25 @@ Tere tulemast MIN 302-sse, Attakai projekti kursusele. Ajelex, Jim ja Rogzy juhe
 
 See koolitus viib teid Bitcoini kaevandamise tööstuse südamesse, pakkudes teoreetilisi ja praktilisi teadmisi. Olenemata sellest, kas olete algaja või juba teema kohta teadlik, aitab see kursus teil mõista kaevandamise majanduslikke ja tehnilisi aspekte ning viia ellu praktiline projekt ASIC-seadme taaskasutamiseks kodukütteks.
 
-**Osa 2: Kõik kaevandamisest**  
+**Jaotis 2: Kaevandamine, selle toimimine, tööstus ja väljakutsed**
 Selles osas pakume teile põhjalikku arusaamist Bitcoini kaevandamisest. Käsitleme kaevandamise tehnilist toimimist, selle rolli Bitcoini protokollis ja majanduslikke ja geopoliitilisi mõjusid. Samuti uurite keerulist suhet Bitcoini hinna ja hashrate vahel ning suveräänsuse ja regulatsiooniga seotud küsimusi selles valdkonnas.
 
 **Osa 3: Home-mining ja soojuse taaskasutamine**  
 Seejärel süveneme praktilisse rakendusse Attakai kontseptsiooni kaudu, mille eesmärk on demokratiseerida home-mining, muutes kasutatud S9 kaevandajad kodukütte seadmeteks. Õpid, kuidas osta ja muuta kasutatud ASIC-seadet, valmistades samal ajal ette vajaliku varustuse riistvara modifikatsioonide jaoks.
 
-**Osa 4: Attakai - Antminer S9 tarkvara muutmine**  
+**Jaotis 4: Antminer S9 tarkvara muutmine**
 Siin õpid, kuidas oma Antminer S9 koduseks kasutamiseks konfigureerida. Juhendame teid läbi Wi-Fi/Ethernet bridge'i seadistamise, seadme lähtestamise, BraiinsOS+ installimise ja selle optimaalseks kaevandamiseks seadistamise.
 
-**Osa 5: Attakai - Ventilaatorite muutmine**  
+**Jaotis 5: Ventilaatorite muutmine**
 Selleks, et optimeerida oma Antminer S9 kasutamist lisakütteseadmena, õpetab see osa teid, kuidas vahetada toiteventilaatorid ja peamised ventilaatorid. Need muudatused on hädavajalikud müra vähendamiseks ja seadme termilise tõhususe parandamiseks.
 
-**Osa 6: Attakai - Seadistamine**  
+**Jaotis 6: DIY kütte seadistamine**
 Lõpuks õpid, kuidas liituda kaevandamis-pooliga ja optimeerida oma Antminer S9 jõudlust. Avastad, kuidas saavutada optimaalne energiakasutuse tõhusus ja tõhusalt oma esimesi satoshisid kaevandada.
 
 Kas olete valmis avastama Bitcoini kaevandamise maailma ja läbima praktilise Attakai väljakutse? Alustame!
 
 
-# Kõik, mida pead teadma kaevandamisest
+# Kaevandamine, selle toimimine, tööstus ja väljakutsed
 
 <partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>
 

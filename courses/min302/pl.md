@@ -47,7 +47,7 @@ Witamy w MIN 302, kursie o projekcie Attakai. Ajelex, Jim i Rogzy poprowadzą Ci
 Szkolenie to przenosi w samo serce branży Bitcoin Mining, zapewniając zarówno wiedzę teoretyczną, jak i praktyczną. Niezależnie od tego, czy jesteś początkującym, czy już zaznajomionym z tematem, ten kurs pomoże Ci zrozumieć ekonomiczne i techniczne aspekty Mining, jednocześnie realizując praktyczny projekt zmiany przeznaczenia ASIC do ogrzewania domu.
 
 
-**Sekcja 2: Wszystko o Mining**
+**Sekcja 2: Kopanie, jego działanie, przemysł i wyzwania**
 
 W tej sekcji przedstawimy kompleksowe zrozumienie Bitcoin Mining. Omówimy techniczne funkcjonowanie Mining, jego rolę w protokole Bitcoin oraz jego implikacje gospodarcze i geopolityczne. Przeanalizujemy również złożony związek między ceną Bitcoin a Hashrate, a także kwestie związane z suwerennością i regulacjami w branży.
 
@@ -57,17 +57,17 @@ W tej sekcji przedstawimy kompleksowe zrozumienie Bitcoin Mining. Omówimy techn
 Następnie zajmiemy się praktycznym zastosowaniem koncepcji Attakai, która ma na celu demokratyzację domowego Mining poprzez przekształcenie używanych koparek S9 w domowe urządzenia grzewcze. Dowiesz się, jak kupić i zmodyfikować używany ASIC, przygotowując jednocześnie niezbędny sprzęt do modyfikacji sprzętu.
 
 
-**Sekcja 4: Attakai - Modyfikowanie oprogramowania Antminer S9**
+**Sekcja 4: Modyfikacja oprogramowania Antminer S9**
 
 Tutaj dowiesz się, jak skonfigurować Antminer S9 do użytku domowego. Przeprowadzimy Cię przez konfigurację mostu Wi-Fi/Ethernet, resetowanie urządzenia, instalację BraiinsOS+ i optymalizację pod kątem Mining.
 
 
-**Sekcja 5: Attakai - Modyfikacje wentylatorów**
+**Sekcja 5: Modyfikacja wentylatorów**
 
 Aby zoptymalizować Antminer S9 do użytku jako dodatkowy grzejnik, w tej sekcji dowiesz się, jak wymienić wentylatory Supply i wentylatory główne. Modyfikacje te są niezbędne do zmniejszenia hałasu i poprawy wydajności termicznej urządzenia.
 
 
-**Sekcja 6: Attakai - Konfiguracja**
+**Sekcja 6: Ustawienie ogrzewania DIY**
 
 Na koniec dowiesz się, jak dołączyć do Mining pool i zoptymalizować wydajność Antminer S9. Dowiesz się, jak osiągnąć optymalną wydajność energetyczną i skutecznie wydobywać swoje pierwsze satoshi.
 
@@ -76,7 +76,7 @@ Gotowi na odkrycie świata Bitcoin Mining i podjęcie praktycznego wyzwania Atta
 
 
 
-# Wszystko, co musisz wiedzieć o Mining
+# Kopanie, jego działanie, przemysł i wyzwania
 
 
 <partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>

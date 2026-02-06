@@ -33,24 +33,24 @@ Benvenuto a MIN 302, il corso sul progetto Attakai. Ajelex, Jim e Rogzy ti guide
 
 Questo corso ti porta nel cuore dell'industria del mining di Bitcoin offrendoti una comprensione degli aspetti teorici e pratici. Che tu sia un principiante o abbia già familiarità con l'argomento, questo percorso ti permetterà di comprendere le sfide economiche e tecniche legate al mining, realizzando al contempo un progetto pratico di riutilizzo di un ASIC per il riscaldamento domestico.
 
-**Sezione 2: Tutto sul mining**  
+**Sezione 2: Il mining, il suo funzionamento, la sua industria e le sue sfide**
 In questa sezione ti forniremo una comprensione approfondita del mining di Bitcoin. Tratteremo il funzionamento tecnico del mining, il suo ruolo nel protocollo Bitcoin e le sue implicazioni economiche e geopolitiche. Scoprirai anche la complessa relazione tra il prezzo del bitcoin e l'hashrate, così come le problematiche legate alla sovranità e alla regolamentazione del settore.
 
 **Sezione 3: Home mining e riutilizzo del calore**  
 Passeremo quindi all'applicazione pratica con il concetto di Attakai, che mira a democratizzare l'home mining trasformando i miner S9 usati in dispositivi di riscaldamento domestico. Imparerai come acquistare e modificare un ASIC usato, preparando l'attrezzatura necessaria per le modifiche hardware.
 
-**Sezione 4: Attakai - Modifica del software di un Antminer S9**  
+**Sezione 4: Modifica del software di un Antminer S9**
 Qui imparerai come configurare il tuo Antminer S9 per l'uso domestico. Ti guideremo attraverso i passaggi per configurare un bridge Wi-Fi/Ethernet, resettare il tuo dispositivo, installare BraiinsOS+ e ottimizzarlo per il mining.
 
-**Sezione 5: Attakai - Modifica delle ventole**  
+**Sezione 5: Modifica delle ventole**
 Per ottimizzare il tuo Antminer S9 come sistema di riscaldamento ausiliario, questa sezione ti insegnerà come sostituire le ventole dell'alimentazione e le ventole principali. Queste modifiche sono essenziali per ridurre il rumore e migliorare l'efficienza termica del dispositivo.
 
-**Sezione 6: Attakai - Configurazione**  
+**Sezione 6: Impostazione del riscaldamento DIY**
 Infine, imparerai come unirti a un pool di mining e ottimizzare le prestazioni del tuo Antminer S9. Scoprirai come raggiungere un'efficienza energetica ottimale e minare i tuoi primi satoshi in modo efficace.
 
 Pronto a scoprire il mondo del mining di Bitcoin e affrontare la sfida pratica di Attakai? Cominciamo!
 
-# Conoscere tutto sul mining
+# Il mining, il suo funzionamento, la sua industria e le sue sfide
 
 <partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>
 

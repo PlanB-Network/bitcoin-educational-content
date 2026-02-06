@@ -47,7 +47,7 @@ Welkom bij MIN 302, de cursus over het Attakai-project. Ajelex, Jim en Rogzy beg
 Deze training neemt je mee naar het hart van de Bitcoin Mining industrie en biedt zowel theoretische als praktische kennis. Of je nu een beginner bent of al bekend met het onderwerp, deze cursus helpt je de economische en technische aspecten van Mining te begrijpen, terwijl je een praktisch project uitvoert om een ASIC te hergebruiken voor thuisverwarming.
 
 
-**Deel 2: Alles over Mining**
+**Sectie 2: Mining, de werking, de industrie en de uitdagingen**
 
 In dit deel geven we een uitgebreid inzicht in Bitcoin Mining. We behandelen de technische werking van Mining, de rol ervan in het Bitcoin protocol en de economische en geopolitieke implicaties. Je zult ook de complexe relatie tussen de prijs van Bitcoin en Hashrate onderzoeken, evenals kwesties met betrekking tot soevereiniteit en regulering in de industrie.
 
@@ -57,17 +57,17 @@ In dit deel geven we een uitgebreid inzicht in Bitcoin Mining. We behandelen de 
 Vervolgens duiken we in de praktische toepassing met het concept van Attakai, dat tot doel heeft thuis Mining te democratiseren door gebruikte S9 miners om te vormen tot thuisverwarmingsapparaten. Je leert hoe je een gebruikte ASIC koopt en aanpast, terwijl je de benodigde apparatuur voor hardware-aanpassingen klaarmaakt.
 
 
-**Deel 4: Attakai - De software van een Antminer S9 wijzigen**
+**Sectie 4: Aanpassing van de software van een Antminer S9**
 
 Hier leer je hoe je de Antminer S9 configureert voor thuisgebruik. We begeleiden je bij het instellen van een Wi-Fi/Ethernet bridge, het resetten van je apparaat, het installeren van BraiinsOS+ en het optimaliseren voor Mining.
 
 
-**Deel 5: Attakai - Ventilatoraanpassingen**
+**Sectie 5: Aanpassing van de ventilatoren**
 
 Om uw Antminer S9 te optimaliseren voor gebruik als bijverwarming, leert deze sectie u hoe u de Supply ventilatoren en de hoofdventilatoren kunt vervangen. Deze aanpassingen zijn essentieel om het geluid te verminderen en de thermische efficiëntie van het apparaat te verbeteren.
 
 
-**Deel 6: Attakai - Configuratie**
+**Sectie 6: Instelling van de DIY-verwarming**
 
 Tot slot leer je hoe je je kunt aansluiten bij een Mining pool en hoe je de prestaties van je Antminer S9 kunt optimaliseren. Je zult ontdekken hoe je een optimale energie-efficiëntie kunt bereiken en effectief je eerste satoshi's kunt delven.
 
@@ -76,7 +76,7 @@ Klaar om de wereld van Bitcoin Mining te ontdekken en de praktische uitdaging va
 
 
 
-# Alles wat u moet weten over Mining
+# Mining, de werking, de industrie en de uitdagingen
 
 
 <partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>

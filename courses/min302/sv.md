@@ -47,7 +47,7 @@ Välkommen till MIN 302, kursen om Attakai-projektet. Ajelex, Jim och Rogzy guid
 Den här utbildningen tar dig till hjärtat av Bitcoin Mining-industrin och ger dig både teoretisk och praktisk kunskap. Oavsett om du är nybörjare eller redan är bekant med ämnet kommer den här kursen att hjälpa dig att förstå de ekonomiska och tekniska aspekterna av Mining, samtidigt som du slutför ett praktiskt projekt för att återanvända en ASIC för uppvärmning av hemmet.
 
 
-**Avsnitt 2: Allt om Mining**
+**Avsnitt 2: Mining, dess funktion, dess industri och dess utmaningar**
 
 I detta avsnitt kommer vi att ge en omfattande förståelse för Bitcoin Mining. Vi kommer att täcka den tekniska funktionen av Mining, dess roll i Bitcoin-protokollet och dess ekonomiska och geopolitiska konsekvenser. Du kommer också att utforska det komplexa förhållandet mellan Bitcoin-priset och Hashrate, samt frågor som rör suveränitet och reglering i branschen.
 
@@ -57,17 +57,17 @@ I detta avsnitt kommer vi att ge en omfattande förståelse för Bitcoin Mining.
 Därefter kommer vi att dyka in i praktisk tillämpning med konceptet Attakai, som syftar till att demokratisera Mining för hemmabruk genom att omvandla begagnade S9-gruvbrytare till uppvärmningsanordningar för hemmabruk. Du kommer att lära dig hur man köper och modifierar en begagnad ASIC, samtidigt som du förbereder nödvändig utrustning för hårdvarumodifieringar.
 
 
-**Avsnitt 4: Attakai - Modifiera programvaran i en Antminer S9**
+**Avsnitt 4: Modifiering av programvaran för en Antminer S9**
 
 Här får du lära dig hur du konfigurerar din Antminer S9 för hemmabruk. Vi guidar dig genom att sätta upp en Wi-Fi/Ethernet-brygga, återställa din enhet, installera BraiinsOS+ och optimera den för Mining.
 
 
-**Avsnitt 5: Attakai - Modifieringar av fläktar**
+**Avsnitt 5: Modifiering av fläktarna**
 
 För att optimera din Antminer S9 för användning som extravärmare, kommer detta avsnitt att lära dig hur du byter ut Supply-fläktarna och huvudfläktarna. Dessa ändringar är viktiga för att minska bullret och förbättra enhetens termiska effektivitet.
 
 
-**Avsnitt 6: Attakai - Konfiguration**
+**Avsnitt 6: Inställning av DIY-uppvärmning**
 
 Slutligen får du lära dig hur du går med i en Mining pool och optimerar prestandan hos din Antminer S9. Du kommer att upptäcka hur du uppnår optimal energieffektivitet och effektivt bryter dina första satoshis.
 
@@ -76,7 +76,7 @@ Slutligen får du lära dig hur du går med i en Mining pool och optimerar prest
 
 
 
-# Allt du behöver veta om Mining
+# Mining, dess funktion, dess industri och dess utmaningar
 
 
 <partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>

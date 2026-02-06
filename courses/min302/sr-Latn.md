@@ -47,7 +47,7 @@ Dobrodošli u MIN 302, kurs o projektu Attakai. Ajelex, Jim i Rogzy će vas vodi
 Ova obuka vas vodi u srce industrije Bitcoin rudarenja, pružajući i teorijsko i praktično znanje. Bilo da ste početnik ili već upoznati sa temom, ovaj kurs će vam pomoći da razumete ekonomske i tehničke aspekte rudarenja, dok završavate praktični projekat prenamene ASIC-a za grejanje doma.
 
 
-**Sekcija 2: Sve o rudarenju**
+**Odeljak 2: Majnovanje, njegovo funkcionisanje, industrija i izazovi**
 
 U ovom odeljku, pružićemo sveobuhvatno razumevanje Bitcoin rudarenja. Pokrićemo tehničko funkcionisanje rudarenja, njegovu ulogu u Bitcoin protokolu, kao i ekonomske i geopolitičke implikacije. Takođe ćete istražiti složen odnos između cene Bitcoin-a i Hashrate-a, kao i pitanja vezana za suverenitet i regulaciju u industriji.
 
@@ -57,17 +57,17 @@ U ovom odeljku, pružićemo sveobuhvatno razumevanje Bitcoin rudarenja. Pokriće
 Dalje ćemo se upustiti u praktičnu primenu Attakai koncepta, koji ima za cilj da demokratizuje rudarenje kod kuće transformacijom korišćenih S9 uređaja u uređaje za grejanje doma. Naučićete kako da kupite i modifikujete korišćeni ASIC, dok pripremate neophodnu opremu za hardverske modifikacije.
 
 
-**Section 4: Attakai - Modifikovanje Antminer S9 softvera**
+**Odeljak 4: Modifikacija softvera Antminer S9**
 
 Ovde ćete naučiti kako da konfigurišete vaš Antminer S9 za kućnu upotrebu. Provešćemo vas kroz podešavanje Wi-Fi/Ethernet mosta, resetovanje vašeg uređaja, instalaciju BraiinsOS+, i optimizaciju za najbolju efikasnost rudarenja.
 
 
-**Sekcija 5: Attakai - Modifikacije od strane fanova**
+**Odeljak 5: Modifikacija ventilatora**
 
 Da biste optimizovali vaš Antminer S9 za korišćenje kao pomoćni grejač, ovaj deo će vas naučiti kako da zamenite ventilatore za napajanje i glavne ventilatore. Ove modifikacije su ključne za smanjenje buke i poboljšanje termalne efikasnosti uređaja.
 
 
-**Section 6: Attakai - Konfiguracija**
+**Odeljak 6: Podešavanje DIY grejanja**
 
 Konačno, naučićete kako da povežete sa pool za rudarenje (eng. mining pool) i optimizujete performanse vašeg Antminer S9. Otkrićete kako da postignete optimalnu energetsku efikasnost i efikasno iskopate svoje prve satoshije.
 
@@ -76,7 +76,7 @@ Spremni da otkrijete svet Bitcoin rudarenja i prihvatite praktični Attakai izaz
 
 
 
-# Sve što treba da znate o rudarenju
+# Majnovanje, njegovo funkcionisanje, industrija i izazovi
 
 
 <partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>

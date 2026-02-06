@@ -28,31 +28,31 @@ Jika Anda memerlukan bantuan dengan pengaturan Anda, sebuah grup Telegram telah 
 
 ## Gambaran Umum Kursus
 
-Selamat datang di MIN 302, kursus tentang proyek Attakai. Ajelex, Jim dan Rogzy akan memandu Anda melalui elemen-elemen penting penambangan Bitcoin, kemudian mendampingi Anda langkah demi langkah dalam membangun Attakai Anda, sistem pemanas rumah DIY yang dibuat dari S9 bekas. Kami berharap Anda menikmati kursus ini dan memulai petualangan penambangan rumah!
+<chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Selamat datang di kursus MIN201: Pengantar Penambangan. Ajelex, Jim & Rogzy sangat senang untuk membimbing Anda dalam langkah pertama Anda di industri ini. Kami berharap Anda menikmati kursus ini dan memulai petualangan home mining!
+Selamat datang di MIN 302, kursus tentang proyek Attakai. Ajelex, Jim dan Rogzy akan memandu Anda melalui elemen-elemen penting penambangan Bitcoin, kemudian menemani Anda langkah demi langkah dalam membangun Attakai Anda, sebuah pemanas rumah DIY yang dibuat dari S9 bekas. Kami berharap kursus ini akan menyenangkan bagi Anda dan Anda akan memulai petualangan home mining!
 
-Pelatihan ini membawa Anda ke inti industri penambangan Bitcoin dengan menawarkan pemahaman tentang aspek teoretis dan praktis. Apakah Anda pemula atau sudah terbiasa dengan topik ini, kursus ini akan membantu Anda memahami tantangan ekonomi dan teknis yang terkait dengan penambangan, sambil menyelesaikan proyek praktis menggunakan ASIC untuk pemanasan rumah.
+Pelatihan ini membenamkan Anda ke dalam jantung industri penambangan Bitcoin dengan menawarkan pemahaman tentang aspek teoritis dan praktisnya. Baik Anda pemula atau sudah familiar dengan topik ini, perjalanan ini akan memungkinkan Anda memahami isu-isu ekonomi dan teknis yang terkait dengan penambangan, sambil mewujudkan proyek praktis penggunaan ulang ASIC untuk pemanas rumah.
 
-**Bagian 2: Semua Tentang Penambangan**  
+**Bagian 2: Penambangan, cara kerjanya, industrinya dan tantangannya**
 Di bagian ini, kami akan memberikan pemahaman mendalam tentang penambangan Bitcoin. Kami akan membahas cara kerja teknis penambangan, perannya dalam protokol Bitcoin, serta implikasi ekonominya dan geopolitiknya. Anda juga akan mempelajari hubungan kompleks antara harga bitcoin dan hashrate, serta tantangan terkait kedaulatan dan regulasi dalam industri ini.
 
 **Bagian 3: Home Mining dan Penggunaan Panas Kembali**  
 Selanjutnya, kami akan mempelajari aplikasi praktis dengan konsep Attakai, yang bertujuan untuk mendemokratisasikan home mining dengan mengubah penambang S9 bekas menjadi perangkat pemanas rumah. Anda akan belajar cara membeli dan memodifikasi ASIC bekas, serta menyiapkan peralatan yang diperlukan untuk modifikasi perangkat keras.
 
-**Bagian 4: Attakai - Modifikasi Perangkat Lunak Antminer S9**  
+**Bagian 4: Modifikasi perangkat lunak Antminer S9**
 Di sini, Anda akan belajar cara mengonfigurasi Antminer S9 Anda untuk penggunaan di rumah. Kami akan memandu Anda melalui pengaturan jembatan Wi-Fi/Ethernet, mereset perangkat, menginstal BraiinsOS+, dan mengoptimalkannya untuk penambangan.
 
-**Bagian 5: Attakai - Modifikasi Kipas**  
+**Bagian 5: Modifikasi kipas**
 Untuk mengoptimalkan Antminer S9 Anda sebagai alat pemanas tambahan, bagian ini akan mengajarkan Anda cara mengganti kipas power supply dan kipas utama. Modifikasi ini sangat penting untuk mengurangi kebisingan dan meningkatkan efisiensi termal perangkat.
 
-**Bagian 6: Attakai - Pengaturan**  
+**Bagian 6: Pengaturan pemanas DIY**
 Terakhir, Anda akan belajar cara bergabung dengan pool penambangan dan mengoptimalkan kinerja Antminer S9 Anda. Anda akan menemukan cara mencapai efisiensi energi optimal dan menambang satoshi pertama Anda secara efektif.
 
 Siap untuk menjelajahi dunia penambangan Bitcoin dan menghadapi tantangan praktis dari Attakai? Mari kita mulai!
 
 
-# Semua yang Anda Perlu Tahu Tentang Penambangan
+# Penambangan, cara kerjanya, industrinya dan tantangannya
 
 <partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>
 

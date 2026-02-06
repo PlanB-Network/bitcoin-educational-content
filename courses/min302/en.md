@@ -30,25 +30,25 @@ Welcome to MIN 302, the course on the Attakai project. Ajelex, Jim and Rogzy wil
 
 This training takes you to the heart of the Bitcoin mining industry, providing both theoretical and practical knowledge. Whether you are a beginner or already familiar with the topic, this course will help you understand the economic and technical aspects of mining while completing a practical project of repurposing an ASIC for home heating.
 
-**Section 2: Everything about Mining**  
+**Section 2: Mining, its operation, its industry and its challenges**
 In this section, we will provide a comprehensive understanding of Bitcoin mining. We will cover the technical functioning of mining, its role in the Bitcoin protocol, and its economic and geopolitical implications. You will also explore the complex relationship between bitcoin price and hashrate, as well as issues related to sovereignty and regulation in the industry.
 
 **Section 3: Home Mining and Heat Reuse**  
 Next, we will explore the practical application of the Attakai concept, which aims to democratize home mining by converting used S9 miners into home heating devices. You will learn how to purchase and modify a used ASIC, as well as prepare the necessary equipment for hardware modifications.
 
-**Section 4: Attakai - Modifying an Antminer S9's Software**  
+**Section 4: Modifying an Antminer S9 software**
 Here, you will learn how to configure your Antminer S9 for home use. We will guide you through setting up a Wi-Fi/Ethernet bridge, resetting your device, installing BraiinsOS+, and optimizing it for optimal mining performance.
 
-**Section 5: Attakai - Fan Modifications**  
+**Section 5: Modifying the fans**
 To optimize your Antminer S9 for use as an auxiliary heater, this section will guide you through replacing the power supply fans and the main fans. These modifications are essential for reducing noise and improving the thermal efficiency of the device.
 
-**Section 6: Attakai - Configuration**  
+**Section 6: DIY heating setup**
 Finally, you will learn how to join a mining pool and optimize the performance of your Antminer S9. You will discover how to achieve optimal energy efficiency and effectively mine your first satoshis.
 
 Ready to discover the world of Bitcoin mining and take on the practical challenge of Attakai? Let's get started!
 
 
-# Everything You Need to Know About Mining
+# Mining, its operation, its industry and its challenges
 
 <partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>
 

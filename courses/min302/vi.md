@@ -33,25 +33,25 @@ Chào mừng bạn đến với MIN 302, khóa học về dự án Attakai. Ajel
 
 Khóa học này sẽ đưa bạn đến trung tâm của ngành công nghiệp khai thác Bitcoin, cung cấp cho bạn cả kiến thức lý thuyết và thực hành. Dù bạn là người mới bắt đầu hay đã quen thuộc với chủ đề này, khóa học này sẽ giúp bạn hiểu được các khía cạnh kinh tế và kỹ thuật liên quan đến việc khai thác, đồng thời thực hiện một dự án thực tế để tái sử dụng ASIC cho việc sưởi ấm tại nhà.
 
-**Phần 2: Tìm hiểu tất cả về khai thác**  
+**Phần 2: Khai thác, hoạt động, ngành công nghiệp và thách thức của nó**
 Trong phần này, chúng tôi sẽ cung cấp cho bạn sự hiểu biết sâu sắc về khai thác Bitcoin. Chúng tôi sẽ đề cập đến cách hoạt động kỹ thuật của việc khai thác, vai trò của nó trong giao thức Bitcoin, cũng như các tác động kinh tế và địa chính trị. Bạn cũng sẽ tìm hiểu mối quan hệ phức tạp giữa giá bitcoin và hashrate, cũng như các vấn đề liên quan đến chủ quyền và quy định trong ngành này.
 
 **Phần 3: Khai thác tại nhà và tái sử dụng nhiệt**  
 Tiếp theo, chúng tôi sẽ đi sâu vào ứng dụng thực tế với khái niệm Attakai, nhằm mục đích phổ biến khai thác tại nhà bằng cách chuyển đổi các máy đào S9 đã qua sử dụng thành thiết bị sưởi ấm gia đình. Bạn sẽ học cách mua và sửa đổi một ASIC đã qua sử dụng, chuẩn bị các thiết bị cần thiết cho việc sửa đổi phần cứng.
 
-**Phần 4: Attakai - Cấu hình phần mềm của Antminer S9**  
+**Phần 4: Sửa đổi phần mềm của Antminer S9**
 Ở đây, bạn sẽ học cách cấu hình Antminer S9 của mình cho mục đích sử dụng tại nhà. Chúng tôi sẽ hướng dẫn bạn từng bước trong việc thiết lập cầu nối Wi-Fi/Ethernet, đặt lại thiết bị, cài đặt BraiinsOS+ và tối ưu hóa thiết bị cho việc khai thác.
 
-**Phần 5: Attakai - Sửa đổi quạt làm mát**  
+**Phần 5: Sửa đổi quạt**
 Để tối ưu hóa Antminer S9 của bạn như một thiết bị sưởi phụ trợ, phần này sẽ hướng dẫn bạn cách thay thế quạt nguồn và quạt chính. Những thay đổi này là cần thiết để giảm tiếng ồn và cải thiện hiệu quả nhiệt của thiết bị.
 
-**Phần 6: Attakai - Cấu hình**  
+**Phần 6: Cài đặt hệ thống sưởi DIY**
 Cuối cùng, bạn sẽ học cách tham gia một pool khai thác và tối ưu hóa hiệu suất của Antminer S9. Bạn sẽ khám phá cách đạt được hiệu suất năng lượng tối ưu và khai thác satoshi đầu tiên của mình một cách hiệu quả.
 
 Sẵn sàng khám phá thế giới khai thác Bitcoin và chinh phục thử thách thực hành với Attakai? Hãy bắt đầu nào!
 
 
-# Tất cả những gì bạn cần biết về đào bitcoin
+# Khai thác, hoạt động, ngành công nghiệp và thách thức của nó
 
 <partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>
 

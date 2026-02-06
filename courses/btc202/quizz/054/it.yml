@@ -1,4 +1,4 @@
-question: Quale versione di Bitcoin core ha introdotto il modello Ultraprune?
+question: Quale versione di Bitcoin Core ha introdotto il modello Ultraprune?
 answer: 0.8.0
 wrong_answers:
   - 0.3.0

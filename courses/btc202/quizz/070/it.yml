@@ -5,5 +5,5 @@ wrong_answers:
   - Satoshi Nakamoto
   - Mining Pools
 explanation: |
-  I semi DNS sono gestiti da sviluppatori noti (Wuille, Corallo, Dashjr, ecc.) e forniscono IP di nodi attivi per avviare le connessioni.
+  I DNS seed sono gestiti da sviluppatori noti (Wuille, Corallo, Dashjr, ecc.) e forniscono IP di nodi attivi per avviare le connessioni.
 reviewed: true

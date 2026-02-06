@@ -1,4 +1,4 @@
-question: Quali misure di sicurezza sono fortemente raccomandate per proteggere l'accesso al vostro Umbrel?
+question: Quali misure di sicurezza sono fortemente raccomandate per proteggere l'accesso al tuo Umbrel?
 answer: Password lunga e attivazione 2FA
 wrong_answers:
   - Doppio storage SSD

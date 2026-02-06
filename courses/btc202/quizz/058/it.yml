@@ -1,4 +1,4 @@
-question: Qual è la principale limitazione delle comunicazioni Tor con il vostro nodo?
+question: Qual è la principale limitazione delle comunicazioni Tor con il tuo nodo?
 answer: Lentezza
 wrong_answers:
   - Mancanza di crittografia

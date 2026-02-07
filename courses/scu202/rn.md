@@ -5068,7 +5068,7 @@ Nimba ufise amadosiye menshi yo gukora mu bubiko bumwe, ushobora gukoresha ibwir
 
 
 ```bash
-exiftool -all= *.jpg
+exiftool -all= *.webp
 ```
 
 

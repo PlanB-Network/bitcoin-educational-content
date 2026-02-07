@@ -5,6 +5,5 @@ wrong_answers:
   - DH
   - SHA256
 explanation: |
-Het ECDH-algoritme (Elliptic-Curve Diffie-Hellman) wordt bij Silent Payments gebruikt om een gedeeld geheim vast te stellen tussen het scansleutelpaar van de ontvanger en de som van het sleutelpaar van de verzender. Dit gedeelde geheim maakt het mogelijk om het unieke betaalsadres af te leiden.  
-
+  Het ECDH-algoritme (Elliptic-Curve Diffie-Hellman) wordt bij Silent Payments gebruikt om een gedeeld geheim vast te stellen tussen het scansleutelpaar van de ontvanger en de som van het sleutelpaar van de verzender. Dit gedeelde geheim maakt het mogelijk om het unieke betaalsadres af te leiden.
 reviewed: false

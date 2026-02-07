@@ -321,6 +321,7 @@ Dari abad ke-17 hingga abad ke-19, di banyak negara Barat, terdapat periode perc
 
 > Selama abad ini, umat manusia menghadapi, sekali lagi, pemerintahan yang ganas dari Negara; Negara kini bersenjatakan kekuatan kreatif manusia, yang disita dan dipergunakan untuk tujuan-tujuannya sendiri.
 > Apa itu masyarakat bebas, setelah semua? Ini adalah masyarakat tanpa monopoli. Dalam karyanya tentang filsafat politik, _Ethics of Liberty_ (1982), Rothbard menjawab: "masyarakat di mana tidak ada kemungkinan hukum agresi paksa terhadap pribadi atau properti seseorang." Inilah sebabnya, menurutnya, filsafat politik, yang harus mendefinisikan prinsip-prinsip masyarakat yang adil, pada dasarnya bermuara pada satu pertanyaan: "Siapa yang secara sah memiliki apa?"
+
 > ![image](assets/id/019.webp)
 
 Bagi Rothbard, tatanan sosial dapat bertahan jika itu adalah produk dari generalisasi prosedur kontraktual untuk pertukaran bebas hak milik, dengan memprivatisasi semua aktivitas ekonomi dan bahkan fungsi kedaulatan (bank sentral, pengadilan) dan dengan mengadopsi persaingan di antara agen-agen perlindungan.
@@ -342,6 +343,7 @@ Dan dia menambahkan:
 :::video id=08751358-5a23-48ef-9c30-6a810d165c75:::
 
 Pengalaman demokrasi Athena telah meninggalkan bekas yang abadi dalam sejarah pemikiran politik dan terus menginspirasi ideal-ideal demokrasi dan partisipasi warga di dunia saat ini.
+
 ![image](assets/id/020.webp)
 
 Demokrasi Athena ditandai dengan debat publik yang hidup mengenai urusan kota, yang terutama berlangsung di agora, pasar. Mode operasi ini, yang berdasarkan pada alasan dan diskusi kritis, sangat bertentangan dengan praktik sebelumnya di mana hukum dan adat dianggap sakral dan tidak dapat diubah, diturunkan oleh leluhur dan dilindungi oleh dewa-dewa.
@@ -349,6 +351,7 @@ Demokrasi Athena ditandai dengan debat publik yang hidup mengenai urusan kota, y
 ### Kelahiran politik bersama kota
 
 Demokrasi Athena mewakili sebuah pemisahan besar dari tradisi masa lalu. Memang, dalam masyarakat sebelumnya, tidak bisa ada "politik" dalam arti diskusi tentang aturan sosial, karena ini diberlakukan secara transenden oleh mitos.
+
 ![image](assets/id/021.webp)
 
 Sejarawan Jean-Pierre Vernant menulis:
@@ -415,9 +418,10 @@ Menjauh dari pemikiran mitologis, Thales, Anaximander, Anaximenes, dan kemudian 
 Prinsip dasar yang diajukan oleh para filsuf Pra-Sokratik awal ini adalah bahwa elemen-elemen dari kosmos (alam semesta) bertahan karena mereka semua sama-sama tunduk pada "hukum alam" (phusis) yang sama yang dapat dinyatakan secara universal dan perlu. Alam semesta adalah rasional, ia merupakan keseluruhan yang terstruktur, yang dapat ditemukan manusia dengan akalnya (logos sebagai lawan dari mutos, mitos).
 
 Menurut Karl Popper, kita berhutang kepada para filsuf Yunani kuno, khususnya Pra-Sokratik, penemuan rasionalisme kritis, yaitu, tradisi Barat diskusi kritis, sumber pemikiran ilmiah dan pluralisme. Dia menjelaskan ini dalam sebuah bab dari _Conjectures and Refutations_ berjudul "Kembali ke Pra-Sokratik":
-Mengenai tanda-tanda pertama dari keberadaan sikap kritis, kebebasan berpikir yang baru, mereka muncul dalam kritik Anaximander terhadap Thales. Ini adalah fenomena yang cukup unik, pemikir yang dikritik Anaximander adalah gurunya, senegaranya, salah satu dari Tujuh Bijak, orang yang mendirikan Sekolah Ionia. Menurut tradisi, Anaximander hanya empat belas tahun lebih muda dari Thales, dan dia kemungkinan merumuskan kritiknya dan menyajikan konsep-konsep baru selama masa hidup gurunya (mereka meninggal, tampaknya, beberapa tahun terpisah). Namun, tidak ada bukti perselisihan, pertengkaran, atau skisma yang ditemukan dalam sumber-sumber.
+Mengenai tanda-tanda pertama dari keberadaan sikap kritis, kebebasan berpikir yang baru, mereka muncul dalam kritik Anaximander terhadap Thales. Ini adalah fenomena yang cukup unik, pemikir yang dikritik Anaximander adalah gurunya, senegaranya, salah satu dari Tujuh Bijak, orang yang mendirikan Sekolah Ionia. Menurut tradisi, Anaximander hanya empat belas tahun lebih muda dari Thales, dan dia kemungkinan merumuskan kritiknya dan menyajikan konsep-konsep baru selama masa hidup gurunya (mereka meninggal, tampaknya, beberapa tahun terpisah). Namun, tidak ada bukti perselisihan, pertengkaran, atau perpecahan yang ditemukan dalam sumber-sumber.
 
 ![image](assets/id/027.webp)
+
 Elemen-elemen ini menunjukkan, menurutnya, bahwa Thales adalah orang yang memulai tradisi kebebasan baru ini, berdasarkan hubungan asli antara guru dan murid. Thales mampu mentolerir kritik dan, lebih dari itu, ia menetapkan tradisi untuk mengakui kritik tersebut. Popper mengidentifikasi di sini sebuah pergeseran dari tradisi dogmatis, yang hanya memperbolehkan satu doktrin sekolah, untuk digantikan dengan pluralisme dan fallibilisme.
 
 > Upaya kita untuk memahami dan menemukan kebenaran tidak definitif tetapi mampu diperbaiki, pengetahuan kita, badan doktrin kita bersifat konjektural, terbuat dari asumsi, hipotesis, dan bukan dari kebenaran yang pasti dan final.
@@ -458,7 +462,9 @@ Akhirnya, hukum Romawi memberikan perhatian besar pada hak dan kebebasan individ
 Hukum ini secara mengejutkan sesuai dengan hak-hak alamiah fundamental sebagaimana diteorikan oleh John Locke dua ribu tahun kemudian. Ini memungkinkan perlindungan hak individu terhadap sewenang-wenang dan penyalahgunaan kekuasaan.
 
 Tentu saja, wanita, budak, dan orang asing masih dikecualikan dari perlindungan hukum penuh. Namun demikian, Hukum Dua Belas Tabel mewakili kemajuan yang signifikan dan dasar untuk pengembangan lebih lanjut dari hak-hak individu yang diperluas untuk semua.
+
 ![image](assets/id/030.webp)
+
 Hukum Dua Belas Tabel secara khusus menempatkan pentingnya hak atas properti:
 
 - Ini mendefinisikan berbagai jenis properti (tanah, bergerak, dll.)
@@ -483,7 +489,7 @@ Treatise on the Happy Life (_De Vita Beata_) adalah pembelaan untuk moralitas St
 
 ![image](assets/id/031.webp)
 
-Namun, kesenangan tidak tidak sesuai dengan kebajikan:
+Namun, kesenangan tidak bertentangan dengan kebajikan:
 
 > Para leluhur menyarankan hidup terbaik, bukan yang paling menyenangkan, dengan cara sehingga kesenangan bukanlah panduan dari kehendak yang benar, tetapi temannya di jalan.
 
@@ -513,6 +519,7 @@ Ketika Antigone mendurhakai Creon, ia menentang hukum positif untuk mematuhi hat
 Cicero hidup pada abad ke-1 SM dan dianggap sebagai orator terbesar bahasa Latin di bawah Kekaisaran Romawi. Ia juga seorang filsuf moral dan politik yang dekat dengan para Stoik. Esainya telah dibaca oleh orang Eropa terpelajar selama berabad-abad.
 
 ![image](assets/id/033.webp)
+
 Dalam risalahnya _Tentang Hukum_ (_De Legibus_), ia merenungkan tentang dasar hukum. Menurutnya, hukum positif, kumpulan konvensi atau hukum tertulis yang diadopsi oleh suatu masyarakat, tidak dapat menetapkan keadilan yang layak disebut demikian. Ada keadilan alami, tertulis dalam akal manusia: "hukum memiliki dasar dalam alam itu sendiri." Mengatakan bahwa adil dan tidak adil adalah hasil dari konvensi adalah mengatakan bahwa kebenaran didekretkan. Namun, kebenaran tidak dapat didekretkan, bahkan oleh mayoritas, itu memandu penilaian kita.
 Cicero juga menolak utilitas sebagai dasar hukum. Memang, ia menulis:
 
@@ -523,7 +530,7 @@ Hukum yang sejati adalah akal budi yang sejalan dengan alam; ia berlaku secara u
 Hukum ini lebih unggul dari perundang-undangan yang berlaku, oleh karena itu, "ia tidak dapat dibatalkan oleh undang-undang lain, tidak ada satu pun dari ajarannya yang dapat dikurangi, dan tidak dapat sepenuhnya dihapuskan," tambah Cicero. Kekuatan politik tidak memiliki pegangan atasnya.
 
 Baik kebenaran maupun keadilan tidak dapat didekretkan, bahkan oleh mayoritas, karena jika tidak, mereka menjadi objek dari semua manipulasi. Oleh karena itu, meskipun penguasanya adalah rakyat, tidak benar untuk melanggar prinsip-prinsip hukum alam.
-Dengan menyatakan bahwa hukum tidak dapat direduksi menjadi hanya statuta yang diberlakukan oleh legislatif, Cicero bertujuan untuk melawan sewenang-wenang legislatif dan mengusulkan moralitas politik. Ide ini telah memiliki pengaruh yang berlangsung lama pada pemikiran Barat.
+Dengan menyatakan bahwa hukum tidak dapat direduksi hanya pada undang-undang yang disahkan oleh badan legislatif, Cicero bertujuan untuk melawan sewenang-wenang legislatif dan mengusulkan moralitas politik. Ide ini telah memiliki pengaruh yang berlangsung lama pada pemikiran Barat.
 
 ## Kebangkrutan Roma
 
@@ -563,7 +570,7 @@ Sebuah contoh klasik dari intervensionisme muncul di Roma ketika Kaisar Diokleti
 
 ![image](assets/id/035.webp)
 
-Emisi moneter berulang oleh kaisar-kaisar berikutnya untuk mengatasi peningkatan pengeluaran militer telah menyebabkan lonjakan harga. Pada tahun 301, Diokletian mengumumkan Edik Maksimum dalam upaya untuk menetapkannya. Itu adalah kegagalan.
+Emisi moneter berulang oleh kaisar-kaisar berikutnya untuk mengatasi peningkatan pengeluaran militer telah menyebabkan lonjakan harga. Pada tahun 301, Diocletianus mengeluarkan Edict of Maximum sebagai upaya untuk membatasinya. Namun, kebijakan itu gagal.
 
 Ludwig von Mises menggambarkan episode ini, yang dengan baik mengilustrasikan efek buruk dari intervensionisme:
 Kaisar Romawi Diokletian terkenal karena telah menjadi kaisar Romawi terakhir yang mempersekusi orang Kristen. Kaisar-kaisar Romawi, pada bagian akhir abad ketiga, hanya memiliki satu metode keuangan, yaitu merusak mata uang. Pada masa primitif ini, sebelum penemuan mesin cetak, inflasi itu sendiri bersifat primitif, bisa dikatakan. Ini melibatkan penipuan dalam pencetakan koin, terutama perak, sampai warna paduan berubah dan beratnya secara signifikan berkurang. Hasil dari penurunan nilai mata uang ini, dikombinasikan dengan peningkatan yang sesuai dalam peredaran, adalah kenaikan harga, diikuti oleh sebuah edik kontrol harga. Dan kaisar-kaisar Romawi tidak menahan diri dalam menegakkan hukum; mereka tidak menganggap kematian sebagai hukuman yang terlalu berat bagi seorang pria yang telah meminta harga terlalu tinggi. Mereka menegakkan kontrol harga, tetapi sebagai konsekuensinya, mereka menurunkan masyarakat. Ini pada akhirnya menyebabkan disintegrasi Kekaisaran Romawi, dan juga kepada keruntuhan pembagian kerja.
@@ -627,6 +634,7 @@ Singkatnya, kebebasan adalah suatu kebaikan karena memungkinkan seseorang untuk 
 ### Tuhan tidak melakukan kebaikan di tempat kita
 
 Dalam teologi abad pertengahan, providensi bukanlah intervensi konstan dari Tuhan dalam kehidupan manusia, seolah-olah Tuhan bertindak di tempat kita dan tanpa persetujuan kita. Sebaliknya, Tuhan memberikan kepada setiap makhluk, sesuai dengan sifatnya, kemampuan yang memungkinkannya untuk menyediakan bagi dirinya sendiri dan dengan demikian mencapai pengembangan penuhnya. Tuhan tidak melakukan kebaikan untuk makhluknya sebagai gantinya.
+
 ![image](assets/id/038.webp)
 
 Dan semakin tinggi kita naik dalam skala makhluk, dari mineral hingga manusia, semakin banyak Tuhan mendelegasikan kepada makhluk-Nya kekuatan untuk bertindak sendiri. Dia mempercayakan manusia dengan kebebasan untuk mengatur dirinya sendiri dan mengatur dunia dengan akalnya, sesuai dengan kebajikan kehati-hatian.
@@ -704,7 +712,7 @@ Pertanyaan tentang hubungan antara politik dan agama terbentuk dengan karya Sant
 Dua cinta telah membuat dua kota: cinta diri sendiri dengan menghina Tuhan, kota duniawi; cinta kepada Tuhan, dengan menghina diri sendiri, kota surgawi.
 ![image](assets/id/042.webp)
 
-Kita memiliki, oleh karena itu:
+Oleh karena itu, kita memiliki:
 
 - Sebuah kekuatan spiritual yang berasal dari Tuhan diwujudkan oleh Paus dan dilaksanakan atas seluruh Kekristenan (ini adalah Kota Allah).
 - Kota manusia, yang bersifat duniawi dan terdiri dari kekuatan lokal dan temporal. Ini berasal dari dosa asal, dari Kejahatan.
@@ -878,6 +886,7 @@ Dalam _Surat Kesepuluh_, "Tentang Perdagangan", Voltaire menggambarkan pola piki
 Namun, Prancis tidak kekurangan pikiran besar. Ini sedikit diketahui tetapi Anne Robert Jacques Turgot, Baron de Laulne pertama-tama adalah pemikir terkemuka sebelum menjadi Pengawas Umum Keuangan di bawah Louis XVI. Dia adalah penulis sebuah risalah cemerlang tentang ekonomi politik, _Refleksi tentang Pembentukan dan Distribusi Kekayaan_ (1766), mendahului _Kekayaan Bangsa_ oleh Adam Smith (1776).
 
 ![image](assets/id/052.webp)
+
 Tulisan-tulisan awalnya mencerminkan komitmennya pada filosofi Pencerahan. Pada tahun 1754, dia menerbitkan _Surat-surat tentang Toleransi Sipil_ dan pada tahun 1757, beberapa artikel yang ditulis untuk _The Encyclopédie_ oleh Diderot dan d'Alembert.
 Dalam surat-suratnya, Turgot menyajikan definisi toleransi. Toleransi berarti menolak untuk menggunakan kekerasan terhadap kesalahan. Dengan kata lain, toleransi bukanlah penerimaan kesalahan. Seseorang dapat melawan itu tetapi dengan senjata keyakinan dan alasan, bukan dengan kekerasan.
 

@@ -21,7 +21,7 @@ Bitcoin is based on a fundamental cryptographic principle: whoever holds the pri
 A Bitcoin inheritance plan must meet two seemingly contradictory objectives: allowing your loved ones to access your funds when the time comes, while preventing anyone else from accessing them prematurely. This delicate balance relies on Bitcoin's native programming capabilities.
 
 
-Technical complexity adds an extra layer of difficulty. Your heirs will have to manipulate concepts such as recovery phrases, portfolio descriptors, or derivation paths. Without adequate preparation, even a well-intentioned heir risks making irreversible mistakes.
+Technical complexity adds an extra layer of difficulty. Your heirs will have to manipulate concepts such as recovery phrases, wallet descriptors, or derivation paths. Without adequate preparation, even a well-intentioned heir risks making irreversible mistakes.
 
 
 ## How on-chain inheritance works
@@ -36,7 +36,7 @@ Bitcoin uses its scripting language to encode spending conditions directly in tr
 Timelocks are the fundamental mechanism of Bitcoin inheritance. They enable funds to be locked until a time condition is met.
 
 
-**CLTV (CheckLockTimeVerify)**: This absolute timelock checks that a specific time (date or block height) has been reached before authorizing the expenditure. For example, "these funds can only be spent after block 900000" or "after January 1, 2026". The advantage of CLTV is that it allows long delays (several years), but the date is fixed and applies identically to all UTXOs in the portfolio. To maintain control of your funds, you must periodically create a new portfolio with an extended expiry date and transfer your funds to it.
+**CLTV (CheckLockTimeVerify)**: This absolute timelock checks that a specific time (date or block height) has been reached before authorizing the expenditure. For example, "these funds can only be spent after block 900000" or "after January 1, 2026". The advantage of CLTV is that it allows long delays (several years), but the date is fixed and applies identically to all UTXOs in the wallet. To maintain control of your funds, you must periodically create a new wallet with an extended expiry date and transfer your funds to it.
 
 
 **CSV (CheckSequenceVerify)**: This relative timelock verifies that a certain number of blocks have elapsed since the UTXO was created. For example, "these funds can only be spent 52560 blocks (~1 year) after receipt". The advantage of CSV is that each UTXO has its own independent counter. Every time you perform a transaction, the newly created UTXOs reset their own time limit. However, the technical limit of 65535 blocks (~15 months maximum) restricts the possible timeframes. This approach is more natural for everyday use, since your normal activity automatically pushes back the deadlines.
@@ -45,7 +45,7 @@ Timelocks are the fundamental mechanism of Bitcoin inheritance. They enable fund
 ### Multiple spending paths
 
 
-An inheritance portfolio combines several spending paths in each address:
+An inheritance wallet combines several spending paths in each address:
 
 
 
@@ -68,10 +68,10 @@ Each transaction performed by the owner "refreshes" the UTXO, creating new outpu
 ## The critical importance of descriptors
 
 
-For legacy portfolios, the recovery phrase (seed) is not enough to restore access to funds. The **descriptor** becomes the critical element.
+For legacy wallets, the recovery phrase (seed) is not enough to restore access to funds. The **descriptor** becomes the critical element.
 
 
-A descriptor is a string that exhaustively describes the structure of a portfolio: the public keys involved, spending conditions, derivation paths, and configured timelocks. Here's a simplified example:
+A descriptor is a string that exhaustively describes the structure of a wallet: the public keys involved, spending conditions, derivation paths, and configured timelocks. Here's a simplified example:
 
 
 ```
@@ -92,7 +92,7 @@ Let's unpack this example:
 - `older(52560)`: The relative time lock of 52560 blocks
 
 
-**Without the descriptor, even with all the recovery phrases, your heirs won't be able to rebuild the portfolio.** A standard portfolio can only be restored from seed because it follows standardized derivation paths (BIP44, BIP84). A legacy portfolio, on the other hand, uses customized scripts that cannot be guessed. The descriptor backup (or the configuration file exported by your software) must accompany the recovery phrases in your inheritance plan.
+**Without the descriptor, even with all the recovery phrases, your heirs won't be able to rebuild the wallet.** A standard wallet can only be restored from seed because it follows standardized derivation paths (BIP44, BIP84). A legacy wallet, on the other hand, uses customized scripts that cannot be guessed. The descriptor backup (or the configuration file exported by your software) must accompany the recovery phrases in your inheritance plan.
 
 
 ## Documentary components of an inheritance plan
@@ -135,12 +135,12 @@ For each contact, document: full name, relationship to you, role in the plan, le
 This section maps all your bitcoins with the technical information needed to recover them.
 
 
-For each portfolio, document :
+For each wallet, document :
 
 
 - Portfolio type**: hardware, software, configuration (single-sig, multisig, legacy)
 - Device location**: physical location of wallet hardware
-- Descriptor/configuration file location**: critical for advanced portfolios
+- Descriptor/configuration file location**: critical for advanced wallets
 - Location of recovery phrase**: separate from descriptor
 - Access codes**: where PINs and passphrases are stored
 - Configured delays**: when recovery paths activate
@@ -155,10 +155,10 @@ Several software packages implement on-chain inheritance mechanisms. Each has it
 ### Liana
 
 
-Liana is desktop software (Linux, macOS, Windows) using Miniscript to create portfolios with timed recovery paths. The project is developed by Wizardsardine, co-founded by Antoine Poinsot (Bitcoin Core contributor).
+Liana is desktop software (Linux, macOS, Windows) using Miniscript to create wallets with timed recovery paths. The project is developed by Wizardsardine, co-founded by Antoine Poinsot (Bitcoin Core contributor).
 
 
-**Technical architecture**: Liana creates P2WSH portfolios (SegWit native) by default, with Taproot support available depending on the compatibility of your wallet hardware. The architecture is based on a main path and one or more recovery paths. The generated descriptor encodes all conditions and must be saved.
+**Technical architecture**: Liana creates P2WSH wallets (SegWit native) by default, with Taproot support available depending on the compatibility of your wallet hardware. The architecture is based on a main path and one or more recovery paths. The generated descriptor encodes all conditions and must be saved.
 
 
 **Timelocks used**: Liana uses relative timelocks (CSV), limited to 65535 blocks (~15 months). To maintain control, you must perform a refresh transaction before the timelock expires.
@@ -213,7 +213,7 @@ Understanding the recovery process helps prepare an effective plan. Here are the
 
 The heir needs :
 
-1. **The descriptor or configuration file** of the original portfolio (JSON or text format, depending on the software)
+1. **The descriptor or configuration file** of the original wallet (JSON or text format, depending on the software)
 
 2. **Its recovery phrase** (the one associated with its inheritance key, usually 12 or 24 words)
 
@@ -227,11 +227,11 @@ The heir needs :
 
 1. **Install the software** on a secure device and configure the connection to the Bitcoin network (personal node or Electrum server)
 
-2. **Import the descriptor** to reconstruct the portfolio structure. The software will automatically generate all addresses used
+2. **Import the descriptor** to reconstruct the wallet structure. The software will automatically generate all addresses used
 
 3. **Restore inheritance key** from recovery phrase. The software will check that this key corresponds to one of the keys authorized in the descriptor
 
-4. **Synchronize portfolio** to discover all UTXOs and their spending conditions
+4. **Synchronize wallet** to discover all UTXOs and their spending conditions
 
 5. **Check timelock expiration**: the software will indicate for each UTXO whether the recovery path is active
 
@@ -252,7 +252,7 @@ The heir must pay particular attention to :
 - Check the authenticity of downloaded software** (checksums, signatures)
 - Never share your recovery phrase** with anyone offering help
 - Consult at least two people you trust** before carrying out recovery
-- Transfer the funds to a simple portfolio** that he controls completely after recovery
+- Transfer the funds to a simple wallet** that he controls completely after recovery
 
 
 ## Best practices
@@ -267,7 +267,7 @@ Never store all information in one place. The descriptor must be separated from 
 ### Recovery tests
 
 
-Before depositing significant funds, test the entire recovery process with a small amount. Verify that you can restore the portfolio from the descriptor and recovery phrases on a blank device. Document the steps for your heirs.
+Before depositing significant funds, test the entire recovery process with a small amount. Verify that you can restore the wallet from the descriptor and recovery phrases on a blank device. Document the steps for your heirs.
 
 
 ### Timelock maintenance
@@ -279,7 +279,7 @@ Plan to refresh your timelocks well before they expire. For a 12-month timelock,
 ### Plan update
 
 
-Your Bitcoin configuration evolves. Each significant change (new portfolio, modification of deadlines, addition of heir) must be reflected in your documentation. Establish an annual review routine.
+Your Bitcoin configuration evolves. Each significant change (new wallet, modification of deadlines, addition of heir) must be reflected in your documentation. Establish an annual review routine.
 
 
 ## Choosing your approach

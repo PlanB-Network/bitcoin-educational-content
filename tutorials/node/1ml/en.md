@@ -205,7 +205,7 @@ Bear in mind, however, that the geolocation of Lightning nodes has its limits an
 1ML allows you to visualize the **general structure of Lightning Network**. By observing the connections between nodes, the number of channels and overall capacity, it's possible to understand how the network is organized, which nodes play a central role and how payment flows can theoretically circulate.
 
 
-This understanding is essential if we are to understand how the Lightning Network works, and not just for portfolio use.
+This understanding is essential if we are to understand how the Lightning Network works, and not just for wallet use.
 
 
 ### Identify important nodes
@@ -257,7 +257,7 @@ A node with high capacity or many channels is not necessarily more "reliable" or
 ### Complementarity with other tools
 
 
-1ML is an excellent starting point for exploring Lightning Network, but it's best used in conjunction with other tools such as Lightning portfolios, node management interfaces and other explorers. This approach provides a more complete and nuanced view of the network.
+1ML is an excellent starting point for exploring Lightning Network, but it's best used in conjunction with other tools such as Lightning wallets, node management interfaces and other explorers. This approach provides a more complete and nuanced view of the network.
 
 
 ## 1ML connection option (advanced functionality)

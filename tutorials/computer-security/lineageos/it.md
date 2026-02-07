@@ -79,7 +79,7 @@ Secondo le statistiche ufficiali, i modelli più utilizzati includono una variet
 
 **Ripristino del firmware stock (se necessario):**
 
-- **Strumento Android Flash**: utilizza lo strumento ufficiale di Google [flash.android.com] (https://flash.android.com) per ripristinare facilmente il dispositivo Pixel ad Android stock dal browser web (è necessario Chrome/Edge)
+- **Strumento Android Flash**: utilizza lo strumento ufficiale di Google [flash.android.com](https://flash.android.com) per ripristinare facilmente il dispositivo Pixel ad Android stock dal browser web (è necessario Chrome/Edge)
 - **Alternativa**: scarica manualmente il file immagine di fabbrica da [developers.google.com/android/images](https://developers.google.com/android/images)
 
 **Test prerequisiti obbligatori:**
@@ -92,7 +92,7 @@ Secondo le statistiche ufficiali, i modelli più utilizzati includono una variet
 - **Rimuovere tutti gli account Google** dal dispositivo per evitare la protezione del ripristino di fabbrica, che potrebbe bloccare l'attivazione
 - **Backup completo**: il processo cancella completamente il telefono. Fai un backup di foto, contatti, applicazioni e file importanti
 
-**Strumenti ADB e Fastboot**: segui la [guida ufficiale LineageOS] (https://wiki.lineageos.org/adb_fastboot_guide#installing-adb-and-fastboot) per installare gli strumenti della piattaforma Android SDK. Verificare l'installazione con `adb version` e `fastboot --version`.
+**Strumenti ADB e Fastboot**: segui la [guida ufficiale LineageOS](https://wiki.lineageos.org/adb_fastboot_guide#installing-adb-and-fastboot) per installare gli strumenti della piattaforma Android SDK. Verificare l'installazione con `adb version` e `fastboot --version`.
 
 **Configurazione del telefono**
 

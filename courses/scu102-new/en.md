@@ -112,6 +112,8 @@ In the cryptocurrency world, Ponzi schemes can take many forms, often designed t
 
 More recently, Ponzi schemes have also spread into the world of Decentralized Finance (DeFi). While DeFi is intended to provide financial services without intermediaries, some projects use it to lend a false sense of legitimacy to their scams. Certain DeFi platforms promise high, guaranteed returns in exchange for cryptocurrency deposits into automated protocols. These attractive promises are often backed by opaque and unverifiable mechanisms, with tokens created specifically for the scam. In reality, these systems have no sustainable business model—the returns are simply paid from the funds of new users, just like a traditional Ponzi scheme. When trust starts to erode or the influx of new participants slows down, these systems inevitably collapse, leading to significant losses for unsuspecting investors.
 
+![image](assets/en/005.webp)
+
 Please note that the content of this course is for educational purposes only and should not be interpreted as financial advice. Your financial security depends on your ability to remain cautious, skeptical and well-informed with every financial decision you make.
 
 The best protection is to always ask this simple question: Where does the promised return actually come from? If the answer is unclear, run away immediately.
@@ -140,8 +142,6 @@ This type of scam involves artificially inflating the price of an asset—often 
 It's important to note that Pump & Dump strategies are illegal in many countries and are considered a form of market manipulation. Despite this, such schemes continue to flourish, especially in the cryptocurrency space, where regulation is still catching up.
 
 Be especially cautious of private "signal" groups on platforms like Telegram, Discord, or other social media channels. These are often run by influencers or self-proclaimed experts, some of whom even charge entry fees. While these groups claim to offer exclusive investment opportunities, the reality is far more one-sided: only the organizers profit, while most participants end up losing their money.
-
-![image](assets/en/005.webp)
 
 It's true that some participants might temporarily profit from these kinds of market manipulations, but their success is usually based on nothing more than luck and perfect timing. In the long run, these schemes are not sustainable. They require constant high-risk involvement and repeated participation in fraudulent setups that inevitably collapse.
 

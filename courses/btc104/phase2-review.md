@@ -68,13 +68,13 @@
   - Ch 12: `common-mistakes-ch12`
   - Ch 13: `security-journey-ch13`
   - Ch 14: `conclusion-ch14`
-- [ ] Going Further is last chapter of last content Part - **MISSING**
-- [x] Conclusion Part exists with only Conclusion chapter (Part 5 has 2 chapters: "Your Security Journey" and "Conclusion")
-- [x] `<isCourseConclusion>true</isCourseConclusion>` tag present (on conclusion-ch14)
+- [x] Going Further is last chapter of last content Part - FIXED (2026-02-08): Added going-further-ch14 as last chapter of Part 4
+- [x] Conclusion Part exists with only Conclusion chapter - FIXED (2026-02-08): Part 5 now contains only ch15 Conclusion
+- [x] `<isCourseConclusion>true</isCourseConclusion>` tag present (on conclusion-ch15, updated 2026-02-08)
 
 **Issues:**
-1. **CRITICAL: Missing "Going Further" chapter** - The last content Part (Part 4: Best Practices) should have a "Going Further" chapter as its last chapter before the Conclusion Part. Currently ends with "Common Mistakes and How to Avoid Them" (ch12).
-2. **Conclusion Part structure** - Part 5 (Conclusion) has two chapters: "Your Security Journey" (ch13) and "Conclusion" (ch14). Per standards, Conclusion Part should contain ONLY the Conclusion chapter. Consider merging ch13 content into ch14, or moving ch13 to be the last chapter of Part 4.
+1. ~~**CRITICAL: Missing "Going Further" chapter**~~ - FIXED (2026-02-08): Added Going Further chapter (going-further-ch14) as last chapter of Part 4 with recommended courses, resources, and golden rules.
+2. ~~**Conclusion Part structure**~~ - FIXED (2026-02-08): Moved Ch 13 "Your Security Journey" to Part 4. Added Going Further as ch14. Part 5 Conclusion now contains only ch15 Conclusion.
 
 ---
 
@@ -411,8 +411,8 @@ Topics to cover across the entire course for final exam:
 
 | # | Issue | Location | Fix Required | Priority |
 |---|-------|----------|--------------|----------|
-| 1 | Missing "Going Further" chapter | End of Part 4 (best-practices-part4) | Add a "Going Further" chapter with resources, next steps, golden rules. Should be placed after Ch 12 (Common Mistakes) and before Part 5 (Conclusion) | **Critical** |
-| 2 | Conclusion Part has 2 chapters | Part 5 (conclusion-part5) | Per standards, Conclusion Part should contain ONLY the Conclusion chapter. Either: (a) merge Ch 13 "Your Security Journey" content into Ch 14 "Conclusion", OR (b) move Ch 13 to be part of Part 4 before the new "Going Further" chapter | **High** |
+| 1 | ~~Missing "Going Further" chapter~~ | End of Part 4 | FIXED (2026-02-08): Added "Going Further" chapter (going-further-ch14) with recommended courses, external resources, and golden rules for Bitcoin security | ~~Critical~~ Done |
+| 2 | ~~Conclusion Part has 2 chapters~~ | Part 5 | FIXED (2026-02-08): Moved Ch 13 "Your Security Journey" to Part 4, added Going Further as ch14, Conclusion Part now contains only ch15 Conclusion | ~~High~~ Done |
 
 **Recommended Structure After Fixes:**
 
@@ -448,12 +448,9 @@ Part 5: Conclusion
 **Before starting Phase B, complete these tasks:**
 
 #### Critical (Must Do)
-- [ ] Add "Going Further" chapter at end of Part 4 with:
-  - Links to related courses (BTC105, SOV102)
-  - External resources for further learning
-  - Golden rules summary for Bitcoin security
-- [ ] Restructure Conclusion Part to contain only Conclusion chapter (merge or move "Your Security Journey")
-- [ ] Update chapter IDs if chapters are renumbered
+- [x] Add "Going Further" chapter at end of Part 4 - DONE (2026-02-08): Added going-further-ch14 with courses, resources, golden rules
+- [x] Restructure Conclusion Part to contain only Conclusion chapter - DONE (2026-02-08): Ch13 moved to Part 4, Conclusion is now ch15
+- [x] Update chapter IDs after renumbering - DONE (2026-02-08): Going Further = ch14, Conclusion = ch15
 
 #### Images to Create (38-40 total)
 - [ ] Ch 1: 0-1 images (see specs in A5)

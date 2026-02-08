@@ -739,10 +739,6 @@ Before you consider yourself "set up":
 
 <!-- END NEW -->
 
-# Conclusion
-
-<partId>conclusion-part5</partId>
-
 ## Your Security Journey
 
 <chapterId>security-journey-ch13</chapterId>
@@ -771,14 +767,6 @@ Let's recap what you now know:
 3. **Graduate to hardware wallet when ready**: When your holdings justify it
 4. **Stay humble and careful**: Overconfidence leads to mistakes
 
-### Where to Go from Here
-
-**For buying more bitcoin**: Take BTC105 (How to Acquire Bitcoin) to learn about different acquisition methods—exchanges, DCA, peer-to-peer, and more.
-
-**For protecting your heirs**: When your holdings become significant, take SOV102 (Bitcoin Inheritance Planning) to ensure your bitcoin can be passed on.
-
-**For advanced security**: A future course will cover multisig, passphrases, running nodes, and other advanced techniques.
-
 ### A Final Word
 
 Bitcoin puts you in control of your money. That control comes with responsibility. But you're capable of handling it.
@@ -789,7 +777,42 @@ Welcome to financial sovereignty.
 
 <!-- END NEW -->
 
+## Going Further
+
+<chapterId>going-further-ch14</chapterId>
+
+<!-- NEW -->
+
+### Recommended Courses
+
+Now that you've secured your first bitcoin, here are the courses we recommend next:
+
+- **BTC105 - How to Acquire Bitcoin**: Learn about different acquisition methods—exchanges, DCA, peer-to-peer, and more
+- **SOV102 - Bitcoin Inheritance Planning**: When your holdings become significant, ensure your bitcoin can be passed on to your loved ones
+- **SCU102 - Financial Fraud, Scams & Online Security**: Deepen your understanding of threats and protection strategies
+
+### External Resources
+
+- *Mastering Bitcoin* by Andreas M. Antonopoulos — a deep dive into how Bitcoin works technically
+- Bitcoin.org — official resources and wallet recommendations
+- Bitcoin Wiki — community-maintained knowledge base
+- Local Bitcoin meetups — find your community at bitcoin-only.com
+
+### Golden Rules for Bitcoin Security
+
+1. **Not your keys, not your coins**: Always move bitcoin to your own wallet. Exchanges are for buying, not storing.
+2. **Protect your seed phrase like gold**: Write it on paper, store it securely, never digitize it. Your seed phrase IS your bitcoin.
+3. **Start small, learn big**: Practice with small amounts before committing larger sums. Every mistake is cheaper when it's small.
+4. **Verify, don't trust**: Always double-check addresses, verify software sources, and question anyone asking for your private information.
+5. **Security grows with your holdings**: Start with a hot wallet, upgrade to hardware when the time is right. Your security should match your exposure.
+
+<!-- END NEW -->
+
+# Conclusion
+
+<partId>conclusion-part5</partId>
+
 ## Conclusion
 
-<chapterId>conclusion-ch14</chapterId>
+<chapterId>conclusion-ch15</chapterId>
 <isCourseConclusion>true</isCourseConclusion>

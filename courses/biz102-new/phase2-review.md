@@ -216,9 +216,9 @@
 | 9 | Extension Layers | `f2a3b4c5-d6e7-8f9a-0b1c-2d3e4f5a6b7c` | 5 | 5 | 0 |
 | 10 | Merchant Tools for Accepting Bitcoin | `a3b4c5d6-e7f8-9a0b-1c2d-3e4f5a6b7c8d` | 0 | 5 | 5 |
 | 11 | Going Further | `b4c5d6e7-f8a9-0b1c-2d3e-4f5a6b7c8d9e` | 0 | 0 | 0 |
-| 12 | Conclusion | `d0e1f2a3-b4c5-6d7e-8f9a-0b1c2d3e4f5a` | 0* | 0 | 0 |
+| 12 | Conclusion | `e4f5a6b7-c8d9-0e1f-2a3b-4c5d6e7f8a9b` | 0 | 0 | 0 |
 
-*Note: Quiz 001 and 003 are mapped to the Conclusion chapter chapterId (`d0e1f2a3-b4c5-6d7e-8f9a-0b1c2d3e4f5a`) which is INCORRECT. These should be remapped to appropriate content chapters.
+*Note: ~~Quiz 001 and 003 were mapped to the Conclusion chapter chapterId~~ - FIXED (2026-02-08): Conclusion chapter given new chapterId `e4f5a6b7-c8d9-0e1f-2a3b-4c5d6e7f8a9b`. Quizzes 001 and 003 now correctly resolve to Ch 7 (Exchanges) only.
 
 **Current Quiz Mapping:**
 
@@ -365,22 +365,9 @@
 
 | # | Issue | Location | Fix Required | Priority |
 |---|-------|----------|--------------|----------|
-| 1 | Quiz 001 mapped to Conclusion chapter | `quizz/001/question.yml` | Change chapterId from `d0e1f2a3-b4c5-6d7e-8f9a-0b1c2d3e4f5a` to appropriate content chapter | Critical |
-| 2 | Quiz 003 mapped to Conclusion chapter | `quizz/003/question.yml` | Change chapterId from `d0e1f2a3-b4c5-6d7e-8f9a-0b1c2d3e4f5a` to appropriate content chapter | Critical |
-
-**Recommended Remapping:**
-- Quiz 001: Consider mapping to Ch 7 (`d0e1f2a3-b4c5-6d7e-8f9a-0b1c2d3e4f5a` is used by BOTH Ch 7 and Ch 12 - this is a chapterId CONFLICT!)
-- Quiz 003: Same issue
-
-**CRITICAL NOTE:** There is a chapterId collision:
-- Chapter 7 (Cryptocurrency Exchanges and Bitcoin Custody) uses: `d0e1f2a3-b4c5-6d7e-8f9a-0b1c2d3e4f5a`
-- Chapter 12 (Conclusion) uses: `d0e1f2a3-b4c5-6d7e-8f9a-0b1c2d3e4f5a`
-
-This is the SAME ID! One of these chapters needs a new unique chapterId.
-
-| # | Issue | Location | Fix Required | Priority |
-|---|-------|----------|--------------|----------|
-| 3 | Duplicate chapterId between Ch 7 and Ch 12 | en.md | Generate new unique chapterId for either Ch 7 or Ch 12 (recommend changing Conclusion) | **Critical** |
+| 1 | ~~Quiz 001 mapped to Conclusion chapter~~ | `quizz/001/question.yml` | ~~Change chapterId~~ FIXED: Resolved by giving Conclusion a new chapterId | ~~Critical~~ Done |
+| 2 | ~~Quiz 003 mapped to Conclusion chapter~~ | `quizz/003/question.yml` | ~~Change chapterId~~ FIXED: Resolved by giving Conclusion a new chapterId | ~~Critical~~ Done |
+| 3 | ~~Duplicate chapterId between Ch 7 and Ch 12~~ | en.md | FIXED (2026-02-08): Conclusion chapter changed to `e4f5a6b7-c8d9-0e1f-2a3b-4c5d6e7f8a9b` | ~~Critical~~ Done |
 
 ---
 
@@ -389,8 +376,8 @@ This is the SAME ID! One of these chapters needs a new unique chapterId.
 **Before starting Phase B, complete these tasks:**
 
 #### Critical (Must Do)
-- [ ] **FIX DUPLICATE CHAPTERID:** Chapter 7 and Chapter 12 share the same chapterId (`d0e1f2a3-b4c5-6d7e-8f9a-0b1c2d3e4f5a`). Generate new UUID for Conclusion chapter.
-- [ ] After fixing chapterId, verify Quiz 001 and 003 mappings - if they should be for Chapter 7, they're OK; if not, remap them.
+- [x] **FIX DUPLICATE CHAPTERID** - DONE (2026-02-08): Conclusion chapter changed to `e4f5a6b7-c8d9-0e1f-2a3b-4c5d6e7f8a9b`
+- [x] Quiz 001 and 003 now correctly map to Ch 7 (Exchanges) - verified: both quizzes are about exchanges/wallets content
 
 #### Images to Create (24 total)
 - [ ] Ch 2: 4 images (see specs in A5) - `012-015`

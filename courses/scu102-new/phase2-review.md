@@ -43,7 +43,7 @@
 - [x] No text between Part headings and first Chapter
 - [x] All Parts have `<partId>`
 - [x] All Chapters have `<chapterId>`
-- [ ] **Going Further is last chapter of last content Part** - Going Further (ch24) is in Part 6, but should be the last chapter before Conclusion Part
+- [x] **Going Further is last chapter of last content Part** - Going Further (ch24) is last chapter of Part 6 (Beginner Tips), before Conclusion Part
 - [x] Conclusion Part exists with only Conclusion chapter
 - [x] `<isCourseConclusion>true</isCourseConclusion>` tag present
 
@@ -90,7 +90,7 @@
 | 25 | Conclusion | `conclusion-ch25` | 7-Conclusion |
 
 **Issues:**
-1. **CRITICAL: Quiz chapterId mismatch** - The 15 existing quizzes reference legacy chapterIds that do not match the new course chapterIds. All quiz question.yml files need to be updated with correct chapterIds from the new course structure.
+1. ~~**CRITICAL: Quiz chapterId mismatch**~~ - FIXED (2026-02-08): All 15 quiz question.yml files updated with correct chapterIds mapped to appropriate course chapters based on question content analysis.
 
 ---
 
@@ -671,8 +671,8 @@ Cross-cutting topics for the final exam pool:
 
 | # | Issue | Location | Fix Required | Priority |
 |---|-------|----------|--------------|----------|
-| 1 | **Quiz chapterId mismatch** | All quiz question.yml files | Update all 15 existing quizzes to reference correct chapterIds from new course structure | Critical |
-| 2 | Content gap after Conclusion heading | Ch 25 (line 721-724) | Add conclusion content summarizing key takeaways and next steps | High |
+| 1 | ~~Quiz chapterId mismatch~~ | All quiz question.yml files | ~~Update all 15 existing quizzes~~ FIXED (2026-02-08): All 15 quizzes remapped to correct chapters based on content analysis | ~~Critical~~ Done |
+| 2 | ~~Content gap after Conclusion~~ | Ch 25 | FIXED (2026-02-08): Added conclusion content with key takeaways, golden rules recap, and next course recommendations | ~~High~~ Done |
 | 3 | Course name mismatch | en.md frontmatter | Consider updating "Prerequisite to Bitcoin" to match course code "SCU102: Financial Fraud, Scams & Online Security" for clarity | Medium |
 
 **Detailed Fix Instructions:**
@@ -701,8 +701,8 @@ The Conclusion chapter (line 721-724) has the heading and tag but no content. Ad
 **Before starting Phase B, complete these tasks:**
 
 #### Critical (Must Do)
-- [ ] **Fix #1:** Update all 15 quiz question.yml files with correct chapterIds
-- [ ] **Fix #2:** Add content to Conclusion chapter (Ch 25)
+- [x] **Fix #1:** Update all 15 quiz question.yml files with correct chapterIds - DONE (2026-02-08)
+- [x] **Fix #2:** Add content to Conclusion chapter (Ch 25) - DONE (2026-02-08)
 - [ ] Review and optionally update course name in frontmatter
 
 #### Images to Create (63-70 total)

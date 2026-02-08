@@ -722,3 +722,28 @@ By following these principles, you'll be able to approach Bitcoin investing with
 
 <chapterId>conclusion-ch25</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
+
+<!-- NEW -->
+
+Congratulations on completing SCU102! You now have a strong foundation in the security and awareness skills needed to navigate the Bitcoin world safely.
+
+Throughout this course, you've learned to:
+
+- **Recognize financial fraud**: From Ponzi schemes to pump & dump tactics, you can now spot the red flags before falling victim
+- **Identify crypto-specific scams**: Shitcoins, fake giveaways, phishing attacks, and dishonest influencers no longer catch you off guard
+- **Build strong digital security habits**: Password managers, two-factor authentication, privacy tools, and clean computing practices are now part of your toolkit
+- **Approach Bitcoin investing wisely**: You understand the importance of strategy, patience, and never investing more than you can afford to lose
+
+Remember the three golden rules:
+1. Never invest more than you can afford to lose
+2. Don't blindly follow hype — verify everything
+3. Build a plan and stick to a long-term vision
+
+Your next step is to put this knowledge into practice. Continue your learning journey with:
+- **BTC103** — Why Bitcoin Matters
+- **BTC105** — How to Acquire Bitcoin
+- **BTC104** — How to Secure Bitcoin
+
+Stay safe, stay curious, and welcome to the Bitcoin ecosystem.
+
+<!-- END NEW -->

@@ -359,6 +359,43 @@ Whether adopted by freedom fighters or by those simply seeking to preserve their
 ![image](assets/en/024.webp)
 <!-- END ORIGINAL -->
 
+## Going Further
+
+<chapterId>a7b8c9d0-e1f2-3a4b-5c6d-7e8f9a0b1c2d</chapterId>
+
+<!-- NEW -->
+
+### Resources & Next Steps
+
+Now that you understand why Bitcoin matters, here are some resources and next steps to deepen your knowledge and begin your practical Bitcoin journey.
+
+### Recommended Courses on Plan B Academy
+
+1. **BTC105 - How to Acquire Bitcoin**: Learn the practical steps for buying your first satoshis, from choosing the right platform to making your first purchase.
+2. **BTC104 - How to Secure Bitcoin**: Discover how to properly store and protect your bitcoin using wallets, private keys, and self-custody best practices.
+3. **BIZ102 - Bitcoin Industry Overview**: Explore the broader Bitcoin ecosystem, including exchanges, mining, development, and the layered architecture.
+4. **SCU102 - Financial Security**: Learn to protect yourself from scams, fraud, and common mistakes that newcomers face.
+
+### Golden Rules to Remember
+
+- **Don't trust, verify.** Run your own node, check your own transactions, and never blindly trust a third party with your bitcoin.
+- **Not your keys, not your bitcoin.** Always take custody of your own private keys. Leaving bitcoin on an exchange means you don't truly own it.
+- **Think long-term.** Bitcoin is designed to be sound money over decades, not a get-rich-quick scheme. Patience is rewarded.
+- **Stay humble, stack sats.** The more you learn, the more you realize there is to learn. Keep stacking, keep studying.
+
+### External Resources
+
+- [Bitcoin Whitepaper](https://bitcoin.org/bitcoin.pdf) - Satoshi Nakamoto's original paper
+- [The Bitcoin Standard](https://saifedean.com/thebitcoinstandard/) by Saifedean Ammous
+- [Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook) by Andreas Antonopoulos
+- [Plan B Academy](https://planb.academy/) - Free Bitcoin education in multiple languages
+
+### Community
+
+Bitcoin is built by and for its community. Consider joining local Bitcoin meetups, contributing to open-source projects, or simply engaging in discussions online. The Bitcoin ecosystem thrives because of individuals like you who take the time to learn and share knowledge.
+
+<!-- END NEW -->
+
 # Conclusion
 
 <partId>a2d82d2d-1cef-441b-8a27-896709bd3afc</partId>

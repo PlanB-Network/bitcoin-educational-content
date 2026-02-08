@@ -1189,10 +1189,6 @@ This keeps bitcoin in circulation, supporting the ecosystem while serving your n
 
 <!-- END NEW -->
 
-# Conclusion
-
-<partId>conclusion-part6</partId>
-
 ## Building Your Personal Strategy
 
 <chapterId>personal-strategy-ch17</chapterId>
@@ -1306,7 +1302,43 @@ Welcome to your Bitcoin journey.
 
 <!-- END NEW -->
 
+## Going Further
+
+<chapterId>going-further-ch18</chapterId>
+
+<!-- NEW -->
+
+### Recommended Courses
+
+Continue your Bitcoin journey with these courses:
+
+- **BTC104 - How to Secure Bitcoin** (essential next step): Learn to set up wallets, secure your seed phrase, and follow security best practices
+- **SCU102 - Financial Fraud, Scams & Online Security**: Protect yourself from the most common threats in the Bitcoin ecosystem
+- **BTC103 - Why Bitcoin Matters**: Deepen your understanding of Bitcoin's fundamental value proposition
+- **SOV102 - Bitcoin Inheritance Planning**: Plan for the long term and protect your loved ones
+
+### External Resources
+
+- Plan B Academy (planb.academy) — additional tutorials and guides
+- Bitcoin-only.com — curated directory of Bitcoin-only services and communities
+- Local Bitcoin meetups — connect with your local community
+- *The Bitcoin Standard* by Saifedean Ammous — understand the economics behind Bitcoin
+
+### Golden Rules for Acquiring Bitcoin
+
+1. **Self-custody is non-negotiable**: No matter how you acquire bitcoin, always withdraw to your own wallet. Exchanges are for buying, not storing.
+2. **There's no perfect method — just start**: Don't let analysis paralysis prevent you from taking your first step. Every method is valid.
+3. **Your strategy should evolve**: Start simple, learn by doing, and refine your approach over time. What works today may change as your knowledge grows.
+4. **Privacy is a spectrum, not a binary**: Choose the level of privacy that fits your situation. You can always improve it later.
+5. **Consistency beats timing**: Regular accumulation (DCA) almost always outperforms trying to time the market. Set a plan and stick to it.
+
+<!-- END NEW -->
+
+# Conclusion
+
+<partId>conclusion-part6</partId>
+
 ## Conclusion
 
-<chapterId>conclusion-ch18</chapterId>
+<chapterId>conclusion-ch19</chapterId>
 <isCourseConclusion>true</isCourseConclusion>

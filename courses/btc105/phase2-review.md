@@ -48,17 +48,13 @@
 - [x] No text between Part headings and first Chapter
 - [x] All Parts have `<partId>` (6 Parts, all have partIds)
 - [x] All Chapters have `<chapterId>` (18 Chapters, all have chapterIds)
-- [ ] **Going Further is last chapter of last content Part** - MISSING
-- [ ] **Conclusion Part exists with only Conclusion chapter** - FAILS (Part 6 has 2 chapters)
+- [x] **Going Further is last chapter of last content Part** - FIXED (2026-02-08): Added going-further-ch18 as last chapter of Part 5
+- [x] **Conclusion Part exists with only Conclusion chapter** - FIXED (2026-02-08): Part 6 now has only conclusion-ch19
 - [x] `<isCourseConclusion>true</isCourseConclusion>` tag present (on Chapter 18)
 
 **Issues:**
-1. **CRITICAL: Missing "Going Further" chapter** - The course jumps directly from content chapters to Conclusion without a "Going Further" chapter containing resources and next steps.
-2. **CRITICAL: Conclusion Part structure incorrect** - Part 6 "Conclusion" currently contains TWO chapters:
-   - Chapter 17: "Building Your Personal Strategy"
-   - Chapter 18: "Conclusion"
-
-   Per PBN standards, the Conclusion Part should contain ONLY the Conclusion chapter. Chapter 17 should be moved to Part 5 (or a new Part), and a "Going Further" chapter should be added as the last chapter of the last content Part.
+1. ~~**CRITICAL: Missing "Going Further" chapter**~~ - FIXED (2026-02-08): Added Going Further chapter (going-further-ch18) as last chapter of Part 5 with recommended courses, resources, and golden rules.
+2. ~~**CRITICAL: Conclusion Part structure incorrect**~~ - FIXED (2026-02-08): Moved Ch 17 "Building Your Personal Strategy" from Part 6 to Part 5. Part 6 now contains only conclusion-ch19. isCourseConclusion tag verified on ch19.
 
 ### A3.1 Complete Structure Map
 
@@ -567,9 +563,9 @@
 
 | # | Issue | Location | Fix Required | Priority |
 |---|-------|----------|--------------|----------|
-| 1 | **Missing "Going Further" chapter** | Part 5 (end) | Add "Going Further" chapter as last chapter of Part 5 (after-purchase-part5). Should contain: Resources summary, recommended next steps, golden rules for bitcoin acquisition | **Critical** |
-| 2 | **Conclusion Part has wrong structure** | Part 6 (conclusion-part6) | Move Chapter 17 "Building Your Personal Strategy" from Part 6 to Part 5. Part 6 should contain ONLY Chapter 18 "Conclusion" | **Critical** |
-| 3 | **Renumber chapters after restructure** | Multiple | After moving Ch17 and adding Going Further, ensure chapter IDs remain consistent. Current Ch17 becomes Part 5 chapter, new Going Further becomes Part 5 final chapter, Conclusion remains as sole chapter in Part 6 | **Critical** |
+| 1 | ~~Missing "Going Further" chapter~~ | Part 5 (end) | FIXED (2026-02-08): Added "Going Further" chapter (going-further-ch18) with recommended courses, external resources, and golden rules for acquisition | ~~Critical~~ Done |
+| 2 | ~~Conclusion Part has wrong structure~~ | Part 6 | FIXED (2026-02-08): Moved Ch 17 from Part 6 to Part 5. Part 6 now contains only Conclusion chapter | ~~Critical~~ Done |
+| 3 | ~~Renumber chapters after restructure~~ | Multiple | FIXED (2026-02-08): Ch 17 stays as personal-strategy-ch17 in Part 5, Going Further = going-further-ch18, Conclusion = conclusion-ch19 | ~~Critical~~ Done |
 
 **Recommended Final Structure:**
 
@@ -594,11 +590,11 @@ Part 6: Conclusion (conclusion-part6)
 **Before starting Phase B, complete these tasks:**
 
 #### Critical (Must Do)
-- [ ] Add "Going Further" chapter to Part 5 with resources, next steps, and golden rules
-- [ ] Move "Building Your Personal Strategy" chapter from Part 6 to Part 5
-- [ ] Ensure Conclusion Part contains ONLY the Conclusion chapter
-- [ ] Update chapter IDs/numbers as needed after restructure
-- [ ] Verify `<isCourseConclusion>true</isCourseConclusion>` remains on final Conclusion chapter
+- [x] Add "Going Further" chapter to Part 5 - DONE (2026-02-08): Added going-further-ch18
+- [x] Move "Building Your Personal Strategy" from Part 6 to Part 5 - DONE (2026-02-08)
+- [x] Ensure Conclusion Part contains ONLY Conclusion chapter - DONE (2026-02-08)
+- [x] Update chapter IDs/numbers after restructure - DONE (2026-02-08): ch18 = Going Further, ch19 = Conclusion
+- [x] Verify isCourseConclusion tag on final Conclusion chapter - DONE (2026-02-08): present on conclusion-ch19
 
 #### Images to Create (52-66 total)
 - [ ] Ch 1: 0-1 images (see specs in A5)

@@ -47,7 +47,7 @@
 - [x] No text between Part headings and first Chapter
 - [x] All Parts have `<partId>`
 - [x] All Chapters have `<chapterId>`
-- [ ] **Going Further is last chapter of last content Part** - MISSING
+- [x] **Going Further is last chapter of last content Part** - FIXED (2026-02-08)
 - [x] Conclusion Part exists with only Conclusion chapter
 - [x] `<isCourseConclusion>true</isCourseConclusion>` tag present
 
@@ -61,7 +61,7 @@
 | 4 | Conclusion | a2d82d2d-1cef-441b-8a27-896709bd3afc | Ch9: Conclusion |
 
 **Issues:**
-1. **CRITICAL:** Missing "Going Further" chapter - should be the last chapter of Part 3 (Why Bitcoin Matters) before the Conclusion Part
+1. ~~**CRITICAL:** Missing "Going Further" chapter~~ - FIXED (2026-02-08): Added Going Further chapter with chapterId `a7b8c9d0-e1f2-3a4b-5c6d-7e8f9a0b1c2d` as last chapter of Part 3
 
 ---
 
@@ -86,7 +86,7 @@
 | 6 | A Universal Currency | 008f328a-0c6c-4a18-b931-357848e96294 | 2 | 4-5 | 2-3 | 012, 013 |
 | 7 | Protection Against Crises | 50f47586-6567-4427-b55d-dce1647f9213 | 6 | 4-5 | 0 | 014, 015, 016, 017, 018, 019 |
 | 8 | Sound Money & Political Movement | 3bf91676-d887-45d3-b12f-c2f487b86890 | 5 | 4-5 | 0 | 020, 021, 022, 023, 024 |
-| -- | Going Further (MISSING) | N/A | 0 | 1-2 | 1-2 | N/A |
+| 9 | Going Further | a7b8c9d0-e1f2-3a4b-5c6d-7e8f9a0b1c2d | 0 | 1-2 | 1-2 | N/A |
 | 9 | Conclusion | f1c2d3e4-a5b6-7c8d-9e0f-1a2b3c4d5e6f | 0 | 0 | 0 | None |
 
 **Total Image Gap: 8-12 images needed**
@@ -288,8 +288,8 @@ Add the following after Chapter 8 (Sound Money & Political Movement) and before 
 **Before starting Phase B, complete these tasks:**
 
 #### Critical (Must Do)
-- [ ] Add "Going Further" chapter to Part 3 (before Conclusion Part)
-- [ ] Generate chapterId for new Going Further chapter
+- [x] Add "Going Further" chapter to Part 3 (before Conclusion Part) - DONE (2026-02-08)
+- [x] Generate chapterId for new Going Further chapter - DONE (`a7b8c9d0-e1f2-3a4b-5c6d-7e8f9a0b1c2d`)
 
 #### Images to Create (8-12 total)
 - [ ] Ch 4: 2-3 images (bitcoin-supply-curve, bitcoin-open-source, running-node-validation)

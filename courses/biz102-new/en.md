@@ -479,5 +479,5 @@ The Bitcoin industry continues to evolve rapidly. Stay curious, keep learning, a
 
 ## Conclusion
 
-<chapterId>d0e1f2a3-b4c5-6d7e-8f9a-0b1c2d3e4f5a</chapterId>
+<chapterId>e4f5a6b7-c8d9-0e1f-2a3b-4c5d6e7f8a9b</chapterId>
 <isCourseConclusion>true</isCourseConclusion>

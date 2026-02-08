@@ -1,0 +1,24 @@
+id: a1b2c3d4-e5f6-4a7b-8c9d-000000000002
+start_date: 2026-04-23
+end_date: 2026-04-24
+timezone: America/Los_Angeles
+address_city_country: Las Vegas, Nevada, USA
+address_line_2:
+address_line_3:
+name: bitcoin++ Las Vegas 2026
+type: conference
+book_online: false
+book_in_person: false
+description: |
+  Developer-focused Bitcoin conference featuring expert speakers and workshops on advanced Bitcoin development topics.
+language:
+  - en
+links:
+  website: https://btcplusplus.dev/conf/vegas
+  replay_url:
+  live_url:
+project_id: a717b30b-153e-475d-a83b-ed1b52c9571e
+tags:
+  - software
+  - node
+  - guides

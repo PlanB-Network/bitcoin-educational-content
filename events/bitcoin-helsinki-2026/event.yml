@@ -1,0 +1,25 @@
+id: a1b2c3d4-e5f6-4a7b-8c9d-000000000022
+start_date: 2026-09-18
+end_date: 2026-09-19
+timezone: Europe/Helsinki
+address_city_country: Helsinki, Finland
+address_line_2:
+address_line_3:
+name: Bitcoin Helsinki 2026
+type: conference
+book_online: false
+book_in_person: false
+description: |
+  Finland's Bitcoin conference bringing together the Nordic Bitcoin community for education, networking, and discussions on adoption and innovation.
+language:
+  - en
+  - fi
+links:
+  website: https://btchelsinki.com/
+  replay_url:
+  live_url:
+project_id: d7a8b9c0-1e2f-4a3b-4c5d-6e7f8a9b0c1d
+tags:
+  - adoption
+  - business
+  - innovation

@@ -1,0 +1,24 @@
+id: a1b2c3d4-e5f6-4a7b-8c9d-000000000016
+start_date: 2026-11-05
+end_date: 2026-11-06
+timezone: Europe/Amsterdam
+address_city_country: Amsterdam, Netherlands
+address_line_2:
+address_line_3:
+name: Bitcoin Amsterdam 2026
+type: conference
+book_online: false
+book_in_person: false
+description: |
+  A major European Bitcoin conference featuring keynote speeches, panel discussions, exhibitor booths, networking sessions, and workshops on Bitcoin adoption and innovation.
+language:
+  - en
+links:
+  website: https://amsterdam.b.tc/
+  replay_url:
+  live_url:
+project_id: f3c4d5e6-7a8b-4c9d-0e1f-2a3b4c5d6e7f
+tags:
+  - adoption
+  - business
+  - case-studies

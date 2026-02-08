@@ -1,0 +1,25 @@
+id: a1b2c3d4-e5f6-4a7b-8c9d-000000000018
+start_date: 2026-12-09
+end_date: 2026-12-10
+timezone: Asia/Dubai
+address_city_country: Dubai, UAE
+address_line_2:
+address_line_3:
+name: Bitcoin MENA 2026
+type: conference
+book_online: false
+book_in_person: false
+description: |
+  Bitcoin MENA brings together the Middle East and North Africa Bitcoin community for discussions on real-world adoption, regulatory developments, and infrastructure building.
+language:
+  - en
+  - ar
+links:
+  website: https://mena.b.tc/
+  replay_url:
+  live_url:
+project_id: a4d5e6f7-8b9c-4d0e-1f2a-3b4c5d6e7f8a
+tags:
+  - adoption
+  - business
+  - future-outlook

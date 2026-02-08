@@ -20,17 +20,17 @@
 
 | Course | Phase A | Phase B | Phase C | Phase D | Review Doc |
 |--------|---------|---------|---------|---------|------------|
-| BTC103 | ⬜ | ⬜ | ⬜ | ⬜ | [btc103-phase2-review.md](btc103-phase2-review.md) |
-| BIZ102 | ⬜ | ⬜ | ⬜ | ⬜ | [biz102-phase2-review.md](biz102-phase2-review.md) |
-| BTC102v2 | ⬜ | ⬜ | ⬜ | ⬜ | [btc102v2-phase2-review.md](btc102v2-phase2-review.md) |
-| SOV102 | ⬜ | ⬜ | ⬜ | ⬜ | [sov102-phase2-review.md](sov102-phase2-review.md) |
-| BTC104 | ⬜ | ⬜ | ⬜ | ⬜ | [btc104-phase2-review.md](btc104-phase2-review.md) |
-| BTC105 | ⬜ | ⬜ | ⬜ | ⬜ | [btc105-phase2-review.md](btc105-phase2-review.md) |
-| SCU102 | ⬜ | ⬜ | ⬜ | ⬜ | [scu102-phase2-review.md](scu102-phase2-review.md) |
+| BTC103 | ✅ | ⬜ | ⬜ | ⬜ | [phase2-review.md](../courses/btc103-new/phase2-review.md) |
+| BIZ102 | ✅ | ⬜ | ⬜ | ⬜ | [phase2-review.md](../courses/biz102-new/phase2-review.md) |
+| BTC102v2 | ✅ | ⬜ | ⬜ | ⬜ | [phase2-review.md](../courses/btc102v2/phase2-review.md) |
+| SOV102 | ✅ | ⬜ | ⬜ | ⬜ | [phase2-review.md](../courses/sov102/phase2-review.md) |
+| BTC104 | ✅ | ⬜ | ⬜ | ⬜ | [phase2-review.md](../courses/btc104/phase2-review.md) |
+| BTC105 | ✅ | ⬜ | ⬜ | ⬜ | [phase2-review.md](../courses/btc105/phase2-review.md) |
+| SCU102 | ✅ | ⬜ | ⬜ | ⬜ | [phase2-review.md](../courses/scu102-new/phase2-review.md) |
 
 **Legend:** ⬜ Not Started | 🔄 In Progress | ✅ Complete
 
-**Last Updated:** 2026-01-20
+**Last Updated:** 2026-01-21
 
 ---
 
@@ -76,7 +76,14 @@
 # Phase A: Structure & Content Review
 
 ## Purpose
-Validate course structure against PBN standards, identify all gaps (images, quizzes, structure issues), generate image specifications.
+**Audit and document what's missing** so it can be fixed later. Phase A produces a comprehensive inventory of all gaps (images, quizzes, structure issues) as a **checklist of work to be done**.
+
+## Key Principle
+Phase A is about **documenting gaps**, not fixing them. The output should clearly list:
+- What exists now
+- What is required
+- What is missing (the gap)
+- Specifications for creating missing items
 
 ## Bootstrap Prompt
 ```
@@ -86,20 +93,22 @@ Branch: split-btc102
 Folder: courses/[FOLDER]/
 
 FIRST: Read these docs for context:
-- docs/phase2-review-workflow.md (this workflow)
-- docs/[COURSE_CODE]-phase2-review.md (if exists - may have prior progress)
+- docs/phase2-review-workflow.md (this workflow - READ THE STANDARDS CAREFULLY)
+- courses/[FOLDER]/phase2-review.md (if exists - may have prior progress)
 
 TASKS:
 1. Validate course.yml metadata (all required fields present)
 2. Verify en.md frontmatter (name, goal, objectives)
 3. Audit Part/Chapter structure against PBN standards
 4. Verify Conclusion section has <isCourseConclusion>true</isCourseConclusion>
-5. Count images per chapter vs target (4-5 for content chapters)
-6. Audit quiz distribution and verify chapterId linkage
-7. Generate detailed image specifications for gaps
-8. List all fixes needed before Phase B
+5. Count images per chapter - document EXACT gaps with specifications
+6. Count quizzes per chapter - document EXACT gaps (5 per chapter + 40 for exam)
+7. Generate detailed specifications for ALL missing images
+8. Generate topic suggestions for ALL missing quizzes
+9. List all structural fixes needed
 
-OUTPUT: Create/update docs/[COURSE_CODE]-phase2-review.md with Phase A report
+OUTPUT: Create/update courses/[FOLDER]/phase2-review.md with Phase A report
+        (Note: review doc goes IN THE COURSE FOLDER, not in docs/)
 Mark Phase A status as COMPLETE when done
 ```
 
@@ -171,19 +180,66 @@ objectives:
 | Going Further | 1-2 | Resource summary |
 | Conclusion | 0 | None needed |
 
-## Quiz Targets
+**Image Gap Calculation:**
+```
+For each chapter:
+  Current images: [count from assets/en/ referenced in chapter]
+  Target images: [based on chapter type above]
+  Gap: Target - Current = [number of images to create]
+```
 
-| Chapter Type | Target Quizzes |
-|--------------|----------------|
-| Introduction | 0 |
-| Major content | 1-2 |
-| Summary/Going Further | 0-1 |
+## Quiz Requirements (IMPORTANT)
+
+### Per-Chapter Quizzes (End of Chapter)
+Each content chapter needs **5 quizzes minimum** for the small quiz at the end of the chapter.
+
+| Chapter Type | Required Quizzes |
+|--------------|------------------|
+| Introduction/Welcome | 0 |
+| Substantive content | **5 minimum** |
+| Going Further | 0 |
 | Conclusion | 0 |
+
+### Final Exam Quizzes
+Every course needs **40 quizzes minimum** for the final exam pool.
+- These can overlap with chapter quizzes or be separate
+- Should cover all major topics across the course
+
+### Quiz Gap Calculation
+```
+Per-chapter requirement:
+  Content chapters count: [N]
+  Required chapter quizzes: N × 5 = [total]
+
+Final exam requirement: 40 minimum
+
+Total quizzes needed: MAX(chapter_quizzes, 40) or ideally chapter_quizzes + exam_pool
+
+Current quizzes: [count from quizz/ folder]
+Gap: Required - Current = [number of quizzes to create]
+```
+
+### Example Calculation (9-chapter course like BTC103)
+```
+Content chapters (excluding intro/conclusion): 7
+Chapter quizzes needed: 7 × 5 = 35
+Final exam pool needed: 40
+Total recommended: 35 + 40 = 75 quizzes (or at minimum 40 with overlap)
+
+If current quizzes = 9
+Gap = 75 - 9 = 66 quizzes to create (or minimum 40 - 9 = 31)
+```
 
 ## Phase A Report Template
 
+**IMPORTANT:** The review document should be saved in the course folder:
+`courses/[FOLDER]/phase2-review.md` (NOT in docs/)
+
 ```markdown
 # [COURSE_CODE] Phase 2 Review
+
+> This document tracks all work needed to complete [COURSE_CODE] for production.
+> Location: `courses/[FOLDER]/phase2-review.md`
 
 ## Progress Tracker
 | Phase | Status | Date | Session |
@@ -228,28 +284,121 @@ objectives:
 
 **Issues:** [list any problems]
 
-### A4. Image Analysis
-**Current:** [N] images | **Target:** [N] images | **Gap:** [N]
+---
 
-| Part | Chapter | Current | Target | Gap | Image Specifications |
-|------|---------|---------|--------|-----|----------------------|
-| | | | | | |
+### A4. Image Inventory
 
-### A5. Quiz Analysis
-**Current:** [N] quizzes | **Recommended:** [N]
+**Summary:**
+| Metric | Count |
+|--------|-------|
+| Current images | [N] |
+| Target images | [N] |
+| **GAP** | **[N] images to create** |
 
-| Quiz # | chapterId | Chapter Title | Topic | Valid? |
-|--------|-----------|---------------|-------|--------|
-| | | | | |
+**Per-Chapter Breakdown:**
 
-**Distribution issues:** [list any]
+| Ch # | Chapter Title | Current | Target | Gap |
+|------|---------------|---------|--------|-----|
+| 1 | [Title] | 0 | 0-1 | 0 |
+| 2 | [Title] | X | 4-5 | Y |
+| ... | ... | ... | ... | ... |
+| N | Conclusion | 0 | 0 | 0 |
 
-### A6. Fixes Required Before Phase B
-1. [ ] [Fix description]
-2. [ ] [Fix description]
+### A5. Missing Images - Detailed Specifications
 
-### A7. Image Generation Task List
-[Complete list of all images needed with detailed specifications for external image generator]
+For each missing image, provide enough detail for an image generator:
+
+#### Chapter [N]: [Title]
+
+| # | Image Name | Description | Style | Priority |
+|---|------------|-------------|-------|----------|
+| 1 | [descriptive-name] | [What the image should show, key elements, purpose] | [diagram/illustration/chart/screenshot] | [high/medium/low] |
+| 2 | ... | ... | ... | ... |
+
+[Repeat for each chapter with missing images]
+
+---
+
+### A6. Quiz Inventory
+
+**Summary:**
+| Metric | Count |
+|--------|-------|
+| Current quizzes | [N] |
+| Required per-chapter (content chapters × 5) | [N] |
+| Required for final exam | 40 |
+| **Total recommended** | **[N]** |
+| **GAP** | **[N] quizzes to create** |
+
+**Per-Chapter Breakdown:**
+
+| Ch # | Chapter Title | chapterId | Current | Required | Gap |
+|------|---------------|-----------|---------|----------|-----|
+| 1 | Welcome | [id] | 0 | 0 | 0 |
+| 2 | [Title] | [id] | X | 5 | Y |
+| ... | ... | ... | ... | ... | ... |
+| N | Conclusion | [id] | 0 | 0 | 0 |
+
+**Current Quiz Mapping:**
+| Quiz # | chapterId | Linked Chapter | Topic |
+|--------|-----------|----------------|-------|
+| 000 | [id] | Ch X: [Title] | [topic] |
+| ... | ... | ... | ... |
+
+### A7. Missing Quizzes - Topic Suggestions
+
+For each chapter needing quizzes, suggest topics:
+
+#### Chapter [N]: [Title] (needs [X] quizzes)
+
+| # | Suggested Topic | Question Type | Difficulty |
+|---|-----------------|---------------|------------|
+| 1 | [Topic from chapter content] | [multiple-choice/true-false] | [easy/medium/hard] |
+| 2 | ... | ... | ... |
+| 3 | ... | ... | ... |
+| 4 | ... | ... | ... |
+| 5 | ... | ... | ... |
+
+[Repeat for each chapter needing quizzes]
+
+#### Final Exam Pool (needs [X] additional quizzes)
+
+| # | Topic | Related Chapter | Difficulty |
+|---|-------|-----------------|------------|
+| 1 | [Cross-cutting topic] | Ch X | [medium/hard] |
+| ... | ... | ... | ... |
+
+---
+
+### A8. Structural Fixes Required
+
+List all structural issues that must be fixed:
+
+| # | Issue | Location | Fix Required | Priority |
+|---|-------|----------|--------------|----------|
+| 1 | [e.g., Missing "Going Further" chapter] | Part X | [Description of fix] | Critical |
+| 2 | ... | ... | ... | ... |
+
+---
+
+### A9. Work Summary for Phase B
+
+**Before starting Phase B, complete these tasks:**
+
+#### Critical (Must Do)
+- [ ] [Task 1]
+- [ ] [Task 2]
+
+#### Images to Create ([N] total)
+- [ ] Ch X: [N] images (see specs in A5)
+- [ ] Ch Y: [N] images (see specs in A5)
+- [ ] ...
+
+#### Quizzes to Create ([N] total)
+- [ ] Ch X: [N] quizzes (see topics in A7)
+- [ ] Ch Y: [N] quizzes (see topics in A7)
+- [ ] Final exam pool: [N] quizzes
+- [ ] ...
 
 ---
 
@@ -614,25 +763,30 @@ Update this file (phase2-review-workflow.md) progress tracker
 - `docs/btc102-split-summary.md` - Phase 1 summary
 - `docs/course_documentation.md` - PBN course standards
 
-## Phase 2 Review Documents (create as needed)
-- `docs/btc103-phase2-review.md`
-- `docs/biz102-phase2-review.md`
-- `docs/btc102v2-phase2-review.md`
-- `docs/sov102-phase2-review.md`
-- `docs/btc104-phase2-review.md`
-- `docs/btc105-phase2-review.md`
-- `docs/scu102-phase2-review.md`
+## Course Folders & Review Documents
 
-## Course Folders
-| Course | Folder | en.md | course.yml | assets/ | quizz/ |
-|--------|--------|-------|------------|---------|--------|
-| BTC103 | `courses/btc103-new/` | ✅ | ✅ | ✅ | ✅ |
-| BIZ102 | `courses/biz102-new/` | ✅ | ✅ | ✅ | ✅ |
-| BTC102v2 | `courses/btc102v2/` | ✅ | ✅ | ✅ | ⬜ (hub) |
-| SOV102 | `courses/sov102/` | ✅ | ✅ | ✅ | ✅ |
-| BTC104 | `courses/btc104/` | ✅ | ✅ | ✅ | ✅ |
-| BTC105 | `courses/btc105/` | ✅ | ✅ | ✅ | ✅ |
-| SCU102 | `courses/scu102-new/` | ✅ | ✅ | ✅ | ✅ |
+**IMPORTANT:** Phase 2 review documents are stored IN the course folder, not in docs/
+
+| Course | Folder | Review Doc Location |
+|--------|--------|---------------------|
+| BTC103 | `courses/btc103-new/` | `courses/btc103-new/phase2-review.md` |
+| BIZ102 | `courses/biz102-new/` | `courses/biz102-new/phase2-review.md` |
+| BTC102v2 | `courses/btc102v2/` | `courses/btc102v2/phase2-review.md` |
+| SOV102 | `courses/sov102/` | `courses/sov102/phase2-review.md` |
+| BTC104 | `courses/btc104/` | `courses/btc104/phase2-review.md` |
+| BTC105 | `courses/btc105/` | `courses/btc105/phase2-review.md` |
+| SCU102 | `courses/scu102-new/` | `courses/scu102-new/phase2-review.md` |
+
+## Course Content Status
+| Course | en.md | course.yml | assets/ | quizz/ |
+|--------|-------|------------|---------|--------|
+| BTC103 | ✅ | ✅ | ✅ | ✅ |
+| BIZ102 | ✅ | ✅ | ✅ | ✅ |
+| BTC102v2 | ✅ | ✅ | ✅ | ⬜ (hub - no quizzes needed) |
+| SOV102 | ✅ | ✅ | ✅ | ✅ |
+| BTC104 | ✅ | ✅ | ✅ | ✅ |
+| BTC105 | ✅ | ✅ | ✅ | ✅ |
+| SCU102 | ✅ | ✅ | ✅ | ✅ |
 
 ---
 

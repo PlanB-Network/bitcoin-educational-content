@@ -1,6 +1,7 @@
 id: 8bb72179-10fc-4b3b-9404-0090cfad3000
-start_date: 2025-02-20
-end_date: 2025-02-23
+start_date: "2025-02-20 00:00:00"
+end_date: "2025-02-23 00:00:00"
+timezone: America/Sao_Paulo
 address_city_country: Florianopolis, Brasil
 address_line_2:
 address_line_3:

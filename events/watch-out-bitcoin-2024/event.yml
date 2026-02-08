@@ -1,6 +1,7 @@
 id: 79aff896-495b-4c63-aa31-f664c8f5d740
-start_date: 2024-09-27
-end_date: 2024-09-29
+start_date: "2024-09-27 00:00:00"
+end_date: "2024-09-29 00:00:00"
+timezone: Europe/Madrid
 address_city_country: Madrid, Spain
 address_line_2:
 address_line_3:

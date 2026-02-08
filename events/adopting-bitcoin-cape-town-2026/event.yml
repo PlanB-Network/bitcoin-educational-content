@@ -1,6 +1,7 @@
 id: c38e3d0c-3af6-4e8f-8f6c-822b1743f928
-start_date: 2026-01-24
-end_date: 2026-01-25
+start_date: "2026-01-24 00:00:00"
+end_date: "2026-01-25 00:00:00"
+timezone: Africa/Johannesburg
 address_city_country: Cape town, South Africa
 address_line_2: Workshop17 Watershed
 address_line_3:

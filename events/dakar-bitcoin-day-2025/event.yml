@@ -1,6 +1,7 @@
 id: 9edaa4af-bc77-4427-932d-997f7ac0be59
-start_date: 2025-10-29
-end_date: 2025-10-31
+start_date: "2025-10-29 00:00:00"
+end_date: "2025-10-31 00:00:00"
+timezone: Africa/Dakar
 address_city_country: Dakar, Senegal
 address_line_2: Azalaï Hôtel, Cotonou
 address_line_3:

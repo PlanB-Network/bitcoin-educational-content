@@ -49,10 +49,10 @@
     },
     "language": {
       "type": "array",
-      "description": "Languages spoken during the event, using ISO 639-1 language codes.",
+      "description": "Languages spoken during the event, using ISO 639-1 codes or extended codes (zh-hans, zh-hant).",
       "items": {
         "type": "string",
-        "pattern": "^[a-z]{2}$"
+        "pattern": "^[a-z]{2}(-[a-z]+)?$"
       },
       "minItems": 1
     },
@@ -78,6 +78,31 @@
       "type": "string",
       "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$",
       "description": "UUID of the project that organizes this event."
+    },
+    "contributor_names": {
+      "type": "array",
+      "description": "List of contributor names associated with this event.",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "available_seats": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of available seats for the event."
+    },
+    "custom_tc_disclaimer": {
+      "type": "string",
+      "description": "Custom terms and conditions disclaimer for the event."
+    },
+    "is_gdpr_compliance": {
+      "type": "boolean",
+      "description": "Whether the event is GDPR compliant."
+    },
+    "test_only": {
+      "type": "boolean",
+      "description": "Whether this is a test event."
     },
     "tags": {
       "type": "array",
@@ -112,7 +137,6 @@
     "description",
     "language",
     "links",
-    "project_id",
     "tags"
   ],
   "additionalProperties": false

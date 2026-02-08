@@ -1,6 +1,7 @@
 id: 6f585dd1-4959-4158-a402-7fffd4e57ae5
-start_date: 2024-10-10
-end_date: 2024-10-11
+start_date: "2024-10-10 00:00:00"
+end_date: "2024-10-11 00:00:00"
+timezone: Europe/Amsterdam
 address_city_country: Amsterdam, Netherlands
 address_line_2:
 address_line_3:

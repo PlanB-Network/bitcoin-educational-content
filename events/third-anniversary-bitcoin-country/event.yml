@@ -1,6 +1,7 @@
 id: 0a03c623-8044-441d-8906-0ddaf8115470
-start_date: 2024-09-08
-end_date: 2024-09-08
+start_date: "2024-09-08 00:00:00"
+end_date: "2024-09-08 00:00:00"
+timezone: America/El_Salvador
 address_city_country: El Zonte, El Salvador
 address_line_2: Palo Verde Sustainable Hotel
 address_line_3:

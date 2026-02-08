@@ -1,7 +1,7 @@
 id: 0f17beae-82c0-4622-aa64-3af2c37fcabc
 test_only: true
-start_date: 2027-01-03
-end_date: 2027-01-04
+start_date: "2027-01-03 00:00:00"
+end_date: "2027-01-04 00:00:00"
 timezone: Mexico/General
 address_city_country: Cholul, Merida, Mexico
 address_line_2: Universidad Latino, Plaza Altabrisa, Cholul, Merida

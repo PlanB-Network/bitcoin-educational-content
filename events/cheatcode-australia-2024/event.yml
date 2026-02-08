@@ -1,6 +1,7 @@
 id: 5927a523-8d4d-494a-9401-720b691ef2aa
-start_date: 2024-10-26
-end_date: 2024-10-27
+start_date: "2024-10-26 00:00:00"
+end_date: "2024-10-27 00:00:00"
+timezone: Australia/Sydney
 address_city_country: Sydney, Australia
 address_line_2:
 address_line_3:

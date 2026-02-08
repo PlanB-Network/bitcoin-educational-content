@@ -1,6 +1,7 @@
 id: 7a50d13c-b992-4448-bfe7-fa4ce125cc2c
-start_date: 2024-10-24
-end_date: 2024-10-27
+start_date: "2024-10-24 00:00:00"
+end_date: "2024-10-27 00:00:00"
+timezone: America/New_York
 address_city_country: Atalanta, USA
 address_line_2:
 address_line_3:

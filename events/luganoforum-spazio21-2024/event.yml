@@ -1,6 +1,7 @@
 id: 3243e263-3d3b-4f6d-b1d2-8bd76515648d
-start_date: 2024-10-25
-end_date: 2024-10-26
+start_date: "2024-10-25 00:00:00"
+end_date: "2024-10-26 00:00:00"
+timezone: Europe/Zurich
 address_city_country: Lugano, Switzerland
 address_line_2: Asilo Ciani Viale Carlo Cattaneo 5, 6900 Lugano
 address_line_3:

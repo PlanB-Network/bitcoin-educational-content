@@ -1,6 +1,7 @@
 id: 73778652-d8e5-493d-b09e-c3f86492aaba
-start_date: 2025-01-24
-end_date: 2025-01-25
+start_date: "2025-01-24 00:00:00"
+end_date: "2025-01-25 00:00:00"
+timezone: Africa/Johannesburg
 address_city_country: Cape town, South Africa
 address_line_2: Workshop17 Watershed
 address_line_3:

@@ -1,6 +1,7 @@
 id: adecc6c7-e1cd-4673-b3e4-3c253f5984b1
-start_date: 2025-07-04
-end_date: 2025-07-06
+start_date: "2025-07-04 00:00:00"
+end_date: "2025-07-06 00:00:00"
+timezone: Africa/Lagos
 address_city_country: Cotonou, Benín
 address_line_2: Azalaï Hôtel, Cotonou
 address_line_3:

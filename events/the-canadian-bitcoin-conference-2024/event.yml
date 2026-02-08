@@ -1,6 +1,7 @@
 id: e00f4bc8-4907-4445-b7ac-63ab8a184a73
-start_date: 2024-05-16
-end_date: 2024-05-18
+start_date: "2024-05-16 00:00:00"
+end_date: "2024-05-18 00:00:00"
+timezone: America/Toronto
 address_city_country: Montreal, Canada
 address_line_2:
 address_line_3:

@@ -1212,7 +1212,7 @@ Nsanga bishimishije kuvuga aha ko muri Misiri, babandanije gupima ibiceri haciye
 
 
 
-*Kubera izo mpamvu, ingaruka zitaziguye z’ubuhinga bwose bw’abanyagihugu b’Abahindi bwo guhingura amahera zari nto cane, ugereranije n’akamaro gakomeye cane k’ubuhinga bwo guhingura amahera bwigenga bugaragara bw’Ubushinwa mu buseruko, mbere n’iterambere ry’Aba lydiens.... n’Abagiriki mu burengero*
+*Kubera izo mpamvu, ingaruka zitaziguye z’ubuhinga bwose bw’abanyagihugu b’Abahindi bwo guhingura amahera zari nto cane, ugereranije n’akamaro gakomeye cane k’ubuhinga bwo guhingura amahera bwigenga bugaragara bw’Ubushinwa mu buseruko, mbere n’iterambere ry’Aba lydiens n’Abagiriki mu burengero*
 
 
 
@@ -1229,7 +1229,7 @@ Kugira ngo tugaragaze ico kiringo mu buryo buboneka, aha hejuru hari igiceri co 
 
 
 
-## Abaludiya n’Abaperesi .
+## Aba lydien naba perses .
 
 
 <chapterId>eb802ab8-8ffd-5b25-907f-8944f120ed14</chapterId>
@@ -1237,29 +1237,29 @@ Kugira ngo tugaragaze ico kiringo mu buryo buboneka, aha hejuru hari igiceri co 
 
 :::video id=f151eb42-5ff3-4ca1-9af1-1ae2a5e051c0:::
 
-### Ibiceri vya mbere vy’umuyagankuba vy’i Lidiya
+### Ibiceri vya mbere vya electrum vyomuri lydien 
 
 
 
-Ko tutashobora gutandukanya ukuntu ibiceri bisa n’ivyo Lidiya n’Abaperesi, reka tugende kuri ico gice c’isi kiri mu buseruko bw’Ubugiriki, uno musi kikaba ari co Turukiya. Ibiceri vya mbere vyabonetse mu Burengero vyabonetse nko hagati mu kinjana ca 7 imbere ya Kristu, mu turere twa Lidiya na Ioniya, turi muri Turukiya y’ubu. Ni nko mu myaka ya 650 gushika kuri 600 imbere ya Kristu aho ico kintu gishasha c’ishimikiro cabonetse, hakaba hariho ibintu bihambaye vy’ubucukuzi nk’ibiceri vya mbere vyabonetse mu rusengero rwa Aritemi i Efeso, vyabonetse nko mu myaka ya 600 imbere ya Kristu. Ivyo biceri vya kera vyari bikozwe mu gikoresho citwa electrum, kikaba ari ikintu gikomeye c’inzahabu n’ifeza bifise amabara y’agahama, kandi akenshi vyari bimeze nk’ibitoke, bikaba vyari bifise gusa ibimenyetso vy’ibipfunsi canke ibimenyetso vy’intango.
+nkuko tutashobora gutandukanya ivuka ry'ibiceri vyamahera vyaba Lydien n’Aba perses, reka tugende kuri ico gice c’isi kiri mu buseruko bw’Ubugiriki, uno musi kikaba arico gihugu Turukiya. Ibiceri vya mbere vyabonetse mu Burengero vyabonetse nko hagati mu kinjana ca 7 imbere ya Kristu, mu turere twa Lydien na Ioniya, turi muri Turukiya y’ubu. Ni nko mu myaka ya 650 gushika kuri 600 imbere ya Kristu aho ico kintu gishasha c’ishimikiro cabonetse, hakaba hariho ibintu bihambaye vy’ubucukuzi nk’ibiceri vya mbere vyabonetse mu rusengero rwa d'Artémis à Éphèse, vyabonetse nko mu myaka ya 600 imbere ya Kristu. Ivyo biceri vya kera vyari bikozwe mu gikoresho citwa electrum, kikaba ari umuvango kama w’inzahabu n’ifeza bifise amabara y’agahama, kandi akenshi vyari bimeze nk’ibitoke, bikaba vyari bifise gusa ibimenyetso vy’ibipfunsi canke ibimenyetso vy’intango.
 
 
-Hasi, urashobora kubona kimwe mu biceri vya kera cane vyo muri Lidiya, kikaba kirimwo intare ifise umuhigo wayo imbere. Ushobora kubona ikidodo canke umwobo inyuma, bamwebamwe bemera ko vyakoreshejwe kugira ngo bagerageze ubusuku bw’ico cuma no kugira ngo bamenye neza ko atari ikintu co hejuru gusa. Naho iyi ari imwe mu ngero za mbere, birahambaye kumenya ko iki gice ari kopi. Ibice vyanje vyose vy’inzahabu n’ivy’amashanyarazi ni ibishushanyo canke ivy’ukwinezereza vyo muri iki gihe, vyagenewe kunkingira gukoresha amahera yose nazigamye muri iri koraniro.
+Hasi, urashobora kubona kimwe mu biceri vya kera cane vyo muri Lidiya, kikaba kirimwo intare ifise umuhigo wayo imbere. Ushobora kubona ikidodo canke umwobo inyuma, bamwebamwe bemera ko vyakoreshejwe kugira ngo bapime akaranga k’ico cuma kari kanyako no kugira ngo bamenye neza ko atari ikintu bashizeko hejuru gusa. Naho iyi ari imwe mu ngero za mbere, birahambaye kumenya ko iki gice ari ariciganano(kopi). Ibice vyanje vyose vy’inzahabu n’ivy’electrum ni ivyiganano(kopi) canke bisubiwemwo hakoreshejwe uburyo bwanone kugira ngo twirinde gukoresha uburyo bwishi mugukoresha ivyo biceri vya nyavyo.
 
 
 ![image](assets/rn/006.webp)
 
 
 
-Ariko kandi mfise igice c’Ubuperesi nyaco turiko turabona. Uko ni ko ivyo bipande vya mbere vyari bisa. Ni nk’ubwoko bw’igipfunsi (canke igipfunsi, mu congereza) c’icuma cari giteye ikidodo ico gihe.
+Ariko kandi mfise igiceri c’Uba perse nyaco tuza kubona mukanya. Uko ni ko ivyo bipande vya mbere vyari bisa. Ni nk’ubwoko blobs, de lumps mu congereza c’icuma cari giteye ikidodo ico gihe.
 
 
 
-Mu buryo butandukanye n’ukwemera kwakwiragiye kw’uko amahera yahinguwe kugira ngo yorohereze ubudandaji bwa misi yose no gusubirira uguhinduranya, bisa n’uko mu ntango ibiceri vya mbere vy’Abaludiya, Abakemeni n’Abagiriki bitakoreshwa mu bucuruzi buto buto. Nkako, izo nkuru z’amahera zari nyinshi cane ku buryo zitashobora gukoreshwa ku musi ku musi. Ikindi kandi, ukuntu vyagenda vyari bigarukiye mu turere turi hafi y’aho vyakorerwa.
+Mu buryo butandukanye n’ukwemera kwakwiragiye kw’uko amahera yahinguwe kugira ngo yorohereze ubudandaji bwa misi yose no gusubirira uguhinduranya ibintu(le troc), bisa n’uko mu ntango ibiceri vya mbere vy’Abaludiya, Abakemeni n’Abagiriki bitakoreshwa mu bucuruzi buto buto. Nkako, izo nkuru z’amahera zari nyinshi cane ku buryo zitashobora gukoreshwa ku musi ku musi. Ikindi kandi, ukuntu vyagenda vyari bigarukiye mu turere turi hafi y’aho vyakorerwa.
 
 
 
-Aha, mbona ko ari ngirakamaro kuvuga ko, naho nasomye mu bitabu vyinshi vy’ubuhinga bw’abantu, ibiceri, nk’uko namaze kubigaragaza - vyaba ivy’amashanyarazi canke iki giceri c’Ubuperesi nzosubirako mu gihe gito cane - vyari binini cane ku buryo ntashobora kugura umukate, tuvuge, buri musi. Nabonye ingereranyo zotuma twiyumvira ko bingana n’igikorwa c’umusi umwe ku murimyi canke ku musirikare, rero vyoba ari binini cane. Ni nk'ukugerageza kuriha umushahara w'umusi ku mfungurwa zawe, icayi cawe co mu gitondo canke ica sasita. Keretse ko nabonye mu bindi bikorwa ko hariho utugingo ngengabuzima dutoduto tw’ivyo bice, rero ibiceri bitobito, ivyo bishobora gutuma twiyumvira ko kumbure hariho uburyo bwo kubigura ku musi ku musi.
+Aha, mbona ko ari ngirakamaro kuvuga ko, naho nasomye mu bitabu vyinshi vy’ubuhinga bw’abantu, ibiceri, nk’uko namaze kubigaragaza - vyaba vya electrum canke  igiceri c’aba perses nzakugarukako mukanya gato - vyari binini cane ku buryo umuntu atashobora kugura umukate, tuvuge, buri musi. Nabonye ingereranyo zotuma twiyumvira ko bingana n’igikorwa c’umusi umwe ku murimyi canke ku musirikare, rero vyoba ari binini cane. Ni nk'ukugerageza kuriha umushahara w'umusi ku mfungurwa zawe, icayi cawe co mu gitondo canke ica sasita. Keretse ko nabonye mu bindi bikorwa ko hariho utugingo ngengabuzima dutoduto tw’ivyo bice, rero ibiceri bitobito, ivyo bishobora gutuma twiyumvira ko kumbure hariho uburyo bwo kubigura ku musi ku musi.
 
 
 Rero aha, "ikimenyamenya" c'ubuhinga bw'abantu c'uko kitakoreshwa mu bucuruzi bwa misi yose, kubera ko idini canke igice cari kinini cane, ntigikomeye cane mu ciyumviro canje kuko twabonye ingero z'ibiceri bitobito, vyari gushobora gukoreshwa mu gugura kwa misi yose.
@@ -1270,15 +1270,15 @@ Rero aha, "ikimenyamenya" c'ubuhinga bw'abantu c'uko kitakoreshwa mu bucuruzi bw
 
 
 
-Inkomoko nyakuri y’ibiceri isa n’iyifitaniye isano n’igikorwa gitaziguye c’ibihugu. Hariho ivyiyumviro bibiri nyamukuru kuri iyo nkuru: ica mbere, c’ivyiyumviro, gihuza ijambo ry’ikigiriki ‘nomisma’ (amahera) n’‘nomos’ (amategeko), bikaba vyerekana ko amahera yari afitaniye isano n’ugushinga amategeko, bikomeza ubukuru n’imitunganirize ya politike y’ibisagara. Iciyumviro ca kabiri, gifise ukuri kuruta, cemerwa cane muri iki gihe, ni uko amahera yari uburyo bwa mbere na mbere Leta zikoresha mu kugenzura ubutunzi n’imibano. Mu kwemeza ku mugaragaro uburemere n’agaciro k’ivyuma vy’agaciro vyari muri vyo, ibihugu vyarashoboye gukoresha nabi ukuntu ivyo biceri bigenda n’agaciro, bituma habaho icizigiro n’amahera y’ugutanga amahera yihariye ku mafaranga yo mu gihugu.
+Inkomoko nyakuri y’ibiceri isa naho ifatanye nibikorwa vy’ibihugu. Hariho ivyiyumviro bibiri nyamukuru kuri iyo nkuru: ica mbere, c’ivyiyumviro, gihuza ijambo ry’ikigiriki ‘nomisma’ (amahera) n’‘nomos’ (amategeko), bikaba vyerekana ko amahera yari ahuye n’ugushinga amategeko, bikomeza ubukuru n’imitunganirize ya politike y’ibisagara. Iciyumviro ca kabiri, gifise ukuri kuruta, cemerwa cane muri iki gihe, ni uko amahera yari uburyo bwa mbere na mbere Leta zikoresha mu kugenzura ubutunzi n’imibano. Mu kwemeza ku mugaragaro uburemere n’agaciro k’ivyuma vy’agaciro vyari muri vyo, ibihugu vyarashoboye gukoresha nabi ukuntu ivyo biceri bigenda n’agaciro, bituma habaho icizigiro n’amahera y’ugutanga amahera yihariye ku mafaranga yo mu gihugu.
 
 
 
-Birashimishije cane kumenya ko dufise ibimenyamenya vy’ivyo. Nk’akarorero, mu biceri vy’amashanyarazi, ukwiye kumenya ko amashanyarazi kavukire mu bisanzwe ari hafi y’ibice 70% vy’inzahabu na 30% vy’ifeza. Mu biceri vya mbere twabonye kandi twabisuzumye, cane cane ibiceri vya kera vy’i Lidiya, inzahabu isa n’iyirimwo cane hafi 50 gushika kuri 55% aho kuba 70. Ivyo vyerekana ko no muri ico gihe, abatanga ibiceri bariko bagerageza kugabanya umugabane w’icuma c’agaciro kuruta, kumbure kugira ngo bashobore gutanga ibiceri vyinshi kandi bibe nk’ibifise agaciro kanini. Kandi aha, bitegerezwa kuvugwa ko vy’ukuri kuva mu gihe c’uwo Croesus rurangiranwa, nk’uko biri muri *rich as Croesus*, ivyo vyashobotse kuko kuva mu gihe ciwe niho twaronka ubuhinga bwo gutandukanya inzahabu n’ifeza.
+Birashimishije cane kumenya ko dufise ibimenyamenya vy’ivyo. Nk’akarorero, mu biceri vya electrum, ukwiye kumenya ko electrum kama mu bisanzwe ari hafi y’ibice 70% vy’inzahabu na 30% vy’ifeza. Mu biceri vya mbere twabonye kandi twabisuzumye, cane cane ibiceri vya kera vy'i Lidy, inzahabu isa n’iyirimwo cane hafi 50 gushika kuri 55% aho kuba 70%. Ivyo vyerekana ko no muri ico gihe, abatanga ibiceri bariko bagerageza kugabanya umugabane w’icuma c’agaciro kuruta, kumbure kugira ngo bashobore gutanga ibiceri vyinshi bashizeko ikidodo kandi bibe bifise agaciro kamwe na electrum kama . Kandi aha, bitegerezwa kuvugwa ko vy’ukuri kuva mu gihe c’uwo Croesus rurangiranwa, nk’uko biri muri *rich as Croesus*, ivyo vyashobotse kuko kuva mu gihe ciwe niho twaronka ubuhinga bwo gutandukanya inzahabu n’ifeza.
 
 
 
-Ivyuma vy’i Lidiya vyarahindutse cane ku ngoma y’umwami rurangiranwa yitwa Croesus (561-546 imbere ya Kristu), yari azwi cane kubera ubutunzi bwiwe bw’imigani. Muri ico gihe, Abanyaludiya baratunganije ubuhinga bwo gutandukanya inzahabu n’ifeza n’umuyagankuba, gutyo barazana ibiceri vya mbere vy’ivyuma bibiri, ni ukuvuga ibiceri vy’inzahabu n’ifeza bitandukanye.
+Ibiceri vyamahera vy’i Lidiya vyarahindutse cane ku ngoma y’umwami rurangiranwa yitwa Croesus (561-546 imbere ya Kristu), yari azwi cane kubera ubutunzi bwiwe bwandikishije amateka. Muri ico gihe, Abanyaludiya baratunganije ubuhinga bwo gutandukanya inzahabu n’ifeza zo muri electrum, gutyo barazana ibiceri vya mbere vy’ivyuma bibiri, ni ukuvuga ibiceri vy’inzahabu n’ifeza bitandukanye.
 
 
 
@@ -1286,7 +1286,7 @@ Ivyuma vy’i Lidiya vyarahindutse cane ku ngoma y’umwami rurangiranwa yitwa C
 
 
 
-Igihe bigarurira Lidiya mu mwaka w’546 imbere ya Kristu, Abaperesi b’Abakemenide baca bafata iyo nzira nshasha. Nko mu mwaka wa 500 imbere ya Kristu, ku ngoma ya Dariyo wa mbere, Abaperesi barashizeho uburyo bwabo bwo gukoresha amahera bakoresheje amadaraki y’inzahabu n’amasiglois y’ifeza, akenshi bakaba bafise igishushanyo c’umwami mu buryo bw’intambara. Ivyo biceri vy’umwami vy’Ubuperesi vyakoreshwa canecane mu turere tw’Ubwami bw’Ubuperesi twari twagizwe n’Abagiriki, maze buhorobuhoro birakwiragira, naho nyene ikoreshwa ryavyo ryagumye ridahuye, **uturere tumwetumwe, nka Misiri, twari tugikunda guhindura ivyuma bipima (bullion).**.
+Igihe bigarurira  Lydie mu mwaka w’546 imbere ya Kristu, Abaperesi b’Aba achéménides baciye bafata ubwo buhinga bushasha. Nko mu mwaka wa 500 imbere ya Kristu, ku ngoma ya Darius wa mbere, Abaperesi barashizeho uburyo bwabo bwo gukoresha amahera bakoresheje darics y’inzahabu n’ama siglois y’ifeza, akenshi bakaba bashirako igishushanyo c’umwami mwiforo yingwanyi. Ivyo biceri vy’umwami vy’Ubuperesi vyakoreshwa canecane mu turere tw’Ubwami bw’Ubuperesi twari twagizwe n’Abagiriki, maze buhorobuhoro birakwiragira, naho nyene ikoreshwa ryavyo ryagumye ridahuye, **uturere tumwetumwe, nka Misiri, twari tugikunda guhindura ivyuma bipima (bullion).**.
 
 
 
@@ -1294,10 +1294,10 @@ Igihe bigarurira Lidiya mu mwaka w’546 imbere ya Kristu, Abaperesi b’Abakeme
 
 
 
-Hejuru, urashobora gushima sigloi (canke siglos) y’ukuri y’Abaperesi. Ico gishushanyo gitoyi kirimwo umwami, naho nyene ico kinogo cari carashaje gatoyi. Siglos ni igiceri c’ifeza, gitandukanye n’igiceri c’ifeza citwa daric, kikaba cari gikozwe mu nzahabu. Abaperesi barashobora gutandukanya ivyo vyuma bibiri, maze barava ku biceri vy’umuyagankuba. Rero, barashize mu ngiro ubuhinga bwo gukoresha ivyuma bibiri, bakoresheje inzahabu n’ifeza mu gihe bagumye bafise iciyumviro kimwe c’ibiceri bikozwe mu vyuma vy’agaciro, akenshi bikaba bifise umwobo inyuma, bishoboka ko ari vyo vyo gusuzuma ivyuma birimwo.
+ndafise ngaha sigloi nyayo canke siglos perse. Ico gishushanyo gitoyi kirimwo umwami, gifise igice gishaje cafuditse. Siglos ni igiceri c’ifeza, gitandukanye n’igiceri c’ifeza citwa daric, kikaba cari gikozwe mu nzahabu. Abaperesi barashobora gutandukanya ivyo vyuma bibiri, maze barava ku biceri vya electrum. Rero, barashize mu ngiro ubuhinga bwo gukoresha ivyuma bibiri, bakoresheje inzahabu n’ifeza mu gihe bagumye bafise iciyumviro kimwe c’ibiceri bikozwe mu vyuma vy’agaciro, akenshi bikaba bifise umwobo inyuma, bishoboka ko ari vyo vyo gusuzuma ivyuma birimwo.
 
 
-Bisa n’uko Abagiriki baciye bafata ibiceri vyihuse kubera ko bari bafitaniye ubucuti bwa hafi n’Abanyaludiya, canecane biciye ku bihugu vy’Abagiriki vyari vyarigaruriye muri Aziya Ntoya. Abagiriki ba mbere bacuze ibiceri bashobora kuba bari abatuye i Egina hagati mu kinjana ca gatandatu imbere ya Kristu, ni bo bashizeho idarakima, uburemere bwayo bukaba butandukanye ku ntara ku yindi, kandi izina ryayo risobanura "urushinge rw'intete" canke "urushinge rw'imyampi".
+Bisa n’uko Abagiriki baciye bafata ibiceri vyihuse kubera ko bari bafitaniye ubucuti bwa hafi n’Abanya lydien, canecane biciye ku bihugu vy’Abagiriki vyari vyarigaruriye muri Aziya Ntoya. Abagiriki ba mbere bacuze ibiceri bashobora kuba bari abatuye i Egina hagati mu kinjana ca gatandatu imbere ya Kristu, ni bo bashizeho idarakima, uburemere bwayo bukaba butandukanye ku ntara ku yindi, kandi izina ryayo risobanura "urushinge rw'intete" canke "urushinge rw'imyampi".
 
 
 Ukuroranirwa kw’ibiceri vy’Abagiriki kwari guterwa n’uko vyari vyiza mu gukora ibikorwa bihambaye, nk’ugutanga amahera y’abacangero, be n’uko vyari vyoroshe mu kwagura ubutunzi n’ivya politike vy’ibisagara. Amafaranga yaciye yihuta kuba ikintu nyamukuru mu vy’ubutunzi bw’Abagiriki, mu nyuma no mu vy’ubutunzi bw’Abaroma, mu gihe yagumye afise urugero rukomeye rw’ikigereranyo, canecane biciye ku gufatanya kwayo n’itegeko (nomos).
@@ -1308,7 +1308,7 @@ Ubwa nyuma, ukwaguka kw’ibiceri vyihuse birashingira intahe ihinduka rikomeye 
 
 
 
-Iciyumviro nyamukuru co kwibuka muri iki gice ni uko turiko turavuga cane cane **ibiceri**, atari amahera muri rusangi. Umuce nyamukuru ugaragara neza ni uwo **ukwizigira ubuyobozi butanga**, ufitaniye isano n’ibiranga ubuhinga bw’ibiceri (uburemere, ubusuku, agaciro k’imbere). Ukwo kwizigira nyene ni kwo gutuma Leta canke ubuyobozi butanga ivyo bice bishobora kugira urugero runaka rwo kugenzura canke mbere no gukoresha nabi agaciro k’ivyo biceri be n’ingene bigenda kuva mu ntango.
+Iciyumviro nyamukuru co kwibuka muri iki gice ni uko turiko turavuga cane cane **ibiceri**, atari amahera muri rusangi. Umuce nyamukuru ugaragara neza ni uwo **ukwizigira ubuyobozi butanga**, ufitaniye isano n’ibiranga ubuhinga bw’ibiceri (uburemere, ubusuku, agaciro k’imbere). Ukwo kwizigira nyene ni kwo gutuma Leta canke ubuyobozi butanga ivyo bice bishobora kugira urugero nyezina rwo kugenzura canke mbere no gukoresha nabi agaciro k’ivyo biceri be n’ingene bigenda kuva mu ntango.
 
 
 

@@ -71,19 +71,19 @@ Bist du also bereit, deine erste Bitcoin-Node einzuschalten? Nimm Kurs auf Souve
 
 <chapterId>0a9fd4e0-94ab-405e-924c-023397393027</chapterId>
 
-Wie von seinem Schöpfer, Satoshi Nakamoto, beschrieben, präsentiert sich Bitcoin als ein elektronisches Peer-to-Peer-Geldsystem. Dieser einfache Satz, der auch der Titel des Whitepapers ist, enthält viele Hinweise auf das Wesen von Bitcoin:
+Wie von seinem Schöpfer, [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi), beschrieben, präsentiert sich Bitcoin als ein elektronisches [Peer-to-Peer](https://planb.academy/resources/glossary/peertopeer-p2p)-Geldsystem. Dieser einfache Satz, der auch der Titel des [Whitepapers](https://planb.academy/resources/glossary/white-paper) ist, enthält viele Hinweise auf das Wesen von Bitcoin:
 
 - Zunächst einmal beschreibt Satoshi Bitcoin als ein "System", d. h. eine zusammenhängende Menge von Hardware- und Softwarekomponenten, die zusammenwirken, um einen bestimmten Dienst zu erbringen oder eine bestimmte Funktion auszuführen;
 - Weiter erklärt er, dass dieses System die Verwendung von elektronischem Bargeld ermöglicht, d.h. eine Art immaterielle Währung;
 - Schließlich weist er darauf hin, dass dieses System von keiner zentralen Stelle abhängt: Es ist ein "Peer-to-Peer"-System, d. h. die Nutzer selbst sind es, die das System betreiben.
 
-Da Bitcoin ein System ist, muss es zwangsläufig auf Computern betrieben werden. Und da es sich um ein Peer-to-Peer-System handelt, sind die Benutzer selbst für den Betrieb dieser Computer verantwortlich. Was wir eine "Bitcoin-Node" nennen, ist genau der Computer, auf dem die Software läuft, die das Bitcoin-Protokoll implementiert (wie Bitcoin Core, aber darauf kommen wir später zurück). Dadurch kann Bitcoin ohne eine zentrale Autorität funktionieren: Die Validierung wird auf verteilte Weise von Tausenden unabhängiger Maschinen durchgeführt, die Tausenden von Benutzern gehören.
+Da Bitcoin ein System ist, muss es zwangsläufig auf Computern betrieben werden. Und da es sich um ein Peer-to-Peer-System handelt, sind die Benutzer selbst für den Betrieb dieser Computer verantwortlich. Was wir eine "[Bitcoin-Node](https://planb.academy/resources/glossary/node)" nennen, ist genau der Computer, auf dem die Software läuft, die das Bitcoin-Protokoll implementiert (wie [Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core), aber darauf kommen wir später zurück). Dadurch kann Bitcoin ohne eine zentrale Autorität funktionieren: Die Validierung wird auf [verteilte](https://planb.academy/resources/glossary/distributed) Weise von Tausenden unabhängiger Maschinen durchgeführt, die Tausenden von Benutzern gehören.
 
 ![Image](assets/fr/047.webp)
 
 Nakamoto, S. (2008). *Bitcoin: Ein Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
 
-Es sind genau diese Nutzer, die die Sicherheit von Bitcoin gewährleisten. Wie Eric Voskuil in seinem Buch *Cryptoeconomics* erklärt, beruht die Sicherheit von Bitcoin weder auf Blockchain, noch auf Hashing-Power, noch auf Validierung, Dezentralisierung, Kryptographie, Open Source oder Spieltheorie. Die Sicherheit von Bitcoin hängt in erster Linie von den Individuen ab, die bereit sind, sich einem persönlichen Risiko auszusetzen. Die Dezentralisierung ermöglicht es, dieses Risiko auf eine große Anzahl von Personen zu verteilen, und nur deren Fähigkeit, dem zu widerstehen, gewährleistet die Robustheit des Systems.
+Es sind genau diese Nutzer, die die Sicherheit von Bitcoin gewährleisten. Wie Eric Voskuil in seinem Buch *Cryptoeconomics* erklärt, beruht die Sicherheit von Bitcoin weder auf [Blockchain](https://planb.academy/resources/glossary/blockchain), noch auf [Hashing-Power](https://planb.academy/resources/glossary/hashrate), noch auf Validierung, Dezentralisierung, [Kryptographie](https://planb.academy/resources/glossary/cryptography), [Open Source](https://planb.academy/resources/glossary/foss) oder Spieltheorie. Die Sicherheit von Bitcoin hängt in erster Linie von den Individuen ab, die bereit sind, sich einem persönlichen Risiko auszusetzen. Die Dezentralisierung ermöglicht es, dieses Risiko auf eine große Anzahl von Personen zu verteilen, und nur deren Fähigkeit, dem zu widerstehen, gewährleistet die Robustheit des Systems.
 
 Dieses Prinzip ist leicht zu verstehen: Wenn Bitcoin von einer einzigen Node abhängt, der einer einzigen Person gehört, würde die Inhaftierung dieser Person ausreichen, um das Netz abzuschalten, da sie allein alle Risiken trägt. Bei Zehntausenden von Nodes, die über die ganze Welt verteilt sind, ist das Risiko breit gestreut: Jeder dieser Betreiber müsste neutralisiert werden, um Bitcoin auszuschalten.
 
@@ -93,7 +93,7 @@ Wir können also mehrere Begriffe unterscheiden und benennen, um die Dinge für 
 
 - Bitcoin-Währung: die für Transaktionen innerhalb dieses Systems verwendete Rechnungseinheit;
 - Das Bitcoin-Netzwerk: die Menge aller verbundenen Nodes;
-- Bitcoin-Nodes: Rechner, auf denen eine Implementierung von Bitcoin läuft;
+- Bitcoin-Nodes: Rechner, auf denen eine [Implementierung von Bitcoin](https://planb.academy/resources/glossary/bitcoin-implementation) läuft;
 - Bitcoin-Implementierungen: Software, die das Protokoll in ausführbare Anweisungen umsetzt;
 - Bitcoin-Protokoll: das Regelwerk, das den Betrieb des Systems regelt;
 - Das Bitcoin-System: die kohärente Kombination all dieser Elemente.
@@ -102,37 +102,37 @@ Wir können also mehrere Begriffe unterscheiden und benennen, um die Dinge für 
 
 Die Bitcoin-Nodes bilden zusammen das so genannte Bitcoin-Netzwerk. Sie ermöglichen dem gesamten System einen autonomen Betrieb, ohne Rückgriff auf eine zentrale Behörde oder eine Hierarchie von Servern.
 
-Von Anfang an war Bitcoin so konzipiert, dass jeder Benutzer eine persönliche Node betreiben konnte. Dies gilt auch für die heutige Bitcoin Core Software, die die Funktionen von Wallet und Node vereint. Heutzutage wird diese Funktion jedoch oft getrennt: Viele moderne Bitcoin-Wallets sind nur Geldbörsen, die mit einer externen Node verbunden sind (die derselben Person gehören oder nicht).
+Von Anfang an war Bitcoin so konzipiert, dass jeder Benutzer eine persönliche Node betreiben konnte. Dies gilt auch für die heutige Bitcoin Core Software, die die Funktionen von [Wallet](https://planb.academy/resources/glossary/wallet) und Node vereint. Heutzutage wird diese Funktion jedoch oft getrennt: Viele moderne Bitcoin-Wallets sind nur Geldbörsen, die mit einer externen Node verbunden sind (die derselben Person gehören oder nicht).
 
 ### Blockchain beibehalten
 
-Die erste Aufgabe einer Node besteht darin, eine lokale Kopie der Blockchain zu führen. Um Double-Spending auf Bitcoin zu verhindern, ohne eine zentrale Behörde einzuschalten, muss jeder Benutzer prüfen, dass keine Transaktion im System existiert. Die einzige Möglichkeit, dies sicherzustellen, besteht darin, alle auf Bitcoin durchgeführten Transaktionen zu kennen. Aus diesem Grund werden alle Transaktionen mit einem Zeitstempel versehen und in Blöcken gruppiert, und jede Node speichert die gesamte Blockchain.
+Die erste Aufgabe einer Node besteht darin, eine lokale Kopie der Blockchain zu führen. Um [Double-Spending](https://planb.academy/resources/glossary/double-spending-attack) auf Bitcoin zu verhindern, ohne eine zentrale Behörde einzuschalten, muss jeder Benutzer prüfen, dass keine [Transaktion](https://planb.academy/resources/glossary/transaction-tx) im System existiert. Die einzige Möglichkeit, dies sicherzustellen, besteht darin, alle auf Bitcoin durchgeführten Transaktionen zu kennen. Aus diesem Grund werden alle Transaktionen mit einem [Zeitstempel](https://planb.academy/resources/glossary/timestamp) versehen und in [Blöcken](https://planb.academy/resources/glossary/block) gruppiert, und jede Node speichert die gesamte Blockchain.
 
 > Die einzige Möglichkeit, das Nichtvorhandensein einer Transaktion zu bestätigen, besteht darin, sich aller Transaktionen bewusst zu sein.
 
 Nakamoto, S. (2008). *Bitcoin: Ein Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
 
-Die Blockchain ist daher ein sich entwickelndes Register: Jedes Mal, wenn ein neuer Block von einem Miner veröffentlicht wird, prüft die Node dessen Gültigkeit, bevor sie ihn zu seiner eigenen lokalen Kopie der Blockchain hinzufügt. Heute (Juli 2025) umfasst die gesamte Blockchain mehr als 675 GB, und diese Größe wächst weiter, da im Durchschnitt alle 10 Minuten ein neuer Block hinzugefügt wird.
+Die Blockchain ist daher ein sich entwickelndes Register: Jedes Mal, wenn ein neuer Block von einem [Miner](https://planb.academy/resources/glossary/miner) veröffentlicht wird, prüft die Node dessen Gültigkeit, bevor sie ihn zu seiner eigenen lokalen Kopie der Blockchain hinzufügt. Heute (Juli 2025) umfasst die gesamte Blockchain mehr als 675 GB, und diese Größe wächst weiter, da im Durchschnitt alle 10 Minuten ein neuer Block hinzugefügt wird.
 
 ![Image](assets/fr/049.webp)
 
-Die Node unterhält auch eine lokale Aufzeichnung aller zu einem bestimmten Zeitpunkt vorhandenen UTXOs, die als **UTXO-Set** bezeichnet wird. Diese Datenbank enthält alle nicht ausgegebenen Bitcoin-Fragmente. Wir werden dieses Thema im letzten Teil des Kurses noch einmal ausführlich behandeln.
+Die Node unterhält auch eine lokale Aufzeichnung aller zu einem bestimmten Zeitpunkt vorhandenen [UTXOs](https://planb.academy/resources/glossary/utxo), die als **[UTXO-Set](https://planb.academy/resources/glossary/utxo-set)** bezeichnet wird. Diese Datenbank enthält alle nicht ausgegebenen Bitcoin-Fragmente. Wir werden dieses Thema im letzten Teil des Kurses noch einmal ausführlich behandeln.
 
 ### Überprüfen und Verteilen von Transaktionen
 
-Die zweite Aufgabe einer Node besteht darin, die Überprüfung und Weiterleitung (Relay) von Transaktionen sicherzustellen. Wenn eine neue Transaktion die Node erreicht (entweder über die Wallet-Software oder eine andere Node), prüft sie, ob sie mit einer Reihe von Regeln (Konsensregeln und Weiterleitungsregeln (Relay Regeln) übereinstimmt. Zum Beispiel:
+Die zweite Aufgabe einer Node besteht darin, die Überprüfung und Weiterleitung (Relay) von Transaktionen sicherzustellen. Wenn eine neue Transaktion die Node erreicht (entweder über die Wallet-Software oder eine andere Node), prüft sie, ob sie mit einer Reihe von Regeln ([Konsensregeln](https://planb.academy/resources/glossary/consensus-rules) und [Weiterleitungsregeln](https://planb.academy/resources/glossary/relay) (Relay Regeln) übereinstimmt. Zum Beispiel:
 
 - ausgegebene Bitcoins müssen in seinem UTXO-Set (der Datenbank der nicht ausgegebenen Bitcoin-Fragmente) vorhanden sein;
-- die Signatur muss gültig sein, und alle Ausgabebedingungen müssen erfüllt sein (gültiges Skript);
-- der Gesamtbetrag der Outputs darf den Gesamtbetrag der Inputs nicht übersteigen, d. h. die Kosten dürfen nicht negativ sein.
+- die [Signatur](https://planb.academy/resources/glossary/digital-signature) muss gültig sein, und alle Ausgabebedingungen müssen erfüllt sein (gültiges [Skript](https://planb.academy/resources/glossary/script));
+- der Gesamtbetrag der [Outputs](https://planb.academy/resources/glossary/output) darf den Gesamtbetrag der [Inputs](https://planb.academy/resources/glossary/input) nicht übersteigen, d. h. die [Kosten](https://planb.academy/resources/glossary/transaction-fees) dürfen nicht negativ sein.
 
 ![Image](assets/fr/050.webp)
 
-Nach der Validierung wird die Transaktion im Mempool der Node gespeichert, einem temporären Speicherplatz, der für unbestätigte Transaktionen reserviert ist, und dann an die anderen Netzwerk-Peers weitergeleitet, mit denen sie verbunden ist. Dieser Verteilungs- und Validierungsmechanismus setzt sich von Node zu Node fort. Auf diese Weise wird die Transaktion über das Bitcoin-Netzwerk verbreitet, und jede Node speichert sie im Mempool, bis sie von einem Miner in einen gültigen Block aufgenommen wird, der dann auf ihre erste Bestätigung hin handelt.
+Nach der Validierung wird die Transaktion im [Mempool](https://planb.academy/resources/glossary/mempool) der Node gespeichert, einem temporären Speicherplatz, der für unbestätigte Transaktionen reserviert ist, und dann an die anderen Netzwerk-Peers weitergeleitet, mit denen sie verbunden ist. Dieser Verteilungs- und Validierungsmechanismus setzt sich von Node zu Node fort. Auf diese Weise wird die Transaktion über das Bitcoin-Netzwerk [verbreitet](https://planb.academy/resources/glossary/diffusion), und jede Node speichert sie im Mempool, bis sie von einem Miner in einen gültigen Block aufgenommen wird, der dann auf ihre erste [Bestätigung](https://planb.academy/resources/glossary/confirmation) hin handelt.
 
 ### Kontrolle und Verteilung der Blöcke
 
-Die dritte Aufgabe der Node ist die Verwaltung der geminten Blöcke. Wenn ein Miner einen neuen Block mit einem gültigen Proof-of-Work entdeckt, wird er im Netz verbreitet. Die Nodes empfangen ihn, prüfen, ob er allen Protokollregeln entspricht, und integrieren ihn dann in ihre eigene lokale Kopie der Blockchain, wenn er gültig ist. Wie bei Transaktionen werden die neu validierten Blöcke dann an alle mit der Node verbundenen Peers weitergeleitet. Dieser Prozess wird so lange fortgesetzt, bis alle Node im Bitcoin-Netzwerk von dem neuen Block Kenntnis haben.
+Die dritte Aufgabe der Node ist die Verwaltung der geminten Blöcke. Wenn ein Miner einen neuen Block mit einem gültigen [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) entdeckt, wird er im Netz verbreitet. Die Nodes empfangen ihn, prüfen, ob er allen Protokollregeln entspricht, und integrieren ihn dann in ihre eigene lokale Kopie der Blockchain, wenn er gültig ist. Wie bei Transaktionen werden die neu validierten Blöcke dann an alle mit der Node verbundenen Peers weitergeleitet. Dieser Prozess wird so lange fortgesetzt, bis alle Node im Bitcoin-Netzwerk von dem neuen Block Kenntnis haben.
 
 ![Image](assets/fr/051.webp)
 

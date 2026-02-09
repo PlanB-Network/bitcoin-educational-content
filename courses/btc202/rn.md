@@ -133,18 +133,18 @@ None, woba witeguye gufungura node yawe ya mbere ya Bitcoin? Mushireho inzira y�
 
 
 
-Nk’uko vyadondowe n’uwayiremye, Satoshi Nakamoto, Bitcoin yiyerekana nk’uburyo bwo gukoresha amahera y’ubuhinga bwa none. Iri rungane ryoroshe, ari ryo mutwe w’Igitabu Cera, rifise ibimenyetso vyinshi vyerekana kamere ya Bitcoin:
+Nk’uko vyadondowe n’uwayiremye, [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi), Bitcoin yiyerekana nk’uburyo bwo gukoresha amahera y’ubuhinga bwa none. Iri rungane ryoroshe, ari ryo mutwe w’[Igitabu Cera](https://planb.academy/resources/glossary/white-paper), rifise ibimenyetso vyinshi vyerekana kamere ya Bitcoin:
 
 
 
 
 - Mbere na mbere, Satoshi idondora Bitcoin nk'"uburyo", mu yandi majambo, urutonde rw'ibihimba vy'ubuhinga n'ubuhinga bikorana kugira ngo bihe igikorwa kinaka canke bikore igikorwa kinaka;
 - Inyuma y’aho, asigura ko iyo nzira ishoboza gukoresha amahera y’ubuhinga bwa none, ni ukuvuga uburyo bw’amahera ataboneka;
-- Ubwa nyuma, yerekana ko iyo nzira idashingiye ku kintu na kimwe co hagati: ni "peer-to-peer", bisobanura ko abakoresha ubwabo ari bo bakoresha iyo nzira.
+- Ubwa nyuma, yerekana ko iyo nzira idashingiye ku kintu na kimwe co hagati: ni "[peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p)", bisobanura ko abakoresha ubwabo ari bo bakoresha iyo nzira.
 
 
 
-Kubera ko Bitcoin ari ubuhinga, bitegerezwa gukoreshwa kuri mudasobwa. Kandi, kubera kamere yayo y’urunganwe, ni abakoresha ubwabo bafata inshingano yo gukoresha izo mashini. Ico twita "Bitcoin node" ni co nyene iyo mudasobwa ikoresha porogarama ishira mu ngiro umurongo wa Bitcoin (nka Bitcoin core, ariko ivyo tuzobigarukako mu nyuma). Ivyo ni vyo bituma Bitcoin ikora ata butegetsi bukuru: kwemeza bikorwa mu buryo busanzwe, n’amamashini yigenga ibihumbi n’ibihumbi ari ay’abakoresha ibihumbi n’ibihumbi.
+Kubera ko Bitcoin ari ubuhinga, bitegerezwa gukoreshwa kuri mudasobwa. Kandi, kubera kamere yayo y’urunganwe, ni abakoresha ubwabo bafata inshingano yo gukoresha izo mashini. Ico twita "Bitcoin [node](https://planb.academy/resources/glossary/node)" ni co nyene iyo mudasobwa ikoresha porogarama ishira mu ngiro umurongo wa Bitcoin (nka [Bitcoin core](https://planb.academy/resources/glossary/bitcoin-core), ariko ivyo tuzobigarukako mu nyuma). Ivyo ni vyo bituma Bitcoin ikora ata butegetsi bukuru: [kwemeza](https://planb.academy/resources/glossary/confirmation) bikorwa mu buryo [busanzwe](https://planb.academy/resources/glossary/distributed), n’amamashini yigenga ibihumbi n’ibihumbi ari ay’abakoresha ibihumbi n’ibihumbi.
 
 
 
@@ -156,7 +156,7 @@ Nakamoto, S. (2008). *Bitcoin: Uburyo bwo gukoresha amahera mu buryo bw’ubuhin
 
 
 
-Abo bakoresha nyene ni bo bacungera umutekano wa Bitcoin. Nk’uko Eric Voskuil abisigura mu gitabu ciwe *Cryptoeconomics*, umutekano wa Bitcoin ntushingiye kuri Blockchain, canke ku bubasha bwo gukora hashing, canke ku kwemeza, ku kwegereza ubutegetsi, ku gukora amakuru y’ibanga, ku nzira yuguruye, canke ku nyigisho y’imikino. Umutekano wa Bitcoin uvana canecane n’abantu biteguriye kwishira mu kaga k’umuntu ku giti ciwe. Ukwegereza ubutegetsi abaturage bituma iyo ngorane ikwiragizwa ku bantu benshi, kandi ubushobozi bwabo bwo kurwanya ni bwo bwonyene butuma iyo nzira ikomeye.
+Abo bakoresha nyene ni bo bacungera umutekano wa Bitcoin. Nk’uko Eric Voskuil abisigura mu gitabu ciwe *Cryptoeconomics*, umutekano wa Bitcoin ntushingiye kuri [Blockchain](https://planb.academy/resources/glossary/blockchain), canke ku bubasha bwo gukora hashing, canke ku kwemeza, ku kwegereza ubutegetsi, ku [gukora amakuru y’ibanga](https://planb.academy/resources/glossary/cryptography), ku [nzira yuguruye](https://planb.academy/resources/glossary/foss), canke ku nyigisho y’imikino. Umutekano wa Bitcoin uvana canecane n’abantu biteguriye kwishira mu kaga k’umuntu ku giti ciwe. Ukwegereza ubutegetsi abaturage bituma iyo ngorane ikwiragizwa ku bantu benshi, kandi ubushobozi bwabo bwo kurwanya ni bwo bwonyene butuma iyo nzira ikomeye.
 
 
 
@@ -173,9 +173,9 @@ Turashobora rero gutandukanya no gutanga amazina y’ivyiyumviro vyinshi kugira 
 
 
 
-- Amafaranga ya Bitcoin: igice ca konti gikoreshwa mu gukora ibikorwa muri iyo nzira;
+- Amafaranga ya Bitcoin: [igice](https://planb.academy/resources/glossary/block) ca konti gikoreshwa mu gukora [ibikorwa](https://planb.academy/resources/glossary/transaction-tx) muri iyo nzira;
 - Igikoresho ca Bitcoin: umugwi w’ibihimba vyose bihuye;
-- Bitcoin nodes: imashini zikoresha ugushirwa mu ngiro kwa Bitcoin;
+- Bitcoin nodes: imashini zikoresha [ugushirwa mu ngiro kwa Bitcoin](https://planb.academy/resources/glossary/bitcoin-implementation);
 - Ibikorwa vya Bitcoin: porogarama ihindura porotokole mu mabwirizwa ashobora gushirwa mu ngiro;
 - Bitcoin protocol: amategeko agenga uko iyo sisitemu ikora;
 - Uburyo bwa Bitcoin: ihuriro ry'ivyo vyose Elements.
@@ -190,7 +190,7 @@ Ivyo bihimba vya Bitcoin vyose hamwe bikora ico bita urusobe rwa Bitcoin. Bituma
 
 
 
-Kuva mu ntango, Bitcoin yari igenewe gutuma uwuyikoresha wese akoresha urudodo rwiwe bwite. Ico kibazo kiracariho n’ubuhinga bwa none bwa Bitcoin core, bufatanya uruhara rwa Wallet n’urw’urudodo. Ariko muri iki gihe, iyo nzira ikunda gutandukana: ama wallet menshi ya Bitcoin yo muri iki gihe ni ama wallet gusa ahuza n’ibihimba vyo hanze (vy’umuntu umwe canke atari vyo).
+Kuva mu ntango, Bitcoin yari igenewe gutuma uwuyikoresha wese akoresha urudodo rwiwe bwite. Ico kibazo kiracariho n’ubuhinga bwa none bwa Bitcoin core, bufatanya uruhara rwa [Wallet](https://planb.academy/resources/glossary/wallet) n’urw’urudodo. Ariko muri iki gihe, iyo nzira ikunda gutandukana: ama wallet menshi ya Bitcoin yo muri iki gihe ni ama wallet gusa ahuza n’ibihimba vyo hanze (vy’umuntu umwe canke atari vyo).
 
 
 
@@ -198,7 +198,7 @@ Kuva mu ntango, Bitcoin yari igenewe gutuma uwuyikoresha wese akoresha urudodo r
 
 
 
-Igikorwa ca mbere c'uruzitiro ni ugucungera kopi y'aho hantu ya Blockchain. Kugira ngo Double-spending ibe kuri Bitcoin ata buyobozi bukuru bushizwemwo, umukoresha wese ategerezwa kugenzura ko ata n’imwe ikoreshwa muri iyo sisitemu. Uburyo bumwe rudende bwo kumenya neza ivyo ni ukumenya amafaranga yose akoreshwa kuri Bitcoin. Kubera iyo mpamvu, amafaranga yose akoreshwa arashirwako ikidodo c'igihe kandi agashirwa mu matsinda, kandi buri nzira ibika Blockchain yose.
+Igikorwa ca mbere c'uruzitiro ni ugucungera kopi y'aho hantu ya Blockchain. Kugira ngo [Double-spending](https://planb.academy/resources/glossary/double-spending-attack) ibe kuri Bitcoin ata buyobozi bukuru bushizwemwo, umukoresha wese ategerezwa kugenzura ko ata n’imwe ikoreshwa muri iyo sisitemu. Uburyo bumwe rudende bwo kumenya neza ivyo ni ukumenya amafaranga yose akoreshwa kuri Bitcoin. Kubera iyo mpamvu, amafaranga yose akoreshwa arashirwako [ikidodo c'igihe](https://planb.academy/resources/glossary/timestamp) kandi agashirwa mu matsinda, kandi buri nzira ibika Blockchain yose.
 
 
 
@@ -208,7 +208,7 @@ Nakamoto, S. (2008). *Bitcoin: Uburyo bwo gukoresha amahera mu buryo bw’ubuhin
 
 
 
-Blockchain rero ni igitabu gihinduka: igihe cose igice gishasha gisohotse na Miner, iyo node irasuzuma ko ari ukuri imbere y’uko iyongera kuri kopi yayo bwite y’uruhererekane. Kuva uno musi (Mukakaro 2025), Blockchain yuzuye irarenga 675 GB, kandi iyo ngano irabandanya gukura, kuko hariho igice gishasha congerwako mu mwanya buri minota 10.
+Blockchain rero ni igitabu gihinduka: igihe cose igice gishasha gisohotse na [Miner](https://planb.academy/resources/glossary/miner), iyo node irasuzuma ko ari ukuri imbere y’uko iyongera kuri kopi yayo bwite y’uruhererekane. Kuva uno musi (Mukakaro 2025), Blockchain yuzuye irarenga 675 GB, kandi iyo ngano irabandanya gukura, kuko hariho igice gishasha congerwako mu mwanya buri minota 10.
 
 
 
@@ -216,7 +216,7 @@ Blockchain rero ni igitabu gihinduka: igihe cose igice gishasha gisohotse na Min
 
 
 
-Iryo node kandi rigumya inyandiko y’aho hantu y’ama UTXO yose ariho igihe cose, azwi kw’izina rya **UTXO set**. Iryo koraniro ririmwo ibice vyose vya Bitcoin bitakoreshejwe. Turasubira gusubiramwo iyo nkuru mu buryo burambuye mu gice ca nyuma c’inyigisho.
+Iryo node kandi rigumya [inyandiko](https://planb.academy/resources/glossary/script) y’aho hantu y’ama [UTXO](https://planb.academy/resources/glossary/utxo) yose ariho igihe cose, azwi kw’izina rya **[UTXO set](https://planb.academy/resources/glossary/utxo-set)**. Iryo koraniro ririmwo ibice vyose vya Bitcoin bitakoreshejwe. Turasubira gusubiramwo iyo nkuru mu buryo burambuye mu gice ca nyuma c’inyigisho.
 
 
 
@@ -224,14 +224,14 @@ Iryo node kandi rigumya inyandiko y’aho hantu y’ama UTXO yose ariho igihe co
 
 
 
-Uruhara rwa kabiri rw’uruzitiro ni ugukora kugenzura no gukwiragiza amafaranga. Iyo igikorwa gishasha gishitse ku nzira (biciye kuri porogarama ya Wallet canke iyindi nzira), kizosuzuma ko kijanye n’amategeko (amategeko y’uguhurizako n’amategeko y’ugutanga amakuru). Nk'akarorero:
+Uruhara rwa kabiri rw’uruzitiro ni ugukora kugenzura no [gukwiragiza](https://planb.academy/resources/glossary/diffusion) amafaranga. Iyo igikorwa gishasha gishitse ku nzira (biciye kuri porogarama ya Wallet canke iyindi nzira), kizosuzuma ko kijanye n’amategeko ([amategeko y’uguhurizako](https://planb.academy/resources/glossary/consensus-rules) n’amategeko y’[ugutanga amakuru](https://planb.academy/resources/glossary/relay)). Nk'akarorero:
 
 
 
 
-- bitcoins zakoreshejwe zitegerezwa kubaho mu gice cayo ca UTXO (urutonde rw’ibisohoka bitakoreshejwe);
-- umukono utegerezwa kuba ufise akamaro, kandi ivyangombwa vyose vyo gukoresha amahera bitegerezwa kuba vyuzuye (inyandiko ifise akamaro);
-- umubare wose w’ibisohoka ntugomba kurenga umubare wose w’ibintu vyinjizwa, ivyo bisigura ko ibiciro bidashobora kuba bibi.
+- bitcoins zakoreshejwe zitegerezwa kubaho mu gice cayo ca UTXO (urutonde rw’[ibisohoka](https://planb.academy/resources/glossary/output) bitakoreshejwe);
+- [umukono](https://planb.academy/resources/glossary/digital-signature) utegerezwa kuba ufise akamaro, kandi ivyangombwa vyose vyo gukoresha amahera bitegerezwa kuba vyuzuye (inyandiko ifise akamaro);
+- umubare wose w’ibisohoka ntugomba kurenga umubare wose w’[ibintu vyinjizwa](https://planb.academy/resources/glossary/input), ivyo bisigura ko [ibiciro](https://planb.academy/resources/glossary/transaction-fees) bidashobora kuba bibi.
 
 
 
@@ -239,7 +239,7 @@ Uruhara rwa kabiri rw’uruzitiro ni ugukora kugenzura no gukwiragiza amafaranga
 
 
 
-Inyuma y’ukwemezwa, iyo nzira ibikwa muri Mempool y’uruzitiro, ikibanza c’ukwibuka c’igihe gito kigenewe ibikorwa bitaremejwe, hanyuma igashikirizwa abandi bagenzi b’urubuga ihuriyeko. Ubwo buryo bwo gukwiragiza no kwemeza burabandanya kuva ku nzira imwe gushika ku yindi. Muri ubwo buryo, iyo nzira ikwiragizwa ku rubuga rwa Bitcoin, kandi buri node ikayibika muri Mempool gushika ishizwe mu gice gifise akamaro na Miner, iyo na yo igaca ikora ku kwemeza kwayo kwa mbere.
+Inyuma y’ukwemezwa, iyo nzira ibikwa muri [Mempool](https://planb.academy/resources/glossary/mempool) y’uruzitiro, ikibanza c’ukwibuka c’igihe gito kigenewe ibikorwa bitaremejwe, hanyuma igashikirizwa abandi bagenzi b’urubuga ihuriyeko. Ubwo buryo bwo gukwiragiza no kwemeza burabandanya kuva ku nzira imwe gushika ku yindi. Muri ubwo buryo, iyo nzira ikwiragizwa ku rubuga rwa Bitcoin, kandi buri node ikayibika muri Mempool gushika ishizwe mu gice gifise akamaro na Miner, iyo na yo igaca ikora ku kwemeza kwayo kwa mbere.
 
 
 
@@ -247,7 +247,7 @@ Inyuma y’ukwemezwa, iyo nzira ibikwa muri Mempool y’uruzitiro, ikibanza c’
 
 
 
-Uruhara rwa gatatu rw’uruzitiro ni ugucungera amabuye y’agaciro. Iyo Miner ibonye igice gishasha gifise Proof of Work ikora, iratangazwa ku rubuga. Ivyo bihimba birayakira, bikagenzura ko ihuye n’amategeko yose y’itegeko, hanyuma bikayishira muri kopi yabo bwite y’aho hantu ya Blockchain nimba ari ngirakamaro. Nk’uko bigenda ku bikorwa, amabuye mashasha yemejwe aca ashikirizwa bagenzi bose bahuye n’urudodo. Ivyo birabandanya gushika aho ama node yose ari ku rubuga rwa Bitcoin amenye iyo block nshasha.
+Uruhara rwa gatatu rw’uruzitiro ni ugucungera amabuye y’agaciro. Iyo Miner ibonye igice gishasha gifise [Proof of Work](https://planb.academy/resources/glossary/proof-of-work) ikora, iratangazwa ku rubuga. Ivyo bihimba birayakira, bikagenzura ko ihuye n’amategeko yose y’itegeko, hanyuma bikayishira muri kopi yabo bwite y’aho hantu ya Blockchain nimba ari ngirakamaro. Nk’uko bigenda ku bikorwa, amabuye mashasha yemejwe aca ashikirizwa bagenzi bose bahuye n’urudodo. Ivyo birabandanya gushika aho ama node yose ari ku rubuga rwa Bitcoin amenye iyo block nshasha.
 
 
 

@@ -71,19 +71,19 @@ Jadi, apakah Anda siap untuk menyalakan Node Bitcoin pertama Anda? Tetapkan arah
 
 <chapterId>0a9fd4e0-94ab-405e-924c-023397393027</chapterId>
 
-Seperti yang dijelaskan oleh penciptanya, Satoshi Nakamoto, Bitcoin memperkenalkan diri sebagai sistem uang elektronik peer-to-peer. Kalimat sederhana ini, yang merupakan judul White Paper, mengandung banyak petunjuk tentang sifat Bitcoin:
+Seperti yang dijelaskan oleh penciptanya, [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi), Bitcoin memperkenalkan diri sebagai sistem uang elektronik [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p). Kalimat sederhana ini, yang merupakan judul [White Paper](https://planb.academy/resources/glossary/white-paper), mengandung banyak petunjuk tentang sifat Bitcoin:
 
 - Pertama, Satoshi mendeskripsikan Bitcoin sebagai "sistem", dengan kata lain, satu set komponen perangkat keras (hardware) dan perangkat lunak (software) yang koheren yang berinteraksi untuk menyediakan layanan atau menjalankan fungsi tertentu;
 - Selanjutnya, ia menjelaskan bahwa sistem ini memungkinkan penggunaan uang elektronik, yaitu bentuk mata uang tak berwujud;
 - Terakhir, ia menunjukkan bahwa sistem ini tidak bergantung pada entitas pusat apa pun: Sistem ini bersifat peer-to-peer, artinya pengguna sendirilah yang mengoperasikan sistem tersebut.
 
-Karena Bitcoin adalah sebuah sistem, ia harus dijalankan pada komputer. Dan, karena sifatnya yang peer-to-peer, para pengguna sendirilah yang bertanggung jawab untuk menjalankan mesin-mesin ini. Apa yang kita sebut sebagai "Node Bitcoin" adalah komputer tempat menjalankan lunak yang mengimplementasikan protokol Bitcoin (seperti Bitcoin Core, tetapi kita akan kembali ke sana nanti) berjalan. Inilah yang memungkinkan Bitcoin beroperasi tanpa otoritas pusat: validasi dilakukan secara terdistribusi, oleh ribuan mesin independen milik ribuan pengguna.
+Karena Bitcoin adalah sebuah sistem, ia harus dijalankan pada komputer. Dan, karena sifatnya yang peer-to-peer, para pengguna sendirilah yang bertanggung jawab untuk menjalankan mesin-mesin ini. Apa yang kita sebut sebagai "[Node Bitcoin](https://planb.academy/resources/glossary/node)" adalah komputer tempat menjalankan lunak yang [mengimplementasikan protokol Bitcoin](https://planb.academy/resources/glossary/bitcoin-implementation) (seperti [Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core), tetapi kita akan kembali ke sana nanti) berjalan. Inilah yang memungkinkan Bitcoin beroperasi tanpa otoritas pusat: validasi dilakukan secara [terdistribusi](https://planb.academy/resources/glossary/distributed), oleh ribuan mesin independen milik ribuan pengguna.
 
 ![Image](assets/fr/047.webp)
 
 Nakamoto, S. (2008). *Bitcoin: Sistem Uang Elektronik Peer-to-Peer*. https://Bitcoin.org/Bitcoin.pdf
 
-Para pengguna inilah yang memastikan keamanan Bitcoin. Seperti yang dijelaskan oleh Eric Voskuil dalam bukunya *Cryptoeconomics*, keamanan Bitcoin tidak bergantung pada Blockchain, tidak juga pada kekuatan hashing, tidak juga pada validasi, desentralisasi, kriptografi, open source, atau teori permainan. Keamanan Bitcoin bergantung terutama pada individu yang bersedia mengekspos diri mereka sendiri terhadap risiko pribadi. Desentralisasi memungkinkan risiko ini tersebar ke sejumlah besar individu, dan hanya kemampuan mereka untuk menolak yang memastikan ketahanan sistem.
+Para pengguna inilah yang memastikan keamanan Bitcoin. Seperti yang dijelaskan oleh Eric Voskuil dalam bukunya *Cryptoeconomics*, keamanan Bitcoin tidak bergantung pada [Blockchain](https://planb.academy/resources/glossary/blockchain), tidak juga pada [kekuatan hashing](https://planb.academy/resources/glossary/hashrate), tidak juga pada validasi, desentralisasi, [kriptografi](https://planb.academy/resources/glossary/cryptography), [open source](https://planb.academy/resources/glossary/foss), atau teori permainan. Keamanan Bitcoin bergantung terutama pada individu yang bersedia mengekspos diri mereka sendiri terhadap risiko pribadi. Desentralisasi memungkinkan risiko ini tersebar ke sejumlah besar individu, dan hanya kemampuan mereka untuk menolak yang memastikan ketahanan sistem.
 
 Justru para pengguna inilah yang memastikan keamanan Bitcoin. Seperti yang dijelaskan Eric Voskuil dalam bukunya _Cryptoeconomics_, keamanan Bitcoin tidak bergantung pada Blockchain, kekuatan hashing, validasi, desentralisasi, kriptografi, open source, atau teori permainan. Keamanan Bitcoin terutama bergantung pada individu-individu yang bersedia mengekspos diri pada risiko pribadi. Desentralisasi memungkinkan risiko ini disebarkan ke sejumlah besar individu, dan hanya kemampuan mereka untuk menahanlah yang menjamin ketahanan sistem.
 
@@ -93,7 +93,7 @@ Prinsip ini mudah dipahami: jika Bitcoin bergantung pada satu node tunggal yang 
 
 Dengan demikian, Kita dapat membedakan dan menamakan beberapa konsep untuk memperjelas berbagai hal dalam kursus ini:
 
-- Mata uang Bitcoin: unit hitung yang digunakan untuk transaksi di dalam sistem ini;
+- Mata uang Bitcoin: unit hitung yang digunakan untuk [transaksi](https://planb.academy/resources/glossary/transaction-tx) di dalam sistem ini;
 - Jaringan Bitcoin: kumpulan semua node yang terhubung;
 - Node Bitcoin: mesin yang menjalankan implementasi Bitcoin;
 - Implementasi Bitcoin: perangkat lunak yang menerjemahkan protokol menjadi instruksi yang dapat dieksekusi;
@@ -104,37 +104,37 @@ Dengan demikian, Kita dapat membedakan dan menamakan beberapa konsep untuk mempe
 
 Node Bitcoin secara kolektif membentuk apa yang dikenal sebagai Jaringan Bitcoin. Jaringan ini memungkinkan seluruh sistem beroperasi secara otonom, tanpa perlu menggunakan otoritas pusat atau hierarki server.
 
-Sejak awal, Bitcoin dirancang untuk memungkinkan setiap pengguna menjalankan node pribadi. Kasus ini tetap valid dengan perangkat lunak Bitcoin Core saat ini, yang menggabungkan peran wallet dan node. Namun saat ini, fungsi ini sering dipisahkan: banyak wallet Bitcoin modern hanyalah wallet yang terhubung ke node eksternal (milik orang yang sama atau bukan).
+Sejak awal, Bitcoin dirancang untuk memungkinkan setiap pengguna menjalankan node pribadi. Kasus ini tetap valid dengan perangkat lunak Bitcoin Core saat ini, yang menggabungkan peran [wallet](https://planb.academy/resources/glossary/wallet) dan node. Namun saat ini, fungsi ini sering dipisahkan: banyak wallet Bitcoin modern hanyalah wallet yang terhubung ke node eksternal (milik orang yang sama atau bukan).
 
 ### Mengamankan Blockchain
 
-Tugas pertama node adalah memelihara salinan lokal dari Blockchain. Untuk mencegah double-spending pada Bitcoin tanpa melibatkan otoritas pusat, setiap pengguna harus memeriksa bahwa tidak ada transaksi yang sudah ada dalam sistem. Satu-satunya cara untuk yakin akan hal ini adalah dengan mengetahui semua transaksi yang telah dilakukan di Bitcoin. Untuk alasan ini, semua transaksi diberi timestamp dan dikelompokkan ke dalam blok, dan setiap node menyimpan seluruh Blockchain.
+Tugas pertama node adalah memelihara salinan lokal dari Blockchain. Untuk mencegah [double-spending](https://planb.academy/resources/glossary/double-spending-attack) pada Bitcoin tanpa melibatkan otoritas pusat, setiap pengguna harus memeriksa bahwa tidak ada transaksi yang sudah ada dalam sistem. Satu-satunya cara untuk yakin akan hal ini adalah dengan mengetahui semua transaksi yang telah dilakukan di Bitcoin. Untuk alasan ini, semua transaksi diberi [timestamp](https://planb.academy/resources/glossary/timestamp) dan dikelompokkan ke dalam [blok](https://planb.academy/resources/glossary/block), dan setiap node menyimpan seluruh Blockchain.
 
 > "Satu-satunya cara untuk mengkonfirmasi tidak adanya transaksi adalah dengan mengetahui semua transaksi." 
 
 Nakamoto, S. (2008). *Bitcoin: Sistem Uang Elektronik Peer-to-Peer*. https://Bitcoin.org/Bitcoin.pdf
 
-Blockchain merupakan sebuah tabel yang terus berkembang: setiap kali blok baru diterbitkan oleh miner, node memeriksa validitasnya sebelum menambahkannya ke salinan chain lokalnya. Hingga saat ini (Juli 2025), Blockchain lengkap melebihi 675 GB, dan ukuran ini terus bertambah, karena blok baru ditambahkan rata-rata setiap 10 menit.
+Blockchain merupakan sebuah tabel yang terus berkembang: setiap kali blok baru diterbitkan oleh [miner](https://planb.academy/resources/glossary/miner), node memeriksa validitasnya sebelum menambahkannya ke salinan chain lokalnya. Hingga saat ini (Juli 2025), Blockchain lengkap melebihi 675 GB, dan ukuran ini terus bertambah, karena blok baru ditambahkan rata-rata setiap 10 menit.
 
 ![Image](assets/fr/049.webp)
 
-Node juga memelihara catatan lokal dari semua UTXO yang ada pada waktu tertentu, yang dikenal sebagai **UTXO set**. Database ini berisi semua fragmen Bitcoin yang belum terpakai. Kita akan meninjau subjek ini secara rinci di bagian akhir kursus.
+Node juga memelihara catatan lokal dari semua [UTXO](https://planb.academy/resources/glossary/utxo) yang ada pada waktu tertentu, yang dikenal sebagai **[UTXO set](https://planb.academy/resources/glossary/utxo-set)**. Database ini berisi semua fragmen Bitcoin yang belum terpakai. Kita akan meninjau subjek ini secara rinci di bagian akhir kursus.
 
 ### Memverifikasi dan mendistribusikan transaksi
 
-Peran kedua node adalah memastikan verifikasi dan penyebaran transaksi. Ketika transaksi baru mencapai node (baik melalui perangkat lunak wallet atau node lain), node akan memeriksa apakah transaksi itu mematuhi serangkaian aturan (aturan konsensus dan aturan relay). Contohnya:
+Peran kedua node adalah memastikan verifikasi dan [penyebaran](https://planb.academy/resources/glossary/diffusion) transaksi. Ketika transaksi baru mencapai node (baik melalui perangkat lunak wallet atau node lain), node akan memeriksa apakah transaksi itu mematuhi serangkaian aturan ([aturan konsensus](https://planb.academy/resources/glossary/consensus-rules) dan [aturan relay](https://planb.academy/resources/glossary/relay)). Contohnya:
 
-- Bitcoin yang digunakan harus ada dalam UTXO set-nya (database output yang belum digunakan);
-- signature harus valid, dan semua kondisi pengeluaran harus dipenuhi (valid script);
-- jumlah total output tidak boleh melebihi jumlah total input, yang berarti biaya tidak boleh negatif.
+- Bitcoin yang digunakan harus ada dalam UTXO set-nya (database [output](https://planb.academy/resources/glossary/output) yang belum digunakan);
+- [signature](https://planb.academy/resources/glossary/digital-signature) harus valid, dan semua kondisi pengeluaran harus dipenuhi (valid [script](https://planb.academy/resources/glossary/script));
+- jumlah total output tidak boleh melebihi jumlah total [input](https://planb.academy/resources/glossary/input), yang berarti [biaya](https://planb.academy/resources/glossary/transaction-fees) tidak boleh negatif.
 
 ![Image](assets/fr/050.webp)
 
-Setelah validasi, transaksi disimpan dalam Mempool node, ruang memori sementara yang disediakan untuk transaksi yang belum dikonfirmasi, dan kemudian diteruskan ke peer jaringan lain yang terhubung dengannya. Mekanisme distribusi dan validasi ini berlanjut dari node ke node. Dengan cara ini, transaksi disebarkan ke seluruh Jaringan Bitcoin, dan setiap node menyimpannya di Mempool hingga dimasukkan ke dalam blok yang valid oleh miner, yang kemudian bertindak berdasarkan konfirmasi pertamanya.
+Setelah validasi, transaksi disimpan dalam [Mempool](https://planb.academy/resources/glossary/mempool) node, ruang memori sementara yang disediakan untuk transaksi yang belum dikonfirmasi, dan kemudian diteruskan ke peer jaringan lain yang terhubung dengannya. Mekanisme distribusi dan validasi ini berlanjut dari node ke node. Dengan cara ini, transaksi disebarkan ke seluruh Jaringan Bitcoin, dan setiap node menyimpannya di Mempool hingga dimasukkan ke dalam blok yang valid oleh miner, yang kemudian bertindak berdasarkan [konfirmasi](https://planb.academy/resources/glossary/confirmation) pertamanya.
 
 ### Memeriksa dan mendistribusikan blok
 
-Peran ketiga node melibatkan pengelolaan blok yang ditambang. Ketika seorang miner menemukan blok baru dengan Proof of Work yang valid, blok itu disiarkan di jaringan. Para node menerimanya, memeriksa bahwa blok tersebut sesuai dengan semua aturan protokol, dan kemudian mengintegrasikannya ke dalam salinan lokal Blockchain mereka jika valid. Seperti halnya transaksi, blok yang baru divalidasi kemudian diteruskan ke semua peer yang terhubung ke node. Proses ini berlanjut hingga semua node di Jaringan Bitcoin mengetahui blok baru tersebut.
+Peran ketiga node melibatkan pengelolaan blok yang ditambang. Ketika seorang miner menemukan blok baru dengan [Proof of Work](https://planb.academy/resources/glossary/proof-of-work) yang valid, blok itu disiarkan di jaringan. Para node menerimanya, memeriksa bahwa blok tersebut sesuai dengan semua aturan protokol, dan kemudian mengintegrasikannya ke dalam salinan lokal Blockchain mereka jika valid. Seperti halnya transaksi, blok yang baru divalidasi kemudian diteruskan ke semua peer yang terhubung ke node. Proses ini berlanjut hingga semua node di Jaringan Bitcoin mengetahui blok baru tersebut.
 
 ![Image](assets/fr/051.webp)
 

@@ -133,18 +133,18 @@ Kwa hivyo, uko tayari kuwasha node yako ya kwanza ya Bitcoin? Weka njia ya uhuru
 
 
 
-Kama ilivyofafanuliwa na muundaji wake, Satoshi Nakamoto, Bitcoin inajionyesha kama mfumo wa pesa taslimu wa kielektroniki kati ya wenzao. Sentensi hii rahisi, ambayo ni kichwa cha Karatasi Nyeupe, ina vidokezo vingi vya asili ya Bitcoin:
+Kama ilivyofafanuliwa na muundaji wake, [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi), Bitcoin inajionyesha kama mfumo wa pesa taslimu wa kielektroniki kati ya wenzao. Sentensi hii rahisi, ambayo ni kichwa cha [Karatasi Nyeupe](https://planb.academy/resources/glossary/white-paper), ina vidokezo vingi vya asili ya Bitcoin:
 
 
 
 
 - Kwanza kabisa, Satoshi anaelezea Bitcoin kama "mfumo", kwa maneno mengine, seti madhubuti ya vifaa na vipengee vya programu vinavyoingiliana ili kutoa huduma maalum au kufanya kazi maalum;
 - Halafu, anaelezea kuwa mfumo huu unawezesha matumizi ya fedha za elektroniki, yaani, aina ya sarafu isiyoonekana;
-- Hatimaye, anaonyesha kuwa mfumo huu hautegemei chombo chochote kikuu: ni "peer-to-peer", akimaanisha kuwa ni watumiaji wenyewe wanaoendesha mfumo.
+- Hatimaye, anaonyesha kuwa mfumo huu hautegemei chombo chochote kikuu: ni "[peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p)", akimaanisha kuwa ni watumiaji wenyewe wanaoendesha mfumo.
 
 
 
-Kwa kuwa Bitcoin ni mfumo, lazima lazima uendeshwe kwenye kompyuta. Na, kwa sababu ya asili yake rika-kwa-rika, ni watumiaji wenyewe ambao huchukua jukumu la kuendesha mashine hizi. Tunachoita "Bitcoin node" ni kwamba kompyuta ambayo programu inayotekeleza protocol ya Bitcoin (kama Bitcoin core, lakini tutarejea hapo baadaye) inafanya kazi. Hili ndilo linalowezesha Bitcoin kufanya kazi bila mamlaka kuu: uthibitishaji unafanywa kwa njia iliyosambazwa, na maelfu ya mashine za kujitegemea zinazomilikiwa na maelfu ya watumiaji.
+Kwa kuwa Bitcoin ni mfumo, lazima lazima uendeshwe kwenye kompyuta. Na, kwa sababu ya asili yake rika-kwa-rika, ni watumiaji wenyewe ambao huchukua jukumu la kuendesha mashine hizi. Tunachoita "Bitcoin [node](https://planb.academy/resources/glossary/node)" ni kwamba kompyuta ambayo programu inayotekeleza protocol ya Bitcoin (kama [Bitcoin core](https://planb.academy/resources/glossary/bitcoin-core), lakini tutarejea hapo baadaye) inafanya kazi. Hili ndilo linalowezesha Bitcoin kufanya kazi bila mamlaka kuu: uthibitishaji unafanywa kwa njia [iliyosambazwa](https://planb.academy/resources/glossary/distributed), na maelfu ya mashine za kujitegemea zinazomilikiwa na maelfu ya watumiaji.
 
 
 
@@ -156,7 +156,7 @@ Nakamoto, S. (2008). *Bitcoin: Mfumo wa Pesa wa Kielektroniki wa Peer-to-Rika*. 
 
 
 
-Ni watumiaji hawa haswa wanaohakikisha usalama wa Bitcoin. Kama Eric Voskuil anavyoeleza katika kitabu chake *Cryptoeconomics*, usalama wa Bitcoin hautegemei Blockchain, wala nguvu ya haraka, wala uthibitisho, ugatuaji, cryptography, chanzo huria, wala nadharia ya mchezo. Usalama wa Bitcoin unategemea hasa watu ambao wako tayari kujiweka katika hatari ya kibinafsi. Ugatuaji huruhusu hatari hii kuenea kwa idadi kubwa ya watu binafsi, na ni uwezo wao wa kupinga tu ambao unahakikisha uimara wa mfumo.
+Ni watumiaji hawa haswa wanaohakikisha usalama wa Bitcoin. Kama Eric Voskuil anavyoeleza katika kitabu chake *Cryptoeconomics*, usalama wa Bitcoin hautegemei [Blockchain](https://planb.academy/resources/glossary/blockchain), wala [nguvu ya haraka](https://planb.academy/resources/glossary/hashrate), wala [uthibitisho](https://planb.academy/resources/glossary/confirmation), ugatuaji, [cryptography](https://planb.academy/resources/glossary/cryptography), [chanzo huria](https://planb.academy/resources/glossary/foss), wala nadharia ya mchezo. Usalama wa Bitcoin unategemea hasa watu ambao wako tayari kujiweka katika hatari ya kibinafsi. Ugatuaji huruhusu hatari hii kuenea kwa idadi kubwa ya watu binafsi, na ni uwezo wao wa kupinga tu ambao unahakikisha uimara wa mfumo.
 
 
 
@@ -173,9 +173,9 @@ Kwa hivyo tunaweza kutofautisha na kutaja dhana kadhaa ili kufafanua mambo kwa k
 
 
 
-- Sarafu ya Bitcoin: kitengo cha akaunti kinachotumika kwa miamala ndani ya mfumo huu;
+- Sarafu ya Bitcoin: kitengo cha akaunti kinachotumika kwa [miamala](https://planb.academy/resources/glossary/transaction-tx) ndani ya mfumo huu;
 - Mtandao wa Bitcoin: seti ya nodes zote zilizounganishwa;
-- Bitcoin nodes: mashine zinazoendesha utekelezaji wa Bitcoin;
+- Bitcoin nodes: mashine zinazoendesha [utekelezaji wa Bitcoin](https://planb.academy/resources/glossary/bitcoin-implementation);
 - Utekelezaji wa Bitcoin: programu inayotafsiri protocol kuwa maagizo yanayoweza kutekelezwa;
 - protocol ya Bitcoin: seti ya sheria zinazosimamia uendeshaji wa mfumo;
 - Mfumo wa Bitcoin: mchanganyiko thabiti wa haya yote Elements.
@@ -190,7 +190,7 @@ Node za Bitcoin kwa pamoja huunda kile kinachojulikana kama mtandao wa Bitcoin. 
 
 
 
-Tangu mwanzo, Bitcoin iliundwa ili kuruhusu kila mtumiaji kuendesha node ya kibinafsi. Kesi hii inasalia kuwa halali na programu ya leo ya Bitcoin core, ambayo inachanganya majukumu ya Wallet na node. Lakini siku hizi, kazi hii mara nyingi hutenganishwa: wallet nyingi za kisasa za Bitcoin ni wallet tu zinazounganishwa na nodes za nje (zinazomilikiwa na mtu sawa au la).
+Tangu mwanzo, Bitcoin iliundwa ili kuruhusu kila mtumiaji kuendesha node ya kibinafsi. Kesi hii inasalia kuwa halali na programu ya leo ya Bitcoin core, ambayo inachanganya majukumu ya [Wallet](https://planb.academy/resources/glossary/wallet) na node. Lakini siku hizi, kazi hii mara nyingi hutenganishwa: wallet nyingi za kisasa za Bitcoin ni wallet tu zinazounganishwa na nodes za nje (zinazomilikiwa na mtu sawa au la).
 
 
 
@@ -198,7 +198,7 @@ Tangu mwanzo, Bitcoin iliundwa ili kuruhusu kila mtumiaji kuendesha node ya kibi
 
 
 
-Kazi ya kwanza ya node ni kudumisha nakala ya ndani ya Blockchain. Ili kuzuia Double-spending kwenye Bitcoin bila kuhusisha mamlaka kuu, kila mtumiaji lazima aangalie kuwa hakuna shughuli yoyote kwenye mfumo. Njia pekee ya kuwa na uhakika wa hili ni kujua shughuli zote zilizofanywa kwenye Bitcoin. Kwa sababu hii, shughuli zote zimepigwa kwa muda na zimeunganishwa katika blocks, na kila node huhifadhi Blockchain nzima.
+Kazi ya kwanza ya node ni kudumisha nakala ya ndani ya Blockchain. Ili kuzuia [Double-spending](https://planb.academy/resources/glossary/double-spending-attack) kwenye Bitcoin bila kuhusisha mamlaka kuu, kila mtumiaji lazima aangalie kuwa hakuna shughuli yoyote kwenye mfumo. Njia pekee ya kuwa na uhakika wa hili ni kujua shughuli zote zilizofanywa kwenye Bitcoin. Kwa sababu hii, shughuli zote [zimepigwa kwa muda](https://planb.academy/resources/glossary/timestamp) na zimeunganishwa katika [blocks](https://planb.academy/resources/glossary/block), na kila node huhifadhi Blockchain nzima.
 
 
 
@@ -208,7 +208,7 @@ Nakamoto, S. (2008). *Bitcoin: Mfumo wa Pesa wa Kielektroniki wa Peer-to-Rika*. 
 
 
 
-Kwa hivyo Blockchain ni rejista inayoendelea: kila wakati block mpya inachapishwa na Miner, node hukagua uhalali wake kabla ya kuiongeza kwenye nakala yake ya ndani ya mnyororo. Kufikia leo (Julai 2025), Blockchain kamili inazidi GB 675, na saizi hii inaendelea kukua, kwani block mpya inaongezwa kwa wastani kila dakika 10.
+Kwa hivyo Blockchain ni rejista inayoendelea: kila wakati block mpya inachapishwa na [Miner](https://planb.academy/resources/glossary/miner), node hukagua uhalali wake kabla ya kuiongeza kwenye nakala yake ya ndani ya mnyororo. Kufikia leo (Julai 2025), Blockchain kamili inazidi GB 675, na saizi hii inaendelea kukua, kwani block mpya inaongezwa kwa wastani kila dakika 10.
 
 
 
@@ -216,7 +216,7 @@ Kwa hivyo Blockchain ni rejista inayoendelea: kila wakati block mpya inachapishw
 
 
 
-Node hiyo pia hudumisha rekodi ya ndani ya UTXO zote zilizopo wakati wowote, unaojulikana kama **UTXO seti**. Hifadhidata hii ina vipande vyote vya Bitcoin ambavyo havijatumika. Tunarudia somo hili kwa undani katika sehemu ya mwisho ya kozi.
+Node hiyo pia hudumisha rekodi ya ndani ya [UTXO](https://planb.academy/resources/glossary/utxo) zote zilizopo wakati wowote, unaojulikana kama **[UTXO seti](https://planb.academy/resources/glossary/utxo-set)**. Hifadhidata hii ina vipande vyote vya Bitcoin ambavyo havijatumika. Tunarudia somo hili kwa undani katika sehemu ya mwisho ya kozi.
 
 
 
@@ -224,14 +224,14 @@ Node hiyo pia hudumisha rekodi ya ndani ya UTXO zote zilizopo wakati wowote, una
 
 
 
-Jukumu la pili la node ni kuhakikisha uthibitishaji na uenezi wa shughuli. Wakati shughuli mpya inapofikia node (ama kupitia programu ya Wallet au node nyingine), itaangalia ikiwa inazingatia seti ya sheria (sheria za makubaliano na sheria za relay). Kwa mfano:
+Jukumu la pili la node ni kuhakikisha uthibitishaji na uenezi wa shughuli. Wakati shughuli mpya inapofikia node (ama kupitia programu ya Wallet au node nyingine), itaangalia ikiwa inazingatia seti ya sheria ([sheria za makubaliano](https://planb.academy/resources/glossary/consensus-rules) na sheria za [relay](https://planb.academy/resources/glossary/relay)). Kwa mfano:
 
 
 
 
-- bitcoins zilizotumiwa lazima ziwepo katika seti yake ya UTXO (database ya matokeo ambayo hayajatumika);
-- saini lazima iwe halali, na masharti yote ya matumizi lazima yatimizwe (hati halali);
-- jumla ya kiasi cha matokeo lazima kisichozidi jumla ya kiasi cha pembejeo, ambayo ina maana kwamba gharama haziwezi kuwa mbaya.
+- bitcoins zilizotumiwa lazima ziwepo katika seti yake ya UTXO (database ya [matokeo](https://planb.academy/resources/glossary/output) ambayo hayajatumika);
+- [saini](https://planb.academy/resources/glossary/digital-signature) lazima iwe halali, na masharti yote ya matumizi lazima yatimizwe ([hati](https://planb.academy/resources/glossary/script) halali);
+- jumla ya kiasi cha matokeo lazima kisichozidi jumla ya kiasi cha [pembejeo](https://planb.academy/resources/glossary/input), ambayo ina maana kwamba [gharama](https://planb.academy/resources/glossary/transaction-fees) haziwezi kuwa mbaya.
 
 
 
@@ -239,7 +239,7 @@ Jukumu la pili la node ni kuhakikisha uthibitishaji na uenezi wa shughuli. Wakat
 
 
 
-Baada ya uthibitisho, shughuli hiyo imehifadhiwa kwenye node ya Mempool, nafasi ya kumbukumbu ya muda iliyohifadhiwa kwa shughuli zisizothibitishwa, na kisha kupelekwa kwa wenzao wengine wa mtandao ambao umeunganishwa. Utaratibu huu wa usambazaji na uthibitishaji unaendelea kutoka node hadi node. Kwa njia hii, shughuli hiyo inaenezwa kwenye mtandao wa Bitcoin, na kila node huihifadhi kwenye Mempool hadi ijumuishwe kwenye block halali na Miner, ambaye kisha anafanya uthibitisho wake wa kwanza.
+Baada ya uthibitisho, shughuli hiyo imehifadhiwa kwenye node ya [Mempool](https://planb.academy/resources/glossary/mempool), nafasi ya kumbukumbu ya muda iliyohifadhiwa kwa shughuli zisizothibitishwa, na kisha kupelekwa kwa wenzao wengine wa mtandao ambao umeunganishwa. Utaratibu huu wa [usambazaji](https://planb.academy/resources/glossary/diffusion) na uthibitishaji unaendelea kutoka node hadi node. Kwa njia hii, shughuli hiyo inaenezwa kwenye mtandao wa Bitcoin, na kila node huihifadhi kwenye Mempool hadi ijumuishwe kwenye block halali na Miner, ambaye kisha anafanya uthibitisho wake wa kwanza.
 
 
 
@@ -247,7 +247,7 @@ Baada ya uthibitisho, shughuli hiyo imehifadhiwa kwenye node ya Mempool, nafasi 
 
 
 
-Jukumu la tatu la node inahusisha kusimamia blocks za kuminiwa. Miner inapogundua block mpya na Proof of Work halali, inatangazwa kwenye mtandao. Nodes hupokea, angalia kwamba inafanana na sheria zote za protocol, na kisha uunganishe kwenye nakala yao ya ndani ya Blockchain ikiwa ni halali. Kama ilivyo kwa miamala, blocks mpya zilivyoidhinishwa hutumwa kwa wenzao wote waliounganishwa kwenye node. Utaratibu huu unaendelea mpaka nodes zote kwenye mtandao wa Bitcoin zinafahamu block mpya.
+Jukumu la tatu la node inahusisha kusimamia blocks za kuminiwa. Miner inapogundua block mpya na [Proof of Work](https://planb.academy/resources/glossary/proof-of-work) halali, inatangazwa kwenye mtandao. Nodes hupokea, angalia kwamba inafanana na sheria zote za protocol, na kisha uunganishe kwenye nakala yao ya ndani ya Blockchain ikiwa ni halali. Kama ilivyo kwa miamala, blocks mpya zilivyoidhinishwa hutumwa kwa wenzao wote waliounganishwa kwenye node. Utaratibu huu unaendelea mpaka nodes zote kwenye mtandao wa Bitcoin zinafahamu block mpya.
 
 
 

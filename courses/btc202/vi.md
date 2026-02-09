@@ -133,7 +133,7 @@ Vậy, bạn đã sẵn sàng bật nút Bitcoin đầu tiên của mình chưa?
 
 
 
-Theo mô tả của người sáng lập Satoshi Nakamoto, Bitcoin tự giới thiệu mình là một hệ thống tiền điện tử ngang hàng. Câu đơn giản này, cũng chính là tiêu đề của Sách Trắng, ẩn chứa nhiều manh mối về bản chất của Bitcoin:
+Theo mô tả của người sáng lập [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi), Bitcoin tự giới thiệu mình là một hệ thống tiền điện tử [ngang hàng](https://planb.academy/resources/glossary/peertopeer-p2p). Câu đơn giản này, cũng chính là tiêu đề của [Sách Trắng](https://planb.academy/resources/glossary/white-paper), ẩn chứa nhiều manh mối về bản chất của Bitcoin:
 
 
 
@@ -144,7 +144,7 @@ Theo mô tả của người sáng lập Satoshi Nakamoto, Bitcoin tự giới t
 
 
 
-Vì Bitcoin là một hệ thống, nó nhất thiết phải được chạy trên máy tính. Và, do tính chất ngang hàng, chính người dùng mới là người chịu trách nhiệm vận hành các máy này. Cái mà chúng tôi gọi là "nút Bitcoin" chính xác là máy tính mà phần mềm triển khai giao thức Bitcoin (giống như Bitcoin core, nhưng chúng ta sẽ quay lại vấn đề này sau) đang chạy. Đây là điều cho phép Bitcoin hoạt động mà không cần cơ quan quản lý trung tâm: việc xác thực được thực hiện theo cách phân tán, bởi hàng nghìn máy tính độc lập thuộc sở hữu của hàng nghìn người dùng.
+Vì Bitcoin là một hệ thống, nó nhất thiết phải được chạy trên máy tính. Và, do tính chất ngang hàng, chính người dùng mới là người chịu trách nhiệm vận hành các máy này. Cái mà chúng tôi gọi là "[nút Bitcoin](https://planb.academy/resources/glossary/node)" chính xác là máy tính mà phần mềm [triển khai giao thức Bitcoin](https://planb.academy/resources/glossary/bitcoin-implementation) (giống như [Bitcoin core](https://planb.academy/resources/glossary/bitcoin-core), nhưng chúng ta sẽ quay lại vấn đề này sau) đang chạy. Đây là điều cho phép Bitcoin hoạt động mà không cần cơ quan quản lý trung tâm: việc xác thực được thực hiện theo cách [phân tán](https://planb.academy/resources/glossary/distributed), bởi hàng nghìn máy tính độc lập thuộc sở hữu của hàng nghìn người dùng.
 
 
 
@@ -156,7 +156,7 @@ Nakamoto, S. (2008). *Bitcoin: Hệ thống tiền điện tử ngang hàng*. ht
 
 
 
-Chính những người dùng này đảm bảo tính bảo mật của Bitcoin. Như Eric Voskuil giải thích trong cuốn sách *Cryptoeconomics* của mình, tính bảo mật của Bitcoin không phụ thuộc vào Blockchain, cũng không phụ thuộc vào sức mạnh băm, cũng không phụ thuộc vào xác thực, phi tập trung, mật mã, mã nguồn mở hay lý thuyết trò chơi. Tính bảo mật của Bitcoin chủ yếu phụ thuộc vào những cá nhân sẵn sàng chấp nhận rủi ro cá nhân. Phi tập trung cho phép phân tán rủi ro này trên một số lượng lớn cá nhân, và chỉ có khả năng chống lại rủi ro của họ mới đảm bảo tính vững chắc của hệ thống.
+Chính những người dùng này đảm bảo tính bảo mật của Bitcoin. Như Eric Voskuil giải thích trong cuốn sách *Cryptoeconomics* của mình, tính bảo mật của Bitcoin không phụ thuộc vào [Blockchain](https://planb.academy/resources/glossary/blockchain), cũng không phụ thuộc vào [sức mạnh băm](https://planb.academy/resources/glossary/hashrate), cũng không phụ thuộc vào xác thực, phi tập trung, [mật mã](https://planb.academy/resources/glossary/cryptography), [mã nguồn mở](https://planb.academy/resources/glossary/foss) hay lý thuyết trò chơi. Tính bảo mật của Bitcoin chủ yếu phụ thuộc vào những cá nhân sẵn sàng chấp nhận rủi ro cá nhân. Phi tập trung cho phép phân tán rủi ro này trên một số lượng lớn cá nhân, và chỉ có khả năng chống lại rủi ro của họ mới đảm bảo tính vững chắc của hệ thống.
 
 
 
@@ -173,7 +173,7 @@ Do đó, chúng ta có thể phân biệt và nêu tên một số khái niệm 
 
 
 
-- Tiền tệ Bitcoin: đơn vị tính toán được sử dụng cho các giao dịch trong hệ thống này;
+- Tiền tệ Bitcoin: đơn vị tính toán được sử dụng cho các [giao dịch](https://planb.academy/resources/glossary/transaction-tx) trong hệ thống này;
 - Mạng Bitcoin: tập hợp tất cả các nút được kết nối;
 - Các nút Bitcoin: máy chạy chương trình triển khai Bitcoin;
 - Triển khai Bitcoin: phần mềm dịch giao thức thành các lệnh có thể thực thi;
@@ -190,7 +190,7 @@ Các nút Bitcoin kết hợp với nhau tạo thành mạng lưới Bitcoin. Ch
 
 
 
-Ngay từ đầu, Bitcoin được thiết kế để cho phép mỗi người dùng chạy một nút cá nhân. Điều này vẫn đúng với phần mềm Bitcoin core ngày nay, kết hợp vai trò của Wallet và nút. Tuy nhiên, ngày nay, chức năng này thường bị tách rời: nhiều ví Bitcoin hiện đại chỉ là ví kết nối với các nút bên ngoài (thuộc sở hữu của cùng một người hoặc không).
+Ngay từ đầu, Bitcoin được thiết kế để cho phép mỗi người dùng chạy một nút cá nhân. Điều này vẫn đúng với phần mềm Bitcoin core ngày nay, kết hợp vai trò của [Wallet](https://planb.academy/resources/glossary/wallet) và nút. Tuy nhiên, ngày nay, chức năng này thường bị tách rời: nhiều ví Bitcoin hiện đại chỉ là ví kết nối với các nút bên ngoài (thuộc sở hữu của cùng một người hoặc không).
 
 
 
@@ -198,7 +198,7 @@ Ngay từ đầu, Bitcoin được thiết kế để cho phép mỗi người d
 
 
 
-Nhiệm vụ đầu tiên của một nút là duy trì một bản sao cục bộ của Blockchain. Để ngăn chặn Double-spending trên Bitcoin mà không cần sự can thiệp của cơ quan quản lý trung ương, mỗi người dùng phải kiểm tra xem không có giao dịch nào tồn tại trong hệ thống. Cách duy nhất để chắc chắn điều này là biết tất cả các giao dịch được thực hiện trên Bitcoin. Vì lý do này, tất cả các giao dịch đều được đóng dấu thời gian và nhóm thành các khối, và mỗi nút lưu trữ toàn bộ Blockchain.
+Nhiệm vụ đầu tiên của một nút là duy trì một bản sao cục bộ của Blockchain. Để ngăn chặn [Double-spending](https://planb.academy/resources/glossary/double-spending-attack) trên Bitcoin mà không cần sự can thiệp của cơ quan quản lý trung ương, mỗi người dùng phải kiểm tra xem không có giao dịch nào tồn tại trong hệ thống. Cách duy nhất để chắc chắn điều này là biết tất cả các giao dịch được thực hiện trên Bitcoin. Vì lý do này, tất cả các giao dịch đều được [đóng dấu thời gian](https://planb.academy/resources/glossary/timestamp) và nhóm thành các [khối](https://planb.academy/resources/glossary/block), và mỗi nút lưu trữ toàn bộ Blockchain.
 
 
 
@@ -208,7 +208,7 @@ Nakamoto, S. (2008). *Bitcoin: Hệ thống tiền điện tử ngang hàng*. ht
 
 
 
-Do đó, Blockchain là một thanh ghi đang phát triển: mỗi khi một khối mới được Miner xuất bản, nút sẽ kiểm tra tính hợp lệ của khối đó trước khi thêm vào bản sao cục bộ của chuỗi. Tính đến thời điểm hiện tại (tháng 7 năm 2025), toàn bộ Blockchain vượt quá 675 GB và kích thước này tiếp tục tăng lên, với trung bình một khối mới được thêm vào sau mỗi 10 phút.
+Do đó, Blockchain là một thanh ghi đang phát triển: mỗi khi một khối mới được [Miner](https://planb.academy/resources/glossary/miner) xuất bản, nút sẽ kiểm tra tính hợp lệ của khối đó trước khi thêm vào bản sao cục bộ của chuỗi. Tính đến thời điểm hiện tại (tháng 7 năm 2025), toàn bộ Blockchain vượt quá 675 GB và kích thước này tiếp tục tăng lên, với trung bình một khối mới được thêm vào sau mỗi 10 phút.
 
 
 
@@ -216,7 +216,7 @@ Do đó, Blockchain là một thanh ghi đang phát triển: mỗi khi một kh�
 
 
 
-Nút này cũng lưu giữ một bản ghi cục bộ về tất cả các UTXO hiện có tại bất kỳ thời điểm nào, được gọi là **bộ UTXO**. Cơ sở dữ liệu này chứa tất cả các đoạn Bitcoin chưa được sử dụng. Chúng ta sẽ xem xét lại chủ đề này một cách chi tiết trong phần cuối của khóa học.
+Nút này cũng lưu giữ một bản ghi cục bộ về tất cả các [UTXO](https://planb.academy/resources/glossary/utxo) hiện có tại bất kỳ thời điểm nào, được gọi là **[bộ UTXO](https://planb.academy/resources/glossary/utxo-set)**. Cơ sở dữ liệu này chứa tất cả các đoạn Bitcoin chưa được sử dụng. Chúng ta sẽ xem xét lại chủ đề này một cách chi tiết trong phần cuối của khóa học.
 
 
 
@@ -224,14 +224,14 @@ Nút này cũng lưu giữ một bản ghi cục bộ về tất cả các UTXO 
 
 
 
-Vai trò thứ hai của một nút là đảm bảo việc xác minh và truyền tải các giao dịch. Khi một giao dịch mới đến nút (thông qua phần mềm Wallet hoặc một nút khác), nút sẽ kiểm tra xem giao dịch đó có tuân thủ một bộ quy tắc (quy tắc đồng thuận và quy tắc chuyển tiếp) hay không. Ví dụ:
+Vai trò thứ hai của một nút là đảm bảo việc xác minh và truyền tải các giao dịch. Khi một giao dịch mới đến nút (thông qua phần mềm Wallet hoặc một nút khác), nút sẽ kiểm tra xem giao dịch đó có tuân thủ một bộ quy tắc ([quy tắc đồng thuận](https://planb.academy/resources/glossary/consensus-rules) và [quy tắc chuyển tiếp](https://planb.academy/resources/glossary/relay)) hay không. Ví dụ:
 
 
 
 
-- bitcoin đã sử dụng phải tồn tại trong tập UTXO của nó (cơ sở dữ liệu về các đầu ra chưa sử dụng);
-- chữ ký phải hợp lệ và phải đáp ứng mọi điều kiện chi tiêu (chữ ký hợp lệ);
-- tổng số lượng đầu ra không được vượt quá tổng số lượng đầu vào, nghĩa là chi phí không thể âm.
+- bitcoin đã sử dụng phải tồn tại trong tập UTXO của nó (cơ sở dữ liệu về các [đầu ra](https://planb.academy/resources/glossary/output) chưa sử dụng);
+- [chữ ký](https://planb.academy/resources/glossary/digital-signature) phải hợp lệ và phải đáp ứng mọi điều kiện chi tiêu (chữ ký hợp lệ);
+- tổng số lượng đầu ra không được vượt quá tổng số lượng [đầu vào](https://planb.academy/resources/glossary/input), nghĩa là [chi phí](https://planb.academy/resources/glossary/transaction-fees) không thể âm.
 
 
 
@@ -239,7 +239,7 @@ Vai trò thứ hai của một nút là đảm bảo việc xác minh và truy�
 
 
 
-Sau khi xác thực, giao dịch được lưu trữ trong Mempool của nút, một không gian bộ nhớ tạm thời dành riêng cho các giao dịch chưa được xác nhận, và sau đó được chuyển tiếp đến các nút ngang hàng khác trong mạng mà giao dịch được kết nối. Cơ chế phân phối và xác thực này tiếp tục từ nút này sang nút khác. Theo cách này, giao dịch được lan truyền qua mạng Bitcoin, và mỗi nút lưu trữ giao dịch đó trong Mempool cho đến khi nó được Miner đưa vào một khối hợp lệ, sau đó Miner sẽ thực hiện xác nhận đầu tiên.
+Sau khi xác thực, giao dịch được lưu trữ trong [Mempool](https://planb.academy/resources/glossary/mempool) của nút, một không gian bộ nhớ tạm thời dành riêng cho các giao dịch chưa được [xác nhận](https://planb.academy/resources/glossary/confirmation), và sau đó được chuyển tiếp đến các nút ngang hàng khác trong mạng mà giao dịch được kết nối. Cơ chế phân phối và xác thực này tiếp tục từ nút này sang nút khác. Theo cách này, giao dịch được [lan truyền](https://planb.academy/resources/glossary/diffusion) qua mạng Bitcoin, và mỗi nút lưu trữ giao dịch đó trong Mempool cho đến khi nó được Miner đưa vào một khối hợp lệ, sau đó Miner sẽ thực hiện xác nhận đầu tiên.
 
 
 
@@ -247,7 +247,7 @@ Sau khi xác thực, giao dịch được lưu trữ trong Mempool của nút, m
 
 
 
-Vai trò thứ ba của nút liên quan đến việc quản lý các khối đã khai thác. Khi Miner phát hiện ra một khối mới với mã Proof of Work hợp lệ, khối này sẽ được phát trên mạng. Các nút nhận được khối này, kiểm tra xem nó có tuân thủ tất cả các quy tắc giao thức hay không, và sau đó tích hợp nó vào bản sao cục bộ của Blockchain nếu nó hợp lệ. Tương tự như các giao dịch, các khối mới được xác thực sau đó sẽ được chuyển tiếp đến tất cả các nút ngang hàng được kết nối với nút. Quá trình này tiếp tục cho đến khi tất cả các nút trên mạng Bitcoin nhận biết được khối mới.
+Vai trò thứ ba của nút liên quan đến việc quản lý các khối đã khai thác. Khi Miner phát hiện ra một khối mới với mã [Proof of Work](https://planb.academy/resources/glossary/proof-of-work) hợp lệ, khối này sẽ được phát trên mạng. Các nút nhận được khối này, kiểm tra xem nó có tuân thủ tất cả các quy tắc giao thức hay không, và sau đó tích hợp nó vào bản sao cục bộ của Blockchain nếu nó hợp lệ. Tương tự như các giao dịch, các khối mới được xác thực sau đó sẽ được chuyển tiếp đến tất cả các nút ngang hàng được kết nối với nút. Quá trình này tiếp tục cho đến khi tất cả các nút trên mạng Bitcoin nhận biết được khối mới.
 
 
 

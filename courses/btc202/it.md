@@ -133,7 +133,7 @@ Allora, sei pronto ad accendere il tuo primo nodo Bitcoin? Traccia la rotta vers
 
 
 
-Come descritto dal suo creatore, Satoshi Nakamoto, Bitcoin si presenta come un sistema di denaro elettronico peer-to-peer. Questa semplice frase, che è il titolo del White Paper, contiene molti indizi sulla natura di Bitcoin:
+Come descritto dal suo creatore, [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi), Bitcoin si presenta come un sistema di denaro elettronico [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p). Questa semplice frase, che è il titolo del [White Paper](https://planb.academy/resources/glossary/white-paper), contiene molti indizi sulla natura di Bitcoin:
 
 
 
@@ -144,7 +144,7 @@ Come descritto dal suo creatore, Satoshi Nakamoto, Bitcoin si presenta come un s
 
 
 
-Poiché Bitcoin è un sistema, deve necessariamente essere eseguito su computer. E, data la sua natura peer-to-peer, sono gli stessi utenti ad assumersi la responsabilità di far funzionare queste macchine. Quello che chiamiamo "nodo Bitcoin" è proprio il computer su cui gira il software che implementa il protocollo Bitcoin (come Bitcoin Core, ma su questo torneremo più avanti). Questo è ciò che consente al Bitcoin di operare senza un'autorità centrale: la convalida viene effettuata in modo distribuito, da migliaia di macchine indipendenti appartenenti a migliaia di utenti.
+Poiché Bitcoin è un sistema, deve necessariamente essere eseguito su computer. E, data la sua natura peer-to-peer, sono gli stessi utenti ad assumersi la responsabilità di far funzionare queste macchine. Quello che chiamiamo "[nodo Bitcoin](https://planb.academy/resources/glossary/node)" è proprio il computer su cui gira il software che implementa il protocollo Bitcoin (come [Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core), ma su questo torneremo più avanti). Questo è ciò che consente al Bitcoin di operare senza un'autorità centrale: la convalida viene effettuata in modo [distribuito](https://planb.academy/resources/glossary/distributed), da migliaia di macchine indipendenti appartenenti a migliaia di utenti.
 
 
 
@@ -156,7 +156,7 @@ Nakamoto, S. (2008). *Bitcoin: Un sistema di contanti elettronici Peer-to-Peer*.
 
 
 
-Sono proprio questi utenti a garantire la sicurezza di Bitcoin. Come spiega Eric Voskuil nel suo libro *Cryptoeconomics*, la sicurezza di Bitcoin non si basa né sulla blockchain, né sulla potenza di hashing, né sulla validazione, sulla decentralizzazione, sulla crittografia, sull'open source o sulla teoria dei giochi. La sicurezza di Bitcoin dipende principalmente dagli individui che sono disposti a esporsi al rischio personale. La decentralizzazione permette di distribuire questo rischio su un gran numero di individui, ed è solo la loro capacità di resistere che garantisce la solidità del sistema.
+Sono proprio questi utenti a garantire la sicurezza di Bitcoin. Come spiega Eric Voskuil nel suo libro *Cryptoeconomics*, la sicurezza di Bitcoin non si basa né sulla [blockchain](https://planb.academy/resources/glossary/blockchain), né sulla [potenza di hashing](https://planb.academy/resources/glossary/hashrate), né sulla validazione, sulla decentralizzazione, sulla [crittografia](https://planb.academy/resources/glossary/cryptography), sull'[open source](https://planb.academy/resources/glossary/foss) o sulla teoria dei giochi. La sicurezza di Bitcoin dipende principalmente dagli individui che sono disposti a esporsi al rischio personale. La decentralizzazione permette di distribuire questo rischio su un gran numero di individui, ed è solo la loro capacità di resistere che garantisce la solidità del sistema.
 
 
 
@@ -175,7 +175,7 @@ Possiamo quindi distinguere e definire dei concetti, in modo da rendere più chi
 
 - La valuta Bitcoin: l'unità di conto utilizzata per le transazioni all'interno di questo sistema;
 - Il network Bitcoin: l'insieme di tutti i nodi connessi;
-- I Nodi Bitcoin: macchine che eseguono un'implementazione di Bitcoin;
+- I Nodi Bitcoin: macchine che eseguono un'[implementazione di Bitcoin](https://planb.academy/resources/glossary/bitcoin-implementation);
 - Le implementazioni di Bitcoin: dei software che traducono il protocollo in istruzioni eseguibili;
 - Il protocollo Bitcoin: l'insieme delle regole che governano il funzionamento del sistema;
 - Il sistema Bitcoin: la combinazione coerente di tutti questi elementi.
@@ -190,7 +190,7 @@ L'insieme dei nodi Bitcoin forma il cosiddetto Bitcoin network. Essi consentono 
 
 
 
-Fin dall'inizio, Bitcoin è stato progettato per consentire a ciascun utente di gestire un nodo personale. Questo concetto rimane valido con l'attuale software Bitcoin Core, che combina i ruoli di wallet e nodo. Al giorno d'oggi, però, questa funzione è spesso dissociata: molti wallet Bitcoin moderni sono solo wallet che si collegano a nodi esterni (di proprietà della stessa persona o meno).
+Fin dall'inizio, Bitcoin è stato progettato per consentire a ciascun utente di gestire un nodo personale. Questo concetto rimane valido con l'attuale software Bitcoin Core, che combina i ruoli di [wallet](https://planb.academy/resources/glossary/wallet) e nodo. Al giorno d'oggi, però, questa funzione è spesso dissociata: molti wallet Bitcoin moderni sono solo wallet che si collegano a nodi esterni (di proprietà della stessa persona o meno).
 
 
 
@@ -198,7 +198,7 @@ Fin dall'inizio, Bitcoin è stato progettato per consentire a ciascun utente di 
 
 
 
-Il primo compito di un nodo è quello di mantenere una copia locale della blockchain. Per prevenire il double-spending su Bitcoin senza coinvolgere un'autorità centrale, ogni utente deve verificare che non esista alcuna transazione nel sistema. L'unico modo per esserne certi è conoscere tutte le transazioni effettuate su Bitcoin. Per questo motivo, tutte le transazioni sono marcate temporalmente e raggruppate in blocchi, e ogni nodo memorizza l'intera blockchain.
+Il primo compito di un nodo è quello di mantenere una copia locale della blockchain. Per prevenire il [double-spending](https://planb.academy/resources/glossary/double-spending-attack) su Bitcoin senza coinvolgere un'autorità centrale, ogni utente deve verificare che non esista alcuna [transazione](https://planb.academy/resources/glossary/transaction-tx) nel sistema. L'unico modo per esserne certi è conoscere tutte le transazioni effettuate su Bitcoin. Per questo motivo, tutte le transazioni sono [marcate temporalmente](https://planb.academy/resources/glossary/timestamp) e raggruppate in [blocchi](https://planb.academy/resources/glossary/block), e ogni nodo memorizza l'intera blockchain.
 
 
 
@@ -208,7 +208,7 @@ Nakamoto, S. (2008). *Bitcoin: un sistema di contanti elettronici Peer-to-Peer*.
 
 
 
-La blockchain è quindi un registro in evoluzione: ogni volta che un nuovo blocco viene pubblicato da un miner, il nodo ne verifica la validità prima di aggiungerlo alla propria copia locale della catena. Ad oggi (luglio 2025), l'intera blockchain supera i 675 GB e questa dimensione continua a crescere, poiché viene aggiunto un nuovo blocco in media ogni 10 minuti.
+La blockchain è quindi un registro in evoluzione: ogni volta che un nuovo blocco viene pubblicato da un [miner](https://planb.academy/resources/glossary/miner), il nodo ne verifica la validità prima di aggiungerlo alla propria copia locale della catena. Ad oggi (luglio 2025), l'intera blockchain supera i 675 GB e questa dimensione continua a crescere, poiché viene aggiunto un nuovo blocco in media ogni 10 minuti.
 
 
 
@@ -216,7 +216,7 @@ La blockchain è quindi un registro in evoluzione: ogni volta che un nuovo blocc
 
 
 
-Il nodo mantiene anche un registro locale di tutti gli UTXO esistenti in un dato momento, noto come **UTXO set**. Questo database contiene tutti i frammenti di bitcoin non spesi. Questo argomento sarà ripreso in dettaglio nella parte finale del corso.
+Il nodo mantiene anche un registro locale di tutti gli [UTXO](https://planb.academy/resources/glossary/utxo) esistenti in un dato momento, noto come **[UTXO set](https://planb.academy/resources/glossary/utxo-set)**. Questo database contiene tutti i frammenti di bitcoin non spesi. Questo argomento sarà ripreso in dettaglio nella parte finale del corso.
 
 
 
@@ -224,14 +224,14 @@ Il nodo mantiene anche un registro locale di tutti gli UTXO esistenti in un dato
 
 
 
-Il secondo ruolo di un nodo è quello di assicurare la verifica e la propagazione delle transazioni. Quando una nuova transazione raggiunge il nodo (tramite il wallet o un altro nodo), esso verifica che sia conforme a un insieme di regole (regole di consenso e regole di propagazione). Ad esempio:
+Il secondo ruolo di un nodo è quello di assicurare la verifica e la propagazione delle transazioni. Quando una nuova transazione raggiunge il nodo (tramite il wallet o un altro nodo), esso verifica che sia conforme a un insieme di regole ([regole di consenso](https://planb.academy/resources/glossary/consensus-rules) e [regole di propagazione](https://planb.academy/resources/glossary/relay)). Ad esempio:
 
 
 
 
-- i bitcoin spesi devono esistere nel suo UTXO set (il database degli output non spesi);
-- la firma deve essere valida e tutte le condizioni di spesa devono essere soddisfatte (script valido);
-- l'importo totale delle uscite non deve superare l'importo totale delle entrate, il che significa che i costi non possono essere negativi.
+- i bitcoin spesi devono esistere nel suo UTXO set (il database degli [output](https://planb.academy/resources/glossary/output) non spesi);
+- la [firma](https://planb.academy/resources/glossary/digital-signature) deve essere valida e tutte le condizioni di spesa devono essere soddisfatte ([script](https://planb.academy/resources/glossary/script) valido);
+- l'importo totale delle uscite non deve superare l'importo totale delle [entrate](https://planb.academy/resources/glossary/input), il che significa che i [costi](https://planb.academy/resources/glossary/transaction-fees) non possono essere negativi.
 
 
 
@@ -239,7 +239,7 @@ Il secondo ruolo di un nodo è quello di assicurare la verifica e la propagazion
 
 
 
-Dopo la convalida, la transazione viene memorizzata nella Mempool del nodo, uno spazio di memoria temporaneo riservato alle transazioni non confermate, e quindi trasmessa agli altri peer della rete a cui è collegato. Questo meccanismo di distribuzione e convalida continua da nodo a nodo. In questo modo, la transazione si propaga attraverso la rete Bitcoin e ogni nodo la memorizza nella Mempool fino a quando non viene inclusa in un blocco valido da un miner, che agisce quindi alla sua prima conferma.
+Dopo la convalida, la transazione viene memorizzata nella [Mempool](https://planb.academy/resources/glossary/mempool) del nodo, uno spazio di memoria temporaneo riservato alle transazioni non confermate, e quindi trasmessa agli altri peer della rete a cui è collegato. Questo meccanismo di distribuzione e convalida continua da nodo a nodo. In questo modo, la transazione si propaga attraverso la rete Bitcoin e ogni nodo la memorizza nella Mempool fino a quando non viene inclusa in un blocco valido da un miner, che agisce quindi alla sua prima [conferma](https://planb.academy/resources/glossary/confirmation).
 
 
 
@@ -247,7 +247,7 @@ Dopo la convalida, la transazione viene memorizzata nella Mempool del nodo, uno 
 
 
 
-Il terzo ruolo del nodo riguarda la gestione dei blocchi estratti. Quando un miner scopre un nuovo blocco con una proof of work valida, lo trasmette in rete. I nodi lo ricevono, verificano che sia conforme a tutte le regole del protocollo e lo integrano nella propria copia locale della blockchain se è valido. Come nel caso delle transazioni, i blocchi appena convalidati vengono trasmessi a tutti i peer connessi al nodo. Questo processo continua fino a quando tutti i nodi del network Bitcoin sono a conoscenza del nuovo blocco.
+Il terzo ruolo del nodo riguarda la gestione dei blocchi estratti. Quando un miner scopre un nuovo blocco con una [proof of work](https://planb.academy/resources/glossary/proof-of-work) valida, lo [trasmette](https://planb.academy/resources/glossary/diffusion) in rete. I nodi lo ricevono, verificano che sia conforme a tutte le regole del protocollo e lo integrano nella propria copia locale della blockchain se è valido. Come nel caso delle transazioni, i blocchi appena convalidati vengono trasmessi a tutti i peer connessi al nodo. Questo processo continua fino a quando tutti i nodi del network Bitcoin sono a conoscenza del nuovo blocco.
 
 
 

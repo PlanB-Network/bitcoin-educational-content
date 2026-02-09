@@ -133,7 +133,7 @@ Czy jesteś gotowy, aby włączyć swój pierwszy węzeł Bitcoin? Wyznacz kurs 
 
 
 
-Zgodnie z opisem jego twórcy, Satoshi Nakamoto, Bitcoin przedstawia się jako elektroniczny system gotówkowy peer-to-peer. To proste zdanie, będące tytułem Białej Księgi, zawiera wiele wskazówek dotyczących natury Bitcoin:
+Zgodnie z opisem jego twórcy, [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi), Bitcoin przedstawia się jako elektroniczny system gotówkowy [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p). To proste zdanie, będące tytułem [Białej Księgi](https://planb.academy/resources/glossary/white-paper), zawiera wiele wskazówek dotyczących natury Bitcoin:
 
 
 
@@ -144,7 +144,7 @@ Zgodnie z opisem jego twórcy, Satoshi Nakamoto, Bitcoin przedstawia się jako e
 
 
 
-Ponieważ Bitcoin jest systemem, musi być koniecznie uruchamiany na komputerach. A ze względu na jego naturę peer-to-peer, to sami użytkownicy biorą odpowiedzialność za uruchomienie tych maszyn. To, co nazywamy "węzłem Bitcoin", jest dokładnie tym komputerem, na którym działa oprogramowanie implementujące protokół Bitcoin (podobnie jak Bitcoin core, ale do tego wrócimy później). To właśnie umożliwia Bitcoin działanie bez centralnego organu: walidacja jest przeprowadzana w sposób rozproszony, przez tysiące niezależnych maszyn należących do tysięcy użytkowników.
+Ponieważ Bitcoin jest systemem, musi być koniecznie uruchamiany na komputerach. A ze względu na jego naturę peer-to-peer, to sami użytkownicy biorą odpowiedzialność za uruchomienie tych maszyn. To, co nazywamy "[węzłem Bitcoin](https://planb.academy/resources/glossary/node)", jest dokładnie tym komputerem, na którym działa oprogramowanie implementujące protokół Bitcoin (podobnie jak [Bitcoin core](https://planb.academy/resources/glossary/bitcoin-core), ale do tego wrócimy później). To właśnie umożliwia Bitcoin działanie bez centralnego organu: walidacja jest przeprowadzana w sposób [rozproszony](https://planb.academy/resources/glossary/distributed), przez tysiące niezależnych maszyn należących do tysięcy użytkowników.
 
 
 
@@ -156,7 +156,7 @@ Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://B
 
 
 
-To właśnie ci użytkownicy zapewniają bezpieczeństwo Bitcoin. Jak wyjaśnia Eric Voskuil w swojej książce *Cryptoeconomics*, bezpieczeństwo Bitcoin nie zależy ani od Blockchain, ani od mocy haszującej, ani od walidacji, decentralizacji, kryptografii, open source, ani teorii gier. Bezpieczeństwo Bitcoin zależy przede wszystkim od osób, które są skłonne narazić się na osobiste ryzyko. Decentralizacja pozwala na rozłożenie tego ryzyka na dużą liczbę osób i tylko ich zdolność do stawienia oporu zapewnia solidność systemu.
+To właśnie ci użytkownicy zapewniają bezpieczeństwo Bitcoin. Jak wyjaśnia Eric Voskuil w swojej książce *Cryptoeconomics*, bezpieczeństwo Bitcoin nie zależy ani od [Blockchain](https://planb.academy/resources/glossary/blockchain), ani od [mocy haszującej](https://planb.academy/resources/glossary/hashrate), ani od walidacji, decentralizacji, [kryptografii](https://planb.academy/resources/glossary/cryptography), [open source](https://planb.academy/resources/glossary/foss), ani teorii gier. Bezpieczeństwo Bitcoin zależy przede wszystkim od osób, które są skłonne narazić się na osobiste ryzyko. Decentralizacja pozwala na rozłożenie tego ryzyka na dużą liczbę osób i tylko ich zdolność do stawienia oporu zapewnia solidność systemu.
 
 
 
@@ -175,7 +175,7 @@ Możemy zatem rozróżnić i nazwać kilka pojęć, aby wyjaśnić sprawy do ko�
 
 - Waluta Bitcoin: jednostka rozliczeniowa używana do transakcji w tym systemie;
 - Sieć Bitcoin: zbiór wszystkich połączonych węzłów;
-- Węzły Bitcoin: maszyny z uruchomioną implementacją Bitcoin;
+- Węzły Bitcoin: maszyny z uruchomioną [implementacją Bitcoin](https://planb.academy/resources/glossary/bitcoin-implementation);
 - Implementacje Bitcoin: oprogramowanie, które tłumaczy protokół na instrukcje wykonywalne;
 - Protokół Bitcoin: zestaw zasad regulujących działanie systemu;
 - System Bitcoin: spójne połączenie wszystkich Elements.
@@ -190,7 +190,7 @@ Węzły Bitcoin tworzą razem tak zwaną sieć Bitcoin. Umożliwiają one dział
 
 
 
-Od samego początku Bitcoin został zaprojektowany, aby umożliwić każdemu użytkownikowi uruchomienie osobistego węzła. Przypadek ten pozostaje aktualny w przypadku dzisiejszego oprogramowania Bitcoin core, które łączy role Wallet i węzła. Jednak obecnie funkcja ta jest często rozdzielana: wiele nowoczesnych portfeli Bitcoin to po prostu portfele, które łączą się z zewnętrznymi węzłami (należącymi do tej samej osoby lub nie).
+Od samego początku Bitcoin został zaprojektowany, aby umożliwić każdemu użytkownikowi uruchomienie osobistego węzła. Przypadek ten pozostaje aktualny w przypadku dzisiejszego oprogramowania Bitcoin core, które łączy role Wallet i węzła. Jednak obecnie funkcja ta jest często rozdzielana: wiele nowoczesnych [portfeli](https://planb.academy/resources/glossary/wallet) Bitcoin to po prostu portfele, które łączą się z zewnętrznymi węzłami (należącymi do tej samej osoby lub nie).
 
 
 
@@ -198,7 +198,7 @@ Od samego początku Bitcoin został zaprojektowany, aby umożliwić każdemu uż
 
 
 
-Pierwszym zadaniem węzła jest utrzymanie lokalnej kopii Blockchain. Aby zapobiec Double-spending na Bitcoin bez angażowania centralnego organu, każdy użytkownik musi sprawdzić, czy w systemie nie istnieje żadna transakcja. Jedynym sposobem, aby być tego pewnym, jest znajomość wszystkich transakcji dokonanych na Bitcoin. Z tego powodu wszystkie transakcje są znakowane czasem i grupowane w bloki, a każdy węzeł przechowuje cały Blockchain.
+Pierwszym zadaniem węzła jest utrzymanie lokalnej kopii Blockchain. Aby zapobiec [Double-spending](https://planb.academy/resources/glossary/double-spending-attack) na Bitcoin bez angażowania centralnego organu, każdy użytkownik musi sprawdzić, czy w systemie nie istnieje żadna [transakcja](https://planb.academy/resources/glossary/transaction-tx). Jedynym sposobem, aby być tego pewnym, jest znajomość wszystkich transakcji dokonanych na Bitcoin. Z tego powodu wszystkie transakcje są [znakowane czasem](https://planb.academy/resources/glossary/timestamp) i grupowane w [bloki](https://planb.academy/resources/glossary/block), a każdy węzeł przechowuje cały Blockchain.
 
 
 
@@ -208,7 +208,7 @@ Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://B
 
 
 
-Blockchain jest zatem rejestrem ewoluującym: za każdym razem, gdy nowy blok jest publikowany przez Miner, węzeł sprawdza jego ważność przed dodaniem go do własnej lokalnej kopii łańcucha. Na dzień dzisiejszy (lipiec 2025 r.) kompletny Blockchain przekracza 675 GB, a rozmiar ten nadal rośnie, ponieważ nowy blok jest dodawany średnio co 10 minut.
+Blockchain jest zatem rejestrem ewoluującym: za każdym razem, gdy nowy blok jest publikowany przez [Miner](https://planb.academy/resources/glossary/miner), węzeł sprawdza jego ważność przed dodaniem go do własnej lokalnej kopii łańcucha. Na dzień dzisiejszy (lipiec 2025 r.) kompletny Blockchain przekracza 675 GB, a rozmiar ten nadal rośnie, ponieważ nowy blok jest dodawany średnio co 10 minut.
 
 
 
@@ -216,7 +216,7 @@ Blockchain jest zatem rejestrem ewoluującym: za każdym razem, gdy nowy blok je
 
 
 
-Węzeł utrzymuje również lokalny zapis wszystkich UTXO istniejących w danym momencie, znany jako **zestaw UTXO**. Ta baza danych zawiera wszystkie niewydane fragmenty Bitcoin. Powrócimy do tego tematu w szczegółach w ostatniej części kursu.
+Węzeł utrzymuje również lokalny zapis wszystkich [UTXO](https://planb.academy/resources/glossary/utxo) istniejących w danym momencie, znany jako **[zestaw UTXO](https://planb.academy/resources/glossary/utxo-set)**. Ta baza danych zawiera wszystkie niewydane fragmenty Bitcoin. Powrócimy do tego tematu w szczegółach w ostatniej części kursu.
 
 
 
@@ -224,14 +224,14 @@ Węzeł utrzymuje również lokalny zapis wszystkich UTXO istniejących w danym 
 
 
 
-Drugą rolą węzła jest zapewnienie weryfikacji i propagacji transakcji. Gdy nowa transakcja dociera do węzła (za pośrednictwem oprogramowania Wallet lub innego węzła), węzeł sprawdza, czy jest ona zgodna z zestawem reguł (reguły konsensusu i reguły przekazywania). Na przykład:
+Drugą rolą węzła jest zapewnienie weryfikacji i propagacji transakcji. Gdy nowa transakcja dociera do węzła (za pośrednictwem oprogramowania Wallet lub innego węzła), węzeł sprawdza, czy jest ona zgodna z zestawem reguł ([reguły konsensusu](https://planb.academy/resources/glossary/consensus-rules) i reguły [przekazywania](https://planb.academy/resources/glossary/relay)). Na przykład:
 
 
 
 
 - wydane bitcoiny muszą istnieć w jego zestawie UTXO (baza danych niewydanych wyjść);
-- podpis musi być ważny, a wszystkie warunki wydatków muszą być spełnione (ważny skrypt);
-- całkowita kwota wyników nie może przekraczać całkowitej kwoty nakładów, co oznacza, że koszty nie mogą być ujemne.
+- [podpis](https://planb.academy/resources/glossary/digital-signature) musi być ważny, a wszystkie warunki wydatków muszą być spełnione (ważny [skrypt](https://planb.academy/resources/glossary/script));
+- całkowita kwota [wyników](https://planb.academy/resources/glossary/output) nie może przekraczać całkowitej kwoty [nakładów](https://planb.academy/resources/glossary/input), co oznacza, że [koszty](https://planb.academy/resources/glossary/transaction-fees) nie mogą być ujemne.
 
 
 
@@ -239,7 +239,7 @@ Drugą rolą węzła jest zapewnienie weryfikacji i propagacji transakcji. Gdy n
 
 
 
-Po zatwierdzeniu transakcja jest przechowywana w Mempool węzła, tymczasowej przestrzeni pamięci zarezerwowanej dla niepotwierdzonych transakcji, a następnie przekazywana do innych sieci równorzędnych, z którymi jest połączona. Ten mechanizm dystrybucji i walidacji jest kontynuowany od węzła do węzła. W ten sposób transakcja jest propagowana w całej sieci Bitcoin, a każdy węzeł przechowuje ją w Mempool, dopóki nie zostanie włączona do ważnego bloku przez Miner, który następnie działa na jej pierwsze potwierdzenie.
+Po zatwierdzeniu transakcja jest przechowywana w [Mempool](https://planb.academy/resources/glossary/mempool) węzła, tymczasowej przestrzeni pamięci zarezerwowanej dla niepotwierdzonych transakcji, a następnie przekazywana do innych sieci równorzędnych, z którymi jest połączona. Ten mechanizm dystrybucji i walidacji jest kontynuowany od węzła do węzła. W ten sposób transakcja jest [propagowana](https://planb.academy/resources/glossary/diffusion) w całej sieci Bitcoin, a każdy węzeł przechowuje ją w Mempool, dopóki nie zostanie włączona do ważnego bloku przez Miner, który następnie działa na jej pierwsze [potwierdzenie](https://planb.academy/resources/glossary/confirmation).
 
 
 
@@ -247,7 +247,7 @@ Po zatwierdzeniu transakcja jest przechowywana w Mempool węzła, tymczasowej pr
 
 
 
-Trzecia rola węzła obejmuje zarządzanie wydobytymi blokami. Gdy Miner wykryje nowy blok z ważnym Proof of Work, jest on rozgłaszany w sieci. Węzły odbierają go, sprawdzają, czy jest zgodny ze wszystkimi zasadami protokołu, a następnie integrują go z własną lokalną kopią Blockchain, jeśli jest ważny. Podobnie jak w przypadku transakcji, nowo zweryfikowane bloki są następnie przekazywane do wszystkich węzłów równorzędnych podłączonych do węzła. Proces ten trwa do momentu, aż wszystkie węzły w sieci Bitcoin będą świadome nowego bloku.
+Trzecia rola węzła obejmuje zarządzanie wydobytymi blokami. Gdy Miner wykryje nowy blok z ważnym [Proof of Work](https://planb.academy/resources/glossary/proof-of-work), jest on rozgłaszany w sieci. Węzły odbierają go, sprawdzają, czy jest zgodny ze wszystkimi zasadami protokołu, a następnie integrują go z własną lokalną kopią Blockchain, jeśli jest ważny. Podobnie jak w przypadku transakcji, nowo zweryfikowane bloki są następnie przekazywane do wszystkich węzłów równorzędnych podłączonych do węzła. Proces ten trwa do momentu, aż wszystkie węzły w sieci Bitcoin będą świadome nowego bloku.
 
 
 

@@ -133,7 +133,7 @@ Peki, ilk Bitcoin düğümünüzü açmaya hazır mısınız? Egemenlik için bi
 
 
 
-Yaratıcısı Satoshi Nakamoto tarafından tanımlandığı üzere, Bitcoin kendisini eşler arası bir elektronik nakit sistemi olarak sunmaktadır. Beyaz Kitap'ın başlığı olan bu basit cümle, Bitcoin'ün doğasına ilişkin pek çok ipucu barındırmaktadır:
+Yaratıcısı [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) tarafından tanımlandığı üzere, Bitcoin kendisini [eşler arası](https://planb.academy/resources/glossary/peertopeer-p2p) bir elektronik nakit sistemi olarak sunmaktadır. [Beyaz Kitap](https://planb.academy/resources/glossary/white-paper)'ın başlığı olan bu basit cümle, Bitcoin'ün doğasına ilişkin pek çok ipucu barındırmaktadır:
 
 
 
@@ -144,7 +144,7 @@ Yaratıcısı Satoshi Nakamoto tarafından tanımlandığı üzere, Bitcoin kend
 
 
 
-Bitcoin bir sistem olduğu için mutlaka bilgisayarlar üzerinde çalıştırılmalıdır. Ve eşler arası yapısı nedeniyle, bu makineleri çalıştırma sorumluluğunu üstlenenler kullanıcıların kendileridir. "Bitcoin düğümü" dediğimiz şey, tam olarak Bitcoin protokolünü uygulayan yazılımın (Bitcoin core gibi, ancak buna daha sonra geri döneceğiz) üzerinde çalıştığı bilgisayardır. Bu, Bitcoin'in merkezi bir otorite olmadan çalışmasını sağlayan şeydir: doğrulama, binlerce kullanıcıya ait binlerce bağımsız makine tarafından dağıtılmış bir şekilde gerçekleştirilir.
+Bitcoin bir sistem olduğu için mutlaka bilgisayarlar üzerinde çalıştırılmalıdır. Ve eşler arası yapısı nedeniyle, bu makineleri çalıştırma sorumluluğunu üstlenenler kullanıcıların kendileridir. "[Bitcoin düğümü](https://planb.academy/resources/glossary/node)" dediğimiz şey, tam olarak [Bitcoin protokolünü uygulayan yazılımın](https://planb.academy/resources/glossary/bitcoin-implementation) ([Bitcoin core](https://planb.academy/resources/glossary/bitcoin-core) gibi, ancak buna daha sonra geri döneceğiz) üzerinde çalıştığı bilgisayardır. Bu, Bitcoin'in merkezi bir otorite olmadan çalışmasını sağlayan şeydir: doğrulama, binlerce kullanıcıya ait binlerce bağımsız makine tarafından [dağıtılmış](https://planb.academy/resources/glossary/distributed) bir şekilde gerçekleştirilir.
 
 
 
@@ -156,7 +156,7 @@ Nakamoto, S. (2008). *Bitcoin: Eşler Arası Elektronik Nakit Sistemi*. https://
 
 
 
-Bitcoin'in güvenliğini sağlayanlar tam da bu kullanıcılardır. Eric Voskuil'in *Cryptoeconomics* adlı kitabında açıkladığı gibi, Bitcoin'in güvenliği ne Blockchain'a, ne hash gücüne, ne doğrulamaya, ne ademi merkeziyetçiliğe, ne kriptografiye, ne açık kaynağa ne de oyun teorisine dayanır. Bitcoin'in güvenliği öncelikle kendilerini kişisel riske maruz bırakmaya istekli olan bireylere bağlıdır. Ademi merkeziyetçilik bu riskin çok sayıda bireye yayılmasını sağlar ve sistemin sağlamlığını sağlayan da yalnızca bu bireylerin direnme kabiliyetidir.
+Bitcoin'in güvenliğini sağlayanlar tam da bu kullanıcılardır. Eric Voskuil'in *Cryptoeconomics* adlı kitabında açıkladığı gibi, Bitcoin'in güvenliği ne [Blockchain](https://planb.academy/resources/glossary/blockchain)'a, ne [hash gücüne](https://planb.academy/resources/glossary/hashrate), ne doğrulamaya, ne ademi merkeziyetçiliğe, ne [kriptografiye](https://planb.academy/resources/glossary/cryptography), ne [açık kaynağa](https://planb.academy/resources/glossary/foss) ne de oyun teorisine dayanır. Bitcoin'in güvenliği öncelikle kendilerini kişisel riske maruz bırakmaya istekli olan bireylere bağlıdır. Ademi merkeziyetçilik bu riskin çok sayıda bireye yayılmasını sağlar ve sistemin sağlamlığını sağlayan da yalnızca bu bireylerin direnme kabiliyetidir.
 
 
 
@@ -190,7 +190,7 @@ Bitcoin düğümleri birlikte Bitcoin ağı olarak bilinen yapıyı oluşturur. 
 
 
 
-Başlangıçtan itibaren Bitcoin, her kullanıcının kişisel bir düğüm çalıştırmasına izin verecek şekilde tasarlanmıştır. Bu durum, Bitcoin core ve node rollerini birleştiren günümüzün Wallet yazılımı ile geçerliliğini korumaktadır. Ancak günümüzde, bu işlev genellikle ayrıştırılmıştır: birçok modern Bitcoin cüzdanı sadece harici düğümlere (aynı kişiye ait olsun ya da olmasın) bağlanan cüzdanlardır.
+Başlangıçtan itibaren Bitcoin, her kullanıcının kişisel bir düğüm çalıştırmasına izin verecek şekilde tasarlanmıştır. Bu durum, Bitcoin core ve node rollerini birleştiren günümüzün [Wallet](https://planb.academy/resources/glossary/wallet) yazılımı ile geçerliliğini korumaktadır. Ancak günümüzde, bu işlev genellikle ayrıştırılmıştır: birçok modern Bitcoin cüzdanı sadece harici düğümlere (aynı kişiye ait olsun ya da olmasın) bağlanan cüzdanlardır.
 
 
 
@@ -198,7 +198,7 @@ Başlangıçtan itibaren Bitcoin, her kullanıcının kişisel bir düğüm çal
 
 
 
-Bir düğümün ilk görevi Blockchain'nin yerel bir kopyasını muhafaza etmektir. Merkezi bir otoriteyi dahil etmeden Bitcoin üzerinde Double-spending'yı önlemek için, her kullanıcı sistemde hiçbir işlemin bulunmadığını kontrol etmelidir. Bundan emin olmanın tek yolu Bitcoin üzerinde yapılan tüm işlemleri bilmektir. Bu nedenle, tüm işlemler zaman damgalı ve bloklar halinde gruplandırılmıştır ve her düğüm Blockchain'nin tamamını saklar.
+Bir düğümün ilk görevi Blockchain'nin yerel bir kopyasını muhafaza etmektir. Merkezi bir otoriteyi dahil etmeden Bitcoin üzerinde [Double-spending](https://planb.academy/resources/glossary/double-spending-attack)'yı önlemek için, her kullanıcı sistemde hiçbir [işlemin](https://planb.academy/resources/glossary/transaction-tx) bulunmadığını kontrol etmelidir. Bundan emin olmanın tek yolu Bitcoin üzerinde yapılan tüm işlemleri bilmektir. Bu nedenle, tüm işlemler [zaman damgalı](https://planb.academy/resources/glossary/timestamp) ve [bloklar](https://planb.academy/resources/glossary/block) halinde gruplandırılmıştır ve her düğüm Blockchain'nin tamamını saklar.
 
 
 
@@ -208,7 +208,7 @@ Nakamoto, S. (2008). *Bitcoin: Eşler Arası Elektronik Nakit Sistemi*. https://
 
 
 
-Blockchain bu nedenle gelişen bir kayıttır: bir Miner tarafından her yeni blok yayınlandığında, düğüm bunu zincirin kendi yerel kopyasına eklemeden önce geçerliliğini kontrol eder. Bugün (Temmuz 2025) itibariyle, Blockchain'ın tamamı 675 GB'ı aşmaktadır ve ortalama her 10 dakikada bir yeni bir blok eklendiğinden bu boyut büyümeye devam etmektedir.
+Blockchain bu nedenle gelişen bir kayıttır: bir [Miner](https://planb.academy/resources/glossary/miner) tarafından her yeni blok yayınlandığında, düğüm bunu zincirin kendi yerel kopyasına eklemeden önce geçerliliğini kontrol eder. Bugün (Temmuz 2025) itibariyle, Blockchain'ın tamamı 675 GB'ı aşmaktadır ve ortalama her 10 dakikada bir yeni bir blok eklendiğinden bu boyut büyümeye devam etmektedir.
 
 
 
@@ -216,7 +216,7 @@ Blockchain bu nedenle gelişen bir kayıttır: bir Miner tarafından her yeni bl
 
 
 
-Düğüm ayrıca **UTXO seti** olarak bilinen, herhangi bir zamanda mevcut olan tüm UTXO'ların yerel bir kaydını tutar. Bu veritabanı harcanmamış tüm Bitcoin parçalarını içerir. Bu konuyu kursun son bölümünde ayrıntılı olarak tekrar ele alacağız.
+Düğüm ayrıca **[UTXO seti](https://planb.academy/resources/glossary/utxo-set)** olarak bilinen, herhangi bir zamanda mevcut olan tüm [UTXO](https://planb.academy/resources/glossary/utxo)'ların yerel bir kaydını tutar. Bu veritabanı harcanmamış tüm Bitcoin parçalarını içerir. Bu konuyu kursun son bölümünde ayrıntılı olarak tekrar ele alacağız.
 
 
 
@@ -224,14 +224,14 @@ Düğüm ayrıca **UTXO seti** olarak bilinen, herhangi bir zamanda mevcut olan 
 
 
 
-Bir düğümün ikinci rolü, işlemlerin doğrulanmasını ve yayılmasını sağlamaktır. Yeni bir işlem düğüme ulaştığında (Wallet yazılımı veya başka bir düğüm aracılığıyla), bir dizi kurala (mutabakat kuralları ve röle kuralları) uygun olup olmadığını kontrol edecektir. Örneğin:
+Bir düğümün ikinci rolü, işlemlerin doğrulanmasını ve yayılmasını sağlamaktır. Yeni bir işlem düğüme ulaştığında (Wallet yazılımı veya başka bir düğüm aracılığıyla), bir dizi kurala ([mutabakat kuralları](https://planb.academy/resources/glossary/consensus-rules) ve [röle kuralları](https://planb.academy/resources/glossary/relay)) uygun olup olmadığını kontrol edecektir. Örneğin:
 
 
 
 
-- harcanmış bitcoinler UTXO setinde (harcanmamış çıktıların veritabanı) bulunmalıdır;
-- imzanın geçerli olması ve tüm harcama koşullarının karşılanması gerekir (geçerli komut dosyası);
-- çıktıların toplam miktarı girdilerin toplam miktarını aşmamalıdır; bu da maliyetlerin negatif olamayacağı anlamına gelir.
+- harcanmış bitcoinler UTXO setinde (harcanmamış [çıktıların](https://planb.academy/resources/glossary/output) veritabanı) bulunmalıdır;
+- [imzanın](https://planb.academy/resources/glossary/digital-signature) geçerli olması ve tüm harcama koşullarının karşılanması gerekir (geçerli [komut dosyası](https://planb.academy/resources/glossary/script));
+- çıktıların toplam miktarı [girdilerin](https://planb.academy/resources/glossary/input) toplam miktarını aşmamalıdır; bu da [maliyetlerin](https://planb.academy/resources/glossary/transaction-fees) negatif olamayacağı anlamına gelir.
 
 
 
@@ -239,7 +239,7 @@ Bir düğümün ikinci rolü, işlemlerin doğrulanmasını ve yayılmasını sa
 
 
 
-Doğrulamadan sonra, işlem düğümün onaylanmamış işlemler için ayrılmış geçici bir bellek alanı olan Mempool'sinde saklanır ve daha sonra bağlı olduğu diğer ağ eşlerine iletilir. Bu dağıtım ve doğrulama mekanizması düğümden düğüme devam eder. Bu şekilde, işlem Bitcoin ağı boyunca yayılır ve her düğüm, daha sonra ilk onayına göre hareket eden bir Miner tarafından geçerli bir bloğa dahil edilene kadar Mempool'de saklar.
+Doğrulamadan sonra, işlem düğümün onaylanmamış işlemler için ayrılmış geçici bir bellek alanı olan [Mempool](https://planb.academy/resources/glossary/mempool)'sinde saklanır ve daha sonra bağlı olduğu diğer ağ eşlerine iletilir. Bu dağıtım ve doğrulama mekanizması düğümden düğüme devam eder. Bu şekilde, işlem Bitcoin ağı boyunca [yayılır](https://planb.academy/resources/glossary/diffusion) ve her düğüm, daha sonra ilk [onayına](https://planb.academy/resources/glossary/confirmation) göre hareket eden bir Miner tarafından geçerli bir bloğa dahil edilene kadar Mempool'de saklar.
 
 
 
@@ -247,7 +247,7 @@ Doğrulamadan sonra, işlem düğümün onaylanmamış işlemler için ayrılmı
 
 
 
-Düğümün üçüncü rolü mayınlı blokları yönetmeyi içerir. Bir Miner geçerli bir Proof of Work ile yeni bir blok keşfettiğinde, bu blok ağda yayınlanır. Düğümler bunu alır, tüm protokol kurallarına uygun olup olmadığını kontrol eder ve geçerli ise kendi yerel Blockchain kopyalarına entegre eder. İşlemlerde olduğu gibi, yeni onaylanan bloklar daha sonra düğüme bağlı tüm eşlere iletilir. Bu süreç Bitcoin ağındaki tüm düğümler yeni bloktan haberdar olana kadar devam eder.
+Düğümün üçüncü rolü mayınlı blokları yönetmeyi içerir. Bir Miner geçerli bir [Proof of Work](https://planb.academy/resources/glossary/proof-of-work) ile yeni bir blok keşfettiğinde, bu blok ağda yayınlanır. Düğümler bunu alır, tüm protokol kurallarına uygun olup olmadığını kontrol eder ve geçerli ise kendi yerel Blockchain kopyalarına entegre eder. İşlemlerde olduğu gibi, yeni onaylanan bloklar daha sonra düğüme bağlı tüm eşlere iletilir. Bu süreç Bitcoin ağındaki tüm düğümler yeni bloktan haberdar olana kadar devam eder.
 
 
 

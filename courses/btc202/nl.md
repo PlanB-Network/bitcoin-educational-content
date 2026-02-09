@@ -133,7 +133,7 @@ Dus, ben je klaar om je eerste Bitcoin node aan te zetten? Zet koers naar soever
 
 
 
-Zoals beschreven door de maker, Satoshi Nakamoto, presenteert Bitcoin zichzelf als een peer-to-peer elektronisch geldsysteem. Deze eenvoudige zin, de titel van het witboek, bevat veel aanwijzingen over de aard van Bitcoin:
+Zoals beschreven door de maker, [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi), presenteert Bitcoin zichzelf als een [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) elektronisch geldsysteem. Deze eenvoudige zin, de titel van het [witboek](https://planb.academy/resources/glossary/white-paper), bevat veel aanwijzingen over de aard van Bitcoin:
 
 
 
@@ -144,7 +144,7 @@ Zoals beschreven door de maker, Satoshi Nakamoto, presenteert Bitcoin zichzelf a
 
 
 
-Omdat Bitcoin een systeem is, moet het noodzakelijkerwijs op computers draaien. En, vanwege het peer-to-peer karakter, zijn het de gebruikers zelf die verantwoordelijk zijn voor het draaien van deze machines. Wat wij een "Bitcoin node" noemen, is precies die computer waarop software draait die het Bitcoin protocol implementeert (net als Bitcoin core, maar daar komen we later op terug). Dit is wat Bitcoin in staat stelt om zonder centrale autoriteit te werken: validatie wordt gedistribueerd uitgevoerd, door duizenden onafhankelijke machines van duizenden gebruikers.
+Omdat Bitcoin een systeem is, moet het noodzakelijkerwijs op computers draaien. En, vanwege het peer-to-peer karakter, zijn het de gebruikers zelf die verantwoordelijk zijn voor het draaien van deze machines. Wat wij een "[Bitcoin node](https://planb.academy/resources/glossary/node)" noemen, is precies die computer waarop software draait die het Bitcoin protocol implementeert (net als [Bitcoin core](https://planb.academy/resources/glossary/bitcoin-core), maar daar komen we later op terug). Dit is wat Bitcoin in staat stelt om zonder centrale autoriteit te werken: validatie wordt [gedistribueerd](https://planb.academy/resources/glossary/distributed) uitgevoerd, door duizenden onafhankelijke machines van duizenden gebruikers.
 
 
 
@@ -156,7 +156,7 @@ Nakamoto, S. (2008). *Bitcoin: Een Peer-to-Peer elektronisch geldsysteem*. https
 
 
 
-Het zijn juist deze gebruikers die de veiligheid van Bitcoin garanderen. Zoals Eric Voskuil uitlegt in zijn boek *Cryptoeconomics*, berust de veiligheid van Bitcoin niet op Blockchain, noch op hashingkracht, noch op validatie, decentralisatie, cryptografie, open source of speltheorie. De veiligheid van Bitcoin hangt voornamelijk af van de individuen die bereid zijn zichzelf bloot te stellen aan persoonlijk risico. Decentralisatie maakt het mogelijk dit risico te spreiden over een groot aantal individuen en alleen hun vermogen om weerstand te bieden garandeert de robuustheid van het systeem.
+Het zijn juist deze gebruikers die de veiligheid van Bitcoin garanderen. Zoals Eric Voskuil uitlegt in zijn boek *Cryptoeconomics*, berust de veiligheid van Bitcoin niet op [Blockchain](https://planb.academy/resources/glossary/blockchain), noch op [hashingkracht](https://planb.academy/resources/glossary/hashrate), noch op validatie, decentralisatie, [cryptografie](https://planb.academy/resources/glossary/cryptography), [open source](https://planb.academy/resources/glossary/foss) of speltheorie. De veiligheid van Bitcoin hangt voornamelijk af van de individuen die bereid zijn zichzelf bloot te stellen aan persoonlijk risico. Decentralisatie maakt het mogelijk dit risico te spreiden over een groot aantal individuen en alleen hun vermogen om weerstand te bieden garandeert de robuustheid van het systeem.
 
 
 
@@ -173,9 +173,9 @@ We kunnen dus verschillende concepten onderscheiden en benoemen om dingen te ver
 
 
 
-- Bitcoin valuta: de rekeneenheid die gebruikt wordt voor transacties binnen dit systeem;
+- Bitcoin valuta: de rekeneenheid die gebruikt wordt voor [transacties](https://planb.academy/resources/glossary/transaction-tx) binnen dit systeem;
 - Het Bitcoin netwerk: de verzameling van alle verbonden nodes;
-- Bitcoin nodes: machines waarop een implementatie van Bitcoin draait;
+- Bitcoin nodes: machines waarop een [implementatie van Bitcoin](https://planb.academy/resources/glossary/bitcoin-implementation) draait;
 - Bitcoin implementaties: software die het protocol vertaalt in uitvoerbare instructies;
 - Bitcoin protocol: de verzameling regels voor de werking van het systeem;
 - Het Bitcoin systeem: de coherente combinatie van al deze elementen.
@@ -190,7 +190,7 @@ De Bitcoin nodes vormen samen het zogenaamde Bitcoin netwerk. Ze maken het mogel
 
 
 
-Vanaf het begin was Bitcoin ontworpen om elke gebruiker een persoonlijke node te laten beheren. Dit geldt nog steeds voor de huidige Bitcoin core software, die de rollen van wallet en node combineert. Maar tegenwoordig wordt deze functie vaak losgekoppeld: veel moderne Bitcoin wallets zijn gewoon wallets die verbinding maken met externe nodes (al dan niet eigendom van dezelfde persoon).
+Vanaf het begin was Bitcoin ontworpen om elke gebruiker een persoonlijke node te laten beheren. Dit geldt nog steeds voor de huidige Bitcoin core software, die de rollen van [wallet](https://planb.academy/resources/glossary/wallet) en node combineert. Maar tegenwoordig wordt deze functie vaak losgekoppeld: veel moderne Bitcoin wallets zijn gewoon wallets die verbinding maken met externe nodes (al dan niet eigendom van dezelfde persoon).
 
 
 
@@ -198,7 +198,7 @@ Vanaf het begin was Bitcoin ontworpen om elke gebruiker een persoonlijke node te
 
 
 
-De eerste taak van een node is om een lokale kopie van Blockchain te onderhouden. Om dubbele uitgaven op Bitcoin te voorkomen zonder een centrale autoriteit in te schakelen, moet elke gebruiker controleren of er geen transactie in het systeem bestaat. De enige manier om hier zeker van te zijn, is door alle transacties op Bitcoin te kennen. Daarom worden alle transacties voorzien van een tijdstempel en gegroepeerd in blokken, en slaat elk node de volledige Blockchain op.
+De eerste taak van een node is om een lokale kopie van Blockchain te onderhouden. Om [dubbele uitgaven](https://planb.academy/resources/glossary/double-spending-attack) op Bitcoin te voorkomen zonder een centrale autoriteit in te schakelen, moet elke gebruiker controleren of er geen transactie in het systeem bestaat. De enige manier om hier zeker van te zijn, is door alle transacties op Bitcoin te kennen. Daarom worden alle transacties voorzien van een [tijdstempel](https://planb.academy/resources/glossary/timestamp) en gegroepeerd in [blokken](https://planb.academy/resources/glossary/block), en slaat elk node de volledige Blockchain op.
 
 
 
@@ -208,7 +208,7 @@ Nakamoto, S. (2008). *Bitcoin: Een Peer-to-Peer elektronisch geldsysteem*. https
 
 
 
-Blockchain is daarom een evoluerend register: elke keer dat een nieuw blok wordt gepubliceerd door een miner, controleert de node de geldigheid ervan voordat het het toevoegt aan zijn eigen lokale kopie van de keten. Op dit moment (juli 2025) is de volledige Blockchain groter dan 675 GB en deze grootte blijft groeien, omdat er gemiddeld elke 10 minuten een nieuw blok wordt toegevoegd.
+Blockchain is daarom een evoluerend register: elke keer dat een nieuw blok wordt gepubliceerd door een [miner](https://planb.academy/resources/glossary/miner), controleert de node de geldigheid ervan voordat het het toevoegt aan zijn eigen lokale kopie van de keten. Op dit moment (juli 2025) is de volledige Blockchain groter dan 675 GB en deze grootte blijft groeien, omdat er gemiddeld elke 10 minuten een nieuw blok wordt toegevoegd.
 
 
 
@@ -216,7 +216,7 @@ Blockchain is daarom een evoluerend register: elke keer dat een nieuw blok wordt
 
 
 
-De node houdt ook een lokaal overzicht bij van alle UTXO's die op een bepaald moment bestaan, bekend als de **UTXO set**. Deze database bevat alle ongebruikte Bitcoin fragmenten. We komen hier in detail op terug in het laatste deel van de cursus.
+De node houdt ook een lokaal overzicht bij van alle [UTXO's](https://planb.academy/resources/glossary/utxo) die op een bepaald moment bestaan, bekend als de **[UTXO set](https://planb.academy/resources/glossary/utxo-set)**. Deze database bevat alle ongebruikte Bitcoin fragmenten. We komen hier in detail op terug in het laatste deel van de cursus.
 
 
 
@@ -224,14 +224,14 @@ De node houdt ook een lokaal overzicht bij van alle UTXO's die op een bepaald mo
 
 
 
-De tweede rol van een node is het verifiëren en verspreiden van transacties. Wanneer een nieuwe transactie de node bereikt (via wallet software of een andere node), controleert het of het voldoet aan een set regels (consensusregels en relaisregels). Bijvoorbeeld:
+De tweede rol van een node is het verifiëren en verspreiden van transacties. Wanneer een nieuwe transactie de node bereikt (via wallet software of een andere node), controleert het of het voldoet aan een set regels ([consensusregels](https://planb.academy/resources/glossary/consensus-rules) en [relaisregels](https://planb.academy/resources/glossary/relay)). Bijvoorbeeld:
 
 
 
 
-- uitgegeven bitcoins moeten bestaan in de UTXO set (de database van niet-uitgegeven outputs);
-- de handtekening moet geldig zijn en aan alle bestedingsvoorwaarden moet zijn voldaan (geldig script);
-- de totale hoeveelheid outputs mag niet groter zijn dan de totale hoeveelheid inputs, wat betekent dat de kosten niet negatief kunnen zijn.
+- uitgegeven bitcoins moeten bestaan in de UTXO set (de database van niet-uitgegeven [outputs](https://planb.academy/resources/glossary/output));
+- de [handtekening](https://planb.academy/resources/glossary/digital-signature) moet geldig zijn en aan alle bestedingsvoorwaarden moet zijn voldaan (geldig [script](https://planb.academy/resources/glossary/script));
+- de totale hoeveelheid outputs mag niet groter zijn dan de totale hoeveelheid [inputs](https://planb.academy/resources/glossary/input), wat betekent dat de [kosten](https://planb.academy/resources/glossary/transaction-fees) niet negatief kunnen zijn.
 
 
 
@@ -239,7 +239,7 @@ De tweede rol van een node is het verifiëren en verspreiden van transacties. Wa
 
 
 
-Na validatie wordt de transactie opgeslagen in de Mempool van de node, een tijdelijke geheugenruimte die gereserveerd is voor onbevestigde transacties, en vervolgens doorgestuurd naar de andere netwerkpeers waarmee het verbonden is. Dit distributie- en validatiemechanisme gaat door van node tot node. Op deze manier wordt de transactie verspreid over het Bitcoin netwerk en elk node slaat het op in Mempool totdat het wordt opgenomen in een geldig blok door een miner, die dan handelt op basis van de eerste bevestiging.
+Na validatie wordt de transactie opgeslagen in de [Mempool](https://planb.academy/resources/glossary/mempool) van de node, een tijdelijke geheugenruimte die gereserveerd is voor onbevestigde transacties, en vervolgens doorgestuurd naar de andere netwerkpeers waarmee het verbonden is. Dit distributie- en validatiemechanisme gaat door van node tot node. Op deze manier wordt de transactie verspreid over het Bitcoin netwerk en elk node slaat het op in Mempool totdat het wordt opgenomen in een geldig blok door een miner, die dan handelt op basis van de eerste [bevestiging](https://planb.academy/resources/glossary/confirmation).
 
 
 
@@ -247,7 +247,7 @@ Na validatie wordt de transactie opgeslagen in de Mempool van de node, een tijde
 
 
 
-De derde rol van de node is het beheren van gemijnde blokken. Wanneer een miner een nieuw blok met een geldige proof of work ontdekt, wordt het uitgezonden naar het netwerk. De nodes ontvangen het, controleren of het voldoet aan alle protocolregels en integreren het in hun eigen lokale kopie van de Blockchain als het geldig is. Net als bij transacties worden nieuw gevalideerde blokken vervolgens doorgestuurd naar alle peers die verbonden zijn met de node. Dit proces gaat door totdat alle nodes op het Bitcoin netwerk op de hoogte zijn van het nieuwe blok.
+De derde rol van de node is het beheren van gemijnde blokken. Wanneer een miner een nieuw blok met een geldige [proof of work](https://planb.academy/resources/glossary/proof-of-work) ontdekt, wordt het [uitgezonden](https://planb.academy/resources/glossary/diffusion) naar het netwerk. De nodes ontvangen het, controleren of het voldoet aan alle protocolregels en integreren het in hun eigen lokale kopie van de Blockchain als het geldig is. Net als bij transacties worden nieuw gevalideerde blokken vervolgens doorgestuurd naar alle peers die verbonden zijn met de node. Dit proces gaat door totdat alle nodes op het Bitcoin netwerk op de hoogte zijn van het nieuwe blok.
 
 
 

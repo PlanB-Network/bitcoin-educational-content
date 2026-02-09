@@ -133,7 +133,7 @@ Bitcoin 노드를 쉽고 독립적으로 설치, 구성, 사용하는 방법을 
 
 
 
-창시자 Satoshi 나카모토가 설명한 것처럼, Bitcoin은 P2P 전자 현금 시스템입니다. 백서의 제목이기도 한 이 간단한 문장은 Bitcoin의 본질에 대한 많은 단서를 담고 있습니다:
+창시자 [Satoshi 나카모토](https://planb.academy/resources/glossary/nakamoto-satoshi)가 설명한 것처럼, Bitcoin은 [P2P](https://planb.academy/resources/glossary/peertopeer-p2p) 전자 현금 시스템입니다. [백서](https://planb.academy/resources/glossary/white-paper)의 제목이기도 한 이 간단한 문장은 Bitcoin의 본질에 대한 많은 단서를 담고 있습니다:
 
 
 
@@ -144,7 +144,7 @@ Bitcoin 노드를 쉽고 독립적으로 설치, 구성, 사용하는 방법을 
 
 
 
-Bitcoin은 시스템이기 때문에 반드시 컴퓨터에서 실행해야 합니다. 그리고 피어투피어의 특성으로 인해 이러한 컴퓨터의 실행을 책임지는 것은 사용자 자신입니다. 우리가 'Bitcoin 노드'라고 부르는 것은 바로 Bitcoin 프로토콜을 구현하는 소프트웨어(Bitcoin core과 유사하지만 나중에 다시 설명하겠습니다)가 실행되고 있는 컴퓨터입니다. 수천 명의 사용자가 소유한 수천 대의 독립적인 컴퓨터가 분산된 방식으로 검증을 수행하기 때문에 Bitcoin은 중앙 기관 없이도 작동할 수 있습니다.
+Bitcoin은 시스템이기 때문에 반드시 컴퓨터에서 실행해야 합니다. 그리고 피어투피어의 특성으로 인해 이러한 컴퓨터의 실행을 책임지는 것은 사용자 자신입니다. 우리가 'Bitcoin [노드](https://planb.academy/resources/glossary/node)'라고 부르는 것은 바로 Bitcoin 프로토콜을 구현하는 소프트웨어([Bitcoin core](https://planb.academy/resources/glossary/bitcoin-core)과 유사하지만 나중에 다시 설명하겠습니다)가 실행되고 있는 컴퓨터입니다. 수천 명의 사용자가 소유한 수천 대의 독립적인 컴퓨터가 [분산된 방식](https://planb.academy/resources/glossary/distributed)으로 검증을 수행하기 때문에 Bitcoin은 중앙 기관 없이도 작동할 수 있습니다.
 
 
 
@@ -156,7 +156,7 @@ Nakamoto, S. (2008). *Bitcoin: 피어투피어 전자 현금 시스템*. https:/
 
 
 
-Bitcoin의 보안을 보장하는 것은 바로 이러한 사용자들입니다. 에릭 보스퀼이 그의 저서 *암호경제학*에서 설명했듯이, Bitcoin의 보안은 Blockchain이나 해싱 파워, 검증, 탈중앙화, 암호화, 오픈 소스, 게임 이론에 의존하지 않습니다. Bitcoin의 보안은 주로 개인적 위험에 기꺼이 자신을 노출하려는 개인에게 달려 있습니다. 탈중앙화를 통해 이러한 위험을 다수의 개인에게 분산시킬 수 있으며, 이들의 저항 능력만이 시스템의 견고함을 보장합니다.
+Bitcoin의 보안을 보장하는 것은 바로 이러한 사용자들입니다. 에릭 보스퀼이 그의 저서 *암호경제학*에서 설명했듯이, Bitcoin의 보안은 [Blockchain](https://planb.academy/resources/glossary/blockchain)이나 [해싱 파워](https://planb.academy/resources/glossary/hashrate), 검증, 탈중앙화, [암호화](https://planb.academy/resources/glossary/cryptography), [오픈 소스](https://planb.academy/resources/glossary/foss), 게임 이론에 의존하지 않습니다. Bitcoin의 보안은 주로 개인적 위험에 기꺼이 자신을 노출하려는 개인에게 달려 있습니다. 탈중앙화를 통해 이러한 위험을 다수의 개인에게 분산시킬 수 있으며, 이들의 저항 능력만이 시스템의 견고함을 보장합니다.
 
 
 
@@ -175,7 +175,7 @@ Bitcoin의 보안을 보장하는 것은 바로 이러한 사용자들입니다.
 
 - Bitcoin 통화: 이 시스템 내에서 거래에 사용되는 계정 단위입니다;
 - Bitcoin 네트워크: 연결된 모든 노드의 집합입니다;
-- Bitcoin 노드: Bitcoin 구현을 실행하는 머신;
+- Bitcoin 노드: [Bitcoin 구현](https://planb.academy/resources/glossary/bitcoin-implementation)을 실행하는 머신;
 - Bitcoin 구현: 프로토콜을 실행 가능한 명령어로 변환하는 소프트웨어입니다;
 - Bitcoin 프로토콜: 시스템 운영을 관리하는 일련의 규칙입니다;
 - Bitcoin 시스템: 이 모든 Elements의 일관된 조합입니다.
@@ -190,7 +190,7 @@ Bitcoin 노드는 함께 Bitcoin 네트워크라고 알려진 것을 형성합�
 
 
 
-처음부터 Bitcoin은 각 사용자가 개인 노드를 운영할 수 있도록 설계되었습니다. 이 사례는 Wallet와 노드의 역할을 결합한 오늘날의 Bitcoin core 소프트웨어에서도 여전히 유효합니다. 하지만 오늘날에는 이 기능이 분리된 경우가 많습니다. 많은 최신 Bitcoin 지갑은 외부 노드(동일인이 소유하든 아니든)에 연결되는 지갑일 뿐입니다.
+처음부터 Bitcoin은 각 사용자가 개인 노드를 운영할 수 있도록 설계되었습니다. 이 사례는 [Wallet](https://planb.academy/resources/glossary/wallet)와 노드의 역할을 결합한 오늘날의 Bitcoin core 소프트웨어에서도 여전히 유효합니다. 하지만 오늘날에는 이 기능이 분리된 경우가 많습니다. 많은 최신 Bitcoin 지갑은 외부 노드(동일인이 소유하든 아니든)에 연결되는 지갑일 뿐입니다.
 
 
 
@@ -198,7 +198,7 @@ Bitcoin 노드는 함께 Bitcoin 네트워크라고 알려진 것을 형성합�
 
 
 
-노드의 첫 번째 임무는 Blockchain의 로컬 복사본을 유지하는 것입니다. 중앙 기관의 개입 없이 Bitcoin에서 Double-spending을 방지하려면 각 사용자가 시스템에 트랜잭션이 없는지 확인해야 합니다. 이를 확인할 수 있는 유일한 방법은 Bitcoin에서 이루어진 모든 트랜잭션을 아는 것입니다. 이러한 이유로 모든 트랜잭션은 타임스탬프가 찍히고 블록으로 그룹화되며, 각 노드는 전체 Blockchain을 저장합니다.
+노드의 첫 번째 임무는 Blockchain의 로컬 복사본을 유지하는 것입니다. 중앙 기관의 개입 없이 Bitcoin에서 [Double-spending](https://planb.academy/resources/glossary/double-spending-attack)을 방지하려면 각 사용자가 시스템에 [트랜잭션](https://planb.academy/resources/glossary/transaction-tx)이 없는지 [확인](https://planb.academy/resources/glossary/confirmation)해야 합니다. 이를 확인할 수 있는 유일한 방법은 Bitcoin에서 이루어진 모든 트랜잭션을 아는 것입니다. 이러한 이유로 모든 트랜잭션은 [타임스탬프](https://planb.academy/resources/glossary/timestamp)가 찍히고 [블록](https://planb.academy/resources/glossary/block)으로 그룹화되며, 각 노드는 전체 Blockchain을 저장합니다.
 
 
 
@@ -208,7 +208,7 @@ Nakamoto, S. (2008). *Bitcoin: 피어투피어 전자 현금 시스템*. https:/
 
 
 
-따라서 Blockchain은 진화하는 레지스터이며, Miner에 의해 새로운 블록이 게시될 때마다 노드는 해당 블록의 유효성을 확인한 후 자체 로컬 체인 사본에 추가합니다. 현재(2025년 7월) 전체 Blockchain은 675GB를 초과하며, 평균 10분마다 새로운 블록이 추가됨에 따라 이 크기는 계속 증가하고 있습니다.
+따라서 Blockchain은 진화하는 레지스터이며, [Miner](https://planb.academy/resources/glossary/miner)에 의해 새로운 블록이 게시될 때마다 노드는 해당 블록의 유효성을 확인한 후 자체 로컬 체인 사본에 추가합니다. 현재(2025년 7월) 전체 Blockchain은 675GB를 초과하며, 평균 10분마다 새로운 블록이 추가됨에 따라 이 크기는 계속 증가하고 있습니다.
 
 
 
@@ -216,7 +216,7 @@ Nakamoto, S. (2008). *Bitcoin: 피어투피어 전자 현금 시스템*. https:/
 
 
 
-또한 노드는 **UTXO 세트**라고 하는 특정 시점에 존재하는 모든 UTXO에 대한 로컬 기록을 유지합니다. 이 데이터베이스에는 사용되지 않은 모든 Bitcoin 조각이 포함되어 있습니다. 이 주제는 강좌의 마지막 부분에서 자세히 다시 살펴보겠습니다.
+또한 노드는 **[UTXO 세트](https://planb.academy/resources/glossary/utxo-set)**라고 하는 특정 시점에 존재하는 모든 [UTXO](https://planb.academy/resources/glossary/utxo)에 대한 로컬 기록을 유지합니다. 이 데이터베이스에는 사용되지 않은 모든 Bitcoin 조각이 포함되어 있습니다. 이 주제는 강좌의 마지막 부분에서 자세히 다시 살펴보겠습니다.
 
 
 
@@ -224,14 +224,14 @@ Nakamoto, S. (2008). *Bitcoin: 피어투피어 전자 현금 시스템*. https:/
 
 
 
-노드의 두 번째 역할은 트랜잭션의 검증과 전파를 보장하는 것입니다. 새 트랜잭션이 노드에 도달하면(Wallet 소프트웨어 또는 다른 노드를 통해) 노드는 일련의 규칙(합의 규칙 및 릴레이 규칙)을 준수하는지 확인합니다. 예를 들어
+노드의 두 번째 역할은 트랜잭션의 검증과 [전파](https://planb.academy/resources/glossary/diffusion)를 보장하는 것입니다. 새 트랜잭션이 노드에 도달하면(Wallet 소프트웨어 또는 다른 노드를 통해) 노드는 일련의 규칙([합의 규칙](https://planb.academy/resources/glossary/consensus-rules) 및 [릴레이 규칙](https://planb.academy/resources/glossary/relay))을 준수하는지 확인합니다. 예를 들어
 
 
 
 
 - 사용한 비트코인은 UTXO 세트(미사용 결과물 데이터베이스)에 존재해야 합니다;
-- 서명이 유효해야 하며 모든 지출 조건이 충족되어야 합니다(유효한 스크립트);
-- 출력의 총량이 입력의 총량을 초과해서는 안 되며, 이는 비용이 음수가 될 수 없음을 의미합니다.
+- [서명](https://planb.academy/resources/glossary/digital-signature)이 유효해야 하며 모든 지출 조건이 충족되어야 합니다(유효한 [스크립트](https://planb.academy/resources/glossary/script));
+- [출력](https://planb.academy/resources/glossary/output)의 총량이 [입력](https://planb.academy/resources/glossary/input)의 총량을 초과해서는 안 되며, 이는 [비용](https://planb.academy/resources/glossary/transaction-fees)이 음수가 될 수 없음을 의미합니다.
 
 
 
@@ -239,7 +239,7 @@ Nakamoto, S. (2008). *Bitcoin: 피어투피어 전자 현금 시스템*. https:/
 
 
 
-유효성 검사 후 트랜잭션은 노드의 Mempool, 즉 미확인 트랜잭션을 위해 예약된 임시 메모리 공간에 저장된 다음 연결된 다른 네트워크 피어로 전달됩니다. 이러한 배포 및 검증 메커니즘은 노드에서 노드로 계속 이어집니다. 이러한 방식으로 트랜잭션은 Bitcoin 네트워크를 통해 전파되고, 각 노드는 Miner에 의해 유효한 블록에 포함될 때까지 Mempool에 저장한 다음 첫 번째 확인 작업을 수행합니다.
+유효성 검사 후 트랜잭션은 노드의 [Mempool](https://planb.academy/resources/glossary/mempool), 즉 미확인 트랜잭션을 위해 예약된 임시 메모리 공간에 저장된 다음 연결된 다른 네트워크 피어로 전달됩니다. 이러한 배포 및 검증 메커니즘은 노드에서 노드로 계속 이어집니다. 이러한 방식으로 트랜잭션은 Bitcoin 네트워크를 통해 전파되고, 각 노드는 Miner에 의해 유효한 블록에 포함될 때까지 Mempool에 저장한 다음 첫 번째 확인 작업을 수행합니다.
 
 
 
@@ -247,7 +247,7 @@ Nakamoto, S. (2008). *Bitcoin: 피어투피어 전자 현금 시스템*. https:/
 
 
 
-노드의 세 번째 역할은 채굴된 블록을 관리하는 것입니다. Miner가 유효한 Proof of Work를 가진 새 블록을 발견하면 네트워크에 브로드캐스트됩니다. 노드는 이를 수신하고 모든 프로토콜 규칙을 준수하는지 확인한 다음, 유효한 경우 자신의 로컬 Blockchain 사본에 통합합니다. 트랜잭션과 마찬가지로 새로 유효성이 검증된 블록은 노드에 연결된 모든 피어에게 전달됩니다. 이 과정은 Bitcoin 네트워크의 모든 노드가 새 블록을 인식할 때까지 계속됩니다.
+노드의 세 번째 역할은 채굴된 블록을 관리하는 것입니다. Miner가 유효한 [Proof of Work](https://planb.academy/resources/glossary/proof-of-work)를 가진 새 블록을 발견하면 네트워크에 브로드캐스트됩니다. 노드는 이를 수신하고 모든 프로토콜 규칙을 준수하는지 확인한 다음, 유효한 경우 자신의 로컬 Blockchain 사본에 통합합니다. 트랜잭션과 마찬가지로 새로 유효성이 검증된 블록은 노드에 연결된 모든 피어에게 전달됩니다. 이 과정은 Bitcoin 네트워크의 모든 노드가 새 블록을 인식할 때까지 계속됩니다.
 
 
 

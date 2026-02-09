@@ -133,7 +133,7 @@ Er du klar til å slå på din første Bitcoin-node? Sett kurs mot suverenitet!
 
 
 
-Slik skaperen, Satoshi Nakamoto, beskriver det, presenterer Bitcoin seg selv som et elektronisk peer-to-peer-kontantsystem. Denne enkle setningen, som er tittelen på hvitboken, inneholder mange ledetråder til Bitcoins natur:
+Slik skaperen, [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi), beskriver det, presenterer Bitcoin seg selv som et elektronisk [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p)-kontantsystem. Denne enkle setningen, som er tittelen på [hvitboken](https://planb.academy/resources/glossary/white-paper), inneholder mange ledetråder til Bitcoins natur:
 
 
 
@@ -144,7 +144,7 @@ Slik skaperen, Satoshi Nakamoto, beskriver det, presenterer Bitcoin seg selv som
 
 
 
-Siden Bitcoin er et system, må det nødvendigvis kjøres på datamaskiner. Og på grunn av dets peer-to-peer-karakter er det brukerne selv som tar ansvar for å drive disse maskinene. Det vi kaller en "Bitcoin-node" er nettopp den datamaskinen som programvaren som implementerer Bitcoin-protokollen (som Bitcoin core, men det kommer vi tilbake til senere) kjører på. Det er dette som gjør at Bitcoin kan operere uten en sentral autoritet: Valideringen utføres på en distribuert måte, av tusenvis av uavhengige maskiner som tilhører tusenvis av brukere.
+Siden Bitcoin er et system, må det nødvendigvis kjøres på datamaskiner. Og på grunn av dets peer-to-peer-karakter er det brukerne selv som tar ansvar for å drive disse maskinene. Det vi kaller en "[Bitcoin-node](https://planb.academy/resources/glossary/node)" er nettopp den datamaskinen som programvaren som [implementerer Bitcoin-protokollen](https://planb.academy/resources/glossary/bitcoin-implementation) (som [Bitcoin core](https://planb.academy/resources/glossary/bitcoin-core), men det kommer vi tilbake til senere) kjører på. Det er dette som gjør at Bitcoin kan operere uten en sentral autoritet: Valideringen utføres på en [distribuert](https://planb.academy/resources/glossary/distributed) måte, av tusenvis av uavhengige maskiner som tilhører tusenvis av brukere.
 
 
 
@@ -156,7 +156,7 @@ Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://B
 
 
 
-Det er nettopp disse brukerne som sørger for Bitcoins sikkerhet. Som Eric Voskuil forklarer i boken *Cryptoeconomics*, er sikkerheten til Bitcoin verken avhengig av Blockchain, hashingkraft, validering, desentralisering, kryptografi, åpen kildekode eller spillteori. Sikkerheten til Bitcoin avhenger først og fremst av individene som er villige til å utsette seg for personlig risiko. Desentralisering gjør det mulig å spre denne risikoen på et stort antall individer, og det er bare deres evne til å stå imot som sikrer systemets robusthet.
+Det er nettopp disse brukerne som sørger for Bitcoins sikkerhet. Som Eric Voskuil forklarer i boken *Cryptoeconomics*, er sikkerheten til Bitcoin verken avhengig av [Blockchain](https://planb.academy/resources/glossary/blockchain), [hashingkraft](https://planb.academy/resources/glossary/hashrate), validering, desentralisering, [kryptografi](https://planb.academy/resources/glossary/cryptography), [åpen kildekode](https://planb.academy/resources/glossary/foss) eller spillteori. Sikkerheten til Bitcoin avhenger først og fremst av individene som er villige til å utsette seg for personlig risiko. Desentralisering gjør det mulig å spre denne risikoen på et stort antall individer, og det er bare deres evne til å stå imot som sikrer systemets robusthet.
 
 
 
@@ -190,7 +190,7 @@ Bitcoin-nodene danner til sammen det som kalles Bitcoin-nettverket. De gjør det
 
 
 
-Fra starten av ble Bitcoin utviklet for at hver bruker skulle kunne kjøre en personlig node. Dette gjelder fortsatt med dagens Bitcoin core-programvare, som kombinerer rollene som Wallet og node. Men i dag er denne funksjonen ofte adskilt: Mange moderne Bitcoin-lommebøker er bare lommebøker som kobles til eksterne noder (eid av samme person eller ikke).
+Fra starten av ble Bitcoin utviklet for at hver bruker skulle kunne kjøre en personlig node. Dette gjelder fortsatt med dagens Bitcoin core-programvare, som kombinerer rollene som [Wallet](https://planb.academy/resources/glossary/wallet) og node. Men i dag er denne funksjonen ofte adskilt: Mange moderne Bitcoin-lommebøker er bare lommebøker som kobles til eksterne noder (eid av samme person eller ikke).
 
 
 
@@ -198,7 +198,7 @@ Fra starten av ble Bitcoin utviklet for at hver bruker skulle kunne kjøre en pe
 
 
 
-Den første oppgaven til en node er å vedlikeholde en lokal kopi av Blockchain. For å forhindre Double-spending på Bitcoin uten å involvere en sentral autoritet, må hver bruker kontrollere at det ikke finnes noen transaksjon i systemet. Den eneste måten å være sikker på dette på, er å kjenne til alle transaksjonene som er gjort på Bitcoin. Derfor er alle transaksjoner tidsstemplet og gruppert i blokker, og hver node lagrer hele Blockchain.
+Den første oppgaven til en node er å vedlikeholde en lokal kopi av Blockchain. For å forhindre [Double-spending](https://planb.academy/resources/glossary/double-spending-attack) på Bitcoin uten å involvere en sentral autoritet, må hver bruker kontrollere at det ikke finnes noen [transaksjon](https://planb.academy/resources/glossary/transaction-tx) i systemet. Den eneste måten å være sikker på dette på, er å kjenne til alle transaksjonene som er gjort på Bitcoin. Derfor er alle transaksjoner [tidsstemplet](https://planb.academy/resources/glossary/timestamp) og gruppert i [blokker](https://planb.academy/resources/glossary/block), og hver node lagrer hele Blockchain.
 
 
 
@@ -208,7 +208,7 @@ Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://B
 
 
 
-Blockchain er derfor et register i utvikling: Hver gang en ny blokk publiseres av en Miner, sjekker noden dens gyldighet før den legges til i sin egen lokale kopi av kjeden. Per i dag (juli 2025) er hele Blockchain på mer enn 675 GB, og denne størrelsen fortsetter å vokse ettersom en ny blokk legges til i gjennomsnitt hvert tiende minutt.
+Blockchain er derfor et register i utvikling: Hver gang en ny blokk publiseres av en [Miner](https://planb.academy/resources/glossary/miner), sjekker noden dens gyldighet før den legges til i sin egen lokale kopi av kjeden. Per i dag (juli 2025) er hele Blockchain på mer enn 675 GB, og denne størrelsen fortsetter å vokse ettersom en ny blokk legges til i gjennomsnitt hvert tiende minutt.
 
 
 
@@ -216,7 +216,7 @@ Blockchain er derfor et register i utvikling: Hver gang en ny blokk publiseres a
 
 
 
-Noden har også en lokal oversikt over alle UTXO-er som finnes til enhver tid, kjent som **UTXO-settet**. Denne databasen inneholder alle de ubrukte Bitcoin-fragmentene. Vi kommer tilbake til dette emnet i detalj i siste del av kurset.
+Noden har også en lokal oversikt over alle [UTXO](https://planb.academy/resources/glossary/utxo)-er som finnes til enhver tid, kjent som **[UTXO-settet](https://planb.academy/resources/glossary/utxo-set)**. Denne databasen inneholder alle de ubrukte Bitcoin-fragmentene. Vi kommer tilbake til dette emnet i detalj i siste del av kurset.
 
 
 
@@ -224,14 +224,14 @@ Noden har også en lokal oversikt over alle UTXO-er som finnes til enhver tid, k
 
 
 
-Den andre rollen en node har, er å sørge for verifisering og videreformidling av transaksjoner. Når en ny transaksjon når noden (enten via Wallet-programvaren eller en annen node), kontrollerer den at den er i samsvar med et sett regler (konsensusregler og reléregler). For eksempel
+Den andre rollen en node har, er å sørge for verifisering og videreformidling av transaksjoner. Når en ny transaksjon når noden (enten via Wallet-programvaren eller en annen node), kontrollerer den at den er i samsvar med et sett regler ([konsensusregler](https://planb.academy/resources/glossary/consensus-rules) og [reléregler](https://planb.academy/resources/glossary/relay)). For eksempel
 
 
 
 
 - brukte bitcoins må finnes i UTXO-settet (databasen med ubrukte utganger);
-- signaturen må være gyldig, og alle utgiftsbetingelser må være oppfylt (gyldig skript);
-- den totale mengden output må ikke overstige den totale mengden input, noe som betyr at kostnadene ikke kan være negative.
+- [signaturen](https://planb.academy/resources/glossary/digital-signature) må være gyldig, og alle utgiftsbetingelser må være oppfylt (gyldig [skript](https://planb.academy/resources/glossary/script));
+- den totale mengden [output](https://planb.academy/resources/glossary/output) må ikke overstige den totale mengden [input](https://planb.academy/resources/glossary/input), noe som betyr at [kostnadene](https://planb.academy/resources/glossary/transaction-fees) ikke kan være negative.
 
 
 
@@ -239,7 +239,7 @@ Den andre rollen en node har, er å sørge for verifisering og videreformidling 
 
 
 
-Etter validering lagres transaksjonen i nodens Mempool, et midlertidig minneområde som er reservert for ubekreftede transaksjoner, og videresendes deretter til de andre nettverksmotpartene som den er koblet til. Denne distribusjons- og valideringsmekanismen fortsetter fra node til node. På denne måten forplantes transaksjonen på tvers av Bitcoin-nettverket, og hver node lagrer den i Mempool til den blir inkludert i en gyldig blokk av en Miner, som deretter handler på den første bekreftelsen.
+Etter validering lagres transaksjonen i nodens [Mempool](https://planb.academy/resources/glossary/mempool), et midlertidig minneområde som er reservert for ubekreftede transaksjoner, og videresendes deretter til de andre nettverksmotpartene som den er koblet til. Denne distribusjons- og valideringsmekanismen fortsetter fra node til node. På denne måten [forplantes](https://planb.academy/resources/glossary/diffusion) transaksjonen på tvers av Bitcoin-nettverket, og hver node lagrer den i Mempool til den blir inkludert i en gyldig blokk av en Miner, som deretter handler på den første [bekreftelsen](https://planb.academy/resources/glossary/confirmation).
 
 
 
@@ -247,7 +247,7 @@ Etter validering lagres transaksjonen i nodens Mempool, et midlertidig minneomr�
 
 
 
-Nodens tredje rolle er å administrere utvunnede blokker. Når en Miner oppdager en ny blokk med en gyldig Proof of Work, sendes den ut i nettverket. Nodene mottar den, kontrollerer at den er i samsvar med alle protokollreglene og integrerer den i sin egen lokale kopi av Blockchain hvis den er gyldig. På samme måte som med transaksjoner, blir nyvaliderte blokker sendt videre til alle andre noder som er koblet til noden. Denne prosessen fortsetter til alle nodene i Bitcoin-nettverket er klar over den nye blokken.
+Nodens tredje rolle er å administrere utvunnede blokker. Når en Miner oppdager en ny blokk med en gyldig [Proof of Work](https://planb.academy/resources/glossary/proof-of-work), sendes den ut i nettverket. Nodene mottar den, kontrollerer at den er i samsvar med alle protokollreglene og integrerer den i sin egen lokale kopi av Blockchain hvis den er gyldig. På samme måte som med transaksjoner, blir nyvaliderte blokker sendt videre til alle andre noder som er koblet til noden. Denne prosessen fortsetter til alle nodene i Bitcoin-nettverket er klar over den nye blokken.
 
 
 

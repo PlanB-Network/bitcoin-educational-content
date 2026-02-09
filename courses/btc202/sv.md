@@ -133,7 +133,7 @@ Så, är du redo att slå på din första Bitcoin-nod? Sätt kurs mot suveränit
 
 
 
-Såsom det beskrivs av dess skapare, Satoshi Nakamoto, presenterar sig Bitcoin som ett elektroniskt kontantsystem peer-to-peer. Denna enkla mening, som är titeln på vitboken, innehåller många ledtrådar till Bitcoin:s natur:
+Såsom det beskrivs av dess skapare, [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi), presenterar sig Bitcoin som ett elektroniskt kontantsystem [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p). Denna enkla mening, som är titeln på [vitboken](https://planb.academy/resources/glossary/white-paper), innehåller många ledtrådar till Bitcoin:s natur:
 
 
 
@@ -144,7 +144,7 @@ Såsom det beskrivs av dess skapare, Satoshi Nakamoto, presenterar sig Bitcoin s
 
 
 
-Eftersom Bitcoin är ett system måste det nödvändigtvis köras på datorer. Och på grund av dess peer-to-peer-karaktär är det användarna själva som tar ansvar för att köra dessa maskiner. Vad vi kallar en "Bitcoin-nod" är just den dator på vilken programvara som implementerar Bitcoin-protokollet (som Bitcoin core, men vi återkommer till det senare) körs. Det är detta som gör att Bitcoin kan fungera utan en central myndighet: validering utförs på ett distribuerat sätt, av tusentals oberoende maskiner som tillhör tusentals användare.
+Eftersom Bitcoin är ett system måste det nödvändigtvis köras på datorer. Och på grund av dess peer-to-peer-karaktär är det användarna själva som tar ansvar för att köra dessa maskiner. Vad vi kallar en "[Bitcoin-nod](https://planb.academy/resources/glossary/node)" är just den dator på vilken programvara som implementerar Bitcoin-protokollet (som [Bitcoin core](https://planb.academy/resources/glossary/bitcoin-core), men vi återkommer till det senare) körs. Det är detta som gör att Bitcoin kan fungera utan en central myndighet: validering utförs på ett [distribuerat](https://planb.academy/resources/glossary/distributed) sätt, av tusentals oberoende maskiner som tillhör tusentals användare.
 
 
 
@@ -156,7 +156,7 @@ Nakamoto, S. (2008). *Bitcoin: Ett elektroniskt peer-to-peer-kontantsystem*. htt
 
 
 
-Det är just dessa användare som säkerställer Bitcoin:s säkerhet. Som Eric Voskuil förklarar i sin bok *Cryptoeconomics* är säkerheten för Bitcoin varken beroende av Blockchain, hashkraft, validering, decentralisering, kryptografi, öppen källkod eller spelteori. Säkerheten för Bitcoin beror främst på de individer som är villiga att utsätta sig för personlig risk. Decentralisering gör att denna risk kan spridas över ett stort antal individer, och det är bara deras förmåga att stå emot som säkerställer systemets robusthet.
+Det är just dessa användare som säkerställer Bitcoin:s säkerhet. Som Eric Voskuil förklarar i sin bok *Cryptoeconomics* är säkerheten för Bitcoin varken beroende av [Blockchain](https://planb.academy/resources/glossary/blockchain), [hashkraft](https://planb.academy/resources/glossary/hashrate), validering, decentralisering, [kryptografi](https://planb.academy/resources/glossary/cryptography), [öppen källkod](https://planb.academy/resources/glossary/foss) eller spelteori. Säkerheten för Bitcoin beror främst på de individer som är villiga att utsätta sig för personlig risk. Decentralisering gör att denna risk kan spridas över ett stort antal individer, och det är bara deras förmåga att stå emot som säkerställer systemets robusthet.
 
 
 
@@ -175,7 +175,7 @@ Vi kan alltså urskilja och namnge flera begrepp för att klargöra saker och ti
 
 - Bitcoin valuta: den beräkningsenhet som används för transaktioner inom detta system;
 - Bitcoin-nätverket: uppsättningen av alla anslutna noder;
-- Bitcoin-noder: maskiner som kör en implementation av Bitcoin;
+- Bitcoin-noder: maskiner som kör en [implementation av Bitcoin](https://planb.academy/resources/glossary/bitcoin-implementation);
 - Bitcoin-implementeringar: programvara som översätter protokollet till körbara instruktioner;
 - Bitcoin protokoll: den uppsättning regler som styr systemets funktion;
 - Bitcoin-systemet: den sammanhängande kombinationen av alla dessa Elements.
@@ -190,7 +190,7 @@ Bitcoin-noderna bildar tillsammans det så kallade Bitcoin-nätverket. De gör d
 
 
 
-Bitcoin var från början utformad för att varje användare skulle kunna köra en personlig nod. Detta är fortfarande fallet med dagens Bitcoin core-programvara, som kombinerar rollerna som Wallet och nod. Men nuförtiden är denna funktion ofta åtskild: många moderna Bitcoin-plånböcker är bara plånböcker som ansluter till externa noder (som ägs av samma person eller inte).
+Bitcoin var från början utformad för att varje användare skulle kunna köra en personlig nod. Detta är fortfarande fallet med dagens Bitcoin core-programvara, som kombinerar rollerna som Wallet och nod. Men nuförtiden är denna funktion ofta åtskild: många moderna Bitcoin-[plånböcker](https://planb.academy/resources/glossary/wallet) är bara plånböcker som ansluter till externa noder (som ägs av samma person eller inte).
 
 
 
@@ -198,7 +198,7 @@ Bitcoin var från början utformad för att varje användare skulle kunna köra 
 
 
 
-Den första uppgiften för en nod är att upprätthålla en lokal kopia av Blockchain. För att förhindra Double-spending på Bitcoin utan att involvera en central myndighet måste varje användare kontrollera att det inte finns någon transaktion i systemet. Det enda sättet att vara säker på detta är att känna till alla transaktioner som gjorts på Bitcoin. Av denna anledning tidsstämplas alla transaktioner och grupperas i block, och varje nod lagrar hela Blockchain.
+Den första uppgiften för en nod är att upprätthålla en lokal kopia av Blockchain. För att förhindra [Double-spending](https://planb.academy/resources/glossary/double-spending-attack) på Bitcoin utan att involvera en central myndighet måste varje användare kontrollera att det inte finns någon [transaktion](https://planb.academy/resources/glossary/transaction-tx) i systemet. Det enda sättet att vara säker på detta är att känna till alla transaktioner som gjorts på Bitcoin. Av denna anledning [tidsstämplas](https://planb.academy/resources/glossary/timestamp) alla transaktioner och grupperas i [block](https://planb.academy/resources/glossary/block), och varje nod lagrar hela Blockchain.
 
 
 
@@ -208,7 +208,7 @@ Nakamoto, S. (2008). *Bitcoin: Ett elektroniskt peer-to-peer-system för kontant
 
 
 
-Blockchain är därför ett register som utvecklas: varje gång ett nytt block publiceras av en Miner kontrollerar noden dess giltighet innan den lägger till det i sin egen lokala kopia av kedjan. I dag (juli 2025) är hela Blockchain över 675 GB, och storleken fortsätter att växa eftersom ett nytt block läggs till i genomsnitt var 10:e minut.
+Blockchain är därför ett register som utvecklas: varje gång ett nytt block publiceras av en [Miner](https://planb.academy/resources/glossary/miner) kontrollerar noden dess giltighet innan den lägger till det i sin egen lokala kopia av kedjan. I dag (juli 2025) är hela Blockchain över 675 GB, och storleken fortsätter att växa eftersom ett nytt block läggs till i genomsnitt var 10:e minut.
 
 
 
@@ -216,7 +216,7 @@ Blockchain är därför ett register som utvecklas: varje gång ett nytt block p
 
 
 
-Noden upprätthåller också ett lokalt register över alla UTXO som finns vid en given tidpunkt, känt som **UTXO-uppsättningen**. Denna databas innehåller alla oanvända Bitcoin-fragment. Vi återvänder till detta ämne i detalj i den sista delen av kursen.
+Noden upprätthåller också ett lokalt register över alla [UTXO](https://planb.academy/resources/glossary/utxo) som finns vid en given tidpunkt, känt som **[UTXO-uppsättningen](https://planb.academy/resources/glossary/utxo-set)**. Denna databas innehåller alla oanvända Bitcoin-fragment. Vi återvänder till detta ämne i detalj i den sista delen av kursen.
 
 
 
@@ -224,14 +224,14 @@ Noden upprätthåller också ett lokalt register över alla UTXO som finns vid e
 
 
 
-Den andra rollen för en nod är att säkerställa verifiering och spridning av transaktioner. När en ny transaktion når noden (antingen via Wallet-mjukvaran eller en annan nod) kontrollerar den att den följer en uppsättning regler (konsensusregler och reläregler). Ett exempel:
+Den andra rollen för en nod är att säkerställa verifiering och spridning av transaktioner. När en ny transaktion når noden (antingen via Wallet-mjukvaran eller en annan nod) kontrollerar den att den följer en uppsättning regler ([konsensusregler](https://planb.academy/resources/glossary/consensus-rules) och [reläregler](https://planb.academy/resources/glossary/relay)). Ett exempel:
 
 
 
 
 - förbrukade bitcoins måste finnas i dess UTXO-uppsättning (databasen med outnyttjade utgångar);
-- signaturen måste vara giltig och alla utgiftsvillkor måste vara uppfyllda (giltigt manus);
-- den totala mängden prestationer får inte överstiga den totala mängden insatser, vilket innebär att kostnaderna inte kan vara negativa.
+- [signaturen](https://planb.academy/resources/glossary/digital-signature) måste vara giltig och alla utgiftsvillkor måste vara uppfyllda (giltigt [manus](https://planb.academy/resources/glossary/script));
+- den totala mängden [prestationer](https://planb.academy/resources/glossary/output) får inte överstiga den totala mängden [insatser](https://planb.academy/resources/glossary/input), vilket innebär att [kostnaderna](https://planb.academy/resources/glossary/transaction-fees) inte kan vara negativa.
 
 
 
@@ -239,7 +239,7 @@ Den andra rollen för en nod är att säkerställa verifiering och spridning av 
 
 
 
-Efter validering lagras transaktionen i nodens Mempool, ett tillfälligt minnesutrymme som reserverats för obekräftade transaktioner, och vidarebefordras sedan till de andra nätverksmotparter som den är ansluten till. Denna distributions- och valideringsmekanism fortsätter från nod till nod. På så sätt sprids transaktionen över Bitcoin-nätverket och varje nod lagrar den i Mempool tills den inkluderas i ett giltigt block av en Miner, som sedan agerar på dess första bekräftelse.
+Efter validering lagras transaktionen i nodens [Mempool](https://planb.academy/resources/glossary/mempool), ett tillfälligt minnesutrymme som reserverats för obekräftade transaktioner, och vidarebefordras sedan till de andra nätverksmotparter som den är ansluten till. Denna distributions- och valideringsmekanism fortsätter från nod till nod. På så sätt sprids transaktionen över Bitcoin-nätverket och varje nod lagrar den i Mempool tills den inkluderas i ett giltigt block av en Miner, som sedan agerar på dess första [bekräftelse](https://planb.academy/resources/glossary/confirmation).
 
 
 
@@ -247,7 +247,7 @@ Efter validering lagras transaktionen i nodens Mempool, ett tillfälligt minnesu
 
 
 
-Nodens tredje roll handlar om att hantera minade block. När en Miner upptäcker ett nytt block med en giltig Proof of Work sänds det ut i nätverket. Noderna tar emot det, kontrollerar att det överensstämmer med alla protokollregler och integrerar det sedan i sin egen lokala kopia av Blockchain om det är giltigt. Precis som med transaktioner vidarebefordras nyligen validerade block till alla peers som är anslutna till noden. Denna process fortsätter tills alla noder i Bitcoin-nätverket är medvetna om det nya blocket.
+Nodens tredje roll handlar om att hantera minade block. När en Miner upptäcker ett nytt block med en giltig [Proof of Work](https://planb.academy/resources/glossary/proof-of-work) [sänds](https://planb.academy/resources/glossary/diffusion) det ut i nätverket. Noderna tar emot det, kontrollerar att det överensstämmer med alla protokollregler och integrerar det sedan i sin egen lokala kopia av Blockchain om det är giltigt. Precis som med transaktioner vidarebefordras nyligen validerade block till alla peers som är anslutna till noden. Denna process fortsätter tills alla noder i Bitcoin-nätverket är medvetna om det nya blocket.
 
 
 

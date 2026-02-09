@@ -131,7 +131,7 @@ BTC 202 是一门通俗易懂的课程，旨在教导您如何运行自己的比
 
 
 
-正如其创造者 Satoshi Nakamoto（中本聪）所描述的，比特币是一个点对点的电子现金系统。这句简单的话，也就是白皮书的标题，蕴含着许多关于比特币性质的线索：
+正如其创造者 [Satoshi Nakamoto（中本聪）](https://planb.academy/resources/glossary/nakamoto-satoshi)所描述的，比特币是一个[点对点](https://planb.academy/resources/glossary/peertopeer-p2p)的电子现金系统。这句简单的话，也就是[白皮书](https://planb.academy/resources/glossary/white-paper)的标题，蕴含着许多关于比特币性质的线索：
 
 
 
@@ -142,7 +142,7 @@ BTC 202 是一门通俗易懂的课程，旨在教导您如何运行自己的比
 
 
 
-由于比特币是一个系统，因此必须在计算机上运行。而且，由于其点对点性质，运行这些计算机的责任由用户自己承担。我们所说的 "比特币节点" 正是指运行着比特币协议软件（如 Bitcoin Core，但我们稍后再谈论）的计算机。这就是比特币能在没有中央机构的情况下运行的原因：验证是通过分布式方式进行的，由属于成千上万用户的成千上万台独立机器执行。
+由于比特币是一个系统，因此必须在计算机上运行。而且，由于其点对点性质，运行这些计算机的责任由用户自己承担。我们所说的 "比特币[节点](https://planb.academy/resources/glossary/node)" 正是指运行着比特币协议软件（如 [Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core)，但我们稍后再谈论）的计算机。这就是比特币能在没有中央机构的情况下运行的原因：验证是通过[分布式](https://planb.academy/resources/glossary/distributed)方式进行的，由属于成千上万用户的成千上万台独立机器执行。
 
 
 
@@ -154,7 +154,7 @@ Nakamoto, S. (2008). *Bitcoin：A Peer-to-Peer Electronic Cash System*。https:/
 
 
 
-正是这些用户确保了比特币的安全性。正如 Eric Voskuil 在他的著作《加密经济学》（*Cryptoeconomics*）中讲述的，比特币的安全性既不依赖于区块链，也不依赖于哈希能力，更不依赖于验证、去中心化、密码学、开源或博弈论。比特币的安全性主要取决于愿意承担个人风险的个人。去中心化使这种风险分散到大量个人身上，只有他们的抵御能力才能确保系统的稳健性。
+正是这些用户确保了比特币的安全性。正如 Eric Voskuil 在他的著作《加密经济学》（*Cryptoeconomics*）中讲述的，比特币的安全性既不依赖于[区块链](https://planb.academy/resources/glossary/blockchain)，也不依赖于[哈希能力](https://planb.academy/resources/glossary/hashrate)，更不依赖于验证、去中心化、[密码学](https://planb.academy/resources/glossary/cryptography)、[开源](https://planb.academy/resources/glossary/foss)或博弈论。比特币的安全性主要取决于愿意承担个人风险的个人。去中心化使这种风险分散到大量个人身上，只有他们的抵御能力才能确保系统的稳健性。
 
 
 
@@ -171,9 +171,9 @@ Nakamoto, S. (2008). *Bitcoin：A Peer-to-Peer Electronic Cash System*。https:/
 
 
 
-- 比特币货币：本系统内交易使用的记账单位；
+- 比特币货币：本系统内[交易](https://planb.academy/resources/glossary/transaction-tx)使用的记账单位；
 - 比特币网络：所有相互连接的节点集合；
-- 比特币节点：运行比特币实现的机器；
+- 比特币节点：运行[比特币实现](https://planb.academy/resources/glossary/bitcoin-implementation)的机器；
 - 比特币实现：将协议转化为可执行指令的软件；
 - 比特币协议：一套规范系统运行的规则；
 - 比特币系统：所有这些元素系统的协调组合。
@@ -188,7 +188,7 @@ Nakamoto, S. (2008). *Bitcoin：A Peer-to-Peer Electronic Cash System*。https:/
 
 
 
-从一开始，比特币的设计就允许每个用户运行一个个人节点。这种情况在今天的 Bitcoin Core 软件中仍然有效，它结合了钱包和节点的作用。但如今，这一功能经常被分离：许多现代比特币钱包只是连接外部节点（无论是否为同一人所有）的钱包。
+从一开始，比特币的设计就允许每个用户运行一个个人节点。这种情况在今天的 Bitcoin Core 软件中仍然有效，它结合了[钱包](https://planb.academy/resources/glossary/wallet)和节点的作用。但如今，这一功能经常被分离：许多现代比特币钱包只是连接外部节点（无论是否为同一人所有）的钱包。
 
 
 
@@ -196,7 +196,7 @@ Nakamoto, S. (2008). *Bitcoin：A Peer-to-Peer Electronic Cash System*。https:/
 
 
 
-节点的首要任务是存储区块链的本地副本。为了在不涉及中央机构的情况下防止比特币上出现多重花费，每个用户都必须检查系统中是否存在任何交易。确保这一点的唯一方法就是了解在比特币网路上进行的所有交易。因此，所有交易都会带有时间戳，并被分组成块，每个节点都会存储整个比特币区块链。
+节点的首要任务是存储区块链的本地副本。为了在不涉及中央机构的情况下防止比特币上出现[多重花费](https://planb.academy/resources/glossary/double-spending-attack)，每个用户都必须检查系统中是否存在任何交易。确保这一点的唯一方法就是了解在比特币网路上进行的所有交易。因此，所有交易都会带有[时间戳](https://planb.academy/resources/glossary/timestamp)，并被分组成[块](https://planb.academy/resources/glossary/block)，每个节点都会存储整个比特币区块链。
 
 
 
@@ -206,7 +206,7 @@ Nakamoto, S. (2008). *Bitcoin：A Peer-to-Peer Electronic Cash System*。https:/
 
 
 
-因此，区块链是一个不断更新的列表：每当矿工发布一个新区块，节点都会检查其有效性，然后将其添加到自己的本地区块链副本中。截至今天（2025 年 7 月），完整的区块链大小已超过 675 GB，而且由于平均每 10 分钟就会添加一个新区块，这一规模还在继续增长。
+因此，区块链是一个不断更新的列表：每当[矿工](https://planb.academy/resources/glossary/miner)发布一个新区块，节点都会检查其有效性，然后将其添加到自己的本地区块链副本中。截至今天（2025 年 7 月），完整的区块链大小已超过 675 GB，而且由于平均每 10 分钟就会添加一个新区块，这一规模还在继续增长。
 
 
 
@@ -214,7 +214,7 @@ Nakamoto, S. (2008). *Bitcoin：A Peer-to-Peer Electronic Cash System*。https:/
 
 
 
-该节点还保存一个本地记录，其中包含在任何给定时间内存在的所有 UTXO（未花费的交易输出），即**UTXO集**。该数据库包含所有未花费的比特币“碎片”。我们将在课程的最后一部分详细讨论这个问题。
+该节点还保存一个本地记录，其中包含在任何给定时间内存在的所有 [UTXO](https://planb.academy/resources/glossary/utxo)（未花费的交易[输出](https://planb.academy/resources/glossary/output)），即**[UTXO集](https://planb.academy/resources/glossary/utxo-set)**。该数据库包含所有未花费的比特币“碎片”。我们将在课程的最后一部分详细讨论这个问题。
 
 
 
@@ -222,14 +222,14 @@ Nakamoto, S. (2008). *Bitcoin：A Peer-to-Peer Electronic Cash System*。https:/
 
 
 
-节点的第二个作用是确保交易的验证和传播。当新交易到达节点（通过钱包软件或其他节点）时，节点将检查该交易是否符合一系列规则（共识规则和中继规则）。例如：
+节点的第二个作用是确保交易的验证和[传播](https://planb.academy/resources/glossary/diffusion)。当新交易到达节点（通过钱包软件或其他节点）时，节点将检查该交易是否符合一系列规则（[共识规则](https://planb.academy/resources/glossary/consensus-rules)和[中继规则](https://planb.academy/resources/glossary/relay)）。例如：
 
 
 
 
 - 所花费的比特币必须存在于 UTXO 集（未花费的输出数据库）中；
-- 签名必须有效，并且必须满足所有支出条件（有效脚本）；
-- 输出总量不得超过输入总量，这意味着费用不能为负。
+- [签名](https://planb.academy/resources/glossary/digital-signature)必须有效，并且必须满足所有支出条件（有效[脚本](https://planb.academy/resources/glossary/script)）；
+- 输出总量不得超过[输入](https://planb.academy/resources/glossary/input)总量，这意味着[费用](https://planb.academy/resources/glossary/transaction-fees)不能为负。
 
 
 
@@ -237,7 +237,7 @@ Nakamoto, S. (2008). *Bitcoin：A Peer-to-Peer Electronic Cash System*。https:/
 
 
 
-经过验证后，交易会被存储在节点的内存池（Mempool）中，这是一个为未经确认的交易预留的临时内存空间，然后转发给与之相连的其他网络对等节点。这种分发和验证机制在节点之间持续进行。通过这种方式，交易在比特币网络中传播，每个节点都将其存储在 Mempool 中，直到矿工将其纳入一个有效区块，然后对其进行首次确认。
+经过验证后，交易会被存储在节点的内存池（[Mempool](https://planb.academy/resources/glossary/mempool)）中，这是一个为未经[确认](https://planb.academy/resources/glossary/confirmation)的交易预留的临时内存空间，然后转发给与之相连的其他网络对等节点。这种分发和验证机制在节点之间持续进行。通过这种方式，交易在比特币网络中传播，每个节点都将其存储在 Mempool 中，直到矿工将其纳入一个有效区块，然后对其进行首次确认。
 
 
 
@@ -245,7 +245,7 @@ Nakamoto, S. (2008). *Bitcoin：A Peer-to-Peer Electronic Cash System*。https:/
 
 
 
-节点的第三个作用是管理挖出的区块。当矿工发现一个带有有效工作证明（Proof-of-Work）的新区块时，它就会在网络上广播。节点收到消息后，它将检查其是否符合所有协议规则，如果有效，则将其整合到自己本地的区块链副本中。与交易一样，新验证的区块会被转发给与节点相连的所有对等节点。这个过程一直持续到比特币网络上的所有节点都知道新区块为止。
+节点的第三个作用是管理挖出的区块。当矿工发现一个带有有效[工作证明（Proof-of-Work）](https://planb.academy/resources/glossary/proof-of-work)的新区块时，它就会在网络上广播。节点收到消息后，它将检查其是否符合所有协议规则，如果有效，则将其整合到自己本地的区块链副本中。与交易一样，新验证的区块会被转发给与节点相连的所有对等节点。这个过程一直持续到比特币网络上的所有节点都知道新区块为止。
 
 
 

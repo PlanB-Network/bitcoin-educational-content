@@ -133,7 +133,7 @@ BTC 202 是一門易於學習的課程，旨在教您如何運行自己的比特
 
 
 
-正如其創造者 Satoshi Nakamoto 所描述的，Bitcoin 以點對點電子現金系統自居。這個簡單的句子，也就是白皮書的標題，包含了許多關於 Bitcoin 本質的線索：
+正如其創造者 [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) 所描述的，Bitcoin 以[點對點](https://planb.academy/resources/glossary/peertopeer-p2p)電子現金系統自居。這個簡單的句子，也就是[白皮書](https://planb.academy/resources/glossary/white-paper)的標題，包含了許多關於 Bitcoin 本質的線索：
 
 
 
@@ -144,7 +144,7 @@ BTC 202 是一門易於學習的課程，旨在教您如何運行自己的比特
 
 
 
-由於 Bitcoin 是一個系統，因此必須在電腦上執行。而且，由於其點對點的性質，這些電腦的運行是由使用者自己負責的。我們稱之為「Bitcoin 節點」的電腦，正是執行 Bitcoin 通訊協定 (如 Bitcoin core，但我們稍後會再談到) 軟體的電腦。這就是 Bitcoin 能夠在沒有中央機關的情況下運作的原因：驗證是以分散的方式進行，由屬於數以千計使用者的數千台獨立機器執行。
+由於 Bitcoin 是一個系統，因此必須在電腦上執行。而且，由於其點對點的性質，這些電腦的運行是由使用者自己負責的。我們稱之為「Bitcoin [節點](https://planb.academy/resources/glossary/node)」的電腦，正是執行 Bitcoin 通訊協定 (如 [Bitcoin core](https://planb.academy/resources/glossary/bitcoin-core)，但我們稍後會再談到) 軟體的電腦。這就是 Bitcoin 能夠在沒有中央機關的情況下運作的原因：驗證是以[分散](https://planb.academy/resources/glossary/distributed)的方式進行，由屬於數以千計使用者的數千台獨立機器執行。
 
 
 
@@ -156,7 +156,7 @@ Nakamoto, S. (2008). *Bitcoin：點對點電子現金系統*。https://Bitcoin.o
 
 
 
-正是這些使用者確保了 Bitcoin 的安全性。正如 Eric Voskuil 在他的著作 *Cryptoeconomics* 中所解釋的，Bitcoin 的安全性既不依靠 Blockchain，也不依靠雜湊能力，更不依靠驗證、去中心化、加密學、開放源碼或博弈理論。Bitcoin 的安全性主要取決於願意承擔個人風險的個人。去中心化允許這種風險分散到大量個人身上，只有他們的抵抗能力才能確保系統的穩健性。
+正是這些使用者確保了 Bitcoin 的安全性。正如 Eric Voskuil 在他的著作 *Cryptoeconomics* 中所解釋的，Bitcoin 的安全性既不依靠 [Blockchain](https://planb.academy/resources/glossary/blockchain)，也不依靠[雜湊能力](https://planb.academy/resources/glossary/hashrate)，更不依靠驗證、去中心化、[加密學](https://planb.academy/resources/glossary/cryptography)、[開放源碼](https://planb.academy/resources/glossary/foss)或博弈理論。Bitcoin 的安全性主要取決於願意承擔個人風險的個人。去中心化允許這種風險分散到大量個人身上，只有他們的抵抗能力才能確保系統的穩健性。
 
 
 
@@ -173,9 +173,9 @@ Nakamoto, S. (2008). *Bitcoin：點對點電子現金系統*。https://Bitcoin.o
 
 
 
-- Bitcoin 貨幣：本系統內交易使用的會計單位；
+- Bitcoin 貨幣：本系統內[交易](https://planb.academy/resources/glossary/transaction-tx)使用的會計單位；
 - Bitcoin 網路：所有連線節點的集合；
-- Bitcoin 節點：執行 Bitcoin 實作的機器；
+- Bitcoin 節點：執行 [Bitcoin 實作](https://planb.academy/resources/glossary/bitcoin-implementation)的機器；
 - Bitcoin 實作：將協定轉譯為可執行指令的軟體；
 - Bitcoin 通訊協定：規範系統作業的一組規則；
 - Bitcoin 系統：所有這些 Elements 的連貫組合。
@@ -190,7 +190,7 @@ Bitcoin 節點共同組成所謂的 Bitcoin 網路。這些節點可讓整個系
 
 
 
-從一開始，Bitcoin 的設計就允許每位使用者執行一個個人節點。這種情況在今天的 Bitcoin core 軟體中仍然有效，它結合了 Wallet 和節點的角色。但現在，這個功能經常被分離出來：許多現代的 Bitcoin 錢包只是連接外部節點（無論是否為同一人所有）的錢包。
+從一開始，Bitcoin 的設計就允許每位使用者執行一個個人節點。這種情況在今天的 Bitcoin core 軟體中仍然有效，它結合了 [Wallet](https://planb.academy/resources/glossary/wallet) 和節點的角色。但現在，這個功能經常被分離出來：許多現代的 Bitcoin 錢包只是連接外部節點（無論是否為同一人所有）的錢包。
 
 
 
@@ -198,7 +198,7 @@ Bitcoin 節點共同組成所謂的 Bitcoin 網路。這些節點可讓整個系
 
 
 
-節點的第一個任務是維護 Blockchain 的本機副本。為了防止 Bitcoin 上的 Double-spending 而不涉及中央機關，每個使用者都必須檢查系統中是否存在任何交易。要確定這一點的唯一方法是知道在 Bitcoin 上進行的所有交易。基於這個原因，所有的交易都有時間戳記，並歸組成區塊，每個節點都會儲存整個 Blockchain。
+節點的第一個任務是維護 Blockchain 的本機副本。為了防止 Bitcoin 上的 [Double-spending](https://planb.academy/resources/glossary/double-spending-attack) 而不涉及中央機關，每個使用者都必須檢查系統中是否存在任何交易。要確定這一點的唯一方法是知道在 Bitcoin 上進行的所有交易。基於這個原因，所有的交易都有[時間戳記](https://planb.academy/resources/glossary/timestamp)，並歸組成[區塊](https://planb.academy/resources/glossary/block)，每個節點都會儲存整個 Blockchain。
 
 
 
@@ -208,7 +208,7 @@ Nakamoto, S. (2008)。 *Bitcoin：點對點電子現金系統*。https://Bitcoin
 
 
 
-因此，Blockchain 是一個不斷演進的暫存器：每次 Miner 發佈新區塊時，節點都會檢查其有效性，然後將其加入到自己的本地區塊鏈副本中。截至今日 (2025 年 7 月)，完整的 Blockchain 已超過 675 GB，而且這個大小還在持續增加，因為平均每 10 分鐘就會新增一個新區塊。
+因此，Blockchain 是一個不斷演進的暫存器：每次 [Miner](https://planb.academy/resources/glossary/miner) 發佈新區塊時，節點都會檢查其有效性，然後將其加入到自己的本地區塊鏈副本中。截至今日 (2025 年 7 月)，完整的 Blockchain 已超過 675 GB，而且這個大小還在持續增加，因為平均每 10 分鐘就會新增一個新區塊。
 
 
 
@@ -216,7 +216,7 @@ Nakamoto, S. (2008)。 *Bitcoin：點對點電子現金系統*。https://Bitcoin
 
 
 
-該節點還會維護在任何特定時間存在的所有 UTXO 的本地記錄，稱為 **UTXO 集**。這個資料庫包含所有未使用的 Bitcoin 碎片。我們會在課程的最後部分再詳細討論這個主題。
+該節點還會維護在任何特定時間存在的所有 [UTXO](https://planb.academy/resources/glossary/utxo) 的本地記錄，稱為 **[UTXO 集](https://planb.academy/resources/glossary/utxo-set)**。這個資料庫包含所有未使用的 Bitcoin 碎片。我們會在課程的最後部分再詳細討論這個主題。
 
 
 
@@ -224,14 +224,14 @@ Nakamoto, S. (2008)。 *Bitcoin：點對點電子現金系統*。https://Bitcoin
 
 
 
-節點的第二個角色是確保交易的驗證和傳播。當新的交易到達節點 (透過 Wallet 軟體或其他節點)，節點會檢查它是否符合一組規則 (共識規則和中繼規則)。例如：
+節點的第二個角色是確保交易的驗證和[傳播](https://planb.academy/resources/glossary/diffusion)。當新的交易到達節點 (透過 Wallet 軟體或其他節點)，節點會檢查它是否符合一組規則 ([共識規則](https://planb.academy/resources/glossary/consensus-rules)和[中繼規則](https://planb.academy/resources/glossary/relay))。例如：
 
 
 
 
-- 已花費的 bitcoins 必須存在於其 UTXO 集 (未花費輸出的資料庫)；
-- 簽章必須有效，且必須符合所有支出條件 (有效的腳本)；
-- 輸出總量不得超過投入總量，這表示成本不能為負。
+- 已花費的 bitcoins 必須存在於其 UTXO 集 (未花費[輸出](https://planb.academy/resources/glossary/output)的資料庫)；
+- [簽章](https://planb.academy/resources/glossary/digital-signature)必須有效，且必須符合所有支出條件 (有效的[腳本](https://planb.academy/resources/glossary/script))；
+- 輸出總量不得超過[投入](https://planb.academy/resources/glossary/input)總量，這表示[成本](https://planb.academy/resources/glossary/transaction-fees)不能為負。
 
 
 
@@ -239,7 +239,7 @@ Nakamoto, S. (2008)。 *Bitcoin：點對點電子現金系統*。https://Bitcoin
 
 
 
-驗證完成後，交易會儲存在節點的 Mempool (預留給未驗證交易的臨時記憶體空間)，然後再轉發給與之相連的其他網路對等體。此分發與確認機制在節點與節點之間持續進行。如此一來，交易會在 Bitcoin 網路中傳播，每個節點都會將交易儲存在 Mempool 中，直到 Miner 將交易納入有效區塊中，再由 Miner 對其進行第一次確認。
+驗證完成後，交易會儲存在節點的 [Mempool](https://planb.academy/resources/glossary/mempool) (預留給未驗證交易的臨時記憶體空間)，然後再轉發給與之相連的其他網路對等體。此分發與[確認](https://planb.academy/resources/glossary/confirmation)機制在節點與節點之間持續進行。如此一來，交易會在 Bitcoin 網路中傳播，每個節點都會將交易儲存在 Mempool 中，直到 Miner 將交易納入有效區塊中，再由 Miner 對其進行第一次確認。
 
 
 
@@ -247,7 +247,7 @@ Nakamoto, S. (2008)。 *Bitcoin：點對點電子現金系統*。https://Bitcoin
 
 
 
-節點的第三個角色涉及管理已挖出的區塊。當 Miner 發現具有有效 Proof of Work 的新區塊時，就會在網路中廣播。節點會接收它，檢查它是否符合所有通訊協定規則，如果有效，就把它整合到自己本地的 Blockchain 副本中。與交易一樣，新驗證的區塊隨後會轉發給與節點連接的所有對等節點。這個過程一直持續到 Bitcoin 網路上的所有節點都知道新區塊為止。
+節點的第三個角色涉及管理已挖出的區塊。當 Miner 發現具有有效 [Proof of Work](https://planb.academy/resources/glossary/proof-of-work) 的新區塊時，就會在網路中廣播。節點會接收它，檢查它是否符合所有通訊協定規則，如果有效，就把它整合到自己本地的 Blockchain 副本中。與交易一樣，新驗證的區塊隨後會轉發給與節點連接的所有對等節點。這個過程一直持續到 Bitcoin 網路上的所有節點都知道新區塊為止。
 
 
 

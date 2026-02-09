@@ -133,7 +133,7 @@ Então, estão prontos para ativar o vosso primeiro nó Bitcoin? Trace uma rota 
 
 
 
-Tal como descrito pelo seu criador, Satoshi Nakamoto, o Bitcoin apresenta-se como um sistema de dinheiro eletrónico peer-to-peer. Esta simples frase, que é o título do Livro Branco, contém muitas pistas sobre a natureza do Bitcoin:
+Tal como descrito pelo seu criador, [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi), o Bitcoin apresenta-se como um sistema de dinheiro eletrónico [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p). Esta simples frase, que é o título do [Livro Branco](https://planb.academy/resources/glossary/white-paper), contém muitas pistas sobre a natureza do Bitcoin:
 
 
 
@@ -144,7 +144,7 @@ Tal como descrito pelo seu criador, Satoshi Nakamoto, o Bitcoin apresenta-se com
 
 
 
-Uma vez que o Bitcoin é um sistema, tem necessariamente de ser executado em computadores. E, devido à sua natureza peer-to-peer, são os próprios utilizadores que assumem a responsabilidade de gerir estas máquinas. O que chamamos de "nó Bitcoin" é precisamente o computador no qual o software que implementa o protocolo Bitcoin (como o Bitcoin core, mas voltaremos a isso mais tarde) está a correr. É isto que permite ao Bitcoin funcionar sem uma autoridade central: a validação é feita de forma distribuída, por milhares de máquinas independentes pertencentes a milhares de utilizadores.
+Uma vez que o Bitcoin é um sistema, tem necessariamente de ser executado em computadores. E, devido à sua natureza peer-to-peer, são os próprios utilizadores que assumem a responsabilidade de gerir estas máquinas. O que chamamos de "[nó Bitcoin](https://planb.academy/resources/glossary/node)" é precisamente o computador no qual o software que implementa o protocolo Bitcoin (como o [Bitcoin core](https://planb.academy/resources/glossary/bitcoin-core), mas voltaremos a isso mais tarde) está a correr. É isto que permite ao Bitcoin funcionar sem uma autoridade central: a validação é feita de forma [distribuída](https://planb.academy/resources/glossary/distributed), por milhares de máquinas independentes pertencentes a milhares de utilizadores.
 
 
 
@@ -156,7 +156,7 @@ Nakamoto, S. (2008). *Bitcoin: Um sistema de dinheiro eletrónico peer-to-peer*.
 
 
 
-São precisamente estes utilizadores que garantem a segurança do Bitcoin. Como explica Eric Voskuil no seu livro *Cryptoeconomics*, a segurança do Bitcoin não depende nem do Blockchain, nem do poder de hashing, nem da validação, nem da descentralização, nem da criptografia, nem do código aberto, nem da teoria dos jogos. A segurança do Bitcoin depende principalmente dos indivíduos que estão dispostos a expor-se a riscos pessoais. A descentralização permite que esse risco seja distribuído por um grande número de indivíduos, e é apenas a sua capacidade de resistir que garante a robustez do sistema.
+São precisamente estes utilizadores que garantem a segurança do Bitcoin. Como explica Eric Voskuil no seu livro *Cryptoeconomics*, a segurança do Bitcoin não depende nem do [Blockchain](https://planb.academy/resources/glossary/blockchain), nem do [poder de hashing](https://planb.academy/resources/glossary/hashrate), nem da validação, nem da descentralização, nem da [criptografia](https://planb.academy/resources/glossary/cryptography), nem do [código aberto](https://planb.academy/resources/glossary/foss), nem da teoria dos jogos. A segurança do Bitcoin depende principalmente dos indivíduos que estão dispostos a expor-se a riscos pessoais. A descentralização permite que esse risco seja distribuído por um grande número de indivíduos, e é apenas a sua capacidade de resistir que garante a robustez do sistema.
 
 
 
@@ -175,7 +175,7 @@ Podemos assim distinguir e nomear vários conceitos para clarificar as coisas pa
 
 - Moeda Bitcoin: a unidade de conta utilizada para as transacções neste sistema;
 - A rede Bitcoin: o conjunto de todos os nós ligados;
-- Nós Bitcoin: máquinas que executam uma implementação do Bitcoin;
+- Nós Bitcoin: máquinas que executam uma [implementação do Bitcoin](https://planb.academy/resources/glossary/bitcoin-implementation);
 - Implementações Bitcoin: software que traduz o protocolo em instruções executáveis;
 - Protocolo Bitcoin: o conjunto de regras que regem o funcionamento do sistema;
 - O sistema Bitcoin: a combinação coerente de todos estes Elements.
@@ -190,7 +190,7 @@ O conjunto dos nós Bitcoin constitui a chamada rede Bitcoin. Permitem que todo 
 
 
 
-Desde o início, o Bitcoin foi concebido para permitir a cada utilizador gerir um nó pessoal. Este caso permanece válido com o atual software Bitcoin core, que combina as funções de Wallet e de nó. Mas hoje em dia, esta função é muitas vezes dissociada: muitas carteiras Bitcoin modernas são apenas carteiras que se ligam a nós externos (pertencentes à mesma pessoa ou não).
+Desde o início, o Bitcoin foi concebido para permitir a cada utilizador gerir um nó pessoal. Este caso permanece válido com o atual software Bitcoin core, que combina as funções de [Wallet](https://planb.academy/resources/glossary/wallet) e de nó. Mas hoje em dia, esta função é muitas vezes dissociada: muitas carteiras Bitcoin modernas são apenas carteiras que se ligam a nós externos (pertencentes à mesma pessoa ou não).
 
 
 
@@ -198,7 +198,7 @@ Desde o início, o Bitcoin foi concebido para permitir a cada utilizador gerir u
 
 
 
-A primeira tarefa de um nó é manter uma cópia local do Blockchain. Para evitar o Double-spending no Bitcoin sem envolver uma autoridade central, cada utilizador deve verificar se não existe nenhuma transação no sistema. A única forma de ter a certeza disso é conhecer todas as transacções efectuadas no Bitcoin. Por esta razão, todas as transacções são marcadas com data e hora e agrupadas em blocos, e cada nó armazena todo o Blockchain.
+A primeira tarefa de um nó é manter uma cópia local do Blockchain. Para evitar o [Double-spending](https://planb.academy/resources/glossary/double-spending-attack) no Bitcoin sem envolver uma autoridade central, cada utilizador deve verificar se não existe nenhuma [transação](https://planb.academy/resources/glossary/transaction-tx) no sistema. A única forma de ter a certeza disso é conhecer todas as transacções efectuadas no Bitcoin. Por esta razão, todas as transacções são [marcadas com data e hora](https://planb.academy/resources/glossary/timestamp) e agrupadas em [blocos](https://planb.academy/resources/glossary/block), e cada nó armazena todo o Blockchain.
 
 
 
@@ -208,7 +208,7 @@ Nakamoto, S. (2008). *Bitcoin: Um sistema de dinheiro eletrónico peer-to-peer*.
 
 
 
-O Blockchain é, portanto, um registo em evolução: cada vez que um novo bloco é publicado por um Miner, o nó verifica a sua validade antes de o adicionar à sua própria cópia local da cadeia. A partir de hoje (julho de 2025), o Blockchain completo excede 675 GB, e este tamanho continua a crescer, uma vez que um novo bloco é adicionado, em média, a cada 10 minutos.
+O Blockchain é, portanto, um registo em evolução: cada vez que um novo bloco é publicado por um [Miner](https://planb.academy/resources/glossary/miner), o nó verifica a sua validade antes de o adicionar à sua própria cópia local da cadeia. A partir de hoje (julho de 2025), o Blockchain completo excede 675 GB, e este tamanho continua a crescer, uma vez que um novo bloco é adicionado, em média, a cada 10 minutos.
 
 
 
@@ -216,7 +216,7 @@ O Blockchain é, portanto, um registo em evolução: cada vez que um novo bloco 
 
 
 
-O nó também mantém um registo local de todos os UTXOs existentes num dado momento, conhecido como o **conjunto UTXO**. Esta base de dados contém todos os fragmentos não gastos do Bitcoin. Revisitaremos este assunto em pormenor na parte final do curso.
+O nó também mantém um registo local de todos os [UTXOs](https://planb.academy/resources/glossary/utxo) existentes num dado momento, conhecido como o **[conjunto UTXO](https://planb.academy/resources/glossary/utxo-set)**. Esta base de dados contém todos os fragmentos não gastos do Bitcoin. Revisitaremos este assunto em pormenor na parte final do curso.
 
 
 
@@ -224,14 +224,14 @@ O nó também mantém um registo local de todos os UTXOs existentes num dado mom
 
 
 
-A segunda função de um nó é assegurar a verificação e a propagação das transacções. Quando uma nova transação chega ao nó (através do software Wallet ou de outro nó), este verifica se a transação cumpre um conjunto de regras (regras de consenso e regras de retransmissão). Por exemplo:
+A segunda função de um nó é assegurar a verificação e a propagação das transacções. Quando uma nova transação chega ao nó (através do software Wallet ou de outro nó), este verifica se a transação cumpre um conjunto de regras ([regras de consenso](https://planb.academy/resources/glossary/consensus-rules) e [regras de retransmissão](https://planb.academy/resources/glossary/relay)). Por exemplo:
 
 
 
 
-- os bitcoins gastos devem existir no seu conjunto UTXO (a base de dados de saídas não gastas);
-- a assinatura deve ser válida e todas as condições de despesa devem ser cumpridas (guião válido);
-- o montante total das realizações não deve exceder o montante total das entradas, o que significa que os custos não podem ser negativos.
+- os bitcoins gastos devem existir no seu conjunto UTXO (a base de dados de [saídas](https://planb.academy/resources/glossary/output) não gastas);
+- a [assinatura](https://planb.academy/resources/glossary/digital-signature) deve ser válida e todas as condições de despesa devem ser cumpridas ([guião](https://planb.academy/resources/glossary/script) válido);
+- o montante total das realizações não deve exceder o montante total das [entradas](https://planb.academy/resources/glossary/input), o que significa que os [custos](https://planb.academy/resources/glossary/transaction-fees) não podem ser negativos.
 
 
 
@@ -239,7 +239,7 @@ A segunda função de um nó é assegurar a verificação e a propagação das t
 
 
 
-Após a validação, a transação é armazenada no Mempool do nó, um espaço de memória temporário reservado para transacções não confirmadas, e depois retransmitida para os outros pares da rede a que está ligado. Este mecanismo de distribuição e validação continua de nó para nó. Desta forma, a transação é propagada através da rede Bitcoin, e cada nó armazena-a no Mempool até ser incluída num bloco válido por um Miner, que actua então na sua primeira confirmação.
+Após a validação, a transação é armazenada no [Mempool](https://planb.academy/resources/glossary/mempool) do nó, um espaço de memória temporário reservado para transacções não confirmadas, e depois retransmitida para os outros pares da rede a que está ligado. Este mecanismo de distribuição e validação continua de nó para nó. Desta forma, a transação é propagada através da rede Bitcoin, e cada nó armazena-a no Mempool até ser incluída num bloco válido por um Miner, que actua então na sua primeira [confirmação](https://planb.academy/resources/glossary/confirmation).
 
 
 
@@ -247,7 +247,7 @@ Após a validação, a transação é armazenada no Mempool do nó, um espaço d
 
 
 
-O terceiro papel do nó envolve a gestão de blocos extraídos. Quando um Miner descobre um novo bloco com um Proof of Work válido, este é difundido na rede. Os nós recebem-no, verificam se está em conformidade com todas as regras do protocolo e integram-no na sua própria cópia local do Blockchain, se for válido. Tal como acontece com as transacções, os blocos recém-validados são então retransmitidos a todos os pares ligados ao nó. Este processo continua até que todos os nós da rede Bitcoin tenham conhecimento do novo bloco.
+O terceiro papel do nó envolve a gestão de blocos extraídos. Quando um Miner descobre um novo bloco com um [Proof of Work](https://planb.academy/resources/glossary/proof-of-work) válido, este é [difundido](https://planb.academy/resources/glossary/diffusion) na rede. Os nós recebem-no, verificam se está em conformidade com todas as regras do protocolo e integram-no na sua própria cópia local do Blockchain, se for válido. Tal como acontece com as transacções, os blocos recém-validados são então retransmitidos a todos os pares ligados ao nó. Este processo continua até que todos os nós da rede Bitcoin tenham conhecimento do novo bloco.
 
 
 

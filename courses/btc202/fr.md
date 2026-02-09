@@ -71,27 +71,27 @@ Alors, êtes-vous prêt à faire tourner votre premier nœud Bitcoin ? Cap sur l
 ## Qu’est-ce qu’un nœud Bitcoin ?
 <chapterId>0a9fd4e0-94ab-405e-924c-023397393027</chapterId>
 
-Comme le décrit Satoshi Nakamoto, son créateur, Bitcoin se présente comme un système de cash électronique pair-à-pair. Cette simple phrase, qui est le titre du White Paper, recèle de nombreux éléments pour cerner la nature de Bitcoin :
+Comme le décrit [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi), son créateur, Bitcoin se présente comme un système de cash électronique [pair-à-pair](https://planb.academy/resources/glossary/peertopeer-p2p). Cette simple phrase, qui est le titre du [White Paper](https://planb.academy/resources/glossary/white-paper), recèle de nombreux éléments pour cerner la nature de Bitcoin :
 - Tout d’abord, Satoshi qualifie Bitcoin de "système", autrement dit, un ensemble cohérent de composants matériels et logiciels qui interagissent pour fournir un service ou remplir une fonction précise ;
 - Ensuite, il explique que ce système permet l’utilisation d’un cash électronique, c’est-à-dire une forme de monnaie immatérielle ;
 - Enfin, il précise que ce système ne dépend d’aucune entité centrale : il est "pair-à-pair", ce qui signifie que ce sont les utilisateurs eux-mêmes qui font fonctionner le système.
 
-Puisque Bitcoin est un système, il doit nécessairement être exécuté sur des ordinateurs. Et, du fait de son caractère pair-à-pair, ce sont les utilisateurs eux-mêmes qui assument la responsabilité de faire tourner ces machines. Ce que l'on appelle un "nœud Bitcoin", c'est justement cet ordinateur sur lequel s’exécute un logiciel qui implémente le protocole Bitcoin (comme Bitcoin Core, mais nous y reviendrons plus tard). C’est ce qui permet à Bitcoin de fonctionner sans autorité centrale : la validation est assurée de manière distribuée, par des milliers de machines indépendantes appartenant à des milliers d'utilisateurs.
+Puisque Bitcoin est un système, il doit nécessairement être exécuté sur des ordinateurs. Et, du fait de son caractère pair-à-pair, ce sont les utilisateurs eux-mêmes qui assument la responsabilité de faire tourner ces machines. Ce que l'on appelle un "[nœud](https://planb.academy/resources/glossary/node) Bitcoin", c'est justement cet ordinateur sur lequel s’exécute un logiciel qui implémente le protocole Bitcoin (comme [Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core), mais nous y reviendrons plus tard). C’est ce qui permet à Bitcoin de fonctionner sans autorité centrale : la validation est assurée de manière [distribuée](https://planb.academy/resources/glossary/distributed), par des milliers de machines indépendantes appartenant à des milliers d'utilisateurs.
 
 ![Image](assets/fr/047.webp)
 
 Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
-Ce sont précisément ces utilisateurs qui assurent la sécurité de Bitcoin. Comme l’expose Eric Voskuil dans son ouvrage *Cryptoeconomics*, la sécurité de Bitcoin ne repose ni sur la blockchain ni sur la puissance de hachage ni sur la validation, la décentralisation, la cryptographie, l’open source ou la théorie des jeux. La sécurité de Bitcoin dépend avant tout des personnes qui acceptent de s’exposer à des risques personnels. La décentralisation permet de répartir cette prise de risque sur de nombreux individus et seule leur capacité à résister assure la robustesse du système.
+Ce sont précisément ces utilisateurs qui assurent la sécurité de Bitcoin. Comme l’expose Eric Voskuil dans son ouvrage *Cryptoeconomics*, la sécurité de Bitcoin ne repose ni sur la [blockchain](https://planb.academy/resources/glossary/blockchain) ni sur la [puissance de hachage](https://planb.academy/resources/glossary/hashrate) ni sur la validation, la décentralisation, la [cryptographie](https://planb.academy/resources/glossary/cryptography), l’[open source](https://planb.academy/resources/glossary/foss) ou la théorie des jeux. La sécurité de Bitcoin dépend avant tout des personnes qui acceptent de s’exposer à des risques personnels. La décentralisation permet de répartir cette prise de risque sur de nombreux individus et seule leur capacité à résister assure la robustesse du système.
 
 Ce principe est facile à comprendre : si Bitcoin dépendait d’un unique nœud détenu par une seule personne, il suffirait d’emprisonner cette personne pour mettre fin au réseau, puisqu'elle assumerait seule tous les risques. Avec des dizaines de milliers de nœuds répartis dans le monde, le risque est disséminé : il faudrait neutraliser chacun de ces opérateurs pour éteindre Bitcoin.
 
 ![Image](assets/fr/048.webp)
 
 On peut ainsi distinguer et nommer plusieurs concepts pour clarifier les choses pour la suite de ce cours :
-- La monnaie bitcoin : l’unité de compte utilisée pour les transactions au sein de ce système ;
+- La monnaie bitcoin : l’unité de compte utilisée pour les [transactions](https://planb.academy/resources/glossary/transaction-tx) au sein de ce système ;
 - Le réseau Bitcoin : l’ensemble constitué par tous les nœuds connectés ;
-- Les nœuds Bitcoin : les machines exécutant une implémentation de Bitcoin ;
+- Les nœuds Bitcoin : les machines exécutant une [implémentation de Bitcoin](https://planb.academy/resources/glossary/bitcoin-implementation) ;
 - Les implémentations de Bitcoin : les logiciels qui traduisent le protocole en instructions exécutables ;
 - Le protocole Bitcoin : l’ensemble des règles qui régissent le fonctionnement du système ;
 - Le système Bitcoin : la combinaison cohérente de l’ensemble de ces éléments.
@@ -100,36 +100,36 @@ On peut ainsi distinguer et nommer plusieurs concepts pour clarifier les choses 
 
 L'ensemble des nœuds Bitcoin représente donc ce que l'on appelle le réseau Bitcoin. Ce sont eux qui permettent à l’ensemble du système de fonctionner de manière autonome, sans recours à une autorité centrale ni à une hiérarchie de serveurs.
 
-Dès l’origine, Bitcoin a été conçu pour que chaque utilisateur exécute un nœud personnel. C’est encore ce que propose le logiciel Bitcoin Core aujourd'hui, qui combine à la fois le rôle de portefeuille et le rôle de nœud. Mais de nos jours, cette fonction est souvent dissociée : beaucoup de portefeuilles Bitcoin modernes sont simplement des portefeuilles qui se connectent à des nœuds externes (possédés par la même personne ou non).
+Dès l’origine, Bitcoin a été conçu pour que chaque utilisateur exécute un nœud personnel. C’est encore ce que propose le logiciel Bitcoin Core aujourd'hui, qui combine à la fois le rôle de [portefeuille](https://planb.academy/resources/glossary/wallet) et le rôle de nœud. Mais de nos jours, cette fonction est souvent dissociée : beaucoup de portefeuilles Bitcoin modernes sont simplement des portefeuilles qui se connectent à des nœuds externes (possédés par la même personne ou non).
 
 ### Conserver la blockchain
 
-La première mission d’un nœud consiste à conserver une copie locale de la blockchain. Pour empêcher la double dépense sur Bitcoin sans faire appel à une autorité centrale, chaque utilisateur doit vérifier l'inexistence d'une transaction dans le système. La seule manière d’en être certain est de connaître l’ensemble des transactions passées sur Bitcoin. C’est pourquoi toutes les transactions sont horodatées et regroupées dans des blocs, et chaque nœud stocke l’intégralité de la blockchain.
+La première mission d’un nœud consiste à conserver une copie locale de la blockchain. Pour empêcher la [double dépense](https://planb.academy/resources/glossary/double-spending-attack) sur Bitcoin sans faire appel à une autorité centrale, chaque utilisateur doit vérifier l'inexistence d'une transaction dans le système. La seule manière d’en être certain est de connaître l’ensemble des transactions passées sur Bitcoin. C’est pourquoi toutes les transactions sont [horodatées](https://planb.academy/resources/glossary/timestamp) et regroupées dans des [blocs](https://planb.academy/resources/glossary/block), et chaque nœud stocke l’intégralité de la blockchain.
 
 > Le seul moyen pour confirmer l’absence d’une transaction est d’être au courant de toutes les transactions.
 
 Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
-La blockchain est donc un registre évolutif : à chaque nouveau bloc publié par un mineur, le nœud en vérifie la validité avant de l’ajouter à sa propre copie locale de la chaîne. Aujourd’hui (juillet 2025), la blockchain complète dépasse les 675 Go, et cette taille continue d’augmenter, puisqu'un nouveau bloc est ajouté en moyenne toutes les 10 minutes.
+La blockchain est donc un registre évolutif : à chaque nouveau bloc publié par un [mineur](https://planb.academy/resources/glossary/miner), le nœud en vérifie la validité avant de l’ajouter à sa propre copie locale de la chaîne. Aujourd’hui (juillet 2025), la blockchain complète dépasse les 675 Go, et cette taille continue d’augmenter, puisqu'un nouveau bloc est ajouté en moyenne toutes les 10 minutes.
 
 ![Image](assets/fr/049.webp)
 
-Le nœud conserve également, en local, l’ensemble des UTXOs existants à un instant donné : il s’agit de ce que l’on appelle l’**UTXO set**. Cette base de données rassemble tous les fragments de bitcoins en attente d’être dépensés. Nous reviendrons en détail sur ce sujet dans la dernière partie de la formation.
+Le nœud conserve également, en local, l’ensemble des [UTXOs](https://planb.academy/resources/glossary/utxo) existants à un instant donné : il s’agit de ce que l’on appelle l’**[UTXO set](https://planb.academy/resources/glossary/utxo-set)**. Cette base de données rassemble tous les fragments de bitcoins en attente d’être dépensés. Nous reviendrons en détail sur ce sujet dans la dernière partie de la formation.
 
 ### Vérifier et diffuser les transactions
 
-Le deuxième rôle d’un nœud est d’assurer la vérification et la propagation des transactions. Lorsqu’une nouvelle transaction parvient au nœud (soit via un logiciel de portefeuille, soit via un autre nœud), il va vérifier qu'elle respecte bien un ensemble de règles (règles de consensus et règles de relais). Par exemple :
+Le deuxième rôle d’un nœud est d’assurer la vérification et la propagation des transactions. Lorsqu’une nouvelle transaction parvient au nœud (soit via un logiciel de portefeuille, soit via un autre nœud), il va vérifier qu'elle respecte bien un ensemble de règles ([règles de consensus](https://planb.academy/resources/glossary/consensus-rules) et règles de [relais](https://planb.academy/resources/glossary/relay)). Par exemple :
 - les bitcoins dépensés doivent exister dans son UTXO set (la base de données des sorties non dépensées) ;
-- la signature doit être valide, et toutes les conditions de dépense doivent être respectées (script valide) ;
-- le montant total des outputs ne doit pas dépasser celui des inputs, ce qui signifie que les frais ne peuvent être négatifs…
+- la [signature](https://planb.academy/resources/glossary/digital-signature) doit être valide, et toutes les conditions de dépense doivent être respectées ([script](https://planb.academy/resources/glossary/script) valide) ;
+- le montant total des [outputs](https://planb.academy/resources/glossary/output) ne doit pas dépasser celui des [inputs](https://planb.academy/resources/glossary/input), ce qui signifie que les [frais](https://planb.academy/resources/glossary/transaction-fees) ne peuvent être négatifs…
 
 ![Image](assets/fr/050.webp)
 
-Après validation, la transaction est enregistrée dans la mempool du nœud, un espace mémoire temporaire réservé aux transactions non confirmées, puis relayée aux autres pairs du réseau auxquels il est connecté. Ce mécanisme de diffusion et de validation se poursuit de nœud en nœud. Ainsi, la transaction se propage sur le réseau Bitcoin, et chaque nœud la conserve en mempool jusqu’à son inclusion dans un bloc valide par un mineur, qui actera alors sa première confirmation.
+Après validation, la transaction est enregistrée dans la [mempool](https://planb.academy/resources/glossary/mempool) du nœud, un espace mémoire temporaire réservé aux transactions non confirmées, puis relayée aux autres pairs du réseau auxquels il est connecté. Ce mécanisme de [diffusion](https://planb.academy/resources/glossary/diffusion) et de validation se poursuit de nœud en nœud. Ainsi, la transaction se propage sur le réseau Bitcoin, et chaque nœud la conserve en mempool jusqu’à son inclusion dans un bloc valide par un mineur, qui actera alors sa première [confirmation](https://planb.academy/resources/glossary/confirmation).
 
 ### Vérifier et diffuser les blocs
 
-Le troisième rôle du nœud concerne la gestion des blocs minés. Lorsqu’un mineur découvre un nouveau bloc doté d’une preuve de travail valide, il le diffuse sur le réseau. Les nœuds le reçoivent, en vérifient la conformité avec l’ensemble des règles du protocole, puis l’intègrent à leur propre copie locale de la blockchain s’il est valide. Comme pour les transactions, les nouveaux blocs validés sont ensuite relayés à l’ensemble des pairs connectés au nœud. Ce processus se poursuit jusqu’à ce que tous les nœuds du réseau Bitcoin aient connaissance de ce nouveau bloc.
+Le troisième rôle du nœud concerne la gestion des blocs minés. Lorsqu’un mineur découvre un nouveau bloc doté d’une [preuve de travail](https://planb.academy/resources/glossary/proof-of-work) valide, il le diffuse sur le réseau. Les nœuds le reçoivent, en vérifient la conformité avec l’ensemble des règles du protocole, puis l’intègrent à leur propre copie locale de la blockchain s’il est valide. Comme pour les transactions, les nouveaux blocs validés sont ensuite relayés à l’ensemble des pairs connectés au nœud. Ce processus se poursuit jusqu’à ce que tous les nœuds du réseau Bitcoin aient connaissance de ce nouveau bloc.
 
 ![Image](assets/fr/051.webp)
 

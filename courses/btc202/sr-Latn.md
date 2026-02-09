@@ -133,7 +133,7 @@ Dakle, jeste li spremni da uključite svoj prvi Bitcoin čvor? Postavite kurs za
 
 
 
-Kako je opisao njegov tvorac, Satoshi Nakamoto, Bitcoin se predstavlja kao peer-to-peer elektronski gotovinski sistem. Ova jednostavna rečenica, koja je naslov Bele knjige, sadrži mnoge tragove o prirodi Bitcoin:
+Kako je opisao njegov tvorac, [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi), Bitcoin se predstavlja kao [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) elektronski gotovinski sistem. Ova jednostavna rečenica, koja je naslov [Bele knjige](https://planb.academy/resources/glossary/white-paper), sadrži mnoge tragove o prirodi Bitcoin:
 
 
 
@@ -144,7 +144,7 @@ Kako je opisao njegov tvorac, Satoshi Nakamoto, Bitcoin se predstavlja kao peer-
 
 
 
-Pošto je Bitcoin sistem, mora se nužno pokretati na računarima. I, zbog svoje peer-to-peer prirode, sami korisnici preuzimaju odgovornost za pokretanje ovih mašina. Ono što nazivamo "Bitcoin čvor" je upravo taj računar na kojem se pokreće softver koji implementira Bitcoin protokol (kao Bitcoin core, ali o tome ćemo kasnije). Ovo je ono što omogućava Bitcoin da funkcioniše bez centralnog autoriteta: validacija se sprovodi na distribuiran način, od strane hiljada nezavisnih mašina koje pripadaju hiljadama korisnika.
+Pošto je Bitcoin sistem, mora se nužno pokretati na računarima. I, zbog svoje peer-to-peer prirode, sami korisnici preuzimaju odgovornost za pokretanje ovih mašina. Ono što nazivamo "Bitcoin [čvor](https://planb.academy/resources/glossary/node)" je upravo taj računar na kojem se pokreće softver koji implementira Bitcoin protokol (kao [Bitcoin core](https://planb.academy/resources/glossary/bitcoin-core), ali o tome ćemo kasnije). Ovo je ono što omogućava Bitcoin da funkcioniše bez centralnog autoriteta: validacija se sprovodi na [distribuiran](https://planb.academy/resources/glossary/distributed) način, od strane hiljada nezavisnih mašina koje pripadaju hiljadama korisnika.
 
 
 
@@ -156,7 +156,7 @@ Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://B
 
 
 
-Upravo ti korisnici osiguravaju bezbednost Bitcoin. Kako Eric Voskuil objašnjava u svojoj knjizi *Cryptoeconomics*, bezbednost Bitcoin ne zavisi ni od Blockchain, ni od snage heširanja, ni od validacije, decentralizacije, kriptografije, otvorenog koda, niti teorije igara. Bezbednost Bitcoin zavisi prvenstveno od pojedinaca koji su spremni da se izlože ličnom riziku. Decentralizacija omogućava da se ovaj rizik raspodeli na veliki broj pojedinaca, i samo njihova sposobnost da odole osigurava otpornost sistema.
+Upravo ti korisnici osiguravaju bezbednost Bitcoin. Kako Eric Voskuil objašnjava u svojoj knjizi *Cryptoeconomics*, bezbednost Bitcoin ne zavisi ni od [Blockchain](https://planb.academy/resources/glossary/blockchain), ni od [snage heširanja](https://planb.academy/resources/glossary/hashrate), ni od validacije, decentralizacije, [kriptografije](https://planb.academy/resources/glossary/cryptography), [otvorenog koda](https://planb.academy/resources/glossary/foss), niti teorije igara. Bezbednost Bitcoin zavisi prvenstveno od pojedinaca koji su spremni da se izlože ličnom riziku. Decentralizacija omogućava da se ovaj rizik raspodeli na veliki broj pojedinaca, i samo njihova sposobnost da odole osigurava otpornost sistema.
 
 
 
@@ -173,9 +173,9 @@ Možemo tako razlikovati i imenovati nekoliko pojmova kako bismo razjasnili stva
 
 
 
-- Bitcoin valuta: jedinica obračuna koja se koristi za transakcije unutar ovog sistema;
+- Bitcoin valuta: jedinica obračuna koja se koristi za [transakcije](https://planb.academy/resources/glossary/transaction-tx) unutar ovog sistema;
 - Mreža Bitcoin: skup svih povezanih čvorova;
-- Bitcoin čvorovi: mašine koje pokreću implementaciju Bitcoin;
+- Bitcoin čvorovi: mašine koje pokreću [implementaciju Bitcoin](https://planb.academy/resources/glossary/bitcoin-implementation);
 - implementacije Bitcoin: softver koji prevodi protokol u izvršne instrukcije;
 - Bitcoin protokol: skup pravila koja upravljaju radom sistema;
 - Sistem Bitcoin: koherentna kombinacija svih ovih Elements.
@@ -190,7 +190,7 @@ Bitcoin čvorovi zajedno formiraju ono što je poznato kao Bitcoin mreža. Oni o
 
 
 
-Od samog početka, Bitcoin je dizajniran da omogući svakom korisniku da pokrene lični čvor. Ovaj slučaj ostaje važeći i sa današnjim Bitcoin core softverom, koji kombinuje uloge Wallet i čvora. Ali danas se ova funkcija često razdvaja: mnogi moderni Bitcoin novčanici su samo novčanici koji se povezuju na eksterne čvorove (u vlasništvu iste osobe ili ne).
+Od samog početka, Bitcoin je dizajniran da omogući svakom korisniku da pokrene lični čvor. Ovaj slučaj ostaje važeći i sa današnjim Bitcoin core softverom, koji kombinuje uloge [Wallet](https://planb.academy/resources/glossary/wallet) i čvora. Ali danas se ova funkcija često razdvaja: mnogi moderni Bitcoin novčanici su samo novčanici koji se povezuju na eksterne čvorove (u vlasništvu iste osobe ili ne).
 
 
 
@@ -198,7 +198,7 @@ Od samog početka, Bitcoin je dizajniran da omogući svakom korisniku da pokrene
 
 
 
-Prvi zadatak čvora je da održava lokalnu kopiju Blockchain. Da bi se sprečio Double-spending na Bitcoin bez uključivanja centralnog autoriteta, svaki korisnik mora proveriti da ne postoji transakcija u sistemu. Jedini način da se u to bude siguran je da se poznaju sve transakcije napravljene na Bitcoin. Iz tog razloga, sve transakcije su vremenski označene i grupisane u blokove, a svaki čvor skladišti ceo Blockchain.
+Prvi zadatak čvora je da održava lokalnu kopiju Blockchain. Da bi se sprečio [Double-spending](https://planb.academy/resources/glossary/double-spending-attack) na Bitcoin bez uključivanja centralnog autoriteta, svaki korisnik mora proveriti da ne postoji transakcija u sistemu. Jedini način da se u to bude siguran je da se poznaju sve transakcije napravljene na Bitcoin. Iz tog razloga, sve transakcije su [vremenski označene](https://planb.academy/resources/glossary/timestamp) i grupisane u [blokove](https://planb.academy/resources/glossary/block), a svaki čvor skladišti ceo Blockchain.
 
 
 
@@ -208,7 +208,7 @@ Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://B
 
 
 
-Blockchain je stoga evoluirajući registar: svaki put kada Miner objavi novi blok, čvor proverava njegovu validnost pre nego što ga doda svojoj lokalnoj kopiji lanca. Zaključno sa današnjim danom (jul 2025), kompletan Blockchain premašuje 675 GB, a ova veličina nastavlja da raste, jer se u proseku novi blok dodaje svakih 10 minuta.
+Blockchain je stoga evoluirajući registar: svaki put kada [Miner](https://planb.academy/resources/glossary/miner) objavi novi blok, čvor proverava njegovu validnost pre nego što ga doda svojoj lokalnoj kopiji lanca. Zaključno sa današnjim danom (jul 2025), kompletan Blockchain premašuje 675 GB, a ova veličina nastavlja da raste, jer se u proseku novi blok dodaje svakih 10 minuta.
 
 
 
@@ -216,7 +216,7 @@ Blockchain je stoga evoluirajući registar: svaki put kada Miner objavi novi blo
 
 
 
-Čvor takođe održava lokalni zapis svih UTXO-a koji postoje u bilo kom trenutku, poznat kao **UTXO skup**. Ova baza podataka sadrži sve nepotrošene Bitcoin fragmente. Ovu temu ćemo detaljno razmotriti u završnom delu kursa.
+Čvor takođe održava lokalni zapis svih [UTXO-a](https://planb.academy/resources/glossary/utxo) koji postoje u bilo kom trenutku, poznat kao **[UTXO skup](https://planb.academy/resources/glossary/utxo-set)**. Ova baza podataka sadrži sve nepotrošene Bitcoin fragmente. Ovu temu ćemo detaljno razmotriti u završnom delu kursa.
 
 
 
@@ -224,14 +224,14 @@ Blockchain je stoga evoluirajući registar: svaki put kada Miner objavi novi blo
 
 
 
-Druga uloga čvora je da osigura verifikaciju i propagaciju transakcija. Kada nova transakcija stigne do čvora (bilo putem Wallet softvera ili drugog čvora), proveriće da li je u skladu sa skupom pravila (pravila konsenzusa i pravila prenosa). Na primer:
+Druga uloga čvora je da osigura verifikaciju i propagaciju transakcija. Kada nova transakcija stigne do čvora (bilo putem Wallet softvera ili drugog čvora), proveriće da li je u skladu sa skupom pravila ([pravila konsenzusa](https://planb.academy/resources/glossary/consensus-rules) i pravila [prenosa](https://planb.academy/resources/glossary/relay)). Na primer:
 
 
 
 
-- potrošeni bitkoini moraju postojati u svom UTXO skupu (bazi podataka nepotrošenih izlaza);
-- potpis mora biti važeći, i svi uslovi potrošnje moraju biti ispunjeni (važeći skript);
-- ukupna količina izlaza ne sme premašiti ukupnu količinu ulaza, što znači da troškovi ne mogu biti negativni.
+- potrošeni bitkoini moraju postojati u svom UTXO skupu (bazi podataka nepotrošenih [izlaza](https://planb.academy/resources/glossary/output));
+- [potpis](https://planb.academy/resources/glossary/digital-signature) mora biti važeći, i svi uslovi potrošnje moraju biti ispunjeni (važeći [skript](https://planb.academy/resources/glossary/script));
+- ukupna količina izlaza ne sme premašiti ukupnu količinu [ulaza](https://planb.academy/resources/glossary/input), što znači da [troškovi](https://planb.academy/resources/glossary/transaction-fees) ne mogu biti negativni.
 
 
 
@@ -239,7 +239,7 @@ Druga uloga čvora je da osigura verifikaciju i propagaciju transakcija. Kada no
 
 
 
-Nakon validacije, transakcija se čuva u čvoru Mempool, privremenom memorijskom prostoru rezervisanom za nepotvrđene transakcije, a zatim se prenosi drugim mrežnim čvorovima na koje je povezana. Ovaj mehanizam distribucije i validacije nastavlja se od čvora do čvora. Na ovaj način, transakcija se propagira kroz Bitcoin mrežu, i svaki čvor je čuva u Mempool dok nije uključena u važeći blok od strane Miner, koji zatim deluje na njenu prvu potvrdu.
+Nakon validacije, transakcija se čuva u čvoru [Mempool](https://planb.academy/resources/glossary/mempool), privremenom memorijskom prostoru rezervisanom za nepotvrđene transakcije, a zatim se prenosi drugim mrežnim čvorovima na koje je povezana. Ovaj mehanizam [distribucije](https://planb.academy/resources/glossary/diffusion) i validacije nastavlja se od čvora do čvora. Na ovaj način, transakcija se propagira kroz Bitcoin mrežu, i svaki čvor je čuva u Mempool dok nije uključena u važeći blok od strane Miner, koji zatim deluje na njenu prvu [potvrdu](https://planb.academy/resources/glossary/confirmation).
 
 
 
@@ -247,7 +247,7 @@ Nakon validacije, transakcija se čuva u čvoru Mempool, privremenom memorijskom
 
 
 
-Treća uloga čvora uključuje upravljanje iskopanim blokovima. Kada Miner otkrije novi blok sa važećim Proof of Work, on se emituje na mreži. Čvorovi ga primaju, proveravaju da li je u skladu sa svim pravilima protokola, i zatim ga integrišu u svoju lokalnu kopiju Blockchain ako je važeći. Kao i kod transakcija, novo potvrđeni blokovi se zatim prenose svim čvorovima povezanim na čvor. Ovaj proces se nastavlja dok svi čvorovi na Bitcoin mreži ne budu obavešteni o novom bloku.
+Treća uloga čvora uključuje upravljanje iskopanim blokovima. Kada Miner otkrije novi blok sa važećim [Proof of Work](https://planb.academy/resources/glossary/proof-of-work), on se emituje na mreži. Čvorovi ga primaju, proveravaju da li je u skladu sa svim pravilima protokola, i zatim ga integrišu u svoju lokalnu kopiju Blockchain ako je važeći. Kao i kod transakcija, novo potvrđeni blokovi se zatim prenose svim čvorovima povezanim na čvor. Ovaj proces se nastavlja dok svi čvorovi na Bitcoin mreži ne budu obavešteni o novom bloku.
 
 
 

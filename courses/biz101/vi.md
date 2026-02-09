@@ -66,20 +66,20 @@ Một loại tiền tệ tốt sở hữu một số đặc tính thiết yếu 
 
 
 - **Bảo mật**: Tiền tệ phải được bảo đảm chống lại trộm cắp hoặc truy cập trái phép, đảm bảo người dùng có thể giữ và chuyển tiền một cách an toàn. Bảo mật là yếu tố quan trọng để xây dựng lòng tin trong hệ thống.
-- **Chống làm giả**: Một loại tiền tệ phải cực kỳ khó hoặc không thể làm giả. Điều này đảm bảo mọi đơn vị đều là hàng thật, duy trì giá trị của nó và ngăn ngừa lạm phát do các đơn vị giả được lưu hành. Ví dụ, theo truyền thống, vàng được đánh giá cao không chỉ vì vẻ đẹp và sự hiếm có của nó, mà còn vì nó cực kỳ khó sản xuất. Không giống như tiền giấy hoặc các mục kỹ thuật số, bạn không thể chỉ "tạo ra" vàng mà phải khai thác nó từ lòng đất. Sự khan hiếm tự nhiên và khó sản xuất này đã giúp vàng duy trì vị thế là một kho lưu trữ giá trị đáng tin cậy và là chuẩn mực cho tính giá trị xác thực.
+- **Chống làm giả**: Một loại tiền tệ phải cực kỳ khó hoặc không thể làm giả. Điều này đảm bảo mọi đơn vị đều là hàng thật, duy trì giá trị của nó và ngăn ngừa [lạm phát](https://planb.academy/resources/glossary/inflation) do các đơn vị giả được lưu hành. Ví dụ, theo truyền thống, vàng được đánh giá cao không chỉ vì vẻ đẹp và sự hiếm có của nó, mà còn vì nó cực kỳ khó sản xuất. Không giống như tiền giấy hoặc các mục kỹ thuật số, bạn không thể chỉ "tạo ra" vàng mà phải [khai thác](https://planb.academy/resources/glossary/mining) nó từ lòng đất. Sự khan hiếm tự nhiên và khó sản xuất này đã giúp vàng duy trì vị thế là một kho lưu trữ giá trị đáng tin cậy và là chuẩn mực cho tính giá trị xác thực.
 - **Khan hiếm**: Một loại tiền tệ tốt phải có nguồn cung hạn chế hoặc phát hành có kiểm soát. Sự khan hiếm đảm bảo rằng giá trị của nó được bảo toàn theo thời gian, ngăn ngừa tình trạng sản xuất quá mức, điều này sẽ làm xói mòn sức mua. Ví dụ, một số bộ lạc người da đỏ bản địa ở Mỹ đã sử dụng hạt cườm như một hình thức tiền tệ. Ban đầu, những hạt cườm này rất khó sản xuất, duy trì được sự khan hiếm và giá trị của chúng. Tuy nhiên, khi các thương nhân châu Âu bắt đầu sản xuất hạt cườm hàng loạt và đổ ra tràn ngập thị trường, thì sự khan hiếm của chúng biến mất. Khi nguồn cung tăng vọt, hạt cườm mất đi sức mua, làm suy yếu vai trò của chúng như một kho lưu trữ giá trị đáng tin cậy.
 - **tự chủ**: Trước đây, các loại tiền tệ như vàng và bạc thường được đúc bởi các cá nhân tư nhân, chính quyền địa phương hoặc thương nhân có quyền tiếp cận nguyên liệu thô. Hệ thống này đôi khi hoạt động theo các thỏa thuận hoặc giấy phép do vua hoặc người cai trị cấp. Theo thời gian, các vị vua và chính phủ tập trung hóa quá trình này để kiểm soát chặt chẽ hơn sự ổn định kinh tế, thuế và hệ thống tiền tệ. Một ví dụ nổi tiếng là **thaler**, một loại tiền bạc được đúc lần đầu tiên vào năm 1518 tại **Thung lũng Joachimsthal** (ngày nay là Jáchymov ở Cộng hòa Séc) bởi các thợ mỏ và chính quyền địa phương. Tên "thaler" bắt nguồn từ từ tiếng Đức **"Thal"** có nghĩa là "thung lũng". Những đồng tiền này, được biết đến với chất lượng bạc cao, đã được lưu hành rộng rãi trên khắp châu Âu. Theo thời gian, thuật ngữ này đã phát triển về mặt ngôn ngữ và địa lý, cuối cùng dẫn đến tên gọi "đô la", được sử dụng làm đơn vị tiền tệ tại Mỹ.
 
 Trong thời đại hiện đại, tiền tệ đã được cấp phép hoàn toàn theo hệ thống seigniorage, nghĩa là chỉ những thực thể được ủy quyền—như ngân hàng trung ương hoặc quỹ dự phòng—mới có thể đúc tiền xu hoặc in tiền giấy. Cá nhân không còn được phép sản xuất tiền tệ theo luật định, đảm bảo kiểm soát tập trung đối với việc phát hành và cung cấp tiền.
 
-Ngày nay, nguyên tắc seigniorage bị thách thức bởi tiền điện tử Bitcoin, hoạt động mà không cần sự kiểm soát tập trung. Bitcoin là một hệ thống "tự chủ" nơi bất kỳ ai cũng có thể tham gia sử dụng tiền tệ mà không cần xin phép và thông qua khai thác, tạo ra nó. Sự phân cấp này xóa bỏ độc quyền phát hành của chính phủ, làm dấy lên câu hỏi về khả năng quay trở lại hệ thống tiền tệ cạnh tranh thị trường tự do.
+Ngày nay, nguyên tắc seigniorage bị thách thức bởi [tiền điện tử](https://planb.academy/resources/glossary/cryptocurrency) Bitcoin, hoạt động mà không cần sự kiểm soát tập trung. Bitcoin là một hệ thống "tự chủ" nơi bất kỳ ai cũng có thể tham gia sử dụng tiền tệ mà không cần xin phép và thông qua khai thác, tạo ra nó. Sự phân cấp này xóa bỏ độc quyền phát hành của chính phủ, làm dấy lên câu hỏi về khả năng quay trở lại hệ thống tiền tệ cạnh tranh thị trường tự do.
 
 
 - **Đơn vị tính toán**: Một loại tiền tệ tốt phải cung cấp thước đo chuẩn để so sánh giá trị của các loại hàng hóa và dịch vụ. Điều này giúp đơn giản hóa thương mại, minh bạch trong giá cả và nhất quán trong các giao dịch.
 - **Bền**: Tiền tệ phải chống chịu được sự bào mòn theo thời gian. Tiền tệ vật lý, như tiền xu hoặc tiền giấy, phải chống hư hỏng, trong khi tiền kỹ thuật số phải được lưu trữ bảo mật an toàn mà không có nguy cơ bị mất hoặc lấy trộm dữ liệu.
 - **Linh động**: Một loại tiền tệ tốt phải dễ vận chuyển và sử dụng, cho phép giao dịch qua nhiều khoảng cách địa lý. Điều này có thể đạt được thông qua lưu chuyển vật lý (tiền xu hoặc tiền giấy nhẹ) hoặc hệ thống mạng lưới truyền tải tiền kỹ thuật số.
 - **Có thể chia nhỏ**: Một loại tiền tệ tốt có thể chia thành các đơn vị nhỏ hơn để tạo điều kiện thuận lợi cho các giao dịch với nhiều quy mô khác nhau. Tính linh hoạt này đảm bảo tính thực tế cho cả các giao dịch nhỏ lẻ và giao dịch quy mô lớn.
-- **Có thể thay thế**: Tất cả các đơn vị tiền tệ phải có thể hoán đổi cho nhau và có giá trị như nhau. Ví dụ, mọi tờ đô la phải tương đương với bất kỳ tờ đô la nào khác có cùng giá trị. Sự thống nhất này đảm bảo tính công bằng và đơn giản trong các giao dịch.
+- **[Có thể thay thế](https://planb.academy/resources/glossary/fungibility)**: Tất cả các đơn vị tiền tệ phải có thể hoán đổi cho nhau và có giá trị như nhau. Ví dụ, mọi tờ đô la phải tương đương với bất kỳ tờ đô la nào khác có cùng giá trị. Sự thống nhất này đảm bảo tính công bằng và đơn giản trong các giao dịch.
 - **Có thể nhận dạng**: Một loại tiền tệ tốt phải dễ nhận dạng và đáng tin cậy. Tiền tệ vật lý đạt được điều này thông qua các thiết kế và tính năng bảo mật độc đáo, trong khi tiền tệ kỹ thuật số có thể dựa vào các giao thức xác minh. Điều này đảm bảo sự chấp nhận rộng rãi và giảm nguy cơ gian lận.
 
 Những đặc điểm này làm cho tiền tệ trở nên thiết thực, đáng tin cậy và hiệu quả trong việc tạo điều kiện thuận lợi cho giao dịch và lưu trữ giá trị trong nền kinh tế.
@@ -102,9 +102,9 @@ Các mạng lưới thanh toán hiện đại này đi kèm với một nhược
 
 **Từ tiền tệ tập trung sang tiền tệ phi tập trung: Tăng cường lòng tin và chủ quyền**
 
-Hiện nay, sự xuất hiện của đồng tiền phi tập trung Bitcoin đại diện cho bước nhảy vọt tiếp theo trong mạng lưới thanh toán. Tiền điện tử truyền thống dựa vào các cơ quan tập trung, chẳng hạn như ngân hàng hoặc chính phủ, để quản lý và xác minh các giao dịch. Mặc dù hữu dụng, nhưng các hệ thống này có những điểm yếu như thiếu hiệu quả, không bảo mật và lỗi thắt nút cổ chai. Loại tiền phi tập trung cải thiện các thuộc tính trong mạng lưới bằng cách **phân phối lòng tin và loại bỏ các trung gian**. Điều này cũng có nghĩa là tiền có thể di chuyển **nhanh hơn** và **rẻ hơn** rất nhiều, vì không qua các bước ủy quyền. Cuối cùng, không cá nhân nào có thể bị cám dỗ để thay đổi lịch trình cung cấp phát hành Bitcoin, vì nó được thực thi bằng phần mềm.
+Hiện nay, sự xuất hiện của đồng tiền phi tập trung Bitcoin đại diện cho bước nhảy vọt tiếp theo trong mạng lưới thanh toán. Tiền điện tử truyền thống dựa vào các cơ quan tập trung, chẳng hạn như ngân hàng hoặc chính phủ, để quản lý và xác minh các giao dịch. Mặc dù hữu dụng, nhưng các hệ thống này có những điểm yếu như thiếu hiệu quả, không bảo mật và lỗi thắt nút cổ chai. Loại tiền phi tập trung cải thiện các thuộc tính trong mạng lưới bằng cách **[phân phối](https://planb.academy/resources/glossary/distributed) lòng tin và loại bỏ các trung gian**. Điều này cũng có nghĩa là tiền có thể di chuyển **nhanh hơn** và **rẻ hơn** rất nhiều, vì không qua các bước ủy quyền. Cuối cùng, không cá nhân nào có thể bị cám dỗ để thay đổi [lịch trình cung cấp phát hành](https://planb.academy/resources/glossary/limite-demission) Bitcoin, vì nó được thực thi bằng phần mềm.
 
-Trong các hệ thống phi tập trung, các giao dịch được xác minh bởi một mạng lưới toàn cầu những người tham gia sử dụng công nghệ chuỗi khối (blockchain), đảm bảo tính bảo mật, minh bạch và khả năng chống chịu. Cấu trúc này giảm thiểu rủi ro gian lận, giảm sự phụ thuộc vào các cơ quan trung ương và trao quyền kiểm soát tài chính lại cho các cá nhân. Bằng cách loại bỏ các rào cản về mặt địa lý và thể chế, loại tiền tệ phi tập trung cung cấp một hệ thống tiền tệ cho mọi người và bao trùm toàn cầu.
+Trong các hệ thống phi tập trung, các giao dịch được xác minh bởi một mạng lưới toàn cầu những người tham gia sử dụng công nghệ [chuỗi khối](https://planb.academy/resources/glossary/blockchain) (blockchain), đảm bảo tính bảo mật, minh bạch và khả năng chống chịu. Cấu trúc này giảm thiểu rủi ro gian lận, giảm sự phụ thuộc vào các cơ quan trung ương và trao quyền kiểm soát tài chính lại cho các cá nhân. Bằng cách loại bỏ các rào cản về mặt địa lý và thể chế, loại tiền tệ phi tập trung cung cấp một hệ thống tiền tệ cho mọi người và bao trùm toàn cầu.
 
 **Sự phát triển của mạng lưới thanh toán**
 
@@ -190,14 +190,14 @@ Cũng giống như việc chúng ta thay đổi từ việc trả tiền theo ph
 
 **BITCOIN LÀ GÌ?**
 
-Bitcoin là **hệ thống trao đổi tiền kỹ thuật số ngang hàng** (tiền điện tử). Thuật ngữ "Bitcoin" đề cập đến các thành phần sau:
+Bitcoin là **hệ thống trao đổi tiền kỹ thuật số [ngang hàng](https://planb.academy/resources/glossary/peertopeer-p2p)** (tiền điện tử). Thuật ngữ "Bitcoin" đề cập đến các thành phần sau:
 
 
-- **Một giao thức máy tính** tạo điều kiện trao đổi giá trị trên internet mà không cần trung gian, không cần xin phép và bảo mật. Giao thức này sử dụng các nguyên tắc mật mã học cao cấp.
-- **Một mạng lưới vật lý** gồm các máy được kết nối với internet (các máy chủ, máy đào, v.v.) do các cá nhân và doanh nghiệp vận hành, tạo thành một hệ thống phi tập trung (không có cơ quan trung ương hoặc điểm kiểm soát duy nhất).
-- **Đơn vị tính toán** trong hệ thống. Sẽ không bao giờ có hơn 21 triệu bitcoin tồn tại. Mỗi bitcoin có thể chia thành 100 triệu đơn vị được gọi là “satoshi (sats)”, được đặt theo tên người sáng tạo ẩn danh của nó.
+- **Một giao thức máy tính** tạo điều kiện trao đổi giá trị trên internet mà không cần trung gian, không cần xin phép và bảo mật. Giao thức này sử dụng các nguyên tắc [mật mã học](https://planb.academy/resources/glossary/cryptography) cao cấp.
+- **Một mạng lưới vật lý** gồm các máy được kết nối với internet (các [máy chủ](https://planb.academy/resources/glossary/node), [máy đào](https://planb.academy/resources/glossary/miner), v.v.) do các cá nhân và doanh nghiệp vận hành, tạo thành một hệ thống phi tập trung (không có cơ quan trung ương hoặc điểm kiểm soát duy nhất).
+- **Đơn vị tính toán** trong hệ thống. Sẽ không bao giờ có hơn 21 triệu bitcoin tồn tại. Mỗi bitcoin có thể chia thành 100 triệu đơn vị được gọi là “[satoshi (sats)](https://planb.academy/resources/glossary/satoshi-sat)”, được đặt theo tên người sáng tạo ẩn danh của nó.
 
-Cùng nhau, chúng tạo nên Bitcoin là **tài sản cơ bản** và là tiền kỹ thuật số **không có bên phát hành**. Quyền sở hữu được bảo đảm chỉ bằng cách nắm giữ **khóa mật mã riêng**, cấp quyền kiểm soát hoàn toàn **mà không cần trung gian hoặc bên thứ ba đáng tin cậy**. Khi được chuyển nhượng, quyền sở hữu **tính cuối cùng** là ngay lập tức: người nắm giữ mới sở hữu hoàn toàn mà không cần dựa vào cơ quan trung ương để bảo vệ hoặc chuyển đổi. Các giao dịch là **không thể thay đổi**—một khi đã được ghi lại trên blockchain, chúng không thể bị thay đổi hoặc xóa.
+Cùng nhau, chúng tạo nên Bitcoin là **tài sản cơ bản** và là tiền kỹ thuật số **không có bên phát hành**. Quyền sở hữu được bảo đảm chỉ bằng cách nắm giữ **[khóa mật mã riêng](https://planb.academy/resources/glossary/private-key)**, cấp quyền kiểm soát hoàn toàn **mà không cần trung gian hoặc bên thứ ba đáng tin cậy**. Khi được chuyển nhượng, quyền sở hữu **tính cuối cùng** là ngay lập tức: người nắm giữ mới sở hữu hoàn toàn mà không cần dựa vào cơ quan trung ương để bảo vệ hoặc chuyển đổi. Các [giao dịch](https://planb.academy/resources/glossary/transaction-tx) là **không thể thay đổi**—một khi đã được ghi lại trên blockchain, chúng không thể bị thay đổi hoặc xóa.
 
 ![BIZ101](assets/vi/003.webp)
 
@@ -207,7 +207,7 @@ Các tính năng kỹ thuật của nó vượt trội hơn cả vàng và đô 
 
 ![BIZ101](assets/vi/004.webp)
 
-Bitcoin bảo toàn giá trị hiệu quả vì sổ cái của nó không thể bị giả mạo. Giá trị của nó tăng lên do nguồn cung hạn chế và hiếm kết hợp với số lượng cơ hội trao đổi ngày càng tăng, được thúc đẩy bởi số lượng người dùng ngày càng tăng.
+Bitcoin bảo toàn giá trị hiệu quả vì [sổ cái](https://planb.academy/resources/glossary/ledger) của nó không thể bị giả mạo. Giá trị của nó tăng lên do nguồn cung hạn chế và hiếm kết hợp với số lượng cơ hội trao đổi ngày càng tăng, được thúc đẩy bởi số lượng người dùng ngày càng tăng.
 
 Bitcoin mang tính đột phá vì nó khuyến khích chúng ta tìm hiểu các khái niệm về toán học, mật mã học, kinh tế và lịch sử mà chúng ta chưa từng được học. Mặc dù thường được coi là phức tạp, nhưng thực tế đây là một sáng kiến có thể tiếp cận thông qua thực hành và trải nghiệm.
 
@@ -218,7 +218,7 @@ Bitcoin thách thức chúng ta xem xét lại bản chất của chính tiền.
 
 - **Tuổi:** 15 tuổi (3 tháng 1 năm 2009)
 - **Giá trị trao đổi hàng ngày:** 10 tỷ đô la (> CAC40)
-- **Vốn hóa thị trường:** 1,8 nghìn tỷ đô la (> Meta, Visa, Silver; < Apple, Google, Gold)
+- **[Vốn hóa thị trường](https://planb.academy/resources/glossary/market-cap-capitalization):** 1,8 nghìn tỷ đô la (> Meta, Visa, Silver; < Apple, Google, Gold)
 - **Người dùng:** ~100 đến 200 triệu (1-2% dân số toàn cầu)
 - **Độ biến động:** Về bản chất là không có (1 Bitcoin = 1 Bitcoin), rất cao ở bên ngoài (trong các sàn giao dịch tiền tệ pháp định (fiat))
 - **Hiệu suất:** Giao dịch đầu tiên ở mức 0,0009 đô la; hiện tại là 100.000 đô la (x100 triệu)
@@ -228,14 +228,14 @@ Bitcoin thách thức chúng ta xem xét lại bản chất của chính tiền.
 **Một kỳ quan của sự hợp tác giữa con người với nhau:**
 
 
-- Hoàn toàn **mã nguồn mở**
+- Hoàn toàn **[mã nguồn mở](https://planb.academy/resources/glossary/foss)**
 - **Thực thể pháp lý:** Không
 - **Tổng giám đốc điều hành:** Không
 - **Đầu tư vốn mạo hiểm:** Không
 - **Tiếp thị:** Không
 - **R&D:** Do tình nguyện viên thực hiện
 - **Quản trị:** Bởi người dùng
-- **Mô hình kinh tế sáng tạo:** Việc tạo khối được trợ cấp bằng phí giao dịch (dựa trên đấu giá)
+- **Mô hình kinh tế sáng tạo:** Việc tạo khối được [trợ cấp](https://planb.academy/resources/glossary/block-subsidy) bằng [phí giao dịch](https://planb.academy/resources/glossary/transaction-fees) (dựa trên đấu giá)
 
 Để biết thêm thông tin về Bitcoin, lịch sử, cách thức hoạt động và cách sử dụng, tôi cũng đề xuất bạn nên tham khảo khóa học này:
 
@@ -246,18 +246,18 @@ https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 **LIGHTNING LÀ GÌ?**
 
-Mạng Lightning là **một giao thức và mạng lưới** tạo điều kiện cho các giao dịch Bitcoin với tương tác tối thiểu với chuỗi khối dữ liệu (blockchain) chính của Bitcoin. Sau đây là cách thức hoạt động của nó:
+[Mạng Lightning](https://planb.academy/resources/glossary/lightning-network) là **một giao thức và mạng lưới** tạo điều kiện cho các giao dịch Bitcoin với tương tác tối thiểu với chuỗi khối dữ liệu (blockchain) chính của Bitcoin. Sau đây là cách thức hoạt động của nó:
 
 
-- **Thiết lập ban đầu:** Tiền được khóa (ký quỹ) trên chuỗi khối dữ liệu (blockchain) chính để thiết lập kênh thanh toán giữa 2 bên.
+- **Thiết lập ban đầu:** Tiền được khóa (ký quỹ) [trên chuỗi](https://planb.academy/resources/glossary/onchain) khối dữ liệu (blockchain) chính để thiết lập [kênh thanh toán](https://planb.academy/resources/glossary/payment-channel) giữa 2 bên.
 - **Mạng thanh toán:** Một mạng lưới các kênh thanh toán giữa nhiều bên tạo thành một mạng thanh toán (theo kết nối và định tuyến).
-- **Giao dịch ngoài chuỗi:** Giao dịch diễn ra giữa các bên nhưng **không được công bố ngay lập tức** trên chuỗi khối chính của Bitcoin (**"ngoài chuỗi"**).
+- **Giao dịch [ngoài chuỗi](https://planb.academy/resources/glossary/offchain):** Giao dịch diễn ra giữa các bên nhưng **không được công bố ngay lập tức** trên chuỗi khối chính của Bitcoin (**"ngoài chuỗi"**).
 - **Thanh toán trên chuỗi:** Chỉ **số dư cuối cùng** của các giao dịch của kênh được công bố trên chuỗi khối chính của Bitcoin (**"trên chuỗi**"), cho phép nhiều giao dịch diễn ra trong thời gian đó. Việc gộp nhiều khoản thanh toán này làm giảm tình trạng tắc nghẽn và do đó giảm phí so với việc thực hiện nhiều giao dịch trên chuỗi.
 - **Đóng kênh:** Người dùng có thể đóng kênh của họ bất kỳ lúc nào và lấy lại Bitcoin của họ bằng cách công bố trạng thái giao dịch mới nhất. Đây là nguyên tắc giao dịch **"có thể công bố" bất kỳ lúc nào nhưng "chưa được công bố"** cho đến khi cần thiết. Việc thoát (đóng kênh) có thể là đơn phương (do bất kỳ bên nào trong 2 bên quyết định bất kỳ lúc nào) hoặc được quyết định chung (dẫn đến phí trên chuỗi thấp hơn)
 
 ![BIZ101](assets/vi/005.webp)
 
-Cách tiếp cận này tránh được sự chậm chạp và phức tạp khi thực hiện mọi giao dịch trực tiếp trên chuỗi khối dữ liệu (blockchain) chính của Bitcoin, chỉ ghi lại số dư cuối cùng và duy trì tính bảo mật của nó. Mạng Lightning là một lớp "ở trên" Bitcoin nhưng vẫn được neo vào nó.
+Cách tiếp cận này tránh được sự chậm chạp và phức tạp khi thực hiện mọi giao dịch trực tiếp trên chuỗi khối dữ liệu (blockchain) chính của Bitcoin, chỉ ghi lại số dư cuối cùng và duy trì tính bảo mật của nó. Mạng Lightning là một [lớp](https://planb.academy/resources/glossary/layer) "ở trên" Bitcoin nhưng vẫn được neo vào nó.
 
 **Mạng lưới thanh toán toàn cầu**
 
@@ -361,7 +361,7 @@ Trong lý thuyết kinh tế truyền thống (Keynesian), vốn thường đư�
 
 6. Sự bình thường hóa văn hóa của luận điệu chống chủ nghĩa tư bản?
 
-May mắn thay, Bitcoin buộc chúng ta phải suy nghĩ lại mọi thứ và thách thức những quan niệm cố hữu này. Có một trường phái tư tưởng—Trường phái Kinh tế Áo—có thể làm sáng tỏ những vấn đề này và giúp chúng ta xem xét lại bản chất thực sự của vốn.
+May mắn thay, Bitcoin buộc chúng ta phải suy nghĩ lại mọi thứ và thách thức những quan niệm cố hữu này. Có một trường phái tư tưởng—[Trường phái Kinh tế Áo](https://planb.academy/resources/glossary/austrian-school)—có thể làm sáng tỏ những vấn đề này và giúp chúng ta xem xét lại bản chất thực sự của vốn.
 
 **Ngày xửa ngày xưa**
 
@@ -462,7 +462,7 @@ Chúng ta hãy cùng xem xét nhanh môi trường hoạt động của các doa
 
 **Lạm phát thực**: Trái với sự thất vọng từ nhiệm vụ của các ngân hàng trung ương nhắm mục tiêu lạm phát hàng năm 2%, nghĩa là mất 40% giá trị tiền tệ trong 20 năm. Cộng thêm các giai đoạn lạm phát rõ rệt hơn, rõ ràng là các công ty không thể chỉ sử dụng tiền tệ để lưu trữ thành quả lao động của mình. Họ phải triển khai các chiến lược tài chính phức tạp, tất yếu đi kèm với một loạt rủi ro. Rõ ràng là các chiến lược này **không thể tiếp cận được với các doanh nghiệp rất nhỏ**, vốn đã bận rộn với các hoạt động cốt lõi của mình.
 
-**Lạm phát ẩn**: Trong hệ thống tiền tệ dự trữ một phần dựa trên nợ được các ngân hàng trung ương hỗ trợ, **tổng cung tiền tăng trung bình khoảng 7% mỗi năm** (ví dụ: M1 ở Khu vực đồng tiền chung châu Âu hoặc Mỹ). Điều này có nghĩa là "phần chia của chiếc bánh" của bạn bị cắt giảm một nửa chỉ trong vài năm—trừ khi bạn có quyền truy cập đặc quyền vào nguồn tài chính và có thể tiếp tục tăng trưởng bằng cách sử dụng đòn bẩy và mua tài sản nhanh chóng với "giá cũ" trước khi tiền mới tạo ra đẩy chúng lên. Đây là hiệu ứng Cantillon, hiệu ứng này giải thích một phần việc chuyển giao của cải cho những người giàu có hơn, trong khi "vốn" bị đổ lỗi là thủ phạm (xem phần giới thiệu về vốn ở trên).
+**Lạm phát ẩn**: Trong hệ thống tiền tệ [dự trữ một phần](https://planb.academy/resources/glossary/fractional-reserves) dựa trên nợ được các ngân hàng trung ương hỗ trợ, **tổng cung tiền tăng trung bình khoảng 7% mỗi năm** (ví dụ: M1 ở Khu vực đồng tiền chung châu Âu hoặc Mỹ). Điều này có nghĩa là "phần chia của chiếc bánh" của bạn bị cắt giảm một nửa chỉ trong vài năm—trừ khi bạn có quyền truy cập đặc quyền vào nguồn tài chính và có thể tiếp tục tăng trưởng bằng cách sử dụng đòn bẩy và mua tài sản nhanh chóng với "giá cũ" trước khi tiền mới tạo ra đẩy chúng lên. Đây là hiệu ứng Cantillon, hiệu ứng này giải thích một phần việc chuyển giao của cải cho những người giàu có hơn, trong khi "vốn" bị đổ lỗi là thủ phạm (xem phần giới thiệu về vốn ở trên).
 
 **Rủi ro đối tác**: Hệ thống tài chính hiện tại rất rủi ro và bạn có thể không phải lúc nào cũng có thể tiếp cận được "tiền của mình". Không cần phải viện dẫn hình ảnh ngôi nhà xây trên cát, chúng ta phải thừa nhận rằng các tổ chức tài chính tư nhân hóa lợi nhuận và xã hội hóa các khoản lỗ khi có khủng hoảng dù là nhỏ nhất. Trong hệ thống tiền "kinh thánh" (tiền được ghi vào sổ cái), tiền trong ngân hàng chỉ là một "khoản yêu cầu"; bạn không thực sự sở hữu nó và bản thân các ngân hàng "không có nó" (dự trữ một phần). Theo một cách nào đó, số tiền này thực sự kỳ diệu. Một số ngân hàng uy tín từng chế giễu Bitcoin hiện không còn tồn tại nữa, chẳng hạn như Credit Suisse.
 
@@ -527,7 +527,7 @@ Việc áp dụng Bitcoin ngày càng tăng ở Mỹ cũng đang ảnh hưởng 
 
 Theo quan điểm thuần túy về tài chính, Bitcoin được công nhận là một tài sản đa dạng hóa. Không chỉ không tương quan với các loại tiền tệ khác, nó còn có vẻ phát triển mạnh trong thời kỳ có đợt bơm thanh khoản mới—một giai đoạn như vậy dường như bắt đầu với việc ECB, Fed và Trung Quốc hạ lãi suất.
 
-Tóm lại, đối với trường hợp sử dụng phổ biến nhất— trích lập đầu tư quỹ dự phòng trong ít nhất bốn năm—Bitcoin hoàn toàn phù hợp. Rất đáng khi kết hợp nó với chiến lược tham gia dần đều: đầu tư số tiền cố định theo các khoảng thời gian đều đặn để làm phẳng điểm vào hoặc ra.
+Tóm lại, đối với trường hợp sử dụng phổ biến nhất— trích lập đầu tư quỹ dự phòng trong ít nhất bốn năm—Bitcoin hoàn toàn phù hợp. Rất đáng khi kết hợp nó với [chiến lược tham gia dần đều](https://planb.academy/resources/glossary/dollar-cost-averaging-dca): đầu tư số tiền cố định theo các khoảng thời gian đều đặn để làm phẳng điểm vào hoặc ra.
 
 Các trường hợp sử dụng khác khiến Bitcoin trở thành tài sản quỹ dự phòng chiến lược, ví dụ:
 
@@ -539,7 +539,7 @@ Các trường hợp sử dụng khác khiến Bitcoin trở thành tài sản q
 
 ### Bitcoin có quá đắt không?
 
-Bạn không cần phải mua chính xác 1 Bitcoin, vì Bitcoin có thể chia thành các đơn vị con gọi là satoshi (sats), được đặt theo tên người sáng tạo ẩn danh của nó. Một bitcoin bằng **100 triệu satoshi (sats)**, cho phép người dùng mua, bán hoặc giao dịch ngay cả **một phần rất nhỏ của một bitcoin**. Trên thực tế, trong mã nguồn của Bitcoin, tất cả các giao dịch đều được tính bằng satoshi (sats), và thuật ngữ "bitcoin" chỉ xuất hiện trong "coinbase", giao dịch đặc biệt mà thợ đào tạo ra để nhận phần thưởng của họ.
+Bạn không cần phải mua chính xác 1 Bitcoin, vì Bitcoin có thể chia thành các đơn vị con gọi là satoshi (sats), được đặt theo tên người sáng tạo ẩn danh của nó. Một bitcoin bằng **100 triệu satoshi (sats)**, cho phép người dùng mua, bán hoặc giao dịch ngay cả **một phần rất nhỏ của một bitcoin**. Trên thực tế, trong mã nguồn của Bitcoin, tất cả các giao dịch đều được tính bằng satoshi (sats), và thuật ngữ "bitcoin" chỉ xuất hiện trong "[coinbase](https://planb.academy/resources/glossary/coinbase-transaction)", giao dịch đặc biệt mà thợ đào tạo ra để nhận phần thưởng của họ.
 
 Hơn nữa, tổng số 21 triệu bitcoin—hay **2,1 nghìn tỷ satoshi (sats)**—có thể được biểu diễn hiệu quả bằng số nguyên 64 bit. Điều này có nghĩa là mặc dù giá cho mỗi bitcoin nguyên cao, nhưng nó vẫn có thể tiếp cận được với nhiều nhà đầu tư nhờ tính có thể chia nhỏ của nó. Do đó, bạn không cần phải mua toàn bộ bitcoin để tham gia vào mạng lưới hoặc đầu tư vào tài sản mã hóa này.
 
@@ -597,7 +597,7 @@ Vì Bitcoin hoạt động như một phương tiện trao đổi, nên có th�
 
 - **Mua Bitcoin:**
 
-Đây là phương pháp phổ biến nhất, được thực hiện thông qua các sàn giao dịch hàng ngang hoặc thông thường là trên các nền tảng giao dịch chuyên biệt. Nhưng khi mua Bitcoin như một tài sản quỹ dự phòng của công ty, các công ty phải tuân thủ các tiêu chuẩn quản lý chặt chẽ và các thủ tục Biết khách hàng của bạn (KYC). Khi mua trên các nền tảng giao dịch chuyên biệt, các doanh nghiệp thường được yêu cầu cung cấp thông tin chi tiết về công ty, bao gồm các tài liệu nhận dạng, báo cáo tài chính và bằng chứng về địa chỉ, để đáp ứng các yêu cầu về KYC và chống rửa tiền (AML).
+Đây là phương pháp phổ biến nhất, được thực hiện thông qua các sàn giao dịch hàng ngang hoặc thông thường là trên các nền tảng giao dịch chuyên biệt. Nhưng khi mua Bitcoin như một tài sản quỹ dự phòng của công ty, các công ty phải tuân thủ các tiêu chuẩn quản lý chặt chẽ và các thủ tục Biết khách hàng của bạn ([KYC](https://planb.academy/resources/glossary/kyc-know-your-customer)). Khi mua trên các nền tảng giao dịch chuyên biệt, các doanh nghiệp thường được yêu cầu cung cấp thông tin chi tiết về công ty, bao gồm các tài liệu nhận dạng, báo cáo tài chính và bằng chứng về địa chỉ, để đáp ứng các yêu cầu về KYC và chống rửa tiền (AML).
 
 Để tìm hiểu cách mở tài khoản doanh nghiệp và sử dụng tài khoản này để mua, bán và chuyển bitcoin, bạn có thể xem hai hướng dẫn được thiết kế riêng cho doanh nghiệp, bao gồm các nền tảng Kraken và Bitfinex trong phiên bản dành cho doanh nghiệp:
 
@@ -639,7 +639,7 @@ Ngành bất động sản thường lặp lại rằng “luôn là thời đi�
 
 Bạn không sở hữu Bitcoin về mặt vật lý. Thay vào đó, bạn nắm giữ một khóa mật mã cho phép bạn chuyển quyền sở hữu một số hoặc toàn bộ đơn vị tài khoản của mình sang một hoặc nhiều khóa mật mã khác. Tất cả những điều này diễn ra trên chuỗi khối Bitcoin, được sao chép trên hàng chục nghìn máy chủ trên toàn thế giới.
 
-Khóa mật mã này là một số ngẫu nhiên cực lớn. Để đơn giản hóa trải nghiệm của người dùng, nó thường được biểu diễn dưới dạng một chuỗi gồm 12 hoặc 24 từ. Những từ này có thể được tải lên một thiết bị vật lý được gọi là "ví cứng". Tuy nhiên, hãy hiểu rằng bitcoin không "nằm bên trong" thiết bị này; nó chỉ đơn giản là một công cụ để ký mã hóa các giao dịch và phát chúng lên mạng. Điều thực sự quan trọng là 12 hoặc 24 từ, phải được giữ an toàn.
+Khóa mật mã này là một số ngẫu nhiên cực lớn. Để đơn giản hóa trải nghiệm của người dùng, nó thường được biểu diễn dưới dạng một chuỗi gồm 12 hoặc 24 từ. Những từ này có thể được tải lên một thiết bị vật lý được gọi là "[ví cứng](https://planb.academy/resources/glossary/hardware-wallet)". Tuy nhiên, hãy hiểu rằng bitcoin không "nằm bên trong" thiết bị này; nó chỉ đơn giản là một công cụ để ký mã hóa các giao dịch và phát chúng lên mạng. Điều thực sự quan trọng là 12 hoặc 24 từ, phải được giữ an toàn.
 
 Điều này dẫn đến vấn đề lưu ký: giữ Bitcoin có nghĩa là giữ chìa khóa. Bạn tự giữ chúng hoặc bạn giao nhiệm vụ cho bên thứ ba. Ngoài ra còn có các giải pháp trung gian. Hãy cùng xem xét các tình huống phổ biến nhất:
 
@@ -660,7 +660,7 @@ Ví dụ, một sàn giao dịch hoặc dịch vụ mua có thể tạo tài kho
 
 ![BIZ101](assets/vi/014.webp)
 
-Ngoài ra, hình thức bạn nắm giữ Bitcoin có tác động đáng kể đến các biện pháp bảo mật cần thiết để bảo vệ quỹ dự phòng của công ty bạn. Cho dù bạn chọn tự lưu ký, sử dụng ví cứng chữ ký đơn hoặc đa chữ ký, v.v. để duy trì quyền kiểm soát trực tiếp đối với khóa của mình hay ủy quyền nhiệm vụ này cho các dịch vụ lưu ký của bên thứ ba hoặc ETF, thì mỗi tùy chọn đều có hồ sơ rủi ro riêng. Ví dụ, tự lưu ký cung cấp quyền truy cập đầy đủ nhưng đòi hỏi các giao thức bảo mật nội bộ nghiêm ngặt, trong khi các giải pháp của bên thứ ba giảm gánh nặng quản lý với cái giá phải trả là rủi ro đối tác. Để minh họa thêm cho sự khác biệt, biểu đồ này phác thảo mô hình bảo mật cho từng loại lưu ký, giúp bạn lựa chọn phương pháp phù hợp nhất với nhu cầu của tổ chức mình:
+Ngoài ra, hình thức bạn nắm giữ Bitcoin có tác động đáng kể đến các biện pháp bảo mật cần thiết để bảo vệ quỹ dự phòng của công ty bạn. Cho dù bạn chọn [tự lưu ký](https://planb.academy/resources/glossary/selfcustody), sử dụng ví cứng chữ ký đơn hoặc [đa chữ ký](https://planb.academy/resources/glossary/multisig), v.v. để duy trì quyền kiểm soát trực tiếp đối với khóa của mình hay ủy quyền nhiệm vụ này cho các dịch vụ lưu ký của bên thứ ba hoặc ETF, thì mỗi tùy chọn đều có hồ sơ rủi ro riêng. Ví dụ, tự lưu ký cung cấp quyền truy cập đầy đủ nhưng đòi hỏi các giao thức bảo mật nội bộ nghiêm ngặt, trong khi các giải pháp của bên thứ ba giảm gánh nặng quản lý với cái giá phải trả là rủi ro đối tác. Để minh họa thêm cho sự khác biệt, biểu đồ này phác thảo mô hình bảo mật cho từng loại lưu ký, giúp bạn lựa chọn phương pháp phù hợp nhất với nhu cầu của tổ chức mình:
 
 ![BIZ101](assets/vi/015.webp)
 
@@ -834,7 +834,7 @@ Trong các chương sau, chúng tôi sẽ trình bày chi tiết từng hồ sơ
 
 <chapterId>7edda53d-5b9f-432a-8493-115de8c94a67</chapterId>
 
-Hồ sơ khởi đầu cơ bản được thiết kế cho các doanh nghiệp, người sáng tạo và cá nhân muốn khám phá các khoản thanh toán Bitcoin mà không cần cam kết nguồn lực hoặc chuyên môn đáng kể. Đây thường là những người xử lý một khối lượng giao dịch rất nhỏ (có thể là một vài mẹo, quyên góp hoặc bán hàng thỉnh thoảng) và tìm kiếm một giới thiệu đơn giản, nhẹ nhàng về hệ sinh thái mạng Bitcoin và Lightning. Giá trị chính của phương pháp khởi đầu cơ bản nằm ở thiết lập tối thiểu của nó: trong hầu hết các trường hợp, tất cả những gì cần thiết là một điện thoại thông minh hoặc máy tính bảng được trang bị ví tương thích với Lightning cơ bản.
+Hồ sơ khởi đầu cơ bản được thiết kế cho các doanh nghiệp, người sáng tạo và cá nhân muốn khám phá các khoản thanh toán Bitcoin mà không cần cam kết nguồn lực hoặc chuyên môn đáng kể. Đây thường là những người xử lý một khối lượng giao dịch rất nhỏ (có thể là một vài mẹo, quyên góp hoặc bán hàng thỉnh thoảng) và tìm kiếm một giới thiệu đơn giản, nhẹ nhàng về hệ sinh thái mạng Bitcoin và Lightning. Giá trị chính của phương pháp khởi đầu cơ bản nằm ở thiết lập tối thiểu của nó: trong hầu hết các trường hợp, tất cả những gì cần thiết là một điện thoại thông minh hoặc máy tính bảng được trang bị [ví](https://planb.academy/resources/glossary/wallet) tương thích với Lightning cơ bản.
 
 ![BIZ101-profiles](assets/vi/017.webp)
 
@@ -844,7 +844,7 @@ Hai thiết lập ví phổ biến nhất cho giải pháp khởi đầu cơ b�
 
 ![BIZ101-profiles](assets/vi/018.webp)
 
-Mặc dù các mối lo ngại về bảo mật có vẻ ít nguy hại hơn khi các giao dịch nhỏ, nhưng việc áp dụng các biện pháp bảo vệ cơ bản vẫn rất quan trọng. Ngay cả một điện thoại thông minh hoặc máy tính bảng duy nhất được sử dụng để nhận thanh toán Bitcoin cũng phải được khóa bằng mật khẩu hoặc bảo mật sinh trắc học và các quy trình sao lưu (từ việc theo dõi thông tin đăng nhập cho ví lưu ký đến bảo vệ cụm từ mật mã cho ví không lưu ký) phải được thực hiện nghiêm túc. Các nhân viên xử lý giao dịch trong môi trường vật lý sẽ được hưởng lợi khi biết những điều cơ bản: cách mở ứng dụng, cách xuất trình mã QR cho khách hàng và cách kiểm tra xem khoản thanh toán đã thực sự đến hay chưa. 
+Mặc dù các mối lo ngại về bảo mật có vẻ ít nguy hại hơn khi các giao dịch nhỏ, nhưng việc áp dụng các biện pháp bảo vệ cơ bản vẫn rất quan trọng. Ngay cả một điện thoại thông minh hoặc máy tính bảng duy nhất được sử dụng để nhận thanh toán Bitcoin cũng phải được khóa bằng mật khẩu hoặc bảo mật sinh trắc học và các quy trình sao lưu (từ việc theo dõi thông tin đăng nhập cho ví lưu ký đến bảo vệ [cụm từ mật mã](https://planb.academy/resources/glossary/recovery-phrase) cho ví không lưu ký) phải được thực hiện nghiêm túc. Các nhân viên xử lý giao dịch trong môi trường vật lý sẽ được hưởng lợi khi biết những điều cơ bản: cách mở ứng dụng, cách xuất trình mã QR cho khách hàng và cách kiểm tra xem khoản thanh toán đã thực sự đến hay chưa. 
 
 Kế toán và báo cáo, mặc dù tương đối đơn giản trong giải pháp khởi đầu cơ bản, vẫn cần được cân nhắc cẩn thận. Mặc dù khối lượng giao dịch có thể tối thiểu, việc lưu giữ hồ sơ chính xác sẽ ngăn ngừa nhầm lẫn trong tương lai và giúp duy trì tính minh bạch trong trường hợp kiểm toán tài chính hoặc nộp thuế. Nhiều ứng dụng ví cho phép người dùng xuất lịch sử giao dịch cơ bản dưới định dạng CSV; đối với một doanh nghiệp nhỏ hoặc một doanh nhân độc thân, việc lưu các dữ liệu này thường xuyên có thể giúp đối chiếu tài khoản dễ dàng hơn nhiều. Theo dõi giá trị pháp định (fiat) gần đúng (ví dụ, bằng euro hoặc đô la) tại thời điểm nhận được mỗi giao dịch cũng là điều khôn ngoan. Vì giá Bitcoin có thể biến động nên việc có hồ sơ về tỷ giá chuyển đổi là vô cùng có giá trị đối với việc ghi sổ kế toán và tuân thủ thuế.
 
@@ -955,7 +955,7 @@ Giải pháp Doanh nghiệp đứng đầu trong các triển khai thanh toán B
 
 Trong bối cảnh doanh nghiệp, tính phức tạp của hoạt động trở nên đặc biệt rõ rệt. Một tập đoàn lớn có thể cần phải bố trí nhiều phòng ban (bán hàng, tiếp thị, kỹ sư phần mềm, tài chính và kế toán), mỗi phòng ban có trách nhiệm và yêu cầu dữ liệu riêng biệt. Trong trường hợp này, nền tảng thanh toán Bitcoin phải cung cấp khả năng quản lý vai trò cực kỳ chi tiết, cho phép mỗi phòng ban truy cập chính xác các chức năng có liên quan đến nhiệm vụ của họ trong khi vẫn duy trì quyền kiểm soát chặt chẽ đối với bảo mật và tính toàn vẹn của dữ liệu. Khả năng tùy chỉnh quy trình công việc cũng quan trọng không kém: ví dụ, thanh toán đến có thể kích hoạt các bản cập nhật trong hệ thống kiểm kê, gửi thông báo tự động cho người quản lý bán hàng và cập nhật các mục nhập sổ cái cho nhóm tài chính, tất cả đều theo thời gian thực. Bản thân các thiết bị tại điểm bán hàng thường được thiết kế riêng cho môi trường doanh nghiệp, với giao diện phần mềm tùy chỉnh phù hợp với nhu cầu về thương hiệu và hoạt động của công ty.
 
-**Bảo mật** là tối quan trọng đối với các doanh nghiệp quy mô lớn. Khối lượng giao dịch lớn và số lượng Bitcoin có khả năng lớn đòi hỏi một cơ sở hạ tầng mạnh mẽ có khả năng chống lại các cuộc tấn công độc hại hoặc các mối đe dọa nội gián. Các biện pháp thực hành tốt nhất thường bao gồm nhiều chữ ký với cấu hình quỹ dự phòng khóa thời gian, cơ sở mã được kiểm toán cẩn thận và tuân thủ nghiêm ngặt các khuôn khổ quy định có liên quan. Hơn nữa, việc tuân thủ các quy định tài chính trong nước và quốc tế có thể là một phần không thể thiếu để bảo vệ danh tiếng và giấy phép hoạt động của công ty.
+**Bảo mật** là tối quan trọng đối với các doanh nghiệp quy mô lớn. Khối lượng giao dịch lớn và số lượng Bitcoin có khả năng lớn đòi hỏi một cơ sở hạ tầng mạnh mẽ có khả năng chống lại các cuộc tấn công độc hại hoặc các mối đe dọa nội gián. Các biện pháp thực hành tốt nhất thường bao gồm nhiều chữ ký với cấu hình quỹ dự phòng [khóa thời gian](https://planb.academy/resources/glossary/timelock), cơ sở mã được kiểm toán cẩn thận và tuân thủ nghiêm ngặt các khuôn khổ quy định có liên quan. Hơn nữa, việc tuân thủ các quy định tài chính trong nước và quốc tế có thể là một phần không thể thiếu để bảo vệ danh tiếng và giấy phép hoạt động của công ty.
 
 **Phát triển tùy chỉnh** liên quan đến việc tạo hoặc tích hợp giải pháp thanh toán Bitcoin cấp doanh nghiệp không chỉ giới hạn ở việc mã hóa một vài tính năng ứng dụng. Nó thường đòi hỏi thiết kế kiến trúc, giao thức thử nghiệm kỹ lưỡng và triển khai có cấu trúc có thể trải dài qua nhiều giai đoạn (chương trình thí điểm ban đầu, thử nghiệm trên thị trường hạn chế và cuối cùng triển khai toàn cầu).
 

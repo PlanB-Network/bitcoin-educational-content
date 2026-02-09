@@ -88,7 +88,7 @@ Sonuç olarak, para birimleri değeri verimli bir şekilde taşımak için tasar
 
 
 
-- **Sahteciliğe Karşı Korumalı**: Bir para biriminin taklit edilmesi son derece zor veya imkansız olmalıdır. Bu, her birimin gerçek olmasını, değerini korumasını sağlar ve sahte birimlerin dolaşıma girmesinden kaynaklanan enflasyonu önler. Örneğin, tarihsel olarak altın sadece güzelliği ve nadirliği için değil, aynı zamanda üretimi son derece zor olduğu için de değerli olmuştur. Kağıt paraların veya dijital girdilerin aksine, altını öylece "yapamazsınız" - topraktan çıkarılması gerekir. Bu doğal kıtlık ve üretim zorluğu, altının güvenilir bir değer deposu ve özgünlük ölçütü olarak statüsünü korumasına yardımcı olmuştur.
+- **Sahteciliğe Karşı Korumalı**: Bir para biriminin taklit edilmesi son derece zor veya imkansız olmalıdır. Bu, her birimin gerçek olmasını, değerini korumasını sağlar ve sahte birimlerin dolaşıma girmesinden kaynaklanan [enflasyonu](https://planb.academy/resources/glossary/inflation) önler. Örneğin, tarihsel olarak altın sadece güzelliği ve nadirliği için değil, aynı zamanda üretimi son derece zor olduğu için de değerli olmuştur. Kağıt paraların veya dijital girdilerin aksine, altını öylece "yapamazsınız" - topraktan çıkarılması gerekir. Bu doğal kıtlık ve üretim zorluğu, altının güvenilir bir değer deposu ve özgünlük ölçütü olarak statüsünü korumasına yardımcı olmuştur.
 
 
 
@@ -102,7 +102,7 @@ Sonuç olarak, para birimleri değeri verimli bir şekilde taşımak için tasar
 Modern çağda, para birimleri senyoraj sistemi altında tamamen izinli hale gelmiştir, yani yalnızca yetkili kuruluşlar - merkez bankaları veya hazineler gibi - madeni para basabilir veya banknot basabilir. Bireylerin para birimi üretmesine artık yasal olarak izin verilmemekte, böylece para biriminin ihracı ve Supply üzerinde merkezi kontrol sağlanmaktadır.
 
 
-Günümüzde senyoraj ilkesi, merkezi kontrol olmadan çalışan Bitcoin kripto para birimi tarafından sorgulanmaktadır. Bitcoin, herkesin izin istemeden para birimini kullanmaya ve Mining aracılığıyla onu yaratmaya katılabileceği "izinsiz" bir sistemdir. Bu ademi merkeziyetçilik, hükümetlerin ihraç tekelini ortadan kaldırarak serbest piyasa rekabetçi para birimi sistemlerine potansiyel bir dönüşle ilgili soruları gündeme getirmektedir.
+Günümüzde senyoraj ilkesi, merkezi kontrol olmadan çalışan Bitcoin [kripto para birimi](https://planb.academy/resources/glossary/cryptocurrency) tarafından sorgulanmaktadır. Bitcoin, herkesin izin istemeden para birimini kullanmaya ve [Mining](https://planb.academy/resources/glossary/mining) aracılığıyla onu yaratmaya katılabileceği "izinsiz" bir sistemdir. Bu ademi merkeziyetçilik, hükümetlerin ihraç tekelini ortadan kaldırarak serbest piyasa rekabetçi para birimi sistemlerine potansiyel bir dönüşle ilgili soruları gündeme getirmektedir.
 
 
 
@@ -122,7 +122,7 @@ Günümüzde senyoraj ilkesi, merkezi kontrol olmadan çalışan Bitcoin kripto 
 
 
 
-- **Değiştirilebilir**: Bir para biriminin tüm birimleri birbiriyle değiştirilebilir ve eşit değerde olmalıdır. Örneğin, bir dolarlık banknot diğer herhangi bir dolarlık banknota eşdeğer olmalıdır. Bu tekdüzelik işlemlerde adalet ve basitlik sağlar.
+- **[Değiştirilebilir](https://planb.academy/resources/glossary/fungibility)**: Bir para biriminin tüm birimleri birbiriyle değiştirilebilir ve eşit değerde olmalıdır. Örneğin, bir dolarlık banknot diğer herhangi bir dolarlık banknota eşdeğer olmalıdır. Bu tekdüzelik işlemlerde adalet ve basitlik sağlar.
 
 
 
@@ -159,10 +159,10 @@ Bu modern para birimi ağları önemli bir dezavantajı da beraberinde getirdi: 
 **Merkezi Para Biriminden Merkezi Olmayan Para Birimine: Güven ve Egemenliğin Artırılması**
 
 
-Günümüzde Bitcoin'nın merkezi olmayan bir para birimi olarak ortaya çıkması, para birimi ağlarında bir sonraki sıçramayı temsil etmektedir. Geleneksel elektronik para, işlemleri yönetmek ve doğrulamak için bankalar veya hükümetler gibi merkezi otoritelere dayanır. Etkili olmakla birlikte bu sistemler verimsizliklere, sansüre ve tek hata noktalarına karşı savunmasızdır. Merkezi olmayan para birimleri **güveni dağıtarak ve aracıları kaldırarak** bu ağ özelliklerini geliştirir. Bu aynı zamanda paranın çok daha **hızlı** ve **daha ucuz** hareket edebileceği anlamına gelir, çünkü yetkilendirme adımları yoktur. Son olarak, hiçbir insan yazılım tarafından uygulanan Bitcoin para birimi Supply programını değiştirmeye kalkışamaz.
+Günümüzde Bitcoin'nın merkezi olmayan bir para birimi olarak ortaya çıkması, para birimi ağlarında bir sonraki sıçramayı temsil etmektedir. Geleneksel elektronik para, işlemleri yönetmek ve doğrulamak için bankalar veya hükümetler gibi merkezi otoritelere dayanır. Etkili olmakla birlikte bu sistemler verimsizliklere, sansüre ve [tek hata noktalarına](https://planb.academy/resources/glossary/spof) karşı savunmasızdır. Merkezi olmayan para birimleri **güveni [dağıtarak](https://planb.academy/resources/glossary/distributed) ve aracıları kaldırarak** bu ağ özelliklerini geliştirir. Bu aynı zamanda paranın çok daha **hızlı** ve **daha ucuz** hareket edebileceği anlamına gelir, çünkü yetkilendirme adımları yoktur. Son olarak, hiçbir insan yazılım tarafından uygulanan Bitcoin para birimi [Supply programını](https://planb.academy/resources/glossary/limite-demission) değiştirmeye kalkışamaz.
 
 
-Merkezi olmayan sistemlerde işlemler, Blockchain teknolojisi kullanılarak küresel bir katılımcı ağı tarafından doğrulanır ve güvenlik, şeffaflık ve esneklik sağlanır. Bu yapı dolandırıcılık riskini en aza indirir, merkezi otoritelere bağımlılığı azaltır ve bireylerin mali durumları üzerinde daha fazla kontrol sahibi olmalarını sağlar. Coğrafi ve kurumsal engelleri ortadan kaldırarak, merkezi olmayan para birimleri gerçekten küresel ve kapsayıcı bir para sistemi sunar.
+Merkezi olmayan sistemlerde işlemler, [Blockchain](https://planb.academy/resources/glossary/blockchain) teknolojisi kullanılarak küresel bir katılımcı ağı tarafından doğrulanır ve güvenlik, şeffaflık ve esneklik sağlanır. Bu yapı dolandırıcılık riskini en aza indirir, merkezi otoritelere bağımlılığı azaltır ve bireylerin mali durumları üzerinde daha fazla kontrol sahibi olmalarını sağlar. Coğrafi ve kurumsal engelleri ortadan kaldırarak, merkezi olmayan para birimleri gerçekten küresel ve kapsayıcı bir para sistemi sunar.
 
 
 **Para Birimi Ağlarının Evrimi**
@@ -275,16 +275,16 @@ Tıpkı sesli aramalar için dakika başına ödeme yapmaktan neredeyse ücretsi
 **Bitcoin NEDIR?**
 
 
-Bitcoin bir **eşler arası dijital para birimi Exchange sistemidir** (elektronik nakit). "Bitcoin" terimi aşağıdaki bileşenleri ifade eder:
+Bitcoin bir **[eşler arası](https://planb.academy/resources/glossary/peertopeer-p2p) dijital para birimi Exchange sistemidir** (elektronik nakit). "Bitcoin" terimi aşağıdaki bileşenleri ifade eder:
 
 
 
-- İnternette Exchange değerini aracısız, izin gerektirmeden ve takma isimle kolaylaştıran bir **bilgisayar protokolü**. Gelişmiş kriptografik prensipler kullanır.
-- Bireyler ve işletmeler tarafından işletilen, merkezi olmayan bir sistem oluşturan (merkezi bir otorite veya tek bir kontrol noktası olmayan) internete bağlı makinelerden (düğümler, madenciler vb.) oluşan **fiziksel bir ağ**.
-- Sistem içindeki hesap birimi. Var olan bitcoin sayısı hiçbir zaman 21 milyondan fazla olmayacaktır. Her bir Bitcoin, anonim yaratıcısının onuruna "satoshis" adı verilen 100 milyon birime bölünebilir.
+- İnternette Exchange değerini aracısız, izin gerektirmeden ve takma isimle kolaylaştıran bir **bilgisayar protokolü**. Gelişmiş [kriptografik](https://planb.academy/resources/glossary/cryptography) prensipler kullanır.
+- Bireyler ve işletmeler tarafından işletilen, merkezi olmayan bir sistem oluşturan (merkezi bir otorite veya tek bir kontrol noktası olmayan) internete bağlı makinelerden ([düğümler](https://planb.academy/resources/glossary/node), [madenciler](https://planb.academy/resources/glossary/miner) vb.) oluşan **fiziksel bir ağ**.
+- Sistem içindeki hesap birimi. Var olan bitcoin sayısı hiçbir zaman 21 milyondan fazla olmayacaktır. Her bir Bitcoin, anonim yaratıcısının onuruna "[satoshis](https://planb.academy/resources/glossary/satoshi-sat)" adı verilen 100 milyon birime bölünebilir.
 
 
-Bunlar birlikte Bitcoin'u bir **taşıyıcı varlık** ve **ihraççısı olmayan** bir dijital para birimi haline getirir. Ownership yalnızca **özel kriptografik anahtarın** tutulmasıyla güvence altına alınır ve **aracılar veya güvenilir üçüncü taraflar olmadan** tam kontrol sağlar. Transfer edildiğinde, Ownership **finality** anında gerçekleşir: yeni sahibi, koruma veya dönüştürülebilirlik için merkezi bir otoriteye güvenmeden tamamen ona sahip olur. İşlemler **değiştirilemez** - Blockchain'ye kaydedildikten sonra değiştirilemez veya silinemezler.
+Bunlar birlikte Bitcoin'u bir **taşıyıcı varlık** ve **ihraççısı olmayan** bir dijital para birimi haline getirir. Ownership yalnızca **[özel kriptografik anahtarın](https://planb.academy/resources/glossary/private-key)** tutulmasıyla güvence altına alınır ve **aracılar veya güvenilir üçüncü taraflar olmadan** tam kontrol sağlar. Transfer edildiğinde, Ownership **finality** anında gerçekleşir: yeni sahibi, koruma veya dönüştürülebilirlik için merkezi bir otoriteye güvenmeden tamamen ona sahip olur. [İşlemler](https://planb.academy/resources/glossary/transaction-tx) **değiştirilemez** - Blockchain'ye kaydedildikten sonra değiştirilemez veya silinemezler.
 
 
 ![BIZ101](assets/tr/003.webp)
@@ -299,7 +299,7 @@ Teknik özellikleri altın ve doların toplamını aşarak onu şimdiye kadar ya
 ![BIZ101](assets/tr/004.webp)
 
 
-Bitcoin etkin bir şekilde değerini korur çünkü Ledger kurcalanmaya karşı dayanıklıdır. Nadir ve sınırlı Supply ile artan kullanıcı sayısına bağlı olarak artan Exchange fırsatları nedeniyle değeri artar.
+Bitcoin etkin bir şekilde değerini korur çünkü [Ledger](https://planb.academy/resources/glossary/ledger) kurcalanmaya karşı dayanıklıdır. Nadir ve sınırlı Supply ile artan kullanıcı sayısına bağlı olarak artan Exchange fırsatları nedeniyle değeri artar.
 
 
 Bitcoin yıkıcıdır çünkü bizi matematik, kriptografi, ekonomi ve tarih alanlarında bize hiç öğretilmeyen kavramları öğrenmeye teşvik eder. Genellikle karmaşık olarak algılansa da, aslında uygulama ve deney yoluyla erişilebilen bir yeniliktir.
@@ -313,7 +313,7 @@ Bitcoin bizi paranın doğasını yeniden gözden geçirmeye davet ediyor. Paran
 
 - **Yaş:** 15 yıl (3 Ocak 2009)
 - **Günlük Exchange değeri:** 10 milyar $ (> CAC40)
-- **Piyasa değeri:** 1,8 trilyon dolar (> Meta, Visa, Gümüş; < Apple, Google, Altın)
+- **[Piyasa değeri](https://planb.academy/resources/glossary/market-cap-capitalization):** 1,8 trilyon dolar (> Meta, Visa, Gümüş; < Apple, Google, Altın)
 - **Kullanıcılar:** ~100 ila 200 milyon (küresel nüfusun %1-2'si)
 - **Volatilite:** İçsel olarak yok (1 Bitcoin = 1 Bitcoin), dışsal olarak çok yüksek (fiat para birimi borsalarında)
 - **Performans:** İlk işlem 0,0009 $; şimdi 100.000 $ (x100 milyon)
@@ -324,14 +324,14 @@ Bitcoin bizi paranın doğasını yeniden gözden geçirmeye davet ediyor. Paran
 **Bir İnsan İşbirliği Harikası:**
 
 
-- Tamamen **açık kaynak**
+- Tamamen **[açık kaynak](https://planb.academy/resources/glossary/foss)**
 - **Tüzel kişilik:** Yok
 - **CEO:** Yok
 - **Risk sermayesi yatırımı:** Yok
 - **Pazarlama:** Yok
 - **AR-GE:** Gönüllülük esasına dayalı
 - **Yönetişim:** Kullanıcılar tarafından
-- **Yenilikçi ekonomik model:** Blok oluşturma işlem ücretleri ile sübvanse edilir (açık artırma tabanlı)
+- **Yenilikçi ekonomik model:** Blok oluşturma [işlem ücretleri](https://planb.academy/resources/glossary/transaction-fees) ile [sübvanse edilir](https://planb.academy/resources/glossary/block-subsidy) (açık artırma tabanlı)
 
 
 Bitcoin, tarihçesi, nasıl çalıştığı ve kullanımı hakkında daha fazla bilgi için bu diğer kapsamlı kursu da takip etmenizi öneririm:
@@ -347,21 +347,21 @@ https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 **YILDIRIM NEDİR?**
 
 
-Lightning Network, Bitcoin'nın ana Blockchain ile minimum etkileşimle Bitcoin işlemlerini kolaylaştıran **bir protokol ve bir ağdır**. İşte nasıl çalıştığı:
+[Lightning Network](https://planb.academy/resources/glossary/lightning-network), Bitcoin'nın ana Blockchain ile minimum etkileşimle Bitcoin işlemlerini kolaylaştıran **bir protokol ve bir ağdır**. İşte nasıl çalıştığı:
 
 
 
-- **İlk kurulum:** 2 taraf arasında bir ödeme kanalı oluşturmak için fonlar ana Blockchain üzerinde kilitlenir (emanet edilir).
+- **İlk kurulum:** 2 taraf arasında bir [ödeme kanalı](https://planb.academy/resources/glossary/payment-channel) oluşturmak için fonlar ana Blockchain üzerinde kilitlenir (emanet edilir).
 - **Ödeme ağı:** Birden fazla taraf arasındaki ödeme kanalları ağı bir ödeme ağı oluşturur (yönlendirme ve ara bağlantı).
-- off-chain işlemleri:** İşlemler taraflar arasında gerçekleşir ancak **Bitcoin'in ana Blockchain'inde (**"off-chain"**) hemen yayınlanmaz.
-- **On-Chain hesaplaşmaları:** Bir kanalın işlemlerinin yalnızca **nihai bakiyesi** Bitcoin ana Blockchain'de (**"On-Chain"**) yayınlanır ve bu arada çok sayıda işlemin gerçekleşmesine izin verilir. Çoklu ödemelerin bu şekilde bir araya getirilmesi tıkanıklığı azaltır ve böylece çok sayıda On-Chain işlemi yapmaya kıyasla ücretleri düşürür.
+- [off-chain](https://planb.academy/resources/glossary/offchain) işlemleri:** İşlemler taraflar arasında gerçekleşir ancak **Bitcoin'in ana Blockchain'inde (**"off-chain"**) hemen yayınlanmaz.
+- **[On-Chain](https://planb.academy/resources/glossary/onchain) hesaplaşmaları:** Bir kanalın işlemlerinin yalnızca **nihai bakiyesi** Bitcoin ana Blockchain'de (**"On-Chain"**) yayınlanır ve bu arada çok sayıda işlemin gerçekleşmesine izin verilir. Çoklu ödemelerin bu şekilde bir araya getirilmesi tıkanıklığı azaltır ve böylece çok sayıda On-Chain işlemi yapmaya kıyasla ücretleri düşürür.
 - Kanal kapatma: Bir kullanıcı kanalını istediği zaman kapatabilir ve en son işlem durumunu yayınlayarak Bitcoin'ini geri alabilir. Bu, işlemlerin her an **"yayınlanabilir"** ancak gerekli olana kadar **"yayınlanamaz"** olması ilkesidir. Çıkış (kanal kapatma) tek taraflı (herhangi bir zamanda 2 taraftan herhangi biri tarafından kararlaştırılabilir) veya karşılıklı olarak kararlaştırılabilir (daha düşük On-Chain ücretleri ile sonuçlanır)
 
 
 ![BIZ101](assets/tr/005.webp)
 
 
-Bu yaklaşım, her işlemi doğrudan Bitcoin'in ana Blockchain'sinde gerçekleştirmenin yavaşlığını ve karmaşıklığını önler, yalnızca nihai bakiyeleri kaydeder ve güvenliğini korur. Lightning Network, Bitcoin'in "üstünde" bir Layer'dur ancak ona bağlı kalır.
+Bu yaklaşım, her işlemi doğrudan Bitcoin'in ana Blockchain'sinde gerçekleştirmenin yavaşlığını ve karmaşıklığını önler, yalnızca nihai bakiyeleri kaydeder ve güvenliğini korur. Lightning Network, Bitcoin'in "üstünde" bir [Layer](https://planb.academy/resources/glossary/layer)'dur ancak ona bağlı kalır.
 
 
 **Küresel Bir Ödeme Ağı**
@@ -496,7 +496,7 @@ Geleneksel ekonomi teorisinde (Keynesyen) sermaye genellikle basitleştirilmiş 
 6. Anti-kapitalist söylemin kültürel olarak normalleşmesi mi?
 
 
-Neyse ki, Bitcoin bizi her şeyi yeniden düşünmeye ve bu önyargılı kavramlara meydan okumaya zorluyor. Bu konulara ışık tutabilecek ve sermayenin gerçek doğasını yeniden gözden geçirmemize yardımcı olabilecek bir düşünce ekolü - Avusturya Ekonomi Okulu - var.
+Neyse ki, Bitcoin bizi her şeyi yeniden düşünmeye ve bu önyargılı kavramlara meydan okumaya zorluyor. Bu konulara ışık tutabilecek ve sermayenin gerçek doğasını yeniden gözden geçirmemize yardımcı olabilecek bir düşünce ekolü - [Avusturya Ekonomi Okulu](https://planb.academy/resources/glossary/austrian-school) - var.
 
 
 **Bir zamanlar**
@@ -663,7 +663,7 @@ Bazı şirketler çok uzun bir süre boyunca gayrimenkul gibi likit olmayan varl
 **Gerçek enflasyon**: Merkez bankaları, görevlerini yerine getirirken yıllık %2 enflasyon hedeflemektedir, bu da 20 yıl içinde para biriminde %40 değer kaybı anlamına gelmektedir. Enflasyonun daha belirgin olduğu dönemler de eklendiğinde, şirketlerin emeklerinin meyvelerini saklamak için yalnızca para birimini kullanamayacakları ortaya çıkmaktadır. Mutlaka bir dizi riski de beraberinde getiren karmaşık finansal stratejiler uygulamalıdırlar. Bu stratejiler, halihazırda ana faaliyetleriyle yoğun bir şekilde meşgul olan çok küçük işletmeler için **erişilemezdir**.
 
 
-**Gizli enflasyon**: Merkez bankaları tarafından desteklenen borca dayalı, kısmi rezervli bir para sisteminde, **toplam para Supply yılda ortalama yaklaşık %7 büyür** (örneğin, Euro Bölgesi veya ABD'deki M1). Bu da "pastadan aldığınız payın" sadece birkaç yıl içinde yarıya inmesi anlamına gelir -eğer finans musluğuna ayrıcalıklı erişiminiz yoksa ve yeni yaratılan para onları yukarı çekmeden önce kaldıraç kullanarak ve varlıkları "eski fiyatlardan" hızla satın alarak büyümeye devam edemiyorsanız. Bu, servetin daha varlıklı olanlara transferini kısmen açıklayan Cantillon etkisidir, ancak "sermaye" yanlış bir şekilde suçlu olarak suçlanmaktadır (yukarıdaki sermaye ile ilgili giriş bölümümüze bakınız).
+**Gizli enflasyon**: Merkez bankaları tarafından desteklenen borca dayalı, [kısmi rezervli](https://planb.academy/resources/glossary/fractional-reserves) bir para sisteminde, **toplam para Supply yılda ortalama yaklaşık %7 büyür** (örneğin, Euro Bölgesi veya ABD'deki M1). Bu da "pastadan aldığınız payın" sadece birkaç yıl içinde yarıya inmesi anlamına gelir -eğer finans musluğuna ayrıcalıklı erişiminiz yoksa ve yeni yaratılan para onları yukarı çekmeden önce kaldıraç kullanarak ve varlıkları "eski fiyatlardan" hızla satın alarak büyümeye devam edemiyorsanız. Bu, servetin daha varlıklı olanlara transferini kısmen açıklayan Cantillon etkisidir, ancak "sermaye" yanlış bir şekilde suçlu olarak suçlanmaktadır (yukarıdaki sermaye ile ilgili giriş bölümümüze bakınız).
 
 
 **Karşı taraf riskleri**: Mevcut finansal sistem risklidir ve "paranıza" her zaman erişiminiz olmayabilir İskambil kâğıtlarından bir ev imajını çağrıştırmadan, finansal kurumların en ufak bir krizde kârları özelleştirdiğini ve zararları toplumsallaştırdığını kabul etmek gerekir. "Kutsal" para sisteminde (Ledger'da kayıtlı para), bankadaki para yalnızca bir "hak talebidir"; ona gerçekten sahip değilsinizdir ve bankaların kendileri de "ona sahip değildir" (kısmi rezervler). Bu para bir bakıma gerçekten büyülüdür. Bir zamanlar Bitcoin ile alay eden Credit Suisse gibi bazı prestijli bankalar bugün artık mevcut değildir.
@@ -752,7 +752,7 @@ Bitcoin'un Amerika Birleşik Devletleri'nde giderek daha fazla benimsenmesi, dü
 Tamamen finansal bir perspektiften bakıldığında, Bitcoin bir çeşitlendirme varlığı olarak kabul edilmektedir. Sadece diğer varlık sınıflarıyla korelasyonsuz olmakla kalmayıp, aynı zamanda yeni likidite enjeksiyonları dönemlerinde de gelişiyor gibi görünüyor - böyle bir başka dönem ECB, Fed ve Çin tarafından faiz oranlarının düşürülmesiyle başlıyor gibi görünüyor.
 
 
-Özetle, en yaygın kullanım durumu için - en az dört yıllık bir dönem için fazla hazine yatırımı - Bitcoin mükemmel uyum sağlar. Bunu kademeli bir giriş stratejisiyle birleştirmek faydalı olacaktır: giriş veya çıkış noktasını yumuşatmak için düzenli aralıklarla sabit miktarlarda yatırım yapmak.
+Özetle, en yaygın kullanım durumu için - en az dört yıllık bir dönem için fazla hazine yatırımı - Bitcoin mükemmel uyum sağlar. Bunu [kademeli bir giriş stratejisiyle](https://planb.academy/resources/glossary/dollar-cost-averaging-dca) birleştirmek faydalı olacaktır: giriş veya çıkış noktasını yumuşatmak için düzenli aralıklarla sabit miktarlarda yatırım yapmak.
 
 
 Örneğin, diğer kullanım durumları Bitcoin'ü stratejik bir hazine varlığı haline getirmektedir:
@@ -767,7 +767,7 @@ Tamamen finansal bir perspektiften bakıldığında, Bitcoin bir çeşitlendirme
 ### Bitcoin çok mu pahalı?
 
 
-Tam olarak 1 Bitcoin satın almak zorunda değilsiniz, çünkü Bitcoin, anonim yaratıcısının onuruna satoshis adı verilen alt birimlere bölünebilir. Bir Bitcoin **100 milyon satoshiye** eşittir ve kullanıcıların bir Bitcoin'nın **çok küçük kesirlerini** bile satın almasına, satmasına veya takas etmesine olanak tanır. Aslında, Bitcoin'nın kaynak kodunda tüm işlemler satoshi cinsinden hesaplanır ve "Bitcoin" terimi yalnızca madencilerin ödüllerini almak için oluşturdukları özel işlem olan "coinbase "de görünür.
+Tam olarak 1 Bitcoin satın almak zorunda değilsiniz, çünkü Bitcoin, anonim yaratıcısının onuruna satoshis adı verilen alt birimlere bölünebilir. Bir Bitcoin **100 milyon satoshiye** eşittir ve kullanıcıların bir Bitcoin'nın **çok küçük kesirlerini** bile satın almasına, satmasına veya takas etmesine olanak tanır. Aslında, Bitcoin'nın kaynak kodunda tüm işlemler satoshi cinsinden hesaplanır ve "Bitcoin" terimi yalnızca madencilerin ödüllerini almak için oluşturdukları özel işlem olan "[coinbase](https://planb.academy/resources/glossary/coinbase-transaction) "de görünür.
 
 
 Dahası, toplam 21 milyon bitcoin - ya da **2,1 katrilyon satoshi** - 64 bitlik bir tamsayı ile verimli bir şekilde temsil edilebilir. Bu da tüm Bitcoin başına yüksek bir fiyat olmasına rağmen, bölünebilirliği sayesinde geniş bir yatırımcı kitlesi için erişilebilir olduğu anlamına gelmektedir. Dolayısıyla, ağa katılmak veya bu dijital varlığa yatırım yapmak için bütün bir Bitcoin satın almanıza gerek yoktur.
@@ -846,7 +846,7 @@ Mining yöntemleri hakkında daha fazla bilgi edinmek için [eğitimlerimizdeki 
 
 - **Bitcoin Satın Alma:**
 
-Bu, eşler arası borsalar aracılığıyla ya da daha tipik olarak özel ticaret platformlarında yapılan en yaygın yöntemdir. Ancak Bitcoin'yi kurumsal bir hazine varlığı olarak edinirken, şirketler sağlam düzenleyici standartlara ve Müşterini Tanı (KYC) prosedürlerine uymalıdır. Özel ticaret platformlarından satın aldıklarında, işletmelerin KYC ve kara para aklamayı önleme (AML) gereksinimlerini karşılamak için genellikle kimlik belgeleri, mali tablolar ve Address kanıtı dahil olmak üzere ayrıntılı şirket bilgileri sağlamaları gerekir.
+Bu, eşler arası borsalar aracılığıyla ya da daha tipik olarak özel ticaret platformlarında yapılan en yaygın yöntemdir. Ancak Bitcoin'yi kurumsal bir hazine varlığı olarak edinirken, şirketler sağlam düzenleyici standartlara ve Müşterini Tanı ([KYC](https://planb.academy/resources/glossary/kyc-know-your-customer)) prosedürlerine uymalıdır. Özel ticaret platformlarından satın aldıklarında, işletmelerin KYC ve kara para aklamayı önleme (AML) gereksinimlerini karşılamak için genellikle kimlik belgeleri, mali tablolar ve Address kanıtı dahil olmak üzere ayrıntılı şirket bilgileri sağlamaları gerekir.
 
 
 Bir işletme hesabının nasıl açılacağını ve bitcoin satın almak, satmak ve transfer etmek için nasıl kullanılacağını öğrenmek için, Kraken ve Bitfinex platformlarını kurumsal sürümlerinde kapsayan, işletmeler için özel olarak tasarlanmış bu iki eğiticiye göz atabilirsiniz:
@@ -906,7 +906,7 @@ Gayrimenkul sektörü sık sık "satın almak için her zaman doğru zaman" ifad
 Fiziksel olarak Bitcoin'e sahip değilsiniz. Bunun yerine, hesap birimlerinizin bir kısmının veya tamamının Ownership'sini bir veya daha fazla başka kriptografik anahtara aktarmanıza olanak tanıyan bir kriptografik anahtara sahipsiniz. Tüm bunlar, dünya çapında on binlerce düğümde çoğaltılan Bitcoin Blockchain üzerinde gerçekleşir.
 
 
-Bu kriptografik anahtar son derece büyük rastgele bir sayıdır. Kullanıcı deneyimini basitleştirmek için genellikle 12 veya 24 kelimeden oluşan bir dizi olarak gösterilir. Bu kelimeler "Hardware Wallet" olarak bilinen fiziksel bir cihaza yüklenebilir Bununla birlikte, bitcoinlerin bu cihazın "içinde" olmadığını anlayın; bu sadece işlemleri kriptografik olarak imzalamak ve ağa yayınlamak için bir araçtır. Asıl önemli olan, güvende tutulması gereken 12 veya 24 kelimedir.
+Bu kriptografik anahtar son derece büyük rastgele bir sayıdır. Kullanıcı deneyimini basitleştirmek için genellikle 12 veya 24 kelimeden oluşan bir dizi olarak gösterilir. Bu kelimeler "[Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet)" olarak bilinen fiziksel bir cihaza yüklenebilir Bununla birlikte, bitcoinlerin bu cihazın "içinde" olmadığını anlayın; bu sadece işlemleri kriptografik olarak imzalamak ve ağa yayınlamak için bir araçtır. Asıl önemli olan, güvende tutulması gereken 12 veya 24 kelimedir.
 
 
 Bu da velayet konusuna yol açar: Bitcoin'i tutmak anahtar(lar)ı tutmak anlamına gelir. Ya kendiniz tutarsınız ya da bu görevi üçüncü bir tarafa devredersiniz. Ara çözümler de vardır. En yaygın senaryoları gözden geçirelim:
@@ -933,7 +933,7 @@ Bunlar, Bitcoin'in kesirlerini temsil eden ve fiyat performansını kopyalayan g
 ![BIZ101](assets/tr/014.webp)
 
 
-Buna ek olarak, Bitcoin'yi hangi biçimde tuttuğunuz kurumsal hazinenizi korumak için gereken güvenlik önlemlerini önemli ölçüde etkiler. İster anahtarlarınızın doğrudan kontrolünü sağlamak için tek imzalı veya çok imzalı donanım cüzdanları vb. kullanarak kendi kendinize saklamayı seçin, ister bu görevi üçüncü taraf saklama hizmetlerine veya ETF'lere devredin, her seçenek kendi risk profilini taşır. Örneğin, kendi kendine saklama tam erişim sağlar ancak sıkı dahili güvenlik protokolleri gerektirirken, üçüncü taraf çözümleri karşı taraf riski pahasına yönetim yükünü azaltır. Farklılıkları daha iyi göstermek için, bu grafik her bir saklama türünün güvenlik modelini özetleyerek kuruluşunuzun ihtiyaçlarına en uygun yaklaşımı seçmenize yardımcı olur:
+Buna ek olarak, Bitcoin'yi hangi biçimde tuttuğunuz kurumsal hazinenizi korumak için gereken güvenlik önlemlerini önemli ölçüde etkiler. İster anahtarlarınızın doğrudan kontrolünü sağlamak için tek imzalı veya [çok imzalı](https://planb.academy/resources/glossary/multisig) donanım cüzdanları vb. kullanarak [kendi kendinize saklamayı](https://planb.academy/resources/glossary/selfcustody) seçin, ister bu görevi üçüncü taraf saklama hizmetlerine veya ETF'lere devredin, her seçenek kendi risk profilini taşır. Örneğin, kendi kendine saklama tam erişim sağlar ancak sıkı dahili güvenlik protokolleri gerektirirken, üçüncü taraf çözümleri karşı taraf riski pahasına yönetim yükünü azaltır. Farklılıkları daha iyi göstermek için, bu grafik her bir saklama türünün güvenlik modelini özetleyerek kuruluşunuzun ihtiyaçlarına en uygun yaklaşımı seçmenize yardımcı olur:
 
 
 ![BIZ101](assets/tr/015.webp)
@@ -1146,7 +1146,7 @@ Karar verme sürecini basitleştirmek için dört farklı iş profili tanımlad�
 <chapterId>7edda53d-5b9f-432a-8493-115de8c94a67</chapterId>
 
 
-Başlangıç profili, Bitcoin ödemelerini önemli kaynaklar veya uzmanlık gerektirmeden keşfetmek isteyen işletmeler, içerik oluşturucular ve bireyler için tasarlanmıştır. Bunlar genellikle çok küçük hacimli işlemlerle (belki birkaç bahşiş, bağış veya ara sıra satış) ilgilenen ve Bitcoin ve Lightning Network ekosistemine basit, hafif bir giriş yapmak isteyen kişilerdir. Başlangıç yaklaşımının temel değeri, minimal kurulumunda yatmaktadır: çoğu durumda, gerekli olan tek şey temel Lightning uyumlu bir Wallet ile donatılmış bir akıllı telefon veya tablettir.
+Başlangıç profili, Bitcoin ödemelerini önemli kaynaklar veya uzmanlık gerektirmeden keşfetmek isteyen işletmeler, içerik oluşturucular ve bireyler için tasarlanmıştır. Bunlar genellikle çok küçük hacimli işlemlerle (belki birkaç bahşiş, bağış veya ara sıra satış) ilgilenen ve Bitcoin ve Lightning Network ekosistemine basit, hafif bir giriş yapmak isteyen kişilerdir. Başlangıç yaklaşımının temel değeri, minimal kurulumunda yatmaktadır: çoğu durumda, gerekli olan tek şey temel Lightning uyumlu bir [Wallet](https://planb.academy/resources/glossary/wallet) ile donatılmış bir akıllı telefon veya tablettir.
 
 
 ![BIZ101-profiles](assets/tr/017.webp)
@@ -1161,7 +1161,7 @@ Starter profili için en yaygın iki Wallet kurulumu, gözetimli ve gözetimsiz 
 ![BIZ101-profiles](assets/tr/018.webp)
 
 
-İşlemler küçük olduğunda güvenlik endişeleri daha az acil gibi görünse de, yine de temel koruyucu önlemlerin alınması çok önemlidir. Bitcoin ödemelerini almak için kullanılan tek bir akıllı telefon veya tablet bile bir şifre veya biyometrik güvenlik ile kilitlenmeli ve yedekleme prosedürleri (velayet altındaki bir Wallet için oturum açma kimlik bilgilerinin takip edilmesinden velayet altında olmayan bir seed ifadesinin korunmasına kadar) ciddiye alınmalıdır. Fiziksel bir ortamda işlem yapan personelin temel bilgileri bilmesi faydalı olacaktır: uygulamanın nasıl açılacağı, müşteriye QR kodunun nasıl sunulacağı ve ödemenin gerçekten gelip gelmediğinin nasıl kontrol edileceği.
+İşlemler küçük olduğunda güvenlik endişeleri daha az acil gibi görünse de, yine de temel koruyucu önlemlerin alınması çok önemlidir. Bitcoin ödemelerini almak için kullanılan tek bir akıllı telefon veya tablet bile bir şifre veya biyometrik güvenlik ile kilitlenmeli ve yedekleme prosedürleri (velayet altındaki bir Wallet için oturum açma kimlik bilgilerinin takip edilmesinden velayet altında olmayan bir [seed ifadesinin](https://planb.academy/resources/glossary/recovery-phrase) korunmasına kadar) ciddiye alınmalıdır. Fiziksel bir ortamda işlem yapan personelin temel bilgileri bilmesi faydalı olacaktır: uygulamanın nasıl açılacağı, müşteriye QR kodunun nasıl sunulacağı ve ödemenin gerçekten gelip gelmediğinin nasıl kontrol edileceği.
 
 
 Muhasebe ve raporlama, Starter profili altında nispeten basit olsa da, yine de dikkatli bir değerlendirme gerektirir. İşlem hacimleri asgari düzeyde olsa da, doğru kayıtların tutulması ileride karışıklığı önler ve mali denetimler veya vergi beyannameleri durumunda şeffaflığın korunmasına yardımcı olur. Birçok Wallet uygulaması, kullanıcıların temel bir işlem geçmişini CSV dosyası olarak dışa aktarmasına olanak tanır; küçük bir işletme veya tek bir girişimci için bu dosyaları düzenli olarak kaydetmek, hesapların mutabakatını çok daha kolay hale getirebilir. Ayrıca her işlemin alındığı andaki yaklaşık fiat değerini (örneğin avro veya dolar cinsinden) takip etmek akıllıca olacaktır. Bitcoin'nin fiyatı dalgalanabildiğinden, dönüşüm oranlarının kaydını tutmak defter tutma ve vergi uyumluluğu için çok değerlidir.
@@ -1334,7 +1334,7 @@ Bu ölçekte, genel amaç sadece Bitcoin'i kabul etmek değil, aynı zamanda bun
 Kurumsal bağlamda, operasyonel karmaşıklık özellikle belirgin hale gelir. Büyük bir şirketin, her biri farklı sorumluluklara ve veri gereksinimlerine sahip birden fazla departmanı (satış, pazarlama, devops, finans ve muhasebe) barındırması gerekebilir. Bu senaryoda, bir Bitcoin ödeme platformu, güvenlik ve veri bütünlüğü üzerindeki sıkı kontrolü korurken, her departmanın görevleriyle ilgili işlevlere tam olarak erişmesine olanak tanıyan son derece ayrıntılı bir rol yönetimi sunmalıdır. İş akışlarını özelleştirme kapasitesi de aynı derecede önemlidir: örneğin, gelen ödemeler envanter sistemlerinde güncellemeleri tetikleyebilir, satış yöneticilerine otomatik bildirimler gönderebilir ve finans ekibi için Ledger girişlerini gerçek zamanlı olarak güncelleyebilir. Satış noktası cihazlarının kendileri de genellikle şirketin markasına ve operasyonel ihtiyaçlarına uygun özel yazılım arayüzleriyle kurumsal ortama göre uyarlanır.
 
 
-*Kurumsal ölçekli işletmeler için **Güvenlik** çok önemlidir. Yüksek hacimli işlemler ve potansiyel olarak büyük miktarlarda Bitcoin, kötü niyetli saldırılara veya içeriden gelen tehditlere karşı savunma yapabilen sağlam bir altyapı gerektirir. En iyi uygulamalar genellikle zaman kilitli hazine yapılandırmaları, dikkatle denetlenen kod tabanları ve ilgili düzenleyici çerçevelere sıkı sıkıya bağlılık ile çoklu imzayı içerir. Ayrıca, yerel ve uluslararası mali düzenlemelere uyum, kurumun itibarını ve faaliyet ruhsatını korumanın ayrılmaz bir parçası olabilir.*
+*Kurumsal ölçekli işletmeler için **Güvenlik** çok önemlidir. Yüksek hacimli işlemler ve potansiyel olarak büyük miktarlarda Bitcoin, kötü niyetli saldırılara veya içeriden gelen tehditlere karşı savunma yapabilen sağlam bir altyapı gerektirir. En iyi uygulamalar genellikle [zaman kilitli](https://planb.academy/resources/glossary/timelock) hazine yapılandırmaları, dikkatle denetlenen kod tabanları ve ilgili düzenleyici çerçevelere sıkı sıkıya bağlılık ile çoklu imzayı içerir. Ayrıca, yerel ve uluslararası mali düzenlemelere uyum, kurumun itibarını ve faaliyet ruhsatını korumanın ayrılmaz bir parçası olabilir.*
 
 
 Kurumsal düzeyde bir Bitcoin ödeme çözümünün oluşturulması veya entegrasyonunda yer alan **özel geliştirme**, birkaç uygulama özelliğinin kodlanmasının ötesine geçer. Tipik olarak mimari tasarım, kapsamlı test protokolleri ve birden fazla aşamayı (ilk pilot programlar, sınırlı pazar testleri ve nihai küresel dağıtım) kapsayabilecek yapılandırılmış bir sunum gerektirir.

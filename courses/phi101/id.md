@@ -1514,6 +1514,7 @@ Inilah mengapa, dalam _Human Action_, Ludwig von Mises menulis:
 Sistem Bretton Woods, yang dirancang pada tahun 1944 dan sepenuhnya diterapkan pada tahun 1959, didasarkan pada emas dan dolar, satu-satunya mata uang yang dapat dikonversi menjadi emas. Oleh karena itu, perlu untuk mengumpulkan dolar agar dapat memperoleh emas.
 
 ![image](assets/id/097.webp)
+
 Pada masa itu, khususnya selama Perang Vietnam, peningkatan defisit pemerintah AS menyebabkan banyak negara asing, termasuk Prancis, ingin menukarkan dolar mereka menjadi emas di FED. Pada 15 Agustus 1971, Presiden Nixon memutuskan untuk membatalkan janji konversi dolar menjadi emas, sehingga menciptakan mata uang kertas sepenuhnya pertama dalam sejarah Amerika Serikat. Dari hari ini dapat ditetapkan momen ketika uang sepenuhnya berada di bawah kontrol bank sentral. Dalam sebuah wawancara, dikatakan Richard Nixon menyatakan:
 
 > Kita semua adalah Keynesian hari ini.

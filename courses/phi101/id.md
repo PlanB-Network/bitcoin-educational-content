@@ -1024,7 +1024,7 @@ Penulis berhati-hati membedakan antara masyarakat sipil dan Negara:
 
 > Masyarakat adalah hasil dari kebutuhan kita, pemerintahan adalah hasil dari kejahatan kita. \[…\] Keadaan sosial adalah kebaikan di bawah semua hipotesis. Pemerintahan, bahkan dalam kesempurnaannya, hanyalah sebuah kejahatan yang diperlukan; dalam ketidaksempurnaannya, itu adalah kejahatan yang tidak tertahankan.
 
-Sukses buku ini sangat besar. Terjual sekitar 100.000 eksemplar dalam beberapa bulan, di negara dengan tiga juta penduduk dan ini berkontribusi dalam menggalang sentimen kemerdekaan Amerika.
+Sukses buku ini sangat besar. Terjual sekitar 100.000 kopi dalam beberapa bulan, di negara dengan tiga juta penduduk dan ini berkontribusi dalam menggalang sentimen kemerdekaan Amerika.
 
 Thomas Paine, melalui pamfletnya, memainkan peran penting dalam Revolusi Amerika dan dalam menginspirasi ide-ide kebebasan dan demokrasi. Dia secara langsung mempengaruhi Deklarasi Kemerdekaan Amerika yang diadopsi beberapa bulan kemudian.
 
@@ -1079,9 +1079,10 @@ Hingga abad ke-18, masalah politik utama bagi para filsuf ini adalah kedaulatan.
 ### Kedaulatan Rakyat
 
 Ide ini terinspirasi oleh Locke pada abad ke-17 dan kemudian diambil oleh Rousseau. Kekuasaan berdaulat tidak hanya harus berasal dari kehendak bebas rakyat, tetapi juga harus berada di dalamnya. Ini adalah teori Rousseau tentang kedaulatan kehendak umum, yang kita sebut hari ini sebagai demokrasi.
+
 ![image](assets/id/063.webp)
 
-Rousseau memahami rakyat sebagai individu otonom yang mampu menundukkan diri mereka pada hukum yang mereka tetapkan. Kehendak bebas rakyat merupakan satu-satunya dasar kedaulatan yang adil. Rousseau akan mengembangkan humanisme hukum ini, yang khas dari Modernitas, hingga konsekuensinya yang paling jauh dengan memahami rakyat sebagai individu yang mampu menentukan diri secara bebas atau sebagai kehendak umum. Dengan demikian, kontrak melibatkan penyerahan kepada hukum yang manusia sebagai kehendak umum berikan kepada dirinya sendiri sebagai kehendak khusus. Teori kehendak umum atau kedaulatan rakyat ini memungkinkan rekonsiliasi antara kebebasan dan penyerahan diri. Institusi diri dari hukum atau otonomi politik memang telah menjadi komponen esensial dari demokrasi sejak Rousseau.
+Rousseau memahami rakyat sebagai individu otonom yang mampu menundukkan diri mereka pada hukum yang mereka tetapkan. Kehendak bebas rakyat merupakan satu-satunya dasar kedaulatan yang adil. Rousseau akan mengembangkan humanisme hukum ini, yang khas dari Modernitas, hingga konsekuensinya yang paling jauh dengan memahami rakyat sebagai individu yang mampu menentukan diri secara bebas atau sebagai kehendak umum. Dengan demikian, kontrak melibatkan kepatuhan terhadap hukum yang diberikan manusia, sebagai kehendak umum, kepada dirinya sendiri sebagai kehendak partikular. Teori kehendak umum atau kedaulatan rakyat ini memungkinkan rekonsiliasi antara kebebasan dan penyerahan diri. Institusi diri dari hukum atau otonomi politik memang telah menjadi komponen esensial dari demokrasi sejak Rousseau.
 
 Namun, pertanyaan tentang asal-usul kedaulatan bukanlah satu-satunya. Refleksi dapat mengambil arah baru, yaitu mode pelaksanaan kedaulatan. Apakah kehendak umum selalu adil? Dan yang terpenting, apakah ia berwenang untuk campur tangan dalam masyarakat sipil dan dalam batas apa?
 
@@ -1113,7 +1114,7 @@ Pada abad ke-19, Alexis de Tocqueville, seorang filsuf politik Prancis, mencoba 
 
 ![image](assets/id/066.webp)
 
-Pertama, dalam cara mendefinisikan republik. Republik Prancis adalah satu dan tidak terbagi. Republik Amerika terdiri dari negara-negara berdaulat, masing-masing memiliki yurisdiksi dan kepentingan lokalnya sendiri. Federalisme dianggap sebagai pengkhianatan di Prancis. Di Amerika, pengkhianatan akan terdiri dari keinginan untuk mengimposkan kesatuan. Setidaknya sampai Perang Saudara Amerika, Persatuan dalam keragaman Negara adalah kekuatan Federasi.
+Pertama, dalam cara mendefinisikan republik. Republik Prancis adalah satu dan tidak terbagi. Republik Amerika terdiri dari negara-negara berdaulat, masing-masing memiliki yurisdiksi dan kepentingan lokalnya sendiri. Federalisme dianggap sebagai pengkhianatan di Prancis. Di Amerika, pengkhianatan akan berupa keinginan untuk memaksakan persatuan. Setidaknya sampai Perang Saudara Amerika, Persatuan dalam keragaman Negara adalah kekuatan Federasi.
 
 Dia juga berpendapat bahwa kepercayaan Amerika pada hukum yang lebih tinggi memainkan peran yang menentukan. Deklarasi Kemerdekaan menyatakan semua manusia diciptakan sama, bahwa mereka dianugerahi hak-hak tertentu yang tidak dapat dicabut (hidup, kebebasan, properti, dan pengejaran kebahagiaan) dan bahwa tujuan pemerintah adalah semata-mata untuk mengamankan hak-hak ini. Ini adalah tentang memulihkan prinsip dan ideal yang diinjak-injak oleh mahkota Inggris.
 
@@ -1179,7 +1180,7 @@ Kebebasan modern adalah kebebasan sipil, yang mencakup kebebasan ekonomi dan did
 
 Definisi kebebasan ini ditemukan dalam John Stuart Mill:
 
-> Satu-satunya kebebasan yang layak disebut nama, adalah kebebasan mengejar kebaikan kita sendiri dengan cara kita sendiri, selama kita tidak mencoba untuk merampas kebaikan orang lain atau menghalangi upaya mereka untuk memperolehnya. (...) Kemanusiaan mendapat lebih banyak dengan membiarkan setiap orang hidup sesuai yang mereka lihat cocok daripada dengan memaksa mereka untuk hidup seperti yang tampak baik bagi orang lain. (_On Liberty_, 1859)
+> Satu-satunya kebebasan yang layak disebut nama, adalah kebebasan mengejar kebaikan kita sendiri dengan cara kita sendiri, selama kita tidak mencoba untuk merampas kebaikan orang lain atau menghalangi upaya mereka untuk memperolehnya. (...) Kemanusiaan memperoleh lebih banyak keuntungan dengan membiarkan setiap orang hidup sesuai keinginannya daripada memaksa mereka untuk hidup sesuai dengan apa yang dianggap baik oleh orang lain. (_On Liberty_, 1859)
 
 ![image](assets/id/072.webp)
 

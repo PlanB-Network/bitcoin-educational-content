@@ -20,7 +20,7 @@ Ce guide vous explique l'installation, la configuration et l'utilisation de Bull
 
 Bull Bitcoin Wallet, développé par [Bull Bitcoin](https://www.bullbitcoin.com/), est un portefeuille Bitcoin **autonome**, ce qui signifie que vous avez le contrôle total de vos clés privées et donc de vos fonds, sans dépendre d'une tierce partie. Open source et ancré dans une philosophie Cypherpunk, ce portefeuille combine simplicité, confidentialité et fonctionnalités avancées telles que les swaps inter-réseaux et la prise en charge de PayJoin. Il vous permet de gérer vos bitcoins sur trois réseaux : **Bitcoin on-chain**, **Liquid** et **Lightning**, chacun adapté à des utilisations spécifiques.
 
-Sur le [GitHub de BullBitcoin](https://github.com/orgs/SatoshiPortal/projects/49), vous pouvez consulter les sujets actuels et les développements à venir. Comme le projet est 100% open source et "construit en public", vous pouvez également envoyer vos suggestions et les bugs que vous rencontrez. Alors que certains portefeuilles prennent désormais en charge plusieurs réseaux, Bull Bitcoin Wallet se distingue par une intégration poussée des fonctions de confidentialité sur chacun d'entre eux, ce qui en fait un outil puissant pour gérer vos bitcoins sur tous les principaux réseaux.
+Sur le [GitHub de Bull Bitcoin](https://github.com/orgs/SatoshiPortal/projects/49), vous pouvez consulter les sujets actuels et les développements à venir. Comme le projet est 100% open source et "construit en public", vous pouvez également envoyer vos suggestions et les bugs que vous rencontrez. Alors que certains portefeuilles prennent désormais en charge plusieurs réseaux, Bull Bitcoin Wallet se distingue par une intégration poussée des fonctions de confidentialité sur chacun d'entre eux, ce qui en fait un outil puissant pour gérer vos bitcoins sur tous les principaux réseaux.
 
 
 ## 1️⃣ Conditions préalables
@@ -30,10 +30,10 @@ Avant de commencer à utiliser le **Bull Bitcoin Wallet**, assurez-vous que vous
 
 
 
-- **Smartphone compatible** : Un appareil **iOS** (iPhone ou iPad) ou **Android**
-- **Connexion Internet**
-- **Sécuriser les supports de sauvegarde** : Notez votre **phrase de récupération** (12 ou 24 mots) sur du papier ou du métal, et conservez-la en lieu sûr
-- **Connaissances de base** : Une compréhension minimale des concepts de Bitcoin (adresses, transactions, frais) est utile, bien que ce tutoriel explique chaque étape pour les débutants
+- **Smartphone compatible** : Un appareil **iOS** (iPhone ou iPad) ou **Android** ;
+- **Connexion Internet** ;
+- **Sécuriser les supports de sauvegarde** : Notez votre **phrase de récupération** (12/24 mots) sur du papier ou du métal, et conservez-la en lieu sûr ;
+- **Connaissances de base** : Une compréhension minimale des concepts de Bitcoin (adresses, transactions, frais) est utile, bien que ce tutoriel explique chaque étape pour les débutants.
 
 
 ## 2️⃣ Installation
@@ -65,12 +65,12 @@ Après avoir installé l'application, suivez l'écran de bienvenue pour configur
 
 
 
-- `Create New Wallet`
-- `Recover Wallet`
-- `Advanced Options`
+- `Créer un nouveau portefeuille`
+- `Restaurer le portefeuille`
+- `Options Avancées`
 
 
-Commençons par cliquer sur `Options avancées`.
+Commençons par cliquer sur `Options Avancées`.
 
 
 Ici, nous pouvons configurer les paramètres avancés avant de créer ou de restaurer un portefeuille :
@@ -101,9 +101,9 @@ Avant d'aller plus loin, jetons un coup d'œil à l'écran d'accueil pour nous o
 
 
 
-- Les menus `historique de transactions` et `paramètres` sont situés en haut à droite.
-- L'affichage du solde dispose d'une option de confidentialité qui peut être "activée ou désactivée".
-- Accédez à `Bitcoin Bull Exchange` pour "acheter, vendre ou payer" (cela dépend de la juridiction et peut nécessiter un KYC).
+- Les menus `Historique de transactions` et `Paramètres` sont situés en haut à droite.
+- L'affichage du solde dispose d'une option de confidentialité qui peut être activée ou désactivée.
+- Accédez à `Bitcoin Bull Exchange` pour acheter, vendre ou payer (cela dépend de la juridiction et peut nécessiter un KYC).
 - Transfert de fonds entre portefeuilles.
 - `Bitcoin sécurisé` équivaut au portefeuille on-chain.
 - `Paiements instantanés` via Liquid et le Lightning Network. *(Note : Bull Bitcoin Wallet permet d'effectuer et de recevoir des paiements via Lightning. Les fonds reçus via le LN sont stockés sur [Liquid](https://liquid.net/) (dans le portefeuille Paiements instantanés) grâce à un échange automatique via [Boltz exchange](https://boltz.exchange/). Cela vous permet d'interagir avec Lightning sans avoir à gérer des canaux de liquidité, tout en restant en self-custody.)*
@@ -133,7 +133,7 @@ Tapez sur `Sauvegarde physique` pour voir une liste de 12 mots qui représentent
 
 
 - Rédigez votre "phrase de récupération" (*seed phrase*) avec le plus grand soin. Notez-la sur du papier ou du métal et conservez-la en lieu sûr (coffre-fort, emplacement hors ligne). Cette *seed* est votre seul moyen d'accéder à vos bitcoins en cas de perte de votre appareil ou de suppression de l'application.
-- Il est également important de noter que toute personne possédant cet ensemble de mots peut voler tous vos bitcoins. Ne la stockez jamais sous forme numérique.
+- Il est également important de noter que toute personne possédant cet ensemble de mots peut voler tous vos bitcoins. Ne les stockez jamais sous forme numérique.
 - Pas de capture d'écran.
 - Pas de sauvegardes dans le cloud, par courriel ou par messagerie.
 - Pas de copier/coller (risque d'enregistrement dans le presse-papiers).
@@ -201,7 +201,7 @@ Sélectionnez ensuite un fournisseur de coffre-fort :
 ![image](assets/en/04.webp)
 
 
-Maintenant, sauvegardez le `fichier de sauvegarde`. Ensuite, tapez sur `Test Recovery`, sélectionnez votre fichier de sauvegarde ou votre chambre forte, puis tapez sur `Decrypt Vault`. Entrez votre `PIN` ou `Password`. Si tout a fonctionné, l'écran `Test terminé avec succès` apparaîtra.
+Maintenant, sauvegardez le `fichier de sauvegarde`. Ensuite, tapez sur `Test Recovery`, sélectionnez votre fichier de sauvegarde ou votre chambre forte, puis tapez sur `Decrypt Vault`. Entrez votre `PIN` ou `Password`. Si tout a fonctionné, l'écran "Test terminé avec succès" apparaîtra.
 
 
 ### Étiquettes d'importation et d'exportation
@@ -233,7 +233,7 @@ Pour sécuriser l'application, naviguez vers `Paramètres` > `Paramètres de l'a
 ### B - Connexion à un nœud personnel (facultatif)
 
 
-Bull Bitcoin Wallet se connecte par défaut à des serveurs Electrum : le premier géré par Bull Bitcoin, et un serveur secondaire de Blockstream, tous deux considérés comme ne conservant aucun journal, ce qui réduit le risque de traçage.
+Bull Bitcoin Wallet se connecte par défaut à des serveurs Electrum : le premier géré par Bull Bitcoin et un serveur secondaire de Blockstream, tous deux considérés comme ne conservant aucun journal, ce qui réduit le risque de traçage.
 
 
 Pour plus de confidentialité, vous pouvez connecter l'application à votre propre nœud Bitcoin via un serveur Electrum. Pour ce faire, tapez sur `Paramètres` > `Paramètres Bitcoin` > `Paramètres du serveur Electrum`, puis sur `Ajouter un serveur personnalisé` pour entrer l'adresse et les informations d'identification de votre serveur.
@@ -270,9 +270,9 @@ En outre, vous avez la possibilité de :
 
 
 
-- Activer les paramètres de transfert automatique pour définir un solde de portefeuille maximum, qui sera ensuite automatiquement transféré vers le portefeuille `Bitcoin sécurisé`.
+- Activer les paramètres de transfert automatique pour définir un solde maximum du "portefeuille instantanés", qui sera ensuite automatiquement transféré vers le portefeuille `Bitcoin sécurisé`.
 - Importer des portefeuilles génériques via la phrase `Mnemonic` ou importer `watch-only`
-- Connecter les "portefeuilles matériels" : les dispositifs actuellement pris en charge sont ColdcardQ, SeedSigner, Specter, Krux, Blockstream Jade, Foundation Passport et Keystone.
+- Connecter les "portefeuilles matériels" (Hardware Wallet) : les dispositifs actuellement pris en charge sont ColdcardQ, SeedSigner, Specter, Krux, Blockstream Jade, Foundation Passport et Keystone.
 
 
 ## 7️⃣ Bull Bitcoin Exchange
@@ -313,7 +313,7 @@ La réception de fonds avec **Bull Bitcoin Wallet** est simple et flexible, car 
 
 
 
-- Le réseau `Bitcoin (onchain)` pour un stockage sécurisé à long terme.
+- Le réseau `Bitcoin (on-chain)` pour un stockage sécurisé à long terme.
 - Le réseau `Liquid` pour des transactions rapides et plus confidentielles.
 - Le réseau `Lightning` pour des paiements instantanés et peu coûteux.
 
@@ -519,7 +519,7 @@ Bull Bitcoin Wallet envoie des paiements Lightning en retirant des fonds de votr
 ## 🔟 Transférer des fonds entre vos portefeuilles
 
 
-Bull Bitcoin vous permet de transférer vos bitcoins entre votre portefeuille `Bitcoin sécurisé` et votre portefeuille `Paiements instantanés` sur le réseau Liquid, ou vers un portefeuille externe. Pour effectuer un transfert, il vous suffit de vous rendre dans la section `Transfer`, de sélectionner les portefeuilles source et destination, d'entrer le montant que vous souhaitez transférer et de confirmer la transaction.
+Bull Bitcoin vous permet de transférer vos bitcoins entre vos portefeuilles `Bitcoin sécurisé` et `Paiements instantanés` sur le réseau Liquid, ou vers un portefeuille externe. Pour effectuer un transfert, il vous suffit de vous rendre dans la section `Transfer`, de sélectionner les portefeuilles source et destination, d'entrer le montant que vous souhaitez transférer et de confirmer la transaction.
 
 
 ![image](assets/en/17.webp)
@@ -555,7 +555,7 @@ Il indique que le coffre-fort a été importé avec succès. Appuyez sur le bout
 Cette méthode utilise la phrase de récupération principale de votre portefeuille, une liste standard de 12/24 mots qui sert de sauvegarde ultime pour vos fonds. C'est la façon la plus universelle de récupérer un portefeuille Bitcoin, car elle n'est liée à aucun service ou serveur spécifique. Tant que vous avez cette phrase, vous pouvez restaurer votre portefeuille sur n'importe quel appareil compatible, même sans accès au serveur de clés Bull Bitcoin.
 
 
-Dans l'écran de bienvenue, sélectionnez `Restaurer le portefeuille`. Cette fois, choisissez la méthode `Sauvegarde physique`. L'application présente une grille de mots. Sélectionnez soigneusement chaque mot de votre phrase de 12 mots dans le bon ordre. Soyez méticuleux, car une seule erreur se traduira par un portefeuille incorrect.
+Dans l'écran de bienvenue, sélectionnez `Restaurer le portefeuille`. Cette fois, choisissez la méthode `Sauvegarde physique`. L'application présente une grille de mots. Sélectionnez soigneusement chaque mot de votre phrase de 12/24 mots dans le bon ordre. Soyez méticuleux, car une seule erreur se traduira par un portefeuille incorrect.
 
 
 ## 1️⃣2️⃣ Connexion d'un Hardware Wallet

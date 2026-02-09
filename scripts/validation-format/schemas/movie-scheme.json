@@ -91,6 +91,6 @@
       }
     ]
   },
-  "required": ["id", "title", "author", "publication_year", "duration", "language", "links", "description", "contributor_names", "tags", "license"],
+  "required": ["id", "title", "author", "publication_year", "duration", "language", "links", "description", "contributor_names", "tags"],
   "additionalProperties": false
 }

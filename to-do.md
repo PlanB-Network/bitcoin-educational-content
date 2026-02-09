@@ -13,16 +13,16 @@
 | courses | 44 | 44 | 0 err / 2 warn | ✅ CORRIGÉ |
 | tutorials | 310 | 310 | 113 err / 43 warn | EN COURS (covers manquantes) |
 | professors | 89 | 89 | 0 err / 20 warn | ✅ CORRIGÉ |
-| events | 228 | 228 | ~648 err | EN ATTENTE |
+| events | 228 | 228 | 0 err / 387 warn | ✅ CORRIGÉ |
 | resources/bet | 19 | 19 | ~1508 err | EN ATTENTE |
 | resources/books | 175 | 175 | ~4212 err | EN ATTENTE |
-| resources/channels | 79 | 79 | ~5 err | EN ATTENTE |
+| resources/channels | 79 | 79 | 0 err | ✅ CORRIGÉ |
 | resources/conferences | 90 | 90 | ~207 err | EN ATTENTE |
 | resources/glossary | 846 | 846 | ~21761 err (BUG) | EN ATTENTE |
-| resources/movies | 41 | 41 | ~49 err | EN ATTENTE |
-| resources/newsletters | 46 | 46 | ~53 err | EN ATTENTE |
+| resources/movies | 41 | 41 | 0 err | ✅ CORRIGÉ |
+| resources/newsletters | 46 | 46 | 0 err | ✅ CORRIGÉ |
 | resources/papers | 45 | 45 | 0 | ✅ OK |
-| resources/podcasts | 79 | 79 | ~82 err | EN ATTENTE |
+| resources/podcasts | 79 | 79 | 0 err | ✅ CORRIGÉ |
 | resources/projects | 408 | 408 | 0 | ✅ OK |
 
 ---
@@ -45,12 +45,12 @@
 
 | # | Type | Erreurs | Statut |
 |---|------|---------|--------|
-| 1 | events | ~648 | [ ] En attente |
+| 1 | events | 0 | [x] CORRIGÉ |
 | 2 | resources/glossary | ~21761 | [ ] En attente |
-| 3 | resources/movies | ~49 | [ ] En attente |
-| 4 | resources/newsletters | ~53 | [ ] En attente |
-| 5 | resources/podcasts | ~82 | [ ] En attente |
-| 6 | resources/channels | ~5 | [ ] En attente |
+| 3 | resources/movies | 0 | [x] CORRIGÉ |
+| 4 | resources/newsletters | 0 | [x] CORRIGÉ |
+| 5 | resources/podcasts | 0 | [x] CORRIGÉ |
+| 6 | resources/channels | 0 | [x] CORRIGÉ |
 | 7 | resources/conferences | ~207 | [ ] En attente |
 | 8 | resources/books | ~4212 | [ ] En attente |
 | 9 | resources/bet | ~1508 | [ ] En attente |
@@ -115,6 +115,26 @@ Les 113 erreurs restantes sont des covers manquantes dans:
 **Résultat : professors passé de 89 erreurs → 0 erreur, 20 warnings** ✅
 
 **Commit** : `75bb28e03a`
+
+### Session 5 - 2026-02-08
+
+**Tâches effectuées :**
+- [x] Mise à jour event-scheme.json : project_id optionnel, ajout contributor_names/available_seats/custom_tc_disclaimer/is_gdpr_compliance/test_only
+- [x] Pattern language élargi pour zh-hans/zh-hant
+- [x] Ajout `00:00:00` aux dates sans heure (60 events)
+- [x] Ajout timezone manquant (52 events, déduit de address_city_country)
+- [x] Correction typo porject_id (beechworth-bush-bash-2025)
+- [x] Remplacement UUID non-v4 (bitcoin-filmfest-2026, treasure-summit-2025)
+- [x] Ajout tags manquants (bitcoin-bienes-raices-2025, bitcoin-filmfest-2026)
+- [x] Ajout address_city_country manquant (3 events)
+- [x] Suppression champ deprecated builder (3 liquid-dev-bootcamp)
+- [x] Correction address_line_1 → address_city_country (the-bitcoin-summit-2025)
+- [x] Correction tags invalides (the-bitcoin-summit-2025)
+- [x] Correction zh-TW → zh-hant (unstoppable-money-human-rights-foundation)
+
+**Résultat : events passé de 263 erreurs → 0 erreur, 387 warnings** ✅
+
+**Commit** : `da19d9f110`
 
 ---
 

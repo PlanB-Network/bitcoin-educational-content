@@ -662,8 +662,9 @@ class SchemaValidator:
         yaml_path = folder / config.yaml_file
         if not yaml_path.exists():
             result = ValidationResult(file_path=str(yaml_path))
-            result.add_error(f"Missing required file: {config.yaml_file}")
+            result.add_warning(f"Missing metadata file: {config.yaml_file} (empty folder?)")
             results.append(result)
+            return results
         else:
             schema_path = self.find_schema_file(config)
             if schema_path:

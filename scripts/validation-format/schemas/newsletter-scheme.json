@@ -70,6 +70,11 @@
       "type": "string",
       "description": "License for the newsletter content.",
       "enum": ["CC-BY-SA-V4", "MIT"]
+    },
+    "project_id": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$",
+      "description": "UUID v4 linking this newsletter to a PlanB Network project."
     }
   },
   "assets_rules": {
@@ -89,6 +94,6 @@
       }
     ]
   },
-  "required": ["id", "title", "author", "level", "publication_date", "link", "language", "description", "contributor_names", "tags", "license"],
+  "required": ["id", "title", "author", "level", "publication_date", "link", "language", "description", "contributor_names", "tags"],
   "additionalProperties": false
 }

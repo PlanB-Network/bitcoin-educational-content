@@ -34,6 +34,14 @@
         "website": {
           "type": "string",
           "description": "URL of the podcast's website."
+        },
+        "facebook": {
+          "type": "string",
+          "description": "URL of the podcast's Facebook page."
+        },
+        "youtube": {
+          "type": "string",
+          "description": "URL of the podcast's YouTube channel."
         }
       },
       "required": ["podcast"],
@@ -82,6 +90,6 @@
       }
     ]
   },
-  "required": ["id", "name", "host", "language", "links", "description", "tags", "contributor_names", "license"],
+  "required": ["id", "name", "host", "language", "links", "description", "tags", "contributor_names"],
   "additionalProperties": false
 }

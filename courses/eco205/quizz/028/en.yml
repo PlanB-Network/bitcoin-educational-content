@@ -1,0 +1,8 @@
+question: What is the unique feature of the axiom of human action according to the Austrian school?
+answer: It is irrefutable because to contradict it requires action, which validates the axiom
+wrong_answers:
+  - "It can be proven by experimentation and empirical observation."
+  - It requires statistical data to be scientifically validated
+  - "It must be demonstrated mathematically before it can be accepted"
+explanation: |
+  The axiom of human action has a unique feature: it creates a performative contradiction when we try to refute it. To contest that man acts, one must necessarily act oneself, thus demonstrating the truth of the axiom. This irrefutability distinguishes it from empirical approaches, which require experimental or statistical evidence.

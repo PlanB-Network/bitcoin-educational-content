@@ -1,0 +1,8 @@
+question: What is the main signal that savings send to entrepreneurs according to Austrian theory?
+answer: That current consumption is satisfied and that they can invest in other stages of production
+wrong_answers:
+  - That consumers want to increase their immediate consumption of goods and services
+  - "That interest rates are too high and that we need to cut back on productive investment."
+  - That the capital structure is misaligned and requires instant reallocation
+explanation: |
+  According to Austrian theory, saving is a crucial signal for entrepreneurs, as it indicates that current consumption is satisfied. This allows entrepreneurs to invest in stages of production further away from consumption without negatively impacting current consumer needs. Savings and their price (the interest rate) thus orient production towards the right temporality, enabling the development of more complex and productive production detours.

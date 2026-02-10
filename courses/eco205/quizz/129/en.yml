@@ -1,0 +1,8 @@
+question: How does Ludwig von Mises define the concept of original interest?
+answer: As the ratio between the value attributed to the satisfaction of immediate needs and that attributed to more distant future periods
+wrong_answers:
+  - "Like the difference between the opportunity cost of holding money and the opportunity cost of holding financial assets."
+  - "As the mechanism that automatically balances supply and demand on the long-term capital market"
+  - "Like the risk premium that investors demand to compensate for the uncertainty associated with future investments."
+explanation: |
+  According to Mises, original interest represents the subjective difference in time value between present and future, specific to each individual. This concept differs from Keynesian (monetary opportunity cost) and neoclassical (supply-demand equilibrium) approaches. Nor is it a risk premium, but rather the fundamental price of time itself, reflecting individual temporal preferences in their relationship between immediate and future consumption.

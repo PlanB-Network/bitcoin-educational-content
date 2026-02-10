@@ -1,0 +1,8 @@
+question: In David Ricardo's example, if it takes two hours to hunt a beaver and only one hour to capture a turkey, what is the relative value of the beaver according to the labor theory of value?
+answer: Beaver is worth twice as much as turkey
+wrong_answers:
+  - The beaver is worth half the turkey
+  - Beaver and turkey have the same value
+  - The beaver is worth four times the turkey
+explanation: |
+  According to Ricardo's labor theory of value, the exchange value of a good is proportional to the labor incorporated in its production. If a beaver takes two hours to produce and a turkey one hour, the beaver is worth exactly twice as much as the turkey. This example perfectly illustrates the fundamental principle of this classic theory, even if it was later challenged by the diamond and water paradox.

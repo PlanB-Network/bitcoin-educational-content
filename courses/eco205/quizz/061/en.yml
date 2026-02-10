@@ -1,0 +1,8 @@
+question: What does it mean that capital goods are not interchangeable according to Austrian theory?
+answer: An extraction machine cannot be instantly converted into a combine harvester
+wrong_answers:
+  - All capital goods have the same monetary value on the market
+  - Capital goods can be easily exchanged between different industries
+  - Productivity of all capital goods is identical in all sectors
+explanation: |
+  Capital heterogeneity means that each capital good has unique characteristics and specific uses. This non-interchangeability has important consequences: bad investments can't be easily corrected, and a misdirected capital structure can't be instantly reallocated to other, more productive uses, which partly explains business cycles according to the Austrians.

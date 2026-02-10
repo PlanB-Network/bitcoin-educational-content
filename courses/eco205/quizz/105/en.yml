@@ -1,0 +1,8 @@
+question: According to Menger's Austrian theory, why does the emergence of money represent a self-reinforcing process once a commodity begins to be adopted as an exchange intermediary?
+answer: Because adoption creates a network externality effect, where the more a product is used, the more it becomes exchangeable, attracting more users
+wrong_answers:
+  - "Because central authorities are gradually stepping in to support and legitimize the use of this emerging commodity."
+  - Because the increasing scarcity of goods automatically increases their value and thus their attractiveness for trade
+  - "Because early adopters artificially manipulate the market to force widespread adoption of their favorite commodity."
+explanation: |
+  Menger identifies a self-reinforcing mechanism based on network externality: the more a commodity is adopted as currency, the more exchangeable it becomes, attracting new users and reinforcing its monetary status. This virtuous circle is explained by the fact that a currency's utility increases with the number of people who accept it, creating a natural dynamic of progressive adoption without external intervention.

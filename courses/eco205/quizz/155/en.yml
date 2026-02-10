@@ -1,0 +1,8 @@
+question: According to the Austrian school of thought, what is the direct consequence of the absence of private ownership of the means of production on productive organization?
+answer: The impossibility of valuing intermediate goods through voluntary exchange, making the organization of the production system blind
+wrong_answers:
+  - "Automatic creation of a static equilibrium enabling planners to calculate optimum requirements"
+  - "The spontaneous emergence of an efficient barter system replacing monetary price mechanisms"
+  - "The concentration of all necessary economic information in the hands of central planning committees"
+explanation: |
+  The Austrian school demonstrates that without private property, there can be no free exchange, and therefore no real prices for intermediate goods. The entrepreneur can no longer transcribe his subjective valuation in the form of a price, making rational organization of production impossible. The other options are incorrect, since static equilibrium remains purely theoretical, barter does not solve the informational problem, and planners cannot centralize constantly evolving information.

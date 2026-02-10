@@ -1,0 +1,8 @@
+question: In the example of the baker and the buyer, what is it that fundamentally enables the transaction to take place and be mutually profitable?
+answer: The baker values her money more than her baguette, while the buyer values his baguette more than his money
+wrong_answers:
+  - The price of the baguette corresponds exactly to its objective value as determined by production costs
+  - Both parties place the same value on the baguette but agree to compromise on the price
+  - "The baker and the buyer agree on a common value for the baguette based on marginal utility"
+explanation: |
+  According to Austrian theory, the exchange is only possible thanks to the difference in subjective valuation between the parties. The baker prefers to receive the money rather than keep her baguette, while the buyer prefers to obtain the baguette rather than keep his money. This mismatch in value judgments makes the exchange mutually beneficial. If both parties valued the goods identically, no exchange would take place, as there would be no mutual benefit to be gained from the transaction.

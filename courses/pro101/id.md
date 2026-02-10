@@ -1002,7 +1002,7 @@ Fleksibilitas dalam protokol Bitcoin diperlukan untuk mendorong peningkatan priv
 ![Image](assets/en/007.webp)
 
 
-Upaya untuk meningkatkan kegunaan Bitcoin sering kali mengorbankan keamanan dan privasi. Sebagai contoh, dompet kustodian yang mudah digunakan, seperti Wallet dari Satoshi, menyediakan Interface yang dapat diakses tetapi berkompromi secara signifikan pada keamanan dan privasi. Sistem yang disederhanakan dapat meningkatkan kegunaan tetapi dapat menyebabkan masalah seperti penggunaan kembali Address, yang merusak privasi. Oleh karena itu, setiap peningkatan dalam kegunaan harus dipertimbangkan dengan hati-hati terhadap potensi pertukaran keamanan dan privasi.
+Upaya untuk meningkatkan kegunaan Bitcoin sering kali mengorbankan keamanan dan privasi. Sebagai contoh, dompet kustodian yang mudah digunakan, seperti Wallet dari Satoshi, menyediakan Interface yang mudah diakses tetapi secara signifikan mengorbankan keamanan dan privasi. Sistem yang disederhanakan dapat meningkatkan kegunaan tetapi dapat menyebabkan masalah seperti penggunaan kembali Address, yang merusak privasi. Oleh karena itu, setiap peningkatan dalam kegunaan harus dipertimbangkan dengan hati-hati terhadap potensi pertukaran keamanan dan privasi.
 
 
 #### Skalabilitas dan pertukaran privasi

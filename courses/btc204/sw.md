@@ -92,7 +92,7 @@ Bitcoin ni sarafu ya kwanza kabisa, lakini je, unajua jinsi BTC inawakilishwa kw
 
 ### UTXO kwenye Bitcoin: ni nini?
 
-Itifaki ya Bitcoin inategemea mfano wa UTXO, ambao unasimama kwa "Unspent Transaction Output".
+Itifaki ya Bitcoin inategemea mfano wa [UTXO](https://planb.academy/resources/glossary/utxo), ambao unasimama kwa "Unspent Transaction Output".
 
 Mtindo huu unatofautiana kwa kiasi kikubwa na mifumo ya jadi ya benki, ambayo inategemea utaratibu wa akaunti na salio kufuatilia mtiririko wa fedha. Katika mfumo wa benki, mizani ya mtu binafsi hutunzwa katika akaunti zilizounganishwa na utambulisho. Kwa mfano, unaponunua baguette kutoka kwa mwokaji, benki yako hutoa tu kiasi cha ununuzi kutoka kwa akaunti yako, kupunguza salio lako, wakati akaunti ya mwokaji inahesabiwa kwa kiasi sawa, na kuongeza salio lake. Katika mfumo huu, hakuna dhana ya kiungo kati ya pesa zinazoingia kwenye akaunti yako na pesa zinazoiacha, kando na rekodi za miamala.
 
@@ -100,15 +100,15 @@ Mtindo huu unatofautiana kwa kiasi kikubwa na mifumo ya jadi ya benki, ambayo in
 
 Bitcoin inafanya kazi tofauti. Dhana ya akaunti haipo, na vitengo vya fedha havidhibitiwi kupitia mizani, bali kupitia UTXOs. UTXO inawakilisha kiasi maalum cha bitcoins ambazo bado hazijatumiwa, na hivyo kutengeneza "kipande cha Bitcoin", ambacho kinaweza kuwa kikubwa au kidogo. Kwa mfano, UTXO moja inaweza kuwa na thamani ya `500 BTC` au hata `700 Sats`.
 
-**Kumbusha:** Satoshi, ambayo mara nyingi hufupishwa kukaa, ni kitengo kidogo zaidi cha Bitcoin, kinacholinganishwa na sentime katika sarafu ya pesa za serikali.
+**Kumbusha:** [Satoshi](https://planb.academy/resources/glossary/satoshi-sat), ambayo mara nyingi hufupishwa kukaa, ni kitengo kidogo zaidi cha Bitcoin, kinacholinganishwa na sentime katika sarafu ya [pesa za serikali](https://planb.academy/resources/glossary/fiat).
 
 ```plaintext
 1 BTC = 100 000 000 SATS
 ```
 
-Kinadharia, UTXO moja inaweza kuwakilisha thamani yoyote katika bitcoins, kuanzia sats hadi upeo wa kinadharia wa karibu milioni 21 BTC. Hata hivyo, kwa mantiki, haiwezekani kumiliki bitcoins zote milioni 21, na kuna kizingiti cha chini cha kiuchumi kinachoitwa "Dust", chini ya hapo UTXO huchukuliwa kuwa haina faida ya kiuchumi kuitumia.
+Kinadharia, UTXO moja inaweza kuwakilisha thamani yoyote katika bitcoins, kuanzia sats hadi upeo wa kinadharia wa karibu milioni 21 BTC. Hata hivyo, kwa mantiki, haiwezekani kumiliki bitcoins zote milioni 21, na kuna kizingiti cha chini cha kiuchumi kinachoitwa "[Dust](https://planb.academy/resources/glossary/dust)", chini ya hapo UTXO huchukuliwa kuwa haina faida ya kiuchumi kuitumia.
 
-**Je, wajua?** UTXO kubwa zaidi kuwahi kuundwa kwenye Bitcoin ilikuwa na thamani ya `500,000 BTC`. Iliundwa na jukwaa la MtGox wakati wa operesheni ya ujumuishaji mnamo Novemba 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://GW-4 8.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
+**Je, wajua?** UTXO kubwa zaidi kuwahi kuundwa kwenye Bitcoin ilikuwa na thamani ya `500,000 BTC`. Iliundwa na jukwaa la MtGox wakati wa operesheni ya [ujumuishaji](https://planb.academy/resources/glossary/consolidation) mnamo Novemba 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://GW-4 8.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
 ### UTXOs na hali ya matumizi
 
@@ -116,7 +116,7 @@ UTXOs ni vyombo vya ubadilishanaji kwenye Bitcoin. Kila shughuli husababisha mat
 
 ![BTC204](assets/sw/007.webp)
 
-UTXO zote zinalindwa na hati zinazofafanua hali ambazo zinaweza kutumika. Ili kutumia UTXO, mtumiaji lazima aonyeshe kwa mtandao kwamba anakidhi masharti yaliyoainishwa na hati inayolinda UTXO hiyo. Kwa kawaida, UTXO zinalindwa na ufunguo wa umma (au kupokea Address ambayo inawakilisha ufunguo huu wa umma). Ili kutumia UTXO inayohusishwa na ufunguo huu wa umma, mtumiaji lazima athibitishe kuwa ana ufunguo wa faragha unaolingana, kwa kutoa sahihi ya dijiti iliyotengenezwa na ufunguo huu. Hii ndiyo sababu tunasema kwamba Wallet yako ya Bitcoin haina bitcoins, bali huhifadhi funguo zako za kibinafsi, ambazo zinakupa ufikiaji wa UTXOs zako na, kwa ugani, kwa bitcoins wanazowakilisha.
+UTXO zote zinalindwa na [hati](https://planb.academy/resources/glossary/script) zinazofafanua hali ambazo zinaweza kutumika. Ili kutumia UTXO, mtumiaji lazima aonyeshe kwa mtandao kwamba anakidhi masharti yaliyoainishwa na hati inayolinda UTXO hiyo. Kwa kawaida, UTXO zinalindwa na [ufunguo wa umma](https://planb.academy/resources/glossary/public-key) (au [kupokea Address](https://planb.academy/resources/glossary/receiving-address) ambayo inawakilisha ufunguo huu wa umma). Ili kutumia UTXO inayohusishwa na ufunguo huu wa umma, mtumiaji lazima athibitishe kuwa ana [ufunguo wa faragha](https://planb.academy/resources/glossary/private-key) unaolingana, kwa kutoa [sahihi ya dijiti](https://planb.academy/resources/glossary/digital-signature) iliyotengenezwa na ufunguo huu. Hii ndiyo sababu tunasema kwamba [Wallet](https://planb.academy/resources/glossary/wallet) yako ya Bitcoin haina bitcoins, bali huhifadhi funguo zako za kibinafsi, ambazo zinakupa ufikiaji wa UTXOs zako na, kwa ugani, kwa bitcoins wanazowakilisha.
 
 ![BTC204](assets/sw/008.webp)
 
@@ -141,11 +141,11 @@ Salio la jumla lako kwingineko litakuwa `17 BTC`.
 
 ### Ingizo la shughuli na matokeo
 
-Muamala wa Bitcoin ni operesheni iliyorekodiwa kwenye Blockchain inayohamisha Umilikishaji wa bitcoins kutoka kwa mtu mmoja hadi mwingine. Kwa usahihi zaidi, kwa kuwa tuko kwenye modeli ya [UTXO](https://planb.academy/resources/glossary/utxo) na hakuna akaunti, shughuli hiyo inakidhi masharti ya matumizi ambayo yalilinda UTXO moja au zaidi, inazitumia, na kwa usawa huunda UTXO mpya na masharti mapya ya matumizi. Kwa kifupi, muamala huhamisha bitcoins kutoka hati iliyoridhika hadi hati mpya iliyoundwa ili kuzilinda.
+Muamala wa Bitcoin ni operesheni iliyorekodiwa kwenye [Blockchain](https://planb.academy/resources/glossary/blockchain) inayohamisha Umilikishaji wa bitcoins kutoka kwa mtu mmoja hadi mwingine. Kwa usahihi zaidi, kwa kuwa tuko kwenye modeli ya UTXO na hakuna akaunti, shughuli hiyo inakidhi masharti ya matumizi ambayo yalilinda UTXO moja au zaidi, inazitumia, na kwa usawa huunda UTXO mpya na masharti mapya ya matumizi. Kwa kifupi, muamala huhamisha bitcoins kutoka hati iliyoridhika hadi hati mpya iliyoundwa ili kuzilinda.
 
 ![BTC204](assets/sw/010.webp)
 
-Kwa hivyo, kila muamala wa Bitcoin huwa na ingizo moja au zaidi na towe moja au zaidi. Ingizo ni UTXO zinazotumiwa na muamala kwa ajili ya matokeo yanayozalishwa. Matokeo ni UTXO mpya ambazo zinaweza kutumika kama ingizo kwa miamala ya siku zijazo.
+Kwa hivyo, kila muamala wa Bitcoin huwa na [ingizo](https://planb.academy/resources/glossary/input) moja au zaidi na [towe](https://planb.academy/resources/glossary/output) moja au zaidi. Ingizo ni UTXO zinazotumiwa na muamala kwa ajili ya matokeo yanayozalishwa. Matokeo ni UTXO mpya ambazo zinaweza kutumika kama ingizo kwa miamala ya siku zijazo.
 
 ![BTC204](assets/sw/011.webp)
 
@@ -157,7 +157,7 @@ Kila ingizo katika shughuli ya Bitcoin inarejelea UTXO ambayo haijatumika hapo a
 
 Kila pato, kwa upande wake, linataja kiasi cha bitcoins kinachohamishwa, pamoja na mpokeaji. Mwisho hufafanuliwa na hati mpya, ambayo kwa kawaida huzuia UTXO mpya iliyoundwa na kupokea Address au public key mpya.
 
-Ili muamala kuzingatiwa kuwa halali kulingana na sheria za makubaliano, jumla ya matokeo lazima yawe chini ya au sawa na jumla ya pembejeo. Kwa maneno mengine, jumla ya UTXO mpya zinazozalishwa na muamala lazima zisizidi jumla ya UTXO zinazotumiwa kama pembejeo. Kanuni hii ni ya kimantiki: ikiwa una `500,000 Sats` tu, huwezi kufanya ununuzi wa `700,000 Sats`.
+Ili muamala kuzingatiwa kuwa halali kulingana na [sheria za makubaliano](https://planb.academy/resources/glossary/consensus-rules), jumla ya matokeo lazima yawe chini ya au sawa na jumla ya pembejeo. Kwa maneno mengine, jumla ya UTXO mpya zinazozalishwa na muamala lazima zisizidi jumla ya UTXO zinazotumiwa kama pembejeo. Kanuni hii ni ya kimantiki: ikiwa una `500,000 Sats` tu, huwezi kufanya ununuzi wa `700,000 Sats`.
 
 ### Kubadilishana na kuunganisha katika miamala ya Bitcoin
 
@@ -165,7 +165,7 @@ Kitendo cha muamala wa Bitcoin kwenye UTXO kinaweza kulinganishwa na kuweka tena
 
 Utaratibu huu ni sawa na ule wa sarafu ya dhahabu. Tuseme unamiliki sarafu za wakia 2 na unataka kufanya malipo ya wakia 1, tukichukulia muuzaji hawezi kukupa chenji. Utalazimika kuyeyusha sarafu zako na kutengeneza sarafu mpya mbili za wakia 1 kila moja.
 
-Bitcoin inafanya kazi kwa njia sawa. Hebu tufikirie kuwa Alice ana UTXO ya `10,000 Sats` na anataka kununua baguette ya gharama ya `4,000 Sats`. Alice atafanya muamala na 1 UTXO ya `10,000 Sats` kama ingizo, ambalo atatumia kikamilifu, na UTXO 2 za `4,000 Sats` na `6,000 Sats` kama pato. UTXO ya `4,000 Sats` itatumwa kwa mwokaji kama malipo ya baguette, huku UTXO ya `6,000 Sats` itarudi kwa Alice kwa njia ya mabadiliko. UTXO hii, ambayo inarudi kwa mtoaji asili wa muamala, inajulikana kama "ubadilishanaji" katika jargon ya Bitcoin.
+Bitcoin inafanya kazi kwa njia sawa. Hebu tufikirie kuwa Alice ana UTXO ya `10,000 Sats` na anataka kununua baguette ya gharama ya `4,000 Sats`. Alice atafanya muamala na 1 UTXO ya `10,000 Sats` kama ingizo, ambalo atatumia kikamilifu, na UTXO 2 za `4,000 Sats` na `6,000 Sats` kama pato. UTXO ya `4,000 Sats` itatumwa kwa mwokaji kama malipo ya baguette, huku UTXO ya `6,000 Sats` itarudi kwa Alice kwa njia ya mabadiliko. UTXO hii, ambayo inarudi kwa mtoaji asili wa muamala, inajulikana kama "[ubadilishanaji](https://planb.academy/resources/glossary/change)" katika jargon ya Bitcoin.
 
 ![BTC204](assets/sw/013.webp)
 
@@ -175,13 +175,13 @@ Sasa hebu tufikirie kuwa Alice hana UTXO moja ya `10,000 Sats`, bali badala yake
 
 ### Ada za muamala
 
-Uangavu, mtu anaweza kufikiri kwamba gharama za muamala pia zinawakilisha matokeo ya muamala. Lakini kwa ukweli, hii sivyo. Gharama za muamala zinawakilisha tofauti kati ya jumla ya pembejeo na jumla ya matokeo. Hii ina maana kwamba, baada ya kutumia sehemu ya thamani ya pembejeo ili kufidia matokeo yanayohitajika katika muamala, jumla fulani ya pembejeo hubakia bila kutumika. Kiasi hiki cha mabaki kinajumuisha gharama za muamala.
+Uangavu, mtu anaweza kufikiri kwamba [gharama za muamala](https://planb.academy/resources/glossary/transaction-fees) pia zinawakilisha matokeo ya muamala. Lakini kwa ukweli, hii sivyo. Gharama za muamala zinawakilisha tofauti kati ya jumla ya pembejeo na jumla ya matokeo. Hii ina maana kwamba, baada ya kutumia sehemu ya thamani ya pembejeo ili kufidia matokeo yanayohitajika katika muamala, jumla fulani ya pembejeo hubakia bila kutumika. Kiasi hiki cha mabaki kinajumuisha gharama za muamala.
 
 ```plaintext
 Ada za muamala = total inputs - total outputs
 ```
 
-Hebu tuchukue mfano wa Alice, ambaye ana UTXO ya `10,000 Sats` na anataka kununua baguette kwa `4,000 Sats`. Alice hutengeneza muamala na UTXO yake ya `10,000 Sats` kama ingizo. Kisha hutoa pato la `4,000 Sats` kwa mwokaji kulipia baguette. Ili kuwahimiza wachimbaji kujumuisha shughuli zake kwenye eneo, Alice hutenga `200 Sats` katika ada. Kisha atatengeneza toleo la pili, Ubadilishanaji, ambalo litarejeshwa kwake, la jumla ya `5,800 Sats`.
+Hebu tuchukue mfano wa Alice, ambaye ana UTXO ya `10,000 Sats` na anataka kununua baguette kwa `4,000 Sats`. Alice hutengeneza muamala na UTXO yake ya `10,000 Sats` kama ingizo. Kisha hutoa pato la `4,000 Sats` kwa mwokaji kulipia baguette. Ili kuwahimiza [wachimbaji](https://planb.academy/resources/glossary/miner) kujumuisha shughuli zake kwenye eneo, Alice hutenga `200 Sats` katika ada. Kisha atatengeneza toleo la pili, Ubadilishanaji, ambalo litarejeshwa kwake, la jumla ya `5,800 Sats`.
 
 ![BTC204](assets/sw/015.webp)
 
@@ -194,7 +194,7 @@ Ada za muamala = 10 000 - 9 800
 Ada za muamala = 200
 ```
 
-Miner anapofanikiwa kuhalalisha block, anaidhinishwa kukusanya ada hizi kwa miamala yote iliyojumuishwa kwenye block yake, kupitia muamala unaoitwa Coinbase.
+Miner anapofanikiwa kuhalalisha [block](https://planb.academy/resources/glossary/block), anaidhinishwa kukusanya ada hizi kwa miamala yote iliyojumuishwa kwenye block yake, kupitia muamala unaoitwa [Coinbase](https://planb.academy/resources/glossary/coinbase-transaction).
 
 ### Kuunda UTXO kwenye Bitcoin
 
@@ -202,14 +202,14 @@ Ikiwa umefuata aya zilizotangulia kwa uangalifu, sasa utajua kuwa UTXO zinaweza 
 
 Jibu liko kwenye muamala wa sarafu ya msingi.
 
-Sarafu ya msingi ni aina maalum ya shughuli ya Bitcoin, ambayo ni ya kipekee kwa kila bloku na daima ni ya kwanza ya haya. Inaruhusu Miner  ambaye amepata Proof of Work halali kupokea Malipo ya bloku yake. Zawadi hii inaundwa na Vipengele viwili: **ruzuku ya kuzuia** na **ada ya muamala**, iliyojadiliwa katika sehemu iliyotangulia.
+Sarafu ya msingi ni aina maalum ya shughuli ya Bitcoin, ambayo ni ya kipekee kwa kila bloku na daima ni ya kwanza ya haya. Inaruhusu Miner  ambaye amepata [Proof of Work](https://planb.academy/resources/glossary/proof-of-work) halali kupokea Malipo ya bloku yake. Zawadi hii inaundwa na Vipengele viwili: **[ruzuku ya kuzuia](https://planb.academy/resources/glossary/block-subsidy)** na **ada ya muamala**, iliyojadiliwa katika sehemu iliyotangulia.
 
 Sarafu ya msingi Coinbase Transaction ni ya kipekee kwa kuwa ndiyo pekee inayoweza kuunda Bitcoins *ex nihilo* (kutoka kwenye ombwe), bila hitaji la kutumia pembejeo kwa ajili ya kuzalisha matokeo. Bitcoins hizi mpya zilizoundwa ndizo tunaziita UTXO za asili.
 
 
 ![BTC204](assets/sw/016.webp)
 
-Bitcoins zilizopewa ruzuku ya block ni BTC mpya iliyoundwa kutoka mwanzo, kulingana na ratiba ya utoaji iliyowekwa tayari katika sheria za makubaliano. Ruzuku ya block hupunguzwa kwa nusu kila block 210,000, yaani takriban kila baada ya miaka minne, katika mchakato unaojulikana kama "Halving" . Awali, bitcoins 50 ziliundwa kwa kila ruzuku, lakini kiasi hiki kimepungua hatua kwa hatua; kwa sasa, ni bitcoins 3.1225 kwa block.
+Bitcoins zilizopewa ruzuku ya block ni BTC mpya iliyoundwa kutoka mwanzo, kulingana na [ratiba ya utoaji](https://planb.academy/resources/glossary/limite-demission) iliyowekwa tayari katika sheria za makubaliano. Ruzuku ya block hupunguzwa kwa nusu kila block 210,000, yaani takriban kila baada ya miaka minne, katika mchakato unaojulikana kama "[Halving](https://planb.academy/resources/glossary/halving)" . Awali, bitcoins 50 ziliundwa kwa kila ruzuku, lakini kiasi hiki kimepungua hatua kwa hatua; kwa sasa, ni bitcoins 3.1225 kwa block.
 
 Kuhusu ada za muamala, ingawa pia zinawakilisha BTC mpya iliyoundwa, lazima zisizidi tofauti kati ya jumla ya pembejeo na matokeo ya miamala yote kwenye kizuizi. Tuliona hapo awali kuwa ada hizi zinawakilisha sehemu ya pembejeo ambayo haitumiki katika matokeo ya muamala. Sehemu hii kitaalam "imepotea" wakati wa shughuli, na Miner ina haki ya kuunda tena thamani hii katika mfumo wa UTXO moja au zaidi mpya. Huu ni uhamisho wa thamani kati ya mtoaji wa shughuli na Miner ambaye anaiongeza kwenye Blockchain.
 
@@ -219,7 +219,7 @@ Kuhusu ada za muamala, ingawa pia zinawakilisha BTC mpya iliyoundwa, lazima zisi
 
 Kwanza kabisa, mtindo wa UTXO huathiri moja kwa moja ada za ununuzi za Bitcoin. Kwa kuwa uwezo wa kila block ni mdogo, Miners wanapendelea miamala zinazotoa ada bora zaidi kuhusiana na nafasi watakayochukua kwenye block. Hakika, kadiri UTXO inavyozidi kujumuisha miamala katika pembejeo na matokeo, ndivyo inavyokuwa nzito, na kwa hivyo inahitaji ada za juu. Hii ni moja ya sababu kwa nini sisi mara nyingi hujaribu kupunguza idadi ya UTXOs katika kwingineko yetu, ambayo inaweza pia kuathiri faragha — somo ambalo tutalishughulikia kwa undani katika sehemu ya tatu ya kozi hii.
 
-Pili, kama ilivyotajwa katika sehemu zilizopita, sarafu za Bitcoin kimsingi ni mlolongo wa UTXO. Kwa hivyo, kila muamala huunda kiunganishi kati ya UTXO iliyopita na UTXO ya baadaye. Kwa hivyo UTXO hufanya iwezekane kufuata kwa uwazi njia ya Bitcoins kutoka kwa uundaji wao hadi matumizi yao ya sasa. Uwazi huu unaweza kutazamwa vyema, kwani humwezesha kila mtumiaji kuhakikisha ukweli wa bitcoins zilizopokelewa. Hata hivyo, ni kwa kanuni hii ya ufuatiliaji na ukaguzi ambapo uchambuzi wa Blockchain umejikita — zoezi lililoundwa kuhatarisha faragha yako. Tutakuwa tukiangalia kwa kina mazoezi haya katika sehemu ya pili ya kozi.
+Pili, kama ilivyotajwa katika sehemu zilizopita, sarafu za Bitcoin kimsingi ni mlolongo wa UTXO. Kwa hivyo, kila muamala huunda kiunganishi kati ya UTXO iliyopita na UTXO ya baadaye. Kwa hivyo UTXO hufanya iwezekane kufuata kwa uwazi njia ya Bitcoins kutoka kwa uundaji wao hadi matumizi yao ya sasa. Uwazi huu unaweza kutazamwa vyema, kwani humwezesha kila mtumiaji kuhakikisha ukweli wa bitcoins zilizopokelewa. Hata hivyo, ni kwa kanuni hii ya ufuatiliaji na ukaguzi ambapo [uchambuzi wa Blockchain](https://planb.academy/resources/glossary/chain-analysis) umejikita — zoezi lililoundwa kuhatarisha faragha yako. Tutakuwa tukiangalia kwa kina mazoezi haya katika sehemu ya pili ya kozi.
 
 ## Mtindo wa faragha wa Bitcoin
 
@@ -245,7 +245,7 @@ Ikiwa unatumia sarafu halisi, ni sifa ya kwanza ambayo ni ngumu zaidi kudai. Kat
 
 Uhalisi pia ni tabia ngumu kuthibitisha kwenye njia halisi ya fedha. Mbinu za leo za kupambana na sarafu ghushi zinazidi kuwa ngumu, na kuwalazimu wauzaji reja reja kuwekeza katika mifumo ya uthibitishaji ya gharama kubwa.
 
-Kwa upande mwingine, kwa sababu ya asili yao, matumizi ya mara mbili sio tatizo kwa fedha za kimwili. Nikikupa bili ya €10, itaondoka kwenye milki yangu bila kubatilishwa na kuingia yako, ambayo kwa kawaida huondoa uwezekano wowote wa matumizi mengi ya vitengo vya fedha vinavyojumuisha. Kwa kifupi, sitaweza kutumia bili hii ya €10 tena.
+Kwa upande mwingine, kwa sababu ya asili yao, [matumizi ya mara mbili](https://planb.academy/resources/glossary/double-spending-attack) sio tatizo kwa fedha za kimwili. Nikikupa bili ya €10, itaondoka kwenye milki yangu bila kubatilishwa na kuingia yako, ambayo kwa kawaida huondoa uwezekano wowote wa matumizi mengi ya vitengo vya fedha vinavyojumuisha. Kwa kifupi, sitaweza kutumia bili hii ya €10 tena.
 
 ![BTC204](assets/sw/019.webp)
 
@@ -262,9 +262,9 @@ Njia pekee ya kuepuka marudio haya ya mali ya dijiti ni kufahamu ubadilishanaji 
 
 ![BTC204](assets/sw/021.webp)
 
-Kwenye Bitcoin, Matumizi ya mara mbili yanazuiwa kwa njia sawa. Tunatafuta kuthibitisha kutokuwepo kwa shughuli ambayo tayari imetumia sarafu zinazohusika. Ikiwa sarafu hazijawahi kutumika, basi tunaweza kuwa na uhakika kwamba hakuna matumizi ya mara mbili yatatokea. Kanuni hii ilielezewa na Satoshi Nakamoto kwenye Karatasi Nyeupe na kifungu maarufu:
+Kwenye Bitcoin, Matumizi ya mara mbili yanazuiwa kwa njia sawa. Tunatafuta kuthibitisha kutokuwepo kwa shughuli ambayo tayari imetumia sarafu zinazohusika. Ikiwa sarafu hazijawahi kutumika, basi tunaweza kuwa na uhakika kwamba hakuna matumizi ya mara mbili yatatokea. Kanuni hii ilielezewa na [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) kwenye [Karatasi Nyeupe](https://planb.academy/resources/glossary/white-paper) na kifungu maarufu:
 
-Lakini tofauti na mtindo wa benki, hatutaki kuamini huluki kuu kwenye Bitcoin. Kwa hivyo watumiaji wote wanahitaji kuwa na uwezo wa kudhibitisha kutokuwepo kwa double-spending, bila kutegemea mtu wa tatu. Kwa hivyo kila mtu anahitaji kufahamu miamala yote ya Bitcoin. Hii ndiyo sababu miamala ya Bitcoin hutangazwa hadharani kwenye nodi zote za mtandao na kurekodiwa kwa maandishi wazi kwenye block.
+Lakini tofauti na mtindo wa benki, hatutaki kuamini huluki kuu kwenye Bitcoin. Kwa hivyo watumiaji wote wanahitaji kuwa na uwezo wa kudhibitisha kutokuwepo kwa double-spending, bila kutegemea mtu wa tatu. Kwa hivyo kila mtu anahitaji kufahamu miamala yote ya Bitcoin. Hii ndiyo sababu miamala ya Bitcoin hutangazwa hadharani kwenye [nodi](https://planb.academy/resources/glossary/node) zote za mtandao na kurekodiwa kwa maandishi wazi kwenye block.
 
 Ni usambazaji huu wa habari kwa umma ambao unatatiza ulinzi wa faragha katika Bitcoin. Katika mfumo wa jadi wa benki, kwa nadharia, ni taasisi ya kifedha tu inayofahamu miamala inayofanywa. Kwa Bitcoin, kwa upande mwingine, watumiaji wote wanafahamishwa kuhusu miamala yote, kupitia nodi zao husika.
 
@@ -282,13 +282,13 @@ Kwa sababu ya kikwazo cha utangazaji wa miamala kwa umma ambacho tuliona katika 
 
 ![BTC204](assets/sw/024.webp)
 
-Kwa mfano, ukinunua baguette kutoka kwa mwokaji, ukalipa kwa BTC, jirani yako, ambaye ana [full node](https://planb.academy/resources/glossary/full-node) yake, anaweza kuona muamala wako ukipitia, kama anavyoweza kuona miamala mingine yote katika mfumo. Hata hivyo, ikiwa kanuni za faragha zinaheshimiwa, hapaswi kuunganisha muamala huu mahususi na utambulisho wako.
+Kwa mfano, ukinunua baguette kutoka kwa mwokaji, ukalipa kwa BTC, jirani yako, ambaye ana full node yake, anaweza kuona muamala wako ukipitia, kama anavyoweza kuona miamala mingine yote katika mfumo. Hata hivyo, ikiwa kanuni za faragha zinaheshimiwa, hapaswi kuunganisha muamala huu mahususi na utambulisho wako.
 
 ![BTC204](assets/sw/025.webp)
 
 Lakini kwa kuwa miamala ya Bitcoin inafanywa kwa umma, bado inawezekana kuanzisha viungo kati yao ili kupata taarifa kuhusu wahusika wanaohusika. Miamala hii hata inajulikana kama taaluma maalum kwa haki yake yenyewe, inayojulikana kama **uchambuzi wa Blockchain**. Katika sehemu inayofuata ya kozi, ninakualika kuchunguza misingi ya uchambuzi wa Blockchain, ili uweze kuelewa jinsi bitcoins zako zinavyofuatiliwa na kujilinda vizuri dhidi yake.
 
-# Kuelewa na kulinda dhidi ya [chain analysis](https://planb.academy/resources/glossary/chain-analysis) (uchambuzi wa mnyororo)
+# Kuelewa na kulinda dhidi ya chain analysis (uchambuzi wa mnyororo)
 
 <partId>4739371e-9fef-45b0-bcaa-b7a4df6b4470</partId>
 
@@ -300,7 +300,7 @@ Lakini kwa kuwa miamala ya Bitcoin inafanywa kwa umma, bado inawezekana kuanzish
 
 ### Ufafanuzi na uendeshaji
 
-Uchunguzi wa Blockchain ni mazoezi ya kufuatilia mtiririko wa bitcoins kwenye mnyororo wa block. Kwa ujumla, [chain analysis](https://planb.academy/resources/glossary/chain-analysis) (uchambuzi wa mnyororo) unategemea uchunguzi wa sifa katika sampuli za miamala ya awali. Kisha unahusisha kutambua sifa hizo hizo kwenye muamala tunaotaka kuchanganua, na kupata tafsiri zinazokubalika kutoka kwayo. Njia hii ya kutatua matatizo, kulingana na mbinu ya vitendo ya kupata suluhisho linalokubalika vya kutosha, inajulikana kama Legacy (Urithi).
+Uchunguzi wa Blockchain ni mazoezi ya kufuatilia mtiririko wa bitcoins kwenye mnyororo wa block. Kwa ujumla, chain analysis (uchambuzi wa mnyororo) unategemea uchunguzi wa sifa katika sampuli za miamala ya awali. Kisha unahusisha kutambua sifa hizo hizo kwenye muamala tunaotaka kuchanganua, na kupata tafsiri zinazokubalika kutoka kwayo. Njia hii ya kutatua matatizo, kulingana na mbinu ya vitendo ya kupata suluhisho linalokubalika vya kutosha, inajulikana kama Legacy (Urithi).
 
 Kwa maneno ya watu wa kawaida, kuna hatua tatu kuu katika Chainalysis (uchambuzi wa mnyororo):
 1. **Kuchunguza Kuzuia mnyororo ;**
@@ -309,15 +309,15 @@ Kwa maneno ya watu wa kawaida, kuna hatua tatu kuu katika Chainalysis (uchambuzi
 
 ![BTC204](assets/sw/026.webp)
 
-Uchambuzi wa blockchain unaweza kufanywa na mtu yeyote. Unachohitaji ni kufikia maelezo ya umma ya blockchain kupitia nodi kamili ili kuona mienendo ya muamala na kufanya dhahania. Pia kuna zana zisizolipishwa zinazowezesha uchanganuzi huu, kama vile [OXT.me](https://oxt.me/), ambazo tutachunguza kwa kina katika sura mbili za mwisho za sehemu hii. Hata hivyo, hatari kuu ya usiri hutoka kwa makampuni maalumu katika **[chain analysis](https://planb.academy/resources/glossary/chain-analysis)**. Kampuni hizi zimechukua uchanganuzi wa blockchain kwa kiwango cha viwanda na kuuza huduma zao kwa taasisi za kifedha na serikali. Miongoni mwa makampuni haya, **Chain analysis** ni hakika inayojulikana zaidi.
+Uchambuzi wa blockchain unaweza kufanywa na mtu yeyote. Unachohitaji ni kufikia maelezo ya umma ya blockchain kupitia nodi kamili ili kuona mienendo ya muamala na kufanya dhahania. Pia kuna zana zisizolipishwa zinazowezesha uchanganuzi huu, kama vile [OXT.me](https://oxt.me/), ambazo tutachunguza kwa kina katika sura mbili za mwisho za sehemu hii. Hata hivyo, hatari kuu ya usiri hutoka kwa makampuni maalumu katika **chain analysis**. Kampuni hizi zimechukua uchanganuzi wa blockchain kwa kiwango cha viwanda na kuuza huduma zao kwa taasisi za kifedha na serikali. Miongoni mwa makampuni haya, **Chain analysis** ni hakika inayojulikana zaidi.
 
-### Malengo ya [chain analysis](https://planb.academy/resources/glossary/chain-analysis) (uchambuzi wa mnyororo)
+### Malengo ya chain analysis (uchambuzi wa mnyororo)
 
 Mojawapo ya malengo ya uchambuzi wa mnyororo ni kuunganisha pamoja miamala mbalimbali kwenye Bitcoin ili kubaini upekee wa mtumiaji aliyeitekeleza. Baadaye, huenda ikawa rahisi kujaribu kuihusisha kundi hili la miamala na utambulisho wa kweli.
 
 ![BTC204](assets/sw/027.webp)
 
-Fikiria nyuma kwenye sura iliyotangulia. Nilieleza kwa nini muundo wa faragha wa Bitcoin ulikuwa msingi wa mgawanyo wa utambulisho wa mtumiaji kutoka kwa miamala. Kwa hivyo, inaweza kuwa rahisi kudhani kwamba uchambuzi wa mnyororo hauna maana, kwa kuwa hata tukifaulu kuunganisha miamala ya on-chain, bado hatuwezi kuizalisha kwa utambulisho halisi.
+Fikiria nyuma kwenye sura iliyotangulia. Nilieleza kwa nini muundo wa faragha wa Bitcoin ulikuwa msingi wa mgawanyo wa utambulisho wa mtumiaji kutoka kwa miamala. Kwa hivyo, inaweza kuwa rahisi kudhani kwamba uchambuzi wa mnyororo hauna maana, kwa kuwa hata tukifaulu kuunganisha miamala ya [on-chain](https://planb.academy/resources/glossary/onchain), bado hatuwezi kuizalisha kwa utambulisho halisi.
 
 Kinadharia, kauli hii ni sahihi. Katika sehemu ya kwanza ya kozi hii, tuliona kwamba jozi za ufunguo wa cryptographic hutumiwa kuanzisha hali kwenye UTXO. Kwa asili, jozi hizi muhimu hazitoi habari yoyote kuhusu utambulisho wa wamiliki wao. Kwa hivyo, hata kama tunaweza kuweka pamoja shughuli zinazohusiana na jozi muhimu tofauti, hii haituambii chochote kuhusu huluki nyuma ya miamala hii.
 
@@ -325,23 +325,23 @@ Kinadharia, kauli hii ni sahihi. Katika sehemu ya kwanza ya kozi hii, tuliona kw
 
 Walakini, hali halisi ya kiutendaji ni changamano zaidi. Kuna tabia nyingi ambazo zinaweza kuunganisha utambulisho halisi na miamala ya on-chain. Katika uchambuzi, hili linajulikana kama hatua ya kuingia, na kuna nyingi kati yake.
 
-Maarufu zaidi ni KYC (*Mjue Mteja Wako*). Ukiondoa Bitcoins zako kutoka kwa jukwaa linalodhibitiwa hadi kwenye mojawapo ya Anwani (address) zako binafsi za kupokea, basi baadhi ya watu wanaweza kuunganisha utambulisho wako na hiyo Anwani (address). Kwa upana zaidi, mahali pa kuingilia panaweza kuwa aina yoyote ya mwingiliano kati ya maisha yako halisi na muamala wa Bitcoin. Kwa mfano, ukichapisha address ya kupokea kwenye mitandao yako ya kijamii, hii inaweza kuwa mahali pa kuingilia kwa uchambuzi. Ikiwa utafanya malipo kwa Bitcoin kwa mwokaji wako, anaweza kuhusisha uso wako (sehemu ya utambulisho wako) na Anwani (address) ya Bitcoin.
+Maarufu zaidi ni [KYC](https://planb.academy/resources/glossary/kyc-know-your-customer) (*Mjue Mteja Wako*). Ukiondoa Bitcoins zako kutoka kwa jukwaa linalodhibitiwa hadi kwenye mojawapo ya Anwani (address) zako binafsi za kupokea, basi baadhi ya watu wanaweza kuunganisha utambulisho wako na hiyo Anwani (address). Kwa upana zaidi, mahali pa kuingilia panaweza kuwa aina yoyote ya mwingiliano kati ya maisha yako halisi na muamala wa Bitcoin. Kwa mfano, ukichapisha address ya kupokea kwenye mitandao yako ya kijamii, hii inaweza kuwa mahali pa kuingilia kwa uchambuzi. Ikiwa utafanya malipo kwa Bitcoin kwa mwokaji wako, anaweza kuhusisha uso wako (sehemu ya utambulisho wako) na Anwani (address) ya Bitcoin.
 
 Maeneo haya ya kuingia kwa hakika hayawezi kuepukika unapotumia Bitcoin. Ingawa tunaweza kutafuta kuzuia upeo wao, watakuwepo kila wakati. Ndiyo maana ni muhimu kuchanganya mbinu zinazolenga kuhifadhi faragha yako. Ingawa kudumisha utengano kati ya utambulisho wako halisi na miamala yako ni mbinu ya kuvutia, bado haitoshi leo. Hakika, ikiwa shughuli zako zote za onchain zinaweza kuunganishwa pamoja, basi hata sehemu ndogo zaidi ya kuingilia inaweza kuathiri usiri mmoja wa safu ambayo umeanzisha.
 
 ![BTC204](assets/sw/029.webp)
 
-### Kujilinda dhidi ya [chain analysis](https://planb.academy/resources/glossary/chain-analysis) 
+### Kujilinda dhidi ya chain analysis 
 
 Kwa hivyo tunahitaji pia kuweza kukabiliana na uchanganuzi wa blockchain katika matumizi yetu ya Bitcoin. Kwa kufanya hivyo, tunaweza kupunguza ujumlisho wa shughuli zetu na kupunguza athari za mahali pa kuingilia kwenye faragha yetu.
 
 ![BTC204](assets/sw/030.webp)
 
-Ni njia gani bora ya kukabiliana na uchambuzi wa blockchain kuliko kujifunza kuhusu mbinu zinazotumiwa ndani yake? Ikiwa ungependa kujua jinsi ya kuboresha faragha yako kwenye Bitcoin, unahitaji kuelewa mbinu hizi. Hii itakupa ufahamu bora wa mbinu kama vile Coinjoin  au Payjoin (mbinu tutakazoangalia katika sehemu za mwisho za kozi), na kupunguza makosa ambayo unaweza kufanya.
+Ni njia gani bora ya kukabiliana na uchambuzi wa blockchain kuliko kujifunza kuhusu mbinu zinazotumiwa ndani yake? Ikiwa ungependa kujua jinsi ya kuboresha faragha yako kwenye Bitcoin, unahitaji kuelewa mbinu hizi. Hii itakupa ufahamu bora wa mbinu kama vile [Coinjoin](https://planb.academy/resources/glossary/coinjoin)  au [Payjoin](https://planb.academy/resources/glossary/payjoin) (mbinu tutakazoangalia katika sehemu za mwisho za kozi), na kupunguza makosa ambayo unaweza kufanya.
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
-Katika hili, tunaweza kuchora mlinganisho na cryptography na cryptanalysis. Mwandishi mzuri wa kriptografia kwanza kabisa ni cryptanalyst mzuri. Ili kuunda algorithm mpya ya usimbuaji, unahitaji kujua ni mashambulizi gani ambayo itakabili, na pia usome kwa nini algorithmu ya hapo awali imevunjwa. Kanuni hiyo hiyo inatumika kwa faragha ya Bitcoin. Kuelewa mbinu za uchambuzi wa blockchain ndio ufunguo wa kulinda dhidi yao. Ndiyo maana nimejumuisha uchanganuzi wa sehemu nzima ya onchain katika kozi hii ya mafunzo.
+Katika hili, tunaweza kuchora mlinganisho na [cryptography](https://planb.academy/resources/glossary/cryptography) na cryptanalysis. Mwandishi mzuri wa kriptografia kwanza kabisa ni cryptanalyst mzuri. Ili kuunda algorithm mpya ya usimbuaji, unahitaji kujua ni mashambulizi gani ambayo itakabili, na pia usome kwa nini algorithmu ya hapo awali imevunjwa. Kanuni hiyo hiyo inatumika kwa faragha ya Bitcoin. Kuelewa mbinu za uchambuzi wa blockchain ndio ufunguo wa kulinda dhidi yao. Ndiyo maana nimejumuisha uchanganuzi wa sehemu nzima ya onchain katika kozi hii ya mafunzo.
 
 ### Mbinu za Chainalysis 
 
@@ -356,12 +356,12 @@ Heuristics hizi maarufu zinaweza kugawanywa katika vikundi tofauti, ambavyo tuta
 - **Muamala wa ndani heuristics ;**
 - **Legacy nje ya muamala.**
 
-### Satoshi Nakamoto na [chain analysis](https://planb.academy/resources/glossary/chain-analysis) 
+### Satoshi Nakamoto na chain analysis 
 
-Heuristics mbili za kwanza za [chain analysis](https://planb.academy/resources/glossary/chain-analysis) ziligunduliwa na Satoshi Nakamoto mwenyewe. Anazizungumzia katika Sehemu ya 10 ya Karatasi Nyeupe ya Bitcoin. Zifuatazo ni:
+Heuristics mbili za kwanza za chain analysis ziligunduliwa na Satoshi Nakamoto mwenyewe. Anazizungumzia katika Sehemu ya 10 ya Karatasi Nyeupe ya Bitcoin. Zifuatazo ni:
 
-- cIOH (*Ingizo la Kawaida Ownership Heuristic*);
-- na kutumia tena Anwani (address).
+- [cIOH](https://planb.academy/resources/glossary/cioh) (*Ingizo la Kawaida Ownership Heuristic*);
+- na [kutumia tena Anwani (address)](https://planb.academy/resources/glossary/address-reuse).
 
 ![BTC204](assets/sw/031.webp)
 
@@ -420,7 +420,7 @@ Tafsiri ya mtindo huu ni kwamba tuko mbele ya uhamishaji wa kibinafsi. Mtumiaji 
 
 Kisha tunajua kwamba mtumiaji aliyeangaliwa pengine bado anamiliki UTXO hii. Katika muktadha wa uchanganuzi wa mlolongo, ikiwa tunajua kuwa UTXO inayotumika kama ingizo la muamala ni ya Alice, tunaweza kudhani kuwa UTXO inayotumika kama pato pia ni yake. Kitakachokuwa cha kufurahisha baadaye ni kupata uvumbuzi wa ndani wa muamala ambao unaweza kuimarisha dhana hii — tutaangalia urithi huu katika sura ya 3.3.
 
-Kwa mfano, hapa kuna muamala wa Bitcoin ambao unachukua muundo wa sweep transaction.
+Kwa mfano, hapa kuna muamala wa Bitcoin ambao unachukua muundo wa [sweep transaction](https://planb.academy/resources/glossary/sweep-transaction).
 
 ```plaintext
 35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d
@@ -456,7 +456,7 @@ Kwa mfano, hapa kuna muamala wa Bitcoin ambao unachukua muundo wa ujumuishaji:
 
 Chanzo : [Mempool.space](https://Mempool.space/fr/tx/77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94)
 
-Katika uchanganuzi wa mnyororo ([chain analysis](https://planb.academy/resources/glossary/chain-analysis)), mtindo huu unaweza kufunua habari nyingi. Kwa mfano, ikiwa tunajua kuwa moja ya pembejeo ni ya Alice, tunaweza kudhani kuwa ingizo zingine zote na matokeo ya muamala huu pia ni yake. Dhana hii basi ingewezesha kurejea msururu wa miamala ya awali ili kugundua na kuchanganua miamala mingine inayoweza kuhusishwa na Alice.
+Katika uchanganuzi wa mnyororo (chain analysis), mtindo huu unaweza kufunua habari nyingi. Kwa mfano, ikiwa tunajua kuwa moja ya pembejeo ni ya Alice, tunaweza kudhani kuwa ingizo zingine zote na matokeo ya muamala huu pia ni yake. Dhana hii basi ingewezesha kurejea msururu wa miamala ya awali ili kugundua na kuchanganua miamala mingine inayoweza kuhusishwa na Alice.
 
 ![BTC204](assets/sw/039.webp)
 
@@ -466,7 +466,7 @@ Mtindo huu una sifa ya utumiaji wa UTXO chache kama pembejeo (mara nyingi ni moj
 
 ![BTC204](assets/sw/040.webp)
 
-Tafsiri ya mtindo huu ni kwamba tuko mbele ya matumizi ya makundi. Ni mazoezi ambayo pengine hufichua muamala kubwa sana za kiuchumi, kama vile jukwaa la Ubadilishanaji. Matumizi yaliyowekwa katika vikundi huwezesha huluki hizi kuokoa gharama kwa kuchanganya gharama zao katika muamala mmoja.
+Tafsiri ya mtindo huu ni kwamba tuko mbele ya [matumizi ya makundi](https://planb.academy/resources/glossary/batched-spending). Ni mazoezi ambayo pengine hufichua muamala kubwa sana za kiuchumi, kama vile jukwaa la Ubadilishanaji. Matumizi yaliyowekwa katika vikundi huwezesha huluki hizi kuokoa gharama kwa kuchanganya gharama zao katika muamala mmoja.
 
 Tunaweza kuamua kutoka kwa mfano huu kwamba UTXO katika pembejeo inatoka kwa kampuni yenye kiwango cha juu cha muamala za kiuchumi, na kwamba UTXO katika toleo hutawanyika. Wengi watakuwa wa wateja wa kampuni ambao wameondoa bitcoins kwenye jukwaa. Wengine wanaweza kwenda kwa kampuni za washirika. Hatimaye, hakika kutakuwa na ubadilishanaji mmoja au zaidi kurudi kwa kampuni inayotoa.
 
@@ -544,7 +544,7 @@ Usawa huu kati ya pembejeo na matokeo hauishii katika utumiaji tena wa Address. 
 
 ![BTC204](assets/sw/047.webp)
 
-Kwenye mchoro huu, tunaweza kuona kwamba ingizo n° 0 inafungua hati ya P2WPKH (SegWit V0 inayoanza na `bc1q`). Toleo n° 0 hutumia aina sawa ya hati. Toleo n° 1, kwa upande mwingine, hutumia hati ya P2TR (SegWit V1 inayoanza na `bc1p`). Ufafanuzi wa kipengele hiki ni kwamba kuna uwezekano kuwa Address yenye toleo sawa na ingizo ni Address ya ubadilishanaji. Kwa hivyo itakuwa ya mtumiaji yuleyule kila wakati.
+Kwenye mchoro huu, tunaweza kuona kwamba ingizo n° 0 inafungua hati ya [P2WPKH](https://planb.academy/resources/glossary/p2wpkh) (SegWit V0 inayoanza na `bc1q`). Toleo n° 0 hutumia aina sawa ya hati. Toleo n° 1, kwa upande mwingine, hutumia hati ya [P2TR](https://planb.academy/resources/glossary/p2tr) (SegWit V1 inayoanza na `bc1p`). Ufafanuzi wa kipengele hiki ni kwamba kuna uwezekano kuwa Address yenye toleo sawa na ingizo ni Address ya ubadilishanaji. Kwa hivyo itakuwa ya mtumiaji yuleyule kila wakati.
 
 Hapa kuna muamala ambao heuristics hii labda inaweza kutumika:
 
@@ -556,9 +556,9 @@ db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578
 
 Chanzo : [Mempool.space](https://Mempool.space/tx/db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578)
 
-Kwa mwisho, tunaweza kuona kwamba pembejeo hakuna. 0 na pato nambari. 1 tumia hati za P2WPKH (SegWit V0), wakati pato nambari. 0 hutumia hati tofauti ya P2PKH Legacy.
+Kwa mwisho, tunaweza kuona kwamba pembejeo hakuna. 0 na pato nambari. 1 tumia hati za P2WPKH (SegWit V0), wakati pato nambari. 0 hutumia hati tofauti ya [P2PKH](https://planb.academy/resources/glossary/p2pkh) Legacy.
 
-Mapema katika miaka ya 2010, heuristics hii inayotegemea matoleo ya script haikuwa na msaada mkubwa kutokana na aina chache za script zilizokuwepo. Hata hivyo, kadri muda ulivyopita na masasisho mfululizo ya Bitcoin yalivyotekelezwa, utofauti wa aina za script umeongezeka. Kwa hivyo, heuristics hii inazidi kuwa muhimu, kwani kadri aina za script zinavyoongezeka, watumiaji wanagawanyika katika makundi madogo zaidi, jambo linaloongeza uwezekano wa kutumia heuristics hii ya ndani ya kutumia tena toleo la script.Kwa sababu hii, kwa mtazamo wa faragha pekee, inashauriwa kuchagua aina ya script inayotumika sana. Kwa mfano, ninapoandika mistari hii, script za [Taproot](https://planb.academy/resources/glossary/taproot) (`bc1p`) zinatumika kwa nadra zaidi kuliko script za SegWit V0 (`bc1q`). Ingawa za kwanza hutoa faida za kiuchumi na faragha katika hali mahususi, kwa matumizi ya kawaida ya saini moja, huenda ikaeleweka zaidi kushikilia kiwango cha zamani kwa sababu za faragha, hadi kiwango kipya kitapokubalika zaidi.
+Mapema katika miaka ya 2010, heuristics hii inayotegemea matoleo ya script haikuwa na msaada mkubwa kutokana na aina chache za script zilizokuwepo. Hata hivyo, kadri muda ulivyopita na masasisho mfululizo ya Bitcoin yalivyotekelezwa, utofauti wa aina za script umeongezeka. Kwa hivyo, heuristics hii inazidi kuwa muhimu, kwani kadri aina za script zinavyoongezeka, watumiaji wanagawanyika katika makundi madogo zaidi, jambo linaloongeza uwezekano wa kutumia heuristics hii ya ndani ya kutumia tena toleo la script.Kwa sababu hii, kwa mtazamo wa faragha pekee, inashauriwa kuchagua aina ya script inayotumika sana. Kwa mfano, ninapoandika mistari hii, script za Taproot (`bc1p`) zinatumika kwa nadra zaidi kuliko script za SegWit V0 (`bc1q`). Ingawa za kwanza hutoa faida za kiuchumi na faragha katika hali mahususi, kwa matumizi ya kawaida ya saini moja, huenda ikaeleweka zaidi kushikilia kiwango cha zamani kwa sababu za faragha, hadi kiwango kipya kitapokubalika zaidi.
 
 
 ### Malipo ya nambari ya pande zote
@@ -672,7 +672,7 @@ Heuristi ya Umiliki wa Pamoja wa Ingizo (*Common Input Ownership Heuristic – C
 
 ![BTC204](assets/sw/058.webp)
 
-Ili kutumia CIOH, tunaanza kwa kuchunguza muamala wenye ingizo zaidi ya moja. Hii inaweza kuwa ingizo 2 au hata 30. Mara sifa hii inapobainika, tunakagua kama muamala huo unalingana na muundo wa muamala unaojulikana. Kwa mfano, ikiwa kuna ingizo 5 zenye kiasi kinachokaribiana na toleo 5 zenye kiasi sawa kabisa, tutajua kuwa huu ni muundo wa [coinjoin](https://planb.academy/resources/glossary/coinjoin). Hivyo basi, hatutaweza kutumia CIOH.
+Ili kutumia CIOH, tunaanza kwa kuchunguza muamala wenye ingizo zaidi ya moja. Hii inaweza kuwa ingizo 2 au hata 30. Mara sifa hii inapobainika, tunakagua kama muamala huo unalingana na muundo wa muamala unaojulikana. Kwa mfano, ikiwa kuna ingizo 5 zenye kiasi kinachokaribiana na toleo 5 zenye kiasi sawa kabisa, tutajua kuwa huu ni muundo wa coinjoin. Hivyo basi, hatutaweza kutumia CIOH.
 
 ![BTC204](assets/sw/059.webp)
 
@@ -708,7 +708,7 @@ Mchambuzi pia ana chaguo la kutegemea uchanganuzi uliowekwa wazi kama chanzo hur
 
 Kwa njia hiyo hiyo, unaweza kufanya uchambuzi kwa kuondoa. Kwa mfano, ikiwa wakati wa kuchanganua muamala ulio na matokeo mawili, moja wapo inahusiana na nguzo ya address ambayo tayari inajulikana, lakini tofauti na huluki tunayofuatilia, basi tunaweza kutafsiri kwamba matokeo mengine huenda yanawakilisha Ubadilishanaji.
 
-Uchanganuzi wa idhaa pia unajumuisha sehemu ya jumla zaidi ya OSINT (*Open Source Intelligence*), inayohusisha utafutaji wa mtandao. Ni kwa sababu hii kwamba tunashauri dhidi ya kuchapisha Anwani (address) moja kwa moja kwenye mitandao ya kijamii au kwenye tovuti, iwe ni jina bandia au la.
+Uchanganuzi wa idhaa pia unajumuisha sehemu ya jumla zaidi ya [OSINT](https://planb.academy/resources/glossary/osint) (*Open Source Intelligence*), inayohusisha utafutaji wa mtandao. Ni kwa sababu hii kwamba tunashauri dhidi ya kuchapisha Anwani (address) moja kwa moja kwenye mitandao ya kijamii au kwenye tovuti, iwe ni jina bandia au la.
 
 ![BTC204](assets/sw/063.webp)
 
@@ -946,7 +946,7 @@ a6dbebebca119af3d05c0196b76f80fdbf78f20368ebef1b7fd3476d0814517d
 
 Iwapo tutatazama muundo wa muamala huu, ni wazi kwamba ni matumizi yaliyofunganishwa. Kwa kweli, muamala una ingizo moja na matoleo `51`, jambo linaloashiria kiwango cha juu cha shughuli za kiuchumi. Hivyo basi, tunaweza kudhania kuwa Loïc amevutoa bitcoins kutoka kwenye exchange platform.
 
-Sababu kadhaa zinaimarisha nadharia hii. Kwanza, aina ya script iliyotumika kulinda ingizo la UTXO ni **P2SH 2/3 multisig script**, ambayo inaashiria kiwango cha juu cha usalama kinachopatikana mara nyingi kwenye exchange platforms.
+Sababu kadhaa zinaimarisha nadharia hii. Kwanza, aina ya script iliyotumika kulinda ingizo la UTXO ni **[P2SH](https://planb.academy/resources/glossary/p2sh) 2/3 multisig script**, ambayo inaashiria kiwango cha juu cha usalama kinachopatikana mara nyingi kwenye exchange platforms.
 
 ```plaintext
 OP_PUSHNUM_2
@@ -1060,7 +1060,7 @@ Kiufundi, Bitcoin receiving address haipokei bitcoins moja kwa moja kwa maana ha
 
 Address za Bitcoin huja katika aina mbalimbali, kutegemea na **mfumo wa script** unaotumika. Miundo ya awali, inayojulikana kama **Legacy**, inajumuisha address za `P2PKH` (*Pay-to-PubKey-Hash*) na `P2SH` (*Pay-to-Script-Hash*). Address za `P2PKH` huanza kila mara na `1`, na zile za `P2SH` huanza na `3`. Ingawa bado ni salama, miundo hii sasa imepitwa na wakati, kwani husababisha gharama kubwa zaidi za muamala na hutoa kiwango kidogo cha faragha ikilinganishwa na viwango vipya.
 
-SegWit V0 (`P2WPKH` na `P2WSH`) na Taproot / SegWit V1 (`P2TR`) ni aina za kisasa za address. Address za SegWit huanza na `bc1q`, huku address za Taproot, zilizotambulishwa mwaka 2021, zikianzia na `bc1p`.
+SegWit V0 (`P2WPKH` na `P2WSH`) na [Taproot](https://planb.academy/resources/glossary/taproot) / SegWit V1 (`P2TR`) ni aina za kisasa za address. Address za SegWit huanza na `bc1q`, huku address za Taproot, zilizotambulishwa mwaka 2021, zikianzia na `bc1p`.
 
 Kwa mfano, hapa kuna Address ya kupokea ya Taproot:
 
@@ -1271,7 +1271,7 @@ Katika sehemu zilizopita, tulijadili uteuzi wa mwongozo wa UTXOs kutumika kwa mu
 
 Mbinu za uteuzi za UTXO kama vile FIFO (*First In First Out*) na LIFO (*Last In First Out*) ni miongoni mwa njia rahisi zaidi, lakini pia zisizo na ufanisi zaidi. Na FIFO, sehemu za zamani zaidi kwingineko hutumiwa kwanza. Mbinu hii kwa ujumla haifanyi kazi katika kupunguza gharama za muamala na kuhifadhi usiri, isipokuwa katika hali ambapo vidhibiti vya muda hutumika na vinahitaji kusasishwa mara kwa mara. Kinyume chake, LIFO inatanguliza matumizi ya UTXO za hivi karibuni. Njia zote mbili, ingawa ni rahisi, mara nyingi hazifanyi kazi.
 
-Mbinu mahiri zaidi ni *Knapsack Solver*. Hii ilitumika kwenye Wallet ya Bitcoin Core hadi toleo la 0.17. Inajumuisha kuchagua mara kwa mara na kwa nasibu UTXO kutoka kwa Pochi, kuziongeza katika vikundi vidogo, na kuweka suluhisho ambalo linapunguza uzito wa muamala iwezekanavyo, ili kupunguza gharama kwa mtumiaji.
+Mbinu mahiri zaidi ni *Knapsack Solver*. Hii ilitumika kwenye Wallet ya [Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core) hadi toleo la 0.17. Inajumuisha kuchagua mara kwa mara na kwa nasibu UTXO kutoka kwa Pochi, kuziongeza katika vikundi vidogo, na kuweka suluhisho ambalo linapunguza uzito wa muamala iwezekanavyo, ili kupunguza gharama kwa mtumiaji.
 
 *Tawi-na-Mpaka* (BNB), mara nyingi hupewa jina la utani "Murch algoriti" baada ya mvumbuzi wake, imechukua nafasi ya *Knapsack Solver* katika Bitcoin Core hadi toleo la 0.17. Mbinu hii ya kina zaidi inalenga kupata seti ya UTXO zinazolingana haswa na kiasi kinachohitajika ili kukidhi matokeo ya muamala. Madhumuni ya BNB ni kupunguza kiasi cha kubadilishana pamoja na ada, kwa kupunguza kinachojulikana kama kigezo cha taka, ambacho kinazingatia gharama za haraka na gharama zinazotarajiwa za baadaye za Ubadilishanaji. Mbinu hii imetokana na dhana asilia ya *Tawi-na-Kufungwa*, iliyobuniwa mwaka wa 1960 na Ailsa Land na Alison Harcourt, na inatoa uboreshaji sahihi zaidi wa ada kuliko *Knapsack Solver*.
 
@@ -1613,7 +1613,7 @@ Iwapo huna node yako ya Bitcoin, utalazimika kutumia ya mtu mwingine, kama ile i
 
 ![BTC204](assets/sw/105.webp)
 
-Hatari kuu wakati hutumii node yako ya Bitcoin ni kwamba mwendeshaji wa node ya wahusika wengine anaweza kutazama miamala yako kwenye Blockchain, au hata kushiriki maelezo haya na huluki nyingine. Ili kupunguza hatari hii, suluhu ya kati ni kutumia programu ya wallet ambayo hufunika miunganisho yako kupitia Tor. Hii inaweza kupunguza udhihirisho wa data yako. Walakini, suluhisho bora ni kuwa na node yako ya Bitcoin na uitumie kutangaza shughuli zako. Bila shaka, utahitaji pia kuwa mwangalifu ili usivujishe habari yoyote kupitia node yako, lakini hilo ni somo lingine ambalo tutaangalia katika sehemu za baadaye.
+Hatari kuu wakati hutumii node yako ya Bitcoin ni kwamba mwendeshaji wa node ya wahusika wengine anaweza kutazama miamala yako kwenye Blockchain, au hata kushiriki maelezo haya na huluki nyingine. Ili kupunguza hatari hii, suluhu ya kati ni kutumia programu ya wallet ambayo hufunika miunganisho yako kupitia [Tor](https://planb.academy/resources/glossary/tor). Hii inaweza kupunguza udhihirisho wa data yako. Walakini, suluhisho bora ni kuwa na node yako ya Bitcoin na uitumie kutangaza shughuli zako. Bila shaka, utahitaji pia kuwa mwangalifu ili usivujishe habari yoyote kupitia node yako, lakini hilo ni somo lingine ambalo tutaangalia katika sehemu za baadaye.
 
 Zaidi ya manufaa dhahiri ya faragha yako, kuwa na node yako kamili pia hukuhakikishia ukweli wa data kwenye Blockchain, hukulinda dhidi ya udhibiti na hukuruhusu kushiriki kikamilifu katika utawala wa Bitcoin. Kwa kutumia node yako mwenyewe, unachangia uzito wako wa kiuchumi kwa mlolongo wa chaguo lako, ambalo ni muhimu wakati wa migogoro ndani ya jumuiya, kama vile wakati wa Vita vya Blocksize kuanzia 2015 hadi 2017 kwa mfano. Katika tukio la Fork, kutumia nodi ya mtu wa tatu kunaweza kukuongoza kuunga mkono mnyororo ambao hutaki kupendelea, kwani opereta wa node anakufanyia chaguo.
 
@@ -1623,7 +1623,7 @@ Kama unavyoona, kwa maslahi ya usiri na uhuru wa mtu binafsi, ni muhimu kuendesh
 
 Kwa upana zaidi, ni muhimu kuelewa heuristics tuliozungumzia katika sehemu iliyotangulia, ili kuziepuka au kuzidanganya vyema. Kupitisha mfululizo wa mbinu bora kunaweza kuwa na manufaa, hata kama si muhimu. Wanatoa Safu ya ziada ya ulinzi ambayo inaweza kuwa muhimu katika kudumisha usiri unapotumia Bitcoin.
 
-Ushauri wa kwanza ningeweza kutoa ni kujumuika na umati mnene zaidi. Kwenye Bitcoin, hii inamaanisha kutumia violezo vya hati vilivyopitishwa zaidi. Kwa mfano, maandishi ya P2WSH, mara nyingi hutumiwa kwa usanidi wa SegWit V0 Sahihi nyingi, sio kawaida sana. Hawakuruhusu kujificha katika seti kubwa ya kutokujulikana. Vile vile huenda kwa mifano ya zamani kama vile P2PKH au P2SH. Ingawa zipo kwa wingi katika seti ya UTXO, zinatumika kidogo na kidogo kwa shughuli mpya.
+Ushauri wa kwanza ningeweza kutoa ni kujumuika na umati mnene zaidi. Kwenye Bitcoin, hii inamaanisha kutumia violezo vya hati vilivyopitishwa zaidi. Kwa mfano, maandishi ya [P2WSH](https://planb.academy/resources/glossary/p2wsh), mara nyingi hutumiwa kwa usanidi wa SegWit V0 Sahihi nyingi, sio kawaida sana. Hawakuruhusu kujificha katika seti kubwa ya kutokujulikana. Vile vile huenda kwa mifano ya zamani kama vile P2PKH au P2SH. Ingawa zipo kwa wingi katika seti ya UTXO, zinatumika kidogo na kidogo kwa shughuli mpya.
 
 Kwa ujumla, ni busara kuchagua kiwango cha hivi karibuni cha uandishi, mradi kimekubaliwa vya kutosha. Kwa hivyo, ikiwa mnamo 2022, ningeshauri dhidi ya kutumia P2TR (Taproot) kwa sababu ya kupitishwa kwake chini, mnamo 2024, ningependekeza kuchagua aina hii ya hati badala yake, au ikishindikana, kwa hati ya SegWit V0, kwani idadi ya miamala inayotumia P2TR inaanza kuwakilisha sehemu muhimu sana.
 
@@ -1839,7 +1839,7 @@ Katika mazungumzo sawa, tunaweza kupata [ujumbe kutoka hashcoin kujibu Duncan To
 
 ### Zerolink
 
-Zerolink ni itifaki ya kina ya kuchanganya inayojumuisha ushirikiano wa Chaumian na mikakati mbalimbali ya kulinda kutokujulikana kwa watumiaji dhidi ya aina kadhaa za uchanganuzi wa misururu, hasa kwa kupunguza makosa yanayohusiana na usimamizi wa kwingineko. Itifaki hii [ilianzishwa na nopara73 na TDevD mnamo 2017](https://github.com/nopara73/ZeroLink/blob/master/README.md).
+[Zerolink](https://planb.academy/resources/glossary/zerolink) ni itifaki ya kina ya kuchanganya inayojumuisha ushirikiano wa Chaumian na mikakati mbalimbali ya kulinda kutokujulikana kwa watumiaji dhidi ya aina kadhaa za uchanganuzi wa misururu, hasa kwa kupunguza makosa yanayohusiana na usimamizi wa kwingineko. Itifaki hii [ilianzishwa na nopara73 na TDevD mnamo 2017](https://github.com/nopara73/ZeroLink/blob/master/README.md).
 
 ![BTC204](assets/sw/132.webp)
 
@@ -2610,7 +2610,7 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d
 
 :::video id=1f33e8f1-e41d-4480-a388-e283ef51cc17:::
 
-Unapotaka kutekeleza muamala wa malipo huku ukidumisha usiri wa kiwango fulani, PayJoin ni chaguo nzuri. Lakini kama tulivyoona, PayJoin unahitaji ushiriki wa mpokeaji. Kwa hivyo, unafanya nini ikiwa mpokeaji anakataa kushiriki katika PayJoin, au ikiwa unapendelea tu kutowahusisha? Njia moja mbadala ni kutumia muamala wa Stonewall au Stonewallx2. Hebu tuangalie kwa karibu aina hizi mbili za miamala.
+Unapotaka kutekeleza muamala wa malipo huku ukidumisha usiri wa kiwango fulani, PayJoin ni chaguo nzuri. Lakini kama tulivyoona, PayJoin unahitaji ushiriki wa mpokeaji. Kwa hivyo, unafanya nini ikiwa mpokeaji anakataa kushiriki katika PayJoin, au ikiwa unapendelea tu kutowahusisha? Njia moja mbadala ni kutumia muamala wa [Stonewall](https://planb.academy/resources/glossary/stonewall) au Stonewallx2. Hebu tuangalie kwa karibu aina hizi mbili za miamala.
 
 ### Muamala wa Stonewall
 
@@ -2743,7 +2743,7 @@ Tunachohitaji ili kuepuka hili ni zana inayoweza kuficha athari za awali za sara
 
 ### Ricochet ni nini?
 
-Ricochet ni mbinu inayojumuisha kufanya miamala kadhaa ya uwongo kuelekea kwa mwenyewe (sweep transaction), kwa kuiga uhamishaji wa Umiliki wa Bitcoin. Zana hii inatofautiana na miundo mingine ya muamala ambayo tumeijadili, kwa kuwa haifanyi kazi kama jina bandika, bali ni aina ya kutokujulikana rejea. Kwa kweli, Ricochet huficha ubainifu unaoweza kuhatarisha matumizi ya sarafu ya Bitcoin kutokana na historia yake ya awali.
+[Ricochet](https://planb.academy/resources/glossary/ricochet) ni mbinu inayojumuisha kufanya miamala kadhaa ya uwongo kuelekea kwa mwenyewe (sweep transaction), kwa kuiga uhamishaji wa Umiliki wa Bitcoin. Zana hii inatofautiana na miundo mingine ya muamala ambayo tumeijadili, kwa kuwa haifanyi kazi kama jina bandika, bali ni aina ya kutokujulikana rejea. Kwa kweli, Ricochet huficha ubainifu unaoweza kuhatarisha matumizi ya sarafu ya Bitcoin kutokana na historia yake ya awali.
 
 Ili kupunguza athari iliyoachwa na tukio la zamani kwenye sarafu, kama vile mizunguko ya CoinJoin, Ricochet hutekeleza miamala minne mfululizo ambapo mtumiaji huhamisha fedha kwake mwenyewe kupitia Address tofauti.
 
@@ -2821,7 +2821,7 @@ Aidha, hakuna dhamana kwamba Alice, baada ya kupokea ufunguo wa siri $B$ wa Bob,
 ![BTC204](assets/sw/202.webp)
 
 Ili kutatua matatizo haya na kuwezesha exchange kati ya wahusika ambao hawaaminiani, tutatumia mifumo ya *smart contract* badala yake. *Smart contract* ni programu ambayo hutekeleza kiotomatiki masharti yaliyoainishwa awali yanapofikiwa. Kwa upande wetu, hii inahakikisha kwamba exchange wa mali unafanyika moja kwa moja, bila ya haja ya uaminifu wa pande zote.
-Hili linaweza kufikiwa kwa kutumia HTLC (*Hashed Time-Locked Contracts*) au PTLC (*Point Time-Locked Contracts*). Itifaki hizi mbili hufanya kazi kwa njia sawa, kwa kutumia mfumo wa kufunga muda ambao huhakikisha kwamba exchange unakamilika kwa mafanikio au kughairiwa kabisa, hivyo basi kulinda uadilifu wa fedha za pande zote mbili. Tofauti kuu kati ya HTLC na PTLC ni kwamba HTLC hutumia *hash* na picha za awali ili kulinda muamala, huku PTLC inatumia Sahihi za Adapta.
+Hili linaweza kufikiwa kwa kutumia [HTLC](https://planb.academy/resources/glossary/htlc) (*Hashed Time-Locked Contracts*) au PTLC (*Point Time-Locked Contracts*). Itifaki hizi mbili hufanya kazi kwa njia sawa, kwa kutumia mfumo wa kufunga muda ambao huhakikisha kwamba exchange unakamilika kwa mafanikio au kughairiwa kabisa, hivyo basi kulinda uadilifu wa fedha za pande zote mbili. Tofauti kuu kati ya HTLC na PTLC ni kwamba HTLC hutumia *hash* na picha za awali ili kulinda muamala, huku PTLC inatumia Sahihi za Adapta.
 Katika hali ya kubadilishana sarafu kwa kutumia HTLC au PTLC kati ya Alice na Bob, exchange unafanyika kwa usalama: ama unafaulu na kila mmoja kupokea BTC ya mwingine, au unashindikana na kila mmoja anaweka BTC yake. Hii inafanya kuwa haiwezekani kwa upande wowote kudanganya au kuiba BTC ya mwingine.
 
 > *HTLC pia ni njia inayotumika kuelekeza malipo kwa njia salama kupitia njia mbili za Lightning Network*
@@ -2926,7 +2926,7 @@ Katika Sehemu ya 4, tulijadili umuhimu wa kutumia node kamili ili kulinda usiri 
 
 ### Dandelion
 
-Njia moja ya kuepuka mashambulizi mbalimbali ya kufuta utambulisho ni kutumia pendekezo la Dandelion. Itifaki hii ya utangazaji ilirasimishwa katika BIP156, lakini haijawahi kutekelezwa kwenye Bitcoin.
+Njia moja ya kuepuka mashambulizi mbalimbali ya kufuta utambulisho ni kutumia pendekezo la [Dandelion](https://planb.academy/resources/glossary/dandelion). Itifaki hii ya utangazaji ilirasimishwa katika BIP156, lakini haijawahi kutekelezwa kwenye Bitcoin.
 
 Wazo la Dandelion ni kuboresha usiri wa uelekezaji wa shughuli katika mtandao wa Bitcoin ili kukabiliana na aina mbalimbali za mashambulizi. Kusudi lake kuu ni kuficha node ya chanzo ambayo hapo awali ilitangaza shughuli kwenye mtandao. Ufichuaji wa node hii unaweza kufanya iwezekane kuunganisha muamala wa Bitcoin kwa Anwani (address) ya IP maalum (ikiwa node inafanya kazi kwenye clearnet), ambayo inaweza kutoa mahali pa kuingilia kwa uchanganuzi wa minyororo.
 
@@ -3123,7 +3123,7 @@ Kwa maneno madhubuti, kwa kuzalisha ufunguo wa umma uliobanwa na msimbo wa kamba
 
 ### Kitufe cha Diffie-Hellman cha Exchange kwenye mikondo ya duaradufu (ECDH)
 
-Itifaki ya kriptografia iliyo katikati ya BIP47 inajulikana kwa kifupi ECDH, cha *Elliptic-Curve Diffie-Hellman*. Njia hii ni lahaja ya kitufe cha asili ya Ubadilishanaji wa Diffie-Hellman.
+Itifaki ya kriptografia iliyo katikati ya BIP47 inajulikana kwa kifupi [ECDH](https://planb.academy/resources/glossary/ecdh), cha *Elliptic-Curve Diffie-Hellman*. Njia hii ni lahaja ya kitufe cha asili ya Ubadilishanaji wa Diffie-Hellman.
 
 Ilianzishwa mwaka wa 1976, Diffie-Hellman ni itifaki muhimu ya makubaliano ambayo huwezesha pande mbili, kila moja ikiwa na jozi muhimu (ya umma na ya kibinafsi), kukubaliana juu ya siri ya pamoja, hata wakati wa kuwasiliana tu kupitia njia ya umma, isiyo na ulinzi.
 

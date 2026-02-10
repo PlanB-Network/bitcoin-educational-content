@@ -47,31 +47,31 @@ proofreading:
     urgency: 1
     contributor_names:
       - commitzs
-    reward: 14.82
+    reward: 14.68
   - language: de
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - reneplass
-    reward: 9.9
+    reward: 9.8
   - language: en
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - Ncfab
-    reward: 9.9
+    reward: 9.8
   - language: es
     last_contribution_date: 2025-11-06
     urgency: 1
     contributor_names:
       - OscarG673
-    reward: 9.9
+    reward: 9.8
   - language: fi
     last_contribution_date: 2024-04-02
     urgency: 1
     contributor_names:
       - KryptoKeskus
-    reward: 14.82
+    reward: 14.68
   - language: fr
     last_contribution_date: 2025-10-31
     urgency: 1
@@ -92,18 +92,18 @@ proofreading:
     urgency: 1
     contributor_names:
       - yutaro21jp
-    reward: 24.68
+    reward: 24.43
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 19.8
+    reward: 19.6
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
       - Reshetenko
-    reward: 14.82
+    reward: 14.68
   - language: vi
     last_contribution_date: 2025-05-14
     urgency: 1
@@ -116,7 +116,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - taneltheplanet
-    reward: 14.82
+    reward: 14.68
   - language: id
     last_contribution_date: 2025-05-14
     urgency: 1
@@ -129,31 +129,31 @@ proofreading:
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 19.75
+    reward: 19.55
   - language: nb-NO
     last_contribution_date: 2025-11-06
     urgency: 1
     contributor_names:
       - Rtbit
-    reward: 14.82
+    reward: 14.68
   - language: pl
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - MisinhaP
-    reward: 14.82
+    reward: 14.68
   - language: hi
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - e-manuel7
-    reward: 24.68
+    reward: 24.43
   - language: sr-Latn
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - Sanja993
-    reward: 19.75
+    reward: 19.55
   - language: sw
     last_contribution_date: 2025-08-18
     urgency: 1
@@ -166,53 +166,53 @@ proofreading:
     urgency: 1
     contributor_names:
       - Showyuan
-    reward: 19.75
+    reward: 19.55
   - language: fa
     last_contribution_date: 2025-05-24
     urgency: 1
     contributor_names:
       - Arshia-r-m
-    reward: 14.82
+    reward: 14.68
   - language: sv
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - Petrahodl
-    reward: 9.9
+    reward: 9.8
   - language: nl
     last_contribution_date: 2025-08-24
     urgency: 1
     contributor_names:
       - rogerbracket
-    reward: 14.82
+    reward: 14.68
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 39.5
+    reward: 39.11
   - language: ko
     last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
       - my3rdstory
-    reward: 19.75
+    reward: 19.55
   - language: rn
     last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
       - barakana
-    reward: 24.68
+    reward: 24.43
   - language: bg
     last_contribution_date: 2025-12-04
     urgency: 1
     contributor_names:
       - dnabg
-    reward: 14.82
+    reward: 14.68
   - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 39.5
+    reward: 39.11
 tags:
   - user-friendly
   - wallets

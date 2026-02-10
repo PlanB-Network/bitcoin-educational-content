@@ -60,13 +60,13 @@ Jste připraveni ponořit se do fascinujícího světa Bitcoinu a pochopit všec
 
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
 
-Než se pojem "bitcoin" stal synonymem pro digitální měnu a finanční transformaci, základy pro jeho vznik položila řada myšlenek, inovací a sociálních hnutí. Mezi nimi vyniká jako klíčový prvek prehistorie Bitcoinu hnutí cypherpunk.
+Než se pojem "bitcoin" stal synonymem pro digitální měnu a finanční transformaci, základy pro jeho vznik položila řada myšlenek, inovací a sociálních hnutí. Mezi nimi vyniká jako klíčový prvek prehistorie Bitcoinu hnutí [cypherpunk](https://planb.academy/resources/glossary/cypherpunks).
 
 ### Cypherpunkeři: vizionáři digitálního světa
 
 ![image](assets/cs/003.webp)
 
-V centru technologického vývoje 80. a 90. let 20. století začala skupina lidí hluboce zpochybňovat roli soukromí a svobody v digitálním věku. Tito lidé, kteří byli později známí jako "cypherpunkeři", pevně věřili, že kryptografie může sloužit jako nástroj ochrany práv jednotlivce před zásahy vlád a velkých korporací.
+V centru technologického vývoje 80. a 90. let 20. století začala skupina lidí hluboce zpochybňovat roli soukromí a svobody v digitálním věku. Tito lidé, kteří byli později známí jako "cypherpunkeři", pevně věřili, že [kryptografie](https://planb.academy/resources/glossary/cryptography) může sloužit jako nástroj ochrany práv jednotlivce před zásahy vlád a velkých korporací.
 
 Ikonické osobnosti jako Julian Assange, Wei Dai, Tim May a David Chaum hrály klíčovou roli při formování filozofie a vize hnutí. Tito myslitelé sdíleli své myšlenky na vlivném mailing listu, kde se účastníci z celého světa zapojovali do debat o nejlepších způsobech využití technologií pro větší svobodu jednotlivce.
 
@@ -90,15 +90,15 @@ Ačkoli se nejedná výhradně o cypherpunk, odráží tento text pocity mnoha �
 
 ### Předchůdci Bitcoinu
 
-Před vznikem bitcoinu se objevilo několik pokusů o vytvoření digitální měny. Například David Chaum představil v 80. letech 20. století koncept "anonymních elektronických peněz" svým projektem "DigiCash". Bohužel kvůli různým omezením DigiCash nikdy nezažil rozmach.
+Před vznikem bitcoinu se objevilo několik pokusů o vytvoření digitální měny. Například David Chaum představil v 80. letech 20. století koncept "anonymních elektronických peněz" svým projektem "[DigiCash](https://planb.academy/resources/glossary/ecash-david-chaum)". Bohužel kvůli různým omezením DigiCash nikdy nezažil rozmach.
 
-Dalším důležitým předchůdcem jsou "B-peníze" Wei Daie. Ačkoli nebyl nikdy realizován, představil myšlenku anonymní digitální měny, kde by odhalování podvodů prováděla komunita hodnotitelů, nikoli centrální autorita.
+Dalším důležitým předchůdcem jsou "[B-peníze](https://planb.academy/resources/glossary/bmoney)" Wei Daie. Ačkoli nebyl nikdy realizován, představil myšlenku anonymní digitální měny, kde by odhalování podvodů prováděla komunita hodnotitelů, nikoli centrální autorita.
 
 Následující obrázek jasně ilustruje vývoj hnutí prostřednictvím mnoha technologických inovací.
 
 ![image](assets/cs/005.webp)
 
-Právě v tomto plodném prostředí zveřejnil tajemný Satoshi Nakamoto v roce 2008 whitepaper Bitcoinu. V tomto dokumentu zkombinoval několik myšlenek z hnutí cypherpunk, jako jsou důkaz práce a kryptografické časové značky, a vytvořil decentralizovanou digitální měnu odolnou vůči cenzuře.
+Právě v tomto plodném prostředí zveřejnil tajemný [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) v roce 2008 [whitepaper](https://planb.academy/resources/glossary/white-paper) Bitcoinu. V tomto dokumentu zkombinoval několik myšlenek z hnutí cypherpunk, jako jsou [důkaz práce](https://planb.academy/resources/glossary/proof-of-work) a kryptografické [časové značky](https://planb.academy/resources/glossary/timestamp), a vytvořil [decentralizovanou](https://planb.academy/resources/glossary/distributed) digitální měnu odolnou vůči cenzuře.
 
 Bitcoin však byl víc než to: představoval naplnění ideálů cypherpunku. Symbolizoval revoluci proti tradičním finančním systémům a nabízel alternativu založenou na transparentnosti, decentralizaci a individuální suverenitě.
 
@@ -141,7 +141,7 @@ Peníze jsou velmi sofistikovaným komunikačním nástrojem:
 - Umožňují komunikaci mezi přítomností a budoucností, protože mění náš čas a energii v aktivum, které lze v budoucnu znovu využít bez rizika znehodnocení.
 - Usnadňuje komunikaci v univerzálním jazyce: aniž by se dva cizinci znali nebo mluvili stejným jazykem, mohou si vyměňovat věci, obchodovat s nimi a dohodnout se na jejich hodnotě.
 
-Jejich funkci v našem světě je obtížné uměle napodobit. Ve skutečnosti peníze nemůže vytvořit žádný jednotlivec ani skupina, protože jsou přirozeným jevem, který musí vzniknout na základě trhu a dobrovolného konsensu. V tomto smyslu slouží ceny jako signály a informace, kterými se společnost řídí při rozdělování zdrojů.
+Jejich funkci v našem světě je obtížné uměle napodobit. Ve skutečnosti peníze nemůže vytvořit žádný jednotlivec ani skupina, protože jsou přirozeným jevem, který musí vzniknout na základě trhu a dobrovolného [konsensu](https://planb.academy/resources/glossary/consensus). V tomto smyslu slouží ceny jako signály a informace, kterými se společnost řídí při rozdělování zdrojů.
 
 Z těchto důvodů je zlato jako peníze výsledkem 4000 let trvajícího peněžního darwinismu založeného na následujících aristotelských funkcích:
 
@@ -159,13 +159,13 @@ Z těchto důvodů je zlato jako peníze výsledkem 4000 let trvajícího peně�
 
 Zlato ideálně splňuje kritéria efektivního platidla: jeho přirozená vzácnost mu dodává hodnotu a jeho chemické vlastnosti zajišťují, že časem nepodléhá erozi. Díky těmto vlastnostem se zlato stalo skvělým **uchovatelem hodnoty**, ale ne běžným platidlem, protože tato forma peněz není snadno dělitelná ani přenosná na velké vzdálenosti. V globalizovaném a digitálním světě zlato jen těžko drží krok a vyžaduje centrální subjekt, který by zajistil jeho dělitelnost a snadnou směnitelnost (tj. prostřednictvím ražených mincí).
 
-Naopak státní fiduciární měny (fiat) jsou snadno použitelné, ale jsou neustále znehodnocovány subjekty, které je ovládají (králi, centrálními bankami, císaři, diktátory).
+Naopak státní fiduciární měny ([fiat](https://planb.academy/resources/glossary/fiat)) jsou snadno použitelné, ale jsou neustále znehodnocovány subjekty, které je ovládají (králi, centrálními bankami, císaři, diktátory).
 
 Abychom tento pojem lépe vysvětlili, prozkoumáme charakteristiky efektivní měny:
 
 ![image](assets/cs/011.webp)
 
-- Fungibilita\*\*, což znamená, že je zaměnitelná s jinou jednotkou stejného druhu bez ztráty hodnoty;
+- [Fungibilita](https://planb.academy/resources/glossary/fungibility)\*\*, což znamená, že je zaměnitelná s jinou jednotkou stejného druhu bez ztráty hodnoty;
 - Dělitelnost\*\*, což znamená, že ji lze rozdělit na menší jednotky a usnadnit tak transakce s různými objemy;
 - Likvidita\*\*, což znamená, že je snadno směnitelný za zboží nebo služby.
 
@@ -173,7 +173,7 @@ Aby tato kritéria splnila, měna se v minulosti vyvíjela různými kroky:
 
 - Surový kámen -> mince
 - Bankovka -> bankovní karta
-- Blockchain -> Lightning Network
+- [Blockchain](https://planb.academy/resources/glossary/blockchain) -> [Lightning Network](https://planb.academy/resources/glossary/lightning-network)
 
 Měny se dodnes vyvíjejí a přizpůsobují své formy různým případům použití. Jak jsme již řekli, zlato je sice vynikajícím uchovatelem hodnoty, ale pro současnou globalizovanou ekonomiku již není vhodné. Stejně tak fiduciární měny, jako je dolar a euro, jsou velmi likvidní a snadno přepravitelné, protože jsou dnes převážně digitální, ale jejich hodnota je neustále snižována měnovou inflací.
 
@@ -221,7 +221,7 @@ Dnes jsme svědky historického zlomu. Zdá se, že dolar, který dlouho dominov
 Díky těmto předpokladům nabývá bitcoinová revoluce na síle. Na rozdíl od předchozích měn nevyžaduje **žádnou důvěryhodnou třetí stranu** a jeho cílem je oddělit stát od peněz.
 
 
-Bitcoin se ve skutečnosti prezentuje jako reakce na tyto systémové problémy tím, že navrhuje decentralizované řešení a nový paralelní měnový systém. Pokud bylo historicky zlato jako měna upřednostňováno díky své odolnosti vůči padělání, Bitcoin podobně nelze padělat. Navíc je díky své decentralizované a kryptografické povaze omezen na 21 milionů jednotek. Bitcoin je měna, která si zakládá na transparentnosti a neutralitě, a nabízí tak atraktivní alternativu k současnému centralizovanému měnovému systému.
+Bitcoin se ve skutečnosti prezentuje jako reakce na tyto systémové problémy tím, že navrhuje decentralizované řešení a nový paralelní měnový systém. Pokud bylo historicky zlato jako měna upřednostňováno díky své odolnosti vůči padělání, Bitcoin podobně nelze padělat. Navíc je díky své decentralizované a kryptografické povaze omezen na [21 milionů jednotek](https://planb.academy/resources/glossary/limite-demission). Bitcoin je měna, která si zakládá na transparentnosti a neutralitě, a nabízí tak atraktivní alternativu k současnému centralizovanému měnovému systému.
 
 ![image](assets/cs/015.webp)
 
@@ -337,11 +337,11 @@ Jeho peněžní emisi lze znázornit křivkou, která představuje množství bi
 
 ### Jak vznikají nové bitcoiny?
 
-Výsledkem procesu těžby je vznik nových bitcoinů. Stručně řečeno, těžaři používají výkonné počítače, které řeší složité matematické problémy, jimiž ověřují a zabezpečují transakce. Jakmile je problém vyřešen, těžař přidá nový blok transakcí do blockchainu, decentralizované a distribuované účetní knihy, která zaznamenává všechny transakce provedené v síti. Řetězec bloků zajišťuje transparentnost a bezpečnost, protože každý blok je propojen s předchozím, takže je téměř nemožné změnit minulá data bez konsensu sítě.
+Výsledkem procesu [těžby](https://planb.academy/resources/glossary/mining) je vznik nových bitcoinů. Stručně řečeno, těžaři používají výkonné počítače, které řeší složité matematické problémy, jimiž ověřují a zabezpečují transakce. Jakmile je problém vyřešen, těžař přidá nový [blok](https://planb.academy/resources/glossary/block) transakcí do blockchainu, decentralizované a distribuované účetní knihy, která zaznamenává všechny transakce provedené v síti. Řetězec bloků zajišťuje transparentnost a bezpečnost, protože každý blok je propojen s předchozím, takže je téměř nemožné změnit minulá data bez konsensu sítě.
 
 ![image](assets/cs/022.webp)
 
-Po úspěšném splnění tohoto úkolu jsou těžaři odměněni vydáním nových bitcoinů každých deset minut. Tato odměna je naprogramována tak, aby se každých 210 000 bloků, tedy přibližně každé čtyři roky, snížila na polovinu (událost známá jako "[halving](https://planb.academy/resources/glossary/halving)"), což dává křivce emise peněz schodovitý tvar. Díky tomuto mechanismu lze matematicky předpovědět, že tvorba nových bitcoinů se zastaví kolem roku 2140, kdy jejich celkový počet dosáhne hranice 21 milionů.
+Po úspěšném splnění tohoto úkolu jsou těžaři odměněni vydáním nových bitcoinů každých deset minut. Tato odměna je naprogramována tak, aby se každých 210 000 bloků, tedy přibližně každé čtyři roky, snížila na polovinu (událost známá jako "halving"), což dává křivce emise peněz schodovitý tvar. Díky tomuto mechanismu lze matematicky předpovědět, že tvorba nových bitcoinů se zastaví kolem roku 2140, kdy jejich celkový počet dosáhne hranice 21 milionů.
 
 | Pořadí půlení | Výška bloku | Odměna za BTC po půlení  | Odhadovaný počet BTC v oběhu po půlení |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
@@ -370,15 +370,15 @@ Ke konceptu těžby se podrobněji vrátíme v kapitole [miner](https://planb.ac
 
 ### Zajištění digitálního nedostatku
 
-Limit 21 milionů je základem nedostatku bitcoinů a je zaručen dvěma klíčovými mechanismy: nastavením obtížnosti těžby a teorií her.
+Limit 21 milionů je základem nedostatku bitcoinů a je zaručen dvěma klíčovými mechanismy: [nastavením obtížnosti těžby](https://planb.academy/resources/glossary/difficulty-adjustment) a teorií her.
 
 - Úprava obtížnosti těžby je proces, který probíhá každých 2016 bloků, tedy přibližně dva týdny, aby se zajistilo, že nový blok bude do blockchainu přidán v průměru každých deset minut. Tato frekvence vytváření bloků i celkové množství bitcoinů jsou pevně dané aspekty protokolu Bitcoin a nelze je měnit bez všeobecného konsenzu, na rozdíl od svévolných rozhodnutí v tradičních měnových systémech.
 
-Obtížnost nalezení platného hashe se řídí určitým cyklem: pokud se počet těžařů zvyšuje, znamená to, že počet nalezených bloků je vyšší, což vede ke snížení průměrné doby nalezení bloku. Kvůli tomu se zvyšuje obtížnost. V důsledku toho se snižuje počet bloků, které těžaři najdou, což znamená, že se mechanismus vrací k průměrné hodnotě 10 minut na blok. Vizuální zobrazení naleznete na obrázku níže.
+Obtížnost nalezení platného [hashe](https://planb.academy/resources/glossary/hash-function) se řídí určitým cyklem: pokud se počet těžařů zvyšuje, znamená to, že počet nalezených bloků je vyšší, což vede ke snížení průměrné doby nalezení bloku. Kvůli tomu se zvyšuje obtížnost. V důsledku toho se snižuje počet bloků, které těžaři najdou, což znamená, že se mechanismus vrací k průměrné hodnotě 10 minut na blok. Vizuální zobrazení naleznete na obrázku níže.
 
 ![image](assets/cs/023.webp)
 
-Věděli jste, že těžaři jsou motivováni k těžbě bloku, aby získali nové bitcoiny prostřednictvím blokové dotace a také transakčních poplatků z transakcí, které do daného bloku zahrnou?
+Věděli jste, že těžaři jsou motivováni k těžbě bloku, aby získali nové bitcoiny prostřednictvím [blokové dotace](https://planb.academy/resources/glossary/block-subsidy) a také [transakčních poplatků](https://planb.academy/resources/glossary/transaction-fees) z transakcí, které do daného bloku zahrnou?
 
 Jakmile se tedy počet vydaných bitcoinů přiblíží hranici 21 milionů, budou těžaři odměňováni více prostřednictvím transakčních poplatků než prostřednictvím blokové dotace.
 
@@ -392,7 +392,7 @@ Myšlenka devalvace měny je v rozporu se základní filozofií Bitcoinu, takže
 
 Bitcoin je vzácný a jeho maximální množství 21 milionů bitcoinů v oběhu je veřejné a může si ho ověřit každý.
 
-Ve skutečnosti to může udělat kdokoli prostřednictvím uzlu Bitcoin (tj. validátoru transakcí) jednoduchým zadáním následujícího příkazu: `bitcoin-cli gettxoutsetinfo`. Tato transparentnost posiluje důvěru v systém Bitcoin, který není založen na centrálních institucích nebo jednotlivcích, ale spíše na matematických a kryptografických zárukách obsažených v jeho protokolu (Jak to snadno provést, se dozvíte v LNP201).
+Ve skutečnosti to může udělat kdokoli prostřednictvím [uzlu](https://planb.academy/resources/glossary/node) Bitcoin (tj. validátoru transakcí) jednoduchým zadáním následujícího příkazu: `bitcoin-cli gettxoutsetinfo`. Tato transparentnost posiluje důvěru v systém Bitcoin, který není založen na centrálních institucích nebo jednotlivcích, ale spíše na matematických a kryptografických zárukách obsažených v jeho protokolu (Jak to snadno provést, se dozvíte v LNP201).
 
 ```json
 {
@@ -420,7 +420,7 @@ Souhrnně lze říci, že Bitcoin díky své decentralizované povaze, naprogram
 
 <chapterId>1c0166ab-cb7a-5bc6-9175-d13482bd91f1</chapterId>
 
-V části 2 se budeme zabývat ukládáním a zabezpečením bitcoinů pomocí peněženek, abychom pochopili, kde se tyto slavné bitcoiny nacházejí a jak s nimi pracovat!
+V části 2 se budeme zabývat ukládáním a zabezpečením bitcoinů pomocí [peněženek](https://planb.academy/resources/glossary/wallet), abychom pochopili, kde se tyto slavné bitcoiny nacházejí a jak s nimi pracovat!
 
 ### Demystifikace bitcoinových peněženek 
 
@@ -438,11 +438,11 @@ Portfolia lze tedy rozdělit do širokých skupin použití, které se vždy sou
 
 ### Jak funguje bitcoinová peněženka?
 
-Ať už je to váš "bankéř" nebo vy sami, naprostá většina bitcoinových peněženek pracuje s podobnou technologií založenou na asymetrické kryptografii, která zahrnuje systém dvojic klíčů: soukromý klíč pro utrácení a veřejný klíč pro příjem.
+Ať už je to váš "bankéř" nebo vy sami, naprostá většina bitcoinových peněženek pracuje s podobnou technologií založenou na asymetrické kryptografii, která zahrnuje systém dvojic klíčů: [soukromý klíč](https://planb.academy/resources/glossary/private-key) pro utrácení a [veřejný klíč](https://planb.academy/resources/glossary/public-key) pro příjem.
 
 - Soukromý klíč
 
-Při inicializaci peněženky je vygenerována tajná fráze pro obnovení (soukromý klíč), která je vám předložena ve formě 12 nebo 24 slov.
+Při inicializaci peněženky je vygenerována [tajná fráze pro obnovení](https://planb.academy/resources/glossary/recovery-phrase) (soukromý klíč), která je vám předložena ve formě 12 nebo 24 slov.
 
 Soukromý klíč je zásadní, protože představuje vlastnictví bitcoinů, a tedy právo je používat nebo posílat. Držitel soukromého klíče je tedy skutečným vlastníkem bitcoinů.
 
@@ -450,7 +450,7 @@ Tento klíč musí být tajný a dobře chráněný, protože odemyká vaše boh
 
 - Veřejný klíč a adresa
 
-Veřejný klíč je generován ze soukromého klíče a je s ním spojen. Sdílení veřejného klíče představuje riziko pro soukromí (protože ostatní uživatelé mohou vidět váš zůstatek), ale ne pro bezpečnost (protože nemohou utratit vaše prostředky, aniž by vlastnili soukromý klíč). Veřejný klíč se zase používá k vytváření adres Bitcoinu, a tedy k přijímání peněz.
+Veřejný klíč je generován ze soukromého klíče a je s ním spojen. Sdílení veřejného klíče představuje riziko pro soukromí (protože ostatní uživatelé mohou vidět váš zůstatek), ale ne pro bezpečnost (protože nemohou utratit vaše prostředky, aniž by vlastnili soukromý klíč). Veřejný klíč se zase používá k vytváření [adres Bitcoinu](https://planb.academy/resources/glossary/receiving-address), a tedy k přijímání peněz.
 
 Tyto adresy jsou automaticky vytvořeny vaší peněženkou a lze je bezpečně sdílet. Abyste maximalizovali své soukromí, doporučujeme je použít pouze jednou.
 
@@ -460,7 +460,7 @@ Stručně řečeno, tato technologie nám umožňuje přijímat bitcoiny, aniž 
 
 ### Jsou bitcoiny v peněžence?
 
-Ačkoli jsou vaše klíče uloženy ve vaší peněžence, samotné bitcoiny jsou ve skutečnosti "uloženy" v bitcoinovém blockchainu, což je veřejná distribuovaná účetní kniha v rámci peer-to-peer sítě Bitcoin (podrobněji se jí budeme věnovat v části 3). To znamená, že ztráta zařízení obsahujícího vaši peněženku nemusí nutně vést ke ztrátě vašich bitcoinů. To, co vám umožní peněženku znovu vytvořit a utratit vaše bitcoiny, je ve skutečnosti soukromý klíč, takže ho nikdy nezapomeňte řádně zabezpečit!
+Ačkoli jsou vaše klíče uloženy ve vaší peněžence, samotné bitcoiny jsou ve skutečnosti "uloženy" v bitcoinovém blockchainu, což je veřejná distribuovaná účetní kniha v rámci [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) sítě Bitcoin (podrobněji se jí budeme věnovat v části 3). To znamená, že ztráta zařízení obsahujícího vaši peněženku nemusí nutně vést ke ztrátě vašich bitcoinů. To, co vám umožní peněženku znovu vytvořit a utratit vaše bitcoiny, je ve skutečnosti soukromý klíč, takže ho nikdy nezapomeňte řádně zabezpečit!
 
 ![image](assets/cs/027.webp)
 
@@ -468,7 +468,7 @@ Od roku 2017 lze naštěstí soukromý klíč reprezentovat jednoduchým sezname
 
 ### A co hackeři?
 
-Co když někdo náhodou uhodne náš seznam 12 nebo 24 slov? Stručná odpověď zní, že je to velmi nepravděpodobné díky kryptografii použité k vytvoření peněženky. Abychom to uvedli na pravou míru, náhodné objevení stejné mnemotechnické fráze se podobá nalezení "správného" čísla mezi 1 a 2 na 256, což je téměř ekvivalentní nalezení "správného" atomu ve vesmíru. Pokud však nejste s tímto výchozím zabezpečením spokojeni, můžete ho vždy zvýšit přidáním heslové fráze (dalšího slova) do své bitcoinové peněženky.
+Co když někdo náhodou uhodne náš seznam 12 nebo 24 slov? Stručná odpověď zní, že je to velmi nepravděpodobné díky kryptografii použité k vytvoření peněženky. Abychom to uvedli na pravou míru, náhodné objevení stejné mnemotechnické fráze se podobá nalezení "správného" čísla mezi 1 a 2 na 256, což je téměř ekvivalentní nalezení "správného" atomu ve vesmíru. Pokud však nejste s tímto výchozím zabezpečením spokojeni, můžete ho vždy zvýšit přidáním [heslové fráze](https://planb.academy/resources/glossary/passphrase-bip39) (dalšího slova) do své bitcoinové peněženky.
 
 ![image](assets/cs/028.webp)
 
@@ -501,7 +501,7 @@ Ve skutečnosti neexistuje žádná univerzální odpověď nebo řešení, prot
 
 Níže definujeme několik úrovní zabezpečení:
 
-- Na úrovni 0\*\* využíváte takzvanou "službu úschovy", kdy nejste jediným držitelem svých bitcoinů. Uvědomte si, že tato důvěryhodná třetí strana může kdykoli omezit váš přístup k vašim prostředkům. V tomto případě je úroveň vaší finanční suverenity podobná jako v tradičním bankovním systému s bankovním účtem.
+- Na úrovni 0\*\* využíváte takzvanou "[službu úschovy](https://planb.academy/resources/glossary/custody)", kdy nejste jediným držitelem svých bitcoinů. Uvědomte si, že tato důvěryhodná třetí strana může kdykoli omezit váš přístup k vašim prostředkům. V tomto případě je úroveň vaší finanční suverenity podobná jako v tradičním bankovním systému s bankovním účtem.
 
 ![image](assets/cs/030.webp)
 
@@ -511,7 +511,7 @@ Například peněženku Sparrow Wallet můžete používat jako horkou peněžen
 
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-- Na úrovni 2\*\* používáte fyzickou peněženku a máte zajištěn seznam 12/24 slov. Často se označuje jako "studená peněženka", protože vaše klíče jsou uloženy v zařízení, které není připojeno k internetu. V tomto případě musíte každou transakci vždy podepisovat svým zařízením, což zhoršuje každodenní dostupnost vašich prostředků.
+- Na úrovni 2\*\* používáte fyzickou peněženku a máte zajištěn seznam 12/24 slov. Často se označuje jako "[studená peněženka](https://planb.academy/resources/glossary/cold-wallet)", protože vaše klíče jsou uloženy v zařízení, které není připojeno k internetu. V tomto případě musíte každou transakci vždy podepisovat svým zařízením, což zhoršuje každodenní dostupnost vašich prostředků.
 
 Můžete například použít Ledger, Satochip nebo Tapsigner:
 
@@ -531,7 +531,7 @@ https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 
 ![image](assets/cs/032.webp)
 
-- Na úrovni 4\*\* vytvoříte pomocí sady peněženek "multisig peněženku", což znamená, že k provedení transakce je zapotřebí více podpisů. V tomto případě mějte na paměti, že každá část multisig by měla být uložena na jiném místě. Tento přístup je často považován za pokročilé využití Bitcoinu, především pro správu velkých částek a pro firemní účely.
+- Na úrovni 4\*\* vytvoříte pomocí sady peněženek "[multisig peněženku](https://planb.academy/resources/glossary/multisig)", což znamená, že k provedení transakce je zapotřebí více podpisů. V tomto případě mějte na paměti, že každá část multisig by měla být uložena na jiném místě. Tento přístup je často považován za pokročilé využití Bitcoinu, především pro správu velkých částek a pro firemní účely.
 
 ![image](assets/cs/033.webp)
 
@@ -656,7 +656,7 @@ Tato iniciativa nevyvolala okamžité nadšení, pravděpodobně kvůli předcho
 
 ![image](assets/cs/039.webp)
 
-3. ledna 2009 Satoshi oficiálně zahájil provoz sítě Bitcoin vytvořením prvního bloku, známého také jako "blok Genesis", který znamenal spuštění blockchainu Bitcoinu. Tento blok obsahuje odhalující zprávu odrážející poslání Bitcoinu: "03/jan/2009 Kancléř na pokraji druhé finanční pomoci bankám"
+3. ledna 2009 Satoshi oficiálně zahájil provoz sítě Bitcoin vytvořením prvního bloku, známého také jako "[blok Genesis](https://planb.academy/resources/glossary/genesis-block)", který znamenal spuštění blockchainu Bitcoinu. Tento blok obsahuje odhalující zprávu odrážející poslání Bitcoinu: "03/jan/2009 Kancléř na pokraji druhé finanční pomoci bankám"
 
 ![image](assets/cs/040.webp)
 
@@ -710,11 +710,11 @@ Konkrétně, když Alice otevře peněženku a stiskne tlačítko "receive", zob
 
 Poté Bob provede transakci otevřením své bitcoinové peněženky a stisknutím tlačítka "odeslat". Poté zkopíruje a vloží Alicinu adresu do požadovaného pole, přidá částku, kterou chce poslat, a rozhodne o transakčních poplatcích, které slouží jako pobídka pro těžaře, aby transakci zařadili do dalšího bloku. Čím vyšší poplatky totiž Bob zaplatí, tím větší má šanci, že transakce bude zařazena do dalšího bloku přidaného do blockchainu, tj. veřejné a neměnné účetní knihy zaznamenávající všechny bitcoinové transakce.
 
-Pro dokončení transakce ji musí Bob podepsat svým soukromým klíčem, aby ověřil, že je vlastníkem bitcoinů, které chce převést. Tento krok je u mobilních peněženek obvykle automatický nebo má podobu potvrzení ve fyzické peněžence: "Jste si jistý, že chcete poslat X na Y? Ano nebo ne".
+Pro dokončení transakce ji musí Bob podepsat svým soukromým klíčem, aby ověřil, že je vlastníkem bitcoinů, které chce převést. Tento krok je u mobilních peněženek obvykle automatický nebo má podobu [potvrzení](https://planb.academy/resources/glossary/confirmation) ve fyzické peněžence: "Jste si jistý, že chcete poslat X na Y? Ano nebo ne".
 
 ![image](assets/cs/045.webp)
 
-**Proč platíme poplatky?** Poplatky jsou nezbytné pro vytvoření volného trhu pro zahrnutí transakcí v blocích. Blok má velikost 1 MB (která byla po aktualizaci Segwit rozšířena na 4 MB), takže počet transakcí, které lze do bloku "vložit", je omezen na několik tisíc transakcí na blok. Velikost transakce závisí na její složitosti. Proto jsou za složitější transakce obvykle účtovány vyšší poplatky.
+**Proč platíme poplatky?** Poplatky jsou nezbytné pro vytvoření volného trhu pro zahrnutí transakcí v blocích. Blok má velikost 1 MB (která byla po aktualizaci [Segwit](https://planb.academy/resources/glossary/segwit) rozšířena na 4 MB), takže počet transakcí, které lze do bloku "vložit", je omezen na několik tisíc transakcí na blok. Velikost transakce závisí na její složitosti. Proto jsou za složitější transakce obvykle účtovány vyšší poplatky.
 
 ### Krok 2: Šíření transakce po uzlech
 
@@ -722,15 +722,15 @@ V této fázi byla transakce vytvořena a Bobova peněženka ji bude sdílet se 
 
 ![image](assets/cs/046.webp)
 
-V tomto okamžiku je sice tato transakce všem známá (prostřednictvím nástroje zvaného Mempool), ale nelze ji považovat za potvrzenou, dokud ji do bloku nevloží těžař, který jako jediný potvrzuje transakce tím, že je zařazuje do blockchainu.
+V tomto okamžiku je sice tato transakce všem známá (prostřednictvím nástroje zvaného [Mempool](https://planb.academy/resources/glossary/mempool)), ale nelze ji považovat za potvrzenou, dokud ji do bloku nevloží těžař, který jako jediný potvrzuje transakce tím, že je zařazuje do blockchainu.
 
-Těžaři mají za úkol shromažďovat platné a nepotvrzené transakce a sestavovat z nich blok. Stručně řečeno, musí vyřešit kryptografickou hádanku v procesu zvaném "[proof of work](https://planb.academy/resources/glossary/proof-of-work)", aby se jejich blok stal dalším v bitcoinovém blockchainu.
+Těžaři mají za úkol shromažďovat platné a nepotvrzené transakce a sestavovat z nich blok. Stručně řečeno, musí vyřešit kryptografickou hádanku v procesu zvaném "proof of work", aby se jejich blok stal dalším v bitcoinovém blockchainu.
 
 ![image](assets/cs/047.webp)
 
 ### Krok 3: Těžař transakci vytěží v bloku.
 
-Systém [proof of work](https://planb.academy/resources/glossary/proof-of-work) vyžaduje nalezení platného "hashe" pro daný blok: představte si jej jako jedinečný otisk prstu spojený s blokem, který se skládá z 256 znaků. Platnost tohoto hashe závisí na míře obtížnosti sítě Bitcoin (podrobněji se jí budeme věnovat později). Prozatím uvažujme, že těžař našel platný blok a že je v něm zahrnuta transakce Boba s Alicí. Poté je nový platný blok přidán do blockchainu, společné účetní knihy pro všechny uživatele Bitcoinu.
+Systém proof of work vyžaduje nalezení platného "hashe" pro daný blok: představte si jej jako jedinečný otisk prstu spojený s blokem, který se skládá z 256 znaků. Platnost tohoto hashe závisí na míře obtížnosti sítě Bitcoin (podrobněji se jí budeme věnovat později). Prozatím uvažujme, že těžař našel platný blok a že je v něm zahrnuta transakce Boba s Alicí. Poté je nový platný blok přidán do blockchainu, společné účetní knihy pro všechny uživatele Bitcoinu.
 
 ![image](assets/cs/048.webp)
 
@@ -807,19 +807,19 @@ Po tomto vítězství uzly aktivovaly aktualizaci nazvanou SegWit, čímž přip
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Těžaři zabezpečují síť a přidávají transakce do bloků. K řešení bitcoinových důkazů práce používají elektřinu prostřednictvím strojů [ASIC](https://planb.academy/resources/glossary/asic)**
+**Těžaři zabezpečují síť a přidávají transakce do bloků. K řešení bitcoinových důkazů práce používají elektřinu prostřednictvím strojů ASIC**
 
 ![image](assets/cs/054.webp)
 
 ### Vysvětlení důkazu o práci
 
-"[proof of work](https://planb.academy/resources/glossary/proof-of-work)" (POW) je bezpečnostní konsenzuální mechanismus bitcoinového protokolu. Je základem všeho a hraje klíčovou roli v teorii her Bitcoinu.
+"proof of work" (POW) je bezpečnostní konsenzuální mechanismus bitcoinového protokolu. Je základem všeho a hraje klíčovou roli v teorii her Bitcoinu.
 
 Pro vysvětlení, jak to funguje, si představte univerzální loterii, které se může zúčastnit každý. Cílem je najít konkrétní číslo, které výherci umožní podepsat platný blok a získat odměnu v bitcoinech. Toto číslo je velmi jednoduché ověřit pomocí hašovací funkce SHA-256, ale je obtížné ho najít: účastníci (těžaři) budou zkoušet miliardy a miliardy možností, jako například 1, 52, 2648, 26874615, 15344854131318631 a tak dále, dokud neobjeví tu správnou.
 
 Pokud je zvolené číslo správné: Jackpot! V opačném případě hledání pokračuje.
 
-K optimalizaci počtu pokusů se používají specifické stroje zvané ASIC, jejichž jediným úkolem je vypočítat miliardy možností za sekundu (celkové množství pokusů se nazývá "HashRate"). K provozu těchto strojů je třeba spotřebovat velké množství elektrické energie. POW tedy přeměňuje energii na měnu, propojuje reálný a digitální svět a vytváří první měnu založenou na energii.
+K optimalizaci počtu pokusů se používají specifické stroje zvané ASIC, jejichž jediným úkolem je vypočítat miliardy možností za sekundu (celkové množství pokusů se nazývá "[HashRate](https://planb.academy/resources/glossary/hashrate)"). K provozu těchto strojů je třeba spotřebovat velké množství elektrické energie. POW tedy přeměňuje energii na měnu, propojuje reálný a digitální svět a vytváří první měnu založenou na energii.
 
 Stroje pracují nepřetržitě a po průměrně 10 minutách se objeví vítěz: tento účastník úspěšně našel správný hash, který je pod prahem obtížnosti. Hlavní a jediný vítěz poté podepíše nový blok serveru časových razítek a přidá jej do blockchainu. Obdrží odměnu a vrátí se zkusit štěstí při těžbě dalšího bloku. Tento proces probíhá již více než deset let, přičemž vítěz potvrzuje bitcoinové transakce každých 10 minut a zároveň zabezpečuje minulé transakce, čímž zvyšuje robustnost a bezpečnost bitcoinového blockchainu.
 
@@ -833,7 +833,7 @@ V průběhu let se těžaři vybavují stále výkonnějším počítačovým ha
 
 ![image](assets/cs/056.webp)
 
-Hashrate sítě Bitcoin představuje počet pokusů o nalezení dalšího bloku za sekundu. Dnes dokonce překročil 500 TH/s, což je 500 000 miliard pokusů za sekundu! Čím vyšší je globální hashrate, tím obtížnější je pro škodlivého aktéra monopolizovat zdroje potřebné k získání většiny těžebního výkonu a utratit své prostředky více než jednou (problém dvojího utrácení). Proto je ekonomicky výhodnější dodržovat pravidla protokolu Bitcoin než jednat proti nim.
+Hashrate sítě Bitcoin představuje počet pokusů o nalezení dalšího bloku za sekundu. Dnes dokonce překročil 500 TH/s, což je 500 000 miliard pokusů za sekundu! Čím vyšší je globální hashrate, tím obtížnější je pro škodlivého aktéra monopolizovat zdroje potřebné k získání většiny těžebního výkonu a utratit své prostředky více než jednou (problém [dvojího utrácení](https://planb.academy/resources/glossary/double-spending-attack)). Proto je ekonomicky výhodnější dodržovat pravidla protokolu Bitcoin než jednat proti nim.
 
 ![image](assets/cs/057.webp)
 
@@ -841,7 +841,7 @@ Hashrate sítě Bitcoin představuje počet pokusů o nalezení dalšího bloku 
 
 Záhlaví bloku obsahuje několik prvků, jako je čas, cíl obtížnosti, číslo posledního bloku, použitá verze a Merkleho strom předchozých transakcí.
 
-Transakce **coinbase** je vždy první transakcí zahrnutou do bloku: obsahuje odměnu těžaře za vykonání práce validátora. Poté následují validované transakce. Těžaři se rozhodnou vložit transakce, které jim přinesou největší zisk, a to transakce malé velikosti s maximálními poplatky.
+Transakce **[coinbase](https://planb.academy/resources/glossary/coinbase-transaction)** je vždy první transakcí zahrnutou do bloku: obsahuje odměnu těžaře za vykonání práce validátora. Poté následují validované transakce. Těžaři se rozhodnou vložit transakce, které jim přinesou největší zisk, a to transakce malé velikosti s maximálními poplatky.
 
 ### Odměna těžařů
 
@@ -860,11 +860,11 @@ Druhý způsob kompenzace je definován částkou, kterou si uživatelé zvolí 
 
 ![image](assets/cs/059.webp)
 
-Aby těžaři stabilizovali svůj obchodní model, který je založen na odměnách za každý platný blok, často vytvářejí skupiny prostřednictvím "mining pools", kde sdružují své výpočetní zdroje.
+Aby těžaři stabilizovali svůj obchodní model, který je založen na odměnách za každý platný blok, často vytvářejí skupiny prostřednictvím "[mining pools](https://planb.academy/resources/glossary/pool-mining)", kde sdružují své výpočetní zdroje.
 
 ### Proč se tím vším zabývat?
 
-Stručně řečeno, inovace Bitcoinu spočívá v návrhu řešení problému dvojího utrácení pomocí blockchainu založeného na [proof of work](https://planb.academy/resources/glossary/proof-of-work) s plovoucí obtížností. V digitálním světě se pojetí vlastnictví liší od fyzického světa. V digitálním světě lze totiž vše kopírovat a vkládat, což vytváří riziko vícenásobného použití digitálních hodnotných aktiv. Důvěryhodní zprostředkovatelé, jako jsou banky, byli vytvořeni proto, aby tento technologický problém vyřešili a zajistili, že po převodu aktiva již nepatří odesílateli.
+Stručně řečeno, inovace Bitcoinu spočívá v návrhu řešení problému dvojího utrácení pomocí blockchainu založeného na proof of work s plovoucí obtížností. V digitálním světě se pojetí vlastnictví liší od fyzického světa. V digitálním světě lze totiž vše kopírovat a vkládat, což vytváří riziko vícenásobného použití digitálních hodnotných aktiv. Důvěryhodní zprostředkovatelé, jako jsou banky, byli vytvořeni proto, aby tento technologický problém vyřešili a zajistili, že po převodu aktiva již nepatří odesílateli.
 
 Jak to ale udělat bez důvěryhodného zprostředkovatele? Tento problém dobře popisuje problém byzantských generálů, problém koordinace informací v systému, kde různým aktérům nelze důvěřovat. V problému byzantských generálů musí skupina generálů koordinovat útok na město, ale někteří z nich mohou být zrádci, kteří se snaží plán narušit. Úkolem loajálních generálů je dosáhnout konsensu o tom, zda zaútočit, nebo ustoupit, přestože od zrádců dostávají potenciálně zavádějící zprávy.
 
@@ -874,7 +874,7 @@ Bitcoin je tedy určitým řešením, jak tento problém vyřešit nebo alespoň
 
 Těžaři jsou tvůrci zabezpečení sítě Bitcoin. Tím, že vynakládají energii na výrobu hashů, staví zeď, díky níž je pro škodlivého agenta extrémně nákladné přepsat historii transakcí, a tento ekonomický odrazující faktor odrazuje ostatní od nečestného chování.
 
-I v případě 51% útoku, kdy by agent disponoval více než polovinou hashrate, by síť zůstala bezpečná, protože útočník musí vynaložit tolik energie, kolik všichni těžaři dohromady, aby se pokusil změnit blockchain. Právě tento energeticky náročný mechanismus [proof of work](https://planb.academy/resources/glossary/proof-of-work) zajišťuje bezpečnost sítě.
+I v případě 51% útoku, kdy by agent disponoval více než polovinou hashrate, by síť zůstala bezpečná, protože útočník musí vynaložit tolik energie, kolik všichni těžaři dohromady, aby se pokusil změnit blockchain. Právě tento energeticky náročný mechanismus proof of work zajišťuje bezpečnost sítě.
 
 ### Shrnutí
 
@@ -980,7 +980,7 @@ V roce 2020 pak trh zažil další spekulativní bublinu, která vyhnala cenu bi
 
 ### Bitcoin a volatilita
 
-Na základě minulých cyklů se zdá, že periodicita ekonomických cyklů bitcoinu odpovídá době trvání mezi dvěma půleními, možná proto, že událost půlení působí jako spouštěč tím, že snižuje emisi nových bitcoinů na polovinu.
+Na základě minulých cyklů se zdá, že periodicita ekonomických cyklů bitcoinu odpovídá době trvání mezi dvěma půleními, možná proto, že událost [půlení](https://planb.academy/resources/glossary/halving) působí jako spouštěč tím, že snižuje emisi nových bitcoinů na polovinu.
 
 Díky těmto výrazným výkyvům si bitcoin vysloužil pověst vysoce volatilního aktiva, což často vede k výrazným ztrátám jeho uživatelů. Ačkoli cena může během několika dní klesnout o 10 %, 20 % nebo dokonce 50 %, je důležité si uvědomit, že samotný protokol Bitcoinu není změnami ceny ovlivněn.
 
@@ -1099,11 +1099,11 @@ V tomto případě byste měli být opatrní a ovládat své emoce, protože cen
 
 ### Od koho bychom měli koupit bitcoin?
 
-Bitcoiny lze získat několika způsoby, přičemž každý z nich podléhá vlastním předpisům, které se mohou lišit v závislosti na jurisdikci. Některé platformy vyžadují ověření totožnosti (KYC), jiné nikoli. Proto je zásadní porozumět předpisům spojeným s jednotlivými platformami.
+Bitcoiny lze získat několika způsoby, přičemž každý z nich podléhá vlastním předpisům, které se mohou lišit v závislosti na jurisdikci. Některé platformy vyžadují ověření totožnosti ([KYC](https://planb.academy/resources/glossary/kyc-know-your-customer)), jiné nikoli. Proto je zásadní porozumět předpisům spojeným s jednotlivými platformami.
 
 - Platformy DCA
 
-Jak jsme uvedli výše, běžnou metodou hromadění bitcoinů je metoda DCA (Dollar Cost Averaging), která spočívá v pravidelném nákupu malých částek. Tuto službu nabízí několik platforem, například ty, které jsou uvedeny na naší [specializované stránce](https://planb.academy/tutorials/exchange). Kromě jednoduchosti nastavení DCA jsou výběry do peněženky zpravidla automatické, což znamená, že budete mít svá aktiva vždy pod kontrolou.
+Jak jsme uvedli výše, běžnou metodou hromadění bitcoinů je metoda [DCA (Dollar Cost Averaging)](https://planb.academy/resources/glossary/dollar-cost-averaging-dca), která spočívá v pravidelném nákupu malých částek. Tuto službu nabízí několik platforem, například ty, které jsou uvedeny na naší [specializované stránce](https://planb.academy/tutorials/exchange). Kromě jednoduchosti nastavení DCA jsou výběry do peněženky zpravidla automatické, což znamená, že budete mít svá aktiva vždy pod kontrolou.
 
 V současné době jsou téměř všechna řešení DCA poměrně efektivní a mají téměř podobné poplatky, takže výběr bude záviset spíše na dostupnosti ve vaší zemi.
 
@@ -1183,7 +1183,7 @@ Nyní, když již znáte základy protokolu Bitcoin, představíme hlavní plate
 
 ### Blockchain nemůže dělat všechno
 
-Bitcoinový blockchain je navržen tak, aby byl ověřitelný co největším počtem účastníků, bez povolení a bez nutnosti důvěry. Tento požadavek však přináší strukturální omezení: blockchain nemůže zpracovávat neomezené množství transakcí, protože bloky musí zůstat rozumně velké z hlediska stahování, ukládání a ověřování nezávislými uzly, aniž by bylo nutné investovat do příliš drahého hardwaru. Tento kompromis je často shrnován tzv. trilematem: decentralizace, bezpečnost a škálovatelnost. Systém založený na blockchainu nemůže maximalizovat všechny tři vlastnosti současně. Bitcoin upřednostňuje decentralizaci a bezpečnost, což přirozeně omezuje možnou propustnost onchain transakcí.
+Bitcoinový blockchain je navržen tak, aby byl ověřitelný co největším počtem účastníků, bez povolení a bez nutnosti důvěry. Tento požadavek však přináší strukturální omezení: blockchain nemůže zpracovávat neomezené množství transakcí, protože bloky musí zůstat rozumně velké z hlediska stahování, ukládání a ověřování nezávislými uzly, aniž by bylo nutné investovat do příliš drahého hardwaru. Tento kompromis je často shrnován tzv. trilematem: decentralizace, bezpečnost a škálovatelnost. Systém založený na blockchainu nemůže maximalizovat všechny tři vlastnosti současně. Bitcoin upřednostňuje decentralizaci a bezpečnost, což přirozeně omezuje možnou propustnost [onchain](https://planb.academy/resources/glossary/onchain) transakcí.
 
 ![image](assets/cs/081.webp)
 
@@ -1201,7 +1201,7 @@ Lightning Network je právě odpovědí na tyto problémy. Myšlenka Lightning z
 
 ### Platební kanály ukotvené v Bitcoinu
 
-Lightning je založen na obousměrných platebních kanálech. Kanál je technický vztah mezi dvěma účastníky, který jim umožňuje vyměňovat satoshi offchain, tedy bez zapisování každé platby do blockchainu.
+Lightning je založen na obousměrných [platebních kanálech](https://planb.academy/resources/glossary/payment-channel). Kanál je technický vztah mezi dvěma účastníky, který jim umožňuje vyměňovat [satoshi](https://planb.academy/resources/glossary/satoshi-sat) [offchain](https://planb.academy/resources/glossary/offchain), tedy bez zapisování každé platby do blockchainu.
 
 Z pohledu Bitcoinu (onchain) znamená otevření kanálu uzamčení prostředků ve speciální transakci. Lze si to představit jako úschovu: prostředky jsou zablokovány tak, že je lze znovu rozdělit pouze při platném uzavření kanálu.
 
@@ -1227,7 +1227,7 @@ Zde se objevuje důležitý pojem Lightningu: likvidita. Kapacita kanálu odpov�
 
 ### Směrování platby bez důvěry v prostředníky
 
-Lightning byl navržen tak, aby umožňoval platby přes prostředníky bez nutnosti jim důvěřovat. K tomu protokol využívá chytré kontrakty nazývané HTLC (*Hashed Time-Locked Contracts*). Aniž bychom zabíhali do všech detailů, zapamatujte si obecný mechanismus:
+Lightning byl navržen tak, aby umožňoval platby přes prostředníky bez nutnosti jim důvěřovat. K tomu protokol využívá chytré kontrakty nazývané [HTLC](https://planb.academy/resources/glossary/htlc) (*Hashed Time-Locked Contracts*). Aniž bychom zabíhali do všech detailů, zapamatujte si obecný mechanismus:
 * platba je podmíněna odhalením tajemství (předobrazu);
 * pokud konečný příjemce toto tajemství odhalí, obdrží prostředky a prostředníci si mohou postupně vyzvednout to, co jim náleží;
 * pokud platba selže, časové limity vyprší a každý získá zpět své prostředky.
@@ -1308,7 +1308,7 @@ Jak jsme viděli v předchozích kapitolách, Bitcoin byl navržen jako mimořá
 
 Bitcoin se nevyvíjí pouze úpravami svého základního protokolu. Vyvíjí se také budováním nad ním, prostřednictvím řešení, která volí různé kompromisy podle sledovaného cíle. Některá se zaměřují na škálovatelnost plateb, jiná na programovatelnost (v širším smyslu) a emisi aktiv, a další se snaží obojí kombinovat.
 
-V této kapitole představujeme čtyři důležité protokoly, které nabízejí nové možnosti nad Bitcoinem: sidechains (zejména Liquid), Ark, RGB a Taproot Assets.
+V této kapitole představujeme čtyři důležité protokoly, které nabízejí nové možnosti nad Bitcoinem: [sidechains](https://planb.academy/resources/glossary/sidechain) (zejména Liquid), Ark, RGB a Taproot Assets.
 
 ### Sidechains: paralelní blockchainy propojené s Bitcoinem
 
@@ -1328,7 +1328,7 @@ https://planb.academy/courses/d3ca6943-b22c-4e50-b62d-9431460525bc
 
 Ark označuje rodinu návrhů a implementací zaměřených na zlepšení škálovatelnosti Bitcoinu tím, že sdružují mnoho uživatelských operací do omezeného počtu Bitcoin transakcí. Myšlenka je poměrně jednoduchá: místo vytváření jedné onchain transakce na uživatele se vytvoří jedna onchain transakce představující balík, a práva jednotlivých účastníků se následně vyvíjejí převážně offchain, dokud nedojde k finálnímu vypořádání na Bitcoinu.
 
-Tato myšlenka protokolu druhé vrstvy byla představena Burakem v květnu 2023. Stejně jako Lightning Network je Ark systémem budovaným nad hlavním Bitcoinovým řetězcem. Umožnil by provádět platby v bitcoinech mimo řetězec rychle, anonymně a s nízkými poplatky. Ve srovnání s Lightningem Ark nevyžaduje příchozí likviditu pro přijímání plateb, což výrazně zlepšuje uživatelskou zkušenost. Navíc poskytuje úroveň soukromí blízkou coinjoin transakcím. Ark by také mohl být neinteraktivní, pokud by byly do Bitcoinu přidány covenants.
+Tato myšlenka protokolu druhé vrstvy byla představena Burakem v květnu 2023. Stejně jako Lightning Network je Ark systémem budovaným nad hlavním Bitcoinovým řetězcem. Umožnil by provádět platby v bitcoinech mimo řetězec rychle, anonymně a s nízkými poplatky. Ve srovnání s Lightningem Ark nevyžaduje příchozí likviditu pro přijímání plateb, což výrazně zlepšuje uživatelskou zkušenost. Navíc poskytuje úroveň soukromí blízkou [coinjoin](https://planb.academy/resources/glossary/coinjoin) transakcím. Ark by také mohl být neinteraktivní, pokud by byly do Bitcoinu přidány covenants.
 
 Burak často kritizuje schopnost Lightningu škálovat kvůli jeho závislosti na hlavním řetězci a naznačuje, že Ark by teoreticky mohl integrovat celou světovou populaci v režimu self-custody. I když lze Ark vnímat jako konkurenční protokol k Lightning Network, ve skutečnosti mohou oba koexistovat a dokonce se doplňovat.
 

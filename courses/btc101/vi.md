@@ -61,7 +61,7 @@ Bạn đã sẵn sàng để khám phá thế giới hấp dẫn của Bitcoin v
 Sẵn sàng khám phá thế giới hấp dẫn của Bitcoin và hiểu rõ mọi cơ chế của nó chưa? Đi thôi!
 
 
-Trước khi thuật ngữ "Bitcoin" được sử dụng và biết tới như cuộc cách mạng về tiền\tài sản và tài chính kỹ thuật số, sự ra đời của nó dựa trên nền tảng của một loạt các ý tưởng, sáng kiến và phong trào xã hội. Trong số đó, phong trào mật mã học (cypherpunk) nổi lên như một phần then chốt trong quá trình hình thành Bitcoin.
+Trước khi thuật ngữ "Bitcoin" được sử dụng và biết tới như cuộc cách mạng về tiền\tài sản và tài chính kỹ thuật số, sự ra đời của nó dựa trên nền tảng của một loạt các ý tưởng, sáng kiến và phong trào xã hội. Trong số đó, phong trào [mật mã học](https://planb.academy/resources/glossary/cryptography) ([cypherpunk](https://planb.academy/resources/glossary/cypherpunks)) nổi lên như một phần then chốt trong quá trình hình thành Bitcoin.
 
 ### Cypherpunks: những chuyên gia mật mã học có tầm nhìn xa trông rộng về thế giới số
 
@@ -94,15 +94,15 @@ Mặc dù không hoàn toàn là cypherpunk, văn bản này phản ánh mong mu
 
 ### Những phiên bản tiền nhiệm của Bitcoin
 
-Trước khi Bitcoin xuất hiện, đã có một số nỗ lực tạo ra một loại tiền kỹ thuật số. Ví dụ, David Chaum đã giới thiệu khái niệm "tiền điện tử ẩn danh" với dự án "DigiCash" của mình vào những năm 1980. Không may thay, do với nhiều hạn chế khác nhau, DigiCash đã không cất cánh.
+Trước khi Bitcoin xuất hiện, đã có một số nỗ lực tạo ra một loại tiền kỹ thuật số. Ví dụ, David Chaum đã giới thiệu khái niệm "tiền điện tử ẩn danh" với dự án "[DigiCash](https://planb.academy/resources/glossary/ecash-david-chaum)" của mình vào những năm 1980. Không may thay, do với nhiều hạn chế khác nhau, DigiCash đã không cất cánh.
 
-Một phiên bản khác cũng quan trọng không kém là "B-money" của Wei Dai. Mặc dù dự án chưa bao giờ được triển khai, nhưng đã trình bày được ý tưởng về một loại tiền kỹ thuật số ẩn danh, trong đó việc phát hiện gian lận được thực hiện bởi cộng đồng của các chuyên gia đánh giá chứ không phải một cơ quan trung ương.
+Một phiên bản khác cũng quan trọng không kém là "[B-money](https://planb.academy/resources/glossary/bmoney)" của Wei Dai. Mặc dù dự án chưa bao giờ được triển khai, nhưng đã trình bày được ý tưởng về một loại tiền kỹ thuật số ẩn danh, trong đó việc phát hiện gian lận được thực hiện bởi cộng đồng của các chuyên gia đánh giá chứ không phải một cơ quan trung ương.
 
 Hình ảnh bên dưới minh họa rõ nét sự quá trình phát triển của Bitcoin qua nhiều cải tiến công nghệ.
 
 ![image](assets/vi/005.webp)
 
-Trưởng thành từ môi trường này, một Satoshi Nakamoto bí ẩn đã công bố bản cáo bạch về Bitcoin vào năm 2008. Trong tài liệu này, ông đã kết hợp một số ý tưởng từ phong trào cypherpunk, chẳng hạn như bằng chứng công việc và mã hóa mốc thời gian, để tạo ra một loại tiền kỹ thuật số phi tập trung và tự do.
+Trưởng thành từ môi trường này, một [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) bí ẩn đã công bố [bản cáo bạch](https://planb.academy/resources/glossary/white-paper) về Bitcoin vào năm 2008. Trong tài liệu này, ông đã kết hợp một số ý tưởng từ phong trào cypherpunk, chẳng hạn như [bằng chứng công việc](https://planb.academy/resources/glossary/proof-of-work) và [mã hóa mốc thời gian](https://planb.academy/resources/glossary/timestamp), để tạo ra một loại tiền kỹ thuật số [phi tập trung](https://planb.academy/resources/glossary/distributed) và tự do.
 
 Tuy nhiên, Bitcoin không chỉ có vậy: nó đại diện cho thành tựu của lý tưởng cypherpunk. Vượt lên trên bề mặt khoa học công nghệ, Bitcoin còn là biểu tượng cho một cuộc cách mạng chống lại các hệ thống tài chính truyền thống với vai trò cung cấp một phương tiện/giải pháp thay thế phát triển dựa trên tính minh bạch, phi tập trung và quyền tự do cá nhân.
 
@@ -145,7 +145,7 @@ Tiền là một công cụ giao tiếp cực kỳ tinh vi:
 - Nó cho phép giao tiếp giữa hiện tại và tương lai, vì nó chuyển biến thời gian và năng lượng của chúng ta thành tài sản có thể tái sử dụng trong tương lai và tránh nguy cơ bị mất giá.
 - Nó tạo điều kiện thuận lợi cho việc giao tiếp đóng vai trò là ngôn ngữ chung: hai người xa lạ không cần biết nhau hay nói cùng một ngôn ngữ, vẫn có thể trao đổi, mua bán và thống nhất về giá trị của mọi thứ.
 
-Chức năng của nó khó có thể sao chép một cách nhân tạo trong thế giới của chúng ta. Trên thực tế, không có cá nhân hay tổ chức nào có thể tạo ra tiền, vì đây là hiện tượng tự nhiên xuất hiện từ sự đồng thuận tự nguyện trong thị trường. Theo nghĩa này, giá cả đóng vai trò là tín hiệu và những phần của thông tin điều chỉnh phân bổ nguồn lực trong xã hội.
+Chức năng của nó khó có thể sao chép một cách nhân tạo trong thế giới của chúng ta. Trên thực tế, không có cá nhân hay tổ chức nào có thể tạo ra tiền, vì đây là hiện tượng tự nhiên xuất hiện từ sự [đồng thuận](https://planb.academy/resources/glossary/consensus) tự nguyện trong thị trường. Theo nghĩa này, giá cả đóng vai trò là tín hiệu và những phần của thông tin điều chỉnh phân bổ nguồn lực trong xã hội.
 
 Vì những lý do này, vàng trong vai trò tài sản\tiền là kết quả của 4.000 năm học thuyết tài sản\tiền của Darwin dựa trên các chức năng sau của Aristotle:
 
@@ -164,14 +164,14 @@ Vì những lý do này, vàng trong vai trò tài sản\tiền là kết quả 
 
 Vàng đáp ứng lý tưởng các tiêu chí của một loại tiền tệ hiệu quả: tính hiếm có tự nhiên của nó tạo nên giá trị, trong khi các đặc tính hóa học của nó đảm bảo nó không bị xói mòn theo thời gian. Những đặc điểm này đã làm cho vàng trở thành một **kho lưu trữ giá trị** tuyệt vời, nhưng không phải là một loại tiền tệ phổ biến, vì hình thức tiền này không dễ chia nhỏ hoặc vận chuyển trên những khoảng cách xa. Trong một thế giới toàn cầu hóa và kỹ thuật số, vàng phải vật lộn để theo kịp và đòi hỏi một thực thể trung tâm để làm cho nó có thể chia nhỏ và dễ dàng trao đổi (tức là thông qua các đồng tiền đúc).
 
-Ngược lại, tiền tệ do nhà nước phát hành (tiền pháp định) rất dễ sử dụng, nhưng thường xuyên bị phá giá bởi các thực thể kiểm soát chúng (vua, ngân hàng trung ương, hoàng đế, nhà độc tài).
+Ngược lại, tiền tệ do nhà nước phát hành ([tiền pháp định](https://planb.academy/resources/glossary/fiat)) rất dễ sử dụng, nhưng thường xuyên bị phá giá bởi các thực thể kiểm soát chúng (vua, ngân hàng trung ương, hoàng đế, nhà độc tài).
 
 Để giải thích rõ hơn khái niệm này, chúng ta sẽ khám phá các đặc điểm của một loại tiền tệ hiệu quả:
 
 ![image](assets/vi/011.webp)
 
 
-- **Tính có thể thay thế**, nghĩa là nó có thể hoán đổi với một đơn vị khác cùng loại mà không mất giá trị;
+- **[Tính có thể thay thế](https://planb.academy/resources/glossary/fungibility)**, nghĩa là nó có thể hoán đổi với một đơn vị khác cùng loại mà không mất giá trị;
 - **Tính có thể chia nhỏ**, vì có thể chia thành các đơn vị nhỏ hơn để tạo điều kiện thuận lợi cho các giao dịch có khối lượng khác nhau;
 - **Tính thanh khoản**, nghĩa là có thể dễ dàng chuyển đổi thành hàng hóa hoặc dịch vụ.
 
@@ -180,9 +180,9 @@ Ngược lại, tiền tệ do nhà nước phát hành (tiền pháp định) r
 
 - Đá thô -> Tiền xu
 - Tiền giấy -> Thẻ ngân hàng
-- chuỗi khối dữ liệu (Blockchain) -> Mạng Lightning
+- [chuỗi khối dữ liệu (Blockchain)](https://planb.academy/resources/glossary/blockchain) -> [Mạng Lightning](https://planb.academy/resources/glossary/lightning-network)
 
-Tiền tệ vẫn đang phát triển cho đến ngày nay, điều chỉnh hình thức của chúng để đáp ứng các trường hợp sử dụng khác nhau. Như đã nói, trong khi vàng là một kho lưu trữ giá trị tuyệt vời, nó không còn phù hợp với nền kinh tế toàn cầu hóa hiện tại. Tương tự như vậy, các loại tiền tệ ủy thác như đô la và euro rất thanh khoản và dễ vận chuyển vì hiện nay chúng chủ yếu là kỹ thuật số, nhưng giá trị của chúng liên tục giảm do lạm phát tiền tệ.
+Tiền tệ vẫn đang phát triển cho đến ngày nay, điều chỉnh hình thức của chúng để đáp ứng các trường hợp sử dụng khác nhau. Như đã nói, trong khi vàng là một kho lưu trữ giá trị tuyệt vời, nó không còn phù hợp với nền kinh tế toàn cầu hóa hiện tại. Tương tự như vậy, các loại tiền tệ ủy thác như đô la và euro rất thanh khoản và dễ vận chuyển vì hiện nay chúng chủ yếu là kỹ thuật số, nhưng giá trị của chúng liên tục giảm do [lạm phát](https://planb.academy/resources/glossary/inflation) tiền tệ.
 
 Mặt khác, Bitcoin mở ra những triển vọng mới. Các đặc tính của nó, đặc biệt là nguồn cung bị giới hạn nghiêm ngặt, khiến nó trở thành một kho lưu trữ giá trị xuất sắc. Đồng thời, với tư cách là một đồng tiền internet trung lập, nó cấu thành một **phương tiện trao đổi** khả thi, có khả năng vượt qua biên giới. Tuy nhiên, mặc dù việc chấp nhận vẫn đang tiếp diễn (như được minh họa bởi [bản đồ BTCmap](https://btcmap.org/map)), hiện nay nó vẫn chưa được chấp nhận rộng rãi trong thương mại.
 
@@ -228,7 +228,7 @@ Hiện tại chúng ta đang chứng kiến một bước ngoặt lịch sử. �
 Với những tiền đề này, phong trào cách mạng Bitcoin đang phát triển mạnh mẽ. Trái ngược với các loại tiền tệ trước đây, nó không yêu cầu **một trung gian đáng tin cậy** và với mục đích tách bạch cơ quan trung ương ra khỏi tiền tệ.
 
 
-Trên thực tế đối với những thách thức của hệ thống này, Bitcoin thể hiện như là một phản ứng bằng cách đề xuất một giải pháp phi tập trung và một hệ thống song song cho với loại tiền tệ mới. Trong lịch sử, nếu vàng được ưa chuộng như một loại tiền tệ do khả năng chống làm giả, thì Bitcoin vượt trội hơn vì không thể bị làm giả. Hơn nữa, nó còn bị giới hạn số lượng với 21 triệu đơn vị, nhờ bản chất phi tập trung và tính mã hóa . Bitcoin là một loại tiền tệ dựa trên sự minh bạch và trung lập, cung cấp một giải pháp thay thế tiềm năng cho hệ thống tiền tệ tập trung hiện tại.
+Trên thực tế đối với những thách thức của hệ thống này, Bitcoin thể hiện như là một phản ứng bằng cách đề xuất một giải pháp phi tập trung và một hệ thống song song cho với loại tiền tệ mới. Trong lịch sử, nếu vàng được ưa chuộng như một loại tiền tệ do khả năng chống làm giả, thì Bitcoin vượt trội hơn vì không thể bị làm giả. Hơn nữa, nó còn bị giới hạn số lượng với [21 triệu đơn vị](https://planb.academy/resources/glossary/limite-demission), nhờ bản chất phi tập trung và tính mã hóa . Bitcoin là một loại tiền tệ dựa trên sự minh bạch và trung lập, cung cấp một giải pháp thay thế tiềm năng cho hệ thống tiền tệ tập trung hiện tại.
 
 ![image](assets/vi/015.webp)
 
@@ -350,11 +350,11 @@ Việc phát hành tiền tệ của nó có thể được minh họa bằng m�
 
 ### Bitcoin mới được tạo ra như thế nào?
 
-Việc tạo ra bitcoin mới là kết quả của quá trình khai thác. Nói một cách ngắn gọn, người khai thác (thợ đào) sử dụng sức mạnh máy tính để giải quyết các vấn đề toán học phức tạp, xác thực và bảo mật các giao dịch. Khi một vấn đề được giải quyết, người khai thác sẽ thêm một khối giao dịch mới vào chuỗi khối dữ liệu (Blockchain), là một sổ cái phân tán và phi tập trung ghi lại tất cả các giao dịch được thực hiện trên mạng. chuỗi khối dữ liệu đảm bảo tính minh bạch và bảo mật, vì mỗi khối được liên kết với khối trước đó, khiến việc thay đổi dữ liệu trong quá khứ mà không có sự đồng thuận từ mạng lưới gần như là không thể.
+Việc tạo ra bitcoin mới là kết quả của quá trình [khai thác](https://planb.academy/resources/glossary/mining). Nói một cách ngắn gọn, người khai thác (thợ đào) sử dụng sức mạnh máy tính để giải quyết các vấn đề toán học phức tạp, xác thực và bảo mật các giao dịch. Khi một vấn đề được giải quyết, người khai thác sẽ thêm một [khối](https://planb.academy/resources/glossary/block) giao dịch mới vào chuỗi khối dữ liệu (Blockchain), là một sổ cái phân tán và phi tập trung ghi lại tất cả các giao dịch được thực hiện trên mạng. chuỗi khối dữ liệu đảm bảo tính minh bạch và bảo mật, vì mỗi khối được liên kết với khối trước đó, khiến việc thay đổi dữ liệu trong quá khứ mà không có sự đồng thuận từ mạng lưới gần như là không thể.
 
 ![image](assets/vi/022.webp)
 
-Sau khi hoàn thành nhiệm vụ này thành công, người khai thác (thợ đào) sẽ được thưởng bitcoin mới được sản xuất ra sau mỗi mười phút. Phần thưởng này được lập trình để giảm một nửa sau mỗi 210.000 khối, tức là khoảng bốn năm một lần (một sự kiện được gọi là "[halving](https://planb.academy/resources/glossary/halving)"), tạo cho đường cong phát hành tiền tệ có hình dạng giống như cầu thang. Do cơ chế này, có thể dự đoán về mặt toán học rằng việc tạo ra bitcoin mới sẽ chấm dứt vào khoảng năm 2140, khi tổng số lượng đạt đến giới hạn là 21 triệu.
+Sau khi hoàn thành nhiệm vụ này thành công, người khai thác (thợ đào) sẽ được thưởng bitcoin mới được sản xuất ra sau mỗi mười phút. Phần thưởng này được lập trình để giảm một nửa sau mỗi 210.000 khối, tức là khoảng bốn năm một lần (một sự kiện được gọi là "halving"), tạo cho đường cong phát hành tiền tệ có hình dạng giống như cầu thang. Do cơ chế này, có thể dự đoán về mặt toán học rằng việc tạo ra bitcoin mới sẽ chấm dứt vào khoảng năm 2140, khi tổng số lượng đạt đến giới hạn là 21 triệu.
 
 | Halving Number | Chiều cao khối |Phần thưởng BTC sau khi Halving  | Ước tính BTC lưu hành sau khi Halving |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
@@ -383,16 +383,16 @@ Chúng ta sẽ xem xét lại khái niệm khai thác chi tiết hơn trong [ch�
 
 ### Đảm bảo sự khan hiếm kỹ thuật số
 
-Giới hạn 21 triệu là cơ sở cho sự khan hiếm của Bitcoin và được đảm bảo bởi hai cơ chế chính: điều chỉnh độ khó khai thác và lý thuyết trò chơi.
+Giới hạn 21 triệu là cơ sở cho sự khan hiếm của Bitcoin và được đảm bảo bởi hai cơ chế chính: [điều chỉnh độ khó khai thác](https://planb.academy/resources/glossary/difficulty-adjustment) và lý thuyết trò chơi.
 
 
 - Điều chỉnh độ khó (trong) khai thác là một quá trình diễn ra sau mỗi lần sản xuất 2016 khối, hoặc khoảng hai tuần, để đảm bảo rằng một khối mới được thêm vào Blockchain trung bình cứ sau mười phút. Tần suất tạo khối này và tổng số lượng bitcoin đều là các yếu tố cố định của giao thức Bitcoin và không thể thay đổi nếu không có sự đồng thuận chung, không giống như các quyết định tùy ý được đưa ra trong các hệ thống tiền tệ truyền thống.
 
-Độ khó của việc tìm một hàm mã hóa hợp lệ tuân theo một chu kỳ: nếu số lượng thợ đào tăng lên, điều đó có nghĩa là số lượng khối họ tìm thấy cao hơn, điều này làm giảm thời gian trung bình để tìm một khối. Khi đó, độ khó tăng lên. Vì vậy, số lượng khối mà thợ đào tìm thấy được giảm xuống, điều này có nghĩa là cơ chế quay trở lại mức trung bình là 10 phút cho mỗi khối. Xem hình ảnh bên dưới để biết hình ảnh trực quan.
+Độ khó của việc tìm một [hàm mã hóa](https://planb.academy/resources/glossary/hash-function) hợp lệ tuân theo một chu kỳ: nếu số lượng thợ đào tăng lên, điều đó có nghĩa là số lượng khối họ tìm thấy cao hơn, điều này làm giảm thời gian trung bình để tìm một khối. Khi đó, độ khó tăng lên. Vì vậy, số lượng khối mà thợ đào tìm thấy được giảm xuống, điều này có nghĩa là cơ chế quay trở lại mức trung bình là 10 phút cho mỗi khối. Xem hình ảnh bên dưới để biết hình ảnh trực quan.
 
 ![image](assets/vi/023.webp)
 
-Bạn có biết rằng thợ đào được khuyến khích khai thác một khối để kiếm bitcoin mới thông qua trợ cấp khối cũng như phí giao dịch từ các giao dịch được đưa vào khối đó?
+Bạn có biết rằng thợ đào được khuyến khích khai thác một khối để kiếm bitcoin mới thông qua [trợ cấp khối](https://planb.academy/resources/glossary/block-subsidy) cũng như [phí giao dịch](https://planb.academy/resources/glossary/transaction-fees) từ các giao dịch được đưa vào khối đó?
 
 Thế nên, khi số lượng bitcoin được phát hành đạt đến giới hạn 21 triệu, thợ đào sẽ được trả nhiều hơn thông qua phí giao dịch so với trợ cấp khối.
 
@@ -407,7 +407,7 @@ Thế nên, khi số lượng bitcoin được phát hành đạt đến giới 
 
 Sự khan hiếm của Bitcoin là một tài sản lớn và số lượng tối đa 21 triệu bitcoin đang lưu hành là công khai và có thể được bất kỳ ai xác minh.
 
-Trên thực tế, bất kỳ ai cũng có thể thực hiện việc này thông qua một máy chủ Bitcoin (tức là một trình duyệt xác thực giao dịch) chỉ bằng cách nhập lệnh sau: `bitcoin-cli gettxoutsetinfo`. Tính minh bạch này củng cố niềm tin vào hệ thống Bitcoin, vốn không dựa trên các tổ chức trung ương hoặc cá nhân, mà dựa trên các đảm bảo về mặt toán học và mật mã vốn có trong giao thức của nó (Bạn sẽ học cách thực hiện việc này một cách dễ dàng trong LNP201).
+Trên thực tế, bất kỳ ai cũng có thể thực hiện việc này thông qua một [máy chủ Bitcoin](https://planb.academy/resources/glossary/node) (tức là một trình duyệt xác thực giao dịch) chỉ bằng cách nhập lệnh sau: `bitcoin-cli gettxoutsetinfo`. Tính minh bạch này củng cố niềm tin vào hệ thống Bitcoin, vốn không dựa trên các tổ chức trung ương hoặc cá nhân, mà dựa trên các đảm bảo về mặt toán học và mật mã vốn có trong giao thức của nó (Bạn sẽ học cách thực hiện việc này một cách dễ dàng trong LNP201).
 
 ```json
 {
@@ -435,7 +435,7 @@ Tóm lại, Bitcoin, với bản chất phi tập trung, tính khan hiếm đư�
 
 <chapterId>1c0166ab-cb7a-5bc6-9175-d13482bd91f1</chapterId>
 
-Trong chương 2, chúng ta sẽ tìm hiểu cách lưu trữ và bảo vệ Bitcoin của mình bằng việc sử dụng ví, qua đó hiểu được cách tương tác với những đồng bitcoin nổi tiếng này và chúng nằm ở đâu!
+Trong chương 2, chúng ta sẽ tìm hiểu cách lưu trữ và bảo vệ Bitcoin của mình bằng việc sử dụng [ví](https://planb.academy/resources/glossary/wallet), qua đó hiểu được cách tương tác với những đồng bitcoin nổi tiếng này và chúng nằm ở đâu!
 
 ### Giải mã ví Bitcoin
 
@@ -454,12 +454,12 @@ Do vậy, các danh mục vốn có thể được phân loại rộng rãi theo
 
 ### Ví Bitcoin hoạt động như thế nào?
 
-Cho dù là "ngân hàng" Bitcoin hay chính bạn, phần lớn ví Bitcoin đều hoạt động với cùng một công nghệ tương tự nhau dựa trên mật mã bất đối xứng, bao gồm hệ thống cặp khóa: khóa riêng để chi tiêu và khóa chung để nhận.
+Cho dù là "ngân hàng" Bitcoin hay chính bạn, phần lớn ví Bitcoin đều hoạt động với cùng một công nghệ tương tự nhau dựa trên mật mã bất đối xứng, bao gồm hệ thống cặp khóa: [khóa riêng](https://planb.academy/resources/glossary/private-key) để chi tiêu và [khóa chung](https://planb.academy/resources/glossary/public-key) để nhận.
 
 
 - Khóa riêng
 
-Khi khởi tạo ví, một cụm từ khôi phục mật khẩu (khóa riêng) sẽ được tạo và hiển thị cho bạn dưới dạng 12 hoặc 24 từ.
+Khi khởi tạo ví, một [cụm từ khôi phục mật khẩu](https://planb.academy/resources/glossary/recovery-phrase) (khóa riêng) sẽ được tạo và hiển thị cho bạn dưới dạng 12 hoặc 24 từ.
 
 Khóa riêng là cơ bản vì nó cấu thành quyền sở hữu bitcoin và do đó là quyền sử dụng hoặc gửi chúng. Do đó, người nắm giữ khóa riêng là chủ sở hữu thực sự của bitcoin.
 
@@ -468,7 +468,7 @@ Chiếc chìa khóa này phải được giữ bí mật và bảo vệ cẩn th
 
 - Khóa chung & địa chỉ
 
-Khóa chung được tạo ra từ khóa riêng và được liên kết với khóa riêng. Chia sẻ khóa chung sẽ gây rủi ro cho quyền riêng tư (vì những người dùng khác có thể thấy được số dư tài khoản của bạn) nhưng nó sẽ không gây rủi ro cho vấn đề bảo mật (vì họ không thể chi tiêu tiền của bạn nếu không có khóa riêng). Đổi lại, khóa chung được sử dụng để tạo ra địa chỉ Bitcoin cho việc nhận tiền.
+Khóa chung được tạo ra từ khóa riêng và được liên kết với khóa riêng. Chia sẻ khóa chung sẽ gây rủi ro cho quyền riêng tư (vì những người dùng khác có thể thấy được số dư tài khoản của bạn) nhưng nó sẽ không gây rủi ro cho vấn đề bảo mật (vì họ không thể chi tiêu tiền của bạn nếu không có khóa riêng). Đổi lại, khóa chung được sử dụng để tạo ra [địa chỉ Bitcoin](https://planb.academy/resources/glossary/receiving-address) cho việc nhận tiền.
 
 Những địa chỉ này được tự động tạo ra trong ví của bạn và an toàn trong sử dụng rộng rãi. Để tối ưu hóa quyền riêng tư, bạn chỉ nên sử dụng chúng một lần.
 
@@ -478,7 +478,7 @@ Tóm lại, công nghệ này cho phép chúng ta nhận bitcoin mà không cho 
 
 ### Có bitcoin trong ví không?
 
-Mặc dù khóa của bạn được lưu trữ trong ví của bạn, nhưng bản thân bitcoin thực sự được "lưu giữ" trong chuỗi khối Bitcoin, đây là sổ cái phân tán công khai trong mạng lưới hàng ngang của Bitcoin (chúng ta sẽ đi sâu vào chủ đề này trong phần 3). Điều này có nghĩa là việc mất thiết bị chứa ví của bạn không nhất thiết dẫn đến việc mất bitcoin. Thứ thực sự cho phép bạn tạo lại ví và chi tiêu bitcoin là khóa riêng, vì vậy hãy luôn nhớ bảo mật nó đúng cách!
+Mặc dù khóa của bạn được lưu trữ trong ví của bạn, nhưng bản thân bitcoin thực sự được "lưu giữ" trong chuỗi khối Bitcoin, đây là sổ cái phân tán công khai trong mạng lưới [hàng ngang](https://planb.academy/resources/glossary/peertopeer-p2p) của Bitcoin (chúng ta sẽ đi sâu vào chủ đề này trong phần 3). Điều này có nghĩa là việc mất thiết bị chứa ví của bạn không nhất thiết dẫn đến việc mất bitcoin. Thứ thực sự cho phép bạn tạo lại ví và chi tiêu bitcoin là khóa riêng, vì vậy hãy luôn nhớ bảo mật nó đúng cách!
 
 ![image](assets/vi/027.webp)
 
@@ -486,7 +486,7 @@ May mắn là, kể từ năm 2017, khóa riêng có thể được thể hiện
 
 ### Còn tin tặc thì sao?
 
-Nếu ai đó vô tình đoán được danh sách 12 hoặc 24 từ của chúng ta thì sao? Câu trả lời ngắn gọn là khả năng này rất thấp, nhờ vào hàm mã hóa được sử dụng để tạo ví. Để hiểu rõ hơn, việc vô tình khám phá ra cùng một cụm từ mật khẩu của bạn cũng giống như việc đoán ra 1 số "đúng" giữa 1 và $2^256$, gần như tương đương với việc tìm ra nguyên tử "đúng" trong Vũ trụ. Tuy nhiên, nếu bạn không hài lòng với bảo mật mặc định này, bạn luôn có thể nâng cao nó bằng cách thêm một cụm mật khẩu (một từ bổ sung) vào ví Bitcoin của mình.
+Nếu ai đó vô tình đoán được danh sách 12 hoặc 24 từ của chúng ta thì sao? Câu trả lời ngắn gọn là khả năng này rất thấp, nhờ vào hàm mã hóa được sử dụng để tạo ví. Để hiểu rõ hơn, việc vô tình khám phá ra cùng một cụm từ mật khẩu của bạn cũng giống như việc đoán ra 1 số "đúng" giữa 1 và $2^256$, gần như tương đương với việc tìm ra nguyên tử "đúng" trong Vũ trụ. Tuy nhiên, nếu bạn không hài lòng với bảo mật mặc định này, bạn luôn có thể nâng cao nó bằng cách thêm một [cụm mật khẩu](https://planb.academy/resources/glossary/passphrase-bip39) (một từ bổ sung) vào ví Bitcoin của mình.
 
 
 ![image](assets/vi/028.webp)
@@ -521,7 +521,7 @@ Trên thực tế không có câu trả lời hay giải pháp chung nào, vì v
 Dưới đây là định nghĩa một số cấp độ bảo mật:
 
 
-- **Cấp độ 0**, bạn sử dụng cái gọi là "dịch vụ lưu ký" mà bạn không phải là người duy nhất nắm giữ bitcoin của mình. Hãy lưu ý rằng bên thứ ba đáng tin cậy này có thể hạn chế quyền truy cập của bạn vào tiền của bạn bất kỳ lúc nào. Trong trường hợp này, mức độ chủ quyền về tài chính của bạn tương tự như có tài khoản trong hệ thống ngân hàng truyền thống.
+- **Cấp độ 0**, bạn sử dụng cái gọi là "[dịch vụ lưu ký](https://planb.academy/resources/glossary/custody)" mà bạn không phải là người duy nhất nắm giữ bitcoin của mình. Hãy lưu ý rằng bên thứ ba đáng tin cậy này có thể hạn chế quyền truy cập của bạn vào tiền của bạn bất kỳ lúc nào. Trong trường hợp này, mức độ chủ quyền về tài chính của bạn tương tự như có tài khoản trong hệ thống ngân hàng truyền thống.
 
 ![image](assets/vi/030.webp)
 
@@ -532,7 +532,7 @@ Ví dụ, bạn có thể sử dụng Sparrow Wallet như một ví nóng:
 
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-- **Cấp độ 2**, bạn sử dụng ví vật lý và bạn đã bảo mật danh sách 12/24 từ của mình. Nó thường được gọi là "Ví lạnh" vì khóa của bạn được lưu trữ trên thiết bị không được kết nối với internet. Trong trường hợp này, bạn sẽ luôn cần phải ký mọi giao dịch bằng thiết bị của mình, điều này khiến tiền của bạn khó truy cập hơn hàng ngày.
+- **Cấp độ 2**, bạn sử dụng ví vật lý và bạn đã bảo mật danh sách 12/24 từ của mình. Nó thường được gọi là "[Ví lạnh](https://planb.academy/resources/glossary/cold-wallet)" vì khóa của bạn được lưu trữ trên thiết bị không được kết nối với internet. Trong trường hợp này, bạn sẽ luôn cần phải ký mọi giao dịch bằng thiết bị của mình, điều này khiến tiền của bạn khó truy cập hơn hàng ngày.
 
 Ví dụ, bạn có thể sử dụng Ledger, Satochip hoặc Tapsigner:
 
@@ -550,7 +550,7 @@ https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 ![image](assets/vi/032.webp)
 
 
-- **Cấp độ 4**, bạn sử dụng một bộ ví để tạo ví "đa chữ ký", nghĩa là cần nhiều chữ ký để thực hiện giao dịch. Trong trường hợp này, hãy lưu ý rằng mỗi phần của đa chữ ký phải được lưu trữ ở các vị trí khác nhau. Cách tiếp cận này thường được xem là cách sử dụng Bitcoin nâng cao, chủ yếu để quản lý số lượng lớn và cho mục đích của công ty.
+- **Cấp độ 4**, bạn sử dụng một bộ ví để tạo ví "[đa chữ ký](https://planb.academy/resources/glossary/multisig)", nghĩa là cần nhiều chữ ký để thực hiện giao dịch. Trong trường hợp này, hãy lưu ý rằng mỗi phần của đa chữ ký phải được lưu trữ ở các vị trí khác nhau. Cách tiếp cận này thường được xem là cách sử dụng Bitcoin nâng cao, chủ yếu để quản lý số lượng lớn và cho mục đích của công ty.
 
 ![image](assets/vi/033.webp)
 
@@ -676,7 +676,7 @@ Sáng kiến này không tạo ra sự nhiệt tình ngay lập tức, có lẽ 
 
 ![image](assets/vi/039.webp)
 
-Vào ngày 3 tháng 1 năm 2009, Satoshi chính thức triển khai mạng lưới Bitcoin bằng cách tạo ra khối đầu tiên, còn được gọi là "Genesis Block", đánh dấu sự ra mắt của chuỗi khối dữ liệu Bitcoin. Khối này chứa một thông điệp sứ mệnh của Bitcoin: "03/01/2009 Tổng thống đang trên bờ vực cứu trợ lần thứ hai cho các ngân hàng."
+Vào ngày 3 tháng 1 năm 2009, Satoshi chính thức triển khai mạng lưới Bitcoin bằng cách tạo ra khối đầu tiên, còn được gọi là "[Genesis Block](https://planb.academy/resources/glossary/genesis-block)", đánh dấu sự ra mắt của chuỗi khối dữ liệu Bitcoin. Khối này chứa một thông điệp sứ mệnh của Bitcoin: "03/01/2009 Tổng thống đang trên bờ vực cứu trợ lần thứ hai cho các ngân hàng."
 
 ![image](assets/vi/040.webp)
 
@@ -730,11 +730,11 @@ Cụ thể hơn, khi Alice mở ví và nhấn "receive", một mã QR hoặc m�
 
 Bob thực hiện giao dịch bằng cách mở ví Bitcoin của mình và nhấn "gửi". Tiếp đó, anh ta sao chép và cắt dán địa chỉ Bitcoin của Alice vào trường bắt buộc, thêm số tiền anh ta muốn gửi và quyết định phí giao dịch - Phí đóng vai trò là động lực để thợ đào đưa giao dịch vào khối tiếp theo. Trên thực tế, phí Bob trả càng cao thì khả năng giao dịch được đưa vào khối tiếp theo được thêm vào chuỗi khối (Blockchain), tức là sổ cái công khai và không thể thay đổi ghi lại tất cả các giao dịch Bitcoin càng cao.
 
-Để hoàn tất giao dịch, Bob phải ký bằng khóa riêng của mình để xác minh rằng anh ta là chủ sở hữu của số bitcoin mà anh ta muốn chuyển. Bước này thường tự động trên ví nóng hoặc dưới dạng là bước xác nhận trên ví vật lý (ví lạnh) của bạn: "Bạn có chắc chắn muốn gửi X đến Y không? Có hoặc không".
+Để hoàn tất giao dịch, Bob phải ký bằng khóa riêng của mình để xác minh rằng anh ta là chủ sở hữu của số bitcoin mà anh ta muốn chuyển. Bước này thường tự động trên ví nóng hoặc dưới dạng là bước [xác nhận](https://planb.academy/resources/glossary/confirmation) trên ví vật lý (ví lạnh) của bạn: "Bạn có chắc chắn muốn gửi X đến Y không? Có hoặc không".
 
 ![image](assets/vi/045.webp)
 
-**Tại sao phải trả phí?** Phí là yếu tố cần thiết để tạo ra một thị trường tự do cho việc đưa các giao dịch vào các khối. Trên thực tế, một khối có kích thước là 1 MB (đã được mở rộng lên 4 MB với phiên bản Segwit đã cập nhật), do đó, số lượng giao dịch có thể được "chèn" vào một khối bị giới hạn ở một vài nghìn giao dịch trên mỗi khối. Kích thước của một giao dịch phụ thuộc vào độ phức tạp của nó. Vì vậy, các giao dịch phức tạp hơn thường phải chịu phí cao hơn.
+**Tại sao phải trả phí?** Phí là yếu tố cần thiết để tạo ra một thị trường tự do cho việc đưa các giao dịch vào các khối. Trên thực tế, một khối có kích thước là 1 MB (đã được mở rộng lên 4 MB với phiên bản [Segwit](https://planb.academy/resources/glossary/segwit) đã cập nhật), do đó, số lượng giao dịch có thể được "chèn" vào một khối bị giới hạn ở một vài nghìn giao dịch trên mỗi khối. Kích thước của một giao dịch phụ thuộc vào độ phức tạp của nó. Vì vậy, các giao dịch phức tạp hơn thường phải chịu phí cao hơn.
 
 ### Bước 2: Giao dịch được lan truyền qua các máy chủ
 
@@ -742,15 +742,15 @@ Bob thực hiện giao dịch bằng cách mở ví Bitcoin của mình và nh�
 
 ![image](assets/vi/046.webp)
 
-Tại thời điểm này, mặc dù giao dịch này được mọi người biết đến (thông qua một công cụ gọi là Mempool), nhưng nó không được xem là đã xác nhận cho đến khi nó được chèn vào một khối bởi một thợ đào, đây là người duy nhất xác thực các giao dịch bằng cách đưa chúng vào chuỗi khối dữ liệu.
+Tại thời điểm này, mặc dù giao dịch này được mọi người biết đến (thông qua một công cụ gọi là [Mempool](https://planb.academy/resources/glossary/mempool)), nhưng nó không được xem là đã xác nhận cho đến khi nó được chèn vào một khối bởi một thợ đào, đây là người duy nhất xác thực các giao dịch bằng cách đưa chúng vào chuỗi khối dữ liệu.
 
-Trên thực tế, thợ đào có vai trò thu thập các giao dịch hợp lệ và chưa được xác nhận để tập hợp chúng thành một khối. Nói một cách ngắn gọn, họ phải giải đáp một mật mã, và quá trình này được xem là "bằng chứng công việc" ([proof of work](https://planb.academy/resources/glossary/proof-of-work)) để khối của họ trở thành khối tiếp theo trong chuỗi khối Bitcoin.
+Trên thực tế, thợ đào có vai trò thu thập các giao dịch hợp lệ và chưa được xác nhận để tập hợp chúng thành một khối. Nói một cách ngắn gọn, họ phải giải đáp một mật mã, và quá trình này được xem là "bằng chứng công việc" (proof of work) để khối của họ trở thành khối tiếp theo trong chuỗi khối Bitcoin.
 
 ![image](assets/vi/047.webp)
 
 ### Bước 3: Giao dịch được thợ đào khai thác trong một khối.
 
-Hệ thống quy trình minh chứng công việc - [proof of work](https://planb.academy/resources/glossary/proof-of-work) yêu cầu phải tìm một "mã hóa" hợp lệ cho khối đang xét: hãy nghĩ về nó như một dấu vân tay độc nhất của khối dữ liệu, bao gồm 256 ký tự. Tính hợp lệ của mã hóa này phụ thuộc vào độ khó của mạng Bitcoin (chúng ta sẽ đi sâu hơn vào chi tiết sau). Trong ví dụ này, cho rằng một thợ đào đã tìm thấy một khối dữ liệu hợp lệ và giao dịch của Bob với Alice được chứa trong khối này. Tiếp đến, khối dữ liệu hợp lệ mới này được thêm vào chuỗi khối (Blockchain), sổ cái chung cho tất cả người sử dụng Bitcoin.
+Hệ thống quy trình minh chứng công việc - proof of work yêu cầu phải tìm một "mã hóa" hợp lệ cho khối đang xét: hãy nghĩ về nó như một dấu vân tay độc nhất của khối dữ liệu, bao gồm 256 ký tự. Tính hợp lệ của mã hóa này phụ thuộc vào độ khó của mạng Bitcoin (chúng ta sẽ đi sâu hơn vào chi tiết sau). Trong ví dụ này, cho rằng một thợ đào đã tìm thấy một khối dữ liệu hợp lệ và giao dịch của Bob với Alice được chứa trong khối này. Tiếp đến, khối dữ liệu hợp lệ mới này được thêm vào chuỗi khối (Blockchain), sổ cái chung cho tất cả người sử dụng Bitcoin.
 
 ![image](assets/vi/048.webp)
 
@@ -828,19 +828,19 @@ Sau chiến thắng này, các máy chủ đã kích hoạt bản cập nhật c
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Thợ đào bảo mật mạng lưới và thêm giao dịch vào các khối. Họ sử dụng điện thông qua máy [ASIC](https://planb.academy/resources/glossary/asic) để giải quyết bằng chứng công việc của Bitcoin.**
+**Thợ đào bảo mật mạng lưới và thêm giao dịch vào các khối. Họ sử dụng điện thông qua máy ASIC để giải quyết bằng chứng công việc của Bitcoin.**
 
 ![image](assets/vi/054.webp)
 
-### Giải thích về Bằng chứng công việc - "[proof of work](https://planb.academy/resources/glossary/proof-of-work)" (POW)
+### Giải thích về Bằng chứng công việc - "proof of work" (POW)
 
-Bằng chứng công việc - "[proof of work](https://planb.academy/resources/glossary/proof-of-work)" (POW) là cơ chế đồng thuận bảo mật của giao thức Bitcoin. Đây là nền tảng của mọi thứ và đóng vai trò quan trọng trong lý thuyết trò chơi của Bitcoin.
+Bằng chứng công việc - "proof of work" (POW) là cơ chế đồng thuận bảo mật của giao thức Bitcoin. Đây là nền tảng của mọi thứ và đóng vai trò quan trọng trong lý thuyết trò chơi của Bitcoin.
 
 Để giải thích cách thức hoạt động, chúng ta hãy hình dung một cuộc xổ số phổ thông mà mọi người đều có thể tham gia. Mục tiêu là tìm ra một con số cụ thể để cho phép người chiến thắng ký một khối hợp lệ và nhận được phần thưởng bằng Bitcoin. Con số này rất dễ xác minh bằng hàm mã hóa SHA-256, nhưng khó tìm: những người tham gia khai thác (thợ đào) sẽ thử hàng tỷ khả năng, chẳng hạn như 1, 52, 2648, 26874615, 15344854131318631, v.v., cho đến khi họ tìm ra đúng.
 
 Nếu số đã chọn là đúng: Trúng số! Nếu không, quá trình tìm kiếm sẽ tiếp tục.
 
-Để tối ưu hóa số lần thử, họ sẽ sử dụng các máy cụ thể gọi là ASIC, có vai trò duy nhất là tính toán hàng tỷ khả năng mỗi giây (tổng số lần thử được gọi là "HashRate"). Để vận hành các máy này, phải tiêu thụ một lượng điện lớn. Do đó, POW chuyển đổi năng lượng thành tiền tệ, kết nối thế giới thực và thế giới kỹ thuật số để tạo ra loại tiền tệ đầu tiên dựa trên năng lượng.
+Để tối ưu hóa số lần thử, họ sẽ sử dụng các máy cụ thể gọi là ASIC, có vai trò duy nhất là tính toán hàng tỷ khả năng mỗi giây (tổng số lần thử được gọi là "[HashRate](https://planb.academy/resources/glossary/hashrate)"). Để vận hành các máy này, phải tiêu thụ một lượng điện lớn. Do đó, POW chuyển đổi năng lượng thành tiền tệ, kết nối thế giới thực và thế giới kỹ thuật số để tạo ra loại tiền tệ đầu tiên dựa trên năng lượng.
 
 Các máy hoạt động liên tục và sau trung bình 10 phút, một người chiến thắng sẽ xuất hiện: người tham gia này đã tìm thấy thành công hàm mã hóa chính xác nằm dưới ngưỡng độ khó. Người thắng cuối cùng và duy nhất sau đó sẽ ký mốc thời gian trên khối mới của máy chủ, thêm nó vào chuỗi khối. Họ nhận được phần thưởng của mình và quay lại để thử vận may khai thác khối tiếp theo. Quá trình này đã diễn ra trong hơn mười năm, với người chiến thắng xác nhận các giao dịch Bitcoin sau mỗi 10 phút đồng thời bảo mật các giao dịch trước đó, do đó làm cho chuỗi khối Bitcoin mạnh mẽ và an toàn hơn.
 
@@ -854,7 +854,7 @@ Trong nhiều năm, thợ đào đã trang bị cho mình phần cứng máy tí
 
 ![image](assets/vi/056.webp)
 
-Tỉ suất mã hóa (Hashrate) của mạng Bitcoin biểu thị số lần thử được thực hiện mỗi giây để tìm khối tiếp theo. Ngày nay, nó thậm chí còn vượt quá 500 TH/s, tức là 500.000 tỷ lần thử mỗi giây! Tỉ suất mã hóa (Hashrate) toàn cầu càng cao, thì kẻ gian càng khó độc quyền các nguồn lực cần thiết để có được phần lớn sức mạnh khai thác và việc chi tiêu khống tiền khó xả ra (vấn đề chi tiêu khống). Do đó về mặt kinh tế, việc tuân thủ sẽ khả thi hơn so với việc chống lại các quy tắc của giao thức Bitcoin.
+Tỉ suất mã hóa (Hashrate) của mạng Bitcoin biểu thị số lần thử được thực hiện mỗi giây để tìm khối tiếp theo. Ngày nay, nó thậm chí còn vượt quá 500 TH/s, tức là 500.000 tỷ lần thử mỗi giây! Tỉ suất mã hóa (Hashrate) toàn cầu càng cao, thì kẻ gian càng khó độc quyền các nguồn lực cần thiết để có được phần lớn sức mạnh khai thác và việc [chi tiêu khống](https://planb.academy/resources/glossary/double-spending-attack) tiền khó xả ra (vấn đề chi tiêu khống). Do đó về mặt kinh tế, việc tuân thủ sẽ khả thi hơn so với việc chống lại các quy tắc của giao thức Bitcoin.
 
 ![image](assets/vi/057.webp)
 
@@ -862,7 +862,7 @@ Tỉ suất mã hóa (Hashrate) của mạng Bitcoin biểu thị số lần th�
 
 Tiêu đề khối chứa một số yếu tố như thời gian, độ khó mục tiêu, số khối cuối cùng, phiên bản đã sử dụng và Merkle Root của các giao dịch trước đó.
 
-**Giao dịch coinbase** luôn là giao dịch đầu tiên được đưa vào khối: giao dịch này chứa phần thưởng của thợ đào khi thực hiện công việc của xác thực công việc. Sau đó là các giao dịch đã được xác thực. Thợ đào sẽ chọn đưa các giao dịch mang lại cho họ nhiều lợi nhuận nhất, cụ thể là các giao dịch có quy mô nhỏ với mức phí tối đa.
+**Giao dịch [coinbase](https://planb.academy/resources/glossary/coinbase-transaction)** luôn là giao dịch đầu tiên được đưa vào khối: giao dịch này chứa phần thưởng của thợ đào khi thực hiện công việc của xác thực công việc. Sau đó là các giao dịch đã được xác thực. Thợ đào sẽ chọn đưa các giao dịch mang lại cho họ nhiều lợi nhuận nhất, cụ thể là các giao dịch có quy mô nhỏ với mức phí tối đa.
 
 ### Phần thưởng cho Người khai thác (thợ đào)
 
@@ -882,11 +882,11 @@ Phương pháp khen thưởng thứ hai được xác định theo số tiền m
 
 ![image](assets/vi/059.webp)
 
-Để ổn định mô hình kinh doanh của mình, dựa trên phần thưởng họ nhận được cho mỗi khối hợp lệ, thợ đào thường tạo các nhóm thông qua "nhóm khai thác", nơi họ tập hợp các tài nguyên của mình.
+Để ổn định mô hình kinh doanh của mình, dựa trên phần thưởng họ nhận được cho mỗi khối hợp lệ, thợ đào thường tạo các nhóm thông qua "[nhóm khai thác](https://planb.academy/resources/glossary/pool-mining)", nơi họ tập hợp các tài nguyên của mình.
 
 ### Tại sao phải bận tâm về tất cả những điều này?
 
-Tóm lại, sự đổi mới của Bitcoin là đề xuất một giải pháp cho vấn đề chi tiêu khống (2 lần) thông qua việc sử dụng chuỗi khối (Blockchain) dựa trên bằng chứng công việc ([proof of work](https://planb.academy/resources/glossary/proof-of-work)) với tỷ lệ độ khó khai thác thả nổi. Trong thế giới kỹ thuật số, khái niệm sở hữu khác với khái niệm sở hữu trong thế giới vật lý. Trên thực tế, trong thế giới kỹ thuật số, mọi thứ đều có thể được sao chép và cắt dán, điều này tạo ra rủi ro chi tiêu khống các tài sản kỹ thuật số có giá trị. Các trung gian đáng tin cậy, chẳng hạn như ngân hàng, đã được tạo ra để giải quyết vấn đề công nghệ này và đảm bảo rằng khi một tài sản được chuyển giao, nó không còn thuộc về người gửi nữa.
+Tóm lại, sự đổi mới của Bitcoin là đề xuất một giải pháp cho vấn đề chi tiêu khống (2 lần) thông qua việc sử dụng chuỗi khối (Blockchain) dựa trên bằng chứng công việc (proof of work) với tỷ lệ độ khó khai thác thả nổi. Trong thế giới kỹ thuật số, khái niệm sở hữu khác với khái niệm sở hữu trong thế giới vật lý. Trên thực tế, trong thế giới kỹ thuật số, mọi thứ đều có thể được sao chép và cắt dán, điều này tạo ra rủi ro chi tiêu khống các tài sản kỹ thuật số có giá trị. Các trung gian đáng tin cậy, chẳng hạn như ngân hàng, đã được tạo ra để giải quyết vấn đề công nghệ này và đảm bảo rằng khi một tài sản được chuyển giao, nó không còn thuộc về người gửi nữa.
 
 Nhưng làm sao có thể thực hiện được điều này mà không có một bên trung gian đáng tin cậy? Vấn đề này được mô tả rõ qua thuyết "nghịch lý Byzantine", một vấn đề về việc phối hợp thông tin trong một hệ thống mà không thể tin tưởng nhiều bên khác nhau. Trong bài toán Byzantine, một nhóm các vị tướng phải phối hợp tấn công một thành phố, nhưng trong số đó có thể là những kẻ phản bội đang cố gắng phá vỡ kế hoạch. Thách thức đưa ra là các vị tướng trung thành phải đạt được sự đồng thuận về việc nên tấn công hay rút lui, mặc dù nhận được những thông điệp có khả năng gây hiềm khích và hiểu lầm từ những kẻ phản bội.
 
@@ -1005,7 +1005,7 @@ Sau đó, vào năm 2020, thị trường lại trải qua một bong bóng đ�
 
 ### Bitcoin và sự biến động
 
-Dựa trên các chu kỳ trước, có vẻ như sự lặp lại của các chu kỳ kinh tế Bitcoin tương đương với khoảng thời gian giữa hai lần điều chỉnh giảm số lượng sản xuất (halving), có lẽ là do sự kiện halving đóng vai trò kích hoạt bằng cách cắt giảm một nửa lượng bitcoin mới được phát hành.
+Dựa trên các chu kỳ trước, có vẻ như sự lặp lại của các chu kỳ kinh tế Bitcoin tương đương với khoảng thời gian giữa hai lần điều chỉnh giảm số lượng sản xuất ([halving](https://planb.academy/resources/glossary/halving)), có lẽ là do sự kiện halving đóng vai trò kích hoạt bằng cách cắt giảm một nửa lượng bitcoin mới được phát hành.
 
 Những biến động đáng kể này đã khiến Bitcoin trở thành một tài sản có tính biến động cao, thường dẫn đến tổn thất đáng kể cho người sử dụng. Mặc dù giá có thể giảm 10%, 20% hoặc thậm chí 50% trong vài ngày, nhưng điều quan trọng là phải hiểu rằng bản thân giao thức Bitcoin không bị ảnh hưởng bởi những thay đổi về giá.
 
@@ -1131,10 +1131,10 @@ Trong trường hợp này, bạn nên cẩn thận và kiểm soát cảm xúc 
 
 ### Chúng ta nên mua bitcoin từ ai?
 
-Có một số cách để có được bitcoin, mỗi cách đều phải tuân theo một bộ quy định riêng có thể khác nhau tùy theo khu vực pháp lý. Một số sàn yêu cầu xác minh danh tính (KYC), trong khi một số khác thì không. Do đó, điều quan trọng là phải hiểu các quy định liên quan đến từng sàn.
+Có một số cách để có được bitcoin, mỗi cách đều phải tuân theo một bộ quy định riêng có thể khác nhau tùy theo khu vực pháp lý. Một số sàn yêu cầu xác minh danh tính ([KYC](https://planb.academy/resources/glossary/kyc-know-your-customer)), trong khi một số khác thì không. Do đó, điều quan trọng là phải hiểu các quy định liên quan đến từng sàn.
 
 
-- Sàn hỗ trợ mua nhỏ đều (DCA)
+- Sàn hỗ trợ [mua nhỏ đều (DCA)](https://planb.academy/resources/glossary/dollar-cost-averaging-dca)
 
 Như đã giới thiệu ở trên, một phương pháp phổ biến để tích lũy bitcoin là mua nhỏ đều (DCA), bao gồm việc mua thường xuyên các khoản tiền nhỏ. Một số sàn cung cấp dịch vụ này, chẳng hạn như các sàn được liệt kê trên [trang chuyên đề](https://planb.academy/tutorials/exchange) của chúng tôi. Ngoài tính đơn giản của việc thiết lập DCA, việc rút tiền vào ví của bạn thường là tự động, nghĩa là bạn sẽ luôn kiểm soát được tài sản của mình.
 
@@ -1219,7 +1219,7 @@ Giờ đây khi bạn đã nắm được các nền tảng cơ bản của giao
 
 ### Blockchain không thể làm mọi thứ
 
-Blockchain Bitcoin được thiết kế để có thể được xác minh bởi càng nhiều người càng tốt, không cần cấp phép và không cần tin cậy. Yêu cầu này kéo theo những giới hạn mang tính cấu trúc: blockchain không thể xử lý số lượng giao dịch không giới hạn, bởi các khối phải có kích thước hợp lý để các nút độc lập có thể tải xuống, lưu trữ và xác minh, mà không cần đầu tư vào phần cứng quá đắt đỏ. Đây chính là sự đánh đổi thường được tóm gọn trong “bộ ba bất khả thi”: phi tập trung, bảo mật và khả năng mở rộng. Một hệ thống dựa trên blockchain không thể tối đa hóa đồng thời cả ba đặc tính này. Bitcoin ưu tiên tính phi tập trung và bảo mật, điều này tự nhiên giới hạn thông lượng các giao dịch onchain có thể thực hiện.
+Blockchain Bitcoin được thiết kế để có thể được xác minh bởi càng nhiều người càng tốt, không cần cấp phép và không cần tin cậy. Yêu cầu này kéo theo những giới hạn mang tính cấu trúc: blockchain không thể xử lý số lượng giao dịch không giới hạn, bởi các khối phải có kích thước hợp lý để các nút độc lập có thể tải xuống, lưu trữ và xác minh, mà không cần đầu tư vào phần cứng quá đắt đỏ. Đây chính là sự đánh đổi thường được tóm gọn trong “bộ ba bất khả thi”: phi tập trung, bảo mật và khả năng mở rộng. Một hệ thống dựa trên blockchain không thể tối đa hóa đồng thời cả ba đặc tính này. Bitcoin ưu tiên tính phi tập trung và bảo mật, điều này tự nhiên giới hạn thông lượng các giao dịch [onchain](https://planb.academy/resources/glossary/onchain) có thể thực hiện.
 
 ![image](assets/vi/081.webp)
 
@@ -1237,7 +1237,7 @@ Lightning Network chính là câu trả lời cho những vấn đề này. Ý t
 
 ### Các kênh thanh toán được neo vào Bitcoin
 
-Lightning dựa trên các kênh thanh toán hai chiều. Một kênh là một mối quan hệ kỹ thuật giữa hai bên tham gia, cho phép họ trao đổi sats theo hình thức offchain, tức là không cần ghi từng khoản thanh toán lên blockchain.
+Lightning dựa trên các [kênh thanh toán](https://planb.academy/resources/glossary/payment-channel) hai chiều. Một kênh là một mối quan hệ kỹ thuật giữa hai bên tham gia, cho phép họ trao đổi [sats](https://planb.academy/resources/glossary/satoshi-sat) theo hình thức [offchain](https://planb.academy/resources/glossary/offchain), tức là không cần ghi từng khoản thanh toán lên blockchain.
 
 Từ góc nhìn của Bitcoin (onchain), việc mở một kênh tương đương với việc khóa các khoản tiền trong một giao dịch đặc biệt. Có thể xem đây như một hình thức ký quỹ: các khoản tiền được khóa sao cho chỉ một việc đóng kênh hợp lệ mới có thể phân phối lại chúng.
 
@@ -1263,7 +1263,7 @@ Tại đây xuất hiện một khái niệm quan trọng của Lightning: tính
 
 ### Định tuyến một khoản thanh toán mà không cần tin cậy các bên trung gian
 
-Lightning được thiết kế để cho phép thanh toán thông qua các bên trung gian mà không cần phải tin cậy họ. Để làm điều này, giao thức sử dụng các hợp đồng thông minh gọi là HTLC (*Hashed Time-Locked Contracts*). Không đi vào mọi chi tiết, có thể ghi nhớ cơ chế chung như sau:
+Lightning được thiết kế để cho phép thanh toán thông qua các bên trung gian mà không cần phải tin cậy họ. Để làm điều này, giao thức sử dụng các hợp đồng thông minh gọi là [HTLC](https://planb.academy/resources/glossary/htlc) (*Hashed Time-Locked Contracts*). Không đi vào mọi chi tiết, có thể ghi nhớ cơ chế chung như sau:
 * khoản thanh toán được điều kiện hóa bởi việc tiết lộ một bí mật (một preimage);
 * nếu người nhận cuối cùng tiết lộ bí mật này, họ sẽ nhận được tiền, và các bên trung gian sau đó cũng có thể thu hồi phần của mình;
 * nếu thanh toán thất bại, các mốc thời gian hết hạn và mỗi bên thu hồi lại tiền của mình.
@@ -1344,7 +1344,7 @@ Như đã thấy trong các chương trước, Bitcoin được thiết kế nh�
 
 Bitcoin không chỉ phát triển bằng cách thay đổi giao thức cơ sở của mình. Nó còn phát triển bằng cách xây dựng bên trên, với những giải pháp đưa ra các đánh đổi khác nhau tùy theo mục tiêu. Một số tập trung vào khả năng mở rộng thanh toán, số khác vào khả năng lập trình (theo nghĩa rộng) và phát hành tài sản, và một số khác cố gắng kết hợp cả hai.
 
-Trong chương này, chúng tôi giới thiệu bốn giao thức quan trọng, mỗi giao thức mang lại những khả năng mới trên Bitcoin: sidechain (đặc biệt là Liquid), Ark, RGB và Taproot Assets.
+Trong chương này, chúng tôi giới thiệu bốn giao thức quan trọng, mỗi giao thức mang lại những khả năng mới trên Bitcoin: [sidechain](https://planb.academy/resources/glossary/sidechain) (đặc biệt là Liquid), Ark, RGB và Taproot Assets.
 
 ### Sidechain: các blockchain song song được kết nối với Bitcoin
 
@@ -1364,7 +1364,7 @@ https://planb.academy/courses/d3ca6943-b22c-4e50-b62d-9431460525bc
 
 Ark chỉ một tập hợp các đề xuất và triển khai nhằm cải thiện khả năng mở rộng của Bitcoin bằng cách gom nhiều thao tác của người dùng vào một số lượng nhỏ các giao dịch Bitcoin. Ý tưởng khá đơn giản: thay vì tạo một giao dịch onchain cho mỗi người dùng, ta tạo một giao dịch onchain đại diện cho một lô, rồi chủ yếu cập nhật quyền của từng người ngoài chuỗi cho đến khi muốn thanh toán dứt điểm trên Bitcoin.
 
-Ý tưởng giao thức tầng hai này được Burak công bố vào tháng 5 năm 2023. Giống như Lightning Network, Ark là một hệ thống triển khai bên trên chuỗi chính của Bitcoin. Nó cho phép thực hiện các khoản thanh toán bitcoin ngoài chuỗi một cách nhanh chóng, ẩn danh và với chi phí thấp. So với Lightning, Ark không yêu cầu phải có thanh khoản vào để nhận thanh toán, điều này cải thiện đáng kể trải nghiệm người dùng. Ngoài ra, nó còn cung cấp mức độ riêng tư tiệm cận với các giao dịch coinjoin. Ark cũng có thể không tương tác nếu các covenant được thêm vào Bitcoin.
+Ý tưởng giao thức tầng hai này được Burak công bố vào tháng 5 năm 2023. Giống như Lightning Network, Ark là một hệ thống triển khai bên trên chuỗi chính của Bitcoin. Nó cho phép thực hiện các khoản thanh toán bitcoin ngoài chuỗi một cách nhanh chóng, ẩn danh và với chi phí thấp. So với Lightning, Ark không yêu cầu phải có thanh khoản vào để nhận thanh toán, điều này cải thiện đáng kể trải nghiệm người dùng. Ngoài ra, nó còn cung cấp mức độ riêng tư tiệm cận với các giao dịch [coinjoin](https://planb.academy/resources/glossary/coinjoin). Ark cũng có thể không tương tác nếu các covenant được thêm vào Bitcoin.
 
 Burak thường chỉ trích khả năng mở rộng của Lightning do sự phụ thuộc của nó vào chuỗi chính và cho rằng Ark về mặt lý thuyết có thể tích hợp toàn bộ dân số thế giới trong mô hình self-custody. Dù Ark có thể được xem là một giao thức cạnh tranh với Lightning Network, trên thực tế hai giao thức này có thể cùng tồn tại và thậm chí bổ trợ cho nhau.
 

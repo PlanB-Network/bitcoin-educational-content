@@ -1,0 +1,14 @@
+id: d0b715b5-72f5-4c5c-b4bc-9d0b28a78cc7
+name: bitcoin fr
+language: fr
+links:
+  channel: https://www.youtube.com/@Bitcoin-fr
+  trailer: https://youtu.be/T2ApwB_T93Y
+description: |
+  Chaîne Youtube du site bitcoin.fr
+tags:
+  - adoption
+  - easy-explain
+  - use-case
+contributor_names:
+  - PaoloFoti

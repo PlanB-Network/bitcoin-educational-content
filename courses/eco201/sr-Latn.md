@@ -76,7 +76,7 @@ A šta ako ključ za razumevanje današnje ekonomije leži u teoriji staroj neko
 ### Kako se Stvara Novac
 
 
-U našem današnjem monetarnom sistemu, novac se prvenstveno stvara kroz bankarsku praksu poznatu kao "frakcionalno rezervno bankarstvo." Ovaj termin u suštini znači da banke nisu obavezne da drže onoliko rezervi koliko primaju u depozitima. Shodno tome, one mogu stvoriti novu kupovnu moć kada odobravaju kredite i, obrnuto, smanjiti kupovnu moć kada klijenti otplaćuju svoje kredite.
+U našem današnjem monetarnom sistemu, novac se prvenstveno stvara kroz bankarsku praksu poznatu kao "[frakcionalno rezervno bankarstvo](https://planb.academy/resources/glossary/fractional-reserves)." Ovaj termin u suštini znači da banke nisu obavezne da drže onoliko rezervi koliko primaju u depozitima. Shodno tome, one mogu stvoriti novu kupovnu moć kada odobravaju kredite i, obrnuto, smanjiti kupovnu moć kada klijenti otplaćuju svoje kredite.
 
 
 Na primer, ako biste se obratili svojoj lokalnoj banci da obezbedite hipoteku za kupovinu kuće, novac koji vam banka pozajmljuje bi nastao kao knjigovodstveni unos. U računovodstvu, obično predstavljamo neto bogatstvo pojedinca bilansom stanja, koji ima dve strane: stranu aktive, koja uključuje svu imovinu, finansijske ugovore, zalihe ili druge oblike bogatstva u vlasništvu, i stranu pasive, koja pokazuje izvor sredstava korišćenih za stvaranje kapitala navedenog na strani aktive. Razlika između aktive i pasive naziva se "kapital" i može se smatrati neto bogatstvom entiteta.
@@ -100,7 +100,7 @@ Slika 1: Kreiranje novca kao knjigovodstvenog unosa
 > Henry Ford
 
 
-Ovaj proces omogućava bankama da evidentiraju sve transakcije, uključujući elektronske prenose, kupovine kreditnim karticama i čekove, tokom određenog perioda (obično nedelju ili mesec). Zatim međusobno poravnavaju ove transakcije koristeći bankarske rezerve, koje su drugi oblik fiat valute koju javnost nikada ne koristi. Bankarske rezerve se drže u centralnoj banci na posebnom računu dostupnom samo licenciranim bankama i finansijskim institucijama.
+Ovaj proces omogućava bankama da evidentiraju sve transakcije, uključujući elektronske prenose, kupovine kreditnim karticama i čekove, tokom određenog perioda (obično nedelju ili mesec). Zatim međusobno poravnavaju ove transakcije koristeći bankarske rezerve, koje su drugi oblik [fiat valute](https://planb.academy/resources/glossary/fiat) koju javnost nikada ne koristi. Bankarske rezerve se drže u centralnoj banci na posebnom računu dostupnom samo licenciranim bankama i finansijskim institucijama.
 
 
 ### Nestabilnost frakcionalnih rezervi u bankarstvu i zajmodavac poslednjeg utočišta
@@ -175,7 +175,7 @@ Još jedna nenamerna posledica ZIRP-a je da podstiče vlade da se upuste u obimn
 Slika 6: Javni i privatni dug kao % BDP-a (Svet, ponderisano prema BDP-u po zemlji) / Izvor MMF
 
 
-Sa inflacijom koja raste zbog značajnog stvaranja novca kao odgovora na zatvaranja povezana sa COVID-om, centralni bankari sada podižu kamatne stope u pokušaju da obuzdaju inflaciju. Međutim, ovo predstavlja značajan izazov za ceo sistem. Banke su više zadužene nego ikada, vlade nose istorijski visoke nivoe duga, ekonomski rast je spor, deficiti rastu, a potrošači, koji se bore sa rastućim cenama osnovnih dobara, teško sastavljaju kraj s krajem. Kontrolisanje inflacije bi zahtevalo podizanje stopa na nivo koji bi mogao da dovede vlade do bankrota, dok banke rizikuju da izgube deponente jer pojedinci troše svoje uštede na sve skuplje osnovne potrepštine ili traže utočište u čvrstoj imovini i fondovima novčanog tržišta kako bi se zaštitili od inflacije.
+Sa [inflacijom](https://planb.academy/resources/glossary/inflation) koja raste zbog značajnog stvaranja novca kao odgovora na zatvaranja povezana sa COVID-om, centralni bankari sada podižu kamatne stope u pokušaju da obuzdaju inflaciju. Međutim, ovo predstavlja značajan izazov za ceo sistem. Banke su više zadužene nego ikada, vlade nose istorijski visoke nivoe duga, ekonomski rast je spor, deficiti rastu, a potrošači, koji se bore sa rastućim cenama osnovnih dobara, teško sastavljaju kraj s krajem. Kontrolisanje inflacije bi zahtevalo podizanje stopa na nivo koji bi mogao da dovede vlade do bankrota, dok banke rizikuju da izgube deponente jer pojedinci troše svoje uštede na sve skuplje osnovne potrepštine ili traže utočište u čvrstoj imovini i fondovima novčanog tržišta kako bi se zaštitili od inflacije.
 
 
 ### Zaključak
@@ -190,7 +190,7 @@ Sa inflacijom koja raste zbog značajnog stvaranja novca kao odgovora na zatvara
 U suštini, naš sistem se suočava sa značajnim izazovima, i Bitkoin se pojavljuje kao jedina kredibilna alternativa. Međutim, Bitkoin sam po sebi ne može rešiti probleme unutar našeg monetarnog sistema. Iznad svega, potrebni su nam pojedinci koji razumeju osnovne ekonomske principe među Bitkoin entuzijastima, omogućavajući širu svest i ekonomski zdrav razum da nas vodi dalje od izgradnje još jedne krhke finansijske osnove za našu civilizaciju. Primarni cilj ovog kursa je edukacija novih Bitkoin entuzijasta u zdravim ekonomskim principima.
 
 
-Da bismo postigli ovaj cilj, objasnićemo osnovne principe "Austrijske ekonomije," ekonomske škole mišljenja sa metodološkom tradicijom koja datira iz 16. veka, pružajući uvide u ljudsko delovanje pod ekonomskim ograničenjima. Sa ovim uvodom, sada razumete osnove kreiranja novca i trenutno stanje našeg finansijskog i monetarnog sistema.
+Da bismo postigli ovaj cilj, objasnićemo osnovne principe "[Austrijske ekonomije](https://planb.academy/resources/glossary/austrian-school)," ekonomske škole mišljenja sa metodološkom tradicijom koja datira iz 16. veka, pružajući uvide u ljudsko delovanje pod ekonomskim ograničenjima. Sa ovim uvodom, sada razumete osnove kreiranja novca i trenutno stanje našeg finansijskog i monetarnog sistema.
 
 
 U narednom poglavlju, istražićemo kamen temeljac svake ekonomske škole mišljenja: teoriju vrednosti. Sledeća poglavlja će istražiti novac kao društvenu instituciju, teoriju kapitala i poslovni ciklus, izazov ekonomske kalkulacije, i kratak pregled istorije i metodologije Austrijske škole ekonomije.

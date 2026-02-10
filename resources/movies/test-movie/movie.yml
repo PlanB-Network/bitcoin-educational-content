@@ -1,0 +1,12 @@
+id: da799f29-8d92-42cd-88f6-e9d41fcb792d
+title: Test movie
+author: test author
+publication_year: 2022
+duration: 173
+language: en
+links:
+  platform: https://thisisatest.com
+  trailer: https://thisisatest.com/trailer
+description: |-
+  This is a description 
+  on multiple line

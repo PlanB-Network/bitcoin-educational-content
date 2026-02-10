@@ -187,7 +187,7 @@ Adopsi Bitcoin oleh El Salvador mencerminkan potensinya sebagai alat untuk kebeb
 
 
 
-- Persaingan**: Bitcoin memperkenalkan persaingan ke lanskap keuangan dengan menawarkan alternatif perbankan tradisional, yang memungkinkan warga El Salvador untuk melewati penjaga gerbang keuangan dan memilih layanan yang lebih sesuai dengan kebutuhan mereka.
+- Persaingan**: Bitcoin memperkenalkan persaingan ke lanskap keuangan dengan menawarkan alternatif perbankan tradisional, yang memungkinkan warga El Salvador untuk melewati perantara keuangan dan memilih layanan yang lebih sesuai dengan kebutuhan mereka.
 
 
 
@@ -356,7 +356,7 @@ Bitcoin sering dikritik karena digunakan dalam kegiatan kriminal. Namun, analisi
 ### Privasi dan kesesuaian
 
 
-**Privasi** dan **fungibilitas** adalah fitur penting dari Bitcoin. Privasi melindungi pengguna dalam rezim yang menindas, dan fungibilitas memastikan bahwa setiap Bitcoin setara, terlepas dari sejarahnya. Hal ini menjadikan Bitcoin sebagai bentuk uang yang dapat diandalkan dan adil.
+**Privasi** dan **fungibilitas** adalah fitur penting dari Bitcoin. Privasi melindungi pengguna dalam rezim yang represif, dan fungibilitas memastikan bahwa setiap Bitcoin memiliki nilai yang sama, terlepas dari sejarahnya. Hal ini menjadikan Bitcoin sebagai bentuk uang yang dapat diandalkan dan adil.
 
 
 **Definisi:**
@@ -978,7 +978,7 @@ Skalabilitas telah menjadi masalah yang terus-menerus dalam pengembangan Bitcoin
 #### Masalah terbuka dalam keamanan
 
 
-Mengamankan aset Bitcoin adalah tugas yang kompleks, penuh dengan tantangan. Dompet Hot, yang sering digunakan untuk transaksi sehari-hari, menimbulkan risiko keamanan yang signifikan, terutama bagi mereka yang mengoperasikan node Lightning. Selain itu, perencanaan untuk pewarisan aset Bitcoin masih merupakan proses yang berbelit-belit dan sering kali tidak aman. Kompleksitas langkah-langkah keamanan ini dapat menghalangi pengguna potensial dan mempersulit adopsi secara luas.
+Mengamankan aset Bitcoin adalah tugas yang kompleks, penuh dengan tantangan. Hot Wallet, yang sering digunakan untuk transaksi sehari-hari, menimbulkan risiko keamanan yang signifikan, terutama bagi mereka yang mengoperasikan node Lightning. Selain itu, perencanaan untuk pewarisan aset Bitcoin masih merupakan proses yang berbelit-belit dan sering kali tidak aman. Kompleksitas langkah-langkah keamanan ini dapat menghalangi pengguna potensial dan mempersulit adopsi secara luas.
 
 
 #### Masalah terbuka dalam privasi

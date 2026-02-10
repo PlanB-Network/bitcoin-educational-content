@@ -1,0 +1,9 @@
+id: 0070aea2-a83a-4332-a76f-e0cf3e06f73e
+title: test newsletter
+author: 'author '
+links:
+  - website: https://thisisatest.com
+language: en
+description: |-
+  this is a test on 
+  multiple lines

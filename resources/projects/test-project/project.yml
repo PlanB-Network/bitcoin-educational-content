@@ -1,0 +1,13 @@
+id: 5f774935-4e30-4e8e-a8d4-88e65909f8e7
+name: test project
+category: exchange
+links:
+  github: https://test.com
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: '2026-02-10'
+    urgency: 1
+    contributor_names:
+      - another_test
+    reward: 0

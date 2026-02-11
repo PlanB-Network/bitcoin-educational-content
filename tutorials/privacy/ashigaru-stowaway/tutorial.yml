@@ -35,17 +35,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.44
+    reward: 1.43
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.44
+    reward: 1.43
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.44
+    reward: 1.43
   - language: et
     last_contribution_date:
     urgency: 1
@@ -65,28 +65,28 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.44
+    reward: 3.43
   - language: id
     last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
       - 62maximalist
-    reward: 1.39
+    reward: 1.38
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.44
+    reward: 1.43
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.44
+    reward: 3.43
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.77
+    reward: 2.76
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -106,12 +106,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.44
+    reward: 1.43
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.44
+    reward: 3.43
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -121,12 +121,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.77
+    reward: 2.76
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.44
+    reward: 1.43
   - language: sw
     last_contribution_date:
     urgency: 1
@@ -136,22 +136,22 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.77
+    reward: 2.76
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.44
+    reward: 3.43
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.77
+    reward: 2.76
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.77
+    reward: 2.76
   - language: bg
     last_contribution_date:
     urgency: 1
@@ -161,4 +161,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.77
+    reward: 2.76

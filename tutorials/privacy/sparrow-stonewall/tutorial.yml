@@ -31,7 +31,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.07
+    reward: 2.06
   - language: de
     last_contribution_date:
     urgency: 1
@@ -51,22 +51,22 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.07
+    reward: 2.06
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.07
+    reward: 2.06
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.07
+    reward: 2.06
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.39
+    reward: 3.38
   - language: id
     last_contribution_date: '2025-12-29'
     urgency: 1
@@ -82,27 +82,27 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.39
+    reward: 3.38
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.73
+    reward: 2.72
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.07
+    reward: 2.06
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.07
+    reward: 2.06
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.07
+    reward: 2.06
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -112,17 +112,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.39
+    reward: 3.38
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.07
+    reward: 2.06
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.73
+    reward: 2.72
   - language: sv
     last_contribution_date:
     urgency: 1
@@ -132,34 +132,34 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.07
+    reward: 2.06
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.73
+    reward: 2.72
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.39
+    reward: 3.38
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.73
+    reward: 2.72
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.73
+    reward: 2.72
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.07
+    reward: 2.06
   - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.73
+    reward: 2.72

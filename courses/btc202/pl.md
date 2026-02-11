@@ -304,7 +304,7 @@ Początkowo, gdy Bitcoin został uruchomiony przez Satoshi Nakamoto w 2009 roku,
 
 
 
-Jednak wraz ze stopniową popularyzacją Bitcoin i wzrostem liczby górników, krajobraz konkurencyjny w Mining uległ radykalnej zmianie. Obecnie Mining stał się niezwykle konkurencyjną działalnością, zdominowaną przez graczy przemysłowych wyposażonych w wyspecjalizowaną infrastrukturę. Moc wymagana do wydobycia nowego bloku jest obecnie tak duża, że jest to praktycznie niemożliwe dla indywidualnego użytkownika przy użyciu tylko konwencjonalnego komputera. W rezultacie Mining jest obecnie przeprowadzany głównie przy użyciu wyspecjalizowanych maszyn zwanych ASIC (*Application-Specific Integrated Circuits*). Układy te są zoptymalizowane wyłącznie do uruchamiania podwójnego SHA-256, algorytmu używanego w Mining na Bitcoin.
+Jednak wraz ze stopniową popularyzacją Bitcoin i wzrostem liczby górników, krajobraz konkurencyjny w Mining uległ radykalnej zmianie. Obecnie Mining stał się niezwykle konkurencyjną działalnością, zdominowaną przez graczy przemysłowych wyposażonych w wyspecjalizowaną infrastrukturę. Moc wymagana do wydobycia nowego bloku jest obecnie tak duża, że jest to praktycznie niemożliwe dla indywidualnego użytkownika przy użyciu tylko konwencjonalnego komputera. W rezultacie Mining jest obecnie przeprowadzany głównie przy użyciu wyspecjalizowanych maszyn zwanych [ASIC](https://planb.academy/resources/glossary/asic) (*Application-Specific Integrated Circuits*). Układy te są zoptymalizowane wyłącznie do uruchamiania podwójnego [SHA-256](https://planb.academy/resources/glossary/sha256), algorytmu używanego w Mining na Bitcoin.
 
 
 
@@ -598,7 +598,7 @@ Są to podstawowe zasady protokołu Bitcoin, zapewniające integralność system
 
 
 
-Zmiana tych zasad jest równoznaczna ze zmianą protokołu, a tym samym waluty (Hard Fork). Jednak nawet bez próby ich modyfikacji, prosty fakt ścisłego stosowania istniejących zasad nadaje pewną moc: jeśli blok narusza zasady, węzeł natychmiast go odrzuca.
+Zmiana tych zasad jest równoznaczna ze zmianą protokołu, a tym samym waluty ([Hard Fork](https://planb.academy/resources/glossary/hard-fork)). Jednak nawet bez próby ich modyfikacji, prosty fakt ścisłego stosowania istniejących zasad nadaje pewną moc: jeśli blok narusza zasady, węzeł natychmiast go odrzuca.
 
 
 
@@ -722,7 +722,7 @@ Full node nie musi nikomu ufać, ponieważ weryfikuje i zna wszystkie informacje
 
 
 
-W praktyce Full node wymaga nietrywialnych zasobów, w tym kilkuset gigabajtów na pliki blokowe, procesora zdolnego do sprawdzania poprawności skryptów, pamięci RAM dla Mempool i pamięci podręcznych oraz stabilnej przepustowości. Pierwsza synchronizacja (*IBD*) odczytuje i weryfikuje całą historię: jest intensywna, ale odbywa się tylko raz. Full node aktywnie uczestniczy w sieci, przekazując bloki i transakcje, i może akceptować połączenia przychodzące, aby pomagać innym peerom.
+W praktyce Full node wymaga nietrywialnych zasobów, w tym kilkuset gigabajtów na pliki blokowe, procesora zdolnego do sprawdzania poprawności skryptów, pamięci RAM dla Mempool i pamięci podręcznych oraz stabilnej przepustowości. Pierwsza synchronizacja (*[IBD](https://planb.academy/resources/glossary/initial-block-download-ibd)*) odczytuje i weryfikuje całą historię: jest intensywna, ale odbywa się tylko raz. Full node aktywnie uczestniczy w sieci, przekazując bloki i transakcje, i może akceptować połączenia przychodzące, aby pomagać innym peerom.
 
 
 
@@ -758,7 +758,7 @@ Krótko mówiąc, śledzenie Wallet działa bezproblemowo na węźle pruned, je�
 
 
 
-Węzeł SPV (*Simplified Payment Verification*), czyli węzeł lekki, zachowuje tylko nagłówki bloków, a nie szczegóły transakcji, i polega na innych pełnych węzłach w celu uzyskania dowodu, że transakcja znajduje się w bloku (dowody Merkle'a za pośrednictwem drzew), dla którego posiada nagłówek. Koncepcja uproszczonej weryfikacji płatności nie jest nowa, została zaproponowana przez samego Satoshi Nakamoto w części 8 Białej Księgi.
+Węzeł [SPV](https://planb.academy/resources/glossary/spv-node-light-node) (*Simplified Payment Verification*), czyli węzeł lekki, zachowuje tylko nagłówki bloków, a nie szczegóły transakcji, i polega na innych pełnych węzłach w celu uzyskania dowodu, że transakcja znajduje się w bloku (dowody [Merkle](https://planb.academy/resources/glossary/merkle-tree)'a za pośrednictwem drzew), dla którego posiada nagłówek. Koncepcja uproszczonej weryfikacji płatności nie jest nowa, została zaproponowana przez samego Satoshi Nakamoto w części 8 Białej Księgi.
 
 
 
@@ -812,7 +812,7 @@ Dla początkującego użytkownika posiadającego tylko Wallet w aplikacji mobiln
 
 
 
-Full node pozostaje najlepszym rozwiązaniem, jeśli chcesz być całkowicie niezależny w korzystaniu z Bitcoin i nie ograniczać się później do zaawansowanych zastosowań, takich jak indeksator, węzeł Lightning, a nawet Block explorer. Dokładnie to zamierzamy zbadać w tym kursie!
+Full node pozostaje najlepszym rozwiązaniem, jeśli chcesz być całkowicie niezależny w korzystaniu z Bitcoin i nie ograniczać się później do zaawansowanych zastosowań, takich jak indeksator, węzeł [Lightning](https://planb.academy/resources/glossary/lightning-network), a nawet Block explorer. Dokładnie to zamierzamy zbadać w tym kursie!
 
 
 
@@ -853,7 +853,7 @@ Jest to najbardziej suwerenne i elastyczne podejście: wiesz dokładnie, co jest
 
 
 
-[Bitcoin core jest ultra-większościowym klientem sieci](https://bitcoincore.org/). Pobiera, weryfikuje i utrzymuje Blockchain, zapewnia interfejsy API RPC/REST i może zintegrować Wallet. Jeśli wolisz standardowe narzędzia i czujesz się komfortowo, dodając usługi samodzielnie (takie jak serwer Electrum, eksplorator i LND), lepiej będzie, jeśli użyjesz Core w obecnej formie.
+[Bitcoin core jest ultra-większościowym klientem sieci](https://bitcoincore.org/). Pobiera, weryfikuje i utrzymuje Blockchain, zapewnia interfejsy API [RPC](https://planb.academy/resources/glossary/rpc-remote-procedure-call)/REST i może zintegrować Wallet. Jeśli wolisz standardowe narzędzia i czujesz się komfortowo, dodając usługi samodzielnie (takie jak serwer Electrum, eksplorator i LND), lepiej będzie, jeśli użyjesz Core w obecnej formie.
 
 
 
@@ -1856,7 +1856,7 @@ Aby rozpocząć konfigurację Umbrel, kliknij przycisk "*Start*".
 
 
 
-Wybierz pseudonim lub wprowadź swoje imię i nazwisko, a następnie ustaw silne hasło. Bądź ostrożny: to hasło jest jedyną barierą chroniącą dostęp do Umbrel z twojej sieci (a zatem potencjalnie do twoich bitcoinów, jeśli uruchomisz węzeł Lightning na Umbrel). Chroni również zdalny dostęp przez Tor lub VPN, jeśli te usługi są włączone.
+Wybierz pseudonim lub wprowadź swoje imię i nazwisko, a następnie ustaw silne hasło. Bądź ostrożny: to hasło jest jedyną barierą chroniącą dostęp do Umbrel z twojej sieci (a zatem potencjalnie do twoich bitcoinów, jeśli uruchomisz węzeł Lightning na Umbrel). Chroni również zdalny dostęp przez [Tor](https://planb.academy/resources/glossary/tor) lub VPN, jeśli te usługi są włączone.
 
 
 
@@ -2606,7 +2606,7 @@ https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b
 
 
 
-BTCPay Server to darmowy procesor płatności typu open-source, który umożliwia przyjmowanie płatności za pośrednictwem Bitcoin i Lightning Network bez pośredników, przy jednoczesnym zachowaniu własnego przechowywania środków.
+[BTCPay Server](https://planb.academy/resources/glossary/btcpay-server) to darmowy procesor płatności typu open-source, który umożliwia przyjmowanie płatności za pośrednictwem Bitcoin i Lightning Network bez pośredników, przy jednoczesnym zachowaniu własnego przechowywania środków.
 
 
 
@@ -2783,7 +2783,7 @@ Dzięki tym prostym nawykom węzeł Umbrel pozostanie stabilny, bezpieczny i uż
 
 
 
-Węzeł Bitcoin uruchamia się bez wcześniejszej wiedzy o historii transakcji. Początkowo jest to tylko komputer z uruchomionym oprogramowaniem (Bitcoin core lub podobnym). Aby stać się w pełni zsynchronizowanym i działającym węzłem Bitcoin, musi on lokalnie zrekonstruować stan Ledger poprzez sprawdzenie wszystkich bloków opublikowanych od bloku Genesis (blok 0, opublikowany przez Satoshi Nakamoto 3 stycznia 2009 r.). Krok ten nazywany jest **IBD (_Initial Block Download_)**.
+Węzeł Bitcoin uruchamia się bez wcześniejszej wiedzy o historii transakcji. Początkowo jest to tylko komputer z uruchomionym oprogramowaniem (Bitcoin core lub podobnym). Aby stać się w pełni zsynchronizowanym i działającym węzłem Bitcoin, musi on lokalnie zrekonstruować stan Ledger poprzez sprawdzenie wszystkich bloków opublikowanych od [bloku Genesis](https://planb.academy/resources/glossary/genesis-block) (blok 0, opublikowany przez Satoshi Nakamoto 3 stycznia 2009 r.). Krok ten nazywany jest **IBD (_Initial Block Download_)**.
 
 
 
@@ -2799,7 +2799,7 @@ IBD polega na pobieraniu i weryfikowaniu każdego bloku i transakcji indywidualn
 
 
 
-Synchronizacja rozpoczyna się od kroku _**headers-first**_. Węzeł żąda sekwencji nagłówków bloków od kilku elementów równorzędnych i dla każdego z nich weryfikuje Proof of Work, dostosowanie trudności, składnię, a także Timestamp i reguły numeru wersji. Krótko mówiąc, upewnia się, że każdy otrzymany nagłówek jest zgodny z regułami konsensusu.
+Synchronizacja rozpoczyna się od kroku _**headers-first**_. Węzeł żąda sekwencji nagłówków bloków od kilku elementów równorzędnych i dla każdego z nich weryfikuje Proof of Work, [dostosowanie trudności](https://planb.academy/resources/glossary/difficulty-adjustment), składnię, a także Timestamp i reguły numeru wersji. Krótko mówiąc, upewnia się, że każdy otrzymany nagłówek jest zgodny z regułami konsensusu.
 
 
 
@@ -2817,7 +2817,7 @@ Dla przypomnienia, blok Bitcoin składa się z 80-bajtowego nagłówka i listy t
 - Merkle Root transakcji
 - Timestamp (dłuższy niż mediana czasu poprzednich 11 bloków)
 - docelowy poziom trudności
-- Nonce
+- [Nonce](https://planb.academy/resources/glossary/nonce)
 
 
 
@@ -2825,7 +2825,7 @@ Dla przypomnienia, blok Bitcoin składa się z 80-bajtowego nagłówka i listy t
 
 
 
-Transakcje są zapisywane w Merkle Tree. Jest to struktura, która podsumowuje duży zestaw danych (w tym przypadku wszystkie transakcje w bloku), agregując ich skróty stopniowo dwa po dwa do pojedynczego "korzenia", udowadniając w ten sposób, że element należy do zestawu (i wykrywając wszelkie modyfikacje). W ten sposób każda modyfikacja transakcji modyfikuje również korzeń Merkle Tree, a tym samym odcisk palca nagłówka bloku. SegWit wprowadził oddzielny dodatkowy Commitment dla plików cookie (podpisów), umieszczony w bazie monet.
+Transakcje są zapisywane w Merkle Tree. Jest to struktura, która podsumowuje duży zestaw danych (w tym przypadku wszystkie transakcje w bloku), agregując ich skróty stopniowo dwa po dwa do pojedynczego "korzenia", udowadniając w ten sposób, że element należy do zestawu (i wykrywając wszelkie modyfikacje). W ten sposób każda modyfikacja transakcji modyfikuje również korzeń Merkle Tree, a tym samym odcisk palca nagłówka bloku. [SegWit](https://planb.academy/resources/glossary/segwit) wprowadził oddzielny dodatkowy Commitment dla plików cookie (podpisów), umieszczony w bazie monet.
 
 
 
@@ -2849,7 +2849,7 @@ Po zakończeniu IBD węzeł wchodzi w normalną fazę: weryfikuje nowe bloki, gd
 
 
 
-Bitcoin core zawiera mechanizm zaprojektowany w celu skrócenia czasu potrzebnego do pełnego uruchomienia węzła, przy jednoczesnym zachowaniu istoty zasady autonomicznej weryfikacji: AssumeValid.
+Bitcoin core zawiera mechanizm zaprojektowany w celu skrócenia czasu potrzebnego do pełnego uruchomienia węzła, przy jednoczesnym zachowaniu istoty zasady autonomicznej weryfikacji: [AssumeValid](https://planb.academy/resources/glossary/assume-valid).
 
 
 
@@ -2893,7 +2893,7 @@ Gdy węzeł uruchamia się ponownie po tym, jak był już używany, Core najpier
 
 
 
-W tym przypadku oprogramowanie wysyła zapytanie do _**DNS seeds**_. Są to [serwery utrzymywane przez uznanych twórców ekosystemu](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), które zwracają listę adresów IP przypuszczalnie aktywnych węzłów. Adresy te umożliwiają nowemu węzłowi zainicjowanie pierwszych połączeń i zażądanie niezbędnych danych z IBD. Oto lista *DNS seeds* aktywnych do tej pory (sierpień 2025):
+W tym przypadku oprogramowanie wysyła zapytanie do _**[DNS seeds](https://planb.academy/resources/glossary/dns-seeds)**_. Są to [serwery utrzymywane przez uznanych twórców ekosystemu](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), które zwracają listę adresów IP przypuszczalnie aktywnych węzłów. Adresy te umożliwiają nowemu węzłowi zainicjowanie pierwszych połączeń i zażądanie niezbędnych danych z IBD. Oto lista *DNS seeds* aktywnych do tej pory (sierpień 2025):
 
 
 
@@ -3009,7 +3009,7 @@ Aby móc cofnąć się w czasie podczas reorganizacji, Core zapisuje, równolegl
 
 
 
-Wyszukiwanie bloku bezpośrednio w płaskich plikach byłoby zbyt czasochłonne. Dlatego też Core utrzymuje bazę danych LevelDB w `blocks/index/`, która wymienia, dla każdego znanego bloku, metadane takie jak Hash, wysokość, status walidacji, plik `blk` i offset, w którym się znajduje. Gdy peer żąda bloku lub gdy wewnętrzny komponent musi uzyskać dostęp do określonego bloku, indeks ten zapewnia szybki dostęp. Bez tego indeksu wymagana byłaby zbyt duża liczba operacji.
+Wyszukiwanie bloku bezpośrednio w płaskich plikach byłoby zbyt czasochłonne. Dlatego też Core utrzymuje bazę danych [LevelDB](https://planb.academy/resources/glossary/leveldb) w `blocks/index/`, która wymienia, dla każdego znanego bloku, metadane takie jak Hash, wysokość, status walidacji, plik `blk` i offset, w którym się znajduje. Gdy peer żąda bloku lub gdy wewnętrzny komponent musi uzyskać dostęp do określonego bloku, indeks ten zapewnia szybki dostęp. Bez tego indeksu wymagana byłaby zbyt duża liczba operacji.
 
 
 
@@ -3051,7 +3051,7 @@ Całość wszystkich tych części w danym momencie T stanowi zestaw UTXO: duż�
 
 
 
-Zestaw UTXO jest przechowywany w folderze `chainstate/` jako kompaktowa baza danych LevelDB. Każda część kojarzy klucz pochodzący z Hash transakcji i indeksu wyjściowego z wartością zawierającą: kwotę, blokadę `scriptPubKey`, wysokość utworzonego bloku i wskaźnik coinbase.
+Zestaw UTXO jest przechowywany w folderze `chainstate/` jako kompaktowa baza danych LevelDB. Każda część kojarzy klucz pochodzący z Hash transakcji i indeksu wyjściowego z wartością zawierającą: kwotę, blokadę `scriptPubKey`, wysokość utworzonego bloku i wskaźnik [coinbase](https://planb.academy/resources/glossary/coinbase-transaction).
 
 
 
@@ -3075,13 +3075,13 @@ Należy zauważyć, że zestaw UTXO jest często w centrum obaw o decentralizacj
 
 
 
-Wzrost zestawu UTXO wynika również ze struktury prostych transakcji płatniczych na Bitcoin. Rzeczywiście, kiedy dokonujesz płatności, zużywasz pojedynczy UTXO jako dane wejściowe i tworzysz 2 nowe UTXO jako dane wyjściowe (jeden dla płatności, a drugi dla Exchange). Wreszcie, heurystyka analizy łańcucha, zwana CIOH (*Common Input Ownership Heuristic*), stanowi dodatkową zachętę do unikania konsolidacji Coin.
+Wzrost zestawu UTXO wynika również ze struktury prostych transakcji płatniczych na Bitcoin. Rzeczywiście, kiedy dokonujesz płatności, zużywasz pojedynczy UTXO jako dane wejściowe i tworzysz 2 nowe UTXO jako dane wyjściowe (jeden dla płatności, a drugi dla Exchange). Wreszcie, heurystyka analizy łańcucha, zwana [CIOH](https://planb.academy/resources/glossary/cioh) (*Common Input Ownership Heuristic*), stanowi dodatkową zachętę do unikania konsolidacji Coin.
 
 
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Ponieważ jego część musi być przechowywana w pamięci RAM, aby zweryfikować transakcje w rozsądnym czasie, zestaw UTXO może stopniowo uczynić działanie Full node zbyt kosztownym. Aby rozwiązać ten problem, istnieje już kilka propozycji, w szczególności [Utreexo](https://planb.academy/resources/glossary/utreexo).
+Ponieważ jego część musi być przechowywana w pamięci RAM, aby zweryfikować transakcje w rozsądnym czasie, zestaw UTXO może stopniowo uczynić działanie Full node zbyt kosztownym. Aby rozwiązać ten problem, istnieje już kilka propozycji, w szczególności Utreexo.
 
 
 
@@ -3108,7 +3108,7 @@ Należy zauważyć, że mempoole węzłów nie mają wartości konsensusu. Bitco
 
 
 
-Gdy transakcja zostanie odebrana, Core stosuje serię sprawdzeń pod kątem reguł konsensusu (składnia, prawidłowe skrypty, brak podwójnych wydatków itp.) oraz reguł Mempool, które są lokalną polityką (RBF, minimalne progi opłat, limit danych w `OP_RETURN` itp.). Jeśli transakcja jest zgodna z tymi zasadami, jest przechowywana w pamięci.
+Gdy transakcja zostanie odebrana, Core stosuje serię sprawdzeń pod kątem reguł konsensusu (składnia, prawidłowe skrypty, brak podwójnych wydatków itp.) oraz reguł Mempool, które są lokalną polityką ([RBF](https://planb.academy/resources/glossary/rbf-replacebyfee), minimalne progi opłat, limit danych w `OP_RETURN` itp.). Jeśli transakcja jest zgodna z tymi zasadami, jest przechowywana w pamięci.
 
 
 
@@ -3349,7 +3349,7 @@ Na poziomie sieci mamy również:
 
 
 
-Domyślnie węzeł komunikuje się przez clearnet, Tor i I2P. Oznacza to, że peery, z którymi łączy się w clearnecie, mogą zobaczyć twój publiczny adres IP Address, a twój dostawca usług internetowych prawdopodobnie będzie w stanie wykryć, że używasz węzła Bitcoin (chociaż P2P Transport V2 utrudnia podsłuchiwanie przez dostawcę usług internetowych). Nie jest to koniecznie problem, ale jeśli chcesz uniknąć wycieku tych informacji, możesz połączyć swój węzeł wyłącznie za pośrednictwem sieci Tor.
+Domyślnie węzeł komunikuje się przez clearnet, Tor i I2P. Oznacza to, że peery, z którymi łączy się w clearnecie, mogą zobaczyć twój publiczny adres IP Address, a twój dostawca usług internetowych prawdopodobnie będzie w stanie wykryć, że używasz węzła Bitcoin (chociaż [P2P Transport V2](https://planb.academy/resources/glossary/p2p-transport-v2) utrudnia podsłuchiwanie przez dostawcę usług internetowych). Nie jest to koniecznie problem, ale jeśli chcesz uniknąć wycieku tych informacji, możesz połączyć swój węzeł wyłącznie za pośrednictwem sieci Tor.
 
 
 
@@ -3468,7 +3468,7 @@ Poniżej znajdują się zaawansowane ustawienia dla Mempool i polityki przekaźn
 
 
 
-- `permitbaremultisig=1`: Zezwala na przekazywanie *bare-Multisig* transakcji P2MS (domyślnie: `1`). Jest to najstarszy szablon skryptu do ustanawiania warunków wielopodpisu na UTXO (wynaleziony w 2011 roku przez Gavina Andresena).
+- `permitbaremultisig=1`: Zezwala na przekazywanie *bare-[Multisig](https://planb.academy/resources/glossary/multisig)* transakcji P2MS (domyślnie: `1`). Jest to najstarszy szablon skryptu do ustanawiania warunków wielopodpisu na UTXO (wynaleziony w 2011 roku przez Gavina Andresena).
 
 
 
@@ -3492,7 +3492,7 @@ Poniżej znajdują się zaawansowane ustawienia dla Mempool i polityki przekaźn
 
 
 
-- `peerbloomfilters=1` : Aktywuje obsługę filtrów Blooma (BIP37), aby dostarczać przefiltrowane bloki/transakcje lekkim klientom (domyślnie: `0`). Uwaga, zwiększa to obciążenie zasobów.
+- `peerbloomfilters=1` : Aktywuje obsługę [filtrów Blooma](https://planb.academy/resources/glossary/bloom-filter) (BIP37), aby dostarczać przefiltrowane bloki/transakcje lekkim klientom (domyślnie: `0`). Uwaga, zwiększa to obciążenie zasobów.
 
 
 

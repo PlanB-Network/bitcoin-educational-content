@@ -279,7 +279,7 @@ Nakamoto, S. (2008). *Bitcoin：A Peer-to-Peer Electronic Cash System*。https:/
 
 
 
-在某些情况下，这两种功能共存于同一个软件中，Bitcoin Core 就是如此，它既是全节点也是一个钱包。不过，许多流行的钱包程序（Sparrow、BlueWallet 等）都需要连接到外部节点（无论是自己的还是第三方的节点），以传播交易并确定钱包余额。
+在某些情况下，这两种功能共存于同一个软件中，Bitcoin Core 就是如此，它既是[全节点](https://planb.academy/resources/glossary/full-node)也是一个钱包。不过，许多流行的钱包程序（Sparrow、BlueWallet 等）都需要连接到外部节点（无论是自己的还是第三方的节点），以传播交易并确定钱包余额。
 
 
 
@@ -302,7 +302,7 @@ Nakamoto, S. (2008). *Bitcoin：A Peer-to-Peer Electronic Cash System*。https:/
 
 
 
-然而，随着比特币的逐渐普及和采矿者数量的增加，挖矿的竞争格局发生了很大的变化。如今，挖矿已成为一项竞争异常激烈的活动，由配备专业基础设施的行业参与者主导。现在，挖出一个新区块所需的能量非常大，个人用户仅靠一台传统计算机几乎不可能实现这一目标。因此，挖矿现在主要使用名为 ASIC（*特定应用集成电路*）的专用机器。这些芯片已经过优化，专门用于在比特币上运行双 SHA-256 哈希函数（比特币挖矿使用的算法）。
+然而，随着比特币的逐渐普及和采矿者数量的增加，挖矿的竞争格局发生了很大的变化。如今，挖矿已成为一项竞争异常激烈的活动，由配备专业基础设施的行业参与者主导。现在，挖出一个新区块所需的能量非常大，个人用户仅靠一台传统计算机几乎不可能实现这一目标。因此，挖矿现在主要使用名为 [ASIC](https://planb.academy/resources/glossary/asic)（*特定应用集成电路*）的专用机器。这些芯片已经过优化，专门用于在比特币上运行双 [SHA-256](https://planb.academy/resources/glossary/sha256) 哈希函数（比特币挖矿使用的算法）。
 
 
 
@@ -596,7 +596,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-改变这些规则就等于改变协议，进而改变货币（导致硬分叉）。然而，即使不试图修改这些规则，严格执行现有规则这一简单事实也赋予了某种力量：如果某个区块违反了规则，节点就会立即拒绝传播该区块。
+改变这些规则就等于改变协议，进而改变货币（导致[硬分叉](https://planb.academy/resources/glossary/hard-fork)）。然而，即使不试图修改这些规则，严格执行现有规则这一简单事实也赋予了某种力量：如果某个区块违反了规则，节点就会立即拒绝传播该区块。
 
 
 
@@ -720,7 +720,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-实际上，全节点需要的资源并不少，包括数百 GB 的块文件、能够验证脚本的处理器、Mempool 和 Cache的 RAM 以及稳定的带宽。第一次同步（*IBD*）会读取并验证完整的历史记录：这需要大量时间，但只进行一次。全节点会积极参与网络，中继区块和交易，并接受传入连接以协助其他对等节点。
+实际上，全节点需要的资源并不少，包括数百 GB 的块文件、能够验证脚本的处理器、Mempool 和 Cache的 RAM 以及稳定的带宽。第一次同步（*[IBD](https://planb.academy/resources/glossary/initial-block-download-ibd)*）会读取并验证完整的历史记录：这需要大量时间，但只进行一次。全节点会积极参与网络，中继区块和交易，并接受传入连接以协助其他对等节点。
 
 
 
@@ -756,7 +756,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-SPV（*简单支付验证*）节点或轻量级节点只保留区块头，而不保留交易的细节，并依靠其他完整节点来获得交易在其拥有头的区块中的证明（通过树的梅克尔证明（Merkle Proof））。简单支付验证的概念并不全新，中本聪本人在《白皮书》第 8 部分中就提出了这一概念。
+[SPV](https://planb.academy/resources/glossary/spv-node-light-node)（*简单支付验证*）节点或轻量级节点只保留区块头，而不保留交易的细节，并依靠其他完整节点来获得交易在其拥有头的区块中的证明（通过树的梅克尔证明（[Merkle](https://planb.academy/resources/glossary/merkle-tree) Proof））。简单支付验证的概念并不全新，中本聪本人在《白皮书》第 8 部分中就提出了这一概念。
 
 
 
@@ -851,7 +851,7 @@ Nakamoto, S. (2008). *Bitcoin：A Peer-to-Peer Electronic Cash System.*。https:
 
 
 
-[Bitcoin Core是网络的超多数客户端](https://bitcoincore.org/)。它能下载、验证和维护区块链，提供 RPC/REST API，并能集成到钱包中。如果您更喜欢标准工具，并愿意自己添加服务（如 Electrum 服务器、资源管理器和 LND），最好还是使用 Core。
+[Bitcoin Core是网络的超多数客户端](https://bitcoincore.org/)。它能下载、验证和维护区块链，提供 [RPC](https://planb.academy/resources/glossary/rpc-remote-procedure-call)/REST API，并能集成到钱包中。如果您更喜欢标准工具，并愿意自己添加服务（如 Electrum 服务器、资源管理器和 LND），最好还是使用 Core。
 
 
 
@@ -1850,7 +1850,7 @@ hostname -I
 
 
 
-选择一个假名或输入您的名字，然后设置一个安全程度强的密码。注意：这个密码是保护从您的网络访问您的 Umbrel 系统的唯一屏障（如果您在 Umbrel 上运行一个闪电节点，您的比特币也可能被抢走）。它还能通过启用 Tor 或 VPN 保护经过这些服务的远程访问。
+选择一个假名或输入您的名字，然后设置一个安全程度强的密码。注意：这个密码是保护从您的网络访问您的 Umbrel 系统的唯一屏障（如果您在 Umbrel 上运行一个闪电节点，您的比特币也可能被抢走）。它还能通过启用 [Tor](https://planb.academy/resources/glossary/tor) 或 VPN 保护经过这些服务的远程访问。
 
 
 
@@ -2599,7 +2599,7 @@ https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b
 
 
 
-BTCPay Server 是一款免费的开源支付处理器，可让您通过比特币和闪电网络接受支付，无需中间商，同时保留资金的自我保管。
+[BTCPay Server](https://planb.academy/resources/glossary/btcpay-server) 是一款免费的开源支付处理器，可让您通过比特币和闪电网络接受支付，无需中间商，同时保留资金的自我保管。
 
 
 
@@ -2776,7 +2776,7 @@ https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 
-您的比特币节点启动时，事先并不知晓任何交易历史记录。最初，它只是一台运行软件（Bitcoin Core 或类似软件）的计算机。要成为一个完全同步运行的比特币节点，它必须通过检查自创世区块（中本聪在 2009 年 1 月 3 日发布的第 0 个区块）以来发布的所有区块，在本地重建账本的状态。这一步骤称为 **IBD（_初始区块下载_）**。
+您的比特币节点启动时，事先并不知晓任何交易历史记录。最初，它只是一台运行软件（Bitcoin Core 或类似软件）的计算机。要成为一个完全同步运行的比特币节点，它必须通过检查自[创世区块](https://planb.academy/resources/glossary/genesis-block)（中本聪在 2009 年 1 月 3 日发布的第 0 个区块）以来发布的所有区块，在本地重建账本的状态。这一步骤称为 **IBD（_初始区块下载_）**。
 
 
 
@@ -2792,7 +2792,7 @@ IBD 包括下载和逐个验证每个区块和交易，应用共识规则，建�
 
 
 
-区块同步从_**先下载区块头**_步骤开始。节点向多个对等节点请求区块头的序列，并对每个区块头验证工作量证明（Proof-of-Work）、难度调整、语法结构（syntax）以及时间戳和版本号规则。总之，它要确保收到的每个区块头都符合共识规则。
+区块同步从_**先下载区块头**_步骤开始。节点向多个对等节点请求区块头的序列，并对每个区块头验证工作量证明（Proof-of-Work）、[难度调整](https://planb.academy/resources/glossary/difficulty-adjustment)、语法结构（syntax）以及时间戳和版本号规则。总之，它要确保收到的每个区块头都符合共识规则。
 
 
 
@@ -2818,7 +2818,7 @@ IBD 包括下载和逐个验证每个区块和交易，应用共识规则，建�
 
 
 
-区块中的交易会被写入到哈希树中。这是一种数据结构，用于汇总大量数据（在这里指区块中的所有交易），方法是将所有交易的哈希值两两合并，逐层向上汇总，直到形成一个唯一的“根”（哈希树根）。这样，对交易的任何修改也会生成不同的哈希树根值，从而修改区块头的指纹。SegWit 为签名引入了引入了一个独立的额外承诺，并将该承诺放入 Coinbase 交易中。
+区块中的交易会被写入到哈希树中。这是一种数据结构，用于汇总大量数据（在这里指区块中的所有交易），方法是将所有交易的哈希值两两合并，逐层向上汇总，直到形成一个唯一的“根”（哈希树根）。这样，对交易的任何修改也会生成不同的哈希树根值，从而修改区块头的指纹。[SegWit](https://planb.academy/resources/glossary/segwit) 为签名引入了引入了一个独立的额外承诺，并将该承诺放入 Coinbase 交易中。
 
 
 
@@ -2842,7 +2842,7 @@ IBD 完成后，节点进入正常阶段：验证发布的新区块，根据中�
 
 
 
-Bitcoin Core 采用了一种机制，旨在缩短节点全面运行前所需的时间，同时保留自主验证原则的精髓：AssumeValid。
+Bitcoin Core 采用了一种机制，旨在缩短节点全面运行前所需的时间，同时保留自主验证原则的精髓：[AssumeValid](https://planb.academy/resources/glossary/assume-valid)。
 
 
 
@@ -3001,7 +3001,7 @@ Bitcoin Core 采用了一种机制，旨在缩短节点全面运行前所需的�
 
 
 
-直接在平面文件中搜索区块太过耗时。因此，Core 在 `blocks/index/` 中维护了一个 LevelDB 数据库，其中列出了每个已知数据块的元数据，如哈希值、高度、验证状态、`blk` 文件以及它所在的偏移量。当对等程序请求区块或内部组件需要访问特定区块时，该索引可提供快速访问。如果没有这个索引，就需要进行过多的操作。
+直接在平面文件中搜索区块太过耗时。因此，Core 在 `blocks/index/` 中维护了一个 [LevelDB](https://planb.academy/resources/glossary/leveldb) 数据库，其中列出了每个已知数据块的元数据，如哈希值、高度、验证状态、`blk` 文件以及它所在的偏移量。当对等程序请求区块或内部组件需要访问特定区块时，该索引可提供快速访问。如果没有这个索引，就需要进行过多的操作。
 
 
 
@@ -3043,7 +3043,7 @@ UTXO（*未花费的交易输出*）模型是比特币的会计表示：每个�
 
 
 
-UTXO 集作为一个紧凑的 LevelDB 数据库存储在 `chainstate/` 文件夹中。每个部分都关联了一个从交易的哈希导出的键和输出索引，其值包含：金额、`scriptPubKey` 锁、创建区块的高度和一个 Coinbase 指标。
+UTXO 集作为一个紧凑的 LevelDB 数据库存储在 `chainstate/` 文件夹中。每个部分都关联了一个从交易的哈希导出的键和输出索引，其值包含：金额、`scriptPubKey` 锁、创建区块的高度和一个 [Coinbase](https://planb.academy/resources/glossary/coinbase-transaction) 指标。
 
 
 
@@ -3067,13 +3067,13 @@ UTXO 集作为一个紧凑的 LevelDB 数据库存储在 `chainstate/` 文件夹
 
 
 
-UTXO 集的增长还源于比特币上简单支付交易的结构。事实上，当您进行支付时，您会消耗一个 UTXO 作为输入，并创建两个新的 UTXO 作为输出（一个用于支付，另一个用于找钱）。最后，被称为 CIOH（*所有权分析法*）的连锁分析启发式进一步鼓励人们避免 UTXO 合并。
+UTXO 集的增长还源于比特币上简单支付交易的结构。事实上，当您进行支付时，您会消耗一个 UTXO 作为输入，并创建两个新的 UTXO 作为输出（一个用于支付，另一个用于找钱）。最后，被称为 [CIOH](https://planb.academy/resources/glossary/cioh)（*所有权分析法*）的连锁分析启发式进一步鼓励人们避免 UTXO 合并。
 
 
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-由于用户必须将其中的一部分保存在 RAM 中才能在合理的时间内验证交易，UTXO 集可能会逐渐导致全节点的运行成本变得过高。一些建议已出现以解决这个问题，特别是 [Utreexo](https://planb.academy/resources/glossary/utreexo)。
+由于用户必须将其中的一部分保存在 RAM 中才能在合理的时间内验证交易，UTXO 集可能会逐渐导致全节点的运行成本变得过高。一些建议已出现以解决这个问题，特别是 Utreexo。
 
 
 
@@ -3100,7 +3100,7 @@ Mempool 是已收到但尚未确认的本地有效交易集。需要提醒的是
 
 
 
-收到交易时，Core 会根据共识规则（语法结构、有效脚本、无双重支付等）和 Mempool 规则（手续费替换(RBF)、最低收费阈值、`OP_RETURN` 中的数据限制等）进行一系列检查。如果交易符合这些规则，就会被存储在内存中。
+收到交易时，Core 会根据共识规则（语法结构、有效脚本、无双重支付等）和 Mempool 规则（手续费替换([RBF](https://planb.academy/resources/glossary/rbf-replacebyfee))、最低收费阈值、`OP_RETURN` 中的数据限制等）进行一系列检查。如果交易符合这些规则，就会被存储在内存中。
 
 
 
@@ -3340,7 +3340,7 @@ Mempool 的大小受 `Bitcoin.conf` 文件中的 `maxmempool` 参数限制（将
 
 
 
-默认情况下，您的节点通过 clearnet、Tor 和 I2P 进行通信。这意味着它在 clearnet 上连接的对等网络可以看到您的公共 IP 地址，而您的 ISP 很可能会检测到您正在运行一个比特币节点（尽管 P2P Transport V2 让 ISP 更难窃听）。这不一定是个问题，但如果您想避免这些信息的泄露，您可以只通过 Tor 网络连接您的节点。
+默认情况下，您的节点通过 clearnet、Tor 和 I2P 进行通信。这意味着它在 clearnet 上连接的对等网络可以看到您的公共 IP 地址，而您的 ISP 很可能会检测到您正在运行一个比特币节点（尽管 [P2P Transport V2](https://planb.academy/resources/glossary/p2p-transport-v2) 让 ISP 更难窃听）。这不一定是个问题，但如果您想避免这些信息的泄露，您可以只通过 Tor 网络连接您的节点。
 
 
 
@@ -3459,7 +3459,7 @@ Mempool 的大小受 `Bitcoin.conf` 文件中的 `maxmempool` 参数限制（将
 
 
 
-- `permitbaremultisig=1`：允许中继*裸多签 （Bare Multisig）* P2MS 交易（默认：`1`）。这是在 UTXO 上建立多重签名条件的最古老脚本模板（由 Gavin Andresen 于 2011 年发明）。
+- `permitbaremultisig=1`：允许中继*裸多签 （Bare Multisig）* P2MS 交易（默认：`1`）。这是在 UTXO 上建立[多重签名](https://planb.academy/resources/glossary/multisig)条件的最古老脚本模板（由 Gavin Andresen 于 2011 年发明）。
 
 
 
@@ -3483,7 +3483,7 @@ Mempool 的大小受 `Bitcoin.conf` 文件中的 `maxmempool` 参数限制（将
 
 
 
-- `peerbloomfilters=1`：启用对布隆过滤器 (BIP37) 的支持，以便向轻节点提供过滤后的区块/交易（默认值：`0`）。警告：这会增加资源负荷。
+- `peerbloomfilters=1`：启用对[布隆过滤器](https://planb.academy/resources/glossary/bloom-filter) (BIP37) 的支持，以便向轻节点提供过滤后的区块/交易（默认值：`0`）。警告：这会增加资源负荷。
 
 
 

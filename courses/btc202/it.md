@@ -304,7 +304,7 @@ Inizialmente, quando Bitcoin fu lanciato da Satoshi Nakamoto nel 2009, ci si asp
 
 
 
-Tuttavia, con la graduale diffusione di Bitcoin e l'aumento del numero di miner, il panorama competitivo del mining ha subito un cambiamento radicale. Oggi il mining è diventato un'attività estremamente competitiva, dominata da operatori industriali dotati di infrastrutture specializzate. La potenza richiesta per estrarre un nuovo blocco è ora così grande che è praticamente impossibile per un singolo utente raggiungere questo obiettivo utilizzando solo un computer convenzionale. Di conseguenza, il mining viene ora eseguito principalmente con dispositivi specializzati chiamati ASIC (*Application-Specific Integrated Circuits*). Questi chip sono ottimizzati esclusivamente per eseguire il double SHA-256, l'algoritmo utilizzato per il mining di Bitcoin.
+Tuttavia, con la graduale diffusione di Bitcoin e l'aumento del numero di miner, il panorama competitivo del mining ha subito un cambiamento radicale. Oggi il mining è diventato un'attività estremamente competitiva, dominata da operatori industriali dotati di infrastrutture specializzate. La potenza richiesta per estrarre un nuovo blocco è ora così grande che è praticamente impossibile per un singolo utente raggiungere questo obiettivo utilizzando solo un computer convenzionale. Di conseguenza, il mining viene ora eseguito principalmente con dispositivi specializzati chiamati [ASIC](https://planb.academy/resources/glossary/asic) (*Application-Specific Integrated Circuits*). Questi chip sono ottimizzati esclusivamente per eseguire il double [SHA-256](https://planb.academy/resources/glossary/sha256), l'algoritmo utilizzato per il mining di Bitcoin.
 
 
 
@@ -328,7 +328,7 @@ Un miner ha bisogno di un nodo Bitcoin per interagire con la rete.
 
 
 
-Anche il ruolo del miner è talvolta differenziato da quello del "grind". Un "grind" è una macchina il cui compito è quello di calcolare l'hash dei blocchi modello forniti dal server di una pool, cercando hash che soddisfino l'obiettivo di difficoltà definito per le "shares", e non quello di Bitcoin. Il resto del processo di mining , che comprende la costruzione dei blocchi veri e propri, la selezione delle transazioni o la ricerca proof-of-work in base alla difficoltà propria di Bitcoin, nonché la distribuzione, viene eseguito direttamente dalle pool.
+Anche il ruolo del miner è talvolta differenziato da quello del "grind". Un "grind" è una macchina il cui compito è quello di calcolare l'hash dei blocchi modello forniti dal server di una [pool](https://planb.academy/resources/glossary/pool-mining), cercando hash che soddisfino l'obiettivo di difficoltà definito per le "shares", e non quello di Bitcoin. Il resto del processo di mining , che comprende la costruzione dei blocchi veri e propri, la selezione delle transazioni o la ricerca proof-of-work in base alla difficoltà propria di Bitcoin, nonché la distribuzione, viene eseguito direttamente dalle pool.
 
 
 
@@ -598,7 +598,7 @@ Queste sono le regole fondamentali del protocollo Bitcoin, che garantiscono l'in
 
 
 
-Cambiare queste regole equivale a cambiare il protocollo, e quindi la moneta (Hard Fork). Tuttavia, anche senza cercare di modificarle, il semplice fatto di applicare rigorosamente le regole esistenti conferisce un certo potere: se un blocco viola le regole, il nodo lo rifiuta immediatamente.
+Cambiare queste regole equivale a cambiare il protocollo, e quindi la moneta ([Hard Fork](https://planb.academy/resources/glossary/hard-fork)). Tuttavia, anche senza cercare di modificarle, il semplice fatto di applicare rigorosamente le regole esistenti conferisce un certo potere: se un blocco viola le regole, il nodo lo rifiuta immediatamente.
 
 
 
@@ -722,7 +722,7 @@ Il full node non ha bisogno di fidarsi di nessuno perché convalida e conosce tu
 
 
 
-In pratica, un full node richiede risorse non banali, tra cui diverse centinaia di gigabyte per i file a blocchi, un processore in grado di convalidare gli script, RAM per la mempool e le cache, e una larghezza di banda stabile. La prima sincronizzazione (*IBD*) legge e verifica l'intera cronologia: è intensa, ma avviene una sola volta. Un full node partecipa attivamente al network, trasmettendo blocchi e transazioni, e può accettare connessioni in entrata per assistere altri peer.
+In pratica, un full node richiede risorse non banali, tra cui diverse centinaia di gigabyte per i file a blocchi, un processore in grado di convalidare gli script, RAM per la mempool e le cache, e una larghezza di banda stabile. La prima sincronizzazione (*[IBD](https://planb.academy/resources/glossary/initial-block-download-ibd)*) legge e verifica l'intera cronologia: è intensa, ma avviene una sola volta. Un full node partecipa attivamente al network, trasmettendo blocchi e transazioni, e può accettare connessioni in entrata per assistere altri peer.
 
 
 
@@ -758,7 +758,7 @@ In breve, il tracciamento del wallet funziona senza problemi su un pruned node s
 
 
 
-Un nodo SPV (*Simplified Payment Verification*), o nodo leggero, conserva solo le intestazioni dei blocchi, non i dettagli delle transazioni, e si affida ad altri full node per ottenere la prova che una transazione si trova in un blocco (tramite Merkle proofs trees) di cui possiede l'intestazione. Il concetto di verifica semplificata dei pagamenti non è nuovo, essendo stato proposto dallo stesso Satoshi Nakamoto nella parte 8 del White Paper.
+Un nodo [SPV](https://planb.academy/resources/glossary/spv-node-light-node) (*Simplified Payment Verification*), o nodo leggero, conserva solo le intestazioni dei blocchi, non i dettagli delle transazioni, e si affida ad altri full node per ottenere la prova che una transazione si trova in un blocco (tramite [Merkle](https://planb.academy/resources/glossary/merkle-tree) proofs trees) di cui possiede l'intestazione. Il concetto di verifica semplificata dei pagamenti non è nuovo, essendo stato proposto dallo stesso Satoshi Nakamoto nella parte 8 del White Paper.
 
 
 
@@ -812,7 +812,7 @@ Un utente intermedio con un PC può installare un pruned node per beneficiare di
 
 
 
-Un full node rimane la soluzione migliore se si vuole essere totalmente indipendenti nell'uso di Bitcoin, e in seguito non trovarsi limitati da usi avanzati come un indicizzatore, un nodo Lightning o addirittura un block explorer. Questo è esattamente ciò che esploreremo in questo corso!
+Un full node rimane la soluzione migliore se si vuole essere totalmente indipendenti nell'uso di Bitcoin, e in seguito non trovarsi limitati da usi avanzati come un indicizzatore, un nodo [Lightning](https://planb.academy/resources/glossary/lightning-network) o addirittura un block explorer. Questo è esattamente ciò che esploreremo in questo corso!
 
 
 
@@ -853,7 +853,7 @@ Questo è l'approccio più sovrano e flessibile: si sa esattamente cosa sta funz
 
 
 
-[Bitcoin Core](https://bitcoincore.org/) è il client maggiormente usato dalla rete. Scarica, convalida e mantiene la blockchain, fornisce API RPC/REST e può integrare un wallet. Se si preferiscono strumenti standard e ci si sente a proprio agio nell'aggiungere servizi (come il server Electrum, explorer e LND), è meglio usare Core così com'è.
+[Bitcoin Core](https://bitcoincore.org/) è il client maggiormente usato dalla rete. Scarica, convalida e mantiene la blockchain, fornisce API [RPC](https://planb.academy/resources/glossary/rpc-remote-procedure-call)/REST e può integrare un wallet. Se si preferiscono strumenti standard e ci si sente a proprio agio nell'aggiungere servizi (come il server Electrum, explorer e LND), è meglio usare Core così com'è.
 
 
 
@@ -1856,7 +1856,7 @@ Per iniziare a configurare Umbrel, fai clic sul pulsante "*Avvio*".
 
 
 
-Scegli uno pseudonimo o inserisci il vostro nome, quindi imposta una password forte. Attenzione: questa password è l'unica barriera che protegge l'accesso al tuo Umbrel dalla tua rete (e quindi, potenzialmente, ai tuoi bitcoin se gestisci un nodo Lightning su Umbrel). Protegge anche l'accesso remoto tramite Tor o VPN, se questi servizi sono abilitati.
+Scegli uno pseudonimo o inserisci il vostro nome, quindi imposta una password forte. Attenzione: questa password è l'unica barriera che protegge l'accesso al tuo Umbrel dalla tua rete (e quindi, potenzialmente, ai tuoi bitcoin se gestisci un nodo Lightning su Umbrel). Protegge anche l'accesso remoto tramite [Tor](https://planb.academy/resources/glossary/tor) o VPN, se questi servizi sono abilitati.
 
 
 
@@ -2603,7 +2603,7 @@ https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b
 
 
 
-BTCPay Server è un processore di pagamento gratuito e open-source che consente di accettare pagamenti tramite Bitcoin e Lightning Network senza intermediari, mantenendo la custodia dei fondi.
+[BTCPay Server](https://planb.academy/resources/glossary/btcpay-server) è un processore di pagamento gratuito e open-source che consente di accettare pagamenti tramite Bitcoin e Lightning Network senza intermediari, mantenendo la custodia dei fondi.
 
 
 
@@ -2780,7 +2780,7 @@ Con queste semplici abitudini, il vostro tuo Umbrel rimarrà stabile, sicuro e u
 
 
 
-Il nodo Bitcoin si avvia senza alcuna conoscenza preliminare della cronologia delle transazioni. Inizialmente, è solo un computer che esegue un software (Bitcoin Core o simile). Per diventare un nodo Bitcoin completamente sincronizzato e operativo, deve ricostruire localmente lo stato del registro controllando tutti i blocchi pubblicati dal blocco genesis (blocco 0, pubblicato da Satoshi Nakamoto il 3 gennaio 2009). Questa fase è chiamata **IBD (_Initial Block Download_)**.
+Il nodo Bitcoin si avvia senza alcuna conoscenza preliminare della cronologia delle transazioni. Inizialmente, è solo un computer che esegue un software (Bitcoin Core o simile). Per diventare un nodo Bitcoin completamente sincronizzato e operativo, deve ricostruire localmente lo stato del registro controllando tutti i blocchi pubblicati dal [blocco genesis](https://planb.academy/resources/glossary/genesis-block) (blocco 0, pubblicato da Satoshi Nakamoto il 3 gennaio 2009). Questa fase è chiamata **IBD (_Initial Block Download_)**.
 
 
 
@@ -2814,7 +2814,7 @@ Come promemoria, un blocco Bitcoin consiste in un'intestazione di 80 byte e in u
 - Merkle Root di transazioni
 - Timestamp (maggiore del tempo mediano degli 11 blocchi precedenti)
 - obiettivo di difficoltà
-- Nonce
+- [Nonce](https://planb.academy/resources/glossary/nonce)
 
 
 
@@ -2822,7 +2822,7 @@ Come promemoria, un blocco Bitcoin consiste in un'intestazione di 80 byte e in u
 
 
 
-Le transazioni vengono impegnate in un Merkle Tree. Si tratta di una struttura che riassume un grande insieme di dati (in questo caso, tutte le transazioni del blocco) aggregando i loro hash progressivamente a due a due fino a un'unica "radice", dimostrando così l'appartenenza di un elemento all'insieme (e rilevando eventuali modifiche). In questo modo, qualsiasi modifica a una transazione modifica anche la radice del Merkle Tree e quindi l'impronta digitale dell'intestazione del blocco. SegWit ha introdotto un ulteriore commitment separato per i witness data(firme), collocate nel coinbase.
+Le transazioni vengono impegnate in un Merkle Tree. Si tratta di una struttura che riassume un grande insieme di dati (in questo caso, tutte le transazioni del blocco) aggregando i loro hash progressivamente a due a due fino a un'unica "radice", dimostrando così l'appartenenza di un elemento all'insieme (e rilevando eventuali modifiche). In questo modo, qualsiasi modifica a una transazione modifica anche la radice del Merkle Tree e quindi l'impronta digitale dell'intestazione del blocco. [SegWit](https://planb.academy/resources/glossary/segwit) ha introdotto un ulteriore commitment separato per i witness data(firme), collocate nel coinbase.
 
 
 
@@ -2846,7 +2846,7 @@ Una volta completato l'IBD, il nodo entra nella sua fase normale: convalida i nu
 
 
 
-Bitcoin Core incorpora un meccanismo progettato per ridurre il tempo necessario prima che un nodo sia completamente operativo, pur mantenendo l'essenza del principio di verifica autonoma: AssumeValid.
+Bitcoin Core incorpora un meccanismo progettato per ridurre il tempo necessario prima che un nodo sia completamente operativo, pur mantenendo l'essenza del principio di verifica autonoma: [AssumeValid](https://planb.academy/resources/glossary/assume-valid).
 
 
 
@@ -3006,7 +3006,7 @@ Per poter tornare indietro nel tempo durante una riorganizzazione, Core salva, p
 
 
 
-La ricerca di un blocco direttamente nei flat file richiederebbe troppo tempo. Core mantiene quindi un database LevelDB in `blocks/index/` che elenca, per ogni blocco noto, metadati quali hash, altezza, stato di validazione, file `blk` e offset in cui si trova. Quando un peer richiede un blocco, o quando un componente interno deve accedere a un blocco specifico, questo indice fornisce un accesso rapido. Senza questo indice, sarebbero necessarie troppe operazioni.
+La ricerca di un blocco direttamente nei flat file richiederebbe troppo tempo. Core mantiene quindi un database [LevelDB](https://planb.academy/resources/glossary/leveldb) in `blocks/index/` che elenca, per ogni blocco noto, metadati quali hash, altezza, stato di validazione, file `blk` e offset in cui si trova. Quando un peer richiede un blocco, o quando un componente interno deve accedere a un blocco specifico, questo indice fornisce un accesso rapido. Senza questo indice, sarebbero necessarie troppe operazioni.
 
 
 
@@ -3048,7 +3048,7 @@ L'insieme di tutte queste parti in un dato momento T costituisce l'insieme UTXO:
 
 
 
-L'insieme UTXO è memorizzato nella cartella `chainstate/` come database LevelDB compatto. Ogni parte associa una chiave derivata dall'hash della transazione e l'indice di uscita con un valore contenente: l'importo, il blocco `scriptPubKey`, l'altezza del blocco di creazione e un indicatore coinbase.
+L'insieme UTXO è memorizzato nella cartella `chainstate/` come database LevelDB compatto. Ogni parte associa una chiave derivata dall'hash della transazione e l'indice di uscita con un valore contenente: l'importo, il blocco `scriptPubKey`, l'altezza del blocco di creazione e un indicatore [coinbase](https://planb.academy/resources/glossary/coinbase-transaction).
 
 
 
@@ -3072,13 +3072,13 @@ Si noti che l'UTXO set è spesso al centro delle preoccupazioni sulla decentrali
 
 
 
-La crescita dell'insieme UTXO deriva anche dalla struttura delle semplici transazioni di pagamento su Bitcoin. Infatti, quando si effettua un pagamento, si consuma un singolo UTXO come input e si creano due nuovi UTXO come output (uno per il pagamento e l'altro come resto). Infine, un'euristica di analisi della catena, chiamata CIOH (*Common Input Ownership Heuristic*), fornisce un ulteriore incentivo a evitare il consolidamento della moneta.
+La crescita dell'insieme UTXO deriva anche dalla struttura delle semplici transazioni di pagamento su Bitcoin. Infatti, quando si effettua un pagamento, si consuma un singolo UTXO come input e si creano due nuovi UTXO come output (uno per il pagamento e l'altro come resto). Infine, un'euristica di analisi della catena, chiamata [CIOH](https://planb.academy/resources/glossary/cioh) (*Common Input Ownership Heuristic*), fornisce un ulteriore incentivo a evitare il consolidamento della moneta.
 
 
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Poiché una parte di esso deve essere mantenuta nella RAM per verificare le transazioni in un tempo ragionevole, l'insieme UTXO può gradualmente rendere troppo costoso il funzionamento di un full node. Per risolvere questo problema, esistono già alcune proposte, in particolare [Utreexo](https://planb.academy/resources/glossary/utreexo).
+Poiché una parte di esso deve essere mantenuta nella RAM per verificare le transazioni in un tempo ragionevole, l'insieme UTXO può gradualmente rendere troppo costoso il funzionamento di un full node. Per risolvere questo problema, esistono già alcune proposte, in particolare Utreexo.
 
 
 
@@ -3105,7 +3105,7 @@ La Mempool è l'insieme locale delle transazioni valide che sono state ricevute 
 
 
 
-Quando riceve una transazione, Core applica una serie di controlli rispetto alle regole del consenso (sintassi, script validi, assenza di doppie spese, ecc.) e alle regole Mempool, che rappresentano una politica locale (RBF, soglie minime di addebito, limite di dati nel `OP_RETURN`, ecc.) Se la transazione rispetta queste regole, viene memorizzata.
+Quando riceve una transazione, Core applica una serie di controlli rispetto alle regole del consenso (sintassi, script validi, assenza di doppie spese, ecc.) e alle regole Mempool, che rappresentano una politica locale ([RBF](https://planb.academy/resources/glossary/rbf-replacebyfee), soglie minime di addebito, limite di dati nel `OP_RETURN`, ecc.) Se la transazione rispetta queste regole, viene memorizzata.
 
 
 
@@ -3346,7 +3346,7 @@ A livello di rete, abbiamo anche:
 
 
 
-Per impostazione predefinita, il nodo comunica su clearnet, Tor e I2P. Ciò significa che i peer con cui si connette su clearnet possono vedere il tuo indirizzo IP pubblico e il tuo ISP sarà probabilmente in grado di rilevare che state gestendo un nodo Bitcoin (sebbene il P2P Transport V2 renda più difficile per un ISP origliare). Questo non è necessariamente un problema, ma se si vuole evitare qualsiasi perdita di queste informazioni, si può collegare il nodo esclusivamente tramite Tor.
+Per impostazione predefinita, il nodo comunica su clearnet, Tor e I2P. Ciò significa che i peer con cui si connette su clearnet possono vedere il tuo indirizzo IP pubblico e il tuo ISP sarà probabilmente in grado di rilevare che state gestendo un nodo Bitcoin (sebbene il [P2P Transport V2](https://planb.academy/resources/glossary/p2p-transport-v2) renda più difficile per un ISP origliare). Questo non è necessariamente un problema, ma se si vuole evitare qualsiasi perdita di queste informazioni, si può collegare il nodo esclusivamente tramite Tor.
 
 
 
@@ -3489,7 +3489,7 @@ Ecco le impostazioni avanzate per la Mempool e la politica dei relay. Se si è a
 
 
 
-- `peerbloomfilters=1` : Attiva il supporto ai filtri Bloom (BIP37) per servire blocchi/transazioni filtrati ai client leggeri (predefinito: `0`). Attenzione, questo aumenta il carico sulle tue risorse.
+- `peerbloomfilters=1` : Attiva il supporto ai [filtri Bloom](https://planb.academy/resources/glossary/bloom-filter) (BIP37) per servire blocchi/transazioni filtrati ai client leggeri (predefinito: `0`). Attenzione, questo aumenta il carico sulle tue risorse.
 
 
 

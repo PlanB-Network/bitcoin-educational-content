@@ -304,7 +304,7 @@ Başlangıçta, Bitcoin 2009 yılında Satoshi Nakamoto tarafından başlatıld�
 
 
 
-Ancak Bitcoin'ün giderek yaygınlaşması ve madenci sayısının artmasıyla birlikte Mining'teki rekabet ortamı radikal bir değişim geçirmiştir. Günümüzde Mining, özel altyapılarla donatılmış endüstriyel oyuncuların hakimiyetinde olan son derece rekabetçi bir faaliyet haline gelmiştir. Yeni bir blok çıkarmak için gereken güç artık o kadar büyüktür ki, bireysel bir kullanıcının bunu yalnızca geleneksel bir bilgisayar kullanarak başarması neredeyse imkansızdır. Sonuç olarak, Mining artık öncelikle ASIC (*Uygulamaya Özel Entegre Devreler*) adı verilen özel makineler kullanılarak gerçekleştirilmektedir. Bu çipler, Bitcoin üzerinde Mining için kullanılan algoritma olan çift SHA-256'yı çalıştırmak üzere özel olarak optimize edilmiştir.
+Ancak Bitcoin'ün giderek yaygınlaşması ve madenci sayısının artmasıyla birlikte Mining'teki rekabet ortamı radikal bir değişim geçirmiştir. Günümüzde Mining, özel altyapılarla donatılmış endüstriyel oyuncuların hakimiyetinde olan son derece rekabetçi bir faaliyet haline gelmiştir. Yeni bir blok çıkarmak için gereken güç artık o kadar büyüktür ki, bireysel bir kullanıcının bunu yalnızca geleneksel bir bilgisayar kullanarak başarması neredeyse imkansızdır. Sonuç olarak, Mining artık öncelikle [ASIC](https://planb.academy/resources/glossary/asic) (*Uygulamaya Özel Entegre Devreler*) adı verilen özel makineler kullanılarak gerçekleştirilmektedir. Bu çipler, Bitcoin üzerinde Mining için kullanılan algoritma olan çift [SHA-256](https://planb.academy/resources/glossary/sha256)'yı çalıştırmak üzere özel olarak optimize edilmiştir.
 
 
 
@@ -668,7 +668,7 @@ Birçok tüccarın mal karşılığında Exchange cinsinden altın kabul ettiği
 
 
 
-Bu kavram Bitcoin sistemindeki güç dinamiklerini anlamak için çok önemlidir. Satoshi şunu açıkça ortaya koymaktadır: Bitcoin bir elektronik nakit sistemidir; başka bir deyişle, bir tür para birimi olan Bitcoin (veya BTC) sunan bir hizmet sağlamaktadır. Protokol kuralları geriye dönük uyumlu olmayacak şekilde değiştirildiğinde (Hard Fork), bu yeni bir sistem ve dolayısıyla yeni bir para birimi yaratmak anlamına gelir. Bu Fork'un başarısı ya da başarısızlığı ekonomisinin büyüklüğüne bağlıdır ve bu da bu yeni para birimini kabul eden tüccarların sayısına göre belirlenir.
+Bu kavram Bitcoin sistemindeki güç dinamiklerini anlamak için çok önemlidir. Satoshi şunu açıkça ortaya koymaktadır: Bitcoin bir elektronik nakit sistemidir; başka bir deyişle, bir tür para birimi olan Bitcoin (veya BTC) sunan bir hizmet sağlamaktadır. Protokol kuralları geriye dönük uyumlu olmayacak şekilde değiştirildiğinde (Hard [Fork), bu](https://planb.academy/resources/glossary/hard-fork) yeni bir sistem ve dolayısıyla yeni bir para birimi yaratmak anlamına gelir. Bu Fork'un başarısı ya da başarısızlığı ekonomisinin büyüklüğüne bağlıdır ve bu da bu yeni para birimini kabul eden tüccarların sayısına göre belirlenir.
 
 
 
@@ -1904,7 +1904,7 @@ Umbrel'in Interface'i oldukça sezgiseldir:
 
 
 
-- "*App Store*" yeni uygulamalar yüklemenizi sağlar,
+- "*App Store*" [yeni](https://planb.academy/resources/glossary/tor) uygulamalar yüklemenizi sağlar,
 
 
 
@@ -3081,7 +3081,7 @@ UTXO setinin büyümesi, Bitcoin üzerindeki basit ödeme işlemlerinin yapısı
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-İşlemleri makul bir sürede doğrulamak için bir kısmının RAM'de tutulması gerektiğinden, UTXO seti bir Full node'un çalışmasını kademeli olarak çok maliyetli hale getirebilir. Bu sorunu çözmek için, başta [Utreexo](https://planb.academy/resources/glossary/utreexo) olmak üzere birkaç öneri zaten mevcuttur.
+İşlemleri makul bir sürede doğrulamak için bir kısmının RAM'de tutulması gerektiğinden, UTXO seti bir Full node'un çalışmasını kademeli olarak çok maliyetli hale getirebilir. Bu sorunu çözmek için, başta Utreexo olmak üzere birkaç öneri zaten mevcuttur.
 
 
 
@@ -3492,7 +3492,7 @@ Bir hatırlatma olarak, RBF, göndericinin onaylamayı hızlandırmak için bir 
 
 
 
-- `peerbloomfilters=1` : Hafif istemcilere filtrelenmiş bloklar/işlemler sunmak için Bloom filtreleri (BIP37) desteğini etkinleştirir (varsayılan: `0`). Dikkat, bu kaynaklarınız üzerindeki yükü artırır.
+- `peerbloomfilters=1` : Hafif istemcilere filtrelenmiş bloklar/işlemler sunmak için Bloom [filtreleri (BIP3](https://planb.academy/resources/glossary/bloom-filter)7) desteğini etkinleştirir (varsayılan: `0`). Dikkat, bu kaynaklarınız üzerindeki yükü artırır.
 
 
 

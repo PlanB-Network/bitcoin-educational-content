@@ -164,7 +164,7 @@ Pengertian tentang node dan miner sering kali tertukar. Padahal, kedua elemen in
 
 Pada awalnya, ketika Bitcoin diluncurkan oleh Satoshi Nakamoto pada tahun 2009, setiap pengguna diharapkan untuk berpartisipasi dalam jaringan secara keseluruhan. Oleh karena itu, perangkat lunak Bitcoin yang asli menggabungkan beberapa fungsi sekaligus: ia bertindak sebagai Wallet, sebuah node, dan juga sebagai Miner, yang mampu menghasilkan blok-blok baru. Pada saat itu, tingkat kesulitan Mining sangat rendah. Anda hanya perlu menjalankan perangkat lunak Bitcoin di komputer Anda untuk menemukan blok dan menerima Bitcoin sebagai hadiah.
 
-Namun, dengan popularisasi Bitcoin secara bertahap dan peningkatan jumlah miner, lanskap persaingan dalam mining telah mengalami perubahan signifikan. Saat ini, mining telah menjadi aktivitas yang sangat kompetitif, didominasi oleh pemain industri yang dilengkapi dengan infrastruktur khusus. Daya yang dibutuhkan untuk menambang blok baru kini sangat besar sehingga hampir tidak mungkin bagi pengguna individu untuk mencapainya hanya dengan menggunakan komputer konvensional. Akibatnya, mining kini terutama dilakukan menggunakan mesin khusus yang disebut ASIC (_Application-Specific Integrated Circuits_). Chip ini dioptimalkan secara eksklusif untuk menjalankan double SHA-256, algoritma yang digunakan untuk mining pada Bitcoin.
+Namun, dengan popularisasi Bitcoin secara bertahap dan peningkatan jumlah miner, lanskap persaingan dalam mining telah mengalami perubahan signifikan. Saat ini, mining telah menjadi aktivitas yang sangat kompetitif, didominasi oleh pemain industri yang dilengkapi dengan infrastruktur khusus. Daya yang dibutuhkan untuk menambang blok baru kini sangat besar sehingga hampir tidak mungkin bagi pengguna individu untuk mencapainya hanya dengan menggunakan komputer konvensional. Akibatnya, mining kini terutama dilakukan menggunakan mesin khusus yang disebut [ASIC](https://planb.academy/resources/glossary/asic) (_Application-Specific Integrated Circuits_). Chip ini dioptimalkan secara eksklusif untuk menjalankan double [SHA-256](https://planb.academy/resources/glossary/sha256), algoritma yang digunakan untuk mining pada Bitcoin.
 
 ![Image](assets/fr/053.webp)
 
@@ -177,7 +177,7 @@ Dalam enghadapi evolusi ini, peran Node Bitcoin dan Miner telah menjadi jelas be
 
 Seorang miner membutuhkan Node Bitcoin untuk berinteraksi dengan jaringan.
 
-Peran miner juga terkadang dibedakan dari peran pemotong (mincer). Mincer adalah mesin yang tugasnya adalah hashing template blocks yang disediakan oleh server pool, mencari hash yang memenuhi target kesulitan yang ditentukan untuk shares, dan bukan target kesulitan Bitcoin. Sisa dari proses mining, yang mencakup konstruksi blok yang sebenarnya, pemilihan transaksi, atau pencarian proof-of-work sesuai dengan kesulitan Bitcoin sendiri, serta distribusi, dilakukan langsung oleh pool.
+Peran miner juga terkadang dibedakan dari peran pemotong (mincer). Mincer adalah mesin yang tugasnya adalah hashing template blocks yang disediakan oleh server [pool](https://planb.academy/resources/glossary/pool-mining), mencari hash yang memenuhi target kesulitan yang ditentukan untuk shares, dan bukan target kesulitan Bitcoin. Sisa dari proses mining, yang mencakup konstruksi blok yang sebenarnya, pemilihan transaksi, atau pencarian proof-of-work sesuai dengan kesulitan Bitcoin sendiri, serta distribusi, dilakukan langsung oleh pool.
 
 ![Image](assets/fr/054.webp)
 
@@ -316,7 +316,7 @@ Aspek penting, yang sering disalahpahami, adalah bahwa mengoperasikan node memun
 
 Ini adalah aturan fundamental dari protokol Bitcoin, memastikan integritas sistem dan menetapkan kriteria untuk memvalidasi transaksi dan blok. Setiap transaksi yang tidak mematuhi aturan konsensus ini tidak akan pernah dapat dimasukkan dalam blok yang valid. Misalnya, transaksi dengan tanda tangan yang tidak valid akan secara sistematis dikecualikan.
 
-Mengubah aturan ini setara dengan mengubah protokol, dan ternasuk juga mata uang (Hard Fork). Namun, fakta sederhana untuk secara ketat menerapkan aturan yang ada memberikan kekuatan tertentu: jika sebuah blok melanggar aturan, node segera menolaknya.
+Mengubah aturan ini setara dengan mengubah protokol, dan ternasuk juga mata uang ([Hard Fork](https://planb.academy/resources/glossary/hard-fork)). Namun, fakta sederhana untuk secara ketat menerapkan aturan yang ada memberikan kekuatan tertentu: jika sebuah blok melanggar aturan, node segera menolaknya.
 
 - **Aturan Relai**:
 
@@ -381,7 +381,7 @@ Full Node adalah Node Bitcoin yang secara sederhana mengunduh seluruh Blockchain
 
 Full Node tidak perlu memercayai siapa pun karena ia memvalidasi dan mengetahui semua informasi dalam sistem. Ini adalah jenis node yang memberi Anda jaminan paling besar: Anda tahu, tanpa bergantung pada pihak ketiga, apakah pembayaran valid, apakah blok valid, apakah reorganisasi sah, dan sebagainya.
 
-Dalam praktiknya, Full Node membutuhkan sumber daya yang tidak sedikit, termasuk beberapa ratus gigabyte untuk file blok, prosesor yang mampu memvalidasi script, RAM untuk Mempool dan cache, serta bandwidth yang stabil. Sinkronisasi pertama (IBD – Initial Block Download) membaca dan memverifikasi riwayat lengkap: ini intensif, tetapi hanya terjadi sekali. Full Node secara aktif berpartisipasi dalam jaringan, meneruskan blok dan transaksi, dan dapat menerima koneksi masuk untuk membantu peer lain.
+Dalam praktiknya, Full Node membutuhkan sumber daya yang tidak sedikit, termasuk beberapa ratus gigabyte untuk file blok, prosesor yang mampu memvalidasi script, RAM untuk Mempool dan cache, serta bandwidth yang stabil. Sinkronisasi pertama ([IBD](https://planb.academy/resources/glossary/initial-block-download-ibd) – Initial Block Download) membaca dan memverifikasi riwayat lengkap: ini intensif, tetapi hanya terjadi sekali. Full Node secara aktif berpartisipasi dalam jaringan, meneruskan blok dan transaksi, dan dapat menerima koneksi masuk untuk membantu peer lain.
 
 Tergantung pada kebutuhan Anda, Anda dapat menambahkan indexer ke Full Node Anda. Bitcoin Core menawarkan pengindeksan transaksi sebagai fitur opsional (dinonaktifkan secara default), yang dapat berguna untuk tujuan tertentu. Namun, ini tidak menyertakan pengindeks alamat (address indexer), yang seringkali merupakan fitur yang paling dicari untuk pengguna individu. Untuk mengatasinya, Anda dapat memasang perangkat lunak khusus pada node Anda, seperti Electrs atau Fulcrum, untuk mempercepat query verifikasi saldo alamat dari UTXO yang terkait. Kita akan kembali membahas peran indexer secara lebih rinci dalam bab terpisah.
 
@@ -399,7 +399,7 @@ Singkatnya, pelacakan wallet berfungsi tanpa hambatan pada pruned node jika Anda
 
 ### Node ringan / SPV
 
-Node SPV (_Simplified Payment Verification_), atau node ringan, hanya menyimpan header blok, bukan detail transaksi, dan bergantung pada full node lain untuk mendapatkan bukti bahwa suatu transaksi ada dalam blok (Merkle proofs melalui tree) yang headernya dimilikinya. Konsep verifikasi pembayaran sederhana ini bukanlah hal baru, karena telah diusulkan oleh Satoshi Nakamoto sendiri di Bagian 8 dari White Paper.
+Node [SPV](https://planb.academy/resources/glossary/spv-node-light-node) (_Simplified Payment Verification_), atau node ringan, hanya menyimpan header blok, bukan detail transaksi, dan bergantung pada full node lain untuk mendapatkan bukti bahwa suatu transaksi ada dalam blok ([Merkle](https://planb.academy/resources/glossary/merkle-tree) proofs melalui tree) yang headernya dimilikinya. Konsep verifikasi pembayaran sederhana ini bukanlah hal baru, karena telah diusulkan oleh Satoshi Nakamoto sendiri di Bagian 8 dari White Paper.
 
 ![Image](assets/fr/066.webp)
 
@@ -423,7 +423,7 @@ Pengguna tingkat menengah dengan PC dapat memasang Pruned Node (Node Terpangkas)
 
 - Bitcoiner berdaulat / mahir
 
-Full Node (Node Penuh) tetap merupakan solusi terbaik jika Anda ingin sepenuhnya independen dalam penggunaan Bitcoin Anda dan tidak membatasi diri Anda di kemudian hari untuk penggunaan lanjutan seperti indexer, Node Lightning, atau bahkan block explorer. Itulah yang akan kita jelajahi secara mendalam dalam kursus ini!
+Full Node (Node Penuh) tetap merupakan solusi terbaik jika Anda ingin sepenuhnya independen dalam penggunaan Bitcoin Anda dan tidak membatasi diri Anda di kemudian hari untuk penggunaan lanjutan seperti indexer, Node [Lightning](https://planb.academy/resources/glossary/lightning-network), atau bahkan block explorer. Itulah yang akan kita jelajahi secara mendalam dalam kursus ini!
 
 ## Gambaran umum solusi perangkat lunak
 
@@ -444,7 +444,7 @@ Ini adalah pendekatan yang paling berdaulat dan fleksibel: Anda tahu persis apa 
 
 #### Bitcoin Core (Aplikasi Dominan)
 
-[Bitcoin Core adalah client yang sangat mayoritas di jaringan](https://bitcoincore.org/). Bitcoin Core mengunduh, memvalidasi, dan memelihara Blockchain, menyediakan API RPC/REST, dan dapat mengintegrasikan wallet. Jika Anda lebih memilih alat standar dan merasa nyaman menambahkan layanan sendiri (seperti server Electrum, explorer, dan LND), sebaiknya Anda menggunakan Core apa adanya.
+[Bitcoin Core adalah client yang sangat mayoritas di jaringan](https://bitcoincore.org/). Bitcoin Core mengunduh, memvalidasi, dan memelihara Blockchain, menyediakan API [RPC](https://planb.academy/resources/glossary/rpc-remote-procedure-call)/REST, dan dapat mengintegrasikan wallet. Jika Anda lebih memilih alat standar dan merasa nyaman menambahkan layanan sendiri (seperti server Electrum, explorer, dan LND), sebaiknya Anda menggunakan Core apa adanya.
 
 **Keuntungan:** Stabilitas maksimum, perilaku yang dapat diprediksi, raw experience, mudah dipasang dan dikonfigurasi.
 
@@ -1178,7 +1178,7 @@ Untuk mulai mengkonfigurasi Umbrel Anda, klik tombol "*Start*".
 
 
 
-Pilih nama samaran atau masukkan nama Anda, lalu tetapkan kata sandi yang kuat. Hati-hati: kata sandi ini merupakan satu-satunya penghalang yang melindungi akses ke Umbrel Anda dari jaringan Anda (dan oleh karena itu, berpotensi juga untuk bitcoin Anda jika Anda menjalankan node Lightning di Umbrel). Kata sandi ini juga melindungi akses jarak jauh melalui Tor atau VPN, jika layanan ini diaktifkan.
+Pilih nama samaran atau masukkan nama Anda, lalu tetapkan kata sandi yang kuat. Hati-hati: kata sandi ini merupakan satu-satunya penghalang yang melindungi akses ke Umbrel Anda dari jaringan Anda (dan oleh karena itu, berpotensi juga untuk bitcoin Anda jika Anda menjalankan node Lightning di Umbrel). Kata sandi ini juga melindungi akses jarak jauh melalui [Tor](https://planb.academy/resources/glossary/tor) atau VPN, jika layanan ini diaktifkan.
 
 
 
@@ -1928,7 +1928,7 @@ https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b
 
 
 
-BTCPay Server adalah prosesor pembayaran sumber terbuka gratis yang memungkinkan Anda menerima pembayaran melalui Bitcoin dan Lightning Network tanpa perantara, sambil tetap menyimpan dana sendiri.
+[BTCPay Server](https://planb.academy/resources/glossary/btcpay-server) adalah prosesor pembayaran sumber terbuka gratis yang memungkinkan Anda menerima pembayaran melalui Bitcoin dan Lightning Network tanpa perantara, sambil tetap menyimpan dana sendiri.
 
 
 
@@ -2121,7 +2121,7 @@ IBD terdiri dari mengunduh dan memverifikasi setiap blok dan transaksi satu per 
 
 
 
-Sinkronisasi dimulai dengan langkah _**headers-first**_. Node Anda meminta urutan header blok dari beberapa rekan dan, untuk masing-masing, memverifikasi Proof of Work, penyesuaian kesulitan, sintaksis, serta Timestamp dan aturan nomor versi. Singkatnya, ini memastikan bahwa setiap header yang diterima sesuai dengan aturan konsensus.
+Sinkronisasi dimulai dengan langkah _**headers-first**_. Node Anda meminta urutan header blok dari beberapa rekan dan, untuk masing-masing, memverifikasi Proof of Work, [penyesuaian kesulitan](https://planb.academy/resources/glossary/difficulty-adjustment), sintaksis, serta Timestamp dan aturan nomor versi. Singkatnya, ini memastikan bahwa setiap header yang diterima sesuai dengan aturan konsensus.
 
 
 
@@ -2139,7 +2139,7 @@ Sebagai pengingat, blok Bitcoin terdiri dari header 80-byte dan daftar transaksi
 - Merkle Root transaksi
 - Timestamp (lebih besar dari waktu rata-rata 11 blok sebelumnya)
 - target kesulitan
-- Nonce
+- [Nonce](https://planb.academy/resources/glossary/nonce)
 
 
 
@@ -2147,7 +2147,7 @@ Sebagai pengingat, blok Bitcoin terdiri dari header 80-byte dan daftar transaksi
 
 
 
-Transaksi dilakukan pada sebuah Merkle Tree. Ini merupakan struktur yang meringkas sekumpulan besar data (dalam hal ini, semua transaksi dalam blok) dengan menggabungkan hash mereka secara progresif dua per dua ke satu "root", sehingga membuktikan bahwa sebuah elemen adalah bagian dari kumpulan tersebut (dan mendeteksi modifikasi apa pun). Dengan cara ini, setiap modifikasi pada transaksi juga memodifikasi root dari Merkle Tree dan oleh karena itu sidik jari header blok. SegWit telah memperkenalkan Commitment tambahan yang terpisah untuk cookie (tanda tangan), yang ditempatkan di dalam basis koin.
+Transaksi dilakukan pada sebuah Merkle Tree. Ini merupakan struktur yang meringkas sekumpulan besar data (dalam hal ini, semua transaksi dalam blok) dengan menggabungkan hash mereka secara progresif dua per dua ke satu "root", sehingga membuktikan bahwa sebuah elemen adalah bagian dari kumpulan tersebut (dan mendeteksi modifikasi apa pun). Dengan cara ini, setiap modifikasi pada transaksi juga memodifikasi root dari Merkle Tree dan oleh karena itu sidik jari header blok. [SegWit](https://planb.academy/resources/glossary/segwit) telah memperkenalkan Commitment tambahan yang terpisah untuk cookie (tanda tangan), yang ditempatkan di dalam basis koin.
 
 
 
@@ -2215,7 +2215,7 @@ Ketika node dinyalakan kembali setelah digunakan, Core pertama-tama mencoba meny
 
 
 
-Dalam kasus ini, perangkat lunak menanyakan _**DNS seeds**_. Ini adalah [server yang dikelola oleh pengembang ekosistem yang diakui](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), yang mengembalikan daftar alamat IP dari node yang diduga aktif. Alamat-alamat ini memungkinkan node baru untuk memulai koneksi pertamanya dan meminta data yang diperlukan dari IBD. Berikut ini adalah daftar *benih DNS* yang aktif hingga saat ini (Agustus 2025):
+Dalam kasus ini, perangkat lunak menanyakan _**[DNS seeds](https://planb.academy/resources/glossary/dns-seeds)**_. Ini adalah [server yang dikelola oleh pengembang ekosistem yang diakui](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), yang mengembalikan daftar alamat IP dari node yang diduga aktif. Alamat-alamat ini memungkinkan node baru untuk memulai koneksi pertamanya dan meminta data yang diperlukan dari IBD. Berikut ini adalah daftar *benih DNS* yang aktif hingga saat ini (Agustus 2025):
 
 
 
@@ -2331,7 +2331,7 @@ Agar dapat kembali ke masa lalu selama reorganisasi, Core menyimpan, secara para
 
 
 
-Mencari sebuah blok secara langsung di dalam berkas datar akan terlalu memakan waktu. Oleh karena itu, Core memelihara basis data LevelDB di `blocks/index/` yang berisi daftar, untuk setiap blok yang diketahui, metadata seperti Hash, tinggi, status validasi, file `blk`, dan offset di mana blok tersebut berada. Ketika sebuah peer meminta sebuah blok, atau ketika sebuah komponen internal perlu mengakses blok tertentu, indeks ini menyediakan akses cepat. Tanpa indeks ini, terlalu banyak operasi yang diperlukan.
+Mencari sebuah blok secara langsung di dalam berkas datar akan terlalu memakan waktu. Oleh karena itu, Core memelihara basis data [LevelDB](https://planb.academy/resources/glossary/leveldb) di `blocks/index/` yang berisi daftar, untuk setiap blok yang diketahui, metadata seperti Hash, tinggi, status validasi, file `blk`, dan offset di mana blok tersebut berada. Ketika sebuah peer meminta sebuah blok, atau ketika sebuah komponen internal perlu mengakses blok tertentu, indeks ini menyediakan akses cepat. Tanpa indeks ini, terlalu banyak operasi yang diperlukan.
 
 
 
@@ -2373,7 +2373,7 @@ Totalitas dari semua bagian ini pada saat tertentu T merupakan kumpulan UTXO: da
 
 
 
-Kumpulan UTXO disimpan dalam folder `chainstate/` sebagai basis data LevelDB yang ringkas. Setiap bagian mengaitkan kunci yang berasal dari Hash transaksi dan indeks keluaran dengan nilai yang berisi: jumlah, kunci `scriptPubKey`, tinggi blok pembuatan, dan indikator coinbase.
+Kumpulan UTXO disimpan dalam folder `chainstate/` sebagai basis data LevelDB yang ringkas. Setiap bagian mengaitkan kunci yang berasal dari Hash transaksi dan indeks keluaran dengan nilai yang berisi: jumlah, kunci `scriptPubKey`, tinggi blok pembuatan, dan indikator [coinbase](https://planb.academy/resources/glossary/coinbase-transaction).
 
 
 
@@ -2397,13 +2397,13 @@ Perhatikan bahwa set UTXO sering kali menjadi pusat perhatian tentang desentrali
 
 
 
-Pertumbuhan set UTXO juga berasal dari struktur transaksi pembayaran sederhana pada Bitcoin. Memang, ketika Anda melakukan pembayaran, Anda mengonsumsi satu UTXO sebagai input dan membuat 2 UTXO baru sebagai output (satu untuk pembayaran dan satu lagi untuk Exchange). Terakhir, heuristik analisis rantai, yang disebut CIOH (*Common Input Ownership Heuristic*), memberikan insentif lebih lanjut untuk menghindari konsolidasi Coin.
+Pertumbuhan set UTXO juga berasal dari struktur transaksi pembayaran sederhana pada Bitcoin. Memang, ketika Anda melakukan pembayaran, Anda mengonsumsi satu UTXO sebagai input dan membuat 2 UTXO baru sebagai output (satu untuk pembayaran dan satu lagi untuk Exchange). Terakhir, heuristik analisis rantai, yang disebut [CIOH](https://planb.academy/resources/glossary/cioh) (*Common Input Ownership Heuristic*), memberikan insentif lebih lanjut untuk menghindari konsolidasi Coin.
 
 
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Karena sebagian harus disimpan dalam RAM untuk memverifikasi transaksi dalam waktu yang wajar, set UTXO secara bertahap dapat membuat pengoperasian Full node menjadi terlalu mahal. Untuk mengatasi masalah ini, beberapa proposal sudah ada, terutama [Utreexo](https://planb.academy/resources/glossary/utreexo).
+Karena sebagian harus disimpan dalam RAM untuk memverifikasi transaksi dalam waktu yang wajar, set UTXO secara bertahap dapat membuat pengoperasian Full node menjadi terlalu mahal. Untuk mengatasi masalah ini, beberapa proposal sudah ada, terutama Utreexo.
 
 
 
@@ -2430,7 +2430,7 @@ Penting untuk dicatat bahwa mempool node tidak memiliki nilai konsensus. Bitcoin
 
 
 
-Ketika sebuah transaksi diterima, Core menerapkan serangkaian pemeriksaan terhadap aturan konsensus (sintaks, skrip yang valid, tidak ada pengeluaran ganda, dll.) dan aturan Mempool, yang merupakan kebijakan lokal (RBF, ambang batas biaya minimum, batas data dalam `OP_RETURN`, dll.). Jika transaksi mematuhi aturan-aturan ini, maka transaksi akan disimpan dalam memori.
+Ketika sebuah transaksi diterima, Core menerapkan serangkaian pemeriksaan terhadap aturan konsensus (sintaks, skrip yang valid, tidak ada pengeluaran ganda, dll.) dan aturan Mempool, yang merupakan kebijakan lokal ([RBF](https://planb.academy/resources/glossary/rbf-replacebyfee), ambang batas biaya minimum, batas data dalam `OP_RETURN`, dll.). Jika transaksi mematuhi aturan-aturan ini, maka transaksi akan disimpan dalam memori.
 
 
 
@@ -2671,7 +2671,7 @@ Di tingkat jaringan, kami juga memiliki:
 
 
 
-Secara default, node Anda berkomunikasi melalui clearnet, Tor, dan I2P. Ini berarti bahwa rekan-rekan yang terhubung dengannya di clearnet dapat melihat IP publik Anda Address, dan ISP Anda kemungkinan akan dapat mendeteksi bahwa Anda menjalankan node Bitcoin (meskipun P2P Transport V2 membuat lebih sulit bagi ISP untuk menguping). Ini tidak selalu menjadi masalah, tetapi jika Anda ingin menghindari kebocoran informasi ini, Anda dapat menyambungkan node Anda secara eksklusif melalui jaringan Tor.
+Secara default, node Anda berkomunikasi melalui clearnet, Tor, dan I2P. Ini berarti bahwa rekan-rekan yang terhubung dengannya di clearnet dapat melihat IP publik Anda Address, dan ISP Anda kemungkinan akan dapat mendeteksi bahwa Anda menjalankan node Bitcoin (meskipun [P2P Transport V2](https://planb.academy/resources/glossary/p2p-transport-v2) membuat lebih sulit bagi ISP untuk menguping). Ini tidak selalu menjadi masalah, tetapi jika Anda ingin menghindari kebocoran informasi ini, Anda dapat menyambungkan node Anda secara eksklusif melalui jaringan Tor.
 
 
 
@@ -2790,7 +2790,7 @@ Berikut ini adalah pengaturan lanjutan untuk Mempool dan kebijakan relai. Jika A
 
 
 
-- `permitbaremultisig = 1`: Mengizinkan pengiriman ulang transaksi P2MS *bare-Multisig* (default: `1`). Ini adalah templat skrip tertua untuk menetapkan kondisi multisignature pada UTXO (ditemukan pada tahun 2011 oleh Gavin Andresen).
+- `permitbaremultisig = 1`: Mengizinkan pengiriman ulang transaksi P2MS *bare-Multisig* (default: `1`). Ini adalah templat skrip tertua untuk menetapkan kondisi [multisignature](https://planb.academy/resources/glossary/multisig) pada UTXO (ditemukan pada tahun 2011 oleh Gavin Andresen).
 
 
 
@@ -2814,7 +2814,7 @@ Berikut ini adalah pengaturan lanjutan untuk Mempool dan kebijakan relai. Jika A
 
 
 
-- `peerbloomfilters=1` : Mengaktifkan dukungan untuk filter Bloom (BIP37) guna melayani blok/transaksi yang difilter ke klien ringan (default: `0`). Perhatian, ini meningkatkan beban pada sumber daya Anda.
+- `peerbloomfilters=1` : Mengaktifkan dukungan untuk [filter Bloom](https://planb.academy/resources/glossary/bloom-filter) (BIP37) guna melayani blok/transaksi yang difilter ke klien ringan (default: `0`). Perhatian, ini meningkatkan beban pada sumber daya Anda.
 
 
 

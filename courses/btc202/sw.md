@@ -304,7 +304,7 @@ Hapo awali, Bitcoin ilipozinduliwa na Satoshi Nakamoto mnamo 2009, kila mtumiaji
 
 
 
-Hata hivyo, pamoja na umaarufu wa taratibu wa Bitcoin na ongezeko la idadi ya miners, mazingira ya ushindani katika Mining yamepitia mabadiliko makubwa. Leo, Mining imekuwa shughuli yenye ushindani mkubwa, inayotawaliwa na wachezaji wa viwandani walio na miundomsingi maalum. Nguvu inayohitajika kuchimba block mpya sasa ni kubwa sana hivi kwamba haiwezekani kwa mtumiaji binafsi kufanikisha hili kwa kutumia kompyuta ya kawaida tu. Kwa hivyo, Mining sasa kimsingi inatekelezwa kwa kutumia mashine maalum zinazoitwa ASICs (*Mizunguko Iliyounganishwa ya Maombi-Maalum*). Chips hizi zimeboreshwa ili kuendesha SHA-256 mara mbili, kanuni inayotumika kwa Mining kwenye Bitcoin.
+Hata hivyo, pamoja na umaarufu wa taratibu wa Bitcoin na ongezeko la idadi ya miners, mazingira ya ushindani katika Mining yamepitia mabadiliko makubwa. Leo, Mining imekuwa shughuli yenye ushindani mkubwa, inayotawaliwa na wachezaji wa viwandani walio na miundomsingi maalum. Nguvu inayohitajika kuchimba block mpya sasa ni kubwa sana hivi kwamba haiwezekani kwa mtumiaji binafsi kufanikisha hili kwa kutumia kompyuta ya kawaida tu. Kwa hivyo, Mining sasa kimsingi inatekelezwa kwa kutumia mashine maalum zinazoitwa [ASICs](https://planb.academy/resources/glossary/asic) (*Mizunguko Iliyounganishwa ya Maombi-Maalum*). Chips hizi zimeboreshwa ili kuendesha [SHA-256](https://planb.academy/resources/glossary/sha256) mara mbili, kanuni inayotumika kwa Mining kwenye Bitcoin.
 
 
 
@@ -598,7 +598,7 @@ Hizi ndizo kanuni za kimsingi za protocol ya Bitcoin, kuhakikisha uadilifu wa mf
 
 
 
-Kubadilisha sheria hizi ni sawa na kubadilisha protocol, na kwa hiyo sarafu (Hard Fork). Walakini, hata bila kujaribu kuzibadilisha, ukweli rahisi wa kutumia madhubuti sheria zilizopo hutoa nguvu fulani: ikiwa block inakiuka sheria, node huikataa mara moja.
+Kubadilisha sheria hizi ni sawa na kubadilisha protocol, na kwa hiyo sarafu ([Hard Fork](https://planb.academy/resources/glossary/hard-fork)). Walakini, hata bila kujaribu kuzibadilisha, ukweli rahisi wa kutumia madhubuti sheria zilizopo hutoa nguvu fulani: ikiwa block inakiuka sheria, node huikataa mara moja.
 
 
 
@@ -722,7 +722,7 @@ Full node haihitaji kumwamini mtu yeyote kwa sababu inathibitisha na kujua taari
 
 
 
-Kwa mazoezi, Full node inahitaji rasilimali zisizo za kawaida, ikiwa ni pamoja na gigabytes mia kadhaa kwa faili za kuzuia, processor yenye uwezo wa kuthibitisha maandiko, RAM kwa Mempool na caches, na bandwidth imara. Usawazishaji wa kwanza (*IBD*) husoma na kuthibitisha historia kamili: ni kubwa, lakini hutokea mara moja tu. Full node hushiriki kikamilifu katika mtandao, kusambaza blocks na miamala, na inaweza kukubali miunganisho inayoingia ili kuwasaidia wenzao wengine.
+Kwa mazoezi, Full node inahitaji rasilimali zisizo za kawaida, ikiwa ni pamoja na gigabytes mia kadhaa kwa faili za kuzuia, processor yenye uwezo wa kuthibitisha maandiko, RAM kwa Mempool na caches, na bandwidth imara. Usawazishaji wa kwanza (*[IBD](https://planb.academy/resources/glossary/initial-block-download-ibd)*) husoma na kuthibitisha historia kamili: ni kubwa, lakini hutokea mara moja tu. Full node hushiriki kikamilifu katika mtandao, kusambaza blocks na miamala, na inaweza kukubali miunganisho inayoingia ili kuwasaidia wenzao wengine.
 
 
 
@@ -758,7 +758,7 @@ Kwa kifupi, ufuatiliaji wa Wallet hufanya kazi bila hitch kwenye node ya pruned 
 
 
 
-Sehemu ya SPV (*Uthibitishaji Uliorahisishwa wa Malipo*), au node nyepesi, hubakiza vichwa vya blocks pekee, si maelezo ya muamala, na hutegemea node nyinginezo kamili ili kupata uthibitisho kwamba shughuli iko kwenye block (Uthibitisho wa Merkle kupitia miti) ambayo ina kichwa chake. Dhana ya uthibitishaji wa malipo uliorahisishwa si ngeni, kwa kuwa imependekezwa na Satoshi Nakamoto mwenyewe katika sehemu ya 8 ya White Paper.
+Sehemu ya [SPV](https://planb.academy/resources/glossary/spv-node-light-node) (*Uthibitishaji Uliorahisishwa wa Malipo*), au node nyepesi, hubakiza vichwa vya blocks pekee, si maelezo ya muamala, na hutegemea node nyinginezo kamili ili kupata uthibitisho kwamba shughuli iko kwenye block (Uthibitisho wa [Merkle](https://planb.academy/resources/glossary/merkle-tree) kupitia miti) ambayo ina kichwa chake. Dhana ya uthibitishaji wa malipo uliorahisishwa si ngeni, kwa kuwa imependekezwa na Satoshi Nakamoto mwenyewe katika sehemu ya 8 ya White Paper.
 
 
 
@@ -812,7 +812,7 @@ Mtumiaji wa kati aliye na PC anaweza kufunga node ya pruned ili kufaidika na kar
 
 
 
-Full node inasalia kuwa suluhisho bora zaidi ikiwa unataka kuwa huru kabisa katika matumizi yako ya Bitcoin na usijizuie baadaye kwa matumizi ya hali ya juu kama vile kielezo, lightning node, au hata Block explorer. Hiyo ndiyo hasa tutakayochunguza katika kozi hii!
+Full node inasalia kuwa suluhisho bora zaidi ikiwa unataka kuwa huru kabisa katika matumizi yako ya Bitcoin na usijizuie baadaye kwa matumizi ya hali ya juu kama vile kielezo, [lightning](https://planb.academy/resources/glossary/lightning-network) node, au hata Block explorer. Hiyo ndiyo hasa tutakayochunguza katika kozi hii!
 
 
 
@@ -853,7 +853,7 @@ Hii ndiyo mbinu huru na inayoweza kunyumbulika zaidi: unajua hasa kinachoendelea
 
 
 
-[Bitcoin core ndiye mteja wa mtandao wa walio wengi zaidi](https://bitcoincore.org/). Inapakua, kuhalalisha, na kudumisha Blockchain, hutoa API za RPC/REST, na inaweza kuunganisha Wallet. Ikiwa unapendelea zana za kawaida na ujisikie vizuri kuongeza huduma mwenyewe (kama vile server ya Electrum, kichunguzi na LND), ni bora kutumia Core kama ilivyo.
+[Bitcoin core ndiye mteja wa mtandao wa walio wengi zaidi](https://bitcoincore.org/). Inapakua, kuhalalisha, na kudumisha Blockchain, hutoa API za [RPC](https://planb.academy/resources/glossary/rpc-remote-procedure-call)/REST, na inaweza kuunganisha Wallet. Ikiwa unapendelea zana za kawaida na ujisikie vizuri kuongeza huduma mwenyewe (kama vile server ya Electrum, kichunguzi na LND), ni bora kutumia Core kama ilivyo.
 
 
 
@@ -1856,7 +1856,7 @@ Ili kuanza kusanidi Umbrel yako, bofya kitufe cha "*Anza*".
 
 
 
-Chagua jina bandia au weka jina lako, kisha weka nenosiri dhabiti. Kuwa mwangalifu: nenosiri hili ndio block pekee kinacholinda ufikiaji wa Umbrel yako kutoka kwa mtandao wako (na kwa hivyo, uwezekano, kwa bitcoins zako ikiwa unaendesha lightning node kwenye Umbrel). Pia hulinda ufikiaji wa mbali kupitia Tor au VPN, ikiwa huduma hizi zimewashwa.
+Chagua jina bandia au weka jina lako, kisha weka nenosiri dhabiti. Kuwa mwangalifu: nenosiri hili ndio block pekee kinacholinda ufikiaji wa Umbrel yako kutoka kwa mtandao wako (na kwa hivyo, uwezekano, kwa bitcoins zako ikiwa unaendesha lightning node kwenye Umbrel). Pia hulinda ufikiaji wa mbali kupitia [Tor](https://planb.academy/resources/glossary/tor) au VPN, ikiwa huduma hizi zimewashwa.
 
 
 
@@ -2817,7 +2817,7 @@ Kama ukumbusho, block ya Bitcoin ina kichwa cha baiti 80 na orodha ya miamala. A
 - Merkle Root ya shughuli
 - Timestamp (kubwa kuliko muda wa wastani wa blocks 11 zilivyotangulia)
 - ugumu lengo
-- Nonce
+- [Nonce](https://planb.academy/resources/glossary/nonce)
 
 
 
@@ -2825,7 +2825,7 @@ Kama ukumbusho, block ya Bitcoin ina kichwa cha baiti 80 na orodha ya miamala. A
 
 
 
-Malipo yamefanywa kwa Merkle Tree. Huu ni muundo ambao ni muhtasari wa seti kubwa ya data (katika kesi hii, shughuli zote kwenye block) kwa kukusanya heshi zao hatua kwa hatua mbili kwa mbili hadi "mizizi" moja, na hivyo kuthibitisha kuwa kipengele ni cha seti (na kugundua marekebisho yoyote). Kwa njia hii, marekebisho yoyote kwa shughuli pia hurekebisha mzizi wa Merkle Tree na kwa hivyo alama ya vidole ya kichwa cha block. SegWit imeanzisha Commitment ya ziada ya ziada kwa vidakuzi (saini), iliyowekwa kwenye coinbase.
+Malipo yamefanywa kwa Merkle Tree. Huu ni muundo ambao ni muhtasari wa seti kubwa ya data (katika kesi hii, shughuli zote kwenye block) kwa kukusanya heshi zao hatua kwa hatua mbili kwa mbili hadi "mizizi" moja, na hivyo kuthibitisha kuwa kipengele ni cha seti (na kugundua marekebisho yoyote). Kwa njia hii, marekebisho yoyote kwa shughuli pia hurekebisha mzizi wa Merkle Tree na kwa hivyo alama ya vidole ya kichwa cha block. [SegWit](https://planb.academy/resources/glossary/segwit) imeanzisha Commitment ya ziada ya ziada kwa vidakuzi (saini), iliyowekwa kwenye coinbase.
 
 
 
@@ -2849,7 +2849,7 @@ Mara tu IBD itakapokamilika, node huingia katika awamu yake ya kawaida: inathibi
 
 
 
-Bitcoin core inajumuisha utaratibu ulioundwa ili kupunguza muda unaohitajika kabla ya node kufanya kazi kikamilifu, huku ikihifadhi kiini cha kanuni ya uthibitishaji wa kujitegemea: AssumeValid.
+Bitcoin core inajumuisha utaratibu ulioundwa ili kupunguza muda unaohitajika kabla ya node kufanya kazi kikamilifu, huku ikihifadhi kiini cha kanuni ya uthibitishaji wa kujitegemea: [AssumeValid](https://planb.academy/resources/glossary/assume-valid).
 
 
 
@@ -3009,7 +3009,7 @@ Ili kuweza kurejea wakati wakati wa kupanga upya, Core huhifadhi, sambamba na ki
 
 
 
-Kutafuta block moja kwa moja kwenye faili tambarare kunaweza kuchukua wakati mwingi. Kwa hivyo Core hudumisha hifadhidata ya LevelDB katika `blocks/index/` ambayo huorodhesha, kwa kila block inayojulikana, metadata kama vile Hash, urefu, hali ya uthibitishaji, `blk` faili, na kukabiliana mahali ilipo. Rafiki anapoomba block, au wakati kijenzi cha ndani kinahitaji kufikia block mahususi, faharasa hii hutoa ufikiaji wa haraka. Bila faharasa hii, shughuli nyingi sana zingehitajika.
+Kutafuta block moja kwa moja kwenye faili tambarare kunaweza kuchukua wakati mwingi. Kwa hivyo Core hudumisha hifadhidata ya [LevelDB](https://planb.academy/resources/glossary/leveldb) katika `blocks/index/` ambayo huorodhesha, kwa kila block inayojulikana, metadata kama vile Hash, urefu, hali ya uthibitishaji, `blk` faili, na kukabiliana mahali ilipo. Rafiki anapoomba block, au wakati kijenzi cha ndani kinahitaji kufikia block mahususi, faharasa hii hutoa ufikiaji wa haraka. Bila faharasa hii, shughuli nyingi sana zingehitajika.
 
 
 
@@ -3051,7 +3051,7 @@ Jumla ya sehemu hizi zote kwa wakati fulani T inajumuisha seti ya UTXO: orodha k
 
 
 
-Seti ya UTXO imehifadhiwa katika folda ya `chainstate/` kama hifadhidata fupi ya LevelDB. Kila sehemu huhusisha ufunguo unaotokana na Hash ya shughuli na faharasa ya matokeo na thamani iliyo na: kiasi, kufuli ya `scriptPubKey`, urefu wa block ya kuunda, na kiashirio cha coinbase.
+Seti ya UTXO imehifadhiwa katika folda ya `chainstate/` kama hifadhidata fupi ya LevelDB. Kila sehemu huhusisha ufunguo unaotokana na Hash ya shughuli na faharasa ya matokeo na thamani iliyo na: kiasi, kufuli ya `scriptPubKey`, urefu wa block ya kuunda, na kiashirio cha [coinbase](https://planb.academy/resources/glossary/coinbase-transaction).
 
 
 
@@ -3075,13 +3075,13 @@ Kumbuka kuwa seti ya UTXO mara nyingi ndiyo kiini cha wasiwasi kuhusu ugatuaji w
 
 
 
-Ukuaji wa seti ya UTXO pia unatokana na muundo wa shughuli za malipo rahisi kwenye Bitcoin. Hakika, unapofanya malipo, unatumia UTXO moja kama ingizo na kuunda UTXO 2 mpya kama pato (moja kwa ajili ya malipo na nyingine kwa Exchange). Hatimaye, uchanganuzi wa kiheuristic wa msururu, unaoitwa CIOH (*Ingizo la Kawaida Ownership Heuristic*), hutoa motisha zaidi ili kuepuka ujumuishaji wa Coin.
+Ukuaji wa seti ya UTXO pia unatokana na muundo wa shughuli za malipo rahisi kwenye Bitcoin. Hakika, unapofanya malipo, unatumia UTXO moja kama ingizo na kuunda UTXO 2 mpya kama pato (moja kwa ajili ya malipo na nyingine kwa Exchange). Hatimaye, uchanganuzi wa kiheuristic wa msururu, unaoitwa [CIOH](https://planb.academy/resources/glossary/cioh) (*Ingizo la Kawaida Ownership Heuristic*), hutoa motisha zaidi ili kuepuka ujumuishaji wa Coin.
 
 
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Kwa kuwa sehemu yake lazima iwekwe kwenye RAM ili kuthibitisha miamala kwa wakati unaofaa, seti ya UTXO inaweza hatua kwa hatua kufanya utendakazi wa Full node kuwa wa gharama kubwa sana. Ili kutatua tatizo hili, tayari kuna mapendekezo machache, hasa [Utreexo](https://planb.academy/resources/glossary/utreexo).
+Kwa kuwa sehemu yake lazima iwekwe kwenye RAM ili kuthibitisha miamala kwa wakati unaofaa, seti ya UTXO inaweza hatua kwa hatua kufanya utendakazi wa Full node kuwa wa gharama kubwa sana. Ili kutatua tatizo hili, tayari kuna mapendekezo machache, hasa Utreexo.
 
 
 
@@ -3108,7 +3108,7 @@ Ni muhimu kutambua kwamba mempools za node hazina thamani ya makubaliano. Bitcoi
 
 
 
-Wakati muamala unapopokelewa, Core hutumia mfululizo wa ukaguzi dhidi ya sheria za makubaliano (syntax, hati halali, hakuna matumizi maradufu, n.k.) na sheria za Mempool, ambazo ni sera ya ndani (RBF, viwango vya chini vya malipo, kikomo cha data katika `OP_RETURN`, n.k.). Ikiwa shughuli inazingatia sheria hizi, imehifadhiwa kwenye kumbukumbu.
+Wakati muamala unapopokelewa, Core hutumia mfululizo wa ukaguzi dhidi ya sheria za makubaliano (syntax, hati halali, hakuna matumizi maradufu, n.k.) na sheria za Mempool, ambazo ni sera ya ndani ([RBF](https://planb.academy/resources/glossary/rbf-replacebyfee), viwango vya chini vya malipo, kikomo cha data katika `OP_RETURN`, n.k.). Ikiwa shughuli inazingatia sheria hizi, imehifadhiwa kwenye kumbukumbu.
 
 
 
@@ -3349,7 +3349,7 @@ Katika kiwango cha mtandao, pia tunayo:
 
 
 
-Kwa chaguo-msingi, node yako huwasiliana kupitia clearnet, Tor, na I2P. Hii ina maana kwamba wenzao inaoungana nao kwenye clearnet wanaweza kuona IP yako ya umma Address, na ISP wako kuna uwezekano ataweza kugundua kuwa unaendesha node ya Bitcoin (ingawa P2P Transport V2 hufanya iwe vigumu zaidi kwa ISP kukusikiliza). Hili sio shida, lakini ikiwa unataka kuzuia uvujaji wowote wa habari hii, unaweza kuunganisha node yako kupitia mtandao wa Tor.
+Kwa chaguo-msingi, node yako huwasiliana kupitia clearnet, Tor, na I2P. Hii ina maana kwamba wenzao inaoungana nao kwenye clearnet wanaweza kuona IP yako ya umma Address, na ISP wako kuna uwezekano ataweza kugundua kuwa unaendesha node ya Bitcoin (ingawa [P2P Transport V2](https://planb.academy/resources/glossary/p2p-transport-v2) hufanya iwe vigumu zaidi kwa ISP kukusikiliza). Hili sio shida, lakini ikiwa unataka kuzuia uvujaji wowote wa habari hii, unaweza kuunganisha node yako kupitia mtandao wa Tor.
 
 
 
@@ -3468,7 +3468,7 @@ Hapa kuna mipangilio ya kina ya Mempool na sera ya relay. Ikiwa wewe ni mwanzili
 
 
 
-- `permitbaremultisig=1`: Huruhusu utumaji upya wa shughuli za *bare-Multisig* P2MS (chaguo-msingi: `1`). Hiki ndicho kiolezo cha hati kongwe zaidi cha kuanzisha masharti ya saini nyingi kwenye UTXO (iliyovumbuliwa mwaka wa 2011 na Gavin Andresen).
+- `permitbaremultisig=1`: Huruhusu utumaji upya wa shughuli za *bare-[Multisig](https://planb.academy/resources/glossary/multisig)* P2MS (chaguo-msingi: `1`). Hiki ndicho kiolezo cha hati kongwe zaidi cha kuanzisha masharti ya saini nyingi kwenye UTXO (iliyovumbuliwa mwaka wa 2011 na Gavin Andresen).
 
 
 

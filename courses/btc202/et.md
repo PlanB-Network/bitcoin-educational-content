@@ -304,7 +304,7 @@ Kui Satoshi Nakamoto 2009. aastal Bitcoin käivitas, eeldati algselt, et iga kas
 
 
 
-Bitcoin järkjärgulise populariseerimisega ja kaevurite arvu suurenemisega on Mining konkurentsimaastik siiski radikaalselt muutunud. Tänapäeval on Mining muutunud äärmiselt konkurentsivõimeliseks tegevuseks, kus domineerivad spetsialiseeritud infrastruktuuriga varustatud tööstuslikud ettevõtjad. Uue ploki kaevandamiseks vajalik võimsus on nüüd nii suur, et üksikkasutajal on praktiliselt võimatu seda saavutada ainult tavalise arvuti abil. Seetõttu kasutatakse Mining kaevandamisel nüüd peamiselt spetsiaalseid masinaid, mida nimetatakse ASIC-deks (*rakendusspetsiifilised integraallülitused*). Need kiibid on optimeeritud ainult Bitcoin puhul Mining jaoks kasutatud algoritmi SHA-256 kahekordseks käivitamiseks.
+Bitcoin järkjärgulise populariseerimisega ja kaevurite arvu suurenemisega on Mining konkurentsimaastik siiski radikaalselt muutunud. Tänapäeval on Mining muutunud äärmiselt konkurentsivõimeliseks tegevuseks, kus domineerivad spetsialiseeritud infrastruktuuriga varustatud tööstuslikud ettevõtjad. Uue ploki kaevandamiseks vajalik võimsus on nüüd nii suur, et üksikkasutajal on praktiliselt võimatu seda saavutada ainult tavalise arvuti abil. Seetõttu kasutatakse Mining kaevandamisel nüüd peamiselt spetsiaalseid masinaid, mida nimetatakse [ASIC](https://planb.academy/resources/glossary/asic)-deks (*rakendusspetsiifilised integraallülitused*). Need kiibid on optimeeritud ainult Bitcoin puhul Mining jaoks kasutatud algoritmi [SHA-256](https://planb.academy/resources/glossary/sha256) kahekordseks käivitamiseks.
 
 
 
@@ -328,7 +328,7 @@ Miner vajab võrguga suhtlemiseks Bitcoin sõlme.
 
 
 
-Mõnikord eristatakse ka Miner rolli grind. Grind on masin, mille ülesanne on Hash malliplokid, mis on tarnitud basseiniserveri poolt, otsides häkke, mis vastavad aktsiate jaoks määratletud raskusastme eesmärgile, mitte aga Bitcoin-le. Ülejäänud Mining protsessi, mis hõlmab tegelikku plokkide konstrueerimist, tehingu valimist või Bitcoin enda raskusastme järgi Bitcoin otsimist, samuti jaotamist, teostavad otse basseinid.
+Mõnikord eristatakse ka Miner rolli grind. Grind on masin, mille ülesanne on Hash malliplokid, mis on tarnitud basseiniserveri [poolt](https://planb.academy/resources/glossary/pool-mining), otsides häkke, mis vastavad aktsiate jaoks määratletud raskusastme eesmärgile, mitte aga Bitcoin-le. Ülejäänud Mining protsessi, mis hõlmab tegelikku plokkide konstrueerimist, tehingu valimist või Bitcoin enda raskusastme järgi Bitcoin otsimist, samuti jaotamist, teostavad otse basseinid.
 
 
 
@@ -598,7 +598,7 @@ Need on Bitcoin protokolli põhireeglid, mis tagavad süsteemi terviklikkuse ja 
 
 
 
-Nende reeglite muutmine on samaväärne protokolli ja seega ka valuuta muutmisega (Hard Fork). Kuid isegi kui neid muuta ei üritata, annab ainuüksi olemasolevate reeglite range kohaldamine teatava võimu: kui plokk rikub reegleid, lükkab sõlmpunkt selle kohe tagasi.
+Nende reeglite muutmine on samaväärne protokolli ja seega ka valuuta muutmisega ([Hard Fork](https://planb.academy/resources/glossary/hard-fork)). Kuid isegi kui neid muuta ei üritata, annab ainuüksi olemasolevate reeglite range kohaldamine teatava võimu: kui plokk rikub reegleid, lükkab sõlmpunkt selle kohe tagasi.
 
 
 
@@ -722,7 +722,7 @@ Full node ei pea kedagi usaldama, sest ta valideerib ja teab kogu süsteemis ole
 
 
 
-Praktikas nõuab Full node mittetriviaalseid ressursse, sealhulgas mitusada gigabaiti plokkfailide jaoks, protsessorit, mis suudab skriptid valideerida, RAM-i Mempool ja vahemälu jaoks ning stabiilset ribalaiust. Esimene sünkroniseerimine (*IBD*) loeb ja kontrollib kogu ajalugu: see on intensiivne, kuid toimub ainult üks kord. Full node osaleb aktiivselt võrgus, edastades plokke ja tehinguid ning võib vastu võtta sissetulevaid ühendusi, et aidata teisi eakaaslasi.
+Praktikas nõuab Full node mittetriviaalseid ressursse, sealhulgas mitusada gigabaiti plokkfailide jaoks, protsessorit, mis suudab skriptid valideerida, RAM-i Mempool ja vahemälu jaoks ning stabiilset ribalaiust. Esimene sünkroniseerimine (*[IBD](https://planb.academy/resources/glossary/initial-block-download-ibd)*) loeb ja kontrollib kogu ajalugu: see on intensiivne, kuid toimub ainult üks kord. Full node osaleb aktiivselt võrgus, edastades plokke ja tehinguid ning võib vastu võtta sissetulevaid ühendusi, et aidata teisi eakaaslasi.
 
 
 
@@ -758,7 +758,7 @@ Lühidalt öeldes töötab Wallet jälgimine pruned-sõlmes tõrgeteta, kui te l
 
 
 
-SPV-sõlm (*Simplified Payment Verification*) ehk lihtsustatud maksesõlm säilitab ainult plokkide päiseid, mitte tehingu üksikasju, ja tugineb teistele täissõlmedele, et saada tõendeid, et tehing on plokis (Merkle-tõendid puude kaudu), mille päis on tal olemas. Lihtsustatud makse tõendamise kontseptsioon ei ole uus, selle pakkus välja Satoshi Nakamoto ise valge raamatu 8. osas.
+[SPV](https://planb.academy/resources/glossary/spv-node-light-node)-sõlm (*Simplified Payment Verification*) ehk lihtsustatud maksesõlm säilitab ainult plokkide päiseid, mitte tehingu üksikasju, ja tugineb teistele täissõlmedele, et saada tõendeid, et tehing on plokis ([Merkle](https://planb.academy/resources/glossary/merkle-tree)-tõendid puude kaudu), mille päis on tal olemas. Lihtsustatud makse tõendamise kontseptsioon ei ole uus, selle pakkus välja Satoshi Nakamoto ise valge raamatu 8. osas.
 
 
 
@@ -812,7 +812,7 @@ Keskmise kasutaja, kellel on arvuti, võib paigaldada pruned sõlme, et saada ka
 
 
 
-Full node jääb parimaks lahenduseks, kui soovite Bitcoin kasutamisel olla täiesti sõltumatu ja mitte piirata end hiljem edasijõudnud kasutusaladega, nagu indekseerija, Lightning-sõlm või isegi Block explorer. Just seda me kavatseme sellel kursusel uurida!
+Full node jääb parimaks lahenduseks, kui soovite Bitcoin kasutamisel olla täiesti sõltumatu ja mitte piirata end hiljem edasijõudnud kasutusaladega, nagu indekseerija, [Lightning](https://planb.academy/resources/glossary/lightning-network)-sõlm või isegi Block explorer. Just seda me kavatseme sellel kursusel uurida!
 
 
 
@@ -853,7 +853,7 @@ See on kõige suveräänsem ja paindlikum lähenemisviis: te teate täpselt, mis
 
 
 
-[Bitcoin core on võrgu ülimalt suurklient](https://bitcoincore.org/). See laeb alla, valideerib ja hooldab Blockchain, pakub RPC/REST APIsid ja võib integreerida Wallet. Kui te eelistate standardseid vahendeid ja tunnete end mugavalt, kui lisate ise teenuseid (näiteks Electrumi server, explorer ja LND), siis on parem kasutada Core'i sellisena, nagu ta on.
+[Bitcoin core on võrgu ülimalt suurklient](https://bitcoincore.org/). See laeb alla, valideerib ja hooldab Blockchain, pakub [RPC](https://planb.academy/resources/glossary/rpc-remote-procedure-call)/REST APIsid ja võib integreerida Wallet. Kui te eelistate standardseid vahendeid ja tunnete end mugavalt, kui lisate ise teenuseid (näiteks Electrumi server, explorer ja LND), siis on parem kasutada Core'i sellisena, nagu ta on.
 
 
 
@@ -1856,7 +1856,7 @@ Umbreli konfigureerimise alustamiseks klõpsake nupule "*Start*".
 
 
 
-Valige pseudonüüm või sisestage oma nimi, seejärel määrake tugev parool. Olge ettevaatlik: see parool on ainus takistus, mis kaitseb juurdepääsu teie Umbrelile teie võrgustikust (ja seega potentsiaalselt ka teie bitcoinidele, kui te kasutate Lightning-sõlme Umbrelil). See kaitseb ka kaugjuurdepääsu Tor'i või VPN-i kaudu, kui need teenused on lubatud.
+Valige pseudonüüm või sisestage oma nimi, seejärel määrake tugev parool. Olge ettevaatlik: see parool on ainus takistus, mis kaitseb juurdepääsu teie Umbrelile teie võrgustikust (ja seega potentsiaalselt ka teie bitcoinidele, kui te kasutate Lightning-sõlme Umbrelil). See kaitseb ka kaugjuurdepääsu [Tor](https://planb.academy/resources/glossary/tor)'i või VPN-i kaudu, kui need teenused on lubatud.
 
 
 
@@ -2606,7 +2606,7 @@ https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b
 
 
 
-BTCPay Server on tasuta, avatud lähtekoodiga makseprotsessor, mis võimaldab teil vastu võtta makseid Bitcoin ja Lightning Network kaudu ilma vahendajateta, säilitades samal ajal rahaliste vahendite isehoidmise.
+[BTCPay Server](https://planb.academy/resources/glossary/btcpay-server) on tasuta, avatud lähtekoodiga makseprotsessor, mis võimaldab teil vastu võtta makseid Bitcoin ja Lightning Network kaudu ilma vahendajateta, säilitades samal ajal rahaliste vahendite isehoidmise.
 
 
 
@@ -2817,7 +2817,7 @@ Tuletame meelde, et Bitcoin plokk koosneb 80 baidi pikkusest päisest ja tehingu
 - Merkle Root tehingute kohta
 - Timestamp (suurem kui 11 eelneva ploki mediaan)
 - raskusaste
-- Nonce
+- [Nonce](https://planb.academy/resources/glossary/nonce)
 
 
 
@@ -2825,7 +2825,7 @@ Tuletame meelde, et Bitcoin plokk koosneb 80 baidi pikkusest päisest ja tehingu
 
 
 
-Tehingud kantakse Merkle Tree-le. See on struktuur, mis võtab kokku suure andmekogumi (antud juhul kõik tehingud plokis), koondades nende hashid järk-järgult kaks korda kuni ühe "juureni", tõestades seega, et element kuulub kogumisse (ja tuvastades mis tahes muudatused). Sel viisil muudab iga tehingu muutmine ka Merkle Tree juurt ja seega ka ploki päise sõrmejälge. SegWit on kasutusele võtnud eraldi täiendava Commitment küpsiste (allkirjade) jaoks, mis paigutatakse mündipanka.
+Tehingud kantakse Merkle Tree-le. See on struktuur, mis võtab kokku suure andmekogumi (antud juhul kõik tehingud plokis), koondades nende hashid järk-järgult kaks korda kuni ühe "juureni", tõestades seega, et element kuulub kogumisse (ja tuvastades mis tahes muudatused). Sel viisil muudab iga tehingu muutmine ka Merkle Tree juurt ja seega ka ploki päise sõrmejälge. [SegWit](https://planb.academy/resources/glossary/segwit) on kasutusele võtnud eraldi täiendava Commitment küpsiste (allkirjade) jaoks, mis paigutatakse mündipanka.
 
 
 
@@ -2849,7 +2849,7 @@ Kui IBD on lõpule viidud, läheb sõlmpunkt oma tavapärasesse faasi: ta valide
 
 
 
-Bitcoin core sisaldab mehhanismi, mille eesmärk on vähendada aega, mis kulub enne sõlme täielikku toimimist, säilitades samal ajal autonoomse kontrollimise põhimõtte olemuse: AssumeValid.
+Bitcoin core sisaldab mehhanismi, mille eesmärk on vähendada aega, mis kulub enne sõlme täielikku toimimist, säilitades samal ajal autonoomse kontrollimise põhimõtte olemuse: [AssumeValid](https://planb.academy/resources/glossary/assume-valid).
 
 
 
@@ -3009,7 +3009,7 @@ Selleks, et reorganiseerimise ajal saaks ajas tagasi minna, salvestab Core paral
 
 
 
-Bloki otsimine otse lamefailidest oleks liiga aeganõudev. Core säilitab seetõttu LevelDB andmebaasi "blocks/index/", mis loetleb iga teadaoleva ploki kohta metaandmed, nagu Hash, kõrgus, valideerimise staatus, "blk" fail ja nihke, kus plokk asub. Kui mõni võrdväärne osapool taotleb plokki või kui sisekomponendil on vaja juurdepääsu konkreetsele plokile, pakub see indeks kiiret juurdepääsu. Ilma selle indeksita oleks vaja liiga palju operatsioone.
+Bloki otsimine otse lamefailidest oleks liiga aeganõudev. Core säilitab seetõttu [LevelDB](https://planb.academy/resources/glossary/leveldb) andmebaasi "blocks/index/", mis loetleb iga teadaoleva ploki kohta metaandmed, nagu Hash, kõrgus, valideerimise staatus, "blk" fail ja nihke, kus plokk asub. Kui mõni võrdväärne osapool taotleb plokki või kui sisekomponendil on vaja juurdepääsu konkreetsele plokile, pakub see indeks kiiret juurdepääsu. Ilma selle indeksita oleks vaja liiga palju operatsioone.
 
 
 
@@ -3051,7 +3051,7 @@ Kõigi nende osade kogum on antud hetkel T, mis moodustab UTXO komplekti: suur n
 
 
 
-UTXO komplekt on salvestatud kausta `chainstate/` kompaktse LevelDB andmebaasina. Iga osa seostab tehingu Hash võtme ja väljundindeksist tuletatud võtme väärtusega, mis sisaldab: summat, `scriptPubKey` lukustust, loomise ploki kõrgust ja coinbase'i näitajat.
+UTXO komplekt on salvestatud kausta `chainstate/` kompaktse LevelDB andmebaasina. Iga osa seostab tehingu Hash võtme ja väljundindeksist tuletatud võtme väärtusega, mis sisaldab: summat, `scriptPubKey` lukustust, loomise ploki kõrgust ja [coinbase](https://planb.academy/resources/glossary/coinbase-transaction)'i näitajat.
 
 
 
@@ -3075,13 +3075,13 @@ Pange tähele, et UTXO komplekt on sageli Bitcoin detsentraliseeritusega seotud 
 
 
 
-UTXO komplekti kasv tuleneb ka Bitcoin lihtsate maksetehingute struktuurist. Tõepoolest, makse sooritamisel tarbitakse sisendina üks UTXO ja luuakse väljundina 2 uut UTXOd (üks makse ja teine Exchange jaoks). Lõpuks pakub ahelanalüüsi heuristika, mida nimetatakse CIOH (*Common Input Ownership Heuristic*), täiendavat stiimulit Coin konsolideerimise vältimiseks.
+UTXO komplekti kasv tuleneb ka Bitcoin lihtsate maksetehingute struktuurist. Tõepoolest, makse sooritamisel tarbitakse sisendina üks UTXO ja luuakse väljundina 2 uut UTXOd (üks makse ja teine Exchange jaoks). Lõpuks pakub ahelanalüüsi heuristika, mida nimetatakse [CIOH](https://planb.academy/resources/glossary/cioh) (*Common Input Ownership Heuristic*), täiendavat stiimulit Coin konsolideerimise vältimiseks.
 
 
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Kuna osa sellest tuleb hoida RAMis, et kontrollida tehinguid mõistliku aja jooksul, võib UTXO komplekt muuta Full node töö järk-järgult liiga kulukaks. Selle probleemi lahendamiseks on juba olemas mõned ettepanekud, eelkõige [Utreexo](https://planb.academy/resources/glossary/utreexo).
+Kuna osa sellest tuleb hoida RAMis, et kontrollida tehinguid mõistliku aja jooksul, võib UTXO komplekt muuta Full node töö järk-järgult liiga kulukaks. Selle probleemi lahendamiseks on juba olemas mõned ettepanekud, eelkõige Utreexo.
 
 
 
@@ -3108,7 +3108,7 @@ Oluline on märkida, et sõlme mempoolil ei ole konsensuse väärtust. Bitcoin t
 
 
 
-Kui tehing saabub, rakendab Core rea kontrolle konsensusreeglite (süntaks, kehtivad skriptid, topeltkulutuste puudumine jne) ja Mempool reeglite suhtes, mis on kohalik poliitika (RBF, minimaalsed tasuläved, andmete piirnormid OP_RETURN-s jne). Kui tehing vastab nendele reeglitele, salvestatakse see mällu.
+Kui tehing saabub, rakendab Core rea kontrolle konsensusreeglite (süntaks, kehtivad skriptid, topeltkulutuste puudumine jne) ja Mempool reeglite suhtes, mis on kohalik poliitika ([RBF](https://planb.academy/resources/glossary/rbf-replacebyfee), minimaalsed tasuläved, andmete piirnormid OP_RETURN-s jne). Kui tehing vastab nendele reeglitele, salvestatakse see mällu.
 
 
 
@@ -3349,7 +3349,7 @@ Võrgustiku tasandil on meil ka:
 
 
 
-Vaikimisi suhtleb teie sõlme üle clearneti, Tori ja I2P. See tähendab, et partnerid, kellega ta clearnetis ühendust võtab, näevad teie avalikku IP-aadressi Address ja teie ISP suudab tõenäoliselt tuvastada, et te kasutate Bitcoin sõlme (kuigi P2P Transport V2 muudab ISP-l pealtkuulamise keerulisemaks). See ei ole tingimata probleem, kuid kui soovite vältida selle teabe lekkimist, võite ühendada oma sõlme ainult Tor-võrgu kaudu.
+Vaikimisi suhtleb teie sõlme üle clearneti, Tori ja I2P. See tähendab, et partnerid, kellega ta clearnetis ühendust võtab, näevad teie avalikku IP-aadressi Address ja teie ISP suudab tõenäoliselt tuvastada, et te kasutate Bitcoin sõlme (kuigi [P2P Transport V2](https://planb.academy/resources/glossary/p2p-transport-v2) muudab ISP-l pealtkuulamise keerulisemaks). See ei ole tingimata probleem, kuid kui soovite vältida selle teabe lekkimist, võite ühendada oma sõlme ainult Tor-võrgu kaudu.
 
 
 

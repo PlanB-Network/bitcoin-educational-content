@@ -304,7 +304,7 @@ Zpočátku, když Bitcoin v roce 2009 spustil Satoshi Nakamoto, se očekávalo, 
 
 
 
-S postupnou popularizací Bitcoin a nárůstem počtu těžařů se však konkurenční prostředí v Mining radikálně změnilo. Dnes se z Mining stala mimořádně konkurenční činnost, které dominují průmysloví hráči vybavení specializovanou infrastrukturou. Výkon potřebný k vytěžení nového bloku je nyní tak velký, že je prakticky nemožné, aby toho jednotlivý uživatel dosáhl pouze pomocí běžného počítače. V důsledku toho se nyní těžba Mining provádí především pomocí specializovaných strojů zvaných ASIC (*Application-Specific Integrated Circuits*). Tyto čipy jsou optimalizovány výhradně pro běh dvojnásobného algoritmu SHA-256, který se používá pro Mining na Bitcoin.
+S postupnou popularizací Bitcoin a nárůstem počtu těžařů se však konkurenční prostředí v Mining radikálně změnilo. Dnes se z Mining stala mimořádně konkurenční činnost, které dominují průmysloví hráči vybavení specializovanou infrastrukturou. Výkon potřebný k vytěžení nového bloku je nyní tak velký, že je prakticky nemožné, aby toho jednotlivý uživatel dosáhl pouze pomocí běžného počítače. V důsledku toho se nyní těžba Mining provádí především pomocí specializovaných strojů zvaných [ASIC](https://planb.academy/resources/glossary/asic) (*Application-Specific Integrated Circuits*). Tyto čipy jsou optimalizovány výhradně pro běh dvojnásobného algoritmu [SHA-256](https://planb.academy/resources/glossary/sha256), který se používá pro Mining na Bitcoin.
 
 
 
@@ -328,7 +328,7 @@ K interakci se sítí potřebuje uzel Miner uzel Bitcoin.
 
 
 
-Úloha Miner se také někdy odlišuje od úlohy grind. Grind je stroj, jehož úkolem je Hash šablonovat bloky dodané serverem poolu a hledat hashe, které splňují cíl obtížnosti definovaný pro sdílení, a nikoliv pro Bitcoin. Zbytek procesu Mining, který zahrnuje vlastní konstrukci bloků, výběr transakcí nebo vyhledávání Proof-of-Work podle vlastní obtížnosti Bitcoin a také distribuci, provádí přímo pooly.
+Úloha Miner se také někdy odlišuje od úlohy grind. Grind je stroj, jehož úkolem je Hash šablonovat bloky dodané serverem [poolu](https://planb.academy/resources/glossary/pool-mining) a hledat hashe, které splňují cíl obtížnosti definovaný pro sdílení, a nikoliv pro Bitcoin. Zbytek procesu Mining, který zahrnuje vlastní konstrukci bloků, výběr transakcí nebo vyhledávání Proof-of-Work podle vlastní obtížnosti Bitcoin a také distribuci, provádí přímo pooly.
 
 
 
@@ -598,7 +598,7 @@ Jedná se o základní pravidla protokolu Bitcoin, která zajišťují integritu
 
 
 
-Změna těchto pravidel se rovná změně protokolu, a tedy i měny (Hard Fork). Avšak i bez snahy o jejich změnu propůjčuje prostý fakt striktního uplatňování stávajících pravidel určitou moc: pokud blok pravidla porušuje, uzel jej okamžitě odmítne.
+Změna těchto pravidel se rovná změně protokolu, a tedy i měny ([Hard Fork](https://planb.academy/resources/glossary/hard-fork)). Avšak i bez snahy o jejich změnu propůjčuje prostý fakt striktního uplatňování stávajících pravidel určitou moc: pokud blok pravidla porušuje, uzel jej okamžitě odmítne.
 
 
 
@@ -722,7 +722,7 @@ Systém Full node nemusí nikomu důvěřovat, protože ověřuje a zná všechn
 
 
 
-V praxi vyžaduje Full node netriviální zdroje, včetně několika stovek gigabajtů pro blokové soubory, procesoru schopného validovat skripty, paměti RAM pro Mempool a mezipaměti a stabilní šířky pásma. První synchronizace (*IBD*) načte a ověří kompletní historii: je náročná, ale probíhá pouze jednou. Full node se aktivně účastní sítě, předává bloky a transakce a může přijímat příchozí spojení, aby pomohl ostatním kolegům.
+V praxi vyžaduje Full node netriviální zdroje, včetně několika stovek gigabajtů pro blokové soubory, procesoru schopného validovat skripty, paměti RAM pro Mempool a mezipaměti a stabilní šířky pásma. První synchronizace (*[IBD](https://planb.academy/resources/glossary/initial-block-download-ibd)*) načte a ověří kompletní historii: je náročná, ale probíhá pouze jednou. Full node se aktivně účastní sítě, předává bloky a transakce a může přijímat příchozí spojení, aby pomohl ostatním kolegům.
 
 
 
@@ -758,7 +758,7 @@ Stručně řečeno, sledování Wallet funguje v uzlu pruned bez problémů, pok
 
 
 
-Uzel SPV (*Simplified Payment Verification*) neboli odlehčený uzel uchovává pouze hlavičky bloků, nikoli podrobnosti o transakcích, a při získávání důkazů o tom, že transakce je v bloku (Merkleho důkazy prostřednictvím stromů), pro který má hlavičku, spoléhá na ostatní plné uzly. Koncept zjednodušeného ověřování plateb není nový, navrhl jej sám Satoshi Nakamoto v 8. části Bílé knihy.
+Uzel [SPV](https://planb.academy/resources/glossary/spv-node-light-node) (*Simplified Payment Verification*) neboli odlehčený uzel uchovává pouze hlavičky bloků, nikoli podrobnosti o transakcích, a při získávání důkazů o tom, že transakce je v bloku (Merkleho důkazy prostřednictvím stromů), pro který má hlavičku, spoléhá na ostatní plné uzly. Koncept zjednodušeného ověřování plateb není nový, navrhl jej sám Satoshi Nakamoto v 8. části Bílé knihy.
 
 
 
@@ -812,7 +812,7 @@ Středně pokročilý uživatel s počítačem může nainstalovat uzel pruned a
 
 
 
-Full node zůstává nejlepším řešením, pokud chcete být při používání Bitcoin zcela nezávislí a neomezovat se později na pokročilé použití, jako je indexer, uzel Lightning nebo dokonce Block explorer. Přesně to budeme v tomto kurzu zkoumat!
+Full node zůstává nejlepším řešením, pokud chcete být při používání Bitcoin zcela nezávislí a neomezovat se později na pokročilé použití, jako je indexer, uzel [Lightning](https://planb.academy/resources/glossary/lightning-network) nebo dokonce Block explorer. Přesně to budeme v tomto kurzu zkoumat!
 
 
 
@@ -853,7 +853,7 @@ Jedná se o nejsugestivnější a nejpružnější přístup: přesně víte, co
 
 
 
-[Bitcoin core je klientem sítě s ultravětšinovým podílem](https://bitcoincore.org/). Stahuje, ověřuje a udržuje Blockchain, poskytuje rozhraní API RPC/REST a může integrovat Wallet. Pokud dáváte přednost standardním nástrojům a cítíte se pohodlně, když si sami přidáváte služby (například server Electrum, průzkumník a LND), je lepší používat jádro tak, jak je.
+[Bitcoin core je klientem sítě s ultravětšinovým podílem](https://bitcoincore.org/). Stahuje, ověřuje a udržuje Blockchain, poskytuje rozhraní API [RPC](https://planb.academy/resources/glossary/rpc-remote-procedure-call)/REST a může integrovat Wallet. Pokud dáváte přednost standardním nástrojům a cítíte se pohodlně, když si sami přidáváte služby (například server Electrum, průzkumník a LND), je lepší používat jádro tak, jak je.
 
 
 
@@ -1856,7 +1856,7 @@ Chcete-li zahájit konfiguraci zařízení Umbrel, klikněte na tlačítko "*Sta
 
 
 
-Zvolte si pseudonym nebo zadejte své jméno a nastavte silné heslo. Buďte opatrní: toto heslo je jedinou překážkou, která chrání přístup k vašemu Umbrelu ze sítě (a tedy potenciálně i k vašim bitcoinům, pokud na Umbrelu provozujete uzel Lightning). Chrání také vzdálený přístup přes Tor nebo VPN, pokud jsou tyto služby povoleny.
+Zvolte si pseudonym nebo zadejte své jméno a nastavte silné heslo. Buďte opatrní: toto heslo je jedinou překážkou, která chrání přístup k vašemu Umbrelu ze sítě (a tedy potenciálně i k vašim bitcoinům, pokud na Umbrelu provozujete uzel Lightning). Chrání také vzdálený přístup přes [Tor](https://planb.academy/resources/glossary/tor) nebo VPN, pokud jsou tyto služby povoleny.
 
 
 
@@ -2606,7 +2606,7 @@ https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b
 
 
 
-BTCPay Server je bezplatný platební procesor s otevřeným zdrojovým kódem, který vám umožňuje přijímat platby prostřednictvím Bitcoin a Lightning Network bez zprostředkovatelů, přičemž si zachovává vlastní úschovu prostředků.
+[BTCPay Server](https://planb.academy/resources/glossary/btcpay-server) je bezplatný platební procesor s otevřeným zdrojovým kódem, který vám umožňuje přijímat platby prostřednictvím Bitcoin a Lightning Network bez zprostředkovatelů, přičemž si zachovává vlastní úschovu prostředků.
 
 
 
@@ -2817,7 +2817,7 @@ Připomínáme, že blok Bitcoin se skládá z 80bajtové hlavičky a seznamu tr
 - Merkle Root transakcí
 - Timestamp (delší než medián času předchozích 11 bloků)
 - cíl obtížnosti
-- Nonce
+- [Nonce](https://planb.academy/resources/glossary/nonce)
 
 
 
@@ -2825,7 +2825,7 @@ Připomínáme, že blok Bitcoin se skládá z 80bajtové hlavičky a seznamu tr
 
 
 
-Transakce se zapisují do zařízení Merkle Tree. Jedná se o strukturu, která shrnuje velkou množinu dat (v tomto případě všechny transakce v bloku) tak, že jejich hashe postupně agreguje po dvou až do jediného "kořene", čímž se prokáže, že prvek patří do množiny (a zjistí se případná změna). Tímto způsobem jakákoli modifikace transakce modifikuje také kořen Merkle Tree, a tedy otisk záhlaví bloku. SegWit zavedl samostatný dodatečný Commitment pro cookies (podpisy), umístěný v bázi mincí.
+Transakce se zapisují do zařízení Merkle Tree. Jedná se o strukturu, která shrnuje velkou množinu dat (v tomto případě všechny transakce v bloku) tak, že jejich hashe postupně agreguje po dvou až do jediného "kořene", čímž se prokáže, že prvek patří do množiny (a zjistí se případná změna). Tímto způsobem jakákoli modifikace transakce modifikuje také kořen Merkle Tree, a tedy otisk záhlaví bloku. [SegWit](https://planb.academy/resources/glossary/segwit) zavedl samostatný dodatečný Commitment pro cookies (podpisy), umístěný v bázi mincí.
 
 
 
@@ -2849,7 +2849,7 @@ Jakmile je IBD dokončena, uzel přejde do své běžné fáze: ověřuje nové 
 
 
 
-Bitcoin core obsahuje mechanismus navržený tak, aby se zkrátila doba potřebná k plnému zprovoznění uzlu, přičemž podstata principu autonomního ověřování zůstává zachována: AssumeValid.
+Bitcoin core obsahuje mechanismus navržený tak, aby se zkrátila doba potřebná k plnému zprovoznění uzlu, přičemž podstata principu autonomního ověřování zůstává zachována: [AssumeValid](https://planb.academy/resources/glossary/assume-valid).
 
 
 
@@ -2910,7 +2910,7 @@ V tomto případě se software dotazuje na _**DNS seed**_. Jedná se o [servery 
 
 
 
-V naprosté většině případů postačí k navázání prvních spojení s ostatními uzly krok *DNS seeds*. Pokud tyto servery výjimečně neodpoví do 60 sekund, uzel přejde na jinou metodu: [statický seznam více než 1 000 adres](https://github.com/Bitcoin/Bitcoin/blob/master/src/chainparamsseeds.h) _seed uzlů_ je zabudován do kódu Bitcoin core a je pravidelně aktualizován. Pokud první dva způsoby získání IP adres selžou, toto poslední řešení vytvoří počáteční spojení, ze kterého si pak uzel může vyžádat nové IP adresy.
+V naprosté většině případů postačí k navázání prvních spojení s ostatními uzly krok *[DNS seeds](https://planb.academy/resources/glossary/dns-seeds)*. Pokud tyto servery výjimečně neodpoví do 60 sekund, uzel přejde na jinou metodu: [statický seznam více než 1 000 adres](https://github.com/Bitcoin/Bitcoin/blob/master/src/chainparamsseeds.h) _seed uzlů_ je zabudován do kódu Bitcoin core a je pravidelně aktualizován. Pokud první dva způsoby získání IP adres selžou, toto poslední řešení vytvoří počáteční spojení, ze kterého si pak uzel může vyžádat nové IP adresy.
 
 
 
@@ -3009,7 +3009,7 @@ Aby bylo možné se během reorganizace vrátit v čase, ukládá jádro soubě�
 
 
 
-Vyhledávání bloku přímo v plochých souborech by bylo příliš časově náročné. Jádro proto udržuje databázi LevelDB v adresáři `blocks/index/`, která pro každý známý blok uvádí metadata, jako je Hash, výška, stav validace, soubor `blk` a offset, kde se nachází. Když partner požádá o blok nebo když interní komponenta potřebuje získat přístup k určitému bloku, tento index poskytuje rychlý přístup. Bez tohoto indexu by bylo nutné provádět příliš mnoho operací.
+Vyhledávání bloku přímo v plochých souborech by bylo příliš časově náročné. Jádro proto udržuje databázi [LevelDB](https://planb.academy/resources/glossary/leveldb) v adresáři `blocks/index/`, která pro každý známý blok uvádí metadata, jako je Hash, výška, stav validace, soubor `blk` a offset, kde se nachází. Když partner požádá o blok nebo když interní komponenta potřebuje získat přístup k určitému bloku, tento index poskytuje rychlý přístup. Bez tohoto indexu by bylo nutné provádět příliš mnoho operací.
 
 
 
@@ -3051,7 +3051,7 @@ Souhrn všech těchto dílů v daném okamžiku T tvoří sadu UTXO: rozsáhlý 
 
 
 
-Sada UTXO je uložena ve složce `chainstate/` jako kompaktní databáze LevelDB. Každá část spojuje klíč odvozený od Hash transakce a výstupního indexu s hodnotou obsahující: částku, zámek `scriptPubKey`, výšku bloku vytvoření a indikátor coinbase.
+Sada UTXO je uložena ve složce `chainstate/` jako kompaktní databáze LevelDB. Každá část spojuje klíč odvozený od Hash transakce a výstupního indexu s hodnotou obsahující: částku, zámek `scriptPubKey`, výšku bloku vytvoření a indikátor [coinbase](https://planb.academy/resources/glossary/coinbase-transaction).
 
 
 
@@ -3075,13 +3075,13 @@ Všimněte si, že sada UTXO je často jádrem obav z decentralizace Bitcoin, pr
 
 
 
-Růst souboru UTXO vychází také ze struktury jednoduchých platebních transakcí na Bitcoin. Při platbě totiž spotřebováváte jeden UTXO jako vstup a vytváříte 2 nové UTXO jako výstup (jeden pro platbu a druhý pro Exchange). A konečně, heuristika analýzy řetězce, nazývaná CIOH (*Common Input Ownership Heuristic*), poskytuje další podnět k tomu, aby se zabránilo konsolidaci Coin.
+Růst souboru UTXO vychází také ze struktury jednoduchých platebních transakcí na Bitcoin. Při platbě totiž spotřebováváte jeden UTXO jako vstup a vytváříte 2 nové UTXO jako výstup (jeden pro platbu a druhý pro Exchange). A konečně, heuristika analýzy řetězce, nazývaná [CIOH](https://planb.academy/resources/glossary/cioh) (*Common Input Ownership Heuristic*), poskytuje další podnět k tomu, aby se zabránilo konsolidaci Coin.
 
 
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Vzhledem k tomu, že část z nich musí být uchovávána v paměti RAM, aby bylo možné ověřit transakce v přiměřeném čase, může sada UTXO postupně způsobit, že provoz Full node bude příliš nákladný. K řešení tohoto problému již existuje několik návrhů, zejména [Utreexo](https://planb.academy/resources/glossary/utreexo).
+Vzhledem k tomu, že část z nich musí být uchovávána v paměti RAM, aby bylo možné ověřit transakce v přiměřeném čase, může sada UTXO postupně způsobit, že provoz Full node bude příliš nákladný. K řešení tohoto problému již existuje několik návrhů, zejména Utreexo.
 
 
 
@@ -3108,7 +3108,7 @@ Je důležité poznamenat, že mempooly uzlů nemají žádnou konsenzuální ho
 
 
 
-Po přijetí transakce provede jádro řadu kontrol podle pravidel konsensu (syntaxe, platné skripty, žádné dvojí výdaje atd.) a pravidel Mempool, která jsou místní politikou (RBF, minimální hranice poplatků, datový limit v `OP_RETURN` atd.). Pokud transakce tato pravidla dodržuje, je uložena do paměti.
+Po přijetí transakce provede jádro řadu kontrol podle pravidel konsensu (syntaxe, platné skripty, žádné dvojí výdaje atd.) a pravidel Mempool, která jsou místní politikou ([RBF](https://planb.academy/resources/glossary/rbf-replacebyfee), minimální hranice poplatků, datový limit v `OP_RETURN` atd.). Pokud transakce tato pravidla dodržuje, je uložena do paměti.
 
 
 
@@ -3349,7 +3349,7 @@ Na úrovni sítě máme také:
 
 
 
-Ve výchozím nastavení váš uzel komunikuje přes sítě Clearnet, Tor a I2P. To znamená, že peeři, se kterými se spojuje v síti clearnet, vidí vaši veřejnou IP adresu Address a poskytovatel internetu pravděpodobně zjistí, že používáte uzel Bitcoin (ačkoli díky P2P Transport V2 je pro poskytovatele internetu obtížnější odposlouchávat). To nemusí nutně představovat problém, ale pokud se chcete vyhnout úniku těchto informací, můžete svůj uzel připojit výhradně prostřednictvím sítě Tor.
+Ve výchozím nastavení váš uzel komunikuje přes sítě Clearnet, Tor a I2P. To znamená, že peeři, se kterými se spojuje v síti clearnet, vidí vaši veřejnou IP adresu Address a poskytovatel internetu pravděpodobně zjistí, že používáte uzel Bitcoin (ačkoli díky [P2P Transport V2](https://planb.academy/resources/glossary/p2p-transport-v2) je pro poskytovatele internetu obtížnější odposlouchávat). To nemusí nutně představovat problém, ale pokud se chcete vyhnout úniku těchto informací, můžete svůj uzel připojit výhradně prostřednictvím sítě Tor.
 
 
 

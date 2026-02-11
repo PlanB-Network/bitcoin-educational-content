@@ -304,7 +304,7 @@ Ban đầu, khi Bitcoin được Satoshi Nakamoto ra mắt vào năm 2009, mọi
 
 
 
-Tuy nhiên, với sự phổ biến dần dần của Bitcoin và số lượng thợ đào ngày càng tăng, bối cảnh cạnh tranh trong Mining đã có sự thay đổi đáng kể. Ngày nay, Mining đã trở thành một hoạt động cực kỳ cạnh tranh, do các công ty công nghiệp được trang bị cơ sở hạ tầng chuyên dụng thống trị. Công suất cần thiết để đào một khối mới hiện nay lớn đến mức một người dùng cá nhân gần như không thể thực hiện được việc này chỉ bằng một máy tính thông thường. Do đó, Mining hiện chủ yếu được thực hiện bằng các máy móc chuyên dụng gọi là ASIC (Mạch Tích hợp Chuyên dụng). Các chip này được tối ưu hóa riêng để chạy thuật toán SHA-256 kép, thuật toán được sử dụng cho Mining trên Bitcoin.
+Tuy nhiên, với sự phổ biến dần dần của Bitcoin và số lượng thợ đào ngày càng tăng, bối cảnh cạnh tranh trong Mining đã có sự thay đổi đáng kể. Ngày nay, Mining đã trở thành một hoạt động cực kỳ cạnh tranh, do các công ty công nghiệp được trang bị cơ sở hạ tầng chuyên dụng thống trị. Công suất cần thiết để đào một khối mới hiện nay lớn đến mức một người dùng cá nhân gần như không thể thực hiện được việc này chỉ bằng một máy tính thông thường. Do đó, Mining hiện chủ yếu được thực hiện bằng các máy móc chuyên dụng gọi là [ASIC](https://planb.academy/resources/glossary/asic) (Mạch Tích hợp Chuyên dụng). Các chip này được tối ưu hóa riêng để chạy thuật toán [SHA-256](https://planb.academy/resources/glossary/sha256) kép, thuật toán được sử dụng cho Mining trên Bitcoin.
 
 
 
@@ -598,7 +598,7 @@ Một khía cạnh quan trọng, thường bị hiểu lầm, là việc vận h
 
 
 
-Việc thay đổi các quy tắc này tương đương với việc thay đổi giao thức, và do đó là thay đổi cả tiền tệ (Hard Fork). Tuy nhiên, ngay cả khi không cố gắng sửa đổi chúng, việc áp dụng nghiêm ngặt các quy tắc hiện hành cũng mang lại một sức mạnh nhất định: nếu một khối vi phạm các quy tắc, nút sẽ ngay lập tức từ chối khối đó.
+Việc thay đổi các quy tắc này tương đương với việc thay đổi giao thức, và do đó là thay đổi cả tiền tệ ([Hard Fork](https://planb.academy/resources/glossary/hard-fork)). Tuy nhiên, ngay cả khi không cố gắng sửa đổi chúng, việc áp dụng nghiêm ngặt các quy tắc hiện hành cũng mang lại một sức mạnh nhất định: nếu một khối vi phạm các quy tắc, nút sẽ ngay lập tức từ chối khối đó.
 
 
 
@@ -722,7 +722,7 @@ Full node không cần phải tin tưởng bất kỳ ai vì nó xác thực và
 
 
 
-Trên thực tế, Full node yêu cầu tài nguyên không hề nhỏ, bao gồm hàng trăm gigabyte cho các tệp khối, bộ xử lý có khả năng xác thực tập lệnh, RAM cho Mempool và bộ nhớ đệm, cùng băng thông ổn định. Quá trình đồng bộ hóa đầu tiên (*IBD*) đọc và xác minh toàn bộ lịch sử: rất phức tạp, nhưng chỉ diễn ra một lần. Full node tích cực tham gia vào mạng, chuyển tiếp các khối và giao dịch, và có thể chấp nhận các kết nối đến để hỗ trợ các đồng nghiệp khác.
+Trên thực tế, Full node yêu cầu tài nguyên không hề nhỏ, bao gồm hàng trăm gigabyte cho các tệp khối, bộ xử lý có khả năng xác thực tập lệnh, RAM cho Mempool và bộ nhớ đệm, cùng băng thông ổn định. Quá trình đồng bộ hóa đầu tiên (*[IBD](https://planb.academy/resources/glossary/initial-block-download-ibd)*) đọc và xác minh toàn bộ lịch sử: rất phức tạp, nhưng chỉ diễn ra một lần. Full node tích cực tham gia vào mạng, chuyển tiếp các khối và giao dịch, và có thể chấp nhận các kết nối đến để hỗ trợ các đồng nghiệp khác.
 
 
 
@@ -758,7 +758,7 @@ Tóm lại, việc theo dõi Wallet hoạt động trơn tru trên một nút pr
 
 
 
-Một nút SPV (*Xác minh Thanh toán Đơn giản hóa*), hay nút nhẹ, chỉ lưu giữ tiêu đề khối, không lưu giữ chi tiết giao dịch, và dựa vào các nút đầy đủ khác để lấy bằng chứng giao dịch nằm trong khối (chứng minh Merkle thông qua cây) mà nó có tiêu đề. Khái niệm xác minh thanh toán đơn giản hóa không phải là mới, đã được chính Satoshi Nakamoto đề xuất trong phần 8 của Sách Trắng.
+Một nút [SPV](https://planb.academy/resources/glossary/spv-node-light-node) (*Xác minh Thanh toán Đơn giản hóa*), hay nút nhẹ, chỉ lưu giữ tiêu đề khối, không lưu giữ chi tiết giao dịch, và dựa vào các nút đầy đủ khác để lấy bằng chứng giao dịch nằm trong khối (chứng minh [Merkle](https://planb.academy/resources/glossary/merkle-tree) thông qua cây) mà nó có tiêu đề. Khái niệm xác minh thanh toán đơn giản hóa không phải là mới, đã được chính Satoshi Nakamoto đề xuất trong phần 8 của Sách Trắng.
 
 
 
@@ -812,7 +812,7 @@ Người dùng trung cấp có máy tính cá nhân có thể cài đặt nút p
 
 
 
-Full node vẫn là giải pháp tốt nhất nếu bạn muốn hoàn toàn độc lập trong việc sử dụng Bitcoin và không giới hạn bản thân vào các ứng dụng nâng cao sau này như lập chỉ mục, nút Lightning, hay thậm chí là Block explorer. Đó chính xác là những gì chúng ta sẽ khám phá trong khóa học này!
+Full node vẫn là giải pháp tốt nhất nếu bạn muốn hoàn toàn độc lập trong việc sử dụng Bitcoin và không giới hạn bản thân vào các ứng dụng nâng cao sau này như lập chỉ mục, nút [Lightning](https://planb.academy/resources/glossary/lightning-network), hay thậm chí là Block explorer. Đó chính xác là những gì chúng ta sẽ khám phá trong khóa học này!
 
 
 
@@ -853,7 +853,7 @@ Cài đặt một triển khai thô nghĩa là sử dụng trực tiếp phần 
 
 
 
-[Bitcoin core là máy khách chiếm đa số trong mạng](https://bitcoincore.org/). Nó tải xuống, xác thực và bảo trì Blockchain, cung cấp API RPC/REST và có thể tích hợp Wallet. Nếu bạn thích các công cụ tiêu chuẩn và cảm thấy thoải mái khi tự thêm các dịch vụ (chẳng hạn như máy chủ Electrum, trình duyệt và LND), tốt hơn hết bạn nên sử dụng Core.
+[Bitcoin core là máy khách chiếm đa số trong mạng](https://bitcoincore.org/). Nó tải xuống, xác thực và bảo trì Blockchain, cung cấp API [RPC](https://planb.academy/resources/glossary/rpc-remote-procedure-call)/REST và có thể tích hợp Wallet. Nếu bạn thích các công cụ tiêu chuẩn và cảm thấy thoải mái khi tự thêm các dịch vụ (chẳng hạn như máy chủ Electrum, trình duyệt và LND), tốt hơn hết bạn nên sử dụng Core.
 
 
 
@@ -1856,7 +1856,7 @@ Bây giờ bạn đã sẵn sàng sử dụng Umbrel!
 
 
 
-Chọn một bút danh hoặc nhập tên của bạn, sau đó đặt mật khẩu mạnh. Hãy cẩn thận: mật khẩu này là rào cản duy nhất bảo vệ quyền truy cập vào Umbrel của bạn từ mạng của bạn (và do đó, có khả năng là cả bitcoin của bạn nếu bạn chạy một nút Lightning trên Umbrel). Nó cũng bảo vệ quyền truy cập từ xa qua Tor hoặc VPN, nếu các dịch vụ này được bật.
+Chọn một bút danh hoặc nhập tên của bạn, sau đó đặt mật khẩu mạnh. Hãy cẩn thận: mật khẩu này là rào cản duy nhất bảo vệ quyền truy cập vào Umbrel của bạn từ mạng của bạn (và do đó, có khả năng là cả bitcoin của bạn nếu bạn chạy một nút Lightning trên Umbrel). Nó cũng bảo vệ quyền truy cập từ xa qua [Tor](https://planb.academy/resources/glossary/tor) hoặc VPN, nếu các dịch vụ này được bật.
 
 
 
@@ -2606,7 +2606,7 @@ https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b
 
 
 
-BTCPay Server là bộ xử lý thanh toán mã nguồn mở miễn phí cho phép bạn chấp nhận thanh toán qua Bitcoin và Lightning Network mà không cần trung gian, đồng thời vẫn giữ được quyền tự quản lý tiền.
+[BTCPay Server](https://planb.academy/resources/glossary/btcpay-server) là bộ xử lý thanh toán mã nguồn mở miễn phí cho phép bạn chấp nhận thanh toán qua Bitcoin và Lightning Network mà không cần trung gian, đồng thời vẫn giữ được quyền tự quản lý tiền.
 
 
 
@@ -2783,7 +2783,7 @@ Với những thói quen đơn giản này, nút Umbrel của bạn sẽ luôn �
 
 
 
-Nút Bitcoin của bạn khởi động mà không cần biết trước lịch sử giao dịch. Ban đầu, nó chỉ là một máy tính chạy phần mềm (Bitcoin core hoặc tương tự). Để trở thành một nút Bitcoin được đồng bộ hóa và hoạt động hoàn toàn, nó phải tái tạo cục bộ trạng thái của Ledger bằng cách kiểm tra tất cả các khối đã được công bố kể từ khối Genesis (khối 0, do Satoshi Nakamoto công bố vào ngày 3 tháng 1 năm 2009). Bước này được gọi là **IBD (_Tải xuống Khối Ban đầu_)**.
+Nút Bitcoin của bạn khởi động mà không cần biết trước lịch sử giao dịch. Ban đầu, nó chỉ là một máy tính chạy phần mềm (Bitcoin core hoặc tương tự). Để trở thành một nút Bitcoin được đồng bộ hóa và hoạt động hoàn toàn, nó phải tái tạo cục bộ trạng thái của Ledger bằng cách kiểm tra tất cả các khối đã được công bố kể từ [khối Genesis](https://planb.academy/resources/glossary/genesis-block) (khối 0, do Satoshi Nakamoto công bố vào ngày 3 tháng 1 năm 2009). Bước này được gọi là **IBD (_Tải xuống Khối Ban đầu_)**.
 
 
 
@@ -2799,7 +2799,7 @@ IBD bao gồm việc tải xuống và xác minh từng khối và giao dịch r
 
 
 
-Quá trình đồng bộ hóa bắt đầu với bước _**headers-first**_. Nút của bạn yêu cầu chuỗi tiêu đề khối từ nhiều nút ngang hàng và, đối với mỗi nút, xác minh Proof of Work, điều chỉnh độ khó, cú pháp, cũng như các quy tắc Timestamp và số phiên bản. Tóm lại, nó đảm bảo rằng mỗi tiêu đề nhận được đều tuân thủ các quy tắc đồng thuận.
+Quá trình đồng bộ hóa bắt đầu với bước _**headers-first**_. Nút của bạn yêu cầu chuỗi tiêu đề khối từ nhiều nút ngang hàng và, đối với mỗi nút, xác minh Proof of Work, [điều chỉnh độ khó](https://planb.academy/resources/glossary/difficulty-adjustment), cú pháp, cũng như các quy tắc Timestamp và số phiên bản. Tóm lại, nó đảm bảo rằng mỗi tiêu đề nhận được đều tuân thủ các quy tắc đồng thuận.
 
 
 
@@ -2817,7 +2817,7 @@ Xin nhắc lại, một khối Bitcoin bao gồm một tiêu đề 80 byte và m
 - Merkle Root của các giao dịch
 - Timestamp (lớn hơn thời gian trung bình của 11 khối trước đó)
 - mục tiêu khó khăn
-- Nonce
+- [Nonce](https://planb.academy/resources/glossary/nonce)
 
 
 
@@ -2825,7 +2825,7 @@ Xin nhắc lại, một khối Bitcoin bao gồm một tiêu đề 80 byte và m
 
 
 
-Các giao dịch được xác nhận vào Merkle Tree. Đây là một cấu trúc tóm tắt một tập dữ liệu lớn (trong trường hợp này là tất cả các giao dịch trong khối) bằng cách tổng hợp các hàm băm của chúng theo thứ tự từng cặp xuống một "gốc", do đó chứng minh rằng một phần tử thuộc về tập hợp (và phát hiện bất kỳ sửa đổi nào). Theo cách này, bất kỳ sửa đổi nào đối với một giao dịch cũng sẽ sửa đổi gốc của Merkle Tree và do đó là dấu vân tay của tiêu đề khối. SegWit đã giới thiệu một Commitment bổ sung riêng biệt cho cookie (chữ ký), được đặt trong coinbase.
+Các giao dịch được xác nhận vào Merkle Tree. Đây là một cấu trúc tóm tắt một tập dữ liệu lớn (trong trường hợp này là tất cả các giao dịch trong khối) bằng cách tổng hợp các hàm băm của chúng theo thứ tự từng cặp xuống một "gốc", do đó chứng minh rằng một phần tử thuộc về tập hợp (và phát hiện bất kỳ sửa đổi nào). Theo cách này, bất kỳ sửa đổi nào đối với một giao dịch cũng sẽ sửa đổi gốc của Merkle Tree và do đó là dấu vân tay của tiêu đề khối. [SegWit](https://planb.academy/resources/glossary/segwit) đã giới thiệu một Commitment bổ sung riêng biệt cho cookie (chữ ký), được đặt trong coinbase.
 
 
 
@@ -2849,7 +2849,7 @@ Khi IBD hoàn tất, nút sẽ bước vào giai đoạn bình thường: xác t
 
 
 
-Bitcoin core kết hợp một cơ chế được thiết kế để giảm thời gian cần thiết trước khi một nút hoạt động hoàn toàn, đồng thời vẫn giữ nguyên bản chất của nguyên tắc xác minh tự động: AssumeValid.
+Bitcoin core kết hợp một cơ chế được thiết kế để giảm thời gian cần thiết trước khi một nút hoạt động hoàn toàn, đồng thời vẫn giữ nguyên bản chất của nguyên tắc xác minh tự động: [AssumeValid](https://planb.academy/resources/glossary/assume-valid).
 
 
 
@@ -3009,7 +3009,7 @@ Các khối đã nhận và được xác thực sẽ được ghi vào các vù
 
 
 
-Việc tìm kiếm một khối trực tiếp trong các tệp phẳng sẽ rất tốn thời gian. Do đó, Core duy trì một cơ sở dữ liệu LevelDB trong `blocks/index/`, liệt kê, cho mỗi khối đã biết, siêu dữ liệu như Hash, chiều cao, trạng thái xác thực, tệp `blk` và vị trí của khối đó. Khi một đối tác yêu cầu một khối, hoặc khi một thành phần nội bộ cần truy cập vào một khối cụ thể, chỉ mục này sẽ cung cấp quyền truy cập nhanh chóng. Nếu không có chỉ mục này, sẽ cần quá nhiều thao tác.
+Việc tìm kiếm một khối trực tiếp trong các tệp phẳng sẽ rất tốn thời gian. Do đó, Core duy trì một cơ sở dữ liệu [LevelDB](https://planb.academy/resources/glossary/leveldb) trong `blocks/index/`, liệt kê, cho mỗi khối đã biết, siêu dữ liệu như Hash, chiều cao, trạng thái xác thực, tệp `blk` và vị trí của khối đó. Khi một đối tác yêu cầu một khối, hoặc khi một thành phần nội bộ cần truy cập vào một khối cụ thể, chỉ mục này sẽ cung cấp quyền truy cập nhanh chóng. Nếu không có chỉ mục này, sẽ cần quá nhiều thao tác.
 
 
 
@@ -3051,7 +3051,7 @@ Tổng số tất cả các phần này tại một thời điểm T nhất đ�
 
 
 
-Bộ UTXO được lưu trữ trong thư mục `chainstate/` dưới dạng cơ sở dữ liệu LevelDB nhỏ gọn. Mỗi phần liên kết một khóa được lấy từ Hash của giao dịch và chỉ mục đầu ra với một giá trị bao gồm: số tiền, khóa `scriptPubKey`, chiều cao của khối tạo và chỉ báo coinbase.
+Bộ UTXO được lưu trữ trong thư mục `chainstate/` dưới dạng cơ sở dữ liệu LevelDB nhỏ gọn. Mỗi phần liên kết một khóa được lấy từ Hash của giao dịch và chỉ mục đầu ra với một giá trị bao gồm: số tiền, khóa `scriptPubKey`, chiều cao của khối tạo và chỉ báo [coinbase](https://planb.academy/resources/glossary/coinbase-transaction).
 
 
 
@@ -3075,13 +3075,13 @@ Lưu ý rằng bộ UTXO thường là tâm điểm của những lo ngại về
 
 
 
-Sự phát triển của bộ UTXO cũng bắt nguồn từ cấu trúc của các giao dịch thanh toán đơn giản trên Bitcoin. Thực tế, khi thực hiện thanh toán, bạn sử dụng một UTXO làm đầu vào và tạo ra 2 UTXO mới làm đầu ra (một cho thanh toán và một cho Exchange). Cuối cùng, một phương pháp phân tích chuỗi, được gọi là CIOH (*Phương pháp Đầu vào Chung Ownership*), cung cấp thêm động lực để tránh hợp nhất Coin.
+Sự phát triển của bộ UTXO cũng bắt nguồn từ cấu trúc của các giao dịch thanh toán đơn giản trên Bitcoin. Thực tế, khi thực hiện thanh toán, bạn sử dụng một UTXO làm đầu vào và tạo ra 2 UTXO mới làm đầu ra (một cho thanh toán và một cho Exchange). Cuối cùng, một phương pháp phân tích chuỗi, được gọi là [CIOH](https://planb.academy/resources/glossary/cioh) (*Phương pháp Đầu vào Chung Ownership*), cung cấp thêm động lực để tránh hợp nhất Coin.
 
 
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Vì một phần của nó phải được lưu trữ trong RAM để xác minh các giao dịch trong thời gian hợp lý, bộ UTXO có thể dần dần khiến việc vận hành Full node trở nên quá tốn kém. Để giải quyết vấn đề này, một số đề xuất đã được đưa ra, đáng chú ý là [Utreexo](https://planb.academy/resources/glossary/utreexo).
+Vì một phần của nó phải được lưu trữ trong RAM để xác minh các giao dịch trong thời gian hợp lý, bộ UTXO có thể dần dần khiến việc vận hành Full node trở nên quá tốn kém. Để giải quyết vấn đề này, một số đề xuất đã được đưa ra, đáng chú ý là Utreexo.
 
 
 
@@ -3108,7 +3108,7 @@ Mempool là tập hợp cục bộ các giao dịch hợp lệ đã được nh�
 
 
 
-Khi nhận được giao dịch, Core sẽ áp dụng một loạt kiểm tra dựa trên các quy tắc đồng thuận (cú pháp, tập lệnh hợp lệ, không chi tiêu gấp đôi, v.v.) và các quy tắc Mempool, vốn là chính sách cục bộ (RBF, ngưỡng phí tối thiểu, giới hạn dữ liệu trong `OP_RETURN`, v.v.). Nếu giao dịch tuân thủ các quy tắc này, giao dịch sẽ được lưu trữ trong bộ nhớ.
+Khi nhận được giao dịch, Core sẽ áp dụng một loạt kiểm tra dựa trên các quy tắc đồng thuận (cú pháp, tập lệnh hợp lệ, không chi tiêu gấp đôi, v.v.) và các quy tắc Mempool, vốn là chính sách cục bộ ([RBF](https://planb.academy/resources/glossary/rbf-replacebyfee), ngưỡng phí tối thiểu, giới hạn dữ liệu trong `OP_RETURN`, v.v.). Nếu giao dịch tuân thủ các quy tắc này, giao dịch sẽ được lưu trữ trong bộ nhớ.
 
 
 
@@ -3349,7 +3349,7 @@ Nếu bạn không muốn mở cổng trên bộ định tuyến nhưng vẫn ch
 
 
 
-Theo mặc định, nút của bạn giao tiếp qua clearnet, Tor và I2P. Điều này có nghĩa là các nút ngang hàng mà nó kết nối trên clearnet có thể thấy địa chỉ IP công khai Address của bạn, và ISP của bạn có thể sẽ phát hiện ra rằng bạn đang chạy nút Bitcoin (mặc dù P2P Transport V2 khiến ISP khó nghe lén hơn). Điều này không hẳn là vấn đề, nhưng nếu bạn muốn tránh rò rỉ thông tin này, bạn có thể kết nối nút của mình hoàn toàn qua mạng Tor.
+Theo mặc định, nút của bạn giao tiếp qua clearnet, Tor và I2P. Điều này có nghĩa là các nút ngang hàng mà nó kết nối trên clearnet có thể thấy địa chỉ IP công khai Address của bạn, và ISP của bạn có thể sẽ phát hiện ra rằng bạn đang chạy nút Bitcoin (mặc dù [P2P Transport V2](https://planb.academy/resources/glossary/p2p-transport-v2) khiến ISP khó nghe lén hơn). Điều này không hẳn là vấn đề, nhưng nếu bạn muốn tránh rò rỉ thông tin này, bạn có thể kết nối nút của mình hoàn toàn qua mạng Tor.
 
 
 
@@ -3468,7 +3468,7 @@ Sau đây là các cài đặt nâng cao cho Mempool và chính sách rơle. N�
 
 
 
-- `permitbaremultisig=1`: Cho phép chuyển tiếp các giao dịch P2MS *bare-Multisig* (mặc định: `1`). Đây là mẫu tập lệnh lâu đời nhất để thiết lập điều kiện đa chữ ký trên UTXO (được Gavin Andresen phát minh vào năm 2011).
+- `permitbaremultisig=1`: Cho phép chuyển tiếp các giao dịch P2MS *bare-Multisig* (mặc định: `1`). Đây là mẫu tập lệnh lâu đời nhất để thiết lập điều kiện [đa chữ ký](https://planb.academy/resources/glossary/multisig) trên UTXO (được Gavin Andresen phát minh vào năm 2011).
 
 
 
@@ -3492,7 +3492,7 @@ Sau đây là các cài đặt nâng cao cho Mempool và chính sách rơle. N�
 
 
 
-- `peerbloomfilters=1` : Bật hỗ trợ bộ lọc Bloom (BIP37) để cung cấp các khối/giao dịch đã được lọc cho các máy khách nhẹ (mặc định: `0`). Lưu ý, điều này làm tăng tải trên tài nguyên của bạn.
+- `peerbloomfilters=1` : Bật hỗ trợ [bộ lọc Bloom](https://planb.academy/resources/glossary/bloom-filter) (BIP37) để cung cấp các khối/giao dịch đã được lọc cho các máy khách nhẹ (mặc định: `0`). Lưu ý, điều này làm tăng tải trên tài nguyên của bạn.
 
 
 

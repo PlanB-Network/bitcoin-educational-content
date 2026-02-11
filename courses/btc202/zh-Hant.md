@@ -304,7 +304,7 @@ Nakamoto, S. (2008)。 *Bitcoin：點對點電子現金系統*。https://Bitcoin
 
 
 
-然而，隨著 Bitcoin 的逐漸普及以及礦工數量的增加，Mining 的競爭格局也發生了翻天覆地的變化。如今，Mining 已經成為一種競爭極為激烈的活動，由配備了專業基礎設施的產業玩家主導。現在，開採一個新區塊所需的能量已大到個人使用者僅使用傳統電腦幾乎不可能達成的地步。因此，Mining 現在主要使用稱為 ASIC（*特定應用集成電路*）的專用機器進行。這些晶片經過最佳化，專門用來在 Bitcoin 上執行雙重 SHA-256，也就是 Mining 所使用的演算法。
+然而，隨著 Bitcoin 的逐漸普及以及礦工數量的增加，Mining 的競爭格局也發生了翻天覆地的變化。如今，Mining 已經成為一種競爭極為激烈的活動，由配備了專業基礎設施的產業玩家主導。現在，開採一個新區塊所需的能量已大到個人使用者僅使用傳統電腦幾乎不可能達成的地步。因此，Mining 現在主要使用稱為 [ASIC](https://planb.academy/resources/glossary/asic)（*特定應用集成電路*）的專用機器進行。這些晶片經過最佳化，專門用來在 Bitcoin 上執行雙重 [SHA-256](https://planb.academy/resources/glossary/sha256)，也就是 Mining 所使用的演算法。
 
 
 
@@ -722,7 +722,7 @@ Full node 不需要信任任何人，因為它驗證並知識系統中的所有�
 
 
 
-實際上，Full node 需要相當多的資源，包括數百 GB 的區塊檔案、能夠驗證腳本的處理器、Mempool 的 RAM 和快取記憶體，以及穩定的頻寬。第一次同步 (*IBD*) 會讀取並驗證完整的歷史記錄：它很密集，但只會發生一次。Full node 會積極參與網路，中繼區塊和交易，並可接受進入的連線，以協助其他對等體。
+實際上，Full node 需要相當多的資源，包括數百 GB 的區塊檔案、能夠驗證腳本的處理器、Mempool 的 RAM 和快取記憶體，以及穩定的頻寬。第一次同步 (*[IBD](https://planb.academy/resources/glossary/initial-block-download-ibd)*) 會讀取並驗證完整的歷史記錄：它很密集，但只會發生一次。Full node 會積極參與網路，中繼區塊和交易，並可接受進入的連線，以協助其他對等體。
 
 
 
@@ -758,7 +758,7 @@ pruned 節點會以 Full node 的方式驗證所有東西，從 Genesis 區塊�
 
 
 
-SPV (* 簡化支付驗證*) 節點，或稱輕量級節點，只保留區塊標頭，而不保留交易細節，並依賴其他完整節點來取得交易在其擁有標頭的區塊中的證明 (透過樹的 Merkle 證明)。簡化支付驗證的概念並不新穎，Satoshi Nakamoto 本人已在白皮書第 8 部分中提出。
+[SPV](https://planb.academy/resources/glossary/spv-node-light-node) (* 簡化支付驗證*) 節點，或稱輕量級節點，只保留區塊標頭，而不保留交易細節，並依賴其他完整節點來取得交易在其擁有標頭的區塊中的證明 (透過樹的 [Merkle](https://planb.academy/resources/glossary/merkle-tree) 證明)。簡化支付驗證的概念並不新穎，Satoshi Nakamoto 本人已在白皮書第 8 部分中提出。
 
 
 
@@ -812,7 +812,7 @@ Nakamoto, S. (2008)。 *Bitcoin：點對點電子現金系統*。https://Bitcoin
 
 
 
-如果您想要完全獨立使用 Bitcoin，而不限制自己日後進階的使用，例如索引器、Lightning 節點，甚至是 Block explorer，那麼 Full node 仍然是最佳的解決方案。這正是我們要在本課程中探討的！
+如果您想要完全獨立使用 Bitcoin，而不限制自己日後進階的使用，例如索引器、[Lightning](https://planb.academy/resources/glossary/lightning-network) 節點，甚至是 Block explorer，那麼 Full node 仍然是最佳的解決方案。這正是我們要在本課程中探討的！
 
 
 
@@ -853,7 +853,7 @@ Nakamoto, S. (2008)。 *Bitcoin：點對點電子現金系統*。https://Bitcoin
 
 
 
-[Bitcoin core 是網路的超大多數用戶端](https://bitcoincore.org/)。它會下載、驗證和維護 Blockchain，提供 RPC/REST API，並能整合 Wallet。如果您偏好標準工具，並覺得可以自行新增服務 (例如 Electrum 伺服器、explorer 和 LND)，您最好還是原封不動地使用 Core。
+[Bitcoin core 是網路的超大多數用戶端](https://bitcoincore.org/)。它會下載、驗證和維護 Blockchain，提供 [RPC](https://planb.academy/resources/glossary/rpc-remote-procedure-call)/REST API，並能整合 Wallet。如果您偏好標準工具，並覺得可以自行新增服務 (例如 Electrum 伺服器、explorer 和 LND)，您最好還是原封不動地使用 Core。
 
 
 
@@ -1856,7 +1856,7 @@ hostname -I
 
 
 
-選擇一個假名或輸入您的名字，然後設定一個強大的密碼。請小心：這個密碼是保護從您的網路存取您的 Umbrel 的唯一障礙（因此，如果您在 Umbrel 上執行一個 Lightning 節點，就有可能存取您的 bitcoins）。如果啟用 Tor 或 VPN 服務，它也會保護透過這些服務的遠端存取。
+選擇一個假名或輸入您的名字，然後設定一個強大的密碼。請小心：這個密碼是保護從您的網路存取您的 Umbrel 的唯一障礙（因此，如果您在 Umbrel 上執行一個 Lightning 節點，就有可能存取您的 bitcoins）。如果啟用 [Tor](https://planb.academy/resources/glossary/tor) 或 VPN 服務，它也會保護透過這些服務的遠端存取。
 
 
 
@@ -2606,7 +2606,7 @@ https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b
 
 
 
-BTCPay Server 是免費的開放原始碼付款處理器，可讓您透過 Bitcoin 和 Lightning Network 接受付款，無需中介，同時保留資金的自我保管。
+[BTCPay Server](https://planb.academy/resources/glossary/btcpay-server) 是免費的開放原始碼付款處理器，可讓您透過 Bitcoin 和 Lightning Network 接受付款，無需中介，同時保留資金的自我保管。
 
 
 
@@ -2799,7 +2799,7 @@ IBD 包括下載並個別驗證每個區塊和交易，應用共識規則，以�
 
 
 
-同步從 _**headers-first**_ 步驟開始。您的節點會向多個對等端要求區塊標頭順序，並針對每個標頭驗證 Proof of Work、難度調整、語法以及 Timestamp 和版本號規則。簡而言之，它會確保收到的每個標頭都符合共識規則。
+同步從 _**headers-first**_ 步驟開始。您的節點會向多個對等端要求區塊標頭順序，並針對每個標頭驗證 Proof of Work、[難度調整](https://planb.academy/resources/glossary/difficulty-adjustment)、語法以及 Timestamp 和版本號規則。簡而言之，它會確保收到的每個標頭都符合共識規則。
 
 
 
@@ -2825,7 +2825,7 @@ IBD 包括下載並個別驗證每個區塊和交易，應用共識規則，以�
 
 
 
-交易提交到 Merkle Tree。這是一種總結大型資料集（在此情況下，區塊中的所有交易）的結構，方法是將資料集的哈希值以兩個對兩個的方式逐步累積到單一「根」，從而證明元素屬於資料集（並偵測任何修改）。如此一來，對交易的任何修改也會修改 Merkle Tree 的根，因此也會修改區塊標頭的指紋。SegWit 為 Cookie (簽名) 引進了獨立的附加 Commitment，放置在 coinbase 中。
+交易提交到 Merkle Tree。這是一種總結大型資料集（在此情況下，區塊中的所有交易）的結構，方法是將資料集的哈希值以兩個對兩個的方式逐步累積到單一「根」，從而證明元素屬於資料集（並偵測任何修改）。如此一來，對交易的任何修改也會修改 Merkle Tree 的根，因此也會修改區塊標頭的指紋。[SegWit](https://planb.academy/resources/glossary/segwit) 為 Cookie (簽名) 引進了獨立的附加 Commitment，放置在 coinbase 中。
 
 
 
@@ -2849,7 +2849,7 @@ IBD 包括下載並個別驗證每個區塊和交易，應用共識規則，以�
 
 
 
-Bitcoin core 納入了一種機制，旨在減少節點完全運作之前所需的時間，同時保留自主驗證原則的精髓：AssumeValid.
+Bitcoin core 納入了一種機制，旨在減少節點完全運作之前所需的時間，同時保留自主驗證原則的精髓：[AssumeValid](https://planb.academy/resources/glossary/assume-valid).
 
 
 
@@ -3009,7 +3009,7 @@ assumevalid」參數是基於過去的參考區塊，其 Hash 已整合到每個
 
 
 
-直接在平面檔案中搜尋區塊會太費時。因此，Core 在 `blocks/index/` 中維護一個 LevelDB 資料庫，其中列出每個已知區塊的元資料，例如 Hash、高度、驗證狀態、`blk` 檔案，以及區塊所在的偏移量。當對等人請求區塊，或內部元件需要存取特定區塊時，此索引可提供快速存取。如果沒有這個索引，就需要進行太多的作業。
+直接在平面檔案中搜尋區塊會太費時。因此，Core 在 `blocks/index/` 中維護一個 [LevelDB](https://planb.academy/resources/glossary/leveldb) 資料庫，其中列出每個已知區塊的元資料，例如 Hash、高度、驗證狀態、`blk` 檔案，以及區塊所在的偏移量。當對等人請求區塊，或內部元件需要存取特定區塊時，此索引可提供快速存取。如果沒有這個索引，就需要進行太多的作業。
 
 
 
@@ -3051,7 +3051,7 @@ UTXO (* 未動用交易輸出*) 模型是 Bitcoin 的會計表示：每項未動
 
 
 
-UTXO 集作為精簡的 LevelDB 資料庫儲存在 `chainstate/` 資料夾中。每個部分關聯一個由交易的 Hash 和輸出索引衍生出來的關鍵，其值包含：金額、`scriptPubKey` 鎖、創建區塊的高度和一個 coinbase 指示器。
+UTXO 集作為精簡的 LevelDB 資料庫儲存在 `chainstate/` 資料夾中。每個部分關聯一個由交易的 Hash 和輸出索引衍生出來的關鍵，其值包含：金額、`scriptPubKey` 鎖、創建區塊的高度和一個 [coinbase](https://planb.academy/resources/glossary/coinbase-transaction) 指示器。
 
 
 
@@ -3075,13 +3075,13 @@ UTXO 集作為精簡的 LevelDB 資料庫儲存在 `chainstate/` 資料夾中。
 
 
 
-UTXO 集的成長也源自於 Bitcoin 上簡單付款交易的結構。事實上，當您進行付款時，您會消耗一個 UTXO 作為輸入，並產生 2 個新的 UTXO 作為輸出 (一個用於付款，另一個用於 Exchange)。最後，一個稱為 CIOH (*Common Input Ownership Heuristic*) 的連鎖分析啟發式，提供了避免 Coin 整合的進一步誘因。
+UTXO 集的成長也源自於 Bitcoin 上簡單付款交易的結構。事實上，當您進行付款時，您會消耗一個 UTXO 作為輸入，並產生 2 個新的 UTXO 作為輸出 (一個用於付款，另一個用於 Exchange)。最後，一個稱為 [CIOH](https://planb.academy/resources/glossary/cioh) (*Common Input Ownership Heuristic*) 的連鎖分析啟發式，提供了避免 Coin 整合的進一步誘因。
 
 
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-由於其中一部分必須保留在 RAM 中，才能在合理的時間內驗證交易，因此 UTXO 集可能會逐漸使 Full node 的操作成本過高。為了解決這個問題，目前已有一些建議，特別是 [Utreexo](https://planb.academy/resources/glossary/utreexo)。
+由於其中一部分必須保留在 RAM 中，才能在合理的時間內驗證交易，因此 UTXO 集可能會逐漸使 Full node 的操作成本過高。為了解決這個問題，目前已有一些建議，特別是 Utreexo。
 
 
 
@@ -3108,7 +3108,7 @@ Mempool 是已收到但尚未確認的本地有效交易集。提醒一下，「
 
 
 
-收到交易時，Core 會根據共識規則（語法、有效腳本、無重複支出等）和 Mempool 規則（RBF、最低收費臨界值、`OP_RETURN`中的資料限制等）進行一系列檢查。如果交易遵守這些規則，就會儲存於記憶體中。
+收到交易時，Core 會根據共識規則（語法、有效腳本、無重複支出等）和 Mempool 規則（[RBF](https://planb.academy/resources/glossary/rbf-replacebyfee)、最低收費臨界值、`OP_RETURN`中的資料限制等）進行一系列檢查。如果交易遵守這些規則，就會儲存於記憶體中。
 
 
 
@@ -3349,7 +3349,7 @@ Full node 透過接受傳入的連線，為網路增加更多的價值。listen=
 
 
 
-預設情況下，您的節點會透過 clearnet、Tor 和 I2P 進行通訊。這表示它在 clearnet 上連線的對等端可以看到您的公開 IP Address，而您的 ISP 很可能會偵測到您正在執行 Bitcoin 節點 (雖然 P2P Transport V2 會讓 ISP 更難竊聽)。這不一定是個問題，但如果您想避免這些資訊外洩，您可以完全透過 Tor 網路連接您的節點。
+預設情況下，您的節點會透過 clearnet、Tor 和 I2P 進行通訊。這表示它在 clearnet 上連線的對等端可以看到您的公開 IP Address，而您的 ISP 很可能會偵測到您正在執行 Bitcoin 節點 (雖然 [P2P Transport V2](https://planb.academy/resources/glossary/p2p-transport-v2) 會讓 ISP 更難竊聽)。這不一定是個問題，但如果您想避免這些資訊外洩，您可以完全透過 Tor 網路連接您的節點。
 
 
 

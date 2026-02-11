@@ -94,7 +94,7 @@ Bitcoin 不僅是一種加密貨幣，它還體現了一種關於去中心化、
 
 這篇文章分析了什麼是分散化，以及為什麼分散化對 Bitcoin 的運作至關重要。我們區分了
 
-礦工的去中心化和完整節點的去中心化，並討論它們為 Bitcoin 最核心的特性之一 - 抗檢查帶來了什麼。
+[礦工](https://planb.academy/resources/glossary/mining)的去中心化和[完整節點](https://planb.academy/resources/glossary/full-node)的去中心化，並討論它們為 Bitcoin 最核心的特性之一 - 抗檢查帶來了什麼。
 
 
 接下來的討論將轉移到對中立性的理解，也就是對使用者、礦工和開發者的無允許性，這是任何分散式系統的必要屬性。最後，我們會談到要掌握像 Bitcoin 這種分散式系統有多困難，並提出一些心智模式來幫助您了解它。
@@ -109,7 +109,7 @@ Bitcoin 不僅是一種加密貨幣，它還體現了一種關於去中心化、
 Bitcoin 分權有兩個主要方面：Miner 分權和 Full node 分權。
 
 
-Miner 分散是指交易處理並非由任何中央實體執行或協調。Full node 去中心化是指區塊（即礦工輸出的資料）的驗證在網路邊緣進行，最終由使用者完成，而不是由少數可信賴的機構完成。
+Miner 分散是指[交易](https://planb.academy/resources/glossary/transaction-tx)處理並非由任何中央實體執行或協調。Full node 去中心化是指[區塊](https://planb.academy/resources/glossary/block)（即礦工輸出的資料）的驗證在網路邊緣進行，最終由使用者完成，而不是由少數可信賴的機構完成。
 
 
 ![](assets/zh-Hant/001.webp)
@@ -125,10 +125,10 @@ Miner 分散是指交易處理並非由任何中央實體執行或協調。Full 
 Bitcoin 中的 Miner 去中心化意味著交易的*排序*不是由任何單一實體或固定的實體集體進行的。它是由所有想要參與其中的行動者集體執行；這個礦工集體是一組動態的使用者。任何人都可以隨意加入或退出。此特性使得 Bitcoin 具有抗檢查性。
 
 
-如果 Bitcoin 是集中式的，就很容易受到那些想要審查它的人的攻擊，例如政府。它的命運將與早期嘗試創造數位貨幣的命運相同。在一篇題為「Enabling Blockchain Innovations with Pegged Sidechains」的[論文](https://www.blockstream.com/sidechains.pdf)引言中，作者解釋了早期版本的數位貨幣如何無法適應敵對環境（請參閱下一部分的「敵對思維」章節）。
+如果 Bitcoin 是集中式的，就很容易受到那些想要審查它的人的攻擊，例如政府。它的命運將與早期嘗試創造數位貨幣的命運相同。在一篇題為「Enabling [Blockchain](https://planb.academy/resources/glossary/blockchain) Innovations with Pegged Sidechains」的[論文](https://www.blockstream.com/sidechains.pdf)引言中，作者解釋了早期版本的數位貨幣如何無法適應敵對環境（請參閱下一部分的「敵對思維」章節）。
 
 
-David Chaum 於 1983 年提出數位現金的研究課題，在中央伺服器被信任以防止 Double-spending 的情況下。為了降低這個中央可信託方對個人隱私造成的風險，以及強制執行可替代性，Chaum 引入了盲簽名，他用盲簽名提供了一種加密手段，防止中央伺服器的簽名（代表硬幣）被連結，同時仍允許中央伺服器執行防止雙重花費。
+David Chaum 於 1983 年提出數位現金的研究課題，在中央伺服器被信任以防止 [Double-spending](https://planb.academy/resources/glossary/double-spending-attack) 的情況下。為了降低這個中央可信託方對個人隱私造成的風險，以及強制執行[可替代性](https://planb.academy/resources/glossary/fungibility)，Chaum 引入了[盲簽名](https://planb.academy/resources/glossary/blind-signature)，他用盲簽名提供了一種加密手段，防止中央伺服器的簽名（代表硬幣）被連結，同時仍允許中央伺服器執行防止雙重花費。
 
 對中央伺服器的要求成為數位現金的致命傷[Gri99]。雖然可以用幾個簽名者的臨界簽名來取代中央伺服器的簽名，從而分散這個單點失效，但對於可稽核性而言，簽名者必須是獨特且可辨識的。這仍會使系統容易發生故障，因為每個簽章者都可能逐一失敗，或被逐一製造失敗。
 
@@ -160,11 +160,11 @@ David Chaum 於 1983 年提出數位現金的研究課題，在中央伺服器�
 > 在本文中，我們提出一個解決 Double-spending 問題的方案，使用點對點分散式 Timestamp 伺服器來 generate 計算交易的時間順序證明。
 
 
-在這裡，他使用了「點對點分散式 Timestamp 伺服器」這個聽起來很奇特的詞彙。這裡的關鍵字是 *分散式*，在此上下文中表示沒有中央控制點。Nakamoto 接著解釋 Proof-of-Work 是如何解決問題的。
+在這裡，他使用了「點對點分散式 Timestamp 伺服器」這個聽起來很奇特的詞彙。這裡的關鍵字是 *分散式*，在此上下文中表示沒有中央控制點。[Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) 接著解釋 [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) 是如何解決問題的。
 
 不過，沒有人比
 
-[Gregory Maxwell 在 Reddit 上](https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/)，他回應有人提議限制礦工 Hash 的功率，以避免潛在的 51% 攻擊：
+[Gregory Maxwell 在 Reddit 上](https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/)，他回應有人提議限制礦工 [Hash 的功率](https://planb.academy/resources/glossary/hashrate)，以避免潛在的 51% 攻擊：
 
 
 > 像 Bitcoin 這樣的分散式系統使用的是公開選舉。但在分散式系統中，您不能只進行「人民」投票，因為那需要一個集中式的單位來授權人民投票。相反，Bitcoin 使用的是計算能力投票，因為不需要任何集中式的幫助，就可以驗證計算能力。
@@ -189,10 +189,10 @@ David Chaum 於 1983 年提出數位現金的研究課題，在中央伺服器�
 在上面的段落中，我們主要討論的是 Miner 的去中心化，以及集中化的礦工如何允許審查。但去中心化還有另一個面向，也就是 *Full node 去中心化*。
 
 
-Full node 分散的重要性與不可信任有關。假設用戶停止運行自己的 Full node，原因包括運行成本過度增加。在這種情況下，他們必須以其他方式與 Bitcoin 網路互動，可能是使用網路錢包或輕量級錢包，這就需要對這些服務的提供者有一定程度的信任。
+Full node 分散的重要性與不可信任有關。假設用戶停止運行自己的 Full node，原因包括運行成本過度增加。在這種情況下，他們必須以其他方式與 Bitcoin 網路互動，可能是使用網路[錢包](https://planb.academy/resources/glossary/wallet)或輕量級錢包，這就需要對這些服務的提供者有一定程度的信任。
 
 
-使用者從直接執行網路共識規則，轉變為相信其他人會執行。現在假設大多數使用者將共識執行委託給可信賴的實體。在這種情況下，網路可能會迅速陷入集中化，而網路規則也可能會被串通好的惡意行動者所改變。
+使用者從直接執行網路[共識規則](https://planb.academy/resources/glossary/consensus-rules)，轉變為相信其他人會執行。現在假設大多數使用者將[共識](https://planb.academy/resources/glossary/consensus)執行委託給可信賴的實體。在這種情況下，網路可能會迅速陷入集中化，而網路規則也可能會被串通好的惡意行動者所改變。
 
 
 在 [a
@@ -588,7 +588,7 @@ Bitcoin 的隱私權並非完美無瑕。它需要大量的工作才能私下交
 
 > 在 Bitcoin 中，金融隱私是可替代性的一個基本要素：如果你能有意義地區分一個幣和另一個幣，那麼它們的可替代性就很弱。如果我們的可替代性在實踐中太弱，那麼我們就無法實現去中心化：如果某個重要人物公佈了一份他們不接受衍生幣的被盜錢幣清單，你就必須仔細檢查你所接受的錢幣是否與該清單相符，並退回不合格的錢幣。  每個人都會被困在檢查由不同機構發布的黑名單中，因為在那個世界裡，我們都不想被壞幣困住。這增加了摩擦和交易成本，使Bitcoin作為貨幣的價值降低。
 
-在此，他談到缺乏可替代性所衍生的危險。假設您有一個 UTXO。這個 UTXO 的歷史通常可以追溯到幾次跳躍，擴展到許多以前的輸出。如果任何這些輸出涉及任何非法、不想要或可疑的活動，那麼您的錢幣的某些潛在收款人可能會拒絕接受您的錢幣。如果您認為您的收款人會根據某些集中式白名單或黑名單服務驗證您的代幣，為了安全起見，您可能也會開始檢查您收到的代幣。結果就是，糟糕的可替代性會助長更糟糕的可替代性。
+在此，他談到缺乏可替代性所衍生的危險。假設您有一個 [UTXO](https://planb.academy/resources/glossary/utxo)。這個 UTXO 的歷史通常可以追溯到幾次跳躍，擴展到許多以前的輸出。如果任何這些輸出涉及任何非法、不想要或可疑的活動，那麼您的錢幣的某些潛在收款人可能會拒絕接受您的錢幣。如果您認為您的收款人會根據某些集中式白名單或黑名單服務驗證您的代幣，為了安全起見，您可能也會開始檢查您收到的代幣。結果就是，糟糕的可替代性會助長更糟糕的可替代性。
 
 
 Adam Back 和 Matt Corallo [在 2016 年米蘭的 Scaling Bitcoin 上發表了關於可替代性的演講](https://btctranscripts.com/scalingbitcoin/milan-2016/fungibility-overview/)。他們的想法如出一轍：
@@ -674,7 +674,7 @@ https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522
 ![](assets/zh-Hant/006.webp)
 
 
-本章將探討 Bitcoin Supply 的 2,100 萬 BTC 限額，或實際上有多少？我們會談談這個限制是如何執行的，以及如何驗證這個限制是否被遵守。此外，我們將窺探水晶球，並討論當 Block reward 從以補貼為基礎轉變為以收費為基礎時，將會出現的動態。
+本章將探討 Bitcoin Supply 的 2,100 萬 BTC 限額，或實際上有多少？我們會談談這個限制是如何執行的，以及如何驗證這個限制是否被遵守。此外，我們將窺探水晶球，並討論當 [Block reward](https://planb.academy/resources/glossary/block-reward) 從以補貼為基礎轉變為以收費為基礎時，將會出現的動態。
 
 
 眾所皆知的 2100 萬 BTC 的有限 Supply 被視為 Bitcoin 的基本屬性。但它真的是一成不變的嗎？
@@ -685,7 +685,7 @@ https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522
 
 > 如果將所有這些數字相加，您會得到 20999999.9769 BTC。
 
-但由於種種原因 - 例如早期的 coinbase 交易問題、礦工無意中領取的金鑰少於允許的數量，以及私鑰遺失 - 這個上限將永遠無法達到。Wuille 總結道：
+但由於種種原因 - 例如早期的 [coinbase 交易](https://planb.academy/resources/glossary/coinbase-transaction)問題、礦工無意中領取的金鑰少於允許的數量，以及私鑰遺失 - 這個上限將永遠無法達到。Wuille 總結道：
 
 
 > 這樣我們就有 20999817.31308491 BTC（將區塊 528333 之前的所有資料都計算在內）。
@@ -718,7 +718,7 @@ https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522
 
 
 
-Block reward 由區塊補貼加上交易費用組成。Block reward 需要支付 Bitcoin 的安全成本。我們可以肯定的說，在目前的區塊補貼、交易費用、Bitcoin 價格、Mempool 規模、Hash 力量、去中心化程度等條件下，每個參與者遵守規則的誘因足以維持一個安全的貨幣系統。
+Block reward 由[區塊補貼](https://planb.academy/resources/glossary/block-subsidy)加上[交易費用](https://planb.academy/resources/glossary/transaction-fees)組成。Block reward 需要支付 Bitcoin 的安全成本。我們可以肯定的說，在目前的區塊補貼、交易費用、Bitcoin 價格、[Mempool](https://planb.academy/resources/glossary/mempool) 規模、Hash 力量、去中心化程度等條件下，每個參與者遵守規則的誘因足以維持一個安全的貨幣系統。
 
 
 當整體補貼接近零時會發生什麼？為了簡單起見，我們假設它實際上等於零。這時候，系統的安全成本只能透過交易費用來支付。當這種情況發生時，未來會發生什麼，我們無從得知。不確定因素眾多，我們只能靠猜測。例如，Paul Sztorc 對這個主題的貢獻 [在他的 Truthcoin 部落格中](https://www.truthcoin.info/blog/security-budget/)，大部分都是猜測，但他至少有一個確實的觀點（請注意，Sztorc 所指的 M2，是指法定貨幣 Supply 的量度）：
@@ -735,7 +735,7 @@ Block reward 由區塊補貼加上交易費用組成。Block reward 需要支付
 隨著時間的推移，安全成本的承擔將會從持有者轉移至支出者。
 
 
-當交易費成為 Mining 的主要動機時，誘因就會轉變。最值得注意的是，如果Miner的Mempool沒有包含足夠的交易費用，對於該Miner來說，改寫Bitcoin的歷史可能比延續Bitcoin的歷史更有利可圖。Bitcoin Optech 有一個特定的 [關於此行為的部分](https://bitcoinops.org/en/topics/fee-sniping/)，稱為 *fee sniping*，由 David Harding 撰寫：
+當交易費成為 Mining 的主要動機時，誘因就會轉變。最值得注意的是，如果Miner的Mempool沒有包含足夠的交易費用，對於該Miner來說，改寫Bitcoin的歷史可能比延續Bitcoin的歷史更有利可圖。Bitcoin Optech 有一個特定的 [關於此行為的部分](https://bitcoinops.org/en/topics/fee-sniping/)，稱為 *[fee sniping](https://planb.academy/resources/glossary/fee-sniping)*，由 David Harding 撰寫：
 
 
 > 當 Bitcoin 的補貼持續減少，交易費用開始主導 Bitcoin 的區塊獎勵時，費用狙擊是可能發生的問題。如果交易費是最重要的，那麼 Miner 的 Hash 率為 `x`% 的人有 `x`% 的機會在下一個區塊 Mining，所以對他們來說，老老實實 Mining 的預期價值是他們 Mempool 中 [best feerate set of transactions](https://bitcoinops.org/en/newsletters/2021/06/02/#candidate-set-based-csb-block-template-construction) 的 `x`%。
@@ -816,7 +816,7 @@ Bitcoin Supply 是否會增長超過 2,100 萬，我們今天還無法確定，�
 反之亦然，[向後相容](https://en.wikipedia.org/wiki/Backward_compatibility) 是指舊軟體的資料可以在新軟體上使用。如果一項變更既向前又向後相容，則稱為完全相容。
 
 
-對 Bitcoin 共識規則的變更，如果完全相容，就稱為 *Soft Fork*。這是升級 Bitcoin 最常見的方式，原因有很多，我們會在本章進一步討論。如果 Bitcoin 共識規則的變更向後相容，但向前不相容，則稱為 *Hard Fork*。
+對 Bitcoin 共識規則的變更，如果完全相容，就稱為 *[Soft Fork](https://planb.academy/resources/glossary/soft-fork)*。這是升級 Bitcoin 最常見的方式，原因有很多，我們會在本章進一步討論。如果 Bitcoin 共識規則的變更向後相容，但向前不相容，則稱為 *[Hard Fork](https://planb.academy/resources/glossary/hard-fork)*。
 
 
 有關 Soft fork 和 Hard fork 的技術概述，請閱讀 [Grokking Bitcoin 的第 11 章](https://rosenbaum.se/book/grokking-Bitcoin-11.html)。它解釋了這些名詞，也深入介紹了升級機制。建議您在繼續閱讀之前先掌握這方面的知識，儘管並非絕對必要。
@@ -831,24 +831,24 @@ Bitcoin Supply 是否會增長超過 2,100 萬，我們今天還無法確定，�
 
 > 其實在 Bitcoin 中有一個 Hard-Fork 是 Satoshi 所做的，我們絕對不會這樣做--這是一個相當糟糕的方式。如果你看看這裡的 git commit description [[757f076](https://github.com/Bitcoin/Bitcoin/commit/757f0769d8360ea043f469f3a35f6ec204740446)], 他說了一些關於 reverted makefile.unix wx-config version 0.3.6 的事情。沒錯。就這麼多。它完全沒有顯示它有任何破壞性變更。他基本上是把它藏在裡面。他也 [張貼到 bitcointalk](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451) 並說，請盡快升級到 0.3.6。我們修正了一個執行錯誤，在這個錯誤中，虛假交易有可能被顯示為已接受。在升級到 0.3.6 之前，請勿接受 Bitcoin 付款。如果您無法立即升級，那麼在升級之前最好關閉您的 Bitcoin 節點。然後除此之外，我不知道為什麼他也決定這麼做，他決定在相同的程式碼中加入一些優化。修正一個錯誤並加一些優化。
 
-他指出，不論是有意或無意，這個 Hard Fork 為未來的 Soft fork 製造了機會，也就是 Script 運算符號 (opcodes) OP_NOP1-OP_NOP10。我們會在 cve-2010-5141 詳細研究這個程式碼變更。到目前為止，已有兩個 Soft forks 使用這些操作碼：
+他指出，不論是有意或無意，這個 Hard Fork 為未來的 Soft fork 製造了機會，也就是 Script 運算符號 ([opcodes](https://planb.academy/resources/glossary/opcodes)) OP_NOP1-OP_NOP10。我們會在 cve-2010-5141 詳細研究這個程式碼變更。到目前為止，已有兩個 Soft forks 使用這些操作碼：
 
 
 - [bip65](https://github.com/Bitcoin/bips/blob/master/bip-0065.mediawiki) (op_checklocktimeverify)
 - [bip113](https://github.com/Bitcoin/bips/blob/master/bip-0112.mediawiki) (op_sequenceverify).
 
 
-Lombrozo 還概述了直到 2017 年為止，這些年來升級機制的演變方式。自此之後，只部署了另外一個主要升級機制 Taproot。導致其啟動的過程漫長且有些混亂，這有助於我們進一步瞭解 Bitcoin 的升級機制。
+Lombrozo 還概述了直到 2017 年為止，這些年來升級機制的演變方式。自此之後，只部署了另外一個主要升級機制 [Taproot](https://planb.academy/resources/glossary/taproot)。導致其啟動的過程漫長且有些混亂，這有助於我們進一步瞭解 Bitcoin 的升級機制。
 
 
 #### SegWit 升級
 
 
 
-雖然 SegWit 之前的所有升級或多或少都不太痛苦，但這一次不同。當 SegWit 啟動碼在 2016 年 10 月發佈時，Bitcoin 使用者似乎對它有壓倒性的支持，但不知何故，礦工並沒有發出支持這次升級的訊號，這使得啟動工作停滯不前，看不到任何解決方案。
+雖然 [SegWit](https://planb.academy/resources/glossary/segwit) 之前的所有升級或多或少都不太痛苦，但這一次不同。當 SegWit 啟動碼在 2016 年 10 月發佈時，Bitcoin 使用者似乎對它有壓倒性的支持，但不知何故，礦工並沒有發出支持這次升級的訊號，這使得啟動工作停滯不前，看不到任何解決方案。
 
 
-Aaron van Wirdum 在他的 Bitcoin 雜誌文章 [The Long Road To SegWit](https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality) 中描述了這條曲折的道路。他首先解釋什麼是 SegWit，以及如何引發區塊大小的爭論。Van Wirdum 接著概述了導致其最終啟動的事件轉折。這個過程的核心是使用者 Shaolinfry 提出的升級機制，稱為 *user activated Soft Fork*，簡稱 UASF：
+Aaron van Wirdum 在他的 Bitcoin 雜誌文章 [The Long Road To SegWit](https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality) 中描述了這條曲折的道路。他首先解釋什麼是 SegWit，以及如何引發區塊大小的爭論。Van Wirdum 接著概述了導致其最終啟動的事件轉折。這個過程的核心是使用者 Shaolinfry 提出的升級機制，稱為 *user activated Soft Fork*，簡稱 [UASF](https://planb.academy/resources/glossary/uasf)：
 
 
 > Shaolinfry 提出了一個替代方案：使用者啟動 Soft Fork (UASF)。用戶啟動的 Soft Fork 將有一個 "「旗日啟動」，節點在未來預定的時間開始執行"，而不是 Hash 權限啟動。只要這樣的 UASF 是由經濟上的大多數人執行，這應該會迫使大多數的礦工遵循 (或啟動) Soft Fork。
@@ -1029,7 +1029,7 @@ Bitcoin 隨著時間成長與演進。多年來，我們使用了不同的升級
 本章將討論 * 敵對思維 *，這種思維著重於可能出錯的地方以及對手可能採取的行動。我們首先討論 Bitcoin 的安全假設和安全模型，接著解釋一般使用者如何透過逆向思考來改善自我主權和 Bitcoin 的 Full node 分散性。接著，我們將探討一些對 Bitcoin 的實際威脅，以及敵人的想法。最後，我們會談談*axiom of resistance*，這可以幫助您了解為什麼人們一開始就在研究 Bitcoin。
 
 
-當討論各種系統內的安全性時，了解安全假設是什麼是很重要的。Bitcoin 中一個典型的安全假設是 「離散對數問題是 Hard 所能解決的」，簡單來說，這表示實際上不可能找到與特定公開金鑰對應的私密金鑰。另一個相當強烈的安全假設是，大部分的網路擁有者都是誠實的，也就是說，他們都遵守遊戲規則。如果這些假設被證實是錯誤的，那麼 Bitcoin 就有麻煩了。
+當討論各種系統內的安全性時，了解安全假設是什麼是很重要的。Bitcoin 中一個典型的安全假設是 「[離散對數](https://planb.academy/resources/glossary/discrete-logarithm)問題是 Hard 所能解決的」，簡單來說，這表示實際上不可能找到與特定[公開金鑰](https://planb.academy/resources/glossary/public-key)對應的[私密金鑰](https://planb.academy/resources/glossary/private-key)。另一個相當強烈的安全假設是，大部分的網路擁有者都是誠實的，也就是說，他們都遵守遊戲規則。如果這些假設被證實是錯誤的，那麼 Bitcoin 就有麻煩了。
 
 
 2015 年，Andrew Poelstra [在香港的 Scaling Bitcoin 會議中發表講話](https://btctranscripts.com/scalingbitcoin/hong-kong-2015/security-assumptions/)，其間他分析了 Bitcoin 的安全假設。他一開始就注意到許多系統在某種程度上都忽略了敵人；例如，要保護一棟建築物免受所有類型的敵人事件，這真的是 Hard。相反地，我們一般接受有人可能會燒毀大樓的可能性，並在某種程度上透過執法等方式防止此類及其他對抗性行為。
@@ -1066,7 +1066,7 @@ Poelstra 繼續提到 Bitcoin 是一種全新的系統；與簽署協定相比�
 
 
 
-敵對思維的重要性在某種程度上也延伸至 Bitcoin 的日常使用者，而不僅僅是 Bitcoin 的鐵桿開發者和專家。Ragnar Lifthasir 在一則 [推特風暴](https://bitcoinwords.github.io/tweetstorm-on-adversarial-thinking) 中提到，圍繞 Bitcoin 的簡單化敘述 - 例如「只是 HODL」 - 可能會貶低 Bitcoin 本身，他最後說道
+敵對思維的重要性在某種程度上也延伸至 Bitcoin 的日常使用者，而不僅僅是 Bitcoin 的鐵桿開發者和專家。Ragnar Lifthasir 在一則 [推特風暴](https://bitcoinwords.github.io/tweetstorm-on-adversarial-thinking) 中提到，圍繞 Bitcoin 的簡單化敘述 - 例如「只是 [HODL](https://planb.academy/resources/glossary/hodl)」 - 可能會貶低 Bitcoin 本身，他最後說道
 
 
 > 為了讓 Bitcoin 和我們自己變得更強，我們需要像為 Bitcoin 做出貢獻的軟體工程師一樣思考。他們會進行同儕審查，毫不留情地找出缺點。在他們的技術活動中，他們談論提案可能失敗的各種方式。他們的思考方式是敵對的。他們是保守的
@@ -1085,10 +1085,10 @@ Wallet 竊取和拒絕服務攻擊：
 
 > 如果攻擊者試圖用他們控制的用戶端填滿網路，那麼您就很有可能只連線到攻擊者節點。雖然 Bitcoin 從不使用節點的計數來做任何事，但將節點與誠實的網路完全隔離，對執行其他攻擊會有幫助。
 
-此類攻擊稱為 *Sybil 攻擊*，只要單一實體控制網路中的多個節點，並利用這些節點顯現為多個實體，就會發生此類攻擊。
+此類攻擊稱為 *[Sybil 攻擊](https://planb.academy/resources/glossary/sybil-attack)*，只要單一實體控制網路中的多個[節點](https://planb.academy/resources/glossary/node)，並利用這些節點顯現為多個實體，就會發生此類攻擊。
 
 
-引文中也提到，Sybil 攻擊對 Bitcoin 網路無效，因為沒有透過節點或其他可計數的實體進行投票，而是透過計算能力進行投票。儘管如此，這種扁平結構仍讓系統容易受到其他攻擊。Bitcoin wiki 頁面還介紹了其他可能的攻擊，例如資訊隱藏（通常稱為 *eclipse攻擊*），以及 Bitcoin Core 實作一些啟發式防禦攻擊的方法。
+引文中也提到，Sybil 攻擊對 Bitcoin 網路無效，因為沒有透過節點或其他可計數的實體進行投票，而是透過計算能力進行投票。儘管如此，這種扁平結構仍讓系統容易受到其他攻擊。Bitcoin wiki 頁面還介紹了其他可能的攻擊，例如資訊隱藏（通常稱為 *[eclipse攻擊](https://planb.academy/resources/glossary/eclipse-attack)*），以及 [Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core) 實作一些啟發式防禦攻擊的方法。
 
 
 以上是需要注意的真實威脅範例。
@@ -1110,7 +1110,7 @@ Wallet 竊取和拒絕服務攻擊：
 例如，有一節是關於滲透者如何瓦解組織。這不是 Hard 可以看到的，這種策略可以用來針對 Bitcoin 開發過程，而這個過程是開放給任何人參與的。專門的攻擊者可以透過無休止地關注不相干的問題、在精確的措辭上斤斤計較，以及試圖重申已經全面解決的討論，不斷拖延進度。攻擊者也可以雇用一支巨魔軍隊來倍增自己的效能；我們可以稱之為社交 Sybil 攻擊。使用社交 Sybil 攻擊，他們可以讓人覺得反對變革提案的阻力比實際上更大。
 
 
-這突顯了一個決心堅定的國家可以也會盡一切力量摧毀敵人，包括從內部瓦解敵人。由於 Bitcoin 是一種與既有法定貨幣競爭的貨幣形式，因此各國有可能會將 Bitcoin 視為敵人。
+這突顯了一個決心堅定的國家可以也會盡一切力量摧毀敵人，包括從內部瓦解敵人。由於 Bitcoin 是一種與既有[法定貨幣](https://planb.academy/resources/glossary/fiat)競爭的貨幣形式，因此各國有可能會將 Bitcoin 視為敵人。
 
 
 ### 抵抗的公理
@@ -1189,7 +1189,7 @@ Copyright (c) 2009-2022 Bitcoin開發者
 
 
 
-Bitcoin Core 的原始碼維護在 [GitHub](https://github.com/Bitcoin/Bitcoin) 上的 Git 套件庫中。任何人都可以克隆該儲存庫，而無需取得任何許可，然後在本機檢視、建立或變更該儲存庫。這表示全球各地有數以千計的套件庫副本。這些都是相同版本庫的複本，那麼是什麼讓這個特定的 GitHub Bitcoin Core 版本庫如此特別呢？嚴格來說，它一點也不特別，但在社會上，它已經成為 Bitcoin 開發的焦點。
+Bitcoin Core 的原始碼維護在 [GitHub](https://github.com/Bitcoin/Bitcoin) 上的 [Git](https://planb.academy/resources/glossary/git) 套件庫中。任何人都可以克隆該儲存庫，而無需取得任何許可，然後在本機檢視、建立或變更該儲存庫。這表示全球各地有數以千計的套件庫副本。這些都是相同版本庫的複本，那麼是什麼讓這個特定的 GitHub Bitcoin Core 版本庫如此特別呢？嚴格來說，它一點也不特別，但在社會上，它已經成為 Bitcoin 開發的焦點。
 
 
 Bitcoin 和安全專家 Jameson Lopp 在一篇題為「誰控制 Bitcoin 核心？」的 [部落格文章](https://blog.lopp.net/who-controls-Bitcoin-core-/) 中很好地解釋了這一點：
@@ -1230,10 +1230,10 @@ Lombrozo 也談到共識變更的過程，但這已經超過本章的範圍。�
 
 
 
-- Lightning Network：可快速支付極小額金額的付款網路。它只需要很少的 On-Chain Bitcoin 交易。目前有多種互通的實作，例如 [Core Lightning](https://github.com/ElementsProject/lightning)、[LND](https://github.com/lightningnetwork/LND)、[Eclair](https://github.com/ACINQ/eclair) 和 [Lightning Dev Kit](https://github.com/lightningdevkit)。
-- CoinJoin：多方合作將其付款合併為單一交易，以增加 Address 集群的難度。目前已有各種實作。
-- 側鏈：這個系統可以在 Bitcoin 的 Blockchain 上鎖定一個硬幣，以便在其他 Blockchain 上解鎖。這允許比特幣被移動到其他一些 Blockchain，即 Sidechain，以便使用該 Sidechain 上可用的功能。例子包括 [Blockstream 的 Elements](https://github.com/ElementsProject/Elements)。
-- OpenTimestamps: 它允許您以隱私的方式在 Bitcoin 的 Blockchain 上 [Timestamp 一個文件](https://opentimestamps.org/)。然後，您可以使用該 Timestamp 來證明某個文件一定是在某個時間之前就存在的。
+- [Lightning Network](https://planb.academy/resources/glossary/lightning-network)：可快速支付極小額金額的付款網路。它只需要很少的 [On-Chain](https://planb.academy/resources/glossary/onchain) Bitcoin 交易。目前有多種互通的實作，例如 [Core Lightning](https://github.com/ElementsProject/lightning)、[LND](https://github.com/lightningnetwork/LND)、[Eclair](https://github.com/ACINQ/eclair) 和 [Lightning Dev Kit](https://github.com/lightningdevkit)。
+- [CoinJoin](https://planb.academy/resources/glossary/coinjoin)：多方合作將其付款合併為單一交易，以增加 Address 集群的難度。目前已有各種實作。
+- [側鏈](https://planb.academy/resources/glossary/sidechain)：這個系統可以在 Bitcoin 的 Blockchain 上鎖定一個硬幣，以便在其他 Blockchain 上解鎖。這允許比特幣被移動到其他一些 Blockchain，即 Sidechain，以便使用該 Sidechain 上可用的功能。例子包括 [Blockstream 的 Elements](https://github.com/ElementsProject/Elements)。
+- OpenTimestamps: 它允許您以隱私的方式在 Bitcoin 的 Blockchain 上 [Timestamp 一個文件](https://opentimestamps.org/)。然後，您可以使用該 [Timestamp](https://planb.academy/resources/glossary/timestamp) 來證明某個文件一定是在某個時間之前就存在的。
 
 
 如果沒有無許可開發，許多這些專案都不可能實現。如中立性一章所述，如果開發人員必須申請許可才能在 Bitcoin 上建立通訊協定，那麼只有中央開發人員許可委員會允許的協定才會被開發。
@@ -1287,7 +1287,7 @@ Lombrozo 也談到共識變更的過程，但這已經超過本章的範圍。�
 開放原始碼開發人員經常會使用其他人所開發的開放原始碼程式庫。這是任何健康生態系統中自然且令人讚嘆的一部分。但 Bitcoin 軟體處理的是真金白銀，有鑒於此，開發人員在選擇應該依賴哪些第三方函式庫時需要格外謹慎。
 
 
-在一則哲學性的 [關於密碼學的談話](https://btctranscripts.com/greg-maxwell/2015-04-29-gmaxwell-Bitcoin-selection-cryptography/)中，Gregory Maxwell 想要重新定義「密碼學」一詞，他認為這個詞太過狹隘。他解釋說，從根本來說，*資訊希望是自由的*，並據此對密碼學下了定義：
+在一則哲學性的 [關於密碼學的談話](https://btctranscripts.com/greg-maxwell/2015-04-29-gmaxwell-Bitcoin-selection-cryptography/)中，Gregory Maxwell 想要重新定義「[密碼學](https://planb.academy/resources/glossary/cryptography)」一詞，他認為這個詞太過狹隘。他解釋說，從根本來說，*資訊希望是自由的*，並據此對密碼學下了定義：
 
 
 > 密碼學是我們用來對抗資訊基本性質的藝術與科學，使它屈服於我們的政治與道德意志，並將它引導至人類的目的，而不畏任何機會與反對它的努力。
@@ -1326,7 +1326,7 @@ Lombrozo 也談到共識變更的過程，但這已經超過本章的範圍。�
 
 
 - 一個想法張貼在 Bitcoin-dev 郵件列表上
-- 此構想正式成為 Bitcoin 改善提案 (BIP)
+- 此構想正式成為 Bitcoin 改善提案 ([BIP](https://planb.academy/resources/glossary/bip))
 - BIP 在 Bitcoin Core 的拉取請求 (PR) 中實作。
 - 討論部署機制
 - Bitcoin Core 的拉取請求中實作了一些相互競爭的部署機制
@@ -1382,7 +1382,7 @@ Bitcoin Core 開發人員兼程式碼檢閱人員 Gloria Zhao 寫了一篇 [文�
 人們有時會覺得 Bitcoin 開發人員之間有很多內訌和沒完沒了的激烈辯論，而且他們沒有能力做決定。
 
 
-舉例來說，Taproot 的部署機制，經過長時間的討論，期間形成了兩個「陣營」。其中一個陣營希望在某個時刻之後，如果礦工沒有以壓倒性的票數支持新規則，就讓升級「失敗」；另一個陣營則希望在那個時刻之後，無論如何都要強制執行規則。Michael Folkson 在 Bitcoin-dev 郵件列表的 [email](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-February/018380.html) 中總結了兩個陣營的論點。
+舉例來說，Taproot 的部署機制，經過長時間的討論，期間形成了兩個「陣營」。其中一個陣營希望在某個時刻之後，如果[礦工](https://planb.academy/resources/glossary/miner)沒有以壓倒性的票數支持新規則，就讓升級「失敗」；另一個陣營則希望在那個時刻之後，無論如何都要強制執行規則。Michael Folkson 在 Bitcoin-dev 郵件列表的 [email](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-February/018380.html) 中總結了兩個陣營的論點。
 
 
 爭論似乎永無止境地持續著，而且 Hard 真的無法在短時間內就此形成任何共識。這讓人們感到沮喪，結果熱度加劇。Gregory Maxwell (使用者 nullc) [在 Reddit](https://www.reddit.com/r/Bitcoin/comments/hrlpnc/technical_taproot_why_activate/fyqbn8s/?utm_source=share&utm_medium=web2x&context=3) 擔心冗長的討論會降低升級的安全性：
@@ -1390,7 +1390,7 @@ Bitcoin Core 開發人員兼程式碼檢閱人員 Gloria Zhao 寫了一篇 [文�
 
 > 在這個關頭，額外的等待並沒有增加更多的審核和確定性。相反地，額外的延遲會削弱人們的慣性，並可能在某程度上增加風險，因為人們會開始遺忘細節、延遲下游使用（例如 Wallet 支援）的工作，並且不會像對啟用時程有信心時那樣投入額外的審核工作。
 
-最後，由於 David Harding 和 Russel O'Connor 提出了一項名為「快速測試」的新提案，這項爭議才得以解決。如果他們在這段時間內啟動，Taproot 就會在大約 6 個月後部署。
+最後，由於 David Harding 和 Russel O'Connor 提出了一項名為「[快速測試](https://planb.academy/resources/glossary/speedy-trial)」的新提案，這項爭議才得以解決。如果他們在這段時間內啟動，Taproot 就會在大約 6 個月後部署。
 
 
 不熟悉 Bitcoin 開發過程的人可能會認為這些激烈的辯論看起來非常糟糕，甚至是有毒的。在某些人眼中，至少有兩個因素會讓這些辯論看起來很糟糕：
@@ -1414,7 +1414,7 @@ Bitcoin Core 開發人員兼程式碼檢閱人員 Gloria Zhao 寫了一篇 [文�
 可重複的建立、增加新的相依性，或是程式碼沒有遵循 Bitcoin 的 [best practices](https://github.com/Bitcoin/Bitcoin/blob/master/doc/developer-notes.md)。
 
 
-新（和舊）開發者可能會因此而感到挫折。但是，依照開放原始碼軟體的慣例，您總是可以 Fork 儲存庫，將任何您想要的東西合併到您自己的 Fork，然後建構並執行您自己的二進位檔。
+新（和舊）開發者可能會因此而感到挫折。但是，依照開放原始碼軟體的慣例，您總是可以 [Fork](https://planb.academy/resources/glossary/fork) 儲存庫，將任何您想要的東西合併到您自己的 Fork，然後建構並執行您自己的二進位檔。
 
 
 ### 關於開放源碼的結論
@@ -1452,7 +1452,7 @@ Bitcoin Core 和其他大多數的 Bitcoin 軟體都是開放原始碼的，這�
 
 - 讓交易輸入使用較少的位元組
 - 改善簽名驗證效能
-- 使點對點網路使用較少的頻寬
+- 使[點對點](https://planb.academy/resources/glossary/peertopeer-p2p)網路使用較少的頻寬
 - 交易批次處理
 - 分層架構
 
@@ -1464,7 +1464,7 @@ Bitcoin Core 和其他大多數的 Bitcoin 軟體都是開放原始碼的，這�
 
 
 
-自 Bitcoin 的 Genesis 以來，縮放一直是討論的焦點。回應 Satoshi 在 Cryptography 郵件列表上公佈 Bitcoin 白皮書的 [very first email](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html)，第一句話的確是關於縮放的問題：
+自 Bitcoin 的 Genesis 以來，縮放一直是討論的焦點。回應 Satoshi 在 Cryptography 郵件列表上公佈 Bitcoin [白皮書](https://planb.academy/resources/glossary/white-paper)的 [very first email](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html)，第一句話的確是關於縮放的問題：
 
 
 > Satoshi Nakamoto 寫道：
@@ -1521,7 +1521,7 @@ Bitcoin Core 和其他大多數的 Bitcoin 軟體都是開放原始碼的，這�
 - 驗證區塊需要時間。
 
 
-當區塊 7 在網路中傳播時，許多礦工仍在區塊 6 的頂部進行 Mining，因為他們尚未收到並驗證區塊 7。在這段期間，如果其中任何一位礦工在高度 7 發現新區塊，那麼在該高度就會有兩個競爭區塊。在高度 7 (或任何其他高度) 只能有一個區塊，這表示兩個候選區塊中必須有一個變成陳舊區塊。
+當區塊 7 在網路中傳播時，許多礦工仍在區塊 6 的頂部進行 Mining，因為他們尚未收到並驗證區塊 7。在這段期間，如果其中任何一位礦工在高度 7 發現新區塊，那麼在該高度就會有兩個競爭區塊。在高度 7 (或任何其他高度) 只能有一個區塊，這表示兩個候選區塊中必須有一個變成[陳舊](https://planb.academy/resources/glossary/stale-block)區塊。
 
 
 簡而言之，陳舊區塊之所以會發生，是因為每個區塊的傳播都需要時間，而傳播時間越長，陳舊區塊發生的機率就越高。
@@ -1537,7 +1537,7 @@ Bitcoin Core 和其他大多數的 Bitcoin 軟體都是開放原始碼的，這�
 
 
 - 延遲驗證進入的區塊，也稱為 * 無驗證 Mining*。礦工只需檢查區塊標頭的 Proof-of-Work 並在其上挖礦，同時下載完整區塊並驗證。
-- 以更大的頻寬和連線能力連接至 Mining pool。
+- 以更大的頻寬和連線能力連接至 [Mining pool](https://planb.academy/resources/glossary/pool-mining)。
 
 
 無驗證的 Mining 進一步削弱了 Full node 的分散性，因為 Miner 不得不信任傳入的區塊，至少暫時如此。這也會在某種程度上損害安全性，因為網路的部分運算能力可能會建立在無效的 Blockchain 上，而不是建立在最強大且有效的鏈上。
@@ -1594,7 +1594,7 @@ Bitcoin Core 和其他大多數的 Bitcoin 軟體都是開放原始碼的，這�
 這些改進可歸類為節省空間 (RAM、磁碟、頻寬等) 或節省計算能力。這兩種類別都有助於上圖中的改進。
 
 
-計算改進的一個好例子可以在 [libsecp256k1](https://github.com/Bitcoin-core/secp256k1) 函式庫中找到，該函式庫除其他功能外，還實現了制作和驗證數位簽名所需的加密基元。Pieter Wuille 是這個函式庫的貢獻者之一，他寫了一篇 [Twitter thread](https://twitter.com/pwuille/status/1450471673321381896) 來展示透過各種 pull request 所達到的效能改善。
+計算改進的一個好例子可以在 [libsecp256k1](https://github.com/Bitcoin-core/secp256k1) 函式庫中找到，該函式庫除其他功能外，還實現了制作和驗證[數位簽名](https://planb.academy/resources/glossary/digital-signature)所需的加密基元。Pieter Wuille 是這個函式庫的貢獻者之一，他寫了一篇 [Twitter thread](https://twitter.com/pwuille/status/1450471673321381896) 來展示透過各種 pull request 所達到的效能改善。
 
 
 ![](assets/zh-Hant/013.webp)
@@ -1617,7 +1617,7 @@ Bitcoin Core 和其他大多數的 Bitcoin 軟體都是開放原始碼的，這�
 不同支出類型、Taproot 和舊版本可節省空間。
 
 
-使用原生 SegWit 的 2-of-3 Multisig 總共需要 104.5+43 vB = 147.5 vB，而在標準使用情況下，最節省空間的 Taproot 只需要 57.5+43 vB = 100.5 vB。在最壞的情況和罕見的情況下，例如因為某些原因無法使用標準簽章者時，Taproot 會使用 107.5+43 vB = 150.5 vB。您不需要瞭解所有細節，但這應該可以讓您瞭解開發人員如何考慮節省空間 - 每一小個位元組都很重要。
+使用原生 SegWit 的 2-of-3 [Multisig](https://planb.academy/resources/glossary/multisig) 總共需要 104.5+43 vB = 147.5 vB，而在標準使用情況下，最節省空間的 Taproot 只需要 57.5+43 vB = 100.5 vB。在最壞的情況和罕見的情況下，例如因為某些原因無法使用標準簽章者時，Taproot 會使用 107.5+43 vB = 150.5 vB。您不需要瞭解所有細節，但這應該可以讓您瞭解開發人員如何考慮節省空間 - 每一小個位元組都很重要。
 
 
 除了 Bitcoin 軟體的內向擴充之外，使用者也可以透過一些方式為內向擴充做出貢獻。他們可以更聰明地進行交易，以節省交易費用，同時減少對 Full node 需求的影響。實現此目標的兩個常用技術稱為交易批次和輸出整合。
@@ -1667,7 +1667,7 @@ Bitcoin Core 和其他大多數的 Bitcoin 軟體都是開放原始碼的，這�
 一旦開始交易在 Blockchain 上，協定就可以做它應該做的事。例如，它可以在參與者之間進行超快速的付款、實作一些加強隱私權的技術，或是進行 Bitcoin Blockchain 所不支援的更進階的腳本。
 
 
-我們不會詳細說明特定通訊協定的運作方式，但您可以從前面的圖中看到，Blockchain 在通訊協定的生命週期中很少被使用。所有多汁的動作都發生在 *off-chain*。我們已經看到，如果處理得當，這對隱私權而言是贏家，但對可擴充性而言也是一項優勢。
+我們不會詳細說明特定通訊協定的運作方式，但您可以從前面的圖中看到，Blockchain 在通訊協定的生命週期中很少被使用。所有多汁的動作都發生在 *[off-chain](https://planb.academy/resources/glossary/offchain)*。我們已經看到，如果處理得當，這對隱私權而言是贏家，但對可擴充性而言也是一項優勢。
 
 
 Gregory Maxwell 在 [Reddit post](https://www.reddit.com/r/Bitcoin/comments/438hx0/a_trip_to_the_moon_requires_a_rocket_with/) 一篇題為「登月之旅需要多級火箭，否則火箭方程式會吃掉你的午餐......把每個人都以小丑車的方式裝進三輪火箭，並期待成功是不可能的」的文章中，解釋了為什麼分層是我們讓 Bitcoin 以數量級擴展的最佳方法。
@@ -1747,7 +1747,7 @@ Bitcoin 是由人建立的。人們撰寫軟體，然後由人們執行此軟體
   - 將主版本中的修正或解決方案回傳到目前已發行的版本中
 - 開發人員會嘗試將建議的修補程式提供給未獲知漏洞的資深開發人員，告訴他們該修補程式修復了漏洞，並要求他們找出漏洞，以確保發布修補程式不會揭露漏洞的性質。
 - 開發人員可以建議其他 Bitcoin 實作在修補程式被釋出與廣泛部署之前，採用漏洞修補程式，如果他們可以在不揭露漏洞的情況下這麼做；例如，如果修補程式有顯著的效能優勢，可以證明其納入是合理的。
-- 在漏洞公開之前，開發人員通常會建議友善的 Altcoin 開發人員應該趕快修復漏洞。但這只是在修補程式廣泛部署於 Bitcoin 網路之後。
+- 在漏洞公開之前，開發人員通常會建議友善的 [Altcoin](https://planb.academy/resources/glossary/altcoin) 開發人員應該趕快修復漏洞。但這只是在修補程式廣泛部署於 Bitcoin 網路之後。
 - 開發人員通常不會通知有敵意行為的 Altcoin 開發人員 (例如，利用漏洞攻擊他人，或違反禁運規定)。
 - 在 >80% 的 Bitcoin 節點部署修補程式之前，Bitcoin 開發人員不會揭露弱點的詳細資訊。我們鼓勵並要求漏洞發現者遵循相同的政策。[1] [6]
 
@@ -1794,7 +1794,7 @@ Bitcoin wiki 上有 Bitcoin 經歷過的 [常見弱點與暴露清單](https://e
 2010 年 7 月 28 日，一位名叫 ArtForz 的化名者在 0.3.4 版本中發現了一個 Bug，可以讓任何人從其他人手中拿走硬幣。ArtForz *負責*地向 Satoshi Nakamoto 和另一位名叫 Gavin Andresen 的 Bitcoin 開發人員報告了此事。
 
 
-問題是 script 運算符號 `OP_RETURN` 會直接退出程式的執行，所以如果 scriptPubKey 是 `<pubkey> OP_CHECKSIG`，而 scriptSig 是 `OP_1 OP_RETURN`，scriptPubKey 中的程式部分就不會執行。唯一會發生的事情是 `1` 被放到堆疊上，然後 `OP_RETURN` 會導致程式退出。程序執行後，堆疊頂端的任何非零值都表示支出條件已達成。由於堆疊頂端的元素 `1` 非零，所以支出是確定的。
+問題是 [script](https://planb.academy/resources/glossary/script) 運算符號 `OP_RETURN` 會直接退出程式的執行，所以如果 scriptPubKey 是 `<pubkey> OP_CHECKSIG`，而 scriptSig 是 `OP_1 OP_RETURN`，scriptPubKey 中的程式部分就不會執行。唯一會發生的事情是 `1` 被放到堆疊上，然後 `OP_RETURN` 會導致程式退出。程序執行後，堆疊頂端的任何非零值都表示支出條件已達成。由於堆疊頂端的元素 `1` 非零，所以支出是確定的。
 
 
 這是處理 `OP_RETURN`的程式碼：
@@ -1948,7 +1948,7 @@ Satoshi 的訊息也描述了 Mining 的一些效能最佳化。目前還不清�
 同樣地，人們似乎也順從了這一點，無效區塊及其繼承區塊的逆轉成功了。礦工們開始為區塊 [74637](https://Mempool.space/block/0000000000606865e679308edf079991764d88e8122ca9250aef5386962b6e84) 進行新的繼承工作，根據該區塊的 Timestamp，繼承區塊出現在 23:53 UTC，也就是發現問題後約 6 小時。在第二天，8 月 16 日 08:10 左右，在區塊 74689 前後，新的鏈已經超越了舊的鏈，因此所有未升級的節點都重新交換以跟隨新的鏈。這是 Bitcoin 歷史上最深的一次重組 - 52 個區塊。
 
 
-與 OP_RETURN 問題相比，這個問題的處理方式略為乾淨：
+與 [OP_RETURN](https://planb.academy/resources/glossary/op-return-0x6a) 問題相比，這個問題的處理方式略為乾淨：
 
 
 - 無僅二進制修補程式釋出
@@ -2065,7 +2065,7 @@ BIP 於 2015 年 7 月 4 日啟用。然而，雖然上述情況屬實，但 BIP
 
 
 
-在沒有人知道這個問題的情況下，這個問題本來可以由現在已被寬度刪除的 BIP62 來解決，而 BIP62 是一項減少交易可變性可能性的提案。BIP62 建議的變更包括收緊簽章編碼的共識規則，或稱為「嚴格 DER 編碼」。Pieter Wuille 在 2014 年 7 月提出了對 BIP 的一些調整，這將會解決這個問題：
+在沒有人知道這個問題的情況下，這個問題本來可以由現在已被寬度刪除的 BIP62 來解決，而 BIP62 是一項減少[交易可變性](https://planb.academy/resources/glossary/malleability-transaction)可能性的提案。BIP62 建議的變更包括收緊簽章編碼的共識規則，或稱為「嚴格 [DER](https://planb.academy/resources/glossary/der) 編碼」。Pieter Wuille 在 2014 年 7 月提出了對 BIP 的一些調整，這將會解決這個問題：
 
 
 > 2014 年 7 月 18 日：為了讓 Bitcoin 的簽章編碼規則不依賴 OpenSSL 的特定解析器，我修改了 BIP62 提案，讓其嚴格的 DER 簽章要求也適用於版本 1 交易。當時已沒有非 DER 簽署被挖到區塊中，所以假設這不會有任何影響。請參閱 https://github.com/Bitcoin/bips/pull/90 和 http://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2014-July/006299.html。當時還不清楚，但如果部署的話，這將會解決漏洞。

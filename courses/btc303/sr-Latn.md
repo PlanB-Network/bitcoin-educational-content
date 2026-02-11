@@ -78,7 +78,7 @@ Spremni da napravite sledeći korak na svom Bitcoin putovanju? Hajde da počnemo
 <chapterId>9397c84b-0038-5d0e-88d5-11767ce8182d</chapterId>
 
 
-Ovo poglavlje analizira šta je decentralizacija i zašto je ključna za funkcionisanje Bitcoina. Pravimo razliku između decentralizacija rudara i full node-ova (puni čvor – računar koji čuva kompletnu kopiju blockchaina i validira sve transakcije i blokove prema pravilima Bitcoina), i diskutujemo šta oni donose za otpornost na cenzuru, jedna od najvažnijih osobina Bitkoina.
+Ovo poglavlje analizira šta je decentralizacija i zašto je ključna za funkcionisanje Bitcoina. Pravimo razliku između decentralizacija [rudara](https://planb.academy/resources/glossary/mining) i [full node-ova](https://planb.academy/resources/glossary/full-node) (puni čvor – računar koji čuva kompletnu kopiju [blockchaina](https://planb.academy/resources/glossary/blockchain) i validira sve [transakcije](https://planb.academy/resources/glossary/transaction-tx) i [blokove](https://planb.academy/resources/glossary/block) prema pravilima Bitcoina), i diskutujemo šta oni donose za otpornost na cenzuru, jedna od najvažnijih osobina Bitkoina.
 
 
 Diskusija se zatim prebacuje na razumevanje neutralnosti - ili nepostojanja ograničenja prema korisnicima, rudarima i programerima - što je neophodno svojstvo svakog decentralizovanog sistema. Na kraju, dotičemo se koliko može biti teško shvatiti decentralizovani sistem kao što je Bitcoin, i predstavljamo neke mentalne modele koji vam mogu pomoći da ga razumete.
@@ -112,7 +112,7 @@ Decentralizacija rudara u Bitcoinu znači da *redosled transakcija* ne sprovodi 
 Ako bi Bitcoin bio centralizovan, bio bi ranjiv na one koji bi želeli da ga cenzurišu, kao što su vlade. Doživeo bi istu sudbinu kao raniji pokušaji stvaranja digitalnog novca. U uvodu [rada](https://www.blockstream.com/sidechains.pdf) pod nazivom "Omogućavanje Blockchain inovacija sa Pegged Sidechains (povezani sporedni lancovi)", autori objašnjavaju kako rane verzije digitalnog novca nisu bile opremljene za neprijateljsko okruženje (pogledajte i poglavlje o neprijateljskom razmišljanju u sledećem delu).
 
 
-David Chaum je uveo digitalni novac kao istraživačku temu 1983. godine, u okruženju sa centralnim serverom kojem se veruje da sprečava dvostruko trošenje (eng. double spending). Da bi ublažio rizik po privatnost pojedinaca od ove centralne pouzdane strane i da bi osigurao zamenjivost, Chaum je uveo slepi potpis (eng. blind signature), koji je koristio da obezbedi kriptografski način za sprečavanje povezivanja potpisa centralnog servera (koji predstavljaju novčiće), dok je i dalje omogućavao centralnom serveru da izvrši prevenciju dvostrukog trošenja.
+David Chaum je uveo digitalni novac kao istraživačku temu 1983. godine, u okruženju sa centralnim serverom kojem se veruje da sprečava [dvostruko trošenje](https://planb.academy/resources/glossary/double-spending-attack) (eng. double spending). Da bi ublažio rizik po privatnost pojedinaca od ove centralne pouzdane strane i da bi osigurao [zamenjivost](https://planb.academy/resources/glossary/fungibility), Chaum je uveo [slepi potpis](https://planb.academy/resources/glossary/blind-signature) (eng. blind signature), koji je koristio da obezbedi kriptografski način za sprečavanje povezivanja potpisa centralnog servera (koji predstavljaju novčiće), dok je i dalje omogućavao centralnom serveru da izvrši prevenciju dvostrukog trošenja.
 
 Zahtev za centralnim serverom postao je Ahilova peta digitalnog novca[Gri99]. Iako je moguće distribuirati ovu jedinstvenu tačku otkaza zamenom potpisa centralnog servera prag-potpisom (eng. threshold signature) više potpisnika, važno je za reviziju da potpisnici budu različiti i prepoznatljivi. Ovo i dalje ostavlja sistem ranjivim na otkazivanje, jer svaki potpisnik može otkazati, ili biti primoran da otkaže, jedan po jedan.
 
@@ -138,16 +138,16 @@ Ako uspeju, isti problemi će se najverovatnije ponovo pojaviti u nekom trenutku
 Nijedna od ovih opcija nije korisna za korisnika.
 
 
-Otpornost na cenzuru kroz decentralizaciju je ono što odvaja Bitcoin od drugih monetarnih sistema, ali to nije lako postići zbog *problema dvostrukog trošenja*. Ovaj problem se odnosi na to kako osigurati da niko ne može da potroši isti novčić dva puta, što je pitanje za koje su mnogi smatrali da je nemoguće rešiti na decentralizovan način. Satoshi Nakamoto piše u svom [Bitcoin white paper-u](https://planb.academy/bitcoin.pdf) o tome kako rešiti problem dvostrukog trošenja:
+Otpornost na cenzuru kroz decentralizaciju je ono što odvaja Bitcoin od drugih monetarnih sistema, ali to nije lako postići zbog *problema dvostrukog trošenja*. Ovaj problem se odnosi na to kako osigurati da niko ne može da potroši isti novčić dva puta, što je pitanje za koje su mnogi smatrali da je nemoguće rešiti na decentralizovan način. Satoshi [Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) piše u svom [Bitcoin white paper-u](https://planb.academy/bitcoin.pdf) o tome kako rešiti problem dvostrukog trošenja:
 
 
 > U ovom radu predlažemo rešenje za problem dvostrukog trošenja koristeći distribuiranog peer-to-peer servera sa vremenskim pečatom, koji generiše računarski dokaz hronološkog redosleda transakcija.
 
-Ovde koristi specifičan izraz „peer-to-peer distribuirani server sa vremenskim pečatom“. Ključna reč ovde je *distribuiran*, što u ovom kontekstu znači da ne postoji centralna tačka kontrole. Nakamoto zatim objašnjava kako je Proof-of-Work rešenje.
+Ovde koristi specifičan izraz „peer-to-peer distribuirani server sa vremenskim pečatom“. Ključna reč ovde je *distribuiran*, što u ovom kontekstu znači da ne postoji centralna tačka kontrole. Nakamoto zatim objašnjava kako je [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) rešenje.
 
 Ipak, niko to ne objašnjava bolje od
 
-[Gregory Maxwell na Redditu](https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/), gde odgovara nekome ko predlaže ograničavanje heš snage rudara kako bi se izbegli potencijalni 51% napadi:
+[Gregory Maxwell na Redditu](https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/), gde odgovara nekome ko predlaže ograničavanje [heš snage](https://planb.academy/resources/glossary/hashrate) rudara kako bi se izbegli potencijalni 51% napadi:
 
 
 > Decentralizovani sistem kao što je Bitcoin koristi javne izbore. Ali ne možete jednostavno imati glasanje 'ljudi' u decentralizovanom sistemu jer bi to zahtevalo centralizovanu stranku da ovlasti ljude za glasanje. Umesto toga, Bitcoin koristi glasanje računarske snage jer je moguće verifikovati računarsku snagu bez pomoći bilo kakve centralizovane treća strana.
@@ -171,10 +171,10 @@ Zaključak je važan. Ako ljudi ne zaštite decentralizaciju Bitcoina, koja slu�
 U prethodnim pasusima, uglavnom smo govorili o decentralizaciji rudarenja i kako centralizacija rudara može omogućiti cenzuru. Ali postoji još jedan aspekt decentralizacije, naime *full node decentralizacija*.
 
 
-Značaj decentralizacije punih čvorova povezan je s tim da sistem ne zahteva poverenje.Pretpostavimo da korisnik obustavi pokretanje sopstvenog punog čvora, recimo usled prohibitivnog rasta operativnih troškova. U tom slučaju, moraće da komunicira sa Bitcoin mrežom na neki drugi način, moguće korišćenjem web novčanika ili laganih novčanika (eng. leightweight wallets), što zahteva određeni nivo poverenja u pružaoce ovih usluga.
+Značaj decentralizacije punih čvorova povezan je s tim da sistem ne zahteva poverenje.Pretpostavimo da korisnik obustavi pokretanje sopstvenog punog čvora, recimo usled prohibitivnog rasta operativnih troškova. U tom slučaju, moraće da komunicira sa Bitcoin mrežom na neki drugi način, moguće korišćenjem web [novčanika](https://planb.academy/resources/glossary/wallet) ili laganih novčanika (eng. leightweight wallets), što zahteva određeni nivo poverenja u pružaoce ovih usluga.
 
 
-Korisnik prelazi sa direktnog sprovođenja pravila konsenzusa mreže na poverenje da će to neko drugi učiniti. Sada pretpostavimo da većina korisnika delegira sprovođenje konsenzusa pouzdanom entitetu. U tom slučaju, mreža može brzo skliznuti u centralizaciju, a pravila mreže mogu biti promenjena od strane zlonamernih aktera koji se udruže.
+Korisnik prelazi sa direktnog sprovođenja [pravila konsenzusa](https://planb.academy/resources/glossary/consensus-rules) mreže na poverenje da će to neko drugi učiniti. Sada pretpostavimo da većina korisnika delegira sprovođenje [konsenzusa](https://planb.academy/resources/glossary/consensus) pouzdanom entitetu. U tom slučaju, mreža može brzo skliznuti u centralizaciju, a pravila mreže mogu biti promenjena od strane zlonamernih aktera koji se udruže.
 
 
 U [članku Bitcoin Magazine-a](https://bitcoinmagazine.com/technical/decentralist-perspective-Bitcoin-might-need-small-blocks-1442090446), Aaron van Wirdum intervjuiše Bitcoin developere o njihovim pogledima na decentralizaciju i rizicima povezanim sa povećanjem maksimalne veličine Bitcoin bloka. Ova diskusija bila je vruća tema tokom perioda 2014-2017, kada su se mnogi ljudi raspravljali o povećanju limita veličine bloka kako bi se omogućio veći protok transakcija.
@@ -554,7 +554,7 @@ U članku koji je dat, Gregory Maxwell [navodi](https://bitcointalk.org/index.ph
 
 > Finansijska privatnost je suštinski element fungibilnosti u Bitcoin-u: ako možete značajno razlikovati jedan novčić od drugog, tada je njihova fungibilnost slaba. Ako je naša fungibilnost u praksi previše slaba, onda ne možemo biti decentralizovani: ako neko važan objavi listu ukradenih novčića koje neće prihvatiti, morate pažljivo proveriti novčiće koje prihvatate u odnosu na tu listu i vratiti one koji ne prođu. Svi su zaglavljeni proveravajući crne liste koje izdaju razne vlasti jer u tom svetu niko od nas ne bi želeo da ostane sa lošim novčićima. Ovo dodaje trenje i transakcione troškove i čini Bitcoin manje vrednim kao novac.
 
-Ovde, on govori o opasnostima koje proizlaze iz nedostatka fungibilnosti. Pretpostavimo da imate UTXO. Istorija tog UTXO se obično može pratiti unazad kroz nekoliko koraka, šireći se na mnoštvo prethodnih izlaza. Ako je bilo koji od tih izlaza bio uključen u bilo kakvu ilegalnu, nepoželjnu ili sumnjivu aktivnost, neki potencijalni primaoci vašeg novčića mogu ga odbiti. Ukoliko smatrate da će vaši primaoci potvrđivati validnost vaših novčića putem centralizovanog servisa sa belom ili crnom listom, možda će biti potrebno da i sami proveravate primljene novčiće, kako biste osigurali sigurnost transakcija. Rezultat je da će loša fungibilnost podržati još lošiju fungibilnost.
+Ovde, on govori o opasnostima koje proizlaze iz nedostatka fungibilnosti. Pretpostavimo da imate [UTXO](https://planb.academy/resources/glossary/utxo). Istorija tog UTXO se obično može pratiti unazad kroz nekoliko koraka, šireći se na mnoštvo prethodnih izlaza. Ako je bilo koji od tih izlaza bio uključen u bilo kakvu ilegalnu, nepoželjnu ili sumnjivu aktivnost, neki potencijalni primaoci vašeg novčića mogu ga odbiti. Ukoliko smatrate da će vaši primaoci potvrđivati validnost vaših novčića putem centralizovanog servisa sa belom ili crnom listom, možda će biti potrebno da i sami proveravate primljene novčiće, kako biste osigurali sigurnost transakcija. Rezultat je da će loša fungibilnost podržati još lošiju fungibilnost.
 
 
 Adam Back i Matt Corallo [održali su prezentaciju o fungibilnosti](https://btctranscripts.com/scalingbitcoin/milan-2016/fungibility-overview/) na Scaling Bitcoin u Milanu 2016. Razmišljali su u istom pravcu:
@@ -634,7 +634,7 @@ Da biste dobili pristojnu privatnost u Bitcoinu, morate preduzeti aktivne mere, 
 ![](assets/sr-Latn/006.webp)
 
 
-Ovo poglavlje istražuje ograničenje ponude Bitcoina sa limitom od 21 milion BTC, ili koliko je to zapravo? Govorimo o tome kako se ovaj limit sprovodi i šta neko može učiniti da potvrdi da se poštuje. Štaviše, zavirujemo u kristalnu kuglu i diskutujemo o dinamici koja će stupiti na scenu kada se nagrada za blok prebaci sa modela zasnovanog na subvenciji na model zasnovan na naknadama.
+Ovo poglavlje istražuje ograničenje ponude Bitcoina sa limitom od 21 milion BTC, ili koliko je to zapravo? Govorimo o tome kako se ovaj limit sprovodi i šta neko može učiniti da potvrdi da se poštuje. Štaviše, zavirujemo u kristalnu kuglu i diskutujemo o dinamici koja će stupiti na scenu kada se [nagrada za blok](https://planb.academy/resources/glossary/block-reward) prebaci sa modela zasnovanog na subvenciji na model zasnovan na naknadama.
 
 
 Dobro poznata konačna ponuda od 21 milion BTC smatra se osnovnom osobinom Bitcoina. Ali da li je zaista uklesana u kamenu?
@@ -645,7 +645,7 @@ Hajde da počnemo tako što ćemo pogledati šta trenutna pravila konsenzusa ka�
 
 > Ako saberete sve ove brojeve zajedno, dobijate 20999999.9769 BTC.
 
-Ali zbog brojnih razloga -- kao što su rani problemi sa coinbase transakcijama, rudari koji nenamerno potražuju manje nego što je dozvoljeno, i gubitak privatnih ključeva -- ta gornja granica nikada neće biti dostignuta. Wuille zaključuje:
+Ali zbog brojnih razloga -- kao što su rani problemi sa [coinbase transakcijama](https://planb.academy/resources/glossary/coinbase-transaction), rudari koji nenamerno potražuju manje nego što je dozvoljeno, i gubitak privatnih ključeva -- ta gornja granica nikada neće biti dostignuta. Wuille zaključuje:
 
 
 > Ovo nam ostavlja 20999817.31308491 BTC (uzimajući u obzir sve do bloka 528333)
@@ -675,7 +675,7 @@ Više od tačnog broja novčića u opticaju, važniji je način na koji se limit
 
 
 
-Nagrada za blok se sastoji od blok subvencije plus naknada za transakcije. Blok nagrada treba da pokrije troškove bezbednosti Bitcoina. Možemo sa sigurnošću reći da pod današnjim uslovima u vezi sa blok subvencijom, naknadama za transakcije, cenom bitkoina, veličinom mempool-a, snagom heša, stepenom decentralizacije itd., podsticaji za svakog igrača da igra po pravilima su dovoljno visoki da očuvaju siguran monetarni sistem.
+Nagrada za blok se sastoji od [blok subvencije](https://planb.academy/resources/glossary/block-subsidy) plus [naknada za transakcije](https://planb.academy/resources/glossary/transaction-fees). Blok nagrada treba da pokrije troškove bezbednosti Bitcoina. Možemo sa sigurnošću reći da pod današnjim uslovima u vezi sa blok subvencijom, naknadama za transakcije, cenom bitkoina, veličinom [mempool-a](https://planb.academy/resources/glossary/mempool), snagom heša, stepenom decentralizacije itd., podsticaji za svakog igrača da igra po pravilima su dovoljno visoki da očuvaju siguran monetarni sistem.
 
 
 Šta se dešava kada se subvencija za blok približi nuli? Da pojednostavimo, pretpostavimo da zapravo iznosi nula. U tom trenutku, troškovi sigurnosti sistema pokrivaju se isključivo kroz naknade za transakcije. Šta nas čeka u budućnosti kada se to desi, ne možemo znati. Faktori nesigurnosti su brojni i ostajemo prepušteni spekulacijama. Na primer, doprinos Paula Sztorca na ovu temu [u njegovom Truthcoin blogu](https://www.truthcoin.info/blog/security-budget/) je uglavnom spekulacija, ali on ima barem jednu čvrstu tačku (imajte na umu da je M2, kako ga Sztorc pominje, mera ponude fiat novca):
@@ -692,7 +692,7 @@ Danas, vlasnici snose troškove za sigurnost (putem monetarne inflacije). Sutra 
 Kako vreme prolazi, teret troškova bezbednosti će se prebaciti sa vlasnika na potrošače.
 
 
-Kada su naknade za transakcije glavna motivacija za rudarenje, podsticaji se menjaju. Najznačajnije, ako mempool nekog rudara ne sadrži dovoljno naknada za transakcije, moglo bi postati isplativije za tog rudara da prepravi istoriju Bitcoina umesto da je produži. Bitcoin Optech ima poseban [deo o ovom ponašanju](https://bitcoinops.org/en/topics/fee-sniping/), nazvan *fee sniping*, koji je napisao David Harding:
+Kada su naknade za transakcije glavna motivacija za rudarenje, podsticaji se menjaju. Najznačajnije, ako mempool nekog rudara ne sadrži dovoljno naknada za transakcije, moglo bi postati isplativije za tog rudara da prepravi istoriju Bitcoina umesto da je produži. Bitcoin Optech ima poseban [deo o ovom ponašanju](https://bitcoinops.org/en/topics/fee-sniping/), nazvan *[fee sniping](https://planb.academy/resources/glossary/fee-sniping)*, koji je napisao David Harding:
 
 
 > Fee sniping je problem koji može nastati kako se Bitcoin subvencija nastavlja smanjivati, a transakcione naknade počinju dominirati nagradama za Bitcoin blokove. Ako su transakcione naknade sve što je važno, onda rudari sa `x` procentom heš stope imaju `x` procenata šanse za rudarenje sledećeg bloka, tako da je očekivana vrednost za njih od poštenog rudarenja `x` procenata od [najbolje kombinacije transakcija po visini naknade](https://bitcoinops.org/en/newsletters/2021/06/02/#candidate-set-based-csb-block-template-construction) u njihovom mempool-u.
@@ -773,7 +773,7 @@ Standard podržava kompatibilnost unapred ako proizvod koji je u skladu sa ranij
 Obrnuto, [kompatibilnost unazad](https://en.wikipedia.org/wiki/Backward_compatibility) odnosi se na situaciju kada se podaci iz starog softvera mogu koristiti na novijim softverima. Promena se smatra potpuno kompatibilnom ako je i unapred i unazad kompatibilna.
 
 
-Promena pravila Bitcoin konsenzusa naziva se *Soft Fork* ako je potpuno kompatibilna. Ovo je najčešći način za Bitcoin nadogradnju, iz više razloga koje ćemo dalje razmotriti u ovom poglavlju. Ako je promena pravila Bitcoin konsenzusa kompatibilna unazad, ali nije kompatibilna unapred, naziva se *Hard Fork*.
+Promena pravila Bitcoin konsenzusa naziva se *[Soft Fork](https://planb.academy/resources/glossary/soft-fork)* ako je potpuno kompatibilna. Ovo je najčešći način za Bitcoin nadogradnju, iz više razloga koje ćemo dalje razmotriti u ovom poglavlju. Ako je promena pravila Bitcoin konsenzusa kompatibilna unazad, ali nije kompatibilna unapred, naziva se *[Hard Fork](https://planb.academy/resources/glossary/hard-fork)*.
 
 
 Za tehnički pregled soft forkova i hard forkova, molimo pročitajte [poglavlje 11 Grokking Bitcoin](https://rosenbaum.se/book/grokking-Bitcoin-11.html). Poglavlje objašnjava ove pojmove i takođe ulazi u mehanizme nadogradnje. Preporučuje se, iako nije strogo neophodno, da se upoznate sa ovim pre nego što nastavite sa čitanjem.
@@ -788,24 +788,24 @@ Bitcoin nije isti danas kao što je bio kada je Genesis blok kreiran. Tokom godi
 
 > Zapravo je postojao hard-fork u Bitcoin koji je Satoshi uradio na način na koji mi to nikada ne bismo uradili - to je prilično loš način da se to uradi. Ako pogledate opis git commit-a ovde [[757f076](https://github.com/Bitcoin/Bitcoin/commit/757f0769d8360ea043f469f3a35f6ec204740446)], on kaže nešto o vraćanju makefile.unix wx-config verzije 0.3.6. Tačno. To je sve što piše. Nema nikakvih naznaka da ima bilo kakvu promenu koja može da izazove probleme. U suštini je to sakrio tamo. Takođe je [objavio na bitcointalk](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451) i rekao, molim vas, nadogradite na 0.3.6 što pre. Ispravili smo grešku u implementaciji gde je moguće da se lažne transakcije prikažu kao prihvaćene. Ne prihvatajte Bitcoin uplate dok ne nadogradite na 0.3.6. Ako ne možete odmah da nadogradite, najbolje bi bilo da ugasite vaš Bitcoin čvor dok to ne uradite. I povrh svega toga, ne znam zašto je odlučio da to uradi, odlučio je da doda neke optimizacije u istom kodu. Ispraviti grešku i dodati neke optimizacije.
 
-Ističe da je, bilo namerno ili ne, ovaj hard fork stvorio prilike za buduće soft forkove, naime Script operatore (opcodes) OP_NOP1-OP_NOP10. Više ćemo pogledati ovu promenu koda u cve-2010-5141. Ovi opkodi su do sada korišćeni za dva soft forka:
+Ističe da je, bilo namerno ili ne, ovaj hard fork stvorio prilike za buduće soft forkove, naime Script operatore ([opcodes](https://planb.academy/resources/glossary/opcodes)) OP_NOP1-OP_NOP10. Više ćemo pogledati ovu promenu koda u cve-2010-5141. Ovi opkodi su do sada korišćeni za dva soft forka:
 
 
 - [BIP65](https://github.com/Bitcoin/bips/blob/master/bip-0065.mediawiki) (OP_CHECKLOCKTIMEVERIFY)
 - [BIP113](https://github.com/Bitcoin/bips/blob/master/bip-0112.mediawiki) (OP_SEQUENCEVERIFY).
 
 
-Lombrozo takođe pruža pregled načina na koji su mehanizmi nadogradnje evoluirali tokom godina, sve do 2017. Od tada je implementirana samo još jedna velika nadogradnja, Taproot. Dug i donekle haotičan proces koji je doveo do njene aktivacije pomogao nam je da steknemo dodatne uvide o mehanizmima nadogradnje u Bitcoinu.
+Lombrozo takođe pruža pregled načina na koji su mehanizmi nadogradnje evoluirali tokom godina, sve do 2017. Od tada je implementirana samo još jedna velika nadogradnja, [Taproot](https://planb.academy/resources/glossary/taproot). Dug i donekle haotičan proces koji je doveo do njene aktivacije pomogao nam je da steknemo dodatne uvide o mehanizmima nadogradnje u Bitcoinu.
 
 
 #### SegWit nadogradnja
 
 
 
-Iako su sva unapređenja pre SegWit-a bila manje-više bezbolna, ovo je bilo drugačije. Kada je aktivacioni kod za SegWit objavljen, u oktobru 2016, činilo se da postoji ogromna podrška među Bitcoin korisnicima, ali iz nekog razloga rudari nisu signalizirali podršku za ovo unapređenje, što je zaustavilo aktivaciju bez rešenja na vidiku.
+Iako su sva unapređenja pre [SegWit](https://planb.academy/resources/glossary/segwit)-a bila manje-više bezbolna, ovo je bilo drugačije. Kada je aktivacioni kod za SegWit objavljen, u oktobru 2016, činilo se da postoji ogromna podrška među Bitcoin korisnicima, ali iz nekog razloga rudari nisu signalizirali podršku za ovo unapređenje, što je zaustavilo aktivaciju bez rešenja na vidiku.
 
 
-Aaron van Wirdum opisuje ovaj vijugavi put u svom članku u Bitcoin časopisu [The Long Road To SegWit](https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality). Počinje objašnjavajući šta je SegWit i kako se to odnosi na debatu o veličini bloka. Van Wirdum zatim iznosi tok događaja koji su doveli do njegove konačne aktivacije. U središtu ovog procesa bio je mehanizam nadogradnje nazvan *user activated soft fork*, ili skraćeno UASF, koji je predložio korisnik Shaolinfry:
+Aaron van Wirdum opisuje ovaj vijugavi put u svom članku u Bitcoin časopisu [The Long Road To SegWit](https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality). Počinje objašnjavajući šta je SegWit i kako se to odnosi na debatu o veličini bloka. Van Wirdum zatim iznosi tok događaja koji su doveli do njegove konačne aktivacije. U središtu ovog procesa bio je mehanizam nadogradnje nazvan *user activated soft fork*, ili skraćeno [UASF](https://planb.academy/resources/glossary/uasf), koji je predložio korisnik Shaolinfry:
 
 
 > Shaolinfry je predložio alternativu: korisnički aktiviran soft fork (UASF). Umesto heš aktivacije putem snage, korisnički aktiviran soft fork bi imao "'flag day activation', u prevodu 'aktivacija po datumu', gde čvorovi počinju sprovođenje u unapred određenom vremenu u budućnosti." Sve dok je takav UASF sproveden od strane ekonomske većine, to bi trebalo da primora većinu rudara da prate (ili aktiviraju) soft fork.
@@ -975,10 +975,10 @@ Da bi Bitcoin ostao u harmoniji, soft forkovi su se pokazali kao put napred, ali
 ![](assets/sr-Latn/008.webp)
 
 
-Ovo poglavlje razmatra razmišljanje u neprijateljskom okruženju, odnosno analitički pristup koji se fokusira na potencijalne neuspehe sistema i načine na koje bi protivnici mogli da deluju. Poglavlje započinjemo razmatranjem bezbednosnih pretpostavki i bezbednosnog modela Bitcoina, nakon čega objašnjavamo kako obični korisnici mogu unaprediti svoju samosuverenost i decentralizaciju punih čvorova u Bitcoinu kroz razmišljanje u neprijateljskom okruženju. Zatim se bavimo konkretnim pretnjama Bitcoinu, kao i načinom razmišljanja protivnika. Na kraju govorimo o *aksiomu otpora*, koji može pomoći da se razume zašto se ljudi uopšte bave razvojem Bitcoina.
+Ovo poglavlje razmatra razmišljanje u neprijateljskom okruženju, odnosno analitički pristup koji se fokusira na potencijalne neuspehe sistema i načine na koje bi protivnici mogli da deluju. Poglavlje započinjemo razmatranjem bezbednosnih pretpostavki i bezbednosnog modela Bitcoina, nakon čega objašnjavamo kako obični korisnici mogu unaprediti svoju samosuverenost i decentralizaciju punih [čvorova](https://planb.academy/resources/glossary/node) u Bitcoinu kroz razmišljanje u neprijateljskom okruženju. Zatim se bavimo konkretnim pretnjama Bitcoinu, kao i načinom razmišljanja protivnika. Na kraju govorimo o *aksiomu otpora*, koji može pomoći da se razume zašto se ljudi uopšte bave razvojem Bitcoina.
 
 
-Kada se diskutuje o bezbednosti unutar različitih sistema, važno je razumeti koje su bezbednosne pretpostavke. Tipična bezbednosna pretpostavka u Bitcoinu je "problem diskretnog logaritma je teško za rešavanje", što, jednostavno rečeno, znači da je praktično nemoguće pronaći privatni ključ koji odgovara određenom javnom ključu. Još jedna prilično jaka bezbednosna pretpostavka je da je većina mrežnog hashpower-a poštena, što znači da igraju po pravilima. Ako se ove pretpostavke pokažu pogrešnim, onda je Bitcoin u nevolji.
+Kada se diskutuje o bezbednosti unutar različitih sistema, važno je razumeti koje su bezbednosne pretpostavke. Tipična bezbednosna pretpostavka u Bitcoinu je "problem [diskretnog logaritma](https://planb.academy/resources/glossary/discrete-logarithm) je teško za rešavanje", što, jednostavno rečeno, znači da je praktično nemoguće pronaći [privatni ključ](https://planb.academy/resources/glossary/private-key) koji odgovara određenom [javnom ključu](https://planb.academy/resources/glossary/public-key). Još jedna prilično jaka bezbednosna pretpostavka je da je većina mrežnog hashpower-a poštena, što znači da igraju po pravilima. Ako se ove pretpostavke pokažu pogrešnim, onda je Bitcoin u nevolji.
 
 
 2015. godine Andrew Poelstra je [održao govor](https://btctranscripts.com/scalingbitcoin/hong-kong-2015/security-assumptions/) na konferenciji Scaling Bitcoin u Hong Kongu, tokom kojeg je analizirao sigurnosne pretpostavke Bitcoina. Počinje primećujući da mnogi sistemi do neke mere zanemaruju protivnike; na primer, zaista je teško zaštititi zgradu od svih vrsta neprijateljskih događaja. Umesto toga, generalno prihvatamo mogućnost da neko može zapaliti zgradu i do neke mere sprečavamo ovo i druga neprijateljska ponašanja kroz sprovođenje zakona itd.
@@ -1013,7 +1013,7 @@ Dakle, imamo sistem koji izgleda funkcioniše u praksi, ali koji ne možemo form
 
 
 
-Razmišljanje u neprijateljskom okruženju važno je, u određenoj meri, i za obične korisnike Bitcoina, ne samo za iskusne programere i eksperte. Ragnar Lifthasir pominje u [tweetstormu](https://bitcoinwords.github.io/tweetstorm-on-adversarial-thinking) kako pojednostavljeni narativi oko Bitcoina - na primer, "samo HODL" - mogu biti degradirajući za sam Bitcoin, i zaključuje
+Razmišljanje u neprijateljskom okruženju važno je, u određenoj meri, i za obične korisnike Bitcoina, ne samo za iskusne programere i eksperte. Ragnar Lifthasir pominje u [tweetstormu](https://bitcoinwords.github.io/tweetstorm-on-adversarial-thinking) kako pojednostavljeni narativi oko Bitcoina - na primer, "samo [HODL](https://planb.academy/resources/glossary/hodl)" - mogu biti degradirajući za sam Bitcoin, i zaključuje
 
 
 > Da bismo ojačali Bitcoin i nas same, moramo razmišljati kao softverski inženjeri koji doprinose Bitcoinu. Oni vrše međusobne recenzije, nemilosrdno tražeći nedostatke. Na svojim tehnološkim događajima razgovaraju o svim mogućim načinima na koje predlog može propasti. Razmišljaju suparnički. Oni su konzervativni.
@@ -1030,10 +1030,10 @@ Postoji mnogo poznatih slabosti u Bitcoinu, i mnoge od njih se aktivno eksploati
 
 > Ako napadač pokuša da popuni mrežu klijentima koje kontroliše, vrlo je verovatno da ćete se povezati samo sa napadačevim čvorovima. Iako Bitcoin nikada ne koristi brojanje čvorova za bilo šta, potpuno izolovanje čvora od poštene mreže može biti korisno u izvođenju drugih napada.
 
-Ova vrsta napada se naziva *Sybil napad*, i dešava se kada jedan entitet kontroliše više čvorova u mreži i koristi ih da se prikaže kao više entiteta.
+Ova vrsta napada se naziva *[Sybil napad](https://planb.academy/resources/glossary/sybil-attack)*, i dešava se kada jedan entitet kontroliše više čvorova u mreži i koristi ih da se prikaže kao više entiteta.
 
 
-Kao što citat takođe pominje, Sybil napad nije efikasan na Bitcoin mreži jer ne postoji glasanje putem čvorova ili drugih brojivih entiteta, već putem računarske snage. Ipak, ova ravna struktura ostavlja sistem podložnim drugim napadima. Bitcoin wiki stranica takođe opisuje druge moguće napade, kao što je skrivanje informacija (često se naziva *eclipse napad*), i način na koji Bitcoin Core implementira neke heurističke protivmere protiv takvih napada.
+Kao što citat takođe pominje, Sybil napad nije efikasan na Bitcoin mreži jer ne postoji glasanje putem čvorova ili drugih brojivih entiteta, već putem računarske snage. Ipak, ova ravna struktura ostavlja sistem podložnim drugim napadima. Bitcoin wiki stranica takođe opisuje druge moguće napade, kao što je skrivanje informacija (često se naziva *[eclipse napad](https://planb.academy/resources/glossary/eclipse-attack)*), i način na koji [Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core) implementira neke heurističke protivmere protiv takvih napada.
 
 
 Gore navedeni su primeri stvarnih pretnji koje treba rešiti.
@@ -1053,7 +1053,7 @@ Da biste bolje razumeli um protivnika, moglo bi biti korisno da zavirite u nači
 Na primer, postoji deo o tome kako infiltrator može da poremeti organizacije. Nije teško videti kako bi se takve taktike mogle koristiti za ciljanje procesa Bitcoin razvoja, koji je otvoren za učešće bilo koga. Posvećeni napadač može stalno odlagati napredak beskrajnim brigama o nebitnim pitanjima, cenjkati se oko preciznih formulacija i pokušavati da ponovo pokrene diskusije koje su već sveobuhvatno rešene. Napadač takođe može unajmiti vojsku trolova da umnoži sopstvenu efikasnost; ovo možemo nazvati društvenim Sybil napadom. Koristeći društveni Sybil napad, mogu učiniti da izgleda kao da postoji veći otpor protiv predložene promene nego što zapravo postoji.
 
 
-Ovo naglašava kako odlučna država može i hoće učiniti sve što je u njenoj moći da uništi neprijatelja, uključujući njegovo razbijanje iznutra. Pošto je Bitcoin oblik novca koji se takmiči sa uspostavljenim fiat valutama, postoji verovatnoća da će države smatrati Bitcoin neprijateljem.
+Ovo naglašava kako odlučna država može i hoće učiniti sve što je u njenoj moći da uništi neprijatelja, uključujući njegovo razbijanje iznutra. Pošto je Bitcoin oblik novca koji se takmiči sa uspostavljenim [fiat valutama](https://planb.academy/resources/glossary/fiat), postoji verovatnoća da će države smatrati Bitcoin neprijateljem.
 
 
 ### Aksiome otpora
@@ -1093,7 +1093,7 @@ Da biste održali Bitcoin sigurnim, morate znati njegove neprijatelje i njihove 
 ![](assets/sr-Latn/010.webp)
 
 
-Bitcoin je izgrađen koristeći softver otvorenog koda. U ovom poglavlju analiziramo šta to znači, kako funkcioniše održavanje softvera i kako softver otvorenog koda u Bitcoinu omogućava razvoj bez dozvola. Zaranjamo u *selektivnu kriptografiju*, koja se bavi izborom i korišćenjem biblioteka u kriptografskim sistemima. Poglavlje uključuje deo o procesu pregleda izmena u Bitcoinu, nakon čega sledi deo o načinima na koje programeri Bitcoin dobijaju finansiranje. Poslednji deo govori o tome kako kultura otvorenog koda Bitcoina može izgledati zaista čudno spolja, i zašto je ta percipirana čudnost zapravo znak dobrog zdravlja.
+Bitcoin je izgrađen koristeći softver otvorenog koda. U ovom poglavlju analiziramo šta to znači, kako funkcioniše održavanje softvera i kako softver otvorenog koda u Bitcoinu omogućava razvoj bez dozvola. Zaranjamo u *selektivnu [kriptografiju](https://planb.academy/resources/glossary/cryptography)*, koja se bavi izborom i korišćenjem biblioteka u kriptografskim sistemima. Poglavlje uključuje deo o procesu pregleda izmena u Bitcoinu, nakon čega sledi deo o načinima na koje programeri Bitcoin dobijaju finansiranje. Poslednji deo govori o tome kako kultura otvorenog koda Bitcoina može izgledati zaista čudno spolja, i zašto je ta percipirana čudnost zapravo znak dobrog zdravlja.
 
 
 Većina Bitcoin softvera, a posebno Bitcoin Core, je otvorenog koda. To znači da je izvorni kod softvera dostupan široj javnosti za pregled, eksperimentisanje, modifikaciju i redistribuciju. Definicija otvorenog koda na [](https://opensource.org/osd) uključuje, između ostalog, sledeće važne tačke:
@@ -1132,7 +1132,7 @@ U narednim odeljcima istražujemo neke druge zanimljive aspekte softvera otvoren
 
 
 
-Izvorni kod Bitcoin Core-a se održava u Git repozitorijumu koji je hostovan na [GitHub-u](https://github.com/Bitcoin/Bitcoin). Svako može klonirati taj repozitorijum bez traženja dozvole, a zatim ga pregledati, izgraditi ili napraviti izmene lokalno. To znači da postoje hiljade kopija repozitorijuma širom sveta. Sve su to kopije istog repozitorijuma, pa šta čini ovaj specifični GitHub Bitcoin Core repozitorijum tako posebnim? Tehnički gledano, nije uopšte poseban, ali društveno je postao žarište razvoja Bitcoina.
+Izvorni kod Bitcoin Core-a se održava u [Git](https://planb.academy/resources/glossary/git) repozitorijumu koji je hostovan na [GitHub-u](https://github.com/Bitcoin/Bitcoin). Svako može klonirati taj repozitorijum bez traženja dozvole, a zatim ga pregledati, izgraditi ili napraviti izmene lokalno. To znači da postoje hiljade kopija repozitorijuma širom sveta. Sve su to kopije istog repozitorijuma, pa šta čini ovaj specifični GitHub Bitcoin Core repozitorijum tako posebnim? Tehnički gledano, nije uopšte poseban, ali društveno je postao žarište razvoja Bitcoina.
 
 
 Bitcoin i stručnjak za bezbednost Jameson Lopp to vrlo dobro objašnjava u [blog postu](https://blog.lopp.net/who-controls-Bitcoin-core-/) pod nazivom "Ko kontroliše Bitcoin Core?":
@@ -1173,9 +1173,9 @@ Verovatno podjednako važno je da korisnici mogu slobodno razvijati sisteme na B
 
 
 
-- Lightning Network: Mreža plaćanja koja omogućava brzo plaćanje vrlo malih iznosa. Zahteva vrlo malo on-chain Bitcoin transakcija. Postoje razne interoperabilne implementacije, kao što su [Core Lightning](https://github.com/ElementsProject/lightning), [LND](https://github.com/lightningnetwork/LND), [Eclair](https://github.com/ACINQ/eclair), i [Lightning Dev Kit](https://github.com/lightningdevkit).
-- CoinJoin: Više strana sarađuje kako bi kombinovale svoje uplate u jednu transakciju, čime se otežava grupisanje adresa. Postoje različite implementacije.
-- Sidechains: Ovaj sistem može da zaključa novčić na Bitcoin blokčejnu kako bi ga otključao na nekom drugom blokčejnu. To omogućava da se bitcoini prebace na neki drugi blokčejn, odnosno na bočni lanac (sidechain), kako bi se koristile funkcionalnosti dostupne na tom bočnom lancu. Primeri uključuju [Blockstream's Elements](https://github.com/ElementsProject/Elements).
+- [Lightning Network](https://planb.academy/resources/glossary/lightning-network): Mreža plaćanja koja omogućava brzo plaćanje vrlo malih iznosa. Zahteva vrlo malo [on-chain](https://planb.academy/resources/glossary/onchain) Bitcoin transakcija. Postoje razne interoperabilne implementacije, kao što su [Core Lightning](https://github.com/ElementsProject/lightning), [LND](https://github.com/lightningnetwork/LND), [Eclair](https://github.com/ACINQ/eclair), i [Lightning Dev Kit](https://github.com/lightningdevkit).
+- [CoinJoin](https://planb.academy/resources/glossary/coinjoin): Više strana sarađuje kako bi kombinovale svoje uplate u jednu transakciju, čime se otežava grupisanje adresa. Postoje različite implementacije.
+- [Sidechains](https://planb.academy/resources/glossary/sidechain): Ovaj sistem može da zaključa novčić na Bitcoin blokčejnu kako bi ga otključao na nekom drugom blokčejnu. To omogućava da se bitcoini prebace na neki drugi blokčejn, odnosno na bočni lanac (sidechain), kako bi se koristile funkcionalnosti dostupne na tom bočnom lancu. Primeri uključuju [Blockstream's Elements](https://github.com/ElementsProject/Elements).
 - OpenTimestamps: Omogućava vam da [vremenski pečetirate dokument](https://opentimestamps.org/) na Bitcoin-ovom blockchain-u na privatan način. Zatim možete koristiti taj vremenski pečat da dokažete da je dokument morao postojati pre određenog vremena.
 
 
@@ -1267,7 +1267,7 @@ Na putu ka konačnom usvajanju, ideja obično prolazi kroz nekoliko faza diskusi
 
 
 - Ideja je postavljena na Bitcoin-dev mailing listu
-- Ideja je formalizovana u Bitcoin Predlog za poboljšanje (BIP)
+- Ideja je formalizovana u Bitcoin Predlog za poboljšanje ([BIP](https://planb.academy/resources/glossary/bip))
 - BIP je implementiran u pull request-u (PR) za Bitcoin Core
 - Raspravlja se o mehanizmima implementacije
 - Neki konkurentni mehanizmi za implementaciju su implementirani u pull zahtevima za Bitcoin Core
@@ -1328,7 +1328,7 @@ Debata je trajala naizgled zauvek, i bilo je stvarno teško videti bilo kakav ko
 
 > U ovom trenutku, dodatno čekanje ne doprinosi većoj reviziji i sigurnosti. Umesto toga, dodatno odlaganje iscrpljuje inerciju i potencijalno povećava rizik jer ljudi počinju da zaboravljaju detalje, odlažu rad na daljoj upotrebi (kao što je podrška za novčanik) i ne ulažu toliko dodatnog napora u reviziju koliko bi ulagali da su sigurni u vremenski okvir aktivacije.
 
-Na kraju, ovaj spor je rešen zahvaljujući novom predlogu Davida Hardinga i Russela O'Connora nazvanom Speedy Trial, koji je podrazumevao relativno kraći period signalizacije za rudare da zaključe aktivaciju Taproot-a, ili brzo utvrdili neuspeh.. Ako bi ga aktivirali tokom tog vremenskog okvira, tada bi Taproot bio implementiran otprilike 6 meseci kasnije.
+Na kraju, ovaj spor je rešen zahvaljujući novom predlogu Davida Hardinga i Russela O'Connora nazvanom [Speedy Trial](https://planb.academy/resources/glossary/speedy-trial), koji je podrazumevao relativno kraći period signalizacije za [rudare](https://planb.academy/resources/glossary/miner) da zaključe aktivaciju Taproot-a, ili brzo utvrdili neuspeh.. Ako bi ga aktivirali tokom tog vremenskog okvira, tada bi Taproot bio implementiran otprilike 6 meseci kasnije.
 
 
 Neko ko nije navikao na razvojni proces Bitcoina verovatno bi pomislio da ove žustre rasprave izgledaju užasno loše, pa čak i toksično. Postoje najmanje dva faktora koja ih čine lošim u očima nekih ljudi:
@@ -1348,7 +1348,7 @@ Kao što je nagovešteno u poglavlju Pretnja, druga tačka iznad može biti veom
 Još jedna stvar koju vredi pomenuti je da, pošto je Bitcoin novac i Bitcoin Core obezbeđuje nesagledivu količinu novca, bezbednost u ovom kontekstu se ne shvata olako. Zbog toga iskusni Bitcoin Core programeri mogu delovati veoma strogo u stavovima, što je najčešće opravdano. Zaista, funkcionalnost iza koje stoji slabo obrazloženje neće biti prihvaćena. Isto važi i ako bi se time narušili reproducibilni buildovi, dodale nove zavisnosti ili ako kod ne bi bio u skladu sa [najboljim praksama](https://github.com/Bitcoin/Bitcoin/blob/master/doc/developer-notes.md).
 
 
-Novi (i stari) programeri mogu biti frustrirani ovim. Ali, kao što je uobičajeno u softveru otvorenog koda, uvek možete forkovati repozitorijum, spojiti šta god želite u svoj fork, i izgraditi i pokrenuti svoj sopstveni binarni fajl.
+Novi (i stari) programeri mogu biti frustrirani ovim. Ali, kao što je uobičajeno u softveru otvorenog koda, uvek možete [forkovati](https://planb.academy/resources/glossary/fork) repozitorijum, spojiti šta god želite u svoj fork, i izgraditi i pokrenuti svoj sopstveni binarni fajl.
 
 
 ### Zaključak o otvorenom kodu
@@ -1384,7 +1384,7 @@ U Bitcoin kontekstu, i za potrebe ove knjige, skaliranje definišemo kao *poveć
 
 - Smanjivanje broja bajtova koje koriste ulazi transakcije
 - Poboljšanje performansi verifikacije potpisa
-- Optimizacija peer-to-peer mreže za manju potrošnju mrežnog saobraćaja
+- Optimizacija [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) mreže za manju potrošnju mrežnog saobraćaja
 - Grupisanje transakcija
 - Slojevita arhitektura
 
@@ -1396,7 +1396,7 @@ Uskoro ćemo se upustiti u različite pristupe skaliranju, ali hajde da počnemo
 
 
 
-Skaliranje je bilo centralna tema diskusija od samog nastanka Bitcoina. Prva rečenica [prvog emaila](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) kao odgovor na Satoshi-jevo objavljivanje Bitcoin whitepaper-a na Cryptography mailing listi zaista je bila o skaliranju:
+Skaliranje je bilo centralna tema diskusija od samog nastanka Bitcoina. Prva rečenica [prvog emaila](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) kao odgovor na Satoshi-jevo objavljivanje Bitcoin [whitepaper-a](https://planb.academy/resources/glossary/white-paper) na Cryptography mailing listi zaista je bila o skaliranju:
 
 > Satoshi Nakamoto je napisao:
 >
@@ -1449,7 +1449,7 @@ Pored negativnih efekata na decentralizaciju full node-a, vertikalno skaliranje 
 - Validacija bloka zahteva vreme.
 
 
-Dok se blok 7 propagira kroz mrežu, mnogi rudari će još uvek rudariti na vrhu bloka 6 jer još nisu primili i validirali blok 7. Tokom ovog vremena, ako bilo koji od ovih rudara pronađe novi blok na visini 7, postojaće dva konkurentna bloka na toj visini. Može postojati samo jedan blok na visini 7 (ili bilo kojoj drugoj visini), što znači da jedan od dva kandidata mora postati zastareo.
+Dok se blok 7 propagira kroz mrežu, mnogi rudari će još uvek rudariti na vrhu bloka 6 jer još nisu primili i validirali blok 7. Tokom ovog vremena, ako bilo koji od ovih rudara pronađe novi blok na visini 7, postojaće dva konkurentna bloka na toj visini. Može postojati samo jedan blok na visini 7 (ili bilo kojoj drugoj visini), što znači da jedan od dva kandidata mora postati [zastareo](https://planb.academy/resources/glossary/stale-block).
 
 
 Ukratko, zastareli blokovi se dešavaju zato što je potrebno vreme da se svaki blok propagira, a što duže traje propagacija, veća je verovatnoća za zastarele blokove.
@@ -1463,7 +1463,7 @@ Rudari ne vole da im blokovi postanu zastareli jer će izgubiti svoj nagradu za 
 
 
 - Odlaganje validacije dolaznog bloka, takođe poznato kao *validationless mining*. Rudari mogu jednostavno da provere dokaz rada (proof-of-work) u zaglavlju bloka i nastaviti sa rudarenjem na njemu, dok u međuvremenu preuzimaju ceo blok i validiraju ga.
-- Povezivanje sa rudarskim bazenom koji ima veći protok i povezanost.
+- Povezivanje sa [rudarskim bazenom](https://planb.academy/resources/glossary/pool-mining) koji ima veći protok i povezanost.
 
 
 Rudarenje bez validacije dodatno podriva decentralizaciju full node-a, jer se rudar oslanja na poverenje u dolazne blokove, barem privremeno. Takođe, to donekle narušava bezbednost jer deo računarske snage mreže potencijalno gradi na nevažećem blockchainu, umesto da gradi na najjačem i važećem lancu.
@@ -1520,7 +1520,7 @@ Različite linije predstavljaju različite verzije Bitcoin Core-a. Krajnja leva 
 Poboljšanja se mogu kategorizovati kao ušteda prostora (RAM, disk, propusni opseg, itd.) ili ušteda računarske snage. Obe kategorije doprinose poboljšanjima u dijagramu iznad.
 
 
-Dobar primer računarskog poboljšanja može se pronaći u biblioteci [libsecp256k1](https://github.com/Bitcoin-core/secp256k1), koja, između ostalog, implementira kriptografske primitive potrebne za kreiranje i verifikaciju digitalnih potpisa. Pieter Wuille je jedan od saradnika na ovoj biblioteci, i napisao je [Twitter niz](https://twitter.com/pwuille/status/1450471673321381896) koja prikazuje poboljšanja performansi postignuta kroz različite pull zahteve.
+Dobar primer računarskog poboljšanja može se pronaći u biblioteci [libsecp256k1](https://github.com/Bitcoin-core/secp256k1), koja, između ostalog, implementira kriptografske primitive potrebne za kreiranje i verifikaciju [digitalnih potpisa](https://planb.academy/resources/glossary/digital-signature). Pieter Wuille je jedan od saradnika na ovoj biblioteci, i napisao je [Twitter niz](https://twitter.com/pwuille/status/1450471673321381896) koja prikazuje poboljšanja performansi postignuta kroz različite pull zahteve.
 
 
 ![](assets/sr-Latn/013.webp)
@@ -1591,7 +1591,7 @@ Kako se ova početna transakcija kreira varira između protokola, ali zajedničk
 Jednom kada transakcija započne na blockchain-u, protokol može raditi ono što treba. Na primer, mogao bi omogućiti super brza plaćanja između učesnika, implementirati neke tehnike za poboljšanje privatnosti ili izvršiti naprednije skriptovanje koje ne bi bilo podržano od strane Bitcoin blockchain-a.
 
 
-Nećemo ulaziti u detalje kako tačno funkcionišu protokoli, ali kao što možete videti na prethodnoj slici, blockchain se retko koristi tokom životnog ciklusa protokola. Sva uzbudljiva akcija dešava se *off-chain*. Videli smo kako ovo može biti korisno za privatnost ako se pravilno uradi, ali takođe može biti prednost za skalabilnost.
+Nećemo ulaziti u detalje kako tačno funkcionišu protokoli, ali kao što možete videti na prethodnoj slici, blockchain se retko koristi tokom životnog ciklusa protokola. Sva uzbudljiva akcija dešava se *[off-chain](https://planb.academy/resources/glossary/offchain)*. Videli smo kako ovo može biti korisno za privatnost ako se pravilno uradi, ali takođe može biti prednost za skalabilnost.
 
 
 U [Reddit postu](https://www.reddit.com/r/Bitcoin/comments/438hx0/a_trip_to_the_moon_requires_a_rocket_with/) pod naslovom "Putovanje na Mesec zahteva raketu sa više faza, inače će vas jednačina rakete 'pojesti za ručak'... nagurati sve kao klovnove u mali auto i ubaciti ih u trebušet i nadajući se uspehu je potpuno pogrešno.", Gregory Maxwell objašnjava zašto je slojevitost naša najbolja šansa da Bitcoin skaliramo za redove veličine.
@@ -1671,7 +1671,7 @@ U [email prepisci](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-
   - backport rešenja ili zaobilazno rešenje sa mastera na trenutno objavljenu verziju
 - Programeri će pokušati da osiguraju da objavljivanje ispravke ne otkrije prirodu ranjivosti tako što će predloženu ispravku dati iskusnim programerima koji nisu informisani o ranjivosti, reći im da ispravka rešava ranjivost i zamoliti ih da identifikuju ranjivost.
 - Devs mogu preporučiti da druge Bitcoin implementacije usvoje ispravke ranjivosti pre nego što ispravka bude objavljena i široko primenjena, ako to mogu učiniti bez otkrivanja ranjivosti; npr, ako ispravka ima značajne performanse koje bi opravdale njeno uključivanje.
-- Pre nego što ranjivost postane javna, programeri će generalno preporučiti prijateljskim altcoin programerima da bi trebalo da se ažuriraju sa ispravkama. Ali to je tek nakon što su ispravke široko primenjene u Bitcoin mreži.
+- Pre nego što ranjivost postane javna, programeri će generalno preporučiti prijateljskim [altcoin](https://planb.academy/resources/glossary/altcoin) programerima da bi trebalo da se ažuriraju sa ispravkama. Ali to je tek nakon što su ispravke široko primenjene u Bitcoin mreži.
 - Programeri obično neće obavestiti altcoin programere koji su se ponašali na neprijateljski način (npr. koristeći ranjivosti za napad na druge, ili koji krše embarga).
 - Bitcoin developeri neće otkriti detalje o ranjivosti dok >80% Bitcoin čvorova ne primeni ispravke. Otkrivači ranjivosti se ohrabruju i traži se da slede istu politiku. [1] [6]
 
@@ -1732,7 +1732,7 @@ pc = pend;
 break;
 ```
 
-Efekat `pc = pend;` je bio da se ostatak programa preskoči, što znači da bi bilo koji locking script u scriptPubKey bio ignorisan. Popravka je podrazumevala promenu značenja `OP_RETURN`-a, tako da se izvršavanje odmah prekida neuspehom.
+Efekat `pc = pend;` je bio da se ostatak programa preskoči, što znači da bi bilo koji locking [script](https://planb.academy/resources/glossary/script) u scriptPubKey bio ignorisan. Popravka je podrazumevala promenu značenja `OP_RETURN`-a, tako da se izvršavanje odmah prekida neuspehom.
 
 
 ```
@@ -1870,7 +1870,7 @@ Postojao je veliki uslov uz ovo: podaci koje bi korisnici preuzeli od knightmb [
 Ponovo, činilo se da su se ljudi složili s tim, i poništavanje nevažećeg bloka i njegovih naslednika bilo je uspešno. Rudari su počeli da rade na novom nasledniku bloka [74637](https://Mempool.space/block/0000000000606865e679308edf079991764d88e8122ca9250aef5386962b6e84) i, prema vremenskom pečetu bloka, naslednik se pojavio u 23:53 UTC, oko 6 sati nakon što je problem otkriven. U 08:10 narednog dana, 16. avgusta, oko bloka 74689, novi lanac je pretekao stari lanac, te su svi neažurirani čvorovi reorganizovani da prate novi lanac. Ovo je najdublja reorganizacija - 52 bloka - u istoriji Bitcoina.
 
 
-U poređenju sa OP_RETURN problemo , ovaj problem je rešen na nešto čistiji način:
+U poređenju sa [OP_RETURN](https://planb.academy/resources/glossary/op-return-0x6a) problemo , ovaj problem je rešen na nešto čistiji način:
 
 
 - Nema izdanja zakrpe samo u binarnom obliku
@@ -1985,7 +1985,7 @@ Vremenska linija događaja oko BIP66. Stavke u crnom su objašnjene iznad.
 
 
 
-Bez da iko zna za problem, mogao je biti rešen povučenim BIP62, koji je bio predlog za smanjenje mogućnosti transakcione malleabilnosti (izmenjivost transakcije). Među predloženim promenama u BIP62 bilo je pooštravanje konsenzusnih pravila za kodiranje potpisa, ili "strogo DER kodiranje". Pieter Wuille je predložio neke izmene BIP-a u julu 2014. godine, koje bi rešile problem:
+Bez da iko zna za problem, mogao je biti rešen povučenim BIP62, koji je bio predlog za smanjenje mogućnosti transakcione [malleabilnosti](https://planb.academy/resources/glossary/malleability-transaction) (izmenjivost transakcije). Među predloženim promenama u BIP62 bilo je pooštravanje konsenzusnih pravila za kodiranje potpisa, ili "strogo [DER](https://planb.academy/resources/glossary/der) kodiranje". Pieter Wuille je predložio neke izmene BIP-a u julu 2014. godine, koje bi rešile problem:
 
 
 > 2014-Jul-18: Kako bi pravila za kodiranje Bitcoin potpisa bila nezavisna od specifičnog parsera OpenSSL-a, izmenio sam BIP62 predlog tako da zahtev za striktne DER potpise važi i za transakcije verzije 1. U to vreme, nijedan ne-DER potpis više nije bio rudaren u blokove, pa se pretpostavljalo da to neće imati nikakav uticaj. Pogledajte https://github.com/Bitcoin/bips/pull/90 i http://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2014-July/006299.html. U to vreme nije bilo poznato, ali ako bi se primenilo, ovo bi rešilo ranjivost.

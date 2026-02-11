@@ -92,7 +92,7 @@ objectives:
 
 
 
-本文分析了去中心化的意义，以及为什么其对比特币的运作至关重要。我们区分了矿工的去中心化和全节点的去中心化，并讨论它们为比特币最核心的特性之一，抗审查性，带来的好处。
+本文分析了去中心化的意义，以及为什么其对比特币的运作至关重要。我们区分了[矿工](https://planb.academy/resources/glossary/mining)的去中心化和[全节点](https://planb.academy/resources/glossary/full-node)的去中心化，并讨论它们为比特币最核心的特性之一，抗审查性，带来的好处。
 
 
 然后，我们将转向对中立性的理解--或者说对用户、矿工和开发者的无许可性--这是任何去中心化系统的必要属性。最后，我们将讨论实现像比特币这样的去中心化系统的难度，并介绍一些可帮助您理解它的思维模型。
@@ -107,7 +107,7 @@ objectives:
 比特币中的去中心化有两个主要方面：矿工和全节点的去中心化。
 
 
-矿工去中心化指的是交易处理不是由任何中央实体执行或协调。全节点去中心化指的是，区块验证（即矿工输出的数据）在网络边缘完成，最终由用户完成，而不是由少数受信任的机构完成。
+矿工去中心化指的是[交易](https://planb.academy/resources/glossary/transaction-tx)处理不是由任何中央实体执行或协调。全节点去中心化指的是，[区块](https://planb.academy/resources/glossary/block)验证（即矿工输出的数据）在网络边缘完成，最终由用户完成，而不是由少数受信任的机构完成。
 
 
 ![](assets/zh-Hans/001.webp)
@@ -123,10 +123,10 @@ objectives:
 比特币中的矿工去中心化意味着*交易处理*不是由任何单一实体或固定的实体集合执行的。它是由所有想要参与其中的参与者集体进行的；这个矿工集体是一组动态的用户。任何人都可以随意加入或退出。这一特性使得比特币能够实现其抗审查性。
 
 
-如果比特币是中心化的，它就容易受到想要审查它的势力的影响，比如各国政府。它会和过去的数字货币实验一样未能成功。在[一篇论文](https://www.blockstream.com/sidechains.pdf)，其题为 《Enabling Blockchain Innovations with Pegged Sidechains》（翻译为通过锚定侧链推动区块链创新）的引言中，作者解释了早期版本的数字货币如何无法适应对抗性环境（见下一部分中的对抗性思维章节）。
+如果比特币是中心化的，它就容易受到想要审查它的势力的影响，比如各国政府。它会和过去的数字货币实验一样未能成功。在[一篇论文](https://www.blockstream.com/sidechains.pdf)，其题为 《Enabling Blockchain Innovations with Pegged Sidechains》（翻译为通过锚定侧链推动[区块链](https://planb.academy/resources/glossary/blockchain)创新）的引言中，作者解释了早期版本的数字货币如何无法适应对抗性环境（见下一部分中的对抗性思维章节）。
 
 
-David Chaum 于 1983 年将数字现金作为一个研究课题提出，当时的环境有一个受信任的中央服务器，可防止双重支出。为了降低个人隐私受到来自中央受信方的威胁，并实现可替代性，Chaum 引入了盲签名（Blind Signature），使得中央服务器看不到签名对应的具体信息，同时仍允许中央服务器执行防止双重支付的功能。
+David Chaum 于 1983 年将数字现金作为一个研究课题提出，当时的环境有一个受信任的中央服务器，可防止[双重支出](https://planb.academy/resources/glossary/double-spending-attack)。为了降低个人隐私受到来自中央受信方的威胁，并实现[可替代性](https://planb.academy/resources/glossary/fungibility)，Chaum 引入了[盲签名](https://planb.academy/resources/glossary/blind-signature)（Blind Signature），使得中央服务器看不到签名对应的具体信息，同时仍允许中央服务器执行防止双重支付的功能。
 
 数字现金的致命弱点在于对中央服务器的依赖[Gri99]。虽然可以用几个签名者的阈值签名来代替中央服务器的签名，从而消除单点故障，但为了便于审计，签名者必须是独立且可识别的。但这仍然使系统容易出错，因为每个签名者都可能失败，或者被逐一迫使失败。
 
@@ -143,7 +143,7 @@ David Chaum 于 1983 年将数字现金作为一个研究课题提出，当时�
 
 - 接受：接受规则更改并将其纳入全节点中。
 - 拒绝：拒绝采用更改；这将使用户的系统不再处理交易，因为用户的全节点已将审查员的阻止视为无效。
-- 迁移：设立一个新的中央控制点；所有用户必须想办法协调，然后达成对新中央控制点的共识。
+- 迁移：设立一个新的中央控制点；所有用户必须想办法协调，然后达成对新中央控制点的[共识](https://planb.academy/resources/glossary/consensus)。
 
 
 即便他们成功，由于系统依然容易被审查，相同的问题很可能在未来某个时刻再次出现。
@@ -152,12 +152,12 @@ David Chaum 于 1983 年将数字现金作为一个研究课题提出，当时�
 这些选项都不利于用户。
 
 
-通过去中心化抵制审查是比特币与其他货币系统的不同之处，但要做到这一点并不容易，因为存在双重支付问题。这个问题就是确保没有人能把同一笔比特币花两次，很多人都认为这个问题不可能用去中心化的方式来解决。中本聪在其 [比特币白皮书](https://planb.academy/bitcoin.pdf) 中写道，如何解决双重支付问题：
+通过去中心化抵制审查是比特币与其他货币系统的不同之处，但要做到这一点并不容易，因为存在双重支付问题。这个问题就是确保没有人能把同一笔比特币花两次，很多人都认为这个问题不可能用去中心化的方式来解决。[中本聪](https://planb.academy/resources/glossary/nakamoto-satoshi)在其 [比特币白皮书](https://planb.academy/bitcoin.pdf) 中写道，如何解决双重支付问题：
 
 
 > 在这篇论文中，我们提出一种使用点对点分布式时间戳服务器为基于时间的交易序列生成计算上的证据来解决双重支付问题的方案。
 
-在这里，他使用了 "点对点分布式时间戳服务器" 这个神奇的短语。这里的关键词是 "分布式"，在这里的意思是没有中央控制点。中本聪接着解释了工作证明（Proof-of-Work）是如何解决这个问题的。尽管如此，没有人比 [Gregory Maxwell 在 Reddit 上](https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/)解释得更易于理解，他回应了有人提出限制矿工哈希率以避免潜在 51% 攻击的建议：
+在这里，他使用了 "点对点分布式时间戳服务器" 这个神奇的短语。这里的关键词是 "分布式"，在这里的意思是没有中央控制点。中本聪接着解释了[工作证明](https://planb.academy/resources/glossary/proof-of-work)（Proof-of-Work）是如何解决这个问题的。尽管如此，没有人比 [Gregory Maxwell 在 Reddit 上](https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/)解释得更易于理解，他回应了有人提出限制矿工[哈希率](https://planb.academy/resources/glossary/hashrate)以避免潜在 51% 攻击的建议：
 
 
 > 像比特币的去中心化系统采用了“公开选举”。但在去中心化系统中，您不能只为某一个人投票，因为这需要中心化的一方授权人们进行投票。相反，比特币使用的是计算能力投票，因为无需任何中心化第三方机构的帮助，就可以验证计算能力。
@@ -181,10 +181,10 @@ David Chaum 于 1983 年将数字现金作为一个研究课题提出，当时�
 在上面的段落中，我们主要讨论了矿工去中心化以及矿工们的去中心化如何能带来审查风险。但去中心化还有另一个方面，即*全节点去中心化*。
 
 
-全节点去中心化的重要性与无信任性有关。假设用户由于运营成本过高等原因停止运行自己的全节点。在这种情况下，他们必须以其他方式与比特币网络互动，可能是使用网络钱包或轻钱包，其需要对这些服务的提供者有一定程度的信任。
+全节点去中心化的重要性与无信任性有关。假设用户由于运营成本过高等原因停止运行自己的全节点。在这种情况下，他们必须以其他方式与比特币网络互动，可能是使用网络[钱包](https://planb.academy/resources/glossary/wallet)或轻钱包，其需要对这些服务的提供者有一定程度的信任。
 
 
-这会使用户从亲自执行网络共识规则，变成信任他人来执行这些规则。假设，一位用户因等运营费用高等原因而不再运行自己的全节点。在这种情况下，网络可能会迅速陷入中心化状态，网络规则可能会被合谋的恶意行为者改变。
+这会使用户从亲自执行网络[共识规则](https://planb.academy/resources/glossary/consensus-rules)，变成信任他人来执行这些规则。假设，一位用户因等运营费用高等原因而不再运行自己的全节点。在这种情况下，网络可能会迅速陷入中心化状态，网络规则可能会被合谋的恶意行为者改变。
 
 
 在[一篇 Bitcoin Magazine 文章中](https://bitcoinmagazine.com/technical/decentralist-perspective-Bitcoin-might-need-small-blocks-1442090446)，Aaron van Wirdum 采访了比特币开发者，了解他们对去中心化的看法以及增加比特币最大区块大小所涉及的风险。这一讨论是 2014-2017 年期间的热门话题，当时很多人都在争论增加区块大小限制以提高交易吞吐量的问题。
@@ -565,7 +565,7 @@ Chris Belcher [写得非常详细](https://en.bitcoin.it/Privacy#Blockchain_atta
 
 > 在比特币中，金融隐私是可替代性的一个基本要素：如果你能明显区分一枚币和另一枚币，那么它们的可替代性就很弱。如果我们的可替代性在实践中太弱，那么我们就无法实现去中心化：如果某个重要人物公布了一份他们不会接受衍生币的被盗币清单，那么您就必须对照该清单仔细检查您所接受的币，并退回不合格的币。每个人都会被困在检查不同机构发布的黑名单中，因为在那个世界里，我们都不想被坏币困住。这增加了摩擦和交易成本，使比特币作为货币的价值降低。
 
-在这里，他谈到了缺乏可替代性所带来的危险。假设您拥有一个 UTXO（比特币的未花费交易输出）。这个 UTXO 的历史通常可以追溯到数次跳转，延伸到之前的众多输出。如果其中任何一个输出涉及任何非法、不受欢迎或可疑的活动，那么您的比特币的一些潜在收款人可能会拒绝接受它。如果您认为您的收款人会根据一些集中的白名单或黑名单服务来验证您的比特币，为了安全起见，您可能也会开始检查您收到的比特币。结果就是，糟糕的可替代性会助长更糟糕的可替代性。
+在这里，他谈到了缺乏可替代性所带来的危险。假设您拥有一个 [UTXO](https://planb.academy/resources/glossary/utxo)（比特币的未花费交易输出）。这个 UTXO 的历史通常可以追溯到数次跳转，延伸到之前的众多输出。如果其中任何一个输出涉及任何非法、不受欢迎或可疑的活动，那么您的比特币的一些潜在收款人可能会拒绝接受它。如果您认为您的收款人会根据一些集中的白名单或黑名单服务来验证您的比特币，为了安全起见，您可能也会开始检查您收到的比特币。结果就是，糟糕的可替代性会助长更糟糕的可替代性。
 
 
 Adam Back 和 Matt Corallo 在 2016 年米兰市的 Scaling Bitcoin 大会上[发表了关于可替代性的演讲](https://btctranscripts.com/scalingbitcoin/milan-2016/fungibility-overview/)。他们的想法如出一辙：
@@ -644,7 +644,7 @@ https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522
 ![](assets/zh-Hans/006.webp)
 
 
-本章将探讨比特币供应量的 2100 万 BTC 限额，或者说它到底有多少？我们将讨论这一限额是如何执行的，以及如何验证这一限额是否得到了遵守。此外，我们还将讨论比特币的未来，讨论当区块奖励从基于补贴转向基于收费时将会出现的动态。
+本章将探讨比特币供应量的 2100 万 BTC 限额，或者说它到底有多少？我们将讨论这一限额是如何执行的，以及如何验证这一限额是否得到了遵守。此外，我们还将讨论比特币的未来，讨论当[区块奖励](https://planb.academy/resources/glossary/block-reward)从基于补贴转向基于收费时将会出现的动态。
 
 
 众所周知，2100 万 BTC 的有限供应量被视为比特币的基本属性。但这真的是一成不变的吗？
@@ -655,7 +655,7 @@ https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522
 
 > 如果将所有这些数字相加，就会有 20999999.9769 枚比特币。
 
-但是，由于多种原因，如早期的 Coinbase 交易问题、矿工无意中申领低于允许额度的奖励，以及私钥丢失等，就永远无法达到那个上限。Wuille 总结道：
+但是，由于多种原因，如早期的 [Coinbase 交易](https://planb.academy/resources/glossary/coinbase-transaction)问题、矿工无意中申领低于允许额度的奖励，以及私钥丢失等，就永远无法达到那个上限。Wuille 总结道：
 
 
 > 这样，我们就有 20999817.31308491 BTC（考虑到 528333 区块之前的所有比特币）
@@ -686,7 +686,7 @@ https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522
 
 
 
-区块奖励由区块补贴和交易费组成。区块奖励需要覆盖比特币的安全成本。我们可以肯定地说，在目前的区块补贴、交易费用、比特币价格、Mempool 规模、哈希率、去中心化程度等条件下，每个参与者遵守规则的积极性都足以维护一个安全的货币体系。
+区块奖励由[区块补贴](https://planb.academy/resources/glossary/block-subsidy)和[交易费](https://planb.academy/resources/glossary/transaction-fees)组成。区块奖励需要覆盖比特币的安全成本。我们可以肯定地说，在目前的区块补贴、交易费用、比特币价格、[Mempool](https://planb.academy/resources/glossary/mempool) 规模、哈希率、去中心化程度等条件下，每个参与者遵守规则的积极性都足以维护一个安全的货币体系。
 
 
 当区块补贴趋近于零时会发生什么？为了简单起见，假设补贴实际上等于零。此时，系统的安全成本只能通过交易费来支付。当这种情况发生时，未来会发生什么，我们无从知晓。不确定的因素很多，我们只能靠猜测。例如，Paul Sztorc [在他的 Truthcoin 博客](https://www.truthcoin.info/blog/security-budget/) 中对这一主题的贡献主要是猜测，但他至少有一个可靠的观点（请注意，Sztorc 所指的 M2 是对法定货币供应量的测量）：
@@ -703,7 +703,7 @@ https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522
 现在成本是由持有者承担的，但随着时间的推移，网络安全的成本最终会由那些实际进行交易、花费比特币的人来支付。
 
 
-当交易费成为主要激励时，激励机制就会发生变化。最值得注意的是，如果一个矿工的 Mempool 没有包含足够的交易费用，那么对该矿工来说，改写比特币的历史记录可能比继续延长区块链更有利可图。Bitcoin Optech 有一个专门的[关于这种行为的章节](https://bitcoinops.org/en/topics/fee-sniping/)，叫做*fee sniping*（费用狙击），由 David Harding 撰写：
+当交易费成为主要激励时，激励机制就会发生变化。最值得注意的是，如果一个矿工的 Mempool 没有包含足够的交易费用，那么对该矿工来说，改写比特币的历史记录可能比继续延长区块链更有利可图。Bitcoin Optech 有一个专门的[关于这种行为的章节](https://bitcoinops.org/en/topics/fee-sniping/)，叫做*[fee sniping](https://planb.academy/resources/glossary/fee-sniping)*（费用狙击），由 David Harding 撰写：
 
 
 > 随着比特币的区块补贴不断减少，交易费用开始主导比特币的区块奖励，可能会出现费用狙击的问题。如果交易费是最重要的，那么拥有 `x`% 哈希率的矿工有 `x`% 的机会挖出下一个区块。因此对他们来说，诚实挖矿的期望收益就是其内存池中按照最高交易费率排列的交易集合中，[收益的 `x`%](https://bitcoinops.org/en/newsletters/2021/06/02/#candidate-set-based-csb-block-template-construction)。
@@ -784,7 +784,7 @@ https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522
 反之亦然，[向后兼容性](https://en.wikipedia.org/wiki/Backward_compatibility) 是指旧软件中的数据可以在新软件中使用。如果一项变更既能向前兼容，又能向后兼容，那么它就被称为完全兼容。
 
 
-对比特币共识规则的修改，如果是完全兼容的，则称为 “软分叉”。这是最常见的比特币升级方式，原因有很多，我们将在本章进一步讨论。如果对比特币共识规则的修改向后兼容，但向前不兼容，则称为 “硬分叉”。
+对比特币共识规则的修改，如果是完全兼容的，则称为 “[软分叉](https://planb.academy/resources/glossary/soft-fork)”。这是最常见的比特币升级方式，原因有很多，我们将在本章进一步讨论。如果对比特币共识规则的修改向后兼容，但向前不兼容，则称为 “[硬分叉](https://planb.academy/resources/glossary/hard-fork)”。
 
 
 如果您想要理解关于软分叉和硬分叉的技术概述，请阅读[Grokking Bitcoin 第 11 章](https://rosenbaum.se/book/grokking-bitcoin-11.html)。它解释了这些术语，并深入介绍了升级机制。在继续阅读之前，建议您先了解一下这些内容，尽管这并非绝对必要。
@@ -799,24 +799,24 @@ https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522
 
 > 实际上，比特币曾经有一次由中本聪执行的硬分叉，而我们绝不会采用那种方式——那是一种相当糟糕的做法。如果您看一下这里的 git 提交描述 [[757f076](https://github.com/Bitcoin/Bitcoin/commit/757f0769d8360ea043f469f3a35f6ec204740446)] ，他说了一些关于还原 makefile.unix wx-config 0.3.6 版本的内容。没错。就这么多。没有任何迹象表明它有任何破坏性改动。基本上，他把它藏在内。他还 [发布到 bitcointalk](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451) 说，请尽快升级到 0.3.6 版本。我们修复了一个执行错误，在这个错误中，假交易有可能被显示为已接受。在升级到 0.3.6 之前，请不要接受比特币付款。如果您不能立即升级，那么最好在升级之前关闭您的比特币节点。除此之外，我不知道他为什么还决定这样做，他决定在相同的代码中添加一些优化和修复一个错误。
 
-他指出，不管是有意还是无意，这次硬分叉为未来的软分叉创造了机会，即脚本操作符（操作码）OP_NOP1-OP_NOP10。我们将在 cve-2010-5141 中详细介绍这一代码变更。到目前为止，已有两个软分叉使用了这些操作码：
+他指出，不管是有意还是无意，这次硬分叉为未来的软分叉创造了机会，即脚本操作符（[操作码](https://planb.academy/resources/glossary/opcodes)）OP_NOP1-OP_NOP10。我们将在 cve-2010-5141 中详细介绍这一代码变更。到目前为止，已有两个软分叉使用了这些操作码：
 
 
 - [BIP65](https://github.com/Bitcoin/bips/blob/master/bip-0065.mediawiki) (OP_CHECKLOCKTIMEVERIFY)
 - [BIP113](https://github.com/Bitcoin/bips/blob/master/bip-0112.mediawiki) (OP_SEQUENCEVERIFY).
 
 
-Lombrozo 还概述了截至 2017 年这些年来升级机制的演变方式。从那时起，只部署了另一个重大升级--Taproot 升级。导致其启动的漫长而略显混乱的过程，有助于我们进一步了解比特币的升级机制。
+Lombrozo 还概述了截至 2017 年这些年来升级机制的演变方式。从那时起，只部署了另一个重大升级--[Taproot](https://planb.academy/resources/glossary/taproot) 升级。导致其启动的漫长而略显混乱的过程，有助于我们进一步了解比特币的升级机制。
 
 
 #### SegWit 升级
 
 
 
-虽然 SegWit 之前的所有升级或多或少都比较顺利，但这次却不同。2016 年 10 月，当 SegWit 激活代码发布时，比特币用户似乎对其表示了压倒性的支持，但由于某些原因，矿工们并没有发出支持此次升级的信号，这使得激活工作停滞不前，看不到任何解决的办法。
+虽然 [SegWit](https://planb.academy/resources/glossary/segwit) 之前的所有升级或多或少都比较顺利，但这次却不同。2016 年 10 月，当 SegWit 激活代码发布时，比特币用户似乎对其表示了压倒性的支持，但由于某些原因，矿工们并没有发出支持此次升级的信号，这使得激活工作停滞不前，看不到任何解决的办法。
 
 
-Aaron van Wirdum 在他的 Bitcoin Magazine 题为 [The Long Road To SegWit](https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality) 的文章中描述了这条曲折的道路。他首先解释了什么是 SegWit，以及 SegWit 如何引发区块大小的争论。然后，Van Wirdum 概述了导致其最终启动的事件转折。这一过程的核心是 Shaolinfry 提出的一种名为*用户激活的软分叉* 的升级机制，（即 User Activated Soft Fork，简称 UASF：
+Aaron van Wirdum 在他的 Bitcoin Magazine 题为 [The Long Road To SegWit](https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality) 的文章中描述了这条曲折的道路。他首先解释了什么是 SegWit，以及 SegWit 如何引发区块大小的争论。然后，Van Wirdum 概述了导致其最终启动的事件转折。这一过程的核心是 Shaolinfry 提出的一种名为*用户激活的软分叉* 的升级机制，（即 User Activated Soft Fork，简称 [UASF](https://planb.academy/resources/glossary/uasf)：
 
 
 > Shaolinfry 提出了一种替代方案：UASF。UASF 将有一个 '标志日激活'，节点在未来某个预定时间开始执行，而不是按照哈希力激活的。"只要这种 UASF 由经济上的多数人执行，就会迫使大多数矿工遵循（或激活）其软分叉。
@@ -1001,10 +1001,10 @@ Jimmy Song [在巴黎的 "Breaking Bitcoin" 大会上谈到了与硬分叉相关
 ![](assets/zh-Hans/008.webp)
 
 
-本章将讨论 "对抗性思维"，即关注可能出现的问题和对手可能采取的行动的思维方式。我们将先讨论比特币的安全假设和安全模型，然后解释普通用户如何通过逆向思维提高自我主权和比特币的全节点去中心化。然后，我们将探讨比特币所面临的一些实际威胁以及对手的想法。最后，我们将讨论 "抵抗公理"（*axiom of resistance*），它可以帮助您理解为什么人们需要研究比特币的基本原因。
+本章将讨论 "对抗性思维"，即关注可能出现的问题和对手可能采取的行动的思维方式。我们将先讨论比特币的安全假设和安全模型，然后解释普通用户如何通过逆向思维提高自我主权和比特币的全[节点](https://planb.academy/resources/glossary/node)去中心化。然后，我们将探讨比特币所面临的一些实际威胁以及对手的想法。最后，我们将讨论 "抵抗公理"（*axiom of resistance*），它可以帮助您理解为什么人们需要研究比特币的基本原因。
 
 
-在讨论各种系统的安全性时，了解安全假设是什么很重要。比特币中一个典型的安全假设是 "离散对数问题是难以解决的"，简单地说，就是几乎不可能找到与特定公钥相对应的私钥。另一个相当有力的安全假设是，网络中的大多数人都是诚实的，也就是说，他们都遵守规则。如果这些假设被证明是错误的，那么比特币会陷入困境。
+在讨论各种系统的安全性时，了解安全假设是什么很重要。比特币中一个典型的安全假设是 "[离散对数](https://planb.academy/resources/glossary/discrete-logarithm)问题是难以解决的"，简单地说，就是几乎不可能找到与特定[公钥](https://planb.academy/resources/glossary/public-key)相对应的[私钥](https://planb.academy/resources/glossary/private-key)。另一个相当有力的安全假设是，网络中的大多数人都是诚实的，也就是说，他们都遵守规则。如果这些假设被证明是错误的，那么比特币会陷入困境。
 
 
 2015 年，Andrew Poelstra 在香港举行的 "Scaling Bitcoin" 大会上[发表演讲](https://btctranscripts.com/scalingbitcoin/hong-kong-2015/security-assumptions/)，分析了比特币的安全假设。他首先指出，许多系统在某种程度上都忽略了对手；例如，保护一栋建筑免受所有类型的对抗性事件的影响，这确实是难以做到的目标。相反，我们通常会接受有人烧毁大楼的可能性，并通过执法等手段在一定程度上防止这种行为和其他敌对行为。
@@ -1039,7 +1039,7 @@ Poelstra 接着提到，Bitcoin 是一种新型系统；它比签名协议更模
 
 
 
-对抗性思维的重要性在某种程度上也延伸到了比特币的日常用户，而不仅仅是比特币的热烈开发者和专家。Ragnar Lifthasir 在[tweetstorm](https://bitcoinwords.github.io/tweetstorm-on-adversarial-thinking)中提到，围绕比特币的简单化叙述--例如，"只要继续 HODL"--会贬低比特币本身，并总结道：
+对抗性思维的重要性在某种程度上也延伸到了比特币的日常用户，而不仅仅是比特币的热烈开发者和专家。Ragnar Lifthasir 在[tweetstorm](https://bitcoinwords.github.io/tweetstorm-on-adversarial-thinking)中提到，围绕比特币的简单化叙述--例如，"只要继续 [HODL](https://planb.academy/resources/glossary/hodl)"--会贬低比特币本身，并总结道：
 
 
 > 为了让比特币和我们自己变得更强大，我们需要像那些为比特币做出贡献的软件工程师一样思考。他们进行同行评审，毫不留情地寻找缺陷。在他们的技术活动中，他们谈论提案失败的各种可能性。他们的思维是对抗性的。他们是保守的。
@@ -1056,10 +1056,10 @@ Poelstra 接着提到，Bitcoin 是一种新型系统；它比签名协议更模
 
 > 如果攻击者试图在网络中布满他们控制的客户端，那么您就很可能只能连接到攻击者的节点。虽然比特币从不使用节点计数，但将节点与真实网络完全隔离有助于实施其他攻击。
 
-这种攻击被称为 "女巫攻击"（*Sybil attack*），当一个实体控制网络中的多个节点，并利用这些节点以多个实体的身份出现时，就会发生这种攻击。
+这种攻击被称为 "[女巫攻击](https://planb.academy/resources/glossary/sybil-attack)"（*Sybil attack*），当一个实体控制网络中的多个节点，并利用这些节点以多个实体的身份出现时，就会发生这种攻击。
 
 
-引文还提到，女巫攻击对比特币网络无效，因为没有通过节点或其他可计算实体进行投票，而是通过计算能力进行投票。尽管如此，这种扁平化结构使系统容易受到其他攻击。比特币维基页面还概述了其他可能的攻击，如信息隐藏（通常称为 "eclipse attack"，中文翻译为日蚀攻击），以及 Bitcoin Core 针对此类攻击实施的一些启发式对策。
+引文还提到，女巫攻击对比特币网络无效，因为没有通过节点或其他可计算实体进行投票，而是通过计算能力进行投票。尽管如此，这种扁平化结构使系统容易受到其他攻击。比特币维基页面还概述了其他可能的攻击，如信息隐藏（通常称为 "eclipse attack"，中文翻译为[日蚀攻击](https://planb.academy/resources/glossary/eclipse-attack)），以及 [Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core) 针对此类攻击实施的一些启发式对策。
 
 
 以上是需要应对的真实威胁的例子。
@@ -1079,7 +1079,7 @@ Poelstra 接着提到，Bitcoin 是一种新型系统；它比签名协议更模
 例如，有一节是关于渗透者如何破坏组织的。需要注意的是，比特币的开发过程是开放的，任何人都可以参与。专门的攻击者可以通过无休止地关注不相关的问题、在精确的措辞上讨价还价、试图重申已经全面讨论过的问题来不断拖延进展。攻击者还可以雇佣一支巨魔军队来提高自己的效率；我们可以把这称为社交女巫攻击（social sybil attack）。通过社交女巫攻击，他们可以让反对变革建议的阻力显得比实际阻力更大。
 
 
-这强调了一个意志坚定的国家如何能够并将竭尽全力摧毁敌人，包括从内部瓦解敌人。由于比特币是一种与既有法定货币竞争的货币形式，各国很可能会将比特币视为敌人。
+这强调了一个意志坚定的国家如何能够并将竭尽全力摧毁敌人，包括从内部瓦解敌人。由于比特币是一种与既有[法定货币](https://planb.academy/resources/glossary/fiat)竞争的货币形式，各国很可能会将比特币视为敌人。
 
 
 ### 抵抗公理（Axiome of Resistance）
@@ -1119,7 +1119,7 @@ Eric Voskuil [在他的 Cryptoeconomics 维基页面上写道](https://github.co
 ![](assets/zh-Hans/010.webp)
 
 
-比特币采用了开源软件构建。在本章中，我们将分析其意思、软件的维护是如何进行的，以及比特币中的开源软件是如何实现无许可开发的。我们将涉足 *密码学选择*，这涉及密码系统中库的选择和使用。本章包括一节关于比特币审查过程的内容，接下来是另一节关于比特币开发者如何获得资金的内容。最后一节讲述了比特币的开源文化如何从外部看起来非常怪异，以及为什么这种怪异感实际上是健康的标志。
+比特币采用了开源软件构建。在本章中，我们将分析其意思、软件的维护是如何进行的，以及比特币中的开源软件是如何实现无许可开发的。我们将涉足 *[密码学](https://planb.academy/resources/glossary/cryptography)选择*，这涉及密码系统中库的选择和使用。本章包括一节关于比特币审查过程的内容，接下来是另一节关于比特币开发者如何获得资金的内容。最后一节讲述了比特币的开源文化如何从外部看起来非常怪异，以及为什么这种怪异感实际上是健康的标志。
 
 
 大多数比特币软件，尤其是 Bitcoin Core，都是开源的。这意味着该软件的源代码向公众开放，供其审查、修补、修改和重新分发。[](https://opensource.org/osd)中的开放源代码定义包括以下要点：
@@ -1173,7 +1173,7 @@ Copyright (c) 2009-2022 Bitcoin Developers
 
 
 
-Bitcoin Core 的源代码保存在 [GitHub](https://github.com/Bitcoin/Bitcoin) 上的 Git 代码库中。任何人都可以克隆该版本库，而无需请求任何许可，然后在本地对其进行检查、构建或修改。这意味着，全球各地有成千上万个版本库副本。这些都是同一个版本库的副本，那么 Bitcoin Core 的 GitHub 版本库的特别之处是什么呢？从技术上讲，它一点也不特别，但在社会上，它已成为比特币开发的焦点。
+Bitcoin Core 的源代码保存在 [GitHub](https://github.com/Bitcoin/Bitcoin) 上的 [Git](https://planb.academy/resources/glossary/git) 代码库中。任何人都可以克隆该版本库，而无需请求任何许可，然后在本地对其进行检查、构建或修改。这意味着，全球各地有成千上万个版本库副本。这些都是同一个版本库的副本，那么 Bitcoin Core 的 GitHub 版本库的特别之处是什么呢？从技术上讲，它一点也不特别，但在社会上，它已成为比特币开发的焦点。
 
 
 比特币和安全专家 Jameson Lopp 在一篇题为 "谁控制着 Bitcoin Core？"的 [博文](https://blog.lopp.net/who-controls-Bitcoin-core-/) 中对此做了很好的解释：
@@ -1214,10 +1214,10 @@ Lombrozo 还谈到了共识更改的过程，但这已经超出了本章的讨�
 
 
 
-- 闪电网路：可快速支付小额款项的支付网络。它只需要很少的链上比特币交易。目前有多种可互操作的实现方式，如[Core Lightning](https://github.com/ElementsProject/lightning)、[LND](https://github.com/lightningnetwork/LND)、[Eclair](https://github.com/ACINQ/eclair)和[Lightning Dev Kit](https://github.com/lightningdevkit)。
-- CoinJoin：多方合作将其付款合并为单笔交易，以增加地址集群的难度。目前有多种实现方法。
-- 侧链：该系统可将比特币锁定在比特币的区块链上，以便在其他区块链上解锁。这样，比特币就可以转移到其他区块链上，即侧链，从而可使用该侧链上的功能。例如[Blockstream 的 Elements](https://github.com/ElementsProject/Elements)。
-- OpenTimestamps：它允许您以非公开方式在比特币的区块链上[给一个文档时间戳](https://opentimestamps.org/)。然后，您就可以使用该时间戳来证明某个文档在某个时间之前就已存在。
+- [闪电网路](https://planb.academy/resources/glossary/lightning-network)：可快速支付小额款项的支付网络。它只需要很少的[链上](https://planb.academy/resources/glossary/onchain)比特币交易。目前有多种可互操作的实现方式，如[Core Lightning](https://github.com/ElementsProject/lightning)、[LND](https://github.com/lightningnetwork/LND)、[Eclair](https://github.com/ACINQ/eclair)和[Lightning Dev Kit](https://github.com/lightningdevkit)。
+- [CoinJoin](https://planb.academy/resources/glossary/coinjoin)：多方合作将其付款合并为单笔交易，以增加地址集群的难度。目前有多种实现方法。
+- [侧链](https://planb.academy/resources/glossary/sidechain)：该系统可将比特币锁定在比特币的区块链上，以便在其他区块链上解锁。这样，比特币就可以转移到其他区块链上，即侧链，从而可使用该侧链上的功能。例如[Blockstream 的 Elements](https://github.com/ElementsProject/Elements)。
+- OpenTimestamps：它允许您以非公开方式在比特币的区块链上[给一个文档时间戳](https://opentimestamps.org/)。然后，您就可以使用该[时间戳](https://planb.academy/resources/glossary/timestamp)来证明某个文档在某个时间之前就已存在。
 
 
 如果没有无许可开发的机会，许多项目都不可能实现。正如 "中立性" 一章所述，如果开发者必须获得许可才能在比特币基础上构建协议，那么只有中央开发者许可委员会允许的协议才能被开发出来。
@@ -1309,7 +1309,7 @@ Lombrozo 还谈到了共识更改的过程，但这已经超出了本章的讨�
 
 
 - 在 Bitcoin-dev 邮件列表中发布了一个想法
-- 将想法正式化为比特币改进提案 (BIP)
+- 将想法正式化为比特币改进提案 ([BIP](https://planb.academy/resources/glossary/bip))
 - BIP 在 Bitcoin Core 的拉取请求 (PR) 中实施。
 - 讨论部署机制
 - 在 Bitcoin Core 中针对不同部署机制提交竞争性的拉取请求
@@ -1362,7 +1362,7 @@ Bitcoin Core 开发者兼代码审查员 Gloria Zhao 撰写了[一篇文章](htt
 人们有时会觉得，比特币开发者之间内讧不断，争论不休，无法做出决定。
 
 
-例如，Taproot 部署机制就经过了长时间的讨论，期间形成了两个派。一个派希望，如果矿工在某一时刻后没有以压倒性多数投票支持新规则，升级就会 "失败"；而另一个派则希望，无论如何都要在那一时刻后执行规则。Michael Folkson 在给 Bitcoin-dev 邮件列表的[电子邮件](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2021-February/018380.html) 中总结了两方的论点。
+例如，Taproot 部署机制就经过了长时间的讨论，期间形成了两个派。一个派希望，如果[矿工](https://planb.academy/resources/glossary/miner)在某一时刻后没有以压倒性多数投票支持新规则，升级就会 "失败"；而另一个派则希望，无论如何都要在那一时刻后执行规则。Michael Folkson 在给 Bitcoin-dev 邮件列表的[电子邮件](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2021-February/018380.html) 中总结了两方的论点。
 
 
 争论似乎永远不会停止，真的很难在短期内就此达成共识。这让人们感到沮丧，结果导致热度加剧。Gregory Maxwell（以用户名为 nullc 的身份）在 Reddit](https://www.reddit.com/r/Bitcoin/comments/hrlpnc/technical_taproot_why_activate/fyqbn8s/?utm_source=share&utm_medium=web2x&context=3)上担心，冗长的讨论会降低升级的安全性：
@@ -1370,7 +1370,7 @@ Bitcoin Core 开发者兼代码审查员 Gloria Zhao 撰写了[一篇文章](htt
 
 > 在这个阶段，继续等待并不会带来更多审查或更高确定性。相反，由于人们开始忘记细节、推迟下游使用（如支持钱包）的工作，以及没有像对激活时间框架有信心时那样投入更多的额外审核精力，因此额外的延迟会削弱惰性，并可能在一定程度上增加风险。
 
-最终，David Harding 和 Russel O'Connor 提出了一项名为 "快速试行"（Speedy Trial）的新提案，解决了这一争议。如果他们在该时间窗口内激活，那么 Taproot 将在大约 6 个月后部署。
+最终，David Harding 和 Russel O'Connor 提出了一项名为 "[快速试行](https://planb.academy/resources/glossary/speedy-trial)"（Speedy Trial）的新提案，解决了这一争议。如果他们在该时间窗口内激活，那么 Taproot 将在大约 6 个月后部署。
 
 
 不熟悉比特币开发流程的人可能会认为，这些激烈的辩论看起来非常糟糕，甚至有害。有些人认为，这些争论之所以显得那么激烈，至少有两个原因：
@@ -1390,7 +1390,7 @@ Bitcoin Core 开发者兼代码审查员 Gloria Zhao 撰写了[一篇文章](htt
 另外值得一提的是，由于比特币就是一种金钱，而 Bitcoin Core 又能确保数额深不可测的金钱，因此在这种情况下，安全问题是不能掉以轻心的。因此，经验丰富的 Bitcoin Core 开发者可能会显得很固执，但这种态度通常是有道理的。事实上，缺乏合理性的功能不会被接受的。如果它破坏了可重现的构建、添加新的依赖项，或者代码没有遵循比特币的 [最佳实践](https://github.com/Bitcoin/Bitcoin/blob/master/doc/developer-notes.md)。
 
 
-无论是新手还是多经验的，开发者可能会对此感到沮丧。不过，按照开源软件的惯例，您可以随时创建自己的代码仓库分叉，将您的更改合并到自己的分叉，并构建和运行您自己的二进制文件。
+无论是新手还是多经验的，开发者可能会对此感到沮丧。不过，按照开源软件的惯例，您可以随时创建自己的代码仓库[分叉](https://planb.academy/resources/glossary/fork)，将您的更改合并到自己的分叉，并构建和运行您自己的二进制文件。
 
 
 ### 关于开源的结论
@@ -1426,7 +1426,7 @@ Bitcoin Core 和大多数其他比特币软件都是开源的，这意味着任�
 
 - 让交易输入使用更少的字节
 - 提高签名验证性能
-- 让点对点网络使用更少的带宽
+- 让[点对点](https://planb.academy/resources/glossary/peertopeer-p2p)网络使用更少的带宽
 - 交易的批处理
 - 分层架构
 
@@ -1438,7 +1438,7 @@ Bitcoin Core 和大多数其他比特币软件都是开源的，这意味着任�
 
 
 
-自比特币的创造以来，它的扩展一直是讨论的重点。针对中本聪在密码学邮件列表上公布的比特币白皮书，[第一封邮件](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) 的第一句话就是关于扩展的：
+自比特币的创造以来，它的扩展一直是讨论的重点。针对中本聪在密码学邮件列表上公布的比特币[白皮书](https://planb.academy/resources/glossary/white-paper)，[第一封邮件](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) 的第一句话就是关于扩展的：
 
 
 > 中本聪写道：
@@ -1493,7 +1493,7 @@ Bitcoin Core 和大多数其他比特币软件都是开源的，这意味着任�
 - 区块验证需要时间。
 
 
-当区块 7 在网络中传播时，许多矿工仍在区块 6 上进行挖矿，因为他们还没有收到并验证区块 7。在此期间，如果其中任何一个矿工在高度为 7 挖出了一个新区块，那么在该高度就会出现两个相互竞争的区块。在高度 7（或任何其他高度）上只能有一个区块，这意味着两个候选区块中必须有一个变得陈旧。
+当区块 7 在网络中传播时，许多矿工仍在区块 6 上进行挖矿，因为他们还没有收到并验证区块 7。在此期间，如果其中任何一个矿工在高度为 7 挖出了一个新区块，那么在该高度就会出现两个相互竞争的区块。在高度 7（或任何其他高度）上只能有一个区块，这意味着两个候选区块中必须有一个变得[陈旧](https://planb.academy/resources/glossary/stale-block)。
 
 
 简而言之，出现陈旧区块是的原因是每个区块的传播都需要时间，传播时间越长，出现陈旧区块的概率就越高。
@@ -1507,7 +1507,7 @@ Bitcoin Core 和大多数其他比特币软件都是开源的，这意味着任�
 
 
 - 推迟验证收到的区块，也称为*无验证挖矿*（validationless mining）。矿工只需检查区块头的工作证明并在其上挖矿，同时下载完整区块并验证。
-- 通过更大的带宽和连接性连接到矿池。
+- 通过更大的带宽和连接性连接到[矿池](https://planb.academy/resources/glossary/pool-mining)。
 
 
 无验证挖矿进一步削弱了全节点的去中心化，因为挖矿不得不信任收到的区块，至少是暂时的。这也在一定程度上损害了安全性，因为网络的部分计算能力有可能建立在无效的区块链上，而不是建立在最强的有效链上。
@@ -1563,7 +1563,7 @@ Bitcoin Core 和大多数其他比特币软件都是开源的，这意味着任�
 这些改进可归类为节省空间（内存、磁盘、带宽等）或节省计算能力。这两类都有助于实现上图中的改进。
 
 
-[libsecp256k1](https://github.com/Bitcoin-core/secp256k1) 库就是一个很好的计算改进例子，它实现了制作和验证数字签名所需的加密原语。Pieter Wuille 是这个库的贡献者之一，他写了一篇[Twitter 线程](https://twitter.com/pwuille/status/1450471673321381896)，展示了通过各种拉取请求实现的性能改进。
+[libsecp256k1](https://github.com/Bitcoin-core/secp256k1) 库就是一个很好的计算改进例子，它实现了制作和验证[数字签名](https://planb.academy/resources/glossary/digital-signature)所需的加密原语。Pieter Wuille 是这个库的贡献者之一，他写了一篇[Twitter 线程](https://twitter.com/pwuille/status/1450471673321381896)，展示了通过各种拉取请求实现的性能改进。
 
 
 ![](assets/zh-Hans/013.webp)
@@ -1584,7 +1584,7 @@ Bitcoin Core 和大多数其他比特币软件都是开源的，这意味着任�
 为不同支出类型、Taproot 和传统版本节省空间。
 
 
-使用 native SegWit 的 2-of-3 多签名总共需要 104.5 + 43 vB = 147.5 vB，而在标准使用情况下，最节省空间的 Taproot 只需要 57.5 + 43 vB = 100.5 vB。在最极端和罕见的情况下，比如由于某种原因无法使用标准签名者时，Taproot 将使用 107.5 + 43 vB = 150.5 vB。您不必了解所有细节，但这应该能让您了解开发者是如何考虑节省空间的--每一个小字节都很重要。
+使用 native SegWit 的 2-of-3 [多签名](https://planb.academy/resources/glossary/multisig)总共需要 104.5 + 43 vB = 147.5 vB，而在标准使用情况下，最节省空间的 Taproot 只需要 57.5 + 43 vB = 100.5 vB。在最极端和罕见的情况下，比如由于某种原因无法使用标准签名者时，Taproot 将使用 107.5 + 43 vB = 150.5 vB。您不必了解所有细节，但这应该能让您了解开发者是如何考虑节省空间的--每一个小字节都很重要。
 
 
 除了比特币软件的向内扩展外，用户也可以通过一些方式促进向内扩展。他们可以更智能地进行交易，以节省交易费用，同时减少对全节点需求的影响。实现这一目标的两种常用技术是交易批处理和输出合并。
@@ -1634,7 +1634,7 @@ Bitcoin Core 和大多数其他比特币软件都是开源的，这意味着任�
 一旦在区块链上开始交易，协议就可以做它应该做的事情。例如，它可以在参与者之间进行超快支付，实施一些隐私增强技术，或编写比特币区块链不支持的更高级脚本。
 
 
-我们不会详细介绍具体协议的工作原理，但从上图可见，在协议的生命周期中，区块链很少被使用。所有重要的操作都不在链上发生。我们已经看到，如果操作得当，这不仅能保护隐私，还能提高可扩展性。
+我们不会详细介绍具体协议的工作原理，但从上图可见，在协议的生命周期中，区块链很少被使用。所有重要的操作都[不在链上](https://planb.academy/resources/glossary/offchain)发生。我们已经看到，如果操作得当，这不仅能保护隐私，还能提高可扩展性。
 
 
 在一篇题为 "登月需要多级火箭，否则火箭方程会吃掉你的午餐......把每个人都装进小丑车式的火箭里，然后寄希望于成功是不可能的 "的[Reddit 帖子](https://www.reddit.com/r/Bitcoin/comments/438hx0/a_trip_to_the_moon_requires_a_rocket_with/)中，Gregory Maxwell 解释了为什么分层扩展是让比特币实现数量级扩展的最佳途径。
@@ -1911,7 +1911,7 @@ break;
 人们似乎又一次同意采取这个做法，无效区块及其后续区块的逆转取得了成功。矿工们开始为区块[74637](https://Mempool.space/block/0000000000606865e679308edf079991764d88e8122ca9250aef5386962b6e84)创建新的后继区块，根据该区块的时间戳，后继区块在 23:53 UTC（世界协调时）出现，大约在发现问题 6 小时后。第二天（8 月 16 日）8:10，在区块 74689 左右，新链超过了旧链，因此所有未升级的节点都重新锻造以跟随新区块链。这是比特币历史上最严重的一次重组（52 个区块）。
 
 
-与 OP_RETURN 问题相比，这个问题的处理方式更为简洁：
+与 [OP_RETURN](https://planb.academy/resources/glossary/op-return-0x6a) 问题相比，这个问题的处理方式更为简洁：
 
 
 - 不发布纯二进制补丁
@@ -2026,7 +2026,7 @@ BIP66 是一项收紧比特币脚本中签名编码规则的提案。其[动机]
 
 
 
-在没有人知道这个问题的情况下，这个问题本可以通过现已被广泛删除的 BIP62 来解决，该提案旨在减少交易可篡改性的可能性。BIP62 提议的修改包括收紧签名编码的共识规则，即 "严格 DER 编码"。Pieter Wuille 于 2014 年 7 月提议对 BIP 进行一些调整，从而解决了这一问题：
+在没有人知道这个问题的情况下，这个问题本可以通过现已被广泛删除的 BIP62 来解决，该提案旨在减少[交易可篡改性](https://planb.academy/resources/glossary/malleability-transaction)的可能性。BIP62 提议的修改包括收紧签名编码的共识规则，即 "严格 [DER](https://planb.academy/resources/glossary/der) 编码"。Pieter Wuille 于 2014 年 7 月提议对 BIP 进行一些调整，从而解决了这一问题：
 
 
 > 2014 年 7 月 18 日：为了使比特币的签名编码规则不依赖于 OpenSSL 的特定解析器，我修改了 BIP62 提案，使其严格的 DER 签名要求也适用于第一版本的交易。当时已经没有非 DER 签名被挖掘到区块中，因此被视为不会产生任何影响。请参见 [bitcoin/bips#90](https://github.com/Bitcoin/bips/pull/90) 和 [http://lists.linuxfoundation.org/pipermail/bitcoin-dev/2014-July/006299.html](http://lists.linuxfoundation.org/pipermail/bitcoin-dev/2014-July/006299.html)。当时尚不清楚，但如果部署了，就会解决漏洞问题。

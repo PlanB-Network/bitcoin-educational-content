@@ -633,11 +633,11 @@ Martti 随后向中本聪发送了一封[电子邮件](https://mmalmi.github.io/
 
 - “通过互联网轻松转账，无需信任第三方。”
 - “没有第三方可以阻止或控制你的交易。”
-- “保护自己免受部分储备银行业务和中央银行糟糕政策造成的不稳定性。比特币系统货币供应的有限通胀是均匀分布的（通过计算能力），而不是被银行垄断。”
+- “保护自己免受[部分储备银行业务](https://planb.academy/resources/glossary/fractional-reserves)和中央银行糟糕政策造成的不稳定性。比特币系统货币供应的有限通胀是均匀分布的（通过计算能力），而不是被银行垄断。”
 - “随着比特币经济的增长速度超过通胀率，比特币的价值可能会增加 - 将比特币视为一项投资，并从今天开始运行节点！”
 中本聪[赞同](https://mmalmi.github.io/satoshi/#email-5)了这次演讲的整体内容，尽管他有一些保留意见。他[表示](https://mmalmi.github.io/satoshi/#email-19)对将比特币宣称为“投资”感到特别“不舒服”，可能是担心这样的声明会带来法律上的影响。该页面于 5 月 6 日[发布](https://mmalmi.github.io/satoshi/#email-9)，两天后，Martti Malmi 通过在 [Hackernews](https://news.ycombinator.com/item?id=599852) 和 [Reddit](https://www.reddit.com/r/business/comments/8itlf/bitcoin_a_peertopeer_network_based_anonymous/) 平台分享链接来推广它。这个描述的略微修改版本在 2009 年底[被发现](https://web.archive.org/web/20100106082749/http://www.bitcoin.org/)在主网站上。
 
-2009 年春季还见证了“加密货币”一词的出现，最初是用来指代比特币的。5 月 11 日，中本聪[写信](https://mmalmi.github.io/satoshi/#email-19)给 Martti Malmi：
+2009 年春季还见证了“[加密货币](https://planb.academy/resources/glossary/cryptocurrency)”一词的出现，最初是用来指代比特币的。5 月 11 日，中本聪[写信](https://mmalmi.github.io/satoshi/#email-19)给 Martti Malmi：
 
 > “有人想出了‘加密货币’这个词……也许这是我们应该用来描述比特币的词，你喜欢吗？”
 
@@ -757,7 +757,7 @@ Martti Malmi 还在 SourceForge 页面上设置了一个论坛和一个 wiki。�
 
 ![MyBitcoin网站存档中的MyBitcoin标志](assets/zh-Hans/034.webp)
 
-在那个时候，轻量级钱包（被称为 "SPV"）还不存在，所以中本聪自己认为使用这种类型的软件是可以接受的，即使这种使用违背了比特币核心的去中介化原则。2010 年 5 月 18 日，他在论坛上[写道](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149)：
+在那个时候，轻量级钱包（被称为 "[SPV](https://planb.academy/resources/glossary/spv-node-light-node)"）还不存在，所以中本聪自己认为使用这种类型的软件是可以接受的，即使这种使用违背了比特币核心的去中介化原则。2010 年 5 月 18 日，他在论坛上[写道](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149)：
 
 > "与此同时，像 [vekja.net](http://vekja.net) 和 [www.mybitcoin.com](http://www.mybitcoin.com) 的网站一直在尝试使用基于账户的系统。你在一个网站上创建一个账户，将你的比特币存放在那里，并进行转入转出。在网站上创建一个账户比安装软件和学习使用它要容易得多，对大多数人来说这是一种更熟悉的方法。唯一的缺点是你必须信任该网站，但对于用于小额支付和杂项开支的小额来说，这是可以接受的。这是一个容易上手的方式，如果收到的金额变得更加重要，你可以切换到实际的比特币软件。"
 
@@ -825,7 +825,7 @@ Laszlo 并没有真正注意这个警告，继续使用他的图形卡挖掘区�
 
 ![估计2009年1月至2010年7月中本聪计算能力相对于总功率的比例](assets/zh-Hans/038.webp)
 
-此外，中本聪挖矿主导地位的下降并非仅仅是被动的：在同一时期，他自己也放慢了自己的区块挖出速度。实际上，中本聪的明确目标是让每个人都参与进来：他不是为了财务收益而挖矿，而是为了确保网络运行，直到激励措施生效。因此，他在这个挖矿期间三次降低了他的哈希率（每秒执行的计算次数）：第一次从 4.5 MH/s 降到 2.5 MH/s（2009 年 6 月），第二次从 2.5 MH/s 降到 1 MH/s（2009 年 10 月），第三次从 1 MH/s 降到 0 MH/s （2010 年 5 月）。这里是他在此期间哈希率演变的图表（[Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html)）：
+此外，中本聪挖矿主导地位的下降并非仅仅是被动的：在同一时期，他自己也放慢了自己的区块挖出速度。实际上，中本聪的明确目标是让每个人都参与进来：他不是为了财务收益而挖矿，而是为了确保网络运行，直到激励措施生效。因此，他在这个挖矿期间三次降低了他的[哈希率](https://planb.academy/resources/glossary/hashrate)（每秒执行的计算次数）：第一次从 4.5 MH/s 降到 2.5 MH/s（2009 年 6 月），第二次从 2.5 MH/s 降到 1 MH/s（2009 年 10 月），第三次从 1 MH/s 降到 0 MH/s （2010 年 5 月）。这里是他在此期间哈希率演变的图表（[Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html)）：
 
 ![估计2009年1月至2010年5月中本聪的哈希率](assets/zh-Hans/039.webp)
 
@@ -864,10 +864,10 @@ Gavin Andresen 在澳大利亚昆士兰州汤斯维尔（图片来源：[CIO档�
 “作为我的第一个比特币编程项目，我决定做一些听起来真的很愚蠢的事情：我创建了一个分发比特币的网站。（...）为什么？因为我希望比特币项目成功，我认为如果人们可以得到少量单位来尝试，它成功的机会会更大。”
 
 尽管中本聪没有立即注意到这项服务的启动，但他对此反应积极。一周后，即 6 月 18 日，他[祝贺](https://bitcointalk.org/index.php?topic=183.msg1620#msg1620)该服务的创建者，写道这是“第一个项目的绝佳选择”，并且他“如果没有其他人做，就计划做完全相同的事情，所以当普通人很难生成50 BTC 时，新用户可以立即获得一些比特币来玩。”
-Gavin Andresen 的贡献并未止步。他深入研究比特币的工作原理，并开始解剖代码。他[发现](https://bitcointalk.org/index.php?topic=195.msg1606#msg1606)了协议中内置的脚本系统，这是他很快在论坛上分享的内容。他对这一功能表示担忧，因为它降低了系统的安全性（“复杂性是安全的敌人”），并使得开发第二个软件实现更加困难。中本聪[解释](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611)了集成这一机制的原因，他称之为脚本：
+Gavin Andresen 的贡献并未止步。他深入研究比特币的工作原理，并开始解剖代码。他[发现](https://bitcointalk.org/index.php?topic=195.msg1606#msg1606)了协议中内置的[脚本](https://planb.academy/resources/glossary/script)系统，这是他很快在论坛上分享的内容。他对这一功能表示担忧，因为它降低了系统的安全性（“复杂性是安全的敌人”），并使得开发第二个软件实现更加困难。中本聪[解释](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611)了集成这一机制的原因，他称之为脚本：
 > “比特币的本质是，一旦 0.1 版本发布，其核心设计就为其余生命周期内定型。因此，我希望设计它以支持我能想到的每一种可能的交易类型。（...）解决方案是脚本，它将问题概括化，以便交易双方可以将他们的交易描述为一个谓词，由节点网络评估。节点只需要理解交易到评估发送者的条件是否满足的程度。”
 
-Gavin 还参与了软件开发，[实现](https://sourceforge.net/p/bitcoin/code/101/)了 Linux 的自动启动，专注于 API（他将在 0.3.3 版本中因其改进而[获得认可](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707)），并参与了测试网络的部署（他在 6 月 9 日[构思](https://bitcointalk.org/index.php?topic=240.msg2104#msg2104)了这一点）。他会与中本聪私下交换想法，逐渐成为他的得力助手，因为Martti Malmi 因为新的全职工作[非常忙碌](https://mmalmi.github.io/satoshi/#email-191)。
+Gavin 还参与了软件开发，[实现](https://sourceforge.net/p/bitcoin/code/101/)了 Linux 的自动启动，专注于 API（他将在 0.3.3 版本中因其改进而[获得认可](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707)），并参与了[测试网络](https://planb.academy/resources/glossary/testnet)的部署（他在 6 月 9 日[构思](https://bitcointalk.org/index.php?topic=240.msg2104#msg2104)了这一点）。他会与中本聪私下交换想法，逐渐成为他的得力助手，因为Martti Malmi 因为新的全职工作[非常忙碌](https://mmalmi.github.io/satoshi/#email-191)。
 
 ### 充满基础事件的春天
 

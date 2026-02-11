@@ -998,14 +998,14 @@ Kreator Bitcoin angažovao ga je da doprinese [web stranici](https://web.archive
 
 - "Prenesite novac lako putem interneta, bez potrebe za poverenjem trećim stranama."
 - "Nijedna treća strana ne može sprečiti ili kontrolisati vaše transakcije."
-- "Zaštitite se od nestabilnosti uzrokovane frakcionalnim rezervnim bankarstvom i lošim politikama centralnih banaka. Ograničena inflacija novca sistema Bitcoin, Supply, ravnomerno je raspoređena (prema računarskoj snazi) preko cele mreže, umesto da je monopolizovana od strane banaka."
+- "Zaštitite se od nestabilnosti uzrokovane [frakcionalnim rezervnim bankarstvom](https://planb.academy/resources/glossary/fractional-reserves) i lošim politikama centralnih banaka. Ograničena inflacija novca sistema Bitcoin, Supply, ravnomerno je raspoređena (prema računarskoj snazi) preko cele mreže, umesto da je monopolizovana od strane banaka."
 - "Vrednost Bitcoin će verovatno porasti kako rast ekonomije Bitcoin nadmašuje stopu inflacije - razmotrite Bitcoin kao investiciju i počnite da pokrećete čvor danas!"
 
 
 Satoshi [odobrava](https://mmalmi.github.io/Satoshi/#email-5) ovu prezentaciju u celini, iako ima određene rezerve. On [je](https://mmalmi.github.io/Satoshi/#email-19) posebno "neprijatan" sa proglašavanjem Bitcoin kao "investicije," verovatno strahujući od pravnih implikacija takve izjave. Stranica je [objavljena](https://mmalmi.github.io/Satoshi/#email-9) 6. maja, a dva dana kasnije, Martti Malmi ju je promovisao deljenjem linka na platformama [Hackernews](https://news.ycombinator.com/item?id=599852) i [Reddit](https://www.reddit.com/r/business/comments/8itlf/bitcoin_a_peertopeer_network_based_anonymous/). Blago modifikovana verzija ovog opisa [pronađena je](https://web.archive.org/web/20100106082749/http://www.Bitcoin.org/) na glavnom sajtu krajem 2009. godine.
 
 
-Proleće 2009. takođe je donelo pojavu reči "kriptovaluta" koja je u početku korišćena za označavanje Bitcoin. Dana 11. maja, Satoshi [je napisao](https://mmalmi.github.io/Satoshi/#email-19) Marttiju Malmiju:
+Proleće 2009. takođe je donelo pojavu reči "[kriptovaluta](https://planb.academy/resources/glossary/cryptocurrency)" koja je u početku korišćena za označavanje Bitcoin. Dana 11. maja, Satoshi [je napisao](https://mmalmi.github.io/Satoshi/#email-19) Marttiju Malmiju:
 
 
 > "Neko je smislio reč 'kriptovaluta'... možda je to reč koju bismo trebali koristiti za opisivanje Bitcoin, da li ti se sviđa?"
@@ -1189,7 +1189,7 @@ Prva posvećena Bitcoin usluga čuvanja takođe se pojavljuje: to je MyBitcoin, 
 ![Logo of MyBitcoin from the archive of the site mybitcoin.com](assets/sr-Latn/034.webp)
 
 
-U to vreme, lagani novčanici (poznati kao "SPV") nisu postojali, tako da je Satoshi Nakamoto sam smatrao prihvatljivim korišćenje ovog tipa softvera, iako je ova upotreba bila protivna principu disintermedijacije u srcu Bitcoin. Dana 18. maja 2010. godine, on je [napisao](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149) na forumu:
+U to vreme, lagani novčanici (poznati kao "[SPV](https://planb.academy/resources/glossary/spv-node-light-node)") nisu postojali, tako da je Satoshi Nakamoto sam smatrao prihvatljivim korišćenje ovog tipa softvera, iako je ova upotreba bila protivna principu disintermedijacije u srcu Bitcoin. Dana 18. maja 2010. godine, on je [napisao](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149) na forumu:
 
 
 > "U međuvremenu, sajtovi kao što su [vekja.net](http://vekja.net) i [www.mybitcoin.com](http://www.mybitcoin.com) eksperimentišu sa sistemima zasnovanim na računima. &nbsp;Kreirate nalog na vebsajtu, čuvate svoje bitkoine tamo i prebacujete ih unutra i napolje. &nbsp;Kreiranje naloga na vebsajtu je mnogo lakše nego instaliranje softvera i učenje njegovog korišćenja, i to je poznatiji metod za većinu ljudi. &nbsp;Jedini nedostatak je što morate verovati sajtu, ali to je u redu za male iznose namenjene za mikrouplate i razne troškove. &nbsp;To je lak način da počnete, a možete preći na stvarni Bitcoin softver ako primljeni iznosi postanu značajniji."
@@ -1300,7 +1300,7 @@ Sa povećanjem računarske snage u jesen 2009. godine, udeo računarske snage Sa
 ![Estimation of the proportion of Satoshi's computing power relative to the total power between January 2009 and July 2010](assets/sr-Latn/038.webp)
 
 
-Štaviše, pad dominacije Satoshi u Mining nije samo pasivan: on sam usporava svoju proizvodnju tokom istog perioda. Naime, Satoshi-ov deklarisani cilj je da svi učestvuju: on ne rudari radi finansijske dobiti, već da osigura rad mreže dok podsticaji ne stupe na snagu. Tako on smanjuje svoju Hash stopu (broj proračuna izvršenih svake sekunde) tri puta tokom ovog Mining perioda: prvi put sa 4.5 na 2.5 MH/s u junu 2009, drugi put sa 2.5 na 1 MH/s u oktobru, i treći put sa 1 na 0 MH/s u maju 2010. Evo grafikona evolucije njegove Hash stope tokom ovog perioda ([Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-Hashrate.html)):
+Štaviše, pad dominacije Satoshi u Mining nije samo pasivan: on sam usporava svoju proizvodnju tokom istog perioda. Naime, Satoshi-ov deklarisani cilj je da svi učestvuju: on ne rudari radi finansijske dobiti, već da osigura rad mreže dok podsticaji ne stupe na snagu. Tako on smanjuje svoju [Hash stopu](https://planb.academy/resources/glossary/hashrate) (broj proračuna izvršenih svake sekunde) tri puta tokom ovog Mining perioda: prvi put sa 4.5 na 2.5 MH/s u junu 2009, drugi put sa 2.5 na 1 MH/s u oktobru, i treći put sa 1 na 0 MH/s u maju 2010. Evo grafikona evolucije njegove Hash stope tokom ovog perioda ([Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-Hashrate.html)):
 
 
 ![Estimation of Satoshi's hash rate between January 2009 and May 2010](assets/sr-Latn/039.webp)
@@ -1364,12 +1364,12 @@ Radoznao i inventivno, brzo je počeo da radi na ličnom projektu: "Bitcoin Fauc
 Satoshi je pozitivno reagovao na lansiranje ove usluge, iako to nije odmah primetio. Nedelju dana kasnije, 18. juna, on je [čestitao](https://bitcointalk.org/index.php?topic=183.msg1620#msg1620) kreatoru napisavši da je to bio "izvrstan izbor za prvi projekat" i da je "planirao da uradi tačno istu stvar ako to niko drugi ne uradi, tako da kada postane previše Hard za smrtnike da generate 50BTC, novi korisnici mogu odmah dobiti neke novčiće za igru."
 
 
-Gavin Andresenov doprinos tu nije stao. Duboko se zainteresovao za način na koji Bitcoin funkcioniše i krenuo da analizira kod. On je [otkrio](https://bitcointalk.org/index.php?topic=195.msg1606#msg1606) ugrađeni skript sistem u protokolu, nešto što je brzo podelio na forumu. Izrazio je svoju zabrinutost zbog ove funkcije, jer je smanjivala sigurnost sistema ("kompleksnost je neprijatelj sigurnosti") i otežavala razvoj druge softverske implementacije. Satoshi je [objasnio](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611) razlog integracije ovog mehanizma, koji je nazvao Script:
+Gavin Andresenov doprinos tu nije stao. Duboko se zainteresovao za način na koji Bitcoin funkcioniše i krenuo da analizira kod. On je [otkrio](https://bitcointalk.org/index.php?topic=195.msg1606#msg1606) ugrađeni [skript](https://planb.academy/resources/glossary/script) sistem u protokolu, nešto što je brzo podelio na forumu. Izrazio je svoju zabrinutost zbog ove funkcije, jer je smanjivala sigurnost sistema ("kompleksnost je neprijatelj sigurnosti") i otežavala razvoj druge softverske implementacije. Satoshi je [objasnio](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611) razlog integracije ovog mehanizma, koji je nazvao Script:
 
 
 > "Priroda Bitcoin je takva da je, kada je verzija 0.1 bila objavljena, osnovni dizajn bio uklesan u kamen za ostatak njegovog životnog veka. &nbsp;Zbog toga sam želeo da ga dizajniram tako da podržava svaku moguću vrstu transakcije koju sam mogao da zamislim. (...) &nbsp;Rešenje je bilo skript, koji generalizuje problem tako da strane u transakciji mogu opisati svoju transakciju kao predikat koji mreža čvorova procenjuje. &nbsp;Čvorovi samo treba da razumeju transakciju do mere procene da li su ispunjeni uslovi pošiljaoca."
 
-Gavin se takođe uključio u razvoj softvera [implementirajući](https://sourceforge.net/p/Bitcoin/code/101/) automatsko pokretanje pri podizanju sistema za Linux, fokusirajući se na API (bio bi [zaslužan](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707) za njegovo poboljšanje u verziji 0.3.3), i učestvujući u postavljanju test mreže (koju je [osmislio](https://bitcointalk.org/index.php?topic=240.msg2104#msg2104) 9. juna). Privatno bi delio Exchange ideje sa Satoshi, postepeno postajući njegova desna ruka, jer je Martti Malmi bio [veoma zauzet](https://mmalmi.github.io/Satoshi/#email-191) svojim novim stalnim poslom.
+Gavin se takođe uključio u razvoj softvera [implementirajući](https://sourceforge.net/p/Bitcoin/code/101/) automatsko pokretanje pri podizanju sistema za Linux, fokusirajući se na API (bio bi [zaslužan](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707) za njegovo poboljšanje u verziji 0.3.3), i učestvujući u postavljanju [test mreže](https://planb.academy/resources/glossary/testnet) (koju je [osmislio](https://bitcointalk.org/index.php?topic=240.msg2104#msg2104) 9. juna). Privatno bi delio Exchange ideje sa Satoshi, postepeno postajući njegova desna ruka, jer je Martti Malmi bio [veoma zauzet](https://mmalmi.github.io/Satoshi/#email-191) svojim novim stalnim poslom.
 
 
 ### Proleće puno temeljnih događaja

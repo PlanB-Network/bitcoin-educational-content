@@ -999,14 +999,14 @@ Bitcoin의 창시자는 프로젝트가 호스팅되는 플랫폼인 소스포�
 
 - "제3자를 신뢰할 필요 없이 인터넷을 통해 간편하게 송금하세요."
 - "제3자는 회원님의 거래를 방지하거나 통제할 수 없습니다."
-- "부분 준비 은행과 중앙은행의 부실한 정책으로 인한 불안정성으로부터 자신을 보호하세요. Bitcoin 시스템의 화폐 Supply은 은행이 독점하는 것이 아니라 전체 네트워크에 (컴퓨팅 파워를 통해) 균등하게 분배됩니다."
+- "[부분 준비 은행](https://planb.academy/resources/glossary/fractional-reserves)과 중앙은행의 부실한 정책으로 인한 불안정성으로부터 자신을 보호하세요. Bitcoin 시스템의 화폐 Supply은 은행이 독점하는 것이 아니라 전체 네트워크에 (컴퓨팅 파워를 통해) 균등하게 분배됩니다."
 - "Bitcoin 경제의 성장이 물가 상승률을 앞지르면서 Bitcoin의 가치는 더욱 높아질 것입니다. Bitcoin를 투자로 생각하고 지금 바로 노드 운영을 시작하세요!"
 
 
 Satoshi은 이 프레젠테이션에 대해 전반적으로 [승인](https://mmalmi.github.io/Satoshi/#email-5)했지만, 약간의 의구심을 가지고 있습니다. 그는 [특히](https://mmalmi.github.io/Satoshi/#email-19) Bitcoin를 '투자'로 선언하는 것에 대해 "불편한" 반응을 보였는데, 아마도 그러한 선언이 법적으로 어떤 영향을 미칠지 우려한 것으로 보입니다. 이 페이지는 5월 6일에 [게시](https://mmalmi.github.io/Satoshi/#email-9)되었고, 이틀 후 마르티 말미는 [해커뉴스](https://news.ycombinator.com/item?id=599852)와 [레딧](https://www.reddit.com/r/business/comments/8itlf/bitcoin_a_peertopeer_network_based_anonymous/) 플랫폼에 링크를 공유하여 홍보했습니다. 2009년 말에는 이 설명의 약간 수정된 버전이 [메인 웹사이트에서](https://web.archive.org/web/20100106082749/http://www.Bitcoin.org/) 발견되었습니다.
 
 
-2009년 봄에는 "암호화폐"라는 단어가 등장했는데, 이 단어는 처음에 Bitcoin을 지칭하는 데 사용되었습니다. 5월 11일, Satoshi은 마르티 말미에게 [편지](https://mmalmi.github.io/Satoshi/#email-19)를 보냈습니다:
+2009년 봄에는 "[암호화폐](https://planb.academy/resources/glossary/cryptocurrency)"라는 단어가 등장했는데, 이 단어는 처음에 Bitcoin을 지칭하는 데 사용되었습니다. 5월 11일, Satoshi은 마르티 말미에게 [편지](https://mmalmi.github.io/Satoshi/#email-19)를 보냈습니다:
 
 
 > "누군가 '암호화폐'라는 단어를 생각해냈는데... Bitcoin를 설명할 때 사용해야 할 단어인 것 같은데, 마음에 드시나요?"
@@ -1190,7 +1190,7 @@ NLS가 발표된 후 마르티 말미는 그와 연락을 취했습니다. 두 �
 ![Logo of MyBitcoin from the archive of the site mybitcoin.com](assets/ko/034.webp)
 
 
-당시에는 경량 지갑("SPV"로 알려진)이 존재하지 않았기 때문에, Satoshi 나카모토 자신은 이러한 유형의 소프트웨어를 사용하는 것이 Bitcoin의 핵심인 탈중개 원칙에 어긋나지만 허용될 수 있다고 생각했습니다. 2010년 5월 18일, 그는 포럼에 [글을](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149) 썼습니다:
+당시에는 경량 지갑("[SPV](https://planb.academy/resources/glossary/spv-node-light-node)"로 알려진)이 존재하지 않았기 때문에, Satoshi 나카모토 자신은 이러한 유형의 소프트웨어를 사용하는 것이 Bitcoin의 핵심인 탈중개 원칙에 어긋나지만 허용될 수 있다고 생각했습니다. 2010년 5월 18일, 그는 포럼에 [글을](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149) 썼습니다:
 
 
 > "그동안 [vekja.net](http://vekja.net), [www.mybitcoin.com](http://www.mybitcoin.com) 같은 사이트에서는 계정 기반 시스템을 실험해왔습니다. 웹사이트에서 계정을 생성하고 비트코인을 보관한 후 비트코인을 입출금하는 방식입니다. 웹사이트에서 계정을 만드는 것은 소프트웨어를 설치하고 사용법을 배우는 것보다 훨씬 쉬우며 대부분의 사람들에게 더 익숙한 방법입니다. 유일한 단점은 사이트를 신뢰해야 한다는 점이지만, 소액 결제나 기타 경비를 위한 소액의 경우 괜찮습니다. 쉽게 시작할 수 있는 방법이며, 수령 금액이 더 많아지면 실제 Bitcoin 소프트웨어로 전환할 수 있습니다."
@@ -1302,7 +1302,7 @@ Satoshi의 Mining 활동에는 뚜렷한 패턴이 있어 몇 가지 오탐을 �
 ![Estimation of the proportion of Satoshi's computing power relative to the total power between January 2009 and July 2010](assets/ko/038.webp)
 
 
-게다가 Satoshi의 Mining 지배력 감소는 단순히 수동적인 것이 아니라 같은 기간 동안 생산 속도를 늦췄습니다. 실제로 Satoshi의 목표는 모든 사람이 참여하는 것입니다. 그는 금전적 이익을 위해 채굴하는 것이 아니라 인센티브가 적용될 때까지 네트워크의 운영을 보장하기 위해서입니다. 따라서 그는 이 Mining 기간 동안 Hash 속도(초당 수행되는 계산 횟수)를 2009년 6월에 4.5에서 2.5 MH/s로, 10월에 2.5에서 1 MH/s로, 2010년 5월에 1에서 0 MH/s로 세 번이나 낮췄습니다. 다음은 이 기간 동안의 Hash 속도 변화 차트입니다([Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-Hashrate.html)):
+게다가 Satoshi의 Mining 지배력 감소는 단순히 수동적인 것이 아니라 같은 기간 동안 생산 속도를 늦췄습니다. 실제로 Satoshi의 목표는 모든 사람이 참여하는 것입니다. 그는 금전적 이익을 위해 채굴하는 것이 아니라 인센티브가 적용될 때까지 네트워크의 운영을 보장하기 위해서입니다. 따라서 그는 이 Mining 기간 동안 [Hash 속도](https://planb.academy/resources/glossary/hashrate)(초당 수행되는 계산 횟수)를 2009년 6월에 4.5에서 2.5 MH/s로, 10월에 2.5에서 1 MH/s로, 2010년 5월에 1에서 0 MH/s로 세 번이나 낮췄습니다. 다음은 이 기간 동안의 Hash 속도 변화 차트입니다([Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-Hashrate.html)):
 
 
 ![Estimation of Satoshi's hash rate between January 2009 and May 2010](assets/ko/039.webp)
@@ -1366,12 +1366,12 @@ Satoshi의 Mining 활동에는 뚜렷한 패턴이 있어 몇 가지 오탐을 �
 Satoshi는 이 서비스의 시작을 바로 알아차리지는 못했지만 호의적인 반응을 보였습니다. 일주일 후인 6월 18일, 그는 "첫 프로젝트로는 훌륭한 선택"이며 "아무도 하지 않는다면 똑같은 일을 할 계획이었기 때문에, 인간들이 Hard에서 generate 50BTC로 넘어가면 신규 사용자들은 바로 코인을 얻을 수 있을 것"이라는 글을 통해 [축하](https://bitcointalk.org/index.php?topic=183.msg1620#msg1620)를 보냈습니다
 
 
-개빈 안드레센의 공헌은 여기서 멈추지 않았습니다. 그는 Bitcoin의 작동 방식에 깊은 관심을 갖고 코드를 분석하기 시작했습니다. 그는 프로토콜에 내장된 스크립트 시스템을 발견했고(https://bitcointalk.org/index.php?topic=195.msg1606#msg1606), 이를 포럼에서 빠르게 공유했습니다. 그는 이 기능이 시스템의 보안을 약화시키고("복잡성은 보안의 적") 두 번째 소프트웨어 구현을 더 어렵게 만든다는 점에서 우려를 표명했습니다. Satoshi는 [설명](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611)에서 스크립트라고 부르는 이 메커니즘을 통합한 이유를 설명했습니다:
+개빈 안드레센의 공헌은 여기서 멈추지 않았습니다. 그는 Bitcoin의 작동 방식에 깊은 관심을 갖고 코드를 분석하기 시작했습니다. 그는 프로토콜에 내장된 [스크립트](https://planb.academy/resources/glossary/script) 시스템을 발견했고(https://bitcointalk.org/index.php?topic=195.msg1606#msg1606), 이를 포럼에서 빠르게 공유했습니다. 그는 이 기능이 시스템의 보안을 약화시키고("복잡성은 보안의 적") 두 번째 소프트웨어 구현을 더 어렵게 만든다는 점에서 우려를 표명했습니다. Satoshi는 [설명](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611)에서 스크립트라고 부르는 이 메커니즘을 통합한 이유를 설명했습니다:
 
 
 > "Bitcoin의 특성상 0.1 버전이 출시되고 나면 핵심 설계는 평생 동안 확정되었습니다. 그렇기 때문에 생각할 수 있는 모든 가능한 트랜잭션 유형을 지원하도록 설계하고 싶었습니다. (...) 그 해결책은 문제를 일반화하여 거래 당사자가 노드 네트워크가 평가하는 술어로 거래를 설명할 수 있도록 하는 스크립트였습니다. 노드는 발신자의 조건이 충족되는지 평가하는 정도까지만 트랜잭션을 이해하면 됩니다."
 
-개빈은 또한 리눅스 부팅 시 자동 시작을 [구현](https://sourceforge.net/p/Bitcoin/code/101/)하고, API에 집중하고(0.3.3 버전에서 개선에 [기여](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707)), 테스트 네트워크 배포(6월 9일에 [구상](https://bitcointalk.org/index.php?topic=240.msg2104#msg2104)에 참여함으로써 소프트웨어 개발에 참여하게 되었습니다.) 마르티 말미가 새로운 정규직으로 [매우 바빴기 때문에](https://mmalmi.github.io/Satoshi/#email-191) 그는 Exchange의 아이디어를 Satoshi와 개인적으로 공유하며 점차 그의 오른팔이 되었습니다.
+개빈은 또한 리눅스 부팅 시 자동 시작을 [구현](https://sourceforge.net/p/Bitcoin/code/101/)하고, API에 집중하고(0.3.3 버전에서 개선에 [기여](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707)), [테스트 네트워크](https://planb.academy/resources/glossary/testnet) 배포(6월 9일에 [구상](https://bitcointalk.org/index.php?topic=240.msg2104#msg2104)에 참여함으로써 소프트웨어 개발에 참여하게 되었습니다.) 마르티 말미가 새로운 정규직으로 [매우 바빴기 때문에](https://mmalmi.github.io/Satoshi/#email-191) 그는 Exchange의 아이디어를 Satoshi와 개인적으로 공유하며 점차 그의 오른팔이 되었습니다.
 
 
 ### 기초적인 이벤트로 가득한 봄

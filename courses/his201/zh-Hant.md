@@ -729,12 +729,12 @@ Bitcoin 的創造者邀請他為 SourceForge 上的 [網頁](https://web.archive
 
 - 「透過網際網路輕鬆轉帳，無需信任第三方」。
 - 「任何第三方都無法阻止或控制您的交易」。
-- "保護自己免受部分儲備金制度和中央銀行不良政策所造成的不穩定。Bitcoin 系統的貨幣供給的有限膨脹（按計算能力）在整個網絡中平均分配，而不是由銀行壟斷"。
+- "保護自己免受[部分儲備金制度](https://planb.academy/resources/glossary/fractional-reserves)和中央銀行不良政策所造成的不穩定。Bitcoin 系統的貨幣供給的有限膨脹（按計算能力）在整個網絡中平均分配，而不是由銀行壟斷"。
 - 「隨著 Bitcoin 經濟的增長超過通貨膨脹率，Bitcoin 的價值可能會增加 - 考慮將 Bitcoin 作為一項投資，從今天開始運行一個節點！」
 
 中本聰[贊同](https://mmalmi.github.io/Satoshi/#email-5) 此陳述的整體內容，但他有所保留。他 [對於](https://mmalmi.github.io/Satoshi/#email-19) 宣稱 Bitcoin 為「投資」很「不習慣」，很可能是擔心這樣的聲明會涉及法律問題。該頁面於 5 月 6 日 [發表](https://mmalmi.github.io/Satoshi/#email-9)，兩天後，Martti Malmi 在 [Hackernews](https://news.ycombinator.com/item?id=599852) 和 [Reddit](https://www.reddit.com/r/business/comments/8itlf/bitcoin_a_peertopeer_network_based_anonymous/) 平台分享連結，以推廣該頁面。2009 年底，在主網站上[找到](https://web.archive.org/web/20100106082749/http://www.Bitcoin.org/)此描述的略微修改版本。
 
-2009 年春天，「加密貨幣」一詞也出現了，最初是用來指 Bitcoin。5 月 11 日，中本聰[寫](https://mmalmi.github.io/Satoshi/#email-19) 給 Martti Malmi：
+2009 年春天，「[加密貨幣](https://planb.academy/resources/glossary/cryptocurrency)」一詞也出現了，最初是用來指 Bitcoin。5 月 11 日，中本聰[寫](https://mmalmi.github.io/Satoshi/#email-19) 給 Martti Malmi：
 
 > "有人想出了「加密貨幣」這個詞......也許我們應該用這個詞來形容 Bitcoin，你喜歡嗎？"
 年輕的 Finn 表示同意，並建議「The P2P Cryptocurrency」可以成為 Bitcoin 的口號。這個建議將被實行：介紹頁面的標題將變成「Bitcoin P2P Cryptocurrency」，2010 年 7 月版本 0.3 的公告將描述專案為「Bitcoin，P2P 的加密貨幣」。
@@ -861,7 +861,7 @@ Bitcoin 的這種經濟引導作用從一開始就隨著挖礦的活動逐漸發
 
 ![Logo of MyBitcoin from the archive of the site mybitcoin.com](assets/zh-Hant/034.webp)
 
-當時，輕量級錢包（稱為「SPV」）並不存在，因此中本聰自己認為使用這種類型的軟體是可以接受的，儘管這種使用違反了 Bitcoin 核心的去中介化原則。2010 年 5 月 18 日，他在論壇上[寫道](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149)：
+當時，輕量級錢包（稱為「[SPV](https://planb.academy/resources/glossary/spv-node-light-node)」）並不存在，因此中本聰自己認為使用這種類型的軟體是可以接受的，儘管這種使用違反了 Bitcoin 核心的去中介化原則。2010 年 5 月 18 日，他在論壇上[寫道](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149)：
 
 > "與此同時，[vekja.net](http://vekja.net) 和 [www.mybitcoin.com](http://www.mybitcoin.com)等網站一直在嘗試使用基於帳戶的系統。&nbsp;你在一個網站上創建一個帳戶，把你的 Bitcoin 存放在那裡，並將它們轉入和轉出。&nbsp;在網站上創建一個帳戶比安裝軟件和學習使用它容易得多，而且對大多數人來說，這是一種更熟悉的方法。&nbsp;唯一的缺點是您必須信任該網站，但對於用於微額支付和雜項支出的小額金額來說，這也是沒問題的。&nbsp;這是一種很容易上手的方法，如果收到的金額變得更大，您可以轉用實際的 Bitcoin 軟體。
 最後，在 5 月 19 日，一位名叫 Teppy 的使用者開始 [接受](https://bitcointalk.org/index.php?topic=30.msg1159#msg1159) 他所管理的大型多人遊戲 *A Tale in the Desert* 的 Bitcoin。
@@ -943,7 +943,7 @@ Laszlo 並未真正注意到這項警告，並繼續使用他的顯示卡挖礦�
 
 ![Estimation of the proportion of Satoshi's computing power relative to the total power between January 2009 and July 2010](assets/zh-Hant/038.webp)
 
-此外，中本聰挖礦主導地位的減少並不僅僅是被動的：他自己在同一時期也放慢了生產速度。事實上，中本聰定目標是讓每個人都參與其中：他挖礦並非為了獲得經濟利益，而是為了確保網路的運作，直到獎勵措施生效為止。因此，在這段挖礦期間，他將哈希速率（每秒執行的計算次數）降低了三次：第一次在 2009 年 6 月從 4.5 MH/s 降為 2.5 MH/s，第二次在 10 月從 2.5 MH/s 降為 1 MH/s，第三次在 2010 年 5 月從 1 MH/s 降為 0 MH/s。以下是他在這段期間的哈希速率演變圖（[Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-Hashrate.html)）：
+此外，中本聰挖礦主導地位的減少並不僅僅是被動的：他自己在同一時期也放慢了生產速度。事實上，中本聰定目標是讓每個人都參與其中：他挖礦並非為了獲得經濟利益，而是為了確保網路的運作，直到獎勵措施生效為止。因此，在這段挖礦期間，他將[哈希速率](https://planb.academy/resources/glossary/hashrate)（每秒執行的計算次數）降低了三次：第一次在 2009 年 6 月從 4.5 MH/s 降為 2.5 MH/s，第二次在 10 月從 2.5 MH/s 降為 1 MH/s，第三次在 2010 年 5 月從 1 MH/s 降為 0 MH/s。以下是他在這段期間的哈希速率演變圖（[Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-Hashrate.html)）：
 
 ![Estimation of Satoshi's hash rate between January 2009 and May 2010](assets/zh-Hant/039.webp)
 
@@ -987,10 +987,10 @@ Gavin Andresen 在澳洲昆士蘭州湯斯維爾 (資料來源：[CIO archive](h
 
 中本聰對於這項服務的推出反應良好，儘管他並沒有馬上注意到。一週後，也就是 6 月 18 日，他 [恭喜](https://bitcointalk.org/index.php?topic=183.msg1620#msg1620) 創造者，寫道這是「第一個專案的絕佳選擇」，而且他「打算做一模一樣的事，若無人完成它，那麼當生成 50 BTC 對一般人來說太難時，新用戶仍可以獲得一些幣來供他們使用。」
 
-Gavin Andresen 的貢獻並不止於此。他對 Bitcoin 的運作方式深感興趣，並開始剖析程式碼。他 [發現](https://bitcointalk.org/index.php?topic=195.msg1606#msg1606) 了協定中內建的腳本系統，並迅速在論壇上分享。他對這項功能表示憂慮，因為它降低了系統的安全性 (「複雜性是安全性的敵人」)，也增加了開發第二個軟體實作的難度。中本聰[解釋](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611) 整合這個他稱為腳本（Script）的機制背後的原因：
+Gavin Andresen 的貢獻並不止於此。他對 Bitcoin 的運作方式深感興趣，並開始剖析程式碼。他 [發現](https://bitcointalk.org/index.php?topic=195.msg1606#msg1606) 了協定中內建的[腳本](https://planb.academy/resources/glossary/script)系統，並迅速在論壇上分享。他對這項功能表示憂慮，因為它降低了系統的安全性 (「複雜性是安全性的敵人」)，也增加了開發第二個軟體實作的難度。中本聰[解釋](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611) 整合這個他稱為腳本（Script）的機制背後的原因：
 
 > "Bitcoin 的本質是，一旦0.1版發佈，核心設計在其餘下的生命週期中就定型了。(...)&nbsp;由於這一點，我希望能設計它，使其能支持我能想到的所有可能的交易類型，解決方案是腳本，它將問題一般化，因此交易方可以將他們的交易描述為節點網路評估的謂語。&nbsp;節點只需要評估是否滿足發送者的條件。"
-Gavin 也參與了軟體開發，[實作](https://sourceforge.net/p/Bitcoin/code/101/) Linux 開機自動啟動，專注於 API (他在 0.3.3 版的改進[功不可沒](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707))，並參與測試網路的部署 (他在 6 月 9 日[構想](https://bitcointalk.org/index.php?topic=240.msg2104#msg2104))。Martti Malmi 在新的工作上 [非常忙碌](https://mmalmi.github.io/Satoshi/#email-191)時，他也與中本聰私下討論想法，逐漸成為中本聰得力助手。
+Gavin 也參與了軟體開發，[實作](https://sourceforge.net/p/Bitcoin/code/101/) Linux 開機自動啟動，專注於 API (他在 0.3.3 版的改進[功不可沒](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707))，並參與[測試網路](https://planb.academy/resources/glossary/testnet)的部署 (他在 6 月 9 日[構想](https://bitcointalk.org/index.php?topic=240.msg2104#msg2104))。Martti Malmi 在新的工作上 [非常忙碌](https://mmalmi.github.io/Satoshi/#email-191)時，他也與中本聰私下討論想法，逐漸成為中本聰得力助手。
 
 ### 充滿基礎活動的春天
 

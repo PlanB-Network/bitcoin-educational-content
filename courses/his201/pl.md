@@ -998,14 +998,14 @@ Twórca Bitcoina zaangażował go do współtworzenia [strony internetowej](http
 
 - „Łatwo przelewaj pieniądze przez Internet, bez konieczności ufania stronom trzecim”
 - „Żadna strona trzecia nie może zapobiec transakcjom ani ich kontrolować”
-- „Chroń się przed niestabilnością spowodowaną bankowością opartą na rezerwach cząstkowych i złą polityką banków centralnych. Ograniczona inflacja bitcoina jest równomiernie rozłożona (według mocy obliczeniowej) w całej sieci, a nie zmonopolizowana przez banki.”
+- „Chroń się przed niestabilnością spowodowaną bankowością opartą na [rezerwach cząstkowych](https://planb.academy/resources/glossary/fractional-reserves) i złą polityką banków centralnych. Ograniczona inflacja bitcoina jest równomiernie rozłożona (według mocy obliczeniowej) w całej sieci, a nie zmonopolizowana przez banki.”
 - „Wartość bitcoina prawdopodobnie wzrośnie, ponieważ wzrost gospodarki Bitcoina przewyższa stopę inflacji - rozważ Bitcoina jako inwestycję i uruchom węzeł sieci już dziś!”
 
 
 Satoshi [ogólnie aprobuje](https://mmalmi.github.io/Satoshi/#email-5) tę prezentację, choć ma pewne zastrzeżenia. [Czuje się](https://mmalmi.github.io/Satoshi/#email-19) szczególnie „niewygodnie” z traktowaniem Bitcoina jako „inwestycj”, prawdopodobnie obawiając się prawnych implikacji takiego stwierdzenia. Strona została [opublikowana](https://mmalmi.github.io/Satoshi/#email-9) 6 maja, a dwa dni później Martti Malmi promował ją, udostępniając linka na platformach [Hackernews](https://news.ycombinator.com/item?id=599852) i [Reddit](https://www.reddit.com/r/business/comments/8itlf/bitcoin_a_peertopeer_network_based_anonymous/). Nieco zmodyfikowana wersja tego opisu [istniała](https://web.archive.org/web/20100106082749/http://www.Bitcoin.org/) na głównej stronie internetowej do końca 2009 roku.
 
 
-Wiosną 2009 r. pojawiło się również słowo „kryptowaluta”, które początkowo było używane w odniesieniu do bitcoina. 11 maja Satoshi [napisał](https://mmalmi.github.io/Satoshi/#email-19) do Martti'ego Malmi:
+Wiosną 2009 r. pojawiło się również słowo „[kryptowaluta](https://planb.academy/resources/glossary/cryptocurrency)”, które początkowo było używane w odniesieniu do bitcoina. 11 maja Satoshi [napisał](https://mmalmi.github.io/Satoshi/#email-19) do Martti'ego Malmi:
 
 
 > „Ktoś wymyślił słowo 'kryptowaluta'... może to jest słowo, którego powinniśmy używać do opisywania Bitcoina, podoba ci się?”
@@ -1189,7 +1189,7 @@ Pojawia się również pierwsza dedykowana usługa powiernicza Bitcoina: jest to
 ![Logo of MyBitcoin from the archive of the site mybitcoin.com](assets/pl/034.webp)
 
 
-W tym czasie lekkie portfele (znane jako "SPV") nie istniały, więc sam Satoshi Nakamoto uznał za dopuszczalne korzystanie z tego typu oprogramowania, mimo że takie użycie było sprzeczne z zasadą niekorzystania z pośredników w sercu Bitcoina. W dniu 18 maja 2010 r. [napisał](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149) na forum:
+W tym czasie lekkie portfele (znane jako "[SPV](https://planb.academy/resources/glossary/spv-node-light-node)") nie istniały, więc sam Satoshi Nakamoto uznał za dopuszczalne korzystanie z tego typu oprogramowania, mimo że takie użycie było sprzeczne z zasadą niekorzystania z pośredników w sercu Bitcoina. W dniu 18 maja 2010 r. [napisał](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149) na forum:
 
 
 > „W międzyczasie strony takie jak [vekja.net](http://vekja.net) i [www.mybitcoin.com](http://www.mybitcoin.com) eksperymentowały z systemami opartymi na kontach. &nbsp;Tworzysz konto na stronie internetowej, przechowujesz tam swoje bitcoiny i przelewasz je do i z konta. &nbsp;Utworzenie konta na stronie internetowej jest o wiele łatwiejsze niż instalacja oprogramowania i nauka korzystania z niego, a dla większości ludzi jest to bardziej znana metoda. Jedyną wadą jest to, że musisz zaufać stronie trzeciej, ale jest to w porządku w przypadku niewielkich kwot przeznaczonych na mikropłatności i różne wydatki. Jest to łatwy sposób na rozpoczęcie, a jeśli otrzymane kwoty staną się większe, możesz przejść na rzeczywiste oprogramowanie Bitcoin”.
@@ -1300,7 +1300,7 @@ Wraz ze wzrostem mocy obliczeniowej jesienią 2009 roku, udział mocy obliczenio
 ![Estimation of the proportion of Satoshi's computing power relative to the total power between January 2009 and July 2010](assets/pl/038.webp)
 
 
-Co więcej, spadek dominacji Satoshiego w ogólnym wydobyciu nie jest jedynie pasywny: on sam spowalnia swoją produkcję w tym samym okresie. Rzeczywiście, deklarowanym celem Satoshiego jest uczestnictwo wszystkich: nie wydobywa on dla zysku finansowego, ale w celu zapewnienia działania sieci do czasu wprowadzenia zachęt. W związku z tym hash trzykrotnie zmniejszył swój wskaźnik wydobycia (liczbę obliczeń wykonywanych w każdej sekundzie) w tym okresie: po raz pierwszy z 4,5 do 2,5 MH/s w czerwcu 2009 r., po raz drugi z 2,5 do 1 MH/s w październiku i po raz trzeci z 1 do 0 MH/s w maju 2010 r. Oto wykres ewolucji prędkości haszowania w tym okresie ([Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-Hashrate.html)):
+Co więcej, spadek dominacji Satoshiego w ogólnym wydobyciu nie jest jedynie pasywny: on sam spowalnia swoją produkcję w tym samym okresie. Rzeczywiście, deklarowanym celem Satoshiego jest uczestnictwo wszystkich: nie wydobywa on dla zysku finansowego, ale w celu zapewnienia działania sieci do czasu wprowadzenia zachęt. W związku z tym hash trzykrotnie zmniejszył swój [wskaźnik wydobycia](https://planb.academy/resources/glossary/hashrate) (liczbę obliczeń wykonywanych w każdej sekundzie) w tym okresie: po raz pierwszy z 4,5 do 2,5 MH/s w czerwcu 2009 r., po raz drugi z 2,5 do 1 MH/s w październiku i po raz trzeci z 1 do 0 MH/s w maju 2010 r. Oto wykres ewolucji prędkości haszowania w tym okresie ([Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-Hashrate.html)):
 
 
 ![Estimation of Satoshi's hash rate between January 2009 and May 2010](assets/pl/039.webp)
@@ -1364,12 +1364,12 @@ Ciekawski i pomysłowy, szybko rozpoczął pracę nad osobistym projektem: „Bi
 Satoshi zareagował pozytywnie na uruchomienie tej usługi, nawet jeśli nie zauważył jej od razu. Tydzień później, 18 czerwca, [pogratulował](https://bitcointalk.org/index.php?topic=183.msg1620#msg1620) twórcy, pisząc, że był to „doskonały wybór na pierwszy projekt” i że „planował zrobić dokładnie to samo, jeśli nikt inny tego nie zrobi, żeby nowi uzytkownicy mogli od razu zdobyć kilka monet do zabawy, kiedy nadejdzie moment, że dla zwykłego śmiertelnika zbyt trudne będzie wygenerowanie 50BTC.”
 
 
-Wkład Gavina Andresena na tym się nie skończył. Głęboko zainteresował się tym, jak działa Bitcoin i postanowił przeanalizować kod. Odkrył [https://bitcointalk.org/index.php?topic=195.msg1606#msg1606] wbudowany w protokół system skryptów, czym szybko podzielił się na forum. Wyraził swoje obawy dotyczące tej funkcji, ponieważ zmniejszała ona bezpieczeństwo systemu („złożoność jest wrogiem bezpieczeństwa”) i utrudniała opracowanie drugiej implementacji oprogramowania. Satoshi [wyjaśnił](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611) powód integracji tego mechanizmu, który nazwał Script:
+Wkład Gavina Andresena na tym się nie skończył. Głęboko zainteresował się tym, jak działa Bitcoin i postanowił przeanalizować kod. Odkrył [https://bitcointalk.org/index.php?topic=195.msg1606#msg1606] wbudowany w protokół system [skryptów](https://planb.academy/resources/glossary/script), czym szybko podzielił się na forum. Wyraził swoje obawy dotyczące tej funkcji, ponieważ zmniejszała ona bezpieczeństwo systemu („złożoność jest wrogiem bezpieczeństwa”) i utrudniała opracowanie drugiej implementacji oprogramowania. Satoshi [wyjaśnił](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611) powód integracji tego mechanizmu, który nazwał Script:
 
 
 > „Natura Bitcoina jest taka, że po wydaniu wersji 0.1, podstawowy projekt został zapisany na zawsze. &nbsp;Z tego powodu chciałem zaprojektować go tak, aby obsługiwał każdy możliwy typ transakcji, jaki mogłem wymyślić. (...) &nbsp;Rozwiązaniem był skrypt, który uogólnia problem w taki sposób, że strony transakcji mogą opisać swoją transakcję jako predykat, który jest oceniany przez sieć węzłów. &nbsp;Węzły muszą zrozumieć transakcję tylko w zakresie oceny, czy warunki nadawcy są spełnione.”
 
-Gavin zaangażował się również w rozwój oprogramowania, [implementując](https://sourceforge.net/p/Bitcoin/code/101/) automatyczne uruchamianie przy starcie systemu Linux, skupiając się na API (zostanie mu [przypisana zasługa](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707) ulepszenia w wersji 0.3.3) i uczestnicząc we wdrażaniu sieci testowej (którą [wymyślił](https://bitcointalk.org/index.php?topic=240.msg2104#msg2104) 9 czerwca). Prywatnie dzielił się pomysłami z Satoshim, stopniowo stając się jego prawą ręką, ponieważ Martti Malmi był [bardzo zajęty](https://mmalmi.github.io/Satoshi/#email-191) swoją nową pełnoetatową pracą.
+Gavin zaangażował się również w rozwój oprogramowania, [implementując](https://sourceforge.net/p/Bitcoin/code/101/) automatyczne uruchamianie przy starcie systemu Linux, skupiając się na API (zostanie mu [przypisana zasługa](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707) ulepszenia w wersji 0.3.3) i uczestnicząc we wdrażaniu [sieci testowej](https://planb.academy/resources/glossary/testnet) (którą [wymyślił](https://bitcointalk.org/index.php?topic=240.msg2104#msg2104) 9 czerwca). Prywatnie dzielił się pomysłami z Satoshim, stopniowo stając się jego prawą ręką, ponieważ Martti Malmi był [bardzo zajęty](https://mmalmi.github.io/Satoshi/#email-191) swoją nową pełnoetatową pracą.
 
 
 ### Wiosna pełna ważnych wydarzeń

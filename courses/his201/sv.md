@@ -999,14 +999,14 @@ Skaparen av Bitcoin bad honom att bidra till [webbsidan](https://web.archive.org
 
 - "Överför pengar enkelt via internet, utan att behöva lita på tredje part."
 - "Ingen tredje part kan förhindra eller kontrollera dina transaktioner."
-- "Skydda dig själv från instabiliteten som orsakas av fraktionella reservbanker och centralbankernas dåliga politik. Den begränsade inflationen av Bitcoin-systemets pengar Supply är jämnt fördelad (genom datorkraft) över hela nätverket, snarare än att monopoliseras av bankerna."
+- "Skydda dig själv från instabiliteten som orsakas av [fraktionella reservbanker](https://planb.academy/resources/glossary/fractional-reserves) och centralbankernas dåliga politik. Den begränsade inflationen av Bitcoin-systemets pengar Supply är jämnt fördelad (genom datorkraft) över hela nätverket, snarare än att monopoliseras av bankerna."
 - "Värdet på Bitcoin kommer sannolikt att öka eftersom tillväxten i Bitcoin-ekonomin överträffar inflationstakten - betrakta Bitcoin som en investering och börja driva en nod idag!"
 
 
 Satoshi [godkänner](https://mmalmi.github.io/Satoshi/#email-5) den här presentationen i stort, även om han har vissa reservationer. Han [är](https://mmalmi.github.io/Satoshi/#email-19) särskilt "obekväm" med att deklarera Bitcoin som en "investering", sannolikt av rädsla för de juridiska konsekvenserna av ett sådant uttalande. Sidan [publicerades](https://mmalmi.github.io/Satoshi/#email-9) den 6 maj och två dagar senare marknadsförde Martti Malmi den genom att dela en länk på plattformarna [Hackernews](https://news.ycombinator.com/item?id=599852) och [Reddit](https://www.reddit.com/r/business/comments/8itlf/bitcoin_a_peertopeer_network_based_anonymous/). En något modifierad version av denna beskrivning [fanns](https://web.archive.org/web/20100106082749/http://www.Bitcoin.org/) på huvudwebbplatsen i slutet av 2009.
 
 
-Våren 2009 uppstod också ordet "kryptovaluta", som ursprungligen användes för att hänvisa till Bitcoin. Den 11 maj [skrev] Satoshi (https://mmalmi.github.io/Satoshi/#email-19) till Martti Malmi:
+Våren 2009 uppstod också ordet "[kryptovaluta](https://planb.academy/resources/glossary/cryptocurrency)", som ursprungligen användes för att hänvisa till Bitcoin. Den 11 maj [skrev] Satoshi (https://mmalmi.github.io/Satoshi/#email-19) till Martti Malmi:
 
 
 > "Någon kom på ordet 'kryptovaluta' ... kanske är det ett ord vi borde använda för att beskriva Bitcoin, gillar du det?"
@@ -1190,7 +1190,7 @@ Den första dedikerade Bitcoin förvaringstjänsten visas också: MyBitcoin, en 
 ![Logo of MyBitcoin from the archive of the site mybitcoin.com](assets/sv/034.webp)
 
 
-Vid den tiden fanns inte lättviktsplånböcker (kända som "SPV"), så Satoshi Nakamoto själv ansåg att det var acceptabelt att använda den här typen av programvara, även om denna användning stred mot principen om disintermediation som är kärnan i Bitcoin. Den 18 maj 2010 [skrev] han (https://bitcointalk.org/index.php?topic=125.msg1149#msg1149) på forumet:
+Vid den tiden fanns inte lättviktsplånböcker (kända som "[SPV](https://planb.academy/resources/glossary/spv-node-light-node)"), så Satoshi Nakamoto själv ansåg att det var acceptabelt att använda den här typen av programvara, även om denna användning stred mot principen om disintermediation som är kärnan i Bitcoin. Den 18 maj 2010 [skrev] han (https://bitcointalk.org/index.php?topic=125.msg1149#msg1149) på forumet:
 
 
 > "Under tiden har webbplatser som [vekja.net](http://vekja.net) och [www.mybitcoin.com](http://www.mybitcoin.com) experimenterat med kontobaserade system. Du skapar ett konto på en webbplats, förvarar dina bitcoins där och överför dem in och ut. Att skapa ett konto på en webbplats är mycket enklare än att installera programvara och lära sig att använda den, och det är en mer bekant metod för de flesta. Den enda nackdelen är att du måste lita på webbplatsen, men det är bra för små belopp avsedda för mikrobetalningar och diverse utgifter. Det är ett enkelt sätt att komma igång, och du kan byta till den faktiska Bitcoin-programvaran om de mottagna beloppen blir mer betydande."
@@ -1302,7 +1302,7 @@ I takt med att datorkraften ökade under hösten 2009 minskade gradvis andelen d
 ![Estimation of the proportion of Satoshi's computing power relative to the total power between January 2009 and July 2010](assets/sv/038.webp)
 
 
-Satoshi:s minskning av Mining:s dominans är dessutom inte bara passiv: han saktar ner sin produktion under samma period. Satoshi:s uttalade mål är att alla ska delta: han minerar inte för ekonomisk vinning, utan för att säkerställa nätverkets drift tills incitamenten träder i kraft. Därför minskar han sin Hash-hastighet (antalet beräkningar som utförs varje sekund) tre gånger under denna Mining-period: första gången från 4,5 till 2,5 MH/s i juni 2009, andra gången från 2,5 till 1 MH/s i oktober och tredje gången från 1 till 0 MH/s i maj 2010. Här är ett diagram över hans Hash-hastighetsutveckling under denna period ([Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-Hashrate.html)):
+Satoshi:s minskning av Mining:s dominans är dessutom inte bara passiv: han saktar ner sin produktion under samma period. Satoshi:s uttalade mål är att alla ska delta: han minerar inte för ekonomisk vinning, utan för att säkerställa nätverkets drift tills incitamenten träder i kraft. Därför minskar han sin [Hash-hastighet](https://planb.academy/resources/glossary/hashrate) (antalet beräkningar som utförs varje sekund) tre gånger under denna Mining-period: första gången från 4,5 till 2,5 MH/s i juni 2009, andra gången från 2,5 till 1 MH/s i oktober och tredje gången från 1 till 0 MH/s i maj 2010. Här är ett diagram över hans Hash-hastighetsutveckling under denna period ([Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-Hashrate.html)):
 
 
 ![Estimation of Satoshi's hash rate between January 2009 and May 2010](assets/sv/039.webp)
@@ -1366,12 +1366,12 @@ Nyfiken och uppfinningsrik började han snabbt arbeta med ett personligt projekt
 Satoshi reagerade positivt på lanseringen av denna tjänst, även om han inte märkte det omedelbart. En vecka senare, den 18 juni, [gratulerade](https://bitcointalk.org/index.php?topic=183.msg1620#msg1620) han skaparen genom att skriva att det var ett "utmärkt val för ett första projekt" och att han hade "planerat att göra exakt samma sak om ingen annan gjorde det, så när det blir för Hard för dödliga att generate 50BTC, kan nya användare få några mynt att leka med direkt."
 
 
-Gavin Andresens bidrag stannade inte där. Han blev djupt intresserad av hur Bitcoin fungerar och började dissekera koden. Han [upptäckte](https://bitcointalk.org/index.php?topic=195.msg1606#msg1606) det inbyggda skriptsystemet i protokollet, något som han snabbt delade med sig av på forumet. Han uttryckte sin oro över denna funktion, eftersom den minskade systemets säkerhet ("komplexitet är säkerhetens fiende") och gjorde det svårare att utveckla en andra mjukvaruimplementering. Satoshi [förklarade](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611) skälet till att integrera denna mekanism, som han kallade Script:
+Gavin Andresens bidrag stannade inte där. Han blev djupt intresserad av hur Bitcoin fungerar och började dissekera koden. Han [upptäckte](https://bitcointalk.org/index.php?topic=195.msg1606#msg1606) det inbyggda [skriptsystemet](https://planb.academy/resources/glossary/script) i protokollet, något som han snabbt delade med sig av på forumet. Han uttryckte sin oro över denna funktion, eftersom den minskade systemets säkerhet ("komplexitet är säkerhetens fiende") och gjorde det svårare att utveckla en andra mjukvaruimplementering. Satoshi [förklarade](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611) skälet till att integrera denna mekanism, som han kallade Script:
 
 
 > "Bitcoin är av sådan karaktär att när version 0.1 släpptes var kärndesignen huggen i sten för resten av dess livstid. På grund av detta ville jag utforma den för att stödja alla möjliga transaktionstyper jag kunde tänka mig. (...) Lösningen blev script, som generaliserar problemet så att transaktionsparterna kan beskriva sin transaktion som ett predikat som nodnätverket utvärderar. Noderna behöver bara förstå transaktionen i den utsträckning att de kan utvärdera om avsändarens villkor är uppfyllda."
 
-Gavin blev också involverad i programvaruutvecklingen genom att [implementera](https://sourceforge.net/p/Bitcoin/code/101/) automatisk start vid uppstart för Linux, fokusera på API:et (han skulle [krediteras](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707) för dess förbättring i version 0.3.3) och delta i driftsättningen av testnätverket (som han [tänkte ut](https://bitcointalk.org/index.php?topic=240.msg2104#msg2104) den 9 juni). Han skulle privat dela Exchange:s idéer med Satoshi och gradvis bli hans högra hand, eftersom Martti Malmi var [mycket upptagen](https://mmalmi.github.io/Satoshi/#email-191) med sitt nya heltidsjobb.
+Gavin blev också involverad i programvaruutvecklingen genom att [implementera](https://sourceforge.net/p/Bitcoin/code/101/) automatisk start vid uppstart för Linux, fokusera på API:et (han skulle [krediteras](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707) för dess förbättring i version 0.3.3) och delta i driftsättningen av [testnätverket](https://planb.academy/resources/glossary/testnet) (som han [tänkte ut](https://bitcointalk.org/index.php?topic=240.msg2104#msg2104) den 9 juni). Han skulle privat dela Exchange:s idéer med Satoshi och gradvis bli hans högra hand, eftersom Martti Malmi var [mycket upptagen](https://mmalmi.github.io/Satoshi/#email-191) med sitt nya heltidsjobb.
 
 
 ### En vår full av grundläggande händelser

@@ -1391,7 +1391,7 @@ Nende hulka kuuluvad:
 
 
 
-- [Btcmap.org](https://btcmap.org/)**, veebisait, kus on kaks kaarti, mida uuendatakse iga päev: **[maailma kaart ettevõtetest, mis aktsepteerivad Bitcoin](https://btcmap.org/map)** ja **[maailma kogukondade kaart](https://btcmap.org/communities/map)**. Paljud bitcoin'i kasutajad vaatavad neid kaarte regulaarselt, kas nad reisivad või elavad oma igapäevaelu, et kohtuda uute inimestega või leida kohti, kus oma Sats kulutada. Btcmap on ülemaailmne viide ja oma kogukonna loetellu kandmine seal on nähtavuse jaoks väga oluline.**
+- [Btcmap.org](https://btcmap.org/)**, veebisait, kus on kaks kaarti, mida uuendatakse iga päev: **[maailma kaart ettevõtetest, mis aktsepteerivad Bitcoin](https://btcmap.org/map)** ja **[maailma kogukondade kaart](https://btcmap.org/communities/map)**. Paljud bitcoin'i kasutajad vaatavad neid kaarte regulaarselt, kas nad reisivad või elavad oma igapäevaelu, et kohtuda uute inimestega või leida kohti, kus oma [Sats](https://planb.academy/resources/glossary/satoshi-sat) kulutada. Btcmap on ülemaailmne viide ja oma kogukonna loetellu kandmine seal on nähtavuse jaoks väga oluline.**
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), veebisait, mille on loonud bitcoiners, bitcoiners. **See võimaldab teil postitada oma kogukonna eelseisvaid üritusi**. Prantsusmaal ei kasutata seda siiski veel laialdaselt.
 - sõltuvalt teie riigist võivad olla ka muud kohalikud algatused. Prantsusmaal on näiteks [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), kus **kuulub iga kuu kümneid Bitcoin üritusi**. Nii et kui te ei ole neile veel Twitteris järgnenud või nendega ühendust võtnud, et jagada teavet oma kogukonna ja ürituste kohta, on nüüd õige aeg! **Kui aitaksite hoida Prantsuse sündmuste kalendrit ajakohasena, oleks tore, kui kõik Prantsuse Bitcoin kogukonnad võtaksid harjumuseks:**
     - mainides @bitcoinpointfr Twitteris iga uue kogukonna sündmuse puhul
@@ -1958,7 +1958,7 @@ Selle soodustuse saamiseks võtke lihtsalt **kontakti [kirjastus Konsensus](http
 Kui teil ei ole sularaha, võite siiski anda allahindlust edasi oma kogukonna liikmetele.
 
 
-Kui teil endal ei ole vahendeid, saate allahindlust siiski oma liikmetele edasi anda. Näiteks võiks üks korraldaja koguda liikmetelt tellimusi, teha kogutellimuse soodushinnaga ja jagada raamatuid järgmisel kokkusaamisel, kusjuures makse kogutakse sel ajal välkkiirelt.
+Kui teil endal ei ole vahendeid, saate allahindlust siiski oma liikmetele edasi anda. Näiteks võiks üks korraldaja koguda liikmetelt tellimusi, teha kogutellimuse soodushinnaga ja jagada raamatuid järgmisel kokkusaamisel, kusjuures makse kogutakse sel ajal [välkkiirelt](https://planb.academy/resources/glossary/lightning-network).
 
 
 Samuti võiksite oma kohtumistel välja panna raamatute laenutamise põhikirja, et selgitada uutele tulijatele selgelt laenutamise reegleid.

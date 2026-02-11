@@ -1391,7 +1391,7 @@ To uključuje:
 
 
 
-- [Btcmap.org](https://btcmap.org/)**, vebsajt sa dve mape koje se ažuriraju svakodnevno: **[svetska mapa preduzeća koja prihvataju Bitcoin](https://btcmap.org/map)** i **[svetska mapa zajednica](https://btcmap.org/communities/map)**. Mnogi bitkoin entuzijasti redovno proveravaju ove mape, bilo da putuju ili obavljaju svakodnevne aktivnosti, kako bi upoznali nove ljude ili pronašli mesta za trošenje svog Sats. Btcmap je globalna referenca, a uvrštavanje vaše zajednice tamo je ključno za vidljivost.**
+- [Btcmap.org](https://btcmap.org/)**, vebsajt sa dve mape koje se ažuriraju svakodnevno: **[svetska mapa preduzeća koja prihvataju Bitcoin](https://btcmap.org/map)** i **[svetska mapa zajednica](https://btcmap.org/communities/map)**. Mnogi bitkoin entuzijasti redovno proveravaju ove mape, bilo da putuju ili obavljaju svakodnevne aktivnosti, kako bi upoznali nove ljude ili pronašli mesta za trošenje svog [Sats](https://planb.academy/resources/glossary/satoshi-sat). Btcmap je globalna referenca, a uvrštavanje vaše zajednice tamo je ključno za vidljivost.**
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), vebsajt kreiran od strane bitkoinera, za bitkoinere. **Omogućava vam da objavite predstojeće događaje vaše zajednice**. Međutim, u Francuskoj se još uvek ne koristi široko.
 - u zavisnosti od vaše zemlje, mogu postojati i druge lokalne inicijative. U Francuskoj, na primer, postoji [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), koji **navodi desetine Bitcoin događaja svakog meseca**. Dakle, ako ih još niste zapratili na Twitteru ili ih kontaktirali da podelite informacije o vašoj zajednici i događajima, sada je pravo vreme! **Da bi francuski kalendar događaja bio ažuriran, bilo bi sjajno kada bi sve francuske Bitcoin zajednice usvojile naviku da:**
     - pominjanje @bitcoinpointfr na Twitteru za svaki novi događaj zajednice
@@ -1936,7 +1936,7 @@ U privatnim prostorima kao što su koncerti, barovi ili stadioni, proverite da l
 Još jedan projekat koji možete lako postaviti je **kreiranje biblioteke na vašim okupljanjima**.
 
 
-Možete pozvati učesnike koji žele da podele svoj materijal za čitanje da donesu knjigu vezanu za Bitcoin. Ako neko drugi na okupljanju želi da je pozajmi, može se dogovoriti pozajmica sa vlasnikom u Exchange uz depozit, na primer, 21,000 satoshija putem Lightning-a.
+Možete pozvati učesnike koji žele da podele svoj materijal za čitanje da donesu knjigu vezanu za Bitcoin. Ako neko drugi na okupljanju želi da je pozajmi, može se dogovoriti pozajmica sa vlasnikom u Exchange uz depozit, na primer, 21,000 satoshija putem [Lightning](https://planb.academy/resources/glossary/lightning-network)-a.
 
 
 Za vlasnika, ovaj depozit pomaže u pokrivanju potencijalnog gubitka ili krađe. Za zajmoprimca, to je podsticaj da se vrati na budući sastanak kako bi preuzeo svoj depozit.

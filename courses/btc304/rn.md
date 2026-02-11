@@ -1391,7 +1391,7 @@ Ivyo birimwo:
 
 
 
-- [Btcmap.org](https://btcmap.org/), urubuga rufise amakarata abiri avugururwa buri musi: **[ikarata y'isi yose y'ubudandaji bwemera Bitcoin](https://btcmap.org/ikarita)** na **[ikarita y'imiryango y'isi yose](https://communities/p.)**. Benshi mu bakoresha ama bitcoin barasuzuma ayo makarita ubudasiba, baba bari mu rugendo canke bariko barakora ubuzima bwabo bwa misi yose, kugira ngo bahure n'abantu bashasha canke barondere aho bakoresha Sats yabo. Btcmap ni co kigereranyo c'isi yose, kandi gushiramwo urutonde rw'abanyagihugu bawe ni ngombwa kugira ngo biboneke.
+- [Btcmap.org](https://btcmap.org/), urubuga rufise amakarata abiri avugururwa buri musi: **[ikarata y'isi yose y'ubudandaji bwemera Bitcoin](https://btcmap.org/ikarita)** na **[ikarita y'imiryango y'isi yose](https://communities/p.)**. Benshi mu bakoresha ama bitcoin barasuzuma ayo makarita ubudasiba, baba bari mu rugendo canke bariko barakora ubuzima bwabo bwa misi yose, kugira ngo bahure n'abantu bashasha canke barondere aho bakoresha [Sats](https://planb.academy/resources/glossary/satoshi-sat) yabo. Btcmap ni co kigereranyo c'isi yose, kandi gushiramwo urutonde rw'abanyagihugu bawe ni ngombwa kugira ngo biboneke.
 - [Ivyabaye ku bitcoine](https://www.ivyabaye ku bitcoine.com/), urubuga rwakozwe n’abakoresha amahera, ku bakoresha amahera. **Iragufasha gushiramwo ibintu bizoshika mu kibano cawe**. Ariko mu Bufaransa, n’ubu ntirikoreshwa cane.
 - bivanye n’igihugu cawe, hoshobora kubaho ibindi bikorwa vyo mu karere iwanyu. Nk’akarorero, mu Bufaransa, hariho [Bitcoin.fr](https://Bitcoin.fr/ibintu/ivyiciro/imisi mikuru/), **itanga urutonde rw’ibintu vyinshi bibera muri Bitcoin buri kwezi**. Rero nimba utarabakurikira kuri Twitter canke ngo ubamenyeshe kugira ngo usangire amakuru yerekeye ikibano cawe n’ibintu bibera, ubu ni igihe! **Kugira ngo dufashe mu gutuma ikirangamisi c’ibintu bibera mu Bufaransa kiguma ku gihe, vyoba vyiza cane iyo imiryango yose y’Abafaransa Bitcoin igira akamenyero ko:**
     - kuvuga @bitcoinpointfr kuri Twitter ku bikorwa vyose bishasha vy'abanyagihugu
@@ -1936,7 +1936,7 @@ Mu bibanza vy’abantu ku giti cabo nk’amakonseri, amabarabara canke ibibuga, 
 Uwundi mugambi ushobora gushinga mu buryo bworoshe ni **gukora ububiko bw'ibitabu mu makoraniro yawe**.
 
 
-Woshobora gutumira abazoja muri iyo nama bipfuza gusangira ivyo basoma ngo bazane igitabu kijanye n’igitabu Bitcoin. Iyo uwundi muntu ari muri iyo nama ashaka kuyigurana, inguzanyo yoshobora gutunganirizwa na nyen’iyo nzu muri Exchange kugira ngo umuntu ayishiremwo, nk’akarorero, amasatoshi 21.000 biciye kuri Lightning.
+Woshobora gutumira abazoja muri iyo nama bipfuza gusangira ivyo basoma ngo bazane igitabu kijanye n’igitabu Bitcoin. Iyo uwundi muntu ari muri iyo nama ashaka kuyigurana, inguzanyo yoshobora gutunganirizwa na nyen’iyo nzu muri Exchange kugira ngo umuntu ayishiremwo, nk’akarorero, amasatoshi 21.000 biciye kuri [Lightning](https://planb.academy/resources/glossary/lightning-network).
 
 
 Ku nyen’itongo, iyo nkuru irafasha gupfuka ivyo yoshobora gutakaza canke kwiba. Ku wuguze, ni ikintu kimutera intege co kugaruka mu nama izoza kugira ngo asubire kuronka amahera yabo.

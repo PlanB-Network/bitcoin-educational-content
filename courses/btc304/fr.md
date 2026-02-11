@@ -677,7 +677,7 @@ Parmi celles-ci, on note notamment :
 Il n'est pas sans noter que d'autres plateformes et applications permettent également de gagner en visibilité. **[Meetup](https://www.meetup.com/)** est l'une d'elles, et il s'agit d'un site internet (et d'une application sur téléphone) permettant de créer un événement et de chercher ceux autour de chez soi.
 Malheureusement, pour pouvoir y créer des événements, il faut débourser près de 8€ par mois (soit environ 90€ par an), ce qui est onéreux pour une communauté qui n'est encore ni structurée ni mature. Toutefois, Meetup est très utilisée dans certains pays, en particulier au Canada et aux États-Unis ; son principal intérêt étant qu'elle permet de gérer les inscriptions aux rencontres.
 
-En parallèle, **[Orangepillapp](https://www.orangepillapp.com/)** est une application téléphone permettant aux bitcoiners de se rencontrer. Elle est toutefois, elle aussi, payante (50 000 sats/an, ou 200 000 sats à vie).
+En parallèle, **[Orangepillapp](https://www.orangepillapp.com/)** est une application téléphone permettant aux bitcoiners de se rencontrer. Elle est toutefois, elle aussi, payante (50 000 [sats](https://planb.academy/resources/glossary/satoshi-sat)/an, ou 200 000 sats à vie).
 
 
 Bien qu'elles permettent de développer la visibilité de votre communauté et de vos événements, ces deux dernières applications ne sont pas conseillées au lancement de votre communauté, tout simplement, car elles sont payantes.
@@ -970,7 +970,7 @@ En parallèle, si vous êtes féru de concerts, de bars ou de stades, **pensez �
 <chapterId>acc94093-f8b3-51b8-9359-348e9e075d38</chapterId>
 
 Un autre projet pouvant être facilement mis en place est **l'instauration d'une bibliothèque au sein de vos meet-ups**.
-Pour ce faire, vous pouvez proposer à toutes les personnes intéressées par le partage de leurs lectures de ramener un livre lié à Bitcoin et, si quelqu'un d'autre lors du meet-up est intéressé pour l'emprunter, **un prêt pourrait être réalisé auprès de son propriétaire, moyennant par exemple une caution de 21 000 satoshis en Lightning**.
+Pour ce faire, vous pouvez proposer à toutes les personnes intéressées par le partage de leurs lectures de ramener un livre lié à Bitcoin et, si quelqu'un d'autre lors du meet-up est intéressé pour l'emprunter, **un prêt pourrait être réalisé auprès de son propriétaire, moyennant par exemple une caution de 21 000 satoshis en [Lightning](https://planb.academy/resources/glossary/lightning-network)**.
 Cela amène en effet, pour le propriétaire, de couvrir les frais en cas d'oubli ou de vol ; et pour l'emprunteur, de revenir à un prochain meet-up pour récupérer ses 21 000 satoshis !
 
 Dans le cas où vous possédez **une association et que vous souhaitez investir une partie de votre trésorerie dans des ressources pédagogiques et éducatives**, il vous est également possible de commander plusieurs livres et de les proposer dans votre **bibliothèque Bitcoin**, à chaque meet-up.

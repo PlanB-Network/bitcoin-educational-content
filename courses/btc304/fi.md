@@ -1391,7 +1391,7 @@ Näihin kuuluvat:
 
 
 
-- [Btcmap.org](https://btcmap.org/), sivusto, jossa on kaksi päivittäin päivitettävää karttaa: **[Bitcoin:n hyväksyvien yritysten maailmankartta](https://btcmap.org/map)** ja **[maailman yhteisöjen kartta](https://btcmap.org/communities/map)**. Monet bitcoin-käyttäjät tarkistavat näitä karttoja säännöllisesti, olivatpa he sitten matkoilla tai menossa jokapäiväiseen elämäänsä, tutustuakseen uusiin ihmisiin tai löytääkseen paikkoja, joissa he voivat käyttää Sats:nsa. Btcmap on maailmanlaajuinen referenssi, ja yhteisönne listaaminen sinne on tärkeää näkyvyyden kannalta.
+- [Btcmap.org](https://btcmap.org/), sivusto, jossa on kaksi päivittäin päivitettävää karttaa: **[Bitcoin:n hyväksyvien yritysten maailmankartta](https://btcmap.org/map)** ja **[maailman yhteisöjen kartta](https://btcmap.org/communities/map)**. Monet bitcoin-käyttäjät tarkistavat näitä karttoja säännöllisesti, olivatpa he sitten matkoilla tai menossa jokapäiväiseen elämäänsä, tutustuakseen uusiin ihmisiin tai löytääkseen paikkoja, joissa he voivat käyttää [Sats](https://planb.academy/resources/glossary/satoshi-sat):nsa. Btcmap on maailmanlaajuinen referenssi, ja yhteisönne listaaminen sinne on tärkeää näkyvyyden kannalta.
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), bitcoinereiden bitcoinereille luoma verkkosivusto. **Sen avulla voit julkaista yhteisösi tulevia tapahtumia**. Ranskassa sitä ei kuitenkaan vielä käytetä laajalti.
 - maastasi riippuen voi olla muitakin paikallisia aloitteita. Ranskassa on esimerkiksi [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), jossa **luetteloidaan kymmeniä Bitcoin-tapahtumia joka kuukausi**. Jos et siis ole vielä seurannut heitä Twitterissä tai ottanut heihin yhteyttä jakaaksesi tietoa yhteisöstäsi ja tapahtumista, nyt on sen aika! **Jotta Ranskan tapahtumakalenteri pysyisi ajan tasalla, olisi hienoa, jos kaikki ranskalaiset Bitcoin-yhteisöt ottaisivat tavakseen:**
     - mainitsemalla @bitcoinpointfr Twitterissä jokaisesta uudesta yhteisötapahtumasta
@@ -1936,7 +1936,7 @@ Tarkista yksityisissä tiloissa, kuten konserteissa, baareissa tai stadioneilla,
 Toinen projekti, jonka voit helposti perustaa, on **kirjaston luominen tapaamisissa**.
 
 
-Voisit pyytää osallistujia, jotka haluavat jakaa luettavaa, tuomaan Bitcoin:een liittyvän kirjan. Jos joku muu kokoontumisessa haluaa lainata sen, Exchange:n omistajan kanssa voitaisiin sopia lainaamisesta talletusta vastaan, esimerkiksi 21 000 satoshia Salaman kautta.
+Voisit pyytää osallistujia, jotka haluavat jakaa luettavaa, tuomaan Bitcoin:een liittyvän kirjan. Jos joku muu kokoontumisessa haluaa lainata sen, Exchange:n omistajan kanssa voitaisiin sopia lainaamisesta talletusta vastaan, esimerkiksi 21 000 satoshia [Salaman](https://planb.academy/resources/glossary/lightning-network) kautta.
 
 
 Omistajalle tämä talletus auttaa kattamaan mahdollisen katoamisen tai varkauden. Lainanottajalle se on kannustin tulla takaisin tulevaan tapaamiseen noutamaan talletuksensa.

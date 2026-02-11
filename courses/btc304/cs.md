@@ -1391,7 +1391,7 @@ Patří mezi ně:
 
 
 
-- [Btcmap.org](https://btcmap.org/)**, webové stránky se dvěma denně aktualizovanými mapami: **[světová mapa podniků přijímajících Bitcoin](https://btcmap.org/map)** a **[mapa světových komunit](https://btcmap.org/communities/map)**. Mnoho uživatelů bitcoinů tyto mapy pravidelně kontroluje, ať už cestují nebo se věnují každodennímu životu, aby se seznámili s novými lidmi nebo našli místa, kde mohou utratit své Sats. Btcmap je celosvětovou referencí a uvedení vaší komunity na ní je pro její zviditelnění nezbytné**
+- [Btcmap.org](https://btcmap.org/)**, webové stránky se dvěma denně aktualizovanými mapami: **[světová mapa podniků přijímajících Bitcoin](https://btcmap.org/map)** a **[mapa světových komunit](https://btcmap.org/communities/map)**. Mnoho uživatelů bitcoinů tyto mapy pravidelně kontroluje, ať už cestují nebo se věnují každodennímu životu, aby se seznámili s novými lidmi nebo našli místa, kde mohou utratit své [Sats](https://planb.academy/resources/glossary/satoshi-sat). Btcmap je celosvětovou referencí a uvedení vaší komunity na ní je pro její zviditelnění nezbytné**
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), webové stránky vytvořené bitcoinery pro bitcoinery. ** Umožňuje zveřejňovat nadcházející události vaší komunity**. Ve Francii však stále není příliš rozšířená.
 - v závislosti na vaší zemi mohou existovat další místní iniciativy. Například ve Francii existuje stránka [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), která každý měsíc **seznamuje desítky akcí Bitcoin**. Pokud jste je tedy ještě nesledovali na Twitteru nebo je nekontaktovali a nesdíleli s nimi informace o vaší komunitě a akcích, je nejvyšší čas! **Abyste pomohli udržovat francouzský kalendář akcí aktuální, bylo by skvělé, kdyby si všechny francouzské komunity Bitcoin zvykly:**
     - zmínka @bitcoinpointfr na Twitteru pro každou novou událost komunity
@@ -1936,7 +1936,7 @@ Na soukromých místech, jako jsou koncerty, bary nebo stadiony, si před přid�
 Dalším projektem, který můžete snadno vytvořit, je **vytvoření knihovny na setkáních**.
 
 
-Můžete vyzvat účastníky, kteří se chtějí podělit o svou četbu, aby přinesli knihu související s Bitcoin. Pokud by si ji chtěl půjčit někdo jiný z účastníků setkání, bylo by možné s majitelem v Exchange domluvit výpůjčku za zálohu, například 21 000 satošů prostřednictvím Blesku.
+Můžete vyzvat účastníky, kteří se chtějí podělit o svou četbu, aby přinesli knihu související s Bitcoin. Pokud by si ji chtěl půjčit někdo jiný z účastníků setkání, bylo by možné s majitelem v Exchange domluvit výpůjčku za zálohu, například 21 000 satošů prostřednictvím [Blesku](https://planb.academy/resources/glossary/lightning-network).
 
 
 Pro majitele je tato záloha pomocníkem při krytí případné ztráty nebo krádeže. Pro vypůjčitele je to pobídka, aby se vrátil na budoucí setkání a vyzvedl si zálohu.

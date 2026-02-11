@@ -1391,7 +1391,7 @@ Dessa inkluderar:
 
 
 
-- [Btcmap.org](https://btcmap.org/)**, en webbplats med två kartor som uppdateras dagligen: **[världskartan över företag som accepterar Bitcoin](https://btcmap.org/map)** och **[världskartan över samhällen](https://btcmap.org/communities/map)**. Många bitcoiners kollar dessa kartor regelbundet, oavsett om de reser eller lever sitt dagliga liv, för att träffa nya människor eller hitta platser att spendera sina Sats på. Btcmap är den globala referensen, och att lista din community där är viktigt för synligheten.**
+- [Btcmap.org](https://btcmap.org/)**, en webbplats med två kartor som uppdateras dagligen: **[världskartan över företag som accepterar Bitcoin](https://btcmap.org/map)** och **[världskartan över samhällen](https://btcmap.org/communities/map)**. Många bitcoiners kollar dessa kartor regelbundet, oavsett om de reser eller lever sitt dagliga liv, för att träffa nya människor eller hitta platser att spendera sina [Sats](https://planb.academy/resources/glossary/satoshi-sat) på. Btcmap är den globala referensen, och att lista din community där är viktigt för synligheten.**
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), en webbplats skapad av bitcoiners, för bitcoiners. **Där kan du lägga upp kommande evenemang i ditt community**. I Frankrike används den dock fortfarande inte i någon större utsträckning.
 - beroende på ditt land kan det finnas andra lokala initiativ. I Frankrike finns det till exempel [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), som **listar dussintals Bitcoin-evenemang varje månad**. Så om du ännu inte har följt dem på Twitter eller kontaktat dem för att dela information om ditt samhälle och dina evenemang är det dags nu! **För att hålla den franska evenemangskalendern uppdaterad skulle det vara bra om alla franska Bitcoin-grupper tog för vana att:**
     - nämna @bitcoinpointfr på Twitter för varje nytt gemenskapsevenemang
@@ -1936,7 +1936,7 @@ På privata platser som konserter, barer eller arenor ska du kontrollera om det 
 Ett annat projekt som du enkelt kan sätta upp är att **skapa ett bibliotek på dina möten**.
 
 
-Du kan bjuda in deltagare som vill dela med sig av sitt läsmaterial att ta med en Bitcoin-relaterad bok. Om någon annan på träffen vill låna den kan ett lån ordnas med ägaren i Exchange mot en deposition, till exempel 21 000 satoshis via Lightning.
+Du kan bjuda in deltagare som vill dela med sig av sitt läsmaterial att ta med en Bitcoin-relaterad bok. Om någon annan på träffen vill låna den kan ett lån ordnas med ägaren i Exchange mot en deposition, till exempel 21 000 satoshis via [Lightning](https://planb.academy/resources/glossary/lightning-network).
 
 
 För ägaren hjälper depositionen till att täcka eventuell förlust eller stöld. För låntagaren är det ett incitament att komma tillbaka till en framtida träff för att hämta sin deposition.

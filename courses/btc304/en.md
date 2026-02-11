@@ -981,7 +981,7 @@ But you can't move forward without knowing that **there are platforms where bitc
 
 These include:
 
-- [Btcmap.org](https://btcmap.org/)**, a website with two maps updated daily: **[the world map of businesses accepting Bitcoin](https://btcmap.org/map)** and **[the world communities map](https://btcmap.org/communities/map)**. Many bitcoiners check these maps regularly, whether they're traveling or going about their daily lives, to meet new people or find places to spend their sats. Btcmap is the global reference, and listing your community there is essential for visibility.**
+- [Btcmap.org](https://btcmap.org/)**, a website with two maps updated daily: **[the world map of businesses accepting Bitcoin](https://btcmap.org/map)** and **[the world communities map](https://btcmap.org/communities/map)**. Many bitcoiners check these maps regularly, whether they're traveling or going about their daily lives, to meet new people or find places to spend their [sats](https://planb.academy/resources/glossary/satoshi-sat). Btcmap is the global reference, and listing your community there is essential for visibility.**
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), a website created by bitcoiners, for bitcoiners. **It lets you post your community's upcoming events**. In France, however, it's still not widely used.
 - depending on your country, there may be other local initiatives. In France, for example, there's [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), which **lists dozens of Bitcoin events every month**. So if you haven't yet followed them on Twitter or contacted them to share information about your community and events, now's the time! **To help keep the French events calendar up to date, it would be great if all French Bitcoin communities got into the habit of:**
     - mentioning @bitcoinpointfr on Twitter for every new community event
@@ -1356,7 +1356,7 @@ In private venues like concerts, bars, or stadiums, check if stickers are alread
 
 Another project you can easily set up is **creating a library at your meet-ups**.
 
-You could invite participants who wish to share their reading material to bring a Bitcoin-related book. If someone else at the meet-up wants to borrow it, a loan could be arranged with the owner in exchange for a deposit, for example, 21,000 satoshis via Lightning.
+You could invite participants who wish to share their reading material to bring a Bitcoin-related book. If someone else at the meet-up wants to borrow it, a loan could be arranged with the owner in exchange for a deposit, for example, 21,000 satoshis via [Lightning](https://planb.academy/resources/glossary/lightning-network).
 
 For the owner, this deposit helps cover potential loss or theft. For the borrower, it's an incentive to come back to a future meet-up to retrieve their deposit.
 

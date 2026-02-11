@@ -1391,7 +1391,7 @@ Ini termasuk:
 
 
 
-- [Btcmap.org](https://btcmap.org/)**, sebuah situs web dengan dua peta yang diperbarui setiap hari: **[peta dunia bisnis yang menerima Bitcoin](https://btcmap.org/map)** dan **[peta komunitas dunia](https://btcmap.org/communities/map)**. Banyak pengguna bitcoin yang memeriksa peta-peta ini secara teratur, baik ketika mereka bepergian atau menjalani kehidupan sehari-hari, untuk bertemu dengan orang-orang baru atau menemukan tempat untuk membelanjakan Sats mereka. Btcmap adalah referensi global, dan mendaftarkan komunitas Anda di sana sangat penting untuk visibilitas.**
+- [Btcmap.org](https://btcmap.org/)**, sebuah situs web dengan dua peta yang diperbarui setiap hari: **[peta dunia bisnis yang menerima Bitcoin](https://btcmap.org/map)** dan **[peta komunitas dunia](https://btcmap.org/communities/map)**. Banyak pengguna bitcoin yang memeriksa peta-peta ini secara teratur, baik ketika mereka bepergian atau menjalani kehidupan sehari-hari, untuk bertemu dengan orang-orang baru atau menemukan tempat untuk membelanjakan [Sats](https://planb.academy/resources/glossary/satoshi-sat) mereka. Btcmap adalah referensi global, dan mendaftarkan komunitas Anda di sana sangat penting untuk visibilitas.**
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), sebuah situs web yang dibuat oleh para bitcoiners, untuk para bitcoiners. **Situs ini memungkinkan Anda untuk memposting acara-acara yang akan diadakan oleh komunitas Anda. Namun, di Prancis, situs ini masih belum banyak digunakan.**
 - tergantung pada negara Anda, mungkin ada inisiatif lokal lainnya. Di Prancis, misalnya, ada [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), yang **mencantumkan lusinan acara Bitcoin setiap bulannya**. Jadi, jika Anda belum mengikuti mereka di Twitter atau menghubungi mereka untuk berbagi informasi tentang komunitas dan acara Anda, sekaranglah saatnya! **Untuk membantu menjaga agar kalender acara di Perancis tetap up-to-date, akan sangat baik jika semua komunitas Bitcoin Perancis membiasakan diri untuk:**
     - menyebut @bitcoinpointfr di Twitter untuk setiap acara komunitas baru
@@ -1936,7 +1936,7 @@ Di tempat pribadi seperti konser, bar, atau stadion, periksa apakah stiker sudah
 Proyek lain yang dapat Anda siapkan dengan mudah adalah **membuat perpustakaan di pertemuan Anda**.
 
 
-Anda dapat mengundang peserta yang ingin berbagi bahan bacaan untuk membawa buku yang berhubungan dengan Bitcoin. Jika ada orang lain yang ingin meminjamnya, Anda dapat mengatur peminjaman dengan pemiliknya di Exchange dengan membayar uang jaminan, misalnya 21.000 satoshi melalui Lightning.
+Anda dapat mengundang peserta yang ingin berbagi bahan bacaan untuk membawa buku yang berhubungan dengan Bitcoin. Jika ada orang lain yang ingin meminjamnya, Anda dapat mengatur peminjaman dengan pemiliknya di Exchange dengan membayar uang jaminan, misalnya 21.000 satoshi melalui [Lightning](https://planb.academy/resources/glossary/lightning-network).
 
 
 Bagi pemilik, deposit ini membantu menutupi potensi kehilangan atau pencurian. Bagi peminjam, ini adalah insentif untuk kembali ke pertemuan berikutnya untuk mengambil deposit mereka.

@@ -1391,7 +1391,7 @@ Bunlar şunları içerir:
 
 
 
-- [Btcmap.org](https://btcmap.org/)**, günlük olarak güncellenen iki haritaya sahip bir web sitesi: **[Bitcoin kabul eden işletmelerin dünya haritası](https://btcmap.org/map)** ve **[dünya toplulukları haritası](https://btcmap.org/communities/map)**. Birçok bitcoin kullanıcısı, seyahat ederken ya da günlük hayatlarına devam ederken, yeni insanlarla tanışmak ya da Sats'lerini harcayacak yerler bulmak için bu haritaları düzenli olarak kontrol etmektedir. Btcmap küresel bir referanstır ve topluluğunuzu burada listelemek görünürlük için çok önemlidir.**
+- [Btcmap.org](https://btcmap.org/)**, günlük olarak güncellenen iki haritaya sahip bir web sitesi: **[Bitcoin kabul eden işletmelerin dünya haritası](https://btcmap.org/map)** ve **[dünya toplulukları haritası](https://btcmap.org/communities/map)**. Birçok bitcoin kullanıcısı, seyahat ederken ya da günlük hayatlarına devam ederken, yeni insanlarla tanışmak ya da [Sats](https://planb.academy/resources/glossary/satoshi-sat)'lerini harcayacak yerler bulmak için bu haritaları düzenli olarak kontrol etmektedir. Btcmap küresel bir referanstır ve topluluğunuzu burada listelemek görünürlük için çok önemlidir.**
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), bitcoinciler tarafından bitcoinciler için oluşturulmuş bir web sitesi. **Topluluğunuzun yaklaşan etkinliklerini yayınlamanızı sağlar**. Ancak Fransa'da hala yaygın olarak kullanılmıyor.
 - ülkenize bağlı olarak, başka yerel girişimler de olabilir. Örneğin Fransa'da, her ay düzinelerce Bitcoin etkinliğini listeleyen [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/) var. Henüz onları Twitter'da takip etmediyseniz veya topluluğunuz ve etkinlikleriniz hakkında bilgi paylaşmak için onlarla iletişime geçmediyseniz, şimdi tam zamanı! **Fransız etkinlik takviminin güncel tutulmasına yardımcı olmak için, tüm Fransız Bitcoin topluluklarının aşağıdakileri alışkanlık haline getirmesi harika olacaktır:**
     - her yeni topluluk etkinliği için Twitter'da @bitcoinpointfr'den bahsetmek
@@ -1936,7 +1936,7 @@ Konser, bar veya stadyum gibi özel mekanlarda, kendi çıkartmanızı eklemeden
 Kolayca kurabileceğiniz bir başka proje de **toplantılarınızda bir kütüphane oluşturmaktır**.
 
 
-Okuma materyallerini paylaşmak isteyen katılımcıları Bitcoin ile ilgili bir kitap getirmeye davet edebilirsiniz. Buluşmadaki başka biri kitabı ödünç almak isterse, Exchange'deki sahibiyle, örneğin Lightning aracılığıyla 21.000 satoshis depozito karşılığında bir ödünç ayarlanabilir.
+Okuma materyallerini paylaşmak isteyen katılımcıları Bitcoin ile ilgili bir kitap getirmeye davet edebilirsiniz. Buluşmadaki başka biri kitabı ödünç almak isterse, Exchange'deki sahibiyle, örneğin [Lightning](https://planb.academy/resources/glossary/lightning-network) aracılığıyla 21.000 satoshis depozito karşılığında bir ödünç ayarlanabilir.
 
 
 Mal sahibi için bu depozito, olası kayıp veya hırsızlığı karşılamaya yardımcı olur. Ödünç alan kişi için ise depozitosunu almak üzere gelecekteki bir buluşmaya geri dönmesi için bir teşviktir.

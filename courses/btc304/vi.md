@@ -1391,7 +1391,7 @@ Bao gồm:
 
 
 
-- [Btcmap.org](https://btcmap.org/)**, một trang web với hai bản đồ được cập nhật hàng ngày: **[bản đồ thế giới về các doanh nghiệp chấp nhận Bitcoin](https://btcmap.org/map)** và **[bản đồ cộng đồng thế giới](https://btcmap.org/communities/map)**. Nhiều người dùng Bitcoin thường xuyên kiểm tra các bản đồ này, dù họ đang đi du lịch hay đang trong cuộc sống thường ngày, để gặp gỡ những người mới hoặc tìm địa điểm để chi tiêu Sats. Btcmap là tài liệu tham khảo toàn cầu, và việc liệt kê cộng đồng của bạn trên đó là điều cần thiết để tăng khả năng hiển thị.**
+- [Btcmap.org](https://btcmap.org/)**, một trang web với hai bản đồ được cập nhật hàng ngày: **[bản đồ thế giới về các doanh nghiệp chấp nhận Bitcoin](https://btcmap.org/map)** và **[bản đồ cộng đồng thế giới](https://btcmap.org/communities/map)**. Nhiều người dùng Bitcoin thường xuyên kiểm tra các bản đồ này, dù họ đang đi du lịch hay đang trong cuộc sống thường ngày, để gặp gỡ những người mới hoặc tìm địa điểm để chi tiêu [Sats](https://planb.academy/resources/glossary/satoshi-sat). Btcmap là tài liệu tham khảo toàn cầu, và việc liệt kê cộng đồng của bạn trên đó là điều cần thiết để tăng khả năng hiển thị.**
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), một trang web do những người dùng bitcoin tạo ra, dành cho những người dùng bitcoin. **Trang web này cho phép bạn đăng các sự kiện sắp tới của cộng đồng**. Tuy nhiên, ở Pháp, trang web này vẫn chưa được sử dụng rộng rãi.
 - Tùy thuộc vào quốc gia của bạn, có thể có những sáng kiến địa phương khác. Ví dụ, tại Pháp, có [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), **liệt kê hàng chục sự kiện Bitcoin mỗi tháng**. Vì vậy, nếu bạn chưa theo dõi họ trên Twitter hoặc liên hệ với họ để chia sẻ thông tin về cộng đồng và các sự kiện của mình, thì bây giờ chính là lúc! **Để giúp cập nhật lịch sự kiện của Pháp, sẽ rất tuyệt nếu tất cả các cộng đồng Bitcoin tại Pháp cùng nhau tạo thói quen:**
     - nhắc đến @bitcoinpointfr trên Twitter cho mọi sự kiện cộng đồng mới
@@ -1936,7 +1936,7 @@ Tại các địa điểm riêng tư như hòa nhạc, quán bar hoặc sân v�
 Một dự án khác mà bạn có thể dễ dàng thực hiện là **tạo thư viện tại các buổi gặp mặt**.
 
 
-Bạn có thể mời những người tham gia muốn chia sẻ tài liệu đọc của mình mang theo một cuốn sách liên quan đến Bitcoin. Nếu ai đó tại buổi gặp mặt muốn mượn, bạn có thể thỏa thuận với chủ sở hữu Exchange về việc vay tiền với một khoản đặt cọc, ví dụ: 21.000 satoshi qua Lightning.
+Bạn có thể mời những người tham gia muốn chia sẻ tài liệu đọc của mình mang theo một cuốn sách liên quan đến Bitcoin. Nếu ai đó tại buổi gặp mặt muốn mượn, bạn có thể thỏa thuận với chủ sở hữu Exchange về việc vay tiền với một khoản đặt cọc, ví dụ: 21.000 satoshi qua [Lightning](https://planb.academy/resources/glossary/lightning-network).
 
 
 Đối với chủ sở hữu, khoản tiền đặt cọc này giúp bù đắp cho các trường hợp mất mát hoặc trộm cắp tiềm ẩn. Đối với người vay, đây là động lực để họ quay lại gặp mặt trong tương lai để lấy lại tiền đặt cọc.

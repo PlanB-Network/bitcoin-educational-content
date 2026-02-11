@@ -771,7 +771,7 @@ Aber du kannst nicht vorankommen, ohne zu wissen, dass **es Plattformen gibt, au
 
 Dazu gehören:
 
-- [Btcmap.org](https://btcmap.org/), eine Website mit zwei täglich aktualisierten Karten: **[die Weltkarte der Unternehmen, die Bitcoin akzeptieren](https://btcmap.org/map)** und **[die Weltkarte der Gemeinden](https://btcmap.org/communities/map)**. Viele Bitcoiner überprüfen diese Karten regelmäßig, egal ob sie auf Reisen sind oder ihrem täglichen Leben nachgehen, um neue Leute kennenzulernen oder Orte zu finden, an denen sie ihre Sats ausgeben können. Btcmap ist die globale Referenz, und die Auflistung Ihrer Gemeinschaft dort ist für die Sichtbarkeit unerlässlich.
+- [Btcmap.org](https://btcmap.org/), eine Website mit zwei täglich aktualisierten Karten: **[die Weltkarte der Unternehmen, die Bitcoin akzeptieren](https://btcmap.org/map)** und **[die Weltkarte der Gemeinden](https://btcmap.org/communities/map)**. Viele Bitcoiner überprüfen diese Karten regelmäßig, egal ob sie auf Reisen sind oder ihrem täglichen Leben nachgehen, um neue Leute kennenzulernen oder Orte zu finden, an denen sie ihre [Sats](https://planb.academy/resources/glossary/satoshi-sat) ausgeben können. Btcmap ist die globale Referenz, und die Auflistung Ihrer Gemeinschaft dort ist für die Sichtbarkeit unerlässlich.
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), eine Website, die von Bitcoinern für Bitcoiner erstellt wurde. **Sie ermöglicht es dir, die anstehenden Veranstaltungen deiner Gemeinschaft zu veröffentlichen**. In Frankreich ist sie jedoch noch nicht weit verbreitet.
 - Je nach Land gibt es vielleicht andere lokale Initiativen. In Frankreich gibt es zum Beispiel [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), die **jeden Monat Dutzende von Bitcoin-Veranstaltungen auflistet**. Wenn du ihnen also noch nicht auf Twitter gefolgt bist oder sich mit ihnen in Verbindung gesetzt hast, um Informationen über Ihre Gemeinde und Veranstaltungen auszutauschen, dann ist jetzt der richtige Zeitpunkt dafür! **Um den französischen Veranstaltungskalender auf dem neuesten Stand zu halten, wäre es toll, wenn alle französischen Bitcoin-Gemeinschaften sich angewöhnen würden:**
     - erwähnung von @bitcoinpointfr auf Twitter für jedes neue Community-Event
@@ -1120,7 +1120,7 @@ Prüfe an privaten Veranstaltungsorten wie Konzerten, Bars oder Stadien, ob bere
 
 Ein weiteres Projekt, das du leicht einrichten kannst, ist **die Einrichtung einer Bibliothek bei deinen Treffen**.
 
-Du kannst Teilnehmer, die ihren Lesestoff mit anderen teilen möchten, dazu einladen, ein Buch mit Bezug zu Bitcoin mitzubringen. Wenn jemand anderes auf dem Treffen das Buch ausleihen möchte, könnte mit dem Eigentümer eine Ausleihe gegen eine Kaution von z. B. 21.000 Satoshis über Lightning vereinbart werden.
+Du kannst Teilnehmer, die ihren Lesestoff mit anderen teilen möchten, dazu einladen, ein Buch mit Bezug zu Bitcoin mitzubringen. Wenn jemand anderes auf dem Treffen das Buch ausleihen möchte, könnte mit dem Eigentümer eine Ausleihe gegen eine Kaution von z. B. 21.000 Satoshis über [Lightning](https://planb.academy/resources/glossary/lightning-network) vereinbart werden.
 
 Für den Eigentümer ist diese Kaution eine Absicherung bei Verlust oder Diebstahl. Für den Entleiher ist es ein Anreiz, zu einem zukünftigen Treffen zu kommen, um seine Kaution zurückzuholen.
 

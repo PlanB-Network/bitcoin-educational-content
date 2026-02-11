@@ -1391,7 +1391,7 @@ Obejmują one:
 
 
 
-- [Btcmap.org](https://btcmap.org/)**, strona internetowa z dwiema codziennie aktualizowanymi mapami: **[światowa mapa firm akceptujących Bitcoin](https://btcmap.org/map)** i **[światowa mapa społeczności](https://btcmap.org/communities/map)**. Wielu bitcoinerów regularnie sprawdza te mapy, niezależnie od tego, czy podróżują, czy prowadzą codzienne życie, aby poznać nowych ludzi lub znaleźć miejsca, w których mogą wydać swoje Sats. Btcmap jest globalnym punktem odniesienia, a umieszczenie tam swojej społeczności jest niezbędne dla widoczności**
+- [Btcmap.org](https://btcmap.org/)**, strona internetowa z dwiema codziennie aktualizowanymi mapami: **[światowa mapa firm akceptujących Bitcoin](https://btcmap.org/map)** i **[światowa mapa społeczności](https://btcmap.org/communities/map)**. Wielu bitcoinerów regularnie sprawdza te mapy, niezależnie od tego, czy podróżują, czy prowadzą codzienne życie, aby poznać nowych ludzi lub znaleźć miejsca, w których mogą wydać swoje [Sats](https://planb.academy/resources/glossary/satoshi-sat). Btcmap jest globalnym punktem odniesienia, a umieszczenie tam swojej społeczności jest niezbędne dla widoczności**
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), strona stworzona przez bitcoinerów, dla bitcoinerów. **Umożliwia ona publikowanie nadchodzących wydarzeń społeczności**. Jednak we Francji nadal nie jest ona powszechnie używana.
 - w zależności od kraju, mogą istnieć inne lokalne inicjatywy. We Francji, na przykład, istnieje strona [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), która co miesiąc **liczy dziesiątki wydarzeń Bitcoin**. Więc jeśli jeszcze nie śledziłeś ich na Twitterze lub nie skontaktowałeś się z nimi, aby podzielić się informacjami o swojej społeczności i wydarzeniach, teraz jest na to czas! **Aby pomóc w aktualizowaniu francuskiego kalendarza wydarzeń, byłoby wspaniale, gdyby wszystkie francuskie społeczności Bitcoin nabrały nawyku:**
     - wspominanie @bitcoinpointfr na Twitterze o każdym nowym wydarzeniu społecznościowym
@@ -1936,7 +1936,7 @@ W miejscach prywatnych, takich jak koncerty, bary lub stadiony, przed dodaniem s
 Innym projektem, który można łatwo skonfigurować, jest **tworzenie biblioteki na spotkaniach**.
 
 
-Można zaprosić uczestników, którzy chcą podzielić się swoimi materiałami do czytania, aby przynieśli książkę związaną z Bitcoin. Jeśli ktoś inny na spotkaniu będzie chciał ją pożyczyć, można zorganizować pożyczkę od właściciela w Exchange za kaucją, na przykład 21 000 satoshi za pośrednictwem Lightning.
+Można zaprosić uczestników, którzy chcą podzielić się swoimi materiałami do czytania, aby przynieśli książkę związaną z Bitcoin. Jeśli ktoś inny na spotkaniu będzie chciał ją pożyczyć, można zorganizować pożyczkę od właściciela w Exchange za kaucją, na przykład 21 000 satoshi za pośrednictwem [Lightning](https://planb.academy/resources/glossary/lightning-network).
 
 
 Dla właściciela depozyt ten pomaga pokryć potencjalną stratę lub kradzież. Dla pożyczkobiorcy jest to zachęta do powrotu na przyszłe spotkanie w celu odzyskania depozytu.

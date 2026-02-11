@@ -1391,7 +1391,7 @@ Estes incluem:
 
 
 
-- [Btcmap.org](https://btcmap.org/), um sítio Web com dois mapas actualizados diariamente: **[o mapa mundial das empresas que aceitam Bitcoin](https://btcmap.org/map)** e **[o mapa mundial das comunidades](https://btcmap.org/communities/map)**. Muitos bitcoiners consultam estes mapas regularmente, quer estejam a viajar ou a fazer a sua vida quotidiana, para conhecer novas pessoas ou encontrar locais onde gastar os seus Sats. O Btcmap é a referência global, e listar a sua comunidade lá é essencial para a visibilidade
+- [Btcmap.org](https://btcmap.org/), um sítio Web com dois mapas actualizados diariamente: **[o mapa mundial das empresas que aceitam Bitcoin](https://btcmap.org/map)** e **[o mapa mundial das comunidades](https://btcmap.org/communities/map)**. Muitos bitcoiners consultam estes mapas regularmente, quer estejam a viajar ou a fazer a sua vida quotidiana, para conhecer novas pessoas ou encontrar locais onde gastar os seus [Sats](https://planb.academy/resources/glossary/satoshi-sat). O Btcmap é a referência global, e listar a sua comunidade lá é essencial para a visibilidade
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), um sítio Web criado por bitcoiners, para bitcoiners. **Permite-lhe publicar os próximos eventos da sua comunidade**. Em França, no entanto, ainda não é muito utilizado.
 - dependendo do seu país, pode haver outras iniciativas locais. Em França, por exemplo, existe o [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), que **lista dezenas de eventos Bitcoin todos os meses**. Por isso, se ainda não os seguiu no Twitter ou não os contactou para partilhar informações sobre a sua comunidade e eventos, chegou a altura! **Para ajudar a manter o calendário de eventos francês atualizado, seria ótimo se todas as comunidades francesas do Bitcoin tivessem o hábito de**
     - mencionar @bitcoinpointfr no Twitter para cada novo evento da comunidade
@@ -1936,7 +1936,7 @@ Em locais privados, como concertos, bares ou estádios, verifique se já existem
 Outro projeto que pode ser facilmente implementado é **criar uma biblioteca nos seus encontros**.
 
 
-Os participantes que desejem partilhar o seu material de leitura podem ser convidados a trazer um livro relacionado com a Bitcoin. Se alguém no encontro o quiser emprestar, pode ser feito um empréstimo ao proprietário na Exchange mediante um depósito, por exemplo, de 21 000 satoshis via Lightning.
+Os participantes que desejem partilhar o seu material de leitura podem ser convidados a trazer um livro relacionado com a Bitcoin. Se alguém no encontro o quiser emprestar, pode ser feito um empréstimo ao proprietário na Exchange mediante um depósito, por exemplo, de 21 000 satoshis via [Lightning](https://planb.academy/resources/glossary/lightning-network).
 
 
 Para o proprietário, este depósito ajuda a cobrir eventuais perdas ou roubos. Para o mutuário, é um incentivo para voltar a um futuro encontro para recuperar o seu depósito.

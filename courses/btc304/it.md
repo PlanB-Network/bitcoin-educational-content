@@ -1391,7 +1391,7 @@ Questi includono:
 
 
 
-- [Btcmap.org](https://btcmap.org/)**, un sito web con due mappe aggiornate quotidianamente: **[la mappa mondiale delle aziende che accettano Bitcoin](https://btcmap.org/map)** e **[la mappa delle community mondiali](https://btcmap.org/communities/map)**. Molti Bitcoiners controllano regolarmente queste mappe, sia in viaggio che nella vita di tutti i giorni, per conoscere nuove persone o trovare luoghi in cui spendere i propri sats. Btcmap è il punto di riferimento globale e inserirvi la propria community è essenziale per la visibilità.**
+- [Btcmap.org](https://btcmap.org/)**, un sito web con due mappe aggiornate quotidianamente: **[la mappa mondiale delle aziende che accettano Bitcoin](https://btcmap.org/map)** e **[la mappa delle community mondiali](https://btcmap.org/communities/map)**. Molti Bitcoiners controllano regolarmente queste mappe, sia in viaggio che nella vita di tutti i giorni, per conoscere nuove persone o trovare luoghi in cui spendere i propri [sats](https://planb.academy/resources/glossary/satoshi-sat). Btcmap è il punto di riferimento globale e inserirvi la propria community è essenziale per la visibilità.**
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), un sito web creato da Bitcoiners, per Bitcoiners. **Consente di pubblicare i prossimi eventi della propria community**. In Francia, tuttavia, non è ancora molto utilizzato.
 - a seconda del tuo Paese, potrebbero esserci altre iniziative locali. In Francia, ad esempio, c'è [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), che **elenca decine di eventi Bitcoin ogni mese**. Quindi, se non li hai ancora seguiti su Twitter o contattati per condividere informazioni sulla tua community e sugli eventi, è il momento giusto! **Per contribuire a mantenere aggiornato il calendario degli eventi in Francia, sarebbe bello se tutte le community Bitcoin francesi prendessero questa abitudine.**
     - menzionando @bitcoinpointfr su Twitter per ogni nuovo evento della community.
@@ -1935,7 +1935,7 @@ In luoghi privati come concerti, bar o stadi, controlla se sono già presenti ad
 Un altro progetto che si può facilmente mettere in piedi è la **creazione di una biblioteca nei tuoi incontri**.
 
 
-Si potrebbero invitare i partecipanti che desiderano condividere il proprio materiale di lettura a portare un libro legato a Bitcoin. Se qualcun altro al meeting-up vuole prenderlo in prestito, si potrebbe concordare un prestito con il proprietario in cambio di un deposito, ad esempio 21.000 satoshi via Lightning.
+Si potrebbero invitare i partecipanti che desiderano condividere il proprio materiale di lettura a portare un libro legato a Bitcoin. Se qualcun altro al meeting-up vuole prenderlo in prestito, si potrebbe concordare un prestito con il proprietario in cambio di un deposito, ad esempio 21.000 satoshi via [Lightning](https://planb.academy/resources/glossary/lightning-network).
 
 
 Per il proprietario, il deposito serve a coprire eventuali perdite o furti. Per il mutuatario, è un incentivo a tornare a un futuro incontro per recuperare il deposito.

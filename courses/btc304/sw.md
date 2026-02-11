@@ -1390,7 +1390,7 @@ Hizi ni pamoja na:
 
 
 
-- [Btcmap.org](https://btcmap.org/)**, tovuti iliyo na ramani mbili zinazosasishwa kila siku: **[ramani ya ulimwengu ya biashara zinazokubali Bitcoin](https://btcmap.org/map)** na **[ramani ya jumuiya za ulimwengu](https://btcmap.org/communities/map)**. Wafanyabiashara wengi wa bitcoin huangalia ramani hizi mara kwa mara, iwe wanasafiri au wanaendelea na maisha yao ya kila siku, kukutana na watu wapya au kutafuta maeneo ya kutumia Sats yao. Btcmap ndiyo rejeleo la kimataifa, na kuorodhesha jumuiya yako huko ni muhimu kwa mwonekano.**
+- [Btcmap.org](https://btcmap.org/)**, tovuti iliyo na ramani mbili zinazosasishwa kila siku: **[ramani ya ulimwengu ya biashara zinazokubali Bitcoin](https://btcmap.org/map)** na **[ramani ya jumuiya za ulimwengu](https://btcmap.org/communities/map)**. Wafanyabiashara wengi wa bitcoin huangalia ramani hizi mara kwa mara, iwe wanasafiri au wanaendelea na maisha yao ya kila siku, kukutana na watu wapya au kutafuta maeneo ya kutumia [Sats](https://planb.academy/resources/glossary/satoshi-sat) yao. Btcmap ndiyo rejeleo la kimataifa, na kuorodhesha jumuiya yako huko ni muhimu kwa mwonekano.**
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), tovuti iliyoundwa na bitcoiners, kwa bitcoiners. **Inakuwezesha kuchapisha matukio yajayo ya jumuiya yako**. Huko Ufaransa, hata hivyo, bado haitumiki sana.
 - kulingana na nchi yako, kunaweza kuwa na mipango mingine ya ndani. Nchini Ufaransa, kwa mfano, kuna [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), ambayo **orodhesha makumi ya matukio ya Bitcoin kila mwezi**. Kwa hivyo ikiwa bado hujawafuata kwenye Twitter au kuwasiliana nao ili kushiriki habari kuhusu jumuiya na matukio yako, sasa ndio wakati! **Ili kusaidia kusasisha kalenda ya matukio ya Ufaransa, itakuwa vyema ikiwa jumuiya zote za Kifaransa za Bitcoin zitakuwa na mazoea ya:**
     - kutaja @bitcoinpointfr kwenye Twitter kwa kila tukio jipya la jumuiya
@@ -1935,7 +1935,7 @@ Katika kumbi za faragha kama vile tamasha, baa au viwanja vya michezo, angalia i
 Mradi mwingine unaoweza kusanidi kwa urahisi ni **kuunda maktaba kwenye mikutano yako**.
 
 
-Unaweza kuwaalika washiriki wanaotaka kushiriki nyenzo zao za usomaji kuleta kitabu kinachohusiana na Bitcoin. Ikiwa mtu mwingine kwenye mkutano anataka kuazima, mkopo unaweza kupangwa na mmiliki katika Exchange kwa amana, kwa mfano, satoshi 21,000 kupitia Lightning.
+Unaweza kuwaalika washiriki wanaotaka kushiriki nyenzo zao za usomaji kuleta kitabu kinachohusiana na Bitcoin. Ikiwa mtu mwingine kwenye mkutano anataka kuazima, mkopo unaweza kupangwa na mmiliki katika Exchange kwa amana, kwa mfano, satoshi 21,000 kupitia [Lightning](https://planb.academy/resources/glossary/lightning-network).
 
 
 Kwa mmiliki, amana hii husaidia kufidia uwezekano wa hasara au wizi. Kwa mkopaji, ni motisha ya kurejea kwenye mkutano wa siku zijazo ili kurejesha amana yake.

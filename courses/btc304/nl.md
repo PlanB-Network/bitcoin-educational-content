@@ -1391,7 +1391,7 @@ Deze omvatten:
 
 
 
-- [Btcmap.org](https://btcmap.org/)**, een website met twee kaarten die dagelijks worden bijgewerkt: **[de wereldkaart van bedrijven die Bitcoin accepteren](https://btcmap.org/map)** en **[de wereldkaart van gemeenschappen](https://btcmap.org/communities/map)**. Veel bitcoiners bekijken deze kaarten regelmatig, of ze nu op reis zijn of hun dagelijks leven leiden, om nieuwe mensen te ontmoeten of plekken te vinden om hun Sats uit te geven. Btcmap is de wereldwijde referentie en het is essentieel voor de zichtbaarheid om je gemeenschap daar te vermelden.**
+- [Btcmap.org](https://btcmap.org/)**, een website met twee kaarten die dagelijks worden bijgewerkt: **[de wereldkaart van bedrijven die Bitcoin accepteren](https://btcmap.org/map)** en **[de wereldkaart van gemeenschappen](https://btcmap.org/communities/map)**. Veel bitcoiners bekijken deze kaarten regelmatig, of ze nu op reis zijn of hun dagelijks leven leiden, om nieuwe mensen te ontmoeten of plekken te vinden om hun [Sats](https://planb.academy/resources/glossary/satoshi-sat) uit te geven. Btcmap is de wereldwijde referentie en het is essentieel voor de zichtbaarheid om je gemeenschap daar te vermelden.**
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), een website gemaakt door bitcoiners, voor bitcoiners. **Je kunt er de komende evenementen van je gemeenschap posten**. In Frankrijk wordt het echter nog niet veel gebruikt.
 - afhankelijk van je land kunnen er andere lokale initiatieven zijn. In Frankrijk is er bijvoorbeeld [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), die **elke maand een lijst maakt van tientallen Bitcoin evenementen**. Dus als je hen nog niet volgt op Twitter of contact met hen opneemt om informatie over jouw gemeenschap en evenementen te delen, dan is het nu tijd! **Om de Franse evenementenkalender up-to-date te houden, zou het geweldig zijn als alle Franse Bitcoin gemeenschappen er een gewoonte van maken om:**
     - vermelding van @bitcoinpointfr op Twitter voor elk nieuw gemeenschapsevenement
@@ -1936,7 +1936,7 @@ Controleer in privégelegenheden zoals concerten, bars of stadions of er al stic
 Een ander project dat je gemakkelijk kunt opzetten is **een bibliotheek maken bij je meet-ups**.
 
 
-Je zou deelnemers die hun leesmateriaal willen delen kunnen uitnodigen om een Bitcoin-gerelateerd boek mee te nemen. Als iemand anders op de meet-up het wil lenen, kan een lening worden geregeld met de eigenaar in Exchange tegen een borg, bijvoorbeeld 21.000 satoshis via Lightning.
+Je zou deelnemers die hun leesmateriaal willen delen kunnen uitnodigen om een Bitcoin-gerelateerd boek mee te nemen. Als iemand anders op de meet-up het wil lenen, kan een lening worden geregeld met de eigenaar in Exchange tegen een borg, bijvoorbeeld 21.000 satoshis via [Lightning](https://planb.academy/resources/glossary/lightning-network).
 
 
 Voor de eigenaar helpt deze borg om mogelijk verlies of diefstal te dekken. Voor de lener is het een stimulans om terug te komen naar een toekomstige ontmoeting om zijn borg op te halen.

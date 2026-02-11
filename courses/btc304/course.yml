@@ -23,12 +23,12 @@ proofreading:
     urgency: 1
     contributor_names:
       - bitcoinJungle
-    reward: 11.04
+    reward: 11.06
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 33.07
+    reward: 33.13
   - language: de
     last_contribution_date: 2025-11-05
     urgency: 1
@@ -40,124 +40,124 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 22.08
+    reward: 22.12
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 33.07
+    reward: 33.13
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 33.07
+    reward: 33.13
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 33.07
+    reward: 33.13
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 44.06
+    reward: 44.14
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 22.08
+    reward: 22.12
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 55.05
+    reward: 55.16
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 33.07
+    reward: 33.13
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 33.07
+    reward: 33.13
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 22.08
+    reward: 22.12
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 33.07
+    reward: 33.13
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 44.06
+    reward: 44.14
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 44.06
+    reward: 44.14
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 44.06
+    reward: 44.14
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 22.08
+    reward: 22.12
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 55.05
+    reward: 55.16
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 33.07
+    reward: 33.13
   - language: sw
     last_contribution_date: 2025-11-06
     urgency: 1
     contributor_names:
       - monyangi10
-    reward: 16.53
+    reward: 16.57
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 55.05
+    reward: 55.16
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 44.06
+    reward: 44.14
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 44.06
+    reward: 44.14
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 55.05
+    reward: 55.16
   - language: bg
     last_contribution_date: 2025-12-29
     urgency: 1
     contributor_names:
       - dnabg
-    reward: 16.53
+    reward: 16.57
   - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 44.06
+    reward: 44.14
 tags:
   - guides
   - case-studies

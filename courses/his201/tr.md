@@ -129,7 +129,7 @@ Bitcoin'nin yaratılışının inanılmaz destanını keşfetmeye hazır mısın
 :::video id=fe306046-2245-43a7-9144-6fbafda3205e:::
 
 
-Bitcoin'nin Satoshi Nakamoto tarafından yaratılmasının gerçek hikayesine geçmeden önce, bunun öncesinde neler olduğunu tartışmak yerinde olacaktır. Konuyu üç aşamada ele alacağız: ilk olarak, yaygın olarak *eCash* olarak adlandırılan Chaumian dijital nakit kavramını tanıtacağız; daha sonra, e-gold gibi merkezi sistemlere dayalı özel para birimlerinden bahsedeceğiz; son olarak, Bitcoin olan sağlam dağıtık sistemin uygulanmasından önce hayal edilen teknik modelleri açıklayacağız.
+Bitcoin'nin [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) tarafından yaratılmasının gerçek hikayesine geçmeden önce, bunun öncesinde neler olduğunu tartışmak yerinde olacaktır. Konuyu üç aşamada ele alacağız: ilk olarak, yaygın olarak *[eCash](https://planb.academy/resources/glossary/ecash-david-chaum)* olarak adlandırılan Chaumian dijital nakit kavramını tanıtacağız; daha sonra, e-gold gibi merkezi sistemlere dayalı özel para birimlerinden bahsedeceğiz; son olarak, Bitcoin olan sağlam dağıtık sistemin uygulanmasından önce hayal edilen teknik modelleri açıklayacağız.
 
 
 İlk konsept olan eCash ile başlayalım. eCash, 1955 doğumlu Amerikalı bir bilgisayar bilimcisi ve kriptograf olan David Chaum'un çalışmalarından kaynaklanmaktadır. Kendisi anonim iletişim alanında bir öncü ve cypherpunk'ların öncüsü olarak kabul edilir. 1980'lerde kriptografinin gelişimine büyük katkıda bulunmuştur. Aynı zamanda dijital nakit modelini ("Chaumian") geliştirmiş ve 1990'larda şirketi DigiCash aracılığıyla uygulamaya çalışmıştır.
@@ -214,7 +214,7 @@ ECash modeli, müşterilerin nispeten gizli ödemeler yapmasına olanak tanıyan
 Dijital banknotlar teminatsız olarak çıkarılabilir veya desteklenebilir. İlk durumda, değer kazanması gereken bir temel para birimi oluştururlar. İkinci durumda, başka bir para birimi (tipik olarak dolar) tarafından desteklenirler ve kullanıcı, ilgili tutarı geri almak için istediği zaman bankalarına banknotlarını iade edebilir.
 
 
-Teknik işleyişinde eCash modeli, imzalayan kişinin neyi imzaladığını görmeden bir şeyi imzalamasına olanak tanıyan kör imza sürecine dayanmaktadır. Bir kullanıcı her bir banknotu üretir ve daha sonra banka banknotu tanımlayamadan gerçekliğini sağlamak için bir banka tarafından imzalanır. Her bir banknot belirli miktarda parasal birimi (mezhep) temsil eder ve sistemdeki her bankanın her bir mezhep türünü imzalamak için bir özel anahtarı vardır. İlgili matematiksel prosedür (burada açıklamayacağız), kapalı bir zarf içine yerleştirilmiş [karbon kağıdı](https://fr.wikipedia.org/wiki/Papier_carbone) üzerindeki fiziksel bir notun imzalanmasına benzer.
+Teknik işleyişinde eCash modeli, imzalayan kişinin neyi imzaladığını görmeden bir şeyi imzalamasına olanak tanıyan kör imza [sürecine](https://planb.academy/resources/glossary/blind-signature) dayanmaktadır. Bir kullanıcı her bir banknotu üretir ve daha sonra banka banknotu tanımlayamadan gerçekliğini sağlamak için bir banka tarafından imzalanır. Her bir banknot belirli miktarda parasal birimi (mezhep) temsil eder ve sistemdeki her bankanın her bir mezhep türünü imzalamak için bir özel anahtarı vardır. İlgili matematiksel prosedür (burada açıklamayacağız), kapalı bir zarf içine yerleştirilmiş [karbon kağıdı](https://fr.wikipedia.org/wiki/Papier_carbone) üzerindeki fiziksel bir notun imzalanmasına benzer.
 
 
 Burada bir Chaumian notasının oluşturulması ve değiştirilmesinde yer alan farklı adımların bir örneği yer almaktadır (*L'Élégance de Bitcoin*'dan):
@@ -429,7 +429,7 @@ Bitcoin dijital para biriminin merkezi olmayan bir modelini temsil etmektedir. B
 Bununla birlikte Bitcoin, önerilen ilk merkezi olmayan para birimi kavramı değildi. Bu tür modeller 1990'ların sonlarından bu yana, internette bireylerin özgürlüğü ve mahremiyetine takıntılı olan ve (David Chaum gibi) izleme sistemlerinin distopik bir geleceğe yol açtığına inanan cypherpunk'lar tarafından tanımlanmıştır. "Kod yazmak" için [çağrıda bulundular](https://cypherpunks.venona.com/date/1993/03/msg00392.html) ve "elektronik parayı" idealleri için temel bir unsur olarak gördüler. (*orijinal: "Cypherpunk'lar kod yazıyor. (...) Gizliliğimizi kriptografi, anonim posta yönlendirme sistemleri, dijital imzalar ve elektronik para ile savunuyoruz. "*)
 
 
-Bu bölümde, daha sonra Bitcoin'te kullanılan çeşitli temel teknik Elements'nin ortaya çıkışını inceleyeceğiz: dağıtılmış mutabakat, zaman damgası ve Proof of Work. Ardından, sırasıyla Wei Dai, Nick Szabo ve Hal Finney tarafından tasarlanan b-money, bit gold ve RPOW hakkında konuşacağız. Son olarak, modeli biraz farklı olan, ancak Bitcoin'ün yaratılış tarihinde yeri olan Ripple'ın durumunu tartışacağız.
+Bu bölümde, daha sonra Bitcoin'te kullanılan çeşitli temel teknik Elements'nin ortaya çıkışını inceleyeceğiz: [dağıtılmış mutabakat](https://planb.academy/resources/glossary/consensus), [zaman damgası](https://planb.academy/resources/glossary/timestamp) ve Proof of Work. Ardından, sırasıyla Wei Dai, Nick Szabo ve Hal Finney tarafından tasarlanan b-money, bit gold ve RPOW hakkında konuşacağız. Son olarak, modeli biraz farklı olan, ancak Bitcoin'ün yaratılış tarihinde yeri olan Ripple'ın durumunu tartışacağız.
 
 
 ### Dağıtılmış Konsensüs

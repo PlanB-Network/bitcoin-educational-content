@@ -302,7 +302,7 @@ Bitcoin je decentralizovaný, takže si s ním přirozeně každý může dělat
 V tomto smyslu může pomoci jednoduché "pravidlo": pokud v okruhu 30-45 minut od vašeho bydliště není žádná aktivní komunita Bitcoin, možná by stálo za to založit novou. Přesto si vždy můžete dělat, co chcete.
 
 
-A samozřejmě, pokud se starší komunita "vyvinula" směrem, který již není v souladu s vašimi hodnotami, a vy nemáte čas nebo motivaci ji "oranžově obohatit", pak je vždy možné vytvořit si vlastní Fork.
+A samozřejmě, pokud se starší komunita "vyvinula" směrem, který již není v souladu s vašimi hodnotami, a vy nemáte čas nebo motivaci ji "oranžově obohatit", pak je vždy možné vytvořit si vlastní [Fork](https://planb.academy/resources/glossary/fork).
 
 
 

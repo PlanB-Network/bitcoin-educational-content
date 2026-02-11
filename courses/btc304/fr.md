@@ -145,7 +145,7 @@ Cependant, il est évident qu'**il est plus pertinent d'unir ses forces plutôt 
 
 En ce sens, une "convention" peut permettre de trancher sur la question : si aucune communauté Bitcoin active n'existe à moins de 30 à 45 minutes de chez vous, alors il peut être pertinent d'en créer une nouvelle. Mais bien évidemment, vous êtes parfaitement libre de faire comme bon vous semble.
 
-Bien évidemment, dans le cas où une ancienne communauté Bitcoin a — disons — "évolué", dans le sens où elle ne partage plus vos valeurs et que vous n'avez pas la motivation ou le temps de les orange-piller, créer un fork est toujours possible.
+Bien évidemment, dans le cas où une ancienne communauté Bitcoin a — disons — "évolué", dans le sens où elle ne partage plus vos valeurs et que vous n'avez pas la motivation ou le temps de les [orange-piller](https://planb.academy/resources/glossary/orange-pill), créer un [fork](https://planb.academy/resources/glossary/fork) est toujours possible.
 
 ## Quels objectifs se fixer ?
 <chapterId>0aae1aa8-93ec-544a-ad88-22d32c619595</chapterId>

@@ -302,7 +302,7 @@ Jednak **połączenie sił często ma większy sens niż dzielenie pobliskich sp
 W tym sensie pomocna może być prosta "zasada kciuka": jeśli w ciągu 30-45 minut od miejsca zamieszkania nie ma aktywnej społeczności Bitcoin, warto założyć nową. To powiedziawszy, zawsze możesz robić, co chcesz.
 
 
-I oczywiście, jeśli starsza społeczność "ewoluowała" w kierunku, który nie jest już zgodny z twoimi wartościami, a ty nie masz czasu ani motywacji do "pomarańczowej pigułki", to stworzenie własnego Fork jest zawsze opcją.
+I oczywiście, jeśli starsza społeczność "ewoluowała" w kierunku, który nie jest już zgodny z twoimi wartościami, a ty nie masz czasu ani motywacji do "[pomarańczowej pigułki](https://planb.academy/resources/glossary/orange-pill)", to stworzenie własnego [Fork](https://planb.academy/resources/glossary/fork) jest zawsze opcją.
 
 
 

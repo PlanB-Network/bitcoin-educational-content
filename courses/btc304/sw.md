@@ -302,7 +302,7 @@ Hata hivyo, **kuunganisha nguvu mara nyingi kunaleta maana zaidi kuliko kugawany
 Kwa maana hii, "kanuni" rahisi inaweza kusaidia: ikiwa hakuna jumuiya amilifu ya Bitcoin ndani ya dakika 30-45 kutoka mahali unapoishi, inaweza kufaa kuanzisha mpya. Hiyo ilisema, kila wakati uko huru kufanya unavyotaka.
 
 
-Na bila shaka, ikiwa jumuiya ya wazee "imebadilika" katika mwelekeo ambao haulingani tena na maadili yako, na huna wakati au motisha ya "kidonge cha chungwa", basi kuunda Fork yako mwenyewe daima ni chaguo.
+Na bila shaka, ikiwa jumuiya ya wazee "imebadilika" katika mwelekeo ambao haulingani tena na maadili yako, na huna wakati au motisha ya "[kidonge cha chungwa](https://planb.academy/resources/glossary/orange-pill)", basi kuunda [Fork](https://planb.academy/resources/glossary/fork) yako mwenyewe daima ni chaguo.
 
 
 

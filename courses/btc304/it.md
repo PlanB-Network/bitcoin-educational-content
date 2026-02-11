@@ -302,7 +302,7 @@ Tuttavia, **unire le forze spesso ha più senso che dividere community vicine e 
 In questo senso, può essere utile una semplice "regola empirica": se non c'è una community Bitcoin attiva nel raggio di 30-45 minuti da dove si vive, può valere la pena di crearne una nuova. Detto questo, sei sempre libero di fare come vuoi.
 
 
-E naturalmente, se una vecchia community si è "evoluta" in una direzione che non è più in linea con i tuoi valori, e non hai il tempo o la motivazione per "orange-pillare"(termine derivato dalla metafora di Matrix, nel caso di Bitcoin, significa entrare nel mondo di Bitcoin e scoprirne le sue verità), allora creare la tua fork è sempre un'opzione.
+E naturalmente, se una vecchia community si è "evoluta" in una direzione che non è più in linea con i tuoi valori, e non hai il tempo o la motivazione per "[orange-pillare](https://planb.academy/resources/glossary/orange-pill)"(termine derivato dalla metafora di Matrix, nel caso di Bitcoin, significa entrare nel mondo di Bitcoin e scoprirne le sue verità), allora creare la tua [fork](https://planb.academy/resources/glossary/fork) è sempre un'opzione.
 
 
 

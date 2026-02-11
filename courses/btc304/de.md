@@ -172,7 +172,7 @@ Bitcoin ist dezentralisiert, so dass es natürlich jedem freisteht, zu tun, was 
 Es ist jedoch **oft sinnvoller, die Kräfte zu bündeln, als benachbarte Gemeinschaften aufzuteilen und die Auswirkungen jeder einzelnen zu verringern**. Eine neue Gemeinschaft zu gründen, wo es bereits eine gibt, kann ungewollt Konkurrenz schaffen.
 
 In diesem Sinne kann eine einfache "Faustregel" helfen: Wenn es in einem Umkreis von 30-45 Minuten um deinen Wohnort keine aktive Bitcoin-Gemeinschaft gibt, kann es sich lohnen, eine neue zu gründen. Es steht dir jedoch immer frei, zu tun, was du willst.
-Und wenn sich eine ältere Gemeinschaft in eine Richtung "entwickelt" hat, die nicht mehr mit deinen Werten übereinstimmt, und du nicht die Zeit oder die Motivation hast, sie zu "Orange-Pillen", dann ist die Schaffung einer eigenen Fork natürlich immer eine Option.
+Und wenn sich eine ältere Gemeinschaft in eine Richtung "entwickelt" hat, die nicht mehr mit deinen Werten übereinstimmt, und du nicht die Zeit oder die Motivation hast, sie zu "[Orange-Pillen](https://planb.academy/resources/glossary/orange-pill)", dann ist die Schaffung einer eigenen [Fork](https://planb.academy/resources/glossary/fork) natürlich immer eine Option.
 
 ## Welche Ziele sollte deine Gemeinschaft verfolgen?
 

@@ -302,7 +302,7 @@ Det er imidlertid ofte mer fornuftig å slå seg sammen enn å splitte nærligge
 I så måte kan en enkel "tommelfingerregel" være til hjelp: Hvis det ikke finnes et aktivt Bitcoin-fellesskap innen 30-45 minutter fra der du bor, kan det lønne seg å starte et nytt. Når det er sagt, står du alltid fritt til å gjøre som du vil.
 
 
-Og hvis et eldre fellesskap har "utviklet" seg i en retning som ikke lenger er i tråd med dine verdier, og du ikke har tid eller motivasjon til å "oransjepille" dem, er det selvfølgelig alltid et alternativ å lage din egen Fork.
+Og hvis et eldre fellesskap har "utviklet" seg i en retning som ikke lenger er i tråd med dine verdier, og du ikke har tid eller motivasjon til å "[oransjepille](https://planb.academy/resources/glossary/orange-pill)" dem, er det selvfølgelig alltid et alternativ å lage din egen [Fork](https://planb.academy/resources/glossary/fork).
 
 
 

@@ -302,7 +302,7 @@ Kuitenkin **voimien yhdistäminen on usein järkevämpää kuin läheisten yhtei
 Tässä mielessä yksinkertainen "nyrkkisääntö" voi auttaa: jos 30-45 minuutin säteellä asuinpaikastasi ei ole aktiivista Bitcoin-yhteisöä, kannattaa ehkä perustaa uusi yhteisö. Tästä huolimatta voit aina tehdä niin kuin haluat.
 
 
-Ja tietenkin, jos vanhempi yhteisö on "kehittynyt" suuntaan, joka ei enää vastaa arvojasi, eikä sinulla ole aikaa tai motivaatiota "oranssinpillereiden" tekemiseen, oman Fork:n luominen on aina yksi vaihtoehto.
+Ja tietenkin, jos vanhempi yhteisö on "kehittynyt" suuntaan, joka ei enää vastaa arvojasi, eikä sinulla ole aikaa tai motivaatiota "[oranssinpillereiden](https://planb.academy/resources/glossary/orange-pill)" tekemiseen, oman [Fork](https://planb.academy/resources/glossary/fork):n luominen on aina yksi vaihtoehto.
 
 
 

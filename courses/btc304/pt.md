@@ -302,7 +302,7 @@ No entanto, **juntar forças faz muitas vezes mais sentido do que dividir comuni
 Neste sentido, uma simples "regra de ouro" pode ajudar: se não houver uma comunidade Bitcoin ativa num raio de 30-45 minutos do local onde vive, pode valer a pena começar uma nova. Dito isto, és sempre livre de fazer o que quiseres.
 
 
-E, claro, se uma comunidade mais antiga "evoluiu" numa direção que já não está de acordo com os seus valores, e não tem tempo ou motivação para a "polir", então criar o seu próprio Fork é sempre uma opção.
+E, claro, se uma comunidade mais antiga "evoluiu" numa direção que já não está de acordo com os seus valores, e não tem tempo ou motivação para a "[polir](https://planb.academy/resources/glossary/orange-pill)", então criar o seu próprio [Fork](https://planb.academy/resources/glossary/fork) é sempre uma opção.
 
 
 

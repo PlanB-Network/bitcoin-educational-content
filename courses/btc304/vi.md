@@ -302,7 +302,7 @@ Tuy nhiên, **hợp nhất thường hợp lý hơn là chia tách các cộng �
 Theo nghĩa này, một "quy tắc vàng" đơn giản có thể hữu ích: nếu không có cộng đồng Bitcoin nào đang hoạt động trong vòng 30-45 phút tính từ nơi bạn sống, bạn có thể nên bắt đầu một cộng đồng mới. Tuy nhiên, bạn luôn có thể tự do làm những gì mình muốn.
 
 
-Và tất nhiên, nếu một cộng đồng cũ đã "tiến hóa" theo hướng không còn phù hợp với các giá trị của bạn nữa, và bạn không có thời gian hoặc động lực để "cấm vận" họ, thì việc tự tạo Fork luôn là một lựa chọn.
+Và tất nhiên, nếu một cộng đồng cũ đã "tiến hóa" theo hướng không còn phù hợp với các giá trị của bạn nữa, và bạn không có thời gian hoặc động lực để "cấm vận" họ, thì việc tự tạo [Fork](https://planb.academy/resources/glossary/fork) luôn là một lựa chọn.
 
 
 

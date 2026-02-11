@@ -302,7 +302,7 @@ Međutim, **udruživanje snaga često ima više smisla nego razdvajanje obližnj
 U tom smislu, jednostavno "pravilo palca" može pomoći: ako ne postoji aktivna Bitcoin zajednica unutar 30-45 minuta od mesta gde živite, možda vredi pokrenuti novu. Ipak, uvek ste slobodni da radite kako želite.
 
 
-I naravno, ako se starija zajednica "evoluirala" u pravcu koji više ne odgovara vašim vrednostima, a nemate vremena ili motivacije da ih "orange-pill", onda je stvaranje sopstvenog Fork uvek opcija.
+I naravno, ako se starija zajednica "evoluirala" u pravcu koji više ne odgovara vašim vrednostima, a nemate vremena ili motivacije da ih "[orange-pill](https://planb.academy/resources/glossary/orange-pill)", onda je stvaranje sopstvenog [Fork](https://planb.academy/resources/glossary/fork) uvek opcija.
 
 
 

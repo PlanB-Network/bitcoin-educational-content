@@ -302,7 +302,7 @@ Men **att gå samman är ofta mer meningsfullt än att dela upp närliggande sam
 På så sätt kan en enkel "tumregel" vara till hjälp: om det inte finns något aktivt Bitcoin-community inom 30-45 minuter från där du bor, kan det vara värt att starta ett nytt. Med det sagt är du alltid fri att göra som du vill.
 
 
-Och om en äldre community har "utvecklats" i en riktning som inte längre stämmer överens med dina värderingar, och du inte har tid eller motivation att "orangepilla" dem, är det naturligtvis alltid ett alternativ att skapa din egen Fork.
+Och om en äldre community har "utvecklats" i en riktning som inte längre stämmer överens med dina värderingar, och du inte har tid eller motivation att "[orangepilla](https://planb.academy/resources/glossary/orange-pill)" dem, är det naturligtvis alltid ett alternativ att skapa din egen [Fork](https://planb.academy/resources/glossary/fork).
 
 
 

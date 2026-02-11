@@ -217,7 +217,7 @@ However, **joining forces often makes more sense than splitting nearby communiti
 
 In this sense, a simple "rule of thumb" can help: if there's no active Bitcoin community within 30-45 minutes of where you live, it may be worth starting a new one. That said, you're always free to do as you wish.
 
-And of course, if an older community has "evolved" in a direction that no longer aligns with your values, and you don't have the time or motivation to "orange-pill" them, then creating your own fork is always an option.
+And of course, if an older community has "evolved" in a direction that no longer aligns with your values, and you don't have the time or motivation to "[orange-pill](https://planb.academy/resources/glossary/orange-pill)" them, then creating your own [fork](https://planb.academy/resources/glossary/fork) is always an option.
 
 
 ## What objectives should guide your community?

@@ -302,7 +302,7 @@ Kuid **jõudude ühendamine on sageli mõistlikum kui lähedaste kogukondade jag
 Selles mõttes võib aidata lihtne "rusikareegel": kui 30-45 minuti raadiuses teie elukohast ei ole aktiivset Bitcoin kogukonda, võib tasub alustada uut kogukonda. See tähendab, et te võite alati teha, mida soovite.
 
 
-Ja muidugi, kui vanem kogukond on "arenenud" suunas, mis ei vasta enam teie väärtustele, ja teil ei ole aega või motivatsiooni neid "oranžida", siis on alati võimalus luua oma Fork.
+Ja muidugi, kui vanem kogukond on "arenenud" suunas, mis ei vasta enam teie väärtustele, ja teil ei ole aega või motivatsiooni neid "[oranžida](https://planb.academy/resources/glossary/orange-pill)", siis on alati võimalus luua oma [Fork](https://planb.academy/resources/glossary/fork).
 
 
 

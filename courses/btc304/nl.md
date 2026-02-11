@@ -302,7 +302,7 @@ Echter, **het bundelen van krachten is vaak zinvoller dan het opsplitsen van nab
 In dit opzicht kan een eenvoudige "vuistregel" helpen: als er geen actieve Bitcoin gemeenschap is binnen 30-45 minuten van waar je woont, kan het de moeite waard zijn om een nieuwe te beginnen. Dat gezegd hebbende, je bent altijd vrij om te doen wat je wilt.
 
 
-En natuurlijk, als een oudere gemeenschap "geëvolueerd" is in een richting die niet langer overeenkomt met jouw waarden, en je hebt niet de tijd of motivatie om ze te "oranje-pillen", dan is het creëren van je eigen Fork altijd een optie.
+En natuurlijk, als een oudere gemeenschap "geëvolueerd" is in een richting die niet langer overeenkomt met jouw waarden, en je hebt niet de tijd of motivatie om ze te "[oranje-pillen](https://planb.academy/resources/glossary/orange-pill)", dan is het creëren van je eigen [Fork](https://planb.academy/resources/glossary/fork) altijd een optie.
 
 
 

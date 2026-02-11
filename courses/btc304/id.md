@@ -302,7 +302,7 @@ Namun, **bergabung dengan komunitas lain sering kali lebih masuk akal daripada m
 Dalam hal ini, "aturan praktis" sederhana dapat membantu: jika tidak ada komunitas Bitcoin yang aktif dalam waktu 30-45 menit dari tempat tinggal Anda, mungkin ada baiknya Anda memulai yang baru. Meskipun demikian, Anda selalu bebas melakukan apa pun yang Anda inginkan.
 
 
-Dan tentu saja, jika komunitas yang lebih tua telah "berevolusi" ke arah yang tidak lagi selaras dengan nilai-nilai Anda, dan Anda tidak memiliki waktu atau motivasi untuk "memoles" mereka, maka membuat Fork Anda sendiri selalu menjadi pilihan.
+Dan tentu saja, jika komunitas yang lebih tua telah "berevolusi" ke arah yang tidak lagi selaras dengan nilai-nilai Anda, dan Anda tidak memiliki waktu atau motivasi untuk "[memoles](https://planb.academy/resources/glossary/orange-pill)" mereka, maka membuat [Fork](https://planb.academy/resources/glossary/fork) Anda sendiri selalu menjadi pilihan.
 
 
 

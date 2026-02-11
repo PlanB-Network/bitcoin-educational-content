@@ -302,7 +302,7 @@ Ariko rero, **gufatanya inguvu kenshi biragira ico bivuze kuruta gucapura imirya
 Muri ubwo buryo, "itegeko ry'urukumu" ryoroshe rirashobora gufasha: nimba ata muryango wa Bitcoin ukora mu minota 30-45 uvuye aho uba, vyoshobora kuba vyiza utanguye uwundi mushasha. Ivyo bivuzwe, wama ufise umwidegemvyo wo gukora ivyo wipfuza.
 
 
-Kandi n'ukuri, iyo umuryango w'abakuze "wateye imbere" mu nzira itagihuye n'agaciro kawe, kandi udafise umwanya canke ikigutera intege co "orange-pill", rero kwiremera Fork yawe ni uburyo bwo guhitamwo.
+Kandi n'ukuri, iyo umuryango w'abakuze "wateye imbere" mu nzira itagihuye n'agaciro kawe, kandi udafise umwanya canke ikigutera intege co "[orange-pill](https://planb.academy/resources/glossary/orange-pill)", rero kwiremera [Fork](https://planb.academy/resources/glossary/fork) yawe ni uburyo bwo guhitamwo.
 
 
 

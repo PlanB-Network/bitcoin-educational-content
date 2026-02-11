@@ -302,7 +302,7 @@ Bununla birlikte, **güçleri birleştirmek genellikle yakın toplulukları böl
 Bu anlamda, basit bir "temel kural" yardımcı olabilir: yaşadığınız yere 30-45 dakika mesafede aktif bir Bitcoin topluluğu yoksa, yeni bir tane başlatmaya değer olabilir. Bununla birlikte, dilediğinizi yapmakta her zaman özgürsünüz.
 
 
-Ve tabii ki, eski bir topluluk artık sizin değerlerinizle uyuşmayan bir yönde "evrilmişse" ve onları "turuncu hap" haline getirmek için zamanınız veya motivasyonunuz yoksa, kendi Fork'nizi oluşturmak her zaman bir seçenektir.
+Ve tabii ki, eski bir topluluk artık sizin değerlerinizle uyuşmayan bir yönde "evrilmişse" ve onları "[turuncu hap](https://planb.academy/resources/glossary/orange-pill)" haline getirmek için zamanınız veya motivasyonunuz yoksa, kendi [Fork](https://planb.academy/resources/glossary/fork)'nizi oluşturmak her zaman bir seçenektir.
 
 
 

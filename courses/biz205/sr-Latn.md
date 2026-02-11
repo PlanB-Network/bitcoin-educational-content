@@ -90,14 +90,14 @@ Aristotle was one of the first to define these essential characteristics of mone
 
 ### Store of value: from gold to Bitcoin
 
-Historically, gold has been the premier store of value due to its scarcity, durability, and intrinsic worth. Gold's limited supply ensures that it holds its value over time, even in the face of [inflation](https://planb.academy/resources/glossary/inflation) or economic downturns.
+Historically, gold has been the premier store of value due to its scarcity, durability, and intrinsic worth. Gold's limited supply ensures that it holds its value over time, even in the face of inflation or economic downturns.
 
 - **Gold as the Traditional Store of Value**: For centuries, gold has been used as a means to preserve wealth across generations. Its physical properties — scarcity, durability, and malleability — made it an ideal choice for this function.
 - **Bitcoin as Digital Gold**: Bitcoin offers a modern equivalent to gold, with the added advantages of being digital and decentralized. Like gold, Bitcoin is scarce, with a capped supply of 21 million coins, making it an attractive asset for those seeking to hedge against inflation and monetary devaluation.
 
 #### Why Bitcoin excels as a store of value
 
-Bitcoin’s fixed supply means it is immune to the inflationary pressures that plague [fiat currencies](https://planb.academy/resources/glossary/fiat). Central banks, such as the Federal Reserve, can print an unlimited amount of money, thereby devaluing the currency over time. In contrast, Bitcoin’s decentralized nature ensures that no single entity can alter its supply. This scarcity, combined with its security and divisibility, positions Bitcoin as a superior store of value in the digital age.
+Bitcoin’s fixed supply means it is immune to the inflationary pressures that plague [fiat](https://planb.academy/resources/glossary/fiat) currencies. Central banks, such as the Federal Reserve, can print an unlimited amount of money, thereby devaluing the currency over time. In contrast, Bitcoin’s decentralized nature ensures that no single entity can alter its supply. This scarcity, combined with its security and divisibility, positions Bitcoin as a superior store of value in the digital age.
 
 - **Comparison to Fiat Currencies**: While fiat currencies like the US dollar or the Euro can lose purchasing power through inflation, Bitcoin’s fixed issuance schedule ensures long-term scarcity, making it an ideal digital asset for preserving wealth.
 
@@ -105,7 +105,7 @@ Bitcoin’s fixed supply means it is immune to the inflationary pressures that p
 
 In a barter system, trade is limited by the necessity for both parties to want what the other has — this is known as the "double coincidence of wants". Money solves this problem by acting as an intermediary, allowing individuals to trade freely without the need for a direct exchange of goods.
 
-- **Bitcoin as a Medium of Exchange**: While Bitcoin is often criticized for its volatility, its use as a medium of exchange is growing, particularly in contexts where traditional financial systems are unreliable or overly restrictive. Bitcoin enables [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) transactions across borders without the need for a trusted intermediary, such as a bank or payment processor.
+- **Bitcoin as a Medium of Exchange**: While Bitcoin is often criticized for its volatility, its use as a medium of exchange is growing, particularly in contexts where traditional financial systems are unreliable or overly restrictive. Bitcoin enables peer-to-peer transactions across borders without the need for a trusted intermediary, such as a bank or payment processor.
 
 #### The role of technology in facilitating exchange
 
@@ -131,7 +131,7 @@ The concept of marginal utility helps explain why Bitcoin is valuable despite it
 
 ### Cypherpunk ideals: privacy, decentralization, and control resistance
 
-Bitcoin is not just a product of economic theories — it is also a direct response to the ideals of the Cypherpunk movement. This movement, which emerged in the early 1990s, sought to protect individual privacy and freedom in an increasingly digital world. The [Cypherpunks](https://planb.academy/resources/glossary/cypherpunks) believed that [cryptography](https://planb.academy/resources/glossary/cryptography) could be a powerful tool to resist surveillance and censorship by governments and corporations.
+Bitcoin is not just a product of economic theories — it is also a direct response to the ideals of the Cypherpunk movement. This movement, which emerged in the early 1990s, sought to protect individual privacy and freedom in an increasingly digital world. The Cypherpunks believed that cryptography could be a powerful tool to resist surveillance and censorship by governments and corporations.
 
 - **Founders of the Cypherpunk Movement**: Key figures, including Eric Hughes, Timothy May, and John Gilmore, pioneered the use of cryptography to create secure and private systems for communication and commerce. Bitcoin embodies these ideals by enabling individuals to transact anonymously and without relying on centralized authorities.
 - **Bitcoin and Decentralization**: Bitcoin’s decentralized nature ensures that no single entity can control the network. This makes it resistant to censorship and manipulation, aligning with the Cypherpunk vision of a free and open internet.
@@ -231,14 +231,14 @@ The corruption of money through inflation, seigniorage, and fractional reserve b
 
 ### The evolution of cryptography and its role in Bitcoin
 
-In this chapter, we will trace the foundations that led to the creation of Bitcoin. Before [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi)’s [white paper](https://planb.academy/resources/glossary/white-paper), a series of technological inventions and concepts laid the groundwork for its creation, particularly those related to cryptography, [digital signatures](https://planb.academy/resources/glossary/digital-signature), and decentralized systems. Thus, we will examine the history and key cryptographic principles that enabled the development of Bitcoin.
+In this chapter, we will trace the foundations that led to the creation of Bitcoin. Before [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi)’s [white paper](https://planb.academy/resources/glossary/white-paper), a series of technological inventions and concepts laid the groundwork for its creation, particularly those related to cryptography, digital signatures, and decentralized systems. Thus, we will examine the history and key cryptographic principles that enabled the development of Bitcoin.
 
 ### Cryptographic foundations
 
 Bitcoin relies on cryptography for security, trustlessness, and decentralization. Two key types of cryptography have been essential:
 
-- **Symmetric cryptography**: This system uses the same key for both [encryption](https://planb.academy/resources/glossary/encryption-encrypt) and decryption, requiring a secure channel for exchanging the key. Although effective, symmetric cryptography has limitations, particularly when secure communication channels are not feasible.
-- **Asymmetric cryptography ([public key](https://planb.academy/resources/glossary/public-key) cryptography)**: introduced in the 1970s, this system allows users to have a pair of keys—a public key for encrypting data and a [private key](https://planb.academy/resources/glossary/private-key) for decrypting it. This breakthrough eliminated the need for secure channels to share encryption keys, enabling secure communication over public channels.
+- **Symmetric cryptography**: This system uses the same key for both encryption and decryption, requiring a secure channel for exchanging the key. Although effective, symmetric cryptography has limitations, particularly when secure communication channels are not feasible.
+- **Asymmetric cryptography (public key cryptography)**: introduced in the 1970s, this system allows users to have a pair of keys—a public key for encrypting data and a private key for decrypting it. This breakthrough eliminated the need for secure channels to share encryption keys, enabling secure communication over public channels.
 
 Bitcoin extensively utilizes the **Elliptic Curve Digital Signature Algorithm ([ECDSA](https://planb.academy/resources/glossary/ecdsa))**, a form of asymmetric cryptography that involves generating a public and private key pair. The public key is shared openly, but the private key must remain secret. These keys are critical for verifying and signing Bitcoin transactions.
 
@@ -246,7 +246,7 @@ Bitcoin extensively utilizes the **Elliptic Curve Digital Signature Algorithm ([
 
 ### Hash functions: the backbone of Bitcoin's security
 
-A **[hash function](https://planb.academy/resources/glossary/hash-function)** takes an input (or message) and returns a fixed-length string of characters, which is typically a hash value. This way, even the smallest change in the input drastically alters the hash output, making it nearly impossible to reverse-engineer the input from the output. Hash functions are integral to Bitcoin’s [proof-of-work](https://planb.academy/resources/glossary/proof-of-work) system, ensuring the integrity of the blockchain.
+A **hash function** takes an input (or message) and returns a fixed-length string of characters, which is typically a hash value. This way, even the smallest change in the input drastically alters the hash output, making it nearly impossible to reverse-engineer the input from the output. Hash functions are integral to Bitcoin’s proof-of-work system, ensuring the integrity of the blockchain.
 
 Bitcoin uses **[SHA-256](https://planb.academy/resources/glossary/sha256)**, a highly secure hash function developed by the NSA, which has two critical properties:
 
@@ -257,9 +257,9 @@ Bitcoin uses **[SHA-256](https://planb.academy/resources/glossary/sha256)**, a h
 
 ### Proof-of-work: solving the double-spending problem
 
-Before Bitcoin, digital money had long struggled with the **[double-spending problem](https://planb.academy/resources/glossary/double-spending-attack)**, where the same digital token could be spent multiple times. Bitcoin’s innovation was the introduction of **proof-of-work (PoW)**, a system that requires participants to solve complex computational puzzles to validate transactions and add new blocks to the blockchain.
+Before Bitcoin, digital money had long struggled with the **double-spending problem**, where the same digital token could be spent multiple times. Bitcoin’s innovation was the introduction of **proof-of-work (PoW)**, a system that requires participants to solve complex computational puzzles to validate transactions and add new blocks to the blockchain.
 
-Proof-of-work ensures the security of the Bitcoin network by requiring [miners](https://planb.academy/resources/glossary/miner) to expend energy (via computational resources) to solve a hash puzzle. This solution deters malicious actors from manipulating the blockchain because altering any part of the chain would require recalculating the proof-of-work for all subsequent blocks — a computationally impossible feat.
+Proof-of-work ensures the security of the Bitcoin network by requiring miners to expend energy (via computational resources) to solve a hash puzzle. This solution deters malicious actors from manipulating the blockchain because altering any part of the chain would require recalculating the proof-of-work for all subsequent blocks — a computationally impossible feat.
 
 ![Image](assets/3/3.webp)
 
@@ -279,7 +279,7 @@ Bitcoin solved this matter by eliminating the need for a trusted central authori
 
 ### Smart contracts: expanding Bitcoin’s use cases
 
-Another key precursor to Bitcoin was **Nick Szabo’s** concept of **[smart contracts](https://planb.academy/resources/glossary/smart-contract)**: self-executing contracts with the terms of the agreement directly written into code. Smart contracts enhance the functionality of decentralized systems by enabling complex transactions, such as multi-signature accounts or escrow services, without the need for intermediaries.
+Another key precursor to Bitcoin was **Nick Szabo’s** concept of **smart contracts**: self-executing contracts with the terms of the agreement directly written into code. Smart contracts enhance the functionality of decentralized systems by enabling complex transactions, such as multi-signature accounts or escrow services, without the need for intermediaries.
 
 Szabo also proposed **[Bit Gold](https://planb.academy/resources/glossary/bit-gold)**, a decentralized currency system based on the proof-of-work concept. While Bit Gold was never implemented, it provided much of the conceptual framework for Bitcoin.
 
@@ -296,7 +296,7 @@ Before Satoshi Nakamoto, technologies such as cryptographic signatures, proof-of
 
 ### The impact of Bitcoin post-Satoshi
 
-Following the groundbreaking release of Bitcoin by Satoshi Nakamoto in 2008, the cryptocurrency world underwent rapid evolution, marked by significant technological advancements and broader implications for decentralized digital currencies. In this chapter, we will explore the foundations laid by Bitcoin, the technological innovations it introduced, and the key challenges and solutions that have emerged since its inception. The "After Satoshi" era delves deeply into the mechanics that ensure Bitcoin’s trustless security and how it addresses challenges such as [scalability](https://planb.academy/resources/glossary/scalability), privacy, and [consensus](https://planb.academy/resources/glossary/consensus).
+Following the groundbreaking release of Bitcoin by Satoshi Nakamoto in 2008, the cryptocurrency world underwent rapid evolution, marked by significant technological advancements and broader implications for decentralized digital currencies. In this chapter, we will explore the foundations laid by Bitcoin, the technological innovations it introduced, and the key challenges and solutions that have emerged since its inception. The "After Satoshi" era delves deeply into the mechanics that ensure Bitcoin’s trustless security and how it addresses challenges such as scalability, privacy, and consensus.
 
 ![Image](assets/3/5.webp)
 
@@ -314,13 +314,13 @@ Contrary to modern terminology, **Satoshi Nakamoto** never referred to the syste
 
 ### The global consensus mechanism
 
-One of Bitcoin’s key innovations is its **global consensus mechanism**, which prevents [Sybil attacks](https://planb.academy/resources/glossary/sybil-attack) and ensures that all participants in the network agree on the order and validity of transactions. Unlike earlier systems that relied on centralized servers to verify transactions (e.g., reusable proof-of-work), Bitcoin uses a decentralized global network to validate each transaction through majority consensus.
+One of Bitcoin’s key innovations is its **global consensus mechanism**, which prevents Sybil attacks and ensures that all participants in the network agree on the order and validity of transactions. Unlike earlier systems that relied on centralized servers to verify transactions (e.g., reusable proof-of-work), Bitcoin uses a decentralized global network to validate each transaction through majority consensus.
 
 #### Proof-of-work and Sybil resistance
 
 Bitcoin **proof-of-work** mechanism prevents **Sybil attacks**, where malicious actors create multiple fake identities (or nodes) to control the network. Since proof-of-work requires real computational effort, it ensures that only those who expend resources (such as electricity and computational power) can influence the voting process. As a result, it becomes economically impractical for an attacker to take over the network.
 
-- **[51% Attack](https://planb.academy/resources/glossary/51-percent-attack)**: In a **51% attack**, an aggressor would need to control more than half of the network’s computational power to manipulate the blockchain. The cost of acquiring and maintaining this amount of computing power makes such attacks nearly impossible under normal circumstances.
+- **51% Attack**: In a **51% attack**, an aggressor would need to control more than half of the network’s computational power to manipulate the blockchain. The cost of acquiring and maintaining this amount of computing power makes such attacks nearly impossible under normal circumstances.
 
 #### Global voting for double spending protection
 
@@ -372,11 +372,11 @@ Let’s begin this session by exploring the foundational aspects of Bitcoin.
 
 In the rapidly evolving world of Bitcoin, understanding key concepts such as private keys and addresses is fundamental. These components are the cornerstone of Bitcoin ownership and transaction management, ensuring secure and verifiable exchanges of value.
 
-- **Private Keys**: Private keys are secret cryptographic materials that are crucial for Bitcoin ownership. They are large, hard-to-guess numbers, enabling the creation of cryptographic signatures that are necessary for transaction authentication. Generating private keys requires high-quality [entropy](https://planb.academy/resources/glossary/entropy) to ensure security; therefore, it's essential to avoid biased random number generators, which can create keys that are vulnerable to attacks. Historical incidents underscore the importance of proper entropy management, as exemplified by these examples.
+- **Private Keys**: Private keys are secret cryptographic materials that are crucial for Bitcoin ownership. They are large, hard-to-guess numbers, enabling the creation of cryptographic signatures that are necessary for transaction authentication. Generating private keys requires high-quality entropy to ensure security; therefore, it's essential to avoid biased random number generators, which can create keys that are vulnerable to attacks. Historical incidents underscore the importance of proper entropy management, as exemplified by these examples.
 
 #### The blockchain.info wallet weak RNG issue (2013-2014)
 
-- Blockchain.info, a popular Bitcoin wallet at the time, had a flaw in its **random number generator (RNG)** when generating private keys in browser-based [wallets](https://planb.academy/resources/glossary/wallet). The bug caused the wallet to sometimes generate weak keys with low entropy, making them susceptible to prediction.
+- Blockchain.info, a popular Bitcoin wallet at the time, had a flaw in its **random number generator (RNG)** when generating private keys in browser-based wallets. The bug caused the wallet to sometimes generate weak keys with low entropy, making them susceptible to prediction.
 - Hackers exploited this weakness, **brute forcing the private keys** and stealing funds from affected wallets.
 - This incident highlighted the importance of **secure entropy sources** when generating private keys, ensuring they cannot be easily guessed or reproduced.
 
@@ -398,7 +398,7 @@ These foundational practices are crucial for securing your Bitcoin assets and en
 
 As we progress to more complex topics, understanding Bitcoin wallets and optimizing transaction strategies becomes increasingly essential, particularly for those seeking to enhance efficiency and scalability in their Bitcoin usage.
 
-- **[BIP32](https://planb.academy/resources/glossary/bip0032) Basics**: This standard enables the creation of a hierarchical tree structure of keys, starting from a master [seed](https://planb.academy/resources/glossary/seed), allowing for an unlimited depth in key generation. BIP32 is particularly useful for businesses that need segmented wallets for different clients without generating new keys each time.
+- **BIP32 Basics**: This standard enables the creation of a hierarchical tree structure of keys, starting from a master [seed](https://planb.academy/resources/glossary/seed), allowing for an unlimited depth in key generation. BIP32 is particularly useful for businesses that need segmented wallets for different clients without generating new keys each time.
 
 - **Transaction Optimization**: Optimizing Bitcoin transactions involves strategies like batching to reduce fees and prioritizing transactions based on the fee per byte. Tools such as Partially Signed Bitcoin Transactions ([PSBT](https://planb.academy/resources/glossary/psbt)) facilitate secure transaction transfers between different wallet applications, enhancing interoperability.
 
@@ -412,7 +412,7 @@ When using Bitcoin, both security and privacy are paramount due to its decentral
 
 #### Security practices
 
-To mitigate the risk of losing Bitcoin due to private key exposure, advanced security strategies like Shamir Secret Sharing and multi-signature setups can be employed. These methods distribute the control of private keys among multiple trusted parties, preventing a [single point of failure](https://planb.academy/resources/glossary/spof). [Hardware wallets](https://planb.academy/resources/glossary/hardware-wallet) also offer robust security through offline key storage; however, users must carefully consider the potential risks associated with the trustworthiness of the hardware vendor.
+To mitigate the risk of losing Bitcoin due to private key exposure, advanced security strategies like Shamir Secret Sharing and multi-signature setups can be employed. These methods distribute the control of private keys among multiple trusted parties, preventing a single point of failure. Hardware wallets also offer robust security through offline key storage; however, users must carefully consider the potential risks associated with the trustworthiness of the hardware vendor.
 
 #### Privacy considerations
 
@@ -420,7 +420,7 @@ Using third-party blockchain explorers or services can compromise privacy, as th
 
 #### Wallet types
 
-Bitcoin users must choose between two main types of wallets: software wallets (also known as [hot wallets](https://planb.academy/resources/glossary/hot-wallet--software-wallet)), which offer greater convenience but are more vulnerable to hacking, and hardware wallets, which are more secure as they store private keys offline. Balancing security and convenience is crucial, depending on your specific threat model and the frequency of your Bitcoin access.
+Bitcoin users must choose between two main types of wallets: software wallets (also known as hot wallets), which offer greater convenience but are more vulnerable to hacking, and hardware wallets, which are more secure as they store private keys offline. Balancing security and convenience is crucial, depending on your specific threat model and the frequency of your Bitcoin access.
 
 #### Advanced features
 
@@ -442,7 +442,7 @@ We look forward to continuing this journey together.
 
 ### Lecture on Bitcoin node setup and multi-sig configuration
 
-Welcome to today's comprehensive lecture on setting up a Bitcoin node and configuring [multi-sig](https://planb.academy/resources/glossary/multisig) wallets. Led by Alekos Filini, this session is designed to provide a hands-on experience, guiding participants through the practical steps of setting up a [Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core) node and integrating it with a multi-signature wallet using Specter. This interactive session aims to blend theoretical concepts with live demonstrations, offering participants the opportunity to engage directly with the material.
+Welcome to today's comprehensive lecture on setting up a Bitcoin node and configuring multi-sig wallets. Led by Alekos Filini, this session is designed to provide a hands-on experience, guiding participants through the practical steps of setting up a [Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core) node and integrating it with a multi-signature wallet using Specter. This interactive session aims to blend theoretical concepts with live demonstrations, offering participants the opportunity to engage directly with the material.
 
 We invite you to follow our lecturer's video carefully to ensure a successful installation.
 
@@ -451,7 +451,7 @@ We invite you to follow our lecturer's video carefully to ensure a successful in
 This lecture is structured to provide a complete walkthrough of setting up a Bitcoin Core node and utilizing it with a multi-sig wallet configuration. It is divided into several key components:
 
 1. **Bitcoin Core Node Setup**: This section guides you through the installation and configuration of a Bitcoin Core node from scratch, emphasizing manual setup to ensure a thorough understanding.
-2. **Integration with Specter Wallet**: After establishing the node, the focus shifts to installing and configuring Specter, a desktop wallet that supports multisig options. This process incorporates best practices for security measures, including signature verification and hash validation, which are essential for maintaining network integrity.
+2. **Integration with Specter Wallet**: After establishing the node, the focus shifts to installing and configuring Specter, a desktop wallet that supports [multisig](https://planb.academy/resources/glossary/multisig) options. This process incorporates best practices for security measures, including signature verification and hash validation, which are essential for maintaining network integrity.
 
 ### **Practical setup of a Bitcoin core node**
 
@@ -585,7 +585,7 @@ Bitcoin has faced a wide range of criticism over the years, encompassing its env
 
 ### Environmental criticism: pollution and energy usage
 
-One of the most common criticisms of Bitcoin is its energy consumption. [Bitcoin mining](https://planb.academy/resources/glossary/mining), the process by which new coins are created and transactions are validated, uses substantial computational power, which in turn consumes large amounts of electricity. Critics argue that this contributes to global pollution, especially when the energy used comes from non-renewable sources.
+One of the most common criticisms of Bitcoin is its energy consumption. Bitcoin mining, the process by which new coins are created and transactions are validated, uses substantial computational power, which in turn consumes large amounts of electricity. Critics argue that this contributes to global pollution, especially when the energy used comes from non-renewable sources.
 
 #### Energy consumption in perspective
 
@@ -676,7 +676,7 @@ A crucial aspect of comprehending the role of Bitcoin and blockchain in decentra
 
 #### Open source and Bitcoin’s influence
 
-Blockchain’s rise can be attributed in large part to Bitcoin’s [open-source](https://planb.academy/resources/glossary/foss) roots. Licensed under the MIT license, Bitcoin’s open-source nature has enabled it to influence numerous industries, particularly banking and finance. However, many businesses have rushed to adopt blockchain technology without fully understanding its limitations. As a result, some have applied the blockchain where simpler, centralized systems would suffice, missing the true value that decentralization can bring.
+Blockchain’s rise can be attributed in large part to Bitcoin’s open-source roots. Licensed under the MIT license, Bitcoin’s open-source nature has enabled it to influence numerous industries, particularly banking and finance. However, many businesses have rushed to adopt blockchain technology without fully understanding its limitations. As a result, some have applied the blockchain where simpler, centralized systems would suffice, missing the true value that decentralization can bring.
 
 #### Smart contracts and digital identity systems
 
@@ -740,13 +740,13 @@ The economics of Bitcoin mining encompass a diverse range of business models and
 
 - **Economic Models**: Bitcoin mining entails substantial capital expenditures (CAPEX) and operating expenses (OPEX). Mining profitability is driven by factors such as electricity costs, equipment efficiency, and market conditions. The cyclical nature of the industry—marked by periods of bull and bear markets—requires strategic investment and operational readiness to maintain profitability over time.
 
-- **Business Models**: Several business models have emerged within the Bitcoin mining sector. Self-miners own and manage their hardware, obtaining rewards directly, while hosting services provide infrastructure management for a fee. [Mining pools](https://planb.academy/resources/glossary/pool-mining) play a central role, pooling computational power to increase the likelihood of earning rewards and providing more stable income streams for participants.
+- **Business Models**: Several business models have emerged within the Bitcoin mining sector. Self-miners own and manage their hardware, obtaining rewards directly, while hosting services provide infrastructure management for a fee. Mining pools play a central role, pooling computational power to increase the likelihood of earning rewards and providing more stable income streams for participants.
 
 As the industry evolves, these business models adapt to market trends and technological advancements, shaping the landscape of Bitcoin mining and its economic impact.
 
 ![image](assets/7/3.webp)
 
-- Graph: Pie chart illustrating the [hash rate](https://planb.academy/resources/glossary/hashrate) distribution among major Bitcoin mining pools over 2 years, with Foundry USA and AntPool leading.
+- Graph: Pie chart illustrating the hash rate distribution among major Bitcoin mining pools over 2 years, with Foundry USA and AntPool leading.
 
 ### Environmental and technological impacts of mining
 
@@ -877,7 +877,7 @@ As Bitcoin adoption increases, particularly among younger generations and instit
 
 ### Security risks and future challenges
 
-Bitcoin's security model presents future challenges, as it relies on [transaction fees](https://planb.academy/resources/glossary/transaction-fees) to compensate for diminishing block rewards. Ensuring robust network security through sufficient transaction fees is crucial, particularly as the last halving approaches. Additionally, risks such as hash rate concentration and potential quantum computing threats require ongoing vigilance. Navigating these challenges will shape the evolution of Bitcoin within the global financial system.
+Bitcoin's security model presents future challenges, as it relies on transaction fees to compensate for diminishing block rewards. Ensuring robust network security through sufficient transaction fees is crucial, particularly as the last halving approaches. Additionally, risks such as hash rate concentration and potential quantum computing threats require ongoing vigilance. Navigating these challenges will shape the evolution of Bitcoin within the global financial system.
 
 ### Conclusion
 

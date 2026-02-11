@@ -193,7 +193,7 @@ Bitcoin-yhteisöt pyrkivät usein laajempiin tavoitteisiin, erityisesti julkisee
 4. Joidenkin julkisuuden henkilöiden ja tiedotusvälineiden harhaanjohtavien tai perusteettomien väitteiden kumoaminen;
 
 
-5. Bitcoin:n ja muiden kryptovaluuttojen väliset peruserot;
+5. Bitcoin:n ja muiden [kryptovaluuttojen](https://planb.academy/resources/glossary/cryptocurrency) väliset peruserot;
 
 
 Rakentamalla ensimmäisiä tulevaisuuden "linnakkeita" **Bitcoin-yhteisöt maailmanlaajuisesti toimivat suojana disinformaatiota ja sensuuria vastaan ja tarjoavat samalla hedelmällisen maaperän Bitcoin:n perusteiden oppimiselle**. Ne tarjoavat uusille tulokkaille, jopa skeptikoille, resursseja ja yhteyksiä, joita tarvitaan Bitcoin:n todellisen potentiaalin tutkimiseen.

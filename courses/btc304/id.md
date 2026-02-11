@@ -193,7 +193,7 @@ Komunitas Bitcoin sering kali mengejar tujuan yang lebih luas, terutama pendidik
 4. Membantah klaim yang menyesatkan atau tidak berdasar yang dibuat oleh beberapa tokoh masyarakat dan media;
 
 
-5. Perbedaan mendasar antara Bitcoin dan mata uang kripto lainnya;
+5. Perbedaan mendasar antara Bitcoin dan [mata uang kripto](https://planb.academy/resources/glossary/cryptocurrency) lainnya;
 
 
 Dengan membangun "benteng" pertama di masa depan, **Komunitas Bitcoin di seluruh dunia berfungsi sebagai benteng melawan disinformasi dan penyensoran sekaligus menyediakan lahan subur untuk mempelajari dasar-dasar Bitcoin**. Mereka menawarkan kepada para pendatang baru, bahkan yang skeptis sekalipun, sumber daya dan koneksi yang dibutuhkan untuk mengeksplorasi potensi Bitcoin yang sebenarnya.

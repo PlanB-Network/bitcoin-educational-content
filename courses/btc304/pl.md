@@ -193,7 +193,7 @@ Społeczności Bitcoin często realizują szersze cele, zwłaszcza w zakresie ed
 4. Obalanie wprowadzających w błąd lub bezpodstawnych twierdzeń niektórych osób publicznych i mediów;
 
 
-5. Podstawowe różnice między Bitcoin a innymi kryptowalutami;
+5. Podstawowe różnice między Bitcoin a innymi [kryptowalutami](https://planb.academy/resources/glossary/cryptocurrency);
 
 
 Budując pierwsze "cytadele" jutra, **społeczności Bitcoin na całym świecie służą jako bastion przeciwko dezinformacji i cenzurze, zapewniając jednocześnie podatny grunt do nauki podstaw Bitcoin**. Oferują one nowicjuszom, a nawet sceptykom, zasoby i kontakty potrzebne do odkrywania prawdziwego potencjału Bitcoin.

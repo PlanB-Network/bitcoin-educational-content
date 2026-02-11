@@ -193,7 +193,7 @@ Jumuiya za Bitcoin mara nyingi hufuata malengo mapana, hasa elimu kwa umma kuhus
 4. Kukanusha madai ya kupotosha au yasiyo na msingi yanayotolewa na baadhi ya watu maarufu na vyombo vya habari;
 
 
-5. Tofauti za kimsingi kati ya Bitcoin na sarafu nyingine za crypto;
+5. Tofauti za kimsingi kati ya Bitcoin na sarafu nyingine za [crypto](https://planb.academy/resources/glossary/cryptocurrency);
 
 
 Kwa kujenga "shield" za kwanza za kesho, **Jumuiya za Bitcoin ulimwenguni pote hutumika kama ngome dhidi ya upotoshaji na udhibiti huku zikitoa msingi mzuri wa kujifunza mambo msingi ya Bitcoin**. Wanatoa wageni, hata wenye kutilia shaka, rasilimali na miunganisho inayohitajika ili kuchunguza uwezo wa kweli wa Bitcoin.

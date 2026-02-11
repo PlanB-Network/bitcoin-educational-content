@@ -193,7 +193,7 @@ Bitcoin-samfund strävar ofta efter bredare mål, särskilt allmän utbildning o
 4. Avfärda vilseledande eller grundlösa påståenden från vissa offentliga personer och medier;
 
 
-5. De grundläggande skillnaderna mellan Bitcoin och andra kryptovalutor;
+5. De grundläggande skillnaderna mellan Bitcoin och andra [kryptovalutor](https://planb.academy/resources/glossary/cryptocurrency);
 
 
 Genom att bygga morgondagens första "citadeller" fungerar **Bitcoin-gemenskaper världen över som ett bålverk mot desinformation och censur samtidigt som de utgör en bördig grund för att lära sig Bitcoin:s grunder**. De erbjuder nykomlingar, även skeptiker, de resurser och kontakter som behövs för att utforska Bitcoin:s verkliga potential.

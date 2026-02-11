@@ -140,7 +140,7 @@ Bitcoin communities often pursue broader goals, especially public education on:
 
 4. Debunking misleading or baseless claims made by some public figures and media;
 
-5. The fundamental differences between Bitcoin and other crypto-currencies;
+5. The fundamental differences between Bitcoin and other [crypto-currencies](https://planb.academy/resources/glossary/cryptocurrency);
 
 By building the first "citadels" of tomorrow, **Bitcoin communities worldwide serve as a bulwark against disinformation and censorship while providing fertile ground for learning Bitcoin's fundamentals**. They offer newcomers, even skeptics, the resources and connections needed to explore Bitcoin's true potential.
 

@@ -193,7 +193,7 @@ Bitcoin kogukonnad taotlevad sageli laiemaid eesmärke, eriti avalikku haridust:
 4. Mõnede avaliku elu tegelaste ja meedia poolt esitatud eksitavate või alusetute väidete ümberlükkamine;
 
 
-5. Põhilised erinevused Bitcoin ja teiste krüptovaluutade vahel;
+5. Põhilised erinevused Bitcoin ja teiste [krüptovaluutade](https://planb.academy/resources/glossary/cryptocurrency) vahel;
 
 
 Ehitades esimesed homsed "linnakud", **Bitcoin kogukonnad üle maailma on kaitsevalliks desinformatsiooni ja tsensuuri vastu, pakkudes samal ajal viljakat pinnast Bitcoin põhialuste õppimiseks**. Nad pakuvad uustulnukatele, isegi skeptikutele, ressursse ja ühendusi, mis on vajalikud Bitcoin tõelise potentsiaali uurimiseks.

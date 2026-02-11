@@ -193,7 +193,7 @@ Le community Bitcoin spesso perseguono obiettivi più ampi, in particolare l'edu
 4. Sfatare le affermazioni fuorvianti o infondate di alcuni personaggi pubblici e dei media;
 
 
-5. Le differenze fondamentali tra Bitcoin e altre criptovalute;
+5. Le differenze fondamentali tra Bitcoin e altre [criptovalute](https://planb.academy/resources/glossary/cryptocurrency);
 
 
 Costruendo le prime "cittadelle" di domani, le community Bitcoin in tutto il mondo fungono da baluardo contro la disinformazione e la censura, fornendo al contempo un terreno fertile per l'apprendimento dei fondamenti di **Bitcoin**. Offrono ai nuovi arrivati, anche agli scettici, le risorse e le connessioni necessarie per esplorare il vero potenziale di Bitcoin.

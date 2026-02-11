@@ -193,7 +193,7 @@ Các cộng đồng Bitcoin thường theo đuổi các mục tiêu rộng hơn,
 4. Bóc trần những tuyên bố sai lệch hoặc vô căn cứ của một số nhân vật công chúng và phương tiện truyền thông;
 
 
-5. Sự khác biệt cơ bản giữa Bitcoin và các loại tiền điện tử khác;
+5. Sự khác biệt cơ bản giữa Bitcoin và các loại [tiền điện tử](https://planb.academy/resources/glossary/cryptocurrency) khác;
 
 
 Bằng cách xây dựng những "thành trì" đầu tiên của tương lai, **các cộng đồng Bitcoin trên toàn thế giới đóng vai trò như một bức tường thành chống lại thông tin sai lệch và kiểm duyệt, đồng thời cung cấp nền tảng vững chắc để tìm hiểu những nguyên tắc cơ bản của Bitcoin**. Họ cung cấp cho những người mới tham gia, thậm chí cả những người hoài nghi, các nguồn lực và kết nối cần thiết để khám phá tiềm năng thực sự của Bitcoin.

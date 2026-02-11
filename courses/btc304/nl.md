@@ -193,7 +193,7 @@ Bitcoin gemeenschappen streven vaak bredere doelen na, vooral op het gebied van 
 4. Misleidende of ongegronde beweringen van sommige publieke figuren en media ontkrachten;
 
 
-5. De fundamentele verschillen tussen Bitcoin en andere cryptocurrencies;
+5. De fundamentele verschillen tussen Bitcoin en andere [cryptocurrencies](https://planb.academy/resources/glossary/cryptocurrency);
 
 
 Door de eerste "burchten" van morgen te bouwen, dienen **Bitcoin gemeenschappen wereldwijd als een bolwerk tegen desinformatie en censuur, terwijl ze een vruchtbare bodem vormen voor het leren van Bitcoin's grondbeginselen**. Ze bieden nieuwkomers, zelfs sceptici, de middelen en connecties die nodig zijn om het ware potentieel van Bitcoin te verkennen.

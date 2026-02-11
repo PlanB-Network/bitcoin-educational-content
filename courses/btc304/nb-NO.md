@@ -193,7 +193,7 @@ Bitcoin-samfunn har ofte bredere mål, særlig når det gjelder folkeopplysning:
 4. Avkrefte villedende eller grunnløse påstander fra enkelte offentlige personer og medier;
 
 
-5. De grunnleggende forskjellene mellom Bitcoin og andre kryptovalutaer;
+5. De grunnleggende forskjellene mellom Bitcoin og andre [kryptovalutaer](https://planb.academy/resources/glossary/cryptocurrency);
 
 
 Ved å bygge morgendagens første "citadeller" fungerer **Bitcoin-fellesskap over hele verden som et bolverk mot desinformasjon og sensur, samtidig som de gir grobunn for å lære Bitcoins grunnprinsipper**. De tilbyr nykommere, selv skeptikere, de ressursene og kontaktene som trengs for å utforske Bitcoins sanne potensial.

@@ -193,7 +193,7 @@ Zajednice Bitcoin često teže širim ciljevima, posebno javnom obrazovanju o:
 4. Razotkrivanje obmanjujućih ili neutemeljenih tvrdnji koje iznose neke javne ličnosti i mediji;
 
 
-5. Osnovne razlike između Bitcoin i drugih kripto-valuta;
+5. Osnovne razlike između Bitcoin i drugih [kripto-valuta](https://planb.academy/resources/glossary/cryptocurrency);
 
 
 Izgradnjom prvih "citadela" sutrašnjice, **Bitcoin zajednice širom sveta služe kao bedem protiv dezinformacija i cenzure, dok istovremeno pružaju plodno tlo za učenje osnova Bitcoin**. One nude novajlijama, pa čak i skepticima, resurse i veze potrebne za istraživanje pravog potencijala Bitcoin.

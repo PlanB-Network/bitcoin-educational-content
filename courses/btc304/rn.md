@@ -193,7 +193,7 @@ Imiryango ya Bitcoin akenshi ikurikirana intumbero zagutse, cane cane inyigisho 
 4. Gukuraho ibivugwa bizimiza canke bitagira ishingiro bivugwa n’abantu bamwebamwe bazwi cane muri Leta n’ibinyamakuru;
 
 
-5. Itandukaniro ry’ishimikiro hagati ya Bitcoin n’ayandi mafaranga y’ivy’ubuhinga bwa none;
+5. Itandukaniro ry’ishimikiro hagati ya Bitcoin n’ayandi [mafaranga y’ivy’ubuhinga bwa none](https://planb.academy/resources/glossary/cryptocurrency);
 
 
 Mu kwubaka "ibihome" vya mbere vy'ejo, **imiryango ya Bitcoin kw'isi yose irakora nk'igihome co kurwanya amakuru atari yo n'ugucengera mu gihe itanga ahantu heza ho kwigira ivy'ishimikiro vya Bitcoin**. Batanga abashasha, mbere n’abakekeranya, ubutunzi n’amasano bikenewe kugira ngo bamenye ubushobozi nyakuri bwa Bitcoin.

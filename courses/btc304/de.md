@@ -109,7 +109,7 @@ Bitcoin-Gemeinschaften verfolgen oft umfassendere Ziele, insbesondere im Bereich
 2. Wie es funktioniert;
 3. Sein Beitrag zur Gesellschaft;
 4. Entlarvung irreführender oder unbegründeter Behauptungen, die von einigen Persönlichkeiten des öffentlichen Lebens und den Medien aufgestellt werden;
-5. Die grundlegenden Unterschiede zwischen Bitcoin und anderen Kryptowährungen;
+5. Die grundlegenden Unterschiede zwischen Bitcoin und anderen [Kryptowährungen](https://planb.academy/resources/glossary/cryptocurrency);
 
 Durch den Aufbau der ersten "Zitadellen" von morgen dienen **Bitcoin-Gemeinschaften weltweit als Bollwerk gegen Desinformation und Zensur und bieten gleichzeitig einen fruchtbaren Boden für das Erlernen der Grundlagen von Bitcoin**. Sie bieten Neulingen, selbst Skeptikern, die Ressourcen und Verbindungen, die sie benötigen, um das wahre Potenzial von Bitcoin zu erkunden.
 

@@ -193,7 +193,7 @@ Bitcoin 社区往往追求更广泛的目标，特别是关于公众教育的目
 4.揭穿一些公众人物和媒体误导性或毫无根据的说法；
 
 
-5.Bitcoin 与其他加密货币的根本区别；
+5.Bitcoin 与其他[加密货币](https://planb.academy/resources/glossary/cryptocurrency)的根本区别；
 
 
 通过建立未来的第一批 "堡垒"，**全球的 Bitcoin 社区成为抵御虚假信息和审查的堡垒，同时也为学习 Bitcoin 的基本原理**了沃土。它们为新来者，甚至是怀疑论者，提供探索 Bitcoin 真正潜力所需的资源和联系。

@@ -193,7 +193,7 @@ Společenství Bitcoin často sledují širší cíle, zejména v oblasti vzděl
 4. Vyvracení zavádějících nebo nepodložených tvrzení některých veřejných činitelů a médií;
 
 
-5. Základní rozdíly mezi Bitcoin a ostatními kryptoměnami;
+5. Základní rozdíly mezi Bitcoin a ostatními [kryptoměnami](https://planb.academy/resources/glossary/cryptocurrency);
 
 
 Budováním prvních "citadel" zítřka slouží **komunity Bitcoin po celém světě jako hráz proti dezinformacím a cenzuře a zároveň poskytují živnou půdu pro učení se základům Bitcoin**. Nabízejí nováčkům, dokonce i skeptikům, zdroje a kontakty potřebné k prozkoumání skutečného potenciálu Bitcoin.

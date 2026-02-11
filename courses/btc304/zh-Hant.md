@@ -193,7 +193,7 @@ Bitcoin 社群經常追求更廣泛的目標，尤其是關於公眾教育的目
 4.揭穿某些公眾人物和媒體的誤導性或毫無根據的聲稱；
 
 
-5.Bitcoin 與其他加密貨幣的根本差異；
+5.Bitcoin 與其他[加密貨幣](https://planb.academy/resources/glossary/cryptocurrency)的根本差異；
 
 
 透過建立明日的第一批「城堡」，**Bitcoin 社群在世界各地發揮了防禦假消息和審查的作用，同時也為學習 Bitcoin 的基本原理**了肥沃的土壤。這些社群為新加入者，甚至是懷疑者，提供探索 Bitcoin 真正潛力所需的資源與連結。

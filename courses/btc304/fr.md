@@ -93,7 +93,7 @@ D'autre part, une communauté Bitcoin peut avoir des objectifs plus ouverts, not
 2. son fonctionnement ;
 3. ce qu'il apporte à notre société ;
 4. les inepties non sourcées ou trompeuses que certaines personnalités et certains médias cherchent à répandre ;
-5. les différences fondamentales qu'a Bitcoin avec les autres cryptomonnaies.
+5. les différences fondamentales qu'a Bitcoin avec les autres [cryptomonnaies](https://planb.academy/resources/glossary/cryptocurrency).
 
 Construisant petit à petit les premières citadelles du monde de demain, **les communautés Bitcoin du monde entier se dressent ainsi tel un rempart face aux tentatives de désinformation et de censure dans certains pays**. **Elles créent également un terrain fertile pour l'apprentissage des fondamentaux de Bitcoin**, offrant ainsi à toute personne qui n'a pas encore compris les bases de cette technologie, la possibilité de disposer des contacts et des ressources nécessaires pour explorer un monde nouveau. Y compris les plus réticents.
 

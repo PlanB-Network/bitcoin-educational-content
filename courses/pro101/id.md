@@ -3243,7 +3243,7 @@ Berlawanan dengan anggapan bahwa Bitcoin bersifat statis, Bitcoin berada dalam k
 Lightning Network, solusi Layer kedua dari Bitcoin untuk menskalakan dan mempercepat transaksi, sedang mengalami perkembangan yang pesat. Layer ini memungkinkan transaksi yang cepat dan berbiaya rendah dengan mengaktifkan saluran pembayaran off-chain. Inovasi yang signifikan sedang diintegrasikan untuk meningkatkan efisiensi dan kegunaannya.
 
 
-**Saluran yang didanai ganda**
+**Saluran pendanaan ganda**
 
 Secara tradisional, saluran Lightning didanai oleh satu pihak. Namun, saluran yang didanai ganda memungkinkan kedua belah pihak (misalnya, Alice dan Bob) untuk berkontribusi pada likuiditas saluran. Peningkatan ini memfasilitasi fleksibilitas yang lebih besar dalam kapasitas pengiriman dan penerimaan dan memerlukan komunikasi di muka dan protokol baru untuk mengelola pendanaan bersama.
 
@@ -3271,33 +3271,27 @@ Bolt 12 mengatasi keterbatasan faktur Bolt 11 saat ini yang digunakan dalam Ligh
 Taproot merupakan peningkatan signifikan yang mengkonsolidasikan kompleksitas transaksi dan meningkatkan privasi. Ketika dikombinasikan dengan MuSig (protokol untuk transaksi multi-tanda tangan) dan Tanda Tangan Schnorr, Taproot meningkatkan efisiensi transaksi. Kemajuan ini memungkinkan transaksi Lightning menyerupai transaksi Bitcoin biasa, menyederhanakan proses dan meningkatkan privasi.
 
 
-*perutean PTLC ** * Perutean PTLC
-
+** Perutean PTLC **
 Kontrak Terkunci Waktu Titik (PTLC) merupakan peningkatan dari Kontrak Kunci Waktu Hash (HTLC) yang sudah ada. PTLC menggunakan tanda tangan Schnorr dan meningkatkan privasi dengan mengganti rahasia bersama dengan kunci publik, sehingga mengurangi potensi korelasi pembayaran dan penyalahgunaan.
 
 
-*pabrik saluran** *Pabrik saluran
-
+**Pabrik Saluran**
 Pabrik saluran memungkinkan pembuatan saluran multi-partai (misalnya, 4-dari-4 Multisig), yang dapat menelurkan saluran pembayaran 2-dari-2 off-chain yang baru. Sistem ini memungkinkan pembuatan dan penutupan saluran yang cepat dan bebas biaya, meskipun membutuhkan kerja sama dari semua peserta. Pabrik saluran meningkatkan skalabilitas dan fleksibilitas Lightning Network secara keseluruhan.
 
 
 **Menara Pengawal**
-
 Menara pengawas adalah entitas pihak ketiga yang memantau Blockchain untuk mengetahui status saluran lama. Jika pelanggaran terdeteksi, mereka mempublikasikan transaksi penalti untuk memastikan keamanan jaringan. Meskipun menara pengawas meningkatkan keamanan dengan mencegah perilaku buruk, mereka juga memperkenalkan masalah privasi terkait pemantauan transaksi.
 
 
 ** Jalur blinded**
-
 Jalur blinded dirancang untuk meningkatkan privasi penerima pada Lightning Network. Jalur ini menyamarkan Address. Jalur ini mengaburkan Address penerima akhir, memastikan bahwa hanya pengirim yang mengetahui simpul perantara, dan setiap simpul hanya mengetahui simpul-simpul yang berdekatan. Metode ini melindungi identitas penerima dan meningkatkan privasi secara keseluruhan.
 
 
-*penyedia Layanan Petir (LSP) ** *Penyedia Layanan Petir (LSP)
-
+**Penyedia Layanan Lightning (LSP)**
 Dikonseptualisasikan oleh Breez Wallet, Lightning Service Provider (LSP) bertujuan untuk meningkatkan pengalaman pengguna dengan memungkinkan kemampuan penerimaan instan. LSP membuka saluran bagi pengguna, mirip dengan cara penyedia layanan internet menawarkan layanan konektivitas. Inovasi ini menyederhanakan proses orientasi pengguna dan memastikan interaksi yang mulus pada Lightning Network.
 
 
 **Sumber daya untuk tetap mendapatkan informasi terbaru**
-
 Untuk terus mengikuti inovasi teknis terbaru dalam Bitcoin dan Lightning Network, sangat penting untuk memanfaatkan sumber daya yang berharga. Buletin Bitcoin OpTec, milis lightning dev, dan materi dari pakar industri seperti Jason Lopp memberikan wawasan dan pembaruan tentang kemajuan dan penelitian yang sedang berlangsung di bidang yang berkembang pesat ini.
 
 
@@ -3327,7 +3321,7 @@ Proses ini bergantung pada **Hash Time-Locked Contracts (HTLC) **, yang memastik
 
 
 
-- Perutean bawang merah**: Memberikan privasi dengan mengenkapsulasi data transaksi secara berlapis-lapis, memastikan bahwa setiap perantara hanya mengetahui node sebelum dan sesudahnya, tetapi tidak seluruh rute.
+- Perutean bawang (Onion routing): Memberikan privasi dengan mengenkapsulasi data transaksi secara berlapis-lapis, memastikan bahwa setiap perantara hanya mengetahui node sebelum dan sesudahnya, tetapi tidak seluruh rute.
 - Rantai HTLC**: Serangkaian kontrak yang mengunci dana hingga pembayaran selesai atau dikembalikan.
 
 
@@ -3380,7 +3374,7 @@ Protokol lain, **RGB**, semakin memperluas fungsionalitas Lightning dengan memun
 - **LNURL**: Protokol yang memungkinkan pembuatan Invoice yang dinamis, sehingga pembayaran menjadi lebih mudah dan fleksibel.
 - **Bolt 12**: Perpanjangan dari Lightning yang memanfaatkan pesan Onion untuk privasi sekaligus mengotomatiskan pengambilan Invoice.
 - **Tidak ada: Platform terdesentralisasi yang mengintegrasikan LProtokol dan Kasus Penggunaan
-- mbayaran kilat untuk transaksi mikro.
+- **Lightning:** pembayaran untuk transaksi mikro.
 - protokol **RGB**: Protokol yang memungkinkan transfer aset, seperti token, melalui Lightning Network.
 - **LSP (Penyedia Layanan Lightning)**: Entitas yang menyediakan likuiditas dan membuka saluran untuk transaksi Lightning, membuat jaringan lebih mudah diakses oleh pengguna.
 

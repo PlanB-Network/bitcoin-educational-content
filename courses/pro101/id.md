@@ -2576,7 +2576,7 @@ Saluran pembayaran mewakili lompatan yang signifikan dalam teknologi Blockchain,
 Sebagai kesimpulan, memahami konteks historis dan tantangan Bitcoin, dan solusi inovatif yang diusulkan melalui MHL, Lightning Network, dan saluran pembayaran, memberikan pandangan yang komprehensif tentang lanskap saat ini dan potensi masa depan teknologi Blockchain.
 
 
-## Sejarah perutean atom
+## Sejarah atomic routing
 
 
 <chapterId>28be7b31-e6b2-5eea-a5ed-62ce0a154b6e</chapterId>
@@ -2598,7 +2598,7 @@ Untuk mengatasi keterbatasan ini, Manny Rosenfeld mengusulkan konsep hop terpusa
 ### Kunci Waktu Terhash Contract (HTLC) dan implementasi
 
 
-Keterbatasan dan kekurangan dari hop yang terpusat membutuhkan solusi yang lebih aman dan terdesentralisasi. Kebutuhan ini mengarah pada pengembangan Hashed Time Lock Contract (HTLC), yang diusulkan pada tahun 2015 oleh Joseph Poon dan Thaddeus Dreijer sebagai bagian dari Lightning Network. HTLC menggabungkan prinsip-prinsip kunci waktu dan kunci Hash untuk memastikan keatomisan dan tidak dapat dipercaya dalam transaksi. Ini berarti bahwa transaksi akan sepenuhnya selesai atau tidak terjadi sama sekali, mengurangi risiko yang terkait dengan pembayaran yang tidak lengkap.
+Keterbatasan dan kekurangan dari hop yang terpusat membutuhkan solusi yang lebih aman dan terdesentralisasi. Kebutuhan ini mengarah pada pengembangan Hashed Time Lock Contract (HTLC), yang diusulkan pada tahun 2015 oleh Joseph Poon dan Thaddeus Dreijer sebagai bagian dari Lightning Network. HTLC menggabungkan prinsip-prinsip kunci waktu dan kunci Hash untuk memastikan atomisitas dan tanpa kepercayaan dalam transaksi. Ini berarti bahwa transaksi akan sepenuhnya selesai atau tidak terjadi sama sekali, mengurangi risiko yang terkait dengan pembayaran yang tidak lengkap.
 
 
 Alur kerja HTLC melibatkan proses multi-langkah yang memastikan perutean yang aman melalui beberapa perantara. Misalkan Alice ingin membayar Eric melalui perantara Bob, Carol, dan Diana. Setiap langkah dalam proses ini melibatkan pembuatan transaksi Commitment dengan kunci waktu dan jumlah yang semakin berkurang. Jika perlu, langkah terakhir dapat disiarkan ke jaringan Bitcoin untuk menyelesaikan transaksi.
@@ -2877,7 +2877,7 @@ Dompet Bitcoin dan dompet Lightning berbeda secara fundamental dalam arsitektur 
 - Kompleksitas transaksi**: Dompet Bitcoin menangani berbagai skrip transaksi seperti Segregated Witness (SegWit) dan Taproot, yang mengoptimalkan ukuran transaksi dan meningkatkan privasi dan keamanan.
 
 
-#### Dompet petir:
+#### Dompet Lightning:
 
 
 
@@ -2885,7 +2885,7 @@ Dompet Bitcoin dan dompet Lightning berbeda secara fundamental dalam arsitektur 
 - Manajemen likuiditas**: Fitur khas dompet Lightning adalah kebutuhan untuk mengelola likuiditas, yang melibatkan penyeimbangan likuiditas lokal (keluar) dan jarak jauh (masuk) untuk memastikan kelancaran perutean transaksi. Hal ini mengharuskan pengguna untuk memahami dan mengoptimalkan saluran mereka untuk memfasilitasi penerusan pembayaran yang efisien.
 
 
-#### Manajemen likuiditas dalam dompet kilat
+#### Manajemen likuiditas di dompet Lightning
 
 
 Manajemen likuiditas yang efektif adalah landasan dari operasi Lightning Network yang sukses. Hal ini melibatkan keseimbangan strategis dari dua jenis likuiditas utama:
@@ -2953,7 +2953,7 @@ Berbagai dompet Lightning tersedia, masing-masing memenuhi kebutuhan dan prefere
 
 
 
-- Fitur**: Ekstensi peramban, sumber terbuka, mendukung model kustodian dan non-kustodian, meningkatkan keserbagunaan.
+- Fitur**: Ekstensi browser, sumber terbuka, mendukung model kustodian dan non-kustodian, meningkatkan keserbagunaan.
 
 
 #### Breez:
@@ -2974,7 +2974,7 @@ Berbagai dompet Lightning tersedia, masing-masing memenuhi kebutuhan dan prefere
 
 
 
-- Fitur**: Mengintegrasikan dompet On-Chain dan Lightning, mendukung saluran yang di-host, sumber terbuka dengan fitur-fitur canggih, cocok untuk pengguna daya.
+- Fitur**: Mengintegrasikan dompet On-Chain dan Lightning, mendukung saluran yang di-host, sumber terbuka dengan fitur-fitur canggih, cocok untuk pengguna tingkat lanjut (power users).
 
 
 ### Matriks manajemen kustodian dan likuiditas
@@ -3003,7 +3003,7 @@ Terlepas dari manfaatnya, dompet Lightning menghadapi beberapa kritik dan area u
 - Pengembangan Sumber Terbuka**: Tingkat kontribusi sumber terbuka yang bervariasi memengaruhi kepercayaan pengguna dan laju inovasi.
 
 
-### Wawasan tambahan dan kasus penggunaan
+### Wawasan tambahan dan kasus penggunaan--=-
 
 
 #### Tantangan algoritma:

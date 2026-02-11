@@ -80,30 +80,30 @@ Siap menyelami dunia RGB yang kompleks dan menarik? Ayo mulai!
 
 :::video id=f27338bc-4210-4a2e-9b27-30278ed3282c:::
 
-RGB adalah sebuah protokol yang didesain untuk menerapkan dan menegakkan hak-hak digital (dalam bentuk kontrak dan aset) dengan cara yang terukur dan rahasia, berdasarkan aturan konsensus dan operasi blockchain Bitcoin. Tujuan dari bab pertama ini adalah untuk menyajikan konsep dasar dan terminologi seputar protokol RGB, menyoroti secara khusus hubungan eratnya dengan konsep komputasi terdistribusi dasar seperti Validasi Sisi Klien dan Segel Sekali Pakai.
+RGB adalah sebuah protokol yang didesain untuk menerapkan dan menegakkan hak-hak digital (dalam bentuk kontrak dan aset) dengan cara yang terukur dan rahasia, berdasarkan [aturan konsensus](https://planb.academy/resources/glossary/consensus-rules) dan operasi [blockchain](https://planb.academy/resources/glossary/blockchain) Bitcoin. Tujuan dari bab pertama ini adalah untuk menyajikan konsep dasar dan terminologi seputar protokol RGB, menyoroti secara khusus hubungan eratnya dengan konsep komputasi terdistribusi dasar seperti Validasi Sisi Klien dan Segel Sekali Pakai.
 
 Pada bab ini, kita akan membahas dasar-dasar **sistem konsensus terdistribusi** dan melihat bagaimana RGB cocok dengan keluarga teknologi ini. Kami juga akan memperkenalkan prinsip-prinsip utama yang membantu kita memahami mengapa RGB bertujuan untuk dapat diperluas dan tidak bergantung pada mekanisme konsensus Bitcoin, namun tetap bergantung pada mekanisme konsensus Bitcoin ketika diperlukan.
 
 ### Pendahuluan
 
-Komputasi terdistribusi, sebuah cabang ilmu komputer yang spesifik, mempelajari protokol yang digunakan untuk mengedarkan dan memproses informasi pada jaringan node. Bersama-sama, node-node ini dan aturan protokol membentuk apa yang dikenal sebagai sistem terdistribusi. Di antara sifat-sifat penting yang mencirikan sistem tersebut adalah :
+Komputasi terdistribusi, sebuah cabang ilmu komputer yang spesifik, mempelajari protokol yang digunakan untuk mengedarkan dan memproses informasi pada jaringan [node](https://planb.academy/resources/glossary/node). Bersama-sama, node-node ini dan aturan protokol membentuk apa yang dikenal sebagai sistem terdistribusi. Di antara sifat-sifat penting yang mencirikan sistem tersebut adalah :
 
 
 - Kemampuan verifikasi dan validasi independen **kemampuan verifikasi dan validasi** data tertentu oleh setiap node;
 - Kemungkinan bagi node untuk membangun (tergantung pada protokol) tampilan informasi yang lengkap atau sebagian. Tampilan ini adalah **state** dari sistem terdistribusi;
-- Urutan kronologis operasi, sehingga data dapat dicap waktu dengan andal dan ada konsensus tentang urutan kejadian (urutan status).
+- Urutan kronologis operasi, sehingga data dapat [dicap waktu](https://planb.academy/resources/glossary/timestamp) dengan andal dan ada konsensus tentang urutan kejadian (urutan status).
 
 Secara khusus, pengertian **konsensus** dalam sistem terdistribusi mencakup dua aspek:
 
 
 - **Pengakuan keabsahan** perubahan status (sesuai dengan aturan protokol);
-- Kesepakatan mengenai urutan perubahan status ini, yang membuatnya tidak mungkin untuk menulis ulang atau membalikkan operasi yang telah divalidasi secara a posteriori (hal ini juga dikenal dalam Bitcoin sebagai "proteksi pembelanjaan ganda").
+- Kesepakatan mengenai urutan perubahan status ini, yang membuatnya tidak mungkin untuk menulis ulang atau membalikkan operasi yang telah divalidasi secara a posteriori (hal ini juga dikenal dalam Bitcoin sebagai "proteksi [pembelanjaan ganda](https://planb.academy/resources/glossary/double-spending-attack)").
 
-Implementasi mekanisme konsensus terdistribusi yang fungsional dan bebas izin pertama kali diperkenalkan oleh Satoshi Nakamoto dengan Bitcoin, berkat penggunaan gabungan struktur data blockchain dan algoritma Proof-of-Work (PoW). Dalam sistem ini, kredibilitas riwayat blok bergantung pada daya komputasi yang dicurahkan oleh node (penambang). Oleh karena itu, Bitcoin merupakan contoh utama dan bersejarah dari sistem konsensus terdistribusi yang terbuka untuk semua orang (*permissionless*).
+Implementasi mekanisme konsensus terdistribusi yang fungsional dan bebas izin pertama kali diperkenalkan oleh Satoshi Nakamoto dengan Bitcoin, berkat penggunaan gabungan struktur data blockchain dan algoritma [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) (PoW). Dalam sistem ini, kredibilitas riwayat blok bergantung pada daya komputasi yang dicurahkan oleh node ([penambang](https://planb.academy/resources/glossary/miner)). Oleh karena itu, Bitcoin merupakan contoh utama dan bersejarah dari sistem konsensus terdistribusi yang terbuka untuk semua orang (*permissionless*).
 
-Dalam dunia blockchain dan komputasi terdistribusi, kita dapat membedakan dua paradigma mendasar: **blockchain** dalam pengertian tradisional, dan **state channels**, contoh terbaiknya adalah Lightning Network. Blockchain didefinisikan sebagai daftar peristiwa yang diurutkan secara kronologis, direplikasi oleh konsensus dalam jaringan terbuka dan bebas izin. Di sisi lain, state channel adalah saluran peer-to-peer yang memungkinkan dua (atau lebih) peserta untuk mempertahankan state yang diperbarui di luar rantai, menggunakan blockchain hanya ketika membuka dan menutup saluran ini.
+Dalam dunia blockchain dan komputasi terdistribusi, kita dapat membedakan dua paradigma mendasar: **blockchain** dalam pengertian tradisional, dan **state channels**, contoh terbaiknya adalah [Lightning Network](https://planb.academy/resources/glossary/lightning-network). Blockchain didefinisikan sebagai daftar peristiwa yang diurutkan secara kronologis, direplikasi oleh konsensus dalam jaringan terbuka dan bebas izin. Di sisi lain, state channel adalah saluran peer-to-peer yang memungkinkan dua (atau lebih) peserta untuk mempertahankan state yang diperbarui di luar rantai, menggunakan blockchain hanya ketika membuka dan menutup saluran ini.
 
-Dalam konteks Bitcoin, Anda tentu sudah tidak asing lagi dengan prinsip-prinsip penambangan, desentralisasi, dan finalitas transaksi pada blockchain, serta cara kerja saluran pembayaran. Dengan RGB, kami memperkenalkan paradigma baru yang disebut **Validasi Sisi Klien**, yang tidak seperti blockchain atau Lightning, terdiri dari penyimpanan dan validasi secara lokal (sisi klien) untuk memvalidasi transisi status kontrak pintar. Ini juga berbeda dari teknik "DeFi" lainnya (_rollups_, _plasma_, _ARK_, dll.), karena Validasi Sisi Klien bergantung pada blockchain untuk mencegah pengeluaran ganda dan memiliki sistem stempel waktu, sambil tetap menyimpan daftar status dan transisi off-chain, hanya dengan peserta yang bersangkutan.
+Dalam konteks Bitcoin, Anda tentu sudah tidak asing lagi dengan prinsip-prinsip penambangan, desentralisasi, dan finalitas transaksi pada blockchain, serta cara kerja [saluran pembayaran](https://planb.academy/resources/glossary/payment-channel). Dengan RGB, kami memperkenalkan paradigma baru yang disebut **Validasi Sisi Klien**, yang tidak seperti blockchain atau Lightning, terdiri dari penyimpanan dan validasi secara lokal (sisi klien) untuk memvalidasi transisi status [kontrak pintar](https://planb.academy/resources/glossary/smart-contract). Ini juga berbeda dari teknik "DeFi" lainnya (_rollups_, _plasma_, _ARK_, dll.), karena Validasi Sisi Klien bergantung pada blockchain untuk mencegah pengeluaran ganda dan memiliki sistem stempel waktu, sambil tetap menyimpan daftar status dan transisi off-chain, hanya dengan peserta yang bersangkutan.
 
 ![RGB-Bitcoin](assets/en/003.webp)
 
@@ -174,7 +174,7 @@ Blockchain (dalam hal ini, Bitcoin) berfungsi terutama sebagai mekanisme _waktu-
 
 Sharding adalah sebuah konsep yang berasal dari database terdistribusi (misalnya MySQL untuk jejaring sosial seperti Facebook atau Twitter). Untuk mengatasi masalah volume data dan latensi sinkronisasi, basis data disegmentasi ke dalam _shard_ (Amerika Serikat, Eropa, Asia, dll.). Setiap segmen konsisten secara lokal dan hanya sebagian yang disinkronkan dengan yang lain.
 
-Untuk smart contract tipe RGB, kami melakukan shard sesuai dengan kontrak itu sendiri. Setiap kontrak adalah _shard_ independen. Misalnya, jika Anda hanya memiliki token USDT, Anda tidak perlu menyimpan atau memvalidasi seluruh riwayat token lain seperti USDC. Pada Bitcoin, blockchain tidak melakukan _sharding_: Anda memiliki satu set global UTXO. Dengan Validasi Sisi Klien, setiap peserta hanya menyimpan data kontrak yang dipegang atau digunakannya.
+Untuk smart contract tipe RGB, kami melakukan shard sesuai dengan kontrak itu sendiri. Setiap kontrak adalah _shard_ independen. Misalnya, jika Anda hanya memiliki token USDT, Anda tidak perlu menyimpan atau memvalidasi seluruh riwayat token lain seperti USDC. Pada Bitcoin, blockchain tidak melakukan _sharding_: Anda memiliki satu set global [UTXO](https://planb.academy/resources/glossary/utxo). Dengan Validasi Sisi Klien, setiap peserta hanya menyimpan data kontrak yang dipegang atau digunakannya.
 
 Oleh karena itu, kita dapat membayangkan ekosistem sebagai berikut:
 
@@ -226,7 +226,7 @@ Validasi sisi klien didasarkan pada ide yang berlawanan: daripada mengharuskan s
 
 Pada saat yang sama, agar seluruh jaringan (atau lebih tepatnya, lapisan yang mendasari, seperti Bitcoin) dapat mengunci keadaan akhir tanpa melihat rincian data ini, Validasi Sisi Klien bergantung pada gagasan ***komitmen***.
 
-Sebuah *commitment* adalah sebuah komitmen kriptografi, biasanya berupa _hash_ (SHA-256 misalnya) yang dimasukkan ke dalam sebuah transaksi Bitcoin, yang membuktikan bahwa data pribadi telah disertakan, tanpa mengungkapkan data ini.
+Sebuah *commitment* adalah sebuah komitmen kriptografi, biasanya berupa _hash_ ([SHA-256](https://planb.academy/resources/glossary/sha256) misalnya) yang dimasukkan ke dalam sebuah transaksi Bitcoin, yang membuktikan bahwa data pribadi telah disertakan, tanpa mengungkapkan data ini.
 
 Berkat _komitmen_ ini, kami dapat membuktikannya:
 
@@ -279,7 +279,7 @@ Ketika menerima aset seperti mata uang, dua jaminan sangat penting:
 
 Untuk aset fisik, seperti uang kertas, keberadaan fisik sudah cukup untuk membuktikan bahwa aset tersebut belum diduplikasi. Namun, di dunia digital, di mana aset murni berupa informasi, verifikasi ini lebih kompleks, karena informasi dapat dengan mudah berkembang biak dan diduplikasi.
 
-Seperti yang telah kita lihat sebelumnya, pengungkapan pengirim mengenai sejarah transisi status memungkinkan kita untuk memastikan keaslian token RGB. Dengan memiliki akses ke semua transaksi sejak transaksi awal, kita dapat memastikan keaslian token tersebut. Prinsip ini mirip dengan Bitcoin, di mana sejarah koin dapat ditelusuri kembali ke transaksi coinbase asli untuk memverifikasi keabsahannya. Namun, tidak seperti Bitcoin, riwayat transisi status dalam RGB bersifat pribadi dan disimpan di sisi klien.
+Seperti yang telah kita lihat sebelumnya, pengungkapan pengirim mengenai sejarah transisi status memungkinkan kita untuk memastikan keaslian token RGB. Dengan memiliki akses ke semua transaksi sejak transaksi awal, kita dapat memastikan keaslian token tersebut. Prinsip ini mirip dengan Bitcoin, di mana sejarah koin dapat ditelusuri kembali ke transaksi [coinbase](https://planb.academy/resources/glossary/coinbase-transaction) asli untuk memverifikasi keabsahannya. Namun, tidak seperti Bitcoin, riwayat transisi status dalam RGB bersifat pribadi dan disimpan di sisi klien.
 
 Untuk mencegah penggunaan ganda token RGB, kami menggunakan mekanisme yang disebut "**Single-use Seal**". Sistem ini memastikan bahwa setiap token, setelah digunakan, tidak dapat digunakan kembali secara curang untuk kedua kalinya.
 
@@ -307,7 +307,7 @@ Tidak seperti _komitmen_ (hash) atau stempel waktu yang sederhana, yang membukti
 Perbandingan berikut ini membantu untuk memahami prinsip ini:
 
 
-- **Komitmen kriptografi (hash)**: Dengan fungsi hash, Anda dapat berkomitmen pada sepotong data (angka) dengan menerbitkan hash-nya. Data tetap rahasia sampai Anda mengungkapkan pra-gambar, tetapi Anda dapat membuktikan bahwa Anda sudah mengetahuinya sebelumnya;
+- **Komitmen kriptografi (hash)**: Dengan [fungsi hash](https://planb.academy/resources/glossary/hash-function), Anda dapat berkomitmen pada sepotong data (angka) dengan menerbitkan hash-nya. Data tetap rahasia sampai Anda mengungkapkan pra-gambar, tetapi Anda dapat membuktikan bahwa Anda sudah mengetahuinya sebelumnya;
 - **Stempel waktu (blockchain)**: Dengan memasukkan hash ini ke dalam blockchain, kita juga membuktikan bahwa kita mengetahuinya pada saat yang tepat (saat dimasukkan ke dalam blok);
 - **Segel sekali pakai**: Dengan segel sekali pakai, kami melangkah lebih jauh dengan membuat komitmen yang unik. Dengan satu hash, Anda dapat membuat beberapa komitmen yang bertentangan secara paralel (masalah dokter yang mengumumkan "*Ini anak laki-laki*" kepada keluarga dan "*Ini anak perempuan*" dalam buku harian pribadinya). Segel Sekali Pakai menghilangkan kemungkinan ini dengan menghubungkan komitmen ke media bukti publikasi, seperti blockchain Bitcoin, sehingga pengeluaran UTXO secara definitif menyegel komitmen tersebut. Setelah dibelanjakan, UTXO yang sama tidak dapat dibelanjakan kembali untuk menggantikan komitmen.
 
@@ -400,7 +400,7 @@ Perlu dicatat bahwa batu bata perangkat lunak ini bersifat agnostik terhadap Bit
 
 #### Menuju penggunaan Segel Sekali Pakai yang lebih luas
 
-Peter Todd juga menciptakan protokol _Open Timestamps_, dan konsep Segel Sekali Pakai merupakan perluasan alami dari ide-ide ini. Di luar RGB, kasus penggunaan lain dapat dipertimbangkan, seperti pembangunan _sidechain_ tanpa menggunakan _merge mining_ atau proposal terkait drivechain seperti BIP300. Sistem apa pun yang membutuhkan komitmen tunggal pada prinsipnya dapat mengeksploitasi primitif kriptografi ini. Saat ini, RGB merupakan implementasi skala penuh yang pertama.
+Peter Todd juga menciptakan protokol _Open Timestamps_, dan konsep Segel Sekali Pakai merupakan perluasan alami dari ide-ide ini. Di luar RGB, kasus penggunaan lain dapat dipertimbangkan, seperti pembangunan _[sidechain](https://planb.academy/resources/glossary/sidechain)_ tanpa menggunakan _merge mining_ atau proposal terkait drivechain seperti BIP300. Sistem apa pun yang membutuhkan komitmen tunggal pada prinsipnya dapat mengeksploitasi primitif kriptografi ini. Saat ini, RGB merupakan implementasi skala penuh yang pertama.
 
 #### Masalah ketersediaan data
 
@@ -408,7 +408,7 @@ Karena dalam Validasi Sisi Klien, setiap pengguna menyimpan bagian riwayatnya se
 
 #### Isolasi pecahan dan kontrak
 
-Setiap kontrak mewakili _shard_ yang terisolasi: USDT dan USDC, misalnya, tidak harus berbagi sejarah. Pertukaran atom masih dimungkinkan, tetapi ini tidak melibatkan penggabungan register mereka. Semuanya dilakukan dengan komitmen kriptografi, tanpa mengungkapkan seluruh grafik riwayat kepada setiap peserta.
+Setiap kontrak mewakili _shard_ yang terisolasi: USDT dan USDC, misalnya, tidak harus berbagi sejarah. [Pertukaran atom](https://planb.academy/resources/glossary/atomic-swap) masih dimungkinkan, tetapi ini tidak melibatkan penggabungan register mereka. Semuanya dilakukan dengan komitmen kriptografi, tanpa mengungkapkan seluruh grafik riwayat kepada setiap peserta.
 
 ### Kesimpulan
 

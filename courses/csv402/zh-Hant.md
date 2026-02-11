@@ -77,30 +77,30 @@ https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
 :::video id=f27338bc-4210-4a2e-9b27-30278ed3282c:::
 
-RGB 是基於 Bitcoin Blockchain 的共識規則與運作，以可擴充與保密的方式應用與強制執行數位權利 (合約與資產的形式) 的通訊協定。第一章的目的是介紹 RGB 協定的基本概念和術語，特別強調其與 Client-side Validation 和單次使用封印等基本分散式運算概念的密切關聯。
+RGB 是基於 Bitcoin [Blockchain](https://planb.academy/resources/glossary/blockchain) 的[共識規則](https://planb.academy/resources/glossary/consensus-rules)與運作，以可擴充與保密的方式應用與強制執行數位權利 (合約與資產的形式) 的通訊協定。第一章的目的是介紹 RGB 協定的基本概念和術語，特別強調其與 Client-side Validation 和單次使用封印等基本分散式運算概念的密切關聯。
 
 在本章中，我們將探討**分散式共識系統**的基本原理，並瞭解 RGB 如何融入這個技術系列。我們也將介紹一些主要原則，這些原則有助於我們瞭解 RGB 為何以可擴充和獨立於 Bitcoin 本身的共識機制為目標，同時在必要時依賴它。
 
 ### 簡介
 
-分散式運算是電腦科學的一個特定分支，研究用於在節點網路中流通和處理資訊的通訊協定。這些節點和通訊協定規則共同構成了所謂的分散式系統。這種系統的基本特性包括 ：
+分散式運算是電腦科學的一個特定分支，研究用於在[節點](https://planb.academy/resources/glossary/node)網路中流通和處理資訊的通訊協定。這些節點和通訊協定規則共同構成了所謂的分散式系統。這種系統的基本特性包括 ：
 
 
 - 每個節點對特定資料進行獨立驗證及確認的**能力**；
 - 節點建構完整或部分資訊視圖的可能性（取決於協定）。這些視圖就是分散式系統的**狀態**；
-- 操作的**時序**，使資料有可靠的時間戳記，並對事件的順序（狀態順序）達成共識。
+- 操作的**時序**，使資料有可靠的[時間戳記](https://planb.academy/resources/glossary/timestamp)，並對事件的順序（狀態順序）達成共識。
 
 特別是，分散式系統中的**共識**概念涵蓋兩方面：
 
 
 - 確認狀態變更的**有效性**（根據協議規則）；
-- 這些狀態變更的**協定順序**，使後續無法重寫或逆向驗證的作業（這在 Bitcoin 中也稱為「雙重花費保護」）。
+- 這些狀態變更的**協定順序**，使後續無法重寫或逆向驗證的作業（這在 Bitcoin 中也稱為「[雙重花費](https://planb.academy/resources/glossary/double-spending-attack)保護」）。
 
-Satoshi Nakamoto 以 Bitcoin 引入了第一個功能性、無權限的分散式共識機制實現，這要歸功於 Blockchain 資料結構和 Proof-of-Work (PoW) 演算法的結合使用。在這個系統中，區塊歷史的可信度取決於節點（礦工）對其投入的計算能力。因此，Bitcoin 是分佈式共識系統的主要歷史性案例，對所有人開放（*無權限*）。
+Satoshi Nakamoto 以 Bitcoin 引入了第一個功能性、無權限的分散式共識機制實現，這要歸功於 Blockchain 資料結構和 [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) (PoW) 演算法的結合使用。在這個系統中，區塊歷史的可信度取決於節點（[礦工](https://planb.academy/resources/glossary/miner)）對其投入的計算能力。因此，Bitcoin 是分佈式共識系統的主要歷史性案例，對所有人開放（*無權限*）。
 
-在 Blockchain 和分散式運算的世界裡，我們可以區分出兩種基本範例：**傳統意義上的 Blockchain**，以及**狀態通道**，其中最佳的生產範例就是 Lightning Network。Blockchain 被定義為一個按時間順序排列的事件登錄器，在一個開放、無權限的網絡中以共識方式複製。另一方面，狀態通道是對等通道，可讓兩個（或更多）參與者維持更新的狀態 off-chain，僅在開啟和關閉這些通道時使用 Blockchain。
+在 Blockchain 和分散式運算的世界裡，我們可以區分出兩種基本範例：**傳統意義上的 Blockchain**，以及**狀態通道**，其中最佳的生產範例就是 [Lightning Network](https://planb.academy/resources/glossary/lightning-network)。Blockchain 被定義為一個按時間順序排列的事件登錄器，在一個開放、無權限的網絡中以共識方式複製。另一方面，狀態通道是對等通道，可讓兩個（或更多）參與者維持更新的狀態 off-chain，僅在開啟和關閉這些通道時使用 Blockchain。
 
-在 Bitcoin 的背景下，您無疑已經熟悉了 Mining 的原則、Blockchain 上交易的去中心化和終局性，以及支付通道的工作方式。有了 RGB，我們將引進一個新的範例，稱為 **Client-side Validation**，與 Blockchain 或 Lightning 不同，它包含本機（客戶端）儲存和驗證 Smart contract 的狀態轉換。這也有別於其他「DeFi」技術 (_rollups_、_plasma_、_ARK_ 等)，因為 Client-side Validation 依賴 Blockchain 來防止 Double-spending 並擁有時間戳記系統，同時只與相關參與者保留 off-chain 狀態和轉換的登錄器。
+在 Bitcoin 的背景下，您無疑已經熟悉了 Mining 的原則、Blockchain 上交易的去中心化和終局性，以及[支付通道](https://planb.academy/resources/glossary/payment-channel)的工作方式。有了 RGB，我們將引進一個新的範例，稱為 **Client-side Validation**，與 Blockchain 或 Lightning 不同，它包含本機（客戶端）儲存和驗證 [Smart contract](https://planb.academy/resources/glossary/smart-contract) 的狀態轉換。這也有別於其他「DeFi」技術 (_rollups_、_plasma_、_ARK_ 等)，因為 Client-side Validation 依賴 Blockchain 來防止 Double-spending 並擁有時間戳記系統，同時只與相關參與者保留 off-chain 狀態和轉換的登錄器。
 
 ![RGB-Bitcoin](assets/en/003.webp)
 
@@ -171,7 +171,7 @@ Blockchain (在此為 Bitcoin)主要是作為_時間戳記_機制和防止雙重
 
 Sharding 是一個起源於分散式資料庫的概念 (例如 MySQL 用於 Facebook 或 Twitter 等社交網路)。為了解決資料量和同步延遲的問題，資料庫被分割成_shards_（美國、歐洲、亞洲等）。每個區段都是本機一致的，並且只與其他區段部分同步。
 
-對於 RGB 類型的智慧型契約，我們 Shard 依契約本身而定。每個 Contract 都是獨立的 _shard_。舉例來說，如果您只持有 USDT 代幣，您就不需要儲存或驗證另一種代幣（如 USDC）的整個歷史。在 Bitcoin 上，Blockchain 不做 _sharding_：您有一組全局的 UTXO。使用 Client-side Validation，每個參與者只保留其持有或使用的 Contract 資料。
+對於 RGB 類型的智慧型契約，我們 Shard 依契約本身而定。每個 Contract 都是獨立的 _shard_。舉例來說，如果您只持有 USDT 代幣，您就不需要儲存或驗證另一種代幣（如 USDC）的整個歷史。在 Bitcoin 上，Blockchain 不做 _sharding_：您有一組全局的 [UTXO](https://planb.academy/resources/glossary/utxo)。使用 Client-side Validation，每個參與者只保留其持有或使用的 Contract 資料。
 
 因此，我們可以想像這個生態系統如下：
 
@@ -223,7 +223,7 @@ Client-side Validation 是基於相反的想法：與其要求整個網路驗證
 
 與此同時，為了讓網路的其他部分（或更精確地說，底層的 Layer，例如 Bitcoin）能夠鎖定最終狀態，而不會看到這些資料的細節，Client-side Validation 依賴於 ***Commitment*** 的概念。
 
-*Commitment* 是加密 Commitment，通常是插入到 Bitcoin 交易中的 _hash_ (例如 SHA-256)，可證明已包含私人資料，但不會洩露這些資料。
+*Commitment* 是加密 Commitment，通常是插入到 Bitcoin 交易中的 _hash_ (例如 [SHA-256](https://planb.academy/resources/glossary/sha256))，可證明已包含私人資料，但不會洩露這些資料。
 
 感謝這些_承諾_，我們可以證明：
 
@@ -276,7 +276,7 @@ Blockchain 所包含的承諾 (*commitments*) 都很小 (約數十位元組)。�
 
 對於實體資產，例如鈔票，實體的存在足以證明其未曾被複製。然而，在數位世界中，資產純粹是資訊性的，這種驗證方式就比較複雜，因為資訊很容易倍增和被複製。
 
-正如我們前面所看到的，寄件者揭露狀態轉換的歷史，使我們能夠確保 RGB 令牌的真實性。透過存取 Genesis 交易之後的所有交易，我們可以確認代幣的真實性。這個原理類似於 Bitcoin，在 Bitcoin 中，硬幣的歷史可以追溯到原始的 Coinbase Transaction，以驗證其有效性。然而，與 Bitcoin 不同的是，RGB 的這種狀態轉換歷史是私有的，並保存在客戶端。
+正如我們前面所看到的，寄件者揭露狀態轉換的歷史，使我們能夠確保 RGB 令牌的真實性。透過存取 Genesis 交易之後的所有交易，我們可以確認代幣的真實性。這個原理類似於 Bitcoin，在 Bitcoin 中，硬幣的歷史可以追溯到原始的 [Coinbase Transaction](https://planb.academy/resources/glossary/coinbase-transaction)，以驗證其有效性。然而，與 Bitcoin 不同的是，RGB 的這種狀態轉換歷史是私有的，並保存在客戶端。
 
 為了防止 RGB 令牌的 Double-spending，我們使用稱為「**Single-Use Seal**」的機制。此系統可確保每個代用幣使用一次後，無法以欺詐方式再次使用第二次。
 
@@ -304,7 +304,7 @@ Blockchain 非常適合扮演這個角色：只要交易被包含在區塊中，
 以下的比較有助於了解這個原則：
 
 
-- 加密 Commitment (Hash)：使用 Hash 函式，您可以透過公佈其 Hash 來承諾一段資料（一個數字）。在您揭露預先映像之前，該資料仍然是保密的，但您可以證明您事先知道該資料；
+- 加密 Commitment (Hash)：使用 [Hash 函式](https://planb.academy/resources/glossary/hash-function)，您可以透過公佈其 Hash 來承諾一段資料（一個數字）。在您揭露預先映像之前，該資料仍然是保密的，但您可以證明您事先知道該資料；
 - Timestamp (Blockchain)：透過在 Blockchain 中插入此 Hash，我們也證明我們在一個精確的時刻（即包含在區塊中）知道它；
 - **Single-Use Seal**：有了單次使用的封條，我們更進一步讓 Commitment 成為唯一。使用單一 Hash，您可以同時創造多個相互矛盾的承諾 (醫生向家人宣布「*是男孩*」，卻在個人日記中寫下「*是女孩*」的問題)。Single-Use Seal 透過將 Commitment 連結到一個公開證明媒介 (例如 Bitcoin Blockchain) 來消除這種可能性，因此花費 UTXO 就能確實封鎖 Commitment。一旦花費 UTXO，就無法再花費相同的 UTXO 來取代 Commitment。
 
@@ -400,7 +400,7 @@ bool <- Verify(seal, witness, message)
 
 #### 邁向更廣泛使用一次性密封件
 
-Peter Todd 也創造了_Open Timestamps_協定，而 Single-Use Seal 概念則是這些想法的自然延伸。除了 RGB 之外，我們還可預見其他的使用情況，例如在不使用 _merge mining_ 的情況下建構 _sidechains_ 或與 drivechain 相關的提案，例如 BIP300。任何需要單個 Commitment 的系統原則上都可以利用此加密原始碼。今天，RGB 是第一個主要的全面實作。
+Peter Todd 也創造了_Open Timestamps_協定，而 Single-Use Seal 概念則是這些想法的自然延伸。除了 RGB 之外，我們還可預見其他的使用情況，例如在不使用 _merge mining_ 的情況下建構 _[sidechains](https://planb.academy/resources/glossary/sidechain)_ 或與 drivechain 相關的提案，例如 BIP300。任何需要單個 Commitment 的系統原則上都可以利用此加密原始碼。今天，RGB 是第一個主要的全面實作。
 
 #### 資料可用性問題
 
@@ -408,7 +408,7 @@ Peter Todd 也創造了_Open Timestamps_協定，而 Single-Use Seal 概念則�
 
 #### 分片與 Contract 隔離
 
-每個 Contract 代表一個獨立的_shard_：例如，USDT 和 USDC 無需分享它們的歷史。原子交換仍是可能的，但這並不涉及合併它們的暫存器。所有的事情都由加密的 Commitment 來完成，而不會向每個參與者透露整個歷史圖形。
+每個 Contract 代表一個獨立的_shard_：例如，USDT 和 USDC 無需分享它們的歷史。[原子交換](https://planb.academy/resources/glossary/atomic-swap)仍是可能的，但這並不涉及合併它們的暫存器。所有的事情都由加密的 Commitment 來完成，而不會向每個參與者透露整個歷史圖形。
 
 ### 總結
 

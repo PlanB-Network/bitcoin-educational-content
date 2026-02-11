@@ -114,7 +114,7 @@ Spremni da zaronite u složen i fascinantan svet RGB? Hajde da krenemo!
 :::video id=f27338bc-4210-4a2e-9b27-30278ed3282c:::
 
 
-RGB je protokol dizajniran da primeni i sprovede digitalna prava (u obliku ugovora i sredstava) na skalabilan i poverljiv način, zasnovan na pravilima konsenzusa i operacijama Bitcoin Blockchain. Cilj ovog prvog poglavlja je da predstavi osnovne pojmove i terminologiju oko RGB protokola, posebno ističući njegove bliske veze sa osnovnim konceptima distribuiranog računarstva kao što su Client-side Validation i Jednokratni Pečati.
+RGB je protokol dizajniran da primeni i sprovede digitalna prava (u obliku ugovora i sredstava) na skalabilan i poverljiv način, zasnovan na [pravilima konsenzusa](https://planb.academy/resources/glossary/consensus-rules) i operacijama Bitcoin [Blockchain](https://planb.academy/resources/glossary/blockchain). Cilj ovog prvog poglavlja je da predstavi osnovne pojmove i terminologiju oko RGB protokola, posebno ističući njegove bliske veze sa osnovnim konceptima distribuiranog računarstva kao što su Client-side Validation i Jednokratni Pečati.
 
 
 U ovom poglavlju istražujemo osnove **distribuiranih konsenzus sistema** i vidimo kako se RGB uklapa u ovu porodicu tehnologija. Takođe ćemo predstaviti glavne principe koji nam pomažu da razumemo zašto RGB teži da bude proširiv i nezavisan od sopstvenog konsenzus mehanizma Bitcoin, dok se oslanja na njega kada je to potrebno.
@@ -123,14 +123,14 @@ U ovom poglavlju istražujemo osnove **distribuiranih konsenzus sistema** i vidi
 ### Uvod
 
 
-Distribuirano računarstvo, specifična grana računarstva, proučava protokole korišćene za distribuciju i obradu informacija na mreži čvorova. Zajedno, ovi čvorovi i pravila protokola čine ono što je poznato kao distribuirani sistem. Među osnovnim svojstvima koja karakterišu takav sistem su :
+Distribuirano računarstvo, specifična grana računarstva, proučava protokole korišćene za distribuciju i obradu informacija na mreži [čvorova](https://planb.academy/resources/glossary/node). Zajedno, ovi čvorovi i pravila protokola čine ono što je poznato kao distribuirani sistem. Među osnovnim svojstvima koja karakterišu takav sistem su :
 
 
 
 
 - **sposobnost nezavisne verifikacije i validacije** određenih podataka od strane svakog čvora;
 - Mogućnost da čvorovi konstruiraju (u zavisnosti od protokola) kompletan ili delimičan prikaz informacija. Ovi prikazi su **stanja** distribuiranog sistema;
-- Hronološki redosled operacija, tako da su podaci pouzdano vremenski obeleženi i postoji konsenzus o redosledu događaja (redosled stanja).
+- Hronološki redosled operacija, tako da su podaci pouzdano [vremenski obeleženi](https://planb.academy/resources/glossary/timestamp) i postoji konsenzus o redosledu događaja (redosled stanja).
 
 
 Posebno, pojam **konsenzusa** u distribuiranom sistemu pokriva dva aspekta:
@@ -139,16 +139,16 @@ Posebno, pojam **konsenzusa** u distribuiranom sistemu pokriva dva aspekta:
 
 
 - Prepoznavanje **validnosti** promena stanja (prema pravilima protokola);
-- **sporazum o redosledu** ovih promena stanja, što onemogućava prepravljanje ili poništavanje validiranih operacija a posteriori (ovo je takođe poznato u Bitcoin kao "zaštita od dvostrukog trošenja").
+- **sporazum o redosledu** ovih promena stanja, što onemogućava prepravljanje ili poništavanje validiranih operacija a posteriori (ovo je takođe poznato u Bitcoin kao "zaštita od [dvostrukog trošenja](https://planb.academy/resources/glossary/double-spending-attack)").
 
 
-Prva funkcionalna, dozvola-slobodna implementacija mehanizma distribuiranog konsenzusa predstavljena je od strane Satoshi Nakamoto sa Bitcoin, zahvaljujući kombinovanoj upotrebi Blockchain strukture podataka i Proof-of-Work (PoW) algoritma. U ovom sistemu, kredibilitet istorije blokova zavisi od računarske snage koju mu posvećuju čvorovi (rudari). Bitcoin je stoga glavni i istorijski primer sistema distribuiranog konsenzusa otvorenog za sve (*permissionless*).
+Prva funkcionalna, dozvola-slobodna implementacija mehanizma distribuiranog konsenzusa predstavljena je od strane Satoshi Nakamoto sa Bitcoin, zahvaljujući kombinovanoj upotrebi Blockchain strukture podataka i [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) (PoW) algoritma. U ovom sistemu, kredibilitet istorije blokova zavisi od računarske snage koju mu posvećuju čvorovi ([rudari](https://planb.academy/resources/glossary/miner)). Bitcoin je stoga glavni i istorijski primer sistema distribuiranog konsenzusa otvorenog za sve (*permissionless*).
 
 
-U svetu Blockchain i distribuiranog računarstva, možemo razlikovati dva fundamentalna paradigme: ***Blockchain*** u tradicionalnom smislu, i ***state channels***, čiji je najbolji primer u proizvodnji Lightning Network. Blockchain je definisan kao registar hronološki uređenih događaja, repliciran konsenzusom unutar otvorene, mreže bez dozvola. State channels, s druge strane, su peer-to-peer kanali koji omogućavaju dvema (ili više) učesnicima da održavaju ažurirano stanje off-chain, koristeći Blockchain samo prilikom otvaranja i zatvaranja ovih kanala.
+U svetu Blockchain i distribuiranog računarstva, možemo razlikovati dva fundamentalna paradigme: ***Blockchain*** u tradicionalnom smislu, i ***state channels***, čiji je najbolji primer u proizvodnji [Lightning Network](https://planb.academy/resources/glossary/lightning-network). Blockchain je definisan kao registar hronološki uređenih događaja, repliciran konsenzusom unutar otvorene, mreže bez dozvola. State channels, s druge strane, su peer-to-peer kanali koji omogućavaju dvema (ili više) učesnicima da održavaju ažurirano stanje off-chain, koristeći Blockchain samo prilikom otvaranja i zatvaranja ovih kanala.
 
 
-U kontekstu Bitcoin, sigurno ste upoznati sa principima Mining, decentralizacijom i finalnošću transakcija na Blockchain, kao i kako funkcionišu platni kanali. Sa RGB, uvodimo novu paradigmu zvanu **Client-side Validation**, koja, za razliku od Blockchain ili Lightning, podrazumeva lokalno (na strani klijenta) čuvanje i validaciju prelaza stanja Smart contract. Ovo se takođe razlikuje od drugih "DeFi" tehnika (_rollups_, _plasma_, _ARK_, itd.), jer Client-side Validation se oslanja na Blockchain da spreči Double-spending i da ima sistem vremenskog pečatiranja, dok zadržava registar stanja i prelaza off-chain, samo sa uključenim učesnicima.
+U kontekstu Bitcoin, sigurno ste upoznati sa principima Mining, decentralizacijom i finalnošću transakcija na Blockchain, kao i kako funkcionišu [platni kanali](https://planb.academy/resources/glossary/payment-channel). Sa RGB, uvodimo novu paradigmu zvanu **Client-side Validation**, koja, za razliku od Blockchain ili Lightning, podrazumeva lokalno (na strani klijenta) čuvanje i validaciju prelaza stanja [Smart contract](https://planb.academy/resources/glossary/smart-contract). Ovo se takođe razlikuje od drugih "DeFi" tehnika (_rollups_, _plasma_, _ARK_, itd.), jer Client-side Validation se oslanja na Blockchain da spreči Double-spending i da ima sistem vremenskog pečatiranja, dok zadržava registar stanja i prelaza off-chain, samo sa uključenim učesnicima.
 
 
 ![RGB-Bitcoin](assets/en/003.webp)
@@ -257,7 +257,7 @@ Blockchain (u ovom slučaju, Bitcoin) služi prvenstveno kao mehanizam za _vreme
 Sharding je koncept koji je nastao u distribuiranim bazama podataka (npr. MySQL za društvene mreže kao što su Facebook ili Twitter). Da bi se rešio problem obima podataka i latencija sinhronizacije, baza podataka se segmentira u _shardove_ (SAD, Evropa, Azija, itd.). Svaki segment je lokalno konzistentan i samo delimično sinhronizovan sa ostalima.
 
 
-Za pametne ugovore tipa RGB, mi Shard prema samim ugovorima. Svaki Contract je nezavisni _shard_. Na primer, ako posedujete samo USDT tokene, ne morate čuvati ili validirati celu istoriju drugog tokena kao što je USDC. Na Bitcoin, Blockchain ne radi _sharding_: imate globalni skup UTXO-a. Sa Client-side Validation, svaki učesnik zadržava samo Contract podatke koje drži ili koristi.
+Za pametne ugovore tipa RGB, mi Shard prema samim ugovorima. Svaki Contract je nezavisni _shard_. Na primer, ako posedujete samo USDT tokene, ne morate čuvati ili validirati celu istoriju drugog tokena kao što je USDC. Na Bitcoin, Blockchain ne radi _sharding_: imate globalni skup [UTXO](https://planb.academy/resources/glossary/utxo)-a. Sa Client-side Validation, svaki učesnik zadržava samo Contract podatke koje drži ili koristi.
 
 
 Stoga možemo zamisliti ekosistem na sledeći način:
@@ -334,7 +334,7 @@ Client-side Validation se zasniva na suprotnoj ideji: umesto da cela mreža mora
 Istovremeno, tako da ostatak mreže (ili preciznije, osnovni Layer, kao što je Bitcoin) može zaključati konačno stanje bez uvida u detalje ovih podataka, Client-side Validation se oslanja na pojam ***Commitment***.
 
 
-*Commitment* je kriptografski Commitment, obično _hash_ (na primer SHA-256) umetnut u Bitcoin transakciju, koji dokazuje da su privatni podaci uključeni, bez otkrivanja tih podataka.
+*Commitment* je kriptografski Commitment, obično _hash_ (na primer [SHA-256](https://planb.academy/resources/glossary/sha256)) umetnut u Bitcoin transakciju, koji dokazuje da su privatni podaci uključeni, bez otkrivanja tih podataka.
 
 
 Zahvaljujući ovim _obavezama_, možemo dokazati:
@@ -414,7 +414,7 @@ Kada prihvatate sredstvo kao što je valuta, dve garancije su ključne:
 Za fizičku imovinu, kao što je novčanica, fizičko prisustvo je dovoljno da se dokaže da nije duplirana. Međutim, u digitalnom svetu, gde su sredstva isključivo informativna, ova verifikacija je složenija, jer se informacije lako mogu umnožiti i duplirati.
 
 
-Kao što smo ranije videli, otkrivanje istorije promena stanja od strane pošiljaoca omogućava nam da osiguramo autentičnost RGB tokena. Imajući pristup svim transakcijama od Genesis transakcije, možemo potvrditi autentičnost tokena. Ovaj princip je sličan onom kod Bitcoin, gde se istorija novčića može pratiti unazad do originalnog Coinbase Transaction kako bi se verifikovala njihova validnost. Međutim, za razliku od Bitcoin, ova istorija promena stanja u RGB je privatna i čuva se na strani klijenta.
+Kao što smo ranije videli, otkrivanje istorije promena stanja od strane pošiljaoca omogućava nam da osiguramo autentičnost RGB tokena. Imajući pristup svim transakcijama od Genesis transakcije, možemo potvrditi autentičnost tokena. Ovaj princip je sličan onom kod Bitcoin, gde se istorija novčića može pratiti unazad do originalnog [Coinbase Transaction](https://planb.academy/resources/glossary/coinbase-transaction) kako bi se verifikovala njihova validnost. Međutim, za razliku od Bitcoin, ova istorija promena stanja u RGB je privatna i čuva se na strani klijenta.
 
 
 Da bismo sprečili Double-spending od RGB tokena, koristimo mehanizam nazvan "**Single-Use Seal**". Ovaj sistem osigurava da svaki token, kada se jednom iskoristi, ne može biti prevarno ponovo upotrebljen.
@@ -456,7 +456,7 @@ Sledeće poređenje pomaže da se razume ovaj princip:
 
 
 
-- **Kriptografski Commitment (Hash)**: Sa funkcijom Hash, možete se obavezati na deo podataka (broj) objavljivanjem njegovog Hash. Podaci ostaju tajni dok ne otkrijete pre-image, ali možete dokazati da ste ih unapred znali;
+- **Kriptografski Commitment (Hash)**: Sa [funkcijom Hash](https://planb.academy/resources/glossary/hash-function), možete se obavezati na deo podataka (broj) objavljivanjem njegovog Hash. Podaci ostaju tajni dok ne otkrijete pre-image, ali možete dokazati da ste ih unapred znali;
 - **Timestamp (Blockchain)**: Umetanjem ovog Hash u Blockchain, takođe dokazujemo da smo to znali u tačnom trenutku (onog uključivanja u blok);
 - **Single-Use Seal**: Sa pečatima za jednokratnu upotrebu, idemo korak dalje čineći Commitment jedinstvenim. Sa jednim Hash, možete stvoriti nekoliko kontradiktornih obaveza paralelno (problem doktora koji objavljuje "*To je dečak*" porodici i "*To je devojčica*" u svom ličnom dnevniku). Single-Use Seal eliminiše ovu mogućnost povezivanjem Commitment sa medijumom za dokazivanje objavljivanja, kao što je Bitcoin Blockchain, tako da trošak UTXO definitivno zapečati Commitment. Jednom potrošen, isti UTXO ne može biti ponovo potrošen da zameni Commitment.
 
@@ -584,7 +584,7 @@ Imajte na umu da su ovi softverski blokovi agnostički prema Bitcoin; u teoriji,
 #### Ka širem korišćenju jednokratnih pečata
 
 
-Peter Todd je takođe kreirao protokol _Open Timestamps_, a koncept Single-Use Seal je prirodno proširenje ovih ideja. Pored RGB, mogu se zamisliti i drugi slučajevi upotrebe, kao što je konstrukcija _sidechains_ bez pribegavanja _merge mining_-u ili predlozima vezanim za drivechain kao što je BIP300. Bilo koji sistem koji zahteva jedan Commitment može, u principu, iskoristiti ovu kriptografsku primitivu. Danas je RGB prva velika implementacija u punom obimu.
+Peter Todd je takođe kreirao protokol _Open Timestamps_, a koncept Single-Use Seal je prirodno proširenje ovih ideja. Pored RGB, mogu se zamisliti i drugi slučajevi upotrebe, kao što je konstrukcija _[sidechains](https://planb.academy/resources/glossary/sidechain)_ bez pribegavanja _merge mining_-u ili predlozima vezanim za drivechain kao što je BIP300. Bilo koji sistem koji zahteva jedan Commitment može, u principu, iskoristiti ovu kriptografsku primitivu. Danas je RGB prva velika implementacija u punom obimu.
 
 
 #### Problemi dostupnosti podataka
@@ -596,7 +596,7 @@ Pošto u Client-side Validation, svaki korisnik čuva svoj deo istorije, dostupn
 #### Sharding i izolacija Contract
 
 
-Svaki Contract predstavlja izolovani _shard_: USDT i USDC, na primer, ne moraju deliti svoje istorije. Atomski swapovi su i dalje mogući, ali to ne uključuje spajanje njihovih registara. Sve se obavlja kriptografskim Commitment, bez otkrivanja celokupnog istorijskog grafa svakom učesniku.
+Svaki Contract predstavlja izolovani _shard_: USDT i USDC, na primer, ne moraju deliti svoje istorije. [Atomski swapovi](https://planb.academy/resources/glossary/atomic-swap) su i dalje mogući, ali to ne uključuje spajanje njihovih registara. Sve se obavlja kriptografskim Commitment, bez otkrivanja celokupnog istorijskog grafa svakom učesniku.
 
 
 ### Zaključak

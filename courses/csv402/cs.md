@@ -80,13 +80,13 @@ Připraveni ponořit se do složitého a fascinujícího světa RGB? Jdeme na to
 
 :::video id=f27338bc-4210-4a2e-9b27-30278ed3282c:::
 
-RGB je protokol navržený k uplatňování a vymáhání digitálních práv (ve formě smluv a aktiv) škálovatelným a důvěrným způsobem, který je založen na pravidlech konsensu a operacích blockchainu Bitcoin. Cílem této první kapitoly je představit základní pojmy a terminologii týkající se protokolu RGB a zdůraznit zejména jeho úzké propojení se základními koncepty distribuovaných výpočtů, jako je ověřování na straně klienta a pečetě na jedno použití.
+RGB je protokol navržený k uplatňování a vymáhání digitálních práv (ve formě smluv a aktiv) škálovatelným a důvěrným způsobem, který je založen na [pravidlech konsensu](https://planb.academy/resources/glossary/consensus-rules) a operacích [blockchainu](https://planb.academy/resources/glossary/blockchain) Bitcoin. Cílem této první kapitoly je představit základní pojmy a terminologii týkající se protokolu RGB a zdůraznit zejména jeho úzké propojení se základními koncepty distribuovaných výpočtů, jako je ověřování na straně klienta a pečetě na jedno použití.
 
 V této kapitole prozkoumáme základy **distribuovaných konsensuálních systémů** a zjistíme, jak do této skupiny technologií zapadá RGB. Představíme si také hlavní principy, které nám pomohou pochopit, proč se RGB snaží být rozšiřitelný a nezávislý na vlastním konsensuálním mechanismu Bitcoinu, a přitom se na něj v případě potřeby spoléhat.
 
 ### Úvod
 
-Distribuovaná výpočetní technika, specifický obor informatiky, studuje protokoly používané k oběhu a zpracování informací v síti uzlů. Tyto uzly a pravidla protokolů společně tvoří tzv. distribuovaný systém. Mezi základní vlastnosti, které takový systém charakterizují, patří :
+Distribuovaná výpočetní technika, specifický obor informatiky, studuje protokoly používané k oběhu a zpracování informací v síti [uzlů](https://planb.academy/resources/glossary/node). Tyto uzly a pravidla protokolů společně tvoří tzv. distribuovaný systém. Mezi základní vlastnosti, které takový systém charakterizují, patří :
 
 
 - **možnost nezávislého ověřování a validace** určitých údajů každým uzlem;
@@ -99,11 +99,11 @@ Pojem **konsensus** v distribuovaném systému zahrnuje zejména dva aspekty:
 - **Rozpoznání platnosti** změn stavu (podle pravidel protokolu);
 - Dohoda o pořadí těchto změn stavu, která znemožňuje dodatečné přepsání nebo obrácení ověřených operací (v Bitcoinu je to také známo jako "ochrana proti dvojímu utracení").
 
-První funkční implementaci distribuovaného konsensu bez oprávnění představil Satoshi Nakamoto v Bitcoinu díky kombinaci datové struktury blockchain a algoritmu Proof-of-Work (PoW). V tomto systému závisí důvěryhodnost historie bloku na výpočetním výkonu, který mu věnují uzly (těžaři). Bitcoin je tedy významným a historickým příkladem distribuovaného konsensuálního systému otevřeného všem (*permissionless*).
+První funkční implementaci distribuovaného konsensu bez oprávnění představil Satoshi Nakamoto v Bitcoinu díky kombinaci datové struktury blockchain a algoritmu [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) (PoW). V tomto systému závisí důvěryhodnost historie bloku na výpočetním výkonu, který mu věnují uzly ([těžaři](https://planb.academy/resources/glossary/miner)). Bitcoin je tedy významným a historickým příkladem distribuovaného konsensuálního systému otevřeného všem (*permissionless*).
 
-Ve světě blockchainu a distribuovaných výpočtů můžeme rozlišit dvě základní paradigmata: ***blockchain*** v tradičním smyslu a ***státní kanály***, jejichž nejlepším příkladem ve výrobě je Lightning Network. Blockchain je definován jako registr chronologicky uspořádaných událostí, replikovaných na základě konsensu v rámci otevřené sítě bez oprávnění. Naproti tomu státní kanály jsou peer-to-peer kanály, které umožňují dvěma (nebo více) účastníkům udržovat aktualizovaný stav mimo řetězec, přičemž blockchain používají pouze při otevírání a zavírání těchto kanálů.
+Ve světě blockchainu a distribuovaných výpočtů můžeme rozlišit dvě základní paradigmata: ***blockchain*** v tradičním smyslu a ***státní kanály***, jejichž nejlepším příkladem ve výrobě je [Lightning Network](https://planb.academy/resources/glossary/lightning-network). Blockchain je definován jako registr chronologicky uspořádaných událostí, replikovaných na základě konsensu v rámci otevřené sítě bez oprávnění. Naproti tomu státní kanály jsou peer-to-peer kanály, které umožňují dvěma (nebo více) účastníkům udržovat aktualizovaný stav mimo řetězec, přičemž blockchain používají pouze při otevírání a zavírání těchto kanálů.
 
-V souvislosti s Bitcoinem jste nepochybně obeznámeni s principy těžby, decentralizace a konečnosti transakcí v blockchainu, stejně jako s fungováním platebních kanálů. S RGB zavádíme nové paradigma nazvané **Client-side Validation**, které na rozdíl od blockchainu nebo Lightningu spočívá v lokálním (klientském) ukládání a ověřování přechodů stavu chytrého kontraktu. Od ostatních technik "DeFi" (_rollups_, _plasma_, _ARK_ atd.) se liší také tím, že Client-side Validation se spoléhá na blockchain, aby se zabránilo dvojímu utrácení a na systém časového razítkování, přičemž registr stavů a přechodů mimo řetězec zůstává pouze u příslušných účastníků.
+V souvislosti s Bitcoinem jste nepochybně obeznámeni s principy těžby, decentralizace a konečnosti transakcí v blockchainu, stejně jako s fungováním [platebních kanálů](https://planb.academy/resources/glossary/payment-channel). S RGB zavádíme nové paradigma nazvané **Client-side Validation**, které na rozdíl od blockchainu nebo Lightningu spočívá v lokálním (klientském) ukládání a ověřování přechodů stavu [chytrého kontraktu](https://planb.academy/resources/glossary/smart-contract). Od ostatních technik "DeFi" (_rollups_, _plasma_, _ARK_ atd.) se liší také tím, že Client-side Validation se spoléhá na blockchain, aby se zabránilo [dvojímu utrácení](https://planb.academy/resources/glossary/double-spending-attack) a na systém [časového razítkování](https://planb.academy/resources/glossary/timestamp), přičemž registr stavů a přechodů mimo řetězec zůstává pouze u příslušných účastníků.
 
 ![RGB-Bitcoin](assets/en/003.webp)
 
@@ -174,7 +174,7 @@ Blockchain (v tomto případě Bitcoin) slouží především jako mechanismus _
 
 Sharding je koncept, který vznikl v distribuovaných databázích (např. MySQL pro sociální sítě, jako je Facebook nebo Twitter). Pro řešení problému objemu dat a latencí synchronizace je databáze rozdělena na _shardy_ (USA, Evropa, Asie atd.). Každý segment je lokálně konzistentní a s ostatními je synchronizován pouze částečně.
 
-U inteligentních smluv typu RGB rozdělujeme podle samotných smluv. Každá smlouva je nezávislý _shard_. Pokud například držíte pouze tokeny USDT, nemusíte ukládat ani ověřovat celou historii jiného tokenu, například USDC. U Bitcoinu se v blockchainu neprovádí _sharding_: máte globální sadu UTXO. Při ověřování na straně klienta si každý účastník uchovává pouze data kontraktu, která drží nebo používá.
+U inteligentních smluv typu RGB rozdělujeme podle samotných smluv. Každá smlouva je nezávislý _shard_. Pokud například držíte pouze tokeny USDT, nemusíte ukládat ani ověřovat celou historii jiného tokenu, například USDC. U Bitcoinu se v blockchainu neprovádí _sharding_: máte globální sadu [UTXO](https://planb.academy/resources/glossary/utxo). Při ověřování na straně klienta si každý účastník uchovává pouze data kontraktu, která drží nebo používá.
 
 Ekosystém si proto můžeme představit takto:
 
@@ -226,7 +226,7 @@ Ověřování na straně klienta je založeno na opačné myšlence: namísto to
 
 Zároveň, aby zbytek sítě (přesněji řečeno podkladová vrstva, jako je Bitcoin) mohl uzamknout konečný stav, aniž by viděl detaily těchto dat, spoléhá se ověřování na straně klienta na pojem ***commitment***.
 
-*Závazek* je kryptografický závazek, obvykle _hash_ (například SHA-256) vložený do transakce Bitcoinu, který dokazuje, že byla zahrnuta soukromá data, aniž by tato data byla odhalena.
+*Závazek* je kryptografický závazek, obvykle _hash_ (například [SHA-256](https://planb.academy/resources/glossary/sha256)) vložený do transakce Bitcoinu, který dokazuje, že byla zahrnuta soukromá data, aniž by tato data byla odhalena.
 
 Díky těmto _závazkům_ můžeme dokázat:
 
@@ -279,7 +279,7 @@ Při přijímání aktiva, jako je měna, jsou nezbytné dvě záruky:
 
 U fyzických aktiv, jako je bankovka, stačí fyzická přítomnost k prokázání, že nebyla duplikována. V digitálním světě, kde jsou aktiva čistě informační, je však toto ověření složitější, protože informace se mohou snadno množit a duplikovat.
 
-Jak jsme viděli dříve, odhalení historie stavových přechodů odesílatelem nám umožňuje zajistit pravost tokenu RGB. Tím, že máme přístup ke všem transakcím od transakce geneze, můžeme potvrdit pravost tokenu. Tento princip je podobný jako u Bitcoinu, kde lze historii mincí sledovat až k původní transakci na coinbase a ověřit tak jejich platnost. Na rozdíl od Bitcoinu je však tato historie stavových přechodů v RGB soukromá a uchovává se na straně klienta.
+Jak jsme viděli dříve, odhalení historie stavových přechodů odesílatelem nám umožňuje zajistit pravost tokenu RGB. Tím, že máme přístup ke všem transakcím od transakce geneze, můžeme potvrdit pravost tokenu. Tento princip je podobný jako u Bitcoinu, kde lze historii mincí sledovat až k původní transakci na [coinbase](https://planb.academy/resources/glossary/coinbase-transaction) a ověřit tak jejich platnost. Na rozdíl od Bitcoinu je však tato historie stavových přechodů v RGB soukromá a uchovává se na straně klienta.
 
 Abychom zabránili dvojímu utrácení žetonů RGB, používáme mechanismus nazvaný "**Jednorázová pečeť**". Tento systém zajišťuje, že každý žeton, který byl jednou použit, nelze podvodně použít podruhé.
 
@@ -399,7 +399,7 @@ Všimněte si, že tyto softwarové cihly jsou agnostické vůči Bitcoinu; teor
 
 #### Na cestě k širšímu používání jednorázových těsnění
 
-Peter Todd také vytvořil protokol _Open Timestamps_ a koncept jednorázové pečeti je přirozeným rozšířením těchto myšlenek. Kromě RGB lze uvažovat i o dalších případech použití, například o konstrukci _sidechains_, aniž by bylo nutné uchýlit se k _merge mining_, nebo o návrzích souvisejících s drivechain, jako je BIP300. Tento kryptografický primitiv může v zásadě využívat jakýkoli systém vyžadující jediný závazek. RGB je dnes první významnou implementací v plném rozsahu.
+Peter Todd také vytvořil protokol _Open Timestamps_ a koncept jednorázové pečeti je přirozeným rozšířením těchto myšlenek. Kromě RGB lze uvažovat i o dalších případech použití, například o konstrukci _[sidechains](https://planb.academy/resources/glossary/sidechain)_, aniž by bylo nutné uchýlit se k _merge mining_, nebo o návrzích souvisejících s drivechain, jako je BIP300. Tento kryptografický primitiv může v zásadě využívat jakýkoli systém vyžadující jediný závazek. RGB je dnes první významnou implementací v plném rozsahu.
 
 #### Problémy s dostupností dat
 
@@ -407,7 +407,7 @@ Vzhledem k tomu, že při ověřování na straně klienta ukládá každý uži
 
 #### Oddělování a izolace smluv
 
-Každá smlouva představuje izolovaný _střep_: USDT a USDC například nemusí sdílet svou historii. Atomické výměny jsou stále možné, ale nejedná se o slučování jejich registrů. Vše probíhá pomocí kryptografického závazku, aniž by každý účastník odhalil celý graf historie.
+Každá smlouva představuje izolovaný _střep_: USDT a USDC například nemusí sdílet svou historii. [Atomické výměny](https://planb.academy/resources/glossary/atomic-swap) jsou stále možné, ale nejedná se o slučování jejich registrů. Vše probíhá pomocí kryptografického závazku, aniž by každý účastník odhalil celý graf historie.
 
 ### Závěr
 

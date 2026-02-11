@@ -114,7 +114,7 @@ https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 :::video id=f27338bc-4210-4a2e-9b27-30278ed3282c:::
 
 
-RGB는 Bitcoin Blockchain의 합의 규칙과 운영을 기반으로 디지털 권리(계약과 자산의 형태)를 확장 가능하고 비밀스러운 방식으로 적용하고 집행하기 위해 고안된 프로토콜입니다. 이 첫 장의 목적은 RGB 프로토콜에 대한 기본 개념과 용어를 제시하는 것이며, 특히 Client-side Validation 및 일회용 씰과 같은 기본 분산 컴퓨팅 개념과의 밀접한 연관성을 강조하는 것입니다.
+RGB는 Bitcoin [Blockchain](https://planb.academy/resources/glossary/blockchain)의 [합의 규칙](https://planb.academy/resources/glossary/consensus-rules)과 운영을 기반으로 디지털 권리(계약과 자산의 형태)를 확장 가능하고 비밀스러운 방식으로 적용하고 집행하기 위해 고안된 프로토콜입니다. 이 첫 장의 목적은 RGB 프로토콜에 대한 기본 개념과 용어를 제시하는 것이며, 특히 Client-side Validation 및 일회용 씰과 같은 기본 분산 컴퓨팅 개념과의 밀접한 연관성을 강조하는 것입니다.
 
 
 이 장에서는 **분산 합의 시스템**의 기초를 살펴보고, RGB가 이 기술 계열에 어떻게 부합하는지 살펴봅니다. 또한 RGB가 Bitcoin의 자체 합의 메커니즘으로부터 독립적이고 확장 가능한 것을 목표로 하면서도 필요한 경우 이를 의존하는 이유를 이해하는 데 도움이 되는 주요 원칙을 소개합니다.
@@ -123,14 +123,14 @@ RGB는 Bitcoin Blockchain의 합의 규칙과 운영을 기반으로 디지털 �
 ### 소개
 
 
-컴퓨터 과학의 특정 분야인 분산 컴퓨팅은 노드 네트워크에서 정보를 유통하고 처리하는 데 사용되는 프로토콜을 연구합니다. 이러한 노드와 프로토콜 규칙이 함께 분산 시스템으로 알려진 것을 구성합니다. 이러한 시스템을 특징짓는 필수 속성 중에는 다음과 같은 것들이 있습니다:
+컴퓨터 과학의 특정 분야인 분산 컴퓨팅은 [노드](https://planb.academy/resources/glossary/node) 네트워크에서 정보를 유통하고 처리하는 데 사용되는 프로토콜을 연구합니다. 이러한 노드와 프로토콜 규칙이 함께 분산 시스템으로 알려진 것을 구성합니다. 이러한 시스템을 특징짓는 필수 속성 중에는 다음과 같은 것들이 있습니다:
 
 
 
 
 - 각 노드가 특정 데이터를 독립적으로 검증하고 유효성을 검사**할 수 있는** 기능입니다;
 - 노드가 (프로토콜에 따라) 정보의 전체 또는 부분 보기를 구성할 수 있는 가능성. 이러한 뷰는 분산 시스템의 **상태**입니다;
-- 데이터에 안정적으로 타임스탬프가 찍히고 이벤트 순서(상태 순서)에 대한 합의가 이루어질 수 있도록 작업의 **시차적 순서**를 지정합니다.
+- 데이터에 안정적으로 [타임스탬프](https://planb.academy/resources/glossary/timestamp)가 찍히고 이벤트 순서(상태 순서)에 대한 합의가 이루어질 수 있도록 작업의 **시차적 순서**를 지정합니다.
 
 
 특히 분산 시스템에서의 **합의**라는 개념은 두 가지 측면을 포괄합니다:
@@ -139,16 +139,16 @@ RGB는 Bitcoin Blockchain의 합의 규칙과 운영을 기반으로 디지털 �
 
 
 - **상태 변경의 유효성** 인정(프로토콜 규칙에 따라);
-- 이러한 상태 변경의 **순서에 대한 합의**로 인해 검증된 연산을 사후에 다시 쓰거나 되돌릴 수 없습니다(Bitcoin에서는 이를 "이중 지출 보호"라고도 합니다).
+- 이러한 상태 변경의 **순서에 대한 합의**로 인해 검증된 연산을 사후에 다시 쓰거나 되돌릴 수 없습니다(Bitcoin에서는 이를 "[이중 지출](https://planb.academy/resources/glossary/double-spending-attack) 보호"라고도 합니다).
 
 
-분산 합의 메커니즘의 첫 번째 기능적, 허가 없는 구현은 Blockchain 데이터 구조와 Proof-of-Work(작업 증명) 알고리즘의 결합 덕분에 Satoshi 나카모토가 Bitcoin과 함께 도입했습니다. 이 시스템에서 블록 기록의 신뢰성은 노드(채굴자)의 컴퓨팅 파워에 따라 달라집니다. 따라서 Bitcoin은 모두에게 개방된(*퍼미션리스*) 분산 합의 시스템의 주요하고 역사적인 예시입니다.
+분산 합의 메커니즘의 첫 번째 기능적, 허가 없는 구현은 Blockchain 데이터 구조와 [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work)(작업 증명) 알고리즘의 결합 덕분에 Satoshi 나카모토가 Bitcoin과 함께 도입했습니다. 이 시스템에서 블록 기록의 신뢰성은 노드([채굴자](https://planb.academy/resources/glossary/miner))의 컴퓨팅 파워에 따라 달라집니다. 따라서 Bitcoin은 모두에게 개방된(*퍼미션리스*) 분산 합의 시스템의 주요하고 역사적인 예시입니다.
 
 
-Blockchain과 분산 컴퓨팅의 세계에서는 두 가지 기본 패러다임을 구분할 수 있습니다: *전통적인 의미의 **Blockchain***과 ***스테이트 채널***, 그 중 가장 좋은 예는 Lightning Network입니다. Blockchain은 시간순으로 정렬된 이벤트의 레지스터로 정의되며, 허가가 필요 없는 개방형 네트워크 내에서 합의를 통해 복제됩니다. 반면 상태 채널은 피어 투 피어 채널로, 두 명 이상의 참여자가 채널을 열고 닫을 때만 Blockchain을 사용하여 업데이트된 상태 off-chain를 유지할 수 있습니다.
+Blockchain과 분산 컴퓨팅의 세계에서는 두 가지 기본 패러다임을 구분할 수 있습니다: *전통적인 의미의 **Blockchain***과 ***스테이트 채널***, 그 중 가장 좋은 예는 [Lightning Network](https://planb.academy/resources/glossary/lightning-network)입니다. Blockchain은 시간순으로 정렬된 이벤트의 레지스터로 정의되며, 허가가 필요 없는 개방형 네트워크 내에서 합의를 통해 복제됩니다. 반면 상태 채널은 피어 투 피어 채널로, 두 명 이상의 참여자가 채널을 열고 닫을 때만 Blockchain을 사용하여 업데이트된 상태 off-chain를 유지할 수 있습니다.
 
 
-Bitcoin의 맥락에서 여러분은 Mining의 원칙, 탈중앙화 및 거래의 최종성, 그리고 결제 채널의 작동 방식에 대해 잘 알고 계실 것입니다. RGB에서는 **Client-side Validation**이라는 새로운 패러다임이 도입되는데, 이는 Blockchain이나 라이트닝과 달리 Smart contract의 상태 전환을 로컬(클라이언트 측)에 저장하고 검증하는 방식으로 구성됩니다. 이는 다른 "디파이" 기술(_rollups_, _plasma_, _ARK_ 등)과도 다른데, Client-side Validation은 Blockchain에 의존하여 Double-spending를 방지하고 타임스탬프 시스템을 갖추면서 off-chain 상태 및 전환의 등록을 관련 참여자에게만 유지합니다.
+Bitcoin의 맥락에서 여러분은 Mining의 원칙, 탈중앙화 및 거래의 최종성, 그리고 [결제 채널](https://planb.academy/resources/glossary/payment-channel)의 작동 방식에 대해 잘 알고 계실 것입니다. RGB에서는 **Client-side Validation**이라는 새로운 패러다임이 도입되는데, 이는 Blockchain이나 라이트닝과 달리 [Smart contract](https://planb.academy/resources/glossary/smart-contract)의 상태 전환을 로컬(클라이언트 측)에 저장하고 검증하는 방식으로 구성됩니다. 이는 다른 "디파이" 기술(_rollups_, _plasma_, _ARK_ 등)과도 다른데, Client-side Validation은 Blockchain에 의존하여 Double-spending를 방지하고 타임스탬프 시스템을 갖추면서 off-chain 상태 및 전환의 등록을 관련 참여자에게만 유지합니다.
 
 
 ![RGB-Bitcoin](assets/en/003.webp)
@@ -257,7 +257,7 @@ Blockchain(이 경우 Bitcoin)은 주로 _타임 스탬핑_ 메커니즘과 이�
 샤딩은 분산 데이터베이스(예: 페이스북이나 트위터와 같은 소셜 네트워크용 MySQL)에서 유래한 개념입니다. 데이터 용량과 동기화 지연 문제를 해결하기 위해 데이터베이스를 _샤드_(미국, 유럽, 아시아 등)로 분할합니다. 각 세그먼트는 로컬에서 일관성을 유지하며 다른 세그먼트와 부분적으로만 동기화됩니다.
 
 
-RGB 유형의 스마트 컨트랙트의 경우, 계약 자체에 따라 Shard을 사용합니다. 각 Contract는 독립적인 _샤드_입니다. 예를 들어, USDT 토큰만 보유하고 있다면 USDC와 같은 다른 token의 전체 이력을 저장하거나 검증할 필요가 없습니다. Bitcoin에서는 Blockchain이 _샤딩_을 하지 않습니다: 글로벌 UTXO 세트가 있습니다. Client-side Validation를 사용하면 각 참가자는 자신이 보유하거나 사용하는 Contract 데이터만 유지합니다.
+RGB 유형의 스마트 컨트랙트의 경우, 계약 자체에 따라 Shard을 사용합니다. 각 Contract는 독립적인 _샤드_입니다. 예를 들어, USDT 토큰만 보유하고 있다면 USDC와 같은 다른 token의 전체 이력을 저장하거나 검증할 필요가 없습니다. Bitcoin에서는 Blockchain이 _샤딩_을 하지 않습니다: 글로벌 [UTXO](https://planb.academy/resources/glossary/utxo) 세트가 있습니다. Client-side Validation를 사용하면 각 참가자는 자신이 보유하거나 사용하는 Contract 데이터만 유지합니다.
 
 
 따라서 다음과 같은 생태계를 상상할 수 있습니다:
@@ -334,7 +334,7 @@ Client-side Validation는 전체 네트워크가 모든 거래를 검증하고 �
 동시에 나머지 네트워크(또는 더 정확하게는 Bitcoin과 같은 기본 Layer)가 이 데이터의 세부 사항을 보지 않고도 최종 상태를 잠글 수 있도록 Client-side Validation은 ***Commitment***라는 개념에 의존합니다.
 
 
-*Commitment*는 암호화 Commitment이며, 일반적으로 _해시_(예: SHA-256)가 Bitcoin 트랜잭션에 삽입되어 이 데이터를 공개하지 않고 개인 데이터가 포함되었음을 증명합니다.
+*Commitment*는 암호화 Commitment이며, 일반적으로 _해시_(예: [SHA-256](https://planb.academy/resources/glossary/sha256))가 Bitcoin 트랜잭션에 삽입되어 이 데이터를 공개하지 않고 개인 데이터가 포함되었음을 증명합니다.
 
 
 이러한 _약속_ 덕분에 우리는 증명할 수 있습니다:
@@ -414,7 +414,7 @@ RGB와 같은 시스템에서는 서로 다른 컨트랙트(또는 서로 다른
 지폐와 같은 물리적 자산의 경우, 복제되지 않았음을 증명하는 데는 물리적 존재만으로도 충분합니다. 그러나 자산이 순전히 정보인 디지털 세계에서는 정보가 쉽게 증식하고 복제될 수 있기 때문에 이러한 검증이 더 복잡합니다.
 
 
-앞서 살펴본 것처럼 발신자가 상태 전환 내역을 공개하면 RGB token의 진위 여부를 확인할 수 있습니다. Genesis 트랜잭션 이후의 모든 트랜잭션에 액세스하면 token의 진위 여부를 확인할 수 있습니다. 이 원리는 코인의 이력을 원래의 Coinbase Transaction까지 추적하여 유효성을 확인할 수 있는 Bitcoin의 원리와 유사합니다. 그러나 Bitcoin과 달리 RGB의 상태 전환 이력은 비공개이며 클라이언트 측에 보관됩니다.
+앞서 살펴본 것처럼 발신자가 상태 전환 내역을 공개하면 RGB token의 진위 여부를 확인할 수 있습니다. Genesis 트랜잭션 이후의 모든 트랜잭션에 액세스하면 token의 진위 여부를 확인할 수 있습니다. 이 원리는 코인의 이력을 원래의 [Coinbase Transaction](https://planb.academy/resources/glossary/coinbase-transaction)까지 추적하여 유효성을 확인할 수 있는 Bitcoin의 원리와 유사합니다. 그러나 Bitcoin과 달리 RGB의 상태 전환 이력은 비공개이며 클라이언트 측에 보관됩니다.
 
 
 Double-spending 토큰의 RGB을 방지하기 위해 "**Single-Use Seal**"라는 메커니즘을 사용합니다. 이 시스템은 한 번 사용된 각 token을 두 번 다시 부정하게 재사용할 수 없도록 보장합니다.
@@ -456,7 +456,7 @@ Double-spending 토큰의 RGB을 방지하기 위해 "**Single-Use Seal**"라는
 
 
 
-- **암호화 Commitment(Hash)**: Hash 기능을 사용하면 Hash을 게시하여 데이터(숫자)를 커밋할 수 있습니다. 사전 이미지를 공개할 때까지 데이터는 비밀로 유지되지만, 미리 알고 있었다는 것을 증명할 수 있습니다;
+- **암호화 Commitment(Hash)**: [Hash 기능](https://planb.academy/resources/glossary/hash-function)을 사용하면 Hash을 게시하여 데이터(숫자)를 커밋할 수 있습니다. 사전 이미지를 공개할 때까지 데이터는 비밀로 유지되지만, 미리 알고 있었다는 것을 증명할 수 있습니다;
 - **Timestamp (Blockchain)**: 이 Hash을 Blockchain에 삽입함으로써 정확한 순간(블록에 포함되는 순간)에 이를 알고 있었음을 증명합니다;
 - **Single-Use Seal**: 일회용 씰을 사용하면 Commitment를 한 단계 더 특별하게 만들 수 있습니다. 하나의 Hash로 여러 개의 모순된 약속을 동시에 만들 수 있습니다(가족에게는 "*남자아이다*"라고 발표하고 개인 일기에는 "*여자아이다*"라고 발표하는 의사의 문제). Single-Use Seal은 Commitment를 Bitcoin Blockchain과 같은 출판 증명 매체에 연결하여 이러한 가능성을 제거함으로써 UTXO의 지출이 Commitment를 최종적으로 봉인하도록 합니다. 한 번 사용한 UTXO는 Commitment를 대체하기 위해 다시 사용할 수 없습니다.
 
@@ -584,7 +584,7 @@ RGB Smart contract는 여러 개의 일회용 씰(여러 개의 UTXO)을 동시�
 #### 일회용 씰의 폭넓은 사용을 위해
 
 
-피터 토드는 또한 _오픈 타임스탬프_ 프로토콜을 만들었으며, Single-Use Seal 개념은 이러한 아이디어의 자연스러운 확장입니다. RGB 외에도 _병합 채굴_에 의존하지 않고 _사이드체인_을 구축하거나 BIP300과 같은 드라이브체인 관련 제안과 같은 다른 사용 사례도 상상할 수 있습니다. 원칙적으로 단일 Commitment를 필요로 하는 모든 시스템은 이 암호화 프리미티브를 활용할 수 있습니다. 현재 RGB이 본격적으로 구현된 첫 번째 주요 사례입니다.
+피터 토드는 또한 _오픈 타임스탬프_ 프로토콜을 만들었으며, Single-Use Seal 개념은 이러한 아이디어의 자연스러운 확장입니다. RGB 외에도 _병합 채굴_에 의존하지 않고 _[사이드체인](https://planb.academy/resources/glossary/sidechain)_을 구축하거나 BIP300과 같은 드라이브체인 관련 제안과 같은 다른 사용 사례도 상상할 수 있습니다. 원칙적으로 단일 Commitment를 필요로 하는 모든 시스템은 이 암호화 프리미티브를 활용할 수 있습니다. 현재 RGB이 본격적으로 구현된 첫 번째 주요 사례입니다.
 
 
 #### 데이터 가용성 문제
@@ -596,7 +596,7 @@ Client-side Validation에서는 각 사용자가 자신의 기록 일부를 저�
 #### 샤딩 및 Contract 격리
 
 
-각 Contract은 고립된 _샤드_를 나타냅니다: 예를 들어 USDT와 USDC는 이력을 공유할 필요가 없습니다. 아토믹 스왑은 여전히 가능하지만, 레지스터를 병합하는 것은 포함되지 않습니다. 모든 것은 각 참가자에게 전체 내역 그래프를 공개하지 않고 암호화 Commitment에 의해 수행됩니다.
+각 Contract은 고립된 _샤드_를 나타냅니다: 예를 들어 USDT와 USDC는 이력을 공유할 필요가 없습니다. [아토믹 스왑](https://planb.academy/resources/glossary/atomic-swap)은 여전히 가능하지만, 레지스터를 병합하는 것은 포함되지 않습니다. 모든 것은 각 참가자에게 전체 내역 그래프를 공개하지 않고 암호화 Commitment에 의해 수행됩니다.
 
 
 ### 결론

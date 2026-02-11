@@ -80,30 +80,30 @@ Klar til å dykke ned i den komplekse og fascinerende verdenen av RGB? La oss g�
 
 :::video id=f27338bc-4210-4a2e-9b27-30278ed3282c:::
 
-RGB er en protokoll som er utviklet for å anvende og håndheve digitale rettigheter (i form av kontrakter og eiendeler) på en skalerbar og konfidensiell måte, basert på konsensusreglene og -operasjonene i Bitcoin-blokkjeden. Målet med dette første kapittelet er å presentere de grunnleggende konseptene og terminologien rundt RGB-protokollen, og spesielt fremheve de nære koblingene til grunnleggende distribuerte databehandlingskonsepter som validering på klientsiden og engangsforseglinger.
+RGB er en protokoll som er utviklet for å anvende og håndheve digitale rettigheter (i form av kontrakter og eiendeler) på en skalerbar og konfidensiell måte, basert på [konsensusreglene](https://planb.academy/resources/glossary/consensus-rules) og -operasjonene i Bitcoin-[blokkjeden](https://planb.academy/resources/glossary/blockchain). Målet med dette første kapittelet er å presentere de grunnleggende konseptene og terminologien rundt RGB-protokollen, og spesielt fremheve de nære koblingene til grunnleggende distribuerte databehandlingskonsepter som validering på klientsiden og engangsforseglinger.
 
 I dette kapittelet utforsker vi det grunnleggende ved **distribuerte konsensussystemer** og ser hvordan RGB passer inn i denne familien av teknologier. Vi introduserer også hovedprinsippene som hjelper oss å forstå hvorfor RGB har som mål å være utvidbar og uavhengig av Bitcoins egen konsensusmekanisme, samtidig som vi støtter oss på den når det er nødvendig.
 
 ### Innledning
 
-Distribuert databehandling, en spesifikk gren av informatikken, studerer protokollene som brukes til å sirkulere og behandle informasjon i et nettverk av noder. Til sammen utgjør disse nodene og protokollreglene det som kalles et distribuert system. Blant de viktigste egenskapene som kjennetegner et slikt system, er :
+Distribuert databehandling, en spesifikk gren av informatikken, studerer protokollene som brukes til å sirkulere og behandle informasjon i et nettverk av [noder](https://planb.academy/resources/glossary/node). Til sammen utgjør disse nodene og protokollreglene det som kalles et distribuert system. Blant de viktigste egenskapene som kjennetegner et slikt system, er :
 
 
 - Muligheten for uavhengig verifisering og validering av visse data fra hver node;
 - Nodenes mulighet til å konstruere (avhengig av protokollen) en fullstendig eller delvis oversikt over informasjonen. Disse visningene er det distribuerte systemets **tilstander**;
-- Den **kronologiske rekkefølgen** av operasjoner, slik at data er tidsstemplet på en pålitelig måte og det er enighet om hendelsesforløpet (sekvensen av tilstander).
+- Den **kronologiske rekkefølgen** av operasjoner, slik at data er [tidsstemplet](https://planb.academy/resources/glossary/timestamp) på en pålitelig måte og det er enighet om hendelsesforløpet (sekvensen av tilstander).
 
 Begrepet **konsensus** i et distribuert system dekker særlig to aspekter:
 
 
 - Anerkjennelse av **gyldigheten** av tilstandsendringer (i henhold til protokollregler);
-- Avtalen om rekkefølgen på disse tilstandsendringene, som gjør det umulig å omskrive eller reversere validerte operasjoner i ettertid (dette er også kjent i Bitcoin som "double-spend protection").
+- Avtalen om rekkefølgen på disse tilstandsendringene, som gjør det umulig å omskrive eller reversere validerte operasjoner i ettertid (dette er også kjent i Bitcoin som "[double-spend protection](https://planb.academy/resources/glossary/double-spending-attack)").
 
-Den første funksjonelle, tillatelsesfrie implementeringen av en distribuert konsensusmekanisme ble introdusert av Satoshi Nakamoto med Bitcoin, takket være den kombinerte bruken av en blockchain-datastruktur og en Proof-of-Work (PoW)-algoritme. I dette systemet avhenger troverdigheten til blokkhistorikken av datakraften som nodene (utvinnerne) bruker på den. Bitcoin er derfor et viktig og historisk eksempel på et distribuert konsensussystem som er åpent for alle (*permissionless*).
+Den første funksjonelle, tillatelsesfrie implementeringen av en distribuert konsensusmekanisme ble introdusert av Satoshi Nakamoto med Bitcoin, takket være den kombinerte bruken av en blockchain-datastruktur og en [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) (PoW)-algoritme. I dette systemet avhenger troverdigheten til blokkhistorikken av datakraften som nodene ([utvinnerne](https://planb.academy/resources/glossary/miner)) bruker på den. Bitcoin er derfor et viktig og historisk eksempel på et distribuert konsensussystem som er åpent for alle (*permissionless*).
 
-I en verden av blokkjeder og distribuert databehandling kan vi skille mellom to grunnleggende paradigmer: ***blokkjeder*** i tradisjonell forstand, og ***statskanaler***, der Lightning Network er det beste eksemplet i produksjon. Blokkjeden er definert som et register over kronologisk ordnede hendelser, replikert ved konsensus i et åpent, tillatelsesfritt nettverk. State channels, derimot, er peer-to-peer-kanaler som gjør det mulig for to (eller flere) deltakere å opprettholde en oppdatert tilstand utenfor kjeden, og som kun bruker blokkjeden når de åpner og lukker disse kanalene.
+I en verden av blokkjeder og distribuert databehandling kan vi skille mellom to grunnleggende paradigmer: ***blokkjeder*** i tradisjonell forstand, og ***statskanaler***, der [Lightning Network](https://planb.academy/resources/glossary/lightning-network) er det beste eksemplet i produksjon. Blokkjeden er definert som et register over kronologisk ordnede hendelser, replikert ved konsensus i et åpent, tillatelsesfritt nettverk. State channels, derimot, er peer-to-peer-kanaler som gjør det mulig for to (eller flere) deltakere å opprettholde en oppdatert tilstand utenfor kjeden, og som kun bruker blokkjeden når de åpner og lukker disse kanalene.
 
-I forbindelse med Bitcoin er du uten tvil kjent med prinsippene for utvinning, desentralisering og endelighet av transaksjoner på blokkjeden, samt hvordan betalingskanaler fungerer. Med RGB introduserer vi et nytt paradigme kalt **Validering på klientsiden**, som i motsetning til blockchain eller Lightning består i lokal (klientsiden) lagring og validering av tilstandsovergangene til en smartkontrakt. Dette skiller seg også fra andre "DeFi-teknikker" (_rollups_, _plasma_, _ARK_ osv.), ved at Client-side Validation er avhengig av blokkjeden for å forhindre dobbeltbruk og for å ha et tidsstemplingssystem, samtidig som registeret over tilstander og overganger utenfor kjeden bare oppbevares hos de berørte deltakerne.
+I forbindelse med Bitcoin er du uten tvil kjent med prinsippene for utvinning, desentralisering og endelighet av transaksjoner på blokkjeden, samt hvordan [betalingskanaler](https://planb.academy/resources/glossary/payment-channel) fungerer. Med RGB introduserer vi et nytt paradigme kalt **Validering på klientsiden**, som i motsetning til blockchain eller Lightning består i lokal (klientsiden) lagring og validering av tilstandsovergangene til en [smartkontrakt](https://planb.academy/resources/glossary/smart-contract). Dette skiller seg også fra andre "DeFi-teknikker" (_rollups_, _plasma_, _ARK_ osv.), ved at Client-side Validation er avhengig av blokkjeden for å forhindre dobbeltbruk og for å ha et tidsstemplingssystem, samtidig som registeret over tilstander og overganger utenfor kjeden bare oppbevares hos de berørte deltakerne.
 
 ![RGB-Bitcoin](assets/en/003.webp)
 
@@ -174,7 +174,7 @@ Blokkjeden (i dette tilfellet Bitcoin) fungerer først og fremst som en _tidsste
 
 Sharding er et konsept som har sin opprinnelse i distribuerte databaser (f.eks. MySQL for sosiale nettverk som Facebook eller Twitter). For å løse problemet med datavolum og synkroniseringsforsinkelser segmenteres databasen i _shards_ (USA, Europa, Asia osv.). Hvert segment er lokalt konsistent og bare delvis synkronisert med de andre.
 
-For smartkontrakter av RGB-typen deler vi opp i henhold til selve kontraktene. Hver kontrakt er en uavhengig _deling_. Hvis du for eksempel bare har USDT-tokens, trenger du ikke å lagre eller validere hele historikken til et annet token som USDC. På Bitcoin gjør ikke blokkjeden _sharding_: du har et globalt sett med UTXO-er. Med validering på klientsiden beholder hver deltaker bare de kontraktsdataene den har eller bruker.
+For smartkontrakter av RGB-typen deler vi opp i henhold til selve kontraktene. Hver kontrakt er en uavhengig _deling_. Hvis du for eksempel bare har USDT-tokens, trenger du ikke å lagre eller validere hele historikken til et annet token som USDC. På Bitcoin gjør ikke blokkjeden _sharding_: du har et globalt sett med [UTXO](https://planb.academy/resources/glossary/utxo)-er. Med validering på klientsiden beholder hver deltaker bare de kontraktsdataene den har eller bruker.
 
 Vi kan derfor se for oss økosystemet på følgende måte:
 
@@ -226,7 +226,7 @@ Validering på klientsiden er basert på den motsatte ideen: I stedet for å kre
 
 Samtidig er validering på klientsiden avhengig av begrepet ***commitment***, slik at resten av nettverket (eller mer presist, det underliggende laget, for eksempel Bitcoin) kan låse inn den endelige tilstanden uten å se detaljene i disse dataene.
 
-En *commitment* er en kryptografisk forpliktelse, vanligvis en _hash_ (for eksempel SHA-256) som settes inn i en Bitcoin-transaksjon, som beviser at private data er inkludert, uten å avsløre disse dataene.
+En *commitment* er en kryptografisk forpliktelse, vanligvis en _hash_ (for eksempel [SHA-256](https://planb.academy/resources/glossary/sha256)) som settes inn i en Bitcoin-transaksjon, som beviser at private data er inkludert, uten å avsløre disse dataene.
 
 Takket være disse _forpliktelsene_ kan vi bevise:
 
@@ -279,7 +279,7 @@ Når man aksepterer en eiendel, for eksempel en valuta, er to garantier avgjøre
 
 For fysiske eiendeler, som en pengeseddel, er fysisk tilstedeværelse nok til å bevise at den ikke har blitt duplisert. I den digitale verdenen, der eiendelene er rent informasjonsbaserte, er denne verifiseringen imidlertid mer kompleks, ettersom informasjon lett kan mangfoldiggjøres og dupliseres.
 
-Som vi så tidligere, kan vi sikre ektheten til et RGB-token ved at avsenderen avslører historikken over tilstandsoverganger. Ved å ha tilgang til alle transaksjoner siden den første transaksjonen, kan vi bekrefte tokenets autentisitet. Dette prinsippet ligner på Bitcoin, der myntenes historikk kan spores tilbake til den opprinnelige Coinbase-transaksjonen for å verifisere gyldigheten. Men i motsetning til Bitcoin er denne historikken over tilstandsoverganger i RGB privat og oppbevares på klientsiden.
+Som vi så tidligere, kan vi sikre ektheten til et RGB-token ved at avsenderen avslører historikken over tilstandsoverganger. Ved å ha tilgang til alle transaksjoner siden den første transaksjonen, kan vi bekrefte tokenets autentisitet. Dette prinsippet ligner på Bitcoin, der myntenes historikk kan spores tilbake til den opprinnelige [Coinbase-transaksjonen](https://planb.academy/resources/glossary/coinbase-transaction) for å verifisere gyldigheten. Men i motsetning til Bitcoin er denne historikken over tilstandsoverganger i RGB privat og oppbevares på klientsiden.
 
 For å forhindre dobbeltbruk av RGB-tokens bruker vi en mekanisme som kalles "**Single-use Seal**". Dette systemet sikrer at hver token ikke kan brukes en gang til.
 
@@ -307,7 +307,7 @@ I motsetning til enkle _commitments_ (hash) eller tidsstempler, som vitner om en
 Følgende sammenligning hjelper deg med å forstå dette prinsippet:
 
 
-- **Kryptografisk forpliktelse (hash)**: Med en hash-funksjon kan du forplikte deg til et stykke data (et tall) ved å publisere dets hash. Dataene forblir hemmelige inntil du avslører forhåndsbildet, men du kan bevise at du kjente til dem på forhånd;
+- **Kryptografisk forpliktelse (hash)**: Med en [hash-funksjon](https://planb.academy/resources/glossary/hash-function) kan du forplikte deg til et stykke data (et tall) ved å publisere dets hash. Dataene forblir hemmelige inntil du avslører forhåndsbildet, men du kan bevise at du kjente til dem på forhånd;
 - **Tidsstempel (blokkjede)**: Ved å sette inn denne hashen i blokkjeden beviser vi også at vi kjente til den på et bestemt tidspunkt (da den ble inkludert i en blokk);
 - **Engangsforsegling**: Med engangsplomber går vi et skritt videre ved å gjøre forpliktelsen unik. Med en enkelt hash kan du opprette flere motstridende forpliktelser parallelt (problemet med legen som kunngjør "*Det er en gutt*" til familien og "*Det er en jente*" i sin personlige dagbok). Single-use Seal eliminerer denne muligheten ved å koble forpliktelsen til et bevis på publisering, for eksempel Bitcoin-blokkjeden, slik at et forbruk av UTXO definitivt forsegler forpliktelsen. Når UTXO er brukt, kan de samme UTXO ikke brukes på nytt for å erstatte forpliktelsen.
 
@@ -400,7 +400,7 @@ Merk at disse programvarebrikkene er Bitcoin-agnostiske; i teorien kan de brukes
 
 #### Mot mer utbredt bruk av engangsplomber
 
-Peter Todd skapte også _Open Timestamps_-protokollen, og Single-use Seal-konseptet er en naturlig forlengelse av disse ideene. Utover RGB kan man se for seg andre bruksområder, for eksempel konstruksjon av _sidekjeder_ uten å ty til _merge mining_ eller drivechain-relaterte forslag som BIP300. Alle systemer som krever en enkelt forpliktelse, kan i prinsippet utnytte denne kryptografiske primitiven. I dag er RGB den første store fullskala-implementeringen.
+Peter Todd skapte også _Open Timestamps_-protokollen, og Single-use Seal-konseptet er en naturlig forlengelse av disse ideene. Utover RGB kan man se for seg andre bruksområder, for eksempel konstruksjon av _[sidekjeder](https://planb.academy/resources/glossary/sidechain)_ uten å ty til _merge mining_ eller drivechain-relaterte forslag som BIP300. Alle systemer som krever en enkelt forpliktelse, kan i prinsippet utnytte denne kryptografiske primitiven. I dag er RGB den første store fullskala-implementeringen.
 
 #### Problemer med datatilgjengelighet
 
@@ -408,7 +408,7 @@ Siden hver bruker lagrer sin egen del av historikken ved validering på klientsi
 
 #### Deling og kontraktsisolering
 
-Hver kontrakt representerer en isolert _shard_: USDT og USDC trenger for eksempel ikke å dele historikken sin. Atombytter er fortsatt mulig, men dette innebærer ikke sammenslåing av registrene deres. Alt gjøres ved hjelp av kryptografisk forpliktelse, uten å avsløre hele historikkgrafen til hver deltaker.
+Hver kontrakt representerer en isolert _shard_: USDT og USDC trenger for eksempel ikke å dele historikken sin. [Atombytter](https://planb.academy/resources/glossary/atomic-swap) er fortsatt mulig, men dette innebærer ikke sammenslåing av registrene deres. Alt gjøres ved hjelp av kryptografisk forpliktelse, uten å avsløre hele historikkgrafen til hver deltaker.
 
 ### Konklusjon
 

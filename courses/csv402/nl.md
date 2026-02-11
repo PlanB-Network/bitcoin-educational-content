@@ -114,7 +114,7 @@ Klaar om in de complexe en fascinerende wereld van RGB te duiken? Laten we gaan!
 :::video id=f27338bc-4210-4a2e-9b27-30278ed3282c:::
 
 
-RGB is een protocol dat ontworpen is om digitale rechten (in de vorm van contracten en activa) toe te passen en af te dwingen op een schaalbare en vertrouwelijke manier, gebaseerd op de consensusregels en operaties van Bitcoin Blockchain. Het doel van dit eerste hoofdstuk is om de basisconcepten en terminologie rond het RGB protocol te presenteren, waarbij in het bijzonder de nauwe verbanden met basisconcepten voor gedistribueerd computergebruik zoals Client-side Validation en enkelvoudige zegels worden benadrukt.
+RGB is een protocol dat ontworpen is om digitale rechten (in de vorm van contracten en activa) toe te passen en af te dwingen op een schaalbare en vertrouwelijke manier, gebaseerd op de [consensusregels](https://planb.academy/resources/glossary/consensus-rules) en operaties van Bitcoin [Blockchain](https://planb.academy/resources/glossary/blockchain). Het doel van dit eerste hoofdstuk is om de basisconcepten en terminologie rond het RGB protocol te presenteren, waarbij in het bijzonder de nauwe verbanden met basisconcepten voor gedistribueerd computergebruik zoals Client-side Validation en enkelvoudige zegels worden benadrukt.
 
 
 In dit hoofdstuk verkennen we de grondbeginselen van **gedistribueerde consensus systemen** en kijken we hoe RGB in deze familie van technologieën past. We introduceren ook de belangrijkste principes die ons helpen te begrijpen waarom RGB uitbreidbaar en onafhankelijk wil zijn van Bitcoin's eigen consensus mechanisme, terwijl het erop vertrouwt wanneer dat nodig is.
@@ -123,7 +123,7 @@ In dit hoofdstuk verkennen we de grondbeginselen van **gedistribueerde consensus
 ### Inleiding
 
 
-Distributed computing, een specifieke tak van computerwetenschap, bestudeert de protocollen die gebruikt worden om informatie te laten circuleren en verwerken op een netwerk van knooppunten. Samen vormen deze knooppunten en de protocolregels wat bekend staat als een gedistribueerd systeem. Enkele van de essentiële eigenschappen die een dergelijk systeem karakteriseren zijn:
+Distributed computing, een specifieke tak van computerwetenschap, bestudeert de protocollen die gebruikt worden om informatie te laten circuleren en verwerken op een netwerk van [knooppunten](https://planb.academy/resources/glossary/node). Samen vormen deze knooppunten en de protocolregels wat bekend staat als een gedistribueerd systeem. Enkele van de essentiële eigenschappen die een dergelijk systeem karakteriseren zijn:
 
 
 
@@ -142,13 +142,13 @@ Het begrip **consensus** in een gedistribueerd systeem omvat twee aspecten:
 - De **overeenkomst over de volgorde** van deze toestandsveranderingen, die het onmogelijk maakt om achteraf gevalideerde operaties te herschrijven of terug te draaien (dit staat in Bitcoin ook bekend als "double-spend protection").
 
 
-De eerste functionele, toestemmingsvrije implementatie van een gedistribueerd consensusmechanisme werd geïntroduceerd door Satoshi Nakamoto met Bitcoin, dankzij het gecombineerde gebruik van een Blockchain datastructuur en een Proof-of-Work (PoW) algoritme. In dit systeem hangt de geloofwaardigheid van de blokgeschiedenis af van de rekenkracht die de nodes (miners) eraan besteden. Bitcoin is daarom een belangrijk en historisch voorbeeld van een gedistribueerd consensus systeem dat open staat voor iedereen (*permissionless*).
+De eerste functionele, toestemmingsvrije implementatie van een gedistribueerd consensusmechanisme werd geïntroduceerd door Satoshi Nakamoto met Bitcoin, dankzij het gecombineerde gebruik van een Blockchain datastructuur en een [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) (PoW) algoritme. In dit systeem hangt de geloofwaardigheid van de blokgeschiedenis af van de rekenkracht die de nodes ([miners](https://planb.academy/resources/glossary/miner)) eraan besteden. Bitcoin is daarom een belangrijk en historisch voorbeeld van een gedistribueerd consensus systeem dat open staat voor iedereen (*permissionless*).
 
 
-In de wereld van Blockchain en distributed computing kunnen we twee fundamentele paradigma's onderscheiden: ***Blockchain*** in de traditionele zin, en ***state channels***, waarvan het beste voorbeeld in productie de Lightning Network is. Het Blockchain wordt gedefinieerd als een register van chronologisch geordende gebeurtenissen, gerepliceerd door consensus binnen een open, toestemmingsvrij netwerk. State channels, aan de andere kant, zijn peer-to-peer kanalen die twee (of meer) deelnemers in staat stellen om een bijgewerkte toestand off-chain te onderhouden, waarbij de Blockchain alleen gebruikt wordt bij het openen en sluiten van deze kanalen.
+In de wereld van Blockchain en distributed computing kunnen we twee fundamentele paradigma's onderscheiden: ***Blockchain*** in de traditionele zin, en ***state channels***, waarvan het beste voorbeeld in productie de [Lightning Network](https://planb.academy/resources/glossary/lightning-network) is. Het Blockchain wordt gedefinieerd als een register van chronologisch geordende gebeurtenissen, gerepliceerd door consensus binnen een open, toestemmingsvrij netwerk. State channels, aan de andere kant, zijn peer-to-peer kanalen die twee (of meer) deelnemers in staat stellen om een bijgewerkte toestand off-chain te onderhouden, waarbij de Blockchain alleen gebruikt wordt bij het openen en sluiten van deze kanalen.
 
 
-In de context van Bitcoin bent u ongetwijfeld bekend met de principes van Mining, decentralisatie en finaliteit van transacties op Blockchain en hoe betalingskanalen werken. Met RGB introduceren we een nieuw paradigma, genaamd **Client-side Validation**, dat, in tegenstelling tot Blockchain of Lightning, bestaat uit het lokaal (client-side) opslaan en valideren van de toestandsovergangen van een Smart contract. Dit verschilt ook van andere "Decentralisatie" systemen, zoals Blockchain en Lightning. Dit verschilt ook van andere "DeFi" technieken (_rollups_, _plasma_, _ARK_, etc.), waarbij de Client-side Validation vertrouwt op de Blockchain om Double-spending te voorkomen en om een tijdstempelsysteem te hebben, terwijl het register van off-chain toestanden en overgangen alleen bij de betreffende deelnemers blijft.
+In de context van Bitcoin bent u ongetwijfeld bekend met de principes van Mining, decentralisatie en finaliteit van transacties op Blockchain en hoe [betalingskanalen](https://planb.academy/resources/glossary/payment-channel) werken. Met RGB introduceren we een nieuw paradigma, genaamd **Client-side Validation**, dat, in tegenstelling tot Blockchain of Lightning, bestaat uit het lokaal (client-side) opslaan en valideren van de toestandsovergangen van een [Smart contract](https://planb.academy/resources/glossary/smart-contract). Dit verschilt ook van andere "Decentralisatie" systemen, zoals Blockchain en Lightning. Dit verschilt ook van andere "DeFi" technieken (_rollups_, _plasma_, _ARK_, etc.), waarbij de Client-side Validation vertrouwt op de Blockchain om [Double-spending](https://planb.academy/resources/glossary/double-spending-attack) te voorkomen en om een [tijdstempelsysteem](https://planb.academy/resources/glossary/timestamp) te hebben, terwijl het register van off-chain toestanden en overgangen alleen bij de betreffende deelnemers blijft.
 
 
 ![RGB-Bitcoin](assets/en/003.webp)
@@ -257,7 +257,7 @@ De Blockchain (in dit geval, Bitcoin) dient voornamelijk als een _time-stamping_
 Sharding is een concept dat zijn oorsprong vindt in gedistribueerde databases (bijv. MySQL voor sociale netwerken zoals Facebook of Twitter). Om het probleem van gegevensvolume en synchronisatievertragingen op te lossen, wordt de database gesegmenteerd in _shards_ (VS, Europa, Azië, enz.). Elk segment is lokaal consistent en wordt slechts gedeeltelijk gesynchroniseerd met de andere.
 
 
-Voor RGB-type slimme contracten, gebruiken we Shard volgens de contracten zelf. Elke Contract is een onafhankelijke _shard_. Als je bijvoorbeeld alleen USDT tokens bezit, hoef je niet de hele geschiedenis van een andere token zoals USDC op te slaan of te valideren. Op Bitcoin doet de Blockchain niet aan _sharding_: je hebt een globale set UTXO's. Met Client-side Validation behoudt elke deelnemer alleen de Contract gegevens die hij bezit of gebruikt.
+Voor RGB-type slimme contracten, gebruiken we Shard volgens de contracten zelf. Elke Contract is een onafhankelijke _shard_. Als je bijvoorbeeld alleen USDT tokens bezit, hoef je niet de hele geschiedenis van een andere token zoals USDC op te slaan of te valideren. Op Bitcoin doet de Blockchain niet aan _sharding_: je hebt een globale set [UTXO](https://planb.academy/resources/glossary/utxo)'s. Met Client-side Validation behoudt elke deelnemer alleen de Contract gegevens die hij bezit of gebruikt.
 
 
 We kunnen ons het ecosysteem dus als volgt voorstellen:
@@ -334,7 +334,7 @@ Client-side Validation is gebaseerd op het tegenovergestelde idee: in plaats van
 Tegelijkertijd, zodat de rest van het netwerk (of meer precies, de onderliggende Layer, zoals Bitcoin) de uiteindelijke toestand kan vergrendelen zonder de details van deze gegevens te zien, vertrouwt Client-side Validation op het begrip ***Commitment***.
 
 
-Een *Commitment* is een cryptografische Commitment, meestal een _hash_ (SHA-256 bijvoorbeeld) die wordt ingevoegd in een Bitcoin transactie, die bewijst dat er privégegevens zijn opgenomen, zonder deze gegevens te onthullen.
+Een *Commitment* is een cryptografische Commitment, meestal een _hash_ ([SHA-256](https://planb.academy/resources/glossary/sha256) bijvoorbeeld) die wordt ingevoegd in een Bitcoin transactie, die bewijst dat er privégegevens zijn opgenomen, zonder deze gegevens te onthullen.
 
 
 Dankzij deze _verbintenissen_ kunnen we bewijzen:
@@ -414,7 +414,7 @@ Bij het accepteren van een activum zoals een valuta zijn twee garanties essentie
 Voor fysieke activa, zoals een bankbiljet, is fysieke aanwezigheid voldoende om te bewijzen dat het niet gedupliceerd is. In de digitale wereld, waar activa puur informatief zijn, is deze verificatie echter complexer, omdat informatie gemakkelijk kan worden vermenigvuldigd en gedupliceerd.
 
 
-Zoals we eerder zagen, stelt de openbaring door de verzender van de geschiedenis van toestandsovergangen ons in staat om de authenticiteit van een RGB token te verzekeren. Door toegang te hebben tot alle transacties sinds de Genesis transactie, kunnen we de authenticiteit van de token bevestigen. Dit principe is vergelijkbaar met dat van Bitcoin, waar de geschiedenis van munten kan worden getraceerd naar het oorspronkelijke Coinbase Transaction om hun geldigheid te verifiëren. Maar, in tegenstelling tot Bitcoin, is deze geschiedenis van toestandsovergangen in RGB privé en wordt bewaard aan de cliëntzijde.
+Zoals we eerder zagen, stelt de openbaring door de verzender van de geschiedenis van toestandsovergangen ons in staat om de authenticiteit van een RGB token te verzekeren. Door toegang te hebben tot alle transacties sinds de Genesis transactie, kunnen we de authenticiteit van de token bevestigen. Dit principe is vergelijkbaar met dat van Bitcoin, waar de geschiedenis van munten kan worden getraceerd naar het oorspronkelijke [Coinbase Transaction](https://planb.academy/resources/glossary/coinbase-transaction) om hun geldigheid te verifiëren. Maar, in tegenstelling tot Bitcoin, is deze geschiedenis van toestandsovergangen in RGB privé en wordt bewaard aan de cliëntzijde.
 
 
 Om Double-spending van RGB tokens te voorkomen, gebruiken we een mechanisme genaamd "**Single-Use Seal**". Dit systeem zorgt ervoor dat elke token, eenmaal gebruikt, niet een tweede keer frauduleus hergebruikt kan worden.
@@ -587,7 +587,7 @@ Merk op dat deze software bouwstenen Bitcoin agnostisch zijn; in theorie zouden 
 #### Naar een breder gebruik van afdichtingen voor eenmalig gebruik
 
 
-Peter Todd creëerde ook het _Open Timestamps_ protocol, en het Single-Use Seal concept is een natuurlijke uitbreiding van deze ideeën. Naast RGB zijn er andere gebruikssituaties denkbaar, zoals de constructie van _sidechains_ zonder gebruik te maken van _merge mining_ of drivechain-gerelateerde voorstellen zoals BIP300. Elk systeem dat een enkele Commitment nodig heeft, kan in principe deze cryptografische primitieve gebruiken. Vandaag de dag is RGB de eerste grote full-scale implementatie.
+Peter Todd creëerde ook het _Open Timestamps_ protocol, en het Single-Use Seal concept is een natuurlijke uitbreiding van deze ideeën. Naast RGB zijn er andere gebruikssituaties denkbaar, zoals de constructie van _[sidechains](https://planb.academy/resources/glossary/sidechain)_ zonder gebruik te maken van _merge mining_ of drivechain-gerelateerde voorstellen zoals BIP300. Elk systeem dat een enkele Commitment nodig heeft, kan in principe deze cryptografische primitieve gebruiken. Vandaag de dag is RGB de eerste grote full-scale implementatie.
 
 
 #### Problemen met de beschikbaarheid van gegevens
@@ -599,7 +599,7 @@ Omdat in Client-side Validation elke gebruiker zijn of haar eigen deel van de ge
 #### Sharding en Contract isolatie
 
 
-Elke Contract vertegenwoordigt een geïsoleerde _shard_: USDT en USDC hoeven bijvoorbeeld hun geschiedenis niet te delen. Atomic swaps zijn nog steeds mogelijk, maar dit houdt niet in dat hun registers worden samengevoegd. Alles wordt gedaan door cryptografische Commitment, zonder de hele geschiedenisgrafiek aan elke deelnemer vrij te geven.
+Elke Contract vertegenwoordigt een geïsoleerde _shard_: USDT en USDC hoeven bijvoorbeeld hun geschiedenis niet te delen. [Atomic swaps](https://planb.academy/resources/glossary/atomic-swap) zijn nog steeds mogelijk, maar dit houdt niet in dat hun registers worden samengevoegd. Alles wordt gedaan door cryptografische Commitment, zonder de hele geschiedenisgrafiek aan elke deelnemer vrij te geven.
 
 
 ### Conclusie

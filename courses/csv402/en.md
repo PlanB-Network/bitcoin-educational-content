@@ -78,30 +78,30 @@ Ready to dive into the complex and fascinating world of RGB? Let's go!
 <chapterId>f52f8af5-5d7c-588b-b56d-99b97176204b</chapterId>
 :::video id=f27338bc-4210-4a2e-9b27-30278ed3282c:::
 
-RGB is a protocol designed to apply and enforce digital rights (in the form of contracts and assets) in a scalable and confidential way, based on the consensus rules and operations of the Bitcoin blockchain. The aim of this first chapter is to present the basic concepts and terminology around the RGB protocol, highlighting in particular its close links with basic distributed computing concepts such as Client-side Validation and Single-use Seals.
+RGB is a protocol designed to apply and enforce digital rights (in the form of contracts and assets) in a scalable and confidential way, based on the [consensus rules](https://planb.academy/resources/glossary/consensus-rules) and operations of the Bitcoin [blockchain](https://planb.academy/resources/glossary/blockchain). The aim of this first chapter is to present the basic concepts and terminology around the RGB protocol, highlighting in particular its close links with basic distributed computing concepts such as Client-side Validation and Single-use Seals.
 
 In this chapter, we explore the fundamentals of **distributed consensus systems** and see how RGB fits into this family of technologies. We'll also introduce the main principles that help us understand why RGB aims to be extensible and independent of Bitcoin's own consensus mechanism, while relying on it when necessary.
 
 ### Introduction
 
-Distributed computing, a specific branch of computer science, studies the protocols used to circulate and process information on a network of nodes. Together, these nodes and the protocol rules constitute what is known as a distributed system. Among the essential properties that characterize such a system , some are:
+Distributed computing, a specific branch of computer science, studies the protocols used to circulate and process information on a network of [nodes](https://planb.academy/resources/glossary/node). Together, these nodes and the protocol rules constitute what is known as a distributed system. Among the essential properties that characterize such a system , some are:
 
 
 - The **capability of independent verification and validation** of certain data by each node;
 - The possibility for nodes to construct (depending on the protocol) a complete or partial view of the information. These views are the **states** of the distributed system;
-- The **chronological order** of operations, so that data is reliably time-stamped and there is a consensus on the sequence of events (sequence of states).
+- The **chronological order** of operations, so that data is reliably [time-stamped](https://planb.academy/resources/glossary/timestamp) and there is a consensus on the sequence of events (sequence of states).
 
 In particular, the notion of **consensus** in a distributed system covers two aspects:
 
 
 - **Recognition of the validity** of state changes (according to protocol rules);
-- The **agreement on the order** of these state changes, which makes it impossible to rewrite or reverse validated operations a posteriori (this is also known in Bitcoin as "double-spend protection").
+- The **agreement on the order** of these state changes, which makes it impossible to rewrite or reverse validated operations a posteriori (this is also known in Bitcoin as "[double-spend](https://planb.academy/resources/glossary/double-spending-attack) protection").
 
-The first functional, permission-free implementation of a distributed consensus mechanism was introduced by Satoshi Nakamoto with Bitcoin, thanks to the combined use of a blockchain data structure and a Proof-of-Work (PoW) algorithm. In this system, the credibility of the block history depends on the computing power devoted to it by the nodes (miners). Bitcoin is therefore a major and historic example of a distributed consensus system open to all (*permissionless*).
+The first functional, permission-free implementation of a distributed consensus mechanism was introduced by Satoshi Nakamoto with Bitcoin, thanks to the combined use of a blockchain data structure and a [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) (PoW) algorithm. In this system, the credibility of the block history depends on the computing power devoted to it by the nodes ([miners](https://planb.academy/resources/glossary/miner)). Bitcoin is therefore a major and historic example of a distributed consensus system open to all (*permissionless*).
 
-In the world of blockchain and distributed computing, we can distinguish two fundamental paradigms: ***blockchain*** in the traditional sense, and ***state channels***, the best example of which in production is the Lightning Network. The blockchain is defined as a register of chronologically ordered events, replicated by consensus within an open, permission-free network. State channels, on the other hand, are peer-to-peer channels that enable two (or more) participants to maintain an updated state off-chain, using the blockchain only when opening and closing these channels.
+In the world of blockchain and distributed computing, we can distinguish two fundamental paradigms: ***blockchain*** in the traditional sense, and ***state channels***, the best example of which in production is the [Lightning Network](https://planb.academy/resources/glossary/lightning-network). The blockchain is defined as a register of chronologically ordered events, replicated by consensus within an open, permission-free network. State channels, on the other hand, are peer-to-peer channels that enable two (or more) participants to maintain an updated state off-chain, using the blockchain only when opening and closing these channels.
 
-In the context of Bitcoin, you're no doubt familiar with the principles of mining, decentralization and finality of transactions on the blockchain, as well as how payment channels work. With RGB, we're introducing a new paradigm called **Client-side Validation**, which, unlike blockchain or Lightning, consists in locally (client-side) storing and validating the state transitions of a smart contract. This also differs from other "DeFi" techniques (_rollups_, _plasma_, _ARK_, etc.), where the Client-side Validation relies on the blockchain to prevent double-spending and to have a time-stamping system, while keeping the register of off-chain states and transitions, only with the participants concerned.
+In the context of Bitcoin, you're no doubt familiar with the principles of mining, decentralization and finality of transactions on the blockchain, as well as how [payment channels](https://planb.academy/resources/glossary/payment-channel) work. With RGB, we're introducing a new paradigm called **Client-side Validation**, which, unlike blockchain or Lightning, consists in locally (client-side) storing and validating the state transitions of a [smart contract](https://planb.academy/resources/glossary/smart-contract). This also differs from other "DeFi" techniques (_rollups_, _plasma_, _ARK_, etc.), where the Client-side Validation relies on the blockchain to prevent double-spending and to have a time-stamping system, while keeping the register of off-chain states and transitions, only with the participants concerned.
 
 ![RGB-Bitcoin](assets/en/003.webp)
 
@@ -172,7 +172,7 @@ The blockchain (in this case, Bitcoin) serves primarily as a _time-stamping_ mec
 
 Sharding is a concept that originated in distributed databases (e.g. MySQL for social networks such as Facebook or Twitter). To solve the problem of data volume and synchronization latencies, the database is segmented into _shards_ (USA, Europe, Asia, etc.). Each segment is locally consistent and only partially synchronized with the others.
 
-For RGB-type smart contracts, we shard according to the contracts themselves. Each contract is an independent _shard_. For example, if you only hold USDT tokens, you don't have to store or validate the entire history of another token like USDC. On Bitcoin, the blockchain doesn't do _sharding_: you have a global set of UTXOs. With Client-side Validation, each participant retains only the contract data it holds or uses.
+For RGB-type smart contracts, we shard according to the contracts themselves. Each contract is an independent _shard_. For example, if you only hold USDT tokens, you don't have to store or validate the entire history of another token like USDC. On Bitcoin, the blockchain doesn't do _sharding_: you have a global set of [UTXOs](https://planb.academy/resources/glossary/utxo). With Client-side Validation, each participant retains only the contract data it holds or uses.
 
 We can therefore imagine the ecosystem as follows:
 
@@ -224,7 +224,7 @@ Client-side Validation is based on the opposite idea: rather than requiring the 
 
 At the same time, so that the rest of the network (or more precisely, the underlying layer, such as Bitcoin) can lock in the final state without seeing the details of this data, Client-side Validation relies on the notion of ***commitment***.
 
-A *commitment* is a cryptographic commitment, typically a _hash_ (SHA-256 for example) inserted into a Bitcoin transaction, which proves that private data has been included, without revealing this data.
+A *commitment* is a cryptographic commitment, typically a _hash_ ([SHA-256](https://planb.academy/resources/glossary/sha256) for example) inserted into a Bitcoin transaction, which proves that private data has been included, without revealing this data.
 
 Thanks to these _commitments_, we can prove:
 
@@ -277,7 +277,7 @@ When accepting an asset such as a currency, two guarantees are essential:
 
 For physical assets, such as a banknote, physical presence is enough to prove that it has not been duplicated. However, in the digital world, where assets are purely informational, this verification is more complex, as information can easily multiply and be duplicated.
 
-As we saw earlier, the sender's revelation of the history of state transitions enables us to ensure the authenticity of an RGB token. By having access to all transactions since the genesis transaction, we can confirm the token's authenticity. This principle is similar to that of Bitcoin, where the history of coins can be traced back to the original coinbase transaction to verify their validity. However, unlike Bitcoin, this history of state transitions in RGB is private and kept on the client side.
+As we saw earlier, the sender's revelation of the history of state transitions enables us to ensure the authenticity of an RGB token. By having access to all transactions since the genesis transaction, we can confirm the token's authenticity. This principle is similar to that of Bitcoin, where the history of coins can be traced back to the original [coinbase transaction](https://planb.academy/resources/glossary/coinbase-transaction) to verify their validity. However, unlike Bitcoin, this history of state transitions in RGB is private and kept on the client side.
 
 To prevent double-spending of RGB tokens, we use a mechanism called "**Single-use Seal**". This system ensures that each token, once used, cannot be fraudulently reused a second time.
 
@@ -305,7 +305,7 @@ Unlike simple _commitments_ (hash) or timestamps, which attest to a date of exis
 The following comparison helps to understand this principle:
 
 
-- **Cryptographic commitment (hash)**: With a hash function, you can commit to a piece of data (a number) by publishing its hash. The data remains secret until you reveal the pre-image, but you can prove that you knew it in advance;
+- **Cryptographic commitment (hash)**: With a [hash function](https://planb.academy/resources/glossary/hash-function), you can commit to a piece of data (a number) by publishing its hash. The data remains secret until you reveal the pre-image, but you can prove that you knew it in advance;
 - **Timestamp (blockchain)**: By inserting this hash in the blockchain, we also prove that we knew it at a precise moment (that of inclusion in a block);
 - **Single-use Seal**: With single-use seals, we go one step further by making the commitment unique. With a single hash, you can create several contradictory commitments in parallel (the problem of the doctor who announces "*It's a boy*" to the family and "*It's a girl*" in his personal diary). The Single-use Seal eliminates this possibility by connecting the commitment to a proof-of-publication medium, such as the Bitcoin blockchain, so that an expenditure of UTXO definitively seals the commitment. Once spent, the same UTXO cannot be re-spent to replace the commitment.
 
@@ -397,7 +397,7 @@ Note that these software bricks are Bitcoin agnostic; in theory, they could be a
 
 #### Towards wider use of Single-use Seals
 
-Peter Todd also created the _Open Timestamps_ protocol, and the Single-use Seal concept is a natural extension of these ideas. Beyond RGB, other use cases can be envisaged, such as the construction of _sidechains_ without resorting to _merge mining_ or drivechain-related proposals like BIP300. Any system requiring a single commitment can, in principle, exploit this cryptographic primitive. Today, RGB is the first major full-scale implementation.
+Peter Todd also created the _Open Timestamps_ protocol, and the Single-use Seal concept is a natural extension of these ideas. Beyond RGB, other use cases can be envisaged, such as the construction of _[sidechains](https://planb.academy/resources/glossary/sidechain)_ without resorting to _merge mining_ or drivechain-related proposals like BIP300. Any system requiring a single commitment can, in principle, exploit this cryptographic primitive. Today, RGB is the first major full-scale implementation.
 
 #### Data availability problems
 
@@ -405,7 +405,7 @@ Since in Client-side Validation, each user stores his or her own part of the his
 
 #### Sharding and contract isolation
 
-Each contract represents an isolated _shard_: USDT and USDC, for example, do not have to share their histories. Atomic swaps are still possible, but this does not involve merging their registers. Everything is done by cryptographic commitment, without disclosing the entire history graph to each participant.
+Each contract represents an isolated _shard_: USDT and USDC, for example, do not have to share their histories. [Atomic swaps](https://planb.academy/resources/glossary/atomic-swap) are still possible, but this does not involve merging their registers. Everything is done by cryptographic commitment, without disclosing the entire history graph to each participant.
 
 ### Conclusion
 

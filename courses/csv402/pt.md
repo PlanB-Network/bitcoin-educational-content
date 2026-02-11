@@ -80,13 +80,13 @@ Pronto para mergulhar no universo complexo e fascinante do RGB? Vamos lá!
 
 :::video id=f27338bc-4210-4a2e-9b27-30278ed3282c:::
 
-O RGB é um protocolo concebido para aplicar e fazer cumprir direitos digitais (sob a forma de contratos e activos) de forma escalável e confidencial, com base nas regras e operações de consenso da cadeia de blocos Bitcoin. O objetivo deste primeiro capítulo é apresentar os conceitos básicos e a terminologia em torno do protocolo RGB, destacando em particular as suas ligações estreitas com conceitos básicos de computação distribuída, como a validação do lado do cliente e os selos de utilização única.
+O RGB é um protocolo concebido para aplicar e fazer cumprir direitos digitais (sob a forma de contratos e activos) de forma escalável e confidencial, com base nas [regras e operações de consenso](https://planb.academy/resources/glossary/consensus-rules) da [cadeia de blocos](https://planb.academy/resources/glossary/blockchain) Bitcoin. O objetivo deste primeiro capítulo é apresentar os conceitos básicos e a terminologia em torno do protocolo RGB, destacando em particular as suas ligações estreitas com conceitos básicos de computação distribuída, como a validação do lado do cliente e os selos de utilização única.
 
 Neste capítulo, exploraremos os fundamentos dos **sistemas de consenso distribuído** e veremos como o RGB se encaixa nessa família de tecnologias. Apresentaremos também os princípios principais que nos ajudam a compreender por que razão o RGB pretende ser extensível e independente do mecanismo de consenso do Bitcoin, embora dependa dele quando necessário.
 
 ### Introdução
 
-A computação distribuída, um ramo específico da ciência da computação, estuda os protocolos utilizados para fazer circular e processar informações numa rede de nós. No seu conjunto, estes nós e as regras do protocolo constituem o que se designa por sistema distribuído. Entre as propriedades essenciais que caracterizam um sistema deste tipo contam-se :
+A computação distribuída, um ramo específico da ciência da computação, estuda os protocolos utilizados para fazer circular e processar informações numa rede de [nós](https://planb.academy/resources/glossary/node). No seu conjunto, estes nós e as regras do protocolo constituem o que se designa por sistema distribuído. Entre as propriedades essenciais que caracterizam um sistema deste tipo contam-se :
 
 
 - A **capacidade de verificação e validação independentes** de determinados dados por cada nó;
@@ -97,13 +97,13 @@ Em particular, a noção de **consenso** num sistema distribuído abrange dois a
 
 
 - Reconhecimento da **validade** das alterações de estado (de acordo com as regras do protocolo);
-- O **acordo sobre a ordem** destas alterações de estado, que torna impossível reescrever ou reverter operações validadas a posteriori (isto também é conhecido na Bitcoin como "proteção contra gastos duplos").
+- O **acordo sobre a ordem** destas alterações de estado, que torna impossível reescrever ou reverter operações validadas a posteriori (isto também é conhecido na Bitcoin como "proteção contra [gastos duplos](https://planb.academy/resources/glossary/double-spending-attack)").
 
-A primeira implementação funcional e sem permissões de um mecanismo de consenso distribuído foi introduzida por Satoshi Nakamoto com a Bitcoin, graças à utilização combinada de uma estrutura de dados de cadeia de blocos e de um algoritmo de prova de trabalho (PoW). Neste sistema, a credibilidade do historial do bloco depende do poder de computação que lhe é dedicado pelos nós (mineiros). A Bitcoin é, por conseguinte, um exemplo histórico e importante de um sistema de consenso distribuído aberto a todos (*sem permissões*).
+A primeira implementação funcional e sem permissões de um mecanismo de consenso distribuído foi introduzida por Satoshi Nakamoto com a Bitcoin, graças à utilização combinada de uma estrutura de dados de cadeia de blocos e de um algoritmo de [prova de trabalho](https://planb.academy/resources/glossary/proof-of-work) (PoW). Neste sistema, a credibilidade do historial do bloco depende do poder de computação que lhe é dedicado pelos nós ([mineiros](https://planb.academy/resources/glossary/miner)). A Bitcoin é, por conseguinte, um exemplo histórico e importante de um sistema de consenso distribuído aberto a todos (*sem permissões*).
 
-No mundo do blockchain e da computação distribuída, podemos distinguir dois paradigmas fundamentais: ***blockchain*** no sentido tradicional, e ***canais de estado***, cujo melhor exemplo em produção é a Lightning Network. A blockchain é definida como um registo de eventos ordenados cronologicamente, replicados por consenso numa rede aberta e sem permissões. Os canais de estado, por outro lado, são canais peer-to-peer que permitem a dois (ou mais) participantes manter um estado atualizado fora da cadeia, utilizando a cadeia de blocos apenas quando abrem e fecham esses canais.
+No mundo do blockchain e da computação distribuída, podemos distinguir dois paradigmas fundamentais: ***blockchain*** no sentido tradicional, e ***canais de estado***, cujo melhor exemplo em produção é a [Lightning Network](https://planb.academy/resources/glossary/lightning-network). A blockchain é definida como um registo de eventos ordenados cronologicamente, replicados por consenso numa rede aberta e sem permissões. Os canais de estado, por outro lado, são canais peer-to-peer que permitem a dois (ou mais) participantes manter um estado atualizado fora da cadeia, utilizando a cadeia de blocos apenas quando abrem e fecham esses canais.
 
-No contexto da Bitcoin, está sem dúvida familiarizado com os princípios de mineração, descentralização e finalidade das transacções na blockchain, bem como com o funcionamento dos canais de pagamento. Com o RGB, estamos a introduzir um novo paradigma chamado **Client-side Validation**, que, ao contrário do blockchain ou do Lightning, consiste em armazenar e validar localmente (do lado do cliente) as transições de estado de um contrato inteligente. Também difere de outras técnicas "DeFi" (_rollups_, _plasma_, _ARK_, etc.), na medida em que a validação do lado do cliente se baseia na blockchain para evitar gastos duplos e para ter um sistema de marcação de tempo, mantendo o registo de estados e transições fora da cadeia, apenas com os participantes em causa.
+No contexto da Bitcoin, está sem dúvida familiarizado com os princípios de mineração, descentralização e finalidade das transacções na blockchain, bem como com o funcionamento dos [canais de pagamento](https://planb.academy/resources/glossary/payment-channel). Com o RGB, estamos a introduzir um novo paradigma chamado **Client-side Validation**, que, ao contrário do blockchain ou do Lightning, consiste em armazenar e validar localmente (do lado do cliente) as transições de estado de um [contrato inteligente](https://planb.academy/resources/glossary/smart-contract). Também difere de outras técnicas "DeFi" (_rollups_, _plasma_, _ARK_, etc.), na medida em que a validação do lado do cliente se baseia na blockchain para evitar gastos duplos e para ter um sistema de [marcação de tempo](https://planb.academy/resources/glossary/timestamp), mantendo o registo de estados e transições fora da cadeia, apenas com os participantes em causa.
 
 ![RGB-Bitcoin](assets/en/003.webp)
 
@@ -174,7 +174,7 @@ O blockchain (neste caso, o Bitcoin) serve principalmente como um mecanismo de _
 
 O sharding é um conceito que teve origem nas bases de dados distribuídas (por exemplo, MySQL para redes sociais como o Facebook ou o Twitter). Para resolver o problema do volume de dados e das latências de sincronização, a base de dados é segmentada em _shards_ (EUA, Europa, Ásia, etc.). Cada segmento é localmente consistente e apenas parcialmente sincronizado com os outros.
 
-Para os contratos inteligentes do tipo RGB, fragmentamos de acordo com os próprios contratos. Cada contrato é um _shard_ independente. Por exemplo, se só tiver tokens USDT, não precisa de armazenar ou validar todo o histórico de outro token como o USDC. No Bitcoin, a blockchain não faz _sharding_: tem um conjunto global de UTXOs. Com a validação do lado do cliente, cada participante retém apenas os dados do contrato que detém ou utiliza.
+Para os contratos inteligentes do tipo RGB, fragmentamos de acordo com os próprios contratos. Cada contrato é um _shard_ independente. Por exemplo, se só tiver tokens USDT, não precisa de armazenar ou validar todo o histórico de outro token como o USDC. No Bitcoin, a blockchain não faz _sharding_: tem um conjunto global de [UTXOs](https://planb.academy/resources/glossary/utxo). Com a validação do lado do cliente, cada participante retém apenas os dados do contrato que detém ou utiliza.
 
 Podemos, portanto, imaginar o ecossistema da seguinte forma:
 
@@ -226,7 +226,7 @@ A validação do lado do cliente baseia-se na ideia oposta: em vez de exigir que
 
 Ao mesmo tempo, para que o resto da rede (ou, mais precisamente, a camada subjacente, como a Bitcoin) possa bloquear o estado final sem ver os detalhes desses dados, a validação do lado do cliente baseia-se na noção de ***compromisso***.
 
-Um *compromisso* é um compromisso criptográfico, normalmente um _hash_ (SHA-256, por exemplo) inserido numa transação Bitcoin, que prova que foram incluídos dados privados, sem revelar esses dados.
+Um *compromisso* é um compromisso criptográfico, normalmente um _hash_ ([SHA-256](https://planb.academy/resources/glossary/sha256), por exemplo) inserido numa transação Bitcoin, que prova que foram incluídos dados privados, sem revelar esses dados.
 
 Graças a estes _compromissos_, podemos provar:
 
@@ -279,7 +279,7 @@ Ao aceitar um ativo como uma moeda, são essenciais duas garantias:
 
 Para activos físicos, como uma nota de banco, a presença física é suficiente para provar que não foi duplicada. No entanto, no mundo digital, onde os activos são puramente informativos, esta verificação é mais complexa, uma vez que a informação pode facilmente multiplicar-se e ser duplicada.
 
-Como vimos anteriormente, o facto de o remetente revelar o histórico das transições de estado permite-nos garantir a autenticidade de um token RGB. Ao ter acesso a todas as transacções desde a transação de génese, podemos confirmar a autenticidade do token. Este princípio é semelhante ao da Bitcoin, em que o histórico das moedas pode ser rastreado até à transação original da coinbase para verificar a sua validade. No entanto, ao contrário da Bitcoin, este historial de transições de estado na RGB é privado e mantido no lado do cliente.
+Como vimos anteriormente, o facto de o remetente revelar o histórico das transições de estado permite-nos garantir a autenticidade de um token RGB. Ao ter acesso a todas as transacções desde a transação de génese, podemos confirmar a autenticidade do token. Este princípio é semelhante ao da Bitcoin, em que o histórico das moedas pode ser rastreado até à transação original da [coinbase](https://planb.academy/resources/glossary/coinbase-transaction) para verificar a sua validade. No entanto, ao contrário da Bitcoin, este historial de transições de estado na RGB é privado e mantido no lado do cliente.
 
 Para evitar o gasto duplo de fichas RGB, utilizamos um mecanismo denominado "**Selo de utilização única**". Este sistema garante que cada ficha, uma vez utilizada, não pode ser reutilizada de forma fraudulenta uma segunda vez.
 
@@ -307,7 +307,7 @@ Ao contrário dos _compromissos_ simples (hash) ou dos carimbos de data/hora, qu
 A comparação que se segue ajuda a compreender este princípio:
 
 
-- **Compromisso criptográfico (hash)**: Com uma função de hash, é possível comprometer-se com um dado (um número) publicando o seu hash. Os dados permanecem secretos até revelar a pré-imagem, mas pode provar que os conhecia antecipadamente;
+- **Compromisso criptográfico (hash)**: Com uma [função de hash](https://planb.academy/resources/glossary/hash-function), é possível comprometer-se com um dado (um número) publicando o seu hash. Os dados permanecem secretos até revelar a pré-imagem, mas pode provar que os conhecia antecipadamente;
 - **Carimbo de data/hora (blockchain)**: Ao inserir este hash na cadeia de blocos, provamos também que o conhecíamos num momento preciso (o da inclusão num bloco);
 - **Selo de utilização única**: Com os selos de utilização única, damos um passo em frente ao tornar o compromisso único. Com um único hash, é possível criar vários compromissos contraditórios em paralelo (o problema do médico que anuncia "*É um rapaz*" à família e "*É uma rapariga*" no seu diário pessoal). O Selo de Utilização Única elimina esta possibilidade ligando o compromisso a um meio de prova de publicação, como a cadeia de blocos Bitcoin, de modo que uma despesa de UTXO sela definitivamente o compromisso. Uma vez gasto, o mesmo UTXO não pode ser gasto novamente para substituir o compromisso.
 
@@ -400,7 +400,7 @@ Note-se que estes blocos de software são agnósticos em relação à Bitcoin; e
 
 #### Para uma utilização mais alargada dos selos de utilização única
 
-Peter Todd também criou o protocolo _Open Timestamps_, e o conceito de Single-use Seal é uma extensão natural destas ideias. Para além do RGB, podem ser previstos outros casos de utilização, como a construção de _sidechains_ sem recorrer ao _merge mining_ ou a propostas relacionadas com drivechains como o BIP300. Qualquer sistema que exija um único compromisso pode, em princípio, explorar esta primitiva criptográfica. Atualmente, o RGB é a primeira grande implementação em grande escala.
+Peter Todd também criou o protocolo _Open Timestamps_, e o conceito de Single-use Seal é uma extensão natural destas ideias. Para além do RGB, podem ser previstos outros casos de utilização, como a construção de _[sidechains](https://planb.academy/resources/glossary/sidechain)_ sem recorrer ao _merge mining_ ou a propostas relacionadas com drivechains como o BIP300. Qualquer sistema que exija um único compromisso pode, em princípio, explorar esta primitiva criptográfica. Atualmente, o RGB é a primeira grande implementação em grande escala.
 
 #### Problemas de disponibilidade de dados
 
@@ -408,7 +408,7 @@ Uma vez que, na validação do lado do cliente, cada utilizador armazena a sua p
 
 #### Fragmentação e isolamento de contratos
 
-Cada contrato representa um _shard_ isolado: O USDT e o USDC, por exemplo, não têm de partilhar os seus históricos. As trocas atómicas continuam a ser possíveis, mas isso não implica a fusão dos seus registos. Tudo é feito através de um compromisso criptográfico, sem revelar todo o histórico a cada participante.
+Cada contrato representa um _shard_ isolado: O USDT e o USDC, por exemplo, não têm de partilhar os seus históricos. As [trocas atómicas](https://planb.academy/resources/glossary/atomic-swap) continuam a ser possíveis, mas isso não implica a fusão dos seus registos. Tudo é feito através de um compromisso criptográfico, sem revelar todo o histórico a cada participante.
 
 ### Conclusão
 

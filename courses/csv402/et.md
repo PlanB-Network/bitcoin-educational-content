@@ -80,13 +80,13 @@ Kas olete valmis sukelduma RGB keerukasse ja põnevasse maailma? Lähme!
 
 :::video id=f27338bc-4210-4a2e-9b27-30278ed3282c:::
 
-RGB on protokoll, mis on loodud digitaalsete õiguste (lepingute ja varade kujul) kohaldamiseks ja jõustamiseks skaleeritaval ja konfidentsiaalsel viisil, mis põhineb Bitcoini plokiahela konsensusreeglitel ja toimingutel. Käesoleva esimese peatüki eesmärk on tutvustada RGB-protokolliga seotud põhimõisteid ja terminoloogiat, rõhutades eelkõige selle tihedat seost selliste põhiliste hajutatud arvutuskontseptsioonide nagu kliendipoolne valideerimine ja ühekordsed pitsatid.
+RGB on protokoll, mis on loodud digitaalsete õiguste (lepingute ja varade kujul) kohaldamiseks ja jõustamiseks skaleeritaval ja konfidentsiaalsel viisil, mis põhineb Bitcoini [plokiahela](https://planb.academy/resources/glossary/blockchain) [konsensusreeglitel](https://planb.academy/resources/glossary/consensus-rules) ja toimingutel. Käesoleva esimese peatüki eesmärk on tutvustada RGB-protokolliga seotud põhimõisteid ja terminoloogiat, rõhutades eelkõige selle tihedat seost selliste põhiliste hajutatud arvutuskontseptsioonide nagu kliendipoolne valideerimine ja ühekordsed pitsatid.
 
 Selles peatükis uurime **jaotatud konsensussüsteemide** põhialuseid ja vaatame, kuidas RGB sobib sellesse tehnoloogiaperekonda. Samuti tutvustame peamisi põhimõtteid, mis aitavad meil mõista, miks RGB eesmärk on olla laiendatav ja sõltumatu Bitcoini enda konsensusmehhanismist, tuginedes samas vajadusel sellele.
 
 ### Sissejuhatus
 
-Jaotatud andmetöötlus, mis on arvutiteaduse eriharu, uurib protokolle, mida kasutatakse teabe levitamiseks ja töötlemiseks sõlmede võrgus. Need sõlmed ja protokollide reeglid moodustavad koos selle, mida nimetatakse hajutatud süsteemiks. Sellist süsteemi iseloomustavate oluliste omaduste hulka kuuluvad :
+Jaotatud andmetöötlus, mis on arvutiteaduse eriharu, uurib protokolle, mida kasutatakse teabe levitamiseks ja töötlemiseks [sõlmede](https://planb.academy/resources/glossary/node) võrgus. Need sõlmed ja protokollide reeglid moodustavad koos selle, mida nimetatakse hajutatud süsteemiks. Sellist süsteemi iseloomustavate oluliste omaduste hulka kuuluvad :
 
 
 - **Võimekus kontrollida ja valideerida** teatavaid andmeid sõltumatult iga sõlme poolt;
@@ -99,11 +99,11 @@ Eelkõige hõlmab mõiste **konsensus** hajutatud süsteemis kahte aspekti:
 - **Seisundi muutuste kehtivuse** tunnustamine (vastavalt protokolli reeglitele);
 - **Kokkulepe nende oleku muutuste järjekorras**, mis muudab võimatuks ümberkirjutamise või tagurpidi valideeritud operatsioonide tagantjärele teostamise (seda tuntakse Bitcoinis ka kui "topeltkulutuste kaitset").
 
-Satoshi Nakamoto võttis Bitcoiniga kasutusele esimese funktsionaalse, lubadusteta jaotatud konsensusmehhanismi, tänu plokiahela andmestruktuuri ja Proof-of-Work (PoW) algoritmi kombineeritud kasutamisele. Selles süsteemis sõltub plokkide ajaloo usaldusväärsus sõlmede (kaevurite) poolt sellele pühendatud arvutusvõimsusest. Bitcoin on seega oluline ja ajalooline näide kõigile avatud hajutatud konsensussüsteemist (*vabaduseta*).
+Satoshi Nakamoto võttis Bitcoiniga kasutusele esimese funktsionaalse, lubadusteta jaotatud konsensusmehhanismi, tänu plokiahela andmestruktuuri ja [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) (PoW) algoritmi kombineeritud kasutamisele. Selles süsteemis sõltub plokkide ajaloo usaldusväärsus sõlmede ([kaevurite](https://planb.academy/resources/glossary/miner)) poolt sellele pühendatud arvutusvõimsusest. Bitcoin on seega oluline ja ajalooline näide kõigile avatud hajutatud konsensussüsteemist (*vabaduseta*).
 
-Plokiahela ja hajutatud arvutuste maailmas võime eristada kahte põhilist paradigmat: ***blockchain*** traditsioonilises mõttes ja ***riigi kanalid***, mille parim näide tootmises on Lightning Network. Plokiahelat defineeritakse kui kronoloogiliselt järjestatud sündmuste registrit, mida reprodutseeritakse konsensuse alusel avatud, lubadusteta võrgus. Seevastu olekukanalid on vastastikused kanalid, mis võimaldavad kahel (või enamal) osalejal säilitada ajakohastatud olekut väljaspool ahelat, kasutades plokiahelat ainult nende kanalite avamisel ja sulgemisel.
+Plokiahela ja hajutatud arvutuste maailmas võime eristada kahte põhilist paradigmat: ***blockchain*** traditsioonilises mõttes ja ***riigi kanalid***, mille parim näide tootmises on [Lightning Network](https://planb.academy/resources/glossary/lightning-network). Plokiahelat defineeritakse kui kronoloogiliselt järjestatud sündmuste registrit, mida reprodutseeritakse konsensuse alusel avatud, lubadusteta võrgus. Seevastu olekukanalid on vastastikused kanalid, mis võimaldavad kahel (või enamal) osalejal säilitada ajakohastatud olekut väljaspool ahelat, kasutades plokiahelat ainult nende kanalite avamisel ja sulgemisel.
 
-Bitcoini kontekstis olete kahtlemata tuttav kaevandamise, detsentraliseerimise ja tehingute lõplikkuse põhimõtetega plokiahelas, samuti sellega, kuidas maksekanalid töötavad. RGBga võtame kasutusele uue paradigma nimega **Kliendipoolne valideerimine**, mis erinevalt plokiahela või Lightningist seisneb nutilepingu oleku üleminekute lokaalses (kliendipoolses) salvestamises ja valideerimises. See erineb teistest "DeFi" tehnikatest (_rollups_, _plasma_, _ARK_ jne) ka selle poolest, et kliendipoolne valideerimine tugineb plokiahelale, et vältida topeltkulutusi ja omada ajatemplisüsteemi, hoides samal ajal ahelaväliseid olekuid ja üleminekuid käsitlevat registrit ainult asjaomaste osalejate juures.
+Bitcoini kontekstis olete kahtlemata tuttav kaevandamise, detsentraliseerimise ja tehingute lõplikkuse põhimõtetega plokiahelas, samuti sellega, kuidas [maksekanalid](https://planb.academy/resources/glossary/payment-channel) töötavad. RGBga võtame kasutusele uue paradigma nimega **Kliendipoolne valideerimine**, mis erinevalt plokiahela või Lightningist seisneb [nutilepingu](https://planb.academy/resources/glossary/smart-contract) oleku üleminekute lokaalses (kliendipoolses) salvestamises ja valideerimises. See erineb teistest "DeFi" tehnikatest (_rollups_, _plasma_, _ARK_ jne) ka selle poolest, et kliendipoolne valideerimine tugineb plokiahelale, et vältida [topeltkulutusi](https://planb.academy/resources/glossary/double-spending-attack) ja omada [ajatemplisüsteemi](https://planb.academy/resources/glossary/timestamp), hoides samal ajal ahelaväliseid olekuid ja üleminekuid käsitlevat registrit ainult asjaomaste osalejate juures.
 
 ![RGB-Bitcoin](assets/en/003.webp)
 
@@ -201,7 +201,7 @@ Bitcoini plokiahela puhul põhineb tehingu valideerimine lihtsal reeglil:
 
 
 - Kõik võrgusõlmed laadivad alla iga ploki ja tehingu;
-- Nad valideerivad need tehingud, et kontrollida UTXO-komplekti (kõik kulutamata väljundid) õiget arengut;
+- Nad valideerivad need tehingud, et kontrollida [UTXO](https://planb.academy/resources/glossary/utxo)-komplekti (kõik kulutamata väljundid) õiget arengut;
 - Nad salvestavad need andmed (plokkide kujul), nii et ajalugu saab vajaduse korral uuesti esitada.
 
 ![RGB-Bitcoin](assets/en/010.webp)
@@ -226,7 +226,7 @@ Kliendipoolne valideerimine põhineb vastupidisel ideel: selle asemel, et nõuda
 
 Samal ajal, et ülejäänud võrk (või täpsemalt, aluseks olev kiht, näiteks Bitcoin) saaks lukustada lõpliku seisundi, ilma et ta näeks nende andmete üksikasju, tugineb kliendipoolne valideerimine ***commitment*** mõistele.
 
-*Kohustus* on krüptograafiline kohustus, tavaliselt _hash_ (näiteks SHA-256), mis lisatakse Bitcoini tehingusse ja mis tõestab, et privaatsed andmed on lisatud, ilma neid andmeid paljastamata.
+*Kohustus* on krüptograafiline kohustus, tavaliselt _hash_ (näiteks [SHA-256](https://planb.academy/resources/glossary/sha256)), mis lisatakse Bitcoini tehingusse ja mis tõestab, et privaatsed andmed on lisatud, ilma neid andmeid paljastamata.
 
 Tänu nendele _kohustustele_ saame tõestada:
 
@@ -279,7 +279,7 @@ Sellise vara nagu valuuta vastuvõtmisel on olulised kaks tagatist:
 
 Füüsilise vara, näiteks pangatähe puhul piisab füüsilisest olemasolust, et tõestada, et seda ei ole dubleeritud. Kuid digitaalses maailmas, kus vara on puhtalt informatiivne, on see kontrollimine keerulisem, sest teave võib kergesti paljuneda ja dubleerida.
 
-Nagu me nägime varem, võimaldab saatja avalikustatud oleku üleminekute ajalugu tagada RGB-märkide autentsuse. Kuna meil on juurdepääs kõikidele tehingutele alates algsest tehingust, saame kinnitada märgi autentsust. See põhimõte on sarnane Bitcoini põhimõttega, kus müntide ajalugu saab nende kehtivuse kontrollimiseks jälgida tagasi algse coinbase'i tehinguni. Kuid erinevalt Bitcoinist on RGB-s see oleku üleminekute ajalugu privaatne ja seda hoitakse kliendi poolel.
+Nagu me nägime varem, võimaldab saatja avalikustatud oleku üleminekute ajalugu tagada RGB-märkide autentsuse. Kuna meil on juurdepääs kõikidele tehingutele alates algsest tehingust, saame kinnitada märgi autentsust. See põhimõte on sarnane Bitcoini põhimõttega, kus müntide ajalugu saab nende kehtivuse kontrollimiseks jälgida tagasi algse [coinbase'i](https://planb.academy/resources/glossary/coinbase-transaction) tehinguni. Kuid erinevalt Bitcoinist on RGB-s see oleku üleminekute ajalugu privaatne ja seda hoitakse kliendi poolel.
 
 RGB-märkide kahekordse kulutamise vältimiseks kasutame mehhanismi nimega "**Korduvkasutatav pitser**". See süsteem tagab, et iga kord kasutatud žetooni ei saa pettuse teel teist korda uuesti kasutada.
 
@@ -400,7 +400,7 @@ Pange tähele, et need tarkvaraplokid on Bitcoini agnostilised; teoreetiliselt v
 
 #### Ühekordsete pitserite laiema kasutamise suunas
 
-Peter Todd lõi ka _Open Timestamps_ protokolli ja ühekordselt kasutatava pitseri kontseptsioon on nende ideede loomulikuks laienduseks. Lisaks RGB-le võib ette näha ka muid kasutusjuhtumeid, näiteks _sidechains_ ehitamine ilma _merge mining'ile_ või drivechainiga seotud ettepanekutele nagu BIP300. Põhimõtteliselt võib seda krüptograafilist primitiivi kasutada iga süsteem, mis nõuab ühekordset kohustust. Täna on RGB esimene suuremahuline täiemahuline rakendus.
+Peter Todd lõi ka _Open Timestamps_ protokolli ja ühekordselt kasutatava pitseri kontseptsioon on nende ideede loomulikuks laienduseks. Lisaks RGB-le võib ette näha ka muid kasutusjuhtumeid, näiteks _[sidechains](https://planb.academy/resources/glossary/sidechain)_ ehitamine ilma _merge mining'ile_ või drivechainiga seotud ettepanekutele nagu BIP300. Põhimõtteliselt võib seda krüptograafilist primitiivi kasutada iga süsteem, mis nõuab ühekordset kohustust. Täna on RGB esimene suuremahuline täiemahuline rakendus.
 
 #### Andmete kättesaadavuse probleemid
 
@@ -408,7 +408,7 @@ Kuna kliendipoolse valideerimise puhul salvestab iga kasutaja oma osa ajaloost, 
 
 #### Jagamine ja lepingu isoleerimine
 
-Iga leping kujutab endast üksikut "killustikku": USDT ja USDC näiteks ei pea oma ajalugu jagama. Aatomivahetused on endiselt võimalikud, kuid see ei hõlma nende registrite ühendamist. Kõik toimub krüptograafiliste kohustuste abil, ilma et iga osaleja saaks kogu ajaloo graafikut avaldada.
+Iga leping kujutab endast üksikut "killustikku": USDT ja USDC näiteks ei pea oma ajalugu jagama. [Aatomivahetused](https://planb.academy/resources/glossary/atomic-swap) on endiselt võimalikud, kuid see ei hõlma nende registrite ühendamist. Kõik toimub krüptograafiliste kohustuste abil, ilma et iga osaleja saaks kogu ajaloo graafikut avaldada.
 
 ### Kokkuvõte
 

@@ -114,7 +114,7 @@ RGB'nin karmaşık ve büyüleyici dünyasına dalmaya hazır mısınız? Hadi b
 :::video id=f27338bc-4210-4a2e-9b27-30278ed3282c:::
 
 
-RGB, Bitcoin Blockchain'ın mutabakat kurallarına ve işlemlerine dayalı olarak dijital hakları (sözleşmeler ve varlıklar şeklinde) ölçeklenebilir ve gizli bir şekilde uygulamak ve yürürlüğe koymak için tasarlanmış bir protokoldür. Bu ilk bölümün amacı, RGB protokolü etrafındaki temel kavramları ve terminolojiyi sunmak ve özellikle Client-side Validation ve Tek Kullanımlık Mühürler gibi temel dağıtılmış bilgi işlem kavramlarıyla olan yakın bağlantılarını vurgulamaktır.
+RGB, Bitcoin [Blockchain](https://planb.academy/resources/glossary/blockchain)'ın [mutabakat kurallarına](https://planb.academy/resources/glossary/consensus-rules) ve işlemlerine dayalı olarak dijital hakları (sözleşmeler ve varlıklar şeklinde) ölçeklenebilir ve gizli bir şekilde uygulamak ve yürürlüğe koymak için tasarlanmış bir protokoldür. Bu ilk bölümün amacı, RGB protokolü etrafındaki temel kavramları ve terminolojiyi sunmak ve özellikle Client-side Validation ve Tek Kullanımlık Mühürler gibi temel dağıtılmış bilgi işlem kavramlarıyla olan yakın bağlantılarını vurgulamaktır.
 
 
 Bu bölümde, **dağıtık mutabakat sistemlerinin** temellerini inceleyeceğiz ve RGB'ün bu teknoloji ailesine nasıl uyduğunu göreceğiz. Ayrıca, RGB'ün neden Bitcoin'ün kendi mutabakat mekanizmasından bağımsız ve genişletilebilir olmayı amaçladığını anlamamıza yardımcı olan ana ilkeleri de tanıtacağız.
@@ -123,14 +123,14 @@ Bu bölümde, **dağıtık mutabakat sistemlerinin** temellerini inceleyeceğiz 
 ### Giriş
 
 
-Bilgisayar biliminin belirli bir dalı olan dağıtık bilgi işlem, düğümlerden oluşan bir ağ üzerinde bilgi dolaşımı ve işlenmesi için kullanılan protokolleri inceler. Bu düğümler ve protokol kuralları birlikte dağıtılmış sistem olarak bilinen şeyi oluşturur. Böyle bir sistemi karakterize eden temel özellikler arasında bazıları şunlardır:
+Bilgisayar biliminin belirli bir dalı olan dağıtık bilgi işlem, [düğümlerden](https://planb.academy/resources/glossary/node) oluşan bir ağ üzerinde bilgi dolaşımı ve işlenmesi için kullanılan protokolleri inceler. Bu düğümler ve protokol kuralları birlikte dağıtılmış sistem olarak bilinen şeyi oluşturur. Böyle bir sistemi karakterize eden temel özellikler arasında bazıları şunlardır:
 
 
 
 
 - Belirli verilerin her bir düğüm tarafından bağımsız olarak doğrulanması ve onaylanması **yeteneği**;
 - Düğümlerin (protokole bağlı olarak) bilginin tam veya kısmi bir görünümünü oluşturma olasılığı. Bu görünümler dağıtılmış sistemin **durumlarıdır**;
-- Verilerin güvenilir bir şekilde zaman damgalı olması ve olayların sırası (durumların sırası) konusunda bir fikir birliği olması için işlemlerin **kronolojik sırası**.
+- Verilerin güvenilir bir şekilde [zaman damgalı](https://planb.academy/resources/glossary/timestamp) olması ve olayların sırası (durumların sırası) konusunda bir fikir birliği olması için işlemlerin **kronolojik sırası**.
 
 
 Özellikle, dağıtık bir sistemde **uzlaşma** kavramı iki yönü kapsar:
@@ -139,16 +139,16 @@ Bilgisayar biliminin belirli bir dalı olan dağıtık bilgi işlem, düğümler
 
 
 - Durum değişikliklerinin geçerliliğinin **tanınması** (protokol kurallarına göre);
-- Bu durum değişikliklerinin sırası üzerinde anlaşmaya varılması, onaylanmış işlemlerin a posteriori olarak yeniden yazılmasını veya tersine çevrilmesini imkansız hale getirir (bu, Bitcoin'te "çift harcama koruması" olarak da bilinir).
+- Bu durum değişikliklerinin sırası üzerinde anlaşmaya varılması, onaylanmış işlemlerin a posteriori olarak yeniden yazılmasını veya tersine çevrilmesini imkansız hale getirir (bu, Bitcoin'te "[çift harcama koruması](https://planb.academy/resources/glossary/double-spending-attack)" olarak da bilinir).
 
 
-Dağıtılmış bir mutabakat mekanizmasının ilk işlevsel, izinsiz uygulaması Satoshi Nakamoto tarafından Bitcoin ile tanıtıldı, Blockchain veri yapısı ve Proof-of-Work (PoW) algoritmasının birlikte kullanımı sayesinde. Bu sistemde, blok geçmişinin güvenilirliği, düğümler (madenciler) tarafından buna ayrılan hesaplama gücüne bağlıdır. Bu nedenle Bitcoin, herkese açık (*izinsiz*) dağıtılmış bir mutabakat sisteminin önemli ve tarihi bir örneğidir.
+Dağıtılmış bir mutabakat mekanizmasının ilk işlevsel, izinsiz uygulaması Satoshi Nakamoto tarafından Bitcoin ile tanıtıldı, Blockchain veri yapısı ve [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) (PoW) algoritmasının birlikte kullanımı sayesinde. Bu sistemde, blok geçmişinin güvenilirliği, düğümler ([madenciler](https://planb.academy/resources/glossary/miner)) tarafından buna ayrılan hesaplama gücüne bağlıdır. Bu nedenle Bitcoin, herkese açık (*izinsiz*) dağıtılmış bir mutabakat sisteminin önemli ve tarihi bir örneğidir.
 
 
-Blockchain ve dağıtık bilgi işlem dünyasında iki temel paradigmayı ayırt edebiliriz: *geleneksel anlamda **Blockchain*** ve üretimdeki en iyi örneği Lightning Network olan ***devlet kanalları***. Blockchain, açık, izinsiz bir ağ içinde fikir birliği ile çoğaltılan, kronolojik olarak sıralanmış olayların bir kaydı olarak tanımlanır. Öte yandan durum kanalları, iki (veya daha fazla) katılımcının güncellenmiş bir off-chain durumunu sürdürmesini sağlayan ve Blockchain'i yalnızca bu kanalları açarken ve kapatırken kullanan eşler arası kanallardır.
+Blockchain ve dağıtık bilgi işlem dünyasında iki temel paradigmayı ayırt edebiliriz: *geleneksel anlamda **Blockchain*** ve üretimdeki en iyi örneği [Lightning Network](https://planb.academy/resources/glossary/lightning-network) olan ***devlet kanalları***. Blockchain, açık, izinsiz bir ağ içinde fikir birliği ile çoğaltılan, kronolojik olarak sıralanmış olayların bir kaydı olarak tanımlanır. Öte yandan durum kanalları, iki (veya daha fazla) katılımcının güncellenmiş bir off-chain durumunu sürdürmesini sağlayan ve Blockchain'i yalnızca bu kanalları açarken ve kapatırken kullanan eşler arası kanallardır.
 
 
-Bitcoin bağlamında, Mining'un ilkelerine, Blockchain'daki işlemlerin ademi merkeziyetçiliğine ve kesinliğine ve ayrıca ödeme kanallarının nasıl çalıştığına şüphesiz aşinasınız. RGB ile, Blockchain veya Lightning'den farklı olarak, bir Smart contract'in durum geçişlerini yerel olarak (istemci tarafında) depolamayı ve doğrulamayı içeren **Client-side Validation** adlı yeni bir paradigma sunuyoruz. Bu aynı zamanda diğer "DeFi" tekniklerinden (_rollups_, _plasma_, _ARK_, vb.) farklıdır; burada Client-side Validation, Double-spending'ü önlemek ve bir zaman damgalama sistemine sahip olmak için Blockchain'ya güvenirken, off-chain durumlarının ve geçişlerinin kaydını yalnızca ilgili katılımcılarla tutar.
+Bitcoin bağlamında, Mining'un ilkelerine, Blockchain'daki işlemlerin ademi merkeziyetçiliğine ve kesinliğine ve ayrıca [ödeme kanallarının](https://planb.academy/resources/glossary/payment-channel) nasıl çalıştığına şüphesiz aşinasınız. RGB ile, Blockchain veya Lightning'den farklı olarak, bir [Smart contract](https://planb.academy/resources/glossary/smart-contract)'in durum geçişlerini yerel olarak (istemci tarafında) depolamayı ve doğrulamayı içeren **Client-side Validation** adlı yeni bir paradigma sunuyoruz. Bu aynı zamanda diğer "DeFi" tekniklerinden (_rollups_, _plasma_, _ARK_, vb.) farklıdır; burada Client-side Validation, Double-spending'ü önlemek ve bir zaman damgalama sistemine sahip olmak için Blockchain'ya güvenirken, off-chain durumlarının ve geçişlerinin kaydını yalnızca ilgili katılımcılarla tutar.
 
 
 ![RGB-Bitcoin](assets/en/003.webp)
@@ -257,7 +257,7 @@ Blockchain (bu durumda Bitcoin) öncelikle bir _zaman damgalama_ mekanizması ve
 Parçalama, dağıtık veritabanlarında (örneğin Facebook veya Twitter gibi sosyal ağlar için MySQL) ortaya çıkan bir kavramdır. Veri hacmi ve senkronizasyon gecikmeleri sorununu çözmek için veritabanı _shards_ (ABD, Avrupa, Asya, vb.) olarak bölümlere ayrılır. Her bölüm yerel olarak tutarlıdır ve diğerleriyle yalnızca kısmen senkronize edilir.
 
 
-RGB tipi akıllı sözleşmeler için, sözleşmelerin kendilerine göre Shard. Her Contract bağımsız bir _shard_'dır. Örneğin, yalnızca USDT token'larına sahipseniz, USDC gibi başka bir token'nin tüm geçmişini saklamanız veya doğrulamanız gerekmez. Bitcoin'te, Blockchain _sharding_ yapmaz: global bir UTXO setiniz vardır. Client-side Validation ile her katılımcı yalnızca elinde tuttuğu veya kullandığı Contract verilerini saklar.
+RGB tipi akıllı sözleşmeler için, sözleşmelerin kendilerine göre Shard. Her Contract bağımsız bir _shard_'dır. Örneğin, yalnızca USDT token'larına sahipseniz, USDC gibi başka bir token'nin tüm geçmişini saklamanız veya doğrulamanız gerekmez. Bitcoin'te, Blockchain _sharding_ yapmaz: global bir [UTXO](https://planb.academy/resources/glossary/utxo) setiniz vardır. Client-side Validation ile her katılımcı yalnızca elinde tuttuğu veya kullandığı Contract verilerini saklar.
 
 
 Bu nedenle ekosistemi aşağıdaki gibi hayal edebiliriz:
@@ -334,7 +334,7 @@ Client-side Validation tam tersi bir fikre dayanmaktadır: tüm ağın tüm işl
 Aynı zamanda, ağın geri kalanının (veya daha doğrusu, Bitcoin gibi temel Layer'in) bu verilerin ayrıntılarını görmeden son duruma kilitlenebilmesi için Client-side Validation, ***Commitment*** kavramına dayanır.
 
 
-Bir *Commitment*, bir Bitcoin işlemine eklenen ve bu verileri ifşa etmeden özel verilerin dahil edildiğini kanıtlayan kriptografik bir Commitment, tipik olarak bir _hash_ (örneğin SHA-256).
+Bir *Commitment*, bir Bitcoin işlemine eklenen ve bu verileri ifşa etmeden özel verilerin dahil edildiğini kanıtlayan kriptografik bir Commitment, tipik olarak bir _hash_ (örneğin [SHA-256](https://planb.academy/resources/glossary/sha256)).
 
 
 Bu taahhütler sayesinde kanıtlayabiliriz:

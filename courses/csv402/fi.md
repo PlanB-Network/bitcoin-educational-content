@@ -80,13 +80,13 @@ Oletko valmis sukeltamaan RGB:n monimutkaiseen ja kiehtovaan maailmaan? Lähdet�
 
 :::video id=f27338bc-4210-4a2e-9b27-30278ed3282c:::
 
-RGB on protokolla, joka on suunniteltu digitaalisten oikeuksien (sopimusten ja omaisuuden muodossa) soveltamiseen ja täytäntöönpanoon skaalautuvalla ja luottamuksellisella tavalla Bitcoin-lohkoketjun konsensussääntöjen ja toimintojen perusteella. Tämän ensimmäisen luvun tavoitteena on esitellä RGB-protokollaan liittyviä peruskäsitteitä ja terminologiaa ja korostaa erityisesti sen läheisiä yhteyksiä hajautetun tietojenkäsittelyn peruskäsitteisiin, kuten asiakaspuolen validointiin ja kertakäyttöisiin sinetteihin.
+RGB on protokolla, joka on suunniteltu digitaalisten oikeuksien (sopimusten ja omaisuuden muodossa) soveltamiseen ja täytäntöönpanoon skaalautuvalla ja luottamuksellisella tavalla Bitcoin-[lohkoketjun](https://planb.academy/resources/glossary/blockchain) [konsensussääntöjen](https://planb.academy/resources/glossary/consensus-rules) ja toimintojen perusteella. Tämän ensimmäisen luvun tavoitteena on esitellä RGB-protokollaan liittyviä peruskäsitteitä ja terminologiaa ja korostaa erityisesti sen läheisiä yhteyksiä hajautetun tietojenkäsittelyn peruskäsitteisiin, kuten asiakaspuolen validointiin ja kertakäyttöisiin sinetteihin.
 
 Tässä luvussa tarkastelemme **hajautettujen konsensusjärjestelmien** perusteita ja katsomme, miten RGB sopii tähän teknologiaryhmään. Esittelemme myös tärkeimmät periaatteet, jotka auttavat ymmärtämään, miksi RGB pyrkii olemaan laajennettavissa ja riippumaton Bitcoinin omasta konsensusmekanismista, mutta tukeutumaan siihen tarvittaessa.
 
 ### Johdanto
 
-Hajautettu tietojenkäsittely, joka on tietotekniikan erityinen osa-alue, tutkii protokollia, joita käytetään tiedon levittämiseen ja käsittelyyn solmujen verkossa. Yhdessä nämä solmut ja protokollasäännöt muodostavat niin sanotun hajautetun järjestelmän. Tällaiselle järjestelmälle ominaisia olennaisia ominaisuuksia ovat muun muassa :
+Hajautettu tietojenkäsittely, joka on tietotekniikan erityinen osa-alue, tutkii protokollia, joita käytetään tiedon levittämiseen ja käsittelyyn [solmujen](https://planb.academy/resources/glossary/node) verkossa. Yhdessä nämä solmut ja protokollasäännöt muodostavat niin sanotun hajautetun järjestelmän. Tällaiselle järjestelmälle ominaisia olennaisia ominaisuuksia ovat muun muassa :
 
 
 - Kunkin solmupisteen **mahdollisuus tarkistaa ja validoida** tietyt tiedot riippumattomasti;
@@ -99,11 +99,11 @@ Hajautetun järjestelmän **konsensuksen** käsite kattaa erityisesti kaksi näk
 - **Tilanmuutosten pätevyyden** tunnistaminen (protokollasääntöjen mukaisesti);
 - **sopimus näiden tilamuutosten järjestyksestä**, mikä tekee mahdottomaksi jälkikäteen tapahtuvan validoitujen operaatioiden uudelleenkirjoittamisen tai kumoamisen (tämä tunnetaan Bitcoinissa myös nimellä "double-spend protection").
 
-Satoshi Nakamoto esitteli Bitcoinin avulla ensimmäisen toimivan, lupavapaan hajautetun konsensusmekanismin, joka perustuu lohkoketjun tietorakenteen ja Proof-of-Work (PoW) -algoritmin yhdistettyyn käyttöön. Tässä järjestelmässä lohkojen historian uskottavuus riippuu solmujen (louhijoiden) siihen käyttämästä laskentatehosta. Bitcoin on näin ollen merkittävä ja historiallinen esimerkki kaikille avoimesta (*valtuudeton*) hajautetusta konsensusjärjestelmästä.
+Satoshi Nakamoto esitteli Bitcoinin avulla ensimmäisen toimivan, lupavapaan hajautetun konsensusmekanismin, joka perustuu lohkoketjun tietorakenteen ja [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) (PoW) -algoritmin yhdistettyyn käyttöön. Tässä järjestelmässä lohkojen historian uskottavuus riippuu solmujen ([louhijoiden](https://planb.academy/resources/glossary/miner)) siihen käyttämästä laskentatehosta. Bitcoin on näin ollen merkittävä ja historiallinen esimerkki kaikille avoimesta (*valtuudeton*) hajautetusta konsensusjärjestelmästä.
 
-Lohkoketjujen ja hajautetun tietojenkäsittelyn maailmassa voidaan erottaa kaksi perusparadigmaa: ***lohkoketju*** perinteisessä merkityksessä ja ***tilakanavat***, joista paras esimerkki tuotannossa on Lightning Network. Lohkoketju määritellään kronologisesti järjestettyjen tapahtumien rekisteriksi, joka toistetaan konsensuksen avulla avoimessa, luvattomassa verkossa. Tilakanavat taas ovat vertaisverkkokanavia, joiden avulla kaksi (tai useampi) osallistuja voi ylläpitää päivitettyä tilaa ketjun ulkopuolella, jolloin lohkoketjua käytetään vain kanavia avattaessa ja suljettaessa.
+Lohkoketjujen ja hajautetun tietojenkäsittelyn maailmassa voidaan erottaa kaksi perusparadigmaa: ***lohkoketju*** perinteisessä merkityksessä ja ***tilakanavat***, joista paras esimerkki tuotannossa on [Lightning Network](https://planb.academy/resources/glossary/lightning-network). Lohkoketju määritellään kronologisesti järjestettyjen tapahtumien rekisteriksi, joka toistetaan konsensuksen avulla avoimessa, luvattomassa verkossa. Tilakanavat taas ovat vertaisverkkokanavia, joiden avulla kaksi (tai useampi) osallistuja voi ylläpitää päivitettyä tilaa ketjun ulkopuolella, jolloin lohkoketjua käytetään vain kanavia avattaessa ja suljettaessa.
 
-Bitcoinin yhteydessä olet epäilemättä perehtynyt louhinnan, hajauttamisen ja lohkoketjun transaktioiden lopullisuuden periaatteisiin sekä siihen, miten maksukanavat toimivat. RGB:n myötä otamme käyttöön uuden paradigman nimeltä **Client-side Validation**, joka lohkoketjusta tai Lightningista poiketen koostuu älykkään sopimuksen tilasiirtymien paikallisesta (asiakaspuolen) tallentamisesta ja validoinnista. Tämä eroaa myös muista "DeFi"-tekniikoista (_rollups_, _plasma_, _ARK_ jne.) siinä, että Client-side Validation luottaa lohkoketjuun estääkseen kaksinkertaisen kuluttamisen ja saadakseen aikaleimausjärjestelmän, kun taas ketjun ulkopuolisten tilojen ja siirtymien rekisteri pysyy vain asianomaisilla osallistujilla.
+Bitcoinin yhteydessä olet epäilemättä perehtynyt louhinnan, hajauttamisen ja lohkoketjun transaktioiden lopullisuuden periaatteisiin sekä siihen, miten [maksukanavat](https://planb.academy/resources/glossary/payment-channel) toimivat. RGB:n myötä otamme käyttöön uuden paradigman nimeltä **Client-side Validation**, joka lohkoketjusta tai Lightningista poiketen koostuu [älykkään sopimuksen](https://planb.academy/resources/glossary/smart-contract) tilasiirtymien paikallisesta (asiakaspuolen) tallentamisesta ja validoinnista. Tämä eroaa myös muista "DeFi"-tekniikoista (_rollups_, _plasma_, _ARK_ jne.) siinä, että Client-side Validation luottaa lohkoketjuun estääkseen [kaksinkertaisen kuluttamisen](https://planb.academy/resources/glossary/double-spending-attack) ja saadakseen [aikaleimausjärjestelmän](https://planb.academy/resources/glossary/timestamp), kun taas ketjun ulkopuolisten tilojen ja siirtymien rekisteri pysyy vain asianomaisilla osallistujilla.
 
 ![RGB-Bitcoin](assets/en/003.webp)
 
@@ -174,7 +174,7 @@ Lohkoketju (tässä tapauksessa Bitcoin) toimii ensisijaisesti _aikaleimamekanis
 
 Jakaminen on käsite, joka on peräisin hajautetuista tietokannoista (esim. MySQL sosiaalisille verkostoille, kuten Facebook tai Twitter). Tietomäärän ja synkronointiviiveiden ongelman ratkaisemiseksi tietokanta jaetaan _shardeihin_ (USA, Eurooppa, Aasia jne.). Kukin segmentti on paikallisesti johdonmukainen ja vain osittain synkronoitu muiden kanssa.
 
-RGB-tyyppisten älykkäiden sopimusten osalta jaottelemme sopimukset itse sopimusten mukaan. Jokainen sopimus on itsenäinen _shard_. Jos sinulla on esimerkiksi hallussasi vain USDT-tavaramerkkejä, sinun ei tarvitse tallentaa tai validoida koko historiaa toisesta merkistä, kuten USDC:stä. Bitcoinissa lohkoketju ei tee _shardingia_: sinulla on maailmanlaajuinen joukko UTXO:ita. Asiakaspuolen validoinnin avulla kukin osallistuja säilyttää vain hallussaan tai käyttämänsä sopimustiedot.
+RGB-tyyppisten älykkäiden sopimusten osalta jaottelemme sopimukset itse sopimusten mukaan. Jokainen sopimus on itsenäinen _shard_. Jos sinulla on esimerkiksi hallussasi vain USDT-tavaramerkkejä, sinun ei tarvitse tallentaa tai validoida koko historiaa toisesta merkistä, kuten USDC:stä. Bitcoinissa lohkoketju ei tee _shardingia_: sinulla on maailmanlaajuinen joukko [UTXO](https://planb.academy/resources/glossary/utxo):ita. Asiakaspuolen validoinnin avulla kukin osallistuja säilyttää vain hallussaan tai käyttämänsä sopimustiedot.
 
 Voimme siis kuvitella ekosysteemin seuraavasti:
 
@@ -226,7 +226,7 @@ Asiakaspuolen validointi perustuu päinvastaiseen ajatukseen: sen sijaan, että 
 
 Samaan aikaan, jotta muu verkko (tai tarkemmin sanottuna taustalla oleva kerros, kuten Bitcoin) voi lukita lopullisen tilan näkemättä näiden tietojen yksityiskohtia, asiakaspuolen validointi perustuu käsitteeseen ***commitment***.
 
-*Sitoumus* on Bitcoin-tapahtumaan liitetty kryptografinen sitoumus, tyypillisesti _hash_ (esimerkiksi SHA-256), joka todistaa, että siihen on liitetty yksityisiä tietoja paljastamatta näitä tietoja.
+*Sitoumus* on Bitcoin-tapahtumaan liitetty kryptografinen sitoumus, tyypillisesti _hash_ (esimerkiksi [SHA-256](https://planb.academy/resources/glossary/sha256)), joka todistaa, että siihen on liitetty yksityisiä tietoja paljastamatta näitä tietoja.
 
 Näiden _sitoumusten_ ansiosta voimme todistaa:
 
@@ -279,7 +279,7 @@ Hyväksyttäessä omaisuuseriä, kuten valuuttaa, kaksi takuuta on olennaisen t�
 
 Fyysisen omaisuuden, kuten setelin, fyysinen läsnäolo riittää osoittamaan, ettei sitä ole kopioitu. Digitaalisessa maailmassa, jossa omaisuuserät ovat puhtaasti tietoteknisiä, tämä todentaminen on kuitenkin monimutkaisempaa, koska tieto voi helposti monistua ja monistua.
 
-Kuten aiemmin todettiin, RGB-tunnisteen aitous voidaan varmistaa, kun lähettäjä paljastaa tilasiirtymien historian. Kun meillä on pääsy kaikkiin tapahtumiin syntytapahtuman jälkeen, voimme varmistaa merkin aitouden. Tämä periaate on samankaltainen kuin Bitcoinissa, jossa kolikoiden historia voidaan jäljittää alkuperäiseen coinbase-transaktioon niiden oikeellisuuden varmistamiseksi. Toisin kuin Bitcoinissa, RGB:ssä tilasiirtymien historia on kuitenkin yksityinen ja säilytetään asiakkaan puolella.
+Kuten aiemmin todettiin, RGB-tunnisteen aitous voidaan varmistaa, kun lähettäjä paljastaa tilasiirtymien historian. Kun meillä on pääsy kaikkiin tapahtumiin syntytapahtuman jälkeen, voimme varmistaa merkin aitouden. Tämä periaate on samankaltainen kuin Bitcoinissa, jossa kolikoiden historia voidaan jäljittää alkuperäiseen [coinbase-transaktioon](https://planb.academy/resources/glossary/coinbase-transaction) niiden oikeellisuuden varmistamiseksi. Toisin kuin Bitcoinissa, RGB:ssä tilasiirtymien historia on kuitenkin yksityinen ja säilytetään asiakkaan puolella.
 
 Estääksemme RGB-merkkien kaksinkertaisen käytön käytämme mekanismia nimeltä "**Kertakäyttösinetti**". Tämä järjestelmä varmistaa, että jokaista kerran käytettyä merkkiä ei voi käyttää vilpillisesti uudelleen toista kertaa.
 
@@ -400,7 +400,7 @@ Huomaa, että nämä ohjelmistokivet ovat Bitcoin-riippumattomia; teoriassa niit
 
 #### Kohti kertakäyttöisten tiivisteiden laajempaa käyttöä
 
-Peter Todd loi myös _Open Timestamps_ -protokollan, ja kertakäyttösinetti on näiden ideoiden luonnollinen jatke. RGB:n lisäksi voidaan ajatella muitakin käyttötapauksia, kuten _sivuketjujen_ rakentaminen ilman _merge miningia_ tai ajoketjuihin liittyviä ehdotuksia, kuten BIP300. Periaatteessa mikä tahansa järjestelmä, joka vaatii yhden sitoumuksen, voi hyödyntää tätä kryptografista primitiiviä. Nykyään RGB on ensimmäinen merkittävä täysimittainen toteutus.
+Peter Todd loi myös _Open Timestamps_ -protokollan, ja kertakäyttösinetti on näiden ideoiden luonnollinen jatke. RGB:n lisäksi voidaan ajatella muitakin käyttötapauksia, kuten _[sivuketjujen](https://planb.academy/resources/glossary/sidechain)_ rakentaminen ilman _merge miningia_ tai ajoketjuihin liittyviä ehdotuksia, kuten BIP300. Periaatteessa mikä tahansa järjestelmä, joka vaatii yhden sitoumuksen, voi hyödyntää tätä kryptografista primitiiviä. Nykyään RGB on ensimmäinen merkittävä täysimittainen toteutus.
 
 #### Tietojen saatavuusongelmat
 
@@ -408,7 +408,7 @@ Koska asiakaspuolen validoinnissa kukin käyttäjä tallentaa oman osansa histor
 
 #### Jakaminen ja sopimusten eristäminen
 
-Kukin sopimus edustaa erillistä sirpaletta: Esimerkiksi USDT:n ja USDC:n ei tarvitse jakaa historiaansa. Atomivaihdot ovat edelleen mahdollisia, mutta tämä ei edellytä niiden rekisterien yhdistämistä. Kaikki tapahtuu kryptografisen sitoumuksen avulla, ilman että koko historian kuvaaja paljastuu kullekin osallistujalle.
+Kukin sopimus edustaa erillistä sirpaletta: Esimerkiksi USDT:n ja USDC:n ei tarvitse jakaa historiaansa. [Atomivaihdot](https://planb.academy/resources/glossary/atomic-swap) ovat edelleen mahdollisia, mutta tämä ei edellytä niiden rekisterien yhdistämistä. Kaikki tapahtuu kryptografisen sitoumuksen avulla, ilman että koko historian kuvaaja paljastuu kullekin osallistujalle.
 
 ### Päätelmä
 

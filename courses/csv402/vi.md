@@ -79,30 +79,30 @@ Sẵn sàng khám phá thế giới phức tạp và hấp dẫn của RGB chưa
 
 :::video id=f27338bc-4210-4a2e-9b27-30278ed3282c:::
 
-RGB là một giao thức được thiết kế để áp dụng và thực thi các quyền kỹ thuật số (dưới dạng hợp đồng và tài sản) theo cách có thể mở rộng và bảo mật, dựa trên các quy tắc đồng thuận và hoạt động của chuỗi khối Bitcoin. Mục đích của chương đầu tiên này là trình bày các khái niệm và thuật ngữ cơ bản xung quanh giao thức RGB, đặc biệt nhấn mạnh mối liên hệ chặt chẽ của nó với các khái niệm điện toán phân tán cơ bản như Xác thực phía máy khách và Dấu niêm phong sử dụng một lần.
+RGB là một giao thức được thiết kế để áp dụng và thực thi các quyền kỹ thuật số (dưới dạng hợp đồng và tài sản) theo cách có thể mở rộng và bảo mật, dựa trên các [quy tắc đồng thuận](https://planb.academy/resources/glossary/consensus-rules) và hoạt động của [chuỗi khối](https://planb.academy/resources/glossary/blockchain) Bitcoin. Mục đích của chương đầu tiên này là trình bày các khái niệm và thuật ngữ cơ bản xung quanh giao thức RGB, đặc biệt nhấn mạnh mối liên hệ chặt chẽ của nó với các khái niệm điện toán phân tán cơ bản như Xác thực phía máy khách và Dấu niêm phong sử dụng một lần.
 
 Trong chương này, chúng ta sẽ khám phá những điều cơ bản của **hệ thống đồng thuận phân tán** và xem RGB phù hợp với họ công nghệ này như thế nào. Chúng tôi cũng sẽ giới thiệu các nguyên tắc chính giúp chúng ta hiểu lý do tại sao RGB hướng đến mục tiêu mở rộng và độc lập với cơ chế đồng thuận của Bitcoin, đồng thời dựa vào nó khi cần thiết.
 
 ### Giới thiệu
 
-Điện toán phân tán, một nhánh cụ thể của khoa học máy tính, nghiên cứu các giao thức được sử dụng để lưu thông và xử lý thông tin trên một mạng lưới các nút. Cùng nhau, các nút này và các quy tắc giao thức tạo nên cái được gọi là hệ thống phân tán. Trong số các thuộc tính thiết yếu đặc trưng cho một hệ thống như vậy là:
+Điện toán phân tán, một nhánh cụ thể của khoa học máy tính, nghiên cứu các giao thức được sử dụng để lưu thông và xử lý thông tin trên một mạng lưới các [nút](https://planb.academy/resources/glossary/node). Cùng nhau, các nút này và các quy tắc giao thức tạo nên cái được gọi là hệ thống phân tán. Trong số các thuộc tính thiết yếu đặc trưng cho một hệ thống như vậy là:
 
 
 - **Khả năng xác minh và xác thực độc lập** của một số dữ liệu nhất định bởi mỗi nút;
 - Khả năng cho các nút xây dựng (tùy thuộc vào giao thức) chế độ xem toàn bộ hoặc một phần thông tin. Các chế độ xem này là **trạng thái** của hệ thống phân tán;
-- **Thứ tự thời gian** của các hoạt động, để dữ liệu được đóng dấu thời gian một cách đáng tin cậy và có sự đồng thuận về trình tự các sự kiện (trình tự trạng thái).
+- **Thứ tự thời gian** của các hoạt động, để dữ liệu được [đóng dấu thời gian](https://planb.academy/resources/glossary/timestamp) một cách đáng tin cậy và có sự đồng thuận về trình tự các sự kiện (trình tự trạng thái).
 
 Đặc biệt, khái niệm **sự đồng thuận** trong hệ thống phân tán bao gồm hai khía cạnh:
 
 
 - Việc công nhận tính **hợp lệ** của các thay đổi trạng thái (theo các quy tắc giao thức);
-- **Thỏa thuận về thứ tự** của các thay đổi trạng thái này khiến việc viết lại hoặc đảo ngược các hoạt động đã xác thực sau đó trở nên không thể (điều này cũng được gọi trong Bitcoin là "bảo vệ chi tiêu gấp đôi").
+- **Thỏa thuận về thứ tự** của các thay đổi trạng thái này khiến việc viết lại hoặc đảo ngược các hoạt động đã xác thực sau đó trở nên không thể (điều này cũng được gọi trong Bitcoin là "bảo vệ [chi tiêu gấp đôi](https://planb.academy/resources/glossary/double-spending-attack)").
 
-Việc triển khai chức năng đầu tiên, không cần cấp phép của cơ chế đồng thuận phân tán đã được Satoshi Nakamoto giới thiệu với Bitcoin, nhờ vào việc sử dụng kết hợp cấu trúc dữ liệu blockchain và thuật toán Proof-of-Work (PoW). Trong hệ thống này, độ tin cậy của lịch sử khối phụ thuộc vào sức mạnh tính toán dành cho nó bởi các nút (thợ đào). Do đó, Bitcoin là một ví dụ quan trọng và mang tính lịch sử về hệ thống đồng thuận phân tán mở cho tất cả mọi người (*không cần cấp phép*).
+Việc triển khai chức năng đầu tiên, không cần cấp phép của cơ chế đồng thuận phân tán đã được Satoshi Nakamoto giới thiệu với Bitcoin, nhờ vào việc sử dụng kết hợp cấu trúc dữ liệu blockchain và thuật toán [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) (PoW). Trong hệ thống này, độ tin cậy của lịch sử khối phụ thuộc vào sức mạnh tính toán dành cho nó bởi các nút ([thợ đào](https://planb.academy/resources/glossary/miner)). Do đó, Bitcoin là một ví dụ quan trọng và mang tính lịch sử về hệ thống đồng thuận phân tán mở cho tất cả mọi người (*không cần cấp phép*).
 
-Trong thế giới blockchain và điện toán phân tán, chúng ta có thể phân biệt hai mô hình cơ bản: ***blockchain*** theo nghĩa truyền thống và ***state channels***, ví dụ tốt nhất về mô hình này trong sản xuất là Lightning Network. Blockchain được định nghĩa là một sổ đăng ký các sự kiện theo thứ tự thời gian, được sao chép bằng sự đồng thuận trong một mạng mở, không cần cấp phép. Mặt khác, state channels là các kênh ngang hàng cho phép hai (hoặc nhiều) người tham gia duy trì trạng thái được cập nhật ngoài chuỗi, chỉ sử dụng blockchain khi mở và đóng các kênh này.
+Trong thế giới blockchain và điện toán phân tán, chúng ta có thể phân biệt hai mô hình cơ bản: ***blockchain*** theo nghĩa truyền thống và ***state channels***, ví dụ tốt nhất về mô hình này trong sản xuất là [Lightning Network](https://planb.academy/resources/glossary/lightning-network). Blockchain được định nghĩa là một sổ đăng ký các sự kiện theo thứ tự thời gian, được sao chép bằng sự đồng thuận trong một mạng mở, không cần cấp phép. Mặt khác, state channels là các kênh ngang hàng cho phép hai (hoặc nhiều) người tham gia duy trì trạng thái được cập nhật ngoài chuỗi, chỉ sử dụng blockchain khi mở và đóng các kênh này.
 
-Trong bối cảnh của Bitcoin, chắc hẳn bạn đã quen thuộc với các nguyên tắc khai thác, phi tập trung và tính cuối cùng của các giao dịch trên blockchain, cũng như cách thức hoạt động của các kênh thanh toán. Với RGB, chúng tôi giới thiệu một mô hình mới có tên là **Xác thực phía máy khách**, không giống như blockchain hay Lightning, bao gồm việc lưu trữ và xác thực cục bộ (phía máy khách) các chuyển đổi trạng thái của hợp đồng thông minh. Điều này cũng khác với các kỹ thuật "DeFi" khác (_rollups_, _plasma_, _ARK_, v.v.), ở chỗ Xác thực phía máy khách dựa vào blockchain để ngăn chặn chi tiêu gấp đôi và có hệ thống đóng dấu thời gian, đồng thời giữ sổ đăng ký các trạng thái và chuyển đổi ngoài chuỗi, chỉ với những người tham gia có liên quan.
+Trong bối cảnh của Bitcoin, chắc hẳn bạn đã quen thuộc với các nguyên tắc khai thác, phi tập trung và tính cuối cùng của các giao dịch trên blockchain, cũng như cách thức hoạt động của các [kênh thanh toán](https://planb.academy/resources/glossary/payment-channel). Với RGB, chúng tôi giới thiệu một mô hình mới có tên là **Xác thực phía máy khách**, không giống như blockchain hay Lightning, bao gồm việc lưu trữ và xác thực cục bộ (phía máy khách) các chuyển đổi trạng thái của [hợp đồng thông minh](https://planb.academy/resources/glossary/smart-contract). Điều này cũng khác với các kỹ thuật "DeFi" khác (_rollups_, _plasma_, _ARK_, v.v.), ở chỗ Xác thực phía máy khách dựa vào blockchain để ngăn chặn chi tiêu gấp đôi và có hệ thống đóng dấu thời gian, đồng thời giữ sổ đăng ký các trạng thái và chuyển đổi ngoài chuỗi, chỉ với những người tham gia có liên quan.
 
 ![RGB-Bitcoin](assets/en/003.webp)
 
@@ -173,7 +173,7 @@ Blockchain (trong trường hợp này là Bitcoin) chủ yếu đóng vai trò 
 
 Phân mảnh là một khái niệm có nguồn gốc từ cơ sở dữ liệu phân tán (ví dụ: MySQL cho các mạng xã hội như Facebook hoặc Twitter). Để giải quyết vấn đề về khối lượng dữ liệu và độ trễ đồng bộ hóa, cơ sở dữ liệu được phân đoạn thành các _shards_ (Hoa Kỳ, Châu Âu, Châu Á, v.v.). Mỗi phân đoạn đều nhất quán cục bộ và chỉ được đồng bộ hóa một phần với các phân đoạn khác.
 
-Đối với các hợp đồng thông minh loại RGB, chúng tôi phân mảnh theo chính các hợp đồng. Mỗi hợp đồng là một _shard_ độc lập. Ví dụ, nếu bạn chỉ giữ token USDT, bạn không phải lưu trữ hoặc xác thực toàn bộ lịch sử của một token khác như USDC. Trên Bitcoin, blockchain không thực hiện _sharding_: bạn có một tập hợp UTXO toàn cầu. Với Xác thực phía máy khách, mỗi người tham gia chỉ giữ lại dữ liệu hợp đồng mà họ giữ hoặc sử dụng.
+Đối với các hợp đồng thông minh loại RGB, chúng tôi phân mảnh theo chính các hợp đồng. Mỗi hợp đồng là một _shard_ độc lập. Ví dụ, nếu bạn chỉ giữ token USDT, bạn không phải lưu trữ hoặc xác thực toàn bộ lịch sử của một token khác như USDC. Trên Bitcoin, blockchain không thực hiện _sharding_: bạn có một tập hợp [UTXO](https://planb.academy/resources/glossary/utxo) toàn cầu. Với Xác thực phía máy khách, mỗi người tham gia chỉ giữ lại dữ liệu hợp đồng mà họ giữ hoặc sử dụng.
 
 Do đó, chúng ta có thể hình dung hệ sinh thái như sau:
 
@@ -225,12 +225,12 @@ Xác thực phía máy khách dựa trên ý tưởng ngược lại: thay vì y
 
 Đồng thời, để phần còn lại của mạng (hay chính xác hơn là lớp cơ sở, chẳng hạn như Bitcoin) có thể khóa ở trạng thái cuối cùng mà không cần xem thông tin chi tiết về dữ liệu này, Xác thực phía máy khách dựa trên khái niệm ***cam kết***.
 
-*Cam kết* là một cam kết mật mã, thường là _băm_ (ví dụ SHA-256) được chèn vào giao dịch Bitcoin, chứng minh rằng dữ liệu riêng tư đã được đưa vào mà không tiết lộ dữ liệu này.
+*Cam kết* là một cam kết mật mã, thường là _băm_ (ví dụ [SHA-256](https://planb.academy/resources/glossary/sha256)) được chèn vào giao dịch Bitcoin, chứng minh rằng dữ liệu riêng tư đã được đưa vào mà không tiết lộ dữ liệu này.
 
 Nhờ những _cam kết_ này, chúng ta có thể chứng minh:
 
 
-- Sự tồn tại của thông tin (vì nó được cam kết với hàm băm);
+- Sự tồn tại của thông tin (vì nó được cam kết với [hàm băm](https://planb.academy/resources/glossary/hash-function));
 - Tính ưu tiên của thông tin này (vì nó được neo và đóng dấu thời gian trong chuỗi khối, với ngày tháng và thứ tự khối).
 
 Tuy nhiên, nội dung chính xác không được tiết lộ, do đó vẫn giữ được tính bảo mật.
@@ -278,7 +278,7 @@ Khi chấp nhận một tài sản như tiền tệ, có hai đảm bảo cần 
 
 Đối với tài sản vật chất, chẳng hạn như tiền giấy, sự hiện diện vật lý là đủ để chứng minh rằng nó không bị sao chép. Tuy nhiên, trong thế giới kỹ thuật số, nơi tài sản hoàn toàn mang tính thông tin, việc xác minh này phức tạp hơn vì thông tin có thể dễ dàng nhân lên và bị sao chép.
 
-Như chúng ta đã thấy trước đó, việc người gửi tiết lộ lịch sử chuyển đổi trạng thái cho phép chúng ta đảm bảo tính xác thực của mã thông báo RGB. Bằng cách truy cập vào tất cả các giao dịch kể từ giao dịch genesis, chúng ta có thể xác nhận tính xác thực của mã thông báo. Nguyên tắc này tương tự như nguyên tắc của Bitcoin, trong đó lịch sử của các đồng tiền có thể được truy ngược lại giao dịch coinbase ban đầu để xác minh tính hợp lệ của chúng. Tuy nhiên, không giống như Bitcoin, lịch sử chuyển đổi trạng thái trong RGB này là riêng tư và được lưu giữ ở phía máy khách.
+Như chúng ta đã thấy trước đó, việc người gửi tiết lộ lịch sử chuyển đổi trạng thái cho phép chúng ta đảm bảo tính xác thực của mã thông báo RGB. Bằng cách truy cập vào tất cả các giao dịch kể từ giao dịch genesis, chúng ta có thể xác nhận tính xác thực của mã thông báo. Nguyên tắc này tương tự như nguyên tắc của Bitcoin, trong đó lịch sử của các đồng tiền có thể được truy ngược lại giao dịch [coinbase](https://planb.academy/resources/glossary/coinbase-transaction) ban đầu để xác minh tính hợp lệ của chúng. Tuy nhiên, không giống như Bitcoin, lịch sử chuyển đổi trạng thái trong RGB này là riêng tư và được lưu giữ ở phía máy khách.
 
 Để ngăn chặn việc chi tiêu hai lần token RGB, chúng tôi sử dụng một cơ chế có tên là "**Single-use Seal**". Hệ thống này đảm bảo rằng mỗi token, sau khi đã sử dụng, không thể được sử dụng lại một cách gian lận lần thứ hai.
 
@@ -398,7 +398,7 @@ Lưu ý rằng các khối phần mềm này không phụ thuộc vào Bitcoin; 
 
 #### Hướng tới việc sử dụng rộng rãi hơn các con dấu dùng một lần
 
-Peter Todd cũng đã tạo ra giao thức _Open Timestamps_ và khái niệm Single-use Seal là sự mở rộng tự nhiên của những ý tưởng này. Ngoài RGB, có thể hình dung ra các trường hợp sử dụng khác, chẳng hạn như việc xây dựng _sidechains_ mà không cần dùng đến _merge mining_ hoặc các đề xuất liên quan đến drivechain như BIP300. Về nguyên tắc, bất kỳ hệ thống nào yêu cầu một cam kết duy nhất đều có thể khai thác nguyên thủy mật mã này. Ngày nay, RGB là triển khai toàn diện lớn đầu tiên.
+Peter Todd cũng đã tạo ra giao thức _Open Timestamps_ và khái niệm Single-use Seal là sự mở rộng tự nhiên của những ý tưởng này. Ngoài RGB, có thể hình dung ra các trường hợp sử dụng khác, chẳng hạn như việc xây dựng _[sidechains](https://planb.academy/resources/glossary/sidechain)_ mà không cần dùng đến _merge mining_ hoặc các đề xuất liên quan đến drivechain như BIP300. Về nguyên tắc, bất kỳ hệ thống nào yêu cầu một cam kết duy nhất đều có thể khai thác nguyên thủy mật mã này. Ngày nay, RGB là triển khai toàn diện lớn đầu tiên.
 
 #### Các vấn đề về tính khả dụng của dữ liệu
 
@@ -406,7 +406,7 @@ Vì trong Xác thực phía máy khách, mỗi người dùng lưu trữ phần 
 
 #### Phân mảnh và cô lập hợp đồng
 
-Mỗi hợp đồng đại diện cho một _shard_ riêng biệt: USDT và USDC, ví dụ, không phải chia sẻ lịch sử của chúng. Hoán đổi nguyên tử vẫn có thể thực hiện được, nhưng điều này không liên quan đến việc hợp nhất sổ đăng ký của chúng. Mọi thứ đều được thực hiện bằng cam kết mật mã, mà không tiết lộ toàn bộ biểu đồ lịch sử cho từng người tham gia.
+Mỗi hợp đồng đại diện cho một _shard_ riêng biệt: USDT và USDC, ví dụ, không phải chia sẻ lịch sử của chúng. [Hoán đổi nguyên tử](https://planb.academy/resources/glossary/atomic-swap) vẫn có thể thực hiện được, nhưng điều này không liên quan đến việc hợp nhất sổ đăng ký của chúng. Mọi thứ đều được thực hiện bằng cam kết mật mã, mà không tiết lộ toàn bộ biểu đồ lịch sử cho từng người tham gia.
 
 ### Phần kết luận
 

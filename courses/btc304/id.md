@@ -2599,7 +2599,7 @@ Dengan lonjakan kehadiran ini:
     - jika Anda menemukan bahwa jumlah peserta menjadi sangat banyak, Anda dapat, untuk pertemuan berikutnya, **mengharuskan peserta untuk mendaftar** (melalui aplikasi Meetup atau formulir sederhana) atau **mengadakan beberapa pertemuan setiap bulannya** (misalnya: pertemuan pemula, pertemuan menengah, dan pertemuan lanjutan).
     - Pada saat yang sama, diharapkan ada banyak pendatang baru di ekosistem ini, yang sering kali memiliki tujuan utama untuk menghasilkan uang. Untuk **menjaga agar percakapan tetap terfokus pada Bitcoin** dalam pertemuan yang berkembang pesat ini, adalah ide yang bagus:
 
-a) Sertakan presentasi bertema **Bitcoin** selama acara-acara ini, karena hal ini secara alami akan mengarahkan sebagian besar pembicaraan ke topik tersebut (dan menjauh dari proyek shitcoin terbaru yang konon "revolusioner");
+a) Sertakan presentasi bertema **Bitcoin** selama acara-acara ini, karena hal ini secara alami akan mengarahkan sebagian besar pembicaraan ke topik tersebut (dan menjauh dari proyek [shitcoin](https://planb.academy/resources/glossary/shitcoin) terbaru yang konon "revolusioner");
 
 b) **Hindari bergaul hanya dengan sesama pengguna bitcoin**. Sebaliknya, cobalah untuk **mendekati para pendatang baru**, bahkan jika itu berarti nongkrong di bagian belakang ruangan untuk menyapa mereka. Dari sana, Anda dapat berbicara tentang mengapa mereka datang, apa yang mereka cari, tujuan (atau bahkan prinsip-prinsip inti) komunitas Anda, dan seterusnya.
 
@@ -2619,7 +2619,7 @@ Untungnya, situasi seperti ini jarang terjadi dan sering kali lebih tidak masuk 
 Untuk ketenangan pikiran: selama Anda tidak melanggar hukum atau secara langsung memfasilitasi transaksi ilegal, Anda tidak bertanggung jawab secara hukum atas tindakan orang lain di acara Anda (setidaknya menurut hukum Prancis).
 
 
-Dalam dunia yang ideal, Anda akan memiliki **ruang yang cukup besar untuk menampung beberapa lusin orang** seiring dengan pertumbuhan komunitas Anda dan Anda juga akan membangun **hubungan yang kuat antara para bitcoiners** dan calon bitcoiners selama pasar bearish, sehingga saat bull run tiba, Anda memiliki sebanyak mungkin orang yang siap membantu orang lain.
+Dalam dunia yang ideal, Anda akan memiliki **ruang yang cukup besar untuk menampung beberapa lusin orang** seiring dengan pertumbuhan komunitas Anda dan Anda juga akan membangun **hubungan yang kuat antara para bitcoiners** dan calon bitcoiners selama pasar [bearish](https://planb.academy/resources/glossary/bear-market), sehingga saat [bull](https://planb.academy/resources/glossary/bull-market) run tiba, Anda memiliki sebanyak mungkin orang yang siap membantu orang lain.
 
 
 

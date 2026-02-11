@@ -2599,7 +2599,7 @@ Med denne økningen i oppmøtet
     - hvis du opplever at antallet deltakere blir overveldende, kan du for fremtidige møter enten **kreve at deltakerne registrerer seg** (via Meetup-appen eller et enkelt skjema) eller **avholde flere møter hver måned** (for eksempel et møte for nybegynnere, et for viderekomne og et for viderekomne).
     - Samtidig kan du forvente mange nykommere i økosystemet, ofte med hovedmål om å tjene penger. For å **holde samtalene fokusert på Bitcoin** i disse raskt voksende møtene, er det en god idé å:
 
-a) Inkluder en **Bitcoin-tema-presentasjon** under disse arrangementene, da dette naturlig vil styre mye av samtalen mot dette temaet (og bort fra det siste angivelig "revolusjonerende" shitcoin-prosjektet);
+a) Inkluder en **Bitcoin-tema-presentasjon** under disse arrangementene, da dette naturlig vil styre mye av samtalen mot dette temaet (og bort fra det siste angivelig "revolusjonerende" [shitcoin-prosjektet](https://planb.academy/resources/glossary/shitcoin));
 
 b) **Unngå å holde deg til andre bitcoinere**. I stedet bør du **gå til nykommere**, selv om det betyr at du må henge bakerst i lokalet for å hilse på dem. Derfra kan du snakke om hvorfor de kom, hva de er ute etter, målene (eller til og med kjerneprinsippene) for fellesskapet ditt, og så videre.
 
@@ -2619,7 +2619,7 @@ Heldigvis er slike situasjoner sjeldne og ofte mer absurde enn truende, men det 
 For din egen sjelefred: Så lenge du ikke personlig bryter loven eller direkte legger til rette for ulovlige transaksjoner, er du ikke juridisk ansvarlig for andres handlinger på arrangementet ditt (i hvert fall ikke i henhold til fransk lov).
 
 
-I en ideell verden ville du hatt et **rom stort nok til å huse flere titalls mennesker** etter hvert som samfunnet vokser, og du ville også bygget **sterke relasjoner mellom bitcoinere** og fremtidige bitcoinere i nedgangstider, slik at når oppgangen kommer, har du så mange som mulig klare til å gi andre oransje piller.
+I en ideell verden ville du hatt et **rom stort nok til å huse flere titalls mennesker** etter hvert som samfunnet vokser, og du ville også bygget **sterke relasjoner mellom bitcoinere** og fremtidige bitcoinere i [nedgangstider](https://planb.academy/resources/glossary/bear-market), slik at når [oppgangen](https://planb.academy/resources/glossary/bull-market) kommer, har du så mange som mulig klare til å gi andre oransje piller.
 
 
 

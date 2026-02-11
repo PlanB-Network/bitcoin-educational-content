@@ -2599,7 +2599,7 @@ Com este aumento da afluência:
     - se achar que o número de participantes se torna excessivo, pode, para futuros encontros, **exigir que os participantes se registem** (através da aplicação Meetup ou de um formulário simples) ou **realizar vários encontros por mês** (por exemplo: um encontro para principiantes, um intermédio e um avançado).
     - Ao mesmo tempo, espera-se um grande número de recém-chegados ao ecossistema, muitas vezes com o objetivo principal de ganhar dinheiro. Para **manter as conversas focadas no Bitcoin** nestes encontros de rápido crescimento, é uma boa ideia
 
-a) Incluir uma **apresentação temática do Bitcoin** durante estes eventos, uma vez que isso irá naturalmente orientar grande parte da conversa para esse tópico (e para longe do último projeto supostamente "revolucionário" de shitcoin);
+a) Incluir uma **apresentação temática do Bitcoin** durante estes eventos, uma vez que isso irá naturalmente orientar grande parte da conversa para esse tópico (e para longe do último projeto supostamente "revolucionário" de [shitcoin](https://planb.academy/resources/glossary/shitcoin));
 
 b) **Evitar ficar apenas com colegas bitcoiners**. Em vez disso, faça questão de **abordar os recém-chegados**, mesmo que isso signifique ficar no fundo da sala para os cumprimentar. A partir daí, pode falar sobre o motivo pelo qual vieram, o que procuram, os objectivos (ou mesmo os princípios fundamentais) da sua comunidade, etc.
 
@@ -2619,7 +2619,7 @@ Felizmente, estas situações são raras e muitas vezes mais absurdas do que ame
 Para sua tranquilidade: desde que não esteja a infringir a lei ou a facilitar diretamente transacções ilegais, não é legalmente responsável pelas acções dos outros no seu evento (pelo menos ao abrigo da lei francesa).
 
 
-Num mundo ideal, teria um **espaço suficientemente grande para acolher várias dezenas de pessoas** à medida que a sua comunidade crescesse e também construiria **relações fortes entre bitcoiners** e futuros bitcoiners durante o mercado em baixa, para que, quando a corrida de alta chegasse, tivesse o maior número possível de pessoas prontas para dar uma pílula de laranja aos outros.
+Num mundo ideal, teria um **espaço suficientemente grande para acolher várias dezenas de pessoas** à medida que a sua comunidade crescesse e também construiria **relações fortes entre bitcoiners** e futuros bitcoiners durante o [mercado em baixa](https://planb.academy/resources/glossary/bear-market), para que, quando a corrida de alta chegasse, tivesse o maior número possível de pessoas prontas para dar uma pílula de laranja aos outros.
 
 
 

@@ -2599,7 +2599,7 @@ Wraz z tym wzrostem frekwencji:
     - jeśli okaże się, że liczba uczestników staje się przytłaczająca, możesz w przyszłości **wymagać od uczestników rejestracji** (za pośrednictwem aplikacji Meetup lub prostego formularza) lub **organizować wiele spotkań w miesiącu** (na przykład: spotkanie dla początkujących, średniozaawansowanych i zaawansowanych).
     - Jednocześnie spodziewaj się wielu nowych graczy w ekosystemie, często z głównym celem zarabiania pieniędzy. Aby **utrzymać rozmowy skupione na Bitcoin** podczas tych szybko rozwijających się spotkań, dobrym pomysłem jest:
 
-a) Uwzględnij prezentację **Bitcoin** podczas tych wydarzeń, ponieważ w naturalny sposób skieruje to większość rozmów na ten temat (i z dala od najnowszego rzekomo "rewolucyjnego" projektu shitcoin);
+a) Uwzględnij prezentację **Bitcoin** podczas tych wydarzeń, ponieważ w naturalny sposób skieruje to większość rozmów na ten temat (i z dala od najnowszego rzekomo "rewolucyjnego" projektu [shitcoin](https://planb.academy/resources/glossary/shitcoin));
 
 b) **Unikaj trzymania się tylko z innymi bitcoinerami**. Zamiast tego staraj się **podchodzić do nowo przybyłych**, nawet jeśli oznacza to trzymanie się z tyłu pokoju, aby ich powitać. Stamtąd możesz porozmawiać o tym, dlaczego przyszli, czego szukają, o celach (lub nawet podstawowych zasadach) twojej społeczności i tak dalej.
 
@@ -2619,7 +2619,7 @@ Na szczęście takie sytuacje są rzadkie i często bardziej absurdalne niż gro
 Dla spokoju ducha: tak długo, jak osobiście nie łamiesz prawa lub bezpośrednio nie ułatwiasz nielegalnych transakcji, nie ponosisz odpowiedzialności prawnej za działania innych osób podczas twojego wydarzenia (przynajmniej zgodnie z prawem francuskim).
 
 
-W idealnym świecie miałbyś **przestrzeń wystarczająco dużą, aby pomieścić kilkadziesiąt osób**, gdy twoja społeczność rośnie, a także budowałbyś **silne relacje między bitcoinerami** i przyszłymi bitcoinerami podczas bessy, tak aby gdy nadejdzie hossa, mieć jak najwięcej osób gotowych na pomarańczową pigułkę dla innych.
+W idealnym świecie miałbyś **przestrzeń wystarczająco dużą, aby pomieścić kilkadziesiąt osób**, gdy twoja społeczność rośnie, a także budowałbyś **silne relacje między bitcoinerami** i przyszłymi bitcoinerami podczas [bessy](https://planb.academy/resources/glossary/bear-market), tak aby gdy nadejdzie hossa, mieć jak najwięcej osób gotowych na pomarańczową pigułkę dla innych.
 
 
 

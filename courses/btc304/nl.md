@@ -2599,7 +2599,7 @@ Met deze stijging in bezoekersaantallen:
     - als je merkt dat het aantal deelnemers overweldigend wordt, kun je voor toekomstige meetups ofwel **vereisen dat deelnemers zich registreren** (via de Meetup-app of een eenvoudig formulier) of **meerdere meetups per maand houden** (bijvoorbeeld: een meetup voor beginners, een voor gevorderden en een voor vergevorderden).
     - Verwacht tegelijkertijd veel nieuwkomers in het ecosysteem, vaak met het hoofddoel om geld te verdienen. Om **de gesprekken gericht te houden op Bitcoin** in deze snelgroeiende meetups, is het een goed idee om:
 
-a) Neem een **Bitcoin thema-presentatie** op tijdens deze evenementen, omdat dit natuurlijk een groot deel van het gesprek in de richting van dat onderwerp zal sturen (en weg van het laatste zogenaamd "revolutionaire" shitcoin project);
+a) Neem een **Bitcoin thema-presentatie** op tijdens deze evenementen, omdat dit natuurlijk een groot deel van het gesprek in de richting van dat onderwerp zal sturen (en weg van het laatste zogenaamd "revolutionaire" [shitcoin](https://planb.academy/resources/glossary/shitcoin) project);
 
 b) **Vermijd het om alleen met mede-bitcoiners om te gaan.** Maak er in plaats daarvan een punt van om **nieuwkomers** te benaderen, zelfs als dat betekent dat je achter in de kamer moet staan om ze te begroeten. Van daaruit kunt u praten over waarom ze gekomen zijn, wat ze zoeken, de doelen (of zelfs de kernprincipes) van uw gemeenschap, enzovoort.
 
@@ -2619,7 +2619,7 @@ Gelukkig zijn deze situaties zeldzaam en vaak eerder absurd dan bedreigend, maar
 Voor je gemoedsrust: zolang je niet persoonlijk de wet overtreedt of direct illegale transacties faciliteert, ben je niet wettelijk verantwoordelijk voor de acties van anderen op je evenement (tenminste volgens de Franse wet).
 
 
-In een ideale wereld zou je een **ruimte hebben die groot genoeg is om enkele tientallen mensen** te huisvesten terwijl je gemeenschap groeit en je zou ook **sterke relaties opbouwen tussen bitcoiners** en toekomstige bitcoiners tijdens de dalende markt, zodat wanneer de stijgende markt komt, je zoveel mogelijk mensen hebt die klaar staan om anderen te oranje pillen.
+In een ideale wereld zou je een **ruimte hebben die groot genoeg is om enkele tientallen mensen** te huisvesten terwijl je gemeenschap groeit en je zou ook **sterke relaties opbouwen tussen bitcoiners** en toekomstige bitcoiners tijdens de [dalende markt](https://planb.academy/resources/glossary/bear-market), zodat wanneer de [stijgende markt](https://planb.academy/resources/glossary/bull-market) komt, je zoveel mogelijk mensen hebt die klaar staan om anderen te oranje pillen.
 
 
 

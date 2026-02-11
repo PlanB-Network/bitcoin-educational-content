@@ -1809,7 +1809,7 @@ With this surge in attendance:
     - it might be worth **finding a larger venue for your meetups and events**, especially if you've only been able to host around twenty people in the past.
     - if you find that the number of attendees becomes overwhelming, you can, for future meetups, either **require participants to register** (via the Meetup app or a simple form) or **hold multiple meetups each month** (for example: a beginner meetup, an intermediate one, and an advanced one).
     - At the same time, expect a lot of newcomers to the ecosystem, often with the main goal of making money. To **keep conversations focused on Bitcoin** in these fast-growing meetups, it's a good idea to:
-        a) Include a **Bitcoin-themed presentation** during these events, as this will naturally steer much of the conversation toward that topic (and away from the latest supposedly "revolutionary" shitcoin project);
+        a) Include a **Bitcoin-themed presentation** during these events, as this will naturally steer much of the conversation toward that topic (and away from the latest supposedly "revolutionary" [shitcoin project](https://planb.academy/resources/glossary/shitcoin));
         b) **Avoid sticking only with fellow bitcoiners**. Instead, make a point of **approaching newcomers**, even if that means hanging out at the back of the room to greet them. From there, you can talk about why they came, what they're looking for, the goals (or even the core principles) of your community, and so on.
 
 Finally, though it's unfortunate to have to say it, scammers can show up at meetups. Their goal might be to talk endlessly about their Ponzi scheme, MLM, or some "blockchain revolution powered by AI." It's also entirely possible that one day, someone with bad intentions might attend specifically to launder money or try to buy BTC with counterfeit bills.
@@ -1822,7 +1822,7 @@ Thankfully, these situations are rare and often more absurd than threatening, bu
 
 For peace of mind: as long as you're not personally breaking the law or directly facilitating illegal transactions, you aren't legally responsible for others' actions at your event (at least under French law).
 
-In an ideal world, you'd have a **space big enough to host several dozen people** as your community grows and you'd also build **strong relationships between bitcoiners** and future bitcoiners during the bear market, so that when the bull run comes, you have as many people as possible ready to orange pill others.
+In an ideal world, you'd have a **space big enough to host several dozen people** as your community grows and you'd also build **strong relationships between bitcoiners** and future bitcoiners during the [bear market](https://planb.academy/resources/glossary/bear-market), so that when the [bull run](https://planb.academy/resources/glossary/bull-market) comes, you have as many people as possible ready to orange pill others.
 
 
 ## Decentralizing community organization

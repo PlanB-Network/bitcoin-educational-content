@@ -2599,7 +2599,7 @@ Selle osavõtu suurenemisega:
     - kui leiate, et osalejate arv muutub üle jõu käivaks, võite tulevaste kokkusaamiste puhul kas **nõuda osalejatelt registreerimist** (Meetupi rakenduse või lihtsa vormi kaudu) või **pidada iga kuu mitu kokkusaamist** (näiteks: algajate kokkusaamine, keskastme kokkusaamine ja edasijõudnute kokkusaamine).
     - Samal ajal on oodata ökosüsteemi palju uusi tulijaid, kelle peamine eesmärk on sageli raha teenimine. Selleks, et **suhtlused keskenduksid Bitcoin-le** nendel kiiresti kasvavatel kohtumistel, on hea mõte:
 
-a) kaasata nende ürituste ajal **Bitcoin-teemaline esitlus**, sest see suunab loomulikult suure osa vestlusest sellele teemale (ja eemale viimasest väidetavalt "revolutsioonilisest" shitcoin-projektist);
+a) kaasata nende ürituste ajal **Bitcoin-teemaline esitlus**, sest see suunab loomulikult suure osa vestlusest sellele teemale (ja eemale viimasest väidetavalt "revolutsioonilisest" [shitcoin-projektist](https://planb.academy/resources/glossary/shitcoin));
 
 b) **Vältige ainult bitcoin'idega**. Selle asemel tehke endale eesmärgiks **läheneda uutele tulijatele**, isegi kui see tähendab, et peate neid tervitama ruumi tagumises otsas. Sealt saate rääkida sellest, miks nad tulid, mida nad otsivad, millised on teie kogukonna eesmärgid (või isegi põhiprintsiibid) jne.
 

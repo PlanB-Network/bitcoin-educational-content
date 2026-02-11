@@ -2599,7 +2599,7 @@ Với sự gia tăng đột biến về số lượng người tham dự:
     - nếu bạn thấy số lượng người tham dự trở nên quá nhiều, đối với các buổi gặp mặt trong tương lai, bạn có thể **yêu cầu người tham dự đăng ký** (thông qua ứng dụng Meetup hoặc biểu mẫu đơn giản) hoặc **tổ chức nhiều buổi gặp mặt mỗi tháng** (ví dụ: buổi gặp mặt dành cho người mới bắt đầu, buổi gặp mặt dành cho người trung cấp và buổi gặp mặt dành cho người nâng cao).
     - Đồng thời, hãy chuẩn bị tinh thần cho rất nhiều người mới tham gia hệ sinh thái, thường với mục tiêu chính là kiếm tiền. Để **giữ cho các cuộc trò chuyện tập trung vào Bitcoin** trong những buổi gặp gỡ đang phát triển nhanh chóng này, bạn nên:
 
-a) Bao gồm một bài thuyết trình **theo chủ đề Bitcoin** trong các sự kiện này, vì điều này sẽ tự nhiên chuyển hướng phần lớn cuộc trò chuyện theo chủ đề đó (và tránh xa dự án shitcoin mới nhất được cho là "mang tính cách mạng");
+a) Bao gồm một bài thuyết trình **theo chủ đề Bitcoin** trong các sự kiện này, vì điều này sẽ tự nhiên chuyển hướng phần lớn cuộc trò chuyện theo chủ đề đó (và tránh xa dự án [shitcoin](https://planb.academy/resources/glossary/shitcoin) mới nhất được cho là "mang tính cách mạng");
 
 b) **Tránh chỉ kết bạn với những người dùng Bitcoin khác**. Thay vào đó, hãy chủ động **tiếp cận những người mới**, ngay cả khi điều đó có nghĩa là phải đứng ở cuối phòng để chào đón họ. Từ đó, bạn có thể nói về lý do họ đến, điều họ đang tìm kiếm, mục tiêu (hoặc thậm chí là các nguyên tắc cốt lõi) của cộng đồng, v.v.
 

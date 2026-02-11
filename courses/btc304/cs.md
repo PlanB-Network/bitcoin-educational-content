@@ -2599,7 +2599,7 @@ S tímto nárůstem návštěvnosti:
     - pokud zjistíte, že počet účastníků je ohromující, můžete pro příští setkání buď **vyžadovat registraci účastníků** (prostřednictvím aplikace Meetup nebo jednoduchého formuláře), nebo **pořádat každý měsíc více setkání** (například setkání pro začátečníky, středně pokročilé a pokročilé).
     - Zároveň očekávejte, že do ekosystému vstoupí mnoho nových uživatelů, jejichž hlavním cílem je vydělat peníze. Chcete-li **udržet konverzaci zaměřenou na Bitcoin** na těchto rychle se rozvíjejících setkáních, je dobré:
 
-a) Zařaďte během těchto akcí prezentaci** na téma **Bitcoin, protože to přirozeně nasměruje většinu konverzace k tomuto tématu (a odvede pozornost od nejnovějšího údajně "revolučního" projektu shitcoin);
+a) Zařaďte během těchto akcí prezentaci** na téma **Bitcoin, protože to přirozeně nasměruje většinu konverzace k tomuto tématu (a odvede pozornost od nejnovějšího údajně "revolučního" projektu [shitcoin](https://planb.academy/resources/glossary/shitcoin));
 
 b) **Vyhněte se setkávání pouze s ostatními bitcoinery**. Místo toho se snažte **přiblížit k nováčkům**, i kdyby to mělo znamenat, že se budete zdržovat v zadní části místnosti, abyste je pozdravili. Odtud si můžete promluvit o tom, proč přišli, co hledají, o cílech (nebo dokonce základních principech) vaší komunity atd.
 
@@ -2619,7 +2619,7 @@ Naštěstí jsou tyto situace vzácné a často spíše absurdní než hrozivé,
 Pro klid duše: pokud vy osobně neporušujete zákon nebo přímo neumožňujete nelegální transakce, nejste právně odpovědní za jednání ostatních na vaší akci (alespoň podle francouzského práva).
 
 
-V ideálním světě byste měli **prostor dostatečně velký na to, abyste mohli hostit několik desítek lidí**, jak se vaše komunita rozrůstá, a také byste budovali **silné vztahy mezi bitcoinery** a budoucími bitcoinery během medvědího trhu, takže až přijde býčí období, budete mít co nejvíce lidí připravených k oranžové pilulce pro ostatní.
+V ideálním světě byste měli **prostor dostatečně velký na to, abyste mohli hostit několik desítek lidí**, jak se vaše komunita rozrůstá, a také byste budovali **silné vztahy mezi bitcoinery** a budoucími bitcoinery během [medvědího trhu](https://planb.academy/resources/glossary/bear-market), takže až přijde [býčí období](https://planb.academy/resources/glossary/bull-market), budete mít co nejvíce lidí připravených k oranžové pilulce pro ostatní.
 
 
 

@@ -2599,7 +2599,7 @@ N’uku kwiyongera kw’abaje:
     - iyo ubonye ko umubare w’abazoja mu nama ubaye mwinshi cane, urashobora, ku makoraniro azoza, **gusaba abazoja muri iyo nama kwiyandikisha** (biciye kuri app ya Meetup canke ku rupapuro rworoshe) canke **gukora amakoraniro menshi buri kwezi** (nk’akarorero: inama y’abatanguje, iyo hagati, n’iyiteye imbere).
     - Muri ico gihe nyene, nimwitege abantu benshi bashasha mu bijanye n’ibidukikije, akenshi bakaba bafise intumbero nyamukuru yo kuronka amahera. Kugira ngo **ibiyago bigume vyibanda kuri Bitcoin** muri aya makoraniro ariko arakura ningoga, ni vyiza ko:
 
-a) Mushiremwo **ikiganiro gifise insiguro ya Bitcoin** mu gihe c'ivyo birori, kuko ivyo bizotuma ikiyago kinini kija kuri iyo nkuru (kandi kikaja kure y'umugambi wa shitcoin uherutse kwivugwa ko ari "uw'ihinduka");
+a) Mushiremwo **ikiganiro gifise insiguro ya Bitcoin** mu gihe c'ivyo birori, kuko ivyo bizotuma ikiyago kinini kija kuri iyo nkuru (kandi kikaja kure y'umugambi wa [shitcoin](https://planb.academy/resources/glossary/shitcoin) uherutse kwivugwa ko ari "uw'ihinduka");
 
 b) **Irinde kwifatanya n’abandi ba bitcoiners gusa**. Ahubwo, nushireho iciyumviro co **kwegera abashasha**, naho ivyo vyoba bisobanura guca inyuma y’icumba kugira ngo ubaramutse. Uvuye ng’aho, urashobora kuvuga igituma baje, ivyo barondera, intumbero (canke mbere ingingo ngenderwako nyamukuru) z’abanyagihugu bawe, n’ibindi.
 

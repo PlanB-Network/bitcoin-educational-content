@@ -2599,7 +2599,7 @@ Tämän osallistujamäärän kasvun myötä:
     - jos huomaat, että osallistujien määrä käy liian suureksi, voit tulevissa tapaamisissa joko **vaatia osallistujia rekisteröitymään** (Meetup-sovelluksen tai yksinkertaisen lomakkeen kautta) tai **järjestää useita tapaamisia joka kuukausi** (esimerkiksi: aloittelijoiden tapaaminen, keskitason tapaaminen ja edistyneiden tapaaminen).
     - Samaan aikaan ekosysteemiin on odotettavissa paljon uusia tulokkaita, joiden päätavoitteena on usein rahan ansaitseminen. Jotta **keskustelut pysyisivät keskittyneinä Bitcoin:aan** näissä nopeasti kasvavissa tapaamisissa, on hyvä idea:
 
-a) Sisällytä **Bitcoin-aiheinen esitys** näihin tapahtumiin, koska se luonnollisesti ohjaa suuren osan keskustelusta kyseiseen aiheeseen (ja pois viimeisimmästä muka "vallankumouksellisesta" paskakolikkoprojektista);
+a) Sisällytä **Bitcoin-aiheinen esitys** näihin tapahtumiin, koska se luonnollisesti ohjaa suuren osan keskustelusta kyseiseen aiheeseen (ja pois viimeisimmästä muka "vallankumouksellisesta" [paskakolikkoprojektista](https://planb.academy/resources/glossary/shitcoin));
 
 b) **Välttää tarttumasta vain bitcoin-kollegoihin**. Sen sijaan kannattaa **lähestyä uusia tulokkaita**, vaikka se tarkoittaisikin sitä, että roikut huoneen takaosassa tervehtimässä heitä. Sieltä käsin voit keskustella siitä, miksi he tulivat, mitä he etsivät, yhteisönne tavoitteista (tai jopa perusperiaatteista) ja niin edelleen.
 
@@ -2619,7 +2619,7 @@ Onneksi tällaiset tilanteet ovat harvinaisia ja usein pikemminkin absurdeja kui
 Mielenrauhan vuoksi: niin kauan kuin et itse riko lakia tai suoranaisesti helpota laittomia liiketoimia, et ole oikeudellisesti vastuussa muiden toimista tapahtumassasi (ainakaan Ranskan lain mukaan).
 
 
-Ihanteellisessa maailmassa sinulla olisi **tila, joka olisi tarpeeksi suuri isännöimään useita kymmeniä ihmisiä**, kun yhteisösi kasvaa, ja rakentaisit myös **vahvoja suhteita bitcoin-asiakkaiden** ja tulevien bitcoin-asiakkaiden välille laskusuhdanteen aikana, jotta noususuhdanteen koittaessa sinulla olisi mahdollisimman monta ihmistä valmiina oranssiin pilleriin muille.
+Ihanteellisessa maailmassa sinulla olisi **tila, joka olisi tarpeeksi suuri isännöimään useita kymmeniä ihmisiä**, kun yhteisösi kasvaa, ja rakentaisit myös **vahvoja suhteita bitcoin-asiakkaiden** ja tulevien bitcoin-asiakkaiden välille [laskusuhdanteen](https://planb.academy/resources/glossary/bear-market) aikana, jotta [noususuhdanteen](https://planb.academy/resources/glossary/bull-market) koittaessa sinulla olisi mahdollisimman monta ihmistä valmiina oranssiin pilleriin muille.
 
 
 

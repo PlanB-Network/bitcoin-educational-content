@@ -1530,7 +1530,7 @@ Mit diesem Anstieg der Besucherzahlen:
   - Wenn du feststellst, dass die Teilnehmerzahl zu groß wird, kannst du für künftige Treffen entweder **eine Anmeldung der Teilnehmer verlangen** (über die Meetup-App oder ein einfaches Formular) oder **mehrere Treffen pro Monat** veranstalten (z. B. ein Treffen für Anfänger, ein Treffen für Fortgeschrittene und ein Treffen für Profis).
   - Gleichzeitig ist mit vielen Neueinsteigern in das Ökosystem zu rechnen, deren Hauptziel oft darin besteht, Geld zu verdienen. Um **die Gespräche bei diesen schnell wachsenden Treffen auf Bitcoin** zu konzentrieren, ist es eine gute Idee:
 
-a) Eine **Bitcoin-Präsentation** während dieser Veranstaltungen einbauen, da dies natürlich einen Großteil der Gespräche auf dieses Thema lenken wird (und weg von dem neuesten, angeblich "revolutionären" Shitcoin-Projekt);
+a) Eine **Bitcoin-Präsentation** während dieser Veranstaltungen einbauen, da dies natürlich einen Großteil der Gespräche auf dieses Thema lenken wird (und weg von dem neuesten, angeblich "revolutionären" [Shitcoin-Projekt](https://planb.academy/resources/glossary/shitcoin));
 
 b) **Vermeide es, sich nur mit anderen Bitcoinern** zu treffen. Gehe stattdessen auf **Neulinge** zu, auch wenn das bedeutet, dass du dich zur Begrüßung in den hinteren Teil des Raumes stellst. Von dort aus könnest du darüber sprechen, warum sie gekommen sind, wonach sie suchst, die Ziele (oder sogar die Grundprinzipien) deiner Gemeinschaft und so weiter.
 
@@ -1544,7 +1544,7 @@ Zum Glück sind solche Situationen selten und oft eher absurd als bedrohlich, ab
 
 Für den Seelenfrieden: Solange du nicht persönlich gegen das Gesetz verstößst oder direkt illegale Transaktionen ermöglichst, bist du rechtlich nicht für die Handlungen anderer bei deiner Veranstaltung verantwortlich (zumindest nach französischem Recht).
 
-In einer idealen Welt hättest du einen **Raum, der groß genug ist, um mehrere Dutzend Leute** aufzunehmen, während deine Gemeinschaft wächst, und du würdest auch **starke Beziehungen zwischen Bitcoinern** und zukünftigen Bitcoinern während der Baisse aufbauen, damit du, wenn die Hausse kommt, so viele Leute wie möglich hast, die bereit sind, andere zu Orange Pillen.
+In einer idealen Welt hättest du einen **Raum, der groß genug ist, um mehrere Dutzend Leute** aufzunehmen, während deine Gemeinschaft wächst, und du würdest auch **starke Beziehungen zwischen Bitcoinern** und zukünftigen Bitcoinern während der [Baisse](https://planb.academy/resources/glossary/bear-market) aufbauen, damit du, wenn die [Hausse](https://planb.academy/resources/glossary/bull-market) kommt, so viele Leute wie möglich hast, die bereit sind, andere zu Orange Pillen.
 
 ## Dezentralisierung der Gemeindeorganisation
 

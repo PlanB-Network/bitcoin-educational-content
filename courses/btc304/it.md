@@ -2595,7 +2595,7 @@ Con questa impennata di presenze:
     - se il numero di partecipanti diventa eccessivo, per i prossimi incontri è possibile **richiedere ai partecipanti di registrarsi** (tramite l'app Meetup o un semplice modulo) oppure **organizzare più incontri al mese** (per esempio: un incontro per principianti, uno intermedio e uno avanzato).
     - Allo stesso tempo, aspettati molti nuovi arrivati nell'ecosistema, spesso con l'obiettivo principale di fare soldi. Per **mantenere le conversazioni focalizzate su Bitcoin** in questi meetup in rapida crescita, è una buona idea:
 
-a) Includere una presentazione a tema **Bitcoin** durante questi eventi, in quanto ciò indirizzerà naturalmente gran parte della conversazione verso questo argomento (e lontano dall'ultimo progetto di shitcoin presumibilmente "rivoluzionario");
+a) Includere una presentazione a tema **Bitcoin** durante questi eventi, in quanto ciò indirizzerà naturalmente gran parte della conversazione verso questo argomento (e lontano dall'ultimo progetto di [shitcoin](https://planb.academy/resources/glossary/shitcoin) presumibilmente "rivoluzionario");
 
 b) **Evitare di stare solo con i colleghi Bitcoiners**. Invece, fai in modo di **approcciare i nuovi arrivati**, anche se questo significa stare in fondo alla stanza per salutarli. Da lì, potrai parlare del motivo per cui sono venuti, di cosa stanno cercando, degli obiettivi (o anche dei principi fondamentali) della tua community, e così via.
 
@@ -2615,7 +2615,7 @@ Fortunatamente queste situazioni sono rare e spesso più assurde che minacciose,
 Per stare tranquilli: finché non infrangi personalmente la legge o non agevoli direttamente le transazioni illegali, non sei legalmente responsabile delle azioni altrui durante il tuo evento (almeno secondo la legge francese).
 
 
-In un mondo ideale, avresti uno **spazio abbastanza grande da ospitare diverse decine di persone** man mano che la tua community cresce e creeresti anche **rapporti solidi tra i Bitcoiners** e i futuri Bitcoiners durante il mercato ribassista, in modo che quando arriva la corsa al rialzo, abbiate il maggior numero possibile di persone pronte a orange-pillare agli altri.
+In un mondo ideale, avresti uno **spazio abbastanza grande da ospitare diverse decine di persone** man mano che la tua community cresce e creeresti anche **rapporti solidi tra i Bitcoiners** e i futuri Bitcoiners durante il [mercato ribassista](https://planb.academy/resources/glossary/bear-market), in modo che quando arriva la [corsa al rialzo](https://planb.academy/resources/glossary/bull-market), abbiate il maggior numero possibile di persone pronte a orange-pillare agli altri.
 
 
 

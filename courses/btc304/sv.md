@@ -2599,7 +2599,7 @@ Med den här ökningen av antalet besökare:
     - om du tycker att antalet deltagare blir överväldigande kan du, för framtida möten, antingen **kräva att deltagarna registrerar sig** (via Meetup-appen eller ett enkelt formulär) eller **hålla flera möten varje månad** (till exempel: ett nybörjarmöte, ett mellanliggande möte och ett avancerat möte).
     - Samtidigt kan du förvänta dig många nykomlingar i ekosystemet, ofta med det huvudsakliga målet att tjäna pengar. För att **hålla konversationer fokuserade på Bitcoin** i dessa snabbväxande möten är det en bra idé att:
 
-a) Inkludera en ** Bitcoin-tema presentation ** under dessa evenemang, eftersom detta naturligtvis kommer att styra mycket av konversationen mot det ämnet (och bort från det senaste förment "revolutionerande" shitcoin-projektet);
+a) Inkludera en ** Bitcoin-tema presentation ** under dessa evenemang, eftersom detta naturligtvis kommer att styra mycket av konversationen mot det ämnet (och bort från det senaste förment "revolutionerande" [shitcoin-projektet](https://planb.academy/resources/glossary/shitcoin));
 
 b) ** Undvik att bara umgås med andra bitcoinare**. Gör istället en poäng av att **ta kontakt med nykomlingar**, även om det innebär att hänga längst bak i rummet för att hälsa på dem. Därifrån kan du prata om varför de kom, vad de letar efter, målen (eller till och med de grundläggande principerna) för ditt community och så vidare.
 

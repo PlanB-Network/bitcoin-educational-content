@@ -1633,7 +1633,7 @@ Con este aumento de la asistencia:
 - Si ves que el número de asistentes se vuelve abrumador, puedes, para futuros meetups, **exigir a los participantes que se inscriban** (a través de la aplicación Meetup o de un sencillo formulario) o **celebrar varios meetups cada mes** (por ejemplo: un meetup para principiantes, otro para intermedios y otro para avanzados).
 - Al mismo tiempo, es de esperar que haya muchos recién llegados al ecosistema, a menudo con el objetivo principal de ganar dinero. Para **mantener las conversaciones centradas en Bitcoin** en estos encuentros de rápido crecimiento, es una buena idea:
 
-a) Incluir una **presentación temática de Bitcoin** durante estos eventos, ya que esto naturalmente dirigirá gran parte de la conversación hacia ese tema (y la alejará del último proyecto supuestamente "revolucionario" de shitcoin)
+a) Incluir una **presentación temática de Bitcoin** durante estos eventos, ya que esto naturalmente dirigirá gran parte de la conversación hacia ese tema (y la alejará del último proyecto supuestamente "revolucionario" de [shitcoin](https://planb.academy/resources/glossary/shitcoin))
 
 b) **Evita juntarte sólo con otros bitcoiners**. En lugar de eso, **acércate a los recién llegados**, aunque sea al fondo de la sala para saludarles. A partir de ahí, puedes hablarles de por qué han venido, qué buscan, los objetivos (o incluso los principios básicos) de tu comunidad, etc.
 
@@ -1647,7 +1647,7 @@ Afortunadamente, estas situaciones son poco frecuentes y a menudo más absurdas 
 
 Para tu tranquilidad: Mientras no infrinjas personalmente la ley ni facilites directamente transacciones ilegales, no serás legalmente responsable de las acciones de los demás en tu evento (al menos según la legislación francesa).
 
-En un mundo ideal, tendrías un **espacio lo suficientemente grande como para alojar a varias docenas de personas** a medida que crece tu comunidad y también construirías **fuertes relaciones entre bitcoiners** y futuros bitcoiners durante el mercado bajista, de modo que cuando llegue la carrera alcista, tengas el mayor número posible de personas dispuestas a dar la píldora naranja a los demás.
+En un mundo ideal, tendrías un **espacio lo suficientemente grande como para alojar a varias docenas de personas** a medida que crece tu comunidad y también construirías **fuertes relaciones entre bitcoiners** y futuros bitcoiners durante el [mercado bajista](https://planb.academy/resources/glossary/bear-market), de modo que cuando llegue la [carrera alcista](https://planb.academy/resources/glossary/bull-market), tengas el mayor número posible de personas dispuestas a dar la píldora naranja a los demás.
 
 ## Descentralizar la organización comunitaria
 

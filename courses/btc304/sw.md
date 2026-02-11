@@ -2598,7 +2598,7 @@ Pamoja na kuongezeka kwa mahudhurio haya:
     - ukipata kwamba idadi ya waliohudhuria inakuwa nyingi sana, unaweza, kwa mikutano ya siku zijazo, ama **kuwahitaji washiriki kujisajili** (kupitia programu ya Meetup au fomu rahisi) au **kufanya mikutano mingi kila mwezi** (kwa mfano: mkutano wa wanaoanza, wa kati na wa hali ya juu).
     - Wakati huo huo, tarajia wageni wengi kwenye mfumo wa ikolojia, mara nyingi kwa lengo kuu la kupata pesa. Ili **kuweka mazungumzo yakilenga Bitcoin** katika mikutano hii inayokua kwa kasi, ni vyema:
 
-a) Jumuisha wasilisho lenye mandhari ya **Bitcoin** wakati wa matukio haya, kwa kuwa hii itaelekeza mazungumzo mengi kuelekea mada hiyo (na mbali na mradi wa hivi punde unaodaiwa kuwa wa "mapinduzi" wa shitcoin);
+a) Jumuisha wasilisho lenye mandhari ya **Bitcoin** wakati wa matukio haya, kwa kuwa hii itaelekeza mazungumzo mengi kuelekea mada hiyo (na mbali na mradi wa hivi punde unaodaiwa kuwa wa "mapinduzi" wa [shitcoin](https://planb.academy/resources/glossary/shitcoin));
 
 b) **Epuka kushikamana na bitcoiners wenzako tu **. Badala yake, hakikisha **kuwakaribia watu wapya**, hata kama hiyo inamaanisha kubarizi nyuma ya chumba ili kuwasalimu. Kutoka hapo, unaweza kuzungumza kuhusu kwa nini walikuja, wanachotafuta, malengo (au hata kanuni za msingi) za jumuiya yako, na kadhalika.
 

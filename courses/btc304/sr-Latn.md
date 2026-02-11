@@ -2599,7 +2599,7 @@ Sa ovim porastom posete:
     - ako ustanovite da broj učesnika postaje prevelik, možete, za buduće sastanke, ili **zahtevati od učesnika da se registruju** (putem aplikacije Meetup ili jednostavnog formulara) ili **održavati više sastanaka svakog meseca** (na primer: sastanak za početnike, jedan za srednji nivo i jedan za napredni nivo).
     - Istovremeno, očekujte mnogo novajlija u ekosistemu, često sa glavnim ciljem da zarade novac. Da biste **održali fokus razgovora na Bitcoin** na ovim brzo rastućim okupljanjima, dobra je ideja da:
 
-a) Uključite **prezentaciju na temu Bitcoin** tokom ovih događaja, jer će to prirodno usmeriti veći deo razgovora ka toj temi (i udaljiti ga od najnovijeg navodno "revolucionarnog" shitcoin projekta);
+a) Uključite **prezentaciju na temu Bitcoin** tokom ovih događaja, jer će to prirodno usmeriti veći deo razgovora ka toj temi (i udaljiti ga od najnovijeg navodno "revolucionarnog" [shitcoin](https://planb.academy/resources/glossary/shitcoin) projekta);
 
 b) **Izbegavajte druženje samo sa bitkoin entuzijastima**. Umesto toga, potrudite se da **priđete novajlijama**, čak i ako to znači da stojite pozadi u prostoriji kako biste ih pozdravili. Odatle možete razgovarati o tome zašto su došli, šta traže, ciljevima (ili čak osnovnim principima) vaše zajednice, i tako dalje.
 

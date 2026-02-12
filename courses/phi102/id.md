@@ -3,36 +3,34 @@ name: Freedom as a social project
 goal: Memahami landasan filosofis dan historis dari kebebasan individu
 objectives:
 
-  - Identify the fundamental human facts that justify freedom and property
-  - Analyze the historical evolution of freedom from primitive societies to the present day
-  - Recognize the fallacies that underpin systems of unfreedom
-  - Apply liberal principles to contemporary economic, political and social issues
-
+  - Mengidentifikasi fakta-fakta mendasar tentang manusia yang membenarkan kebebasan dan hak milik.
+  - Menganalisis evolusi historis kebebasan dari masyarakat primitif hingga masa kini.
+  - Mengenali kekeliruan-kekeliruan berpikir (fallacies) yang menopang sistem ketidakbebasan.
+  - Menerapkan prinsip-prinsip liberal dalam isu-isu ekonomi, politik, dan sosial kontemporer.
 
 ---
 
-# Journey to freedom
+# Perjalanan menuju kebebasan
 
 
 
-This course explores liberty as a social project, drawing on the rich French liberal tradition of the 18th and 19th centuries. Through the writings of thinkers such as Frédéric Bastiat, Gustave de Molinari, Paul Leroy-Beaulieu, Benjamin Constant, and Charles Dunoyer, you will discover how liberty is not an abstract utopia, but deeply rooted in the facts of human existence.
+Kursus ini membahas kebebasan sebagai sebuah proyek sosial, dengan menggali kekayaan tradisi liberal Prancis pada abad ke-18 dan ke-19. Melalui tulisan para pemikir seperti Frédéric Bastiat, Gustave de Molinari, Paul Leroy-Beaulieu, Benjamin Constant, dan Charles Dunoyer, Anda akan menemukan bahwa kebebasan bukanlah utopia yang abstrak, melainkan sesuatu yang berakar kuat dalam fakta-fakta kehidupan manusia.
 
 
 
-Ready to discover why freedom is not only a moral ideal, but also the most effective solution to the challenges facing our societies? Let's begin this intellectual journey to the heart of French liberal thought.
+Siap untuk menemukan mengapa kebebasan bukan hanya cita-cita moral, tetapi juga solusi paling efektif bagi tantangan yang dihadapi masyarakat kita? Mari kita mulai perjalanan intelektual ini menuju inti pemikiran liberal Prancis.
 
 
 
 +++
 
-# Foundations of freedom
+# Landasan kebebasan
 
 
 <partId>466452a9-508e-5bae-bc6a-9213814cf1e5</partId>
 
 
-
-## The human facts behind freedom and property
+## Fakta-fakta manusia di balik kebebasan dan kepemilikan
 
 
 <chapterId>8eb03d97-ff42-51a1-bd42-9271d3213ac4</chapterId>
@@ -41,8 +39,7 @@ Ready to discover why freedom is not only a moral ideal, but also the most effec
 
 
 
-
-### Introduction to the French liberal tradition
+### Pengantar Tradisi Liberal Prancis
 
 
 
@@ -177,7 +174,7 @@ Kepemilikan sesuatu didasarkan pada kebutuhan untuk memperolehnya. Keberadaan ma
 
 
 
-Peruntukan harus mendahului konsumsi: untuk mengonsumsi sebuah apel, Anda harus terlebih dahulu memakainya. Apropriasi ini bersifat individual, dan justru karena kita sendiri yang menggunakan barang tersebut, maka kita merasakan dampaknya secara pribadi.
+Penguasaan (appropriasi) mutlak mendahului konsumsi: untuk mengonsumsi sebuah apel, Anda harus terlebih dahulu menguasainya. Apropriasi ini bersifat individual, dan justru karena kita sendiri yang menggunakan barang tersebut, maka kita merasakan dampaknya secara pribadi.
 
 
 
@@ -312,7 +309,7 @@ Formula Proudhon "properti adalah pencurian" menggambarkan kontradiksi internal 
 
 
 
-Sistem non-kebebasan mendalilkan spoliasi tanah secara paksa, diikuti dengan kenikmatan tanpa kerja. Pandangan ini mengandung dua kesalahan faktual utama. Pertama, pandangan ini mengasumsikan adanya kemudahan otomatis untuk memperkaya diri, mengabaikan risiko yang terus menerus ada, kerja keras dan kesulitan yang dihadapi para pengusaha. Kedua, jika penggerogotan asli ini benar, kita akan melihat keturunan para perampas tanah ini berada di antara keluarga-keluarga terkaya saat ini. Namun, kenyataan menunjukkan bahwa pertukaran dilakukan secara sah melalui kerja dan pertukaran nilai dengan nilai. Properti saat ini telah divalidasi oleh kerja dan pertukaran sukarela. Selain itu, kondisi produksi terus berkembang: tanah yang dulunya berharga dapat kehilangan nilainya, sementara daerah yang sebelumnya terabaikan dapat memperoleh nilai, seperti yang diilustrasikan oleh tanah tanah jarang.
+Sistem non-kebebasan mendalilkan spoliasi tanah secara paksa, diikuti dengan kenikmatan tanpa kerja. Pandangan ini mengandung dua kesalahan faktual utama. Pertama, pandangan ini mengasumsikan adanya kemudahan otomatis untuk memperkaya diri, mengabaikan risiko yang terus menerus ada, kerja keras dan kesulitan yang dihadapi para pengusaha. Kedua, jika penggerogotan asli ini benar, kita akan melihat keturunan para perampas tanah ini berada di antara keluarga-keluarga terkaya saat ini. Namun, kenyataan menunjukkan bahwa pertukaran dilakukan secara sah melalui kerja dan pertukaran nilai dengan nilai. Properti saat ini telah divalidasi oleh kerja dan pertukaran sukarela. Selain itu, kondisi produksi terus berkembang: tanah yang dulunya berharga dapat kehilangan nilainya, sementara daerah yang sebelumnya terabaikan dapat memperoleh nilai, seperti yang diilustrasikan oleh ilustrasi logam tanah jarang.
 
 
 
@@ -355,7 +352,7 @@ Penghapusan hukum penawaran dan permintaan menunjukkan kesalahpahaman mendasar. 
 
 
 
-Mengenai masalah kepemilikan kolektif, Paul Leroy-Beaulieu menjelaskan bahwa kenikmatan dari sesuatu yang dimiliki bersama sangatlah terbatas. Setiap warga negara, yang secara teoritis merupakan pemilik sebagian kecil dari hutan publik, tidak memiliki rasa kepemilikan. Kolektivisasi menyebabkan hilangnya "mata tuan", yaitu perhatian khusus dan insentif untuk perbaikan yang hanya dimiliki oleh pemilik sebenarnya. Hasil yang tak terelakkan adalah pengabaian dan penggunaan sumber daya yang tidak optimal.
+Mengenai masalah kepemilikan kolektif, Paul Leroy-Beaulieu menjelaskan bahwa kenikmatan dari sesuatu yang dimiliki bersama sangatlah terbatas. Setiap warga negara, yang secara teoritis merupakan pemilik sebagian kecil dari hutan publik, tidak memiliki rasa kepemilikan. Kolektivisasi menyebabkan hilangnya "mata sang pemilik", yaitu perhatian khusus dan insentif untuk perbaikan yang hanya dimiliki oleh pemilik sebenarnya. Hasil yang tak terelakkan adalah pengabaian dan penggunaan sumber daya yang tidak optimal.
 
 
 
@@ -716,7 +713,7 @@ Charles Dunoyer, dalam karyanya pada tahun 1825 yang berjudul "L'industrie et la
 
 
 
-Kemajuan dalam pemerintahan sendiri telah memungkinkan kemajuan besar sejak zaman kuno dan primitif, yang mengarah dari perbudakan ke perbudakan, dan kemudian ke kebebasan yang semakin tidak diatur dan terbatas. Saat ini, kita secara bertahap tiba di masyarakat yang terdiri dari orang-orang yang berpotensi bebas, justru karena mereka telah memperoleh kapasitas moral dan intelektual yang diperlukan untuk memanfaatkan kebebasan mereka secara tercerahkan. Evolusi sejarah ini menunjukkan bahwa kebebasan bukanlah keadaan alamiah, melainkan hasil dari proses peradaban.
+Kemajuan dalam pemerintahan sendiri telah memungkinkan kemajuan besar sejak zaman kuno dan primitif, yang mengarah dari perbudakan ke perhambaan, dan kemudian ke kebebasan yang semakin tidak diatur dan terbatas. Saat ini, kita secara bertahap tiba di masyarakat yang terdiri dari orang-orang yang berpotensi bebas, justru karena mereka telah memperoleh kapasitas moral dan intelektual yang diperlukan untuk memanfaatkan kebebasan mereka secara tercerahkan. Evolusi sejarah ini menunjukkan bahwa kebebasan bukanlah keadaan alamiah, melainkan hasil dari proses peradaban.
 
 
 
@@ -772,16 +769,16 @@ Arah produksi mematuhi apa yang dikenal sebagai hukum alam, yang menyatakan bahw
 
 
 
-The central element that explains the importance of contract and exchange lies in their nature as positive-sum games. I make a contract because it's in my interest to do so, otherwise I'd simply prefer not to contract. Similarly, in economic terms, if I make an exchange, it's because it's in my interest to do so. The Abbé de Saint-Pierre, in the early 18th century, recognized the importance of this notion particularly well. In his project for perpetual peace, he wrote that when a sale is made between merchants, the seller gains and so does the buyer, for without a reciprocal gain, neither would sell at such a price, nor would the other buy. Sometimes one of them makes a mistake, but usually, given their needs and interests, both gain from the exchange.
+Elemen utama yang menjelaskan pentingnya kontrak dan pertukaran terletak pada sifatnya sebagai permainan jumlah positif (positive-sum game). Saya membuat kontrak karena hal itu menguntungkan bagi saya; jika tidak, saya tentu memilih untuk tidak berkontrak. Demikian pula dalam konteks ekonomi, jika saya melakukan pertukaran, itu karena saya menilai hal tersebut menguntungkan. Abbé de Saint-Pierre, pada awal abad ke-18, telah memahami pentingnya gagasan ini dengan sangat baik. Dalam proyeknya tentang perdamaian abadi, ia menulis bahwa ketika suatu transaksi jual beli terjadi di antara para pedagang, penjual diuntungkan dan pembeli pun diuntungkan, sebab tanpa keuntungan timbal balik, yang satu tidak akan menjual dengan harga tersebut, dan yang lain pun tidak akan membeli. Kadang-kadang salah satu pihak bisa keliru, tetapi biasanya, sesuai kebutuhan dan kepentingan mereka, kedua belah pihak sama-sama diuntungkan dari pertukaran itu.
 
 
 
-From this analysis stems a fundamental conclusion: increasing trade between the subjects of a nation and between nations contributes to their enrichment, while decreasing trade reduces their profit and income. This logic applies more broadly to contracts in all aspects of social life. The more contracts are made, the more advantageously the contract replaces the law in many areas. Freedom consists precisely in this choice to act in one direction or another with the properties at one's disposal, the first being one's own property, then that of legitimately acquired things, in order to exchange them in a mutually advantageous manner.
+Dari analisis ini muncul sebuah kesimpulan mendasar: meningkatnya perdagangan di antara warga suatu bangsa maupun antarbangsa berkontribusi pada peningkatan kemakmuran mereka, sedangkan menurunnya perdagangan akan mengurangi keuntungan dan pendapatan mereka. Logika ini berlaku lebih luas pada kontrak dalam seluruh aspek kehidupan sosial. Semakin banyak kontrak yang dibuat, semakin besar pula peran kontrak dalam menggantikan hukum di banyak bidang, dan semakin menguntungkan hasilnya. Kebebasan justru terletak pada pilihan untuk bertindak ke arah tertentu dengan harta yang kita miliki, yang pertama-tama adalah diri kita sendiri, lalu benda-benda yang kita peroleh secara sah, untuk kemudian menukarkannya secara saling menguntungkan.
 
 
 
 
-## The role of profits and prices
+## Peran keuntungan dan harga
 
 
 <chapterId>549e00c3-eece-5401-be62-b82c774af893</chapterId>
@@ -791,55 +788,52 @@ From this analysis stems a fundamental conclusion: increasing trade between the 
 
 
 
-### Competition as the driving force behind historical progress
+### Persaingan sebagai kekuatan pendorong di balik kemajuan sejarah
 
 
 
-The history of mankind can be read as a gradual transformation of the ways in which individuals compete with one another. In the early days, competition was mainly exercised through war and violence, with the monopolization of goods and subsistence commodities obtained by hunting, fishing or gathering. The market remained extremely small, and production limited. As the world was made up of finite resources, some form of competition for them was inevitable. However, the real progress of civilization lay in replacing this violent competition with contract and voluntary exchange. This evolution marks a fundamental turning point in the organization of human societies, enabling individuals to satisfy their needs without recourse to force.
+Sejarah umat manusia dapat dibaca sebagai transformasi bertahap dalam cara individu saling bersaing. Pada masa awal, persaingan terutama diwujudkan melalui perang dan kekerasan, dengan monopoli atas barang-barang dan kebutuhan hidup yang diperoleh lewat berburu, menangkap ikan, atau meramu. Pasar masih sangat kecil, dan produksi pun terbatas. Karena dunia terdiri dari sumber daya yang terbatas, suatu bentuk persaingan untuk memperebutkannya memang tak terelakkan. Namun, kemajuan sejati peradaban terletak pada penggantian persaingan yang penuh kekerasan ini dengan kontrak dan pertukaran sukarela. Evolusi ini menandai titik balik mendasar dalam pengorganisasian masyarakat manusia, yang memungkinkan individu memenuhi kebutuhannya tanpa harus menggunakan kekerasan.
 
 
 
-Unfortunately, interventionism and socialism represent a reverse step in human progress. These systems replace freedom with tutelage and centralized authority, substituting voluntary contract with a return to appropriation through coercion. The similarity between competition through violence and competition through politics is clearly seen in their respective effects. The distribution of wealth through violence or politics certainly redistributes existing resources, but does not increase them. On the other hand, competition through contract, based on the mutual benefit of the exchanging parties, distributes wealth fairly among the various contributors, while increasing overall production through the motivation of self-interest.
+Sayangnya, intervensi negara (interventionism) dan sosialisme merupakan langkah mundur dalam kemajuan manusia. Sistem-sistem ini menggantikan kebebasan dengan pengasuhan paksa dan otoritas terpusat, serta menggantikan kontrak sukarela dengan kembali pada penguasaan melalui paksaan. Kemiripan antara persaingan lewat kekerasan dan persaingan lewat politik tampak jelas dari dampak yang dihasilkannya. Distribusi kekayaan melalui kekerasan atau melalui politik memang dapat membagi ulang sumber daya yang ada, tetapi tidak menambah jumlahnya. Sebaliknya, persaingan melalui kontrak—yang didasarkan pada keuntungan timbal balik para pihak yang bertransaksi—mendistribusikan kekayaan secara adil di antara berbagai kontributor, sekaligus meningkatkan total produksi berkat dorongan kepentingan pribadi.
 
 
 
-### Price as a fundamental signal of economic freedom
+### Harga sebagai sinyal fundamental kebebasan ekonomi
 
 
 
-The law of supply and demand is the very workings of economic freedom, as Charles Coquelin explained in his article on competition published in 1853 in the Dictionnaire de l'économie politique. Without freedom, this law simply cannot operate. A citizen receiving ration coupons has no opportunity to reduce or increase his demand according to his preferences. Similarly, companies subject to political production decisions do not have the freedom to vary their supply according to circumstances. The law of supply and demand therefore presupposes freedom as an indispensable precondition for its operation.
+Hukum penawaran dan permintaan merupakan cara kerja sejati dari kebebasan ekonomi, sebagaimana dijelaskan oleh Charles Coquelin dalam artikelnya tentang persaingan yang diterbitkan pada tahun 1853 dalam Dictionnaire de l’économie politique. Tanpa kebebasan, hukum ini sama sekali tidak dapat berfungsi. Seorang warga yang menerima kupon jatah tidak memiliki kesempatan untuk mengurangi atau menambah permintaannya sesuai preferensinya. Demikian pula, perusahaan yang tunduk pada keputusan produksi politik tidak memiliki kebebasan untuk menyesuaikan penawarannya dengan keadaan. Karena itu, hukum penawaran dan permintaan mensyaratkan kebebasan sebagai prasyarat mutlak agar dapat berjalan.
 
 
 
-In a free economy, price plays an essential signaling role. In a vast market with a large population, economic agents need a compass to guide them through production, knowing what to produce, when to produce it, where to produce it and how to produce it. Price provides precisely this crucial information by assigning a value to the various productive combinations. As it rises or falls, it guides the self-interest of individuals towards the actions that will enable them to achieve maximum satisfaction while meeting the real needs of society. Profits and interest rates are also signals of need or lack of need for the various factors of production.
+Dalam perekonomian yang bebas, harga memainkan peran sinyal yang sangat penting. Di pasar yang luas dengan populasi besar, para pelaku ekonomi memerlukan semacam kompas untuk menuntun mereka dalam proses produksi: apa yang harus diproduksi, kapan memproduksinya, di mana memproduksinya, dan bagaimana memproduksinya. Harga memberikan informasi krusial ini dengan menetapkan nilai pada berbagai kombinasi faktor produksi. Ketika harga naik atau turun, ia mengarahkan kepentingan pribadi individu menuju tindakan-tindakan yang memungkinkan mereka mencapai kepuasan maksimal sekaligus memenuhi kebutuhan nyata masyarakat. Keuntungan dan tingkat bunga juga berfungsi sebagai sinyal atas kebutuhan atau kekurangan kebutuhan terhadap berbagai faktor produksi.
 
 
 
-### The programmed failure of centralized planning
+### Kegagalan terprogram dari perencanaan terpusat
 
 
 
-Paul Leroy-Beaulieu, writing in 1884, anticipated with remarkable foresight the great developments of communism in the twentieth century. His analysis demonstrated that socialism, by rejecting profit and replacing the price mechanism with a centralized machine directing both production and consumption, was condemning itself to blind operation. Without the price signal, centralized management has no way of knowing real human needs, nor of perceiving the effects of changes in those needs or in the supply of production. This absence of signals makes the failure of centralized production and collectivist distribution inevitable.
+Paul Leroy-Beaulieu, dalam tulisannya pada tahun 1884, dengan kejernihan pandangan yang luar biasa telah meramalkan perkembangan besar komunisme di abad ke-20. Analisisnya menunjukkan bahwa sosialisme, dengan menolak keuntungan dan menggantikan mekanisme harga dengan mesin terpusat yang mengarahkan produksi sekaligus konsumsi, sejatinya menghukum dirinya sendiri untuk beroperasi secara buta. Tanpa sinyal harga, manajemen terpusat tidak memiliki cara untuk mengetahui kebutuhan nyata manusia, maupun untuk menangkap dampak perubahan dalam kebutuhan tersebut atau dalam pasokan faktor produksi. Ketiadaan sinyal inilah yang membuat kegagalan produksi terpusat dan distribusi kolektivis menjadi tak terelakkan.
+
+
+Sebaliknya, mekanisme kebebasan memungkinkan produksi yang tepat waktu. Keuntungan yang tinggi mendorong produsen baru untuk ikut serta dalam pembuatan suatu barang, dan partisipasi ini terus berlanjut hingga jumlah produsen cukup untuk memenuhi tambahan permintaan. Sinyal harga—baik yang aktual maupun yang diperkirakan—memberi tahu seluruh pelaku pasar tentang apa yang harus diproduksi, di mana, dan bagaimana caranya. Koordinasi spontan ini juga meluas dalam ruang, melalui distribusi geografis antarnegara, serta dalam waktu, karena sinyal harga menunjukkan kapan suatu teknologi menjadi cukup bernilai untuk layak diusahakan.
+
+
+### Keunggulan waktu ekonomi dibandingkan waktu politik
 
 
 
-The operation of freedom, on the other hand, enables timely production. High profits encourage new producers to participate in the manufacture of a given product, and this participation continues until enough producers have stepped in to satisfy the additional demand. The potential or anticipated price signals to all market agents what is to be produced, where and how. This spontaneous coordination also extends over space, with geographical distribution between different countries, and over time, since the price signal indicates when a technology becomes sufficiently valued to be profitable.
+Dalam sistem kebebasan, kita dapat mengandalkan kepentingan diri dan kehendak bebas individu untuk mencari peluang baru sebaik mungkin. Pengejaran keuntungan ini secara alami melibatkan kegagalan dan proses coba-coba untuk membedakan peluang nyata dari peluang yang ternyata mengecewakan. Intervensionisme, di sisi lain, menggunakan sinyal politik, mengatur segala sesuatu sesuai dengan waktu politik dan keharusan elektoral. Dengan cara ini, kita berproduksi pada waktu yang bermanfaat secara politik, dengan investasi strategis berdasarkan gagasan bahwa Negara memahami kebutuhan laten dalam masyarakat.
 
 
 
-### The superiority of economic time over political time
+Keunggulan utama kebebasan ekonomi adalah produksi tidak pernah terlalu dini atau terlalu terlambat. Ketika beberapa pengusaha terlalu cepat membayangkan bahwa ada permintaan untuk suatu inovasi, ketiadaan keuntungan membuat mereka mengurungkan niat untuk mengejarnya, dan mereka tidak diikuti oleh pengusaha lain. Sebaliknya, ketika keuntungan sudah di depan mata, pengusaha ambisius mencoba eksperimen tersebut dan menemukan bahwa sumber daya konsumen tersedia. Mereka kemudian dengan cepat diikuti oleh pengusaha lain, setelah periode mempelajari teknik produksi baru. Dengan cara ini, semuanya dilakukan dalam waktu yang bermanfaat secara ekonomi, berdasarkan kepuasan nyata yang dituntut oleh konsumen, bukan berdasarkan kepuasan politik ideal yang tidak ada dalam kenyataan.
 
 
-
-In a system of freedom, we can rely on the self-interest and free will of individuals to seek out new opportunities as best they can. This pursuit of profit naturally involves failures and trial and error to distinguish real opportunities from those that turn out to be disappointing. Interventionism, on the other hand, uses political signals, organizing everything according to political time and electoral imperatives. In this way, we produce in a politically useful time, with strategic investments based on the idea that the State perceives latent needs in society.
-
-
-
-The decisive advantage of economic freedom is that production is never too early or too late. When some entrepreneurs prematurely imagine that a demand exists for an innovation, the absence of profits dissuades them from pursuing it, and they are not followed. Conversely, when profits are within reach, ambitious entrepreneurs try the experiment and discover that consumer resources are available. They are then quickly followed by others, after a period of learning new production techniques. In this way, everything is done in economically useful time, based on real satisfactions demanded by consumers, rather than on idealized political satisfactions that don't exist in reality.
-
-
-
-## Self-interest, innovation and progress
+## Kepentingan pribadi, inovasi, dan kemajuan
 
 
 <chapterId>958075af-fb8f-50d9-9bf5-4d9882e03072</chapterId>
@@ -849,56 +843,53 @@ The decisive advantage of economic freedom is that production is never too early
 
 
 
-### Self-interest at the heart of economic liberalism
+### Kepentingan pribadi sebagai inti dari liberalisme ekonomi
 
 
 
-Economic liberalism is based on a concept of self-interest that is often misunderstood and caricatured. Alexis de Tocqueville, in his book De la démocratie en Amérique, observes that American society is founded on the pursuit of self-interest, with the law giving free rein to this natural aspiration. However, Tocqueville also observes that the only egoism of which individuals are truly capable consists in forgetting the greater society in order to think of themselves and their own. This observation reveals a fundamental truth: self-interest can never be reduced to strict, geometric egoism.
+Liberalisme ekonomi didasarkan pada konsep kepentingan diri yang sering disalahpahami dan dikarikaturkan. Alexis de Tocqueville, dalam bukunya De la démocratie en Amérique, mengamati bahwa masyarakat Amerika didirikan atas dasar pengejaran kepentingan diri, dengan hukum memberikan kebebasan penuh pada aspirasi alami ini. Namun, Tocqueville juga mengamati bahwa satu-satunya egoisme yang benar-benar mampu dilakukan oleh individu adalah melupakan masyarakat yang lebih luas untuk memikirkan diri sendiri dan kepentingan mereka sendiri. Pengamatan ini mengungkapkan kebenaran mendasar: kepentingan diri tidak pernah dapat direduksi menjadi egoisme geometris yang ketat.
+
+
+Pada kenyataannya, manusia mampu memiliki egoisme yang luas, yang dimulai dari keluarga, kemudian meluas ke lingkaran kenalan, usaha kecil, atau sebuah perkumpulan. Berbicara tentang individu yang terperangkap dalam egoisme sempit tidak sesuai dengan fakta yang diamati sehari-hari. Kepentingan diri berakar dalam eksistensi manusia melalui serangkaian kesenangan dan penderitaan yang dirasakan dan diukur oleh setiap orang sesuai dengan persepsi individu, konstruksi pribadi, dan warisan genetiknya. Manusia tetap menjadi satu-satunya penentu sarana dan tujuan, yang merupakan dasar dari semua tindakan. Tindakan mengalir dari sensasi pribadi dan kemudian dari penalaran intelektual, semuanya diorganisir di sekitar individu dengan tujuan yang melampaui egoisme semata untuk mencakup dimensi keluarga dan sosial.
+
+
+### Kepentingan pribadi sebagai kekuatan pendorong kemajuan
 
 
 
-In reality, human beings are capable of a broad egoism, which begins with the family, then extends to a circle of acquaintances, a small business or an association. To speak of individuals entrenched in a narrow egoism does not correspond to the facts observed on a daily basis. Self-interest is rooted in human existence through the series of pleasures and sufferings that each person feels and measures according to his or her individual perception, personal construction and genetic heritage. The human person remains the sole judge of means and ends, which is the foundation of all action. Actions flow from personal sensations and then from intellectual reasoning, all organized around the individual with objectives that go beyond mere egoism to include family and social dimensions.
+Kepentingan pribadi adalah kekuatan pendorong di balik peningkatan proses dan pencarian kemajuan. Untuk memperkaya diri sendiri dan membawa kepuasan bagi diri sendiri dan orang lain, seseorang harus bertindak dengan cara yang bermanfaat, yang secara alami mengarah pada inovasi. Inovasi dan kemajuan menanggapi perubahan keadaan umat manusia, karena respons baru terhadap tantangan baru selalu dibutuhkan. Setiap peningkatan memodifikasi lingkungan ekonomi tempat manusia hidup, sehingga membutuhkan kombinasi baru untuk ditemukan. Perusahaan tidak dapat tetap statis, mereka harus terus berinovasi.
+
+
+Yves Guyot, salah satu tokoh besar terakhir liberalisme Prancis di akhir abad kesembilan belas, mendedikasikan buku pertamanya untuk peran penemu. Buku ini mengikuti logika fakta liberalisme, didorong oleh selera akan kepuasan tubuh dan pikiran. Individu secara alami mencari kepuasannya, dan untuk memperolehnya, ia harus mengatur aktivitasnya secara berbeda, menemukan kombinasi baru dan menanggapi bahaya. Masyarakat secara keseluruhan mengamati bahwa keadaan sedang berubah, dan kondisi produksi sedang berkembang, memungkinkan akses ke kekayaan tambahan dengan menanggapinya secara tercerahkan. Pengakuan bahwa perbaikan dimungkinkan ini sejalan dengan kesempurnaan manusia, keyakinan bahwa zaman keemasan tidak terletak di masa lalu tetapi di masa depan.
 
 
 
-### Self-interest as a driving force for progress
+### Negara dan ketidakmampuan strukturalnya untuk berinovasi
 
 
 
-Self-interest is a driving force behind process improvement and the quest for progress. To enrich oneself and bring satisfaction to oneself and others, one must act in a useful way, which naturally leads to innovation. Innovation and progress respond to humanity's changing circumstances, as new responses to new challenges are constantly required. Each improvement modifies the economic environment in which man lives, requiring new combinations to be found. Companies cannot be fixed, they must constantly innovate.
+Negara tidak berinovasi, dan fakta ini sangat penting. Masyarakat kuno seperti Mesir, di mana profesi diwariskan dari ayah ke anak, menggambarkan fenomena masyarakat yang kaku ini. Negara mereproduksi ketidakberinovasian ini melalui sifat fungsionalismenya sendiri. Negara bergantung pada aktivitas pegawai negeri sipil, yang tidak memiliki inisiatif pribadi atau imbalan yang sepadan dengan tindakan atau inovasi mereka. Karena semuanya diatur dalam peraturan, tidak ada kemauan maupun minat untuk berinovasi, dan sistem itu sendiri tidak dirancang untuk inovasi. Pendidikan nasional adalah ilustrasi sempurna dari prinsip ini: pendidikan nasional tidak dirancang untuk meningkatkan pengetahuan, tetapi hanya untuk mendistribusikan pengetahuan, yang dianggap sebagai aset yang harus disebarluaskan.
 
 
 
-Yves Guyot, one of the last great figures of French liberalism at the end of the nineteenth century, dedicated his first book to the role of the inventor. It follows the logic of the facts of liberalism, driven by a taste for the satisfactions of body and mind. The individual naturally seeks his satisfactions, and to obtain them, he must organize his activity differently, finding new combinations and responding to hazards. Society as a whole observes that circumstances are changing, and that production conditions are evolving, allowing access to additional wealth by responding to them in an enlightened way. This recognition that improvements are possible is in line with human perfectibility, the conviction that the golden age lies not in the past but in the future.
+Paul Leroy-Beaulieu, yang menulis pada tahun 1883, mengantisipasi seperti apa kolektivisme itu dan memprediksi bagaimana eksperimen komunis di Rusia dan tempat lain akan benar-benar berjalan. Ia menjelaskan bahwa sistem-sistem ini tidak dapat menunggu inovasi internal, dan harus puas dengan meniru inovasi dari luar. Dalam masyarakat semi-komunis, inovasi harus datang dari sektor-sektor bebas, karena tidak mungkin untuk berinovasi di sektor-sektor monopoli layanan publik. Memberi penghargaan atas kemajuan terbukti mustahil dalam sistem kolektivis, karena tidak ada apresiasi positif terhadap inovasi dan oleh karena itu tidak ada pilihan untuk memobilisasi sumber daya untuk kemajuan.
 
 
 
-### The State and its structural inability to innovate
+### Memberi penghargaan atas kemajuan di masyarakat bebas
 
 
 
-The state does not innovate, and this fact is of considerable importance. Ancient societies such as Egypt, where professions were handed down from father to son, illustrate this phenomenon of fixed societies. The State reproduces this non-innovation by its very nature of functionarism. It relies on the activities of civil servants, who have no personal initiative or remuneration commensurate with their action or innovation. As everything is laid down in regulations, there is neither the will nor the interest to innovate, and the system itself is not designed for innovation. National education is a perfect illustration of this principle: it is not designed to improve knowledge, but simply to distribute knowledge, conceived as an asset to be spread around.
+Dalam sistem kebebasan, kemajuan dihargai dengan berbagai cara. Keuntungan industri dan komersial adalah bentuk utamanya: ketika produk inovatif mencapai pasar, inovator, sebagai orang pertama yang mengusulkan solusi baru yang lebih baik dan lebih murah dalam memenuhi kebutuhan konsumen, menikmati semacam keuntungan sementara. Dalam masyarakat modern, penemu juga dikaitkan dengan kemuliaan, tidak seperti di masyarakat kuno di mana mereka dipandang rendah. Kemuliaan ini merupakan bentuk imbalan, sebanding dengan yang diterima oleh seniman besar, penyair, atau bahkan politisi, yang imbalan materiilnya seringkali rendah tetapi dilengkapi dengan prestise. Paten dan hak kekayaan intelektual juga memungkinkan kemajuan untuk dihargai melalui kepentingan pribadi.
 
 
 
-Paul Leroy-Beaulieu, writing in 1883, anticipated what collectivism would be like and predicted how communist experiments in Russia and elsewhere would actually work. He explains that these systems cannot wait for internal innovations, and must content themselves with copying those from outside. In semi-communist societies, innovation must come from the free sectors, as it is impossible to innovate in the monopolized sectors of public services. Rewarding progress proves impossible in the collectivist system, as there is no positive appreciation of innovation and therefore no choice to mobilize resources for progress.
-
-
-
-### Rewarding progress in free societies
-
-
-
-In systems of freedom, progress is rewarded in various ways. Industrial and commercial profits are the main form: when an innovative product reaches the market, the innovator, being the first to propose a new solution that satisfies consumer needs better and more cheaply, enjoys a kind of temporary rent. In modern societies, inventors are also associated with glory, unlike in ancient societies where they were frowned upon. This glory constitutes a form of remuneration, comparable to that received by great artists, poets or even politicians, whose material remuneration often remains low but is supplemented by prestige. Patents and intellectual property also enable progress to be remunerated through self-interest.
-
-
-
-In a free society, self-interest leads to innovation and progress. In a system of unfreedom, self-interest is dammed and shattered in favor of a pre-defined social interest. Innovation and progress are viewed critically, as they were in ancient societies, and it's thought sufficient to do what you know how to do. Communist societies don't allow individuals of genius, with different ideas that nobody initially believes in, to bring their projects to fruition. The march of innovation certainly involves many failures, but also many successes which, in a system of freedom based on contracts and voluntary exchange, lead to that perfectibility spoken of by eighteenth-century liberals.
+Dalam masyarakat yang bebas, kepentingan pribadi mendorong inovasi dan kemajuan. Dalam sistem yang tidak bebas, kepentingan pribadi justru ditekan dan dihancurkan demi apa yang disebut sebagai kepentingan sosial yang sudah ditentukan sebelumnya. Inovasi dan kemajuan dipandang dengan curiga, seperti dalam masyarakat kuno, dan dianggap cukup hanya melakukan apa yang sudah biasa dilakukan. Masyarakat komunis tidak memberi ruang bagi individu-individu jenius dengan ide-ide berbeda yang awalnya tidak dipercaya orang, untuk mewujudkan gagasan mereka. Perjalanan inovasi memang penuh dengan kegagalan, tetapi juga menghasilkan banyak keberhasilan. Dalam sistem kebebasan yang didasarkan pada kontrak dan pertukaran sukarela, keberhasilan inilah yang membawa manusia menuju kemajuan terus-menerus, seperti yang dibicarakan oleh kaum liberal abad ke-18.
 
 
 
 
-## Harmony of interests and peace
+## Harmoni kepentingan dan perdamaian
 
 
 <chapterId>370f4e98-021b-5c81-a109-3b57b689905f</chapterId>
@@ -908,52 +899,49 @@ In a free society, self-interest leads to innovation and progress. In a system o
 
 
 
-### Harmony of interests: a historical construct
+### Harmoni kepentingan: sebuah konstruksi historis
 
 
 
-The notion of harmony of interests is a fundamental pillar of liberal thought, although it is frequently dismissed with skepticism by its opponents. The latter often regard the idea as a utopian, unrealistic dream, based on the premise that human interests are fundamentally antagonistic. But this view is based on an erroneous assessment of reality and an incomplete reading of history. To understand this harmony, we first need to examine the circumstances in which human interests are actually in opposition.
+Gagasan tentang harmoni kepentingan adalah pilar fundamental pemikiran liberal, meskipun seringkali ditolak dengan skeptisisme oleh para penentangnya. Para penentang tersebut sering menganggap gagasan ini sebagai mimpi utopis dan tidak realistis, berdasarkan premis bahwa kepentingan manusia pada dasarnya saling bertentangan. Namun pandangan ini didasarkan pada penilaian realitas yang keliru dan pembacaan sejarah yang tidak lengkap. Untuk memahami harmoni ini, kita perlu terlebih dahulu memeriksa keadaan di mana kepentingan manusia sebenarnya saling bertentangan.
+
+
+Pada zaman awal umat manusia, manusia mendapati diri mereka bersaing langsung untuk mendapatkan sumber daya terbatas yang tidak dihasilkan oleh siapa pun. Alam menawarkan pohon buah-buahan, ikan di sungai dan danau, sumber daya di tepi pantai, tetapi tidak ada masyarakat manusia yang menciptakan kekayaan ini. Dalam konteks ini, perebutan dilakukan dengan kekerasan dan penghancuran, bukan dengan produksi, yang menyebabkan persaingan sengit karena masing-masing berusaha mengambil bagian yang lain. Pada masa itu, hanya ada satu cara untuk menjadi kaya: mengambil apa yang dimiliki tetangga Anda, atau bersaing untuk mendapatkan akses ke sumber daya alam.
 
 
 
-In the first ages of mankind, human beings found themselves in direct competition for limited resources that nobody had produced. Nature offered fruit trees, fish in rivers and lakes, resources on the seashore, but no human society had created these riches. In this context, appropriation was by force and destruction rather than by production, leading to violent competition as each sought to take the other's share. In those days, there was only one way to get rich: take what your neighbor had, or compete for access to natural resources.
+### Lahirnya pertukaran dan produksi secara damai
 
 
 
-### The birth of peaceful exchange and production
+Gagasan modern didasarkan pada prinsip yang sangat berbeda: produksi utilitas baru. Sejak munculnya pertanian, ketika ladang gandum menjadi sumber kekayaan, pertukaran sukarela yang sesungguhnya lahir, memperkaya kedua belah pihak. Produksi barang baru yang tidak merusak ini secara mendalam mengubah hubungan antar manusia. Hubungan yang didasarkan pada kontrak, penghormatan terhadap hak orang lain, dan pertukaran sukarela kini membentuk rantai harmoni di dunia dan di masyarakat, seperti yang ditekankan oleh Abbé de Saint-Pierre, misalnya, dalam tradisi liberal Prancis.
 
 
 
-The modern idea is based on a radically different principle: the production of new utilities. From the moment agriculture appears, when the wheat field becomes a source of wealth, truly voluntary exchanges are born, enriching both parties. This new, non-destructive production of goods profoundly transformed human relations. Relationships based on contract, respect for the rights of others and voluntary exchange now form a chain of harmony in the world and in societies, as the Abbé de Saint-Pierre, for example, emphasized in the French liberal tradition.
+Harmoni ini telah dibangun secara bertahap, berkat sejumlah faktor yang saling berkaitan. Terbukanya dunia, teknologi transportasi yang memungkinkan pertukaran yang lebih teratur dan luas, dan keamanan yang menjamin kelancaran hubungan komersial telah memungkinkan munculnya rantai harmoni ini antara pemasok, pelanggan, dan semua pelaku ekonomi. Saling ketergantungan ini menjadi sangat jelas pada saat krisis: bencana alam atau konflik bersenjata di belahan dunia lain segera menyebabkan kemiskinan bagi semua peserta dalam pertukaran tersebut. Perang Saudara Amerika pada abad kesembilan belas adalah ilustrasi sempurna dari fenomena ini, yang membawa kehancuran bagi banyak industri tekstil di Eropa, terutama di Lyon, hanya dengan memutuskan hubungan perdagangan.
 
 
 
-This harmony has been built up gradually, thanks to a number of converging factors. The opening up of the world, transport technologies enabling more regular and extensive exchanges, and security guaranteeing the smooth running of commercial relations have enabled the emergence of this chain of harmony between suppliers, customers and all economic agents. This interdependence becomes particularly apparent in times of crisis: a natural disaster or armed conflict on the other side of the world immediately leads to impoverishment for all participants in the exchange. The American Civil War of the nineteenth century is a perfect illustration of this phenomenon, which brought ruin to many textile industries in Europe, notably in Lyon, simply by severing trade relations.
+### Perdamaian internasional sebagai syarat kemakmuran
+
+
+Kebutuhan akan perdamaian internasional mengalir secara logis dari harmoni global ini. Karena perdagangan adalah permainan yang menguntungkan semua pihak secara timbal balik, maka menjaga keamanan baik di dalam masyarakat maupun antar negara menjadi sangat penting. Setiap gangguan terhadap tatanan ekonomi global menyebabkan gangguan yang bergema di seluruh sistem pertukaran. Kecelakaan, krisis, bencana iklim, dan terutama perang, dengan mengganggu tatanan produksi di negara-negara yang terkena dampaknya, memiskinkan seluruh penduduk dunia. Gustave de Molinari, dalam karyanya di akhir abad ke-19, menyerukan perang melawan perang itu sendiri.
 
 
 
-### International peace as a condition for prosperity
+Memang, dampak konflik terhadap masyarakat non-peperang jauh lebih lemah di masa lalu. Pada abad ke-15 atau ke-16, konflik bersenjata di Afrika atau Asia hampir tidak akan memengaruhi penduduk Eropa, karena lingkup pertukaran tetap terbatas dan masyarakat hidup dalam kemandirian relatif. Saat ini, meningkatnya saling ketergantungan membuat perang semakin merugikan semua orang, yang secara paradoks merupakan argumen kuat untuk mendukung perdamaian.
+
+
+### Menuju pembelajaran kolektif untuk perdamaian
 
 
 
-The need for international peace flows logically from this global harmony. Since trade is a positive-sum game in which all parties mutually enrich each other, it becomes imperative to maintain security both within societies and between nations. Any disruption to the global economic order causes a nuisance that reverberates throughout the exchange system. Accidents, crises, climatic hazards and above all wars, by upsetting the order of production in the countries affected, impoverish the entire world population. Gustave de Molinari, in his late nineteenth-century work, calls for a war on war itself.
-
-
-
-Admittedly, the effects of conflict on non-belligerent societies were much weaker in the past. In the fifteenth or sixteenth century, armed conflict in Africa or Asia would hardly have affected European populations, as the sphere of exchange remained restricted and societies lived in relative self-sufficiency. Today, increasing interdependence makes war increasingly harmful for everyone, which paradoxically constitutes a powerful argument in favor of peace.
-
-
-
-### Towards collective learning for peace
-
-
-
-The transition to a peaceful society is a long learning process. Human societies are still marked by ancient concepts of production through violence, conquest, hunting and gathering. New concepts of peaceful production, exchange and harmony must now be learned and disseminated. French liberal authors propose several resources to underpin this peaceful dimension of liberalism: the mobilization of public opinion to teach world harmony and mutually beneficial relations, the establishment of institutions guaranteeing the rule of law on an international scale, and the promotion of free trade to make this chain of harmony more perceptible. Liberalism thus presents itself as that great harmonious chain of exchanges and contracts, founded on freedom and property, enabling progress and improving the situation of every individual.
+Transisi menuju masyarakat yang damai adalah proses pembelajaran yang panjang. Masyarakat manusia masih ditandai oleh konsep-konsep kuno tentang produksi melalui kekerasan, penaklukan, berburu, dan mengumpulkan. Konsep-konsep baru tentang produksi, pertukaran, dan harmoni yang damai kini harus dipelajari dan disebarluaskan. Para penulis liberal Prancis mengusulkan beberapa sumber daya untuk mendukung dimensi damai liberalisme ini: mobilisasi opini publik untuk mengajarkan harmoni dunia dan hubungan yang saling menguntungkan, pembentukan lembaga-lembaga yang menjamin supremasi hukum dalam skala internasional, dan promosi perdagangan bebas untuk membuat rantai harmoni ini lebih terlihat. Dengan demikian, liberalisme menampilkan dirinya sebagai rantai pertukaran dan kontrak yang harmonis, yang didasarkan pada kebebasan dan kepemilikan, yang memungkinkan kemajuan dan meningkatkan situasi setiap individu.
 
 
 
 
-## The different varieties of unfreedom
+## Berbagai Macam Ketidakbebasan
 
 
 <chapterId>747ec342-bccd-5203-a198-c6e75505801b</chapterId>

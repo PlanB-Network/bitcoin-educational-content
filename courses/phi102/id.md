@@ -1,8 +1,7 @@
 ---
 name: Freedom as a social project
-goal: Understand the philosophical and historical foundations of individual freedom
-objectives: 
-
+goal: Memahami landasan filosofis dan historis dari kebebasan individu
+objectives:
 
   - Identify the fundamental human facts that justify freedom and property
   - Analyze the historical evolution of freedom from primitive societies to the present day

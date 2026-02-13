@@ -1013,7 +1013,7 @@ Sistem ketidakbebasan ditandai dengan ketidaksetaraan: beberapa individu dengan 
 
 
 
-Pada abad ke-19, terutama di bawah pengaruh penulis Jerman, berkembanglah sebuah konsepsi tentang negara yang menggambarkannya sebagai semacam dewa duniawi. Visi yang penuh khayalan ini mengaitkan kualitas-kualitas kuasi-supernatural dengan negara, menggambarkannya sebagai makhluk yang tak berwujud, superior, tanpa cacat manusia, yang mampu mengarahkan masyarakat dengan pandangan jauh ke depan yang luar biasa. Para pendukung konsepsi ini dengan mudah membandingkan negara dengan otak dari tubuh sosial, memberikannya kapasitas untuk melihat ke depan dan mengarahkan yang tidak mungkin dimiliki oleh individu.
+Pada abad ke-19, terutama di bawah pengaruh penulis Jerman, berkembanglah sebuah konsepsi tentang negara yang menggambarkannya sebagai semacam dewa duniawi.Visi fantasi ini mengaitkan kualitas quasi-supranatural pada negara, menggambarkannya sebagai makhluk yang tak berwujud, superior, tanpa cacat manusia, yang mampu mengarahkan masyarakat dengan pandangan jauh ke depan yang luar biasa. Para pendukung konsepsi ini dengan mudah membandingkan negara dengan otak dari tubuh sosial, memberikannya kapasitas untuk melihat ke depan dan mengarahkan yang tidak mungkin dimiliki oleh individu.
 
 
 
@@ -1526,8 +1526,7 @@ Kita juga bisa membalikkan argumen warisan terhadap kaum sosialis dengan menanya
 
 
 
-Analisis ini juga memungkinkan kita untuk memahami bagaimana sistem yang tidak bebas merusak otonomi individu. Pajak, ketika melebihi kontribusi yang sah atas jasa yang diberikan, merupakan bentuk agresi teritorial terhadap properti individu. Regulasi juga merupakan bentuk perampasan, seperti ketika pemilik rumah dilarang mengecat rumahnya dengan warna yang ia inginkan. Intervensi-intervensi ini merampas hak milik kita sendiri, baik itu hak milik atas diri kita sendiri, atas barang, atau atas tanah. Kekeliruan internasional dengan demikian mengungkapkan pengakuan properti yang bervariasi, di mana negara dan bangsa mendapat manfaat dari perlindungan properti kolektif mereka, sementara individu yang memperoleh barang melalui kerja dan pertukaran harus menanggung regulasi, pengawasan, dan pengawasan.
-
+Analisis ini juga memungkinkan kita untuk memahami bagaimana sistem yang tidak bebas merusak otonomi individu. Pajak, ketika melebihi kontribusi yang sah atas jasa yang diberikan, merupakan bentuk agresi teritorial terhadap properti individu. Regulasi juga merupakan bentuk perampasan, seperti ketika pemilik rumah dilarang mengecat rumahnya dengan warna yang ia inginkan. Intervensi-intervensi ini merampas hak milik kita sendiri, baik itu hak milik atas diri kita sendiri, atas barang, atau atas tanah. Kekeliruan internasional dengan demikian mengungkapkan pengakuan properti yang bervariasi, di mana negara dan bangsa mendapat manfaat dari perlindungan properti kolektif mereka, sementara individu yang memperoleh barang melalui kerja dan pertukaran harus menanggung regulasi, pengawasan, dan bimbingan.
 
 
 # Filosofi liberalisme

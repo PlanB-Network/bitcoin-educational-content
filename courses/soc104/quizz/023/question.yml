@@ -12,9 +12,10 @@ proofreading:
       - jramos
     reward: 0.15
   - language: fr
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
+      - therancedognon-max
     reward: 0.29
   - language: bg
     last_contribution_date:
@@ -57,9 +58,10 @@ proofreading:
     contributor_names:
     reward: 0.58
   - language: id
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
+      - 62maximalist
     reward: 0.49
   - language: it
     last_contribution_date:
@@ -118,9 +120,10 @@ proofreading:
     contributor_names:
     reward: 0.29
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
+      - monyangi10
     reward: 0.39
   - language: tr
     last_contribution_date:

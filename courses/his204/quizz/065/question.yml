@@ -6,10 +6,11 @@ author: Rearden78
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2025-05-17
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
       - Rearden78
+      - therancedognon-max
     reward: 0.08
   - language: cs
     last_contribution_date:
@@ -132,14 +133,16 @@ proofreading:
     contributor_names:
     reward: 0.23
   - language: rn
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
+      - Dahl23
     reward: 0.27
   - language: bg
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
+      - dnabg
     reward: 0.2
   - language: th
     last_contribution_date:

@@ -60,9 +60,10 @@ proofreading:
       - f205sats
     reward: 0.09
   - language: ja
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
+      - yutaro21jp
     reward: 0.29
   - language: nb-NO
     last_contribution_date:

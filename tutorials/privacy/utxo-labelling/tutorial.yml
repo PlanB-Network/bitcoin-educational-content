@@ -40,10 +40,11 @@ proofreading:
     contributor_names:
     reward: 2.21
   - language: fr
-    last_contribution_date: 2024-09-01
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
       - Asi0Flammeus
+      - CarlAdm12
     reward: 0.75
   - language: it
     last_contribution_date: '2025-12-29'
@@ -153,9 +154,10 @@ proofreading:
     contributor_names:
     reward: 3.62
   - language: bg
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
+      - dnabg
     reward: 2.21
   - language: th
     last_contribution_date:

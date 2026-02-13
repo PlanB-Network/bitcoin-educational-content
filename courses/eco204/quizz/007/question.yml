@@ -23,9 +23,10 @@ proofreading:
       - 2raj2raj
     reward: 0
   - language: es
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
+      - Salgraphics
     reward: 0.27
   - language: fi
     last_contribution_date:
@@ -84,9 +85,10 @@ proofreading:
     contributor_names:
     reward: 0.43
   - language: pl
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
+      - MisinhaP
     reward: 0.35
   - language: hi
     last_contribution_date:
@@ -140,9 +142,10 @@ proofreading:
     contributor_names:
     reward: 0.51
   - language: bg
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
+      - dnabg
     reward: 0.35
   - language: th
     last_contribution_date:

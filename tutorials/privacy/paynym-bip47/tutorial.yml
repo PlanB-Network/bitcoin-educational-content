@@ -24,10 +24,11 @@ original_language: fr
 
 proofreading:
   - language: fr
-    last_contribution_date: 2025-11-11
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
       - LoicPandul
+      - CarlAdm12
     reward: 0.62
   - language: cs
     last_contribution_date:

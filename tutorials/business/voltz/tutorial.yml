@@ -18,10 +18,11 @@ license: CC-BY-SA-V4
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2025-12-16
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
       - heyolaniran
+      - therancedognon-max
     reward: 0.61
   - language: bg
     last_contribution_date:

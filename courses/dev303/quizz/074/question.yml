@@ -27,9 +27,10 @@ proofreading:
     contributor_names:
     reward: 0.28
   - language: es
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
+      - Truja503
     reward: 0.28
   - language: et
     last_contribution_date:
@@ -47,9 +48,10 @@ proofreading:
     contributor_names:
     reward: 0.38
   - language: fr
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
+      - JosephQuaye
     reward: 0.28
   - language: hi
     last_contribution_date:
@@ -117,9 +119,10 @@ proofreading:
     contributor_names:
     reward: 0.28
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
+      - Tinnah924
     reward: 0.38
   - language: tr
     last_contribution_date:

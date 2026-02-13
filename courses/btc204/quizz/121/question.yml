@@ -70,9 +70,10 @@ proofreading:
     contributor_names:
     reward: 0.14
   - language: ja
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
+      - yutaro21jp
     reward: 0.2
   - language: ko
     last_contribution_date:
@@ -85,9 +86,10 @@ proofreading:
     contributor_names:
     reward: 0.16
   - language: nl
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
+      - Trabolo
     reward: 0.16
   - language: pl
     last_contribution_date:
@@ -135,9 +137,10 @@ proofreading:
     contributor_names:
     reward: 0.2
   - language: zh-Hans
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
+      - MilankovicProtocol
     reward: 0.18
   - language: zh-Hant
     last_contribution_date:

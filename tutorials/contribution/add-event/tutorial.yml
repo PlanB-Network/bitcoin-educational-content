@@ -69,9 +69,10 @@ proofreading:
     contributor_names:
     reward: 1.78
   - language: vi
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
+      - nphuly
     reward: 2.91
   - language: id
     last_contribution_date:

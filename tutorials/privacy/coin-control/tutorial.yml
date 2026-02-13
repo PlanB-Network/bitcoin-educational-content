@@ -66,9 +66,10 @@ proofreading:
     contributor_names:
     reward: 4.28
   - language: fr
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
+      - CarlAdm12
     reward: 2.89
   - language: hi
     last_contribution_date:
@@ -116,9 +117,10 @@ proofreading:
     contributor_names:
     reward: 2.89
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
+      - Tinnah924
     reward: 4.28
   - language: vi
     last_contribution_date:
@@ -156,9 +158,10 @@ proofreading:
     contributor_names:
     reward: 7.07
   - language: bg
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
+      - dnabg
     reward: 4.28
   - language: th
     last_contribution_date:

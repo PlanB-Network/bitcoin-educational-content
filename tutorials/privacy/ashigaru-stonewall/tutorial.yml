@@ -21,10 +21,11 @@ project_id: 16385d20-a3e4-48c7-be88-2d4a80be9389
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2025-11-12
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
       - LoicPandul
+      - CarlAdm12
     reward: 0.7
   - language: cs
     last_contribution_date:
@@ -128,9 +129,10 @@ proofreading:
     contributor_names:
     reward: 1.4
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
+      - Tinnah924
     reward: 2.05
   - language: tr
     last_contribution_date:
@@ -153,9 +155,10 @@ proofreading:
     contributor_names:
     reward: 2.7
   - language: bg
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
+      - dnabg
     reward: 2.05
   - language: th
     last_contribution_date:

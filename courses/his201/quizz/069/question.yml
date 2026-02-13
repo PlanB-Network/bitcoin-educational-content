@@ -56,9 +56,10 @@ proofreading:
       - Bitman-ops
     reward: 0.08
   - language: ja
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
+      - yutaro21jp
     reward: 0.27
   - language: nb-NO
     last_contribution_date:
@@ -81,9 +82,10 @@ proofreading:
     contributor_names:
     reward: 0.27
   - language: zh-Hans
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
+      - MilankovicProtocol
     reward: 0.24
   - language: pl
     last_contribution_date:

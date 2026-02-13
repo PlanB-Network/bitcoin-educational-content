@@ -18,10 +18,11 @@ license: CC-BY-SA-V4
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2025-10-14
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
       - heyolaniran
+      - CarlAdm12
     reward: 0.51
   - language: cs
     last_contribution_date:
@@ -125,9 +126,10 @@ proofreading:
     contributor_names:
     reward: 1.03
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
+      - Tinnah924
     reward: 1.49
   - language: tr
     last_contribution_date:
@@ -150,9 +152,10 @@ proofreading:
     contributor_names:
     reward: 1.96
   - language: bg
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
+      - dnabg
     reward: 1.49
   - language: th
     last_contribution_date:

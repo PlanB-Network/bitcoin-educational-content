@@ -1,0 +1,25 @@
+id: 00aa7c68-2757-406a-a46a-25d418000d67
+start_date: 2026-05-23 13:00:00
+end_date: 2026-05-23 18:00:00
+timezone: Asia/Taipei
+address_city_country: Taipei, Taiwan
+address_line_2: Tempo House
+address_line_3: 
+name: Asia Bitcoin Squad 2026
+type: meetup
+book_online: true
+book_in_person: false
+price_dollars: 0
+description: |
+  Asia Bitcoin Squad brings together Bitcoin builders, educators, and community leaders from across Asian regions. The inaugural annual meetup focuses on regional insights, builder-to-builder coordination, and practical collaboration on operational challenges including wallets, Lightning services, and node operations across Korea, Taiwan, Japan, Indonesia, Vietnam, Thailand, and Hong Kong.
+language:
+  - en
+links:
+  website: https://www.btcsquad.asia/
+  replay_url: 
+  live_url: 
+project_id: 902df657-0a34-4d3c-8592-42fb6bf1f4bb
+tags:
+  - adoption
+  - innovation
+  - decentralization

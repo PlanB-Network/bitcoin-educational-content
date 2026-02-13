@@ -1,0 +1,23 @@
+id: 69768aec-f569-4099-b3be-ac1d80d76911
+start_date: 2025-06-15 09:00:00
+end_date: 2025-06-15 18:00:00
+timezone: UTC
+address_city_country: Test, Country
+address_line_2: 
+address_line_3: 
+name: Test Event
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: |
+  Test event description
+language:
+  - en
+links:
+  website: https://example.com
+  replay_url: 
+  live_url: 
+project_id: fb35e7f0-d386-4156-b245-69ac2252ad91
+tags:
+  - high-level

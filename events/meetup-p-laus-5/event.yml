@@ -1,0 +1,26 @@
+id: 81ef094c-5b92-4cc3-b1a0-39a3dc0e882f
+start_date: 2026-02-21 16:00:00
+end_date: 2026-02-21 20:00:00
+timezone: Europe/Copenhagen
+address_city_country: Frederiksberg, Denmark
+address_line_2: Falkoner Alle 24a
+address_line_3: 2000 Frederiksberg
+name: Meetup pÃ¥ Lau's #5
+type: meetup
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: |
+  A casual Bitcoin meetup at Lau's (formerly CafÃ© Kodan) in Copenhagen. Attendees can order beer, coffee, or other items and pay with bitcoin. This is the fifth edition of this recurring community meetup focused on bringing together local Bitcoin enthusiasts.
+  
+  Warning: information may change. Booking and up-to-date information are on SATLANTIS.
+language:
+  - da
+links:
+  website: https://www.satlantis.io/events/1734/Meetup-p%C3%A5-Lau's--%235
+  replay_url: 
+  live_url: 
+project_id: 24d104b5-0667-4b31-9ef4-f70de9844a02
+tags:
+  - adoption
+  - use-case

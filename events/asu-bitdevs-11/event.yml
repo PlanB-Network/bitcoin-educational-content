@@ -5,7 +5,7 @@ timezone: America/Asuncion
 address_city_country: Asunción, Paraguay
 address_line_2: Juan de Salazar 372, entre Artigas y
 address_line_3: El Granel
-name: ASU: BitDevs #11
+name: "ASU: BitDevs #11"
 type: meetup
 book_online: false
 book_in_person: false

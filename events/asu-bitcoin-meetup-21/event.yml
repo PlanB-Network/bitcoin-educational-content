@@ -3,9 +3,9 @@ start_date: 2026-03-04 20:30:00
 end_date: 2026-03-05 00:30:00
 timezone: America/Asuncion
 address_city_country: Fernando de la Mora, Paraguay
-address_line_2: The Hop: Craft Beer House
+address_line_2: "The Hop: Craft Beer House"
 address_line_3: 10 de Julio casi, Fernando de la Mora 110308, Paraguay
-name: ASU: Bitcoin Meetup #21
+name: "ASU: Bitcoin Meetup #21"
 type: meetup
 book_online: false
 book_in_person: false

@@ -44,9 +44,10 @@ proofreading:
     contributor_names:
     reward: 3.36
   - language: es
-    last_contribution_date:
+    last_contribution_date: '2025-07-28'
     urgency: 1
     contributor_names:
+      - Salgraphics
     reward: 3.36
   - language: et
     last_contribution_date:

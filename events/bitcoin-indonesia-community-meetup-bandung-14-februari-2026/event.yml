@@ -1,0 +1,27 @@
+id: fe6673db-9985-4d92-b75f-53b17699c17c
+start_date: 2026-02-14 10:00:00
+end_date: 2026-02-14 14:00:00
+timezone: Asia/Jakarta
+address_city_country: Bandung, Indonesia
+address_line_2: Jl. Bungur No.5, Cipedes, Kec. Sukajadi
+address_line_3: Jawa Barat 40162
+name: Bitcoin Indonesia Community Meetup Bandung 14 Februari 2026
+type: meetup
+book_online: true
+book_in_person: false
+price_dollars: 0
+description: |
+  A community meetup focused on managing finances for loved ones with Bitcoin integration. Participants will discuss financial preparedness, communication, and long-term planning from a care perspective. The session explores how Bitcoin can be realistically integrated into family financial management, emphasizing safety and preparedness for future generations.
+  
+  Warning: information may change. Booking and up-to-date information are on SATLANTIS.
+language:
+  - en
+links:
+  website: https://www.eventbrite.com/e/bitcoin-indonesia-community-meetup-bandung-14-februari-2026-tickets-1980084158019
+  replay_url: 
+  live_url: 
+project_id: 3d29cc70-3c87-4239-998d-70bc4ee3e0c8
+tags:
+  - adoption
+  - finance
+  - use-case

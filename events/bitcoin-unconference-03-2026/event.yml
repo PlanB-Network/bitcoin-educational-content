@@ -1,0 +1,25 @@
+id: ac00a203-05f7-4a54-b174-614b35a7c12a
+start_date: 2026-04-04 08:00:00
+end_date: 2026-04-04 18:00:00
+timezone: Africa/Nairobi
+address_city_country: Nairobi, Kenya
+address_line_2: Sarit Centre, Lower Kabete Rd
+address_line_3: 
+name: Bitcoin Unconference 03 2026
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: |
+  Bitcoin Unconference 03 brings together grassroots Bitcoin projects from across East Africa in Nairobi. This free-entry event, supported by My First Bitcoin, provides a platform for young upcoming projects to showcase their work, build confidence, and learn from experienced builders. Over 10 grassroots projects will be featured, covering apps, educational platforms, and circular economies.
+language:
+  - en
+links:
+  website: https://thecore.africa/
+  replay_url: 
+  live_url: 
+project_id: ca026510-2a39-4724-bc4a-fe05e219f0f5
+tags:
+  - adoption
+  - innovation
+  - case-studies

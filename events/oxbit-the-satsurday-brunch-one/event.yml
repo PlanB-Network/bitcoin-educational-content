@@ -1,0 +1,26 @@
+id: 191656cb-bf6e-4872-aefe-892dc06b2028
+start_date: 2026-02-21 12:00:00
+end_date: 2026-02-21 15:00:00
+timezone: Europe/London
+address_city_country: Oxford, UK
+address_line_2: 109 Magdalen Rd, Oxford OX4 1RQ, UK
+address_line_3: Taste Tibet
+name: OxBit - The 'SATSurday Brunch' One
+type: meetup
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: |
+  A Saturday brunch meetup for the Bitcoin community at Taste Tibet in Oxford. This social gathering combines Tibetan cuisine with Bitcoin education and community building in a relaxed brunch setting.
+  
+  Warning: information may change. Booking and up-to-date information are on SATLANTIS.
+language:
+  - en
+links:
+  website: https://www.satlantis.io/events/1730/OxBit---The-'SATSurday-Brunch'-One
+  replay_url: 
+  live_url: 
+project_id: 5d9c1c26-1515-4044-97fa-b00a7b2b4910
+tags:
+  - adoption
+  - good-practice

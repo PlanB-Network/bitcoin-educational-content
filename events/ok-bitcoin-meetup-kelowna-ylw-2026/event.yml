@@ -1,0 +1,27 @@
+id: 5eb23237-910a-4c98-8bb9-d651ad553a11
+start_date: 2026-02-17 18:00:00
+end_date: 2026-02-17 20:00:00
+timezone: America/Los_Angeles
+address_city_country: Kelowna, Canada
+address_line_2: 1851 Kirschner Rd #101, Kelowna, BC V1Y 4N7
+address_line_3: Porter's
+name: OK Bitcoin Meetup - Kelowna (YLW) 2026
+type: meetup
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: |
+  A Bitcoin First Principles Night featuring a 20-minute talk on why Bitcoin matters, returning to core fundamentals beyond hype and price. Includes an OK Bitcoin community update and open Q&A session welcoming everyone from complete beginners to experienced bitcoiners in the Okanagan region.
+  
+  Warning: information may change. Booking and up-to-date information are on SATLANTIS.
+language:
+  - en
+links:
+  website: https://okbtc.ca
+  replay_url: 
+  live_url: 
+project_id: b65ff910-c3c7-4a43-8792-83aaf5573a60
+tags:
+  - adoption
+  - innovation
+  - easy-explain

@@ -1313,7 +1313,7 @@ Iciyumviro nyamukuru co kwibuka muri iki gice ni uko turiko turavuga cane cane *
 
 
 
-## Ingingo z'inzego n'ibiceri vya mbere
+## Ukugira uruhara Rwinzego hamwe ni biceri vyamahera vyambere
 
 
 <chapterId>3e1efd08-99e3-5a32-9908-3185fef0e640</chapterId>
@@ -1322,7 +1322,7 @@ Iciyumviro nyamukuru co kwibuka muri iki gice ni uko turiko turavuga cane cane *
 
 :::video id=84847cf6-9e46-4a8c-9f35-25a27496cc4b:::
 
-### Kamere y'amahera ibiri
+### Kamere zibiri zamahera
 
 
 
@@ -1330,11 +1330,11 @@ Kuza kw’amahera y’ubuhinga bwa none biravyura ikibazo nyamukuru: amahera yob
 
 
 
-Ku ruhande rumwe, ishure ry’ubutunzi ryo muri Otirishiya riburanira iciyumviro c’uko amahera y’ibicuruzwa - cane cane inzahabu - yatowe mu buryo busanzwe n’abakozi b’ubutunzi kubera kamere zayo z’imbere: ugukomera, ugutwara, ugugabanywa n’uguhinduka. Uvuye muri ivyo, Leta yaciye yifatanya n’ayo mafaranga yihuta kugira ngo igenzure ukuntu atanga. Ni ikigo kiva mu bisanzwe mu bikenewe n’isoko imbere y’uko gifatwa n’ububasha bwa politike.
+Ku ruhande rumwe, ishure ry’ubutunzi ryo muri autriche riburanira iciyumviro c’uko amahera y’ibicuruzwa - cane cane inzahabu - yatowe mu buryo busanzwe n’abahinga b’ubutunzi kubera kamere kazo k’imbere: ugukomera, ukoroha guhatwara, kugaburikwa n’uguhindurwa. Uvuye muri ivyo, Leta yaciye yifatanya n’ayo mafaranga abanguka kugira ngo igenzure ukuntu atangwa. Ni ikigo kiva mu bisanzwe mu bikenewe n’isoko imbere y’uko gifatwa n’ububasha bwa politike.
 
 
 
-Mu buryo butandukanye n’ubwo, iciyumviro c’abahinga mu vy’imico kama n’inzego z’ubutegetsi kivuga yuko amahera abaho vy’ukuri biciye ku biceri vya Leta. Ubutegetsi bworemye ayo mafaranga buzi neza mu gushiramwo ikidodo cayo, gutyo bugahindura ico cuma kikaba igikoresho nyakuri co gukoresha amahera. Ivyo vyerekana ko ibiceri vya kera vy’i Lidiya vyakoreshwa canecane mu kuriha ingabo - stater imwe ihuye n’umushahara w’umusi w’umusirikare.
+Mu buryo butandukanye n’ubwo, iciyumviro c’abahinga mu vy’imico kama n’inzego z’ubutegetsi kivuga yuko amahera abaho vy’ukuri biciye ku biceri vya Leta. Ubutegetsi bworemye ayo mafaranga buzi neza mu gushiramwo ikidodo cayo, gutyo bugahindura ico cuma kikaba igikoresho nyakuri co gukoresha amahera. Ivyo vyerekana ko ibiceri vya kera vy’aba  lydiennes vyakoreshwa canecane mu kuriha ingabo - statère (ubwoko bwamahera ya kera) imwe ihuye n’umushahara w’umusi w’umusirikare.
 
 
 
@@ -1342,7 +1342,7 @@ Mu buryo butandukanye n’ubwo, iciyumviro c’abahinga mu vy’imico kama n’i
 
 
 
-Naho hariho iyo ntambara y’ivyiyumviro, mbere n’abahinga mu vy’ubutunzi bo muri Otirishiya baratahura ivyiza bimwebimwe biva ku kwivanga mu vy’amahera Leta. Gushiramwo ibintu bimwe bimwe biciye mu gukora amabuye y’agaciro biratorera umuti ingorane zitari nke z’ubudandaji zikora.
+Naho hariho iyo ntambara y’ivyiyumviro, mbere n’abahinga mu vy’ubutunzi bo muri autriche baratahura ivyiza bimwebimwe biva ku kwivanga mu vy’amahera Leta. Gushiramwo ibintu bimwe bimwe biciye mu gukora amabuye y’agaciro biratorera umuti ingorane zitari nke z’ubudandaji zikora.
 
 
 
@@ -1350,35 +1350,35 @@ Iyo ata bubasha bwo kwemeza, abakinnyi b’ubutunzi bahora bashikirwa n’ingora
 
 
 
-Ico kimenyamenya gifise igiciro kigaragara kw’isoko: igiceri c’inzahabu gicuzwe gifise agaciro kuruta igiceri c’inzahabu y’agaciro. Iryo shirahamwe ryerekana agaciro k’icemezo - abacuruzi ntibagikeneye kwisuzuma bonyene ko ico cuma ari ic’ukuri biciye mu bipimo vy’imiti canke vy’ijwi. Intambara ya Leta, mu buryo buteye ubwoba, irakuraho ugushihana kandi igatuma ubudandaji bworoha mu gutuma habaho ukwizigirana gushingiye ku nzego.
+Ico kimenyamenya gifise igiciro kigaragara kw’isoko: igiceri c’inzahabu gicuzwe gifise agaciro kuruta igiceri c’inzahabu y’agaciro. Iryo shirahamwe ryerekana agaciro k’icemezo - abacuruzi ntibagikeneye kwisuzuma bonyene ko ico cuma ari ic’ukuri biciye mu bipimo chimiques canke vya résonance. Intambara ya Leta, mu buryo buteye ubwoba, irakuraho ugushihana kandi igatuma ubudandaji bworoha mu gutuma habaho ukwizigirana gushingiye ku nzego.
 
 
 
-### Gukoresha nabi amafaranga kuva mu ntango
+### Amayeri yogukoresha amafaranga kuva mu ntango
 
 
 
-Inkuru y’abanyagihugu ba mbere bo muri Lidiya irerekana ikintu giteye isoni giteye ubwoba. Ivyigwa biherutse gukorwa vyerekana ko inzahabu iri muri ivyo biceri vy’umuyagankuba yari hasi cane kuruta iyo mu biceri vy’umuyagankuba kamere. Ubuyobozi bwemeza uburyo bwariko burakoresha icarimwe igihimba.
+Inkuru y’abanyagihugu ba mbere baba lydiens irerekana agahemo gateye amakenga. Ivyigwa biherutse gukorwa vyerekana ko inzahabu iri muri électrum yari nkeyi cane kurusha iyo muri électrum kamere. Ubuyobozi bwemeza ubu dahangarwa bwiyo électrum bwakoresha amayeri.
 
 
 
-Ico gikorwa kirerekana akamaro kabiri k’amahera y’ibiceri. Ku bijanye n’isoko, bituma ubucuruzi bugenda neza kandi bitanga icemezo co guhuza ibintu. Ku buyobozi butanga, buca buba igikoresho co kugenzura ubutunzi biciye mu guhindura amazi. Mu kugabanya inzahabu irimwo mu gihe Leta iguma ifise agaciro k’izina, Leta yongera neza amahera - igatuma habaho amafaranga menshi avuye mu rugero rumwe rw’ivyuma vy’agaciro.
+Ico gikorwa kirerekana ubumaro bubiri bwo gucura ivyo biceri. Ku bijanye n’isoko, bituma ubucuruzi bugenda neza kandi bitanga icemezo co kujanisha ibintu namategeko. Ku buyobozi butanga ivyobikorwa, buca buba igikoresho co kugenzura ubutunzi biciye mukuyungurura ivyo vyuma. Mu kugabanya inzahabu irimwo mu gihe Leta igumizaho agaciro kamwe, Leta yongera neza amahera - igatuma habaho amafaranga menshi avuye mu rugero rumwe rw’ivyuma vy’agaciro.
 
 
 
-Ariko rero, Leta ubwayo yagumye ihagaritswe umutima n’ukwo gukoresha nabi abantu. Nk’uko vyerekanywe n’akarorero k’inzahabu solidus ya Constantin yo mu kinjana ca 4, ubutegetsi bw’Uburoma bwarasuzuma neza ukuntu ibiceri vyari vyiza, kuko vyasaba ko bihembwa mu biceri vyiza. Ubutegetsi bwari bufise inyungu ihambaye mu kubungabunga uburyo bw’ibiceri vyabwo bwite kugira ngo bubone agaciro k’amahera bwaronka mu misoro.
+Ariko rero, Leta ubwayo yagumye ihagaritswe umutima n’ukwo gukoresha nabi abantu. Nk’uko vyerekanywe n’akarorero k’inzahabu solidus ya Constantin yo mu kinjana ca 4, ubutegetsi bw’abaromani bwarasuzuma neza ukuntu ibiceri vyari vyiza, kuko vyasaba ko bihembwa mu biceri vyiza. Ubutegetsi bwari bufise inyungu ihambaye mu kubungabunga uburyo bw’ibiceri vyabwo bwite kugira ngo bubone agaciro k’amahera bwaronka mu misoro.
 
 
 
-### Isesengura ry'ubutunzi ryo gutakaza agaciro
+### Isesangura ry'ubutunzi rijanye nugutakaza agaciro
 
 
 
-Ukwiga ibijanye n’ugucika kw’agaciro k’amafaranga birerekana uburyo buhoraho muri kahise. Ku biceri vy’ivyuma, abahinga mu vy’ubutunzi barakurikirana ijana kw’ijana ry’ivyuma vy’agaciro biri muri ivyo biceri - igicapo kimanuka kigaragaza ko agaciro kagenda karagabanuka. Ku mahera y’impapuro yo muri iki gihe, ni ibihushanye n’ivyo: amahera agendagenda araboneka, kandi iyo yiyongera, bigaragaza ko agaciro kayo gacitse.
+Ukwiga ibijanye n’ugutakaza kw’agaciro k’amafaranga birerekana uburyo buhoraho muri kahise. Ku biceri vy’ivyuma, abahinga mu vy’ubutunzi barakurikirana ijana kw’ijana ry’ivyuma vy’agaciro biri muri ivyo biceri - igicapo kimanuka kigaragaza ko agaciro kagenda karagabanuka. Ku mahera y’impapuro yo muri iki gihe, ni ibihushanye n’ivyo: amahera agendagenda araboneka, kandi iyo yiyongera, bigaragaza ko agaciro kayo gakoroka.
 
 
 
-Ubwo buryo bwompi bupima ikintu kimwe c’ishimikiro: ugusenyuka kw’agaciro k’amahera. Yaba mu kugabanya ivyuma vy’agaciro birimwo canke mu gucapura amanoti mashasha, uburyo bwo kubikora buraguma ari ubwo nyene. Uko ubutegetsi burema ibice vy’amahera vyinshi bivuye mu bintu vy’ukuri bimwe, ni ko n’igice kimwekimwe cose gitakaza agaciro kaco.
+Ubwo buryo bwompi bupima ikintu kimwe c’ishimikiro: ugusenyuka kw’agaciro k’amahera. Yaba mu kugabanya ivyuma vy’agaciro birimwo canke mu gukora amanoti mashasha, uburyo bwo kubikora buraguma ari ubwo nyene. Uko ubutegetsi burema ibice vy’amahera vyinshi bivuye mu bintu vy’ukuri bimwe, ni ko n’igice kimwekimwe cose gitakaza agaciro kaco.
 
 
 

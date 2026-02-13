@@ -32,9 +32,10 @@ proofreading:
     contributor_names:
     reward: 29.9
   - language: de
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
+      - maggo83
     reward: 19.97
   - language: es
     last_contribution_date:
@@ -118,9 +119,10 @@ proofreading:
     contributor_names:
     reward: 19.97
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
+      - monyangi10
     reward: 29.9
   - language: tr
     last_contribution_date:

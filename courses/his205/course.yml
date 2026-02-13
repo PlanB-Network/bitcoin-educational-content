@@ -119,9 +119,10 @@ proofreading:
     contributor_names:
     reward: 46.44
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
+      - monyangi10
     reward: 69.61
   - language: tr
     last_contribution_date:
@@ -144,9 +145,10 @@ proofreading:
     contributor_names:
     reward: 92.78
   - language: bg
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
+      - dnabg
     reward: 69.61
   - language: th
     last_contribution_date:

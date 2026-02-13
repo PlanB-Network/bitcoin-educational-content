@@ -17,10 +17,11 @@ published_at: 2025-02-18
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
       - Asi0Flammeus
+      - therancedognon-max
     reward: 8.55
   - language: cs
     last_contribution_date:
@@ -146,14 +147,16 @@ proofreading:
     contributor_names:
     reward: 34.11
   - language: rn
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
+      - Dahl23
     reward: 42.61
   - language: bg
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
+      - dnabg
     reward: 25.6
   - language: th
     last_contribution_date:

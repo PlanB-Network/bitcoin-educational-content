@@ -1,0 +1,24 @@
+id: cc4acc48-5c7a-42bb-98d6-b7e396140c0a
+start_date: 2026-04-27
+end_date: 2026-04-29
+timezone: America/Los_Angeles
+address_city_country: Las Vegas, Nevada, USA
+address_line_2: The Venetian
+address_line_3:
+name: Bitcoin 2026
+type: conference
+book_online: false
+book_in_person: false
+description: |
+  The world's largest and most influential Bitcoin conference, bringing together industry leaders, groundbreaking announcements, and the most influential voices in the movement toward hyperbitcoinization.
+language:
+  - en
+links:
+  website: https://b.tc/conference/2026
+  replay_url:
+  live_url:
+project_id: 77d117fc-a2b1-4e2c-8442-ea00ff8cf70a
+tags:
+  - adoption
+  - case-studies
+  - business

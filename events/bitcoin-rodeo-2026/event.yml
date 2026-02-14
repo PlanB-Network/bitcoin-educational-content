@@ -1,0 +1,24 @@
+id: b3b434fc-efe8-4c22-99f8-5a4d3f31954e
+start_date: 2026-06-25
+end_date: 2026-06-26
+timezone: America/Edmonton
+address_city_country: Calgary, Canada
+address_line_2:
+address_line_3:
+name: Bitcoin Rodeo 2026
+type: conference
+book_online: false
+book_in_person: false
+description: |
+  Western Canada's premier Bitcoin-only conference, bringing together the community for education, networking, and discussions on Bitcoin adoption.
+language:
+  - en
+links:
+  website: https://bitcoinrodeo.com/
+  replay_url:
+  live_url:
+project_id: 3b28b0f4-4a6f-4fb1-97be-0ae28c8fdb1c
+tags:
+  - historical
+  - market-trends
+  - case-studies

@@ -1,0 +1,26 @@
+id: cb3004ad-6a7f-46aa-9d5f-000a6711d9a7
+start_date: 2026-03-13 14:00:00
+end_date: 2026-03-15 18:00:00
+timezone: Australia/Melbourne
+address_city_country: Beechworth, Australia
+address_line_2: Beechworth Servicemen's Memorial Hall
+address_line_3: 101 Ford St, Beechworth VIC 3747
+name: Beechworth Bitcoin Bush Bash 2026
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: |
+  Connect with fellow Australian Bitcoiners in Beechworth, Victoria for a comprehensive Bitcoin conference covering self-sovereignty, privacy tools, digital security, health and wellbeing, circular economies, and community building. Join discussions, workshops, and activities celebrating Bitcoin adoption and freedom.
+  
+  Warning: information may change. Booking and up-to-date information are on SATLANTIS.
+language:
+  - en
+links:
+  website: http://bitcoinbushbash.info
+  replay_url: 
+  live_url: 
+tags:
+  - self-sovereignty
+  - privacy
+  - adoption

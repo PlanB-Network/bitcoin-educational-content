@@ -1,0 +1,24 @@
+id: 2c07922e-dc33-4d4b-8201-d7891560bc04
+start_date: 2026-06-17
+end_date: 2026-06-20
+timezone: Africa/Nairobi
+address_city_country: Nairobi, Kenya
+address_line_2:
+address_line_3:
+name: bitcoin++ Nairobi 2026
+type: conference
+book_online: false
+book_in_person: false
+description: |
+  Developer-focused Bitcoin conference bringing together Bitcoin experts and builders from around the world.
+language:
+  - en
+links:
+  website: https://btcplusplus.dev/conf/nairobi
+  replay_url:
+  live_url:
+project_id: a717b30b-153e-475d-a83b-ed1b52c9571e
+tags:
+  - software
+  - node
+  - adoption

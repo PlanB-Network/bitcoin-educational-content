@@ -48,7 +48,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - yutaro21jp
-    reward: 0.37
+    reward: 0.18
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -69,7 +69,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - rudyhow
-    reward: 0.31
+    reward: 0.16
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -146,7 +146,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - dnabg
-    reward: 0.26
+    reward: 0.13
   - language: th
     last_contribution_date:
     urgency: 1

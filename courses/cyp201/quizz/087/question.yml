@@ -23,7 +23,7 @@ proofreading:
     contributor_names:
       - alha96
       - reneplass
-    reward: 0.09
+    reward: 0
   - language: en
     last_contribution_date:
     urgency: 1
@@ -49,7 +49,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - rudyhow
-    reward: 0.25
+    reward: 0.13
   - language: it
     last_contribution_date: '2025-08-18'
     urgency: 1

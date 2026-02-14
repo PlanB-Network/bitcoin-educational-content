@@ -27,7 +27,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Salgraphics
-    reward: 0.27
+    reward: 0.13
   - language: fi
     last_contribution_date:
     urgency: 1
@@ -89,7 +89,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - MisinhaP
-    reward: 0.35
+    reward: 0.17
   - language: hi
     last_contribution_date:
     urgency: 1
@@ -146,7 +146,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - dnabg
-    reward: 0.35
+    reward: 0.17
   - language: th
     last_contribution_date:
     urgency: 1

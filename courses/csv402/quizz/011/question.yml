@@ -11,7 +11,7 @@ proofreading:
     contributor_names:
       - LoicPandul
       - marshal-opsource
-    reward: 0.08
+    reward: 0
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -139,7 +139,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - barakana
-    reward: 0.25
+    reward: 0.13
   - language: bg
     last_contribution_date:
     urgency: 1

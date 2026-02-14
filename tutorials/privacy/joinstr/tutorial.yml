@@ -27,7 +27,7 @@ proofreading:
     contributor_names:
       - Pivii
       - CarlAdm12
-    reward: 1.29
+    reward: 0
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -159,7 +159,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - dnabg
-    reward: 3.81
+    reward: 1.91
   - language: th
     last_contribution_date:
     urgency: 1

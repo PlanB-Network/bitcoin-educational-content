@@ -42,7 +42,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Salgraphics
-    reward: 1.06
+    reward: 0.53
   - language: et
     last_contribution_date:
     urgency: 1
@@ -64,7 +64,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - AlbertoMagno21
-    reward: 1.06
+    reward: 0.53
   - language: ja
     last_contribution_date:
     urgency: 1

@@ -16,7 +16,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - therancedognon-max
-    reward: 0.24
+    reward: 0.12
   - language: bg
     last_contribution_date:
     urgency: 1
@@ -62,7 +62,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - 62maximalist
-    reward: 0.39
+    reward: 0.19
   - language: it
     last_contribution_date:
     urgency: 1
@@ -124,7 +124,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - monyangi10
-    reward: 0.32
+    reward: 0.16
   - language: tr
     last_contribution_date:
     urgency: 1

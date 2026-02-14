@@ -43,13 +43,13 @@ proofreading:
     contributor_names:
       - Rearden78
       - ProfScofield21
-    reward: 15.57
+    reward: 0
   - language: it
     last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
       - GoodKidd0
-    reward: 31.15
+    reward: 15.57
   - language: ja
     last_contribution_date:
     urgency: 1

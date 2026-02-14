@@ -45,7 +45,7 @@ proofreading:
     contributor_names:
       - Asi0Flammeus
       - CarlAdm12
-    reward: 0.75
+    reward: 0
   - language: it
     last_contribution_date: '2025-12-29'
     urgency: 1
@@ -158,7 +158,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - dnabg
-    reward: 2.21
+    reward: 1.11
   - language: th
     last_contribution_date:
     urgency: 1

@@ -27,7 +27,7 @@ proofreading:
     contributor_names:
       - bened45
       - therancedognon-max
-    reward: 1.68
+    reward: 0
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -48,7 +48,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Salgraphics
-    reward: 3.36
+    reward: 1.68
   - language: et
     last_contribution_date:
     urgency: 1

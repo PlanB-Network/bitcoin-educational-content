@@ -31,7 +31,7 @@ proofreading:
     contributor_names:
       - Asi0Flammeus
       - alexbrou
-    reward: 9.89
+    reward: 0
   - language: es
     last_contribution_date:
     urgency: 1
@@ -47,7 +47,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - JosephQuaye
-    reward: 19.77
+    reward: 9.89
   - language: it
     last_contribution_date:
     urgency: 1
@@ -113,7 +113,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Tinnah924
-    reward: 29.61
+    reward: 14.81
   - language: zh-Hant
     last_contribution_date:
     urgency: 1

@@ -51,7 +51,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - reneplass
-    reward: 29.0
+    reward: 14.5
   - language: es
     last_contribution_date: 2025-12-04
     urgency: 1
@@ -83,19 +83,19 @@ proofreading:
     urgency: 1
     contributor_names:
       - AgoesRichie
-    reward: 57.9
+    reward: 28.95
   - language: it
     last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
       - GoodKidd0
-    reward: 29.0
+    reward: 14.5
   - language: ja
     last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
       - yutaro21jp
-    reward: 72.35
+    reward: 36.17
   - language: ko
     last_contribution_date:
     urgency: 1

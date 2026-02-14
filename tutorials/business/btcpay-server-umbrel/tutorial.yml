@@ -27,7 +27,7 @@ proofreading:
     contributor_names:
       - Pivii
       - therancedognon-max
-    reward: 1.03
+    reward: 0
   - language: cs
     last_contribution_date:
     urgency: 1

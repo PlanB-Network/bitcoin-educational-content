@@ -11,7 +11,7 @@ proofreading:
     contributor_names:
       - LoicPandul
       - ProfScofield21
-    reward: 0.08
+    reward: 0
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -53,7 +53,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - GoodKidd0
-    reward: 0.16
+    reward: 0.08
   - language: ja
     last_contribution_date:
     urgency: 1

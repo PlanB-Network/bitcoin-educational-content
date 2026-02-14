@@ -11,7 +11,7 @@ proofreading:
     contributor_names:
       - Rearden78
       - therancedognon-max
-    reward: 0.09
+    reward: 0
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -137,13 +137,13 @@ proofreading:
     urgency: 1
     contributor_names:
       - Dahl23
-    reward: 0.3
+    reward: 0.15
   - language: bg
     last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
       - dnabg
-    reward: 0.22
+    reward: 0.11
   - language: th
     last_contribution_date:
     urgency: 1

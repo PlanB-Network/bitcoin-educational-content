@@ -65,13 +65,13 @@ proofreading:
     urgency: 1
     contributor_names:
       - GoodKidd0
-    reward: 26.89
+    reward: 13.44
   - language: ja
     last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
       - yutaro21jp
-    reward: 67.06
+    reward: 33.53
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -97,7 +97,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Sanja22B
-    reward: 53.67
+    reward: 26.84
   - language: sw
     last_contribution_date: 2025-11-05
     urgency: 1

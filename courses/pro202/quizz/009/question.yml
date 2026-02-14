@@ -52,7 +52,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - JosephQuaye
-    reward: 0.2
+    reward: 0.1
   - language: hi
     last_contribution_date:
     urgency: 1

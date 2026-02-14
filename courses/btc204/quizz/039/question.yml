@@ -49,7 +49,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - yutaro21jp
-    reward: 0.36
+    reward: 0.18
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -85,7 +85,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 0.31
+    reward: 0.15
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -128,7 +128,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Trabolo
-    reward: 0.25
+    reward: 0.13
   - language: tr
     last_contribution_date:
     urgency: 1

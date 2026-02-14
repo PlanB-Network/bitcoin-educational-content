@@ -24,7 +24,7 @@ proofreading:
     contributor_names:
       - heyolaniran
       - CarlAdm12
-    reward: 0.65
+    reward: 0
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -131,7 +131,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Tinnah924
-    reward: 1.9
+    reward: 0.95
   - language: tr
     last_contribution_date:
     urgency: 1
@@ -157,7 +157,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - dnabg
-    reward: 1.9
+    reward: 0.95
   - language: th
     last_contribution_date:
     urgency: 1

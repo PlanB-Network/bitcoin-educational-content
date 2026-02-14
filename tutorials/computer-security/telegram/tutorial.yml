@@ -26,7 +26,7 @@ proofreading:
     contributor_names:
       - f205sats
       - AlbertoMagno21
-    reward: 1.15
+    reward: 0
   - language: en
     last_contribution_date:
     urgency: 1

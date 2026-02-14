@@ -32,7 +32,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Salgraphics
-    reward: 0.17
+    reward: 0.08
   - language: et
     last_contribution_date:
     urgency: 1
@@ -58,7 +58,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - yutaro21jp
-    reward: 0.27
+    reward: 0.14
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -146,7 +146,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - dnabg
-    reward: 0.2
+    reward: 0.1
   - language: th
     last_contribution_date:
     urgency: 1

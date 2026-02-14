@@ -15,7 +15,8 @@ proofreading:
       - lugaxker
     reward: 0.09
   - language: en
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 0.17
+      - Sanja22B
+    reward: 0.09

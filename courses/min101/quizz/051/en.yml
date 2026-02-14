@@ -1,4 +1,4 @@
-question: What resource does Bitcoin mining need to use?
+question: What resource does Bitcoin mining use?
 answer: Electricity
 wrong_answers:
   - Water
@@ -6,4 +6,4 @@ wrong_answers:
   - Gold
 explanation: |
   Mining is a validation task that consumes electricity via computers.
-reviewed: false
+reviewed: true

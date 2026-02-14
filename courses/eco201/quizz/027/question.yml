@@ -44,10 +44,11 @@ proofreading:
     contributor_names:
     reward: 0.22
   - language: ja
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 0.4
+      - yutaro21jp
+    reward: 0.2
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -64,10 +65,11 @@ proofreading:
     contributor_names:
     reward: 0.28
   - language: id
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 0.34
+      - rudyhow
+    reward: 0.17
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -140,10 +142,11 @@ proofreading:
     contributor_names:
     reward: 0.4
   - language: bg
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 0.28
+      - dnabg
+    reward: 0.14
   - language: th
     last_contribution_date:
     urgency: 1

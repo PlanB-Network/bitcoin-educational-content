@@ -6,4 +6,4 @@ wrong_answers:
   - It encrypts it with its public key
 explanation: |
   In the Bitcoin network, each node propagates valid transactions to the nodes it is connected to.
-reviewed: false
+reviewed: true

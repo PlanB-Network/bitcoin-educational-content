@@ -1,4 +1,4 @@
-question: Simply put, what is a block on Bitcoin?
+question: Simply put, what is a block in Bitcoin?
 answer: A packet of transactions
 wrong_answers:
   - A payment
@@ -6,4 +6,4 @@ wrong_answers:
   - A private key
 explanation: |
   If we simplify, a block is simply a set of grouped transactions.
-reviewed: false
+reviewed: true

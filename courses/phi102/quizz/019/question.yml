@@ -12,10 +12,11 @@ proofreading:
       - Asi0Flammeus
     reward: 0.1
   - language: fr
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 0.21
+      - marshal-opsource
+    reward: 0.1
   - language: bg
     last_contribution_date:
     urgency: 1

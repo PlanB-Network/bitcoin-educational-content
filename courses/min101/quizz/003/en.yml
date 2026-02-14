@@ -1,4 +1,4 @@
-question: On Bitcoin, what proof is most often used to unlock a UTXO?
+question: In Bitcoin, what proof is most often used to unlock a UTXO?
 answer: A digital signature
 wrong_answers:
   - An account password
@@ -6,4 +6,4 @@ wrong_answers:
   - An SSL certificate
 explanation: |
   The spending condition usually requires a signature produced with the corresponding private key.
-reviewed: false
+reviewed: true

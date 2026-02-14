@@ -5,5 +5,5 @@ wrong_answers:
   - SHA256d(block) >= target
   - SHA256d(block header) > target
 explanation: |
-  For a block to be valid on Bitcoin, its header hash, interpreted as a number, must be less than or equal to (<=) the target.
-reviewed: false
+  For a block to be valid in Bitcoin, its header hash, interpreted as a number, must be less than or equal to (<=) the target.
+reviewed: true

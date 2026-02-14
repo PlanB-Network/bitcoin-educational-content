@@ -6,4 +6,4 @@ wrong_answers:
   - 60 minutes
 explanation: |
   The protocol aims for an average of approximately one block every 10 minutes over a long period.
-reviewed: false
+reviewed: true

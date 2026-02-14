@@ -6,4 +6,4 @@ wrong_answers:
   - Replayed Proofs of Work
 explanation: |
   RPOW stands for reusable and exchangeable proofs of work, proposed by Hal Finney in 2004.
-reviewed: false
+reviewed: true

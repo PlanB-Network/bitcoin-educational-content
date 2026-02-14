@@ -29,10 +29,11 @@ proofreading:
       - Bitpreto
     reward: 9.62
   - language: es
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 19.24
+      - Salgraphics
+    reward: 9.62
   - language: fi
     last_contribution_date:
     urgency: 1
@@ -53,10 +54,11 @@ proofreading:
       - AlbertoMagno21
     reward: 0
   - language: ja
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 47.95
+      - yutaro21jp
+    reward: 23.98
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -152,10 +154,11 @@ proofreading:
     contributor_names:
     reward: 47.95
   - language: bg
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 28.81
+      - dnabg
+    reward: 14.41
   - language: th
     last_contribution_date:
     urgency: 1

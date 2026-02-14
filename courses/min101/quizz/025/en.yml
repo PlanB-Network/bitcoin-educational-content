@@ -6,4 +6,4 @@ wrong_answers:
   - No, but it was the case before 2012
 explanation: |
   Fees are the difference between the total inputs and the total outputs, not a dedicated output. This has always been the case.
-reviewed: false
+reviewed: true

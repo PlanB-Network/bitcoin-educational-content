@@ -6,4 +6,4 @@ wrong_answers:
   - David Chaum
 explanation: |
   Hashcash was invented by Adam Back. It is the first proof-of-work mechanism.
-reviewed: false
+reviewed: true

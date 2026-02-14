@@ -1,0 +1,24 @@
+id: 2d5ef638-3d5b-4c98-9e27-d0110a823d4f
+start_date: 2026-06-10
+end_date: 2026-06-10
+timezone: Europe/Prague
+address_city_country: Prague, Czech Republic
+address_line_2:
+address_line_3:
+name: Freedom Tech Summit 2026
+type: conference
+book_online: false
+book_in_person: false
+description: |
+  A one-day summit focused on freedom technologies, held the day before BTC Prague, exploring privacy, self-sovereignty, and open-source tools built on Bitcoin.
+language:
+  - en
+links:
+  website: https://freedomtechsummit.com/
+  replay_url:
+  live_url:
+project_id: 23f9fb1e-369a-4243-ae97-f3f9094ab536
+tags:
+  - self-sovereignty
+  - innovation
+  - software

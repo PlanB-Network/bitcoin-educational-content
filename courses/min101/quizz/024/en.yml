@@ -1,4 +1,4 @@
-question: What phenomenon makes the delay between two blocks fundamentally variable?
+question: What phenomenon makes the interval between two blocks inherently variable?
 answer: The probabilistic nature of hashing
 wrong_answers:
   - The deterministic nature of hashing
@@ -6,4 +6,4 @@ wrong_answers:
   - The periodic nature of hashing
 explanation: |
   Each hash is an independent attempt, which makes discovery times random even at a constant hashrate.
-reviewed: false
+reviewed: true

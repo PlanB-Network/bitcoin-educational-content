@@ -6,4 +6,4 @@ wrong_answers:
   - Outputs divided by inputs
 explanation: |
   Fees correspond to the value consumed in inputs that is not recreated in outputs.
-reviewed: false
+reviewed: true

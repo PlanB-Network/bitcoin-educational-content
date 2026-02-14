@@ -6,4 +6,4 @@ wrong_answers:
   - 50
 explanation: |
   A 1000-fold multiplication took place over this period, notably due to the use of GPUs.
-reviewed: false
+reviewed: true

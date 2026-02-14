@@ -6,11 +6,12 @@ author: rebel-space
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2024-10-21
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0.11
+      - ProfScofield21
+    reward: 0
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -48,10 +49,11 @@ proofreading:
     contributor_names:
     reward: 0.35
   - language: it
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 0.23
+      - GoodKidd0
+    reward: 0.11
   - language: ja
     last_contribution_date:
     urgency: 1

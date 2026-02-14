@@ -1,4 +1,4 @@
-question: Which element is the most important in industrial mining competitiveness?
+question: What factor is most important for competitiveness in industrial mining?
 answer: Electricity cost
 wrong_answers:
   - Amount of wage costs
@@ -6,4 +6,4 @@ wrong_answers:
   - Cost of software licenses
 explanation: |
   On a large scale, mining profitability depends on the cost per unit of computation, which is primarily determined by the cost of electricity.
-reviewed: false
+reviewed: true

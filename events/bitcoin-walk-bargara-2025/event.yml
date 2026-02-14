@@ -1,0 +1,25 @@
+id: 7502a6c2-d610-48a1-b2f0-68766d1f06c8
+start_date: 2025-02-21 06:00:00
+end_date: 2025-02-21 08:00:00
+timezone: Australia/Brisbane
+address_city_country: Bargara, Australia
+address_line_2: 59 Esplanade, Bargara QLD 4670
+address_line_3: Boardwalk behind Bargara War Memorial (near Turtle Playground)
+name: Bitcoin Walk - Bargara 2025
+type: meetup
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: |
+  A casual Bitcoin community walk along the Bargara foreshore, starting at the War Memorial and heading north through Neilson Park and Turtle Trail to Mon Repos lookout/beach. The approximately 5-7km round trip takes 1-1.5 hours, followed by an optional BYO BBQ or picnic. Free to attend, just bring water, hat, sunscreen, and comfortable shoes.
+  
+  Warning: information may change. Booking and up-to-date information are on SATLANTIS.
+language:
+  - en
+links:
+  website: https://bitcoinwalk.com/bargara
+  replay_url: 
+  live_url: 
+tags:
+  - adoption
+  - use-case

@@ -1,0 +1,11 @@
+question: Apa keberatan utama yang diajukan oleh para libertarian Amerika terhadap Bitcoin, dengan mengutip teorema regresi Mises?
+answer: Tidak memiliki nilai intrinsik dan tidak didukung oleh sesuatu yang konkret
+wrong_answers:
+  - Negara ini mengalami inflasi moneter, dengan tingkat inflasi sebesar 40% per tahun pada tahun 2011
+  - Itu tidak digunakan sebagai unit akun, sebuah kualitas penting dari uang
+  - Hal ini menciptakan distribusi kekayaan yang sangat tidak merata
+explanation: |
+ Beberapa libertarian Amerika, yang terikat pada mazhab Austria, menolak Bitcoin karena bertentangan dengan (menurut mereka) teorema regresi Ludwig von Mises,
+ yang menyatakan bahwa sebuah barang harus memiliki nilai guna non-moneter yang obyektif sebelum dapat menjadi mata uang. Hal ini terutama berlaku untuk Peter Schiff, putra dari
+ juru kampanye anti-pajak Irwin Schiff dan pendukung setia standar emas.
+reviewed: true

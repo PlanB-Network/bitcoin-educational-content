@@ -1,0 +1,10 @@
+question: Kuinka monta bitcoinia Mark Karpelès siirsi todistaakseen Mt. Gox -alustan maksukyvyn 23. kesäkuuta 2011?
+answer: 424,242 bitcoinia
+wrong_answers:
+  - 666 bitcoinia
+  - 1,337 bitcoinia
+  - 21,210 bitcoinia
+explanation: |
+ Tämä oli suunnilleen yhtä monta bitcoinia kuin yhtiöllä oli tuolloin hallussaan. Numero 42 on vastaus "suureen kysymykseen elämästä, maailmankaikkeudesta ja maailmankaikkeudesta"
+ kaikkeen muuhun" H2G2:ssa.
+reviewed: true

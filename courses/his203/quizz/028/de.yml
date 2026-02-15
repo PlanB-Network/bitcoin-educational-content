@@ -1,0 +1,10 @@
+question: Welche Software brachte im November 2011 die Innovation, die Schlüsselableitung seed als 12-Wort-Satz darzustellen?
+answer: Electrum
+wrong_answers:
+  - Spesmilo
+  - Stratum
+  - Paymium
+explanation: |
+ Diese wallet wurde vom französischen Entwickler Thomas Voegtlin geschaffen. Sein Name bezieht sich auf Elektrum, eine natürliche Legierung aus Gold und Silber. Der Electrum war einer der ersten
+ wallet, der eine deterministische Struktur implementierte, bei der die Schlüssel von einem seed abgeleitet wurden, den er sowohl als hexadezimale Zeichenkette als auch als 12-Wort-Satz darstellte.
+reviewed: true

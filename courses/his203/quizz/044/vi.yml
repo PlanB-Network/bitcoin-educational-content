@@ -1,0 +1,9 @@
+question: Namecoin, loại tiền điện tử thay thế đầu tiên cho Bitcoin, được kỳ vọng sẽ giải quyết vấn đề gì?
+answer: Tập trung hóa tên miền
+wrong_answers:
+  - Quản lý danh tiếng trực tuyến
+  - Vấn đề về phương sai mining
+  - Sự phân bổ không đồng đều của bitcoin
+explanation: |
+ Hệ thống tên miền được giám sát bởi ICANN, một tập đoàn phi lợi nhuận được thành lập theo luật California, điều này gây ra các vấn đề về kiểm duyệt. Khái niệm BitDNS (sau này đổi tên thành Namecoin) bao gồm việc đặt việc quản lý các tên miền này trên một chuỗi khối tương tự như Bitcoin để giải quyết vấn đề này.
+reviewed: true

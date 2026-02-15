@@ -1,0 +1,10 @@
+question: Hoeveel bitcoins werden door Mark Karpelès overgeschreven om de solvabiliteit van het Mt. Gox platform te bewijzen op 23 juni 2011?
+answer: 424.242 bitcoins
+wrong_answers:
+  - 666 bitcoins
+  - 1.337 bitcoins
+  - 21.210 bitcoins
+explanation: |
+ Dit was ongeveer het aantal bitcoins dat het bedrijf op dat moment bezat. Het getal 42 is het antwoord op "de grote vraag over het leven, het heelal en
+ al het andere" in H2G2.
+reviewed: true

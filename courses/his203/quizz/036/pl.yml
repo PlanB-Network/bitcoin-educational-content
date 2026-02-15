@@ -1,0 +1,10 @@
+question: Na czym polega "pool hopping" dla górnika delegującego swój hash rate do puli mining?
+answer: Odłączenie od puli mining po przesłaniu określonej liczby udziałów w cyklu i przekierowanie mocy obliczeniowej na własne konto lub do innej puli mining
+wrong_answers:
+  - Przyjęcie protokołu komunikacyjnego wymagającego dużej przepustowości do interakcji z pulą mining w celu zmniejszenia przestarzałych udziałów poprzez usprawnienie ogłaszania nowych bloków
+  - Przeprowadzenie kilku fikcyjnych transakcji w ramach puli mining w celu symulacji przeniesienia własności bitcoinów i zwiększenia poufności oddelegowanych górników
+  - Zapisywanie nazwy puli mining w polu wejściowym transakcji nagrody wydobytego bloku, aby działanie puli mining było bardziej przejrzyste
+explanation: |
+ Metoda ta została opisana przez Raulo w lutym 2011 r., który oszacował, że w ten sposób można uzyskać o 28% więcej bitcoinów. Zmotywowało to do wprowadzenia
+ "anty-oszustwa" w ramach spółdzielni Slush.
+reviewed: true

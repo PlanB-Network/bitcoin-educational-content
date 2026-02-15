@@ -1,0 +1,10 @@
+question: Jaki w przybliżeniu procent aktywności w sieci Bitcoin stanowił Silk Road pod koniec lata 2011 r.?
+answer: 10 %
+wrong_answers:
+  - 3 %
+  - 30 %
+  - 90 %
+explanation: |
+ Według późniejszego raportu Chainalysis, aktywność Silk Road stanowiła prawie 10% wolumenu obrotu na kanale Bitcoin na początku września 2011 roku
+ Września 2011 roku.
+reviewed: true

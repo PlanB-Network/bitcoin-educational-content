@@ -1,0 +1,10 @@
+question: Wat was het marketingpraatje voor Litecoin, de cryptocurrency die in oktober 2011 werd gecreëerd door Charlie Lee?
+answer: Wees voor zilver wat Bitcoin is voor goud
+wrong_answers:
+  - Een spirituele valuta creëren
+  - Bitcoin opvolgen wanneer het instort
+  - De wereld van vrije software financieren
+explanation: |
+ Litecoin was zowel sneller (bloktijd is 2 minuten 30 in plaats van 10 minuten) als minder schaars (84 miljoen eenheden in plaats van 21) dan Bitcoin, vandaar de edelmetaalanalogie
+ metalen analogie. Het was Charlie Lee zelf die deze vergelijking opnam in de eerste beschrijving van zijn cryptocurrency.
+reviewed: true

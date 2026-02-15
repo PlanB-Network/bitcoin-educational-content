@@ -1,0 +1,10 @@
+question: Eylül 2012'de madenciler ve mining havuzları arasındaki alışverişi iyileştirmek için Slush olarak da bilinen Marek Palatinus tarafından hangi mining protokolü geliştirilmiştir?
+answer: Tabaka
+wrong_answers:
+  - Electrum
+  - Getwork
+  - Getblocktemplate (GBT)
+explanation: |
+ Stratum, ince istemciler için bir mining protokolüydü. O zamana kadar kullanılan ilkel getwork işlevinin yerini hızla aldı ve kendini
+ rakip getblocktemplate önerisi.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Kuka oli elokuussa 2012 toteutetun ensimmäisen hybridi proof-of-stake -toteutuksen takana, joka toteutettiin kryptovaluutta PPCoinin avulla?
+answer: Sunny King
+wrong_answers:
+  - Vitalik Buterin
+  - Come-From-Beyond
+  - Ben Laurie
+explanation: |
+ Sunny King oli hankkeen pääkehittäjän kirjailijanimi. Ajatuksena oli toteuttaa hybridimalli, jossa tietyt lohkot validoitiin säilyvyystodistuksella
+ (joka perustuu kolikon ikä -konseptiin) perinteisellä mining:lla louhittujen lohkojen lisäksi. Sunny King ja hänen yhteistyökumppaninsa käynnistivät PPCoinin elokuussa 2012
+ (jonka nimi muutettiin myöhemmin Peercoiniksi). He kuvailivat ratkaisuaan "pitkällä aikavälillä energiatehokkaaksi".
+reviewed: true

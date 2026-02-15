@@ -1,0 +1,10 @@
+question: Mikä oli tärkein syy siihen, että Occupy Wall Street -liike alkoi syyskuussa 2011 hyväksyä bitcoin-lahjoituksia?
+answer: Taloudellisen sensuurin kiertäminen
+wrong_answers:
+  - Pitkäaikaisen arvoreservin hyödyntäminen
+  - Tietojen syöttäminen lohkoketjuun
+  - Ostaa tarvikkeita Silk Roadilta
+explanation: |
+  Tämä liike otti Bitcoin:n käyttöön välttääkseen taloudellisen sensuurin sen jälkeen, kun osa sen PayPal-tileistä jäädytettiin. Tämän seurauksena mielenosoittajien yleiskokous vuonna
+  New Yorkissa vastaanotti lahjoituksia jo 19. syyskuuta, yhteensä 686 BTC:tä eli yli 3 000 dollaria vastaanottohetkellä.
+reviewed: true

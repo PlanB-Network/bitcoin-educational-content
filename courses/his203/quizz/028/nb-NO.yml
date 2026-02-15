@@ -1,0 +1,10 @@
+question: Hvilken programvare innoverte ved å representere nøkkelavledningen seed som en setning på 12 ord i november 2011?
+answer: Electrum
+wrong_answers:
+  - Spesmilo
+  - Stratum
+  - Paymium
+explanation: |
+ Denne wallet ble skapt av den franske utvikleren Thomas Voegtlin. Navnet refererer til elektrum, en naturlig legering av gull og sølv. Electrum var en av de første
+ wallet var en av de første wallet-ene som implementerte en deterministisk struktur som utledet nøkler fra en seed, som den representerte både som en heksadesimal tegnstreng og en setning på 12 ord.
+reviewed: true

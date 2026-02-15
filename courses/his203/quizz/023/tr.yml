@@ -1,0 +1,11 @@
+question: Bitcoin ekosistemindeki oyuncuların kendilerini finanse etmek için hisse senedi veya tahvil gibi finansal menkul kıymetler ihraç etmelerini sağlayan bir platform olan GLBSE çevrimiçi borsasını Nisan 2011'de kim yarattı?
+answer: James McCarthy (Nefario)
+wrong_answers:
+  - Charlie Shrem (Yankee)
+  - Mircea Popescu (MPOE-PR)
+  - Nathaniel Theis (Cuddlefish)
+explanation: |
+ James McCarthy (Nefario) Çin'de yaşayan ve bir üniversitede İngilizce profesörü olarak görev yapan bir İrlandalıydı. Avusturya ekolüne ilgi duyuyordu
+ ve Cypherpunk'lerin fikirlerini benimsedi. Nisan 2011'de, müşterilerine her türlü finansal hizmeti sunan GLBSE'yi kurdu
+ hisse senedi ve tahvil ihracı.
+reviewed: true

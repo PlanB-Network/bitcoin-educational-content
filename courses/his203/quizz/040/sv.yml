@@ -1,0 +1,10 @@
+question: Vad består Pay-to-Script-Hash (P2SH) skriptsystemet av?
+answer: Låsa fonder med hash av ett skript, som måste utföras vid upplåsning
+wrong_answers:
+  - Kräver M signaturer av N deltagare för att godkänna att transaktionsutbetalningen används
+  - Att göra användningen av bitcoins beroende av att tillhandahålla en signatur kopplad till en enda offentlig nyckel
+  - Skriva godtycklig data på blockkedjan genom att göra UTXO icke-spenderbar
+explanation: |
+ Detta innebär att man betalar för en skripthash och tillhandahåller skriptet när man låser upp pengarna. Det som skiljer det från OP_EVAL-förslaget är att det automatiskt
+ automatiskt känns igen av den virtuella maskinen, så att det kan köras utan att det behövs några uttryckliga instruktioner.
+reviewed: true

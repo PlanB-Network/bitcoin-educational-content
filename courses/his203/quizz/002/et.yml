@@ -1,0 +1,10 @@
+question: Milline protokoll takistas Silk Roadi turuplatsi sulgemist otse ametiasutuste poolt?
+answer: Tor
+wrong_answers:
+  - I2P
+  - Freenet
+  - BitTorrent
+explanation: |
+ Tor, mis on leksikaalne akronüüm The Onion Router, on protokoll, mis toetab globaalset, detsentraliseeritud arvutivõrku (üldtuntud kui darknet).
+ See võimaldab veebisaite anonüümselt ja ilma tsensuurita majutada ning sobis ideaalselt Ross Ulbrichti projektile.
+reviewed: true

@@ -1,0 +1,11 @@
+question: 谁是 2012 年 8 月通过加密货币 PPCoin 首次实施混合权益证明的幕后策划者？
+answer: 桑尼-金
+wrong_answers:
+  - 维塔利克-布特林
+  - 超越自我
+  - 本-劳里
+explanation: |
+ Sunny King 是该项目的主要开发者的笔名。他的想法是实施一种混合模式，即除了通过传统的 mining 挖掘区块外，某些区块还通过保存证明（基于币龄概念）来验证。
+ (基于币龄概念）来验证某些区块。Sunny King 和他的合作者于 2012 年 8 月推出了 PPCoin
+ (后更名为 Peercoin）。他们将自己的解决方案描述为 "长期节能"。
+reviewed: true

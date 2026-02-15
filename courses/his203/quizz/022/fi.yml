@@ -1,0 +1,11 @@
+question: Mikä oli nuoren kiinalaisen yrittäjän Zhou Tongin syyskuussa 2011 käynnistämän Bitcoinica-alustan tärkein rahoitusinnovaatio?
+answer: Vipuvoima ja lyhyeksimyynti
+wrong_answers:
+  - Osakkeiden ja joukkovelkakirjojen liikkeeseenlasku
+  - Vakuudellinen korkolaina
+  - Lähes välitön käteisen vaihto
+explanation: |
+ Bitcoinica oli ekosysteemin ensimmäinen foorumi, joka tarjosi marginaalikauppaa, minkä ansiosta asiakkaat pystyivät käyttämään vipuvaikutusta voittojensa (ja tappioidensa) vahvistamiseen ja siirtymään
+ lyhyeksi lyödäkseen vetoa laskevan osakekurssin puolesta. Sen sulkemisen jälkeen tämäntyyppisen palvelun otti haltuunsa Bitfinex-alusta, joka käynnistettiin lokakuussa 2012 ja joka oli
+ perustui samaan lähdekoodiin.
+reviewed: true

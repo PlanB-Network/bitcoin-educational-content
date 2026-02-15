@@ -1,0 +1,10 @@
+question: Minkä mobiilin bitcoin-talletussovelluksen ranskalainen yritys Paymium SAS kehitti huhtikuussa 2012?
+answer: Paytunia
+wrong_answers:
+  - Instawallet
+  - MyBitcoin
+  - Vibanko
+explanation: |
+ Paymium esitteli sen "vallankumouksellisena sovelluksena, joka perustuu Bitcoin:n avoimeen protokollaan turvallisia ja helppoja verkkomaksuja ja rahansiirtoja varten".
+ Yhtiö oli myös ostanut Instawallet-verkkosovelluksen Jan Vornbergeriltä maaliskuussa 2012.
+reviewed: true

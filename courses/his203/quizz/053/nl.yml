@@ -1,0 +1,11 @@
+question: Wat was de naam van de private-to-private wisseldienst die Jeremias Kangas en zijn broer in juni 2012 lanceerden?
+answer: LocalBitcoins
+wrong_answers:
+  - BTC IN DE BUURT VAN MIJ
+  - BitInstant
+  - Coinabul
+explanation: |
+ Dit was een matchmakingplatform dat op 7 juni werd gelanceerd. In de zomer integreerde LocalBitcoins een escrow-systeem waarmee bitcoins tijdelijk door het platform konden worden
+ tijdelijk door het platform konden worden vastgehouden en via sms konden worden vrijgegeven voor betaling aan de koper. Dit maakte met name face-to-face uitwisselingen mogelijk, waarbij de verkoper
+ de bitcoins vrijgeeft zodra het geld is ontvangen.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Hvilken metode brukte Tony76 for å sette opp svindelen sin 20. april 2012 på markedsplassen Silk Road?
+answer: Bruk av sitt upåklagelige rykte som selger til å kreve tidlig gjennomføring av transaksjoner
+wrong_answers:
+  - Utnyttelse av en teknisk sårbarhet i behandlingen av bitcoin-betalinger på plattformen
+  - Manipulering av bitcoin-prisen for å kunstig blåse opp prisene på Silk Road
+  - Utpressing av en Silk Road-ansatt til å skrive ut falske produktbeskrivelser
+explanation: |
+ Tony76 hadde et utmerket rykte, noe som gjorde det mulig for ham å kreve at kjøperne skulle bruke tidlig sluttføring i stedet for escrow. Den 20. april var en symbolsk dato for
+ cannabisforbrukere, tilbød han flere rabatter på sine vanlige produkter for anledningen, og bestillingene strømmet inn. Senere forsvant han med bitcoinsene, og
+ og innfridde aldri bestillingene sine.
+reviewed: true

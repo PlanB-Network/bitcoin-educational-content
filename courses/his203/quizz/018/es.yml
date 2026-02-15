@@ -1,0 +1,10 @@
+question: ¿Qué programa de radio libertario estadounidense fue uno de los primeros en mencionar la existencia del mercado de la Ruta de la Seda?
+answer: Charla gratuita en directo
+wrong_answers:
+  - El show de Bitcoin
+  - Todas las cosas consideradas
+  - Noticias nocturnas de Infowars
+explanation: |
+ Free Talk Live fue presentado por Ian Freeman y Mark Edge, que descubrieron Bitcoin en diciembre de 2010 y conocieron a Gavin Andresen en febrero de 2011. El 16 de marzo de 2011, la mitad
+ del programa se dedicó al uso de Bitcoin en Silk Road, lo que convenció a Roger Ver para implicarse más con Bitcoin.
+reviewed: true

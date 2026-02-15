@@ -1,0 +1,10 @@
+question: Cómo se llamaba el servicio de cambio instantáneo de divisas creado por Gareth Nelson y Charlie Shrem en 2011 para facilitar los depósitos en plataformas de cambio de divisas?
+answer: BitInstant
+wrong_answers:
+  - Instawallet
+  - Crypto X Cambiar
+  - TrustCash
+explanation: |
+ Este servicio resolvía el problema de la lentitud de las transferencias internacionales a Mt. Gox actuando como intermediario, transfiriendo los fondos a las plataformas de intercambio una vez recibidos en
+ en el país de origen. BitInstant abrió sus puertas al público el 23 de agosto de 2011 y rápidamente se hizo popular, transfiriendo 1,2 millones de dólares en enero de 2012.
+reviewed: true

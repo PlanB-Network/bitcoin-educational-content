@@ -1,0 +1,9 @@
+question: Koji je bio glavni prigovor američkih libertarijanaca protiv Bitcoin, pozivajući se na Misesovu teoremu regresije?
+answer: Nije imalo intrinzičnu vrednost i nije bilo podržano ničim konkretnim
+wrong_answers:
+  - Imala je monetarnu inflaciju, sa stopom izdavanja od 40% godišnje u 2011.
+  - Nije korišćeno kao obračunska jedinica, što je suštinska osobina novca.
+  - To je stvorilo duboko nejednaku raspodelu bogatstva
+explanation: |
+ Neki američki libertarijanci, povezani sa austrijskom školom, odbacili su Bitcoin jer je (po njihovom mišljenju) bio u suprotnosti sa regresionom teoremom Ludwiga von Misesa, koja kaže da dobro mora imati objektivnu nemonetarnu upotrebnu vrednost pre nego što može postati valuta. Ovo je posebno važilo za Petera Schiffa, sina protivnika poreza Irwina Schiffa i odlučnog pristalicu zlatnog standarda.
+reviewed: true

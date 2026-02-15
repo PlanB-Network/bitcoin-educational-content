@@ -1,0 +1,9 @@
+question: hashrate วัดอะไร?
+answer: Hashes ต่อวินาที
+wrong_answers:
+  - บล็อกต่อวินาที
+  - ธุรกรรมต่อวินาที
+  - ไบต์ต่อวินาที
+explanation: |
+  hashrate แสดงจำนวนความพยายามในการแฮชที่ทำในแต่ละวินาที ในหน่วย H/s
+reviewed: true

@@ -1,0 +1,9 @@
+question: ขนาดของ nonce ในส่วนหัวของบล็อกคือเท่าใด?
+answer: 32 บิต
+wrong_answers:
+  - 128 บิต
+  - 64 บิต
+  - 256 บิต
+explanation: |
+  Nonce เป็นฟิลด์ขนาด 32 บิตในส่วนหัว
+reviewed: true

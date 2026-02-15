@@ -1,0 +1,10 @@
+question: Millisel subredditil võiksid kasutajad avaldada enda alastiolevaid fotosid bitcoini vihjete eest alates 2012. aasta märtsist?
+answer: r/GirlsGoneBitcoin
+wrong_answers:
+  - r/GoneWild
+  - r/CryptoPorn
+  - r/Bitcoin
+explanation: |
+ r/GirlsGoneBitcoin'i avas 26. märtsil 2012 Las Vegases elav Linuxi ja privaatsuse kaitsja Julian Tosh ehk Tuxavant. Subreddit oli peaaegu
+ 2000 liiget aasta lõpuks.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Minkä Mt. Goxin kanssa kilpailevan valuutanvaihtopalvelun David François käynnisti joulukuussa 2010?
+answer: Bitcoin-Central
+wrong_answers:
+  - Paymium
+  - Britcoin
+  - Bitomat
+explanation: |
+ Bitcoin-Central oli ranskalainen foorumi, joka aluksi hyväksyi Liberty Reserve -dollareita ja -euroja sekä perinteisiä eurosiirtoja. Sen lähdekoodi oli
+ julkaistiin avoimen lähdekoodin lisenssillä (AGPL). Alusta yhdistyi myöhemmin Paymium:n kanssa, jonka perustivat Gonzague Grandval, Pierre Noizat ja David
+ François kesäkuussa 2011, joka alun perin keskittyi maksuliikenteeseen.
+reviewed: true

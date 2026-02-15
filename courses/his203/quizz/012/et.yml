@@ -1,0 +1,10 @@
+question: Kui palju bitcoine kandis Mark Karpelès üle, et tõestada Mt. Goxi platvormi maksevõimet 23. juunil 2011?
+answer: 424,242 bitcoin'i
+wrong_answers:
+  - 666 bitcoin'i
+  - 1337 bitcoin'i
+  - 21,210 bitcoin'i
+explanation: |
+ See oli ligikaudu nii palju bitcoine, kui ettevõte sel ajal omas. Number 42 on vastus "suurele küsimusele elu, universumi ja
+ kõigele muule" H2G2-s.
+reviewed: true

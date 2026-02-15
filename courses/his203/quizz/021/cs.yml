@@ -1,0 +1,10 @@
+question: Jak se jmenovala služba okamžité výměny cizích měn, kterou v roce 2011 vytvořili Gareth Nelson a Charlie Shrem, aby usnadnili vklady do devizových platforem?
+answer: BitInstant
+wrong_answers:
+  - Instawallet
+  - Crypto X Změna
+  - TrustCash
+explanation: |
+ Tato služba vyřešila problém pomalých mezinárodních převodů na Mt. Gox tím, že fungovala jako zprostředkovatel a po obdržení peněz na burzovní platformy je převedla na burzu
+ zemi původu. Služba BitInstant byla otevřena veřejnosti 23. srpna 2011 a rychle si získala oblibu - do ledna 2012 převedla 1,2 milionu dolarů.
+reviewed: true

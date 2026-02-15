@@ -1,0 +1,11 @@
+question: Vilken funktion som lades till av valutatjänsten BitInstant i december 2011 utnyttjades av Robert Faiella, alias BTCKing, för hans återförsäljningsverksamhet på dark web?
+answer: Kontant insättning
+wrong_answers:
+  - Fria inköp
+  - Direktöverföringar
+  - Regulatorisk efterlevnad
+explanation: |
+ BitInstant lade till den här betalningsmetoden i sitt erbjudande den 21 december 2011. Det var möjligt för amerikanska medborgare att sätta in kontanter på specifika platser och bli
+ krediteras nästan omedelbart i dollar på den handelsplattform de valt. Robert Faiella, alias BTCKing, utnyttjade den relativa sekretessen i
+ denna metod för att driva en återförsäljningsverksamhet på Silk Road, mot en högre avgift.
+reviewed: true

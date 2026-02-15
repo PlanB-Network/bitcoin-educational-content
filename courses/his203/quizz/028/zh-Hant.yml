@@ -1,0 +1,10 @@
+question: 2011 年 11 月，哪款軟體創新地將關鍵衍生 seed 表示為 12 個字的句子？
+answer: Electrum
+wrong_answers:
+  - Spesmilo
+  - 層級
+  - Paymium
+explanation: |
+ 這款 wallet 由法國開發商 Thomas Voegtlin 創造。它的名字指的是金銀的天然合金 Electrum。Electrum 是第一批
+ wallet 之一，它實作了一個由 seed 衍生出密鑰的確定性結構，它同時以十六進位字串和 12 個字的句子來表示密鑰。
+reviewed: true

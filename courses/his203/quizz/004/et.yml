@@ -1,0 +1,10 @@
+question: Millises veebimeedias avaldati Adrian Cheni artikkel, mis tõi Siiditee avalikkuse ette 1. juunil 2011?
+answer: Gawker
+wrong_answers:
+  - Gizmodo
+  - Slashdot
+  - Hackernews
+explanation: |
+ Gawker.com oli mõjukas blogi, kus paljud autorid avaldasid mõnikord vastuolulisi artikleid. See läks 2016. aastal pankrotti, pärast kohtuvaidlust, mille esitas
+ Hulk Hogan ja Peter Thiel.
+reviewed: true

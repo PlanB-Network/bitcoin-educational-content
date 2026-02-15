@@ -1,0 +1,11 @@
+question: Sunny King
+answer: Sunny King
+wrong_answers:
+  - Vitalik Buterin
+  - Došao-Iza
+  - Ben Laurie
+explanation: |
+ Sunny King je bio pseudonim glavnog programera projekta. Ideja je bila da se implementira hibridni model gde su određeni blokovi validirani dokazom očuvanja
+ (zasnovano na konceptu starosti novčića), pored blokova koji su rudari konvencionalnim mining. Sunny King i njegovi saradnici su lansirali PPCoin u avgustu 2012.
+ (kasnije preimenovan u Peercoin). Oni su opisali svoje rešenje kao "energetski efikasno na duži rok".
+reviewed: true

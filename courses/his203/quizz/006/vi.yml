@@ -1,0 +1,9 @@
+question: Vào cuối mùa hè năm 2011, tỷ lệ phần trăm hoạt động trên chuỗi Bitcoin đại diện cho Con đường Tơ lụa là bao nhiêu?
+answer: 10%
+wrong_answers:
+  - 3%
+  - 30%
+  - 90%
+explanation: |
+ Theo một báo cáo sau đó của Chainalysis, hoạt động trên Con đường Tơ lụa chiếm gần 10% tổng khối lượng giao dịch trên kênh Bitcoin vào đầu tháng 9 năm 2011.
+reviewed: true

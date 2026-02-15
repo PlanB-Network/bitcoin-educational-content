@@ -1,0 +1,11 @@
+question: ¿Cuántos hackeos distintos sufrió la plataforma de negociación Bitcoinica antes de declararse en quiebra?
+answer: 3
+wrong_answers:
+  - 1
+  - 2
+  - 4
+explanation: |
+ Los tres hackeos fueron los siguientes: el hackeo de la cuenta de Linode, que causó a la plataforma la pérdida de 43.554 bitcoins; el hackeo de su cuenta de Rackspace, que provocó la pérdida de 18.574 bitcoins; el hackeo de la cuenta de Mt
+ pérdida de 18.574 bitcoins; el hackeo de la cuenta de Mt. Gox, durante el cual el hacker retiró 40.000 bitcoins y 40.000 LR-USD. La liquidación de Bitcoinica
+ se anunció el 1 de agosto de 2012.
+reviewed: true

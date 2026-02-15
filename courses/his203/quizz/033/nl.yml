@@ -1,0 +1,10 @@
+question: Wat bevatte, naast de identificatiecode van zijn mining-pool, de meerderheid van de inscripties die Luke-Jr via Eligius maakte in augustus 2011?
+answer: Gebeden
+wrong_answers:
+  - Kinderpornografie
+  - Memes
+  - Politieke berichten
+explanation: |
+ In overeenstemming met zijn katholieke (sedevacantistische) geloof, nam Luke-Jr gebeden en heilige teksten op in de beloningstransactie voor blokken gedolven door zijn mining pool,
+ Eligius, zonder de betrokken mijnwerkers te raadplegen, wat een levendig debat uitlokte.
+reviewed: true

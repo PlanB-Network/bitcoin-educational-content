@@ -1,0 +1,10 @@
+question: Koja mobilna aplikacija za deponovanje bitkoina je razvijena od strane francuske kompanije Paymium SAS u aprilu 2012?
+answer: Paytunia
+wrong_answers:
+  - Instawallet
+  - MyBitcoin
+  - Vibanko
+explanation: |
+ Paymium je to predstavio kao "revolucionarnu aplikaciju zasnovanu na otvorenom protokolu Bitcoin za sigurna i jednostavna online plaćanja i transfer novca". 
+ Kompanija je takođe preuzela web aplikaciju Instawallet od Jana Vornbergera u martu 2012. godine.
+reviewed: true

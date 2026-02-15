@@ -1,0 +1,10 @@
+question: A que nível caiu o preço da bitcoin no final do mercado em baixa que se seguiu à grande bolha de 2011?
+answer: 2 $
+wrong_answers:
+  - 0,01 $
+  - 6 $
+  - 17,5 $
+explanation: |
+ Depois de atingir um pico de 32 dólares em junho de 2011, o preço da bitcoin caiu drasticamente para 6 dólares no início de agosto, depois continuou a cair, atingindo finalmente cerca de 2 dólares em
+ Novembro de 2011. Isto representou uma queda de mais de 90% em relação ao pico de junho.
+reviewed: true

@@ -1,0 +1,10 @@
+question: På vilken onlinebörs genomförde Erik Voorhees en informell börsintroduktion i augusti 2012 för att utveckla onlinekasinot SatoshiDICE?
+answer: MPEx
+wrong_answers:
+  - GLBSE
+  - Bitcoinica
+  - Bitoption.org
+explanation: |
+ MPEx var den plattform som Mircea Popescu förvaltade och som lanserades några månader tidigare. Erik Voorhees emitterade 100 miljoner aktier (med aktiesymbolen S.DICE) och
+ sålde 10 för att samla in 34 500 bitcoins, eller cirka 372 000 dollar.
+reviewed: true

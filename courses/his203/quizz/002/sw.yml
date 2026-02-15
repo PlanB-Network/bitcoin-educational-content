@@ -1,0 +1,11 @@
+question: Ni itifaki gani iliyozuia soko la Barabara ya Hariri kufungwa moja kwa moja na mamlaka?
+answer: Tor
+wrong_answers:
+  - I2P
+  - Mtandao Huru
+  - BitTorrent
+explanation: |
+ Tor, kifupisho cha kimsamiati cha The Onion Router, ni itifaki inayounga mkono mtandao wa kompyuta wa kimataifa, uliogawanywa (unaojulikana kama darknet).
+ 
+ Inawezesha tovuti kuhifadhiwa bila kujulikana na bila udhibiti, na ilifaa zaidi kwa mradi wa Ross Ulbricht.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Hvor mange bitcoins ble overført av Mark Karpelès for å bevise solvensen til Mt. Gox-plattformen den 23. juni 2011?
+answer: 424 242 bitcoins
+wrong_answers:
+  - 666 bitcoins
+  - 1 337 bitcoins
+  - 21 210 bitcoins
+explanation: |
+ Dette var omtrent det antallet bitcoins selskapet eide på det tidspunktet. Tallet 42 er svaret på "det store spørsmålet om livet, universet og
+ alt annet" i H2G2.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Na které směnárenské platformě bylo na začátku září 2012 ukradeno 24 000 bitcoinů?
+answer: Bitfloor
+wrong_answers:
+  - Mt. Gox
+  - Tradehill
+  - BTC-e
+explanation: |
+ V noci z 3. na 4. září 2012 získal hacker přístup k nešifrované záloze klíčů wallet společnosti Bitfloor a podařilo se mu stáhnout něco přes 24 000 klíčů BTC, neboli klíčů wallet
+ přibližně 250 000 dolarů.
+reviewed: true

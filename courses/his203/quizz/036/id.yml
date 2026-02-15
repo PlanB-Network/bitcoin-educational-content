@@ -1,0 +1,10 @@
+question: Apa yang dimaksud dengan "pool hopping" bagi penambang yang mendelegasikan hash rate-nya ke pool mining?
+answer: Memutuskan sambungan dari pool mining setelah sejumlah saham telah dikirimkan dalam satu siklus, dan mengalihkan daya komputasi ke akun Anda sendiri atau ke pool mining lainnya
+wrong_answers:
+  - Mengadopsi protokol komunikasi intensif bandwidth untuk berinteraksi dengan mining pool untuk mengurangi saham usang dengan merampingkan pengumuman blok baru
+  - Melakukan beberapa transaksi fiktif dalam pool mining untuk mensimulasikan transfer kepemilikan bitcoin dan meningkatkan kerahasiaan penambang yang didelegasikan
+  - Menuliskan nama pool mining pada kolom input transaksi reward dari blok yang ditambang, untuk membuat pengoperasian pool mining lebih transparan
+explanation: |
+ Metode ini dijelaskan oleh Raulo pada bulan Februari 2011, yang memperkirakan bahwa seseorang dapat memperoleh 28% lebih banyak bitcoin dengan cara ini. Hal ini memotivasi pengenalan
+ skor "anti-kecurangan" dalam koperasi Slush.
+reviewed: true

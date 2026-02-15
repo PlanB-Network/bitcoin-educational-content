@@ -1,0 +1,9 @@
+question: Koji mining kooperativ je nakratko premašio 50% mrežnog hash rate-a tokom leta 2011?
+answer: Deepbit
+wrong_answers:
+  - Deepbit
+  - Slush's Pool
+  - GHash.io
+explanation: |
+ Prema OrganOfCorti, Deepbit-ova izmerena hash stopa bila je 52.86% 5. avgusta.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Apa alasan utama mengapa gerakan Occupy Wall Street mulai menerima donasi bitcoin pada September 2011?
+answer: Untuk menghindari sensor keuangan
+wrong_answers:
+  - Untuk mendapatkan keuntungan dari cadangan nilai jangka panjang
+  - Untuk memasukkan informasi di blockchain
+  - Untuk membeli persediaan di Jalur Sutra
+explanation: |
+  Gerakan ini mengadopsi Bitcoin untuk menghindari sensor keuangan setelah beberapa akun PayPal-nya dibekukan. Hasilnya, rapat umum pengunjuk rasa di
+  New York menerima donasi pada tanggal 19 September, dengan total 686 BTC atau lebih dari $3.000 pada saat penerimaan.
+reviewed: true

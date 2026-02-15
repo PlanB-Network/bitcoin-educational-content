@@ -1,0 +1,9 @@
+question: ใครเป็นผู้คิดค้นแนวคิดของ Bit Gold?
+answer: นิค ซาโบ
+wrong_answers:
+  - Satoshi Nakamoto
+  - Hal Finney
+  - เว่ย ได
+explanation: |
+  Bit Gold เป็นโครงการแนวคิดสำหรับระบบเงินอิเล็กทรอนิกส์ที่เสนอโดย Nick Szabo.
+reviewed: true

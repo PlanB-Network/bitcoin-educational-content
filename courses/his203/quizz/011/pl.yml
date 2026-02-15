@@ -1,0 +1,10 @@
+question: Co spowodowało włamanie na Mt. Gox 19 czerwca?
+answer: Dostęp do bazy danych haseł, które zostały zaszyfrowane przy użyciu MD5, ale nie zostały zasolone
+wrong_answers:
+  - Jed McCaleb ujawnił hasło dostępu do swojego osobistego konta na platformie
+  - Błyskawiczna awaria, która pozwoliła piratowi wypłacić więcej bitcoinów niż posiadał
+  - Wstrzykiwanie XML w żądaniach wypłaty w celu przejęcia kont
+explanation: |
+ Wyciek ten umożliwił hakerowi dostęp do kont ze słabymi hasłami (krótkimi lub łatwymi do odgadnięcia). W szczególności uzyskał w ten sposób dostęp do konta Jeda McCaleba. On
+ sprzedał bitcoiny, aby obniżyć ich cenę i wypłacić maksymalną ich ilość (dzienny limit wypłat wynosił 1000 USD).
+reviewed: true

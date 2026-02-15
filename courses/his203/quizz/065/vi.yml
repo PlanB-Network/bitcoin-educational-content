@@ -1,0 +1,9 @@
+question: Nền tảng giao dịch Bitcoinica đã trải qua bao nhiêu vụ tấn công mạng riêng biệt trước khi tuyên bố phá sản?
+answer: 3
+wrong_answers:
+  - 1
+  - 2
+  - 4
+explanation: |
+ Ba vụ tấn công mạng như sau: vụ tấn công tài khoản Linode khiến nền tảng này mất 43.554 bitcoin; vụ tấn công tài khoản Rackspace dẫn đến việc mất 18.574 bitcoin; vụ tấn công tài khoản Mt. Gox, trong đó hacker đã rút 40.000 bitcoin và 40.000 LR-USD. Việc thanh lý Bitcoinica được công bố vào ngày 1 tháng 8 năm 2012.
+reviewed: true

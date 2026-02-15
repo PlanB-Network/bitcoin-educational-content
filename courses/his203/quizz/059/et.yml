@@ -1,0 +1,11 @@
+question: Mis oli SatoshiDICE veebipõhise täringumängu algse looja pseudonüüm?
+answer: Fireduck
+wrong_answers:
+  - Evoorhees
+  - Tuxavant
+  - Hippich
+explanation: |
+ Joseph Gleason ehk Fireduck oli 30-aastane Ameerika arendaja. Pärast mõne Bitcoin tarkvaravahendi programmeerimist töötas ta välja SatoshiDICE bitcoini
+ kasiino (mis esitles end täringumänguna) 9. aprillil 2012. Paar nädalat hiljem müüs ta platvormi Erik Voorheesile (Evoorhees) 40 bitcoin'i ehk 40 bitcoin'i eest
+ umbes 200 dollarit.
+reviewed: true

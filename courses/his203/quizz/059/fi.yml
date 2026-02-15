@@ -1,0 +1,11 @@
+question: Mikä oli SatoshiDICE-verkkonoppapelin alkuperäisen luojan salanimi?
+answer: Fireduck
+wrong_answers:
+  - Evoorhees
+  - Tuxavant
+  - Hippich
+explanation: |
+ Joseph Gleason eli Fireduck oli 30-vuotias yhdysvaltalainen kehittäjä. Ohjelmoituaan Bitcoin:lle muutamia ohjelmistotyökaluja hän kehitti SatoshiDICE-bitcoinin
+ kasinon (joka esiintyi noppapelinä) 9. huhtikuuta 2012. Muutamaa viikkoa myöhemmin hän myi alustan Erik Voorheesille (Evoorhees) 40 bitcoinilla eli
+ noin 200 dollaria.
+reviewed: true

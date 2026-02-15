@@ -6,4 +6,4 @@ wrong_answers:
   - Để tối ưu hóa quyền riêng tư của UTXO
 explanation: |
   Việc chuyển sang ví lạnh sẽ bảo mật tiền bằng cách lưu trữ khóa riêng ngoại tuyến (offline).
-reviewed: false
+reviewed: true

@@ -5,5 +5,5 @@ wrong_answers:
   - To know all active miners
   - To know all private keys
 explanation: |
-  Double-spending is detected by comparing a transaction to past spending recorded in a shared ledger.
-reviewed: false
+  Double-spending is detected by comparing a transaction to previous spending recorded in the shared ledger.
+reviewed: true

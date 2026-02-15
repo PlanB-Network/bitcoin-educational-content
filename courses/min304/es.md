@@ -10,16 +10,13 @@ objectives:
 
 # Construye tu primer calentador de Bitcoin DIY
 
-
-
-
-
-
 Este curso se basa en Attakai, un proyecto práctico de bricolaje que transforma un minero S9 usado en un calentador de Bitcoin para el hogar.
 
 Comenzará con una descripción general concisa de la minería de Bitcoin y las realidades de la industria minera, luego pasará directamente a la construcción: obtener el hardware adecuado, instalar y configurar BraiinsOS+, configurar la red, reemplazar los ventiladores, unirse a un grupo de minería y optimizar el rendimiento en cuanto a calor, ruido y eficiencia.
 
 Las guías paso a paso te llevan a través de todo el proceso para que puedas construir Attakai en casa y minar tus primeros sats mientras calientas tu espacio.
+
++++
 
 # Introducción
 

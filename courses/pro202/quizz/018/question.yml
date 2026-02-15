@@ -48,10 +48,11 @@ proofreading:
     contributor_names:
     reward: 0.32
   - language: fr
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 0.25
+      - JosephQuaye
+    reward: 0.12
   - language: hi
     last_contribution_date:
     urgency: 1

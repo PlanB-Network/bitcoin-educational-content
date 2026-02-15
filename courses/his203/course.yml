@@ -19,10 +19,11 @@ proofreading:
       - lugaxker
     reward: 25.2
   - language: en
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 50.4
+      - Sanja22B
+    reward: 25.2
 tags:
   - historical
   - protocols

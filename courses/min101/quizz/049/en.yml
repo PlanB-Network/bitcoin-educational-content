@@ -6,4 +6,4 @@ wrong_answers:
   - ASIC prices
 explanation: |
   By pooling hashrate, a pool transforms a very irregular income into more regular payments. This reduces income variance for the miner.
-reviewed: false
+reviewed: true

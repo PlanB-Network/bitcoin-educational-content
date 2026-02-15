@@ -1,0 +1,27 @@
+id: dd65ceee-1d36-44c4-9cd7-f3e2bbf6f8bd
+start_date: 2026-02-20 19:00:00
+end_date: 2026-02-20 21:00:00
+timezone: America/Asuncion
+address_city_country: Asunción, Paraguay
+address_line_2: Juan de Salazar 372, entre Artigas y
+address_line_3: El Granel
+name: "ASU: BitDevs #11"
+type: meetup
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: |
+  BitDevs Asunción is a technical meetup for those interested in Bitcoin and related protocol research and development. The event covers the latest news, pull requests, mailing list discussions, and technical topics related to Bitcoin, Lightning Network, and open-source projects in the ecosystem. While discussions are technical, all levels are welcome from experienced developers to beginners.
+  
+  Warning: information may change. Booking and up-to-date information are on SATLANTIS.
+language:
+  - es
+  - en
+links:
+  website: https://bitcoinparaguay.org/
+  replay_url: 
+  live_url: 
+tags:
+  - development
+  - lightning
+  - protocols

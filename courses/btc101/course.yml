@@ -88,11 +88,12 @@ proofreading:
       - f205sats
     reward: 0
   - language: ja
-    last_contribution_date: 2023-12-03
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
       - yutaro21jp
-    reward: 24.43
+      - yuka21-cmyk
+    reward: 0
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -118,11 +119,12 @@ proofreading:
       - taneltheplanet
     reward: 14.68
   - language: id
-    last_contribution_date: 2025-05-14
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
       - AraleB
       - bitcoinindo21
+      - rudyhow
     reward: 0
   - language: zh-Hans
     last_contribution_date: 2024-09-24

@@ -1,0 +1,27 @@
+id: 72eafd9e-2947-4f1b-91c2-57bbf8234aa8
+start_date: 2026-02-28 16:00:00
+end_date: 2026-02-28 19:00:00
+timezone: Asia/Seoul
+address_city_country: Busan, South Korea
+address_line_2: Suyeong-gu, Suyeong-ro, 513 2층
+address_line_3: Base21
+name: BiP - 2월 월간 밋업 / Session - Inflation
+type: meetup
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: |
+  A casual Bitcoin meetup in Busan focused on inflation and its relationship to Bitcoin. This beginner-friendly session includes a short orientation, an easy quiz about inflation, Q&A time, and networking opportunities for those interested in connecting with the local Bitcoin community.
+  
+  Warning: information may change. Booking and up-to-date information are on SATLANTIS.
+language:
+  - ko
+  - en
+links:
+  website: https://www.satlantis.io/events/1735/BiP---2%EC%9B%94-%EC%9B%94%EA%B0%84-%EB%B0%8B%EC%97%85-%2F-Session---Inflation
+  replay_url: 
+  live_url: 
+tags:
+  - adoption
+  - finance
+  - user-friendly

@@ -1,0 +1,26 @@
+id: a52788f5-d34c-4fe1-bcf8-aa5503da7c23
+start_date: 2026-02-25 20:00:00
+end_date: 2026-02-25 23:00:00
+timezone: Europe/Oslo
+address_city_country: Bodø, Norway
+address_line_2: Storgata 8
+address_line_3: Restaurant Bjørk
+name: Bodø Bitcoin Meet-up! 2026
+type: meetup
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: |
+  An open and informal Bitcoin meetup for everyone from curious beginners to long-time Bitcoiners. Join for casual conversations about Bitcoin fundamentals, real-world use cases, philosophy, and technology in a relaxed social setting. The host will also announce details about an upcoming Bitcoin conference in Bodø on August 14.
+  
+  Warning: information may change. Booking and up-to-date information are on SATLANTIS.
+language:
+  - en
+links:
+  website: https://www.satlantis.io/events/1650/Bod%C3%B8-Bitcoin-Meet--up!
+  replay_url: 
+  live_url: 
+tags:
+  - adoption
+  - innovation
+  - self-sovereignty

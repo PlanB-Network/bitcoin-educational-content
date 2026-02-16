@@ -1,0 +1,2 @@
+description: |
+  Utreexo is a Bitcoin scalability project that reduces the data requirements for running a Bitcoin node. It uses cryptographic accumulators to compress the UTXO set, allowing nodes to verify transactions without storing the entire unspent transaction output database. This innovation makes it possible to run lightweight Bitcoin nodes with significantly reduced storage requirements while maintaining full security guarantees.

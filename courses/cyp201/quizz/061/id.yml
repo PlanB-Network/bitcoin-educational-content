@@ -6,3 +6,4 @@ wrong_answers:
   - 128 byte
 explanation: |
   Sebuah kunci ekstensi adalah 78 byte tanpa checksum dan 82 byte dengan checksum termasuk.
+reviewed: true

@@ -1,5 +1,6 @@
 ---
-term: SIKU YA BENDERA
+term: Flag day
+definition: Njia ya kuwezesha soft fork inayoweka tarehe ya mwisho ya kupitisha sheria mpya.
 ---
 
 Njia ya kuwezesha Soft Fork iliyotumiwa katika miaka ya mwanzo ya Bitcoin. Mchakato huu unaweka tu tarehe ya mwisho, inayojulikana kama "Siku ya Bendera," ambapo sasisho la itifaki lazima lipitishwe na mtandao mzima. Njia hii ni ya moja kwa moja: baada ya tarehe hii, nodes na wachimbaji lazima wasasishe programu zao ili kuzingatia sheria mpya, vinginevyo, wana hatari ya kuwa kwenye mlolongo usiofaa.

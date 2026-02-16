@@ -1,5 +1,6 @@
 ---
 term: Commitment
+definition: Obiekt kryptograficzny pozwalający udowodnić istnienie danych bez ich ujawniania.
 ---
 
 Commitment (w sensie kryptograficznym) jest obiektem matematycznym, oznaczanym $C$, otrzymanym deterministycznie z operacji na danych strukturalnych $m$ (wiadomość) i wartości losowej $r$. Piszemy :

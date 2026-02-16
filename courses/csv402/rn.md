@@ -111,7 +111,7 @@ Ni mwiteguye kwisuka mw’isi igoye kandi iryoshe cane ya RGB? Reka tugende!
 <chapterId>f52f8af5-5d7c-588b-b56d-99b97176204b</chapterId>
 
 
-:::id ya videwo = f27338bc-4210-4a2e-9b27-30278ed3282c::
+:::video id=f27338bc-4210-4a2e-9b27-30278ed3282c:::
 
 
 RGB ni umurongo wagenewe gukoresha no gushitsa uburenganzira bwa digitale (mu buryo bw’amasezerano n’itunga) mu buryo bushobora guhindurwa kandi bufise ibanga, bushingiye ku mategeko y’uguhurizako n’imikorere ya Bitcoin Blockchain. Intumbero y’iki gice ca mbere ni ugushikiriza ivyiyumviro n’amajambo y’ishimikiro akikuje umurongo wa RGB, tugaragaza cane cane isano ryayo n’ivyiyumviro vy’ishimikiro vy’ubuhinga bwa none nka Client-side Validation na Single-use Seals.
@@ -617,7 +617,7 @@ Imbere yo kwisuka mu bintu vy’ubuhinga vy’igice ca kabiri, ntutinye gusubira
 <chapterId>cc2fe85a-9cc7-5b8c-a00a-c0a867241061</chapterId>
 
 
-:::id y'amasanamu = 73dea2d-c243-479d-a3dc-12d7db8eef70:::
+:::video id=73ddea2d-c243-479d-a3dc-12d7db8eef70:::
 
 
 Muri iki gice, turaza kuraba ingene Client-side Validation n'Ibimenyetso bikoreshwa rimwe gusa bishirwa mu ngiro muri Bitcoin Blockchain. Tuzoshikiriza ingingo ngenderwako nyamukuru za RGB **Commitment Layer** (Layer 1), twibanda canecane ku mugambi wa **TxO2**, uwo RGB ikoresha mu gusobanura no gufunga Seal mu gucuruza kwa Bitcoin. Inyuma y’aho, turaza kuganira ku ngingo zibiri zihambaye zitaravugwa mu buryo burambuye:
@@ -1448,7 +1448,7 @@ Mu gice gikurikira, turaza kuraba igice ca off-chain gusa ca RGB, ni ukuvuga ubu
 <chapterId>04a9569f-3563-5382-bf53-0c7069343ba0</chapterId>
 
 
-:::id y'amasanamu y'amasanamu:::
+:::video id=db4ee09f-1352-4ad1-9f7a-c962df7ea9fa:::
 
 
 Muri iki gice n'ikindi gikurikira, turaza kuraba iciyumviro ca **Smart contract** mu bidukikije vya RGB maze tubone uburyo butandukanye ayo masezerano ashobora gusobanura no guhindura *igihugu* cayo. Turabona igituma ubuhinga bwa RGB, bukoresheje urutonde rw’Ibimenyetso vy’Ikoreshwa Rimwe, butuma bishoboka gukora ubwoko butandukanye bw’Ibikorwa vya ***Contract*** mu buryo bushobora guhindurwa kandi ata guca mu gitabu c’ivyandikano gihurikiye hamwe. Turaba kandi uruhara rwa ***Business Logic*** mu gutegura iterambere rya Contract State.
@@ -1583,7 +1583,7 @@ Mu gice gikurikira, tuzoja mu buryo burambuye ku bijanye n'ukuntu izo ***intara*
 <chapterId>78c44e88-50c4-5ec4-befe-456c1a9f080b</chapterId>
 
 
-:::id ya videwo=1caec34d-f214-425b-a1a4-0a40ae7d3e0e:::
+:::video id=1caec34d-f214-425b-a1a4-0a40ae7d3e0e:::
 
 
 Muri iki gice, turaza kuraba ingene ibikorwa mu masezerano y’ubwenge no mu guhindura Leta bikora, kandi mu gihe c’amasezerano ya RGB. Intumbero izoba kandi iyo gutahura ingene abaje mu nama benshi bafatanya mu gutanga Ownership y’umutungo.
@@ -2744,7 +2744,7 @@ Witness Transaction ni igikorwa ca Bitcoin gifunga Single-Use Seal gikikuje ubut
 <chapterId>8333ea5f-51c7-5dd5-b1d7-47d491e58e51</chapterId>
 
 
-:::id ya videwo=97d81b85-5a82-40a5-b111-7d96be5afd0f:::
+:::video id=97d81b85-5a82-40a5-b111-7d96be5afd0f:::
 
 
 Muri iki gice, turaza kuraba neza ingene RGB Contract isobanurwa kandi igashirwa mu ngiro. Turabona ibice bigize RGB Contract ni ibiki, uruhara rwavyo n’ingene vyubatswe.
@@ -3645,7 +3645,7 @@ Mu gice gikurikira, turaza kuraba ingene uguhererekanya amafaranga Contract guko
 <chapterId>f043a307-d420-5752-b0d7-ebfd845802c0</chapterId>
 
 
-:::id ya videwo=75eb5a8d-1910-4155-b5e3-81204c9a8901:::
+:::video id=75eb5a8d-1910-4155-b5e3-81204c9a8901:::
 
 
 Muri iki gice, turaza gusuzuma ingene Contract igenda mu bidukikije vya RGB. Kugira ngo ivyo tubigereranye, turaza kuraba Alice na Bob, abakinnyi bacu basanzwe, bipfuza ko Exchange iba umutungo wa RGB. Tuzokwereka kandi ibice bimwe bimwe vy'amabwirizwa bivuye mu gikoresho c'umurongo w'amabwirizwa `RGB`, kugira ngo turabe ingene bikora mu bikorwa.
@@ -4065,7 +4065,7 @@ None ko twabonye Elements nyamukuru ya porogarama ya RGB, nzobajana mu kigabane 
 <chapterId>0e0a645c-0049-588d-8965-b8c536590cc9</chapterId>
 
 
-:::id ya videwo=a3ad6dcd-90b8-4272-9dfc-76c85c859167::
+:::video id=a3ad6dcd-90b8-4272-9dfc-76c85c859167:::
 
 
 Muri iki gice, tuzofata intambwe ku yindi uburyo bwo kwandika Contract, dukoresheje igikoresho c'umurongo w'amabwirizwa `RGB`. Intumbero ni ukwerekana ingene woshiramwo no gukoresha CLI, ugakoranya **Schema**, ​​ugashiramwo **Interface** na **Interface Implementation**, hanyuma ugatanga (*ugutanga*) umutungo. Turaza kuraba kandi ivyiyumviro bishingiyeko, harimwo n’ugukoranya n’ugushingira intahe. Mu mpera z’iki gice, ukwiye kuba ushoboye gusubiramwo iyo nzira no kwihingurira amasezerano yawe bwite ya RGB.
@@ -4475,7 +4475,7 @@ Mu gice gikurikira, tuzokwihweza neza ingene RGB yoshirwa muri Lightning Network
 <chapterId>0962980a-8f94-5d0f-9cd0-43d7f884a01d</chapterId>
 
 
-:::id ya videwo=be25a165-6e23-488c-91d8-3dcfccc6eca1:::
+:::video id=be25a165-6e23-488c-91d8-3dcfccc6eca1:::
 
 
 Muri iki gice, ndasaba gusuzuma ingene RGB ishobora gukoreshwa muri Lightning Network, mu gushiramwo no kwimurira ivy’ubutunzi bwa RGB (ibimenyetso, NFT, n’ibindi) biciye mu nzira zo kwishura za off-chain.
@@ -4707,7 +4707,7 @@ Ibidukikije bifitaniye isano n’iterambere ry’ivy’ubuhinga ry’inkomoko yu
 <chapterId>dc92a5e8-ed93-5a3f-bcd0-d433932842f4</chapterId>
 
 
-:::id ya videwo=2ec9a181-a8b0-4da2-b7b5-9dfaaeb10ba:::
+:::video id=2ec9a181-a8b0-4da2-b7b5-9dfaaaeb10ba:::
 
 
 Iki gice ca nyuma c’amashure gishingiye ku nsiguro zashikirijwe n’abatanga insiguro batandukanye mu nama y’ivyigwa ya RGB. Harimwo intahe n’ivyiyumviro ku RGB n’ibidukikije vyayo, hamwe n’ugushikiriza ibikoresho n’imigambi ishingiye kuri iyo porotokole. Iki gice ca mbere kirongowe na Hunter Beast, ibindi bibiri bikurikira na Frederico Tenga.
@@ -4805,7 +4805,7 @@ Ivyo vyose vyerekana ingene ubuhinga bwa RGB bushobora gukoreshwa no gushikira a
 <chapterId>d4d80e07-5eac-5b29-a93a-123180e97047</chapterId>
 
 
-:::id ya videwo=04555813-516f-4eea-9767-7082c2ea6f01:::
+:::video id=04555813-516f-4eea-9767-7082c2ea6f01:::
 
 
 Muri iki gice, twisunze ikiganiro ca Frederico Tenga, turaba urutonde rw’ibikoresho n’imigambi yashizweho n’umugwi wa Bitfinex wiyeguriye RGB, n’intumbero yo guteza imbere uguseruka kw’ibidukikije vy’ubutunzi kandi bitandukanye bikikuje iyo porotokole. Intumbero y’intango y’iryo tsinda si ugusohora igicuruzwa c’ubudandaji kinaka, ahubwo ni ugutanga ibice vy’inyubako vya porogarama, gutanga umusanzu ku masezerano ya RGB ubwayo, no gutanga ibimenyetso vy’ukuri vyo gushirwa mu ngiro nk’igikoresho gigendagenda (*Iris Wallet*) canke igikoresho gishobora gukoreshwa na RGB-com.
@@ -4971,7 +4971,7 @@ Mu gice gikurikira, tuzokwihweza neza ingene twotanguza urudodo rwa RGB Lightnin
 <chapterId>ecaabe32-20ba-5f8c-8ca1-a3f095792958</chapterId>
 
 
-:::id y'amasanamu y'amasanamu y'amasanamu.
+:::video id=d1e9753e-6093-4a47-bcdc-da1aebaefffc:::
 
 
 Muri iki gice ca nyuma, Frederico Tenga aragutwara intambwe ku yindi mu gushinga urudodo rwa Lightning RGB ku bidukikije vya Regtest, kandi akakwereka ingene worema ibimenyetso vya RGB kuri rwo. Mu gutanguza amanode abiri atandukanye, uzobona kandi ingene wofungura umurongo w’umuco hagati yayo n’itunga rya Exchange RGB.

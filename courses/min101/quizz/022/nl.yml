@@ -1,0 +1,9 @@
+question: Wat meet de hashrate?
+answer: Hashes per seconde
+wrong_answers:
+  - Bloks per seconde
+  - Transacties per seconde
+  - Bytes per seconde
+explanation: |
+  De hashrate drukt het aantal hashing-pogingen uit dat elke seconde wordt gedaan, in H/s.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Na kom elementu se izračunava dokaz o radu u Bitcoin-u?
+answer: Zaglavlje bloka
+wrong_answers:
+  - Visina bloka
+  - Mempool mreže
+  - Prvih 21 transakcija u bloku
+explanation: |
+  Rudarenje se sastoji od ponovnog heširanja zaglavlja bloka od 80 bajtova, koje obavezuje sadržaj bloka.
+reviewed: false

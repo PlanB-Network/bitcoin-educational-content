@@ -1,0 +1,9 @@
+question: Mikä mekanismi laajentaa hakualuetta, kun 32-bittinen nonce on käytetty loppuun?
+answer: Extra-nonce
+wrong_answers:
+  - Super-nonce
+  - Coinbase-nonce
+  - Double-nonce
+explanation: |
+  Muuttamalla extra-noncea coinbase-transaktion scriptSig-kentässä, Merkle-juuri ja siten lohkon otsake muuttuvat.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welk economisch criterium leidt de keuze van transacties door een miner?
+answer: Het tarief van de transactiekosten (fee rate)
+wrong_answers:
+  - Het totale bedrag aan transactiekosten
+  - De ouderdom van de UTXO's
+  - Het aantal UTXO's
+explanation: |
+  Omdat de ruimte in een blok beperkt is, geeft de miner de voorkeur aan de meest winstgevende transacties per byte. Het is dus het tarief van de transactiekosten dat de selectie van transacties leidt.
+reviewed: false

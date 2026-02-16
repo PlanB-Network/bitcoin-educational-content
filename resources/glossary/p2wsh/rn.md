@@ -1,5 +1,6 @@
 ---
 term: P2WSH
+definition: Script ya SegWit yo mu mizi iziba bitcoin kuri hash ya script, aderesi bc1q.
 ---
 
 P2WSH ni ijambo ry'ikirundi risobanura *Iriha Inyandiko y'Icabona Hash*. Ni urugero rw'inyandiko rusanzwe rukoreshwa mu gushinga ivyangombwa vyo gukoresha amahera kuri UTXO. P2WSH yatangujwe n'ugushirwa mu ngiro kwa SegWit muri Myandagaro 2017.

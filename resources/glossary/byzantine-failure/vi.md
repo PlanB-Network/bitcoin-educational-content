@@ -1,6 +1,7 @@
 ---
-term: BYZANTINE FAILURE
+term: Lỗi Byzantine
 
+definition: Hành vi của một hệ thống không tuân thủ các thông số kỹ thuật của nó, có thể là tự nhiên hoặc cố ý.
 ---
 Byzantine failure, or Byzantine behavior, refers to any behavior of a system that does not comply with its own specifications, producing non-conforming results.
 

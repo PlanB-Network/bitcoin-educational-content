@@ -1,5 +1,6 @@
 ---
 term: P2SH-P2WSH
+definition: 互換性のためにP2SHでラップされたSegWitスクリプト（P2WSH）。アドレスは3で始まる。
 ---
 P2SH-P2WSHは、*Pay to Script Hash - Pay to Witness Script Hash*の略です。これは、UTXO上の支出条件を確立するために使用される標準的なスクリプトモデルであり、「Nested SegWit」としても知られています。
 

@@ -1,0 +1,9 @@
+question: Apa kepanjangan dari ASIC?
+answer: Application-Specific Integrated Circuits
+wrong_answers:
+  - Advanced Secure Integrated Circuit
+  - Automated Silicon Integrated Circuit
+  - Application-Shared Integrated Circuit
+explanation: |
+  ASIC adalah chip yang dirancang untuk satu tugas saja. Jadi, itu adalah Application-Specific Integrated Circuits.
+reviewed: false

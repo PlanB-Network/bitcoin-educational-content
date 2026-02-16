@@ -1,5 +1,6 @@
 ---
-term: VARIANCIA
+term: Varianza
+definition: Fluctuaciones en los ingresos por minería debidas a la naturaleza probabilística de la búsqueda de bloques válidos.
 ---
 
 En Mining, se refiere a las fluctuaciones en los ingresos de un Miner debidas a la naturaleza probabilística de encontrar bloques válidos. Incluso con una potencia de cálculo constante, el tiempo que se tarda en encontrar un bloque puede variar considerablemente. Como resultado, los mineros pueden pasar largos periodos sin recibir recompensa alguna, seguidos de periodos de altos ingresos.

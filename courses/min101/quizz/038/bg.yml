@@ -1,0 +1,9 @@
+question: От BIP-34 насам, какво трябва да съдържа началото на scriptSig на coinbase?
+answer: Височината на блока
+wrong_answers:
+  - Хашрейта на копача
+  - Целта за трудност
+  - Отпечатъка на блока
+explanation: |
+  BIP-34 изисква записването на височината на блока в scriptSig на coinbase.
+reviewed: false

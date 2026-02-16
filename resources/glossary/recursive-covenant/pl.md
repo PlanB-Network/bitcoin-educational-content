@@ -1,5 +1,6 @@
 ---
-term: REKURENCYJNY (PRZYMIERZE)
+term: Rekurencyjne (covenant)
+definition: Covenant nakładający warunki na bieżącą transakcję i wszystkie kolejne w nieskończoność.
 ---
 
 Przymierze rekurencyjne na Bitcoin jest rodzajem Smart contract, który nakłada warunki nie tylko na bieżącą transakcję, ale także na przyszłe transakcje, które wydają wyniki tej transakcji. Pozwala to na tworzenie łańcuchów transakcji, z których każdy musi przestrzegać pewnych zasad określonych przez pierwszy w łańcuchu. Rekursywność tworzy sekwencję transakcji, z których każda dziedziczy ograniczenia z transakcji nadrzędnej. Umożliwiłoby to złożoną i długoterminową kontrolę nad sposobem wydawania bitcoinów, ale wprowadziłoby również ryzyko związane ze swobodą wydawania i zamiennością.

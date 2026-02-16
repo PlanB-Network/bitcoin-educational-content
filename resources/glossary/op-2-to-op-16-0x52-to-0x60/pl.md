@@ -1,5 +1,6 @@
 ---
-term: OP_2 DO OP_16 (0X52 DO 0X60)
+term: OD OP_2 DO OP_16 (OD 0X52 DO 0X60)
+definition: Opkody umieszczające wartości liczbowe od 2 do 16 na stosie.
 ---
 
 Kody operacyjne od `OP_2` do `OP_16` przesuwają odpowiednie wartości liczbowe od 2 do 16 na stos. Są one używane do upraszczania skryptów poprzez umożliwienie wstawiania małych wartości liczbowych. Ten typ opcode jest szczególnie używany w skryptach z wieloma podpisami. Oto przykład `scriptPubKey` dla 2/3 Multisig:

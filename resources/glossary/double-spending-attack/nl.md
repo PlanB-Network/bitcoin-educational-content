@@ -1,5 +1,6 @@
 ---
-term: DUBBELE UITGAVEN (AANVAL)
+term: Double spending
+definition: Aanval waarbij geprobeerd wordt dezelfde bitcoins meerdere keren te gebruiken om tegenpartijen op te lichten.
 ---
 
 Een aanval waarbij een kwaadwillende gebruiker dezelfde UTXO (*Unspent Transaction Output*) meer dan eens probeert te gebruiken om zichzelf te verrijken ten koste van de partijen die betrokken zijn bij de transacties. In principe, zodra een transactie is bevestigd in een blok en toegevoegd aan de Blockchain, wordt het gebruik van die bitcoins permanent vastgelegd, waardoor verdere uitgaven van dezelfde bitcoins worden voorkomen. Het voorkomen van dubbele uitgaven is zelfs het primaire nut van de Blockchain.

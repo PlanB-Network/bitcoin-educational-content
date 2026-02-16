@@ -1,5 +1,6 @@
 ---
-term: BGP HIJACKING
+term: BGP hijacking
+definition: Rünnak, mis manipuleerib Interneti marsruutimisega liikluse ümbersuunamiseks pahatahtlikku võrku, mida saab kasutada Bitcoin sõlmede isoleerimiseks.
 ---
 
 Rünnak, mille puhul pahatahtlik tegutseja manipuleerib BGP-kuulutusi, et suunata internetiliiklust oma võrku. Teeskledes, et ta on teatud IP Address vahemike seaduslik päritolu, saab ründaja kinni pidada, jälgida või blokeerida nendele aadressidele suunatud liiklust.

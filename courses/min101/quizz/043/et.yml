@@ -1,0 +1,9 @@
+question: Mille võrra suurenes kaevandamise raskusaste 2010. aasta keskpaigast 2011. aasta keskpaigani?
+answer: 1000
+wrong_answers:
+  - 100
+  - 500
+  - 50
+explanation: |
+  Sellel perioodil toimus 1000-kordne kasv, eelkõige tänu GPU-de kasutamisele.
+reviewed: false

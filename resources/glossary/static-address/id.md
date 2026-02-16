@@ -1,6 +1,7 @@
 ---
-term: ALAMAT STATIS
+term: Alamat statis
 
+definition: Pengidentifikasi unik untuk Silent Payments yang memungkinkan pembayaran diterima tanpa penggunaan kembali alamat atau tautan on-chain yang terlihat.
 ---
 Dalam konteks _Silent Payment_, mengacu pada pengenal unik yang memungkinkan penerimaan pembayaran tanpa penggunaan ulang alamat, tanpa interaksi, dan tanpa tautan _on-chain_ yang terlihat antara berbagai pembayaran dan alamat statis. Teknik ini menghilangkan kebutuhan untuk membuat alamat penerima baru yang tidak terpakai untuk setiap transaksi, sehingga menghindari interaksi yang biasa terjadi pada Bitcoin di mana penerima harus memberikan alamat baru kepada pembayar. Hal ini agak mirip dengan kode pembayaran yang dapat digunakan kembali dalam konteks BIP47.
 

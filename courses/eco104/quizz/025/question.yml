@@ -23,10 +23,11 @@ proofreading:
       - 2raj2raj
     reward: 0
   - language: es
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 0.23
+      - Salgraphics
+    reward: 0.12
   - language: fi
     last_contribution_date:
     urgency: 1
@@ -44,10 +45,11 @@ proofreading:
     contributor_names:
     reward: 0.23
   - language: ja
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 0.43
+      - yutaro21jp
+    reward: 0.21
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -139,10 +141,11 @@ proofreading:
     contributor_names:
     reward: 0.43
   - language: bg
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 0.3
+      - dnabg
+    reward: 0.15
   - language: th
     last_contribution_date:
     urgency: 1

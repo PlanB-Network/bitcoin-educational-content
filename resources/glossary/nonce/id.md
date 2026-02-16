@@ -1,6 +1,7 @@
 ---
-term: NONCE
+term: Nonce
 
+definition: Angka yang hanya digunakan sekali, dimodifikasi oleh penambang untuk menemukan hash blok yang valid.
 ---
 Dalam konteks komputasi, istilah "_nonce_" mengacu pada angka yang hanya digunakan sekali dan kemudian diganti yang biasanya bersifat acak atau _pseudorandom_. _Nonce_ digunakan dalam berbagai protokol kriptografi untuk memastikan keamanan proses. Sebagai contoh, tanda tangan ECDSA yang digunakan dalam protokol Bitcoin menggunakan nonce. Ini berarti bahwa nomor ini harus merupakan nomor yang baru untuk setiap tanda tangan. Jika tidak demikian, maka akan memungkinkan untuk menghitung kunci privat yang digunakan dengan membandingkan dua tanda tangan yang menggunakan _nonce_ yang sama.
 

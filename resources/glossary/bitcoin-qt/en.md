@@ -1,5 +1,6 @@
 ---
-term: BITCOIN QT
+term: Bitcoin QT
+definition: Bitcoin client with a graphical interface published in 2011, renamed Bitcoin Core in 2014.
 ---
 
 Bitcoin QT is a Bitcoin client that includes a graphical interface, released in May 2011. It continues the lineage of Satoshi Nakamoto’s original client. 

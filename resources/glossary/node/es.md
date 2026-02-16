@@ -1,6 +1,7 @@
 ---
-term: NODO
+term: Nodo
 
+definition: Ordenador que ejecuta un cliente de Bitcoin y participa en la red manteniendo una copia de la cadena de bloques.
 ---
 En la red Bitcoin, un nodo (o "node" en inglés) es un ordenador que ejecuta un cliente del protocolo Bitcoin (como Bitcoin Core, por ejemplo). Participa en la red manteniendo una copia de la cadena de bloques, retransmitiendo y verificando transacciones y nuevos bloques y, opcionalmente, participando en el proceso de minería. La suma de todos los nodos Bitcoin representa la propia red Bitcoin.
 

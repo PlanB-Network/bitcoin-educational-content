@@ -1,9 +1,12 @@
 ---
-term: ANALISIS HEURISTIK
+term: Heuristik analisis
 
+definition: Metode empiris yang digunakan untuk melacak aliran Bitcoin di blockchain berdasarkan karakteristik yang dapat diamati dalam transaksi.
 ---
 Analisis heuristik untuk rantai Bitcoin adalah sejenis metode empiris yang digunakan untuk melacak riwayat transaksi bitcoin pada _blockchain_ berdasarkan karakteristik yang diamati dalam transaksi. Heuristik adalah sebuah pendekatan praktis untuk pemecahan masalah, sering kali melalui metode perkiraan, tetapi merupakan cara yang cukup baik untuk mencapai tujuan tertentu. Heuristik ini memberikan hasil yang cukup bisa diandalkan, tetapi tidak pernah dengan akurasi yang mutlak. Dengan kata lain, analisis rantai selalu melibatkan ketidakpastian dalam kesimpulan yang diambil. Sebagai contoh, kita dapat memperkirakan bahwa dua alamat tertentu dimiliki oleh pihak yang sama, tetapi hal ini tidaklah pasti secara mutlak. Tujuan utama dari analisis rantai adalah pada menggunakan berbagai metode heuristik untuk meminimalkan kemungkinan kesalahan penarikan kesimpulan. Di satu sisi, analisis ini merupakan akumulasi bukti yang memungkinkan kita untuk lebih dekat dengan kenyataan. Dalam konteks ini, analisis heuristik dibedakan menjadi heuristik internal dan eksternal.
 
+
 Heuristik internal berfokus pada karakteristik yang spesifik untuk setiap transaksi. Mereka melibatkan elemen analisis seperti jumlah UTXO, skrip yang digunakan, versi, atau waktu penguncian (_timelock_). Contohnya, heuristik pembayaran bulat memungkinkan untuk mengidentifikasi bahwa UTXO dengan angka bulat kemungkinan besar digunakan untuk pembayaran. Heuristik ini sering kali memungkinkan untuk mengidentifikasi kembalian (uang yang dikembalikan ke pengguna yang sama), sehingga dapat pola transaksi terkait diteliti lebih lanjut.
+
 
 Di sisi lain, heuristik eksternal menganalisis kesamaan dan karakteristik di luar transaksi itu sendiri. Mereka mencakup seluruh lingkungan transaksi. Sebagai contoh, penggunaan ulang alamat di beberapa transaksi adalah heuristik eksternal. CIOH juga merupakan salah satunya.

@@ -55,7 +55,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 74.56
+    reward: 74.55
   - language: it
     last_contribution_date:
     urgency: 1
@@ -90,7 +90,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 74.56
+    reward: 74.55
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -116,7 +116,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 74.56
+    reward: 74.55
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -136,12 +136,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 74.56
+    reward: 74.55
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 74.56
+    reward: 74.55
   - language: rn
     last_contribution_date:
     urgency: 1
@@ -156,7 +156,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 74.56
+    reward: 74.55
 tags:
   - deep-dive
   - historical

@@ -1,0 +1,10 @@
+question: 在 2012 年 9 月初，有哪個交換平台的 24,000 個比特幣被竊？
+answer: Bitfloor
+wrong_answers:
+  - Mt.
+  - 貿易山莊
+  - BTC-e
+explanation: |
+ 2012 年 9 月 3 日至 4 日晚上，一名黑客存取了 Bitfloor 未加密的 wallet 金鑰備份，並成功提取了 24,000 多個 BTC，或當時約 250,000 美元。
+ 約 250,000 美元。
+reviewed: true

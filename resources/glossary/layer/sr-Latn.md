@@ -1,5 +1,6 @@
 ---
-term: PREKRIVANJE
+term: Sloj
+definition: Protokol izgrađen iznad Bitcoin-a radi proširenja njegovih mogućnosti, kao što je Lightning Network.
 ---
 
 Protokol ili mreža izgrađena na vrhu glavne Bitcoin mreže. Koristi Bitcoin mrežu kao osnovu i stoga zavisi od njenog protokola. Međutim, Bitcoin mreža ne zavisi od svojih slojeva. Primer takvog sloja je Lightning Network.

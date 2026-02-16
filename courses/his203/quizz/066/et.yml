@@ -1,0 +1,11 @@
+question: Kes oli kaudselt vastutav viimase, 2012. aasta juulis toimunud Bitcoinica häkkimise eest?
+answer: Amir Taaki
+wrong_answers:
+  - Zhou Tong
+  - Chen Jianhai
+  - Mark Karpelès
+explanation: |
+ Ta avaldas 7. juulil platvormi täieliku lähtekoodi, mis sisaldas parooli Bitcoinica LastPass seifi jaoks, mis omakorda sisaldas parooli tema
+ Mt. Goxi konto. välja võeti 40 000 bitcoin'i ja 40 000 LR-USD. Amir Taaki tunnistas seda tegevust, kuid pani süü Bitcoinica juhtkonnale,
+ kellega ta oli konfliktis.
+reviewed: true

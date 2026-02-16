@@ -1,9 +1,9 @@
-question: Ni ibihe bikorwa nyamukuru vy’i RGB Contract?
-answer: State Transition, Genesis, na State Extension.
+question: Ni ibihe bikorwa nyamukuru vy’amsezerano ya RGB?
+answer: Uko bihinduka, Itanguriro, n'ivyiyongerako.
 wrong_answers:
-  - Seal Definition, Commitment, n'Ivyemezo
-  - Anchor Irema, DAG Ivugurura, n'Isinya ry'Ibikorwa
-  - Genesis Igipande, UTXO Gutanga, n'Inyandiko Kwemeza
+  - Insiguro ya Serire, Ukwiyemeza, n'Ukwemeza
+  - Anchor Ikora, Bishasha vya DAG, ugutera umukono k'ihanahanwa
+  - Urukuta rw'itanguriro, UTXO Gutanga, n'Inyandiko Kwemeza
 explanation: |
-  Ivyo bikorwa bihindura canke biheza ikibanza ca Contract hakurikijwe Schema yayo.
-reviewed: false
+  Ivyo bikorwa bihindura canke vyuzuza ikibanza c'Amasezerano hakurikijwe igicapocayo.
+reviewed: true

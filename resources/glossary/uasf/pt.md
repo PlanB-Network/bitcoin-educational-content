@@ -1,6 +1,7 @@
 ---
 term: UASF
 
+definition: Soft fork iniciado e aplicado pelos utilizadores da rede através dos seus nós, sem depender da aprovação dos mineradores.
 ---
 Acrónimo de "*User-Activated Soft Fork*". Descreve um soft fork no Bitcoin quando é iniciado e aplicado pelos utilizadores da rede através dos seus nós, sem depender da aprovação dos mineiros. Os nós da rede actualizam o seu software para adotar as novas regras do soft fork e deixam as fichas caírem onde quiserem!
 

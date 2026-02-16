@@ -1,0 +1,10 @@
+question: Którą usługą hostingową zarządzał Mark Karpelès przed przejęciem Mt. Gox?
+answer: KalyHost
+wrong_answers:
+  - TibanneHost
+  - WeHostYou
+  - PlanetHost
+explanation: |
+ Była to tylko jedna z wielu usług, które oferował jako niezależny deweloper. W listopadzie Mark Karpelès zaczął akceptować płatności bitcoinami za pośrednictwem KalyHost.
+ Ross Ulbricht korzystał również z tej usługi do hostowania strony Silkroadmarket.org, która przekierowywała do Silk Road.
+reviewed: true

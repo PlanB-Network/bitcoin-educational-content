@@ -1,6 +1,7 @@
 ---
-term: ETIKETT (STILLE BETALINGER)
+term: Label (silent payments)
 
+definition: Heltall brukt til å lage utledede statiske adresser som skiller bruksområder i Silent Payments.
 ---
 I Silent Payments-protokollen er etiketter heltall som brukes til å endre den opprinnelige statiske adressen for å opprette mange andre statiske adresser. Bruken av disse etikettene gjør det mulig å skille ut betalinger som sendes via Silent Payments, ved å bruke forskjellige statiske adresser for hver bruk, uten å øke den operasjonelle byrden for å oppdage disse betalingene (skanning). Bob bruker en statisk adresse $B$, som består av to offentlige nøkler: $B_{\text{scan}}$ for skanning og $B_{\text{spend}}$ for utgifter. Hashverdien av $b_{\text{scan}}$ og et heltall $m$, skalarmultiplisert med generatorpunktet $G$, legges til den offentlige utgiftsnøkkelen $B_{\text{spend}}$ for å opprette en slags ny offentlig utgiftsnøkkel $B_m$:
 

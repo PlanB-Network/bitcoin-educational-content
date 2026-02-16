@@ -1,0 +1,9 @@
+question: Kwenye Bitcoin, ni ushahidi gani unaotumiwa mara nyingi kufungua UTXO?
+answer: Saini ya kidijitali
+wrong_answers:
+  - Nenosiri la akaunti
+  - Hash ya bloku ya sasa
+  - Cheti cha SSL
+explanation: |
+  Sharti la matumizi kwa kawaida huhitaji saini iliyotolewa na ufunguo wa siri unaolingana.
+reviewed: false

@@ -1,0 +1,9 @@
+question: BIP-34 के बाद से, coinbase के scriptSig की शुरुआत में क्या होना चाहिए?
+answer: ब्लॉक की ऊँचाई (Block height)
+wrong_answers:
+  - माइनर की हैशरेट
+  - डिफिकल्टी टारगेट
+  - ब्लॉक का फिंगरप्रिंट
+explanation: |
+  BIP-34 के अनुसार coinbase के scriptSig में ब्लॉक की ऊँचाई दर्ज करना अनिवार्य है।
+reviewed: false

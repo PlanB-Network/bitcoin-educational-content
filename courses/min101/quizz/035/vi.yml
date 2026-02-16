@@ -1,0 +1,9 @@
+question: Kể từ SegWit, cam kết nhân chứng (witness commitment) của khối được đặt ở đâu?
+answer: Trong một đầu ra (output) của coinbase
+wrong_answers:
+  - Trong scriptSig của coinbase
+  - Trong trường phiên bản (version)
+  - Trong phí của coinbase
+explanation: |
+  SegWit sử dụng một cam kết được ghi vào coinbase thông qua một đầu ra OP_RETURN.
+reviewed: false

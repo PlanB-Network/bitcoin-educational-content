@@ -1,5 +1,6 @@
 ---
-term: OVERLAY
+term: Lager
+definition: Protokoll byggt ovanpå Bitcoin för att utöka dess funktioner, såsom Lightning Network.
 ---
 
 Protokoll eller nätverk som byggts ovanpå det huvudsakliga Bitcoin-nätverket. Det använder Bitcoin-nätverket som grund och är därför beroende av dess protokoll. Bitcoin-nätet är dock inte beroende av sina överlagringar. Ett exempel på en sådan överlagring är Lightning Network.

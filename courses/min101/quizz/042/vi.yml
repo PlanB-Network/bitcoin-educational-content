@@ -1,0 +1,9 @@
+question: ASIC có nghĩa là gì?
+answer: Application-Specific Integrated Circuits
+wrong_answers:
+  - Advanced Secure Integrated Circuit
+  - Automated Silicon Integrated Circuit
+  - Application-Shared Integrated Circuit
+explanation: |
+  ASIC là một con chip được thiết kế cho một nhiệm vụ duy nhất. Vì vậy, nó là Application-Specific Integrated Circuits.
+reviewed: false

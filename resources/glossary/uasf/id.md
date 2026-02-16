@@ -1,6 +1,7 @@
 ---
 term: UASF
 
+definition: Soft fork yang diinisiasi dan ditegakkan oleh pengguna jaringan melalui node mereka, tanpa bergantung pada persetujuan penambang.
 ---
 Singkatan dari "*User Activated Soft Fork*", yang menggambarkan _soft fork_ dalam Bitcoin ketika diinisiasi dan ditegakkan oleh pengguna jaringan melalui node mereka, tanpa bergantung pada persetujuan penambang. Node jaringan memperbarui perangkat lunak mereka untuk mengadopsi aturan baru dari _soft fork_, dan membiarkan kepingan-kepingan tersebut jatuh ke tempatnya!
 

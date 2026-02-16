@@ -1,5 +1,6 @@
 ---
-term: DLP (IKIBAZO C'IKIBAZO C'IBIMENYETSO)
+term: Dlp (discreet log problem)
+definition: Ikibazo ca kime kigoye gutorera inyishu kikingira amategeko ya cryptography kuri Bitcoin.
 ---
 
 Ikibazo ca Discrete Logarithm (DLP) ni ikibazo c'imibare gishigikira umutekano w'urufunguzo rwa bose rw'ubuhinga bwo gukingira amakuru, cane cane izo zikoreshwa muri Bitcoin. Mu mugwi w’ingendo w’urutonde $q$, ufise umuyagankuba $g$, iyo hariho ingano y’uburyo $g^x = h$, rero $x$ yitwa logarithme itandukanye ya $h$ ku bijanye n’ishimikiro $g$, modulo $q$. Mu majambo yoroshe, birimwo kumenya igiharuro $x$ igihe $g$, $h$, na $q$ bizwi. Logarithme itandukanye rero ni inverse y'igiharuro mu mugwi w'inzinguzingu zifise impera. Ariko rero, ku gaciro kanini ka $q$, gutorera umuti ingorane ya logarithme itandukanye bifatwa nk’ikigoye mu buryo bw’ubuhinga. Iyi nzira ikoreshwa kugira ngo haboneke umutekano w'amasezerano menshi y'ubuhinga bwo gukingira amakuru, nk'amasezerano ya Diffie-Hellman y'urufunguzo Exchange. Iryo logarithme ry’ibara ry’umubiri rikoreshwa kandi mu gukora amakuru y’uruzitiro rw’uruzitiro (ECC), harimwo n’uruzitiro rw’uruzitiro rw’uruzitiro (ECDSA). Mu bijanye n’imirongo y’imirongo, ingorane ya logarithme itandukanye irashika no ku kurondera igipimo $k$ ku buryo $k \cdot G = K$, aho $G$ na $K$ ari uturongo turi ku mirongo, kandi $\cdot$ igereranya igikorwa co gukubita uturongo. Mu bijanye na Bitcoin, amafaranga asanzwe akoresha ECDSA canke umurongo wa Schnorr kugira ngo afunge UTXOs. Ivyo vyose bishingiye ku kudashoboka ko kubara logarithme itandukanye.

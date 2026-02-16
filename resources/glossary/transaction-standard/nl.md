@@ -1,5 +1,6 @@
 ---
-term: TRANSACTIESTANDAARD
+term: Standaardtransactie
+definition: Transactie die zowel de consensusregels als de standaard standaardisatieregels van Bitcoin Core nodes respecteert.
 ---
 
 Een Bitcoin transactie die, naast het naleven van de consensusregels, ook binnen de standaard standaardisatie regels valt die zijn ingesteld op Bitcoin core knooppunten. Deze standaardisatieregels worden individueel opgelegd door elk Bitcoin knooppunt, naast de consensusregels, om de structuur van onbevestigde transacties te definiëren die het accepteert in zijn Mempool en uitzendt naar zijn peers.

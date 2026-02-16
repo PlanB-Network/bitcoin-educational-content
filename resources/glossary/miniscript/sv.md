@@ -1,11 +1,12 @@
 ---
-term: MINISKRIPT
+term: Miniscript
+definition: Ramverk som förenklar skapande, analys och verifiering av Bitcoin-skript.
 ---
 
 Ramverk utformat för att tillhandahålla ett ramverk för programmering av skript på ett säkert sätt på Bitcoin. Det inbyggda språket i Bitcoin kallas script. Det är ganska komplicerat att använda i praktiken, särskilt för sofistikerade och anpassade applikationer. Framför allt är det mycket svårt att verifiera ett scripts begränsningar. Miniscript använder en delmängd av Bitcoin-skript för att förenkla skapandet, analysen och verifieringen av dem. Varje miniscript är likvärdigt 1 för 1 med ett inbyggt script. Ett användarvänligt policyspråk används, som sedan kompileras till miniscript, för att slutligen motsvara ett inbyggt skript.
 
 
-![](../../dictionnaire/assets/30.webp)
+
 
 
 Miniscript gör det alltså möjligt för utvecklare att bygga sofistikerade skript på ett säkrare och mer tillförlitligt sätt. De viktigaste egenskaperna hos Miniscript är följande:

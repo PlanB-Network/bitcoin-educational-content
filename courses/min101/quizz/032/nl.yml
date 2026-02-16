@@ -1,0 +1,9 @@
+question: Wat was het bedrag van de bloksubsidie bij de lancering van Bitcoin in 2009?
+answer: 50 BTC
+wrong_answers:
+  - 25 BTC
+  - 12,5 BTC
+  - 100 BTC
+explanation: |
+  De initiële subsidie was 50 BTC per blok, vóór de opeenvolgende delingen.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: KOMPAKT BLOKKRELÉ
+term: Compact block relay
 
+definition: Båndbreddebesparende protokoll som overfører blokker kompakt via korte identifikatorer (BIP152).
 ---
 Protokoll introdusert i Bitcoin Core i 2016 gjennom BIP152, som foreslår en båndbreddebesparende metode for nettverksnoder. Compact Block Relay gjør det mulig å kommunisere blokkinformasjon på en kompakt måte, basert på antakelsen om at noder allerede har de fleste transaksjonene i en nylig blokk i mempoolen sin. I stedet for å sende alle transaksjonene i sin helhet, noe som ville føre til duplisering, foreslår Compact Block Relay å sende kun korte identifikatorer for transaksjoner som allerede er kjent for andre noder, sammen med noen få utvalgte transaksjoner (særlig coinbase-transaksjonen og de noden sannsynligvis ikke kjenner til). Noden kan deretter be om eventuelle manglende transaksjoner fra sine peers. Compact Block Relay reduserer dermed mengden data som utveksles under blokkutbredelsen, noe som i sin tur reduserer båndbreddetoppene og forbedrer nettverkets generelle effektivitet.

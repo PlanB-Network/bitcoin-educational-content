@@ -1,0 +1,9 @@
+question: Ububiko bw'icandida (candidate block) muri Bitcoin ni iki?
+answer: Ububiko bwateguwe n'umu-miner, ariko butaremezwa
+wrong_answers:
+  - Ububiko bwemejwe n'urusobe, ariko butarasangizwa abandi
+  - Ububiko bwakozwe n'agashakoshi k'amafaranga (wallet), ariko butaremezwa
+  - Ububiko buri muri mempool
+explanation: |
+  Buri mu-miner akora ububiko bw'icandida iwiwe, imbere yo kugerageza kurondera ikimenyetso c'igikorwa (proof of work) cemewe.
+reviewed: false

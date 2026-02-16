@@ -1,6 +1,7 @@
 ---
 term: BIP0044
 
+definition: Standar yang mendefinisikan struktur lengkap jalur derivasi untuk dompet HD purpose, coin_type, account, change, dan address_index.
 ---
 Sebuah proposal untuk perbaikan yang memperkenalkan sebuah struktur derivasi hirarki standar untuk dompet HD. BIP44 dibangun berdasarkan prinsip-prinsip yang ditetapkan oleh BIP32 untuk derivasi kunci dan BIP43 untuk penggunaan bidang "tujuan". Ini memperkenalkan struktur derivasi lima tingkat: `m / tujuan '/ jenis_koin' / akun '/ perubahan / indeks_alamat`. Berikut adalah detail dari setiap kedalaman:
 

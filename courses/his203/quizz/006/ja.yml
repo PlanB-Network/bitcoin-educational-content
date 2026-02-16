@@ -1,0 +1,10 @@
+question: 2011年夏の終わりに、Bitcoinチェーンにおけるシルクロードを代表する活動のおおよその割合は？
+answer: 10 %
+wrong_answers:
+  - 3 %
+  - 30 %
+  - 90 %
+explanation: |
+ Chainalysis社によるその後の報告によると、2011年9月初めのBitcoinチャネルでの取引量のほぼ10％をシルクロードの活動が占めていた。
+ 2011年9月
+reviewed: true

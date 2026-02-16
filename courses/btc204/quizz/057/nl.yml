@@ -1,10 +1,10 @@
-question: Wat is de grootste bedreiging in verband met Address hergebruik?
-answer: Het maakt deterministische koppelingen mogelijk tussen verschillende transacties en een gemeenschappelijke Ownership van de betrokken UTXO's.
+question: Wat is de grootste bedreiging in verband met adreshergebruik?
+answer: Het maakt deterministische koppelingen mogelijk tussen verschillende transacties en een gemeenschappelijke eigenaar van de betrokken UTXO's.
 wrong_answers:
-  - Het stelt het IP Address van de gebruiker bloot aan andere netwerkdeelnemers tijdens de validatie van de transactie.
+  - Het stelt het IP-adres van de gebruiker bloot aan andere netwerkdeelnemers tijdens de validatie van de transactie.
   - Het vermindert de effectiviteit van digitale handtekeningmechanismen, wat de veiligheid van transacties verzwakt.
-  - Het leidt tot een verhoging van de transactiekosten door congestie veroorzaakt door Address hergebruik.
+  - Het leidt tot een verhoging van de transactiekosten door congestie veroorzaakt door adreshergebruik.
 explanation: |
-  Als dezelfde Address wordt gebruikt voor meerdere transacties, wordt het mogelijk om af te leiden dat alle bitcoins die geassocieerd zijn met die Address aan dezelfde persoon toebehoren.
+  Als dezelfde adres wordt gebruikt voor meerdere transacties, wordt het mogelijk om af te leiden dat alle bitcoins die geassocieerd zijn met dat adres aan dezelfde persoon toebehoren.
   
 reviewed: false

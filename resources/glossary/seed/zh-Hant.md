@@ -1,5 +1,6 @@
 ---
-term: 穀物
+term: 種子
+definition: 允許生成HD比特幣錢包所有密鑰的512位信息。
 ---
 
 在 Bitcoin 層級式確定性組合的特定情況下，seed 是從隨機事件衍生出來的 512 位元資訊。它被用來為 Bitcoin 組合確定性地分層 generate 一組私密金鑰及其對應的公開金鑰。seed 常常與復原短語本身混淆。但它不是一回事。seed 是將 `PBKDF2` 函式套用到 Mnemonic 詞組和任何 passphrase 而得到的。

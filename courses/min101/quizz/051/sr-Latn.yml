@@ -1,0 +1,9 @@
+question: Koji resurs je neophodan za rudarenje Bitcoina?
+answer: Električna energija
+wrong_answers:
+  - Voda
+  - Drago kamenje
+  - Zlato
+explanation: |
+  Rudarenje je proces validacije koji troši električnu energiju putem računara.
+reviewed: false

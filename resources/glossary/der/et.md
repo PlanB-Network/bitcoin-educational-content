@@ -1,5 +1,6 @@
 ---
 term: DER
+definition: Standardne binaarne kodeerimisvorming, mida kasutatakse Bitcoini ECDSA allkirjade jaoks.
 ---
 
 Akronüüm *Distinguished Encoding Rules*. See on spetsifikatsioonis [ITU-T X.690, 2002.](https://www.itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf) määratletud ASN.1 kodeerimisreeglite range alamhulk, mida kasutatakse mis tahes tüüpi andmete kodeerimiseks binaarfaili. DERi kasutatakse peamiselt spetsiifilistes valdkondades, näiteks krüptograafias, kus andmed tuleb kodeerida standardsel, ennustataval viisil.

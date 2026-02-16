@@ -1,0 +1,9 @@
+question: چه کسی منشا مفهوم Bit Gold است؟
+answer: Nick Szabo
+wrong_answers:
+  - Satoshi Nakamoto
+  - Hal Finney
+  - Wei Dai
+explanation: |
+  Bit Gold یک پروژه مفهومی برای سیستم پول الکترونیکی است که توسط نیک زابو پیشنهاد شد.
+reviewed: false

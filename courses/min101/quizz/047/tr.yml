@@ -1,0 +1,9 @@
+question: Bulunan blokların sıklığının uzun vadede hashrate payına yakınsadığını hangi istatistiksel ilke açıklar?
+answer: Büyük sayılar yasası
+wrong_answers:
+  - Bayes teoremi
+  - Doğum günü paradoksu
+  - En az eylem ilkesi
+explanation: |
+  Sonuçların yakınsaması, her bir hash işleminin bağımsız bir deneme olması nedeniyle büyük sayılar yasasından kaynaklanır.
+reviewed: false

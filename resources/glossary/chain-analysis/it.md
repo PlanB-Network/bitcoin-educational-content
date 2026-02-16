@@ -1,6 +1,7 @@
 ---
-term: ANALISI DELLA CATENA
+term: Analisi della catena
 
+definition: Pratica di tracciamento dei flussi di bitcoin sulla blockchain utilizzando euristiche e pattern.
 ---
 Pratica che comprende tutti i metodi utilizzati per tracciare il flusso di bitcoin sulla blockchain. In generale, l'analisi della catena si basa sull'osservazione di caratteristiche in campioni di transazioni precedenti. Si tratta quindi di identificare queste stesse caratteristiche in una transazione che si desidera analizzare e di dedurne interpretazioni plausibili. Questo metodo di risoluzione dei problemi, basato su un approccio pratico per trovare una soluzione sufficientemente buona, è noto come euristica. Per semplificare, l'analisi della catena si svolge in due fasi principali:
 

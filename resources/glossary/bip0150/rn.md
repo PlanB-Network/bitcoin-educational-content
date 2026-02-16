@@ -1,5 +1,6 @@
 ---
 term: BIP0150
+definition: Uburyo bwa kumenya nyen'itunshwa hagati y'ama peers kugira ngo hakomezwe umutekano no kugabanya uburyo bwo gushika kuri serivisi zimwe zimwe z'inode.
 ---
 
 BIP150 itanga uburyo bwo kwemeza urunganwe ku rubuga rwa Bitcoin kugira ngo umutekano utere imbere no kugenzura urudodo Ownership.

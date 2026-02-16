@@ -18,10 +18,11 @@ proofreading:
     contributor_names:
     reward: 0.16
   - language: de
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 0.14
+      - reneplass
+    reward: 0.07
   - language: es
     last_contribution_date:
     urgency: 1

@@ -1,5 +1,4 @@
 id: b66a693d-2405-408c-b02f-7191314417d5
-en_word: BIP0156
 related_words: ["P2P TRANSPORT V2"]
 original_language: fr
 proofreading:
@@ -8,132 +7,132 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0.19
+    reward: 0.2
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.53
+    reward: 0.55
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.38
+    reward: 0.4
   - language: en
     last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
       - bitcoinJungle
-    reward: 0.19
+    reward: 0.2
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.38
+    reward: 0.4
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.53
+    reward: 0.55
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.53
+    reward: 0.55
   - language: id
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 0.33
+    reward: 0.35
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.38
+    reward: 0.4
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.81
+    reward: 0.85
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.53
+    reward: 0.55
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.38
+    reward: 0.4
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.53
+    reward: 0.55
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.81
+    reward: 0.85
   - language: zh-Hans
     last_contribution_date: '2025-08-19'
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 0.33
+    reward: 0.35
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.81
+    reward: 0.85
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.53
+    reward: 0.55
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.67
+    reward: 0.7
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.53
+    reward: 0.55
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.67
+    reward: 0.7
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.53
+    reward: 0.55
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.38
+    reward: 0.4
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.53
+    reward: 0.55
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.67
+    reward: 0.7
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.67
+    reward: 0.7
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.81
+    reward: 0.85

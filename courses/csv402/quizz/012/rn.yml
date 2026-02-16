@@ -1,9 +1,9 @@
-question: Assignment iri mu masezerano ya RGB ni iki?
-answer: Igisohoka gihindura, gihindura canke kirema ibintu mu gihe ca Contract.
+question: Ni umwimenyerezo uyuhe uri murukwirikirane rwa RGB ?
+answer: Igisohoka gihindura, ibishasha canke kurema ibiranga amasezerano ukuntuameze.
 wrong_answers:
-  - Igiharuro c'ibanga kidasanzwe Commitment kibitswe mu gucuruza Bitcoin
-  - Igitabu ca Bitcoin cashizweko umukono imbere y'uko cemezwa
-  - Igitabu gishasha ca Global State.
+  - Ukwiyemeza kwihariye kw'ubuhinga bw'ukunyegeza inyandiko kwashizwe mw'ihanahanwa rya Bitcoin
+  - Ibice vy'ihanahanwa rya Bitcoin bishirwako umukono imbere y'ukwemezwa kwanyuma
+  - Igitabu gishasha c'uko bimeze muri rusangi.
 explanation: |
-  Assignment ihuriza hamwe Seal Definition na Owned State kugira ngo iserukire igice ca Leta cagenewe.
-reviewed: false
+  Umwimenyerezo uhuriza hamwe insiguro ya Serire hamwe n'ukobimeze kugira ngo iserukire igice c'uko bimeze.
+reviewed: true

@@ -1,6 +1,7 @@
 ---
 term: OP_2DUP (0X6E)
 
+definition: Mã vận hành sao chép hai phần tử ở đầu ngăn xếp.
 ---
 Duplicates the two top elements of the stack, then places them on top of the stack. For example, if the stack is:
 

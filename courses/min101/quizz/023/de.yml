@@ -1,0 +1,9 @@
+question: Wenn die Blöcke in der letzten Periode zu schnell gefunden wurden, was passiert?
+answer: Das Ziel sinkt
+wrong_answers:
+  - Das Ziel steigt
+  - Das Ziel bleibt identisch
+  - Die Blockgröße erhöht sich
+explanation: |
+  Zu schnell gefundene Blöcke deuten auf eine höhere Hashrate hin, daher verschärft Bitcoin die Bedingung durch Senken des Ziels.
+reviewed: false

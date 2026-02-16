@@ -1,0 +1,11 @@
+question: Milline Russell O'Connori poolt 2012. aasta veebruaris avastatud turvaprobleem viis BIP 30 loomisele?
+answer: Topelttehingute olemasolu plokiahelas
+wrong_answers:
+  - Bütsantsi kindralite konsensuse tühistamise probleem
+  - Rekursioonivea olemasolu OP_EVAL käsus
+  - Liigse elemendi eemaldamine OP_CHECKMULTISIG operaatori poolt
+explanation: |
+ Need olid sama identifikaatoriga preemiatehingud, mis sisaldusid erinevates plokkides. 4. veebruaril 2012 avastas Russell O'Connor haavatavuse, mida
+ võimaldas kõik ühest sellisest dubleerivast tehingust tulenevad tehingud ahela reorganiseerimise abil täielikult kustutada. Parandus, mida on kirjeldatud dokumendis
+ BIP 30 poolt Pieter Wuille, rakendati võrku 15. märtsil.
+reviewed: true

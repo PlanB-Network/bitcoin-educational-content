@@ -1,5 +1,6 @@
 ---
 term: P2SH-P2WSH
+definition: Hati ya SegWit (P2WSH) iliyofungwa ndani ya P2SH kwa ajili ya utangamano, anuani huanza na 3.
 ---
 
 P2SH-P2WSH inawakilisha *Lipa kwa Hati Hash - Hati ya Lipa kwa Ushahidi Hash*. Ni muundo wa kawaida wa hati unaotumiwa kuweka masharti ya matumizi kwenye UTXO, inayojulikana pia kama "Nested SegWit".

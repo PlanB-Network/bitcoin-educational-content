@@ -1,6 +1,7 @@
 ---
-term: TIMELOCK
+term: Khóa thời gian
 
+definition: Nguyên mẫu hợp đồng thông minh xác định điều kiện thời gian trước khi một giao dịch có thể được đưa vào một khối.
 ---
 A smart contract primitive that allows setting a time-based condition that must be met for a transaction to be added to a block. There are two types of timelocks on Bitcoin:
 

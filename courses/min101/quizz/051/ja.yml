@@ -1,0 +1,9 @@
+question: ビットコインのマイニングにはどのようなリソースが必要ですか？
+answer: 電気
+wrong_answers:
+  - 水
+  - 宝石
+  - 金
+explanation: |
+  マイニングは、コンピューターを介して電力を消費する検証作業です。
+reviewed: false

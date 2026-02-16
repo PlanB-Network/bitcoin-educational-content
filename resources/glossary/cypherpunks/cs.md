@@ -1,6 +1,7 @@
 ---
-term: CYPHERPUNKS
+term: Cypherpunks
 
+definition: Komunita prosazující kryptografii jako prostředek ochrany individuálních svobod na internetu.
 ---
 Neformální a mezinárodní společenství jednotlivců, kteří podporují používání kryptografie jako prostředku k zajištění osobních svobod na internetu. Cypherpunkeři obhajují základní právo jednotlivců na ochranu soukromí, zejména v kontextu rostoucího státního dohledu a zneužívání dat soukromými subjekty. Jejich název je odvozen z anglických slov *cypher*, což znamená "tajný kód", a *punk*. Jedná se o hříčku s termínem *cyberpunk*, který označuje literární žánr zobrazující dystopickou budoucnost, kde se v rozpadající se společnosti prolínají nejmodernější technologie s neřestmi a zločinem.
 

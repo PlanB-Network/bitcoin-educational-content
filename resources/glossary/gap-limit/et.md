@@ -1,6 +1,7 @@
 ---
-term: GAP LIMIT
+term: Gap limit
 
+definition: Maksimaalne järjestikuste kasutamata aadresside arv enne tehingute otsimise lõpetamist.
 ---
 Parameeter, mida kasutatakse Bitcoini rahakoti tarkvaras, et määrata maksimaalne arv järjestikuseid kasutamata aadresse, mida genereerida enne täiendavate tehingute otsimise peatamist. Selle parameetri kohandamine on sageli vajalik rahakoti taastamisel, et tagada kõigi tehingute leidmine. Ebapiisav Gap Limit võib põhjustada mõne tehingu puudumise, kui aadressid jäeti tuletamisetappide ajal vahele. Gap Limit'i suurendamine võimaldab rahakotil otsida aadresside järjestuses edasi, et taastada kõik seotud tehingud.
 

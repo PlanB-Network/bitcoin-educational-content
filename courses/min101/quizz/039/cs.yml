@@ -1,0 +1,9 @@
+question: Proč se coinbase transakce liší od ostatních transakcí?
+answer: Neutrácí žádné skutečné UTXO
+wrong_answers:
+  - Nemá TXID
+  - Nemá žádné výstupy
+  - Není v Merkleově stromě
+explanation: |
+  Její vstup ukazuje na fiktivní UTXO, což umožňuje vytvoření dotace (subsidy) a inkasování poplatků.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Zijn de kosten van een Bitcoin-transactie een output?
+answer: Nee
+wrong_answers:
+  - Ja
+  - Ja, maar alleen voor SegWit-transacties
+  - Nee, maar dat was vóór 2012 wel het geval
+explanation: |
+  Kosten zijn het verschil tussen de totale inputs en de totale outputs, niet een toegewezen output. Dit is altijd al zo geweest.
+reviewed: false

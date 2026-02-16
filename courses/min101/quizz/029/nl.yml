@@ -1,0 +1,9 @@
+question: Waaruit bestaat de blokbeloning?
+answer: Subsidie + kosten
+wrong_answers:
+  - Subsidie + moeilijkheidsgraad
+  - Kosten + nonce
+  - Hashrate + kosten
+explanation: |
+  De beloning is de optelsom van de bloksubsidie en alle kosten van de opgenomen transacties.
+reviewed: false

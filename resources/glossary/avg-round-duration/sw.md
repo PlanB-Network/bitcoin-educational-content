@@ -1,5 +1,6 @@
 ---
-term: AVG. MUDA WA MZUNGUKO
+term: Muda wa wastani wa mzunguko
+definition: Kiashirikiano kinachokadiria wastani wa wakati unaoohitajika kwa mkutanisha wa kukengeuzwa kupata block, kulingana na uweza wake wa kukamatia na ugumu wa mtandao.
 ---
 
 Muda wa wastani wa mzunguko ni kiashirio kinachotumika kukadiria muda inachukua kwa Mining pool kupata kizuizi, kulingana na ugumu wa mtandao na Hashrate ya bwawa. Inakokotolewa kwa kuchukua idadi ya hisa zinazotarajiwa kupata block na kuigawanya kwa Hashrate ya bwawa. Kwa mfano, ikiwa Mining pool ina wachimbaji 200, na kila mmoja hutoa wastani wa hisa 4 kwa sekunde, jumla ya nguvu ya hesabu ya bwawa ni hisa 800 kwa sekunde:

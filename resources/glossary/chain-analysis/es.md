@@ -1,6 +1,7 @@
 ---
-term: ANÁLISIS DE LA CADENA
+term: Análisis de cadena
 
+definition: Práctica de rastreo de flujos de bitcoins en la blockchain utilizando heurísticas y patrones.
 ---
 Práctica que engloba todos los métodos utilizados para rastrear el flujo de bitcoins en la blockchain. En general, el análisis de cadenas se basa en la observación de características en muestras de transacciones anteriores. A continuación, consiste en identificar estas mismas características en una transacción que se desea analizar y deducir interpretaciones plausibles. Este método de resolución de problemas, basado en un enfoque práctico para encontrar una solución suficientemente buena, se conoce como heurística. Para simplificar, el análisis de la cadena se realiza en dos pasos principales:
 

@@ -1,0 +1,9 @@
+question: Da li su naknade za Bitcoin transakciju izlaz (output)?
+answer: Ne
+wrong_answers:
+  - Da
+  - Da, ali samo za SegWit transakcije
+  - Ne, ali je to bio slučaj pre 2012. godine
+explanation: |
+  Naknade su razlika između ukupnih ulaza (inputs) i ukupnih izlaza (outputs), a nie poseban izlaz. To je oduvek bio slučaj.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: SYGNATURA ADAPTERA
+term: Adaptor signature
+definition: Technika kryptograficzna wiążąca podpis z tajemnicą, taka, że opublikowanie podpisu ujawnia tajemnicę. Przydatna do wymiany atomowej bez zaufanego pośrednika.
 ---
 
 Metoda kryptograficzna, która umożliwia połączenie prawdziwego podpisu z dodatkowym podpisem (zwanym "podpisem adaptacyjnym") w celu ujawnienia tajnego fragmentu danych. Metoda ta działa w taki sposób, że znajomość dwóch Elements spośród prawidłowego podpisu, podpisu adaptacyjnego i sekretu pozwala wydedukować brakujący trzeci element. Jedną z interesujących właściwości tej metody jest to, że jeśli znamy podpis adaptacyjny naszego odpowiednika i konkretny punkt na krzywej eliptycznej powiązany z sekretem użytym do obliczenia tego podpisu adaptacyjnego, możemy następnie wyprowadzić własny podpis adaptacyjny, który będzie pasował do tego samego sekretu, bez bezpośredniego dostępu do samego sekretu. W Exchange między dwoma interesariuszami, którzy sobie nie ufają, technika ta pozwala na jednoczesne ujawnienie dwóch wrażliwych informacji między uczestnikami. Proces ten eliminuje potrzebę zaufania w transakcjach natychmiastowych, takich jak Coin Swap lub Atomic Swap. Weźmy przykład, aby lepiej to zrozumieć. Alice i Bob chcą wysłać sobie 1 BTC, ale nie ufają sobie nawzajem. Dlatego użyją podpisów adaptacyjnych, aby zanegować potrzebę zaufania do drugiej strony w tym Exchange (czyniąc go w ten sposób "atomowym" Exchange). Postępują w następujący sposób:

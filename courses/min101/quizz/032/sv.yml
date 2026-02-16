@@ -1,0 +1,9 @@
+question: Hur stor var blocksubventionen vid lanseringen av Bitcoin 2009?
+answer: 50 BTC
+wrong_answers:
+  - 25 BTC
+  - 12,5 BTC
+  - 100 BTC
+explanation: |
+  Den ursprungliga subventionen var 50 BTC per blok, före de påföljande delningarna.
+reviewed: false

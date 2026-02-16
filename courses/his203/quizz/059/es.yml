@@ -1,0 +1,11 @@
+question: ¿Cuál era el seudónimo del creador original del juego de dados en línea SatoshiDICE?
+answer: Fireduck
+wrong_answers:
+  - Evoorhees
+  - Tuxavant
+  - Hippich
+explanation: |
+ Joseph Gleason, alias Fireduck, era un desarrollador estadounidense de 30 años. Tras programar algunas herramientas de software para Bitcoin, desarrolló el casino bitcoin SatoshiDICE
+ (que se presentaba como un juego de dados) el 9 de abril de 2012. Unas semanas más tarde, vendió la plataforma a Erik Voorhees (Evoorhees) por 40 bitcoins, o
+ unos 200 dólares.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Dopo la verifica, cosa fa un nodo Bitcoin con una transazione valida ma non confermata?
+answer: La trasmette ai suoi peer
+wrong_answers:
+  - La aggiunge alla sua copia locale della blockchain
+  - La firma con la sua chiave privata
+  - La cifra con la sua chiave pubblica
+explanation: |
+  Nella rete Bitcoin, ogni nodo propaga le transazioni valide ai nodi con cui è connesso.
+reviewed: false

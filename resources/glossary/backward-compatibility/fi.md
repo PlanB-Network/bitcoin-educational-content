@@ -1,5 +1,6 @@
 ---
-term: TAAKSEPÄIN YHTEENSOPIVUUS
+term: Taaksepäin yhteensopivuus
 
+definition: Protokollapäivityksen kyky pysyä yhteensopivana aiempien versioiden kanssa, jolloin vanhat solmut voivat jatkaa toimintaansa verkossa.
 ---
 Tarkoittaa protokollasääntöjen päivityksen kykyä säilyttää yhteensopivuus aiempien versioiden kanssa. Tämä tarkoittaa, että muutokset on suunniteltu siten, että vanhemmat solmut (solmut, joissa on käytössä sääntömuutosta edeltävät versiot) voivat edelleen olla vuorovaikutuksessa verkon kanssa ja seurata ketjua, jossa on kertynyt eniten työtä. Siksi on tärkeää, että vanhemmat solmut eivät hylkää uusia lohkoja eivätkä uusia transaktioita. Taaksepäin yhteensopivuus vähentää merkittävästi todennäköisyyttä, että päivitys pirstoo verkon, ja näin vältetään solmujen jakautuminen eri ketjuissa oleviin alaryhmiin. Jotta voidaan varmistaa yhteensopivuus protokollan aiempien versioiden kanssa, päivityksessä on tiukennettava nykyisiä sääntöjä tai otettava käyttöön uusia sääntöjä. Tämä periaate määrittelee "pehmeän haarautumisen". Jos taas päivitys lieventää nykyisiä sääntöjä tai poistaa joitakin niistä, se ei ole taaksepäin yhteensopiva. Tämä olisi "kova haarautuminen".

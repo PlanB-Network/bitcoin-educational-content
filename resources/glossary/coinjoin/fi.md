@@ -1,12 +1,13 @@
 ---
-term: COINJOIN
+term: Coinjoin
 
+definition: Miksaustekniikka, jossa useat käyttäjät yhdistävät siirtonsa vaikeuttaakseen bitcoinien jäljittämistä.
 ---
 Coinjoin on tekniikka, jota käytetään bitcoinien jäljitettävyyden rikkomiseen. Se perustuu yhteistoiminnalliseen transaktioon, jolla on samanniminen erityinen rakenne: coinjoin-transaktio. Coinjoin-transaktiot auttavat parantamaan Bitcoin-käyttäjien yksityisyyden suojaa vaikeuttamalla ulkopuolisten tarkkailijoiden mahdollisuuksia analysoida transaktioita. Tämä rakenne mahdollistaa useiden kolikoiden sekoittamisen yhteen transaktioon, mikä vaikeuttaa tulo- ja lähtöosoitteiden välisten yhteyksien määrittämistä.
 
 Coinjoinin yleinen toiminta on seuraava: eri käyttäjät, jotka haluavat sekoittaa, tallettavat tietyn summan transaktion syötteeksi. Nämä syötteet tulevat ulos saman summan erilaisina tulosteina. Tapahtuman lopussa on mahdotonta määrittää, mikä tuotos kuuluu millekin käyttäjälle. Coinjoin-transaktion syötteiden ja tuotosten välillä ei ole teknisesti mitään yhteyttä. Kunkin käyttäjän ja kunkin UTXO:n välinen yhteys on katkennut samalla tavalla kuin kunkin kolikon historia on katkennut.
 
-![](../../dictionnaire/assets/4.webp)
+
 
 Jotta kolikkoihin liittyminen olisi mahdollista ilman, että kukaan käyttäjä menettää milloin tahansa varojensa hallinnan, koordinaattori rakentaa ensin transaktion ja välittää sen sitten jokaiselle käyttäjälle. Kukin allekirjoittaa transaktion omalla puolellaan varmistettuaan, että se sopii hänelle, ja sitten kaikki allekirjoitukset lisätään transaktioon. Jos käyttäjä tai koordinaattori yrittää varastaa toisten varoja muuttamalla coinjoin-transaktion tuotoksia, allekirjoitukset eivät ole päteviä ja solmut hylkäävät transaktion. Kun osallistujien tuotosten tallentaminen tehdään Chaumin sokeilla allekirjoituksilla, jotta vältetään yhteys syötteisiin, tästä käytetään nimitystä "Chaumin coinjoin".
 
@@ -24,4 +25,3 @@ Maxwell, G. (2013, 22. elokuuta). *CoinJoin: Bitcoinin yksityisyys reaalimaailma
 
 On kuitenkin olemassa aiempia mainintoja sekä Chaumin allekirjoituksista sekoittamisen yhteydessä että coinjoineista. [Kesäkuussa 2011 Duncan Townsend esittelee BitcoinTalkissa](https://bitcointalk.org/index.php?topic=12751.0) sekoittajan, joka käyttää Chaum-allekirjoituksia tavalla, joka on melko samankaltainen kuin nykyaikaiset Chaumian coinjoinit. Samassa viestiketjussa on [hashcoinin viesti vastauksena Duncan Townsendille](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) hänen mikserinsä parantamiseksi. Tässä viestissä esitetään se, mikä muistuttaa eniten coinjoineja. Samankaltaisesta järjestelmästä on maininta myös [Alex Mizrahin viestissä vuodelta 2012](https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry), kun hän neuvoi Tenebrixin tekijöitä. Itse termiä "coinjoin" ei keksinyt Greg Maxwell, vaan se on peräisin Peter Toddin ideasta.
 
-> ► *Termille "coinjoin" ei ole ranskankielistä käännöstä. Jotkut bitcoin-käyttäjät käyttävät coinjoin-transaktiosta myös termejä "mix", "mixing" tai "mixage". Sekoittaminen on pikemminkin prosessi, jota käytetään coinjoinin ytimessä. On myös tärkeää, ettei sekoittamista coinjoinin kautta tapahtuvaa sekoittamista sekoiteta sekoittamiseen keskeisen toimijan kautta, joka ottaa bitcoinit haltuunsa prosessin aikana. Tällä ei ole mitään tekemistä coinjoinin kanssa, jossa käyttäjä ei menetä bitcoiniensa hallintaa prosessin aikana*

@@ -1,8 +1,9 @@
 ---
 term: ASIC
+definition: En specialiserad integrerad krets utformad för att beräkna SHA256-hashar för Bitcoin-gruvdrift, och erbjuder energieffektivitet långt överlägsen CPU och GPU.
 ---
 
-En ASIC är en elektronisk komponent som är utformad för att utföra en specifik funktion med optimal effektivitet. I samband med Bitcoin Mining är ASICs specialiserade integrerade kretsar som utför Hash-operationer med hög hastighet och låg energiåtgång. De är specialiserade på att utföra Hash-funktionen `SHA256` som används i Proof-of-Work-mekanismen. Inledningsvis hänvisar ASIC till namnet på chipet. I förlängningen hänvisar akronymen "ASIC" ofta också till den maskin som innehåller detta chip. Således kallas specialiserade datorer i Bitcoin Mining ibland för "ASICs" eller "miners" ASICs har gradvis ersatt andra Mining-metoder, som att använda processorer (CPU) och grafikkort (GPU), på grund av deras överlägsna energieffektivitet och mycket högre Hash-frekvens.
+En ASIC är en elektronisk komponent som är utformad för att utföra en specifik funktion med optimal effektivitet. I samband med Bitcoin-mining är ASIC specialiserade integrerade kretsar som utför hashoperationer med hög hastighet och låg energiförbrukning. De är specialiserade på att utföra hashfunktionen `SHA256` som används i proof-of-work-mekanismen. Ursprungligen avser ASIC namnet på själva chipet. I utvidgad betydelse används akronymen "ASIC" ofta även för att beteckna maskinen som innehåller detta chip. Därmed kallas datorer som är specialiserade på Bitcoin-mining ibland för "ASIC" eller "miners". ASIC har successivt ersatt andra miningmetoder, såsom användning av processorer (CPU) i Bitcoins tidiga skede och senare grafikkort (GPU), tack vare deras överlägsna energieffektivitet och betydligt högre hashrate.
 
 
-> *Akronymen "ASIC" står för "Application-Specific Integrated Circuit" På franska kan denna term översättas med "Circuit intégré spécifique à une application".*
+Akronymen "*ASIC*" står på engelska för "*Application-Specific Integrated Circuit*".

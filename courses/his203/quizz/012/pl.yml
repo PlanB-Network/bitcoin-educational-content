@@ -1,0 +1,10 @@
+question: Ile bitcoinów przelał Mark Karpelès, aby udowodnić wypłacalność platformy Mt. Gox 23 czerwca 2011 r.?
+answer: 424 242 bitcoiny
+wrong_answers:
+  - 666 bitcoinów
+  - 1 337 bitcoinów
+  - 21 210 bitcoinów
+explanation: |
+ Była to mniej więcej liczba bitcoinów posiadanych przez firmę w tamtym czasie. Liczba 42 jest odpowiedzią na "wielkie pytanie o życie, Wszechświat i wszystko inne" w H2G2
+ wszystko inne" w H2G2.
+reviewed: true

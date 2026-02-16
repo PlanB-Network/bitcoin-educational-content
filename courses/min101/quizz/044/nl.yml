@@ -1,0 +1,9 @@
+question: Met welk type hardware werd in het prille begin van Bitcoin voornamelijk gemined?
+answer: CPU
+wrong_answers:
+  - GPU
+  - ASIC
+  - FPGA
+explanation: |
+  Bij de lancering draaide de software op een pc en werd voornamelijk de processor gebruikt.
+reviewed: false

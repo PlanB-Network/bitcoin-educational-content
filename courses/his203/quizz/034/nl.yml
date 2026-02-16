@@ -1,0 +1,10 @@
+question: Wat was het concept achter P2Pool, de gedistribueerde mining pool gemaakt door Forrest Voight in 2011?
+answer: De aandelenketen
+wrong_answers:
+  - Lange peiling
+  - De coinbase-handtekening
+  - De FPGA
+explanation: |
+ De "aandelenketen", of sharechain, bestond uit gedeeltelijke bewijzen van werk die door deelnemers waren bijgedragen. Hij werd onderhouden door de deelnemers, die met elkaar verbonden waren
+ peer-to-peer met elkaar verbonden waren. Elk aandeel bevatte de vingerafdruk van het vorige aandeel, wat de integriteit van het geheel verzekerde.
+reviewed: true

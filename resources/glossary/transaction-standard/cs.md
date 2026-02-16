@@ -1,6 +1,7 @@
 ---
-term: TRANSAKČNÍ STANDARD
+term: Standardní transakce
 
+definition: Transakce splňující pravidla konsensu i výchozí pravidla standardizace uzlů Bitcoin Core.
 ---
 Transakce Bitcoin, která kromě dodržování pravidel konsensu spadá také do standardizačních pravidel nastavených ve výchozím nastavení uzlů Bitcoin Core. Tato standardizační pravidla si kromě pravidel konsensu individuálně stanovuje každý uzel Bitcoinu, aby definoval strukturu nepotvrzených transakcí, které přijímá do svého mempoolu a vysílá svým vrstevníkům.
 

@@ -1,5 +1,6 @@
 ---
-term: POOL (Mining)
+term: Mining pool
+definition: Groepering van miners die hun rekenkracht combineren om samen blokken te vinden.
 ---
 
 Verwijst naar een groep miners die samenwerken door hun rekenkracht te combineren om deel te nemen aan het zoeken naar geldige werkbewijzen op Bitcoin. Dit samenvoegen in één organisatie is een oplossing voor de toenemende moeilijkheidsgraad van Bitcoin Mining, waardoor het te onwaarschijnlijk wordt voor een individuele Miner om te concurreren en beloningen te verdienen op een stabiele basis. Miners binnen een Mining pool dragen met hun machines bij aan het zoeken naar geldige aandelen. Wanneer een blok wordt gemined door de pool, wordt de beloning - bestaande uit de nieuw gecreëerde bitcoins en de transactiekosten die in het blok zijn opgenomen - verdeeld onder de leden van de pool volgens de gekozen beloningsmethode. Deze verdeling is evenredig met de rekenkracht die elke Miner heeft bijgedragen.

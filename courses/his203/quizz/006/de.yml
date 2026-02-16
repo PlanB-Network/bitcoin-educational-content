@@ -1,0 +1,10 @@
+question: Welcher ungefähre Prozentsatz der Aktivitäten in der Bitcoin-Kette entfiel Ende des Sommers 2011 auf die Seidenstraße?
+answer: 10 %
+wrong_answers:
+  - 3 %
+  - 30 %
+  - 90 %
+explanation: |
+ Einem späteren Bericht von Chainalysis zufolge machten die Aktivitäten auf der Seidenstraße Anfang September 2011 fast 10 % des im Bitcoin-Kanal gehandelten Volumens aus
+ September 2011.
+reviewed: true

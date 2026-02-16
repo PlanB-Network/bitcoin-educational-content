@@ -1,0 +1,9 @@
+question: 2009年のビットコイン開始時のブロック補助金額はいくらでしたか？
+answer: 50 BTC
+wrong_answers:
+  - 25 BTC
+  - 12.5 BTC
+  - 100 BTC
+explanation: |
+  連続した半減が行われる前、当初の補助金は1ブロックあたり50 BTCでした。
+reviewed: false

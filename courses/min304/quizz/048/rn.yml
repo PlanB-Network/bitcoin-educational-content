@@ -1,0 +1,10 @@
+question: Ni ubuhe buryo bumwe bwihariye bwo kwinjira muri sisiteme ya Bitcoin biciye muri mining?
+answer: Kwinjira mu gikorwa ca mining mu rushana bishobora kuba uburyo bwiza bwo gushusha inzu yawe mu gihe uronka inyungu muri Bitcoin.
+wrong_answers:
+  - Mining Bitcoin ishobora kuba uburyo bwo kuronka amashanyarazi ku buntu.
+  - Mining Bitcoin ishobora kuba uburyo bwo kuronka internet ku buntu.
+  - Mining Bitcoin ishobora kuba uburyo bwo kuronka ibikoresho vy’ubuntu.
+explanation: |
+  Uburyo bumwe bwihariye bwo kwinjira muri sisiteme ya Bitcoin biciye muri mining ni gukora mining 
+  mu rushana bishobora kuba uburyo bwiza bwo gushusha inzu yawe mu gihe uronka inyungu muri Bitcoin.
+reviewed: true

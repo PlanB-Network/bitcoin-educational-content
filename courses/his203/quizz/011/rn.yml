@@ -1,0 +1,10 @@
+question: Ni igiki catumye umusozi Gox ufatwa n’abantu ku wa 19 Ruheshi?
+answer: Ugushika ku rutonde rw'ijambobanga, rwari rwashizwemwo na MD5, ariko ntirwashizwemwo umunyu
+wrong_answers:
+  - Jed McCaleb yasohoye ijambobanga kugira ngo yinjire kuri konti yiwe bwite kuri iyo nzira
+  - Igitero c’umuravyo, catumye uwo munyabute ashobora gukura amahera menshi kuruta ayo yari afise 
+  - XML injection mu gukuraho ibisabwa kugira ngo ukureho konti
+explanation: |
+ Ivyo vyatumye uwo munyavyaha ashobora gushika ku ma konti afise amajambo y’ibanga agoyagoya (magufi canke yoroshe gutekereza ku bintu). Cane cane, yararonse inkuru ya Jed McCaleb muri ubwo buryo. We 
+ yagurishije ama bitcoins kugira ngo igiciro kigabanuke, kugira ngo akuremwo ama bitcoins menshi cane (igipimo co gukuramwo ku musi cari amadolari 1.000).
+reviewed: true

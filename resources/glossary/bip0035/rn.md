@@ -1,5 +1,6 @@
 ---
 term: BIP0035
+definition: Ishirwaho ryemera ama node gusangira amakuru y'amapool yayo (itunshwa ririndiriye) n'abandi bakoresha mu muhora.
 ---
 
 Iciyumviro cemerera node ya Bitcoin gusangira amakuru yerekeye Mempool yayo, ikidengeri c’ibikorwa birindiriye kwemezwa.

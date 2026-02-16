@@ -1,0 +1,10 @@
+question: Waaruit bestaat het Pay-to-Script-Hash (P2SH) scriptschema?
+answer: Geld vergrendelen met de hash van een script, dat moet worden uitgevoerd bij het ontgrendelen
+wrong_answers:
+  - M handtekeningen van N deelnemers nodig om de transactieoutput te autoriseren om te worden uitgegeven
+  - Het uitgeven van bitcoins afhankelijk maken van het leveren van een handtekening gekoppeld aan een enkele publieke sleutel
+  - Willekeurige gegevens op de blockchain schrijven door UTXO niet-uitgeefbaar te maken
+explanation: |
+ Dit houdt in dat er betaald moet worden voor een hash van een script en dat het script wordt geleverd wanneer de fondsen worden vrijgegeven. Wat het onderscheidt van het OP_EVAL voorstel is dat het
+ automatisch wordt herkend door de virtuele machine, zodat het kan worden uitgevoerd zonder dat er expliciete instructies nodig zijn.
+reviewed: true

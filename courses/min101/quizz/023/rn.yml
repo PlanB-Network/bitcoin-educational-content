@@ -1,0 +1,9 @@
+question: Iyo ibice (blocks) vyatowe vuba cane mu gihe giheze, bishika gute?
+answer: Intego iragabanuka
+wrong_answers:
+  - Intego iraduza
+  - Intego iguma ari ya yindi
+  - Ingano y'igice (block size) irongerekana
+explanation: |
+  Ibice bitowe vuba cane vyerekana ko hashrate iri hejuru, nuko Bitcoin igatuma ivyo bisabwa bikara mu kugabanya intego.
+reviewed: false

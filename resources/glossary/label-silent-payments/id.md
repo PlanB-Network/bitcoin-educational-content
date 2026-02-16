@@ -1,6 +1,7 @@
 ---
-term: LABEL (SILENT PAYMENT)
+term: Label (silent payments)
 
+definition: Bilangan bulat yang digunakan untuk membuat alamat statis turunan yang memisahkan penggunaan dalam Silent Payments.
 ---
 Dalam protokol _Silent Payment_, label adalah bilangan bulat yang digunakan untuk memodifikasi alamat statis awal untuk membuat banyak alamat statis lainnya. Penggunaan label ini memungkinkan pemisahan pembayaran yang dikirim melalui _Silent Payment_, dengan menggunakan alamat statis yang berbeda untuk setiap penggunaan, tanpa menambah beban operasional yang berlebihan untuk mendeteksi pembayaran ini (pemindaian). Bob menggunakan alamat statis $B$, yang terdiri dari dua kunci publik: $B_{\text{scan}}$ untuk pemindaian dan $B_{\text{spend}}$ untuk pengeluaran. Hash dari $b_{\text{scan}}$ dan sebuah bilangan bulat $m$, yang dikalikan secara skalar dengan titik generator $G$, ditambahkan ke kunci publik pembelanjaan $B_{\text{spend}}$ untuk membuat semacam kunci publik pembelanjaan baru $B_m$:
 

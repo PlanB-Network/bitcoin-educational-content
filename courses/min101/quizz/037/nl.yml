@@ -1,0 +1,9 @@
+question: Welk mechanisme breidt de zoekruimte uit wanneer de 32-bit nonce is uitgeput?
+answer: De extra-nonce
+wrong_answers:
+  - De super-nonce
+  - De coinbase-nonce
+  - De double-nonce
+explanation: |
+  Door de extra-nonce in de scriptSig van de coinbase te wijzigen, verandert de Merkle root en daarmee de header.
+reviewed: false

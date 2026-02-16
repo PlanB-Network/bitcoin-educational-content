@@ -1,9 +1,9 @@
-question: Ni ubuhinga ubuhe bushobora gukoreshwa mu gufatanya amaverisiyo atandukanye ya Stash iyo habaye ukutumvikana?
+question: Ni ubuhinga bwanone ubuhe bushobora gukoreshwa mu gufatanya amaverisiyo atandukanye ya Stash iyo habaye ukutumvikana?
 answer: CRDT
 wrong_answers:
   - HTLC.
   - Single-Use Seal.
   - Gusubiramwo bishingiye ku nyandiko
 explanation: |
-  CRDTs zituma amakuru agenda neza mu gutuma amaverisiyo menshi ya Stash ashobora guhurizwa hamwe ata ntambara hagati y’abaguzi.
-reviewed: false
+  CRDTs zituma amakuru agenda neza mu gutuma amaverisiyo menshi ya Stash ashobora guhurizwa hamwe ata ngorane ziri hagati y’abaguzi.
+reviewed: true

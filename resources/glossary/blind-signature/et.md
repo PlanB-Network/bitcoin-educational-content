@@ -1,6 +1,7 @@
 ---
-term: PIME ALLKIRI
+term: Pimeallkiri
 
+definition: Digiallkiri, kus väljastaja ei tea allkirjastatud sisu, kasutatakse Chaumian CoinJoinides ja ecashis.
 ---
 Chaumi pimedad allkirjad on digitaalallkirja vorm, mille puhul allkirja andja ei tea allkirjastatava sõnumi sisu. Allkirja saab aga hiljem kontrollida originaalsõnumiga. Selle tehnika töötas 1983. aastal välja krüptograaf David Chaum.
 

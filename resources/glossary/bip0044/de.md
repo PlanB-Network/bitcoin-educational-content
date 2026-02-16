@@ -1,6 +1,7 @@
 ---
 term: BIP0044
 
+definition: Standard, der die vollständige Struktur der Ableitungspfade für HD-Wallets definiert purpose, coin_type, account, change und address_index.
 ---
 Ein Verbesserungsvorschlag, der eine standardmäßige hierarchische Ableitungsstruktur für HD-Wallets einführt. BIP44 baut auf den Grundsätzen von BIP32 für die Schlüsselableitung und auf BIP43 für die Verwendung des Feldes "Zweck" auf. Es führt eine fünfstufige Ableitungsstruktur ein: `m / Zweck' / coin_type' / account' / change / address_index`. Hier sind die Einzelheiten der einzelnen Ebenen:
 

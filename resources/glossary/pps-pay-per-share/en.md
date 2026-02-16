@@ -1,5 +1,6 @@
 ---
-term: PPS (PAY PER SHARE)
+term: PPS (pay per share)
+definition: Fixed remuneration method per share submitted, regardless of blocks found.
 ---
 
 Method for calculating the remuneration of miners within the context of mining pools. PPS is a system where miners are paid for each valid share submitted, regardless of whether the pool finds a block or not. They are therefore compensated based on the expected value. It is a task-based remuneration method.

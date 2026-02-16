@@ -1,6 +1,7 @@
 ---
-term: FEE SNIPING
+term: Fee sniping
 
+definition: Útok, při kterém těžaři přepíší nedávný blok, aby získali jeho vysoké transakční poplatky.
 ---
 Scénář útoku, při kterém se těžaři snaží přepsat nedávno potvrzený blok, aby si nárokovali transakční poplatky, které obsahuje, a zároveň přidat transakce s vysokými poplatky, které mezitím dorazily do mempoolu. Konečným cílem tohoto útoku pro těžaře je zvýšit svou ziskovost. Odstřelování poplatků může být stále ziskovější s tím, jak se snižuje odměna za blok a transakční poplatky představují větší část příjmů těžařů. Může být také výhodný, když jsou poplatky obsažené v předchozím bloku výrazně vyšší než poplatky v dalším nejlepším kandidátském bloku. Zjednodušeně lze říci, že těžař stojí z hlediska motivace před touto volbou:
 

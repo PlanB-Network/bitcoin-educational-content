@@ -1,6 +1,7 @@
 ---
-term: TRANSAKTIO (TX)
+term: Rahansiirto (tx)
 
+definition: Lohkoketjuun tallennettu toiminto, joka siirtää bitcoinien omistajuuden yhdestä tai useammasta syötteestä yhteen tai useampaan tulosteeseen.
 ---
 Bitcoinin yhteydessä transaktio (lyhenne "TX") on lohkoketjuun kirjattu operaatio, joka siirtää bitcoinien omistusoikeuden yhdestä tai useammasta syötteestä yhteen tai useampaan lähtöön. Kukin transaktio kuluttaa panoksina UTXO:ita (Unspent Transaction Outputs), jotka ovat aiempien transaktioiden tuotoksia, ja luo uusia UTXO:ita tuotoksina, joita voidaan käyttää panoksina tulevissa transaktioissa.
 

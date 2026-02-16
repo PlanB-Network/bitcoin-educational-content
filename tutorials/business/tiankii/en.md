@@ -36,7 +36,7 @@ The architecture is based on three pillars:
 **Open standards**: Use of LNURL to automate payment requests, Lightning Address for readable email IDs, and Bolt Card for interoperable NFC payments.
 
 
-**wallet-agnostic modularity**: Possibility of connecting different Lightning portfolios (LNbits, Blink, BlueWallet) or your own node, offering maximum flexibility depending on the level of expertise and autonomy required.
+**wallet-agnostic modularity**: Possibility of connecting different Lightning wallets (LNbits, Blink, BlueWallet) or your own node, offering maximum flexibility depending on the level of expertise and autonomy required.
 
 
 ## Tiankii ecosystem tools

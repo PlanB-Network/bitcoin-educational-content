@@ -1,0 +1,9 @@
+question: ¿A qué corresponde el subsidio de bloque?
+answer: Creación monetaria
+wrong_answers:
+  - Comisiones de transacciones
+  - Depósito de los usuarios
+  - Penalización por spam
+explanation: |
+  El subsidio es la parte de la recompensa que crea nuevos bitcoins ex nihilo según las reglas del protocolo.
+reviewed: false

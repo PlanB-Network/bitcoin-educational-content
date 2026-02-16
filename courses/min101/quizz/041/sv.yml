@@ -1,0 +1,9 @@
+question: Vilken algoritm är en Bitcoin ASIC specifikt utformad för att köra?
+answer: SHA256d
+wrong_answers:
+  - SHA512d
+  - SHA1
+  - SHA512
+explanation: |
+  Bitcoin ASIC:ar är specialiserade för den dubbla SHA256 som används av Bitcoins proof-of-work.
+reviewed: false

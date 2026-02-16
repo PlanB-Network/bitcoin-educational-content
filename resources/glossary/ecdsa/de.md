@@ -1,6 +1,7 @@
 ---
 term: ECDSA
 
+definition: Algorithmus für digitale Signaturen auf Basis elliptischer Kurven, der bei Bitcoin zum Signieren von Transaktionen verwendet wird.
 ---
 Akronym für "Elliptic Curve Digital Signature Algorithm" Es handelt sich um einen digitalen Unterschriftsalgorithmus, der auf der Kryptographie mit elliptischen Kurven (ECC) basiert. Er ist eine Variante des DSA (Digital Signature Algorithm). ECDSA nutzt die Eigenschaften elliptischer Kurven, um ein Sicherheitsniveau zu erreichen, das mit dem traditioneller Public-Key-Algorithmen wie RSA vergleichbar ist, wobei jedoch wesentlich kleinere Schlüsselgrößen verwendet werden. ECDSA ermöglicht die Erzeugung von Schlüsselpaaren (öffentlicher und privater Schlüssel) sowie die Erstellung und Überprüfung von digitalen Signaturen.
 

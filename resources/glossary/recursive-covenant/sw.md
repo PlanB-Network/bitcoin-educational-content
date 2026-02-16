@@ -1,5 +1,6 @@
 ---
-term: KURUDISHA (AGANO)
+term: Recursive (covenant)
+definition: Covenant inayoweka masharti kwa muamala wa sasa na miamala yote itakayofuata kwa muda usiojulikana.
 ---
 
 Agano la kujirudia kwenye Bitcoin ni aina ya Smart contract ambayo huweka masharti si tu kwa shughuli ya sasa bali pia katika shughuli za siku zijazo zinazotumia matokeo ya muamala huu. Hii inaruhusu kuundwa kwa minyororo ya shughuli ambapo kila mmoja lazima azingatie sheria fulani zinazofafanuliwa na wa kwanza katika mnyororo. Kujirudia hutengeneza msururu wa miamala ambapo kila moja inarithi vizuizi kutoka kwa shughuli yake ya mzazi. Hii itawezesha udhibiti mgumu na wa muda mrefu juu ya jinsi bitcoins zinaweza kutumika, lakini pia itaanzisha hatari kuhusu uhuru wa matumizi na uwezekano.

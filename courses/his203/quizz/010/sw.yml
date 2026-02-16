@@ -1,0 +1,9 @@
+question: Ni jukwaa gani la fedha za kigeni linaloshindana na Mt. Gox lililozinduliwa Desemba 2010 na David François?
+answer: Bitcoin-Kati
+wrong_answers:
+  - Paymium
+  - Britcoin
+  - Bitomat
+explanation: |
+ Bitcoin-Central ilikuwa jukwaa la Ufaransa, mwanzoni likikubali dola na euro za Liberty Reserve, pamoja na uhamisho wa kawaida wa euro. Nambari yake ya chanzo ilichapishwa chini ya leseni ya chanzo huria (AGPL). Jukwaa hilo baadaye liliunganishwa na Paymium, kampuni iliyoanzishwa kwa ushirikiano na Gonzague Grandval, Pierre Noizat na David François mnamo Juni 2011, ambayo hapo awali ililenga kikoa cha malipo.
+reviewed: true

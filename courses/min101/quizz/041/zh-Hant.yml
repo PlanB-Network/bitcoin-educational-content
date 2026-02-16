@@ -1,0 +1,9 @@
+question: 比特幣 ASIC 專門設計用於執行哪種演算法？
+answer: SHA256d
+wrong_answers:
+  - SHA512d
+  - SHA1
+  - SHA512
+explanation: |
+  比特幣 ASIC 專用於比特幣工作量證明所使用的雙重 SHA256 演算法。
+reviewed: false

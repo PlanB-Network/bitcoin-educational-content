@@ -1,0 +1,9 @@
+question: Welches Element ist für die Wettbewerbsfähigkeit des industriellen Minings am wichtigsten?
+answer: Stromkosten
+wrong_answers:
+  - Höhe der Lohnkosten
+  - Ergonomische Qualität der Infrastruktur
+  - Kosten für Softwarelizenzen
+explanation: |
+  Im großen Maßstab hängt die Rentabilität des Minings von den Kosten pro Recheneinheit ab, die vor allem durch die Stromkosten bestimmt werden.
+reviewed: false

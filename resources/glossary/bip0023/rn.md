@@ -1,5 +1,6 @@
 ---
 term: BIP0023
+definition: Iyagurwa rya BIP22 ku mapool y'ubucukuzi, ryemera abacukuzi gusuzuma no guhindura amablok yasabwe.
 ---
 
 Iyi BIP ni ukwaguka kwa BIP22, igamije guhimiriza kwemerwa kwayo n’ubuhinga bukoreshwa n’ibidengeri vya Mining, cane cane n’umurongo wa Getwork, uwabanjirije Stratum. Iyi nzira yashikirijwe na Luke Dashjr, irondera kwinjiza ingingo ya BIP22 muri Getwork ku buryo busanzwe, kugira ngo yorohereze kwemerwa n’ibidengeri vya Mining.

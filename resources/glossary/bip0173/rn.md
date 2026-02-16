@@ -1,5 +1,6 @@
 ---
 term: BIP0173
+definition: Uburyo bw'adresse bech32 kuri SegWit V0 ririko bc1q mu ntango, butuma gusoma vyoroha kandi bukerekana amakosa.
 ---
 
 Yashizeho uburyo bwa bech32 Address ku ma aderesi ya SegWit V0. Iyi nzira ya Address irangwa n'intango `bc1q`. Uburyo bwa bech32 buratanga ivyiza vyinshi:

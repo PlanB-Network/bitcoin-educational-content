@@ -1,0 +1,9 @@
+question: Koja rečenica najbolje opisuje uslugu koju pruža mining pool?
+answer: Prodaje predvidivost
+wrong_answers:
+  - Prodaje težinu rudarenja
+  - Prodaje veće blokove
+  - Prodaje mašine za rudarenje
+explanation: |
+  Udruživanje transformiše veoma nestabilan prihod u redovnije isplate, uz deljenje profita i naknade.
+reviewed: false

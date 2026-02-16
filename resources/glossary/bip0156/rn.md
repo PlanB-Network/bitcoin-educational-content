@@ -1,5 +1,6 @@
 ---
 term: BIP0156
+definition: Dandelion, uburyo bwongereza ibanga mu kurungika amatunshwa mu guhisha inode y'inkomoko.
 ---
 
 Iciyumviro, kizwi nka Dandelion, kigamije gutuma ubuzima bwite bw’inzira y’ubudandaji butera imbere mu rubuga rwa Bitcoin kugira ngo harwanywe ugukuraho amazina y’abantu. Mu bikorwa bisanzwe vya Bitcoin, amafaranga ahita atangazwa ku bice vyinshi.

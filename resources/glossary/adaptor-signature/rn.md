@@ -1,5 +1,6 @@
 ---
-term: UMUSINIRO W'UMUGAMBI
+term: Adaptor signature
+definition: Ubwenge bwa cryptographic bwihugira umubiri w'icyemezo ku magara, kugira ngo kuva ku magara ku magara bifasha kubona ibanga. Byoroshya amahoro ya atomiká nta mucukire wa kutegeeza.
 ---
 
 Uburyo bw'ibanga bushobora gufatanya umukono nyawo n'uwundi mukono w'inyongera (witwa "adaptateur signature") kugira ngo umuntu amenye amakuru y'ibanga. Ubwo buryo burakora ku buryo kumenya Elements zibiri hagati y’umukono ubereye, umukono w’adapteur, n’ibanga bituma umuntu ashobora gukuraho ikintu ca gatatu kibuze. Ikintu kimwe gishimishije c'ubu buryo ni uko nitwamenya umukono w'adapteri w'urunganwe rwacu n'akarongo kadasanzwe ku nzira y'umurongo w'uruzitiro bijanye n'ibanga ryakoreshejwe mu kubara uwo mukono w'adapteri, dushobora rero kuronka umukono wacu bwite w'adapteri uhuye n'iryo banga nyene, vyose tutarigeze turonka uburenganzira bwo gushika ku banga ubwaryo. Mu Exchange hagati y’abantu babiri batizigirana, ubu buryo buratuma amakuru abiri y’agaciro atangazwa icarimwe hagati y’abaje mu nama. Ivyo bikuraho ivy’ukwizigira mu bikorwa vy’ubudandaji bica bihinduka nk’uguhindura amafaranga canke uguhindura amafaranga y’atome. Reka turabe akarorero kugira ngo tuvyiyumvire neza. Alice na Bob umwe wese ashaka kohereza uwundi BTC 1, ariko ntibizigirana. Bazokoresha rero imikono y'aba adapter kugira ngo bakuremwo ivy'ukwizigirana mu gihe ca Exchange (gutyo bibe Exchange "atome"). Bagenda gutya:

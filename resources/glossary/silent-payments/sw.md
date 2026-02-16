@@ -1,5 +1,6 @@
 ---
-term: MALIPO YA KIMYA
+term: Silent payments
+definition: Njia ya kupokea malipo kupitia anwani tuli bila kutumia tena anwani.
 ---
 
 Mbinu ya kutumia anwani tuli za Bitcoin kupokea malipo bila kutumia tena Address, bila mwingiliano, na bila kiungo kinachoonekana cha On-Chain kati ya malipo tofauti na Address tuli. Mbinu hii huondoa hitaji la generate mpya, anwani za kupokea ambazo hazijatumika kwa kila shughuli, hivyo basi kuzuia mwingiliano wa kawaida katika Bitcoin ambapo mpokeaji lazima atoe Address mpya kwa mlipaji.

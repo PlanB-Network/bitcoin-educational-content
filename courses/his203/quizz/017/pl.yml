@@ -1,0 +1,11 @@
+question: Jaki był główny zarzut, jaki amerykańscy libertarianie podnieśli przeciwko Bitcoin, powołując się na twierdzenie Misesa o regresji?
+answer: Nie miał on żadnej wewnętrznej wartości i nie był poparty niczym konkretnym
+wrong_answers:
+  - Miała inflację monetarną, ze stopą emisji 40% rocznie w 2011 roku
+  - Nie był on używany jako jednostka rozliczeniowa, co stanowiło istotną cechę pieniądza
+  - Stworzyło to głęboko nierówną dystrybucję bogactwa
+explanation: |
+ Niektórzy amerykańscy libertarianie, przywiązani do szkoły austriackiej, odrzucili Bitcoin, ponieważ był on sprzeczny (ich zdaniem) z twierdzeniem regresji Ludwiga von Misesa,
+ które mówi, że dobro musi mieć obiektywną wartość użytkową, zanim stanie się walutą. Było to szczególnie prawdziwe w przypadku Petera Schiffa, syna
+ irwina Schiffa i zagorzałego zwolennika standardu złota.
+reviewed: true

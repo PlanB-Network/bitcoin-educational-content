@@ -1,6 +1,7 @@
 ---
-term: STRATUM V2
+term: Stratum v2
 
+definition: Ihindagurika rya Stratum ritanga itumanaho rinoze, umutekano wisumbuye n'ububasha bwinshi ku baminer b'abantu ku giti cyabo.
 ---
 
 Iterambere rya Stratum, umurongo w'uruja n'uruza rwa Bitcoin wagenewe mining. Ubwo bwoko bw’amasezerano bugenewe gutuma habaho uguhanahana amakuru hagati y’abacukuzi b’amabuye y’agaciro ku giti cabo n’abakozi ba mining pool kugira ngo bongere inyungu. Yateguwe n'ikidengeri ca Braiins (mbere yitwa "Slush Pool"), Stratum V2 izana ivyiza vyinshi, harimwo n'uguhanahana amakuru neza hagati y'abacukuzi n'ibidengeri vya mining, gutyo bikagabanya uburebure bw'uruja n'uruza bukenewe. Bigabanya kandi ibikorwa remezo bikenewe ku bidengeri. Ku bijanye n’umutekano, yongerako ubuhinga bwo kwemeza ko umuntu ari umunyakuri kugira ngo ntihagire ibitero bitandukanye vy’umuntu ari hagati, harimwo no gutega yompi no guhindura inzira y’ububisha ya hashrate. Ikintu gihambaye muri Stratum V2 ni uko harimwo amasezerano matomato yemerera abacukuzi b’amabuye y’agaciro ku giti cabo guhitamwo imigwi yabo y’ibikorwa vyo gushiramwo mu bice bakorako. Ivyo bitanga ububasha bwinshi ku bacukuzi b’amabuye y’agaciro, bitandukanye n’umurongo w’intango aho amazi yari afise ububasha bwose ku gishushanyo c’amabuye. Ubwo buryo rero bwoshobora gukomeza ugushira ahabona igikorwa ca mining hakoreshejwe ibidengeri.

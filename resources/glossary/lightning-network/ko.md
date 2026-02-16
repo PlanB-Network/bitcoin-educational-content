@@ -1,5 +1,6 @@
 ---
-term: Lightning Network
+term: Lightning network
+definition: 결제 채널을 통해 빠르고 저렴한 Bitcoin 트랜잭션을 가능하게 하는 오버레이 프로토콜입니다.
 ---
 
 Bitcoin 프로토콜 위에 구축된 상위 Layer 프로토콜로, 빠르고 저렴한 거래를 가능하게 하는 것을 목표로 합니다. 이 프로토콜을 사용하면 참가자 간에 결제 채널을 생성할 수 있으며, 이 채널에서는 Blockchain에 각 개별 거래를 기록할 필요 없이 최소한의 수수료로 거의 즉시 거래가 이루어질 수 있습니다. 채널은 거의 무한정 열려 있는 상태로 유지될 수 있으며, 채널이 열리고 닫힐 때만 Blockchain에서 거래가 필요합니다. Lightning Network은 Bitcoin의 확장성을 개선하고 소액 결제에 사용할 수 있도록 하는 것을 목표로 합니다.

@@ -1,6 +1,7 @@
 ---
 term: BIP0143
 
+definition: Thuật toán băm mới cho chữ ký SegWit, giải quyết sự tăng trưởng bậc hai và bao gồm giá trị của các đầu vào.
 ---
 Introduces a new way of hashing the transaction for signature verification in post-SegWit scripts. The goal is to minimize redundant operations during verification and to include the value of the UTXOs in the input in the signature. This solves two major issues with the original transaction hashing algorithm:
 

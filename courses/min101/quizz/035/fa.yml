@@ -1,0 +1,9 @@
+question: از زمان SegWit، تعهد شاهد (witness commitment) بلوک در کجا قرار می‌گیرد؟
+answer: در یک خروجی (output) از coinbase
+wrong_answers:
+  - در scriptSig مربوط به coinbase
+  - در فیلد version
+  - در کارمزدهای coinbase
+explanation: |
+  SegWit از تعهدی استفاده می‌کند که در coinbase از طریق یک خروجی OP_RETURN ثبت شده است.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Trong thời gian đầu của Bitcoin, việc khai thác chủ yếu được thực hiện bằng loại phần cứng nào?
+answer: CPU
+wrong_answers:
+  - GPU
+  - ASIC
+  - FPGA
+explanation: |
+  Khi mới ra mắt, phần mềm chạy trên máy tính cá nhân và chủ yếu sử dụng bộ vi xử lý.
+reviewed: false

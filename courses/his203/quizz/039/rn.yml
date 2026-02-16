@@ -1,0 +1,10 @@
+question: Ni ingaruka izihe kode y’imikorere ya OP_EVAL yagize ku bijanye n’ubuhinga bwo gukora porogarama zo mu mutima za Bitcoin?
+answer: Gushitsa inyandiko mu nyandiko
+wrong_answers:
+  - Gusaba imikono y'abaje mu nama
+  - Kata inyandiko maze ugereranye igisubizo n'ikirenge catanzwe
+  - Suzuma ko agaciro kabiri kangana
+explanation: |
+ Yadondowe na Nicolas van Saberhagen, aka ByteCoin, uwayihinguye mw’ijoro ryo kuva kw’igenekerezo rya 1 gushika ku rya 2 Gitugutu 2011. 
+ script kugira ngo usuzume ukuri kw'inyandiko yatanzwe, iyo hash igereranywa n'urutoke rwatanzwe.
+reviewed: true

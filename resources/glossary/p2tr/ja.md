@@ -1,5 +1,6 @@
 ---
 term: P2TR
+definition: 公開鍵またはMerkleスクリプトを介して支出を可能にするTaprootスクリプト。アドレスはbc1p。
 ---
 P2TRは*Pay to Taproot*の略で、UTXO（Unspent Transaction Output）の支出条件を設定するために使用される標準的なスクリプトモデルです。2021年11月のTaprootの実装とともに導入された。P2TRは暗号鍵の集約にSchnorrプロトコルを利用するほか、MAST（*Merkelized Alternative Script Tree*）として知られる代替スクリプトのためのメルクルツリーも利用する。P2TRは、支出条件が公開される従来のトランザクションとは異なり（あるときは受け取り時に、あるときは支出時に）、単一の見かけの公開鍵の背後に複雑なスクリプトを隠すことができる。
 

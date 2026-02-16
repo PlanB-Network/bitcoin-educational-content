@@ -1,6 +1,7 @@
 ---
-term: HASH FUNCTION
+term: Hash-funksjon
 
+definition: Matematisk funksjon som produserer en utdata med fast størrelse fra en inndata med variabel størrelse.
 ---
 En matematisk funksjon som tar en variabel størrelse input (kalt en melding) og produserer en fast størrelse output (kalt hash, hashing, digest eller fingeravtrykk). Hash-funksjoner er mye brukte primitiver innen kryptografi. De har spesifikke egenskaper som gjør dem egnet for bruk i sikre sammenhenger:
 
@@ -17,4 +18,3 @@ I Bitcoinsammenheng brukes hashfunksjoner til flere formål, blant annet til pro
 - `SHA512` i algoritmene `HMAC` og `PBKDF2` som brukes i prosessen med å utlede deterministiske og hierarkiske lommebøker;
 - `HASH160`, som beskriver en suksessiv bruk av en `SHA256` og en `RIPEMD160`. `HASH160` brukes i prosessen med å generere mottakeradresser (unntatt P2PK og P2TR) og til å beregne fingeravtrykk av overordnede nøkler for utvidede nøkler.
 
-> på engelsk kalles det en "hash-funksjon"

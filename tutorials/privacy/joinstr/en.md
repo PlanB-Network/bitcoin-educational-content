@@ -210,7 +210,7 @@ When Bitcoin Core starts up for the first time, it will download and synchronize
 ![CRÉATION DE WALLET](assets/fr/04.webp)
 
 
-Once synchronized, create a new portfolio by clicking on "Create a new wallet". Give it an explicit name like `tuto_joinstr_signet`.
+Once synchronized, create a new wallet by clicking on "Create a new wallet". Give it an explicit name like `tuto_joinstr_signet`.
 
 
 ![WALLET CRÉÉ](assets/fr/05.webp)
@@ -308,7 +308,7 @@ Configure settings in the "Settings" tab:
 - **Bookmark**: `38332`
 
 
-**6. Wallet**: Select the Bitcoin Core portfolio containing the UTXOs to be mixed
+**6. Wallet**: Select the Bitcoin Core wallet containing the UTXOs to be mixed
 
 
 - Example: `tuto_joinstr_signet`
@@ -468,7 +468,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 ## Best practices
 
 
-**UTXO isolation**: Never combine a mixed UTXO with an unmixed one. Use a separate portfolio for your anonymized outputs.
+**UTXO isolation**: Never combine a mixed UTXO with an unmixed one. Use a separate wallet for your anonymized outputs.
 
 
 **Multiple rounds essential**: Perform a minimum of 3 successive rounds with different participants. Vary amounts and timings to avoid patterns. Space rounds several hours apart.

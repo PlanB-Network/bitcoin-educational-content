@@ -1,0 +1,9 @@
+question: Iga kui mitme ploki järel toimub poolitamine (halving)?
+answer: 210 000
+wrong_answers:
+  - 2 016
+  - 100 000
+  - 21 000 000
+explanation: |
+  Protokoll rakendab poolitamist iga 210 000 ploki kõrguse kordaja juures.
+reviewed: false

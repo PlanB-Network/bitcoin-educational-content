@@ -187,7 +187,7 @@ Ente Auth offre diverse caratteristiche pratiche:
 
 *Il tag "Bitcoin" è stato applicato con successo al conto Bull Bitcoin*
 
-**Icone automatiche**: ogni voce può essere illustrata con il logo del servizio, grazie all'integrazione del pacchetto di icone [Simple Icons] (https://simpleicons.org/).
+**Icone automatiche**: ogni voce può essere illustrata con il logo del servizio, grazie all'integrazione del pacchetto di icone [Simple Icons](https://simpleicons.org/).
 
 **Condivisione sicura temporanea**: un'esclusiva funzionalità di Ente Auth, la condivisione sicura consente di trasmettere un codice 2FA a un collega senza rivelare il segreto sottostante. Genera un link criptato valido per 2, 5 o 10 minuti al massimo: il destinatario vede il codice in tempo reale, ma non può esportarlo o accedere ai dati dell'account. Questo metodo è ideale per l'assistenza tecnica o la collaborazione temporanea, offrendo un livello di sicurezza impossibile con un semplice screenshot o un messaggio di testo.
 

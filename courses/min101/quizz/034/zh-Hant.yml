@@ -1,0 +1,9 @@
+question: 減半（halving）改變了比特幣的什麼？
+answer: 區塊補貼
+wrong_answers:
+  - 交易費用
+  - 區塊大小
+  - 難度目標
+explanation: |
+  減半將每個區塊創造的最大補貼減半，而不影響費用。
+reviewed: false

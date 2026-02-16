@@ -1,0 +1,9 @@
+question: Apa nama buku besar publik bersama tempat riwayat pembayaran bitcoin ditulis?
+answer: Blockchain
+wrong_answers:
+  - Mempool
+  - Wallet
+  - Hashrate
+explanation: |
+  Buku catatan publik bersama yang berisi semua transaksi adalah blockchain.
+reviewed: false

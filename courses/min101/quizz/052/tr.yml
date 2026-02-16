@@ -1,0 +1,9 @@
+question: Basitçe söylemek gerekirse, Bitcoin'de blok nedir?
+answer: Bir işlemler paketi
+wrong_answers:
+  - Bir ödeme
+  - Merkezi bir sunucu
+  - Özel bir anahtar
+explanation: |
+  Basitleştirirsek, bir blok sadece gruplandırılmış işlemler kümesidir.
+reviewed: false

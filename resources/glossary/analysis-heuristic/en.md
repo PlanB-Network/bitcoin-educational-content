@@ -1,5 +1,6 @@
 ---
-term: ANALYSIS - HEURISTIC
+term: Analysis heuristic
+definition: An empirical method used to trace Bitcoin flows on the blockchain based on observable characteristics within transactions.
 ---
 
 In the context of Bitcoin, a heuristic analysis refers to a set of empirical methods used to trace the flow of bitcoins on the blockchain based on observable transaction characteristics. A heuristic is a practical approach to problem-solving, often through approximate methods, which represents a sufficiently good solution to achieve a given goal. These heuristics yield fairly reliable results, but never with absolute precision. In other words, chain analysis always involves a degree of plausibility in its conclusions. For example, one might estimate with varying degrees of confidence that two addresses belong to the same entity, but complete certainty is unattainable. The main goal of chain analysis is to aggregate multiple heuristics to reduce the risk of error. It is essentially a cumulative evidence process that brings us closer to the underlying reality. In this context, internal and external heuristics are differentiated.

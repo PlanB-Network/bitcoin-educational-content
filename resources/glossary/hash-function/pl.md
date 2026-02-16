@@ -1,5 +1,6 @@
 ---
-term: FUNKCJA Hash
+term: Funkcja skrótu
+definition: Funkcja matematyczna generująca wynik o stałym rozmiarze z danych wejściowych o zmiennym rozmiarze.
 ---
 
 Funkcja matematyczna, która pobiera dane wejściowe o zmiennym rozmiarze (zwane wiadomością) i generuje dane wyjściowe o stałym rozmiarze (zwane Hash, haszowaniem, skrótem lub odciskiem palca). Funkcje Hash są szeroko stosowanymi prymitywami w kryptografii. Wykazują one specyficzne właściwości, które sprawiają, że nadają się do stosowania w bezpiecznych kontekstach:
@@ -19,4 +20,3 @@ W kontekście Bitcoin, funkcje Hash są wykorzystywane do kilku celów, w tym me
 - `HASH160`, który opisuje kolejne użycie `SHA256` i `RIPEMD160`. `HASH160` jest używany w procesie generowania adresów odbiorczych (z wyjątkiem P2PK i P2TR) oraz w obliczaniu odcisków palców kluczy nadrzędnych dla kluczy rozszerzonych.
 
 
-> w języku angielskim jest ona określana jako "funkcja Hash"

@@ -1,5 +1,6 @@
 ---
-term: VARIANTIE
+term: Variantie
+definition: Fluctuaties in de mining-inkomsten als gevolg van de probabilistische aard van het zoeken naar geldige blokken.
 ---
 
 In Mining verwijst dit naar de schommelingen in de inkomsten van een Miner door de probabilistische aard van het vinden van geldige blokken. Zelfs met constante rekenkracht kan de tijd die nodig is om een blok te vinden aanzienlijk variëren. Als gevolg hiervan kunnen miners lange periodes geen beloning ontvangen, gevolgd door periodes met hoge inkomsten.

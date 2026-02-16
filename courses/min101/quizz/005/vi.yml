@@ -1,0 +1,9 @@
+question: Trường nbits trong tiêu đề khối tương ứng với cái gì?
+answer: Mục tiêu độ khó được mã hóa
+wrong_answers:
+  - Kích thước khối tính bằng byte
+  - Số lượng giao dịch trong khối
+  - Dấu thời gian của khối
+explanation: |
+  Trường nbits mã hóa mục tiêu độ khó đang hoạt động.
+reviewed: false

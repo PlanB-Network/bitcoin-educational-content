@@ -1,0 +1,9 @@
+question: Ni nini kilisababisha Mlima Gox kudukwa mnamo Juni 19?
+answer: Ufikiaji wa hifadhidata ya nenosiri, ambayo iliongezwa haraka na MD5, lakini haikuongezwa chumvi
+wrong_answers:
+  - Jed McCaleb alivujisha nenosiri ili kufikia akaunti yake binafsi kwenye jukwaa hilo
+  - Mlipuko wa radi, ambao uliruhusu maharamia kutoa bitcoins zaidi kuliko alivyokuwa nazo
+  - Uingizaji wa XML katika maombi ya kutoa pesa ili kuondoa akaunti
+explanation: |
+ Uvujaji huu ulimwezesha mdukuzi kufikia akaunti zenye manenosiri dhaifu (mafupi au rahisi kukisia). Hasa, aliingia kwenye akaunti ya Jed McCaleb kwa njia hii. Aliuza bitcoins ili kupunguza bei, ili kutoa kiwango cha juu cha bitcoins (kikomo cha kila siku cha kutoa pesa kilikuwa $1,000).
+reviewed: true

@@ -1,6 +1,7 @@
 ---
-term: BLIND SIGNATURE (盲签名)
+term: 盲签名
 
+definition: 签名者不知道签名内容的数字签名，用于 Chaumian CoinJoins 和 ecash。
 ---
 Chaum 的盲签名是一种数字签名形式，签名者不知道所签名的信息内容。然而，该签名随后可以与原始信息进行验证。这种技术由密码学家 David Chaum 于 1983 年开发。
 

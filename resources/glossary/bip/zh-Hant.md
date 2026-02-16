@@ -1,5 +1,6 @@
 ---
 term: BIP
+definition: 比特幣改進提案（Bitcoin Improvement Proposal）。社區藉以提議、討論和記錄比特幣協議改進方案的正式流程。
 ---
 
 Bitcoin Improvement Proposal（Bitcoin 改善提案）的縮寫。Bitcoin 改善提案 (BIP) 是對 Bitcoin 協定及其標準提出改善和變更建議並加以記錄的正式流程。由於 Bitcoin 沒有一個中央實體來決定更新，BIP 允許社群以結構化和透明的方式提出、討論和實施改進。每個 BIP 詳細說明了建議改進的目標、理由、對相容性的潛在影響，以及優點和缺點。BIP 可以由社群中的任何成員撰寫，但必須經過其他開發人員和維護 Bitcoin Core GitHub 資料庫的編輯核准：Bryan Bishop、Jon Atack、Luke Dashjr、Mark Erhardt (Murch)、Olaoluwa Osuntokun 和 Ruben Somsen。然而，重要的是要了解這些人在編輯 BIP 中的角色並不表示他們控制了 Bitcoin。如果有人提出的改進建議未被正式的 BIP 架構所接受，他們仍然可以直接將其提交給 Bitcoin 社群，甚至創建包含其修改的 Fork。BIP 程序的優點在於它的正式性和集中性，這有助於爭論，避免 Bitcoin 使用者之間的分裂，尋求以一致同意的方式實現更新。歸根結柢，是經濟大多數原則決定了協定內的權力動態。
@@ -38,7 +39,6 @@ BIP 在其生命週期中會經歷不同的狀態。目前的狀態會在每個 
 - 已取代/過時：BIP 已不再適用，或已被較新的提案取代，使其不再需要。
 
 
-![](../../dictionnaire/assets/25.webp)
 
 
-> ► *BIP是「Bitcoin改善提案」的縮寫。在法文中，可翻譯為 "Proposition d'amélioration de Bitcoin"。然而，大多數法語文本直接將縮寫 "BIP "用作普通名詞，有時是女性名詞，有時是男性名詞*。
+

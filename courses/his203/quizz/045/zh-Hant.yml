@@ -1,0 +1,10 @@
+question: 2011 年 10 月，Namecoin 加密貨幣加入了什麼技術創新？
+answer: 合併的 mining
+wrong_answers:
+  - 抗 GPU mining
+  - 可信賴的節點
+  - 股權證明
+explanation: |
+ 合併 mining 是一個流程，在此流程中，「母鏈」（即 Bitcoin）上所做的工作會被重新使用，以驗證較小的「輔助」鏈。此流程是
+ Satoshi 本身在 BitDNS 討論中提出的。合併的 mining 於 2011 年 10 月 8 日在 Namecoin 網路上的 19,200 區塊層級啟動。
+reviewed: true

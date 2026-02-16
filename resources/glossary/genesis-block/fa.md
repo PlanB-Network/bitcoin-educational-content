@@ -1,5 +1,6 @@
 ---
-term: بلوک Genesis
+term: بلاک جنسیس
+definition: اولین بلوک سیستم Bitcoin که توسط Satoshi Nakamoto در ۳ ژانویه ۲۰۰۹ ایجاد شد.
 ---
 
 بلوک Genesis اولین بلوک از سیستم Bitcoin است. این بلوک نشان‌دهنده راه‌اندازی واقعی Bitcoin است. بلوک Genesis توسط بنیان‌گذار ناشناس Bitcoin، یعنی Satoshi ناکاموتو، در تاریخ ۳ ژانویه ۲۰۰۹ ایجاد شد. Hash آن عبارت است از:

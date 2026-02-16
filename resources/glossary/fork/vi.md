@@ -1,6 +1,7 @@
 ---
-term: FORK
+term: Nhánh (Fork)
 
+definition: Sự phân tách mạng lưới các nút hoặc sửa đổi các quy tắc của giao thức Bitcoin.
 ---
 The term "fork" has several meanings in the context of Bitcoin. It can refer to either a split of the network of nodes into several separate groups, leading to the creation of multiple different blockchains, or a modification of the protocol rules, or both simultaneously. To simplify, we can distinguish 4 main categories of forks:
 

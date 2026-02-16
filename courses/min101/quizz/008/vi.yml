@@ -1,0 +1,9 @@
+question: Bằng chứng công việc trong Bitcoin được tính toán trên yếu tố nào?
+answer: Tiêu đề khối
+wrong_answers:
+  - Chiều cao khối
+  - Mempool của mạng lưới
+  - 21 giao dịch đầu tiên của khối
+explanation: |
+  Khai thác bao gồm việc băm (hashing) lặp đi lặp lại tiêu đề khối 80 byte, vốn cam kết nội dung của khối.
+reviewed: false

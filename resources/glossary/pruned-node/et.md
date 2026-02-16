@@ -1,6 +1,7 @@
 ---
-term: PRUNED NODE
+term: Kärbitud sõlm
 
+definition: Täissõlm, mis kustutab vanad kinnitatud plokid salvestusruumi säästmiseks.
 ---
 Pruned node, inglise keeles "kärbitud sõlme", on täisnood, mis teostab plokiahela kärpimist. See hõlmab vanimate plokkide järkjärgulist eemaldamist pärast nende nõuetekohast kontrollimist, et säilitada ainult kõige uuemad plokid. Säilitamispiirang määratakse failis `bitcoin.conf` parameetriga `prune=n`, kus `n` on plokkide maksimaalne suurus megabaitides (MB). Kui selle parameetri järele on märgitud `0`, siis on kärpimine välja lülitatud ja sõlm säilitab plokiahelat tervikuna.
 

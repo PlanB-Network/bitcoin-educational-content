@@ -1,0 +1,9 @@
+question: Ni kuki transaction ya coinbase itandukanye n'izindi?
+answer: Nta UTXO nyakuri ikoresha
+wrong_answers:
+  - Nta TXID igira
+  - Nta mivuduko (outputs) igira
+  - Ntikaba mu giti ca Merkle
+explanation: |
+  Ibinjirizwa kwayo (input) vyerekeza kuri UTXO itariyo, bituma habaho iremwa ry'agashirukanyota n'ikoranwa ry'amafaranga ya kera.
+reviewed: false

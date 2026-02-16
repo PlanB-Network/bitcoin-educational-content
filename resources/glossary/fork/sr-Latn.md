@@ -1,5 +1,6 @@
 ---
 term: Fork
+definition: Podela mreže čvorova ili izmena pravila Bitcoin protokola.
 ---
 
 Termin "Fork" ima nekoliko značenja u kontekstu Bitcoin. Može se odnositi ili na podelu mreže čvorova na nekoliko zasebnih grupa, što dovodi do stvaranja više različitih blokčejnova, ili na modifikaciju pravila protokola, ili na oba istovremeno. Da pojednostavimo, možemo razlikovati 4 glavne kategorije forka:

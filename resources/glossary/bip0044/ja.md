@@ -1,5 +1,6 @@
 ---
 term: BIP0044
+definition: HDウォレットの派生パスの完全な構造を定義する標準規格：purpose、coin_type、account、change、および address_index。
 ---
 HDウォレットに標準的な階層的派生構造を導入する改善提案。BIP44は、BIP32で確立された鍵導出の原則と、BIP43で確立された "purpose "フィールドの使用に関する原則に基づいている。BIP44は5段階の派生構造を導入している：`m / purpose' / coin_type' / account' / change / address_index`。以下は、各階層の詳細である：
 

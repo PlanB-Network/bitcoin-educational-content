@@ -1,10 +1,11 @@
-question: Analist neden Stonewall tipi bir işlemde CoinJoin uygulamıyor?
+question: Analist neden Stonewall türü bir işleme CIOH uygulamayacak?
 answer: Çünkü aynı miktarlarda 2 çıkış vardır
 wrong_answers:
   - Çünkü sadece 2 giriş vardır
   - Çünkü bu modele aşina değiller
   - Çünkü girdilerden daha fazla çıktı vardır
 explanation: |
-  Bir Stonewall işleminin dışarıdan analiz edilmesi CoinJoin'in uygulanmasına yol açmaz, çünkü aynı miktarda iki çıktının varlığı bir CoinJoin modeline işaret eder. Dışarıdan bakıldığında, CoinJoin bu nedenle bu özel durumda uygulanabilir değildir.
   
+  Bir Stonewall işleminin dışarıdan analizi CIOH'nin uygulanmasına yol açmaz, çünkü aynı miktarda iki output'un varlığı bir coinjoin desenini düşündürür. Dış bakış açısından, CIOH bu özel durumda uygulanamaz.
+
 reviewed: false

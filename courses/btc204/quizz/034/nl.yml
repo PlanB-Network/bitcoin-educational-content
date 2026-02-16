@@ -1,9 +1,9 @@
-question: In een eenvoudige betalingstransactie met een input van 500.000 Sats, verdeeld in een output van 47.500 Sats en een andere van 451.000 Sats, welke UTXO is waarschijnlijk de verandering?
-answer: Die van 451.000 Sats.
+question: In een eenvoudige betalingstransactie met een input van 500.000 sats, verdeeld in een output van 47.500 sats en een andere van 451.000 sats, welke UTXO is waarschijnlijk het wisselgeld?
+answer: Die van 451.000 sats.
 wrong_answers:
-  - Die van 500.000 Sats.
-  - Die van 47.500 Sats.
+  - Die van 500.000 sats.
+  - Die van 47.500 sats.
   - Geen van allen.
 explanation: |
-  Als er een voldoende groot verschil is tussen twee outputs in een transactie op een eenvoudig betalingsmodel, kan worden geschat dat de grotere output waarschijnlijk de verandering is.
+  Als er een voldoende groot verschil is tussen twee outputs in een transactie met een eenvoudig betalingsmodel, kan worden vermoed dat de grotere output waarschijnlijk het wisselgeld is.
 reviewed: false

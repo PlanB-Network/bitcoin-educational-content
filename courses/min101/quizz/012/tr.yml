@@ -1,0 +1,9 @@
+question: Zorluk hedefi azalırsa madenciliğe ne olur?
+answer: Daha zor hale gelir
+wrong_answers:
+  - Daha kolay hale gelir
+  - Aynı kalır
+  - İmkansız hale gelir
+explanation: |
+  Daha düşük bir hedef, eşiğin altında daha az olası sonuç bırakır, bu nedenle geçerli bir hash bulmak için daha fazla deneme yapılması gerekir. Bu da madenciliğin daha zor olduğu anlamına gelir.
+reviewed: false

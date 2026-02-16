@@ -1,5 +1,6 @@
 ---
-term: NÆRHETSBONUS
+term: Nærhetspremie
+definition: Økonomisk fordel for minere oppnådd ved å redusere forsinkelse i nettverkskommunikasjon.
 ---
 
 I Bitcoin Mining-sammenheng refererer dette til den økonomiske fordelen utvinnere oppnår ved å redusere kommunikasjonsforsinkelsen i nettverket. Utvinnere som befinner seg nærmere hverandre, mottar nye gyldige blokker raskere, slik at de kan slutte å kaste bort ressurser på en kandidatblokk som befinner seg på en gren med mindre akkumulert arbeid. Denne reduksjonen i ventetid forbedrer utvinnernes avkastning, noe som naturligvis oppmuntrer dem til å slå seg sammen geografisk for å maksimere inntektene sine.

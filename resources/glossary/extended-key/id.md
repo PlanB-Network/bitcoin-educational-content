@@ -1,6 +1,7 @@
 ---
-term: EXTENDED KEY
+term: Kunci diperluas
 
+definition: String yang menggabungkan kunci, chain code-nya, dan metadata untuk derivasi dalam dompet HD.
 ---
 Urutan karakter yang menggabungkan kunci (publik atau privat), kode rantai terkait, dan serangkaian metadata. _Extended key_ mengkompilasi semua elemen yang diperlukan untuk menurunkan kunci anak ke dalam satu pengenal. Kunci ini digunakan pada dompet deterministik hirarkis dan dapat terdiri dari dua jenis: _extended public key_ (digunakan untuk mendapatkan kunci publik anak) atau _extended private key_ (digunakan untuk mendapatkan kunci pribadi dan kunci publik anak). _Extended key_ dengan demikian mencakup beberapa bagian data yang berbeda, yang dijelaskan dalam BIP32, sesuai dengan urutannya:
 

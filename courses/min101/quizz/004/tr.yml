@@ -1,0 +1,9 @@
+question: Satoshi tarafından özetlenen fikre göre, çift harcamanın (double-spending) olmadığını garanti etmenin tek yolu nedir?
+answer: Tüm işlemleri bilmek
+wrong_answers:
+  - Tüm aktif düğümleri (nodes) bilmek
+  - Tüm aktif madencileri bilmek
+  - Tüm özel anahtarları bilmek
+explanation: |
+  Çift harcama, bir işlemin paylaşılan bir defterde kayıtlı geçmiş harcamalarla karşılaştırılmasıyla tespit edilir.
+reviewed: false

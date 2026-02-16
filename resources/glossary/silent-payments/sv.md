@@ -1,5 +1,6 @@
 ---
-term: TYSTA BETALNINGAR
+term: Silent payments
+definition: Metod för att ta emot betalningar via en statisk adress utan adressåteranvändning.
 ---
 
 Metod för att använda statiska Bitcoin-adresser för att ta emot betalningar utan återanvändning av Address, utan interaktion och utan en synlig On-Chain-länk mellan de olika betalningarna och den statiska Address. Denna teknik eliminerar behovet av att generate nya, oanvända mottagningsadresser för varje transaktion, och därmed undviks de vanliga interaktionerna i Bitcoin där mottagaren måste tillhandahålla en ny Address till betalaren.

@@ -1,0 +1,9 @@
+question: Który halving jest ostatni według protokołu?
+answer: 33.
+wrong_answers:
+  - 21.
+  - 38.
+  - 64.
+explanation: |
+  33. halving na wysokości 6 930 000 zakończy subsydiowanie bloków, ponieważ spadnie ono poniżej jednostki minimalnej.
+reviewed: false

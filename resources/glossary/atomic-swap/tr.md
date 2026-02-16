@@ -1,5 +1,6 @@
 ---
-term: ATOMİK TAKAS
+term: Atomic swap
+definition: Güvenilir bir aracı olmaksızın iki taraf arasında kripto para birimlerinin değiştirilmesi, burada değişim tamamen başarılı olur ya da tamamen iptal edilir.
 ---
 
 Güvene ihtiyaç duymadan ve bir aracı gerektirmeden iki taraf arasında kripto para birimlerinin doğrudan Exchange'ına izin veren teknoloji. Bu değiş tokuşlar "atomik" olarak adlandırılır çünkü yalnızca iki sonuçla sonuçlanabilirler:

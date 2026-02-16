@@ -1,9 +1,9 @@
 question: Quale tipo di attacco prevede che una singola entità controlli più nodi per apparire come entità multiple e perché non è efficace contro il meccanismo di consenso di Bitcoin?
-answer: Attacco di tipo sibillino; è inefficace perché il Bitcoin utilizza la potenza di calcolo del proof-of-work per il consenso piuttosto che per il conteggio dei nodi
+answer: Attacco Sybil; è inefficace perché Bitcoin utilizza la potenza di calcolo del proof-of-work per il consenso invece che per il conteggio dei nodi
 wrong_answers:
-  - "Attacco Eclipse; è inefficace perché il Bitcoin cripta tutte le comunicazioni dei nodi utilizzando protocolli crittografici avanzati"
-  - "Attacco Denial-of-service; è inefficace perché Bitcoin ridistribuisce automaticamente il traffico sui nodi sani della rete"
-  - "Attacco di ingegneria sociale; è inefficace perché gli sviluppatori di Bitcoin utilizzano metodi di verifica formale per prevenire la manipolazione"
+  - Attacco Eclipse; è inefficace perché Bitcoin cripta tutte le comunicazioni dei nodi utilizzando protocolli crittografici avanzati
+  - Attacco Denial-of-Service; è inefficace perché Bitcoin ridistribuisce automaticamente il traffico sui nodi sani della rete
+  - Attacco di ingegneria sociale; è inefficace perché gli sviluppatori di Bitcoin utilizzano metodi di verifica formale per prevenire la manipolazione
 explanation: |
   Un attacco Sybil si verifica quando un'entità controlla più nodi per mascherarsi come entità separate. Tuttavia, questo attacco è inefficace contro Bitcoin perché la rete non si basa sul conteggio dei nodi o sul voto democratico tra i partecipanti alla rete. Al contrario, Bitcoin utilizza il consenso proof-of-work in cui è la potenza di calcolo (hashpower) a determinare le decisioni della rete, non il numero di nodi. Questo rende impossibile per un attaccante ottenere influenza semplicemente gestendo molti nodi senza le corrispondenti risorse di calcolo.
-reviewed: false
+reviewed: true

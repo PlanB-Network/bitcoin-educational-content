@@ -1,5 +1,5 @@
-question: Hoe werkt de stamfase in het paardenbloemprotocol?
-answer: De transactie wordt verzonden via een willekeurig pad van knooppunten.
+question: Hoe werkt de stamfase in het paardenbloem-protocol (dandelion)?
+answer: De transactie wordt verzonden via een willekeurig pad van knooppunten (nodes)
 wrong_answers:
   - De transactie wordt onmiddellijk uitgezonden naar alle peers van het bronknooppunt.
   - De transactie wordt tijdelijk opgeslagen in een centraal knooppunt voordat ze wordt uitgezonden.

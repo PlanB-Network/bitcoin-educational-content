@@ -1,0 +1,9 @@
+question: Do czego służy Merkle root w nagłówku bloku Bitcoin?
+answer: Do uwzględnienia wszystkich transakcji w bloku
+wrong_answers:
+  - Do obliczenia proof of work bloku
+  - Do sygnalizowania wersji bloku
+  - Do poznania trudności bloku
+explanation: |
+  Merkle root podsumowuje wszystkie transakcje; jeśli jedna ulegnie zmianie, korzeń również się zmieni.
+reviewed: false

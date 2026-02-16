@@ -1,6 +1,7 @@
 ---
-term: EELDATAVALT VÄÄRTUSLIK
+term: Assume valid
 
+definition: Bitcoin Core'i parameeter, mis lubab signaatuuri kontrollimist vahele jätta blokkidele enne teatud punkti, kiirendades algset sünkroniseerimist.
 ---
 Konfiguratsiooniparameeter enamiku klientide Bitcoin Core'is, mis võimaldab sõlme, mis on just initsialiseeritud (kuid ei ole veel IBD-d teostanud), jätta allkirjade kontrollimise vahele kõigi enne teatud plokki sisalduvate tehingute puhul. See kuulus plokk on määratletud selle päise, st selle hash'i jäljendiga. Valitud plokki uuendatakse iga uue Bitcoin Core'i versiooniga. Kui sõlm on selle parameetri aktiveerinud, kontrollib ta seega selle initsialiseerimisel ploki päiseahelat, et leida kõige rohkem kogunenud tööga haru. Kui sõlmpunkt tuvastab Core'i pakutava hashi valitud harus, jätab ta eelnevate plokkide allkirjade kontrollimise ära. Vastasel juhul jätkab sõlme traditsioonilise sünkroniseerimisega (IBD), et kontrollida kõike ise.
 

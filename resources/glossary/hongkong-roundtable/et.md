@@ -1,6 +1,7 @@
 ---
-term: HONGKONGI ÜMARLAUD
+term: Hong-kong roundtable
 
+definition: Ajalooline 2016. aasta kohtumine Bitcoin Core'i arendajate ja kaevandajate vahel süsteemi skaleeritavuse teemal.
 ---
 Ajalooline sündmus Blocksize'i sõjast, mis toimus 20. veebruaril 2016 Hongkongis. See oli oluline kohtumine Bitcoin Core'i arendajate ja kaevurite vahel, et arutada süsteemi skaleeritavust ja selle skaleerimise strateegiat. Enne kohtumist olid pinged suured, eriti seoses Gavin Andresseni toetatud hard forki ettepaneku Bitcoin Classic tõusuga, mille eesmärk oli suurendada plokisuurust 2 MB-ni. Aruteludes osalesid ökosüsteemi mõjukad tegelased, sealhulgas Bitmaini kaasasutaja Jihan Wu ja Micree Zhan, Blockstream'i president Adam Back ning Luke Dashjr, Matt Corallo ja Peter Todd.
 

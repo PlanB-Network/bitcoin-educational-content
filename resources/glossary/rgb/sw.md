@@ -1,5 +1,6 @@
 ---
 term: RGB
+definition: Mfumo wa mikataba mahiri uliogatuliwa na wa siri unaofanya kazi kwenye Bitcoin.
 ---
 
 Mfumo wa ugatuzi na wa siri wa Smart contract ulioundwa kufanya kazi na Bitcoin na Lightning Network. RGB hufanya kazi kwenye muundo wa Client-side Validation na hutenganisha uhifadhi wa Contract State kutoka kwa Blockchain, ili ahadi za kriptografia pekee zitunzwe juu yake. Kwa njia hii, historia kamili ya hali huwekwa nje ya mlolongo, na kuwezesha kuongezeka kwa usiri na usiri. RGB hivyo huwezesha uundaji wa mikataba changamano ya kuhifadhi tokeni, NFTs, vitambulisho vilivyogatuliwa au ufumbuzi wa DeFi, moja kwa moja juu ya Bitcoin.

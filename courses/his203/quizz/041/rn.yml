@@ -1,0 +1,10 @@
+question: Ni uwuhe muhinguzi wa Bitcoin yarwanya cane ugusubiramwo Pay to Script Hash?
+answer: Luka Dashjr
+wrong_answers:
+  - Amir Taaki
+  - Gregory Maxwell
+  - Gavini Andresen
+explanation: |
+ Luke Dashjr yumvise ko igitekerezo ca OP_EVAL cari ciza cane, kuko cari giteye igomwe cane; iyo P2SH yasubirije uburyo bwo kwandika "ikigereranyo kimwe kidasanzwe".
+ Yaraneguye kandi Gavin kubera yashizemwo raporo y’imbere y’igihe muri iyo porogarama. Mu kwishura, Luka-Jr yarateguye kode yiwe bwite yo gukoresha, OP_CHECKHASHVERIFY (BIP 17).
+reviewed: true

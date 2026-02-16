@@ -1,0 +1,10 @@
+question: Jakou přezdívku dostal Roger Ver za svou horlivou propagaci Bitcoin?
+answer: Ježíš Bitcoin
+wrong_answers:
+  - Prorok Bitcoin
+  - Evangelista Bitcoin
+  - Bitcoin Mesiáš
+explanation: |
+ Roger Ver byl v únoru 2012 kanadským obchodníkem GoWest nazván "Ježíšem Bitcoin" (Bitcoin Jesus), a to kvůli jeho intenzivní propagaci Bitcoin.
+ Přezdívka mu zůstala, i když se k ní nikdy nehlásil.
+reviewed: true

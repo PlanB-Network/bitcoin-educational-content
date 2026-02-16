@@ -1,0 +1,11 @@
+question: Hva var den primære innvendingen som amerikanske libertarianere reiste mot Bitcoin, med henvisning til Mises' regresjonsteorem?
+answer: Den hadde ingen egenverdi og var ikke støttet av noe konkret
+wrong_answers:
+  - Den hadde monetær inflasjon, med en utstedelsesrate på 40 % per år i 2011
+  - Det ble ikke brukt som en regningsenhet, en viktig egenskap ved penger
+  - Det skapte en dypt ulik fordeling av rikdom
+explanation: |
+ Noen amerikanske libertarianere, med tilknytning til den østerrikske skolen, avviste Bitcoin fordi den (etter deres mening) stred mot Ludwig von Mises' regresjonsteorem,
+ som sier at en vare må ha en objektiv, ikke-monetær bruksverdi før den kan bli en valuta. Dette gjaldt særlig Peter Schiff, sønn av
+ irwin Schiff, og en ivrig tilhenger av gullstandarden.
+reviewed: true

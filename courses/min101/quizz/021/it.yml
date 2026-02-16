@@ -1,0 +1,9 @@
+question: Ogni quanti blocchi viene regolato l'obiettivo di difficoltà?
+answer: 2016 blocchi
+wrong_answers:
+  - 2000 blocchi
+  - 2100 blocchi
+  - 4096 blocchi
+explanation: |
+  La regolazione avviene ogni 2016 blocchi, ovvero circa due settimane a 10 minuti per blocco.
+reviewed: false

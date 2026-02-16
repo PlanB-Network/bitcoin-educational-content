@@ -1,0 +1,9 @@
+question: 2009'da Bitcoin piyasaya sürüldüğünde blok sübvansiyon miktarı ne kadardı?
+answer: 50 BTC
+wrong_answers:
+  - 25 BTC
+  - 12,5 BTC
+  - 100 BTC
+explanation: |
+  Ardışık bölünmelerden önce ilk sübvansiyon blok başına 50 BTC idi.
+reviewed: false

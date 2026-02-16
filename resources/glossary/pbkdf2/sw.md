@@ -1,5 +1,6 @@
 ---
 term: PBKDF2
+definition: Kazi ya kutoa funguo za siri kutoka kwa nywila kupitia marudio.
 ---
 
 `PBKDF2` inawakilisha *Utoaji wa Ufunguo Unaotegemea Nenosiri 2*. Ni njia ya kuunda funguo za kriptografia kutoka kwa nenosiri kwa kutumia kitendakazi cha derivation. Inachukua kuweka nenosiri, chumvi ya kriptografia, na kutumia mara kwa mara utendaji uliobainishwa (mara nyingi ni chaguo la kukokotoa la Hash kama `SHA256` au `HMAC`) kwa data hizi. Mchakato huu unarudiwa mara nyingi kwa generate ufunguo wa kriptografia.

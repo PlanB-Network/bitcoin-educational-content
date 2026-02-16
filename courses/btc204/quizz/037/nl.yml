@@ -5,5 +5,5 @@ wrong_answers:
   - Als een transactie meerdere outputs bevat, gaan deze waarschijnlijk allemaal naar één entiteit.
   - Als een transactie meerdere outputs bevat, gaan deze waarschijnlijk allemaal naar verschillende entiteiten.
 explanation: |
-  De CIOH is een heuristiek die suggereert dat wanneer een transactie meerdere inputs bevat, deze inputs waarschijnlijk allemaal afkomstig zijn van één entiteit. Daarom is hun Ownership gemeenschappelijk.
+  De CIOH is een heuristiek die suggereert dat wanneer een transactie meerdere inputs bevat, deze inputs waarschijnlijk allemaal afkomstig zijn van één entiteit. Daarom is hun eigenaar gemeenschappelijk.
 reviewed: false

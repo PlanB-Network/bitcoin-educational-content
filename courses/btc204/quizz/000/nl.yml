@@ -1,5 +1,5 @@
 question: Wat betekent de afkorting UTXO in het Engels?
-answer: Ongebruikte transactie-uitgang
+answer: Ongebruikte transactie-output
 wrong_answers:
   - Unified Transaction Output
   - Alleen gebruikerstransactie

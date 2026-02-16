@@ -1,0 +1,11 @@
+question: Mis oli peamine finantsuuendus, mida pakkus 2011. aasta septembris noore Hiina ettevõtja Zhou Tongi poolt käivitatud platvorm Bitcoinica?
+answer: Finantsvõimendus ja lühikeseks müük
+wrong_answers:
+  - Aktsiate ja võlakirjade emiteerimine
+  - Tagatud intressiga laen
+  - Peaaegu kohene rahavahetus
+explanation: |
+ Bitcoinica oli esimene platvorm ökosüsteemis, mis pakkus marginaalkaubandust, mis võimaldas klientidel kasutada võimendust, et võimendada oma kasumit (ja kahjumit) ning minna
+ lühikeseks jääda, et panustada langevale aktsiahinnale. Pärast selle sulgemist võttis seda tüüpi teenuse üle platvorm Bitfinex, mis käivitati 2012. aasta oktoobris ja mis oli
+ põhines samal lähtekoodil.
+reviewed: true

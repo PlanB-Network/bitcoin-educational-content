@@ -1,0 +1,9 @@
+question: 关于 mempool，哪种说法是正确的？
+answer: 每个节点都有自己的 mempool
+wrong_answers:
+  - 存在唯一的单个 mempool
+  - mempool 是每个区块中包含的文件
+  - mempool 是一个中心服务器
+explanation: |
+  mempool 对每个节点来说都是本地的，因此其内容可能因每个节点应用的规则而异。
+reviewed: false

@@ -1,0 +1,10 @@
+question: Welke software innoveerde door in november 2011 de sleutelafleiding seed weer te geven als een zin van 12 woorden?
+answer: Electrum
+wrong_answers:
+  - Spesmilo
+  - Stratum
+  - Paymium
+explanation: |
+ Deze wallet is gemaakt door de Franse ontwikkelaar Thomas Voegtlin. De naam verwijst naar elektrum, een natuurlijke legering van goud en zilver. Electrum was een van de eerste
+ wallet's om een deterministische structuur te implementeren die sleutels afleidt van een seed, die het voorstelde als een hexadecimale tekenreeks en een 12-woord zin.
+reviewed: true

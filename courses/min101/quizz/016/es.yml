@@ -1,0 +1,9 @@
+question: ¿Qué significa el acrónimo RPOW?
+answer: Reusable Proofs of Work
+wrong_answers:
+  - Recursive Proofs of Work
+  - Random Proofs of Work
+  - Replayed Proofs of Work
+explanation: |
+  RPOW se refiere a pruebas de trabajo reutilizables e intercambiables, propuestas por Hal Finney en 2004.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: EINGABE
+term: Input
+definition: Als Ursprungsmittel in einer Bitcoin-Transaktion verwendeter UTXO, der auf einen früheren Output verweist.
 ---
 
 Im Kontext von Bitcoin bezieht sich ein Input innerhalb einer Transaktion auf die UTXOs (*Unspent Transaction Outputs*), die als ursprüngliche Mittel zur Befriedigung der Outputs verwendet werden. Jeder Input enthält Verweise auf frühere UTXOs, die dann von der Transaktion verbraucht werden. Diese Inputs werden verwendet, um neue UTXOs zu speisen, die als Outputs der Transaktion erstellt werden und die dann in zukünftigen Transaktionen ausgegeben werden können.

@@ -1,5 +1,6 @@
 ---
-term: SIGHASH_ALL (0X01)
+term: SIGHASH_ALL
 
+definition: Cờ SigHash cho biết chữ ký bao gồm tất cả các đầu vào và đầu ra của giao dịch.
 ---
 Type of SigHash Flag used in Bitcoin transaction signatures to indicate that the signature applies to all components of the transaction. By using `SIGHASH_ALL`, the signer covers all the inputs and all the outputs. This means that neither the inputs nor the outputs can be modified after the signature without invalidating it. This type of SigHash Flag is the most common in Bitcoin transactions, as it ensures complete finality and integrity of the transaction.

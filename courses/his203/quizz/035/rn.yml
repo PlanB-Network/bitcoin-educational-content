@@ -1,0 +1,10 @@
+question: Uburyo bwo kwishura ku migabane ya nyuma (PPLNS) bukoreshwa mu bidengeri bimwebimwe vya mining bugizwe n’iki?
+answer: Ihe abacukuzi b’amabuye y’agaciro ku gice cose bacukuye, bivanye n’imigabane yabo mu migabane N ya nyuma yatanzwe ku kigega ca mining 
+wrong_answers:
+  - Guhemba abacukuzi b’amabuye y’agaciro ubwo nyene ku gice cose batanga, bivanye n’ingene kigoye 
+  - Impera abacukuzi ku gice cose bacukuye, bivanye n’imigabane babonye kuva ku gice ca nyuma 
+  - Uheze abacukuzi b’amabuye y’agaciro ubwo nyene ku mugabane wose batanga, ariko ntuzokwigere urenga uwo ikidengeri ca mining gifise 
+explanation: |
+ Ivyo ni uburyo butandukanye bw’akarorero k’uburinganire, aho igihe c’isuzuma atari uruziga rw’uguhingura amabuye, ariko ni idirisha ry’imigabane N yigenga ku ruziga.
+ Uburyo bwa PPLNS bwakoreshejwe na P2Pool, n’abandi.
+reviewed: true

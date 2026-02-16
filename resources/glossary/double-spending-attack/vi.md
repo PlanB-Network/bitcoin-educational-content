@@ -1,6 +1,7 @@
 ---
-term: DOUBLE SPENDING (ATTACK)
+term: Chi tiêu gấp đôi
 
+definition: Cuộc tấn công cố gắng sử dụng cùng một lượng bitcoin nhiều lần để lừa đảo các bên đối tác.
 ---
 An attack where a malicious user attempts to use the same UTXO (*Unspent Transaction Output*) more than once to enrich themselves at the expense of the parties involved in the transactions. In principle, once a transaction is confirmed in a block and added to the blockchain, the use of those bitcoins is permanently recorded, preventing any further spending of the same bitcoins. Preventing double spending is even the primary utility of the blockchain.
 

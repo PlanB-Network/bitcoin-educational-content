@@ -1,12 +1,13 @@
 ---
-term: CHAUMIAN COINJOIN
+term: Chaumian coinjoin
 
+definition: Coinjoin protokoll, mis kasutab osalejate privaatsuse tagamiseks Chaumi pimeallkirju.
 ---
 Coinjoin-protokoll, mis kasutab David Chaumi pimesi allkirju ja Tor'i osalejate ja koordinaatori serveri vaheliseks suhtluseks. Chaumi coinjoini eesmärk on tagada osalejatele, et koordinaator ei saa bitcoine varastada ega sisendeid ja väljundeid omavahel siduda.
 
 Selleks esitavad kasutajad koordinaatorile oma sisendi ja krüptograafiliselt pimendatud vastuvõtuaadressi. See aadress on pärast pimestamise lõpetamist mõeldud bitcoinide vastuvõtmiseks coinjoin'i väljundina. Koordinaator allkirjastab need märgid ja tagastab need kasutajatele. Seejärel ühenduvad kasutajad uuesti anonüümselt koordinaatori serveriga uue Tori identiteediga ja avaldavad oma väljundaadressid selgeks tekstiks tehingu konstrueerimiseks. Koordinaator saab kontrollida, et kõik need vastuvõtuaadressid pärinevad legitiimsetelt kasutajatelt, sest ta on eelnevalt nende pimendatud versiooni oma privaatvõtmega allkirjastanud. Siiski ei saa ta seostada konkreetset väljundaadressi konkreetse sisendkasutajaga. Seetõttu puudub seos sisendite ja väljundite vahel isegi koordinaatori seisukohast. Kui koordinaator on tehingu koostanud, saadab ta selle tagasi osalejatele, kes allkirjastavad selle, et avada oma sisend, olles eelnevalt kontrollinud, et nende väljund tõepoolest kuulub sellesse tehingusse. Osalejad saadavad allkirja koordinaatorile. Kui kõik allkirjad on kogutud, saab koordinaator edastada coinjoin-tehingu Bitcoini võrgus.
 
-![](../../dictionnaire/assets/38.webp)
+
 
 See meetod tagab, et koordinaator ei saa kogu coinjoin-protsessi jooksul kahjustada osalejate anonüümsust ega varastada bitcoine.
 

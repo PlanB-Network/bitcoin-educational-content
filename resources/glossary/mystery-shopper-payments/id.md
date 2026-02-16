@@ -1,5 +1,6 @@
 ---
-term: MYSTERY SHOPPER PAYMENT
+term: Mystery shopper payments
+definition: Serangan di mana pembayaran sah yang kecil memungkinkan pelacakan UTXO dan aktivitas target.
 ---
 
 Serangan di mana penyerang mengirimkan pembayaran dalam jumlah kecil dan sah dalam bitcoin kepada targetnya untuk mendapatkan informasi dan mencoba untuk membocorkan kerahasiaannya. Teknik ini sering digunakan untuk menyerang pedagang. Mari kita ambil contoh Alice, yang memiliki toko roti yang menerima pembayaran Bitcoin. Eve, si penyerang, dapat membeli sebuah _croissant_ untuk mendapatkan alamat milik Alice. Eve kemudian dapat melacak pergerakan UTXO ini dalam upaya untuk menyimpulkan informasi lebih lanjut tentang Alice menggunakan heuristik penelusuran.

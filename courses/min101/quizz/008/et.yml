@@ -1,0 +1,9 @@
+question: Millise elemendi põhjal arvutatakse Bitcoini töö tõendus?
+answer: Ploki päis
+wrong_answers:
+  - Ploki kõrgus
+  - Võrgu mempool
+  - Ploki esimesed 21 tehingut
+explanation: |
+  Kaevandamine seisneb 80-baidise ploki päise korduvas räsimises, mis seob ploki sisu.
+reviewed: false

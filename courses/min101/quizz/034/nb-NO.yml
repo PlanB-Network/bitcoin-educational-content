@@ -1,0 +1,9 @@
+question: Hva endrer halveringen i Bitcoin?
+answer: Blokksubsidien
+wrong_answers:
+  - Transaksjonsgebyrer
+  - Blokkstørrelse
+  - Vanskelighetsgradsmål
+explanation: |
+  Halveringen halverer den maksimale subsidien som skapes per blokk, uten å påvirke gebyrene.
+reviewed: false

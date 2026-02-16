@@ -1,5 +1,6 @@
 ---
-term: DNS SEEDS
+term: Dns seeds
+definition: DNS serveri koji pružaju IP adrese aktivnih čvorova novim čvorovima koji se pridružuju Bitcoin mreži.
 ---
 
 Početne tačke povezivanja za nove Bitcoin čvorove koji se pridružuju mreži. Ovi seed-ovi, koji su zapravo specifični DNS serveri, imaju svoj Address trajno ugrađen u Bitcoin Core kod. Kada novi čvor započne, kontaktira ove servere kako bi dobio nasumičnu listu IP adresa verovatno aktivnih Bitcoin čvorova. Novi čvor tada može uspostaviti veze sa čvorovima na ovoj listi kako bi dobio informacije potrebne za izvršavanje početnog preuzimanja blokova (IBD) i sinhronizaciju sa lancem koji ima najviše akumuliranog rada. Od 2024. godine, ovde je lista Bitcoin Core DNS seed-ova i pojedinaca odgovornih za njihovo održavanje (https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp):

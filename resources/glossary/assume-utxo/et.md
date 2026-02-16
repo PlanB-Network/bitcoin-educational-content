@@ -1,11 +1,15 @@
 ---
-term: ASSUME UTXO
+term: Assume utxo
 
+definition: Bitcoin Core'i parameeter, mis lubab uue sõlme kiiresti sünkroniseerida, kasutades UTXO komplekti hetktõmmist, mida eeldatakse kehtivaks, enne ajaloo kontrollimist taustal.
 ---
-Juhtiva Bitcoin Core'i kliendi konfiguratsiooniparameeter, mis võimaldab just initsialiseeritud (kuid IBD-d veel mitte läbinud) sõlme tehingu ja UTXO komplekti kontrollimist edasi lükata kuni konkreetse hetkefoto tegemiseni. Kontseptsioon tugineb Core'i poolt esitatud ja eeldatavalt täpse UTXO-komplekti (nimekiri kõigist antud hetkel olemasolevatest UTXO-dest) kasutamisele, mis võimaldab sõlme väga kiiresti sünkroniseerida ahelaga, kus on kõige rohkem tööd kogunenud. Kuna sõlme puhul jäetakse pikk IBD samm vahele, muutub see kasutaja jaoks väga kiiresti töökõlblikuks. Oletame, et UTXO jagab sünkroniseerimise (IBD) kaheks osaks:
+Konfiguratsiooniparameeter enamus-kliendis Bitcoin Core, mis võimaldab äsja initsialiseeritud sõlmel (kuid mis pole veel IBD-d teinud) lükata edasi tehingute ja UTXO komplekti kontrollimise enne antud snapshot'i. Kontseptsioon põhineb Core'i poolt pakutava ja täpseks peetava UTXO komplekti (kõigi antud ajahetkel eksisteerivate UTXO-de loend) kasutamisel, mis võimaldab sõlmel sünkroonida väga kiiresti ahelaga, millel on kõige rohkem kogunenud tööd. Kuna sõlm jätab pika IBD etapi vahele, on see oma kasutaja jaoks väga kiiresti töökõlblik.
+
+Assume UTXO jagab sünkroonimise (IBD) kaheks osaks: Esiteks teostab sõlm Header First Sync (ainult päiste kontrollimine) ja peab Core'i poolt pakutavat UTXO komplekti kehtivaks; Seejärel, kui see on töökorras, kontrollib sõlm taustal täielikku plokkide ajalugu, värskendades uut UTXO komplekti, mida ta on ise kontrollinud. Kui viimane ei vasta Core'i pakutavale UTXO komplektile, annab see veateate.
+
+Assume UTXO võimaldab seega kiirendada uue Bitcoin-sõlme ettevalmistamist, lükates tehingute ja UTXO komplekti kontrollimise protsessi edasi tänu Core'is pakutavale uuendatud snapshot'ile.
 
 
-- Kõigepealt teostab sõlmpunkt Header First Sync (ainult päiste kontrollimine) ja loeb Core'i esitatud UTXO-komplekti kehtivaks;
-- Seejärel, kui see on töökorras, kontrollib sõlmpunkt taustal kogu plokkide ajalugu, ajakohastades uut UTXO-komplekti, mida ta ise on kontrollinud. Kui see uus UTXO-komplekt ei vasta Core'i esitatud komplektile, annab ta veateate.
 
-Seega, Oletame, et UTXO kiirendab uue Bitcoini sõlme ettevalmistamist, lükates edasi tehingu kontrollimise protsessi ja UTXO komplekti läbi Core'is esitatud ajakohastatud hetkeseisu.
+
+

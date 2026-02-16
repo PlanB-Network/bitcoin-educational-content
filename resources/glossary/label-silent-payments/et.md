@@ -1,6 +1,7 @@
 ---
-term: (VAIKIVAD MAKSED)
+term: Label (silent payments)
 
+definition: Täisarvud, mida kasutatakse tuletatud staatiliste aadresside loomiseks, et eraldada kasutusviise Silent Payments süsteemis.
 ---
 Silent Payments'i protokollis on märgised täisarvud, mida kasutatakse esialgse staatilise aadressi muutmiseks, et luua palju teisi staatilisi aadresse. Nende märgiste kasutamine võimaldab eraldada vaikivate maksete kaudu saadetavad maksed, kasutades iga kasutuse jaoks erinevaid staatilisi aadresse, ilma et see suurendaks liigselt nende maksete tuvastamise (skaneerimise) koormust. Bob kasutab staatilist aadressi $B$, mis koosneb kahest avalikust võtmest: $B_{\text{scan}}$ skaneerimiseks ja $B_{\text{spend}}$ kulutamiseks. Kulutuste avalikule võtmele $B_{\text{scan}}$ lisatakse $b_{\text{scan}}$ ja täisarv $m$, mis on skalaarselt korrutatud generaatorpunktiga $G$, et luua mingi uus kulutuste avalik võti $B_m$:
 

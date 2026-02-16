@@ -1,0 +1,9 @@
+question: O que corresponde ao subsídio de bloco?
+answer: Criação monetária
+wrong_answers:
+  - Taxas das transações
+  - Depósito dos utilizadores
+  - Penalidade de spam
+explanation: |
+  O subsídio é a parte da recompensa que cria novos bitcoins ex nihilo de acordo com as regras do protocolo.
+reviewed: false

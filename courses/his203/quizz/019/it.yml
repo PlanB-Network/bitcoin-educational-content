@@ -1,0 +1,10 @@
+question: A che livello è sceso il prezzo del bitcoin alla fine del mercato ribassista che ha seguito la grande bolla del 2011?
+answer: 2 $
+wrong_answers:
+  - 0,01 $
+  - 6 $
+  - 17,5 $
+explanation: |
+ Dopo aver raggiunto un picco di 32 dollari nel giugno 2011, il prezzo del bitcoin è sceso drasticamente a 6 dollari all'inizio di agosto, poi ha continuato a scendere, raggiungendo infine circa 2 dollari nel novembre 2011
+ Novembre 2011. Ciò ha rappresentato un calo di oltre il 90% rispetto al picco di giugno.
+reviewed: true

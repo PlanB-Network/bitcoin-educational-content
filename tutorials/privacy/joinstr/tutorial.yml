@@ -22,11 +22,12 @@ license: CC-BY-SA-V4
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2025-10-25
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
       - Pivii
-    reward: 1.29
+      - CarlAdm12
+    reward: 0
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -66,7 +67,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.28
+    reward: 6.29
   - language: id
     last_contribution_date: '2025-12-29'
     urgency: 1
@@ -82,12 +83,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.28
+    reward: 6.29
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.04
+    reward: 5.05
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -112,7 +113,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.28
+    reward: 6.29
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -122,7 +123,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.04
+    reward: 5.05
   - language: sv
     last_contribution_date:
     urgency: 1
@@ -137,29 +138,30 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.04
+    reward: 5.05
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.28
+    reward: 6.29
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.04
+    reward: 5.05
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.04
+    reward: 5.05
   - language: bg
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 3.81
+      - dnabg
+    reward: 1.91
   - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.04
+    reward: 5.05

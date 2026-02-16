@@ -1,0 +1,9 @@
+question: プロトコルによれば、最後の半減期（halving）は何回目ですか？
+answer: 第33回
+wrong_answers:
+  - 第21回
+  - 第38回
+  - 第64回
+explanation: |
+  ブロック高6,930,000での第33回半減期により、補助金が最小単位を下回るため、ブロック補助金は終了します。
+reviewed: false

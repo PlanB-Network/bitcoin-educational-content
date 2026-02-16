@@ -1,0 +1,10 @@
+question: Welche libertäre Radiosendung in den USA war eine der ersten, die die Existenz des Seidenstraßen-Marktplatzes erwähnte?
+answer: Freies Gespräch Live
+wrong_answers:
+  - Die Bitcoin-Show
+  - All Things Considered
+  - Infowars Nächtliche Nachrichten
+explanation: |
+ Free Talk Live wurde von Ian Freeman und Mark Edge moderiert, die Bitcoin im Dezember 2010 entdeckten und im Februar 2011 Gavin Andresen trafen. Am 16. März 2011 war die Hälfte
+ der Sendung dem Einsatz von Bitcoin auf der Silk Road gewidmet, was Roger Ver davon überzeugte, sich mehr mit Bitcoin zu beschäftigen.
+reviewed: true

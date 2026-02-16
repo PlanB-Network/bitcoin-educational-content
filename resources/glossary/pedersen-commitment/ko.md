@@ -1,5 +1,6 @@
 ---
-term: Pedersen commitment
+term: 페더슨 커밋먼트
+definition: 값을 공개하지 않고 합계를 검증할 수 있는 준동형 암호화 약정.
 ---
 
 Pedersen commitment은 더하기 연산과 동형성이라는 특성을 가진 암호화 Commitment의 한 유형입니다. 즉, 개별 값을 공개하지 않고도 두 커미트먼트의 합계를 검증할 수 있습니다.

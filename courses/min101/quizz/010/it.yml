@@ -1,0 +1,9 @@
+question: Qual è la dimensione del nonce nell'intestazione del blocco?
+answer: 32 bit
+wrong_answers:
+  - 128 bit
+  - 64 bit
+  - 256 bit
+explanation: |
+  Il nonce è un campo di 32 bit nell'intestazione.
+reviewed: false

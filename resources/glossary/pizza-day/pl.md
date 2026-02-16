@@ -1,5 +1,6 @@
 ---
-term: DZIEŃ PIZZY
+term: Dzień pizzy
+definition: Obchody 22 maja pierwszej transakcji Bitcoin za pizzę w 2010 roku.
 ---
 
 Wydarzenie obchodzone co roku 22 maja przez społeczność Bitcoin w celu upamiętnienia pierwszej transakcji bitcoinami za fizyczne dobro. W 2010 roku Laszlo Hanyecz, deweloper Bitcoin, [zaproponował na forum BitcoinTalk](https://bitcointalk.org/index.php?topic=137.msg1141#msg1141) zakup dwóch dużych pizz za 10 000 BTC, co wówczas stanowiło równowartość około 40 dolarów. 22 maja potwierdził, że oferta została przyjęta przez 19-letniego studenta z Kalifornii, Jeremy'ego Sturdivanta, znanego pod pseudonimem Jercos. Zamówił on i zlecił dostarczenie pizzy z Papa John's do Laszlo na Florydzie. Ten dzień jest ważnym momentem dla Bitcoin, ponieważ pokazuje jego potencjał jako waluty Exchange. Każdego roku społeczność świętuje to wydarzenie, konsumując pizze opłacone bitcoinami.

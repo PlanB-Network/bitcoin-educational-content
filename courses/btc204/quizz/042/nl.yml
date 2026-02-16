@@ -1,9 +1,9 @@
-question: Welk van deze risico's wordt niet geassocieerd met P2P geldwisselkantoren?
+question: Welk van deze risico's wordt niet geassocieerd met P2P-platformen?
 answer: Risico op lekken van gegevens.
 wrong_answers:
   - Risico voor persoonlijke veiligheid.
   - Risico op diefstal.
   - Juridisch risico.
 explanation: |
-  Geldwisselkantoren P2P brengen veel risico's met zich mee, maar ze vereisen geen KYC. Daarom is er geen risico op het lekken van gegevens.
+  Cash P2P-platformen brengen veel risico's met zich mee, maar ze vereisen geen KYC. Daarom is er geen risico op het lekken van gegevens.
 reviewed: false

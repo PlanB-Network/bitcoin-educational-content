@@ -1,6 +1,7 @@
 ---
-term: P2SH (支付到脚本哈希)
+term: P2SH
 
+definition: 通过 redeemScript 的哈希实现任意支出条件的脚本。
 ---
 P2SH 是 *Pay to Script Hash* 的缩写。它是一种标准脚本模式，用于确定UTXO 的消费条件。P2PK 和 P2PKH 脚本的消费条件是预定义的，而 P2SH 不同，它允许在交易脚本中集成任意消费条件和附加功能。
 

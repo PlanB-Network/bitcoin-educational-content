@@ -1,0 +1,9 @@
+question: 비트코인에서 후보 블록(candidate block)이란 무엇입니까?
+answer: 채굴자가 준비했지만 아직 유효하지 않은 블록
+wrong_answers:
+  - 네트워크에서 검증되었으나 아직 공유되지 않은 블록
+  - 지갑에서 생성되었으나 아직 유효하지 않은 블록
+  - mempool에 저장된 블록
+explanation: |
+  각 채굴자는 유효한 작업 증명을 찾으려 시도하기 전에 로컬에서 후보 블록을 조립합니다.
+reviewed: false

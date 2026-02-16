@@ -1,6 +1,7 @@
 ---
-term: ANALISIS RANTAI
+term: Analisis rantai
 
+definition: Praktik pelacakan aliran bitcoin di blockchain menggunakan heuristik dan pola.
 ---
 Praktik yang mencakup semua metode yang digunakan untuk melacak bitcoin pada _blockchain_. Umumnya, analisis rantai bergantung pada pengamatan karakteristik dalam sampel transaksi sebelumnya, kemudian melibatkan identifikasi karakteristik yang sama dalam transaksi yang ingin dianalisis, dan menyimpulkan interpretasi yang masuk akal. Metode pemecahan masalah ini, berdasarkan pendekatan praktis untuk menemukan solusi yang cukup baik, dikenal sebagai heuristik. Untuk menyederhanakan, analisis rantai dilakukan dalam dua langkah utama:
 

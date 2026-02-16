@@ -1,0 +1,10 @@
+question: ¿Qué plataforma de intercambio sufrió el robo de 24.000 bitcoins a principios de septiembre de 2012?
+answer: Bitfloor
+wrong_answers:
+  - Mt. Gox
+  - Tradehill
+  - BTC-e
+explanation: |
+ En la noche del 3 al 4 de septiembre de 2012, un hacker accedió a una copia de seguridad sin cifrar de las claves wallet de Bitfloor, y consiguió retirar algo más de 24.000 BTC, o
+ unos 250.000 dólares de la época.
+reviewed: true

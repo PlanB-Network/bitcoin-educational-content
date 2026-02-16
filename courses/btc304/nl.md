@@ -1820,7 +1820,7 @@ Naast de sterke educatieve waarde, maakt deze aanpak het mogelijk om open-source
 Hieronder staat de progressie van de Franse meetups voor 2023-2024. Voor elk thema zijn een open-source presentatie en een video beschikbaar, die je op ideeën kunnen brengen voor onderwerpen die je voor je eigen evenementen zou kunnen behandelen.
 
 
-Extra bewerkbaar materiaal is ook te vinden in de [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)!
+Andere bronnen zijn ook beschikbaar in het gedeelte ["Educator Content"](https://planb.academy/educator-content) van Plan ₿ Academy, een samenwerkingsruimte waar Bitcoin-docenten van over de hele wereld hun educatieve materialen (presentaties, flyers, gidsen, posters...) in kant-en-klare of bewerkbare formaten delen en beschikbaar stellen. Het doel: inspanningen bundelen om niet elke keer opnieuw te beginnen!
 
 
 

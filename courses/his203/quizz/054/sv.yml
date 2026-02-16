@@ -1,0 +1,10 @@
+question: Vilken betalningsstandard registrerades hos IANA i september 2012 av mjukvaruarkitekten Dave Thaler?
+answer: BIP 21 URI-schema
+wrong_answers:
+  - BIP 32 hierarkiska deterministiska portföljer
+  - BIP 70 betalningsprotokoll
+  - BIP 47 återanvändbara betalningskoder
+explanation: |
+ Denna standard gjorde det möjligt att formalisera betalningsbegäran, som tog formen av en teckensträng eller en QR-kod. Efter flera förslag beskrevs ett slutgiltigt URI
+ system beskrivet i januari 2012 inom BIP 21 av Matt Corallo. Det registrerades hos IANA av Dave Thaler i september.
+reviewed: true

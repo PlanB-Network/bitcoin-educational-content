@@ -1,0 +1,9 @@
+question: 在比特幣上，最常用於解鎖 UTXO 的證明是什麼？
+answer: 數字簽名
+wrong_answers:
+  - 帳戶密碼
+  - 當前區塊的哈希值
+  - SSL 證書
+explanation: |
+  花費條件通常需要使用相應的私鑰生成的簽名。
+reviewed: false

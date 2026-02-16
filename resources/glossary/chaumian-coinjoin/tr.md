@@ -1,5 +1,6 @@
 ---
-term: CHAUMIAN CoinJoin
+term: Chaumian coinjoin
+definition: Katılımcı gizliliğini sağlamak için Chaum kör imzalarını kullanan bir coinjoin protokolü.
 ---
 
 Katılımcılar ve koordinatörün sunucusu arasındaki iletişim için David Chaum'un kör imzalarını ve Tor'u kullanan bir CoinJoin protokolü. Chaumian CoinJoin'in amacı katılımcılara koordinatörün bitcoinleri çalamayacağını ya da girdi ve çıktıları birbirine bağlayamayacağını garanti etmektir.
@@ -8,7 +9,7 @@ Katılımcılar ve koordinatörün sunucusu arasındaki iletişim için David Ch
 Bunu başarmak için, kullanıcılar girdilerini ve kriptografik olarak blinded alım Address'ü koordinatöre gönderir. Bu Address, bir kez unblinded olduğunda, bitcoinleri CoinJoin'ten bir çıktı olarak almayı amaçlamaktadır. Koordinatör bu tokenları imzalar ve kullanıcılara iade eder. Kullanıcılar daha sonra yeni bir Tor kimliği ile koordinatörün sunucusuna anonim olarak yeniden bağlanır ve işlem yapımı için çıktı adreslerini düz metin olarak açıklar. Koordinatör, daha önce blinded sürümlerini kendi özel anahtarıyla imzaladığı için tüm bu alım adreslerinin meşru kullanıcılardan geldiğini doğrulayabilir. Ancak, belirli bir Address çıktısını belirli bir girdi kullanıcısıyla ilişkilendiremez. Bu nedenle, koordinatörün bakış açısından bile girdiler ve çıktılar arasında bir bağlantı yoktur. İşlem koordinatör tarafından oluşturulduktan sonra, çıktılarının gerçekten de bu işlemde olduğunu doğruladıktan sonra, girdilerinin kilidini açmak için imzalayan katılımcılara geri gönderir. Katılımcılar imzayı koordinatöre gönderir. Tüm imzalar toplandıktan sonra koordinatör CoinJoin işlemini Bitcoin ağında yayınlayabilir.
 
 
-![](../../dictionnaire/assets/38.webp)
+
 
 
 Bu yöntem, koordinatörün tüm CoinJoin süreci boyunca ne katılımcıların anonimliğini tehlikeye atabilmesini ne de bitcoinleri çalabilmesini sağlar.

@@ -1,5 +1,6 @@
 ---
 term: SECP256R1
+definition: Elliptisk kurva av NIST-standard, som inte används av Bitcoin som föredrar secp256k1.
 ---
 
 Namn på en elliptisk kurva som definieras av NIST-standarden för kryptografi med offentlig nyckel. Den använder ett primfält på 256 bitar och en elliptisk kurveekvation $y^2 = x^3 + ax + b$ med konstanterna:

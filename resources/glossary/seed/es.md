@@ -1,5 +1,6 @@
 ---
-term: GRANO
+term: Semilla
+definition: Información de 512 bits que permite generar todas las claves de una billetera HD Bitcoin.
 ---
 
 En el contexto específico de una cartera determinista jerárquica Bitcoin, una seed es una pieza de información de 512 bits derivada de un evento aleatorio. Se utiliza para generate de forma determinista y jerárquica un conjunto de claves privadas, y sus correspondientes claves públicas, para una cartera Bitcoin. La seed se confunde a menudo con la propia frase de recuperación. Pero no es lo mismo. La seed se obtiene aplicando la función `PBKDF2` a la frase Mnemonic y a cualquier passphrase.

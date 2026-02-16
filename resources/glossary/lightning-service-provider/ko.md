@@ -1,6 +1,7 @@
 ---
-term: LIGHTNING SERVICE PROVIDER
+term: Lightning service provider
 
+definition: Lightning Network 사용자에게 유동성 서비스를 제공하는 기업입니다.
 ---
 
 사용자에게 유동성 서비스를 제공하는 것이 비즈니스인 Lightning에서 운영되는 회사.

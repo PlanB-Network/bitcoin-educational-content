@@ -1,5 +1,6 @@
 ---
 term: BIP0152
+definition: Kısa tanımlayıcılar kullanarak blok iletimi için bant genişliğini azaltan Compact Block Relay protokolü.
 ---
 
 Bitcoin ağı üzerinden blok iletimi için gereken bant genişliğini azaltmayı amaçlayan "Kompakt Blok Aktarımı" önerisi. Kasım 2016'da Bitcoin core'in 0.13.0 sürümünde kabul edilen bu protokol, düğümlerin Mempool'lerinde son bir bloğun işlemlerinin büyük bir kısmına zaten sahip olduğu varsayımına dayanarak blok bilgilerinin kompakt bir şekilde iletilmesine olanak tanır. BIP152, her bir işlemi tam olarak iletmek yerine, ki bu mükerrerliğe neden olur, eşler tarafından zaten bilinen işlemler için yalnızca kısa tanımlayıcılar göndermeyi ve seçilen birkaç işlemi (özellikle Coinbase Transaction ve düğümün bilmemesi muhtemel olanlar) göndermeyi önerir. Düğüm daha sonra eşlerinden eksik işlemleri talep edebilir. Kompakt Blok Aktarımı böylece blok yayılımı sırasında değiş tokuş edilen veri miktarını azaltır, bu da bant genişliği artışlarını azaltır ve ağın genel verimliliğini artırır.

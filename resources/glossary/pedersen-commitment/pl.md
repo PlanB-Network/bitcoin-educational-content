@@ -1,5 +1,6 @@
 ---
-term: Pedersen commitment
+term: Zobowiązanie Pedersena
+definition: Homomorficzne zobowiązanie kryptograficzne umożliwiające weryfikację sum bez ujawniania wartości.
 ---
 
 Pedersen commitment jest rodzajem kryptograficznego Commitment z właściwością bycia homomorficznym do operacji dodawania. Oznacza to, że możliwe jest zweryfikowanie sumy dwóch zobowiązań bez ujawniania poszczególnych wartości.

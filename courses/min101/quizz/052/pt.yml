@@ -1,0 +1,9 @@
+question: De forma simples, o que é um bloco na Bitcoin?
+answer: Um pacote de transações
+wrong_answers:
+  - Um pagamento
+  - Um servidor central
+  - Uma chave privada
+explanation: |
+  Se simplificarmos, um bloco é apenas um conjunto de transações agrupadas.
+reviewed: false

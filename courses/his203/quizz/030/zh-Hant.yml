@@ -1,0 +1,10 @@
+question: 誰在 2010 年 9 月創造了第一個 Bitcoin 混合服務，稱為 BitLaundry？
+answer: Peter Vessenes
+wrong_answers:
+  - 羅曼-斯特林諾夫
+  - Benjamin Reeves
+  - Gregory Maxwell
+explanation: |
+ Peter Venesses 是一位擁有密碼學學位的美國企業家，他在 slashdot 時發現了 Bitcoin。他開發這項服務是為了
+ 增加追蹤資金的難度。2011 年 5 月，他察覺到法律上的複雜性，於是將服務賣給激進份子 Mike Gogulski。
+reviewed: true

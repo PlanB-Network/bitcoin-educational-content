@@ -1537,7 +1537,7 @@ Obwohl in diesem Beispiel Transaktion B eine höhere Gesamtgebühr bietet, werde
 
 ```text
 TXA : 1994 / 141 = 14 sats/vB
-TXB : 2640 / 220 = 12 sats / vB
+TXB : 2640 / 220 = 12 sats/vB
 ```
 
 Das bedeutet, dass für jede Gewichtseinheit das Geschäft A mehr Kosten verursacht als das Geschäft B, auch wenn das Geschäft B absolut gesehen mehr Kosten verursacht.
@@ -1732,7 +1732,7 @@ Coinjoin bietet jedoch auch die Möglichkeit, die Vertraulichkeit angesichts ein
 
 ![BTC204](assets/de/118.webp)
 
-Im ersten Beispiel haben wir gesehen, wie der Coinjoin die Privatsphäre eines Raums in Bezug auf seine Vergangenheit schützen kann, und im zweiten Beispiel, wie er auch die Geschichte eines Raums in Bezug auf seine Zukunft sichern kann. Deshalb habe ich erwähnt, dass der Coinjoin als einmaliges Ereignis betrachtet werden sollte, das einen Teil der Geschichte in beide Richtungen segmentiert:
+Im ersten Beispiel haben wir gesehen, wie CoinJoin die Privatsphäre einer Münze in Bezug auf ihre Vergangenheit schützen kann, und im zweiten Beispiel, wie er auch die Historie einer Münze in Bezug auf ihre Zukunft absichern kann. Deshalb habe ich erwähnt, dass CoinJoin als ein punktuelles Ereignis wahrgenommen werden sollte, das die Historie einer Münze in beide Richtungen segmentiert:
 
 ![BTC204](assets/de/119.webp)
 
@@ -1926,7 +1926,7 @@ Auch die Methoden der Wechselgeldverwaltung unterschieden die beiden Implementie
 
 ![BTC204](assets/de/139.webp)
 
-Mit Wabisabi hat Wasabi Version 2.0 seinen Ansatz für Coinjoin-Transaktionen an den von Whirlpool angepasst. Obwohl die Coinjoin-Transaktionen nach wie vor sehr groß sind, ist es nun möglich, mehrere aufeinanderfolgende Zyklen nach dem Vorbild von Whirlpool zu verketten. Besonderes Augenmerk wurde auch auf die Verwaltung des Wechselgeldes gelegt: Im Gegensatz zu Wasabi 1.0, bei dem das Wechselgeld direkt an die Eingaben des Benutzers gekoppelt war, versucht Wabisabi, das Wechselgeld in mehrere kleine Beträge aufzuteilen, die für alle Teilnehmer in gleicher Höhe gelten.
+Mit Wabisabi hat Version 2.0 ihren CoinJoin-Ansatz angepasst, um sich dem von Whirlpool anzunähern. Obwohl CoinJoin-Transaktionen weiterhin sehr groß sind, ist es nun möglich, mehrere aufeinanderfolgende Zyklen zu durchlaufen und damit dem Whirlpool-Modell zu folgen. Besonderes Augenmerk wurde zudem auf das Change-Management gelegt: Im Gegensatz zu Wasabi 1.0, bei dem das Wechselgeld direkt mit den Inputs der Nutzer verknüpft war, versucht Wabisabi, das Wechselgeld in mehrere kleinere Beträge zu unterteilen, die in gleichen Stückelungen auf alle Teilnehmer verteilt werden.
 
 Veranschaulichen wir dies anhand eines vereinfachten Beispiels mit nur 2 Benutzern: Alice möchte 115.000 Sats mischen und Bob 210.000 Sats. Ohne Berücksichtigung der Gebühren hätte eine Coinjoin-Transaktion mit Wasabi 1.0 drei Ausgaben von 100.000 Sats erzeugt, plus ein Wechselgeld von 15.000 Sats für Alice und ein Wechselgeld von 10.000 Sats für Bob. Die Tausch-Outputs wären nach wie vor mit den Inputs verknüpft:
 
@@ -2138,7 +2138,7 @@ Am Ende dieses ersten Mixes wird das **Premix**-Konto leer sein, während unsere
 
 ### Remixe
 
-Nach der ersten Mischung werden die UTXOs auf das **Postmix**-Konto übertragen. Dieses Konto sammelt bereits gemischte UTXOs und solche, die zum Remixen anstehen. Wenn der Whirlpool-Kunde aktiv ist, stehen die UTXOs auf dem **Postmix**-Konto automatisch für Remixe zur Verfügung und werden nach dem Zufallsprinzip für die Teilnahme an diesen neuen Zyklen ausgewählt.
+Nach dem initialen Mix werden die UTXOs auf das Konto **postmix** übertragen. Dieses Konto bündelt bereits gemixte UTXOs sowie solche, die auf ein Remixing warten. Wenn der Whirlpool-Client aktiv ist, stehen die im Konto **postmix** befindlichen UTXOs automatisch für Remixings zur Verfügung und werden zufällig ausgewählt, um an diesen neuen Zyklen teilzunehmen.
 
 Zur Erinnerung: Remixe sind dann zu 100 % kostenlos: Es fallen keine zusätzlichen Servicegebühren oder Mining-Gebühren an. Der Verbleib von UTXOs auf dem **Postmix**-Konto erhält daher ihren Wert und verbessert gleichzeitig ihre Anonsets. Deshalb ist es wichtig, diese Münzen an mehreren Coinjoin-Zyklen teilnehmen zu lassen. Es kostet Sie absolut nichts und erhöht ihre Anonymität.
 
@@ -2293,7 +2293,7 @@ Für einen einfachen Zahlungsvorgang mit 1 Input und 2 Outputs gibt es beispiels
 
 ![BTC204](assets/de/165.webp)
 
-Andererseits hat eine Whirlpool 5x5 Ecke $1\,496$ mögliche Kombinationen:
+Im Gegensatz dazu weist ein nach dem Whirlpool-5x5-Modell strukturierter CoinJoin $1\,496$ mögliche Kombinationen auf:
 
 ![BTC204](assets/de/166.webp)
 
@@ -2465,7 +2465,7 @@ Der Boltzmann-Score wird berechnet, indem die Anzahl der Interpretationen, in de
 $$
 \begin{align*}
 \text{Interpretations (Eingabe 0 > Ausgang 3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}
@@ -2839,7 +2839,7 @@ Diese naive Methode birgt jedoch ein hohes Risiko in Bezug auf das Vertrauen. Ni
 
 ![BTC204](assets/de/201.webp)
 
-Außerdem gibt es keine Garantie, dass Alice nicht Bobs privaten Schlüssel $B$ erhält und im Gegenzug niemals ihren privaten Schlüssel $A$ weitergibt. Dieser Austausch beruht daher auf übermäßigem Vertrauen zwischen den Parteien und ist nicht geeignet, eine sichere geheime Übertragung des Eigentums zu gewährleisten.
+Zudem gibt es keine Garantie dafür, dass Alice nach Erhalt von Bobs privatem Schlüssel $B$ im Gegenzug ihren privaten Schlüssel $A$ übermittelt. Dieser Austausch beruht daher auf einem massiven Vertrauen zwischen den Parteien und erweist sich als ineffizient, um eine geheime Eigentumsübertragung auf sichere Weise zu gewährleisten.
 
 ![BTC204](assets/de/202.webp)
 

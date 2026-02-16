@@ -1,6 +1,7 @@
 ---
-term: TULETAMISE TEE
+term: Tuletusrada
 
+definition: Indeksite jada, mis kirjeldab lapsevõtmete tuletusteed peavõtmest HD-rahakotis.
 ---
 Hierarhilise deterministliku (HD) rahakoti kontekstis viitab tuletamise tee indeksite jadale, mida kasutatakse peavõti alamvõtmete tuletamiseks. BIP32-s kirjeldatud tee määrab kindlaks puu struktuuri, mille abil tuletatakse allvõtmed. Tuletamise teed kujutatakse kaldkriipsudega eraldatud indeksite jadana ja see algab alati peavõti (tähistatud kui "m/"). Näiteks võib tüüpiline tee olla `m/84'/0'/0'/0'/0/0`. Iga tuletamistasand on seotud konkreetse sügavusega:
 
@@ -21,4 +22,3 @@ Näiteks, kui minu vastuvõtva aadressi tuletamise tee on `m / 86' / 0' / 0' / 0
 - "0" näitab, et tegemist on välise aadressiga;
 - "5" näitab, et see on selle konto kuues väline aadress.
 
-![](../../dictionnaire/assets/18.webp)

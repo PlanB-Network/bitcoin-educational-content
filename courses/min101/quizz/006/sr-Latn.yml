@@ -1,0 +1,9 @@
+question: Čemu služi Merkle koren u zaglavlju Bitcoin bloka?
+answer: Da obaveže sve transakcije u bloku
+wrong_answers:
+  - Izračunavanju dokaza o radu bloka
+  - Signaliziranju verzije bloka
+  - Poznavanju težine bloka
+explanation: |
+  Merkle koren sažima sve transakcije; ako se jedna promeni, koren se takođe menja.
+reviewed: false

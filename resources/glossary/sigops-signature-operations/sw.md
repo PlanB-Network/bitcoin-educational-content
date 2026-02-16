@@ -1,5 +1,6 @@
 ---
-term: SIGOPS (SHUGHULI ZA SAINI)
+term: Sigops (signature operations)
+definition: Shughuli za sahihi ya kidijitali zinazohitajika ili kuhalalisha miamala ya Bitcoin.
 ---
 
 Inarejelea shughuli za saini za dijiti zinazohitajika ili kuthibitisha miamala. Kila muamala wa Bitcoin unaweza kuwa na pembejeo nyingi, ambazo kila moja inaweza kuhitaji saini moja au zaidi kuchukuliwa kuwa halali. Uthibitishaji wa saini hizi unafanywa kwa kutumia opcodes maalum zinazoitwa "sigops". Hasa, hii inajumuisha `OP_CHECKSIG`, `OP_CHECKSIGVERIFY`, `OP_CHECKMULTISIG`, na `OP_CHECKMULTISIGVERIFY`. Shughuli hizi zinaweka mzigo fulani wa kazi kwenye nodi za mtandao ambazo lazima zihakikishe. Ili kuzuia mashambulizi ya DoS kwa njia ya mfumuko wa bei ya bandia ya idadi ya sigops, itifaki hiyo inaweka kikomo kwa idadi ya sigops kuruhusiwa kwa block, ili kuhakikisha kuwa mzigo wa uthibitisho unabaki kudhibitiwa kwa nodes. Kikomo hiki kwa sasa kimewekwa katika kiwango cha juu cha sigop 80,000 kwa kila block. Ili kuhesabu, nodi hufuata sheria hizi:

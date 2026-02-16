@@ -1,0 +1,11 @@
+question: Siapa yang secara tidak langsung bertanggung jawab atas peretasan Bitcoinica terakhir yang terjadi pada bulan Juli 2012?
+answer: Amir Taaki
+wrong_answers:
+  - Zhou Tong
+  - Chen Jianhai
+  - Mark Karpelès
+explanation: |
+ Dia merilis kode sumber lengkap platform tersebut pada tanggal 7 Juli, yang berisi kata sandi ke brankas Bitcoinica LastPass, yang pada gilirannya berisi kata sandi ke akun
+ Mt Gox miliknya. sebanyak 40.000 bitcoin dan 40.000 LR-USD ditarik. Amir Taaki mengakui tindakan ini, tetapi menyalahkan manajemen Bitcoinica,
+ yang berkonflik dengannya.
+reviewed: true

@@ -1,5 +1,6 @@
 ---
-term: 紐約協定 (NYA)
+term: 紐約協議 (NYA)
+definition: 2017年提議SegWit2x的會議，最終因缺乏共識而放棄。
 ---
 
 在 Consensus 2017 會議之後，於 2017 年舉行的一次非公開會議，聚集了來自 Bitcoin 生態系統的 50 多家公司。此次會議的目標是通過達成協議，結束長期以來關於擴大 Bitcoin 的爭論。這次會議從之前的 SegWit2Mb 提案中汲取靈感，提出了 SegWit2x 的提案。它計劃對 Bitcoin 協定進行兩項重大修改：

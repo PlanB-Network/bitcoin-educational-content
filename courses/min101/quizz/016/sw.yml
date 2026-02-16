@@ -1,0 +1,9 @@
+question: Nini maana ya akronimi RPOW?
+answer: Reusable Proofs of Work
+wrong_answers:
+  - Recursive Proofs of Work
+  - Random Proofs of Work
+  - Replayed Proofs of Work
+explanation: |
+  RPOW inamaanisha ushahidi wa kazi unaoweza kutumika tena na kubadilishana, uliopendekezwa na Hal Finney mnamo 2004.
+reviewed: false

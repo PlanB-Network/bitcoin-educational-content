@@ -1,0 +1,9 @@
+question: Dandelion විකාශන ප්‍රොටෝකෝලය විධිමත් කළ BIP කුමක්ද?
+answer: BIP156
+wrong_answers:
+  - BIP34
+  - BIP47
+  - BIP324
+explanation: |
+  Dandelion BIP156 හි විධිමත් කරන ලද අතර, අවසානයේදී Bitcoin Core සමඟ ඒකාබද්ධ නොකෙරුණි.
+reviewed: false

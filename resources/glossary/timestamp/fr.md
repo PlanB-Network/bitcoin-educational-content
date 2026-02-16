@@ -1,5 +1,6 @@
 ---
-term: HORODATAGE
+term: Horodatage
+definition: Mécanisme associant un repère temporel à un événement pour établir la chronologie des transactions et des blocs.
 ---
 
 L'horodatage, ou « timestamp » en anglais, est un mécanisme qui consiste à associer un repère temporel précis à un événement, une donnée ou un message. Dans le contexte généraliste des systèmes informatiques, l'horodatage sert à déterminer l'ordre chronologique des opérations et à vérifier l'intégrité des données en fonction du temps.

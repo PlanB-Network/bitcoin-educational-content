@@ -1,5 +1,6 @@
 ---
 term: BIP0021
+definition: Standaard die het formaat van Bitcoin URI's definieert (links beginnend met bitcoin) om betalingen via links of QR-codes te vergemakkelijken.
 ---
 
 Voorstel geschreven door Nils Schneider en Matt Corallo, gebaseerd op BIP20 geschreven door Luke Dashjr, dat op zijn beurt weer voortkwam uit een ander document geschreven door Nils Schneider. BIP21 definieert hoe ontvangstadressen gecodeerd moeten worden in URI's (*Uniform Resource Identifier*) om betalingen te vergemakkelijken. Bijvoorbeeld, een Bitcoin URI volgens BIP21 waarin ik onder het label "*Pandul*" zou vragen om mij 0,1 BTC te sturen, zou er als volgt uitzien:

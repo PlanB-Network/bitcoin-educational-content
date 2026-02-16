@@ -944,7 +944,7 @@ Gavin 还参与了软件开发，[实现](https://sourceforge.net/p/bitcoin/code
 在接下来的几个月中，技术、经济和挖矿的改进继续蓬勃发展，使 Slashdot 成为比特币作为社区运动的真正起点。然而，最重大的变化发生在软件和协议层面：确实存在需要修复的重大漏洞。下一章将聚焦于这些技术问题，这是比特币发展中的一个关键步骤。
 
 ## 最初的技术问题
-<chapterId>-22b0-429e-9874-029c9137c0aa</chapterId>
+<chapterId>30cc4fe4-22b0-429e-9874-029c9137c0aa</chapterId>
 
 :::video id=f3e98b49-c32e-451a-b7c1-224dc5b00cf5:::
 

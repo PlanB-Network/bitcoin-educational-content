@@ -1,9 +1,9 @@
-question: Quale caratteristica fondamentale distingue la definizione di Bitcoin scaling del libro dalle comuni definizioni alternative utilizzate nello spazio Bitcoin?
-answer: Richiede esplicitamente di mantenere la resistenza alla censura come vincolo, aumentando al contempo la capacità di utilizzo
+question: Quale caratteristica fondamentale distingue la definizione di scalabilità di Bitcoin del libro dalle comuni definizioni alternative utilizzate nello spazio Bitcoin?
+answer: Richiede esplicitamente di mantenere la resistenza alla censura come vincolo, aumentando al contempo la capacità d'uso
 wrong_answers:
   - Si concentra esclusivamente sull'aumento della velocità delle transazioni blockchain piuttosto che sul miglioramento dell'efficienza
   - Dà priorità allo sviluppo dell'architettura stratificata rispetto a qualsiasi modifica del protocollo blockchain di base
   - Si concentra sulla riduzione dei requisiti computazionali dei nodi piuttosto che sull'espansione della capacità della rete
 explanation: |
-  Il libro definisce lo scaling come "aumento della capacità d'uso di Bitcoin senza compromettere la sua resistenza alla censura", includendo esplicitamente il vincolo di resistenza alla censura. Ciò la distingue da altre definizioni che si concentrano esclusivamente sull'aumento della capacità di transazione, sui miglioramenti dell'efficienza o sui sistemi stratificati senza considerare la conservazione delle proprietà fondamentali di Bitcoin. Il requisito di resistenza alla censura garantisce che le soluzioni di scalabilità non compromettano la proposta di valore principale del Bitcoin, ovvero un sistema decentralizzato e privo di fiducia che non può essere controllato da una singola entità.
-reviewed: false
+  Il libro definisce la scalabilità come "aumento della capacità d'uso di Bitcoin senza compromettere la sua resistenza alla censura", includendo esplicitamente il vincolo della resistenza alla censura. Ciò la distingue da altre definizioni che si concentrano esclusivamente sull'aumento della capacità di transazione, sui miglioramenti dell'efficienza o sui sistemi stratificati senza considerare la conservazione delle proprietà fondamentali di Bitcoin. Il requisito di resistenza alla censura garantisce che le soluzioni di scalabilità non compromettano la proposta di valore principale di Bitcoin, ovvero un sistema decentralizzato e trustless che non può essere controllato da una singola entità.
+reviewed: true

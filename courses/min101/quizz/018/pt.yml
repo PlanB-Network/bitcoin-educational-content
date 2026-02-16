@@ -1,0 +1,9 @@
+question: Que problema o Hashcash procurava reduzir principalmente?
+answer: O spam por e-mail
+wrong_answers:
+  - O gasto duplo
+  - O phishing de DNS
+  - O roubo de chaves privadas
+explanation: |
+  O Hashcash impõe um custo computacional por mensagem para tornar o envio em massa de e-mails não lucrativo.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
 term: BIP0156
+definition: Dandelion, protokół poprawiający prywatność routingu transakcji poprzez ukrycie węzła źródłowego.
 ---
 
 Propozycja, znana jako Dandelion, ma na celu poprawę prywatności routingu transakcji w sieci Bitcoin w celu przeciwdziałania deanonimizacji. W standardowym działaniu Bitcoin transakcje są natychmiast transmitowane do wielu węzłów. Jeśli obserwator jest w stanie zobaczyć każdą transakcję przekazaną przez każdy węzeł w sieci, może założyć, że pierwszy węzeł, który wysyła transakcję, jest również węzłem źródłowym tej transakcji, a zatem pochodzi od operatora węzła. Zjawisko to może potencjalnie umożliwić obserwatorom powiązanie transakcji, zwykle anonimowych, z adresami IP.

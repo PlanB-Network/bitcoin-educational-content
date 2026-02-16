@@ -1,0 +1,9 @@
+question: Vấn đề thực tế nào mà một mining pool chủ yếu tìm cách giải quyết?
+answer: Sự biến động của thu nhập
+wrong_answers:
+  - Độ khó của mạng
+  - Kích thước khối
+  - Giá máy ASIC
+explanation: |
+  Bằng cách hợp nhất hashrate, một pool biến thu nhập rất thất thường thành các khoản thanh toán đều đặn hơn. Đó là sự giảm bớt biến động thu nhập cho thợ đào.
+reviewed: false

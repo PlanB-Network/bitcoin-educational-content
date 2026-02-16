@@ -1,0 +1,9 @@
+question: Jakie zjawisko sprawia, że opóźnienie między dwoma blokami jest zasadniczo zmienne?
+answer: Probabilistyczny charakter haszowania
+wrong_answers:
+  - Deterministyczny charakter haszowania
+  - Rekurencyjny charakter haszowania
+  - Okresowy charakter haszowania
+explanation: |
+  Każdy hash jest niezależną próbą, co sprawia, że czasy odkrycia są losowe nawet przy stałym hashrate.
+reviewed: false

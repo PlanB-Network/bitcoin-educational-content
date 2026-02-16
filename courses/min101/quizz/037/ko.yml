@@ -1,0 +1,9 @@
+question: 32비트 논스(nonce)가 소진되었을 때 검색 공간을 확장하는 메커니즘은 무엇입니까?
+answer: 엑스트라 논스(extra-nonce)
+wrong_answers:
+  - 슈퍼 논스
+  - 코인베이스 논스
+  - 더블 논스
+explanation: |
+  코인베이스의 scriptSig에서 엑스트라 논스를 수정하면 머클 루트가 변경되고, 따라서 헤더도 변경됩니다.
+reviewed: false

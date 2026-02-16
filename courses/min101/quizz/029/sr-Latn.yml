@@ -1,0 +1,9 @@
+question: Od čega se sastoji nagrada za blok?
+answer: Subvencija + naknade
+wrong_answers:
+  - Subvencija + težina
+  - Naknade + nonce
+  - Hashrate + naknade
+explanation: |
+  Nagrada sabira subvenciju bloka i sve naknade iz uključenih transakcija.
+reviewed: false

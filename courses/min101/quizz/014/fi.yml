@@ -1,0 +1,9 @@
+question: Mitä tiivistefunktiota käytetään Bitcoinin louhinnassa?
+answer: SHA256d
+wrong_answers:
+  - SHA1d
+  - RIPEMD160d
+  - SHA512d
+explanation: |
+  Bitcoin-louhinta käyttää kaksi kertaa sovellettua SHA256-funktiota, josta käytetään yleisesti merkintää SHA256d.
+reviewed: false

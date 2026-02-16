@@ -1,6 +1,7 @@
 ---
-term: DISTRIBUÍDO
+term: Distribuído
 
+definition: Rede em que o poder de decisão e o controlo são distribuídos equitativamente entre todos os participantes.
 ---
 Atributo de uma rede informática em que o poder de decisão e o controlo são distribuídos uniformemente por todos os participantes na rede. Esta distribuição garante a resiliência do sistema. É também designada por rede peer-to-peer. Ao contrário de uma rede descentralizada, em que o poder está fragmentado e disperso por várias entidades, mas em que algumas autoridades centrais continuam a ter mais poder do que os utilizadores, uma rede distribuída elimina a autoridade central, confiando a gestão e o controlo aos próprios utilizadores. A Bitcoin é um exemplo de um sistema distribuído. A Bitcoin não tem uma hierarquia ou autoridade central. A manutenção do consenso, a verificação das transacções e a emissão de novas unidades monetárias são realizadas pelos utilizadores. Esta estrutura distribuída assegura a resiliência do sistema e a sua resistência à censura, tornando muito difícil o seu controlo ou manipulação por uma única entidade.
 

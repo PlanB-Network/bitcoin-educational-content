@@ -1,5 +1,6 @@
 ---
-term: MSIMBO WA MALIPO UNAOWEZA KUTUMIA UPYA
+term: Code de paiment réutilisable
+definition: Kitambulisho tuli kutoka BIP47 kinachoruhusu utokaji wa anwani za kipekee bila kutumia tena anwani.
 ---
 
 Katika BIP47, msimbo wa malipo unaoweza kutumika tena ni kitambulishi tuli kilichotolewa kutoka kwa Bitcoin Wallet ambacho kinaruhusu shughuli ya arifa na kupata anwani za kipekee. Hii inaepuka utumiaji upya wa anwani, ambayo husababisha upotezaji wa faragha, bila kulazimika kupata na kusambaza anwani mpya, ambazo hazijatumika kwa kila malipo. Katika BIP47, misimbo ya malipo inayoweza kutumika tena imeundwa kama ifuatavyo:

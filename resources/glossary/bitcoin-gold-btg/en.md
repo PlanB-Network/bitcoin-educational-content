@@ -1,5 +1,6 @@
 ---
-term: BITCOIN GOLD (BTG)
+term: Bitcoin Gold (BTG)
+definition: Cryptocurrency resulting from a hard fork of Bitcoin in 2017, using an ASIC-resistant mining algorithm.
 ---
 
 Bitcoin Gold (BTG) is a cryptocurrency created from a hard fork of Bitcoin (BTC) on October 24, 2017, at block 491,407. 

@@ -1,5 +1,6 @@
 ---
-term: MIXER
+term: Mixer
+definition: Gecentraliseerde service die de bitcoins van verschillende gebruikers mixt om hun geschiedenis te verbreken.
 ---
 
 Gecentraliseerde dienst voor het breken van Bitcoin Coin geschiedenis door het mengen van fondsen van meerdere gebruikers. In tegenstelling tot CoinJoin, waar gebruikers de controle over hun fondsen behouden tijdens het mengproces, neemt een menger tijdelijk de bitcoins van gebruikers in bezit, mengt ze met die van andere gebruikers en stuurt de fondsen dan terug naar nieuwe adressen.

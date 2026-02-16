@@ -1,0 +1,9 @@
+question: İşlemler blockchain'e eklenmeden önce neyin içinde gruplandırılır?
+answer: Bir blokta
+wrong_answers:
+  - Bir UTXO'da
+  - Bir ASIC'te
+  - Bir scriptSig'de
+explanation: |
+  İşlem blockchain'e anında yazılmaz. Önce bir bloğa dahil edilir.
+reviewed: false

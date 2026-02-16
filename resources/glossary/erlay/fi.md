@@ -1,5 +1,6 @@
 ---
-term: ERLAY
+term: Erlay
+definition: Protokolla, joka parantaa siirtojen välityksen tehokkuutta kaistanleveyden kulutuksen vähentämiseksi.
 ---
 
 Ehdotettu verkkoprotokolla, jolla parannetaan Bitcoin-solmujen välisten vahvistamattomien tapahtumien välittämisen tehokkuutta.

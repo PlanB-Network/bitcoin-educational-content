@@ -1,0 +1,9 @@
+question: Wat moet sinds BIP-34 aan het begin van de scriptSig van de coinbase staan?
+answer: De blokhoogte
+wrong_answers:
+  - De hashrate van de miner
+  - De difficulty target
+  - De vingerafdruk van het blok
+explanation: |
+  BIP-34 vereist dat de blokhoogte in de scriptSig van de coinbase wordt opgenomen.
+reviewed: false

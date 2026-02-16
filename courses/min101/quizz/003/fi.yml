@@ -1,0 +1,9 @@
+question: Mitä todistetta käytetään Bitcoinissa useimmiten UTXO:n avaamiseen?
+answer: Digitaalista allekirjoitusta
+wrong_answers:
+  - Tilin salasanaa
+  - Nykyisen lohkon tiivistettä (hash)
+  - SSL-varmennetta
+explanation: |
+  Kulutusehto vaatii yleensä vastaavalla yksityisellä avaimella luodun allekirjoituksen.
+reviewed: false

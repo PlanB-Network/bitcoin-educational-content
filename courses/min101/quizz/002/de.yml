@@ -1,0 +1,9 @@
+question: Welche Aussage zum Mempool ist korrekt?
+answer: Jeder Node hat seinen eigenen Mempool
+wrong_answers:
+  - Es gibt einen einzigen Mempool
+  - Der Mempool ist eine Datei, die in jedem Block enthalten ist
+  - Der Mempool ist ein zentraler Server
+explanation: |
+  Der Mempool ist lokal für jeden Node, daher kann sein Inhalt von Node zu Node variieren, je nachdem, welche Regeln der jeweilige Node anwendet.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Kolik bitcoinů převedl Mark Karpelès, aby prokázal solventnost platformy Mt. Gox 23. června 2011?
+answer: 424 242 bitcoinů
+wrong_answers:
+  - 666 bitcoinů
+  - 1 337 bitcoinů
+  - 21 210 bitcoinů
+explanation: |
+ To byl zhruba počet bitcoinů, které společnost v té době vlastnila. Číslo 42 je odpovědí na "velkou otázku o životě, vesmíru a vesmíru"
+ všeho ostatního" v knize H2G2.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Milleks on vajalik Merkle juur Bitcoini ploki päises?
+answer: Kõigi plokis olevate tehingute sidumiseks
+wrong_answers:
+  - Ploki töö tõenduse arvutamiseks
+  - Ploki versioonist teavitamiseks
+  - Ploki raskusastme teadasaamiseks
+explanation: |
+  Merkle juur võtab kokku kõik tehingud; kui üks muutub, muutub ka juur.
+reviewed: false

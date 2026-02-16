@@ -1,5 +1,6 @@
 ---
-term: GNPA
+term: PRNG
+definition: Algoritmo che genera sequenze di numeri approssimativamente casuali a partire da un seed.
 ---
 
 Abbreviazione di "generatore di numeri pseudocasuali". I GNPA sono una classe di algoritmi utilizzati per generare sequenze generate di numeri approssimativamente casuali, partendo da uno stato iniziale chiamato seed (seed). In crittografia, i GNPA sono utilizzati per generate chiavi, vettori di inizializzazione e altri Elements che richiedono casualità. Un buon GNPA deve avere proprietà come l'uniformità dell'uscita, l'imprevedibilità e la resistenza agli attacchi predittivi. A differenza dei veri generatori di numeri casuali, i GNPA sono deterministici e riproducibili. Per quanto riguarda il Bitcoin, i GNPA possono essere utilizzati nei software di gestione del portafoglio o nei portafogli hardware, per generate la frase di recupero che sta alla base dei portafogli deterministici e gerarchici.

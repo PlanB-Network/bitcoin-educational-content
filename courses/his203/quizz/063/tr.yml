@@ -1,0 +1,10 @@
+question: Hangi Bitcoin ekosistem hizmeti 1 Mart 2012'de Linode barındırma hizmetinin hacklenmesinden etkilenmemiştir?
+answer: Charlie Shrem tarafından yönetilen BitInstant döviz hizmeti
+wrong_answers:
+  - Zhou Tong tarafından yönetilen Bitcoinica ticaret platformu
+  - BitcoinCZ Mining mining kooperatif, Slush tarafından yönetiliyor
+  - Gavin Andresen tarafından yönetilen Bitcoin musluk
+explanation: |
+ Bilgisayar korsanı şirketin müşteri hizmetleri portalına erişti ve hepsi Bitcoin ile ilişkisi olan sekiz hesabın kontrolünü ele geçirdi. 43,554 adet
+ gW-6ica'ya ait bitcoinler, Slush'ın kooperatif sıcak wallet'sinden 3.094 bitcoin çıkardı ve Gavin'in Bitcoin musluğunda bulunan 5 bitcoini ele geçirdi.
+reviewed: true

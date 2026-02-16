@@ -1,0 +1,10 @@
+question: 為什麼 Pay to Script Hash 升級需要 55% 的網路哈希功率才能啟動？
+answer: 因此它是「向後相容」的，不會造成連鎖分裂
+wrong_answers:
+  - 因為協定治理取決於礦工的投票（「一個處理器，一票」）。
+  - 為了不讓 mining 業務集中化，當時由幾個 mining 池子主導
+  - 因為專案負責人 Gavin Andresen 不想成為「仁慈的獨裁者」
+explanation: |
+ 這是共識規則的限制，也就是後來所謂的「軟 fork」。如果升級得到網絡中大多數計算能力的支持，就不會造成鏈分裂。
+ 多數的網路運算能力支持，就不會造成連鎖分裂。
+reviewed: true

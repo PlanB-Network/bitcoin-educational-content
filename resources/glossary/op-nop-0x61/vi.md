@@ -1,6 +1,7 @@
 ---
 term: OP_NOP (0X61)
 
+definition: Opcode không tạo ra tác dụng gì, được sử dụng làm điểm chèn cho các đợt soft fork trong tương lai.
 ---
 Produces no effect on the stack or the script's state. It performs no movement, checks, or modifications. It simply does nothing unless decided otherwise via a soft fork. Indeed, since their modification by Satoshi Nakamoto in 2010, the `OP_NOP` commands (`OP_NOP1` (`0XB0`) to `OP_NOP10` (`0XB9`)) are used to add new opcodes in the form of a soft fork.
 

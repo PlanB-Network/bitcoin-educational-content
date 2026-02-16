@@ -1,0 +1,11 @@
+question: Qual è stata l'obiezione principale che i libertari americani hanno sollevato contro il Bitcoin, citando il teorema di regressione di Mises?
+answer: Non aveva alcun valore intrinseco e non era supportato da nulla di concreto
+wrong_answers:
+  - Ha avuto un'inflazione monetaria, con un tasso di emissione del 40% annuo nel 2011
+  - Non è stato utilizzato come unità di conto, una qualità essenziale del denaro
+  - Ha creato una distribuzione della ricchezza profondamente diseguale
+explanation: |
+ Alcuni libertari americani, legati alla scuola austriaca, hanno rifiutato il Bitcoin perché contraddiceva (a loro avviso) il teorema di regressione di Ludwig von Mises,
+ che afferma che un bene deve avere un valore d'uso oggettivo non monetario prima di poter diventare una moneta. Questo è stato particolarmente vero per Peter Schiff, figlio di
+ irwin Schiff e convinto sostenitore del gold standard.
+reviewed: true

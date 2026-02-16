@@ -1,0 +1,24 @@
+id: d11602c7-af6c-4238-a8ce-b66dae1d8e15
+start_date: 2026-05-27
+end_date: 2026-05-28
+timezone: Europe/Vienna
+address_city_country: Vienna, Austria
+address_line_2:
+address_line_3:
+name: bitcoin++ Vienna 2026
+type: conference
+book_online: false
+book_in_person: false
+description: |
+  Developer-focused Bitcoin conference exploring the economic aspects of Bitcoin with expert educators and builders.
+language:
+  - en
+links:
+  website: https://btcplusplus.dev/conf/vienna
+  replay_url:
+  live_url:
+project_id: a717b30b-153e-475d-a83b-ed1b52c9571e
+tags:
+  - software
+  - finance
+  - guides

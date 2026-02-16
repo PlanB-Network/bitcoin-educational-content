@@ -1,0 +1,9 @@
+question: 矿工选择交易的经济标准是什么？
+answer: 费率（fee rate）
+wrong_answers:
+  - 手续费总额
+  - UTXO 的时长
+  - UTXO 的数量
+explanation: |
+  由于区块空间有限，矿工会优先处理每字节利润最高的交易。因此，费率是引导交易选择的关键因素。
+reviewed: false

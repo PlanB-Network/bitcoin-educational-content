@@ -1,0 +1,9 @@
+question: Jak se nazývá sdílený veřejný registr, do kterého se zapisuje historie plateb v bitcoinech?
+answer: Blockchain
+wrong_answers:
+  - Mempool
+  - Peněženka (wallet)
+  - Hashrate
+explanation: |
+  Sdílená veřejná kniha, která obsahuje všechny transakce, je blockchain.
+reviewed: false

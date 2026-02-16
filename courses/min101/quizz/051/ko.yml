@@ -1,0 +1,9 @@
+question: 비트코인 채굴에 필요한 자원은 무엇입니까?
+answer: 전기
+wrong_answers:
+  - 물
+  - 보석
+  - 금
+explanation: |
+  채굴은 컴퓨터를 통해 전기를 소비하는 검증 작업입니다.
+reviewed: false

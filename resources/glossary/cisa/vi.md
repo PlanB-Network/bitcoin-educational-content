@@ -1,5 +1,6 @@
 ---
 term: CISA
+definition: Đề xuất kỹ thuật nhằm kết hợp chữ ký của tất cả các đầu vào của một giao dịch thành một chữ ký duy nhất, giúp giảm kích thước và chi phí.
 ---
 
 Từ viết tắt của "Cross-Input Signature Aggregation". Đây là đề xuất kỹ thuật được thiết kế để tối ưu hóa quy mô của các giao dịch Bitcoin bằng cách giảm số lượng chữ ký cần thiết để xác thực chúng.

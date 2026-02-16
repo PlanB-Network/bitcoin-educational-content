@@ -1,0 +1,12 @@
+question: Ni ikihe kibazo nyamukuru gishobora guterwa n’ugushiramwo imitahe mu masosiyete agurisha ibikoresho vya Mining no gucunga amamashini mu bibanza bikoreshwamwo inguvu zizimbutse cane?
+answer: Ibibazo vy’isoko y’umucanwa n’ugusenyuka kw’imashini birashobora gutuma abashoramari basigara ata bushobozi, bafise ibikoresho bizimvye badashobora kugenzura.
+wrong_answers:
+  - Amashirahamwe yoshobora gusenyuka, abashoramari bagatakaza amafaranga yabo.
+  - Amashirahamwe ashobora kuba ari ababeshi kandi abashoramari bashobora gutakaza amafaranga yabo.
+  - Amashirahamwe yoshobora kutashobora kugurisha ama bitcoins yacukuwe kandi abashoramari bashobora gutakaza amafaranga yabo.
+explanation: |
+  Ingorane nyamukuru ishobora guterwa n’ugushiramwo imitahe mu masosiyete
+  agurisha ibikoresho vya mining no gucunga amashini ahantu inguvu zizimbutse ni ibi bazao vy'isoko y'umucanwa, 
+  ugusenyuka kw’imashini birashobora gutuma abashoramari basigara ata bushobozi, 
+  bafise ibikoresho bizimvye badashobora kugenzura.
+reviewed: true

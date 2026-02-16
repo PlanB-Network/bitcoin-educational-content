@@ -1,6 +1,7 @@
 ---
-term: KYC (KJENN DIN KUNDE)
+term: KYC (know your customer)
 
+definition: Lovpålagt prosedyre for identitetsverifisering brukt av enkelte Bitcoin-selskaper.
 ---
 Regulatorisk prosedyre som brukes av enkelte selskaper som opererer på Bitcoin, for å verifisere identiteten til kundene sine som et ledd i kampen mot hvitvasking av penger og finansiering av terrorisme. KYC innebærer innsamling og verifisering av personopplysninger. I forbindelse med kjøp av bitcoins utgjør KYC flere risikoer for brukeren, blant annet:
 

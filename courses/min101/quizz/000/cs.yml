@@ -1,0 +1,9 @@
+question: Co spotřebovávají vstupy (inputs) v bitcoinové transakci?
+answer: Existující UTXO
+wrong_answers:
+  - Budoucí výstupy (outputs)
+  - Existující bloky
+  - Budoucí adresy
+explanation: |
+  Vstup odkazuje na neutracený výstup z minulé transakce, který se nazývá UTXO.
+reviewed: false

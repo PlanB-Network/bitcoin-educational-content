@@ -1,0 +1,9 @@
+question: Koji softver je inovirao predstavljanjem derivacije ključa seed kao rečenice od 12 reči u novembru 2011?
+answer: Electrum
+wrong_answers:
+  - Spesmilo
+  - Stratum
+  - Paymium
+explanation: |
+ Ovaj wallet je kreirao francuski programer Thomas Voegtlin. Njegovo ime se odnosi na elektrum, prirodnu leguru zlata i srebra. Electrum je bio jedan od prvih wallet koji je implementirao determinističku strukturu izvodeći ključeve iz seed, koji je predstavljao i kao heksadecimalni niz karaktera i kao rečenicu od 12 reči.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Ni gute amategeko n’ibiciro vy’umuyagankuba bigira ico bikoze kuri Bitcoin mining?
+answer: Amategeko n’ibiciro vy’umuyagankuba biragira ingaruka zikomeye kuri Bitcoin mining. Aba miners baguma barondera umuyagankuba uzimbutse kugira ngo bashobore kuronka inyungu nyinshi. Ni co gituma igiciro kiri hejuru c’umuyagankuba mu Buraya no mu Bufaransa kidakwegera aba miners muri izo ntara. Aba miners bakunda kuja mu turere dufise ibiciro birihasi vy’umuyagankuba, kenshi mu bihugu bikiri mu nzira y’iterambere canke mu bihugu bifise ingufu zirengeye.
+wrong_answers:
+  - Amategeko n’amafaranga y’umuyagankuba biragira ico bikoze kuri Bitcoin mining mu kumenya ubwoko bw’amamashini ya mining ashobora gukoreshwa.
+  - Amategeko n’amafaranga y’umuyagankuba biragira ico bikoze kuri Bitcoin mining mu kumenya ubwoko bwa porogarama ya mining ishobora gukoreshwa.
+  - Amategeko n’ibiciro vy’umuyagankuba biragira ico bikoze kuri Bitcoin mining mu kumenya ubunini bwa mining pool ishobora gushingwa.
+explanation: |
+  Iki gice kirasigura ko amategeko n’ibiciro vy'umuyagankuba bifise ingaruka zikomeye kuri Bitcoin mining.
+   Aba miners baguma barondera umuyagankuba uzimbutse kugira ngo bashobore 
+   kuronka inyungu nyinshi, Aba miners bakunda kuja mu turere dufise ibiciro birihasi vy’umuyagankuba.
+reviewed: true

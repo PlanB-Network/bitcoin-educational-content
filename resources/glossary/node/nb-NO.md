@@ -1,6 +1,7 @@
 ---
-term: NODE
+term: Node
 
+definition: Datamaskin som kjører en Bitcoin-klient, som deltar i nettverket ved å opprettholde en kopi av blokkjeden.
 ---
 I Bitcoin-nettverket er en node (eller "node" på engelsk) en datamaskin som kjører en Bitcoin-protokollklient (som for eksempel Bitcoin Core). Den deltar i nettverket ved å vedlikeholde en kopi av blokkjeden, videreformidle og verifisere transaksjoner og nye blokker, og eventuelt delta i utvinningsprosessen. Summen av alle Bitcoin-noder representerer selve Bitcoin-nettverket.
 

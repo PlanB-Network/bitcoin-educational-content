@@ -24,11 +24,12 @@ original_language: fr
 
 proofreading:
   - language: fr
-    last_contribution_date: 2025-11-11
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0.62
+      - CarlAdm12
+    reward: 0
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -89,7 +90,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.37
+    reward: 2.36
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -124,7 +125,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.37
+    reward: 2.36
   - language: sv
     last_contribution_date:
     urgency: 1
@@ -139,7 +140,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.37
+    reward: 2.36
   - language: vi
     last_contribution_date:
     urgency: 1
@@ -149,12 +150,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.37
+    reward: 2.36
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.37
+    reward: 2.36
   - language: bg
     last_contribution_date:
     urgency: 1
@@ -164,4 +165,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.37
+    reward: 2.36

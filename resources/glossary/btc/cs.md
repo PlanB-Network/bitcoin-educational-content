@@ -1,6 +1,7 @@
 ---
 term: BTC
 
+definition: Burzovní symbol představující jednotku bitcoinu, rovnající se 100 milionům satoshi.
 ---
 Akciový nebo měnový symbol (*ticker*), který se používá k reprezentaci jednotky bitcoinu na směnných platformách. Slouží k rychlé identifikaci bitcoinu mezi ostatními aktivy a měnami. Jedna jednotka bitcoinu (1 BTC) se rovná 100 000 000 satošů (nebo "sats").
 

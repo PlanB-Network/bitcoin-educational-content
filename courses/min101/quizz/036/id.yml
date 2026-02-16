@@ -1,0 +1,9 @@
+question: Setelah berapa banyak konfirmasi, output coinbase menjadi dapat dibelanjakan?
+answer: 101 konfirmasi
+wrong_answers:
+  - 6 konfirmasi
+  - 201 konfirmasi
+  - 210 konfirmasi
+explanation: |
+  Masa kematangan adalah 100 blok, jadi diperlukan 101 konfirmasi untuk membuat UTXO ini dapat dibelanjakan.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: ITÄVALTALAINEN KOULU
+term: Itävaltalainen koulukunta
 
+definition: Taloudellinen ajatuskoulu, joka puolustaa vapaita markkinoita ja yksityistä omaisuutta sekä kritisoi valtion puuttumista. Filosofia, jota monet Bitcoin-harrastajat jakavat.
 ---
 Taloustieteellinen koulukunta, joka teoretisoi markkinat vapaaehtoisen yksilöllisen vuorovaikutuksen kokoelmana, korostaa taloudellisen järjestyksen spontaaniutta ja kritisoi valtion interventioita. Itävaltalainen koulukunta puoltaa yksityisomaisuuden, sopimusvapauden ja vapaan kaupan asemaa ja kritisoi samalla rahanluonnin häiritseviä vaikutuksia talouteen. Sen edustajat, kuten Carl Menger, Ludwig von Mises ja Friedrich Hayek, ovat kehittäneet sellaisia käsitteitä kuin hinnanmuodostus, rahan tehtävä, pääoman dynamiikka ja subjektiivinen arvoteoria. Itävaltalainen koulukunta kritisoi sosialismia sen kyvyttömyydestä suorittaa tehokkaita taloudellisia laskelmia ja suosii liberaalia lähestymistapaa. Se arvostaa vapaita markkinoita ja pitää valtion interventionismia taloudellisen epätasapainon lähteenä. Monet Bitcoinin harrastajat noudattavat näitä ajatuksia ja uskovat, että Bitcoin edustaa tämän filosofian kanssa sopusoinnussa olevaa työkalua sen hajautetun luonteen, rahanluonnin rajoittamisen ja sen kyvyn toimia riippumattomasti valtion väliintulosta johtuen.

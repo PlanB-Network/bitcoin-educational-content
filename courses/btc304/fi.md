@@ -1820,7 +1820,7 @@ Sen lisäksi, että tämä lähestymistapa on erittäin opettavainen, se mahdoll
 Alla on vuosien 2023-2024 ranskalaisten tapaamisten eteneminen. Kustakin teemasta on saatavilla avoimen lähdekoodin esitys ja video, joista voit saada ideoita aiheista, joita voisit käsitellä omissa tapahtumissasi.
 
 
-Muokattavaa lisämateriaalia löytyy myös [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)!
+Muita resursseja on saatavilla myös Plan ₿ Academyn ["Educator Content"](https://planb.academy/educator-content) -osiossa, joka on yhteistyötila, jossa Bitcoin-kouluttajat ympäri maailmaa jakavat ja tarjoavat opetusmateriaalejaan (esitykset, esitteet, oppaat, julisteet...) valmiina käytettäväksi tai muokattavissa olevissa muodoissa. Tavoite: yhdistää voimavarat, jotta ei tarvitse aloittaa alusta joka kerta!
 
 
 

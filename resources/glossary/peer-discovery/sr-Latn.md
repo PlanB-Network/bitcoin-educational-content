@@ -1,5 +1,6 @@
 ---
-term: OTKRIVANJE VRŠNJAKA
+term: Otkrivanje parnjaka
+definition: Proces kojim Bitcoin čvor otkriva i povezuje se sa drugim čvorovima u mreži.
 ---
 
 Proces pomoću kojeg se čvorovi u Bitcoin mreži povezuju sa drugim čvorovima kako bi dobili informacije. Kada se Bitcoin čvor prvi put pokrene, nema informacije o drugim čvorovima u mreži. Ipak, mora uspostaviti veze kako bi se sinhronizovao sa Blockchain koji ima najviše akumuliranog rada. Nekoliko mehanizama se koristi za otkrivanje ovih vršnjaka, po prioritetu:

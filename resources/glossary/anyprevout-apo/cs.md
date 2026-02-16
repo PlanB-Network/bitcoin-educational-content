@@ -1,5 +1,6 @@
 ---
-term: ANYPREVOUT (APO)
+term: Anyprevout (apo)
 
+definition: Návrh (BIP118) přidávající nové SigHash příznaky umožňující vytváření podpisů, které nepokrývají žádný konkrétní vstup transakce.
 ---
-Název BIP118, který navrhuje přidání dvou nových modifikátorů SigHash Flag s názvy `SIGHASH_ANYPREVOUT` a `SIGHASH_ANYPREVOUTANYSCRIPT`. Výraz "*AnyPrevOut*" pochází ze zkratky "*Any Previous Output*", což by se dalo přeložit do francouzštiny jako "toute sortie précédente".
+Název daný BIP118, který navrhuje přidání dvou nových modifikátorů příznaků SigHash, pojmenovaných `SIGHASH_ANYPREVOUT` a `SIGHASH_ANYPREVOUTANYSCRIPT`. Termín "*AnyPrevOut*" pochází ze zkrácení výrazu "*Any Previous Output*".

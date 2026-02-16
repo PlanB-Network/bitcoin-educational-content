@@ -1,0 +1,9 @@
+question: Masalah apa yang terutama ingin dikurangi oleh Hashcash?
+answer: Spam email
+wrong_answers:
+  - Pengeluaran ganda
+  - Phishing DNS
+  - Pencurian kunci privat
+explanation: |
+  Hashcash membebankan biaya komputasi per pesan untuk membuat pengiriman email massal menjadi tidak menguntungkan.
+reviewed: false

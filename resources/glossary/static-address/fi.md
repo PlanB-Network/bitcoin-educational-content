@@ -1,6 +1,7 @@
 ---
-term: STATIC ADDRESS
+term: Staattinen osoite
 
+definition: Silent Payments -maksujen yksilöllinen tunniste, joka mahdollistaa maksujen vastaanottamisen ilman osoitteen uudelleenkäyttöä tai näkyvää on-chain-linkkiä.
 ---
 Hiljaisten maksujen yhteydessä tarkoittaa yksilöllistä tunnusta, joka mahdollistaa maksujen vastaanottamisen ilman osoitteen uudelleenkäyttöä, ilman vuorovaikutusta ja ilman näkyvää yhteyttä ketjussa eri maksujen ja staattisen osoitteen välillä. Tämä tekniikka poistaa tarpeen luoda uusia, käyttämättömiä vastaanottoosoitteita jokaista tapahtumaa varten, jolloin vältetään Bitcoinissa tavanomaiset vuorovaikutustilanteet, joissa vastaanottajan on annettava maksajalle uusi osoite. Se vastaa jossain määrin uudelleenkäytettävää maksukoodia BIP47:n yhteydessä.
 

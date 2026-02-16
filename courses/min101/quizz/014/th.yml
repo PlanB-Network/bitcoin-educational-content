@@ -1,0 +1,9 @@
+question: ฟังก์ชันแฮชใดที่ใช้สำหรับ mining ใน Bitcoin?
+answer: SHA256d
+wrong_answers:
+  - SHA1d
+  - RIPEMD160d
+  - SHA512d
+explanation: |
+  Bitcoin mining ใช้ SHA256 ประยุกต์สองครั้ง โดยทั่วไปเรียกว่า SHA256d.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Jakou metodu použil Tony76 pro svůj podvod na tržišti Silk Road z 20. dubna 2012?
+answer: Využití své bezvadné pověsti prodávajícího k tomu, aby požadoval brzké dokončení transakcí
+wrong_answers:
+  - Zneužití technické zranitelnosti při zpracování plateb bitcoiny na platformě
+  - Manipulace s cenou bitcoinu za účelem umělého navyšování cen na Silk Road
+  - Vydírání zaměstnance Silk Road, aby vytiskl falešné popisy produktů
+explanation: |
+ Tony76 se těšil vynikající pověsti, což mu umožnilo požadovat po kupujících, aby místo úschovy využili předčasné dokončení. 20. duben je symbolickým datem pro
+ konopí, nabídl při této příležitosti několikanásobné slevy na své obvyklé produkty a objednávky se jen hrnuly. Později zmizel i s bitcoiny a
+ a své objednávky nikdy nesplnil.
+reviewed: true

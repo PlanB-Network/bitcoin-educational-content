@@ -1,9 +1,9 @@
-question: Secondo l'approccio del pensiero avverso, qual è la ragione principale per cui tutte le debolezze note del Bitcoin devono essere affrontate piuttosto che accettare un certo livello di rischio?
-answer: Il Bitcoin opera in un ambiente online pseudonimo in cui gli avversari possono sfruttare le debolezze senza essere scoperti o ritenuti responsabili
+question: Secondo l'approccio del pensiero avverso, qual è la ragione principale per cui tutte le vulnerabilità note di Bitcoin devono essere affrontate piuttosto che accettare un certo livello di rischio?
+answer: Bitcoin opera in un ambiente online pseudonimo in cui gli avversari possono sfruttare le vulnerabilità senza essere scoperti o ritenuti responsabili
 wrong_answers:
-  - "Il modello di sicurezza formale di Bitcoin richiede la prova matematica che tutti i potenziali vettori di attacco sono stati eliminati"
-  - La natura distribuita del Bitcoin significa che anche piccoli punti deboli possono trasformarsi in guasti a cascata in tutti i nodi del sistema
-  - "La fornitura fissa di Bitcoin rende economicamente impraticabile l'assorbimento delle perdite derivanti da attacchi riusciti, a differenza dei sistemi finanziari tradizionali"
+  - Il modello di sicurezza formale di Bitcoin richiede la prova matematica che tutti i potenziali vettori di attacco siano stati eliminati
+  - La natura distribuita di Bitcoin significa che anche piccoli punti deboli possano causare guasti a cascata in tutti i nodi del sistema
+  - La offerta fissa di Bitcoin rende economicamente impraticabile l'assorbimento delle perdite derivanti da attacchi riusciti, a differenza dei sistemi finanziari tradizionali
 explanation: |
-  La risposta corretta riflette l'intuizione chiave di Andrew Poelstra sui sistemi online rispetto a quelli fisici. A differenza degli edifici, dove accettiamo un certo rischio e ci affidiamo alle forze dell'ordine, il Bitcoin opera in un ambiente pseudonimo dove gli aggressori possono agire senza visibilità o conseguenze. Questa differenza fondamentale significa che ogni punto debole conosciuto sarà inevitabilmente sfruttato, rendendo la sicurezza completa essenziale piuttosto che una gestione opzionale del rischio.
-reviewed: false
+  La risposta corretta riflette l'intuizione chiave di Andrew Poelstra sui sistemi online rispetto a quelli fisici. A differenza degli edifici, dove accettiamo un certo rischio e ci affidiamo alle forze dell'ordine, Bitcoin opera in un ambiente pseudonimo dove gli aggressori possono agire senza visibilità o conseguenze. Questa differenza fondamentale significa che ogni punto debole conosciuto sarà inevitabilmente sfruttato, rendendo la sicurezza completa essenziale piuttosto che una gestione opzionale del rischio.
+reviewed: true

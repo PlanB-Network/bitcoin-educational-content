@@ -6,3 +6,4 @@ wrong_answers:
   - Untuk menghasilkan hash untuk UTXO
 explanation: |
   Frasa mnemonik memungkinkan penurunan semua kunci privat dan publik dalam sebuah dompet, sehingga memudahkan pencadangan dan pemulihan.
+reviewed: true

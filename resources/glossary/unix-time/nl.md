@@ -1,5 +1,6 @@
 ---
-term: UNIX TIJD
+term: Unix-tijd
+definition: Aantal seconden verstreken sinds 1 januari 1970 om middernacht UTC, gebruikt voor tijdbeheer op Bitcoin.
 ---
 
 Unix Time of Unix Timestamp staat voor het aantal seconden dat is verstreken sinds 1 januari 1970, om middernacht UTC (Unix Epoch). Dit systeem wordt gebruikt in Unix besturingssystemen en afgeleiden om de tijd op een universele en gestandaardiseerde manier aan te geven. Het maakt de synchronisatie van klokken en het beheer van tijdgebaseerde gebeurtenissen mogelijk, ongeacht tijdzones.

@@ -1,5 +1,6 @@
 ---
-term: OPERAZIONE DI IMPEGNO
+term: Transazione di impegno
 
+definition: Transazione firmata che rappresenta lo stato attuale della distribuzione dei fondi in un canale Lightning.
 ---
 Nel contesto di un canale bidirezionale all'interno di Lightning, la transazione di impegno è una transazione che entrambe le parti creano e firmano, senza pubblicarla sulla catena principale. Rappresenta lo stato attuale della distribuzione dei fondi tra le parti di un canale, e ogni pagamento Lightning dà luogo a una nuova transazione di impegno. Queste transazioni sono valide ma vengono trasmesse solo quando il canale viene chiuso unilateralmente. Esse contengono output per ogni parte, che riflettono la distribuzione dei fondi in base ai pagamenti Lightning effettuati dall'apertura del canale. I meccanismi di penalità sono associati per dissuadere le parti dal trasmettere stati obsoleti del canale, cioè vecchie transazioni di impegno che riflettono una distribuzione errata dei fondi.

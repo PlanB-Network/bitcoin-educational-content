@@ -1,9 +1,9 @@
-question: Als we een transactie observeren met 1 UTXO in de invoer en 43 UTXO's in de uitvoer, welk patroon kunnen we dan herkennen?
-answer: Een gebatchte uitgave
+question: Als we een transactie observeren met 1 input-UTXO en 43 output-UTXO's, welk patroon kunnen we dan herkennen?
+answer: Een gebundelde uitgave
 wrong_answers:
   - Een consolidatie
   - Een vereenvoudigde betaling
   - Een gezamenlijke transactie
 explanation: |
-  De interpretatie van dit patroon is dat we te maken hebben met gebundelde uitgaven. Deze structuur stelt entiteiten zoals Exchange platforms in staat om te besparen op kosten door hun uitgaven te groeperen in een enkele transactie.
+  De interpretatie van dit patroon is dat we te maken hebben met gebundelde uitgaven. Deze structuur stelt entiteiten zoals exchange-platforms in staat om te besparen op kosten door hun uitgaven te groeperen in een enkele transactie.
 reviewed: false

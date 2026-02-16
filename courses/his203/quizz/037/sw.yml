@@ -1,0 +1,11 @@
+question: Jina la kiolesura cha picha kilichotengenezwa kwa ajili ya programu kuu na Wladimir van der Laan mwaka wa 2011 lilikuwa lipi?
+answer: Bitcoin-Qt
+wrong_answers:
+  - wxWindows-Bitcoin
+  - bitcoind
+  - Kiini cha Bitcoin
+explanation: |
+ Bitcoin-Qt ilikuwa marekebisho kamili ya kiolesura cha picha cha Bitcoin. Ilitengenezwa kuanzia Juni 2011 na kuunganishwa katika programu kuu katika toleo la 0.5, 
+ iliyotolewa Novemba 21. Kulingana na mfumo wa michoro wa Qt, ilibadilisha maktaba ya wxWindows iliyotumiwa awali na Satoshi. Kwa kutumia metonymy, programu hiyo iliitwa 
+ Bitcoin-Qt kuanzia wakati huo.
+reviewed: true

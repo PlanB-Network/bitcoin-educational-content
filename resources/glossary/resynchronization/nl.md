@@ -1,5 +1,6 @@
 ---
-term: HERSYNCHRONISATIE
+term: Resynchronisatie
+definition: Vervanging van een deel van de blockchain door een concurrerende keten met meer geaccumuleerd werk.
 ---
 
 Verwijst naar een fenomeen waarbij de Blockchain een verandering van zijn structuur ondergaat door het bestaan van concurrerende blokken op dezelfde hoogte. Dit gebeurt wanneer een deel van de Blockchain wordt vervangen door een andere keten met een grotere hoeveelheid geaccumuleerd werk.
@@ -8,7 +9,7 @@ Verwijst naar een fenomeen waarbij de Blockchain een verandering van zijn struct
 Deze hersynchronisaties maken deel uit van de natuurlijke werking van Bitcoin, waarbij verschillende miners bijna gelijktijdig nieuwe blokken kunnen vinden, waardoor het Bitcoin netwerk in tweeën wordt gesplitst. In zulke gevallen kan het netwerk zich tijdelijk opsplitsen in concurrerende ketens. Uiteindelijk, wanneer één van deze ketens meer werk verzamelt, worden de andere ketens verlaten door de nodes en worden hun blokken zogenaamde "verouderde blokken" of "weesblokken" Dit proces van het vervangen van een keten door een andere is resynchronisatie.
 
 
-![](../../dictionnaire/assets/9.webp)
+
 
 
 Hersynchronisaties kunnen verschillende gevolgen hebben. Ten eerste, als een gebruiker een transactie bevestigd had in een blok dat verlaten blijkt te zijn, maar deze transactie wordt niet teruggevonden in de uiteindelijk geldige keten, dan wordt zijn transactie opnieuw onbevestigd. Daarom wordt geadviseerd om altijd minstens 6 bevestigingen af te wachten om een transactie als echt onveranderlijk te beschouwen. Na 6 blokken diep zijn hersynchronisaties zo onwaarschijnlijk dat de kans dat er één optreedt als vrijwel nihil kan worden beschouwd.

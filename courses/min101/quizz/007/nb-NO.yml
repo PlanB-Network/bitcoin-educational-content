@@ -1,0 +1,9 @@
+question: Hvilket økonomisk kriterium styrer en miners valg av transaksjoner?
+answer: Gebyrsatsen (fee rate)
+wrong_answers:
+  - Gebyrbeløpet
+  - UTXO-enes alder
+  - Antall UTXO-er
+explanation: |
+  Siden plassen i en blokk er begrenset, prioriterer mineren de mest lønnsomme transaksjonene per byte. Det er derfor gebyrsatsen som styrer valget av transaksjoner.
+reviewed: false

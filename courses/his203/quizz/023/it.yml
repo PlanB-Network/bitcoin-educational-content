@@ -1,0 +1,11 @@
+question: Chi ha creato la borsa valori online GLBSE nell'aprile 2011, una piattaforma che ha permesso agli attori dell'ecosistema Bitcoin di emettere titoli finanziari come azioni o obbligazioni per finanziarsi?
+answer: James McCarthy (Nefario)
+wrong_answers:
+  - Charlie Shrem (Yankee)
+  - Mircea Popescu (MPOE-PR)
+  - Nathaniel Theis (Cuddlefish)
+explanation: |
+ James McCarthy (Nefario) era un irlandese che viveva in Cina e ricopriva il ruolo di professore di inglese in un'università. Era interessato alla scuola austriaca
+ e alle idee dei Cypherpunk. Nell'aprile 2011 ha lanciato GLBSE, che offriva ai suoi clienti tutti i tipi di servizi finanziari, compresa la possibilità di emettere azioni e obbligazioni
+ di emettere azioni e obbligazioni.
+reviewed: true

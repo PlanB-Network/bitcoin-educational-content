@@ -1,0 +1,9 @@
+question: Tangu BIP-34, mwanzo wa scriptSig ya coinbase lazima uwe na nini?
+answer: Urefu wa kitalu (block height)
+wrong_answers:
+  - Hashrate ya mchimba madini
+  - Lengo la ugumu (difficulty target)
+  - Alama ya kitalu
+explanation: |
+  BIP-34 inahitaji kuandika urefu wa kitalu katika scriptSig ya coinbase.
+reviewed: false

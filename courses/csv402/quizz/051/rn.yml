@@ -1,9 +1,9 @@
-question: Seal Definition ni iki mu bijanye n'ivyo RGB Assignment ivuga?
-answer: Ivyo bivugwa ku UTXO ishinga Ownership ya Owned State.
+question: Insiguro ya Serire ni iki muvyerekeye umwimenyerezo wa RGB ?
+answer: Ivyo bivugwa ku UTXO ishinga ry'Ukwitirirwa ikintu n'ukubitunga.
 wrong_answers:
-  - Itsinda ry’amakuru yahanahanwa hagati y’ababuranyi, hakurikijwe Client-side Validation.
+  - Umugwi ry’amakuru yahanahanwa hagati y’ababuranyi, hakurikijwe Ukweeza kuruhande rw'umukiriya.
   - Gukoranya amasezerano muri off-chain kode ishobora gushirwa mu ngiro
-  - Ishami rya DAG ry'amateka ya State Transition
+  - Ishami rya DAG rya kahise kuko bihinduka
 explanation: |
-  "Seal Definition" ihuza UTXO n'igice kinaka ca Contract State, igatanga icemezo c'ugutanga neza uburenganzira canke umutungo.
-reviewed: false
+  "Insiguro ya Serire" ihuza UTXO n'igice kinaka c'Uko Amasezerano ameze, igatanga icemezo c'ugutanga neza uburenganzira canke umutungo.
+reviewed: true

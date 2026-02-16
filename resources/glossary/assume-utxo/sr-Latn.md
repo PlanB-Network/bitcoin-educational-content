@@ -1,12 +1,16 @@
 ---
-term: PRETPOSTAVI UTXO
+term: Assume utxo
+definition: Parametar Bitcoin Core-a koji omogućava brzu sinhronizaciju novog čvora upotrebom snimka UTXO skupa pretpostavljenog kao validan, pre provere istorije u pozadini.
 ---
+Konfiguracioni parametar u većinskom klijentu Bitcoin Core koji omogućava čvoru koji je upravo inicijalizovan (ali još nije izvršio IBD) da odloži verifikaciju transakcija i UTXO seta pre određenog snimka stanja (snapshot). Koncept se zasniva na korišćenju UTXO seta (liste svih postojećih UTXO-a u datom trenutku) koji obezbeđuje Core i koji se smatra tačnim, što omogućava čvoru da se veoma brzo sinhronizuje sa lancem koji ima najviše akumuliranog rada. Pošto čvor preskače dugačku fazu IBD-a, on veoma brzo postaje funkcionalan za svog korisnika.
 
-Parametar konfiguracije u vodećem Bitcoin Core klijentu koji omogućava čvoru koji je upravo inicijalizovan (ali još nije prošao kroz IBD) da odloži verifikaciju transakcija i UTXO seta do datog snimka. Koncept se oslanja na korišćenje UTXO seta (lista svih postojećih UTXO-a u datom trenutku) koju obezbeđuje Core i koja se smatra tačnom, što omogućava čvoru da se vrlo brzo sinhronizuje sa lancem sa najviše akumuliranog rada. Pošto čvor preskače dugotrajan IBD korak, postaje operativan za svog korisnika vrlo brzo. Pretpostavimo da UTXO deli sinhronizaciju (IBD) na dva dela:
+Assume UTXO deli sinhronizaciju (IBD) na dva dela: Prvo, čvor vrši Header First Sync (samo verifikaciju zaglavlja) i smatra važećim UTXO set koji mu dostavlja Core; Zatim, kada postane funkcionalan, čvor će u pozadini verifikovati kompletnu istoriju blokova, ažurirajući novi UTXO set koji je sam proverio. Ako se ovaj poslednji ne poklapa sa UTXO setom koji je dostavio Core, on će izdati poruku o grešci.
+
+Assume UTXO stoga omogućava ubrzavanje pripreme novog Bitcoin čvora odlaganjem procesa verifikacije transakcija i UTXO seta zahvaljujući ažuriranom snimku stanja (snapshot) koji se dobija u Core-u.
 
 
-- Prvo, čvor izvodi Header First Sync (verifikaciju samo zaglavlja) i smatra da je UTXO skup koji je obezbedio Core validan;
-- Zatim, kada postane operativan, čvor će u pozadini verifikovati kompletnu istoriju blokova, ažurirajući novi UTXO set koji je sam verifikovao. Ako se ovaj novi UTXO set ne poklapa sa onim koji je obezbedio Core, proizvešće poruku o grešci.
 
 
-Stoga, pretpostavimo da UTXO ubrzava pripremu novog Bitcoin čvora odlaganjem procesa verifikacije transakcija i UTXO seta kroz ažurirani snimak obezbeđen u Core.
+
+
+

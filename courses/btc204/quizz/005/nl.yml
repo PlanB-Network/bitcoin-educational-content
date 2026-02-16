@@ -1,9 +1,9 @@
-question: Wat is een invoer in een transactie?
+question: Wat is een input in een transactie?
 answer: Een verwijzing naar een eerdere onuitgegeven UTXO.
 wrong_answers:
-  - Een bevestigingssignaal van de mijnwerkers.
-  - Een nieuw blok toegevoegd aan de Blockchain.
+  - Een bevestigingssignaal van de miners.
+  - Een nieuw blok toegevoegd aan de blockchain.
   - Een verificatiecode om de transactie te beveiligen.
 explanation: |
-  Elke transactie-invoer is een verwijzing naar een UTXO, dat wil zeggen de uitvoer van een vorige transactie.
+  Elke transactie-input is een verwijzing naar een UTXO, dat wil zeggen de output van een vorige transactie.
 reviewed: false

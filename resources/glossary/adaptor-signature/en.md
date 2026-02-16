@@ -1,5 +1,6 @@
 ---
-term: ADAPTOR SIGNATURE
+term: Adaptor signature
+definition: A cryptographic technique linking a signature to a secret, such that publishing the signature reveals the secret. Useful for atomic swaps without a trusted intermediary.
 ---
 
 Cryptographic method that allows combining a genuine signature with an additional signature (called an "adaptor signature") to reveal a secret piece of data. This method works so that knowing two elements among the valid signature, the adaptor signature, and the secret allows deducing the missing third element. One interesting property of this method is that if we know our peer's adaptor signature and the specific point on the elliptic curve related to the secret used to compute that adaptor signature, we can then derive our own adaptor signature that corresponds to the same secret, all without ever having direct access to the secret itself. In an exchange between two parties who do not trust each other, this technique allows for the simultaneous disclosure of two sensitive pieces of information between the participants. This process removes the need for trust in instant transactions such as a Coinswap or an Atomic Swap. Let's look at an example to better understand. Alice and Bob each want to send 1 BTC to the other, but they do not trust each other. They will therefore use adaptor signatures to eliminate the need to trust one another during the exchange (thus making it an "atomic" exchange). They proceed as follows:

@@ -1,6 +1,7 @@
 ---
-term: LOGARITMA DISKRIT
+term: Logaritma diskrit
 
+definition: Masalah matematika yang sulit dipecahkan yang menjadi dasar keamanan kriptografi Bitcoin.
 ---
 Logaritma diskrit adalah sebuah masalah matematika yang digunakan pada beberapa algoritma kriptografi kunci publik. Pada sebuah grup siklik dengan orde $q$, dengan sebuah generator $g$, jika seseorang memiliki sebuah persamaan dengan bentuk $g^x = h$, maka $x$ disebut sebagai logaritma diskrit dari $h$ terhadap basis $g$, modulo $q$. Secara sederhana, ini melibatkan penentuan eksponen $x$ ketika $g$, $h$, dan $q$ diketahui. Dengan demikian, logaritma diskrit adalah kebalikan dari eksponensial dalam grup siklik terbatas. Namun, untuk nilai $q$ yang besar, penyelesaian masalah logaritma diskrit dianggap sulit secara algoritmik. Sifat ini dieksploitasi untuk memastikan keamanan banyak protokol kriptografi, seperti protokol Diffie-Hellman untuk pertukaran kunci.
 

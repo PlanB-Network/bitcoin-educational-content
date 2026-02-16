@@ -1,5 +1,6 @@
 ---
-term: 옴니
+term: Omni
+definition: 이전에 Mastercoin으로 알려졌던, 비트코인 블록체인에서 자산을 생성하고 관리하기 위한 플랫폼.
 ---
 
 옴니 Layer(이전의 마스터코인)는 Blockchain Bitcoin에서 자산을 생성하고 관리하기 위한 오픈소스 탈중앙화 플랫폼입니다. 옴니 자산에는 테더(USDT)와 메이드세이프코인(MAID)이 포함됩니다.

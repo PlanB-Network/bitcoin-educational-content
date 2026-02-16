@@ -1,5 +1,6 @@
 ---
 term: NFT
+definition: Jedinica bitcoina interpretirana kao nezamenljiva i povezana sa spoljnom imovinom putem protokola.
 ---
 
 Akronim za *Non-Fungible Token*. NFT predstavlja jedinicu Bitcoin koju korisnici drugog Layer protokola tumače kao nezamenljivu i povezuju sa Ownership sredstva van Bitcoin, kao što je slika ili drugi tip podataka.

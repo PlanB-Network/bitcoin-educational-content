@@ -1,0 +1,9 @@
+question: Auf welchem Element wird der Proof-of-Work in Bitcoin berechnet?
+answer: Der Block-Header
+wrong_answers:
+  - Die Blockhöhe
+  - Der Mempool des Netzwerks
+  - Die ersten 21 Transaktionen des Blocks
+explanation: |
+  Das Mining besteht darin, den 80 Byte großen Block-Header, der den Inhalt des Blocks festlegt, in einer Schleife zu hashen.
+reviewed: false

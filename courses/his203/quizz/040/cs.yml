@@ -1,0 +1,10 @@
+question: Z čeho se skládá schéma skriptů Pay-to-Script-Hash (P2SH)?
+answer: Uzamčení prostředků pomocí hash skriptu, který se musí provést při odemykání
+wrong_answers:
+  - Požadavek na M podpisů z N účastníků k autorizaci výstupu transakce, který má být vynaložen
+  - Závislost utrácení bitcoinů na poskytnutí podpisu spojeného s jediným veřejným klíčem
+  - Zápis libovolných dat do blockchainu tím, že UTXO nelze utratit
+explanation: |
+ To zahrnuje platbu za hash skriptu a poskytnutí uvedeného skriptu při odemykání prostředků. Od návrhu OP_EVAL se liší tím, že je to
+ automaticky rozpoznán virtuálním strojem, takže může být proveden bez nutnosti explicitních instrukcí.
+reviewed: true

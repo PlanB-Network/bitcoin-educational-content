@@ -1,0 +1,10 @@
+question: Wer implementierte 2011 die speicherintensive Scrypt-Funktion als GPU-resistenten mining-Algorithmus in die Kryptowährung Tenebrix?
+answer: ArtForz
+wrong_answers:
+  - Charlie Lee
+  - Lolcust
+  - Colin Percival
+explanation: |
+ Scrypt ist eine Schlüsselableitungsfunktion, die ursprünglich 2009 von dem kanadischen Informatiker Colin Percival entwickelt wurde. Sie wurde von dem Miner ArtForz aufgegriffen, der bei der
+ Lolcust bei der Entwicklung der Kryptowährung Tenebrix half, die im September 2011 auf den Markt kam. Charlie Lee griff das Modell auf, um es in Litecoin aufzunehmen, das im Oktober auf den Markt kam.
+reviewed: true

@@ -1820,7 +1820,7 @@ Ngoài giá trị giáo dục mạnh mẽ, phương pháp này còn cho phép ch
 Dưới đây là tiến trình gặp mặt tại Pháp năm 2023-2024. Mỗi chủ đề đều có bài thuyết trình nguồn mở và video, có thể giúp bạn có thêm ý tưởng về các chủ đề để đưa vào sự kiện của riêng mình.
 
 
-Bạn cũng có thể tìm thấy các tài liệu chỉnh sửa bổ sung trong [Hộp công cụ giảng dạy Bitcoin](https://planb.academy/fr/resources/bet)!
+Các tài nguyên khác cũng có sẵn trong phần ["Educator Content"](https://planb.academy/educator-content) của Plan ₿ Academy, một không gian cộng tác nơi các nhà giáo dục Bitcoin trên toàn thế giới chia sẻ và cung cấp tài liệu giáo dục của họ (bài thuyết trình, tờ rơi, hướng dẫn, áp phích...) ở các định dạng sẵn sàng sử dụng hoặc có thể chỉnh sửa. Mục tiêu: tập hợp nỗ lực để không phải bắt đầu từ đầu mỗi lần!
 
 
 

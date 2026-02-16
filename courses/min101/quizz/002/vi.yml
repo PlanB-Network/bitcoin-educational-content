@@ -1,0 +1,9 @@
+question: Về mempool, phát biểu nào sau đây là đúng?
+answer: Mỗi nút (node) có mempool riêng của nó
+wrong_answers:
+  - Chỉ có một mempool duy nhất
+  - Mempool là một tệp có trong mỗi khối
+  - Mempool là một máy chủ trung tâm
+explanation: |
+  Mempool là cục bộ đối với mỗi nút, vì vậy nội dung của nó có thể thay đổi tùy theo từng nút dựa trên các quy tắc mà mỗi nút áp dụng.
+reviewed: false

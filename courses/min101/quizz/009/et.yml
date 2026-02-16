@@ -1,0 +1,9 @@
+question: Mis on kandidaatplokk Bitcoinis?
+answer: Kaevandaja poolt ette valmistatud plokk, mis ei ole veel kehtiv
+wrong_answers:
+  - Võrgu poolt kinnitatud plokk, mida pole veel jagatud
+  - Rahakoti poolt loodud plokk, mis ei ole vielä kehtiv
+  - Mempoolis salvestatud plokk
+explanation: |
+  Iga kaevandaja paneb kohapeal kokku kandidaatploki enne kehtiva töö tõenduse leidmise katsetamist.
+reviewed: false

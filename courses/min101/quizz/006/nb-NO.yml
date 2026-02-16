@@ -1,0 +1,9 @@
+question: Hva er formålet med Merkle-roten i et Bitcoin-blokkhode?
+answer: Å forplikte alle transaksjonene i blokken
+wrong_answers:
+  - Beregne blokkens bevis på arbeid (Proof of Work)
+  - Signalere blokkversjonen
+  - Vite blokkens vanskelighetsgrad
+explanation: |
+  Merkle-roten oppsummerer alle transaksjonene; hvis én endres, endres også roten.
+reviewed: false

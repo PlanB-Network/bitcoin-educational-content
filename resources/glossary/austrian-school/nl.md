@@ -1,5 +1,6 @@
 ---
-term: OOSTENRIJKSE SCHOOL
+term: Oostenrijkse School
+definition: Een economische denkskoool die vrije markt en particulier eigendom verdedigt en staatsinbegrepen kritiseert. Een filosofie gedeeld door veel Bitcoin-enthousiasten.
 ---
 
 Een economische denkschool die de markt theoretiseert als een verzameling vrijwillige individuele interacties, de spontaniteit van de economische orde benadrukt en staatsinterventies bekritiseert. De Oostenrijkse School pleit voor de rol van privé-eigendom, contractuele vrijheid en vrije handel, terwijl ze de verstorende effecten van monetaire creatie op de economie bekritiseert. De bijdragers, zoals Carl Menger, Ludwig von Mises en Friedrich Hayek, hebben concepten ontwikkeld zoals prijsvorming, de functie van geld, dynamiek van kapitaal en de subjectieve theorie van waarde. De Oostenrijkse School bekritiseert het socialisme vanwege zijn onvermogen om efficiënte economische berekeningen uit te voeren en geeft de voorkeur aan een liberale benadering. Ze waardeert de vrije markt en ziet staatsinterventie als een bron van economische onevenwichtigheden. Veel Bitcoin enthousiastelingen hangen deze ideeën aan en geloven dat Bitcoin een gereedschap is dat in harmonie is met deze filosofie, vanwege de gedistribueerde aard, de beperking van de geldschepping en de mogelijkheid om onafhankelijk van staatsinterventie te werken.

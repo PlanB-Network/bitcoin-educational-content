@@ -1,6 +1,7 @@
 ---
 term: P2SH
 
+definition: Skrip yang memungkinkan kondisi pengeluaran arbitrer melalui hash redeemScript.
 ---
 P2SH adalah singkatan dari *Pay to Script Hash*, yang merupakan model skrip standar yang digunakan untuk menetapkan kondisi pengeluaran pada UTXO. Tidak seperti skrip P2PK dan P2PKH, di mana kondisi pengeluaran sudah ditentukan sebelumnya, P2SH memungkinkan integrasi kondisi pengeluaran yang bisa dikustomisasi dan fungsi tambahan dalam skrip transaksi.
 

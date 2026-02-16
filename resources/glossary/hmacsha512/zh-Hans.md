@@ -1,6 +1,7 @@
 ---
 term: HMAC-SHA512
 
+definition: 用于 Bitcoin HD 钱包中密钥衍生的加密算法。
 ---
 “Hash-based Message Authentication Code - Secure Hash Algorithm 512” 的缩写。它是一种加密算法，用于验证双方交换信息的完整性和真实性。它将加密哈希函数 `SHA512` 与共享密钥相结合，为每条信息生成独特的信息验证码（Message Authentication Code，简称 MAC）。
 

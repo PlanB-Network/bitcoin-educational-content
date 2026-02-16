@@ -1,0 +1,9 @@
+question: Mitä syötteet (inputs) kuluttavat Bitcoin-siirrossa?
+answer: Olemassa olevia UTXO:ita
+wrong_answers:
+  - Tulevia tulosteita (outputs)
+  - Olemassa olevia lohkoja
+  - Tulevia osoitteita
+explanation: |
+  Syöte viittaa aiemmasta siirrosta peräisin olevaan kuluttamattomaan tulosteeseen, jota kutsutaan UTXO:ksi.
+reviewed: false

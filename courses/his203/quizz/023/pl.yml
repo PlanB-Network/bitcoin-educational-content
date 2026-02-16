@@ -1,0 +1,11 @@
+question: Kto stworzył giełdę internetową GLBSE w kwietniu 2011 r., platformę, która umożliwiła graczom w ekosystemie Bitcoin emisję papierów wartościowych, takich jak akcje lub obligacje, w celu finansowania?
+answer: James McCarthy (Nefario)
+wrong_answers:
+  - Charlie Shrem (Yankee)
+  - Mircea Popescu (MPOE-PR)
+  - Nathaniel Theis (Cuddlefish)
+explanation: |
+ James McCarthy (Nefario) był Irlandczykiem mieszkającym w Chinach, który zajmował stanowisko profesora języka angielskiego na uniwersytecie. Interesował się szkołą austriacką
+ i ideami Cypherpunk. W kwietniu 2011 r. uruchomił GLBSE, która oferowała swoim klientom wszelkiego rodzaju usługi finansowe, w tym możliwość emisji akcji i obligacji
+ emisji akcji i obligacji.
+reviewed: true

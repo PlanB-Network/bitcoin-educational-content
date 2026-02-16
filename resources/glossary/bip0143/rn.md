@@ -1,5 +1,6 @@
 ---
 term: BIP0143
+definition: Uburyo bushasha bwa hashing ku bimenyetso vya SegWit, bukemura ukwongereka kwa quadratic kandi buriko agaciro k'ibwinjiriro.
 ---
 
 Izana uburyo bushasha bwo gukora hashing y'ibikorwa kugira ngo hasuzumwe umukono mu nyandiko z'inyuma ya SegWit. Intumbero ni ugugabanya ibikorwa bitari ngombwa mu gihe co kugenzura no gushiramwo agaciro ka UTXO k’injiza mu mukono. Ibi bitorera umuti ibibazo bibiri bikomeye n'ubuhinga bwo gukorana n'abandi:

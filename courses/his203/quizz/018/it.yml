@@ -1,0 +1,10 @@
+question: Quale programma radiofonico libertario negli Stati Uniti è stato uno dei primi a parlare dell'esistenza del mercato della Via della Seta?
+answer: Parlare gratis in diretta
+wrong_answers:
+  - Lo spettacolo Bitcoin
+  - All Things Considered
+  - Notizie notturne di Infowars
+explanation: |
+ Free Talk Live è stato condotto da Ian Freeman e Mark Edge, che hanno scoperto Bitcoin nel dicembre 2010 e hanno incontrato Gavin Andresen nel febbraio 2011. Il 16 marzo 2011, metà
+ della trasmissione è stata dedicata all'uso del Bitcoin su Silk Road, il che ha convinto Roger Ver a impegnarsi maggiormente sul Bitcoin.
+reviewed: true

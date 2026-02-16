@@ -1820,7 +1820,7 @@ Bu yaklaşım, güçlü eğitim değerinin ötesinde, gruplar arasında açık k
 Aşağıda 2023-2024 Fransa buluşmalarının ilerleyişi yer almaktadır. Her tema için, kendi etkinlikleriniz için ele alabileceğiniz konular hakkında size fikir verebilecek açık kaynaklı bir sunum ve bir video mevcuttur.
 
 
-Düzenlenebilir ek materyaller [Bitcoin Öğretim Araç Kutusu](https://planb.academy/fr/resources/bet) adresinde de bulunabilir!
+Diğer kaynaklar, Plan ₿ Academy'nin ["Educator Content"](https://planb.academy/educator-content) bölümünde de mevcuttur; bu, dünya çapındaki Bitcoin eğitimcilerinin eğitim materyallerini (sunumlar, el ilanları, kılavuzlar, posterler...) kullanıma hazır veya düzenlenebilir formatlarda paylaştığı ve sunduğu işbirlikçi bir alandır. Amaç: her seferinde sıfırdan başlamamak için çabaları birleştirmek!
 
 
 

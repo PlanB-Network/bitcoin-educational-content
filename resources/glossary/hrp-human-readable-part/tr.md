@@ -1,5 +1,6 @@
 ---
-term: HRP (INSAN TARAFINDAN OKUNABILIR KISIM)
+term: Hrp (human readable part)
+definition: Bitcoin adresinin türünü belirlemeye olanak tanıyan bech32 adreslerinin okunabilir öneki.
 ---
 
 "İnsan Tarafından Okunabilir Kısım" anlamına gelen HRP, bech32 ve bech32m (SegWit v0 ve SegWit v1) alıcı adreslerinin bir bileşenidir. HRP, Address'ın insanlar tarafından kolayca okunup yorumlanabilmesi için özel olarak biçimlendirilmiş kısmını ifade eder. Örneğin, bir bech32 Bitcoin Address'ı ele alalım:

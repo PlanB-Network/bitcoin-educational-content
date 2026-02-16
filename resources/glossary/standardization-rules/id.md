@@ -1,6 +1,7 @@
 ---
-term: ATURAN STANDARDISASI
+term: Aturan standardisasi
 
+definition: Aturan lokal yang menentukan struktur transaksi yang belum dikonfirmasi yang diterima node ke dalam mempool-nya.
 ---
 Aturan standardisasi diadopsi secara individual oleh setiap node Bitcoin, sebagai tambahan dari aturan konsensus, untuk mendefinisikan struktur transaksi yang belum dikonfirmasi yang diterimanya ke dalam mempool dan disiarkan ke rekan-rekannya. Aturan-aturan ini dikonfigurasikan dan dieksekusi secara lokal oleh setiap node dan dapat bervariasi dari satu node ke node lainnya. Aturan-aturan ini berlaku secara eksklusif untuk transaksi yang belum dikonfirmasi. Oleh karena itu, sebuah node hanya akan menerima transaksi yang dianggap tidak standar jika transaksi tersebut sudah termasuk dalam blok yang valid.
 

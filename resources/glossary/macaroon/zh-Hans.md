@@ -1,5 +1,6 @@
 ---
-term: MACAROON
+term: Macaroon
 
+definition: Lightning上用于确保远程服务访问安全的身份验证机制。
 ---
 一种认证机制，旨在确保对分布式系统服务的访问安全。在闪电网络上，Macaroon 主要用于在用户访问授权服务时对其进行身份验证。例如，通过闪电节点，可以生成一个马Macaroon，授权智能手机通过远程节点执行交易。与cookie不同，Macaroon 的优势在于可由发行方进行加密验证或委托验证。

@@ -1,5 +1,6 @@
 ---
 term: SHA256
+definition: Uburyo bwa hash bwa cryptographie butanga icegeranyo ca 256 bits, bukoreshwa cane kuri Bitcoin.
 ---
 
 Inyuguti y'inyongera y'ikirundi "*Umutekano wa Hash Algorithme 256 bits*". Ni igikorwa c’ubuhinga bwa Hash gitanga igiharuro c’ibice 256. Yateguwe n'ikigo *kijejwe umutekano w'igihugu* (NSA) mu ntango z'imyaka ya 2000, yacitse ingingo ngenderwako y'ubutegetsi bwa Leta Zunze Ubumwe za Amerika yo gutunganya amakuru y'agaciro. Mu masezerano ya Bitcoin, igikorwa ca `SHA256` kiri hose. Ikoreshwa ku mitwe y'amabuye ya Hash nk'igice ca Proof of Work. `SHA256` ikoreshwa kandi mu nzira yo gukura Address yakira ku rufunguzo rwa bose. Ikoreshwa kandi mu gukoranya amafaranga n’abashingantahe mu biti vya Merkle mu bice. `SHA256` iraboneka kandi mu kubara ibimenyetso vy'intoke, mu kubara ibiharuro bimwe bimwe, no mu bindi bikorwa vyinshi bikikuje Bitcoin. Iyo ikoreshejwe incuro zibiri zikurikiranye, yitwa `HASH256`. Iyi porogarama ibiri ni yo ikoreshwa cane kuri Bitcoin. Iyo `SHA256` ikoreshejwe hamwe n'igikorwa ca `RIPEMD160`, yitwa `HASH160`. Iyi hashing ibiri ikoreshwa ku bimenyetso vy'intoke vy'urufunguzo no ku hashing y'imfunguruzo za bose. Igikor `SHA256` ni igice c'umuryango wa SHA 2.

@@ -1,0 +1,10 @@
+question: Proč upgrade Pay to Script Hash potřeboval k aktivaci 55 % hash výkonu sítě?
+answer: Aby byla "zpětně kompatibilní" a nedocházelo k rozdělení řetězce
+wrong_answers:
+  - Protože správa protokolu závisí na hlasování těžařů ("jeden procesor, jeden hlas")
+  - Aby nedošlo k centralizaci obchodu mining, kterému tehdy dominovalo několik skupin mining
+  - Protože vedoucí projektu Gavin Andresen nechtěl být "benevolentním diktátorem"
+explanation: |
+ Jednalo se o omezení pravidel konsensu, které bylo později nazváno "měkkým fork". Upgrade nevytváří rozdělení řetězce, pokud je podporován tzv
+ většina výpočetního výkonu sítě.
+reviewed: true

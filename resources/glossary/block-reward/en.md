@@ -1,5 +1,6 @@
 ---
-term: BLOCK REWARD
+term: Block reward
+definition: Total bitcoins (subsidy + fees) collected by a miner when they find a valid block.
 ---
 
 The block reward is the total number of bitcoins received by a miner when they successfully mine a valid block. 
@@ -9,4 +10,3 @@ It consists of two components:
 
 The block reward is issued through a special transaction called the coinbase transaction. Bitcoins received from a coinbase transaction are subject to a maturity period of 100 blocks before they can be spent.
 
-> ► *The French translation is "Récompense de bloc".*

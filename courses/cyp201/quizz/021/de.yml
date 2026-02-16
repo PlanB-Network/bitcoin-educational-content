@@ -1,9 +1,9 @@
 question: Was ist das Hauptmerkmal der Skalarmultiplikation auf elliptischen Kurven?
-answer: Einwegfunktion
+answer: Sie ist eine Einwegfunktion.
 wrong_answers:
-  - Leicht umkehrbar
-  - Basierend auf der Faktorisierung von Primzahlen
-  - Sehr langwierig zu berechnen
+  - Sie ist leicht umkehrbar.
+  - Sie basiert auf der Faktorisierung von Primzahlen
+  - Sie ist sehr aufwendig zu berechnen
 explanation: |
   Die Skalarmultiplikation auf elliptischen Kurven ist eine Einwegfunktion, was es unmöglich macht, den privaten Schlüssel aus dem öffentlichen Schlüssel abzuleiten.
 reviewed: true

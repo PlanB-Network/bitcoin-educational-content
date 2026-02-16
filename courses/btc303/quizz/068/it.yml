@@ -1,9 +1,9 @@
-question: Quando i minatori si connettono ai pool mining con maggiore larghezza di banda e connettività per evitare blocchi stantii durante i periodi di aumento delle dimensioni dei blocchi, qual è la principale conseguenza negativa per la rete Bitcoin?
-answer: Riduce la decentralizzazione del mining in quanto i minatori più piccoli sono spinti verso pool più grandi con infrastrutture superiori
+question: Quando i miner si connettono a mining pool con maggiore larghezza di banda e connettività per evitare blocchi obsoleti durante i periodi di aumento delle dimensioni dei blocchi, qual è la principale conseguenza negativa per la rete Bitcoin?
+answer: Riduce la decentralizzazione del mining in quanto i miner più piccoli sono spinti verso pool più grandi con infrastrutture superiori
 wrong_answers:
-  - Aumenta la difficoltà computazionale delle operazioni mining, rendendo i blocchi più difficili da risolvere
+  - Aumenta la difficoltà computazionale delle operazioni di mining, rendendo i blocchi più difficili da risolvere
   - Crea costi di transazione aggiuntivi che devono essere pagati per mantenere la connettività di rete
-  - Riduce il tasso di hash totale della rete in quanto i minatori spendono risorse per la connettività invece che per il mining
+  - Riduce il tasso di hash totale della rete in quanto i miner spendono risorse per la connettività invece che per il mining
 explanation: |
-  Il capitolo spiega che quando le dimensioni dei blocchi aumentano, i tempi di propagazione aumentano, portando a un maggior numero di blocchi stantii. Per evitare di perdere le ricompense dei blocchi stantii, i minatori cercano pool con una migliore larghezza di banda e connettività. Questo spinge i minatori verso pool più grandi e ben collegati, riducendo la decentralizzazione di mining. Le altre opzioni non sono corrette: la difficoltà si adatta automaticamente indipendentemente dalla connettività del pool, i costi di connettività non creano commissioni di transazione aggiuntive e i minatori non riducono il tasso di hash quando si uniscono a pool meglio connessi.
-reviewed: false
+  Il capitolo spiega che quando le dimensioni dei blocchi aumentano, i tempi di propagazione aumentano, portando a un maggior numero di blocchi obsoleti. Per evitare di perdere le ricompense dei blocchi obsoleti, i miner cercano pool con una migliore larghezza di banda e connettività. Questo spinge i miner verso pool più grandi e ben collegati, riducendo la decentralizzazione del mining. Le altre opzioni non sono corrette: la difficoltà si adatta automaticamente indipendentemente dalla connettività del pool, i costi di connettività non creano commissioni di transazione aggiuntive e i miner non riducono il hashrate quando si uniscono a pool meglio connessi.
+reviewed: true

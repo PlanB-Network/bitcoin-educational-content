@@ -1,0 +1,9 @@
+question: 如果在最后一个周期内区块被发现得太快，会发生什么？
+answer: 目标值下降
+wrong_answers:
+  - 目标值上升
+  - 目标值保持不变
+  - 区块大小增加
+explanation: |
+  区块发现得太快表明算力较高，因此比特币通过降低目标值来收紧条件。
+reviewed: false

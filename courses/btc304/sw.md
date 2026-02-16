@@ -1819,7 +1819,7 @@ Zaidi ya thamani yake kubwa ya kielimu, mbinu hii inaruhusu kushiriki hati za ch
 Ifuatayo ni muendelezo wa mkutano wa Ufaransa wa 2023-2024. Kwa kila mandhari, wasilisho la chanzo huria na video zinapatikana, ambazo zinaweza kukupa mawazo ya mada unayoweza kushughulikia kwa matukio yako mwenyewe.
 
 
-Nyenzo za ziada zinazoweza kuhaririwa pia zinaweza kupatikana katika [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)!
+Rasilimali nyingine pia zinapatikana katika sehemu ya ["Educator Content"](https://planb.academy/educator-content) ya Plan ₿ Academy, nafasi ya ushirikiano ambapo waelimishaji wa Bitcoin kutoka ulimwenguni kote wanashiriki na kutoa nyenzo zao za kielimu (mawasilisho, vipeperushi, miongozo, mabango...) katika miundo tayari ya matumizi au inayoweza kubadilishwa. Lengo: kuchanganya juhudi ili tusianze toka mwanzo kila wakati!
 
 
 

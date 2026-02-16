@@ -1,5 +1,6 @@
 ---
-term: Anchor IBISOHOKA
+term: Anchor outputs
+definition: Inzira ya Lightning yemeza kubazwa imyigire y'imyigire y'ikinini hisoka yayo iyinjira, kugira ngo icara ritahe vuba.
 ---
 
 Iciyumviro gigenewe gutuma amafaranga y’ibikorwa vy’ubudandaji agenda neza mu mihora ya Lightning. Igihe cose igihugu c’umurongo wa Lightning gihinduwe, abaje muri iyo nama barahingura bagashira umukono ku *Commitment Transaction* nshasha yerekana ukuntu amahera aherutse guhabwa. Ingorane iri mu kumenya amafaranga akwiye igihe ivyo bikorwa bishirwaho, kuko amafaranga y’uruja n’uruza rwa Bitcoin ashobora guhinduka cane (aja hejuru n’agaca hasi). Iyo amafaranga yashizweho muri Commitment Transaction ya nyuma ari make cane mu gihe c’ugufunga umurongo w’uruhande rumwe, si ugucuruza gusa gushobora gutwara igihe kirekire kugira ngo kwemezwe, ariko uburyo bwo gucungera umutekano bushingiye ku gihe (timelocks) burashobora guhera maze bugatuma uwundi muntu yiba ayo mahera. Ivyimburwa vya Anchor bitorera umuti ico kibazo mu kubika igice gitoyi c’amahera muri buri Commitment Transaction vyihariye kugira ngo hazobe ugutera imbere kw’amahera. Iyo habayeho uguhagarara kw’urubuga canke amafaranga ariko araduga, ibisohoka vya Anchor bituma amafaranga yongerwa *inyuma y’aho* igikorwa co gucuruza cubatswe, kugira ngo umuhora ushobore gupfungwa ku gihe kandi mu buryo butekanye.

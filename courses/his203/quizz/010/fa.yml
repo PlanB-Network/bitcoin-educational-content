@@ -1,0 +1,9 @@
+question: کدام پلتفرم تبادل ارز خارجی که با Mt. Gox رقابت می‌کرد، در دسامبر 2010 توسط دیوید فرانسوا راه‌اندازی شد؟
+answer: Bitcoin-Central
+wrong_answers:
+  - Paymium
+  - بریت‌کوین
+  - بیتومات
+explanation: |
+ Bitcoin-Central یک پلتفرم فرانسوی بود که در ابتدا دلارها و یوروهای Liberty Reserve و همچنین انتقالات یورو معمولی را می‌پذیرفت. کد منبع آن تحت یک مجوز منبع باز (AGPL) منتشر شد. این پلتفرم در ادامه با Paymium، شرکتی که توسط Gonzague Grandval، Pierre Noizat و David François در ژوئن 2011 تأسیس شده بود و در ابتدا بر حوزه پرداخت‌ها تمرکز داشت، ادغام شد.
+reviewed: true

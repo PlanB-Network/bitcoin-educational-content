@@ -1,0 +1,9 @@
+question: Bitcoin'in en başında madencilik esas olarak ne tür bir donanımla yapılıyordu?
+answer: CPU
+wrong_answers:
+  - GPU
+  - ASIC
+  - FPGA
+explanation: |
+  Başlangıçta yazılım kişisel bir bilgisayarda çalışıyordu ve esas olarak işlemciyi (CPU) kullanıyordu.
+reviewed: false

@@ -1,8 +1,9 @@
 ---
 term: ASIC
+definition: 一個專門設計用於計算Bitcoin挖礦SHA256哈希的集成電路，提供遠優於CPU和GPU的能源效率。
 ---
 
-ASIC 是為了以最佳效率執行特定功能而設計的電子元件。在 Bitcoin Mining 的背景下，ASIC 是執行高速、低能耗 Hash 運算的專用積體電路。它們專門執行 Proof-of-Work 機制中使用的 `SHA256` Hash 功能。最初，ASIC 是指晶片的名稱。推而廣之，縮寫「ASIC」通常也指安裝此晶片的機器。因此，Bitcoin Mining 中的專用電腦有時被稱為 "ASIC「，或 」礦工"。ASIC 因其優異的能源效率和更高的 Hash 率，已逐漸取代其他 Mining 方法，例如使用處理器 (CPU) 和顯示卡 (GPU)。
+ASIC 是一種為以最佳效率執行特定功能而設計的電子元件。在比特幣挖礦的背景下，ASIC 是專用的積體電路，能以高速且低能耗進行雜湊運算。它們專門用於執行工作量證明機制中使用的 `SHA256` 雜湊函數。最初，ASIC 指的是晶片的名稱。引申而言，縮寫「ASIC」也常用來指代承載該晶片的整機。因此，專門用於比特幣挖礦的電腦有時被稱為「ASIC」或「礦工」。由於其更高的能源效率以及遠高於其他方式的雜湊率，ASIC 逐步取代了其他挖礦方法，例如比特幣早期使用的處理器（CPU），以及後來的顯示卡（GPU）。
 
 
-> *縮寫 "ASIC「 代表 」Application-Specific Integrated Circuit"。在法文中，這個詞可翻譯為「Circuit intégré spécifique à une application」*。
+首字母縮略詞「*ASIC*」在英語中代表「*Application-Specific Integrated Circuit*」。

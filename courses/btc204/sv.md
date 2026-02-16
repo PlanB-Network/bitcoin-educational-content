@@ -264,7 +264,7 @@ Intuitivt skulle man kunna tro att transaktionskostnader också representerar re
 
 
 ```plaintext
-Frais = total inputs - total outputs
+Transaktionsavgifter = total inputs - total outputs
 ```
 
 
@@ -278,10 +278,10 @@ Genom att tillämpa avgiftsformeln ser vi att det faktiskt finns "200 Sats" kvar
 
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+Transaktionsavgifter = total inputs - total outputs
+Transaktionsavgifter = 10 000 - (4 000 + 5 800)
+Transaktionsavgifter = 10 000 - 9 800
+Transaktionsavgifter = 200
 ```
 
 
@@ -1696,7 +1696,7 @@ Om jag till exempel har en UTXO från ett P2P-köp på Bisq med Charles, kan jag
 Taggning är en bra metod som hjälper till att komma ihåg ursprunget eller den avsedda destinationen för en UTXO, vilket därför underlättar hanteringen av medel och optimeringen av integriteten. Faktum är att din Bitcoin Wallet säkert säkrar flera UTXO:er. Om källorna till dessa UTXO:er är olika kanske du inte vill slå samman dessa UTXO:er i framtiden, eftersom du annars skulle kunna avslöja deras gemensamma Ownership. Genom att märka alla dina delar ordentligt kan du vara säker på att du kommer ihåg var de kom ifrån när du behöver använda dem, även om det är flera år från nu.
 
 
-### Vad är corner control?
+### Vad är coin control?
 
 
 Den aktiva användningen av märkning blir ännu mer intressant när den kombineras med ett myntkontrollalternativ i din portföljprogramvara.
@@ -2195,7 +2195,7 @@ I det här exemplet kommer miners att föredra transaktion A, trots att transakt
 
 ```text
 TXA : 1994 / 141 = 14 sats/vB
-TXB : 2640 / 220 = 12 sats / vB
+TXB : 2640 / 220 = 12 sats/vB
 ```
 
 
@@ -2483,7 +2483,7 @@ CoinJoin erbjuder dock också möjligheten att stärka sekretessen inför en ana
 ![BTC204](assets/sv/118.webp)
 
 
-I det första exemplet såg vi hur CoinJoin kan skydda ett rums integritet i förhållande till dess förflutna, och i det andra exemplet hur den också kan säkra ett rums historia i förhållande till dess framtid. Det var därför jag nämnde att CoinJoin bör ses som en engångshändelse som segmenterar en del historia i båda riktningarna:
+I det första exemplet såg vi hur coinjoin kan skydda en mynts integritet i förhållande till dess förflutna, och i det andra exemplet hur det också kan säkra en mynts historik i förhållande till dess framtid. Det är därför jag nämnde att coinjoin bör uppfattas som en punktinsats som segmenterar en mynthistorik i båda riktningarna:
 
 
 ![BTC204](assets/sv/119.webp)
@@ -2771,7 +2771,7 @@ Exchange-hanteringsmetoderna skilde också de två implementationerna åt. Med W
 ![BTC204](assets/sv/139.webp)
 
 
-Med Wabisabi har Wasabi version 2.0 anpassat sitt tillvägagångssätt för coinjoins för att matcha det för Whirlpool. Även om CoinJoin-transaktioner fortfarande är mycket stora, är det nu möjligt att kedja flera på varandra följande cykler enligt Whirlpool-modellen. Särskild uppmärksamhet har också ägnats åt hanteringen av Exchange-kursen: till skillnad från Wasabi 1.0, där Exchange-kursen var direkt kopplad till användarinmatningar, försöker Wabisabi att dela upp Exchange-kursen i flera små summor, uppdelade i lika stora valörer för alla deltagare.
+Med Wabisabi har version 2.0 anpassat sin coinjoin-strategi för att närma sig Whirlpool-modellen. Även om coinjoin-transaktioner fortfarande är mycket stora, är det nu möjligt att kedja flera på varandra följande cykler, i enlighet med Whirlpool-modellen. Särskild vikt har också lagts vid hanteringen av växel: till skillnad från Wasabi 1.0, där växeln var direkt kopplad till användarnas inputs, försöker Wabisabi att dela upp växeln i flera mindre belopp, fördelade i lika stora valörer till alla deltagare.
 
 
 Låt oss illustrera detta med ett förenklat exempel som bara omfattar 2 användare: Alice vill blanda 115 000 Sats och Bob, 210 000 Sats. Om man bortser från avgifter skulle en CoinJoin-transaktion med Wasabi 1.0 ha genererat 3 utgångar på 100 000 Sats, plus 1 Exchange på 15 000 Sats för Alice och 1 Exchange på 10 000 Sats för Bob. Exchange-utgångarna skulle fortfarande vara kopplade till ingångarna:
@@ -3021,7 +3021,7 @@ Låt oss ta en titt på de olika stadierna av en Whirlpool CoinJoin inom dessa k
 Utgångspunkten för alla Whirlpool CoinJoin är **deposit**-kontot. Detta är det konto som du automatiskt använder när du skapar en ny Bitcoin Wallet. Detta konto måste krediteras med de bitcoins som du vill blanda.
 
 
-Tx0" är det första steget i Whirlpool:s blandningsprocess. Syftet är att förbereda och utjämna UTXO:erna för CoinJoin och dela upp dem i enheter som motsvarar mängden av den valda poolen för att säkerställa en homogen blandning. De UTXO:er som utjämnats på detta sätt skickas sedan till **premix**-kontot. När det gäller skillnaden som inte kan komma in i poolen, separeras den till ett specifikt konto: **bad bank** (eller "doxxic change").
+`Tx0` är det första steget i Whirlpool:s blandningsprocess. Syftet är att förbereda och utjämna UTXO:erna för CoinJoin och dela upp dem i enheter som motsvarar mängden av den valda poolen för att säkerställa en homogen blandning. De UTXO:er som utjämnats på detta sätt skickas sedan till **premix**-kontot. När det gäller skillnaden som inte kan komma in i poolen, separeras den till ett specifikt konto: **bad bank** (eller "doxxic change").
 
 
 Denna inledande transaktion `Tx0` används också för att betala serviceavgiften till CoinJoin-samordnaren. Till skillnad från de följande stegen är denna transaktion inte ett samarbete, så användaren måste bära hela kostnaden för Mining:
@@ -3077,7 +3077,7 @@ I slutet av dessa första mixar kommer **premix**-kontot att vara tomt, medan v�
 ### Remixer
 
 
-Efter den första mixningen överförs UTXO:erna till kontot **postmix**. Detta konto samlar UTXO som redan har mixats och de som väntar på remixning. När Whirlpool-kunden är aktiv är UTXO:er som finns i **postmix**-kontot automatiskt tillgängliga för omblandning och kommer att slumpmässigt väljas ut för att delta i dessa nya cykler.
+Efter att den initiala mixen har genomförts överförs UTXO:erna till **postmix**-kontot. Detta konto samlar UTXO:er som redan har mixats samt de som väntar på remixning. När Whirlpool-klienten är aktiv är UTXO:erna i **postmix**-kontot automatiskt tillgängliga för remixning och kommer att väljas slumpmässigt för att delta i dessa nya cykler.
 
 
 Som en påminnelse är remixer då 100% gratis: inga ytterligare serviceavgifter eller Mining-avgifter krävs. Att behålla UTXO:er på **postmix**-kontot håller därför deras värde intakt och förbättrar deras anonsets samtidigt. Det är därför det är viktigt att låta dessa mynt delta i flera CoinJoin-cykler. Det kostar dig absolut ingenting och ökar deras anonymitetsnivåer.
@@ -3299,7 +3299,7 @@ En enkel betalningstransaktion med 1 input och 2 outputs kan t.ex. bara tolkas p
 ![BTC204](assets/sv/165.webp)
 
 
-Å andra sidan har ett Whirlpool 5x5-hörn $1\.496$ möjliga kombinationer:
+Däremot uppvisar en coinjoin som är strukturerad enligt Whirlpool 5x5-modellen $1\,496$ möjliga kombinationer:
 
 
 ![BTC204](assets/sv/166.webp)
@@ -3523,7 +3523,7 @@ Boltzmann-poängen beräknas genom att antalet tolkningar där en viss händelse
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}
@@ -3547,9 +3547,9 @@ Om vi tar exemplet med en Whirlpool 8x8 Surge Cycle CoinJoin, skulle Boltzmann-t
 När det gäller en enkel transaktion med en enda inmatning och två utmatningar är situationen dock annorlunda:
 
 
-| Output 0 | Output 1 |
+| %       | Output 0 | Output 1 |
 |---------|----------|----------|
-| Input 0 | 100% | 100% |
+| Input 0 | 100%     | 100%     |
 
 Här ser vi att sannolikheten för att varje output härrör från input #0 är 100%. En lägre sannolikhet återspeglar således större konfidentialitet, vilket försvagar de direkta kopplingarna mellan inputs och outputs.
 
@@ -4060,7 +4060,7 @@ Denna naiva metod innebär dock en hög risk när det gäller förtroende. Det f
 ![BTC204](assets/sv/201.webp)
 
 
-Dessutom finns det ingen garanti för att Alice inte kommer att ta emot Bob:s privata nyckel $B$ och aldrig vidarebefordra sin privata nyckel $A$ i Exchange. Denna Exchange bygger därför på överdrivet förtroende mellan parterna och är ineffektiv när det gäller att säkerställa en säker hemlig överföring av Ownership.
+Dessutom finns det ingen garanti för att Alice, efter att ha tagit emot Bobs privata nyckel $B$, skickar sin privata nyckel $A$ i utbyte. Detta utbyte bygger därför på ett massivt förtroende mellan parterna och visar sig vara ineffektivt för att säkerställa en hemlig överföring av äganderätt på ett säkert sätt.
 
 
 ![BTC204](assets/sv/202.webp)

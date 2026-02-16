@@ -1,5 +1,6 @@
 ---
-term: ZEROCONF
+term: Zeroconf
+definition: Risicovolle praktijk waarbij een onbevestigde transactie als definitief wordt beschouwd, kwetsbaar voor dubbele bestedingen.
 ---
 
 Een riskante praktijk om een Bitcoin transactie als definitief te behandelen, en door te gaan met het uitvoeren van de bijbehorende tegenhandeling (zoals de verkoop van een goed of dienst), voordat de transactie daadwerkelijk is opgenomen in een blok op de Blockchain. Onbevestigde transacties, of zeroconf, zijn kwetsbaar voor double-spend aanvallen, omdat ze nog niet onherroepelijk in de Ledger zijn opgenomen. Zeroconf kan worden overwogen in zeer specifieke contexten, waar snelheid een prioriteit is, zoals in het geval van kleine commerciële transacties of in het geval van een transactie tussen bekenden. In deze situaties wordt het risico van dubbele uitgaven vaak aanvaardbaar geacht in vergelijking met het voordeel van een snelle transactie. Voor significante transacties, vooral wanneer de afzender onbekend is, is het echter cruciaal om te wachten op meerdere bevestigingen voordat de transactie als onveranderlijk wordt beschouwd. De algemeen aanvaarde standaard is om te wachten op 6 bevestigingen, wat betekent dat er 5 extra blokken gemijnd moeten worden na degene die de transactie bevat, om deze als definitief te beschouwen.

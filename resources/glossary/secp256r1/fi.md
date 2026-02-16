@@ -1,6 +1,7 @@
 ---
 term: SECP256R1
 
+definition: NIST-standardin elliptinen käyrä, jota Bitcoin ei käytä, vaan suosii secp256k1-käyrää.
 ---
 NIST:n julkisen avaimen salausstandardissa määritellylle elliptiselle käyrälle annettu nimi. Siinä käytetään 256 bitin prime-kenttää ja elliptisen käyrän yhtälöä $y^2 = x^3 + ax + b$, jossa on vakiot:
 

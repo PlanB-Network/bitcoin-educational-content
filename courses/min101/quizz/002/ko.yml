@@ -1,0 +1,9 @@
+question: mempool에 관한 설명 중 옳은 것은 무엇인가요?
+answer: 각 노드는 자신만의 mempool을 가집니다
+wrong_answers:
+  - 단 하나의 고유한 mempool이 존재합니다
+  - mempool은 각 블록에 포함된 파일입니다
+  - mempool은 중앙 서버입니다
+explanation: |
+  mempool은 각 노드에 로컬로 존재하므로, 각 노드가 적용하는 규칙에 따라 노드마다 내용이 다를 수 있습니다.
+reviewed: false

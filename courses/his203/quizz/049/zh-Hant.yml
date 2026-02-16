@@ -1,0 +1,11 @@
+question: 誰是 2012 年 8 月透過加密貨幣 PPCoin 實施第一個混合入股證明的幕後策劃？
+answer: Sunny King
+wrong_answers:
+  - Vitalik Buterin
+  - 來自遠方
+  - Ben Laurie
+explanation: |
+ Sunny King 是該專案主要開發人員的筆名。我們的想法是實現一種混合模式，在這種模式下，除了傳統的 mining 挖出的區塊外，某些區塊還通過保存證明（基於幣齡概念）來驗證。
+ (以幣齡概念為基礎)來驗證某些區塊，此外還有傳統 mining 挖出的區塊。Sunny King 和他的合作者於 2012 年 8 月推出了 PPCoin
+ (後來更名為 Peercoin）。他們將自己的解決方案描述為「長期節能」。
+reviewed: true

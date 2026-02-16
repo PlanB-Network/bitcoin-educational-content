@@ -1,0 +1,9 @@
+question: Quale problema pratico cerca di risolvere soprattutto una pool di mining?
+answer: La varianza dei ricavi
+wrong_answers:
+  - La difficoltà della rete
+  - La dimensione dei blocchi
+  - Il prezzo degli ASIC
+explanation: |
+  Mutualizzando l'hashrate, una pool trasforma un reddito molto irregolare in pagamenti più regolari. Si tratta di una riduzione della varianza dei ricavi per il miner.
+reviewed: false

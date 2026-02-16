@@ -1,0 +1,11 @@
+question: Fitur apa yang ditambahkan oleh layanan pertukaran mata uang asing BitInstant pada bulan Desember 2011 yang dieksploitasi oleh Robert Faiella, alias BTCKing, untuk bisnis penjualan kembali web gelapnya?
+answer: Setoran tunai
+wrong_answers:
+  - Pembelian gratis
+  - Transfer instan
+  - Kepatuhan terhadap peraturan
+explanation: |
+ BitInstant menambahkan metode pembayaran ini ke dalam penawarannya pada tanggal 21 Desember 2011. Hal ini memungkinkan warga AS untuk menyetor uang tunai di lokasi tertentu dan
+ dikreditkan hampir seketika dalam dolar pada platform pertukaran pilihan mereka. Robert Faiella, alias BTCKing, mengambil keuntungan dari kerahasiaan relatif
+ metode ini untuk mengoperasikan bisnis penjualan kembali di Silk Road, dengan biaya yang lebih tinggi.
+reviewed: true

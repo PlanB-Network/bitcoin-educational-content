@@ -1,0 +1,11 @@
+question: Hvilken hendelse den 15. april 2011 ble kalt "Black Friday" av pokerspillere?
+answer: Store amerikanske nettpokerplattformer stengt av FBI for omgåelse av UIGEA
+wrong_answers:
+  - Tilbud om noen online pokersider tilbød store kampanjer på rake og buy-in avgifter
+  - Stor feil i programvare for nettpoker gjorde det mulig å bruke penger på å kjøpe smykker og golfballer
+  - Amatørspilleren Chris Moneymaker har vunnet hovedturneringen i World Poker Championship etter å ha trent på nettet
+explanation: |
+ De ble beskyldt for å utgi seg for å være vanlige kjøpmenn for å få bankene sine til å godkjenne innkommende overføringer, noe som var forbudt i henhold til Unlawful Internet Gambling
+ Enforcement Act av 2006. Nedleggelsen var katastrofal for nettpokerbransjen. Det førte til opprettelsen av flere bitcoin-pokerplattformer, ettersom
+ kryptovalutaen ikke var underlagt de samme restriksjonene.
+reviewed: true

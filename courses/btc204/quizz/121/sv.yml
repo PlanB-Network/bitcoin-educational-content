@@ -1,10 +1,9 @@
-question: Hur fungerar stamfasen i Maskrosprotokollet?
-answer: Transaktionen skickas genom en slumpmässig väg av noder
+question: Vilken BIP formaliserade Dandelion-sändningsprotokollet?
+answer: BIP156
 wrong_answers:
-  - Transaktionen sänds omedelbart till alla peers i källnoden
-  - Transaktionen lagras temporärt i en central nod innan den sänds ut
-  - Transaktionen krypteras stegvis vid varje steg i sändningen
+  - BIP34
+  - BIP47
+  - BIP324
 explanation: |
-  Dandelion använder först en stamfas där transaktionen skickas genom en slumpmässig väg av noder. Transaktionen sänds sedan ut till hela nätverket i fluff-fasen.
-  
+  Dandelion formaliserades i BIP156, utan att slutligen integreras i Bitcoin Core.
 reviewed: false

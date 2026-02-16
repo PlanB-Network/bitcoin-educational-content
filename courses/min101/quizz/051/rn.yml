@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo bukenewe mu gucukura Bitcoin?
+answer: Umuyagankuba
+wrong_answers:
+  - Amazi
+  - Amabuye y'agaciro
+  - Izahabu
+explanation: |
+  Gucukura ni igikorwa co kwemeza (validation) gikoresha umuyagankuba biciye ku mashingini.
+reviewed: false

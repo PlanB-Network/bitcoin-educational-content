@@ -1,5 +1,6 @@
 ---
-term: AVG. IGIHE C'UMUZIGURU
+term: Igihe kiringaniye c'uruziga
+definition: Icyuma cyapima igihe cyerekabye kugira ikinini cyabahe, kuva mu mahoro y'ubwiyunge na buzirahaye bw'amakuru.
 ---
 
 Igihe c'uruziga ni ikimenyetso gikoreshwa mu kugereranya igihe Mining pool ifata kugira ngo ironke igice, bishingiye ku ngorane z'uruja n'uruza na Hashrate y'ikidengeri. Iharurwa mu kugabanya umubare w'imigabane yitezwe ikenewe kugira ngo umuntu aronke igice gibereye n'igice ca Hashrate c'ikidengeri. Nk’akarorero, iyo Mining pool ifise abacukuzi 200, kandi umwe wese akazana imigabane 4 ku segonda, ububasha bwose bwo guharura bw’ico kidengeri ni imigabane 800 ku segonda:

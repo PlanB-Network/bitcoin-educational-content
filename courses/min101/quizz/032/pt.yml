@@ -1,0 +1,9 @@
+question: Qual era o valor do subsídio de bloco no lançamento do Bitcoin em 2009?
+answer: 50 BTC
+wrong_answers:
+  - 25 BTC
+  - 12,5 BTC
+  - 100 BTC
+explanation: |
+  O subsídio inicial era de 50 BTC por bloco, antes das divisões sucessivas.
+reviewed: false

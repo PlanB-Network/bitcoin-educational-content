@@ -1,0 +1,9 @@
+question: 2010年中盤から2011年中盤にかけて、マイニング難易度は何倍になりましたか？
+answer: 1000倍
+wrong_answers:
+  - 100倍
+  - 500倍
+  - 50倍
+explanation: |
+  この期間に、特にGPUの使用により、難易度は1,000倍に上昇しました。
+reviewed: false

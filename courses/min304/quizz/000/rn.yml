@@ -1,0 +1,13 @@
+question: Ni akahe gashimwe ka Mining kariko ubu mu mmuhora wa Bitcoin?
+answer: Guhingura ama bitcoins mashasha n’amafaranga akatwa kuri buri gikorwa
+wrong_answers:
+  - Guhingura ama bitcoins mashasha gusa
+  - Amafaranga akatwa kuri buri gikorwa
+  - Iremwa ry’ama bitcoins mashasha, amafaranga akatwa kuri buri gikorwa, n’akarusho ku mu miner yihuta cane
+explanation: |
+  Agashimwe ka mining gahari ubu karimwo ibintu bibiri. Ku ruhande rumwe,
+  harimwo kurema ama bitcoins mashasha, bikaba vyaragabanutse kuva ku ma bitcoins 50 buri minota cumi
+  mu ntango gushika ku ma bitcoins 6,25 uno musi (2023). Ku rundi ruhande, 
+  harimwo amafaranga y’ibikorwa (frais de transaction), canke azwi kandi kw'izina mining fees, 
+  avuye mu bikorwa (transaction) umu miner ahisemwo gushiramwo muri block yiwe.
+reviewed: true

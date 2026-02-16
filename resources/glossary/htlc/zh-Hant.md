@@ -1,5 +1,6 @@
 ---
 term: HTLC
+definition: 以在時限內揭示秘密為條件的智能合約。
 ---
 
 代表 "*Hashed Timelock Contract*"。這是主要用於 Lightning 的 Smart contract 機制。有時也會出現在原子交換中。基本上，HTLC 使金錢轉移以揭露一個秘密為條件，也包含一個時間條件，以在交易失敗時保護寄件者的金錢。

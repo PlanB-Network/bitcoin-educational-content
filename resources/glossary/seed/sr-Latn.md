@@ -1,5 +1,6 @@
 ---
-term: GRAIN
+term: Seed
+definition: 512-bitna informacija koja omogućava generisanje svih ključeva za HD Bitcoin novčanik.
 ---
 
 U specifičnom kontekstu hijerarhijski determinističkog portfolija Bitcoin, seed je 512-bitni deo informacija izveden iz slučajnog događaja. Koristi se za determinističko i hijerarhijsko generate skupa privatnih ključeva i njihovih odgovarajućih javnih ključeva za Bitcoin portfolio. seed se često meša sa samom frazom za oporavak. Ali to nije ista stvar. seed se dobija primenom funkcije `PBKDF2` na Mnemonic frazu i bilo koji passphrase.

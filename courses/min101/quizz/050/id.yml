@@ -1,0 +1,9 @@
+question: Kapan transaksi dalam suatu blok menjadi terkonfirmasi?
+answer: Ketika blok tersebut ditambahkan ke blockchain
+wrong_answers:
+  - Ketika transaksi ditandatangani oleh penambang
+  - Ketika transaksi disebarkan oleh node
+  - Ketika penambang mulai mencari bukti
+explanation: |
+  Konfirmasi pembayaran di Bitcoin adalah konsekuensi dari penambahan blok yang memuatnya ke dalam blockchain.
+reviewed: false

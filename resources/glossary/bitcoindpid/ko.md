@@ -1,5 +1,6 @@
 ---
-term: bitcoind.PID
+term: bitcoind.pid
+definition: 실행 중인 bitcoind 인스턴스의 프로세스 식별자(PID)를 포함하는 파일.
 ---
 
 bitcoind 소프트웨어(Bitcoin daemon)가 실행하는 동안 생성된 파일입니다. 이 파일에는 활성 bitcoind 인스턴스의 프로세스 식별자(PID)가 포함되어 있습니다. 이 파일은 소프트웨어의 프로세스를 추적하고 관리하는 데 사용되며, 다른 애플리케이션이나 스크립트가 이를 쉽게 식별하고 필요한 경우 상호 작용할 수 있도록 합니다.

@@ -1,0 +1,10 @@
+question: Mikä ongelma Namecoinin, Bitcoin:n ensimmäisen vaihtoehtoisen kryptovaluutan, oli tarkoitus ratkaista?
+answer: Verkkotunnusten keskittäminen
+wrong_answers:
+  - Verkkomaineen hallinta
+  - mining:n varianssin ongelma
+  - Bitcoinien epätasainen jakautuminen
+explanation: |
+ Verkkotunnusjärjestelmää valvoo ICANN, joka on Kalifornian lain nojalla perustettu voittoa tavoittelematon yhtiö, mikä aiheuttaa sensuuriongelmia. BitDNS-konsepti
+ (myöhemmin nimetty uudelleen Namecoiniksi) koostui siitä, että näiden verkkotunnusten hallinta sijoitettiin Bitcoin:n kaltaiseen lohkoketjuun tämän ongelman kiertämiseksi.
+reviewed: true

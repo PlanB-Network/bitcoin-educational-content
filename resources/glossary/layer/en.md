@@ -1,5 +1,6 @@
 ---
-term: OVERLAY
+term: Layer
+definition: Protocol built on top of Bitcoin to extend its capabilities, such as the Lightning Network.
 ---
 
 Protocol or network built on top of the main Bitcoin network. It uses the Bitcoin network as a foundation and is therefore dependent on its protocol. However, the Bitcoin network is not dependent on its overlays. An example of such an overlay is Lightning Network.

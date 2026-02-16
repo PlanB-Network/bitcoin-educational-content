@@ -1,6 +1,7 @@
 ---
-term: BITCOIN QT
+term: Bitcoin QT
 
+definition: Bitcoin-klient med grafisk grensesnitt utgitt i 2011, omdøpt til Bitcoin Core i 2014.
 ---
 Bitcoin QT er en Bitcoin-klient med et grafisk grensesnitt som ble lansert i mai 2011. Den følger i fotsporene til klienten som Satoshi selv skapte. I 2014 ble Bitcoin QT omdøpt til "Bitcoin Core". Det er nå referanseimplementeringen av Bitcoin-protokollen. Den har vært pakket med `bitcoind` siden versjon 0.5. Selv i dag kalles det grafiske grensesnittet til Bitcoin Core `bitcoin-qt` som en referanse til programvarens opprinnelse.
 

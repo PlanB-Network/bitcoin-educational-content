@@ -1,5 +1,6 @@
 ---
-term: Bitcoin Satoshi Vision (BSV)
+term: 比特幣薩托希願景 (BSV)
+definition: 2018年從比特幣現金（Bitcoin Cash）硬分叉出來的加密貨幣，具有極大的區塊大小。
 ---
 
 由 Bitcoin Cash (BCH) 的 Hard Fork 所產生的加密貨幣系統，而 Bitcoin Cash (BCH) 本身就是 Bitcoin (BTC) 的 Fork。Bitcoin SV Fork 發生於 2018 年 11 月 15 日，在區塊 556,766 處，原因是 Bitcoin Cash 社群內部存在分歧，特別是關於區塊大小和 Bitcoin 的創造者 Satoshi Nakamoto 的假想。兩個派系發生了衝突：
@@ -12,4 +13,3 @@ term: Bitcoin Satoshi Vision (BSV)
 Bitcoin SV 有別於 Bitcoin Cash，更有別於 Bitcoin，因為它的區塊大小限制明顯較高。這個特性的目的是要符合其支持者所認為的 Satoshi Nakamoto 對 Bitcoin 的原始願景。
 
 
-![](../../dictionnaire/assets/50.webp)

@@ -1,5 +1,6 @@
 ---
-term: VARIANCE
+term: Varians
+definition: Fluktuasi dalam pendapatan penambangan karena sifat probabilistik dari pencarian blok yang valid.
 ---
 
 Dalam konteks penambangan, _variance_ mengacu pada fluktuasi pendapatan penambang karena sifat probabilistik dalam menemukan blok yang valid. Bahkan dengan daya komputasi yang konstan, waktu yang dibutuhkan untuk menemukan sebuah blok dapat sangat bervariasi. Akibatnya, penambang dapat pergi dalam waktu yang lama tanpa menerima hadiah, diikuti dengan periode penghasilan yang tinggi.

@@ -1,9 +1,9 @@
-question: Secondo il whitepaper Bitcoin, quale soluzione propone Satoshi Nakamoto per risolvere il problema double-spending?
+question: Secondo il whitepaper di Bitcoin, quale soluzione propone Satoshi Nakamoto per risolvere il problema del double-spending?
 answer: Un server di timestamp distribuito peer-to-peer che utilizza la prova computazionale dell'ordine cronologico delle transazioni
 wrong_answers:
   - Un server centralizzato con firme di soglia provenienti da più autorità fidate
   - Una federazione di server fissi in cui la maggioranza deve approvare ogni transazione
   - Un sistema di firma cieca con parte centrale fidata per la prevenzione della doppia spesa
 explanation: |
-  Satoshi Nakamoto ha proposto specificamente l'uso di un "server di timestamp distribuito peer-to-peer per generate dimostrare in modo computazionale l'ordine cronologico delle transazioni", come dichiarato nel whitepaper Bitcoin. La parola chiave è "distribuito", ovvero nessun punto di controllo centrale. Le risposte sbagliate rappresentano i precedenti tentativi falliti di moneta digitale che si basavano su approcci centralizzati o semi-centralizzati, che li rendevano vulnerabili alla censura e al fallimento - esattamente i problemi che il Bitcoin è stato progettato per risolvere attraverso una vera decentralizzazione.
-reviewed: false
+  Satoshi Nakamoto ha proposto specificamente l'uso di un "server di timestamp distribuito peer-to-peer per generare una dimostrazionale computazionale dell'ordine cronologico delle transazioni", come dichiarato nel whitepaper di Bitcoin. La parola chiave è "distribuito", ovvero nessun punto di controllo centrale. Le risposte sbagliate rappresentano i precedenti tentativi falliti di moneta digitale che si basavano su approcci centralizzati o semi-centralizzati, che li rendevano vulnerabili alla censura e al fallimento, esattamente i problemi per cui Bitcoin è stato progettato, per risolvere attraverso una vera decentralizzazione.
+reviewed: true

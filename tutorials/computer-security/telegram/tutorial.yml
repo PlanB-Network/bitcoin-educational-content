@@ -21,11 +21,12 @@ license: CC-BY-SA-V4
 original_language: it
 proofreading:
   - language: it
-    last_contribution_date: 2025-04-08
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
       - f205sats
-    reward: 1.14
+      - AlbertoMagno21
+    reward: 0
   - language: en
     last_contribution_date:
     urgency: 1
@@ -35,7 +36,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.38
+    reward: 3.39
   - language: de
     last_contribution_date:
     urgency: 1
@@ -50,12 +51,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.38
+    reward: 3.39
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.38
+    reward: 3.39
   - language: fr
     last_contribution_date:
     urgency: 1
@@ -65,7 +66,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.57
+    reward: 5.58
   - language: id
     last_contribution_date: '2025-08-18'
     urgency: 1
@@ -76,17 +77,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.57
+    reward: 5.58
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.38
+    reward: 3.39
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.38
+    reward: 3.39
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -96,7 +97,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.38
+    reward: 3.39
   - language: sr-Latn
     last_contribution_date: '2025-08-19'
     urgency: 1
@@ -113,22 +114,22 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.57
+    reward: 5.58
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.47
+    reward: 4.48
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.47
+    reward: 4.48
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.38
+    reward: 3.39
   - language: sv
     last_contribution_date:
     urgency: 1
@@ -138,29 +139,29 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.38
+    reward: 3.39
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.47
+    reward: 4.48
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.47
+    reward: 4.48
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.57
+    reward: 5.58
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.38
+    reward: 3.39
   - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.47
+    reward: 4.48

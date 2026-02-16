@@ -1,11 +1,11 @@
 ---
-term: BİZANS HATA TOLERANSI (BFT)
+term: Bizans hata toleransı (BFT)
+definition: Hatalı veya kötü niyetli düğümlere rağmen dağıtık bir sistemde güvenilir mutabakat sağlayan kavram.
 ---
 
 Hatalı veya kötü niyetli düğümlerin varlığında bile güvenilir ve güvenli fikir birliği sağlamak için dağıtılmış sistemlerde kullanılan bir kavram.
 
 
-Bu kavram, aktörlerin birbirlerine güvenmeyebileceği dağıtık bir sistemde koordinasyon ve karar verme zorluklarını göstermek için kullanılan bir metafor olan [Bizans Generalleri Sorunu](/dictionnaire/P.md#prob.-des-généraux-byzantins) ile ilgilidir.
+Bu kavram, aktörlerin birbirlerine güvenmeyebileceği dağıtık bir sistemde koordinasyon ve karar verme zorluklarını göstermek için kullanılan bir metafor olan Bizans Generalleri Sorunu ile ilgilidir.
 
 
-> ► *Bitcoin tarafından kullanılan Proof-of-Work (PoW) algoritması "Bizans Hata Toleranslı (BFT)" olarak bilinen bir konsensüs mekanizmasıdır Daha fazla bilgi için **[BYZANTINE GENERALS PROBLEM](/dictionnaire/P.md#prob.-des-généraux-byzantins)** tanımına bakın.*

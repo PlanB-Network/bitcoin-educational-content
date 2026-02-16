@@ -1,5 +1,6 @@
 ---
-term: ATOMÄRA BETALNINGAR MED FLERA VÄGAR
+term: Atomic multi-path payments
+definition: En förbättrad version av flerstigiga betalningar på Lightning där varje fragment har en egen hemlighet, vilket garanterar att betalningen regleras helt eller inte alls.
 ---
 
 Förbättrad version av MPP (*Multi-Path Payments*) där varje betalningsfragment har en distinkt partiell hemlighet, vilket säkerställer att transaktionen avvecklas atomiskt, dvs. i sin helhet eller inte alls.

@@ -1,6 +1,7 @@
 ---
 term: PSBT
 
+definition: Standardisoitu muoto osittain allekirjoitettujen Bitcoin-siirtojen rakentamiseen ja jakamiseen.
 ---
 Lyhenne sanoista "Partially Signed Bitcoin Transaction". Se on BIP174:n myötä käyttöön otettu määrittely, jonka tarkoituksena on standardoida tapa, jolla keskeneräiset transaktiot muodostetaan Bitcoiniin liittyvissä ohjelmistoissa, kuten lompakko-ohjelmistoissa. PSBT kiteyttää transaktion, jonka syötteet eivät välttämättä ole täysin allekirjoitettuja. Se sisältää kaikki tarvittavat tiedot, jotta osallistuja voi allekirjoittaa transaktion ilman lisätietoja. Näin ollen PSBT voi olla kolmessa eri muodossa:
 

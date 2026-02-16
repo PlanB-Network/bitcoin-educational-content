@@ -1,0 +1,9 @@
+question: Ni sharti gani linalofanya bloku kuwa halali katika Bitcoin?
+answer: SHA256d(kichwa cha bloku) <= lengo
+wrong_answers:
+  - SHA256d(kichwa cha bloku) >= lengo
+  - SHA256d(bloku) >= lengo
+  - SHA256d(kichwa cha bloku) > lengo
+explanation: |
+  Ili bloku iwe halali kwenye Bitcoin, hashi ya kichwa chake, ikichukuliwa kama nambari, lazima iwe chini ya au sawa (<=) na lengo.
+reviewed: false

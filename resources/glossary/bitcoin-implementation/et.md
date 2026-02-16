@@ -1,6 +1,7 @@
 ---
-term: BITCOIN RAKENDAMINE
+term: Bitcoini implementatsioon
 
+definition: Tarkvara, mis rakendab Bitcoin protokolli reegleid, kusjuures Bitcoin Core on viiterakendus.
 ---
 Viitab tarkvarale, mis kohaldab ja järgib Bitcoini protokollis määratletud reegleid. See, mida üldiselt nimetatakse "Bitcoiniks", on elektrooniline rahasüsteem. See on protokoll, mis määrab kindlaks reeglid. Seda esindavad konkreetselt sõlmed, mis moodustavad võrgu. Sellel süsteemil ei ole konkreetselt koodi. See on lihtsalt hulk laiaulatuslikke vaikimisi kehtivaid reegleid, mis on kehtestatud kasutajate konsensusega nende sõlmede kaudu. Kuid need, millel on arvutikood ja mida saab seega arendada, hooldada ja muuta, on pigem Bitcoini sõlmede tarkvara. Need on Bitcoini protokolli sõltumatud rakendused, mis saavad ühenduda ülejäänud võrguga.
 

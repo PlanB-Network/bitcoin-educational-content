@@ -1,0 +1,11 @@
+question: Koji problem je deterministički koncept wallet rešio, a formalizovao ga je developer Gregory Maxwell u junu 2011?
+answer: Potrebа za redovnim rezervnim kopijama privatnih ključeva radi osiguranja bitkoina
+wrong_answers:
+  - Rizik od piraterije povezan sa čuvanjem bitkoina na uređaju povezanom s internetom
+  - Ranljivost na brute force napade zbog niske entropije generatora slučajnih brojeva
+  - Nemogućnost ponovnog korišćenja naloga na drugom uređaju
+explanation: |
+ Deterministički wallets primenjuju izvođenje ključeva: umesto da budu generated pojedinačno nasumično, kao što je to rađeno u glavnom softveru, privatni ključevi se izvode 
+ deterministički iz informacija (nazvanih seed) koristeći kriptografske funkcije. Ova metoda je primenjena od strane BitcoinSpinner i Electrum softvera 
+ wallets krajem 2011.
+reviewed: true

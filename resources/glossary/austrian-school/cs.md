@@ -1,5 +1,6 @@
 ---
-term: RAKOUSKÁ ŠKOLA
+term: Rakouská škola
 
+definition: Ekonomická myšlenková škola hájící volný trh, soukromý majetek a kritizující státní zásahy. Filozofie sdílená mnoha bitcoin nadšenci.
 ---
 Ekonomický směr, který teoreticky chápe trh jako soubor dobrovolných interakcí jednotlivců, zdůrazňuje spontánnost ekonomického řádu a kritizuje státní zásahy. Rakouská škola obhajuje roli soukromého vlastnictví, smluvní svobody a volného obchodu a zároveň kritizuje rušivé účinky měnové tvorby na ekonomiku. Její autoři, jako například Carl Menger, Ludwig von Mises a Friedrich Hayek, vypracovali koncepty, jako je tvorba cen, funkce peněz, dynamika kapitálu a subjektivní teorie hodnoty. Rakouská škola kritizuje socialismus pro jeho neschopnost provádět efektivní ekonomické kalkulace a upřednostňuje liberální přístup. Oceňuje volný trh a státní intervencionismus považuje za zdroj ekonomické nerovnováhy. K těmto myšlenkám se hlásí řada bitcoinových nadšenců, kteří věří, že bitcoin představuje nástroj, který je s touto filozofií v souladu díky své distribuované povaze, omezenosti tvorby peněz a schopnosti fungovat nezávisle na státních zásazích.

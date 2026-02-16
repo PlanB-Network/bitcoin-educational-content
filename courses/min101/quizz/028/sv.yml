@@ -1,0 +1,9 @@
+question: Vad motsvarar blocksubventionen?
+answer: Monetär skapelse
+wrong_answers:
+  - Transaktionsavgifter
+  - Användarinsättning
+  - Spamstraff
+explanation: |
+  Subventionen är den del av belöningen som skapar nya bitcoins ex nihilo enligt protokollreglerna.
+reviewed: false

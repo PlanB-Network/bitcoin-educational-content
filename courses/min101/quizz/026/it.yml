@@ -1,0 +1,9 @@
+question: Quale parametro di Bitcoin Core fissa la soglia di relay minima predefinita?
+answer: minRelayTxFee
+wrong_answers:
+  - minConfirmTxFee
+  - relayTxWeight
+  - mempoolMinBits
+explanation: |
+  I nodi applicano politiche locali e Bitcoin Core utilizza il parametro minRelayTxFee per la soglia minima di relay.
+reviewed: false

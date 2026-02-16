@@ -1,0 +1,9 @@
+question: Zašto je nadogradnji Pay to Script Hash bilo potrebno 55% hash snage mreže da bi bila aktivirana?
+answer: Tako da je "unazad kompatibilan" i ne stvara razdvajanje lanca
+wrong_answers:
+  - Zato što upravljanje protokolom zavisi od glasanja rudara ("jedan procesor, jedan glas")
+  - Kako se ne bi centralizovao posao sa mining, koji je tada bio pod dominacijom nekoliko mining bazena
+  - Zato što vođa projekta Gavin Andresen nije želeo da bude "dobronamerni diktator"
+explanation: |
+ Ovo je bilo ograničenje pravila konsenzusa, što će kasnije biti nazvano "soft fork". Nadogradnja ne stvara razdvajanje lanca ako je podržana od strane većine računarske snage mreže.
+reviewed: true

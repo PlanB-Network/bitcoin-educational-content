@@ -19,11 +19,12 @@ published_at: 2025-11-25
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2025-11-30
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 7.63
+      - therancedognon-max
+    reward: 0
   - language: bg
     last_contribution_date:
     urgency: 1
@@ -70,10 +71,11 @@ proofreading:
     contributor_names:
     reward: 38.02
   - language: id
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 30.44
+      - 62maximalist
+    reward: 15.22
   - language: it
     last_contribution_date:
     urgency: 1
@@ -131,10 +133,11 @@ proofreading:
     contributor_names:
     reward: 15.27
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 22.86
+      - monyangi10
+    reward: 11.43
   - language: tr
     last_contribution_date:
     urgency: 1

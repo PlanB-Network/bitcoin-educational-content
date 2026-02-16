@@ -1,0 +1,9 @@
+question: 區塊補貼對應於什麼？
+answer: 貨幣創造
+wrong_answers:
+  - 交易費用
+  - 用戶存款
+  - 垃圾郵件懲罰
+explanation: |
+  補貼是獎勵的一部分，它根據協議規則從無到有地（ex nihilo）創造新的比特幣。
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: OUTPUT
+term: Output
+definition: Transaction output creating a new UTXO intended for an address.
 ---
 
 In the context of Bitcoin, an output within a transaction refers to _Unspent Transaction Outputs_ (UTXOs) which are created as destination funds for payment. More precisely, it is a mechanism by which a transaction distributes funds. A transaction takes UTXOs, i.e. bits of bitcoins, as "inputs" and creates new UTXOs as "outputs". These outputs stipulate a certain quantity of bitcoins, often allocated to a specific address, as well as the conditions under which these funds can be spent at a later date.

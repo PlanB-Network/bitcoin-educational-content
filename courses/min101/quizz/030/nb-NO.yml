@@ -1,0 +1,9 @@
+question: Ved hvilken blokkhøyde fant den fjerde halveringen sted?
+answer: 840 000
+wrong_answers:
+  - 880 000
+  - 860 000
+  - 900 000
+explanation: |
+  Den fjerde halveringen fant sted ved høyde 840 000, den 20. april 2024.
+reviewed: false

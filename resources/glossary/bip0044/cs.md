@@ -1,6 +1,7 @@
 ---
 term: BIP0044
 
+definition: Standard definující úplnou strukturu derivačních cest pro HD peněženky purpose, coin_type, account, change a address_index.
 ---
 Návrh na zlepšení, který zavádí standardní hierarchickou strukturu odvození pro peněženky HD. BIP44 vychází ze zásad stanovených v BIP32 pro odvozování klíčů a z BIP43 pro používání pole "účel". Zavádí pětiúrovňovou odvozovací strukturu: `m / účel' / typ mince' / účet' / změna / adresa_index`. Zde jsou uvedeny podrobnosti o jednotlivých hloubkách:
 

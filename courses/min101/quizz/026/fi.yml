@@ -1,0 +1,9 @@
+question: Mikä Bitcoin Coren parametri asettaa oletusarvoisen vähimmäisvälityskynnyksen (relay threshold)?
+answer: minRelayTxFee
+wrong_answers:
+  - minConfirmTxFee
+  - relayTxWeight
+  - mempoolMinBits
+explanation: |
+  Solmut soveltavat paikallisia sääntöjä, ja Bitcoin Core käyttää minRelayTxFee-parametria vähimmäisvälityskynnykselle.
+reviewed: false

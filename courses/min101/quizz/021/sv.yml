@@ -1,0 +1,9 @@
+question: Hur många block går det mellan varje justering av svårighetsgraden?
+answer: 2016 block
+wrong_answers:
+  - 2000 block
+  - 2100 block
+  - 4096 block
+explanation: |
+  Justeringen sker var 2016:e block, vilket motsvarar ungefär två veckor med 10 minuter per block.
+reviewed: false

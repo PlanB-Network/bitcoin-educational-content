@@ -1,6 +1,7 @@
 ---
-term: COIN CONTROL
+term: Coin control
 
+definition: Funkce umožňující manuální výběr UTXOs, které mají být použity jako vstupy transakce.
 ---
 Funkce, kterou lze nalézt v softwaru některých bitcoinových peněženek a která uživatelům umožňuje ručně vybrat konkrétní UTXO (Unspent Transaction Outputs), které se použijí jako vstupy pro provedení transakce. Jinými slovy, kontrola mincí nabízí možnost přesně si vybrat, které kusy bitcoinů budou utraceny. Tato funkce je podobná akci, kdy si z peněženky vyberete konkrétní minci, kterou zaplatíte za bagetu.
 

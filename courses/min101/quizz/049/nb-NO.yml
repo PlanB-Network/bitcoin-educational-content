@@ -1,0 +1,9 @@
+question: Hvilket praktisk problem søker en mining-pool primært å løse?
+answer: Variansen i inntekter
+wrong_answers:
+  - Nettverksvanskelighetsgrad
+  - Blokkstørrelse
+  - Prisen på ASIC-er
+explanation: |
+  Ved å samle hashrate, forvandler en pool en svært uregelmessig inntekt til mer regelmessige utbetalinger. Dette er en reduksjon av inntektsvariansen for mineren.
+reviewed: false

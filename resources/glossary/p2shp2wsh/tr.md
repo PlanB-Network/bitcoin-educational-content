@@ -1,5 +1,6 @@
 ---
 term: P2SH-P2WSH
+definition: Uyumluluk için P2SH içine sarılmış SegWit betiği (P2WSH), adresler 3 ile başlar.
 ---
 
 P2SH-P2WSH, *Pay to Script Hash - Tanığa Ödeme Senaryosu Hash* anlamına gelmektedir. "Yuvalanmış SegWit" olarak da bilinen UTXO üzerinde harcama koşulları oluşturmak için kullanılan standart bir senaryo modelidir.

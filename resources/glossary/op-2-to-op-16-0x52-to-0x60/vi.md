@@ -1,6 +1,7 @@
 ---
-term: OP_2 TO OP_16 (0X52 TO 0X60)
+term: OP_2 ĐẾN OP_16 (0X52 ĐẾN 0X60)
 
+definition: Các mã vận hành đẩy các giá trị số từ 2 đến 16 vào ngăn xếp.
 ---
 The opcodes from `OP_2` to `OP_16` push the respective numerical values of 2 to 16 onto the stack. They are used to simplify scripts by allowing the insertion of small numerical values. This type of opcode is notably used in multisignature scripts. Here is an example of a `scriptPubKey` for a 2/3 multisig:
 

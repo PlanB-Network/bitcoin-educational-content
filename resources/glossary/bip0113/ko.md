@@ -1,5 +1,6 @@
 ---
 term: BIP0113
+definition: 이전 블록의 타임스탬프 대신 Median Time Past(마지막 11개 블록의 중앙값)를 사용하도록 타임락을 수정.
 ---
 
 모든 타임락 연산(`nLockTime`, `OP_CHECKLOCKTIMEVERIFY`, `nSequence`, `OP_CHECKSEQUENCEVERIFY`)의 평가 방식에 변경을 도입했습니다.

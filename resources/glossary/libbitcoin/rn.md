@@ -1,5 +1,6 @@
 ---
-term: LIBBITCOIN
+term: Libbitcoin
+definition: Urutonde rw'amasomero ya C++ akoreshwa mu gukora inporogaramu za Bitcoin.
 ---
 
 Ivyiyumviro vy’amasomero yanditswe mu rurimi rwa C++ vyagenewe guhingura ibikorwa bijanye na Bitcoin. Libbitcoin itanga imishinge yigenga yo gutegura porogarama z’amatelefone ngendanwa, porogarama n’izindi nzira zikikuje Bitcoin. Libbitcoin rero ifise ubuhinga bwo kwubaka bufise ibice. Amasomero yose y’uwo mugambi aratangazwa hakurikijwe uruhusha rwa AGPL ku buntu.

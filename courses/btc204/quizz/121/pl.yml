@@ -1,10 +1,9 @@
-question: Jak działa faza macierzysta w protokole Dandelion?
-answer: Transakcja jest wysyłana przez losową ścieżkę węzłów
+question: Który BIP sformalizował protokół rozgłaszania Dandelion?
+answer: BIP156
 wrong_answers:
-  - Transakcja jest natychmiast transmitowana do wszystkich węzłów równorzędnych węzła źródłowego
-  - Transakcja jest tymczasowo przechowywana w węźle centralnym przed jej rozesłaniem
-  - Transakcja jest szyfrowana przyrostowo na każdym etapie transmisji
+  - BIP34
+  - BIP47
+  - BIP324
 explanation: |
-  Dandelion najpierw wykorzystuje fazę macierzystą, w której transakcja jest wysyłana przez losową ścieżkę węzłów. Transakcja jest następnie transmitowana do całej sieci w fazie fluff.
-  
+  Dandelion został sformalizowany w BIP156, bez ostatecznej integracji z Bitcoin Core.
 reviewed: false

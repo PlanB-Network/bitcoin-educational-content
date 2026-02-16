@@ -1,5 +1,6 @@
 ---
 term: Anchor
+definition: RGB-protokollis andmekogum, mis tõendab pühenduse sisalolekut Bitcoin-tehingus, tema sisu avalikult paljastamata.
 ---
 
 RGB protokollis kujutab Anchor kliendipoolset andmekogumit, mida kasutatakse ühe Commitment tehingusse kaasamise tõendamiseks. RGB protokollis koosneb Anchor järgmistest Elements:

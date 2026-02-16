@@ -1,6 +1,7 @@
 ---
-term: PASSPHRASE (BIP39)
+term: Cụm từ mật khẩu (BIP39)
 
+definition: Mật khẩu tùy chọn được thêm vào cụm từ khôi phục để bảo mật ví HD.
 ---
 An optional password that, when combined with the recovery phrase, provides an additional layer of security for deterministic and hierarchical Bitcoin wallets. HD wallets are typically generated from a recovery phrase consisting of 12 or 24 words. This recovery phrase is very important, as it allows for the restoration of all the keys in a wallet in case of loss. However, it constitutes a single point of failure (SPOF). If it is compromised, the bitcoins are at risk. This is where the passphrase comes in. It is an optional password, chosen by the user, that is added to the recovery phrase to enhance the wallet's security. Not to be confused with a PIN code or an ordinary password, the passphrase plays a role in the derivation of cryptographic keys.
 

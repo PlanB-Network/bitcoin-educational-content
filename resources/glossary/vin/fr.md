@@ -1,5 +1,6 @@
 ---
 term: VIN
+definition: Élément d'une transaction Bitcoin spécifiant la source des fonds via une référence à un UTXO précédent.
 ---
 
 Élément spécifique d'une transaction Bitcoin qui spécifie la source des fonds utilisés pour satisfaire les outputs. Chaque `vin` fait référence à un output non dépensé (UTXO) d'une transaction précédente. Une transaction peut contenir plusieurs inputs, chacun étant identifié par une combinaison du `txid` (l'identifiant de la transaction d'origine) et du `vout` (l'index de l'output dans cette transaction).

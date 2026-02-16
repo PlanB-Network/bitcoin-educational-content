@@ -1,6 +1,7 @@
 ---
-term: ANTEILE
+term: Shares
 
+definition: Indikator zur Quantifizierung des Beitrags eines einzelnen Miners innerhalb eines Mining-Pools.
 ---
 Im Zusammenhang mit Mining-Pools ist ein Anteil ein Indikator, der verwendet wird, um den Beitrag eines einzelnen Miners innerhalb des Pools zu quantifizieren. Dieses Maß dient als Grundlage für die Berechnung der Belohnung, die der Pool an jeden Schürfer weiterverteilt. Jeder Anteil entspricht einem Hash, der ein Schwierigkeitsziel erfüllt, das unter dem des Bitcoin-Netzwerks liegt.
 
@@ -13,10 +14,9 @@ Für jeden berechneten Hash kann ein einzelner Schürfer in einem Pool drei vers
 - Wenn der Hash niedriger ist als das Schwierigkeitsziel des Anteils, aber größer oder gleich dem Schwierigkeitsziel von Bitcoin, dann stellt dieser Hash einen gültigen Anteil dar, der jedoch nicht ausreicht, um einen Block zu validieren. Der Miner kann diesen Hash an seinen Pool senden, um die mit der Aktie verbundene Belohnung einzufordern: anteil > Hash > Block".
 - Wenn der Hash niedriger ist als das Schwierigkeitsziel des Bitcoin-Netzwerks, wird er sowohl als gültiger Anteil als auch als gültiger Block betrachtet. Der Miner sendet diesen Hash an seinen Pool, der sich beeilt, ihn im Bitcoin-Netzwerk zu verbreiten. Dieser Hash wird auch als gültiger Anteil für den Miner gezählt: "Anteil > Block > Hash".
 
-![](../../dictionnaire/assets/32.webp)
+
 
 Dieses Anteilssystem wird verwendet, um die von jedem einzelnen Schürfer innerhalb eines Pools geleistete Arbeit zu schätzen, ohne dass alle von einem Schürfer generierten Hashes einzeln neu berechnet werden müssen, was für den Pool völlig ineffizient wäre.
 
 Mining-Pools passen die Schwierigkeit der Anteile an, um die Verifizierungslast auszugleichen und sicherzustellen, dass jeder Schürfer, ob klein oder groß, etwa alle paar Sekunden Anteile einreicht. Dies ermöglicht eine genaue Berechnung der Hashrate jedes Schürfers und die Verteilung der Belohnungen entsprechend der gewählten Methode der Entschädigungsberechnung (PPS, PPLNS, TIDES...).
 
-> ► *Im Französischen kann "shares" mit "Teil" übersetzt werden.*

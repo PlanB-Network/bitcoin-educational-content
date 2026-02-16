@@ -1,0 +1,9 @@
+question: Sau khi xác minh, một nút (node) Bitcoin sẽ làm gì với một giao dịch hợp lệ nhưng chưa được xác nhận?
+answer: Nó chuyển tiếp giao dịch đó đến các nút ngang hàng (peers)
+wrong_answers:
+  - Nó thêm giao dịch đó vào bản sao cục bộ của blockchain
+  - Nó ký giao dịch đó bằng khóa cá nhân của mình
+  - Nó mã hóa giao dịch đó bằng khóa công khai của mình
+explanation: |
+  Trong mạng lưới Bitcoin, mỗi nút sẽ lan truyền các giao dịch hợp lệ đến các nút mà nó được kết nối.
+reviewed: false

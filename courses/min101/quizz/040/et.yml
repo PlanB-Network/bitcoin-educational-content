@@ -1,0 +1,9 @@
+question: Milline element on tööstusliku kaevandamise konkurentsivõimes kõige olulisem?
+answer: Elektrihind
+wrong_answers:
+  - Palgakulude suurus
+  - Infrastruktuuri ergonoomiline kvaliteet
+  - Tarkvaralitsentside maksumus
+explanation: |
+  Suures mahus sõltub kaevandamise kasumlikkus arvutusüksuse maksumusest, mille määravad eelkõige elektrikulud.
+reviewed: false

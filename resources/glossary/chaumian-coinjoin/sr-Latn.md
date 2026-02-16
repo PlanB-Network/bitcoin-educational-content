@@ -1,5 +1,6 @@
 ---
-term: CHAUMIAN CoinJoin
+term: Chaumian coinjoin
+definition: Coinjoin protokol koji koristi Čaumove slepe potpise kako bi osigurao privatnost učesnika.
 ---
 
 Protokol CoinJoin koji koristi slepe potpise Davida Chauma i Tor za komunikaciju između učesnika i servera koordinatora. Cilj Chaumian CoinJoin je da osigura učesnicima da koordinator ne može ukrasti bitkoine, niti povezati ulaze i izlaze zajedno.
@@ -8,7 +9,7 @@ Protokol CoinJoin koji koristi slepe potpise Davida Chauma i Tor za komunikaciju
 Da bi se to postiglo, korisnici šalju svoj unos i kriptografski blinded prijem Address koordinatoru. Ovaj Address, nekada unblinded, je namenjen za primanje bitkoina kao izlaz iz CoinJoin. Koordinator potpisuje ove tokene i vraća ih korisnicima. Korisnici se zatim anonimno ponovo povezuju na koordinatorov server sa novim Tor identitetom i otkrivaju svoje izlazne adrese u običnom tekstu za konstrukciju transakcije. Koordinator može da verifikuje da sve ove prijemne adrese dolaze od legitimnih korisnika, jer je prethodno potpisao njihovu blinded verziju svojim privatnim ključem. Međutim, on ne može da poveže određeni izlazni Address sa datim ulaznim korisnikom. Stoga, ne postoji veza između ulaza i izlaza, čak ni iz koordinatorove perspektive. Kada koordinator konstruira transakciju, šalje je nazad učesnicima koji je potpisuju kako bi otključali svoj unos, nakon što verifikuju da je njihov izlaz zaista u toj transakciji. Učesnici šalju potpis koordinatoru. Kada se prikupe svi potpisi, koordinator može emitovati CoinJoin transakciju na Bitcoin mreži.
 
 
-![](../../dictionnaire/assets/38.webp)
+
 
 
 Ova metoda osigurava da koordinator ne može ugroziti anonimnost učesnika niti ukrasti bitkoine tokom celog CoinJoin procesa.

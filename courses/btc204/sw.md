@@ -178,7 +178,7 @@ Sasa hebu tufikirie kuwa Alice hana UTXO moja ya `10,000 Sats`, bali badala yake
 Uangavu, mtu anaweza kufikiri kwamba gharama za muamala pia zinawakilisha matokeo ya muamala. Lakini kwa ukweli, hii sivyo. Gharama za muamala zinawakilisha tofauti kati ya jumla ya pembejeo na jumla ya matokeo. Hii ina maana kwamba, baada ya kutumia sehemu ya thamani ya pembejeo ili kufidia matokeo yanayohitajika katika muamala, jumla fulani ya pembejeo hubakia bila kutumika. Kiasi hiki cha mabaki kinajumuisha gharama za muamala.
 
 ```plaintext
-Frais = total inputs - total outputs
+Ada za muamala = total inputs - total outputs
 ```
 
 Hebu tuchukue mfano wa Alice, ambaye ana UTXO ya `10,000 Sats` na anataka kununua baguette kwa `4,000 Sats`. Alice hutengeneza muamala na UTXO yake ya `10,000 Sats` kama ingizo. Kisha hutoa pato la `4,000 Sats` kwa mwokaji kulipia baguette. Ili kuwahimiza wachimbaji kujumuisha shughuli zake kwenye eneo, Alice hutenga `200 Sats` katika ada. Kisha atatengeneza toleo la pili, Ubadilishanaji, ambalo litarejeshwa kwake, la jumla ya `5,800 Sats`.
@@ -188,10 +188,10 @@ Hebu tuchukue mfano wa Alice, ambaye ana UTXO ya `10,000 Sats` na anataka kununu
 Kwa kutumia fomula ya ada, tunaona kwamba kuna `200 Sats` iliyosalia kwa watoto:
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+Ada za muamala = total inputs - total outputs
+Ada za muamala = 10 000 - (4 000 + 5 800)
+Ada za muamala = 10 000 - 9 800
+Ada za muamala = 200
 ```
 
 Miner anapofanikiwa kuhalalisha block, anaidhinishwa kukusanya ada hizi kwa miamala yote iliyojumuishwa kwenye block yake, kupitia muamala unaoitwa Coinbase.
@@ -1527,7 +1527,7 @@ Katika mfano huu, ingawa muamala B unatoa ada ya juu zaidi, wachimbaji watapende
 
 ```text
 TXA : 1994 / 141 = 14 sats/vB
-TXB : 2640 / 220 = 12 sats / vB
+TXB : 2640 / 220 = 12 sats/vB
 ```
 
 Hii ina maana kwamba kwa kila kitengo cha uzani, muamala A hutoa gharama zaidi kuliko muamala B, ingawa muamala B hutoa gharama zaidi kwa masharti kamili.
@@ -1719,7 +1719,7 @@ Hata hivyo, Kuunga sarafu pia kunatoa uwezekano wa kuimarisha usiri dhidi ya uch
 
 ![BTC204](assets/sw/118.webp)
 
-Katika mfano wa kwanza, tuliona jinsi kuunga sarafu inaweza kulinda faragha ya chumba kuhusiana na siku zake za nyuma, na katika mfano wa pili, jinsi inaweza pia kupata historia ya chumba kuhusiana na siku zijazo. Ndio maana nilisema kwamba kuunga sarafu kunapaswa kuonekana kama tukio la mara moja ambalo linagawanya historia ya sehemu katika pande zote mbili:
+Katika mfano wa kwanza, tuliona jinsi coinjoin inaweza kulinda faragha ya sarafu kuhusiana na yaliyopita, na katika mfano wa pili, jinsi inaweza pia kulinda historia ya sarafu kuhusiana na yajayo. Ndiyo sababu nilitaja kwamba coinjoin inapaswa kuonekana kama tukio la mara moja linalogawanya historia ya sarafu katika pande zote mbili:
 
 ![BTC204](assets/sw/119.webp)
 
@@ -1913,7 +1913,7 @@ Mbinu za usimamizi za Ubadilishanaji zilitoa utofauti mkubwa kati ya utekelezaji
 
 ![BTC204](assets/sw/139.webp)
 
-Kwa kutumia Wabisabi, toleo la 2.0 la Wasabi limerekebisha mbinu yake ili kuendana na ile ya Whirlpool. Ingawa miamala ya CoinJoin bado ni mikubwa sana, sasa inawezekana kufunga mizunguko kadhaa mfululizo, kufuata mfano wa Whirlpool. Uangalifu maalum umeelekezwa kwa usimamizi wa viwango vya ubadilishaji: tofauti na Wasabi 1.0, ambapo kiwango cha ubadilishaji kilihusishwa moja kwa moja na pembejeo za watumiaji, Wabisabi inajitahidi kugawanya kiwango cha ubadilishaji katika sehemu ndogo ndogo, zilizogawanywa kwa usawa miongoni mwa washiriki wote.
+Kwa Wabisabi, toleo la 2.0 limebadilisha mbinu yake ya coinjoin ili kukaribia mfano wa Whirlpool. Ingawa miamala ya coinjoin bado ni mikubwa sana, sasa inawezekana kuunganisha mizunguko kadhaa mfululizo, kufuatia mfano wa Whirlpool. Juhudi maalum pia zimeelekezwa katika usimamizi wa chenji: tofauti na Wasabi 1.0, ambapo chenji ilikuwa imefungamanishwa moja kwa moja na ingizo za watumiaji, Wabisabi inalenga kugawanya chenji katika kiasi kidogo kadhaa, vilivyogawiwa kwa madhehebu sawa kwa washiriki wote.
 
 Hebu tuonyeshe hili kwa mfano uliorahisishwa unaohusisha watumiaji 2 pekee: Alice anataka kuchanganya 115,000 Sats na Bob, 210,000 Sats. Kupuuza ada, na Wasabi 1.0, muamala wa CoinJoin ungetoa matokeo 3 ya 100,000 Sats, pamoja na 1 Ubadilishanaji wa 15,000 Sats kwa Alice na 1 ubadilishanaji wa 10,000 Sats kwa Bob-706. Matokeo ya exchange bado yangeunganishwa na pembejeo:
 
@@ -2120,7 +2120,7 @@ Mwishoni mwa michanganyiko hii ya kwanza, akaunti ya **premix** itakuwa tupu, hu
 
 ### Mchanganyiko
 
-Baada ya mchanganyiko wa awali, UTXO huhamishiwa kwenye akaunti ya **mchanganyiko wa posta**. Akaunti hii hukusanya UTXO ambazo tayari zimechanganywa na zinazosubiri kuchanganywa tena. Mteja wa Whirlpool anapokuwa amilifu, UTXO zilizo katika akaunti **postmix** zinapatikana kiotomatiki kwa michanganyiko na zitachaguliwa bila mpangilio kushiriki katika mizunguko hii mipya.
+Baada ya kufanya mix ya awali, UTXO huhamishiwa kwenye akaunti ya **postmix**. Akaunti hii hukusanya UTXO zilizokwisha changanywa pamoja na zile zinazongojea kuchanganywa tena. Mteja wa Whirlpool anapokuwa hai, UTXO zilizopo kwenye akaunti ya **postmix** hupatikana kiotomatiki kwa ajili ya remix na huchaguliwa kwa nasibu kushiriki katika mizunguko hii mipya.
 
 Kama ukumbusho, mchanganyiko hautakuwa 100% bila malipo: hakuna gharama za ziada za huduma au ada za Mining zinazohitajika. Kwa hivyo, kuweka UTXO katika akaunti ya **mchanganyiko wa posta** hudumisha thamani yake, na kuboresha utatuzi wao kwa wakati mmoja. Ndiyo maana ni muhimu kuruhusu sarafu hizi kushiriki katika mizunguko kadhaa ya Kuunga sarafu. Haikugharimu chochote, na huongeza viwango vyao vya kutokujulikana.
 
@@ -2269,7 +2269,7 @@ Kwa mfano, muamala rahisi wa malipo wenye ingizo 1 na matokeo 2 utakuwa na tafsi
 
 ![BTC204](assets/sw/165.webp)
 
-Kwa upande mwingine, kona ya Whirlpool 5x5 ina mchanganyiko unaowezekana wa $1\,496$:
+Kinyume chake, coinjoin iliyopangwa kulingana na mfano wa Whirlpool 5x5 ina mchanganyiko $1\,496$ unaowezekana:
 
 ![BTC204](assets/sw/166.webp)
 
@@ -2441,7 +2441,7 @@ Alama ya Boltzmann inakokotolewa kwa kugawanya idadi ya tafsiri ambazo tukio ful
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}
@@ -2817,7 +2817,7 @@ Wacha tufikirie mfano wa kufikirika na Alice na Bob. Alice anashikilia BTC 1 ili
 Walakini, njia hii ya kufikirika inatoa hatari kubwa katika suala la uaminifu. Hakuna cha kumzuia Alice kuweka nakala ya ufunguo wa faragha wa \$A\$ baada ya exchange na kuitumia baadaye kuiba bitcoins, mara ufunguo ukiwa mikononi mwa Bob.
 ![BTC204](assets/sw/201.webp)
 
-Zaidi ya hayo, hakuna hakikisho kwamba Alice hatapokea ufunguo wa faragha wa Bob \$B\$ na hatawahi kupitisha ufunguo wake wa faragha \$A\$ katika exchange. Kwa hivyo exchange huu unategemea kuaminiana kupita kiasi kati ya wahusika, na haina ufanisi katika kuhakikisha uhamishaji wa siri wa Umiliki.
+Aidha, hakuna dhamana kwamba Alice, baada ya kupokea ufunguo wa siri $B$ wa Bob, atatuma ufunguo wake wa siri $A$ kwa malipo. Mabadilishano haya kwa hivyo yanategemea uaminifu mkubwa kati ya wahusika na yanathibitika kuwa hayana tija katika kuhakikisha uhamisho wa siri wa mali kwa njia salama.
 ![BTC204](assets/sw/202.webp)
 
 Ili kutatua matatizo haya na kuwezesha exchange kati ya wahusika ambao hawaaminiani, tutatumia mifumo ya *smart contract* badala yake. *Smart contract* ni programu ambayo hutekeleza kiotomatiki masharti yaliyoainishwa awali yanapofikiwa. Kwa upande wetu, hii inahakikisha kwamba exchange wa mali unafanyika moja kwa moja, bila ya haja ya uaminifu wa pande zote.

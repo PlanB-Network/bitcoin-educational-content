@@ -1,5 +1,6 @@
 ---
-term: Bitcoin 골드(BTG)
+term: Bitcoin Gold (BTG)
+definition: 2017년 Bitcoin 하드 포크로 생겨난 암호화폐로, ASIC 저항성 채굴 알고리즘을 사용함.
 ---
 
 Bitcoin 골드(BTG)는 2017년 10월 24일, 블록 491,407에서 Bitcoin(BTC)의 Hard Fork에서 생성된 암호화폐입니다.

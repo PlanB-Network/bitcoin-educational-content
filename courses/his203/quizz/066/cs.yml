@@ -1,0 +1,11 @@
+question: Kdo byl nepřímo zodpovědný za poslední hackerský útok Bitcoinica, který se odehrál v červenci 2012?
+answer: Amir Taaki
+wrong_answers:
+  - Zhou Tong
+  - Chen Jianhai
+  - Mark Karpelès
+explanation: |
+ 7. července zveřejnil úplný zdrojový kód platformy, který obsahoval heslo k trezoru Bitcoinica LastPass, který zase obsahoval heslo k jeho trezoru LastPass
+ Mt. Gox. bylo vybráno 40 000 bitcoinů a 40 000 LR-USD. Amir Taaki tento čin uznal, ale vinu svalil na vedení společnosti Bitcoinica,
+ s nímž byl v konfliktu.
+reviewed: true

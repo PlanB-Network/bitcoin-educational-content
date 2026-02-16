@@ -1,5 +1,6 @@
 ---
 term: XOR
+definition: Uburyo bwo gukora mu buhinga bwa orudinatere butanga ukuri igihe gusa ivyakozwe bitandukanye.
 ---
 
 Inyuguti y'igikorwa "Idasanzwe canke," mu gifaransa "Ou exclusif." Ni igikorwa nyamukuru c’ubuhinga bwa Boolean. Iyi nzira ifata ibikorwa bibiri vya Boolean, kimwe cose kikaba ari $ukuri$ canke $ikinyoma$, kandi kigatanga igisubizo c'ukuri$ iyo gusa ivyo bikorwa bibiri bitandukanye. Mu yandi majambo, igisohoka c'igikorwa ca XOR ni $ukuri$ nimba kimwe (ariko si vyose) mu bikorwa ari $ukuri$. Nk'akarorero, igikorwa ca XOR kiri hagati ya $1$ na $0$ kizovamwo $1$. Turabona:

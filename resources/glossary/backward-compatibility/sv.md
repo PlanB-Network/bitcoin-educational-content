@@ -1,5 +1,6 @@
 ---
-term: BAKÅTKOMPATIBILITET
+term: Bakåtkompatibilitet
+definition: Förmågan hos en protokolluppdatering att förbli kompatibel med tidigare versioner, vilket gör att gamla noder kan fortsätta att fungera på nätverket.
 ---
 
 Avser förmågan hos en uppdatering av protokollregler att upprätthålla kompatibilitet med tidigare versioner. Det innebär att ändringarna utformas på ett sådant sätt att äldre noder (noder som kör versioner före regeländringen) fortfarande kan interagera med nätverket och följa den kedja som har mest arbete ackumulerat. Därför är det viktigt att de äldre noderna varken avvisar de nya blocken eller de nya transaktionerna. Bakåtkompatibilitet minskar avsevärt sannolikheten för att en uppdatering kommer att fragmentera nätverket och därmed undvika att noder delas in i undergrupper på olika kedjor. För att säkerställa kompatibilitet med tidigare versioner av protokollet måste en uppdatering göra de befintliga reglerna strängare eller införa nya. Denna princip definierar en "Soft Fork". Omvänt gäller att om en uppdatering lättar på de befintliga reglerna eller tar bort vissa, så är den inte bakåtkompatibel. Detta skulle vara en "Hard Fork".

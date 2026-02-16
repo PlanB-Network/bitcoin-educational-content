@@ -1,0 +1,9 @@
+question: Какой самый первый майнинг-пул в истории Биткоина?
+answer: Braiins Pool
+wrong_answers:
+  - Foundry USA
+  - AntPool
+  - F2Pool
+explanation: |
+  Braiins Pool, ранее Slush Pool и Bitcoin CZ, — это первый майнинг-пул для Биткоина, созданный в 2010 году.
+reviewed: false

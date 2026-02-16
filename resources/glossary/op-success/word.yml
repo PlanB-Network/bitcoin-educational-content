@@ -1,5 +1,4 @@
 id: ce13c3c6-e532-4c21-a55f-5cafcf99a564
-en_word: OP_SUCCESS
 related_words:
 original_language: fr
 proofreading:
@@ -7,132 +6,132 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.36
+    reward: 0.37
   - language: fr
     last_contribution_date: 2024-07-26
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0.18
+    reward: 0.19
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.49
+    reward: 0.51
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.36
+    reward: 0.37
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.36
+    reward: 0.37
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.49
+    reward: 0.51
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.49
+    reward: 0.51
   - language: id
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 0.31
+    reward: 0.32
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.36
+    reward: 0.37
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.74
+    reward: 0.78
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.49
+    reward: 0.51
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.36
+    reward: 0.37
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.49
+    reward: 0.51
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.74
+    reward: 0.78
   - language: zh-Hans
     last_contribution_date: '2025-08-19'
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 0.31
+    reward: 0.32
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.74
+    reward: 0.78
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.49
+    reward: 0.51
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.62
+    reward: 0.65
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.49
+    reward: 0.51
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.62
+    reward: 0.65
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.49
+    reward: 0.51
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.36
+    reward: 0.37
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.49
+    reward: 0.51
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.62
+    reward: 0.65
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.62
+    reward: 0.65
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.74
+    reward: 0.78

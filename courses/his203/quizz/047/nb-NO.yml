@@ -1,0 +1,10 @@
+question: Hva var markedsføringspitchet for Litecoin, kryptovalutaen som ble skapt av Charlie Lee i oktober 2011?
+answer: Vær for sølv hva Bitcoin er for gull
+wrong_answers:
+  - Å skape en åndelig valuta
+  - Etterfølger Bitcoin når den kollapser
+  - Finansiering av en verden av fri programvare
+explanation: |
+ Litecoin var både raskere (blokktiden er 2 minutter 30 i stedet for 10 minutter) og mindre knapp (84 millioner enheter i stedet for 21) enn Bitcoin, derav analogien med edle
+ metallanalogien. Det var Charlie Lee selv som inkluderte denne sammenligningen i den første beskrivelsen av kryptovalutaen sin.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Qual o intervalo médio entre cada bloco que o Bitcoin visa?
+answer: 10 minutos
+wrong_answers:
+  - 1 minuto
+  - 30 minutos
+  - 60 minutos
+explanation: |
+  O protocolo visa uma média de aproximadamente um bloco a cada 10 minutos durante um longo período.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
 term: 라벨링
+definition: 자금 관리와 프라이버시를 돕기 위해 UTXO에 주석을 할당하는 관행입니다.
 ---
 
 Bitcoin Wallet에서 특정 UTXO에 주석이나 라벨을 할당하는 관행입니다. 예를 들어, 찰스와 함께 Bisq에서 구매한 P2P의 UTXO가 있는 경우 "비 KYC Bisq 찰스"라고 레이블을 지정할 수 있습니다.

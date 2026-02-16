@@ -1,0 +1,10 @@
+question: Hvilken teknisk innovasjon i SatoshiDICE gjorde det mulig for spillerne å sjekke at kasinoet ikke jukset?
+answer: Publisering av hemmelig hash på blokkjeden, etterfulgt av publisering av nevnte hemmeligheter for å muliggjøre omberegning av resultater
+wrong_answers:
+  - Utplassering av en desentralisert valideringsblokkjede der hver transaksjon verifiseres av flere uavhengige noder
+  - Bruk av faste adresser på blokkjeden, noe som gjør det mulig å kontrollere trekningene og dermed sikre at de er rettferdige
+  - Utførelse av sannsynlighetsberegninger direkte på blokkjeden gjennom autonome offentlige kontrakter
+explanation: |
+ SatoshiDICE var revolusjonerende fordi det var "garantert rettferdig". Hver sannsynlighetskoblede trekning var avhengig av en hemmelig generated ved starten av dagen, hvis
+ hashverdien ble publisert på blokkjeden. Selve hemmeligheten ble avslørt noen dager senere, slik at brukerne selv kunne beregne resultatet på nytt.
+reviewed: true

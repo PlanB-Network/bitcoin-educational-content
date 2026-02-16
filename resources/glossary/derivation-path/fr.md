@@ -1,5 +1,6 @@
 ---
-term: CHEMIN DE DÉRIVATION
+term: Chemin de dérivation
+definition: Séquence d'index décrivant le chemin de dérivation des clés enfants depuis la clé maîtresse dans un portefeuille HD.
 ---
 
 Dans le cadre des portefeuilles déterministes et hiérarchiques (HD), un chemin de dérivation désigne la séquence d'index utilisée pour dériver des clés enfants à partir d'une clé maîtresse. Décrit dans le BIP32, ce chemin permet d'identifier la structure arborescente de dérivation des clés enfants. Un chemin de dérivation est représenté par une série d'index séparés par des barres obliques, et commence toujours par la clé maîtresse (notée `m/`). Par exemple, un chemin typique pourrait être `m/84'/0'/0'/0/0`. Chaque niveau de dérivation est associé à une profondeur spécifique :

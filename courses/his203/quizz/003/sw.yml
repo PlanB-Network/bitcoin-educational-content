@@ -1,0 +1,9 @@
+question: Ni jina gani la utani lililopewa haraka jukwaa la Barabara ya Hariri lililoundwa na Ross Ulbricht?
+answer: Amazon ya dawa za kulevya
+wrong_answers:
+  - Pango la Alibaba
+  - eBay ya mtandao wa giza
+  - Walmart ya chini ya ardhi
+explanation: |
+ Barabara ya Silk ilipewa jina la utani kwa kufanana kwake na kampuni kubwa ya biashara ya mtandaoni ya Amazon. Jina la utani hilo lilionyesha kiolesura rahisi kutumia na ufanisi wa jukwaa hilo kwa biashara haramu.
+reviewed: true

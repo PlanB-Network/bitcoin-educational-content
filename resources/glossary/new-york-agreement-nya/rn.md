@@ -1,5 +1,6 @@
 ---
-term: AMASEZERANO YA NEW YORK (NYA)
+term: New York agreement (nya)
+definition: Inama yo mu 2017 yashikirije SegWit2x, yahagaritswe kuko batumvikanye.
 ---
 
 Inama y’ibanga yabaye mu mwaka w’2017, yahuje amashirahamwe arenga 50 yo mu gisata c’ibidukikije ca Bitcoin, inyuma y’inama ya Consensus 2017. Intumbero y’iyo nama yari iyo guhagarika impaka zamaze igihe kirekire zijanye n’ugutera imbere Bitcoin mu gushika ku masezerano. Iryo koraniro ryatumye haba iciyumviro ca SegWit2x, gikuwe mu ciyumviro ca SegWit2Mb ca kera. Yari yateguye guhindura ibintu bibiri bikomeye mu masezerano ya Bitcoin:

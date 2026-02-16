@@ -1,5 +1,6 @@
 ---
-term: SIGHASH ZASTAVICA
+term: Sighash fleg
+definition: Parametar koji određuje koje komponente transakcije su pokrivene potpisom.
 ---
 
 Parametar u Bitcoin transakciji koji određuje koje komponente transakcije (ulazi i izlazi) su pokrivene pridruženim potpisom, čime postaju nepromenljive. SigHash Flag je bajt dodat digitalnom potpisu svakog ulaza. Stoga, izbor SigHash Flaga direktno utiče na to koji delovi transakcije su zamrznuti potpisom i koji se još uvek mogu modifikovati nakon toga. Ovaj mehanizam osigurava da potpisi precizno i sigurno obavezuju podatke transakcije prema nameri potpisnika. Postoje tri glavna SigHash Flaga:

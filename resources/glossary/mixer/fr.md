@@ -1,5 +1,6 @@
 ---
-term: MÉLANGEUR
+term: Mélangeur
+definition: Service centralisé mélangeant les bitcoins de plusieurs utilisateurs pour casser leur historique.
 ---
 
 Service centralisé permettant de casser l'historique de pièces Bitcoin en mélangeant les fonds de plusieurs utilisateurs. Contrairement au coinjoin, où les utilisateurs conservent le contrôle de leurs fonds tout au long du processus de mixage, un mélangeur prend temporairement possession des bitcoins des utilisateurs, les mélange avec ceux d'autres utilisateurs, puis renvoie les fonds sur de nouvelles adresses.

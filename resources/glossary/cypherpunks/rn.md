@@ -1,5 +1,6 @@
 ---
-term: ABASIPEPUNKI
+term: Cypherpunks
+definition: Umuryango uteza imbere cryptography nk'uburyo bwo gukingira umwidegemvyo w'umuntu kuri internet.
 ---
 
 Umuryango w’abantu udasanzwe kandi mpuzamakungu utera imbere ikoreshwa ry’ubuhinga bwo gukingira amakuru nk’uburyo bwo gutuma umuntu agira umwidegemvyo kuri Internet. Aba Cypherpunks bavuganira uburenganzira bw’ishimikiro bw’abantu bwo kurinda ubuzima bwite bwabo, cane cane mu gihe Leta iriko irarushiriza gucungera no gukoresha amakuru n’ibigo vyigenga. Izina ryabo rikomoka ku majambo y'icongereza *cypher*, bisobanura "kode y'ibanga", na *punk*. Ni igikino kivuga ku jambo *cyberpunk*, kidondora ubwoko bw’inyandiko bugaragaza kazoza ka dystopie aho ubuhinga bushasha bufatanye n’ububisha n’ubugizi bwa nabi mu kibano kiriko kirabora.

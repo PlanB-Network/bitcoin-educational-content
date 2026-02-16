@@ -1,5 +1,6 @@
 ---
-term: BGP HIJACKING
+term: BGP hijacking
+definition: Attack manipulating Internet routing to redirect traffic to a malicious network, which can be used to isolate Bitcoin nodes.
 ---
 
 Attack in which a malicious actor manipulates BGP advertisements to redirect Internet traffic to their own network. By pretending to be the legitimate origin of certain IP address ranges, the attacker can intercept, monitor or block traffic destined for these addresses.

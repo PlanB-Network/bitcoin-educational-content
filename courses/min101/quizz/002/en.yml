@@ -1,0 +1,9 @@
+question: Regarding the mempool, which statement is correct?
+answer: Each node has its own mempool
+wrong_answers:
+  - There is a single unique mempool
+  - The mempool is a file contained in each block
+  - The mempool is a central server
+explanation: |
+  The mempool is local to each node, so its content can vary from node to node depending on the rules each node applies.
+reviewed: true

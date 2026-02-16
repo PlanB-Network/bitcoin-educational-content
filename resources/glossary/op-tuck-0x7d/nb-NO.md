@@ -1,6 +1,7 @@
 ---
 term: OP_TUCK (0X7D)
 
+definition: Opcode som kopierer toppen av stakken og setter den inn på tredje posisjon.
 ---
 Kopierer elementet øverst i bunken og setter det inn mellom det andre og tredje elementet i bunken. For eksempel, hvis stakken er:
 

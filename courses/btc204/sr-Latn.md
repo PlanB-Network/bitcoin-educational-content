@@ -264,7 +264,7 @@ Intuitivno, moglo bi se pomisliti da transakcioni troškovi takođe predstavljaj
 
 
 ```plaintext
-Frais = total inputs - total outputs
+Naknade = total inputs - total outputs
 ```
 
 
@@ -278,10 +278,10 @@ Primenom formule za naknade, vidimo da zaista ima `200 Sats` preostalih za rudar
 
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+Naknade = total inputs - total outputs
+Naknade = 10 000 - (4 000 + 5 800)
+Naknade = 10 000 - 9 800
+Naknade = 200
 ```
 
 
@@ -2192,7 +2192,7 @@ U ovom primeru, iako transakcija B nudi višu ukupnu naknadu, rudari će preferi
 
 ```text
 TXA: 1994 / 141 = 14 sats/vB
-TXB: 2640 / 220 = 12 sats / vB
+TXB: 2640 / 220 = 12 sats/vB
 ```
 
 
@@ -2480,7 +2480,7 @@ Međutim, CoinJoin takođe nudi mogućnost jačanja poverljivosti u svetlu anali
 ![BTC204](assets/sr-Latn/118.webp)
 
 
-U prvom primeru, videli smo kako CoinJoin može zaštititi privatnost osobe u odnosu na njenu prošlost, a u drugom primeru, kako može osigurati istoriju osobe u odnosu na njenu budućnost. Zato sam pomenuo da CoinJoin treba posmatrati kao jedinstven događaj koji segmentira deo istorije u oba smera:
+U prvom primeru videli smo kako coinjoin može da zaštiti privatnost novčića u odnosu na njegovu prošlost, a u drugom primeru kako može takođe da obezbedi istoriju novčića u odnosu na njegovu budućnost. Zato sam napomenuo da bi coinjoin trebalo posmatrati kao jednokratan događaj koji segmentira istoriju novčića u oba smera:
 
 
 ![BTC204](assets/sr-Latn/119.webp)
@@ -2769,7 +2769,7 @@ Metode upravljanja kusurom takođe su se razlikovale između ove dve implementac
 ![BTC204](assets/sr-Latn/139.webp)
 
 
-Sa Wabisabi, Wasabi verzija 2.0 je prilagodila svoj pristup coinjoin-ovima kako bi odgovarala onom u Whirlpool-u. Iako CoinJoin transakcije ostaju veoma velike, sada je moguće povezati nekoliko uzastopnih ciklusa, prateći Whirlpool model. Posebna pažnja posvećena je i načinu razmene vrednosti kusura: za razliku od Wasabi 1.0, gde je vrednost bila direktno povezana sa ulazima korisnika, Wabisabi teži da je podeli na više manjih iznosa, raspoređenih u jednake apoene za sve učesnike.
+Sa Wabisabijem, verzija 2.0 je prilagodila svoj pristup coinjoinovima kako bi se približila modelu Whirlpoola. Iako coinjoin transakcije i dalje ostaju veoma velike, sada je moguće povezivati više uzastopnih ciklusa, prateći tako Whirlpool model. Posebna pažnja je takođe posvećena upravljanju kusurom: za razliku od Wasabi 1.0, gde je kusur bio direktno povezan sa ulazima korisnika, Wabisabi nastoji da podeli kusur na više manjih iznosa, raspoređenih u jednake denominacije za sve učesnike.
 
 
 Hajde da ovo ilustrujemo pojednostavljenim primerom koji uključuje samo 2 korisnika: Alisa želi da pomeša 115,000 Sats, a Bob 210,000 Sats. Ignorišući naknade, sa Wasabi 1.0, transakcija CoinJoin bi generisala 3 izlaza od 100,000 Sats, plus 1 kusur od 15,000 Sats za Alisu i 1 kusur od 10,000 Sats za Boba. Izlazi kusura bi i dalje bili povezani sa ulazima:
@@ -3076,7 +3076,7 @@ Na kraju ovih prvih mešanja, **premix** račun će biti prazan, dok će naši n
 ### Remiksi
 
 
-Nakon početnog mešanja, UTXO-i se prenose na **postmix** nalog. Ovaj nalog prikuplja UTXO-e koji su već pomešani i one koji čekaju ponovno mešanje. Kada je Whirlpool korisnik aktivan, UTXO-i koji se nalaze na **postmix** nalogu automatski su dostupni za ponovno mešanje i biće nasumično odabrani da učestvuju u ovim novim ciklusima.
+Nakon izvršenog početnog miksa, UTXO se prebacuju na **postmix** nalog. Ovaj nalog objedinjuje već miksovane UTXO-e i one koji čekaju na remixovanje. Kada je Whirlpool klijent aktivan, UTXO-ovi koji se nalaze na **postmix** nalogu automatski su dostupni za remixovanje i biće nasumično izabrani za učešće u ovim novim ciklusima.
 
 
 Kao podsetnik, remiksi su tada 100% besplatni: nisu potrebne dodatne usluge ili rudarske naknade. Čuvanje UTXO-a na **postmix** računu stoga zadržava njihovu vrednost netaknutom i istovremeno poboljšava njihove anonsete. Zato je važno omogućiti ovim kovanicama da učestvuju u nekoliko CoinJoin ciklusa. To vas apsolutno ništa ne košta, a povećava nivo njihove anonimnosti.
@@ -3298,7 +3298,7 @@ Na primer, jednostavna platna transakcija sa 1 ulazom i 2 izlaza imaće samo jed
 ![BTC204](assets/sr-Latn/165.webp)
 
 
-S druge strane, Whirlpool 5x5 konfiguracija ima $1\,496$ mogućih kombinacija:
+Nasuprot tome, coinjoin strukturiran prema modelu Whirlpool 5x5 ima $1\,496$ mogućih kombinacija:
 
 
 ![BTC204](assets/sr-Latn/166.webp)
@@ -3522,7 +3522,7 @@ Boltzmannov skor se izračunava deljenjem broja interpretacija u kojima se odre�
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}
@@ -3546,9 +3546,9 @@ Ako uzmemo primer 8x8 Whirlpool Surge Cycle CoinJoin, Boltzmannova tabela bi izg
 Međutim, u slučaju jednostavne transakcije sa jednim ulazom i 2 izlaza, situacija je drugačija:
 
 
-| Output 0 | Output 1 |
+| %       | Output 0 | Output 1 |
 |---------|----------|----------|
-| Input 0 | 100% | 100% |
+| Input 0 | 100%     | 100%     |
 
 Ovde vidimo da je verovatnoća da svaki izlaz potiče iz ulaza #0 100%. Niža verovatnoća stoga odražava veću poverljivost, razvodnjavajući direktne veze između ulaza i izlaza.
 
@@ -4062,7 +4062,7 @@ Međutim, ovaj naivni metod predstavlja visok rizik u smislu poverenja. Ništa n
 ![BTC204](assets/sr-Latn/201.webp)
 
 
-Nadalje, nema garancije da će Alisa dobiti Bobov privatni ključ, niti da će zauzvrat predati svoj. Ova razmena stoga se oslanja na prekomerno poverenje između strana i neefikasan je u osiguravanju sigurnog i tajnog prenosa vlasništva.
+Štaviše, ne postoji garancija da će Alisa, nakon što primi Bobov privatni ključ $B$, zauzvrat poslati svoj privatni ključ $A$. Ova razmena se stoga oslanja na ogromno poverenje između strana i pokazuje se kao neefikasna za osiguravanje tajnog prenosa vlasništva na bezbedan način.
 
 
 ![BTC204](assets/sr-Latn/202.webp)

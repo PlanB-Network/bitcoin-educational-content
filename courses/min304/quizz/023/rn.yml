@@ -1,0 +1,9 @@
+question: Ni igitigiri kingana iki c’ama bitcoins ashobora kuremwa?
+answer: hafi miriyoni 21
+wrong_answers:
+  - nk’imiriyoni 18
+  - hafi miriyoni 25
+  - hafi miriyoni 30
+explanation: |
+    Iremwa rya Bitcoin rirangwa n’igipimo gihoraho c’ibice miriyoni 21.
+reviewed: true

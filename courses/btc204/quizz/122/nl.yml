@@ -1,10 +1,10 @@
-question: Hoe verbetert P2P transport V2 de privacy en veiligheid van communicatie tussen nodes?
+question: Hoe verbetert P2P-transport V2 de privacy en veiligheid van communicatie tussen nodes?
 answer: Door opportunistische versleuteling te integreren
 wrong_answers:
   - Door authenticatie te integreren
   - Door extra relais te gebruiken
   - Door Tor te gebruiken
 explanation: |
-  P2P transport V2 bevat een Layer van opportunistische encryptie om de privacy en veiligheid van de communicatie tussen knooppunten te verbeteren.
+  P2P-transport V2 bevat een laag van opportunistische encryptie om de privacy en veiligheid van de communicatie tussen knooppunten te verbeteren.
   
 reviewed: false

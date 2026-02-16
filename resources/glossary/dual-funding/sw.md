@@ -1,5 +1,6 @@
 ---
-term: FEDHA MBILI
+term: Dual funding
+definition: Njia inayoruhusu pande zote mbili kufadhili chaneli ya Lightning inapofunguliwa.
 ---
 
 Wakati chaneli ya Umeme inafunguliwa, ufadhili wa pande mbili huruhusu washiriki wote kufunga bitcoins kwenye chaneli. Tofauti na mtindo wa kitamaduni, ambapo nodi moja pekee hufadhili chaneli, njia hii inaruhusu pande zote mbili kuifadhili, na kuwezesha kusawazisha ukwasi mara moja.

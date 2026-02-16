@@ -1,5 +1,6 @@
 ---
-term: OP_LESSTHAN (0x9F)
+term: OP_LESSTHAN (0X9F)
 
+definition: 检查堆栈第一个元素是否小于第二个元素的Opcode。
 ---
 对堆栈中最上面的两个项目进行比较，并检查第一个项目是否小于第二个项目。如果第一项小于第二项，则向堆栈推入 `1`（true），否则推入 `0`（false）。

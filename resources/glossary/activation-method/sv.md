@@ -1,5 +1,6 @@
 ---
-term: AKTIVERINGSMETOD
+term: Aktiveringsmetod
+definition: Processen genom vilken Bitcoin-gemenskapen beslutar att aktivera en soft fork, söker konsensus mellan gruvarbetare och användare för att undvika en blockchain-splittring.
 ---
 
 En aktiveringsmetod är den process genom vilken användargruppen beslutar om implementeringen av en Soft Fork på Bitcoin-protokollet, i syfte att undvika en Blockchain-split. Denna process innebär att miners uppmanas att godkänna en Soft Fork innan den aktiveras. Om en betydande majoritet accepterar Soft Fork minimeras risken för en Blockchain-split. Detta samförstånd är avgörande, för om en majoritet av miners vägrar att göra ändringen kan Soft Fork skapa två olika kedjor: en med de ändrade reglerna och en utan. Det finns två huvudkategorier av aktiveringsmetoder:

@@ -1,5 +1,6 @@
 ---
 term: BIP0068
+definition: Introduktion av relativa tidslås via fältet nSequence, vilket gör det möjligt att blockera en transaktion under en period efter att föräldratransaktionen har bekräftats.
 ---
 
 Möjligheten att använda relativa låsningstider infördes genom fältet `nSequence`. Detta gör att en transaktion kan ange en relativ fördröjning innan den kan inkluderas i ett block. Denna fördröjning kan definieras i termer av antalet block eller som en multipel av 512 sekunder (dvs. realtid). Observera att denna nya tolkning av fältet `nSequence` endast är giltig om fältet `nVersion` är större än eller lika med `2`. Denna tolkning av fältet `nSequence` sker på nivån för Bitcoin:s konsensusregler. Den relativa tidslåsningen anger en fördröjning från det att en tidigare transaktion accepterats, medan den absoluta tidslåsningen anger en exakt tidpunkt före vilken transaktionen inte kan ingå i ett block. BIP68 introducerades via en Soft Fork den 4 juli 2016, tillsammans med BIP112 och BIP113, som för första gången aktiverades med BIP9-metoden.

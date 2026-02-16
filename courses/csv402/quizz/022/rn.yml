@@ -1,9 +1,9 @@
-question: Ni iyihe RGB Contract Operation irema Leta nshasha itapfutse Seal?
-answer: State Extension.
+question: Ni ayahe masezerano y'ibikorwa vya RGB akora uko ibintu bimeze atiriwe arugara Serire ?
+answer: Uko ivyoyongerako imeze.
 wrong_answers:
-  - State Transition.
-  - Genesis
-  - Valency Gukora
+  - Ivyoyongerako uko bimeze.
+  - Itanguriro
+  - Ukwemeza Valency
 explanation: |
-  State Extension ishobora kugufasha gushinga Leta nshasha canke uburenganzira bushasha (Valencias), ata Seal ihita ifunga.
-reviewed: false
+  Uko ivyoyengerako bimeze bishobora gufasha gukora uko bimeze canke amategeko mashasha (Valencias), Serire itiriwe irugara vuba bwango.
+reviewed: true

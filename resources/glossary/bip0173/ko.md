@@ -1,5 +1,6 @@
 ---
 term: BIP0173
+definition: bc1q 접두사가 있는 SegWit V0용 bech32 주소 형식으로, 더 나은 가독성과 오류 감지 기능을 제공함.
 ---
 
 SegWit V0 주소용 bech32 Address 포맷이 도입되었습니다. 이 Address 형식은 접두사 `bc1q`가 특징입니다. Bech32 형식은 몇 가지 장점을 제공합니다:

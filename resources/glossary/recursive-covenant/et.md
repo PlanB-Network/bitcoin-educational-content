@@ -1,6 +1,7 @@
 ---
-term: REKURSIIVNE (LEPING)
+term: Rekursiivne (covenant)
 
+definition: Covenant, mis seab tingimused praegusele tehingule ja kõigile järgnevatele tehingutele määramata ajaks.
 ---
 Bitcoini rekursiivne leping on teatud tüüpi arukas leping, mis seab tingimused mitte ainult praegusele tehingule, vaid ka tulevastele tehingutele, mis kulutavad selle tehingu väljundid. See võimaldab luua tehinguahelaid, kus iga tehing peab järgima teatavaid reegleid, mis on määratletud ahela esimese tehingu poolt. Rekursiivsus loob tehingute jada, kus iga tehing pärib piirangud oma vanemtehingult. See võimaldaks keerulist ja pikaajalist kontrolli selle üle, kuidas bitcoine saab kulutada, kuid see tooks kaasa ka riske seoses kulutamisvabaduse ja asendatavusega.
 

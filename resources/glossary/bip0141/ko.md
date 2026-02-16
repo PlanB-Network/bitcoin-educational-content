@@ -1,5 +1,6 @@
 ---
 term: BIP0141
+definition: 가변성(malleability) 문제를 해결하기 위해 서명을 트랜잭션의 나머지 부분과 분리하는 SegWit(Segregated Witness) 도입.
 ---
 
 BIP141은 분리된 증인(SegWit)이라는 개념을 도입하여 SegWit Soft Fork에 그 이름을 붙였습니다.

@@ -1,5 +1,6 @@
 ---
-term: STONEWALL
+term: Stonewall
+definition: Harcama sırasında gizliliği artırmak için coinjoin'i taklit eden işbirlikçi olmayan Bitcoin işlemi.
 ---
 
 Bitcoin işleminin belirli bir biçimi, gerçekte bir kişi olmadan iki kişi arasındaki bir CoinJoin'ı taklit ederek bir harcama sırasında kullanıcı gizliliğini artırmayı amaçlamaktadır. Aslında bu işlem işbirliğine dayalı değildir. Bir kullanıcı, girdi olarak yalnızca kendi UTXO'larını içerecek şekilde tek başına oluşturabilir. Bu nedenle, başka bir kullanıcıyla senkronize olmanıza gerek kalmadan herhangi bir durum için bir Stonewall işlemi oluşturabilirsiniz.
@@ -15,7 +16,7 @@ Dolayısıyla, bir Stonewall işleminde yalnızca 2 rol vardır:
 - Alıcı, işlemin özel niteliğinden habersiz olabilir ve sadece göndericiden bir ödeme bekler.
 
 
-![](../../dictionnaire/assets/33.webp)
+
 
 Stonewall işlemleri hem Samourai Wallet uygulamasında hem de Sparrow wallet yazılımında mevcuttur.
 

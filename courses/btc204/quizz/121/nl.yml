@@ -1,10 +1,9 @@
-question: Hoe werkt de stamfase in het paardenbloemprotocol?
-answer: De transactie wordt verzonden via een willekeurig pad van knooppunten
+question: Welke BIP formaliseerde het Dandelion-uitzendprotocol?
+answer: BIP156
 wrong_answers:
-  - De transactie wordt onmiddellijk uitgezonden naar alle peers van het bronknooppunt
-  - De transactie wordt tijdelijk opgeslagen in een centraal knooppunt voordat ze wordt uitgezonden
-  - De transactie wordt incrementeel versleuteld bij elke stap van de uitzending
+  - BIP34
+  - BIP47
+  - BIP324
 explanation: |
-  Dandelion gebruikt eerst een stamfase waarin de transactie door een willekeurig pad van knooppunten wordt gestuurd. De transactie wordt vervolgens uitgezonden naar het hele netwerk in de fluff-fase.
-  
+  Dandelion werd geformaliseerd in BIP156, zonder uiteindelijk in Bitcoin Core te worden geïntegreerd.
 reviewed: false

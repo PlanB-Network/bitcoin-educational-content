@@ -1,6 +1,7 @@
 ---
-term: FEE SNIPING
+term: Fee sniping
 
+definition: Rünnak, kus kaevandajad kirjutavad hiljutise bloki ümber, et saada endale selle suured tehingutasud.
 ---
 Ründestsenaarium, mille puhul kaevandajad püüavad ümber kirjutada hiljuti kinnitatud ploki, et nõuda selles sisalduvad tehingutasud, lisades samal ajal mempoolis vahepeal saabunud kõrgete tasudega tehinguid. Selle rünnaku lõppeesmärk on kaevandajate jaoks nende kasumlikkuse suurendamine. Tasude kärpimine võib muutuda üha kasumlikumaks, kui plokkide tasu väheneb ja tehingutasud moodustavad suurema osa kaevurite tuludest. See võib olla kasulik ka siis, kui eelmises plokis sisalduvad tasud on märkimisväärselt kõrgemad kui järgmises parimas kandidaadiplokis. Lihtsustatult öeldes seisab kaevandaja selle valiku ees stiimulite osas:
 

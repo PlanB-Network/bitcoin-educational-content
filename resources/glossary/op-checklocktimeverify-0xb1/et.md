@@ -1,6 +1,7 @@
 ---
 term: OP_CHECKLOCKTIMEVERIFY (0XB1)
 
+definition: Opkood, mis kehtestab UTXO kulutamisele absoluutse ajapiirangu.
 ---
 Muudab tehingu kehtetuks, kui kõik need tingimused ei ole täidetud:
 

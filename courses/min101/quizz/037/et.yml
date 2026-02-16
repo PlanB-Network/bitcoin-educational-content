@@ -1,0 +1,9 @@
+question: Milline mehhanism laiendab otsinguruumi, kui 32-bitine nonce on ammendatud?
+answer: Extra-nonce
+wrong_answers:
+  - Super-nonce
+  - Coinbase-nonce
+  - Double-nonce
+explanation: |
+  Muutes coinbase'i scriptSig-is olevat extra-nonce'i, muutub Merkle juur ja seega ka päis.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
 term: BIP0044
+definition: Standard definiujący pełną strukturę ścieżek derywacji dla portfeli HD purpose, coin_type, account, change oraz address_index.
 ---
 
 Propozycja ulepszenia, która wprowadza standardową hierarchiczną strukturę derywacji dla portfeli HD. BIP44 opiera się na zasadach ustanowionych przez BIP32 dla wyprowadzania kluczy i na BIP43 dla wykorzystania pola "cel". Wprowadza on pięciopoziomową strukturę derywacji: `m / purpose' / coin_type' / account' / change / address_index`. Oto szczegóły każdej głębokości:

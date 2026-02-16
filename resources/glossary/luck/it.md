@@ -1,6 +1,7 @@
 ---
-term: LUCRO
+term: Luck
 
+definition: Indicatore che misura le prestazioni di una mining pool rispetto alle aspettative teoriche.
 ---
 Un indicatore utilizzato nei pool minerari per misurare le prestazioni di un pool rispetto alle sue aspettative teoriche. Come suggerisce il nome, valuta la fortuna del pool nel trovare un blocco. La fortuna viene calcolata confrontando il numero di azioni teoricamente necessarie per trovare un blocco valido, in base alla difficoltà attuale di Bitcoin, con il numero effettivo di azioni prodotte per trovare quel blocco. Un numero di azioni inferiore a quello previsto indica una buona fortuna, mentre un numero superiore indica una cattiva fortuna.
 

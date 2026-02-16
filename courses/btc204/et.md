@@ -183,7 +183,7 @@ Kujutame nüüd ette, et Alice'il ei ole mitte üks UTXO suurusega "10 000 SATS"
 Intuitiivselt võiks arvata, et tehingukulud kujutavad endast ka tehingu väljundit. Kuid tegelikkuses ei ole see nii. Tehingukulud kujutavad endast sisendite ja väljundite kogusumma vahet. See tähendab, et pärast seda, kui osa sisendite väärtusest on kasutatud tehingu soovitud väljundite katmiseks, jääb teatud summa sisenditest kasutamata. See jääksumma moodustab tehingukulud.
 
 ```plaintext
-Frais = total inputs - total outputs
+Tehingutasud = total inputs - total outputs
 ```
 
 Võtame näiteks Alice'i, kelle UTXO on 10 000 SATS ja kes soovib osta baguette'i hinnaga 4 000 SATS. Alice loob tehingu, mille sisendiks on tema UTXO 10 000 SATS. Seejärel genereerib ta pagarile pagari eest tasumiseks väljundiks 4 000 SATS. Et julgustada kaevandajaid tema tehingut plokki integreerima, määrab Alice 200 SATSi tasu. Seejärel loob ta teise väljundi, vahetuse, mis tagastatakse talle summas `5,800 SATS`.
@@ -193,10 +193,10 @@ Võtame näiteks Alice'i, kelle UTXO on 10 000 SATS ja kes soovib osta baguette'
 Tasu valemit rakendades näeme, et alaealistele on tõepoolest jäänud 200 SATSi:
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+Tehingutasud = total inputs - total outputs
+Tehingutasud = 10 000 - (4 000 + 5 800)
+Tehingutasud = 10 000 - 9 800
+Tehingutasud = 200
 ```
 
 Kui kaevuril õnnestub plokk valideerida, on tal õigus koguda neid tasusid kõigi tema plokis sisalduvate tehingute eest nn coinbase'i tehingu kaudu.
@@ -1550,7 +1550,7 @@ Selles näites, kuigi tehing B pakub suuremat kogutasu, eelistavad kaevandajad t
 
 ```text
 TXA : 1994 / 141 = 14 sats/vB
-TXB : 2640 / 220 = 12 sats / vB
+TXB : 2640 / 220 = 12 sats/vB
 ```
 
 See tähendab, et iga kaaluühiku kohta pakub tehing A rohkem kulusid kui tehing B, kuigi tehing B pakub absoluutarvudes rohkem kulusid.
@@ -1745,7 +1745,7 @@ Samas pakub coinjoin ka võimalust tugevdada konfidentsiaalsust minevikust täna
 
 ![BTC204](assets/et/118.webp)
 
-Esimeses näites nägime, kuidas coinjoin võib kaitsta ruumi privaatsust seoses selle minevikuga, ja teises näites, kuidas see võib kindlustada ruumi ajalugu ka seoses selle tulevikuga. Seepärast mainisin, et coinjoin'i tuleks vaadelda kui ühekordset sündmust, mis segmenteerib osa ajalugu mõlemas suunas:
+Esimeses näites nägime, kuidas coinjoin saab kaitsta mündi privaatsust selle mineviku suhtes, ja teises näites, kuidas see saab samuti kaitsta mündi ajalugu selle tuleviku suhtes. Seetõttu mainisin, et coinjoini tuleks käsitleda kui ühekordset sündmust, mis segmenteerib mündi ajaloo mõlemas suunas:
 
 ![BTC204](assets/et/119.webp)
 
@@ -1939,7 +1939,7 @@ Ka vahetuse haldamise meetodid erinesid kahest rakendusest. Whirlpooliga välist
 
 ![BTC204](assets/et/139.webp)
 
-Wabisabi versioon 2.0 on kohandanud oma lähenemist coinjoins'ile, et see vastaks Whirlpooli omale. Kuigi coinjoin-tehingud on endiselt väga suured, on nüüd võimalik Whirlpooli mudelit järgides mitu järjestikust tsüklit aheldada. Erilist tähelepanu on pööratud ka vahetuskursi haldamisele: erinevalt Wasabi 1.0 versioonist, kus vahetuskurss oli otseselt seotud kasutaja sisendiga, püütakse Wabisabis jagada vahetuskurss mitmeks väikeseks summaks, mis on jagatud kõigile osalejatele võrdseteks nimiväärtusteks.
+Wabisabi abil on versioon 2.0 kohandanud oma coinjoin’ide käsitlust, et läheneda Whirlpooli mudelile. Kuigi coinjoin-tehingud on endiselt väga suured, on nüüd võimalik järjestada mitu järjestikust tsüklit, järgides seeläbi Whirlpooli mudelit. Erilist tähelepanu on pööratud ka vahetusraha haldamisele: erinevalt Wasabi 1.0-st, kus vahetusraha oli otseselt seotud kasutajate sisenditega, püüab Wabisabi jagada vahetusraha mitmeks väiksemaks summaks, mis on jaotatud kõigile osalejatele võrdsetes nimiväärtustes.
 
 Illustreerime seda lihtsustatud näite abil, mis hõlmab vaid 2 kasutajat: Alice soovib segada 115 000 satelliiti ja Bob 210 000 satelliiti. Kui jätta tasud kõrvale, siis Wasabi 1.0 puhul oleks coinjoin-tehing tekitanud 3 väljundit 100 000 sati ulatuses, lisaks 1 vahetus 15 000 sati ulatuses Alice'ile ja 1 vahetus 10 000 sati ulatuses Bobile. Vahetuse väljundid oleksid endiselt seotud sisenditega:
 
@@ -2117,7 +2117,7 @@ Vaatleme nende kontode raames Whirlpooli coinjoini erinevaid etappe.
 
 Mis tahes Whirlpooli coinjoini lähtepunkt on **deposiitkonto**. See on konto, mida kasutate automaatselt uue Bitcoini rahakoti loomisel. Sellele kontole tuleb krediteerida bitcoinid, mida soovite segada.
 
-Tx0" on Whirlpooli segamisprotsessi esimene samm. Selle eesmärk on valmistada ette ja võrdsustada UTXOd koosliitmiseks, jagades need valitud basseini kogusele vastavateks ühikuteks, et tagada homogeenne segamine. Selliselt ühtlustatud UTXOd saadetakse seejärel **eelsegamise** kontole. Mis puutub vahe, mis ei saa koondada, siis see eraldatakse spetsiaalsele kontole: **paha pank** (või "doksiline vahetus").
+`Tx0` on Whirlpooli segamisprotsessi esimene samm. Selle eesmärk on valmistada ette ja võrdsustada UTXOd koosliitmiseks, jagades need valitud basseini kogusele vastavateks ühikuteks, et tagada homogeenne segamine. Selliselt ühtlustatud UTXOd saadetakse seejärel **eelsegamise** kontole. Mis puutub vahe, mis ei saa koondada, siis see eraldatakse spetsiaalsele kontole: **paha pank** (või "doksiline vahetus").
 
 Seda esialgset "Tx0" tehingut kasutatakse ka coinjoin'i koordinaatorile makstava teenustasu maksmiseks. Erinevalt järgmistest sammudest ei ole see tehing koostööpõhine, seega peab kasutaja kandma kõik kaevandamise kulud:
 
@@ -2155,7 +2155,7 @@ Nende esimeste segude lõpus on **premix** konto tühi, samas kui meie mündid, 
 
 ### Remiksid
 
-Pärast esialgset segamist kantakse UTXOd üle **postmix** kontole. Sellele kontole kogutakse juba segatud UTXOd ja need, mis ootavad uuesti segamist. Kui Whirlpooli klient on aktiivne, on **postmix**-kontol asuvad UTXOd automaatselt kättesaadavad remiximiseks ja need valitakse juhuslikult välja, et osaleda nendes uutes tsüklites.
+Pärast algse segamise tegemist kantakse UTXO-d kontole **postmix**. See konto koondab juba segatud UTXO-d ja need, mis ootavad uuesti segamist. Kui Whirlpooli klient on aktiivne, on kontol **postmix** asuvad UTXO-d automaatselt saadaval uuesti segamiseks ning need valitakse juhuslikult nendes uutes tsüklites osalemiseks.
 
 Meeldetuletuseks, et remixid on seejärel 100% tasuta: ei nõuta täiendavaid teenustasusid ega kaevandamistasusid. UTXOde hoidmine **postmix** kontol hoiab seega nende väärtuse puutumatuna ja parandab samal ajal nende anonsetid. Seepärast on oluline, et need mündid saaksid osaleda mitmes coinjoin'i tsüklis. See ei maksa teile absoluutselt midagi ja suurendab nende anonüümsuse taset.
 
@@ -2310,7 +2310,7 @@ Näiteks lihtsal maksetehingul, millel on 1 sisend ja 2 väljundit, on ainult ü
 
 ![BTC204](assets/et/165.webp)
 
-Teisest küljest on Whirlpool 5x5 nurgas 1\,496$ võimalikke kombinatsioone:
+Seevastu Whirlpool 5x5 mudeli järgi struktureeritud coinjoin pakub $1\,496$ võimalikku kombinatsiooni:
 
 ![BTC204](assets/et/166.webp)
 
@@ -2488,7 +2488,7 @@ Boltzmanni skoor arvutatakse, jagades tõlgenduste arvu, milles teatav sündmus 
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}
@@ -2873,7 +2873,7 @@ Selline naiivne meetod kujutab endast siiski suurt riski usalduse osas. Mitte mi
 
 ![BTC204](assets/et/201.webp)
 
-Lisaks ei ole mingit garantiid, et Alice ei saa Bobi privaatvõtit $B$ ja ei anna selle eest kunagi edasi oma privaatvõtit $A$. Seetõttu sõltub see vahetus osapoolte vahelisest liigsest usaldusest ja on ebatõhus, et tagada turvaline salajane omandiõiguse üleandmine.
+Lisaks puudub garantii, et Alice edastab pärast Bobi privaatvõtme $B$ kättesaamist vastutasuks oma privaatvõtme $A$. See vahetus tugineb seega pooltevahelisele tohutule usaldusele ja on ebatõhus omandi salajase ülemineku tagamiseks turvalisel viisil.
 
 ![BTC204](assets/et/202.webp)
 

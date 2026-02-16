@@ -1,0 +1,11 @@
+question: Jaký byl pseudonym původního tvůrce online kostkové hry SatoshiDICE?
+answer: Fireduck
+wrong_answers:
+  - Evoorhees
+  - Tuxavant
+  - Hippich
+explanation: |
+ Joseph Gleason alias Fireduck byl 30letý americký vývojář. Po naprogramování několika softwarových nástrojů pro Bitcoin vyvinul bitcoinový systém SatoshiDICE
+ kasino (které se prezentovalo jako hra v kostky) 9. dubna 2012. O několik týdnů později prodal platformu Eriku Voorheesovi (Evoorhees) za 40 bitcoinů, resp
+ přibližně 200 dolarů.
+reviewed: true

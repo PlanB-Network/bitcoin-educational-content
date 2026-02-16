@@ -1,5 +1,6 @@
 ---
-term: BIT GOLD
+term: Bit gold
 
+definition: Nick Szabon vuonna 1998 esittämä hajautetun digitaalisen valuutan konsepti, Bitcoinin edeltäjä.
 ---
 Bit gold on hajautettu digitaalinen valuuttajärjestelmä, jonka Nick Szabo kehitti vuonna 1998 ja jonka julkinen kuvaus julkaistiin vuonna 2005. Bit gold suunniteltiin tuottamaan ja vaihtamaan virtuaalista resurssia nimeltä bit gold. Järjestelmä ei perustunut mihinkään fyysiseen hyödykkeeseen, vaan sillä pyrittiin luomaan eräänlainen väärentämätön niukkuus. Bit gold -protokolla perustui valuutan luomiseen todisteellisen työn avulla, jolloin bit gold -paloja luotiin tietokoneiden laskentatehon avulla, jolloin muodostui todisteellisen työn ketju. Jokainen työtodistus leimattiin ajallisesti ja lisättiin sitten omaisuusrekisteriin. Bittikullan omistuksen todentaminen ja siirtäminen tapahtui julkisen rekisterin kautta, jossa käyttäjät tunnistettiin julkisten avainten avulla. Bit Gold jäi konseptivaiheeseen, eikä sitä koskaan toteutettu. Tämä järjestelmä on yksi Bitcoinin esiasteista b-rahan ja RPoW:n ohella, mutta Satoshi ei näyttänyt olevan tietoinen sen olemassaolosta ennen Bitcoinin luomista. Se mainittiin myöhemmin Bitcoinin verkkosivuilla ja foorumilla.

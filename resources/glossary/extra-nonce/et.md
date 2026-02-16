@@ -1,5 +1,6 @@
 ---
-term: EXTRA-Nonce
+term: Extra-nonce
+definition: Väli coinbase-tehingus, mis võimaldab laiendada otsinguruumi kaevandamisel üle tavalise nonce-väärtuse.
 ---
 
 Välja, mida kasutatakse ploki Coinbase Transaction `scriptSig`is, mis võimaldab lisaks klassikalisele Nonce-le, mis asub otse iga ploki päises, testida suuremat arvu võimalusi, et saavutada raskuse eesmärgist madalam Hash.

@@ -1,0 +1,9 @@
+question: Antes de serem adicionadas à blockchain, em que é que as transações são agrupadas?
+answer: Num bloco
+wrong_answers:
+  - Num UTXO
+  - Num ASIC
+  - Num scriptSig
+explanation: |
+  A transação não é escrita instantaneamente na blockchain. É primeiro integrada num bloco.
+reviewed: false

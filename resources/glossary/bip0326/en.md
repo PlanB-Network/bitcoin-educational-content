@@ -1,5 +1,6 @@
 ---
 term: BIP0326
+definition: Use of the nSequence field for Taproot to improve the privacy of second-layer protocols.
 ---
 
 An improvement proposal for developers of Bitcoin wallet software that supports Taproot transactions. 

@@ -1,0 +1,9 @@
+question: Welke hulpbron heeft Bitcoin mining nodig?
+answer: Elektriciteit
+wrong_answers:
+  - Water
+  - Edelstenen
+  - Goud
+explanation: |
+  Mining is validatiewerk dat elektriciteit verbruikt via computers.
+reviewed: false

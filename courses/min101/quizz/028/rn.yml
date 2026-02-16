@@ -1,0 +1,9 @@
+question: Block subsidy ihura n'iki?
+answer: Ukurema kw'amafaranga
+wrong_answers:
+  - Amafaranga y'agashirukanyota ku buremanyi
+  - Idipozite y'abakoresha
+  - Igihano c'ubutumwa bwinshi (spam)
+explanation: |
+  Subsidy n'umugabane w'ishimwe rurema Bitcoin nshasha ex nihilo nk'uko amategeko y'uburyo abitegeka.
+reviewed: false

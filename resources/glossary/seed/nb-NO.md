@@ -1,5 +1,6 @@
 ---
-term: GRAIN
+term: Seed
+definition: 512-bits informasjon som tillater generering av alle nøkler for en HD Bitcoin-lommebok.
 ---
 
 I den spesifikke konteksten av en hierarkisk deterministisk Bitcoin-portefølje er en seed en 512-biters informasjonsbit som er avledet fra en tilfeldig hendelse. Den brukes til å deterministisk og hierarkisk generate et sett med private nøkler og deres tilsvarende offentlige nøkler for en Bitcoin-portefølje. seed forveksles ofte med selve gjenopprettingsfrasen. Men det er ikke det samme. seed oppnås ved å bruke funksjonen `PBKDF2` på Mnemonic-frasen og en hvilken som helst passphrase.

@@ -1,0 +1,9 @@
+question: Koji fenomen čini kašnjenje između dva bloka fundamentalno promenljivim?
+answer: Probabilistička priroda heširanja
+wrong_answers:
+  - Deterministička priroda heširanja
+  - Rekurzivna priroda heširanja
+  - Periodična priroda heširanja
+explanation: |
+  Svaki heš je nezavisni pokušaj, što čini vremena otkrivanja nasumičnim čak i pri konstantnom hešrejtu.
+reviewed: false

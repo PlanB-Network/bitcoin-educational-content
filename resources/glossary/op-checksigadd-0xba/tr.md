@@ -1,5 +1,6 @@
 ---
 term: OP_CHECKSIGADD (0XBA)
+definition: Bir imzayı doğrulayan ve geçerliyse bir sayacı artıran Tapscript işlem kodu.
 ---
 
 Yığından en üstteki üç değeri çıkarır: bir `public key`, bir `CScriptNum` `n` ve bir `signature`. İmza boş vektör değilse ve geçerli değilse, kod bir hatayla sonlanır. İmza geçerliyse veya boş vektörse (`OP_0`), iki senaryo sunulur:

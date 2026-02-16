@@ -1,0 +1,9 @@
+question: Mikä ehto tekee lohkosta voimassa olevan Bitcoinissa?
+answer: SHA256d(lohkon otsake) <= tavoite
+wrong_answers:
+  - SHA256d(lohkon otsake) >= tavoite
+  - SHA256d(lohko) >= tavoite
+  - SHA256d(lohkon otsake) > tavoite
+explanation: |
+  Jotta lohko olisi voimassa Bitcoinissa, sen otsakkeen tiivisteen, numerona tulkittuna, on oltava pienempi tai yhtä suuri (<=) kuin tavoite.
+reviewed: false

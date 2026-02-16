@@ -1,5 +1,6 @@
 ---
-term: SEBIČNI Mining
+term: Sebično rudarenje
+definition: Strategija rudarenja kojom se blokovi drže u tajnosti radi sticanja prednosti nad ostalim rudarima.
 ---
 
 Strategija (ili napad) u Mining, gde Miner ili grupa rudara namerno zadržava blokove sa važećim Proof of Work bez trenutnog objavljivanja na mreži. Cilj je da budu ispred drugih rudara u smislu Proof of Work, što im potencijalno omogućava da Miner nekoliko blokova zaredom i objave ih sve odjednom, čime maksimiziraju svoje dobitke. Drugim rečima, napadačka grupa rudara ne rudari na poslednjem bloku koji je validirala cela mreža, već na bloku koji su sami kreirali, a koji se razlikuje od onog koji je validiran od strane mreže.

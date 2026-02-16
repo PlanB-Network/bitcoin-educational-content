@@ -1,0 +1,10 @@
+question: Welcher Zahlungsstandard wurde im September 2012 von dem Softwarearchitekten Dave Thaler bei der IANA registriert?
+answer: BIP 21 URI-Schema
+wrong_answers:
+  - BIP 32 hierarchische deterministische Portfolios
+  - BIP 70 Zahlungsprotokoll
+  - BIP 47 wiederverwendbare Zahlungscodes
+explanation: |
+ Diese Norm ermöglichte die Formalisierung von Zahlungsaufforderungen, die in Form einer Zeichenfolge oder eines QR-Codes übermittelt wurden. Nach mehreren Vorschlägen wurde ein endgültiges URI
+ schema im Januar 2012 in BIP 21 von Matt Corallo beschrieben. Es wurde im September von Dave Thaler bei der IANA registriert.
+reviewed: true

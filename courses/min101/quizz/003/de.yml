@@ -1,0 +1,9 @@
+question: Welcher Beweis wird bei Bitcoin am häufigsten verwendet, um ein UTXO freizuschalten?
+answer: Eine digitale Signatur
+wrong_answers:
+  - Ein Kontopasswort
+  - Ein Hash des aktuellen Blocks
+  - Ein SSL-Zertifikat
+explanation: |
+  Die Ausgabebedingung erfordert in der Regel eine Signatur, die mit dem entsprechenden privaten Schlüssel erstellt wurde.
+reviewed: false

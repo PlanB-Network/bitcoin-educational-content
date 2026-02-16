@@ -6,3 +6,4 @@ wrong_answers:
   - Kedalaman 4
 explanation: |
   Kedalaman 2 digunakan untuk mengidentifikasi mata uang dalam dompet multi-mata uang, seperti Bitcoin (indeks 0') atau Litecoin (indeks 2').
+reviewed: true

@@ -54,7 +54,7 @@ L'applicazione è disponibile direttamente su App Store o Play Store. È suffici
 
 ### Per gli utenti di Windows o macOS
 
-Per installare Jami sul tuo dispositivo, devi prima visitare il sito ufficiale di Jami. Per impostazione predefinita, il sito visualizza il software corrispondente al sistema operativo del dispositivo e si può fare clic direttamente sul pulsante di download per avviarlo. Tuttavia, è anche possibile scaricare l'eseguibile per Windows direttamente dalla [pagina di download] (https://jami.net/download-jami-windows/).
+Per installare Jami sul tuo dispositivo, devi prima visitare il sito ufficiale di Jami. Per impostazione predefinita, il sito visualizza il software corrispondente al sistema operativo del dispositivo e si può fare clic direttamente sul pulsante di download per avviarlo. Tuttavia, è anche possibile scaricare l'eseguibile per Windows direttamente dalla [pagina di download](https://jami.net/download-jami-windows/).
 
 ![0_02](assets/fr/02.webp)
 
@@ -177,7 +177,7 @@ Una volta inserita la password, il dispositivo si connetterà automaticamente al
 
 ## Aggiungere un'estensione a Jami
 
-Una delle caratteristiche interessanti di Jami è la capacità di integrare nuove opzioni tramite estensioni (plugin). I plugin sono moduli nativi (C/C++); l'SDK fornisce strumenti e script (in particolare in Python) per la loro creazione. Alcuni plugin sono disponibili direttamente [qui] (https://jami.net/extensions/).
+Una delle caratteristiche interessanti di Jami è la capacità di integrare nuove opzioni tramite estensioni (plugin). I plugin sono moduli nativi (C/C++); l'SDK fornisce strumenti e script (in particolare in Python) per la loro creazione. Alcuni plugin sono disponibili direttamente [qui](https://jami.net/extensions/).
 
 Per installare un'estensione, su Desktop apri il negozio di estensioni integrato, scarica il plugin appropriato, quindi vai in **Impostazioni → Estensioni → Installa** e attivalo. Su Android, il negozio non è integrato: scarica il file `.jpl', quindi importalo manualmente da **Impostazioni → Estensioni → Installa**; l'importazione è automatica e si può quindi attivarlo e regolarlo tramite impostazioni, se necessario.
 

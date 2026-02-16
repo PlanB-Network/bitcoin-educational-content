@@ -1,5 +1,6 @@
 ---
-term: ODRŽAVALAC (JEZGRO)
+term: Održavalac (core)
+definition: Pojedinci odgovorni za upravljanje Bitcoin Core projektom i spajanje izmena koda.
 ---
 
 U kontekstu projekta Bitcoin Core, predominantna implementacija čvorova na Bitcoin mreži, održavaoci su pojedinci zaduženi za upravljanje projektom. Oni nose odgovornost za njegovu implementaciju. Oni su zaduženi za moderaciju na Bitcoin Core GitHub repozitorijumu i za postavljanje rasporeda za izdavanje novih verzija. Oni su prvenstveno odgovorni za sprovođenje spajanja pull zahteva (PR) koje predlažu saradnici.

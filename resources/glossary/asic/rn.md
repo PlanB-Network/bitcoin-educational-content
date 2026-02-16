@@ -1,8 +1,9 @@
 ---
 term: ASIC
+definition: Icyuma cyubwiyunge cyubwiyunge kigambye SHA256 hashes kubahe Bitcoin, gitanga ubusobozi bw'ubushakye bwinshi kuruta CPU na GPU.
 ---
 
-ASIC ni igikoresho co mu buhinga bwa none gikoreshwa mu gukora igikorwa kinaka kandi kikaba gikora neza cane. Mu bijanye na Bitcoin Mining, ASICs ni imirongo yihariye ikora ibikorwa vy’umuvuduko munini, bikoresha inguvu nke za Hash. Biba vyubatswe cane cane kugira ngo bikore igikorwa ca `SHA256` Hash gikoreshwa mu buryo bwa Proof-of-Work. Mu ntango, ijambo “ASIC” ryerekeza gusa kuri iyo chip ubwayo. Mu kwagura, ubu rikoreshwa kenshi mu kwerekeza ku mashini yose irimwo iyo chip. Rero, mudasobwa zikora cane Bitcoin Mining rimwe na rimwe zitwa "ASICs," canke "abacukuzi." ASICs zasubiriye buhoro buhoro ubundi buryo bwa Mining, nk’ugukoresha ama processeur (CPU) n’amakarata y’ibishushanyo (GPU), kubera ubushobozi bwazo bwo gukoresha neza inguvu n’igipimo ca Hash kinini cane.
+ASIC ni igikoresho ca elegitoroniki cakozwe kugira gikorere igikorwa kimwe cose neza cane. Mu bijanye no gucukura Bitcoin, ASIC ni imirongo y’utudandazwa twihariye ikora ibikorwa vya hashing ku muvuduko mwinshi kandi ikoresha inguvu nke. Zihariye mu gukora igikorwa ca hashing `SHA256` gikoreshwa mu buryo bwa proof-of-work. Mu ntango, ASIC yari izina rya puce. Mu buryo bwagutse, inyongera "ASIC" ikoreshwa kenshi no kuvuga imashini icumbitse ico puce. Gutyo, amakompyuta yihariye mu gucukura Bitcoin rimwe na rimwe yitwa "ASIC" canke "abacukura". ASIC zaragiye zisubirira buhoro buhoro izindi nzira zo gucukura, nk’ikoreshwa rya processeurs (CPU) mu ntango za Bitcoin, hanyuma amakarata y’ibishushanyo (GPU), kubera ubushobozi bwayo bwo kuziganya inguvu no kugira umubare wa hashing uri hejuru cane.
 
 
-> *Ijambo ry'inyongera "ASIC" risobanura "Igikoresho-Cihariye c'Igikoresho." Mu gifaransa, iryo jambo rishobora guhindurwa ngo "Circuit intégré spécifique à une application".*
+Incamake "*ASIC*" mu congereza isobanura "*Application-Specific Integrated Circuit*".

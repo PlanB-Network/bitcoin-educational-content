@@ -1,5 +1,6 @@
 ---
 term: LIBSECP256K1
+definition: Cryptografische C-bibliotheek voor handtekeningen en bewerkingen op de secp256k1 elliptische curve die door Bitcoin wordt gebruikt.
 ---
 
 Hoogperformante, hoog-veilige C bibliotheek voor digitale handtekeningen en andere cryptografische primitieven op de `secp256k1` elliptische curve. Aangezien deze curve nooit veel gebruikt is buiten Bitcoin (in tegenstelling tot de vaak geprefereerde `secp256r1` curve), heeft deze bibliotheek als doel de meest uitgebreide referentie te zijn voor het gebruik ervan. De ontwikkeling van libsecp256k1 was primair gericht op de behoeften van Bitcoin, en functies bedoeld voor andere toepassingen zijn mogelijk minder getest of geverifieerd. Passend gebruik van deze bibliotheek vereist zorgvuldige aandacht, om er zeker van te zijn dat het geschikt is voor de specifieke doeleinden van andere toepassingen dan Bitcoin.

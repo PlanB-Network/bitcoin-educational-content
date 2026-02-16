@@ -1,0 +1,9 @@
+question: 工业挖矿竞争力中最重要的因素是什么？
+answer: 电费
+wrong_answers:
+  - 工资成本金额
+  - 基础设施的人机工程质量
+  - 软件许可成本
+explanation: |
+  在大规模挖矿中，营利能力取决于单位计算成本，而电费是决定这一成本的主要因素。
+reviewed: false

@@ -1,13 +1,9 @@
-question: Kuidas toimib vart faas Karikakra protokollis?
-
-answer: Tehing saadetakse läbi juhusliku sõlmede tee
-
+question: Milline BIP formaliseeris Dandelion edastusprotokolli?
+answer: BIP156
 wrong_answers:
-  - Tehing edastatakse kohe kõigile lähtesõlme eakaaslastele
-  - Tehing salvestatakse ajutiselt kesksõlmes enne edastamist
-  - Tehing krüpteeritakse järk-järgult iga edastusetapi juures
-
+  - BIP34
+  - BIP47
+  - BIP324
 explanation: |
-  Karikakra kasutab esmalt vart faasi, kus tehing saadetakse läbi juhusliku sõlmede tee. Seejärel edastatakse tehing kogu võrgustikule udusule faasis.
-
+  Dandelion formaliseeriti BIP156-s, ilma et seda lõpuks Bitcoin Core'i integreeritud oleks.
 reviewed: false

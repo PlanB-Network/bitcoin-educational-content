@@ -1,0 +1,10 @@
+question: Mikä lempinimi annettiin nopeasti Ross Ulbrichtin luomalle Silk Road -alustalle?
+answer: Huumeiden Amazon
+wrong_answers:
+  - Alibaban luola
+  - Pimeän verkon eBay
+  - Maanalainen Walmart
+explanation: |
+ Silk Road sai lempinimen, koska se muistutti sähköisen kaupankäynnin jättiläistä Amazonia. Lempinimi kuvasti alustan käyttäjäystävällistä käyttöliittymää ja tehokkuutta
+ laittomaan kaupankäyntiin.
+reviewed: true

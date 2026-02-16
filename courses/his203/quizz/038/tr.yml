@@ -1,0 +1,11 @@
+question: Pay to Script Hash yükseltmesi özellikle hangi kullanım durumları için dağıtıldı?
+answer: Çok taraflı imza (multisig) ile fonları güvence altına almak için
+wrong_answers:
+  - Emanet hizmetleri için
+  - Birleştirilmiş mining sayesinde ağ bilgi işlem gücünü artırmak
+  - Yurt dışına havale göndermek için
+explanation: |
+ Artan korsanlık saldırıları nedeniyle fonların güvence altına alınması şu anda çok önemli bir konu. Konu 23 Ağustos 2011 tarihinde masaya yatırıldı
+ protokolde zaten mevcut olan çoklu imza işlevselliğinin standardizasyonunu hızlandırmak isteyen proje lideri Gavin Andresen tarafından.
+ Bu da kış boyunca OP_EVAL ve ardından P2SH'ün geliştirilmesine yol açtı.
+reviewed: true

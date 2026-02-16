@@ -1,0 +1,10 @@
+question: Z czego składa się schemat skryptu Pay-to-Script-Hash (P2SH)?
+answer: Blokowanie środków za pomocą skrótu skryptu, który musi zostać wykonany podczas odblokowywania
+wrong_answers:
+  - Wymaganie M podpisów od N uczestników w celu autoryzacji wyjścia transakcji do wydania
+  - Uzależnienie wydawania bitcoinów od złożenia podpisu powiązanego z pojedynczym kluczem publicznym
+  - Zapisywanie dowolnych danych w łańcuchu bloków poprzez uniemożliwienie wydawania UTXO
+explanation: |
+ Obejmuje to płacenie za hash skryptu i dostarczanie tego skryptu podczas odblokowywania funduszy. To, co odróżnia go od propozycji OP_EVAL, to fakt, że jest on
+ automatycznie rozpoznawany przez maszynę wirtualną, dzięki czemu może być wykonywany bez potrzeby wydawania wyraźnych instrukcji.
+reviewed: true

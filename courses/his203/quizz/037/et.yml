@@ -1,0 +1,11 @@
+question: Kuidas nimetati 2011. aastal Wladimir van der Laani poolt põhitarkvara jaoks välja töötatud graafilist kasutajaliidest?
+answer: Bitcoin-Qt
+wrong_answers:
+  - wxWindows-Bitcoin
+  - bitcoind
+  - Bitcoin tuum
+explanation: |
+ Bitcoin-Qt oli Bitcoin graafilise kasutajaliidese täielik uuendamine. See töötati välja alates 2011. aasta juunist ja integreeriti põhitarkvarasse versioonis 0.5,
+ mis avaldati 21. novembril. See põhineb Qt graafikaraamistikul ja asendas algselt Satoshi-s kasutatud wxWindows'i raamatukogu. Metonüümiliselt nimetati tarkvara
+ Bitcoin-Qt.
+reviewed: true

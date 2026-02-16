@@ -1,0 +1,10 @@
+question: Quale innovazione tecnica di SatoshiDICE ha permesso ai giocatori di verificare che il casinò non stesse barando?
+answer: La pubblicazione di hash segreti sulla blockchain, seguita dalla pubblicazione di tali segreti per consentire il ricalcolo dei risultati
+wrong_answers:
+  - L'implementazione di una blockchain di convalida decentralizzata in cui ogni transazione è verificata da diversi nodi indipendenti
+  - L'uso di indirizzi fissi sulla blockchain rende possibile la verifica dei sorteggi, garantendone l'equità
+  - Esecuzione di calcoli di probabilità direttamente sulla blockchain attraverso contratti pubblici autonomi
+explanation: |
+ Il SatoshiDICE era rivoluzionario in quanto "sicuramente equo". Ogni estrazione legata alla probabilità dipendeva da un generated segreto all'inizio della giornata, il cui hash era pubblicato sulla blockchain
+ segreto all'inizio della giornata, il cui hash veniva pubblicato sulla blockchain. Il segreto stesso veniva rivelato qualche giorno dopo, consentendo agli utenti di ricalcolare da soli il risultato.
+reviewed: true

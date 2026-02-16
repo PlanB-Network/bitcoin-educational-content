@@ -1,0 +1,11 @@
+question: Wie was het brein achter de eerste hybride proof-of-stake implementatie in augustus 2012 via de cryptocurrency PPCoin?
+answer: Zonnige Koning
+wrong_answers:
+  - Vitalik Buterin
+  - Come-From-Beyond
+  - Ben Laurie
+explanation: |
+ Sunny King was het pseudoniem van de hoofdontwikkelaar van het project. Het idee was om een hybride model te implementeren waarbij bepaalde blokken werden gevalideerd door proof of conservation
+ (gebaseerd op het coin age concept), naast blokken die worden gedolven door conventionele mining. Sunny King en zijn medewerkers lanceerden PPCoin in augustus 2012
+ (later omgedoopt tot Peercoin). Ze beschreven hun oplossing als "energie-efficiënt op de lange termijn".
+reviewed: true

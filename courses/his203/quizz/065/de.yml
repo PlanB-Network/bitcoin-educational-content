@@ -1,0 +1,11 @@
+question: Wie viele verschiedene Hacks gab es bei der Handelsplattform Bitcoinica, bevor sie Konkurs anmeldete?
+answer: 3
+wrong_answers:
+  - 1
+  - 2
+  - 4
+explanation: |
+ Die drei Hacks waren wie folgt: der Hack des Linode-Kontos, durch den die Plattform 43.554 Bitcoins verlor; der Hack des Rackspace-Kontos, der zum Verlust von 18.574 Bitcoins führte
+ verlust von 18.574 Bitcoins führte; der Hack des Mt. Gox-Kontos, bei dem der Hacker 40.000 Bitcoins und 40.000 LR-USD abhob. Die Liquidation von Bitcoinica
+ wurde am 1. August 2012 bekannt gegeben.
+reviewed: true

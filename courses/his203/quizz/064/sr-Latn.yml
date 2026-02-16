@@ -1,0 +1,9 @@
+question: Koju je metodu Tony76 koristio za postavljanje svoje prevare 20. aprila 2012. na Silk Road tržištu?
+answer: Korišćenje njegove besprekorne reputacije kao prodavca za zahtev ranog završetka transakcija
+wrong_answers:
+  - Eksploatacija tehničke ranjivosti u obradi bitcoin plaćanja na platformi
+  - Manipulacija cene bitcoina radi veštačkog povećanja cena na Silk Road-u
+  - Ucenjivanje zaposlenog na Putu svile da štampa lažne opise proizvoda
+explanation: |
+ Tony76 je uživao odličnu reputaciju, što mu je omogućilo da zahteva od kupaca da koriste ranu finalizaciju, umesto escrow-a. Pošto je 20. april emblematičan datum za potrošače kanabisa, ponudio je više popusta na svoje uobičajene proizvode za tu priliku, i narudžbine su se slivale. Kasnije je nestao sa bitcoinima i nikada nije ispunio svoje narudžbine.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Koji je bio koncept iza P2Pool, distribuiranog mining pool-a koji je kreirao Forrest Voight 2011. godine?
+answer: Lanac akcija
+wrong_answers:
+  - Dugo anketiranje
+  - Potpis coinbase-a
+  - FPGA
+explanation: |
+ "Lanac akcija", ili sharechain, bio je sastavljen od delimičnih dokaza rada koje su doprineli učesnici. Održavali su ga učesnici, koji su bili povezani
+ peer-to-peer. Svaka akcija je sadržala otisak prsta prethodne akcije, osiguravajući integritet celine.
+reviewed: true

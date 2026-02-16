@@ -1,0 +1,10 @@
+question: Milline tehniline uuendus lisati 2011. aasta oktoobris Namecoini krüptovaluutasse?
+answer: Ühendatud mining
+wrong_answers:
+  - GPU-resistent mining
+  - Usaldusväärsed sõlmed
+  - Tõend osaluse kohta
+explanation: |
+ Ühendatud mining on protsess, mille puhul "emaahela" (st Bitcoin) keti kallal tehtud tööd kasutatakse uuesti väiksemate "abiahelate" valideerimiseks. See protsess oli
+ bitDNSi arutelus välja pakutud Satoshi enda poolt. Kombineeritud mining aktiveeriti Namecoini võrgus 8. oktoobril 2011, plokitasandil 19,200.
+reviewed: true

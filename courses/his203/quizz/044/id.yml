@@ -1,0 +1,10 @@
+question: Masalah apa yang seharusnya dipecahkan oleh Namecoin, mata uang kripto alternatif pertama untuk Bitcoin?
+answer: Pemusatan nama domain
+wrong_answers:
+  - Manajemen reputasi online
+  - Masalah varians mining
+  - Distribusi bitcoin yang tidak merata
+explanation: |
+ Sistem nama domain diawasi oleh ICANN, sebuah perusahaan nirlaba yang didirikan di bawah hukum California, yang menimbulkan masalah sensor. Konsep BitDNS
+ (yang kemudian berganti nama menjadi Namecoin) adalah menempatkan pengelolaan nama domain ini pada blockchain yang mirip dengan Bitcoin untuk mengatasi masalah ini.
+reviewed: true

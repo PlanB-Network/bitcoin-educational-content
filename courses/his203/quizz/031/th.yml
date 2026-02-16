@@ -1,0 +1,9 @@
+question: mining สหกรณ์ใดที่มีอัตราแฮชของเครือข่ายเกิน 50% ชั่วคราวในฤดูร้อนปี 2011?
+answer: ดีพบิต
+wrong_answers:
+  - ดีพบิต
+  - Slush's Pool
+  - GHash.io
+explanation: |
+ ตามข้อมูลของ OrganOfCorti อัตราแฮชที่วัดได้ของ Deepbit คือ 52.86% เมื่อวันที่ 5 สิงหาคม
+reviewed: true

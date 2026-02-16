@@ -1,0 +1,10 @@
+question: Mis oli BitCoinJ-s rakendatud lihtsustatud makse kontrollimise (SPV) peamine eelis, mida kasutasid kergekaalulised wallet-d, nagu Bitcoin Wallet Androidile?
+answer: See võimaldas tehinguid kontrollida ilma kogu plokiahelat alla laadimata
+wrong_answers:
+  - See segab automaatselt bitcoine makse laekumisel, et parandada konfidentsiaalsust
+  - See krüpteeris wallet andmed, kasutades AES-256 algoritmi, et vältida Trooja hobuse vargust
+  - See võimaldas kindlustada ühenduse olemasoleva sõlmpunktiga, et takistada rünnakuid, mis kasutavad ära tehingute võltsitavust
+explanation: |
+ Lihtsustatud makse kontrollimine (Simplified Payment Verification, SPV) oli oluline uuendus, mida kirjeldati Bitcoin valges raamatus ja mis võimaldas õhukestel klientidel kontrollida, et nende tehinguid
+ kuulusid plokiahelasse, ilma et oleks vaja kogu andmeid alla laadida ja salvestada.
+reviewed: true

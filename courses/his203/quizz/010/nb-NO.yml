@@ -1,0 +1,11 @@
+question: Hvilken valutaplattform som konkurrerer med Mt. Gox, ble lansert i desember 2010 av David François?
+answer: Bitcoin-Central
+wrong_answers:
+  - Paymium
+  - Britcoin
+  - Bitomat
+explanation: |
+ Bitcoin-Central var en fransk plattform som i utgangspunktet aksepterte Liberty Reserve-dollar og euro, samt konvensjonelle eurooverføringer. Kildekoden ble
+ publisert under en åpen kildekodelisens (AGPL). Plattformen ble senere slått sammen med Paymium, et selskap som ble grunnlagt av Gonzague Grandval, Pierre Noizat og David
+ François i juni 2011, som opprinnelig fokuserte på betalingsområdet.
+reviewed: true

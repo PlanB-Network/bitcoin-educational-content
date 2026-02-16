@@ -1,0 +1,10 @@
+question: Varför krävde Pay to Script Hash-uppgraderingen 55% av nätverkets hashkraft för att aktiveras?
+answer: Så att den är "bakåtkompatibel" och inte skapar en kedjeuppdelning
+wrong_answers:
+  - Eftersom protokollstyrning beror på gruvarbetarnas röst ("en processor, en röst")
+  - För att inte centralisera mining-verksamheten, som då domineras av ett fåtal mining-pooler
+  - För att projektledaren Gavin Andresen inte ville vara en "välvillig diktator"
+explanation: |
+ Detta var en begränsning av konsensusreglerna, det som senare skulle kallas en "mjuk fork". Uppgraderingen skapar inte en kedjesplit om den stöds av en majoritet av
+ majoritet av nätverkets datorkraft.
+reviewed: true

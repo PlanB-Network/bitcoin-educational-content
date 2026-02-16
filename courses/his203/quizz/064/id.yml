@@ -1,0 +1,11 @@
+question: Metode apa yang digunakan Tony76 untuk melakukan penipuan pada tanggal 20 April 2012 di pasar Silk Road?
+answer: Penggunaan reputasinya yang sempurna sebagai penjual untuk meminta penyelesaian transaksi lebih awal
+wrong_answers:
+  - Eksploitasi kerentanan teknis dalam pemrosesan pembayaran bitcoin di platform
+  - Manipulasi harga bitcoin untuk menaikkan harga secara artifisial di Jalur Sutra
+  - Pemerasan terhadap karyawan Silk Road untuk mencetak deskripsi produk palsu
+explanation: |
+ Tony76 memiliki reputasi yang sangat baik, yang memungkinkannya untuk meminta pembeli untuk menggunakan finalisasi awal, alih-alih escrow. 20 April menjadi tanggal simbolis untuk
+ konsumen ganja, dia menawarkan banyak diskon untuk produknya yang biasa untuk acara tersebut, dan pesanan mengalir masuk. Dia kemudian menghilang dengan bitcoin, dan
+ tidak pernah memenuhi pesanannya.
+reviewed: true

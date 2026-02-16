@@ -1,0 +1,10 @@
+question: 哪个 mining 协议由 Marek Palatinus（又名 Slush）于 2012 年 9 月开发，旨在改善矿工与 mining 矿池之间的交换？
+answer: 层
+wrong_answers:
+  - Electrum
+  - Getwork
+  - 获取块模板 (GBT)
+explanation: |
+ Stratum 是瘦客户机的 mining 协议。它很快就取代了在此之前使用的最基本的 getwork 功能，并在竞争者 getblocktemplate 提议的牺牲下确立了自己的地位。
+ 竞争的 getblocktemplate 提议。
+reviewed: true

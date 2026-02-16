@@ -1,0 +1,9 @@
+question: Fizikalni bitkoini koje je američki programer Mike Caldwell napravio između septembra 2011. i novembra 2013. godine zvali su se "Casascius" novčići.
+answer: Casascius Coins
+wrong_answers:
+  - Bitbills
+  - Lealana Cents
+  - PrintCoins
+explanation: |
+ Casascius je bio pseudonim Majka Kaldvela, 33-godišnjeg programera koji je živeo u Juti. Njegovi fizički bitkoini dolazili su u apoenima od 1 BTC, 25 BTC i drugim denominacijama, kao i u polugama do 1.000 BTC. Oni su postigli veliki uspeh, čuvajući skoro 100.000 bitkoina tokom godina.
+reviewed: true

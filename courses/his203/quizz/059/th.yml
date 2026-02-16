@@ -1,0 +1,9 @@
+question: นามแฝงของผู้สร้างดั้งเดิมของเกมลูกเต๋าออนไลน์ SatoshiDICE คืออะไร?
+answer: Fireduck
+wrong_answers:
+  - Evoorhees
+  - Tuxavant
+  - Hippich
+explanation: |
+ Joseph Gleason หรือที่รู้จักในชื่อ Fireduck เป็นนักพัฒนาชาวอเมริกันวัย 30 ปี หลังจากที่เขาได้พัฒนาเครื่องมือซอฟต์แวร์บางอย่างสำหรับ Bitcoin เขาได้พัฒนา SatoshiDICE คาสิโนบิตคอยน์ (ซึ่งนำเสนอตัวเองเป็นเกมลูกเต๋า) เมื่อวันที่ 9 เมษายน 2012 ไม่กี่สัปดาห์ต่อมา เขาได้ขายแพลตฟอร์มนี้ให้กับ Erik Voorhees (Evoorhees) ในราคา 40 บิตคอยน์ หรือประมาณ $200
+reviewed: true

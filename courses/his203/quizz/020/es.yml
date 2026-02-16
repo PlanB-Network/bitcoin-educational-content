@@ -1,0 +1,10 @@
+question: ¿Qué influyente economista criticó el Bitcoin en septiembre de 2011 por su política monetaria rígida y deflacionista?
+answer: Paul Krugman
+wrong_answers:
+  - Yánis Varoufákis
+  - Alan Greenspan
+  - Barry Eichengreen
+explanation: |
+ Paul Krugman es un economista neokeynesiano galardonado con el Premio Nobel de Economía 2008. En un artículo titulado "Golden Cyberfetters", publicado en el sitio web del New York
+ Times el 7 de septiembre de 2011, sostuvo que el "modelo de patrón oro privado" de la Bitcoin conducirá a su desaparición como medio de cambio.
+reviewed: true

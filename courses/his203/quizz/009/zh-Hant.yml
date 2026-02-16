@@ -1,0 +1,10 @@
+question: Mark Karpelès 在接管 Mt. Gox 之前管理哪家託管服務？
+answer: KalyHost
+wrong_answers:
+  - TibanneHost
+  - 我們寄存您
+  - PlanetHost
+explanation: |
+ 這只是他以獨立開發者身份提供的眾多服務之一。11 月，Mark Karpelès 開始使用 KalyHost 接受比特幣付款。
+ Ross Ulbricht 也使用該服務來託管 Silkroadmarket.org 網頁，該網頁重定向到 Silk Road。
+reviewed: true

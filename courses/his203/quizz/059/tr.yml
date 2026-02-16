@@ -1,0 +1,11 @@
+question: SatoshiDICE çevrimiçi zar oyununun orijinal yaratıcısının takma adı neydi?
+answer: Fireduck
+wrong_answers:
+  - Evoorhees
+  - Tuxavant
+  - Hippich
+explanation: |
+ Joseph Gleason, nam-ı diğer Fireduck, 30 yaşında Amerikalı bir geliştiriciydi. Bitcoin için birkaç yazılım aracı programladıktan sonra, SatoshiDICE bitcoin'i geliştirdi
+ kumarhanesini (kendisini bir zar oyunu olarak sunan) 9 Nisan 2012'de kurdu. Birkaç hafta sonra platformu 40 bitcoin karşılığında Erik Voorhees'e (Evoorhees) sattı veya
+ 200 dolar civarında.
+reviewed: true

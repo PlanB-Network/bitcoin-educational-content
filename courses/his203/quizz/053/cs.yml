@@ -1,0 +1,11 @@
+question: Jak se jmenovala směnárenská služba mezi soukromými subjekty, kterou Jeremias Kangas a jeho bratr spustili v červnu 2012?
+answer: LocalBitcoins
+wrong_answers:
+  - BTC NEAR ME
+  - BitInstant
+  - Coinabul
+explanation: |
+ Jednalo se o matchmakingovou platformu, která byla spuštěna 7. června. V průběhu léta LocalBitcoins integrovala systém úschovy, jehož prostřednictvím bylo možné bitcoiny
+ na okamžik držet platforma a uvolnit je prostřednictvím SMS k platbě kupujícímu. To umožnilo zejména osobní výměny, při nichž by prodávající
+ bitcoiny uvolnil, jakmile obdržel hotovost.
+reviewed: true

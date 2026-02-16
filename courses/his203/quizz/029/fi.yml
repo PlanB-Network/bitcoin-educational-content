@@ -1,0 +1,10 @@
+question: Mikä oli amerikkalaisen kehittäjän Mike Caldwellin syyskuun 2011 ja marraskuun 2013 välisenä aikana tekemien fyysisten bitcoinien nimi?
+answer: Casascius Coin:t
+wrong_answers:
+  - Bitbills
+  - Lealana Cents
+  - PrintCoins
+explanation: |
+ Casascius oli Utahissa asuvan 33-vuotiaan kehittäjän Mike Caldwellin salanimi. Hänen fyysisiä bitcoinejaan oli 1 BTC, 25 BTC ja muita nimellisarvoja, kuten
+ sekä jopa 1 000 BTC:n suuruisia harkkoja. Ne ovat olleet valtava menestys, ja niihin on vuosien varrella tallennettu lähes 100 000 bitcoinia.
+reviewed: true

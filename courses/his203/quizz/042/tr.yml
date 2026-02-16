@@ -1,0 +1,10 @@
+question: Pay to Script Hash yükseltmesinin etkinleştirilmesi için neden ağın hash gücünün %55'ine ihtiyaç duyuldu?
+answer: Böylece "geriye dönük uyumlu" olur ve zincirleme bir bölünme yaratmaz
+wrong_answers:
+  - Çünkü protokol yönetimi madencilerin oylarına bağlıdır ("bir işlemci, bir oy")
+  - mining işini merkezileştirmemek için, daha sonra birkaç mining havuzu tarafından domine edildi
+  - Çünkü proje lideri Gavin Andresen "hayırsever bir diktatör" olmak istemiyordu
+explanation: |
+ Bu, daha sonra "yumuşak fork" olarak adlandırılacak olan mutabakat kurallarının bir kısıtlamasıydı. Yükseltme bir zincir tarafından destekleniyorsa zincir bölünmesi yaratmaz
+ ağın bilgi işlem gücünün çoğunluğu.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Giao thức mining nào được Marek Palatinus, hay còn gọi là Slush, phát triển vào tháng 9 năm 2012 để cải thiện việc trao đổi giữa các thợ đào và các pool mining?
+answer: Tầng
+wrong_answers:
+  - Electrum
+  - Getwork
+  - Getblocktemplate (GBT)
+explanation: |
+ Stratum là một giao thức mining dành cho các máy khách mỏng. Nó nhanh chóng thay thế chức năng getwork thô sơ được sử dụng cho đến lúc đó và tự khẳng định vị thế của mình bằng cách loại bỏ đề xuất getblocktemplate cạnh tranh.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Wie creëerde de eerste Bitcoin mengdienst, BitLaundry genaamd, in september 2010?
+answer: Peter Vessenes
+wrong_answers:
+  - Roman Sterlingov
+  - Benjamin Reeves
+  - Gregory Maxwell
+explanation: |
+ Peter Venesses was een Amerikaanse ondernemer met een diploma in cryptografie die Bitcoin ontdekte ten tijde van slashdotting. Hij ontwikkelde de dienst om
+ het moeilijker te maken om fondsen te traceren. In mei 2011 verkocht hij de dienst aan activist Mike Gogulski, omdat hij juridische complicaties verwachtte.
+reviewed: true

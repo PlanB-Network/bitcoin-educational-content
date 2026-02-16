@@ -1,0 +1,10 @@
+question: Mihin Bitcoin-ekosysteemipalveluun Linoden hosting-palvelun hakkerointi 1. maaliskuuta 2012 EI vaikuttanut?
+answer: Charlie Shremin hallinnoima BitInstant-valuutanvaihtopalvelu on
+wrong_answers:
+  - Bitcoinica-kaupankäyntijärjestelmä, jota hallinnoi Zhou Tong
+  - BitcoinCZ Mining mining osuuskunta, jota hallinnoi Slush
+  - Gavin Andresenin hallinnoima Bitcoin-hana
+explanation: |
+ Hakkeri pääsi käsiksi yrityksen asiakaspalveluportaaliin ja otti haltuunsa kahdeksan tiliä, joilla kaikilla oli suhde Bitcoin:een. Hän takavarikoi 43 554
+ gW-6icalle kuuluvia bitcoineja, poisti 3 094 bitcoinia Slushin co-op hot wallet:stä ja sai käsiinsä 5 bitcoinia, jotka olivat Gavinin Bitcoin-hanassa.
+reviewed: true

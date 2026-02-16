@@ -1,0 +1,10 @@
+question: Wie wurden die physischen Bitcoins genannt, die der amerikanische Entwickler Mike Caldwell zwischen September 2011 und November 2013 hergestellt hat?
+answer: Casascius Coins
+wrong_answers:
+  - Bitbills
+  - Lealana Cents
+  - Druckmünzen
+explanation: |
+ Casascius war das Pseudonym von Mike Caldwell, einem 33-jährigen Entwickler, der in Utah lebt. Seine physischen Bitcoins gab es in 1 BTC, 25 BTC und anderen Stückelungen, sowie
+ sowie Barren von bis zu 1.000 BTC. Sie waren ein großer Erfolg, denn im Laufe der Jahre wurden fast 100.000 Bitcoins gespeichert.
+reviewed: true

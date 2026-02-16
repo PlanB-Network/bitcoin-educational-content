@@ -1,0 +1,10 @@
+question: Berapa perkiraan proporsi bitcoin yang beredar mewakili uang yang dikelola oleh Bitcoin Savings & Trust fund pada puncaknya?
+answer: Kira-kira 5%
+wrong_answers:
+  - Kira-kira 0,05
+  - Kira-kira 0,5
+  - Kira-kira 50%
+explanation: |
+ Pada puncaknya di bulan Agustus 2012, dana Trendon Shavers (alias PirateAt40) mengelola lebih dari 500.000 bitcoin, yang mewakili sekitar 5% dari 9,7 juta bitcoin yang beredar
+ yang beredar! Bitcoin Savings & Trust runtuh setelah itu, karena kepercayaan menguap.
+reviewed: true

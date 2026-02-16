@@ -1,0 +1,9 @@
+question: ตั้งแต่ BIP-34, อะไรที่ต้องมีในตอนเริ่มต้นของ coinbase scriptSig?
+answer: ความสูงของบล็อก
+wrong_answers:
+  - hashrate ของคนงานเหมือง
+  - เป้าหมายความยาก
+  - รอยเท้าของบล็อก
+explanation: |
+  BIP-34 กำหนดให้ความสูงของบล็อกต้องถูกรวมอยู่ใน coinbase scriptSig.
+reviewed: true

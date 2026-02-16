@@ -1,0 +1,10 @@
+question: Hangi Bitcoin geliştiricisi Pay to Script Hash yükseltmesine şiddetle karşı çıkmıştır?
+answer: Luke Dashjr
+wrong_answers:
+  - Amir Taaki
+  - Gregory Maxwell
+  - Gavin Andresen
+explanation: |
+ Luke Dashjr, OP_EVAL önerisinin çok daha iyi olduğunu, çünkü daha zarif olduğunu; P2SH'in komut dosyası sistemini "tek bir özel model" ile değiştirdiğini düşündü.
+ Ayrıca Gavin'i yazılıma varsayılan raporlamayı dahil ettiği için eleştirdi. Buna yanıt olarak Luke-Jr kendi işletim kodu olan OP_CHECKHASHVERIFY'ü geliştirdi (BIP 17).
+reviewed: true

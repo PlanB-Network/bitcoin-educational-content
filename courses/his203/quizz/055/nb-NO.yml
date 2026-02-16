@@ -1,0 +1,10 @@
+question: Hva var forretningsmodellen bak BitPay, betalingsformidleren som ble lansert av Stephen Pair og Tony Gallippi sommeren 2011?
+answer: Konverter kundenes bitcoins til dollar umiddelbart, mot et gebyr
+wrong_answers:
+  - Gjør det mulig for kunder å kjøpe bitcoin umiddelbart med dollarbetalinger, mot en provisjon
+  - Lån ut bitcoins som er satt inn av kunder og få renter
+  - Videresender bitcoin-betalinger til blokkjeden og mottar transaksjonsgebyrer
+explanation: |
+ Tanken bak BitPay var å gi kjøpmenn muligheten til å konvertere bitcoin-betalingene sine umiddelbart til dollar, slik at de kunne sikre seg mot
+ volatilitet. BitPay forsynte kundene med dollar på forhånd, og krevde et behandlingsgebyr på 1 %.
+reviewed: true

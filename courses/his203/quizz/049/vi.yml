@@ -1,0 +1,9 @@
+question: Ai là người đứng sau việc triển khai cơ chế Proof-of-Stake lai đầu tiên được thực hiện vào tháng 8 năm 2012 thông qua tiền điện tử PPCoin?
+answer: Vua Nắng
+wrong_answers:
+  - Vitalik Buterin
+  - Đến từ bên kia
+  - Ben Laurie
+explanation: |
+ Sunny King là bút danh của nhà phát triển chính của dự án. Ý tưởng là triển khai một mô hình lai, trong đó một số khối được xác thực bằng bằng chứng bảo toàn (dựa trên khái niệm tuổi thọ tiền xu), bên cạnh các khối được khai thác bằng thuật toán mining thông thường. Sunny King và các cộng sự đã ra mắt PPCoin vào tháng 8 năm 2012 (sau này đổi tên thành Peercoin). Họ mô tả giải pháp của mình là "tiết kiệm năng lượng về lâu dài".
+reviewed: true

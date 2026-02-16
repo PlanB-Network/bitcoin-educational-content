@@ -1,0 +1,10 @@
+question: Hangi olay Satoshi Nakamoto'ın Aralık 2010'da spot ışıklarından çekilmesine neden oldu?
+answer: WikiLeaks'i Bitcoin'i kullanmaya davet eden bir PC World makalesinin yayınlanması
+wrong_answers:
+  - Ross Ulbricht İpek Yolu platformunu başlattı
+  - CIA'in yatırım fonu In-Q-Tel tarafından kurulan temas
+  - BTC'nin fiyatının sadece birkaç ay içinde 0,20 dolardan 32 dolara yükselmesi
+explanation: |
+ Satoshi, devlet yetkililerinin dikkatini çekeceği endişesiyle Bitcoin forumunda bu yayın hakkında olumsuz yorumda bulunmuştur. İpek Yolu pazar yeri
+ ocak 2011'de başlatıldı, In-Q-Tel ve Gavin Andresen arasındaki temas Nisan ayında gerçekleşti ve fiyat artışı Haziran ayında 32 $'a ulaştı.
+reviewed: true

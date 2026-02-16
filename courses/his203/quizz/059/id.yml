@@ -1,0 +1,11 @@
+question: Apa nama samaran pencipta asli permainan dadu online SatoshiDICE?
+answer: Fireduck
+wrong_answers:
+  - Evoorhees
+  - Tuxavant
+  - Hippich
+explanation: |
+ Joseph Gleason, alias Fireduck, adalah seorang pengembang asal Amerika Serikat berusia 30 tahun. Setelah memprogram beberapa alat perangkat lunak untuk Bitcoin, ia mengembangkan bitcoin SatoshiDICE
+ kasino (yang menampilkan dirinya sebagai permainan dadu) pada tanggal 9 April 2012. Beberapa minggu kemudian, dia menjual platform tersebut kepada Erik Voorhees (Evoorhees) dengan harga 40 bitcoin, atau
+ sekitar $200.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Jaký byl podle studie Nicolase Christina zveřejněné v srpnu 2012 denní objem prodeje v květnu 2012?
+answer: 15 000 BTC nebo 75 000 USD
+wrong_answers:
+  - 600 BTC nebo 3 000 USD
+  - 3 000 BTC nebo 15 000 USD
+  - 75 000 BTC nebo 375 000 USD
+explanation: |
+ Denní objem prodeje, který v březnu činil 8 000 BTC, dosáhl v květnu 15 000 BTC, což v té době odpovídalo přibližně 75 000 USD. Aktivita jako podíl na celkovém
+ Bitcoin řetězce se v průběhu roku 2012 pohybovala mezi 10 a 20 %. Na začátku listopadu Ross označil úspěch platformy za "explozivní růst".
+reviewed: true

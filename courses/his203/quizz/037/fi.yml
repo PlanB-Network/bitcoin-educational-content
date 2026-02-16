@@ -1,0 +1,11 @@
+question: Mikä oli Wladimir van der Laanin vuonna 2011 pääohjelmistoa varten kehittämän graafisen käyttöliittymän nimi?
+answer: Bitcoin-Qt
+wrong_answers:
+  - wxWindows-Bitcoin
+  - bitcoind
+  - Bitcoin ydin
+explanation: |
+ Bitcoin-Qt oli Bitcoin:n graafisen käyttöliittymän täydellinen uudistaminen. Sitä kehitettiin kesäkuusta 2011 alkaen ja se integroitiin pääohjelmistoon versiossa 0.5,
+ joka julkaistiin 21. marraskuuta. Se perustuu Qt-grafiikkakehykseen ja korvasi Satoshi:ssä alun perin käytetyn wxWindows-kirjaston. Metonyymisesti ohjelmistoa kutsuttiin nimellä
+ Bitcoin-Qt.
+reviewed: true

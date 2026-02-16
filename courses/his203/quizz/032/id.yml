@@ -1,0 +1,10 @@
+question: Protokol mining mana yang dikembangkan pada bulan September 2012 oleh Marek Palatinus, alias Slush, untuk meningkatkan pertukaran antara penambang dan pool mining?
+answer: Stratum
+wrong_answers:
+  - Electrum
+  - Getwork
+  - Getblocktemplate (GBT)
+explanation: |
+ Stratum adalah protokol mining untuk thin client. Protokol ini dengan cepat menggantikan fungsi getwork yang belum sempurna yang digunakan sampai saat itu, dan memantapkan dirinya dengan mengorbankan
+ proposal getblocktemplate yang bersaing.
+reviewed: true

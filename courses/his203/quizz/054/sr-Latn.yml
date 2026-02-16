@@ -1,0 +1,9 @@
+question: Koji je standard plaćanja registrovao IANA u septembru 2012. softverski arhitekta Dave Thaler?
+answer: BIP 21 URI scheme
+wrong_answers:
+  - BIP 32 hijerarhijska deterministička portfolija
+  - BIP 70 protokol plaćanja
+  - BIP 47 ponovljivih kodova za plaćanje
+explanation: |
+ Ovaj standard omogućio je formalizaciju zahteva za plaćanje, koji su imali oblik niza karaktera ili QR koda. Nakon nekoliko predloga, konačna URI šema opisana je u januaru 2012. u okviru BIP 21 od strane Matta Coralla. Registrovao ju je IANA od strane Davea Thalera u septembru.
+reviewed: true

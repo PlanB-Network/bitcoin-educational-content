@@ -1,0 +1,10 @@
+question: Dlaczego aktualizacja Pay to Script Hash wymagała 55% mocy hashowania sieci do aktywacji?
+answer: Dzięki temu jest on "kompatybilny wstecz" i nie tworzy podziału łańcucha
+wrong_answers:
+  - Ponieważ zarządzanie protokołem zależy od głosu górników ("jeden procesor, jeden głos")
+  - Aby nie scentralizować działalności mining, zdominowanej przez kilka pul mining
+  - Ponieważ lider projektu Gavin Andresen nie chciał być "życzliwym dyktatorem"
+explanation: |
+ Było to ograniczenie zasad konsensusu, które później zostało nazwane "miękkim fork". Aktualizacja nie powoduje podziału łańcucha, jeśli jest obsługiwana przez większość mocy obliczeniowej sieci
+ większość mocy obliczeniowej sieci.
+reviewed: true

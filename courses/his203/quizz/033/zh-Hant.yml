@@ -1,0 +1,10 @@
+question: 除了他的 mining 池的識別碼之外，2011 年 8 月 Luke-Jr 透過 Eligius 所做的大部分銘文都包含什麼？
+answer: 祈禱
+wrong_answers:
+  - 兒童色情
+  - 記憶體
+  - 政治訊息
+explanation: |
+ 為了貫徹他的天主教 (sedevacantist) 信仰，Luke-Jr 在他的 mining pool 所開採的區塊的獎勵交易中加入了祈禱文和聖經、
+ Eligius 挖出的區塊的獎勵交易中加入了祈禱文和聖經，而沒有諮詢相關的礦工，這引起了一場熱烈的辯論。
+reviewed: true

@@ -1,0 +1,10 @@
+question: Mis põhjustas Mt. Goxi häkkimise 19. juunil?
+answer: Juurdepääs paroolide andmebaasile, mis oli räsitud MD5-ga, kuid mitte soolatud
+wrong_answers:
+  - Jed McCaleb lekitas salasõna, et pääseda ligi oma isiklikule kontole platvormil
+  - Välgukrahh, mis võimaldas piraatidel võtta välja rohkem bitcoine kui ta oli
+  - XML-süstimine väljavõtmistaotlustes kontode äravõtmiseks
+explanation: |
+ See leke võimaldas häkkeril pääseda ligi nõrkade (lühikeste või kergesti ära arvata olevate) paroolidega kontodele. Eelkõige pääses ta sel viisil ligi Jed McCalebi kontole. Ta
+ müüs bitcoine, et hinda alla viia, et võtta välja maksimaalselt bitcoine (päevane väljavõttepiirang oli 1000 dollarit).
+reviewed: true

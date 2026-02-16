@@ -1,0 +1,11 @@
+question: 谁对 2012 年 7 月发生的上一次 Bitcoinica 黑客攻击事件负有间接责任？
+answer: 阿米尔-塔基
+wrong_answers:
+  - 周彤
+  - 陈建海
+  - 马克-卡佩莱斯
+explanation: |
+ 他于 7 月 7 日发布了该平台的完整源代码，其中包含 Bitcoinica 的 LastPass 保险箱密码，而 LastPass 保险箱密码又包含他的
+ Gox 账户的密码。40,000 个比特币和 40,000 LR-USD 被取走。阿米尔-塔基承认了这一行为，但将责任归咎于 Bitcoinica 的管理层、
+ 与他有冲突。
+reviewed: true

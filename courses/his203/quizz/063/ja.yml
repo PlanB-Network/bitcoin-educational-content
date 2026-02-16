@@ -1,0 +1,10 @@
+question: 2012年3月1日、Linodeホスティングサービスのハッキングの影響を受けなかったBitcoinエコシステムサービスは？
+answer: チャーリー・シュレムが運営するBitInstant外国為替サービス
+wrong_answers:
+  - 周通が管理するBitcoinica取引プラットフォーム
+  - BitcoinCZ Mining mining 協力、スラッシュが運営
+  - ギャビン・アンドレセンが管理するBitcoin水栓
+explanation: |
+ ハッカーは同社の顧客サービス・ポータルにアクセスし、Bitcoinと関係のある8つのアカウントをコントロールした。彼は43,554
+ Bitcoinicaに属する43,554ビットコインを押収し、Slushのco-opホットwalletから3,094ビットコインを抜き取り、GavinのBitcoinコックに存在する5ビットコインを手に入れた。
+reviewed: true

@@ -1,0 +1,10 @@
+question: Milline sündmus ajendas Satoshi Nakamoto 2010. aasta detsembris tähelepanu alt eemalduma?
+answer: PC Worldi artikli avaldamine, milles kutsutakse WikiLeaksit üles kasutama Bitcoin
+wrong_answers:
+  - Ross Ulbricht käivitab Silk Road platvormi
+  - LKA investeerimisfondi In-Q-Tel poolt loodud kontakt
+  - BTC hinna järsk tõus 0,20 dollarilt 32 dollarini vaid mõne kuuga
+explanation: |
+ Satoshi kommenteeris seda avaldamist Bitcoin foorumis negatiivselt, kartes, et see äratab riigiasutuste tähelepanu. Siiditee turg
+ käivitati 2011. aasta jaanuaris, kontakt In-Q-Teli ja Gavin Andreseni vahel toimus aprillis ning hinnakõne saavutas juunis 32 dollari suuruse tipptaseme.
+reviewed: true

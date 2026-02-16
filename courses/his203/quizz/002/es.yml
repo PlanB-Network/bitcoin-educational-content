@@ -1,0 +1,10 @@
+question: ¿Qué protocolo impidió que el mercado de la Ruta de la Seda fuera cerrado directamente por las autoridades?
+answer: Tor
+wrong_answers:
+  - I2P
+  - Freenet
+  - BitTorrent
+explanation: |
+ Tor, acrónimo lexicalizado de The Onion Router, es un protocolo que soporta una red informática global y descentralizada (comúnmente conocida como darknet).
+ Permite alojar sitios web de forma anónima y sin censura, y era ideal para el proyecto de Ross Ulbricht.
+reviewed: true

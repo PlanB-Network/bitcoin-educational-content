@@ -1,0 +1,10 @@
+question: Vilken Bitcoin-ekosystemtjänst påverkades INTE av hackningen av Linodes värdtjänst den 1 mars 2012?
+answer: BitInstant-valutatjänsten, som hanteras av Charlie Shrem
+wrong_answers:
+  - Handelsplattformen Bitcoinica, som förvaltas av Zhou Tong
+  - BitcoinCZ Mining mining kooperativ, förvaltas av Slush
+  - Bitcoin-kranen, hanteras av Gavin Andresen
+explanation: |
+ Hackaren tog sig in på företagets kundtjänstportal och tog kontroll över åtta konton, som alla hade en relation till Bitcoin. Han beslagtog 43 554
+ bitcoins som tillhörde Bitcoinica, tog bort 3 094 bitcoins från Slushs kooperativa heta wallet och fick tag på de 5 bitcoins som fanns på Gavins Bitcoin-kran.
+reviewed: true

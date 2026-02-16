@@ -1,0 +1,10 @@
+question: PorcFest 2012'de tüccarların yarısından fazlasının bitcoin kabul ettiği ticarete ayrılmış alanın adı neydi?
+answer: Agora Vadisi
+wrong_answers:
+  - Bitcoin Sokak
+  - Özgürlükçü Yol
+  - Zor Para Kampı
+explanation: |
+ Agora Vadisi'nde yiyecek, içecek, kitap, giysi, bıçak, şapka ve daha fazlasını satan kırk kadar stant yer aldı. BitInstant üyelerinin de orada bir standı vardı
+ "Bernanke'nin Bitcoin'si Exchange", burada dolar değişimi sağladılar ve meraklılara Bitcoin'nin nasıl kullanılacağını öğrettiler.
+reviewed: true

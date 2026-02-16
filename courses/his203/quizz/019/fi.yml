@@ -1,0 +1,10 @@
+question: Mille tasolle bitcoinin hinta laski vuoden 2011 suurta kuplaa seuranneen laskusuhdanteen lopussa?
+answer: 2 $
+wrong_answers:
+  - 0,01 $
+  - 6 $
+  - 17,5 $
+explanation: |
+ Huipussaan 32 dollarissa kesäkuussa 2011 bitcoinin hinta laski rajusti 6 dollariin elokuun alussa, jatkoi sitten laskuaan ja oli lopulta noin 2 dollaria vuonna 2011
+ Marraskuussa 2011. Tämä merkitsi yli 90 prosentin pudotusta kesäkuun huipusta.
+reviewed: true

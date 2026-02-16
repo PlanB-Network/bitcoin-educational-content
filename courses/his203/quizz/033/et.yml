@@ -1,0 +1,10 @@
+question: Mida sisaldas lisaks tema mining basseini identifikaatorile enamik Luke-Jr. poolt Eligiuse kaudu tehtud sissekirjutusi 2011. aasta augustis?
+answer: Palved
+wrong_answers:
+  - Lapsporno
+  - Meemid
+  - Poliitilised sõnumid
+explanation: |
+ Kooskõlas oma katoliikliku (sedevakantistliku) usuga lisas Luke-Jr palveid ja pühasid tekste oma mining basseinis kaevandatud plokkide eest tehtavate tasutehingute hulka,
+ Eligius, ilma asjaomaste kaevuritega konsulteerimata, mis tekitas elavat arutelu.
+reviewed: true

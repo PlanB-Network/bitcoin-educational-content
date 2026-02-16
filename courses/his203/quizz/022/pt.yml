@@ -1,0 +1,11 @@
+question: Qual foi a principal inovação financeira oferecida pela plataforma Bitcoinica, lançada em setembro de 2011 pelo jovem empresário chinês Zhou Tong?
+answer: Alavancagem e venda a descoberto
+wrong_answers:
+  - Emissão de acções e obrigações
+  - O empréstimo com juros garantidos
+  - Troca de dinheiro quase instantânea
+explanation: |
+ A Bitcoinica foi a primeira plataforma do ecossistema a oferecer negociação com margem, o que permitiu aos clientes utilizar a alavancagem para amplificar os seus ganhos (e perdas), e para ir
+ e apostar na queda do preço das acções. Após o seu encerramento, este tipo de serviço foi assumido pela plataforma Bitfinex, que foi lançada em outubro de 2012 e
+ e que se baseava no mesmo código-fonte.
+reviewed: true

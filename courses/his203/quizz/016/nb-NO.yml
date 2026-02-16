@@ -1,0 +1,10 @@
+question: Hva var hovedgrunnen til at Occupy Wall Street-bevegelsen begynte å ta imot donasjoner i bitcoin i september 2011?
+answer: For å omgå økonomisk sensur
+wrong_answers:
+  - For å dra nytte av en langsiktig verdireserve
+  - Slik legger du inn informasjon i blokkjeden
+  - For å kjøpe forsyninger på Silkeveien
+explanation: |
+  Denne bevegelsen tok i bruk Bitcoin for å unnslippe økonomisk sensur etter at noen av PayPal-kontoene deres ble frosset. Som et resultat av dette mottok demonstrantenes generalforsamling i
+  New York mottok donasjoner allerede 19. september, til sammen 686 BTC eller over 3 000 dollar på mottakstidspunktet.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ai đã tạo ra sàn giao dịch chứng khoán trực tuyến GLBSE vào tháng 4 năm 2011, một nền tảng cho phép các bên tham gia trong hệ sinh thái Bitcoin phát hành các chứng khoán tài chính như cổ phiếu hoặc trái phiếu để tự huy động vốn?
+answer: James McCarthy (Nefario)
+wrong_answers:
+  - Charlie Shrem (Yankee)
+  - Mircea Popescu (MPOE-PR)
+  - Nathaniel Theis (Cuddlefish)
+explanation: |
+ James McCarthy (Nefario) là một người Ireland sống ở Trung Quốc, giữ chức giáo sư tiếng Anh tại một trường đại học. Ông quan tâm đến trường phái kinh tế Áo và các ý tưởng của Cypherpunk. Vào tháng 4 năm 2011, ông thành lập GLBSE, một công ty cung cấp đủ loại dịch vụ tài chính cho khách hàng, bao gồm cả khả năng phát hành cổ phiếu và trái phiếu.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Milline maksestandard registreeriti IANAs 2012. aasta septembris tarkvaraarhitekti Dave Thaleri poolt?
+answer: BIP 21 URI skeem
+wrong_answers:
+  - BIP 32 hierarhilist deterministlikku portfelli
+  - BIP 70 makseprotokoll
+  - BIP 47 korduvkasutatavat maksekoodi
+explanation: |
+ See standard võimaldas vormistada maksetaotlusi, mis võisid olla tähemärkide või QR-koodi kujul. Pärast mitmete ettepanekute esitamist võeti vastu lõplik URI
+ skeemi kirjeldas 2012. aasta jaanuaris BIP 21 raames Matt Corallo. Dave Thaler registreeris selle IANAs septembris.
+reviewed: true

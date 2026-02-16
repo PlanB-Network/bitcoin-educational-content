@@ -1,0 +1,10 @@
+question: นักพัฒนา Bitcoin คนใดที่คัดค้านการอัปเกรด Pay to Script Hash อย่างรุนแรง?
+answer: ลุค แดชจูเนียร์
+wrong_answers:
+  - อาเมียร์ ทากิ
+  - Gregory Maxwell
+  - กาวิน แอนเดรเซน
+explanation: |
+ Luke Dashjr รู้สึกว่าข้อเสนอ OP_EVAL ดีกว่ามาก เพราะมันมีความสง่างามมากกว่า; P2SH แทนที่ระบบสคริปต์ด้วย "โมเดลพิเศษเดียว"
+ เขายังวิจารณ์ Gavin ที่รวมการรายงานค่าเริ่มต้นในซอฟต์แวร์ เพื่อตอบสนอง Luke-Jr ได้พัฒนารหัสปฏิบัติการของเขาเอง OP_CHECKHASHVERIFY (BIP 17)
+reviewed: true

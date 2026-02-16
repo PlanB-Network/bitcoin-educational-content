@@ -1,0 +1,9 @@
+question: เงื่อนไขใดที่ทำให้บล็อกถูกต้องใน Bitcoin?
+answer: SHA256d(บล็อกเฮดเดอร์) <= เป้าหมาย
+wrong_answers:
+  - SHA256d(block header) >= target
+  - SHA256d(block) >= target
+  - SHA256d(ส่วนหัวของบล็อก) > เป้าหมาย
+explanation: |
+  สำหรับบล็อกที่จะถูกต้องใน Bitcoin แฮชของส่วนหัว เมื่อแปลเป็นตัวเลขแล้ว จะต้องน้อยกว่าหรือเท่ากับ (<=) เป้าหมาย
+reviewed: true

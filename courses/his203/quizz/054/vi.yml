@@ -1,0 +1,9 @@
+question: Kiến trúc sư phần mềm Dave Thaler đã đăng ký tiêu chuẩn thanh toán nào với IANA vào tháng 9 năm 2012?
+answer: Sơ đồ URI BIP 21
+wrong_answers:
+  - BIP 32 danh mục đầu tư xác định theo thứ bậc
+  - Giao thức thanh toán BIP 70
+  - BIP 47 mã thanh toán có thể tái sử dụng
+explanation: |
+ Tiêu chuẩn này cho phép chính thức hóa các yêu cầu thanh toán, vốn có dạng một chuỗi ký tự hoặc mã QR. Sau nhiều đề xuất, một lược đồ URI cuối cùng đã được Matt Corallo mô tả vào tháng 1 năm 2012 trong BIP 21. Nó đã được Dave Thaler đăng ký với IANA vào tháng 9.
+reviewed: true

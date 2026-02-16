@@ -1,0 +1,9 @@
+question: کدام تعاونی mining به طور مختصر در تابستان 2011 از 50% نرخ هش شبکه فراتر رفت؟
+answer: دیپ‌بیت
+wrong_answers:
+  - دیپ‌بیت
+  - استخر اسلاش
+  - GHash.io
+explanation: |
+ بر اساس گزارش OrganOfCorti، نرخ هش اندازه‌گیری شده Deepbit در تاریخ ۵ اوت ۵۲.۸۶٪ بود.
+reviewed: true

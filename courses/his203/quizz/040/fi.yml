@@ -1,0 +1,10 @@
+question: Mistä Pay-to-Script-Hash- (P2SH-) käsikirjoitusjärjestelmä koostuu?
+answer: Varojen lukitseminen komentosarjan hashilla, joka on suoritettava lukituksen avaamisen yhteydessä
+wrong_answers:
+  - Vaaditaan M allekirjoitusta N osallistujalta, jotta tapahtuman tuotos voidaan käyttää
+  - Bitcoineja voidaan käyttää vain yhteen julkiseen avaimeen sidotun allekirjoituksen antamisen perusteella
+  - Mielivaltaisen datan kirjoittaminen lohkoketjuun tekemällä UTXO:sta käyttökelvotonta
+explanation: |
+ Tähän kuuluu skriptin hash:n maksaminen ja kyseisen skriptin toimittaminen varojen vapauttamisen yhteydessä. Se eroaa OP_EVAL:n ehdotuksesta siinä, että se on seuraavanlainen
+ virtuaalikone tunnistaa sen automaattisesti, joten se voidaan suorittaa ilman nimenomaisia ohjeita.
+reviewed: true

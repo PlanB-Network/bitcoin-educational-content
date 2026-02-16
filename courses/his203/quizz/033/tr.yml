@@ -1,0 +1,10 @@
+question: mining havuzunun tanımlayıcısının yanı sıra, Luke-Jr tarafından Eligius aracılığıyla Ağustos 2011'de yapılan yazıtların çoğunluğu ne içeriyordu?
+answer: Dualar
+wrong_answers:
+  - Çocuk pornografisi
+  - Memler
+  - Siyasi mesajlar
+explanation: |
+ Luke-Jr, Katolik (sedevakantist) inancına uygun olarak, mining havuzu tarafından çıkarılan bloklar için ödül işlemine dualar ve kutsal metinler dahil etti,
+ Eligius, ilgili madencilere danışmadan, hararetli bir tartışmaya yol açtı.
+reviewed: true

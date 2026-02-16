@@ -1,0 +1,10 @@
+question: Z której platformy wymiany skradziono 24 000 bitcoinów na początku września 2012 roku?
+answer: Bitfloor
+wrong_answers:
+  - Mt. Gox
+  - Tradehill
+  - BTC-e
+explanation: |
+ W nocy z 3 na 4 września 2012 r. haker uzyskał dostęp do niezaszyfrowanej kopii zapasowej kluczy wallet Bitfloor i zdołał wypłacić nieco ponad 24 000 BTC, czyli około 250 000 USD
+ około 250 000 USD.
+reviewed: true

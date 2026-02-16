@@ -1,0 +1,9 @@
+question: Khái niệm wallet mang tính xác định đã giải quyết vấn đề gì, được nhà phát triển Gregory Maxwell chính thức hóa vào tháng 6 năm 2011?
+answer: Việc sao lưu thường xuyên các khóa riêng tư là cần thiết để bảo mật bitcoin
+wrong_answers:
+  - Rủi ro vi phạm bản quyền liên quan đến việc lưu trữ bitcoin trên thiết bị kết nối Internet
+  - Dễ bị tấn công bằng phương pháp vét cạn do độ ngẫu nhiên thấp của các bộ tạo số ngẫu nhiên
+  - Không thể sử dụng lại tài khoản trên thiết bị khác
+explanation: |
+ Các wallet xác định áp dụng phương pháp tạo khóa: thay vì tạo khóa riêng lẻ một cách ngẫu nhiên bằng generate như trong phần mềm chính, các khóa riêng được tạo ra một cách xác định từ thông tin (gọi là seed) bằng cách sử dụng các hàm mật mã. Phương pháp này đã được phần mềm BitcoinSpinner và Electrum áp dụng vào cuối năm 2011.
+reviewed: true

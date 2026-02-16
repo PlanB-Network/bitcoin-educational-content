@@ -1,0 +1,9 @@
+question: Khái niệm đằng sau P2Pool, nhóm mining phân tán được Forrest Voight tạo ra vào năm 2011 là gì?
+answer: Chuỗi cổ phần
+wrong_answers:
+  - thăm dò dư luận dài hạn
+  - Chữ ký Coinbase
+  - FPGA
+explanation: |
+ "Chuỗi cổ phần", hay sharechain, được tạo thành từ các bằng chứng công việc một phần do những người tham gia đóng góp. Nó được duy trì bởi những người tham gia, những người được kết nối ngang hàng (peer-to-peer). Mỗi cổ phần chứa dấu vân tay của cổ phần trước đó, đảm bảo tính toàn vẹn của toàn bộ chuỗi.
+reviewed: true

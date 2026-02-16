@@ -1,0 +1,9 @@
+question: Ko je bio Mark Karpelès pre nego što je preuzeo Mt. Gox?
+answer: Razvijač sa strašću za tehnologiju
+wrong_answers:
+  - Stručnjak za ulaganje u digitalne valute
+  - Libertarijanski aktivista motivisan Bitcoin ideologijom
+  - Preduzetnik specijalizovan za trgovanje na berzi
+explanation: |
+ Mark Karpelès je bio francuski programer rođen 1985. godine, sa strašću za računarima i tehnologijom. Njega nije motivisala ideologija ili profit, već tehnička radoznalost.
+reviewed: true

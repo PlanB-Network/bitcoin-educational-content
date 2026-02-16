@@ -1,0 +1,9 @@
+question: Pored identifikatora njegovog mining pool-a, šta je većina natpisa koje je Luke-Jr napravio preko Eligiusa sadržala u avgustu 2011?
+answer: Molitve
+wrong_answers:
+  - Dečija pornografija
+  - Mimovi
+  - Političke poruke
+explanation: |
+ U skladu sa svojom katoličkom (sedevakantističkom) verom, Luke-Jr je uključio molitve i svete tekstove u transakciju nagrade za blokove koje je iskopao njegov mining bazen, Eligius, bez konsultacije sa dotičnim rudarima, što je izazvalo živu raspravu.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Vấn đề bảo mật nào được Russell O'Connor phát hiện vào tháng 2 năm 2012 dẫn đến việc tạo ra BIP 30?
+answer: Sự hiện diện của các giao dịch trùng lặp trên chuỗi khối
+wrong_answers:
+  - Vấn đề các tướng lĩnh Byzantine bác bỏ sự đồng thuận
+  - Sự tồn tại của lỗi đệ quy trong lệnh OP_EVAL
+  - Loại bỏ một phần tử dư thừa bởi người vận hành OP_CHECKMULTISIG
+explanation: |
+ Đây là các giao dịch thưởng có cùng mã định danh được bao gồm trong các khối khác nhau. Vào ngày 4 tháng 2 năm 2012, Russell O'Connor đã phát hiện ra một lỗ hổng cho phép xóa hoàn toàn tất cả các giao dịch phát sinh từ một trong những giao dịch trùng lặp này bằng cách tổ chức lại chuỗi. Bản vá, được mô tả trong BIP 30 bởi Pieter Wuille, đã được áp dụng cho mạng vào ngày 15 tháng 3.
+reviewed: true

@@ -1,0 +1,12 @@
+question: Ni kwa ajili ya matumizi gani hasa ambapo uboreshaji wa Hash wa Pay to Script umetumika?
+answer: Kwa ajili ya kupata fedha kwa sahihi ya vyama vingi (multisig)
+wrong_answers:
+  - Kwa huduma za escrow
+  - Kuongeza nguvu ya kompyuta ya mtandao kutokana na mining iliyounganishwa
+  - Kwa ajili ya kutuma pesa nje ya nchi
+explanation: |
+ Kupata fedha ni suala muhimu sana kwa sasa, kutokana na idadi inayoongezeka ya mashambulizi ya uharamia. Mada hiyo iliwasilishwa mezani mnamo Agosti 23, 2011
+ na Gavin Andresen, kiongozi wa mradi, ambaye alitaka kuharakisha usanifishaji wa utendaji wa saini nyingi ambao tayari upo katika itifaki.
+ 
+ Hii ilisababisha maendeleo ya OP_EVAL na kisha P2SH wakati wa majira ya baridi kali.
+reviewed: true

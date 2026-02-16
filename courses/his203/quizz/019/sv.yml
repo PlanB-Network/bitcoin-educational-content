@@ -1,0 +1,10 @@
+question: På ungefär vilken nivå föll priset på bitcoin i slutet av den bear market som följde på den stora bubblan 2011?
+answer: 2 $
+wrong_answers:
+  - 0,01 $
+  - 6 $
+  - 17,5 $
+explanation: |
+ Efter att ha nått en topp på 32 dollar i juni 2011 sjönk priset på bitcoin drastiskt till 6 dollar i början av augusti, fortsatte sedan att falla och nådde slutligen cirka 2 dollar i
+ November 2011. Detta motsvarade en nedgång på över 90% från toppnoteringen i juni.
+reviewed: true

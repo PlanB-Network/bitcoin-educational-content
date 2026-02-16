@@ -1,0 +1,10 @@
+question: Mniej więcej do jakiego poziomu spadła cena bitcoina pod koniec bessy, która nastąpiła po wielkiej bańce z 2011 roku?
+answer: 2 $
+wrong_answers:
+  - 0,01 $
+  - 6 $
+  - 17,5 $
+explanation: |
+ Po osiągnięciu szczytu na poziomie 32 USD w czerwcu 2011 r., cena bitcoina drastycznie spadła do 6 USD na początku sierpnia, a następnie nadal spadała, ostatecznie osiągając około 2 USD w listopadzie 2011 r
+ Listopadzie 2011 roku. Stanowiło to spadek o ponad 90% w stosunku do czerwcowego szczytu.
+reviewed: true

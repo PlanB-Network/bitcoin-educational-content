@@ -1,0 +1,10 @@
+question: Ni igiki gitera impaka Luke-Jr yakoze ku mafaranga y’ibanga Coiledcoin ku wa 6 Mukakaro 2012 kugira ngo "akingire" ibidukikije vya Bitcoin?
+answer: Yakoze igitero co gucengera Coiledcoin akoresheje ikidengeri ciwe ca Eligius mining 
+wrong_answers:
+  - Yashizeho itangazo ryo gukuraho Coinledcoin kuri GitHub kubera guhonyanga uburenganzira bw'umuhinguzi 
+  - Yahinduye urubuga rwa Wikipedia rwa Coiledcoin kugira ngo arwite ku mugaragaro umugambi wa piramide 
+  - Yashizeho ubutumwa bwa benshi ku rubuga rwa Coiledcoin ashimira OP_RETURN
+explanation: |
+ Ico gitero co gucengera (mining y’amabuye y’ubusa) cakozwe biciye ku gufatanya mining na Bitcoin, ivyo yari yarashize mu ngiro mu kidengeri ciwe ca mining. Yatsindishirije .
+ igikorwa ciwe mu kwandika ko ata mucukuzi w’amabuye y’agaciro w’i Eligius yari yagirijwe nabi. Luke-Jr yarashizeho itangazo ryo gukuraho DMCA na GitHub, ariko arwanya SolidCoin.
+reviewed: true

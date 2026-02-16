@@ -1,0 +1,10 @@
+question: Ni kuri irihe soko ry’ivy’ubutunzi ryo kuri internet Erik Voorhees yakoze IPO idasanzwe muri Myandagaro 2012 kugira ngo akure casino yo kuri internet ya SatoshiDICE?
+answer: MPEx
+wrong_answers:
+  - GLBSE
+  - Bitcoinika
+  - Bitop.org
+explanation: |
+ MPEx yari urubuga rwarongowe na Mircea Popescu kandi rwatangujwe amezi make imbere y’aho. Erik Voorhees yasohoye imigabane imiliyoni 100 (ifise ikimenyetso c’imigabane S.DICE) na . 
+ yagurishije 10 kugira ngo aronke amahera 34.500, ni ukuvuga amadolari 372.000.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Vilken metod använde Tony76 för att sätta upp sitt bedrägeri den 20 april 2012 på Silk Road-marknaden?
+answer: Använda sitt oklanderliga rykte som säljare för att kräva ett snabbt slutförande av transaktioner
+wrong_answers:
+  - Utnyttjande av en teknisk sårbarhet i hanteringen av bitcoinbetalningar på plattformen
+  - Manipulation av bitcoinpriset för att artificiellt blåsa upp priserna på Silk Road
+  - Utpressning av en Silk Road-anställd att skriva ut falska produktbeskrivningar
+explanation: |
+ Tony76 hade ett utmärkt rykte, vilket gjorde det möjligt för honom att kräva att köparna skulle använda tidigt slutförande istället för spärr. Den 20 april är ett symboliskt datum för
+ cannabiskonsumenter, erbjöd han flera rabatter på sina vanliga produkter för tillfället, och beställningarna strömmade in. Han försvann senare med bitcoins, och
+ hedrade aldrig sina beställningar.
+reviewed: true

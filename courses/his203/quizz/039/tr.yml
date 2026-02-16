@@ -1,0 +1,10 @@
+question: OP_EVAL operasyon kodunun Bitcoin'ın dahili programlama sistemi üzerinde nasıl bir etkisi oldu?
+answer: Komut dosyası içinde komut dosyası çalıştırma
+wrong_answers:
+  - Katılımcıların imzalarını isteyin
+  - Bir komut dosyasını doğrayın ve sonucu verilen bir ayak iziyle karşılaştırın
+  - İki değerin eşit olup olmadığını kontrol edin
+explanation: |
+ ByteCoin olarak da bilinen Nicolas van Saberhagen tarafından 1 Ekim'i 2 Ekim 2011'e bağlayan gece tasarlanmıştır. İşlem kodu kilidin sonunda yürütülür
+ betiği, hash'i verilen parmak izi ile karşılaştırılan sağlanan betiğin geçerliliğini değerlendirmek için kullanılır.
+reviewed: true

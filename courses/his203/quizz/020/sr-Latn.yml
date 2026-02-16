@@ -1,0 +1,9 @@
+question: Koji uticajni ekonomista je kritikovao Bitcoin u septembru 2011. zbog njegove rigidne, deflatorne monetarne politike?
+answer: Paul Krugman
+wrong_answers:
+  - Yánis Varoufákis
+  - Alan Greenspan
+  - Barry Eichengreen
+explanation: |
+ Paul Krugman je neo-kejnzijanski ekonomista i dobitnik Nobelove nagrade za ekonomiju 2008. godine. U članku pod naslovom "Golden Cyberfetters", objavljenom na vebsajtu New York Times-a 7. septembra 2011. godine, tvrdio je da će "privatni zlatni standard model" Bitcoin dovesti do njegovog propadanja kao sredstva razmene.
+reviewed: true

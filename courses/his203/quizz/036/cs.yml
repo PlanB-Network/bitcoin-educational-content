@@ -1,0 +1,10 @@
+question: Co znamená "pool hopping" pro těžaře, který deleguje svůj hash rate do poolu mining?
+answer: Odpojení od fondu mining po odeslání určitého počtu akcií v cyklu a přesměrování výpočetního výkonu na vlastní účet nebo do jiného fondu mining
+wrong_answers:
+  - Přijetí komunikačního protokolu náročného na šířku pásma pro interakci s fondem mining s cílem snížit zastaralé podíly zefektivněním oznamování nových bloků
+  - Provedení několika fiktivních transakcí v rámci poolu mining za účelem simulace převodu vlastnictví bitcoinů a zvýšení důvěrnosti pověřených těžařů
+  - Zápis názvu poolu mining do vstupního pole transakce odměny vytěženého bloku, aby bylo fungování poolů mining transparentnější
+explanation: |
+ Tuto metodu popsal Raulo v únoru 2011 a odhadl, že jednotlivec může tímto způsobem získat o 28 % více bitcoinů. To motivovalo zavedení
+ "anti-cheating" skóre v rámci družstva Slush.
+reviewed: true

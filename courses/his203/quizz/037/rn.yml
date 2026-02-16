@@ -1,0 +1,11 @@
+question: Igishushanyo c’ibarabara cakozwe kuri porogarama nyamukuru na Wladimir van der Laan mu 2011 cari citwa iki?
+answer: Bitcoin-Qt
+wrong_answers:
+  - wxIdirisha-Bitcoin
+  - bitcoind
+  - Bitcoin Ishingiro
+explanation: |
+ Bitcoin-Qt yari uguhindura bimwe bishitse ubuhinga bwo gukoresha ibishushanyo bwa Bitcoin. Yateguwe kuva muri Ruheshi 2011, maze ishirwa muri porogarama nyamukuru iri muri verisiyo 0.5, 2011. 
+ yasohotse ku wa 21 Ugushyingo. Ishingiye ku nzira y'ibishushanyo ya Qt, yasubiriye ububiko bw'ibitabu bwa wxWindows bwakoreshwa mbere na Satoshi. Mu buryo bw’ikigereranyo, iyo porogarama yitwa .
+ Bitcoin-Qt kuva ico gihe.
+reviewed: true

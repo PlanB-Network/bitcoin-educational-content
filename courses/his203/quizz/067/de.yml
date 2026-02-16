@@ -1,0 +1,10 @@
+question: Wie groß war der ungefähre Anteil der im Umlauf befindlichen Bitcoins an den Geldern, die der Bitcoin Savings & Trust Fund auf seinem Höhepunkt verwaltete?
+answer: Ca. 5%
+wrong_answers:
+  - Ca. 0,05
+  - Ca. 0,5
+  - Ca. 50%
+explanation: |
+ Auf seinem Höhepunkt im August 2012 verwaltete der Fonds von Trendon Shavers (alias PirateAt40) über 500.000 Bitcoins, was etwa 5 % der 9,7 Millionen Bitcoins im
+ im Umlauf! Bitcoin Savings & Trust brach kurz darauf zusammen, als das Vertrauen schwand.
+reviewed: true

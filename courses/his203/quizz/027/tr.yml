@@ -1,0 +1,11 @@
+question: Haziran 2011'de geliştirici Gregory Maxwell tarafından resmileştirilen deterministik wallet konsepti hangi sorunu çözdü?
+answer: Bitcoinlerin güvenliğini sağlamak için özel anahtarların düzenli olarak yedeklenmesi ihtiyacı
+wrong_answers:
+  - İnternete bağlı bir cihazda bitcoin depolamaya bağlı korsanlık riski
+  - Rastgele sayı üreteçlerinin düşük entropisi nedeniyle kaba kuvvet saldırılarına karşı güvenlik açığı
+  - Hesabın başka bir cihazda yeniden kullanılamaması
+explanation: |
+ Deterministik wallet'ler anahtar türetme uygular: ana yazılımda yapıldığı gibi rastgele generated olmak yerine, özel anahtarlar türetilir
+ kriptografik fonksiyonlar kullanılarak (seed olarak adlandırılan) bilgilerden deterministik olarak elde edilir. Bu yöntem BitcoinSpinner ve Electrum yazılımları tarafından uygulanmıştır
+ 2011 sonunda wallet'ler.
+reviewed: true

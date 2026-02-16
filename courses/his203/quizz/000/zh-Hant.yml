@@ -1,0 +1,10 @@
+question: 什麼事件促使 Satoshi Nakamoto 在 2010 年 12 月退出聚光燈的舞台？
+answer: 刊登 PC World 文章邀請 WikiLeaks 使用 Bitcoin
+wrong_answers:
+  - Ross Ulbricht 推出絲綢之路平台
+  - 由 In-Q-Tel、CIA 的投資基金所建立的聯絡人
+  - 在短短幾個月內，BTC 的價格從 0.20 美元飆升至 32 美元。
+explanation: |
+ Satoshi 在 Bitcoin 論壇上對這份刊物發表了負面評論，擔心會引起國家當局的注意。絲綢之路市場
+ 於 2011 年 1 月啟用，In-Q-Tel 與 Gavin Andresen 於 4 月進行接觸，6 月價格達到 32 美元的高峰。
+reviewed: true

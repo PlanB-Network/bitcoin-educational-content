@@ -1,0 +1,9 @@
+question: Koji je približan procenat aktivnosti na lancu Bitcoin predstavljao Silk Road krajem leta 2011?
+answer: 10 %
+wrong_answers:
+  - 3 %
+  - 30 %
+  - 90 %
+explanation: |
+ Prema naknadnom izveštaju Chainalysis-a, aktivnost na Silk Road-u činila je skoro 10% obima trgovine na Bitcoin kanalu početkom septembra 2011. godine.
+reviewed: true

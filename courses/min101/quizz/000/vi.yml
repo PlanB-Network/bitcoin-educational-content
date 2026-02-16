@@ -6,4 +6,4 @@ wrong_answers:
   - Các địa chỉ tương lai
 explanation: |
   Một đầu vào tham chiếu đến một đầu ra chưa chi tiêu từ một giao dịch trước đó, được gọi là UTXO.
-reviewed: false
+reviewed: true

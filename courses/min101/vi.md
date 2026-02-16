@@ -17,7 +17,7 @@ objectives:
 
 MIN 101 chủ yếu dành cho người mới bắt đầu, vì nó giải thích tất cả các khái niệm một cách chính xác từ đầu. Tuy nhiên, nếu bạn đã có kiến ​​thức ở trình độ trung cấp, khóa học này sẽ giúp bạn củng cố hiểu biết, sửa chữa một số trực giác chưa chính xác và khám phá những chi tiết thường bị bỏ qua trong các giải thích thông thường.
 
-Sau khi hoàn thành khóa học này, bạn sẽ có thể giải thích cách thức hoạt động của proof-of-work một cách đơn giản và chính xác. MIN 101 cũng là khóa học giới thiệu lý tưởng cho tất cả các khóa học nâng cao khác dành cho Bitcoin, mining và Plan ₿ Academy, dù là lý thuyết hay thực hành.
+Sau khi hoàn thành khóa học này, bạn sẽ có thể giải thích cách thức hoạt động của proof-of-work một cách đơn giản và chính xác. MIN 101 cũng là bài giới thiệu lý tưởng cho tất cả các khóa học nâng cao khác dành cho Bitcoin, mining và Plan ₿ Academy, dù là lý thuyết hay thực hành.
 
 +++
 
@@ -59,7 +59,7 @@ Mục tiêu của khóa học MIN 101 này là giúp bạn có được sự hi�
 
 Bạn đã sẵn sàng khám phá Bitcoin mining chưa? Cùng bắt đầu nào!
 
-## Bitcoin mining được đơn giản hóa
+## Đơn giản hóa Bitcoin mining
 <chapterId>278577a6-98bb-4659-86c7-f6c4f6d5fa3e</chapterId>
 
 Trước khi đi vào phần giải thích chi tiết và chuyên sâu hơn về Bitcoin và mining, tôi muốn giới thiệu cho các bạn nguyên lý hoạt động một cách đơn giản và sơ lược. Nếu bạn đã có kiến ​​thức cơ bản, bạn có thể chuyển thẳng đến phần chính ở chương tiếp theo, sau khi trả lời các câu hỏi trắc nghiệm. Chương này chủ yếu dành cho người mới bắt đầu, nhằm giúp bạn có một khởi đầu dễ dàng.
@@ -92,13 +92,13 @@ Mục tiêu của chương này đơn giản là cung cấp cho bạn một cấ
 
 <partId>e917e8e3-37f2-46fb-91b2-6a5ce6f0f5c3</partId>
 
-## Đường dẫn giao dịch Bitcoin
+## Con đường giao dịch Bitcoin
 
 <chapterId>3b7a3502-4814-4554-8de1-86ac961a2958</chapterId>
 
 Để hiểu rõ Bitcoin và mining là gì, trước tiên chúng ta cần theo dõi quy trình của một giao dịch Bitcoin điển hình. Điều này sẽ cho bạn thấy chính xác vị trí của khối và lý do tại sao nó lại là cốt lõi của hệ thống. Đó là điều tôi muốn bạn khám phá trong chương đầu tiên này.
 
-Trong Bitcoin, giao dịch là một cấu trúc dữ liệu chuyển quyền sở hữu bitcoin từ người dùng này sang người dùng khác. Cụ thể, nó tiêu thụ "đầu ra" từ các giao dịch trước đó (gọi là UTXO), coi chúng là "đầu vào", và sau đó tạo ra các "đầu ra" mới xác định bitcoin đó thuộc về ai và trong điều kiện nào chúng có thể được sử dụng sau này.
+Trong Bitcoin, giao dịch là một cấu trúc dữ liệu chuyển quyền sở hữu bitcoin từ người dùng này sang người dùng khác. Cụ thể, nó tiêu thụ "đầu ra (outputs)" từ các giao dịch trước đó (gọi là UTXO), coi chúng là "đầu vào (inputs)", và sau đó tạo ra các "đầu ra" mới xác định bitcoin đó thuộc về ai và trong điều kiện nào chúng có thể được sử dụng sau này.
 
 ![Image](assets/fr/001.webp)
 
@@ -168,7 +168,7 @@ Các máy đào Miner phải tự xây dựng các khối của mình trước k
 - Sắp xếp các giao dịch này theo cách phù hợp với các quy tắc Bitcoin;
 - Tạo ra siêu dữ liệu của khối, được lưu trữ trong phần tiêu đề của nó.
 
-Việc lựa chọn các giao dịch tuân theo một logic kinh tế đơn giản: một khối có dung lượng bị giới hạn bởi giao thức Bitcoin, vì vậy người khai thác tìm cách tối đa hóa lợi nhuận thu được từ không gian này. Họ ưu tiên chọn các giao dịch có mức phí cao nhất so với không gian mà chúng chiếm trong khối (điều này được gọi là "tỷ lệ phí", được biểu thị bằng sats/vB). Chi tiết về phí sẽ được đề cập sau; chỉ cần nhớ ý tưởng sắp xếp theo hiệu quả sử dụng không gian.
+Việc lựa chọn các giao dịch tuân theo một logic kinh tế đơn giản: một khối có dung lượng bị giới hạn bởi giao thức Bitcoin, vì vậy người khai thác tìm cách tối đa hóa lợi nhuận thu được từ không gian này. Họ ưu tiên chọn các giao dịch có mức phí cao nhất so với không gian mà chúng chiếm trong khối (điều này được gọi là "tỷ lệ phí (fee rate)", được biểu thị bằng sats/vB). Chi tiết về phí sẽ được đề cập sau; chỉ cần nhớ ý tưởng sắp xếp theo hiệu quả sử dụng không gian.
 
 Do đó, một khối Bitcoin bao gồm hai phần chính:
 
@@ -232,7 +232,7 @@ nonce: 43f09a40
 
 Tiêu đề khối ứng cử viên này, được tạo ra bởi người khai thác, tạo thành cơ sở cho công việc của họ. Khi tìm kiếm một proof-of-work hợp lệ, không phải toàn bộ danh sách giao dịch được băm trực tiếp trong một vòng lặp, mà là khối 80 byte này, chứa mọi thứ cần thiết để liên kết khối với quá khứ và cam kết nội dung của nó, đồng thời cũng bao gồm các tham số cần thiết cho cơ chế mining, mà chúng ta sẽ tìm hiểu trong chương tiếp theo.
 
-## Mã băm, mục tiêu và giá trị ngẫu nhiên (nonce)
+## Nonce
 
 <chapterId>d054323b-16bd-4556-bac5-4878654e59a3</chapterId>
 
@@ -629,13 +629,13 @@ subsidy(n) = 50 / 2^n
 
 Dưới đây là bảng tóm tắt các đợt giảm một nửa đã diễn ra, bao gồm chiều cao khối, ngày tháng và mức trợ cấp khối mới áp dụng sau sự kiện:
 
-| Event               |   Height  | Date                        | Subsidy    |
-| ------------------- | --------: | --------------------------- | ---------: |
-| Halving 1           |   210 000 | 28 novembre 2012            |     25 BTC |
-| Halving 2           |   420 000 | 9 july 2016                 |   12,5 BTC |
-| Halving 3           |   630 000 | 11 may 2020                 |   6,25 BTC |
-| Halving 4           |   840 000 | 20 april 2024               |  3,125 BTC |
-| Halving 5 (upcoming) | 1 050 000 | Spring   2028 (estimation) | 1,5625 BTC |
+| Sự kiện             | Chiều cao khối  | Ngày                        | Phần thưởng|
+| ------------------- | --------------: | --------------------------- | ---------: |
+| Halving 1           |   210 000       | 28 novembre 2012            |     25 BTC |
+| Halving 2           |   420 000       | 9 july 2016                 |   12,5 BTC |
+| Halving 3           |   630 000       | 11 may 2020                 |   6,25 BTC |
+| Halving 4           |   840 000       | 20 april 2024               |  3,125 BTC |
+| Halving 5 (upcoming) | 1 050 000      | Spring   2028 (estimation)  | 1,5625 BTC |
 
 ### Trợ cấp sẽ kết thúc khi nào và bằng cách nào?
 
@@ -871,11 +871,11 @@ Sự chuyên môn hóa này dẫn đến hai hệ quả chính:
 
 Từ thời điểm đó trở đi, chúng ta không còn chỉ nói về một sở thích nữa. Chúng ta đang nói về một lĩnh vực mà khả năng cạnh tranh phụ thuộc vào một phương trình:
 
-- chi phí điện năng;
-- chi phí thiết bị và khấu hao;
+- Chi phí điện năng;
+- Chi phí thiết bị và khấu hao;
 - Khả năng làm mát và vận hành trên quy mô lớn;
 - Tính sẵn có và độ tin cậy của máy móc;
-- tốc độ truyền thông;
+- Tốc độ truyền thông;
 - vân vân.
 
 ### Mining farm

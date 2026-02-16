@@ -1,0 +1,10 @@
+question: Op welke online beurs voerde Erik Voorhees in augustus 2012 een informele beursgang uit om het online casino SatoshiDICE te laten groeien?
+answer: MPEx
+wrong_answers:
+  - GLBSE
+  - Bitcoinica
+  - Bitoption.org
+explanation: |
+ MPEx was het platform dat werd beheerd door Mircea Popescu en enkele maanden eerder werd gelanceerd. Erik Voorhees gaf 100 miljoen aandelen uit (met het aandelensymbool S.DICE) en
+ verkocht er 10 om 34.500 bitcoins op te halen, of ongeveer $372.000.
+reviewed: true

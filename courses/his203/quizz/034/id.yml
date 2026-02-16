@@ -1,0 +1,10 @@
+question: Apa konsep di balik P2Pool, pool mining terdistribusi yang dibuat oleh Forrest Voight pada tahun 2011?
+answer: Rantai saham
+wrong_answers:
+  - Pemungutan suara yang panjang
+  - Tanda tangan coinbase
+  - FPGA
+explanation: |
+ "Rantai saham", atau sharechain, terdiri dari sebagian bukti kerja yang dikontribusikan oleh para peserta. Rantai ini dikelola oleh para peserta, yang terhubung secara
+ peer-to-peer. Setiap bagian berisi sidik jari dari bagian sebelumnya, memastikan integritas keseluruhannya.
+reviewed: true

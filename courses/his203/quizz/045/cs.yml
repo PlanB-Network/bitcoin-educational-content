@@ -1,0 +1,10 @@
+question: Jaká technická novinka byla v říjnu 2011 začleněna do kryptoměny Namecoin?
+answer: Sloučený mining
+wrong_answers:
+  - GPU-odolný mining
+  - Důvěryhodné uzly
+  - Důkaz o podílu
+explanation: |
+ Sloučený řetězec mining je proces, při kterém je práce provedená na "mateřském řetězci" (tj. Bitcoin) znovu použita k validaci menších "pomocných" řetězců. Tento proces byl
+ navržen v diskusi o BitDNS samotným Satoshi. Kombinovaný mining byl v síti Namecoin aktivován 8. října 2011 na úrovni bloku 19 200.
+reviewed: true

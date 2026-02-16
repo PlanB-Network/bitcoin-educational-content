@@ -1,0 +1,11 @@
+question: Vilken var den främsta invändningen som amerikanska libertarianer framförde mot Bitcoin, med hänvisning till Mises regressionsteorem?
+answer: Den hade inget egenvärde och backades inte upp av något konkret
+wrong_answers:
+  - Den hade monetär inflation, med en emissionsränta på 40% per år under 2011
+  - Det användes inte som en räkneenhet, en väsentlig egenskap hos pengar
+  - Det skapade en djupt ojämlik fördelning av rikedomar
+explanation: |
+ Vissa amerikanska libertarianer, som var knutna till den österrikiska skolan, förkastade Bitcoin eftersom den (enligt deras uppfattning) motsade Ludwig von Mises regressionsteorem,
+ som säger att en vara måste ha ett objektivt icke-monetärt användningsvärde innan den kan bli en valuta. Detta gällde särskilt Peter Schiff, son till
+ irwin Schiff och en stark anhängare av guldmyntfoten.
+reviewed: true

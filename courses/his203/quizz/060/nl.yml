@@ -1,0 +1,10 @@
+question: Met welke technische innovatie van SatoshiDICE konden spelers controleren of het casino niet vals speelde?
+answer: De publicatie van geheime hash op de blockchain, gevolgd door de publicatie van genoemde geheimen om de herberekening van resultaten mogelijk te maken
+wrong_answers:
+  - De inzet van een gedecentraliseerde validatie blockchain waarop elke transactie wordt geverifieerd door meerdere onafhankelijke nodes
+  - Het gebruik van vaste adressen op de blockchain, waardoor het mogelijk is om de trekkingen te controleren en zo de eerlijkheid ervan te garanderen
+  - Het uitvoeren van kansberekeningen direct op de blockchain door middel van autonome publieke contracten
+explanation: |
+ SatoshiDICE was revolutionair omdat het "zeker eerlijk" was. Elke waarschijnlijkheidsgebonden trekking hing af van een geheime generated aan het begin van de dag, waarvan de
+ waarvan de hash werd gepubliceerd op de blockchain. Het geheim zelf werd een paar dagen later onthuld, zodat gebruikers het resultaat zelf konden herberekenen.
+reviewed: true

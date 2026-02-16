@@ -1,0 +1,11 @@
+question: Hvor mange separate hack opplevde handelsplattformen Bitcoinica før den erklærte seg konkurs?
+answer: 3
+wrong_answers:
+  - 1
+  - 2
+  - 4
+explanation: |
+ De tre hackene var som følger: hackingen av Linode-kontoen som førte til at plattformen mistet 43 554 bitcoins; hackingen av Rackspace-kontoen som førte til tap av 18 574 bitcoins; hackingen av Mt
+ tap av 18 574 bitcoins; hackingen av Mt. Gox-kontoen der hackeren tok ut 40 000 bitcoins og 40 000 LR-USD. Avviklingen av Bitcoinica
+ ble kunngjort 1. august 2012.
+reviewed: true

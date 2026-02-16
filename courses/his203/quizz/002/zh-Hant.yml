@@ -1,0 +1,10 @@
+question: 是什麼協議阻止了絲綢之路市場被當局直接關閉？
+answer: Tor
+wrong_answers:
+  - I2P
+  - Freenet
+  - BitTorrent
+explanation: |
+ Tor 是 The Onion Router（洋蔥路由器）的詞彙化縮寫，是一個支援全球分散式覆蓋電腦網路（俗稱暗網）的協定。
+ 它能讓網站匿名託管，不受審查，非常適合 Ross Ulbricht 的專案。
+reviewed: true

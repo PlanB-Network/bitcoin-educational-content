@@ -1,4 +1,4 @@
-question: Since SegWit, where is the block witness commitment committed?
+question: Since SegWit, where is the block witness commitment recorded?
 answer: In a coinbase output
 wrong_answers:
   - In the coinbase scriptSig
@@ -6,4 +6,4 @@ wrong_answers:
   - In the coinbase fees
 explanation: |
   SegWit uses a commitment recorded in the coinbase via an OP_RETURN output.
-reviewed: false
+reviewed: true

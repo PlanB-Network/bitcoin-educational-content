@@ -1,0 +1,10 @@
+question: Waardoor werd Mt. Gox op 19 juni gehackt?
+answer: Toegang tot de wachtwoorddatabase, die was gehasht met MD5, maar niet gezouten
+wrong_answers:
+  - Jed McCaleb lekte het wachtwoord om toegang te krijgen tot zijn persoonlijke account op het platform
+  - Een bliksemcrash, waardoor de piraat meer bitcoins kon opnemen dan hij had
+  - XML-injectie in opnameverzoeken om rekeningen over te hevelen
+explanation: |
+ Dit lek stelde de hacker in staat om toegang te krijgen tot accounts met zwakke wachtwoorden (kort of makkelijk te raden). In het bijzonder kreeg hij op deze manier toegang tot het account van Jed McCaleb. Hij
+ verkocht bitcoins om de prijs te laten dalen, zodat hij een maximum aan bitcoins kon opnemen (de dagelijkse opnamelimiet was $1.000).
+reviewed: true

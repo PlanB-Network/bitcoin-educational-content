@@ -1,0 +1,10 @@
+question: Hva innebærer "pool hopping" for en utvinner som delegerer hashraten sin til en mining-pool?
+answer: Koble fra en mining-pool når et visst antall aksjer har blitt sendt inn i en syklus, og omdirigere datakraften til din egen konto eller til en annen mining-pool
+wrong_answers:
+  - Innføring av en båndbreddeintensiv kommunikasjonsprotokoll for å samhandle med mining-poolen for å redusere antall foreldede aksjer ved å effektivisere kunngjøringen av nye blokker
+  - Gjennomføre flere fiktive transaksjoner i mining-bassenget for å simulere en overføring av bitcoin-eierskap og øke konfidensialiteten til de delegerte utvinnerne
+  - Skrive navnet på mining-bassenget i inndatafeltet til belønningstransaksjonen for den utvunnede blokken, for å gjøre driften av mining-bassenger mer gjennomsiktig
+explanation: |
+ Denne metoden ble beskrevet av Raulo i februar 2011, som anslo at en person kunne få 28 % flere bitcoins på denne måten. Det motiverte innføringen av
+ en "anti-juks"-poengsum i Slush-kooperativet.
+reviewed: true

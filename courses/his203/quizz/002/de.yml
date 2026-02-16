@@ -1,0 +1,10 @@
+question: Welches Protokoll verhinderte, dass der Seidenstraßen-Marktplatz direkt von den Behörden geschlossen wurde?
+answer: Tor
+wrong_answers:
+  - I2P
+  - Freenet
+  - BitTorrent
+explanation: |
+ Tor, ein lexikalisiertes Akronym für The Onion Router, ist ein Protokoll, das ein globales, dezentralisiertes Overlay-Computernetzwerk (gemeinhin als Darknet bekannt) unterstützt.
+ Es ermöglicht es, Websites anonym und ohne Zensur zu hosten, und war ideal für das Projekt von Ross Ulbricht geeignet.
+reviewed: true

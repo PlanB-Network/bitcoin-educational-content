@@ -1,0 +1,10 @@
+question: Jak nazywała się usługa natychmiastowej wymiany walut stworzona przez Garetha Nelsona i Charliego Shrema w 2011 roku w celu ułatwienia wpłat na platformy wymiany walut?
+answer: BitInstant
+wrong_answers:
+  - Instawallet
+  - Crypto X Change
+  - TrustCash
+explanation: |
+ Usługa ta rozwiązała problem powolnych przelewów międzynarodowych do Mt. Gox, działając jako pośrednik, przekazując środki na platformy wymiany po ich otrzymaniu w kraju pochodzenia
+ kraju pochodzenia. BitInstant otworzył swoje podwoje dla publiczności 23 sierpnia 2011 roku i szybko stał się popularny, transferując 1,2 miliona dolarów do stycznia 2012 roku.
+reviewed: true

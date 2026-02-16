@@ -1,0 +1,9 @@
+question: Ni uvumbuzi gani wa kiufundi wa SatoshiDICE uliowaruhusu wachezaji kuangalia kwamba kasino haikuwa ikidanganya?
+answer: Kuchapishwa kwa hash ya siri kwenye blockchain, ikifuatiwa na kuchapishwa kwa siri hizo ili kuwezesha hesabu upya ya matokeo
+wrong_answers:
+  - Utekelezaji wa blockchain ya uthibitishaji iliyotengwa ambapo kila muamala unathibitishwa na nodi kadhaa huru
+  - Matumizi ya anwani zisizobadilika kwenye blockchain, na hivyo kuwezesha kukagua droo, na hivyo kuhakikisha usawa wao
+  - Utekelezaji wa hesabu za uwezekano moja kwa moja kwenye blockchain kupitia mikataba ya umma inayojitegemea
+explanation: |
+ SatoshiDICE ilikuwa ya mapinduzi kwa kuwa ilikuwa "hakika ya haki". Kila droo iliyounganishwa na uwezekano ilitegemea generated ya siri mwanzoni mwa siku, ambayo hash yake ilichapishwa kwenye blockchain. Siri yenyewe ilifichuliwa siku chache baadaye, ikiruhusu watumiaji kukokotoa matokeo upya wenyewe.
+reviewed: true

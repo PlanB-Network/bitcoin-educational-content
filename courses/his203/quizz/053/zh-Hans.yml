@@ -1,0 +1,11 @@
+question: Jeremias Kangas 和他的兄弟于 2012 年 6 月推出的私人对私人外汇服务的名称是什么？
+answer: 本地比特币
+wrong_answers:
+  - 我附近的 BTC
+  - 比特即时
+  - Coinabul
+explanation: |
+ 这是一个匹配平台，于 6 月 7 日推出。今年夏天，LocalBitcoins 整合了一个托管系统。
+ 通过该系统，比特币可以暂时由平台持有，然后通过短信释放，支付给买方。尤其是在面对面交易时，卖方可以
+ 一旦收到现金，卖方就会释放比特币。
+reviewed: true

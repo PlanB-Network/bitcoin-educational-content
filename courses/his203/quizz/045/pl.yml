@@ -1,0 +1,10 @@
+question: Jaka innowacja techniczna została włączona do kryptowaluty Namecoin w październiku 2011 roku?
+answer: Połączone mining
+wrong_answers:
+  - Odporny na GPU mining
+  - Zaufane węzły
+  - Dowód stawki
+explanation: |
+ Merged mining to proces, w którym praca wykonana na "łańcuchu macierzystym" (tj. Bitcoin) jest ponownie wykorzystywana do walidacji mniejszych łańcuchów "pomocniczych". Proces ten został
+ zaproponowany w dyskusji BitDNS przez sam Satoshi. Połączony mining został aktywowany w sieci Namecoin 8 października 2011 r. na poziomie bloku 19 200.
+reviewed: true

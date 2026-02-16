@@ -1,0 +1,10 @@
+question: Co obsahovala kromě identifikátoru jeho bazénu mining většina nápisů, které Luke-Jr. v srpnu 2011 provedl prostřednictvím Eligia?
+answer: Modlitby
+wrong_answers:
+  - Dětská pornografie
+  - Memy
+  - Politická poselství
+explanation: |
+ V souladu se svou katolickou (sedesvakantistickou) vírou zahrnoval Lukáš mladší do transakcí s odměnami za bloky vytěžené v jeho poolu mining modlitby a posvátné texty,
+ Eligius, aniž by to s dotyčnými těžaři konzultoval, což vyvolalo živou debatu.
+reviewed: true

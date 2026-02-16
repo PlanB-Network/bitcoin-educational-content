@@ -1,0 +1,10 @@
+question: Według badań Nicolasa Christina opublikowanych w sierpniu 2012 r., jaki był dzienny wolumen sprzedaży w maju 2012 r.?
+answer: 15 000 BTC lub 75 000 USD
+wrong_answers:
+  - 600 BTC lub 3 000 USD
+  - 3 000 BTC lub 15 000 USD
+  - 75 000 BTC lub 375 000 USD
+explanation: |
+ Dzienny wolumen sprzedaży, który w marcu wynosił 8 000 BTC, osiągnął 15 000 BTC w maju, co stanowiło równowartość około 75 000 USD w tym czasie. Aktywność jako odsetek całkowitej
+ Bitcoin wahała się między 10% a 20% w 2012 roku. Na początku listopada Ross określił sukces platformy jako "gwałtowny wzrost".
+reviewed: true

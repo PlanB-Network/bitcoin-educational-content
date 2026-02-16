@@ -1,0 +1,10 @@
+question: BitPay 是 Stephen Pair 和 Tony Gallippi 在 2011 年夏天推出的支付處理器，它背後的商業模式是什麼？
+answer: 立即將客戶的比特幣兌換成美元，並收取費用
+wrong_answers:
+  - 讓客戶可以使用美元付款即時購買比特幣，並收取佣金
+  - 借出客戶存入的 bitcoins 並收取利息
+  - 將比特幣付款中繼到區塊鏈，收取交易費用
+explanation: |
+ BitPay 背後的理念是為商家提供將其比特幣付款即時轉換為美元的可能性，這樣他們就可以對沖
+ 波動性。BitPay 預先向客戶提供美元，最初收取 1% 的處理費。
+reviewed: true

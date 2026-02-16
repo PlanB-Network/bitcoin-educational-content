@@ -1,0 +1,9 @@
+question: Je, faida kuu ya uthibitishaji rahisi wa malipo (SPV) uliotekelezwa katika BitCoinJ na kutumiwa na wallet nyepesi kama Bitcoin Wallet kwa Android ilikuwa ipi?
+answer: Iliwezesha miamala kuthibitishwa bila kulazimika kupakua blockchain nzima
+wrong_answers:
+  - Ilichanganya bitcoin kiotomatiki baada ya kupokea malipo ili kuboresha usiri
+  - Ilisimba data ya wallet kwa kutumia algoriti ya AES-256 ili kuzuia wizi wa farasi wa Trojan
+  - Iliwezesha muunganisho salama kwenye nodi iliyopo ili kuzuia mashambulizi yanayotumia urahisi wa miamala
+explanation: |
+ Uthibitishaji Rahisi wa Malipo (SPV) ulikuwa uvumbuzi muhimu ulioelezewa katika karatasi nyeupe ya Bitcoin ambayo iliwawezesha wateja wembamba kuthibitisha kwamba miamala yao ilikuwa kwenye blockchain bila kuhitaji kupakua na kuhifadhi data yote.
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - Bytes per second
 explanation: |
   The hashrate expresses the number of hashing attempts made each second, in H/s.
-reviewed: false
+reviewed: true

@@ -1,0 +1,10 @@
+question: Jaký byl koncept P2Pool, distribuovaného fondu mining, který v roce 2011 vytvořil Forrest Voight?
+answer: Řetězec akcií
+wrong_answers:
+  - Dlouhé dotazování
+  - Podpis coinbase
+  - FPGA
+explanation: |
+ "Řetězec akcií" neboli sharechain se skládal z dílčích důkazů o práci, kterými přispěli účastníci. Udržovali ho účastníci, kteří byli propojeni
+ peer-to-peer. Každý podíl obsahoval otisk předchozího podílu, což zajišťovalo integritu celku.
+reviewed: true

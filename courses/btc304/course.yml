@@ -37,10 +37,11 @@ proofreading:
       - reneplass
     reward: 0
   - language: es
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 22.12
+      - Salgraphics
+    reward: 11.06
   - language: et
     last_contribution_date:
     urgency: 1
@@ -62,15 +63,17 @@ proofreading:
     contributor_names:
     reward: 44.14
   - language: it
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 22.12
+      - GoodKidd0
+    reward: 11.06
   - language: ja
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 55.16
+      - yutaro21jp
+    reward: 27.58
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -122,11 +125,12 @@ proofreading:
     contributor_names:
     reward: 33.13
   - language: sw
-    last_contribution_date: 2025-11-06
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
       - monyangi10
-    reward: 16.57
+      - Arianebtc
+    reward: 0
   - language: vi
     last_contribution_date:
     urgency: 1

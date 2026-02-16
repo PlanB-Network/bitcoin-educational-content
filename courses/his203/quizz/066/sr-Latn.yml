@@ -1,0 +1,11 @@
+question: Ko je bio indirektno odgovoran za poslednji Bitcoinica hakerski napad koji se dogodio u julu 2012?
+answer: Amir Taaki
+wrong_answers:
+  - Zhou Tong
+  - Chen Jianhai
+  - Mark Karpelès
+explanation: |
+ Objavio je kompletan izvorni kod platforme 7. jula, koji je sadržao lozinku za Bitcoinica-in LastPass sef, koji je zauzvrat sadržao lozinku za njegov 
+ Mt. Gox nalog. 40.000 bitkoina i 40.000 LR-USD je povučeno. Amir Taaki je priznao ovu akciju, ali je okrivio upravu Bitcoinica, 
+ sa kojom je bio u sukobu.
+reviewed: true

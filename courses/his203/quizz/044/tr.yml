@@ -1,0 +1,10 @@
+question: Bitcoin'a alternatif ilk kripto para birimi olan Namecoin'in hangi sorunu çözmesi gerekiyordu?
+answer: Alan adı merkezileştirme
+wrong_answers:
+  - Çevrimiçi itibar yönetimi
+  - mining varyansı sorunu
+  - Bitcoinlerin eşitsiz dağılımı
+explanation: |
+ Alan adı sistemi, Kaliforniya yasalarına göre kurulmuş ve kar amacı gütmeyen bir şirket olan ICANN tarafından denetlenmekte ve bu da sansür sorunlarına yol açmaktadır. BitDNS konsepti
+ (daha sonra Namecoin olarak yeniden adlandırıldı) bu sorunu aşmak için bu alan adlarının yönetimini Bitcoin'ye benzer bir blok zincirine yerleştirmekten oluşuyordu.
+reviewed: true

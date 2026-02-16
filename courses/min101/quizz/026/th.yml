@@ -1,0 +1,9 @@
+question: พารามิเตอร์ Bitcoin Core ใดที่ตั้งค่าเกณฑ์ขั้นต่ำของรีเลย์เริ่มต้น?
+answer: minRelayTxFee
+wrong_answers:
+  - minConfirmTxFee
+  - relayTxWeight
+  - mempoolMinBits
+explanation: |
+  โหนดใช้โยบายท้องถิ่นและ Bitcoin Core ใช้พารามิเตอร์ minRelayTxFee สำหรับเกณฑ์ขั้นต่ำในการส่งต่อ
+reviewed: true

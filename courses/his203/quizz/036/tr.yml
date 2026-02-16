@@ -1,0 +1,10 @@
+question: Hash oranını bir mining havuzuna devreden bir madenci için "havuz atlama" ne anlama gelir?
+answer: Bir döngüde belirli sayıda hisse gönderildikten sonra bir mining havuzuyla bağlantıyı kesmek ve bilgi işlem gücünü kendi hesabınıza veya başka bir mining havuzuna yönlendirmek
+wrong_answers:
+  - Yeni blokların duyurulmasını kolaylaştırarak eski hisseleri azaltmak amacıyla mining havuzuyla etkileşim için bant genişliği yoğun bir iletişim protokolünün benimsenmesi
+  - Bitcoin sahipliğinin transferini simüle etmek ve yetkilendirilmiş madencilerin gizliliğini artırmak için mining havuzunda birkaç hayali işlem gerçekleştirmek
+  - mining havuzlarının işleyişini daha şeffaf hale getirmek için madencilik yapılan bloğun ödül işleminin giriş alanına mining havuzunun adının yazılması
+explanation: |
+ Bu yöntem Şubat 2011'de Raulo tarafından tanımlanmış ve bir bireyin bu yolla %28 daha fazla bitcoin elde edebileceği tahmin edilmiştir. Bu yöntem, Bitcoin'in
+ slush kooperatifi içinde "hile karşıtı" bir puan.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Na którym subreddicie użytkownicy mogli publikować swoje nagie zdjęcia w zamian za bitcoinowe napiwki od marca 2012 roku?
+answer: r/GirlsGoneBitcoin
+wrong_answers:
+  - r/GoneWild
+  - r/CryptoPorn
+  - r/Bitcoin
+explanation: |
+ r/GirlsGoneBitcoin został otwarty 26 marca 2012 r. przez Juliana Tosha, znanego również jako Tuxavant, obrońcę Linuksa i prywatności mieszkającego w Las Vegas. Subreddit miał prawie
+ 2,000 członków do końca roku.
+reviewed: true

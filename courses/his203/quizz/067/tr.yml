@@ -1,0 +1,10 @@
+question: Dolaşımdaki bitcoinlerin yaklaşık ne kadarı Bitcoin Savings & Trust fonu tarafından yönetilen parayı en yüksek seviyesinde temsil ediyordu?
+answer: Yaklaşık %5
+wrong_answers:
+  - Yaklaşık 0,05
+  - Yaklaşık %0,5
+  - Yaklaşık %50
+explanation: |
+ Trendon Shavers'ın (diğer adıyla PirateAt40) fonu, Ağustos 2012'de zirveye ulaştığında 500.000'den fazla bitcoin yönetiyordu ve bu da 9,7 milyon bitcoinin yaklaşık %5'ini temsil ediyordu
+ dolaşım! Bitcoin Savings & Trust, güvenin buharlaşmasıyla birlikte hemen ardından çöktü.
+reviewed: true

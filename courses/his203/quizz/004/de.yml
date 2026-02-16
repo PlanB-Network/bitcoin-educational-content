@@ -1,0 +1,10 @@
+question: In welchem Online-Medium wurde der Artikel von Adrian Chen veröffentlicht, der die Öffentlichkeit am 1. Juni 2011 auf Silk Road aufmerksam machte?
+answer: Gawker
+wrong_answers:
+  - Gizmodo
+  - Slashdot
+  - Hackernews
+explanation: |
+ Gawker.com war ein einflussreicher Blog, auf dem eine Vielzahl von Autoren teilweise kontroverse Artikel veröffentlichten. Das Unternehmen ging 2016 nach einer Klage von
+ Hulk Hogan und Peter Thiel.
+reviewed: true

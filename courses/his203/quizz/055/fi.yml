@@ -1,0 +1,10 @@
+question: Mikä oli liiketoimintamalli BitPayn, Stephen Pairin ja Tony Gallippin kesällä 2011 lanseeraaman maksuprosessorin takana?
+answer: Muunna asiakkaiden bitcoinit dollareiksi välittömästi maksua vastaan
+wrong_answers:
+  - Mahdollistaa asiakkaiden ostaa bitcoin heti dollarimaksujen kanssa, provisiota vastaan
+  - Lainaa asiakkaiden tallettamia bitcoineja ja kerää korkoa
+  - Välittää Bitcoin-maksut lohkoketjuun, vastaanottaa transaktiomaksuja
+explanation: |
+ BitPayn ideana oli antaa kauppiaille mahdollisuus muuntaa bitcoin-maksunsa välittömästi dollareiksi, jotta he voisivat suojautua bitcoin-maksuilta
+ volatiliteetilta. BitPay tarjosi asiakkaille dollareita etukäteen ja veloitti käsittelymaksun, joka oli aluksi 1 %.
+reviewed: true

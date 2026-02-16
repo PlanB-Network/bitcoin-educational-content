@@ -1,0 +1,10 @@
+question: Koja tehnička inovacija je uključena u Namecoin kriptovalutu u oktobru 2011?
+answer: Spojeno mining
+wrong_answers:
+  - GPU-otporan mining
+  - Pouzdani čvorovi
+  - Dokaz o udjelu
+explanation: |
+ Spojeni mining je proces pri kojem se rad obavljen na "matičnom lancu" (tj. Bitcoin) ponovo koristi za validaciju manjih "pomoćnih" lanaca. Ovaj proces je 
+ predložen u BitDNS diskusiji od strane samog Satoshi. Kombinovani mining je aktiviran na Namecoin mreži 8. oktobra 2011. godine, na nivou bloka 19,200.
+reviewed: true

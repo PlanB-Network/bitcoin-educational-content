@@ -1,0 +1,9 @@
+question: Koineks
+answer: Bitcoin-Central
+wrong_answers:
+  - Paymium
+  - Britcoin
+  - Bitomat
+explanation: |
+ Bitcoin-Central je bila francuska platforma, koja je u početku prihvatala Liberty Reserve dolare i eure, kao i konvencionalne euro transfere. Njen izvorni kod je bio objavljen pod licencom otvorenog koda (AGPL). Platforma se kasnije spojila sa Paymium, kompanijom koju su u junu 2011. godine osnovali Gonzague Grandval, Pierre Noizat i David François, a koja se prvobitno fokusirala na domen plaćanja.
+reviewed: true

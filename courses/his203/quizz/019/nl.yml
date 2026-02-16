@@ -1,0 +1,10 @@
+question: Op welk niveau daalde de prijs van bitcoin aan het einde van de dalende markt die volgde op de grote zeepbel van 2011?
+answer: 2 $
+wrong_answers:
+  - 0,01 $
+  - 6 $
+  - 17,5 $
+explanation: |
+ Na een piek van $32 in juni 2011 daalde de prijs van de bitcoin drastisch tot $6 begin augustus, waarna de prijs bleef dalen tot uiteindelijk $2 in november 2011
+ November 2011. Dit vertegenwoordigde een daling van meer dan 90% vanaf de piek in juni.
+reviewed: true

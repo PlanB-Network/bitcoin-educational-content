@@ -1,0 +1,10 @@
+question: Vad var det främsta skälet till att Occupy Wall Street-rörelsen började ta emot bitcoin-donationer i september 2011?
+answer: För att kringgå finansiell censur
+wrong_answers:
+  - För att dra nytta av en långsiktig värdereserv
+  - För att ange information på blockchain
+  - Att köpa förnödenheter på Sidenvägen
+explanation: |
+  Denna rörelse antog Bitcoin för att undkomma finansiell censur efter att några av dess PayPal-konton frysts. Som ett resultat av detta fick demonstranternas generalförsamling i
+  New York fick donationer redan den 19 september, för totalt 686 BTC eller över 3 000 dollar vid mottagandet.
+reviewed: true

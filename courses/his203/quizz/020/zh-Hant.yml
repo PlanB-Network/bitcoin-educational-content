@@ -1,0 +1,10 @@
+question: 哪位具影響力的經濟學家在 2011 年 9 月批評 Bitcoin 採取僵化、通縮的貨幣政策？
+answer: 保羅-克魯格曼
+wrong_answers:
+  - Yánis Varoufákis
+  - Alan Greenspan
+  - Barry Eichengreen
+explanation: |
+ Paul Krugman 是新凱恩斯主義經濟學家，也是 2008 年諾貝爾經濟學獎得主。他於 2011 年 9 月 7 日在《紐約時報》網站上發表了一篇題為「Golden Cyberfetters」的文章。
+ 他認為 Bitcoin 的「私人金本位模式」將導致其作為交易媒介的消亡。
+reviewed: true

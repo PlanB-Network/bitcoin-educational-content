@@ -1,0 +1,10 @@
+question: Mis kodakondsusega oli Mircea Popescu, MPEx platvormi asutaja, mis pakkus ostu- ja müügioptsioone ning võimalust emiteerida aktsiaid ja võlakirju?
+answer: Rumeenia
+wrong_answers:
+  - Ameerika
+  - Hiina
+  - Ta oli kodakondsuseta
+explanation: |
+ Ta oli kogukonnas vastuoluline tegelane. Ta oli pärit Rumeeniast Transilvaaniast ja kirjutas palju oma blogis Trilema nii rumeenia kui ka inglise keeles.
+ Ta käsitles teadlikult provokatiivses stiilis igasuguseid teemasid, sealhulgas filosoofiat, poliitikat ja seksuaalsust. Ta suri 2021. aastal 41-aastaselt.
+reviewed: true

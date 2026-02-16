@@ -1,0 +1,10 @@
+question: Jak se nazývaly fyzické bitcoiny, které vyrobil americký vývojář Mike Caldwell mezi zářím 2011 a listopadem 2013?
+answer: Casascius Coins
+wrong_answers:
+  - Bitbills
+  - Lealana Cents
+  - PrintCoins
+explanation: |
+ Casascius byl pseudonym Mika Caldwella, 33letého vývojáře žijícího v Utahu. Jeho fyzické bitcoiny byly v hodnotách 1 BTC, 25 BTC a dalších nominálních hodnotách, jako např
+ a také ve slitcích o hodnotě až 1 000 BTC. Měly obrovský úspěch a v průběhu let v nich bylo uloženo téměř 100 000 bitcoinů.
+reviewed: true

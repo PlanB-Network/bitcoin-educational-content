@@ -1,0 +1,11 @@
+question: 確定性 wallet 概念解決了開發人員 Gregory Maxwell 在 2011 年 6 月正式提出的什麼問題？
+answer: 需要定期備份私人金鑰，以確保比特幣的安全
+wrong_answers:
+  - 在與網際網路連線的裝置上儲存比特幣所產生的盜版風險
+  - 由於隨機數字產生器的熵值低，容易受到暴力攻擊
+  - 無法在其他裝置上重複使用帳戶
+explanation: |
+ Deterministic wallets 應用金鑰萃取：私密金鑰不是像主軟體一樣隨機個別萃取 generated，而是使用密碼函數從資訊（稱為 seed
+ 資訊 (稱為 seed)，而是使用加密函數，以確定性的方式取得。BitcoinSpinner 和 Electrum 軟體應用了此方法
+ wallets 在 2011 年底。
+reviewed: true

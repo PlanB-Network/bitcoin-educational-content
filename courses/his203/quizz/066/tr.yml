@@ -1,0 +1,11 @@
+question: Temmuz 2012'de gerçekleşen son Bitcoinica hack'inden dolaylı olarak kim sorumluydu?
+answer: Amir Taaki
+wrong_answers:
+  - Zhou Tong
+  - Chen Jianhai
+  - Mark Karpelès
+explanation: |
+ Bitcoinica'nın LastPass kasasının şifresini de içeren platformun tam kaynak kodunu 7 Temmuz'da yayınladı
+ Mt. Gox hesabı. 40,000 bitcoin ve 40,000 LR-USD çekilmiştir. Amir Taaki bu eylemi kabul etti, ancak suçu Bitcoinica'nın yönetimine yükledi,
+ çatışma içinde olduğu.
+reviewed: true

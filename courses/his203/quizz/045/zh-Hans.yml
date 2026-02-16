@@ -1,0 +1,10 @@
+question: 2011 年 10 月，Namecoin 加密货币采用了什么技术创新？
+answer: 合并的 mining
+wrong_answers:
+  - 抵抗 GPU 的 mining
+  - 可信节点
+  - 股权证明
+explanation: |
+ 合并的 mining 是一个过程，在此过程中，"母链"（即 Bitcoin）上所做的工作被重新用于验证较小的 "辅助 "链。这个过程是
+ Satoshi 本身在 BitDNS 讨论中提出的。合并的 mining 于 2011 年 10 月 8 日在 Namecoin 网络上的 19200 区块级激活。
+reviewed: true

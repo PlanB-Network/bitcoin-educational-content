@@ -1,0 +1,11 @@
+question: Ağustos 2012'de PPCoin kripto para birimi aracılığıyla gerçekleştirilen ilk hibrit proof-of-stake uygulamasının arkasındaki beyin kimdi?
+answer: Sunny King
+wrong_answers:
+  - Vitalik Buterin
+  - Ötelerden Gel
+  - Ben Laurie
+explanation: |
+ Sunny King projenin baş geliştiricisinin takma adıydı. Fikir, belirli blokların koruma kanıtı ile doğrulandığı hibrit bir model uygulamaktı
+ (madeni para yaşı konseptine dayalı olarak), geleneksel mining ile çıkarılan bloklara ek olarak. Sunny King ve işbirlikçileri PPCoin'i Ağustos 2012'de piyasaya sürdü
+ (daha sonra Peercoin olarak yeniden adlandırıldı). Çözümlerini "uzun vadede enerji tasarruflu" olarak tanımladılar.
+reviewed: true

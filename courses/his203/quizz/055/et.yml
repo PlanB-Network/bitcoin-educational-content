@@ -1,0 +1,10 @@
+question: Milline oli 2011. aasta suvel Stephen Pairi ja Tony Gallippi poolt käivitatud makseprotsessori BitPay ärimudel?
+answer: Klientide bitcoinide kohene konverteerimine dollariteks, tasu eest
+wrong_answers:
+  - Võimaldage klientidel osta bitcoini koheselt dollarimaksetega, komisjonitasu eest
+  - Laenata klientide poolt hoiustatud bitcoine ja koguda intressi
+  - Bitcoini maksete edastamine plokiahelale, tehingutasude saamine
+explanation: |
+ BitPay idee oli anda kaupmeestele võimalus konverteerida oma bitcoin-makseid koheselt dollariteks, et nad saaksid maandada end eurodollarite vastu
+ volatiilsuse vastu. BitPay andis klientidele dollarid ette, võttes töötlemistasu, mis oli esialgu 1%.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Kwa nini uboreshaji wa Pay to Script Hash ulihitaji 55% ya nguvu ya hash ya mtandao ili kuamilishwa?
+answer: Ili iwe "inaoana na kurudi nyuma" na isijenge mgawanyiko wa mnyororo
+wrong_answers:
+  - Kwa sababu utawala wa itifaki unategemea kura ya wachimbaji ("mchakataji mmoja, kura moja")
+  - Ili kutoiweka biashara ya mining katikati, kisha ikatawaliwa na mabwawa machache ya mining
+  - Kwa sababu kiongozi wa mradi Gavin Andresen hakutaka kuwa "dikteta mkarimu"
+explanation: |
+ Hili lilikuwa kizuizi cha sheria za makubaliano, ambacho baadaye kingeitwa "fork laini". Uboreshaji huu hauleti mgawanyiko wa mnyororo ikiwa unasaidiwa na nguvu nyingi ya kompyuta ya mtandao.
+reviewed: true

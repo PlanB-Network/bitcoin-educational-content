@@ -1,0 +1,11 @@
+question: 2010년 12월 데이비드 프랑수아에 의해 출시된 마운트곡스와 경쟁하는 외환 플랫폼은 무엇인가요?
+answer: Bitcoin-Central
+wrong_answers:
+  - Paymium
+  - Britcoin
+  - 비토매트
+explanation: |
+ Bitcoin-Central은 프랑스 플랫폼으로, 처음에는 기존의 유로화 송금뿐만 아니라 자유 준비금 달러와 유로화도 받았습니다. 소스 코드는
+ 오픈 소스 라이선스(AGPL)에 따라 게시되었습니다. 이후 이 플랫폼은 2011년 6월 곤자그 그랑발, 피에르 노이자, 데이비드 프랑수아가 공동 설립한 Paymium와 합병되었습니다
+ François가 2011년 6월에 설립한 회사로, 원래는 결제 영역에 중점을 두었습니다.
+reviewed: true

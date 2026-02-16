@@ -1,0 +1,10 @@
+question: Peristiwa apa yang mendorong Satoshi Nakamoto untuk menarik diri dari sorotan pada bulan Desember 2010?
+answer: Publikasi artikel PC World yang mengundang WikiLeaks untuk menggunakan Bitcoin
+wrong_answers:
+  - Ross Ulbricht meluncurkan platform Silk Road
+  - Kontak yang dibuat oleh In-Q-Tel, dana investasi CIA
+  - Kenaikan spektakuler harga BTC dari $0,20 menjadi $32 hanya dalam beberapa bulan
+explanation: |
+ Satoshi berkomentar negatif terhadap publikasi ini di forum Bitcoin, karena khawatir hal ini akan menarik perhatian otoritas negara. Pasar Jalur Sutra
+ diluncurkan pada bulan Januari 2011, kontak antara In-Q-Tel dan Gavin Andresen terjadi pada bulan April, dan kenaikan harga mencapai puncaknya pada $32 pada bulan Juni.
+reviewed: true

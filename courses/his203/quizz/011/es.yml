@@ -1,0 +1,10 @@
+question: ¿Qué provocó el hackeo de Mt. Gox el 19 de junio?
+answer: Acceso a la base de datos de contraseñas, cifradas con MD5, pero no con sal
+wrong_answers:
+  - Jed McCaleb filtró la contraseña para acceder a su cuenta personal en la plataforma
+  - Una caída del rayo, que permitió al pirata retirar más bitcoins de los que tenía
+  - Inyección de XML en solicitudes de retirada para desviar cuentas
+explanation: |
+ Esta filtración permitió al hacker acceder a cuentas con contraseñas débiles (cortas o fáciles de adivinar). En concreto, accedió de esta forma a la cuenta de Jed McCaleb. Él
+ vendió bitcoins para hacer bajar el precio y retirar un máximo de bitcoins (el límite de retirada diaria era de 1.000 dólares).
+reviewed: true

@@ -1,0 +1,9 @@
+question: อัลกอริทึมใดที่ Bitcoin ASIC ถูกออกแบบมาให้ทำงานโดยเฉพาะ?
+answer: SHA256d
+wrong_answers:
+  - SHA512d
+  - SHA1
+  - SHA512
+explanation: |
+  Bitcoin ASICs มีความเชี่ยวชาญสำหรับ SHA256 คู่ที่ใช้โดย Bitcoin's proof-of-work.
+reviewed: true

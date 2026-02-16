@@ -1,0 +1,9 @@
+question: Ai đã triển khai hàm Scrypt ngốn nhiều bộ nhớ dưới dạng thuật toán mining chống GPU trong tiền điện tử Tenebrix năm 2011?
+answer: ArtForz
+wrong_answers:
+  - Charlie Lee
+  - Lolcust
+  - Colin Percival
+explanation: |
+ Scrypt là một hàm tạo khóa được thiết kế ban đầu vào năm 2009 bởi nhà khoa học máy tính người Canada Colin Percival. Nó được nhà khai thác ArtForz sử dụng, người đã giúp Lolcust phát triển tiền điện tử Tenebrix, ra mắt vào tháng 9 năm 2011. Charlie Lee đã áp dụng mô hình này vào Litecoin, ra mắt vào tháng 10.
+reviewed: true

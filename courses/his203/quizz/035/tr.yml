@@ -1,0 +1,10 @@
+question: Bazı mining havuzlarında kullanılan Son N Hisse Başına Ödeme (PPLNS) yöntemi nelerden oluşur?
+answer: Madencilere, çıkarılan her blok için, mining havuzuna sağlanan son N hissedeki payları oranında ödeme yapın
+wrong_answers:
+  - Sağlanan her parça için zorluk derecesine göre madencilere derhal ücret ödenmesi
+  - Madencileri, son bloktan bu yana buldukları hisselerle orantılı olarak, çıkarılan her blok için ödüllendirin
+  - Sağlanan her hisse için madencilere hemen ödeme yapın, ancak asla mining havuzunun sahip olduğundan fazlasını ödemeyin
+explanation: |
+ Bu, değerlendirme döneminin blok üretim döngüsü değil, döngüden bağımsız N hisselik bir pencere olduğu oransal modelin bir çeşididir.
+ PPLNS yöntemi diğerlerinin yanı sıra P2Pool tarafından da kullanılmıştır.
+reviewed: true

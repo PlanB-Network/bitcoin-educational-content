@@ -1,0 +1,9 @@
+question: Sàn giao dịch ngoại hối nào cạnh tranh với Mt. Gox được David François ra mắt vào tháng 12 năm 2010?
+answer: Bitcoin-Trung tâm
+wrong_answers:
+  - Paymium
+  - Britcoin
+  - Bitomat
+explanation: |
+ Bitcoin-Central là một nền tảng của Pháp, ban đầu chấp nhận đô la và euro của Liberty Reserve, cũng như các giao dịch chuyển khoản euro thông thường. Mã nguồn của nó được công bố theo giấy phép mã nguồn mở (AGPL). Nền tảng này sau đó đã sáp nhập với Paymium, một công ty do Gonzague Grandval, Pierre Noizat và David François đồng sáng lập vào tháng 6 năm 2011, ban đầu tập trung vào lĩnh vực thanh toán.
+reviewed: true

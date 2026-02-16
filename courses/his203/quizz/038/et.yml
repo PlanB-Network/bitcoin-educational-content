@@ -1,0 +1,11 @@
+question: Milliste kasutusjuhtumite puhul on Pay to Script Hash versiooniuuendus kasutusele võetud?
+answer: Rahaliste vahendite kindlustamiseks mitme osapoole allkirjaga (multisig)
+wrong_answers:
+  - Haldusteenuste puhul
+  - Võrgu arvutusvõimsuse suurendamine tänu ühendatud mining-le
+  - Välismaale rahaülekannete saatmiseks
+explanation: |
+ Rahaliste vahendite tagamine on praegu väga oluline küsimus, sest piraatlusrünnakute arv on suurenenud. Teema toodi lauale 23. augustil 2011
+ projektijuht Gavin Andresen, kes soovis kiirendada protokollis juba olemasoleva mitme allkirja funktsionaalsuse standardimist.
+ See viis OP_EVAL ja seejärel P2SH väljatöötamiseni talve jooksul.
+reviewed: true

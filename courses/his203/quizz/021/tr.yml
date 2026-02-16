@@ -1,0 +1,10 @@
+question: Gareth Nelson ve Charlie Shrem tarafından 2011 yılında döviz platformlarına para yatırmayı kolaylaştırmak için oluşturulan anlık döviz hizmetinin adı neydi?
+answer: BitInstant
+wrong_answers:
+  - Instawallet
+  - Kripto X Değişimi
+  - TrustCash
+explanation: |
+ Bu hizmet, Mt. Gox'a yapılan uluslararası transferlerin yavaşlığı sorununu bir aracı olarak hareket ederek çözmüş ve fonları alındıktan sonra borsa platformlarına aktarmıştır
+ menşe ülke. BitInstant 23 Ağustos 2011'de kapılarını halka açtı ve Ocak 2012'ye kadar 1,2 milyon dolar transfer ederek hızla popüler oldu.
+reviewed: true

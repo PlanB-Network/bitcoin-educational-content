@@ -1,0 +1,10 @@
+question: 2010년 9월에 BitLaundry라는 최초의 Bitcoin 믹싱 서비스를 만든 사람은 누구인가요?
+answer: 피터 베세네스
+wrong_answers:
+  - 로만 스털링고프
+  - 벤자민 리브스
+  - Gregory Maxwell
+explanation: |
+ 피터 베네세스는 암호학을 전공한 미국인 사업가로, 슬래시닷팅 당시 Bitcoin를 발견했습니다. 그는 이 서비스를 개발하여
+ 서비스를 개발했습니다. 2011년 5월, 법적 문제가 발생할 수 있다는 것을 감지한 그는 이 서비스를 활동가인 마이크 고굴스키에게 매각했습니다.
+reviewed: true

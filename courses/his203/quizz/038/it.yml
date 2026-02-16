@@ -1,0 +1,11 @@
+question: Per quali casi d'uso in particolare è stato implementato l'aggiornamento Pay to Script Hash?
+answer: Per garantire i fondi tramite firma multipla (multisig)
+wrong_answers:
+  - Per i servizi di deposito a garanzia
+  - Per aumentare la potenza di calcolo della rete grazie alla fusione del mining
+  - Per l'invio di rimesse all'estero
+explanation: |
+ La sicurezza dei fondi è una questione molto importante al momento, a causa del crescente numero di attacchi di pirateria. L'argomento è stato portato sul tavolo il 23 agosto 2011
+ da Gavin Andresen, il responsabile del progetto, che voleva accelerare la standardizzazione della funzionalità di firma multipla già presente nel protocollo.
+ Questo ha portato allo sviluppo del OP_EVAL e poi del P2SH durante l'inverno.
+reviewed: true

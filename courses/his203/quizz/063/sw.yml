@@ -1,0 +1,9 @@
+question: Ni huduma gani ya mfumo ikolojia ya Bitcoin ambayo HAIKUATHIRIKA na udukuzi wa huduma ya mwenyeji wa Linode mnamo Machi 1, 2012?
+answer: Huduma ya ubadilishanaji wa fedha za kigeni ya BitInstant, inayosimamiwa na Charlie Shrem
+wrong_answers:
+  - Jukwaa la biashara la Bitcoinica, linalosimamiwa na Zhou Tong
+  - Ushirika wa BitcoinCZ Mining mining, unaosimamiwa na Slush
+  - Bomba la Bitcoin, linalosimamiwa na Gavin Andresen
+explanation: |
+ Mdukuzi huyo alifikia lango la huduma kwa wateja la kampuni hiyo na kuchukua udhibiti wa akaunti nane, ambazo zote zilikuwa na uhusiano na Bitcoin. Alikamata bitcoins 43,554 zinazomilikiwa na Bitcoinica, akaondoa bitcoins 3,094 kutoka kwa wallet ya Slush na akapata bitcoins 5 zilizopo kwenye bomba la Bitcoin la Gavin.
+reviewed: true

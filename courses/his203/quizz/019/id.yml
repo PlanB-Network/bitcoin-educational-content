@@ -1,0 +1,10 @@
+question: Pada level berapa harga bitcoin jatuh pada akhir pasar bearish yang terjadi setelah gelembung besar di tahun 2011?
+answer: 2 $
+wrong_answers:
+  - 0,01 $
+  - 6 $
+  - 17,5 $
+explanation: |
+ Setelah mencapai puncaknya di $32 pada Juni 2011, harga bitcoin turun drastis menjadi $6 pada awal Agustus, kemudian terus turun, akhirnya mencapai sekitar $2 pada
+ November 2011. Ini menunjukkan penurunan lebih dari 90% dari puncaknya di bulan Juni.
+reviewed: true

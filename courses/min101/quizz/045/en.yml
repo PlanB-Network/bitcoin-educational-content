@@ -6,4 +6,4 @@ wrong_answers:
   - 10 EH/s
 explanation: |
   1 ZH/s = 1000 EH/s
-reviewed: false
+reviewed: true

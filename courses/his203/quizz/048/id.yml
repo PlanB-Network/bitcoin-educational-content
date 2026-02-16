@@ -1,0 +1,10 @@
+question: Tindakan kontroversial apa yang dilakukan Luke-Jr terhadap mata uang kripto Coiledcoin pada tanggal 6 Januari 2012 untuk "melindungi" ekosistem Bitcoin?
+answer: Dia melakukan serangan sensor terhadap Coiledcoin menggunakan pool Eligius mining miliknya
+wrong_answers:
+  - Dia mengajukan pemberitahuan penghapusan DMCA terhadap Coinledcoin dengan GitHub untuk pelanggaran hak cipta
+  - Dia mengedit halaman Wikipedia Coiledcoin untuk secara terbuka menyebutnya sebagai skema piramida
+  - Dia memposting pesan massal di blockchain Coiledcoin berkat OP_RETURN
+explanation: |
+ Serangan penyensoran ini (mining blok kosong) dilakukan berkat gabungan mining dengan Bitcoin, yang telah ia terapkan di pool mining miliknya. Dia membenarkan
+ tindakannya dengan menulis bahwa tidak ada penambang Eligius yang dirugikan. Luke-Jr memang mengajukan pemberitahuan penghapusan DMCA ke GitHub, tetapi terhadap SolidCoin.
+reviewed: true

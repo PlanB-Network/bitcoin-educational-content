@@ -1,0 +1,9 @@
+question: Ni hatua gani tata ambayo Luke-Jr alichukua dhidi ya sarafu ya kidijitali ya Coiledcoin mnamo Januari 6, 2012 ili "kulinda" mfumo ikolojia wa Bitcoin?
+answer: Alifanya shambulio la udhibiti dhidi ya Coiledcoin kwa kutumia pool yake ya Eligius mining
+wrong_answers:
+  - Aliwasilisha notisi ya DMCA ya kuondoa Coinledcoin kwa GitHub kwa ukiukaji wa hakimiliki
+  - Alihariri ukurasa wa Wikipedia wa Coiledcoin ili kuuita hadharani mpango wa piramidi
+  - Alichapisha ujumbe wa hadhara kwenye blockchain ya Coiledcoin shukrani kwa OP_RETURN
+explanation: |
+ Shambulio hili la udhibiti (mining ya vitalu tupu) lilifanywa kutokana na mchanganyiko wa mining na Bitcoin, ambao alikuwa ameutekeleza katika bwawa lake la mining. Alihalalisha kitendo chake kwa kuandika kwamba hakuna mchimbaji wa Eligius aliyejeruhiwa. Luke-Jr aliwasilisha notisi ya kuondoa DMCA kwa GitHub, lakini dhidi ya SolidCoin.
+reviewed: true

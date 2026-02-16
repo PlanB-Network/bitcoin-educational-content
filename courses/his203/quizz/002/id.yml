@@ -1,0 +1,10 @@
+question: Protokol apa yang mencegah pasar Jalur Sutra ditutup secara langsung oleh pihak berwenang?
+answer: Tor
+wrong_answers:
+  - I2P
+  - Freenet
+  - BitTorrent
+explanation: |
+ Tor, singkatan dari The Onion Router, adalah protokol yang mendukung jaringan komputer hamparan global yang terdesentralisasi (umumnya dikenal sebagai darknet).
+ Tor memungkinkan situs web untuk di-host secara anonim dan tanpa sensor, dan sangat cocok untuk proyek Ross Ulbricht.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Jaký byl hlavní důvod, proč hnutí Occupy Wall Street začalo v září 2011 přijímat dary v bitcoinech?
+answer: Obcházení finanční cenzury
+wrong_answers:
+  - Využití dlouhodobé rezervy na zhodnocení
+  - Zadávání informací do blockchainu
+  - Nákup zásob na Hedvábné stezce
+explanation: |
+  Toto hnutí přijalo Bitcoin, aby uniklo finanční cenzuře poté, co byly zmrazeny některé jeho účty PayPal. V důsledku toho se valná hromada protestujících v
+  New Yorku obdrželo již 19. září dary v celkové výši 686 BTC, což v době přijetí činilo více než 3 000 dolarů.
+reviewed: true

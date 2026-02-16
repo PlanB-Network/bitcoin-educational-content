@@ -1,0 +1,10 @@
+question: Dịch vụ chuyển đổi ngoại tệ tức thời do Gareth Nelson và Charlie Shrem thành lập năm 2011 nhằm tạo điều kiện thuận lợi cho việc gửi tiền vào các nền tảng ngoại hối có tên là gì?
+answer: BitInstant
+wrong_answers:
+  - Instawallet
+  - Thay đổi tiền điện tử X
+  - TrustCash
+explanation: |
+ Dịch vụ này đã giải quyết vấn đề chuyển tiền quốc tế chậm đến Mt. Gox bằng cách đóng vai trò trung gian, chuyển tiền đến các nền tảng giao dịch sau khi nhận được tại quốc gia gốc.
+ BitInstant chính thức hoạt động vào ngày 23 tháng 8 năm 2011 và nhanh chóng trở nên phổ biến, chuyển được 1,2 triệu đô la vào tháng 1 năm 2012.
+reviewed: true

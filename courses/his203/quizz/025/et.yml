@@ -1,0 +1,10 @@
+question: Millise mobiilse bitcoini hoiustamise rakenduse töötas Prantsuse ettevõte Paymium SAS välja 2012. aasta aprillis?
+answer: Paytunia
+wrong_answers:
+  - Instawallet
+  - MyBitcoin
+  - Vibanko
+explanation: |
+ Paymium esitles seda kui "revolutsioonilist rakendust, mis põhineb Bitcoin avatud protokollil turvaliste ja lihtsate online-maksete ja rahaülekannete tegemiseks".
+ Samuti omandas ettevõte 2012. aasta märtsis Jan Vornbergerilt veebirakenduse Instawallet.
+reviewed: true

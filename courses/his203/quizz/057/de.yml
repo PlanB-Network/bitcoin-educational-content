@@ -1,0 +1,11 @@
+question: Welches Ereignis am 15. April 2011 wurde von Pokerspielern als "Black Friday" bezeichnet?
+answer: Schließung der wichtigsten US-Online-Poker-Plattformen durch das FBI wegen Umgehung des UIGEA
+wrong_answers:
+  - Angebot einiger Online-Pokerseiten mit großen Werbeaktionen für Rake und Buy-in-Gebühren
+  - Schwerwiegender Fehler in der Online-Pokersoftware ermöglichte die Abzweigung von Geldern zum Kauf von Schmuck und Golfbällen
+  - Der Amateurspieler Chris Moneymaker hat das Hauptturnier der World Poker Championship nach einem Online-Training gewonnen
+explanation: |
+ Sie wurden beschuldigt, sich als herkömmliche Händler auszugeben, um ihre Banken dazu zu bringen, eingehende Überweisungen zu bestätigen, was nach dem Unlawful Internet Gambling
+ Durchsetzungsgesetz von 2006 verboten waren. Diese Schließung war für die Online-Poker-Branche katastrophal. Sie veranlasste die Gründung mehrerer Bitcoin-Pokerplattformen, da die
+ kryptowährung nicht denselben Beschränkungen unterlag.
+reviewed: true

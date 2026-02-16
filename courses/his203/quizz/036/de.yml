@@ -1,0 +1,10 @@
+question: Was bedeutet "Pool Hopping" für einen Miner, der seine Hash-Rate an einen mining-Pool delegiert?
+answer: Trennung von einem mining-Pool, sobald eine bestimmte Anzahl von Aktien in einem Zyklus eingereicht wurde, und Umleitung der Rechenleistung auf Ihr eigenes Konto oder auf einen anderen mining-Pool
+wrong_answers:
+  - Einführung eines bandbreitenintensiven Kommunikationsprotokolls für die Interaktion mit dem mining-Pool, um veraltete Anteile zu reduzieren, indem die Ankündigung neuer Blöcke rationalisiert wird
+  - Durchführung mehrerer fiktiver Transaktionen innerhalb des mining-Pools, um eine Übertragung von Bitcoin-Eigentum zu simulieren und die Vertraulichkeit der beauftragten Miner zu erhöhen
+  - Schreiben des Namens des mining-Pools in das Eingabefeld der Reward-Transaktion des abgebauten Blocks, um den Betrieb von mining-Pools transparenter zu machen
+explanation: |
+ Diese Methode wurde im Februar 2011 von Raulo beschrieben, der schätzte, dass eine Person auf diese Weise 28 % mehr Bitcoins erhalten könnte. Dies motivierte die Einführung eines
+ einer "Anti-Betrugs"-Punktzahl innerhalb der Slush-Genossenschaft.
+reviewed: true

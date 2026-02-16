@@ -1,0 +1,10 @@
+question: Kuka vaikutusvaltainen taloustieteilijä arvosteli Bitcoin:ta syyskuussa 2011 sen jäykästä, deflatorisesta rahapolitiikasta?
+answer: Paul Krugman
+wrong_answers:
+  - Yánis Varoufákis
+  - Alan Greenspan
+  - Barry Eichengreen
+explanation: |
+ Paul Krugman on uuskeynesiläinen taloustieteilijä ja vuoden 2008 taloustieteen Nobel-palkinnon saaja. New Yorkissa julkaistussa artikkelissa "Golden Cyberfetters" (Kultaiset kyberfetterit)
+ Timesin verkkosivuilla 7. syyskuuta 2011, hän väitti, että Bitcoin:n "yksityinen kultakantamalli" johtaa Bitcoin:n tuhoon vaihdon välineenä.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Kakav je efekat imao operativni kod OP_EVAL na interni programski sistem Bitcoin?
+answer: Izvrši skriptu unutar skripte
+wrong_answers:
+  - Zatražite potpise učesnika
+  - Iseckaj skriptu i uporedi rezultat sa dostavljenim otiskom
+  - Proveri da li su dve vrednosti jednake
+explanation: |
+ Opisao ga je Nicolas van Saberhagen, poznat i kao ByteCoin, koji ga je dizajnirao u noći između 1. i 2. oktobra 2011. Opcode se izvršava na kraju lock skripte kako bi se procenila validnost dostavljene skripte, čiji se hash upoređuje sa datim otiskom prsta.
+reviewed: true

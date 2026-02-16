@@ -1,0 +1,11 @@
+question: 已針對哪些使用個案部署了 Pay to Script Hash 升級？
+answer: 透過多方簽名 (multisig) 確保資金安全
+wrong_answers:
+  - 代管服務
+  - 藉由合併的 mining 提升網路運算能力
+  - 用於向海外匯款
+explanation: |
+ 由於盜版攻擊日益增加，確保資金安全是目前非常重要的議題。此議題於 2011 年 8 月 23 日由 Gavin Andresen
+ 專案領導人 Gavin Andresen 希望加速協定中已有的多重簽章功能的標準化。
+ 這導致了 OP_EVAL 的開發，然後在冬天開發了 P2SH。
+reviewed: true

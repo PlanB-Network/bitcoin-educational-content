@@ -1,0 +1,10 @@
+question: Forrest Voight 於 2011 年創建的分散式 mining pool P2Pool 背後的概念是什麼？
+answer: 股份鏈
+wrong_answers:
+  - 長時間投票
+  - 代幣基礎簽章
+  - FPGA
+explanation: |
+ 股份鏈 "或股份鏈由參與者貢獻的部分工作證明組成。它由參與者維護，參與者之間是
+ 點對點。每一份都包含前一份的指紋，確保整體的完整性。
+reviewed: true

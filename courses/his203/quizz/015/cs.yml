@@ -1,0 +1,10 @@
+question: Který stát USA vybraný projektem Free State se stal v letech 2012-2013 centrem adopce Bitcoin?
+answer: New Hampshire
+wrong_answers:
+  - Texas
+  - Colorado
+  - Kalifornie
+explanation: |
+ Projekt Svobodný stát byl politickým migračním hnutím, jehož cílem bylo seskupit libertariány v jednom státě a ovlivnit tamní místní vládu.
+ Členové tohoto hnutí začali používat Bitcoin díky proselytismu libertariánských aktivistů, jako byli Roger Ver a Erik Voorhees.
+reviewed: true

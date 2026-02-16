@@ -1,0 +1,10 @@
+question: Quale azione controversa ha intrapreso Luke-Jr contro la criptovaluta Coiledcoin il 6 gennaio 2012 per "proteggere" l'ecosistema Bitcoin?
+answer: Ha effettuato un attacco di censura contro Coiledcoin utilizzando il suo pool di Eligius mining
+wrong_answers:
+  - Ha presentato a GitHub un avviso di rimozione DMCA contro Coinledcoin per violazione del copyright
+  - Ha modificato la pagina di Wikipedia di Coiledcoin per definirla pubblicamente uno schema piramidale
+  - Ha pubblicato messaggi di massa sulla blockchain di Coiledcoin grazie a OP_RETURN
+explanation: |
+ Questo attacco di censura (mining di blocchi vuoti) è stato portato a termine grazie alla combinazione del mining con il Bitcoin, che aveva implementato nel suo pool mining. Ha giustificato
+ la sua azione scrivendo che nessun minatore Eligius era stato danneggiato. Luke-Jr ha presentato un avviso di rimozione DMCA a GitHub, ma contro SolidCoin.
+reviewed: true

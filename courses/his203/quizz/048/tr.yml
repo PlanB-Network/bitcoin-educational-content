@@ -1,0 +1,10 @@
+question: Luke-Jr, Bitcoin ekosistemini "korumak" için 6 Ocak 2012'de kripto para birimi Coiledcoin'e karşı hangi tartışmalı eylemi gerçekleştirdi?
+answer: Eligius mining havuzunu kullanarak Coiledcoin'e karşı bir sansür saldırısı gerçekleştirdi
+wrong_answers:
+  - Telif hakkı ihlali nedeniyle GitHub'a Coinledcoin'e karşı bir DMCA yayından kaldırma bildirimi gönderdi
+  - Coiledcoin Wikipedia sayfasını düzenleyerek bunu alenen bir piramit şeması olarak adlandırdı
+  - OP_RETURN sayesinde Coiledcoin blok zincirinde toplu mesajlar yayınladı
+explanation: |
+ Bu sansür saldırısı (boş bloklardan oluşan mining), mining havuzunda uyguladığı mining'i Bitcoin ile birleştirmesi sayesinde gerçekleştirilmiştir. Gerekçelendirdi
+ hiçbir Eligius madencisinin zarar görmediğini yazarak eylemine devam etti. Luke-Jr, GitHub'a bir DMCA yayından kaldırma bildirimi gönderdi, ancak SolidCoin'e karşı.
+reviewed: true

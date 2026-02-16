@@ -1,0 +1,10 @@
+question: Millest koosneb Pay-to-Script-Hash (P2SH) skriptiskeem?
+answer: Lukustades raha hash skriptiga, mis tuleb käivitada lukustuse avamisel
+wrong_answers:
+  - Nõutakse M allkirja N osalejast, et lubada tehingu väljundit kulutada
+  - Bitcoinide kulutamise sõltuvusse seadmine ühe avaliku võtmega seotud allkirja andmisest
+  - Suvaliste andmete kirjutamine plokiahelasse, muutes UTXO mitte-taotlevaikseks
+explanation: |
+ See hõlmab skripti hashi eest maksmist ja nimetatud skripti esitamist rahaliste vahendite avamisel. OP_EVAL ettepanekust eristab seda see, et see on
+ virtuaalmasin tunneb seda automaatselt ära, nii et seda saab täita ilma selgesõnaliste juhisteta.
+reviewed: true

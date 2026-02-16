@@ -1,0 +1,11 @@
+question: Jaki problem bezpieczeństwa odkryty przez Russella O'Connora w lutym 2012 r. doprowadził do stworzenia BIP 30?
+answer: Obecność zduplikowanych transakcji w łańcuchu bloków
+wrong_answers:
+  - Problem bizantyjskich generałów niweczących konsensus
+  - Istnienie błędu rekurencji w instrukcji OP_EVAL
+  - Usunięcie nadmiaru pierwiastka przez operatora OP_CHECKMULTISIG
+explanation: |
+ Były to transakcje z nagrodami o tym samym identyfikatorze zawarte w różnych blokach. W dniu 4 lutego 2012 r. Russell O'Connor odkrył lukę w zabezpieczeniach, która
+ która pozwalała na całkowite usunięcie wszystkich transakcji wynikających z jednej z tych zduplikowanych transakcji poprzez reorganizację łańcucha. Łata, opisana w
+ BIP 30 przez Pieter Wuille, została zastosowana w sieci 15 marca.
+reviewed: true

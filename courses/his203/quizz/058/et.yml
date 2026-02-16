@@ -1,0 +1,10 @@
+question: Milline professionaalne pokkerimängija toetas 2012. aasta jaanuarist Seals klubide bitcoin-pokkeriplatvormi?
+answer: Bryan Micon
+wrong_answers:
+  - Prahlad Friedman
+  - Phil Ivey
+  - Daniel Negreanu
+explanation: |
+ Bryan Micon avastas Bitcoin 2011. aasta juunis ja langes selle lummuse alla, teatades, et ta on "bitcoinidest täiesti lummatud". Bryan Micon kaasas
+ 2012. aasta jaanuarist alates Seals klubide arendamist ja propageeris seda märtsis oma isiklikus Youtube'i kanalis.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Ni uruhe rubuga rw’amahera y’amahanga ruhanganye na Mt. Gox rwatangujwe mu kwezi kwa kigarama 2010 na David François?
+answer: Bitcoin-Hagati
+wrong_answers:
+  - Paymium
+  - Ubwongereza
+  - Bitomat
+explanation: |
+ Bitcoin-Central yari urubuga rw’Abafaransa, mu ntango rwemera amadolari n’amayero ya Liberty Reserve, hamwe n’ugutanga amayero asanzwe. Inkomoko yayo yari . 
+ yasohowe hakurikijwe uruhusha rwo gukoresha (AGPL). Iryo koraniro ryaciye rifatanya na Paymium, ishirahamwe ryashinzwe na Gonzague Grandval, Pierre Noizat na David .
+ François muri Ruheshi 2011, mu ntango yari yibanze ku bijanye n’ugutanga amahera.
+reviewed: true

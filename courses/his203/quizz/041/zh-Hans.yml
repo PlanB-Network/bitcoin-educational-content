@@ -1,0 +1,10 @@
+question: 哪位 Bitcoin 开发者曾强烈反对付费脚本 Hash 升级？
+answer: Luke Dashjr
+wrong_answers:
+  - 阿米尔-塔基
+  - Gregory Maxwell
+  - 加文-安德烈森
+explanation: |
+ Luke Dashjr 认为，OP_EVAL 建议更好，因为它更优雅；P2SH 用 "单一的特殊模型 "取代了脚本系统。
+ 他还批评加文在软件中加入了默认报告。作为回应，Luke-Jr 开发了自己的运行代码 OP_CHECKHASHVERIFY（BIP 17）。
+reviewed: true

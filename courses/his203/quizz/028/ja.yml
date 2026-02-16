@@ -1,0 +1,10 @@
+question: 2011年11月、キーとなる派生語seedを12単語の文章として表現し、イノベーションを起こしたソフトは？
+answer: Electrum
+wrong_answers:
+  - スペスミロ
+  - 地層
+  - Paymium
+explanation: |
+ このwalletは、フランスの開発者トーマス・ヴォーグトリンによって作られた。その名は、金と銀の自然合金であるエレクトラムに由来する。Electrumは
+ Electrumは、seedからキーを導き出す決定論的構造を実装した最初のwalletの一つであり、16進文字列と12単語の文の両方で表現された。
+reviewed: true

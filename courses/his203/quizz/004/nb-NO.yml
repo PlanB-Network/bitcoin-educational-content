@@ -1,0 +1,10 @@
+question: På hvilket nettmedium ble Adrian Chens artikkel som gjorde Silk Road kjent for offentligheten den 1. juni 2011, publisert?
+answer: Gawker
+wrong_answers:
+  - Gizmodo
+  - Slashdot
+  - Hackernews
+explanation: |
+ Gawker.com var en innflytelsesrik blogg der en rekke forfattere publiserte til dels kontroversielle artikler. Den gikk konkurs i 2016, etter et søksmål fra
+ Hulk Hogan og Peter Thiel.
+reviewed: true

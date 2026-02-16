@@ -1,0 +1,10 @@
+question: Vem skapade den första Bitcoin-mixingtjänsten, kallad BitLaundry, i september 2010?
+answer: Peter Vessenes
+wrong_answers:
+  - Roman Sterlingov
+  - Benjamin Reeves
+  - Gregory Maxwell
+explanation: |
+ Peter Venesses var en amerikansk entreprenör med en examen i kryptografi som upptäckte Bitcoin vid tiden för slashdotting. Han utvecklade tjänsten för att göra det
+ att göra det svårare att spåra fonder. I maj 2011 sålde han tjänsten till aktivisten Mike Gogulski, då han anade att det skulle uppstå juridiska komplikationer.
+reviewed: true

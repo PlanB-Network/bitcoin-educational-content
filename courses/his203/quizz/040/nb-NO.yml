@@ -1,0 +1,10 @@
+question: Hva består Pay-to-Script-Hash (P2SH)-skriptskjemaet av?
+answer: Låser midler med hashen til et skript, som må kjøres ved opplåsing
+wrong_answers:
+  - Krever M signaturer av N deltakere for å godkjenne at transaksjonsresultatet kan brukes
+  - Å gjøre bruk av bitcoins avhengig av en signatur knyttet til en enkelt offentlig nøkkel
+  - Skrive vilkårlige data på blokkjeden ved å gjøre UTXO ikke-brukbar
+explanation: |
+ Dette innebærer at man betaler for en skripthash og leverer skriptet når man låser opp midlene. Det som skiller det fra OP_EVAL-forslaget, er at det gjenkjennes
+ automatisk gjenkjennes av den virtuelle maskinen, slik at det kan kjøres uten behov for eksplisitte instruksjoner.
+reviewed: true

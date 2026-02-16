@@ -1,0 +1,10 @@
+question: Perangkat lunak mana yang berinovasi dengan merepresentasikan derivasi kunci seed sebagai kalimat 12 kata pada bulan November 2011?
+answer: Electrum
+wrong_answers:
+  - Spesmilo
+  - Stratum
+  - Paymium
+explanation: |
+ wallet ini diciptakan oleh pengembang asal Prancis, Thomas Voegtlin. Namanya mengacu pada electrum, paduan alami emas dan perak. Electrum adalah salah satu yang pertama
+ wallet pertama yang mengimplementasikan struktur deterministik yang menurunkan kunci dari seed, yang direpresentasikan sebagai string karakter heksadesimal dan kalimat 12 kata.
+reviewed: true

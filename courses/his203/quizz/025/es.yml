@@ -1,0 +1,10 @@
+question: ¿Qué aplicación móvil de depósito de bitcoins desarrolló la empresa francesa Paymium SAS en abril de 2012?
+answer: Paytunia
+wrong_answers:
+  - Instawallet
+  - MyBitcoin
+  - Vibanko
+explanation: |
+ Paymium la presentaba como "una aplicación revolucionaria basada en el protocolo abierto Bitcoin para pagos y transferencias de dinero en línea seguros y sencillos".
+ La empresa también había adquirido la aplicación web Instawallet a Jan Vornberger en marzo de 2012.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Welche mobile Bitcoin-Depotanwendung wurde im April 2012 vom französischen Unternehmen Paymium SAS entwickelt?
+answer: Paytunia
+wrong_answers:
+  - Instawallet
+  - MyBitcoin
+  - Vibanko
+explanation: |
+ Paymium stellte es als "eine revolutionäre Anwendung auf der Grundlage des offenen Bitcoin-Protokolls für sichere und einfache Online-Zahlungen und Geldüberweisungen" vor.
+ Das Unternehmen hatte im März 2012 auch die Webanwendung Instawallet von Jan Vornberger erworben.
+reviewed: true

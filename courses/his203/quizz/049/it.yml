@@ -1,0 +1,11 @@
+question: Chi è la mente dietro la prima implementazione ibrida di proof-of-stake realizzata nell'agosto 2012 attraverso la criptovaluta PPCoin?
+answer: Sunny King
+wrong_answers:
+  - Vitalik Buterin
+  - Come-From-Beyond
+  - Ben Laurie
+explanation: |
+ Sunny King era lo pseudonimo dello sviluppatore principale del progetto. L'idea era quella di implementare un modello ibrido in cui alcuni blocchi fossero convalidati da prove di conservazione
+ (basata sul concetto di età della moneta), oltre ai blocchi estratti tramite mining convenzionale. Sunny King e i suoi collaboratori hanno lanciato PPCoin nell'agosto del 2012
+ (poi rinominato Peercoin). Hanno descritto la loro soluzione come "efficiente dal punto di vista energetico nel lungo termine".
+reviewed: true

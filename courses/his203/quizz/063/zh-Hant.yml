@@ -1,0 +1,10 @@
+question: 哪項 Bitcoin 生態系統服務未受到 2012 年 3 月 1 日 Linode 主機服務駭客的影響？
+answer: 由 Charlie Shrem 管理的 BitInstant 外匯服務
+wrong_answers:
+  - 由周通管理的 Bitcoinica 交易平台
+  - BitcoinCZ Mining mining 合作社，由 Slush 管理
+  - 由 Gavin Andresen 管理的 Bitcoin 水龍頭
+explanation: |
+ 該名駭客存取了該公司的客戶服務入口網站，並控制了八個帳戶，這些帳戶都與 Bitcoin 有關聯。他扣押了 43,554
+ 屬於 Bitcoinica 的 43,554 枚比特幣，從 Slush 的合作熱門 wallet 帳戶中移除 3,094 枚比特幣，並取得 Gavin 的 Bitcoin 龍頭上的 5 枚比特幣。
+reviewed: true

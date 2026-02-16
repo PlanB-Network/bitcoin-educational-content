@@ -1,0 +1,11 @@
+question: Nghị định thư nào đã ngăn cản việc chính quyền trực tiếp đóng cửa chợ Con đường Tơ lụa?
+answer: Tor
+wrong_answers:
+  - I2P
+  - Freenet
+  - BitTorrent
+explanation: |
+ Tor, viết tắt của The Onion Router (Bộ định tuyến hành tây), là một giao thức hỗ trợ mạng máy tính phủ sóng toàn cầu, phi tập trung (thường được gọi là darknet).
+ 
+ Nó cho phép các trang web được lưu trữ ẩn danh và không bị kiểm duyệt, và rất phù hợp với dự án của Ross Ulbricht.
+reviewed: true

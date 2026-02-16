@@ -1,0 +1,9 @@
+question: Bitcoin mining ใช้ทรัพยากรอะไร?
+answer: ไฟฟ้า
+wrong_answers:
+  - น้ำ
+  - อัญมณี
+  - ทองคำ
+explanation: |
+  Mining เป็นงานตรวจสอบที่ใช้ไฟฟ้าผ่านคอมพิวเตอร์
+reviewed: true

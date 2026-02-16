@@ -1,0 +1,9 @@
+question: Gavin Andresen
+answer: Peter Vessenes
+wrong_answers:
+  - Roman Sterlingov
+  - Benjamin Reeves
+  - Gregory Maxwell
+explanation: |
+ Peter Venesses je bio američki preduzetnik sa diplomom iz kriptografije koji je otkrio Bitcoin u vreme slashdotting-a. Razvio je uslugu kako bi otežao praćenje sredstava. U maju 2011. godine, predosećajući pravne komplikacije, prodao je uslugu aktivisti Majku Gogulskom.
+reviewed: true

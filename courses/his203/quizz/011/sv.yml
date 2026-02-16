@@ -1,0 +1,10 @@
+question: Vad var det som gjorde att Mt. Gox hackades den 19 juni?
+answer: Tillgång till lösenordsdatabasen, som hashades med MD5, men inte saltades
+wrong_answers:
+  - Jed McCaleb läckte lösenordet för att komma åt sitt personliga konto på plattformen
+  - En blixtkrasch, som gjorde det möjligt för piraten att ta ut fler bitcoins än han hade
+  - XML-injektion i uttagsbegäran för att suga ut konton
+explanation: |
+ Läckan gjorde det möjligt för hackaren att komma åt konton med svaga lösenord (korta eller lätta att gissa). I synnerhet fick han tillgång till Jed McCalebs konto på detta sätt. Han
+ sålde bitcoins för att driva ner priset, så att han kunde ta ut ett maximalt antal bitcoins (den dagliga uttagsgränsen var 1 000 USD).
+reviewed: true

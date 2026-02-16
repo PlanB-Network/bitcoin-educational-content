@@ -1,0 +1,10 @@
+question: Terdiri dari apakah skema skrip Pay-to-Script-Hash (P2SH)?
+answer: Mengunci dana dengan hash skrip, yang harus dieksekusi saat membuka kunci
+wrong_answers:
+  - Membutuhkan tanda tangan M dari N peserta untuk mengesahkan hasil transaksi yang akan dibelanjakan
+  - Membuat pengeluaran bitcoin bergantung pada penyediaan tanda tangan yang terhubung ke satu kunci publik
+  - Menulis data sewenang-wenang pada blockchain dengan membuat UTXO tidak dapat digunakan
+explanation: |
+ Ini melibatkan pembayaran untuk hash skrip dan menyediakan skrip tersebut saat membuka dana. Yang membedakannya dengan proposal OP_EVAL adalah bahwa proposal ini
+ secara otomatis dikenali oleh mesin virtual, sehingga dapat dieksekusi tanpa perlu instruksi eksplisit.
+reviewed: true

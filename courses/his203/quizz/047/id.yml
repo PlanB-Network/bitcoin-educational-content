@@ -1,0 +1,10 @@
+question: Apa yang dilakukan oleh Litecoin, mata uang kripto yang diciptakan oleh Charlie Lee pada bulan Oktober 2011?
+answer: Jadilah perak seperti halnya Bitcoin untuk emas
+wrong_answers:
+  - Menciptakan mata uang spiritual
+  - Menggantikan Bitcoin saat runtuh
+  - Mendanai dunia perangkat lunak bebas
+explanation: |
+ Litecoin lebih cepat (waktu blok 2 menit 30, bukan 10 menit) dan lebih sedikit kelangkaannya (84 juta unit, bukan 21) dibandingkan Bitcoin, oleh karena itu
+ logam mulia. Charlie Lee sendiri yang memasukkan perbandingan ini dalam deskripsi awal mata uang kripto miliknya.
+reviewed: true

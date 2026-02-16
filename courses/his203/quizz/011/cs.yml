@@ -1,0 +1,10 @@
+question: Co bylo příčinou hackerského útoku na společnost Mt. Gox 19. června?
+answer: Přístup k databázi hesel, která byla zaheslována pomocí MD5, ale nebyla solena
+wrong_answers:
+  - Jed McCaleb vyzradil heslo pro přístup ke svému osobnímu účtu na platformě
+  - Bleskový pád, který pirátovi umožnil vybrat více bitcoinů, než měl
+  - Vstřikování XML do žádostí o výběr za účelem odčerpání peněz z účtů
+explanation: |
+ Tento únik umožnil hackerovi přístup k účtům se slabými hesly (krátkými nebo snadno uhodnutelnými). Konkrétně se tímto způsobem dostal k účtu Jed McCaleba. Na adrese 
+ prodával bitcoiny, aby snížil jejich cenu a mohl si vybrat maximální množství bitcoinů (denní limit pro výběr byl 1 000 USD).
+reviewed: true

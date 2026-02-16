@@ -1,0 +1,10 @@
+question: 哪個 mining 協定是由 Marek Palatinus (又名 Slush) 於 2012 年 9 月開發，以改善礦工與 mining 池間的交換？
+answer: 層級
+wrong_answers:
+  - Electrum
+  - 獲得工作
+  - Getblocktemplate (GBT)
+explanation: |
+ Stratum 是適用於精簡型用戶端的 mining 協定。它很快就取代了在此之前使用的最基本的 getwork 功能，並在競爭者 getblocktemplate 提案的犧牲下建立了自己的地位。
+ 競爭的 getblocktemplate 方案。
+reviewed: true

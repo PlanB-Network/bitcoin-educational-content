@@ -1,0 +1,10 @@
+question: V čem spočívá metoda Pay Per Last N Shares (PPLNS) používaná v některých poolech mining?
+answer: Platit těžařům za každý vytěžený blok v poměru jejich podílů na posledních N podílech dodaných do fondu mining
+wrong_answers:
+  - Okamžitě odměňovat horníky za každou poskytnutou část podle její obtížnosti
+  - Odměňovat těžaře za každý vytěžený blok v poměru k podílu, který našli od posledního bloku
+  - Zaplaťte horníkům okamžitě za každou poskytnutou akcii, ale nikdy ne více, než kolik vlastní fond mining
+explanation: |
+ Jedná se o variantu proporcionálního modelu, v níž vyhodnocovacím obdobím není výrobní cyklus bloku, ale okno N akcií nezávislé na cyklu.
+ Metodu PPLNS použila mimo jiné společnost P2Pool.
+reviewed: true

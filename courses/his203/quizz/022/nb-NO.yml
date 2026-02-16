@@ -1,0 +1,11 @@
+question: Hva var den viktigste finansielle innovasjonen som Bitcoinica-plattformen, som ble lansert i september 2011 av den unge kinesiske gründeren Zhou Tong, bidro med?
+answer: Giring og shortsalg
+wrong_answers:
+  - Utstedelse av aksjer og obligasjoner
+  - Lån med rentesikkerhet
+  - Nesten umiddelbar kontantutveksling
+explanation: |
+ Bitcoinica var den første plattformen i økosystemet som tilbød marginhandel, noe som gjorde det mulig for kundene å bruke gearing for å forsterke gevinster (og tap), og å gå
+ gå short for å satse på en fallende aksjekurs. Etter nedleggelsen ble denne typen tjenester overtatt av Bitfinex-plattformen, som ble lansert i oktober 2012 og
+ var basert på samme kildekode.
+reviewed: true

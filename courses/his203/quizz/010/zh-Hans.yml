@@ -1,0 +1,11 @@
+question: 与 Mt. Gox 竞争的外汇平台是哪个？
+answer: Bitcoin-Central
+wrong_answers:
+  - Paymium
+  - 英国币
+  - Bitomat
+explanation: |
+ Bitcoin-Central 是一个法国平台，最初接受自由储备美元和欧元以及传统的欧元转账。其源代码
+ 根据开源许可证（AGPL）发布。该平台随后与 Paymium 合并，后者是由 Gonzague Grandval、Pierre Noizat 和 David
+ 弗朗索瓦于 2011 年 6 月共同创立，最初专注于支付领域。
+reviewed: true

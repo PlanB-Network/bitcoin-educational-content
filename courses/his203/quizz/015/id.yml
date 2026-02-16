@@ -1,0 +1,10 @@
+question: Negara bagian AS mana yang dipilih oleh Free State Project sebagai pusat adopsi Bitcoin pada tahun 2012-2013?
+answer: New Hampshire
+wrong_answers:
+  - Texas
+  - Colorado
+  - California
+explanation: |
+ Free State Project adalah gerakan migrasi politik, yang bertujuan untuk mengelompokkan para libertarian di satu negara bagian untuk mempengaruhi pemerintah lokal di sana.
+ Anggota gerakan ini mulai menggunakan Bitcoin berkat dakwah aktivis libertarian seperti Roger Ver dan Erik Voorhees.
+reviewed: true

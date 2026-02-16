@@ -1,0 +1,10 @@
+question: Hvor stor andel av bitcoins i omløp utgjorde pengene som ble forvaltet av Bitcoin Savings & Trust-fondet da det var på sitt største?
+answer: Ca. 5 prosent
+wrong_answers:
+  - Ca. 0,05
+  - Ca. 0,5
+  - Ca. 50 prosent
+explanation: |
+ På det meste, i august 2012, forvaltet Trendon Shavers' (aka PirateAt40) fond over 500 000 bitcoins, noe som utgjorde rundt 5 % av de 9,7 millioner bitcoins som var i
+ sirkulasjon! Bitcoin Savings & Trust kollapset like etterpå, da tilliten forsvant.
+reviewed: true

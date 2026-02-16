@@ -1,0 +1,10 @@
+question: Terdiri dari apakah metode Pay Per Last N Shares (PPLNS) yang digunakan di beberapa pool mining?
+answer: Membayar penambang untuk setiap blok yang ditambang, sesuai dengan bagian mereka di N saham terakhir yang dipasok ke pool mining
+wrong_answers:
+  - Berikan upah kepada penambang dengan segera untuk setiap bagian yang diberikan, sesuai dengan tingkat kesulitannya
+  - Menghargai penambang untuk setiap blok yang ditambang, sebanding dengan bagian yang mereka temukan sejak blok terakhir
+  - Bayar penambang segera untuk setiap bagian yang disediakan, tetapi tidak pernah lebih dari yang dimiliki pool mining
+explanation: |
+ Ini adalah varian dari model proporsional, di mana periode evaluasi bukanlah siklus produksi blok, tetapi sebuah jendela N saham yang tidak tergantung pada siklus tersebut.
+ Metode PPLNS telah digunakan antara lain oleh P2Pool.
+reviewed: true

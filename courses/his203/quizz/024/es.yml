@@ -1,0 +1,10 @@
+question: ¿De qué nacionalidad era Mircea Popescu, fundador de la plataforma MPEx, que ofrecía opciones de compra y venta y la posibilidad de emitir acciones y bonos?
+answer: Rumano
+wrong_answers:
+  - Americana
+  - Chino
+  - Era apátrida
+explanation: |
+ Fue una figura controvertida en la comunidad. Originario de Transilvania (Rumanía), escribió extensamente en su blog Trilema, tanto en rumano como en inglés.
+ Abordaba todo tipo de temas, como filosofía, política y sexualidad, con un estilo deliberadamente provocador. Murió en 2021 a los 41 años.
+reviewed: true

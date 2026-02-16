@@ -1,0 +1,11 @@
+question: Hvilket problem løste det deterministiske wallet-konseptet som ble formalisert av utvikleren Gregory Maxwell i juni 2011?
+answer: Behovet for regelmessig sikkerhetskopiering av private nøkler for å sikre bitcoins
+wrong_answers:
+  - Risikoen for piratkopiering forbundet med lagring av bitcoins på en Internett-tilkoblet enhet
+  - Sårbarhet for brute force-angrep på grunn av den lave entropien til tilfeldige tallgeneratorer
+  - Manglende mulighet til å gjenbruke kontoen på en annen enhet
+explanation: |
+ Deterministiske wallet bruker nøkkelderivasjon: I stedet for å bli generated individuelt tilfeldig, slik det ble gjort i hovedprogramvaren, blir private nøkler utledet
+ deterministisk fra informasjon (kalt seed) ved hjelp av kryptografiske funksjoner. Denne metoden ble brukt av BitcoinSpinner- og Electrum-programvaren
+ wallet ved utgangen av 2011.
+reviewed: true

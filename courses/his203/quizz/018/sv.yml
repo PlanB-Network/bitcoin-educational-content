@@ -1,0 +1,10 @@
+question: Vilket libertarianskt radioprogram i USA var ett av de första som nämnde förekomsten av Sidenvägens marknadsplats?
+answer: Free Talk Live
+wrong_answers:
+  - Bitcoin Show
+  - All Things Considered
+  - Infowars nattliga nyheter
+explanation: |
+ Programledare för Free Talk Live var Ian Freeman och Mark Edge, som upptäckte Bitcoin i december 2010 och träffade Gavin Andresen i februari 2011. Den 16 mars 2011 ägnades halva
+ av programmet åt användningen av Bitcoin på Silk Road, vilket övertygade Roger Ver om att engagera sig mer i Bitcoin.
+reviewed: true

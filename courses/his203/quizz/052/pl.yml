@@ -1,0 +1,11 @@
+question: Która z funkcji dodanych przez serwis wymiany walut BitInstant w grudniu 2011 r. została wykorzystana przez Roberta Faiella, znanego również jako BTCKing, do prowadzenia działalności związanej z odsprzedażą w ciemnej sieci?
+answer: Depozyt gotówkowy
+wrong_answers:
+  - Bezpłatne zakupy
+  - Natychmiastowe przelewy
+  - Zgodność z przepisami
+explanation: |
+ BitInstant dodał tę metodę płatności do swojej oferty 21 grudnia 2011 roku. Obywatele Stanów Zjednoczonych mogli wpłacać gotówkę w określonych lokalizacjach i być
+ w dolarach na wybranej przez siebie platformie wymiany. Robert Faiella, znany również jako BTCKing, wykorzystał względną poufność tej metody do prowadzenia
+ tę metodę, aby prowadzić działalność odsprzedaży na Silk Road za wyższą opłatą.
+reviewed: true

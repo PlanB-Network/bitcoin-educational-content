@@ -1,0 +1,11 @@
+question: Quem foi indiretamente responsável pela última pirataria informática da Bitcoinica, que teve lugar em julho de 2012?
+answer: Amir Taaki
+wrong_answers:
+  - Zhou Tong
+  - Chen Jianhai
+  - Mark Karpelès
+explanation: |
+ Ele divulgou o código-fonte completo da plataforma a 7 de julho, que continha a palavra-passe para o cofre Bitcoinica's LastPass, que por sua vez continha a palavra-passe para a sua conta
+ Conta Mt. Gox. foram levantados 40 000 bitcoins e 40 000 LR-USD. Amir Taaki reconheceu esta ação, mas atribuiu a culpa à direção da Bitcoinica,
+ com quem estava em conflito.
+reviewed: true

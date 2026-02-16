@@ -1,0 +1,11 @@
+question: Ni ingorane iyihe y’umutekano yavumbuwe na Russell O’Connor muri Ruhuhuma 2012 yatumye hakorwa BIP 30?
+answer: Kuba hariho amafaranga yisubiriza kuri blockchain
+wrong_answers:
+  - Ikibazo c'abajenerali b'Abanyabizantine bakuraho amasezerano
+  - Kuba hariho akaga k'ugusubira inyuma mu mabwirizwa ya OP_EVAL
+  - Gukuraho ikintu kirenze urugero n'umukoresha wa OP_CHECKMULTISIG
+explanation: |
+ Ivyo vyari ibikorwa vy’impera bifise ikimenyetso kimwe kiri mu bice bitandukanye. Ku wa 4 Ruhuhuma 2012, Russell O’Connor yarabonye ikintu cotuma . 
+ yemereye ko amafaranga yose ava kuri imwe muri ayo mafaranga yisubiriza asubirwamwo ataco akora biciye mu gusubira gutunganya uruhererekane. Ico gipande, cadondowe mu 1914. 
+ BIP 30 na Pieter Wuille, yashizwe ku rubuga ku wa 15 Ntwarante.
+reviewed: true

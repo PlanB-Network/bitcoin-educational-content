@@ -1,0 +1,10 @@
+question: Ni igiki cari inyuma y’ubudandaji bwa BitPay, ubuhinga bwo kwishura bwatangujwe na Stephen Pair na Tony Gallippi mu ci ca 2011?
+answer: Guhindura ama bitcoins y'abaguzi mu madolari ubwo nyene, ku giciro
+wrong_answers:
+  - Gushoboza abakiriya kugura bitcoin ubwo nyene n'amadolari, ku giciro
+  - Guza ama bitcoins yashizweho n'abaguzi no gutora inyungu
+  - Gutanga amafaranga y'ibice bitcoin ku rubuga rwa blockchain, kwakira amafaranga y'ugucuruza
+explanation: |
+ Iciyumviro cari inyuma ya BitPay cari co guha abacuruzi ubushobozi bwo guhindura amahera bariha bitcoin ubwo nyene mu madolari, kugira ngo bashobore kwikingira . 
+ uguhinduka. BitPay yaha abaguzi amadolari imbere y’igihe, ibasaba amahera yo gukora ivyo bintu mu ntango yari 1%.
+reviewed: true

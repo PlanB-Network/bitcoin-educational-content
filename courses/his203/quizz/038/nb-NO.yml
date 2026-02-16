@@ -1,0 +1,11 @@
+question: For hvilke brukstilfeller har Pay to Script Hash-oppgraderingen blitt tatt i bruk?
+answer: For sikring av midler med flerpartssignatur (multisig)
+wrong_answers:
+  - For escrow-tjenester
+  - For å øke nettverkets datakraft takket være sammenslåtte mining
+  - For å sende pengeoverføringer til utlandet
+explanation: |
+ Sikring av midler er et svært viktig tema for tiden, på grunn av det økende antallet piratangrep. Temaet ble brakt på bordet 23. august 2011
+ av Gavin Andresen, prosjektlederen, som ønsket å få fortgang i standardiseringen av multisignaturfunksjonaliteten som allerede finnes i protokollen.
+ Dette førte til utviklingen av OP_EVAL og deretter P2SH i løpet av vinteren.
+reviewed: true

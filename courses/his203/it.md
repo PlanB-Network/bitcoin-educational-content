@@ -1,12 +1,12 @@
 ---
-name: L'era pionieristica del Bitcoin
-goal: Scoprite la storia del Bitcoin tra il 2011 e il 2012, segnata dai primi successi economici della criptovaluta.
+name: L'era pionieristica di Bitcoin
+goal: Scoprite la storia di Bitcoin tra il 2011 e il 2012, segnata dai primi successi economici della criptovaluta.
 objectives: 
 
 
-  - Comprendere come la bolla speculativa del 2011 abbia plasmato il Bitcoin in quel periodo
+  - Comprendere come la bolla speculativa del 2011 abbia plasmato Bitcoin in quel periodo
   - Imparare a conoscere i diversi servizi finanziari e commerciali emersi nel corso del periodo
-  - Comprendere lo sviluppo iniziale delle piscine Bitcoin wallet, mining e del software da parte della comunità
+  - Comprendere lo sviluppo iniziale dei wallet, delle mining pool e del software da parte della comunità
   - Discernere i casi d'uso controversi che prevalevano all'epoca
 
 
@@ -15,11 +15,11 @@ objectives:
 
 
 
-Benvenuti in questo corso dedicato alla storia del Bitcoin tra la primavera 2011 e l'estate 2012! Anche se di tanto in tanto avrete sentito parlare di questo periodo, a causa del tragico destino di Silk Road e Mt. Gox, è probabile che non lo conosciate, poiché all'epoca la Bitcoin era ancora largamente ignorata dal grande pubblico e gli utenti erano pochi. Questo corso è quindi un'opportunità per familiarizzare con l'era pionieristica e comunitaria della storia delle criptovalute che ha dato vita alla Bitcoin. Imparerete in dettaglio gli eventi, i personaggi, i mercati, i servizi finanziari e i progetti software che l'hanno caratterizzata.
+Benvenuti in questo corso dedicato alla storia di Bitcoin tra la primavera 2011 e l'estate 2012! Anche se di tanto in tanto avrete sentito parlare di questo periodo, a causa del tragico destino di Silk Road e Mt. Gox, è probabile che non lo conosciate, poiché all'epoca Bitcoin era ancora largamente ignorata dal grande pubblico e gli utenti erano pochi. Questo corso è quindi un'opportunità per familiarizzare con l'era pionieristica e comunitaria della storia delle criptovalute che ha dato vita a Bitcoin. Imparerete in dettaglio gli eventi, i personaggi, i mercati, i servizi finanziari e i progetti software che l'hanno caratterizzata.
 
 
 
-In particolare, il periodo compreso tra la primavera del 2011 e l'estate del 2012 è stato caratterizzato da un atteggiamento di sfiducia tra gli attori coinvolti e da un'assenza pressoché totale di regolamentazione finanziaria, al punto che qui ci riferiamo ad esso come al "Far West della finanza". È stato un periodo di libertà e diversità, durante il quale sono nati molti progetti a volte stravaganti, che hanno avuto più o meno successo, ma che in genere miravano a migliorare l'uso del Bitcoin. Sebbene sia stata breve (appena un anno e mezzo), è stata una fase di apprendimento e di costruzione, piena di "prime volte" e di esperimenti che in seguito sono diventati elementi fondamentali della struttura tecnica, economica e culturale del Bitcoin.
+In particolare, il periodo compreso tra la primavera del 2011 e l'estate del 2012 è stato caratterizzato da un atteggiamento di sfiducia tra gli attori coinvolti e da un'assenza pressoché totale di regolamentazione finanziaria, al punto che qui ci riferiamo ad esso come al "Far West della finanza". È stato un periodo di libertà e diversità, durante il quale sono nati molti progetti a volte stravaganti, che hanno avuto più o meno successo, ma che in genere miravano a migliorare l'uso di Bitcoin. Sebbene sia stata breve (appena un anno e mezzo), è stata una fase di apprendimento e di costruzione, piena di "prime volte" e di esperimenti che in seguito sono diventati elementi fondamentali della struttura tecnica, economica e culturale di Bitcoin.
 
 
 
@@ -39,7 +39,7 @@ In particolare, il periodo compreso tra la primavera del 2011 e l'estate del 201
 
 
 
-Questo corso si propone di coprire la prima parte della seconda fase della storia del Bitcoin (2011-2014). Segue la prima fase (2008-2011), nota come fase "proof-of-concept", caratterizzata dalla presenza di Satoshi e dalla relativa discrezione del progetto, e precede la terza fase (2014-2018), segnata in particolare dalla *guerra dei blocchi*, un conflitto interno che ha lacerato la comunità per diversi anni. Cercheremo di cogliere l'originalità di questo periodo e come esso rappresenti un passaggio necessario nella costruzione del Bitcoin.
+Questo corso si propone di coprire la prima parte della seconda fase della storia di Bitcoin (2011-2014). Segue la prima fase (2008-2011), nota come fase "proof-of-concept", caratterizzata dalla presenza di Satoshi e dalla relativa discrezione del progetto, e precede la terza fase (2014-2018), segnata in particolare dalla *guerra dei blocchi*, un conflitto interno che ha lacerato la comunità per diversi anni. Cercheremo di cogliere l'originalità di questo periodo e come esso rappresenti un passaggio necessario nella costruzione di Bitcoin.
 
 
 
@@ -47,19 +47,19 @@ Questo corso si propone di coprire la prima parte della seconda fase della stori
 
 
 
-La storia che raccontiamo qui si concentra sul periodo che va dalla partenza del Satoshi Nakamoto nella primavera del 2011 alla creazione della Fondazione Bitcoin nel settembre 2012. Questa parte della storia del Bitcoin corrisponde all'epoca nota come "il selvaggio West della finanza", caratterizzata dall'assenza di regolamentazione a causa della natura senza precedenti di questa innovazione che è la criptovaluta. In questo periodo, il Bitcoin si era dimostrato fattibile e stava ricevendo una crescente copertura mediatica. Durante questo periodo, l'uso del Bitcoin si è diffuso anche tra persone che non erano interessate alle criptovalute. I casi di utilizzo illegale si moltiplicarono, dando a questa "fase peccaminosa" (per riprendere il termine [usato](https://theses.fr/2024EHES0127) dal sociologo francese Maël Rolland) un carattere distintivo.
+La storia che raccontiamo qui si concentra sul periodo che va dalla partenza di Satoshi Nakamoto nella primavera del 2011 alla creazione della Fondazione Bitcoin nel settembre 2012. Questa parte della storia di Bitcoin corrisponde all'epoca nota come "il selvaggio West della finanza", caratterizzata dall'assenza di regolamentazione a causa della natura senza precedenti di questa innovazione che è la criptovaluta. In questo periodo, Bitcoin si era dimostrato fattibile e stava ricevendo una crescente copertura mediatica. Durante questo periodo, l'uso di Bitcoin si è diffuso anche tra persone che non erano interessate alle criptovalute. I casi di utilizzo illegale si moltiplicarono, dando a questa "fase peccaminosa" (per riprendere il termine [usato](https://theses.fr/2024EHES0127) dal sociologo francese Maël Rolland) un carattere distintivo.
 
 
 
-Il termine "Far West" è stato utilizzato più volte dagli operatori del settore e dai giornalisti dell'epoca. Già nel novembre 2010, Gavin Andresen [si riferiva](https://bitcointalk.org/index.php?topic=1647.msg20650#msg20650) ai "giorni del selvaggio West della moneta open-source" e affermava di aspettarsi che "le persone verranno bruciate da truffe, imitatori, schemi piramidali Ponzi e bolle dei prezzi". In un articolo pubblicato su Reuters il 2 aprile 2012, la giornalista Naomi O'Leary [ha scritto](https://www.reuters.com/article/2012/04/01/traders-bitcoin-idUSL6E8ET5K620120401/) che "il Bitcoin è diventato il Far West della finanza, con una proliferazione di siti web che offrono repliche poco regolamentate dei servizi familiari a chi opera nel settore finanziario" Dal 2013 in poi, questo riferimento al Far West si è diffuso in tutta la comunità, apparendo in forma positiva nelle bocche di Erik Voorhees e [Charlie Shrem](https://calvinayre.com/2013/07/03/conference/bitcoin-london-recap-bl-video), i due principali rappresentanti della società di scambio BitInstant, o venendo evocato in modo più peggiorativo da personaggi come [Brian Armstrong](https://a16z.com/bringing-bitcoin-to-everyone/), cofondatore della piattaforma Coinbase. Il termine è stato ripreso anche da detrattori del Bitcoin, come Benjamin Lawsky, sovrintendente del Dipartimento dei Servizi Finanziari dello Stato di New York, che nell'agosto 2013 [ha definito](https://www.cbsnews.com/news/ny-regulator-may-crack-down-on-bitcoin/) le criptovalute come "un Far West virtuale per narcotrafficanti e altri criminali".
+Il termine "Far West" è stato utilizzato più volte dagli operatori del settore e dai giornalisti dell'epoca. Già nel novembre 2010, Gavin Andresen [si riferiva](https://bitcointalk.org/index.php?topic=1647.msg20650#msg20650) ai "giorni del selvaggio West della moneta open-source" e affermava di aspettarsi che "le persone verranno bruciate da truffe, imitatori, schemi piramidali Ponzi e bolle dei prezzi". In un articolo pubblicato su Reuters il 2 aprile 2012, la giornalista Naomi O'Leary [ha scritto](https://www.reuters.com/article/2012/04/01/traders-bitcoin-idUSL6E8ET5K620120401/) che "Bitcoin è diventato il Far West della finanza, con una proliferazione di siti web che offrono repliche poco regolamentate dei servizi familiari a chi opera nel settore finanziario" Dal 2013 in poi, questo riferimento al Far West si è diffuso in tutta la comunità, apparendo in forma positiva nelle bocche di Erik Voorhees e [Charlie Shrem](https://calvinayre.com/2013/07/03/conference/bitcoin-london-recap-bl-video), i due principali rappresentanti della società di scambio BitInstant, o venendo evocato in modo più peggiorativo da personaggi come [Brian Armstrong](https://a16z.com/bringing-bitcoin-to-everyone/), cofondatore della piattaforma Coinbase. Il termine è stato ripreso anche da detrattori di Bitcoin, come Benjamin Lawsky, sovrintendente del Dipartimento dei Servizi Finanziari dello Stato di New York, che nell'agosto 2013 [ha definito](https://www.cbsnews.com/news/ny-regulator-may-crack-down-on-bitcoin/) le criptovalute come "un Far West virtuale per narcotrafficanti e altri criminali".
 
 
 
-Il Far West ha una forte immagine nell'immaginario americano, e per estensione in tutto l'Ovest americanizzato, grazie soprattutto al western, un genere cinematografico molto popolare a metà del XX secolo. Rappresenta un ideale di indipendenza, sia per le sue caratteristiche positive (libertà) che per quelle negative (pericolo). È il fondamento originale del "sogno americano": potersi stabilire in una terra sconosciuta e lottare per il successo, costruendo ricchezza da poco. Era naturale che il Bitcoin fosse paragonato a questo spazio di libertà, grazie alla sua indipendenza dal sistema politico in vigore: Il Bitcoin permetteva tutto, il meglio e il peggio. Il paragone ha particolarmente ispirato Erik Voorhees che, in un'intervista del 2013, [ha sostenuto](https://bitcoinmagazine.com/culture/erik-voorhees-new-frontier-1374794545) che il Bitcoin era la nuova frontiera, l'intermediario tra la civiltà consolidata e le terre inesplorate. Ha detto:
+Il Far West ha una forte immagine nell'immaginario americano, e per estensione in tutto l'Ovest americanizzato, grazie soprattutto al western, un genere cinematografico molto popolare a metà del XX secolo. Rappresenta un ideale di indipendenza, sia per le sue caratteristiche positive (libertà) che per quelle negative (pericolo). È il fondamento originale del "sogno americano": potersi stabilire in una terra sconosciuta e lottare per il successo, costruendo ricchezza da poco. Era naturale che Bitcoin fosse paragonato a questo spazio di libertà, grazie alla sua indipendenza dal sistema politico in vigore: Il Bitcoin permetteva tutto, il meglio e il peggio. Il paragone ha particolarmente ispirato Erik Voorhees che, in un'intervista del 2013, [ha sostenuto](https://bitcoinmagazine.com/culture/erik-voorhees-new-frontier-1374794545) che Bitcoin era la nuova frontiera, l'intermediario tra la civiltà consolidata e le terre inesplorate. Ha detto:
 
 
 
-> "Assolutamente sì, il Bitcoin è il Far West della finanza, e meno male che c'è. Rappresenta un'intera legione di avventurieri e imprenditori, di amanti del rischio, inventori e risolutori di problemi. È la frontiera. Con il delinearsi di questo nuovo paesaggio si creeranno e si distruggeranno enormi quantità di ricchezza. Credo che gli effetti di questa avventura saranno profondi, perché mentre il "selvaggio West" era un fenomeno esclusivamente americano, il Bitcoin è un fenomeno globale"
+> "Assolutamente sì, Bitcoin è il Far West della finanza, e meno male che c'è. Rappresenta un'intera legione di avventurieri e imprenditori, di amanti del rischio, inventori e risolutori di problemi. È la frontiera. Con il delinearsi di questo nuovo paesaggio si creeranno e si distruggeranno enormi quantità di ricchezza. Credo che gli effetti di questa avventura saranno profondi, perché mentre il "selvaggio West" era un fenomeno esclusivamente americano, Bitcoin è un fenomeno globale"
 >
 
 
@@ -75,11 +75,11 @@ Il traffico di droga è stato al centro della scena con la piattaforma Silk Road
 
 
 
-Oltre alla Via della Seta, il Bitcoin divenne una valuta per il vizio e la criminalità in generale, acquisendo una reputazione che in seguito sarebbe stata particolarmente difficile da cancellare. Il gioco d'azzardo online si sviluppò notevolmente, con la creazione di piattaforme di poker, scommesse e casinò di ogni tipo. Si verificarono numerosi hack, che portarono a perdite astronomiche e al fallimento di importanti aziende dell'ecosistema, come Bitcoinica. Sono state perpetrate numerose truffe, sull'esempio dello schema piramidale Bitcoin Savings & Trust, crollato nell'agosto 2012.
+Oltre alla Silk Road, Bitcoin divenne una valuta per il vizio e la criminalità in generale, acquisendo una reputazione che in seguito sarebbe stata particolarmente difficile da cancellare. Il gioco d'azzardo online si sviluppò notevolmente, con la creazione di piattaforme di poker, scommesse e casinò di ogni tipo. Si verificarono numerosi hack, che portarono a perdite astronomiche e al fallimento di importanti aziende dell'ecosistema, come Bitcoinica. Sono state perpetrate numerose truffe, sull'esempio dello schema piramidale Bitcoin Savings & Trust, crollato nell'agosto 2012.
 
 
 
-Dal punto di vista finanziario, le piattaforme di scambio sono cresciute enormemente, operando inizialmente senza licenza bancaria o procedure di conoscenza dei clienti (KYC). Hanno colmato il divario tra le valute statali e il bitcoin, talvolta attraverso sistemi alternativi come Liberty Reserve. A questo punto è emersa la speculazione a leva. Le borse online come GLBSE hanno permesso ai progetti di svilupparsi emettendo azioni senza registrazione presso le autorità. Infine, la libertà monetaria introdotta dal Bitcoin ha permesso a molti individui di lanciare le proprie criptovalute, con intenzioni più o meno buone a seconda del progetto.
+Dal punto di vista finanziario, le piattaforme di scambio sono cresciute enormemente, operando inizialmente senza licenza bancaria o procedure di conoscenza dei clienti (KYC). Hanno colmato il divario tra le valute statali e il bitcoin, talvolta attraverso sistemi alternativi come Liberty Reserve. A questo punto è emersa la speculazione a leva. Le borse online come GLBSE hanno permesso ai progetti di svilupparsi emettendo azioni senza registrazione presso le autorità. Infine, la libertà monetaria introdotta da Bitcoin ha permesso a molti individui di lanciare le proprie criptovalute, con intenzioni più o meno buone a seconda del progetto.
 
 
 
@@ -91,7 +91,7 @@ Un tema legato al selvaggio West che veniva utilizzato all'epoca era quello dell
 
 
 
-Un'ultima caratteristica che colpisce del periodo è probabilmente l'età dei principali promotori del Bitcoin: la maggior parte di loro era infatti giovane, anzi giovanissima. Molti di loro erano *millenials*, membri della Generazione Y: nati tra il 1981 e il 1996, avevano tra i 16 e i 31 anni nel 2011, quando il Satoshi scomparve definitivamente. La loro relativa giovinezza li rendeva particolarmente entusiasti, per cui sono stati il carburante con cui il Bitcoin ha potuto decollare. Tuttavia, erano anche particolarmente immaturi e avventati, soprattutto per quanto riguarda la risposta normativa. Nonostante fossero supervisionati da membri della generazione precedente (spesso più discreti), commisero un numero considerevole di errori, che portarono alcuni di loro a subire la repressione delle autorità o a finire dietro le sbarre.
+Un'ultima caratteristica che colpisce del periodo è probabilmente l'età dei principali promotori di Bitcoin: la maggior parte di loro era infatti giovane, anzi giovanissima. Molti di loro erano *millenials*, membri della Generazione Y: nati tra il 1981 e il 1996, avevano tra i 16 e i 31 anni nel 2011, quando Satoshi scomparve definitivamente. La loro relativa giovinezza li rendeva particolarmente entusiasti, per cui sono stati il carburante con cui Bitcoin ha potuto decollare. Tuttavia, erano anche particolarmente immaturi e avventati, soprattutto per quanto riguarda la risposta normativa. Nonostante fossero supervisionati da membri della generazione precedente (spesso più discreti), commisero un numero considerevole di errori, che portarono alcuni di loro a subire la repressione delle autorità o a finire dietro le sbarre.
 
 
 
@@ -99,18 +99,18 @@ Un'ultima caratteristica che colpisce del periodo è probabilmente l'età dei pr
 
 
 
-Questo corso è diviso in quattro parti, che si concentrano rispettivamente sulla costruzione economica del Bitcoin durante la grande bolla del 2011 (4 capitoli), sul suo sviluppo tecnico (3 capitoli) e sugli eccessi che derivano dalla sua natura libera e non censurabile (4 capitoli). In totale, comprende 11 capitoli, elencati di seguito (il periodo di riferimento è indicato tra parentesi):
+Questo corso è diviso in quattro parti, che si concentrano rispettivamente sulla costruzione economica di Bitcoin durante la grande bolla del 2011 (4 capitoli), sul suo sviluppo tecnico (3 capitoli) e sugli eccessi che derivano dalla sua natura libera e non censurabile (4 capitoli). In totale, comprende 11 capitoli, elencati di seguito (il periodo di riferimento è indicato tra parentesi):
 
 
 
 
 
-- La Via della Seta, l'Amazzonia della droga (gennaio-novembre 2011)
+- La Silk Road, l'Amazzonia della droga (gennaio-novembre 2011)
 - Acquisizione di Mt. Gox (marzo-agosto 2011)
 - Bitcoin e attivismo politico (marzo-novembre 2011)
 - Il primo mercato orso (giugno 2011-aprile 2012)
-- Uso potenziato del Bitcoin (marzo 2011-novembre 2011)
-- L'ascesa delle piscine mining (febbraio 2011-settembre 2012)
+- Uso potenziato di Bitcoin (marzo 2011-novembre 2011)
+- L'ascesa delle mining pool (febbraio 2011-settembre 2012)
 - La battaglia per il Pay to Script Hash (agosto 2011-aprile 2012)
 - L'emergere di criptovalute alternative (aprile 2011-agosto 2012)
 - Commercio legale e illegale (gennaio-settembre 2012)
@@ -123,7 +123,7 @@ Questo corso è diviso in quattro parti, che si concentrano rispettivamente sull
 
 
 
-La lettura del primo corso sulla storia del Bitcoin (intitolato *La storia della creazione del Bitcoin*) è un prerequisito, soprattutto se siete completamente nuovi all'argomento. Anche se la narrazione non è del tutto cronologica, questo secondo corso riprende da dove si era interrotto il precedente, intorno alla primavera del 2011. Per seguire il primo corso, potete cliccare sul seguente link:
+La lettura del primo corso sulla storia di Bitcoin (intitolato *La storia della creazione di Bitcoin*) è un prerequisito, soprattutto se siete completamente nuovi all'argomento. Anche se la narrazione non è del tutto cronologica, questo secondo corso riprende da dove si era interrotto il precedente, intorno alla primavera del 2011. Per seguire il primo corso, potete cliccare sul seguente link:
 
 
 
@@ -144,7 +144,7 @@ Oltre alle fonti riportate direttamente nel testo ipertestuale, abbiamo attinto 
 
 
 
-Ci siamo ispirati anche ai documentari che coprono questa parte della storia del Bitcoin, ovvero:
+Ci siamo ispirati anche ai documentari che coprono questa parte della storia di Bitcoin, ovvero:
 
 
 
@@ -163,7 +163,7 @@ Infine, ci siamo avvalsi di una serie di archivi e contenuti disponibili su Inte
 
 
 - Articoli scritti da Vitalik Buterin per [Bitcoin Weekly](https://web.archive.org/web/20111101152804/http://bitcoinweekly.com/articles) e [Bitcoin Magazine](https://bitcoinmagazine.com/authors/vitalik-buterin);
-- Gli [archivi della Via della Seta](https://antilop.cc/sr/) compilati da [Moustache](https://twitter.com/lamoustache);
+- Gli [archivi della Silk Road](https://antilop.cc/sr/) compilati da [Moustache](https://twitter.com/lamoustache);
 - Episodi del [*Bitcoin Show*](https://www.youtube.com/watch?v=tBou4h0t5-A&list=PL7A7844F28DBED26A), diretti da Bruce Wagner tra aprile 2011 e febbraio 2012;
 - Il podcast [*Untold Stories*](https://www.youtube.com/playlist?list=PLvER9nHSRN3xyQdrUAXKIgZ_hxeLI-kzy), successivo al periodo, in cui Charlie Shrem ha ospitato alcuni partecipanti di quel periodo.
 
@@ -184,18 +184,18 @@ Grazie a Loïc Morel per la sua attenta correzione delle bozze!
 
 
 
-## La Via della Seta, l'Amazzonia della droga
+## La Silk Road, l'Amazzonia della droga
 
 
 <chapterId>23e6297e-75b3-5c7f-bc29-ce1f6c1b56a4</chapterId>
 
 
 
-La questione del rapporto tra criptovaluta e autorità è emersa abbastanza rapidamente nella storia del Bitcoin. Nel dicembre 2010, il Satoshi Nakamoto si è ritirato dall'attenzione pubblica in seguito alla pubblicazione di un articolo di PC World che incoraggiava WikiLeaks a utilizzare il Bitcoin. Come a confermare la sua intuizione, l'articolo attirò una massiccia attenzione sul Bitcoin, il cui prezzo balzò da 0,20 a 32 dollari in pochi mesi. Satoshi ha continuato a comunicare privatamente con i suoi più stretti collaboratori e alla fine è scomparso nella primavera del 2011. Molto simbolicamente, l'ultimo messaggio di Gavin Andresen, lo sviluppatore che aveva rilevato il progetto, informava il creatore di Bitcoin di essere stato contattato da In-Q-Tel, un fondo di investimento gestito dalla CIA. Il vaso di Pandora era davvero aperto.
+La questione del rapporto tra criptovaluta e autorità è emersa abbastanza rapidamente nella storia di Bitcoin. Nel dicembre 2010, Satoshi Nakamoto si è ritirato dall'attenzione pubblica in seguito alla pubblicazione di un articolo di PC World che incoraggiava WikiLeaks a utilizzare Bitcoin. Come a confermare la sua intuizione, l'articolo attirò una massiccia attenzione su Bitcoin, il cui prezzo balzò da 0,20 a 32 dollari in pochi mesi. Satoshi ha continuato a comunicare privatamente con i suoi più stretti collaboratori e alla fine è scomparso nella primavera del 2011. Molto simbolicamente, l'ultimo messaggio di Gavin Andresen, lo sviluppatore che aveva rilevato il progetto, informava il creatore di Bitcoin di essere stato contattato da In-Q-Tel, un fondo di investimento gestito dalla CIA. Il vaso di Pandora era davvero aperto.
 
 
 
-Il Satoshi Nakamoto fece bene a farsi da parte a questo punto, poiché gli anni successivi furono segnati dalla proliferazione degli usi illegali del Bitcoin. È logico che i fuorilegge avessero interesse a sfruttare la resistenza del Bitcoin alla censura per sfuggire al controllo dello Stato. Il caso d'uso più popolare era probabilmente il traffico di droga online, che avveniva attraverso un mercato innovativo: Silk Road.
+Satoshi Nakamoto fece bene a farsi da parte a questo punto, poiché gli anni successivi furono segnati dalla proliferazione degli usi illegali di Bitcoin. È logico che i fuorilegge avessero interesse a sfruttare la resistenza di Bitcoin alla censura per sfuggire al controllo dello Stato. Il caso d'uso più popolare era probabilmente il traffico di droga online, che avveniva attraverso un mercato innovativo: Silk Road.
 
 
 
@@ -236,11 +236,11 @@ La scoperta di Ross della filosofia agorista fu una rivelazione. Le idee liberta
 Finalmente il pezzo mancante del puzzle!  All'improvviso fu tutto così chiaro: ogni azione che si compie al di fuori del controllo governativo rafforza il mercato e indebolisce lo Stato.  Ho visto come lo Stato vive parassitariamente alle spalle delle persone produttive del mondo, e come si sgretolerebbe rapidamente se non avesse il suo gettito fiscale.  Niente soldati se non si possono pagare.  Non c'è guerra alla droga se non si sottraggono miliardi di dollari alle stesse persone che si opprimono"
 
 
-### La genesi della Via della Seta
+### La genesi della Silk Road
 
 
 
-L'idea di un mercato online ha iniziato a prendere forma nella mente di Ross Ulbricht nel 2009. Dopo aver voluto chiamarlo "Underground Brokers", decise per il nome più accattivante "Silk Road", un riferimento alla Via della Seta, una rete di rotte commerciali che collegava l'Europa e l'Asia fino al XV secolo, e attraverso la quale passavano molte merci, idee e tecniche da tutto il mondo. Il progetto del giovane texano (https://antilop.cc/sr/exhibits/GX-240A.pdf) era quello di "creare un sito web dove le persone potessero acquistare qualsiasi cosa in modo anonimo, senza alcuna traccia che potesse ricondurre a loro".
+L'idea di un mercato online ha iniziato a prendere forma nella mente di Ross Ulbricht nel 2009. Dopo aver voluto chiamarlo "Underground Brokers", decise per il nome più accattivante "Silk Road", un riferimento alla Silk Road, una rete di rotte commerciali che collegava l'Europa e l'Asia fino al XV secolo, e attraverso la quale passavano molte merci, idee e tecniche da tutto il mondo. Il progetto del giovane texano (https://antilop.cc/sr/exhibits/GX-240A.pdf) era quello di "creare un sito web dove le persone potessero acquistare qualsiasi cosa in modo anonimo, senza alcuna traccia che potesse ricondurre a loro".
 
 
 
@@ -262,11 +262,11 @@ Tor (acronimo lessicalizzato per *The Onion Router*) è una rete di sovrapposizi
 
 
 
-Il Bitcoin era anche un buon strumento, in quanto non poteva essere chiuso dall'oggi al domani dalle autorità (a differenza di sistemi centralizzati come Liberty Reserve), e le transazioni che passavano attraverso la rete non erano soggette alla discrezione di una terza parte fidata. Quando Ross sviluppò il suo progetto nel 2009, [prevedeva](https://antilop.cc/sr/exhibits/253456462-Silk-Road-exhibits-GX-270.pdf) di utilizzare Pecunix, un sistema di valuta digitale in oro elettronico. Ma nel 2010 ha scoperto il Bitcoin che, nonostante la sua breve esistenza, sembrava essere la scelta giusta per lui.
+Il Bitcoin era anche un buon strumento, in quanto non poteva essere chiuso dall'oggi al domani dalle autorità (a differenza di sistemi centralizzati come Liberty Reserve), e le transazioni che passavano attraverso la rete non erano soggette alla discrezione di una terza parte fidata. Quando Ross sviluppò il suo progetto nel 2009, [prevedeva](https://antilop.cc/sr/exhibits/253456462-Silk-Road-exhibits-GX-270.pdf) di utilizzare Pecunix, un sistema di valuta digitale in oro elettronico. Ma nel 2010 ha scoperto Bitcoin che, nonostante la sua breve esistenza, sembrava essere la scelta giusta per lui.
 
 
 
-Sul forum, l'idea di utilizzare il Bitcoin per questo scopo era già stata sollevata. Nel giugno 2010, Teppy, l'amministratore del MMORPG *A Tale in the Desert* e la persona dietro la presentazione del Bitcoin su Slashdot un mese dopo, [propose](https://bitcointalk.org/index.php?topic=175.msg1430#msg1430) il concetto di "Un negozio di eroina" che avrebbe permesso agli utenti di acquistare droga pagando in bitcoin. Ha scritto:
+Sul forum, l'idea di utilizzare Bitcoin per questo scopo era già stata sollevata. Nel giugno 2010, Teppy, l'amministratore del MMORPG *A Tale in the Desert* e la persona dietro la presentazione di Bitcoin su Slashdot un mese dopo, [propose](https://bitcointalk.org/index.php?topic=175.msg1430#msg1430) il concetto di "Un negozio di eroina" che avrebbe permesso agli utenti di acquistare droga pagando in bitcoin. Ha scritto:
 
 
 
@@ -300,7 +300,7 @@ Nel messaggio, forniva l'indirizzo del sito su Tor (`tydgccykixpbu6uz.onion` e p
 Un membro del forum, con lo pseudonimo di ShadowOfHarbringer, ha citato il suo post e ha risposto:
 
 
-> "Eccoci qui, il primo spaccio Bitcoin. Stiamo andando in acque profonde più velocemente di quanto pensassi. Mi chiedo quanto tempo ci vorrà perché i governi inizino a indagare sul Bitcoin"
+> "Eccoci qui, il primo spaccio Bitcoin. Stiamo andando in acque profonde più velocemente di quanto pensassi. Mi chiedo quanto tempo ci vorrà perché i governi inizino a indagare su Bitcoin"
 
 Tuttavia, la piattaforma ha presto incontrato problemi tecnici ed è stata temporaneamente messa offline. Nel corso del mese di febbraio, Ross si rivolge nuovamente all'amico Richard per avere consigli tecnici. Il 1° marzo ha finalmente fatto un [annuncio] ufficiale (https://bitcointalk.org/index.php?topic=3984.msg57080#msg57080) con un account dedicato sul forum Bitcoin, affermando che "sono state effettuate 28 transazioni!" dal lancio.
 
@@ -310,7 +310,7 @@ All'epoca, il forum Bitcoin ospitava un *mercato* dove le persone potevano compr
 
 
 
-Silk Road ha attirato l'attenzione degli utenti di Bitcoin, in particolare degli agoristi, che [ritenevano](https://web.archive.org/web/20110606111034/http://www.bitcoinweekly.com/articles/counter-economics-and-bitcoin) che "il Bitcoin è ideale per l'uso in attività controeconomiche, grazie al suo anonimato e alla sua sicurezza". Il mercato è stato menzionato anche in numerosi luoghi, tra cui il programma radiofonico [*Free Talk Live*](https://bitcointalk.org/index.php?topic=3984.msg66567#msg66567) e [4Chan](https://bitcointalk.org/index.php?topic=3984.msg68196#msg68196).
+Silk Road ha attirato l'attenzione degli utenti di Bitcoin, in particolare degli agoristi, che [ritenevano](https://web.archive.org/web/20110606111034/http://www.bitcoinweekly.com/articles/counter-economics-and-bitcoin) che "Bitcoin è ideale per l'uso in attività controeconomiche, grazie al suo anonimato e alla sua sicurezza". Il mercato è stato menzionato anche in numerosi luoghi, tra cui il programma radiofonico [*Free Talk Live*](https://bitcointalk.org/index.php?topic=3984.msg66567#msg66567) e [4Chan](https://bitcointalk.org/index.php?topic=3984.msg68196#msg68196).
 
 
 
@@ -350,7 +350,7 @@ La nuova versione di Silk Road [è stata finalmente rilasciata] (https://bitcoin
 
 
 
-L'esistenza della Via della Seta era nota sul forum Bitcoin fin dalla sua nascita. All'inizio, tuttavia, era sfuggita ai radar della stampa generale. Così, anche se l'ipotetico caso di traffico di droga è stato [citato](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html) in aprile da Andy Greenberg nel suo articolo per Forbes, il giornalista non era ancora a conoscenza della piattaforma.
+L'esistenza della Silk Road era nota sul forum Bitcoin fin dalla sua nascita. All'inizio, tuttavia, era sfuggita ai radar della stampa generale. Così, anche se l'ipotetico caso di traffico di droga è stato [citato](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html) in aprile da Andy Greenberg nel suo articolo per Forbes, il giornalista non era ancora a conoscenza della piattaforma.
 
 
 
@@ -383,7 +383,7 @@ anche i [concorrenti](https://gwern.net/dnm-survival) hanno iniziato a emergere,
 
 
 
-Non tutti hanno accolto con favore la pubblicità fatta da generated all'articolo di Gawker. Il fatto che Silk Road fosse sotto i riflettori ha avuto l'effetto collaterale di aumentare l'attenzione sul Bitcoin (anche perché i clienti dovevano procurarsi i bitcoin per acquistare i prodotti). E si è scoperto che una parte della comunità del Bitcoin era ostile a questo collegamento tra criptovalute e traffico di droga.
+Non tutti hanno accolto con favore la pubblicità generata dall'articolo di Gawker. Il fatto che Silk Road fosse sotto i riflettori ha avuto l'effetto collaterale di aumentare l'attenzione su Bitcoin (anche perché i clienti dovevano procurarsi i bitcoin per acquistare i prodotti). E si è scoperto che una parte della comunità di Bitcoin era ostile a questo collegamento tra criptovalute e traffico di droga.
 
 
 
@@ -422,7 +422,7 @@ Durante l'estate ha incontrato il suo amico Richard ad Austin e i due hanno [pro
 
 
 
-### Un elemento centrale nella costruzione del Bitcoin
+### Un elemento centrale nella costruzione di Bitcoin
 
 
 
@@ -430,7 +430,7 @@ Ross Ulbricht ha così realizzato un'idea innovativa, basata sulle sue convinzio
 
 
 
-L'emergere della Via della Seta è stato un elemento essenziale per la costruzione della Bitcoin. Il successo della piattaforma ha dimostrato che il Bitcoin aveva uno scopo proprio, distinto dalle valute statali tradizionali e dai servizi di pagamento online. Inoltre, l'uso di Silk Road ha portato diverse persone a interessarsi al Bitcoin, come [Peter McCormack] (https://www.youtube.com/watch?v=3aDMnE6dnHk), futuro conduttore del podcast *What Bitcoin Did*. Silk Road ha infine aperto le porte a ogni sorta di uso illegale, nel bene e nel male.
+L'emergere della Silk Road è stato un elemento essenziale per la costruzione di Bitcoin. Il successo della piattaforma ha dimostrato che Bitcoin aveva uno scopo proprio, distinto dalle valute statali tradizionali e dai servizi di pagamento online. Inoltre, l'uso di Silk Road ha portato diverse persone a interessarsi a Bitcoin, come [Peter McCormack] (https://www.youtube.com/watch?v=3aDMnE6dnHk), futuro conduttore del podcast *What Bitcoin Did*. Silk Road ha infine aperto le porte a ogni sorta di uso illegale, nel bene e nel male.
 
 
 
@@ -445,7 +445,7 @@ Così, poco più di un anno dopo la vendita delle pizze di Laszlo, Silk Road è 
 
 
 
-Il periodo iniziato nella primavera del 2011 è stato caratterizzato dallo sviluppo dell'attività di scambio tra bitcoin e valute tradizionali, come il dollaro e l'euro. Questo tipo di servizio ha svolto un ruolo essenziale nell'economia del Bitcoin, che era troppo piccolo per operare in un circuito chiuso. I Miner avevano bisogno di vendere le loro ricompense per pagare le bollette dell'elettricità. I commercianti, compresi i venditori della Via della Seta, avevano bisogno di raccogliere dollari per pagare i loro fornitori. I loro clienti, che generalmente non avevano bitcoin, dovevano procurarseli in anticipo. C'era anche una forte domanda speculativa, da parte di persone che vedevano la criptovaluta come un investimento.
+Il periodo iniziato nella primavera del 2011 è stato caratterizzato dallo sviluppo dell'attività di scambio tra bitcoin e valute tradizionali, come il dollaro e l'euro. Questo tipo di servizio ha svolto un ruolo essenziale nell'economia di Bitcoin, che era troppo piccolo per operare in un circuito chiuso. I Miner avevano bisogno di vendere le loro ricompense per pagare le bollette dell'elettricità. I commercianti, compresi i venditori della Silk Road, avevano bisogno di raccogliere dollari per pagare i loro fornitori. I loro clienti, che generalmente non avevano bitcoin, dovevano procurarseli in anticipo. C'era anche una forte domanda speculativa, da parte di persone che vedevano la criptovaluta come un investimento.
 
 
 
@@ -453,7 +453,7 @@ La prima grande piattaforma di scambio è stata Mt. Gox, lanciata "per gioco" ne
 
 
 
-Insieme a Silk Road, la piattaforma ha avuto un ruolo centrale in questa parte della storia della Bitcoin. È stato il luogo principale della prima vera bolla speculativa del prezzo del bitcoin, che ha raggiunto un picco di 32 dollari a giugno. Ha subito anche un massiccio hack ed è stato collegato a diversi incidenti che si sono verificati in quel periodo nell'ecosistema. In questo capitolo parleremo delle circostanze che hanno portato all'acquisizione di Mt. Gox, del suo successo fulmineo a partire dalla primavera, dei concorrenti che sono emersi nello stesso periodo, dei problemi che ha incontrato e delle conseguenze che ha avuto sull'economia del Bitcoin. Ma iniziamo presentando il nuovo proprietario, Mark Karpelès.
+Insieme a Silk Road, la piattaforma ha avuto un ruolo centrale in questa parte della storia di Bitcoin. È stato il luogo principale della prima vera bolla speculativa del prezzo del bitcoin, che ha raggiunto un picco di 32 dollari a giugno. Ha subito anche un massiccio hack ed è stato collegato a diversi incidenti che si sono verificati in quel periodo nell'ecosistema. In questo capitolo parleremo delle circostanze che hanno portato all'acquisizione di Mt. Gox, del suo successo fulmineo a partire dalla primavera, dei concorrenti che sono emersi nello stesso periodo, dei problemi che ha incontrato e delle conseguenze che ha avuto sull'economia di Bitcoin. Ma iniziamo presentando il nuovo proprietario, Mark Karpelès.
 
 
 
@@ -473,7 +473,7 @@ Mark Karpelès è nato in Francia nel 1985. Figlio unico, è stato cresciuto dal
 
 
 
-È venuto a conoscenza di Bitcoin nell'autunno del 2010 da un cliente francese con sede in Perù (William Waisse [alias](https://bitcointalk.org/index.php?topic=1719.msg21107#msg21107) Neofutur), che gli ha chiesto se poteva pagare una fattura in bitcoin. Mark è stato aperto alla possibilità e ha rapidamente sviluppato una passione per il sistema. A differenza di Martti Malmi, Ross Ulbricht o Roger Ver, il giovane francese non era un libertario ideologicamente motivato, né uno speculatore assetato di profitti. Piuttosto, il suo interesse per il Bitcoin era radicato nella curiosità tecnica. Come avrebbe detto lui stesso (https://web.archive.org/web/20140918220234/http://www.thedailybeast.com/articles/2014/09/17/mt-gox-s-karpeles-on-losing-a-half-billion-bucks-in-bitcoins.html) nel 2014:
+È venuto a conoscenza di Bitcoin nell'autunno del 2010 da un cliente francese con sede in Perù (William Waisse [alias](https://bitcointalk.org/index.php?topic=1719.msg21107#msg21107) Neofutur), che gli ha chiesto se poteva pagare una fattura in bitcoin. Mark è stato aperto alla possibilità e ha rapidamente sviluppato una passione per il sistema. A differenza di Martti Malmi, Ross Ulbricht o Roger Ver, il giovane francese non era un libertario ideologicamente motivato, né uno speculatore assetato di profitti. Piuttosto, il suo interesse per Bitcoin era radicato nella curiosità tecnica. Come avrebbe detto lui stesso (https://web.archive.org/web/20140918220234/http://www.thedailybeast.com/articles/2014/09/17/mt-gox-s-karpeles-on-losing-a-half-billion-bucks-in-bitcoins.html) nel 2014:
 
 
 > "Quello che mi interessava del bitcoin era l'aspetto tecnologico. In altre parole, il fatto di mantenere un database globale in modo sicuro. Il fatto che ogni cliente abbia un wallet privato e sicuro. Un sistema interamente decentralizzato. Inoltre, bitcoin consente di avere un database pubblico"
@@ -532,11 +532,11 @@ Questo problema è stato [menzionato] (https://web.archive.org/web/2017060202550
 
 
 
-Nella tarda primavera del 2011 si è verificata la prima bolla speculativa del prezzo del bitcoin. Come descritto nel [capitolo finale](https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082/16c5e6d6-2412-48c6-9687-6af92cf0d89a) del nostro primo corso sulla storia del Bitcoin, questa bolla è stata caratterizzata dalla proliferazione di gruppi che si sono formati intorno al Bitcoin, dall'attenzione mediatica proveniente sia da blogger indipendenti che da testate giornalistiche online e da un'elevata attività sulle piattaforme di scambio. Un anno dopo, sarebbe stata definita "la grande bolla del 2011" da Vitalik Buterin, il giovane caporedattore della rivista Bitcoin.
+Nella tarda primavera del 2011 si è verificata la prima bolla speculativa del prezzo del bitcoin. Come descritto nel [capitolo finale](https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082/16c5e6d6-2412-48c6-9687-6af92cf0d89a) del nostro primo corso sulla storia di Bitcoin, questa bolla è stata caratterizzata dalla proliferazione di gruppi che si sono formati intorno a Bitcoin, dall'attenzione mediatica proveniente sia da blogger indipendenti che da testate giornalistiche online e da un'elevata attività sulle piattaforme di scambio. Un anno dopo, sarebbe stata definita "la grande bolla del 2011" da Vitalik Buterin, il giovane caporedattore della rivista Bitcoin.
 
 
 
-In aprile, dopo la pubblicazione dell'articolo di Forbes (https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html), il prezzo ha superato il picco precedente e ha raggiunto i 3 dollari. L'entusiasmo speculativo è continuato in maggio, spingendo il prezzo a 10 dollari. Infine, la pubblicazione dell'articolo di Gawker ha contribuito a portare l'attenzione sul Bitcoin e ha innescato l'ultimo episodio speculativo, con il prezzo che ha brevemente raggiunto i 32 dollari l'8 giugno.
+In aprile, dopo la pubblicazione dell'articolo di Forbes (https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html), il prezzo ha superato il picco precedente e ha raggiunto i 3 dollari. L'entusiasmo speculativo è continuato in maggio, spingendo il prezzo a 10 dollari. Infine, la pubblicazione dell'articolo di Gawker ha contribuito a portare l'attenzione su Bitcoin e ha innescato l'ultimo episodio speculativo, con il prezzo che ha brevemente raggiunto i 32 dollari l'8 giugno.
 
 
 
@@ -672,7 +672,7 @@ Il risultato è stato disastroso per Mark, per Mt. Gox e per Bitcoin in generale
 
 
 
-Gli hack hanno offuscato l'immagine pubblica della Bitcoin. Anche se un hack individuale come quello di Allinvain non era rappresentativo del resto della rete, e anche se Mt. Gox era solo un servizio di scambio di criptovalute, la gente comune tende a equiparare la Bitcoin nel suo complesso a questi eventi. Il 20 giugno Tim Worstall [scrisse](https://www.forbes.com/sites/timworstall/2011/06/20/so-thats-the-end-of-bitcoin-then/) un articolo per Forbes in cui annunciava "la fine dell'esperimento Bitcoin", rendendolo uno dei primi "necrologi del Bitcoin" pubblicati dalla stampa (che sarebbero stati [elencati](https://web.archive.org/web/20150106024100/http://bitcoinobituaries.com/) sul sito web di Jordan Tuwiner a partire dal 2014). Egli ha affermato che:
+Gli hack hanno offuscato l'immagine pubblica di Bitcoin. Anche se un hack individuale come quello di Allinvain non era rappresentativo del resto della rete, e anche se Mt. Gox era solo un servizio di scambio di criptovalute, la gente comune tende a equiparare Bitcoin nel suo complesso a questi eventi. Il 20 giugno Tim Worstall [scrisse](https://www.forbes.com/sites/timworstall/2011/06/20/so-thats-the-end-of-bitcoin-then/) un articolo per Forbes in cui annunciava "la fine dell'esperimento Bitcoin", rendendolo uno dei primi "necrologi di Bitcoin" pubblicati dalla stampa (che sarebbero stati [elencati](https://web.archive.org/web/20150106024100/http://bitcoinobituaries.com/) sul sito web di Jordan Tuwiner a partire dal 2014). Egli ha affermato che:
 
 
 
@@ -751,7 +751,7 @@ Queste perdite sono state aggravate dalla cattiva gestione di Mt. Gox nell'ottob
 
 
 
-Nel 2011, Mt. Gox era il cuore dell'economia del Bitcoin. Come l'intero ecosistema, la piattaforma è fiorita nella prima metà dell'anno. Sotto la guida di Mark Karpelès, ha assunto una nuova dimensione. Ha aperto uffici e assunto un dipendente.
+Nel 2011, Mt. Gox era il cuore dell'economia di Bitcoin. Come l'intero ecosistema, la piattaforma è fiorita nella prima metà dell'anno. Sotto la guida di Mark Karpelès, ha assunto una nuova dimensione. Ha aperto uffici e assunto un dipendente.
 
 
 
@@ -774,7 +774,7 @@ Il Bitcoin ha beneficiato in particolare del movimento libertario americano, che
 
 
 
-In questo capitolo, iniziamo ad esaminare il rapporto del Bitcoin con il libertarismo americano, il cui sostegno non fu unanime. Analizzeremo poi il forte coinvolgimento di alcune personalità, come Ian Freeman, Roger Ver ed Erik Voorhees. Infine, vedremo come il Bitcoin si sia integrato in movimenti politici come il *Free State Project* o *Occupy Wall Street* alla fine del 2011.
+In questo capitolo, iniziamo ad esaminare il rapporto di Bitcoin con il libertarismo americano, il cui sostegno non fu unanime. Analizzeremo poi il forte coinvolgimento di alcune personalità, come Ian Freeman, Roger Ver ed Erik Voorhees. Infine, vedremo come Bitcoin si sia integrato in movimenti politici come il *Free State Project* o *Occupy Wall Street* alla fine del 2011.
 
 
 
@@ -782,11 +782,11 @@ In questo capitolo, iniziamo ad esaminare il rapporto del Bitcoin con il liberta
 
 
 
-La vicinanza del libertarismo americano al Bitcoin [sembra](https://www.metzdowd.com/pipermail/cryptography/2008-November/014853.html) piuttosto naturale. I libertari considerano indesiderabile l'intervento dello Stato, anche nella funzione monetaria; mentre le criptovalute, da parte loro, offrono un'alternativa al denaro di Stato, grazie alla loro natura non censurabile e non inflazionistica. Per questo motivo molti membri della comunità all'epoca erano essi stessi libertari: vedevano nella Bitcoin una soluzione ai problemi che denunciavano.
+La vicinanza del libertarismo americano a Bitcoin [sembra](https://www.metzdowd.com/pipermail/cryptography/2008-November/014853.html) piuttosto naturale. I libertari considerano indesiderabile l'intervento dello Stato, anche nella funzione monetaria; mentre le criptovalute, da parte loro, offrono un'alternativa al denaro di Stato, grazie alla loro natura non censurabile e non inflazionistica. Per questo motivo molti membri della comunità all'epoca erano essi stessi libertari: vedevano nella Bitcoin una soluzione ai problemi che denunciavano.
 
 
 
-In questo periodo della storia del Bitcoin, la sfera libertaria è stata segnata dalla campagna di Ron Paul per le elezioni presidenziali del 2012. Ron Paul era un politico libertario, rappresentante del 14° distretto dello Stato del Texas alla Camera dei Rappresentanti. È stato soprannominato "Doctor No" per la sua abitudine di votare contro tutte le proposte di legge che riducono la libertà dei cittadini o aumentano la spesa pubblica. Dopo essersi candidato alla nomination repubblicana nel 2008, ha fatto lo stesso nel 2012. Sebbene avesse poche possibilità di successo, le sue candidature hanno entusiasmato un gran numero di libertari e [ispirato](https://reason.com/2012/05/11/welcome-to-ron-pauls-revolution-the-webs/) un vero e proprio movimento di base. La seconda campagna di Ron Paul per le elezioni presidenziali coincise all'incirca con il periodo che ci interessa: [iniziò](https://web.archive.org/web/20110516130810/http://politicalticker.blogs.cnn.com/2011/05/13/breaking-rep-ron-paul-announces-third-bid-for-presidency/) nel maggio 2011 e si concluse nell'agosto 2012 con la *Convenzione nazionale repubblicana*, che nominò ufficialmente Mitt Romney come candidato del Partito Repubblicano. Nelle discussioni dell'epoca sono stati fatti molti riferimenti al politico.
+In questo periodo della storia di Bitcoin, la sfera libertaria è stata segnata dalla campagna di Ron Paul per le elezioni presidenziali del 2012. Ron Paul era un politico libertario, rappresentante del 14° distretto dello Stato del Texas alla Camera dei Rappresentanti. È stato soprannominato "Doctor No" per la sua abitudine di votare contro tutte le proposte di legge che riducono la libertà dei cittadini o aumentano la spesa pubblica. Dopo essersi candidato alla nomination repubblicana nel 2008, ha fatto lo stesso nel 2012. Sebbene avesse poche possibilità di successo, le sue candidature hanno entusiasmato un gran numero di libertari e [ispirato](https://reason.com/2012/05/11/welcome-to-ron-pauls-revolution-the-webs/) un vero e proprio movimento di base. La seconda campagna di Ron Paul per le elezioni presidenziali coincise all'incirca con il periodo che ci interessa: [iniziò](https://web.archive.org/web/20110516130810/http://politicalticker.blogs.cnn.com/2011/05/13/breaking-rep-ron-paul-announces-third-bid-for-presidency/) nel maggio 2011 e si concluse nell'agosto 2012 con la *Convenzione nazionale repubblicana*, che nominò ufficialmente Mitt Romney come candidato del Partito Repubblicano. Nelle discussioni dell'epoca sono stati fatti molti riferimenti al politico.
 
 
 
@@ -794,7 +794,7 @@ Esiste anche un forte legame tra il libertarismo e la scuola austriaca di pensie
 
 
 
-Alcuni attivisti sono stati rapidamente conquistati dal Bitcoin, come [Stefan Molyneux](https://odysee.com/@freedomain:b/stefan-molyneux-in-2011-bitcoins-digital:e) o [Adam Kokesh](https://web.archive.org/web/20120517174507/https://bitcoinmagazine.net/adam-kokesh-on-bitcoin-and-free-market-money), che si sono interessati ad esso nell'estate del 2011. Tuttavia, questo non è il caso di tutti i libertari. Molti di loro sono profondamente legati alla tradizione austriaca, per la quale solo i metalli preziosi possono costituire la base di un'economia sana, il che li porta a rifiutare il Bitcoin in primo luogo. Come abbiamo visto nel [capitolo 6](https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082/6b3418a7-125e-4ea1-a03a-f36090fac8a4) del nostro primo corso, il Bitcoin contraddice il teorema di regressione di Ludwig von Mises in quanto non ha un valore intrinseco e non è sostenuto da nulla di concreto. Ritengono che non possa diventare una moneta nel tempo e che non abbia senso sforzarsi di usarla. Come Satoshi Nakamoto [ha scritto](https://mmalmi.github.io/satoshi/#email-1) "sono così abituati ad essere anti-denaro liquido che qualsiasi cosa al di fuori dell'oro non è abbastanza buona. Ammettono che qualcosa è infiammabile, ma sostengono che non brucerà mai perché non ci sarà mai una scintilla".
+Alcuni attivisti sono stati rapidamente conquistati da Bitcoin, come [Stefan Molyneux](https://odysee.com/@freedomain:b/stefan-molyneux-in-2011-bitcoins-digital:e) o [Adam Kokesh](https://web.archive.org/web/20120517174507/https://bitcoinmagazine.net/adam-kokesh-on-bitcoin-and-free-market-money), che si sono interessati ad esso nell'estate del 2011. Tuttavia, questo non è il caso di tutti i libertari. Molti di loro sono profondamente legati alla tradizione austriaca, per la quale solo i metalli preziosi possono costituire la base di un'economia sana, il che li porta a rifiutare Bitcoin in primo luogo. Come abbiamo visto nel [capitolo 6](https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082/6b3418a7-125e-4ea1-a03a-f36090fac8a4) del nostro primo corso, Bitcoin contraddice il teorema di regressione di Ludwig von Mises in quanto non ha un valore intrinseco e non è sostenuto da nulla di concreto. Ritengono che non possa diventare una moneta nel tempo e che non abbia senso sforzarsi di usarla. Come Satoshi Nakamoto [ha scritto](https://mmalmi.github.io/satoshi/#email-1) "sono così abituati ad essere anti-denaro liquido che qualsiasi cosa al di fuori dell'oro non è abbastanza buona. Ammettono che qualcosa è infiammabile, ma sostengono che non brucerà mai perché non ci sarà mai una scintilla".
 
 
 
@@ -802,13 +802,13 @@ Il 9 giugno, David Kramer, blogger di Lewrockwell.com, [ha scritto](https://web.
 
 
 
-> "Un mezzo di scambio nasce da qualcosa che aveva un uso/valore materiale sul mercato prima di diventare un mezzo di scambio, cioè era anche un bene che veniva barattato con altri beni e servizi. Nel corso dei secoli, le merci oro e argento hanno prevalso come i due mezzi di scambio preferiti, con l'oro al primo posto perché più scarso dell'argento. Qual era il precedente uso/valore materiale del Bitcoin? Zero. Sono solo bit in un computer
+> "Un mezzo di scambio nasce da qualcosa che aveva un uso/valore materiale sul mercato prima di diventare un mezzo di scambio, cioè era anche un bene che veniva barattato con altri beni e servizi. Nel corso dei secoli, le merci oro e argento hanno prevalso come i due mezzi di scambio preferiti, con l'oro al primo posto perché più scarso dell'argento. Qual era il precedente uso/valore materiale di Bitcoin? Zero. Sono solo bit in un computer
 
 Nel mese di giugno sono iniziate le critiche. Peter Schiff, figlio dell'attivista anti-tasse Irwin Schiff e convinto sostenitore del gold standard, [ha criticato](https://www.youtube.com/watch?v=vTr_hTC90oQ) il bitcoin perché non ha un "valore intrinseco fondamentale". Doug Casey, finanziere e autore libertario, [ha affermato](https://www.lewrockwell.com/2011/06/doug-casey/the-bitcoin-flap/) che "come le valute fiat governative, sono un gioco truffaldino, che funziona solo finché la gente ha fiducia in esse, indipendentemente dal fatto che tale fiducia sia ben riposta o meno".
 
 
 
-Altri libertari, come i blogger [Michael Suede](https://web.archive.org/web/20110609055336/http://www.libertariannews.org/2011/06/06/libertarian-goldbugs-hating-on-bitcoin-free-market-money/) e [Jon Matonis](https://themonetaryfuture.blogspot.com/2011/06/why-are-libertarians-against-bitcoin.html), e il giovane editore [Vitalik Buterin](https://web.archive.org/web/20110617050611/http://bitcoinweekly.com/articles/bitcoin-and-the-goldbugs), ritenevano che questo rifiuto fosse controproducente per la libertà. Ma le loro argomentazioni non hanno necessariamente convinto anche le figure più ostinate, come Peter Schiff, e il Bitcoin non ha mai ottenuto un sostegno unanime all'interno del movimento libertario.
+Altri libertari, come i blogger [Michael Suede](https://web.archive.org/web/20110609055336/http://www.libertariannews.org/2011/06/06/libertarian-goldbugs-hating-on-bitcoin-free-market-money/) e [Jon Matonis](https://themonetaryfuture.blogspot.com/2011/06/why-are-libertarians-against-bitcoin.html), e il giovane editore [Vitalik Buterin](https://web.archive.org/web/20110617050611/http://bitcoinweekly.com/articles/bitcoin-and-the-goldbugs), ritenevano che questo rifiuto fosse controproducente per la libertà. Ma le loro argomentazioni non hanno necessariamente convinto anche le figure più ostinate, come Peter Schiff, e Bitcoin non ha mai ottenuto un sostegno unanime all'interno del movimento libertario.
 
 
 
@@ -816,7 +816,7 @@ Altri libertari, come i blogger [Michael Suede](https://web.archive.org/web/2011
 
 
 
-Tra i primi a interessarsi al Bitcoin nell'ambito della sfera libertaria sono stati i conduttori di Free Talk Live Ian Freeman e Mark Edge. Free Talk Live è un programma radiofonico libero e libertario che esiste dal 2002 ed è registrato nella città di Keene, nel New Hampshire. È stato trasmesso in tutti gli Stati Uniti attraverso la Genesis Communications Network (la stessa rete utilizzata da Alex Jones, il conduttore di *InfoWars*). È disponibile anche come podcast su Internet.
+Tra i primi a interessarsi a Bitcoin nell'ambito della sfera libertaria sono stati i conduttori di Free Talk Live Ian Freeman e Mark Edge. Free Talk Live è un programma radiofonico libero e libertario che esiste dal 2002 ed è registrato nella città di Keene, nel New Hampshire. È stato trasmesso in tutti gli Stati Uniti attraverso la Genesis Communications Network (la stessa rete utilizzata da Alex Jones, il conduttore di *InfoWars*). È disponibile anche come podcast su Internet.
 
 
 
@@ -832,15 +832,15 @@ Il 28 dicembre 2010, in seguito all'articolo di PC World, l'argomento Bitcoin è
 
 
 
-Entrambi gli ospiti erano entusiasti del sistema di Nakamoto e degli usi che se ne possono fare. In particolare, il mercato della Via della Seta [catturò](https://bitcointalk.org/index.php?topic=3984.msg66567#msg66567) la curiosità di Ian Freeman che, qualche mese dopo, [scrisse](https://bitcointalk.org/index.php?topic=12895.msg178537#msg178537) sul forum Bitcoin: "grazie alla Via della Seta per avermi dato motivo di cogliere almeno una parte della visione del Bitcoin". Il 16 marzo, metà del programma Free Talk Live è stato [dedicato](http://traffic.libsyn.com/ftl/FTL2011-03-16.mp3) al Bitcoin e alla Via della Seta, attirando l'attenzione del pubblico libertario.
+Entrambi gli ospiti erano entusiasti del sistema di Nakamoto e degli usi che se ne possono fare. In particolare, il mercato della Silk Road [catturò](https://bitcointalk.org/index.php?topic=3984.msg66567#msg66567) la curiosità di Ian Freeman che, qualche mese dopo, [scrisse](https://bitcointalk.org/index.php?topic=12895.msg178537#msg178537) sul forum Bitcoin: "grazie alla Silk Road per avermi dato motivo di cogliere almeno una parte della visione di Bitcoin". Il 16 marzo, metà del programma Free Talk Live è stato [dedicato](http://traffic.libsyn.com/ftl/FTL2011-03-16.mp3) a Bitcoin e alla Silk Road, attirando l'attenzione del pubblico libertario.
 
 
 
-### Roger Ver, Gesù del Bitcoin
+### Roger Ver, Bitcoin Jesus
 
 
 
-Uno degli ascoltatori più fedeli di Free Talk Live è Roger Ver, e le menzioni del Bitcoin durante il programma non sono cadute nel vuoto. Roger Ver è un uomo d'affari americano che alla fine degli anni '90 ha fondato un rivenditore online di componenti per computer chiamato MemoryDealers, diventando milionario nel giro di pochi anni. Allo stesso tempo, ha sviluppato convinzioni libertarie, in particolare grazie alla lettura di Ludwig von Mises, Murray Rothbard e Henry Hazlitt. Ha anche una visione ottimistica del progresso tecnico, essendo stato influenzato dal futurologo transumanista Ray Kurzweil.
+Uno degli ascoltatori più fedeli di Free Talk Live è Roger Ver, e le menzioni di Bitcoin durante il programma non sono cadute nel vuoto. Roger Ver è un uomo d'affari americano che alla fine degli anni '90 ha fondato un rivenditore online di componenti per computer chiamato MemoryDealers, diventando milionario nel giro di pochi anni. Allo stesso tempo, ha sviluppato convinzioni libertarie, in particolare grazie alla lettura di Ludwig von Mises, Murray Rothbard e Henry Hazlitt. Ha anche una visione ottimistica del progresso tecnico, essendo stato influenzato dal futurologo transumanista Ray Kurzweil.
 
 
 
@@ -856,11 +856,11 @@ Roger Ver era un uomo d'azione. Nel 2000 si candidò all'Assemblea dello Stato d
 
 
 
-È venuto a conoscenza del Bitcoin nel dicembre 2010 tramite Free Talk Live e ne ha acquistati alcuni. Tuttavia, è stato solo dopo la trasmissione del 16 marzo 2011 che si è innamorato delle criptovalute. A quel punto ha vissuto una sorta di epifania: ha letto tutto quello che poteva sull'argomento, tanto da passare diverse notti insonni di fila. Diversi anni dopo, [confidò](https://londonlovesbusiness.com/meet-bitcoin-jesus-roger-ver-the-millionaire-who-distributes-free-bitcoins/) alla rivista online *London Loves Business*:
+È venuto a conoscenza di Bitcoin nel dicembre 2010 tramite Free Talk Live e ne ha acquistati alcuni. Tuttavia, è stato solo dopo la trasmissione del 16 marzo 2011 che si è innamorato delle criptovalute. A quel punto ha vissuto una sorta di epifania: ha letto tutto quello che poteva sull'argomento, tanto da passare diverse notti insonni di fila. Diversi anni dopo, [confidò](https://londonlovesbusiness.com/meet-bitcoin-jesus-roger-ver-the-millionaire-who-distributes-free-bitcoins/) alla rivista online *London Loves Business*:
 
 
 
-> "Ho capito che è la migliore forma di denaro che il mondo intero abbia mai visto. Mi sono letteralmente esaltato perché sentivo che la vocazione della mia vita era arrivata sotto forma di Bitcoin. Non sono uscito di casa per più di una settimana e ho trascorso ogni momento di veglia a leggere ogni singola cosa che sono riuscito a trovare sul Bitcoin. Mi sono ammalata così tanto per la mancanza di sonno che il mio amico ha dovuto portarmi in ospedale"
+> "Ho capito che è la migliore forma di denaro che il mondo intero abbia mai visto. Mi sono letteralmente esaltato perché sentivo che la vocazione della mia vita era arrivata sotto forma di Bitcoin. Non sono uscito di casa per più di una settimana e ho trascorso ogni momento di veglia a leggere ogni singola cosa che sono riuscito a trovare su Bitcoin. Mi sono ammalata così tanto per la mancanza di sonno che il mio amico ha dovuto portarmi in ospedale"
 
 Dopo questa esperienza, Roger Ver si è impegnato nella comunità. Il 26 aprile [ha iniziato](https://bitcointalk.org/index.php?topic=4667.msg95746#msg95746) ad accettare pagamenti in bitcoin attraverso la sua società MemoryDealers. Il 4 giugno ha utilizzato un cartellone pubblicitario di sua proprietà per promuovere Bitcoin e la sua azienda. Il cartellone era visibile da un'autostrada trafficata di Sunnyvale, nella Silicon Valley, il che [ha attirato](https://www.instagram.com/p/FNIFl/) l'attenzione su Bitcoin in un momento in cui l'entusiasmo speculativo era al suo apice.
 
@@ -870,15 +870,15 @@ Dopo questa esperienza, Roger Ver si è impegnato nella comunità. Il 26 aprile 
 
 
 
-*Cartellone pubblicitario del Bitcoin a Sunnyvale (fonte: Roger Ver su [Bitcointalk](https://web.archive.org/web/20130524003126/https://bitcointalk.org/index.php?topic=7961.40))*
+*Cartellone pubblicitario di Bitcoin a Sunnyvale (fonte: Roger Ver su [Bitcointalk](https://web.archive.org/web/20130524003126/https://bitcointalk.org/index.php?topic=7961.40))*
 
 
 
-A giugno, dopo i primi problemi incontrati da Mt. Gox, Roger propose a Mark Karpelès di venire ad aiutarlo, dato che abitava molto vicino agli uffici della società a Tokyo. Mark accettò e Roger si presentò alla Cerulean Tower. Era accompagnato da diverse persone, tra cui Jesse Powell, un amico di liceo e imprenditore di San Francisco, anch'egli interessato al Bitcoin (quest'ultimo creerà la piattaforma Kraken nel 2013). Nonostante l'atteggiamento [disinvolto] di Mark Karpelès (https://www.wired.com/2014/03/bitcoin-exchange/), sono riusciti a stabilizzare la situazione e a riaprire la piattaforma dopo una settimana.
+A giugno, dopo i primi problemi incontrati da Mt. Gox, Roger propose a Mark Karpelès di venire ad aiutarlo, dato che abitava molto vicino agli uffici della società a Tokyo. Mark accettò e Roger si presentò alla Cerulean Tower. Era accompagnato da diverse persone, tra cui Jesse Powell, un amico di liceo e imprenditore di San Francisco, anch'egli interessato a Bitcoin (quest'ultimo creerà la piattaforma Kraken nel 2013). Nonostante l'atteggiamento [disinvolto] di Mark Karpelès (https://www.wired.com/2014/03/bitcoin-exchange/), sono riusciti a stabilizzare la situazione e a riaprire la piattaforma dopo una settimana.
 
 
 
-Ma l'impegno di Roger Ver nei confronti del Bitcoin non si fermò qui. Come già detto, era fermamente convinto del potenziale rivoluzionario del Bitcoin e sentiva di avere una missione da compiere a questo proposito. Cercò di diffondere la notizia. In giugno è [apparso](https://www.youtube.com/watch?v=IG_AvbfCEs4) al *Bitcoin Show* di Bruce Wagner. Ha [trasmesso](https://www.youtube.com/watch?v=5pV9ptoCMyc) pubblicità del Bitcoin alla radio Free Talk Live, sostituendo la promozione della sua azienda che aveva fatto in precedenza attraverso questo mezzo. Nel corso dei mesi, si è affermato come uno dei promotori più zelanti della Bitcoin, al punto da essere [soprannominato](https://web.archive.org/web/20120218230448/http://www.thebitcointrader.com/2012/02/bitcoin-jesus-is-getting-ready-to.html) "*Bitcoin Jesus*" nel febbraio 2012 dal commerciante canadese GoWest. Il soprannome è rimasto, anche se Roger non lo ha mai rivendicato.
+Ma l'impegno di Roger Ver nei confronti di Bitcoin non si fermò qui. Come già detto, era fermamente convinto del potenziale rivoluzionario di Bitcoin e sentiva di avere una missione da compiere a questo proposito. Cercò di diffondere la notizia. In giugno è [apparso](https://www.youtube.com/watch?v=IG_AvbfCEs4) al *Bitcoin Show* di Bruce Wagner. Ha [trasmesso](https://www.youtube.com/watch?v=5pV9ptoCMyc) pubblicità di Bitcoin alla radio Free Talk Live, sostituendo la promozione della sua azienda che aveva fatto in precedenza attraverso questo mezzo. Nel corso dei mesi, si è affermato come uno dei promotori più zelanti di Bitcoin, al punto da essere [soprannominato](https://web.archive.org/web/20120218230448/http://www.thebitcointrader.com/2012/02/bitcoin-jesus-is-getting-ready-to.html) "*Bitcoin Jesus*" nel febbraio 2012 dal commerciante canadese GoWest. Il soprannome è rimasto, anche se Roger non lo ha mai rivendicato.
 
 
 
@@ -890,7 +890,7 @@ Inoltre, Roger era particolarmente ottimista sul prezzo di mercato della criptov
 
 
 
-Ma Roger non era l'unico fervente libertario coinvolto nel Bitcoin: c'era anche Erik Voorhees. Nato nel 1984, Erik Voorhees è cresciuto in Colorado. È figlio di Jacques Voorhees, che è stato amministratore delegato della piattaforma di trading di diamanti Polygon prima di venderla per 8,4 milioni di dollari nel 2004. Il padre, anch'egli libertario, gli ha trasmesso una vena liberale e imprenditoriale. Dopo essersi laureato in economia aziendale e politica all'Università di Puget-Sound, Erik ha vissuto per un certo periodo a Dubai, dove ha ricoperto il ruolo di responsabile della comunicazione per una società immobiliare. È stato particolarmente colpito dalla crisi del 2008, che lo ha spinto a interessarsi al sistema bancario e al denaro.
+Ma Roger non era l'unico fervente libertario coinvolto in Bitcoin: c'era anche Erik Voorhees. Nato nel 1984, Erik Voorhees è cresciuto in Colorado. È figlio di Jacques Voorhees, che è stato amministratore delegato della piattaforma di trading di diamanti Polygon prima di venderla per 8,4 milioni di dollari nel 2004. Il padre, anch'egli libertario, gli ha trasmesso una vena liberale e imprenditoriale. Dopo essersi laureato in economia aziendale e politica all'Università di Puget-Sound, Erik ha vissuto per un certo periodo a Dubai, dove ha ricoperto il ruolo di responsabile della comunicazione per una società immobiliare. È stato particolarmente colpito dalla crisi del 2008, che lo ha spinto a interessarsi al sistema bancario e al denaro.
 
 
 
@@ -902,13 +902,13 @@ Ma Roger non era l'unico fervente libertario coinvolto nel Bitcoin: c'era anche 
 
 
 
-Nel 2011 si è trasferito a Portsmouth, nel New Hampshire, nell'ambito del *Free State Project* (che descriveremo nella prossima sezione). Fu lì che [venne a conoscenza](https://www.maxraskin.com/interviews/erik-voorhees) del Bitcoin, tramite un articolo condiviso su Facebook dal politico locale [Keith Ammon](https://bitcoinmagazine.com/politics/rep-keith-ammon-is-new-hampshires-premier-bitcoin-advocate), che era anche suo amico. All'epoca era maggio: il prezzo era di 5 dollari e saliva molto rapidamente. Dopo qualche ora di studio della questione, si convinse del concetto e se ne innamorò. Lo [confidò](https://bitcoinmagazine.com/culture/erik-voorhees-new-frontier-1374794545) nel 2013:
+Nel 2011 si è trasferito a Portsmouth, nel New Hampshire, nell'ambito del *Free State Project* (che descriveremo nella prossima sezione). Fu lì che [venne a conoscenza](https://www.maxraskin.com/interviews/erik-voorhees) di Bitcoin, tramite un articolo condiviso su Facebook dal politico locale [Keith Ammon](https://bitcoinmagazine.com/politics/rep-keith-ammon-is-new-hampshires-premier-bitcoin-advocate), che era anche suo amico. All'epoca era maggio: il prezzo era di 5 dollari e saliva molto rapidamente. Dopo qualche ora di studio della questione, si convinse del concetto e se ne innamorò. Lo [confidò](https://bitcoinmagazine.com/culture/erik-voorhees-new-frontier-1374794545) nel 2013:
 
 
 
 > "Quel giorno è stato uno dei più importanti della mia vita. È stato come scoprire una grande verità, come vedere il futuro. Ho lasciato tutto quello che stavo facendo e mi sono buttato nella tana del coniglio"
 
-La sua motivazione era principalmente ideologica: era sedotto dalla natura inarrestabile del sistema e dall'impossibilità di creare più denaro del previsto. Egli [vedeva](https://silverunderground.com/2011/06/bitcoin-the-separation-of-money-and-state/) Bitcoin come l'incarnazione della "separazione tra denaro e Stato". Era anche convinto della pratica agoristica promossa da Samuel Konkin e [credeva](https://bitcointalk.org/index.php?topic=34657.msg431717#msg431717) che "il Bitcoin è per l'agorismo ciò che le branchie sono per il pesce", cioè un ingranaggio essenziale.
+La sua motivazione era principalmente ideologica: era sedotto dalla natura inarrestabile del sistema e dall'impossibilità di creare più denaro del previsto. Egli [vedeva](https://silverunderground.com/2011/06/bitcoin-the-separation-of-money-and-state/) Bitcoin come l'incarnazione della "separazione tra denaro e Stato". Era anche convinto della pratica agoristica promossa da Samuel Konkin e [credeva](https://bitcointalk.org/index.php?topic=34657.msg431717#msg431717) che "Bitcoin è per l'agorismo ciò che le branchie sono per il pesce", cioè un ingranaggio essenziale.
 
 
 
@@ -964,7 +964,7 @@ Il Bitcoin ha naturalmente attirato l'attenzione del movimento in primavera, che
 
 
 
-Grazie a questa concentrazione di libertari, nel corso degli anni il New Hampshire sarebbe diventato un centro nevralgico per l'adozione delle criptovalute. Oltre alla sua trasformazione istituzionale, sarebbe diventato (https://www.forbes.com/sites/kashmirhill/2014/06/12/the-free-state-project-a-libertarian-testing-ground-for-bitcoin-3d-printers-and-drones/) un vero e proprio "campo di prova" per il Bitcoin e altre innovazioni tecniche che favoriscono la libertà, come le stampanti 3D.
+Grazie a questa concentrazione di libertari, nel corso degli anni il New Hampshire sarebbe diventato un centro nevralgico per l'adozione delle criptovalute. Oltre alla sua trasformazione istituzionale, sarebbe diventato (https://www.forbes.com/sites/kashmirhill/2014/06/12/the-free-state-project-a-libertarian-testing-ground-for-bitcoin-3d-printers-and-drones/) un vero e proprio "campo di prova" per Bitcoin e altre innovazioni tecniche che favoriscono la libertà, come le stampanti 3D.
 
 
 
@@ -972,11 +972,11 @@ Grazie a questa concentrazione di libertari, nel corso degli anni il New Hampshi
 
 
 
-Tuttavia, il libertarismo non è stata l'unica ideologia politica ad avere affinità con il Bitcoin. Dall'altra parte dello spettro politico (se consideriamo che le posizioni economiche del libertarismo sono piuttosto di destra), c'era l'intero movimento anti-capitalista e anti-finanza che non poteva non trovare interesse nelle criptovalute.
+Tuttavia, il libertarismo non è stata l'unica ideologia politica ad avere affinità con Bitcoin. Dall'altra parte dello spettro politico (se consideriamo che le posizioni economiche del libertarismo sono piuttosto di destra), c'era l'intero movimento anti-capitalista e anti-finanza che non poteva non trovare interesse nelle criptovalute.
 
 
 
-Tuttavia, proprio come i libertari, anche questa famiglia politica tendeva a rifiutare il Bitcoin, perché non si allineava alla loro visione del denaro. Era troppo rigido, troppo poco soggetto al controllo politico. Il Bitcoin non era una moneta sociale che potesse essere gestita [gestita] (https://diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February/001362.html) democraticamente, come immaginato dagli attivisti attraverso le valute locali. Yánis Varoufákis, marxista libertario e futuro ministro delle Finanze della Grecia, [l'ha criticata](https://www.yanisvaroufakis.eu/2013/04/22/bitcoin-and-the-dangerous-fantasy-of-apolitical-money/) nel 2013 per il suo carattere deflazionistico e inegalitario, scrivendo che "non può esistere una moneta depoliticizzata in grado di 'alimentare' una società industriale avanzata".
+Tuttavia, proprio come i libertari, anche questa famiglia politica tendeva a rifiutare Bitcoin, perché non si allineava alla loro visione del denaro. Era troppo rigido, troppo poco soggetto al controllo politico. Il Bitcoin non era una moneta sociale che potesse essere gestita [gestita] (https://diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February/001362.html) democraticamente, come immaginato dagli attivisti attraverso le valute locali. Yánis Varoufákis, marxista libertario e futuro ministro delle Finanze della Grecia, [l'ha criticata](https://www.yanisvaroufakis.eu/2013/04/22/bitcoin-and-the-dangerous-fantasy-of-apolitical-money/) nel 2013 per il suo carattere deflazionistico e inegalitario, scrivendo che "non può esistere una moneta depoliticizzata in grado di 'alimentare' una società industriale avanzata".
 
 
 
@@ -1000,7 +1000,7 @@ Così, le molteplici organizzazioni del movimento hanno deciso di accettare il b
 
 
 
-*Occupy Wall Street* ha portato molte persone a porsi domande sulle criptovalute, e l'argomento è stato persino [evocato](https://www.huffpost.com/entry/occupy-wall-street-money-donated-tension_n_1029377) dalla stampa generale. Il movimento si è formalmente concluso nella notte tra il 14 e il 15 novembre, quando la polizia di New York ha sgomberato i manifestanti da Zuccotti Park, dove il campeggio non era più consentito. Tuttavia, l'idea di utilizzare il Bitcoin come strumento politico è rimasta.
+*Occupy Wall Street* ha portato molte persone a porsi domande sulle criptovalute, e l'argomento è stato persino [evocato](https://www.huffpost.com/entry/occupy-wall-street-money-donated-tension_n_1029377) dalla stampa generale. Il movimento si è formalmente concluso nella notte tra il 14 e il 15 novembre, quando la polizia di New York ha sgomberato i manifestanti da Zuccotti Park, dove il campeggio non era più consentito. Tuttavia, l'idea di utilizzare Bitcoin come strumento politico è rimasta.
 
 
 
@@ -1008,11 +1008,11 @@ Così, le molteplici organizzazioni del movimento hanno deciso di accettare il b
 
 
 
-L'ideologia politica è stata un elemento essenziale nella costruzione di Bitcoin nei primi anni. Ha contribuito a sostenere la passione che i primi utenti avevano instillato nella criptovaluta, attirando imprenditori impegnati e desiderosi di vedere il progetto avere successo. È stato in particolare grazie al movimento libertario americano, nonostante le sue divisioni interne, che la Bitcoin ha potuto prosperare, sia attraverso individui come Roger Ver o Erik Voorhees, sia attraverso il *Free State Project*. Anche il movimento di sinistra *Occupy Wall Street* ha giocato un ruolo chiave nell'ascesa del bitcoin come moneta di disobbedienza.
+L'ideologia politica è stata un elemento essenziale nella costruzione di Bitcoin nei primi anni. Ha contribuito a sostenere la passione che i primi utenti avevano instillato nella criptovaluta, attirando imprenditori impegnati e desiderosi di vedere il progetto avere successo. È stato in particolare grazie al movimento libertario americano, nonostante le sue divisioni interne, che Bitcoin ha potuto prosperare, sia attraverso individui come Roger Ver o Erik Voorhees, sia attraverso il *Free State Project*. Anche il movimento di sinistra *Occupy Wall Street* ha giocato un ruolo chiave nell'ascesa del bitcoin come moneta di disobbedienza.
 
 
 
-Tuttavia, questo aspetto ideologico era in contrasto con una forza molto più attraente: quella dell'interesse finanziario. Nel corso degli anni si è creata una tensione tra i due aspetti, che si è manifestata con un cambiamento di discorso a partire dal 2013 e con un aumento fenomenale del tasso di cambio. Ma prima che ciò potesse accadere, era necessario sviluppare gli strumenti necessari per consentire agli operatori finanziari di investire nell'ecosistema. E questo sviluppo doveva avvenire in gran parte durante il primo vero e proprio "mercato orso" nella storia del Bitcoin.
+Tuttavia, questo aspetto ideologico era in contrasto con una forza molto più attraente: quella dell'interesse finanziario. Nel corso degli anni si è creata una tensione tra i due aspetti, che si è manifestata con un cambiamento di discorso a partire dal 2013 e con un aumento fenomenale del tasso di cambio. Ma prima che ciò potesse accadere, era necessario sviluppare gli strumenti necessari per consentire agli operatori finanziari di investire nell'ecosistema. E questo sviluppo doveva avvenire in gran parte durante il primo vero e proprio "mercato orso" nella storia di Bitcoin.
 
 
 
@@ -1027,11 +1027,11 @@ Nel giugno 2011, la mania speculativa è stata interrotta dall'hackeraggio di Mt
 
 
 
-Lo scoppio della "Grande Bolla del 2011" ha naturalmente attirato l'attenzione della stampa, che si è affrettata a dichiarare il Bitcoin non redditizio. Ma ha anche favorito la costruzione economica e il periodo di stagnazione dei prezzi ha permesso lo sviluppo di progetti finanziari che hanno poi dato i loro frutti.
+Lo scoppio della "Grande Bolla del 2011" ha naturalmente attirato l'attenzione della stampa, che si è affrettata a dichiarare Bitcoin non redditizio. Ma ha anche favorito la costruzione economica e il periodo di stagnazione dei prezzi ha permesso lo sviluppo di progetti finanziari che hanno poi dato i loro frutti.
 
 
 
-In questo capitolo analizzeremo solo alcuni di questi progetti. Analizzeremo come la piattaforma di trading a margine Bitcoinica abbia portato l'effetto leva e le vendite allo scoperto agli utenti Bitcoin. Analizzeremo il ruolo del servizio di compravendita istantanea BitInstant nel rendere più fluido il cambio per gli americani. Infine, spiegheremo come le borse indipendenti GLBSE e MPEx abbiano reso possibile la raccolta di fondi all'interno dell'ecosistema. Ma prima, parliamo un po' del trattamento riservato dai media alla bolla che si sta sgonfiando, che non è stato gentile con il Bitcoin.
+In questo capitolo analizzeremo solo alcuni di questi progetti. Analizzeremo come la piattaforma di trading a margine Bitcoinica abbia portato l'effetto leva e le vendite allo scoperto agli utenti Bitcoin. Analizzeremo il ruolo del servizio di compravendita istantanea BitInstant nel rendere più fluido il cambio per gli americani. Infine, spiegheremo come le borse indipendenti GLBSE e MPEx abbiano reso possibile la raccolta di fondi all'interno dell'ecosistema. Ma prima, parliamo un po' del trattamento riservato dai media alla bolla che si sta sgonfiando, che non è stato gentile con Bitcoin.
 
 
 
@@ -1039,15 +1039,15 @@ In questo capitolo analizzeremo solo alcuni di questi progetti. Analizzeremo com
 
 
 
-Dopo aver raggiunto un picco di 32 dollari l'8 giugno, l'hacking di Mt. Gox e la chiusura di MyBitcoin hanno arrestato definitivamente il movimento speculativo. Il prezzo è crollato a 6 dollari all'inizio di agosto. L'esposizione della Bitcoin al mondo, unita al calo del tasso di cambio, ha fornito un buon motivo per criticare la criptovaluta, cosa che i giornalisti assetati di sensazionalismo non hanno tardato a fare.
+Dopo aver raggiunto un picco di 32 dollari l'8 giugno, l'hacking di Mt. Gox e la chiusura di MyBitcoin hanno arrestato definitivamente il movimento speculativo. Il prezzo è crollato a 6 dollari all'inizio di agosto. L'esposizione di Bitcoin al mondo, unita al calo del tasso di cambio, ha fornito un buon motivo per criticare la criptovaluta, cosa che i giornalisti assetati di sensazionalismo non hanno tardato a fare.
 
 
 
-Il 7 agosto Timothy Lee, scrittore per il sito di notizie tecnologiche Arstechnica e [scettico](https://timothyblee.com/2011/04/19/bitcoins-collusion-problem/) del Bitcoin da aprile, [ha pubblicato](https://www.forbes.com/sites/timothylee/2011/08/07/the-bitcoin-crash/) un articolo intitolato "The Bitcoin Crash" in cui spiegava che il bitcoin "la valuta non sembra avere alcun valore fondamentale" e che "non c'è un punto di arresto logico al declino del prezzo del Bitcoin", essendo il processo, secondo lui, "terminale". La sua argomentazione è stata [ripresa](https://www.theatlantic.com/technology/archive/2011/08/the-bitcoin-economy-is-collapsing-with-no-sign-of-recovery/243253/) il giorno successivo da Nicholas Jackson su *The Atlantic*, per il quale "The Bitcoin Economy Is Collapsing With No Sign of Recovery" (L'economia del Bitcoin sta crollando senza alcun segno di ripresa), e da Adrian Covert su Gizmodo, che ha [sostenuto](https://gizmodo.com/the-bitcoin-is-dying-whatever-5828710) che "la luna di miele è finita" e che "Il Bitcoin sta morendo".
+Il 7 agosto Timothy Lee, scrittore per il sito di notizie tecnologiche Arstechnica e [scettico](https://timothyblee.com/2011/04/19/bitcoins-collusion-problem/) di Bitcoin da aprile, [ha pubblicato](https://www.forbes.com/sites/timothylee/2011/08/07/the-bitcoin-crash/) un articolo intitolato "The Bitcoin Crash" in cui spiegava che il bitcoin "la valuta non sembra avere alcun valore fondamentale" e che "non c'è un punto di arresto logico al declino del prezzo di Bitcoin", essendo il processo, secondo lui, "terminale". La sua argomentazione è stata [ripresa](https://www.theatlantic.com/technology/archive/2011/08/the-bitcoin-economy-is-collapsing-with-no-sign-of-recovery/243253/) il giorno successivo da Nicholas Jackson su *The Atlantic*, per il quale "The Bitcoin Economy Is Collapsing With No Sign of Recovery" (L'economia di Bitcoin sta crollando senza alcun segno di ripresa), e da Adrian Covert su Gizmodo, che ha [sostenuto](https://gizmodo.com/the-bitcoin-is-dying-whatever-5828710) che "la luna di miele è finita" e che "Il Bitcoin sta morendo".
 
 
 
-Nel frattempo, stavano emergendo altre critiche, più a livello macroeconomico. A settembre, James Surowiecki, giornalista americano noto per aver pubblicato *The Wisdom of Crowds* nel 2004, [ha pubblicato](https://www.technologyreview.com/2011/08/23/191860/cryptocurrency/) un'accusa al Bitcoin sulla *MIT Technology Review*. Criticava il limite fisso al numero di bitcoin, sostenendo che incoraggiava l'accaparramento, che avrebbe impedito al bitcoin di diventare un mezzo di scambio, creando infine una situazione in cui "la stragrande maggioranza dei bitcoin è detenuta da persone che sperano di venderli ad altre persone". Il 7 settembre Paul Krugman, economista neokeynesiano e vincitore del Premio Nobel per l'Economia 2008, ha [ripetuto](https://archive.nytimes.com/krugman.blogs.nytimes.com/2011/09/07/golden-cyberfetters/) questo ragionamento in un articolo pubblicato sul sito web del *New York Times*, intitolato "Golden Cyberfetters". Il titolo era un riferimento al libro di Barry Eichengreen del 1992 *Golden Fetters*, che sosteneva che la Grande Depressione degli anni Trenta era stata la conseguenza di un gold standard troppo restrittivo. Nell'articolo, Paul Krugman sostiene che "il Bitcoin ha creato il proprio mondo privato di gold standard, in cui l'offerta di moneta è fissa anziché soggetta ad aumento tramite la stampa" e che la deflazione che ne è derivata ha causato "il valore reale delle transazioni in Bitcoin è diminuito anziché aumentare. In effetti, il prodotto lordo reale dei Bitcoin è diminuito drasticamente".
+Nel frattempo, stavano emergendo altre critiche, più a livello macroeconomico. A settembre, James Surowiecki, giornalista americano noto per aver pubblicato *The Wisdom of Crowds* nel 2004, [ha pubblicato](https://www.technologyreview.com/2011/08/23/191860/cryptocurrency/) un'accusa a Bitcoin sulla *MIT Technology Review*. Criticava il limite fisso al numero di bitcoin, sostenendo che incoraggiava l'accaparramento, che avrebbe impedito al bitcoin di diventare un mezzo di scambio, creando infine una situazione in cui "la stragrande maggioranza dei bitcoin è detenuta da persone che sperano di venderli ad altre persone". Il 7 settembre Paul Krugman, economista neokeynesiano e vincitore del Premio Nobel per l'Economia 2008, ha [ripetuto](https://archive.nytimes.com/krugman.blogs.nytimes.com/2011/09/07/golden-cyberfetters/) questo ragionamento in un articolo pubblicato sul sito web del *New York Times*, intitolato "Golden Cyberfetters". Il titolo era un riferimento al libro di Barry Eichengreen del 1992 *Golden Fetters*, che sosteneva che la Grande Depressione degli anni Trenta era stata la conseguenza di un gold standard troppo restrittivo. Nell'articolo, Paul Krugman sostiene che "Bitcoin ha creato il proprio mondo privato di gold standard, in cui l'offerta di moneta è fissa anziché soggetta ad aumento tramite la stampa" e che la deflazione che ne è derivata ha causato "il valore reale delle transazioni in Bitcoin è diminuito anziché aumentare. In effetti, il prodotto lordo reale dei Bitcoin è diminuito drasticamente".
 
 
 
@@ -1055,11 +1055,11 @@ Nel frattempo, stavano emergendo altre critiche, più a livello macroeconomico. 
 
 
 
-*Il primo articolo di Paul Krugman sul Bitcoin (fonte: [archivio](https://web.archive.org/web/20110909021607/http://krugman.blogs.nytimes.com/2011/09/07/golden-cyberfetters/) del New York Times)*
+*Il primo articolo di Paul Krugman su Bitcoin (fonte: [archivio](https://web.archive.org/web/20110909021607/http://krugman.blogs.nytimes.com/2011/09/07/golden-cyberfetters/) del New York Times)*
 
 
 
-Il 17 ottobre il prezzo di BTC è sceso bruscamente sotto i 3,2 dollari, con un calo di oltre il 90% rispetto al picco della bolla, fatto che Timothy Lee [ha ricordato](https://arstechnica.com/tech-policy/2011/10/bitcoin-implodes-down-more-than-90-percent-from-june-peak/) ai lettori il giorno successivo. Sempre su Arstechnica, ha descritto i problemi associati all'uso delle criptovalute, come gli hack e la volatilità. Non ha pensato molto al Bitcoin, perché ha dichiarato: "Ma il valore di una valuta è costruito sulla sua reputazione, e cinque mesi di cattive notizie e svalutazioni hanno causato gravi danni". Sulla stessa scia, il 21 ottobre è stato pubblicato un articolo su *The Economist* con il [titolo](https://web.archive.org/web/20181019113320/https://www.economist.com/babbage/2011/10/21/the-bursting-of-the-bitcoin-bubble) "The bursting of the Bitcoin bubble".
+Il 17 ottobre il prezzo di BTC è sceso bruscamente sotto i 3,2 dollari, con un calo di oltre il 90% rispetto al picco della bolla, fatto che Timothy Lee [ha ricordato](https://arstechnica.com/tech-policy/2011/10/bitcoin-implodes-down-more-than-90-percent-from-june-peak/) ai lettori il giorno successivo. Sempre su Arstechnica, ha descritto i problemi associati all'uso delle criptovalute, come gli hack e la volatilità. Non ha pensato molto a Bitcoin, perché ha dichiarato: "Ma il valore di una valuta è costruito sulla sua reputazione, e cinque mesi di cattive notizie e svalutazioni hanno causato gravi danni". Sulla stessa scia, il 21 ottobre è stato pubblicato un articolo su *The Economist* con il [titolo](https://web.archive.org/web/20181019113320/https://www.economist.com/babbage/2011/10/21/the-bursting-of-the-bitcoin-bubble) "The bursting of the Bitcoin bubble".
 
 
 
@@ -1071,15 +1071,15 @@ Il 17 ottobre il prezzo di BTC è sceso bruscamente sotto i 3,2 dollari, con un 
 
 
 
-Nel mese successivo, il tasso di cambio ha faticato a riprendersi, raggiungendo un nuovo minimo di circa 2 dollari il 18 novembre. Il 23 novembre, l'editore Benjamin Wallace [pubblicò](https://web.archive.org/web/20111124022726/http://www.wired.com/magazine/2011/11/mf_bitcoin/all/1) un articolo su Wired intitolato "The Rise and Fall of Bitcoin" (L'ascesa e la caduta di Bitcoin) che, al di là del titolo volutamente stuzzicante, era un pezzo molto ben fatto che affrontava i problemi degli utenti di Bitcoin. È stato un periodo difficile soprattutto per i minatori, che hanno acquistato processori grafici durante l'estate, ma hanno scoperto che non era più redditizio fare mining con questi processori (https://bitcointalk.org/index.php?topic=47480.msg565196#msg565196). Alcuni sono stati addirittura costretti a [vendere](https://bitcointalk.org/index.php?topic=48767.msg580225#msg580225) le loro apparecchiature.
+Nel mese successivo, il tasso di cambio ha faticato a riprendersi, raggiungendo un nuovo minimo di circa 2 dollari il 18 novembre. Il 23 novembre, l'editore Benjamin Wallace [pubblicò](https://web.archive.org/web/20111124022726/http://www.wired.com/magazine/2011/11/mf_bitcoin/all/1) un articolo su Wired intitolato "The Rise and Fall of Bitcoin" (L'ascesa e la caduta di Bitcoin) che, al di là del titolo volutamente stuzzicante, era un pezzo molto ben fatto che affrontava i problemi degli utenti di Bitcoin. È stato un periodo difficile soprattutto per i miner, che hanno acquistato processori grafici durante l'estate, ma hanno scoperto che non era più redditizio fare mining con questi processori (https://bitcointalk.org/index.php?topic=47480.msg565196#msg565196). Alcuni sono stati addirittura costretti a [vendere](https://bitcointalk.org/index.php?topic=48767.msg580225#msg580225) le loro apparecchiature.
 
 
 
-Tuttavia, nonostante il calo dei prezzi e le critiche, il cuore della comunità era ancora attivo e prendeva con filosofia l'estrema volatilità dei prezzi. I più ferventi sostenitori del Bitcoin erano impegnati a partecipare alla sua costruzione e a farlo prosperare. Alcuni membri della comunità, come [Amir Taaki] (https://www.wired.com/2011/11/mf-bitcoin/), hanno paragonato il fenomeno al "ciclo dell'hype di Gartner", che descrive come l'adozione di una tecnica emergente debba passare attraverso un "picco di aspettative esagerate", poi attraverso una "fossa di disillusione" per raggiungere infine un "plateau di produttività", come nel caso del Web e della bolla di Internet.
+Tuttavia, nonostante il calo dei prezzi e le critiche, il cuore della comunità era ancora attivo e prendeva con filosofia l'estrema volatilità dei prezzi. I più ferventi sostenitori di Bitcoin erano impegnati a partecipare alla sua costruzione e a farlo prosperare. Alcuni membri della comunità, come [Amir Taaki] (https://www.wired.com/2011/11/mf-bitcoin/), hanno paragonato il fenomeno al "ciclo dell'hype di Gartner", che descrive come l'adozione di una tecnica emergente debba passare attraverso un "picco di aspettative esagerate", poi attraverso una "fossa di disillusione" per raggiungere infine un "plateau di produttività", come nel caso del Web e della bolla di Internet.
 
 
 
-Gradualmente, il prezzo è risalito fino a superare nuovamente i 4 dollari alla fine di dicembre, tanto che la stampa online è stata costretta ad ammettere che il Bitcoin non era morto. Il 21 dicembre, Timothy Lee [ha scritto](https://arstechnica.com/tech-policy/2011/12/bitcoins-comeback-should-western-union-be-afraid/) che "l'apparente stabilità della valuta nell'ultimo mese lo ha spinto a dare una seconda occhiata". In particolare, rifletteva sul valore del bitcoin, che vedeva non tanto come una "valuta alternativa", quanto come una "metacurrency" che consentiva un "trasferimento di ricchezza tra le nazioni a basso costo e privo di regolamentazione", in concorrenza con Western Union.
+Gradualmente, il prezzo è risalito fino a superare nuovamente i 4 dollari alla fine di dicembre, tanto che la stampa online è stata costretta ad ammettere che Bitcoin non era morto. Il 21 dicembre, Timothy Lee [ha scritto](https://arstechnica.com/tech-policy/2011/12/bitcoins-comeback-should-western-union-be-afraid/) che "l'apparente stabilità della valuta nell'ultimo mese lo ha spinto a dare una seconda occhiata". In particolare, rifletteva sul valore del bitcoin, che vedeva non tanto come una "valuta alternativa", quanto come una "metacurrency" che consentiva un "trasferimento di ricchezza tra le nazioni a basso costo e privo di regolamentazione", in concorrenza con Western Union.
 
 
 
@@ -1095,7 +1095,7 @@ Tuttavia, la piattaforma Mt. Gox è rimasta largamente dominante. Ciò rappresen
 
 
 
-Questo era il problema che uno sviluppatore gallese di 23 anni di nome Gareth Nelson (alias GarethNelsonUK sul forum) stava cercando di risolvere con un servizio di scambio istantaneo di valuta noto come BitInstant. Gareth ha scoperto il Bitcoin in primavera. Dopo essersi [interessato](https://bitcointalk.org/index.php?topic=8780.msg131564#msg131564) a mining, ha [incontrato](https://bitcointalk.org/index.php?topic=9198.msg132990#msg132990) personalmente la difficoltà di inviare denaro a Mt. Gox e ha effettuato uno scambio allo sportello per ottenere bitcoin.
+Questo era il problema che uno sviluppatore gallese di 23 anni di nome Gareth Nelson (alias GarethNelsonUK sul forum) stava cercando di risolvere con un servizio di scambio istantaneo di valuta noto come BitInstant. Gareth ha scoperto Bitcoin in primavera. Dopo essersi [interessato](https://bitcointalk.org/index.php?topic=8780.msg131564#msg131564) a mining, ha [incontrato](https://bitcointalk.org/index.php?topic=9198.msg132990#msg132990) personalmente la difficoltà di inviare denaro a Mt. Gox e ha effettuato uno scambio allo sportello per ottenere bitcoin.
 
 
 
@@ -1198,11 +1198,11 @@ Bitcoinica è stato [lanciato] (https://bitcointalk.org/index.php?topic=81581.ms
 
 
 
-Ha [sentito parlare](https://bitcointalk.org/index.php?topic=67521.msg785510#msg785510) di Bitcoin alla fine del 2010, ma non si è interessato fino all'estate successiva, quando la bolla speculativa era in pieno svolgimento. In agosto ha acquistato i suoi primi bitcoin a 8 dollari l'uno. E ha investito nell'economia del Bitcoin, sviluppando la Bitcoinica nel giro di una settimana.
+Ha [sentito parlare](https://bitcointalk.org/index.php?topic=67521.msg785510#msg785510) di Bitcoin alla fine del 2010, ma non si è interessato fino all'estate successiva, quando la bolla speculativa era in pieno svolgimento. In agosto ha acquistato i suoi primi bitcoin a 8 dollari l'uno. E ha investito nell'economia di Bitcoin, sviluppando Bitcoinica nel giro di una settimana.
 
 
 
-Ha presentato la Bitcoinica come una "Piattaforma di trading avanzata Bitcoin", "Elegante. Professionale. Rivoluzionaria". Inizialmente la piattaforma non gestiva i wallet, i bitcoin erano conservati in un conto dedicato sul conto di Mt. Gox. I depositi e i prelievi venivano effettuati in bitcoin, tramite codici riscattabili di Mt. Gox o tramite bonifico bancario internazionale.
+Ha presentato Bitcoinica come una "Piattaforma di trading avanzata Bitcoin", "Elegante. Professionale. Rivoluzionaria". Inizialmente la piattaforma non gestiva i wallet, i bitcoin erano conservati in un conto dedicato sul conto di Mt. Gox. I depositi e i prelievi venivano effettuati in bitcoin, tramite codici riscattabili di Mt. Gox o tramite bonifico bancario internazionale.
 
 
 
@@ -1218,7 +1218,7 @@ Ha presentato la Bitcoinica come una "Piattaforma di trading avanzata Bitcoin", 
 
 
 
-La piattaforma ospitava in particolare attività speculative: la leva finanziaria permetteva di moltiplicare i guadagni (e le perdite), il che si adattava ai grandi operatori disposti a scommettere tutto su un movimento di prezzo. Il successo speculativo fu tale che la liquidazione sulla piattaforma acquisì un proprio [soprannome] (https://bitcointalk.org/index.php?topic=49445.msg588749#msg588749): "get Zhou Tonged". Questa espressione [ha dato il nome](https://www.youtube.com/watch?v=kdvTkddp1F0) al canale Youtube *Zhou Tonged*, lanciato nel marzo 2012 per ospitare parodie musicali sul Bitcoin e sul trading. La piattaforma aveva anche il vantaggio di offrire vendite allo scoperto, consentendo agli operatori economici (come i commercianti che detengono bitcoin come riserva) di coprirsi da un eventuale calo del prezzo.
+La piattaforma ospitava in particolare attività speculative: la leva finanziaria permetteva di moltiplicare i guadagni (e le perdite), il che si adattava ai grandi operatori disposti a scommettere tutto su un movimento di prezzo. Il successo speculativo fu tale che la liquidazione sulla piattaforma acquisì un proprio [soprannome] (https://bitcointalk.org/index.php?topic=49445.msg588749#msg588749): "get Zhou Tonged". Questa espressione [ha dato il nome](https://www.youtube.com/watch?v=kdvTkddp1F0) al canale Youtube *Zhou Tonged*, lanciato nel marzo 2012 per ospitare parodie musicali su Bitcoin e sul trading. La piattaforma aveva anche il vantaggio di offrire vendite allo scoperto, consentendo agli operatori economici (come i commercianti che detengono bitcoin come riserva) di coprirsi da un eventuale calo del prezzo.
 
 
 
@@ -1230,7 +1230,7 @@ All'inizio di marzo 2012, Bitcoinica [accettava](https://bitcointalk.org/index.p
 
 
 
-Nel 2011, la mancanza di autorizzazione di Bitcoin ha portato i membri della comunità a immaginare usi che andassero oltre il semplice scambio monetario e la speculazione. Si trattava di liberalizzare gli investimenti fornendo un mezzo per emettere azioni e obbligazioni per le aziende dell'ecosistema. L'obiettivo era quello di aggirare le normative imposte dalla *Securities and Exchange Commission* degli Stati Uniti (l'equivalente americano dell'AMF), [sfruttando](http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) il carattere innovativo del Bitcoin e la vaghezza giuridica che lo circondava. L'idea era quella di creare un modello alternativo al sistema finanziario classico, che secondo l'approccio agorista poteva essere auto-inclusivo.
+Nel 2011, la mancanza di autorizzazione di Bitcoin ha portato i membri della comunità a immaginare usi che andassero oltre il semplice scambio monetario e la speculazione. Si trattava di liberalizzare gli investimenti fornendo un mezzo per emettere azioni e obbligazioni per le aziende dell'ecosistema. L'obiettivo era quello di aggirare le normative imposte dalla *Securities and Exchange Commission* degli Stati Uniti (l'equivalente americano dell'AMF), [sfruttando](http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) il carattere innovativo di Bitcoin e la vaghezza giuridica che lo circondava. L'idea era quella di creare un modello alternativo al sistema finanziario classico, che secondo l'approccio agorista poteva essere auto-inclusivo.
 
 
 
@@ -1270,7 +1270,7 @@ Nonostante ciò, la GLBSE ha continuato a operare. All'inizio dell'autunno, circ
 
 
 
-Un altro progetto di questo tipo emerso qualche tempo dopo fu MPEx, creazione di una figura molto controversa di nome Mircea Popescu. Rumeno, originario della Transilvania, era uno scrittore prolifico sul suo blog [Trilema](http://trilema.com/archives-categories/): scriveva su tutti gli argomenti (filosofia, politica, sessualità), con uno stile volutamente provocatorio, inizialmente in rumeno. Si è interessato al Bitcoin nell'estate del 2011 e ha iniziato a [parlarne](http://trilema.com/2011/ce-este-bitcoin/) sul suo blog.
+Un altro progetto di questo tipo emerso qualche tempo dopo fu MPEx, creazione di una figura molto controversa di nome Mircea Popescu. Rumeno, originario della Transilvania, era uno scrittore prolifico sul suo blog [Trilema](http://trilema.com/archives-categories/): scriveva su tutti gli argomenti (filosofia, politica, sessualità), con uno stile volutamente provocatorio, inizialmente in rumeno. Si è interessato a Bitcoin nell'estate del 2011 e ha iniziato a [parlarne](http://trilema.com/2011/ce-este-bitcoin/) sul suo blog.
 
 
 
@@ -1314,7 +1314,7 @@ Nonostante il morale basso, era un buon momento per costruire. Una serie di serv
 
 
 
-Inoltre, questo progresso economico è stato accompagnato dallo sviluppo tecnico sostenuto dai programmatori. Oltre all'evoluzione del software principale (argomento che tratteremo più avanti), il periodo è stato segnato anche da un miglioramento nell'uso del Bitcoin grazie allo sviluppo dei wallet. Questo è l'argomento del prossimo capitolo.
+Inoltre, questo progresso economico è stato accompagnato dallo sviluppo tecnico sostenuto dai programmatori. Oltre all'evoluzione del software principale (argomento che tratteremo più avanti), il periodo è stato segnato anche da un miglioramento nell'uso di Bitcoin grazie allo sviluppo dei wallet. Questo è l'argomento del prossimo capitolo.
 
 
 
@@ -1325,25 +1325,25 @@ Inoltre, questo progresso economico è stato accompagnato dallo sviluppo tecnico
 
 
 
-## Uso potenziato del Bitcoin
+## Uso potenziato di Bitcoin
 
 
 <chapterId>e73d02f8-c1cb-562b-ac80-8a6a672599fd</chapterId>
 
 
 
-Il selvaggio West della finanza è stato un momento di espansione del Bitcoin a un pubblico più vasto, meno alfabetizzato e non disposto a eseguire un programma pesante su un computer fisso. Per questo motivo, è stato il momento di migliorare l'esperienza dell'utente, come dimostra la comparsa di wallet leggeri e la moltiplicazione dei modi per memorizzare i bitcoin.
+Il selvaggio West della finanza è stato un momento di espansione di Bitcoin a un pubblico più vasto, meno alfabetizzato e non disposto a eseguire un programma pesante su un computer fisso. Per questo motivo, è stato il momento di migliorare l'esperienza dell'utente, come dimostra la comparsa di wallet leggeri e la moltiplicazione dei modi per memorizzare i bitcoin.
 
 
 
-Quando il Satoshi è andato in pensione nel dicembre 2010, i nuovi arrivati potevano scegliere solo tra il software principale e le applicazioni di custodia come MyBitcoin. Ma a partire dal 2011 sono apparse soluzioni alternative. I wallet software leggeri, come *Bitcoin Wallet per Android* e Electrum, hanno implementato una verifica semplificata dei pagamenti. I wallet web, come Blockchain.info, permettevano di gestire i fondi da un browser. I wallet cartacei offrivano la possibilità di conservare i fondi offline. Alcuni appassionati, come l'emblematico Casascius, svilupparono vettori fisici, che erano una sorta di incarnazione delle unità virtuali nel mondo reale.
+Quando Satoshi è andato in pensione nel dicembre 2010, i nuovi arrivati potevano scegliere solo tra il software principale e le applicazioni di custodia come MyBitcoin. Ma a partire dal 2011 sono apparse soluzioni alternative. I wallet software leggeri, come *Bitcoin Wallet per Android* e Electrum, hanno implementato una verifica semplificata dei pagamenti. I wallet web, come Blockchain.info, permettevano di gestire i fondi da un browser. I paper wallet offrivano la possibilità di conservare i fondi offline. Alcuni appassionati, come l'emblematico Casascius, svilupparono vettori fisici, che erano una sorta di incarnazione delle unità virtuali nel mondo reale.
 
 
 
 La custodia personale dei bitcoin era un problema complesso, soggetto al dilemma tra perdita e furto. Per detenere i propri bitcoin, era necessario sia mantenere l'accesso alle proprie chiavi private sia impedire ad altri di accedervi, due condizioni che non potevano mai essere raggiunte contemporaneamente. Pertanto, un accesso troppo facile rende il wallet troppo suscettibile al furto, come si è visto con l'hacking dei 25.000 BTC di Allinvain nel giugno 2011. Al contrario, un accesso troppo difficile rende i bitcoin più suscettibili di essere persi, come nel caso dei circa 7.000 BTC di Stefan Thomas [persi](https://bitcointalk.org/index.php?topic=5400.msg259238#msg259238) a causa di una crittografia troppo complessa. È a queste limitazioni che i progettisti del wallet hanno cercato di porre rimedio.
 
 
-In questo capitolo studieremo i diversi modi di utilizzare il Bitcoin emersi nel periodo citato. Discuteremo innanzitutto delle applicazioni di custodia e delle implementazioni software alternative. Poi, esamineremo più in dettaglio il caso dei wallet leggeri, che hanno portato tra l'altro allo sviluppo di una struttura deterministica per la conservazione delle chiavi private. Presenteremo i wallet cartacei e le forme fisiche di rappresentazione delle chiavi private che sono state un mezzo per tenere le criptovalute al sicuro dagli hacker. Concluderemo discutendo la nascita dei primi servizi di miscelazione di bitcoin, che hanno permesso di migliorare la privacy degli utenti.
+In questo capitolo studieremo i diversi modi di utilizzare Bitcoin emersi nel periodo citato. Discuteremo innanzitutto delle applicazioni di custodia e delle implementazioni software alternative. Poi, esamineremo più in dettaglio il caso dei wallet leggeri, che hanno portato tra l'altro allo sviluppo di una struttura deterministica per la conservazione delle chiavi private. Presenteremo i paper wallet e le forme fisiche di rappresentazione delle chiavi private che sono state un mezzo per tenere le criptovalute al sicuro dagli hacker. Concluderemo discutendo la nascita dei primi servizi di mixing di bitcoin, che hanno permesso di migliorare la privacy degli utenti.
 
 
 
@@ -1351,7 +1351,7 @@ In questo capitolo studieremo i diversi modi di utilizzare il Bitcoin emersi nel
 
 
 
-Nel 2011, l'applicazione di deposito più popolare, dopo la famigerata MyBitcoin, è stata Instawallet. Si trattava di un'applicazione web di facile utilizzo [lanciata](https://bitcointalk.org/index.php?topic=6785.msg99378#msg99378) il 29 aprile 2011 da Jan Vornberger, detto Jav, un giovane sviluppatore tedesco. Si trattava di un servizio di custodia: i fondi erano conservati "lato server", il che significa che Jav li gestiva. Non richiedeva alcuna registrazione; l'accesso avveniva tramite un URL, ad esempio `https://instawallet.org/w/rq2SB02ai6BnWaEBywAlP52cw7qwUAA`, che veniva generatedato durante la prima interazione con il servizio e salvato nel browser web. Agli utenti veniva assegnato un indirizzo Bitcoin che consentiva loro di inviare e ricevere fondi. I trasferimenti tra gli utenti di Instawallet venivano elaborati internamente ed erano quindi istantanei. Inoltre, a partire dalla fine di luglio, il servizio [ha integrato](https://bitcointalk.org/index.php?topic=32818.msg409974#msg409974) un processo di certificazione (chiamato "indirizzo verde") che consente di dimostrare ad altri operatori del mercato che una transazione emessa proviene da Instawallet, per garantire che venga elaborata più rapidamente, nell'ambito di un rapporto di fiducia.
+Nel 2011, l'applicazione di deposito più popolare, dopo la famigerata MyBitcoin, è stata Instawallet. Si trattava di un'applicazione web di facile utilizzo [lanciata](https://bitcointalk.org/index.php?topic=6785.msg99378#msg99378) il 29 aprile 2011 da Jan Vornberger, detto Jav, un giovane sviluppatore tedesco. Si trattava di un servizio di custodia: i fondi erano conservati "lato server", il che significa che Jav li gestiva. Non richiedeva alcuna registrazione; l'accesso avveniva tramite un URL, ad esempio `https://instawallet.org/w/rq2SB02ai6BnWaEBywAlP52cw7qwUAA`, che veniva dato durante la prima interazione con il servizio e salvato nel browser web. Agli utenti veniva assegnato un indirizzo Bitcoin che consentiva loro di inviare e ricevere fondi. I trasferimenti tra gli utenti di Instawallet venivano elaborati internamente ed erano quindi istantanei. Inoltre, a partire dalla fine di luglio, il servizio [ha integrato](https://bitcointalk.org/index.php?topic=32818.msg409974#msg409974) un processo di certificazione (chiamato "indirizzo verde") che consente di dimostrare ad altri operatori del mercato che una transazione emessa proviene da Instawallet, per garantire che venga elaborata più rapidamente, nell'ambito di un rapporto di fiducia.
 
 
 
@@ -1367,7 +1367,7 @@ Il 2 marzo 2012, Jav [ha annunciato](https://bitcointalk.org/index.php?topic=670
 
 
 
-Paymium SAS è una società francese [fondata] (https://web.archive.org/web/20111120231150/http://www.paymium.com/) da Gonzague Grandval, Pierre Noizat (alias Boussac sul forum) e David François nel giugno 2011. Inizialmente si è concentrata sul settore dei pagamenti e il suo prodotto principale era un'applicazione per la prevenzione delle frodi sulle carte bancarie. Grazie all'attrazione di Pierre Noizat e David François per il Bitcoin, è diventata gradualmente un'azienda focalizzata sul Bitcoin.
+Paymium SAS è una società francese [fondata] (https://web.archive.org/web/20111120231150/http://www.paymium.com/) da Gonzague Grandval, Pierre Noizat (alias Boussac sul forum) e David François nel giugno 2011. Inizialmente si è concentrata sul settore dei pagamenti e il suo prodotto principale era un'applicazione per la prevenzione delle frodi sulle carte bancarie. Grazie all'attrazione di Pierre Noizat e David François per Bitcoin, è diventata gradualmente un'azienda focalizzata su Bitcoin.
 
 
 
@@ -1394,7 +1394,7 @@ Era anche un buon momento per riscrivere il protocollo Bitcoin. Il software prin
 Satoshi Nakamoto era essenzialmente contrario a riscrivere il protocollo per non compromettere il funzionamento di mining. In un [messaggio](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611) pubblicato nel giugno 2010 sul forum, ha scritto:
 
 
-> "Non credo che una seconda implementazione compatibile del Bitcoin sarà mai una buona idea. Gran parte del progetto dipende dal fatto che tutti i nodi ottengano risultati esattamente identici, e una seconda implementazione sarebbe una minaccia per la rete. La licenza MIT è compatibile con tutte le altre licenze e con gli usi commerciali, quindi non c'è bisogno di riscriverla dal punto di vista delle licenze"
+> "Non credo che una seconda implementazione compatibile di Bitcoin sarà mai una buona idea. Gran parte del progetto dipende dal fatto che tutti i nodi ottengano risultati esattamente identici, e una seconda implementazione sarebbe una minaccia per la rete. La licenza MIT è compatibile con tutte le altre licenze e con gli usi commerciali, quindi non c'è bisogno di riscriverla dal punto di vista delle licenze"
 
 Tuttavia, questa osservazione non si applicava alle implementazioni parziali progettate per leggere la blockchain e fornire servizi agli utenti. Così, quando lo sviluppatore Mike Hearn gli si avvicinò con il suo progetto di implementazione Java nel marzo 2011, non si oppose a questa riprogrammazione del protocollo, [ritenendo](https://plan99.net/~mike/satoshi-emails/thread4.html) che "molta complessità può essere lasciata indietro in una riscrittura pulita con solo i requisiti del cliente".
 
@@ -1404,7 +1404,7 @@ L'implementazione software di Mike Hearn è BitCoinJ. Si tratta di un'implementa
 
 
 
-La riscrittura del protocollo Bitcoin non si è fermata qui. Nel luglio 2011, dopo la partenza del Satoshi, i membri della Bitcoin Consultancy Amir Taaki e Patrick Strateman [lanciarono](https://bitcointalk.org/index.php?topic=30646.msg384791#msg384791) Libbitcoin, un'implementazione in C++ che mirava alla massima estensibilità, scalabilità e configurabilità possibile. Il loro obiettivo era quello di "riscrivere bitcoin, renderlo super-pluggable, molto facile da fare e hackerare a ogni livello e molto configurabile". Il codice è pubblicato sotto una licenza open copyleft (AGPL), che obbliga coloro che riutilizzano il software a pubblicare il loro lavoro sotto la stessa licenza.
+La riscrittura del protocollo Bitcoin non si è fermata qui. Nel luglio 2011, dopo la partenza di Satoshi, i membri della Bitcoin Consultancy Amir Taaki e Patrick Strateman [lanciarono](https://bitcointalk.org/index.php?topic=30646.msg384791#msg384791) Libbitcoin, un'implementazione in C++ che mirava alla massima estensibilità, scalabilità e configurabilità possibile. Il loro obiettivo era quello di "riscrivere bitcoin, renderlo super-pluggable, molto facile da fare e hackerare a ogni livello e molto configurabile". Il codice è pubblicato sotto una licenza open copyleft (AGPL), che obbliga coloro che riutilizzano il software a pubblicare il loro lavoro sotto la stessa licenza.
 
 
 
@@ -1472,7 +1472,7 @@ Un altro wallet basato su BitCoinJ disponibile su PC era MultiBit, [creato](http
 
 
 
-Lo sforzo per migliorare l'usabilità del Bitcoin ha portato anche alla nascita dei *wallet deterministici*. Si tratta di wallet che applicano la derivazione delle chiavi: invece di essere generatedate individualmente a caso, come si faceva nel software principale, le chiavi private sono derivate in modo deterministico da informazioni (chiamate seed) utilizzando funzioni crittografiche. La conoscenza di queste informazioni consente all'utente di recuperare tutti i suoi fondi, semplificando notevolmente il backup del wallet. Non c'è bisogno di salvare il file `wallet.dat` più e più volte!
+Lo sforzo per migliorare l'usabilità di Bitcoin ha portato anche alla nascita dei *wallet deterministici*. Si tratta di wallet che applicano la derivazione delle chiavi: invece di essere date individualmente a caso, come si faceva nel software principale, le chiavi private sono derivate in modo deterministico da informazioni (chiamate seed) utilizzando funzioni crittografiche. La conoscenza di queste informazioni consente all'utente di recuperare tutti i suoi fondi, semplificando notevolmente il backup del wallet. Non c'è bisogno di salvare il file `wallet.dat` più e più volte!
 
 
 
@@ -1492,9 +1492,9 @@ Gregory Maxwell aveva molte idee su come migliorare l'uso di Bitcoin, e la deriv
 
 
 
-> "Il Bitcoin dovrebbe davvero offrire e utilizzare di default i wallet deterministici.   La sicurezza aggiuntiva di quelli attuali pre-generated è piuttosto piccola se si considera il modo in cui la maggior parte delle persone utilizza bitcoin e la responsabilità di danni dovuti a backup insufficienti e all'aumento della pressione per mantenere un singolo wallet online è enorme."
+> "Bitcoin dovrebbe davvero offrire e utilizzare di default i wallet deterministici.   La sicurezza aggiuntiva di quelli attuali pre-generati è piuttosto piccola se si considera il modo in cui la maggior parte delle persone utilizza bitcoin e la responsabilità di danni dovuti a backup insufficienti e all'aumento della pressione per mantenere un singolo wallet online è enorme."
 
-Sono stati previsti due tipi di derivazione. Un tipo (tipo 1) era semplice, in quanto generava chiavi private direttamente dal seed. L'altro (tipo 2) era più complesso, ma permetteva di derivare gli indirizzi da una chiave pubblica master ottenuta dal seed, senza accedere al seed stesso. In questo modo, il software di elaborazione dei pagamenti poteva assegnare al generate un indirizzo per ogni transazione, senza esporre le chiavi private.
+Sono stati previsti due tipi di derivazione. Un tipo (tipo 1) era semplice, in quanto generava chiavi private direttamente dal seed. L'altro (tipo 2) era più complesso, ma permetteva di derivare gli indirizzi da una chiave pubblica master ottenuta dal seed, senza accedere al seed stesso. In questo modo, il software di elaborazione dei pagamenti poteva assegnare un indirizzo per ogni transazione, senza esporre le chiavi private.
 
 
 
@@ -1556,7 +1556,7 @@ Il client si collega a una rete di server speciali per recuperare le transazioni
 
 
 
-Il 16 dicembre, il Electrum [ha integrato](https://bitcointalk.org/index.php?topic=50936.msg652435#msg652435) la derivazione di tipo 2, in modo da rendere gli indirizzi freddi come generated, senza accesso al seed. Nell'ottobre 2012, Thomas Voegtlin [avrebbe aggiunto](https://bitcointalk.org/index.php?topic=50936.msg1302941#msg1302941) anche la verifica semplificata dei pagamenti al Electrum, rendendolo uno dei migliori wallet leggeri dell'ecosistema.
+Il 16 dicembre, il Electrum [ha integrato](https://bitcointalk.org/index.php?topic=50936.msg652435#msg652435) la derivazione di tipo 2, in modo da generare gli indirizzi senza accesso al seed. Nell'ottobre 2012, Thomas Voegtlin [avrebbe aggiunto](https://bitcointalk.org/index.php?topic=50936.msg1302941#msg1302941) anche la verifica semplificata dei pagamenti al Electrum, rendendolo uno dei migliori wallet leggeri dell'ecosistema.
 
 
 
@@ -1600,7 +1600,7 @@ Il primo sviluppatore a utilizzare questa libreria è stato un membro del forum 
 
 
 
-La libreria BitcoinJS è stata [utilizzata] (https://web.archive.org/web/20180611012256/https://github.com/zootreeves/blockchain.info) anche da Benjamin Reeves, un giovane sviluppatore britannico che viveva a York, conosciuto sul forum come Piuk. Molto recluso, era anche uno stacanovista. In agosto ha [sviluppato](https://bitcointalk.org/index.php?topic=40264.msg500726#msg500726) un esploratore di blocchi che "include blocchi orfani che possono essere usati per tracciare eventuali doppie spese" e "stima il volume effettivo di BTC transato (non solo BTC inviato)", che ospita sul suo sito web personale. È in concorrenza con il Bitcoin Block Explorer (BBE) di Theymos e con [ABE](https://bitcointalk.org/index.php?topic=22785.msg286515#msg286515), un'alternativa open-source destinata a essere ospitata dagli utenti. In ottobre, il sito [ha ottenuto](https://bitcointalk.org/index.php?topic=40264.msg576916#msg576916) un proprio nome di dominio: Blockchain.info. È diventato rapidamente l'esploratore preferito dai membri della comunità.
+La libreria BitcoinJS è stata [utilizzata] (https://web.archive.org/web/20180611012256/https://github.com/zootreeves/blockchain.info) anche da Benjamin Reeves, un giovane sviluppatore britannico che viveva a York, conosciuto sul forum come Piuk. Molto recluso, era anche uno stacanovista. In agosto ha [sviluppato](https://bitcointalk.org/index.php?topic=40264.msg500726#msg500726) un esploratore di blocchi che "include blocchi orfani che possono essere usati per tracciare eventuali doppie spese" e "stima il volume effettivo di BTC transato (non solo BTC inviato)", che ospita sul suo sito web personale. È in concorrenza con Bitcoin Block Explorer (BBE) di Theymos e con [ABE](https://bitcointalk.org/index.php?topic=22785.msg286515#msg286515), un'alternativa open-source destinata a essere ospitata dagli utenti. In ottobre, il sito [ha ottenuto](https://bitcointalk.org/index.php?topic=40264.msg576916#msg576916) un proprio nome di dominio: Blockchain.info. È diventato rapidamente l'esploratore preferito dai membri della comunità.
 
 
 
@@ -1624,7 +1624,7 @@ Il 1° dicembre, Ben Reeves [ha integrato](http://bitcointalk.org/index.php?topi
 
 
 
-La praticità del wallet lo rende molto popolare. Il servizio ha attirato rapidamente migliaia di utenti, raggiungendo [5.000](https://bitcointalk.org/index.php?topic=40264.msg790252#msg790252) conti aperti nel marzo 2012. Il volume giornaliero sulla blockchain, che conta i bitcoin spostati dalle transazioni emesse da Blockchain.info (My Wallet e API) e sovrastima i trasferimenti effettivi, è cresciuto costantemente. All'inizio di maggio è esploso grazie all'attività generated del gioco di dadi online SatoshiDICE, superando i 18.000 bitcoin, ovvero 90.000 dollari a quel punto! A luglio, il volume totale movimentato da Blockchain.info sarebbe stato [stimato](https://web.archive.org/web/20120720035456/https://blockchain.info/wallet/) a 13,6 milioni di dollari.
+La praticità del wallet lo rende molto popolare. Il servizio ha attirato rapidamente migliaia di utenti, raggiungendo [5.000](https://bitcointalk.org/index.php?topic=40264.msg790252#msg790252) conti aperti nel marzo 2012. Il volume giornaliero sulla blockchain, che conta i bitcoin spostati dalle transazioni emesse da Blockchain.info (My Wallet e API) e sovrastima i trasferimenti effettivi, è cresciuto costantemente. All'inizio di maggio è esploso grazie all'attività creata del gioco di dadi online SatoshiDICE, superando i 18.000 bitcoin, ovvero 90.000 dollari a quel punto! A luglio, il volume totale movimentato da Blockchain.info sarebbe stato [stimato](https://web.archive.org/web/20120720035456/https://blockchain.info/wallet/) a 13,6 milioni di dollari.
 
 
 
@@ -1636,19 +1636,19 @@ La praticità del wallet lo rende molto popolare. Il servizio ha attirato rapida
 
 
 
-### Cold e carta wallet
+### Cold storage e paper wallet
 
 
 
-il 2011 ha visto anche la nascita dei wallet cartacei, un'applicazione del concetto di conservazione a freddo. Detenere bitcoin significa semplicemente tenere alcune informazioni al riparo da rischi, sia per perdita accidentale che per curiosità altrui (furto). Queste informazioni - la chiave privata - possono essere [generated](https://bitcointalk.org/index.php?topic=1610.msg19131#msg19131) da dispositivi che non sono mai connessi a Internet. Questa modalità è nota come cold storage [a partire dal 2011](https://en.bitcoin.it/w/index.php?title=Cold_storage&oldid=16769).
+il 2011 ha visto anche la nascita dei paper wallet, un'applicazione del concetto di cold storage. Detenere bitcoin significa semplicemente tenere alcune informazioni al riparo da rischi, sia per perdita accidentale che per curiosità altrui (furto). Queste informazioni - la chiave privata - possono essere [generate](https://bitcointalk.org/index.php?topic=1610.msg19131#msg19131) da dispositivi che non sono mai connessi a Internet. Questa modalità è nota come cold storage [a partire dal 2011](https://en.bitcoin.it/w/index.php?title=Cold_storage&oldid=16769).
 
 
 
-L'archiviazione Cold può essere ottenuta memorizzando le chiavi private su un supporto digitale di backup, come una chiavetta USB. Ma un metodo molto più pratico è il wallet cartaceo, che consiste semplicemente in un foglio di carta contenente la chiave privata e l'indirizzo pubblico. La chiave può essere generated da qualsiasi software wallet, purché il dispositivo su cui si trova rimanga offline.
+Il cold storage può essere ottenuto memorizzando le chiavi private su un supporto digitale di backup, come una chiavetta USB. Ma un metodo molto più pratico è il paper wallet, che consiste semplicemente in un foglio di carta contenente la chiave privata e l'indirizzo pubblico. La chiave può essere generata da qualsiasi software wallet, purché il dispositivo su cui si trova rimanga offline.
 
 
 
-Una carta wallet può anche essere generated utilizzando uno strumento specifico. Questo tipo di strumento è stato lanciato nell'estate del 2011. Il principale è stato BitAddress, sviluppato da un certo Pointbiz, che è stato [lanciato](https://web.archive.org/web/20111102021042/https://bitcointalk.org/index.php?topic=43496.0) a settembre. Si trattava di uno strumento basato su browser e codificato in Javascript. L'interfaccia invitava l'utente a creare entropia per ottimizzare la generazione di numeri pseudocasuali. La chiave privata e l'indirizzo risultanti possono essere stampati per essere conservati. Naturalmente è possibile (ed è consigliato!) utilizzarlo senza una connessione a Internet, salvando la pagina HTML.
+Una paper wallet può anche essere generata utilizzando uno strumento specifico. Questo tipo di strumento è stato lanciato nell'estate del 2011. Il principale è stato BitAddress, sviluppato da un certo Pointbiz, che è stato [lanciato](https://web.archive.org/web/20111102021042/https://bitcointalk.org/index.php?topic=43496.0) a settembre. Si trattava di uno strumento basato su browser e codificato in Javascript. L'interfaccia invitava l'utente a creare entropia per ottimizzare la generazione di numeri pseudocasuali. La chiave privata e l'indirizzo risultanti possono essere stampati per essere conservati. Naturalmente è possibile (ed è consigliato!) utilizzarlo senza una connessione a Internet, salvando la pagina HTML.
 
 
 
@@ -1656,7 +1656,7 @@ Una carta wallet può anche essere generated utilizzando uno strumento specifico
 
 
 
-*Carta wallet generated con BitAddress nel settembre 2011 (fonte: [capture](https://web.archive.org/web/20120519160806/https://bitcointalk.org/index.php?topic=40264.140) da BitAddress.org)*
+*Paper wallet generato con BitAddress nel settembre 2011 (fonte: [capture](https://web.archive.org/web/20120519160806/https://bitcointalk.org/index.php?topic=40264.140) da BitAddress.org)*
 
 
 
@@ -1664,7 +1664,7 @@ Un altro strumento apparso in questo periodo è stato VanityGen, [creato](https:
 
 
 
-Infine, il metodo più efficace di protezione contro il furto è il "cervello wallet", che prevede la memorizzazione di una frase segreta che dà accesso ai bitcoin memorizzati all'indirizzo corrispondente. Ad esempio, la frase segreta può essere sottoposta a hash con SHA-256 per ottenere la chiave privata che consente di spendere i fondi. Questo metodo è stato [proposto](https://bitcointalk.org/index.php?topic=35082.msg436289#msg436289) da Casascius nell'agosto 2011 e [evidenziato](https://www.forbes.com/sites/jonmatonis/2012/03/12/brainwallet-the-ultimate-in-mobile-money/) su Forbes da Jon Matonis nel marzo 2012. Tuttavia, è molto insicuro se l'entropia non è sufficiente. Ed è, ovviamente, soggetta ai limiti della memoria umana; è più una dimostrazione pratica della potenza del Bitcoin che un'applicazione sostenibile.
+Infine, il metodo più efficace di protezione contro il furto è il "cervello wallet", che prevede la memorizzazione di una frase segreta che dà accesso ai bitcoin memorizzati all'indirizzo corrispondente. Ad esempio, la frase segreta può essere sottoposta a hash con SHA-256 per ottenere la chiave privata che consente di spendere i fondi. Questo metodo è stato [proposto](https://bitcointalk.org/index.php?topic=35082.msg436289#msg436289) da Casascius nell'agosto 2011 e [evidenziato](https://www.forbes.com/sites/jonmatonis/2012/03/12/brainwallet-the-ultimate-in-mobile-money/) su Forbes da Jon Matonis nel marzo 2012. Tuttavia, è molto insicuro se l'entropia non è sufficiente. Ed è, ovviamente, soggetta ai limiti della memoria umana; è più una dimostrazione pratica della potenza di Bitcoin che un'applicazione sostenibile.
 
 
 
@@ -1672,7 +1672,7 @@ Infine, il metodo più efficace di protezione contro il furto è il "cervello wa
 
 
 
-Un'altra possibilità per la conservazione a freddo è la conservazione fisica delle chiavi private, che prevede l'incorporazione di chiavi private o firme in oggetti specifici. Questa idea è emersa già nell'estate del 2010, con la [proposta](https://bitcointalk.org/index.php?topic=737.msg7990#msg7990) di Gavin Andresen di "stampare i bitcoin" (originale: "Printing bitcoins") in modo da poterli scambiare di persona, ma è stata realizzata solo nel 2011.
+Un'altra possibilità per il cold storage è la conservazione fisica delle chiavi private, che prevede l'incorporazione di chiavi private o firme in oggetti specifici. Questa idea è emersa già nell'estate del 2010, con la [proposta](https://bitcointalk.org/index.php?topic=737.msg7990#msg7990) di Gavin Andresen di "stampare i bitcoin" (originale: "Printing bitcoins") in modo da poterli scambiare di persona, ma è stata realizzata solo nel 2011.
 
 
 
@@ -1700,7 +1700,7 @@ Bitbills ha riscosso un certo successo, ma Doug Feigelson ha faticato a tenere i
 
 
 
-Mike Caldwell era uno sviluppatore americano di 33 anni che viveva nei sobborghi di Salt Lake City, nello Utah, e gestiva una società di automazione aziendale chiamata [Swipeclock](https://www.linkedin.com/company/swipeclock/). Il suo pseudonimo, Casascius, è una forma latinizzata di CASAS, le iniziali del detto *call a spade a spade*. Razionalista, era affascinato dalla crittografia ed era attratto dall'aspetto tecnico del Bitcoin. Per un certo periodo si cimentò nel mining.
+Mike Caldwell era uno sviluppatore americano di 33 anni che viveva nei sobborghi di Salt Lake City, nello Utah, e gestiva una società di automazione aziendale chiamata [Swipeclock](https://www.linkedin.com/company/swipeclock/). Il suo pseudonimo, Casascius, è una forma latinizzata di CASAS, le iniziali del detto *call a spade a spade*. Razionalista, era affascinato dalla crittografia ed era attratto dall'aspetto tecnico di Bitcoin. Per un certo periodo si cimentò nel mining.
 
 
 
@@ -1712,7 +1712,7 @@ Mike Caldwell era uno sviluppatore americano di 33 anni che viveva nei sobborghi
 
 
 
-Casascius era particolarmente interessato all'archiviazione di bitcoin e quindi ai wallet. Ha sviluppato una [utility](https://bitcointalk.org/index.php?topic=25141.msg312005#msg312005) per convertire una chiave privata in un indirizzo Bitcoin, chiavi personalizzate generate e creare una derivazione seed. Ma soprattutto, come [ha spiegato](https://bitcointalk.org/index.php?topic=2657.msg36011#msg36011), si è prefisso di "creare un vero bitcoin tangibile che trasmetta effettivamente BTC". Così ha iniziato a [vendere](https://bitcointalk.org/index.php?topic=21878.msg275000#msg275000) wallet cartacei da giugno sul suo sito web personale.
+Casascius era particolarmente interessato all'archiviazione di bitcoin e quindi ai wallet. Ha sviluppato una [utility](https://bitcointalk.org/index.php?topic=25141.msg312005#msg312005) per convertire una chiave privata in un indirizzo Bitcoin, chiavi personalizzate generate e creare una derivazione seed. Ma soprattutto, come [ha spiegato](https://bitcointalk.org/index.php?topic=2657.msg36011#msg36011), si è prefisso di "creare un vero bitcoin tangibile che trasmetta effettivamente BTC". Così ha iniziato a [vendere](https://bitcointalk.org/index.php?topic=21878.msg275000#msg275000) paper wallet da giugno sul suo sito web personale.
 
 
 
@@ -1741,27 +1741,27 @@ I bitcoin di Casascius avranno un enorme successo nei due anni di distribuzione.
 
 
 
-### I primi servizi di miscelazione delle monete
+### I primi servizi di coin mixing
 
 
 
-Infine, è stato in questo periodo che sono iniziate le domande sulla riservatezza del Bitcoin. Poiché il Bitcoin è stato inizialmente presentato come "anonimo", molte persone hanno pensato di non avere nulla da temere. Ma il registro è pubblico, quindi i fondi possono essere rintracciati e associati a un'identità, il che porta a un punto interrogativo.
+Infine, è stato in questo periodo che sono iniziate le domande sulla riservatezza di Bitcoin. Poiché Bitcoin è stato inizialmente presentato come "anonimo", molte persone hanno pensato di non avere nulla da temere. Ma il registro è pubblico, quindi i fondi possono essere rintracciati e associati a un'identità, il che porta a un punto interrogativo.
 
 
 
-Con la diffusione di Silk Road e la sua adozione da parte di WikiLeaks nell'estate del 2011, le preoccupazioni sull'anonimato [sono cresciute](https://bitcointalk.org/index.php?topic=175.msg57305#msg57305) [costantemente](https://web.archive.org/web/20110610205500/http://bitcoinweekly.com/articles/the-battle-is-on-silk-road-vs-government-and-bitcoin-anonymity). Il 24 luglio, Martin Harrigan e Fergal Reid, due ricercatori irlandesi dell'University College di Dublino, hanno [pre-pubblicato](https://web.archive.org/web/20110725131444/https://anonymity-in-bitcoin.blogspot.com/2011/07/bitcoin-is-not-anonymous.html) uno studio che dimostrava che il Bitcoin non era così anonimo come molti immaginavano. Condurre transazioni riservate non era impossibile, ma era più difficile di quanto potesse sembrare inizialmente.
+Con la diffusione di Silk Road e la sua adozione da parte di WikiLeaks nell'estate del 2011, le preoccupazioni sull'anonimato [sono cresciute](https://bitcointalk.org/index.php?topic=175.msg57305#msg57305) [costantemente](https://web.archive.org/web/20110610205500/http://bitcoinweekly.com/articles/the-battle-is-on-silk-road-vs-government-and-bitcoin-anonymity). Il 24 luglio, Martin Harrigan e Fergal Reid, due ricercatori irlandesi dell'University College di Dublino, hanno [pre-pubblicato](https://web.archive.org/web/20110725131444/https://anonymity-in-bitcoin.blogspot.com/2011/07/bitcoin-is-not-anonymous.html) uno studio che dimostrava che Bitcoin non era così anonimo come molti immaginavano. Condurre transazioni riservate non era impossibile, ma era più difficile di quanto potesse sembrare inizialmente.
 
 
 
-Per risolvere questo problema e interrompere la tracciabilità dei fondi, la soluzione è stata la miscelazione delle monete, che ha permesso di oscurare le tracce delle transazioni. Questo tipo di miscelazione è stato implementato da miscelatori centralizzati, noti come *mixer* o *tumblers*. Tre di questi si sono distinti dalla massa e hanno dimostrato di non essere truffe.
+Per risolvere questo problema e interrompere la tracciabilità dei fondi, la soluzione è stata la coin mixing, che ha permesso di oscurare le tracce delle transazioni. Questo tipo di mixing è stato implementato da mixer centralizzati, noti come *mixer* o *tumblers*. Tre di questi si sono distinti dalla massa e hanno dimostrato di non essere truffe.
 
 
 
-Il primo è BitLaundry. Questo servizio è stato [lanciato](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823) nel settembre 2010 da Peter Vessenes, un imprenditore americano laureato in crittografia che ha scoperto l'esistenza di Bitcoin all'epoca dello slashdoting. Il frullatore [forniva](https://maltemoeser.de/paper/money-laundering.pdf#page=5) all'utente un indirizzo monouso, al quale venivano inviati i fondi da anonimizzare. I bitcoin venivano poi rispediti sotto forma di diverse monete (UTXO), all'interno di una transazione a entrata multipla che includeva i bitcoin di altri utenti, rendendo efficace la miscelazione. Le commissioni applicate erano pari a circa il 2,5% dell'importo in questione. Nel maggio 2011, intuendo le complicazioni legali che potevano derivare da questa attività, Peter Vessenes [trasferì](https://bitcointalk.org/index.php?topic=963.msg122955#msg122955) il servizio a Mike Gogulski, un attivista noto per essere apolide, avendo rinunciato alla cittadinanza statunitense senza possederne un'altra.
+Il primo è BitLaundry. Questo servizio è stato [lanciato](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823) nel settembre 2010 da Peter Vessenes, un imprenditore americano laureato in crittografia che ha scoperto l'esistenza di Bitcoin all'epoca dello slashdoting. Il tumbler [forniva](https://maltemoeser.de/paper/money-laundering.pdf#page=5) all'utente un indirizzo monouso, al quale venivano inviati i fondi da anonimizzare. I bitcoin venivano poi rispediti sotto forma di diverse monete (UTXO), all'interno di una transazione a entrata multipla che includeva i bitcoin di altri utenti, rendendo efficace il mixing. Le commissioni applicate erano pari a circa il 2,5% dell'importo in questione. Nel maggio 2011, intuendo le complicazioni legali che potevano derivare da questa attività, Peter Vessenes [trasferì](https://bitcointalk.org/index.php?topic=963.msg122955#msg122955) il servizio a Mike Gogulski, un attivista noto per essere apolide, avendo rinunciato alla cittadinanza statunitense senza possederne un'altra.
 
 
 
-Il secondo frullatore è stato Bitcoin Fog (il "bitcoin scrambler"), [creato](https://web.archive.org/web/20121102102447/https://bitcointalk.org/index.php?topic=50037.0) nell'ottobre 2011 da Roman Sterlingov, un ventitreenne russo-svedese. A differenza di BitLaundry, questo servizio richiedeva agli utenti di detenere un saldo del conto locale e poi di prelevare i fondi per ridurre la tracciabilità, mescolandoli con i bitcoin di altri utenti. I prelievi venivano effettuati in ritardo, in più fasi a indirizzi diversi, in un periodo compreso tra le 6 e le 96 ore. Le commissioni erano comprese tra l'1% e il 3%.
+Il secondo tumbler è stato Bitcoin Fog (il "bitcoin scrambler"), [creato](https://web.archive.org/web/20121102102447/https://bitcointalk.org/index.php?topic=50037.0) nell'ottobre 2011 da Roman Sterlingov, un ventitreenne russo-svedese. A differenza di BitLaundry, questo servizio richiedeva agli utenti di detenere un saldo del conto locale e poi di prelevare i fondi per ridurre la tracciabilità, mescolandoli con i bitcoin di altri utenti. I prelievi venivano effettuati in ritardo, in più fasi a indirizzi diversi, in un periodo compreso tra le 6 e le 96 ore. Le commissioni erano comprese tra l'1% e il 3%.
 
 
 
@@ -1777,7 +1777,7 @@ Il terzo era di tipo speciale, in quanto si trattava del mixer integrato nel Blo
 
 
 
-La proliferazione dei miscelatori centralizzati ha avuto l'effetto di catalizzare la riflessione sulla miscelazione decentralizzata delle monete, iniziata nell'estate del 2011 con una proposta [proposal](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) avanzata da Hashcoin. Ciò ha portato alla [formalizzazione](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902) di CoinJoin da parte di Gregory Maxwell nel 2013. Ma questa è un'altra storia...
+La proliferazione dei mixer centralizzati ha avuto l'effetto di catalizzare la riflessione sulla coin mixing decentralizzato, iniziata nell'estate del 2011 con una proposta [proposal](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) avanzata da Hashcoin. Ciò ha portato alla [formalizzazione](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902) di CoinJoin da parte di Gregory Maxwell nel 2013. Ma questa è un'altra storia...
 
 
 
@@ -1785,34 +1785,34 @@ La proliferazione dei miscelatori centralizzati ha avuto l'effetto di catalizzar
 
 
 
-Il periodo 2011-2012 è stato molto intenso per lo sviluppo di varie soluzioni per l'utilizzo del Bitcoin. Oltre alle applicazioni di custodia, abbiamo assistito alla nascita di wallet software come *Bitcoin Wallet per Android* e Electrum, wallet web come Blockchain.info, generatori di wallet cartacei come BitAddress, e rappresentazioni fisiche di bitcoin come Bitbills e Casascius Coin. Sono stati sviluppati diversi servizi di miscelazione per offrire agli utenti una maggiore riservatezza.
+Il periodo 2011-2012 è stato molto intenso per lo sviluppo di varie soluzioni per l'utilizzo di Bitcoin. Oltre alle applicazioni di custodia, abbiamo assistito alla nascita di wallet software come *Bitcoin Wallet per Android* e Electrum, wallet web come Blockchain.info, generatori di paper wallet come BitAddress, e rappresentazioni fisiche di bitcoin come Bitbills e Casascius Coin. Sono stati sviluppati diversi servizi di mixing per offrire agli utenti una maggiore riservatezza.
 
 
 
-Inoltre, il periodo ha visto lo sviluppo di wallet deterministici, basati sulla derivazione delle chiavi da un singolo dato chiamato seed . Il modello è stato migliorato e standardizzato nel BIP 32 all'inizio del 2012, per aggiungere una gerarchia a questa derivazione. Ma il movimento non si è fermato qui, poiché successivamente sono state pubblicate altre proposte. Il BIP 39, pubblicato nel settembre 2013, ha standardizzato l'uso della frase mnemonica, sulla falsariga del Electrum. I BIP 43 e 44, redatti nell'aprile 2014, hanno standardizzato la struttura dei wallet che detengono più criptovalute e più conti. Queste proposte sono state avanzate da Marek Palatinus (Slush) e Pavol Rusnak (Stick), che stavano lavorando alla realizzazione del primo wallet hardware, il Bitcoin Trezor.
+Inoltre, il periodo ha visto lo sviluppo di wallet deterministici, basati sulla derivazione delle chiavi da un singolo dato chiamato seed . Il modello è stato migliorato e standardizzato nel BIP 32 all'inizio del 2012, per aggiungere una gerarchia a questa derivazione. Ma il movimento non si è fermato qui, poiché successivamente sono state pubblicate altre proposte. Il BIP 39, pubblicato nel settembre 2013, ha standardizzato l'uso della frase mnemonica, sulla falsariga del Electrum. I BIP 43 e 44, redatti nell'aprile 2014, hanno standardizzato la struttura dei wallet che detengono più criptovalute e più conti. Queste proposte sono state avanzate da Marek Palatinus (Slush) e Pavol Rusnak (Stick), che stavano lavorando alla realizzazione del primo wallet hardware, Bitcoin Trezor.
 
 
 
-Tuttavia, i wallet non sono stati l'unico settore a registrare progressi significativi, ma anche le piscine mining. Infatti, questi si sono diffusi in tutto il 2011, con l'intensificarsi delle difficoltà del mining, portando infine alla generalizzazione di questo approccio al mining. Nel prossimo capitolo, ci concentreremo su questo aspetto centrale della storia del Bitcoin.
+Tuttavia, i wallet non sono stati l'unico settore a registrare progressi significativi, ma anche le mining pool. Infatti, questi si sono diffusi in tutto il 2011, con l'intensificarsi delle difficoltà del mining, portando infine alla generalizzazione di questo approccio al mining. Nel prossimo capitolo, ci concentreremo su questo aspetto centrale della storia di Bitcoin.
 
 
 
-## L'ascesa delle piscine mining
+## L'ascesa delle mining pool
 
 
 <chapterId>7bd97db9-1c72-53f1-800f-6cee80f57908</chapterId>
 
 
 
-L'epoca del Far West americano è stata caratterizzata dalla corsa all'oro, ovvero la grande migrazione di avventurieri che speravano di fare fortuna in seguito alla scoperta di giacimenti d'oro in California nel 1848, e si è scoperto che il Bitcoin ha vissuto un fenomeno simile tra il 2010 e il 2013. Il Bitcoin è stato associato al metallo prezioso fin dall'inizio, l'estrazione di nuovi bitcoin è stata chiamata mining e gli strumenti software e hardware sono stati chiamati minatori, una denominazione che si è estesa ai giocatori incaricati di aggiungere i blocchi alla catena. È naturale, quindi, che l'attività iniziale del mining sia stata soggetta a una sorta di "corsa all'oro digitale", attirando individui appassionati che, grazie al loro interesse finanziario, hanno contribuito a renderla più efficiente nel tempo.
+L'epoca del Far West americano è stata caratterizzata dalla corsa all'oro, ovvero la grande migrazione di avventurieri che speravano di fare fortuna in seguito alla scoperta di giacimenti d'oro in California nel 1848, e si è scoperto che Bitcoin ha vissuto un fenomeno simile tra il 2010 e il 2013. Il Bitcoin è stato associato al metallo prezioso fin dall'inizio, l'estrazione di nuovi bitcoin è stata chiamata mining e gli strumenti software e hardware sono stati chiamati miner, una denominazione che si è estesa ai giocatori incaricati di aggiungere i blocchi alla catena. È naturale, quindi, che l'attività iniziale del mining sia stata soggetta a una sorta di "corsa all'oro digitale", attirando individui appassionati che, grazie al loro interesse finanziario, hanno contribuito a renderla più efficiente nel tempo.
 
 
 
-Nell'autunno 2010, il primo afflusso di minatori ha portato all'utilizzo diffuso della GPU (unità di elaborazione grafica) mining, molto più redditizia della CPU (unità di elaborazione centrale) mining. Tuttavia, questo progresso tecnico ha aumentato la difficoltà della rete a tal punto che i piccoli minatori non potevano più sperare di trovare un blocco in tempi ragionevoli. Ciò ha portato alla creazione di gruppi di minatori, come BitcoinCZ Mining, lo Slush Pool. Lo slancio non si è fermato qui: con l'aumento del prezzo nel 2011, l'afflusso di minatori è continuato e il pool mining si è rapidamente normalizzato.
+Nell'autunno 2010, il primo afflusso di miner ha portato all'utilizzo diffuso della GPU (unità di elaborazione grafica) mining, molto più redditizia della CPU (unità di elaborazione centrale) mining. Tuttavia, questo progresso tecnico ha aumentato la difficoltà della rete a tal punto che i piccoli miner non potevano più sperare di trovare un blocco in tempi ragionevoli. Ciò ha portato alla creazione di gruppi di miner, come BitcoinCZ Mining, lo Slush Pool. Lo slancio non si è fermato qui: con l'aumento del prezzo nel 2011, l'afflusso di miner è continuato e la mining pool si è rapidamente normalizzato.
 
 
 
-In questo capitolo analizzeremo la nascita dei vari pool mining, che spesso avevano modalità operative diverse. Discuteremo di come questa ascesa abbia portato a una certa centralizzazione della potenza di calcolo della rete, che a sua volta ha portato alla progettazione del protocollo decentralizzato P2Pool, che ha reso possibile la creazione di generate bitcoin senza dipendere direttamente da un operatore. Infine, parleremo del protocollo Stratum mining, che ha sostituito il modo rudimentale di fare le cose che esisteva dal 2010.
+In questo capitolo analizzeremo la nascita dei vari mining pool, che spesso avevano modalità operative diverse. Discuteremo di come questa ascesa abbia portato a una certa centralizzazione della potenza di calcolo della rete, che a sua volta ha portato alla progettazione del protocollo decentralizzato P2Pool, che ha reso possibile la creazione di generate bitcoin senza dipendere direttamente da un operatore. Infine, parleremo del protocollo Stratum mining, che ha sostituito il modo rudimentale di fare le cose che esisteva dal 2010.
 
 
 
@@ -1832,11 +1832,11 @@ Tasso di hash totale della rete Bitcoin tra aprile 2011 e luglio 2012 (fonte: [C
 
 
 
-Questo aumento della potenza di calcolo della rete ha fatto sì che il *gruppo mining* non fosse più praticabile, poiché la varianza era troppo grande per la maggior parte delle installazioni. Per questo motivo la maggior parte dei minatori è stata costretta a formare cooperative mining, o *mining pool*, per appianare le proprie entrate. Affittano la loro potenza di hashing a un operatore, che seleziona le specifiche dei blocchi e le transazioni da includere.
+Questo aumento della potenza di calcolo della rete ha fatto sì che il *gruppo mining* non fosse più praticabile, poiché la varianza era troppo grande per la maggior parte delle installazioni. Per questo motivo la maggior parte dei miner è stata costretta a formare cooperative mining, o *mining pool*, per appianare le proprie entrate. Affittano la loro potenza di hashing a un operatore, che seleziona le specifiche dei blocchi e le transazioni da includere.
 
 
 
-È in questo contesto che, nel dicembre 2010, Marek Palatinus (meglio conosciuto come Slush) [ha lanciato](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520) BitcoinCZ Mining, un servizio di "pool mining" che ha raccolto il 3,5% del tasso di hash della rete in pochi giorni. Questo successo è stato presto emulato e il 2011 ha visto la standardizzazione del pool mining, illustrata dall'apertura di un [gran numero](https://en.bitcoin.it/w/index.php?title=Comparison_of_mining_pools&oldid=21595) di pool concorrenti.
+È in questo contesto che, nel dicembre 2010, Marek Palatinus (meglio conosciuto come Slush) [ha lanciato](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520) BitcoinCZ Mining, un servizio di "mining pool" che ha raccolto il 3,5% del tasso di hash della rete in pochi giorni. Questo successo è stato presto emulato e il 2011 ha visto la standardizzazione della mining pool, illustrata dall'apertura di un [gran numero](https://en.bitcoin.it/w/index.php?title=Comparison_of_mining_pools&oldid=21595) di pool concorrenti.
 
 
 
@@ -1848,7 +1848,7 @@ I pool Mining emersi nel 2011 hanno adottato diversi [metodi di remunerazione](h
 
 
 
-Inizialmente, lo Slush Pool applicava un semplice modello proporzionale: i suoi utenti venivano ricompensati per ogni blocco estratto, in proporzione alle quote trovate dall'ultimo blocco. Da questa ricompensa veniva dedotta una commissione del 2%, ovvero 1 BTC per blocco. Questo modello era tuttavia leggermente difettoso, in quanto i minatori [potevano](https://bitcointalk.org/index.php?topic=3165.msg44357#msg44357) "barare" (e ottenere circa il 28% di bitcoin in più) disconnettendosi dal pool una volta che un certo numero di quote era stato inviato in un ciclo e reindirizzando la loro potenza di calcolo al proprio account o a un altro pool (una pratica [nota](https://bitcointalk.org/index.php?topic=26866.msg337932#msg337932) come *pool hopping*). Per questo motivo Slush [ha introdotto](https://bitcointalk.org/index.php?topic=1976.msg50002#msg50002), il 4 febbraio 2011, un sistema di punteggio "a prova di imbroglio" che dava più peso alle azioni più recenti del ciclo che a quelle più vecchie.
+Inizialmente, lo Slush Pool applicava un semplice modello proporzionale: i suoi utenti venivano ricompensati per ogni blocco estratto, in proporzione alle quote trovate dall'ultimo blocco. Da questa ricompensa veniva dedotta una commissione del 2%, ovvero 1 BTC per blocco. Questo modello era tuttavia leggermente difettoso, in quanto i miner [potevano](https://bitcointalk.org/index.php?topic=3165.msg44357#msg44357) "barare" (e ottenere circa il 28% di bitcoin in più) disconnettendosi dal pool una volta che un certo numero di quote era stato inviato in un ciclo e reindirizzando la loro potenza di calcolo al proprio account o a un altro pool (una pratica [nota](https://bitcointalk.org/index.php?topic=26866.msg337932#msg337932) come *pool hopping*). Per questo motivo Slush [ha introdotto](https://bitcointalk.org/index.php?topic=1976.msg50002#msg50002), il 4 febbraio 2011, un sistema di punteggio "a prova di imbroglio" che dava più peso alle azioni più recenti del ciclo che a quelle più vecchie.
 
 
 
@@ -1860,11 +1860,11 @@ Il 27 febbraio, un nuovo pool chiamato Deepbit fu [aperto](https://web.archive.o
 
 
 
-Successivamente, nel corso dell'anno sono state aperte decine di piscine. Tra queste c'era BTC Guild, una pool con sede negli Stati Uniti che è stata [creata](https://web.archive.org/web/20111127113730/https://bitcointalk.org/index.php?topic=7760.0) nel maggio 2011. Era gestito da un minatore californiano che si faceva chiamare Eleuthria (una distorsione della parola greca ἐλευθερία, eleuthería, che significa "libertà") e utilizzava un modello PPS puro. I pool DeepBit e BTC Guild sono presto diventati seri concorrenti del BitcoinCZ.
+Successivamente, nel corso dell'anno sono state aperte decine di pool. Tra queste c'era BTC Guild, una pool con sede negli Stati Uniti che è stata [creata](https://web.archive.org/web/20111127113730/https://bitcointalk.org/index.php?topic=7760.0) nel maggio 2011. Era gestito da un miner californiano che si faceva chiamare Eleuthria (una distorsione della parola greca ἐλευθερία, eleuthería, che significa "libertà") e utilizzava un modello PPS puro. I pool DeepBit e BTC Guild sono presto diventati seri concorrenti di BitcoinCZ.
 
 
 
-Tuttavia, il modello proporzionale e il PPS non erano gli unici ad essere adottati. Oltre allo Slush score, i minatori stavano concependo metodi di pagamento più complessi, come il PPLNS, il metodo geometrico o l'SMPPS, che mirano a correggere le carenze dei modelli semplici. Questi metodi venivano sperimentati da vari gruppi mining che cercavano di differenziarsi dalle organizzazioni consolidate.
+Tuttavia, il modello proporzionale e il PPS non erano gli unici ad essere adottati. Oltre allo Slush score, i miner stavano concependo metodi di pagamento più complessi, come il PPLNS, il metodo geometrico o l'SMPPS, che mirano a correggere le carenze dei modelli semplici. Questi metodi venivano sperimentati da vari gruppi mining che cercavano di differenziarsi dalle organizzazioni consolidate.
 
 
 
@@ -1872,11 +1872,11 @@ Il 15 giugno, un nuovo arrivato con lo pseudonimo di Wuked [ha lanciato](https:/
 
 
 
-Sempre a giugno (il 13), un certo Josh Zerlan (alias Inaba) aprì la piscina EclipseTM , che ebbe il merito di sperimentare [integrando](https://bitcointalk.org/index.php?topic=16385.msg364399#msg364399) il metodo geometrico a partire da metà luglio. Quest'ultimo era stato [descritto](https://bitcointalk.org/index.php?topic=4787.msg69890#msg69890) qualche mese prima dal matematico israeliano Meni Rosenfeld. Il principio era quello di utilizzare un punteggio (per far rimanere i partecipanti) e di diminuire geometricamente la ricompensa per azione. A settembre, EclipseTM [adottò](https://bitcointalk.org/index.php?topic=16385.msg528287#msg528287) il "doppio metodo geometrico", ideato ancora una volta da Meni Rosenfeld, che [costituiva](https://bitcointalk.org/index.php?topic=39497.msg481864#msg481864) un sistema ibrido tra il modello PPLNS e il metodo geometrico. Questo complesso sistema sarebbe stato [adottato](https://bitcointalk.org/index.php?topic=14085.msg667220#msg667220) in dicembre anche da Ozcoin, un servizio australiano di mining bulk [lanciato](https://bitcointalk.org/index.php?topic=14085.msg193967#msg193967) il 9 giugno da un certo Graeme Tee.
+Sempre a giugno (il 13), un certo Josh Zerlan (alias Inaba) aprì il pool EclipseTM , che ebbe il merito di sperimentare [integrando](https://bitcointalk.org/index.php?topic=16385.msg364399#msg364399) il metodo geometrico a partire da metà luglio. Quest'ultimo era stato [descritto](https://bitcointalk.org/index.php?topic=4787.msg69890#msg69890) qualche mese prima dal matematico israeliano Meni Rosenfeld. Il principio era quello di utilizzare un punteggio (per far rimanere i partecipanti) e di diminuire geometricamente la ricompensa per azione. A settembre, EclipseTM [adottò](https://bitcointalk.org/index.php?topic=16385.msg528287#msg528287) il "doppio metodo geometrico", ideato ancora una volta da Meni Rosenfeld, che [costituiva](https://bitcointalk.org/index.php?topic=39497.msg481864#msg481864) un sistema ibrido tra il modello PPLNS e il metodo geometrico. Questo complesso sistema sarebbe stato [adottato](https://bitcointalk.org/index.php?topic=14085.msg667220#msg667220) in dicembre anche da Ozcoin, un servizio australiano di mining bulk [lanciato](https://bitcointalk.org/index.php?topic=14085.msg193967#msg193967) il 9 giugno da un certo Graeme Tee.
 
 
 
-Altri pool saranno in grado di sfruttare al meglio la situazione. Un esempio è stato il gruppo americano mining BitMinter, [lanciato](https://bitcointalk.org/index.php?topic=22432.msg281686#msg281686) a giugno, che aveva la particolarità di avere un proprio software mining. Da segnalare anche il pool russo 50BTC.com, [creato](https://bitcointalk.org/index.php?topic=54673.msg651025#msg651025) a dicembre, che avrebbe fornito uno strumento di monitoraggio delle attività per i minatori chiamato Mining Explorer.
+Altri pool saranno in grado di sfruttare al meglio la situazione. Un esempio è stato il gruppo americano mining BitMinter, [lanciato](https://bitcointalk.org/index.php?topic=22432.msg281686#msg281686) a giugno, che aveva la particolarità di avere un proprio software mining. Da segnalare anche il pool russo 50BTC.com, [creato](https://bitcointalk.org/index.php?topic=54673.msg651025#msg651025) a dicembre, che avrebbe fornito uno strumento di monitoraggio delle attività per i miner chiamato Mining Explorer.
 
 
 
@@ -1892,11 +1892,11 @@ Si noti anche che l'emergere di criptovalute alternative (che analizzeremo in un
 
 
 
-### Eligius, la piscina di Luke-Jr
+### Eligius, il pool di Luke-Jr
 
 
 
-Una cooperativa originale del mining è Eligius, aperta dallo sviluppatore Luke-Jr nell'aprile 2011. Luke-Jr (o Luke Dashjr, [pronunciato](https://www.youtube.com/watch?v=JJF5Gnro1GU) "dasher") è un personaggio atipico nella storia del Bitcoin. Devoto cattolico romano [sedevacantista](https://dashjr.org/catholic/sedevacantist.php), è sposato e padre di una famiglia numerosa: ha avuto due figli nel 2007 e ne avrà altri tre entro il 2017. È un programmatore di software libero, avendo sviluppato un proprio sistema operativo, chiamato [Utopios](https://web.archive.org/web/20041013023456/http://utopios.org/) e basato sulla distribuzione Gentoo.
+Una cooperativa originale del mining è Eligius, aperta dallo sviluppatore Luke-Jr nell'aprile 2011. Luke-Jr (o Luke Dashjr, [pronunciato](https://www.youtube.com/watch?v=JJF5Gnro1GU) "dasher") è un personaggio atipico nella storia di Bitcoin. Devoto cattolico romano [sedevacantista](https://dashjr.org/catholic/sedevacantist.php), è sposato e padre di una famiglia numerosa: ha avuto due figli nel 2007 e ne avrà altri tre entro il 2017. È un programmatore di software libero, avendo sviluppato un proprio sistema operativo, chiamato [Utopios](https://web.archive.org/web/20041013023456/http://utopios.org/) e basato sulla distribuzione Gentoo.
 
 
 
@@ -1912,7 +1912,7 @@ Luke [ha saputo](https://www.youtube.com/watch?v=3sXei0Iwf4Q) di Bitcoin il 31 d
 
 
 
-Il 27 aprile, Luke [ha creato](https://bitcointalk.org/index.php?topic=6667.msg97375#msg97375) una piscina mining chiamata Eligius, che ha presentato come "Nuova piscina sperimentale". Il nome è quello latino di Saint Éloi, vescovo di Noyon del VII secolo e ministro delle finanze del re Dagoberto I dei Franchi. Il software lato server si chiama [Eloipool](https://web.archive.org/web/20120701151930/http://gitorious.org/bitcoin/eloipool). Tra le altre cose, Saint Éloi è considerato il santo patrono dei minatori.
+Il 27 aprile, Luke [ha creato](https://bitcointalk.org/index.php?topic=6667.msg97375#msg97375) una mining pool chiamata Eligius, che ha presentato come "Nuova pool sperimentale". Il nome è quello latino di Saint Éloi, vescovo di Noyon del VII secolo e ministro delle finanze del re Dagoberto I dei Franchi. Il software lato server si chiama [Eloipool](https://web.archive.org/web/20120701151930/http://gitorious.org/bitcoin/eloipool). Tra le altre cose, Saint Éloi è considerato il santo patrono dei miner.
 
 
 
@@ -1924,7 +1924,7 @@ Eligius ha anche innovato con la pratica del "coinbase signing", che consiste ne
 
 
 
-A partire dal 5 agosto, Luke-Jr ha utilizzato questo campo specifico per [aggiungere](https://ourbigbook.com/cirosantilli/cool-data-embedded-in-the-bitcoin-blockchain/prayer-wars) messaggi di natura religiosa nei blocchi generated a bordo piscina. In linea con la fede cattolica tradizionalista dell'operatore, questi includevano preghiere in latino: le Lodi Divine, il *Je vous salue Marie*, il *Salve Regina*, il *Notre Père*, la Preghiera del Cuore e così via. Ma c'erano anche testi in inglese: gli Atti di Contrizione, Fede, Speranza e Carità, il Confiteor, la preghiera all'Angelo Custode, meditazioni dal Rosario del Sacro Cuore di Gesù, brani del Vangelo, commemorazioni di santi (come quella di Agostino d'Ippona il 28 agosto).
+A partire dal 5 agosto, Luke-Jr ha utilizzato questo campo specifico per [aggiungere](https://ourbigbook.com/cirosantilli/cool-data-embedded-in-the-bitcoin-blockchain/prayer-wars) messaggi di natura religiosa nei blocchi generati dalla pool. In linea con la fede cattolica tradizionalista dell'operatore, questi includevano preghiere in latino: le Lodi Divine, il *Je vous salue Marie*, il *Salve Regina*, il *Notre Père*, la Preghiera del Cuore e così via. Ma c'erano anche testi in inglese: gli Atti di Contrizione, Fede, Speranza e Carità, il Confiteor, la preghiera all'Angelo Custode, meditazioni dal Rosario del Sacro Cuore di Gesù, brani del Vangelo, commemorazioni di santi (come quella di Agostino d'Ippona il 28 agosto).
 
 
 
@@ -1940,7 +1940,7 @@ Due settimane dopo, queste preghiere sono state notate da un membro della comuni
 
 
 
-Tuttavia, Luke ne ha tenuto conto e ha dato ai minori la possibilità di [richiedere](https://web.archive.org/web/20111001015612/http://eligius.st/wiki/index.php/FAQ#What_messages_are_included_in_payout_coinbases.3F) di inserire i propri messaggi, previa approvazione. Vengono aggiunte diverse voci umoristiche, tra cui un [rickroll](https://mempool.space/block/00000000000005b71bc4c0cf24a6f00e04980c627e9409266983bd37acbe14d3). Luca abbandona questa pratica all'inizio di settembre.
+Tuttavia, Luke ne ha tenuto conto e ha dato ai miner la possibilità di [richiedere](https://web.archive.org/web/20111001015612/http://eligius.st/wiki/index.php/FAQ#What_messages_are_included_in_payout_coinbases.3F) di inserire i propri messaggi, previa approvazione. Vengono aggiunte diverse voci umoristiche, tra cui un [rickroll](https://mempool.space/block/00000000000005b71bc4c0cf24a6f00e04980c627e9409266983bd37acbe14d3). Luke abbandona questa pratica all'inizio di settembre.
 
 
 
@@ -1948,7 +1948,7 @@ Tuttavia, Luke ne ha tenuto conto e ha dato ai minori la possibilità di [richie
 
 
 
-Con l'aumento del numero di pool nel 2011, si è rapidamente posta la questione della centralizzazione. La costruzione dei blocchi era delegata a un operatore, che sceglieva i parametri e selezionava le transazioni da confermare, azioni che potevano entrare in conflitto con le preferenze dei partecipanti. Inoltre, i pool più grandi erano favoriti rispetto a quelli più piccoli, poiché la varianza del mining si applicava anche ai gruppi di minatori, che dovevano essere abbastanza grandi per evitare di essere colpiti. La conseguente centralizzazione del mining preoccupava naturalmente i membri della comunità, che la vedevano come una minaccia al buon funzionamento del Bitcoin.
+Con l'aumento del numero di pool nel 2011, si è rapidamente posta la questione della centralizzazione. La costruzione dei blocchi era delegata a un operatore, che sceglieva i parametri e selezionava le transazioni da confermare, azioni che potevano entrare in conflitto con le preferenze dei partecipanti. Inoltre, i pool più grandi erano favoriti rispetto a quelli più piccoli, poiché la varianza del mining si applicava anche ai gruppi di miner, che dovevano essere abbastanza grandi per evitare di essere colpiti. La conseguente centralizzazione del mining preoccupava naturalmente i membri della comunità, che la vedevano come una minaccia al buon funzionamento di Bitcoin.
 
 
 
@@ -1960,7 +1960,7 @@ L'attività trasparente dei pool pubblici (come Deepbit, che [pubblicava](https:
 
 
 
-*Distribuzione del tasso di hash del Bitcoin il 6 luglio 2011 (fonte: [archivio](https://web.archive.org/web/20110706215910/http://www.bitcoinwatch.com/) da Bitcoin Watch)*
+*Distribuzione del tasso di hash di Bitcoin il 6 luglio 2011 (fonte: [archivio](https://web.archive.org/web/20110706215910/http://www.bitcoinwatch.com/) da Bitcoin Watch)*
 
 
 
@@ -1984,7 +1984,7 @@ Il dominio di Deepbit ha raggiunto l'apice in estate, con una quota misurata di 
 
 
 
-Un modo per combattere la centralizzazione indotta dall'uso diffuso del pool mining è stato il servizio decentralizzato P2Pool. Quest'ultimo fu [creato](https://bitcointalk.org/index.php?topic=61131.msg231927#msg231927) il 17 giugno 2011 da Forrest Voight, uno sviluppatore floridiano di 18 anni, che usava lo pseudonimo ForrestV e frequentava molto IRC [da marzo](https://buildingbitcoin.org/bitcoin-dev/log-2011-03-09.html). Egli ha presentato P2Pool come un "pool decentralizzato, resistente ai DoS e a prova di hop".
+Un modo per combattere la centralizzazione indotta dall'uso diffuso della mining pool è stato il servizio decentralizzato P2Pool. Quest'ultimo fu [creato](https://bitcointalk.org/index.php?topic=61131.msg231927#msg231927) il 17 giugno 2011 da Forrest Voight, uno sviluppatore floridiano di 18 anni, che usava lo pseudonimo ForrestV e frequentava molto IRC [da marzo](https://buildingbitcoin.org/bitcoin-dev/log-2011-03-09.html). Egli ha presentato P2Pool come un "pool decentralizzato, resistente ai DoS e a prova di hop".
 
 
 
@@ -1996,7 +1996,7 @@ Un modo per combattere la centralizzazione indotta dall'uso diffuso del pool min
 
 
 
-Il modello [si è basato] (https://im.forre.st/pb/85341005.txt) su una "sharechain, mantenuta dai minatori partecipanti collegati peer-to-peer, simile alla blockchain di Bitcoin. Ogni azione contiene l'impronta digitale dell'azione precedente, che collega le azioni tra loro e garantisce l'integrità dell'insieme. La difficoltà (inizialmente 600 volte inferiore a quella della rete principale) viene regolata regolarmente per garantire un intervallo medio di 5 secondi. Il metodo di remunerazione è il pagamento in base alle ultime N azioni (PPLNS), effettuato direttamente nella transazione di ricompensa, ogni volta che viene trovato un blocco.
+Il modello [si è basato] (https://im.forre.st/pb/85341005.txt) su una "sharechain, mantenuta dai miner partecipanti collegati peer-to-peer, simile alla blockchain di Bitcoin. Ogni azione contiene l'impronta digitale dell'azione precedente, che collega le azioni tra loro e garantisce l'integrità dell'insieme. La difficoltà (inizialmente 600 volte inferiore a quella della rete principale) viene regolata regolarmente per garantire un intervallo medio di 5 secondi. Il metodo di remunerazione è il pagamento in base alle ultime N azioni (PPLNS), effettuato direttamente nella transazione di ricompensa, ogni volta che viene trovato un blocco.
 
 
 
@@ -2016,7 +2016,7 @@ Il 24 agosto Forrest [propose](https://bitcointalk.org/index.php?topic=39088.msg
 
 
 
-Da dicembre in poi, il sistema è migliorato e ha attirato l'attenzione della comunità tecnica, tra cui [Mike Hearn](https://bitcointalk.org/index.php?topic=61131.msg641090#msg641090), [Gregory Maxwell](https://bitcointalk.org/index.php?topic=18313.msg712952#msg712952) e [Charlie Lee](https://bitcointalk.org/index.php?topic=18313.msg712976#msg712976). Inoltre, sono state fatte delle donazioni (https://bitcointalk.org/index.php?topic=57027.msg679955#msg679955) per incoraggiare i minatori a passare attraverso il pool. Grazie a questa nuova attenzione, il tasso di hash gestito dal pool [è finalmente decollato](https://organofcorti.blogspot.com/2012/11/52-p2pool-achieving-expectations.html): è passato da pochi gigahash al secondo all'inizio del 2012, a 100 GH/s a febbraio e a 350 GH/s alla fine di marzo. A quel punto, il sistema rappresentava il 3% della potenza di calcolo totale della rete! Tuttavia, P2Pool avrebbe faticato a prendere piede, poiché il suo funzionamento era intrinsecamente più complesso rispetto agli altri pool.
+Da dicembre in poi, il sistema è migliorato e ha attirato l'attenzione della comunità tecnica, tra cui [Mike Hearn](https://bitcointalk.org/index.php?topic=61131.msg641090#msg641090), [Gregory Maxwell](https://bitcointalk.org/index.php?topic=18313.msg712952#msg712952) e [Charlie Lee](https://bitcointalk.org/index.php?topic=18313.msg712976#msg712976). Inoltre, sono state fatte delle donazioni (https://bitcointalk.org/index.php?topic=57027.msg679955#msg679955) per incoraggiare i miner a passare attraverso il pool. Grazie a questa nuova attenzione, il tasso di hash gestito dal pool [è finalmente decollato](https://organofcorti.blogspot.com/2012/11/52-p2pool-achieving-expectations.html): è passato da pochi gigahash al secondo all'inizio del 2012, a 100 GH/s a febbraio e a 350 GH/s alla fine di marzo. A quel punto, il sistema rappresentava il 3% della potenza di calcolo totale della rete! Tuttavia, P2Pool avrebbe faticato a prendere piede, poiché il suo funzionamento era intrinsecamente più complesso rispetto agli altri pool.
 
 
 
@@ -2024,11 +2024,11 @@ Da dicembre in poi, il sistema è migliorato e ha attirato l'attenzione della co
 
 
 
-La diffusione del pool mining ha portato anche allo sviluppo di nuovi protocolli di comunicazione. Nel 2011, i pool erano basati sul rudimentale comando `getwork` e sul *long polling*, una [tecnica](https://bitcointalk.org/index.php?topic=3889.msg63957#msg63957) derivata dalla programmazione di rete che consentiva (tra le altre cose) di ridurre le quote stantie annunciando rapidamente nuovi blocchi ai minatori. Tuttavia, questa operazione richiedeva molta banda, sia dal lato del server che da quello del client, tanto che la situazione diventava insostenibile con l'aumento del numero di connessioni.
+La diffusione della mining pool ha portato anche allo sviluppo di nuovi protocolli di comunicazione. Nel 2011, i pool erano basati sul rudimentale comando `getwork` e sul *long polling*, una [tecnica](https://bitcointalk.org/index.php?topic=3889.msg63957#msg63957) derivata dalla programmazione di rete che consentiva (tra le altre cose) di ridurre le quote stantie annunciando rapidamente nuovi blocchi ai miner. Tuttavia, questa operazione richiedeva molta banda, sia dal lato del server che da quello del client, tanto che la situazione diventava insostenibile con l'aumento del numero di connessioni.
 
 
 
-Il 2012 è stato quindi dedicato alla definizione di uno standard di comunicazione per il pool mining. Il primo standard a emergere è stata la chiamata RPC `getblocktemplate` (GBT), la cui funzione principale era quella di restituire la struttura del blocco al partecipante. Si trattava di un miglioramento di `getmemorypool` che era stato [proposto](https://en.bitcoin.it/w/index.php?title=BIP_0022&oldid=24328) da Luke-Jr il 28 febbraio 2012. Il comando GBT è descritto in BIP [22](https://github.com/bitcoin/bips/blob/master/bip-0022.mediawiki) e [23](https://github.com/bitcoin/bips/blob/master/bip-0023.mediawiki). Il metodo è stato [utilizzato](https://github.com/bitcoin/bitcoin/pull/936#issuecomment-5804140) a partire da maggio dai pool Eligius ed EclipseMC all'interno del proprio software server. È stato [integrato](https://github.com/bitcoin/bitcoin/pull/936/files) nel codice del software principale di Bitcoin in agosto ed era [presente](https://bitcointalk.org/index.php?topic=110243.msg1199467#msg1199467) nella versione 0.7, rilasciata in settembre.
+Il 2012 è stato quindi dedicato alla definizione di uno standard di comunicazione per la mining pool. Il primo standard a emergere è stata la chiamata RPC `getblocktemplate` (GBT), la cui funzione principale era quella di restituire la struttura del blocco al partecipante. Si trattava di un miglioramento di `getmemorypool` che era stato [proposto](https://en.bitcoin.it/w/index.php?title=BIP_0022&oldid=24328) da Luke-Jr il 28 febbraio 2012. Il comando GBT è descritto in BIP [22](https://github.com/bitcoin/bips/blob/master/bip-0022.mediawiki) e [23](https://github.com/bitcoin/bips/blob/master/bip-0023.mediawiki). Il metodo è stato [utilizzato](https://github.com/bitcoin/bitcoin/pull/936#issuecomment-5804140) a partire da maggio dai pool Eligius ed EclipseMC all'interno del proprio software server. È stato [integrato](https://github.com/bitcoin/bitcoin/pull/936/files) nel codice del software principale di Bitcoin in agosto ed era [presente](https://bitcointalk.org/index.php?topic=110243.msg1199467#msg1199467) nella versione 0.7, rilasciata in settembre.
 
 
 
@@ -2036,7 +2036,7 @@ Tuttavia, in parallelo è apparso un altro standard. Eleuthria (BTC Guild) e Slu
 
 
 
-Lo standard proposto da Slush è il protocollo Stratum mining (o StratumMP). Il suo nome [significa](https://bitcointalk.org/index.php?topic=55842.msg667768#msg667768) "strato" in latino ed era già usato per riferirsi al [software server](https://bitcointalk.org/index.php?topic=55842.msg664197#msg664197) del BitcoinCZ. Stratum [permetteva](https://web.archive.org/web/20120921014023/http://mining.bitcoin.cz/stratum-mining) ai client leggeri dei partecipanti di connettersi al nodo del pool e di comunicare in modo efficiente con esso. Il protocollo è stato ampiamente ispirato da quello sviluppato per il Electrum.
+Lo standard proposto da Slush è il protocollo Stratum mining (o StratumMP). Il suo nome [significa](https://bitcointalk.org/index.php?topic=55842.msg667768#msg667768) "strato" in latino ed era già usato per riferirsi al [software server](https://bitcointalk.org/index.php?topic=55842.msg664197#msg664197) di BitcoinCZ. Stratum [permetteva](https://web.archive.org/web/20120921014023/http://mining.bitcoin.cz/stratum-mining) ai client leggeri dei partecipanti di connettersi al nodo del pool e di comunicare in modo efficiente con esso. Il protocollo è stato ampiamente ispirato da quello sviluppato per il Electrum.
 
 
 Questa pubblicazione ha suscitato le reazioni di alcuni sviluppatori della comunità, come [Luke-Jr](https://bitcointalk.org/index.php?topic=108854.msg1183283#msg1183283) e [Gregory Maxwell](https://bitcointalk.org/index.php?topic=108854.msg1183301#msg1183301). In particolare, Stratum è stato criticato per essere stato "sviluppato a porte chiuse" e per essere in competizione con uno standard che era stato discusso apertamente per mesi e che era già in fase di distribuzione, ovvero GMP/GBT. Marek Palatinus [ha risposto] (https://bitcointalk.org/index.php?topic=108854.msg1183400#msg1183400) scrivendo che entrambe le soluzioni hanno i loro vantaggi e svantaggi, una più leggera e semplice dell'altra: ha affermato che "vedo la differenza tra Stratum e GMP come il client Electrum e il client Satoshi".
@@ -2059,7 +2059,7 @@ Nel corso dei mesi, Stratum si è affermato come il protocollo utilizzato dalla 
 
 
 
-Di conseguenza, l'organizzazione del mining è cambiata notevolmente nel 2011 e nel 2012, diventando l'attività di pool piuttosto che di minatori singoli. Si è assistito a una vera e propria proliferazione di gruppi mining, molto diversi tra loro sia in termini di filosofia che di metodo di remunerazione (proporzionale, PPS, ecc.) Questo cambiamento ha tuttavia portato a una centralizzazione dell'attività mining, che ha favorito la creazione del modello di pool decentralizzato P2Pool nel luglio 2011. Anche la comunicazione all'interno dei pool è migliorata, culminando nella comparsa del protocollo Stratum leggero nel settembre 2012.
+Di conseguenza, l'organizzazione del mining è cambiata notevolmente nel 2011 e nel 2012, diventando l'attività di pool piuttosto che di miner singoli. Si è assistito a una vera e propria proliferazione di gruppi mining, molto diversi tra loro sia in termini di filosofia che di metodo di remunerazione (proporzionale, PPS, ecc.) Questo cambiamento ha tuttavia portato a una centralizzazione dell'attività mining, che ha favorito la creazione del modello di pool decentralizzato P2Pool nel luglio 2011. Anche la comunicazione all'interno dei pool è migliorata, culminando nella comparsa del protocollo Stratum leggero nel settembre 2012.
 
 
 
@@ -2071,7 +2071,7 @@ Questa evoluzione finale, [pianificata](https://www.metzdowd.com/pipermail/crypt
 
 
 
-Tuttavia, è una storia che merita un po' più di attenzione, cosa che faremo nel nostro prossimo corso sull'ascesa del Bitcoin. Torniamo ora alla fine del 2011, per concentrarci sulla principale controversia che ha segnato lo sviluppo del protocollo in quel periodo: la battaglia sulla retribuzione del Hash.
+Tuttavia, è una storia che merita un po' più di attenzione, cosa che faremo nel nostro prossimo corso sull'ascesa di Bitcoin. Torniamo ora alla fine del 2011, per concentrarci sulla principale controversia che ha segnato lo sviluppo del protocollo in quel periodo: la battaglia per il Pay to Script Hash.
 
 
 
@@ -2082,15 +2082,15 @@ Tuttavia, è una storia che merita un po' più di attenzione, cosa che faremo ne
 
 
 
-Dopo la partenza del Satoshi Nakamoto, lo sviluppo del software è stato ripreso dalla comunità, che ha dovuto coordinarsi sotto la supervisione di Gavin Andresen. In particolare, è stato necessario migliorare la programmabilità del Bitcoin, che era stata temporaneamente limitata dall'introduzione delle regole di relè sulla rete.
+Dopo la partenza di Satoshi Nakamoto, lo sviluppo del software è stato ripreso dalla comunità, che ha dovuto coordinarsi sotto la supervisione di Gavin Andresen. In particolare, è stato necessario migliorare la programmabilità di Bitcoin, che era stata temporaneamente limitata dall'introduzione delle regole di relè sulla rete.
 
 
 
-Nell'inverno 2011-2012, è sorta una controversia sull'implementazione della firma multipla nel Bitcoin. Riguardava, tra l'altro, lo schema noto come "Pay to Script Hash", o P2SH. Pete Rizzo e Aaron van Wirdum [avrebbero](https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war) chiamato questo conflitto "la battaglia per P2SH". Questa fu la prima grande disputa sull'evoluzione del protocollo e la prima a sollevare la questione della governance.
+Nell'inverno 2011-2012, è sorta una controversia sull'implementazione della multisig in Bitcoin. Riguardava, tra l'altro, lo schema noto come "Pay to Script Hash", o P2SH. Pete Rizzo e Aaron van Wirdum [avrebbero](https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war) chiamato questo conflitto "la battaglia per P2SH". Questa fu la prima grande disputa sull'evoluzione del protocollo e la prima a sollevare la questione della governance.
 
 
 
-In questo capitolo ripercorriamo questo episodio unico nella storia tecnica del Bitcoin. In primo luogo, analizzeremo lo sviluppo del software e l'idea della firma multipla. In seguito analizzeremo le varie proposte di implementazione di questa tecnica, a partire da OP\_EVAL e P2SH. Infine, parleremo di come Pay to Script Hash sia stato attivato, nonostante le numerose difficoltà incontrate.
+In questo capitolo ripercorriamo questo episodio unico nella storia tecnica di Bitcoin. In primo luogo, analizzeremo lo sviluppo del software e l'idea della multisig. In seguito analizzeremo le varie proposte di implementazione di questa tecnica, a partire da OP\_EVAL e P2SH. Infine, parleremo di come Pay to Script Hash sia stato attivato, nonostante le numerose difficoltà incontrate.
 
 
 
@@ -2110,7 +2110,7 @@ Dopo il rilascio della versione 0.4 del software il 23 settembre, che ha segnato
 
 
 
-Gavin è ancora il responsabile del progetto, ma è stato aiutato da diverse persone. A ottobre 2011, gli sviluppatori "titolari" di Bitcoin (cioè quelli [elencati](https://web.archive.org/web/20111022025640/http://www.bitcoin.org/) su Bitcoin.org) sono Gavin Andresen, Pieter Wuille, Nils Schneider, Jeff Garzik e Wladimir van der Laan. Questi programmatori dovevano rappresentare il Bitcoin a livello tecnico e potevano essere contattati via e-mail. Erano manutentori, che [beneficiavano](https://bitcointalk.org/index.php?topic=1774750.msg17700787#msg17700787) dell'accesso in scrittura al repository GitHub. Gregory Maxwell [si è unito](https://web.archive.org/web/20120223113428/http://www.bitcoin.org/) nel febbraio 2012 e Nils Schneider ha smesso di contribuire nel maggio dello stesso anno. Il team di sviluppatori risultante [sarebbe rimasto](https://bitcointalk.org/index.php?topic=1774750.msg17700787#msg17700787) al suo posto fino al 2014.
+Gavin è ancora il responsabile del progetto, ma è stato aiutato da diverse persone. A ottobre 2011, gli sviluppatori "titolari" di Bitcoin (cioè quelli [elencati](https://web.archive.org/web/20111022025640/http://www.bitcoin.org/) su Bitcoin.org) sono Gavin Andresen, Pieter Wuille, Nils Schneider, Jeff Garzik e Wladimir van der Laan. Questi programmatori dovevano rappresentare Bitcoin a livello tecnico e potevano essere contattati via e-mail. Erano manutentori, che [beneficiavano](https://bitcointalk.org/index.php?topic=1774750.msg17700787#msg17700787) dell'accesso in scrittura al repository GitHub. Gregory Maxwell [si è unito](https://web.archive.org/web/20120223113428/http://www.bitcoin.org/) nel febbraio 2012 e Nils Schneider ha smesso di contribuire nel maggio dello stesso anno. Il team di sviluppatori risultante [sarebbe rimasto](https://bitcointalk.org/index.php?topic=1774750.msg17700787#msg17700787) al suo posto fino al 2014.
 
 
 
@@ -2122,7 +2122,7 @@ Gavin è ancora il responsabile del progetto, ma è stato aiutato da diverse per
 
 
 
-Allo stesso tempo, il sistema di proposte di miglioramento del Bitcoin, [introdotto] (https://gnusha.org/pi/bitcoindev/1316392315.46221.YahooMailNeo@web121014.mail.ne1.yahoo.com/) da Amir Taaki nel settembre 2011, cominciava a dare i suoi frutti. I primi BIPs sono stati scritti entro la fine dell'anno. È il caso, ad esempio, del BIP 10, [pubblicato](https://gist.github.com/etotheipi/1321518) il 28 ottobre da Alan Reiner, lo sviluppatore del wallet Armory.
+Allo stesso tempo, il sistema di proposte di miglioramento di Bitcoin, [introdotto] (https://gnusha.org/pi/bitcoindev/1316392315.46221.YahooMailNeo@web121014.mail.ne1.yahoo.com/) da Amir Taaki nel settembre 2011, cominciava a dare i suoi frutti. I primi BIPs sono stati scritti entro la fine dell'anno. È il caso, ad esempio, del BIP 10, [pubblicato](https://gist.github.com/etotheipi/1321518) il 28 ottobre da Alan Reiner, lo sviluppatore del wallet Armory.
 
 
 
@@ -2142,10 +2142,10 @@ Il 9 gennaio 2012, un certo David Perry, noto come Enmaku sul forum, [ha pubblic
 
 
 
-Il Bitcoin è dotato di un sistema di programmazione interna. Come abbiamo [discusso](https://planb.academy/fr/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082/cartes-graphiques-pizzas-et-bitcoins-gratuits-9cd228a4-58d3-46a3-9935-06098bafc954) nel corso dedicato alla creazione del Bitcoin, Satoshi Nakamoto ha implementato questo sistema fin dall'inizio, ritenendo che il suo modello fosse "incastonato nella pietra per il resto della sua vita". Così [scriveva](https://bitcointalk.org/index.php?topic=0195.msg1611#msg1611) nel giugno 2010:
+Il Bitcoin è dotato di un sistema di programmazione interna. Come abbiamo [discusso](https://planb.academy/fr/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082/cartes-graphiques-pizzas-et-bitcoins-gratuits-9cd228a4-58d3-46a3-9935-06098bafc954) nel corso dedicato alla creazione di Bitcoin, Satoshi Nakamoto ha implementato questo sistema fin dall'inizio, ritenendo che il suo modello fosse "incastonato nella pietra per il resto della sua vita". Così [scriveva](https://bitcointalk.org/index.php?topic=0195.msg1611#msg1611) nel giugno 2010:
 
 
-> Il progetto supporta un'enorme varietà di possibili tipi di transazioni che ho progettato anni fa.  Transazioni con deposito a garanzia, contratti vincolati, arbitrato di terze parti, firma di più parti, ecc.  Se il Bitcoin avrà un grande successo, queste sono cose che vorremo esplorare in futuro, ma dovevano essere progettate all'inizio per essere sicuri che sarebbero state possibili in seguito.
+> Il progetto supporta un'enorme varietà di possibili tipi di transazioni che ho progettato anni fa.  Transazioni con deposito a garanzia, contratti vincolati, arbitrato di terze parti, firma di più parti, ecc.  Se Bitcoin avrà un grande successo, queste sono cose che vorremo esplorare in futuro, ma dovevano essere progettate all'inizio per essere sicuri che sarebbero state possibili in seguito.
 
 Questa gamma di possibilità era di grande interesse per diverse persone, non ultimo Mike Hearn. Quest'ultimo [ne ha discusso](https://plan99.net/~mike/satoshi-emails/thread4.html) con Satoshi in una corrispondenza privata nel 2011. Durante l'estate, Mike [ha messo in evidenza](https://en.bitcoin.it/w/index.php?title=Contract&oldid=16063) i "contratti distribuiti" sul wiki di Bitcoin, dove ha fornito diversi esempi come l'anti-spam, il deposito a garanzia, i contratti collaterali, gli oracoli esterni o gli scambi atomici. Ha anche aggiunto un riferimento al fondamentale articolo di Nick Szabo del 1997 sui *contratti intelligenti*.
 
@@ -2167,11 +2167,11 @@ Il linguaggio di scripting di Bitcoin contiene un codice di transazione, `OP_CHE
 
 
 
-Il 23 agosto 2011, pochi giorni dopo la conferenza di New York, Gavin Andresen [iniziò](https://gnusha.org/pi/bitcoindev/CABsx9T1uw43JuvhEmJP0KCyojsDi1r7v6BaLBHz7wWazduE5iw@mail.gmail.com/) la discussione sulla firma multipla sul forum BitcoinTalk e sulla lista `bitcoin-development`. Voleva standardizzare le transazioni con più firmatari, che descriveva come "il percorso più veloce per ottenere bitcoin wallet molto sicuri e difficili da perdere". Dal dicembre 2010, solo due schemi [erano](https://bitcointalk.org/index.php?topic=2129.msg27744#msg27744) considerati standard: P2PK e P2PKH. L'idea era di aggiungere uno schema multi-firma grezzo, in cui il numero di partecipanti può arrivare a un massimo di 3.
+Il 23 agosto 2011, pochi giorni dopo la conferenza di New York, Gavin Andresen [iniziò](https://gnusha.org/pi/bitcoindev/CABsx9T1uw43JuvhEmJP0KCyojsDi1r7v6BaLBHz7wWazduE5iw@mail.gmail.com/) la discussione sulla multisig sul forum BitcoinTalk e sulla lista `bitcoin-development`. Voleva standardizzare le transazioni con più firmatari, che descriveva come "il percorso più veloce per ottenere bitcoin wallet molto sicuri e difficili da perdere". Dal dicembre 2010, solo due schemi [erano](https://bitcointalk.org/index.php?topic=2129.msg27744#msg27744) considerati standard: P2PK e P2PKH. L'idea era di aggiungere uno schema multi-firma grezzo, in cui il numero di partecipanti può arrivare a un massimo di 3.
 
 
 
-Gavin vorrebbe che le chiavi pubbliche coinvolte fossero utilizzate come indirizzi (come nel caso di P2PKH). Ma questi indirizzi non sarebbero comunque supportati dai client. Quindi, a rischio di rilasciare un client incompatibile, ha proposto di "fare le cose per bene in primo luogo, implementare o abilitare gli opcode in modo che i nuovi indirizzi bitcoin possano essere piccoli, e programmare una divisione della catena di blocchi" per alcuni mesi dopo. Spinto da un senso di urgenza, ha favorito un'azione rapida, spiegando che la sua "più grande preoccupazione" è che le persone diventino compiacenti nel dibattito e che "non ci sia ancora consenso" dopo sei mesi.
+Gavin vorrebbe che le chiavi pubbliche coinvolte fossero utilizzate come indirizzi (come nel caso di P2PKH). Ma questi indirizzi non sarebbero comunque supportati dai client. Quindi, a rischio di rilasciare un client incompatibile, ha proposto di "fare le cose per bene in primo luogo, implementare o abilitare gli opcode in modo che i nuovi indirizzi bitcoin possano essere piccoli, e programmare una divisione della blockchain" per alcuni mesi dopo. Spinto da un senso di urgenza, ha favorito un'azione rapida, spiegando che la sua "più grande preoccupazione" è che le persone diventino compiacenti nel dibattito e che "non ci sia ancora consenso" dopo sei mesi.
 
 
 
@@ -2200,7 +2200,7 @@ Questo comporta l'aggiunta di un'istruzione al linguaggio di scripting, che rich
 
 > Probabilmente sto leggendo male il codice, ma penso che OP\_EVAL non causerebbe una divisione della blockchain!
 
-La sua idea si basa su una caratteristica del linguaggio di programmazione interno del Bitcoin: gli operatori `OP_NOP`, aggiunti dal Satoshi nell'estate 2010, che sono istruzioni silenziose che non invalidano lo script in cui si trovano. Esse consentono di apportare modifiche al protocollo "retrocompatibili" per le versioni più vecchie del software, garantendo la sopravvivenza di un'unica stringa, nei casi in cui la potenza di calcolo che la applica è maggioritaria. Queste modifiche saranno in seguito denominate soft fork. È quindi possibile trasformare `OP_NOP1` in `OP_EVAL` e fare in modo che la modifica venga applicata dai pool mining.
+La sua idea si basa su una caratteristica del linguaggio di programmazione interno di Bitcoin: gli operatori `OP_NOP`, aggiunti da Satoshi nell'estate 2010, che sono istruzioni silenziose che non invalidano lo script in cui si trovano. Esse consentono di apportare modifiche al protocollo "retrocompatibili" per le versioni più vecchie del software, garantendo la sopravvivenza di un'unica stringa, nei casi in cui la potenza di calcolo che la applica è maggioritaria. Queste modifiche saranno in seguito denominate soft fork. È quindi possibile trasformare `OP_NOP1` in `OP_EVAL` e fare in modo che la modifica venga applicata dai mining pool.
 
 
 
@@ -2208,7 +2208,7 @@ Altri membri della comunità tecnica hanno subito convalidato la scoperta di Gav
 
 
 
-Due settimane dopo, il 19 ottobre, Gavin Andresen [scrisse](https://bitcointalk.org/index.php?topic=46538.msg583615#msg583615) tre proposte di miglioramento del Bitcoin, che furono prontamente ospitate sul wiki Bitcoin.it:
+Due settimane dopo, il 19 ottobre, Gavin Andresen [scrisse](https://bitcointalk.org/index.php?topic=46538.msg583615#msg583615) tre proposte di miglioramento di Bitcoin, che furono prontamente ospitate sul wiki Bitcoin.it:
 
 
 
@@ -2220,7 +2220,7 @@ Due settimane dopo, il 19 ottobre, Gavin Andresen [scrisse](https://bitcointalk.
 
 
 
-L'attivazione del BIP 12 era prevista per il 1° febbraio 2012, a condizione che il 50% dei minatori segnalasse il proprio supporto inserendo la stringa `OP_EVAL` nei blocchi prodotti prima del 15 gennaio. Se questa soglia non fosse stata raggiunta, il lancio sarebbe stato rimandato a una data successiva. Questo per garantire che l'aggiornamento avvenga senza problemi, senza che si crei un ramo concorrente.
+L'attivazione del BIP 12 era prevista per il 1° febbraio 2012, a condizione che il 50% dei miner segnalasse il proprio supporto inserendo la stringa `OP_EVAL` nei blocchi prodotti prima del 15 gennaio. Se questa soglia non fosse stata raggiunta, il lancio sarebbe stato rimandato a una data successiva. Questo per garantire che l'aggiornamento avvenga senza problemi, senza che si crei un ramo concorrente.
 
 
 
@@ -2266,7 +2266,7 @@ Il principio alla base di `OP_EVAL` è quello di pagare l'hash di uno script e f
 
 
 
-Il giorno successivo, il 3 gennaio alle 21:00 UTC, è stato [organizzato](https://bitcointalk.org/index.php?topic=56376.msg670964#msg670964) un incontro sul canale IRC \#bitcoin-dev da Amir Taaki, per mettere d'accordo gli sviluppatori. Una grande maggioranza era a favore del Pay to Script Hash, [tra cui](https://gnusha.org/pi/bitcoindev/alpine.LRH.2.00.1201021134030.21247@theorem.ca/) Russell O'Connor. Gavin [avrebbe](https://bitcointalk.org/index.php?topic=56969.msg679219#msg679219) descritto la proposta come "un'alternativa più semplice, più sicura ma meno potente per la creazione di indirizzi bitcoin per la firma multipla e per future transazioni più complesse".
+Il giorno successivo, il 3 gennaio alle 21:00 UTC, è stato [organizzato](https://bitcointalk.org/index.php?topic=56376.msg670964#msg670964) un incontro sul canale IRC \#bitcoin-dev da Amir Taaki, per mettere d'accordo gli sviluppatori. Una grande maggioranza era a favore del Pay to Script Hash, [tra cui](https://gnusha.org/pi/bitcoindev/alpine.LRH.2.00.1201021134030.21247@theorem.ca/) Russell O'Connor. Gavin [avrebbe](https://bitcointalk.org/index.php?topic=56969.msg679219#msg679219) descritto la proposta come "un'alternativa più semplice, più sicura ma meno potente per la creazione di indirizzi bitcoin per la multisig e per future transazioni più complesse".
 
 
 
@@ -2282,7 +2282,7 @@ Gavin voleva muoversi velocemente, molto velocemente, il che ha inevitabilmente 
 
 
 
-La fionda è stata guidata dallo sviluppatore Luke-Jr. Durante la riunione IRC del 3 gennaio 2012, si è [opposto](https://en.bitcoin.it/wiki/User:Genjix/Meetings/3_Jan_2012) al P2SH, ritenendo che "il OP_EVAL fosse di gran lunga migliore di questa brutta cosa". Il 13, [ha creato](https://web.archive.org/web/20130307042411/https://bitcointalk.org/index.php?topic=58579.0) un thread su BitcoinTalk, in cui chiedeva di intervenire contro il BIP 16. Considerava il P2SH "di gran lunga peggiore" del `OP_EVAL` perché "sostituisce essenzialmente il sistema di scripting su cui è costruito il Bitcoin con un unico modello speciale". Inoltre, ha fatto notare che "Gavin sta costringendo tutti coloro che usano l'ultimo codice di Bitcoin a votare per BIP 16", e [ha creato](https://github.com/bitcoin/bitcoin/pull/755) di conseguenza una *richiesta di rimozione* per rendere questa segnalazione opzionale, che sarà accettata. Infine, ha proposto una votazione comunitaria, direttamente sul forum, che è stata vinta a maggioranza da P2SH.
+La fionda è stata guidata dallo sviluppatore Luke-Jr. Durante la riunione IRC del 3 gennaio 2012, si è [opposto](https://en.bitcoin.it/wiki/User:Genjix/Meetings/3_Jan_2012) al P2SH, ritenendo che "il OP_EVAL fosse di gran lunga migliore di questa brutta cosa". Il 13, [ha creato](https://web.archive.org/web/20130307042411/https://bitcointalk.org/index.php?topic=58579.0) un thread su BitcoinTalk, in cui chiedeva di intervenire contro il BIP 16. Considerava il P2SH "di gran lunga peggiore" del `OP_EVAL` perché "sostituisce essenzialmente il sistema di scripting su cui è costruito Bitcoin con un unico modello speciale". Inoltre, ha fatto notare che "Gavin sta costringendo tutti coloro che usano l'ultimo codice di Bitcoin a votare per BIP 16", e [ha creato](https://github.com/bitcoin/bitcoin/pull/755) di conseguenza una *richiesta di rimozione* per rendere questa segnalazione opzionale, che sarà accettata. Infine, ha proposto una votazione comunitaria, direttamente sul forum, che è stata vinta a maggioranza da P2SH.
 
 
 
@@ -2292,7 +2292,7 @@ Questo atteggiamento ha profondamente irritato Gavin Andresen, che ha [risposto]
 
 > Luke, metti a dura prova la mia pazienza. Mi allontanerò dal codice per qualche giorno per calmarmi prima di fare qualcosa di stupido perché la mia pazienza si sta esaurendo.
 
-Un altro membro del forum, un minatore tedesco che usa lo pseudonimo di Nachtwind, [ha scritto](https://bitcointalk.org/index.php?topic=58579.msg690009#msg690009) che Luke ha dimostrato una certa "instabilità mentale" attraverso i suoi commenti. Questo minatore era disinteressato all'open source; ammetteva di apprezzare "il modo in cui bitcoin è stato gestito finora" e di fidarsi più di Gavin che di Luke "per fare la scelta giusta" (originale: "i trsut \[sic] HIM more than you to make the right choice"). La [risposta] di Luke (https://bitcointalk.org/index.php?topic=58579.msg690042#msg690042) è sprezzante:
+Un altro membro del forum, un miner tedesco che usa lo pseudonimo di Nachtwind, [ha scritto](https://bitcointalk.org/index.php?topic=58579.msg690009#msg690009) che Luke ha dimostrato una certa "instabilità mentale" attraverso i suoi commenti. Questo miner era disinteressato all'open source; ammetteva di apprezzare "il modo in cui bitcoin è stato gestito finora" e di fidarsi più di Gavin che di Luke "per fare la scelta giusta" (originale: "i trsut \[sic] HIM more than you to make the right choice"). La [risposta] di Luke (https://bitcointalk.org/index.php?topic=58579.msg690042#msg690042) è sprezzante:
 
 
 
@@ -2320,7 +2320,7 @@ Tuttavia, questa non è l'opinione di Gavin Andresen, che ha scelto di risolvere
 
 
 
-Luke-Jr [ha creato](https://buildingbitcoin.org/bitcoin-dev/log-2012-01-30.html#l-2147) una pagina sul wiki del Bitcoin che elenca le posizioni degli sviluppatori, seguendo il suggerimento di un certo Userjj. Il rifiuto di Gavin del CHV era categorico, e contrastava con gli altri tecnici che lo approvavano o lo consideravano meglio di niente.
+Luke-Jr [ha creato](https://buildingbitcoin.org/bitcoin-dev/log-2012-01-30.html#l-2147) una pagina sul wiki di Bitcoin che elenca le posizioni degli sviluppatori, seguendo il suggerimento di un certo Userjj. Il rifiuto di Gavin del CHV era categorico, e contrastava con gli altri tecnici che lo approvavano o lo consideravano meglio di niente.
 
 
 
@@ -2348,11 +2348,11 @@ Qualche giorno dopo, Gavin [spiegava] (https://bitcointalk.org/index.php?topic=6
 
 
 
-Un altro problema riguardava l'attivazione dell'aggiornamento da parte dei pool mining. Affinché la modifica sia retrocompatibile, la maggioranza del tasso di hash deve applicarla. Ma con l'avvicinarsi della fine di gennaio, le speranze di attivare il P2SH stavano diminuendo.
+Un altro problema riguardava l'attivazione dell'aggiornamento da parte delle mining pool. Affinché la modifica sia retrocompatibile, la maggioranza del tasso di hash deve applicarla. Ma con l'avvicinarsi della fine di gennaio, le speranze di attivare il P2SH stavano diminuendo.
 
 
 
-All'epoca, la potenza di calcolo era suddivisa tra circa [cinquanta](https://en.bitcoin.it/w/index.php?title=Comparison_of_mining_pools&oldid=21595) pool mining, ma tre si distinguevano: DeepBit, BTC Guild e BitcoinCZ Mining (pool di Slush). In particolare, DeepBit è rimasto il pool dominante: all'inizio del 2012, da solo possedeva circa il 30% della potenza di calcolo della rete. Gli altri due rappresentano circa il 10-15%.
+All'epoca, la potenza di calcolo era suddivisa tra circa [cinquanta](https://en.bitcoin.it/w/index.php?title=Comparison_of_mining_pools&oldid=21595) mining pool, ma tre si distinguevano: DeepBit, BTC Guild e BitcoinCZ Mining (pool di Slush). In particolare, DeepBit è rimasto il pool dominante: all'inizio del 2012, da solo possedeva circa il 30% della potenza di calcolo della rete. Gli altri due rappresentano circa il 10-15%.
 
 
 
@@ -2360,7 +2360,7 @@ All'epoca, la potenza di calcolo era suddivisa tra circa [cinquanta](https://en.
 
 
 
-*Percentuale di blocchi estratti dai pool mining durante la giornata del 19 dicembre 2011 (fonte: [Blockchain.info](https://web.archive.org/web/20111219124912/http://blockchain.info/pools))*
+*Percentuale di blocchi estratti dai mining pool durante la giornata del 19 dicembre 2011 (fonte: [Blockchain.info](https://web.archive.org/web/20111219124912/http://blockchain.info/pools))*
 
 
 
@@ -2368,9 +2368,9 @@ Il 25 gennaio, all'inizio della valutazione della segnalazione, alcuni piccoli p
 
 
 
-> Al momento, sembra che una persona/un pool (Tycho/deepbit) abbia abbastanza potere di hashing da porre il veto a qualsiasi cambiamento. Credo che a Tycho piacesse, e avesse intenzione di supportare, la proposta originale di OP\_EVAL, ma non gli piace/supporta né la BIP 16 né la BIP 17 (gli piace/supporta la BIP 11, la parte relativa alle transazioni con firma multipla come standard), quindi, a meno che non cambi idea o non ci sia un esodo di massa dal suo pool a breve, gli indirizzi bitcoin con firma multipla dovranno aspettare.
+> Al momento, sembra che una persona/un pool (Tycho/deepbit) abbia abbastanza potere di hashing da porre il veto a qualsiasi cambiamento. Credo che a Tycho piacesse, e avesse intenzione di supportare, la proposta originale di OP\_EVAL, ma non gli piace/supporta né la BIP 16 né la BIP 17 (gli piace/supporta la BIP 11, la parte relativa alle transazioni con multisig come standard), quindi, a meno che non cambi idea o non ci sia un esodo di massa dal suo pool a breve, gli indirizzi bitcoin con multisig dovranno aspettare.
 
-Tycho ha risposto [scrivendo](https://bitcointalk.org/index.php?topic=61125.msg714209#msg714209) che questo era sbagliato, che non poteva bloccare l'aggiornamento con il 32% di potenza di calcolo a sua disposizione. Ha [giustificato](https://bitcointalk.org/index.php?topic=61125.msg714231#msg714231) il suo atteggiamento adducendo tre ragioni: che non c'è "consenso tra gli sviluppatori o i minatori" su come implementare il pagamento agli script; che la soluzione proposta è un po' "hackish"; e che non desidera "diventare l'unica entità a decidere su questo".
+Tycho ha risposto [scrivendo](https://bitcointalk.org/index.php?topic=61125.msg714209#msg714209) che questo era sbagliato, che non poteva bloccare l'aggiornamento con il 32% di potenza di calcolo a sua disposizione. Ha [giustificato](https://bitcointalk.org/index.php?topic=61125.msg714231#msg714231) il suo atteggiamento adducendo tre ragioni: che non c'è "consenso tra gli sviluppatori o i miner" su come implementare il pagamento agli script; che la soluzione proposta è un po' "hackish"; e che non desidera "diventare l'unica entità a decidere su questo".
 
 
 
@@ -2378,7 +2378,7 @@ Gavin continuò a sostenere l'adozione del P2SH da parte dei pool. Tuttavia, il 
 
 
 
-Il ruolo dei minatori nell'attivazione dell'aggiornamento ha dato origine a una concezione particolare: i minatori dirigono l'evoluzione del protocollo utilizzando la loro potenza di calcolo. Questa concezione è stata [sostenuta] (https://web.archive.org/web/20120203023138/http://bitcoinmedia.com/cathartic-progress/) da Amir Taaki. Per lui, il processo decisionale è "esattamente e correttamente caratterizzato come un'elezione" e "ogni unità di potenza mining *è* un voto" in conformità con il principio "one-CPU-one-vote" stabilito da Satoshi nel libro bianco.
+Il ruolo dei miner nell'attivazione dell'aggiornamento ha dato origine a una concezione particolare: i miner dirigono l'evoluzione del protocollo utilizzando la loro potenza di calcolo. Questa concezione è stata [sostenuta] (https://web.archive.org/web/20120203023138/http://bitcoinmedia.com/cathartic-progress/) da Amir Taaki. Per lui, il processo decisionale è "esattamente e correttamente caratterizzato come un'elezione" e "ogni unità di potenza mining *è* un voto" in conformità con il principio "one-CPU-one-vote" stabilito da Satoshi nel White Paper.
 
 
 
@@ -2386,7 +2386,7 @@ Questa interpretazione è stata ampiamente contestata da Gregory Maxwell, che ha
 
 
 
-> Il sistema Bitcoin non è in grado di garantire un'elezione a maggioranza. Non una maggioranza di potere, non una maggioranza di persone, non una maggioranza di denaro. Per esempio, cosa succede se una super-maggioranza - anche il 100% - degli attuali minatori decide che il sussidio dovrebbe essere di 50 BTC per sempre?  **NULLA. I Miner che cambiano questa regola nel loro software semplicemente smettono di esistere dal punto di vista della rete bitcoin.
+> Il sistema Bitcoin non è in grado di garantire un'elezione a maggioranza. Non una maggioranza di potere, non una maggioranza di persone, non una maggioranza di denaro. Per esempio, cosa succede se una super-maggioranza - anche il 100% - degli attuali miner decide che il sussidio dovrebbe essere di 50 BTC per sempre?  **NULLA. I Miner che cambiano questa regola nel loro software semplicemente smettono di esistere dal punto di vista della rete bitcoin.
 
 ### BIP 30: correzione di transazioni duplicate
 
@@ -2400,7 +2400,7 @@ Ma prima bisognava risolvere un problema più urgente: come ha scritto Luke-Jr [
 
 
 
-Il problema era rappresentato dalle "transazioni duplicate" sulla blockchain: transazioni di ricompensa con lo stesso identificatore incluse in blocchi diversi. Quattro blocchi minati nel novembre 2010 contenevano transazioni di questo tipo: la transazione con identificatore `d5d27987d2a3dfc724e359870c6644b40e497bdc0589a033220fe15429d88599` era inclusa in entrambi i blocchi [91 812](https://mempool.space/block/00000000000af0aed4792b1acee3d966af36cf5def14935db8de83d6f9306f2f) e [91 842](https://mempool.space/block/0000000a4d0a398161ffc163c503763b1f43606393e0e4c8e300e0caec); e la transazione identificativa `e3bf3d07d4b0375638d5f1db5255fe07ba2c4cb067cd81b84ee974b6585fb468` faceva parte sia del blocco [91 722](https://mempool.space/block/00000000000271a2dc26e7667f8419f2e15416dc6955e5a6c6cdf3f2574dd08e) che del blocco [91 880](https://mempool.space/block/00000000000743f190a18c5577a3c2d2a1f610ae9601ac046a38084ccb7cd721). Il problema era stato notato, ma era stato risolto dagli stessi minatori. In generale, non sembrava esserci alcuna necessità urgente di risolvere questo problema, poiché non si pensava che potesse disturbare in modo sostanziale il funzionamento di Bitcoin.
+Il problema era rappresentato dalle "transazioni duplicate" sulla blockchain: transazioni di ricompensa con lo stesso identificatore incluse in blocchi diversi. Quattro blocchi minati nel novembre 2010 contenevano transazioni di questo tipo: la transazione con identificatore `d5d27987d2a3dfc724e359870c6644b40e497bdc0589a033220fe15429d88599` era inclusa in entrambi i blocchi [91 812](https://mempool.space/block/00000000000af0aed4792b1acee3d966af36cf5def14935db8de83d6f9306f2f) e [91 842](https://mempool.space/block/0000000a4d0a398161ffc163c503763b1f43606393e0e4c8e300e0caec); e la transazione identificativa `e3bf3d07d4b0375638d5f1db5255fe07ba2c4cb067cd81b84ee974b6585fb468` faceva parte sia del blocco [91 722](https://mempool.space/block/00000000000271a2dc26e7667f8419f2e15416dc6955e5a6c6cdf3f2574dd08e) che del blocco [91 880](https://mempool.space/block/00000000000743f190a18c5577a3c2d2a1f610ae9601ac046a38084ccb7cd721). Il problema era stato notato, ma era stato risolto dagli stessi miner. In generale, non sembrava esserci alcuna necessità urgente di risolvere questo problema, poiché non si pensava che potesse disturbare in modo sostanziale il funzionamento di Bitcoin.
 
 
 
@@ -2412,7 +2412,7 @@ Tuttavia, il 4 febbraio 2012, Russell O'Connor [ha scoperto](https://buildingbit
 
 
 
-Dopo la pausa causata dall'applicazione del BIP 30 (che ha richiesto un grande sforzo da parte dei minatori), la segnalazione per il P2SH è tornata in pista. Il 10 marzo Tycho ha effettuato i primi test per implementare la segnalazione all'interno di Deepbit. Il 15 marzo [ha dichiarato](https://bitcointalk.org/index.php?topic=3889.msg803685#msg803685) di aver "cercato di ritardare il più possibile il P2SH", ma che "questo non è già produttivo". Di conseguenza, ha rinunciato a lottare e ha implementato la modifica all'interno del suo pool.
+Dopo la pausa causata dall'applicazione del BIP 30 (che ha richiesto un grande sforzo da parte dei miner), la segnalazione per il P2SH è tornata in pista. Il 10 marzo Tycho ha effettuato i primi test per implementare la segnalazione all'interno di Deepbit. Il 15 marzo [ha dichiarato](https://bitcointalk.org/index.php?topic=3889.msg803685#msg803685) di aver "cercato di ritardare il più possibile il P2SH", ma che "questo non è già produttivo". Di conseguenza, ha rinunciato a lottare e ha implementato la modifica all'interno del suo pool.
 
 
 
@@ -2420,7 +2420,7 @@ Una settimana dopo, il 21 marzo, la segnalazione per P2SH ha superato il 70%! Ga
 
 
 
-> Pertanto, vorrei annunciare che il supporto per il BIP16 ha acquisito la maggior parte del supporto per il mining, necessario per evitare un potenziale fork permanente, e sarà attivato il 1° aprile come precedentemente previsto. \Quindi, se siete operatori di pool, minatori solitari o minatori p2pool, dovete aggiornare il vostro Bitcoin-Qt/bitcoind prima del 1° aprile. Eseguire una versione di bitcoind precedente alla 0.6 release candidate 3 dopo questa data significa correre il rischio di sprecare potenzialmente la propria potenza di hashing mining in blocchi non validi, poiché le versioni precedenti accetteranno spese non valide di transazioni BIP16 nei loro pool di memoria e le inseriranno in blocchi considerati non validi dalla maggioranza.
+> Pertanto, vorrei annunciare che il supporto per il BIP16 ha acquisito la maggior parte del supporto per il mining, necessario per evitare un potenziale fork permanente, e sarà attivato il 1° aprile come precedentemente previsto. \Quindi, se siete operatori di pool, miner solitari o miner p2pool, dovete aggiornare il vostro Bitcoin-Qt/bitcoind prima del 1° aprile. Eseguire una versione di bitcoind precedente alla 0.6 release candidate 3 dopo questa data significa correre il rischio di sprecare potenzialmente la propria potenza di hashing mining in blocchi non validi, poiché le versioni precedenti accetteranno spese non valide di transazioni BIP16 nei loro pool di memoria e le inseriranno in blocchi considerati non validi dalla maggioranza.
 
 Nei giorni successivi sono state rilasciate altre due versioni preliminari e il 30 marzo è stata rilasciata la versione ufficiale 0.6 (https://bitcointalk.org/index.php?topic=74737.msg827484#msg827484). Questa versione ha aggiunto lo schema standard di multi-firma grezza (BIP 11), ha implementato gli indirizzi brevi per P2SH (BIP 13) e ha applicato P2SH stesso (BIP 16). L'aggiornamento è avvenuto alla mezzanotte del 1° aprile, senza alcun incidente di rilievo. Come previsto, non si è verificata alcuna scissione della catena.
 
@@ -2430,15 +2430,15 @@ Nei giorni successivi sono state rilasciate altre due versioni preliminari e il 
 
 
 
-La battaglia Hash Pay to Script è stata la prima grande discordia nella storia del Bitcoin. Il risultato è stato l'espansione della comunità tecnica del Bitcoin, il che significava che c'erano abbastanza sviluppatori per cui litigare. Gavin Andresen, che aveva un approccio molto più consensuale rispetto al Satoshi, alla fine decise a favore del P2SH rispetto alle altre proposte. Questa è stata la prima decisione importante della comunità riguardo al protocollo.
+La battaglia Hash Pay to Script è stata la prima grande discordia nella storia di Bitcoin. Il risultato è stato l'espansione della comunità tecnica di Bitcoin, il che significava che c'erano abbastanza sviluppatori per cui litigare. Gavin Andresen, che aveva un approccio molto più consensuale rispetto a Satoshi, alla fine decise a favore del P2SH rispetto alle altre proposte. Questa è stata la prima decisione importante della comunità riguardo al protocollo.
 
 
 
-Questa "battaglia" ha dimostrato che lo sviluppo del Bitcoin non è stato facile, a causa della sua natura aperta e libera e della posta in gioco. Ha sollevato la questione della governance del Bitcoin e ha fatto presagire un conflitto molto più violento: la Guerra dei blocchi, che ha avuto luogo tra il 2015 e il 2017.
+Questa "battaglia" ha dimostrato che lo sviluppo di Bitcoin non è stato facile, a causa della sua natura aperta e libera e della posta in gioco. Ha sollevato la questione della governance di Bitcoin e ha fatto presagire un conflitto molto più violento: la Guerra dei blocchi, che ha avuto luogo tra il 2015 e il 2017.
 
 
 
-Inoltre, il dibattito sull'evoluzione del protocollo non fu l'unica conseguenza della natura aperta e libera di Bitcoin. Ha anche reso possibile l'implementazione di versioni più o meno diverse del Bitcoin, riprendendo il codice o il concetto, che presto sarebbero state chiamate "criptovalute alternative". Queste criptovalute alternative, che hanno contribuito a loro modo alla costruzione del Bitcoin, saranno oggetto del prossimo capitolo.
+Inoltre, il dibattito sull'evoluzione del protocollo non fu l'unica conseguenza della natura aperta e libera di Bitcoin. Ha anche reso possibile l'implementazione di versioni più o meno diverse di Bitcoin, riprendendo il codice o il concetto, che presto sarebbero state chiamate "criptovalute alternative". Queste criptovalute alternative, che hanno contribuito a loro modo alla costruzione di Bitcoin, saranno oggetto del prossimo capitolo.
 
 
 
@@ -2456,7 +2456,7 @@ Inoltre, il dibattito sull'evoluzione del protocollo non fu l'unica conseguenza 
 
 
 
-Il periodo di costruzione del Bitcoin, tra il 2011 e il 2012, ha coinciso con la prima ondata di creazione di criptovalute alternative, iniziata con il lancio di Namecoin nell'aprile 2011 e proseguita per tutto l'anno. In effetti, la scoperta di Satoshi Nakamoto ha aperto la strada a ogni sorta di innovazione, sia buona che cattiva, che si è concretizzata in progetti paralleli, che hanno rapidamente assunto il nome di *altcoins*. Come ha scritto il designer di PPCoin Sunny King (https://web.archive.org/web/20130722051950/https://github.com/ppcoin/ppcoin/wiki/History-of-cryptocurrency) nel marzo 2013:
+Il periodo di costruzione di Bitcoin, tra il 2011 e il 2012, ha coinciso con la prima ondata di creazione di criptovalute alternative, iniziata con il lancio di Namecoin nell'aprile 2011 e proseguita per tutto l'anno. In effetti, la scoperta di Satoshi Nakamoto ha aperto la strada a ogni sorta di innovazione, sia buona che cattiva, che si è concretizzata in progetti paralleli, che hanno rapidamente assunto il nome di *altcoins*. Come ha scritto il designer di PPCoin Sunny King (https://web.archive.org/web/20130722051950/https://github.com/ppcoin/ppcoin/wiki/History-of-cryptocurrency) nel marzo 2013:
 
 
 
@@ -2470,15 +2470,15 @@ Questo entusiasmo ha favorito la sperimentazione. La gestione decentralizzata de
 
 
 
-Verso la fine del 2010 è emersa l'idea di utilizzare il codice Bitcoin per lanciare altri sistemi. La rete di prova, lanciata in ottobre, [costituiva](https://bitcointalk.org/index.php?topic=1647.msg20643#msg20643), secondo le parole di Gavin Andresen, "una catena di blocchi diversa, implementata in modo che le due catene non si confondano mai", dimostrando che il lancio di un'altra catena "non è tecnicamente difficile e non causerà alcun problema al 'vero bitcoin'".
+Verso la fine del 2010 è emersa l'idea di utilizzare il codice Bitcoin per lanciare altri sistemi. La rete di prova, lanciata in ottobre, [costituiva](https://bitcointalk.org/index.php?topic=1647.msg20643#msg20643), secondo le parole di Gavin Andresen, "una blockchain diversa, implementata in modo che le due catene non si confondano mai", dimostrando che il lancio di un'altra catena "non è tecnicamente difficile e non causerà alcun problema al 'vero bitcoin'".
 
 
 
-Il fattore che ha portato alla creazione della prima criptovaluta alternativa è stato il problema dei nomi di dominio, una questione particolarmente importante per coloro che erano coinvolti nel Bitcoin in quel momento. Il sistema dei nomi di dominio, ovvero stringhe di caratteri facilmente memorizzabili come `apple.com` o `bitcoin.org`, è centralizzato nelle mani dell'ICANN, la *Internet Corporation for Assigned Names and Numbers*, una società senza scopo di lucro di diritto californiano. Di conseguenza, questi nomi sono [soggetti](https://web.archive.org/web/20110617160904/http://btlj.org/2011/02/23/four-rounds-of-ice-domain-name-seizures-and-related-controversies-and-opposition/) a sequestri regolari, il che pone un problema ai sostenitori della libertà, che [sono](https://web.archive.org/web/20101213122350/http://dot-p2p.org/index.php?title=Main_Page) alla ricerca di soluzioni meno censurabili.
+Il fattore che ha portato alla creazione della prima criptovaluta alternativa è stato il problema dei nomi di dominio, una questione particolarmente importante per coloro che erano coinvolti in Bitcoin in quel momento. Il sistema dei nomi di dominio, ovvero stringhe di caratteri facilmente memorizzabili come `apple.com` o `bitcoin.org`, è centralizzato nelle mani dell'ICANN, la *Internet Corporation for Assigned Names and Numbers*, una società senza scopo di lucro di diritto californiano. Di conseguenza, questi nomi sono [soggetti](https://web.archive.org/web/20110617160904/http://btlj.org/2011/02/23/four-rounds-of-ice-domain-name-seizures-and-related-controversies-and-opposition/) a sequestri regolari, il che pone un problema ai sostenitori della libertà, che [sono](https://web.archive.org/web/20101213122350/http://dot-p2p.org/index.php?title=Main_Page) alla ricerca di soluzioni meno censurabili.
 
 
 
-Tuttavia, la messa in pratica di questo principio si è rivelata difficile e solo l'emergere del Bitcoin ha permesso una svolta. Il triangolo di Zooko, [teorizzato](https://web.archive.org/web/20011020191610/http://zooko.com/distnames.html) nel 2001 dal cypherpunk Bryce "Zooko" Wilcox, afferma che un identificatore può avere al massimo due delle seguenti proprietà: sicurezza (un nome deve corrispondere a uno e un solo elemento); decentralizzazione (non devono essere necessarie autorità centralizzate per determinare quale nome corrisponde a quale elemento); leggibilità umana (i nomi degli elementi devono essere significativi e deve essere possibile ricordarli). Ma con il modello Bitcoin, questo trilemma è reso obsoleto, e per risolverlo: "è possibile utilizzare BitCoin per quadrare il triangolo di Zooko", per riprendere l'espressione di Aaron Swartz (http://www.aaronsw.com/weblog/squarezooko).
+Tuttavia, la messa in pratica di questo principio si è rivelata difficile e solo l'emergere di Bitcoin ha permesso una svolta. Il triangolo di Zooko, [teorizzato](https://web.archive.org/web/20011020191610/http://zooko.com/distnames.html) nel 2001 dal cypherpunk Bryce "Zooko" Wilcox, afferma che un identificatore può avere al massimo due delle seguenti proprietà: sicurezza (un nome deve corrispondere a uno e un solo elemento); decentralizzazione (non devono essere necessarie autorità centralizzate per determinare quale nome corrisponde a quale elemento); leggibilità umana (i nomi degli elementi devono essere significativi e deve essere possibile ricordarli). Ma con il modello Bitcoin, questo trilemma è reso obsoleto, e per risolverlo: "è possibile utilizzare BitCoin per quadrare il triangolo di Zooko", per riprendere l'espressione di Aaron Swartz (http://www.aaronsw.com/weblog/squarezooko).
 
 
 
@@ -2506,7 +2506,7 @@ Nel frattempo, nella comunità Bitcoin si stava cercando di implementare BitDNS.
 
 
 
-Questo sforzo ha portato alla creazione di un sistema funzionale separato da Bitcoin: Namecoin. La catena è stata [lanciata](https://bitcointalk.org/index.php?topic=6017.msg88356#msg88356) il 19 aprile 2011 da un certo Vincent Durham, che utilizzava lo pseudonimo di Vinced sul forum. Il software era una versione modificata di Bitcoin. Namecoin era quindi molto simile al suo fratello maggiore: le unità chiamate namecoin venivano emesse ad ogni blocco dai minatori in media ogni 10 minuti, venivano trasferite tramite transazioni incluse nei blocchi, l'emissione monetaria veniva dimezzata ogni 4 anni, ecc. I nomi di dominio, che [https://bitcointalk.org/index.php?topic=6851.msg126500#msg126500](https://bitcointalk.org/index.php?topic=6851.msg126500#msg126500) utilizzano l'estensione `.bit', erano token speciali che non potevano essere mischiati tra loro (Vitalik Buterin [https://ethereum.org/whitepaper/] li ha definiti "beni non fungibili" nel 2014) e venivano spostati con le unità da collegare a un indirizzo. I nomi venivano creati e rinnovati attraverso un tipo speciale di transazione. I domini scadono dopo 12.000 blocchi, ovvero circa 83 giorni.
+Questo sforzo ha portato alla creazione di un sistema funzionale separato da Bitcoin: Namecoin. La catena è stata [lanciata](https://bitcointalk.org/index.php?topic=6017.msg88356#msg88356) il 19 aprile 2011 da un certo Vincent Durham, che utilizzava lo pseudonimo di Vinced sul forum. Il software era una versione modificata di Bitcoin. Namecoin era quindi molto simile al suo fratello maggiore: le unità chiamate namecoin venivano emesse ad ogni blocco dai miner in media ogni 10 minuti, venivano trasferite tramite transazioni incluse nei blocchi, l'emissione monetaria veniva dimezzata ogni 4 anni, ecc. I nomi di dominio, che [https://bitcointalk.org/index.php?topic=6851.msg126500#msg126500](https://bitcointalk.org/index.php?topic=6851.msg126500#msg126500) utilizzano l'estensione `.bit', erano token speciali che non potevano essere mischiati tra loro (Vitalik Buterin [https://ethereum.org/whitepaper/] li ha definiti "beni non fungibili" nel 2014) e venivano spostati con le unità da collegare a un indirizzo. I nomi venivano creati e rinnovati attraverso un tipo speciale di transazione. I domini scadono dopo 12.000 blocchi, ovvero circa 83 giorni.
 
 
 
@@ -2518,7 +2518,7 @@ Questo sforzo ha portato alla creazione di un sistema funzionale separato da Bit
 
 
 
-Namecoin è stata l'occasione per implementare il mining combinato, o *merged mining*, che è un [processo](https://web.archive.org/web/20110723091126/http://dot-bit.org/Merged_Mining) che consiste nel riutilizzare il lavoro fornito su una "catena madre" (cioè quella del Bitcoin) per la convalida di catene "ausiliarie" più piccole. Questo processo è stato [proposto](https://bitcointalk.org/index.php?topic=1790.msg28696#msg28696) nella discussione su BitDNS dallo stesso Satoshi. Il creatore di Bitcoin ha sottolineato che questo tipo di mining "risolverebbe il problema che se ci sono più reti, esse sono un pericolo l'una per l'altra se la potenza della CPU disponibile si concentra su una" e che "renderebbe più facile" il lancio di reti più piccole. Il mining combinato [ha iniziato](https://web.archive.org/web/20110925063651/http://dot-bit.org/forum/viewtopic.php?f=5&t=217) a essere integrato nel codice di Namecoin a luglio ed è stato attivato sulla rete l'8 ottobre, al livello di blocco 19.200.
+Namecoin è stata l'occasione per implementare il mining combinato, o *merged mining*, che è un [processo](https://web.archive.org/web/20110723091126/http://dot-bit.org/Merged_Mining) che consiste nel riutilizzare il lavoro fornito su una "catena madre" (cioè quella di Bitcoin) per la convalida di catene "ausiliarie" più piccole. Questo processo è stato [proposto](https://bitcointalk.org/index.php?topic=1790.msg28696#msg28696) nella discussione su BitDNS dallo stesso Satoshi. Il creatore di Bitcoin ha sottolineato che questo tipo di mining "risolverebbe il problema che se ci sono più reti, esse sono un pericolo l'una per l'altra se la potenza della CPU disponibile si concentra su una" e che "renderebbe più facile" il lancio di reti più piccole. Il mining combinato [ha iniziato](https://web.archive.org/web/20110925063651/http://dot-bit.org/forum/viewtopic.php?f=5&t=217) a essere integrato nel codice di Namecoin a luglio ed è stato attivato sulla rete l'8 ottobre, al livello di blocco 19.200.
 
 
 
@@ -2530,11 +2530,11 @@ Ma Namecoin non era l'unico sistema separato lanciato quell'anno. Infatti, la gr
 
 
 
-Alcuni di questi progetti erano altamente sperimentali, come i bitcoin della rete di prova, e potevano essere azzerati in qualsiasi momento. Ne sono un esempio i "[BeerTokens](https://web.archive.org/web/20110703101435/http://exchange.beertokens.info/)" e "[Weeds](https://web.archive.org/web/20110505081347/http://exchange.surething.biz/)" creati utilizzando il software [MultiCoin](https://bitcointalk.org/index.php?topic=24209.msg300830#msg300830) di Scott Carlson. Altri, invece, erano puramente opportunistici, in quanto i loro inventori volevano sfruttare l'entusiasmo per il Bitcoin, in particolare attraverso il cosiddetto pre-mining.
+Alcuni di questi progetti erano altamente sperimentali, come i bitcoin della rete di prova, e potevano essere azzerati in qualsiasi momento. Ne sono un esempio i "[BeerTokens](https://web.archive.org/web/20110703101435/http://exchange.beertokens.info/)" e "[Weeds](https://web.archive.org/web/20110505081347/http://exchange.surething.biz/)" creati utilizzando il software [MultiCoin](https://bitcointalk.org/index.php?topic=24209.msg300830#msg300830) di Scott Carlson. Altri, invece, erano puramente opportunistici, in quanto i loro inventori volevano sfruttare l'entusiasmo per Bitcoin, in particolare attraverso il cosiddetto pre-mining.
 
 
 
-Una di queste *altcoin* opportunistiche è Groupcoin / Devcoin, [ideata](https://bitcointalk.org/index.php?topic=24813.msg308142#msg308142) da un individuo con lo pseudonimo di Unthinkingbit e [lanciata](https://explorer.devcoin.org/explorer/block/0000000062558fec003bcbf29e915cddfc34fa257dc87573f28e4520d1c7c11e) il 22 luglio. Il modello [consisteva](https://bitcointalk.org/index.php?topic=24813.msg422068#msg422068) nel distribuire il 90% delle nuove unità create agli sviluppatori impegnati nel mondo del software libero; il restante 10% era riservato ai minatori del sistema. Sebbene sia stata presentata come una "moneta etica", si trattava di una manna per gli sviluppatori beneficiari, scelti dal responsabile del progetto.
+Una di queste *altcoin* opportunistiche è Groupcoin / Devcoin, [ideata](https://bitcointalk.org/index.php?topic=24813.msg308142#msg308142) da un individuo con lo pseudonimo di Unthinkingbit e [lanciata](https://explorer.devcoin.org/explorer/block/0000000062558fec003bcbf29e915cddfc34fa257dc87573f28e4520d1c7c11e) il 22 luglio. Il modello [consisteva](https://bitcointalk.org/index.php?topic=24813.msg422068#msg422068) nel distribuire il 90% delle nuove unità create agli sviluppatori impegnati nel mondo del software libero; il restante 10% era riservato ai miner del sistema. Sebbene sia stata presentata come una "moneta etica", si trattava di una manna per gli sviluppatori beneficiari, scelti dal responsabile del progetto.
 
 
 
@@ -2550,7 +2550,7 @@ Una terza criptovaluta, che classifichiamo come opportunistica, è SolidCoin. È
 
 
 
-In generale, SolidCoin è stato presentato come un concorrente del Bitcoin, a differenza delle altre criptovalute, viste dai loro inventori come complementari. Il fondatore di SolidCoin ha criticato il modello di Nakamoto, in particolare denunciando la "concentrazione di Bitcoin in early adopter elitari che non hanno alcun interesse o desiderio di aiutare le Bitcoin a essere utilizzate dalle persone 'normali'". In un articolo che prevedeva il "collasso del Bitcoin", [incolpava](https://web.archive.org/web/20110925064226/https://solidcoin.info/solidcoin-ready-for-bitcoin-collapse.php) Bitcoin per la sua stagnazione tecnica derivante da un possibile "coinvolgimento del governo" e sottolinea SolidCoin come la criptovaluta dell'innovazione.
+In generale, SolidCoin è stato presentato come un concorrente di Bitcoin, a differenza delle altre criptovalute, viste dai loro inventori come complementari. Il fondatore di SolidCoin ha criticato il modello di Nakamoto, in particolare denunciando la "concentrazione di Bitcoin in early adopter elitari che non hanno alcun interesse o desiderio di aiutare le Bitcoin a essere utilizzate dalle persone 'normali'". In un articolo che prevedeva il "collasso di Bitcoin", [incolpava](https://web.archive.org/web/20110925064226/https://solidcoin.info/solidcoin-ready-for-bitcoin-collapse.php) Bitcoin per la sua stagnazione tecnica derivante da un possibile "coinvolgimento del governo" e sottolinea SolidCoin come la criptovaluta dell'innovazione.
 
 
 
@@ -2578,11 +2578,11 @@ Sul forum, a causa del moltiplicarsi delle discussioni riguardanti le *altcoin*,
 
 
 
-Fino all'autunno 2011, tutte le criptovalute alternative utilizzavano la funzione di hash del Bitcoin, il doppio SHA-256, per il mining. Questo avvantaggiava i minatori già affermati della catena BTC, in quanto disponevano già dell'hardware per le unità generate in quantità. I nuovi arrivati non hanno avuto la possibilità di minare queste nuove criptovalute con i loro processori principali, aggravando il problema già esistente della varianza.
+Fino all'autunno 2011, tutte le criptovalute alternative utilizzavano la funzione di hash di Bitcoin, il doppio SHA-256, per il mining. Questo avvantaggiava i miner già affermati della catena BTC, in quanto disponevano già dell'hardware per le unità generate in quantità. I nuovi arrivati non hanno avuto la possibilità di minare queste nuove criptovalute con i loro processori principali, aggravando il problema già esistente della varianza.
 
 
 
-Il 26 settembre 2011, Lolcust [ha lanciato](https://bitcointalk.org/index.php?topic=45667.msg544675#msg544675) Tenebrix, presentata come "una criptovaluta compatibile con la CPU e ostile alla GPU". È stato aiutato dal miner tedesco ArtForz, che ha [sostituito](https://bitcointalk.org/index.php?topic=46063.msg549768#msg549768) SHA-256 con Scrypt, una funzione di derivazione delle chiavi originariamente [progettata](https://web.archive.org/web/20090928073214/http://www.tarsnap.com/scrypt.html) nel 2009 dall'informatico canadese Colin Percival per il servizio di backup online Tarsnap. Grazie alla sua elevata richiesta di memoria, ha ridotto drasticamente l'efficienza dei processori grafici in mining, in modo da poter utilizzare con profitto i processori core. La criptovaluta è stata chiamata Tenebrix perché "è una criptovaluta che prospera all'ombra di qualsiasi grande operazione GPU-mining, godendo pacificamente dei cicli cpu di riserva delle piattaforme di minatori".)
+Il 26 settembre 2011, Lolcust [ha lanciato](https://bitcointalk.org/index.php?topic=45667.msg544675#msg544675) Tenebrix, presentata come "una criptovaluta compatibile con la CPU e ostile alla GPU". È stato aiutato dal miner tedesco ArtForz, che ha [sostituito](https://bitcointalk.org/index.php?topic=46063.msg549768#msg549768) SHA-256 con Scrypt, una funzione di derivazione delle chiavi originariamente [progettata](https://web.archive.org/web/20090928073214/http://www.tarsnap.com/scrypt.html) nel 2009 dall'informatico canadese Colin Percival per il servizio di backup online Tarsnap. Grazie alla sua elevata richiesta di memoria, ha ridotto drasticamente l'efficienza dei processori grafici in mining, in modo da poter utilizzare con profitto i processori core. La criptovaluta è stata chiamata Tenebrix perché "è una criptovaluta che prospera all'ombra di qualsiasi grande operazione GPU-mining, godendo pacificamente dei cicli cpu di riserva delle piattaforme di miner".)
 
 
 
@@ -2590,7 +2590,7 @@ Come GeistGeld, Tenebrix utilizzava una versione modificata del software MultiCo
 
 
 
-### Litecoin, il complemento del Bitcoin
+### Litecoin, il complemento di Bitcoin
 
 
 
@@ -2606,7 +2606,7 @@ Charlie Lee [è](https://web.archive.org/web/20130831040759/http://www.wired.com
 
 
 
-Charlie ha scoperto il Bitcoin nel giugno 2011 [leggendo](https://twitter.com/satoshilite/status/1020131826369585152) un articolo su Silk Road. Ben presto ha contattato Mike Hearn (che lavorava anche per Google, da Zurigo) che lo ha convinto della solidità del Bitcoin. In agosto ha partecipato alla conferenza di Bruce Wagner a New York. Si è anche interessato alle criptovalute alternative e di conseguenza ha lanciato Fairbrix il 2 ottobre.
+Charlie ha scoperto Bitcoin nel giugno 2011 [leggendo](https://twitter.com/satoshilite/status/1020131826369585152) un articolo su Silk Road. Ben presto ha contattato Mike Hearn (che lavorava anche per Google, da Zurigo) che lo ha convinto della solidità di Bitcoin. In agosto ha partecipato alla conferenza di Bruce Wagner a New York. Si è anche interessato alle criptovalute alternative e di conseguenza ha lanciato Fairbrix il 2 ottobre.
 
 
 
@@ -2622,7 +2622,7 @@ Tuttavia, non era soddisfatto del progetto. Fairbrix era basato sul client Multi
 
 
 
-Litecoin incorpora l'algoritmo Scrypt proof-of-work, così come Tenebrix. Il tempo di blocco è di 2 minuti e 30, quattro volte inferiore a quello del Bitcoin, il che significa che il tetto di emissione è di 84 milioni di unità (anziché 21) e che la regolazione della difficoltà avviene ogni 3,5 giorni (anziché 2 settimane). Il Halving si svolge ogni 840.000 blocchi, cioè circa ogni 4 anni.
+Litecoin incorpora l'algoritmo Scrypt proof-of-work, così come Tenebrix. Il tempo di blocco è di 2 minuti e 30, quattro volte inferiore a quello di Bitcoin, il che significa che il tetto di emissione è di 84 milioni di unità (anziché 21) e che la regolazione della difficoltà avviene ogni 3,5 giorni (anziché 2 settimane). Il Halving si svolge ogni 840.000 blocchi, cioè circa ogni 4 anni.
 
 
 
@@ -2652,7 +2652,7 @@ Gavin Andresen ha [approvato](https://bitcointalk.org/index.php?topic=1647.msg20
 
 
 
-Questa reazione è stata confermata dalla prima ondata di criptovalute alternative, che si sono moltiplicate in pochi mesi. Ciò ha provocato la reazione di molte persone coinvolte nel Bitcoin. Nell'agosto 2011, lo sviluppatore di Electrum Thomas Voegtlin [spiegò](https://bitcointalk.org/index.php?topic=37592.msg463263#msg463263) che la maggior parte dei cloni di Bitcoin erano inutili, poiché condividevano la stessa nicchia di mercato di Bitcoin e non beneficiavano del suo effetto rete. Egli [ha capito](https://bitcointalk.org/index.php?topic=38453.msg471316#msg471316) che "queste blockchain alternative sono lanciate da persone che cercano di fare soldi in fretta prima che il valore scenda a zero". Allo stesso modo, all'inizio di settembre, Gavin [ha pubblicato](https://bitcointalk.org/index.php?topic=42465.msg516789#msg516789) un avvertimento scettico sul forum, in cui incoraggiava le persone a porsi le domande giuste prima di farsi coinvolgere in queste criptovalute.
+Questa reazione è stata confermata dalla prima ondata di criptovalute alternative, che si sono moltiplicate in pochi mesi. Ciò ha provocato la reazione di molte persone coinvolte in Bitcoin. Nell'agosto 2011, lo sviluppatore di Electrum Thomas Voegtlin [spiegò](https://bitcointalk.org/index.php?topic=37592.msg463263#msg463263) che la maggior parte dei cloni di Bitcoin erano inutili, poiché condividevano la stessa nicchia di mercato di Bitcoin e non beneficiavano del suo effetto rete. Egli [ha capito](https://bitcointalk.org/index.php?topic=38453.msg471316#msg471316) che "queste blockchain alternative sono lanciate da persone che cercano di fare soldi in fretta prima che il valore scenda a zero". Allo stesso modo, all'inizio di settembre, Gavin [ha pubblicato](https://bitcointalk.org/index.php?topic=42465.msg516789#msg516789) un avvertimento scettico sul forum, in cui incoraggiava le persone a porsi le domande giuste prima di farsi coinvolgere in queste criptovalute.
 
 
 
@@ -2663,7 +2663,7 @@ Dopo la prima ondata di creazione di criptovalute alternative, è apparsa un'esp
 Uno dei critici più schietti delle criptovalute alternative è stato probabilmente Luke-Jr. Egli era molto contrario a queste imitazioni, a volte in modo patologico. Egli [riteneva](https://web.archive.org/web/20120115215038/http://bitcoinmedia.com/luke-dashjr-throws-book-at-solidcoin) che non tutte le criptovalute alternative fossero "truffe": "Non considero tutte le catene alternative come truffe. Namecoin in particolare è stata progettata con uno scopo legittimo", ma "questi sistemi sono di default più o meno schemi piramidali pump-and-dump" finché non sviluppano un diverso caso d'uso per Bitcoin.
 
 
-Ha puntato tutto sulla sua bocca. Nel novembre 2011, ha [modificato](https://en.bitcoin.it/w/index.php?title=Litecoin&oldid=18952) la pagina Litecoin appena aggiunta sul wiki Bitcoin per scrivere che "Litecoin è una truffa". Il 6 gennaio 2012 ha [effettuato](https://bitcointalk.org/index.php?topic=56675.msg676981#msg676981) un attacco di censura contro Coiledcoin (che si è rivelato fatale) utilizzando il suo pool mining, Eligius, senza informare i partecipanti. Nel suo [messaggio di spiegazione](https://bitcointalk.org/index.php?topic=56830.msg678004#msg678004), ha chiarito che nessun membro del pool è stato danneggiato, essendo la catena Coiledcoin minata in combinazione con quella di Bitcoin. Ha giustificato la sua azione scrivendo che era impegnato "a contribuire e a proteggere l'ecosistema Bitcoin" e che "gli schemi piramidali costruiti su fork del software Bitcoin finiscono per screditare e danneggiare la reputazione di Bitcoin". Infine, il 9 gennaio 2012, [ha depositato](https://web.archive.org/web/20120115205346/http://solidcointalk.org/topic/510-bitcoin-developers-attempt-to-kill-open-source-project-sends-dmca-to-linode-and-github/) un avviso di rimozione DMCA contro SolidCoin con Linode (host del sito web) e GitHub (host del codice) per l'uso illegale del suo codice presente nel software Bitcoin.
+Ha puntato tutto sulla sua bocca. Nel novembre 2011, ha [modificato](https://en.bitcoin.it/w/index.php?title=Litecoin&oldid=18952) la pagina Litecoin appena aggiunta sul wiki Bitcoin per scrivere che "Litecoin è una truffa". Il 6 gennaio 2012 ha [effettuato](https://bitcointalk.org/index.php?topic=56675.msg676981#msg676981) un attacco di censura contro Coiledcoin (che si è rivelato fatale) utilizzando il suo mining pool, Eligius, senza informare i partecipanti. Nel suo [messaggio di spiegazione](https://bitcointalk.org/index.php?topic=56830.msg678004#msg678004), ha chiarito che nessun membro del pool è stato danneggiato, essendo la catena Coiledcoin minata in combinazione con quella di Bitcoin. Ha giustificato la sua azione scrivendo che era impegnato "a contribuire e a proteggere l'ecosistema Bitcoin" e che "gli schemi piramidali costruiti su fork del software Bitcoin finiscono per screditare e danneggiare la reputazione di Bitcoin". Infine, il 9 gennaio 2012, [ha depositato](https://web.archive.org/web/20120115205346/http://solidcointalk.org/topic/510-bitcoin-developers-attempt-to-kill-open-source-project-sends-dmca-to-linode-and-github/) un avviso di rimozione DMCA contro SolidCoin con Linode (host del sito web) e GitHub (host del codice) per l'uso illegale del suo codice presente nel software Bitcoin.
 
 
 
@@ -2675,7 +2675,7 @@ Dalla primavera del 2012 in poi, la situazione si è calmata. Tuttavia, nel cors
 
 
 
-Il Proof of stake è un'alternativa al proof of work, in cui la probabilità di produrre un blocco è determinata dal possesso di unità piuttosto che dall'elettricità spesa. È stata [descritta](https://www.links.org/files/decentralised-currencies.pdf) per la prima volta nel luglio 2011 dallo sviluppatore e attivista britannico Ben Laurie, e il suo nome è stato [coniato](https://bitcointalk.org/index.php?topic=27787.msg349645#msg349645) da un certo QuantumMechanic sul forum Bitcoin.
+La Proof of Stake è un'alternativa alla proof-of-work, in cui la probabilità di produrre un blocco è determinata dal possesso di unità piuttosto che dall'elettricità spesa. È stata [descritta](https://www.links.org/files/decentralised-currencies.pdf) per la prima volta nel luglio 2011 dallo sviluppatore e attivista britannico Ben Laurie, e il suo nome è stato [coniato](https://bitcointalk.org/index.php?topic=27787.msg349645#msg349645) da un certo QuantumMechanic sul forum Bitcoin.
 
 
 
@@ -2691,7 +2691,7 @@ PPCoin ha riscosso un relativo successo, occupando il quarto posto nella classif
 
 
 
-### Un rapporto altalenante con il Bitcoin
+### Un rapporto altalenante con Bitcoin
 
 
 
@@ -2699,11 +2699,11 @@ Il 2011 è stato segnato dall'emergere di criptovalute alternative, che hanno ra
 
 
 
-Questa prima ondata di criptovalute alternative ha gettato le basi per ciò che è accaduto successivamente, nel 2013 e oltre. Ha incoraggiato la riprogettazione del progetto Ripple con una propria unità digitale. Ha aperto la strada a un movimento di miglioramento del Bitcoin, chiamato "Bitcoin 2.0", che avrebbe portato alla creazione di Ethereum nel 2014-2015. Infine, ha dato vita agli inizi di un movimento di rifiuto, che sarebbe cresciuto nel corso degli anni e avrebbe preso il nome di "massimalismo bitcoin" nel novembre 2014.
+Questa prima ondata di criptovalute alternative ha gettato le basi per ciò che è accaduto successivamente, nel 2013 e oltre. Ha incoraggiato la riprogettazione del progetto Ripple con una propria unità digitale. Ha aperto la strada a un movimento di miglioramento di Bitcoin, chiamato "Bitcoin 2.0", che avrebbe portato alla creazione di Ethereum nel 2014-2015. Infine, ha dato vita agli inizi di un movimento di rifiuto, che sarebbe cresciuto nel corso degli anni e avrebbe preso il nome di "massimalismo bitcoin" nel novembre 2014.
 
 
 
-La nascita delle prime criptovalute alternative è stata quindi segnata dall'eccesso e dall'avidità, in linea con il periodo del Far West della finanza. Ma questo non è stato l'unico eccesso reso possibile dal libero utilizzo della Bitcoin. La prima metà del 2012, in particolare, è stata teatro di numerose attività generalmente considerate immorali o dichiarate illegali, come il traffico di droga con Silk Road (la cui quota di mercato stava raggiungendo l'apice in quel periodo), il gioco d'azzardo con SatoshiDICE e il furto con gli hack di Bitcoinica. I prossimi tre capitoli saranno dedicati a questi eccessi, nonché alle attività di trading più "decenti" che si sono sviluppate in parallelo.
+La nascita delle prime criptovalute alternative è stata quindi segnata dall'eccesso e dall'avidità, in linea con il periodo del Far West della finanza. Ma questo non è stato l'unico eccesso reso possibile dal libero utilizzo di Bitcoin. La prima metà del 2012, in particolare, è stata teatro di numerose attività generalmente considerate immorali o dichiarate illegali, come il traffico di droga con Silk Road (la cui quota di mercato stava raggiungendo l'apice in quel periodo), il gioco d'azzardo con SatoshiDICE e il furto con gli hack di Bitcoinica. I prossimi tre capitoli saranno dedicati a questi eccessi, nonché alle attività di trading più "decenti" che si sono sviluppate in parallelo.
 
 
 
@@ -2714,7 +2714,7 @@ La nascita delle prime criptovalute alternative è stata quindi segnata dall'ecc
 
 
 
-Dopo lo scoppio della grande bolla del 2011 e la stabilizzazione dei prezzi, la prima metà del 2012 è stata piuttosto piatta dal punto di vista speculativo. Tuttavia, è stato salutare per l'attività economica reale, in quanto la comunità ha cercato di spingere l'uso del Bitcoin come mezzo di pagamento, l'obiettivo dichiarato del libro bianco.
+Dopo lo scoppio della grande bolla del 2011 e la stabilizzazione dei prezzi, la prima metà del 2012 è stata piuttosto piatta dal punto di vista speculativo. Tuttavia, è stato salutare per l'attività economica reale, in quanto la comunità ha cercato di spingere l'uso di Bitcoin come mezzo di pagamento, l'obiettivo dichiarato del White Paper.
 
 
 
@@ -2726,7 +2726,7 @@ In questo capitolo descriveremo innanzitutto lo sviluppo economico e culturale d
 
 
 
-### La visione della Via della Seta
+### La visione della Silk Road
 
 
 
@@ -2738,7 +2738,7 @@ All'inizio del 2012, le commissioni seguivano un tasso forfettario del 6,23%, ch
 
 
 
-Questa decisione è stata contestata da alcuni e l'amministratore della Via della Seta è stato accusato, tra l'altro, di avidità. Ma il cambiamento fu irrevocabile. Come [ha scritto](https://antilop.cc/sr/users/dpr/messages/20120110-0201-536-Re_State_of_the_Road_Address.txt) Ross il giorno successivo nello stesso thread:
+Questa decisione è stata contestata da alcuni e l'amministratore della Silk Road è stato accusato, tra l'altro, di avidità. Ma il cambiamento fu irrevocabile. Come [ha scritto](https://antilop.cc/sr/users/dpr/messages/20120110-0201-536-Re_State_of_the_Road_Address.txt) Ross il giorno successivo nello stesso thread:
 
 
 
@@ -2784,7 +2784,7 @@ Anche il volume delle vendite giornaliere è raddoppiato, passando da 8.000 BTC 
 
 
 
-*Volume giornaliero della Via della Seta (in BTC) tra marzo e luglio 2012 (fonte: [Nicolas Christin](https://arxiv.org/pdf/1207.7139))*
+*Volume giornaliero della Silk Road (in BTC) tra marzo e luglio 2012 (fonte: [Nicolas Christin](https://arxiv.org/pdf/1207.7139))*
 
 
 
@@ -2796,7 +2796,7 @@ Di conseguenza, le commissioni di Dread Pirate Roberts erano enormi. Da 3.000 do
 
 
 
-*Commissioni giornaliere generated di Silk Road (in dollari) tra marzo e luglio 2012 (fonte: [Nicolas Christin](https://arxiv.org/pdf/1207.7139))*
+*Commissioni giornaliere generate da Silk Road (in dollari) tra marzo e luglio 2012 (fonte: [Nicolas Christin](https://arxiv.org/pdf/1207.7139))*
 
 
 
@@ -2808,11 +2808,11 @@ Tutto ciò significa che Silk Road occupava un posto di rilievo nell'attività e
 
 
 
-*Evoluzione dell'attività economica della Via della Seta durante la sua esistenza tra gennaio 2011 e ottobre 2013 (fonte: [Chainalysis](https://www.chainalysis.com/blog/silk-road-doj-seizure-november-2020/))*
+*Evoluzione dell'attività economica della Silk Road durante la sua esistenza tra gennaio 2011 e ottobre 2013 (fonte: [Chainalysis](https://www.chainalysis.com/blog/silk-road-doj-seizure-november-2020/))*
 
 
 
-Lo studio di Nicolas Christin ha avuto un effetto positivo sull'Amazon dei farmaci. All'inizio di novembre 2012, Ross [parlava](https://antilop.cc/sr/users/dpr/threads/20121102-0011-explosive_growth.html) così di "crescita esplosiva". Scrisse che Silk Road si trovava in un "territorio inesplorato in termini di numero di utenti che accedono a Silk Road". Ross poteva quindi permettersi di reinvestire i suoi guadagni in modo significativo nel suo progetto: assunse numerosi dipendenti per portare avanti la piattaforma. Inoltre, il tasso di cambio del Bitcoin è aumentato gradualmente, incrementando il potere d'acquisto dei titolari e il traffico su Silk Road.
+Lo studio di Nicolas Christin ha avuto un effetto positivo sull'Amazon dei farmaci. All'inizio di novembre 2012, Ross [parlava](https://antilop.cc/sr/users/dpr/threads/20121102-0011-explosive_growth.html) così di "crescita esplosiva". Scrisse che Silk Road si trovava in un "territorio inesplorato in termini di numero di utenti che accedono a Silk Road". Ross poteva quindi permettersi di reinvestire i suoi guadagni in modo significativo nel suo progetto: assunse numerosi dipendenti per portare avanti la piattaforma. Inoltre, il tasso di cambio di Bitcoin è aumentato gradualmente, incrementando il potere d'acquisto dei titolari e il traffico su Silk Road.
 
 
 
@@ -2906,7 +2906,7 @@ LocalBitcoins sta attirando l'attenzione della comunità e Jeremias partecipa a 
 
 
 
-Mentre il traffico della Via della Seta e lo scambio di denaro erano fiorenti, lo era anche il commercio convenzionale. Nel 2012, centinaia di commercianti erano [referenziati](https://web.archive.org/web/20120724114927/https://en.bitcoin.it/wiki/Trade) sulla wiki di Bitcoin. Sebbene esistessero alcuni negozi "brick-and-mortar" (di solito bar e ristoranti nelle grandi città, come l'iconico [Room77](https://www.youtube.com/watch?v=rzKdW-au110) di Berlino), la maggior parte degli acquisti di bitcoin veniva effettuata online.
+Mentre il traffico della Silk Road e lo scambio di denaro erano fiorenti, lo era anche il commercio convenzionale. Nel 2012, centinaia di commercianti erano [referenziati](https://web.archive.org/web/20120724114927/https://en.bitcoin.it/wiki/Trade) sulla wiki di Bitcoin. Sebbene esistessero alcuni negozi "brick-and-mortar" (di solito bar e ristoranti nelle grandi città, come l'iconico [Room77](https://www.youtube.com/watch?v=rzKdW-au110) di Berlino), la maggior parte degli acquisti di bitcoin veniva effettuata online.
 
 
 
@@ -2950,7 +2950,7 @@ Stephen Pair, o [Steve](https://bitcointalk.org/index.php?action=profile;u=4399)
 
 
 
-Tony Gallippi, alias [Tonygal](https://bitcointalk.org/index.php?action=profile;u=16035), nel frattempo, ha lavorato nelle vendite e nel marketing nei settori della robotica e della finanza. Nel 2011 ha [curato](https://bitcointalk.org/index.php?topic=44076.msg526713#msg526713) una rivista online per adulti chiamata STARE Magazine. Stephen gli ha parlato del Bitcoin a febbraio e lui ha [cercato](https://bitcointalk.org/index.php?topic=10636.msg152388#msg152388) di accettare la criptovaluta con la sua attività a maggio.
+Tony Gallippi, alias [Tonygal](https://bitcointalk.org/index.php?action=profile;u=16035), nel frattempo, ha lavorato nelle vendite e nel marketing nei settori della robotica e della finanza. Nel 2011 ha [curato](https://bitcointalk.org/index.php?topic=44076.msg526713#msg526713) una rivista online per adulti chiamata STARE Magazine. Stephen gli ha parlato di Bitcoin a febbraio e lui ha [cercato](https://bitcointalk.org/index.php?topic=10636.msg152388#msg152388) di accettare la criptovaluta con la sua attività a maggio.
 
 
 
@@ -2978,7 +2978,7 @@ Il principio alla base di BitPay era quello di dare ai commercianti la possibili
 
 
 
-Stephen Pair e Tony Gallippi hanno [lanciato](https://bitcointalk.org/index.php?topic=32467.msg405469#msg405469) il loro servizio beta alla fine di luglio 2011 e hanno iniziato a promuoverlo in modo piuttosto aggressivo! Sono [apparsi](https://www.youtube.com/watch?v=UZAnM4FjTOg) al *Bitcoin Show* di Bruce Wagner il 27 luglio e sono [andati](https://bitcointalk.org/index.php?topic=32791.msg409542#msg409542) alla conferenza di New York alla fine di agosto. Da settembre in poi, realizzarono video promozionali, di cui [il primo](https://web.archive.org/web/20140314092556/https://www.youtube.com/watch?v=YZ-pqo0cLcE) era una parodia di una pubblicità di PayPal (con donne attraenti). Tony Gallippi ha tenuto una [presentazione](https://web.archive.org/web/20140522091140/https://www.youtube.com/watch?v=cTX5yY0DozQ) sull'adozione del Bitcoin alla conferenza di Praga di novembre. Infine, a dicembre, hanno [lanciato](https://bitcointalk.org/index.php?topic=53680.msg639819#msg639819) un'iniziativa chiamata LoveBitcoin.org, "pubblicizzando l'*utilizzabilità* dei Bitcoin come alternativa a PayPal, carte di debito, Western Union e bonifici bancari".
+Stephen Pair e Tony Gallippi hanno [lanciato](https://bitcointalk.org/index.php?topic=32467.msg405469#msg405469) il loro servizio beta alla fine di luglio 2011 e hanno iniziato a promuoverlo in modo piuttosto aggressivo! Sono [apparsi](https://www.youtube.com/watch?v=UZAnM4FjTOg) al *Bitcoin Show* di Bruce Wagner il 27 luglio e sono [andati](https://bitcointalk.org/index.php?topic=32791.msg409542#msg409542) alla conferenza di New York alla fine di agosto. Da settembre in poi, realizzarono video promozionali, di cui [il primo](https://web.archive.org/web/20140314092556/https://www.youtube.com/watch?v=YZ-pqo0cLcE) era una parodia di una pubblicità di PayPal (con donne attraenti). Tony Gallippi ha tenuto una [presentazione](https://web.archive.org/web/20140522091140/https://www.youtube.com/watch?v=cTX5yY0DozQ) sull'adozione di Bitcoin alla conferenza di Praga di novembre. Infine, a dicembre, hanno [lanciato](https://bitcointalk.org/index.php?topic=53680.msg639819#msg639819) un'iniziativa chiamata LoveBitcoin.org, "pubblicizzando l'*utilizzabilità* dei Bitcoin come alternativa a PayPal, carte di debito, Western Union e bonifici bancari".
 
 
 
@@ -2998,15 +2998,15 @@ Il successo di BitPay [era](https://www.forbes.com/sites/jonmatonis/2013/01/07/l
 
 
 
-Un evento importante nell'adozione commerciale del Bitcoin è stato il *Porcupine Freedom Festival* del 2012, che si è svolto dal 18 al 24 giugno, sempre nello stesso campeggio nel nord del New Hampshire. Quell'anno, i partecipanti potevano prenotare i loro biglietti in bitcoin. Il festival [ha riunito](https://zerogov.com/2012/06/26/porcfest-2012-after-action-review/) quasi 1.000 persone.
+Un evento importante nell'adozione commerciale di Bitcoin è stato il *Porcupine Freedom Festival* del 2012, che si è svolto dal 18 al 24 giugno, sempre nello stesso campeggio nel nord del New Hampshire. Quell'anno, i partecipanti potevano prenotare i loro biglietti in bitcoin. Il festival [ha riunito](https://zerogov.com/2012/06/26/porcfest-2012-after-action-review/) quasi 1.000 persone.
 
 
 
-I rappresentanti di BitInstant [erano presenti](https://web.archive.org/web/20120701024814/http://blog.bitinstant.com/blog/2012/6/27/porcfest-2012-bitinstant-and-the-bernanke-bitcoin-exchange.html) per onorare Bitcoin. Erano in quattro: Roger Ver (accompagnato dalla fidanzata giapponese Ayaka), Erik Voorhees, Charlie Shrem e Ira Miller. Essi si sono occupati di spiegare il Bitcoin agli altri e hanno organizzato una tavola rotonda sull'argomento che ha attirato oltre 80 persone. Sul fronte dei media, [Roger] (https://www.youtube.com/watch?v=nDmAm5wbasU) e [Erik] (https://www.youtube.com/watch?v=FfRdPVcyR6s) hanno risposto alle domande dei pochi media indipendenti presenti e sono apparsi, tra l'altro, nel programma radiofonico Free Talk Live.
+I rappresentanti di BitInstant [erano presenti](https://web.archive.org/web/20120701024814/http://blog.bitinstant.com/blog/2012/6/27/porcfest-2012-bitinstant-and-the-bernanke-bitcoin-exchange.html) per onorare Bitcoin. Erano in quattro: Roger Ver (accompagnato dalla fidanzata giapponese Ayaka), Erik Voorhees, Charlie Shrem e Ira Miller. Essi si sono occupati di spiegare Bitcoin agli altri e hanno organizzato una tavola rotonda sull'argomento che ha attirato oltre 80 persone. Sul fronte dei media, [Roger] (https://www.youtube.com/watch?v=nDmAm5wbasU) e [Erik] (https://www.youtube.com/watch?v=FfRdPVcyR6s) hanno risposto alle domande dei pochi media indipendenti presenti e sono apparsi, tra l'altro, nel programma radiofonico Free Talk Live.
 
 
 
-Ma soprattutto, i membri di BitInstant hanno presidiato uno stand, chiamato "*Bitcoin Exchange* di Bernanke", dove hanno gestito gli scambi con il dollaro e insegnato ai curiosi come utilizzare il Bitcoin. Hanno mostrato alle persone come accettare e spendere facilmente bitcoin utilizzando BitcoinSpinner, Blockchain.info o Instawallet. Nel corso della settimana hanno venduto 2.500 dollari di bitcoin e alcune centinaia di dollari di Coin Casascius, interessanti per gli appassionati di numismatica.
+Ma soprattutto, i membri di BitInstant hanno presidiato uno stand, chiamato "*Bitcoin Exchange* di Bernanke", dove hanno gestito gli scambi con il dollaro e insegnato ai curiosi come utilizzare Bitcoin. Hanno mostrato alle persone come accettare e spendere facilmente bitcoin utilizzando BitcoinSpinner, Blockchain.info o Instawallet. Nel corso della settimana hanno venduto 2.500 dollari di bitcoin e alcune centinaia di dollari di Coin Casascius, interessanti per gli appassionati di numismatica.
 
 
 
@@ -3050,7 +3050,7 @@ Questo evento ha spianato la strada a un'accettazione più ampia, che ha portato
 
 
 
-Nonostante questa graduale evoluzione, il periodo rimase legato al Far West e fu illustrato anche dal grande successo del gioco d'azzardo in criptovaluta e dai primi esperimenti delle lavoratrici del sesso con il Bitcoin. Il breve capitolo che segue è dedicato a questo ruolo di "moneta del vizio" che il Bitcoin assunse da quel momento in poi.
+Nonostante questa graduale evoluzione, il periodo rimase legato al Far West e fu illustrato anche dal grande successo del gioco d'azzardo in criptovaluta e dai primi esperimenti delle lavoratrici del sesso con Bitcoin. Il breve capitolo che segue è dedicato a questo ruolo di "moneta del vizio" che Bitcoin assunse da quel momento in poi.
 
 
 
@@ -3061,7 +3061,7 @@ Nonostante questa graduale evoluzione, il periodo rimase legato al Far West e fu
 
 
 
-Il Bitcoin è una moneta che non richiede autorizzazione. Questo spiega perché veniva necessariamente utilizzato in pratiche considerate viziose, che spesso sono moralmente condannate, se non legalmente proibite. C'era, ovviamente, il consumo di droga spinto dal mercato della Via della Seta, di cui abbiamo già parlato a lungo in questo corso. Ma non era l'unica attività di questo tipo: anche il gioco d'azzardo e il lavoro sessuale sperimentavano una sorta di sinergia con il Bitcoin.
+Il Bitcoin è una moneta che non richiede autorizzazione. Questo spiega perché veniva necessariamente utilizzato in pratiche considerate viziose, che spesso sono moralmente condannate, se non legalmente proibite. C'era, ovviamente, il consumo di droga spinto dal mercato della Silk Road, di cui abbiamo già parlato a lungo in questo corso. Ma non era l'unica attività di questo tipo: anche il gioco d'azzardo e il lavoro sessuale sperimentavano una sorta di sinergia con Bitcoin.
 
 
 
@@ -3073,7 +3073,7 @@ Questo capitolo è diviso in tre sezioni. La prima riguarda il poker di bitcoin,
 
 
 
-Una delle aree in crescita dell'economia del Bitcoin tra il 2011 e il 2012 è stato il gioco d'azzardo online, e più in particolare il poker. Il 2011 è stato infatti caratterizzato da un giro di vite sul poker online, che ha contribuito a far luce sul Bitcoin come valuta alternativa.
+Una delle aree in crescita dell'economia di Bitcoin tra il 2011 e il 2012 è stato il gioco d'azzardo online, e più in particolare il poker. Il 2011 è stato infatti caratterizzato da un giro di vite sul poker online, che ha contribuito a far luce su Bitcoin come valuta alternativa.
 
 
 
@@ -3129,7 +3129,7 @@ Ma tutti questi giochi si basavano su una piattaforma centralizzata e non erano 
 
 
 
-Fireduck, vero nome Joseph Gleason, è uno sviluppatore americano [30 anni](http://fireduck.com/index-single.html). Si è interessato al Bitcoin nell'estate del 2011, dopo di che ha iniziato a frequentare il sottoforum Bitcoin su Reddit (r/Bitcoin). Inoltre, è stato coinvolto nello sviluppo di diversi strumenti software: ha [programmato](https://www.reddit.com/r/Bitcoin/comments/im5h6/using_bitcoin_for_crypto_timestamping_hashes_not/) uno strumento di timestamping, [distribuito](https://www.reddit.com/r/Namecoin/comments/iw8cd/unable_to_download_blocks/) un nodo per Namecoin e [lanciato](https://www.reddit.com/r/Bitcoin/comments/j6ahv/buy_bitcoins_via_google_checkout/) un servizio di scambio rudimentale compatibile con il sistema di pagamento online Google Checkout, che ha avuto vita breve.
+Fireduck, vero nome Joseph Gleason, è uno sviluppatore americano [30 anni](http://fireduck.com/index-single.html). Si è interessato a Bitcoin nell'estate del 2011, dopo di che ha iniziato a frequentare il sottoforum Bitcoin su Reddit (r/Bitcoin). Inoltre, è stato coinvolto nello sviluppo di diversi strumenti software: ha [programmato](https://www.reddit.com/r/Bitcoin/comments/im5h6/using_bitcoin_for_crypto_timestamping_hashes_not/) uno strumento di timestamping, [distribuito](https://www.reddit.com/r/Namecoin/comments/iw8cd/unable_to_download_blocks/) un nodo per Namecoin e [lanciato](https://www.reddit.com/r/Bitcoin/comments/j6ahv/buy_bitcoins_via_google_checkout/) un servizio di scambio rudimentale compatibile con il sistema di pagamento online Google Checkout, che ha avuto vita breve.
 
 
 
@@ -3145,7 +3145,7 @@ Nel 2012, Fireduck ha trovato un modo per rendere verificabile il denaro delle s
 
 
 
-Il gioco ha la forma di un gioco di dadi. Per ogni transazione viene effettuato un sorteggio e il risultato è compreso tra 0 e 65.536. Questo "numero fortunato" si [ottiene](https://web.archive.org/web/20120507154620/http://satoshidice.com/secrets.php) selezionando i primi due byte del digest (calcolato con HMAC-SHA-512) delle informazioni segrete e l'identificativo della transazione in arrivo. Se questo numero è strettamente inferiore a un obiettivo legato all'indirizzo (32.768 per l'indirizzo che raddoppia la puntata), allora il lancio è vincente e il giocatore riceve la vincita prevista. Se è superiore, il giocatore riceve una piccola frazione dell'importo, a conferma che il sistema ha funzionato. Ogni scommessa, quindi, generated due transazioni aggiunte alla blockchain.
+Il gioco ha la forma di un gioco di dadi. Per ogni transazione viene effettuato un sorteggio e il risultato è compreso tra 0 e 65.536. Questo "numero fortunato" si [ottiene](https://web.archive.org/web/20120507154620/http://satoshidice.com/secrets.php) selezionando i primi due byte del digest (calcolato con HMAC-SHA-512) delle informazioni segrete e l'identificativo della transazione in arrivo. Se questo numero è strettamente inferiore a un obiettivo legato all'indirizzo (32.768 per l'indirizzo che raddoppia la puntata), allora il lancio è vincente e il giocatore riceve la vincita prevista. Se è superiore, il giocatore riceve una piccola frazione dell'importo, a conferma che il sistema ha funzionato. Ogni scommessa, quindi, genera due transazioni aggiunte alla blockchain.
 
 
 
@@ -3177,7 +3177,7 @@ L'opportunità è stata colta quasi subito da Erik Voorhees che, da convinto lib
 
 
 
-Nei mesi successivi, SatoshiDICE ebbe un successo fenomenale. Le persone si appassionarono al gioco, soprattutto perché era così semplice e istantaneo. Poiché ogni scommessa (vinta o persa) generated due transazioni, l'attività sulla blockchain Bitcoin esplose. Il numero di transazioni giornaliere, che fino a quel momento si aggirava intorno alle 7.000, [aumentò](https://bitinfocharts.com/comparison/bitcoin-transactions.html#alltime) rapidamente, superando (di poco) il precedente record di 13.900 transazioni già il 4 maggio. Lo stesso Erik Voorhees [si è rallegrato](https://bitcointalk.org/index.php?topic=79285.msg881416#msg881416) sul forum. Il 19 maggio il numero ha superato le 35.000 transazioni; il 14 giugno ha raggiunto le 61.782 transazioni giornaliere, che rappresenterebbero il record per il 2012!
+Nei mesi successivi, SatoshiDICE ebbe un successo fenomenale. Le persone si appassionarono al gioco, soprattutto perché era così semplice e istantaneo. Poiché ogni scommessa (vinta o persa) generava due transazioni, l'attività sulla blockchain Bitcoin esplose. Il numero di transazioni giornaliere, che fino a quel momento si aggirava intorno alle 7.000, [aumentò](https://bitinfocharts.com/comparison/bitcoin-transactions.html#alltime) rapidamente, superando (di poco) il precedente record di 13.900 transazioni già il 4 maggio. Lo stesso Erik Voorhees [si è rallegrato](https://bitcointalk.org/index.php?topic=79285.msg881416#msg881416) sul forum. Il 19 maggio il numero ha superato le 35.000 transazioni; il 14 giugno ha raggiunto le 61.782 transazioni giornaliere, che rappresenterebbero il record per il 2012!
 
 
 
@@ -3211,11 +3211,11 @@ I profitti del gioco online [sarebbero](https://web.archive.org/web/201301250230
 
 
 
-Il gioco d'azzardo non è l'unica attività che beneficia del Bitcoin: c'è anche il cosiddetto lavoro sessuale. Questo comprende attività che comportano un contatto fisico diretto (prostituzione in senso stretto), ma anche una stimolazione sessuale indiretta, come lo striptease, il sesso telefonico o la pornografia. A partire dagli anni 2000 si è sviluppato un nuovo fenomeno: quello delle camgirl che sfruttano le trasmissioni in diretta su Internet per interagire direttamente con i loro clienti, che possono comunicare loro i propri desideri.
+Il gioco d'azzardo non è l'unica attività che beneficia di Bitcoin: c'è anche il cosiddetto lavoro sessuale. Questo comprende attività che comportano un contatto fisico diretto (prostituzione in senso stretto), ma anche una stimolazione sessuale indiretta, come lo striptease, il sesso telefonico o la pornografia. A partire dagli anni 2000 si è sviluppato un nuovo fenomeno: quello delle camgirl che sfruttano le trasmissioni in diretta su Internet per interagire direttamente con i loro clienti, che possono comunicare loro i propri desideri.
 
 
 
-L'uso del Bitcoin è adatto al lavoro sessuale. In un'industria largamente basata sul denaro contante, il Bitcoin [sembra essere](https://web.archive.org/web/20131217032819/http://internationalsocialistnetwork.org/index.php/ideas-and-arguments/301-mistress-magpie-a-left-defence-of-bitcoin) un'opzione più sicura. Online, il Bitcoin non solo consente di effettuare trasferimenti dove la prostituzione è vietata, ma, grazie al suo relativo anonimato, evita anche l'ammonizione sociale da parte della società. Satoshi lo ha capito. Nel 2009 [ha menzionato](https://www.metzdowd.com/pipermail/cryptography/2009-January/015014.html) l'uso di "micropagamenti per siti per adulti", e nel 2010 [ha scritto](https://bitcointalk.org/index.php?topic=671.msg13844#msg13844) che "il Bitcoin sarebbe comodo per chi non ha una carta di credito o non vuole usare le carte che ha, o non vuole che il coniuge lo veda sulla bolletta o non si fida a dare il proprio numero ai 'pornoattori', o ha paura della fatturazione ricorrente".
+L'uso di Bitcoin è adatto al lavoro sessuale. In un'industria largamente basata sul denaro contante, Bitcoin [sembra essere](https://web.archive.org/web/20131217032819/http://internationalsocialistnetwork.org/index.php/ideas-and-arguments/301-mistress-magpie-a-left-defence-of-bitcoin) un'opzione più sicura. Online, Bitcoin non solo consente di effettuare trasferimenti dove la prostituzione è vietata, ma, grazie al suo relativo anonimato, evita anche l'ammonizione sociale da parte della società. Satoshi lo ha capito. Nel 2009 [ha menzionato](https://www.metzdowd.com/pipermail/cryptography/2009-January/015014.html) l'uso di "micropagamenti per siti per adulti", e nel 2010 [ha scritto](https://bitcointalk.org/index.php?topic=671.msg13844#msg13844) che "Bitcoin sarebbe comodo per chi non ha una carta di credito o non vuole usare le carte che ha, o non vuole che il coniuge lo veda sulla bolletta o non si fida a dare il proprio numero ai 'pornoattori', o ha paura della fatturazione ricorrente".
 
 
 
@@ -3258,7 +3258,7 @@ Ma questa nuova forma di moneta non era solo adatta al vizio: era anche la monet
 
 
 
-Grazie alla sua resistenza alla censura e al relativo anonimato, la Bitcoin si presta bene alle attività criminali. Questo aspetto può essere considerato deplorevole, ma è inseparabile dall'ideale di indipendenza e libertà portato avanti dalla criptovaluta. Ecco perché il Bitcoin è stato rapidamente associato ad affari loschi che sono stati ampiamente riportati dalla stampa tradizionale.
+Grazie alla sua resistenza alla censura e al relativo anonimato, Bitcoin si presta bene alle attività criminali. Questo aspetto può essere considerato deplorevole, ma è inseparabile dall'ideale di indipendenza e libertà portato avanti dalla criptovaluta. Ecco perché Bitcoin è stato rapidamente associato ad affari loschi che sono stati ampiamente riportati dalla stampa tradizionale.
 
 
 
@@ -3278,7 +3278,7 @@ Concluderemo il capitolo con una conclusione generale di quello che speriamo sia
 
 
 
-La criminalità informatica legata al Bitcoin è in aumento da quando la criptovaluta è stata resa popolare nel 2011. L'estate del 2011 è stata particolarmente calda, con l'infezione del computer di Allinvain (che ha causato una perdita di 25.000 BTC, pari a 500.000 dollari), l'hack di Mt. Gox e le sue ripercussioni (che ha coinvolto almeno 6019 BTC, pari a 105.000 dollari) e il furto di MyBitcoin (di 78.740 BTC, pari a 1.000.000 dollari). Potremmo anche citare il bitcoin mining da macchine zombie, che inizialmente [apparve](https://cryptome.org/2012/05/fbi-bitcoin.pdf) in questo periodo: la pratica fu [poco redditizia](https://web.archive.org/web/20110618210349/http://www.symantec.com/connect/blogs/bitcoin-botnet-mining), ma preannunciò il ransomware Cryptolocker del 2013.
+La criminalità informatica legata a Bitcoin è in aumento da quando la criptovaluta è stata resa popolare nel 2011. L'estate del 2011 è stata particolarmente calda, con l'infezione del computer di Allinvain (che ha causato una perdita di 25.000 BTC, pari a 500.000 dollari), l'hack di Mt. Gox e le sue ripercussioni (che ha coinvolto almeno 6019 BTC, pari a 105.000 dollari) e il furto di MyBitcoin (di 78.740 BTC, pari a 1.000.000 dollari). Potremmo anche citare il bitcoin mining da macchine zombie, che inizialmente [apparve](https://cryptome.org/2012/05/fbi-bitcoin.pdf) in questo periodo: la pratica fu [poco redditizia](https://web.archive.org/web/20110618210349/http://www.symantec.com/connect/blogs/bitcoin-botnet-mining), ma preannunciò il ransomware Cryptolocker del 2013.
 
 
 
@@ -3290,7 +3290,7 @@ Tra questi clienti c'era la piattaforma di trading Bitcoinica, gestita dal giova
 
 
 
-L'hacker ha anche [messo le mani](https://bitcointalk.org/index.php?topic=66916.msg777575#msg777575) su 3.094 bitcoin appartenenti a BitcoinCZ Mining, il pool mining di Slush. Questi bitcoin, che all'epoca valevano più di 15.000 dollari, erano conservati nel pool mining wallet per il pagamento ai suoi membri. Slush copriva personalmente la perdita.
+L'hacker ha anche [messo le mani](https://bitcointalk.org/index.php?topic=66916.msg777575#msg777575) su 3.094 bitcoin appartenenti a BitcoinCZ Mining, la mining pool di Slush. Questi bitcoin, che all'epoca valevano più di 15.000 dollari, erano conservati nel mining pool wallet per il pagamento ai suoi membri. Slush copriva personalmente la perdita.
 
 
 
@@ -3346,7 +3346,7 @@ Tuttavia, le cose non sono andate come previsto, poiché poco dopo si è verific
 
 
 
-Il 13 maggio Zhou Tong ha [pubblicato](https://bitcointalk.org/index.php?topic=81581.msg897948#msg897948) un lungo messaggio sul forum di Bitcoin in cui annunciava di "lasciare Bitcoin". Ha spiegato che "questo non è legato all'hack Bitcoinica", e che si basa sulla mancanza di significato del suo lavoro. Sentiva di aver fallito nel "valore generate per la società", considerando che "la speculazione è un gioco a somma zero". Voleva "costruire prodotti che facessero risparmiare alle persone tempo, denaro e grattacapi" e il Bitcoin "non aiuta a soddisfare le mie reali esigenze". In quel periodo si è trasferito in Australia per continuare gli studi e ha voluto continuare a perseguire attività imprenditoriali, in particolare con un progetto chiamato [NameTerrific](https://bitcointalk.org/index.php?topic=82566.msg910076#msg910076). Tuttavia, è rimasto legato a Bitcoin e ha dichiarato di conservare una moneta Casascius del valore di 1.000 bitcoin. È tornato nel 2013, co-fondando CoinJar, una piattaforma di scambio australiana.
+Il 13 maggio Zhou Tong ha [pubblicato](https://bitcointalk.org/index.php?topic=81581.msg897948#msg897948) un lungo messaggio sul forum di Bitcoin in cui annunciava di "lasciare Bitcoin". Ha spiegato che "questo non è legato all'hack Bitcoinica", e che si basa sulla mancanza di significato del suo lavoro. Sentiva di aver fallito nel "valore generate per la società", considerando che "la speculazione è un gioco a somma zero". Voleva "costruire prodotti che facessero risparmiare alle persone tempo, denaro e grattacapi" e Bitcoin "non aiuta a soddisfare le mie reali esigenze". In quel periodo si è trasferito in Australia per continuare gli studi e ha voluto continuare a perseguire attività imprenditoriali, in particolare con un progetto chiamato [NameTerrific](https://bitcointalk.org/index.php?topic=82566.msg910076#msg910076). Tuttavia, è rimasto legato a Bitcoin e ha dichiarato di conservare una moneta Casascius del valore di 1.000 bitcoin. È tornato nel 2013, co-fondando CoinJar, una piattaforma di scambio australiana.
 
 
 
@@ -3522,7 +3522,7 @@ Con il passare dei mesi, Bitfloor si riprese e [riuscì](https://bitcoinmagazine
 
 
 
-Checché se ne dica, la Bitcoin è stata effettivamente una moneta del crimine nel periodo tra il 2011 e il 2012, essendo particolarmente utilizzata in caso di furti di ogni genere. Ciò è stato evidente già nell'estate del 2011, con il trojan Allinvain, l'hack di Mt. Gox, il furto di MyBitcoin e la perdita di Bitomat. Nel 2012, gli incidenti degni di nota sono stati l'hack di Linode, la truffa di Tony76 su Silk Road, gli hack di Bitcoinica, il crollo di Bitcoin Savings & Trust e l'hack di Bitfloor. Negli anni successivi, le piattaforme hanno migliorato la loro sicurezza e la diffidenza è diventata più insistente, ma questo non ha impedito che gli hack e le truffe si moltiplicassero.
+Checché se ne dica, Bitcoin è stata effettivamente una moneta del crimine nel periodo tra il 2011 e il 2012, essendo particolarmente utilizzata in caso di furti di ogni genere. Ciò è stato evidente già nell'estate del 2011, con il trojan Allinvain, l'hack di Mt. Gox, il furto di MyBitcoin e la perdita di Bitomat. Nel 2012, gli incidenti degni di nota sono stati l'hack di Linode, la truffa di Tony76 su Silk Road, gli hack di Bitcoinica, il crollo di Bitcoin Savings & Trust e l'hack di Bitfloor. Negli anni successivi, le piattaforme hanno migliorato la loro sicurezza e la diffidenza è diventata più insistente, ma questo non ha impedito che gli hack e le truffe si moltiplicassero.
 
 
 
@@ -3534,17 +3534,17 @@ I media tendevano a dare risalto a queste sordide vicende, probabilmente a causa
 
 
 
-L'immagine disastrosa della Bitcoin ebbe un effetto repellente sulla popolazione generale e, a sua volta, incoraggiò l'intervento dello Stato. Le attività illegali e criminali hanno suscitato l'interesse delle agenzie statali, in particolare dell'FBI. In un [rapporto interno](https://cryptome.org/2012/05/fbi-bitcoin.pdf) del Bureau, trapelato nel maggio 2012, compare la seguente considerazione:
+L'immagine disastrosa di Bitcoin ebbe un effetto repellente sulla popolazione generale e, a sua volta, incoraggiò l'intervento dello Stato. Le attività illegali e criminali hanno suscitato l'interesse delle agenzie statali, in particolare dell'FBI. In un [rapporto interno](https://cryptome.org/2012/05/fbi-bitcoin.pdf) del Bureau, trapelato nel maggio 2012, compare la seguente considerazione:
 
 
 
-> Il Bitcoin continuerà probabilmente ad attrarre i criminali informatici che lo considerano un mezzo per spostare o rubare fondi, nonché un mezzo per effettuare donazioni a gruppi illeciti. Se il Bitcoin si stabilizzerà e crescerà di popolarità, diventerà uno strumento sempre più utile per varie attività illegali al di là del regno informatico.
+> Il Bitcoin continuerà probabilmente ad attrarre i criminali informatici che lo considerano un mezzo per spostare o rubare fondi, nonché un mezzo per effettuare donazioni a gruppi illeciti. Se Bitcoin si stabilizzerà e crescerà di popolarità, diventerà uno strumento sempre più utile per varie attività illegali al di là del regno informatico.
 
 Lo sciame di calabroni che Satoshi Nakamoto aveva temuto nel dicembre 2010 era arrivato, portando con sé la repressione statale e tutto ciò che ne consegue. Negli anni a venire, molti attori dell'ecosistema sarebbero stati chiamati a rispondere dalle autorità. La regolamentazione delle piattaforme di cambio, che nel 2012 era ancora agli inizi, avrebbe preso piede. La vigilanza finanziaria si sarebbe sviluppata con la generalizzazione della conoscenza dei clienti e l'emergere dell'analisi della catena.
 
 
 
-Per ovviare a questi rischi, era necessario uno sforzo di comunicazione. La comunità Bitcoin doveva migliorare la propria immagine. Bisognava chiarire che non era usata *solo* dai criminali, che il bitcoin non era usato esclusivamente per il riciclaggio di denaro e il finanziamento del terrorismo. Bisognava rielaborare il discorso, per evitare di attirare l'attenzione e diventare accettabili agli occhi della popolazione. Le autorità hanno dovuto essere corteggiate attraverso un'azione di lobbying, per evitare un divieto totale. Tutto questo ha portato alla creazione della Fondazione Bitcoin il 27 settembre 2012, una data cruciale nella storia del Bitcoin.
+Per ovviare a questi rischi, era necessario uno sforzo di comunicazione. La comunità Bitcoin doveva migliorare la propria immagine. Bisognava chiarire che non era usata *solo* dai criminali, che il bitcoin non era usato esclusivamente per il riciclaggio di denaro e il finanziamento del terrorismo. Bisognava rielaborare il discorso, per evitare di attirare l'attenzione e diventare accettabili agli occhi della popolazione. Le autorità hanno dovuto essere corteggiate attraverso un'azione di lobbying, per evitare un divieto totale. Tutto questo ha portato alla creazione della Fondazione Bitcoin il 27 settembre 2012, una data cruciale nella storia di Bitcoin.
 
 
 
@@ -3562,4 +3562,4 @@ L'aumento della speculazione è stata una buona notizia anche per Mt. Gox, che d
 
 ---
 
-Il corso sulla costruzione del Bitcoin tra la primavera del 2011 e l'estate del 2012 termina qui. Il prossimo periodo della storia delle criptovalute, quello dell'irresistibile ascesa del Bitcoin, sarà trattato nel prossimo corso, a Dio piacendo.
+Il corso sulla costruzione di Bitcoin tra la primavera del 2011 e l'estate del 2012 termina qui. Il prossimo periodo della storia delle criptovalute, quello dell'irresistibile ascesa di Bitcoin, sarà trattato nel prossimo corso, a Dio piacendo.

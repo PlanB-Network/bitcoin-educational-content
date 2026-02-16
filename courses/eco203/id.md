@@ -56,8 +56,8 @@ Memang, Frédéric Bastiat, yang lahir pada tahun 1801 dan hidup selama paruh pe
 ![image](assets/id/002.webp)
 
 Ternyata, setelah Perang Dunia II, salah satu bukunya diterbitkan di Amerika Serikat. Buku itu menjadi sangat terkenal, sampai-sampai Ronald Reagan sendiri mengatakan itu adalah buku favoritnya, dan buku kecil ini disebut "Hukum." Bastiat dengan demikian menjadi salah satu dari dua penulis Prancis paling terkenal di Amerika Serikat, yang lainnya juga dikenal baik di Prancis, Alexis de Tocqueville.
+
 ![image](assets/id/003.webp)
-_(Pasar di Mugron di Landes, kota Bastiat)_
 
 Jadi, seorang jenius yang tidak diakui namun juga menjadi cahaya bagi zaman kita. Memang, Frédéric Bastiat, yang lahir di Bayonne, pertama kali menjalani sebagian hidupnya di Landes di mana ia mengelola sebuah perkebunan pertanian yang dia warisi dan dia menjalani hidup pada akhirnya sebagai seorang pengusaha. Dan kemudian, sangat awal, dia mulai tertarik pada ekonomi, dia melakukan perjalanan ke Inggris, dia bertemu dengan Richard Cobden yang merupakan pemimpin gerakan perdagangan bebas. Bastiat terpesona oleh gerakan ini, dia yakin bahwa perdagangan bebas adalah solusi untuk Prancis dan dia memutuskan setelah itu untuk mencoba menyebarkan ide-idenya di Prancis. Dia menulis artikel-artikel yang sangat sukses dan dia pindah ke Paris untuk menjalankan sebuah surat kabar yang pada waktu itu disebut Journal des économistes.
 
@@ -125,7 +125,9 @@ Ia pertama kali menerbitkan seri awal dari Sophisme Ekonomi, di mana ia menyeran
 
 Tahun berikutnya, ia mendirikan "Asosiasi untuk Perdagangan Bebas" di Prancis dan terjun ke dalam perjuangan melawan proteksionisme di Prancis. Ia mengumpulkan dana, membuat ulasan mingguan, dan memberikan ceramah di seluruh negeri.
 Pertemuan pertama berlangsung di Bordeaux pada tanggal 23 Februari 1846, di mana Asosiasi Perdagangan Bebas Bordeaux didirikan. Tak lama, gerakan tersebut menyebar ke seluruh Prancis. Di Paris, inti awal terbentuk di antara anggota Masyarakat Ekonom, yang kemudian bergabung dengan anggota parlemen, industrialis, dan pedagang. Grup-grup signifikan juga terbentuk di Marseille, Lyon, dan Le Havre.
+
 ![image](assets/id/012.webp)
+
 Revolusi Februari 1848 menggulingkan monarki Louis-Philippe, yang dikenal sebagai Monarki Juli (1830-1848), dan menyaksikan kedatangan Republik Kedua. Bastiat kemudian terpilih sebagai anggota majelis legislatif sebagai wakil dari Landes. Ia duduk di tengah-kiri, bersama dengan Alexis de Tocqueville, di antara para monarkis dan sosialis. Di sana, ia berusaha untuk mempertahankan kebebasan individu seperti hak-hak sipil dan menentang semua kebijakan pembatasan, baik yang datang dari kanan maupun kiri. Ia terpilih sebagai wakil presiden Komite Keuangan dan terus-menerus berusaha mengingatkan rekan-rekan deputinya tentang kebenaran sederhana ini, yang sering terlupakan di parlemen:
 
 > Seseorang tidak dapat memberikan kepada beberapa orang, melalui undang-undang, tanpa diwajibkan untuk mengambil dari orang lain melalui undang-undang lain.
@@ -152,7 +154,6 @@ Dalam ekonomi, Bastiat selalu mengakui hutangnya kepada Adam Smith dan Jean-Bapt
 
 ![image](assets/id/015.webp)
 
-_(Jean-Baptiste Say dan Adam Smith)_
 Ekonomi politik, sebagaimana dipahami oleh Adam Smith dan J.-B. Say, terangkum dalam satu kata: kebebasan. Kebebasan perdagangan, kebebasan individu, perdagangan bebas, dan inisiatif bebas. Perdagangan bebas pertama kali dibela oleh para fisiokrat, seperti François Quesnay dan Vincent de Gournay, dan kemudian oleh Adam Smith yang mensintesis ide-ide mereka dengan pengamatannya sendiri. Akhirnya, pada akhir abad ke-18, Jean-Baptiste Say menjernihkan dan memperbaiki beberapa poin doktrin gurunya Adam Smith dalam karyanya yang luar biasa, Treatise on Political Economy.
 
 ![image](assets/id/016.webp)
@@ -183,8 +184,6 @@ Pertukaran adalah permainan yang menguntungkan kedua belah pihak. Apa yang satu 
 
 ![image](assets/id/019.webp)
 
-_(Marx, Ricardo, Smith, Locke)_
-
 Di sisi lain, Bastiat akan mengakui bersama Jean-Baptiste Say bahwa utilitas adalah dasar sebenarnya dari nilai. Tenaga kerja tidak menciptakan nilai. Kelangkaan juga tidak. Semuanya berasal dari utilitas. Memang, tidak ada yang setuju untuk membayar suatu layanan kecuali mereka menganggapnya berguna. Seseorang hanya pernah menghasilkan utilitas.
 Tetapi Bastiat juga menambahkan nuansa pada Say dalam hal ini. Ini bukan tentang utilitas yang ada dalam benda, ini tentang utilitas relatif dari layanan. "Nilai adalah rasio dari dua layanan yang ditukar," menurut kata-katanya sendiri. Oleh karena itu, nilai bersifat subjektif, dan satu-satunya cara untuk memahami preferensi individu adalah dengan mengamati perilaku mereka di pasar bebas. Pasar mengungkapkan preferensi individu dan merupakan pengatur besar masyarakat melalui pertukaran.
 
@@ -192,17 +191,11 @@ Ekonomi tunduk pada sejumlah hukum sederhana yang berasal dari perilaku manusia.
 
 ![image](assets/id/020.webp)
 
----
-
->Kebebasan individu = Harmoni sosial
-
----
-
 Memang, produk hanya dibeli dengan antisipasi layanan yang diharapkan pembeli: Saya membeli disk untuk musik yang akan saya dengarkan, saya membeli tiket bioskop untuk film yang akan saya lihat. Dan dalam pertukaran, setiap pihak memutuskan karena menilai bahwa dapat memperoleh lebih banyak layanan dari apa yang diperolehnya daripada apa yang dilepaskannya. Dalam konteks ini, uang hanyalah komoditas perantara, itu menggantikan layanan yang diberikan dan membuka layanan lain.
 
 Bagi Bastiat, ekonomi pertukaran, yaitu layanan timbal balik yang ditawarkan dan diterima secara bebas, adalah yang mendasari perdamaian dan kemakmuran, memungkinkan untuk harmoni kepentingan.
 
-Tetapi dari Jean-Baptiste Say, Frédéric Bastiat juga mewarisi konsep kunci, yaitu tentang penjarahan. Karena, katanya, menggemakan kata-kata Say:
+Tetapi dari Jean-Baptiste Say, Frédéric Bastiat juga mewarisi konsep kunci, yaitu penjarahan. Sebab, katanya, menggemakan kata-kata Say:
 
 > Hanya ada dua cara untuk memperoleh hal-hal yang diperlukan untuk pelestarian, penghiasan, dan peningkatan kehidupan: produksi dan penjarahan.
 
@@ -216,7 +209,7 @@ Produsen menggunakan persuasi, negosiasi, dan kontrak, sementara penjarah menggu
 
 Sedikit yang diketahui, namun Destutt de Tracy memiliki pengaruh yang menentukan terhadap Presiden Amerika Serikat masa depan, Thomas Jefferson, saat ia menjadi duta besar di Paris pada tahun 1780-an.
 
-> "Bagi setiap orang, negara pertamanya adalah tanah airnya, dan yang kedua adalah Prancis" & "Tirani adalah ketika rakyat takut pada pemerintahnya; kebebasan adalah ketika pemerintah takut pada rakyatnya."
+> "Bagi setiap orang, negara pertamanya adalah tanah airnya, dan yang kedua adalah Prancis" & "Tirani terjadi ketika rakyat takut kepada pemerintahnya; kebebasan terjadi ketika pemerintah takut kepada rakyatnya."
 >
 > Thomas Jefferson
 
@@ -239,6 +232,7 @@ Dengan ideologi, Tracy hanya bermaksud ilmu yang berurusan dengan studi tentang 
 Ini mendominasi periode revolusioner dan dipimpin oleh Jean-Baptiste Say. Destutt de Tracy terpilih menjadi anggota Akademi Prancis pada tahun 1808 dan dari Akademi Ilmu Moral dan Politik pada tahun 1832. Putrinya menikah dengan Georges Washington de La Fayette (putra dari presiden Amerika pertama) pada tahun 1802, yang menunjukkan kedekatan yang masih ada antara Prancis dan Amerika muda pada saat itu.
 
 ![image](assets/id/027.webp)
+
 Tujuan dari Traktatnya tentang Ekonomi Politik adalah untuk "memeriksa cara terbaik untuk memanfaatkan semua kemampuan fisik dan intelektual kita untuk memenuhi berbagai kebutuhan kita." Ideanya adalah bahwa perdagangan adalah sumber dari semua kebaikan manusia; itu adalah kekuatan yang memperadabkan, merasionalisasi, dan memperdamaikan dunia. Maksim besar ekonomi politik dirumuskannya sebagai berikut: "perdagangan adalah keseluruhan masyarakat, sama seperti kerja adalah keseluruhan kekayaan." Memang, ia melihat masyarakat sebagai "serangkaian pertukaran yang berkelanjutan di mana kedua kontraktor selalu mendapat keuntungan." Oleh karena itu, pasar adalah kebalikan dari pemangsaan. Ini memperkaya beberapa tanpa memiskinkan yang lain. Seperti yang akan dikatakan nanti, ini bukan "permainan jumlah nol," tetapi permainan jumlah positif.
 
 Penulis kita tidak sampai pada mendefinisikan ekonomi politik sebagai ilmu pertukaran. Namun, penalaran yang sama akan diambil dan dilanjutkan oleh Bastiat. Menjual adalah pertukaran objek, menyewa adalah pertukaran jasa, dan meminjam hanyalah pertukaran yang ditunda. Ekonomi politik dengan demikian menjadi bagi Bastiat "teori pertukaran."
@@ -283,7 +277,6 @@ Charles Comte, sepupu dari Auguste Comte dan menantu dari Say, adalah pendiri ul
 Apa tujuan dari ulasan tersebut? Judulnya sudah menjelaskan: untuk mengkritik pemerintah. Untuk melawan sewenang-wenang kekuasaan dengan mencerahkan opini publik, untuk membela kebebasan pers.
 
 ![image](assets/id/033.webp)
-
 _(Benjamin Constant)_
 
 Mereka mengadopsi dari Benjamin Constant perbedaan antara Orang Kuno dan Orang Modern, yang ditandai di satu sisi oleh perang, dan di sisi lain oleh perdagangan dan industri. Namun, mereka menambahkan dengan Say bahwa ekonomi politik memberikan penjelasan terbaik tentang fenomena sosial. Mereka khususnya memahami bahwa bangsa-bangsa mencapai perdamaian dan kemakmuran ketika hak milik dan perdagangan bebas dihormati. Mulai sekarang, bagi mereka, ekonomi politik adalah dasar sejati dan satu-satunya dari politik. Untuk filsafat, yang membatasi dirinya pada kritik abstrak terhadap bentuk-bentuk pemerintahan, harus digantikan dengan teori yang didasarkan pada pengetahuan tentang kepentingan ekonomi. Ekonomi politik, dengan menunjukkan bagaimana bangsa-bangsa makmur dan menurun, telah meletakkan dasar sejati dari politik.
@@ -292,7 +285,7 @@ Mereka mengadopsi dari Benjamin Constant perbedaan antara Orang Kuno dan Orang M
 
 ![image](assets/id/034.webp)
 
-Teori sosial baru ini mengandung salah satu elemen yang akan menjadi batu penjuru dari sosialisme ilmiah Marx dan Engels: perjuangan kelas. Tetapi, apa itu teori liberal tentang perjuangan kelas, dan bagaimana perbedaannya dengan Marxisme?
+Teori sosial baru ini memuat salah satu unsur yang akan menjadi landasan sosialisme ilmiah Marx dan Engels: konsep perjuangan kelas. Tetapi apa sebenarnya isi teori liberal tentang perjuangan kelas, dan bagaimana perbedaannya dengan Marxisme?
 
 Ini dimulai dengan individu yang bertindak untuk memenuhi kebutuhan dan keinginan mereka. Dari saat seseorang mencipta, yaitu meningkatkan utilitas barang, meningkatkan nilai mereka, seseorang terlibat dalam industri. Di sini, seorang industrialis bukanlah pemilik industri, seperti yang mungkin disarankan oleh bahasa saat ini, tetapi seorang produsen, terlepas dari bidang di mana mereka bekerja. Itulah mengapa teori mereka disebut industrialisme. Teori ini menyatakan bahwa tujuan masyarakat adalah penciptaan utilitas dalam arti luas, yaitu barang dan jasa yang berguna bagi manusia.
 

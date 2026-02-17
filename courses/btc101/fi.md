@@ -880,9 +880,7 @@ Jopa 51 prosentin hyökkäyksen tapauksessa, jossa agentilla olisi hallussaan yl
 
 Bitcoiniin sovellettu peliteoria eliminoi epärehelliset louhijat, jotka käyttävät ASIC-koneita louhimiseen ja saavat palkkion, jos louhinta onnistuu. Lisäksi he liittyvät usein louhintapooleihin jakaakseen laskentatehonsa ja saadakseen pienempiä mutta säännöllisempiä palkkioita. Vaikka Bitcoin-louhinta aiheuttaa suuria energiakustannuksia, se on ratkaisevan tärkeää Bitcoin-verkon toiminnan ja turvallisuuden kannalta. Proof-of-work-mekanismi ja lohkoketjuteknologia ratkaisevat kaksinkertaisen kuluttamisen ongelman ja varmistavat tietojen eheyden ilman, että luotetaan luotettuun kolmanteen osapuoleen. Vaikka tiedon tuottaminen vaatii huomattavia energiankulutuksia, tiedon todentaminen aiheuttaa vähäisiä kustannuksia. Tämä epäsymmetria vahvistaa verkon turvallisuutta, jolloin konsensussääntöjen noudattaminen on taloudellisesti kannattavampaa kuin niiden rikkominen.
 
-Jos haluat syventyä tarkemmin Bitcoin-louhinnan aiheeseen, voit tutustua MIN 201 -kurssillemme. Tutustut Proof-of-Workin toimintaan ja rooliin sekä louhintateollisuuden mekaniikkaan. Selitämme myös, miten ASIC muunnetaan lämmittimeksi, jolloin voit louhia ensimmäiset satoshisi samalla kun lämmität kotiasi!
 
-https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ## Bitcoin ja ekologia
 

@@ -1317,10 +1317,8 @@ Nawet w przypadku ataku 51%, w którym agent posiadałby ponad połowę hashrate
 Teoria gier zastosowana w Bitcoin eliminuje nieuczciwych górników, którzy używają maszyn ASIC do wydobywania i otrzymują nagrodę w przypadku sukcesu. Ponadto często dołączają do puli mining, aby dzielić się swoją mocą obliczeniową i otrzymywać mniejsze, ale bardziej regularne nagrody. Podczas gdy Bitcoin mining ponosi wysokie koszty energii, ma to kluczowe znaczenie dla działania i bezpieczeństwa sieci Bitcoin. Mechanizm proof-of-work i technologia blockchain rozwiązują problem double-spending i zapewniają integralność informacji bez polegania na zaufanej stronie trzeciej. Chociaż wytworzenie informacji wymaga znacznych nakładów energii, weryfikacja tych informacji pociąga za sobą znikome koszty. Ta asymetria wzmacnia bezpieczeństwo sieci, sprawiając, że przestrzeganie zasad konsensusu jest bardziej opłacalne ekonomicznie niż próba ich złamania.
 
 
-Jeśli chcesz zagłębić się w konkretny temat Bitcoin mining, możesz zapoznać się z naszym kursem MIN 201. Odkryjesz działanie i rolę Proof-of-Work, a także mechanikę przemysłu mining. Wyjaśniamy również, jak przekształcić ASIC w grzejnik, umożliwiając wydobycie pierwszych satoshi podczas ogrzewania domu!
 
 
-https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ## Bitcoin i ekologia
 

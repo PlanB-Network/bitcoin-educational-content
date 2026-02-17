@@ -897,9 +897,7 @@ Hata katika kesi ya shambulio la 51%, ambapo wakala angemiliki zaidi ya nusu ya 
 
 Nadharia ya mchezo inayotumika kwa Bitcoin inawaondoa wachimbaji madini wasio waaminifu, wanaotumia mashine za ASIC kuchimba madini na kupokea zawadi iwapo watafaulu. Zaidi ya hayo, mara nyingi hujiunga na mabwawa ya uchimbaji ili kushirikisha nguvu zao za tarakilishi na kupokea zawadi ndogo lakini za kawaida zaidi. Wakati uchimbaji wa Bitcoin unaingia gharama kubwa za nishati, ni muhimu kwa uendeshaji na usalama wa mtandao wa Bitcoin. Utaratibu wa Proof-of-Work na teknolojia ya Blockchain Address tatizo la Double-spending na kuhakikisha uadilifu wa taarifa bila kutegemea mtu mwingine anayeaminika. Ingawa kuzalisha maelezo kunahitaji matumizi makubwa ya nishati, kuthibitisha kwamba maelezo hayo huleta gharama kidogo. Ulinganifu huu huimarisha usalama wa mtandao, na kuufanya uwe na faida zaidi kiuchumi kuzingatia sheria za makubaliano badala ya kujaribu kuzivunja.
 
-Iwapo ungependa kutafakari kwa kina mada mahususi ya uchimbaji wa Bitcoin, unaweza kushauriana na kozi yetu ya MIN 201. Utagundua kazi na jukumu la Proof-of-Work, pamoja na mechanics ya sekta ya uchimbaji. Pia tunaeleza jinsi ya kubadilisha ASIC kuwa hita, kukuwezesha kuchimba satoshi zako za kwanza unapopasha joto nyumba yako!
 
-https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 ## Bitcoin na Ikolojia
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>

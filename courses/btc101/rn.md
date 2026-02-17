@@ -1316,10 +1316,8 @@ Mbere wanashima no mugihe c’igitero kurugero rwa 51%, aho umukozi yoba afise i
 Urukino rw'amajambo rwakoreshejwe muri Bitcoin birakuraho abacukuzi b'ububeshi, bakoresha imashini za ASIC kugira ngo bacukure kandi bakaronka impembo iyo bashoboye. Iciyongerako, akenshi bifadikanya n'abandi muri "mining pool" bagasangira ama machine n'abandi kugira baronke impembo ntoya ariko yisubiriza. Naho ugucukura Bitcoin bitwara igiciro kinini c'umuyagankuba, n'ivyakamaro kubikorwa hamwe n'umutekano w'urubuga rwa Bitcoin. Uburyo bwa Proof-of-Work hamwe n’ubuhinga bwa Blockchain bwerekeye ingorane z'ukurungika kabiri no kumenya neza ubutungane bw’amakuru yose bitiriwe biraca kugice cagatatu. Nubwo gukora amakuru bisaba ugukoresha ingu nyinshi, gusuzuma anomakuru bisaba igiciro gitoyi. Ukwo kudahuza gukomeza umutekano w’urubuga, bikanatuma bishoboka mu vy’ubutunzi kwubahiriza amategeko y’uguhurizako aho kugerageza kuyarenga.
 
 
-Nimba ushaka kwinjira vyimbitse mucigwa cihariye kubucukuzi bwa Bitcoin, urashobora kuraba icigwa cacu ca MIN 201. Uzoshobora kuvumbura ugukora hamwe n'ingene Proof-of-Work ikora n’uruhara rwayo, Turagusigurira kandi uko ASIC ihindurwa igikoresho c'ugushushanya, bikagutuma ushobora gucukura ama satoshi yawe yambere igihe wibereye muhira!
 
 
-https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ## Bitcoin n'Ibidukikije
 

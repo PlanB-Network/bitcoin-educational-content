@@ -882,9 +882,7 @@ Bahkan dalam kasus serangan 51%, di mana seorang agen akan memiliki lebih dari s
 
 Teori permainan yang diterapkan pada Bitcoin mengeliminasi para penambang yang tidak jujur, yang menggunakan mesin ASIC untuk menambang dan menerima hadiah jika berhasil. Selain itu, mereka sering kali bergabung dengan kelompok penambangan untuk berbagi daya komputasi dan menerima hadiah yang lebih kecil tetapi lebih teratur. Walaupun penambangan Bitcoin membutuhkan biaya energi yang tinggi, namun hal ini sangat penting untuk operasi dan keamanan jaringan Bitcoin. Mekanisme proof-of-work dan teknologi blockchain mengatasi masalah pengeluaran ganda dan memastikan integritas informasi tanpa bergantung pada pihak ketiga yang tepercaya. Meskipun memproduksi informasi membutuhkan pengeluaran energi yang signifikan, memverifikasi informasi tersebut membutuhkan biaya yang tidak terlalu besar. Asimetri ini memperkuat keamanan jaringan, membuatnya lebih ekonomis untuk mematuhi aturan konsensus daripada mencoba melanggarnya.
 
-Jika Anda ingin mempelajari lebih dalam tentang topik spesifik penambangan Bitcoin, Anda dapat melihat kursus MIN 201 kami. Anda akan menemukan cara kerja dan peran Proof-of-Work, serta mekanisme industri pertambangan. Kami juga akan menjelaskan cara mengubah ASIC menjadi pemanas, sehingga Anda dapat menambang satoshi pertama Anda sambil menghangatkan rumah Anda!
 
-https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ## Bitcoin dan Ekologi
 

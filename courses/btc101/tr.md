@@ -1316,10 +1316,8 @@ Bir ajanın Hashrate'nin yarısından fazlasına sahip olduğu %51'lik bir sald�
 Bitcoin'ye uygulanan oyun teorisi, madencilik yapmak için ASIC makinelerini kullanan ve başarı durumunda ödül alan dürüst olmayan madencileri ortadan kaldırır. Ayrıca, bilgi işlem güçlerini paylaşmak ve daha küçük ama daha düzenli ödüller almak için genellikle Mining havuzlarına katılırlar. Bitcoin Mining yüksek enerji maliyetlerine neden olsa da, Bitcoin ağının çalışması ve güvenliği için çok önemlidir. Proof-of-Work mekanizması ve Blockchain teknolojisi Address Double-spending sorununu çözmekte ve güvenilir bir üçüncü tarafa güvenmeden bilginin bütünlüğünü sağlamaktadır. Bilgi üretmek önemli miktarda enerji harcaması gerektirse de, bu bilginin doğrulanması ihmal edilebilir bir maliyete neden olur. Bu asimetri ağın güvenliğini güçlendirir ve mutabakat kurallarını çiğnemeye çalışmak yerine bunlara uymayı ekonomik açıdan daha uygun hale getirir.
 
 
-Bitcoin Mining özel konusunu daha derinlemesine incelemek istiyorsanız MIN 201 kursumuza başvurabilirsiniz. Proof-of-Work'ın işleyişi ve rolünün yanı sıra Mining endüstrisinin mekaniğini keşfedeceksiniz. Ayrıca bir ASIC'ü nasıl ısıtıcıya dönüştürebileceğinizi açıklayarak evinizi ısıtırken ilk satoshi madenciliğinizi yapmanıza olanak tanıyoruz!
 
 
-https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ## Bitcoin ve Ekoloji
 

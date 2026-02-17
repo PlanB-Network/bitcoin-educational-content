@@ -1,16 +1,10 @@
 id: c8e97fc4-d1e6-4c13-8f38-a11398bc86b7
 name: Bitcoin Arusha
 category: communities
-address_city_country: "Arusha, Tanzania"
-address_line_2: ''
-address_line_3: ''
-language:
-  - en
+
 links:
-  website: 
   twitter: https://x.com/bitcoinarusha
-  github: 
-  youtube: 
+
 tags:
   - adoption
   - use-case

@@ -117,11 +117,11 @@ Er du klar til å oppdage Bitcoin mining? La oss komme i gang!
 
 
 
-Før jeg går videre til en detaljert og mer teknisk forklaring av Bitcoin mining, vil jeg gjerne gi deg en oversikt over prinsippet, som med vilje er enkelt og skjematisk. Hvis du allerede har noen grunnleggende kunnskaper, kan du gå rett til sakens kjerne i neste kapittel, etter at du har svart på quizspørsmålene. Dette kapittelet er først og fremst rettet mot nybegynnere, for å gi deg en myk start.
+Før jeg går videre til en detaljert og mer teknisk forklaring av Bitcoin [mining](https://planb.academy/resources/glossary/mining), vil jeg gjerne gi deg en oversikt over prinsippet, som med vilje er enkelt og skjematisk. Hvis du allerede har noen grunnleggende kunnskaper, kan du gå rett til sakens kjerne i neste kapittel, etter at du har svart på quizspørsmålene. Dette kapittelet er først og fremst rettet mot nybegynnere, for å gi deg en myk start.
 
 
 
-Se for deg Bitcoin som en stor offentlig notatbok som deles av alle, der vi skriver ned hvem som har sendt bitcoins til hvem. Denne notatboken kalles blokkjeden. Den kan ikke oppbevares av bare én person, for da må den være til å stole på. I stedet fungerer Bitcoin kollektivt: Tusenvis av datamaskiner verifiserer og vedlikeholder den samme versjonen av denne notisboken.
+Se for deg Bitcoin som en stor offentlig notatbok som deles av alle, der vi skriver ned hvem som har sendt bitcoins til hvem. Denne notatboken kalles [blokkjeden](https://planb.academy/resources/glossary/blockchain). Den kan ikke oppbevares av bare én person, for da må den være til å stole på. I stedet fungerer Bitcoin kollektivt: Tusenvis av datamaskiner verifiserer og vedlikeholder den samme versjonen av denne notisboken.
 
 
 
@@ -129,7 +129,7 @@ Se for deg Bitcoin som en stor offentlig notatbok som deles av alle, der vi skri
 
 
 
-Når du foretar en betaling i Bitcoin, oppretter du en transaksjon. Denne transaksjonen blir ikke umiddelbart lagt til i notatboken. Den sendes først til nettverket, og venter deretter på å bli integrert i neste transaksjonspakke. Denne pakken kalles en blokk.
+Når du foretar en betaling i Bitcoin, oppretter du en [transaksjon](https://planb.academy/resources/glossary/transaction-tx). Denne transaksjonen blir ikke umiddelbart lagt til i notatboken. Den sendes først til nettverket, og venter deretter på å bli integrert i neste transaksjonspakke. Denne pakken kalles en [blokk](https://planb.academy/resources/glossary/block).
 
 
 
@@ -141,11 +141,11 @@ En blokk er ganske enkelt et sett med transaksjoner som er gruppert sammen. Når
 
 
 
-Mining er arbeidet med å validere en blokk ved å forbruke energi. Aktører som kalles utvinnere, bruker spesialiserte datamaskiner. Disse maskinene bruker strøm til å utføre et svært stort antall tester i en loop, helt til de finner et bevis som nettverket godtar. Når en utvinner finner dette beviset, anses blokken hans som gyldig.
+Mining er arbeidet med å validere en blokk ved å forbruke energi. Aktører som kalles [utvinnere](https://planb.academy/resources/glossary/miner), bruker spesialiserte datamaskiner. Disse maskinene bruker strøm til å utføre et svært stort antall tester i en loop, helt til de finner et bevis som nettverket godtar. Når en utvinner finner dette beviset, anses blokken hans som gyldig.
 
 
 
-Når blokken er validert, sendes den ut i nettverket. De andre nodene sjekker raskt at den er i samsvar med reglene, og legger den deretter til i sekvensen av tidligere blokker. Det er derfor det kalles en "blokkjede": Hver nye blokk kommer etter de andre, i sekvensiell rekkefølge, og kjeden vokser litt etter litt.
+Når blokken er validert, sendes den ut i nettverket. De andre [nodene](https://planb.academy/resources/glossary/node) sjekker raskt at den er i samsvar med reglene, og legger den deretter til i sekvensen av tidligere blokker. Det er derfor det kalles en "blokkjede": Hver nye blokk kommer etter de andre, i sekvensiell rekkefølge, og kjeden vokser litt etter litt.
 
 
 
@@ -153,11 +153,11 @@ Når blokken er validert, sendes den ut i nettverket. De andre nodene sjekker ra
 
 
 
-For å oppsummere: Først opprettes transaksjoner. Deretter grupperes de sammen i en blokk. Deretter validerer en utvinner denne blokken ved å forbruke strøm. Til slutt legges denne blokken til i blokkjeden, og transaksjonene den inneholder, blir bekreftet.
+For å oppsummere: Først opprettes transaksjoner. Deretter grupperes de sammen i en blokk. Deretter validerer en utvinner denne blokken ved å forbruke strøm. Til slutt legges denne blokken til i blokkjeden, og transaksjonene den inneholder, blir [bekreftet](https://planb.academy/resources/glossary/confirmation).
 
 
 
-Hvis gruvearbeidere bruker strøm, er det ikke fordi de er frivillige. De gjør det fordi det er en belønning. Når en utvinner validerer en blokk, får han to typer inntekt. På den ene siden mottar han nyopprettede bitcoins. På den andre siden får han gebyrene som brukerne betaler for transaksjonene som inngår i blokken. Med andre ord kompenseres utvinneren både gjennom programmert pengeutstedelse og gjennom transaksjonsgebyrer som fastsettes av et marked.
+Hvis gruvearbeidere bruker strøm, er det ikke fordi de er frivillige. De gjør det fordi det er en belønning. Når en utvinner validerer en blokk, får han to typer inntekt. På den ene siden mottar han nyopprettede bitcoins. På den andre siden får han [gebyrene](https://planb.academy/resources/glossary/transaction-fees) som brukerne betaler for transaksjonene som inngår i blokken. Med andre ord kompenseres utvinneren både gjennom programmert pengeutstedelse og gjennom transaksjonsgebyrer som fastsettes av et marked.
 
 
 
@@ -187,7 +187,7 @@ For å forstå hva Bitcoin mining handler om, må vi først følge en typisk Bit
 
 
 
-I Bitcoin er en transaksjon en datastruktur som overfører eierskap av bitcoins fra en bruker til en annen. Konkret bruker den "utganger" fra tidligere transaksjoner (såkalte UTXO-transaksjoner), og refererer til dem som "innganger", og oppretter deretter nye "utganger" som definerer hvem disse bitcoinsene nå tilhører, og under hvilke betingelser de kan brukes senere.
+I Bitcoin er en transaksjon en datastruktur som overfører eierskap av bitcoins fra en bruker til en annen. Konkret bruker den "[utganger](https://planb.academy/resources/glossary/output)" fra tidligere transaksjoner (såkalte [UTXO](https://planb.academy/resources/glossary/utxo)-transaksjoner), og refererer til dem som "[innganger](https://planb.academy/resources/glossary/input)", og oppretter deretter nye "utganger" som definerer hvem disse bitcoinsene nå tilhører, og under hvilke betingelser de kan brukes senere.
 
 
 
@@ -195,7 +195,7 @@ I Bitcoin er en transaksjon en datastruktur som overfører eierskap av bitcoins 
 
 
 
-Et viktig poeng med Bitcoin er autorisasjonen til å bruke. Bitcoin er ikke på en konto, slik pengene dine i banken kan være, men er låst av utgiftsbetingelser. Når en wallet ønsker å bruke en UTXO som input, må den fremlegge kryptografisk bevis på at den har rett til å låse den opp. Dette beviset tar ofte form av en digital signatur generated fra en privat nøkkel. Det er derfor bitcoinere insisterer på å sikre de private nøklene dine: Det er disse som låser opp tilgangen til bitcoinsene dine, og dermed gjør det mulig for deg å bruke dem.
+Et viktig poeng med Bitcoin er autorisasjonen til å bruke. Bitcoin er ikke på en konto, slik pengene dine i banken kan være, men er låst av utgiftsbetingelser. Når en [wallet](https://planb.academy/resources/glossary/wallet) ønsker å bruke en UTXO som input, må den fremlegge kryptografisk bevis på at den har rett til å låse den opp. Dette beviset tar ofte form av en [digital signatur](https://planb.academy/resources/glossary/digital-signature) generated fra en [privat nøkkel](https://planb.academy/resources/glossary/private-key). Det er derfor bitcoinere insisterer på å sikre de private nøklene dine: Det er disse som låser opp tilgangen til bitcoinsene dine, og dermed gjør det mulig for deg å bruke dem.
 
 
 
@@ -221,7 +221,7 @@ Når transaksjonen er korrekt konstruert og signert av brukerens Bitcoin wallet,
 
 
 
-Bitcoin er et peer-to-peer-nettverk: Det finnes ingen sentral server som mottar og behandler alle transaksjoner. Denne rollen spilles kollektivt av nodene. En Bitcoin-node er et stykke programvare (f.eks. Bitcoin Core) som er koblet til andre noder i Bitcoin-nettverket, og som har som hovedoppgave å verifisere, lagre og videresende transaksjoner og blokker.
+Bitcoin er et [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p)-nettverk: Det finnes ingen sentral server som mottar og behandler alle transaksjoner. Denne rollen spilles kollektivt av nodene. En Bitcoin-node er et stykke programvare (f.eks. [Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core)) som er koblet til andre noder i Bitcoin-nettverket, og som har som hovedoppgave å verifisere, lagre og videresende transaksjoner og blokker.
 
 
 
@@ -250,7 +250,7 @@ Hvis transaksjonen passerer alle disse kontrollene, sender noden den videre til 
 
 
 
-Mellom det øyeblikket en transaksjon sendes ut og det øyeblikket den bekreftes i en blokk, må den vente. Dette venteområdet kalles **mempool** (sammentrekning av `memory` og `pool`). En mempool er derfor en midlertidig lagringsplass for gyldige, men ennå ubekreftede transaksjoner.
+Mellom det øyeblikket en transaksjon sendes ut og det øyeblikket den bekreftes i en blokk, må den vente. Dette venteområdet kalles **[mempool](https://planb.academy/resources/glossary/mempool)** (sammentrekning av `memory` og `pool`). En mempool er derfor en midlertidig lagringsplass for gyldige, men ennå ubekreftede transaksjoner.
 
 
 
@@ -270,7 +270,7 @@ På dette stadiet vet nettverket om transaksjonen, har verifisert den og holder 
 
 
 
-Ettersom bitcoin er en immateriell valuta, må den løse ett problem: å forhindre dobbeltbruk uten en sentral myndighet. Hvis to transaksjoner forsøker å bruke den samme UTXO, må alle kunne konvergere mot en enkelt, sammenhengende tilstand. Satoshi Nakamoto oppsummerer dette problemet med denne berømte setningen:
+Ettersom bitcoin er en immateriell valuta, må den løse ett problem: å forhindre [dobbeltbruk](https://planb.academy/resources/glossary/double-spending-attack) uten en sentral myndighet. Hvis to transaksjoner forsøker å bruke den samme UTXO, må alle kunne konvergere mot en enkelt, sammenhengende tilstand. Satoshi Nakamoto oppsummerer dette problemet med denne berømte setningen:
 
 
 
@@ -284,7 +284,7 @@ Dette er blokkjedens rolle: et offentlig register som inneholder transaksjonshis
 
 
 
-Dette registeret kan ikke skrives om, takket være et enkelt prinsipp: Hver blokk inneholder det kryptografiske fingeravtrykket (hashen) til den forrige blokken. Dermed er blokkene knyttet sammen: Hvis du endrer en blokk fra fortiden, endres dens hash, noe som bryter koblingen til neste blokk, som igjen bryter koblingen til blokken etter den, og så videre. Det er denne kjeden av avhengigheter som gir "*blockchain*" navnet sitt.
+Dette registeret kan ikke skrives om, takket være et enkelt prinsipp: Hver blokk inneholder det kryptografiske fingeravtrykket ([hashen](https://planb.academy/resources/glossary/hash-function)) til den forrige blokken. Dermed er blokkene knyttet sammen: Hvis du endrer en blokk fra fortiden, endres dens hash, noe som bryter koblingen til neste blokk, som igjen bryter koblingen til blokken etter den, og så videre. Det er denne kjeden av avhengigheter som gir "*blockchain*" navnet sitt.
 
 
 
@@ -292,7 +292,7 @@ Dette registeret kan ikke skrives om, takket være et enkelt prinsipp: Hver blok
 
 
 
-Når vi har forstått disse grunnleggende prinsippene i Bitcoin, kan vi beskrive en utvinners mål i mer konkrete termer: å bygge en ny blokk som utvider den eksisterende kjeden, ved å skrive inn ventende transaksjoner, og deretter forsøke å gjøre den gyldig (dette er den berømte "proof of work" som vi skal studere i et senere kapittel). Men først skal vi i neste kapittel sammen finne ut hvordan en kandidatblokk konstrueres.
+Når vi har forstått disse grunnleggende prinsippene i Bitcoin, kan vi beskrive en utvinners mål i mer konkrete termer: å bygge en ny blokk som utvider den eksisterende kjeden, ved å skrive inn ventende transaksjoner, og deretter forsøke å gjøre den gyldig (dette er den berømte "[proof of work](https://planb.academy/resources/glossary/proof-of-work)" som vi skal studere i et senere kapittel). Men først skal vi i neste kapittel sammen finne ut hvordan en kandidatblokk konstrueres.
 
 
 
@@ -303,7 +303,7 @@ Når vi har forstått disse grunnleggende prinsippene i Bitcoin, kan vi beskrive
 
 
 
-Du har nå forstått hvordan en Bitcoin-transaksjon fungerer, og hvilken rolle blokkjeden spiller. Før vi ser nærmere på hvordan proof-of-work fungerer, er det imidlertid fortsatt ett viktig trinn som utvinneren må utføre: konstruksjonen av en kandidatblokk. La oss sammen finne ut hva en kandidatblokk er, og hvordan utvinneren konstruerer den, før vi begir oss ut på leting etter et gyldig bevis.
+Du har nå forstått hvordan en Bitcoin-transaksjon fungerer, og hvilken rolle blokkjeden spiller. Før vi ser nærmere på hvordan proof-of-work fungerer, er det imidlertid fortsatt ett viktig trinn som utvinneren må utføre: konstruksjonen av en [kandidatblokk](https://planb.academy/resources/glossary/candidate-block). La oss sammen finne ut hva en kandidatblokk er, og hvordan utvinneren konstruerer den, før vi begir oss ut på leting etter et gyldig bevis.
 
 
 
@@ -318,7 +318,7 @@ Miners må bygge blokkene sine selv før de prøver å utvinne dem. Hver gruvear
 
 - velge hvilke transaksjoner som skal inkluderes;
 - organisere disse transaksjonene på en måte som er kompatibel med Bitcoin-reglene;
-- produserer blokkens metadata, som er lagret i overskriften.
+- produserer blokkens metadata, som er lagret i [overskriften](https://planb.academy/resources/glossary/block-header).
 
 
 
@@ -340,7 +340,7 @@ En Bitcoin-blokk består derfor av to hoveddeler:
 
 
 
-Headeren er viktig, siden den brukes som grunnlag for proof-of-work: I Bitcoin utvinner du ikke en hel blokk direkte, men kun headeren til en blokk, som oppsummerer informasjonen som trengs for å koble blokken til kjeden og forplikte innholdet. For å gjøre det mulig for overskriften å representere alle transaksjoner, bruker Bitcoin et kryptografisk verktøy: Merkle-treet.
+Headeren er viktig, siden den brukes som grunnlag for proof-of-work: I Bitcoin utvinner du ikke en hel blokk direkte, men kun headeren til en blokk, som oppsummerer informasjonen som trengs for å koble blokken til kjeden og forplikte innholdet. For å gjøre det mulig for overskriften å representere alle transaksjoner, bruker Bitcoin et kryptografisk verktøy: [Merkle-treet](https://planb.academy/resources/glossary/merkle-tree).
 
 
 
@@ -348,7 +348,7 @@ Headeren er viktig, siden den brukes som grunnlag for proof-of-work: I Bitcoin u
 
 
 
-Det ville være umulig å liste opp alle transaksjonene i headeren: En blokk kan inneholde tusenvis av transaksjoner, mens headeren har en fast størrelse (80 byte). Løsningen er derfor å beregne en unik hash som avhenger av alle transaksjonene i blokken: dette er Merkle-roten.
+Det ville være umulig å liste opp alle transaksjonene i headeren: En blokk kan inneholde tusenvis av transaksjoner, mens headeren har en fast størrelse (80 byte). Løsningen er derfor å beregne en unik hash som avhenger av alle transaksjonene i blokken: dette er [Merkle-roten](https://planb.academy/resources/glossary/merkle-root).
 
 
 
@@ -371,7 +371,7 @@ Så hvis en enkelttransaksjon endres, selv med bare én bit, blir resultatet en 
 
 
 
-Siden SegWit har vi skilt signaturene fra resten. Så i virkeligheten er det to Merkle-trær i hver blokk. Denne separasjonen har konsekvenser for måten vi teller størrelsen på en blokk på og for visse kryptografiske forpliktelser, men grunntanken er den samme: Headeren må forplikte alt innholdet i blokken på en kompakt måte.
+Siden [SegWit](https://planb.academy/resources/glossary/segwit) har vi skilt signaturene fra resten. Så i virkeligheten er det to Merkle-trær i hver blokk. Denne separasjonen har konsekvenser for måten vi teller størrelsen på en blokk på og for visse kryptografiske forpliktelser, men grunntanken er den samme: Headeren må forplikte alt innholdet i blokken på en kompakt måte.
 
 
 
@@ -402,19 +402,19 @@ Blokkhodet er 80 byte langt og inneholder nøyaktig 6 felt. Det er disse seks el
 
 
 
-- Tidsstempel: Dette er et tidsstempel (Unix-tid) valgt av utvinneren (med gyldighetsbegrensninger), som må angi når blokken ble utvunnet. Det trenger ikke å være helt nøyaktig på sekundet, men det må oppfylle visse betingelser for å være akseptabelt for nettverket.
+- [Tidsstempel](https://planb.academy/resources/glossary/timestamp): Dette er et tidsstempel (Unix-tid) valgt av utvinneren (med gyldighetsbegrensninger), som må angi når blokken ble utvunnet. Det trenger ikke å være helt nøyaktig på sekundet, men det må oppfylle visse betingelser for å være akseptabelt for nettverket.
 
 
 
 
 
-- Kodet vanskelighetsmål (`nbits`): Dette feltet koder det gjeldende vanskelighetsmålet. Vi går nærmere inn på dette i kapittelet om vanskelighetsgrad, men husk at denne parameteren er en del av toppteksten.
+- Kodet vanskelighetsmål (`nbits`): Dette feltet koder det gjeldende [vanskelighetsmålet](https://planb.academy/resources/glossary/difficulty-target). Vi går nærmere inn på dette i kapittelet om vanskelighetsgrad, men husk at denne parameteren er en del av toppteksten.
 
 
 
 
 
-- Nonce (`nonce`): Dette er en verdi som gruvearbeideren fritt kan endre. Den fungerer som en justerbar variabel under proof-of-work. Jeg skal forklare dens rolle mer detaljert i neste kapittel, men det er viktig å forstå at nonce er en del av blokkhodet og er utformet for å tillate flere forsøk.
+- [Nonce](https://planb.academy/resources/glossary/nonce) (`nonce`): Dette er en verdi som gruvearbeideren fritt kan endre. Den fungerer som en justerbar variabel under proof-of-work. Jeg skal forklare dens rolle mer detaljert i neste kapittel, men det er viktig å forstå at nonce er en del av blokkhodet og er utformet for å tillate flere forsøk.
 
 
 
@@ -510,7 +510,7 @@ Hash-funksjonen er interessant i datasystemer fordi den har visse egenskaper:
 
 
 
-Hashfunksjonen som brukes i Bitcoin for mining er `SHA256`, brukt to ganger etter hverandre. Dette kalles dobbel SHA256, eller `SHA256d`. Det er denne doble hashingen som produserer blokkens fingeravtrykk.
+Hashfunksjonen som brukes i Bitcoin for mining er `SHA256`, brukt to ganger etter hverandre. Dette kalles dobbel [SHA256](https://planb.academy/resources/glossary/sha256), eller `SHA256d`. Det er denne doble hashingen som produserer blokkens fingeravtrykk.
 
 
 
@@ -618,7 +618,7 @@ mining-prosessen er veldig enkel:
 
 
 
-Nonce er faktisk ikke det eneste feltet som kan endres. Enhver endring i transaksjonene i en blokk resulterer i en endring av roten i Merkle-treet, og dermed en endring av blokkens header. Med moderne datakraft kan det gå relativt raskt å gå gjennom de 4,29 milliarder mulige verdiene i nonce. Derfor finnes det et annet felt, vanligvis kalt "*extra-nonce*", som ytterligere mangedobler mulighetene for variasjon i headeren. Vi kommer nærmere tilbake til denne mekanismen i et senere kapittel.
+Nonce er faktisk ikke det eneste feltet som kan endres. Enhver endring i transaksjonene i en blokk resulterer i en endring av roten i Merkle-treet, og dermed en endring av blokkens header. Med moderne datakraft kan det gå relativt raskt å gå gjennom de 4,29 milliarder mulige verdiene i nonce. Derfor finnes det et annet felt, vanligvis kalt "*[extra-nonce](https://planb.academy/resources/glossary/extra-nonce)*", som ytterligere mangedobler mulighetene for variasjon i headeren. Vi kommer nærmere tilbake til denne mekanismen i et senere kapittel.
 
 
 
@@ -630,7 +630,7 @@ Vi kaller det "bevis" fordi resultatet er umiddelbart verifiserbart: Når en blo
 
 
 
-I Bitcoin White Paper legger Satoshi Nakamoto frem to fordeler ved å bruke et proof-of-work-system i Bitcoin:
+I Bitcoin [White Paper](https://planb.academy/resources/glossary/white-paper) legger Satoshi Nakamoto frem to fordeler ved å bruke et proof-of-work-system i Bitcoin:
 
 
 
@@ -650,7 +650,7 @@ proof-of-work fungerer med andre ord som ryggraden i tidsstemplingssystemet, noe
 
 
 
-- Definere flertallsstyre (konsensus) og nøytralisere Sybil:**
+- Definere flertallsstyre ([konsensus](https://planb.academy/resources/glossary/consensus)) og nøytralisere Sybil:**
 
 
 
@@ -658,7 +658,7 @@ Proof-of-Work gjør det også mulig for Bitcoin å oppnå konsensus uten å base
 
 
 
-I Bitcoin er "*flertallet*" ikke det største antallet deltakere, men den **kjeden som akkumulerer mest arbeid**. Som Satoshi uttrykker det, er dette et "én CPU = én stemme"-prinsipp, dvs. en stemme vektet av den faktiske datakraften som brukes til å produsere gyldige blokker. Så utplassering av tusenvis av noder gir ingen fordel i seg selv i forhold til Bitcoin. Uten ekstra datakraft akkumuleres det ikke flere arbeidsbevis, og Sybil-angrepet blir ubrukelig, mens beslutningsregelen forblir objektiv og ikke krever noen identifisering av deltakerne.
+I Bitcoin er "*flertallet*" ikke det største antallet deltakere, men den **kjeden som akkumulerer mest arbeid**. Som Satoshi uttrykker det, er dette et "én CPU = én stemme"-prinsipp, dvs. en stemme vektet av den faktiske datakraften som brukes til å produsere gyldige blokker. Så utplassering av tusenvis av noder gir ingen fordel i seg selv i forhold til Bitcoin. Uten ekstra datakraft akkumuleres det ikke flere arbeidsbevis, og [Sybil-angrepet](https://planb.academy/resources/glossary/sybil-attack) blir ubrukelig, mens beslutningsregelen forblir objektiv og ikke krever noen identifisering av deltakerne.
 
 
 
@@ -689,7 +689,7 @@ I neste kapittel tar vi en kort historisk omvei inn i proof-of-work-prinsippet f
 
 
 
-Proof-of-work ble ikke oppfunnet for Bitcoin. Satoshi Nakamoto tok opp og samlet flere eldre ideer som allerede var utforsket i ulike sammenhenger.
+Proof-of-work ble ikke oppfunnet for Bitcoin. [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) tok opp og samlet flere eldre ideer som allerede var utforsket i ulike sammenhenger.
 
 
 
@@ -701,7 +701,7 @@ På slutten av 1990-tallet ble problemet med e-postspam et stort problem. Hvis d
 
 
 
-Dette er målet med Hashcash, som ble foreslått av Adam Back i 1997, og som anses for å være oppfinnelsen av proof-of-work-prinsippet. Hashcash-prinsippet er svært likt mining: Produser en hash som overholder en betingelse (et visst antall nuller i begynnelsen av hashen). Beviset følger deretter med meldingen og kan verifiseres svært raskt av mottakeren. Hvis en e-post som ikke inneholder dette beviset, kan den umiddelbart betraktes som spam og dermed filtreres bort. Spammerne blir da tvunget til å bruke mye energi på å sende millioner av meldinger, noe som drastisk reduserer (eller til og med helt opphever) lønnsomheten i denne typen virksomhet, enten det dreier seg om markedsføring eller svindel.
+Dette er målet med [Hashcash](https://planb.academy/resources/glossary/hashcash), som ble foreslått av Adam Back i 1997, og som anses for å være oppfinnelsen av proof-of-work-prinsippet. Hashcash-prinsippet er svært likt mining: Produser en hash som overholder en betingelse (et visst antall nuller i begynnelsen av hashen). Beviset følger deretter med meldingen og kan verifiseres svært raskt av mottakeren. Hvis en e-post som ikke inneholder dette beviset, kan den umiddelbart betraktes som spam og dermed filtreres bort. Spammerne blir da tvunget til å bruke mye energi på å sende millioner av meldinger, noe som drastisk reduserer (eller til og med helt opphever) lønnsomheten i denne typen virksomhet, enten det dreier seg om markedsføring eller svindel.
 
 
 
@@ -792,7 +792,7 @@ Hvis en annen utvinner i løpet av denne diffusjonsforsinkelsen også oppdager e
 
 
 
-Disse splittelsene er ikke katastrofale. Nakamoto-konsensus forutsier at på lang sikt vil bare én gren seire: den som akkumulerer mest arbeid. Så snart en ny blokk utvinnes på toppen av for eksempel blokk A, resynkroniserer hele nettverket seg på denne grenen og forlater blokk B, som da blir en "*stale block*", av og til feilaktig kalt en "*orphan block*" i dagligtalen.
+Disse splittelsene er ikke katastrofale. Nakamoto-konsensus forutsier at på lang sikt vil bare én gren seire: den som akkumulerer mest arbeid. Så snart en ny blokk utvinnes på toppen av for eksempel blokk A, resynkroniserer hele nettverket seg på denne grenen og forlater blokk B, som da blir en "*[stale block](https://planb.academy/resources/glossary/stale-block)*", av og til feilaktig kalt en "*orphan block*" i dagligtalen.
 
 
 
@@ -812,7 +812,7 @@ Intervallet på 10 minutter gir vanligvis nok tid til at vinnerblokken rekker å
 
 
 
-*"Hashrate*" refererer til mengden hashberegninger som produseres per sekund, enten det er av en enkelt utvinner, en gruppe utvinnere eller alle utvinnerne i Bitcoin. Det uttrykkes i `H/s` (hashes per sekund), med multipler som `TH/s` (terahashes per sekund) eller `EH/s` (exahashes per sekund). Dette representerer antall forsøk utvinnere kan gjøre hvert sekund for å prøve å få en hash som er lavere enn målet.
+*"[Hashrate](https://planb.academy/resources/glossary/hashrate)*" refererer til mengden hashberegninger som produseres per sekund, enten det er av en enkelt utvinner, en gruppe utvinnere eller alle utvinnerne i Bitcoin. Det uttrykkes i `H/s` (hashes per sekund), med multipler som `TH/s` (terahashes per sekund) eller `EH/s` (exahashes per sekund). Dette representerer antall forsøk utvinnere kan gjøre hvert sekund for å prøve å få en hash som er lavere enn målet.
 
 
 
@@ -833,7 +833,7 @@ Med andre ord: Hvis morgendagens Bitcoin-nettverk dobler datakraften ved å kobl
 
 
 
-Bitcoin løser dette problemet med en periodisk måljusteringsmekanisme, som justerer vanskelighetsgraden i mining. Prinsippet er som følger: Hver 2016-blokk (omtrent hver andre uke) beregner hver node vanskelighetsmålet på nytt ved å observere hvor mye tid som faktisk gikk med til å produsere disse 2016-blokkene.
+Bitcoin løser dette problemet med en periodisk måljusteringsmekanisme, som justerer [vanskelighetsgraden](https://planb.academy/resources/glossary/difficulty-adjustment) i mining. Prinsippet er som følger: Hver 2016-blokk (omtrent hver andre uke) beregner hver node vanskelighetsmålet på nytt ved å observere hvor mye tid som faktisk gikk med til å produsere disse 2016-blokkene.
 
 
 
@@ -959,7 +959,7 @@ Denne logikken er basert på spillteori: Protokollen gjør ærlighet rasjonelt. 
 
 
 
-For å oppnå dette fastsetter Bitcoin-protokollen at utvinneren som finner en gyldig blokk, vinner retten til å inkludere en bestemt transaksjon i den, noe som gir utvinneren en viss sum BTC. Dette er kjent som **blokkbelønning**. I dette første kapittelet av denne delen er målet å forstå hva den består av og hvordan den bestemmes. Senere skal vi se hvordan pengeskapingsdelen utvikler seg over tid (med halveringer) og hvordan den faktisk samles inn teknisk (via coinbase-transaksjonen).
+For å oppnå dette fastsetter Bitcoin-protokollen at utvinneren som finner en gyldig blokk, vinner retten til å inkludere en bestemt transaksjon i den, noe som gir utvinneren en viss sum BTC. Dette er kjent som **[blokkbelønning](https://planb.academy/resources/glossary/block-reward)**. I dette første kapittelet av denne delen er målet å forstå hva den består av og hvordan den bestemmes. Senere skal vi se hvordan pengeskapingsdelen utvikler seg over tid (med halveringer) og hvordan den faktisk samles inn teknisk (via coinbase-transaksjonen).
 
 
 
@@ -976,7 +976,7 @@ Det er nettopp denne hendelsen (selve tilføyelsen av blokken til blokkjeden) so
 
 
 
-- blokktilskudd**;
+- [blokktilskudd](https://planb.academy/resources/glossary/block-subsidy)**;
 - transaksjonsgebyrer**.
 
 
@@ -1091,7 +1091,7 @@ To transaksjoner kan derfor betale like mye i absolutte termer, men ikke være �
 
 
 
-Derfor uttrykker vi i praksis konkurransedyktigheten til en transaksjon med et gebyrforhold, vanligvis i `sats/vB` (satoshis per virtuell byte). Det er enkelt å beregne dette forholdet:
+Derfor uttrykker vi i praksis konkurransedyktigheten til en transaksjon med et gebyrforhold, vanligvis i `sats/vB` ([satoshis](https://planb.academy/resources/glossary/satoshi-sat) per virtuell byte). Det er enkelt å beregne dette forholdet:
 
 
 
@@ -1142,7 +1142,7 @@ I neste kapittel skal vi se nærmere på blokktilskuddet, for å forstå nøyakt
 
 
 
-I forrige kapittel så vi at utvinnere som produserer en gyldig blokk, får en belønning som består av avgiftene for transaksjonene som inngår i blokken, pluss et blokktilskudd. Vi har imidlertid ennå ikke forklart hvordan størrelsen på dette tilskuddet bestemmes. Mekanismen som fastsetter og utvikler denne verdien, kalles ***halving***.
+I forrige kapittel så vi at utvinnere som produserer en gyldig blokk, får en belønning som består av avgiftene for transaksjonene som inngår i blokken, pluss et blokktilskudd. Vi har imidlertid ennå ikke forklart hvordan størrelsen på dette tilskuddet bestemmes. Mekanismen som fastsetter og utvikler denne verdien, kalles ***[halving](https://planb.academy/resources/glossary/halving)***.
 
 
 
@@ -1251,7 +1251,7 @@ Hovedårsaken er mekanisk. Gjennom suksessive halveringer faller blokksubsidiet 
 
 
 
-I tillegg kan marginale protokollrelaterte avvik også bidra til dette. I sjeldne tilfeller kan det for eksempel hende at noen utvinnere ikke har gjort krav på hele tilskuddet sitt, noe som definitivt reduserer mengden bitcoins som faktisk er utstedt. Vi kan også nevne genesis-blokken, produsert av Satoshi den 3. januar 2009, hvis bitcoins som ble opprettet ikke er en del av UTXO set, samt visse historiske hendelser knyttet til feil, for eksempel dupliserte coinbase-transaksjonsidentifikatorer.
+I tillegg kan marginale protokollrelaterte avvik også bidra til dette. I sjeldne tilfeller kan det for eksempel hende at noen utvinnere ikke har gjort krav på hele tilskuddet sitt, noe som definitivt reduserer mengden bitcoins som faktisk er utstedt. Vi kan også nevne [genesis-blokken](https://planb.academy/resources/glossary/genesis-block), produsert av Satoshi den 3. januar 2009, hvis bitcoins som ble opprettet ikke er en del av [UTXO set](https://planb.academy/resources/glossary/utxo-set), samt visse historiske hendelser knyttet til feil, for eksempel dupliserte coinbase-transaksjonsidentifikatorer.
 
 
 
@@ -1295,7 +1295,7 @@ Et spørsmål gjenstår imidlertid: Ved hjelp av hvilken mekanisme samler gruvea
 
 
 
-Som vi så i første del av kurset, inneholder hver Bitcoin-blokk en liste over ventende transaksjoner som den vil bekrefte. Den aller første av disse er alltid coinbase-transaksjonen. Det er den som gjør det mulig for den vinnende gruvearbeideren å motta belønningen sin.
+Som vi så i første del av kurset, inneholder hver Bitcoin-blokk en liste over ventende transaksjoner som den vil bekrefte. Den aller første av disse er alltid [coinbase-transaksjonen](https://planb.academy/resources/glossary/coinbase-transaction). Det er den som gjør det mulig for den vinnende gruvearbeideren å motta belønningen sin.
 
 
 
@@ -1303,7 +1303,7 @@ Som vi så i første del av kurset, inneholder hver Bitcoin-blokk en liste over 
 
 
 
-Ved første øyekast ser den ut som en klassisk Bitcoin-transaksjon: Den har en TXID, utganger og er inkludert i blokkens Merkle-tre. Den skiller seg imidlertid ut på ett viktig punkt: Den bruker ikke noen eksisterende UTXO.
+Ved første øyekast ser den ut som en klassisk Bitcoin-transaksjon: Den har en [TXID](https://planb.academy/resources/glossary/txid-transaction-identifier), utganger og er inkludert i blokkens Merkle-tre. Den skiller seg imidlertid ut på ett viktig punkt: Den bruker ikke noen eksisterende UTXO.
 
 
 
@@ -1402,7 +1402,7 @@ Over tid har coinbase-transaksjonen blitt et spesielt praktisk innsettingspunkt 
 
 
 
-BIP-34 er en fork soft som ble distribuert i mars 2013, og startet med blokk 227,930, som introduserte versjon 2 av Bitcoin-blokker. Denne nye versjonen krever at hver blokk inkluderer høyden på blokken som opprettes, i `scriptSig` i coinbase-transaksjonen.
+[BIP-34](https://planb.academy/resources/glossary/bip0034) er en fork soft som ble distribuert i mars 2013, og startet med blokk 227,930, som introduserte versjon 2 av Bitcoin-blokker. Denne nye versjonen krever at hver blokk inkluderer høyden på blokken som opprettes, i `scriptSig` i coinbase-transaksjonen.
 
 
 
@@ -1454,7 +1454,7 @@ Av operasjonelle årsaker utnytter mining-bassenger også det frie feltet i coin
 
 
 
-Siden den myke SegWit fork ble aktivert i 2017, har vitnedata (dvs. generelt signaturer) blitt separert fra transaksjonsstammedata, særlig for å rette opp problemet med manipulerbarhet i Bitcoin-transaksjoner. Denne separasjonen introduserer derfor et nytt element som skal forpliktes i blokken.
+Siden den myke SegWit fork ble aktivert i 2017, har vitnedata (dvs. generelt signaturer) blitt separert fra transaksjonsstammedata, særlig for å rette opp problemet med [manipulerbarhet i Bitcoin-transaksjoner](https://planb.academy/resources/glossary/malleability-transaction). Denne separasjonen introduserer derfor et nytt element som skal forpliktes i blokken.
 
 
 
@@ -1500,7 +1500,7 @@ Denne meldingen, som finnes i Genesis-blokken (den aller første blokken i Bitco
 ### Forfallsperioden
 
 
-Når blokken er utvunnet og distribuert, vises coinbase-transaksjonen i blokkjeden som en hvilken som helst annen transaksjon. Den oppretter UTXOs for den vinnende utvinneren, slik at vedkommende kan motta belønningen sin. Disse UTXO-ene kan imidlertid ikke brukes umiddelbart: De er underlagt en forfallsperiode. Denne løpetiden er satt til 100 blokker etter blokken som inneholder coinbase. Konkret må coinbase-transaksjonen derfor ha 101 bekreftelser for at den vinnende utvinneren skal kunne bruke den.
+Når blokken er utvunnet og distribuert, vises coinbase-transaksjonen i blokkjeden som en hvilken som helst annen transaksjon. Den oppretter UTXOs for den vinnende utvinneren, slik at vedkommende kan motta belønningen sin. Disse UTXO-ene kan imidlertid ikke brukes umiddelbart: De er underlagt en [forfallsperiode](https://planb.academy/resources/glossary/maturity-period). Denne løpetiden er satt til 100 blokker etter blokken som inneholder coinbase. Konkret må coinbase-transaksjonen derfor ha 101 bekreftelser for at den vinnende utvinneren skal kunne bruke den.
 
 
 ![Image](assets/fr/040.webp)
@@ -1615,7 +1615,7 @@ Det var på dette tidspunktet at vanskelighetsgraden for mining begynte å ekspl
 
 
 
-Mellom GPU-æraen og den moderne ASIC-æraen var det en mellomfase: bruken av FPGAer. En FPGA er en omprogrammerbar komponent: Den kan konfigureres til å implementere en logisk krets som er dedikert til en bestemt beregning, i dette tilfellet `SHA256d`. Tanken var å bevege seg enda lenger bort fra generell maskinvare (CPU/GPU) for å øke energieffektiviteten. Men snart ville forbedringene som ble gjort virtuelt på FPGA-er, bli brukt fysisk på selve brikkene: det er ankomsten av ASIC.
+Mellom GPU-æraen og den moderne [ASIC](https://planb.academy/resources/glossary/asic)-æraen var det en mellomfase: bruken av FPGAer. En FPGA er en omprogrammerbar komponent: Den kan konfigureres til å implementere en logisk krets som er dedikert til en bestemt beregning, i dette tilfellet `SHA256d`. Tanken var å bevege seg enda lenger bort fra generell maskinvare (CPU/GPU) for å øke energieffektiviteten. Men snart ville forbedringene som ble gjort virtuelt på FPGA-er, bli brukt fysisk på selve brikkene: det er ankomsten av ASIC.
 
 
 
@@ -1667,7 +1667,7 @@ En isolert maskin kan drive gruvedrift, men ved å gruppere hundrevis, og derett
 
 
 
-En mining-farm er i sin enkleste form en bygning (eller et sett med containere) fylt med ASIC-er som kjører 24/7. Utfordringen nå er å opprettholde stabile driftsforhold:
+En [mining-farm](https://planb.academy/resources/glossary/mining-farm) er i sin enkleste form en bygning (eller et sett med containere) fylt med ASIC-er som kjører 24/7. Utfordringen nå er å opprettholde stabile driftsforhold:
 
 
 
@@ -1724,7 +1724,7 @@ https://planb.academy/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-
 
 
 
-Mining Bitcoin innebærer løpende og uunngåelige kostnader, først og fremst maskinens strømforbruk. Disse utgiftene påløper uavhengig av eventuelle resultater, selv om inntektene fra mining i sin natur er sjeldne og tilfeldige. Oppdagelsen av en blokk avhenger utelukkende av utvinnerens andel av hashrate, noe som gjør inntjeningen desto mer uforutsigbar jo mindre denne andelen er. Det er nettopp dette praktiske problemet som raskt førte til den utbredte bruken av mining-pooler. I dette siste kapittelet av MIN 101-kurset gir jeg en innføring i prinsippene og driften av mining-bassenger i Bitcoin.
+Mining Bitcoin innebærer løpende og uunngåelige kostnader, først og fremst maskinens strømforbruk. Disse utgiftene påløper uavhengig av eventuelle resultater, selv om inntektene fra mining i sin natur er sjeldne og tilfeldige. Oppdagelsen av en blokk avhenger utelukkende av utvinnerens andel av hashrate, noe som gjør inntjeningen desto mer uforutsigbar jo mindre denne andelen er. Det er nettopp dette praktiske problemet som raskt førte til den utbredte bruken av [mining-pooler](https://planb.academy/resources/glossary/pool-mining). I dette siste kapittelet av MIN 101-kurset gir jeg en innføring i prinsippene og driften av mining-bassenger i Bitcoin.
 
 
 
@@ -1736,7 +1736,7 @@ Et mining-basseng er en organisasjon (ofte en nettbasert tjeneste) som samler da
 
 
 
-Deltakerne i en mining-pool blir da ofte referert til som "hashere" i stedet for "minere", ettersom de ikke lenger utfører alt mining-arbeidet, men bare hasher dataene som overføres til dem fra poolen.
+Deltakerne i en mining-pool blir da ofte referert til som "[hashere](https://planb.academy/resources/glossary/hasher)" i stedet for "minere", ettersom de ikke lenger utfører alt mining-arbeidet, men bare hasher dataene som overføres til dem fra poolen.
 
 
 
@@ -1807,7 +1807,7 @@ De første bassengene ble opprettet nettopp som svar på denne nye virkeligheten
 
 
 
-På den tekniske siden ble bassengene deretter strukturert rundt spesialiserte kommunikasjonsprotokoller mellom bassenget og utvinnerne (f.eks. Stratum, deretter Stratum V2), for å kunne organisere distribuert arbeid på en effektiv måte. Vi skal se nærmere på disse konseptene i MIN 201-kurset vårt.
+På den tekniske siden ble bassengene deretter strukturert rundt spesialiserte kommunikasjonsprotokoller mellom bassenget og utvinnerne (f.eks. [Stratum](https://planb.academy/resources/glossary/stratum), deretter Stratum V2), for å kunne organisere distribuert arbeid på en effektiv måte. Vi skal se nærmere på disse konseptene i MIN 201-kurset vårt.
 
 
 

@@ -1,0 +1,11 @@
+question: Wat was de belangrijkste financiële innovatie van het Bitcoinica platform, dat in september 2011 werd gelanceerd door de jonge Chinese ondernemer Zhou Tong?
+answer: Hefboomwerking en baissetransacties
+wrong_answers:
+  - Uitgifte van aandelen en obligaties
+  - De rentelening op onderpand
+  - Bijna onmiddellijk geld wisselen
+explanation: |
+ Bitcoinica was het eerste platform in het ecosysteem dat margin trading aanbood, waardoor klanten een hefboom konden gebruiken om hun winsten (en verliezen) te vergroten, en om short te gaan om in te zetten op dalende aandelenkoersen
+ short gaan om in te zetten op een dalende aandelenkoers. Na de sluiting werd dit type dienst overgenomen door het Bitfinex platform, dat in oktober 2012 werd gelanceerd en gebaseerd was op dezelfde broncode
+ gebaseerd was op dezelfde broncode.
+reviewed: true

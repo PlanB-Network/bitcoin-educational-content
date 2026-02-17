@@ -1,0 +1,10 @@
+question: Was enthielt neben der Kennung seines mining-Pools die Mehrzahl der von Luke-Jr. über Eligius im August 2011 vorgenommenen Eintragungen?
+answer: Gebete
+wrong_answers:
+  - Kinderpornographie
+  - Meme
+  - Politische Botschaften
+explanation: |
+ Im Einklang mit seinem katholischen (sedevakantistischen) Glauben bezog Luke-Jr. Gebete und heilige Texte in die Belohnungstransaktion für Blöcke ein, die von seinem mining-Pool abgebaut wurden,
+ Eligius, Gebete und heilige Texte in die Belohnungstransaktion für Blöcke ein, die von seinem mining-Pool, Eligius, abgebaut wurden, ohne die betroffenen Bergleute zu konsultieren.
+reviewed: true

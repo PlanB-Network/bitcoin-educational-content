@@ -1,0 +1,9 @@
+question: Welche mining-Genossenschaft überschritt im Sommer 2011 kurzzeitig die 50%ige Netzwerk-Hash-Rate?
+answer: Deepbit
+wrong_answers:
+  - Deepbit
+  - Slush's Pool
+  - GHash.io
+explanation: |
+ Nach Angaben von OrganOfCorti lag die gemessene Hash-Rate von Deepbit am 5. August bei 52,86 %.
+reviewed: true

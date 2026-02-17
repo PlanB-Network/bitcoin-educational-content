@@ -1,0 +1,10 @@
+question: Na které online burze provedl Erik Voorhees v srpnu 2012 neformální IPO, aby rozšířil online kasino SatoshiDICE?
+answer: MPEx
+wrong_answers:
+  - GLBSE
+  - Bitcoinica
+  - Bitoption.org
+explanation: |
+ Platforma MPEx, kterou řídil Mircea Popescu, byla spuštěna o několik měsíců dříve. Erik Voorhees vydal 100 milionů akcií (s burzovním symbolem S.DICE) a
+ 10 prodal a získal tak 34 500 bitcoinů, tedy přibližně 372 000 dolarů.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Kuidas nimetati Jeremias Kangase ja tema venna poolt 2012. aasta juunis käivitatud eraisikute vahelist valuutavahetusteenust?
+answer: LocalBitcoins
+wrong_answers:
+  - BTC NEAR MEIE VÄLJA
+  - BitInstant
+  - Coinabul
+explanation: |
+ See oli matchi platvorm, mis käivitati 7. juunil. Suve jooksul integreeris LocalBitcoins eskrovisüsteemi, mille kaudu bitcoine sai
+ platvormi poolt ajutiselt hoida ja SMSi teel ostjale maksmiseks vabastada. Eelkõige võimaldas see näost-näkku vahetusi, kus müüja saaks
+ bitcoinid vabastatakse pärast raha saamist.
+reviewed: true

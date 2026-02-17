@@ -1,0 +1,10 @@
+question: 流通中的比特币大约占 Bitcoin 储蓄与信托基金高峰时期所管理资金的多大比例？
+answer: 约 5%
+wrong_answers:
+  - 约 0.05
+  - 约 0.5
+  - 约 50%
+explanation: |
+ 在 2012 年 8 月达到顶峰时，Trendon Shavers（又名 PirateAt40）的基金管理着超过 50 万枚比特币，约占流通中的 970 万枚比特币的 5%。
+ 比特币流通量的 5%左右！Bitcoin Savings & Trust 公司随即倒闭，因为人们的信心蒸发了。
+reviewed: true

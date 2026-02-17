@@ -1,0 +1,10 @@
+question: Mikä oli Silkkitien päätuote?
+answer: Kannabis
+wrong_answers:
+  - Hallusinogeeniset sienet
+  - Heroiini
+  - Steroidit
+explanation: |
+ Vaikka foorumia käytettiin pääasiassa laittomaan huumekauppaan, siellä myytiin myös pieniä määriä kannabista. Tarjolla oli myös laillisia tuotteita, kuten kirjoja ja taidetta,
+ elektroniikkakomponentteja, kultaa ja niin edelleen. Varastettuja pankkikortteja, lapsipornoa tai palkkamurhapalveluja ei ollut tarjolla, sillä ne kiellettiin sivuston peruskirjassa.
+reviewed: true

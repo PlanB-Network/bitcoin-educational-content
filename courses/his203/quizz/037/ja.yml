@@ -1,0 +1,11 @@
+question: 2011年、ウラディミール・ファン・デル・ラーンがメインソフトのために開発したグラフィックインターフェースの名前は？
+answer: Bitcoin-Qt
+wrong_answers:
+  - wxWindows-Bitcoin
+  - bitcoind
+  - Bitcoin コア
+explanation: |
+ Bitcoin-Qtは、Bitcoinのグラフィカル・インターフェースを全面的に見直したものです。2011年6月から開発され、バージョン0.5でメインソフトに統合された、
+ 11月21日にリリースされた。Qtグラフィックスフレームワークをベースとし、Satoshiで元々使用されていたwxWindowsライブラリを置き換えた。このソフトウェアは
+ Bitcoin-Qtと呼ばれている。
+reviewed: true

@@ -1,0 +1,11 @@
+question: Quale funzione aggiunta dal servizio di cambio BitInstant nel dicembre 2011 è stata sfruttata da Robert Faiella, alias BTCKing, per la sua attività di rivendita sul dark web?
+answer: Deposito in contanti
+wrong_answers:
+  - Acquisti gratuiti
+  - Trasferimenti istantanei
+  - Conformità normativa
+explanation: |
+ BitInstant ha aggiunto questo metodo di pagamento alla sua offerta il 21 dicembre 2011. Per i cittadini statunitensi era possibile depositare denaro contante in luoghi specifici ed essere
+ accreditati quasi istantaneamente in dollari sulla piattaforma di scambio di loro scelta. Robert Faiella, alias BTCKing, ha sfruttato la relativa riservatezza di questo metodo per gestire un'attività di rivendita
+ questo metodo per gestire un'attività di rivendita su Silk Road, a fronte di un compenso più elevato.
+reviewed: true

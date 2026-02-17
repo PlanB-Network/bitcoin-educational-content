@@ -1,0 +1,10 @@
+question: Siapa yang mengimplementasikan fungsi Scrypt yang intensif memori sebagai algoritma mining yang tahan GPU dalam mata uang kripto Tenebrix pada tahun 2011?
+answer: ArtForz
+wrong_answers:
+  - Charlie Lee
+  - Lolcust
+  - Colin Percival
+explanation: |
+ Scrypt adalah sebuah fungsi derivasi kunci yang pada awalnya didesain pada tahun 2009 oleh seorang ilmuwan komputer asal Kanada, Colin Percival. Ia diambil oleh penambang ArtForz, yang membantu
+ Lolcust mengembangkan mata uang kripto Tenebrix, yang diluncurkan pada bulan September 2011. Charlie Lee mengambil model ini untuk dimasukkan ke dalam Litecoin, yang memulai debutnya pada bulan Oktober.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Koji libertarijanski radio program u SAD-u je bio jedan od prvih koji je spomenuo postojanje Silk Road marketplace-a?
+answer: Free Talk Live
+wrong_answers:
+  - Bitcoin Show
+  - Sve u svemu
+  - Infowars Nightly News
+explanation: |
+ Free Talk Live su vodili Ian Freeman i Mark Edge, koji su otkrili Bitcoin u decembru 2010. i upoznali Gavina Andresena u februaru 2011. Dana 16. marta 2011, polovina emisije bila je posvećena korišćenju Bitcoin na Silk Road-u, što je ubedilo Rogera Vera da se više uključi u Bitcoin.
+reviewed: true

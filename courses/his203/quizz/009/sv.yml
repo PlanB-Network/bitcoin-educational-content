@@ -1,0 +1,10 @@
+question: Vilken värdtjänst var Mark Karpelès chef för innan han tog över Mt. Gox?
+answer: KalyVärd
+wrong_answers:
+  - TibanneVärd
+  - ViHostarDig
+  - PlanetHost
+explanation: |
+ Detta var bara en av de många tjänster han erbjöd som oberoende utvecklare. I november började Mark Karpelès ta emot bitcoinbetalningar med KalyHost.
+ Ross Ulbricht använde också tjänsten för att hosta webbsidan Silkroadmarket.org, som omdirigerade till Silk Road.
+reviewed: true

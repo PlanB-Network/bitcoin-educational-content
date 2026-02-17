@@ -1,0 +1,10 @@
+question: 是谁于 2011 年在 Tenebrix 加密货币中将内存密集型 Scrypt 函数作为抗 GPU 的 mining 算法实施的？
+answer: ArtForz
+wrong_answers:
+  - 查理-李
+  - Lolcust
+  - 科林-珀西瓦尔
+explanation: |
+ Scrypt 是一种密钥推导函数，最初由加拿大计算机科学家科林-珀西瓦尔（Colin Percival）于 2009 年设计。它被矿工 ArtForz 采纳，并帮助
+ Lolcust 开发了 Tenebrix 加密货币，并于 2011 年 9 月推出。查理-李（Charlie Lee）采用了这一模型，并将其纳入 10 月份首次亮相的莱特币中。
+reviewed: true

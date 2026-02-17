@@ -1,0 +1,9 @@
+question: Tính năng nào được dịch vụ ngoại hối BitInstant thêm vào tháng 12 năm 2011 đã bị Robert Faiella, hay còn gọi là BTCKing, lợi dụng cho hoạt động kinh doanh bán lại trên dark web của hắn?
+answer: Tiền gửi tiền mặt
+wrong_answers:
+  - Mua hàng miễn phí
+  - Chuyển khoản tức thì
+  - Tuân thủ quy định
+explanation: |
+ BitInstant đã thêm phương thức thanh toán này vào dịch vụ của mình vào ngày 21 tháng 12 năm 2011. Công dân Hoa Kỳ có thể gửi tiền mặt tại các địa điểm cụ thể và được ghi có gần như ngay lập tức bằng đô la trên nền tảng giao dịch mà họ lựa chọn. Robert Faiella, hay còn gọi là BTCKing, đã tận dụng tính bảo mật tương đối của phương thức này để vận hành một doanh nghiệp bán lại trên Con đường Tơ lụa, với mức phí cao hơn.
+reviewed: true

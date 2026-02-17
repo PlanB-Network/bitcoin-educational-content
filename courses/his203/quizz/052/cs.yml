@@ -1,0 +1,11 @@
+question: Kterou funkci přidanou do směnárenské služby BitInstant v prosinci 2011 využil Robert Faiella alias BTCKing pro svůj byznys s přeprodejem na temném webu?
+answer: Vklad hotovosti
+wrong_answers:
+  - Nákupy zdarma
+  - Okamžité převody
+  - Dodržování předpisů
+explanation: |
+ Společnost BitInstant přidala tuto platební metodu do své nabídky 21. prosince 2011. Občané USA tak mohli vkládat hotovost na určitých místech a být
+ připsány téměř okamžitě v dolarech na směnárenské platformě podle jejich výběru. Robert Faiella, známý také jako BTCKing, využil relativní důvěrnosti
+ této metody k provozování obchodu s dalším prodejem na Silk Road, a to za vyšší poplatek.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Cosa ha causato l'hackeraggio di Mt. Gox il 19 giugno?
+answer: Accesso al database delle password, che è stato sottoposto a hash con MD5, ma non a salatura
+wrong_answers:
+  - Jed McCaleb ha fatto trapelare la password di accesso al suo account personale sulla piattaforma
+  - Un fulmine, che ha permesso al pirata di prelevare più bitcoin di quanti ne avesse
+  - Iniezione di XML nelle richieste di prelievo per trafugare i conti
+explanation: |
+ Questa falla ha permesso all'hacker di accedere ad account con password deboli (brevi o facili da indovinare). In particolare, ha avuto accesso all'account di Jed McCaleb in questo modo. Ha
+ ha venduto bitcoin per far scendere il prezzo, in modo da prelevare un massimo di bitcoin (il limite di prelievo giornaliero era di 1.000 dollari).
+reviewed: true

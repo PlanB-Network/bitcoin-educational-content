@@ -1,0 +1,9 @@
+question: Ni tatizo gani ambalo dhana ya wallet ya kimaamuzi ilitatua lililorasimishwa na msanidi programu Gregory Maxwell mnamo Juni 2011?
+answer: Haja ya kuhifadhi nakala rudufu za funguo za kibinafsi mara kwa mara ili kupata bitcoins
+wrong_answers:
+  - Hatari ya uharamia inayohusiana na kuhifadhi bitcoins kwenye kifaa kilichounganishwa na mtandao
+  - Uwezekano wa mashambulizi ya nguvu kali kutokana na entropy ndogo ya jenereta za nambari nasibu
+  - Kutoweza kutumia tena akaunti kwenye kifaa kingine
+explanation: |
+ wallet za kidhahiri hutumia uundaji wa funguo: badala ya kuwa generated moja kwa moja bila mpangilio, kama ilivyofanywa katika programu kuu, funguo za kibinafsi hutolewa kwa njia ya kidhahiri kutoka kwa taarifa (inayoitwa seed) kwa kutumia vitendakazi vya usimbaji. Njia hii ilitumika na programu ya BitcoinSpinner na Electrum wallet mwishoni mwa 2011.
+reviewed: true

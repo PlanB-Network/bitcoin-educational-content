@@ -1,0 +1,11 @@
+question: Masalah apa yang dipecahkan oleh konsep wallet deterministik yang diformalkan oleh pengembang Gregory Maxwell pada bulan Juni 2011?
+answer: Perlunya pencadangan kunci pribadi secara berkala untuk mengamankan bitcoin
+wrong_answers:
+  - Risiko pembajakan yang terkait dengan penyimpanan bitcoin di perangkat yang terhubung ke Internet
+  - Kerentanan terhadap serangan brute force karena rendahnya entropi generator nomor acak
+  - Ketidakmampuan untuk menggunakan kembali akun di perangkat lain
+explanation: |
+ Deterministik wallet menerapkan derivasi kunci: alih-alih menjadi generated secara individual secara acak, seperti yang dilakukan pada perangkat lunak utama, kunci privat diturunkan
+ secara deterministik dari informasi (disebut seed) menggunakan fungsi kriptografi. Metode ini diterapkan oleh perangkat lunak BitcoinSpinner dan Electrum
+ wallet pada akhir tahun 2011.
+reviewed: true

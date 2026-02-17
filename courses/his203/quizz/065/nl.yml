@@ -1,0 +1,11 @@
+question: Hoeveel afzonderlijke hacks heeft het handelsplatform Bitcoinica meegemaakt voordat het failliet ging?
+answer: 3
+wrong_answers:
+  - 1
+  - 2
+  - 4
+explanation: |
+ De drie hacks waren als volgt: de hack van het Linode-account waardoor het platform 43.554 bitcoins verloor; de hack van het Rackspace-account die leidde tot het verlies van 18.574 bitcoins; de hack van het Mt
+ verlies van 18.574 bitcoins; de hack van het Mt. Gox account waarbij de hacker 40.000 bitcoins en 40.000 LR-USD opnam. De liquidatie van Bitcoinica
+ werd aangekondigd op 1 augustus 2012.
+reviewed: true

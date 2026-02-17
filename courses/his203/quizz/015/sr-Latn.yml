@@ -1,0 +1,10 @@
+question: Koja američka savezna država koju je izabrao Free State Project postala je centar usvajanja Bitcoin u periodu 2012-2013?
+answer: Nju Hempšir
+wrong_answers:
+  - Teksas
+  - Kolorado
+  - Kalifornija
+explanation: |
+ Projekat Slobodna Država bio je politički migracioni pokret, usmeren na okupljanje libertarijanaca u jednoj državi kako bi uticali na lokalnu vladu tamo. 
+ Članovi ovog pokreta počeli su koristiti Bitcoin zahvaljujući prozelitizmu libertarijanskih aktivista kao što su Roger Ver i Erik Voorhees.
+reviewed: true

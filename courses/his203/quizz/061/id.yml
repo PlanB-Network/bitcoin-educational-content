@@ -1,0 +1,10 @@
+question: Di bursa saham online mana Erik Voorhees melakukan IPO informal pada bulan Agustus 2012 untuk mengembangkan kasino online SatoshiDICE?
+answer: MPEx
+wrong_answers:
+  - GLBSE
+  - Bitcoinica
+  - Bitoption.org
+explanation: |
+ MPEx adalah platform yang dikelola oleh Mircea Popescu dan diluncurkan beberapa bulan sebelumnya. Erik Voorhees menerbitkan 100 juta saham (dengan simbol saham S.DICE) dan
+ menjual 10 saham untuk mengumpulkan 34.500 bitcoin, atau sekitar $372.000.
+reviewed: true

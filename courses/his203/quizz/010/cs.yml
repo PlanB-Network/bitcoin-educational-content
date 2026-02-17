@@ -1,0 +1,11 @@
+question: Kterou devizovou platformu konkurující Mt. Gox spustil v prosinci 2010 David François?
+answer: Bitcoin-Central
+wrong_answers:
+  - Paymium
+  - Britcoin
+  - Bitomat
+explanation: |
+ Bitcoin-Central byla francouzská platforma, která zpočátku přijímala dolary a eura Liberty Reserve i běžné převody v eurech. Její zdrojový kód byl
+ zveřejněn pod licencí open source (AGPL). Platforma se následně spojila se společností Paymium, kterou spoluzaložili Gonzague Grandval, Pierre Noizat a David
+ François v červnu 2011, která se původně zaměřovala na oblast plateb.
+reviewed: true

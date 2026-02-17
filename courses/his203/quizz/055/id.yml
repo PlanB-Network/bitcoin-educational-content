@@ -1,0 +1,10 @@
+question: Apa model bisnis di balik BitPay, pemroses pembayaran yang diluncurkan oleh Stephen Pair dan Tony Gallippi pada musim panas 2011?
+answer: Konversikan bitcoin pelanggan menjadi dolar secara instan, dengan biaya tertentu
+wrong_answers:
+  - Memungkinkan pelanggan membeli bitcoin secara instan dengan pembayaran dolar, dengan komisi
+  - Meminjamkan bitcoin yang disimpan oleh pelanggan dan mengumpulkan bunga
+  - Menyampaikan pembayaran bitcoin ke blockchain, menerima biaya transaksi
+explanation: |
+ Ide di balik BitPay adalah untuk memberikan pedagang kemungkinan mengubah pembayaran bitcoin mereka secara instan menjadi dolar, sehingga mereka dapat melakukan lindung nilai terhadap
+ volatilitas. BitPay menyediakan dolar kepada klien di muka, dengan membebankan biaya pemrosesan yang awalnya 1%.
+reviewed: true

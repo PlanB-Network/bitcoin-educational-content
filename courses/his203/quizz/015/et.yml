@@ -1,0 +1,10 @@
+question: Milline Ameerika Ühendriikide osariik, mille Free State Project valis välja, sai 2012-2013 Bitcoin lapsendamise keskuseks?
+answer: New Hampshire
+wrong_answers:
+  - Texas
+  - Colorado
+  - California
+explanation: |
+ Vaba riigi projekt oli poliitiline rändeliikumine, mille eesmärk oli koondada liberaalid ühte osariiki, et mõjutada sealset kohalikku omavalitsust.
+ Selle liikumise liikmed hakkasid kasutama Bitcoin tänu libertaarsete aktivistide, nagu Roger Ver ja Erik Voorhees, propageerimisele.
+reviewed: true

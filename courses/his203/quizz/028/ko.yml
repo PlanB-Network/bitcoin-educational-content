@@ -1,0 +1,10 @@
+question: 2011년 11월에 핵심 파생어 seed을 12단어 문장으로 표현하여 혁신을 일으킨 소프트웨어는?
+answer: Electrum
+wrong_answers:
+  - 스페스밀로
+  - 계층
+  - Paymium
+explanation: |
+ 이 wallet는 프랑스 개발자 토마스 보그틀린이 만들었습니다. 그 이름은 금과 은의 천연 합금인 일렉트럼을 의미합니다. Electrum는 최초의
+ seed에서 키를 파생하는 결정론적 구조를 구현한 최초의 wallet 중 하나로, 16진수 문자열과 12단어 문장으로 표현했습니다.
+reviewed: true

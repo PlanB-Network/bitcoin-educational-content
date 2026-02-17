@@ -1,0 +1,10 @@
+question: Hvilken effekt hadde OP_EVAL-operasjonskoden på Bitcoins interne programmeringssystem?
+answer: Utfør et skript i et skript
+wrong_answers:
+  - Be om deltakernes underskrifter
+  - Hakk et skript og sammenlign resultatet med et medfølgende fotavtrykk
+  - Kontroller at to verdier er like
+explanation: |
+ Den ble beskrevet av Nicolas van Saberhagen, også kjent som ByteCoin, som designet den natten mellom 1. og 2. oktober 2011. Operasjonskoden utføres på slutten av låseskriptet for å
+ skriptet for å vurdere gyldigheten til det medfølgende skriptet, hvis hash-kode sammenlignes med det gitte fingeravtrykket.
+reviewed: true

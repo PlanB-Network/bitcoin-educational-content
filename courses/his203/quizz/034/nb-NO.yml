@@ -1,0 +1,10 @@
+question: Hva var konseptet bak P2Pool, det distribuerte mining-bassenget som ble opprettet av Forrest Voight i 2011?
+answer: Kjeden av aksjer
+wrong_answers:
+  - Lange meningsmålinger
+  - Coinbase-signaturen
+  - FPGA-en
+explanation: |
+ "Aksjekjeden", eller sharechain, besto av delvise bevis på arbeid som deltakerne hadde bidratt med. Den ble vedlikeholdt av deltakerne, som var koblet sammen
+ peer-to-peer. Hver del inneholdt fingeravtrykket til den forrige delen, noe som sikret integriteten til helheten.
+reviewed: true

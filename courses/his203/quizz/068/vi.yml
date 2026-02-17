@@ -1,0 +1,9 @@
+question: Sàn giao dịch nào đã bị đánh cắp 24.000 bitcoin vào đầu tháng 9 năm 2012?
+answer: Bitfloor
+wrong_answers:
+  - Núi Gox
+  - Tradehill
+  - BTC-e
+explanation: |
+ Vào đêm ngày 3 rạng sáng ngày 4 tháng 9 năm 2012, một hacker đã truy cập vào bản sao lưu không được mã hóa của các khóa wallet của Bitfloor và đã rút được hơn 24.000 BTC, tương đương khoảng 250.000 đô la Mỹ vào thời điểm đó.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Pengembang Bitcoin mana yang menentang keras peningkatan Pay to Script Hash?
+answer: Luke Dashjr
+wrong_answers:
+  - Amir Taaki
+  - Gregory Maxwell
+  - Gavin Andresen
+explanation: |
+ Luke Dashjr merasa bahwa proposal OP_EVAL jauh lebih baik, karena lebih elegan; bahwa P2SH menggantikan sistem scripting dengan "satu model khusus".
+ Dia juga mengkritik Gavin karena memasukkan pelaporan default dalam perangkat lunak. Sebagai tanggapan, Luke-Jr mengembangkan kode operasinya sendiri, OP_CHECKHASHVERIFY (BIP 17).
+reviewed: true

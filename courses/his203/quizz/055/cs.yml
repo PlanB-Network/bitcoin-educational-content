@@ -1,0 +1,10 @@
+question: Jaký byl obchodní model BitPay, platebního procesoru, který v létě 2011 spustili Stephen Pair a Tony Gallippi?
+answer: Okamžitá konverze bitcoinů zákazníků na dolary za poplatek
+wrong_answers:
+  - Umožnit zákazníkům nakupovat Bitcoin okamžitě s dolarovými platbami, za provizi
+  - Půjčování bitcoinů uložených zákazníky a vybírání úroků
+  - Přenášet bitcoinové platby do blockchainu a přijímat transakční poplatky
+explanation: |
+ Myšlenkou společnosti BitPay bylo poskytnout obchodníkům možnost okamžité konverze jejich bitcoinových plateb na dolary, aby se mohli zajistit proti
+ volatilitě. BitPay poskytovala klientům dolary předem a účtovala si poplatek za zpracování, který zpočátku činil 1 %.
+reviewed: true

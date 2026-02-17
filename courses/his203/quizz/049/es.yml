@@ -1,0 +1,11 @@
+question: ¿Quién fue el cerebro detrás de la primera implementación híbrida de la prueba de apuestas llevada a cabo en agosto de 2012 a través de la criptomoneda PPCoin?
+answer: Sunny King
+wrong_answers:
+  - Vitalik Buterin
+  - Venir de más allá
+  - Ben Laurie
+explanation: |
+ Sunny King era el seudónimo del principal desarrollador del proyecto. La idea era implantar un modelo híbrido en el que determinados bloques se validaran mediante pruebas de conservación
+ (basado en el concepto de edad de la moneda), además de bloques minados por mining convencional. Sunny King y sus colaboradores lanzaron PPCoin en agosto de 2012
+ (posteriormente rebautizada como Peercoin). Describieron su solución como "energéticamente eficiente a largo plazo".
+reviewed: true

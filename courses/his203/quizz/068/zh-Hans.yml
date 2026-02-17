@@ -1,0 +1,10 @@
+question: 2012 年 9 月初，哪个交易所平台的 24,000 个比特币被盗？
+answer: Bitfloor
+wrong_answers:
+  - Gox Mt.
+  - 贸易山
+  - BTC-c
+explanation: |
+ 2012 年 9 月 3 日至 4 日晚，一名黑客访问了 Bitfloor 未加密的 wallet 密钥备份，并成功提取了 24,000 多 BTC，当时约合 250,000 美元。
+ 约合当时的 25 万美元。
+reviewed: true

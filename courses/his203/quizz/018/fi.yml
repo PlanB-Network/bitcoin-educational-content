@@ -1,0 +1,10 @@
+question: Mikä libertaristinen radio-ohjelma Yhdysvalloissa oli yksi ensimmäisistä, joka mainitsi Silkkitien markkinapaikan olemassaolon?
+answer: Free Talk Live
+wrong_answers:
+  - Bitcoin Show
+  - All Things Considered
+  - Infowars Nightly News
+explanation: |
+ Free Talk Liven juontajina toimivat Ian Freeman ja Mark Edge, jotka löysivät Bitcoin:n joulukuussa 2010 ja tapasivat Gavin Andresenin helmikuussa 2011. Maaliskuun 16. päivänä 2011 puolet
+ ohjelmasta oli omistettu Bitcoin:n käytölle Silk Roadilla, mikä sai Roger Verin kiinnostumaan Bitcoin:stä enemmän.
+reviewed: true

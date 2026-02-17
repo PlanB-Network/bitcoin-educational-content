@@ -1,0 +1,10 @@
+question: Auf welches Niveau fiel der Bitcoin-Preis am Ende der Baisse, die auf die große Blase von 2011 folgte?
+answer: 2 $
+wrong_answers:
+  - 0,01 $
+  - 6 $
+  - 17,5 $
+explanation: |
+ Nach einem Höchststand von 32 US-Dollar im Juni 2011 fiel der Bitcoin-Preis Anfang August drastisch auf 6 US-Dollar, fiel dann weiter und erreichte schließlich im November 2011 etwa 2 US-Dollar
+ November 2011. Dies entsprach einem Rückgang von über 90 % gegenüber dem Höchststand im Juni.
+reviewed: true

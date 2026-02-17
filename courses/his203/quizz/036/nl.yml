@@ -1,0 +1,10 @@
+question: Wat houdt "poolhoppen" in voor een miner die zijn hash rate delegeert aan een mining pool?
+answer: De verbinding met een mining pool verbreken zodra een bepaald aantal aandelen is ingeleverd in een cyclus, en rekenkracht omleiden naar je eigen account of naar een andere mining pool
+wrong_answers:
+  - Een bandbreedte-intensief communicatieprotocol gebruiken voor interactie met mining pool om verouderde aandelen te verminderen door de aankondiging van nieuwe blokken te stroomlijnen
+  - Verschillende fictieve transacties uitvoeren binnen de mining pool om een overdracht van bitcoin-eigendom te simuleren en de vertrouwelijkheid van de gedelegeerde miners te vergroten
+  - De naam van de mining pool schrijven in het invoerveld van de beloningstransactie van het gemijnde blok, om de werking van mining pools transparanter te maken
+explanation: |
+ Deze methode werd beschreven door Raulo in februari 2011, die schatte dat een individu op deze manier 28% meer bitcoins kon verkrijgen. Dit motiveerde de introductie van
+ een "anti-cheating" score binnen de Slush coöperatie.
+reviewed: true

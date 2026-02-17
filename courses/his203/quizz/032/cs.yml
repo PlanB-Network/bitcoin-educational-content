@@ -1,0 +1,10 @@
+question: Který protokol mining vyvinul v září 2012 Marek Palatinus alias Slush, aby zlepšil výměnu mezi těžaři a pooly mining?
+answer: Stratum
+wrong_answers:
+  - Electrum
+  - Getwork
+  - Getblocktemplate (GBT)
+explanation: |
+ Stratum byl protokol mining pro tenké klienty. Rychle nahradil do té doby používanou primitivní funkci getwork a prosadil se na úkor protokolu
+ konkurenčního návrhu getblocktemplate.
+reviewed: true

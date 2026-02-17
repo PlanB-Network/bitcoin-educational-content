@@ -1,0 +1,9 @@
+question: BIP ใดที่ทำให้โปรโตคอลการกระจาย Dandelion เป็นทางการ?
+answer: BIP156
+wrong_answers:
+  - BIP34
+  - BIP47
+  - BIP324
+explanation: |
+  Dandelion ได้รับการทำให้เป็นทางการใน BIP156 โดยไม่ได้ถูกรวมเข้ากับ Bitcoin Core ในท้ายที่สุด
+reviewed: false

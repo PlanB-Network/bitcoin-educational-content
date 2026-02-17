@@ -1,0 +1,10 @@
+question: Quale innovazione tecnica è stata incorporata nella criptovaluta Namecoin nell'ottobre 2011?
+answer: Fusione mining
+wrong_answers:
+  - Resistente alla GPU mining
+  - Nodi affidabili
+  - Prova di partecipazione
+explanation: |
+ Il mining unito è un processo in cui il lavoro svolto su una "catena madre" (cioè il Bitcoin) viene riutilizzato per convalidare catene "ausiliarie" più piccole. Questo processo è stato
+ proposto nella discussione su BitDNS dallo stesso Satoshi. La mining combinata è stata attivata sulla rete Namecoin l'8 ottobre 2011, al livello di blocco 19.200.
+reviewed: true

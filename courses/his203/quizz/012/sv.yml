@@ -1,0 +1,10 @@
+question: Hur många bitcoins överfördes av Mark Karpelès för att bevisa att Mt. Gox-plattformen var solvent den 23 juni 2011?
+answer: 424.242 bitcoins
+wrong_answers:
+  - 666 bitcoins
+  - 1.337 bitcoins
+  - 21.210 bitcoins
+explanation: |
+ Detta var ungefär det antal bitcoins som bolaget ägde vid den tidpunkten. Siffran 42 är svaret på "den stora frågan om livet, universum och
+ allt annat" i H2G2.
+reviewed: true

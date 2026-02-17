@@ -1,0 +1,10 @@
+question: Stephen Pair ve Tony Gallippi tarafından 2011 yazında başlatılan ödeme işlemcisi BitPay'in arkasındaki iş modeli neydi?
+answer: Müşterilerin bitcoinlerini ücret karşılığında anında dolara dönüştürme
+wrong_answers:
+  - Müşterilerin bir komisyon karşılığında dolar ödemeleriyle anında bitcoin satın almalarını sağlayın
+  - Müşteriler tarafından yatırılan bitcoinleri ödünç vermek ve faiz tahsil etmek
+  - Bitcoin ödemelerini blok zincirine aktarmak, işlem ücretlerini almak
+explanation: |
+ BitPay'in arkasındaki fikir, tüccarlara bitcoin ödemelerini anında dolara dönüştürme imkanı vermekti, böylece
+ uçuculuk. BitPay müşterilerine peşin dolar sağlayarak başlangıçta %1 olan bir işlem ücreti talep etti.
+reviewed: true

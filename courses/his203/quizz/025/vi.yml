@@ -1,0 +1,11 @@
+question: Ứng dụng lưu trữ Bitcoin trên điện thoại di động nào được công ty Paymium SAS của Pháp phát triển vào tháng 4 năm 2012?
+answer: Paytunia
+wrong_answers:
+  - Instawallet
+  - MyBitcoin
+  - Vibanko
+explanation: |
+ Paymium giới thiệu nó như "một ứng dụng mang tính cách mạng dựa trên giao thức mở Bitcoin để thanh toán và chuyển tiền trực tuyến an toàn và dễ dàng".
+ 
+ Công ty này cũng đã mua lại ứng dụng web Instawallet từ Jan Vornberger vào tháng 3 năm 2012.
+reviewed: true

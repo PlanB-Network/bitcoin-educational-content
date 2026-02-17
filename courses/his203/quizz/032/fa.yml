@@ -1,0 +1,9 @@
+question: کدام پروتکل mining در سپتامبر 2012 توسط مارک پالاتینوس، معروف به Slush، برای بهبود تبادلات بین ماینرها و استخرهای mining توسعه داده شد؟
+answer: لایه
+wrong_answers:
+  - Electrum
+  - گت‌ورک
+  - Getblocktemplate (GBT)
+explanation: |
+ استراتوم یک پروتکل mining برای کلاینت‌های نازک بود. این پروتکل به سرعت جایگزین تابع ابتدایی getwork شد که تا آن زمان استفاده می‌شد و با هزینه پیشنهاد رقیب getblocktemplate خود را تثبیت کرد.
+reviewed: true

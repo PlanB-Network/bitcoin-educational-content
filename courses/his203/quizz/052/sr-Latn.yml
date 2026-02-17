@@ -1,0 +1,11 @@
+question: Koju je funkciju dodatu od strane BitInstant usluge za razmenu valuta u decembru 2011. godine iskoristio Robert Faiella, poznat kao BTCKing, za svoj posao preprodaje na dark webu?
+answer: Gotovinski depozit
+wrong_answers:
+  - Besplatne kupovine
+  - Instantni transferi
+  - Regulatorna usklađenost
+explanation: |
+ BitInstant je dodao ovu metodu plaćanja u svoju ponudu 21. decembra 2011. Bilo je moguće da građani SAD-a polože gotovinu na određenim lokacijama i budu 
+ gotovo trenutno pripisani u dolarima na platformi za razmenu po svom izboru. Robert Faiella, poznat i kao BTCKing, iskoristio je relativnu poverljivost 
+ ove metode da vodi posao preprodaje na Silk Road-u, uz višu naknadu.
+reviewed: true

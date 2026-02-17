@@ -1,0 +1,10 @@
+question: Welk protocol verhinderde dat de Silk Road marktplaats direct door de autoriteiten werd gesloten?
+answer: Tor
+wrong_answers:
+  - I2P
+  - Freenet
+  - BitTorrent
+explanation: |
+ Tor, een lexicaal acroniem voor The Onion Router, is een protocol dat een wereldwijd, gedecentraliseerd overlay computernetwerk (beter bekend als het darknet) ondersteunt.
+ Het maakt het mogelijk om websites anoniem en zonder censuur te hosten en was ideaal voor het project van Ross Ulbricht.
+reviewed: true

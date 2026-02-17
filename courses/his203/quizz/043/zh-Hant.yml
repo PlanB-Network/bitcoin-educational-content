@@ -1,0 +1,11 @@
+question: Russell O'Connor 於 2012 年 2 月發現的安全問題導致 BIP 30 的產生？
+answer: 區塊鏈上存在重複交易
+wrong_answers:
+  - 拜占庭將軍使共識失效的問題
+  - OP_EVAL 指令中存在遞歸缺陷
+  - 由 OP_CHECKMULTISIG 操作員移除過剩元素
+explanation: |
+ 這些是在不同區塊中包含相同識別碼的獎勵交易。在 2012 年 2 月 4 日，Russell O'Connor 發現了一個漏洞，可以透過鏈重組的方式
+ 允許透過鏈重組將其中一個重複交易產生的所有交易徹底刪除。該修補程式在
+ BIP 30 by Pieter Wuille，已於 3 月 15 日應用於網路。
+reviewed: true

@@ -139,7 +139,7 @@ Agar uang dapat mempertahankan daya belinya dari waktu ke waktu, itu harus:
 
 **Langka:** Ketika uang menawarkan kelangkaan, kita berarti pasokan yang tersedia terbatas. Ini penting untuk penyimpan nilai karena jika ada terlalu banyak mata uang tertentu, itu dapat menurun nilainya. Mata uang yang langka lebih mungkin untuk mempertahankan nilainya dari waktu ke waktu, menjadikannya penyimpan kekayaan yang dapat diandalkan. Pikirkan seperti item edisi terbatas - jika hanya ada beberapa dari mereka, mereka lebih berharga dan dicari daripada jika ada pasokan tak terbatas. Demikian pula, mata uang yang langka lebih mungkin untuk mempertahankan nilainya dan mempertahankan daya belinya, menjadikannya pilihan yang lebih baik untuk menyimpan kekayaan.
 
-**Tidak Dapat Diubah:** Agar uang menawarkan ketidakmampuan diubah, itu harus kebal terhadap pembalikan atau perubahan setelah transaksi telah dilakukan. Ini adalah karakteristik penting dari penyimpan nilai yang dapat diandalkan karena memastikan bahwa nilai uang tidak tunduk pada perubahan atau manipulasi sewenang-wenang. Misalnya, jika Anda membeli sesuatu dengan uang tunai, Anda tidak dapat mengubah pikiran Anda nanti dan membatalkan transaksi. Demikian pula, dengan mata uang kripto seperti Bitcoin, setelah transaksi telah dicatat di blockchain, itu tidak dapat diubah atau dibalik. Ketidakmampuan diubah ini memberikan rasa keamanan dan keandalan bagi pembeli dan penjual dalam transaksi keuangan.
+**Tidak Dapat Diubah:** Agar uang menawarkan ketidakmampuan diubah, itu harus kebal terhadap pembalikan atau perubahan setelah transaksi telah dilakukan. Ini adalah karakteristik penting dari penyimpan nilai yang dapat diandalkan karena memastikan bahwa nilai uang tidak tunduk pada perubahan atau manipulasi sewenang-wenang. Misalnya, jika Anda membeli sesuatu dengan uang tunai, Anda tidak dapat mengubah pikiran Anda nanti dan membatalkan transaksi. Demikian pula, dengan [mata uang kripto](https://planb.academy/resources/glossary/cryptocurrency) seperti Bitcoin, setelah transaksi telah dicatat di [blockchain](https://planb.academy/resources/glossary/blockchain), itu tidak dapat diubah atau dibalik. Ketidakmampuan diubah ini memberikan rasa keamanan dan keandalan bagi pembeli dan penjual dalam transaksi keuangan.
 
 #### Media Pertukaran
 
@@ -154,13 +154,13 @@ Agar uang menjadi perantara yang efektif untuk membeli dan menjual barang dan ja
 
 Agar uang dapat digunakan sebagai ukuran nilai umum dari barang dan jasa, uang tersebut harus:
 
-**Dapat Dipertukarkan:** Ketika uang dikatakan dapat dipertukarkan, setiap unit mata uang dapat ditukar dengan unit lainnya. Dengan kata lain, berarti uang tersebut seragam dan identik, tidak peduli dari mana asalnya atau siapa yang memilikinya. Misalnya, jika Anda berhutang seseorang \$10 dan Anda memberikan mereka uang kertas \$10, tidak masalah jika uang tersebut berasal dari dompet Anda atau dompet orang lain. Selama itu adalah uang kertas \$10 yang asli, itu dianggap memiliki nilai yang sama. Konsep dapat dipertukarkan ini penting karena memungkinkan uang untuk berfungsi secara efektif sebagai unit pengukuran umum, membuat transaksi menjadi lebih sederhana dan lebih efisien.
+**[Dapat Dipertukarkan](https://planb.academy/resources/glossary/fungibility):** Ketika uang dikatakan dapat dipertukarkan, setiap unit mata uang dapat ditukar dengan unit lainnya. Dengan kata lain, berarti uang tersebut seragam dan identik, tidak peduli dari mana asalnya atau siapa yang memilikinya. Misalnya, jika Anda berhutang seseorang \$10 dan Anda memberikan mereka uang kertas \$10, tidak masalah jika uang tersebut berasal dari dompet Anda atau dompet orang lain. Selama itu adalah uang kertas \$10 yang asli, itu dianggap memiliki nilai yang sama. Konsep dapat dipertukarkan ini penting karena memungkinkan uang untuk berfungsi secara efektif sebagai unit pengukuran umum, membuat transaksi menjadi lebih sederhana dan lebih efisien.
 
 Kesimpulan
 
 Uang adalah bagian penting dan menarik dari kehidupan kita sehari-hari. Uang berfungsi sebagai perantara, memungkinkan kita untuk berdagang barang dan jasa satu sama lain. Namun, tidak semua uang diciptakan sama. Beberapa bentuk uang lebih unggul sebagai penyimpan nilai, seperti koin emas, sementara yang lain mungkin lebih efektif sebagai alat tukar, seperti dolar AS. Namun, ketika fungsi-fungsi ini dipenuhi secara keseluruhan, hal itu memungkinkan kita untuk bertransaksi dengan percaya diri dan dengan mudah, yang tidak hanya membantu kita sebagai individu tetapi juga mendorong pertumbuhan ekonomi dan kemakmuran yang lebih besar bagi ekonomi kita.
 
-Dalam modul-modul berikutnya, kita akan menjelajahi dua bentuk uang yang populer: Bitcoin dan stablecoin. Dengan mengkaji mereka melalui konten yang dibahas di bagian ini, kita akan menjelajahi bagaimana mereka memenuhi berbagai fungsi mata uang dan bagaimana mereka dapat sangat bermanfaat bagi masyarakat.
+Dalam modul-modul berikutnya, kita akan menjelajahi dua bentuk uang yang populer: Bitcoin dan [stablecoin](https://planb.academy/resources/glossary/stablecoin). Dengan mengkaji mereka melalui konten yang dibahas di bagian ini, kita akan menjelajahi bagaimana mereka memenuhi berbagai fungsi mata uang dan bagaimana mereka dapat sangat bermanfaat bagi masyarakat.
 
 Dari barter hingga penemuan koin dan mata uang kertas, uang telah mengalami serangkaian transformasi untuk beradaptasi dengan kebutuhan masyarakat yang selalu berubah. Saat kita beralih ke bab berikutnya, mari kita ubah arah, mengarahkan perhatian kita ke evolusi uang.
 
@@ -186,8 +186,8 @@ Dengan ini di pikiran, mari kita lihat bentuk-bentuk utama pertukaran yang digun
 2. **Uang Komoditas:** Pertukaran komoditas yang disepakati yang dianggap memiliki nilai, seperti garam atau cangkang laut.
 3. **Uang Koin:** Penggunaan logam mulia, seperti emas atau perak, dalam bentuk koin sebagai alat tukar.
 4. **Uang Kertas yang Didukung Logam:** Uang kertas yang didukung oleh komoditas fisik, seperti emas atau perak.
-5. **Uang Fiat:** Mata uang yang tidak didukung oleh komoditas fisik tetapi memiliki nilai karena pemerintah menyatakan itu sebagai alat pembayaran yang sah.
-6. **Cryptocurrency:** Token digital atau virtual yang menggunakan kriptografi untuk mengamankan transaksi dan mengontrol penciptaan unit baru.
+5. **[Uang Fiat](https://planb.academy/resources/glossary/fiat):** Mata uang yang tidak didukung oleh komoditas fisik tetapi memiliki nilai karena pemerintah menyatakan itu sebagai alat pembayaran yang sah.
+6. **Cryptocurrency:** Token digital atau virtual yang menggunakan [kriptografi](https://planb.academy/resources/glossary/cryptography) untuk mengamankan transaksi dan mengontrol penciptaan unit baru.
 
 Dengan ini di pikiran, mari kita periksa masing-masing untuk mendapatkan pemahaman yang lebih holistik tentang bagaimana kita berakhir di tempat kita sekarang ini.
 
@@ -223,7 +223,7 @@ Meskipun masih secara teknis merupakan uang komoditas, ketika manusia melanjutka
 
 Lebih lanjut, logam seperti emas adalah salah satu elemen paling inert dalam tabel periodik, membuatnya sangat tahan lama dan tahan terhadap korosi.
 
-Seiring kemajuan teknologi, emas dan perak mengalami proses transformasi, dilebur, dibentuk, dan dicetak menjadi koin, meningkatkan kemudahan pertukaran. Nilai dan tanda standar pada koin-koin ini secara nyata menurunkan biaya yang terkait dengan verifikasi berat dan kemurnian logam mulia. Namun, seperti kebanyakan hal baik, selalu ada orang yang menemukan cara untuk mengambil keuntungan. Pemotongan koin menjadi marak, dengan individu dan pemerintah memotong bagian dari koin untuk mengurangi berat logam mulia mereka sambil mencoba mempertahankan nilai nominal asli mereka. Ini menyebabkan bentuk pertama devaluasi mata uang, yang mengarah ke inflasi.
+Seiring kemajuan teknologi, emas dan perak mengalami proses transformasi, dilebur, dibentuk, dan dicetak menjadi koin, meningkatkan kemudahan pertukaran. Nilai dan tanda standar pada koin-koin ini secara nyata menurunkan biaya yang terkait dengan verifikasi berat dan kemurnian logam mulia. Namun, seperti kebanyakan hal baik, selalu ada orang yang menemukan cara untuk mengambil keuntungan. Pemotongan koin menjadi marak, dengan individu dan pemerintah memotong bagian dari koin untuk mengurangi berat logam mulia mereka sambil mencoba mempertahankan nilai nominal asli mereka. Ini menyebabkan bentuk pertama devaluasi mata uang, yang mengarah ke [inflasi](https://planb.academy/resources/glossary/inflation).
 
 Untuk memperburuk keadaan, ketika dunia menjadi lebih global, emas dan perak menjadi semakin merepotkan untuk diangkut dan ditransaksikan, terutama bagi pelaut.
 
@@ -237,7 +237,7 @@ Bayangkan: tidak lagi membawa tas berat berisi emas atau khawatir tentang pencur
 
 Namun, seperti halnya teknologi baru, masalah mulai muncul.
 
-Pertama, gudang emas, menyadari bahwa pelanggan mereka jarang kembali untuk menarik emas yang diklaim oleh tanda terima, mulai mengeluarkan tanda terima kertas tanpa dukungan emas, yang mengarah pada penciptaan sistem perbankan cadangan fraksional pertama secara diam-diam (penerbit hanya menyimpan sebagian dari deposit pelanggan sebagai cadangan dan meminjamkan sisanya). Dan bahkan ketika negara-negara mencoba mendukung mata uang mereka dengan emas, mereka sering menyalahgunakan sistem, yang mengarah ke kekacauan ekonomi.
+Pertama, gudang emas, menyadari bahwa pelanggan mereka jarang kembali untuk menarik emas yang diklaim oleh tanda terima, mulai mengeluarkan tanda terima kertas tanpa dukungan emas, yang mengarah pada penciptaan sistem perbankan [cadangan fraksional](https://planb.academy/resources/glossary/fractional-reserves) pertama secara diam-diam (penerbit hanya menyimpan sebagian dari deposit pelanggan sebagai cadangan dan meminjamkan sisanya). Dan bahkan ketika negara-negara mencoba mendukung mata uang mereka dengan emas, mereka sering menyalahgunakan sistem, yang mengarah ke kekacauan ekonomi.
 
 Kedua, mata uang kertas yang didukung logam tidak kebal terhadap pemalsuan. Bahkan dengan fitur keamanan, pemalsu masih bisa membuat catatan palsu yang bisa sulit dideteksi.
 
@@ -469,9 +469,9 @@ Selamat datang di Modul Dua, di mana kita akan menjelajahi dunia Bitcoin yang me
 
 ### Apa itu Bitcoin
 
-Bitcoin adalah mata uang digital desentralisasi yang tidak memerlukan kepercayaan dan izin. Mungkin terdengar membingungkan, jadi izinkan kami menjelaskan. Karena tidak ada pemerintah atau institusi yang mengontrol Bitcoin, Anda tidak perlu mempercayai pihak ketiga mana pun atau memerlukan izin untuk menggunakannya. Sebaliknya, Bitcoin dipelihara oleh jaringan pengguna di seluruh dunia yang memvalidasi dan memproses transaksi pada sesuatu yang disebut blockchain.
+Bitcoin adalah mata uang digital desentralisasi yang tidak memerlukan kepercayaan dan izin. Mungkin terdengar membingungkan, jadi izinkan kami menjelaskan. Karena tidak ada pemerintah atau institusi yang mengontrol Bitcoin, Anda tidak perlu mempercayai pihak ketiga mana pun atau memerlukan izin untuk menggunakannya. Sebaliknya, Bitcoin dipelihara oleh jaringan pengguna di seluruh dunia yang memvalidasi dan memproses [transaksi](https://planb.academy/resources/glossary/transaction-tx) pada sesuatu yang disebut blockchain.
 
-Pikirkan blockchain sebagai buku besar raksasa atau spreadsheet digital yang memelihara catatan setiap transaksi yang dilakukan melalui Bitcoin. Karena siapa pun di seluruh dunia dengan koneksi internet dapat memantau, memvalidasi, atau memproses transaksi, ini memastikan bahwa mata uang tersebut aman dan tidak dapat dipalsukan.
+Pikirkan blockchain sebagai [buku besar](https://planb.academy/resources/glossary/ledger) raksasa atau spreadsheet digital yang memelihara catatan setiap transaksi yang dilakukan melalui Bitcoin. Karena siapa pun di seluruh dunia dengan koneksi internet dapat memantau, memvalidasi, atau memproses transaksi, ini memastikan bahwa mata uang tersebut aman dan tidak dapat dipalsukan.
 
 Bitcoin juga unik karena memiliki pasokan terbatas. Hanya akan ada 21 juta bitcoin yang pernah diciptakan, yang memberikannya kelangkaan, seperti emas dan logam mulia lainnya. Kelangkaan ini adalah bagian dari apa yang memberikan nilai pada bitcoin.
 
@@ -485,26 +485,26 @@ Sebelum penciptaan Bitcoin, sekelompok visioner meletakkan dasar bagi Bitcoin ka
 
 #### The Cypherpunks
 
-The Cypherpunks adalah sekelompok pemberontak yang paham teknologi yang berkumpul pada tahun 80-an untuk memperjuangkan kebebasan individu dan hak-hak sipil menggunakan satu alat yang kuat: kriptografi. Mereka percaya bahwa kemampuan untuk mengenkripsi informasi akan memberi orang kekuatan untuk mengambil kembali kontrol dari otoritas terpusat. Bayangkan dapat menjaga komunikasi online Anda tetap pribadi dan aman dari mata-mata - itulah yang mereka perjuangkan!
+The [Cypherpunks](https://planb.academy/resources/glossary/cypherpunks) adalah sekelompok pemberontak yang paham teknologi yang berkumpul pada tahun 80-an untuk memperjuangkan kebebasan individu dan hak-hak sipil menggunakan satu alat yang kuat: kriptografi. Mereka percaya bahwa kemampuan untuk mengenkripsi informasi akan memberi orang kekuatan untuk mengambil kembali kontrol dari otoritas terpusat. Bayangkan dapat menjaga komunikasi online Anda tetap pribadi dan aman dari mata-mata - itulah yang mereka perjuangkan!
 
 Salah satu hasil paling terkenal dari Cypherpunks adalah daftar surat Cypherpunks, yang didirikan pada tahun 1992. Melalui daftar tersebut, individu dapat berbagi ide dan mendiskusikan teknologi kriptografi, konsep mata uang digital, dan inisiatif yang berfokus pada privasi. Ini mengarah pada pembentukan komunitas individu yang berpikiran sama, termasuk pengembang, aktivis, dan peneliti.
 
-Hari ini, ide-ide visioner cypherpunks terus membentuk evolusi lanskap digital kita, memberdayakan individu dengan kontrol yang lebih besar atas data dan komunikasi mereka. Salah satu warisan paling signifikan mereka adalah Bitcoin, karena sangat dipengaruhi oleh Hashcash—teknologi yang dikembangkan oleh cypherpunk Adam Back pada tahun 1997 untuk memerangi spam email.
+Hari ini, ide-ide visioner cypherpunks terus membentuk evolusi lanskap digital kita, memberdayakan individu dengan kontrol yang lebih besar atas data dan komunikasi mereka. Salah satu warisan paling signifikan mereka adalah Bitcoin, karena sangat dipengaruhi oleh [Hashcash](https://planb.academy/resources/glossary/hashcash)—teknologi yang dikembangkan oleh cypherpunk Adam Back pada tahun 1997 untuk memerangi spam email.
 
 Cypherpunks lain yang terkenal termasuk:
 
 - **Timothy May:** Anggota pendiri dari daftar surat Cypherpunks dan menulis secara ekstensif tentang kriptografi dan privasi sepanjang tahun 90-an dan awal 2000-an. Tulisannya meletakkan dasar untuk diskusi tentang privasi digital dan sistem uang elektronik.
 - **Eric Huges:** Salah satu anggota pendiri Cypherpunks dan ko-penulis "A Cypherpunk's Manifesto," yang menekankan pentingnya privasi dan anonimitas di era digital.
-- **Whitfield Diffie dan Martin Hellman:** Mengembangkan konsep kriptografi kunci publik, merevolusi komunikasi internet yang aman.
+- **Whitfield Diffie dan Martin Hellman:** Mengembangkan konsep kriptografi [kunci publik](https://planb.academy/resources/glossary/public-key), merevolusi komunikasi internet yang aman.
 - **Julian Assange:** Pendiri WikiLeaks, yang menerbitkan informasi rahasia dan sensitif untuk mendorong transparansi dan akuntabilitas.
-- **Bram Cohen:** Menciptakan BitTorrent, protokol berbagi file peer-to-peer yang mendesentralisasi distribusi konten dan memungkinkan unduhan lebih cepat.
+- **Bram Cohen:** Menciptakan BitTorrent, protokol berbagi file [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) yang mendesentralisasi distribusi konten dan memungkinkan unduhan lebih cepat.
 - **John Gilmore:** Seorang pengusaha dan libertarian yang turut mendirikan Electronic Frontier Foundation (EFF) dan mendukung hak digital dan privasi online.
 
 ...dan daftarnya terus berlanjut.
 
 #### David Chaum (Bapak Mata Uang Digital)
 
-Pada awal 1980-an, David Chaum merevolusi dunia mata uang digital dengan karyanya yang inovatif tentang "tanda tangan buta." Ini memungkinkan penandatanganan kriptografis sebuah pesan tanpa mengetahui isinya, memastikan privasi dan keamanan dalam transaksi digital. Pada tahun 1982, David Chaum mengkonseptualisasikan Ecash, sistem uang elektronik anonim yang menggunakan kriptografi, yang kemudian diimplementasikan melalui perusahaannya, Digicash.
+Pada awal 1980-an, David Chaum merevolusi dunia mata uang digital dengan karyanya yang inovatif tentang "[tanda tangan buta](https://planb.academy/resources/glossary/blind-signature)." Ini memungkinkan penandatanganan kriptografis sebuah pesan tanpa mengetahui isinya, memastikan privasi dan keamanan dalam transaksi digital. Pada tahun 1982, David Chaum mengkonseptualisasikan [Ecash](https://planb.academy/resources/glossary/ecash-david-chaum), sistem uang elektronik anonim yang menggunakan kriptografi, yang kemudian diimplementasikan melalui perusahaannya, Digicash.
 
 Meskipun Digicash digunakan sebagai sistem mikropembayaran di satu bank AS dari tahun 1995 hingga 1998, Chaum akhirnya mengajukan kebangkrutan. Namun demikian, ide-ide inovatifnya menginspirasi orang lain untuk menjelajahi mata uang digital, membuka jalan bagi pengembangan mata uang kripto modern, seperti Bitcoin.
 
@@ -518,7 +518,7 @@ Meskipun akhirnya gagal, E-gold merupakan langkah penting dalam evolusi mata uan
 
 Mengingat kenaikan meteorik Bitcoin, banyak orang keliru percaya bahwa itu adalah mata uang digital pertama yang pernah ada. Namun, seperti yang sekarang semoga jelas, asumsi ini jauh dari kebenaran. Kemunculan Bitcoin adalah hasil dari dekade penelitian dan eksperimen oleh para pelopor di bidang kriptografi. Tanpa kontribusi dari individu di atas dan banyak lainnya, Bitcoin mungkin tidak pernah diciptakan. Meskipun mata uang digital awal ini akhirnya gagal, Bitcoin belajar dari kesalahan mereka, akhirnya menjadi mata uang digital yang kita kenal saat ini.
 
-Namun demikian, jika bukan karena satu individu... atau kelompok (kita tidak tahu pasti), Bitcoin tidak akan ada. Dan itu adalah Satoshi Nakamoto. Pencipta yang misterius.
+Namun demikian, jika bukan karena satu individu... atau kelompok (kita tidak tahu pasti), Bitcoin tidak akan ada. Dan itu adalah [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi). Pencipta yang misterius.
 
 #### Satoshi Nakamoto
 
@@ -549,7 +549,7 @@ Untuk merangkum, Bitcoin telah merevolusi cara kita memikirkan tentang uang dan 
 
 - **Peer-to-Peer:** Bitcoin memungkinkan individu untuk mengirim dan menerima pembayaran secara langsung tanpa perlu perantara, seperti bank atau prosesor pembayaran.
 - **Terdesentralisasi:** Bitcoin beroperasi pada jaringan terdesentralisasi, artinya tidak ada otoritas pusat atau kontrol atas mata uang tersebut.
-- **Aman:** Transaksi Bitcoin diamankan menggunakan kriptografi, membuat pemalsuan atau pengeluaran ganda koin menjadi sulit.
+- **Aman:** Transaksi Bitcoin diamankan menggunakan kriptografi, membuat pemalsuan atau [pengeluaran ganda](https://planb.academy/resources/glossary/double-spending-attack) koin menjadi sulit.
 - **Terbatas dalam Pasokan & Dapat Dibagi:** Pasokan bitcoin terbatas—hanya ada 21 juta koin yang ada—sementara pada saat yang sama, dapat dibagi hingga delapan tempat desimal, memungkinkan transaksi untuk sebagian kecil dari sen. Kelangkaan ini dirancang untuk memberikan nilai pada mata uang dan mencegah inflasi.
 - **Pseudoanonim:** Meskipun transaksi Bitcoin tidak sepenuhnya anonim, mereka menawarkan tingkat privasi dan pseudonimitas yang tidak ditawarkan oleh metode pembayaran tradisional.
 
@@ -578,7 +578,7 @@ Dibandingkan dengan sistem perbankan tradisional, sementara Bitcoin secara fungs
 3. memastikan semuanya terkini, berfungsi dengan lancar dan aman.
    Sementara bank melakukan peran ini secara internal, memberi mereka kontrol penuh atas proses tersebut, Bitcoin memerlukan kolaborasi dari komunitas untuk menjalankan peran tersebut. Dengan kata lain, agar Bitcoin dapat meniru proses ini dalam sistem yang terdesentralisasi, Bitcoin harus menyerahkan masing-masing tugas ini untuk memastikan bahwa tidak ada individu atau entitas terpusat yang memiliki kontrol berlebihan atas sistem.
 
-Untuk mencapai prestasi revolusioner ini, Bitcoin telah membagi tugas-tugas ini menjadi tiga peran kunci: node, penambang, dan pengembang. Di mana node memverifikasi transaksi dan menetapkan serta menegakkan aturan, penambang mengurutkan dan mengonfirmasi transaksi, dan pengembang menjaga jaringan tetap terkini dan mengusulkan peningkatan. Dengan mendistribusikan tugas-tugas ini di antara pemain kunci ini, Bitcoin telah menciptakan sistem yang aman, transparan, dan dapat dipertanggungjawabkan kepada semua pengguna.
+Untuk mencapai prestasi revolusioner ini, Bitcoin telah membagi tugas-tugas ini menjadi tiga peran kunci: [node](https://planb.academy/resources/glossary/node), [penambang](https://planb.academy/resources/glossary/miner), dan pengembang. Di mana node memverifikasi transaksi dan menetapkan serta menegakkan aturan, penambang mengurutkan dan mengonfirmasi transaksi, dan pengembang menjaga jaringan tetap terkini dan mengusulkan peningkatan. Dengan mendistribusikan tugas-tugas ini di antara pemain kunci ini, Bitcoin telah menciptakan sistem yang aman, transparan, dan dapat dipertanggungjawabkan kepada semua pengguna.
 
 Mari kita lihat masing-masing peran ini…
 
@@ -586,7 +586,7 @@ Mari kita lihat masing-masing peran ini…
 
 #### Node
 
-Node sangat penting untuk integritas dan keamanan jaringan Bitcoin. Mereka berfungsi sebagai penjaga sistem, memastikan bahwa transaksi diproses dengan akurat dan sesuai dengan aturan. Setiap node mengunduh dan memverifikasi secara lokal salinan lengkap dari blockchain, yang pada dasarnya adalah buku besar digital yang mencatat setiap transaksi yang pernah dilakukan di jaringan Bitcoin. Melalui konsensus, node setuju tentang validitas setiap transaksi dan memastikan bahwa aturan diikuti. Ini berarti bahwa node akan menolak transaksi jika seseorang mencoba menipu sistem, misalnya dengan mengirimkan lebih banyak bitcoin daripada yang sebenarnya mereka miliki atau mencoba menghabiskan bitcoin yang sama dua kali.
+Node sangat penting untuk integritas dan keamanan jaringan Bitcoin. Mereka berfungsi sebagai penjaga sistem, memastikan bahwa transaksi diproses dengan akurat dan sesuai dengan aturan. Setiap node mengunduh dan memverifikasi secara lokal salinan lengkap dari blockchain, yang pada dasarnya adalah buku besar digital yang mencatat setiap transaksi yang pernah dilakukan di jaringan Bitcoin. Melalui [konsensus](https://planb.academy/resources/glossary/consensus), node setuju tentang validitas setiap transaksi dan memastikan bahwa aturan diikuti. Ini berarti bahwa node akan menolak transaksi jika seseorang mencoba menipu sistem, misalnya dengan mengirimkan lebih banyak bitcoin daripada yang sebenarnya mereka miliki atau mencoba menghabiskan bitcoin yang sama dua kali.
 
 Untuk lebih menjelaskan ide konsensus ini, ketika pengembang mengusulkan perubahan atau peningkatan pada Bitcoin, node berperan dalam mengadopsi atau menolak perubahan ini. Mereka melakukan ini dengan memperbarui perangkat lunak mereka ke versi baru atau terus menjalankan versi lama. Proses ini sering melibatkan diskusi dan debat dalam komunitas Bitcoin untuk mencapai konsensus. Dikatakan demikian, konsensus Bitcoin tidak sehitam dan putih seperti mesin pemungutan suara. Mayoritas tidak selalu berkuasa. Jika beberapa individu tidak setuju dengan perubahan tersebut, mereka dapat meluncurkan token baru yang berasal dari Bitcoin. Sekarang, Bitcoin asli ada tanpa perubahan dan yang baru dengan perubahan. Melalui jual beli, terserah pada komunitas untuk menyoroti versi mana yang mereka anggap lebih berharga. Mekanisme konsensus ini memastikan bahwa setiap perubahan yang dibuat pada protokol Bitcoin disetujui oleh seluruh komunitas, membuatnya sulit bagi individu atau kelompok untuk memanipulasi sistem demi keuntungan mereka sendiri.
 
@@ -594,7 +594,7 @@ Penting juga untuk dicatat bahwa node hanyalah sebuah perangkat lunak yang dapat
 
 #### Penambang
 
-Di sisi lain, penambang Bitcoin memainkan peran kritis dalam pencatatan, karena mereka bertanggung jawab untuk mengurutkan dan mengonfirmasi transaksi. Untuk melakukan ini, penambang menggunakan komputer khusus untuk melakukan fungsi yang disebut hashing. Tanpa menggali ke dalam detail teknis dari hashing, anggap saja sebagai penambang yang bersaing satu sama lain untuk menambahkan transaksi baru ke blockchain, buku besar publik dari transaksi. Sebagai imbalan atas pekerjaan mereka, penambang diberi reward dengan bitcoin yang baru diciptakan dan biaya transaksi untuk setiap transaksi yang diproses. Proses penambangan dirancang untuk sulit, kompetitif, dan diacak, dengan hanya jumlah bitcoin baru yang terbatas dirilis setiap tahun, memastikan bahwa pasokan bitcoin terbatas dan nilainya dipertahankan. Tanpa penambang, transaksi tidak akan diproses.
+Di sisi lain, penambang Bitcoin memainkan peran kritis dalam pencatatan, karena mereka bertanggung jawab untuk mengurutkan dan mengonfirmasi transaksi. Untuk melakukan ini, penambang menggunakan komputer khusus untuk melakukan fungsi yang disebut [hashing](https://planb.academy/resources/glossary/hash-function). Tanpa menggali ke dalam detail teknis dari hashing, anggap saja sebagai penambang yang bersaing satu sama lain untuk menambahkan transaksi baru ke blockchain, buku besar publik dari transaksi. Sebagai imbalan atas pekerjaan mereka, penambang diberi reward dengan bitcoin yang baru diciptakan dan [biaya transaksi](https://planb.academy/resources/glossary/transaction-fees) untuk setiap transaksi yang diproses. Proses [penambangan](https://planb.academy/resources/glossary/mining) dirancang untuk sulit, kompetitif, dan diacak, dengan hanya jumlah bitcoin baru yang terbatas dirilis setiap tahun, memastikan bahwa pasokan bitcoin terbatas dan nilainya dipertahankan. Tanpa penambang, transaksi tidak akan diproses.
 Mengingat para penambang harus bersaing satu sama lain untuk memproses transaksi dan diberi imbalan untuk melakukan hal tersebut, persaingan ini meminimalkan kemungkinan bahwa satu penambang atau entitas tunggal dapat mengontrol jaringan dan memberi insentif kepada penambang untuk bertindak jujur dan mengikuti aturan. Jika seorang penambang mencoba untuk curang atau melanggar aturan, mereka berisiko kehilangan imbalan mereka, sehingga ada insentif kuat untuk bermain sesuai aturan.
 
 #### Pengembang
@@ -613,9 +613,9 @@ Untuk memahami bagaimana semua pemain ini bekerja bersama, mari kita bayangkan t
 
 #### Inisiasi Transaksi
 
-Setiap transaksi Bitcoin dimulai dengan inisiasinya ketika pengirim, dalam hal ini Alice, membuat transaksi yang menentukan penerima, Bob, dan jumlahnya, 0.00100000 bitcoin. Node yang terkait dengan dompet Alice kemudian menyiarkan transaksi ke jaringan, di mana node-node mengonfirmasi validitasnya, dan dikirim ke penambang untuk konfirmasi.
+Setiap transaksi Bitcoin dimulai dengan inisiasinya ketika pengirim, dalam hal ini Alice, membuat transaksi yang menentukan penerima, Bob, dan jumlahnya, 0.00100000 bitcoin. Node yang terkait dengan [dompet](https://planb.academy/resources/glossary/wallet) Alice kemudian menyiarkan transaksi ke jaringan, di mana node-node mengonfirmasi validitasnya, dan dikirim ke penambang untuk konfirmasi.
 
-Pada titik ini, transaksi memasuki apa yang dikenal sebagai mempool, pada dasarnya ruang tunggu untuk transaksi yang siap ditambahkan ke blockchain. Pikirkan ini sebagai daftar transaksi tertunda, seperti yang Anda lihat pada pernyataan kartu kredit Anda, yang telah diinisiasi tetapi menunggu untuk diproses. Setelah transaksi telah diinisiasi dan berada di mempool, sekarang ini berada di tangan penambang.
+Pada titik ini, transaksi memasuki apa yang dikenal sebagai [mempool](https://planb.academy/resources/glossary/mempool), pada dasarnya ruang tunggu untuk transaksi yang siap ditambahkan ke blockchain. Pikirkan ini sebagai daftar transaksi tertunda, seperti yang Anda lihat pada pernyataan kartu kredit Anda, yang telah diinisiasi tetapi menunggu untuk diproses. Setelah transaksi telah diinisiasi dan berada di mempool, sekarang ini berada di tangan penambang.
 
 #### Konfirmasi Transaksi
 
@@ -676,7 +676,7 @@ Sementara mata uang fiat tunduk pada inflasi dan secara historis terbukti kehila
 Meskipun bitcoin belum diterima secara global seperti mata uang fiat, sifat peer-to-peer, waktu transaksi yang cepat, dan biaya rendah membuatnya semakin menarik sebagai media pertukaran, terutama untuk transaksi lintas batas. Hal ini dimungkinkan oleh fakta bahwa bitcoin itu:
 
 - **Portabel:** Bitcoin, yang bersifat digital, memungkinkan transfer tanpa batas dan tanpa perantara antar individu, menjadikannya media pertukaran yang nyaman dan mudah diakses. Meskipun beberapa mata uang fiat juga menawarkan solusi digital, mereka yang berada di negara berkembang atau yang dilanda perang mungkin kesulitan mengakses layanan perbankan yang memenuhi kebutuhan ini. Sifat terdesentralisasi bitcoin membuatnya dapat diakses oleh siapa saja dengan koneksi internet, menyediakan alternatif yang layak untuk sistem perbankan tradisional di daerah dengan akses terbatas ke layanan keuangan.
-- **Dapat Dibagi:** Kemampuan bitcoin yang sangat dapat dibagi adalah salah satu keuntungan utamanya sebagai mata uang. Dengan setiap bitcoin dapat dibagi hingga delapan tempat desimal, unit terkecil, sebuah Satoshi, bernilai hanya sebagian kecil dari sen. Tergantung pada metode transaksi, yaitu lapis satu atau dua, ini membuat bitcoin sangat dapat disesuaikan untuk transaksi berukuran apa pun, dari pembelian kecil hingga investasi besar.
+- **Dapat Dibagi:** Kemampuan bitcoin yang sangat dapat dibagi adalah salah satu keuntungan utamanya sebagai mata uang. Dengan setiap bitcoin dapat dibagi hingga delapan tempat desimal, unit terkecil, sebuah [Satoshi](https://planb.academy/resources/glossary/satoshi-sat), bernilai hanya sebagian kecil dari sen. Tergantung pada metode transaksi, yaitu lapis satu atau dua, ini membuat bitcoin sangat dapat disesuaikan untuk transaksi berukuran apa pun, dari pembelian kecil hingga investasi besar.
 - **Diterima:** Meskipun penerimaan bitcoin belum universal, adopsinya yang meningkat oleh pedagang, institusi, dan individu di seluruh dunia menunjukkan bahwa bitcoin semakin diterima sebagai bentuk pembayaran yang sah.
 
 ### Unit Akun
@@ -776,7 +776,7 @@ Mari kita alihkan fokus kita pada apa yang harus dilakukan setelah Anda mendapat
 
 ### Menjaga Keamanan bitcoin Anda dengan Aman
 
-Apa yang membuat Bitcoin revolusioner adalah bahwa, untuk pertama kalinya dalam sejarah, kita dapat mengambil hak asuh sendiri atas aset digital. Prestasi ini tidak bisa dilebih-lebihkan! Sama seperti kita dapat menyimpan uang tunai di bawah bantal kita, kita dapat melakukan hal yang sama dengan bitcoin, tetapi secara digital. Namun, tingkat kontrol baru ini atas uang kita datang dengan tanggung jawab baru. Untuk menjaga bitcoin kita aman, kita harus belajar cara mengamankannya dengan benar. Ini berarti mengambil langkah-langkah untuk melindungi dari kehilangan, pencurian, dan upaya peretasan.
+Apa yang membuat Bitcoin revolusioner adalah bahwa, untuk pertama kalinya dalam sejarah, kita dapat mengambil [hak asuh sendiri](https://planb.academy/resources/glossary/selfcustody) atas aset digital. Prestasi ini tidak bisa dilebih-lebihkan! Sama seperti kita dapat menyimpan uang tunai di bawah bantal kita, kita dapat melakukan hal yang sama dengan bitcoin, tetapi secara digital. Namun, tingkat kontrol baru ini atas uang kita datang dengan tanggung jawab baru. Untuk menjaga bitcoin kita aman, kita harus belajar cara mengamankannya dengan benar. Ini berarti mengambil langkah-langkah untuk melindungi dari kehilangan, pencurian, dan upaya peretasan.
 
 #### Di Mana Menyimpan bitcoin Anda
 
@@ -790,9 +790,9 @@ Salah satu contoh umum dari dompet kustodial adalah akun bursa. Ketika Anda memb
 Ada juga banyak solusi dompet kustodial lainnya yang tersedia untuk perangkat seluler yang memberi Anda akses mudah ke bitcoin Anda. Dompet ini biasanya ramah pengguna dan menawarkan cara sederhana untuk mengelola bitcoin Anda, tetapi mereka masih memegang kunci ke bitcoin Anda.
 
 **Dompet Non-kustodial (a.k.a. hak asuh sendiri)**
-Dompet non-kustodial adalah jenis dompet Bitcoin di mana Anda adalah satu-satunya wali dari dana Anda, yang berarti Anda memiliki kontrol penuh atas kunci pribadi Anda. Kunci pribadi seperti kata sandi untuk dompet Anda dan digunakan untuk menandatangani dan mengotorisasi transaksi. Tanpa mereka, Anda tidak dapat mengakses atau mentransfer bitcoin Anda.
+Dompet non-kustodial adalah jenis dompet Bitcoin di mana Anda adalah satu-satunya wali dari dana Anda, yang berarti Anda memiliki kontrol penuh atas [kunci pribadi](https://planb.academy/resources/glossary/private-key) Anda. Kunci pribadi seperti kata sandi untuk dompet Anda dan digunakan untuk menandatangani dan mengotorisasi transaksi. Tanpa mereka, Anda tidak dapat mengakses atau mentransfer bitcoin Anda.
 
-Dompet non-kustodial menawarkan tingkat keamanan dan privasi yang lebih tinggi daripada dompet kustodial karena Anda adalah satu-satunya yang bertanggung jawab atas keamanan dana Anda. Contoh dompet non-kustodial termasuk dompet perangkat keras seperti [Coldcard](https://store.coinkite.com/store/coldcard) dan [Trezor](https://trezor.io/), yang merupakan perangkat fisik yang menyimpan kunci pribadi Anda secara offline dan memberikan lapisan keamanan tambahan. Dompet non-kustodial populer lainnya adalah dompet perangkat lunak seperti [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), dan [Blockstream Green](https://blockstream.com/green/), yang dapat diunduh dan diinstal pada komputer atau perangkat seluler Anda.
+Dompet non-kustodial menawarkan tingkat keamanan dan privasi yang lebih tinggi daripada dompet kustodial karena Anda adalah satu-satunya yang bertanggung jawab atas keamanan dana Anda. Contoh dompet non-kustodial termasuk [dompet perangkat keras](https://planb.academy/resources/glossary/hardware-wallet) seperti [Coldcard](https://store.coinkite.com/store/coldcard) dan [Trezor](https://trezor.io/), yang merupakan perangkat fisik yang menyimpan kunci pribadi Anda secara offline dan memberikan lapisan keamanan tambahan. Dompet non-kustodial populer lainnya adalah dompet perangkat lunak seperti [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), dan [Blockstream Green](https://blockstream.com/green/), yang dapat diunduh dan diinstal pada komputer atau perangkat seluler Anda.
 
 *Meskipun kami tidak dapat merekomendasikan dompet tertentu, kami sangat menyarankan untuk mengambil kendali atas bitcoin Anda melalui hak asuh sendiri atau hak asuh kolaboratif, yang melibatkan pemilihan dompet yang sesuai dengan kebutuhan dan preferensi Anda. Sangat penting untuk melakukan penelitian menyeluruh sebelum memutuskan dompet untuk memastikan bahwa itu sesuai dengan kebutuhan keamanan dan kemudahan penggunaan Anda.*
 Meskipun dompet kustodian mungkin tampak nyaman, mereka datang dengan risiko yang signifikan. Dengan memberikan hak asuh kunci privat Anda kepada pihak ketiga, Anda secara efektif memberikan mereka kontrol atas dana Anda. Jika kustodian menjadi bangkrut, diretas, atau ditutup, Anda bisa kehilangan akses ke bitcoin Anda. Dan ini telah terjadi pada banyak kesempatan, dengan contoh profil tinggi termasuk peretasan Mt. Gox dan QuadrigaCX yang mengakibatkan kehilangan dana pelanggan, atau FTX, Voyager, BlockFi, dan Celsius mengalami kebangkrutan yang menghancurkan, yang mengakibatkan kehilangan dana pelanggan mereka. Terutama untuk tabungan, mempraktikkan hak asuh sendiri dan mengambil tanggung jawab untuk melindungi bitcoin Anda sangat penting.
@@ -801,7 +801,7 @@ Meskipun dompet kustodian mungkin tampak nyaman, mereka datang dengan risiko yan
 
 Setelah Anda memutuskan dompet, kesenangan dan permainan belum berakhir. Sekarang saatnya untuk meminimalkan risiko kehilangan. Untuk melindungi bitcoin Anda, pertimbangkan langkah-langkah ini setelah memilih dompet Anda:
 
-1. Pertama dan terutama, cadangkan dompet Anda saat mengambil hak asuh sendiri. Dompet perangkat keras dilengkapi dengan frasa pemulihan seed, serangkaian kata yang dapat digunakan untuk memulihkan kunci privat Anda jika perangkat Anda hilang atau rusak. Buat salinan fisik, seperti pelat benih logam, dari [frasa seed](https://coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/) ini dan simpan di tempat yang aman. Sangat penting untuk menjaga frasa pemulihan seed ini aman. JANGAN PERNAH membagikannya dengan siapa pun.
+1. Pertama dan terutama, cadangkan dompet Anda saat mengambil hak asuh sendiri. Dompet perangkat keras dilengkapi dengan [frasa pemulihan](https://planb.academy/resources/glossary/recovery-phrase) seed, serangkaian kata yang dapat digunakan untuk memulihkan kunci privat Anda jika perangkat Anda hilang atau rusak. Buat salinan fisik, seperti pelat benih logam, dari [frasa seed](https://coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/) ini dan simpan di tempat yang aman. Sangat penting untuk menjaga frasa pemulihan seed ini aman. JANGAN PERNAH membagikannya dengan siapa pun.
 2. Saat melindungi jumlah bitcoin yang besar yang melebihi ambang batas yang tidak ingin Anda kehilangan, penting untuk menjelajahi opsi perencanaan warisan untuk kejadian tak terduga dari kematian Anda. Ini memastikan bahwa keluarga dan orang yang Anda cintai dapat mengakses dan mengelola bitcoin Anda secara efektif.
 3. Waspada terhadap upaya phishing dan penipuan lainnya. Penipu sering mencoba menipu Anda untuk memberi mereka akses ke bitcoin Anda dengan menyamar sebagai perusahaan atau individu yang terpercaya. Tidak ada perusahaan yang bereputasi yang akan pernah meminta kunci privat Anda, jadi jangan pernah membagikan kunci privat Anda dengan siapa pun, dan selalu verifikasi keaslian situs web atau individu sebelum mengirim bitcoin.
 

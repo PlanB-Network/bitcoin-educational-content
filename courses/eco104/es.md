@@ -138,7 +138,7 @@ Para que el dinero mantenga su poder adquisitivo a lo largo del tiempo, debe ser
 
 **Escaso:** Cuando el dinero ofrece escasez, nos referimos a una oferta disponible limitada. Esto es importante para un almacén de valor porque si hay demasiado de una moneda particular, puede disminuir en valor. Una moneda escasa es más probable que mantenga su valor a lo largo del tiempo, haciéndola un almacén de riqueza confiable. Piénsalo como un artículo de edición limitada: si solo hay unos pocos, son más valiosos y buscados que si hubiera un suministro ilimitado. De manera similar, una moneda escasa es más probable que mantenga su valor y su poder adquisitivo, haciéndola una mejor opción para almacenar riqueza.
 
-**Inmutable:** Para que el dinero ofrezca inmutabilidad, debería ser impervio a la reversión o alteración una vez que se ha realizado una transacción. Esta es una característica crucial de un almacén de valor confiable porque asegura que el valor del dinero no esté sujeto a cambios arbitrarios o manipulaciones. Por ejemplo, si compras algo con efectivo, no puedes cambiar de opinión y revertir la transacción más tarde. De manera similar, con criptomonedas como Bitcoin, una vez que una transacción ha sido registrada en la blockchain, no se puede alterar o revertir. Esta inmutabilidad proporciona un sentido de seguridad y confiabilidad tanto para compradores como vendedores en transacciones financieras.
+**Inmutable:** Para que el dinero ofrezca inmutabilidad, debería ser impervio a la reversión o alteración una vez que se ha realizado una transacción. Esta es una característica crucial de un almacén de valor confiable porque asegura que el valor del dinero no esté sujeto a cambios arbitrarios o manipulaciones. Por ejemplo, si compras algo con efectivo, no puedes cambiar de opinión y revertir la transacción más tarde. De manera similar, con [criptomonedas](https://planb.academy/resources/glossary/cryptocurrency) como Bitcoin, una vez que una transacción ha sido registrada en la [blockchain](https://planb.academy/resources/glossary/blockchain), no se puede alterar o revertir. Esta inmutabilidad proporciona un sentido de seguridad y confiabilidad tanto para compradores como vendedores en transacciones financieras.
 
 #### Medio de Intercambio
 
@@ -153,13 +153,13 @@ Para que el dinero sea un intermediario efectivo para comprar y vender bienes y 
 
 Para que el dinero se use como una medida común del valor de bienes y servicios, debe ser:
 
-**Fungible:** Cuando se dice que el dinero es fungible, cada unidad de moneda es intercambiable con cualquier otra unidad. En términos más simples, significa que el dinero es uniforme e idéntico, independientemente de dónde provino o quién lo posee. Por ejemplo, si le debes a alguien \$10 y le das un billete de \$10, no importa si el billete vino de tu billetera o de la billetera de alguien más. Mientras sea un billete genuino de \$10, se considera que tiene igual valor. El concepto de fungibilidad es importante porque permite que el dinero funcione efectivamente como una unidad común de medición, haciendo las transacciones más simples y eficientes.
+**[Fungible](https://planb.academy/resources/glossary/fungibility):** Cuando se dice que el dinero es fungible, cada unidad de moneda es intercambiable con cualquier otra unidad. En términos más simples, significa que el dinero es uniforme e idéntico, independientemente de dónde provino o quién lo posee. Por ejemplo, si le debes a alguien \$10 y le das un billete de \$10, no importa si el billete vino de tu billetera o de la billetera de alguien más. Mientras sea un billete genuino de \$10, se considera que tiene igual valor. El concepto de fungibilidad es importante porque permite que el dinero funcione efectivamente como una unidad común de medición, haciendo las transacciones más simples y eficientes.
 
 Conclusión.
 
 El dinero es una parte crucial y fascinante de nuestras vidas diarias. Sirve como intermediario, permitiéndonos intercambiar bienes y servicios entre nosotros. Sin embargo, no todo el dinero se crea igual. Algunas formas de dinero son superiores como reserva de valor, como la moneda de oro, mientras que otras pueden ser más efectivas como medio de intercambio, como el dólar estadounidense. Sin embargo, cuando estas funciones se cumplen en su totalidad, nos permite realizar transacciones con confianza y facilidad, lo que no solo nos ayuda como individuos sino que fomenta un mayor crecimiento económico y prosperidad para nuestra economía.
 
-En los módulos siguientes, exploraremos dos formas populares de dinero: Bitcoin y stablecoins. Al examinarlos a través del contenido discutido en esta sección, exploraremos cómo cumplen las diversas funciones de la moneda y cómo pueden beneficiar enormemente a la sociedad.
+En los módulos siguientes, exploraremos dos formas populares de dinero: Bitcoin y [stablecoins](https://planb.academy/resources/glossary/stablecoin). Al examinarlos a través del contenido discutido en esta sección, exploraremos cómo cumplen las diversas funciones de la moneda y cómo pueden beneficiar enormemente a la sociedad.
 
 Desde el trueque hasta la invención de monedas y billetes, el dinero ha experimentado una serie de transformaciones para adaptarse a las necesidades siempre cambiantes de la sociedad. A medida que avanzamos al próximo capítulo, cambiemos de rumbo, dirigiendo nuestra atención hacia la evolución del dinero.
 
@@ -184,8 +184,8 @@ Con esto en mente, echemos un vistazo a las formas primarias de intercambio que 
 2. **Dinero mercancía:** El intercambio de una mercancía acordada que se considera de valor, como la sal o las conchas marinas.
 3. **Dinero acuñado:** El uso de metales preciosos, como el oro o la plata, en forma de monedas como medio de intercambio.
 4. **Dinero de papel respaldado por metal:** Dinero de papel respaldado por una mercancía física, como el oro o la plata.
-5. **Dinero Fiat:** Moneda que no está respaldada por una mercancía física sino que tiene valor porque un gobierno la declara como moneda de curso legal.
-6. **Criptomonedas:** Tokens digitales o virtuales que utilizan criptografía para asegurar transacciones y controlar la creación de nuevas unidades.
+5. **[Dinero Fiat](https://planb.academy/resources/glossary/fiat):** Moneda que no está respaldada por una mercancía física sino que tiene valor porque un gobierno la declara como moneda de curso legal.
+6. **Criptomonedas:** Tokens digitales o virtuales que utilizan [criptografía](https://planb.academy/resources/glossary/cryptography) para asegurar transacciones y controlar la creación de nuevas unidades.
 
 Con estos en mente, examinemos cada uno para obtener una comprensión más holística de cómo llegamos a donde estamos hoy.
 
@@ -218,7 +218,7 @@ Para resolver estos problemas, la gente comenzó a buscar commodities que tuvier
 ### Moneda Acuñada
 
 Aunque técnicamente todavía es dinero commodity, a medida que los humanos continuaron su búsqueda de un dinero superior, se toparon con un héroe inesperado: los metales preciosos. No solo estos metales eran bellos y codiciados por su uso en joyería, sino que también cumplían con muchos de los requisitos para lo que hace a un excelente activo monetario. Su escasez globalizada en la naturaleza y la significativa inversión requerida para minar, refinar y almacenar estos metales les dieron una prima por encima de otras formas anteriores de dinero.
-Además, metales como el oro eran uno de los elementos más inertes en la tabla periódica, lo que los hacía extremadamente duraderos y resistentes a la corrosión. A medida que la tecnología progresaba, el oro y la plata sufrían un proceso transformador, siendo fundidos, moldeados y acuñados en monedas, aumentando la facilidad de intercambio. El valor estandarizado y las marcas en estas monedas disminuyeron notablemente los costos asociados con verificar el peso y la pureza de los metales preciosos. Pero, como sucede con la mayoría de las cosas buenas, siempre hay alguien que encuentra la manera de sacar ventaja. El recorte de monedas se volvió rampante, con individuos y gobiernos recortando partes de las monedas para reducir su peso de metal precioso mientras intentaban retener su valor nominal original. Esto llevó a la primera forma de devaluación de la moneda, lo que condujo a la inflación.
+Además, metales como el oro eran uno de los elementos más inertes en la tabla periódica, lo que los hacía extremadamente duraderos y resistentes a la corrosión. A medida que la tecnología progresaba, el oro y la plata sufrían un proceso transformador, siendo fundidos, moldeados y acuñados en monedas, aumentando la facilidad de intercambio. El valor estandarizado y las marcas en estas monedas disminuyeron notablemente los costos asociados con verificar el peso y la pureza de los metales preciosos. Pero, como sucede con la mayoría de las cosas buenas, siempre hay alguien que encuentra la manera de sacar ventaja. El recorte de monedas se volvió rampante, con individuos y gobiernos recortando partes de las monedas para reducir su peso de metal precioso mientras intentaban retener su valor nominal original. Esto llevó a la primera forma de devaluación de la moneda, lo que condujo a la [inflación](https://planb.academy/resources/glossary/inflation).
 
 Para empeorar las cosas, a medida que el mundo se volvía más global, el oro y la plata se volvían cada vez más engorrosos para transportar y transaccionar, especialmente para los marineros.
 
@@ -232,7 +232,7 @@ Piénsalo: No más cargar pesadas bolsas de oro o preocuparse por el robo. En su
 
 Pero como con cualquier nueva tecnología, comenzaron a surgir problemas.
 
-Primero, los almacenes de oro, reconociendo que sus clientes raramente volvían para retirar el oro que los recibos reclamaban, comenzaron a emitir recibos de papel sin respaldo de oro, lo que llevó a la creación encubierta del primer sistema bancario de reserva fraccionaria (los emisores solo mantienen una fracción de los depósitos de los clientes como reservas y prestan el resto). E incluso cuando los países intentaron respaldar sus monedas con oro, a menudo abusaban del sistema, lo que llevaba a la agitación económica.
+Primero, los almacenes de oro, reconociendo que sus clientes raramente volvían para retirar el oro que los recibos reclamaban, comenzaron a emitir recibos de papel sin respaldo de oro, lo que llevó a la creación encubierta del primer sistema bancario de [reserva fraccionaria](https://planb.academy/resources/glossary/fractional-reserves) (los emisores solo mantienen una fracción de los depósitos de los clientes como reservas y prestan el resto). E incluso cuando los países intentaron respaldar sus monedas con oro, a menudo abusaban del sistema, lo que llevaba a la agitación económica.
 
 Segundo, el dinero de papel respaldado por metal no era inmune a la falsificación. Incluso con características de seguridad, los falsificadores aún podían crear notas falsas que podrían ser difíciles de detectar.
 
@@ -459,8 +459,8 @@ Al final de este módulo, tendrás una sólida comprensión de los orígenes, ca
 
 ### ¿Qué es esto llamado Bitcoin?
 
-Bitcoin es una moneda digital descentralizada sin confianza y sin permisos. Eso puede sonar confuso, así que permítenos explicarlo. Dado que ningún gobierno o institución controla Bitcoin, no tienes que confiar en terceros ni requerir permiso para usarlo. En cambio, es mantenido por una red de usuarios alrededor del mundo que validan y procesan transacciones en algo llamado blockchain.
-Piensa en la blockchain como un gran libro de contabilidad o una hoja de cálculo digital que mantiene un registro de cada transacción realizada a través de Bitcoin. Como cualquier persona en el mundo con una conexión a internet puede monitorear, validar o procesar transacciones, esto asegura que la moneda sea segura y no pueda ser falsificada.
+Bitcoin es una moneda digital descentralizada sin confianza y sin permisos. Eso puede sonar confuso, así que permítenos explicarlo. Dado que ningún gobierno o institución controla Bitcoin, no tienes que confiar en terceros ni requerir permiso para usarlo. En cambio, es mantenido por una red de usuarios alrededor del mundo que validan y procesan [transacciones](https://planb.academy/resources/glossary/transaction-tx) en algo llamado blockchain.
+Piensa en la blockchain como un gran [libro de contabilidad](https://planb.academy/resources/glossary/ledger) o una hoja de cálculo digital que mantiene un registro de cada transacción realizada a través de Bitcoin. Como cualquier persona en el mundo con una conexión a internet puede monitorear, validar o procesar transacciones, esto asegura que la moneda sea segura y no pueda ser falsificada.
 
 Bitcoin también es único en que tiene un suministro limitado. Solo se crearán 21 millones de bitcoin, lo que le otorga escasez, como el oro y otros metales preciosos. Esta escasez es parte de lo que le da valor al bitcoin.
 
@@ -474,26 +474,26 @@ Antes de la creación de Bitcoin, un puñado de visionarios sentaron las bases p
 
 #### Los Cypherpunks
 
-Los Cypherpunks son un grupo de rebeldes conocedores de la tecnología que se unieron en los años 80 para luchar por la libertad individual y las libertades civiles utilizando una herramienta poderosa: la criptografía. Creían que la capacidad de encriptar información daría a las personas el poder de recuperar el control de las autoridades centralizadas. ¡Imagina poder mantener tu comunicación en línea privada y segura de ojos curiosos - eso es por lo que estaban luchando!
+Los [Cypherpunks](https://planb.academy/resources/glossary/cypherpunks) son un grupo de rebeldes conocedores de la tecnología que se unieron en los años 80 para luchar por la libertad individual y las libertades civiles utilizando una herramienta poderosa: la criptografía. Creían que la capacidad de encriptar información daría a las personas el poder de recuperar el control de las autoridades centralizadas. ¡Imagina poder mantener tu comunicación en línea privada y segura de ojos curiosos - eso es por lo que estaban luchando!
 
 Uno de los resultados más notables de los Cypherpunks fue la lista de correo de los Cypherpunks, establecida en 1992. A través de la lista, los individuos podían compartir ideas y discutir sobre tecnologías criptográficas, conceptos de moneda digital y iniciativas enfocadas en la privacidad. Esto llevó a la formación de una comunidad de individuos con ideas afines, incluidos desarrolladores, activistas e investigadores.
 
-Hoy en día, las ideas visionarias de los cypherpunks continúan dando forma a la evolución de nuestro panorama digital, empoderando a los individuos con un mayor control sobre sus datos y comunicaciones. Uno de sus legados más significativos es Bitcoin, ya que se basa en gran medida en Hashcash, una tecnología desarrollada por el cypherpunk Adam Back en 1997 para combatir el spam por correo electrónico.
+Hoy en día, las ideas visionarias de los cypherpunks continúan dando forma a la evolución de nuestro panorama digital, empoderando a los individuos con un mayor control sobre sus datos y comunicaciones. Uno de sus legados más significativos es Bitcoin, ya que se basa en gran medida en [Hashcash](https://planb.academy/resources/glossary/hashcash), una tecnología desarrollada por el cypherpunk Adam Back en 1997 para combatir el spam por correo electrónico.
 
 Otros Cypherpunks notables incluyen:
 
 - **Timothy May:** Miembro fundador de la lista de correo de los Cypherpunks y escribió extensamente sobre criptografía y privacidad a lo largo de los 90 y principios de los 2000. Sus escritos sentaron las bases para discusiones sobre privacidad digital y sistemas de efectivo electrónico.
 - **Eric Hughes:** Otro miembro fundador de los Cypherpunks y coautor del "Manifiesto Cypherpunk", que enfatizaba la importancia de la privacidad y el anonimato en la era digital.
-- **Whitfield Diffie y Martin Hellman:** Desarrollaron el concepto de criptografía de clave pública, revolucionando la comunicación segura en internet.
+- **Whitfield Diffie y Martin Hellman:** Desarrollaron el concepto de criptografía de [clave pública](https://planb.academy/resources/glossary/public-key), revolucionando la comunicación segura en internet.
 - **Julian Assange:** Fundador de WikiLeaks, que publica información clasificada y sensible para promover la transparencia y la rendición de cuentas.
-- **Bram Cohen:** Creó BitTorrent, un protocolo de intercambio de archivos peer-to-peer que descentralizó la distribución de contenido y habilitó descargas más rápidas.
+- **Bram Cohen:** Creó BitTorrent, un protocolo de intercambio de archivos [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) que descentralizó la distribución de contenido y habilitó descargas más rápidas.
 - **John Gilmore:** Un emprendedor y libertario que cofundó la Electronic Frontier Foundation (EFF) y abogó por los derechos digitales y la privacidad en línea.
 
 ...y la lista continúa.
 
 #### David Chaum (El Padre de la Moneda Digital)
 
-A principios de los años 80, David Chaum revolucionó el mundo de las monedas digitales con su innovador trabajo sobre "firmas ciegas". Esto permitió firmar criptográficamente un mensaje sin conocer su contenido, asegurando la privacidad y seguridad en las transacciones digitales. En 1982, David Chaum conceptualizó Ecash, un sistema de efectivo electrónico anónimo que utilizaba criptografía, el cual fue implementado más tarde a través de su corporación Digicash.
+A principios de los años 80, David Chaum revolucionó el mundo de las monedas digitales con su innovador trabajo sobre "[firmas ciegas](https://planb.academy/resources/glossary/blind-signature)". Esto permitió firmar criptográficamente un mensaje sin conocer su contenido, asegurando la privacidad y seguridad en las transacciones digitales. En 1982, David Chaum conceptualizó [Ecash](https://planb.academy/resources/glossary/ecash-david-chaum), un sistema de efectivo electrónico anónimo que utilizaba criptografía, el cual fue implementado más tarde a través de su corporación Digicash.
 
 Aunque Digicash se utilizó como un sistema de micropagos en un banco estadounidense de 1995 a 1998, Chaum finalmente se declaró en bancarrota. Dicho esto, sus ideas innovadoras inspiraron a otros a explorar las monedas digitales, allanando el camino para el desarrollo de criptomonedas modernas, como Bitcoin.
 
@@ -507,7 +507,7 @@ A pesar de su fracaso final, E-gold fue un paso crucial en la evolución de las 
 
 Dado el ascenso meteórico de Bitcoin, muchas personas creen erróneamente que fue la primera moneda digital que existió. Sin embargo, como esperamos que ahora sea evidente, esta suposición está lejos de ser cierta. La aparición de Bitcoin fue el resultado de décadas de investigación y experimentación por pioneros en el campo de la criptografía. Sin las contribuciones de los individuos mencionados anteriormente y muchos otros, Bitcoin podría nunca haber sido creado. Aunque estas primeras monedas digitales finalmente fracasaron, Bitcoin aprendió de sus errores, convirtiéndose finalmente en la moneda digital que conocemos hoy.
 
-Dicho esto, si no fuera por un individuo... o grupo (no lo sabemos con certeza), Bitcoin no existiría. Y ese es Satoshi Nakamoto. El enigmático creador.
+Dicho esto, si no fuera por un individuo... o grupo (no lo sabemos con certeza), Bitcoin no existiría. Y ese es [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi). El enigmático creador.
 
 #### Satoshi Nakamoto
 
@@ -521,7 +521,7 @@ La misteriosa desaparición de Satoshi Nakamoto ha llevado a varias teorías sob
 
 Aunque no podamos saber quién es Satoshi, tenemos una imagen más clara de sus intenciones detrás de Bitcoin. Creó Bitcoin como respuesta a la Crisis Financiera Global de 2008 y la desconfianza resultante alrededor de los sistemas bancarios tradicionales y las monedas controladas por el gobierno.
 
-En sus comunicaciones en línea, expresó su cinismo hacia la naturaleza centralizada del dinero y la banca, destacando los peligros de confiar en los bancos centrales para no devaluar su moneda. Caso en punto, escrito en el primer bloque de Bitcoin, está:
+En sus comunicaciones en línea, expresó su cinismo hacia la naturaleza centralizada del dinero y la banca, destacando los peligros de confiar en los bancos centrales para no devaluar su moneda. Caso en punto, escrito en el primer [bloque](https://planb.academy/resources/glossary/block) de Bitcoin, está:
 
 "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks."
 
@@ -538,7 +538,7 @@ Para resumir, Bitcoin ha revolucionado la forma en que pensamos sobre el dinero 
 
 - **Peer-to-Peer:** Bitcoin permite a los individuos enviar y recibir pagos directamente sin la necesidad de intermediarios, como bancos o procesadores de pago.
 - **Descentralizado:** Bitcoin opera en una red descentralizada, lo que significa que no hay una autoridad central o control sobre la moneda.
-- **Seguro:** Las transacciones de Bitcoin están aseguradas usando criptografía, lo que hace difícil la falsificación o el doble gasto de monedas.
+- **Seguro:** Las transacciones de Bitcoin están aseguradas usando criptografía, lo que hace difícil la falsificación o el [doble gasto](https://planb.academy/resources/glossary/double-spending-attack) de monedas.
 - **Limitado en suministro y divisible:** El suministro de bitcoin es finito, con solo 21 millones de monedas en existencia, mientras que al mismo tiempo, es divisible hasta ocho lugares decimales, permitiendo transacciones por una fracción de centavo. Esta escasez está diseñada para darle valor a la moneda y prevenir la inflación.
 - **Pseudoanónimo:** Aunque las transacciones de Bitcoin no son completamente anónimas, ofrecen un nivel de privacidad y pseudonimato que los métodos de pago tradicionales no ofrecen.
 
@@ -567,7 +567,7 @@ Cuando se compara con los sistemas bancarios tradicionales, aunque Bitcoin funci
 3. asegurar que todo esté actualizado, funcionando de manera fluida y segura.
    Mientras que los bancos realizan estas funciones internamente, otorgándoles control completo sobre el proceso, Bitcoin requiere la colaboración de la comunidad para desempeñar estos roles. En otras palabras, para que Bitcoin replique estos procesos en un sistema descentralizado, debe externalizar cada una de estas tareas para asegurar que ningún individuo o entidad centralizada tenga un control desproporcionado sobre el sistema.
 
-Para lograr esta hazaña revolucionaria, Bitcoin ha dividido estas tareas en tres roles clave: nodos, mineros y desarrolladores. Donde los nodos verifican transacciones y establecen y hacen cumplir las reglas, los mineros ordenan y confirman transacciones, y los desarrolladores mantienen la red actualizada y proponen mejoras. Distribuyendo estas tareas entre estos actores clave, Bitcoin ha creado un sistema que es seguro, transparente y responsable ante todos los usuarios.
+Para lograr esta hazaña revolucionaria, Bitcoin ha dividido estas tareas en tres roles clave: [nodos](https://planb.academy/resources/glossary/node), [mineros](https://planb.academy/resources/glossary/miner) y desarrolladores. Donde los nodos verifican transacciones y establecen y hacen cumplir las reglas, los mineros ordenan y confirman transacciones, y los desarrolladores mantienen la red actualizada y proponen mejoras. Distribuyendo estas tareas entre estos actores clave, Bitcoin ha creado un sistema que es seguro, transparente y responsable ante todos los usuarios.
 
 Por lo tanto, echemos un vistazo a cada uno de estos roles...
 
@@ -575,7 +575,7 @@ Por lo tanto, echemos un vistazo a cada uno de estos roles...
 
 #### Nodos
 
-Los nodos son esenciales para la integridad y seguridad de la red Bitcoin. Actúan como los guardianes del sistema, asegurando que las transacciones se procesen de manera precisa y de acuerdo con las reglas. Cada nodo descarga y verifica localmente una copia completa de la blockchain, que es esencialmente un libro de contabilidad digital que registra cada transacción realizada en la red Bitcoin. A través del consenso, los nodos acuerdan la validez de cada transacción y aseguran que se sigan las reglas. Esto significa que los nodos rechazarán la transacción si alguien intenta engañar al sistema, por ejemplo, enviando más bitcoin de los que realmente tiene o intentando gastar el mismo bitcoin dos veces.
+Los nodos son esenciales para la integridad y seguridad de la red Bitcoin. Actúan como los guardianes del sistema, asegurando que las transacciones se procesen de manera precisa y de acuerdo con las reglas. Cada nodo descarga y verifica localmente una copia completa de la blockchain, que es esencialmente un libro de contabilidad digital que registra cada transacción realizada en la red Bitcoin. A través del [consenso](https://planb.academy/resources/glossary/consensus), los nodos acuerdan la validez de cada transacción y aseguran que se sigan las reglas. Esto significa que los nodos rechazarán la transacción si alguien intenta engañar al sistema, por ejemplo, enviando más bitcoin de los que realmente tiene o intentando gastar el mismo bitcoin dos veces.
 
 Para profundizar en esta idea de consenso, cuando los desarrolladores proponen cambios o mejoras a Bitcoin, los nodos juegan un papel en adoptar o rechazar estos cambios. Lo hacen actualizando su software a la nueva versión o continuando con la versión antigua. Este proceso a menudo implica discusiones y debates dentro de la comunidad Bitcoin para alcanzar un consenso. Dicho esto, el consenso de Bitcoin no es tan blanco y negro como una máquina de votación. La mayoría no necesariamente gobierna. Si algunos individuos no están de acuerdo con el cambio, pueden lanzar un nuevo token derivado de Bitcoin. Ahora, el Bitcoin original existe sin el cambio y uno nuevo con el cambio. A través de la compra y venta, depende de la comunidad destacar qué versión consideran más valiosa. Este mecanismo de consenso asegura que cualquier cambio realizado en el protocolo de Bitcoin sea acordado por toda la comunidad, dificultando que cualquier individuo o grupo manipule el sistema para su propio beneficio.
 
@@ -583,7 +583,7 @@ También es importante señalar que un nodo es simplemente un software que cualq
 
 #### Mineros
 
-Los mineros de Bitcoin, por otro lado, juegan un papel crítico en el mantenimiento de registros, ya que son responsables de ordenar y confirmar transacciones. Para hacer esto, los mineros usan computadoras especializadas para realizar una función llamada hashing. Sin entrar en detalles técnicos del hashing, piénselo como mineros compitiendo entre sí para agregar nuevas transacciones a la blockchain, el libro de contabilidad público de transacciones. A cambio de su trabajo, los mineros son recompensados con bitcoin recién creado y las tarifas de transacción por cualquier transacción procesada. El proceso de minería está diseñado para ser difícil, competitivo y aleatorizado, con solo un número limitado de nuevos bitcoin liberados cada año, asegurando que el suministro de bitcoin sea limitado y su valor se mantenga. Sin mineros, las transacciones no serían procesadas.
+Los mineros de Bitcoin, por otro lado, juegan un papel crítico en el mantenimiento de registros, ya que son responsables de ordenar y confirmar transacciones. Para hacer esto, los mineros usan computadoras especializadas para realizar una función llamada [hashing](https://planb.academy/resources/glossary/hash-function). Sin entrar en detalles técnicos del hashing, piénselo como mineros compitiendo entre sí para agregar nuevas transacciones a la blockchain, el libro de contabilidad público de transacciones. A cambio de su trabajo, los mineros son recompensados con bitcoin recién creado y las [tarifas de transacción](https://planb.academy/resources/glossary/transaction-fees) por cualquier transacción procesada. El proceso de [minería](https://planb.academy/resources/glossary/mining) está diseñado para ser difícil, competitivo y aleatorizado, con solo un número limitado de nuevos bitcoin liberados cada año, asegurando que el suministro de bitcoin sea limitado y su valor se mantenga. Sin mineros, las transacciones no serían procesadas.
 Dado que los mineros tienen que competir entre sí para procesar transacciones y son recompensados por hacerlo, esta competencia minimiza la posibilidad de que cualquier minero o entidad individual pueda controlar la red e incentiva a los mineros a actuar honestamente y seguir las reglas. Si un minero intenta hacer trampa o romper las reglas, corre el riesgo de perder su recompensa, por lo que hay un fuerte incentivo para jugar según las reglas.
 
 #### Desarrolladores
@@ -602,9 +602,9 @@ Para entender cómo todos estos actores trabajan juntos, imaginemos una simple t
 
 #### Iniciación de la Transacción
 
-Cada transacción de Bitcoin comienza con su iniciación, cuando el remitente, en este caso Alice, crea una transacción especificando al destinatario, Bob, y la cantidad, 0.00100000 bitcoin. El nodo asociado con la billetera de Alice luego transmite la transacción a la red, donde los nodos confirman su validez, y se envía a los mineros para su confirmación.
+Cada transacción de Bitcoin comienza con su iniciación, cuando el remitente, en este caso Alice, crea una transacción especificando al destinatario, Bob, y la cantidad, 0.00100000 bitcoin. El nodo asociado con la [billetera](https://planb.academy/resources/glossary/wallet) de Alice luego transmite la transacción a la red, donde los nodos confirman su validez, y se envía a los mineros para su confirmación.
 
-En este punto, la transacción entra en lo que se conoce como el mempool, esencialmente una sala de espera para transacciones listas para ser agregadas a la blockchain. Piénsalo como una lista de transacciones pendientes, muy parecido a las que ves en tu estado de cuenta de tarjeta de crédito, que han sido iniciadas pero están esperando ser procesadas. Una vez que la transacción ha sido iniciada y está sentada en el mempool, ahora está en manos de los mineros.
+En este punto, la transacción entra en lo que se conoce como el [mempool](https://planb.academy/resources/glossary/mempool), esencialmente una sala de espera para transacciones listas para ser agregadas a la blockchain. Piénsalo como una lista de transacciones pendientes, muy parecido a las que ves en tu estado de cuenta de tarjeta de crédito, que han sido iniciadas pero están esperando ser procesadas. Una vez que la transacción ha sido iniciada y está sentada en el mempool, ahora está en manos de los mineros.
 
 #### Confirmación de la Transacción
 
@@ -665,7 +665,7 @@ Mientras que las monedas fiduciarias están sujetas a la inflación y histórica
 Aunque bitcoin aún no es aceptado globalmente como las monedas fiduciarias, su naturaleza de peer-to-peer, tiempos de transacción rápidos y bajas comisiones lo hacen un medio de intercambio cada vez más atractivo, particularmente para transacciones transfronterizas. Esto es posible debido a que es:
 
 - **Portátil:** Bitcoin, al ser digital, permite transferencias sin fronteras y sin intermediarios entre individuos, lo que lo hace un medio de intercambio conveniente y accesible. Aunque algunas monedas fiduciarias también ofrecen soluciones digitales, aquellos en países en desarrollo o en guerra pueden tener dificultades para acceder a servicios bancarios que cumplan esta necesidad. La naturaleza descentralizada de bitcoin lo hace accesible para cualquier persona con una conexión a internet, proporcionando una alternativa viable a los sistemas bancarios tradicionales en áreas con acceso limitado a servicios financieros.
-- **Divisible:** La extrema divisibilidad del bitcoin es una de sus principales ventajas como moneda. Con cada bitcoin divisible hasta ocho lugares decimales, la unidad más pequeña, un Satoshi, vale apenas una fracción de centavo. Dependiendo del método de transacción, es decir, capa uno o dos, esto hace que bitcoin sea altamente adaptable a transacciones de cualquier tamaño, desde pequeñas compras hasta grandes inversiones.
+- **Divisible:** La extrema divisibilidad del bitcoin es una de sus principales ventajas como moneda. Con cada bitcoin divisible hasta ocho lugares decimales, la unidad más pequeña, un [Satoshi](https://planb.academy/resources/glossary/satoshi-sat), vale apenas una fracción de centavo. Dependiendo del método de transacción, es decir, capa uno o dos, esto hace que bitcoin sea altamente adaptable a transacciones de cualquier tamaño, desde pequeñas compras hasta grandes inversiones.
 - **Aceptado:** Aunque la aceptación de bitcoin aún no es universal, su creciente adopción por comerciantes, instituciones e individuos alrededor del mundo sugiere que se está volviendo más ampliamente aceptado como una forma legítima de pago.
 
 ### Unidad de Cuenta
@@ -766,7 +766,7 @@ Ahora, centrémonos en qué hacer una vez que hayas adquirido algo de bitcoin o 
 
 ### Asegurando tu bitcoin de forma segura
 
-Lo que hace revolucionario a Bitcoin es que, por primera vez en la historia, podemos tomar custodia propia de un activo digital. ¡Este logro no puede ser exagerado! Así como podemos guardar efectivo bajo nuestra almohada, podemos hacer lo mismo con bitcoin, pero de manera digital. Sin embargo, este nuevo nivel de control sobre nuestro dinero viene con nuevas responsabilidades. Para mantener nuestro bitcoin seguro, debemos aprender a asegurarlo adecuadamente. Esto significa tomar medidas para protegerlo contra pérdidas, robos e intentos de hackeo.
+Lo que hace revolucionario a Bitcoin es que, por primera vez en la historia, podemos tomar [custodia propia](https://planb.academy/resources/glossary/selfcustody) de un activo digital. ¡Este logro no puede ser exagerado! Así como podemos guardar efectivo bajo nuestra almohada, podemos hacer lo mismo con bitcoin, pero de manera digital. Sin embargo, este nuevo nivel de control sobre nuestro dinero viene con nuevas responsabilidades. Para mantener nuestro bitcoin seguro, debemos aprender a asegurarlo adecuadamente. Esto significa tomar medidas para protegerlo contra pérdidas, robos e intentos de hackeo.
 
 #### Dónde almacenar tu bitcoin
 
@@ -780,9 +780,9 @@ Un ejemplo común de una billetera de custodia es una cuenta en una casa de inte
 También hay innumerables otras soluciones de billetera de custodia disponibles para dispositivos móviles que te dan fácil acceso a tu bitcoin. Estas billeteras son típicamente fáciles de usar y ofrecen una manera simple de manejar tu bitcoin, pero aún así retienen las llaves de tu bitcoin.
 
 **Billeteras no custodiales (también conocidas como auto-custodia)**
-Las billeteras no custodiales son un tipo de billetera Bitcoin donde tú eres el único custodio de tus fondos, lo que significa que tienes control completo sobre tus llaves privadas. Las llaves privadas son como una contraseña para tu billetera y se usan para firmar y autorizar transacciones. Sin ellas, no puedes acceder o transferir tu bitcoin.
+Las billeteras no custodiales son un tipo de billetera Bitcoin donde tú eres el único custodio de tus fondos, lo que significa que tienes control completo sobre tus [llaves privadas](https://planb.academy/resources/glossary/private-key). Las llaves privadas son como una contraseña para tu billetera y se usan para firmar y autorizar transacciones. Sin ellas, no puedes acceder o transferir tu bitcoin.
 
-Las billeteras no custodiales ofrecen un nivel más alto de seguridad y privacidad sobre las billeteras de custodia, ya que tú eres el único responsable de la seguridad de tus fondos. Ejemplos de billeteras no custodiales incluyen billeteras de hardware como [Coldcard](https://store.coinkite.com/store/coldcard) y [Trezor](https://trezor.io/), que son dispositivos físicos que almacenan tus llaves privadas fuera de línea y proporcionan una capa extra de seguridad. Otras billeteras no custodiales populares son billeteras de software como [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), y [Blockstream Green](https://blockstream.com/green/), que pueden ser descargadas e instaladas en tu computadora o dispositivo móvil.
+Las billeteras no custodiales ofrecen un nivel más alto de seguridad y privacidad sobre las billeteras de custodia, ya que tú eres el único responsable de la seguridad de tus fondos. Ejemplos de billeteras no custodiales incluyen [billeteras de hardware](https://planb.academy/resources/glossary/hardware-wallet) como [Coldcard](https://store.coinkite.com/store/coldcard) y [Trezor](https://trezor.io/), que son dispositivos físicos que almacenan tus llaves privadas fuera de línea y proporcionan una capa extra de seguridad. Otras billeteras no custodiales populares son billeteras de software como [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), y [Blockstream Green](https://blockstream.com/green/), que pueden ser descargadas e instaladas en tu computadora o dispositivo móvil.
 
 *Aunque no podemos recomendar una billetera específica, te aconsejamos tomar control de tu bitcoin a través de la auto-custodia o custodia colaborativa, lo que implica seleccionar una billetera que se ajuste a tus necesidades y preferencias. Es esencial realizar una investigación exhaustiva antes de decidir sobre una billetera para asegurar que se alinee con tus requisitos de seguridad y usabilidad.*
 
@@ -792,7 +792,7 @@ Aunque las billeteras de custodia pueden parecer convenientes, vienen con riesgo
 
 Una vez que hayas decidido sobre una billetera, la diversión y los juegos aún no han terminado. Ahora es el momento de minimizar el riesgo de pérdida. Para proteger tu bitcoin, considera estos pasos después de elegir tu billetera:
 
-1. En primer lugar, haz una copia de seguridad de tu billetera al tomar auto-custodia. Las billeteras de hardware vienen con una frase semilla de recuperación, un conjunto de palabras que se pueden usar para recuperar tus claves privadas en caso de que tu dispositivo se pierda o se dañe. Crea una copia física, como una placa de semillas de metal, de esta [frase semilla](https://coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/) y guárdala en un lugar seguro. Es importante mantener esta frase semilla de recuperación segura. NUNCA la compartas con nadie.
+1. En primer lugar, haz una copia de seguridad de tu billetera al tomar auto-custodia. Las billeteras de hardware vienen con una [frase semilla de recuperación](https://planb.academy/resources/glossary/recovery-phrase), un conjunto de palabras que se pueden usar para recuperar tus claves privadas en caso de que tu dispositivo se pierda o se dañe. Crea una copia física, como una placa de semillas de metal, de esta [frase semilla](https://coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/) y guárdala en un lugar seguro. Es importante mantener esta frase semilla de recuperación segura. NUNCA la compartas con nadie.
 2. Al proteger una cantidad sustancial de bitcoin que excede el umbral que no querrías perder, es importante explorar opciones de planificación patrimonial para el evento imprevisto de tu fallecimiento. Esto asegura que tu familia y seres queridos puedan acceder y gestionar tu bitcoin de manera efectiva.
 3. Sé vigilante contra intentos de phishing y otras estafas. Los estafadores a menudo intentan engañarte para que les des acceso a tu bitcoin haciéndose pasar por una empresa o individuo de confianza. Ninguna empresa respetable te pedirá nunca tus claves privadas, así que nunca compartas tus claves privadas con nadie, y siempre verifica la autenticidad de cualquier sitio web o individuo antes de enviar bitcoin.
 

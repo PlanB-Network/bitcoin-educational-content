@@ -618,13 +618,13 @@ Peter Todd ยังได้สร้างโปรโตคอล _Open Times
 
 :::video id=73ddea2d-c243-479d-a3dc-12d7db8eef70:::
 
-ในบทนี้ เราจะพิจารณาการดำเนินการของ Client-side Validation และซีลแบบใช้ครั้งเดียวภายในบล็อกเชน Bitcoin เราจะนำเสนอหลักการสำคัญของ **ชั้นความมุ่งมั่น** ของ RGB (ชั้นที่ 1) โดยเน้นเป็นพิเศษที่โครงร่าง **TxO2** ซึ่ง RGB ใช้ในการกำหนดและปิดซีลในธุรกรรม Bitcoin ต่อไป เราจะพูดถึงสองประเด็นสำคัญที่ยังไม่ได้ครอบคลุมในรายละเอียด:
+ในบทนี้ เราจะพิจารณาการดำเนินการของ [Client-side Validation](https://planb.academy/resources/glossary/client-side-validation) และ[ซีลแบบใช้ครั้งเดียว](https://planb.academy/resources/glossary/single-use-seal)ภายในบล็อกเชน Bitcoin เราจะนำเสนอหลักการสำคัญของ **ชั้นความมุ่งมั่น** ของ RGB (ชั้นที่ 1) โดยเน้นเป็นพิเศษที่โครงร่าง **TxO2** ซึ่ง RGB ใช้ในการกำหนดและปิดซีลในธุรกรรม Bitcoin ต่อไป เราจะพูดถึงสองประเด็นสำคัญที่ยังไม่ได้ครอบคลุมในรายละเอียด:
 
 
 
 
 - _deterministic Bitcoin commitments_;
-- ข้อผูกพันหลายโปรโตคอล
+- [ข้อผูกพันหลายโปรโตคอล](https://planb.academy/resources/glossary/multi-protocol-commitment)
 
 
 เป็นการผสมผสานของแนวคิดเหล่านี้ที่ทำให้เราสามารถซ้อนระบบหรือสัญญาหลายๆ อย่างไว้บน UTXO เดียวและดังนั้นบนบล็อกเชนเดียว
@@ -644,7 +644,7 @@ Peter Todd ยังได้สร้างโปรโตคอล _Open Times
 
 
 
-- ใช้คีย์สาธารณะหรือที่อยู่**
+- ใช้[คีย์สาธารณะ](https://planb.academy/resources/glossary/public-key)หรือที่อยู่**
 
 
 เราสามารถตัดสินใจได้ว่าคีย์สาธารณะหรือที่อยู่เฉพาะเจาะจงเป็น _ตราประทับใช้ครั้งเดียว_ ทันทีที่คีย์หรือที่อยู่นี้ปรากฏ on-chain ในธุรกรรม หมายความว่าตราประทับนั้นถูกปิดด้วยข้อความที่แน่นอน
@@ -652,10 +652,10 @@ Peter Todd ยังได้สร้างโปรโตคอล _Open Times
 
 
 
-- ใช้เอาต์พุตธุรกรรม **Bitcoin**
+- ใช้[เอาต์พุต](https://planb.academy/resources/glossary/output)ธุรกรรม **Bitcoin**
 
 
-ซึ่งหมายความว่า _single-use seal_ ถูกกำหนดให้เป็น _outpoint_ ที่เฉพาะเจาะจง (คู่ TXID + หมายเลข output) ทันทีที่ _outpoint_ นี้ถูกใช้ไป seal จะถูกปิด
+ซึ่งหมายความว่า _single-use seal_ ถูกกำหนดให้เป็น _[outpoint](https://planb.academy/resources/glossary/outpoint)_ ที่เฉพาะเจาะจง (คู่ [TXID](https://planb.academy/resources/glossary/txid-transaction-identifier) + หมายเลข output) ทันทีที่ _outpoint_ นี้ถูกใช้ไป seal จะถูกปิด
 
 
 ขณะทำงานกับ RGB เราได้ระบุวิธีการอย่างน้อย 4 วิธีที่แตกต่างกันในการติดตั้งซีลเหล่านี้บน Bitcoin:
@@ -665,7 +665,7 @@ Peter Todd ยังได้สร้างโปรโตคอล _Open Times
 
 - กำหนดตราประทับผ่านคีย์สาธารณะ และปิดใน _output_;
 - กำหนดตราประทับด้วย _outpoint_ และปิดด้วย _output_;
-- กำหนดตราประทับผ่านค่าของกุญแจสาธารณะ และปิดมันใน _input_;
+- กำหนดตราประทับผ่านค่าของกุญแจสาธารณะ และปิดมันใน _[input](https://planb.academy/resources/glossary/input)_;
 - กำหนดตราผ่าน _outpoint_ และปิดใน _input_
 
 
@@ -673,7 +673,7 @@ Peter Todd ยังได้สร้างโปรโตคอล _Open Times
 | ----------- | ------------------------- | ------------------------- | -------------------------------------------------------------- | --------------------------- | -------------------------------- |
 | PkO         | Public Key Value          | Transaction Output        | P2(W)PKH                                                       | None at the moment          | Keytweak, taptweak, opret       |
 | TxO2        | Transaction Output        | Transaction Output        | Requires deterministic commitments on Bitcoin                  | RGBv1 (universal)           | Keytweak, tapret, opret         |
-| PkI         | Public Key Value          | Transaction Input         | Taproot only & not compatible with legacy wallets              | Bitcoin-based identities    | Sigtweak, witweak               |
+| PkI         | Public Key Value          | Transaction Input         | [Taproot](https://planb.academy/resources/glossary/taproot) only & not compatible with legacy wallets              | Bitcoin-based identities    | Sigtweak, witweak               |
 | TxO1        | Transaction Output        | Transaction Input         | Taproot only & not compatible with legacy wallets              | None at the moment          | Sigtweak, witweak               |
 
 
@@ -701,7 +701,7 @@ Peter Todd ยังได้สร้างโปรโตคอล _Open Times
 ![RGB-Bitcoin](assets/en/024.webp)
 
 
-ในวันที่ต้องการปิดผนึก (เพื่อส่งสัญญาณเหตุการณ์ หรือเพื่อยึดข้อความเฉพาะ) มันจะใช้ UTXO นี้ในธุรกรรมใหม่ (ธุรกรรมนี้มักเรียกว่า "_witness transaction_" (ไม่เกี่ยวข้องกับ _segwit_ มันเป็นเพียงคำที่เราใช้เรียกมัน) ธุรกรรมใหม่นี้จะมี _commitment_ ต่อข้อความนั้น
+ในวันที่ต้องการปิดผนึก (เพื่อส่งสัญญาณเหตุการณ์ หรือเพื่อยึดข้อความเฉพาะ) มันจะใช้ UTXO นี้ในธุรกรรมใหม่ (ธุรกรรมนี้มักเรียกว่า "_[witness transaction](https://planb.academy/resources/glossary/witness-transaction)_" (ไม่เกี่ยวข้องกับ _segwit_ มันเป็นเพียงคำที่เราใช้เรียกมัน) ธุรกรรมใหม่นี้จะมี _commitment_ ต่อข้อความนั้น
 
 
 ![RGB-Bitcoin](assets/en/025.webp)
@@ -801,7 +801,7 @@ Alice จึงต้องจัดหา Bob ดังต่อไปนี้
 เมื่อคุณให้หลักฐานแก่ใครบางคนว่าข้อความบางอย่างถูกฝังอยู่ในธุรกรรม คุณจำเป็นต้องสามารถรับประกันได้ว่าไม่มีรูปแบบของการผูกมัดอื่น (ข้อความที่ซ่อนอยู่ที่สอง) ในธุรกรรมเดียวกันที่ยังไม่ได้เปิดเผยให้คุณทราบ สำหรับการตรวจสอบฝั่งไคลเอ็นต์ให้คงความแข็งแกร่ง คุณต้องการกลไกที่**กำหนดแน่นอน**สำหรับการวาง _commitment_ เดียวในธุรกรรมที่ปิด _single-use seal_
 
 
-The _witness transaction_ spends the famous UTXO (or _seal definition_) and this expenditure corresponds to the closing of the seal. Technically speaking, we know that each outpoint can only be spent once. This is precisely what underpins Bitcoin's resistance to double spending. But the spending transaction may have several _inputs_, several _outputs_, or be composed in a complex way (coinjoins, Lightning channels, etc.). We therefore need to clearly define where to insert the _commitment_ in this structure, unambiguously and uniformly.
+The _witness transaction_ spends the famous UTXO (or _seal definition_) and this expenditure corresponds to the closing of the seal. Technically speaking, we know that each outpoint can only be spent once. This is precisely what underpins Bitcoin's resistance to double spending. But the spending transaction may have several _inputs_, several _outputs_, or be composed in a complex way ([coinjoins](https://planb.academy/resources/glossary/coinjoin), Lightning channels, etc.). We therefore need to clearly define where to insert the _commitment_ in this structure, unambiguously and uniformly.
 
 ธุรกรรม _witness transaction_ ใช้จ่าย UTXO ที่มีชื่อเสียง (หรือ _seal definition_) และการใช้จ่ายนี้สอดคล้องกับการปิดผนึกทางเทคนิค เราทราบดีว่าแต่ละ outpoint สามารถใช้จ่ายได้เพียงครั้งเดียว นี่คือสิ่งที่สนับสนุนความต้านทานของ Bitcoin ต่อการใช้จ่ายซ้ำ แต่ธุรกรรมการใช้จ่ายอาจมี _inputs_ หลายรายการ, _outputs_ หลายรายการ, หรือประกอบด้วยวิธีที่ซับซ้อน (coinjoins, ช่องทาง Lightning, ฯลฯ) ดังนั้นเราจึงจำเป็นต้องกำหนดอย่างชัดเจนว่าจะใส่ _commitment_ ที่ไหนในโครงสร้างนี้อย่างไม่คลุมเครือและสม่ำเสมอ
 
@@ -812,12 +812,12 @@ The _witness transaction_ spends the famous UTXO (or _seal definition_) and this
 
 
 - ใน **Input** ผ่าน:
-    - Sigtweak** (ปรับเปลี่ยนส่วนประกอบ `r` ของลายเซ็น ECDSA คล้ายกับหลักการ "Sign-to-contract");
+    - Sigtweak** (ปรับเปลี่ยนส่วนประกอบ `r` ของ[ลายเซ็น](https://planb.academy/resources/glossary/digital-signature) [ECDSA](https://planb.academy/resources/glossary/ecdsa) คล้ายกับหลักการ "Sign-to-contract");
     - Witweak** (ข้อมูล _segregated witness_ ของธุรกรรมถูกแก้ไข)
 - ใน **Output** ผ่าน:
     - Keytweak** (คีย์สาธารณะของผู้รับถูก "ปรับแต่ง" ด้วยข้อความ);
     - Opret** (ข้อความถูกวางไว้ในเอาต์พุตที่ไม่สามารถใช้จ่ายได้ `OP_RETURN`);
-    - Tapret** (หรือ _Taptweak_) ซึ่งอาศัย taproot ในการแทรก commitment เข้าไปในส่วนสคริปต์ของคีย์ taproot จึงทำให้คีย์สาธารณะเปลี่ยนแปลงไปอย่างมีแบบแผน
+    - Tapret** (หรือ _Taptweak_) ซึ่งอาศัย taproot ในการแทรก commitment เข้าไปในส่วน[สคริปต์](https://planb.academy/resources/glossary/script)ของคีย์ taproot จึงทำให้คีย์สาธารณะเปลี่ยนแปลงไปอย่างมีแบบแผน
 
 
 ![RGB-Bitcoin](assets/en/035.webp)
@@ -832,7 +832,7 @@ The _witness transaction_ spends the famous UTXO (or _seal definition_) and this
 ***การปรับแต่งลายเซ็น (sign-to-contract):***
 
 
-โครงการก่อนหน้านี้เกี่ยวข้องกับการใช้ประโยชน์จากส่วนสุ่มของลายเซ็น (ECDSA หรือ Schnorr) เพื่อฝัง _commitment_: นี่คือเทคนิคที่รู้จักกันในชื่อ "**Sign-to-contract**" คุณแทนที่ nonce ที่สร้างขึ้นแบบสุ่มด้วยแฮชที่มีข้อมูล ด้วยวิธีนี้ ลายเซ็นจะเปิดเผย commitment ของคุณโดยปริยาย โดยไม่ต้องใช้พื้นที่เพิ่มเติมในธุรกรรม วิธีการนี้มีข้อดีหลายประการ:
+โครงการก่อนหน้านี้เกี่ยวข้องกับการใช้ประโยชน์จากส่วนสุ่มของลายเซ็น (ECDSA หรือ [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol)) เพื่อฝัง _commitment_: นี่คือเทคนิคที่รู้จักกันในชื่อ "**Sign-to-contract**" คุณแทนที่ [nonce](https://planb.academy/resources/glossary/nonce) ที่สร้างขึ้นแบบสุ่มด้วยแฮชที่มีข้อมูล ด้วยวิธีนี้ ลายเซ็นจะเปิดเผย commitment ของคุณโดยปริยาย โดยไม่ต้องใช้พื้นที่เพิ่มเติมในธุรกรรม วิธีการนี้มีข้อดีหลายประการ:
 
 
 
@@ -846,17 +846,17 @@ The _witness transaction_ spends the famous UTXO (or _seal definition_) and this
 
 
 
-- Multisig ก่อน Taproot: เมื่อคุณมีผู้ลงนามหลายคน คุณจำเป็นต้องตัดสินใจว่าลายเซ็นใดจะเป็นผู้รับผิดชอบ _commitment_ ลายเซ็นสามารถจัดเรียงได้แตกต่างกัน และหากผู้ลงนามคนใดปฏิเสธ คุณจะสูญเสียการควบคุมผลลัพธ์ของ _commitment_;
+- [Multisig](https://planb.academy/resources/glossary/multisig) ก่อน Taproot: เมื่อคุณมีผู้ลงนามหลายคน คุณจำเป็นต้องตัดสินใจว่าลายเซ็นใดจะเป็นผู้รับผิดชอบ _commitment_ ลายเซ็นสามารถจัดเรียงได้แตกต่างกัน และหากผู้ลงนามคนใดปฏิเสธ คุณจะสูญเสียการควบคุมผลลัพธ์ของ _commitment_;
 - MuSig และ shared nonce: ด้วย Schnorr multisig (*MuSig*), การสร้าง nonce เป็นอัลกอริทึมแบบหลายฝ่าย และมันแทบจะเป็นไปไม่ได้เลยที่จะปรับแต่ง nonce เป็นรายบุคคล
 
 
-ในทางปฏิบัติ **sig tweak** ก็ไม่ค่อยเข้ากันได้ดีกับฮาร์ดแวร์ที่มีอยู่ (กระเป๋าเงินฮาร์ดแวร์) และรูปแบบต่างๆ (Lightning, ฯลฯ) ดังนั้นไอเดียที่ยอดเยี่ยมนี้จึงยากที่จะนำไปใช้จริง
+ในทางปฏิบัติ **sig tweak** ก็ไม่ค่อยเข้ากันได้ดีกับฮาร์ดแวร์ที่มีอยู่ ([กระเป๋าเงินฮาร์ดแวร์](https://planb.academy/resources/glossary/hardware-wallet)) และรูปแบบต่างๆ (Lightning, ฯลฯ) ดังนั้นไอเดียที่ยอดเยี่ยมนี้จึงยากที่จะนำไปใช้จริง
 
 
 ***การปรับแต่งคีย์ (pay-to-contract):***
 
 
-**การปรับแต่งหลัก** นำแนวคิดทางประวัติศาสตร์ของ _pay-to-contract_ มาใช้ เรานำกุญแจสาธารณะ `X` และปรับแต่งโดยการเพิ่มค่า `H(message)` โดยเฉพาะอย่างยิ่ง ถ้า `X = x * G` และ `h = H(message)` กุญแจใหม่จะเป็น `X' = X + h * G` กุญแจที่ปรับแต่งนี้ซ่อนการผูกพันกับ `message` ผู้ถือกุญแจส่วนตัวเดิมสามารถเพิ่ม `h` ไปยังกุญแจส่วนตัว `x` เพื่อพิสูจน์ว่าเขามีกุญแจเพื่อใช้จ่ายผลลัพธ์ ในทางทฤษฎี นี่เป็นสิ่งที่สง่างาม เพราะ:
+**การปรับแต่งหลัก** นำแนวคิดทางประวัติศาสตร์ของ _pay-to-contract_ มาใช้ เรานำกุญแจสาธารณะ `X` และปรับแต่งโดยการเพิ่มค่า `H(message)` โดยเฉพาะอย่างยิ่ง ถ้า `X = x * G` และ `h = H(message)` กุญแจใหม่จะเป็น `X' = X + h * G` กุญแจที่ปรับแต่งนี้ซ่อนการผูกพันกับ `message` ผู้ถือ[กุญแจส่วนตัว](https://planb.academy/resources/glossary/private-key)เดิมสามารถเพิ่ม `h` ไปยังกุญแจส่วนตัว `x` เพื่อพิสูจน์ว่าเขามีกุญแจเพื่อใช้จ่ายผลลัพธ์ ในทางทฤษฎี นี่เป็นสิ่งที่สง่างาม เพราะ:
 
 
 
@@ -936,7 +936,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 
 
 - 29 ไบต์ `OP_RESERVED`, ตามด้วย `OP_RETURN`, แล้ว `OP_PUSHBYTE_33`, ก่อให้เกิดส่วน _prefix_ 31 ไบต์;
-- ถัดไปคือ _commitment_ ขนาด 32 ไบต์ (โดยปกติคือ Merkle root จาก **MPC**), ซึ่งเราจะเพิ่ม 1 ไบต์ของ **Nonce** (รวมเป็น 33 ไบต์สำหรับส่วนที่สองนี้)
+- ถัดไปคือ _commitment_ ขนาด 32 ไบต์ (โดยปกติคือ [Merkle root](https://planb.academy/resources/glossary/merkle-root) จาก **MPC**), ซึ่งเราจะเพิ่ม 1 ไบต์ของ **Nonce** (รวมเป็น 33 ไบต์สำหรับส่วนที่สองนี้)
 
 
 ดังนั้นวิธีการ `Tapret` ขนาด 64 ไบต์ดูเหมือน `Opret` ที่เราได้เพิ่ม 29 ไบต์ของ `OP_RESERVED` ไว้ข้างหน้าและเพิ่มไบต์พิเศษเป็น Nonce.
@@ -966,7 +966,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 
 
 - `P`: คีย์สาธารณะภายในสำหรับ _Key Path Spend_.
-- `G`: จุดกำเนิดของเส้นโค้งวงรี [secp256k1](https://en.bitcoin.it/wiki/Secp256k1).
+- `G`: จุดกำเนิดของ[เส้นโค้งวงรี](https://planb.academy/resources/glossary/elliptic-curve) [secp256k1](https://en.bitcoin.it/wiki/Secp256k1).
 
 -`t = tH_TWEAK(P)` เป็นปัจจัยการปรับแต่ง คำนวณผ่าน _tagged hash_ (เช่น `SHA-256(SHA-256(TapTweak) || P)`), ตามที่ระบุใน [BIP86](https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki#address-derivation) ซึ่งพิสูจน์ว่าไม่มีสคริปต์ที่ซ่อนอยู่
 
@@ -1330,7 +1330,7 @@ tH_MPC_BRANCH(tH1 || tH2) = SHA-256(SHA-256(merkle_tag) || SHA-256(merkle_tag) |
 Multi Protocol Commitment* (MPC) เป็นหลักการที่ช่วยให้ RGB สามารถรวมสัญญาหลายฉบับเข้าเป็นธุรกรรม Bitcoin เดียวได้ ในขณะที่ยังคงรักษาความเป็นเอกลักษณ์ของข้อผูกพันและความลับต่อผู้เข้าร่วมรายอื่นๆ ด้วยการสร้างต้นไม้แบบกำหนดได้ สัญญาแต่ละฉบับจะถูกกำหนดตำแหน่งที่ไม่ซ้ำกัน และการมีอยู่ของใบ "dummy" (*Entropy Leaves*) จะช่วยปกปิดจำนวนรวมของสัญญาที่เข้าร่วมในธุรกรรมบางส่วน
 
 
-ต้นไม้ Merkle ทั้งหมดจะไม่ถูกเก็บไว้ในไคลเอนต์ เราเพียงแค่ generate เส้นทาง _Merkle_ สำหรับแต่ละสัญญาที่เกี่ยวข้อง เพื่อส่งไปยังผู้รับ (ซึ่งสามารถตรวจสอบความถูกต้องของการผูกมัดได้) ในบางกรณี คุณอาจมีสินทรัพย์หลายรายการที่ผ่าน UTXO เดียวกัน คุณสามารถรวมเส้นทาง _Merkle_ หลายเส้นทางเข้าด้วยกันเป็นสิ่งที่เรียกว่า _บล็อกการผูกมัดหลายโปรโตคอล_ เพื่อหลีกเลี่ยงการทำซ้ำข้อมูลมากเกินไป
+[ต้นไม้ Merkle](https://planb.academy/resources/glossary/merkle-tree) ทั้งหมดจะไม่ถูกเก็บไว้ในไคลเอนต์ เราเพียงแค่ generate เส้นทาง _Merkle_ สำหรับแต่ละสัญญาที่เกี่ยวข้อง เพื่อส่งไปยังผู้รับ (ซึ่งสามารถตรวจสอบความถูกต้องของการผูกมัดได้) ในบางกรณี คุณอาจมีสินทรัพย์หลายรายการที่ผ่าน UTXO เดียวกัน คุณสามารถรวมเส้นทาง _Merkle_ หลายเส้นทางเข้าด้วยกันเป็นสิ่งที่เรียกว่า _บล็อกการผูกมัดหลายโปรโตคอล_ เพื่อหลีกเลี่ยงการทำซ้ำข้อมูลมากเกินไป
 
 
 แต่ละ _Merkle proof_ จึงมีน้ำหนักเบา โดยเฉพาะอย่างยิ่งเมื่อความลึกของต้นไม้จะไม่เกิน 32 ใน RGB นอกจากนี้ยังมีแนวคิดของ "Merkle block" ซึ่งเก็บข้อมูลเพิ่มเติม (ส่วนตัดขวาง, เอนโทรปี, ฯลฯ) ซึ่งมีประโยชน์สำหรับการรวมกันหรือแยกหลายสาขาออกจากกัน
@@ -2022,7 +2022,7 @@ Global State นี้สามารถวางบนทรัพยากร�
         - A simple `txid`, if pointing to a specific UTXO,
         - หรือ `WitnessTx` ซึ่งกำหนดการอ้างอิงตนเอง: ตราประทับชี้ไปที่ธุรกรรมเอง สิ่งนี้มีประโยชน์อย่างยิ่งเมื่อไม่มี UTXO ภายนอก เช่น ในการเปิดช่องทาง Lightning หรือหากผู้รับไม่มี UTXO
 - vout**: หมายเลขเอาต์พุตของธุรกรรมที่ระบุโดย `txptr` ปรากฏเฉพาะสำหรับตราประทับกราฟมาตรฐาน (ไม่ใช่สำหรับ `WitnessTx`);
-- blinding**: ตัวเลขสุ่มจำนวน 8 ไบต์ เพื่อเสริมความลับและป้องกันการพยายามโจมตีด้วยกำลังดุร้ายต่อข้อมูลประจำตัวของ UTXO;
+- blinding**: ตัวเลขสุ่มจำนวน 8 ไบต์ เพื่อเสริมความลับและป้องกันการพยายามโจมตีด้วย[กำลังดุร้าย](https://planb.academy/resources/glossary/brute-force-attack)ต่อข้อมูลประจำตัวของ UTXO;
 - method**: ระบุวิธีการยึดที่ใช้ (`Tapret` หรือ `Opret`)
 
 
@@ -2050,7 +2050,7 @@ RGB กำหนดประเภทสถานะที่เป็นไป�
 
 
 - Declarative**: ประกอบด้วยข้อมูลที่ไม่ใช่ตัวเลข เพียงแค่สิทธิ์ที่ประกาศไว้ (เช่น สิทธิ์ในการลงคะแนนเสียง) รูปแบบที่ซ่อนอยู่และเปิดเผยนั้นเหมือนกัน;
-- Fungible**: แทนปริมาณที่สามารถแลกเปลี่ยนได้ (เช่น โทเค็น) ในรูปแบบที่เปิดเผย เรามี `amount` และ `blinding` ในรูปแบบที่ซ่อนอยู่ เรามี *Pedersen commitment* เพียงตัวเดียวซึ่งซ่อนจำนวนและการปิดบัง;
+- Fungible**: แทนปริมาณที่สามารถแลกเปลี่ยนได้ (เช่น โทเค็น) ในรูปแบบที่เปิดเผย เรามี `amount` และ `blinding` ในรูปแบบที่ซ่อนอยู่ เรามี *[Pedersen commitment](https://planb.academy/resources/glossary/pedersen-commitment)* เพียงตัวเดียวซึ่งซ่อนจำนวนและการปิดบัง;
 - Structured**: เก็บข้อมูลที่มีโครงสร้าง (สูงสุด 64 kB) ในรูปแบบที่เปิดเผย มันคือข้อมูลบล็อบ ในรูปแบบที่ซ่อนอยู่ มันคือแฮชที่ติดแท็กของบล็อบนี้:
 
 
@@ -2309,13 +2309,13 @@ BEiLYE-am9WhTW1-oK8cpvw4-FEMtzMrf-mKocuGZn-qWK6YF#ginger-parking-nirvana
 
 
 
-- สิ่งนี้ไม่สามารถเปรียบเทียบกับการ hardfork ของบล็อกเชนแบบคลาสสิกได้ เนื่องจาก RGB ทำงานในการตรวจสอบฝั่งไคลเอ็นต์และไม่ส่งผลกระทบต่อความเข้ากันได้โดยรวมของบล็อกเชน
+- สิ่งนี้ไม่สามารถเปรียบเทียบกับการ [hardfork](https://planb.academy/resources/glossary/hard-fork) ของบล็อกเชนแบบคลาสสิกได้ เนื่องจาก RGB ทำงานในการตรวจสอบฝั่งไคลเอ็นต์และไม่ส่งผลกระทบต่อความเข้ากันได้โดยรวมของบล็อกเชน
 - ในทางปฏิบัติ การเปลี่ยนแปลงประเภทนี้จะแสดงโดยฟิลด์ `Ffv` (*fast-forward version*) ในการดำเนินการตามสัญญา;
 - ผู้ถือปัจจุบันไม่ได้รับผลกระทบ: สถานะของพวกเขายังคงมีผล;
 - ผู้รับผลประโยชน์ใหม่ (หรือผู้ใช้ใหม่) ในทางกลับกัน จำเป็นต้องอัปเดตซอฟต์แวร์ของพวกเขา (wallet ของพวกเขา) เพื่อให้รู้จักกฎใหม่
 
 
-การผลักกลับหมายความว่ากฎที่เคยใช้ได้กลายเป็นใช้ไม่ได้ ดังนั้นจึงเป็นการ "ทำให้เข้มงวดขึ้น" ของกฎ แต่ไม่ใช่การซอฟต์ฟอร์กในทางเทคนิค:
+การผลักกลับหมายความว่ากฎที่เคยใช้ได้กลายเป็นใช้ไม่ได้ ดังนั้นจึงเป็นการ "ทำให้เข้มงวดขึ้น" ของกฎ แต่ไม่ใช่การ[ซอฟต์ฟอร์ก](https://planb.academy/resources/glossary/soft-fork)ในทางเทคนิค:
 
 
 

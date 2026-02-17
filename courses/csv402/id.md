@@ -424,11 +424,11 @@ Sebelum masuk ke dalam detail yang lebih teknis pada bab kedua, jangan ragu untu
 
 :::video id=73ddea2d-c243-479d-a3dc-12d7db8eef70:::
 
-Pada bab ini, kita akan melihat implementasi Validasi Sisi Klien dan Segel Sekali Pakai di dalam blockchain Bitcoin. Kami akan menyajikan prinsip-prinsip utama dari **lapisan komitmen** (lapisan 1) RGB, dengan fokus khusus pada skema **TxO2**, yang digunakan RGB untuk mendefinisikan dan menutup segel dalam transaksi Bitcoin. Selanjutnya, kita akan membahas dua poin penting yang belum dibahas secara mendetail:
+Pada bab ini, kita akan melihat implementasi [Validasi Sisi Klien](https://planb.academy/resources/glossary/client-side-validation) dan [Segel Sekali Pakai](https://planb.academy/resources/glossary/single-use-seal) di dalam blockchain Bitcoin. Kami akan menyajikan prinsip-prinsip utama dari **lapisan komitmen** (lapisan 1) RGB, dengan fokus khusus pada skema **TxO2**, yang digunakan RGB untuk mendefinisikan dan menutup segel dalam transaksi Bitcoin. Selanjutnya, kita akan membahas dua poin penting yang belum dibahas secara mendetail:
 
 
 - Komitmen Bitcoin yang bersifat deterministik;
-- Komitmen multi-protokol.
+- [Komitmen multi-protokol](https://planb.academy/resources/glossary/multi-protocol-commitment).
 
 Kombinasi dari konsep-konsep inilah yang memungkinkan kita untuk menumpangkan beberapa sistem atau kontrak di atas satu UTXO dan oleh karena itu menjadi satu blockchain.
 
@@ -446,23 +446,23 @@ Untuk memahami logikanya, mari kita ingat kembali prinsip dasarnya: untuk menutu
 Kita dapat memutuskan bahwa kunci atau alamat publik tertentu adalah _segel sekali pakai_. Segera setelah kunci atau alamat ini muncul secara berantai dalam sebuah transaksi, ini berarti segel tersebut ditutup dengan pesan tertentu.
 
 
-- Menggunakan hasil transaksi **Bitcoin**
+- Menggunakan [hasil transaksi](https://planb.academy/resources/glossary/output) **Bitcoin**
 
-Ini berarti bahwa segel sekali pakai didefinisikan sebagai _outpoint_ yang tepat (pasangan nomor TXID + nomor keluaran). Segera setelah _outpoint_ ini dihabiskan, segel ditutup.
+Ini berarti bahwa segel sekali pakai didefinisikan sebagai _[outpoint](https://planb.academy/resources/glossary/outpoint)_ yang tepat (pasangan nomor [TXID](https://planb.academy/resources/glossary/txid-transaction-identifier) + nomor keluaran). Segera setelah _outpoint_ ini dihabiskan, segel ditutup.
 
 Ketika mengerjakan RGB, kami mengidentifikasi setidaknya 4 cara berbeda untuk mengimplementasikan segel ini pada Bitcoin:
 
 
-- Tentukan segel melalui kunci publik, dan tutup dalam _output_ ;
+- Tentukan segel melalui [kunci publik](https://planb.academy/resources/glossary/public-key), dan tutup dalam _output_ ;
 - Tentukan segel dengan _outpoint_ dan tutup dengan _output_ ;
-- Tentukan segel melalui nilai kunci publik, dan tutup dalam _input_ ;
+- Tentukan segel melalui nilai kunci publik, dan tutup dalam _[input](https://planb.academy/resources/glossary/input)_ ;
 - Tentukan segel melalui _outpoint_, dan tutup dengan _input_.
 
 | Nama Skema  | Definisi Segel           | Penutupan Segel         | Persyaratan Tambahan                                            | Aplikasi Utama             | Skema Komitmen yang Mungkin       |
 | ----------- | ------------------------ | ----------------------- | -------------------------------------------------------------- | -------------------------- | ---------------------------------- |
 | PkO         | Nilai Kunci Publik       | Keluaran Transaksi      | P2(W)PKH                                                        | Belum ada saat ini        | Keytweak, taptweak, opret         |
 | TxO2        | Keluaran Transaksi       | Keluaran Transaksi      | Memerlukan komitmen deterministik di Bitcoin                    | RGBv1 (universal)         | Keytweak, tapret, opret           |
-| PkI         | Nilai Kunci Publik       | Masukan Transaksi       | Hanya Taproot & tidak kompatibel dengan dompet Legacy           | Identitas berbasis Bitcoin | Sigtweak, witweak                 |
+| PkI         | Nilai Kunci Publik       | Masukan Transaksi       | Hanya [Taproot](https://planb.academy/resources/glossary/taproot) & tidak kompatibel dengan dompet Legacy           | Identitas berbasis Bitcoin | Sigtweak, witweak                 |
 | TxO1        | Keluaran Transaksi       | Masukan Transaksi       | Hanya Taproot & tidak kompatibel dengan dompet Legacy           | Belum ada saat ini        | Sigtweak, witweak                 |
 
 Kita tidak akan membahas secara detail mengenai masing-masing konfigurasi ini, karena dalam RGB kita telah memilih untuk menggunakan _outpoint_ sebagai definisi **seal**, dan menempatkan _commitment_ pada keluaran transaksi yang menggunakan _outpoint_ ini. Oleh karena itu, kita dapat memperkenalkan konsep-konsep berikut untuk sekuelnya:
@@ -481,7 +481,7 @@ Sebagai pengingat, mendefinisikan _single-use seal_ tidak selalu membutuhkan pen
 
 ![RGB-Bitcoin](assets/en/024.webp)
 
-Pada hari ketika ia ingin menutup segel (untuk menandakan sebuah peristiwa, atau untuk menambatkan pesan tertentu), ia akan menggunakan UTXO ini dalam sebuah transaksi baru (transaksi ini sering disebut dengan "_witness transaction_" (tidak ada hubungannya dengan _segwit_, ini hanyalah istilah yang kami berikan). Transaksi baru ini akan berisi _commitment_ untuk pesan tersebut.
+Pada hari ketika ia ingin menutup segel (untuk menandakan sebuah peristiwa, atau untuk menambatkan pesan tertentu), ia akan menggunakan UTXO ini dalam sebuah transaksi baru (transaksi ini sering disebut dengan "_[witness transaction](https://planb.academy/resources/glossary/witness-transaction)_" (tidak ada hubungannya dengan _segwit_, ini hanyalah istilah yang kami berikan). Transaksi baru ini akan berisi _commitment_ untuk pesan tersebut.
 
 ![RGB-Bitcoin](assets/en/025.webp)
 
@@ -547,18 +547,18 @@ Pada bagian sebelumnya, kita telah membahas secara singkat bagaimana model Valid
 
 Ketika Anda memberikan bukti kepada seseorang bahwa sebuah pesan tertentu tertanam dalam sebuah transaksi, Anda harus dapat menjamin bahwa tidak ada bentuk komitmen lain (pesan kedua yang tersembunyi) dalam transaksi yang sama yang belum diungkapkan kepada Anda. Agar validasi dari sisi klien tetap kuat, Anda membutuhkan sebuah mekanisme **deterministik** untuk menempatkan sebuah _komitmen_ dalam transaksi yang menutup _segel sekali pakai_.
 
-Transaksi _witness_ menghabiskan UTXO yang terkenal (atau _seal definition_) dan pengeluaran ini sesuai dengan penutupan segel. Secara teknis, kita tahu bahwa setiap titik keluar hanya dapat dibelanjakan satu kali. Inilah yang mendasari perlawanan Bitcoin terhadap pengeluaran ganda. Namun, transaksi pengeluaran dapat memiliki beberapa _input_, beberapa _output_, atau disusun dengan cara yang rumit (coinjoin, Lightning channel, dll.). Oleh karena itu, kita perlu mendefinisikan dengan jelas di mana kita harus memasukkan _commitment_ dalam struktur ini, dengan jelas dan seragam.
+Transaksi _witness_ menghabiskan UTXO yang terkenal (atau _seal definition_) dan pengeluaran ini sesuai dengan penutupan segel. Secara teknis, kita tahu bahwa setiap titik keluar hanya dapat dibelanjakan satu kali. Inilah yang mendasari perlawanan Bitcoin terhadap pengeluaran ganda. Namun, transaksi pengeluaran dapat memiliki beberapa _input_, beberapa _output_, atau disusun dengan cara yang rumit ([coinjoin](https://planb.academy/resources/glossary/coinjoin), Lightning channel, dll.). Oleh karena itu, kita perlu mendefinisikan dengan jelas di mana kita harus memasukkan _commitment_ dalam struktur ini, dengan jelas dan seragam.
 
 Apapun metodenya (PkO, TxO2, dll.), _commitment_ dapat disisipkan:
 
 
 - Dalam sebuah **Input** melalui :
-- **Sigtweak** (memodifikasi komponen `r` dari tanda tangan ECDSA, mirip dengan prinsip "Tanda tangan-ke-kontrak");
+- **Sigtweak** (memodifikasi komponen `r` dari [tanda tangan](https://planb.academy/resources/glossary/digital-signature) [ECDSA](https://planb.academy/resources/glossary/ecdsa), mirip dengan prinsip "Tanda tangan-ke-kontrak");
 - **Witweak** (data _segregated witness_ transaksi dimodifikasi).
 - Dalam sebuah **Output** melalui :
 - **Keytweak** (kunci publik penerima "diutak-atik" dengan pesan);
 - **Opret** (pesan ditempatkan dalam output yang tidak dapat dihabiskan `OP_RETURN`);
-- **Tapret** (atau _Taptweak_), yang bergantung pada taproot untuk menyisipkan komitmen ke dalam bagian skrip dari kunci taproot, sehingga memodifikasi kunci publik secara deterministik.
+- **Tapret** (atau _Taptweak_), yang bergantung pada taproot untuk menyisipkan komitmen ke dalam bagian [skrip](https://planb.academy/resources/glossary/script) dari kunci taproot, sehingga memodifikasi kunci publik secara deterministik.
 
 ![RGB-Bitcoin](assets/en/035.webp)
 
@@ -568,7 +568,7 @@ Berikut ini adalah rincian dari masing-masing metode:
 
 ***Sig tweak (tanda tangan untuk kontrak) :***
 
-Skema sebelumnya melibatkan eksploitasi bagian acak dari tanda tangan (ECDSA atau Schnorr) untuk menyematkan _komitmen_: ini adalah teknik yang dikenal sebagai "**Sign-to-contract**". Anda mengganti nonce yang dihasilkan secara acak dengan hash yang berisi data. Dengan cara ini, tanda tangan secara implisit mengungkapkan komitmen Anda, tanpa ruang tambahan dalam transaksi. Pendekatan ini memiliki beberapa keuntungan:
+Skema sebelumnya melibatkan eksploitasi bagian acak dari tanda tangan (ECDSA atau [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol)) untuk menyematkan _komitmen_: ini adalah teknik yang dikenal sebagai "**Sign-to-contract**". Anda mengganti [nonce](https://planb.academy/resources/glossary/nonce) yang dihasilkan secara acak dengan hash yang berisi data. Dengan cara ini, tanda tangan secara implisit mengungkapkan komitmen Anda, tanpa ruang tambahan dalam transaksi. Pendekatan ini memiliki beberapa keuntungan:
 
 
 - Tidak ada kelebihan beban pada rantai (Anda menggunakan tempat yang sama dengan nonce dasar);
@@ -577,14 +577,14 @@ Skema sebelumnya melibatkan eksploitasi bagian acak dari tanda tangan (ECDSA ata
 Namun demikian, ada 2 kelemahan utama yang muncul:
 
 
-- Multisig sebelum Taproot: ketika Anda memiliki beberapa penandatangan, Anda harus memutuskan tanda tangan mana yang akan membawa _commitment_. Tanda tangan dapat dipesan secara berbeda, dan jika penandatangan menolak, Anda kehilangan kendali atas hasil _commitment_;
+- [Multisig](https://planb.academy/resources/glossary/multisig) sebelum Taproot: ketika Anda memiliki beberapa penandatangan, Anda harus memutuskan tanda tangan mana yang akan membawa _commitment_. Tanda tangan dapat dipesan secara berbeda, dan jika penandatangan menolak, Anda kehilangan kendali atas hasil _commitment_;
 - MuSig dan nonce bersama: dengan Schnorr multisig (*MuSig*), pembuatan nonce merupakan sebuah algoritma multipartai, dan hampir tidak mungkin untuk mengubah nonce satu per satu.
 
-Dalam praktiknya, **sig tweak** juga tidak terlalu kompatibel dengan perangkat keras yang ada (dompet perangkat keras) dan format (Lightning, dll.). Jadi, ide yang bagus ini sulit untuk dipraktikkan.
+Dalam praktiknya, **sig tweak** juga tidak terlalu kompatibel dengan perangkat keras yang ada ([dompet perangkat keras](https://planb.academy/resources/glossary/hardware-wallet)) dan format (Lightning, dll.). Jadi, ide yang bagus ini sulit untuk dipraktikkan.
 
 ***Key tweak (bayar sesuai kontrak) :***
 
-Tweak kunci ini mengambil konsep historis dari _bayar-ke-kontrak_. Kita mengambil kunci publik `X` dan mengubahnya dengan menambahkan nilai `H(pesan)`. Secara khusus, jika `X = x * G` dan `h = H(pesan)`, maka kunci baru akan menjadi `X' = X + h * G`. Kunci yang telah diubah ini menyembunyikan komitmen terhadap `pesan`. Pemegang kunci privat yang asli dapat, dengan menambahkan `h` ke kunci privatnya `x`, membuktikan bahwa ia memiliki kunci untuk mengeluarkan output. Secara teori, ini adalah hal yang elegan, karena :
+Tweak kunci ini mengambil konsep historis dari _bayar-ke-kontrak_. Kita mengambil kunci publik `X` dan mengubahnya dengan menambahkan nilai `H(pesan)`. Secara khusus, jika `X = x * G` dan `h = H(pesan)`, maka kunci baru akan menjadi `X' = X + h * G`. Kunci yang telah diubah ini menyembunyikan komitmen terhadap `pesan`. Pemegang [kunci privat](https://planb.academy/resources/glossary/private-key) yang asli dapat, dengan menambahkan `h` ke kunci privatnya `x`, membuktikan bahwa ia memiliki kunci untuk mengeluarkan output. Secara teori, ini adalah hal yang elegan, karena :
 
 
 - Komitmen_ dimasukkan tanpa menambahkan kolom tambahan;
@@ -640,7 +640,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 
 
 - 29 byte `OP_RESERVED`, diikuti dengan `OP_RETURN`, lalu `OP_PUSHBYTE_33`, membentuk bagian _prefix_ sebanyak 31 byte;
-- Berikutnya adalah 32-byte _commitment_ (biasanya akar Merkle dari **MPC**), yang kemudian kita tambahkan 1 byte dari **Nonce** (total 33 byte untuk bagian kedua ini).
+- Berikutnya adalah 32-byte _commitment_ (biasanya [akar Merkle](https://planb.academy/resources/glossary/merkle-root) dari **MPC**), yang kemudian kita tambahkan 1 byte dari **Nonce** (total 33 byte untuk bagian kedua ini).
 
 Jadi metode `Tapret` 64-byte terlihat seperti sebuah `Opret` yang mana kita telah mengawali 29 byte dari `OP_RESERVED` dan menambahkan byte tambahan sebagai Nonce.
 
@@ -660,7 +660,7 @@ Dalam kasus pertama ini, kita mulai dari kunci keluaran taproot (*Kunci Keluaran
 
 
 - `P`: kunci publik internal untuk _Key Path Spend_.
-- `G`: titik pembangkit kurva elips [secp256k1](https://en.bitcoin.it/wiki/Secp256k1).
+- `G`: titik pembangkit [kurva elips](https://planb.academy/resources/glossary/elliptic-curve) [secp256k1](https://en.bitcoin.it/wiki/Secp256k1).
 - t = tH_TWEAK(P)` adalah faktor tweak, yang dihitung melalui hash yang ditandai (misalnya `SHA-256(SHA-256(TapTweak) || P)`), sesuai dengan [BIP86](https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki#address-derivation). Ini membuktikan bahwa tidak ada skrip yang tersembunyi.
 
 Untuk menyertakan komitmen **Tapret**, tambahkan **Skrip Jalur Pengeluaran** dengan **skrip unik**, sebagai berikut:
@@ -928,7 +928,7 @@ Mekanisme ini memastikan bahwa :
 
 Multi Protocol Commitment (MPC) adalah prinsip yang memungkinkan RGB untuk menggabungkan beberapa kontrak ke dalam satu transaksi Bitcoin, dengan tetap menjaga keunikan komitmen dan kerahasiaan terhadap partisipan lainnya. Berkat konstruksi pohon yang deterministik, setiap kontrak diberikan posisi yang unik, dan adanya daun "dummy" (*Entropy Leaves*) menutupi sebagian jumlah total kontrak yang berpartisipasi dalam transaksi.
 
-Seluruh pohon Merkle tidak pernah disimpan pada klien. Kami hanya membuat _Merkle path_ untuk setiap kontrak yang bersangkutan, untuk dikirimkan ke penerima (yang kemudian dapat memvalidasi komitmen). Dalam beberapa kasus, Anda mungkin memiliki beberapa aset yang telah melewati UTXO yang sama. Anda kemudian dapat menggabungkan beberapa _Merkle path_ ke dalam apa yang disebut _block komitmen multi-protokol_, untuk menghindari duplikasi data yang terlalu banyak.
+Seluruh [pohon Merkle](https://planb.academy/resources/glossary/merkle-tree) tidak pernah disimpan pada klien. Kami hanya membuat _Merkle path_ untuk setiap kontrak yang bersangkutan, untuk dikirimkan ke penerima (yang kemudian dapat memvalidasi komitmen). Dalam beberapa kasus, Anda mungkin memiliki beberapa aset yang telah melewati UTXO yang sama. Anda kemudian dapat menggabungkan beberapa _Merkle path_ ke dalam apa yang disebut _block komitmen multi-protokol_, untuk menghindari duplikasi data yang terlalu banyak.
 
 Oleh karena itu, setiap _Merkle proof_ ringan, terutama karena kedalaman pohon tidak akan melebihi 32 dalam RGB. Ada juga gagasan tentang "blok Merkle", yang menyimpan lebih banyak informasi (penampang melintang, entropi, dll.), yang berguna untuk menggabungkan atau memisahkan beberapa cabang.
 
@@ -1429,7 +1429,7 @@ Definisi Segel, dalam bentuknya yang terungkap, memiliki empat bidang dasar: `tx
         - Sebuah `txid` sederhana, jika menunjuk ke UTXO tertentu,
         - Atau `WitnessTx`, yang menunjukkan referensi mandiri: segel menunjuk ke transaksi itu sendiri. Ini sangat berguna ketika tidak ada UTXO eksternal yang tersedia, misalnya dalam transaksi pembukaan saluran Lightning, atau jika penerima tidak memiliki UTXO.
 - **vout** : nomor keluaran dari transaksi yang ditunjukkan oleh `txptr`. Hanya ada untuk segel Graph standar (bukan untuk `WitnessTx`);
-- **blinding**: angka acak 8 byte, untuk memperkuat kerahasiaan dan mencegah upaya brute force pada identitas UTXO;
+- **blinding**: angka acak 8 byte, untuk memperkuat kerahasiaan dan mencegah upaya [brute force](https://planb.academy/resources/glossary/brute-force-attack) pada identitas UTXO;
 - **method** : menunjukkan metode penahan yang digunakan (`Tapret` atau `Opret`).
 
 Bentuk *disembunyikan* dari Definisi Segel adalah hash SHA256 (ditandai) dari gabungan 4 bidang ini, dengan tag khusus untuk RGB.
@@ -1448,7 +1448,7 @@ RGB mendefinisikan empat jenis status yang mungkin (*StateTypes*) untuk Status M
 
 
 - **Deklaratif**: tidak berisi data numerik, hanya hak deklaratif (misalnya hak untuk memilih). Bentuk yang tersembunyi dan yang terungkap adalah identik;
-- **Fungible**: mewakili kuantitas yang dapat dipertukarkan (seperti token). Dalam bentuk terbuka, kita memiliki `jumlah` dan `kebodohan`. Dalam bentuk tersembunyi, kita memiliki satu *komitmen Pedersen* yang menyembunyikan jumlah dan blinding;
+- **Fungible**: mewakili kuantitas yang dapat dipertukarkan (seperti token). Dalam bentuk terbuka, kita memiliki `jumlah` dan `kebodohan`. Dalam bentuk tersembunyi, kita memiliki satu *[komitmen Pedersen](https://planb.academy/resources/glossary/pedersen-commitment)* yang menyembunyikan jumlah dan blinding;
 - **Terstruktur**: menyimpan data terstruktur (hingga 64 kB). Dalam bentuk yang terlihat, ini adalah gumpalan data. Dalam bentuk tersembunyi, ini adalah hash yang ditandai dari gumpalan ini:
 
 ```txt
@@ -1630,12 +1630,12 @@ Selain versi kode semantik, RGB mencakup sistem untuk mengembangkan atau memperb
 Kemajuan cepat terjadi ketika aturan yang sebelumnya tidak valid menjadi valid. Misalnya, jika kontrak berevolusi untuk mengizinkan jenis baru `TipePenugasan` atau bidang baru:
 
 
-- Ini tidak dapat dibandingkan dengan hardfork blockchain klasik, karena RGB bekerja dalam validasi sisi klien dan tidak memengaruhi kompatibilitas blockchain secara keseluruhan;
+- Ini tidak dapat dibandingkan dengan [hardfork](https://planb.academy/resources/glossary/hard-fork) blockchain klasik, karena RGB bekerja dalam validasi sisi klien dan tidak memengaruhi kompatibilitas blockchain secara keseluruhan;
 - Dalam istilah praktis, jenis perubahan ini ditunjukkan oleh bidang `Ffv` (*fast-forward version*) dalam operasi kontrak;
 - Pemegang saat ini tidak dirugikan: status mereka tetap berlaku;
 - Di sisi lain, penerima baru (atau pengguna baru), perlu memperbarui perangkat lunak mereka (dompet mereka) untuk mengenali aturan baru.
 
-Push-back berarti bahwa aturan yang sebelumnya valid menjadi tidak valid. Oleh karena itu, ini adalah "pengerasan" aturan, tetapi tidak sepenuhnya merupakan softfork:
+Push-back berarti bahwa aturan yang sebelumnya valid menjadi tidak valid. Oleh karena itu, ini adalah "pengerasan" aturan, tetapi tidak sepenuhnya merupakan [softfork](https://planb.academy/resources/glossary/soft-fork):
 
 
 - Pemegang yang sudah ada mungkin akan terkena dampak (mereka mungkin mendapati diri mereka dengan aset yang dianggap usang atau tidak valid dalam versi baru);

@@ -422,11 +422,11 @@ Trước khi đi sâu vào các chi tiết kỹ thuật hơn của chương th�
 
 :::video id=73ddea2d-c243-479d-a3dc-12d7db8eef70:::
 
-Trong chương này, chúng ta sẽ xem xét việc triển khai Xác thực phía máy khách và Dấu niêm phong sử dụng một lần trong chuỗi khối Bitcoin. Chúng tôi sẽ trình bày các nguyên tắc chính của **lớp cam kết** (lớp 1) của RGB, đặc biệt tập trung vào lược đồ **TxO2** mà RGB sử dụng để xác định và đóng dấu niêm phong trong giao dịch Bitcoin. Tiếp theo, chúng ta sẽ thảo luận về hai điểm quan trọng chưa được đề cập chi tiết:
+Trong chương này, chúng ta sẽ xem xét việc triển khai [Xác thực phía máy khách](https://planb.academy/resources/glossary/client-side-validation) và [Dấu niêm phong sử dụng một lần](https://planb.academy/resources/glossary/single-use-seal) trong chuỗi khối Bitcoin. Chúng tôi sẽ trình bày các nguyên tắc chính của **lớp cam kết** (lớp 1) của RGB, đặc biệt tập trung vào lược đồ **TxO2** mà RGB sử dụng để xác định và đóng dấu niêm phong trong giao dịch Bitcoin. Tiếp theo, chúng ta sẽ thảo luận về hai điểm quan trọng chưa được đề cập chi tiết:
 
 
 - _Những cam kết mang tính quyết định của Bitcoin_;
-- Cam kết đa giao thức.
+- [Cam kết đa giao thức](https://planb.academy/resources/glossary/multi-protocol-commitment).
 
 Sự kết hợp của những khái niệm này cho phép chúng ta chồng nhiều hệ thống hoặc hợp đồng lên một UTXO duy nhất và do đó là một blockchain duy nhất.
 
@@ -439,28 +439,28 @@ Như chúng ta đã thấy trong chương đầu tiên của khóa học, Dấu 
 Để hiểu logic, chúng ta hãy nhớ lại nguyên tắc cơ bản: để đóng _con dấu sử dụng một lần_, chúng ta sử dụng vùng đã niêm phong bằng cách chèn _cam kết_ vào một thông điệp nhất định. Trong Bitcoin, điều này có thể được thực hiện theo một số cách:
 
 
-- Sử dụng khóa công khai hoặc địa chỉ
+- Sử dụng [khóa công khai](https://planb.academy/resources/glossary/public-key) hoặc địa chỉ
 
 Chúng ta có thể quyết định rằng một khóa công khai hoặc địa chỉ cụ thể là _con dấu sử dụng một lần_. Ngay khi khóa hoặc địa chỉ này xuất hiện trên chuỗi trong một giao dịch, điều đó có nghĩa là con dấu được đóng lại bằng một thông báo nhất định.
 
 
 - Sử dụng đầu ra giao dịch **Bitcoin**
 
-Điều này có nghĩa là _con dấu sử dụng một lần_ được định nghĩa là _outpoint_ chính xác (một cặp TXID + số đầu ra). Ngay khi _outpoint_ này được sử dụng hết, con dấu sẽ được đóng lại.
+Điều này có nghĩa là _con dấu sử dụng một lần_ được định nghĩa là _[outpoint](https://planb.academy/resources/glossary/outpoint)_ chính xác (một cặp [TXID](https://planb.academy/resources/glossary/txid-transaction-identifier) + số đầu ra). Ngay khi _outpoint_ này được sử dụng hết, con dấu sẽ được đóng lại.
 
 Trong khi làm việc trên RGB, chúng tôi đã xác định được ít nhất 4 cách khác nhau để triển khai các con dấu này trên Bitcoin:
 
 
-- Xác định con dấu thông qua khóa công khai và đóng nó trong _output_;
+- Xác định con dấu thông qua khóa công khai và đóng nó trong _[output](https://planb.academy/resources/glossary/output)_;
 - Xác định dấu niêm phong bằng _outpoint_ và đóng nó bằng _output_;
-- Xác định con dấu thông qua giá trị của khóa công khai và đóng nó trong _input_;
+- Xác định con dấu thông qua giá trị của khóa công khai và đóng nó trong _[input](https://planb.academy/resources/glossary/input)_;
 - Xác định dấu niêm phong thông qua _outpoint_ và đóng nó trong _input_.
 
 | Tên sơ đồ    | Định nghĩa niêm phong      | Đóng niêm phong       | Yêu cầu bổ sung                                                | Ứng dụng chính               | Các sơ đồ cam kết có thể có   |
 | ------------ | ------------------------- | --------------------- | -------------------------------------------------------------- | ---------------------------- | ------------------------------ |
 | PkO          | Giá trị của khóa công khai | Đầu ra giao dịch      | P2(W)PKH                                                       | Hiện tại chưa có             | Keytweak, taptweak, opret      |
 | TxO2         | Đầu ra giao dịch          | Đầu ra giao dịch      | Yêu cầu các cam kết xác định trên Bitcoin                      | RGBv1 (phổ quát)             | Keytweak, tapret, opret        |
-| PkI          | Giá trị của khóa công khai | Đầu vào giao dịch     | Chỉ hỗ trợ Taproot & không tương thích với ví Legacy          | Danh tính dựa trên Bitcoin   | Sigtweak, witweak              |
+| PkI          | Giá trị của khóa công khai | Đầu vào giao dịch     | Chỉ hỗ trợ [Taproot](https://planb.academy/resources/glossary/taproot) & không tương thích với ví Legacy          | Danh tính dựa trên Bitcoin   | Sigtweak, witweak              |
 | TxO1         | Đầu ra giao dịch          | Đầu vào giao dịch     | Chỉ hỗ trợ Taproot & không tương thích với ví Legacy          | Hiện tại chưa có             | Sigtweak, witweak              |
 
 
@@ -480,7 +480,7 @@ Xin nhắc lại, việc xác định _con dấu sử dụng một lần_ không
 
 ![RGB-Bitcoin](assets/en/024.webp)
 
-Vào ngày muốn đóng dấu (để báo hiệu một sự kiện hoặc neo một thông điệp cụ thể), nó sẽ sử dụng UTXO này trong một giao dịch mới (giao dịch này thường được gọi là "_giao dịch chứng kiến_" (không liên quan đến _segwit_, đó chỉ là thuật ngữ chúng tôi đặt cho nó). Giao dịch mới này sẽ chứa _cam kết_ cho thông điệp.
+Vào ngày muốn đóng dấu (để báo hiệu một sự kiện hoặc neo một thông điệp cụ thể), nó sẽ sử dụng UTXO này trong một giao dịch mới (giao dịch này thường được gọi là "_[giao dịch chứng kiến](https://planb.academy/resources/glossary/witness-transaction)_" (không liên quan đến _segwit_, đó chỉ là thuật ngữ chúng tôi đặt cho nó). Giao dịch mới này sẽ chứa _cam kết_ cho thông điệp.
 
 ![RGB-Bitcoin](assets/en/025.webp)
 
@@ -546,18 +546,18 @@ Trong phần trước, chúng tôi đã đề cập ngắn gọn về cách mô 
 
 Khi bạn cung cấp cho ai đó bằng chứng rằng một thông điệp nhất định được nhúng trong giao dịch, bạn cần có khả năng đảm bảo rằng không có hình thức cam kết nào khác (một thông điệp ẩn thứ hai) trong cùng một giao dịch mà bạn chưa được tiết lộ. Để xác thực phía máy khách vẫn mạnh mẽ, bạn cần một cơ chế **xác định** để đặt một _cam kết_ duy nhất trong giao dịch đóng _dấu niêm phong sử dụng một lần_.
 
-_Giao dịch chứng kiến_ chi tiêu UTXO nổi tiếng (hoặc _định nghĩa con dấu_) và khoản chi tiêu này tương ứng với việc đóng con dấu. Về mặt kỹ thuật, chúng ta biết rằng mỗi điểm ra chỉ có thể được chi tiêu một lần. Đây chính xác là điều củng cố khả năng chống lại chi tiêu gấp đôi của Bitcoin. Nhưng giao dịch chi tiêu có thể có nhiều _đầu vào_, nhiều _đầu ra_ hoặc được tạo thành theo cách phức tạp (coinjoin, kênh Lightning, v.v.). Do đó, chúng ta cần xác định rõ ràng nơi chèn _cam kết_ vào cấu trúc này, một cách rõ ràng và thống nhất.
+_Giao dịch chứng kiến_ chi tiêu UTXO nổi tiếng (hoặc _định nghĩa con dấu_) và khoản chi tiêu này tương ứng với việc đóng con dấu. Về mặt kỹ thuật, chúng ta biết rằng mỗi điểm ra chỉ có thể được chi tiêu một lần. Đây chính xác là điều củng cố khả năng chống lại chi tiêu gấp đôi của Bitcoin. Nhưng giao dịch chi tiêu có thể có nhiều _đầu vào_, nhiều _đầu ra_ hoặc được tạo thành theo cách phức tạp ([coinjoin](https://planb.academy/resources/glossary/coinjoin), kênh Lightning, v.v.). Do đó, chúng ta cần xác định rõ ràng nơi chèn _cam kết_ vào cấu trúc này, một cách rõ ràng và thống nhất.
 
 Bất kể phương pháp nào (PkO, TxO2, v.v.), _cam kết_ đều có thể được chèn vào:
 
 
 - Trong **Đầu vào** qua:
-- **Sigtweak** (sửa đổi thành phần `r` của chữ ký ECDSA, tương tự như nguyên tắc "Ký hợp đồng");
+- **Sigtweak** (sửa đổi thành phần `r` của [chữ ký](https://planb.academy/resources/glossary/digital-signature) [ECDSA](https://planb.academy/resources/glossary/ecdsa), tương tự như nguyên tắc "Ký hợp đồng");
 - **Witweak** (dữ liệu chứng thực _được phân tách_ của giao dịch được sửa đổi).
 - Trong **Đầu ra** thông qua:
 - **Keytweak** (khóa công khai của người nhận được "điều chỉnh" bằng tin nhắn);
 - **Opret** (tin nhắn được đặt trong đầu ra không thể chi tiêu `OP_RETURN`);
-- **Tapret** (hay _Taptweak_), dựa vào taproot để chèn cam kết vào phần tập lệnh của khóa taproot, do đó sửa đổi khóa công khai một cách xác định.
+- **Tapret** (hay _Taptweak_), dựa vào taproot để chèn cam kết vào phần [tập lệnh](https://planb.academy/resources/glossary/script) của khóa taproot, do đó sửa đổi khóa công khai một cách xác định.
 
 ![RGB-Bitcoin](assets/en/035.webp)
 
@@ -567,7 +567,7 @@ Sau đây là thông tin chi tiết về từng phương pháp:
 
 ***Điều chỉnh chữ ký (ký hợp đồng) :***
 
-Một kế hoạch trước đó liên quan đến việc khai thác phần ngẫu nhiên của chữ ký (ECDSA hoặc Schnorr) để nhúng _cam kết_: đây là kỹ thuật được gọi là "**Sign-to-contract**". Bạn thay thế nonce được tạo ngẫu nhiên bằng hàm băm chứa dữ liệu. Theo cách này, chữ ký ngầm tiết lộ cam kết của bạn, mà không cần bất kỳ khoảng trống bổ sung nào trong giao dịch. Cách tiếp cận này có một số lợi thế:
+Một kế hoạch trước đó liên quan đến việc khai thác phần ngẫu nhiên của chữ ký (ECDSA hoặc [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol)) để nhúng _cam kết_: đây là kỹ thuật được gọi là "**Sign-to-contract**". Bạn thay thế [nonce](https://planb.academy/resources/glossary/nonce) được tạo ngẫu nhiên bằng hàm băm chứa dữ liệu. Theo cách này, chữ ký ngầm tiết lộ cam kết của bạn, mà không cần bất kỳ khoảng trống bổ sung nào trong giao dịch. Cách tiếp cận này có một số lợi thế:
 
 
 - Không có tình trạng quá tải trên chuỗi (bạn sử dụng cùng một vị trí như nonce cơ bản);
@@ -576,14 +576,14 @@ Một kế hoạch trước đó liên quan đến việc khai thác phần ng�
 Tuy nhiên, 2 nhược điểm lớn đã xuất hiện:
 
 
-- Multisig trước Taproot: khi bạn có nhiều người ký, bạn cần quyết định chữ ký nào sẽ mang _cam kết_. Chữ ký có thể được sắp xếp theo thứ tự khác nhau và nếu một người ký từ chối, bạn sẽ mất quyền kiểm soát kết quả của _cam kết_;
+- [Multisig](https://planb.academy/resources/glossary/multisig) trước Taproot: khi bạn có nhiều người ký, bạn cần quyết định chữ ký nào sẽ mang _cam kết_. Chữ ký có thể được sắp xếp theo thứ tự khác nhau và nếu một người ký từ chối, bạn sẽ mất quyền kiểm soát kết quả của _cam kết_;
 - MuSig và nonce được chia sẻ: với Schnorr multisig (*MuSig*), việc tạo nonce là một thuật toán đa bên và việc điều chỉnh nonce riêng lẻ trở nên hầu như không thể.
 
-Trên thực tế, **sig tweak** cũng không tương thích lắm với phần cứng hiện có (ví phần cứng) và định dạng (Lightning, v.v.). Vì vậy, ý tưởng tuyệt vời này khó có thể đưa vào thực tế.
+Trên thực tế, **sig tweak** cũng không tương thích lắm với phần cứng hiện có ([ví phần cứng](https://planb.academy/resources/glossary/hardware-wallet)) và định dạng (Lightning, v.v.). Vì vậy, ý tưởng tuyệt vời này khó có thể đưa vào thực tế.
 
 ***Điều chỉnh chính (trả tiền theo hợp đồng) :***
 
-**Điều chỉnh khóa** sử dụng khái niệm lịch sử về _pay-to-contract_. Chúng tôi lấy khóa công khai `X` và điều chỉnh nó bằng cách thêm giá trị `H(message)`. Cụ thể, nếu `X = x * G` và `h = H(message)`, thì khóa mới sẽ là `X' = X + h * G`. Khóa điều chỉnh này ẩn cam kết với `message`. Người giữ khóa riêng ban đầu có thể, bằng cách thêm `h` vào khóa riêng `x` của mình, chứng minh rằng anh ta có khóa để chi tiêu đầu ra. Về mặt lý thuyết, điều này rất thanh lịch, bởi vì:
+**Điều chỉnh khóa** sử dụng khái niệm lịch sử về _pay-to-contract_. Chúng tôi lấy khóa công khai `X` và điều chỉnh nó bằng cách thêm giá trị `H(message)`. Cụ thể, nếu `X = x * G` và `h = H(message)`, thì khóa mới sẽ là `X' = X + h * G`. Khóa điều chỉnh này ẩn cam kết với `message`. Người giữ [khóa riêng](https://planb.academy/resources/glossary/private-key) ban đầu có thể, bằng cách thêm `h` vào khóa riêng `x` của mình, chứng minh rằng anh ta có khóa để chi tiêu đầu ra. Về mặt lý thuyết, điều này rất thanh lịch, bởi vì:
 
 
 - _Cam kết_ được nhập mà không cần thêm bất kỳ trường bổ sung nào;
@@ -639,7 +639,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 
 
 - 29 byte `OP_RESERVED`, theo sau là `OP_RETURN`, rồi `OP_PUSHBYTE_33`, tạo thành phần _prefix_ 31 byte;
-- Tiếp theo là _cam kết_ 32 byte (thường là gốc Merkle từ **MPC**), chúng ta thêm 1 byte **Nonce** (tổng cộng là 33 byte cho phần thứ hai này).
+- Tiếp theo là _cam kết_ 32 byte (thường là [gốc Merkle](https://planb.academy/resources/glossary/merkle-root) từ **MPC**), chúng ta thêm 1 byte **Nonce** (tổng cộng là 33 byte cho phần thứ hai này).
 
 Vì vậy, phương thức `Tapret` 64 byte trông giống như `Opret` mà chúng ta đã thêm tiền tố 29 byte `OP_RESERVED` và thêm một byte bổ sung làm Nonce.
 
@@ -659,7 +659,7 @@ Trong trường hợp đầu tiên này, chúng ta bắt đầu từ khóa đầ
 
 
 - `P`: khóa công khai nội bộ cho _Key Path Spend_.
-- `G`: điểm tạo nên đường cong elip [secp256k1](https://en.bitcoin.it/wiki/Secp256k1).
+- `G`: điểm tạo nên [đường cong elip](https://planb.academy/resources/glossary/elliptic-curve) [secp256k1](https://en.bitcoin.it/wiki/Secp256k1).
 - t = tH_TWEAK(P)` là hệ số điều chỉnh, được tính toán thông qua _băm được gắn thẻ_ (ví dụ: `SHA-256(SHA-256(TapTweak) || P)`), theo [BIP86](https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki#address-derivation). Điều này chứng tỏ không có tập lệnh ẩn nào.
 
 Để bao gồm cam kết **Tapret**, hãy thêm **Chi tiêu đường dẫn tập lệnh** với **tập lệnh duy nhất**, như sau:
@@ -923,7 +923,7 @@ Cơ chế này đảm bảo rằng:
 
 Multi Protocol Commitment (MPC) là nguyên tắc cho phép RGB tổng hợp nhiều hợp đồng thành một giao dịch Bitcoin duy nhất, đồng thời duy trì tính duy nhất của các cam kết và tính bảo mật đối với những người tham gia khác. Nhờ vào cấu trúc xác định của cây, mỗi hợp đồng được chỉ định một vị trí duy nhất và sự hiện diện của các lá "giả" (*Entropy Leaves*) che giấu một phần tổng số hợp đồng tham gia vào giao dịch.
 
-Toàn bộ cây Merkle không bao giờ được lưu trữ trên máy khách. Chúng tôi chỉ tạo một _đường dẫn Merkle_ cho mỗi hợp đồng liên quan, để truyền đến người nhận (người sau đó có thể xác thực cam kết). Trong một số trường hợp, bạn có thể có một số tài sản đã đi qua cùng một UTXO. Sau đó, bạn có thể hợp nhất một số _đường dẫn Merkle_ thành một khối cam kết đa giao thức được gọi là _khối cam kết đa giao thức_, để tránh trùng lặp quá nhiều dữ liệu.
+Toàn bộ [cây Merkle](https://planb.academy/resources/glossary/merkle-tree) không bao giờ được lưu trữ trên máy khách. Chúng tôi chỉ tạo một _đường dẫn Merkle_ cho mỗi hợp đồng liên quan, để truyền đến người nhận (người sau đó có thể xác thực cam kết). Trong một số trường hợp, bạn có thể có một số tài sản đã đi qua cùng một UTXO. Sau đó, bạn có thể hợp nhất một số _đường dẫn Merkle_ thành một khối cam kết đa giao thức được gọi là _khối cam kết đa giao thức_, để tránh trùng lặp quá nhiều dữ liệu.
 
 Do đó, mỗi _Merkle proof_ đều nhẹ, đặc biệt là khi độ sâu của cây không vượt quá 32 trong RGB. Ngoài ra còn có khái niệm "khối Merkle", lưu giữ nhiều thông tin hơn (mặt cắt ngang, entropy, v.v.), hữu ích cho việc kết hợp hoặc tách nhiều nhánh.
 
@@ -1424,7 +1424,7 @@ Một trong những điểm mạnh lớn của RGB nằm ở khả năng hiển 
         - Một `txid` đơn giản, nếu trỏ đến một UTXO cụ thể,
         - Hoặc `WitnessTx`, chỉ định tham chiếu tự thân: con dấu trỏ đến chính giao dịch. Điều này đặc biệt hữu ích khi không có UTXO bên ngoài nào khả dụng, ví dụ như trong các giao dịch mở kênh Lightning hoặc nếu người nhận không có UTXO.
 - **vout**: số đầu ra của giao dịch được chỉ định bởi `txptr`. Chỉ có trong dấu Graph chuẩn (không có trong `WitnessTx`);
-- **blinding**: một số ngẫu nhiên gồm 8 byte, để tăng cường tính bảo mật và ngăn chặn các nỗ lực tấn công bằng vũ lực vào danh tính của UTXO;
+- **blinding**: một số ngẫu nhiên gồm 8 byte, để tăng cường tính bảo mật và ngăn chặn các nỗ lực tấn công bằng [vũ lực](https://planb.academy/resources/glossary/brute-force-attack) vào danh tính của UTXO;
 - **phương pháp**: biểu thị phương pháp neo được sử dụng (`Tapret` hoặc `Opret`).
 
 Dạng *ẩn* của Định nghĩa Dấu niêm phong là hàm băm SHA256 (được gắn thẻ) của phép nối 4 trường này, với một thẻ cụ thể cho RGB.
@@ -1443,7 +1443,7 @@ RGB định nghĩa bốn loại trạng thái có thể có (*StateTypes*) cho m
 
 
 - **Khai báo**: không chứa dữ liệu số, chỉ có quyền khai báo (ví dụ: quyền bỏ phiếu). Các hình thức ẩn và hiển thị là giống hệt nhau;
-- **Fungible**: biểu thị một số lượng có thể thay thế (như token). Ở dạng được tiết lộ, chúng ta có `amount` và `blinding`. Ở dạng ẩn, chúng ta có một *Pedersen commit* duy nhất ẩn số lượng và blinding;
+- **Fungible**: biểu thị một số lượng có thể thay thế (như token). Ở dạng được tiết lộ, chúng ta có `amount` và `blinding`. Ở dạng ẩn, chúng ta có một *[Pedersen commit](https://planb.academy/resources/glossary/pedersen-commitment)* duy nhất ẩn số lượng và blinding;
 - **Structured**: lưu trữ dữ liệu có cấu trúc (tối đa 64 kB). Ở dạng hiển thị, đó là blob dữ liệu. Ở dạng ẩn, đó là băm được gắn thẻ của blob này:
 
 ```txt
@@ -1625,12 +1625,12 @@ Ngoài phiên bản mã ngữ nghĩa, RGB bao gồm một hệ thống để ph�
 Chuyển tiếp nhanh xảy ra khi một quy tắc trước đây không hợp lệ trở thành hợp lệ. Ví dụ, nếu hợp đồng phát triển để cho phép một loại `AssignmentType` mới hoặc một trường mới:
 
 
-- Điều này không thể so sánh với hardfork blockchain cổ điển vì RGB hoạt động trong quá trình xác thực phía máy khách và không ảnh hưởng đến khả năng tương thích tổng thể của blockchain;
+- Điều này không thể so sánh với [hardfork](https://planb.academy/resources/glossary/hard-fork) blockchain cổ điển vì RGB hoạt động trong quá trình xác thực phía máy khách và không ảnh hưởng đến khả năng tương thích tổng thể của blockchain;
 - Trên thực tế, loại thay đổi này được biểu thị bằng trường `Ffv` (*phiên bản tua nhanh*) trong hoạt động hợp đồng;
 - Người sở hữu thẻ hiện tại không bị ảnh hưởng: tình trạng của họ vẫn có giá trị;
 - Mặt khác, người thụ hưởng mới (hoặc người dùng mới) cần cập nhật phần mềm (ví của họ) để nhận ra các quy tắc mới.
 
-Đẩy lùi có nghĩa là một quy tắc hợp lệ trước đó trở nên không hợp lệ. Do đó, đây là một "sự cứng rắn" của các quy tắc, nhưng không hoàn toàn là một softfork:
+Đẩy lùi có nghĩa là một quy tắc hợp lệ trước đó trở nên không hợp lệ. Do đó, đây là một "sự cứng rắn" của các quy tắc, nhưng không hoàn toàn là một [softfork](https://planb.academy/resources/glossary/soft-fork):
 
 
 - Những người nắm giữ hiện tại có thể bị ảnh hưởng (họ có thể thấy tài sản của mình trở nên lỗi thời hoặc không hợp lệ trong phiên bản mới);

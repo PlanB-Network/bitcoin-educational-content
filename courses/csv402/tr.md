@@ -620,13 +620,13 @@ Bir sonraki adım, bu Single-Use Seal mekanizmasının Bitcoin'te (UTXO'lar arac
 :::video id=73ddea2d-c243-479d-a3dc-12d7db8eef70:::
 
 
-Bu bölümde, Bitcoin Blockchain içinde Client-side Validation ve Tek Kullanımlık Mühürlerin uygulanmasına bakacağız. RGB'un bir Bitcoin işleminde bir Seal tanımlamak ve kapatmak için kullandığı **TxO2** şemasına özellikle odaklanarak RGB'un **Commitment Layer** (Layer 1) ana ilkelerini sunacağız. Daha sonra, henüz ayrıntılı olarak ele alınmamış iki önemli noktayı tartışacağız:
+Bu bölümde, Bitcoin Blockchain içinde [Client-side Validation](https://planb.academy/resources/glossary/client-side-validation) ve [Tek Kullanımlık Mühürlerin](https://planb.academy/resources/glossary/single-use-seal) uygulanmasına bakacağız. RGB'un bir Bitcoin işleminde bir Seal tanımlamak ve kapatmak için kullandığı **TxO2** şemasına özellikle odaklanarak RGB'un **Commitment Layer** (Layer 1) ana ilkelerini sunacağız. Daha sonra, henüz ayrıntılı olarak ele alınmamış iki önemli noktayı tartışacağız:
 
 
 
 
 - Belirleyici Bitcoin taahhütleri_;
-- Çoklu protokol taahhütleri.
+- [Çoklu protokol taahhütleri](https://planb.academy/resources/glossary/multi-protocol-commitment).
 
 
 Tek bir UTXO'nin ve dolayısıyla tek bir Blockchain'in üzerine birkaç sistemi veya sözleşmeyi yerleştirmemizi sağlayan şey bu kavramların birleşimidir.
@@ -646,7 +646,7 @@ Mantığı anlamak için temel prensibi hatırlayalım: bir _tek kullanımlık m
 
 
 
-- **Açık anahtar veya Address** kullanın
+- **[Açık anahtar](https://planb.academy/resources/glossary/public-key) veya Address** kullanın
 
 
 Belirli bir açık anahtarın veya Address'in _tek kullanımlık mühür_ olduğuna karar verebiliriz. Bu anahtar veya Address bir işlemde On-Chain olarak görünür görünmez, Seal'nın belirli bir mesajla kapatıldığı anlamına gelir.
@@ -654,10 +654,10 @@ Belirli bir açık anahtarın veya Address'in _tek kullanımlık mühür_ olduğ
 
 
 
-- Bir **Bitcoin** işlem çıktısı kullanın
+- Bir **Bitcoin** işlem [çıktısı](https://planb.academy/resources/glossary/output) kullanın
 
 
-Bu, bir _tek kullanımlık mühür_ün kesin bir _çıkış noktası_ (bir txid + çıkış numarası çifti) olarak tanımlandığı anlamına gelir. Bu _çıkış noktası_ harcanır harcanmaz Seal kapatılır.
+Bu, bir _tek kullanımlık mühür_ün kesin bir _[çıkış noktası](https://planb.academy/resources/glossary/outpoint)_ (bir [txid](https://planb.academy/resources/glossary/txid-transaction-identifier) + çıkış numarası çifti) olarak tanımlandığı anlamına gelir. Bu _çıkış noktası_ harcanır harcanmaz Seal kapatılır.
 
 
 RGB üzerinde çalışırken, bu mühürleri Bitcoin üzerinde uygulamak için en az 4 farklı yol belirledik:
@@ -667,7 +667,7 @@ RGB üzerinde çalışırken, bu mühürleri Bitcoin üzerinde uygulamak için e
 
 - Seal'yi bir genel anahtar aracılığıyla tanımlayın ve bir _output_ içinde kapatın;
 - Seal'ü bir _outpoint_ ile tanımlayın ve bir _output_ ile kapatın;
-- Seal'ü bir genel anahtar değeri üzerinden tanımlayın ve bir _input_ içinde kapatın;
+- Seal'ü bir genel anahtar değeri üzerinden tanımlayın ve bir _[input](https://planb.academy/resources/glossary/input)_ içinde kapatın;
 - Seal'i bir _outpoint_ ile tanımlayın ve bir _input_ ile kapatın.
 
 
@@ -675,7 +675,7 @@ RGB üzerinde çalışırken, bu mühürleri Bitcoin üzerinde uygulamak için e
 | ----------- | ------------------------- | ------------------------- | -------------------------------------------------------------- | --------------------------- | -------------------------------- |
 | PkO         | Public Key Value          | Transaction Output        | P2(W)PKH                                                       | None at the moment          | Keytweak, taptweak, opret       |
 | TxO2        | Transaction Output        | Transaction Output        | Requires deterministic commitments on Bitcoin                  | RGBv1 (universal)           | Keytweak, tapret, opret         |
-| PkI         | Public Key Value          | Transaction Input         | Taproot only & not compatible with legacy wallets              | Bitcoin-based identities    | Sigtweak, witweak               |
+| PkI         | Public Key Value          | Transaction Input         | [Taproot](https://planb.academy/resources/glossary/taproot) only & not compatible with legacy wallets              | Bitcoin-based identities    | Sigtweak, witweak               |
 | TxO1        | Transaction Output        | Transaction Input         | Taproot only & not compatible with legacy wallets              | None at the moment          | Sigtweak, witweak               |
 
 
@@ -703,7 +703,7 @@ Bir hatırlatma olarak, bir _tek kullanımlık mühür_ tanımlamak için mutlak
 ![RGB-Bitcoin](assets/en/024.webp)
 
 
-Seal'yi kapatmak istediği gün (bir olayı işaret etmek veya belirli bir mesajı Anchor'ya göndermek için), bu UTXO'i yeni bir işlemde harcar (bu işlem genellikle "_witness transaction_" olarak adlandırılır (_segwit_ ile ilgisi yoktur, sadece bizim verdiğimiz terimdir). Bu yeni işlem, mesajın _commitment_'ını içerecektir.
+Seal'yi kapatmak istediği gün (bir olayı işaret etmek veya belirli bir mesajı Anchor'ya göndermek için), bu UTXO'i yeni bir işlemde harcar (bu işlem genellikle "_[witness transaction](https://planb.academy/resources/glossary/witness-transaction)_" olarak adlandırılır (_segwit_ ile ilgisi yoktur, sadece bizim verdiğimiz terimdir). Bu yeni işlem, mesajın _commitment_'ını içerecektir.
 
 
 ![RGB-Bitcoin](assets/en/025.webp)

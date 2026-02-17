@@ -422,11 +422,11 @@ Antes de sumergirnos en los detalles más técnicos del segundo capítulo, no du
 
 :::video id=73ddea2d-c243-479d-a3dc-12d7db8eef70:::
 
-En este capítulo, veremos la implementación de la Client-side validation y los Single-use Seal dentro de la blockchain de Bitcoin. Presentaremos los principios fundamentales de la **capa de commitment** (capa 1) de RGB, con especial atención al esquema **TxO2**, que es utilizado por RGB para definir y cerrar un sello en una transacción Bitcoin. A continuación, discutiremos dos puntos importantes que aún no han sido tratados en detalle:
+En este capítulo, veremos la implementación de la [Client-side validation](https://planb.academy/resources/glossary/client-side-validation) y los [Single-use Seal](https://planb.academy/resources/glossary/single-use-seal) dentro de la blockchain de Bitcoin. Presentaremos los principios fundamentales de la **capa de commitment** (capa 1) de RGB, con especial atención al esquema **TxO2**, que es utilizado por RGB para definir y cerrar un sello en una transacción Bitcoin. A continuación, discutiremos dos puntos importantes que aún no han sido tratados en detalle:
 
 
 - Los _commitments deterministas de Bitcoin_;
-- Commitments multiprotocolo.
+- [Commitments multiprotocolo](https://planb.academy/resources/glossary/multi-protocol-commitment).
 
 Es la combinación de estos conceptos lo que nos permite superponer varios sistemas o contratos sobre un único UTXO y, por tanto, una única blockchain.
 
@@ -439,28 +439,28 @@ Como vimos en el primer capítulo del curso, los Single-use Seal son un concepto
 Para entender la lógica, recordemos el principio básico: para cerrar un _Single-use Seal_, gastamos el área sellada insertando el _commitment_ en un mensaje dado. En Bitcoin, esto puede hacerse de varias maneras:
 
 
-- **Utilizar una public key o una address**
+- **Utilizar una [public key](https://planb.academy/resources/glossary/public-key) o una address**
 
 Podemos decidir que una determinada public key o address es el _sello de uso único_. En cuanto esta clave o dirección aparece en la cadena en una transacción, significa que el sello se cierra con un mensaje determinado.
 
 
-- Utilizar una transacción output de **Bitcoin**
+- Utilizar una transacción [output](https://planb.academy/resources/glossary/output) de **Bitcoin**
 
-Esto significa que un _Single-use Seal_ se define como un _outpoint_ preciso (un par TXID + número de salida). En cuanto se gasta este _outpoint_, el sello se cierra.
+Esto significa que un _Single-use Seal_ se define como un _[outpoint](https://planb.academy/resources/glossary/outpoint)_ preciso (un par [TXID](https://planb.academy/resources/glossary/txid-transaction-identifier) + número de salida). En cuanto se gasta este _outpoint_, el sello se cierra.
 
 Mientras trabajábamos en RGB, identificamos al menos 4 formas diferentes de implementar estos sellos en Bitcoin:
 
 
 - Define el sello mediante una public key y ciérralo en una _output_ ;
 - Define el sello con un _outpoint_ y ciérralo con un _output_ ;
-- Define el sello mediante el valor de una public key y ciérralo en un _input_ ;
+- Define el sello mediante el valor de una public key y ciérralo en un _[input](https://planb.academy/resources/glossary/input)_ ;
 - Define el sello mediante un _outpoint_, y ciérralo en un _input_.
 
 | Nombre del esquema | Definición del sello     | Cierre del sello        | Requisitos adicionales                                         | Aplicación principal        | Esquemas de commitments posibles |
 | ------------------ | ------------------------ | ----------------------- | -------------------------------------------------------------- | --------------------------- | -------------------------------- |
 | PkO                | Valor de la public key | Output de transacción   | P2(W)PKH                                                       | Ninguna por el momento      | Keytweak, taptweak, opret       |
 | TxO2               | Output de transacción     | Output de transacción   | Requiere commitments deterministas en Bitcoin                  | RGBv1 (universal)           | Keytweak, tapret, opret         |
-| PkI                | Valor de la public key | Input de transacción  | Solo Taproot & no compatible con legacy wallets              | Identidades basadas en Bitcoin | Sigtweak, witweak              |
+| PkI                | Valor de la public key | Input de transacción  | Solo [Taproot](https://planb.academy/resources/glossary/taproot) & no compatible con legacy wallets              | Identidades basadas en Bitcoin | Sigtweak, witweak              |
 | TxO1               | Salida de transacción     | Input de transacción  | Solo Taproot & no compatible con legacy wallets               | Ninguna por el momento      | Sigtweak, witweak               |
 
 No entraremos en detalle en cada una de estas configuraciones, ya que en RGB hemos optado por utilizar **un _outpoint_ como Seal definition**, y situar el _commitment_ en el output de la transacción gastando este _outpoint_. Por lo tanto, podemos introducir los siguientes conceptos para la secuela:
@@ -479,7 +479,7 @@ Como recordatorio, definir un _Single-use Seal_ no requiere necesariamente publi
 
 ![RGB-Bitcoin](assets/en/024.webp)
 
-El día que quiere cerrar el sello (para señalar un evento, o para anclar un mensaje en particular), gasta este UTXO en una nueva transacción (esta transacción suele llamarse "_transacción witness_" (no tiene relación con _segwit_, es sólo el término que le damos). Esta nueva transacción contendrá el _commitment_ con el mensaje.
+El día que quiere cerrar el sello (para señalar un evento, o para anclar un mensaje en particular), gasta este UTXO en una nueva transacción (esta transacción suele llamarse "_[transacción witness](https://planb.academy/resources/glossary/witness-transaction)_" (no tiene relación con _segwit_, es sólo el término que le damos). Esta nueva transacción contendrá el _commitment_ con el mensaje.
 
 ![RGB-Bitcoin](assets/en/025.webp)
 
@@ -545,13 +545,13 @@ En la sección anterior, mencionamos brevemente cómo el modelo de Client-side v
 
 Cuando le das a alguien la prueba de que un determinado mensaje está incrustado en una transacción, necesitas poder garantizar que no hay otra forma de commitment, es decir, un segundo mensaje oculto en la misma transacción que no te haya sido revelado. Para que la Client-side validation siga siendo robusta, necesitas un mecanismo **determinista** para colocar un único _commitment_ en la transacción que cierre el _sello de uso único_.
 
-La _witness transaction_ gasta el famoso UTXO (o _Seal definition_) y este gasto corresponde al cierre del sello. Técnicamente hablando, sabemos que cada outpoint sólo puede gastarse una vez. Esto es precisamente lo que sustenta la resistencia de Bitcoin al problema del doble gasto. Pero la transacción de gasto puede tener varios _inputs_, varios _outputs_, o estar compuesta de forma compleja (coinjoins, canales Lightning, etc.). Por lo tanto, necesitamos definir claramente dónde insertar el _commitment_ en esta estructura, de forma inequívoca y uniforme.
+La _witness transaction_ gasta el famoso UTXO (o _Seal definition_) y este gasto corresponde al cierre del sello. Técnicamente hablando, sabemos que cada outpoint sólo puede gastarse una vez. Esto es precisamente lo que sustenta la resistencia de Bitcoin al problema del doble gasto. Pero la transacción de gasto puede tener varios _inputs_, varios _outputs_, o estar compuesta de forma compleja ([coinjoins](https://planb.academy/resources/glossary/coinjoin), canales Lightning, etc.). Por lo tanto, necesitamos definir claramente dónde insertar el _commitment_ en esta estructura, de forma inequívoca y uniforme.
 
 Sea cual sea el método (PkO, TxO2, etc.), el _commitment_ puede insertarse :
 
 
 - En un **input** vía:
-    - **Sigtweak** (modifica el componente `r` de la firma ECDSA, de forma similar al principio "Sign-to-contract") ;
+    - **Sigtweak** (modifica el componente `r` de la [firma](https://planb.academy/resources/glossary/digital-signature) [ECDSA](https://planb.academy/resources/glossary/ecdsa), de forma similar al principio "Sign-to-contract") ;
     - **Witweak** (se modifican los datos del _witness_ de la transacción).
 - En un **output** a través de:
     - **Keytweak** (la public key del destinatario se "retoca" con el mensaje) ;
@@ -566,7 +566,7 @@ He aquí los detalles de cada método:
 
 ***Sig tweak (sign-to-contract):***
 
-Un esquema anterior consistía en explotar la parte aleatoria de una firma (ECDSA o Schnorr) para incrustar el _commitment_: esta es la técnica conocida como "**Sign-to-contract**". Se sustituye el nonce generado aleatoriamente por un hash que contiene los datos. De este modo, la firma revela implícitamente tu commitment, sin espacio adicional en la transacción. Este enfoque tiene una serie de ventajas:
+Un esquema anterior consistía en explotar la parte aleatoria de una firma (ECDSA o [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol)) para incrustar el _commitment_: esta es la técnica conocida como "**Sign-to-contract**". Se sustituye el [nonce](https://planb.academy/resources/glossary/nonce) generado aleatoriamente por un hash que contiene los datos. De este modo, la firma revela implícitamente tu commitment, sin espacio adicional en la transacción. Este enfoque tiene una serie de ventajas:
 
 
 - No hay sobrecarga en la cadena (se utiliza el mismo lugar que el nonce básico);
@@ -575,14 +575,14 @@ Un esquema anterior consistía en explotar la parte aleatoria de una firma (ECDS
 Sin embargo, han surgido 2 grandes inconvenientes:
 
 
-- Multisig antes de Taproot: cuando tienes varios firmantes, necesitas decidir qué firma llevará el _commitment_. Las firmas pueden ordenarse de forma diferente, y si un firmante se niega, pierdes el control sobre el resultado del _commitment_;
+- [Multisig](https://planb.academy/resources/glossary/multisig) antes de Taproot: cuando tienes varios firmantes, necesitas decidir qué firma llevará el _commitment_. Las firmas pueden ordenarse de forma diferente, y si un firmante se niega, pierdes el control sobre el resultado del _commitment_;
 - MuSig y el nonce compartido: con Schnorr multisig (*MuSig*), la generación del nonce es un algoritmo multipartito, y resulta prácticamente imposible modificar el nonce individualmente.
 
-En la práctica, **sig tweak** tampoco es muy compatible con el hardware (hardware wallets) y los formatos existentes (Lightning, etc.). Así que esta gran idea es difícil de poner en práctica.
+En la práctica, **sig tweak** tampoco es muy compatible con el hardware ([hardware wallets](https://planb.academy/resources/glossary/hardware-wallet)) y los formatos existentes (Lightning, etc.). Así que esta gran idea es difícil de poner en práctica.
 
 **Key tweak (pay-to-contract):**
 
-El "key tweak" (ajuste de clave) retoma el concepto histórico de "pay-to-contract". Tomamos la public key `X` y la modificamos añadiendo el valor `H(mensaje)`. En concreto, si `X = x * G` y `h = H(mensaje)`, la nueva key será `X' = X + h * G`. Esta clave modificada oculta el commitment con el "mensaje". El poseedor de la private key original puede, añadiendo `h` a su private key `x`, demostrar que tiene la key para gastar el output. En teoría, esto es elegante, porque:
+El "key tweak" (ajuste de clave) retoma el concepto histórico de "pay-to-contract". Tomamos la public key `X` y la modificamos añadiendo el valor `H(mensaje)`. En concreto, si `X = x * G` y `h = H(mensaje)`, la nueva key será `X' = X + h * G`. Esta clave modificada oculta el commitment con el "mensaje". El poseedor de la [private key](https://planb.academy/resources/glossary/private-key) original puede, añadiendo `h` a su private key `x`, demostrar que tiene la key para gastar el output. En teoría, esto es elegante, porque:
 
 
 - El _commitment_ se introduce sin añadir ningún campo adicional;
@@ -593,7 +593,7 @@ En la práctica, sin embargo, nos encontramos con las siguientes dificultades:
 
 - Las wallets ya no reconocen la public key estándar, puesto que ha sido "tweaked" (retocada), por lo que no pueden asociar fácilmente UTXO con tu key habitual;
 - Las hardware wallets no están diseñados para firmar con una key que no proceda de su derivación estándar;
-- Debe adaptar sus guiones, descriptores, etc.
+- Debe adaptar sus [guiones](https://planb.academy/resources/glossary/script), descriptores, etc.
 
 En el contexto del RGB, esta vía estaba prevista hasta 2021, pero resultó demasiado complicada para hacerla funcionar con las normas y la infraestructura actuales.
 
@@ -638,7 +638,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 
 
 - Los 29 bytes `OP_RESERVED`, seguidos de `OP_RETURN`, y luego `OP_PUSHBYTE_33`, forman la parte _prefix_ de 31 bytes;
-- A continuación viene un _commitment_ de 32 bytes (normalmente la Merkle Root de **MPC**), al que añadimos 1 byte de **Nonce** (un total de 33 bytes para esta segunda parte).
+- A continuación viene un _commitment_ de 32 bytes (normalmente la [Merkle Root](https://planb.academy/resources/glossary/merkle-root) de **MPC**), al que añadimos 1 byte de **Nonce** (un total de 33 bytes para esta segunda parte).
 
 Así que el método `Tapret` de 64 bytes parece un `Opret` al que hemos prefijado 29 bytes de `OP_RESERVED` y añadido un byte extra como Nonce.
 
@@ -658,7 +658,7 @@ En este primer caso, partimos de una clave de salida taproot (*Taproot Output Ke
 
 
 - `P`: la public key interna para el _Key Path Spend.e_.
-- `G`: el punto generador de la curva elíptica [secp256k1](https://es.bitcoin.it/wiki/Secp256k1).
+- `G`: el punto generador de la [curva elíptica](https://planb.academy/resources/glossary/elliptic-curve) [secp256k1](https://es.bitcoin.it/wiki/Secp256k1).
 - t = tH_TWEAK(P)` es el factor de pellizco, calculado mediante un _tagged hash_ (por ejemplo `SHA-256(SHA-256(TapTweak) || P)`), de acuerdo con [BIP86](https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki#address-derivation). Esto prueba que no hay ningún script oculto.
 
 Para incluir un commitment de **Tapret**, añade un **Script Path Spend** con un **script único**, como sigue:
@@ -928,7 +928,7 @@ Este mecanismo garantiza que:
 
 El **Commitment Multiprotocolo** (MPC) es el principio que permite a RGB agregar múltiples contratos en una sola transacción de Bitcoin, manteniendo la unicidad de los commitments y la confidencialidad frente a otros participantes. Gracias a la construcción determinista del árbol, a cada contrato se le asigna una posición única, y la presencia de hojas "ficticias" (*Hojas de Entropía*) enmascara parcialmente el número total de contratos que participan en la transacción.
 
-El Merkle Tree (Árbol de Merkle) completo nunca se almacena en el cliente. Nos limitamos a generar un _Path Merkle_ (Ruta Merkle) para cada contrato en cuestión, que se transmitirá al destinatario (quien podrá validar el commitment). En algunos casos, puede tener varios activos que hayan pasado por el mismo UTXO. En ese caso, puede fusionar varios _Merkle paths_ en un denominado _bloque de commitment multiprotocolo_, para evitar duplicar demasiados datos.
+El [Merkle Tree](https://planb.academy/resources/glossary/merkle-tree) (Árbol de Merkle) completo nunca se almacena en el cliente. Nos limitamos a generar un _Path Merkle_ (Ruta Merkle) para cada contrato en cuestión, que se transmitirá al destinatario (quien podrá validar el commitment). En algunos casos, puede tener varios activos que hayan pasado por el mismo UTXO. En ese caso, puede fusionar varios _Merkle paths_ en un denominado _bloque de commitment multiprotocolo_, para evitar duplicar demasiados datos.
 
 Cada _prueba de Merkle_ es por tanto ligera, sobre todo porque la profundidad del árbol no superará los 32 en RGB. También existe la noción de "Merkle block" (Bloque de Merkle), que conserva más información (sección transversal, entropía, etc.), útil para combinar o separar varias ramas.
 
@@ -1429,7 +1429,7 @@ El *Seal Definition*, en su forma revelada, tiene cuatro campos básicos: `txptr
         - Un simple `txid`, si apunta a un UTXO específico,
         - O un `WitnessTx`, que designa una autorreferencia: el sello apunta a la propia transacción. Esto resulta especialmente útil cuando no se dispone de un UTXO externo, por ejemplo en las transacciones de apertura de canales Lightning, o si el destinatario no dispone de UTXO.
 - **vout** : el número de salida de la transacción indicada por `txptr`. Presente sólo para un sello Graph estándar (no para `WitnessTx`);
-- **blinding**: un número aleatorio de 8 bytes, para reforzar la confidencialidad y evitar intentos de fuerza bruta sobre la identidad del UTXO;
+- **blinding**: un número aleatorio de 8 bytes, para reforzar la confidencialidad y evitar intentos de [fuerza bruta](https://planb.academy/resources/glossary/brute-force-attack) sobre la identidad del UTXO;
 - **method** : indica el método de anclaje utilizado (`Tapret` u `Opret`).
 
 La forma *concealed* del Seal Definition es un hash SHA256 (etiquetado) de la concatenación de estos 4 campos, con una etiqueta específica para RGB.
@@ -1448,7 +1448,7 @@ RGB define cuatro posibles tipos de estado (*StateTypes*) para un Owned State:
 
 
 - **Declarativo**: no contiene datos numéricos, sólo un derecho declarativo (por ejemplo, el derecho de voto). Las formas oculta y revelada son idénticas;
-- **Fungible**: representa una cantidad fungible (como las fichas). En forma revelada, tenemos `amount` y `blinding`. En forma oculta, tenemos un único *Pedersen Commitment* que oculta el amount y el blinding;
+- **Fungible**: representa una cantidad fungible (como las fichas). En forma revelada, tenemos `amount` y `blinding`. En forma oculta, tenemos un único *[Pedersen Commitment](https://planb.academy/resources/glossary/pedersen-commitment)* que oculta el amount y el blinding;
 - **Estructurado**: almacena datos estructurados (hasta 64 kB). En forma revelada, es el blob de datos. En forma oculta, es un hash etiquetado de este blob:
 
 ```txt
@@ -1630,12 +1630,12 @@ Además del versionado semántico del código, RGB incluye un sistema de evoluci
 Un avance rápido se produce cuando una norma que antes no era válida pasa a serlo. Por ejemplo, si el contrato evoluciona para permitir un nuevo tipo de `AssignmentType` o un nuevo campo:
 
 
-- Esto no puede compararse con un hardfork clásico de blockchain, ya que RGB funciona en la Client-side validation y no afecta a la compatibilidad general de la blockchain;
+- Esto no puede compararse con un [hardfork](https://planb.academy/resources/glossary/hard-fork) clásico de blockchain, ya que RGB funciona en la Client-side validation y no afecta a la compatibilidad general de la blockchain;
 - En la práctica, este tipo de cambio se indica mediante el campo `Ffv` (*fast-forward version*) de la operación contractual;
 - Los titulares actuales no se ven perjudicados: su estatus sigue siendo válido;
 - Los nuevos beneficiarios (o nuevos usuarios), por otra parte, necesitan actualizar su software (su wallet) para reconocer las nuevas normas.
 
-Un "push-back" significa que una norma anteriormente válida pasa a ser inválida. Se trata, por tanto, de un "endurecimiento" de las normas, pero no propiamente de un softfork:
+Un "push-back" significa que una norma anteriormente válida pasa a ser inválida. Se trata, por tanto, de un "endurecimiento" de las normas, pero no propiamente de un [softfork](https://planb.academy/resources/glossary/soft-fork):
 
 
 - Los titulares existentes pueden verse afectados (podrían encontrarse con activos obsoletos o inválidos en la nueva versión);

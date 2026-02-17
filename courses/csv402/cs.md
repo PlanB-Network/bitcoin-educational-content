@@ -423,11 +423,11 @@ Než se ponoříte do technických detailů druhé kapitoly, neváhejte si znovu
 
 :::video id=73ddea2d-c243-479d-a3dc-12d7db8eef70:::
 
-V této kapitole se podíváme na implementaci ověřování na straně klienta a jednorázových pečetí v rámci blockchainu Bitcoin. Představíme si hlavní principy vrstvy **commitment** (vrstva 1) systému RGB se zvláštním zaměřením na schéma **TxO2**, které systém RGB používá k definování a uzavření pečetě v transakci Bitcoin. Dále probereme dva důležité body, které dosud nebyly podrobně popsány:
+V této kapitole se podíváme na implementaci [ověřování na straně klienta](https://planb.academy/resources/glossary/client-side-validation) a [jednorázových pečetí](https://planb.academy/resources/glossary/single-use-seal) v rámci blockchainu Bitcoin. Představíme si hlavní principy vrstvy **commitment** (vrstva 1) systému RGB se zvláštním zaměřením na schéma **TxO2**, které systém RGB používá k definování a uzavření pečetě v transakci Bitcoin. Dále probereme dva důležité body, které dosud nebyly podrobně popsány:
 
 
 - _deterministické závazky Bitcoinu_;
-- Víceprotokolové závazky.
+- [Víceprotokolové závazky](https://planb.academy/resources/glossary/multi-protocol-commitment).
 
 Právě kombinace těchto konceptů nám umožňuje navrstvit několik systémů nebo kontraktů na jeden UTXO, a tedy na jeden blockchain.
 
@@ -440,28 +440,28 @@ Jak jsme viděli v první kapitole kurzu, jednorázové pečetě jsou obecným k
 Abychom pochopili logiku, připomeňme si základní princip: chceme-li uzavřít _jednorázovou pečeť_, strávíme zapečetěnou oblast vložením _závazku_ na danou zprávu. V Bitcoinu to lze provést několika způsoby:
 
 
-- **Použití veřejného klíče nebo adresy**
+- **Použití [veřejného klíče](https://planb.academy/resources/glossary/public-key) nebo adresy**
 
 Můžeme se rozhodnout, že konkrétní veřejný klíč nebo adresa je _jednorázovou pečetí_. Jakmile se tento klíč nebo adresa objeví v řetězci v transakci, znamená to, že pečeť je uzavřena určitou zprávou.
 
 
-- Použijte výstup transakce **Bitcoin**
+- Použijte [výstup](https://planb.academy/resources/glossary/output) transakce **Bitcoin**
 
-To znamená, že _jednorázová pečeť_ je definována jako přesný _výstupní bod_ (dvojice TXID + výstupní číslo). Jakmile je tento _výstupní bod_ vyčerpán, je pečeť uzavřena.
+To znamená, že _jednorázová pečeť_ je definována jako přesný _[výstupní bod](https://planb.academy/resources/glossary/outpoint)_ (dvojice [TXID](https://planb.academy/resources/glossary/txid-transaction-identifier) + výstupní číslo). Jakmile je tento _výstupní bod_ vyčerpán, je pečeť uzavřena.
 
 Při práci na RGB jsme identifikovali nejméně 4 různé způsoby, jak tyto pečetě implementovat do Bitcoinu:
 
 
 - Definujte pečeť pomocí veřejného klíče a uzavřete ji ve _výstupu_ ;
 - Definujte pečeť pomocí _outpoint_ a uzavřete ji pomocí _output_ ;
-- Definujte pečeť pomocí hodnoty veřejného klíče a uzavřete ji v _vstupu_ ;
+- Definujte pečeť pomocí hodnoty veřejného klíče a uzavřete ji v _[vstupu](https://planb.academy/resources/glossary/input)_ ;
 - Definujte pečeť pomocí _outpoint_ a uzavřete ji v _input_.
 
 | Název schématu | Definice pečetě          | Uzavření pečetě        | Další požadavky                                                   | Hlavní aplikace              | Možné závazkové schématy        |
 | -------------- | ------------------------ | ---------------------- | ----------------------------------------------------------------- | ---------------------------- | -------------------------------- |
 | PkO            | Hodnota veřejného klíče  | Výstup transakce       | P2(W)PKH                                                          | Zatím žádná                  | Keytweak, taptweak, opret       |
 | TxO2           | Výstup transakce         | Výstup transakce       | Vyžaduje deterministické závazky na Bitcoinu                      | RGBv1 (univerzální)          | Keytweak, tapret, opret         |
-| PkI            | Hodnota veřejného klíče  | Vstup transakce        | Pouze Taproot & nekompatibilní se staršími peněženkami            | Bitcoinové identitě založené | Sigtweak, witweak               |
+| PkI            | Hodnota veřejného klíče  | Vstup transakce        | Pouze [Taproot](https://planb.academy/resources/glossary/taproot) & nekompatibilní se staršími peněženkami            | Bitcoinové identitě založené | Sigtweak, witweak               |
 | TxO1           | Výstup transakce         | Vstup transakce        | Pouze Taproot & nekompatibilní se staršími peněženkami            | Zatím žádná                  | Sigtweak, witweak               |
 
 
@@ -481,7 +481,7 @@ Připomínáme, že definice _jednorázové pečeti_ nemusí nutně vyžadovat z
 
 ![RGB-Bitcoin](assets/en/024.webp)
 
-V den, kdy chce uzavřít pečeť (aby signalizoval událost nebo ukotvil určitou zprávu), utratí toto UTXO v nové transakci (tato transakce se často nazývá "_svědecká transakce_" (nesouvisí s _segwit_, je to jen termín, který jsme jí dali). Tato nová transakce bude obsahovat _závazek_ ke zprávě.
+V den, kdy chce uzavřít pečeť (aby signalizoval událost nebo ukotvil určitou zprávu), utratí toto UTXO v nové transakci (tato transakce se často nazývá "_[svědecká transakce](https://planb.academy/resources/glossary/witness-transaction)_" (nesouvisí s _segwit_, je to jen termín, který jsme jí dali). Tato nová transakce bude obsahovat _závazek_ ke zprávě.
 
 ![RGB-Bitcoin](assets/en/025.webp)
 
@@ -547,13 +547,13 @@ V předchozí části jsme se stručně zmínili o tom, jak lze model ověřová
 
 Když někomu poskytnete důkaz, že je v transakci obsažena určitá zpráva, musíte být schopni zaručit, že v téže transakci neexistuje jiná forma závazku (druhá, skrytá zpráva), která vám nebyla odhalena. Aby ověření na straně klienta zůstalo robustní, potřebujete **deterministický** mechanismus pro umístění jediného _závazku_ do transakce, který uzavře _jednorázovou pečeť_.
 
-Na _svědeckou transakci_ se vydává slavné UTXO (neboli _definice pečeti_) a tento výdaj odpovídá uzavření pečeti. Technicky vzato víme, že každý výstupní bod lze utratit pouze jednou. Právě na tom je založena odolnost Bitcoinu proti dvojímu utrácení. Výdajová transakce však může mít několik _vstupů_, několik _výstupů_ nebo může být složena komplexním způsobem (spojení mincí, kanály Lightning atd.). Potřebujeme proto jednoznačně a jednotně definovat, kam v této struktuře vložit _závazek_.
+Na _svědeckou transakci_ se vydává slavné UTXO (neboli _definice pečeti_) a tento výdaj odpovídá uzavření pečeti. Technicky vzato víme, že každý výstupní bod lze utratit pouze jednou. Právě na tom je založena odolnost Bitcoinu proti dvojímu utrácení. Výdajová transakce však může mít několik _vstupů_, několik _výstupů_ nebo může být složena komplexním způsobem ([spojení mincí](https://planb.academy/resources/glossary/coinjoin), kanály Lightning atd.). Potřebujeme proto jednoznačně a jednotně definovat, kam v této struktuře vložit _závazek_.
 
 Bez ohledu na metodu (PkO, TxO2 atd.) lze vložit _závazek_ :
 
 
 - Ve vstupu prostřednictvím:
-- **Sigtweak** (modifikuje složku `r` podpisu ECDSA, podobně jako princip "Sign-to-contract");
+- **Sigtweak** (modifikuje složku `r` [podpisu](https://planb.academy/resources/glossary/digital-signature) [ECDSA](https://planb.academy/resources/glossary/ecdsa), podobně jako princip "Sign-to-contract");
 - **Witweak** (data _segregovaného svědka_ transakce jsou upravena).
 - Ve výstupu prostřednictvím:
 - **Keytweak** (veřejný klíč příjemce je "upraven" spolu se zprávou) ;
@@ -568,7 +568,7 @@ Zde jsou uvedeny podrobnosti o jednotlivých metodách:
 
 ***Změna podpisu (sign-to-contract) :***
 
-Dřívější schéma využívalo náhodnou část podpisu (ECDSA nebo Schnorr) k vložení _závazku_: tato technika je známá jako "**Sign-to-contract**". Náhodně vygenerovanou nonce nahradíte hashem obsahujícím data. Tímto způsobem podpis implicitně odhalí váš závazek, aniž by v transakci bylo třeba věnovat další místo. Tento přístup má řadu výhod:
+Dřívější schéma využívalo náhodnou část podpisu (ECDSA nebo [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol)) k vložení _závazku_: tato technika je známá jako "**Sign-to-contract**". Náhodně vygenerovanou [nonce](https://planb.academy/resources/glossary/nonce) nahradíte hashem obsahujícím data. Tímto způsobem podpis implicitně odhalí váš závazek, aniž by v transakci bylo třeba věnovat další místo. Tento přístup má řadu výhod:
 
 
 - Žádné přetížení v řetězci (používáte stejné místo jako základní nonce);
@@ -577,14 +577,14 @@ Dřívější schéma využívalo náhodnou část podpisu (ECDSA nebo Schnorr) 
 Objevily se však dvě hlavní nevýhody:
 
 
-- Multisig před Taproot: pokud máte několik signatářů, musíte se rozhodnout, který podpis ponese _závazek_. Podpisy mohou být různě seřazeny, a pokud některý z signatářů odmítne, ztrácíte kontrolu nad výsledkem _závazku_;
+- [Multisig](https://planb.academy/resources/glossary/multisig) před Taproot: pokud máte několik signatářů, musíte se rozhodnout, který podpis ponese _závazek_. Podpisy mohou být různě seřazeny, a pokud některý z signatářů odmítne, ztrácíte kontrolu nad výsledkem _závazku_;
 - MuSig a sdílená nonce: u Schnorrova multisig (*MuSig*) je generování nonce algoritmem více stran a je prakticky nemožné nonce individuálně upravovat.
 
-V praxi není **sig tweak** příliš kompatibilní se stávajícím hardwarem (hardwarové peněženky) a formáty (Lightning atd.). Takže tento skvělý nápad je těžko realizovatelný v praxi.
+V praxi není **sig tweak** příliš kompatibilní se stávajícím hardwarem ([hardwarové peněženky](https://planb.academy/resources/glossary/hardware-wallet)) a formáty (Lightning atd.). Takže tento skvělý nápad je těžko realizovatelný v praxi.
 
 ***Klíčové vylepšení (pay-to-contract) :***
 
-**Klíčová změna** přebírá historický koncept _platby na smlouvu_. Vezmeme veřejný klíč `X` a upravíme jej přidáním hodnoty `H(message)`. Konkrétně, pokud `X = x * G` a `h = H(zpráva)`, pak nový klíč bude `X' = X + h * G`. Takto upravený klíč skrývá závazek k `zprávě`. Držitel původního soukromého klíče může přidáním `h` ke svému soukromému klíči `x` dokázat, že má klíč k vydání výstupu. Teoreticky je to elegantní, protože :
+**Klíčová změna** přebírá historický koncept _platby na smlouvu_. Vezmeme veřejný klíč `X` a upravíme jej přidáním hodnoty `H(message)`. Konkrétně, pokud `X = x * G` a `h = H(zpráva)`, pak nový klíč bude `X' = X + h * G`. Takto upravený klíč skrývá závazek k `zprávě`. Držitel původního [soukromého klíče](https://planb.academy/resources/glossary/private-key) může přidáním `h` ke svému soukromému klíči `x` dokázat, že má klíč k vydání výstupu. Teoreticky je to elegantní, protože :
 
 
 - _závazek_ se zadává bez přidání dalších polí;
@@ -595,7 +595,7 @@ V praxi však narážíme na následující problémy:
 
 - Peněženky již nerozpoznávají standardní veřejný klíč, protože byl "upraven", takže nemohou snadno přiřadit UTXO k vašemu obvyklému klíči;
 - Hardwarové peněženky nejsou určeny k podepisování pomocí klíče, který není odvozen z jejich standardní derivace;
-- Musíte přizpůsobit své skripty, deskriptory atd.
+- Musíte přizpůsobit své [skripty](https://planb.academy/resources/glossary/script), deskriptory atd.
 
 V souvislosti s RGB se s touto cestou počítalo až do roku 2021, ale ukázalo se, že je příliš složitá na to, aby fungovala se současnými normami a infrastrukturou.
 
@@ -640,7 +640,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 
 
 - 29 bajtů `OP_RESERVED`, po nichž následuje `OP_RETURN` a poté `OP_PUSHBYTE_33`, tvoří 31bajtovou _prefixovou_ část;
-- Následuje 32bajtový _commitment_ (obvykle kořen Merkle z **MPC**), ke kterému přidáme 1 bajt **Nonce** (celkem 33 bajtů pro tuto druhou část).
+- Následuje 32bajtový _commitment_ (obvykle [kořen Merkle](https://planb.academy/resources/glossary/merkle-root) z **MPC**), ke kterému přidáme 1 bajt **Nonce** (celkem 33 bajtů pro tuto druhou část).
 
 64bajtová metoda `Tapret` tedy vypadá jako `Opret`, ke kterému jsme předřadili 29 bajtů `OP_RESERVED` a přidali další bajt jako Nonce.
 
@@ -660,7 +660,7 @@ V tomto prvním případě vycházíme z výstupního klíče taproot (*Taproot 
 
 
 - `P`: interní veřejný klíč pro _Key Path Spend_.
-- `G`: generující bod eliptické křivky [secp256k1](https://en.bitcoin.it/wiki/Secp256k1).
+- `G`: generující bod [eliptické křivky](https://planb.academy/resources/glossary/elliptic-curve) [secp256k1](https://en.bitcoin.it/wiki/Secp256k1).
 - t = tH_TWEAK(P)` je tweak faktor vypočtený pomocí _tagovaného hashe_ (např. `SHA-256(SHA-256(TapTweak) || P)`) podle [BIP86](https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki#address-derivation). To dokazuje, že neexistuje žádný skrytý skript.
 
 Chcete-li zahrnout závazek **Tapret**, přidejte **Skript Path Spend** s **unikátním skriptem** takto:
@@ -926,7 +926,7 @@ Tento mechanismus zajišťuje, že :
 
 Multi Protocol Commitment (MPC) je princip, který umožňuje RGB sdružovat více smluv do jedné transakce Bitcoin při zachování jedinečnosti závazků a důvěrnosti vůči ostatním účastníkům. Díky deterministické konstrukci stromu je každé smlouvě přiřazena jedinečná pozice a přítomnost "fiktivních" listů (*Entropy Leaves*) částečně maskuje celkový počet smluv účastnících se transakce.
 
-Celý Merkleův strom není nikdy uložen v klientovi. Pro každou příslušnou smlouvu jednoduše vygenerujeme _Merklovu cestu_, která se předá příjemci (který pak může závazek ověřit). V některých případech můžete mít několik aktiv, která prošla stejným UTXO. Pak můžete sloučit několik cest _Merkle_ do takzvaného bloku _multiprotokolového závazku_, abyste se vyhnuli duplikaci příliš velkého množství dat.
+Celý [Merkleův strom](https://planb.academy/resources/glossary/merkle-tree) není nikdy uložen v klientovi. Pro každou příslušnou smlouvu jednoduše vygenerujeme _Merklovu cestu_, která se předá příjemci (který pak může závazek ověřit). V některých případech můžete mít několik aktiv, která prošla stejným UTXO. Pak můžete sloučit několik cest _Merkle_ do takzvaného bloku _multiprotokolového závazku_, abyste se vyhnuli duplikaci příliš velkého množství dat.
 
 Každý _Merkleho důkaz_ je proto lehký, zejména proto, že hloubka stromu nepřesáhne 32 v RGB. Existuje také pojem "Merkleho blok", který uchovává více informací (průřez, entropie atd.), což je užitečné pro spojení nebo oddělení několika větví.
 
@@ -1427,7 +1427,7 @@ Definice *Těsnění* má v odhalené podobě čtyři základní pole: `txptr`, 
         - Jednoduché `txid`, pokud ukazuje na konkrétní UTXO,
         - Nebo `WitnessTx`, který označuje autoreferenci: pečeť ukazuje na samotnou transakci. To je užitečné zejména v případech, kdy není k dispozici externí UTXO, například při transakcích otevírání kanálů Lightning, nebo pokud příjemce nemá UTXO.
 - **vout** : výstupní číslo transakce označené `txptr`. Uvádí se pouze pro standardní pečeť Graph (nikoli pro `WitnessTx`);
-- **blinding**: náhodné číslo o velikosti 8 bajtů, které má posílit důvěrnost a zabránit pokusům o zjištění identity UTXO hrubou silou;
+- **blinding**: náhodné číslo o velikosti 8 bajtů, které má posílit důvěrnost a zabránit pokusům o zjištění identity UTXO [hrubou silou](https://planb.academy/resources/glossary/brute-force-attack);
 - **method** : označuje použitou metodu ukotvení (`Tapret` nebo `Opret`).
 
 *Skrytá* podoba definice pečeti je hash SHA256 (označený) konkatenace těchto 4 polí s označením specifickým pro RGB.
@@ -1446,7 +1446,7 @@ RGB definuje čtyři možné typy stavů (*StateTypes*) pro vlastní stav:
 
 
 - **Deklarativní**: neobsahuje žádné číselné údaje, pouze deklarativní právo (např. právo volit). Skrytá a zjevná forma jsou totožné;
-- **Fungible**: představuje zastupitelné množství (jako žetony). V odhalené podobě máme `mount` a `blinding`. Ve skryté podobě máme jediný *Pedersenův závazek*, který skrývá množství a zaslepení;
+- **Fungible**: představuje zastupitelné množství (jako žetony). V odhalené podobě máme `mount` a `blinding`. Ve skryté podobě máme jediný *[Pedersenův závazek](https://planb.academy/resources/glossary/pedersen-commitment)*, který skrývá množství a zaslepení;
 - **Strukturovaný**: ukládá strukturovaná data (až 64 kB). V odhalené podobě je to datový blob. Ve skryté podobě je to označený hash tohoto blobu:
 
 ```txt
@@ -1628,12 +1628,12 @@ Kromě sémantického verzování kódu obsahuje RGB systém pro vývoj nebo akt
 K rychlému posunu vpřed dojde, když se dříve neplatné pravidlo stane platným. Například pokud se smlouva vyvíjí tak, že umožňuje nový typ `AssignmentType` nebo nové pole :
 
 
-- To nelze srovnávat s klasickým hardforkem blockchainu, protože RGB funguje při ověřování na straně klienta a nemá vliv na celkovou kompatibilitu blockchainu ;
+- To nelze srovnávat s klasickým [hardforkem](https://planb.academy/resources/glossary/hard-fork) blockchainu, protože RGB funguje při ověřování na straně klienta a nemá vliv na celkovou kompatibilitu blockchainu ;
 - V praxi se tento typ změny označuje polem `Ffv` (*rychlá předsunutá verze*) v operaci smlouvy;
 - Stávající držitelé nejsou poškozeni: jejich status zůstává v platnosti;
 - Noví příjemci (nebo noví uživatelé) naopak musí aktualizovat svůj software (peněženku), aby rozpoznali nová pravidla.
 
-Push-back znamená, že dříve platné pravidlo se stává neplatným. Jedná se tedy o "zpřísnění" pravidel, ale ne přesně řečeno o softfork:
+Push-back znamená, že dříve platné pravidlo se stává neplatným. Jedná se tedy o "zpřísnění" pravidel, ale ne přesně řečeno o [softfork](https://planb.academy/resources/glossary/soft-fork):
 
 
 - Stávající držitelé mohou být ovlivněni (mohli by se ocitnout v situaci, kdy by jejich aktiva byla v nové verzi zastaralá nebo neplatná);

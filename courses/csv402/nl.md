@@ -623,13 +623,13 @@ Voel je vrij om de belangrijkste definities (Client-side Validation, Single-Use 
 :::video id=73ddea2d-c243-479d-a3dc-12d7db8eef70:::
 
 
-In dit hoofdstuk bekijken we de implementatie van Client-side Validation en eenmalige afsluitingen binnen Bitcoin Blockchain. We presenteren de hoofdprincipes van RGB's **Commitment Layer** (Layer 1), met speciale aandacht voor het **TxO2** schema, dat RGB gebruikt om een Seal te definiëren en te sluiten in een Bitcoin transactie. Vervolgens bespreken we twee belangrijke punten die nog niet in detail zijn behandeld:
+In dit hoofdstuk bekijken we de implementatie van [Client-side Validation](https://planb.academy/resources/glossary/client-side-validation) en [eenmalige afsluitingen](https://planb.academy/resources/glossary/single-use-seal) binnen Bitcoin Blockchain. We presenteren de hoofdprincipes van RGB's **Commitment Layer** (Layer 1), met speciale aandacht voor het **TxO2** schema, dat RGB gebruikt om een Seal te definiëren en te sluiten in een Bitcoin transactie. Vervolgens bespreken we twee belangrijke punten die nog niet in detail zijn behandeld:
 
 
 
 
 - De _deterministische Bitcoin verplichtingen_;
-- Multi-protocol verbintenissen.
+- [Multi-protocol verbintenissen](https://planb.academy/resources/glossary/multi-protocol-commitment).
 
 
 Het is de combinatie van deze concepten die ons in staat stelt om verschillende systemen of contracten bovenop één UTXO en dus één Blockchain te plaatsen.
@@ -649,7 +649,7 @@ Om de logica te begrijpen, herinneren we ons het basisprincipe: om een _single-u
 
 
 
-- Gebruik een openbare sleutel of **Address**
+- Gebruik een [openbare sleutel](https://planb.academy/resources/glossary/public-key) of **Address**
 
 
 We kunnen besluiten dat een bepaalde publieke sleutel of Address de _single-use seal_ is. Zodra deze sleutel of Address On-Chain verschijnt in een transactie, betekent dit dat de Seal is afgesloten met een bepaald bericht.
@@ -657,10 +657,10 @@ We kunnen besluiten dat een bepaalde publieke sleutel of Address de _single-use 
 
 
 
-- Gebruik een **Bitcoin** transactie-uitgang
+- Gebruik een **Bitcoin** [transactie-uitgang](https://planb.academy/resources/glossary/output)
 
 
-Dit betekent dat een zegel voor eenmalig gebruik wordt gedefinieerd als een nauwkeurig _uitgangspunt_ (een txid + uitgangsnummerpaar). Zodra dit _uitgangspunt_ opgebruikt is, wordt de Seal gesloten.
+Dit betekent dat een zegel voor eenmalig gebruik wordt gedefinieerd als een nauwkeurig _[uitgangspunt](https://planb.academy/resources/glossary/outpoint)_ (een [txid](https://planb.academy/resources/glossary/txid-transaction-identifier) + uitgangsnummerpaar). Zodra dit _uitgangspunt_ opgebruikt is, wordt de Seal gesloten.
 
 
 Terwijl we aan RGB werkten, identificeerden we minstens 4 verschillende manieren om deze zegels op Bitcoin te implementeren:
@@ -670,7 +670,7 @@ Terwijl we aan RGB werkten, identificeerden we minstens 4 verschillende manieren
 
 - Definieer de Seal via een publieke sleutel en sluit hem af in een _output_;
 - Definieer de Seal met een _outpoint_ en sluit hem af met een _output_;
-- Definieer de Seal via de waarde van een publieke sleutel, en sluit deze af in een _input_;
+- Definieer de Seal via de waarde van een publieke sleutel, en sluit deze af in een _[input](https://planb.academy/resources/glossary/input)_;
 - Definieer de Seal via een _outpoint_, en sluit hem af in een _input_.
 
 
@@ -678,7 +678,7 @@ Terwijl we aan RGB werkten, identificeerden we minstens 4 verschillende manieren
 | ----------- | ------------------------- | ------------------------- | -------------------------------------------------------------- | --------------------------- | -------------------------------- |
 | PkO         | Public Key Value          | Transaction Output        | P2(W)PKH                                                       | None at the moment          | Keytweak, taptweak, opret       |
 | TxO2        | Transaction Output        | Transaction Output        | Requires deterministic commitments on Bitcoin                  | RGBv1 (universal)           | Keytweak, tapret, opret         |
-| PkI         | Public Key Value          | Transaction Input         | Taproot only & not compatible with legacy wallets              | Bitcoin-based identities    | Sigtweak, witweak               |
+| PkI         | Public Key Value          | Transaction Input         | [Taproot](https://planb.academy/resources/glossary/taproot) only & not compatible with legacy wallets              | Bitcoin-based identities    | Sigtweak, witweak               |
 | TxO1        | Transaction Output        | Transaction Input         | Taproot only & not compatible with legacy wallets              | None at the moment          | Sigtweak, witweak               |
 
 
@@ -706,7 +706,7 @@ Ter herinnering, het definiëren van een zegel voor eenmalig gebruik vereist nie
 ![RGB-Bitcoin](assets/en/024.webp)
 
 
-Op de dag dat het Seal wil sluiten (om een gebeurtenis te signaleren, of om Anchor een bepaald bericht te geven), geeft het deze UTXO uit in een nieuwe transactie (deze transactie wordt vaak de "_wit transactie_" genoemd (niet gerelateerd aan _segwit_, het is gewoon de term die wij er aan geven). Deze nieuwe transactie zal de _commitment_ voor het bericht bevatten.
+Op de dag dat het Seal wil sluiten (om een gebeurtenis te signaleren, of om Anchor een bepaald bericht te geven), geeft het deze UTXO uit in een nieuwe transactie (deze transactie wordt vaak de "_[wit transactie](https://planb.academy/resources/glossary/witness-transaction)_" genoemd (niet gerelateerd aan _segwit_, het is gewoon de term die wij er aan geven). Deze nieuwe transactie zal de _commitment_ voor het bericht bevatten.
 
 
 ![RGB-Bitcoin](assets/en/025.webp)
@@ -806,7 +806,7 @@ In het vorige deel hebben we kort vermeld hoe het Client-side Validation model k
 Wanneer je iemand het bewijs geeft dat een bepaalde boodschap in een transactie zit, moet je kunnen garanderen dat er niet nog een andere vorm van Commitment (een tweede, verborgen boodschap) in dezelfde transactie zit die niet aan jou onthuld is. Om Client-side Validation robuust te houden, heb je een **deterministisch** mechanisme nodig voor het plaatsen van een enkele _commitment_ in de transactie die de _single-use seal_ sluit.
 
 
-De _witness transactie_ geeft de beroemde UTXO (of _seal definition_) uit en deze uitgave komt overeen met het sluiten van de Seal. Technisch gesproken weten we dat elk outpoint maar één keer kan worden uitgegeven. Dit is precies wat ten grondslag ligt aan Bitcoin's weerstand tegen dubbele uitgaven. Maar de bestedingstransactie kan meerdere _inputs_, meerdere _outputs_ hebben, of op een complexe manier samengesteld zijn (coinjoins, Lightning channels, etc.). Daarom moeten we duidelijk definiëren waar de _verbintenis_ in deze structuur moet worden ingevoegd, ondubbelzinnig en uniform.
+De _witness transactie_ geeft de beroemde UTXO (of _seal definition_) uit en deze uitgave komt overeen met het sluiten van de Seal. Technisch gesproken weten we dat elk outpoint maar één keer kan worden uitgegeven. Dit is precies wat ten grondslag ligt aan Bitcoin's weerstand tegen dubbele uitgaven. Maar de bestedingstransactie kan meerdere _inputs_, meerdere _outputs_ hebben, of op een complexe manier samengesteld zijn ([coinjoins](https://planb.academy/resources/glossary/coinjoin), Lightning channels, etc.). Daarom moeten we duidelijk definiëren waar de _verbintenis_ in deze structuur moet worden ingevoegd, ondubbelzinnig en uniform.
 
 
 Ongeacht de methode (PkO, TxO2, enz.) kan de _commitment_ worden ingevoegd:
@@ -815,7 +815,7 @@ Ongeacht de methode (PkO, TxO2, enz.) kan de _commitment_ worden ingevoegd:
 
 
 - In een **Invoer** via:
-- **Sigtweak** (wijzigt de `r` component van de ECDSA handtekening, vergelijkbaar met het "Sign-to-Contract" principe);
+- **Sigtweak** (wijzigt de `r` component van de [ECDSA](https://planb.academy/resources/glossary/ecdsa) [handtekening](https://planb.academy/resources/glossary/digital-signature), vergelijkbaar met het "Sign-to-Contract" principe);
 - **Witweak** (de _segregated witness_ gegevens van de transactie zijn gewijzigd).
 - In een **Uitvoer** via:
 - **Keytweak** (de openbare sleutel van de ontvanger wordt "getweakt" met het bericht);
@@ -835,7 +835,7 @@ Hier volgen de details van elke methode:
 ***Sig tweak (sign-to-Contract):***
 
 
-Een eerder schema maakte gebruik van het willekeurige deel van een handtekening (ECDSA of Schnorr) om de _commitment_ in te sluiten: dit is de techniek die bekend staat als "**Sign-to-Contract**". Je vervangt de willekeurig gegenereerde Nonce door een Hash die de gegevens bevat. Op deze manier onthult de handtekening impliciet jouw Commitment, zonder extra ruimte in de transactie. Deze aanpak heeft een aantal voordelen:
+Een eerder schema maakte gebruik van het willekeurige deel van een handtekening (ECDSA of [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol)) om de _commitment_ in te sluiten: dit is de techniek die bekend staat als "**Sign-to-Contract**". Je vervangt de willekeurig gegenereerde [Nonce](https://planb.academy/resources/glossary/nonce) door een Hash die de gegevens bevat. Op deze manier onthult de handtekening impliciet jouw Commitment, zonder extra ruimte in de transactie. Deze aanpak heeft een aantal voordelen:
 
 
 
@@ -849,17 +849,17 @@ Er zijn echter 2 grote nadelen naar voren gekomen:
 
 
 
-- Multisig voor Taproot: wanneer je meerdere ondertekenaars hebt, moet je beslissen welke handtekening de _commitment_ zal dragen. Handtekeningen kunnen verschillend gerangschikt worden, en als een ondertekenaar weigert, verlies je de controle over het resultaat van de _commitment_;
+- [Multisig](https://planb.academy/resources/glossary/multisig) voor Taproot: wanneer je meerdere ondertekenaars hebt, moet je beslissen welke handtekening de _commitment_ zal dragen. Handtekeningen kunnen verschillend gerangschikt worden, en als een ondertekenaar weigert, verlies je de controle over het resultaat van de _commitment_;
 - MuSig en de gedeelde Nonce: met Schnorr Multisig (*MuSig*) is het genereren van Nonce een meerpartijenalgoritme en wordt het vrijwel onmogelijk om de Nonce individueel te tweaken.
 
 
-In de praktijk is **sig tweak** ook niet erg compatibel met bestaande hardware (hardware wallets) en formaten (Lightning, etc.). Dus dit geweldige idee is Hard om in de praktijk te brengen.
+In de praktijk is **sig tweak** ook niet erg compatibel met bestaande hardware ([hardware wallets](https://planb.academy/resources/glossary/hardware-wallet)) en formaten (Lightning, etc.). Dus dit geweldige idee is Hard om in de praktijk te brengen.
 
 
 ***Key tweak (pay-to-Contract):***
 
 
-De **key tweak** neemt het historische concept van _pay-to-contract_ over. We nemen de publieke sleutel `X` en passen deze aan door de waarde `H(message)` toe te voegen. Als `X = x * G` en `h = H(message)`, dan wordt de nieuwe sleutel `X' = X + h * G`. Deze aangepaste sleutel verbergt de Commitment van het `bericht`. De houder van de originele privésleutel kan, door `h` toe te voegen aan zijn privésleutel `x`, bewijzen dat hij de sleutel heeft om de uitvoer uit te geven. In theorie is dit elegant, omdat:
+De **key tweak** neemt het historische concept van _pay-to-contract_ over. We nemen de publieke sleutel `X` en passen deze aan door de waarde `H(message)` toe te voegen. Als `X = x * G` en `h = H(message)`, dan wordt de nieuwe sleutel `X' = X + h * G`. Deze aangepaste sleutel verbergt de Commitment van het `bericht`. De houder van de originele [privésleutel](https://planb.academy/resources/glossary/private-key) kan, door `h` toe te voegen aan zijn privésleutel `x`, bewijzen dat hij de sleutel heeft om de uitvoer uit te geven. In theorie is dit elegant, omdat:
 
 
 
@@ -875,7 +875,7 @@ In de praktijk stuiten we echter op de volgende problemen:
 
 - Portemonnees herkennen de standaard publieke sleutel niet meer, omdat deze "getweakt" is, zodat ze UTXO niet gemakkelijk kunnen associëren met je gebruikelijke sleutel;
 - Hardware wallets zijn niet ontworpen om te ondertekenen met een sleutel die niet is afgeleid van hun standaard afleiding;
-- Je moet je scripts, descriptors, enz. aanpassen.
+- Je moet je [scripts](https://planb.academy/resources/glossary/script), descriptors, enz. aanpassen.
 
 
 In de context van RGB was dit pad voorzien tot 2021, maar het bleek te ingewikkeld om het te laten werken met de huidige normen en infrastructuur.
@@ -939,7 +939,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 
 
 - De 29 bytes `OP_RESERVED`, gevolgd door `OP_RETURN`, dan `OP_PUSHBYTE_33`, vormen het 31 bytes tellende _prefix_ gedeelte;
-- Daarna komt een 32 bytes lange _commitment_ (meestal de Merkle Root van **MPC**), waaraan we 1 byte **Nonce** toevoegen (een totaal van 33 bytes voor dit tweede deel).
+- Daarna komt een 32 bytes lange _commitment_ (meestal de [Merkle Root](https://planb.academy/resources/glossary/merkle-root) van **MPC**), waaraan we 1 byte **Nonce** toevoegen (een totaal van 33 bytes voor dit tweede deel).
 
 
 Dus de 64-byte `Tapret` methode ziet eruit als een `Opret` waaraan we 29 bytes `OP_RESERVED` hebben toegevoegd en een extra byte als Nonce.
@@ -969,7 +969,7 @@ In dit eerste geval gaan we uit van een Taproot output key (*Taproot Output Key*
 
 
 - `P`: de interne openbare sleutel voor de _Key Path Spend_.
-- `G`: het voortbrengend punt van de elliptische kromme [secp256k1](https://en.Bitcoin.it/wiki/Secp256k1).
+- `G`: het voortbrengend punt van de [elliptische kromme](https://planb.academy/resources/glossary/elliptic-curve) [secp256k1](https://en.Bitcoin.it/wiki/Secp256k1).
 
 -`t = tH_TWEAK(P)` is de tweak factor, berekend via een _tagged hash_ (bijvoorbeeld `SHA-256(SHA-256(TapTweak) || P)`), in overeenstemming met [BIP86](https://github.com/Bitcoin/bips/blob/master/bip-0086.mediawiki#Address-derivation). Dit bewijst dat er geen verborgen script is.
 
@@ -1333,7 +1333,7 @@ Dit mechanisme zorgt ervoor dat:
 Multi Protocol Commitment (MPC) is het principe dat RGB in staat stelt om meerdere contracten samen te voegen in een enkele Bitcoin transactie, met behoud van de uniciteit van de verplichtingen en vertrouwelijkheid ten opzichte van andere deelnemers. Dankzij de deterministische constructie van de boom krijgt elke Contract een unieke positie toegewezen en de aanwezigheid van "dummy" bladeren (*Entropy Leaves*) verhult gedeeltelijk het totale aantal contracten dat deelneemt aan de transactie.
 
 
-De hele Merkle Tree wordt nooit opgeslagen op de client. We generate gewoon een _Merkle pad_ voor elke Contract in kwestie, dat doorgestuurd wordt naar de ontvanger (die dan de Commitment kan valideren). In sommige gevallen heb je meerdere assets die door dezelfde UTXO zijn gegaan. Je kunt dan meerdere _Merkle paden_ samenvoegen in een zogenaamd _multi-protocol Commitment blok_, om te voorkomen dat je teveel gegevens dupliceert.
+De hele [Merkle Tree](https://planb.academy/resources/glossary/merkle-tree) wordt nooit opgeslagen op de client. We generate gewoon een _Merkle pad_ voor elke Contract in kwestie, dat doorgestuurd wordt naar de ontvanger (die dan de Commitment kan valideren). In sommige gevallen heb je meerdere assets die door dezelfde UTXO zijn gegaan. Je kunt dan meerdere _Merkle paden_ samenvoegen in een zogenaamd _multi-protocol Commitment blok_, om te voorkomen dat je teveel gegevens dupliceert.
 
 
 Elk _Merkle bewijs_ is daarom licht, vooral omdat de boomdiepte niet meer dan 32 zal zijn in RGB. Er is ook een begrip van "Merkle blok", dat meer informatie bevat (doorsnede, entropie, enz.), handig voor het combineren of scheiden van verschillende takken.
@@ -2027,7 +2027,7 @@ De *Seal Definition* heeft in zijn onthulde vorm vier basisvelden: `txptr`, `vou
         - Een eenvoudige `txid`, als deze verwijst naar een specifieke UTXO,
         - Of een `WitnessTx`, die een zelfverwijzing aangeeft: de Seal wijst naar de transactie zelf. Dit is vooral handig als er geen externe UTXO beschikbaar is, bijvoorbeeld bij Lightning channel opening transacties, of als de ontvanger geen UTXO heeft.
 - **vout**: het uitvoernummer van de transactie aangegeven door `txptr`. Alleen aanwezig voor een standaard Graph Seal (niet voor `WitnessTx`);
-- **blindering**: een willekeurig getal van 8 bytes, om de vertrouwelijkheid te versterken en brute force pogingen op de identiteit van de UTXO te voorkomen;
+- **blindering**: een willekeurig getal van 8 bytes, om de vertrouwelijkheid te versterken en [brute force](https://planb.academy/resources/glossary/brute-force-attack) pogingen op de identiteit van de UTXO te voorkomen;
 - **methode**: geeft de gebruikte verankeringsmethode aan (`Tapret` of `Opret`).
 
 
@@ -2055,7 +2055,7 @@ RGB definieert vier mogelijke toestandsvormen (*StateTypes*) voor een Owned Stat
 
 
 - **Declaratief**: bevat geen numerieke gegevens, alleen een declaratief recht (bijv. stemrecht). De verborgen en onthulde vormen zijn identiek;
-- **Fungible**: vertegenwoordigt een fungibele hoeveelheid (zoals tokens). In onthulde vorm hebben we `bedrag` en `blindering`. In verborgen vorm hebben we een enkele *Pedersen commitment* die het bedrag en de blindering verbergt;
+- **Fungible**: vertegenwoordigt een fungibele hoeveelheid (zoals tokens). In onthulde vorm hebben we `bedrag` en `blindering`. In verborgen vorm hebben we een enkele *[Pedersen commitment](https://planb.academy/resources/glossary/pedersen-commitment)* die het bedrag en de blindering verbergt;
 - **Structured**: slaat gestructureerde gegevens op (tot 64 kB). In geopenbaarde vorm is het de blob met gegevens. In verborgen vorm is het een Hash van deze blob:
 
 
@@ -2314,13 +2314,13 @@ Een fast-forward treedt op wanneer een voorheen ongeldige regel geldig wordt. Bi
 
 
 
-- Dit is niet te vergelijken met een klassieke Blockchain hardfork, omdat RGB in Client-side Validation werkt en de algehele compatibiliteit van Blockchain niet beïnvloedt;
+- Dit is niet te vergelijken met een klassieke Blockchain [hardfork](https://planb.academy/resources/glossary/hard-fork), omdat RGB in Client-side Validation werkt en de algehele compatibiliteit van Blockchain niet beïnvloedt;
 - Praktisch gezien wordt dit type verandering aangegeven door het `Ffv` (*fast-forward versie*) veld in de Contract Operation;
 - De huidige houders worden niet benadeeld: hun status blijft geldig;
 - Nieuwe begunstigden (of nieuwe gebruikers) daarentegen moeten hun software (hun Wallet) bijwerken om de nieuwe regels te herkennen.
 
 
-Een push-back betekent dat een voorheen geldige regel ongeldig wordt. Het is daarom een "verharding" van de regels, maar strikt genomen geen softfork:
+Een push-back betekent dat een voorheen geldige regel ongeldig wordt. Het is daarom een "verharding" van de regels, maar strikt genomen geen [softfork](https://planb.academy/resources/glossary/soft-fork):
 
 
 

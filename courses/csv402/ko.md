@@ -620,13 +620,13 @@ Client-side Validation의 개념이 Blockchain 및 _상태 채널_과 어떻게 
 :::video id=73ddea2d-c243-479d-a3dc-12d7db8eef70:::
 
 
-이 장에서는 Bitcoin Blockchain 내에서 Client-side Validation 및 일회용 씰의 구현에 대해 살펴보겠습니다. RGB의 **Commitment Layer**(Layer 1)의 주요 원칙을 소개하며, 특히 Bitcoin 트랜잭션에서 Seal을 정의하고 종료하는 데 사용하는 **TxO2** 체계에 중점을 두고 설명하겠습니다. 다음으로 아직 자세히 다루지 않은 두 가지 중요한 사항에 대해 설명하겠습니다:
+이 장에서는 Bitcoin Blockchain 내에서 [Client-side Validation](https://planb.academy/resources/glossary/client-side-validation) 및 [일회용 씰](https://planb.academy/resources/glossary/single-use-seal)의 구현에 대해 살펴보겠습니다. RGB의 **Commitment Layer**(Layer 1)의 주요 원칙을 소개하며, 특히 Bitcoin 트랜잭션에서 Seal을 정의하고 종료하는 데 사용하는 **TxO2** 체계에 중점을 두고 설명하겠습니다. 다음으로 아직 자세히 다루지 않은 두 가지 중요한 사항에 대해 설명하겠습니다:
 
 
 
 
 - 결정론적 Bitcoin 커미트먼트_;
-- 다중 프로토콜 약정.
+- [다중 프로토콜 약정](https://planb.academy/resources/glossary/multi-protocol-commitment).
 
 
 이러한 개념의 조합을 통해 단일 UTXO, 즉 단일 Blockchain 위에 여러 시스템 또는 계약을 중첩할 수 있습니다.
@@ -646,7 +646,7 @@ Client-side Validation의 개념이 Blockchain 및 _상태 채널_과 어떻게 
 
 
 
-- **공개 키 또는 Address** 사용
+- **[공개 키](https://planb.academy/resources/glossary/public-key) 또는 Address** 사용
 
 
 특정 공개 키 또는 Address가 _일회용 씰_이라고 결정할 수 있습니다. 이 키 또는 Address가 트랜잭션에서 On-Chain로 나타나면, 이는 Seal이 특정 메시지와 함께 닫힌다는 것을 의미합니다.
@@ -654,10 +654,10 @@ Client-side Validation의 개념이 Blockchain 및 _상태 채널_과 어떻게 
 
 
 
-- **Bitcoin** 트랜잭션 출력 사용
+- **Bitcoin** 트랜잭션 [출력](https://planb.academy/resources/glossary/output) 사용
 
 
-즉, _일회용 씰_은 정확한 _아웃포인트_(txid + 출력 번호 쌍)로 정의됩니다. 이 _아웃포인트_가 소비되는 즉시 Seal은 닫힙니다.
+즉, _일회용 씰_은 정확한 _[아웃포인트](https://planb.academy/resources/glossary/outpoint)_([txid](https://planb.academy/resources/glossary/txid-transaction-identifier) + 출력 번호 쌍)로 정의됩니다. 이 _아웃포인트_가 소비되는 즉시 Seal은 닫힙니다.
 
 
 RGB을 작업하는 동안 Bitcoin에서 이러한 씰을 구현하는 최소 4가지 방법을 확인했습니다:
@@ -667,7 +667,7 @@ RGB을 작업하는 동안 Bitcoin에서 이러한 씰을 구현하는 최소 4�
 
 - 공개 키를 통해 Seal를 정의하고 _output_에서 닫습니다;
 - 아웃포인트_로 Seal을 정의하고 _출력_으로 닫습니다;
-- 공개 키 값을 통해 Seal를 정의하고 _input_에서 닫습니다;
+- 공개 키 값을 통해 Seal를 정의하고 _[input](https://planb.academy/resources/glossary/input)_에서 닫습니다;
 - 아웃포인트_를 통해 Seal를 정의하고 _입력_에서 닫습니다.
 
 
@@ -675,7 +675,7 @@ RGB을 작업하는 동안 Bitcoin에서 이러한 씰을 구현하는 최소 4�
 | ----------- | ------------------------- | ------------------------- | -------------------------------------------------------------- | --------------------------- | -------------------------------- |
 | PkO         | Public Key Value          | Transaction Output        | P2(W)PKH                                                       | None at the moment          | Keytweak, taptweak, opret       |
 | TxO2        | Transaction Output        | Transaction Output        | Requires deterministic commitments on Bitcoin                  | RGBv1 (universal)           | Keytweak, tapret, opret         |
-| PkI         | Public Key Value          | Transaction Input         | Taproot only & not compatible with legacy wallets              | Bitcoin-based identities    | Sigtweak, witweak               |
+| PkI         | Public Key Value          | Transaction Input         | [Taproot](https://planb.academy/resources/glossary/taproot) only & not compatible with legacy wallets              | Bitcoin-based identities    | Sigtweak, witweak               |
 | TxO1        | Transaction Output        | Transaction Input         | Taproot only & not compatible with legacy wallets              | None at the moment          | Sigtweak, witweak               |
 
 
@@ -703,7 +703,7 @@ RGB에서는 **Seal**의 정의로 _아웃포인트_를 사용하고 이 _아웃
 ![RGB-Bitcoin](assets/en/024.webp)
 
 
-Seal을 닫으려는 날(이벤트에 신호를 보내거나 특정 메시지를 Anchor에 보내기 위해), 이 UTXO을 새 트랜잭션에 보냅니다(이 트랜잭션을 흔히 "_증인 트랜잭션_(_segwit_과 관련이 없으며, 그냥 우리가 부르는 용어입니다)"이라고 합니다). 이 새 트랜잭션에는 메시지에 대한 _커밋먼트_가 포함됩니다.
+Seal을 닫으려는 날(이벤트에 신호를 보내거나 특정 메시지를 Anchor에 보내기 위해), 이 UTXO을 새 트랜잭션에 보냅니다(이 트랜잭션을 흔히 "_[증인 트랜잭션](https://planb.academy/resources/glossary/witness-transaction)_(_segwit_과 관련이 없으며, 그냥 우리가 부르는 용어입니다)"이라고 합니다). 이 새 트랜잭션에는 메시지에 대한 _커밋먼트_가 포함됩니다.
 
 
 ![RGB-Bitcoin](assets/en/025.webp)
@@ -803,7 +803,7 @@ Bob 또는 다른 관련자가 숨겨진 메시지를 확인하려면 Alice가 o
 특정 메시지가 트랜잭션에 포함되어 있다는 증거를 누군가에게 제공할 때, 동일한 트랜잭션에 공개되지 않은 다른 형태의 Commitment(두 번째 숨겨진 메시지)이 존재하지 않는다는 것을 보장할 수 있어야 합니다. Client-side Validation가 견고하게 유지되려면, 트랜잭션에 단일 _공약_을 배치하여 _일회용 봉인_을 닫는 **결정론적** 메커니즘이 필요합니다.
 
 
-증인 거래_는 유명한 UTXO(또는 _봉인 정의_)을 소비하며, 이 지출은 Seal의 종결에 해당합니다. 엄밀히 말하면 각 아웃포인트는 한 번만 사용할 수 있다는 것을 알고 있습니다. 이것이 바로 Bitcoin의 이중 지출에 대한 저항을 뒷받침하는 것입니다. 그러나 지출 트랜잭션에는 여러 개의 _입력_, 여러 개의 _출력_이 있거나 복잡한 방식(코인조인, 라이트닝 채널 등)으로 구성될 수 있습니다. 따라서 이 구조에서 _약정_을 삽입할 위치를 명확하고 일관되게 정의해야 합니다.
+증인 거래_는 유명한 UTXO(또는 _봉인 정의_)을 소비하며, 이 지출은 Seal의 종결에 해당합니다. 엄밀히 말하면 각 아웃포인트는 한 번만 사용할 수 있다는 것을 알고 있습니다. 이것이 바로 Bitcoin의 이중 지출에 대한 저항을 뒷받침하는 것입니다. 그러나 지출 트랜잭션에는 여러 개의 _입력_, 여러 개의 _출력_이 있거나 복잡한 방식([코인조인](https://planb.academy/resources/glossary/coinjoin), 라이트닝 채널 등)으로 구성될 수 있습니다. 따라서 이 구조에서 _약정_을 삽입할 위치를 명확하고 일관되게 정의해야 합니다.
 
 
 어떤 방식(PkO, TxO2 등)이든 _commitment_를 삽입할 수 있습니다:
@@ -812,12 +812,12 @@ Bob 또는 다른 관련자가 숨겨진 메시지를 확인하려면 Alice가 o
 
 
 - **입력** 비아에서:
-- 시그트위크**("Sign-to-Contract" 원칙과 유사하게 ECDSA 서명의 `r` 구성 요소를 수정함)**;
+- 시그트위크**("Sign-to-Contract" 원칙과 유사하게 [ECDSA](https://planb.academy/resources/glossary/ecdsa) [서명](https://planb.academy/resources/glossary/digital-signature)의 `r` 구성 요소를 수정함)**;
 - 위트위크**(트랜잭션의 _분리된 증인_ 데이터가 수정됨)**.
 - **출력** 비아에서:
 - 키 조정**(수신자의 공개 키가 메시지와 함께 "조정"됨)**;
 - **Opret**(메시지는 비사용 출력 `OP_RETURN`에 배치됨);
-- Tapret**(또는 _Taptweak_)**은 Taproot 키의 스크립트 부분에 Commitment를 삽입하여 공개키를 결정론적으로 수정하는 Taproot에 의존합니다.
+- Tapret**(또는 _Taptweak_)**은 Taproot 키의 [스크립트](https://planb.academy/resources/glossary/script) 부분에 Commitment를 삽입하여 공개키를 결정론적으로 수정하는 Taproot에 의존합니다.
 
 
 ![RGB-Bitcoin](assets/en/035.webp)
@@ -832,7 +832,7 @@ Bob 또는 다른 관련자가 숨겨진 메시지를 확인하려면 Alice가 o
 ***서명 조정(서명-Contract):***
 
 
-이전에는 서명의 무작위 부분(ECDSA 또는 슈노르)을 악용하여 _약속_을 삽입하는 방식이 있었는데, 이것이 "**Sign-to-Contract**"으로 알려진 기법입니다. 무작위로 생성된 Nonce를 데이터가 포함된 Hash로 대체합니다. 이렇게 하면 트랜잭션에 추가 공간 없이 서명을 통해 Commitment가 암시적으로 드러납니다. 이 접근 방식에는 여러 가지 장점이 있습니다:
+이전에는 서명의 무작위 부분(ECDSA 또는 [슈노르](https://planb.academy/resources/glossary/schnorr-protocol))을 악용하여 _약속_을 삽입하는 방식이 있었는데, 이것이 "**Sign-to-Contract**"으로 알려진 기법입니다. 무작위로 생성된 [Nonce](https://planb.academy/resources/glossary/nonce)를 데이터가 포함된 Hash로 대체합니다. 이렇게 하면 트랜잭션에 추가 공간 없이 서명을 통해 Commitment가 암시적으로 드러납니다. 이 접근 방식에는 여러 가지 장점이 있습니다:
 
 
 
@@ -846,17 +846,17 @@ Bob 또는 다른 관련자가 숨겨진 메시지를 확인하려면 Alice가 o
 
 
 
-- Multisig 이전 버전: 서명자가 여러 명인 경우, 어떤 서명에 _약속_을 담을지 결정해야 합니다. 서명은 서로 다르게 주문할 수 있으며 서명자가 거부하면 _약속_의 결과에 대한 통제권을 잃게 됩니다;
+- [Multisig](https://planb.academy/resources/glossary/multisig) 이전 버전: 서명자가 여러 명인 경우, 어떤 서명에 _약속_을 담을지 결정해야 합니다. 서명은 서로 다르게 주문할 수 있으며 서명자가 거부하면 _약속_의 결과에 대한 통제권을 잃게 됩니다;
 - MuSig와 공유 Nonce: 슈노르 Multisig(*MuSig*)을 사용하면 Nonce 생성은 다자간 알고리즘이므로 Nonce를 개별적으로 조정하는 것이 사실상 불가능해집니다.
 
 
-실제로 **sig tweak**은 기존 하드웨어(하드웨어 지갑) 및 형식(라이트닝 등)과도 호환이 잘 되지 않습니다. 그래서 이 좋은 아이디어를 실행에 옮긴 것이 Hard입니다.
+실제로 **sig tweak**은 기존 하드웨어([하드웨어 지갑](https://planb.academy/resources/glossary/hardware-wallet)) 및 형식(라이트닝 등)과도 호환이 잘 되지 않습니다. 그래서 이 좋은 아이디어를 실행에 옮긴 것이 Hard입니다.
 
 
 ***키 조정(유료-Contract):***
 
 
-**키 조정**은 *계약에 대한 지불*이라는 과거 개념을 사용합니다. 공개 키 `X`에 `H(메시지)` 값을 추가하여 조정합니다. 구체적으로, `X = x * G`이고 `h = H(메시지)`라면, 새로운 키는 `X' = X + h * G`가 됩니다. 이 조정된 키는 Commitment를 `메시지`에 숨깁니다. 원래 개인 키의 소유자는 자신의 개인 키 `x`에 `h`를 추가하여 출력을 사용할 수 있는 키를 가지고 있음을 증명할 수 있습니다. 이론적으로 이것은 우아합니다:
+**키 조정**은 *계약에 대한 지불*이라는 과거 개념을 사용합니다. 공개 키 `X`에 `H(메시지)` 값을 추가하여 조정합니다. 구체적으로, `X = x * G`이고 `h = H(메시지)`라면, 새로운 키는 `X' = X + h * G`가 됩니다. 이 조정된 키는 Commitment를 `메시지`에 숨깁니다. 원래 [개인 키](https://planb.academy/resources/glossary/private-key)의 소유자는 자신의 개인 키 `x`에 `h`를 추가하여 출력을 사용할 수 있는 키를 가지고 있음을 증명할 수 있습니다. 이론적으로 이것은 우아합니다:
 
 
 
@@ -936,7 +936,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 
 
 - 29바이트의 `OP_RESERVED`, `OP_RETURN`, `OP_PUSHBYTE_33`이 31바이트의 _prefix_ 부분을 구성합니다;
-- 다음으로 32바이트의 _약속_(보통 **MPC**의 Merkle Root)에 1바이트의 **Nonce**를 추가합니다(이 두 번째 부분의 경우 총 33바이트).
+- 다음으로 32바이트의 _약속_(보통 **MPC**의 [Merkle Root](https://planb.academy/resources/glossary/merkle-root))에 1바이트의 **Nonce**를 추가합니다(이 두 번째 부분의 경우 총 33바이트).
 
 
 따라서 64바이트의 `Tapret` 메서드는 29바이트의 `OP_RESERVED` 접두사를 붙이고 Nonce로 추가 바이트를 추가한 `Opret`처럼 보입니다.
@@ -1330,7 +1330,7 @@ tH_MPC_BRANCH(tH1 || tH2) = SHA-256(SHA-256(merkle_tag) || SHA-256(merkle_tag) |
 Multi Protocol Commitment*(MPC)는 다른 참여자에 대한 약속의 고유성과 기밀성을 유지하면서 RGB이 여러 컨트랙트를 하나의 Bitcoin 트랜잭션으로 통합할 수 있도록 하는 원리입니다. 트리의 결정론적 구조 덕분에 각 Contract에는 고유한 위치가 할당되며, "더미" 잎(*엔트로피 잎*)의 존재는 거래에 참여하는 총 컨트랙트 수를 부분적으로 가립니다.
 
 
-전체 Merkle Tree는 클라이언트에 저장되지 않습니다. 각 Contract에 대해 _머클 경로_를 generate로 생성하여 수신자에게 전송하면 수신자는 Commitment의 유효성을 검사할 수 있습니다. 경우에 따라 동일한 UTXO을 통과한 자산이 여러 개 있을 수 있습니다. 그런 다음 여러 개의 _머클 경로_를 소위 _멀티 프로토콜 Commitment 블록_으로 병합하여 너무 많은 데이터가 중복되는 것을 방지할 수 있습니다.
+전체 [Merkle Tree](https://planb.academy/resources/glossary/merkle-tree)는 클라이언트에 저장되지 않습니다. 각 Contract에 대해 _머클 경로_를 generate로 생성하여 수신자에게 전송하면 수신자는 Commitment의 유효성을 검사할 수 있습니다. 경우에 따라 동일한 UTXO을 통과한 자산이 여러 개 있을 수 있습니다. 그런 다음 여러 개의 _머클 경로_를 소위 _멀티 프로토콜 Commitment 블록_으로 병합하여 너무 많은 데이터가 중복되는 것을 방지할 수 있습니다.
 
 
 따라서 각각의 _머클 증명_은 특히 RGB에서 트리 깊이가 32를 초과하지 않기 때문에 가볍습니다. 더 많은 정보(단면, 엔트로피 등)를 보유하는 '머클 블록'이라는 개념도 있어 여러 가지 가지를 결합하거나 분리하는 데 유용합니다.
@@ -2024,7 +2024,7 @@ RGB의 가장 큰 강점 중 하나는 *Seal Definition* 및 *Owned State* 필�
         - 특정 UTXO을 가리키는 경우 간단한 'txid'을 입력합니다,
         - 또는 자체 참조를 지정하는 'WitnessTx': Seal은 트랜잭션 자체를 가리킵니다. 이는 라이트닝 채널 오프닝 트랜잭션과 같이 외부 UTXO를 사용할 수 없거나 수신자가 UTXO를 가지고 있지 않은 경우에 특히 유용합니다.
 - **vout**: `txptr`로 표시된 트랜잭션의 출력 번호. 표준 그래프 Seal에만 존재합니다(`WitnessTx`에는 존재하지 않음);
-- **블라인드**: 기밀성을 강화하고 UTXO의 신원에 대한 무차별 대입 시도를 방지하기 위해 8바이트의 임의의 숫자로 설정합니다;
+- **블라인드**: 기밀성을 강화하고 UTXO의 신원에 대한 [무차별 대입](https://planb.academy/resources/glossary/brute-force-attack) 시도를 방지하기 위해 8바이트의 임의의 숫자로 설정합니다;
 - **method**: 사용된 앵커링 방법(`Tapret` 또는 `Opret`)을 나타냅니다.
 
 
@@ -2052,7 +2052,7 @@ RGB는 Owned State에 대해 네 가지 가능한 상태 유형(*StateTypes*)을
 
 
 - **선언적**: 수치 데이터 없이 선언적 권리(예: 투표권)만 포함합니다. 숨겨진 형태와 공개된 형태는 동일합니다;
-- **대체 가능**: 토큰처럼 대체 가능한 수량을 나타냅니다. 공개된 형태에는 '금액'과 '블라인드'가 있습니다. 숨겨진 형태에서는 금액과 블라인딩을 숨기는 단일 *Pedersen commitment*이 있습니다;
+- **대체 가능**: 토큰처럼 대체 가능한 수량을 나타냅니다. 공개된 형태에는 '금액'과 '블라인드'가 있습니다. 숨겨진 형태에서는 금액과 블라인딩을 숨기는 단일 *[Pedersen commitment](https://planb.academy/resources/glossary/pedersen-commitment)*이 있습니다;
 - **구조화**: 구조화된 데이터(최대 64KB)를 저장합니다. 드러난 형태는 데이터 블롭입니다. 숨겨진 형태에서는 이 블롭의 태그가 지정된 Hash입니다:
 
 
@@ -2311,13 +2311,13 @@ RGB의 주요 혁신 중 하나는 두 가지 개념을 엄격하게 분리한 �
 
 
 
-- RGB은 Client-side Validation에서 작동하며 Blockchain의 전반적인 호환성에 영향을 미치지 않으므로 기존 Blockchain 하드포크와 비교할 수 없습니다;
+- RGB은 Client-side Validation에서 작동하며 Blockchain의 전반적인 호환성에 영향을 미치지 않으므로 기존 Blockchain [하드포크](https://planb.academy/resources/glossary/hard-fork)와 비교할 수 없습니다;
 - 실제로 이러한 유형의 변경은 Contract Operation의 `Ffv`(*빨리 감기 버전*) 필드로 표시됩니다;
 - 현재 보유자는 피해를 입지 않습니다. 보유 상태는 유효하게 유지됩니다;
 - 반면에 신규 수혜자(또는 신규 사용자)는 새 규칙을 인식하기 위해 소프트웨어(Wallet)를 업데이트해야 합니다.
 
 
-푸시백은 이전에 유효했던 규칙이 무효화되는 것을 의미합니다. 따라서 이는 규칙을 '강화'하는 것이지만 엄밀히 말하면 소프트포크는 아닙니다:
+푸시백은 이전에 유효했던 규칙이 무효화되는 것을 의미합니다. 따라서 이는 규칙을 '강화'하는 것이지만 엄밀히 말하면 [소프트포크](https://planb.academy/resources/glossary/soft-fork)는 아닙니다:
 
 
 

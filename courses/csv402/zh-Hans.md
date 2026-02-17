@@ -423,11 +423,11 @@ bool <- Verify(seal, witness, message)
 
 :::video id=73ddea2d-c243-479d-a3dc-12d7db8eef70:::
 
-在本章中，我们将探讨客户端验证和一次性封印在比特币区块链中的实现。我们将介绍 RGB 的**承诺层**（第 1 层）的主要原理，并特别关注**TxO2**方案，RGB 使用该方案来定义和关闭比特币交易中的封印。接下来，我们将讨论两个尚未详细介绍的要点：
+在本章中，我们将探讨[客户端验证](https://planb.academy/resources/glossary/client-side-validation)和[一次性封印](https://planb.academy/resources/glossary/single-use-seal)在比特币区块链中的实现。我们将介绍 RGB 的**承诺层**（第 1 层）的主要原理，并特别关注**TxO2**方案，RGB 使用该方案来定义和关闭比特币交易中的封印。接下来，我们将讨论两个尚未详细介绍的要点：
 
 
 - 确定性比特币承诺_；
-- 多协议承诺。
+- [多协议承诺](https://planb.academy/resources/glossary/multi-protocol-commitment)。
 
 正是这些概念的结合，使我们能够在单个 UTXO 上叠加多个系统或合约，从而形成单个区块链。
 
@@ -440,28 +440,28 @@ bool <- Verify(seal, witness, message)
 为了理解其中的逻辑，让我们回顾一下基本原理：要关闭一个_单次使用的封印_，我们需要通过在给定的消息上插入_承诺_来花费封印区域。在比特币中，这可以通过多种方式实现：
 
 
-- 使用公钥或地址
+- 使用[公钥](https://planb.academy/resources/glossary/public-key)或地址
 
 我们可以确定某个特定的公钥或地址是_一次性封印_。只要这个密钥或地址出现在交易链上，就意味着封印已通过特定信息关闭。
 
 
 - 使用比特币**交易输出**
 
-这意味着，一个_单次使用的封条_被定义为一个精确的_输出点_（一个 TXID + 输出编号对）。一旦这个_输出点_用完，封印就会关闭。
+这意味着，一个_单次使用的封条_被定义为一个精确的_[输出点](https://planb.academy/resources/glossary/outpoint)_（一个 [TXID](https://planb.academy/resources/glossary/txid-transaction-identifier) + 输出编号对）。一旦这个_输出点_用完，封印就会关闭。
 
 在开发 RGB 的过程中，我们发现至少有 4 种不同的方法可以在比特币上实现这些封印：
 
 
-- 通过公钥定义封印，并在 _output_ 中关闭封印；
+- 通过公钥定义封印，并在 _[output](https://planb.academy/resources/glossary/output)_ 中关闭封印；
 - 用_outpoint_定义封印，用_output_关闭封印；
 - 
-- 通过_outpoint_定义封印，并在_input_中关闭封印。
+- 通过_outpoint_定义封印，并在_[input](https://planb.academy/resources/glossary/input)_中关闭封印。
 
 | 方案名称 | 封条定义                 | 封条关闭               | 额外要求                                                         | 主要应用                   | 可能的承诺方案                     |
 | -------- | ------------------------ | ---------------------- | ---------------------------------------------------------------- | -------------------------- | ---------------------------------- |
 | PkO      | 公钥值                   | 交易输出               | P2(W)PKH                                                         | 目前无                     | Keytweak, taptweak, opret         |
 | TxO2     | 交易输出                 | 交易输出               | 需要比特币上的确定性承诺                                         | RGBv1（通用）              | Keytweak, tapret, opret           |
-| PkI      | 公钥值                   | 交易输入               | 仅适用于Taproot & 与传统钱包不兼容                               | 基于比特币的身份           | Sigtweak, witweak                 |
+| PkI      | 公钥值                   | 交易输入               | 仅适用于[Taproot](https://planb.academy/resources/glossary/taproot) & 与传统钱包不兼容                               | 基于比特币的身份           | Sigtweak, witweak                 |
 | TxO1     | 交易输出                 | 交易输入               | 仅适用于Taproot & 与传统钱包不兼容                               | 目前无                     | Sigtweak, witweak                 |
 
 我们不会详细介绍每种配置，因为在 RGB 中，我们选择使用**个_输出点_作为封**的定义，并将_提交_置于花费该_输出点_的事务输出中。因此，我们可以在续集中引入以下概念：
@@ -480,7 +480,7 @@ TxO2 "中的 "O2 "提醒我们，定义和关闭都是基于交易输出的支�
 
 ![RGB-Bitcoin](assets/en/024.webp)
 
-在它要关闭封印（发出事件信号或锚定特定报文）的那一天，它会在一个新事务中花费这个 UTXO（这个事务通常被称为"_见证事务_"（与_segwit_无关，只是我们给它的术语））。这个新事务将包含对消息的_commitment_。
+在它要关闭封印（发出事件信号或锚定特定报文）的那一天，它会在一个新事务中花费这个 UTXO（这个事务通常被称为"_[见证事务](https://planb.academy/resources/glossary/witness-transaction)_"（与_segwit_无关，只是我们给它的术语））。这个新事务将包含对消息的_commitment_。
 
 ![RGB-Bitcoin](assets/en/025.webp)
 
@@ -546,18 +546,18 @@ TxO2 "中的 "O2 "提醒我们，定义和关闭都是基于交易输出的支�
 
 当你向别人证明某条信息被嵌入到事务中时，你需要能够保证在同一事务中没有另一种形式的承诺（第二条隐藏信息）没有被泄露给你。为了使客户端验证保持稳健，你需要一种**确定的**机制，在事务中放置一个单一的_承诺_，以关闭_单次使用的封印_。
 
-见证交易花费了著名的UTXO（或_封印定义_），这一花费与封印的关闭相对应。从技术上讲，我们知道每个外点只能花费一次。这正是比特币抵制重复消费的基础。但是，消费交易可能有几个输入、几个输出，或者以复杂的方式组成（币币连接、闪电通道等）。因此，我们需要明确、统一地定义在这个结构中插入_commitment_的位置。
+见证交易花费了著名的UTXO（或_封印定义_），这一花费与封印的关闭相对应。从技术上讲，我们知道每个外点只能花费一次。这正是比特币抵制重复消费的基础。但是，消费交易可能有几个输入、几个输出，或者以复杂的方式组成（[币币连接](https://planb.academy/resources/glossary/coinjoin)、闪电通道等）。因此，我们需要明确、统一地定义在这个结构中插入_commitment_的位置。
 
 无论采用哪种方法（PkO、TxO2 等），都可以插入_commitment_____________________________________：
 
 
 - 
-- **Sigtweak** （修改 ECDSA 签名的 `r` 部分，类似于 "从签名到合同" 原则）；
+- **Sigtweak** （修改 [ECDSA](https://planb.academy/resources/glossary/ecdsa) [签名](https://planb.academy/resources/glossary/digital-signature)的 `r` 部分，类似于 "从签名到合同" 原则）；
 - 弱**（交易的隔离见证数据被修改）**。
 - 
 - 密钥调整**（收件人的公开密钥与信息一起 "调整"）**；
 - **Opret**（信息被置于非消耗性输出`OP_RETURN`中）；
-- **Tapret**（或 _Taptweak_），它依靠 taproot 将承诺插入到 taproot 密钥的脚本部分，从而对公钥进行确定性修改。
+- **Tapret**（或 _Taptweak_），它依靠 taproot 将承诺插入到 taproot 密钥的[脚本](https://planb.academy/resources/glossary/script)部分，从而对公钥进行确定性修改。
 
 ![RGB-Bitcoin](assets/en/035.webp)
 
@@ -567,23 +567,23 @@ TxO2 "中的 "O2 "提醒我们，定义和关闭都是基于交易输出的支�
 
 *** 签名调整（签约到合同）：***
 
-早期的方案是利用签名（ECDSA 或 Schnorr）的随机部分来嵌入_承诺_：这就是所谓的 "**签约**"技术。用包含数据的哈希值替换随机生成的非ce。这样，签名就隐含地显示了你的承诺，而不需要在事务中增加任何额外的空间。这种方法有很多优点：
+早期的方案是利用签名（ECDSA 或 [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol)）的随机部分来嵌入_承诺_：这就是所谓的 "**签约**"技术。用包含数据的哈希值替换随机生成的非ce。这样，签名就隐含地显示了你的承诺，而不需要在事务中增加任何额外的空间。这种方法有很多优点：
 
 
-- 无链上重载（使用与基本 nonce 相同的位置）；
+- 无链上重载（使用与基本 [nonce](https://planb.academy/resources/glossary/nonce) 相同的位置）；
 - 从理论上讲，这可以是非常离散的，因为 nonce 最初是一个随机数据。
 
 不过，也出现了两大弊端：
 
 
-- Taproot 前的 Multisig：当您有多个签名者时，您需要决定由哪个签名来携带_commitment_。签名的顺序可以不同，如果某个签名者拒绝签名，你就失去了对_commitment_结果的控制；
+- Taproot 前的 [Multisig](https://planb.academy/resources/glossary/multisig)：当您有多个签名者时，您需要决定由哪个签名来携带_commitment_。签名的顺序可以不同，如果某个签名者拒绝签名，你就失去了对_commitment_结果的控制；
 - MuSig 和共享 nonce：使用 Schnorr multisig (*MuSig*)，nonce 生成是一种多方算法，几乎不可能单独调整 nonce。
 
-实际上，**sig tweak**与现有的硬件（硬件钱包）和格式（闪电等）也不太兼容。因此，这个伟大的想法很难付诸实践。
+实际上，**sig tweak**与现有的硬件（[硬件钱包](https://planb.academy/resources/glossary/hardware-wallet)）和格式（闪电等）也不太兼容。因此，这个伟大的想法很难付诸实践。
 
 ***主要调整（按合同付费）：***
 
-密钥调整**采用了"按合同支付"的历史概念**。我们使用公开密钥 `X`，并通过添加值 `H(信息)`对其进行调整。具体来说，如果 `X = x * G` 和 `h = H(信息)`，那么新的密钥就是 `X' = X + h * G`。这个经过调整的密钥隐藏了对"信息"的承诺。原始私钥的持有者可以通过在其私钥"x"上添加"h"来证明他拥有花费输出的密钥。从理论上讲，这是非常优雅的，因为：
+密钥调整**采用了"按合同支付"的历史概念**。我们使用公开密钥 `X`，并通过添加值 `H(信息)`对其进行调整。具体来说，如果 `X = x * G` 和 `h = H(信息)`，那么新的密钥就是 `X' = X + h * G`。这个经过调整的密钥隐藏了对"信息"的承诺。原始[私钥](https://planb.academy/resources/glossary/private-key)的持有者可以通过在其私钥"x"上添加"h"来证明他拥有花费输出的密钥。从理论上讲，这是非常优雅的，因为：
 
 
 - 输入_commitment_（承诺）时无需添加任何其他字段；
@@ -639,7 +639,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 
 
 - 29 个字节的 `OP_RESERVED`, 接着是 `OP_RETURN`, 然后是 `OP_PUSHBYTE_33`, 构成了 31 个字节的 _prefix_ 部分；
-- 接下来是一个 32 字节的_commitment_（通常是来自 **MPC** 的 Merkle 根），我们在其中添加 1 字节的 **Nonce**（第二部分共 33 字节）。
+- 接下来是一个 32 字节的_commitment_（通常是来自 **MPC** 的 [Merkle 根](https://planb.academy/resources/glossary/merkle-root)），我们在其中添加 1 字节的 **Nonce**（第二部分共 33 字节）。
 
 因此，64 字节的 "Tapret "方法看起来就像一个 "Opret"，我们在其中添加了 29 个字节的 "OP_RESERVED "前缀，并额外添加了一个字节作为 Nonce。
 
@@ -659,7 +659,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 
 
 - P"：_Key Path Spend_ 的内部公开密钥。
-- G：椭圆曲线 [secp256k1](https://en.bitcoin.it/wiki/Secp256k1) 的生成点。
+- G：[椭圆曲线](https://planb.academy/resources/glossary/elliptic-curve) [secp256k1](https://en.bitcoin.it/wiki/Secp256k1) 的生成点。
 - t = tH_TWEAK(P)`是调整因子，根据[BIP86](https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki#address-derivation)通过_标记哈希_（例如`SHA-256(SHA-256(TapTweak) || P)`）计算得出。这证明不存在隐藏脚本。
 
 若要包含**Tapret**承诺，请添加**脚本路径花费**和**唯一脚本**，如下所示：
@@ -925,7 +925,7 @@ tH_MPC_BRANCH(tH1 || tH2) = SHA-256(SHA-256(merkle_tag) || SHA-256(merkle_tag) |
 
 多协议承诺 (MPC) 是使 RGB 能够将多个合约聚合到单个比特币交易中的原理，同时保持承诺的唯一性和对其他参与者的保密性。得益于树状结构的确定性，每个合约都被分配到一个唯一的位置，而 "假 "叶子（*熵叶子*）的存在则部分掩盖了参与交易的合约总数。
 
-整个梅克尔树从不存储在客户端。我们只需为每个相关合约生成一个 _Merkle 路径，然后传送给接收方（接收方可对承诺进行验证）。在某些情况下，您可能会有多个资产通过同一个 UTXO。这时，您可以将多个_Merkle 路径_合并为一个所谓的_多协议承诺块_，以避免重复过多的数据。
+整个[梅克尔树](https://planb.academy/resources/glossary/merkle-tree)从不存储在客户端。我们只需为每个相关合约生成一个 _Merkle 路径，然后传送给接收方（接收方可对承诺进行验证）。在某些情况下，您可能会有多个资产通过同一个 UTXO。这时，您可以将多个_Merkle 路径_合并为一个所谓的_多协议承诺块_，以避免重复过多的数据。
 
 因此，每个 _Merkle 证明都是轻量级的，尤其是在 RGB 树深度不超过 32 的情况下。还有一个 "梅克尔块 "的概念，它保留了更多的信息（横截面、熵等），对于组合或分离几个分支非常有用。
 
@@ -1426,7 +1426,7 @@ RGB 的一大优势在于能够随意显示（*显示*）或隐藏（*隐藏*）
         - 如果指向特定的UTXO，则是一个简单的 "txid"、
         - 或 "WitnessTx"，表示自引用：印章指向交易本身。这在没有外部UTXO的情况下特别有用，例如在闪电通道开启交易中，或者收件人没有UTXO的情况下。
 - **vout** : `txptr`指示的事务输出编号。仅出现在标准图形封印中（不适用于 `WitnessTx`）；
-- 盲**码**：8 个字节的随机数，用于加强保密性，防止对UTXO 身份的暴力破解；
+- 盲**码**：8 个字节的随机数，用于加强保密性，防止对UTXO 身份的[暴力破解](https://planb.academy/resources/glossary/brute-force-attack)；
 - **method**：表示使用的锚定方法（"Tapret "或 "Opret"）。
 
 封印定义的*隐蔽*形式是这 4 个字段连接的 SHA256 哈希值（标记），并带有 RGB 的特定标记。
@@ -1445,7 +1445,7 @@ RGB 为 "自有状态 "定义了四种可能的状态类型（*StateTypes*）：
 
 
 - 声明式**：不包含数字数据，只包含声明式权利（如投票权）。隐藏形式和揭示形式完全相同；
-- 可互换**：表示可互换的数量（如代币）。在显式中，我们有 "数量 "和 "盲法"。在隐藏形式下，我们有一个 *Pedersen 承诺*，它隐藏了数量和盲码；
+- 可互换**：表示可互换的数量（如代币）。在显式中，我们有 "数量 "和 "盲法"。在隐藏形式下，我们有一个 *[Pedersen 承诺](https://planb.academy/resources/glossary/pedersen-commitment)*，它隐藏了数量和盲码；
 - **结构化**：存储结构化数据（最多 64 kB）。在公开形式下，它是数据 Blob。在隐藏形式下，它是该 blob 的标记哈希值：
 
 ```txt
@@ -1627,12 +1627,12 @@ RGB 的主要创新之一是严格区分两个概念：
 当以前无效的规则变为有效时，就会发生快进。例如，如果合同演变为允许一种新的 `AssignmentType` 类型或一个新的字段.AssignmentType "或.AssignmentType"：
 
 
-- 这不能与经典的区块链硬分叉相比，因为 RGB 在客户端验证中工作，不会影响区块链的整体兼容性；
+- 这不能与经典的区块链[硬分叉](https://planb.academy/resources/glossary/hard-fork)相比，因为 RGB 在客户端验证中工作，不会影响区块链的整体兼容性；
 - 在实际操作中，这类变更由合约操作中的 `Ffv`（*快进版本*）字段表示；
 - 目前的持有者不会受到损害：他们的身份仍然有效；
 - 而新受益人（或新用户）则需要更新软件（钱包）以识别新规则。
 
-回推意味着以前有效的规则变为无效。因此，这是规则的 "硬化"，但严格来说并不是软叉：
+回推意味着以前有效的规则变为无效。因此，这是规则的 "硬化"，但严格来说并不是[软叉](https://planb.academy/resources/glossary/soft-fork)：
 
 
 - 现有持有者可能会受到影响（他们可能会发现自己的资产在新版本中变得过时或无效）；

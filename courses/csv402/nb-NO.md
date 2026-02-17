@@ -424,11 +424,11 @@ Før du dykker inn i de mer tekniske detaljene i det andre kapittelet, kan du gj
 
 :::video id=73ddea2d-c243-479d-a3dc-12d7db8eef70:::
 
-I dette kapittelet skal vi se på implementeringen av validering på klientsiden og engangsforseglinger i Bitcoin-blokkjeden. Vi presenterer hovedprinsippene for RGBs **commitment-lag** (lag 1), med særlig fokus på **TxO2**-ordningen, som RGB bruker for å definere og lukke et segl i en Bitcoin-transaksjon. Deretter vil vi diskutere to viktige punkter som ennå ikke har blitt dekket i detalj:
+I dette kapittelet skal vi se på implementeringen av [validering på klientsiden](https://planb.academy/resources/glossary/client-side-validation) og [engangsforseglinger](https://planb.academy/resources/glossary/single-use-seal) i Bitcoin-blokkjeden. Vi presenterer hovedprinsippene for RGBs **commitment-lag** (lag 1), med særlig fokus på **TxO2**-ordningen, som RGB bruker for å definere og lukke et segl i en Bitcoin-transaksjon. Deretter vil vi diskutere to viktige punkter som ennå ikke har blitt dekket i detalj:
 
 
 - De _deterministiske Bitcoin-forpliktelsene_;
-- Forpliktelser med flere protokoller.
+- [Forpliktelser med flere protokoller](https://planb.academy/resources/glossary/multi-protocol-commitment).
 
 Det er kombinasjonen av disse konseptene som gjør det mulig for oss å legge flere systemer eller kontrakter oppå én UTXO og dermed én blokkjede.
 
@@ -441,28 +441,28 @@ Som vi så i kursets første kapittel, er Single-use Seals et generelt konsept: 
 For å forstå logikken, la oss huske det grunnleggende prinsippet: For å lukke en _single-use seal_, bruker vi det forseglede området ved å sette inn _commitment_ på en gitt melding. I Bitcoin kan dette gjøres på flere måter:
 
 
-- Bruk en offentlig nøkkel eller adresse
+- Bruk en [offentlig nøkkel](https://planb.academy/resources/glossary/public-key) eller adresse
 
 Vi kan bestemme at en bestemt offentlig nøkkel eller adresse er _single-use seal_. Så snart denne nøkkelen eller adressen dukker opp i kjeden i en transaksjon, betyr det at forseglingen er lukket med en bestemt melding.
 
 
 - Bruk en **Bitcoin-transaksjonsutgang**
 
-Dette betyr at en _engangsforsegling_ er definert som et nøyaktig _utgangspunkt_ (et TXID + utgangsnummerpar). Så snart dette _utgangspunktet_ er brukt opp, er forseglingen lukket.
+Dette betyr at en _engangsforsegling_ er definert som et nøyaktig _[utgangspunkt](https://planb.academy/resources/glossary/outpoint)_ (et [TXID](https://planb.academy/resources/glossary/txid-transaction-identifier) + utgangsnummerpar). Så snart dette _utgangspunktet_ er brukt opp, er forseglingen lukket.
 
 Under arbeidet med RGB identifiserte vi minst fire ulike måter å implementere disse seglene på Bitcoin:
 
 
-- Definer forseglingen via en offentlig nøkkel, og lukk den i en _output_ ;
+- Definer forseglingen via en offentlig nøkkel, og lukk den i en _[output](https://planb.academy/resources/glossary/output)_ ;
 - Definer forseglingen med et _outpoint_ og lukk den med en _output_ ;
-- Definer forseglingen via verdien av en offentlig nøkkel, og lukk den i en _input_ ;
+- Definer forseglingen via verdien av en offentlig nøkkel, og lukk den i en _[input](https://planb.academy/resources/glossary/input)_ ;
 - Definer forseglingen via et _outpoint_, og lukk den i et _input_.
 
 | Skjemanavn  | Tetningsdefinisjon        | Tetningslukking         | Tilleggskrav                                                    | Hovedapplikasjon           | Mulige forpliktelsesordninger     |
 | ----------- | ------------------------- | ----------------------- | -------------------------------------------------------------- | -------------------------- | ---------------------------------- |
 | PkO         | Offentlig nøkkelverdi     | Transaksjonsutgang      | P2(W)PKH                                                        | Ingen foreløpig            | Keytweak, taptweak, opret         |
 | TxO2        | Transaksjonsutgang        | Transaksjonsutgang      | Krever deterministiske forpliktelser på Bitcoin                 | RGBv1 (universell)         | Keytweak, tapret, opret           |
-| PkI         | Offentlig nøkkelverdi     | Transaksjonsinngang     | Kun Taproot & ikke kompatibel med eldre lommebøker              | Bitcoin-baserte identiteter | Sigtweak, witweak                 |
+| PkI         | Offentlig nøkkelverdi     | Transaksjonsinngang     | Kun [Taproot](https://planb.academy/resources/glossary/taproot) & ikke kompatibel med eldre lommebøker              | Bitcoin-baserte identiteter | Sigtweak, witweak                 |
 | TxO1        | Transaksjonsutgang        | Transaksjonsinngang     | Kun Taproot & ikke kompatibel med eldre lommebøker              | Ingen foreløpig            | Sigtweak, witweak                 |
 
 Vi skal ikke gå i detalj om hver av disse konfigurasjonene, ettersom vi i RGB har valgt å bruke **et _utpunkt_ som definisjon av forseglingen**, og å plassere _commitment_ i utgangen av transaksjonen som bruker dette _utpunktet_. Vi kan derfor introdusere følgende begreper for fortsettelsen:
@@ -480,7 +480,7 @@ Som en påminnelse: Å definere et _engangsforsegling_ krever ikke nødvendigvis
 
 ![RGB-Bitcoin](assets/en/024.webp)
 
-Den dagen den ønsker å lukke seglet (for å signalisere en hendelse, eller for å forankre en bestemt melding), bruker den denne UTXO-en i en ny transaksjon (denne transaksjonen kalles ofte "_vitnetransaksjonen_" (ikke relatert til _segwit_, det er bare den betegnelsen vi gir den). Denne nye transaksjonen vil inneholde _commitment_ til meldingen.
+Den dagen den ønsker å lukke seglet (for å signalisere en hendelse, eller for å forankre en bestemt melding), bruker den denne UTXO-en i en ny transaksjon (denne transaksjonen kalles ofte "_[vitnetransaksjonen](https://planb.academy/resources/glossary/witness-transaction)_" (ikke relatert til _segwit_, det er bare den betegnelsen vi gir den). Denne nye transaksjonen vil inneholde _commitment_ til meldingen.
 
 ![RGB-Bitcoin](assets/en/025.webp)
 
@@ -546,18 +546,18 @@ I forrige avsnitt nevnte vi kort hvordan valideringsmodellen på klientsiden kan
 
 Når du gir noen bevis på at en bestemt melding er innebygd i en transaksjon, må du kunne garantere at det ikke finnes en annen form for forpliktelse (en annen, skjult melding) i den samme transaksjonen som ikke har blitt avslørt for deg. For at validering på klientsiden skal forbli robust, trenger du en **deterministisk** mekanisme for å plassere en enkelt _commitment_ i transaksjonen som lukker _single-use seal_.
 
-I _vitnetransaksjonen_ brukes den berømte UTXO (eller _forseglingsdefinisjonen_), og denne utgiften tilsvarer lukkingen av forseglingen. Teknisk sett vet vi at hvert outpoint bare kan brukes én gang. Det er nettopp dette som underbygger Bitcoins motstand mot dobbeltbruk. Men utgiftstransaksjonen kan ha flere _innganger_, flere _utganger_ eller være sammensatt på en kompleks måte (coinjoins, Lightning-kanaler osv.). Vi må derfor definere tydelig hvor vi skal sette inn _commitment_ i denne strukturen, entydig og enhetlig.
+I _vitnetransaksjonen_ brukes den berømte UTXO (eller _forseglingsdefinisjonen_), og denne utgiften tilsvarer lukkingen av forseglingen. Teknisk sett vet vi at hvert outpoint bare kan brukes én gang. Det er nettopp dette som underbygger Bitcoins motstand mot dobbeltbruk. Men utgiftstransaksjonen kan ha flere _innganger_, flere _utganger_ eller være sammensatt på en kompleks måte ([coinjoins](https://planb.academy/resources/glossary/coinjoin), Lightning-kanaler osv.). Vi må derfor definere tydelig hvor vi skal sette inn _commitment_ i denne strukturen, entydig og enhetlig.
 
 Uansett metode (PkO, TxO2 osv.) kan _forpliktelsen_ settes inn :
 
 
 - I en Input via :
-- **Sigtweak** (modifiserer `r`-komponenten i ECDSA-signaturen, i likhet med "Sign-to-contract"-prinsippet);
+- **Sigtweak** (modifiserer `r`-komponenten i [ECDSA](https://planb.academy/resources/glossary/ecdsa)-signaturen, i likhet med "Sign-to-contract"-prinsippet);
 - **Witweak** (transaksjonens _segregerte vitne_-data er endret).
 - I en **Output** via :
 - **Keytweak** (mottakerens offentlige nøkkel "tweakes" med meldingen) ;
 - **Opret** (meldingen plasseres i en ikke-forbrukbar utgang `OP_RETURN`);
-- **Tapret** (eller _Taptweak_), som baserer seg på taproot for å sette inn forpliktelser i skriptdelen av en taproot-nøkkel, og dermed endre den offentlige nøkkelen på en deterministisk måte.
+- **Tapret** (eller _Taptweak_), som baserer seg på taproot for å sette inn forpliktelser i [skriptdelen](https://planb.academy/resources/glossary/script) av en taproot-nøkkel, og dermed endre den offentlige nøkkelen på en deterministisk måte.
 
 ![RGB-Bitcoin](assets/en/035.webp)
 
@@ -567,7 +567,7 @@ Her er detaljene for hver metode:
 
 ***Sig tweak (sign-to-contract) :***
 
-En tidligere metode gikk ut på å utnytte den tilfeldige delen av en signatur (ECDSA eller Schnorr) til å legge inn _forpliktelsen_: Dette er teknikken som kalles "**Sign-to-contract**". Du erstatter den tilfeldig genererte noncen med en hash som inneholder dataene. På denne måten avslører signaturen implisitt forpliktelsen din, uten at det tar ekstra plass i transaksjonen. Denne tilnærmingen har en rekke fordeler:
+En tidligere metode gikk ut på å utnytte den tilfeldige delen av en [signatur](https://planb.academy/resources/glossary/digital-signature) (ECDSA eller [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol)) til å legge inn _forpliktelsen_: Dette er teknikken som kalles "**Sign-to-contract**". Du erstatter den tilfeldig genererte [noncen](https://planb.academy/resources/glossary/nonce) med en hash som inneholder dataene. På denne måten avslører signaturen implisitt forpliktelsen din, uten at det tar ekstra plass i transaksjonen. Denne tilnærmingen har en rekke fordeler:
 
 
 - Ingen overbelastning i kjeden (du bruker samme sted som den grunnleggende noncen);
@@ -576,14 +576,14 @@ En tidligere metode gikk ut på å utnytte den tilfeldige delen av en signatur (
 Det har imidlertid dukket opp to store ulemper:
 
 
-- Multisig før Taproot: Når du har flere signatarer, må du bestemme hvilken signatur som skal bære _forpliktelsen_. Signaturene kan ha ulik rekkefølge, og hvis en signatar nekter, mister du kontrollen over utfallet av _commitment_;
+- [Multisig](https://planb.academy/resources/glossary/multisig) før Taproot: Når du har flere signatarer, må du bestemme hvilken signatur som skal bære _forpliktelsen_. Signaturene kan ha ulik rekkefølge, og hvis en signatar nekter, mister du kontrollen over utfallet av _commitment_;
 - MuSig og delt nonce: Med Schnorr multisig (*MuSig*) er nonce-generering en flerpartsalgoritme, og det blir praktisk talt umulig å justere noncen individuelt.
 
-I praksis er **sig tweak ** heller ikke veldig kompatibel med eksisterende maskinvare (maskinvare lommebøker) og formater (Lightning, etc.). Så denne gode ideen er vanskelig å sette ut i praksis.
+I praksis er **sig tweak ** heller ikke veldig kompatibel med eksisterende maskinvare ([maskinvare lommebøker](https://planb.academy/resources/glossary/hardware-wallet)) og formater (Lightning, etc.). Så denne gode ideen er vanskelig å sette ut i praksis.
 
 ***Nøkkeljustering (betal-til-kontrakt): ***
 
-**Nøkkeltilpasningen** tar opp det historiske konseptet _pay-to-contract_. Vi tar den offentlige nøkkelen `X` og justerer den ved å legge til verdien `H(melding)`. Hvis `X = x * G` og `h = H(melding)`, blir den nye nøkkelen `X' = X + h * G`. Denne endrede nøkkelen skjuler forpliktelsen til `meldingen`. Innehaveren av den opprinnelige private nøkkelen kan, ved å legge `h` til sin private nøkkel `x`, bevise at han har nøkkelen til å bruke utdataene. I teorien er dette elegant, fordi :
+**Nøkkeltilpasningen** tar opp det historiske konseptet _pay-to-contract_. Vi tar den offentlige nøkkelen `X` og justerer den ved å legge til verdien `H(melding)`. Hvis `X = x * G` og `h = H(melding)`, blir den nye nøkkelen `X' = X + h * G`. Denne endrede nøkkelen skjuler forpliktelsen til `meldingen`. Innehaveren av den opprinnelige [private nøkkelen](https://planb.academy/resources/glossary/private-key) kan, ved å legge `h` til sin private nøkkel `x`, bevise at han har nøkkelen til å bruke utdataene. I teorien er dette elegant, fordi :
 
 
 - _commitment_ legges inn uten å legge til flere felt;
@@ -639,7 +639,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 
 
 - De 29 byte `OP_RESERVED`, etterfulgt av `OP_RETURN`, og deretter `OP_PUSHBYTE_33`, utgjør den 31 byte store _prefiks_delen;
-- Deretter kommer en 32-byte _commitment_ (vanligvis Merkle-roten fra **MPC**), som vi legger til 1 byte med **Nonce** (totalt 33 byte for denne andre delen).
+- Deretter kommer en 32-byte _commitment_ (vanligvis [Merkle-roten](https://planb.academy/resources/glossary/merkle-root) fra **MPC**), som vi legger til 1 byte med **Nonce** (totalt 33 byte for denne andre delen).
 
 Metoden `Tapret` på 64 byte ser altså ut som en `Opret` som vi har prefikset 29 byte med `OP_RESERVED` og lagt til en ekstra byte som en nonce.
 
@@ -659,7 +659,7 @@ I dette første tilfellet tar vi utgangspunkt i en taproot-utgangsnøkkel (*Tapr
 
 
 - p: den interne offentlige nøkkelen for _Key Path Spend_.
-- `G`: det genererende punktet til den elliptiske kurven [secp256k1](https://en.bitcoin.it/wiki/Secp256k1).
+- `G`: det genererende punktet til den [elliptiske kurven](https://planb.academy/resources/glossary/elliptic-curve) [secp256k1](https://en.bitcoin.it/wiki/Secp256k1).
 - t = tH_TWEAK(P)` er tweak-faktoren, beregnet via en _tagged hash_ (f.eks. `SHA-256(SHA-256(TapTweak) || P)`), i henhold til [BIP86](https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki#address-derivation). Dette beviser at det ikke finnes noe skjult skript.
 
 For å inkludere en **Tapret**-forpliktelse må du legge til et **Script Path Spend** med et **unikt script**, på følgende måte:
@@ -927,7 +927,7 @@ Denne mekanismen sikrer at :
 
 Multi Protocol Commitment (MPC) er prinsippet som gjør det mulig for RGB å samle flere kontrakter i én enkelt Bitcoin-transaksjon, samtidig som forpliktelsenes unikhet og konfidensialitet overfor andre deltakere opprettholdes. Takket være den deterministiske konstruksjonen av treet tildeles hver kontrakt en unik posisjon, og tilstedeværelsen av "dummy"-blader (*Entropy Leaves*) maskerer delvis det totale antallet kontrakter som deltar i transaksjonen.
 
-Hele Merkle-treet lagres aldri på klienten. Vi genererer ganske enkelt en _Merkle-sti_ for hver kontrakt som skal overføres til mottakeren (som deretter kan validere forpliktelsen). I noen tilfeller kan du ha flere aktiva som har gått gjennom samme UTXO. Da kan du slå sammen flere _Merkle-stier_ til en såkalt _multiprotokollforpliktelsesblokk_, slik at du unngår å duplisere for mye data.
+Hele [Merkle-treet](https://planb.academy/resources/glossary/merkle-tree) lagres aldri på klienten. Vi genererer ganske enkelt en _Merkle-sti_ for hver kontrakt som skal overføres til mottakeren (som deretter kan validere forpliktelsen). I noen tilfeller kan du ha flere aktiva som har gått gjennom samme UTXO. Da kan du slå sammen flere _Merkle-stier_ til en såkalt _multiprotokollforpliktelsesblokk_, slik at du unngår å duplisere for mye data.
 
 Hvert _Merkle-bevis_ er derfor lett, spesielt ettersom treets dybde ikke vil overstige 32 i RGB. Det finnes også et begrep om "Merkle-blokk", som inneholder mer informasjon (tverrsnitt, entropi osv.), og som er nyttig for å kombinere eller separere flere grener.
 
@@ -1447,7 +1447,7 @@ RGB definerer fire mulige tilstandstyper (*StateTypes*) for en Owned State:
 
 
 - **Deklarativ**: inneholder ingen numeriske data, bare en deklarativ rettighet (f.eks. stemmerett). Den skjulte og den avslørte formen er identiske;
-- **Fungible**: representerer en fungibel mengde (som poletter). I åpen form har vi `beløp` og `blinding`. I skjult form har vi en enkelt *Pedersen-forpliktelse* som skjuler beløpet og blinding;
+- **Fungible**: representerer en fungibel mengde (som poletter). I åpen form har vi `beløp` og `blinding`. I skjult form har vi en enkelt *[Pedersen-forpliktelse](https://planb.academy/resources/glossary/pedersen-commitment)* som skjuler beløpet og blinding;
 - **Structured**: lagrer strukturerte data (opptil 64 kB). I åpen form er det datablobben. I skjult form er det en tagget hash av denne blobben:
 
 ```txt
@@ -1630,12 +1630,12 @@ I tillegg til semantisk kodeversjonering inneholder RGB et system for utvikling 
 En fast-forward oppstår når en tidligere ugyldig regel blir gyldig. For eksempel, hvis kontrakten utvikler seg til å tillate en ny type `AssignmentType` eller et nytt felt :
 
 
-- Dette kan ikke sammenlignes med en klassisk blockchain hardfork, ettersom RGB fungerer i validering på klientsiden og ikke påvirker den generelle kompatibiliteten til blockchain ;
+- Dette kan ikke sammenlignes med en klassisk blockchain [hardfork](https://planb.academy/resources/glossary/hard-fork), ettersom RGB fungerer i validering på klientsiden og ikke påvirker den generelle kompatibiliteten til blockchain ;
 - I praksis angis denne typen endringer ved hjelp av feltet `Ffv` (*fast-forward version*) i kontraktsoperasjonen;
 - Nåværende innehavere blir ikke skadelidende: deres status forblir gyldig;
 - Nye mottakere (eller nye brukere) må derimot oppdatere programvaren (lommeboken) slik at den kjenner igjen de nye reglene.
 
-En push-back betyr at en tidligere gyldig regel blir ugyldig. Det er derfor en "herding" av reglene, men strengt tatt ikke en softfork:
+En push-back betyr at en tidligere gyldig regel blir ugyldig. Det er derfor en "herding" av reglene, men strengt tatt ikke en [softfork](https://planb.academy/resources/glossary/soft-fork):
 
 
 - Eksisterende innehavere kan bli påvirket (de kan få eiendeler som blir foreldet eller ugyldige i den nye versjonen);

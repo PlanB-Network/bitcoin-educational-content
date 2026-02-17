@@ -424,11 +424,11 @@ Peter Todd 也創造了_Open Timestamps_協定，而 Single-Use Seal 概念則�
 
 :::video id=73ddea2d-c243-479d-a3dc-12d7db8eef70:::
 
-在本章中，我們將探討 Bitcoin Blockchain 內 Client-side Validation 和單次使用封裝的實作。我們將介紹 RGB 的 **Commitment Layer** （Layer 1）的主要原則，特別是**TxO2**方案，RGB 使用此方案來定義和關閉 Bitcoin 交易中的 Seal。接下來，我們將討論兩個尚未詳述的重要觀點：
+在本章中，我們將探討 Bitcoin Blockchain 內 [Client-side Validation](https://planb.academy/resources/glossary/client-side-validation) 和[單次使用封裝](https://planb.academy/resources/glossary/single-use-seal)的實作。我們將介紹 RGB 的 **Commitment Layer** （Layer 1）的主要原則，特別是**TxO2**方案，RGB 使用此方案來定義和關閉 Bitcoin 交易中的 Seal。接下來，我們將討論兩個尚未詳述的重要觀點：
 
 
 - _deterministic Bitcoin 承諾_；
-- 多協議承諾。
+- [多協議承諾](https://planb.academy/resources/glossary/multi-protocol-commitment)。
 
 正是這些概念的結合，讓我們能夠在單一 UTXO 上疊加數個系統或合約，因此也能在單一 Blockchain 上疊加數個系統或合約。
 
@@ -441,21 +441,21 @@ Peter Todd 也創造了_Open Timestamps_協定，而 Single-Use Seal 概念則�
 為了了解這個邏輯，讓我們回想一下基本原則：為了關閉_單次使用的封印_，我們在指定的訊息上插入_commitment_來花費封印區域。在 Bitcoin 中，有多種方式可以做到這一點：
 
 
-- 使用公開金鑰或 **Address**
+- 使用[公開金鑰](https://planb.academy/resources/glossary/public-key)或 **Address**
 
 我們可以決定特定的公開金鑰或 Address 是_單次使用的封印_。只要這個金鑰或 Address 在交易中出現 On-Chain，就表示 Seal 以某個訊息結束。
 
 
 - 使用 **Bitcoin** 交易輸出
 
-這表示一個 _ 單次使用的封印被定義為一個精確的 _outpoint_ （一個 txid + 輸出號碼對）。只要這個 _outpoint_ 用完，Seal 就會關閉。
+這表示一個 _ 單次使用的封印被定義為一個精確的 _[outpoint](https://planb.academy/resources/glossary/outpoint)_ （一個 [txid](https://planb.academy/resources/glossary/txid-transaction-identifier) + 輸出號碼對）。只要這個 _outpoint_ 用完，Seal 就會關閉。
 
 在研發 RGB 時，我們發現至少有 4 種不同的方式可以在 Bitcoin 上實現這些封條：
 
 
-- 透過公開金鑰定義 Seal，並在 _output_ ；
+- 透過公開金鑰定義 Seal，並在 _[output](https://planb.academy/resources/glossary/output)_ ；
 - 使用 _outpoint_ 定義 Seal 並使用 _output_ 關閉；
-- 透過公開金鑰的值定義 Seal，並在 _input_ ；
+- 透過公開金鑰的值定義 Seal，並在 _[input](https://planb.academy/resources/glossary/input)_ ；
 - 透過_outpoint_定義 Seal，並在_input_中關閉。
 
 | Schema 名稱 | Seal Definition | Seal 結束 | 額外要求 | 主要申請 | 可能的 Commitment 方案
@@ -466,7 +466,7 @@ Peter Todd 也創造了_Open Timestamps_協定，而 Single-Use Seal 概念則�
 
 | TxO2 | 交易輸出 | 交易輸出 | 需要 Bitcoin 上的確定承諾 | RGBv1 (通用) | Keytweak, tapret, opret | RGBv1 (通用)
 
-| PkI | 公開金鑰值 | 交易輸入 | 僅限 Taproot 且與傳統錢包不相容 | 基於 Bitcoin 的身分 | Sigtweak、witweak | Taproot 與 Bitcoin 不相容。
+| PkI | 公開金鑰值 | 交易輸入 | 僅限 [Taproot](https://planb.academy/resources/glossary/taproot) 且與傳統錢包不相容 | 基於 Bitcoin 的身分 | Sigtweak、witweak | Taproot 與 Bitcoin 不相容。
 
 | TxO1 | 交易輸出 | 交易輸入 | 僅限 Taproot 且與傳統錢包不相容 | 目前沒有 | Sigtweak, witweak | TxO1 | 交易輸出 | 交易輸入 | 僅限 Taproot 且與傳統錢包不相容 | 目前沒有
 
@@ -486,7 +486,7 @@ TxO2 「中的 」O2 "提醒我們，定義和結束都是基於交易輸出的�
 
 ![RGB-Bitcoin](assets/en/024.webp)
 
-在它想要關閉 Seal 的那一天（為了發出一個事件信號，或是為了 Anchor 一個特定的訊息），它會在一個新的交易中花費這個 UTXO（這個交易通常被稱為 "_witness transaction_"（與 _segwit_ 無關，只是我們給它的術語）。這個新的事務將包含對訊息的_commitment_。
+在它想要關閉 Seal 的那一天（為了發出一個事件信號，或是為了 Anchor 一個特定的訊息），它會在一個新的交易中花費這個 UTXO（這個交易通常被稱為 "_[witness transaction](https://planb.academy/resources/glossary/witness-transaction)_"（與 _segwit_ 無關，只是我們給它的術語）。這個新的事務將包含對訊息的_commitment_。
 
 ![RGB-Bitcoin](assets/en/025.webp)
 
@@ -552,18 +552,18 @@ Alice 通知 Bob 如果花掉這筆 UTXO，就會被視為發生了特定事件�
 
 當你向某人證明某個訊息被嵌入到一個交易中時，你需要能夠保證在同一個交易中沒有另一種形式的 Commitment (第二個隱藏的訊息)，而這個訊息還沒有被揭露給你。為了讓 Client-side Validation 保持穩健，您需要一個**決定性的**機制，將單一的_commitment_放在關閉_單次使用封印_的交易中。
 
-_witness transaction_ 花費了著名的 UTXO（或稱 _seal definition_），這項花費對應於 Seal 的關閉。從技術上來說，我們知道每個 outpoint 只能花費一次。這正是 Bitcoin 抵制雙重支出的基礎。但是花費交易可能有幾個_輸入_、幾個_輸出_，或是以複雜的方式組成（coinjoins、Lightning channels 等）。因此，我們需要清楚地定義在這個結構中插入 _commitment_ 的位置，而且要毫不含糊、統一。
+_witness transaction_ 花費了著名的 UTXO（或稱 _seal definition_），這項花費對應於 Seal 的關閉。從技術上來說，我們知道每個 outpoint 只能花費一次。這正是 Bitcoin 抵制雙重支出的基礎。但是花費交易可能有幾個_輸入_、幾個_輸出_，或是以複雜的方式組成（[coinjoins](https://planb.academy/resources/glossary/coinjoin)、Lightning channels 等）。因此，我們需要清楚地定義在這個結構中插入 _commitment_ 的位置，而且要毫不含糊、統一。
 
 無論使用何種方法 (PkO、TxO2 等)，都可以插入 _commitment_ ：
 
 
 - 在輸入**中透過.NET 輸入**：
-- **Sigtweak** (修改 ECDSA 簽署的 `r` 元件，類似於「Sign-to-Contract」原則)；
+- **Sigtweak** (修改 [ECDSA](https://planb.academy/resources/glossary/ecdsa) [簽署](https://planb.academy/resources/glossary/digital-signature)的 `r` 元件，類似於「Sign-to-Contract」原則)；
 - **Witweak** (交易的 _segregated witness_ 資料被修改)。
 - 在輸出中透過：
 - **Keytweak** (收件者的公開金鑰與訊息一起被「調整」) ；
 - **Opret** (訊息會放置在非消耗性輸出 `OP_RETURN` 中)；
-- **Tapret** (或 _Taptweak_)，它依賴 Taproot 將 Commitment 插入 Taproot 金鑰的腳本部分，因此可以確定地修改公開金鑰。
+- **Tapret** (或 _Taptweak_)，它依賴 Taproot 將 Commitment 插入 Taproot 金鑰的[腳本](https://planb.academy/resources/glossary/script)部分，因此可以確定地修改公開金鑰。
 
 ![RGB-Bitcoin](assets/en/035.webp)
 
@@ -573,7 +573,7 @@ _witness transaction_ 花費了著名的 UTXO（或稱 _seal definition_），�
 
 *** 簽名調整 (簽名至 Contract) :***
 
-早期的方案是利用簽章（ECDSA 或 Schnorr）的隨機部分來嵌入 _commitment：這就是所謂的「**Sign-to-Contract**」技術。您可以使用包含資料的 Hash 來取代隨機產生的 Nonce。如此一來，簽章就隱含揭示了您的 Commitment，而不需要在交易中增加任何額外的空間。這種方式有許多優點：
+早期的方案是利用簽章（ECDSA 或 [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol)）的隨機部分來嵌入 _commitment：這就是所謂的「**Sign-to-Contract**」技術。您可以使用包含資料的 Hash 來取代隨機產生的 [Nonce](https://planb.academy/resources/glossary/nonce)。如此一來，簽章就隱含揭示了您的 Commitment，而不需要在交易中增加任何額外的空間。這種方式有許多優點：
 
 
 - 沒有 On-Chain 過載（您使用的地方與基本 Nonce 相同）；
@@ -582,14 +582,14 @@ _witness transaction_ 花費了著名的 UTXO（或稱 _seal definition_），�
 不過，也出現了 2 個主要的缺點：
 
 
-- Multisig 之前的 Taproot：當您有多位簽名者時，您需要決定由哪位簽名者來承擔 _commitment_。簽名可以有不同的順序，如果簽名者拒絕，您就會失去對 _commitment_ 結果的控制；
+- [Multisig](https://planb.academy/resources/glossary/multisig) 之前的 Taproot：當您有多位簽名者時，您需要決定由哪位簽名者來承擔 _commitment_。簽名可以有不同的順序，如果簽名者拒絕，您就會失去對 _commitment_ 結果的控制；
 - MuSig 與共用 Nonce：使用 Schnorr Multisig (*MuSig*)，Nonce 的產生是一種多方演算法，要個別調整 Nonce 變得幾乎不可能。
 
-實際上，**sig tweak** 與現有的硬體（硬體錢包）和格式（Lightning 等）也不太相容。因此，這個偉大的想法是 Hard 來實踐的。
+實際上，**sig tweak** 與現有的硬體（[硬體錢包](https://planb.academy/resources/glossary/hardware-wallet)）和格式（Lightning 等）也不太相容。因此，這個偉大的想法是 Hard 來實踐的。
 
 ***關鍵調整 (付費至 Contract) :***
 
-** key tweak** 採用了_pay-to-contract_的歷史概念。我們使用公開金鑰 `X` 並加入值 `H(message)` 來調整它。具體來說，如果 `X = x * G` 和 `h = H(訊息)`，那麼新的金鑰就是 `X' = X + h * G`。這個經過調整的金鑰會隱藏 Commitment 到`訊息`。原始私密金鑰的持有者可以藉由在他的私密金鑰 `x` 中加入 `h` 來證明他有花費輸出的金鑰。理論上，這是很優雅的，因為：
+** key tweak** 採用了_pay-to-contract_的歷史概念。我們使用公開金鑰 `X` 並加入值 `H(message)` 來調整它。具體來說，如果 `X = x * G` 和 `h = H(訊息)`，那麼新的金鑰就是 `X' = X + h * G`。這個經過調整的金鑰會隱藏 Commitment 到`訊息`。原始[私密金鑰](https://planb.academy/resources/glossary/private-key)的持有者可以藉由在他的私密金鑰 `x` 中加入 `h` 來證明他有花費輸出的金鑰。理論上，這是很優雅的，因為：
 
 
 - 輸入 _commitment_ 時，不需要新增任何欄位；
@@ -645,7 +645,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 
 
 - 29 個位元組 `OP_RESERVED`, 接著是 `OP_RETURN`, 然後是 `OP_PUSHBYTE_33`, 形成 31 個位元組 _prefix_ 部份；
-- 接下來是 32 位元組的 _commitment_ (通常是來自 **MPC** 的 Merkle Root)，我們再加上 1 位元組的 **Nonce**（第二部分總共 33 位元組）。
+- 接下來是 32 位元組的 _commitment_ (通常是來自 **MPC** 的 [Merkle Root](https://planb.academy/resources/glossary/merkle-root))，我們再加上 1 位元組的 **Nonce**（第二部分總共 33 位元組）。
 
 因此，64 位元組的 `Tapret` 方法看起來像是一個 `Opret`，我們在其中加入了 29 位元組的 `OP_RESERVED` 前綴，並多加了一個位元組作為 Nonce。
 
@@ -665,7 +665,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 
 
 - `P`：_Key Path Spend_ 的內部公開金鑰。
-- `G`：橢圓曲線 [secp256k1](https://en.Bitcoin.it/wiki/Secp256k1) 的生成點。
+- `G`：[橢圓曲線](https://planb.academy/resources/glossary/elliptic-curve) [secp256k1](https://en.Bitcoin.it/wiki/Secp256k1) 的生成點。
 - t = tH_TWEAK(P)` 是根據 [BIP86](https://github.com/Bitcoin/bips/blob/master/bip-0086.mediawiki#Address-derivation)，透過_標記切細值_ (例如 `SHA-256(SHA-256(TapTweak)||P)`)計算的切細因子。這證明沒有隱藏的腳本。
 
 若要包含**Tapret** Commitment，請新增**腳本路徑花費**，並使用**獨特的腳本**，如下所示：
@@ -958,7 +958,7 @@ tH_MPC_BRANCH(tH1 || tH2) = SHA-256(SHA-256(merkle_tag) || SHA-256(merkle_tag) |
 
 Multi Protocol Commitment* (MPC) 是使 RGB 將多個合約彙集到單一 Bitcoin 交易中的原則，同時保持承諾的唯一性和對其他參與者的保密性。由於樹狀結構的確定性，每個 Contract 都被分配到一個唯一的位置，而「假」葉 (*Entropy Leaves*) 的存在部分掩蓋了參與交易的合約總數。
 
-整個 Merkle Tree 永遠不會儲存在客戶端。我們只需為每個相關的 Contract 設定一個 _Merkle path_ generate，並傳送給接收者（接收者可隨後驗證 Commitment）。在某些情況下，您可能有數個資產已通過相同的 UTXO。您可以將幾個 _Merkle paths_ 合併為一個所謂的 _multi-protocol Commitment block_，以避免重複太多資料。
+整個 [Merkle Tree](https://planb.academy/resources/glossary/merkle-tree) 永遠不會儲存在客戶端。我們只需為每個相關的 Contract 設定一個 _Merkle path_ generate，並傳送給接收者（接收者可隨後驗證 Commitment）。在某些情況下，您可能有數個資產已通過相同的 UTXO。您可以將幾個 _Merkle paths_ 合併為一個所謂的 _multi-protocol Commitment block_，以避免重複太多資料。
 
 因此，每個 _Merkle proof_ 都是輕量級的，尤其是在 RGB 中，樹的深度不會超過 32。還有一個「Merkle 區塊」的概念，它保留了更多的資訊 (截面、熵等)，對於結合或分離幾個分支很有用。
 
@@ -1471,7 +1471,7 @@ RGB 的一大優勢在於能夠隨意顯示 (*reveal*) 或隱藏 (*conceal*) *Se
         - 一個簡單的 `txid`，如果指向特定的 UTXO、
         - 或`WitnessTx`，它指定了一個自我參考：Seal 指向交易本身。這在沒有外部 UTXO 時特別有用，例如在 Lightning 通道開啟交易中，或收件人沒有 UTXO 時。
 - **vout** : `txptr` 所指示的交易輸出號碼。只出現在標準圖形 Seal (不適用於 `WitnessTx`)；
-- **billing**：8 位元組的隨機數字，用來加強機密性，並防止對 UTXO 身份的暴力嘗試；
+- **billing**：8 位元組的隨機數字，用來加強機密性，並防止對 UTXO 身份的[暴力嘗試](https://planb.academy/resources/glossary/brute-force-attack)；
 - **method** : 表示使用的錨定方法 (`Tapret`或`Opret`)。
 
 Seal Definition 的*隱藏*形式是這 4 個欄位串連的 SHA256 Hash（已標記），並加上 RGB 的特定標記。
@@ -1490,7 +1490,7 @@ RGB 定義了 Owned State 四種可能的狀態類型 (*StateTypes*)：
 
 
 - 宣告式：不包含數值資料，只包含宣告式權利 (例如投票權)。隱藏和揭示的形式是相同的；
-- **Fungible**: 代表可替代的數量 (就像代幣)。在揭示形式中，我們有 `amount` 和 `blinding`。在隱藏形式中，我們有一個 *Pedersen commitment*，它會隱藏數量和盲點；
+- **Fungible**: 代表可替代的數量 (就像代幣)。在揭示形式中，我們有 `amount` 和 `blinding`。在隱藏形式中，我們有一個 *[Pedersen commitment](https://planb.academy/resources/glossary/pedersen-commitment)*，它會隱藏數量和盲點；
 - **Structured**: 儲存結構化資料 (最多 64 kB)。在揭示形式下，它是資料 Blob。在隱藏形式下，它是此 blob 的標記 Hash：
 
 ```txt
@@ -1676,12 +1676,12 @@ RGB 的一大創新是嚴格區分兩個概念：
 當先前無效的規則變為有效時，就會發生快轉。例如，如果 Contract 演變為允許新的 `AssignmentType` 類型或新的欄位 ：
 
 
-- 這無法與經典的 Blockchain hardfork 相提並論，因為 RGB 可以在 Client-side Validation 中運作，並且不會影響 Blockchain 的整體相容性；
+- 這無法與經典的 Blockchain [hardfork](https://planb.academy/resources/glossary/hard-fork) 相提並論，因為 RGB 可以在 Client-side Validation 中運作，並且不會影響 Blockchain 的整體相容性；
 - 實際上，這類變更是以 Contract Operation 中的 `Ffv`（*快轉版本*）欄位來表示；
 - 目前的持有者不會受到傷害：他們的身份仍然有效；
 - 另一方面，新受益人（或新使用者）需要更新其軟體（其 Wallet）以識別新規則。
 
-回推意味著之前有效的規則變得無效。因此它是規則的「硬化」，但嚴格來說不是軟叉：
+回推意味著之前有效的規則變得無效。因此它是規則的「硬化」，但嚴格來說不是[軟叉](https://planb.academy/resources/glossary/soft-fork)：
 
 
 - 現有持有人可能會受到影響（他們可能會發現自己的資產在新版本中變得過時或無效）；

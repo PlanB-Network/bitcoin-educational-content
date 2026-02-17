@@ -1,0 +1,9 @@
+question: Na kom nivou je cena bitkoina pala na kraju medveđeg tržišta koje je usledilo nakon velikog balona iz 2011?
+answer: 2 $
+wrong_answers:
+  - 0,01 $
+  - 6 $
+  - 17,5 $
+explanation: |
+ Nakon što je dostigla vrhunac od $32 u junu 2011, cena bitcoina je drastično pala na $6 početkom avgusta, a zatim nastavila da pada, konačno dostigavši oko $2 u novembru 2011. Ovo je predstavljalo pad od preko 90% u odnosu na junsku vrednost.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Kasım 2011'de seed anahtar türetimini 12 kelimelik bir cümle olarak temsil ederek yenilik yapan yazılım hangisidir?
+answer: Electrum
+wrong_answers:
+  - Spesmilo
+  - Tabaka
+  - Paymium
+explanation: |
+ Bu wallet Fransız geliştirici Thomas Voegtlin tarafından yaratılmıştır. Adı, altın ve gümüşün doğal bir alaşımı olan elektruma atıfta bulunmaktadır. Electrum ilk altın ve gümüş
+ wallet'ler, hem onaltılık karakter dizisi hem de 12 kelimelik bir cümle olarak temsil ettiği bir seed'ten anahtarlar türeten deterministik bir yapı uygulamak için.
+reviewed: true

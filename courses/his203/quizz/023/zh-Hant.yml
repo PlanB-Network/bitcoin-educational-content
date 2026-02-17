@@ -1,0 +1,11 @@
+question: 是誰在 2011 年 4 月創建了 GLBSE 線上證券交易所，這個平台讓 Bitcoin 生態系統中的玩家可以發行股票或債券等金融證券來融資？
+answer: James McCarthy (Nefario)
+wrong_answers:
+  - Charlie Shrem（洋基）
+  - Mircea Popescu (MPOE-PR)
+  - Nathaniel Theis (Cuddlefish)
+explanation: |
+ James McCarthy (Nefario) 是一位居住在中國的愛爾蘭人，在一所大學擔任英文教授的職位。他對奧地利學派
+ 和 Cypherpunks 的思想感興趣。2011 年 4 月，他創立了 GLBSE，為客戶提供各種金融服務，包括發行股票和債券。
+ 發行股票和債券。
+reviewed: true

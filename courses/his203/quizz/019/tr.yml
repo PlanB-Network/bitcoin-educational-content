@@ -1,0 +1,10 @@
+question: 2011'deki büyük balonu takip eden ayı piyasasının sonunda bitcoin fiyatı yaklaşık hangi seviyeye düştü?
+answer: 2 $
+wrong_answers:
+  - 0,01 $
+  - 6 $
+  - 17,5 $
+explanation: |
+ Haziran 2011'de 32 dolarla zirve yaptıktan sonra, bitcoin fiyatı Ağustos başında 6 dolara kadar düştü, ardından düşmeye devam etti ve sonunda 2 dolar civarına ulaştı
+ Kasım 2011. Bu, Haziran ayındaki zirveye kıyasla %90'ın üzerinde bir düşüşü temsil etmektedir.
+reviewed: true

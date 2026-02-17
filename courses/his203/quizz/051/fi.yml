@@ -1,0 +1,10 @@
+question: Mikä oli Nicolas Christinin elokuussa 2012 julkaistun tutkimuksen mukaan päivittäinen myyntimäärä toukokuussa 2012?
+answer: 15 000 BTC tai 75 000 dollaria
+wrong_answers:
+  - 600 BTC tai 3000 dollaria
+  - 3 000 BTC tai 15 000 dollaria
+  - 75 000 BTC tai 375 000 dollaria
+explanation: |
+ Päivittäinen myyntimäärä, joka maaliskuussa oli 8 000 BTC, nousi toukokuussa 15 000 BTC:een, mikä vastasi tuolloin noin 75 000 dollaria. Toiminnan osuus kokonaismäärästä
+ Bitcoin-ketjun aktiivisuudesta liikkui 10-20 prosentin välillä vuoden 2012 aikana. Marraskuun alussa Ross kutsui alustan menestystä "räjähdysmäiseksi kasvuksi".
+reviewed: true

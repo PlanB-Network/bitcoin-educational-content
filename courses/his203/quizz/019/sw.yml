@@ -1,0 +1,9 @@
+question: Bei ya bitcoin ilishuka katika kiwango gani mwishoni mwa soko la kubeba lililofuata kiputo kikubwa cha 2011?
+answer: $2
+wrong_answers:
+  - $0,01
+  - $6
+  - $17.5
+explanation: |
+ Baada ya kufikia kilele cha $32 mnamo Juni 2011, bei ya bitcoin ilishuka sana hadi $6 mwanzoni mwa Agosti, kisha iliendelea kushuka, hatimaye ikafikia karibu $2 mnamo Novemba 2011. Hii iliwakilisha kushuka kwa zaidi ya 90% kutoka kilele cha Juni.
+reviewed: true

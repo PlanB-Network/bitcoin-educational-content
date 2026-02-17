@@ -1,0 +1,9 @@
+question: Ưu điểm chính của quy trình xác minh thanh toán đơn giản (SPV) được triển khai trong BitCoinJ và được sử dụng bởi các thiết bị wallet nhẹ như Bitcoin Wallet dành cho Android là gì?
+answer: Điều này cho phép xác minh các giao dịch mà không cần phải tải xuống toàn bộ chuỗi khối
+wrong_answers:
+  - Hệ thống tự động xáo trộn bitcoin khi nhận được thanh toán để tăng cường tính bảo mật
+  - Nó mã hóa dữ liệu wallet bằng thuật toán AES-256 để ngăn chặn hành vi đánh cắp dữ liệu bằng mã độc Trojan
+  - Điều này giúp bảo mật kết nối với một nút hiện có để ngăn chặn các cuộc tấn công lợi dụng tính dễ bị thay đổi của các giao dịch
+explanation: |
+ Xác minh thanh toán đơn giản (SPV) là một cải tiến quan trọng được mô tả trong sách trắng Bitcoin, cho phép các máy khách mỏng xác minh rằng các giao dịch của họ thuộc về blockchain mà không cần phải tải xuống và lưu trữ toàn bộ dữ liệu.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Minkä kiistanalaisen toimen Luke-Jr toteutti kryptovaluutta Coiledcoinia vastaan 6. tammikuuta 2012 "suojellakseen" Bitcoin-ekosysteemiä?
+answer: Hän suoritti sensuurihyökkäyksen Coiledcoinia vastaan käyttämällä Eligius mining -pooliaan
+wrong_answers:
+  - Hän jätti DMCA-takedown-ilmoituksen Coinledcoinia vastaan GitHubille tekijänoikeusloukkauksesta
+  - Hän muokkasi Coiledcoinin Wikipedia-sivua kutsuakseen sitä julkisesti pyramidihuijaukseksi
+  - Hän lähetti massaviestejä Coiledcoinin lohkoketjuun OP_RETURN:n ansiosta
+explanation: |
+ Tämä sensuurihyökkäys (tyhjien lohkojen mining) toteutettiin mining:n ja Bitcoin:n yhdistelmällä, jonka hän oli toteuttanut mining-altaassaan. Hän perusteli
+ tekoaan kirjoittamalla, ettei yksikään Eligius-kaivosmies ollut kärsinyt. Luke-Jr teki DMCA Takedown -ilmoituksen GitHubiin, mutta SolidCoinia vastaan.
+reviewed: true

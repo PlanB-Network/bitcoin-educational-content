@@ -57,7 +57,7 @@ The aim here is not to give you all the technical details (they'll come later in
 ### Part 2 - How proof of work works
 
 
-After the introduction, Part 2 is the technical foundation of the training program. Its aim is to explain, step by step, how Bitcoin produces valid blocks. We'll start by discovering the structure of a block, before going into the proof-of-work mechanism: the role of the target, the nonce and the hash function. Finally, we'll see how Bitcoin manages to maintain a stable block production rate despite variations in hash power, thanks to the difficulty adjustment mechanism. At the end of this section, you'll have a complete understanding of the fundamental principles of Bitcoin's proof-of-work.
+After the introduction, Part 2 is the technical foundation of the course. Its aim is to explain, step by step, how Bitcoin produces valid blocks. We'll start by discovering the structure of a block, before going into the proof-of-work mechanism: the role of the target, the nonce and the hash function. Finally, we'll see how Bitcoin manages to maintain a stable block production rate despite variations in hash power, thanks to the difficulty adjustment mechanism. At the end of this section, you'll have a complete understanding of the fundamental principles of Bitcoin's proof-of-work.
 
 
 ### Part 3 - The Bitcoin mining incentive system
@@ -105,7 +105,7 @@ In Bitcoin, when you make a payment, you create a transaction. This transaction 
 ![Image](assets/fr/050.webp)
 
 
-A block is simply a set of transactions grouped together. When a block is ready, it's not enough to publish it. You have to prove to the network that the block is worthy of being added to the pool. This is where mining comes in.
+A block is simply a set of transactions grouped together. When a block is ready, it's not enough to publish it. You have to prove to the network that the block is worthy of being added to the shared ledger. This is where mining comes in.
 
 
 Mining is the work of validating a block by consuming energy. Actors called miners use specialized computers. These machines consume electricity to carry out a very large number of tests, in a loop, until they find a proof that the network accepts. When a miner finds this proof, his block is considered valid.
@@ -250,7 +250,7 @@ A Bitcoin block therefore consists of two main parts:
 
 
 - a list of transactions;
-- a block header, which serves, in a way, as block's identity card.
+- a block header, which serves, in a way, as the block's identity card.
 
 
 ![Image](assets/fr/006.webp)
@@ -501,7 +501,7 @@ In Bitcoin, the "*majority*" is not the greatest number of participants, but the
 [Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System.*](https://bitcoin.org/bitcoin.pdf)
 
 
-The principles relating to the usefulness and powers of minors are a highly complex subject, which I won't go into in greater detail in this course. However, we will return to this subject in depth in future MIN 201 training courses.
+The principles relating to the usefulness and powers of miners are a highly complex subject, which I won't go into in greater detail in this course. However, we will return to this subject in depth in the future MIN 201 training course.
 
 
 For the moment, you can summarize how mining works like this: miners build a candidate block with the transactions pending in the mempools, then look for a hash of its header (via `SHA256d`) that is less than or equal to a target. They achieve this by testing nonces through trial and error.
@@ -902,13 +902,13 @@ subsidy(n) = 50 / 2^n
 Here is a summary table of halvings that have already occurred, with their block height, date and the new block subsidy applicable after the event:
 
 
-| Event               |   Height  | Date                        | Subsidy    |
-| ------------------- | --------: | --------------------------- | ---------: |
-| Halving 1           |   210 000 | 28 novembre 2012            |     25 BTC |
-| Halving 2           |   420 000 | 9 july 2016                 |   12,5 BTC |
-| Halving 3           |   630 000 | 11 may 2020                 |   6,25 BTC |
-| Halving 4           |   840 000 | 20 april 2024               |  3,125 BTC |
-| Halving 5 (upcoming) | 1 050 000 | Spring   2028 (estimation) | 1,5625 BTC |
+| Event                |   Height  | Date                       | Subsidy    |
+| -------------------- | --------: | -------------------------- | ---------: |
+| Halving 1            |   210 000 | November 28, 2012          |     25 BTC |
+| Halving 2            |   420 000 | July 9, 2016               |   12.5 BTC |
+| Halving 3            |   630 000 | May 11, 2020               |   6.25 BTC |
+| Halving 4            |   840 000 | April 20, 2024             |  3.125 BTC |
+| Halving 5 (upcoming) | 1 050 000 | Spring 2028 (estimation)   | 1.5625 BTC |
 
 ### When and how does the subsidy end?
 
@@ -1102,7 +1102,7 @@ To do this, the witnesses are grouped together in another dedicated Merkle tree,
 ![Image](assets/fr/038.webp)
 
 
-I won't go into more detail on this mechanism in this course, as it's beyond the scope of this article, but just remember that since the introduction of SegWit, the coinbase transaction serves as a vehicle to anchor in the block a fingerprint summarizing all SegWit witnesses. The witnesses are placed in an independent Merkle tree, the root of this tree is written to an output of the coinbase transaction, and this coinbase transaction is itself included in the main Merkle tree along with all the other transactions, whose root appears in the block header. This is how the witnesses, stored separately from the main transaction data, are still committed to the block header.
+I won't go into more detail on this mechanism in this course, as it's beyond the scope of this course, but just remember that since the introduction of SegWit, the coinbase transaction serves as a vehicle to anchor in the block a fingerprint summarizing all SegWit witnesses. The witnesses are placed in an independent Merkle tree, the root of this tree is written to an output of the coinbase transaction, and this coinbase transaction is itself included in the main Merkle tree along with all the other transactions, whose root appears in the block header. This is how the witnesses, stored separately from the main transaction data, are still committed to the block header.
 
 
 ![Image](assets/fr/039.webp)
@@ -1232,7 +1232,7 @@ The final stage in the specialization of mining hardware was the appearance of A
 This specialization has two major consequences:
 
 
-- The first is a leap in performance and efficiency. For devices of comparable generation, an ASIC produces a far more of hashes per second than a GPU, while consuming less power. Mining with a GPU quickly became uncompetitive: even though it worked technically, the electricity cost far outweighed the expected revenue in most contexts;
+- The first is a leap in performance and efficiency. For devices of comparable generation, an ASIC produces far more hashes per second than a GPU, while consuming less power. Mining with a GPU quickly became uncompetitive: even though it worked technically, the electricity cost far outweighed the expected revenue in most contexts;
 - The second is a change of model: investment mainly shifted to industrial-grade hardware. Mining now involves buying machines designed for this purpose, powering them continuously, cooling them, maintaining them, and absorbing their obsolescence. Because an ASIC is not economically eternal: when a new, more efficient generation comes onto the market, the old machines become progressively less profitable, even if they remain functional.
 
 
@@ -1365,7 +1365,7 @@ On the technical side, pools were then structured around specialized communicati
 ### The modern situation
 
 
-At the time of writing (early 2026), the global Bitcoin hashrate is at an order of magnitude of zetta-hash per second (= 1,000 EH/s = 1,000,000,000,000,000,000 hashes per second), and almost all the blocks found come from mining pools.
+At the time of writing (early 2026), the global Bitcoin hashrate is at an order of magnitude of zetta-hash per second (= 1,000 EH/s = 1,000,000,000,000,000,000,000 hashes per second), and almost all the blocks found come from mining pools.
 
 
 Here is a ranking, to date, of the main mining pools and their respective share of hashrate. This ranking is likely to change by the time you read this course. For up-to-date data, please visit [mempool.space](https://mempool.space/graphs/mining/pools).
@@ -1400,7 +1400,7 @@ Here is a ranking, to date, of the main mining pools and their respective share 
 |         22 | Unknown        |             2 |            0.05% |
 |         23 | Public Pool    |             1 |            0.02% |
 
-*Source [mempool.space](https://mempool.space/graphs/mining/pools), one-month data, December 16, 2025 to January 16, 2025.*
+*Source [mempool.space](https://mempool.space/graphs/mining/pools), one-month data, December 16, 2025 to January 16, 2026.*
 
 
 In a more advanced course, we'll go further into the internal workings of the pools (shares, network protocols, payment methods...), because this is where the details that determine both the miner's profitability and the potential implications for Bitcoin come into play.

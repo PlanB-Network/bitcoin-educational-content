@@ -1,0 +1,9 @@
+question: ใครเป็นผู้พัฒนาอัลกอริธึม mining ที่ต้านทาน GPU โดยใช้ฟังก์ชัน Scrypt ที่ใช้หน่วยความจำสูงในสกุลเงินดิจิทัล Tenebrix ในปี 2011?
+answer: ArtForz
+wrong_answers:
+  - ชาร์ลี ลี
+  - Lolcust
+  - โคลิน เพอร์ซิวาล
+explanation: |
+ Scrypt เป็นฟังก์ชันการแปลงคีย์ที่ออกแบบขึ้นครั้งแรกในปี 2009 โดยนักวิทยาศาสตร์คอมพิวเตอร์ชาวแคนาดา Colin Percival มันถูกนำไปใช้โดยนักขุด ArtForz ซึ่งช่วย Lolcust พัฒนา Tenebrix cryptocurrency ที่เปิดตัวในเดือนกันยายน 2011 Charlie Lee ได้นำโมเดลนี้ไปใช้ใน Litecoin ซึ่งเปิดตัวในเดือนตุลาคม
+reviewed: true

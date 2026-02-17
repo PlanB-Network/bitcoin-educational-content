@@ -1,0 +1,10 @@
+question: Mis oli Siiditee peamine toode?
+answer: Kanepi
+wrong_answers:
+  - Hallutsinogeensed seened
+  - Heroiin
+  - Steroidid
+explanation: |
+ Kuigi platvormi kasutati peamiselt ebaseaduslikuks uimastikaubanduseks, müüdi ka väikestes kogustes kanepit. Seal olid ka legaalsed tooted, nagu raamatud, kunst,
+ elektroonikakomponendid, kuld jne. Varastatud pangakaarte, lastepornot või palgamõrvarite teenuseid ei olnud, sest need olid saidi põhikirjaga keelatud.
+reviewed: true

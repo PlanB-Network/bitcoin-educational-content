@@ -1,0 +1,10 @@
+question: Porque é que a atualização do Pay to Script Hash necessitou de 55% da potência de hash da rede para ser activada?
+answer: Para que seja "compatível com as versões anteriores" e não crie uma divisão em cadeia
+wrong_answers:
+  - Porque a governação do protocolo depende do voto dos mineiros ("um processador, um voto")
+  - A fim de não centralizar a atividade mining, então dominada por alguns pools mining
+  - Porque o líder do projeto, Gavin Andresen, não queria ser um "ditador benevolente"
+explanation: |
+ Esta foi uma restrição das regras de consenso, o que mais tarde seria chamado de "soft fork". A atualização não cria uma divisão da cadeia se for apoiada por uma
+ maioria do poder de computação da rede.
+reviewed: true

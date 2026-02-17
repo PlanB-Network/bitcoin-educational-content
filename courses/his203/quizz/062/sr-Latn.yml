@@ -1,0 +1,9 @@
+question: Na kojem subreddit-u su korisnici mogli objavljivati svoje gole fotografije za bitcoin napojnice od marta 2012?
+answer: r/GirlsGoneBitcoin
+wrong_answers:
+  - r/GoneWild
+  - r/CryptoPorn
+  - r/Bitcoin
+explanation: |
+ r/GirlsGoneBitcoin je otvorio Julian Tosh, poznat kao Tuxavant, zagovornik Linuxa i privatnosti koji živi u Las Vegasu, 26. marta 2012. godine. Subreddit je imao skoro 2.000 članova do kraja godine.
+reviewed: true

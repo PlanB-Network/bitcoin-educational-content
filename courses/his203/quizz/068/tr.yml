@@ -1,0 +1,10 @@
+question: Eylül 2012 başında hangi borsa platformundan 24.000 bitcoin çalınmıştır?
+answer: Bitfloor
+wrong_answers:
+  - Mt. Gox
+  - Tradehill
+  - BTC-e
+explanation: |
+ 3-4 Eylül 2012 gecesi, bir bilgisayar korsanı Bitfloor'un wallet anahtarlarının şifrelenmemiş bir yedeğine erişti ve 24.000'den biraz fazla BTC veya
+ 250,000 dolar civarındaydı.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Kdo v roce 2011 implementoval paměťově náročnou funkci Scrypt jako algoritmus mining odolný vůči GPU do kryptoměny Tenebrix?
+answer: ArtForz
+wrong_answers:
+  - Charlie Lee
+  - Lolcust
+  - Colin Percival
+explanation: |
+ Scrypt je funkce pro odvozování klíčů, kterou v roce 2009 původně navrhl kanadský počítačový vědec Colin Percival. Ujal se jí těžař ArtForz, který pomohl
+ Lolcust vyvinout kryptoměnu Tenebrix, která byla spuštěna v září 2011. Charlie Lee převzal model pro začlenění do Litecoinu, který debutoval v říjnu.
+reviewed: true

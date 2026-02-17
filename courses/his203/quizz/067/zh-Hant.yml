@@ -1,0 +1,10 @@
+question: 流通中的比特幣佔 Bitcoin 儲蓄與信託基金在高峰時期所管理的資金的比例大約是多少？
+answer: 約 5%
+wrong_answers:
+  - 約 0.05
+  - 約 0.5
+  - 約 50%
+explanation: |
+ 在 2012 年 8 月的高峰期，Trendon Shavers (aka PirateAt40) 的基金管理超過 500,000 個比特幣，約佔流通中的 970 萬個比特幣的 5%。
+ 流通！之後，Bitcoin Savings & Trust 就因為信心蒸發而倒閉。
+reviewed: true

@@ -1,0 +1,10 @@
+question: Mikä protokolla esti viranomaisia sulkemasta Silk Roadin markkinapaikkaa suoraan?
+answer: Tor
+wrong_answers:
+  - I2P
+  - Freenet
+  - BitTorrent
+explanation: |
+ Tor on lyhenne sanoista The Onion Router (Sipulireititin), ja se on protokolla, joka tukee maailmanlaajuista, hajautettua päällekkäistä tietokoneverkkoa (yleisesti tunnettu nimellä darknet).
+ Sen avulla verkkosivustoja voidaan isännöidä anonyymisti ja ilman sensuuria, ja se sopi erinomaisesti Ross Ulbrichtin hankkeeseen.
+reviewed: true

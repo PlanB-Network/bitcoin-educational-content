@@ -1,0 +1,9 @@
+question: Chương trình phát thanh theo chủ nghĩa tự do nào ở Mỹ là một trong những chương trình đầu tiên đề cập đến sự tồn tại của chợ Con đường Tơ lụa?
+answer: Trò chuyện trực tiếp miễn phí
+wrong_answers:
+  - Chương trình Bitcoin
+  - Xét mọi khía cạnh
+  - Bản tin đêm của Infowars
+explanation: |
+ Chương trình Free Talk Live do Ian Freeman và Mark Edge dẫn chương trình. Họ đã phát hiện ra Bitcoin vào tháng 12 năm 2010 và gặp Gavin Andresen vào tháng 2 năm 2011. Vào ngày 16 tháng 3 năm 2011, một nửa thời lượng chương trình dành cho việc sử dụng Bitcoin trên Silk Road, điều này đã thuyết phục Roger Ver tham gia tích cực hơn vào Bitcoin.
+reviewed: true

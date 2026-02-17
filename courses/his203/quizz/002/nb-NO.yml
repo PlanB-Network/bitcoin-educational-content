@@ -1,0 +1,10 @@
+question: Hvilken protokoll hindret Silk Road-markedsplassen i å bli stengt direkte av myndighetene?
+answer: Tor
+wrong_answers:
+  - I2P
+  - Freenet
+  - BitTorrent
+explanation: |
+ Tor, et leksikalisert akronym for The Onion Router, er en protokoll som støtter et globalt, desentralisert datanettverk (ofte kjent som darknet).
+ Det gjør det mulig å hoste nettsteder anonymt og uten sensur, og var ideelt egnet for Ross Ulbrichts prosjekt.
+reviewed: true

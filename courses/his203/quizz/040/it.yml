@@ -1,0 +1,10 @@
+question: In cosa consiste lo schema di script Pay-to-Script-Hash (P2SH)?
+answer: Bloccare i fondi con l'hash di uno script, che deve essere eseguito al momento dello sblocco
+wrong_answers:
+  - Richiede M firme su N partecipanti per autorizzare la spesa dell'output della transazione
+  - Far dipendere la spesa dei bitcoin dalla fornitura di una firma legata a un'unica chiave pubblica
+  - Scrivere dati arbitrari sulla blockchain rendendo il UTXO non spendibile
+explanation: |
+ Ciò comporta il pagamento di un hash script e la fornitura di tale script quando si sbloccano i fondi. Ciò che lo differenzia dalla proposta del OP_EVAL è che viene
+ riconosciuto automaticamente dalla macchina virtuale, in modo da poter essere eseguito senza bisogno di istruzioni esplicite.
+reviewed: true

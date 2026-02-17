@@ -1,0 +1,9 @@
+question: Koji događaj 15. aprila 2011. godine su poker igrači nazvali "Crni petak"?
+answer: Zatvaranje glavnih američkih online poker platformi od strane FBI zbog zaobilaženja UIGEA
+wrong_answers:
+  - Ponuda nekih online poker sajtova nudila je velike promocije na rake i buy-in naknade.
+  - Velika greška u softveru za online poker omogućila je preusmeravanje sredstava za kupovinu nakita i golf loptica
+  - Amaterski igrač Chris Moneymaker pobedio je na glavnom turniru Svetskog prvenstva u pokeru nakon što je trenirao online.
+explanation: |
+ Optuženi su da su se predstavljali kao konvencionalni trgovci kako bi njihove banke potvrdile dolazne transfere, što je bilo zabranjeno Zakonom o nezakonitom sprovođenju internet kockanja iz 2006. godine. Ovo zatvaranje bilo je katastrofalno za industriju online pokera. Podstaklo je stvaranje nekoliko bitcoin poker platformi, jer kriptovaluta nije bila podložna istim ograničenjima.
+reviewed: true

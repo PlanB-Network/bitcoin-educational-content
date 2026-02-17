@@ -1,0 +1,10 @@
+question: Bitcoin貯蓄信託基金がピーク時に管理していた資金は、流通するビットコインのおよそ何割に相当するのだろうか？
+answer: 約5
+wrong_answers:
+  - 約0.05
+  - 約0.5
+  - 約50
+explanation: |
+ 2012年8月のピーク時、Trendon Shavers（別名PirateAt40）のファンドは50万ビットコイン以上を運用しており、これは流通する970万ビットコインの約5％に相当する。
+ これは流通する970万ビットコインの約5％に相当する！Bitcoin Savings & Trustはその直後、信頼が失墜したため破綻した。
+reviewed: true

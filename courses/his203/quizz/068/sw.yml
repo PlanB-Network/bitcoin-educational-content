@@ -1,0 +1,9 @@
+question: Ni mfumo gani wa kubadilishana pesa ulioibiwa bitcoin 24,000 mapema Septemba 2012?
+answer: Sakafu ndogo
+wrong_answers:
+  - Mlima Gox
+  - Kilima cha Biashara
+  - BTC-e
+explanation: |
+ Usiku wa Septemba 3 hadi 4, 2012, mdukuzi mmoja alipata nakala rudufu ya funguo za wallet za Bitfloor ambazo hazijasimbwa kwa njia fiche, na akafanikiwa kutoa zaidi ya BTC 24,000, au karibu $250,000 wakati huo.
+reviewed: true

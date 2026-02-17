@@ -1,0 +1,10 @@
+question: Miksi Pay to Script Hash -päivitys tarvitsi 55 prosenttia verkon hash-tehosta aktivoituakseen?
+answer: Jotta se olisi "taaksepäin yhteensopiva" eikä aiheuttaisi ketjun jakamista
+wrong_answers:
+  - Koska protokollan hallinta riippuu louhijoiden äänistä ("yksi prosessori, yksi ääni")
+  - Jotta mining-liiketoimintaa ei keskitettäisi, jota muutamat mining-poolit hallitsevat
+  - Koska projektin johtaja Gavin Andresen ei halunnut olla "hyväntahtoinen diktaattori"..
+explanation: |
+ Tämä oli konsensussääntöjen rajoitus, jota myöhemmin kutsuttiin "pehmeäksi fork:ksi". Päivitys ei aiheuta ketjun jakautumista, jos se on tuettu
+ enemmistö verkon laskentatehosta.
+reviewed: true

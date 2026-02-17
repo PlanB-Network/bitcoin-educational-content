@@ -1,0 +1,11 @@
+question: Millist meetodit kasutas Tony76 oma 20. aprilli 2012. aasta kelmuse loomiseks Silk Road turul?
+answer: Kasutab oma laitmatut müüja mainet, et nõuda tehingute ennetähtaegset lõpuleviimist
+wrong_answers:
+  - Tehnilise haavatavuse ärakasutamine bitcoin-maksete töötlemisel platvormil
+  - Bitcoini hinna manipuleerimine hindade kunstlikuks paisutamiseks Silk Roadil
+  - Silk Roadi töötaja väljapressimine, et ta trükiks valesid tootekirjeldusi
+explanation: |
+ Tony76-l oli suurepärane maine, mis võimaldas tal nõuda, et ostjad kasutaksid varajast lõpetamist, mitte eskroo. Kuna 20. aprill on sümboolne kuupäev
+ kanepitarbijatele, pakkus ta selleks puhuks oma tavapärastele toodetele mitmeid allahindlusi ja tellimusi laekus ohtralt. Hiljem kadus ta koos bitcoinidega ja
+ ei täitnud kunagi oma tellimusi.
+reviewed: true

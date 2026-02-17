@@ -1,0 +1,9 @@
+question: Koperasi mining mana yang secara singkat melampaui tingkat hash jaringan 50% pada musim panas 2011?
+answer: Deepbit
+wrong_answers:
+  - Deepbit
+  - Kolam Renang Lumpur
+  - GHash.io
+explanation: |
+ Menurut OrganOfCorti, tingkat hash terukur Deepbit adalah 52,86% pada tanggal 5 Agustus.
+reviewed: true

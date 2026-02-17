@@ -1,0 +1,11 @@
+question: Que plataforma de câmbio concorrente da Mt. Gox foi lançada em dezembro de 2010 por David François?
+answer: Bitcoin-Central
+wrong_answers:
+  - Paymium
+  - Britcoin
+  - Bitomat
+explanation: |
+ O Bitcoin-Central era uma plataforma francesa, que inicialmente aceitava dólares e euros da Liberty Reserve, bem como transferências convencionais em euros. O seu código fonte foi
+ publicado sob uma licença de código aberto (AGPL). A plataforma fundiu-se posteriormente com a Paymium, uma empresa co-fundada por Gonzague Grandval, Pierre Noizat e David
+ François em junho de 2011, que inicialmente se centrava no domínio dos pagamentos.
+reviewed: true

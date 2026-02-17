@@ -1,0 +1,10 @@
+question: ¿Qué protocolo mining fue desarrollado en septiembre de 2012 por Marek Palatinus, alias Slush, para mejorar los intercambios entre mineros y pools mining?
+answer: Estrato
+wrong_answers:
+  - Electrum
+  - Getwork
+  - Getblocktemplate (GBT)
+explanation: |
+ Stratum era un protocolo mining para clientes ligeros. Sustituyó rápidamente a la rudimentaria función getwork utilizada hasta entonces, y se impuso a costa de
+ la propuesta competidora getblocktemplate.
+reviewed: true

@@ -1,0 +1,9 @@
+question: نام رابط گرافیکی که توسط Wladimir van der Laan در سال 2011 برای نرم‌افزار اصلی توسعه داده شد چه بود؟
+answer: Bitcoin-Qt
+wrong_answers:
+  - wxWindows-Bitcoin
+  - bitcoind
+  - Bitcoin Core
+explanation: |
+ Bitcoin-Qt یک بازنگری کامل در رابط گرافیکی Bitcoin بود. این برنامه از ژوئن 2011 توسعه یافت و در نسخه 0.5 به نرم‌افزار اصلی ادغام شد که در 21 نوامبر منتشر شد. بر اساس چارچوب گرافیکی Qt، این برنامه جایگزین کتابخانه wxWindows شد که در اصل توسط Satoshi استفاده می‌شد. به‌طور مجازی، از آن زمان به بعد نرم‌افزار Bitcoin-Qt نامیده شد.
+reviewed: true

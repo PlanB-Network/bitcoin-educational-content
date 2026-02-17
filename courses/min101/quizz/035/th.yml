@@ -1,0 +1,9 @@
+question: ตั้งแต่ SegWit ข้อมูลการยืนยันพยานบล็อกถูกบันทึกไว้ที่ไหน?
+answer: ในเอาต์พุตของคอยน์เบส
+wrong_answers:
+  - ใน coinbase scriptSig
+  - ในช่องเวอร์ชัน
+  - ในค่าธรรมเนียมของ Coinbase
+explanation: |
+  SegWit ใช้การผูกพันที่บันทึกใน coinbase ผ่านทางเอาต์พุต OP_RETURN
+reviewed: true

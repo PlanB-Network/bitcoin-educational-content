@@ -1,0 +1,9 @@
+question: Ni kiwango gani cha malipo kilichosajiliwa na IANA mnamo Septemba 2012 na mbunifu wa programu Dave Thaler?
+answer: Mpango wa URI wa BIP 21
+wrong_answers:
+  - Kwingineko za kihierarkia za BIP 32 zenye mpangilio maalum
+  - Itifaki ya malipo ya BIP 70
+  - Misimbo ya malipo inayoweza kutumika tena ya BIP 47
+explanation: |
+ Kiwango hiki kiliwezesha kurasimisha maombi ya malipo, ambayo yalichukua umbo la mfuatano wa herufi au msimbo wa QR. Baada ya mapendekezo kadhaa, mpango wa mwisho wa URI ulielezewa Januari 2012 ndani ya BIP 21 na Matt Corallo. Ulisajiliwa na IANA na Dave Thaler mnamo Septemba.
+reviewed: true

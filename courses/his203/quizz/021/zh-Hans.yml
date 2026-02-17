@@ -1,0 +1,10 @@
+question: Gareth Nelson 和 Charlie Shrem 于 2011 年创建的即时外汇服务的名称是什么？
+answer: 比特即时
+wrong_answers:
+  - Instawallet
+  - 加密 X 变化
+  - 信托现金
+explanation: |
+ 这项服务解决了向 Mt.
+ 将资金转移到交易所平台。BitInstant 于 2011 年 8 月 23 日向公众开放，并迅速受到欢迎，到 2012 年 1 月已转账 120 万美元。
+reviewed: true

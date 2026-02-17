@@ -1,0 +1,9 @@
+question: Vilket mining-kooperativ överskred kortvarigt 50% hashfrekvens i nätverket sommaren 2011?
+answer: Deepbit
+wrong_answers:
+  - Deepbit
+  - Slush's Pool
+  - GHash.io
+explanation: |
+ Enligt OrganOfCorti var Deepbits uppmätta hashfrekvens 52,86% den 5 augusti.
+reviewed: true

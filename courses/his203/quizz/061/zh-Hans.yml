@@ -1,0 +1,10 @@
+question: 2012 年 8 月，Erik Voorhees 在哪个在线证券交易所进行了非正式首次公开募股，以发展 SatoshiDICE 在线赌场？
+answer: MPEx
+wrong_answers:
+  - GLBSE
+  - Bitcoinica
+  - Bitoption.org
+explanation: |
+ MPEx 是 Mircea Popescu 管理的平台，几个月前推出。Erik Voorhees 发行了 1 亿股股票（股票代码 S.DICE），并卖出了 10 股，筹集了 34500 个比特币，约合 37.2 万美元。
+ 卖出 10 股，筹集了 34500 个比特币，约合 37.2 万美元。
+reviewed: true

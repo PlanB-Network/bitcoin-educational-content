@@ -1,0 +1,10 @@
+question: Hvilket libertariansk radioprogram i USA var et av de første som nevnte eksistensen av markedsplassen Silk Road?
+answer: Free Talk Live
+wrong_answers:
+  - Bitcoin-showet
+  - Alt tatt i betraktning
+  - Infowars nattlige nyheter
+explanation: |
+ Free Talk Live ble ledet av Ian Freeman og Mark Edge, som oppdaget Bitcoin i desember 2010 og møtte Gavin Andresen i februar 2011. Den 16. mars 2011 ble halvparten
+ av programmet viet til bruken av Bitcoin på Silk Road, noe som overbeviste Roger Ver om å engasjere seg mer i Bitcoin.
+reviewed: true

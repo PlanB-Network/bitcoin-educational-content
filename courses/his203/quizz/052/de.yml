@@ -1,0 +1,11 @@
+question: Welche Funktion, die der BitInstant-Devisenumtauschdienst im Dezember 2011 hinzugefügt hat, wurde von Robert Faiella, alias BTCKing, für sein Dark-Web-Reselling-Geschäft genutzt?
+answer: Bareinzahlung
+wrong_answers:
+  - Kostenlose Einkäufe
+  - Sofortige Überweisungen
+  - Einhaltung von Vorschriften
+explanation: |
+ BitInstant nahm diese Zahlungsmethode am 21. Dezember 2011 in sein Angebot auf. Damit konnten US-Bürger an bestimmten Orten Bargeld einzahlen und bekamen
+ fast sofort in Dollar auf der Börsenplattform ihrer Wahl gutgeschrieben werden. Robert Faiella, alias BTCKing, nutzte die relative Vertraulichkeit dieser Methode
+ dieser Methode aus, um gegen eine höhere Gebühr ein Wiederverkaufsgeschäft auf der Silk Road zu betreiben.
+reviewed: true

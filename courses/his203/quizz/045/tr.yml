@@ -1,0 +1,10 @@
+question: Ekim 2011'de Namecoin kripto para birimine hangi teknik yenilik dahil edildi?
+answer: Birleştirilmiş mining
+wrong_answers:
+  - GPU dirençli mining
+  - Güvenilir düğümler
+  - Hissenin kanıtı
+explanation: |
+ Birleştirilmiş mining, bir "ana zincir" (yani Bitcoin) üzerinde yapılan çalışmanın daha küçük "yardımcı" zincirleri doğrulamak için yeniden kullanıldığı bir süreçtir. Bu süreç
+ bitDNS tartışmasında Satoshi'ün kendisi tarafından önerilmiştir. Birleşik mining, Namecoin ağında 8 Ekim 2011 tarihinde 19.200 blok seviyesinde etkinleştirilmiştir.
+reviewed: true

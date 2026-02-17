@@ -1,0 +1,10 @@
+question: Který software přišel v listopadu 2011 s novinkou, že klíčovou derivaci seed představuje věta o 12 slovech?
+answer: Electrum
+wrong_answers:
+  - Spesmilo
+  - Stratum
+  - Paymium
+explanation: |
+ Tento model wallet vytvořil francouzský vývojář Thomas Voegtlin. Jeho název odkazuje na elektrum, přírodní slitinu zlata a stříbra. Electrum byl jedním z prvních
+ wallet, které implementovaly deterministickou strukturu odvozující klíče z seed, které reprezentoval jako hexadecimální řetězec znaků i jako větu o 12 slovech.
+reviewed: true

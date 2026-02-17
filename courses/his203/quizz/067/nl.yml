@@ -1,0 +1,10 @@
+question: Welk deel van de bitcoins in omloop vertegenwoordigde bij benadering het geld dat op het hoogtepunt werd beheerd door het Bitcoin Spaar- en Trustfonds?
+answer: Ca. 5%
+wrong_answers:
+  - Ca. 0,05
+  - Ca. 0,5
+  - Ca. 50%
+explanation: |
+ Op het hoogtepunt in augustus 2012 beheerde het fonds van Trendon Shavers (alias PirateAt40) meer dan 500.000 bitcoins, wat ongeveer 5% was van de 9,7 miljoen bitcoins in
+ circulatie! Bitcoin Savings & Trust stortte vlak daarna in, toen het vertrouwen verdampte.
+reviewed: true

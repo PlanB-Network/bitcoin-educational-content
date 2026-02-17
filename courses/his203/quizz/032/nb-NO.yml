@@ -1,0 +1,10 @@
+question: Hvilken mining-protokoll ble utviklet i september 2012 av Marek Palatinus, også kjent som Slush, for å forbedre utvekslingen mellom utvinnere og mining-pooler?
+answer: Stratum
+wrong_answers:
+  - Electrum
+  - Getwork
+  - Getblocktemplate (GBT)
+explanation: |
+ Stratum var en mining-protokoll for tynne klienter. Den erstattet raskt den rudimentære getwork-funksjonen som var brukt til da, og etablerte seg på bekostning av
+ på bekostning av det konkurrerende getblocktemplate-forslaget.
+reviewed: true

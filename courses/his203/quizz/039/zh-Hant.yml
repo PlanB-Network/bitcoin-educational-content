@@ -1,0 +1,10 @@
+question: OP_EVAL 操作代碼對 Bitcoin 的內部程式系統有什麼影響？
+answer: 在腳本中執行腳本
+wrong_answers:
+  - 請與會者簽名
+  - 切換腳本，並將結果與提供的足跡進行比較
+  - 檢查兩個值是否相等
+explanation: |
+ 它是由 Nicolas van Saberhagen（又名 ByteCoin）在 2011 年 10 月 1 日到 2 日晚上設計出來的。該操作碼會在鎖定
+ 腳本來評估所提供腳本的有效性，其雜湊值會與給定的指紋進行比較。
+reviewed: true

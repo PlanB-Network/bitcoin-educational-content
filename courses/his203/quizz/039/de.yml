@@ -1,0 +1,10 @@
+question: Welche Auswirkungen hatte der OP_EVAL-Betriebscode auf das interne Programmiersystem von Bitcoin?
+answer: Ein Skript innerhalb eines Skripts ausführen
+wrong_answers:
+  - Unterschriften der Teilnehmer anfordern
+  - Ein Skript hacken und das Ergebnis mit einem vorgegebenen Footprint vergleichen
+  - Prüfen, ob zwei Werte gleich sind
+explanation: |
+ Er wurde von Nicolas van Saberhagen, alias ByteCoin, beschrieben, der ihn in der Nacht vom 1. auf den 2. Oktober 2011 entwickelt hat. Der Opcode wird am Ende des Lock-Skripts ausgeführt
+ skripts ausgeführt, um die Gültigkeit des gelieferten Skripts zu prüfen, dessen Hash mit dem angegebenen Fingerabdruck verglichen wird.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Millist sündmust 15. aprillil 2011 nimetasid pokkerimängijad "mustaks reedeks"?
+answer: FBI sulges USA peamised online-pokkeriplatvormid UIGEA-st kõrvalehoidmise eest
+wrong_answers:
+  - Pakkumine mõned online pokkeri saite pakutakse suuri tutvustusi rake ja sisseostu tasud
+  - Suur viga online-pokkeri tarkvaras võimaldas raha kõrvale suunata ehete ja golfipallide ostmiseks
+  - Amatöörmängija Chris Moneymaker võitis pärast online-treeningut pokkerimaailma meistrivõistluste põhiturniiri
+explanation: |
+ Neid süüdistati selles, et nad esinesid tavaliste kaupmeestena, et saada oma pangad valideerima sissetulevaid ülekandeid, mis olid keelatud ebaseaduslikus interneti hasartmängusektoris
+ Seaduse jõustamise seadus. See sulgemine oli online-pokkeritööstuse jaoks katastroofiline. See ajendas mitmete bitcoin-pokkeriplatvormide loomist, kuna
+ krüptoraha ei allunud samadele piirangutele.
+reviewed: true

@@ -1,0 +1,9 @@
+question: "Kuruka kwenye bwawa" kunahusisha nini kwa mchimbaji anayegawa kiwango chake cha hash kwenye bwawa la mining?
+answer: Kutenganisha kutoka kwenye kundi la mining mara tu idadi fulani ya hisa imewasilishwa katika mzunguko, na kuelekeza nguvu ya kompyuta kwenye akaunti yako mwenyewe au kwenye kundi lingine la mining
+wrong_answers:
+  - Kupitisha itifaki ya mawasiliano inayotumia kipimo data kwa wingi ili kuingiliana na bwawa la mining ili kupunguza hisa zilizopitwa na wakati kwa kurahisisha tangazo la vitalu vipya
+  - Kufanya miamala kadhaa ya uwongo ndani ya bwawa la mining ili kuiga uhamisho wa umiliki wa bitcoin na kuongeza usiri wa wachimbaji waliokabidhiwa
+  - Kuandika jina la bwawa la mining katika sehemu ya kuingiza pesa ya muamala wa malipo ya kizuizi kilichochimbwa, ili kufanya uendeshaji wa bwawa la mining uwe wazi zaidi
+explanation: |
+ Njia hii ilielezwa na Raulo mnamo Februari 2011, ambaye alikadiria kwamba mtu binafsi angeweza kupata bitcoins zaidi ya 28% kwa njia hii. Ilichochea kuanzishwa kwa alama ya "kupinga udanganyifu" ndani ya ushirika wa Slush.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Mt.Goxと競合する外国為替プラットフォームで、デビッド・フランソワが2010年12月に立ち上げたのは？
+answer: Bitcoin-セントラル
+wrong_answers:
+  - Paymium
+  - ブリットコイン
+  - ビットマット
+explanation: |
+ Bitcoin-Centralはフランスのプラットフォームで、当初はLiberty Reserveのドルとユーロ、そして通常のユーロ送金を受け付けていた。そのソースコードは
+ オープンソースライセンス(AGPL)の下で公開された。このプラットフォームはその後、2011年6月にGonzague Grandval、Pierre Noizat、David Françoisによって共同設立されたPaymiumと合併した。
+ Françoisが共同設立したPaymium社と合併した。
+reviewed: true

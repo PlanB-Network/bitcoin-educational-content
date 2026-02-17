@@ -878,7 +878,13 @@ Zelfs in het geval van een 51% aanval, waarbij een actor meer dan de helft van d
 
 De speltheorie toegepast op Bitcoin elimineert oneerlijke miners, die ASIC machines gebruiken om te minen en een beloning ontvangen in geval van succes. Daarnaast sluiten ze zich vaak aan bij mining pools om hun rekenkracht te bundelen en kleinere maar regelmatigere beloningen te ontvangen. Hoewel Bitcoin mining hoge energiekosten oplevert, is het cruciaal voor de werking en veiligheid van het Bitcoin netwerk. Het proof-of-work mechanisme en de blockchain technologie pakken het dubbele uitgave probleem aan en verzekeren de integriteit van informatie zonder afhankelijk te zijn van een vertrouwde derde partij. Hoewel het produceren van informatie veel energie kost, brengt het verifiëren van die informatie verwaarloosbare kosten met zich mee. Deze asymmetrie versterkt de veiligheid van het netwerk, waardoor het economisch haalbaarder wordt om de consensusregels te volgen in plaats van te proberen ze te breken.
 
-Als je dieper wilt ingaan op het specifieke onderwerp Bitcoin mining, kun je onze MIN 201 cursus raadplegen. Je ontdekt de werking en de rol van Proof-of-Work, evenals de mechanismen van de mining industrie. We leggen ook uit hoe je een ASIC kunt ombouwen tot een verwarming, zodat je je eerste satoshis kunt minen terwijl je je huis verwarmt!
+
+
+Als u zich verder wilt verdiepen in het specifieke onderwerp van Bitcoin-mining, kunt u onze cursus MIN 101 raadplegen. Daar vindt u een gedetailleerde theoretische uitleg van het principe van proof of work en de werking ervan, evenals alle bijbehorende concepten.
+
+https://planb.academy/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e
+
+Ik raad u ook aan deze meer geavanceerde praktische cursus te ontdekken, waarin wij uitleggen hoe u een ASIC kunt omvormen tot een DIY-huisverwarmingssysteem, om de door mining geproduceerde warmte te benutten en uw eerste satoshi’s te verdienen!
 
 https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 

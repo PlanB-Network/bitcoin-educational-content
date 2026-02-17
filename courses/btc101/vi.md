@@ -902,9 +902,15 @@ Ngay cả trong trường hợp tấn công 51%, khi một tác nhân sở hữu
 
 Lý thuyết trò chơi áp dụng cho Bitcoin loại bỏ những thợ đào không trung thực, những người sử dụng máy ASIC để đào và nhận phần thưởng khi thành công. Ngoài ra, họ thường tham gia các nhóm khai thác để chia sẻ sức mạnh tính toán của mình và nhận phần thưởng nhỏ hơn nhưng đều đặn hơn. Mặc dù khai thác Bitcoin phải chịu chi phí năng lượng cao, nhưng điều này rất quan trọng đối với hoạt động và bảo mật của mạng Bitcoin. Cơ chế bằng chứng công việc và công nghệ chuỗi khối (Blockchain) giải quyết vấn đề chi tiêu 2 lần và đảm bảo tính toàn vẹn của thông tin mà không cần dựa vào bên thứ ba đáng tin cậy. Mặc dù việc tạo ra thông tin đòi hỏi chi phí năng lượng đáng kể, nhưng việc xác minh thông tin lại tốn một chi phí không đáng kể. Sự chênh lệch đáng kể này củng cố tính bảo mật của mạng, khiến việc tuân thủ các quy tắc đồng thuận khả thi hơn về mặt kinh tế thay vì cố gắng phá vỡ chúng.
 
-Nếu bạn muốn tìm hiểu sâu hơn về chủ đề cụ thể về khai thác Bitcoin, bạn có thể tham khảo khóa học MIN 201 của chúng tôi. Bạn sẽ khám phá cách thức hoạt động và vai trò của việc minh chứng công việc Proof-of-Work, cũng như cơ chế của ngành khai thác. Chúng tôi cũng giải thích cách chuyển đổi ASIC thành lò sưởi, cho phép bạn khai thác những satoshi đầu tiên trong khi sưởi ấm ngôi nhà của mình!
+
+Nếu bạn muốn tìm hiểu sâu hơn về chủ đề cụ thể của việc khai thác Bitcoin, bạn có thể tham khảo khóa học MIN 101 của chúng tôi. Tại đó, bạn sẽ tìm thấy phần giải thích lý thuyết chi tiết về nguyên lý proof of work và cách thức hoạt động của nó, cũng như toàn bộ các khái niệm liên quan.
+
+https://planb.academy/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e
+
+Tôi cũng khuyên bạn nên khám phá khóa học thực hành nâng cao này, trong đó chúng tôi giải thích cách biến một ASIC thành hệ thống sưởi ấm gia đình DIY, nhằm tận dụng nhiệt lượng do việc khai thác tạo ra và kiếm những satoshi đầu tiên của bạn!
 
 https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+
 ## Bitcoin và Sinh thái
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>

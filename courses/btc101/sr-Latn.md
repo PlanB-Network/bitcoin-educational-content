@@ -1316,8 +1316,14 @@ Rudari su graditelji sigurnosti Bitkoin mreže. Trošenjem energije za proizvodn
 Teorija igara primenjena na Bitkoin eliminiše nepoštene rudare, koji koriste ASIC mašine za rudarenje i dobijaju nagradu u slučaju uspeha. Pored toga, često se pridružuju Rudarskim bazenima kako bi delili svoju računarsku snagu i dobijali manje, ali redovnije nagrade. Dok Bitkoin rudarenje izaziva visoke troškove energije, ključan je za rad i sigurnost Bitkoin mreže. Proof-of-Work mehanizam i Blockchain tehnologija rešavaju problem dvostrukog trošenja (Double-spending) i obezbeđuju integritet informacija bez oslanjanja na pouzdanu treću stranu. Iako proizvodnja informacija zahteva značajnu potrošnju energije, verifikacija tih informacija ima zanemarljiv trošak. Ova asimetrija pojačava sigurnost mreže, čineći ekonomski isplativijim pridržavanje pravila konsenzusa nego pokušaj njihovog kršenja.
 
 
-Ako želite da se dublje upustite u specifičnu temu rudarenja Bitkoina, možete se konsultovati sa našim kursom MIN 201. Otkrićete kako funkcioniše i ulogu Proof-of-Work, kao i mehaniku rudarske industrije. Takođe objašnjavamo kako da konvertujete ASIC u grejač, omogućavajući vam da izrudarite svoje prve satoshije dok grejete svoj dom!
 
+
+
+Ukoliko želite da produbite znanje o specifičnoj temi rudarenja Bitkoina, možete pogledati naš kurs MIN 101. U njemu ćete pronaći detaljno teorijsko objašnjenje principa proof of work i njegovog funkcionisanja, kao i sve povezane koncepte.
+
+https://planb.academy/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e
+
+Takođe vam preporučujem da otkrijete ovaj napredniji praktični kurs, u kojem objašnjavamo kako da pretvorite ASIC u DIY sistem kućnog grejanja, kako biste iskoristili toplotu proizvedenu rudarenjem i zaradili svoje prve satošije!
 
 https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 

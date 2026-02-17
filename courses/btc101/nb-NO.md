@@ -880,7 +880,13 @@ Selv ved et 51 %-angrep, der en agent har mer enn halvparten av hashraten, vil n
 
 Spillteorien som brukes på Bitcoin, eliminerer uærlige utvinnere, som bruker ASIC-maskiner til å utvinne og mottar en belønning i tilfelle suksess. I tillegg går de ofte sammen i utvinningspooler for å dele datakraften sin og motta mindre, men mer regelmessige belønninger. Selv om Bitcoin-gruvedrift medfører høye energikostnader, er det avgjørende for driften og sikkerheten til Bitcoin-nettverket. Proof-of-work-mekanismen og blokkjedeteknologien løser problemet med dobbeltbruk og sikrer informasjonens integritet uten å være avhengig av en betrodd tredjepart. Selv om det å produsere informasjon krever betydelig energiforbruk, er det en ubetydelig kostnad å verifisere informasjonen. Denne asymmetrien styrker nettverkets sikkerhet, noe som gjør det mer økonomisk lønnsomt å følge konsensusreglene enn å forsøke å bryte dem.
 
-Hvis du ønsker å gå dypere inn i det spesifikke temaet Bitcoin-gruvedrift, kan du se vårt MIN 201-kurs. Her får du vite hvordan Proof-of-Work fungerer og hvilken rolle det spiller, samt mekanikken i gruveindustrien. Vi forklarer også hvordan du konverterer en ASIC til en varmeovn, slik at du kan utvinne dine første satoshier mens du varmer opp hjemmet ditt!
+
+
+Dersom du ønsker å fordype deg i det spesifikke emnet Bitcoin-mining, kan du konsultere vårt kurs MIN 101. Der finner du en detaljert teoretisk forklaring av prinsippet om proof of work og hvordan det fungerer, samt alle tilhørende konsepter.
+
+https://planb.academy/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e
+
+Jeg anbefaler også at du oppdager dette mer avanserte praktiske kurset, der vi forklarer hvordan du kan gjøre om en ASIC til et DIY-varmesystem for hjemmet, for å utnytte varmen som produseres av mining og tjene dine første satoshier!
 
 https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 

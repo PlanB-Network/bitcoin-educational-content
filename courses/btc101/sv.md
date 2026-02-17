@@ -904,9 +904,15 @@ Miners är de som bygger upp säkerheten i Bitcoin-nätverket. Genom att spender
 
 Den spelteori som tillämpas på Bitcoin eliminerar oärliga miners, som använder ASIC-maskiner för att mina och får en belöning om de lyckas. Dessutom går de ofta med i miningpooler för att dela med sig av sin datorkraft och få mindre men mer regelbundna belöningar. Bitcoin-mining medför höga energikostnader, men är avgörande för driften och säkerheten av Bitcoin-nätverket. Proof-of-work-mekanismen och blockkedjetekniken löser problemet med dubbelspendering och säkerställer informationens integritet utan att förlita sig på en betrodd tredje part. Att producera information kräver en betydande energiförbrukning, men att verifiera informationen medför en försumbar kostnad. Denna asymmetri förstärker nätverkets säkerhet och gör det mer ekonomiskt lönsamt att följa konsensusreglerna än att försöka bryta dem.
 
-Om du vill fördjupa dig i det specifika ämnet Bitcoin-mining kan du konsultera vår MIN 201-kurs. Du kommer att upptäcka hur Proof-of-Work fungerar och vilken roll det har, samt mekaniken inom mining. Vi förklarar också hur man konverterar en ASIC till en värmare, så att du kan mina dina första satoshis samtidigt som du värmer upp ditt hem!
+
+Om du vill fördjupa dig i det specifika ämnet Bitcoin-mining kan du ta del av vår kurs MIN 101. Där hittar du en detaljerad teoretisk förklaring av principen proof of work och hur den fungerar, samt alla tillhörande begrepp.
+
+https://planb.academy/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e
+
+Jag rekommenderar också att du upptäcker denna mer avancerade praktiska kurs, där vi förklarar hur du kan omvandla en ASIC till ett DIY-uppvärmningssystem för hemmet, för att ta tillvara på värmen som produceras av mining och tjäna dina första satoshis!
 
 https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+
 ## Bitcoin och ekologi
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>

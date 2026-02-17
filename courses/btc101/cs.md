@@ -880,7 +880,13 @@ I v případě 51% útoku, kdy by agent disponoval více než polovinou hashrate
 
 Teorie hry aplikovaná na Bitcoin eliminuje nepoctivé těžaře, kteří k těžbě používají stroje ASIC a v případě úspěchu dostávají odměnu. Kromě toho se často připojují k těžebním poolům, aby se podělili o svůj výpočetní výkon a získali menší, ale pravidelnější odměny. Těžba bitcoinů sice přináší vysoké náklady na energii, je však zásadní pro fungování a bezpečnost sítě bitcoinů. Mechanismus proof of work a technologie blockchain řeší problém dvojího utrácení a zajišťují integritu informací bez závislosti na důvěryhodné třetí straně. Ačkoli vytváření informací vyžaduje značné energetické výdaje, ověřování těchto informací přináší zanedbatelné náklady. Tato asymetrie posiluje bezpečnost sítě, takže je ekonomicky výhodnější dodržovat pravidla konsensu, než se je pokoušet porušovat.
 
-Pokud chcete proniknout hlouběji do konkrétního tématu těžby bitcoinů, můžete navštívit náš kurz MIN 201. Zjistíte, jak funguje a jakou roli hraje proof of work a jaká je mechanika těžebního průmyslu. Vysvětlíme vám také, jak přeměnit ASIC na topení, což vám umožní těžit první satoshi a zároveň vytápět váš domov!
+
+
+Pokud si přejete prohloubit znalosti o specifickém tématu těžby Bitcoinu, můžete si prostudovat náš kurz MIN 101. Najdete v něm podrobné teoretické vysvětlení principu důkazu práce a jeho fungování, stejně jako všechny související koncepty.
+
+https://planb.academy/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e
+
+Doporučuji vám také objevit tento pokročilejší praktický kurz, ve kterém vám vysvětlujeme, jak přeměnit ASIC na domácí topný systém typu DIY, abyste využili teplo produkované těžbou a získali své první satoshi!
 
 https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 

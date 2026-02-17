@@ -881,7 +881,13 @@ Selbst im Falle eines 51%-Angriffs, bei dem ein Agent mehr als die Hälfte der H
 
 Die auf Bitcoin angewandte Spieltheorie schließt unehrliche Miner aus, die ASIC-Maschinen zum Mining verwenden und im Erfolgsfall eine Belohnung erhalten. Außerdem schließen sie sich oft Mining-Pools an, um ihre Rechenleistung zu teilen und kleinere, aber regelmäßigere Belohnungen zu erhalten. Obwohl das Bitcoin-Mining hohe Energiekosten verursacht, ist es für den Betrieb und die Sicherheit des Bitcoin-Netzwerks von entscheidender Bedeutung. Der Proof-of-Work Mechanismus und die Blockchain-Technologie lösen das Problem der doppelten Ausgaben und gewährleisten die Integrität der Informationen, ohne sich auf eine vertrauenswürdige dritte Partei zu verlassen. Während die Erzeugung von Informationen einen erheblichen Energieaufwand erfordert, ist die Überprüfung dieser Informationen mit vernachlässigbaren Kosten verbunden. Diese Asymmetrie stärkt die Sicherheit des Netzes und macht es wirtschaftlich rentabler, sich an die Konsensregeln zu halten, als zu versuchen, sie zu brechen.
 
-Wenn du tiefer in das Thema Bitcoin-Mining einsteigen willst, kannst du unseren Kurs MIN 201 besuchen. Du wirst die Funktionsweise und die Rolle des Proof-of-Work sowie die Mechanismen der Mining-Industrie kennenlernen. Wir erklären dir auch, wie du einen ASIC in eine Heizung umwandeln kannst, so dass du deine ersten Satoshis schürfen kannst, während du dein Haus heizt!
+
+
+Wenn Sie das spezifische Thema des Bitcoin-Minings vertiefen möchten, können Sie unseren Kurs MIN 101 konsultieren. Dort finden Sie eine ausführliche theoretische Erklärung des Prinzips des Proof of Work und seiner Funktionsweise sowie sämtliche damit verbundenen Konzepte.
+
+https://planb.academy/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e
+
+Ich empfehle Ihnen außerdem, diesen fortgeschritteneren Praxiskurs zu entdecken, in dem wir Ihnen erklären, wie Sie einen ASIC in ein DIY-Heimheizungssystem umwandeln können, um die beim Mining erzeugte Wärme zu nutzen und Ihre ersten Satoshis zu verdienen!
 
 https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 

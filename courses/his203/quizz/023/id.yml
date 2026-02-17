@@ -1,0 +1,11 @@
+question: Siapa yang menciptakan bursa saham online GLBSE pada bulan April 2011, sebuah platform yang memungkinkan para pemain dalam ekosistem Bitcoin untuk menerbitkan sekuritas keuangan seperti saham atau obligasi untuk membiayai diri mereka sendiri?
+answer: James McCarthy (Nefario)
+wrong_answers:
+  - Charlie Shrem (Yankee)
+  - Mircea Popescu (MPOE-PR)
+  - Nathaniel Theis (Cuddlefish)
+explanation: |
+ James McCarthy (Nefario) adalah seorang Irlandia yang tinggal di Tiongkok, yang memegang posisi sebagai profesor bahasa Inggris di sebuah universitas. Dia tertarik pada sekolah Austria
+ dan ide-ide dari Cypherpunk. Pada bulan April 2011, ia meluncurkan GLBSE, yang menawarkan semua jenis layanan keuangan kepada para pelanggannya, termasuk kemungkinan
+ menerbitkan saham dan obligasi.
+reviewed: true

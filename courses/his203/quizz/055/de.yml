@@ -1,0 +1,10 @@
+question: Welches Geschäftsmodell steckt hinter BitPay, dem Zahlungsabwickler, der im Sommer 2011 von Stephen Pair und Tony Gallippi gegründet wurde?
+answer: Bitcoins der Kunden sofort in Dollar umwandeln, gegen eine Gebühr
+wrong_answers:
+  - Kunden die Möglichkeit geben, Bitcoin sofort mit Dollar-Zahlungen gegen eine Provision zu kaufen
+  - Von Kunden eingezahlte Bitcoins ausleihen und Zinsen kassieren
+  - Bitcoin-Zahlungen an die Blockchain weiterleiten und Transaktionsgebühren erhalten
+explanation: |
+ Die Idee hinter BitPay war es, Händlern die Möglichkeit zu geben, ihre Bitcoin-Zahlungen sofort in Dollar umzuwandeln, damit sie sich gegen
+ volatilität. BitPay versorgte seine Kunden im Voraus mit Dollar und berechnete eine Bearbeitungsgebühr, die anfänglich 1 % betrug.
+reviewed: true

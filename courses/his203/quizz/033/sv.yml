@@ -1,0 +1,10 @@
+question: Vad innehöll majoriteten av de inskriptioner som gjordes av Luke-Jr genom Eligius i augusti 2011, förutom identifikationen av hans mining-pool?
+answer: Bön
+wrong_answers:
+  - Barnpornografi
+  - Memes
+  - Politiska budskap
+explanation: |
+ I enlighet med sin katolska (sedevacantistiska) tro inkluderade Luke-Jr böner och heliga texter i belöningstransaktionen för block som utvunnits av hans mining-pool,
+ Eligius, utan att rådfråga de berörda gruvarbetarna, vilket ledde till en livlig debatt.
+reviewed: true

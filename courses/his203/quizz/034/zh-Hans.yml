@@ -1,0 +1,10 @@
+question: Forrest Voight 于 2011 年创建了分布式 mining 池，P2Pool 背后的理念是什么？
+answer: 股份链
+wrong_answers:
+  - 长期投票
+  - Coinbase 签名
+  - FPGA
+explanation: |
+ 股份链 "或股份链由参与者贡献的部分工作证明组成。它由参与者维护，而参与者是点对点连接的。
+ 点对点连接。每一份都包含前一份的指纹，确保了整体的完整性。
+reviewed: true

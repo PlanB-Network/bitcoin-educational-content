@@ -1,0 +1,9 @@
+question: ใครเป็นผู้คิดค้น Hashcash?
+answer: Adam Back
+wrong_answers:
+  - นิค ซาโบ
+  - Hal Finney
+  - David Chaum
+explanation: |
+  Hashcash ถูกคิดค้นโดย Adam Back มันเป็นกลไก proof-of-work แรก
+reviewed: true

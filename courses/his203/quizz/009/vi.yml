@@ -1,0 +1,10 @@
+question: Trước khi tiếp quản Mt. Gox, Mark Karpelès đã quản lý dịch vụ lưu trữ nào?
+answer: KalyHost
+wrong_answers:
+  - TibanneHost
+  - WeHostYou
+  - PlanetHost
+explanation: |
+ Đây chỉ là một trong nhiều dịch vụ mà ông cung cấp với tư cách là một nhà phát triển độc lập. Vào tháng 11, Mark Karpelès bắt đầu chấp nhận thanh toán bằng bitcoin thông qua KalyHost.
+ Ross Ulbricht cũng sử dụng dịch vụ này để lưu trữ trang web Silkroadmarket.org, trang này chuyển hướng đến Silk Road.
+reviewed: true

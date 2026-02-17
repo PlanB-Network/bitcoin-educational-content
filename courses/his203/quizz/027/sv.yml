@@ -1,0 +1,11 @@
+question: Vilket problem löste det deterministiska wallet-konceptet som formaliserades av utvecklaren Gregory Maxwell i juni 2011?
+answer: Behovet av regelbundna säkerhetskopior av privata nycklar för att säkra bitcoins
+wrong_answers:
+  - Risken för piratkopiering i samband med lagring av bitcoins på en internetansluten enhet
+  - Sårbarhet för brute force-attacker på grund av den låga entropin hos slumptalsgeneratorer
+  - Det går inte att återanvända kontot på en annan enhet
+explanation: |
+ Deterministiska wallet tillämpar nyckelhärledning: istället för att generated:as individuellt slumpmässigt, som gjordes i huvudprogramvaran, härleds privata nycklar
+ deterministiskt från information (kallad seed) med hjälp av kryptografiska funktioner. Denna metod tillämpades av BitcoinSpinner och Electrum-programvaran
+ wallet i slutet av 2011.
+reviewed: true

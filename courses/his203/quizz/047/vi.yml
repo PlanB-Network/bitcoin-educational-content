@@ -1,0 +1,9 @@
+question: Chiến dịch tiếp thị cho Litecoin, loại tiền điện tử do Charlie Lee tạo ra vào tháng 10 năm 2011, là gì?
+answer: Hãy coi bạc như Bitcoin đối với vàng
+wrong_answers:
+  - Tạo ra một loại tiền tệ tinh thần
+  - Tiếp nối Bitcoin khi nó sụp đổ
+  - Tài trợ cho thế giới phần mềm tự do
+explanation: |
+ Litecoin vừa nhanh hơn (thời gian tạo khối là 2 phút 30 giây thay vì 10 phút) vừa ít khan hiếm hơn (84 triệu đơn vị thay vì 21 triệu) so với Bitcoin, do đó mới có sự so sánh với kim loại quý. Chính Charlie Lee đã đưa ra sự so sánh này trong mô tả ban đầu về tiền điện tử của mình.
+reviewed: true

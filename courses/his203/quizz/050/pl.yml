@@ -1,0 +1,10 @@
+question: Jakiego pseudonimu używał Ross Ulbricht od lutego 2012 roku jako administrator Silk Road?
+answer: Dread Pirate Roberts
+wrong_answers:
+  - Altoid
+  - Cień Harbingera
+  - Pirat po czterdziestce
+explanation: |
+ Ross Ulbricht wybrał ten pseudonim w nawiązaniu do filmu The Princess Bride z 1987 roku. W filmie tym imię jest rodzajem tytułu, który może być przekazywany z jednego pirata na drugiego
+ na innego pirata, umożliwiając ukrycie prawdziwej tożsamości posiadacza i "wzbudzenie niezbędnego strachu" u jego wrogów.
+reviewed: true

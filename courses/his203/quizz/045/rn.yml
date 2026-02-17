@@ -1,0 +1,10 @@
+question: Ni ubuhinga ubuhe bushasha bwashizwe mu mafaranga y’ibanga yitwa Namecoin mu kwezi kwa Gitugutu 2011?
+answer: Ihuriwemwo mining
+wrong_answers:
+  - GPU-ishobora guhangana na mining
+  - Uturongo twizewe
+  - Ikimenyamenya c'igiti
+explanation: |
+ mining ihuriweko ni uburyo aho igikorwa gikozwe ku "munyororo w'umuvyeyi" (i.e. Bitcoin) gisubira gukoreshwa mu kwemeza iminyororo mitoyi "y'inyongera". Ivyo vyari . 
+ vyashikirijwe mu kiganiro ca BitDNS na Satoshi ubwayo. mining ihuriweko yakoreshejwe ku rubuga rwa Namecoin ku wa 8 Gitugutu 2011, ku rugero rw'ibarabara 19.200.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Erik Voorhees ได้ดำเนินการ IPO แบบไม่เป็นทางการบนตลาดหลักทรัพย์ออนไลน์ใดในเดือนสิงหาคม 2012 เพื่อขยายคาสิโนออนไลน์ SatoshiDICE?
+answer: MPEx
+wrong_answers:
+  - GLBSE
+  - Bitcoinica
+  - Bitoption.org
+explanation: |
+ MPEx เป็นแพลตฟอร์มที่บริหารโดย Mircea Popescu และเปิดตัวไม่กี่เดือนก่อนหน้านี้ Erik Voorhees ออกหุ้นจำนวน 100 ล้านหุ้น (โดยมีสัญลักษณ์หุ้น S.DICE) และขาย 10 หุ้นเพื่อระดมทุน 34,500 บิตคอยน์ หรือประมาณ $372,000.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Jaki wpływ miał kod operacyjny OP_EVAL na wewnętrzny system programowania Bitcoin?
+answer: Wykonywanie skryptu wewnątrz skryptu
+wrong_answers:
+  - Poproś o podpisy uczestników
+  - Skopiuj skrypt i porównaj wynik z dostarczonym footprintem
+  - Sprawdź, czy dwie wartości są równe
+explanation: |
+ Został on opisany przez Nicolasa van Saberhagena, znanego jako ByteCoin, który zaprojektował go w nocy z 1 na 2 października 2011 roku. Kod operacyjny jest wykonywany na końcu skryptu lock
+ aby ocenić ważność dostarczonego skryptu, którego hash jest porównywany z podanym odciskiem palca.
+reviewed: true

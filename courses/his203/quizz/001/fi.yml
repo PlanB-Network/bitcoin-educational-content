@@ -1,0 +1,10 @@
+question: Mikä Samuel Edward Konkin III:n teoretisoima poliittinen filosofia vaikutti erityisesti Ross Ulbrichtiin Silk Roadin perustamisessa?
+answer: Agorismi
+wrong_answers:
+  - Minarkismi
+  - Klassinen liberalismi
+  - Kirjastolaisuus
+explanation: |
+ Se on poliittinen filosofia, joka puoltaa mustan pörssin (jota Konkin kutsuu "vastataloudeksi") harjoittamista rauhanomaisena keinona vähentää vaikutusvaltaa
+ valtion vaikutusvaltaa. Ross Ulbricht myönsi yhteytensä agorismiin maaliskuussa 2012 Silk Road -foorumilla julkaistussa viestissä.
+reviewed: true

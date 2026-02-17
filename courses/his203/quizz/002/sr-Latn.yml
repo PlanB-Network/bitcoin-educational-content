@@ -1,0 +1,10 @@
+question: Koji protokol je sprečio da pijaca Silk Road bude direktno zatvorena od strane vlasti?
+answer: Tor
+wrong_answers:
+  - I2P
+  - Freenet
+  - BitTorrent
+explanation: |
+ Tor, leksikalizovani akronim za The Onion Router, je protokol koji podržava globalnu, decentralizovanu mrežu računara (poznatu kao darknet). 
+ Omogućava anonimno i bez cenzure hostovanje veb-sajtova, i bio je idealno prilagođen projektu Rossa Ulbrichta.
+reviewed: true

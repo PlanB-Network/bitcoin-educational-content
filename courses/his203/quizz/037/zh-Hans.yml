@@ -1,0 +1,11 @@
+question: 2011 年，弗拉基米尔-范德兰（Wladimir van der Laan）为主要软件开发的图形界面名称是什么？
+answer: Bitcoin-Qt
+wrong_answers:
+  - wxWindows-Bitcoin
+  - bitcoind
+  - Bitcoin 核心
+explanation: |
+ Bitcoin-Qt 是对 Bitcoin 图形界面的全面改造。它从 2011 年 6 月开始开发，并在 0.5 版中集成到主软件中、
+ 版本中集成到主软件中。它基于 Qt 图形框架，取代了 Satoshi 最初使用的 wxWindows 库。该软件从此被称为
+ Bitcoin-Qt。
+reviewed: true

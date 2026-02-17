@@ -1,0 +1,10 @@
+question: Quale protocollo ha impedito che il mercato di Silk Road venisse chiuso direttamente dalle autorità?
+answer: Tor
+wrong_answers:
+  - I2P
+  - Freenet
+  - BitTorrent
+explanation: |
+ Tor, acronimo lessicalizzato di The Onion Router, è un protocollo che supporta una rete informatica globale e decentralizzata (comunemente nota come darknet).
+ Consente di ospitare siti web in modo anonimo e senza censura e si adatta perfettamente al progetto di Ross Ulbricht.
+reviewed: true

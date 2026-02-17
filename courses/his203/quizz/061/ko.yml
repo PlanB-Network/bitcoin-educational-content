@@ -1,0 +1,10 @@
+question: 에릭 부어히스는 2012년 8월에 SatoshiDICE 온라인 카지노를 성장시키기 위해 어떤 온라인 증권 거래소에서 비공식 기업 공개를 진행했나요?
+answer: MPEx
+wrong_answers:
+  - GLBSE
+  - Bitcoinica
+  - Bitoption.org
+explanation: |
+ MPEx는 미르체아 포페스쿠가 운영하는 플랫폼으로, 몇 달 전에 출시되었습니다. 에릭 부어히스는 1억 주를 발행(주식 기호는 S.DICE)하고
+ 10개를 판매하여 34,500비트코인, 즉 약 372,000달러를 모금했습니다.
+reviewed: true

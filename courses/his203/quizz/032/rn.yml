@@ -1,0 +1,10 @@
+question: Ni iyihe nzira ya mining yateguwe muri Nzero 2012 na Marek Palatinus, aka Slush, kugira ngo haboneke uguhanahana amakuru hagati y’abacukuzi n’ibidengeri vya mining?
+answer: Igice
+wrong_answers:
+  - Electrum
+  - Kuronka akazi
+  - Kuronka urugero rw'ububiko (GBT)
+explanation: |
+ Stratum yari umurongo wa mining ku bakiriya bafise umubiri muto. Yaciye yihuta gusubirira igikorwa c’intango ca getwork cakoreshwa gushika ico gihe, maze yishingira intahe ku giciro c’ 
+ igitekerezo c'akarorero ka getblock gihiganwa.
+reviewed: true

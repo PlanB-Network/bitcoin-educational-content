@@ -1,0 +1,10 @@
+question: Který platební standard zaregistroval u IANA v září 2012 softwarový architekt Dave Thaler?
+answer: BIP 21 Schéma URI
+wrong_answers:
+  - BIP 32 hierarchických deterministických portfolií
+  - Platební protokol BIP 70
+  - BIP 47 opakovaně použitelné platební kódy
+explanation: |
+ Tento standard umožnil formalizovat požadavky na platbu, které měly podobu řetězce znaků nebo QR kódu. Po několika návrzích byl vytvořen konečný URI
+ schéma popsal v lednu 2012 v rámci BIP 21 Matt Corallo. V září jej u organizace IANA zaregistroval Dave Thaler.
+reviewed: true

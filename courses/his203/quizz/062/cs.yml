@@ -1,0 +1,10 @@
+question: Na kterém subredditu mohli uživatelé od března 2012 zveřejňovat své nahé fotografie za tipy na bitcoiny?
+answer: r/GirlsGoneBitcoin
+wrong_answers:
+  - r/GoneWild
+  - r/CryptoPorn
+  - r/Bitcoin
+explanation: |
+ r/GirlsGoneBitcoin byl otevřen 26. března 2012 Julianem Toshem alias Tuxavantem, zastáncem Linuxu a soukromí žijícím v Las Vegas. Subreddit měl téměř
+ 2 000 členů do konce roku.
+reviewed: true

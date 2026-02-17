@@ -1,0 +1,10 @@
+question: 在 2012 年的 PorcFest 上，有一半以上的商家接受比特幣，專門用來交易的區域叫什麼名字？
+answer: 亞高洛山谷
+wrong_answers:
+  - Bitcoin Street
+  - 自由之路
+  - 硬資金訓練營
+explanation: |
+ Agora Valley 包括約四十個上市攤位，銷售食品、飲料、書籍、衣服、刀具、帽子等。BitInstant 的成員在那裡設有一個攤位，名為
+ "Bernanke's Bitcoin Exchange"，他們提供美元兌換，並教好奇的人如何使用 Bitcoin。
+reviewed: true

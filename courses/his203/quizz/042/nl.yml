@@ -1,0 +1,10 @@
+question: Waarom had de Pay to Script Hash upgrade 55% van het hasjvermogen van het netwerk nodig om geactiveerd te worden?
+answer: Zodat het "achterwaarts compatibel" is en geen kettingsplitsing creëert
+wrong_answers:
+  - Omdat het beheer van het protocol afhangt van de stem van miners ("één processor, één stem")
+  - Om de mining business niet te centraliseren, die dan gedomineerd wordt door een paar mining pools
+  - Omdat projectleider Gavin Andresen geen "welwillende dictator" wilde zijn..
+explanation: |
+ Dit was een beperking van de consensusregels, wat later een "zachte fork" zou worden genoemd. De upgrade creëert geen kettingsplitsing als deze ondersteund wordt door een
+ meerderheid van de rekenkracht van het netwerk.
+reviewed: true

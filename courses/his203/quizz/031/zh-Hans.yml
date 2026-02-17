@@ -1,0 +1,9 @@
+question: 2011 年夏天，哪个 mining 合作社的网络散列率曾短暂超过 50%？
+answer: 深位
+wrong_answers:
+  - 深位
+  - 斯鲁什的游泳池
+  - GHash.io
+explanation: |
+ 据 OrganOfCorti 称，8 月 5 日，Deepbit 测得的哈希率为 52.86%。
+reviewed: true

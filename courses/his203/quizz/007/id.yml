@@ -1,0 +1,10 @@
+question: Siapakah Mark Karpelès sebelum dia mengambil alih Gunung Gox?
+answer: Seorang pengembang dengan hasrat yang besar terhadap teknologi
+wrong_answers:
+  - Seorang investor ahli dalam mata uang digital
+  - Aktivis libertarian yang termotivasi oleh ideologi Bitcoin
+  - Pengusaha yang berspesialisasi dalam perdagangan pasar saham
+explanation: |
+ Mark Karpelès adalah seorang pengembang asal Prancis yang lahir pada tahun 1985, dengan kecintaannya pada komputer dan teknologi. Dia termotivasi bukan oleh ideologi atau keuntungan,
+ tetapi karena keingintahuan teknis.
+reviewed: true

@@ -5,5 +5,5 @@ wrong_answers:
   - In an ASIC
   - In a scriptSig
 explanation: |
-  The transaction is not written instantly to the blockchain. It is first integrated into a block.
-reviewed: false
+  The transaction is not written instantly to the blockchain. It is first included into a block.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Özgür Devlet Projesi tarafından seçilen hangi ABD eyaleti 2012-2013 yıllarında Bitcoin'ın benimsenme merkezi haline gelmiştir?
+answer: New Hampshire
+wrong_answers:
+  - Teksas
+  - Colorado
+  - Kaliforniya
+explanation: |
+ Özgür Devlet Projesi, özgürlükçüleri bir eyalette toplayarak oradaki yerel hükümeti etkilemeyi amaçlayan bir siyasi göç hareketiydi.
+ Bu hareketin üyeleri Roger Ver ve Erik Voorhees gibi özgürlükçü aktivistlerin teşvikleriyle Bitcoin'i kullanmaya başladılar.
+reviewed: true

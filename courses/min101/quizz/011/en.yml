@@ -5,5 +5,5 @@ wrong_answers:
   - To represent all transactions in the block
   - To indicate the difficulty target
 explanation: |
-  Changing the nonce changes the hash input and produces a completely different fingerprint. This allows for retrying to find a valid hash.
-reviewed: false
+  Changing the nonce changes the hash input and produces a completely different hash. This allows for retrying to find a valid hash.
+reviewed: true

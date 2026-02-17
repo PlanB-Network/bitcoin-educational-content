@@ -1,0 +1,10 @@
+question: ¿Qué implica el "salto de pool" para un minero que delega su tasa de hash en un pool de mining?
+answer: Desconectarse de un pool mining una vez que se ha enviado un determinado número de acciones en un ciclo, y redirigir la potencia de cálculo a su propia cuenta o a otro pool mining
+wrong_answers:
+  - Adopción de un protocolo de comunicación intensivo en ancho de banda para interactuar con el mining pool con el fin de reducir las acciones obsoletas agilizando el anuncio de nuevos bloques
+  - Realización de varias transacciones ficticias dentro del pool mining para simular una transferencia de propiedad de bitcoin y aumentar la confidencialidad de los mineros delegados
+  - Escribir el nombre del mining pool en el campo de entrada de la transacción de recompensa del bloque minado, para hacer más transparente el funcionamiento de los mining pools
+explanation: |
+ Este método fue descrito por Raulo en febrero de 2011, quien estimó que un individuo podía obtener así un 28% más de bitcoins. Esto motivó la introducción de
+ una puntuación "antitrampas" dentro de la cooperativa Slush.
+reviewed: true

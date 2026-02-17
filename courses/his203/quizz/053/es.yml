@@ -1,0 +1,11 @@
+question: ¿Cómo se llamaba el servicio de cambio de divisas entre particulares puesto en marcha por Jeremias Kangas y su hermano en junio de 2012?
+answer: LocalBitcoins
+wrong_answers:
+  - BTC CERCA DE MÍ
+  - BitInstant
+  - Coinabul
+explanation: |
+ Se trataba de una plataforma de matchmaking, que se puso en marcha el 7 de junio. Durante el verano, LocalBitcoins integró un sistema de custodia, a través del cual los bitcoins podían ser
+ momentáneamente en la plataforma y liberados por SMS para el pago al comprador. En concreto, esto permitió los intercambios cara a cara, en los que el vendedor
+ bitcoins una vez recibido el dinero en efectivo.
+reviewed: true

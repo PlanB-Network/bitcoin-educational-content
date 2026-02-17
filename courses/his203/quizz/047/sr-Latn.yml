@@ -1,0 +1,9 @@
+question: Koja je bila marketinška poruka za Litecoin, kriptovalutu koju je kreirao Charlie Lee u oktobru 2011?
+answer: Budi za srebro ono što je Bitcoin za zlato
+wrong_answers:
+  - Kreiranje duhovne valute
+  - Nasleđivanje Bitcoin kada se uruši
+  - Finansiranje sveta slobodnog softvera
+explanation: |
+ Litecoin je bio i brži (vreme bloka je 2 minuta i 30 sekundi umesto 10 minuta) i manje oskudan (84 miliona jedinica umesto 21) od Bitcoin, otuda analogija sa plemenitim metalima. Charlie Lee je lično uključio ovo poređenje u početni opis svoje kriptovalute.
+reviewed: true

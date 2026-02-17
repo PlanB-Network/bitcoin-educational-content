@@ -1,0 +1,11 @@
+question: Jaká byla hlavní námitka, kterou američtí libertariáni vznesli proti Bitcoin s odvoláním na Misesův regresní teorém?
+answer: Neměla žádnou vnitřní hodnotu a nebyla podložena ničím konkrétním
+wrong_answers:
+  - Měla měnovou inflaci, jejíž míra emise v roce 2011 činila 40 % ročně
+  - Nepoužívaly se jako zúčtovací jednotka, což je základní vlastnost peněz
+  - Vytvořila hluboce nerovnoměrné rozdělení bohatství
+explanation: |
+ Někteří američtí libertariáni, kteří se hlásili k rakouské škole, odmítali Bitcoin, protože podle nich odporovala regresnímu teorému Ludwiga von Misese,
+ který říká, že zboží musí mít objektivní nepeněžní užitnou hodnotu, aby se mohlo stát měnou. To se týkalo zejména Petera Schiffa, syna
+ irwina Schiffa, který byl přesvědčeným zastáncem zlatého standardu.
+reviewed: true

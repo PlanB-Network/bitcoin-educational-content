@@ -1,0 +1,25 @@
+id: 742dfc51-2ae2-4677-a97b-0e2f246f59ac
+start_date: 2026-11-07
+end_date: 2026-11-08
+timezone: Asia/Seoul
+address_city_country: Seoul, South Korea
+address_line_2: COEX Convention & Exhibition Center
+address_line_3: 513 Yeongdong-daero, Gangnam-gu
+name: Bitcoin Korea Conference 2026
+type: conference
+book_online: false
+book_in_person: false
+description: |
+  Two days of Bitcoin education, workshops, lightning market, and community building in Seoul, South Korea.
+language:
+  - en
+  - ko
+links:
+  website: https://www.bitcoinkoreaconference.com/
+  replay_url:
+  live_url:
+project_id: cb60cb3b-395d-4d2b-84aa-bf3f17da70b5
+tags:
+  - adoption
+  - use-case
+  - user-friendly

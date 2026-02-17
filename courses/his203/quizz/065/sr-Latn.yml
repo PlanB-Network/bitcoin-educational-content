@@ -1,0 +1,9 @@
+question: Koliko je zasebnih hakova doživeo Bitcoinica trgovački platforma pre nego što je proglasila bankrot?
+answer: 3
+wrong_answers:
+  - 1
+  - 2
+  - 4
+explanation: |
+ Tri hakovanja su bila sledeća: hakovanje Linode naloga koje je uzrokovalo da platforma izgubi 43,554 bitkoina; hakovanje njenog Rackspace naloga što je dovelo do gubitka od 18,574 bitkoina; hakovanje Mt. Gox naloga tokom kojeg je haker povukao 40,000 bitkoina i 40,000 LR-USD. Likvidacija Bitcoinica je najavljena 1. avgusta 2012.
+reviewed: true

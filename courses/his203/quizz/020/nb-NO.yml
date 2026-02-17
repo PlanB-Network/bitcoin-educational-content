@@ -1,0 +1,10 @@
+question: Hvilken innflytelsesrik økonom kritiserte Bitcoin i september 2011 for sin rigide, deflatoriske pengepolitikk?
+answer: Paul Krugman
+wrong_answers:
+  - Yánis Varoufákis
+  - Alan Greenspan
+  - Barry Eichengreen
+explanation: |
+ Paul Krugman er en nykeynesiansk økonom og vinner av Nobelprisen i økonomi i 2008. I en artikkel med tittelen "Golden Cyberfetters", publisert på New York
+ Times' nettside den 7. september 2011, argumenterte han for at Bitcoins "private gullstandardmodell" vil føre til at den forsvinner som byttemiddel.
+reviewed: true

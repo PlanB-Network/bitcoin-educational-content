@@ -1,0 +1,10 @@
+question: På hvilken nettbørs gjennomførte Erik Voorhees en uformell børsnotering i august 2012 for å utvide nettkasinoet SatoshiDICE?
+answer: MPEx
+wrong_answers:
+  - GLBSE
+  - Bitcoinica
+  - Bitoption.org
+explanation: |
+ MPEx var plattformen som Mircea Popescu administrerte, og som ble lansert noen måneder tidligere. Erik Voorhees utstedte 100 millioner aksjer (med aksjesymbolet S.DICE) og
+ solgte 10 for å skaffe 34 500 bitcoins, eller rundt 372 000 dollar.
+reviewed: true

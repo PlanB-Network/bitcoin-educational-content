@@ -1,0 +1,10 @@
+question: Mitä hänen mining-altaan tunnuksensa lisäksi suurin osa Luke-Jr:n Eligiuksen kautta tekemistä merkinnöistä sisälsi elokuussa 2011?
+answer: Rukoukset
+wrong_answers:
+  - Lapsipornografia
+  - Meemit
+  - Poliittiset viestit
+explanation: |
+ Katolisen (sedevakantistisen) uskonsa mukaisesti Luke-Jr sisällytti rukouksia ja pyhiä tekstejä mining-poolinsa louhimien lohkojen palkkioihin,
+ Eligiuksen, kuulematta asianomaisia kaivostyöläisiä, mikä herätti vilkkaan keskustelun.
+reviewed: true

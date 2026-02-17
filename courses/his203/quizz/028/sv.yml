@@ -1,0 +1,10 @@
+question: Vilken programvara innoverade genom att representera nyckelavledningen seed som en mening med 12 ord i november 2011?
+answer: Electrum
+wrong_answers:
+  - Spesmilo
+  - Stratum
+  - Paymium
+explanation: |
+ Denna wallet skapades av den franske utvecklaren Thomas Voegtlin. Dess namn syftar på elektrum, en naturlig legering av guld och silver. Electrum var en av de första
+ wallet att implementera en deterministisk struktur som härledde nycklar från en seed, som den representerade både som en hexadecimal teckensträng och en mening med 12 ord.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Mikä oli Jeremias Kangasin ja hänen veljensä kesäkuussa 2012 käynnistämän yksityisen valuutanvaihtopalvelun nimi?
+answer: LocalBitcoins
+wrong_answers:
+  - BTC NEAR MEAR
+  - BitInstant
+  - Coinabul
+explanation: |
+ Tämä oli matchmaking-alusta, joka käynnistettiin 7. kesäkuuta. Kesän aikana LocalBitcoins integroi escrow-järjestelmän, jonka kautta bitcoineja voi olla
+ hetkellisesti alustan hallussa ja vapauttaa ne tekstiviestillä ostajan maksettavaksi. Tämä mahdollisti erityisesti kasvokkain tapahtuvan vaihdon, jossa myyjä voi vaihtaa
+ vapauttaa bitcoinit, kun käteinen on saatu.
+reviewed: true

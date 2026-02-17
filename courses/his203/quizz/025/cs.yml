@@ -1,0 +1,10 @@
+question: Kterou mobilní aplikaci pro úschovu bitcoinů vyvinula francouzská společnost Paymium SAS v dubnu 2012?
+answer: Paytunia
+wrong_answers:
+  - Instawallet
+  - MyBitcoin
+  - Vibanko
+explanation: |
+ Paymium ji prezentoval jako "revoluční aplikaci založenou na otevřeném protokolu Bitcoin pro bezpečné a snadné online platby a převody peněz".
+ V březnu 2012 společnost odkoupila od Jana Vornbergera také webovou aplikaci Instawallet.
+reviewed: true

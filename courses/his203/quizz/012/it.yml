@@ -1,0 +1,10 @@
+question: Quanti bitcoin sono stati trasferiti da Mark Karpelès per dimostrare la solvibilità della piattaforma Mt. Gox il 23 giugno 2011?
+answer: 424.242 bitcoin
+wrong_answers:
+  - 666 bitcoin
+  - 1.337 bitcoin
+  - 21.210 bitcoin
+explanation: |
+ Questo era all'incirca il numero di bitcoin che l'azienda possedeva all'epoca. Il numero 42 è la risposta alla "grande domanda sulla vita, l'universo e tutto il resto" in H2G2
+ tutto il resto" in H2G2.
+reviewed: true

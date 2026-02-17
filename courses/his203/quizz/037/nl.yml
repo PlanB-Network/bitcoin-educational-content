@@ -1,0 +1,11 @@
+question: Wat was de naam van de grafische interface die Wladimir van der Laan in 2011 ontwikkelde voor de hoofdsoftware?
+answer: Bitcoin-Qt
+wrong_answers:
+  - wxVensters-Bitcoin
+  - bitcoind
+  - Bitcoin Kern
+explanation: |
+ Bitcoin-Qt was een complete herziening van de grafische interface van Bitcoin. Het werd ontwikkeld vanaf juni 2011 en geïntegreerd in de hoofdsoftware in versie 0.5,
+ uitgebracht op 21 november. Gebaseerd op het grafische raamwerk Qt, verving het de wxWindows bibliotheek die oorspronkelijk door Satoshi werd gebruikt. Metonymie werd de software vanaf dat moment
+ Bitcoin-Qt genoemd.
+reviewed: true

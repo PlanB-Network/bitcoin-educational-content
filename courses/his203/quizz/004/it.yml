@@ -1,0 +1,10 @@
+question: Su quale media online è stato pubblicato l'articolo di Adrian Chen che ha portato Silk Road all'attenzione del pubblico il 1° giugno 2011?
+answer: Gawker
+wrong_answers:
+  - Gizmodo
+  - Slashdot
+  - Hackernews
+explanation: |
+ Gawker.com era un influente blog in cui una moltitudine di autori pubblicava articoli talvolta controversi. È andato in bancarotta nel 2016, a seguito di una causa intentata da
+ Hulk Hogan e Peter Thiel.
+reviewed: true

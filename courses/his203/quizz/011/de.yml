@@ -1,0 +1,10 @@
+question: Was war die Ursache dafür, dass Mt. Gox am 19. Juni gehackt wurde?
+answer: Zugriff auf die Passwort-Datenbank, die mit MD5 gehasht, aber nicht gesalzen wurde
+wrong_answers:
+  - Jed McCaleb verriet das Passwort für sein persönliches Konto auf der Plattform
+  - Ein Blitzeinschlag, der es dem Piraten ermöglichte, mehr Bitcoins abzuheben, als er hatte
+  - XML-Einspeisung in Abhebungsanträge zur Abschöpfung von Konten
+explanation: |
+ Dieses Leck ermöglichte dem Hacker den Zugriff auf Konten mit schwachen (kurzen oder leicht zu erratenden) Passwörtern. Insbesondere griff er auf diese Weise auf das Konto von Jed McCaleb zu. Er
+ verkaufte Bitcoins, um den Preis nach unten zu treiben und so eine maximale Anzahl von Bitcoins abzuheben (das tägliche Abhebungslimit lag bei 1.000 $).
+reviewed: true

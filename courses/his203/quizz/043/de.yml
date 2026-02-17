@@ -1,0 +1,11 @@
+question: Welches von Russell O'Connor im Februar 2012 entdeckte Sicherheitsproblem führte zur Erstellung von BIP 30?
+answer: Das Vorhandensein von doppelten Transaktionen in der Blockchain
+wrong_answers:
+  - Das Problem, dass byzantinische Generäle den Konsens aufheben
+  - Das Vorhandensein eines Rekursionsfehlers in der OP_EVAL-Anweisung
+  - Entfernung eines überschüssigen Elements durch den OP_CHECKMULTISIG-Betreiber
+explanation: |
+ Dabei handelte es sich um Reward-Transaktionen mit derselben Kennung, die in verschiedenen Blöcken enthalten waren. Am 4. Februar 2012 entdeckte Russell O'Connor eine Sicherheitslücke, die
+ die es ermöglichte, alle Transaktionen, die aus einer dieser doppelten Transaktionen hervorgingen, durch eine Reorganisation der Kette vollständig zu löschen. Der Patch, beschrieben in
+ BIP 30 von Pieter Wuille beschriebene Patch wurde am 15. März in das Netzwerk eingespielt.
+reviewed: true

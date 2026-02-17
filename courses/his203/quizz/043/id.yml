@@ -1,0 +1,11 @@
+question: Masalah keamanan apa yang ditemukan oleh Russell O'Connor pada bulan Februari 2012 yang menyebabkan terciptanya BIP 30?
+answer: Adanya transaksi duplikat pada blockchain
+wrong_answers:
+  - Masalah para jenderal Bizantium yang membatalkan konsensus
+  - Adanya cacat rekursi dalam instruksi OP_EVAL
+  - Penghapusan elemen berlebih oleh operator OP_CHECKMULTISIG
+explanation: |
+ Ini adalah transaksi hadiah dengan pengenal yang sama yang termasuk dalam blok yang berbeda. Pada tanggal 4 Februari 2012, Russell O'Connor menemukan kerentanan yang
+ memungkinkan semua transaksi yang muncul dari salah satu transaksi duplikat ini dihapus secara langsung melalui reorganisasi rantai. Tambalan tersebut, yang dijelaskan dalam
+ BIP 30 oleh Pieter Wuille, diterapkan ke jaringan pada tanggal 15 Maret.
+reviewed: true

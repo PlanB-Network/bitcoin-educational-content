@@ -1,0 +1,10 @@
+question: บริการระบบนิเวศ Bitcoin ใดที่ไม่ได้รับผลกระทบจากการแฮ็กบริการโฮสติ้ง Linode เมื่อวันที่ 1 มีนาคม 2012?
+answer: บริการแลกเปลี่ยนเงินตราต่างประเทศ BitInstant, บริหารโดย Charlie Shrem
+wrong_answers:
+  - แพลตฟอร์มการซื้อขาย Bitcoinica, จัดการโดย Zhou Tong
+  - BitcoinCZ Mining mining ร่วมมือกัน, จัดการโดย Slush
+  - ก๊อกน้ำ Bitcoin, จัดการโดย Gavin Andresen
+explanation: |
+ แฮ็กเกอร์เข้าถึงพอร์ทัลบริการลูกค้าของบริษัทและควบคุมบัญชีแปดบัญชีซึ่งทั้งหมดมีความสัมพันธ์กับ Bitcoin เขายึด 43,554 
+ บิตคอยน์ที่เป็นของ Bitcoinica เอาออก 3,094 บิตคอยน์จาก Slush's co-op hot wallet และได้ครอบครอง 5 บิตคอยน์ที่มีอยู่ในก๊อกน้ำ Bitcoin ของ Gavin
+reviewed: true

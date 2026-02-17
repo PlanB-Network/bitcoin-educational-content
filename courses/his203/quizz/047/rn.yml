@@ -1,0 +1,10 @@
+question: Ni igiki cari ikibanza co kwamamaza Litecoin, amafaranga y’ivy’ubuhinga bwa none yaremwe na Charlie Lee mu kwezi kwa Gitugutu 2011?
+answer: Be ku feza ivyo Bitcoin ari ku nzahabu
+wrong_answers:
+  - Guhingura amafaranga y'impwemu
+  - Gukurikira Bitcoin iyo isenyutse
+  - Gufasha isi ya porogaramu z'ubuntu
+explanation: |
+ Litecoin yari yihuta cane (igihe co guhagarika ni iminota 2 30 aho kuba iminota 10) kandi yari nke cane (imiliyoni 84 aho kuba 21) kuruta Bitcoin, ni co gituma igiciro c’agaciro
+ ivyuma bisa n’ivyo. Charlie Lee ubwiwe ni we yashize iyo ngereranyo mu ndondoro ya mbere y’amahera yiwe y’ivy’ubuhinga bwa none.
+reviewed: true

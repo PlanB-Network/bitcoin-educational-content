@@ -1,0 +1,10 @@
+question: Milline oli Forrest Voighti 2011. aastal loodud P2Pool'i, jaotatud mining basseini kontseptsioon?
+answer: Aktsiate ahel
+wrong_answers:
+  - Pikk küsitlus
+  - Coinbase'i allkiri
+  - FPGA
+explanation: |
+ "Aktsiate ahel" ehk sharechain koosnes osalejate panustatud tööde osalistest tõenditest. Seda hooldasid osalejad, kes olid ühendatud
+ peer-to-peer. Iga aktsia sisaldas eelmise aktsia sõrmejälge, mis tagas terviklikkuse.
+reviewed: true

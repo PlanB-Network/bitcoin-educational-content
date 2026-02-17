@@ -352,7 +352,7 @@ Es gibt verschiedene Arten von Tauschgeschäften:
 
 
 
-Die österreichische Schule der Wirtschaftswissenschaften interpretiert diese Entwicklung als spontane Entstehung von privilegierten Tauschgütern. Muscheln, die archäologisch bereits im Mesolithikum nachgewiesen wurden, veranschaulichen dieses Phänomen: Sie wurden weit entfernt von ihrem geografischen Ursprung gefunden (mediterrane Muscheln in Westfrankreich, nordische Muscheln an anderen Fundorten) und zeugen von einer gemeinsamen Anerkennung ihres Tauschwertes.
+Die [österreichische Schule der Wirtschaftswissenschaften](https://planb.academy/resources/glossary/austrian-school) interpretiert diese Entwicklung als spontane Entstehung von privilegierten Tauschgütern. Muscheln, die archäologisch bereits im Mesolithikum nachgewiesen wurden, veranschaulichen dieses Phänomen: Sie wurden weit entfernt von ihrem geografischen Ursprung gefunden (mediterrane Muscheln in Westfrankreich, nordische Muscheln an anderen Fundorten) und zeugen von einer gemeinsamen Anerkennung ihres Tauschwertes.
 
 
 
@@ -605,7 +605,7 @@ Die mesopotamische Erfahrung schafft dauerhafte Präzedenzfälle für die Entwic
 
 
 
-Diese bahnbrechende Zeit zeigt auch die Machtfragen auf, die jeder monetären Innovation innewohnen: Wer kontrolliert die Technologie, wer legt die Regeln fest und wie werden formale Systeme und populäre Praktiken artikuliert. Diese grundlegenden Fragen haben sich durch die gesamte Wirtschaftsgeschichte gezogen und reichen bis zu den aktuellen Debatten über digitale Währungen und Kryptowährungen.
+Diese bahnbrechende Zeit zeigt auch die Machtfragen auf, die jeder monetären Innovation innewohnen: Wer kontrolliert die Technologie, wer legt die Regeln fest und wie werden formale Systeme und populäre Praktiken artikuliert. Diese grundlegenden Fragen haben sich durch die gesamte Wirtschaftsgeschichte gezogen und reichen bis zu den aktuellen Debatten über digitale Währungen und [Kryptowährungen](https://planb.academy/resources/glossary/cryptocurrency).
 
 
 
@@ -994,7 +994,7 @@ Der chinesische Staat nutzte Geld als Instrument der Wirtschaftsregulierung: In 
 
 
 
-Hier kann ein Zusammenhang mit Inflation und Deflation hergestellt werden. Bei einer festen Geldmenge steigt der Wert des Geldes, wenn die Produktivität der Wirtschaft zunimmt. Umgekehrt sinkt der Wert des Geldes, wenn die Produktivität sinkt. In diesem Beispiel ist jedoch das Gegenteil der Fall. Wahrscheinlich, weil der Fürst kein vollständiges Monopol auf die Geldherstellung hatte, zeigt es dennoch, dass der Wert des Geldes an die wirtschaftlichen Bedingungen gebunden war.
+Hier kann ein Zusammenhang mit [Inflation](https://planb.academy/resources/glossary/inflation) und Deflation hergestellt werden. Bei einer festen Geldmenge steigt der Wert des Geldes, wenn die Produktivität der Wirtschaft zunimmt. Umgekehrt sinkt der Wert des Geldes, wenn die Produktivität sinkt. In diesem Beispiel ist jedoch das Gegenteil der Fall. Wahrscheinlich, weil der Fürst kein vollständiges Monopol auf die Geldherstellung hatte, zeigt es dennoch, dass der Wert des Geldes an die wirtschaftlichen Bedingungen gebunden war.
 
 
 
@@ -3616,7 +3616,7 @@ Kommen wir zu Schweden, wo die allererste Zentralbank gegründet wurde.
 
 
 
-**Schweden** war ein Pionier des Zentralbankwesens: 1657 gründete Johan Palmstruch die **Stockholmer Bank**, die befugt war, mehr Geld zu verleihen, als sie an Metallreserven besaß, und damit die Geburtsstunde des Mindestreserve-Bankwesens einleitete. Die übermäßige Ausgabe von Banknoten führte jedoch zu einer Panik und einem Ansturm auf die Bank im Jahr 1663. Sieh an, sieh an...
+**Schweden** war ein Pionier des Zentralbankwesens: 1657 gründete Johan Palmstruch die **Stockholmer Bank**, die befugt war, mehr Geld zu verleihen, als sie an Metallreserven besaß, und damit die Geburtsstunde des [Mindestreserve-Bankwesens](https://planb.academy/resources/glossary/fractional-reserves) einleitete. Die übermäßige Ausgabe von Banknoten führte jedoch zu einer Panik und einem Ansturm auf die Bank im Jahr 1663. Sieh an, sieh an...
 
 
 

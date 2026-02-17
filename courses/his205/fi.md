@@ -352,7 +352,7 @@ Vaihtokauppaa on monenlaista:
 
 
 
-Itävaltalainen taloustieteen koulukunta tulkitsee tämän kehityksen etuoikeutettujen vaihtohyödykkeiden spontaaniksi syntymiseksi. Jo mesoliittiselta kaudelta lähtien arkeologisesti todistetut simpukat kuvaavat tätä ilmiötä: ne löytyvät kaukaa maantieteellisestä alkuperästään (Välimeren simpukat Länsi-Ranskasta, pohjoismaiset simpukat muista paikoista) ja todistavat, että niiden vaihtoarvo on yleisesti tunnustettu.
+[Itävaltalainen taloustieteen koulukunta](https://planb.academy/resources/glossary/austrian-school) tulkitsee tämän kehityksen etuoikeutettujen vaihtohyödykkeiden spontaaniksi syntymiseksi. Jo mesoliittiselta kaudelta lähtien arkeologisesti todistetut simpukat kuvaavat tätä ilmiötä: ne löytyvät kaukaa maantieteellisestä alkuperästään (Välimeren simpukat Länsi-Ranskasta, pohjoismaiset simpukat muista paikoista) ja todistavat, että niiden vaihtoarvo on yleisesti tunnustettu.
 
 
 
@@ -605,7 +605,7 @@ Mesopotamian kokemukset ovat pysyviä ennakkotapauksia rahoitusjärjestelmien ke
 
 
 
-Tämä merkittävä ajanjakso paljastaa myös kaikkiin rahapoliittisiin innovaatioihin liittyvät valtakysymykset: kuka hallitsee teknologiaa, kuka määrittelee säännöt ja miten viralliset järjestelmät ja suositut käytännöt nivoutuvat yhteen. Nämä peruskysymykset ovat jatkuneet läpi koko taloushistorian ja ulottuvat nykypäivän keskusteluihin digitaalisista valuutoista ja kryptovaluutoista.
+Tämä merkittävä ajanjakso paljastaa myös kaikkiin rahapoliittisiin innovaatioihin liittyvät valtakysymykset: kuka hallitsee teknologiaa, kuka määrittelee säännöt ja miten viralliset järjestelmät ja suositut käytännöt nivoutuvat yhteen. Nämä peruskysymykset ovat jatkuneet läpi koko taloushistorian ja ulottuvat nykypäivän keskusteluihin digitaalisista valuutoista ja [kryptovaluutoista](https://planb.academy/resources/glossary/cryptocurrency).
 
 
 
@@ -637,7 +637,7 @@ Inkoilla ei ollut rahajärjestelmää, mutta heillä oli runsaasti jalometalleja
 > Mitä kerrostuneempi yhteiskunta on ja mitä tarkemmin se on suunnitellut ja mitä tehokkaampi sen suunnittelujärjestelmä on, sitä vähemmän rahaa tarvitaan sen väestölle. Tämä selittänee sen, miksi espanjalaiset valloittajat havaitsivat, että meksikolaiset, joiden hallinto oli suhteellisesti vapaamielisempi, käyttivät rahana säännöllisesti kultajauhetta (jota säilytettiin läpinäkyvissä putkissa) ja kaakaopapuja (joita säilytettiin suuria maksuja varten 24 000 yksikön pusseissa), kun taas inkoilla, jotka olivat järjestäytyneet paljon tiukemman hierarkian mukaisesti, ei ollut lainkaan rahaa: poikkeus, jonka tiukka sääntö vahvistaa. Rahan synty Kiinassa oli täysin riippumaton muista sivilisaatioista; sumerien, egyptiläisten ja minolaisten sivilisaatioiden suhteellinen läheisyys herättää kuitenkin epäilyksiä siitä, missä määrin ne olivat tietämättömiä rahakäytännöistä, varsinkin kun otetaan huomioon jo varhaisimpina aikoina käyty laaja kauppa.
 
 
-Kiinassa kolikoita kehitettiin täysin eri tavalla kuin länsimaisia perinteitä. Se oli alusta alkaen fiat-rahaa. Ne olivat valettuja kolikoita.
+Kiinassa kolikoita kehitettiin täysin eri tavalla kuin länsimaisia perinteitä. Se oli alusta alkaen [fiat-rahaa](https://planb.academy/resources/glossary/fiat). Ne olivat valettuja kolikoita.
 
 
 Ja tässä yhteydessä Davies mainitsee kaupan. Kiinalaisten ja muiden kansojen välillä oli tosiaan vaihtokauppaa tiettyinä aikoina, mutta ulkomaankaupan vaihtovälineenä oli pikemminkin silkki. Kuten näemme myöhemmin, kultaa käytettiin myös Kiinan rajaseuduilla, joilla kiinalainen väestö oli pienempi. Eikä edes ulkomaankaupassa; siihen käytettiin silkkiä.
@@ -994,7 +994,7 @@ Kiinan valtio käytti rahaa talouden säätelyvälineenä: rahan yltäkylläisyy
 
 
 
-Tässä voidaan luoda yhteys inflaatioon ja deflaatioon. Kun rahan määrä on kiinteä, jos talouden tuottavuus kasvaa, rahan arvo nousee. Vastaavasti jos tuottavuus laskee, rahan arvo laskee. Tässä esimerkissä tilanne on kuitenkin päinvastainen. Todennäköisesti siksi, että ruhtinaalla ei ollut täydellistä monopolia rahan tuotannossa, mutta se osoittaa silti, että rahan arvo oli sidoksissa taloudellisiin olosuhteisiin.
+Tässä voidaan luoda yhteys [inflaatioon](https://planb.academy/resources/glossary/inflation) ja deflaatioon. Kun rahan määrä on kiinteä, jos talouden tuottavuus kasvaa, rahan arvo nousee. Vastaavasti jos tuottavuus laskee, rahan arvo laskee. Tässä esimerkissä tilanne on kuitenkin päinvastainen. Todennäköisesti siksi, että ruhtinaalla ei ollut täydellistä monopolia rahan tuotannossa, mutta se osoittaa silti, että rahan arvo oli sidoksissa taloudellisiin olosuhteisiin.
 
 
 
@@ -3616,7 +3616,7 @@ Siirrytään Ruotsiin, jossa perustettiin ensimmäinen keskuspankki.
 
 
 
-**Ruotsi** oli keskuspankkitoiminnan edelläkävijä: Johan Palmstruch perusti vuonna 1657 **Tukholman pankin**, jolla oli lupa antaa lainaa enemmän kuin sen metallivarannot olivat, mikä merkitsi murtoreservipankkitoiminnan syntyä. Liiallinen setelien liikkeeseenlasku johti kuitenkin paniikkiin ja pankin ryntäykseen vuonna 1663. Kappas vain...
+**Ruotsi** oli keskuspankkitoiminnan edelläkävijä: Johan Palmstruch perusti vuonna 1657 **Tukholman pankin**, jolla oli lupa antaa lainaa enemmän kuin sen metallivarannot olivat, mikä merkitsi [murtoreservipankkitoiminnan](https://planb.academy/resources/glossary/fractional-reserves) syntyä. Liiallinen setelien liikkeeseenlasku johti kuitenkin paniikkiin ja pankin ryntäykseen vuonna 1663. Kappas vain...
 
 
 

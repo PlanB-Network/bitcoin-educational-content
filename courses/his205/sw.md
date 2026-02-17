@@ -352,7 +352,7 @@ Kuna aina kadhaa za kubadilishana:
 
 
 
-Shule ya uchumi ya Austria inafasiri mageuzi haya kama kuibuka kwa hiari kwa bidhaa za ubadilishanaji wa bahati. Makombora, yaliyothibitishwa kiakiolojia mapema kama Mesolithic, yanaonyesha jambo hili: hupatikana mbali na asili yao ya kijiografia (maganda ya Mediterania magharibi mwa Ufaransa, maganda ya Nordic kwenye tovuti zingine), yanashuhudia utambuzi wa kawaida wa thamani yao ya ubadilishaji.
+[Shule ya uchumi ya Austria](https://planb.academy/resources/glossary/austrian-school) inafasiri mageuzi haya kama kuibuka kwa hiari kwa bidhaa za ubadilishanaji wa bahati. Makombora, yaliyothibitishwa kiakiolojia mapema kama Mesolithic, yanaonyesha jambo hili: hupatikana mbali na asili yao ya kijiografia (maganda ya Mediterania magharibi mwa Ufaransa, maganda ya Nordic kwenye tovuti zingine), yanashuhudia utambuzi wa kawaida wa thamani yao ya ubadilishaji.
 
 
 
@@ -605,7 +605,7 @@ Uzoefu wa Mesopotamia huanzisha mifano ya kudumu ya mabadiliko ya mifumo ya kife
 
 
 
-Kipindi hiki cha semina pia hufichua maswala ya nguvu yaliyo katika uvumbuzi wowote wa kifedha: ni nani anayedhibiti teknolojia, nani anafafanua sheria, na jinsi mifumo rasmi na mazoea maarufu yanafafanuliwa. Maswali haya ya msingi yamedumu katika historia yote ya uchumi, hadi kufikia mijadala ya kisasa kuhusu sarafu za kidijitali na sarafu za siri.
+Kipindi hiki cha semina pia hufichua maswala ya nguvu yaliyo katika uvumbuzi wowote wa kifedha: ni nani anayedhibiti teknolojia, nani anafafanua sheria, na jinsi mifumo rasmi na mazoea maarufu yanafafanuliwa. Maswali haya ya msingi yamedumu katika historia yote ya uchumi, hadi kufikia mijadala ya kisasa kuhusu sarafu za kidijitali na [sarafu za siri](https://planb.academy/resources/glossary/cryptocurrency).
 
 
 
@@ -637,7 +637,7 @@ Wainka hawakuwa na mfumo wa fedha, lakini walikuwa na wingi wa madini ya thamani
 > Kadiri jamii iliyo na matabaka inavyoongezeka, na jinsi mfumo wake wa kupanga ulivyo na ufanisi zaidi, ndivyo matumizi ya pesa yanavyokuwa muhimu kwa wakazi wake. Hii inaweza kuelezea kwa nini washindi wa Uhispania waligundua kuwa Wamexico, ambao serikali yao ilikuwa huru zaidi, walitumia mara kwa mara poda ya dhahabu (iliyowekwa kwenye mirija ya uwazi) na maharagwe ya kakao (yaliyohifadhiwa kwa malipo makubwa kwenye mifuko ya vitengo 24,000) kama sarafu, wakati kinyume chake, Incas, iliyoandaliwa kulingana na sheria ngumu zaidi, isipokuwa na uongozi mkali, haukuwa na udhibiti wowote. Asili ya pesa nchini Uchina haikutegemea kabisa ustaarabu mwingine; hata hivyo, ukaribu wa karibu wa ustaarabu wa Sumeri, Misri na Minoan unazua mashaka kwa kiasi cha kutojua kwao mazoea ya kifedha, hasa kwa kuzingatia biashara kubwa iliyoanzishwa tangu zamani.
 
 
-Huko Uchina, sarafu zilitengenezwa kwa njia tofauti kabisa na mila ya Magharibi. Ilikuwa pesa ya fiat tangu mwanzo. Zilikuwa sarafu za kutupwa.
+Huko Uchina, sarafu zilitengenezwa kwa njia tofauti kabisa na mila ya Magharibi. Ilikuwa pesa ya [fiat](https://planb.academy/resources/glossary/fiat) tangu mwanzo. Zilikuwa sarafu za kutupwa.
 
 
 Na hapa, Bw. Davies anataja biashara. Kwa kweli kulikuwa na kubadilishana kati ya Wachina na watu wengine kwa nyakati fulani, lakini njia ya kubadilishana kwa biashara ya nje ilikuwa badala ya hariri. Kama tutakavyoona baadaye, dhahabu ilitumika pia katika maeneo ya mpakani Uchina, ambapo idadi ya Wachina ilikuwa ndogo. Na hata kwa biashara ya kimataifa; kwa hiyo, ilikuwa hariri.
@@ -994,7 +994,7 @@ Jimbo la Uchina lilitumia pesa kama chombo cha udhibiti wa uchumi: wakati wa win
 
 
 
-Kiungo kinaweza kufanywa hapa na mfumuko wa bei na mfumuko wa bei. Kwa usambazaji wa pesa uliowekwa, tija ya uchumi ikiongezeka, thamani ya pesa hupanda. Kinyume chake, ikiwa tija itashuka, thamani ya pesa hupungua. Katika mfano huu, hata hivyo, kinyume ni kweli. Labda kwa sababu mkuu hakuwa na ukiritimba kamili juu ya uzalishaji wa pesa, lakini bado inaonyesha kuwa thamani ya pesa ilihusishwa na hali ya kiuchumi.
+Kiungo kinaweza kufanywa hapa na [mfumuko wa bei](https://planb.academy/resources/glossary/inflation) na mfumuko wa bei. Kwa usambazaji wa pesa uliowekwa, tija ya uchumi ikiongezeka, thamani ya pesa hupanda. Kinyume chake, ikiwa tija itashuka, thamani ya pesa hupungua. Katika mfano huu, hata hivyo, kinyume ni kweli. Labda kwa sababu mkuu hakuwa na ukiritimba kamili juu ya uzalishaji wa pesa, lakini bado inaonyesha kuwa thamani ya pesa ilihusishwa na hali ya kiuchumi.
 
 
 
@@ -3616,7 +3616,7 @@ Wacha tuendelee hadi Uswidi, ambapo benki kuu ya kwanza kabisa iliundwa.
 
 
 
-**Uswidi** ilikuwa mwanzilishi katika benki kuu: mnamo 1657, Johan Palmstruch aliunda **Stockholm Banco**, iliyoidhinishwa kukopesha zaidi ya akiba yake ya chuma, na hivyo kuashiria kuzaliwa kwa benki ya akiba ya sehemu. Lakini utoaji wa noti nyingi ulisababisha hofu na kukimbia benki mnamo 1663. Naam, vizuri...
+**Uswidi** ilikuwa mwanzilishi katika benki kuu: mnamo 1657, Johan Palmstruch aliunda **Stockholm Banco**, iliyoidhinishwa kukopesha zaidi ya akiba yake ya chuma, na hivyo kuashiria kuzaliwa kwa benki ya [akiba ya sehemu](https://planb.academy/resources/glossary/fractional-reserves). Lakini utoaji wa noti nyingi ulisababisha hofu na kukimbia benki mnamo 1663. Naam, vizuri...
 
 
 

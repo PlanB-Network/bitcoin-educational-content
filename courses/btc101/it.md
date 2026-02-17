@@ -879,7 +879,13 @@ Anche nel caso di un attacco del 51%, in cui un agente possieda più della metà
 
 La teoria dei giochi applicata a Bitcoin elimina i miner disonesti, che utilizzano macchine ASIC per il mining e ricevono una ricompensa in caso di successo. Inoltre, spesso si uniscono a pool di mining per condividere la loro potenza di calcolo e ricevere ricompense più piccole, ma su base regolare. Sebbene il mining di Bitcoin comporti costi energetici elevati, è fondamentale per il funzionamento e la sicurezza della rete Bitcoin. Il meccanismo della proof-of-work e la tecnologia blockchain risolvono il problema della doppia spesa e garantiscono l'integrità delle informazioni senza affidarsi a una terza parte. Sebbene la produzione di informazioni richieda un notevole dispendio di energia, la verifica di tali informazioni comporta un costo trascurabile. Questa asimmetria rafforza la sicurezza della rete, rendendo economicamente più conveniente aderire alle regole del consenso piuttosto che tentare di violarle.
 
-Se desiderate approfondire l'argomento specifico del mining di Bitcoin, potete consultare il nostro corso MIN 201. Scoprirete il funzionamento e il ruolo della Proof-of-Work, nonché i meccanismi dell'industria del mining. Vi spieghiamo anche come convertire un ASIC in un sistema di riscaldamento, consentendovi di minare i vostri primi satoshi mentre mantenete calda la vostra casa!
+
+
+Se desiderate approfondire l’argomento specifico del mining di Bitcoin, potete consultare il nostro corso MIN 101. Vi troverete una spiegazione teorica dettagliata del principio della proof of work e del suo funzionamento, nonché l’insieme dei concetti ad esso associati.
+
+https://planb.academy/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e
+
+Vi consiglio inoltre di scoprire questo corso pratico più avanzato, nel quale vi spieghiamo come trasformare un ASIC in un sistema di riscaldamento domestico DIY, al fine di valorizzare il calore prodotto dal mining e guadagnare i vostri primi satoshi!
 
 https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 

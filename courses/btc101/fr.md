@@ -907,7 +907,11 @@ Même dans le cas d'une attaque à 51 %, où un agent posséderait plus de la mo
 
 La théorie des jeux appliquée à Bitcoin élimine les mineurs malhonnêtes, qui utilisent des machines ASIC pour miner et reçoivent une récompense en cas de succès. En outre, ils rejoignent souvent des pools de minage pour partager leur puissance de calcul et recevoir des récompenses plus modestes mais plus régulières. Bien que le minage de Bitcoin entraîne des coûts énergétiques élevés, il est crucial pour le fonctionnement et la sécurité du réseau Bitcoin. Le mécanisme de preuve de travail et la technologie de la blockchain permettent de résoudre le problème de la double dépense et de garantir l'intégrité des informations sans dépendre d'un tiers de confiance. Bien que la production d'informations nécessite une dépense d'énergie importante, la vérification de ces informations a un coût négligeable. Cette asymétrie renforce la sécurité du réseau et rend économiquement plus viable le fait d'adhérer aux règles du consensus plutôt que d'essayer de les enfreindre.
 
-Si vous souhaitez approfondir le sujet spécifique du minage de Bitcoin, vous pouvez consulter notre cours MIN 201. Vous y découvrirez le fonctionnement et le rôle de la preuve de travail, ainsi que les mécanismes de l'industrie minière. Nous vous expliquons également comment convertir un ASIC en appareil de chauffage, ce qui vous permettra de miner vos premiers satoshis tout en chauffant votre maison !
+Si vous souhaitez approfondir le sujet spécifique du minage de Bitcoin, vous pouvez consulter notre cours MIN 101. Vous y trouverez une explication théorique détaillée du principe de la preuve de travail et de son fonctionnement, ainsi que l’ensemble des concepts qui y sont associés.
+
+https://planb.academy/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e
+
+Je vous conseille également de découvrir ce cours pratique, plus avancé, dans lequel nous vous expliquons comment transformer un ASIC en système de chauffage domestique DIY, afin de valoriser la chaleur produite par le minage et gagner vos premiers satoshis !
 
 https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 

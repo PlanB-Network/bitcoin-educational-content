@@ -1,11 +1,10 @@
 id: b6ca0ec6-d6f3-4bd1-8bd3-c2f062ad7cba
-name: Utreexo
+name: Utexo
 category: infrastructure
 links:
   website: https://utexo.com/
   twitter: https://x.com/utexocom
-  github: 
-  youtube: 
+
 tags:
   - scalability
   - node

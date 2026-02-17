@@ -1,0 +1,9 @@
+question: 2011년 여름에 네트워크 해시율 50%를 잠시 초과한 mining 협동조합은 어디인가요?
+answer: 딥비트
+wrong_answers:
+  - 딥비트
+  - 슬러시의 수영장
+  - GHash.io
+explanation: |
+ 오가노프코르티에 따르면 8월 5일 딥빗의 측정 해시율은 52.86%였습니다.
+reviewed: true

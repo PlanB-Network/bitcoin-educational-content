@@ -1,0 +1,10 @@
+question: Aplikasi penyimpanan bitcoin seluler mana yang dikembangkan oleh perusahaan Prancis Paymium SAS pada bulan April 2012?
+answer: Paytunia
+wrong_answers:
+  - Instawallet
+  - MyBitcoin
+  - Vibanko
+explanation: |
+ Paymium mempresentasikannya sebagai "aplikasi revolusioner berdasarkan protokol terbuka Bitcoin untuk pembayaran online dan transfer uang yang aman dan mudah".
+ Perusahaan ini juga telah mengakuisisi aplikasi web Instawallet dari Jan Vornberger pada bulan Maret 2012.
+reviewed: true

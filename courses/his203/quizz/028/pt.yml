@@ -1,0 +1,10 @@
+question: Que software inovou ao representar a derivação chave seed como uma frase de 12 palavras em novembro de 2011?
+answer: Electrum
+wrong_answers:
+  - Spesmilo
+  - Estrato
+  - Paymium
+explanation: |
+ Este wallet foi criado pelo criador francês Thomas Voegtlin. O seu nome refere-se ao electrum, uma liga natural de ouro e prata. O Electrum foi um dos primeiros
+ wallet a implementar uma estrutura determinística derivando chaves de um seed, que representava tanto como uma cadeia de caracteres hexadecimais como uma frase de 12 palavras.
+reviewed: true

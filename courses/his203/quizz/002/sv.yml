@@ -1,0 +1,10 @@
+question: Vilket protokoll hindrade Silk Road-marknaden från att stängas direkt av myndigheterna?
+answer: Tor
+wrong_answers:
+  - I2P
+  - Freenet
+  - BitTorrent
+explanation: |
+ Tor, en akronym för The Onion Router, är ett protokoll som stöder ett globalt, decentraliserat datanätverk (allmänt känt som darknet).
+ Det gör att webbplatser kan hostas anonymt och utan censur, och var idealiskt för Ross Ulbrichts projekt.
+reviewed: true

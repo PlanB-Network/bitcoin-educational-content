@@ -1,0 +1,10 @@
+question: Mis oli Gareth Nelsoni ja Charlie Shremi 2011. aastal loodud kiirvaluutateenuse nimi, et hõlbustada hoiuste tegemist valuutavahetusplatvormidele?
+answer: BitInstant
+wrong_answers:
+  - Instawallet
+  - Krüpto X muutus
+  - TrustCash
+explanation: |
+ See teenus lahendas Mt. Goxile tehtavate aeglaste rahvusvaheliste ülekannete probleemi, tegutsedes vahendajana, kandes raha üle vahetusplatvormidele, kui see on saadud
+ päritoluriigis. BitInstant avas oma uksed avalikkusele 23. augustil 2011 ja sai kiiresti populaarseks, kandes 2012. aasta jaanuariks üle 1,2 miljonit dollarit.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Ni jimbo gani la Marekani lililochaguliwa na Mradi wa Free State ambalo lilikuwa kitovu cha kupitishwa kwa Bitcoin mwaka 2012-2013?
+answer: New Hampshire
+wrong_answers:
+  - Texas
+  - Colorado
+  - Kalifonia
+explanation: |
+ Mradi wa Free State ulikuwa harakati ya kisiasa ya uhamiaji, iliyolenga kuwaunganisha wanaharakati wa uhuru katika jimbo moja ili kushawishi serikali ya mtaa huko.
+ 
+ Wajumbe wa harakati hii walianza kutumia Bitcoin kutokana na kuwashawishi wanaharakati wa uhuru kama Roger Ver na Erik Voorhees.
+reviewed: true

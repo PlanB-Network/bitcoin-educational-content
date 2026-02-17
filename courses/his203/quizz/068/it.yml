@@ -1,0 +1,10 @@
+question: Su quale piattaforma di scambio sono stati rubati 24.000 bitcoin all'inizio di settembre 2012?
+answer: Bitfloor
+wrong_answers:
+  - Mt. Gox
+  - Tradehill
+  - BTC-e
+explanation: |
+ Nella notte tra il 3 e il 4 settembre 2012, un hacker ha avuto accesso a un backup non criptato delle chiavi wallet di Bitfloor ed è riuscito a prelevare poco più di 24.000 BTC, ovvero circa 250.000 dollari all'epoca
+ circa 250.000 dollari all'epoca.
+reviewed: true

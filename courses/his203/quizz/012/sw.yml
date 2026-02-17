@@ -1,0 +1,9 @@
+question: Ni bitcoin ngapi zilihamishwa na Mark Karpelès ili kuthibitisha uwezo wa mfumo wa Mt. Gox mnamo Juni 23, 2011?
+answer: Bitcoin 424,242
+wrong_answers:
+  - Bitcoin 666
+  - Bitcoin 1,337
+  - Bitcoin 21,210
+explanation: |
+ Hii ilikuwa takriban idadi ya bitcoin ambazo kampuni hiyo ilikuwa inamiliki wakati huo. Nambari 42 ni jibu la "swali kubwa kuhusu maisha, Ulimwengu na kila kitu kingine" katika H2G2.
+reviewed: true

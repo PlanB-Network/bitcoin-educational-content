@@ -1,0 +1,10 @@
+question: På vilken handelsplattform stals 24.000 bitcoins i början av september 2012?
+answer: Bitgolv
+wrong_answers:
+  - Mt Gox
+  - Tradehill
+  - BTC-e
+explanation: |
+ Natten mellan den 3 och 4 september 2012 fick en hackare tillgång till en okrypterad backup av Bitfloors wallet-nycklar och lyckades ta ut drygt 24 000 BTC, eller
+ cirka 250 000 dollar vid den tidpunkten.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Kdo v září 2010 vytvořil první směšovací službu Bitcoin s názvem BitLaundry?
+answer: Peter Vessenes
+wrong_answers:
+  - Roman Sterlingov
+  - Benjamin Reeves
+  - Gregory Maxwell
+explanation: |
+ Peter Venesses byl americký podnikatel s diplomem z kryptografie, který objevil Bitcoin v době slashdottingu. Vyvinul službu, která měla umožnit
+ ztížit sledování finančních prostředků. V květnu 2011, když tušil, že ho čekají právní komplikace, prodal službu aktivistovi Mikeu Gogulskému.
+reviewed: true

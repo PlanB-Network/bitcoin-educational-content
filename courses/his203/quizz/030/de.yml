@@ -1,0 +1,10 @@
+question: Wer schuf im September 2010 den ersten Bitcoin-Mischdienst namens BitLaundry?
+answer: Peter Vessenes
+wrong_answers:
+  - Roman Sterlingov
+  - Benjamin Reeves
+  - Gregory Maxwell
+explanation: |
+ Peter Venesses war ein amerikanischer Unternehmer mit einem Abschluss in Kryptographie, der Bitcoin zur Zeit von Slashdotting entdeckte. Er entwickelte den Dienst, um das
+ um das Aufspüren von Geldern zu erschweren. Im Mai 2011 verkaufte er den Dienst an den Aktivisten Mike Gogulski, da er rechtliche Komplikationen befürchtete.
+reviewed: true

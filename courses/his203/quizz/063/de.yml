@@ -1,0 +1,10 @@
+question: Welcher Bitcoin-Ökosystemdienst war NICHT von dem Linode-Hostingdienst-Hack am 1. März 2012 betroffen?
+answer: Der Devisendienst BitInstant, der von Charlie Shrem geleitet wird
+wrong_answers:
+  - Die Bitcoinica-Handelsplattform, die von Zhou Tong
+  - BitcoinCZ Mining mining Genossenschaft, verwaltet von Slush
+  - Der Wasserhahn Bitcoin, geleitet von Gavin Andresen
+explanation: |
+ Der Hacker griff auf das Kundendienstportal des Unternehmens zu und übernahm die Kontrolle über acht Konten, die alle eine Beziehung zu Bitcoin hatten. Er beschlagnahmte 43.554
+ bitcoins, die Bitcoinica gehören, 3.094 Bitcoins von Slush's co-op hot wallet und die 5 Bitcoins, die sich auf Gavins Bitcoin-Hahn befinden, in seine Hände.
+reviewed: true

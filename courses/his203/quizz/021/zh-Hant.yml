@@ -1,0 +1,10 @@
+question: Gareth Nelson 和 Charlie Shrem 於 2011 年創立的即時外匯服務，旨在促進外匯平台的存款，該服務的名稱是什麼？
+answer: BitInstant
+wrong_answers:
+  - Instawallet
+  - Crypto X 變更
+  - TrustCash
+explanation: |
+ 這項服務解決了向 Mt.
+ 的問題。BitInstant 於 2011 年 8 月 23 日對外開放，並迅速受到歡迎，到 2012 年 1 月已轉帳 120 萬美元。
+reviewed: true

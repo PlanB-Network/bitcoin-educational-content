@@ -1,0 +1,10 @@
+question: Šta je izazvalo hakovanje Mt. Gox-a 19. juna?
+answer: Pristup bazi podataka sa lozinkama, koja je heširana pomoću MD5, ali nije solirana
+wrong_answers:
+  - Jed McCaleb je otkrio lozinku za pristup svom ličnom nalogu na platformi
+  - Munja je udarila, što je omogućilo piratu da povuče više bitkoina nego što je imao.
+  - XML injekcija u zahtevima za povlačenje sredstava za preusmeravanje sa računa
+explanation: |
+ Ovo curenje omogućilo je hakeru pristup nalozima sa slabim lozinkama (kratkim ili lakim za pogađanje). Konkretno, na ovaj način je pristupio nalogu Jeda McCaleba. On je 
+ prodao bitkoine kako bi oborio cenu, kako bi povukao maksimalan broj bitkoina (dnevni limit za povlačenje bio je $1,000).
+reviewed: true

@@ -1,0 +1,10 @@
+question: Od čega se sastoji metoda Pay Per Last N Shares (PPLNS) koja se koristi u nekim mining bazenima?
+answer: Platite rudarima za svaki iskopani blok, proporcionalno njihovim udelima u poslednjih N udela dostavljenih mining bazenu.
+wrong_answers:
+  - Odmah nadoknadite rudarima za svaki deo koji obezbede, u skladu sa stepenom težine.
+  - Nagraditi rudare za svaki iskopani blok, proporcionalno udelima koje su pronašli od poslednjeg bloka
+  - Platite rudarima odmah za svaki dostavljeni deo, ali nikada više nego što mining bazen poseduje.
+explanation: |
+ Ovo je varijanta proporcionalnog modela, u kojem period evaluacije nije ciklus proizvodnje blokova, već prozor od N udela nezavisnih od ciklusa.  
+ Metodu PPLNS koristio je P2Pool, između ostalih.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Jakou hlavní finanční inovaci nabídla platforma Bitcoinica, kterou v září 2011 spustil mladý čínský podnikatel Zhou Tong?
+answer: Pákový efekt a prodej nakrátko
+wrong_answers:
+  - Vydávání akcií a dluhopisů
+  - Úvěr se zajištěným úrokem
+  - Téměř okamžitá výměna hotovosti
+explanation: |
+ Bitcoinica byla první platformou v ekosystému, která nabízela obchodování s marží, což zákazníkům umožnilo využít pákový efekt k posílení svých zisků (a ztrát) a přejít na
+ short a vsadit tak na klesající cenu akcií. Po jejím ukončení tento typ služby převzala platforma Bitfinex, která byla spuštěna v říjnu 2012 a která
+ byla založena na stejném zdrojovém kódu.
+reviewed: true

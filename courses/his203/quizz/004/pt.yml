@@ -1,0 +1,10 @@
+question: Em que meio de comunicação em linha foi publicado o artigo de Adrian Chen que chamou a atenção do público para a Silk Road em 1 de junho de 2011?
+answer: Gawker
+wrong_answers:
+  - Gizmodo
+  - Slashdot
+  - Hackernews
+explanation: |
+ O Gawker.com era um blogue influente onde vários autores publicavam artigos por vezes controversos. Foi à falência em 2016, na sequência de um processo judicial movido por
+ Hulk Hogan e Peter Thiel.
+reviewed: true

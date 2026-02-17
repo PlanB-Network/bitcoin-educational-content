@@ -1,0 +1,10 @@
+question: Kes lõi 2010. aasta septembris esimese Bitcoin segamisteenuse nimega BitLaundry?
+answer: Peter Vessenes
+wrong_answers:
+  - Roman Sterlingov
+  - Benjamin Reeves
+  - Gregory Maxwell
+explanation: |
+ Peter Venesses oli Ameerika ettevõtja, kellel oli diplom krüptograafia alal ja kes avastas Bitcoin slashdotti ajal. Ta arendas teenuse välja, et teha
+ vahendite jälgimist raskendada. 2011. aasta mais müüs ta teenuse, tundes õiguslikke komplikatsioone, aktivist Mike Gogulskile.
+reviewed: true

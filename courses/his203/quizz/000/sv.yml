@@ -1,0 +1,10 @@
+question: Vilken händelse fick Satoshi Nakamoto att dra sig tillbaka från rampljuset i december 2010?
+answer: Publicering av en artikel i PC World där WikiLeaks uppmanas att använda Bitcoin
+wrong_answers:
+  - Ross Ulbricht lanserar Silk Road-plattformen
+  - Den kontakt som etablerades av In-Q-Tel, CIA:s investeringsfond
+  - Den spektakulära ökningen av priset på BTC från 0,20 USD till 32 USD på bara några månader
+explanation: |
+ Satoshi kommenterade denna publikation negativt på Bitcoin:s forum och befarade att den skulle dra till sig de statliga myndigheternas uppmärksamhet. Marknadsplatsen Silk Road
+ lanserades i januari 2011, kontakt mellan In-Q-Tel och Gavin Andresen ägde rum i april och prishöjningen nådde en topp på 32 USD i juni.
+reviewed: true

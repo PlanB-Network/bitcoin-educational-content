@@ -1,0 +1,10 @@
+question: Erik Voorhees alitekeleza IPO isiyo rasmi katika soko gani la hisa la mtandaoni mnamo Agosti 2012 ili kukuza kasino ya mtandaoni ya SatoshiDICE?
+answer: MPEx
+wrong_answers:
+  - GLBSE
+  - Bitcoinica
+  - Bitoption.org
+explanation: |
+ MPEx ilikuwa jukwaa lililosimamiwa na Mircea Popescu na ilizinduliwa miezi michache iliyopita. Erik Voorhees alitoa hisa milioni 100 (zikiwa na alama ya hisa S.DICE) na
+ aliuza hisa 10 ili kupata bitcoin 34,500, au karibu $372,000.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Amerikalı liberteryenlerin Mises'in regresyon teoremine atıfta bulunarak Bitcoin'a karşı yükselttikleri temel itiraz neydi?
+answer: Hiçbir gerçek değeri yoktu ve somut bir şeyle desteklenmiyordu
+wrong_answers:
+  - 2011'de yıllık %40 ihraç oranı ile parasal enflasyona sahipti
+  - Paranın temel bir niteliği olan hesap birimi olarak kullanılmıyordu
+  - Son derece eşitsiz bir servet dağılımı yarattı
+explanation: |
+ Avusturya ekolüne bağlı bazı Amerikalı liberteryenler, Ludwig von Mises'in regresyon teoremiyle (onlara göre) çeliştiği için Bitcoin'i reddettiler,
+ bir malın para birimi olabilmesi için parasal olmayan nesnel bir kullanım değerine sahip olması gerektiğini ifade eder. Bu özellikle Peter Schiff için geçerliydi
+ vergi karşıtı kampanyacı Irwin Schiff ve altın standardının sadık bir destekçisi.
+reviewed: true

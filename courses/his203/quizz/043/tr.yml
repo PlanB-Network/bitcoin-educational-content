@@ -1,0 +1,11 @@
+question: Şubat 2012'de Russell O'Connor tarafından keşfedilen hangi güvenlik sorunu BIP 30'un oluşturulmasına yol açtı?
+answer: Blok zincirinde mükerrer işlemlerin varlığı
+wrong_answers:
+  - Bizans generallerinin uzlaşmayı geçersiz kılması sorunu
+  - OP_EVAL talimatında bir özyineleme kusurunun varlığı
+  - OP_CHECKMULTISIG operatörü tarafından fazla bir elementin çıkarılması
+explanation: |
+ Bunlar, farklı bloklarda yer alan aynı tanımlayıcıya sahip ödül işlemleriydi. 4 Şubat 2012'de Russell O'Connor, bir güvenlik açığı keşfetti
+ bu yinelenen işlemlerden birinden kaynaklanan tüm işlemlerin zincirin yeniden düzenlenmesi yoluyla tamamen silinmesine izin verdi. Yama, şurada açıklanmıştır
+ Pieter Wuille tarafından BIP 30, 15 Mart tarihinde şebekeye uygulanmıştır.
+reviewed: true

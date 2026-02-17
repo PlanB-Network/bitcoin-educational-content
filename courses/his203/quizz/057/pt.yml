@@ -1,0 +1,11 @@
+question: Que evento de 15 de abril de 2011 foi apelidado de "Black Friday" pelos jogadores de póquer?
+answer: O FBI encerrou as principais plataformas de póquer em linha dos EUA por terem contornado a UIGEA
+wrong_answers:
+  - Oferta de alguns sítios de póquer em linha com grandes promoções de taxas de rake e de buy-in
+  - Uma falha grave no software de póquer em linha permitiu que os fundos fossem desviados para a compra de jóias e bolas de golfe
+  - O jogador amador Chris Moneymaker ganhou o torneio principal do Campeonato Mundial de Póquer depois de treinar online
+explanation: |
+ Foram acusados de se fazerem passar por comerciantes convencionais para que os seus bancos validassem as transferências recebidas, o que era proibido pelo Unlawful Internet Gambling
+ De 2006. Este encerramento foi desastroso para a indústria do póquer online. Levou à criação de várias plataformas de póquer com bitcoin, uma vez que a
+ criptomoeda não estava sujeita às mesmas restrições.
+reviewed: true

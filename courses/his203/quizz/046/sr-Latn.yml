@@ -1,0 +1,9 @@
+question: Colin Percival je implementirao memorijski intenzivnu Scrypt funkciju kao GPU-otporni mining algoritam u Tenebrix kriptovaluti 2011. godine.
+answer: ArtForz
+wrong_answers:
+  - Charlie Lee
+  - Lolcust
+  - Colin Percival
+explanation: |
+ Scrypt je funkcija za derivaciju ključeva koju je prvobitno dizajnirao kanadski kompjuterski naučnik Colin Percival 2009. godine. Preuzeo ju je rudar ArtForz, koji je pomogao Lolcustu da razvije Tenebrix kriptovalutu, lansiranu u septembru 2011. Charlie Lee je preuzeo model za uključivanje u Litecoin, koji je debitovao u oktobru.
+reviewed: true

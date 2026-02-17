@@ -1,0 +1,10 @@
+question: Ni iyihe porogarama yo kubika amafaranga y’amatelefone ngendanwa yakozwe n’ishirahamwe ry’abafaransa Paymium SAS muri Ndamukiza 2012?
+answer: Paytuniya
+wrong_answers:
+  - Igikapu c'imbere
+  - Bitcoin yanje
+  - Vibanko
+explanation: |
+ Paymium yashize ahabona ko ari "ikoreshwa ry'ihinduka rishingiye ku nzira ya Bitcoin yo kwishura no kohereza amafaranga kuri internet mu buryo bworoshe kandi butekanye". 
+ Iyo sosiyete yari yararonse kandi urubuga rwa Instawallet kuri Jan Vornberger muri Ntwarante 2012.
+reviewed: true

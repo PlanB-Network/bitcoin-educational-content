@@ -1,0 +1,10 @@
+question: Mark Karpelès Mt. Gox'u devralmadan önce hangi barındırma hizmetini yönetiyordu?
+answer: KalyHost
+wrong_answers:
+  - TibanneHost
+  - WeHostYou
+  - PlanetHost
+explanation: |
+ Bu, bağımsız bir geliştirici olarak sunduğu birçok hizmetten sadece biriydi. Kasım ayında Mark Karpelès KalyHost ile bitcoin ödemelerini kabul etmeye başladı.
+ Ross Ulbricht de bu hizmeti Silk Road'a yönlendiren Silkroadmarket.org web sayfasını barındırmak için kullandı.
+reviewed: true

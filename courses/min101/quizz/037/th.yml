@@ -1,0 +1,9 @@
+question: กลไกใดที่ขยายพื้นที่การค้นหาเมื่อ nonce ขนาด 32 บิตหมด?
+answer: The extra-nonce
+wrong_answers:
+  - The super-nonce
+  - the coinbase-nonce
+  - ดับเบิ้ล-นอนซ์
+explanation: |
+  โดยการปรับเปลี่ยน extra-nonce ใน coinbase scriptSig จะทำให้ Merkle root เปลี่ยนแปลง และส่งผลให้ header เปลี่ยนแปลงตามไปด้วย
+reviewed: true

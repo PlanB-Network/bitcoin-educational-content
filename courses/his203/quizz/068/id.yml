@@ -1,0 +1,10 @@
+question: Platform bursa mana yang mengalami pencurian 24.000 bitcoin pada awal September 2012?
+answer: Bitfloor
+wrong_answers:
+  - Gunung Gox
+  - Tradehill
+  - BTC-e
+explanation: |
+ Pada malam hari tanggal 3 hingga 4 September 2012, seorang peretas mengakses cadangan kunci wallet Bitfloor yang tidak terenkripsi, dan berhasil menarik lebih dari 24.000 BTC, atau
+ sekitar $250.000 pada saat itu.
+reviewed: true

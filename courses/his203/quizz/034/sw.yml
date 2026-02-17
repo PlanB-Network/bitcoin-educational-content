@@ -1,0 +1,10 @@
+question: Dhana ya P2Pool, bwawa la mining lililosambazwa lililoundwa na Forrest Voight mwaka wa 2011 ilikuwa nini?
+answer: Msururu wa hisa
+wrong_answers:
+  - Kura ndefu
+  - Saini ya msingi wa sarafu
+  - FPGA
+explanation: |
+ "Msururu wa hisa", au msururu wa hisa, uliundwa na uthibitisho wa sehemu wa kazi iliyochangiwa na washiriki. Ulidumishwa na washiriki, ambao walikuwa wameunganishwa
+ rika-kwa-rika. Kila hisa ilikuwa na alama ya vidole ya hisa iliyopita, ikihakikisha uadilifu wa yote.
+reviewed: true

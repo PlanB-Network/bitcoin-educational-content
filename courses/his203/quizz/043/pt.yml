@@ -1,0 +1,11 @@
+question: Que problema de segurança descoberto por Russell O'Connor em fevereiro de 2012 levou à criação do BIP 30?
+answer: A presença de transacções duplicadas na cadeia de blocos
+wrong_answers:
+  - O problema dos generais bizantinos que anulam o consenso
+  - A existência de uma falha de recursão na instrução OP_EVAL
+  - Remoção de um elemento excedentário pelo operador do OP_CHECKMULTISIG
+explanation: |
+ Tratava-se de transacções de recompensas com o mesmo identificador incluídas em blocos diferentes. Em 4 de fevereiro de 2012, Russell O'Connor descobriu uma vulnerabilidade que
+ permitia que todas as transacções resultantes de uma destas transacções duplicadas fossem eliminadas de imediato através da reorganização da cadeia. O patch, descrito em
+ BIP 30 por Pieter Wuille, foi aplicado à rede em 15 de março.
+reviewed: true

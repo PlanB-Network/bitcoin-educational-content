@@ -1,0 +1,10 @@
+question: Który protokół mining został opracowany we wrześniu 2012 r. przez Marka Palatinusa, znanego również jako Slush, w celu usprawnienia wymiany między górnikami a pulami mining?
+answer: Stratum
+wrong_answers:
+  - Electrum
+  - Getwork
+  - Getblocktemplate (GBT)
+explanation: |
+ Stratum był protokołem mining dla cienkich klientów. Szybko zastąpił podstawową funkcję getwork używaną do tej pory i ugruntował swoją pozycję kosztem
+ konkurencyjnej propozycji getblocktemplate.
+reviewed: true

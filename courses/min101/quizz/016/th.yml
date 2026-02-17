@@ -1,0 +1,9 @@
+question: RPOW ย่อมาจาก "Reusable Proof of Work"
+answer: หลักฐานการทำงานที่นำกลับมาใช้ใหม่ได้
+wrong_answers:
+  - การพิสูจน์การทำงานแบบวนซ้ำ
+  - หลักฐานการทำงานแบบสุ่ม
+  - การพิสูจน์การทำงานที่เล่นซ้ำ
+explanation: |
+  RPOW ย่อมาจาก reusable and exchangeable proofs of work ซึ่งเสนอโดย Hal Finney ในปี 2004
+reviewed: true

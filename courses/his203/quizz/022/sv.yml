@@ -1,0 +1,11 @@
+question: Vilken var den viktigaste finansiella innovationen som erbjöds av Bitcoinica-plattformen, som lanserades i september 2011 av den unge kinesiske entreprenören Zhou Tong?
+answer: Hävstångseffekt och blankning
+wrong_answers:
+  - Emission av aktier och obligationer
+  - Lån med säkerhet i form av ränta
+  - Nästan omedelbar kontantväxling
+explanation: |
+ Bitcoinica var den första plattformen i ekosystemet som erbjöd marginalhandel, vilket gjorde det möjligt för kunderna att använda hävstångseffekten för att förstärka sina vinster (och förluster) och att gå kort för att satsa på fallande aktiekurser
+ gå kort för att satsa på ett fallande aktiekurs. Efter nedläggningen togs denna typ av tjänst över av Bitfinex-plattformen, som lanserades i oktober 2012 och som
+ baserades på samma källkod.
+reviewed: true

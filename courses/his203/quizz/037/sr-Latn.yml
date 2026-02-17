@@ -1,0 +1,11 @@
+question: Naziv grafičkog interfejsa razvijenog za glavni softver od strane Wladimira van der Laana 2011. godine bio je Bitcoin-Qt.
+answer: Bitcoin-Qt
+wrong_answers:
+  - wxWindows-Bitcoin
+  - bitcoind
+  - Bitcoin Jezgro
+explanation: |
+ Bitcoin-Qt je bila potpuna revizija grafičkog interfejsa Bitcoin. Razvijana je od juna 2011. i integrisana u glavni softver u verziji 0.5, 
+ objavljenoj 21. novembra. Na osnovu Qt grafičkog okvira, zamenila je wxWindows biblioteku koju je prvobitno koristio Satoshi. Po metonimiji, softver je od tada nazivan
+ Bitcoin-Qt.
+reviewed: true

@@ -1,0 +1,10 @@
+question: ABD'deki hangi liberter radyo programı İpek Yolu pazarının varlığından ilk bahsedenlerden biriydi?
+answer: Canlı Ücretsiz Konuşma
+wrong_answers:
+  - Bitcoin Gösterisi
+  - All Things Considered
+  - Infowars Gece Haberleri
+explanation: |
+ Free Talk Live, Aralık 2010'da Bitcoin'i keşfeden ve Şubat 2011'de Gavin Andresen ile tanışan Ian Freeman ve Mark Edge tarafından sunuldu. 16 Mart 2011 tarihinde, yarım
+ programın bir bölümü Bitcoin'in İpek Yolu'nda kullanımına ayrılmıştı ve bu da Roger Ver'i Bitcoin ile daha fazla ilgilenmeye ikna etti.
+reviewed: true

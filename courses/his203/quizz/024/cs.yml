@@ -1,0 +1,10 @@
+question: Jaké národnosti byl Mircea Popescu, zakladatel platformy MPEx, která nabízela kupní a prodejní opce a možnost vydávat akcie a dluhopisy?
+answer: Rumunština
+wrong_answers:
+  - Americký
+  - Čínština
+  - Byl bez státní příslušnosti
+explanation: |
+ V komunitě byl kontroverzní osobností. Pocházel z rumunské Transylvánie a na svém blogu Trilema hojně psal v rumunštině i angličtině.
+ Záměrně provokativním stylem se zabýval nejrůznějšími tématy, včetně filozofie, politiky a sexuality. Zemřel v roce 2021 ve věku 41 let.
+reviewed: true

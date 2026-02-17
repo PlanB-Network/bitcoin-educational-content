@@ -1,0 +1,10 @@
+question: 2011 年夏末，Bitcoin 鏈上代表絲綢之路的活動大約佔多大比例？
+answer: 10 %
+wrong_answers:
+  - 3 %
+  - 30 %
+  - 90 %
+explanation: |
+ 根據 Chainalysis 隨後的報告，在 2011 年 9 月初，絲綢之路活動幾乎佔 Bitcoin 頻道交易量的 10%。
+ 2011 年 9 月。
+reviewed: true

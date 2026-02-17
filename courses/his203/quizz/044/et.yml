@@ -1,0 +1,10 @@
+question: Millist probleemi pidi Namecoin, esimene alternatiivne krüptoraha Bitcoin-le, lahendama?
+answer: Domeeninime tsentraliseerimine
+wrong_answers:
+  - Online maine haldamine
+  - mining dispersiooni probleem
+  - Bitcoinide ebavõrdne jagunemine
+explanation: |
+ Domeeninimede süsteemi valvab ICANN, Kalifornia seaduste alusel asutatud mittetulundusühing, mis tekitab tsensuuriprobleeme. BitDNSi kontseptsioon
+ (hiljem ümber nimetatud Namecoin) seisnes nende domeeninimede haldamise paigutamises plokiahelasse, mis sarnaneb Bitcoin-le, et seda probleemi vältida.
+reviewed: true

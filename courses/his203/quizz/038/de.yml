@@ -1,0 +1,11 @@
+question: Für welche Anwendungsfälle wurde das Pay to Script Hash-Upgrade besonders eingesetzt?
+answer: Zur Sicherung von Geldern durch Mehrparteienunterschrift (Multisig)
+wrong_answers:
+  - Für Treuhanddienstleistungen
+  - Erhöhung der Rechenleistung des Netzes dank des fusionierten mining
+  - Für die Überweisung von Geldbeträgen ins Ausland
+explanation: |
+ Angesichts der zunehmenden Zahl von Piraterieangriffen ist die Sicherung von Geldern derzeit ein sehr wichtiges Thema. Das Thema wurde am 23. August 2011 auf den Tisch gebracht
+ von Gavin Andresen, dem Projektleiter, auf den Tisch gebracht, der die Standardisierung der bereits im Protokoll vorhandenen Multisignaturfunktion beschleunigen wollte.
+ Dies führte zur Entwicklung von OP_EVAL und dann von P2SH über den Winter.
+reviewed: true

@@ -1,0 +1,10 @@
+question: ¿Qué innovación técnica se incorporó a la criptomoneda Namecoin en octubre de 2011?
+answer: mining fusionado
+wrong_answers:
+  - GPU-resistente mining
+  - Nodos de confianza
+  - Prueba de participación
+explanation: |
+ La mining fusionada es un proceso por el que el trabajo realizado en una "cadena madre" (es decir, la Bitcoin) se reutiliza para validar cadenas "auxiliares" más pequeñas. Este proceso fue
+ propuesto en el debate sobre BitDNS por la propia Satoshi. La mining combinada se activó en la red Namecoin el 8 de octubre de 2011, en el nivel de bloque 19.200.
+reviewed: true

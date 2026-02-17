@@ -1,0 +1,10 @@
+question: Ni ikihe kintu catumye Satoshi Nakamoto akuraho ivy’ubuhinga mu kwezi kwa kigarama 2010?
+answer: Gusohora ingingo ya PC World itumira WikiLeaks gukoresha Bitcoin
+wrong_answers:
+  - Ross Ulbricht yatanguje urubuga rw'inzira y'ubudodo
+  - Iryo shirahamwe ryashinzwe na In-Q-Tel, ikigega c’ishoramari ca CIA
+  - Igiciro ca BTC cavuye ku madolari 0,20 kija ku madolari 32 mu mezi makeyi gusa
+explanation: |
+ Satoshi yaravuze nabi kuri ico gitabu mw’ihuriro rya Bitcoin, atinya ko cokwegera abategetsi ba Leta. Isoko ry'inzira y'ubudodo 
+ yatangujwe muri Mukakaro 2011, ubucuti hagati ya In-Q-Tel na Gavin Andresen bwabaye muri Ndamukiza, kandi igiciro cashitse ku madolari 32 muri Ruheshi.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Nefario je kreirao GLBSE online berzu u aprilu 2011. godine, platformu koja je omogućila učesnicima u Bitcoin ekosistemu da izdaju finansijske hartije od vrednosti kao što su akcije ili obveznice kako bi se finansirali.
+answer: James McCarthy (Nefario)
+wrong_answers:
+  - Charlie Shrem (Jenkije)
+  - Mircea Popescu (MPOE-PR)
+  - Nathaniel Theis (Cuddlefish)
+explanation: |
+ Džejms Mekarti (Nefario) bio je Irac koji je živeo u Kini i radio kao profesor engleskog jezika na univerzitetu. Bio je zainteresovan za austrijsku školu i ideje Cypherpunks. U aprilu 2011. godine pokrenuo je GLBSE, koji je svojim klijentima nudio razne finansijske usluge, uključujući mogućnost izdavanja akcija i obveznica.
+reviewed: true

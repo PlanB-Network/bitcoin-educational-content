@@ -1,0 +1,11 @@
+question: Mt. Gox ile rekabet eden hangi döviz platformu David François tarafından Aralık 2010'da başlatıldı?
+answer: Bitcoin-Merkez
+wrong_answers:
+  - Paymium
+  - Britcoin
+  - Bitomat
+explanation: |
+ Bitcoin-Central, başlangıçta Liberty Reserve dolar ve avrolarının yanı sıra geleneksel avro transferlerini de kabul eden bir Fransız platformuydu. Kaynak kodu şöyleydi
+ açık kaynak lisansı (AGPL) altında yayınlandı. Platform daha sonra, Gonzague Grandval, Pierre Noizat ve David Noizat tarafından kurulan bir şirket olan Paymium ile birleşti
+ François tarafından Haziran 2011'de kurulmuş ve başlangıçta ödemeler alanına odaklanmıştır.
+reviewed: true

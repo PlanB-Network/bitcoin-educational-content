@@ -1,0 +1,10 @@
+question: Apa kewarganegaraan Mircea Popescu, pendiri platform MPEx, yang menawarkan opsi beli dan jual serta kemungkinan menerbitkan saham dan obligasi?
+answer: Rumania
+wrong_answers:
+  - Amerika
+  - Cina
+  - Dia tidak memiliki kewarganegaraan
+explanation: |
+ Dia adalah sosok yang kontroversial di masyarakat. Berasal dari Transylvania di Rumania, ia menulis secara ekstensif di blognya Trilema, dalam bahasa Rumania dan Inggris.
+ Dia membahas semua jenis subjek, termasuk filsafat, politik, dan seksualitas, dengan gaya yang sengaja dibuat provokatif. Dia meninggal pada tahun 2021 pada usia 41 tahun.
+reviewed: true

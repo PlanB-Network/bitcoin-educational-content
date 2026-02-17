@@ -1,0 +1,11 @@
+question: Minkä mainosalustan Erik Voorhees ja Ira Miller lanseerasivat marraskuussa 2011 mainostaakseen sisältöä Twitterissä Bitcoin:n avulla?
+answer: FeedZeBirds
+wrong_answers:
+  - Coinapultti
+  - BTC-tuumainen
+  - BitMunchies
+explanation: |
+ FeedZeBirds oli mainosalusta, jonka Erik Voorhees ja Ira Miller käynnistivät 23. marraskuuta 2011. FeedZeBirds-mainonta-alusta antoi käyttäjille mahdollisuuden maksaa
+ bitcoineilla sisällön esittelystä Twitterissä ostamalla uudelleentwiittauksia. BitMunchies oli Ira Millerin toukokuussa 2011 perustama online-ruokakauppa, BTCinch oli
+ maksuprosessori, joka kehitettiin kesällä 2011, ja Coinapult oli kahden kumppanin myöhemmin kehittämä sähköpostisiirtopalvelu.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Ni uruhe rugero rwo kwishura rwanditswe muri IANA muri Nzero 2012 n’umuhinga mu vy’ubwubatsi bwa porogarama Dave Thaler?
+answer: BIP 21 URI umugambi
+wrong_answers:
+  - BIP 32 ibitabo vy'uburongozi
+  - BIP 70 amasezerano yo kwishura
+  - BIP 47 kode zo kwishura zishobora gusubirwamwo
+explanation: |
+ Iryo tegeko ryatumye bishoboka ko umuntu asaba kwishura, ivyo bikaba vyari bimeze nk’uruhererekane rw’inyuguti canke kode ya QR. Inyuma y’ivyifuzo vyinshi, URI ya nyuma 
+ umugambi waradondowe muri Mukakaro 2012 muri BIP 21 na Matt Corallo. Yari yanditswe muri IANA na Dave Thaler muri Nzero.
+reviewed: true

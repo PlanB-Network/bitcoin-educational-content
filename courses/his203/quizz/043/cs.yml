@@ -1,0 +1,11 @@
+question: Jaký bezpečnostní problém objevený Russellem O'Connorem v únoru 2012 vedl k vytvoření systému BIP 30?
+answer: Přítomnost duplicitních transakcí v blockchainu
+wrong_answers:
+  - Problém byzantských generálů rušících konsensus
+  - Existence rekurzivní chyby v instrukci OP_EVAL
+  - Odstranění přebytečného prvku provozovatelem OP_CHECKMULTISIG
+explanation: |
+ Jednalo se o transakce odměn se stejným identifikátorem obsažené v různých blocích. Dne 4. února 2012 objevil Russell O'Connor zranitelnost, která spočívala v tom
+ umožňovala, aby všechny transakce vzniklé z jedné z těchto duplicitních transakcí byly pomocí reorganizace řetězce rovnou smazány. Oprava, popsaná v
+ BIP 30 Pieter Wuille, byla v síti použita 15. března.
+reviewed: true

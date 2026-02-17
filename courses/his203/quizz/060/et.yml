@@ -1,0 +1,10 @@
+question: Milline SatoshiDICE tehniline uuendus võimaldas mängijatel kontrollida, et kasiino ei petnud?
+answer: Salajase hashi avaldamine plokiahelas, millele järgneb nimetatud saladuste avaldamine, et võimaldada tulemuste ümberarvutamist
+wrong_answers:
+  - Detsentraliseeritud valideerimise plokiahela kasutuselevõtt, kus iga tehingut kontrollib mitu sõltumatut sõlme
+  - Fikseeritud aadresside kasutamine plokiahelas, mis võimaldab kontrollida loosimisi, tagades seega nende õigluse
+  - Tõenäosusarvutuste teostamine otse plokiahelas autonoomsete avalike lepingute kaudu
+explanation: |
+ SatoshiDICE oli revolutsiooniline, sest see oli "kindlasti õiglane". Iga tõenäosusega seotud viik sõltus päeva alguses salajasest generated-st, mis oli
+ hash, mis avaldati plokiahelas. Saladus ise avalikustati paar päeva hiljem, võimaldades kasutajatel ise tulemust ümber arvutada.
+reviewed: true

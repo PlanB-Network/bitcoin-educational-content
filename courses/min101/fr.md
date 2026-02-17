@@ -960,7 +960,7 @@ Voici un classement, à date, des principales pools de minage et de leur part re
 |         22 | Unknown        |             2 |            0.05% |
 |         23 | Public Pool    |             1 |            0.02% |
 
-*Source [mempool.space](https://mempool.space/graphs/mining/pools), données sur un mois, du 16 décembre 2025 au 16 janvier 2025.*
+*Source [mempool.space](https://mempool.space/graphs/mining/pools), données sur un mois, du 16 décembre 2025 au 16 janvier 2026.*
 
 Dans un cours plus avancé, on ira plus loin sur le fonctionnement interne des pools (shares, protocoles réseaux, méthodes de paiement...), car c’est là que se jouent les détails qui déterminent à la fois la rentabilité pour le mineur, et les implications possibles sur Bitcoin.
 

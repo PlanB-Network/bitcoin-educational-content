@@ -1,0 +1,10 @@
+question: Charlie Lee 於 2011 年 10 月創造的加密貨幣 Litecoin 的行銷術語是什麼？
+answer: 就像 Bitcoin 之於黃金一樣。
+wrong_answers:
+  - 創造靈性貨幣
+  - 當 Bitcoin 崩潰時接替 Bitcoin
+  - 為自由軟體世界融資
+explanation: |
+ 與 Bitcoin 相比，Litecoin 的速度更快（區塊時間為 2 分 30 秒而非 10 分鐘），稀缺性更低（8400 萬個而非 2100 萬個），因此可以用貴重金屬
+ 金屬的類比。正是 Charlie Lee 本人在最初描述其加密貨幣時加入了這一比較。
+reviewed: true

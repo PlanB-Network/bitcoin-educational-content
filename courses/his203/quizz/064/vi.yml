@@ -1,0 +1,9 @@
+question: Tony76 đã sử dụng phương pháp nào để thực hiện vụ lừa đảo ngày 20 tháng 4 năm 2012 trên chợ trực tuyến Silk Road?
+answer: Ông ta lợi dụng danh tiếng không tì vết của mình với tư cách là người bán hàng để yêu cầu hoàn tất giao dịch sớm
+wrong_answers:
+  - Khai thác lỗ hổng kỹ thuật trong quá trình xử lý thanh toán bitcoin trên nền tảng
+  - Thao túng giá Bitcoin để thổi phồng giá cả một cách giả tạo trên Con đường Tơ lụa
+  - Tống tiền một nhân viên của Con đường Tơ lụa để in mô tả sản phẩm sai sự thật
+explanation: |
+ Tony76 có một danh tiếng rất tốt, điều này cho phép anh ta yêu cầu người mua sử dụng phương thức thanh toán sớm thay vì ký quỹ. Ngày 20 tháng 4 là một ngày mang tính biểu tượng đối với người tiêu dùng cần sa, vì vậy anh ta đã giảm giá nhiều lần cho các sản phẩm thông thường của mình nhân dịp này, và các đơn đặt hàng đổ về tới tấp. Sau đó, anh ta biến mất cùng với số bitcoin và không bao giờ thực hiện các đơn đặt hàng.
+reviewed: true

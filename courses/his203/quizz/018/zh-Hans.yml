@@ -1,0 +1,10 @@
+question: 美国哪个自由主义广播节目最先提到丝绸之路市场的存在？
+answer: 免费现场直播
+wrong_answers:
+  - Bitcoin 表演
+  - 万事通
+  - Infowars 晚间新闻
+explanation: |
+ Free Talk Live 由伊恩-弗里曼（Ian Freeman）和马克-埃奇（Mark Edge）主持，他们于 2010 年 12 月发现了 Bitcoin，并于 2011 年 2 月结识了加文-安德森（Gavin Andresen）。2011 年 3 月 16 日
+ 在丝绸之路上使用了 Bitcoin，这让 Roger Ver 更坚定了参与 Bitcoin 研究的决心。
+reviewed: true

@@ -1,0 +1,9 @@
+question: Quale cooperativa mining ha brevemente superato il tasso di hash della rete del 50% nell'estate del 2011?
+answer: Deepbit
+wrong_answers:
+  - Deepbit
+  - La piscina di Slush
+  - GHash.io
+explanation: |
+ Secondo OrganOfCorti, il tasso di hash di Deepbit è stato del 52,86% il 5 agosto.
+reviewed: true

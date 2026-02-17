@@ -1,0 +1,10 @@
+question: Mikä ohjelmisto innovoi marraskuussa 2011 esittämällä avainten johdannaisen seed 12-sanaisena lauseena?
+answer: Electrum
+wrong_answers:
+  - Spesmilo
+  - Stratum
+  - Paymium
+explanation: |
+ Tämän wallet:n on luonut ranskalainen kehittäjä Thomas Voegtlin. Sen nimi viittaa elektrumiin, joka on kullan ja hopean luonnollinen seos. Electrum oli yksi ensimmäisistä
+ wallet:stä, joka toteutti deterministisen rakenteen, jossa avaimet johdettiin seed:stä, jonka se esitti sekä heksadesimaalisena merkkijonona että 12-sanaisena lauseena.
+reviewed: true

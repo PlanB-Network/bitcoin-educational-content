@@ -1,0 +1,10 @@
+question: Wie hoch war laut der im August 2012 veröffentlichten Studie von Nicolas Christin das tägliche Verkaufsvolumen im Mai 2012?
+answer: 15.000 BTC oder 75.000 $
+wrong_answers:
+  - 600 BTC oder 3.000 $
+  - 3.000 BTC oder 15.000 $
+  - 75.000 BTC oder $375.000
+explanation: |
+ Das tägliche Verkaufsvolumen, das im März bei 8.000 BTC lag, erreichte im Mai 15.000 BTC, was zu diesem Zeitpunkt etwa 75.000 $ entsprach. Der Anteil der Aktivität an der gesamten
+ Bitcoin-Kettenaktivität schwankte 2012 zwischen 10 und 20 %. Anfang November bezeichnete Ross den Erfolg der Plattform als "explosives Wachstum".
+reviewed: true

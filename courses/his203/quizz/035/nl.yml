@@ -1,0 +1,10 @@
+question: Waaruit bestaat de Pay Per Last N Shares (PPLNS)-methode die in sommige mining pools wordt gebruikt?
+answer: Betaal de miners voor elk gedolven blok, in verhouding tot hun aandeel in de laatste N aandelen die aan de mining pool zijn geleverd
+wrong_answers:
+  - Mijnwerkers onmiddellijk belonen voor elk geleverd onderdeel, volgens de moeilijkheidsgraad ervan
+  - Beloon miners voor elk gedolven blok, in verhouding tot de aandelen die ze hebben gevonden sinds het laatste blok
+  - Betaal de miners onmiddellijk voor elk geleverd aandeel, maar nooit meer dan de mining pool bezit
+explanation: |
+ Dit is een variant van het proportionele model, waarbij de evaluatieperiode niet de blokproductiecyclus is, maar een venster van N aandelen onafhankelijk van de cyclus.
+ De PPLNS-methode is onder andere gebruikt door P2Pool.
+reviewed: true

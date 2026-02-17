@@ -1,0 +1,10 @@
+question: 2012年9月、SlushことMarek Palatinusによって、マイナーとminingプール間の交換を改善するために開発されたminingプロトコルはどれか？
+answer: 地層
+wrong_answers:
+  - Electrum
+  - ゲットワーク
+  - ブロックテンプレート取得（GBT）
+explanation: |
+ Stratumはシンクライアント用のminingプロトコルだった。このプロトコルは、それまで使われていた初歩的なgetwork機能に取って代わり、競合するgetblocktemplateプロトコルの犠牲の上にその地位を確立した。
+ を犠牲にして地位を確立した。
+reviewed: true

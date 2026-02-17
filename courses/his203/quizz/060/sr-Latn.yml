@@ -1,0 +1,9 @@
+question: Koja tehnička inovacija SatoshiDICE-a je omogućila igračima da provere da li kazino ne vara?
+answer: Objavljivanje tajnog heša na blokčejnu, praćeno objavljivanjem navedenih tajni kako bi se omogućilo ponovno izračunavanje rezultata
+wrong_answers:
+  - Implementacija decentralizovanog blockchaina za validaciju na kojem svaku transakciju verifikuje nekoliko nezavisnih čvorova
+  - Korišćenje fiksnih adresa na blockchain-u, omogućavajući reviziju izvlačenja, čime se osigurava njihova pravičnost
+  - Izvršavanje proračuna verovatnoće direktno na blockchain-u putem autonomnih javnih ugovora
+explanation: |
+ SatoshiDICE je bio revolucionaran jer je bio "sigurno fer". Svako izvlačenje povezano sa verovatnoćom zavisilo je od tajnog generated na početku dana, čiji je heš bio objavljen na blockchain-u. Sam tajni podatak bio je otkriven nekoliko dana kasnije, omogućavajući korisnicima da sami ponovo izračunaju rezultat.
+reviewed: true

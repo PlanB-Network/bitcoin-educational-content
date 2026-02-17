@@ -1,0 +1,9 @@
+question: Je, ni nini kilichangia uuzaji wa Litecoin, sarafu ya kidijitali iliyoundwa na Charlie Lee mnamo Oktoba 2011?
+answer: Kuwa fedha kama Bitcoin ilivyo kwa dhahabu
+wrong_answers:
+  - Kuunda sarafu ya kiroho
+  - Kufanikiwa Bitcoin inapoanguka
+  - Kufadhili ulimwengu wa programu za bure
+explanation: |
+ Litecoin ilikuwa ya kasi zaidi (muda wa kuzuia ni dakika 2 30 badala ya dakika 10) na ilikuwa nadra kidogo (vitengo milioni 84 badala ya 21) kuliko Bitcoin, hivyo basi ni mfano wa metali muhimu. Alikuwa Charlie Lee mwenyewe aliyejumuisha ulinganisho huu katika maelezo ya awali ya sarafu yake ya kidijitali.
+reviewed: true

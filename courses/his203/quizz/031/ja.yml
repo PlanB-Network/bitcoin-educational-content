@@ -1,0 +1,9 @@
+question: 2011年夏、ネットワークハッシュ率が一時的に50％を超えたminingの協同組合は？
+answer: ディープビット
+wrong_answers:
+  - ディープビット
+  - スラッシュのプール
+  - GHash.io
+explanation: |
+ OrganOfCortiによると、Deepbitの実測ハッシュ率は8月5日に52.86％だった。
+reviewed: true

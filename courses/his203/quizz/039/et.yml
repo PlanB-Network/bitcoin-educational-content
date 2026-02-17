@@ -1,0 +1,10 @@
+question: Millist mõju avaldas OP_EVAL operatsioonikood Bitcoin sisemisele programmeerimissüsteemile?
+answer: Skripti täitmine skripti sees
+wrong_answers:
+  - Osalejate allkirjade taotlemine
+  - Haki skripti ja võrdle tulemust esitatud jalajäljega
+  - Kontrollida, et kaks väärtust on võrdsed
+explanation: |
+ Seda kirjeldas Nicolas van Saberhagen ehk ByteCoin, kes kujundas selle 1. ja 2. oktoobri 2011. aasta vahelisel ööl. Opkoodi täidetakse lukustuse lõpus
+ skripti, et hinnata esitatud skripti kehtivust, mille hashi võrreldakse antud sõrmejäljega.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Jaká byla hlavní výhoda zjednodušeného ověřování plateb (SPV) implementovaného v BitCoinJ a používaného v lehkých wallet, jako je Bitcoin Wallet pro Android?
+answer: Umožnil ověřit transakce, aniž by bylo nutné stahovat celý blockchain
+wrong_answers:
+  - Automaticky zamíchal bitcoiny při přijetí platby, aby se zvýšila důvěrnost
+  - Šifruje data wallet pomocí algoritmu AES-256, aby se zabránilo krádeži trojským koněm
+  - Umožnil zabezpečit připojení k existujícímu uzlu, aby se zabránilo útokům zneužívajícím podvrženost transakcí
+explanation: |
+ Zjednodušené ověřování plateb (Simplified Payment Verification, SPV) bylo zásadní inovací popsanou v bílé knize Bitcoin, která umožnila tenkým klientům ověřit, že jejich transakce
+ patřily do blockchainu, aniž by bylo nutné stahovat a ukládat celá data.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Koji približan udeo bitkoina u opticaju je predstavljao novac kojim je upravljao Bitcoin Savings & Trust fond na svom vrhuncu?
+answer: Otprilike 5%
+wrong_answers:
+  - Pribl. 0,05
+  - Pribl. 0,5
+  - Približno 50%
+explanation: |
+ Na svom vrhuncu u avgustu 2012. godine, fond Trendona Šejversa (poznatog kao PirateAt40) upravljao je sa preko 500.000 bitkoina, što je predstavljalo oko 5% od 9,7 miliona bitkoina u opticaju! Bitcoin Savings & Trust se urušio ubrzo nakon toga, jer je poverenje nestalo.
+reviewed: true

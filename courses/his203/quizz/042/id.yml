@@ -1,0 +1,10 @@
+question: Mengapa peningkatan Pay to Script Hash membutuhkan 55% daya hash jaringan untuk diaktifkan?
+answer: Sehingga "kompatibel ke belakang" dan tidak menciptakan pemisahan berantai
+wrong_answers:
+  - Karena tata kelola protokol bergantung pada suara para penambang ("satu prosesor, satu suara")
+  - Agar tidak memusatkan bisnis mining, maka didominasi oleh beberapa pool mining
+  - Karena pemimpin proyek Gavin Andresen tidak ingin menjadi "diktator yang baik hati"
+explanation: |
+ Ini adalah pembatasan aturan konsensus, yang kemudian disebut "soft fork". Peningkatan tidak akan membuat pemisahan rantai jika didukung oleh a
+ mayoritas daya komputasi jaringan.
+reviewed: true

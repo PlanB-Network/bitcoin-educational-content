@@ -1,0 +1,11 @@
+question: Qual è stata la principale innovazione finanziaria offerta dalla piattaforma Bitcoinica, lanciata nel settembre 2011 dal giovane imprenditore cinese Zhou Tong?
+answer: Leva finanziaria e vendite allo scoperto
+wrong_answers:
+  - Emissione di azioni e obbligazioni
+  - Il prestito a interesse garantito
+  - Scambio di contanti quasi istantaneo
+explanation: |
+ Bitcoinica è stata la prima piattaforma dell'ecosistema a offrire il trading a margine, che ha permesso ai clienti di utilizzare la leva finanziaria per amplificare i loro guadagni (e le loro perdite) e di andare
+ di andare short per scommettere sul calo del prezzo delle azioni. Dopo la sua chiusura, questo tipo di servizio è stato ripreso dalla piattaforma Bitfinex, lanciata nell'ottobre 2012 e basata sullo stesso codice sorgente
+ piattaforma Bitfinex, lanciata nell'ottobre 2012 e basata sullo stesso codice sorgente.
+reviewed: true

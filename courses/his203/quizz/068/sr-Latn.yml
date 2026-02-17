@@ -1,0 +1,9 @@
+question: Koji su platformi za razmenu ukradeni 24.000 bitcoina početkom septembra 2012?
+answer: Bitfloor
+wrong_answers:
+  - Mt. Gox
+  - Tradehill
+  - BTC-e
+explanation: |
+ U noći sa 3. na 4. septembar 2012. godine, haker je pristupio nešifrovanom rezervnom kopijom Bitfloor-ovih wallet ključeva i uspeo da povuče nešto više od 24.000 BTC, ili oko 250.000 dolara u to vreme.
+reviewed: true

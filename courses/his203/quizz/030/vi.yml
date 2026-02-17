@@ -1,0 +1,9 @@
+question: Ai là người đã tạo ra dịch vụ trộn Bitcoin đầu tiên, có tên là BitLaundry, vào tháng 9 năm 2010?
+answer: Peter Vessenes
+wrong_answers:
+  - Roman Sterlingov
+  - Benjamin Reeves
+  - Gregory Maxwell
+explanation: |
+ Peter Venesses là một doanh nhân người Mỹ có bằng cấp về mật mã học, người đã phát hiện ra Bitcoin vào thời điểm xuất hiện hiện tượng "slashdotting". Ông đã phát triển dịch vụ này để làm cho việc theo dõi nguồn tiền trở nên khó khăn hơn. Vào tháng 5 năm 2011, nhận thấy những rắc rối pháp lý phía trước, ông đã bán dịch vụ này cho nhà hoạt động Mike Gogulski.
+reviewed: true

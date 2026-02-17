@@ -1,0 +1,10 @@
+question: Qual era o nome da área dedicada ao comércio no PorcFest 2012, onde mais de metade dos comerciantes aceitavam bitcoin?
+answer: Vale Agora
+wrong_answers:
+  - Rua Bitcoin
+  - A via libertária
+  - Acampamento de dinheiro duro
+explanation: |
+ A Agora Valley incluía cerca de quarenta stands listados, vendendo comida, bebidas, livros, roupas, facas, chapéus e muito mais. Os membros do BitInstant tinham um stand chamado
+ "Bernanke's Bitcoin Exchange", onde forneciam câmbio de dólares e ensinavam aos curiosos como usar o Bitcoin.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Hvem var Mark Karpelès før han overtok Mt. Gox?
+answer: En utvikler med lidenskap for teknologi
+wrong_answers:
+  - En ekspertinvestor i digitale valutaer
+  - Libertariansk aktivist motivert av Bitcoin-ideologi
+  - En gründer som spesialiserer seg på børshandel
+explanation: |
+ Mark Karpelès var en fransk utvikler født i 1985, med en lidenskap for datamaskiner og teknologi. Han var ikke motivert av ideologi eller profitt,
+ men av teknisk nysgjerrighet.
+reviewed: true

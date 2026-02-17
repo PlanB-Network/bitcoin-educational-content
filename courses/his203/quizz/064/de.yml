@@ -1,0 +1,11 @@
+question: Welche Methode hat Tony76 verwendet, um seinen Betrug vom 20. April 2012 auf dem Silk-Road-Marktplatz einzurichten?
+answer: Nutzung seines tadellosen Rufs als Verkäufer, um einen frühzeitigen Abschluss von Geschäften zu verlangen
+wrong_answers:
+  - Ausnutzung einer technischen Schwachstelle bei der Verarbeitung von Bitcoin-Zahlungen auf der Plattform
+  - Manipulation des Bitcoin-Preises zur künstlichen Aufblähung der Preise auf der Silk Road
+  - Erpressung eines Silk-Road-Mitarbeiters zum Drucken falscher Produktbeschreibungen
+explanation: |
+ Tony76 genoss einen ausgezeichneten Ruf, der es ihm ermöglichte, von den Käufern einen vorzeitigen Abschluss anstelle eines Treuhandvertrags zu verlangen. Da der 20. April ein symbolträchtiges Datum für
+ da der 20. April ein symbolträchtiges Datum für Cannabiskonsumenten ist, bot er zu diesem Anlass zahlreiche Rabatte auf seine üblichen Produkte an, und die Bestellungen strömten herein. Später verschwand er mit den Bitcoins und
+ hat seine Bestellungen nie eingelöst.
+reviewed: true

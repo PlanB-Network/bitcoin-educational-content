@@ -1,0 +1,10 @@
+question: Vilken amerikansk delstat som valts ut av Free State Project blev ett centrum för Bitcoin-adoption 2012-2013?
+answer: New Hampshire
+wrong_answers:
+  - Texas
+  - Colorado
+  - Kalifornien
+explanation: |
+ Free State Project var en politisk migrationsrörelse som syftade till att gruppera libertarianer i en stat för att påverka den lokala regeringen där.
+ Medlemmar i denna rörelse började använda Bitcoin tack vare att libertarianska aktivister som Roger Ver och Erik Voorhees propagerade för detta.
+reviewed: true

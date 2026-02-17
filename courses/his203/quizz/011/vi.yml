@@ -1,0 +1,9 @@
+question: Điều gì đã khiến Mt. Gox bị tấn công mạng vào ngày 19 tháng 6?
+answer: Truy cập vào cơ sở dữ liệu mật khẩu, được mã hóa bằng MD5 nhưng không được thêm muối
+wrong_answers:
+  - Jed McCaleb đã làm lộ mật khẩu để truy cập vào tài khoản cá nhân của mình trên nền tảng này
+  - Một tia sét đánh trúng, cho phép tên cướp biển rút được nhiều bitcoin hơn số tiền hắn có
+  - Tấn công chèn mã XML vào các yêu cầu rút tiền để chiếm đoạt tài khoản
+explanation: |
+ Vụ rò rỉ này cho phép hacker truy cập vào các tài khoản có mật khẩu yếu (ngắn hoặc dễ đoán). Cụ thể, hắn đã truy cập vào tài khoản của Jed McCaleb bằng cách này. Hắn đã bán bitcoin để đẩy giá xuống, nhằm rút tối đa số bitcoin cần thiết (giới hạn rút tiền hàng ngày là 1.000 đô la).
+reviewed: true

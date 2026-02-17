@@ -1,0 +1,9 @@
+question: Ni uvumbuzi gani wa kiufundi uliojumuishwa katika sarafu ya kidijitali ya Namecoin mnamo Oktoba 2011?
+answer: mining iliyounganishwa
+wrong_answers:
+  - mining inayostahimili GPU
+  - Nodi zinazoaminika
+  - Uthibitisho wa dau
+explanation: |
+ mining iliyounganishwa ni mchakato ambapo kazi inayofanywa kwenye "mnyororo mama" (yaani Bitcoin) hutumiwa tena ili kuthibitisha minyororo midogo "saidizi". Mchakato huu ulipendekezwa katika majadiliano ya BitDNS na Satoshi yenyewe. mining iliyounganishwa iliamilishwa kwenye mtandao wa Namecoin mnamo Oktoba 8, 2011, katika kiwango cha block 19,200.
+reviewed: true

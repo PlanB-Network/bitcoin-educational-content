@@ -1,0 +1,10 @@
+question: Chi ha creato il primo servizio di miscelazione Bitcoin, chiamato BitLaundry, nel settembre 2010?
+answer: Pietro Vessenes
+wrong_answers:
+  - Roman Sterlingov
+  - Benjamin Reeves
+  - Gregory Maxwell
+explanation: |
+ Peter Venesses era un imprenditore americano laureato in crittografia che ha scoperto Bitcoin all'epoca di slashdot. Ha sviluppato il servizio per rendere
+ più difficile rintracciare i fondi. Nel maggio 2011, intuendo complicazioni legali, ha venduto il servizio all'attivista Mike Gogulski.
+reviewed: true

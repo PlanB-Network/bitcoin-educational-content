@@ -1,0 +1,10 @@
+question: Mikä aiheutti Mt. Goxin hakkeroinnin 19. kesäkuuta?
+answer: Pääsy salasanatietokantaan, joka on hajautettu MD5:llä, mutta ei suolattu
+wrong_answers:
+  - Jed McCaleb vuoti salasanan, jolla hän pääsi henkilökohtaiselle tililleen alustalla
+  - Salamanisku, jonka ansiosta merirosvo pystyi nostamaan enemmän bitcoineja kuin hänellä oli ollut
+  - XML-injektio nostopyynnöissä tilien tyhjentämiseksi
+explanation: |
+ Tämän vuodon ansiosta hakkeri pääsi käsiksi tileihin, joiden salasanat olivat heikkoja (lyhyitä tai helposti arvattavia). Hän pääsi erityisesti Jed McCalebin tilille tällä tavoin. Hän
+ myi bitcoineja painaakseen hintaa alaspäin, jotta hän voisi nostaa maksimimäärän bitcoineja (päivittäinen nostorajoitus oli 1 000 dollaria).
+reviewed: true

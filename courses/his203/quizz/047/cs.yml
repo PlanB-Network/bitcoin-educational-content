@@ -1,0 +1,10 @@
+question: Jaký byl marketingový tah na Litecoin, kryptoměnu, kterou v říjnu 2011 vytvořil Charlie Lee?
+answer: Buďte pro stříbro tím, čím je Bitcoin pro zlato
+wrong_answers:
+  - Vytvoření duchovní měny
+  - Nástupce Bitcoin po jeho zhroucení
+  - Financování světa svobodného softwaru
+explanation: |
+ Litecoin byl rychlejší (doba bloku je 2 minuty 30 místo 10 minut) a méně vzácný (84 milionů jednotek místo 21) než Bitcoin, a proto vzácný
+ analogie s drahými kovy. Byl to sám Charlie Lee, kdo toto srovnání zahrnul do úvodního popisu své kryptoměny.
+reviewed: true

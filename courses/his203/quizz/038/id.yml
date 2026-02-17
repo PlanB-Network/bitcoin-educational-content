@@ -1,0 +1,11 @@
+question: Untuk kasus penggunaan apa saja yang secara khusus telah menggunakan upgrade Pay to Script Hash?
+answer: Untuk mengamankan dana dengan tanda tangan multi-pihak (multisig)
+wrong_answers:
+  - Untuk layanan escrow
+  - Untuk meningkatkan daya komputasi jaringan berkat penggabungan mining
+  - Untuk pengiriman uang ke luar negeri
+explanation: |
+ Mengamankan dana adalah masalah yang sangat penting saat ini, karena meningkatnya jumlah serangan pembajakan. Topik ini dibawa ke meja pada tanggal 23 Agustus 2011
+ oleh Gavin Andresen, pemimpin proyek, yang ingin mempercepat standarisasi fungsionalitas multisignature yang sudah ada dalam protokol.
+ Hal ini mengarah pada pengembangan OP_EVAL dan kemudian P2SH selama musim dingin.
+reviewed: true

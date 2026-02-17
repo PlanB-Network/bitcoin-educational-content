@@ -1,0 +1,10 @@
+question: Auf welcher Börsenplattform wurden Anfang September 2012 24.000 Bitcoins gestohlen?
+answer: Bitfloor
+wrong_answers:
+  - Mt. Gox
+  - Tradehill
+  - BTC-e
+explanation: |
+ In der Nacht vom 3. auf den 4. September 2012 griff ein Hacker auf ein unverschlüsseltes Backup der wallet-Schlüssel von Bitfloor zu und schaffte es, etwas mehr als 24.000 BTC oder
+ etwa 250.000 $ zu dieser Zeit.
+reviewed: true

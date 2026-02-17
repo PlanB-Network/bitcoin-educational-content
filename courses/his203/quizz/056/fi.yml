@@ -1,0 +1,10 @@
+question: Mikä oli PorcFest 2012 -tapahtuman kaupankäynnille omistetun alueen nimi, jossa yli puolet kauppiaista hyväksyi bitcoinin?
+answer: Agora Valley
+wrong_answers:
+  - Bitcoin Street
+  - Libertaristinen tie
+  - Kovan rahan leiri
+explanation: |
+ Agora Valleyssa oli noin neljäkymmentä listattua kojua, joissa myytiin ruokaa, juomia, kirjoja, vaatteita, puukkoja, hattuja ja paljon muuta. BitInstantin jäsenillä oli siellä koju nimeltä
+ "Bernanke's Bitcoin Exchange", jossa he tarjosivat dollarinvaihtoa ja opettivat uteliaille Bitcoin:n käyttöä.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Vad hette den privat-till-privat valutatjänst som Jeremias Kangas och hans bror lanserade i juni 2012?
+answer: Lokala bitcoins
+wrong_answers:
+  - BTC NÄRA MIG
+  - BitInstant
+  - Coinabul
+explanation: |
+ Detta var en matchmakingplattform som lanserades den 7 juni. Under sommaren integrerade LocalBitcoins ett spärrsystem, genom vilket bitcoins kunde
+ tillfälligt kunde hållas av plattformen och frigöras via SMS för betalning till köparen. Detta möjliggjorde framför allt utbyten ansikte mot ansikte, där säljaren skulle
+ säljaren skulle frigöra bitcoins när kontanter hade mottagits.
+reviewed: true

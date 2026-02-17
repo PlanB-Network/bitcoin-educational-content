@@ -1,0 +1,10 @@
+question: 自由州計劃」選定的美國哪個州在 2012-2013 年成為 Bitcoin 領養中心？
+answer: 新罕布什爾州
+wrong_answers:
+  - 德州
+  - 科羅拉多州
+  - 加州
+explanation: |
+ 自由州計劃」是一個政治移民運動，目的是將自由主義者聚集在一個州，以影響當地政府。
+ 由於 Roger Ver 和 Erik Voorhees 等自由主義活動人士的宣傳，這個運動的成員開始使用 Bitcoin。
+reviewed: true

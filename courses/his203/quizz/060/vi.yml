@@ -1,0 +1,9 @@
+question: Sự đổi mới công nghệ nào của SatoshiDICE cho phép người chơi kiểm tra xem sòng bạc có gian lận hay không?
+answer: Việc công bố mã băm bí mật trên chuỗi khối, tiếp theo là việc công bố các bí mật đó để cho phép tính toán lại kết quả
+wrong_answers:
+  - Việc triển khai một chuỗi khối xác thực phi tập trung, trong đó mỗi giao dịch được xác minh bởi nhiều nút độc lập
+  - Việc sử dụng địa chỉ cố định trên chuỗi khối cho phép kiểm toán các lần quay số, từ đó đảm bảo tính công bằng
+  - Thực hiện các phép tính xác suất trực tiếp trên chuỗi khối thông qua các hợp đồng công khai tự động
+explanation: |
+ SatoshiDICE mang tính cách mạng vì nó "đảm bảo công bằng". Mỗi lần quay số dựa trên xác suất đều phụ thuộc vào một con số generated bí mật vào đầu ngày, mã băm của con số này được công bố trên blockchain. Bản thân mã bí mật đó được tiết lộ vài ngày sau đó, cho phép người dùng tự tính toán lại kết quả.
+reviewed: true

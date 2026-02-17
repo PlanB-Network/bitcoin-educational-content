@@ -1,0 +1,10 @@
+question: Koalaspace
+answer: KalyHost
+wrong_answers:
+  - TibanneHost
+  - WeHostYou
+  - PlanetHost
+explanation: |
+ Ovo je bila samo jedna od mnogih usluga koje je nudio kao nezavisni developer. U novembru, Mark Karpelès je počeo da prihvata bitcoin uplate sa KalyHost.
+ Ross Ulbricht je takođe koristio ovu uslugu za hostovanje web stranice Silkroadmarket.org, koja je preusmeravala na Silk Road.
+reviewed: true

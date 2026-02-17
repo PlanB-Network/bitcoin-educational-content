@@ -1,0 +1,10 @@
+question: Miks vajas Pay to Script Hash uuendamine 55% võrgu hash-võimsusest, et aktiveeruda?
+answer: Et see oleks "tagasiulatuvalt ühilduv" ja ei tekitaks ahelate lõhenemist
+wrong_answers:
+  - Kuna protokolli juhtimine sõltub kaevurite hääletusest ("üks protsessor, üks hääl")
+  - Selleks, et mitte tsentraliseerida mining äritegevust, mida siis domineerivad mõned mining poolid
+  - Sest projektijuht Gavin Andresen ei tahtnud olla "heatahtlik diktaator"
+explanation: |
+ See oli konsensusreeglite piirang, mida hiljem nimetati "pehmeks fork". Uuendus ei tekita ahela lõhenemist, kui seda toetab
+ enamus võrgu arvutusvõimsusest.
+reviewed: true

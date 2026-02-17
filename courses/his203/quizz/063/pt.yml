@@ -1,0 +1,10 @@
+question: Que serviço do ecossistema Bitcoin NÃO foi afetado pelo hack do serviço de alojamento Linode em 1 de março de 2012?
+answer: O serviço de câmbio BitInstant, gerido por Charlie Shrem
+wrong_answers:
+  - A plataforma de negociação Bitcoinica, gerida por Zhou Tong
+  - BitcoinCZ Mining mining cooperativa, gerida por Slush
+  - A torneira Bitcoin, gerida por Gavin Andresen
+explanation: |
+ O hacker acedeu ao portal de serviço ao cliente da empresa e assumiu o controlo de oito contas, todas elas relacionadas com a Bitcoin. Ele apreendeu 43.554
+ bitcoins pertencentes à Bitcoinica, retirou 3 094 bitcoins da cooperativa de Slush, a wallet, e deitou as mãos aos 5 bitcoins presentes na torneira Bitcoin de Gavin.
+reviewed: true

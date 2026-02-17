@@ -1,0 +1,11 @@
+question: Wie lautete das Pseudonym des ursprünglichen Erfinders des Online-Würfelspiels SatoshiDICE?
+answer: Fireduck
+wrong_answers:
+  - Evoorhees
+  - Tuxavant
+  - Hippich
+explanation: |
+ Joseph Gleason, alias Fireduck, war ein 30-jähriger amerikanischer Entwickler. Nachdem er einige Software-Tools für Bitcoin programmiert hatte, entwickelte er im April 2012 das SatoshiDICE Bitcoin
+ casino (das sich als Würfelspiel präsentierte) am 9. April 2012. Ein paar Wochen später verkaufte er die Plattform an Erik Voorhees (Evoorhees) für 40 Bitcoins, also
+ rund 200 Dollar.
+reviewed: true

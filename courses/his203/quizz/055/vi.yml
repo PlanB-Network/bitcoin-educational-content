@@ -1,0 +1,9 @@
+question: Mô hình kinh doanh đằng sau BitPay, công ty xử lý thanh toán được Stephen Pair và Tony Gallippi ra mắt vào mùa hè năm 2011, là gì?
+answer: Chuyển đổi Bitcoin của khách hàng thành đô la ngay lập tức, có tính phí
+wrong_answers:
+  - Cho phép khách hàng mua bitcoin ngay lập tức bằng đô la, có tính phí hoa hồng
+  - Cho vay bitcoin do khách hàng gửi vào và thu lãi
+  - Chuyển tiếp các khoản thanh toán bitcoin lên blockchain và nhận phí giao dịch
+explanation: |
+ Ý tưởng đằng sau BitPay là cung cấp cho các thương nhân khả năng chuyển đổi ngay lập tức các khoản thanh toán bằng bitcoin của họ thành đô la, để họ có thể phòng ngừa rủi ro trước sự biến động của thị trường. BitPay cung cấp cho khách hàng đô la ngay lập tức, tính phí xử lý ban đầu là 1%.
+reviewed: true

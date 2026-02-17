@@ -65,7 +65,7 @@ Ovaj deo ima za cilj da razume strukturne mehanizme koji omogućavaju hiperinfla
 ### Definicije inflacije
 
 
-Inflacija je koncept koji se često pogrešno razume zbog više definicija koje su s njim povezane. Percepcija inflacije varira među različitim grupama kao što su bitkoineri i tradicionalni ekonomisti. Hajde prvo da razjasnimo definicije pre nego što diskutujemo o hiperinflaciji:
+[Inflacija](https://planb.academy/resources/glossary/inflation) je koncept koji se često pogrešno razume zbog više definicija koje su s njim povezane. Percepcija inflacije varira među različitim grupama kao što su bitkoineri i tradicionalni ekonomisti. Hajde prvo da razjasnimo definicije pre nego što diskutujemo o hiperinflaciji:
 
 
 
@@ -111,7 +111,7 @@ Još jedna metoda bila je smanjenje količine plemenitih metala u valutama zasno
 ![image](assets/sr-Latn/002.webp)
 
 
-Važno je naglasiti da se hiperinflacija uglavnom primećuje kod fiat valuta koje su odvojene od svojih osnovnih sredstava, kao što su plemeniti metali. Istorijski gledano, kada je valuta bila zasnovana na takvim sredstvima, postojali su periodi inflacije (npr. kroz devalvaciju sadržaja metala), ali ti periodi nikada nisu dostigli ekstremne nivoe hiperinflacije. U narednim odeljcima ćemo detaljno proučiti periode monetarne devalvacije i implikacije ovih različitih monetarnih sistema na inflaciju.
+Važno je naglasiti da se hiperinflacija uglavnom primećuje kod [fiat valuta](https://planb.academy/resources/glossary/fiat) koje su odvojene od svojih osnovnih sredstava, kao što su plemeniti metali. Istorijski gledano, kada je valuta bila zasnovana na takvim sredstvima, postojali su periodi inflacije (npr. kroz devalvaciju sadržaja metala), ali ti periodi nikada nisu dostigli ekstremne nivoe hiperinflacije. U narednim odeljcima ćemo detaljno proučiti periode monetarne devalvacije i implikacije ovih različitih monetarnih sistema na inflaciju.
 
 
 ### Studija perioda monetarne devalvacije
@@ -1107,7 +1107,7 @@ Fenomen zombi kompanija nije ograničen na istoriju posleratne Nemačke. I danas
 
 #### 6. Get rich quick!
 
-U istoriji se mogu uočiti trenuci kada su ljudi želeli brzo da se obogate, kao što je bio slučaj u Vajmaru i Zimbabveu kroz arbitražu. Danas primećujemo sličan trend sa pojavom određenih kriptovaluta. Ljude privlače brze zarade: rizikuju u nadi da će njihov ulog višestruko porasti. Ovakav pristup podseća na ponašanje u periodima hiperinflacije, kada se arbitraža koristila za brzu dobit, često na štetu drugih.
+U istoriji se mogu uočiti trenuci kada su ljudi želeli brzo da se obogate, kao što je bio slučaj u Vajmaru i Zimbabveu kroz arbitražu. Danas primećujemo sličan trend sa pojavom određenih [kriptovaluta](https://planb.academy/resources/glossary/cryptocurrency). Ljude privlače brze zarade: rizikuju u nadi da će njihov ulog višestruko porasti. Ovakav pristup podseća na ponašanje u periodima hiperinflacije, kada se arbitraža koristila za brzu dobit, često na štetu drugih.
 
 ![image](assets/sr-Latn/052.webp)
 

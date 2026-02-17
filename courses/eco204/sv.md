@@ -65,7 +65,7 @@ Tänk om den monetära historien upprepade sig framför våra ögon? Det får du
 ### Definitioner av inflation
 
 
-Inflation är ett begrepp som ofta missförstås på grund av dess många definitioner och tolkningar. Uppfattningen om inflation varierar mellan olika grupper, till exempel bitcoinare och traditionella ekonomer. Låt oss först klargöra definitionerna innan vi diskuterar hyperinflation:
+[Inflation](https://planb.academy/resources/glossary/inflation) är ett begrepp som ofta missförstås på grund av dess många definitioner och tolkningar. Uppfattningen om inflation varierar mellan olika grupper, till exempel bitcoinare och traditionella ekonomer. Låt oss först klargöra definitionerna innan vi diskuterar hyperinflation:
 
 
 
@@ -111,7 +111,7 @@ En annan metod var att minska mängden ädelmetall i valutor som var baserade p�
 ![image](assets/sv/002.webp)
 
 
-Det är viktigt att betona att hyperinflation främst observeras med fiatvalutor som inte backas upp av sina underliggande tillgångar, till exempel ädelmetaller. Historiskt sett, när en valuta baserades på sådana tillgångar, förekom inflationsepisoder (t.ex. genom devalvering av metallinnehållet), men dessa episoder nådde aldrig de extrema nivåer som hyperinflation innebär. I de följande avsnitten kommer vi att i detalj studera perioderna med monetär devalvering och hur dessa olika monetära system påverkar inflationen.
+Det är viktigt att betona att hyperinflation främst observeras med [fiatvalutor](https://planb.academy/resources/glossary/fiat) som inte backas upp av sina underliggande tillgångar, till exempel ädelmetaller. Historiskt sett, när en valuta baserades på sådana tillgångar, förekom inflationsepisoder (t.ex. genom devalvering av metallinnehållet), men dessa episoder nådde aldrig de extrema nivåer som hyperinflation innebär. I de följande avsnitten kommer vi att i detalj studera perioderna med monetär devalvering och hur dessa olika monetära system påverkar inflationen.
 
 
 ### Studie av perioder med monetär devalvering
@@ -1160,7 +1160,7 @@ Fenomenet med zombieföretag är inte begränsat till efterkrigstidens Tyskland.
 #### 6. Bli rik snabbt!
 
 
-Historien avslöjar exempel där individer försökte ackumulera rikedom snabbt, som var fallet i Weimar och Zimbabwe genom arbitrage. Idag kan en liknande trend observeras med ökningen av vissa kryptovalutor. Människor frestas av snabba vinster och tar risker i hopp om en exponentiell ökning av sin investering. Detta tillvägagångssätt påminner om det som sågs under perioder av hyperinflation, där arbitrage användes för att få snabba vinster, ofta på andras bekostnad.
+Historien avslöjar exempel där individer försökte ackumulera rikedom snabbt, som var fallet i Weimar och Zimbabwe genom arbitrage. Idag kan en liknande trend observeras med ökningen av vissa [kryptovalutor](https://planb.academy/resources/glossary/cryptocurrency). Människor frestas av snabba vinster och tar risker i hopp om en exponentiell ökning av sin investering. Detta tillvägagångssätt påminner om det som sågs under perioder av hyperinflation, där arbitrage användes för att få snabba vinster, ofta på andras bekostnad.
 
 
 ![image](assets/sv/052.webp)

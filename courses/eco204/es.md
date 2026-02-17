@@ -50,7 +50,7 @@ Esta parte pretende comprender los mecanismos estructurales que permiten la hipe
 
 ### Definiciones de inflación
 
-La inflación es un concepto que a menudo se malinterpreta debido a sus múltiples definiciones e interpretaciones. La percepción de la inflación varía entre distintos grupos, como los bitcoiners y los economistas tradicionales. Aclaremos primero las definiciones antes de hablar de la hiperinflación:
+[La inflación](https://planb.academy/resources/glossary/inflation) es un concepto que a menudo se malinterpreta debido a sus múltiples definiciones e interpretaciones. La percepción de la inflación varía entre distintos grupos, como los bitcoiners y los economistas tradicionales. Aclaremos primero las definiciones antes de hablar de la hiperinflación:
 
 - Definición del diccionario Le Robert: La inflación es un aumento excesivo de los instrumentos de pago (billetes, capital), que provoca una subida de los precios y una depreciación de la moneda.
 
@@ -83,7 +83,7 @@ Otro método consistía en reducir la cantidad de metal precioso en las monedas 
 
 ![image](assets/es/002.webp)
 
-Es crucial subrayar que la hiperinflación se observa principalmente con monedas fiduciarias que no están respaldadas por sus activos subyacentes, como los metales preciosos. Históricamente, cuando una moneda se basaba en tales activos, se producían episodios de inflación (por ejemplo, a través de la devaluación del contenido metálico), pero estos episodios nunca alcanzaron los niveles extremos de la hiperinflación. En las siguientes secciones, estudiaremos en detalle los periodos de devaluación monetaria y las implicaciones de estos diferentes sistemas monetarios sobre la inflación.
+Es crucial subrayar que la hiperinflación se observa principalmente con [monedas fiduciarias](https://planb.academy/resources/glossary/fiat) que no están respaldadas por sus activos subyacentes, como los metales preciosos. Históricamente, cuando una moneda se basaba en tales activos, se producían episodios de inflación (por ejemplo, a través de la devaluación del contenido metálico), pero estos episodios nunca alcanzaron los niveles extremos de la hiperinflación. En las siguientes secciones, estudiaremos en detalle los periodos de devaluación monetaria y las implicaciones de estos diferentes sistemas monetarios sobre la inflación.
 
 ### Estudio de los periodos de devaluación monetaria
 
@@ -801,7 +801,7 @@ El fenómeno de las empresas zombis no se limita a la Alemania de posguerra. Inc
 
 #### 6. ¡Hágase rico rápidamente!
 
-La historia revela casos en los que los individuos trataron de acumular riqueza rápidamente, como ocurrió en Weimar y Zimbabue mediante el arbitraje. Hoy se observa una tendencia similar con el auge de ciertas criptodivisas. La gente se siente tentada por las ganancias rápidas, asumiendo riesgos con la esperanza de un aumento exponencial de su inversión. Este enfoque recuerda al observado durante los periodos de hiperinflación, en los que se recurría al arbitraje para obtener beneficios rápidos, a menudo a expensas de los demás.
+La historia revela casos en los que los individuos trataron de acumular riqueza rápidamente, como ocurrió en Weimar y Zimbabue mediante el arbitraje. Hoy se observa una tendencia similar con el auge de ciertas [criptodivisas](https://planb.academy/resources/glossary/cryptocurrency). La gente se siente tentada por las ganancias rápidas, asumiendo riesgos con la esperanza de un aumento exponencial de su inversión. Este enfoque recuerda al observado durante los periodos de hiperinflación, en los que se recurría al arbitraje para obtener beneficios rápidos, a menudo a expensas de los demás.
 
 ![image](assets/es/052.webp)
 

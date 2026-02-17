@@ -92,7 +92,7 @@ Jika Anda mengikuti kursus LNP202 ini dengan urutan yang benar, pada akhirnya An
 
 
 
-Sebelum meluncurkan node Anda sendiri, bab ini mengulas secara singkat teori dasar di balik Lightning Network. Memang penting untuk memahami mekanisme yang terlibat, karena ini akan memungkinkan Anda untuk mengidentifikasi risiko dan mengadopsi praktik-praktik yang baik untuk membatasinya. Namun, saya tidak akan membahasnya secara rinci di sini, karena ini bukan tujuan utama dari kursus ini. Jika Anda ingin mempelajari subjek ini lebih dalam, saya sangat menyarankan Anda untuk membaca kursus LNP 201 dari Fanis Michalakis, yang merupakan referensi di bidang ini:
+Sebelum meluncurkan node Anda sendiri, bab ini mengulas secara singkat teori dasar di balik [Lightning Network](https://planb.academy/resources/glossary/lightning-network). Memang penting untuk memahami mekanisme yang terlibat, karena ini akan memungkinkan Anda untuk mengidentifikasi risiko dan mengadopsi praktik-praktik yang baik untuk membatasinya. Namun, saya tidak akan membahasnya secara rinci di sini, karena ini bukan tujuan utama dari kursus ini. Jika Anda ingin mempelajari subjek ini lebih dalam, saya sangat menyarankan Anda untuk membaca kursus LNP 201 dari Fanis Michalakis, yang merupakan referensi di bidang ini:
 
 
 
@@ -102,20 +102,20 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-Mari kita kembali ke dasar: sebelum mendefinisikan apa itu node, kita perlu memahami apa itu Lightning Network. Ini adalah protokol lapisan atas, yang dibangun di atas Bitcoin, yang dirancang untuk memungkinkan transaksi offchain BTC yang cepat (dengan penyelesaian yang hampir instan) dan umumnya tidak mahal. "Offchain" berarti bahwa transaksi yang dilakukan di Lightning tidak dimaksudkan untuk muncul di blockchain Bitcoin utama. Lightning juga merupakan respons parsial terhadap peningkatan penggunaan Bitcoin dan kemacetan onchain, yang meningkatkan kekhawatiran tentang skalabilitas sistem.
+Mari kita kembali ke dasar: sebelum mendefinisikan apa itu node, kita perlu memahami apa itu Lightning Network. Ini adalah protokol lapisan atas, yang dibangun di atas Bitcoin, yang dirancang untuk memungkinkan transaksi [offchain](https://planb.academy/resources/glossary/offchain) BTC yang cepat (dengan penyelesaian yang hampir instan) dan umumnya tidak mahal. "Offchain" berarti bahwa transaksi yang dilakukan di Lightning tidak dimaksudkan untuk muncul di [blockchain](https://planb.academy/resources/glossary/blockchain) Bitcoin utama. Lightning juga merupakan respons parsial terhadap peningkatan penggunaan Bitcoin dan kemacetan [onchain](https://planb.academy/resources/glossary/onchain), yang meningkatkan kekhawatiran tentang [skalabilitas](https://planb.academy/resources/glossary/scalability) sistem.
 
 
 
-Untuk beroperasi, Lightning bergantung pada pembukaan saluran pembayaran antara peserta, di mana transaksi dapat dilakukan hampir secara instan, seringkali dengan biaya minimal, tanpa perlu mendaftarkannya satu per satu di blockchain Bitcoin. Saluran ini dapat tetap terbuka untuk waktu yang sangat lama, membutuhkan transaksi onchain hanya ketika dibuka dan ditutup.
+Untuk beroperasi, Lightning bergantung pada pembukaan [saluran pembayaran](https://planb.academy/resources/glossary/payment-channel) antara peserta, di mana transaksi dapat dilakukan hampir secara instan, seringkali dengan biaya minimal, tanpa perlu mendaftarkannya satu per satu di blockchain Bitcoin. Saluran ini dapat tetap terbuka untuk waktu yang sangat lama, membutuhkan transaksi onchain hanya ketika dibuka dan ditutup.
 
 
 
-Sebuah node Lightning adalah peserta dalam jaringan Lightning, membuka saluran dan melakukan pembayaran dengan node lain. Secara konkret, Lightning node adalah sebuah perangkat lunak yang berjalan di komputer dan mengimplementasikan protokol Lightning Network. Contohnya termasuk LND, Core Lightning atau Eclair. Peran utama perangkat lunak ini adalah untuk:
+Sebuah [node Lightning](https://planb.academy/resources/glossary/lightning-node) adalah peserta dalam jaringan Lightning, membuka saluran dan melakukan pembayaran dengan node lain. Secara konkret, Lightning node adalah sebuah perangkat lunak yang berjalan di komputer dan mengimplementasikan protokol Lightning Network. Contohnya termasuk LND, Core Lightning atau Eclair. Peran utama perangkat lunak ini adalah untuk:
 
 
 
 
-- terhubung ke node Bitcoin untuk mendapatkan informasi dari blockchain utama;
+- terhubung ke [node Bitcoin](https://planb.academy/resources/glossary/full-node) untuk mendapatkan informasi dari blockchain utama;
 - membuat dan mengelola saluran pembayaran dua arah dengan node lain;
 - bertukar pesan dengan seluruh jaringan Lightning.
 
@@ -129,7 +129,7 @@ Sebuah node Lightning adalah peserta dalam jaringan Lightning, membuka saluran d
 
 
 
-Pada Bitcoin (onchain), "*wallet*" mengacu pada perangkat lunak yang mengelola kunci pribadi Anda, menghitung saldo Anda dari UTXO dan membangun transaksi Anda. wallet ini dapat didasarkan pada node Bitcoin Anda sendiri atau node orang lain, tetapi saat ini, peran node dan peran onchain wallet jelas berbeda.
+Pada Bitcoin (onchain), "*[wallet](https://planb.academy/resources/glossary/wallet)*" mengacu pada perangkat lunak yang mengelola [kunci pribadi](https://planb.academy/resources/glossary/private-key) Anda, menghitung saldo Anda dari [UTXO](https://planb.academy/resources/glossary/utxo) dan membangun transaksi Anda. wallet ini dapat didasarkan pada node Bitcoin Anda sendiri atau node orang lain, tetapi saat ini, peran node dan peran onchain wallet jelas berbeda.
 
 
 
@@ -141,7 +141,7 @@ Pada Lightning, lebih sulit untuk menggunakan kembali kosakata semacam ini tanpa
 
 
 
-- Untuk menggunakan layanan kustodian: Anda menggunakan aplikasi yang menunjukkan kepada Anda saldo di sats di Lightning, tetapi di latar belakang, dana berada di node penyedia (mis. Wallet of Satoshi). Anda tidak memiliki kunci atau kendali atas saluran tersebut. Saldo Anda hanyalah entri akuntansi dalam basis data perusahaan. Hal ini sebanding dengan meninggalkan bitcoin Anda di platform bursa, dengan semua risiko yang terkait. Dalam hal ini, "*Lightning wallet*" Anda hanyalah sebuah akses ke akun yang dikelola oleh operator yang, pada gilirannya, menjalankan simpul Lightning yang sebenarnya.
+- Untuk menggunakan layanan kustodian: Anda menggunakan aplikasi yang menunjukkan kepada Anda saldo di [sats](https://planb.academy/resources/glossary/satoshi-sat) di Lightning, tetapi di latar belakang, dana berada di node penyedia (mis. Wallet of Satoshi). Anda tidak memiliki kunci atau kendali atas saluran tersebut. Saldo Anda hanyalah entri akuntansi dalam basis data perusahaan. Hal ini sebanding dengan meninggalkan bitcoin Anda di platform bursa, dengan semua risiko yang terkait. Dalam hal ini, "*Lightning wallet*" Anda hanyalah sebuah akses ke akun yang dikelola oleh operator yang, pada gilirannya, menjalankan simpul Lightning yang sebenarnya.
 
 
 
@@ -161,7 +161,7 @@ Pada bagian ini, saya akan memberi Anda pengingat singkat tentang cara kerja Lig
 
 
 
-Inti dari jaringan Lightning didasarkan pada saluran pembayaran dua arah. Sebuah saluran dapat dibuka (yaitu dibuat), diperbarui saat transaksi Lightning terjadi, dan kemudian ditutup. Dari sudut pandang onchain, sebuah saluran tidak lebih dari sebuah output multisignature 2/2.
+Inti dari jaringan Lightning didasarkan pada saluran pembayaran dua arah. Sebuah saluran dapat dibuka (yaitu dibuat), diperbarui saat transaksi Lightning terjadi, dan kemudian ditutup. Dari sudut pandang onchain, sebuah saluran tidak lebih dari sebuah [output](https://planb.academy/resources/glossary/output) [multisignature](https://planb.academy/resources/glossary/multisig) 2/2.
 
 
 
@@ -169,7 +169,7 @@ Inti dari jaringan Lightning didasarkan pada saluran pembayaran dua arah. Sebuah
 
 
 
-Dari sudut pandang Lightning, ini adalah saluran pembayaran dengan likuiditas yang dibagi antara dua peserta.
+Dari sudut pandang Lightning, ini adalah saluran pembayaran dengan [likuiditas](https://planb.academy/resources/glossary/liquidity-lightning) yang dibagi antara dua peserta.
 
 
 
@@ -183,7 +183,7 @@ Dari sudut pandang Lightning, ini adalah saluran pembayaran dengan likuiditas ya
 
 
 
-Dua node memutuskan untuk membuka saluran. Salah satu dari mereka melakukan transaksi bitcoin dalam transaksi onchain yang disebut *transaksi pendanaan*. Transaksi ini menghasilkan output berdasarkan skrip multisignature 2-of-2, yang berarti bahwa pengeluaran dana ini pada Bitcoin membutuhkan tanda tangan dari kedua node di dalam channel. Sebelum mengeluarkan transaksi ini, pihak yang menyediakan dana meminta pihak lain untuk menandatangani *transaksi penarikan*, yang tidak dikeluarkan onchain, tetapi memungkinkannya untuk memulihkan dananya jika terjadi masalah.
+Dua node memutuskan untuk membuka saluran. Salah satu dari mereka melakukan transaksi bitcoin dalam transaksi onchain yang disebut *transaksi pendanaan*. Transaksi ini menghasilkan output berdasarkan [skrip](https://planb.academy/resources/glossary/script) multisignature 2-of-2, yang berarti bahwa pengeluaran dana ini pada Bitcoin membutuhkan [tanda tangan](https://planb.academy/resources/glossary/digital-signature) dari kedua node di dalam channel. Sebelum mengeluarkan transaksi ini, pihak yang menyediakan dana meminta pihak lain untuk menandatangani *transaksi penarikan*, yang tidak dikeluarkan onchain, tetapi memungkinkannya untuk memulihkan dananya jika terjadi masalah.
 
 
 
@@ -197,7 +197,7 @@ Dua node memutuskan untuk membuka saluran. Salah satu dari mereka melakukan tran
 
 
 
-Status saluran (yaitu distribusi sats antara A dan B) diwakili oleh *commitment transaction*, yang diketahui oleh kedua node tetapi tidak segera disiarkan di blockchain. Transaksi ini menjelaskan bagaimana mendistribusikan kembali dana saluran pada blockchain sesuai dengan pembayaran yang dilakukan pada Lightning.
+Status saluran (yaitu distribusi sats antara A dan B) diwakili oleh *[commitment transaction](https://planb.academy/resources/glossary/commitment-transaction)*, yang diketahui oleh kedua node tetapi tidak segera disiarkan di blockchain. Transaksi ini menjelaskan bagaimana mendistribusikan kembali dana saluran pada blockchain sesuai dengan pembayaran yang dilakukan pada Lightning.
 
 
 
@@ -237,7 +237,7 @@ Sebelum melangkah lebih jauh, berikut ini adalah dua konsep penting untuk memaha
 
 
 - Liquidity*: jumlah sats yang tersedia pada satu sisi saluran;
-- Kapasitas *kapasitas*: ini adalah jumlah total yang terkunci dalam output multisig 2/2, yaitu jumlah likuiditas di kedua sisi saluran.
+- [Kapasitas](https://planb.academy/resources/glossary/lightning-channel-capacity) *kapasitas*: ini adalah jumlah total yang terkunci dalam output multisig 2/2, yaitu jumlah likuiditas di kedua sisi saluran.
 
 
 
@@ -249,7 +249,7 @@ Saluran tidak hanya untuk pembayaran antara dua node: saluran merupakan bagian d
 
 
 
-Setiap node mengetahui, melalui protokol gosip, peta jaringan ini: saluran mana yang ada, node mana yang terhubung dengan saluran dua arah, dan kapasitas mana yang dipublikasikan. Untuk mengirim pembayaran ke penerima tanpa saluran langsung, node Anda menghitung rute yang terdiri dari beberapa lompatan: node Anda → node X → node Y → node penerima. Pada setiap lompatan, pembayaran melewati saluran yang harus memiliki likuiditas yang cukup ke arah pembayaran.
+Setiap node mengetahui, melalui [protokol gosip](https://planb.academy/resources/glossary/gossip), peta jaringan ini: saluran mana yang ada, node mana yang terhubung dengan saluran dua arah, dan kapasitas mana yang dipublikasikan. Untuk mengirim pembayaran ke penerima tanpa saluran langsung, node Anda menghitung rute yang terdiri dari beberapa lompatan: node Anda → node X → node Y → node penerima. Pada setiap lompatan, pembayaran melewati saluran yang harus memiliki likuiditas yang cukup ke arah pembayaran.
 
 
 
@@ -265,7 +265,7 @@ Oleh karena itu, likuiditas saluran tidak simetris: satu sisi mungkin terisi pen
 
 
 
-Untuk memungkinkan pembayaran melewati node perantara tanpa memerlukan kepercayaan, Lightning menggunakan kontrak pintar yang disebut *HTLC* (*Hashed Time-Locked Contracts*). Secara sederhana, HTLC membuat transfer dana bergantung pada pengungkapan rahasia, dan menggabungkan batasan waktu untuk melindungi pengirim jika terjadi kegagalan transaksi. Oleh karena itu, setiap pembayaran tunduk pada presentasi pra-gambar (rahasia yang hash-nya sesuai dengan nilai yang disepakati). Jika penerima akhir memberikan pra-citra ini, dia dapat mengklaim dana, yang pada gilirannya memungkinkan setiap simpul perantara untuk memulihkan dananya sendiri.
+Untuk memungkinkan pembayaran melewati node perantara tanpa memerlukan kepercayaan, Lightning menggunakan [kontrak pintar](https://planb.academy/resources/glossary/smart-contract) yang disebut *[HTLC](https://planb.academy/resources/glossary/htlc)* (*Hashed Time-Locked Contracts*). Secara sederhana, HTLC membuat transfer dana bergantung pada pengungkapan rahasia, dan menggabungkan batasan waktu untuk melindungi pengirim jika terjadi kegagalan transaksi. Oleh karena itu, setiap pembayaran tunduk pada presentasi pra-gambar (rahasia yang [hash](https://planb.academy/resources/glossary/hash-function)-nya sesuai dengan nilai yang disepakati). Jika penerima akhir memberikan pra-citra ini, dia dapat mengklaim dana, yang pada gilirannya memungkinkan setiap simpul perantara untuk memulihkan dananya sendiri.
 
 
 
@@ -281,7 +281,7 @@ Saya tidak akan menjelaskan detail teknis tentang cara kerja HTLC, karena tidak 
 
 
 
-Seperti halnya Bitcoin, ada beberapa implementasi protokol Lightning. Sejumlah tim independen sedang mengembangkan versi mereka sendiri, yang semuanya dapat dioperasikan karena mengikuti spesifikasi yang sama (BOLT). Berikut ini adalah implementasi utama yang digunakan saat ini.
+Seperti halnya Bitcoin, ada beberapa implementasi protokol Lightning. Sejumlah tim independen sedang mengembangkan versi mereka sendiri, yang semuanya dapat dioperasikan karena mengikuti spesifikasi yang sama ([BOLT](https://planb.academy/resources/glossary/bolt)). Berikut ini adalah implementasi utama yang digunakan saat ini.
 
 
 
@@ -399,7 +399,7 @@ Saat ini, Anda dapat memiliki pengalaman pengguna yang sangat mirip dengan penga
 
 
 
-Solusi pertama adalah dengan tidak menggunakan Lightning secara native, tetapi menggunakan Bitcoin atau Liquid wallet yang menyematkan pertukaran atom. Sebagai contoh, aplikasi Aqua atau Bull Bitcoin Wallet menggunakan metode ini, dengan memungkinkan Anda untuk membayar faktur Lightning tanpa mengoperasikan node Lightning sendiri, namun tetap berada di dalam tahanan sendiri.
+Solusi pertama adalah dengan tidak menggunakan Lightning secara native, tetapi menggunakan Bitcoin atau [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet yang menyematkan [pertukaran atom](https://planb.academy/resources/glossary/atomic-swap). Sebagai contoh, aplikasi Aqua atau Bull Bitcoin Wallet menggunakan metode ini, dengan memungkinkan Anda untuk membayar [faktur Lightning](https://planb.academy/resources/glossary/invoice-lightning) tanpa mengoperasikan node Lightning sendiri, namun tetap berada di dalam tahanan sendiri.
 
 
 
@@ -411,7 +411,7 @@ Prinsipnya sangat mudah: dana Anda tetap berada di Bitcoin, baik on-chain atau d
 
 
 
-Keuntungan utama dari pendekatan ini, dibandingkan dengan kustodian Lightning wallet konvensional, adalah Anda tetap memiliki 100% dana Anda setiap saat. Bitcoin berada di onchain atau Liquid wallet Anda, dengan frasa mnemonik Anda sendiri. Bahkan selama pertukaran, Anda tetap memiliki dana Anda, karena pertukarannya bersifat atomik. Sistem ini bergantung pada mekanisme kriptografi yang memastikan hanya ada dua kemungkinan hasil: swap berhasil sepenuhnya, atau gagal dan layanan tidak dapat mengambil dana Anda.
+Keuntungan utama dari pendekatan ini, dibandingkan dengan kustodian Lightning wallet konvensional, adalah Anda tetap memiliki 100% dana Anda setiap saat. Bitcoin berada di onchain atau Liquid wallet Anda, dengan [frasa mnemonik](https://planb.academy/resources/glossary/seed) Anda sendiri. Bahkan selama pertukaran, Anda tetap memiliki dana Anda, karena pertukarannya bersifat atomik. Sistem ini bergantung pada mekanisme kriptografi yang memastikan hanya ada dua kemungkinan hasil: swap berhasil sepenuhnya, atau gagal dan layanan tidak dapat mengambil dana Anda.
 
 
 
@@ -423,7 +423,7 @@ Solusi ini juga menawarkan keuntungan yang menarik dalam hal kerahasiaan, teruta
 
 
 
-Di sisi lain, pendekatan ini memiliki keterbatasan. Pertama, pendekatan ini tidak dapat diandalkan: Anda bergantung pada ketersediaan dan niat baik layanan swap. Jika layanan ini tidak lagi ingin memproses akun Anda, atau berhenti beroperasi, Anda tidak bisa lagi membayar faktur Lightning melalui layanan ini. Kemudian ada biaya yang tidak sedikit: Anda membayar biaya transaksi onchain atau Liquid, dan komisi layanan swap. Selain itu, jika biaya onchain meningkat tajam, maka akan menjadi sangat mahal untuk menggunakan Lightning.
+Di sisi lain, pendekatan ini memiliki keterbatasan. Pertama, pendekatan ini tidak dapat diandalkan: Anda bergantung pada ketersediaan dan niat baik layanan swap. Jika layanan ini tidak lagi ingin memproses akun Anda, atau berhenti beroperasi, Anda tidak bisa lagi membayar faktur Lightning melalui layanan ini. Kemudian ada biaya yang tidak sedikit: Anda membayar [biaya transaksi](https://planb.academy/resources/glossary/transaction-fees) onchain atau Liquid, dan komisi layanan swap. Selain itu, jika biaya onchain meningkat tajam, maka akan menjadi sangat mahal untuk menggunakan Lightning.
 
 
 
@@ -479,7 +479,7 @@ Solusi ketiga, yang akan kita bahas secara lebih mendalam dalam kursus LNP202 in
 
 
 
-Yang saya maksud dengan "klasik" adalah Anda menginstal dan mengonfigurasi implementasi Lightning (mis. LND) sendiri di atas node Bitcoin Anda sendiri. Anda memilih rekan-rekan Anda, membuka saluran Anda, mengelola likuiditas masuk dan keluar, dan mengatur kebijakan biaya perutean Anda.
+Yang saya maksud dengan "klasik" adalah Anda menginstal dan mengonfigurasi implementasi Lightning (mis. LND) sendiri di atas node Bitcoin Anda sendiri. Anda memilih rekan-rekan Anda, membuka saluran Anda, mengelola [likuiditas masuk](https://planb.academy/resources/glossary/inbound-capacity) dan keluar, dan mengatur kebijakan biaya perutean Anda.
 
 
 
@@ -616,7 +616,7 @@ Anda kemudian akan tiba di antarmuka utama Lightning node Anda. Di sebelah kiri,
 
 
 
-Di bagian tengah, Anda akan menemukan Lightning wallet Anda. Ini sebenarnya mewakili uang tunai keluar Anda, yaitu bitcoin yang Anda miliki di dalam saluran Lightning Anda.
+Di bagian tengah, Anda akan menemukan Lightning wallet Anda. Ini sebenarnya mewakili [uang tunai keluar](https://planb.academy/resources/glossary/outbound-capacity) Anda, yaitu bitcoin yang Anda miliki di dalam saluran Lightning Anda.
 
 
 

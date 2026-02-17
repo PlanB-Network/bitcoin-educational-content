@@ -16,9 +16,7 @@ professors_id:
 contributor_names:
   - LoicPandul
 
-published_at: 2026-01-19
-
-test_only: true
+published_at: 2026-02-17
 
 tags:
   - mining
@@ -35,6 +33,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
+      - Rogzy-DB
     reward: 7.68
   - language: en
     last_contribution_date:

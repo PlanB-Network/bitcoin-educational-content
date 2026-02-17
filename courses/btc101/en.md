@@ -872,7 +872,13 @@ Even in the case of a 51% attack, where an agent would possess more than half of
 
 The game theory applied to Bitcoin eliminates dishonest miners, who use ASIC machines to mine and receive a reward in case of success. Additionally, they often join mining pools to share their computing power and receive smaller but more regular rewards. While Bitcoin mining incurs high energy costs, it is crucial for the operation and security of the Bitcoin network. The proof-of-work mechanism and blockchain technology address the double-spending problem and ensure the integrity of information without relying on a trusted third party. Although producing information requires significant energy expenditure, verifying that information incurs a negligible cost. This asymmetry reinforces the network's security, making it more economically viable to adhere to consensus rules rather than attempt to break them.
 
-If you want to delve deeper into the specific topic of Bitcoin mining, you can consult our MIN 201 course. You will discover the workings and role of Proof-of-Work, as well as the mechanics of the mining industry. We also explain how to convert an ASIC into a heater, allowing you to mine your first satoshis while heating your home!
+
+
+If you wish to explore the specific topic of Bitcoin mining in greater depth, you may consult our MIN 101 course. You will find a detailed theoretical explanation of the principle of proof of work and how it operates, as well as all the concepts associated with it.
+
+https://planb.academy/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e
+
+I also recommend discovering this more advanced practical course, in which we explain how to turn an ASIC into a DIY home heating system, in order to make use of the heat produced by mining and earn your first satoshis!
 
 https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 

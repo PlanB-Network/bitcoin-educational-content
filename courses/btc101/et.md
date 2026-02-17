@@ -882,7 +882,13 @@ Isegi 51% rünnaku korral, kui üks agent valdab rohkem kui pool hashrate'i, jä
 
 Bitcoini suhtes rakendatud mänguteooria välistab ebaausad kaevurid, kes kasutavad kaevandamiseks ASIC-masinaid ja saavad edu korral tasu. Lisaks liituvad nad sageli kaevandamiskoondistega, et jagada oma arvutusvõimsust ja saada väiksemaid, kuid korrapärasemaid preemiaid. Kuigi Bitcoini kaevandamine põhjustab suuri energiakulusid, on see Bitcoini võrgu toimimise ja turvalisuse seisukohalt väga oluline. Töö tõestusmehhanism ja plokiahela tehnoloogia lahendavad topeltkulutamise probleemi ja tagavad teabe terviklikkuse, ilma et oleks vaja loota usaldusväärsele kolmandale osapoolele. Kuigi teabe tootmine nõuab märkimisväärseid energiakulutusi, on selle teabe kontrollimine tühine kulu. See asümmeetria tugevdab võrgu turvalisust, muutes konsensusreeglite järgimise majanduslikult tasuvamaks, selle asemel et püüda neid rikkuda.
 
-Kui soovite süveneda Bitcoini kaevandamise teemasse, võite tutvuda meie MIN 201 kursusega. Sa avastad Proof-of-Worki toimimise ja rolli, samuti kaevandamise mehaanika. Samuti selgitame, kuidas muuta ASIC kütjaks, mis võimaldab teil kaevandada oma esimesed satoshid, samal ajal kui te kütate oma kodu!
+
+
+Kui soovite süvendada teadmisi Bitcoini kaevandamise spetsiifilise teema kohta, võite tutvuda meie kursusega MIN 101. Sealt leiate üksikasjaliku teoreetilise selgituse töötõendi põhimõttest ja selle toimimisest ning kõik sellega seotud mõisted.
+
+https://planb.academy/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e
+
+Soovitan teil samuti tutvuda selle edasijõudnuma praktilise kursusega, kus selgitame, kuidas muuta ASIC DIY-koduseks küttesüsteemiks, et kasutada kaevandamisest tekkivat soojust ja teenida oma esimesed satoshid!
 
 https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 

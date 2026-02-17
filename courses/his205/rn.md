@@ -1428,7 +1428,7 @@ Hari hariho isomo muri Moyen-Âge yo gupima igiceri , bakora ibiceri vyagutse ka
 Ubuhinga bwa nyuma bwashitse mu mpera z’Ikinjana ca mbere, mu ntango z’ikinyejana ca none, bwari iciyumviro ca frappe au balancier. Yari ubwoko bw’ivyuma vy’ugukubita bikomeye kugira ngo bikubite ibiceri, gutyo bikaba bivamwo ibiceri bifise ubwo buryo bushasha gucura. Ico cari ciharije kuri iyo nzira ni ubushobozi bwo gutera igicapo ku ruhande rw’igiceri kugira ngo umuntu ashobore gutorera umuti ikibazo co gucapura. Gucapura vyari birimwo gukuraho igice c’ico giceri kugira ngo umuntu asubire kuronka ifeza y’agaciro, iyo feza ikaba yari gushobora gukoreshwa mu gukora ibindi biceri canke gusa bikaguma ari ikintu co gukoresha.
 
 
-Rero ico ciyumviro ca frappe au balancier carafashije mu bijanye n’ugucapura. Kandi biraryoshe kubona ko iyo tekinoloji mu vy’ukuri yavuye mu Bufaransa. Nk’akarorero, mu Bwongereza, barahaye akazi abahinga b’Abafaransa kugira ngo baze kubereka ingene bakora izo mashini. Igiteye umunezero, ni uko hari abashigikiye uguhingura inyundo bari babirwanya kandi bacereje gukoresha ubu buhinga. Mu buhinga bwiza ubwo ari bwo bwose, hama hariho abantu baburwanya, bashaka kuguma bafise ubuhinga bwa kera. Naciye nibwira ko ari ubusazi cane gutahura ko mbere n’ubuhinga busa n’ubusumba ubundi vy’ukuri - ushobora gukora ibice vyinshi, biragoye kwigana - hariho abantu bakiriho bafatanye n’uburyo buzwi cane bw’inyondo. Hariho uguhinduka hagati yo guhingura ibihimba vyakozwe n’ico gitero kizwi cane c’ipendule hanyuma bagasubira ku gutera inyundo. Kandi mu nyuma, birashoboka, ni pendulum striking yaje gufata maze ikaduha ibi bice vyiza vy’ubu aho ushobora gusanga canke uturongo dutoduto, uturongo dutoduto dukikuje kugira ngo wirinde gukata, kumbure bifitaniye isano n’ijambo gukata, uturongo, kandi urashobora kubona n’ubu canke uturongo canke inyandiko canke ibishushanyo vyanditswe ku bice biri muri e.
+Rero ico ciyumviro ca frappe au balancier carafashije mu bijanye n’ugucapura. Kandi biraryoshe kubona ko iyo tekinoloji mu vy’ukuri yavuye mu Bufaransa. Nk’akarorero, mu Bwongereza, barahaye akazi abahinga b’Abafaransa kugira ngo baze kubereka ingene bakora izo mashini. Igiteye umunezero, ni uko hari abashigikiye uguhingura inyundo bari babirwanya kandi bacereje gukoresha ubu buhinga. Mu buhinga bwiza ubwo ari bwo bwose, hama hariho abantu baburwanya, bashaka kuguma bafise ubuhinga bwa kera. Naciye nibwira ko ari ubusazi cane gutahura ko mbere n’ubuhinga busa n’ubusumba ubundi vy’ukuri - ushobora gukora ibice vyinshi, biragoye kwigana - hariho abantu bakiriho bafatanye n’uburyo buzwi cane bw’inyondo. Hariho uguhinduka hagati yo guhingura ibihimba vyakozwe n’ico gitero kizwi cane c’ipendule hanyuma bagasubira ku gutera inyundo. Kandi mu nyuma, birashoboka, ni pendulum striking yaje gufata maze ikaduha ibi bice vyiza vy’ubu aho ushobora gusanga canke uturongo dutoduto, uturongo dutoduto dukikuje kugira ngo wirinde gukata, kumbure bifitaniye isano n’ijambo gukata, uturongo, kandi urashobora kubona n’ubu canke uturongo canke inyandiko canke ibishushanyo vyanditswe ku bice biri kumpande zigiceri.
 
 
 
@@ -1577,7 +1577,7 @@ Rero, nk’uko twabibonye mbere mu gice kivuga kuri Misiri mbere na Mezopotamiya
 
 
 
-## Uguseruka kw'amahera biciye mu mafaranga y'imyenda .
+## Uguseruka kw'amahera biciye mu mafaranga y'ideni.
 
 
 <chapterId>4f508615-aa61-5d62-89d3-cecd02aeaa62</chapterId>
@@ -1586,7 +1586,7 @@ Rero, nk’uko twabibonye mbere mu gice kivuga kuri Misiri mbere na Mezopotamiya
 
 :::video id=a23f547f-3906-4f4a-8f72-5d78c649d0c4:::
 
-### Amahera nka IOU
+### Amahera nk'icemezo c'ideni
 
 
 
@@ -1594,7 +1594,7 @@ Muri iki gice, turavuga ku ciyumviro c’amahera y’imyenda.
 
 
 
-Iciyumviro c’uko **amahera y’imyenda**, categuwe cane cane n’umuhinga mu vy’ubutunzi Alfred Mitchell-Innes, hanyuma kigashirwa mu ngiro na David Graeber, kivuga ko amahera atavuye mu guhinduranya, ahubwo ko yakomotse ku migenderanire y’imyenda n’inguzanyo yariho kuva mu mibano ya kera y’abantu. Dushingiye kuri iyo nyigisho, amahera aboneka iyo inshingano zo mu kibano (imyenda hagati y’abantu canke imigwi) zicitse zigereranywa kandi zikaba zishobora kwimurirwa. Ico ciyumviro kizana iciyumviro c’ugupima igitigiri c’ibintu bihindurwa n’ivyo kwimurirwa. Gutyo, amahera yoba ari hejuru ya vyose **ukwemera umwenda**, ashigikiwe n’ukwizigirana kandi akenshi ashigikiwe n’ubukuru bwa politike canke bw’idini, aho kuba igicuruzwa gikora gusa nk’umuhuza mu guhinduranya.
+Iciyumviro c’uko **amahera y’amadeni**, categuwe cane cane n’umuhinga mu vy’ubutunzi Alfred Mitchell-Innes, hanyuma kigashirwa mu ngiro na David Graeber, kivuga ko amahera atavuye mu guhinduranya(le troc), ahubwo ko yakomotse ku migenderanire y’amadeni n’inguzanyo yariho kuva mu mibano ya kera y’abantu. Dushingiye kuri iyo nyigisho, amahera aboneka iyo inshingano zo mu kibano (imyenda hagati y’abantu canke imigwi) zishobora guharurwa canke kurungikwa. Ico ciyumviro kizana iciyumviro c’ugupima igitigiri c’ibintu bihindurwa n’ivyo kwimurirwa. Gutyo, amahera yoba ari hejuru ya vyose **iyemezwa ry'ideni**, ashigikiwe n’ukwizigirana kandi akenshi ashigikiwe n’ubukuru bwa politike canke bw’idini, aho kuba igicuruzwa gikora gusa nk’umuhuza mu guhinduranya.
 
 
 
@@ -1602,7 +1602,7 @@ Uburyo bumwe mbere buteye imbere kuruta bw’ico ciyumviro ni uko amahera yose a
 
 
 
-### Gunegura uburyo bw'inguvu
+### kunegura uburyo bw'agahato
 
 
 
@@ -1610,19 +1610,19 @@ Uburyo bumwe mbere buteye imbere kuruta bw’ico ciyumviro ni uko amahera yose a
 
 
 
-Reka nkore ikintu kimwe gitoyi co kunegura iyo nyigisho. Ndemera ko amahera ari ubwoko bw’uguhuriza ku bantu. Ni icizigiro umugwi ushira mu "kimenyetso" c'amahera, uko coba ari kwose. Rero ndashigikiye iciyumviro co kwizigirana, ico tuzosubira kugifata mu nyuma n’iciyumviro c’amahera y’imbere. Aho bigorana ni igihe abashigikiye iyo nyigisho bongerako iciyumviro c’inshingano bagashimika ku ciyumviro c’imyenda. Kuri bo, iyo umuntu afise token y’amahera, aba afise ikirego ku kibano cose, kandi rero ikibano coba gifise umwenda ku muntu afise. Hazoba kandi itegeko ryo gutorera umuti, abagize umugwi bakabwirizwa kwemera token; ahandi ho, mu kubona kwabo, iyo nzira ntiyokora. Ngira ngo uburyo bwavuzwe haruguru mu Bushinwa bwa kera buraserukira neza iyo nyigisho.
+Reka nkore ikintu kimwe gitoyi co kunegura iyo nyigisho. Ndemera ko amahera ari uburyo bw’uguhurizako kwabantu. Ni icizigiro umugwi ushira mu "kimenyetso" c'amahera, uko coba arico cose. Rero ndashigikiye iciyumviro co kwizigirana, ico tuzosubira kugifata mu nyuma n’iciyumviro c’amahera y’imbere. Aho bigorana ni igihe abashigikiye iyo nyigisho bongerako iciyumviro c’inshingano bagashimika ku ciyumviro c’amadeni. Kuri bo, iyo umuntu afise ikimenetso c’amahera, mu kibano cose baba bamufitiye ideni, kandi rero ikibano coba gifise ideni ku muntu afise. Hazoba kandi itegeko ryo gutorera umuti, abagize umugwi bakabwirizwa kwemera ikimenyetso camahera; ahandi ho, mu kubona kwabo, iyo nzira ntiyokora. Ngira ngo uburyo bwavuzwe haruguru mu Bushinwa bwa kera buraserukira neza iyo nyigisho.
 
 
 
-Ku ruhande rwanje, ndashobora kwiyumvira bitagoranye uburyo aho amahera ari ukwiyumvira kw’abantu aho token yatowe yemerwa muri rusangi nk’uburyo bwo kwishura, ata n’itegeko ry’itegeko. Nshobora kubona urutonde nk’urwo rukora iyo abantu bavyemeye ku bushake bwabo. Bishobora gukora. Ku rundi ruhande, akenshi bizanana n’inshingano, amafaranga yemewe n’amategeko, n’ubukazi, ivyo tuzobibona mu nyuma mu kigabane. Ariko mu vy’impwemu, nta ciyumviro mfise c’uko iyo nzira ishobora gukora neza. Ngira ngo Bitcoin ni akarorero. Bitcoin irafise agaciro kuko ifise amahera y'imbere, kuko hariho ugusaba ko ikoreshwa mu mafaranga, ni ukuvuga, ibisigazwa vy'agaciro, kumbure n'uburyo bwo guhindura canke gukingira uburyo bwa fiat. Nta n’umwe ategerezwa kuvyemera, kandi uko vyemerwa nk’uburyo bwo kwishura, ni ko bishobora gukoreshwa nk’uburyo bwo guhindura. Turashobora gusa kuyikoresha nk’ububiko bw’agaciro ata ngorane. Nta nkeka kuri ivyo. Ico nshaka kuvuga ni uko Bitcoin isa n’akarorero kuri jewe, ubwoko bw’amahera ari uburyo bwo kwumvikana mu kibano aho twiyumvira ko tuzoshobora kugarura amahera yacu nitwagura amwe mu nyuma, tukayaronka kugira ngo dushobore kuyahindura mu nyuma, kugira ngo tuzigame ubushobozi bwacu bwo kugura.
+Ku ruhande rwanje, ndashobora kwiyumvira bitagoranye uburyo aho amahera ari ukwiyumvira kw’abantu aho jeton yatowe yemerwa muri rusangi nk’uburyo bwo kwishura, ata n’itegeko nyezina. Nshobora kubona urutonde nk’urwo rukora iyo abantu bavyemeye ku bushake bwabo. Bishobora gukora. Ku rundi ruhande, akenshi bizanana n’inshingano, amafaranga yemewe n’amategeko, n’ubukazi, ivyo tuzobibona mu nyuma mu kigabane. Ariko mu vy’impwemu, nta ciyumviro mfise c’uko iyo nzira ishobora gukora neza. Ngira ngo Bitcoin ni akarorero. Bitcoin irafise agaciro kuko ifise amahera y'imbere, kuko hariho ugusaba ko ikoreshwa mu mafaranga, ni ukuvuga, ibisigazwa vy'agaciro, kumbure n'uburyo bwo guhindura canke gukingira uburyo bwa fiat. Nta n’umwe ategerezwa kuvyemera, kandi uko vyemerwa nk’uburyo bwo kwishura, ni ko bishobora gukoreshwa nk’uburyo bwo guhindura. Turashobora gusa kuyikoresha nk’ububiko bw’agaciro ata ngorane. Nta nkeka kuri ivyo. Ico nshaka kuvuga ni uko Bitcoin isa n’akarorero kuri jewe, ubwoko bw’amahera ari uburyo bwo kwumvikana mu kibano aho twiyumvira ko tuzoshobora kugarura amahera yacu nitwagura amwe mu nyuma, tukayaronka kugira ngo dushobore kuyahindura mu nyuma, kugira ngo tuzigame ubushobozi bwacu bwo kugura.
 
 
 
-Ukwo kubona ivyigwa bitagira aho bigarukira birafasha gusigura ingene imiryango ibiri itandukanye ishobora gucuruza n’amahera token nk’inzahabu, ataco irema canke umwenda hagati y’iyo miryango. Guhatira kwemerwa mu kibano, ndabona ko bidakora mu bucuruzi hagati y’imiryango ibiri, kuko uwundi muryango ntuyoborwa n’ubukuru. Umuryango B ntugenzurwa n’umuryango A. Ariko naho biri ukwo, yemera iyo token y’amahera nyene reka tuvuge, inzahabu. None, abantu boshobora kumbwira ngo "Ego, ariko ivyo ni kubera ko sosiyete B nayo yafashe ingingo y'uko inzahabu ariyo mafaranga yabo", rero birakora. Ego cane, birakora, ariko nta kurema umwenda kuri iyo nkuru. Ni ugucuruza kwa nyuma. Rero, iyo sosiyete A ihinduye ikintu n’inzahabu muri sosiyete B, nta kuremwa kw’imyenda kubaho, iyo nzira y’ugucuruza iraheza. Kandi biragaragara ko uwo muntu ari mw’ishirahamwe B ataronse ico gice c’inzahabu canke ico gice c’inzahabu kugira ngo mu nyuma kizohembwa n’abantu bo muri ishirahamwe A. Aremera ko bamuhindura inzahabu. Aremera ko azoyihindura mu nyuma, kumbure mu muryango wiwe bwite. Rero, muri aka karorero, nta kurema umwenda, nta n’ikirego gihishijwe, ni uguhinduranya gusa, ukwishura ataco bimaze. Abashigikiye amafaranga y’imyenda bazotubwira ko ivyo ari uguhinduranya. Kandi jewe ntavyemera, kuko uguhindura ni uguhindura ikintu ciza kitaziguye. Guhindura ibintu ataco bimaze ni uguhindura ikintu kimwe n’ikindi, kugira ngo gikoreshwe. Ibintu birahindurwa kugira ngo bikoreshwe, mu gihe muri twebwe, inzahabu ikoreshwa neza nk’amahera kuko nta kindi izokoreshwa mu gukora; nivyo bizokoreshwa mu nyuma nk’uburyo bwo kwishura. Rero, mu vyiyumviro vyanje, ntibishika mu rwego rw’uguhinduranya.
+Ukwo kubona ivyigwa bitagira aho bigarukira birafasha gusigura ingene imiryango ibiri itandukanye ishobora gucuruza  jeton y'amahera nk’inzahabu, ataco irema canke ideni hagati y’iyo miryango. Guhatira kwemerwa mu kibano, ndabona ko bidakora mu bucuruzi hagati y’imiryango ibiri, kuko uwundi muryango ntuyoborwa n’ubukuru. Umuryango B ntugenzurwa n’umuryango A. Ariko naho biri ukwo, yemera iyo  jeton y’amahera nyene reka tuvuge, inzahabu. None, abantu boshobora kumbwira ngo "Ego, ariko ivyo ni kubera ko sosiyete B nayo yafashe ingingo y'uko inzahabu ariyo mafaranga yabo", rero birakora. Ego cane, birakora, ariko nta kurema ideni kuri iyo nkuru. Ni ugucuruza kwa nyuma. Rero, iyo sosiyete A ihinduye ikintu n’inzahabu muri sosiyete B, nta kuremwa kw’ideni kubaho, iyo nzira y’ugucuruza iraheza. Kandi biragaragara ko uwo muntu ari mw’ishirahamwe B ataronse ico gice c’inzahabu canke ico gice c’inzahabu kugira ngo mu nyuma kizohembwa n’abantu bo muri ishirahamwe A. Aremera ko bamuhindura inzahabu. Aremera ko azoyihindura mu nyuma, kumbure mu muryango wiwe bwite. Rero, muri aka karorero, nta kurema ideni, nta n’ikirego gihishijwe, ni uguhinduranya gusa, ukwishura ataco bimaze. Abashigikiye amafaranga y’amadeni bazotubwira ko ivyo ari uguhinduranya(le troc). Kandi jewe ntavyemera, kuko uguhindura ni uguhindura ikintu direct. Guhinduranya ibintu direct ni uguhindura ikintu kimwe n’ikindi, kugira ngo gikoreshwe. Ibintu birahindurwa kugira ngo bikoreshwe, mu gihe muri twebwe, inzahabu ikoreshwa neza nk’amahera kuko nta kindi izokoreshwa mu gukora; nivyo bizokoreshwa mu nyuma nk’uburyo bwo kwishura. Rero, mu vyiyumviro vyanje, ntibishika mu rwego rw’uguhinduranya.
 
 
 
-Kugira token y'amahera si "ugusaba" ku kibano, ahubwo ni icizigiro c'uko token izokwemerwa mu nyuma ku gaciro kagereranywa.
+Kugira  jeton y'amahera si "ugusaba" ku kibano, ahubwo ni icizigiro c'uko  jeton izokwemerwa mu nyuma ku gaciro kagereranywa.
 
 
 
@@ -1634,7 +1634,7 @@ Kugira token y'amahera si "ugusaba" ku kibano, ahubwo ni icizigiro c'uko token i
 
 :::video id=e543995f-d5e2-49d7-9133-e397b46e0833:::
 
-Ku mashure y’ubutunzi yo muri Otirishiya, yatangujwe na Carl Menger, amahera ava mu buryo busanzwe mu bukungu bw’uguhinduranya ibintu buhanganye n’ingorane y’uguhuza kabiri kw’ivyo umuntu ashaka. Muri iyo mbonerakure, abantu bihuza ubwabo ku bicuruzwa vyo hagati bishobora kworohereza uguhinduranya - atari ibicuruzwa bikoreshwa ataco bimaze, ariko ibicuruzwa vyemewe kubera ubushobozi bwavyo bwo gusaba cane.
+Ku mashure y’ubutunzi yo muri autriche yatangujwe na Carl Menger, amahera ava mu buryo busanzwe mu bukungu bw’uguhinduranya ibintu buhanganye n’ingorane yuguhinduranye ibintu aruko mwese mwipfuza ico uwundi afise. Muri iyo mbonerakure, abantu bihuza ubwabo ku bicuruzwa vyo hagati bishobora kworohereza uguhinduranya - atari ibicuruzwa bikoreshwa ataco bimaze, ariko ibicuruzwa vyemewe kubera ubushobozi bwavyo bwo gusaba cane.
 
 
 
@@ -1642,19 +1642,19 @@ Ivyo bintu vy’amahera bitegerezwa kuba bifise kamere zamenyekanye kuva kuri Ar
 
 
 
-### Impaka z'"inkuru z'imigani"
+### Impaka z'"mythe du troc"
 
 
 
-Abahinga mu vy'imico kama nka David Graeber barahakana ivyo vyiyumviro, bavuga ko ari "inkuru z'imigani y'uguhinduranya". Iciyumviro cabo: nta n’iterambere rikomeye rishingiye gusa ku guhinduranya ibintu ataco rihinduye ryigeze ryandikwa. Ahubwo, imiryango ya kera yigishijwe yakoresha uburyo bwo gutanga inguzanyo zidasanzwe no gusubizanya. Graeber yemeza yuko umwenda wabanjirije uguhinduranya, akavuga ibipande ibihumbi n’ibihumbi vyo muri Mezopotamiya vyerekana imigenderanire y’inguzanyo.
+Abahinga mu vy'imico kama nka David Graeber barahakana ivyo vyiyumviro, bavuga ko ari "inkuru z'imigani y'uguhinduranya(mythe du troc)". Iciyumviro cabo: nta n’iterambere rikomeye rishingiye gusa ku guhinduranya ibintu ataco rihinduye ryigeze ryandikwa. Ahubwo, imiryango ya kera yigishijwe yakoresha uburyo bwo gutanga inguzanyo zidasanzwe no gusubizanya. Graeber yemeza yuko ideni wabanjirije uguhinduranya, akavuga ibipande ibihumbi n’ibihumbi vyo muri Mezopotamiya vyerekana imigenderanire y’inguzanyo.
 
 
 
-Ariko rero, ivyo binegura bishingiye ku nsobanuro y’uguhinduranya ibintu. Nk’uko Menger yabivuze mu 1892, uguhinduranya ibintu birenze uguhinduranya ibintu ataco bimaze. Birimwo kandi n'uguhindura amafaranga, ibikorwa vy'imishahara, n'uguhinduranya amafaranga y'igihe gito - ivyo Menger yise "uguhindura amafaranga hagati y'abantu". Ubwo buryo bwagutse bwo guhinduranya burashobora kubana n’uburyo bwo gutanga inguzanyo mu migwi y’ukwizigira.
+Ariko rero, ivyo binegura bishingiye ku nsobanuro y’uguhinduranya ibintu. Nk’uko Menger yabivuze mu 1892, uguhinduranya ibintu birenze uguhinduranya direct ikintu ku kindi. Birimwo kandi n'uguhindura amafaranga, ibikorwa vy'imishahara, n'uguhinduranya amafaranga y'igihe gito - ivyo Menger yise "uguhindura amafaranga hagati y'abantu". Ubwo buryo bwagutse bwo guhinduranya burashobora kubana n’uburyo bwo gutanga inguzanyo mu migwi y’ukwizigira.
 
 
 
-Kubura ikimenyamenya si ikimenyamenya c’ukubura, kandi abahinga mu vy’ubutunzi bo muri Otirishiya baremera ko ata kibano gikomeye gishobora gutera imbere mu buryo buramba gishingiye ku guhinduranya ataco bimaze gusa - ni co gituma bikenewe ko amahera aza.
+Kubura ikimenyetso si ukuvuga ko atabimenyetso, kandi abahinga mu vy’ubutunzi bo muri autriche baremera ko ata kibano gikomeye gishobora gutera imbere mu buryo buramba gishingiye ku guhinduranya direct- ni co gituma hariho iseruka ryamahera.
 
 
 
@@ -1662,15 +1662,15 @@ Kubura ikimenyamenya si ikimenyamenya c’ukubura, kandi abahinga mu vy’ubutun
 
 
 
-Ivyo biganiro biriko biratera imbere ku bijanye n’inkomoko y’ishekeli y’ifeza yo muri Mezopotamiya. Hariho insobanuro zibiri zitandukanye. Iciyumviro c’inzego kivuga ko insengero - ibibanza vy’ukuri vy’ubutunzi n’ivy’impwemu - vyashizeho ifeza nk’amahera yo gutunganya ubutunzi. Ivyo bipande vy’inyuguti z’inyuguti, vyari vyibanze cane ku bakuru b’idini no ku bacuruzi b’abanyacubahiro, birashingira intahe ukwo kugenzura kwari gushizwe ahantu hamwe.
+Ivyo biganiro biriko biratera imbere ku bijanye n’inkomoko rya shekel y’ifeza yo muri Mezopotamiya. Hariho insobanuro zibiri zitandukanye. Iciyumviro c’inzego kivuga ko insengero - ibibanza vy’ukuri vy’ubutunzi n’ivy’impwemu - vyashizeho ifeza nk’amahera yo gutunganya ubutunzi. Ivyo bigura vyinyandiko cunéiformes, vyari vyibanze cane ku bakuru b’idini no ku bacuruzi b’abanyacubahiro, birashingira intahe ukwo kugenzura kwari gushizwe ahantu hamwe.
 
 
 
-Insobanuro y’Abanyaotirishiya ivuga ibihushanye n’ivyo: abacuruzi ni bo bafata amahera yo gucuruza kure. Kubera ko bari bahanganye n’ingorane yo gucuruza n’abanyamahanga bari hirya y’imipaka ya Mezopotamiya - kuva muri Anatoliya gushika mu Kiyaga c’Ubuperesi - bari bakeneye ikintu cemewe kw’isi yose, kizomara igihe kirekire kandi gishobora gutwarwa. Ifeza yari ihitamwo ry’akameremere kubera kamere zayo z’imbere. Insengero zaremeje gusa umugenzo wari waramaze gushingwa n’ugukoreshwa mu vy’ubudandaji.
+Insobanuro y’Abanya autriche ivuga ibihushanye n’ivyo: abacuruzi ni bo bafata amahera yo gucuruza mubudandaji bwakure. Kubera ko bari bahanganye n’ingorane yo gucuruza n’abanyamahanga bari hirya y’imipaka ya Mezopotamiya - kuva muri Anatolie muri golfe Persique - bari bakeneye ikintu cemewe kw’isi yose, kizomara igihe kirekire kandi gishobora gutwarwa. Ifeza yari ihitamwo ry’akameremere kubera kamere zayo z’imbere. Insengero zaremeje gusa umugenzo wari waramaze gushingwa n’ugukoreshwa mu vy’ubudandaji.
 
 
 
-Iyi nyigisho ishingiye ku nyandiko z’uguhanahana amakuru hagati ya Kanesh muri Anatoliya na Assur, aho abacuruzi bahinduranya impuzu n’ivyuma vy’ifeza - atari kubera akamaro kavyo k’ibintu, ahubwo nk’ububiko bw’agaciro. Ivyo bicuruzwa vyarenze uguhinduranya gusa, bihishura ukubaho kw’amahera y’ibicuruzwa vy’ukuri.
+Iyi nyigisho ishingiye ku nyandiko z’uguhanahana amakuru hagati ya Kanesh muri Anatolie na Assur, aho abacuruzi bahinduranya impuzu n’ivyuma vy’ifeza - atari kubera akamaro kavyo k’ibintu, ahubwo nk’ububiko bw’agaciro. Ivyo bicuruzwa vyarenze uguhinduranya gusa, bihishura ukubaho kw’amahera y’ibicuruzwa vy’ukuri.
 
 
 
@@ -1694,7 +1694,7 @@ Mu vy’ukuri, amahera agereranya uguhuza ivyo umuntu akunda kugira ngo aronke i
 
 
 
-Impaka hagati y’uguseruka kw’ibintu n’inzego z’ubumenyi ziguma zifunguye, kuko ibimenyamenya vy’akahise ari ibice bikeyi. Ariko isesengura ry’Abanyaotirishiya ritanga insobanuro ihuye: amahera yavutse bivuye ku bikenewe vy’ubudandaji, abategetsi bagashira gusa mu nzego imigenzo yari yaramaze gushingwa n’ikoreshwa ry’isoko.
+Impaka hagati y’uguseruka kw’ibintu n’inzego z’ubumenyi ziguma zifunguye, kuko ibimenyamenya vy’akahise ari ibice bikeyi. Ariko isesengura ry’Abanya autriche ritanga insobanuro ihuye: amahera yavutse bivuye ku bikenewe vy’ubudandaji, abategetsi bagashira gusa mu nzego imigenzo yari yaramaze gushingwa n’ikoreshwa ry’isoko.
 
 
 
@@ -1722,7 +1722,7 @@ Mu mibano ya kera, amafranga ntiyakoreshwa cane mu guhinduranya ibintu, bitanduk
 
 
 
-Ivyo ni vyo bicapura iyerekwa ryabo. Ivyo turabiganirako na Ulrich mu kiganiro cacu co muri videwo iheruka. Nzoreka mwinovore ivyo Ulrich yavuze ku bijanye n’ico kibazo, bikaba bitera urujijo gatoyi iyo nzira. Kandi rero, mu vyo yerekwa mu vy’ubuhinga bw’abantu, kenshi turagira ico ciyumviro c’uko amahera ava ku butegetsi canke iciyumviro c’imibano kibanziriza ivyo isoko rikeneye.
+Ivyo ni vyo bicapura iyerekwa ryabo. Ivyo turabiganirako na Ulrich mu kiganiro cacu co mwi reresi iheruka. Nzoreka mwinovore ivyo Ulrich yavuze ku bijanye n’ico kibazo, bikaba bitera urujijo gatoyi iyo nzira. Kandi rero, mu vyo yerekwa mu vy’ubuhinga bw’abantu, kenshi turagira ico ciyumviro c’uko amahera ava ku butegetsi canke iciyumviro c’imibano kibanziriza ivyo isoko rikeneye.
 
 
 
@@ -1730,7 +1730,7 @@ Ivyo ni vyo bicapura iyerekwa ryabo. Ivyo turabiganirako na Ulrich mu kiganiro c
 
 
 
-Aha musi, urashobora gushima akarorero gatangaje k’amabuye y’agaciro yo mw’izinga rya Yap. Amwe muri ayo mabuye, naho ataco akora canke mbere akabura ku mubiri, yarabandanije gukora neza nk’amahera biciye ku masezerano rusangi, ivyo bikaba bishimika ku rugero nyamukuru rw’amahera rwerekeye imibano n’ikigereranyo.
+Aha musi, urashobora gushima akarorero gatangaje k’amabuye y’agaciro yo mw’izinga rya Yap. Amwe muri ayo mabuye, naho ataco akora canke mbere akabura ku mubiri, yarabandanije gukora neza nk’amafaranga biciye ku masezerano rusangi, ivyo bikaba bishimika ku rugero nyamukuru rw’amafaranga rwerekeye imibano n’ikigereranyo camafaranga.
 
 
 

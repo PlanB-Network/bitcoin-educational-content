@@ -1,5 +1,5 @@
 ---
-name: Contabilizzare bitcoin come un negozio
+name: Contabilizzare i pagamenti in bitcoin come attività commerciale
 
 description: Impariamo a contabilizzare pagamenti in bitcoin in modo semplice e veloce all'interno di una piccola impresa
 ---

@@ -1527,7 +1527,7 @@ Mu gusozera, mbona ko twovuga ko ibiceri biva ku bubasha ata kabuza, kuko vyashi
 
 
 
-## Inkuru z'imigani zo guhinduranya
+## Inkuru z'imigani zo guhinduranya(le troc)
 
 
 <chapterId>0fcd4964-ac36-5163-a8cf-1aacebc0d2c0</chapterId>
@@ -1535,23 +1535,23 @@ Mu gusozera, mbona ko twovuga ko ibiceri biva ku bubasha ata kabuza, kuko vyashi
 
 :::video id=0ede29ab-8acd-4d79-9282-bd5991b97076:::
 
-### Isubiramwo rya Dawidi Graeber
+### Isubiramwo rya David Graeber
 
 
 
-Twarahejeje gupfuka ivy’uguseruka kw’amahera nk’uko abahinga mu vy’ubutunzi ba kera babivuga. None tugiye gutorera umuti iciyumviro kizwi kw’izina ry’imigani y’uguhinduranya.
+Twarahejeje gupfuka ivy’uguseruka kw’amahera nk’uko abahinga mu vy’ubutunzi ba kera babivuga. None tugiye gutorera umuti iciyumviro kizwi kw’izina ry’imigani y’uguhinduranya(troc).
 
 
 
-Ikintu kimwe co kunegura iyo nyigisho ya kera y’uko amahera yaserutse ni ukubura ibimenyamenya vy’akahise bishigikira ivyiyumviro vyayo.
+Ikintu kimwe co kunegura iyo nyigisho ya kera y’uko amahera yaserutse ni ukubura ibimenyetso vy’akahise bishigikira ivyiyumviro vyayo.
 
 
 
-Ivyo bimenyetso vy'ugunegura bizwi kw'izina rya "barter myth", vyateguwe n'umuhinga mu vy'imico kama David Graeber, n'abandi, birarwanya iciyumviro ca kera c'uko amahera yavuye mu guhinduranya. Dushingiye kuri iyo nkuru y’ugunegura, nta kimenyamenya c’amateka canke c’ubuhinga bw’abantu kigaragaza ko imiryango yakoresha mu buryo butunganye ubuhinga bwo guhindura ibintu imbere y’uko amahera aza. Nkako, amashirahamwe ya kera yari gukora ashingiye ku ngurane, ku myenda, ku nshingano z’imibano no ku guhinduranya imigirwa. "Imigani y'uguhinduranya" rero ni inyubakwa y'ivyiyumviro yagenewe gushingira intahe iyerekwa ry'ubutunzi rya kera, ata shingiro nyaryo ry'ivyashikiye abantu.
+Ivyo bimenyetso vy'ugunegura bizwi kw'izina rya "barter myth", vyateguwe n'umuhinga mu vy'imico kama David Graeber, n'abandi, birarwanya iciyumviro ca kera c'uko amahera yavuye mu guhinduranya. Dushingiye kuri iyo nkuru y’ugunegura, nta kimenyetso c’amateka canke c’ubuhinga bw’abantu kigaragaza ko imiryango yakoresha mu buryo butunganye ubuhinga bwo guhindura ibintu imbere y’uko amahera aza. Nkako, amashirahamwe ya kera yari gukora ashingiye ku ngurane, ku madeni, ku nshingano z’imibano no ku guhinduranya imigirwa. "Imigani y'uguhinduranya" rero ni inyubakwa y'ivyiyumviro yagenewe gushingira intahe iyerekwa ry'ubutunzi rya kera, ata shingiro nyaryo ry'ivyashikiye abantu.
 
 
 
-Ariko rero, birakenewe kumenya ko iyo nyigisho idahakana ko hariho uguhinduranya, nk’akarorero, ku bijanye n’uguhinduranya hagati y’imiryango itandukanye. Rihakana gusa ko uguhinduranya ibintu vyari igikorwa gikorwa cane muri iyo migwi yitwa ko ari iya kera, kandi ko amahera yoba ari ugutera imbere kw’ivyo bikorwa mu buryo bubereye. Irahakana ko uguhinduranya ibintu vyakoreshwa cane mu muryango, kandi ko amahera amaherezo yava kugira ngo ahindure ibintu bibe vyiza no gutorera umuti ingorane zariho mu bijanye n’uguhinduranya ibintu. Ahubwo, hakurikijwe iyo nyigisho, iyo migwi yakoresha uburyo bwo gutanga inguzanyo canke ingabirano ku yindi.
+Ariko rero, birakenewe kumenya ko iyo nyigisho idahakana ko hariho uguhinduranya, nk’akarorero, ku bijanye n’uguhinduranya hagati y’imiryango itandukanye. Rihakana gusa ko uguhinduranya ibintu vyari igikorwa gikorwa cane muri iyo migwi yitwa ko ari iya kera, kandi ko amahera yoba ari ugutera imbere kw’ivyo bikorwa mu buryo bubereye. Irahakana ko uguhinduranya ibintu vyakoreshwa cane mu muryango, kandi ko amahera amaherezo yava kugira ngo ahindure ibintu bibe vyiza no gutorera umuti ingorane zariho mu bijanye n’uguhinduranya ibintu. Ahubwo, hakurikijwe iyo nyigisho, iyo migwi yakoresha uburyo bwo gutanga inguzanyo canke ingabire ku yindi.
 
 
 

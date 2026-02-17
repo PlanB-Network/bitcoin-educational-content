@@ -809,7 +809,7 @@ Die systematische Untersuchung wirtschaftlicher Gesetze beginnt im Hochmittelalt
 
 ![image](assets/de/049.webp)
 
-Im Zentrum seiner monetären Analyse liegt das Problem der "Mutationen" des Geldes, das heißt, Veränderungen im Metallgehalt von Münzen und ihrer Nennung. Diese Veränderungen haben seit Anbeginn der Zeit stattgefunden und sind für die Antike und das Mittelalter gut dokumentiert. Ihre sichtbarste Auswirkung ist die Veränderung der Kaufkraft der Geldeinheit, insbesondere deren Verringerung. Dies ist eine primitive Form der Inflation, die Oresme eindeutig als Übel verurteilt.
+Im Zentrum seiner monetären Analyse liegt das Problem der "Mutationen" des Geldes, das heißt, Veränderungen im Metallgehalt von Münzen und ihrer Nennung. Diese Veränderungen haben seit Anbeginn der Zeit stattgefunden und sind für die Antike und das Mittelalter gut dokumentiert. Ihre sichtbarste Auswirkung ist die Veränderung der Kaufkraft der Geldeinheit, insbesondere deren Verringerung. Dies ist eine primitive Form der [Inflation](https://planb.academy/resources/glossary/inflation), die Oresme eindeutig als Übel verurteilt.
 
 Oresme stellt sofort eine zentrale Frage: Ist Inflation für die Gemeinschaft vorteilhaft? Er antwortet verneinend und argumentiert, dass Inflation das Geld nicht nützlicher oder weniger nützlich für den Austausch macht. Die Wirtschaft kann unabhängig vom Preisniveau gut funktionieren, und somit unabhängig von der nominellen Geldmenge.
 Aber wenn das der Fall ist, ergibt sich offensichtlich eine weitere Frage: Warum existieren Währungsveränderungen? Und insbesondere, warum strebt man danach, die Geldmenge zu erhöhen? Oresme antwortet, dass diese Veränderungen nicht die gleichen Konsequenzen für verschiedene Mitglieder der Gemeinschaft haben. Sie begünstigen bestimmte Personen auf Kosten anderer. Die Gewinner von Währungsveränderungen haben ein materielles Interesse an deren Durchführung. Allgemein sind diese Gewinner die Machthaber. Oresme schreibt:
@@ -975,7 +975,7 @@ Es ist nicht nötig zu beweisen, dass jeder Einzelne der alleinige Richter über
 
 Hier antizipiert Turgot weitgehend das Argument von Mises und Hayek über die Unmöglichkeit jeglicher wirtschaftlicher Berechnung in einem sozialistischen Wirtschaftssystem.
 
-Indem er ein Kapitel "Der Glanz Turgots" widmet, betont Murray Rothbard in seiner Wirtschaftsgeschichte aus österreichischer Perspektive, dass "Turgots Einfluss auf das nachfolgende ökonomische Denken ernsthaft eingeschränkt wurde (...) durch den folgenden Mythos, dass Adam Smith der Begründer der politischen Ökonomie war." Und er fügt hinzu: "Es war der Franzose J.B. Say, offiziell ein Anhänger von Smith, auf den Turgot letztendlich den größten Einfluss hatte, insbesondere seine Theorie des Nutzwertes."
+Indem er ein Kapitel "Der Glanz Turgots" widmet, betont Murray Rothbard in seiner Wirtschaftsgeschichte aus [österreichischer](https://planb.academy/resources/glossary/austrian-school) Perspektive, dass "Turgots Einfluss auf das nachfolgende ökonomische Denken ernsthaft eingeschränkt wurde (...) durch den folgenden Mythos, dass Adam Smith der Begründer der politischen Ökonomie war." Und er fügt hinzu: "Es war der Franzose J.B. Say, offiziell ein Anhänger von Smith, auf den Turgot letztendlich den größten Einfluss hatte, insbesondere seine Theorie des Nutzwertes."
 
 ### Das Meisterwerk von Condillac
 
@@ -1520,7 +1520,7 @@ Er schreibt:
 Für Hayek resultiert die vergangene Instabilität der Marktwirtschaft aus der Tatsache, dass der wichtigste Regulator der Marktmechanismen, nämlich das Geld, selbst nicht das Produkt eines Marktprozesses sein konnte.
 
 ![image](assets/de/101.webp)
-Hayek glaubte, dass ein freier Markt privater Währungen zu größerer monetärer Stabilität führen würde. Fast 50 Jahre später verkörpert eine Kryptowährung wie Bitcoin Hayeks Wettbewerbsvision, indem sie eine dezentralisierte Alternative zum monopolistischen System der Zentralbanken bietet. Bitcoin, mit seinem Emissionslimit von 21 Millionen Einheiten, ist eine Garantie gegen Inflation und die Willkür von Regulierungsbehörden.
+Hayek glaubte, dass ein freier Markt privater Währungen zu größerer monetärer Stabilität führen würde. Fast 50 Jahre später verkörpert eine [Kryptowährung](https://planb.academy/resources/glossary/cryptocurrency) wie Bitcoin Hayeks Wettbewerbsvision, indem sie eine dezentralisierte Alternative zum monopolistischen System der Zentralbanken bietet. Bitcoin, mit seinem Emissionslimit von 21 Millionen Einheiten, ist eine Garantie gegen Inflation und die Willkür von Regulierungsbehörden.
 
 
 

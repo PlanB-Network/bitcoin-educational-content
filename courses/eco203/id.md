@@ -1071,15 +1071,17 @@ Dipahami dalam pengertian ini, hak atas Properti adalah di antara hak-hak yang t
 
 > Hukum adalah organisasi kolektif dari hak individu atas pertahanan yang sah.
 > The Law
-> Misi utamanya adalah untuk mempertahankan orang dan propertinya.
-> ![image](assets/id/106.webp)
 
-_(François Quesnay, pemimpin Fisiokrat)_
+Misi utamanya adalah untuk mempertahankan orang dan propertinya.
+
+![image](assets/id/106.webp)
+
 
 Oleh karena itu, hak tidak sama dengan hukum. Hak tidak diidentifikasi dengan kata-kata penguasa, juga tidak sepenuhnya bergantung pada legitimasinya. Hak adalah produk dari sebuah tradisi, sebuah tatanan hukum yang ada sebelumnya dan lebih tinggi dari pada hukum itu sendiri, yang memaksakan dirinya baik kepada pembuat undang-undang maupun kepada warga negara biasa.
 
 Hak "tidak diciptakan". Hak tidak ditemukan dari visi ideal tentang apa seharusnya hukum masyarakat; hak ditemukan dalam sifat manusia dan dalam aturan kesopanan, yang ditransmisikan oleh kebijaksanaan adat.
 Individu memiliki hak alami yang mendahului hukum: Properti, Kebebasan, Kepribadian. Peran Hukum seharusnya adalah untuk memelihara hak alami individu tersebut. Akibatnya, Negara harus dibatasi. Hari ini, kita akan mengatakan bahwa Bastiat adalah pendukung negara minimal.
+
 ![image](assets/id/107.webp)
 
 Dalam sistem Rousseau, yang telah kita bahas dalam kursus sebelumnya, misi legislator adalah untuk mengorganisir, memodifikasi, bahkan menghapus properti jika dianggap tepat. Bagi Rousseau, properti bukanlah alami tetapi konvensional, sama seperti masyarakat itu sendiri. Ide ini berasal dari hukum Romawi, yang sangat dikenal oleh Rousseau.
@@ -1110,6 +1112,7 @@ Di sini, Bastiat sejalan dengan warisan Fisiokrat, dan lebih dari itu, dengan tr
 :::video id=24b1ca72-c52a-4ff3-b6db-01e3807c5d8e:::
 
 Ide utama Bastiat dalam "The Law", pamflet terkenalnya yang bertanggal 1850, adalah untuk menunjukkan mengapa dan bagaimana hukum telah menjadi perampasan, yaitu, sumber hak istimewa, sewa situasional, dan arbitrase fiskal.
+
 ![image](assets/id/110.webp)
 
 Apa sebenarnya sifat dari hukum itu?
@@ -1130,6 +1133,7 @@ Namun, ketika hukum berhenti menjadi negatif dan menjadi positif, perasaan ketid
 Filantropi palsu, kata Bastiat, adalah salah satu penyebab utama perubahan hukum. Beberapa orang menganggap diri mereka di atas umat manusia dan mampu membuat pilihan yang lebih baik daripada yang lain.
 
 ![image](assets/id/112.webp)
+
 Mereka tahu lebih baik apa yang baik untuk orang lain dan akan memaksakan konsepsi kebaikan mereka pada semua orang; inilah para filantropis. Mereka telah menciptakan hak-hak palsu yang saat ini disebut hak-hak sosial. Hak-hak sosial tidak lebih dari hak-hak atas tenaga kerja orang lain, hak untuk mendisposisikan properti seseorang, buah dari tenaga kerja seseorang: hak atas perumahan, hak atas kesehatan, pendidikan, pekerjaan, upah minimum, dll.
 
 Apa itu perampasan? Ini adalah kebalikan dari properti, kata Bastiat kepada kita. Merampas berasal dari bahasa Latin spoliare, yang berarti untuk merampas. Kita telah melihat bahwa manusia hanya bisa hidup dengan mengambil barang, dengan menerapkan fakultasnya pada barang, yaitu, dengan bekerja. Sayangnya, dia juga bisa mengambil produk dari fakultas sesama manusianya, yaitu, untuk merampoknya.
@@ -1143,6 +1147,7 @@ Segera setelah diakui secara prinsip bahwa hukum dapat dialihkan dari misi sejat
 Alih-alih membela hak-hak alami, hukum berubah menjadi perlindungan kepentingan korporat dan kategorikal. Perampasan diorganisir oleh hukum, untuk keuntungan kelas yang membuatnya dan teman-teman atau klien mereka. Bastiat dengan demikian mengantisipasi sekolah pilihan publik pada abad ke-20 di mana hukum adalah hasil dari "pasar politik" yang mana kelompok individu berusaha memuaskan kepentingan mereka sendiri dengan mengorbankan orang lain.
 
 ![image](assets/id/114.webp)
+
 Bagi dia, tujuan dari Hukum haruslah sederhana, yaitu untuk "mengakhiri semua bentuk penjarahan." Jika Negara tidak intervensi dalam kehidupan pribadi, individu secara efektif adalah pemilik dan bertanggung jawab atas hidup mereka sendiri. Mereka menciptakan kebahagiaan mereka sendiri. Mereka menanggung konsekuensi baik atau buruk dari tindakan mereka.
 Mereka yakin bahwa hak-hak alami mereka dijamin dan tidak dapat diganggu gugat. Hak kepemilikan yang aman memberi orang kemampuan untuk membuat rencana jangka panjang karena mereka tahu aset mereka aman dari penjarahan.
 
@@ -1175,9 +1180,11 @@ Dan karena tindakan Negara murni redistributif, ia tunduk pada tekanan dari kelo
 
 ![image](assets/id/118.webp)
 
-Dengan kata lain, Negara hanya mengejar tujuan klien, dan gagasan tentang kepentingan umum tidak memiliki makna. Setiap keuntungan yang diperoleh oleh beberapa orang adalah pada kerugian orang lain: ini bukan permainan nol-sum tetapi permainan sum negatif.
+Dengan kata lain, Negara hanya mengejar tujuan klien, dan gagasan tentang kepentingan umum tidak memiliki makna. Setiap keuntungan yang diperoleh oleh beberapa orang adalah pada kerugian orang lain: ini bukan permainan zero-sum tetapi permainan negative-sum.
 Bastiat dengan demikian mengantisipasi, satu abad sebelumnya, analisis tentang fungsi pasar politik yang akan muncul pada akhir tahun 1950-an dengan sekolah Pilihan Publik yang disebut James Buchanan, Penerima Hadiah Nobel dalam Ekonomi, dan rekannya Gordon Tullock.
+
 ![image](assets/id/119.webp)
+
 Lebih lanjut, Bastiat menegaskan, Negara tidak memiliki hak yang tidak terlebih dahulu ada pada individu. Mengapa Negara memiliki hak untuk menjamin, bahkan dengan kekuatan, properti setiap individu? Hanya karena hak ini sudah ada terlebih dahulu pada individu. Tidak bisa dipungkiri individu memiliki hak untuk membela diri, hak untuk menggunakan kekuatan jika perlu untuk menangkis serangan terhadap orang mereka, kemampuan mereka, dan properti mereka. Hak alami untuk membela diri ini, yang berada pada semua warga negara, dapat mengambil bentuk kolektif dan melegitimasi kekuatan bersama.
 
 Oleh karena itu, untuk mengetahui apakah Negara secara sah diberi hak, seseorang harus bertanya apakah hak ini berada pada individu berdasarkan organisasi mereka dan dalam ketiadaan pemerintahan.
@@ -1216,6 +1223,7 @@ Dengan datangnya abad ke-20, pengetahuan dan popularitas Bastiat menghilang. Nam
 Menetap di New York pada tahun 1943, Mises mengorganisir seminar yang menarik pikiran-pikiran hebat: George Stigler, Milton Friedman, keduanya pemenang Hadiah Nobel di masa depan, dan Murray Rothbard, saat itu seorang mahasiswa di Columbia. Selama seminar ini, dia berbicara tentang Bastiat untuk pertama kalinya sebagai salah satu referensi utama liberalisme klasik. Dia memperkenalkan kepada pendengarnya pamflet Bastiat, The Law, dan The State, yang belum diterjemahkan ke dalam bahasa Inggris. Pada tahun 1953, salah satu peserta seminar, Leonard Read, akan menerjemahkan "The Law" oleh Bastiat ke dalam bahasa Inggris dan mengambil tugas mendistribusikan buku tersebut ke seluruh negara melalui yayasan miliknya: Foundation for Economic Education.
 
 ![image](assets/id/122.webp)
+
 Namun, orang yang juga mempopulerkan tesis Frédéric Bastiat adalah seorang kolumnis ekonomi untuk New York Times, Henry Hazlitt, dalam sebuah buku kecil berjudul: "Economics in One Lesson," yang diterbitkan pada tahun 1946. Secara eksplisit mengambil dari ide-ide Bastiat, dia bertujuan untuk menunjukkan bahwa masalah dengan solusi ekonomi statistik adalah kegagalan mereka untuk mempertimbangkan konsekuensi jangka panjang yang bencana.
 
 ![image](assets/id/123.webp)
@@ -1229,6 +1237,7 @@ Hazlitt kemudian menerapkan pelajaran ini pada berbagai masalah ekonomi: kontrol
 Bastiat adalah salah satu ekonom favorit Ronald Reagan, jauh sebelum dia terpilih menjadi presiden. Ini kurang diketahui, tetapi selama delapan tahun, Reagan bekerja untuk perusahaan General Electric sebagai pembawa acara televisinya di CBS, dan sebagai penanggung jawab pelatihan staf perusahaan. Program pelatihannya dibangun di sekitar teks-teks pengantar ke ekonomi pasar. Karya-karya yang dipilih adalah milik dua orang Austria, Hayek dan Mises, dua orang Inggris, Cobden dan Bright, dan satu orang Prancis, Frédéric Bastiat.
 
 Pelajaran yang Reagan ajarkan kepada karyawannya, mengikuti Bastiat, adalah bahwa tidak ada mitos yang lebih besar daripada itu dari merangsang pertumbuhan dan pekerjaan melalui pengeluaran publik.
+
 ![image](assets/id/124.webp)
 
 John Maynard Keynes secara khusus menyarankan bahwa pengeluaran publik meningkatkan produksi karena pengganda: jika pemerintah membangun jembatan, pekerja jembatan tersebut akan dapat membeli roti, kemudian tukang roti dapat membeli sepatu, dan seterusnya. Jika industri swasta sedang menurun, itu dapat diatasi dengan pekerjaan besar. Jika ada pengangguran, Negara dapat menciptakan pekerjaan publik.

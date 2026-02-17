@@ -1,275 +1,138 @@
 ---
 name: be-BOP
-description: Guida pratica alla monetizzazione della vostra attività con be-BOP
+description: Guida pratica alla monetizzazione della tua attività con be-BOP
 ---
 
 ![cover-bebop](assets/cover.webp)
 
+**be-BOP** è una piattaforma di e-commerce pensata per gli imprenditori che desiderano vendere online e offline, in completa autonomia, accettando pagamenti in bitcoin, tramite conto bancario e in contanti. La soluzione è utile anche per qualsiasi tipo di organizzazione che desideri raccogliere donazioni o monetizzare le proprie attività.
 
+La soluzione è semplice, leggera e autonoma. Permette di creare un negozio online, anche in un ambiente in cui i servizi finanziari tradizionali sono limitati o assenti. Infatti, **be-BOP** è stato progettato per operare in modo efficiente con o senza accesso alle banche, utilizzando Bitcoin come infrastruttura di pagamento.
 
-**be-BOP** è una piattaforma di e-commerce pensata per gli imprenditori che desiderano vendere online e offline, in completa autonomia, accettando pagamenti in Bitcoin, tramite conto bancario e in contanti. La soluzione è utile anche per qualsiasi tipo di organizzazione che desideri raccogliere donazioni o monetizzare le proprie attività.
+In questo tutorial, ti guideremo passo dopo passo attraverso:
+- la creazione del tuo primo negozio online con **be-BOP**
+- la personalizzazopne della tua vetrina e dei tuoi prodotti
+- la configurazione dei metodi di pagamento disponibili
+- la comprensione delle migliori pratiche per vendere online in modo efficace con **be-BOP**
 
-
-
-La soluzione è semplice, leggera e autonoma. Permette di creare un negozio online, anche in un ambiente in cui i servizi finanziari tradizionali sono limitati o assenti. Infatti, **be-BOP** è stato progettato per operare in modo efficiente con o senza accesso alle banche, utilizzando il Bitcoin come infrastruttura di pagamento.
-
-
-
-In questo tutorial, vi guideremo passo dopo passo attraverso:
-
-
-
-
-
-- Create il vostro primo negozio online con **be-BOP**
-- Personalizzate la vostra vetrina e i vostri prodotti
-- Configurare i metodi di pagamento disponibili
-- Comprendere le migliori pratiche per vendere online in modo efficace con **be-BOP**
-
-
-
-Questo tutorial non richiede competenze tecniche avanzate. Si rivolge a sviluppatori, artigiani, commercianti, cooperative o imprenditori che desiderano intraprendere il commercio digitale in modo sovrano e resiliente.
-
+Questo tutorial non richiede competenze tecniche avanzate. Si rivolge agli sviluppatori, agli artigiani, ai commercianti, alle cooperative o agli imprenditori che desiderano intraprendere il commercio digitale in modo sovrano e resiliente.
 
 
 ## Prerequisiti per l'installazione di be-BOP sul proprio server
 
-
-
-Prima di iniziare l'installazione di be-BOP, assicurarsi di disporre della seguente infrastruttura tecnica. Questi Elements sono essenziali per il corretto funzionamento della piattaforma:
-
-
+Prima di iniziare l'installazione di be-BOP, assicurati di disporre della seguente infrastruttura tecnica. Questi elementi sono essenziali per il corretto funzionamento della piattaforma:
 
 ### Archiviazione compatibile con S3
 
-
-
 be-BOP utilizza un sistema di archiviazione per gestire i file (come le immagini dei prodotti). Ciò richiede l'accesso a un servizio S3, come:
-
-
-
-
-
 - [MinIO](https://min.io/) in hosting autonomo
 - Amazon S3 (AWS)
 - Archiviazione a oggetti Scaleway
 
-
-
 È necessario configurare un bucket e fornire le seguenti informazioni:
-
-
-
-
-
 - **S3_BUCKET**: nome del bucket
-- **S3_ENDPOINT_URL**: link di accesso al proprio servizio S3
+- **S3_ENDPOINT_URL**: link di accesso al tuo servizio S3
 - **S3_KEY_ID** e **S3_KEY_SECRET**: i codici di accesso
-- **S3_REGION**: la regione del proprio servizio S3
-
-
+- **S3_REGION**: la regione del proprio servizio S3.
 
 ### Database MongoDB in modalità ReplicaSet
 
-
-
 be-BOP utilizza MongoDB per memorizzare i dati del negozio, degli utenti, dei prodotti e altri dati.
 
-
-
-Avete due opzioni:
-
-
-
-
-
+Hai due opzioni:
 - Installare MongoDB in locale con la modalità **ReplicaSet abilitata**
 - Utilizzare un servizio online come **Atlante MongoDB**
 
-
-
 Sono necessarie le seguenti variabili:
-
-
-
-
-
-- **MONGODB_URL**: connessione al database Address
+- **MONGODB_URL**: connessione all'indirizzo del database
 - **MONGODB_DB**: nome del database
-
 
 
 ## Ambiente Node.js
 
-
-
-be-BOP funziona con Node.js. Assicurarsi di avere **Node.js** versione 18 o superiore e **Corepack** abilitato (necessario per gestire i gestori di pacchetti come pnpm). Il comando da eseguire è `corepack enable`
-
-
+be-BOP funziona con Node.js. Assicurati di avere **Node.js** versione 18 o superiore e **Corepack** abilitato (necessario per gestire i gestori di pacchetti come pnpm). Il comando da eseguire è `corepack enable`
 
 ### Git LFS installato
 
+Alcune risorse (come le immagini di grandi dimensioni) sono gestite tramite Git LFS (Large File Storage). Assicurati di avere Git LFS installato sulla tua macchina con il comando `git lfs install`. Una volta soddisfatti questi prerequisiti, sei pronto a passare al passo successivo: scaricare e configurare be-BOP.
 
-
-Alcune risorse (come le immagini di grandi dimensioni) sono gestite tramite Git LFS (Large File Storage). Assicurarsi di avere Git LFS installato sulla propria macchina con il comando `git lfs install`. Una volta soddisfatti questi prerequisiti, si è pronti a passare al passo successivo: scaricare e configurare be-BOP.
-
-
-
-**Nota: ** Una guida tecnica alla distribuzione del software è disponibile in un'esercitazione separata.
-
+**Nota**: una guida tecnica alla distribuzione del software è disponibile in un'esercitazione separata.
 
 
 ## Creare un account Super-Admin
 
-
-
 Al primo avvio di be-BOP viene creato un account **Super Admin**. Questo account dispone di tutte le autorizzazioni necessarie per gestire le funzioni di back-office. Per creare un account, seguire i seguenti passaggi:
+- vai a `il tuo sito web/admin/login`
+- crea un account di super-amministratore con un login e una password sicuri.
 
-
-
-
-
-- Andate a `il vostro sito web/admin/login`
-- Creare un account di super-amministratore con un login e una password sicuri
-
-
-
-Questo account vi darà accesso a tutte le funzioni di back-office. Una volta creato, è possibile accedere inserendo il nome utente e la password.
-
-
+Questo account ti darà accesso a tutte le funzioni di back-office. Una volta creato, è possibile accedere inserendo il nome utente e la password.
 
 ![login](assets/fr/001.webp)
 
 
-
 ## Configurazione e sicurezza del back office
 
+Prima di configurare la connessione all'interfaccia di back-office, è necessario creare un'Hash univoco. In questo modo ti proteggi da eventuali malintenzionati che cercano di rubare il link di connessione alla tua interfaccia admin.
 
-
-Prima di configurare la connessione al back-office Interface, è necessario creare un Hash univoco. In questo modo ci si protegge da eventuali malintenzionati che cercano di rubare il link di connessione al proprio Interface admin.
-
-
-
-Per creare il Hash, accedere a `/admin/Impostazioni`. Nella sezione dedicata alla sicurezza (ad esempio, "Admin Hash"), definire una stringa unica (Hash). Una volta registrato, l'URL del back-office verrà modificato (ad esempio `/admin-yourhash/login`) per limitare l'accesso alle persone non autorizzate.
-
-
+Per creare l'Hash, accedi a `/admin/Impostazioni`. Nella sezione dedicata alla sicurezza (ad esempio, "Admin Hash"), definisci una stringa unica (Hash). Una volta registrato, l'URL del back-office verrà modificato (ad esempio `/admin-yourhash/login`) per limitare l'accesso alle persone non autorizzate.
 
 ![hash-login](assets/fr/002.webp)
 
 
+### Attivare la modalità di manutenzione (se necessario)
 
-2.2. Attivare la modalità di manutenzione (se necessario)
-
-
-
-Sempre in /admin/Impostazioni, (Impostazioni > Generali tramite la grafica Interface) verificare l'opzione "abilita modalità di manutenzione" in fondo alla pagina.
-
-
+Sempre in `/admin/Impostazioni`, (Impostazioni > Generali tramite l'interfaccia grafica) verifica l'opzione "abilita modalità di manutenzione" in fondo alla pagina.
 
 ![maintenance-mode](assets/fr/003.webp)
 
-
-
 Se necessario, è possibile specificare un elenco di indirizzi IPv4 autorizzati (separati da virgole) per consentire l'accesso al front office durante la manutenzione. Il back office rimane accessibile agli amministratori.
-
-
 
 ![ip-bebop](assets/fr/004.webp)
 
 
-
 ## Impostazione delle comunicazioni
-
-
 
 Per consentire a be-BOP di inviare notifiche (ad esempio per ordini, registrazioni o messaggi di sistema), è necessario configurare almeno un metodo di comunicazione. Sono disponibili due opzioni: e-mail (SMTP) o Nostr.
 
-
-
 ### Configurazione SMTP (e-mail)
-
-
 
 be-BOP può inviare e-mail tramite un server SMTP. È necessario disporre di credenziali SMTP valide, spesso fornite da un servizio di posta elettronica (ad esempio, Mailgun, Gmail, ecc.).
 
-
-
 Ecco cosa c'è da sapere:
-
-
-
-SMTP_HOST: server SMTP Address (es. smtp.mailgun.org)
-
-
-
-SMTP_PORT: la porta da utilizzare (spesso 587 o 465)
-
-
-
-SMTP_USER: il nome utente (di solito un'e-mail Address)
-
-
-
-SMTP_PASSWORD: la propria password o chiave API
-
-
-
-SMTP_FROM: l'e-mail Address che comparirà come mittente
-
-
-
+- SMTP_HOST: server indirizzi SMTP (es. smtp.mailgun.org)
+- SMTP_PORT: la porta da utilizzare (spesso 587 o 465)
+- SMTP_USER: il nome utente (di solito un'indirizzo e-mail)
+- SMTP_PASSWORD: la propria password o chiave API
+- SMTP_FROM: l'indirizzo e-mail che comparirà come mittente
 
 ### Configurazione Nostr
 
-
-
-be-BOP consente di inviare notifiche tramite il protocollo Nostr, un'infrastruttura di messaggistica decentralizzata. A tal fine, è necessario disporre di una chiave privata di Nostr (NSEC) generate o Supply. Questa chiave può essere generate direttamente tramite il Interface di be-BOP, nella sezione dedicata a Nostr. Quando questi Elements sono configurati correttamente, be-BOP sarà in grado di inviare automaticamente messaggi e avvisi ai vostri utenti.
-
+be-BOP consente di inviare notifiche tramite il protocollo Nostr, un'infrastruttura di messaggistica decentralizzata. A tal fine, è necessario disporre di una chiave privata di Nostr (NSEC) generate o Supply. Questa chiave può essere generate direttamente tramite l'interfaccia di be-BOP, nella sezione dedicata a Nostr. Quando questi elementi sono configurati correttamente, be-BOP sarà in grado di inviare automaticamente messaggi e avvisi ai tuoi utenti.
 
 
 ## Metodi di pagamento compatibili
 
-
-
-be-BOP è compatibile con diverse soluzioni di pagamento, consentendovi di offrire ai vostri clienti una maggiore flessibilità. Ecco cosa vi serve per impostare il metodo di pagamento più adatto a voi.
-
-
+be-BOP è compatibile con diverse soluzioni di pagamento, consentendoti di offrire ai tuoi clienti una maggiore flessibilità. Ecco cosa ti serve per impostare il metodo di pagamento più adatto a te.
 
 ### Bitcoin Onchain
 
+be-BOP consente di accettare pagamenti Bitcoin direttamente sulla Blockchain (On-Chain), in modo semplice e sicuro.
 
+**Fasi di configurazione**:
+- vai al menu **Impostazioni di pagamento**
+- fie clic su **Bitcoin Nodeless** per accedere ai parametri di pagamento On-Chain.
+- compila i seguenti campi:
 
-be-BOP consente di accettare pagamenti Bitcoin direttamente sul Blockchain (On-Chain), in modo semplice e sicuro.
-
-
-
-**Fasi di configurazione:**
-
-
-
-
-
-- Andare al menu **Impostazioni di pagamento**
-- Fare clic su **Bitcoin Nodeless** per accedere ai parametri di pagamento On-Chain.
-- Compilare i seguenti campi:
-
-
-
-
-| Campo                  | Descrizione                                               | Esempio da Utilizzare                              |
-|------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **Standard BIP**       | Il tipo di indirizzamento utilizzato                               | BIP84 (per gli indirizzi nel formato bech32 che iniziano con `bc1`) |
-| **Chiave Pubblica Estesa** | Vostro Zpub (o Xpub a seconda del portafoglio utilizzato)        | `zpub...` (estratto dal vostro portafoglio Bitcoin) |
-| **Derivation Index**   | L'indice iniziale per la generazione degli indirizzi         | `1`                                              |
-| **URL Mempool**        | L'URL del servizio mempool utilizzato per tracciare le transazioni | `https://mempool.space`                         |
+| Campo                      | Descrizione                                                        | Esempio da Utilizzare                                               |
+|:--------------------------:|--------------------------------------------------------------------|---------------------------------------------------------------------|
+| **Standard BIP**           | Il tipo di indirizzamento utilizzato                               | BIP84 (per gli indirizzi nel formato bech32 che iniziano con `bc1`) |
+| **Chiave Pubblica Estesa** | Tuo Zpub (o Xpub a seconda del portafoglio utilizzato)             | `zpub...` (estratto dal tuo portafoglio Bitcoin)                    |
+| **Derivation Index**       | L'indice iniziale per la generazione degli indirizzi               | `1`                                                                 |
+| **URL Mempool**            | L'URL del servizio mempool utilizzato per tracciare le transazioni | `https://mempool.space`                                             |
 
 ![payment-nodeless](assets/fr/005.webp)
 
-
-
-**Suggerimento:** Per ottenere la chiave pubblica estesa (Zpub), è possibile consultare le impostazioni avanzate del proprio Bitcoin Wallet (Sparrow wallet, BlueWallet, Specter, ecc.). Assicurarsi che il Wallet sia **non di sola lettura** se si intende utilizzare la cronologia delle transazioni.
-
-
+**Suggerimento:** Per ottenere la chiave pubblica estesa (Zpub), è possibile consultare le impostazioni avanzate del tuo Bitcoin Wallet (Sparrow wallet, BlueWallet, Specter, ecc.). Assicurati che il Wallet sia **non di sola lettura** se si intende utilizzare la cronologia delle transazioni.
 
 ### Lightning Network
 

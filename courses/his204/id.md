@@ -229,7 +229,7 @@ Sebagai reaksi terhadap pengalaman John Law, Cantillon menjelaskan apa yang terj
 
 ![image](assets/id/017.webp)
 
-Dia melihat dua konsekuensi utama dari penggantian mata uang berbasis logam dengan mata uang tanpa nilai riil, seperti uang kertas. Konsekuensi pertama adalah apa yang ia sebut "penolakan populer" (popular rejection), yang berarti meningkatnya ketidakpercayaan terhadap uang yang tidak bernilai. Konsekuensi kedua adalah inflasi: melemahnya moneter membuat harga barang menjadi lebih mahal.
+Dia melihat dua konsekuensi utama dari penggantian mata uang berbasis logam dengan mata uang tanpa nilai riil, seperti uang kertas. Konsekuensi pertama adalah apa yang ia sebut "penolakan populer" (popular rejection), yang berarti meningkatnya ketidakpercayaan terhadap uang yang tidak bernilai. Konsekuensi kedua adalah [inflasi](https://planb.academy/resources/glossary/inflation): melemahnya moneter membuat harga barang menjadi lebih mahal.
 
 Keempat, dalam analisisnya tentang inflasi, Cantillon melangkah lebih jauh dari para tokoh sezamannya. Setelah mengamati runtuhnya sistem Law, Cantillon menyadari bahwa inflasi moneter tidak memengaruhi semua orang secara setara. Sebaliknya, inflasi memperkaya sebagian orang sambil memiskinkan sebagian lainnya. Ia menyimpulkan bahwa inflasi memiliki efek redistributif: mereka yang pertama menerima uang yang baru diterbitkan mendapat manfaat dari peningkatan daya beli, sementara mereka yang menerimanya belakangan menjadi lebih miskin akibat penerbitan uang baru tersebut karena kenaikan tingkat inflasi.
 

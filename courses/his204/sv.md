@@ -317,7 +317,7 @@ Som en reaktion på John Laws erfarenhet förklarar Cantillon vad som händer el
 ![image](assets/sv/017.webp)
 
 
-Han ser två huvudsakliga konsekvenser av att ersätta en valuta utan verkligt värde, som papperspengar, med en metallisk valuta. Den första konsekvensen är vad han kallar "folkligt förkastande", vilket innebär en växande misstro mot värdelösa pengar. Den andra konsekvensen är inflation: en försvagning av penningmängden gör varor dyrare.
+Han ser två huvudsakliga konsekvenser av att ersätta en valuta utan verkligt värde, som papperspengar, med en metallisk valuta. Den första konsekvensen är vad han kallar "folkligt förkastande", vilket innebär en växande misstro mot värdelösa pengar. Den andra konsekvensen är [inflation](https://planb.academy/resources/glossary/inflation): en försvagning av penningmängden gör varor dyrare.
 
 
 För det fjärde gick Cantillon längre än sina samtida i sin analys av **inflation**. Efter att ha observerat kollapsen av Laws system insåg Cantillon att monetär inflation inte drabbar alla lika. Tvärtom berikar den vissa medan andra utarmas. Han drog slutsatsen att inflationen har en omfördelande effekt: de som först får nyutgivna pengar drar nytta av den ökade köpkraften, medan de som får dem senare blir fattigare till följd av att de nya pengarna ges ut på grund av den stigande inflationen.

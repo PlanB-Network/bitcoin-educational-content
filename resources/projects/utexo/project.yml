@@ -1,0 +1,22 @@
+id: b6ca0ec6-d6f3-4bd1-8bd3-c2f062ad7cba
+name: Utexo
+category: infrastructure
+links:
+  website: https://utexo.com/
+  twitter: https://x.com/utexocom
+
+tags:
+  - scalability
+  - node
+  - innovation
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2026-02-16
+    urgency: 1
+    contributor_names:
+      - PBN-bot
+    reward: 0
+contributor_names:
+  - PBN-bot
+license: CC-BY-SA-V4

@@ -880,7 +880,13 @@ Mesmo no caso de um ataque de 51%, em que um agente possuiria mais de metade do 
 
 A teoria dos jogos aplicada à Bitcoin elimina os mineiros desonestos, que utilizam máquinas ASIC para minerar e recebem uma recompensa em caso de sucesso. Além disso, muitas vezes juntam-se a pools de mineração para partilhar o seu poder de computação e receber recompensas mais pequenas mas mais regulares. Embora a mineração de Bitcoin incorra em altos custos de energia, ela é crucial para a operação e a segurança da rede Bitcoin. O mecanismo de prova de trabalho e a tecnologia blockchain resolvem o problema do gasto duplo e garantem a integridade das informações sem depender de um terceiro de confiança. Embora a produção de informações exija um gasto significativo de energia, a verificação dessas informações tem um custo insignificante. Esta assimetria reforça a segurança da rede, tornando economicamente mais viável aderir às regras de consenso em vez de as tentar quebrar.
 
-Se quiser aprofundar o tema específico da mineração de Bitcoin, pode consultar o nosso curso MIN 201. Irá descobrir o funcionamento e o papel da Prova de Trabalho, bem como a mecânica da indústria mineira. Também explicamos como converter um ASIC num aquecedor, permitindo-lhe extrair os seus primeiros satoshis enquanto aquece a sua casa!
+
+
+Se desejar aprofundar o tema específico da mineração de Bitcoin, pode consultar o nosso curso MIN 101. Nele encontrará uma explicação teórica detalhada do princípio da prova de trabalho e do seu funcionamento, bem como o conjunto de conceitos a ele associados.
+
+https://planb.academy/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e
+
+Recomendo igualmente que descubra este curso prático mais avançado, no qual explicamos como transformar um ASIC num sistema de aquecimento doméstico DIY, a fim de valorizar o calor produzido pela mineração e ganhar os seus primeiros satoshis!
 
 https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 

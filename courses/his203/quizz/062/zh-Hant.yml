@@ -1,0 +1,10 @@
+question: 從 2012 年 3 月起，使用者可以在哪個 subreddit 上發佈自己的裸照以獲得比特幣提示？
+answer: r/GirlsGoneBitcoin
+wrong_answers:
+  - r/GoneWild
+  - r/CryptoPorn
+  - r/Bitcoin
+explanation: |
+ r/GirlsGoneBitcoin 於 2012 年 3 月 26 日由住在拉斯維加斯的 Linux 與隱私權擁護者 Julian Tosh (又名 Tuxavant) 所建立。這個 subreddit 在年底時已有近
+ 2,000 名會員。
+reviewed: true

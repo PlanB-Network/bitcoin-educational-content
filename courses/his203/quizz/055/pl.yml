@@ -1,0 +1,10 @@
+question: Jaki model biznesowy stał za BitPay, procesorem płatności uruchomionym przez Stephena Pair i Tony'ego Gallippi latem 2011 roku?
+answer: Natychmiastowa konwersja bitcoinów klientów na dolary, za opłatą
+wrong_answers:
+  - Umożliwienie klientom natychmiastowego zakupu bitcoinów za pomocą płatności w dolarach, za prowizję
+  - Pożyczanie bitcoinów zdeponowanych przez klientów i pobieranie odsetek
+  - Przekazywanie płatności bitcoin do łańcucha bloków, otrzymywanie opłat transakcyjnych
+explanation: |
+ Ideą BitPay było umożliwienie sprzedawcom natychmiastowej konwersji płatności bitcoinowych na dolary, aby mogli oni zabezpieczyć się przed
+ zmiennością. BitPay dostarczał klientom dolary z góry, pobierając opłatę manipulacyjną, która początkowo wynosiła 1%.
+reviewed: true

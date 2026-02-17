@@ -1,0 +1,9 @@
+question: Mã vận hành OP_EVAL đã tác động như thế nào đến hệ thống lập trình nội bộ của Bitcoin?
+answer: Thực thi một tập lệnh bên trong một tập lệnh
+wrong_answers:
+  - Yêu cầu chữ ký của người tham gia
+  - Cắt một đoạn mã và so sánh kết quả với dấu chân được cung cấp
+  - Kiểm tra xem hai giá trị có bằng nhau hay không
+explanation: |
+ Nó được mô tả bởi Nicolas van Saberhagen, hay còn gọi là ByteCoin, người đã thiết kế nó vào đêm ngày 1 rạng sáng ngày 2 tháng 10 năm 2011. Mã lệnh được thực thi ở cuối tập lệnh khóa để đánh giá tính hợp lệ của tập lệnh được cung cấp, mã băm của tập lệnh này được so sánh với dấu vân tay đã cho.
+reviewed: true

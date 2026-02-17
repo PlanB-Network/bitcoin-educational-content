@@ -1,0 +1,10 @@
+question: Mitä hosting-palvelua Mark Karpelès johti ennen Mt. Goxin haltuunottoa?
+answer: KalyHost
+wrong_answers:
+  - TibanneHost
+  - WeHostYou
+  - PlanetHost
+explanation: |
+ Tämä oli vain yksi monista palveluista, joita hän tarjosi itsenäisenä kehittäjänä. Marraskuussa Mark Karpelès alkoi hyväksyä bitcoin-maksuja KalyHostin kanssa.
+ Ross Ulbricht käytti palvelua myös Silkroadmarket.org-verkkosivun isännöintiin, joka ohjasi Silk Roadille.
+reviewed: true

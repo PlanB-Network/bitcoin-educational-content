@@ -1,0 +1,11 @@
+question: LocalBitcoins
+answer: LocalBitcoins
+wrong_answers:
+  - BTC BLIZU MENE
+  - BitInstant
+  - Coinabul
+explanation: |
+ Ovo je bila platforma za povezivanje, koja je pokrenuta 7. juna. Tokom leta, LocalBitcoins je integrisao escrow sistem, putem kojeg su bitkoini mogli biti
+ trenutno zadržani od strane platforme i oslobođeni putem SMS-a za plaćanje kupcu. Konkretno, ovo je omogućilo razmene licem u lice, gde bi prodavac
+ oslobodio bitkoine nakon što bi gotovina bila primljena.
+reviewed: true

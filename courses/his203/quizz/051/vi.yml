@@ -1,0 +1,9 @@
+question: Theo nghiên cứu của Nicolas Christin được công bố vào tháng 8 năm 2012, doanh số bán hàng hàng ngày trong tháng 5 năm 2012 là bao nhiêu?
+answer: 15.000 BTC hoặc 75.000 đô la
+wrong_answers:
+  - 600 BTC hoặc 3.000 đô la
+  - 3.000 BTC hoặc 15.000 đô la
+  - 75.000 BTC hoặc 375.000 đô la
+explanation: |
+ Khối lượng giao dịch hàng ngày, vốn ở mức 8.000 BTC vào tháng 3, đã đạt 15.000 BTC vào tháng 5, tương đương khoảng 75.000 đô la Mỹ vào thời điểm đó. Tỷ lệ hoạt động của Bitcoin so với tổng hoạt động của chuỗi Bitcoin dao động từ 10% đến 20% trong năm 2012. Đầu tháng 11, Ross đã gọi sự thành công của nền tảng này là "tăng trưởng bùng nổ".
+reviewed: true

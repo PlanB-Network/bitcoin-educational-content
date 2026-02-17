@@ -1,0 +1,11 @@
+question: Come si chiama il servizio di cambio privato-privato lanciato da Jeremias Kangas e suo fratello nel giugno 2012?
+answer: Bitcoin locali
+wrong_answers:
+  - BTC VICINO A ME
+  - BitInstant
+  - Coinabul
+explanation: |
+ Si trattava di una piattaforma di matchmaking, lanciata il 7 giugno. Nel corso dell'estate, LocalBitcoins ha integrato un sistema di deposito a garanzia, attraverso il quale i bitcoin possono essere momentaneamente trattenuti dalla piattaforma e rilasciati via SMS per il pagamento all'acquirente
+ in cui i bitcoin potevano essere momentaneamente trattenuti dalla piattaforma e rilasciati via SMS per il pagamento all'acquirente. In particolare, questo ha permesso di effettuare scambi faccia a faccia, in cui il venditore avrebbe
+ il venditore rilasciava i bitcoin una volta ricevuti i contanti.
+reviewed: true

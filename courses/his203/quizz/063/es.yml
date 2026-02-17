@@ -1,0 +1,10 @@
+question: Qué servicio del ecosistema Bitcoin NO se vio afectado por el hackeo del servicio de alojamiento Linode el 1 de marzo de 2012?
+answer: El servicio de cambio de divisas BitInstant, gestionado por Charlie Shrem
+wrong_answers:
+  - La plataforma de negociación Bitcoinica, gestionada por Zhou Tong
+  - BitcoinCZ Mining mining cooperativa, gestionada por Slush
+  - El grifo Bitcoin, dirigido por Gavin Andresen
+explanation: |
+ El hacker accedió al portal de atención al cliente de la empresa y tomó el control de ocho cuentas, todas ellas relacionadas con Bitcoin. Se apoderó de 43.554
+ bitcoins pertenecientes a Bitcoinica, retiró 3.094 bitcoins de la cooperativa de Slush hot wallet y se hizo con los 5 bitcoins presentes en el grifo Bitcoin de Gavin.
+reviewed: true

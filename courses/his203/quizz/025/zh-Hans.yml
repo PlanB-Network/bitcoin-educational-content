@@ -1,0 +1,10 @@
+question: 法国公司 Paymium SAS 于 2012 年 4 月开发了哪款移动比特币存管应用程序？
+answer: Paytunia
+wrong_answers:
+  - Instawallet
+  - 我的比特币
+  - 维班科
+explanation: |
+ Paymium 称其为 "基于 Bitcoin 开放协议的革命性应用程序，用于安全、便捷的在线支付和转账"。
+ 该公司还于 2012 年 3 月从 Jan Vornberger 手中收购了 Instawallet 网络应用程序。
+reviewed: true

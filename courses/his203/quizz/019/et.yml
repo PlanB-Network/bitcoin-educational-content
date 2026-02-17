@@ -1,0 +1,10 @@
+question: Millisele tasemele umbes langes bitcoini hind 2011. aasta suurele mullile järgnenud karuturu lõpus?
+answer: 2 $
+wrong_answers:
+  - 0,01 $
+  - 6 $
+  - 17,5 $
+explanation: |
+ Pärast 2011. aasta juunis saavutatud 32 dollari tippu langes bitcoini hind augusti alguses järsult 6 dollarini, seejärel jätkas langust, jõudes lõpuks umbes 2 dollarini 2011. aastal
+ Novembris 2011. See tähendas üle 90% langust juunikuisest tipptasemest.
+reviewed: true

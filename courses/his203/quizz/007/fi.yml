@@ -1,0 +1,10 @@
+question: Kuka oli Mark Karpelès ennen kuin hän otti Mt. Goxin haltuunsa?
+answer: Kehittäjä, jolla on intohimo teknologiaa kohtaan
+wrong_answers:
+  - Asiantunteva sijoittaja digitaalisiin valuuttoihin
+  - Bitcoin-ideologian motivoima libertaariaktivisti
+  - Pörssikauppaan erikoistunut yrittäjä
+explanation: |
+ Mark Karpelès oli vuonna 1985 syntynyt ranskalainen kehittäjä, joka oli innostunut tietokoneista ja teknologiasta. Häntä ei motivoinut ideologia tai voitto,
+ vaan tekninen uteliaisuus.
+reviewed: true

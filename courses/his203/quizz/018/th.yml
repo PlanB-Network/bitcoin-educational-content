@@ -1,0 +1,9 @@
+question: รายการวิทยุเสรีนิยมใดในสหรัฐฯ ที่เป็นหนึ่งในรายการแรก ๆ ที่กล่าวถึงการมีอยู่ของตลาด Silk Road?
+answer: ฟรีทอล์คไลฟ์
+wrong_answers:
+  - The Bitcoin Show
+  - ทบทวนทุกสิ่งทุกอย่าง
+  - Infowars Nightly News
+explanation: |
+ Free Talk Live จัดโดย Ian Freeman และ Mark Edge ซึ่งค้นพบ Bitcoin ในเดือนธันวาคม 2010 และพบกับ Gavin Andresen ในเดือนกุมภาพันธ์ 2011 ในวันที่ 16 มีนาคม 2011 ครึ่งหนึ่งของรายการได้ทุ่มเทให้กับการใช้ Bitcoin บน Silk Road ซึ่งทำให้ Roger Ver ตัดสินใจเข้ามามีส่วนร่วมกับ Bitcoin มากขึ้น
+reviewed: true

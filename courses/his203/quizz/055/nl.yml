@@ -1,0 +1,10 @@
+question: Wat was het bedrijfsmodel achter BitPay, de betalingsverwerker die in de zomer van 2011 werd gelanceerd door Stephen Pair en Tony Gallippi?
+answer: Bitcoins van klanten tegen betaling direct omzetten in dollars
+wrong_answers:
+  - Klanten in staat stellen om direct bitcoin te kopen met dollarbetalingen, tegen een commissie
+  - Bitcoins uitlenen die door klanten zijn gestort en rente innen
+  - Bitcoin-betalingen doorsturen naar de blockchain en transactiekosten ontvangen
+explanation: |
+ Het idee achter BitPay was om handelaren de mogelijkheid te geven hun bitcoinbetalingen direct om te zetten in dollars, zodat ze zich konden indekken tegen
+ volatiliteit. BitPay voorzag klanten vooraf van dollars en rekende verwerkingskosten die aanvankelijk 1% bedroegen.
+reviewed: true

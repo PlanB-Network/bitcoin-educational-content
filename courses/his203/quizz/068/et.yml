@@ -1,0 +1,10 @@
+question: Millisel vahetusplatvormil varastati 2012. aasta septembri alguses 24 000 bitcoin'i?
+answer: Bitfloor
+wrong_answers:
+  - Mt. Gox
+  - Tradehill
+  - BTC-e
+explanation: |
+ Ööl vastu 3. ja 4. septembrit 2012 pääses häkker ligi Bitfloori wallet võtmete krüpteerimata varukoopiale ja suutis välja võtta veidi üle 24 000 BTC ehk
+ umbes 250 000 dollarit.
+reviewed: true

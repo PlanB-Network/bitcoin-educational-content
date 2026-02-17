@@ -1,0 +1,22 @@
+id: c541e187-ae80-475c-94d6-75273e3fa8fc
+name: Journal du Coin
+category: news
+links:
+  website: https://journalducoin.com
+  twitter: https://x.com/LeJournalDuCoin
+
+tags:
+  - adoption
+  - market-trends
+  - innovation
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2026-02-15
+    urgency: 1
+    contributor_names:
+      - Rogzy-DB
+    reward: 0
+contributor_names:
+  - Rogzy-DB
+license: CC-BY-SA-V4

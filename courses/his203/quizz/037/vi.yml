@@ -1,0 +1,11 @@
+question: Giao diện đồ họa được Wladimir van der Laan phát triển cho phần mềm chính vào năm 2011 có tên là gì?
+answer: Bitcoin-Qt
+wrong_answers:
+  - wxWindows-Bitcoin
+  - bitcoind
+  - Lõi Bitcoin
+explanation: |
+ Bitcoin-Qt là một sự cải tiến toàn diện giao diện đồ họa của Bitcoin. Nó được phát triển từ tháng 6 năm 2011 và được tích hợp vào phần mềm chính trong phiên bản 0.5,
+ phát hành vào ngày 21 tháng 11. Dựa trên khung đồ họa Qt, nó đã thay thế thư viện wxWindows ban đầu được sử dụng bởi Satoshi. Theo cách gọi hoán dụ, phần mềm được gọi là
+ Bitcoin-Qt từ đó trở đi.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Millä menetelmällä Tony76 perusti 20. huhtikuuta 2012 huijauksensa Silk Road -markkinapaikalle?
+answer: Myyjän moitteettoman maineen hyödyntäminen vaatia kauppojen pikaista loppuunsaattamista
+wrong_answers:
+  - Teknisen haavoittuvuuden hyväksikäyttö bitcoin-maksujen käsittelyssä alustalla
+  - Bitcoinin hinnan manipulointi Silk Roadin hintojen keinotekoiseksi paisuttamiseksi
+  - Silk Roadin työntekijän kiristäminen väärennettyjen tuotekuvausten painamiseen
+explanation: |
+ Tony76:lla oli erinomainen maine, minkä ansiosta hän saattoi vaatia ostajia käyttämään varhaista viimeistelyä escrow:n sijasta. Huhtikuun 20. päivä on symbolinen päivä
+ kannabiksen kuluttajille, hän tarjosi tilaisuuden kunniaksi useita alennuksia tavanomaisista tuotteistaan, ja tilauksia tuli runsaasti. Myöhemmin hän katosi bitcoinien kanssa, ja
+ eikä koskaan täyttänyt tilauksiaan.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Ve kterém internetovém médiu byl 1. června 2011 zveřejněn článek Adriana Chena, který na Silk Road upozornil veřejnost?
+answer: Gawker
+wrong_answers:
+  - Gizmodo
+  - Slashdot
+  - Hackernews
+explanation: |
+ Gawker.com byl vlivný blog, na kterém publikovala řada autorů někdy kontroverzní články. V roce 2016 zkrachoval na základě žaloby ze strany společnosti
+ Hulka Hogana a Petera Thiela.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Mitu eraldi häkkimist koges Bitcoinica kauplemisplatvorm enne pankroti väljakuulutamist?
+answer: 3
+wrong_answers:
+  - 1
+  - 2
+  - 4
+explanation: |
+ Kolm häkkimist olid järgmised: Linode'i konto häkkimine, mille tagajärjel kaotas platvorm 43 554 bitcoin'i; Rackspace'i konto häkkimine, mille tagajärjeks oli
+ 18 574 bitcoin'i kaotuse; Mt. Goxi konto häkkimine, mille käigus võttis häkker välja 40 000 bitcoin'i ja 40 000 LR-USD. Bitcoinica likvideerimine
+ kuulutati välja 1. augustil 2012.
+reviewed: true

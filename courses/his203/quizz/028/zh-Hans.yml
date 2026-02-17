@@ -1,0 +1,10 @@
+question: 2011 年 11 月，哪个软件创新性地将关键派生词 seed 表述为 12 个单词的句子？
+answer: Electrum
+wrong_answers:
+  - Spesmilo
+  - 层
+  - Paymium
+explanation: |
+ 这款 wallet 由法国开发商托马斯-沃格林（Thomas Voegtlin）设计。它的名字指的是一种天然的金银合金--"夷金"（electrum）。Electrum 是第一批
+ Electrum 是最早实现确定性结构的 wallet 之一，它的密钥来源于 seed，seed 表示十六进制字符串和 12 个单词的句子。
+reviewed: true

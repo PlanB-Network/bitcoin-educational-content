@@ -1,0 +1,10 @@
+question: Berapa perkiraan persentase aktivitas pada rantai Bitcoin yang mewakili Jalur Sutra pada akhir musim panas 2011?
+answer: 10 %
+wrong_answers:
+  - 3 %
+  - 30 %
+  - 90 %
+explanation: |
+ Menurut laporan berikutnya oleh Chainalysis, aktivitas Silk Road menyumbang hampir 10% dari volume yang diperdagangkan di saluran Bitcoin pada awal
+ September 2011.
+reviewed: true

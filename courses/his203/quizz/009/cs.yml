@@ -1,0 +1,10 @@
+question: Kterou hostingovou službu vedl Mark Karpelès před převzetím společnosti Mt. Gox?
+answer: KalyHost
+wrong_answers:
+  - TibanneHost
+  - WeHostYou
+  - PlanetHost
+explanation: |
+ To byla jen jedna z mnoha služeb, které jako nezávislý vývojář nabízel. V listopadu začal Mark Karpelès přijímat bitcoinové platby u společnosti KalyHost.
+ Ross Ulbricht tuto službu využíval také k hostování webové stránky Silkroadmarket.org, která přesměrovávala na Silk Road.
+reviewed: true

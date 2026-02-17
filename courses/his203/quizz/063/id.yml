@@ -1,0 +1,10 @@
+question: Layanan ekosistem Bitcoin mana yang TIDAK terpengaruh oleh peretasan layanan hosting Linode pada tanggal 1 Maret 2012?
+answer: Layanan pertukaran mata uang asing BitInstant, yang dikelola oleh Charlie Shrem
+wrong_answers:
+  - Platform perdagangan Bitcoinica, yang dikelola oleh Zhou Tong
+  - Koperasi BitcoinCZ Mining mining, dikelola oleh Slush
+  - Keran Bitcoin, dikelola oleh Gavin Andresen
+explanation: |
+ Peretas mengakses portal layanan pelanggan perusahaan dan mengambil kendali atas delapan akun, yang semuanya memiliki hubungan dengan Bitcoin. Dia menyita 43.554
+ bitcoin milik Bitcoinica, menghapus 3.094 bitcoin dari hot wallet koperasi Slush dan mendapatkan 5 bitcoin yang ada di keran Bitcoin milik Gavin.
+reviewed: true

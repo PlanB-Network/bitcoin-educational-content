@@ -1,0 +1,10 @@
+question: Hvilket problem skulle Namecoin, den første alternative kryptovalutaen til Bitcoin, løse?
+answer: Sentralisering av domenenavn
+wrong_answers:
+  - Omdømmehåndtering på nett
+  - Problemet med mining-varians
+  - Den skjeve fordelingen av bitcoins
+explanation: |
+ Domenenavnsystemet overvåkes av ICANN, en ideell organisasjon som er stiftet i henhold til californisk lov, noe som skaper problemer med sensur. BitDNS-konseptet
+ (senere omdøpt til Namecoin) besto i å plassere forvaltningen av disse domenenavnene på en blokkjede som ligner på Bitcoin for å omgå dette problemet.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Mikä Russell O'Connorin helmikuussa 2012 havaitsema tietoturvaongelma johti BIP 30:n luomiseen?
+answer: Lohkoketjussa on päällekkäisiä transaktioita
+wrong_answers:
+  - Bysanttilaisten kenraalien ongelma konsensuksen mitätöimisestä
+  - OP_EVAL-käskyssä oleva rekursiovirhe
+  - OP_CHECKMULTISIG:n operaattorin suorittama ylimääräisen elementin poisto
+explanation: |
+ Nämä olivat palkintotapahtumia, joissa sama tunniste sisältyi eri lohkoihin. Helmikuun 4. päivänä 2012 Russell O'Connor löysi haavoittuvuuden, joka johti siihen, että
+ joka mahdollisti sen, että kaikki yhdestä tällaisesta kaksoistapahtumasta syntyneet transaktiot voitiin poistaa kokonaan ketjun uudelleenjärjestelyn avulla. Korjaus, joka on kuvattu
+ BIP 30 by Pieter Wuille, levitettiin verkkoon 15. maaliskuuta.
+reviewed: true

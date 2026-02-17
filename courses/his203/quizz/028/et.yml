@@ -1,0 +1,10 @@
+question: Milline tarkvara uuendas 2011. aasta novembris võtme tuletamise seed esitamist 12-sõnalise lausena?
+answer: Electrum
+wrong_answers:
+  - Spesmilo
+  - Stratum
+  - Paymium
+explanation: |
+ Selle wallet lõi prantsuse arendaja Thomas Voegtlin. Selle nimi viitab electrumile, mis on kulla ja hõbeda looduslik sulam. Electrum oli üks esimesi
+ wallet, mis rakendas deterministlikku struktuuri, mis tuletas võtmed seed-st, mida ta kujutas nii kuueteistkümnendsüsteemi märgijada kui ka 12-sõnalise lausena.
+reviewed: true

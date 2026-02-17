@@ -1,0 +1,10 @@
+question: Mikä oli Charlie Leen lokakuussa 2011 luoman kryptovaluutan Litecoinin markkinointipuhe?
+answer: Ole hopealle sama kuin Bitcoin kullalle
+wrong_answers:
+  - Henkisen valuutan luominen
+  - Bitcoin:n seuraaja, kun se romahtaa
+  - Vapaiden ohjelmistojen maailman rahoittaminen
+explanation: |
+ Litecoin oli sekä nopeampi (lohkoaika on 2 minuuttia 30 eikä 10 minuuttia) että vähemmän niukka (84 miljoonaa kappaletta eikä 21) kuin Bitcoin, joten arvokas
+ metallien analogia. Charlie Lee itse sisällytti tämän vertailun kryptovaluuttansa alkuperäiseen kuvaukseen.
+reviewed: true

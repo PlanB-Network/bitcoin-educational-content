@@ -1,0 +1,10 @@
+question: 2012년 9월 마렉 팔라티누스(일명 슬러시)가 채굴자와 mining 풀 간의 교환을 개선하기 위해 개발한 mining 프로토콜은 어느 것입니까?
+answer: 계층
+wrong_answers:
+  - Electrum
+  - Getwork
+  - 블록 템플릿 가져오기(GBT)
+explanation: |
+ Stratum은 씬 클라이언트를 위한 mining 프로토콜이었습니다. 이 프로토콜은 그때까지 사용되던 초보적인 getwork 기능을 빠르게 대체했고, 경쟁 관계에 있던 겟블록템플릿 제안을
+ 겟블록템플레이트 제안을 희생시키며 자리를 잡았습니다.
+reviewed: true

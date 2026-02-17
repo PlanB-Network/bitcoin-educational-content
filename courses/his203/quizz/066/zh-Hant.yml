@@ -1,0 +1,11 @@
+question: 上一次發生在 2012 年 7 月的 Bitcoinica 黑客入侵事件是誰間接造成的？
+answer: Amir Taaki
+wrong_answers:
+  - 周通
+  - 陳建海
+  - Mark Karpelès
+explanation: |
+ 他在 7 月 7 日公佈了該平台的完整原始碼，其中包含 Bitcoinica 的 LastPass 保險箱密碼，而 LastPass 保險箱密碼又包含他的
+ Gox 帳戶的密碼。40,000 比特幣和 40,000 LR-USD 被提取。Amir Taaki 承認了這一行為，但將責任歸咎於 Bitcoinica 的管理層、
+ 與他有衝突。
+reviewed: true

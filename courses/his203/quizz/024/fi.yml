@@ -1,0 +1,10 @@
+question: Minkä kansallisuuden oli Mircea Popescu, MPEx-alustan perustaja, joka tarjosi osto- ja myyntioptioita sekä mahdollisuuden laskea liikkeeseen osakkeita ja joukkovelkakirjoja?
+answer: Romanian
+wrong_answers:
+  - American
+  - Kiinalainen
+  - Hän oli kansalaisuudeton
+explanation: |
+ Hän oli kiistelty hahmo yhteisössä. Hän oli alun perin kotoisin Transilvaniasta Romaniasta ja kirjoitti laajasti Trilema-blogiinsa sekä romaniaksi että englanniksi.
+ Hän käsitteli kaikenlaisia aiheita, kuten filosofiaa, politiikkaa ja seksuaalisuutta, tarkoituksellisen provosoivalla tyylillä. Hän kuoli vuonna 2021 41-vuotiaana.
+reviewed: true

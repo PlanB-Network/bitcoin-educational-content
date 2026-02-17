@@ -1,0 +1,10 @@
+question: Mark Karpelès Mt. Gox'u devralmadan önce kimdi?
+answer: Teknoloji tutkusu olan bir geliştirici
+wrong_answers:
+  - Dijital para birimlerinde uzman bir yatırımcı
+  - Bitcoin ideolojisi tarafından motive edilen özgürlükçü aktivist
+  - Borsa ticaretinde uzmanlaşmış bir girişimci
+explanation: |
+ Mark Karpelès 1985 doğumlu, bilgisayar ve teknoloji tutkunu bir Fransız geliştiriciydi. İdeoloji ya da kâr amacı gütmüyordu,
+ ama teknik meraktan dolayı.
+reviewed: true

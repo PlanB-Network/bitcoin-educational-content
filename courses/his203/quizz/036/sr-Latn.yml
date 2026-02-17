@@ -1,0 +1,9 @@
+question: Šta "pool hopping" podrazumeva za rudara koji delegira svoju hash stopu mining bazenu?
+answer: Isključivanje iz mining bazena nakon što je određeni broj deonica podnet u ciklusu, i preusmeravanje računske snage na vaš sopstveni nalog ili na drugi mining bazen
+wrong_answers:
+  - Usvajanje komunikacionog protokola koji zahteva veliku širinu pojasa za interakciju sa mining bazenom kako bi se smanjile zastarele deonice optimizacijom najave novih blokova
+  - Izvođenje nekoliko fiktivnih transakcija unutar mining bazena kako bi se simulirao prenos vlasništva nad bitcoinom i povećala poverljivost delegiranih rudara
+  - Pisanje imena mining bazena u polje za unos transakcije nagrade iskopanog bloka, kako bi rad mining bazena bio transparentniji.
+explanation: |
+ Ovu metodu je opisao Raulo u februaru 2011. godine, koji je procenio da bi pojedinac mogao dobiti 28% više bitkoina na ovaj način. To je motivisalo uvođenje "anti-cheating" skora unutar Slush zadruge.
+reviewed: true

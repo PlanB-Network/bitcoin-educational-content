@@ -882,6 +882,14 @@ Spillteorien som brukes på Bitcoin, eliminerer uærlige utvinnere, som bruker A
 
 
 
+Dersom du ønsker å fordype deg i det spesifikke emnet Bitcoin-mining, kan du konsultere vårt kurs MIN 101. Der finner du en detaljert teoretisk forklaring av prinsippet om proof of work og hvordan det fungerer, samt alle tilhørende konsepter.
+
+https://planb.academy/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e
+
+Jeg anbefaler også at du oppdager dette mer avanserte praktiske kurset, der vi forklarer hvordan du kan gjøre om en ASIC til et DIY-varmesystem for hjemmet, for å utnytte varmen som produseres av mining og tjene dine første satoshier!
+
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+
 ## Bitcoin og økologi
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>

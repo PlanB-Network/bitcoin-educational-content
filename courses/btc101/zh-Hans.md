@@ -882,6 +882,14 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 
 
+如果您希望深入了解比特币挖矿这一特定主题，您可以查阅我们的 MIN 101 课程。在课程中，您将找到关于工作量证明原理及其运行方式的详细理论解释，以及与之相关的所有概念。
+
+https://planb.academy/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e
+
+我还建议您了解这门更高级的实践课程，我们将在其中讲解如何将 ASIC 改造成 DIY 家用供暖系统，以利用挖矿产生的热量并赚取您的第一批聪！
+
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+
 ## 比特币与生态学
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>

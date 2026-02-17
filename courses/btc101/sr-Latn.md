@@ -1319,6 +1319,14 @@ Teorija igara primenjena na Bitkoin eliminiše nepoštene rudare, koji koriste A
 
 
 
+Ukoliko želite da produbite znanje o specifičnoj temi rudarenja Bitkoina, možete pogledati naš kurs MIN 101. U njemu ćete pronaći detaljno teorijsko objašnjenje principa proof of work i njegovog funkcionisanja, kao i sve povezane koncepte.
+
+https://planb.academy/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e
+
+Takođe vam preporučujem da otkrijete ovaj napredniji praktični kurs, u kojem objašnjavamo kako da pretvorite ASIC u DIY sistem kućnog grejanja, kako biste iskoristili toplotu proizvedenu rudarenjem i zaradili svoje prve satošije!
+
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+
 ## Bitkoin i ekologija
 
 

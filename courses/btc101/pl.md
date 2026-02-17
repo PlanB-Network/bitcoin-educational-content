@@ -1320,6 +1320,14 @@ Teoria gier zastosowana w Bitcoin eliminuje nieuczciwych górników, którzy uż
 
 
 
+Jeśli chcesz pogłębić wiedzę na temat konkretnego zagadnienia kopania Bitcoina, możesz zapoznać się z naszym kursem MIN 101. Znajdziesz w nim szczegółowe teoretyczne wyjaśnienie zasady proof of work i jej działania, a także wszystkie powiązane z nią koncepcje.
+
+https://planb.academy/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e
+
+Polecam również zapoznać się z tym bardziej zaawansowanym kursem praktycznym, w którym wyjaśniamy, jak przekształcić ASIC w domowy system ogrzewania typu DIY, aby wykorzystać ciepło wytwarzane przez kopanie i zdobyć swoje pierwsze satoshi!
+
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+
 ## Bitcoin i ekologia
 
 

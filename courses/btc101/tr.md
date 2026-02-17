@@ -1319,6 +1319,14 @@ Bitcoin'ye uygulanan oyun teorisi, madencilik yapmak için ASIC makinelerini kul
 
 
 
+Bitcoin madenciliği konusunu daha derinlemesine incelemek isterseniz, MIN 101 kursumuza başvurabilirsiniz. Orada proof of work ilkesinin ve nasıl çalıştığının ayrıntılı teorik açıklamasını ve bununla ilişkili tüm kavramları bulacaksınız.
+
+https://planb.academy/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e
+
+Ayrıca, daha ileri düzeyde olan bu pratik kursu da keşfetmenizi tavsiye ederim. Bu kursta, mining tarafından üretilen ısıyı değerlendirmek ve ilk satoshilerinizi kazanmak için bir ASIC’i DIY ev ısıtma sistemine nasıl dönüştüreceğinizi açıklıyoruz!
+
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+
 ## Bitcoin ve Ekoloji
 
 

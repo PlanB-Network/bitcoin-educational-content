@@ -881,6 +881,14 @@ La teoria dei giochi applicata a Bitcoin elimina i miner disonesti, che utilizza
 
 
 
+Se desiderate approfondire l’argomento specifico del mining di Bitcoin, potete consultare il nostro corso MIN 101. Vi troverete una spiegazione teorica dettagliata del principio della proof of work e del suo funzionamento, nonché l’insieme dei concetti ad esso associati.
+
+https://planb.academy/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e
+
+Vi consiglio inoltre di scoprire questo corso pratico più avanzato, nel quale vi spieghiamo come trasformare un ASIC in un sistema di riscaldamento domestico DIY, al fine di valorizzare il calore prodotto dal mining e guadagnare i vostri primi satoshi!
+
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+
 ## Bitcoin ed ecologia
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>

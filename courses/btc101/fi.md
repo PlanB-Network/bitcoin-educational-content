@@ -882,6 +882,14 @@ Bitcoiniin sovellettu peliteoria eliminoi epärehelliset louhijat, jotka käytt�
 
 
 
+Jos haluat syventää tietämystäsi Bitcoinin louhinnan erityisaiheesta, voit tutustua kurssiimme MIN 101. Sieltä löydät yksityiskohtaisen teoreettisen selityksen proof of work -periaatteesta ja sen toiminnasta sekä kaikki siihen liittyvät käsitteet.
+
+https://planb.academy/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e
+
+Suosittelen myös tutustumaan tähän edistyneempään käytännön kurssiin, jossa selitämme, kuinka voit muuttaa ASIC-laitteen DIY-kotilämmitysjärjestelmäksi hyödyntääksesi louhinnan tuottamaa lämpöä ja ansaitaksesi ensimmäiset satoshisi!
+
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+
 ## Bitcoin ja ekologia
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>

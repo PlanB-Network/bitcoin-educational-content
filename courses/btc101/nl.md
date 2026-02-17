@@ -880,6 +880,14 @@ De speltheorie toegepast op Bitcoin elimineert oneerlijke miners, die ASIC machi
 
 
 
+Als u zich verder wilt verdiepen in het specifieke onderwerp van Bitcoin-mining, kunt u onze cursus MIN 101 raadplegen. Daar vindt u een gedetailleerde theoretische uitleg van het principe van proof of work en de werking ervan, evenals alle bijbehorende concepten.
+
+https://planb.academy/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e
+
+Ik raad u ook aan deze meer geavanceerde praktische cursus te ontdekken, waarin wij uitleggen hoe u een ASIC kunt omvormen tot een DIY-huisverwarmingssysteem, om de door mining geproduceerde warmte te benutten en uw eerste satoshi’s te verdienen!
+
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+
 ## Bitcoin en Ecologie
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>

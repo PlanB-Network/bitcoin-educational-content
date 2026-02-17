@@ -882,6 +882,14 @@ A teoria dos jogos aplicada à Bitcoin elimina os mineiros desonestos, que utili
 
 
 
+Se desejar aprofundar o tema específico da mineração de Bitcoin, pode consultar o nosso curso MIN 101. Nele encontrará uma explicação teórica detalhada do princípio da prova de trabalho e do seu funcionamento, bem como o conjunto de conceitos a ele associados.
+
+https://planb.academy/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e
+
+Recomendo igualmente que descubra este curso prático mais avançado, no qual explicamos como transformar um ASIC num sistema de aquecimento doméstico DIY, a fim de valorizar o calor produzido pela mineração e ganhar os seus primeiros satoshis!
+
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+
 ## Bitcoin e Ecologia
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>

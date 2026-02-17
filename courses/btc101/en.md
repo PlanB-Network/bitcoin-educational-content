@@ -874,6 +874,14 @@ The game theory applied to Bitcoin eliminates dishonest miners, who use ASIC mac
 
 
 
+If you wish to explore the specific topic of Bitcoin mining in greater depth, you may consult our MIN 101 course. You will find a detailed theoretical explanation of the principle of proof of work and how it operates, as well as all the concepts associated with it.
+
+https://planb.academy/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e
+
+I also recommend discovering this more advanced practical course, in which we explain how to turn an ASIC into a DIY home heating system, in order to make use of the heat produced by mining and earn your first satoshis!
+
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+
 ## Bitcoin and Ecology
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>

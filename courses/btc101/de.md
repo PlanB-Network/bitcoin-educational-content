@@ -883,6 +883,14 @@ Die auf Bitcoin angewandte Spieltheorie schließt unehrliche Miner aus, die ASIC
 
 
 
+Wenn Sie das spezifische Thema des Bitcoin-Minings vertiefen möchten, können Sie unseren Kurs MIN 101 konsultieren. Dort finden Sie eine ausführliche theoretische Erklärung des Prinzips des Proof of Work und seiner Funktionsweise sowie sämtliche damit verbundenen Konzepte.
+
+https://planb.academy/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e
+
+Ich empfehle Ihnen außerdem, diesen fortgeschritteneren Praxiskurs zu entdecken, in dem wir Ihnen erklären, wie Sie einen ASIC in ein DIY-Heimheizungssystem umwandeln können, um die beim Mining erzeugte Wärme zu nutzen und Ihre ersten Satoshis zu verdienen!
+
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+
 ## Bitcoin und Ökologie
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>

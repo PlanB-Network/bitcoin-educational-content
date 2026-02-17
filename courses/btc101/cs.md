@@ -882,6 +882,14 @@ Teorie hry aplikovaná na Bitcoin eliminuje nepoctivé těžaře, kteří k tě�
 
 
 
+Pokud si přejete prohloubit znalosti o specifickém tématu těžby Bitcoinu, můžete si prostudovat náš kurz MIN 101. Najdete v něm podrobné teoretické vysvětlení principu důkazu práce a jeho fungování, stejně jako všechny související koncepty.
+
+https://planb.academy/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e
+
+Doporučuji vám také objevit tento pokročilejší praktický kurz, ve kterém vám vysvětlujeme, jak přeměnit ASIC na domácí topný systém typu DIY, abyste využili teplo produkované těžbou a získali své první satoshi!
+
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+
 ## Bitcoin a ekologie
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>

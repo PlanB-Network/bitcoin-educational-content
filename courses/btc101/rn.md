@@ -1319,6 +1319,14 @@ Urukino rw'amajambo rwakoreshejwe muri Bitcoin birakuraho abacukuzi b'ububeshi, 
 
 
 
+Nimba wifuza kwagura ubumenyi ku bijanye n’icukura rya Bitcoin, murashobora kuraba inyigisho yacu MIN 101. Muri yo muzoronka insiguro irambuye y’inyigisho y’icemezo c’akazi n’ingene gikora, hamwe n’ivyiyumviro vyose bifitaniye isano na co.
+
+https://planb.academy/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e
+
+Ndabagusavye kandi kuvumbura iyi nyigisho ngirakamaro kandi irushijeho gutera imbere, aho tubasigurira ukuntu mwoshobora guhindura ASIC ikaba uburyo bwo gushusha inzu bwa DIY, kugira ngo mukoreshe neza ubushuhe buva mu bucukuzi kandi muronke amasatoshi yanyu ya mbere!
+
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+
 ## Bitcoin n'Ibidukikije
 
 

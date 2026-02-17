@@ -884,6 +884,14 @@ Bitcoini suhtes rakendatud mänguteooria välistab ebaausad kaevurid, kes kasuta
 
 
 
+Kui soovite süvendada teadmisi Bitcoini kaevandamise spetsiifilise teema kohta, võite tutvuda meie kursusega MIN 101. Sealt leiate üksikasjaliku teoreetilise selgituse töötõendi põhimõttest ja selle toimimisest ning kõik sellega seotud mõisted.
+
+https://planb.academy/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e
+
+Soovitan teil samuti tutvuda selle edasijõudnuma praktilise kursusega, kus selgitame, kuidas muuta ASIC DIY-koduseks küttesüsteemiks, et kasutada kaevandamisest tekkivat soojust ja teenida oma esimesed satoshid!
+
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+
 ## Bitcoin ja ökoloogia
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>

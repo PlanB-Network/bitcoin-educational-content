@@ -1,211 +1,310 @@
 ---
 name: Bull Bitcoin
-description: Buy and sell bitcoins on Bull Bitcoin
+description: Mua và bán bitcoin trên Bull Bitcoin
 ---
 ![cover](assets/cover.webp)
 
-Bull Bitcoin is a Bitcoin-only exchange platform founded in 2013 in Canada by Francis Pouliot, an iconic figure in the Bitcoin ecosystem. Bull Bitcoin's philosophy is to offer users tools for financial sovereignty and emancipation. The exchange platform is non-custodial, which means you always remain sovereign over your Bitcoins.
 
-Ban đầu chỉ có sẵn tại Canada, nền tảng này hiện đã có mặt tại Châu Âu và nhiều quốc gia khác, với giao diện mới được tối ưu hóa. Phiên bản mới của Bull Bitcoin cho phép bạn mua và bán bitcoin một cách dễ dàng và nhanh chóng nhờ sử dụng Lightning và chuyển khoản SEPA tức thì. Nó cũng tích hợp thanh toán hóa đơn bằng bitcoin. Trong tương lai, nền tảng sẽ tích hợp các tùy chọn DCA, mua tự động và lệnh giới hạn.
+Bull Bitcoin là một nền tảng giao dịch chỉ dành cho Bitcoin, được thành lập vào năm 2013 tại Canada bởi Francis Pouliot, một nhân vật tiêu biểu trong hệ sinh thái Bitcoin. Triết lý của Bull Bitcoin là cung cấp cho người dùng các công cụ để đạt được chủ quyền và tự do tài chính. Nền tảng giao dịch này không lưu giữ tài sản của người dùng, có nghĩa là bạn luôn giữ quyền tự chủ đối với Bitcoin của mình.
 
-Bull Bitcoin cam kết cung cấp dịch vụ minh bạch và không có phí ẩn. Lưu ý rằng, giống như hầu hết các sàn giao dịch, việc sử dụng Bull Bitcoin yêu cầu hoàn thành quy trình KYC (xác minh danh tính khách hàng).
 
-## Register on Bull Bitcoin
+Ban đầu chỉ có mặt tại Canada, nền tảng này hiện đã có mặt tại châu Âu và nhiều quốc gia khác, với giao diện hoàn toàn mới được tối ưu hóa. Phiên bản Bull Bitcoin mới này cho phép bạn mua và bán bitcoin một cách dễ dàng và nhanh chóng, nhờ sử dụng Lightning và chuyển khoản SEPA tức thời. Nó cũng tích hợp thanh toán hóa đơn bằng bitcoin. Trong tương lai, nền tảng này cũng sẽ tích hợp các tùy chọn DCA, mua tự động và lệnh giới hạn.
 
-Go to Bull Bitcoin's [registration page](https://accounts.bullbitcoin.com/en/registration) to create a new account. Enter your e-mail address and choose a strong password. Then press "*Sign up*".
+
+Bull Bitcoin cam kết cung cấp dịch vụ minh bạch, không có phí ẩn. Xin lưu ý rằng, giống như hầu hết các sàn giao dịch khác, việc sử dụng Bull Bitcoin yêu cầu hoàn thành thủ tục KYC (Xác minh danh tính khách hàng).
+
+
+## Đăng ký trên Bull Bitcoin
+
+
+Truy cập trang đăng ký của Bull Bitcoin (https://accounts.bullbitcoin.com/en/registration) để tạo tài khoản mới. Nhập địa chỉ email của bạn và chọn mật khẩu mạnh. Sau đó nhấn "Đăng ký".
+
 
 ![BULL](assets/fr/01.webp)
 
-A 6-digit confirmation code will be sent to you by e-mail.
+
+Mã xác nhận gồm 6 chữ số sẽ được gửi cho bạn qua email.
+
 
 ![BULL](assets/fr/02.webp)
 
-Enter this code on the Bull Bitcoin website and press "*Continue*".
+
+Nhập mã này trên trang web Bull Bitcoin và nhấn "*Tiếp tục*".
+
 
 ![BULL](assets/fr/03.webp)
 
-Your account is now active and you can access the platform.
+
+Tài khoản của bạn hiện đã được kích hoạt và bạn có thể truy cập vào nền tảng.
+
 
 ![BULL](assets/fr/04.webp)
 
-## Setting up your account
 
-Now let's secure your account. Click on "*My Account*".
+## Thiết lập tài khoản của bạn
+
+
+Bây giờ hãy bảo mật tài khoản của bạn. Nhấp vào "*Tài khoản của tôi*".
+
 
 ![BULL](assets/fr/05.webp)
 
-Go to the "*Security Settings*" tab and select "*Access Settings*".
+
+Vào tab "*Cài đặt bảo mật*" và chọn "*Cài đặt truy cập*".
+
 
 ![BULL](assets/fr/06.webp)
 
-Choose "*Add two-factor authentication*" to add an extra layer of security to your account.
+
+Chọn "*Thêm xác thực hai yếu tố*" để thêm một lớp bảo mật nữa cho tài khoản của bạn.
+
 
 ![BULL](assets/fr/07.webp)
 
-Scan the QR code with your authentication application, enter the 6-digit code and click on "*Activate 2FA*".
+
+Quét mã QR bằng ứng dụng xác thực của bạn, nhập mã 6 chữ số và nhấp vào "*Kích hoạt xác thực hai yếu tố*".
+
 
 ![BULL](assets/fr/08.webp)
 
-If you're not familiar with using authentication applications for the 2FA, I recommend you take a look at this tutorial on the Authy application:
+
+Nếu bạn chưa quen với việc sử dụng các ứng dụng xác thực cho xác thực hai yếu tố (2FA), tôi khuyên bạn nên xem hướng dẫn này về ứng dụng Authy:
+
 
 https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-Enter your password to confirm.
+Nhập mật khẩu của bạn để xác nhận.
+
 
 ![BULL](assets/fr/09.webp)
 
-Dual authentication configuration is now complete.
+
+Quá trình cấu hình xác thực kép đã hoàn tất.
+
 
 ![BULL](assets/fr/10.webp)
 
-I recommend that you save your recovery codes. To generate them, click on "*Manage 2FA backup codes*".
+
+Tôi khuyên bạn nên lưu lại mã khôi phục của mình. Để tạo mã, hãy nhấp vào "*Quản lý mã sao lưu xác thực hai yếu tố*".
+
 
 ![BULL](assets/fr/11.webp)
 
-Select "*Generate new backup recovery codes*" and store these codes in a safe place.
+
+Chọn "*Tạo mã khôi phục bản sao lưu mới*" và lưu trữ các mã này ở một nơi an toàn.
+
 
 ![BULL](assets/fr/12.webp)
 
-To further customize your interface, go to the "*App Settings*" tab, where you can choose the language and fiat currency of your choice.
+
+Để tùy chỉnh giao diện hơn nữa, hãy vào tab "*Cài đặt ứng dụng*", nơi bạn có thể chọn ngôn ngữ và đơn vị tiền tệ mà mình muốn.
+
 
 ![BULL](assets/fr/13.webp)
 
+
 ## KYC
 
-To access the full functionality of Bull Bitcoin, which is a regulated platform, you need to perform identity verification (KYC). Click on "*Continue Verification*".
+
+Để truy cập đầy đủ các chức năng của Bull Bitcoin, một nền tảng được quản lý chặt chẽ, bạn cần thực hiện xác minh danh tính (KYC). Nhấp vào "*Tiếp tục xác minh*".
+
 
 ![BULL](assets/fr/14.webp)
 
-Select "*Personal Account*".
+
+Chọn "*Tài khoản cá nhân*".
+
 
 ![BULL](assets/fr/15.webp)
 
-Fill in your personal information and follow the steps of the verification process. You will be asked :
+
+Hãy điền thông tin cá nhân của bạn và làm theo các bước trong quy trình xác minh. Bạn sẽ được hỏi:
 
 
-- Your first and last name ;
-- Your telephone number ;
-- Your postal address ;
-- Your date of birth, your profession and your intentions on the platform (invest, sell, pay, etc.);
-- ID and a selfie;
+
+
+- Họ và tên của bạn;
+- Số điện thoại của bạn;
+- Địa chỉ bưu điện của bạn;
+- Ngày sinh, nghề nghiệp và mục đích sử dụng nền tảng của bạn (đầu tư, bán, thanh toán, v.v.);
+- Chứng minh thư và ảnh tự chụp;
+
 
 ![BULL](assets/fr/16.webp)
 
-This verification should be confirmed shortly. Once validated, you will have access to all the features offered by the platform.
 
-## Deposit fiat money
+Quá trình xác minh này sẽ được hoàn tất trong thời gian ngắn. Sau khi được xác nhận, bạn sẽ có quyền truy cập vào tất cả các tính năng mà nền tảng cung cấp.
 
-Before you start buying and selling bitcoin on Bull, it's important to understand that the platform never stores your sats. This means that to buy bitcoin, you must immediately transfer your funds to a self-custody wallet. Similarly, to sell, you need to send your bitcoins from a self-custody wallet to Bull. They will then be converted into fiat currency on receipt. It is not possible to store bitcoins directly on the platform. However, you can keep a balance in euros.
 
-To get started, you'll probably want to deposit some euros with Bull to buy your first sats. Click on "*Deposit funds*".
+## Nạp tiền pháp định
+
+
+Trước khi bắt đầu mua và bán bitcoin trên Bull, điều quan trọng là bạn cần hiểu rằng nền tảng này không bao giờ lưu trữ sats của bạn. Điều này có nghĩa là để mua bitcoin, bạn phải chuyển tiền ngay lập tức vào wallet tự quản lý. Tương tự, để bán, bạn cần gửi bitcoin từ wallet tự quản lý đến Bull. Sau đó, chúng sẽ được chuyển đổi thành tiền tệ pháp định khi nhận được. Không thể lưu trữ bitcoin trực tiếp trên nền tảng này. Tuy nhiên, bạn có thể giữ số dư bằng euro.
+
+
+Để bắt đầu, có lẽ bạn sẽ muốn nạp một ít tiền euro vào Bull để mua chiếc sats đầu tiên của mình. Nhấp vào "*Nạp tiền*".
+
 
 ![BULL](assets/fr/17.webp)
 
-Select "*SEPA transfer*".
+
+Chọn "*Chuyển khoản SEPA*".
+
 
 ![BULL](assets/fr/18.webp)
 
-The platform's bank details will be displayed. Make an instant SEPA transfer to the beneficiary indicated, from a bank account in your name (the same as the one used for KYC on the platform). Be sure to include the transfer code shown on this page in the description of the transfer.
+
+Thông tin tài khoản ngân hàng của nền tảng sẽ được hiển thị. Thực hiện chuyển khoản SEPA tức thì cho người thụ hưởng được chỉ định, từ một tài khoản ngân hàng mang tên bạn (giống với tài khoản đã sử dụng để xác minh danh tính trên nền tảng). Hãy chắc chắn bao gồm mã chuyển khoản hiển thị trên trang này trong phần mô tả chuyển khoản.
+
 
 ![BULL](assets/fr/19.webp)
 
-As soon as we receive your transfer, your balance in euros will be updated.
+
+Ngay sau khi chúng tôi nhận được khoản chuyển khoản của bạn, số dư tài khoản bằng euro của bạn sẽ được cập nhật.
+
 
 ![BULL](assets/fr/20.webp)
 
-## Buy bitcoins
 
-Now that you've credited your account with euros, it's time to buy your first sats. Click on "Buy Bitcoin".
+## Mua bitcoin
+
+
+Giờ tài khoản của bạn đã được cộng thêm tiền euro, đã đến lúc mua sats đầu tiên. Hãy nhấp vào "Mua Bitcoin".
+
 
 ![BULL](assets/fr/21.webp)
 
-Enter the amount you wish to purchase. You'll also need to choose how you want to withdraw your sats. For small amounts, I recommend the Lightning option, but on-chain or Liquid withdrawals are also available. In the latter case, you'll need to provide the address to which to send the funds. Once you've filled in your details, click on "*Continue*".
+
+Nhập số lượng bạn muốn mua. Bạn cũng cần chọn cách rút sats. Đối với số tiền nhỏ, tôi khuyên dùng tùy chọn Lightning, nhưng bạn cũng có thể rút on-chain hoặc Liquid. Trong trường hợp sau, bạn cần cung cấp địa chỉ nhận tiền. Sau khi điền đầy đủ thông tin, hãy nhấp vào "*Tiếp tục*".
+
 
 ![BULL](assets/fr/22.webp)
 
-If you're not familiar with using Bitcoin, Lightning or Liquid wallets, I suggest you take our dedicated training course:
+
+Nếu bạn chưa quen với việc sử dụng Bitcoin, Lightning hoặc Liquid wallet, tôi khuyên bạn nên tham gia khóa đào tạo chuyên sâu của chúng tôi:
+
 
 https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-You can also explore [our detailed tutorials on the best Bitcoin wallets](https://planb.academy/tutorials/wallet).
+Bạn cũng có thể tham khảo [các hướng dẫn chi tiết của chúng tôi về các mẫu Bitcoin wallet tốt nhất](https://planb.academy/tutorials/wallet).
 
-Then confirm your purchase by clicking on "*Confirm Buy*".
+
+Sau đó, xác nhận mua hàng bằng cách nhấp vào "*Xác nhận mua hàng*".
+
 
 ![BULL](assets/fr/23.webp)
 
-For my part, having opted for a withdrawal via Lightning, I have three options for recovering my sats:
+
+Về phần tôi, vì đã chọn rút tiền qua Lightning, tôi có ba lựa chọn để lấy lại sats của mình:
 
 
-- LNURL by scanning a QR code ;
-- By providing my Lightning address ;
-- By providing an invoice for the amount of the purchase.
 
-The LNURL method is the simplest. It is available in most Lightning portfolios, such as Phoenix, where you simply select "*Receive*" then "*Scan*".
+
+- LNURL bằng cách quét mã QR;
+- Bằng cách cung cấp địa chỉ Lightning của tôi;
+- Bằng cách cung cấp hóa đơn ghi rõ số tiền mua hàng.
+
+
+Phương pháp LNURL là đơn giản nhất. Phương pháp này có sẵn trên hầu hết các thiết bị Lightning wallet, chẳng hạn như Phoenix, nơi bạn chỉ cần chọn "*Nhận*" rồi "*Quét*".
+
 
 ![BULL](assets/fr/24.webp)
 
-Your bitcoins are now secure in your wallet.
+
+Bitcoin của bạn hiện đã được bảo mật trong wallet.
+
 
 ![BULL](assets/fr/25.webp)
 
-## Selling bitcoins
 
-To sell bitcoins, the procedure is very simple. Click on "*Sell Bitcoin*".
+## Bán bitcoin
+
+
+Để bán bitcoin, quy trình rất đơn giản. Nhấp vào "*Bán Bitcoin*".
+
 
 ![BULL](assets/fr/26.webp)
 
-Enter the amount you wish to sell and select the method for transferring the sats to Bull Bitcoin. For small amounts, I recommend the Lightning option. Then click on "*Continue*".
+
+Nhập số lượng bạn muốn bán và chọn phương thức chuyển đổi sats sang Bull Bitcoin. Đối với số lượng nhỏ, tôi khuyên dùng tùy chọn Lightning. Sau đó nhấp vào "*Tiếp tục*".
+
 
 ![BULL](assets/fr/27.webp)
 
-Choose the account to which you would like to receive the euros from the sale. You can select your account on the platform or an external bank account. Click on "*Continue*".
+
+Chọn tài khoản mà bạn muốn nhận tiền euro từ giao dịch bán hàng. Bạn có thể chọn tài khoản của mình trên nền tảng hoặc tài khoản ngân hàng bên ngoài. Nhấp vào "*Tiếp tục*".
+
 
 ![BULL](assets/fr/28.webp)
 
-The instructions for carrying out the transaction are then displayed. In my Lightning example, I'll be paying an invoice.
+
+Sau đó, các hướng dẫn để thực hiện giao dịch sẽ được hiển thị. Trong ví dụ Lightning của tôi, tôi sẽ thanh toán một hóa đơn.
+
 
 ![BULL](assets/fr/29.webp)
 
-Once payment has been confirmed, your balance will be updated.
+
+Sau khi thanh toán được xác nhận, số dư tài khoản của bạn sẽ được cập nhật.
+
 
 ![BULL](assets/fr/30.webp)
 
-## Withdraw fiat currency
 
-If you have euros on Bull Bitcoin and wish to transfer them to an external bank account, click on "*Withdraw funds*".
+## Rút tiền tệ pháp định
+
+
+Nếu bạn có tiền euro trong Bull Bitcoin và muốn chuyển chúng sang tài khoản ngân hàng khác, hãy nhấp vào "*Rút tiền*".
+
 
 ![BULL](assets/fr/31.webp)
 
-Enter the amount to be transferred, then click on "*Continue*".
+
+Nhập số tiền cần chuyển, sau đó nhấp vào "*Tiếp tục*".
+
 
 ![BULL](assets/fr/32.webp)
 
-Choose your payment method.
+
+Chọn phương thức thanh toán của bạn.
+
 
 ![BULL](assets/fr/33.webp)
 
-Add a new beneficiary account or select one from those already registered.
+
+Thêm tài khoản người thụ hưởng mới hoặc chọn một tài khoản trong số những tài khoản đã được đăng ký.
+
 
 ![BULL](assets/fr/34.webp)
 
-Then confirm the withdrawal.
+
+Sau đó xác nhận việc rút tiền.
+
 
 ![BULL](assets/fr/35.webp)
 
-To keep track of all your transactions, you can consult the history in the "*Latest transactions*" menu.
+
+Để theo dõi tất cả các giao dịch của bạn, bạn có thể xem lịch sử trong menu "*Giao dịch gần đây nhất*".
+
 
 ![BULL](assets/fr/36.webp)
 
-## Bắt đầu mua định kỳ tự động (DCA)
+
+## Bắt đầu mua hàng định kỳ tự động (DCA)
+
 
 ![video](https://youtu.be/_A23JI492Zc)
 
+
 ## Tạo lệnh giới hạn
+
 
 ![video](https://youtu.be/6Jlu19jlk7U)
 
-Now you know how to buy and sell bitcoin easily with Bull Bitcoin. If you found this tutorial useful, I'd be very grateful if you put a green thumb below. Feel free to share this article on your social networks. Thank you very much!
 
-I also recommend you check out this other comprehensive tutorial to learn how to manage your mnemonic phrase the right way:
+Giờ bạn đã biết cách mua và bán bitcoin dễ dàng với Bull Bitcoin. Nếu thấy hướng dẫn này hữu ích, tôi sẽ rất biết ơn nếu bạn nhấn nút thích bên dưới. Hãy thoải mái chia sẻ bài viết này trên mạng xã hội của bạn. Cảm ơn rất nhiều!
+
+
+Tôi cũng khuyên bạn nên xem thêm hướng dẫn toàn diện này để học cách quản lý cụm từ ghi nhớ của mình một cách đúng đắn:
+
 
 https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270

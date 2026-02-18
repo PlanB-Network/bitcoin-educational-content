@@ -1,5 +1,6 @@
 ---
-term: KONSOLIDACIJA
+term: Konsolidacija
+definition: Transakcija koja spaja nekoliko malih UTXO-a u jedan veći radi smanjenja budućih naknada.
 ---
 
 Specifična transakcija u kojoj se više malih UTXO-a spajaju u jedan ulaz kako bi se formirao jedan veći UTXO kao izlaz. Ova operacija je transakcija napravljena na sopstveni Wallet. Cilj konsolidacije je da se iskoriste periodi kada su naknade na Bitcoin mreži niske kako bi se spojilo nekoliko malih UTXO-a u jedan veći po vrednosti. Tako se predviđaju obavezni troškovi u slučaju povećanja naknada, omogućavajući uštede na budućim transakcijskim naknadama.
@@ -11,4 +12,3 @@ Zaista, transakcije sa mnogo ulaza su teže i, shodno tome, skuplje. Pored ušte
 Međutim, važno je napomenuti da su transakcije konsolidacije prepoznatljive tokom analize lanca. Takva transakcija ukazuje na Zajednički Ulaz Ownership Heuristiku (CIOH), što znači da ulazi transakcije konsolidacije pripadaju jednom entitetu. Ovo može imati implikacije u pogledu privatnosti za korisnika.
 
 
-![](../../dictionnaire/assets/7.webp)

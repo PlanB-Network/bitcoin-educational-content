@@ -1,0 +1,9 @@
+question: Milline Bitcoin Core'i parameeter määrab vaikimisi minimaalse edastusläve (relay threshold)?
+answer: minRelayTxFee
+wrong_answers:
+  - minConfirmTxFee
+  - relayTxWeight
+  - mempoolMinBits
+explanation: |
+  Sõlmed rakendavad kohalikke reegleid ja Bitcoin Core kasutab minimaalse edastusläve määramiseks parameetrit minRelayTxFee.
+reviewed: false

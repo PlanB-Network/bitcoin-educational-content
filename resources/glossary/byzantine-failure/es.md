@@ -1,6 +1,7 @@
 ---
-term: FRACASO BIZANTINO
+term: Falla bizantina
 
+definition: Comportamiento de un sistema que no cumple con sus especificaciones, pudiendo ser natural o intencionado.
 ---
 Por fallo bizantino, o comportamiento bizantino, se entiende cualquier comportamiento de un sistema que no cumpla sus propias especificaciones, produciendo resultados no conformes.
 

@@ -1,5 +1,6 @@
 ---
-term: LÄHEISYYSBONUS
+term: Läheisyyspremium
+definition: Louhijoiden taloudellinen etu, joka saavutetaan vähentämällä verkkoliikenteen viivettä (latency).
 ---
 
 Bitcoin Mining:n yhteydessä tarkoittaa taloudellista etua, jonka louhijat saavat vähentämällä verkon tiedonsiirtoviivettä. Lähempänä toisiaan sijaitsevat louhijat saavat uusia kelvollisia lohkoja nopeammin, jolloin ne voivat lopettaa resurssien tuhlaamisen lohkoehdokkaaseen, joka on haarassa, jossa on vähemmän kertynyttä työtä. Tämä viiveen väheneminen parantaa louhijoiden tuottoja, mikä luonnollisesti kannustaa heitä ryhmittymään maantieteellisesti yhteen tulojensa maksimoimiseksi.

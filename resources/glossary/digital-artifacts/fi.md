@@ -1,7 +1,7 @@
 ---
-term: DIGITAALISET ARTEFAKTIT
+term: Digitaaliset artefaktit
 
+definition: Ordinals-protokollan kautta datalla kaiverrettu Satoshi, joka on linkitetty digitaaliseen sisältöön, kuten kuviin tai teksteihin.
 ---
 Ordinals-protokollan yhteydessä se on satoshi, johon on kirjattu tiettyjä tietoja kirjoitusmekanismin avulla. Nämä artefaktit voivat sisältää kuvia, tekstejä tai minkä tahansa muunlaista digitaalista sisältöä, ja ne liittyvät erottamattomasti vastaavaan satoshiin.
 
-> ► *Englanniksi tämä termi on käännetty "digital artefact".*

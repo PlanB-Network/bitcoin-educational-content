@@ -1,0 +1,9 @@
+question: Mida tähendab ASIC?
+answer: Application-Specific Integrated Circuits
+wrong_answers:
+  - Advanced Secure Integrated Circuit
+  - Automated Silicon Integrated Circuit
+  - Application-Shared Integrated Circuit
+explanation: |
+  ASIC on ühele kindlale ülesandele loodud kiip. See on seega Application-Specific Integrated Circuits.
+reviewed: false

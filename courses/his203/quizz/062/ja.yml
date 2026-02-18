@@ -1,0 +1,10 @@
+question: 2012年3月、ビットコインのヒントを得るために、ユーザーが自分のヌード写真を公開できたのはどのサブレディットだろうか？
+answer: r/GirlsGoneBitcoin
+wrong_answers:
+  - r/GoneWild
+  - r/CryptoPorn
+  - r/Bitcoin
+explanation: |
+ r/GirlsGoneBitcoinは2012年3月26日、ラスベガス在住のLinuxとプライバシー擁護者であるTuxavantことJulian Toshによって開設された。このサブレディットには、年末までに
+ 2,000人のメンバーがいた。
+reviewed: true

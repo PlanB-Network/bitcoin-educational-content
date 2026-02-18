@@ -1,6 +1,7 @@
 ---
-term: TEHINGUTASUD
+term: Tehingutasud
 
+definition: Summa, mis tasustab kaevandajaid tehingu plokki lisamise eest, arvutatuna sisendite ja väljundite vahena.
 ---
 Tehingutasud kujutavad endast summat, mille eesmärk on hüvitada kaevandajatele nende osalemine töö tõestusmehhanismis. Need tasud julgustavad kaevandajaid lisama tehinguid nende loodud plokkidesse. Need tulenevad tehingu sisendite kogusumma ja väljundite kogusumma vahest:
 
@@ -22,4 +23,3 @@ Selles konkreetses näites oli tegemist F2Pooli kaevandamisbasseini direktori al
 
 Samuti on vaja kaaluda puhastuse piire. Suure ülekoormuse ajal puhastavad sõlmede mempoolid oma pooleliolevad tehingud, mis jäävad alla teatava künnise, et pidada kinni neile eraldatud RAMi piirist. Selle piiri valib kasutaja vabalt, kuid paljud jätavad Bitcoin Core'i vaikimisi väärtuseks 300 MB. Seda saab muuta failis `bitcoin.conf` parameetriga `maxmempool`.
 
-> ► *Inglise keeles nimetame seda "tehingutasuks"*

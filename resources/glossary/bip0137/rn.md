@@ -1,5 +1,6 @@
 ---
 term: BIP0137
+definition: Uburyo bwashizwe mu rugero bwo gushira umukono ku butumwa hakoreshejwe imfungurazo y'ibanga ya Bitcoin kugira ngo hemezwe ko nyen'adresse ari we.
 ---
 
 BIP137 itanga uburyo bumwe bwo gusinya ubutumwa bukoresheje imfunguruzo z'ibanga za Bitcoin n'amaderesi yazo, bitanga uburyo bwo kwemeza Ownership ya Address.

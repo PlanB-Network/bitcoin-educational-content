@@ -1,5 +1,6 @@
 ---
 term: BTC
+definition: Alama ya tiketi inayowakilisha uniti moja ya bitcoin, sawa na satoshi milioni 100.
 ---
 
 Alama ya hisa au sarafu (*tika*) inayotumika kuwakilisha sehemu ya Bitcoin kwenye mifumo ya Exchange. Inatumika kutambua haraka Bitcoin kati ya mali na sarafu nyingine. Kitengo kimoja cha Bitcoin (1 BTC) ni sawa na satoshi 100,000,000 (au "Sats").

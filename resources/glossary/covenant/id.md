@@ -1,6 +1,7 @@
 ---
-term: COVENANT
+term: Covenant
 
+definition: Mekanisme yang membebankan persyaratan tentang bagaimana bitcoin dapat dihabiskan dalam transaksi di masa depan.
 ---
 Sebuah mekanisme yang memungkinkan pengenaan kondisi tertentu tentang bagaimana suatu mata uang dapat digunakan, termasuk dalam transaksi di masa depan. Di luar kondisi yang biasanya diizinkan oleh bahasa skrip pada UTXO, _covenant_ memberlakukan batasan tambahan tentang bagaimana Bitcoin ini dapat digunakan dalam transaksi selanjutnya. Secara teknis, pembentukan _covenant_ terjadi ketika `scriptPubKey` dari sebuah UTXO mendefinisikan batasan pada `scriptPubKey` dari output transaksi yang membelanjakan UTXO tersebut. Dengan memperluas cakupan skrip, covenant akan memungkinkan berbagai pengembangan pada Bitcoin seperti penambatan bilateral _drivechain_, implementasi brankas, atau peningkatan sistem _overlay_ seperti Lightning. Proposal perjanjian dibedakan berdasarkan tiga kriteria:
 

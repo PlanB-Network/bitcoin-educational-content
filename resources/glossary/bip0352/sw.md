@@ -1,5 +1,6 @@
 ---
 term: BIP0352
+definition: Silent Payments, mbinu ya kutumia anwani tuli kupokea malipo bila utumiaji upya wa anwani unaoonekana.
 ---
 
 Pendekezo la uboreshaji la Josibake na Ruben Somsen ambalo linatanguliza Malipo ya Kimya, njia ya kutumia anwani tuli za Bitcoin kupokea malipo bila kutumia tena Address, mwingiliano, na bila kiungo kinachoonekana cha On-Chain kati ya malipo tofauti. Mbinu hii huondoa hitaji la generate mpya, anwani za kupokea ambazo hazijatumika kwa kila shughuli, na hivyo kuepuka mwingiliano wa kawaida katika Bitcoin ambapo mpokeaji lazima atoe Address mpya kwa mlipaji.

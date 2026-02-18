@@ -1,0 +1,11 @@
+question: BitInstant döviz hizmeti tarafından Aralık 2011'de eklenen hangi özellik, BTCKing olarak da bilinen Robert Faiella tarafından karanlık web satış işi için kullanılmıştır?
+answer: Nakit depozito
+wrong_answers:
+  - Ücretsiz alışverişler
+  - Anında transferler
+  - Mevzuata uygunluk
+explanation: |
+ BitInstant bu ödeme yöntemini 21 Aralık 2011 tarihinde teklifine eklemiştir. ABD vatandaşlarının belirli yerlere nakit para yatırmaları ve
+ seçtikleri değişim platformunda neredeyse anında dolar olarak kredilendirildi. Robert Faiella, nam-ı diğer BTCKing, BTCKing'in görece gizliliğinden yararlandı
+ i̇pek Yolu'nda daha yüksek bir ücret karşılığında yeniden satış işi yürütmek için bu yöntem.
+reviewed: true

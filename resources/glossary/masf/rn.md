@@ -1,5 +1,6 @@
 ---
 term: MASF
+definition: Soft fork ikurwa n'inyishu y'abacura biciye mu mibumbe yabo.
 ---
 
 Inyuguti y'inyongera y'ikirundi "*Miner-Ikoreshwa Soft Fork*". Idondora Soft Fork muri Bitcoin iyo gukora kwayo kuva ku gikorwa c’abacukuzi. MASF ni umuryango w'uburyo bwo gukoresha Soft Fork kuri Bitcoin. Muri izo nzira, abacukuzi berekana ko bemeye kandi ko biteguriye guhindura amasezerano n'amabuye ya Mining ashigikira ugufunga Soft Fork. Iyo benshi cane mu bacukuzi batoye Soft Fork, iyo nkuru nshasha ifatwa ko yemewe kandi igatangura gukora mu nyuma. Ivyo bifasha mu kwirinda gucapura Blockchain kandi bikabungabunga ubumwe bw’urubuga. MASF irakundwa kubera uburyo bwayo bworoshe, bushingiye ku kwumvikana, bugabanura ingorane zo gucapura Blockchain mu gihe bugaragaza ko ubushobozi bwinshi bwo gukoresha ubuhinga bwa none bushigikira iyo nkuru nshasha. Uburyo bwo gukoresha nka BIP34, BIP9, BIP8 (niba `LOT=ikinyoma` canke iyo urugero rwo gutora rwashitse), canke Urubanza rwihuse ni ingero za MASF.

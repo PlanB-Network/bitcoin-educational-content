@@ -1,0 +1,10 @@
+question: 自由州项目选择的美国哪个州在 2012-2013 年成为 Bitcoin 收养中心？
+answer: 新罕布什尔州
+wrong_answers:
+  - 德克萨斯州
+  - 科罗拉多州
+  - 加利福尼亚州
+explanation: |
+ 自由州项目是一项政治移民运动，旨在将自由主义者集中到一个州，以影响当地政府。
+ 在罗杰-维尔（Roger Ver）和埃里克-沃希斯（Erik Voorhees）等自由主义活动家的劝说下，该运动的成员开始使用 Bitcoin。
+reviewed: true

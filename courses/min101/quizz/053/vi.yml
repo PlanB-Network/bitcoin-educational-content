@@ -1,0 +1,9 @@
+question: Trước khi được thêm vào blockchain, các giao dịch được nhóm lại vào cái gì?
+answer: Trong một khối
+wrong_answers:
+  - Trong một UTXO
+  - Trong một ASIC
+  - Trong một scriptSig
+explanation: |
+  Giao dịch không được ghi ngay lập tức vào blockchain. Đầu tiên nó được tích hợp vào một khối.
+reviewed: false

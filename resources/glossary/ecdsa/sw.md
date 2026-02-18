@@ -1,5 +1,6 @@
 ---
 term: ECDSA
+definition: Algoriti ya Saini ya Kidijitali ya Elliptic Curve inayotumiwa kwenye Bitcoin kusaini miamala.
 ---
 
 Kifupi cha "Algorithm ya Sahihi ya Mviringo Digitali." Ni algoriti ya saini ya dijiti kulingana na kriptografia ya mviringo wa mviringo (ECC). Ni lahaja ya DSA (Algorithm ya Sahihi ya Dijiti). ECDSA hutumia sifa za mikunjo ya duaradufu ili kutoa viwango vya usalama vinavyolingana na vile vya algoriti za ufunguo wa kawaida wa umma, kama vile RSA, huku ikitumia ukubwa wa funguo ndogo zaidi. ECDSA inaruhusu uundaji wa jozi muhimu (funguo za umma na za kibinafsi) pamoja na uundaji na uthibitishaji wa saini za dijiti.

@@ -1,5 +1,6 @@
 ---
 term: OP_CHECKLOCKTIMEVERIFY (0XB1)
+definition: Opkod nakładający absolutne ograniczenie czasowe na wydanie UTXO.
 ---
 
 Sprawia, że transakcja jest nieważna, chyba że wszystkie te warunki są spełnione:

@@ -1,0 +1,9 @@
+question: What average interval between blocks does Bitcoin aim for?
+answer: 10 minutes
+wrong_answers:
+  - 1 minute
+  - 30 minutes
+  - 60 minutes
+explanation: |
+  The protocol aims for an average of approximately one block every 10 minutes over a long period.
+reviewed: true

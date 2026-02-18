@@ -1,6 +1,7 @@
 ---
 term: OP_NOP (0X61)
 
+definition: Opcode nevykazující žádný účinek, používaný jako bod pro budoucí soft forky.
 ---
 Nemá žádný vliv na zásobník ani na stav skriptu. Neprovádí žádné přesuny, kontroly ani úpravy. Prostě nedělá nic, pokud není rozhodnuto jinak prostřednictvím soft fork. Příkazy `OP_NOP` (`OP_NOP1` (`0XB0`) až `OP_NOP10` (`0XB9`)) se totiž od jejich úpravy Satoshim Nakamotem v roce 2010 používají k přidávání nových opkódů formou soft forku.
 

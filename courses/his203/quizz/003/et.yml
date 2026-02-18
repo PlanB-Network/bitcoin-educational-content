@@ -1,0 +1,10 @@
+question: Milline hüüdnimi anti kiiresti Ross Ulbrichti loodud Silk Road platvormile?
+answer: Narkootikumide Amazonas
+wrong_answers:
+  - Alibaba koobas
+  - Pimeda veebi eBay
+  - Maa-alune Walmart
+explanation: |
+ Silk Road sai hüüdnime selle sarnasuse tõttu e-kaubanduse hiiglasliku Amazoniga. See hüüdnimi peegeldas platvormi kasutajasõbralikku kasutajaliidest ja tõhusust
+ ebaseaduslikku kauplemist.
+reviewed: true

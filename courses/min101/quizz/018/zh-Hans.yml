@@ -1,0 +1,9 @@
+question: Hashcash 主要寻求减少什么问题？
+answer: 电子邮件垃圾邮件
+wrong_answers:
+  - 双重支付
+  - DNS 钓鱼
+  - 私钥盗窃
+explanation: |
+  Hashcash 对每条消息征收计算成本，以使大规模发送电子邮件变得无利可图。
+reviewed: false

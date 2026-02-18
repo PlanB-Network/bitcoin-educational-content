@@ -1,5 +1,6 @@
 ---
 term: BIP0075
+definition: Iyagurwa rya BIP70 ryongerako ugushira umukono ku busabe bw'iyishyurwa no guhisha inyishu. Ntiyigeze yakirwa na benshi.
 ---
 
 Ukwagura kwongereza ubuhinga bwo kwishura BIP70 mu gushiramwo ibintu bibiri bihambaye bishasha.

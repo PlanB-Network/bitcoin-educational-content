@@ -1,0 +1,9 @@
+question: 코인베이스 트랜잭션이 다른 트랜잭션과 다른 이유는 무엇입니까?
+answer: 실제 UTXO를 사용하지 않기 때문에
+wrong_answers:
+  - TXID가 없기 때문에
+  - 출력이 없기 때문에
+  - 머클 트리에 없기 때문에
+explanation: |
+  이 트랜잭션의 입력은 가상의 UTXO를 가리키며, 이를 통해 보조금을 생성하고 수수료를 챙길 수 있습니다.
+reviewed: false

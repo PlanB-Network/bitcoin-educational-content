@@ -1,0 +1,9 @@
+question: Ni iyihe parameter ya Bitcoin Core ishiraho urugero ntarengwa rwa relay (threshold)?
+answer: minRelayTxFee
+wrong_answers:
+  - minConfirmTxFee
+  - relayTxWeight
+  - mempoolMinBits
+explanation: |
+  Ma nodes akoresha amategeko yo ngaho, kandi Bitcoin Core ikoresha parameter minRelayTxFee ku rugero rwa relay.
+reviewed: false

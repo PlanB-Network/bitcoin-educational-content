@@ -1,5 +1,6 @@
 ---
-term: INGINGO Z'IBIMENYETSO
+term: Transaction standard
+definition: Itunshwa ry'amafaranga ryisunga amategeko n'amategeko agenga itunganywa rya Bitcoin Core nodes.
 ---
 
 Icuruzwa rya Bitcoin, uretse kwubahiriza amategeko y’uguhurizako, na ryo nyene rigwa mu mategeko y’ugushinga urugero ashirwaho ku buryo busanzwe ku nzira za Bitcoin core. Aya mategeko yo guhuza ibintu ashirwaho ku giti cabo na buri nzira ya Bitcoin, uretse amategeko y’uguhurizako, kugira ngo isobanure imiterere y’ibikorwa bitaremejwe yemera muri Mempool yayo kandi ikamenyesha abo mu runganwe rwayo.

@@ -1,6 +1,7 @@
 ---
-term: STONEWALL X2
+term: Stonewall x2
 
+definition: Kollaborative Transaktion, die einen Mini-CoinJoin mit einem Dritten simuliert, um die Privatsphäre einer Zahlung zu verbessern.
 ---
 Eine spezielle Form der Bitcoin-Transaktion, die darauf abzielt, die Privatsphäre des Nutzers während einer Ausgabe zu erhöhen, indem er mit einer dritten Partei zusammenarbeitet, die nicht an der Ausgabe beteiligt ist. Diese Methode simuliert einen Mini-Coinjoin zwischen zwei Teilnehmern, während eine Zahlung an eine dritte Partei erfolgt. Stonewall x2-Transaktionen sind sowohl in der Samourai Wallet App als auch in der Sparrow Wallet Software verfügbar (beide sind interoperabel).
 
@@ -11,6 +12,6 @@ Seine Funktionsweise ist relativ einfach: Er verwendet einen UTXO in unserem Bes
 - Der Mitarbeiter, der Bitcoins zur Verfügung stellt, um die allgemeine Anonymität der Transaktion zu verbessern, während er sein Geld am Ende vollständig zurückerhält;
 - Der Empfänger, der möglicherweise nicht weiß, um welche Art von Transaktion es sich handelt, und einfach eine Zahlung vom Absender erwartet.
 
-![](../../dictionnaire/assets/3.webp)
+
 
 Die Stonewall-x2-Struktur fügt der Transaktion eine Menge Entropie hinzu und verwirrt die Spuren der Kettenanalyse. Von außen betrachtet kann eine solche Transaktion als ein kleiner Coinjoin zwischen zwei Personen interpretiert werden. In Wirklichkeit handelt es sich aber um eine Zahlung. Diese Methode erzeugt also Unsicherheiten in der Kettenanalyse oder führt sogar zu falschen Spuren. Selbst wenn es einem externen Beobachter gelingt, das Muster der Stonewall-x2-Transaktion zu erkennen, wird er nicht über alle Informationen verfügen. Er wird nicht in der Lage sein zu bestimmen, welcher der beiden UTXOs mit gleichem Betrag der Zahlung entspricht. Außerdem können sie nicht feststellen, wer die Zahlung getätigt hat. Schließlich können sie nicht feststellen, ob die beiden UTXO-Eingangsrechnungen von zwei verschiedenen Personen stammen oder ob sie einer einzigen Person gehören, die sie zusammengeführt hat. Dieser letzte Punkt ist darauf zurückzuführen, dass die klassischen Stonewall-Transaktionen genau demselben Muster folgen wie die Stonewall x2-Transaktionen. Von außen betrachtet und ohne zusätzliche Informationen über den Kontext ist es unmöglich, eine Stonewall-Transaktion von einer Stonewall-x2-Transaktion zu unterscheiden. Bei ersteren handelt es sich jedoch nicht um kollaborative Transaktionen, bei letzteren hingegen schon. Dies lässt noch mehr Zweifel an den Ausgaben aufkommen.

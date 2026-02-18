@@ -1,0 +1,9 @@
+question: Vad förbrukar inputs i en Bitcoin-transaktion?
+answer: Befintliga UTXO:er
+wrong_answers:
+  - Framtida outputs
+  - Befintliga block
+  - Framtida adresser
+explanation: |
+  En input refererar till en ospenderad output från en tidigare transaktion, vilket kallas en UTXO.
+reviewed: false

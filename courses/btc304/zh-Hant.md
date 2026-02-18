@@ -1820,7 +1820,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 以下是 2023-2024 年法國聚會的進程。每個主題都有開放原始碼的簡報和影片，您可以藉此了解自己活動的主題。
 
 
-在 [Bitcoin 教學工具箱](https://planb.academy/fr/resources/bet) 中也可找到其他可編輯的資料！
+其他資源也可在Plan ₿ Academy的["Educator Content"](https://planb.academy/educator-content)部分獲得,這是一個協作空間,世界各地的比特幣教育者在此分享並提供他們的教學材料(簡報、傳單、指南、海報...)以即用或可編輯的格式。目標:匯集努力,避免每次都從零開始!
 
 
 

@@ -1,0 +1,9 @@
+question: Šta troše ulazi (inputs) u Bitcoin transakciji?
+answer: Postojeće UTXO-e
+wrong_answers:
+  - Buduće izlaze (outputs)
+  - Postojeće blokove
+  - Buduće adrese
+explanation: |
+  Ulaz referencira nepotrošeni izlaz iz prethodne transakcije, koji se naziva UTXO.
+reviewed: false

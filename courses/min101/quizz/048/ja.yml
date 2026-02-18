@@ -1,0 +1,9 @@
+question: ビットコインで最初のマイニングプールは何ですか？
+answer: Braiins Pool
+wrong_answers:
+  - Foundry USA
+  - AntPool
+  - F2Pool
+explanation: |
+  Braiins Pool（旧称 Slush Pool および Bitcoin CZ）は、2010年に作成されたビットコイン初のマイニングプールです。
+reviewed: false

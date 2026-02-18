@@ -6,3 +6,4 @@ wrong_answers:
   - Membuat alamat Bitcoin
 explanation: |
   PBKDF2 digunakan untuk menghasilkan seed dari frasa mnemonik dan passphrase opsional.
+reviewed: true

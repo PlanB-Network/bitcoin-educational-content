@@ -1,5 +1,6 @@
 ---
-term: ATTACK SURFACE
+term: Bề mặt tấn công
 
+definition: Một tập hợp các điểm vào tiềm năng mà kẻ tấn công có thể khai thác để truy cập một hệ thống. Giảm bề mặt này cải thiện bảo mật.
 ---
 Refers to the total number of potential entry points that an attacker could exploit to gain access to a system. The attack surface includes all interfaces, services, ports, protocols, and other communication vectors that could be exposed. An extended attack surface increases vulnerabilities, thereby making the system more susceptible to being attacked. Reducing the attack surface is a good security practice that involves disabling unnecessary services. For example, in the context of Bitcoin, hardware wallets have a much smaller attack surface than software wallets. Indeed, they isolate the keys on a device not connected to the Internet, having very few interfaces and services. In contrast, software wallets are installed on versatile PCs, which have a much larger attack surface due to the numerous functionalities and network connections they support.

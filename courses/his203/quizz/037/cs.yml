@@ -1,0 +1,11 @@
+question: Jak se jmenovalo grafické rozhraní, které v roce 2011 vyvinul Wladimir van der Laan pro hlavní software?
+answer: Bitcoin-Qt
+wrong_answers:
+  - wxWindows-Bitcoin
+  - bitcoind
+  - Jádro Bitcoin
+explanation: |
+ Bitcoin-Qt byl kompletně přepracován grafický interface Bitcoin. Bylo vyvíjeno od června 2011 a do hlavního softwaru bylo integrováno ve verzi 0.5,
+ vydané 21. listopadu. Bylo založeno na grafickém frameworku Qt a nahradilo knihovnu wxWindows původně používanou v Satoshi. Metonymií byl software nazván
+ Bitcoin-Qt.
+reviewed: true

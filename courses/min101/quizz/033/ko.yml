@@ -1,0 +1,9 @@
+question: 반감기(halving)는 몇 블록마다 발생합니까?
+answer: 210,000
+wrong_answers:
+  - 2,016
+  - 100,000
+  - 21,000,000
+explanation: |
+  프로토콜은 블록 높이가 210,000의 배수일 때마다 반감기를 적용합니다.
+reviewed: false

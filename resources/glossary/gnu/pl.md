@@ -1,5 +1,6 @@
 ---
 term: GNU
+definition: Projekt wolnego systemu operacyjnego będący podstawą ruchu wolnego oprogramowania.
 ---
 
 Projekt zainicjowany w 1983 roku przez Richarda Stallmana w celu stworzenia wolnego systemu operacyjnego, kompatybilnego z Uniksem. W ramach projektu opracowano liczne wolne oprogramowanie, które może być używane jako system operacyjny lub jako dodatek do innego systemu operacyjnego. GNU leży u podstaw ruchu wolnego oprogramowania, który jest szeroko rozpowszechniony w społeczności Bitcoin. W połączeniu z jądrem Linux tworzy systemy operacyjne GNU/Linux.

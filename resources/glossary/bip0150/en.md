@@ -1,5 +1,6 @@
 ---
 term: BIP0150
+definition: Peer-to-peer authentication mechanism to strengthen security and restrict access to certain node services.
 ---
 
 BIP150 proposes a peer authentication mechanism for the Bitcoin network to improve security and verify node ownership. 

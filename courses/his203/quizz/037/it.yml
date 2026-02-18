@@ -1,0 +1,11 @@
+question: Come si chiama l'interfaccia grafica sviluppata per il software principale da Wladimir van der Laan nel 2011?
+answer: Bitcoin-Qt
+wrong_answers:
+  - wxWindows-Bitcoin
+  - bitcoind
+  - Nucleo Bitcoin
+explanation: |
+ Bitcoin-Qt è stata una revisione completa dell'interfaccia grafica di Bitcoin. È stato sviluppato a partire da giugno 2011 e integrato nel software principale nella versione 0.5,
+ rilasciata il 21 novembre. Basata sul framework grafico Qt, ha sostituito la libreria wxWindows utilizzata originariamente da Satoshi. Per metonimia, il software è stato chiamato
+ Bitcoin-Qt da quel momento in poi.
+reviewed: true

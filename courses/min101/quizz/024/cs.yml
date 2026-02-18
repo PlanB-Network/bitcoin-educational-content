@@ -1,0 +1,9 @@
+question: Jaký jev způsobuje, že doba mezi dvěma bloky je v zásadě proměnlivá?
+answer: Pravděpodobnostní charakter hashování
+wrong_answers:
+  - Deterministický charakter hashování
+  - Rekurzivní charakter hashování
+  - Periodický charakter hashování
+explanation: |
+  Každý hash je nezávislý pokus, což činí časy objevení náhodnými i při konstantním hashrate.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Yếu tố nào là quan trọng nhất trong khả năng cạnh tranh của khai thác công nghiệp?
+answer: Chi phí điện năng
+wrong_answers:
+  - Số tiền chi phí tiền lương
+  - Chất lượng công thái học của cơ sở hạ tầng
+  - Chi phí bản quyền phần mềm
+explanation: |
+  Ở quy mô lớn, lợi nhuận khai thác phụ thuộc vào chi phí cho mỗi đơn vị tính toán, yếu tố này chủ yếu được quyết định bởi chi phí điện năng.
+reviewed: false

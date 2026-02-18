@@ -1,0 +1,9 @@
+question: اریک وورهیس در آگوست ۲۰۱۲ برای رشد کازینوی آنلاین SatoshiDICE یک عرضه اولیه عمومی غیررسمی را در کدام بورس آنلاین انجام داد؟
+answer: MPEx
+wrong_answers:
+  - GLBSE
+  - Bitcoinica
+  - Bitoption.org
+explanation: |
+ MPEx پلتفرمی بود که توسط Mircea Popescu مدیریت می‌شد و چند ماه قبل راه‌اندازی شده بود. Erik Voorhees تعداد 100 میلیون سهم (با نماد سهام S.DICE) صادر کرد و 10 سهم را فروخت تا 34,500 بیت‌کوین، یا حدود 372,000 دلار جمع‌آوری کند.
+reviewed: true

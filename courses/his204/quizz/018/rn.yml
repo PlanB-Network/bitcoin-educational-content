@@ -1,8 +1,9 @@
 question: None ingaruka za Cantillon ni izihe?
-answer: Kwongerekana kw'amahera mu gihugu biragira ico bikoze ku bijanye n'ugusangira inyungu .
+answer: Kwongerekana kw'igitigiri c'amahera mu gihugu biragira ico bikoze ku bijanye n'ukugabanganya inyungu .
 wrong_answers:
-  - Kwongera amafaranga biragira ico bikoze ku nyifato y'abantu .
-  - Kwongerekana kw’amahera biragira ingaruka ku rugero rw’imyenda ya Leta .
-  - Kwongera amafaranga nta ngaruka zikomeye bigira .
+  - Kwongerekana kw'igitigiri c'amafaranga biragira ico bikoze ku nyifato y'abantu .
+  - Kwongerekana kw’ubushobozi bw'amahera biragira ingaruka ku rugero rw’imyenda ya Leta .
+  - Kwongerekana kw'igitigiri c'amafaranga nta ngaruka zikomeye bigira .
 explanation: |
-  Ingaruka za Cantillon zidondora ingene iyongerekana ry’amahera Supply rigira ingaruka ku bici- ro no ku nyungu mu buryo butandukanye mu nzego zitandukanye z’ubutunzi. Inshinge y’amahera mashasha ntikwiragira mu buryo buringaniye, bigatuma habaho ugugorama n’ubusumbasumbane.
+  Ingaruka za Cantillon zidondora ingene iyongerekana ry’amahera ibitangwa bigira ingaruka ku biciro no ku nyungu mu buryo butandukanye mu nzego zitandukanye z’ubutunzi. Inshinge y’amahera mashasha ntikwiragira mu buryo buringaniye, bigatuma habaho ugugorama n’ubusumbasumbane.
+reviewed: true

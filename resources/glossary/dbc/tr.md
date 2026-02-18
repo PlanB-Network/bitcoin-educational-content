@@ -1,5 +1,6 @@
 ---
 term: DBC
+definition: RGB protokolünde kullanılan, Bitcoin işlemlerinde deterministik taahhütlerin kaydedilmesi kuralları.
 ---
 
 "Deterministic Bitcoin Commitment "ın kısaltmasıdır. Bir Commitment'in bir Bitcoin işlemine kanıtlanabilir ve benzersiz bir şekilde girilmesini sağlayan bir dizi kuraldır. RGB protokolünde iki ana CAD biçimi vardır:

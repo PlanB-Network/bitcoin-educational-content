@@ -1,6 +1,7 @@
 ---
-term: BLOK GENESIS
+term: Blok genesis
 
+definition: Blok pertama dari sistem Bitcoin yang dibuat oleh Satoshi Nakamoto pada 3 Januari 2009.
 ---
 Blok _Genesis_ adalah blok pertama dari sistem Bitcoin yang menandakan peluncuran nyata Bitcoin. _Genesis Block_ diciptakan oleh pendiri anonim Bitcoin, Satoshi Nakamoto, pada tanggal 3 Januari 2009. _Hash_-nya adalah:
 

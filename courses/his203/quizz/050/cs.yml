@@ -1,0 +1,10 @@
+question: Jaký pseudonym používal Ross Ulbricht od února 2012 jako správce Silk Road?
+answer: Děsivý pirát Roberts
+wrong_answers:
+  - Altoid
+  - Stín Harbringera
+  - Pirát ve čtyřiceti
+explanation: |
+ Ross Ulbricht si tento pseudonym zvolil jako odkaz na film Princezna nevěsta z roku 1987. V tomto filmu je jméno jakýmsi titulem, který může být předáván z jednoho piráta na druhého
+ na druhého, což umožňuje skrýt skutečnou identitu nositele a "vzbudit potřebný strach" u jeho nepřátel.
+reviewed: true

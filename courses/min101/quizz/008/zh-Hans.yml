@@ -1,0 +1,9 @@
+question: 比特币的算力证明是基于哪个元素计算的？
+answer: 区块头
+wrong_answers:
+  - 区块高度
+  - 网络 mempool
+  - 区块的前 21 笔交易
+explanation: |
+  挖矿是指对 80 字节的区块头进行循环哈希计算，区块头汇总了区块的所有内容。
+reviewed: false

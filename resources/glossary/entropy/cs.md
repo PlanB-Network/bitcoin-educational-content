@@ -1,6 +1,7 @@
 ---
-term: ENTROPY
+term: Entropie
 
+definition: Míra nepředvídatelnosti zdroje dat, klíčová pro generování bezpečných klíčů.
 ---
 Entropie je v kontextu kryptografie a informací kvantitativní míra neurčitosti nebo nepředvídatelnosti spojená se zdrojem dat nebo náhodným procesem. Entropie hraje klíčovou roli v bezpečnosti kryptografických systémů, zejména při generování klíčů a náhodných čísel. Vysoká entropie zajišťuje, že generované klíče jsou dostatečně nepředvídatelné a odolné proti útokům hrubou silou, kdy útočník zkouší všechny možné kombinace, aby klíč uhodl.
 

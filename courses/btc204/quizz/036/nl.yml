@@ -3,7 +3,7 @@ answer: Omdat de groep transacties met hetzelfde scripttype kleiner is.
 wrong_answers:
   - Omdat ze meer validaties door miners vereisen.
   - Omdat ze zwakkere versleutelingsalgoritmen gebruiken.
-  - Omdat ze vaker geweigerd worden door de Bitcoin netwerkknooppunten.
+  - Omdat ze vaker geweigerd worden door de Bitcoin-netwerkknooppunten (nodes).
 explanation: |
   Als de totale groep transacties met hetzelfde scripttype waarin we ons verbergen klein is, zijn we gemakkelijker te identificeren dan in een zeer grote groep transacties.
 reviewed: false

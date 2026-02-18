@@ -1,5 +1,6 @@
 ---
-term: OUTPOINT
+term: Outpoint
+definition: Jedinstvena referenca na UTXO, koja se sastoji od txid-a i indeksa izlaza.
 ---
 
 Jedinstvena referenca na neiskorišćeni izlaz transakcije (UTXO). Sastoji se od dva Elements:

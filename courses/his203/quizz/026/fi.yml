@@ -1,0 +1,10 @@
+question: Mikä oli BitCoinJ:ssä toteutetun yksinkertaistetun maksun todentamisen (SPV) tärkein etu, jota kevyet wallet:t, kuten Bitcoin Wallet for Android, käyttivät?
+answer: Se mahdollisti transaktioiden varmentamisen ilman, että koko lohkoketjua tarvitsee ladata
+wrong_answers:
+  - Se sekoitti bitcoineja automaattisesti maksun vastaanottamisen yhteydessä luottamuksellisuuden parantamiseksi
+  - Se salasi wallet:n tiedot AES-256-algoritmilla troijalaisvarkauksien estämiseksi
+  - Se mahdollisti yhteyden suojaamisen olemassa olevaan solmuun, jotta voidaan estää hyökkäykset, joissa hyödynnetään tapahtumien muokattavuutta
+explanation: |
+ Yksinkertaistettu maksujen todentaminen (SPV) oli Bitcoin:n valkoisessa kirjassa kuvattu keskeinen innovaatio, jonka avulla ohutasiakkaat pystyivät todentamaan, että niiden maksutapahtumat ovat oikeat
+ kuuluivat lohkoketjuun tarvitsematta ladata ja tallentaa koko dataa.
+reviewed: true

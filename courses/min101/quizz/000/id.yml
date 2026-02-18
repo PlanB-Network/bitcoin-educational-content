@@ -1,0 +1,9 @@
+question: Dalam transaksi Bitcoin, apa yang dikonsumsi oleh input?
+answer: UTXO yang ada
+wrong_answers:
+  - Output masa depan
+  - Blok yang ada
+  - Alamat masa depan
+explanation: |
+  Input mereferensikan output yang belum dihabiskan dari transaksi masa lalu, yang disebut UTXO.
+reviewed: false

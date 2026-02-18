@@ -1,0 +1,9 @@
+question: ¿Qué modifica el halving en Bitcoin?
+answer: El subsidio de bloque
+wrong_answers:
+  - Las comisiones de transacción
+  - El tamaño de bloque
+  - El objetivo de dificultad
+explanation: |
+  El halving divide por dos el subsidio máximo creado por bloque, sin tocar las comisiones.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: BLOCK WITHHOLDING
+term: Block withholding
+definition: Attack where a pool participant withholds a found valid block to harm the pool's profitability.
 ---
 
 A specific attack in pool mining. It is a malicious practice where a participant in the pool finds a block with a valid proof of work but does not share it with the pool. 
@@ -7,4 +8,3 @@ The attacker continues submitting partial proofs of work (shares) to appear as a
 
 Block withholding attacks do not directly benefit the attacker financially but are intended to harm the pool’s profitability.
 
-> ► *In French, it is referred to as "Retention de Bloc".*

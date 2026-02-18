@@ -1,5 +1,6 @@
 ---
-term: NÁSILÍ ZAVŘÍT
+term: Vynucené zavření
+definition: Jednostranné uzavření kanálu Lightning vysíláním poslední podepsané závazkové transakce.
 ---
 
 Nespolupracující mechanismus uzavírání bleskového kanálu. Když dva uživatelé otevřou kanál s Multisig 2/2, každý z nich může jednostranně uzavřít kanál odvysíláním posledního již podepsaného Commitment Transaction, aby získal zpět své bitcoiny v řetězci. Tento postup je znám jako "vynucené uzavření".

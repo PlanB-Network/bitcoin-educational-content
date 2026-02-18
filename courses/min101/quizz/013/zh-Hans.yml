@@ -1,0 +1,9 @@
+question: 哪种条件使比特币中的区块有效？
+answer: SHA256d(区块头) <= 目标值
+wrong_answers:
+  - SHA256d(区块头) >= 目标值
+  - SHA256d(区块) >= 目标值
+  - SHA256d(区块头) > 目标值
+explanation: |
+  要使比特币区块有效，其区块头的哈希值（被视为一个数字）必须小于或等于 (<=) 难度目标值。
+reviewed: false

@@ -1,0 +1,10 @@
+question: Welke gebeurtenis zorgde ervoor dat Satoshi Nakamoto zich in december 2010 terugtrok uit de schijnwerpers?
+answer: Publicatie van een PC World artikel waarin WikiLeaks wordt uitgenodigd Bitcoin te gebruiken
+wrong_answers:
+  - Ross Ulbricht lanceert het Silk Road platform
+  - Het contact dat is opgezet door In-Q-Tel, het investeringsfonds van de CIA
+  - De spectaculaire stijging van de prijs van BTC van $0,20 naar $32 in slechts een paar maanden tijd
+explanation: |
+ Satoshi gaf negatief commentaar op deze publicatie op het Bitcoin forum, uit angst dat het de aandacht zou trekken van staatsautoriteiten. De marktplaats Silk Road
+ werd gelanceerd in januari 2011, het contact tussen In-Q-Tel en Gavin Andresen vond plaats in april en de prijsstijging piekte op $32 in juni.
+reviewed: true

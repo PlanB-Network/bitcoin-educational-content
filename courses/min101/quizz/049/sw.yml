@@ -1,0 +1,9 @@
+question: Ni tatizo gani la kivitendo ambalo pool ya uchimbaji inatafuta kutatua kimsingi?
+answer: Tofauti ya mapato (Income variance)
+wrong_answers:
+  - Ugumu wa mtandao
+  - Ukubwa wa bloku
+  - Bei ya ASIC
+explanation: |
+  Kwa kuunganisha hashrate, pool inageuza mapato yasiyo na utaratibu kuwa malipo ya mara kwa mara zaidi. Hii ni kupunguza tofauti ya mapato kwa mchimba madini.
+reviewed: false

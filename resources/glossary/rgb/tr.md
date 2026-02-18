@@ -1,5 +1,6 @@
 ---
 term: RGB
+definition: Bitcoin üzerinde çalışan merkeziyetsiz ve gizli akıllı sözleşme sistemi.
 ---
 
 Bitcoin ve Lightning Network ile çalışmak üzere tasarlanmış merkezi olmayan, gizli Smart contract sistemi. RGB, bir Client-side Validation modeli üzerinde çalışır ve Contract State'ün depolanmasını Blockchain'ten ayırır, böylece üzerinde yalnızca kriptografik taahhütler tutulur. Bu şekilde, tüm durum geçmişi zincirin dışında tutularak daha fazla ölçeklenebilirlik ve gizlilik sağlanır. RGB böylece tokenları, NFT'leri, merkezi olmayan kimlikleri veya DeFi çözümlerini doğrudan Bitcoin üzerinde depolamak için karmaşık sözleşmelerin oluşturulmasını sağlar.

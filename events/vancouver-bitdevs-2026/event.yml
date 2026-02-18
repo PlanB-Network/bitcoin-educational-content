@@ -1,0 +1,26 @@
+id: c84baacc-8e1c-47e8-a6a1-af68aa440103
+start_date: 2026-02-25 03:00:00
+end_date: 2026-02-25 05:00:00
+timezone: America/Vancouver
+address_city_country: Vancouver, Canada
+address_line_2: 1025 Dunsmuir St
+address_line_3: FUNK. Coffee Bar
+name: Vancouver Bitdevs 2026
+type: meetup
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: |
+  Monthly Vancouver Bitcoin Developer seminar discussing ongoing technical developments around Bitcoin and the Lightning Network. Topics include BitDevs mailing list discussions and current protocol developments. Open to developers and those interested in Bitcoin's technical aspects.
+  
+  Warning: information may change. Booking and up-to-date information are on SATLANTIS.
+language:
+  - en
+links:
+  website: https://www.bitdevs.ca
+  replay_url: 
+  live_url: 
+tags:
+  - development
+  - lightning
+  - protocols

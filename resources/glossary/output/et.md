@@ -1,5 +1,6 @@
 ---
-term: VÄLJUND
+term: Output
+definition: Tehingu väljund, mis loob uue UTXO kindlale aadressile.
 ---
 
 Bitcoin kontekstis viitab tehingusisene väljund _Unspent Transaction Outputs_ (UTXOs), mis luuakse maksete sihtfinantseerimiseks. Täpsemalt öeldes on see mehhanism, mille abil tehing jaotab vahendeid. Tehing võtab UTXOd, st bitcoin'id, kui "sisendid" ja loob uued UTXOd kui "väljundid". Need väljundid määravad kindlaks teatava koguse bitcoine, mis sageli eraldatakse konkreetsele Address-le, ning tingimused, mille alusel saab neid vahendeid hiljem kulutada.

@@ -1,6 +1,7 @@
 ---
 term: BIP0123
 
+definition: Phân loại BIP thành 4 loại Consensus, Peer Services, API/RPC và Applications.
 ---
 Establishes a new standardized process for the classification of Bitcoin improvement proposals. BIPs must now be classified into 4 categories:
 

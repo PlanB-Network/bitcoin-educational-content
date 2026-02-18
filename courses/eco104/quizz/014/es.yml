@@ -5,7 +5,5 @@ wrong_answers:
   - Se utilizan para cifrar los datos de la transacción.
   - Se comparten públicamente para transparencia.
 explanation: |
-  Las claves privadas son un componente esencial de las transacciones de Bitcoin.
-  Se utilizan para firmar y autorizar transacciones, proporcionando prueba
-  de propiedad y asegurando que solo el propietario pueda gastar sus bitcoins.
-reviewed: false
+  Las claves privadas son un componente esencial de las transacciones de Bitcoin. Se utilizan para firmar y autorizar transacciones, proporcionando prueba de propiedad y asegurando que solo el propietario pueda gastar su bitcoin.
+reviewed: true

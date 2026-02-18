@@ -1,6 +1,7 @@
 ---
 term: VOUT
 
+definition: Elemen transaksi Bitcoin yang menentukan tujuan dana dengan nilai dan skrip penguncian.
 ---
 Elemen spesifik dari transaksi Bitcoin yang menentukan tujuan dana yang dikirim. Sebuah transaksi dapat mencakup beberapa output, masing-masing diidentifikasi secara unik dengan kombinasi pengenal transaksi (`txid`) dan indeks yang disebut `vout`. Indeks ini, dimulai dari `0`, menandai posisi output dalam urutan output transaksi. Dengan demikian, output pertama akan ditandai dengan `"vout": 0`, yang kedua dengan `"vout": 1`, dan seterusnya.
 

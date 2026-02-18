@@ -1,0 +1,9 @@
+question: Šta meri hešrejt (hashrate)?
+answer: Heševa u sekundi
+wrong_answers:
+  - Blokova u sekundi
+  - Transakcija u sekundi
+  - Bajtova u sekundi
+explanation: |
+  Hešrejt izražava broj pokušaja heširanja izvršenih svake sekunde, u H/s.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welche Bedingung macht einen Block in Bitcoin gültig?
+answer: SHA256d(Block-Header) <= Ziel
+wrong_answers:
+  - SHA256d(Block-Header) >= Ziel
+  - SHA256d(Block) >= Ziel
+  - SHA256d(Block-Header) > Ziel
+explanation: |
+  Damit ein Block bei Bitcoin gültig ist, muss der Hash seines Headers, interpretiert als Zahl, kleiner oder gleich (<=) dem Ziel sein.
+reviewed: false

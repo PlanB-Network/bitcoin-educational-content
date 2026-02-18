@@ -1,5 +1,6 @@
 ---
 term: P2PKH
+definition: 將比特幣鎖定在公鑰哈希上的腳本，地址以 1 開頭。
 ---
 
 P2PKH 代表 *Pay to Public Key Hash*。它是用於在 UTXO 上建立支出條件的標準腳本模型。它允許將比特幣鎖定在一個公開密鑰的 Hash，也就是接收的 Address 上。此腳本與 Legacy 標準相關，由 Satoshi Nakamoto 在 Bitcoin 的早期版本中引入。

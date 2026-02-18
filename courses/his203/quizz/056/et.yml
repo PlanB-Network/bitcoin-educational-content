@@ -1,0 +1,10 @@
+question: Mis oli selle ala nimi, mis oli pühendatud kauplemisele PorcFest 2012, kus üle poole kaupmeestest aktsepteeris bitcoin'i?
+answer: Agora Valley
+wrong_answers:
+  - Bitcoin tänav
+  - Libertaristlik tee
+  - Raske raha laager
+explanation: |
+ Agora Valley hõlmas umbes nelikümmend loetletud stendi, kus müüdi toitu, jooke, raamatuid, riideid, nuge, mütse ja muud. BitInstant'i liikmetel oli seal stend, mis kandis nime
+ "Bernanke's Bitcoin Exchange", kus nad pakkusid dollarivahetust ja õpetasid uudishimulikele, kuidas Bitcoin kasutada.
+reviewed: true

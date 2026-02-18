@@ -1,6 +1,7 @@
 ---
-term: STRATUM
+term: Stratum
 
+definition: Võrguprotokoll, mis optimeerib suhtlust üksikute kaevandajate ja kaevandamisbasseinide serverite vahel.
 ---
 Bitcoini peal olev võrguprotokoll, mis on spetsiaalselt loodud selleks, et optimeerida kommunikatsiooni üksikute kaevurite ja kaevandamisbasseini serverite vahel, et suurendada nende kasumlikkust. Stratum kuulutas 2011. aasta lõpus välja Marek Palatinus, keda tuntakse paremini pseudonüümi "Slush" all ja kes on esimese kaevandamisbasseini Slush Pool (nüüdseks Braiins) asutaja. Stratum tuli asendama vanemat Getworki protokolli, mis oli vananenud.
 

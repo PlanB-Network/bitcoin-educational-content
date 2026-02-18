@@ -1,6 +1,7 @@
 ---
 term: PBKDF2
 
+definition: Funksjon for å utlede kryptografiske nøkler fra et passord gjennom iterasjoner.
 ---
 pBKDF2 står for *Password-Based Key Derivation Function 2*. Det er en metode for å lage kryptografiske nøkler fra et passord ved hjelp av en avledningsfunksjon. Den tar utgangspunkt i et passord og et kryptografisk salt, og bruker iterativt en forhåndsbestemt funksjon (ofte en hash-funksjon som `SHA256` eller en `HMAC`) på disse dataene. Denne prosessen gjentas mange ganger for å generere en kryptografisk nøkkel.
 

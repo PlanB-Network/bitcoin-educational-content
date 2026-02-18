@@ -1,0 +1,9 @@
+question: Waar wordt sinds SegWit de witness commitment van het blok vastgelegd?
+answer: In een output van de coinbase
+wrong_answers:
+  - In de scriptSig van de coinbase
+  - In het versieveld
+  - In de fees van de coinbase
+explanation: |
+  SegWit gebruikt een commitment dat in de coinbase is ingeschreven via een OP_RETURN output.
+reviewed: false

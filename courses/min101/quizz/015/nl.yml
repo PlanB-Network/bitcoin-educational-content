@@ -1,0 +1,9 @@
+question: In welk jaar werd Hashcash voorgesteld?
+answer: 1997
+wrong_answers:
+  - 1993
+  - 2004
+  - 1995
+explanation: |
+  Hashcash werd voor het eerst aangekondigd in maart 1997.
+reviewed: false

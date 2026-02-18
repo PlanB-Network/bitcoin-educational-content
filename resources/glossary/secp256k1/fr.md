@@ -1,5 +1,6 @@
 ---
 term: SECP256K1
+definition: Courbe elliptique utilisée sur Bitcoin pour les signatures numériques ECDSA et Schnorr.
 ---
 
 Nom donné à une courbe elliptique spécifique utilisée dans le cadre du protocole Bitcoin pour l'implémentation des algorithmes de signatures numériques ECDSA (*Elliptic Curve Digital Signature Algorithm*) et Schnorr. La courbe `secp256k1` a été choisie par l’inventeur de Bitcoin, Satoshi Nakamoto. Elle présente certaines propriétés intéressantes, notamment des avantages en termes de performance.

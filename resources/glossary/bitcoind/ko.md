@@ -1,5 +1,6 @@
 ---
 term: bitcoind
+definition: Bitcoin 데몬, Bitcoin 노드를 실행하고 RPC를 통해 상호 작용하기 위한 명령줄 프로그램.
 ---
 
 "*Bitcoin daemon*"의 약어입니다.

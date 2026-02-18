@@ -1,5 +1,6 @@
 ---
-term: SegWit
+term: Segwit
+definition: Kapasiteyi artırmak ve malleability (değiştirilebilirlik) sorununu çözmek için imzaları ayıran 2017 güncellemesi.
 ---
 
 "Segregated Witness "ın kısaltması olan SegWit, Ağustos 2017'de tanıtılan Bitcoin protokolünün bir güncellemesidir. Ağın işlem kapasitesi sorunu, işlemin değiştirilebilirliği sorunu ve gelecekteki protokol değişikliklerinin kolaylaştırılması dahil olmak üzere çeşitli teknik sorunları çözmeyi amaçlamaktadır.

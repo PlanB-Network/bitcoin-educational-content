@@ -1,5 +1,6 @@
 ---
-term: ERLAY
+term: Erlay
+definition: Protocole améliorant l'efficacité du relais des transactions pour réduire la consommation de bande passante.
 ---
 
 Proposition de protocole réseau dont l'objectif est d'améliorer l'efficacité du relais des transactions non confirmées entre les nœuds Bitcoin.

@@ -1,0 +1,9 @@
+question: 根據協議，最後一次減半（halving）是哪一次？
+answer: 第 33 次
+wrong_answers:
+  - 第 21 次
+  - 第 38 次
+  - 第 64 次
+explanation: |
+  在區塊高度 6,930,000 處的第 33 次減半將結束區塊補貼，因為補貼金額將低於最小單位。
+reviewed: false

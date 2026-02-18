@@ -1,0 +1,11 @@
+question: Berapa banyak peretasan terpisah yang dialami platform perdagangan Bitcoinica sebelum menyatakan kebangkrutan?
+answer: 3
+wrong_answers:
+  - 1
+  - 2
+  - 4
+explanation: |
+ Ketiga peretasan tersebut adalah sebagai berikut: peretasan akun Linode yang menyebabkan platform tersebut kehilangan 43.554 bitcoin; peretasan akun Rackspace yang menyebabkan
+ peretasan akun Mt. Gox yang menyebabkan peretas menarik 40.000 bitcoin dan 40.000 LR-USD. Likuidasi Bitcoinica
+ diumumkan pada tanggal 1 Agustus 2012.
+reviewed: true

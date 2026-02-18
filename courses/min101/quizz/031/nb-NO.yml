@@ -1,0 +1,9 @@
+question: Hvilken er den siste halveringen i henhold til protokollen?
+answer: Den 33.
+wrong_answers:
+  - Den 21.
+  - Den 38.
+  - Den 64.
+explanation: |
+  Den 33. halveringen, ved høyde 6 930 000, vil avslutte blokksubsidien fordi den vil falle under minimumsenheten.
+reviewed: false

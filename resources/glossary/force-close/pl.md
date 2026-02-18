@@ -1,5 +1,6 @@
 ---
-term: WYMUŚ ZAMKNIĘCIE
+term: Wymuszone zamknięcie
+definition: Jednostronne zamknięcie kanału Lightning poprzez rozgłoszenie ostatniej podpisanej transakcji zaangażowania (commitment transaction).
 ---
 
 Niekooperacyjny mechanizm zamykania kanałów Lightning. Gdy dwóch użytkowników otworzy kanał z Multisig 2/2, każdy z nich może jednostronnie zamknąć kanał, transmitując ostatni Commitment Transaction, który został już podpisany, w celu odzyskania swoich bitcoinów onchain. Jest to znane jako "wymuszenie zamknięcia".

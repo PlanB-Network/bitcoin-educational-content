@@ -1,0 +1,9 @@
+question: ブロックチェーンに追加される前、トランザクションは何にグループ化されますか？
+answer: ブロックの中
+wrong_answers:
+  - UTXOの中
+  - ASICの中
+  - scriptSigの中
+explanation: |
+  トランザクションは即座にブロックチェーンに書き込まれるわけではありません。まずブロックに組み込まれます。
+reviewed: false

@@ -1,5 +1,4 @@
 id: a7c70579-237e-4b84-b261-ff7e00cc0b1d
-en_word: DEMURRAGE
 related_words:
 original_language: fr
 proofreading:
@@ -8,7 +7,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0.19
+    reward: 0.2
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -23,7 +22,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.38
+    reward: 0.4
   - language: es
     last_contribution_date:
     urgency: 1
@@ -49,7 +48,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 0.33
+    reward: 0.35
   - language: it
     last_contribution_date:
     urgency: 1
@@ -100,7 +99,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 0.33
+    reward: 0.35
   - language: zh-Hant
     last_contribution_date:
     urgency: 1

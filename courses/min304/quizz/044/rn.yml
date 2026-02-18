@@ -1,0 +1,11 @@
+question: Bitcoins z’isugi bisigura iki?
+answer: Bitcoins ziherutse gucukurwa, zitarigera zikoreshwa kandi ata mateka zifise. 
+wrong_answers:
+  - Bitcoins zakoreshejwe mu bikorwa bitemewe n’amategeko.
+  - Bitcoins zazimiye canke zaribagiwe.
+  - Bitcoins zabitswe muri Wallet igihe kirekire.
+explanation: |
+  Bitcoins z'isugi izo ni bitcoins ziherutse gucukurwa, zitarigera zikoreshwa kandi ata mateka zifise.
+  Izo bitcoins akenshi zibonwa ko zifise agaciro kanini kubera ko zitigeze "zihumanywa," 
+  zitanga icemezo kinaka co kutankwa n'abagenzuzi canke imbuga zikomeye zo guhanahana.
+reviewed: true

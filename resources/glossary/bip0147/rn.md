@@ -1,5 +1,6 @@
 ---
 term: BIP0147
+definition: Itegeko NULLDUMMY risaba ko dummy element ya multisig opcodes iba ubusa, mu gukuraho malleability vector.
 ---
 
 Iciyumviro cashizwe muri SegWit Soft Fork kigamije gutorera umuti ikibazo c'ubushobozi bujanye n'ikintu c'ikinyoma gikoreshwa n'ibikorwa vya `OP_CHECKMULTISIG` na `OP_CHECKMULTISIGVERIFY`. Kubera ikibazo c’amateka c’uguhagarika-ku-kimwe (ikosa ry’uguhindura igice), izo opcode 2 zikuraho ikintu c’inyongera mu kirundo congereye ku gikorwa zazo zigamije.

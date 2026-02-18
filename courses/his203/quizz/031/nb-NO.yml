@@ -1,0 +1,9 @@
+question: Hvilket mining-kooperativ oversteg kortvarig 50 % hashrate i nettverket sommeren 2011?
+answer: Deepbit
+wrong_answers:
+  - Deepbit
+  - Slush's Pool
+  - GHash.io
+explanation: |
+ Ifølge OrganOfCorti var Deepbits målte hash-rate 52,86 % den 5. august.
+reviewed: true

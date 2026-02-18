@@ -1,0 +1,11 @@
+question: Quantos hacks distintos sofreu a plataforma de negociação Bitcoinica antes de declarar falência?
+answer: 3
+wrong_answers:
+  - 1
+  - 2
+  - 4
+explanation: |
+ Os três hacks foram os seguintes: o hack da conta Linode, que fez com que a plataforma perdesse 43.554 bitcoins; o hack da sua conta Rackspace, que levou à perda de 18.574 bitcoins; o hack da conta Mt
+ perda de 18 574 bitcoins; o hack da conta Mt. Gox, durante o qual o hacker retirou 40 000 bitcoins e 40 000 LR-USD. A liquidação da Bitcoinica
+ foi anunciada em 1 de agosto de 2012.
+reviewed: true

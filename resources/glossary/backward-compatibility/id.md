@@ -1,5 +1,6 @@
 ---
-term: KOMPATIBILITAS MUNDUR (BACKWARD COMPATIBILITY)
+term: Kompatibilitas mundur
 
+definition: Kemampuan pembaruan protokol untuk tetap kompatibel dengan versi sebelumnya, memungkinkan simpul lama untuk terus beroperasi di jaringan.
 ---
 Mengacu pada kemampuan pembaruan aturan protokol untuk mempertahankan kompatibilitas dengan versi sebelumnya. Ini berarti bahwa perubahan dirancang sedemikian rupa sehingga node yang lebih lama (_node_ yang menjalankan versi sebelum perubahan aturan) masih dapat berinteraksi dengan jaringan dan mengikuti rantai dengan akumulasi pekerjaan terbanyak. Oleh karena itu, sangat penting bahwa _node_ yang lebih tua tidak menolak blok baru maupun transaksi baru. Kompatibilitas mundur secara signifikan mengurangi kemungkinan pembaruan akan memecah jaringan, sehingga menghindari pembagian _node_ ke dalam sub-kelompok pada rantai yang berbeda. Untuk memastikan kompatibilitas dengan versi protokol sebelumnya, pembaruan harus membuat aturan yang ada menjadi lebih ketat atau memperkenalkan aturan baru. Prinsip ini akan menciptakan sebuah "_soft fork_". Sebaliknya, jika pembaruan melonggarkan aturan yang ada atau menghilangkan beberapa aturan, maka pembaruan tersebut tidak akan kompatibel ke belakang. Ini akan menghasilkan "_hard fork_".

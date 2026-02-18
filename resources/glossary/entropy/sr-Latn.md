@@ -1,5 +1,6 @@
 ---
-term: ENTROPIJA
+term: Entropija
+definition: Mera nepredvidivosti izvora podataka, ključna za generisanje sigurnih ključeva.
 ---
 
 Entropija, u kontekstu kriptografije i informacija, je kvantitativna mera nesigurnosti ili nepredvidljivosti povezane sa izvorom podataka ili slučajnim procesom. Entropija igra ključnu ulogu u bezbednosti kriptografskih sistema, posebno u generisanju ključeva i slučajnih brojeva. Visoka entropija osigurava da su generisani ključevi dovoljno nepredvidljivi i otporni na napade grube sile, gde napadač pokušava sve moguće kombinacije da pogodi ključ.

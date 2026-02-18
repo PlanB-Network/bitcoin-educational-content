@@ -1,5 +1,6 @@
 ---
-term: op_negate (0x8f)
+term: OP_NEGATE (0X8F)
 
+definition: スタックの最上部にある要素の符号を反転させるOpcode。
 ---
 スタックの先頭要素の符号を反転する。値が正なら負になり、逆なら正になる。

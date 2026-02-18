@@ -1,5 +1,6 @@
 ---
-term: CODE DE CHAINE
+term: Code de chaine
+definition: Valeur de sel cryptographique de 256 bits utilisée dans la dérivation HD des clés de portefeuille.
 ---
 
 Dans le contexte de la dérivation hiérarchique et déterministe (HD) des portefeuilles Bitcoin, le code de chaîne est une valeur de sel cryptographique de 256 bits utilisée pour générer des clés enfants à partir d'une clé parent, selon le standard BIP32. Le code de chaîne est utilisé en combinaison avec la clé parent et l’index de l’enfant pour générer de manière déterministe une nouvelle paire de clés (clé privée et clé publique) sans révéler la clé parent ou les autres clés enfants dérivées.

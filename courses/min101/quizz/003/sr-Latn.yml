@@ -1,0 +1,9 @@
+question: Koji se dokaz najčešće koristi za otključavanje UTXO-a na Bitcoin-u?
+answer: Digitalni potpis
+wrong_answers:
+  - Lozinka naloga
+  - Hash trenutnog bloka
+  - SSL sertifikat
+explanation: |
+  Uslov za trošenje obično zahteva potpis napravljen pomoću odgovarajućeg privatnog ključa.
+reviewed: false

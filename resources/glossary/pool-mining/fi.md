@@ -1,5 +1,6 @@
 ---
-term: POOL (Mining)
+term: Kaivosallas
+definition: Louhijoiden yhteenliittymä, jossa laskentateho yhdistetään lohkojen löytämiseksi yhdessä.
 ---
 
 Tarkoittaa joukkoa louhijoita, jotka tekevät yhteistyötä yhdistämällä laskentatehonsa osallistuakseen Bitcoin:n pätevien todisteiden etsimiseen. Tämä yhdistäminen yhdeksi organisaatioksi on ratkaisu Bitcoin Mining:n kasvavaan vaikeuteen, jonka vuoksi yksittäisen Miner:n on liian epätodennäköistä kilpailla ja ansaita palkkioita vakaasti. Mining pool:n sisällä olevat louhijat osallistuvat koneillaan kelvollisten osuuksien etsimiseen. Kun pooli on louhinut lohkon, palkkio - joka koostuu uusista luoduista bitcoineista sekä lohkoon sisältyvistä transaktiomaksuista - jaetaan poolin jäsenten kesken valitun palkkiomenetelmän mukaisesti. Tämä jako on verrannollinen kunkin Miner:n käyttämään laskentatehoon.

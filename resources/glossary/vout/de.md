@@ -1,6 +1,7 @@
 ---
 term: VOUT
 
+definition: Element einer Bitcoin-Transaktion, das den Bestimmungsort der Mittel mit einem Wert und einem Locking-Script bestimmt.
 ---
 Ein spezifisches Element einer Bitcoin-Transaktion, das das Ziel der gesendeten Gelder bestimmt. Eine Transaktion kann mehrere Ausgaben enthalten, die jeweils eindeutig durch die Kombination aus dem Transaktionsbezeichner (txid) und einem Index namens "vout" identifiziert werden. Dieser Index, der bei "0" beginnt, kennzeichnet die Position der Ausgabe in der Reihenfolge der Transaktionsausgaben. So wird die erste Ausgabe mit "vout" bezeichnet: 0", die zweite mit "vout": 1`, und so weiter.
 

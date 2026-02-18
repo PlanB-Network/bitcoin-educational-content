@@ -1,6 +1,7 @@
 ---
-term: TAASTUMISFRAAS
+term: Taastamise fraas
 
+definition: 12 või 24 sõnast koosnev jada, mis võimaldab Bitcoini rahakoti varundamist ja taastamist.
 ---
 Taastamisfraas, mida mõnikord nimetatakse ka mnemoonikaks, seemnefraasiks või salajaks fraasiks, on tavaliselt 12 või 24 sõnast koosnev jada, mis genereeritakse pseudosrandomiliselt entroopia allikast. Pseudosuvanduslikku jada täiendatakse alati kontrollsummaga. Mälufraasi kasutatakse koos valikulise salasõnaga, et tuletada deterministlikult kõik HD (Hierarchical Deterministic) rahakotiga seotud võtmed. See tähendab, et sellest fraasist on võimalik deterministlikult genereerida ja taasluua kõik Bitcoini rahakoti privaat- ja avalikud võtmed ning sellest tulenevalt pääseda ligi sellega seotud rahalistele vahenditele. Taastamisfraasi eesmärk on pakkuda bitcoinide varundamise ja taastamise vahendit, mis on nii turvaline kui ka lihtne kasutada.
 

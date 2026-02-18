@@ -1,0 +1,9 @@
+question: Hashcash किस वर्ष प्रस्तावित किया गया था?
+answer: 1997
+wrong_answers:
+  - 1993
+  - 2004
+  - 1995
+explanation: |
+  Hashcash की पहली बार घोषणा मार्च 1997 में की गई थी।
+reviewed: false

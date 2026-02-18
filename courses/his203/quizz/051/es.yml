@@ -1,0 +1,10 @@
+question: Según el estudio de Nicolas Christin publicado en agosto de 2012, ¿cuál fue el volumen de ventas diario durante mayo de 2012?
+answer: 15.000 BTC o 75.000 dólares
+wrong_answers:
+  - 600 BTC o 3.000 dólares
+  - 3.000 BTC o 15.000 dólares
+  - 75.000 BTC o 375.000 dólares
+explanation: |
+ El volumen diario de ventas, que era de 8.000 BTC en marzo, alcanzó los 15.000 BTC en mayo, lo que equivale a unos 75.000 dólares en ese momento. La actividad como proporción del total
+ Actividad de la cadena Bitcoin osciló entre el 10% y el 20% durante 2012. A principios de noviembre, Ross se refirió al éxito de la plataforma como "crecimiento explosivo".
+reviewed: true

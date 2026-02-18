@@ -1,0 +1,9 @@
+question: Apa kegunaan akar Merkle (Merkle root) dalam header blok Bitcoin?
+answer: Melibatkan semua transaksi di dalam blok
+wrong_answers:
+  - Menghitung bukti kerja blok
+  - Menandakan versi blok
+  - Mengetahui tingkat kesulitan blok
+explanation: |
+  Akar Merkle meringkas semua transaksi; jika ada satu yang berubah, akarnya pun ikut berubah.
+reviewed: false

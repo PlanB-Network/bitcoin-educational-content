@@ -1,6 +1,7 @@
 ---
-term: TESTA DI BLOCCO
+term: Intestazione del blocco
 
+definition: Struttura di 80 byte contenente i metadati di un blocco (versione, hash precedente, radice Merkle, timestamp, target, nonce).
 ---
 L'intestazione del blocco è una struttura di dati che funge da componente principale nella costruzione di un blocco Bitcoin. Ogni blocco è composto da un'intestazione e da un elenco di transazioni. L'intestazione del blocco contiene informazioni cruciali che garantiscono l'integrità e la validità di un blocco all'interno della blockchain. L'intestazione del blocco contiene 80 byte di metadati ed è composta dai seguenti elementi:
 
@@ -66,4 +67,3 @@ b2e00517
 
 Per essere valido, un blocco deve avere un'intestazione che, una volta sottoposta a hash con `SHA256d`, produca un hash inferiore o uguale all'obiettivo di difficoltà.
 
-> *In inglese, si parla di "Block Header" (intestazione del blocco)*

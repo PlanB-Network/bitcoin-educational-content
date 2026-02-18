@@ -1,5 +1,6 @@
 ---
-term: OBIETTIVO
+term: Scopo
+definition: Livello di derivazione nei portafogli HD che identifica lo standard di indirizzi utilizzato.
 ---
 
 Nei portafogli deterministici e gerarchici (HD), lo scopo, definito dal BIP43, rappresenta uno specifico livello di derivazione. Questo indice, situato alla prima profondità dell'albero di derivazione (`m / purpose' /`), identifica lo standard di derivazione adottato dal portafoglio, per facilitare la compatibilità tra diversi software di gestione del portafoglio. Ad esempio, nel caso degli indirizzi SegWit (BIP84), lo scopo è indicato come `/84'/`. Questo metodo consente di organizzare in modo efficiente le chiavi tra diversi tipi di Address all'interno di un singolo portafoglio HD. Gli indici standard utilizzati sono :

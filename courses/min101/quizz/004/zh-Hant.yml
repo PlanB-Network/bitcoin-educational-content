@@ -1,0 +1,9 @@
+question: 根據中本聰總結的想法，確保不存在雙重支出（double-spending）的唯一方法是什麼？
+answer: 了解所有交易
+wrong_answers:
+  - 了解所有活躍節點
+  - 了解所有活躍礦工
+  - 了解所有私鑰
+explanation: |
+  通過將交易與共享賬本中記錄的過去支出進行比較來檢測雙重支出。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welke zin vat de dienst van een mining pool samen?
+answer: Het verkoopt voorspelbaarheid
+wrong_answers:
+  - Het verkoopt mining moeilijkheid
+  - Het verkoopt grotere blokken
+  - Het verkoopt mining machines
+explanation: |
+  Het bundelen van krachten transformeert een zeer volatiel inkomen in meer regelmatige betalingen, in ruil voor een aandeel en vergoedingen.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Protokole göre son halving hangisidir?
+answer: 33.
+wrong_answers:
+  - 21.
+  - 38.
+  - 64.
+explanation: |
+  6.930.000 yüksekliğindeki 33. halving, minimum birimin altına düşeceği için blok sübvansiyonunu sona erdirecektir.
+reviewed: false

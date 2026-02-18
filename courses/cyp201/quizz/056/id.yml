@@ -6,3 +6,4 @@ wrong_answers:
   - Blockchain Root
 explanation: |
   Konstanta Bitcoin Seed digunakan sebagai kunci dalam fungsi HMAC-SHA512 untuk menurunkan kunci privat utama dan kode rantai utama.
+reviewed: true

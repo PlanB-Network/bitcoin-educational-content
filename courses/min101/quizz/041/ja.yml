@@ -1,0 +1,9 @@
+question: ビットコインASICは、具体的にどのアルゴリズムを実行するように設計されていますか？
+answer: SHA256d
+wrong_answers:
+  - SHA512d
+  - SHA1
+  - SHA512
+explanation: |
+  ビットコインASICは、ビットコインのプルーフ・オブ・ワークで使用されるダブルSHA256に特化しています。
+reviewed: false

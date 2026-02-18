@@ -1,5 +1,6 @@
 ---
 term: SIGHASH_ANYPREVOUTANYSCRIPT
+definition: SIGHASH_ANYPREVOUT का संस्करण जो संबंधित आउटपुट स्क्रिप्ट को बदलने की भी अनुमति देता है।
 ---
 
 Bitcoin में सिगहैश फ्लैग संशोधक `SIGHASH_ANYPREVOUT` का एक प्रकार। यह सिगहैश `SIGHASH_ANYPREVOUT` की तरह कार्य करता है, लेकिन यह किसी दिए गए UTXO से जुड़ी आउटपुट स्क्रिप्ट को बदलने की भी अनुमति देता है।

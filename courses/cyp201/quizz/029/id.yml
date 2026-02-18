@@ -6,4 +6,4 @@ wrong_answers:
   - HMAC
 explanation: |
   Bitcoin awalnya menggunakan ECDSA, sebuah protokol tanda tangan yang berbasis pada kurva eliptik, sebelum diperkenalkannya tanda tangan Schnorr pada tahun 2021.
-ditinjau: false
+reviewed: true

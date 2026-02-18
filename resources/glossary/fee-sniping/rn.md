@@ -1,5 +1,6 @@
 ---
-term: AMAHERA YO GUTERA
+term: Fee sniping
+definition: Igitero aho abacukuzi basubira kwandika igice (block) caheruka kugira ngo bibe amahera y'ivunjisha menshi ari muri ico gice.
 ---
 
 Igitero aho abacukuzi barondera gusubira kwandika igice giherutse kwemezwa kugira ngo basabe amafaranga y’ugucuruza kirimwo, mu gihe bongerako amafaranga menshi y’ugucuruza yashitse muri ico gihe muri Mempool. Intumbero nyamukuru y’iki gitero ku ba Miner ni iyo kwongerera inyungu zabo. Guca amafaranga y’amabuye y’agaciro birashobora gutuma habaho inyungu nyinshi uko Block reward igabanuka kandi amafaranga y’ugucuruza agereranya igice kinini c’amahera abacukuzi baronka mu mabuye y’agaciro. Bishobora kandi kuba vyiza iyo amafaranga ari mu gice c’imbere ari menshi cane kuruta ayo mu gice gikurikira c’abahiganwa beza. Mu kworosha, Miner ihanganye n’iri hitamwo mu bijanye n’inzego zitera intege:

@@ -1,6 +1,7 @@
 ---
-term: RETE MAGICA
+term: Magic network
 
+definition: Costanti di 4 byte che identificano la rete (mainnet, testnet, regtest) nei messaggi tra i nodi.
 ---
 Costanti utilizzate nel protocollo Bitcoin per identificare la rete specifica (mainnet, testnet, regtest...) di un messaggio scambiato tra nodi. Questi valori sono iscritti all'inizio di ogni messaggio per facilitarne l'identificazione nel flusso di dati. Le reti magiche sono progettate per essere raramente presenti nei dati di comunicazione ordinari. Infatti, questi 4 byte sono poco frequenti in ASCII, non sono validi in UTF-8 e generano un intero a 32 bit molto grande, indipendentemente dal formato di memorizzazione dei dati. Le reti magiche sono (in formato little-endian):
 

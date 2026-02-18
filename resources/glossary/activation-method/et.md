@@ -1,6 +1,7 @@
 ---
-term: AKTIVEERIMISMEETOD
+term: Aktiveerimismeetod
 
+definition: Protsess, mille käigus Bitcoin kogukond otsustab soft forki aktiveerida, otsides konsensust kaevandajate ja kasutajate vahel, et vältida blockchaine jagunemist.
 ---
 Aktiveerimismeetod on protsess, mille käigus kasutajaskond otsustab Bitcoini protokolli pehme hargnemise rakendamise üle, mille eesmärk on vältida plokiahela jagunemist. See protsess hõlmab kaevandajate arvamuse küsimist, et nad kiidaksid pehme hargnemise enne selle aktiveerimist heaks. Kui märkimisväärne enamus kiidab pehme hargnemise heaks, on plokiahela lõhenemise oht minimaalne. See konsensus on väga oluline, sest kui enamik kaevandajaid keeldub muudatuse tegemisest, võib soft fork luua kaks erinevat ahelat: ühe muudetud reeglitega ja teise ilma. On 2 peamist aktiveerimismeetodite kategooriat:
 

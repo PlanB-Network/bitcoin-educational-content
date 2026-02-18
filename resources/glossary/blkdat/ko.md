@@ -1,5 +1,6 @@
 ---
-term: BLK*.DAT
+term: Blk*.dat
+definition: 블록체인 블록의 원시 데이터를 저장하는 Bitcoin Core의 파일들.
 ---
 
 Blockchain의 원시 블록 데이터를 저장하는 Bitcoin core의 파일에 부여된 이름입니다. 각 파일은 파일명에 있는 고유 번호로 식별됩니다.

@@ -1,8 +1,9 @@
 ---
 term: ASIC
+definition: Saketi linalotumiwa kwa ajili ya mahesabu ya SHA256 kwa ajili ya Bitcoin mining, inayotoa ufanisi wa nishati zaidi kuliko CPU na GPU.
 ---
 
-ASIC ni sehemu ya elektroniki iliyoundwa kufanya kazi maalum kwa ufanisi bora. Katika muktadha wa Bitcoin Mining, ASIC ni mizunguko maalumu iliyounganishwa ambayo hufanya shughuli za Hash za kasi ya juu, zisizo na nishati kidogo. Wana utaalam katika kutekeleza `SHA256` chaguo za kukokotoa za Hash zinazotumika katika utaratibu wa Proof-of-Work. Hapo awali, ASIC inahusu jina la chip. Kwa ugani, kifupi "ASIC" mara nyingi pia inahusu mashine ambayo huweka chip hii. Kwa hiyo, kompyuta maalumu katika Bitcoin Mining wakati mwingine huitwa "ASICs," au "wachimbaji." ASICs hatua kwa hatua zimebadilisha mbinu zingine za Mining, kama vile vichakataji (CPU) na kadi za michoro (GPU), kwa sababu ya ufanisi wao wa juu wa nishati na kiwango cha juu zaidi cha Hash.
+ASIC ni kipengele cha kielektroniki kilichoundwa kutekeleza kazi maalum kwa ufanisi wa juu kabisa. Katika muktadha wa uchimbaji wa Bitcoin, ASIC ni saketi jumuishi maalum zinazofanya shughuli za hashing kwa kasi kubwa na kwa matumizi madogo ya nishati. Zimebobea katika utekelezaji wa kazi ya hashing `SHA256` inayotumika katika utaratibu wa uthibitisho wa kazi. Awali, ASIC linarejelea jina la chipu. Kwa upanuzi, kifupi "ASIC" mara nyingi hutumiwa pia kurejelea mashine inayohifadhi chipu hiyo. Hivyo, kompyuta zilizobobea katika uchimbaji wa Bitcoin wakati mwingine huitwa "ASIC" au "wachimbaji". ASIC zimechukua nafasi ya mbinu nyingine za uchimbaji hatua kwa hatua, kama vile matumizi ya prosesa (CPU) katika hatua za awali za Bitcoin na baadaye kadi za michoro (GPU), kutokana na ufanisi wao wa juu wa nishati na kiwango cha hashing kilicho juu zaidi.
 
 
-> *Kifupi "ASIC" kinasimamia "Mzunguko Uliounganishwa wa Programu Maalum." Kwa Kifaransa, neno hili linaweza kutafsiriwa kama "Circuit intégré spécifique à une application".*
+Kifupi "*ASIC*" kinamaanisha "*Application-Specific Integrated Circuit*" kwa Kiingereza.

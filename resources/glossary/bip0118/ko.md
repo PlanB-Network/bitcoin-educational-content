@@ -1,5 +1,6 @@
 ---
 term: BIP0118
+definition: 트랜잭션 간에 서명을 재사용할 수 있게 하는 새로운 SigHash Flags를 도입하는 ANYPREVOUT 제안, Eltoo에 유용함.
 ---
 
 두 가지 새로운 시그해시 플래그 수정자, `SIGHASH_ANYPREVOUT`과 `SIGHASH_ANYPREVOUTANYSCRIPT`를 도입하는 제안서입니다.

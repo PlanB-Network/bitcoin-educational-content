@@ -1,6 +1,7 @@
 ---
 term: ECDSA
 
+definition: Algoritme Tanda Tangan Digital Kurva Elips yang digunakan di Bitcoin untuk menandatangani transaksi.
 ---
 Singkatan dari "_Elliptic Curve Digital Signature Algorithm._", yang merupakan algoritma tanda tangan digital berdasarkan kriptografi kurva elips (ECC). Ini adalah varian dari DSA (Algoritma Tanda Tangan Digital). ECDSA menggunakan sifat kurva elips untuk memberikan tingkat keamanan yang sebanding dengan algoritma kunci publik tradisional, seperti RSA, sambil menggunakan ukuran kunci yang jauh lebih kecil. ECDSA memungkinkan pembuatan pasangan kunci (kunci publik dan privat) serta pembuatan dan verifikasi tanda tangan digital.
 

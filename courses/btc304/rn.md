@@ -1820,7 +1820,7 @@ Uretse agaciro gakomeye k’inyigisho, iyo nzira ituma bishoboka gusangira inyan
 Aha hepfo hariho ingene amateraniro y’igifaransa azogenda mu mwaka w’2023-2024. Ku nsanganyamatsiko yose, hariho ikiganiro gifunguye be n’amasanamu, ivyo bishobora kuguha ivyiyumviro vy’ingingo woshobora gushikiriza mu birori vyawe bwite.
 
 
-Ibindi bikoresho bishobora guhindurwa birashobora kandi kuronswa muri [Igikoresho co kwigisha Bitcoin](https://planb.academy/fr/resources/bet)!
+Ibindi bikoresho nabyo birahari mu gice ["Educator Content"](https://planb.academy/educator-content) cya Plan ₿ Academy, umwanya wo gukorana aho abigisha Bitcoin bo mu isi yose basangira kandi batanga ibikoresho byabo byo kwigisha (ibiganiro, amapapuro, ibitabo byerekana, amapositeri...) mu buryo buteguwe gukoresha canke bushobora guhindurwa. Intego: gufatanya imbaraga kugira ngo tutazongere gutangira ku bubusa rimwe na rimwe!
 
 
 

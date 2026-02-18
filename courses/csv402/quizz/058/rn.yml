@@ -1,9 +1,9 @@
 question: Ni igiki "curl -X POST /ikibazo" gishobora gukora kuri RLN?
-answer: Rema umutungo mushasha ushobora guhinduka, udatera inflation RGB
+answer: Rema umutungo mushasha ushobora guhinduka, udatera itakaza ry'agaciro rya RGB
 wrong_answers:
-  - Rema umutungo mushasha udahinduka wa RGB
-  - Rema umutungo mushasha w'ugutera imbere kw'ibiciro RGB
-  - Rema umutungo mushasha wa RGB
+  - Gukora umutungo mushasha udahinduka wa RGB
+  - Gukora umutungo mushasha w'ugutera imbere kw'ibiciro RGB
+  - Gukora umutungo mushasha wa RGB
 explanation: |
   Itegeko "/issueassetnia" rikoreshwa mu gutanga RGB NIA nshasha ("Itunga Ridashobora Gufutwa") token.
-reviewed: false
+reviewed: true

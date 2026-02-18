@@ -1,5 +1,6 @@
 ---
-term: OP_NEGATE (0x8F)
+term: OP_NEGATE (0X8F)
+definition: 스택 최상단 요소의 부호를 반전시키는 Opcode.
 ---
 
 스택의 최상위 요소의 부호를 반전시킵니다. 값이 양수이면 음수가 되고 그 반대의 경우도 마찬가지입니다.

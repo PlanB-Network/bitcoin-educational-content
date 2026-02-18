@@ -1,10 +1,10 @@
 question: Wat is de rol van de medewerker in een Stonewall x2-transactie?
-answer: Zorg voor bitcoins om twijfel toe te voegen
+answer: Bitcoins ter beschikking stellen om twijfel toe te voegen
 wrong_answers:
   - Optreden als transactiecoördinator
   - Het betalingsbedrag ontvangen
   - Stuur het betalingsbedrag
 explanation: |
-  De medewerker in een Stonewall x2 transactie levert bitcoins om twijfel toe te voegen aan de analyse van de transactie, terwijl ze hun geld aan het einde volledig terugkrijgen (een neutrale actie voor hen, minus de Mining kosten).
+  De medewerker in een Stonewall x2-transactie levert bitcoins om twijfel toe te voegen aan de analyse van de transactie, terwijl ze hun geld aan het einde volledig terugkrijgen (een neutrale actie voor hen, minus de mining kosten).
   
 reviewed: false

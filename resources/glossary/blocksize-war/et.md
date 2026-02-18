@@ -1,6 +1,7 @@
 ---
-term: BLOCKSIZE WAR
+term: Ploki suuruse sõda
 
+definition: Bitcoini kogukonnas toimunud konflikt (2015–2017) ploki suuruse suurendamise üle.
 ---
 Viitab intensiivse arutelu ja konflikti perioodile Bitcoini kogukonnas aastatel 2015-2017. See konflikt keskendus sellele, kas plokisuurust, mida Satoshi Nakamoto oli alates 2010. aastast piiranud 1 megabaidiga, tuleks suurendada, et Bitcoin saaks töödelda rohkem tehinguid ploki kohta, parandades seeläbi skaleeritavust.
 

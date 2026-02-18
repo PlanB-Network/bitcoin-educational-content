@@ -1,0 +1,9 @@
+question: Dịch vụ nào trong hệ sinh thái Bitcoin KHÔNG bị ảnh hưởng bởi vụ tấn công dịch vụ lưu trữ Linode vào ngày 1 tháng 3 năm 2012?
+answer: Dịch vụ chuyển đổi ngoại tệ BitInstant, do Charlie Shrem quản lý
+wrong_answers:
+  - Nền tảng giao dịch Bitcoinica, do Zhou Tong quản lý
+  - BitcoinCZ Mining mining hợp tác xã, do Slush quản lý
+  - Vòi nước Bitcoin, do Gavin Andresen quản lý
+explanation: |
+ Tin tặc đã truy cập vào cổng dịch vụ khách hàng của công ty và chiếm quyền kiểm soát tám tài khoản, tất cả đều có liên quan đến Bitcoin. Hắn đã chiếm đoạt 43.554 bitcoin thuộc về Bitcoinica, lấy đi 3.094 bitcoin từ tài khoản wallet của Slush và chiếm được 5 bitcoin có trên vòi Bitcoin của Gavin.
+reviewed: true

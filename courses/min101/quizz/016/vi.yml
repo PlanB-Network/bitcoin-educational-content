@@ -1,0 +1,9 @@
+question: Từ viết tắt RPOW có nghĩa là gì?
+answer: Reusable Proofs of Work
+wrong_answers:
+  - Recursive Proofs of Work
+  - Random Proofs of Work
+  - Replayed Proofs of Work
+explanation: |
+  RPOW chỉ các bằng chứng công việc có thể tái sử dụng và trao đổi, được Hal Finney đề xuất vào năm 2004.
+reviewed: false

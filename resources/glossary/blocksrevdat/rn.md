@@ -1,5 +1,6 @@
 ---
-term: AMABUZI/REV*.IBIMENYETSO
+term: Blocks/rev*.dat
+definition: Amadosiye abika amakuru yo gusiba kugira hashoboke isubira inyuma k'uburyo bwa kera bwa UTXO set.
 ---
 
 Izina ry'amadosiye ari muri Bitcoin core abika amakuru akenewe kugira ngo hasubirwemwo amahinduka yakozwe kuri UTXO yashizweho n'amabuye yongeweko mbere. Buri dosiye igaragazwa n'umubare wihariye uhuye na dosiye blk*.dat ihuye.

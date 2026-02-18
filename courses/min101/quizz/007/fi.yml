@@ -1,0 +1,9 @@
+question: Mikä taloudellinen kriteeri ohjaa louhijan tapahtumavalintaa?
+answer: Maksutaso (fee rate)
+wrong_answers:
+  - Maksujen kokonaismäärä
+  - UTXO:iden ikä
+  - UTXO:iden lukumäärä
+explanation: |
+  Koska lohkon tila on rajallinen, louhija asettaa etusijalle kannattavimmat tapahtumat tavua kohden. Siksi maksutaso ohjaa tapahtumien valintaa.
+reviewed: false

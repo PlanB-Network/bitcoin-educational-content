@@ -1,0 +1,10 @@
+question: ¿Cuál era el modelo de negocio de BitPay, el procesador de pagos lanzado por Stephen Pair y Tony Gallippi en el verano de 2011?
+answer: Convierte los bitcoins de los clientes en dólares al instante, a cambio de una comisión
+wrong_answers:
+  - Permitir a los clientes comprar bitcoin al instante con pagos en dólares, a cambio de una comisión
+  - Prestar bitcoins depositados por los clientes y cobrar intereses
+  - Retransmitir pagos de bitcoin a la cadena de bloques, recibiendo comisiones por transacción
+explanation: |
+ La idea de BitPay era ofrecer a los comerciantes la posibilidad de convertir sus pagos en bitcoin instantáneamente en dólares, para que pudieran protegerse de la volatilidad
+ la volatilidad. BitPay proporcionaba a los clientes dólares por adelantado, cobrando una comisión de procesamiento que inicialmente era del 1%.
+reviewed: true

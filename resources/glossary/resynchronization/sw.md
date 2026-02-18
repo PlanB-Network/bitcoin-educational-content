@@ -1,5 +1,6 @@
 ---
-term: UPYA
+term: Resynchronization
+definition: Uingizajiaji wa sehemu ya blockchain na mnyororo unaoshindana wenye kazi nyingi zaidi iliyokusanywa.
 ---
 
 Inahusu jambo ambalo Blockchain inapitia marekebisho ya muundo wake kutokana na kuwepo kwa vitalu vinavyoshindana kwa urefu sawa. Hii hutokea wakati sehemu ya Blockchain inabadilishwa na mlolongo mwingine na kiasi kikubwa cha kazi iliyokusanywa.
@@ -8,7 +9,7 @@ Inahusu jambo ambalo Blockchain inapitia marekebisho ya muundo wake kutokana na 
 Usawazishaji huu ni sehemu ya utendakazi wa asili wa Bitcoin, ambapo wachimbaji tofauti wanaweza kupata vitalu vipya karibu wakati huo huo, na hivyo kugawanya mtandao wa Bitcoin kuwa mbili. Katika hali kama hizi, mtandao unaweza kugawanyika kwa minyororo inayoshindana kwa muda. Hatimaye, wakati moja ya minyororo hii inakusanya kazi zaidi, minyororo mingine inaachwa na nodes, na vitalu vyao vinakuwa kile kinachoitwa "vitalu vya kizamani" au "vitalu vya yatima." Mchakato huu wa kubadilisha mnyororo mmoja na mwingine ni kusawazisha tena.
 
 
-![](../../dictionnaire/assets/9.webp)
+
 
 
 Usawazishaji upya unaweza kuwa na matokeo mbalimbali. Kwanza, ikiwa mtumiaji alikuwa na shughuli iliyothibitishwa katika kizuizi ambacho kinageuka kuwa kimetelekezwa, lakini muamala huu haupatikani katika msururu halali, basi muamala wao haujathibitishwa tena. Hii ndiyo sababu inashauriwa kusubiri kila mara angalau uthibitisho 6 ili kuzingatia muamala kuwa hauwezi kubadilika. Baada ya vitalu 6 kwa kina, ulandanishaji upya hauwezekani sana hivi kwamba nafasi ya kutokea inaweza kuzingatiwa karibu hakuna.

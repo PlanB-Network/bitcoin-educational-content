@@ -1,5 +1,6 @@
 ---
-term: BYSANTINSKA GENERALER PROBLEM
+term: Byzantinska generalsproblemet
+definition: Problem som illustrerar utmaningarna med samordning i ett distribuerat system där aktörerna inte kan lita på varandra.
 ---
 
 Problemet formulerades först av Leslie Lamport, Robert Shostak och Marshall Pease i facktidskriften *ACM Transactions on Programming Languages and Systems, vol 4, n° 3* ["The Byzantine Generals Problem"](https://lamport.azurewebsites.net/pubs/byz.pdf) i juli 1982. Det används idag för att illustrera utmaningarna när det gäller beslutsfattande när ett distribuerat system inte kan lita på någon aktör.

@@ -1,5 +1,6 @@
 ---
 term: BTC
+definition: Berzanski simbol koji predstavlja jednu jedinicu bitkoina, što je jednako 100 miliona satošija.
 ---
 
 Simbol akcije ili valute (*ticker*) koji se koristi za predstavljanje jedinice Bitcoin na Exchange platformama. Koristi se za brzo prepoznavanje Bitcoin među ostalim sredstvima i valutama. Jedna jedinica Bitcoin (1 BTC) jednaka je 100,000,000 satoshija (ili "Sats").

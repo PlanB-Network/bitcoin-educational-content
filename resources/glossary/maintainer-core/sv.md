@@ -1,5 +1,6 @@
 ---
-term: UNDERHÅLLARE (CORE)
+term: Underhållare (core)
+definition: Personer som ansvarar för att hantera Bitcoin Core-projektet och slå samman kodändringar.
 ---
 
 I samband med Bitcoin Core-projektet, den dominerande implementeringen av noder i Bitcoin-nätverket, är underhållare individer som har till uppgift att hantera projektet. De bär ansvaret för dess genomförande. De ansvarar för moderering av Bitcoin Core GitHub-arkivet och för att fastställa schemat för utgivning av nya versioner. De är främst ansvariga för att genomföra sammanslagningen av pull requests (PR) som föreslagits av bidragsgivare.

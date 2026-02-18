@@ -1,0 +1,9 @@
+question: 비트코인 결제 내역이 기록되는 공유 공개 장부를 무엇이라고 합니까?
+answer: 블록체인
+wrong_answers:
+  - 멤풀(mempool)
+  - 지갑(wallet)
+  - 해시레이트(hashrate)
+explanation: |
+  모든 트랜잭션을 포함하는 공유 공개 장부가 바로 블록체인입니다.
+reviewed: false

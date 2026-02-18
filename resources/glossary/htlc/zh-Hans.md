@@ -1,5 +1,6 @@
 ---
 term: HTLC
+definition: 以在时限内揭示秘密为条件的智能合约。
 ---
 
 代表 "*Hashed Timelock Contract*"。这是一种 Smart contract 机制，主要用于 "闪电"。它有时也出现在原子交换中。基本上，HTLC 使资金转移以泄露秘密为条件，还包括一个时间条件，以便在交易失败时保护发送方的资金。

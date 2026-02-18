@@ -1,0 +1,9 @@
+question: Która spółdzielnia mining na krótko przekroczyła 50% wskaźnik hashowania sieci latem 2011 roku?
+answer: Deepbit
+wrong_answers:
+  - Deepbit
+  - Slush's Pool
+  - GHash.io
+explanation: |
+ Według OrganOfCorti, zmierzony wskaźnik hashowania Deepbit wyniósł 52,86% 5 sierpnia.
+reviewed: true

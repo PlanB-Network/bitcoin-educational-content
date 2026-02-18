@@ -1,5 +1,6 @@
 ---
-term: BATERIJA
+term: Stek
+definition: LIFO struktura podataka koja se koristi u Bitcoin Script-u za skladištenje i manipulisanje privremenim elementima tokom izvršavanja.
 ---
 
 U kontekstu skriptnog jezika koji se koristi za postavljanje uslova trošenja na Bitcoin UTXO-e, stek je LIFO (*Last In, First Out*) struktura podataka koja se koristi za privremeno skladištenje Elements tokom izvršavanja skripte. Svaka operacija u skripti manipuliše ovim stekovima, gde se Elements može dodati (*push*) ili ukloniti (*pop*). Skripte koriste stekove za evaluaciju izraza, skladištenje privremenih varijabli i upravljanje uslovima.

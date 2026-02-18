@@ -1,6 +1,7 @@
 ---
-term: SCRIPTSIG
+term: Scriptsig
 
+definition: 提供数据以满足scriptPubKey条件的输入元素。
 ---
 比特币交易中位于输入端的一个元素。`scriptSig` 提供必要的数据，以满足上一笔交易的 `scriptPubKey` 所设定的条件。因此，它对 `scriptPubKey` 起着补充作用。通常，`scriptSig` 包含一个数字签名和一个公钥。签名由比特币所有者使用其私钥生成，并证明他们有使用 UTXO 的授权。在这种情况下，`scriptSig` 证明输入的持有者拥有与上一笔输出交易的 `scriptPubKey` 中指定的地址相关的公钥对应的私钥。
 
@@ -18,6 +19,6 @@ term: SCRIPTSIG
 OP_DUP OP_HASH160 OP_PUSHBYTES_20 <address> OP_EQUALVERIFY OP_CHECKSIG
 ```
 
-![](../../dictionnaire/assets/35.webp)
+
 
 > ► *`scriptSig`在英语中有时也被称为 “unlocking script”（解锁脚本)*。

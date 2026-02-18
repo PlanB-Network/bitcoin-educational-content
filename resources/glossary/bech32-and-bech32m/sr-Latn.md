@@ -1,5 +1,6 @@
 ---
-term: BECH32 I BECH32M
+term: Bech32 i bech32m
+definition: Formati kodiranja za SegWit adrese (počinju sa bc1), koji nude bolju detekciju grešaka i poboljšanu čitljivost u poređenju sa Legacy adresama.
 ---
 
 `Bech32` i `Bech32m` su dva Address formata kodiranja za primanje bitkoina. Oni su zasnovani na blago modifikovanoj bazi 32. Uključuju kontrolni zbir zasnovan na algoritmu za ispravljanje grešaka zvanom BCH (*Bose-Chaudhuri-Hocquenghem*). U poređenju sa Legacy adresama, kodiranim u `Base58check`, `Bech32` i `Bech32m` adrese imaju efikasniji kontrolni zbir, što omogućava detekciju i potencijalno automatsko ispravljanje grešaka u kucanju. Njihov format takođe nudi bolju čitljivost, sa samo malim slovima. Ovde je matrica sabiranja za ovaj format iz baze 10:

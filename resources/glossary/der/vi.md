@@ -1,5 +1,6 @@
 ---
-term: ĐẠI HỌC
+term: DER
+definition: Định dạng mã hóa nhị phân tiêu chuẩn được sử dụng cho chữ ký ECDSA trên Bitcoin.
 ---
 
 Từ viết tắt của *Distinguished Encoding Rules*. Đây là một tập hợp con nghiêm ngặt của các quy tắc mã hóa ASN.1 được định nghĩa trong đặc tả [ITU-T X.690, 2002.](https://www.itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf) và được sử dụng để mã hóa bất kỳ loại dữ liệu nào theo trình tự nhị phân. DER chủ yếu được sử dụng trong các lĩnh vực cụ thể, chẳng hạn như mật mã học, trong đó dữ liệu phải được mã hóa theo cách chuẩn, có thể dự đoán được.

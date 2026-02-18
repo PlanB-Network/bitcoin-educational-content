@@ -1,5 +1,6 @@
 ---
-term: EXTRA-Nonce
+term: Extra-nonce
+definition: Felt i coinbase som gjør det mulig å utvide søkerommet utover den klassiske noncen for utvinning.
 ---
 
 Felt som brukes i `scriptSig` for en blokks Coinbase Transaction, noe som gjør det mulig å teste et større antall muligheter for å få en Hash som er lavere enn vanskelighetsmålet, i tillegg til den klassiske Nonce, som finnes direkte i overskriften til hver blokk.

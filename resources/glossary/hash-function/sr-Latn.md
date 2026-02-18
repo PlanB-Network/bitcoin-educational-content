@@ -1,5 +1,6 @@
 ---
-term: Hash FUNKCIJA
+term: Heš funkcija
+definition: Matematička funkcija koja proizvodi izlaz fiksne veličine iz ulaza varijabilne veličine.
 ---
 
 Matematička funkcija koja uzima ulaz promenljive veličine (nazvan poruka) i proizvodi izlaz fiksne veličine (nazvan Hash, heširanje, sažetak ili otisak prsta). Hash funkcije su široko korišćeni primitivni elementi u kriptografiji. One pokazuju specifična svojstva koja ih čine pogodnim za upotrebu u sigurnim kontekstima:
@@ -19,4 +20,3 @@ U kontekstu Bitcoin, funkcije Hash koriste se za nekoliko svrha, uključujući m
 - `HASH160`, koji opisuje uzastopnu upotrebu `SHA256` i `RIPEMD160`. `HASH160` se koristi u procesu generisanja adresa za primanje (osim P2PK i P2TR) i u izračunavanju otisaka prstiju roditeljskih ključeva za proširene ključeve.
 
 
-> ► *Na engleskom se to naziva "Hash funkcija".*

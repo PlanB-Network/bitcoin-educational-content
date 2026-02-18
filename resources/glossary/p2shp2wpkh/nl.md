@@ -1,5 +1,6 @@
 ---
 term: P2SH-P2WPKH
+definition: SegWit-script (P2WPKH) verpakt in P2SH voor compatibiliteit, adressen beginnen met 3.
 ---
 
 P2SH-P2WPKH staat voor *Betalen aan Script Hash - Betalen aan Getuige Openbare Sleutel Hash*. Het is een standaard scriptmodel dat gebruikt wordt om bestedingsvoorwaarden vast te stellen op een UTXO, ook bekend als "Geneste SegWit".

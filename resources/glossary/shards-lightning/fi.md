@@ -1,5 +1,6 @@
 ---
-term: SIRPALEET (SALAMA)
+term: Shards (lightning)
+definition: Maksun osa, joka reititetään erikseen eri Lightning-reittien kautta (MPP/AMP).
 ---
 
 *Monipolkumaksuissa (MPP)* tai *Atomic Multi-Path Payments (AMP)* Shard on osa kokonaismaksusta. Kukin Shard edustaa osaa kokonaismaksusta, joka reititetään erikseen eri reittiä Lightningin kautta.

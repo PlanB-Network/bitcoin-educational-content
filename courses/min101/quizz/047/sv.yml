@@ -1,0 +1,9 @@
+question: Vilken statistisk princip förklarar att frekvensen av hittade block konvergerar mot andelen hashrate på lång sikt?
+answer: Stora talens lag
+wrong_answers:
+  - Bayes sats
+  - Födelsedagsparadoxen
+  - Principen om minsta verkan
+explanation: |
+  Konvergensen av resultaten beror på stora talens lag, eftersom varje hash är ett oberoende försök.
+reviewed: false

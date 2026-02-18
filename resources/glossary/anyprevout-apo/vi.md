@@ -1,5 +1,6 @@
 ---
-term: ANYPREVOUT (APO)
+term: Anyprevout (apo)
 
+definition: Một đề xuất (BIP118) thêm các cờ SigHash mới cho phép tạo các chữ ký không bao gồm bất kỳ input cụ thể nào của giao dịch.
 ---
-Name given to BIP118 which proposes adding two new SigHash Flag modifiers, named `SIGHASH_ANYPREVOUT` and `SIGHASH_ANYPREVOUTANYSCRIPT`. The term "*AnyPrevOut*" comes from the contraction of "*Any Previous Output*" which could be translated into French as "toute sortie précédente".
+Tên gọi dành cho BIP118, đề xuất bổ sung hai bộ điều chỉnh cờ SigHash mới, có tên `SIGHASH_ANYPREVOUT` và `SIGHASH_ANYPREVOUTANYSCRIPT`. Thuật ngữ "*AnyPrevOut*" xuất phát từ sự rút gọn của "*Any Previous Output*".

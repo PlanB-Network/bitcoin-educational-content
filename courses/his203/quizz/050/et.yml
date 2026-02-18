@@ -1,0 +1,10 @@
+question: Millist pseudonüümi kasutas Ross Ulbricht alates 2012. aasta veebruarist Silk Roadi haldajana?
+answer: Dread Pirate Roberts
+wrong_answers:
+  - Altoid
+  - Harbringeri vari
+  - Piraat neljakümneselt
+explanation: |
+ Ross Ulbricht valis selle pseudonüümi viitega 1987. aasta filmile "Printsessi pruut". Selles filmis on nimi omamoodi tiitel, mida saab ühelt piraadilt edasi anda
+ teisele, mis võimaldab kandja tegelikku identiteeti varjata ja "tekitada vaenlastes vajalikku hirmu".
+reviewed: true

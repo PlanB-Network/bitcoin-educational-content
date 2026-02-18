@@ -1,0 +1,10 @@
+question: Forrest Voight tarafından 2011 yılında oluşturulan dağıtık mining havuzu P2Pool'un arkasındaki konsept neydi?
+answer: Hisse zinciri
+wrong_answers:
+  - Uzun yoklama
+  - Coinbase imzası
+  - FPGA
+explanation: |
+ "Hisse zinciri" veya sharechain, katılımcılar tarafından katkıda bulunulan kısmi çalışma kanıtlarından oluşuyordu. Katılımcılar tarafından sürdürülmekteydi
+ eşler arası. Her paylaşım bir önceki paylaşımın parmak izini içeriyor ve bütünün bütünlüğünü sağlıyordu.
+reviewed: true

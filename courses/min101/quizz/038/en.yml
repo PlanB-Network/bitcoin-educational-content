@@ -1,0 +1,9 @@
+question: Since BIP-34, what must contain the beginning of the coinbase scriptSig?
+answer: The block height
+wrong_answers:
+  - The miner's hashrate
+  - The difficulty target
+  - The block footprint
+explanation: |
+  BIP-34 requires the block height to be included in the coinbase scriptSig.
+reviewed: true

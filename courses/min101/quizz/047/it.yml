@@ -1,0 +1,9 @@
+question: Quale principio statistico spiega che la frequenza dei blocchi trovati converge alla quota di hashrate nel lungo termine?
+answer: Legge dei grandi numeri
+wrong_answers:
+  - Teorema di Bayes
+  - Paradosso del compleanno
+  - Principio di minima azione
+explanation: |
+  La convergenza dei risultati è dovuta alla legge dei grandi numeri, poiché ogni hash è un tentativo indipendente.
+reviewed: false

@@ -1,5 +1,4 @@
 id: 72c8f360-7162-4832-af5a-4d75be173620
-en_word: HASHER
 related_words: ["POOL (MINING)"]
 original_language: fr
 proofreading:
@@ -8,7 +7,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0.1
+    reward: 0.11
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -23,7 +22,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.2
+    reward: 0.22
   - language: es
     last_contribution_date:
     urgency: 1
@@ -115,12 +114,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.2
+    reward: 0.22
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.25
+    reward: 0.28
   - language: tr
     last_contribution_date:
     urgency: 1

@@ -1,0 +1,9 @@
+question: Welcher Satz fasst die Dienstleistung eines Mining-Pools zusammen?
+answer: Er verkauft Vorhersehbarkeit
+wrong_answers:
+  - Er verkauft Mining-Schwierigkeit
+  - Er verkauft größere Blöcke
+  - Er verkauft Mining-Maschinen
+explanation: |
+  Die Bündelung verwandelt ein sehr volatiles Einkommen in regelmäßigere Zahlungen, im Austausch gegen Anteile und Gebühren.
+reviewed: false

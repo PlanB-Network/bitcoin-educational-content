@@ -1,6 +1,7 @@
 ---
-term: HORQUILLA
+term: Fork
 
+definition: División de la red de nodos o modificación de las reglas del protocolo Bitcoin.
 ---
 El término "bifurcación" tiene varios significados en el contexto de Bitcoin. Puede referirse tanto a una división de la red de nodos en varios grupos separados, dando lugar a la creación de múltiples blockchains diferentes, como a una modificación de las reglas del protocolo, o a ambas cosas simultáneamente. Para simplificar, podemos distinguir 4 categorías principales de bifurcaciones:
 

@@ -1,0 +1,9 @@
+question: 블록체인에 추가되기 전, 트랜잭션은 어디에 그룹화됩니까?
+answer: 블록 내
+wrong_answers:
+  - UTXO 내
+  - ASIC 내
+  - scriptSig 내
+explanation: |
+  트랜잭션은 블록체인에 즉시 기록되지 않습니다. 먼저 블록에 통합됩니다.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: OP_ELSE (0x67)
+term: OP_ELSE (0X67)
 
+definition: 如果之前的条件不满足，则执行后续指令的操作码。
 ---
 修改条件脚本的执行流程：表示如果不满足由 `OP_IF`、`OP_NOTIF` 或其他 `OP_ELSE`指定的前一个条件，则应执行后面的相应操作。

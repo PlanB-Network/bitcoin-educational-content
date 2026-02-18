@@ -1,5 +1,6 @@
 ---
 term: Halving
+definition: Gebeurtenis waarbij de beloning voor miners elke 210.000 blokken wordt gehalveerd.
 ---
 
 De term "Halving" verwijst naar een geplande gebeurtenis die de beloning die miners krijgen voor elk gemined blok via de blokkensubsidie halveert. Deze vermindering is specifiek van toepassing op het deel van de blokkensubsidie dat bestaat uit nieuwe bitcoins die uit het niets worden gecreëerd. Halving werd ontworpen door Satoshi Nakamoto, de maker van Bitcoin, als een mechanisme om de inflatie onder controle te houden en te zorgen voor een beperkte Supply aan bitcoins.

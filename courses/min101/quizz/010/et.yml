@@ -1,0 +1,9 @@
+question: Mis on nonce suurus ploki päises?
+answer: 32 bitti
+wrong_answers:
+  - 128 bitti
+  - 64 bitti
+  - 256 bitti
+explanation: |
+  Nonce on 32-bitine väli päises.
+reviewed: false

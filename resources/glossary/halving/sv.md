@@ -1,5 +1,6 @@
 ---
-term: Halving
+term: Halvering
+definition: Händelse som halverar brytarnas belöning var 210 000e block.
 ---
 
 Termen "Halving" avser en schemalagd händelse som halverar den belöning som ges till miners för varje minat block genom blocksubventionen. Denna minskning gäller specifikt den del av blocksubventionen som består av nya bitcoins som skapats ur tomma intet. Halving utformades av Satoshi Nakamoto, skaparen av Bitcoin, som en mekanism för att kontrollera inflationen och säkerställa en begränsad Supply av bitcoins.

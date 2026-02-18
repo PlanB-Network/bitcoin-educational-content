@@ -1,0 +1,9 @@
+question: Mpango wa hati ya Pay-to-Script-Hash (P2SH) unajumuisha nini?
+answer: Kufunga fedha kwa kutumia hash ya hati, ambayo lazima itekelezwe wakati wa kufungua
+wrong_answers:
+  - Kuhitaji sahihi za M kutoka kwa washiriki wa N ili kuidhinisha matokeo ya muamala kutumika
+  - Kufanya matumizi ya bitcoins kutegemea kutoa sahihi iliyounganishwa na ufunguo mmoja wa umma
+  - Kuandika data kiholela kwenye blockchain kwa kufanya UTXO isiweze kutumika
+explanation: |
+ Hii inahusisha kulipia hash ya hati na kutoa hati hiyo wakati wa kufungua fedha. Kinachoitofautisha na pendekezo la OP_EVAL ni kwamba inatambuliwa kiotomatiki na mashine pepe, ili iweze kutekelezwa bila kuhitaji maagizo yoyote dhahiri.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Sa kojom vrstom hardvera se rudarenje obavljalo na samom početku Bitcoina?
+answer: CPU
+wrong_answers:
+  - GPU
+  - ASIC
+  - FPGA
+explanation: |
+  Prilikom lansiranja, softver je radio na običnom računaru i koristio je uglavnom procesor.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 为什么 coinbase 交易与其他交易不同？
+answer: 它不支出任何真实的 UTXO
+wrong_answers:
+  - 它没有 TXID
+  - 它没有输出
+  - 它不在 Merkle 树中
+explanation: |
+  它的输入指向一个虚拟的 UTXO，这允许创建补贴并收取手续费。
+reviewed: false

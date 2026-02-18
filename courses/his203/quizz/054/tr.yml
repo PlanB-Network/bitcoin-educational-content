@@ -1,0 +1,10 @@
+question: Hangi ödeme standardı yazılım mimarı Dave Thaler tarafından Eylül 2012'de IANA'ya tescil ettirilmiştir?
+answer: BIP 21 URI şeması
+wrong_answers:
+  - BIP 32 hiyerarşik deterministik portföyler
+  - BIP 70 ödeme protokolü
+  - BIP 47 yeniden kullanılabilir ödeme kodu
+explanation: |
+ Bu standart, bir karakter dizisi veya QR kodu şeklini alan ödeme taleplerinin resmileştirilmesini mümkün kılmıştır. Birkaç öneriden sonra, nihai bir URI
+ şeması Ocak 2012'de Matt Corallo tarafından BIP 21 içinde tanımlanmıştır. Eylül ayında Dave Thaler tarafından IANA'ya kaydedilmiştir.
+reviewed: true

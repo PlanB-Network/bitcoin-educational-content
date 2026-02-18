@@ -141,7 +141,7 @@ Yukarıda özetlenen basit adımları detaylandıran video
 
 
 
-Bu basit adımlar çok uzak bir adım gibi görünüyorsa, GrapheneOS yazılımı [önceden yüklenmiş] bir Pixel satın almayı düşünebilirsiniz (https://ronindojo.io/en/roninmobile). Sadece sağlayıcıya küçük bir miktar güven duyduğunuzu unutmayın.
+Bu basit adımlar çok uzak bir adım gibi görünüyorsa, GrapheneOS yazılımı önceden yüklenmiş bir Pixel satın almayı düşünebilirsiniz (bunları satan şirketler var). Sadece sağlayıcıya küçük bir miktar güven duyduğunuzu unutmayın.
 
 
 ### Önceden Yüklenmiş Uygulamalar
@@ -333,10 +333,10 @@ Gizlilik alanına ilgi duymayan çoğu kişi muhtemelen WhatsApp veya iMessage k
 
 
 
-- [Signal](https://signal.org/), güçlü bir geçmişe ve zengin özellik setine sahip en popüler uçtan uca şifrelenmiş (E2EE) mesajlaşma programlarından biridir. Signal kaydolmak için bir telefon numarası gerektirir, bu nedenle telefon numaranızı bilmemeyi tercih ettiğiniz kişilerle sohbet etmeyi planlıyorsanız, belki de bazı alternatiflere bakın. Signal, Aurora Store üzerinden indirilmelidir.
+- [Signal](https://signal.org/), güçlü bir geçmişe ve zengin özellik setine sahip en popüler uçtan uca şifrelenmiş (E2EE) mesajlaşma programlarından biridir. Signal kaydolmak için bir telefon numarası gerektirir, bu nedenle telefon numaranızı bilmemeyi tercih ettiğiniz kişilerle sohbet etmeyi planlıyorsanız, belki de bazı alternatiflere bakın **_[veya numaranızı profil ayarlarınızda gizleyin](https://support.signal.org/hc/en-us/articles/6712070553754-Phone-Number-Privacy-and-Usernames)_**. Signal, Aurora Store üzerinden indirilmelidir.
 - [Simplex](https://f-droid.org/en/packages/chat.simplex.app/) oldukça yeni bir E2EE mesajlaşma aracıdır. Kullanıcı kimliği yoktur, telefon numarası veya kişisel bilgi gerektirmez. İnsanlar sizi kişisel QR kodunuzu tarayarak veya benzersiz bağlantınızı ziyaret ederek bulur. Simplex ayrıca ileri düzey kullanıcıların herhangi bir merkezi varlığa bağımlılığı daha da azaltmak için kendi sunucularını çalıştırmalarına izin verir. Simplex'in bir masaüstü istemcisi yoktur, bu nedenle çoklu cihaz öncelik listenizdeyse uygun olmayabilir. Android için Simplex F-Droid üzerinden kullanılabilir.
 - [Threema](https://threema.ch/en/faq/libre_installation) Simplex'e benzer bir deneyim sunuyor, ancak daha uzun süredir var ve sonuç olarak biraz daha cilalı hissediyor. Threema ücretsiz değildir, ömür boyu lisans ücreti 4,99 dolardır ve Bitcoin ile satın alınabilir. Threema bir web istemcisi ve yerel masaüstü uygulamaları sunuyor. Android uygulaması F-Droid üzerinden kullanılabilir.
-- [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/), Android için resmi Telegram uygulamasının resmi olmayan bir FOSS Fork'üdür. Telegram'da E2EE 'gizli sohbetler' vardır, ancak varsayılan seçenek özel değildir. Telegram FOSS F-Droid'den indirilebilir.
+- [Mercurygram](https://f-droid.org/en/packages/it.belloworld.mercurygram/), Android için resmi Telegram uygulamasının resmi olmayan bir FOSS Fork'üdür. Telegram'da E2EE 'gizli sohbetler' vardır, ancak varsayılan seçenek özel değildir. Mercurygram F-Droid'den indirilebilir.
 
 
 ![image](assets/fr/9.webp)
@@ -359,14 +359,13 @@ https://planb.academy/tutorials/computer-security/communication/threema-24382d25
 
 
 - [Spotube](https://f-droid.org/packages/oss.krtirtho.spotube/), Premium hesap gerektirmeyen platformlar arası bir Spotify istemcisidir. Spotube, F-Droid üzerinden kullanılabilir.
-- [ViMusic](https://f-droid.org/en/packages/it.vfsfitvnm.vimusic/), YouTube müziklerinden herhangi bir müziği ücretsiz olarak buharlaştırmak için harika bir uygulamadır. ViMusic F-Droid'den temin edilebilir.
 - [Newpipe](https://f-droid.org/packages/org.schabi.newpipe/) can sıkıcı reklamlar ve şüpheli izinler olmadan bir YouTube deneyimi sunar. NewPipe ile kanallara abone olabilir, arka planda dinleyebilir ve hatta çevrimdışı görüntüleme için indirebilirsiniz. NewPipe'a F-Droid üzerinden erişilebilir.
 - [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/), tüm favori şovlarınıza abone olmanızı ve yönetmenizi sağlayan bir podcast oynatıcıdır. AntennaPod F-Droid üzerinden kullanılabilir.
 
 
 ![image](assets/fr/11.webp)
 
-Sol: Spotube, Sağ: ViMusic
+Spotube
 
 
 ### Haritalar
@@ -404,7 +403,7 @@ Sol: Proton Mail, Sağ: Tutanota
 
 
 
-- [Syncthing](https://f-droid.org/packages/com.nutomic.syncthingandroid/) bir dosya senkronizasyon programıdır. Dosyaları iki veya daha fazla cihaz arasında gerçek zamanlı olarak senkronize eder ve meraklı gözlerden güvenli bir şekilde korunur. Verileriniz yalnızca size aittir ve nerede saklanacağını, üçüncü bir tarafla paylaşılıp paylaşılmayacağını ve internet üzerinden nasıl iletileceğini seçme hakkına sahipsiniz. Syncthing F-Droid üzerinden kullanılabilir.
+- [Syncthing Fork](https://f-droid.org/en/packages/com.github.catfriend1.syncthingfork/) dosya senkronizasyon programının bir fork'üdür. Dosyaları iki veya daha fazla cihaz arasında gerçek zamanlı olarak senkronize eder ve meraklı gözlerden güvenli bir şekilde korunur. Verileriniz yalnızca size aittir ve nerede saklanacağını, üçüncü bir tarafla paylaşılıp paylaşılmayacağını ve internet üzerinden nasıl iletileceğini seçme hakkına sahipsiniz. Syncthing Fork F-Droid üzerinden kullanılabilir.
 - [KDE Connect](https://f-droid.org/packages/org.kde.kdeconnect_tp/) ev ağınıza bağlıyken tüm cihazlarınızın birbiriyle kolayca konuşmasını sağlar. Tüm cihazlarınız arasında (iOS'ta bile!) Dosyaları, fotoğrafları, pano verilerini kolayca gönderin. KDE connect F-Droid'den indirilebilir.
 - [Notesnook](https://f-droid.org/en/packages/com.streetwriters.notesnook/), düşüncelerinizi ve yapılacaklar listelerinizi tüm cihazlarınız arasında senkronize etmek için bir E2EE not uygulamasıdır. Ücretsiz planları çoğu kişisel kullanım durumunu kapsamalıdır. Notesnook F-Droid'de mevcuttur.
 - [Standart Notlar](https://f-droid.org/en/packages/com.standardnotes/) Notesnook'a çok benzer, ancak özellik setine uyması için ücretli bir plan gerektirir. Standart Notlar F-Droid aracılığıyla kullanılabilir.
@@ -421,7 +420,7 @@ Sol: Notesnook, Sağ: KDE Connect
 
 
 
-- [Geometric Weather](https://f-droid.org/en/packages/wangdaye.com.geometricweather/), F-Droid aracılığıyla kullanılabilen güzel tasarlanmış bir Açık Kaynak hava durumu uygulamasıdır. Ayrıca farklı boyutlarda widget'ları da destekler, böylece seçtiğiniz konumdaki hava durumunu doğrudan ana ekranınızdan görebilirsiniz.
+- [Breezy Weather](https://f-droid.org/en/packages/org.breezyweather/), Material 3 Expressive arayüzüne sahip zengin özellikli açık kaynaklı bir hava durumu uygulamasıdır; 50'den fazla kaynaktan düşünceli görselleştirmeler, tahminler, gerçek zamanlı koşullar, hava kalitesi, polen, hava durumu uyarıları sunar.
 - [Translate You](https://f-droid.org/packages/com.bnyro.translate/) 200'den fazla dili destekleyen bir Açık Kaynak ve gizliliği koruyan çeviri uygulamasıdır. Translate You, F-Droid üzerinden kullanılabilir.
 - [Proton Calendar](https://proton.me/calendar/download), Proton e-posta hesaplarınızla sorunsuz bir şekilde etkileşime giren, kullanımı kolay bir E2EE'dir. Proton Calendar bir APK olarak veya Aurora mağazası aracılığıyla indirilebilir.
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) biniş kartlarını, kuponları, sinema biletlerini ve üyelik kartlarını vb. görüntülemek ve saklamak için bir uygulamadır. Sadece ilgili `pkpass` veya `espass` dosyasını indirin ve uygulama ile açın. PassAndroid F-Droid üzerinden kullanılabilir.
@@ -440,7 +439,7 @@ Sol: Geometrik Hava Durumu, Sağ: Proton Takvimi
 - [Proton Pass](https://proton.me/pass/download) Bitwarden'a benzer bir ücretsiz hizmet sunuyor, ancak [Proton Unlimited](https://proton.me/pricing) müşterileri ek gelişmiş özelliklere erişebiliyor. Proton Pass APK veya Aurora üzerinden kullanılabilir.
 - [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/), tek seferlik şifre protokollerini kullanan sistemler için iki faktörlü bir kimlik doğrulama uygulamasıdır. Belirteçler bir QR kodu taranarak kolayca eklenebilir. FreeOTP, F-Droid üzerinden kullanılabilir.
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/), çevrimiçi hizmetleriniz için 2 adımlı doğrulama belirteçlerinizi yönetmek için Android için ücretsiz, güvenli ve Açık Kaynaklı bir uygulamadır. Aegis, F-Droid üzerinden kullanılabilir.
-- [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/), verilerinizi yerel olarak şifreleyen ücretli, çapraz platformlu bir hizmettir, böylece verilerinizi en sevdiğiniz bulut hizmetine güvenle yükleyebilirsiniz. Cryptomator F-Droid üzerinden indirilebilir.
+- [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/), verilerinizi yerel olarak şifreleyen ücretsiz çapraz platformlu bir hizmettir (_yalnızca Android'de Google Play üzerinden ücretli_), böylece verilerinizi en sevdiğiniz bulut hizmetine güvenle yükleyebilirsiniz. Cryptomator F-Droid üzerinden indirilebilir.
 
 
 ![image](assets/fr/21.webp)

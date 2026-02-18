@@ -1,5 +1,6 @@
 ---
-term: IKIMENYETSO C'IBIBANZA
+term: Proof of reserves
+definition: Uburyo bwemerera amashirahamwe y’ivunjisha kwerekana ko bafise abitcoin b’abakiriya babo.
 ---
 
 Uburyo bukoreshwa n’ama platforms ya Bitcoin Exchange kugira ngo yerekane ko mu vy’ukuri afise itunga ry’abaguzi babo. Intumbero ni ugushingira intahe ko iyo sosiyete ishobora kwishura mu kugenzura ko amafaranga yiwe angana canke aruta amafaranga y’abakoresha bategerezwa kuba bafise.

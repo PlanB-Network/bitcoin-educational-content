@@ -58,15 +58,17 @@ proofreading:
     contributor_names:
     reward: 0.43
   - language: it
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 0.27
+      - GoodKidd0
+    reward: 0.13
   - language: ja
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 0.52
+      - yutaro21jp
+    reward: 0.26
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -103,10 +105,11 @@ proofreading:
     contributor_names:
     reward: 0.35
   - language: sr-Latn
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 0.43
+      - Sanja22B
+    reward: 0.22
   - language: sv
     last_contribution_date:
     urgency: 1

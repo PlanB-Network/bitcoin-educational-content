@@ -1,4 +1,4 @@
-Nchi Zinazomilikiwa---
+---
 name: Joinstr
 description: CoinJoins Zilizogatuliwa kupitia mtandao wa Nostr kwa usiri huru wa Bitcoin
 ---

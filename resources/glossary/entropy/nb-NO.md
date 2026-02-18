@@ -1,6 +1,7 @@
 ---
-term: ENTROPY
+term: Entropi
 
+definition: Mål på uforutsigbarheten til en datakilde, avgjørende for generering av sikre nøkler.
 ---
 Entropi er et kvantitativt mål på usikkerheten eller uforutsigbarheten knyttet til en datakilde eller en tilfeldig prosess i forbindelse med kryptografi og informasjon. Entropi spiller en avgjørende rolle for sikkerheten i kryptografiske systemer, spesielt når det gjelder generering av nøkler og tilfeldige tall. Høy entropi sikrer at de genererte nøklene er tilstrekkelig uforutsigbare og motstandsdyktige mot brute-force-angrep, der en angriper prøver alle mulige kombinasjoner for å gjette seg frem til nøkkelen.
 

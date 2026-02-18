@@ -1,5 +1,6 @@
 ---
-term: op_boolor (0x9b)
+term: OP_BOOLOR (0X9B)
+definition: 對堆疊頂部的兩個值執行邏輯「或」運算的操作碼。
 ---
 
 模仿邏輯 `OR` 門的行為。它在堆疊頂端取兩個值，如果其中一個或兩個 Elements 都非零，則返回 `1`。否則返回 `0`。

@@ -1,6 +1,7 @@
 ---
-term: ADAPTERI ALLKIRI
+term: Adaptor signature
 
+definition: Krüptograafiline tehnika, mis seob signatuuri saladusega nii, et allkirja avaldamine paljastab saladuse. Kasulik atomaarsete vahetuste jaoks ilma usaldusväärsete vahendajateta.
 ---
 Krüptograafiline meetod, mis võimaldab kombineerida ehtsat allkirja täiendava allkirjaga (nn "adapterallkiri"), et paljastada salajane andmestik. See meetod töötab nii, et kahe elemendi teadmine kehtiva allkirja, adapterallkirja ja salajase allkirja hulgast võimaldab tuletada puuduva kolmanda elemendi. Üks selle meetodi huvitavaid omadusi on see, et kui me teame oma vastaspoole adaptori allkirja ja selle adaptori allkirja arvutamiseks kasutatud salaga seotud elliptilise kõvera konkreetset punkti, siis saame tuletada oma adaptori allkirja, mis vastab samale saladusele, ilma et meil oleks otsene juurdepääs saladusele endale. Kahe üksteist mitte usaldava sidusrühma vahelises teabevahetuses võimaldab see tehnika kahe tundliku teabe üheaegset paljastamist osalejate vahel. See protsess välistab vajaduse usalduse järele hetkeliste tehingute puhul, nagu näiteks mündivahetuse või aatomivahetuse puhul. Võtame selle paremaks mõistmiseks näite. Alice ja Bob soovivad saata üksteisele 1 BTC, kuid nad ei usalda teineteist. Seetõttu kasutavad nad adaptori allkirju, et eirata vajadust usalduse järele teise osapoole suhtes selles vahetuses (seega on tegemist "aatomilise" vahetusega). Nad toimivad järgmiselt:
 

@@ -1,5 +1,6 @@
 ---
-term: POOL (Mining)
+term: Pool (mining)
+definition: Kikundi cha wachimbaji wanaounganisha nguvu zao za kompyuta ili kutafuta bloku kwa pamoja.
 ---
 
 Inarejelea kundi la wachimba migodi ambao hushirikiana kwa kuchanganya nguvu zao za kompyuta ili kushiriki katika utafutaji wa uthibitisho halali wa kazi kwenye Bitcoin. Kuunganishwa huku katika shirika moja ni suluhu la ugumu unaoongezeka wa Bitcoin Mining, ambao hufanya iwezekane sana kwa Miner binafsi kushindana na kupata zawadi kwa misingi thabiti. Wachimbaji madini ndani ya Mining pool wanachangia na mashine zao katika kutafuta hisa halali. Wakati block inachimbwa na bwawa, zawadi - inayojumuisha bitcoins mpya iliyoundwa pamoja na ada ya ununuzi iliyojumuishwa kwenye block - inasambazwa kati ya washiriki wa bwawa kulingana na njia ya malipo iliyochaguliwa. Usambazaji huu unalingana na nguvu za kompyuta ambazo kila Miner imechangia.

@@ -1,5 +1,6 @@
 ---
-term: COIN CONTROL
+term: Coin control
+definition: Fonctionnalité permettant de sélectionner manuellement les UTXOs à utiliser comme entrées d'une transaction.
 ---
 
 Fonctionnalité présente dans certains logiciels de portefeuille Bitcoin, qui donne aux utilisateurs la capacité de sélectionner manuellement les UTXOs spécifiques à utiliser en tant qu'entrées pour effectuer une transaction. En d'autres termes, le coin control offre la possibilité de choisir précisément quels morceaux de bitcoins seront dépensés. Cette fonctionnalité est similaire à l'action de choisir une pièce spécifique de votre porte-monnaie pour payer votre baguette.

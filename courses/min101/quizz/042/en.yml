@@ -1,0 +1,9 @@
+question: What does ASIC stand for?
+answer: Application-Specific Integrated Circuits
+wrong_answers:
+  - Advanced Secure Integrated Circuit
+  - Automated Silicon Integrated Circuit
+  - Application-Shared Integrated Circuit
+explanation: |
+  An ASIC is a chip designed for a single task. Therefore, it is an Application-Specific Integrated Circuit.
+reviewed: true

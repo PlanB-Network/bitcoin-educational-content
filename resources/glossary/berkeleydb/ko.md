@@ -1,5 +1,6 @@
 ---
-term: 버클리DB
+term: Berkeleydb
+definition: Bitcoin의 초기 버전에서 사용된 데이터베이스 관리 시스템으로, 2012년에 LevelDB로 대체되었습니다.
 ---
 
 키-값 저장소 아키텍처를 갖춘 임베디드 데이터베이스 관리 시스템입니다. Bitcoin의 초기 버전에서 사용되었지만 2012년에 LevelDB로 대체되었습니다.

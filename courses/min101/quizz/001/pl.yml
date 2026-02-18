@@ -1,0 +1,9 @@
+question: Co robi węzeł Bitcoin po weryfikacji z prawidłową, ale niepotwierdzoną transakcją?
+answer: Przekazuje ją do swoich partnerów (peers)
+wrong_answers:
+  - Dodaje ją do swojej lokalnej kopii blockchaina
+  - Podpisuje ją swoim kluczem prywatnym
+  - Szyfruje ją swoim kluczem publicznym
+explanation: |
+  W sieci Bitcoin każdy węzeł rozsyła poprawne transakcje do węzłów, z którymi jest połączony.
+reviewed: false

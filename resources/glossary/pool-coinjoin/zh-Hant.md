@@ -1,5 +1,6 @@
 ---
-term: 游泳池 (CoinJoin)
+term: 池 (Coinjoin)
+definition: 一群用戶將金額相同的 UTXO 混合在一起以提高隱私性。
 ---
 
 在合幣的情況下，一個池是一群同意將他們的 UTXOs 同質混合以打破歷史的使用者。CoinJoin pool 對參與的 UTXOs 施加固定金額，以確保 CoinJoin 交易的輸入和輸出完全相同，從而防止它們被連結。一個池中的參與者越多，就有越多的硬幣可以透過執行多次重複循環來賺取大量的 anonsets。

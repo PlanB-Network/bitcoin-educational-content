@@ -141,7 +141,7 @@ _ممکن است بخواهید گام اضافی، اختیاری اما توص
 
 
 
-اگر این مراحل ساده به نظر می‌رسند که بیش از حد هستند، می‌توانید خرید یک پیکسل با نرم‌افزار GrapheneOS [از پیش نصب‌شده](https://ronindojo.io/en/roninmobile) را در نظر بگیرید. فقط آگاه باشید که شما مقدار کمی اعتماد به ارائه‌دهنده می‌کنید.
+اگر این مراحل ساده به نظر می‌رسند که بیش از حد هستند، می‌توانید خرید یک پیکسل با نرم‌افزار GrapheneOS از پیش نصب‌شده را در نظر بگیرید (شرکت‌هایی هستند که آنها را می‌فروشند). فقط آگاه باشید که شما مقدار کمی اعتماد به ارائه‌دهنده می‌کنید.
 
 
 ### برنامه‌های از پیش نصب‌شده
@@ -333,10 +333,10 @@ https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5
 
 
 
-- [سیگنال](https://signal.org/) یکی از محبوب‌ترین پیام‌رسان‌های رمزگذاری‌شده سرتاسری (E2EE) است که سابقه قوی و مجموعه ویژگی‌های غنی دارد. سیگنال برای ثبت‌نام به شماره تلفن نیاز دارد، بنابراین اگر قصد دارید با افرادی چت کنید که ترجیح می‌دهید شماره تلفن شما را ندانند، شاید بهتر باشد به برخی از گزینه‌های جایگزین نگاهی بیندازید. سیگنال باید از طریق فروشگاه Aurora دانلود شود.
+- [سیگنال](https://signal.org/) یکی از محبوب‌ترین پیام‌رسان‌های رمزگذاری‌شده سرتاسری (E2EE) است که سابقه قوی و مجموعه ویژگی‌های غنی دارد. سیگنال برای ثبت‌نام به شماره تلفن نیاز دارد، بنابراین اگر قصد دارید با افرادی چت کنید که ترجیح می‌دهید شماره تلفن شما را ندانند، شاید بهتر باشد به برخی از گزینه‌های جایگزین نگاهی بیندازید **_[یا شماره خود را در تنظیمات پروفایل مخفی کنید](https://support.signal.org/hc/en-us/articles/6712070553754-Phone-Number-Privacy-and-Usernames)_**. سیگنال باید از طریق فروشگاه Aurora دانلود شود.
 - [Simplex](https://f-droid.org/en/packages/chat.simplex.app/) یک پیام‌رسان E2EE نسبتاً جدید است. این برنامه هیچ شناسه کاربری ندارد و نیازی به شماره تلفن یا اطلاعات شخصی ندارد. افراد با اسکن کردن کد QR شخصی شما یا با بازدید از لینک منحصربه‌فرد شما، می‌توانند شما را پیدا کنند. Simplex همچنین به کاربران پیشرفته اجازه می‌دهد تا سرور خود را اجرا کنند تا وابستگی به هر نهاد متمرکز را بیشتر کاهش دهند. Simplex کلاینت دسکتاپ ندارد، بنابراین ممکن است اگر چند دستگاهی بودن در اولویت شماست، مناسب نباشد. Simplex برای اندروید از طریق F-Droid در دسترس است.
 - [Threema](https://threema.ch/en/faq/libre_installation) تجربه‌ای مشابه با Simplex ارائه می‌دهد، اما مدت بیشتری است که وجود دارد و در نتیجه، کمی صیقلی‌تر به نظر می‌رسد. Threema رایگان نیست، یک مجوز مادام‌العمر ۴.۹۹ دلار هزینه دارد و می‌توان آن را با Bitcoin خریداری کرد. Threema یک کلاینت وب و برنامه‌های دسکتاپ بومی ارائه می‌دهد. برنامه اندروید از طریق F-Droid در دسترس است.
-- [تلگرام FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) یک نسخه غیررسمی FOSS Fork از اپلیکیشن رسمی تلگرام برای اندروید است. تلگرام دارای 'چت‌های مخفی' با رمزگذاری سرتاسری (E2EE) است، اما گزینه پیش‌فرض خصوصی نیست. تلگرام FOSS را می‌توان از F-Droid دانلود کرد.
+- [Mercurygram](https://f-droid.org/en/packages/it.belloworld.mercurygram/) یک نسخه غیررسمی FOSS Fork از اپلیکیشن رسمی تلگرام برای اندروید است. تلگرام دارای 'چت‌های مخفی' با رمزگذاری سرتاسری (E2EE) است، اما گزینه پیش‌فرض خصوصی نیست. Mercurygram را می‌توان از F-Droid دانلود کرد.
 
 
 ![image](assets/fr/9.webp)
@@ -359,14 +359,13 @@ https://planb.academy/tutorials/computer-security/communication/threema-24382d25
 
 
 - [Spotube](https://f-droid.org/packages/oss.krtirtho.spotube/) یک کلاینت چندسکویی برای اسپاتیفای است که نیازی به حساب پریمیوم ندارد. Spotube از طریق F-Droid در دسترس است.
-- [ViMusic](https://f-droid.org/en/packages/it.vfsfitvnm.vimusic/) یک برنامه فوق‌العاده برای پخش هر موسیقی از YouTube Music به صورت رایگان است. ViMusic از F-Droid در دسترس است.
 - [Newpipe](https://f-droid.org/packages/org.schabi.newpipe/) تجربه‌ای از یوتیوب بدون تبلیغات آزاردهنده و مجوزهای مشکوک ارائه می‌دهد. با NewPipe می‌توانید به کانال‌ها مشترک شوید، در پس‌زمینه گوش دهید و حتی برای مشاهده آفلاین دانلود کنید. NewPipe از طریق F-Droid قابل دسترسی است.
 - [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/) یک پخش‌کننده پادکست است که به شما امکان می‌دهد تمام برنامه‌های مورد علاقه خود را مشترک شده و مدیریت کنید. AntennaPod از طریق F-Droid در دسترس است.
 
 
 ![image](assets/fr/11.webp)
 
-چپ: Spotube، راست: ViMusic
+Spotube
 
 
 ### نقشه‌ها
@@ -404,7 +403,7 @@ https://planb.academy/tutorials/computer-security/communication/threema-24382d25
 
 
 
-- [Syncthing](https://f-droid.org/packages/com.nutomic.syncthingandroid/) یک برنامه همگام‌سازی فایل است. این برنامه فایل‌ها را بین دو یا چند دستگاه در زمان واقعی همگام‌سازی می‌کند و به‌طور ایمن از چشم‌های کنجکاو محافظت می‌شود. داده‌های شما فقط متعلق به شماست و شما شایسته‌اید که انتخاب کنید کجا ذخیره شود، آیا با شخص ثالثی به اشتراک گذاشته شود یا نه، و چگونه از طریق اینترنت منتقل شود. Syncthing از طریق F-Droid در دسترس است.
+- [Syncthing Fork](https://f-droid.org/en/packages/com.github.catfriend1.syncthingfork/) یک fork از برنامه همگام‌سازی فایل است. این برنامه فایل‌ها را بین دو یا چند دستگاه در زمان واقعی همگام‌سازی می‌کند و به‌طور ایمن از چشم‌های کنجکاو محافظت می‌شود. داده‌های شما فقط متعلق به شماست و شما شایسته‌اید که انتخاب کنید کجا ذخیره شود، آیا با شخص ثالثی به اشتراک گذاشته شود یا نه، و چگونه از طریق اینترنت منتقل شود. Syncthing Fork از طریق F-Droid در دسترس است.
 - [KDE Connect](https://f-droid.org/packages/org.kde.kdeconnect_tp/) تمام دستگاه‌های خود را به هم متصل کنید تا به راحتی در شبکه خانگی با یکدیگر ارتباط برقرار کنند. به راحتی فایل‌ها، عکس‌ها و داده‌های کلیپ‌بورد را در تمام دستگاه‌های خود (حتی در iOS!) ارسال کنید. KDE Connect را می‌توانید از F-Droid دانلود کنید.
 - [Notesnook](https://f-droid.org/en/packages/com.streetwriters.notesnook/) یک برنامه یادداشت‌برداری با رمزگذاری سرتاسری (E2EE) است که برای همگام‌سازی افکار و لیست‌های کارهای شما در تمام دستگاه‌هایتان طراحی شده است. طرح رایگان آن‌ها باید بیشتر موارد استفاده شخصی را پوشش دهد. Notesnook در F-Droid در دسترس است.
 - [Standard Notes](https://f-droid.org/en/packages/com.standardnotes/) بسیار شبیه به Notesnook است، اما برای مطابقت با مجموعه ویژگی‌ها نیاز به یک طرح پولی دارد. Standard Notes از طریق F-Droid در دسترس است.
@@ -421,7 +420,7 @@ https://planb.academy/tutorials/computer-security/communication/threema-24382d25
 
 
 
-- [Geometric Weather](https://f-droid.org/en/packages/wangdaye.com.geometricweather/) یک برنامه آب و هوای متن‌باز با طراحی زیبا است که از طریق F-Droid در دسترس است. این برنامه همچنین از اندازه‌های مختلف ویجت‌ها پشتیبانی می‌کند تا بتوانید وضعیت آب و هوا را در مکان انتخابی خود مستقیماً از صفحه اصلی مشاهده کنید.
+- [Breezy Weather](https://f-droid.org/en/packages/org.breezyweather/) یک برنامه آب و هوای متن‌باز پر از ویژگی با رابط کاربری Material 3 Expressive است؛ دارای تجسم‌های فکرشده، پیش‌بینی‌ها، شرایط بلادرنگ، کیفیت هوا، گرده، هشدارهای آب و هوایی از بیش از 50 منبع است.
 - [Translate You](https://f-droid.org/packages/com.bnyro.translate/) یک برنامه ترجمه متن‌باز و حفظ حریم خصوصی است که از بیش از 200 زبان پشتیبانی می‌کند. Translate You از طریق F-Droid در دسترس است.
 - [تقویم پروتون](https://proton.me/calendar/download) یک E2EE ساده برای استفاده است که به‌طور یکپارچه با حساب‌های ایمیل پروتون شما تعامل دارد. تقویم پروتون را می‌توان به‌صورت APK یا از طریق فروشگاه Aurora دانلود کرد.
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) یک برنامه برای نمایش و ذخیره کارت‌های پرواز، کوپن‌ها، بلیط‌های سینما و کارت‌های عضویت و غیره است. به سادگی فایل `pkpass` یا `espass` مربوطه را دانلود کرده و با برنامه باز کنید. PassAndroid از طریق F-Droid در دسترس است.
@@ -429,7 +428,7 @@ https://planb.academy/tutorials/computer-security/communication/threema-24382d25
 
 ![image](assets/fr/19.webp)
 
-چپ: Geometric Weather، راست: Proton Calendar
+چپ: Breezy Weather، راست: Proton Calendar
 
 
 ### امنیت/حریم خصوصی
@@ -440,7 +439,7 @@ https://planb.academy/tutorials/computer-security/communication/threema-24382d25
 - [Proton Pass](https://proton.me/pass/download) خدمات رایگان مشابهی با Bitwarden ارائه می‌دهد، اما مشتریان [Proton Unlimited](https://proton.me/pricing) می‌توانند به ویژگی‌های پیشرفته اضافی دسترسی داشته باشند. Proton Pass از طریق APK یا Aurora در دسترس است.
 - [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/) یک برنامه احراز هویت دو مرحله‌ای برای سیستم‌هایی است که از پروتکل‌های رمز عبور یک‌بار مصرف استفاده می‌کنند. توکن‌ها به‌راحتی با اسکن یک کد QR اضافه می‌شوند. FreeOTP از طریق F-Droid در دسترس است.
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) یک برنامه رایگان، امن و متن‌باز برای اندروید است که به شما امکان مدیریت توکن‌های تأیید هویت دو مرحله‌ای برای خدمات آنلاین شما را می‌دهد. Aegis از طریق F-Droid در دسترس است.
-- [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) یک سرویس پولی و چندسکویی است که داده‌های شما را به صورت محلی رمزگذاری می‌کند تا بتوانید با خیال راحت آن را به سرویس ابری مورد علاقه خود آپلود کنید. Cryptomator را می‌توان از طریق F-Droid دانلود کرد.
+- [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) یک سرویس رایگان چندسکویی است (_فقط از طریق Google Play در اندروید پولی است_) که داده‌های شما را به صورت محلی رمزگذاری می‌کند تا بتوانید با خیال راحت آن را به سرویس ابری مورد علاقه خود آپلود کنید. Cryptomator را می‌توان از طریق F-Droid دانلود کرد.
 
 
 ![image](assets/fr/21.webp)

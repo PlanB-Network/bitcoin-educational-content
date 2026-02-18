@@ -6,3 +6,4 @@ wrong_answers:
   - Mengidentifikasi blok konfirmasi
 explanation: |
   Alamat Bitcoin tertanam dalam scriptPubKey untuk mengunci UTXO. Ini menentukan kondisi yang diperlukan untuk membuka kunci dana.
+reviewed: true

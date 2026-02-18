@@ -1,0 +1,9 @@
+question: مخفف RPOW به چه معناست؟
+answer: Reusable Proofs of Work
+wrong_answers:
+  - Recursive Proofs of Work
+  - Random Proofs of Work
+  - Replayed Proofs of Work
+explanation: |
+  RPOW به معنای اثبات‌های کار قابل استفاده مجدد و قابل تعویض است که توسط هال فینی در سال 2004 پیشنهاد شد.
+reviewed: false

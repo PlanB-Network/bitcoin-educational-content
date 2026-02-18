@@ -1,6 +1,7 @@
 ---
-term: ECLAIR
+term: Eclair
 
+definition: Implementasi protokol Lightning Network dalam bahasa Scala, dikembangkan oleh Acinq.
 ---
 Implementasi utama dari protokol Jaringan Lighting yang ditulis dalam bahasa Scala. Eclair dikembangkan oleh perusahaan Prancis Acinq.
 

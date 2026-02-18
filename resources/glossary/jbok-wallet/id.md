@@ -1,5 +1,6 @@
 ---
-term: JBOK (DOMPET)
+term: JBOK (wallet)
 
+definition: Dompet lama yang menyimpan kunci yang dihasilkan secara independen, digantikan oleh dompet HD.
 ---
 Dompet JBOK, singkatan dari "_Just a Bunch Of Keys_", merujuk kepada dompet Bitcoin lama yang menyimpan satu set pasangan kunci yang dihasilkan secara independen dan semu. Tidak seperti dompet HD modern, yang menghasilkan kunci secara deterministik dan hirarkis dari satu biji, dompet JBOK tidak memiliki hubungan hirarkis atau deterministik di antara kunci-kunci tersebut. Mereka semua independen satu sama lain. Karena pengelolaannya yang kurang efisien dan sulitnya pencadangan, dompet ini telah menjadi usang dan secara spontan digantikan oleh solusi HD yang lebih canggih, seperti yang distandarisasi dalam BIP32.

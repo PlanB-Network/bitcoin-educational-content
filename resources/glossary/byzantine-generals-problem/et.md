@@ -1,6 +1,7 @@
 ---
-term: BÜTSANTSI KINDRALITE PROBLEEM
+term: Bütsantsi väepealikute probleem
 
+definition: Probleem, mis illustreerib koordineerimise väljakutseid hajutatud süsteemis, kus osalejad ei saa üksteist usaldada.
 ---
 Probleemi sõnastasid esmakordselt Leslie Lamport, Robert Shostak ja Marshall Pease erialases ajakirjas *ACM Transactions on Programming Languages and Systems, vol 4, nr 3* ["The Byzantine Generals Problem"](https://lamport.azurewebsites.net/pubs/byz.pdf) 1982. aasta juulis. Seda kasutatakse tänapäeval, et illustreerida probleeme otsuste tegemisel, kui hajutatud süsteem ei saa usaldada ühtegi osalejat.
 

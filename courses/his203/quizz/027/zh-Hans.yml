@@ -1,0 +1,11 @@
+question: 2011 年 6 月，Gregory Maxwell 开发人员正式提出的确定性 wallet 概念解决了什么问题？
+answer: 需要定期备份私人密钥以确保比特币安全
+wrong_answers:
+  - 在联网设备上存储比特币的盗版风险
+  - 由于随机数生成器的熵值较低，容易受到暴力攻击
+  - 无法在其他设备上重复使用账户
+explanation: |
+ 确定性 wallet 采用密钥推导法：私钥不是像主软件那样单独随机生成 generated，而是通过加密函数从信息（称为 seed
+ 确定性 seed）。BitcoinSpinner 和 Electrum 软件采用了这种方法。
+ wallets 在 2011 年底开始使用。
+reviewed: true

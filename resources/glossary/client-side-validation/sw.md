@@ -1,5 +1,6 @@
 ---
-term: Client-side Validation
+term: Uhalalishaji wa upande wa mteja
+definition: Mchakato wa uhakiki wa data na kila upande kwa njia ya faragha, inayotumiwa hasa katika itifaki ya RGB.
 ---
 
 Mchakato ambao kila mhusika (mteja) anathibitisha seti ya data iliyobadilishwa kwa faragha, kulingana na sheria za itifaki. Kwa upande wa itifaki ya RGB, data hii iliyobadilishwa huwekwa pamoja katika kile kinachojulikana kama mizigo. Tofauti na itifaki ya Bitcoin, ambayo inahitaji shughuli zote kuchapishwa katika On-Chain, RGB inaruhusu tu ahadi (zilizowekwa katika Bitcoin) kuhifadhiwa hadharani, wakati taarifa muhimu ya Contract (mipito, uthibitisho, uthibitisho) inasalia katika off-chain, ikishirikiwa tu kati ya watumiaji wanaohusika.

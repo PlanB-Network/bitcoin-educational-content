@@ -1,6 +1,7 @@
 ---
 term: P2P TRANSPORT V2
 
+definition: Bitcoini P2P-protokolli uus versioon krüptimisega privaatsuse parandamiseks.
 ---
 Bitcoini P2P transpordiprotokolli uus versioon, mis sisaldab oportunistlikku krüpteerimist, et suurendada sõlmedevahelise side privaatsust ja turvalisust. Selle täiustamise eesmärk on lahendada mitmeid P2P-protokolli põhiversiooniga seotud probleeme, eelkõige muutes vahetatavad andmed passiivse vaatleja (näiteks internetiteenuse pakkuja) jaoks eristamatuks, vähendades seeläbi tsensuuri ja rünnakute ohtu andmepakettides esinevate konkreetsete mustrite tuvastamise kaudu.
 

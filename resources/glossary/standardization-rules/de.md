@@ -1,6 +1,7 @@
 ---
-term: STANDARDISIERUNGSREGELN
+term: Standardisierungsregeln
 
+definition: Lokale Regeln, die die Struktur der unbestätigten Transaktionen definieren, die ein Knoten in seinem Mempool akzeptiert.
 ---
 Standardisierungsregeln werden von jedem Bitcoin-Knoten zusätzlich zu den Konsensregeln individuell festgelegt, um die Struktur der unbestätigten Transaktionen zu definieren, die er in seinen Mempool aufnimmt und an seine Peers sendet. Diese Regeln werden also lokal von jedem Knoten konfiguriert und ausgeführt und können von einem Knoten zum anderen variieren. Sie gelten ausschließlich für unbestätigte Transaktionen. Daher akzeptiert ein Knoten eine Transaktion, die er als nicht standardisiert betrachtet, nur, wenn sie bereits in einem gültigen Block enthalten ist.
 

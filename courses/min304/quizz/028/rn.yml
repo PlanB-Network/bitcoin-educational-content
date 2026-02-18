@@ -1,0 +1,11 @@
+question: Ni ikihe kibazo gishobora guterwa n’ugukoraniriza ahantu hamwe ibikorwa vyo gukora ibikoresho vya mining mu Bushinwa?
+answer: Ukwanka kwohereza hanze imashini za mining canke kwirundaniriza hamwe kwa hashrate bikongereza amahirwe y’igitero gishobora kubaho c’ibice 51%.
+wrong_answers:
+  - Ubushinwa bwoshobora kwigarurira umuhora wa Bitcoin.
+  - Ubushinwa bwoshobora kugenzura igiciro ca Bitcoin.
+  - Ubushinwa bushobora kubuza Bitcoin mining.
+explanation: |
+  Gushira hamwe ibikorwa vyo gukora ibikoresho vya mining mu Bushinwa biratera ikindi kibazo. Igihe u Bushinwa bwo kwanka 
+  kwohereza hanze imashini za mining canke kwirundaniriza hamwe kwa hashrate bikongereza 
+  amahirwe y’igitero gishobora kubaho c’ibice 51%. Vyoshobora guhungabanya umutekano n’gukwiragizwa kw’umuhora.
+reviewed: true

@@ -1,0 +1,9 @@
+question: ASICとは何ですか？
+answer: Application-Specific Integrated Circuits
+wrong_answers:
+  - Advanced Secure Integrated Circuit
+  - Automated Silicon Integrated Circuit
+  - Application-Shared Integrated Circuit
+explanation: |
+  ASICは特定のタスクのために設計されたチップです。したがって、Application-Specific Integrated Circuits（特定用途向け集積回路）のことです。
+reviewed: false

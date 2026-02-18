@@ -1,0 +1,9 @@
+question: Na kojoj onlajn berzi je Erik Voorhees sproveo neformalni IPO u avgustu 2012. kako bi razvio SatoshiDICE onlajn kazino?
+answer: MPEx
+wrong_answers:
+  - GLBSE
+  - Bitcoinica
+  - Bitoption.org
+explanation: |
+ MPEx je bila platforma kojom je upravljao Mircea Popescu i pokrenuta je nekoliko meseci ranije. Erik Voorhees je izdao 100 miliona akcija (sa berzanskim simbolom S.DICE) i prodao 10 da prikupi 34,500 bitkoina, ili oko $372,000.
+reviewed: true

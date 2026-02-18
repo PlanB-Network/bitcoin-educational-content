@@ -1,5 +1,6 @@
 ---
 term: VOUT
+definition: Kipengele cha muamala wa Bitcoin kinachoamua mahali fedha zinapoelekea kikiwa na thamani na skripti ya kufunga.
 ---
 
 Kipengele mahususi cha muamala wa Bitcoin ambacho huamua mahali pa kutuma pesa. Muamala unaweza kujumuisha matokeo mengi, kila moja ikitambuliwa kipekee na mseto wa kitambulishi cha muamala (`txid`) na faharasa inayoitwa `vout`. Faharasa hii, inayoanzia `0`, inaashiria nafasi ya matokeo katika mfuatano wa matokeo ya muamala. Kwa hivyo, matokeo ya kwanza yatateuliwa na `"vout": 0`, ya pili kwa `"vout": 1`, na kadhalika.

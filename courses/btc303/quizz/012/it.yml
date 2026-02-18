@@ -6,4 +6,4 @@ wrong_answers:
   - Programmi di emissione di monete non corretti che violano il protocollo
 explanation: |
   Mentre un full node può verificare che i blocchi seguano le regole del consenso, impedire l'emissione di monete non valide e rilevare le violazioni del protocollo, non può impedire le riscritture della catena, in cui i minatori riorganizzano la blockchain per raddoppiare le transazioni. Il capitolo afferma specificamente che non importa quanto sia avanzato il vostro software, dovete comunque confidare che i blocchi contenenti le vostre monete non vengano riscritti. Per questo motivo il meccanismo di difesa di Bitcoin si basa sull'attesa di più conferme per ridurre la probabilità di una riscrittura della catena a un livello accettabile.
-reviewed: false
+reviewed: true

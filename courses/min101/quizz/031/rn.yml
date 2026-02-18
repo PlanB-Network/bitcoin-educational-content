@@ -1,0 +1,9 @@
+question: Halving ya nyuma n'iyihe nk'uko amategeko y'uburyo abitegeka?
+answer: Iyakubiri n'itatu (33rd)
+wrong_answers:
+  - Iyakubiri n'imwe (21st)
+  - Iyashika mirongo itatu n'umunani (38th)
+  - Iyashika mirongo itandatu na kane (64th)
+explanation: |
+  Halving ya 33, kuri height 6 930 000, niyo izoheza block subsidy kuko izoca ija munsi y'igice gito cane.
+reviewed: false

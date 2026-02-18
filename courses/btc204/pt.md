@@ -183,7 +183,7 @@ Agora vamos imaginar que Alice não tem um único UTXO de `10.000 SATS`, mas sim
 Intuitivamente, poder-se-ia pensar que os custos de transação também representam o resultado de uma transação. Mas, na realidade, não é esse o caso. Os custos de transação representam a diferença entre o total dos inputs e o total dos outputs. Isto significa que, depois de utilizar parte do valor dos inputs para cobrir os outputs desejados numa transação, uma certa soma dos inputs fica por utilizar. Esta soma residual constitui os custos de transação.
 
 ```plaintext
-Frais = total inputs - total outputs
+Taxas de transação = total inputs - total outputs
 ```
 
 Vejamos o exemplo de Alice, que tem um UTXO de `10.000 SATS` e quer comprar uma baguete a `4.000 SATS`. Alice cria uma transação com o seu UTXO de `10.000 SATS` como entrada. Em seguida, ela gera uma saída de `4.000 SATS` para o padeiro pagar pela baguete. Para encorajar os mineiros a integrar a sua transação num bloco, Alice atribui `200 SATS` em taxas. Ela cria então um segundo output, a troca, que lhe será devolvida, no valor de `5.800 SATS`.
@@ -193,10 +193,10 @@ Vejamos o exemplo de Alice, que tem um UTXO de `10.000 SATS` e quer comprar uma 
 Aplicando a fórmula da taxa, verifica-se que restam efetivamente `200 SATS` para os menores:
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+Taxas de transação = total inputs - total outputs
+Taxas de transação = 10 000 - (4 000 + 5 800)
+Taxas de transação = 10 000 - 9 800
+Taxas de transação = 200
 ```
 
 Quando um mineiro consegue validar um bloco, está autorizado a cobrar estas taxas por todas as transacções incluídas no seu bloco, através da chamada transação "coinbase".
@@ -1547,7 +1547,7 @@ Neste exemplo, embora a transação B ofereça uma taxa total mais elevada, os m
 
 ```text
 TXA : 1994 / 141 = 14 sats/vB
-TXB : 2640 / 220 = 12 sats / vB
+TXB : 2640 / 220 = 12 sats/vB
 ```
 
 Isto significa que, por cada unidade de peso, a transação A oferece mais custos do que a transação B, embora a transação B ofereça mais custos em termos absolutos.
@@ -1742,7 +1742,7 @@ No entanto, o coinjoin também oferece a possibilidade de reforçar a confidenci
 
 ![BTC204](assets/pt/118.webp)
 
-No primeiro exemplo, vimos como a junção de moedas pode proteger a privacidade de uma sala em relação ao seu passado e, no segundo exemplo, como pode também proteger a história de uma sala em relação ao seu futuro. Foi por isso que mencionei que a junção de moedas deve ser vista como um evento único que segmenta uma parte da história em ambas as direcções:
+No primeiro exemplo, vimos como o coinjoin pode proteger a confidencialidade de uma moeda em relação ao seu passado e, no segundo exemplo, como ele também pode proteger o histórico de uma moeda em relação ao seu futuro. É por isso que mencionei que o coinjoin deve ser percebido como um evento pontual que segmenta o histórico de uma moeda em ambas as direções:
 
 ![BTC204](assets/pt/119.webp)
 
@@ -1936,7 +1936,7 @@ Os métodos de gestão de câmbios também distinguem as duas implementações. 
 
 ![BTC204](assets/pt/139.webp)
 
-Com o Wabisabi, a versão 2.0 do Wasabi adaptou a sua abordagem aos coinjoins para corresponder à do Whirlpool. Embora as transacções coinjoin continuem a ser muito grandes, é agora possível encadear vários ciclos sucessivos, seguindo o modelo Whirlpool. Foi também dada especial atenção à gestão da taxa de câmbio: ao contrário do Wasabi 1.0, em que a taxa de câmbio estava diretamente ligada às entradas dos utilizadores, o Wabisabi procura subdividir a taxa de câmbio em várias pequenas somas, divididas em denominações iguais para todos os participantes.
+Com o Wabisabi, a versão 2.0 adaptou a sua abordagem aos coinjoins para se aproximar da do Whirlpool. Embora as transações coinjoin continuem a ser de dimensão muito elevada, é agora possível encadear vários ciclos sucessivos, seguindo assim o modelo do Whirlpool. Foi também feito um esforço particular na gestão do troco: ao contrário do Wasabi 1.0, em que o troco estava diretamente ligado aos inputs dos utilizadores, o Wabisabi procura subdividir o troco em várias pequenas quantias, distribuídas em denominações iguais para todos os participantes.
 
 Vamos ilustrar isto com um exemplo simplificado envolvendo apenas 2 utilizadores: Alice deseja misturar 115.000 sats e Bob, 210.000 sats. Ignorando as taxas, com o Wasabi 1.0, uma transação coinjoin teria gerado 3 saídas de 100.000 sats, mais 1 troca de 15.000 sats para Alice e 1 troca de 10.000 sats para Bob. As saídas de troca continuariam a estar ligadas às entradas:
 
@@ -2152,7 +2152,7 @@ No final destas primeiras misturas, a conta **premix** estará vazia, enquanto a
 
 ### Remixes
 
-Após a mistura inicial, os UTXOs são transferidos para a conta **postmix**. Esta conta recolhe os UTXOs já misturados e os que aguardam remistura. Quando o cliente Whirlpool está ativo, os UTXOs localizados na conta **postmix** estão automaticamente disponíveis para remisturas e serão selecionados aleatoriamente para participar nestes novos ciclos.
+Após a realização do mix inicial, os UTXOs são transferidos para a conta **postmix**. Esta conta reúne os UTXOs já misturados e aqueles que aguardam remixagem. Quando o cliente Whirlpool está ativo, os UTXOs presentes na conta **postmix** ficam automaticamente disponíveis para remixagens e serão escolhidos de forma aleatória para participar nesses novos ciclos.
 
 Como lembrete, as remisturas são então 100% gratuitas: não são necessárias taxas de serviço adicionais ou taxas de mineração. Manter as UTXOs na conta **postmix** mantém, portanto, o seu valor intacto e melhora os seus anonsets ao mesmo tempo. É por isso que é importante permitir que estas moedas participem em vários ciclos de coinjoin. Não lhe custa absolutamente nada e aumenta os seus níveis de anonimato.
 
@@ -2307,7 +2307,7 @@ Por exemplo, uma simples operação de pagamento com 1 entrada e 2 saídas terá
 
 ![BTC204](assets/pt/165.webp)
 
-Por outro lado, um canto 5x5 da Whirlpool tem $1\,496$ combinações possíveis:
+Em contrapartida, um coinjoin estruturado segundo o modelo Whirlpool 5x5 apresenta $1\,496$ combinações possíveis:
 
 ![BTC204](assets/pt/166.webp)
 
@@ -2485,7 +2485,7 @@ A pontuação de Boltzmann é calculada dividindo o número de interpretações 
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}
@@ -2870,7 +2870,7 @@ No entanto, este método ingénuo apresenta um risco elevado em termos de confia
 
 ![BTC204](assets/pt/201.webp)
 
-Além disso, não existe qualquer garantia de que Alice não receba a chave privada de Bob $B$ e nunca transmita a sua chave privada $A$ em troca. Esta troca depende, portanto, de uma confiança excessiva entre as partes e é ineficaz para garantir uma transferência secreta segura de propriedade.
+Além disso, não há garantia de que Alice, uma vez recebida a chave privada $B$ de Bob, transmita em troca sua chave privada $A$. Esta troca baseia-se, portanto, numa confiança massiva entre as partes e revela-se ineficaz para assegurar uma transferência secreta de propriedade de forma segura.
 
 ![BTC204](assets/pt/202.webp)
 

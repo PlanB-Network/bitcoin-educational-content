@@ -1,0 +1,9 @@
+question: Met welke factor werd de mining difficulty tussen medio 2010 en medio 2011 vermenigvuldigd?
+answer: 1000
+wrong_answers:
+  - 100
+  - 500
+  - 50
+explanation: |
+  Er vond in die periode een vermenigvuldiging met 1.000 plaats, met name door het gebruik van GPU's.
+reviewed: false

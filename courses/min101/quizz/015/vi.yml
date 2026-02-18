@@ -1,0 +1,9 @@
+question: Hashcash được đề xuất vào năm nào?
+answer: 1997
+wrong_answers:
+  - 1993
+  - 2004
+  - 1995
+explanation: |
+  Hashcash được công bố lần đầu tiên vào tháng 3 năm 1997.
+reviewed: false

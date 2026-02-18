@@ -1,6 +1,7 @@
 ---
-term: VAIKIVAD MAKSED
+term: Silent payments
 
+definition: Meetod maksete vastuvõtmiseks staatilise aadressi kaudu ilma aadressi korduvkasutamiseta.
 ---
 Meetod staatiliste Bitcoini aadresside kasutamiseks maksete vastuvõtmiseks ilma aadressi korduvkasutamiseta, ilma interaktsioonita ja ilma nähtava seoseta erinevate maksete ja staatilise aadressi vahel. See meetod välistab vajaduse luua iga tehingu jaoks uued, kasutamata vastuvõtuaadressid, vältides seega Bitcoinis tavapäraseid interaktsioone, kus saaja peab maksjale andma uue aadressi.
 

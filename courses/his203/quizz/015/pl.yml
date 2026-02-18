@@ -1,0 +1,10 @@
+question: Który stan USA wybrany przez Free State Project stał się centrum adopcji Bitcoin w latach 2012-2013?
+answer: New Hampshire
+wrong_answers:
+  - Teksas
+  - Kolorado
+  - Kalifornia
+explanation: |
+ Free State Project był politycznym ruchem migracyjnym, mającym na celu zgrupowanie libertarian w jednym stanie w celu wywarcia wpływu na lokalny rząd.
+ Członkowie tego ruchu zaczęli korzystać z Bitcoin dzięki prozelityzmowi libertariańskich aktywistów, takich jak Roger Ver i Erik Voorhees.
+reviewed: true

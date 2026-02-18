@@ -1,5 +1,6 @@
 ---
-term: AFLEIDINGSPAD
+term: Afleidingspad
+definition: Reeks indexen die het afleidingspad beschrijven van kind-sleutels vanaf de mastersleutel in een HD-wallet.
 ---
 
 In de context van Hierarchical Deterministic (HD) wallets verwijst een afleidingspad naar de reeks indexen die gebruikt worden om kindsleutels af te leiden van een hoofdsleutel. Dit pad wordt beschreven in BIP32 en identificeert de boomstructuur voor het afleiden van kindsleutels. Een afleidingspad wordt weergegeven door een reeks indexen gescheiden door schuine strepen en begint altijd met de hoofdsleutel (aangeduid als `m/`). Een typisch pad is bijvoorbeeld `m/84'/0'/0'/0/0`. Elk afleidingsniveau wordt geassocieerd met een specifieke diepte:
@@ -26,4 +27,3 @@ Als mijn ontvangende Address bijvoorbeeld het afleidingspad `m / 86' / 0' / 0' /
 - `5` geeft aan dat het de zesde externe Address van deze rekening is.
 
 
-![](../../dictionnaire/assets/18.webp)

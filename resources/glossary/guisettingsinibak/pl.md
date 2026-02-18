@@ -1,5 +1,6 @@
 ---
-term: GUISETTINGS.INI.BAK
+term: Guisettings.ini.bak
+definition: Plik kopii zapasowej ustawień interfejsu graficznego Bitcoin Core.
 ---
 
 Plik w Bitcoin Core używany do przechowywania kopii zapasowej graficznych ustawień użytkownika Interface (GUI). Ta kopia zapasowa jest tworzona podczas korzystania z opcji `-resetguisettings`, która resetuje ustawienia GUI do ich wartości domyślnych. Plik ten pozwala użytkownikowi na przywrócenie poprzedniej konfiguracji w razie potrzeby.

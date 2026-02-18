@@ -1,0 +1,9 @@
+question: 哪一個 Bitcoin Core 參數設置了默認的最小中繼（relay）閾值？
+answer: minRelayTxFee
+wrong_answers:
+  - minConfirmTxFee
+  - relayTxWeight
+  - mempoolMinBits
+explanation: |
+  節點應用本地策略，Bitcoin Core 使用 minRelayTxFee 參數作為最小中繼閾值。
+reviewed: false

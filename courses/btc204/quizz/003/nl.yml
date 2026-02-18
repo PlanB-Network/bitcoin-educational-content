@@ -1,9 +1,9 @@
-question: Wat is het effect van een Bitcoin transactie op de UTXO's in uitgangen?
-answer: Het creëert ze door de UTXO's te gebruiken die worden verbruikt in de ingangen.
+question: Wat is het effect van een Bitcoin-transactie op de UTXO's in outputs?
+answer: Het creëert ze door de UTXO's te gebruiken die worden verbruikt in de inputs.
 wrong_answers:
   - Het verbruikt ze om aan de inputs te voldoen.
   - Het versleutelt ze om de ontvanger te anonimiseren.
   - Het verdeelt ze tijdelijk voor verificatie.
 explanation: |
-  De UTXO's in de uitvoer van de transactie worden gecreëerd door de UTXO's in de invoer te consumeren. Het is in zekere zin de bestemming van het geld.
+  De output-UTXO's van de transactie worden gecreëerd door de input-UTXO's te consumeren. Het is in zekere zin de bestemming van het geld.
 reviewed: false

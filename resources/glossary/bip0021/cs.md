@@ -1,6 +1,7 @@
 ---
 term: BIP0021
 
+definition: Standard definující formát Bitcoin URI (odkazy začínající bitcoin) pro usnadnění plateb prostřednictvím odkazů nebo QR kódů.
 ---
 Návrh napsali Nils Schneider a Matt Corallo na základě dokumentu BIP20, který napsal Luke Dashjr a který zase vychází z jiného dokumentu napsaného Nilsem Schneiderem. BIP21 definuje, jak by měly být přijímací adresy kódovány v URI (*Uniform Resource Identifier*), aby se usnadnily platby. Například bitcoinový URI podle BIP21, ve kterém bych pod označením "*Pandul*" požádal o zaslání 0,1 BTC, by vypadal takto:
 

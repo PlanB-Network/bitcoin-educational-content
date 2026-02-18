@@ -1,5 +1,6 @@
 ---
 term: BIP0094
+definition: 공격 및 오용에 대한 수정 사항이 포함된, Testnet 3를 대체하는 새로운 테스트 네트워크인 Testnet 4의 정의.
 ---
 
 2024년 Testnet 3을 대체할 새로운 Testnet 네트워크인 Testnet 4를 정의합니다. 13년 동안 운영되어온 Testnet 3은 다양한 공격에 취약해졌고, 사기성 Altcoin 에어드랍을 통해 악용되어 TBTC의 정상적인 무료 배포를 방해하고 있었습니다.

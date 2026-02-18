@@ -1,5 +1,6 @@
 ---
-term: BLOCKSIZE WAR
+term: Blockstorlekskriget
+definition: Konflikt inom Bitcoin-gemenskapen (2015-2017) om att öka blockstorleken.
 ---
 
 Avser en period av intensiv debatt och konflikt inom Bitcoin-communityn mellan 2015 och 2017. Konflikten handlade om huruvida blockstorleken, som hade begränsats till 1 megabyte sedan 2010 av Satoshi Nakamoto, skulle ökas för att Bitcoin skulle kunna behandla fler transaktioner per block och därmed förbättra skalbarheten.

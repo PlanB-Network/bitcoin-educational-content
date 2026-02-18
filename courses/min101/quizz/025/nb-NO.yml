@@ -1,0 +1,9 @@
+question: Er gebyrene for en Bitcoin-transaksjon en output?
+answer: Nei
+wrong_answers:
+  - Ja
+  - Ja, men bare for SegWit-transaksjoner
+  - Nei, men det var tilfelle før 2012
+explanation: |
+  Gebyrene er differansen mellom totale inputs og totale outputs, ikke en dedikert output. Dette har alltid vært tilfelle.
+reviewed: false

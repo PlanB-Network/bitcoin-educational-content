@@ -1,5 +1,6 @@
 ---
-term: SAINI KIPOFU
+term: Sahihi isiyoonekana
+definition: Sahihi ya kidijitali ambapo mtia sahihi hajui maudhui yaliyotiwa sahihi, inayotumiwa katika Chaumian CoinJoins na ecash.
 ---
 
 Sahihi za upofu za Chaum ni aina ya sahihi ya dijitali ambapo mtoaji saini hajui maudhui ya ujumbe anaotia saini. Hata hivyo, saini inaweza kuthibitishwa baadaye na ujumbe asili. Mbinu hii ilitengenezwa na mwandishi wa maandishi David Chaum mnamo 1983.

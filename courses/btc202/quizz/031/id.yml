@@ -1,7 +1,7 @@
 question: Distribusi mana yang paling cocok untuk Raspberry Pi, karena sangat ringan?
 answer: RaspiBlitz
 wrong_answers:
-  - Payung
+  - Umbrel
   - MyNode
   - Start9
 explanation: |

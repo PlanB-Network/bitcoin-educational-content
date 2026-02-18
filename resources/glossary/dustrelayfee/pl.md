@@ -1,5 +1,6 @@
 ---
-term: DUSTRELAYFEE
+term: Dustrelayfee
+definition: Parametr węzła określający stawkę opłat używaną do obliczenia limitu pyłu.
 ---
 
 Reguła standaryzacji używana przez węzły sieci do określenia tego, co uważają za "limit Dust" Ten parametr określa stawkę opłaty w Sats za wirtualny kilobajt (Sats/kvB), która służy jako odniesienie do obliczania, czy wartość UTXO jest mniejsza niż opłaty niezbędne do włączenia go do transakcji. Rzeczywiście, UTXO jest uważany za "Dust" na Bitcoin, jeśli wymaga więcej opłat do przeniesienia niż wartość, którą sam reprezentuje. Obliczenie tego limitu jest następujące:

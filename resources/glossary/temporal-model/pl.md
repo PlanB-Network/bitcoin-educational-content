@@ -1,5 +1,6 @@
 ---
-term: MODEL TYMCZASOWY
+term: Model czasowy
+definition: Analiza czasów rozgłaszania transakcji w celu wywnioskowania natury lub lokalizacji podmiotu on-chain.
 ---
 
 Niektóre ludzkie zachowania są rozpoznawalne jako On-Chain. Być może najbardziej przydatnym w analizie łańcucha jest twój wzorzec snu! Tak, kiedy śpisz, prawdopodobnie nie nadajesz transakcji Bitcoin. Ogólnie rzecz biorąc, śpisz mniej więcej w tych samych godzinach. Dlatego analizy czasowe są powszechnie stosowane w analizie łańcucha. Polega ona po prostu na rejestrowaniu godzin, w których transakcje danego podmiotu są transmitowane do sieci Bitcoin. Analiza tych wzorców czasowych pozwala nam wywnioskować wiele informacji.

@@ -1,0 +1,9 @@
+question: Bitcoin'de aday blok (candidate block) nedir?
+answer: Bir madenci tarafından hazırlanan ancak henüz geçerli olmayan blok
+wrong_answers:
+  - Ağ tarafından doğrulanan ancak henüz paylaşılmayan blok
+  - Bir cüzdan tarafından oluşturulan ancak henüz geçerli olmayan blok
+  - Mempool'da saklanan blok
+explanation: |
+  Her madenci, geçerli bir iş ispatı bulmaya çalışmadan önce yerel olarak bir aday blok oluşturur.
+reviewed: false

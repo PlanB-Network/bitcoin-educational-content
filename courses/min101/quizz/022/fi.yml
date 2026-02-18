@@ -1,0 +1,9 @@
+question: Mitä hashrate mittaa?
+answer: Tiivisteitä (hasheja) sekunnissa
+wrong_answers:
+  - Lohkoja sekunnissa
+  - Tapahtumia sekunnissa
+  - Tavuja sekunnissa
+explanation: |
+  Hashrate ilmaisee sekunnissa tehtyjen tiivistysyritysten määrän yksikkönä H/s.
+reviewed: false

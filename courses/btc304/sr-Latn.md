@@ -1820,7 +1820,7 @@ Pored svoje snažne obrazovne vrednosti, ovaj pristup omogućava deljenje dokume
 Ispod je napredak francuskog okupljanja za 2023-2024. Za svaku temu dostupna je prezentacija otvorenog koda i video, što vam može dati ideje za teme koje biste mogli pokriti na svojim događajima.
 
 
-Dodatni materijali za uređivanje mogu se pronaći i u [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)!
+Drugi resursi su takođe dostupni u odeljku ["Educator Content"](https://planb.academy/educator-content) na Plan ₿ Academy, saradničkom prostoru gde Bitcoin edukatori iz celog sveta dele i stavljaju na raspolaganje svoje obrazovne materijale (prezentacije, letke, vodiče, postere...) u formatima spremnim za upotrebu ili izmenljivim. Cilj: objediniti napore da ne počinjemo od nule svaki put!
 
 
 

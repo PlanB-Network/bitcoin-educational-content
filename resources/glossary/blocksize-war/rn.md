@@ -1,6 +1,7 @@
 ---
-term: BLOCKSIZE WAR
+term: Intambara y'ubunini bw'icitunza
 
+definition: Amatati mu muryango wa Bitcoin (2015-2017) ku bijanye n'izinduka ry'ingano y'ibice (blocks).
 ---
 
 Ivyo bivuga ku kiringo c’impaka n’amatati akomeye mu muryango wa Bitcoin hagati ya 2015 na 2017. Iyo ntambara yari ishingiye ku kuba ubunini bw’ibarabara, bwari bwagabanutse ku megabyte 1 kuva mu 2010 na Satoshi Nakamoto, bwokwongerwa kugira ngo Bitcoin ishobore gukora cane.

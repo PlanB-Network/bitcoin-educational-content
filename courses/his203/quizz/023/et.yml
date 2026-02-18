@@ -1,0 +1,11 @@
+question: Kes lõi 2011. aasta aprillis GLBSE veebipõhise börsi, platvormi, mis võimaldas Bitcoin ökosüsteemi osalistel enda rahastamiseks emiteerida finantsväärtpabereid, näiteks aktsiaid või võlakirju?
+answer: James McCarthy (Nefario)
+wrong_answers:
+  - Charlie Shrem (Yankee)
+  - Mircea Popescu (MPOE-PR)
+  - Nathaniel Theis (Cuddlefish)
+explanation: |
+ James McCarthy (Nefario) oli Hiinas elav iirlane, kes töötas ülikoolis inglise keele professorina. Ta oli huvitatud Austria koolkonna
+ ja Cypherpunk ideedest. 2011. aasta aprillis käivitas ta GLBSE, mis pakkus oma klientidele igasuguseid finantsteenuseid, sealhulgas võimalust kasutada
+ aktsiate ja võlakirjade emiteerimist.
+reviewed: true

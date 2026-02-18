@@ -1,0 +1,10 @@
+question: Na czym polega metoda Pay Per Last N Shares (PPLNS) stosowana w niektórych pulach mining?
+answer: Zapłacić górnikom za każdy wydobyty blok, proporcjonalnie do ich udziałów w ostatnich N akcjach dostarczonych do puli mining
+wrong_answers:
+  - Natychmiastowe wynagradzanie górników za każdą dostarczoną część, zgodnie z jej stopniem trudności
+  - Nagradzanie górników za każdy wydobyty blok, proporcjonalnie do udziałów, które znaleźli od ostatniego bloku
+  - Zapłać górnikom natychmiast za każdy dostarczony udział, ale nigdy więcej niż posiada pula mining
+explanation: |
+ Jest to wariant modelu proporcjonalnego, w którym okresem oceny nie jest blokowy cykl produkcyjny, ale okno N udziałów niezależnych od cyklu.
+ Metoda PPLNS została wykorzystana między innymi przez P2Pool.
+reviewed: true

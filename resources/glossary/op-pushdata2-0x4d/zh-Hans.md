@@ -1,5 +1,6 @@
 ---
-term: OP_PUSHDATA2 (0x4D)
+term: OP_PUSHDATA2 (0X4D)
 
+definition: 将最多 65 KB 的数据推入堆栈的Opcode。
 ---
 向堆栈推入大量数据。它后面跟着两个字节（以小端序形式表示），指定要推入的数据长度（最长约 65 KB）。它用于在脚本中插入较大的数据。

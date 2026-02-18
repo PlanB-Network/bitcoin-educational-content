@@ -1,0 +1,9 @@
+question: 難度目標每隔多少個區塊調整一次？
+answer: 2016 個區塊
+wrong_answers:
+  - 2000 個區塊
+  - 2100 個區塊
+  - 4096 個區塊
+explanation: |
+  調整每 2016 個區塊進行一次，按每個區塊 10 分鐘計算，大約相當於兩週時間。
+reviewed: false

@@ -183,7 +183,7 @@ La oss nå tenke oss at Alice ikke har én UTXO med 10 000 SATS, men to UTXOer m
 Intuitivt skulle man kanskje tro at transaksjonskostnadene også representerer resultatet av en transaksjon. Men i virkeligheten er dette ikke tilfelle. Transaksjonskostnadene representerer differansen mellom totale innsatsfaktorer og totale resultater. Det betyr at etter at man har brukt en del av verdien av innsatsfaktorene til å dekke ønsket output i en transaksjon, gjenstår det en viss sum av innsatsfaktorene som ikke blir brukt. Denne restsummen utgjør transaksjonskostnadene.
 
 ```plaintext
-Frais = total inputs - total outputs
+Transaksjonsgebyrer = total inputs - total outputs
 ```
 
 La oss ta et eksempel med Alice, som har en UTXO på 10 000 SATS og ønsker å kjøpe en baguette til 4 000 SATS. Alice oppretter en transaksjon med UTXO på 10 000 SATS som input. Deretter genererer hun et output på 4 000 SATS til bakeren for å betale for baguetten. For å oppmuntre utvinnerne til å integrere transaksjonen hennes i en blokk, tildeler Alice 200 SATS i gebyrer. Deretter lager hun en ny output, vekslingen, som vil bli returnert til henne, og som beløper seg til 5800 SATS.
@@ -193,10 +193,10 @@ La oss ta et eksempel med Alice, som har en UTXO på 10 000 SATS og ønsker å k
 Ved å bruke avgiftsformelen ser vi at det faktisk er `200 SATS` igjen for mindreårige:
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+Transaksjonsgebyrer = total inputs - total outputs
+Transaksjonsgebyrer = 10 000 - (4 000 + 5 800)
+Transaksjonsgebyrer = 10 000 - 9 800
+Transaksjonsgebyrer = 200
 ```
 
 Når en miner lykkes med å validere en blokk, har han rett til å kreve inn disse avgiftene for alle transaksjonene som inngår i blokken hans, via den såkalte "coinbase"-transaksjonen.
@@ -1204,7 +1204,7 @@ Hvis jeg for eksempel har en UTXO fra et P2P-kjøp på Bisq med Charles, kan jeg
 
 Tagging er en god praksis som hjelper deg med å huske opprinnelsen eller den tiltenkte destinasjonen til en UTXO, noe som derfor letter forvaltningen av midler og optimalisering av personvernet. Bitcoin-lommeboken din sikrer helt sikkert flere UTXO-er. Hvis kildene til disse UTXO-ene er forskjellige, vil du kanskje ikke slå sammen disse UTXO-ene i fremtiden, ellers kan du avsløre deres felles eierskap. Ved å merke alle delene dine på riktig måte, kan du være sikker på at du husker hvor de kom fra når du trenger dem, selv om det er mange år fra nå.
 
-### Hva er corner control?
+### Hva er coin control?
 
 Den aktive bruken av merking blir enda mer interessant når den kombineres med et alternativ for myntkontroll i porteføljeprogramvaren.
 
@@ -1547,7 +1547,7 @@ I dette eksempelet vil utvinnere foretrekke transaksjon A, selv om transaksjon B
 
 ```text
 TXA : 1994 / 141 = 14 sats/vB
-TXB : 2640 / 220 = 12 sats / vB
+TXB : 2640 / 220 = 12 sats/vB
 ```
 
 Det betyr at for hver vektenhet gir transaksjon A høyere kostnader enn transaksjon B, selv om transaksjon B gir høyere kostnader i absolutte termer.
@@ -1742,7 +1742,7 @@ Coinjoin gir imidlertid også muligheten til å forsterke konfidensialiteten i f
 
 ![BTC204](assets/nb-NO/118.webp)
 
-I det første eksempelet så vi hvordan coinjoin kan beskytte et roms personvern i forhold til dets fortid, og i det andre eksempelet hvordan det også kan sikre et roms historie i forhold til dets fremtid. Det var derfor jeg nevnte at coinjoin bør ses på som en engangshendelse som segmenterer en delhistorie i begge retninger:
+I det første eksempelet så vi hvordan coinjoin kan beskytte personvernet til en mynt med hensyn til dens fortid, og i det andre eksempelet hvordan den også kan sikre historikken til en mynt med hensyn til dens fremtid. Det er derfor jeg nevnte at coinjoin bør oppfattes som en engangshendelse som segmenterer en mynthistorikk i begge retninger:
 
 ![BTC204](assets/nb-NO/119.webp)
 
@@ -1936,7 +1936,7 @@ Metodene for valutahåndtering skilte også de to implementasjonene fra hverandr
 
 ![BTC204](assets/nb-NO/139.webp)
 
-Med Wabisabi har Wasabi versjon 2.0 tilpasset sin tilnærming til coinjoins til å matche Whirlpool. Selv om coinjoin-transaksjonene fortsatt er svært store, er det nå mulig å kjede flere påfølgende sykluser etter Whirlpool-modellen. Det er også lagt særlig vekt på valutakursstyring: I motsetning til Wasabi 1.0, der valutakursen var direkte knyttet til brukerens input, forsøker Wabisabi å dele opp valutakursen i flere små summer, fordelt på like store valører for alle deltakerne.
+Med Wabisabi har versjon 2.0 tilpasset sin tilnærming til coinjoins for å komme nærmere Whirlpool-modellen. Selv om coinjoin-transaksjoner fortsatt er svært store, er det nå mulig å kjøre flere påfølgende sykluser, i tråd med Whirlpool-modellen. Det er også lagt særlig vekt på håndtering av veksel: i motsetning til Wasabi 1.0, der vekslingen var direkte knyttet til brukernes inputs, forsøker Wabisabi å dele opp vekslingen i flere mindre beløp, fordelt i like denominasjoner til alle deltakerne.
 
 La oss illustrere dette med et forenklet eksempel med bare to brukere: Alice ønsker å blande 115 000 sats og Bob 210 000 sats. Hvis vi ser bort fra gebyrer, ville en coinjoin-transaksjon med Wasabi 1.0 ha generert 3 utganger på 100 000 sats, pluss 1 utveksling på 15 000 sats for Alice og 1 utveksling på 10 000 sats for Bob. Utbytteutgangene ville fortsatt vært knyttet til inngangene:
 
@@ -2115,7 +2115,7 @@ La oss ta en titt på de forskjellige stadiene av en Whirlpool coinjoin innenfor
 
 Utgangspunktet for enhver Whirlpool coinjoin er **deposit**-kontoen. Dette er kontoen du automatisk bruker når du oppretter en ny Bitcoin-lommebok. Denne kontoen må krediteres med bitcoinsene du ønsker å blande.
 
-Tx0" er det første trinnet i Whirlpools blandeprosess. Formålet er å klargjøre og utjevne UTXO-ene for sammenblandingen ved å dele dem inn i enheter som tilsvarer mengden av det valgte bassenget, for å sikre en homogen blanding. UTXO-ene som er utjevnet på denne måten, sendes deretter til **premix**-kontoen. Når det gjelder differansen som ikke kan inngå i bassenget, skilles den ut på en spesifikk konto: **dårlig bank** (eller "doxxic change").
+`Tx0` er det første trinnet i Whirlpools blandeprosess. Formålet er å klargjøre og utjevne UTXO-ene for sammenblandingen ved å dele dem inn i enheter som tilsvarer mengden av det valgte bassenget, for å sikre en homogen blanding. UTXO-ene som er utjevnet på denne måten, sendes deretter til **premix**-kontoen. Når det gjelder differansen som ikke kan inngå i bassenget, skilles den ut på en spesifikk konto: **dårlig bank** (eller "doxxic change").
 
 Denne første Tx0-transaksjonen brukes også til å betale serviceavgiften til coinjoin-koordinatoren. I motsetning til de følgende trinnene er ikke denne transaksjonen samarbeidsbasert, så brukeren må bære hele kostnaden for utvinningen:
 
@@ -2153,7 +2153,7 @@ På slutten av disse første blandingene vil **premix**-kontoen være tom, mens 
 
 ### Remixer
 
-Etter den første miksen overføres UTXO-ene til **postmix**-kontoen. Denne kontoen samler UTXO-er som allerede er mikset og UTXO-er som venter på remiksing. Når Whirlpool-kunden er aktiv, er UTXO-er som befinner seg på **postmix**-kontoen, automatisk tilgjengelige for remiksing og vil bli tilfeldig valgt ut til å delta i disse nye syklusene.
+Etter at den innledende miksen er utført, overføres UTXO-ene til **postmix**-kontoen. Denne kontoen samler UTXO-er som allerede er mikset og de som venter på remixing. Når Whirlpool-klienten er aktiv, er UTXO-ene som befinner seg i **postmix**-kontoen automatisk tilgjengelige for remixing og vil bli valgt tilfeldig for å delta i disse nye syklusene.
 
 Som en påminnelse er remixer 100 % gratis: ingen ekstra serviceavgifter eller utvinningsgebyrer er påkrevd. Ved å beholde UTXO-er på **postmix**-kontoen holder du derfor verdien deres intakt, og forbedrer samtidig anonsettene deres. Derfor er det viktig å la disse myntene delta i flere coinjoin-sykluser. Det koster deg absolutt ingenting, og øker anonymitetsnivået deres.
 
@@ -2486,7 +2486,7 @@ Boltzmann-poengsummen beregnes ved å dividere antallet tolkninger der en bestem
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}
@@ -2719,7 +2719,7 @@ I dette eksempelet har jeg med vilje utelatt gebyrene for å gjøre det enklere 
 
 I likhet med Stonewall-strukturen tilfører Stonewall x2-strukturen mye entropi til transaksjonen og forvirrer kjedeanalysen. Sett utenfra kan en slik transaksjon tolkes som en liten coinjoin mellom to personer. Men i virkeligheten er det en betaling. Denne metoden skaper derfor usikkerhet i kjedeanalysen, eller fører til og med til falske spor.
 
-La oss ta et eksempel med Alice, Bob the Baker og Charles. Transaksjonen på blokkjeden vil se slik ut:
+La oss ta et eksempel med Alice, Bob the baker og Charles. Transaksjonen på blokkjeden vil se slik ut:
 
 ![BTC204](assets/nb-NO/184.webp)
 
@@ -2871,7 +2871,7 @@ Denne naive metoden innebærer imidlertid en høy risiko når det gjelder tillit
 
 ![BTC204](assets/nb-NO/201.webp)
 
-Videre er det ingen garanti for at Alice ikke vil motta Bobs private nøkkel $B$ og aldri gi videre sin private nøkkel $A$ i bytte. Denne utvekslingen er derfor avhengig av overdreven tillit mellom partene, og er ineffektiv når det gjelder å sikre en sikker hemmelig overføring av eierskap.
+Dessuten finnes det ingen garanti for at Alice, etter å ha mottatt Bobs private nøkkel $B$, vil sende sin private nøkkel $A$ i bytte. Denne utvekslingen hviler derfor på en enorm tillit mellom partene og viser seg å være ineffektiv for å sikre en hemmelig overføring av eierskap på en sikker måte.
 
 ![BTC204](assets/nb-NO/202.webp)
 

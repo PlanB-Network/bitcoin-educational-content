@@ -1,5 +1,6 @@
 ---
-term: 闪电服务提供商
+term: Lightning 服务提供商
+definition: 为 Lightning Network 用户提供流动性服务的公司。
 ---
 
 在 Lightning 上运营的公司，其业务是为用户提供流动性服务。

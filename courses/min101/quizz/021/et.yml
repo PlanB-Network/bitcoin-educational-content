@@ -1,0 +1,9 @@
+question: Iga kui mitme ploki järel kohandatakse raskusastet?
+answer: 2016 plokki
+wrong_answers:
+  - 2000 plokki
+  - 2100 plokki
+  - 4096 plokki
+explanation: |
+  Kohandamine toimub iga 2016 ploki järel, mis on umbes kaks nädalat (arvestades 10 minutit ploki kohta).
+reviewed: false

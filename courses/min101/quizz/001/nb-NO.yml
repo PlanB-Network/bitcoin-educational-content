@@ -1,0 +1,9 @@
+question: Hva gjør en Bitcoin-node med en gyldig, men ubekreftet transaksjon etter verifisering?
+answer: Den videresender den til sine likemenn (peers)
+wrong_answers:
+  - Den legger den til i sin lokale kopi av blokkjeden
+  - Den signerer den med sin private nøkkel
+  - Den krypterer den med sin offentlige nøkkel
+explanation: |
+  I Bitcoin-nettverket sprer hver node gyldige transaksjoner til nodene den er koblet til.
+reviewed: false

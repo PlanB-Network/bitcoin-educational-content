@@ -6,4 +6,4 @@ wrong_answers:
   - Mata uang Bitcoin mainnet
 explanation: |
   Indeks /84'/ didefinisikan dalam BIP84 untuk menunjukkan penggunaan standar SegWit v0 dengan alamat P2WPKH pada kedalaman 1 (yang merupakan target derivasi).
-direview: false
+reviewed: true

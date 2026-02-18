@@ -6,4 +6,4 @@ wrong_answers:
   - Melindungi UTXO dari pengeluaran ganda
 explanation: |
   Dompet umpan digunakan untuk mengalihkan perhatian penyerang dengan memberikan akses ke dompet yang berisi jumlah bitcoin yang kecil.
-ditinjau: false
+reviewed: true

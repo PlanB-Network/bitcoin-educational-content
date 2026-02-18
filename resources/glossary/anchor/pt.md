@@ -1,5 +1,6 @@
 ---
 term: Anchor
+definition: No protocolo RGB, um conjunto de dados que prova a inclusão de um compromisso em uma transação Bitcoin, sem revelar publicamente seu conteúdo.
 ---
 
 No protocolo RGB, um Anchor representa um conjunto de dados do lado do cliente utilizados para provar a inclusão de um único Commitment numa transação. No protocolo RGB, um Anchor é composto pelos seguintes Elements:

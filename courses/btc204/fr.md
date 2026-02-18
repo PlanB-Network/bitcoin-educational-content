@@ -1473,7 +1473,7 @@ Dans cet exemple, bien que la transaction B propose un total de frais plus élev
 ```text
 TXA : 1994 / 141 = 14 sats/vB
 
-TXB : 2640 / 220 = 12 sats / vB
+TXB : 2640 / 220 = 12 sats/vB
 ```
 
 Cela veut dire que pour chaque unité de poids, la transaction A offre plus de frais que la transaction B, alors même que cette dernière offre plus de frais en valeur absolue.
@@ -2068,7 +2068,7 @@ Désormais, Whirlpool est à nouveau accessible sur l'application mobile Ashigar
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
 
-Le cœur du fonctionnement de Whirlpool demeure inchangé, mais il y a tout de même quelques différences avec son utilisation sur Samourai : en 2025, sur Ashigaru, seules deux pools sont disponibles, d’un montant de `0.25 BTC` et `0.025 BTC`, avec des frais d’entrée respectifs de `0.0125 BTC` et `0.00125 BTC`.
+Le cœur du fonctionnement de Whirlpool demeure inchangé, mais il y a tout de même quelques différences avec son utilisation sur Samourai : en 2025, sur Ashigaru, seules deux pools sont disponibles, d'un montant de `0,25 BTC` et `0,025 BTC`, avec des frais d'entrée respectifs de `0,0125 BTC` et `0,00125 BTC`.
 
 Dans le chapitre suivant, nous allons découvrir ce que sont les "anonsets", comment ces indicateurs sont calculés, et en quoi ils peuvent nous aider pour estimer l'efficacité des cycles de coinjoins.
 
@@ -2539,7 +2539,7 @@ Dans cet exemple, j'ai intentionnellement négligé les frais afin de faciliter 
 
 Comme la structure Stonewall, la structure Stonewall x2 ajoute énormément d'entropie à la transaction et vient brouiller les pistes de l'analyse de chaîne. Vue de l'extérieur, une telle transaction peut être interprétée comme un petit coinjoin entre deux personnes. Mais en réalité, il s'agit d'un paiement. Cette méthode génère donc des incertitudes dans l'analyse de chaîne, voire oriente vers de fausses pistes.
 
-Reprenons l'exemple d'Alice, Bob le Boulanger et Charles. La transaction sur la blockchain se présenterait ainsi :
+Reprenons l'exemple d'Alice, Bob le boulanger et Charles. La transaction sur la blockchain se présenterait ainsi :
 
 ![BTC204](assets/fr/184.webp)
 

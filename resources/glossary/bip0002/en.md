@@ -1,5 +1,6 @@
 ---
 term: BIP0002
+definition: Document establishing the criteria for acceptance, rejection, or withdrawal of BIP proposals, specifying the process methodology.
 ---
 
 A document authored by Luke Dashjr in June 2012 that established specific criteria for the acceptance of future Bitcoin Improvement Proposals (BIPs). BIP2 introduced the concepts of BIPs being "accepted", "rejected", or "withdrawn", and specified the conditions required for each status. 

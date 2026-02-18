@@ -1,0 +1,9 @@
+question: Khai thác Bitcoin cần sử dụng tài nguyên nào?
+answer: Điện
+wrong_answers:
+  - Nước
+  - Đá quý
+  - Vàng
+explanation: |
+  Khai thác là một công việc xác thực tiêu thụ điện thông qua máy tính.
+reviewed: false

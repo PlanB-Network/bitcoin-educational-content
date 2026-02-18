@@ -1,0 +1,9 @@
+question: Kuri Bitcoin, ni ikihe kimenyetso gikoreshwa kenshi mu kwugurura UTXO?
+answer: Umukono wa digital (digital signature)
+wrong_answers:
+  - Ijambo ry'ibanga rya konti
+  - Hash ya block iriho ubu
+  - Icyemezo cya SSL
+explanation: |
+  Igisabwa kugira ngo ukoreshe amafaranga kenshi n'umukono wakozwe n'urufunguzo rw'ibanga ruhuye.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Quale problema ha risolto il concetto deterministico wallet formalizzato dallo sviluppatore Gregory Maxwell nel giugno 2011?
+answer: La necessità di backup regolari delle chiavi private per proteggere i bitcoin
+wrong_answers:
+  - Il rischio di pirateria associato all'archiviazione di bitcoin su un dispositivo connesso a Internet
+  - Vulnerabilità agli attacchi brute force a causa della bassa entropia dei generatori di numeri casuali
+  - L'impossibilità di riutilizzare l'account su un altro dispositivo
+explanation: |
+ I wallet deterministici applicano la derivazione delle chiavi: invece di essere generated individualmente a caso, come è stato fatto nel software principale, le chiavi private sono derivate
+ deterministicamente dalle informazioni (chiamate seed) utilizzando funzioni crittografiche. Questo metodo è stato applicato dal software BitcoinSpinner e dal Electrum
+ wallet alla fine del 2011.
+reviewed: true

@@ -1,9 +1,9 @@
-question: Ni uruhara uruhe Schema ifise muri RGB?
-answer: Sigura ibihinduka vya Contract, amategeko na Business Logic.
+question: Ni uruhara uruhe Igicapo gifise muri RGB?
+answer: Sigura ibihinduka vy'amasezerano, amategeko hamwe n'uko ishoramari rimeze.
 wrong_answers:
-  - Ibintu vy'ububiko vyahinduwe hagati y'abaje mu nama
-  - Kwemeza amasezerano ya Pedersen ku bikorwa vya Bitcoin
-  - Rema Insobanuro za Seal kuri buri UTXO.
+  - Ibintu vy'ububiko vyahinduwe hagati y'ababaikoresha
+  - Kwemeza ukwiyemeza kwa Pedersen kumasezerano y'ihanahanwa rya Bitcoin
+  - Gukora insiguro ya Serire kuri buri UTXO.
 explanation: |
-  Schema itunganya uko Contract imeze kandi igena ihinduka ryemewe n’ivyangombwa vyo kwemeza.
-reviewed: false
+  Igicapo cubaka uko amasezerano hamwe n'uko ihanahanwa rihinduka ryemewe n’ivyangombwa vyo kwemeza.
+reviewed: true

@@ -1,5 +1,6 @@
 ---
-term: KRHOTINE (MUNJE)
+term: Fragmenti (lightning)
+definition: Deo plaćanja koji se rutira odvojeno preko različitih Lightning ruta (MPP/AMP).
 ---
 
 U kontekstu *Multi-Path Payments (MPP)* ili *Atomic Multi-Path Payments (AMP)*, Shard je frakcija globalnog plaćanja. Svaki Shard predstavlja deo ukupnog plaćanja, koji se rutira zasebno putem različite rute na Lightning-u.

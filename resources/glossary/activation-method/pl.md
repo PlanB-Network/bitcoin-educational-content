@@ -1,5 +1,6 @@
 ---
-term: METODA AKTYWACJI
+term: Metoda aktywacji
+definition: Proces, w którym społeczność Bitcoin decyduje o aktywacji soft forka, szukając konsensusu między górnikami a użytkownikami, aby uniknąć podziału blockchaina.
 ---
 
 Metoda aktywacji to proces, w którym społeczność użytkowników decyduje o wdrożeniu Soft Fork w protokole Bitcoin, w celu uniknięcia podziału Blockchain. Proces ten obejmuje pozyskiwanie opinii górników w celu zatwierdzenia Soft Fork przed jego aktywacją. Jeśli znacząca większość zaakceptuje Soft Fork, ryzyko podziału Blockchain zostanie zminimalizowane. Ten konsensus jest kluczowy, ponieważ jeśli większość górników odmówi wprowadzenia modyfikacji, Soft Fork może utworzyć dwa odrębne łańcuchy: jeden ze zmodyfikowanymi zasadami, a drugi bez. Istnieją 2 główne kategorie metod aktywacji:

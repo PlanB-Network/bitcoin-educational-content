@@ -1,8 +1,8 @@
 ---
-term: ORANSJE PILLER
+term: Oransje pille
+definition: Konsept inspirert av Matrix som symboliserer oppvåkningen til forståelsen av Bitcoin.
 ---
 
 Inspirert av filmen *Matrix*, vekker denne imaginære pillen Bitcoins bevissthet.
 
 
-> ► *Brukes også som verb. Appelsinplyndre noen = verve dem til Bitcoin*

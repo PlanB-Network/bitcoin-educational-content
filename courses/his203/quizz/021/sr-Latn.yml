@@ -1,0 +1,9 @@
+question: BitInstant
+answer: BitInstant
+wrong_answers:
+  - Instawallet
+  - Crypto X Change
+  - TrustCash
+explanation: |
+ Ova usluga je rešila problem sporih međunarodnih transfera ka Mt. Gox tako što je delovala kao posrednik, prenoseći sredstva na platforme za razmenu nakon što su primljena u zemlji porekla. BitInstant je otvorio svoja vrata javnosti 23. avgusta 2011. godine i brzo postao popularan, prenoseći 1,2 miliona dolara do januara 2012. godine.
+reviewed: true

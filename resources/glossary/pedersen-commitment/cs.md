@@ -1,5 +1,6 @@
 ---
-term: Pedersen commitment
+term: Pedersenův závazek
+definition: Homomorfní kryptografický závazek umožňující ověřování součtů bez prozrazení hodnot.
 ---
 
 Pedersen commitment je typ kryptografického Commitment s vlastností homomorfnosti vůči operaci sčítání. To znamená, že je možné ověřit součet dvou závazků, aniž by byly odhaleny jednotlivé hodnoty.

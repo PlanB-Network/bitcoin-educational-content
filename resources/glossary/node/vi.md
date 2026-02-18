@@ -1,6 +1,7 @@
 ---
-term: NODE
+term: Nút
 
+definition: Máy tính chạy ứng dụng khách Bitcoin, tham gia vào mạng bằng cách duy trì một bản sao của blockchain.
 ---
 In the Bitcoin network, a node (or "node" in English) is a computer that runs a Bitcoin protocol client (such as Bitcoin Core, for example). It participates in the network by maintaining a copy of the blockchain, relaying and verifying transactions and new blocks, and optionally, participating in the mining process. The sum of all Bitcoin nodes represents the Bitcoin network itself.
 

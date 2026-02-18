@@ -1,0 +1,9 @@
+question: Mengenai mempool, pernyataan mana yang benar?
+answer: Setiap node memiliki mempool-nya sendiri
+wrong_answers:
+  - Ada satu mempool tunggal yang unik
+  - Mempool adalah file yang terdapat dalam setiap blok
+  - Mempool adalah server pusat
+explanation: |
+  Mempool bersifat lokal untuk setiap node, sehingga kontennya dapat bervariasi dari satu node ke node lainnya tergantung pada aturan yang diterapkan masing-masing.
+reviewed: false

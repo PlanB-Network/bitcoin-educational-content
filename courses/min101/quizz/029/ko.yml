@@ -1,0 +1,9 @@
+question: 블록 보상은 무엇으로 구성됩니까?
+answer: 보조금 + 수수료
+wrong_answers:
+  - 보조금 + 난이도
+  - 수수료 + nonce
+  - 해시레이트 + 수수료
+explanation: |
+  보상은 블록 보조금과 포함된 트랜잭션의 모든 수수료를 합산한 것입니다.
+reviewed: false

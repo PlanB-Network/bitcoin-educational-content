@@ -1,5 +1,6 @@
 ---
-term: SELFISH Mining
+term: Selfish mining
+definition: Strategia wydobywcza polegająca na utrzymywaniu bloków w tajemnicy, aby zyskać przewagę nad innymi górnikami.
 ---
 
 Strategia (lub atak) w Mining, w której Miner lub grupa górników celowo przetrzymuje bloki z ważnym Proof of Work bez natychmiastowego wypuszczania ich do sieci. Celem jest wyprzedzenie innych górników pod względem Proof of Work, potencjalnie umożliwiając im Miner kilka bloków z rzędu i opublikowanie ich wszystkich naraz, maksymalizując w ten sposób swoje zyski. Innymi słowy, atakująca grupa górników nie wydobywa ostatniego bloku zatwierdzonego przez całą sieć, ale raczej blok, który sami stworzyli, który różni się od tego zatwierdzonego przez sieć.

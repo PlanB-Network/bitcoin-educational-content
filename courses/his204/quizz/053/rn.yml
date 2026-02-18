@@ -1,8 +1,9 @@
-question: None ikinyamakuru ca Fiziyokarate citwa iki?
-answer: Ivyo bimenyetso vy'i Citoyen
+question: None ikinyamakuru ca Physiocrates citwa iki?
+answer: Les Ephémérides du Citoyen
 wrong_answers:
-  - Ivyiyumviro vy'abantu
-  - Umwenegihugu mushasha
-  - Ikinyamakuru c'abahinga mu vy'ubutunzi
+  - Ivyiyumviro vy'abantu(Les Ephémérides du Peuple)
+  - Umwenegihugu mushasha(The New Citizen)
+  - Ikinyamakuru c'abahinga mu vy'ubutunzi(Le Journal des Économistes)
 explanation: |
-  Ikinyamakuru c'abafiziyokarate cari "Les Éphémérides du Citoyen", ikinyamakuru bashiramwo ivyiyumviro vyabo n'isesengura ry'ubutunzi.
+  Ikinyamakuru c'ba physiocrates cari "Les Éphémérides du Citoyen", ikinyamakuru bashiramwo ivyiyumviro vyabo n'isesangura ry'ubutunzi.
+reviewed: true

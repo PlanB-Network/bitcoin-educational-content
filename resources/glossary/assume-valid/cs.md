@@ -1,6 +1,7 @@
 ---
-term: PŘEDPOKLÁDEJME, ŽE JE PLATNÝ
+term: Assume valid
 
+definition: Parametr Bitcoin Core, který umožňuje přeskočit ověření podpisů pro bloky předchozí určitému bodu, urychlujici počáteční synchronizaci.
 ---
 Konfigurační parametr ve většinovém klientovi Bitcoin Core, který umožňuje uzlu, který byl právě inicializován (ale ještě neprovedl IBD), přeskočit ověřování podpisů pro všechny transakce zahrnuté v blocích před určitým daným blokem. Tento slavný blok je definován otiskem své hlavičky, tedy svým hashem. Vybraný blok se obnovuje s každou novou verzí jádra Bitcoinu. Pokud má tedy uzel při své inicializaci aktivovaný tento parametr, zkontroluje řetězec hlavičky bloku a najde větev s největším počtem nashromážděných prací. Pokud uzel zjistí hash poskytnutý jádrem ve zvolené větvi, vynechá ověření podpisů předchozích bloků. V opačném případě uzel přistoupí k tradiční synchronizaci (IBD), aby vše ověřil sám.
 

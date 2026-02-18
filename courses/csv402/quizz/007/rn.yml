@@ -1,9 +1,9 @@
 question: Ni gute RGB igabanya ukuntu iboneka?
-answer: Taproot (Igitabu)
+answer: Taproot (Tapret)
 wrong_answers:
-  - OP_RETURN (Guhindura)
-  - Sig guhindura
-  - Guhindura urufunguzo
+  - OP_RETURN (Opret)
+  - Sig tweak
+  - Key tweak
 explanation: |
-  Taproot (Tapret) ishoboza ko amasezerano yinjizwa mu gucuruza mu buryo buteye ubwoba kandi bubereye, mu gihe nyene ishobora guhuza n’ingingo mfatirwako ziriho ubu.
-reviewed: false
+  Taproot (Tapret) ituma ukwiyemeza gushobora gushirwa mw'ihanahanwa mw'ibanga kandi muburyo bubereye, mu gihe nyene ishobora guhuza n’ingingo mfatirwako ziriho ubu.
+reviewed: true

@@ -1,5 +1,6 @@
 ---
-term: AGORISM
+term: Agorism
+definition: A libertarian political philosophy advocating economic action outside of state control (counter-economy) to progressively undermine state power.
 ---
 
 A political philosophy founded by Samuel Edward Konkin III in the 1980s. It is an extension of libertarianism, emphasizing direct action to extricate oneself from the grip of state authority through counter-economics, an economic practice that occurs outside government-regulated frameworks. The agorist ideology is based on natural law theory (jusnaturalism), which asserts that the natural rights of individuals are superior to laws imposed by the state. This includes the primacy of private property, respect for physical integrity, and the freedom to contract. Agorists reject all forms of traditional political participation such as voting, which they view as a validation of the state's coercive authority. They aspire to a society where economic and social exchanges freely occur in an open market, called the Agora, aiming for a peaceful revolution to gradually erode the power of the state. Their emblem is "A3", for "Agora, Anarchy, Action". The principle of agorism is described in the *New Libertarian Manifesto* published in 1980. This paper is inspired by Murray Rothbard's *Libertarian Manifesto*, but it goes even further. Many Bitcoin enthusiasts identify with agorism and believe that Bitcoin is the perfect tool for it.

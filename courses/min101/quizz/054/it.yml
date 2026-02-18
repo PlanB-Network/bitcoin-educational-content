@@ -1,0 +1,9 @@
+question: Come si chiama il registro pubblico condiviso dove viene scritta la cronologia dei pagamenti in bitcoin?
+answer: La blockchain
+wrong_answers:
+  - La mempool
+  - Il wallet
+  - L'hashrate
+explanation: |
+  Il registro pubblico condiviso che contiene tutte le transazioni è la blockchain.
+reviewed: false

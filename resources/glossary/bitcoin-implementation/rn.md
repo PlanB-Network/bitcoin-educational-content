@@ -1,5 +1,6 @@
 ---
-term: Bitcoin GUSHIRA MU NGIRO
+term: Itonda rya Bitcoin
+definition: Iporogaramu ishyira mu bikorwa amategeko ya porotokolo ya Bitcoin, Bitcoin Core niyo yisungwa.
 ---
 
 Yerekeza kuri porogarama ishitsa kandi ikurikije amategeko asobanuwe n’umurongo wa Bitcoin. Iyo abantu bavuze ngo “Bitcoin”, akenshi bavuga uburyo bwo gukoresha amahera y’ubuhinga bwa none ubwabwo, ni ukuvuga amategeko asobanura amategeko y’uguhurizako.

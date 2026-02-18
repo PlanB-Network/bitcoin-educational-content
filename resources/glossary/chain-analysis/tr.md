@@ -1,5 +1,6 @@
 ---
-term: ZİNCİR ANALİZİ
+term: Zincir analizi
+definition: Sezgisel yöntemler ve modeller kullanarak blokzincir üzerindeki bitcoin akışlarını izleme uygulaması.
 ---
 
 Blockchain üzerindeki bitcoin akışını izlemek için kullanılan tüm yöntemleri kapsayan uygulama. Genel olarak zincir analizi, önceki işlem örneklerindeki özelliklerin gözlemlenmesine dayanır. Daha sonra, analiz edilmek istenen bir işlemde aynı özelliklerin tanımlanmasını ve makul yorumların çıkarılmasını içerir. Yeterince iyi bir çözüm bulmak için pratik bir yaklaşıma dayanan bu problem çözme yöntemi sezgisel olarak bilinir. Basitleştirmek gerekirse, zincir analizi iki ana adımda gerçekleştirilir:

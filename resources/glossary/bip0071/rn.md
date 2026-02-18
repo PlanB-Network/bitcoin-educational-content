@@ -1,5 +1,6 @@
 ---
 term: BIP0071
+definition: Ishirwaho rya MIME type ku butumwa bw'iyishyurwa rya BIP70. Ntiyigeze yakirwa na benshi.
 ---
 
 Isobanura ubwoko bw'itangazamakuru rya MIME (*Ivyagutse vy'Iposita ya Internet*), bihuye n'ingingo ya RFC 2046, ku butumwa bwo gusaba kwishura Bitcoin muri BIP70.

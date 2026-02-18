@@ -1,5 +1,6 @@
 ---
-term: EXTRA-Nonce
+term: Extra-nonce
+definition: coinbase 交易中的一個欄位，允許在挖礦時將搜尋空間擴展到經典 nonce 之外。
 ---
 
 用於區塊 Coinbase Transaction 的 `scriptSig` 中的欄位，除了直接在每個區塊的標頭中找到的經典 Nonce 外，它允許測試更多的可能性，以便 Hash 低於難度目標。

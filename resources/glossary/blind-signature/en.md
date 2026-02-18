@@ -1,5 +1,6 @@
 ---
-term: BLIND SIGNATURE
+term: Blind signature
+definition: Digital signature where the issuer does not know the signed content, used in Chaumian CoinJoins and ecash.
 ---
 
 Chaum's blind signatures are a form of digital signature in which the signer does not know the content of the message being signed. However, the resulting signature can still be verified against the original message. This technique was developed by cryptographer David Chaum in 1983.

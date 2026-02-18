@@ -1,0 +1,10 @@
+question: Kuinka suuri osuus Bitcoin-ketjun toiminnasta oli Silkkitietä kesän 2011 lopussa?
+answer: 10 %
+wrong_answers:
+  - 3 %
+  - 30 %
+  - 90 %
+explanation: |
+ Chainalysiksen myöhemmän raportin mukaan Silk Roadin toiminta muodosti lähes 10 prosenttia Bitcoin-kanavalla käytävästä kaupasta vuoden alussa
+ Syyskuun 2011 alussa.
+reviewed: true

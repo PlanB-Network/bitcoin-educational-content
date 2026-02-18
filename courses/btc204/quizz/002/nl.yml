@@ -1,9 +1,9 @@
-question: Wat is de actie van een Bitcoin transactie op de ingevoerde UTXO's?
-answer: Het verbruikt ze om aan de uitgangen te voldoen.
+question: Wat is de actie van een Bitcoin transactie op de input-UTXO's?
+answer: Het verbruikt ze om aan de outputs te voldoen.
 wrong_answers:
   - Het archiveert ze in de Blockchain voor toekomstig gebruik.
   - Het versleutelt ze om de transactie te beveiligen.
   - Het dupliceert ze om nieuwe UTXO's te maken.
 explanation: |
-  De input UTXO's in een transactie worden verbruikt om de output te financieren. Het is in zekere zin de bron van het geld.
+  De input-UTXO's in een transactie worden verbruikt om de output te financieren. Het is in zekere zin de bron van het geld.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Ni gute bakunze kwita igice c’ishimikiro c’umuhora wa Bitcoin?
+answer: Settlement layer
+wrong_answers:
+  - Transaction layer
+  - Security layer
+  - Consensus layer
+explanation: |
+  Igice c’ishimikiro ca Bitcoin, akenshi kitwa "Settlement layer," kijejwe kwugurura no gufunga imihora yo kwishura.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Siapa yang menemukan Hashcash?
+answer: Adam Back
+wrong_answers:
+  - Nick Szabo
+  - Hal Finney
+  - David Chaum
+explanation: |
+  Hashcash ditemukan oleh Adam Back. Ini adalah mekanisme bukti kerja (proof-of-work) pertama.
+reviewed: false

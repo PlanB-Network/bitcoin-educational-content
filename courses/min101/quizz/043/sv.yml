@@ -1,0 +1,9 @@
+question: Mellan mitten av 2010 och mitten av 2011, med vilken faktor multiplicerades mining-svårigheten?
+answer: 1000
+wrong_answers:
+  - 100
+  - 500
+  - 50
+explanation: |
+  En 1 000-faldig ökning ägde rum under denna period, främst på grund av användningen av GPU:er.
+reviewed: false

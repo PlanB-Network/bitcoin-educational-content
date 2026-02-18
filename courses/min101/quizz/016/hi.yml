@@ -1,0 +1,9 @@
+question: संक्षिप्त रूप RPOW का क्या अर्थ है?
+answer: Reusable Proofs of Work
+wrong_answers:
+  - Recursive Proofs of Work
+  - Random Proofs of Work
+  - Replayed Proofs of Work
+explanation: |
+  RPOW का अर्थ पुन: प्रयोज्य और विनिमय योग्य प्रूफ ऑफ वर्क है, जिसे 2004 में हैल फिन्नी द्वारा प्रस्तावित किया गया था।
+reviewed: false

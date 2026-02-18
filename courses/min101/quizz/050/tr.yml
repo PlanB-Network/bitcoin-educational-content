@@ -1,0 +1,9 @@
+question: Bir bloktaki işlemler ne zaman onaylanmış olur?
+answer: Blok blockchain'e eklendiğinde
+wrong_answers:
+  - İşlem madenci tarafından imzalandığında
+  - İşlem düğüm (node) tarafından yayımlandığında
+  - Madenci kanıtı aramaya başladığında
+explanation: |
+  Bitcoin'de bir ödemenin onayı, o ödemeyi içeren bloğun blockchain'e eklenmesinin bir sonucudur.
+reviewed: false

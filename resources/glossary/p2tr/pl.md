@@ -1,5 +1,6 @@
 ---
 term: P2TR
+definition: Skrypt Taproot pozwalający na wydawanie za pomocą klucza publicznego lub skryptów Merkle, adresy bc1p.
 ---
 
 P2TR to skrót od *Pay to Taproot*, który jest standardowym modelem skryptu używanym do ustalania warunków wydatków na UTXO (niewydane dane wyjściowe transakcji). Został on wprowadzony wraz z wdrożeniem Taproot w listopadzie 2021 roku. P2TR wykorzystuje protokół Schnorra do agregacji kluczy kryptograficznych, a także drzewa Merkle dla alternatywnych skryptów, znanych jako MAST (*Merkelized Alternative Script Tree*). W przeciwieństwie do tradycyjnych transakcji, w których warunki wydatków są publicznie ujawniane (czasami w momencie otrzymania, czasami w momencie wydania), P2TR pozwala na ukrycie złożonych skryptów za pojedynczym pozornym kluczem publicznym.

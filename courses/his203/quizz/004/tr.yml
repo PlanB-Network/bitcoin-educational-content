@@ -1,0 +1,10 @@
+question: Adrian Chen'in 1 Haziran 2011 tarihinde İpek Yolu'nu kamuoyunun dikkatine sunan makalesi hangi çevrimiçi medyada yayınlanmıştır?
+answer: Gawker
+wrong_answers:
+  - Gizmodo
+  - Slashdot
+  - Hackernews
+explanation: |
+ Gawker.com, çok sayıda yazarın bazen tartışmalı makaleler yayınladığı etkili bir blogdu. Gawker'ın açtığı dava sonucunda 2016 yılında iflas etti
+ Hulk Hogan ve Peter Thiel.
+reviewed: true

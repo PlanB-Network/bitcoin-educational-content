@@ -1,5 +1,6 @@
 ---
-term: BYZANTIJNS GENERAAL PROBLEEM
+term: Byzantijnse generaals probleem
+definition: Probleem dat de uitdagingen van coördinatie illustreert in een gedistribueerd systeem waar actoren elkaar niet kunnen vertrouwen.
 ---
 
 Het probleem werd voor het eerst geformuleerd door Leslie Lamport, Robert Shostak en Marshall Pease in het gespecialiseerde tijdschrift *ACM Transactions on Programming Languages and Systems, vol 4, n° 3* ["The Byzantine Generals Problem"](https://lamport.azurewebsites.net/pubs/byz.pdf) in juli 1982. Het wordt vandaag de dag gebruikt om de uitdagingen te illustreren in termen van besluitvorming wanneer een gedistribueerd systeem geen enkele actor kan vertrouwen.

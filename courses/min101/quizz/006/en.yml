@@ -1,0 +1,9 @@
+question: What is the purpose of the Merkle root in a Bitcoin block header?
+answer: To commit all transactions in the block
+wrong_answers:
+  - To calculate the block's proof of work
+  - To signal the block version
+  - To determine the block difficulty
+explanation: |
+  The Merkle root summarizes all transactions; if one changes, the root changes as well.
+reviewed: true

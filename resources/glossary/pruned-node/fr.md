@@ -1,5 +1,6 @@
 ---
-term: NOEUD ÉLAGUÉ
+term: Noeud élagué
+definition: Nœud complet supprimant les anciens blocs vérifiés pour économiser de l'espace de stockage.
 ---
 
 Nœud complet qui exécute un élagage de la blockchain. Cela consiste à supprimer de manière progressive les blocs les plus anciens, après les avoir dûment vérifiés, pour conserver seulement les blocs les plus récents. La limite de conservation est renseignée dans le fichier `bitcoin.conf` via le paramètre `prune=n`, ou `n` est la taille maximale prise par les blocs en mégaoctets (Mo). Si `0` est noté après ce paramètre, alors l’élagage est désactivé, et le nœud conserve la blockchain dans son intégralité.

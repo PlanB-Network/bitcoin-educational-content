@@ -1,5 +1,6 @@
 ---
-term: SIGOPS (OPERACJE PODPISU)
+term: Sigops (operacje podpisu)
+definition: Operacje podpisu cyfrowego niezbędne do walidacji transakcji Bitcoin.
 ---
 
 Odnosi się do operacji podpisu cyfrowego niezbędnych do walidacji transakcji. Każda transakcja Bitcoin może zawierać wiele danych wejściowych, z których każda może wymagać jednego lub więcej podpisów, aby została uznana za ważną. Weryfikacja tych podpisów odbywa się poprzez użycie określonych kodów operacyjnych zwanych "sigops". W szczególności obejmuje to `OP_CHECKSIG`, `OP_CHECKSIGVERIFY`, `OP_CHECKMULTISIG` i `OP_CHECKMULTISIGVERIFY`. Operacje te nakładają pewne obciążenie na węzły sieci, które muszą je zweryfikować. Aby zapobiec atakom DoS poprzez sztuczną inflację liczby sigops, protokół nakłada limit na liczbę sigops dozwolonych na blok, aby zapewnić, że obciążenie walidacyjne pozostaje zarządzalne dla węzłów. Limit ten wynosi obecnie maksymalnie 80 000 sygops na blok. Aby policzyć, węzły przestrzegają następujących zasad:

@@ -1,5 +1,6 @@
 ---
-term: 標籤
+term: 打標籤
+definition: 為 UTXO 分配註釋以方便資金管理和保護隱私的做法。
 ---
 
 為 Bitcoin Wallet 中的特定 UTXO 指定註釋或標籤的做法。例如，如果我有一個 UTXO 來自與 Charles 在 Bisq 上購買的 P2P，我可能會將其標籤為「`Non-KYC Bisq Charles`」。

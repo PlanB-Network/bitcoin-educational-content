@@ -1,0 +1,9 @@
+question: Jaki element jest najważniejszy w konkurencyjności wydobycia przemysłowego?
+answer: Koszt energii elektrycznej
+wrong_answers:
+  - Wysokość kosztów wynagrodzeń
+  - Jakość ergonomiczna infrastruktury
+  - Koszt licencji oprogramowania
+explanation: |
+  Na dużą skalę rentowność wydobycia zależy od kosztu jednostki obliczeniowej, który jest determinowany głównie przez koszt energii elektrycznej.
+reviewed: false

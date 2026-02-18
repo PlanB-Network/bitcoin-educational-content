@@ -1,0 +1,11 @@
+question: Ni kuki uburezi n’amakuru bifatwa nk’intwaro ikomeye kuruta izindi zo kurwanya amategeko ashobora guhagarika Bitcoin Mining?
+answer: Gutahura neza kandi neza Mining birashobora gufasha gukuraho amabanga y’ivyo bikorwa no kurwanya amakuru atari yo.
+wrong_answers:
+  - Kuko bishobora gufasha abacukuzi kuronka uburyo bwo kurenga amabwirizwa.
+  - Kuko bishobora gufasha kwemeza abagenzura ivy’amategeko guhindura ivyiyumviro vyabo.
+  - Kuko bishobora gufasha abacukuzi gutahura neza amabwirizwa.
+explanation: |
+  Inyigisho n'amakuru nizo ntwaro zifatwa nk'izikomeye mukurwanya amategeko ashobora guhagarika Bitcoin mining kubera 
+  ko ugutahura gutomoye ibijanye na mining, ingene ikora, n’ingaruka zayo bishobora gufasha gukuraho amakuru atariyo
+  ibi bishobora gutanga uburyo bwiza bwo kurwanya amabwirizwa ashobora gutera ingorane.
+reviewed: true

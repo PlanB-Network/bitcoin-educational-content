@@ -1,0 +1,9 @@
+question: Hvilket fenomen gjør forsinkelsen mellom to blokker fundamentalt variabel?
+answer: Den probabilistiske karakteren til hashing
+wrong_answers:
+  - Den deterministiske karakteren til hashing
+  - Den rekursive karakteren til hashing
+  - Den periodiske karakteren til hashing
+explanation: |
+  Hver hash er et uavhengig forsøk, noe som gjør oppdagelsestidene tilfeldige selv ved en konstant hashrate.
+reviewed: false

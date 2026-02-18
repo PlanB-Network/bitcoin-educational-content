@@ -1,5 +1,6 @@
 ---
-term: NEW YORK AGREEMENT (NYA)
+term: Njujorški sporazum (NYA)
+definition: Sastanak iz 2017. godine na kojem je predložen SegWit2x, od kojeg se na kraju odustalo zbog nedostatka konsenzusa.
 ---
 
 Privatni sastanak održan 2017. godine, okupio je više od 50 kompanija iz Bitcoin ekosistema, nakon konferencije Consensus 2017. Cilj ovog sastanka bio je da se okonča dugotrajna debata o skaliranju Bitcoin postizanjem dogovora. Ovaj sastanak je doveo do predloga SegWit2x, koji je inspirisan prethodnim predlogom SegWit2Mb. Planirane su dve glavne izmene Bitcoin protokola:

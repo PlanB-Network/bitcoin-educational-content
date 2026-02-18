@@ -1,0 +1,24 @@
+id: 82a81887-6737-44a4-94f2-61d950085269
+start_date: 2026-07-21 04:00:00
+end_date: 2026-07-24 03:59:59
+timezone: America/New_York
+address_city_country: Miami, Florida, USA
+address_line_2: Miami Airport Convention Center
+address_line_3:
+name: Mining Disrupt Miami 2026
+type: conference
+book_online: false
+book_in_person: false
+description: |
+  The world's largest Bitcoin mining expo, where hundreds of vendors, miners, energy partners, and service providers converge for three days of education, demos, and deal-making.
+language:
+  - en
+links:
+  website: https://miningdisrupt.com/
+  replay_url:
+  live_url:
+project_id: 56624e97-e1a8-460e-b727-e0aa4da94aa8
+tags:
+  - mining
+  - business
+  - innovation

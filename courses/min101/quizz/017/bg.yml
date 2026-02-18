@@ -1,0 +1,9 @@
+question: Кой стои зад концепцията за Bit Gold?
+answer: Nick Szabo
+wrong_answers:
+  - Satoshi Nakamoto
+  - Hal Finney
+  - Wei Dai
+explanation: |
+  Bit Gold е концептуален проект за система за електронни пари, предложен от Ник Сабо.
+reviewed: false

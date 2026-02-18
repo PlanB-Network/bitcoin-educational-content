@@ -1,0 +1,9 @@
+question: Amafaranga y'agashirukanyota (fees) ku kuremanya Bitcoin ni output?
+answer: Oya
+wrong_answers:
+  - Ego
+  - Ego, ariko ku buremanyi bwa SegWit gusa
+  - Oya, ariko niko vyari bimeze imbere ya 2012
+explanation: |
+  Amafaranga y'agashirukanyota ni itandukaniro riri hagati y'interuro yose y'ama inputs n'interuro yose y'ama outputs, si output yabigenewe. Niko vyamye bimeze kuva kera.
+reviewed: false

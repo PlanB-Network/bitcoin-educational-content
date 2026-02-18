@@ -1,5 +1,6 @@
 ---
-term: SEGWIT2X
+term: Segwit2x
+definition: Omstreden poging tot hard fork om de blokgrootte te verdubbelen, geannuleerd in november 2017.
 ---
 
 Een controversiële poging tot een Hard Fork gericht op het verdubbelen van de blokgroottelimiet op Bitcoin, terwijl SegWit werd geïntegreerd. SegWit2x werd geïntroduceerd tijdens de New York Agreement in 2017, een vertrouwelijke bijeenkomst van meer dan 50 bedrijven uit het ecosysteem die tot doel had een oplossing te vinden voor het schalen van het systeem. SegWit2x wilde de transactiecapaciteit van Bitcoin verhogen door de maximale blokgrootte te verhogen van de oorspronkelijke 1 MB naar 2 MB. De Hard Fork was gepland op blok 494.784, in november 2017.

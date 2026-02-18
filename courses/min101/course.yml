@@ -4,6 +4,8 @@ topic: mining
 
 subtopic: mining
 
+type: theory
+
 level: beginner
 
 hours: 5
@@ -14,14 +16,14 @@ professors_id:
 contributor_names:
   - LoicPandul
 
-published_at: 2026-01-19
-
-test_only: true
+published_at: 2026-02-17
 
 tags:
   - mining
   - user-friendly
   - onchain
+
+test_only: true
 
 # Proofreading metadata
 
@@ -33,4 +35,140 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0
+      - Rogzy-DB
+    reward: 7.68
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 15.36
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 22.98
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 22.98
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 15.36
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 15.36
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 22.98
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 22.98
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 22.98
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 38.24
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 30.61
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 15.36
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 38.24
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 30.61
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 22.98
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 22.98
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 22.98
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 15.36
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 38.24
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 22.98
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 30.61
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 15.36
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 22.98
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 30.61
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 30.61
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 38.24
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 30.61
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 30.61

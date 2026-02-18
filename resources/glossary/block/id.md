@@ -1,6 +1,7 @@
 ---
-term: BLOK
+term: Blok
 
+definition: Struktur data yang berisi transaksi yang divalidasi dan metadata, terhubung ke blok lain melalui hashing.
 ---
 Struktur data dalam sistem Bitcoin. Sebuah blok berisi sekumpulan transaksi yang valid dan metadata yang terkandung dalam headernya. Setiap blok terhubung dengan blok berikutnya dengan hash dari headernya, sehingga membentuk blockchain. Blockchain bertindak sebagai server penanda waktu yang memungkinkan setiap pengguna untuk mengetahui semua transaksi yang telah terjadi, untuk memverifikasi tidak adanya suatu transaksi dan mencegah terjadinya pembelanjaan ganda. Transaksi diatur dalam sebuah pohon Merkle. Akumulator kriptografi ini memungkinkan untuk membuat intisari dari semua transaksi dalam sebuah blok, yang disebut "akar Merkle" Header dari sebuah blok berisi 6 elemen:
 

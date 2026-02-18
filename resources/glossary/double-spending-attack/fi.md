@@ -1,6 +1,7 @@
 ---
-term: (HYÖKKÄYS)
+term: Kaksinkertainen kulutus
 
+definition: Hyökkäys, jossa yritetään käyttää samoja bitcoineja useita kertoja vastapuolten pettämiseksi.
 ---
 Hyökkäys, jossa pahantahtoinen käyttäjä yrittää käyttää samaa UTXO:ta (*Unspent Transaction Output*) useammin kuin kerran rikastuakseen transaktioihin osallistuvien osapuolten kustannuksella. Periaatteessa, kun transaktio on vahvistettu lohkossa ja lisätty lohkoketjuun, kyseisten bitcoinien käyttö kirjataan pysyvästi, mikä estää samojen bitcoinien käyttämisen uudelleen. Kaksinkertaisen käytön estäminen on jopa lohkoketjun ensisijainen hyöty.
 

@@ -1,6 +1,7 @@
 ---
-term: ATOMIVAHETUS
+term: Atomic swap
 
+definition: Krüptovaluutade vahetus kahe osapoole vahel ilma usaldusväärseta vahendajata, kus vahetus kas täielikult õnnestub või täielikult tühistatakse.
 ---
 Tehnoloogia, mis võimaldab krüptovaluutade otsevahetust kahe osapoole vahel, ilma et oleks vaja usaldust ja vahendajat. Neid vahetusi nimetatakse "aatomiks", sest nende tulemuseks võib olla ainult kaks tulemust:
 

@@ -1,9 +1,9 @@
-question: Was ist der Zweck der Verwendung eines Täuschungs-Wallets mit einer Passphrase?
+question: Was ist der Zweck der Verwendung einer Täuschungs-Wallets mit einer Passphrase?
 answer: Ein Wallet mit einem kleinen Betrag zu simulieren, im Falle physischer Nötigung
 wrong_answers:
   - Eine automatische Sicherung von Transaktionen hinzufügen
   - Eine zusätzliche mnemonische Phrase generieren
   - UTXOs vor einem Double-Spend schützen
 explanation: |
-  Ein Täuschungs-Wallet wird verwendet, um die Aufmerksamkeit eines Angreifers abzulenken, indem Zugang zu einem Wallet gewährt wird, das eine kleine Menge an Bitcoins enthält.
+  Eine Täuschungs-Wallet wird verwendet, um die Aufmerksamkeit eines Angreifers abzulenken, indem Zugang zu einer Wallet gewährt wird, die eine kleine Menge an Bitcoin enthält.
 reviewed: true

@@ -1,5 +1,6 @@
 ---
-term: DUAL FUNDING
+term: Dual funding
+definition: Methode, die es beiden Parteien ermöglicht, einen Lightning-Kanal bei dessen Eröffnung zu finanzieren.
 ---
 
 Wenn ein Lightning-Kanal eröffnet wird, ermöglicht die duale Finanzierung beiden Teilnehmern, Bitcoins in den Kanal zu sperren. Im Gegensatz zum traditionellen Modell, bei dem nur ein Knoten den Kanal finanziert, können bei dieser Methode beide Parteien den Kanal finanzieren, was einen sofortigen Liquiditätsausgleich ermöglicht.

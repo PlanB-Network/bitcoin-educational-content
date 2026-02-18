@@ -1,0 +1,9 @@
+question: Bei welcher Blockhöhe fand das vierte Halving statt?
+answer: 840.000
+wrong_answers:
+  - 880.000
+  - 860.000
+  - 900.000
+explanation: |
+  Das vierte Halving fand bei Blockhöhe 840.000 am 20. April 2024 statt.
+reviewed: false

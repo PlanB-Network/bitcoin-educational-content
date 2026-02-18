@@ -1,5 +1,6 @@
 ---
-term: エクレール
+term: Eclair
+definition: Acinqによって開発された、Scala言語によるLightning Networkプロトコルの実装。
 ---
 Scala言語で書かれたライトニング・ネットワーク・プロトコルの主要な実装。EclairはフランスのAcinq社によって開発された。
 

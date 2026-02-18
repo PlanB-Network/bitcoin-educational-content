@@ -1,12 +1,16 @@
 ---
-term: ANTAGANDE UTXO
+term: Assume utxo
+definition: En Bitcoin Core-parameter som möjliggör snabb synkronisering av en ny nod genom att använda en ögonblicksbild av UTXO-uppsättningen antagen giltiga, innan historikverifiering i bakgrunden.
 ---
+Konfigurationsparameter i majoritetsklienten Bitcoin Core som gör det möjligt för en nod som just har initierats (men som ännu inte har gjort IBD) att skjuta upp verifieringen av transaktioner och UTXO-setet före en viss snapshot. Konceptet bygger på användningen av ett UTXO-set (lista över alla befintliga UTXO:er vid en given tidpunkt) som tillhandahålls av Core och antas vara korrekt, vilket gör att noden kan synkroniseras mycket snabbt på kedjan med mest ackumulerat arbete. Eftersom noden hoppar över det långa IBD-steget blir den mycket snabbt funktionell för sin användare.
 
-En konfigurationsparameter i den ledande Bitcoin Core-klienten som gör det möjligt för en nod som just har initialiserats (men som ännu inte har genomgått IBD) att skjuta upp verifieringen av transaktioner och UTXO-uppsättningen till en given ögonblicksbild. Konceptet bygger på användningen av en UTXO-uppsättning (en lista över alla befintliga UTXO:er vid en viss tidpunkt) som tillhandahålls av Core och som antas vara korrekt, vilket gör att noden mycket snabbt kan synkroniseras med den kedja som har mest ackumulerat arbete. Eftersom noden hoppar över det långa IBD-steget blir den operativ för sin användare mycket snabbt. Anta att UTXO delar upp synkroniseringen (IBD) i två delar:
+Assume UTXO delar upp synkroniseringen (IBD) i två delar: Först utför noden Header First Sync (endast verifiering av huvuden) och betraktar det UTXO-set som tillhandahålls av Core som giltigt; Sedan, när den är funktionell, kommer noden att verifiera hela blockhistoriken i bakgrunden och uppdatera ett nytt UTXO-set som den själv har verifierat. Om det sistnämnda inte stämmer överens med det UTXO-set som tillhandahålls av Core kommer den att ge ett felmeddelande.
+
+Assume UTXO gör det alltså möjligt att påskynda förberedelsen av en ny Bitcoin-nod genom att skjuta upp verifieringsprocessen för transaktioner och UTXO-setet tack vare en uppdaterad snapshot som tillhandahålls i Core.
 
 
-- Först utför noden Header First Sync (verifiering av endast headers) och betraktar UTXO-uppsättningen som tillhandahålls av Core som giltig;
-- När noden sedan är i drift kommer den att verifiera hela blockhistoriken i bakgrunden och uppdatera en ny UTXO-uppsättning som den själv har verifierat. Om denna nya UTXO-uppsättning inte stämmer överens med den som tillhandahålls av Core, kommer den att producera ett felmeddelande.
 
 
-Antag därför att UTXO påskyndar förberedelsen av en ny Bitcoin-nod genom att skjuta upp transaktionsverifieringsprocessen och UTXO-uppsättningen genom en uppdaterad ögonblicksbild som tillhandahålls i Core.
+
+
+

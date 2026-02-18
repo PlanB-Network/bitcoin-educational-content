@@ -1,0 +1,9 @@
+question: Tuzo ya kitalu inajumuisha nini?
+answer: Ruzuku + ada
+wrong_answers:
+  - Ruzuku + ugumu
+  - Ada + nonce
+  - Hashrate + ada
+explanation: |
+  Tuzo hujumuisha ruzuku ya kitalu na ada zote za miamala iliyojumuishwa.
+reviewed: false

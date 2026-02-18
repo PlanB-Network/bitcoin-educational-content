@@ -1,5 +1,6 @@
 ---
 term: BIP0042
+definition: Igosorwa ry'ikosa ryashobora kurema iyiduga ry'ibiciro vya bitcoin inyuma ya halvings 64 (hafi yo mu 2214), ivyemeza urugero rwa miriyoni 21.
 ---
 
 Iciyumviro co kunoza Bitcoin core cakosoye akaga gatoyi mu rutonde rwa Block reward Halving. Iyo iyo nkoko itakosorwa, yari gutuma habaho amafaranga arenga miliyoni 21 z’ama bitcoins yari yateguwe.

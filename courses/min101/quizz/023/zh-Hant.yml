@@ -1,0 +1,9 @@
+question: 如果在最後一個週期內區塊被發現得太快，會發生什麼？
+answer: 目標值下降
+wrong_answers:
+  - 目標值上升
+  - 目標值保持不變
+  - 區塊大小增加
+explanation: |
+  區塊發現得太快表明算力較高，因此比特幣通過降低目標值來收緊條件。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Imbere yo gushirwa kuri blockchain, ivyakozwe (transactions) bishirwa mu ki?
+answer: Mw'ice (bloc)
+wrong_answers:
+  - Muri UTXO
+  - Muri ASIC
+  - Muri scriptSig
+explanation: |
+  Icakozwe nticandikwa uwo mwanya kuri blockchain. Kibanza gushirwa mw'ice (bloc).
+reviewed: false

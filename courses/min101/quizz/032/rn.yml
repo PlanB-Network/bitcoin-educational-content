@@ -1,0 +1,9 @@
+question: Block subsidy yari angahe igihe Bitcoin yatangura mu 2009?
+answer: 50 BTC
+wrong_answers:
+  - 25 BTC
+  - 12,5 BTC
+  - 100 BTC
+explanation: |
+  Subsidy ya mbere yari 50 BTC kuri block imwe, imbere y'uko igaburwa mu bice bikurikirana.
+reviewed: false

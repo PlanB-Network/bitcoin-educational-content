@@ -1,0 +1,9 @@
+question: Sumber daya apa yang perlu digunakan dalam penambangan Bitcoin?
+answer: Listrik
+wrong_answers:
+  - Air
+  - Batu permata
+  - Emas
+explanation: |
+  Penambangan adalah pekerjaan validasi yang mengonsumsi listrik melalui komputer.
+reviewed: false

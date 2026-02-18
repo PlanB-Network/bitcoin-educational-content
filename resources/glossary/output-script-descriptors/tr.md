@@ -1,5 +1,6 @@
 ---
-term: ÇIKTI KOMUT DOSYASI TANIMLAYICILARI
+term: Çıktı betiği tanımlayıcıları
+definition: Bir çıktı betiğini ve bir cüzdanı geri yüklemek için gereken bilgileri tanımlayan yapılandırılmış ifadeler.
 ---
 
 Çıktı komut dosyası tanımlayıcıları veya kısaca tanımlayıcılar, bir çıktı komut dosyasını (`scriptPubKey`) tam olarak tanımlayan ve belirli bir komut dosyasına veya komut dosyasından yapılan işlemleri izlemek için gerekli tüm bilgileri sağlayan yapılandırılmış ifadelerdir. Bu tanımlayıcılar, kullanılan adreslerin yapısı ve türlerinin standart bir açıklaması aracılığıyla HD cüzdanlarındaki anahtarların yönetimini kolaylaştırır.

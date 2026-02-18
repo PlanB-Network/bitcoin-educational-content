@@ -1,0 +1,9 @@
+question: Wat is een kandidaat-blok in Bitcoin?
+answer: Een blok dat is voorbereid door een miner, maar nog niet geldig is
+wrong_answers:
+  - Een blok dat is gevalideerd door het netwerk, maar nog niet is gedeeld
+  - Een blok dat is gemaakt door een wallet, maar nog niet geldig is
+  - Een blok dat is opgeslagen in de mempool
+explanation: |
+  Elke miner stelt lokaal een kandidaat-blok samen voordat hij probeert een geldige proof of work te vinden.
+reviewed: false

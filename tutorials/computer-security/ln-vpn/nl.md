@@ -10,7 +10,7 @@ description: Stel LN VPN in met Lightning voor een anonieme en op maat gemaakte 
 LN VPN is een aanpasbare VPN-service die alleen bliksembetalingen accepteert. Vandaag laat ik je zien hoe je het kunt gebruiken om minder sporen achter te laten tijdens het surfen op internet.
 
 
-Er zijn veel VPN-serviceproviders van goede kwaliteit en we hebben in dit artikel (hyperlink) een uitgebreide beoordeling uitgevoerd. LN VPN springt er echter uit, en we konden de kans niet voorbij laten gaan om het aan je voor te stellen.
+Er zijn veel VPN-serviceproviders van goede kwaliteit, maar LN VPN springt er uit, en we konden de kans niet voorbij laten gaan om het aan je voor te stellen.
 
 
 De meeste VPN-serviceproviders zoals ProtonVPN en Mullvad bieden de optie om met bitcoins te betalen, maar vereisen het aanmaken van een account en het kopen van een plan voor een langere of kortere termijn, wat misschien niet in ieders budget past.

@@ -1,0 +1,26 @@
+id: 4824d395-5bd7-4b02-992b-7dacda171777
+start_date: 2026-07-21 13:00:00
+end_date: 2026-07-23 22:00:00
+timezone: America/New_York
+address_city_country: Miami, United States
+address_line_2: 711 NW 72nd Ave, Miami, FL 33126, USA
+address_line_3: DoubleTree by Hilton Miami Airport & Convention Center
+name: Mining Disrupt 2026 Miami
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: |
+  Mining Disrupt Conference & Expo 2026 is the premier global event for Bitcoin mining, uniting innovators and enterprise-level blockchain solution experts. Experience an extensive range of exhibitors alongside an impressive lineup of keynote speeches and discussion panels featuring renowned speakers from around the world.
+  
+  Warning: information may change. Booking and up-to-date information are on SATLANTIS.
+language:
+  - en
+links:
+  website: https://bitcoinonly.events/mining-disrupt-2026-miami/
+  replay_url: 
+  live_url: 
+tags:
+  - mining
+  - adoption
+  - innovation

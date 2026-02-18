@@ -1,5 +1,6 @@
 ---
-term: PSEUDO-RANDOM
+term: Pseudowillekeurig
+definition: Reeks getallen die deterministisch is gegenereerd met eigenschappen die willekeur benaderen.
 ---
 
 Dit bijvoeglijk naamwoord wordt gebruikt om een getallenreeks te beschrijven die, hoewel het resultaat van een deterministisch proces, kenmerken vertoont die dicht in de buurt komen van die van een ideale echt willekeurige reeks. Het concept van ideale willekeurigheid impliceert een totale afwezigheid van voorspelbaarheid en correlatie tussen opeenvolgende Elements. Een pseudo-willekeurig getal wordt gegenereerd door een deterministisch algoritme en is daarom in theorie volledig voorspelbaar als men de begintoestand van de generator kent.

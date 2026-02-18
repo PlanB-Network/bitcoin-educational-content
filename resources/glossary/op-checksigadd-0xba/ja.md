@@ -1,6 +1,7 @@
 ---
-term: op_checksigadd (0xba)
+term: OP_CHECKSIGADD (0XBA)
 
+definition: 署名を検証し、有効な場合にカウンターをインクリメントするTapscriptオペコード。
 ---
 スタックから `public key`, `CScriptNum` `n`, `signature` の上位 3 つの値を取り出す。署名が空のベクトルではなく、有効なものでもない場合、スクリプトはエラーで終了する。署名が有効であるか、空のベクトル (`OP_0`) である場合、2 つのシナリオが提示される：
 

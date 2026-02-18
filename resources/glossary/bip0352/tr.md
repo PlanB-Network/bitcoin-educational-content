@@ -1,5 +1,6 @@
 ---
 term: BIP0352
+definition: Görünür adres yeniden kullanımı olmadan ödeme almak için statik adresleri kullanan bir yöntem olan Silent Payments.
 ---
 
 Josibake ve Ruben Somsen tarafından, Address yeniden kullanımı, etkileşimi ve farklı ödemeler arasında görünür bir On-Chain bağlantısı olmadan ödeme almak için statik Bitcoin adreslerini kullanma yöntemi olan Sessiz Ödemeleri tanıtan iyileştirme önerisi. Bu teknik, her işlem için yeni, kullanılmayan alıcı adresleri generate ihtiyacını ortadan kaldırır, böylece alıcının ödeyene yeni bir Address sağlaması gereken Bitcoin'teki olağan etkileşimlerden kaçınır.

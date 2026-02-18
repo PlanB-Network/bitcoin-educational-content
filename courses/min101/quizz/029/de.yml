@@ -1,0 +1,9 @@
+question: Woraus setzt sich die Block-Belohnung zusammen?
+answer: Subvention + Gebühren
+wrong_answers:
+  - Subvention + Schwierigkeit
+  - Gebühren + Nonce
+  - Hashrate + Gebühren
+explanation: |
+  Die Belohnung addiert die Block-Subvention und die Summe der Gebühren der enthaltenen Transaktionen.
+reviewed: false

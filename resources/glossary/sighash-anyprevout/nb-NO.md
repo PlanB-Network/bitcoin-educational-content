@@ -1,6 +1,7 @@
 ---
 term: SIGHASH_ANYPREVOUT
 
+definition: SigHash-forslag som gjør det mulig at signaturen ikke er bundet til en spesifikk UTXO.
 ---
 Forslag til implementering av en ny SigHash-flaggmodifikator i Bitcoin, introdusert med BIP118. `SIGHASH_ANYPREVOUT` gir større fleksibilitet i transaksjonshåndteringen, spesielt for avanserte applikasjoner som betalingskanaler på Lightning Network og Eltoo-oppdateringen. Med `SIGHASH_ANYPREVOUT` kan signaturen ikke knyttes til noen spesifikk tidligere UTXO (*Any Previous Output*). Brukt i kombinasjon med `SIGHASH_ALL`, vil den gjøre det mulig å signere alle utdataene i en transaksjon, men ingen av inndataene. Dette gjør det mulig å gjenbruke signaturen for forskjellige transaksjoner, så lenge visse spesifiserte betingelser er oppfylt.
 

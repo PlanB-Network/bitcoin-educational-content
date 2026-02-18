@@ -1,9 +1,9 @@
 question: Ni gute RGB itegura inzira kuri DEX Layer-2?
-answer: Mu gushoboza Exchange y'itunga rya off-chain biciye ku nzira z'umuravyo n'uguhinduranya atome
+answer: Mu gushoboza ihanahanwa y'itunga rya off-chain biciye kumihora ya Lightning n'uguhinduranya uduce dutoduto
 wrong_answers:
-  - Mu gushoboza gukoresha Exchange iri hagati ku bikorwa vyose vya RGB
-  - Mu gushoboza Exchange y'itunga biciye ku masezerano y'ubwenge ya On-Chain
-  - Mu gushoboza umutungo hagati ya Blockchain Exchange biciye mu guhinduranya atome
+  - Mu gushoboza gukoresha Ihanahanwa rifise aho ritwarirwa ku bikorwa vyose vya RGB
+  - Mu gushoboza guhanahana itunga biciye smart contracts y'ubwenge ya On-Chain
+  - Mu gushoboza umutungo hagati y'ihanahanwa rya Blockchain biciye mu guhinduranya uduce dutoduto
 explanation: |
-  Ubushobozi bwo gukora ibikorwa vyo guhindura atome n’uguhinduranya biciye ku nzira za Lightning buratanga ubushobozi bwo kurema DEXs zitandukanye, ata ngorane z’uguhinduranya On-Chain.
-reviewed: false
+  Ubushobozi bwo gukora ibikorwa vyo guhindura uduce dutoduto n’uguhinduranya biciye ku nzira za Lightning buratanga ubushobozi bwo gukora DEXs zitandukanye, ata ngorane z’uguhinduranya On-Chain.
+reviewed: true

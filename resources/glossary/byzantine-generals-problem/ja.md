@@ -1,5 +1,6 @@
 ---
 term: ビザンチン将軍問題
+definition: 参加者同士が信頼できない分散システムにおける、調整の難しさを示す問題。
 ---
 この問題は、レスリー・ランポート、ロバート・ショスタック、マーシャル・ピーズによって、1982年7月に専門誌*ACM Transactions on Programming Languages and Systems, vol 4, n° 3* ["The Byzantine Generals Problem"](https://lamport.azurewebsites.net/pubs/byz.pdf)で初めて定式化された。これは今日、分散システムがどのアクターも信頼できない場合の意思決定の課題を説明するために使われている。
 

@@ -1,5 +1,6 @@
 ---
-term: KÄYTTÖKELPOINEN KUORMA
+term: Hyötykuorma
+definition: Suuremman tietopaketin sisältämä olennainen tieto.
 ---
 
 Tietojenkäsittelyn yleisessä yhteydessä hyötykuorma on laajemman datapaketin sisältämä olennainen tieto. Esimerkiksi SegWit V0:ssa Bitcoin Address:n välityksellä hyötykuorma vastaa julkisen avaimen Hash:a ilman erilaisia metatietoja (HRP, erotin, SegWit versio ja tarkistussumma). Esimerkiksi Address:ssa `bc1qc2eukw7reasfcmrafevp5dhv8635yuqays50gj` on :

@@ -1,0 +1,9 @@
+question: Ni iyihe pool de minage ya mbere yashinzwe kuri Bitcoin?
+answer: Braiins Pool
+wrong_answers:
+  - Foundry USA
+  - AntPool
+  - F2Pool
+explanation: |
+  Braiins Pool, yahoze yitwa Slush Pool na Bitcoin CZ, niyo pool de minage ya mbere kuri Bitcoin, yashinzwe mu mwaka wa 2010.
+reviewed: false

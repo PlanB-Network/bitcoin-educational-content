@@ -1,0 +1,9 @@
+question: Dördüncü halving hangi blok yüksekliğinde gerçekleşti?
+answer: 840.000
+wrong_answers:
+  - 880.000
+  - 860.000
+  - 900.000
+explanation: |
+  Dördüncü halving, 20 Nisan 2024 tarihinde 840.000 yüksekliğinde gerçekleşti.
+reviewed: false

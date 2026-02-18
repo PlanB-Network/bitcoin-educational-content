@@ -1,0 +1,9 @@
+question: Bitcoin blok başlığındaki Merkle kökü (Merkle root) ne işe yarar?
+answer: Bloktaki tüm işlemleri taahhüt etmeye
+wrong_answers:
+  - Bloğun iş ispatını (proof of work) hesaplamaya
+  - Bloğun versiyonunu bildirmeye
+  - Bloğun zorluğunu bilmeye
+explanation: |
+  Merkle kökü tüm işlemleri özetler; bir işlem değişirse kök de değişir.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: DNS SEEDS
+term: Dns seeds
+definition: Serwery DNS dostarczające adresy IP aktywnych węzłów nowym węzłom dołączającym do sieci Bitcoin.
 ---
 
 Początkowe punkty połączenia dla nowych węzłów Bitcoin dołączających do sieci. Ziarna te, które są w rzeczywistości określonymi serwerami DNS, mają swoje Address na stałe osadzone w kodzie Bitcoin Core. Po uruchomieniu nowy węzeł kontaktuje się z tymi serwerami, aby uzyskać losową listę adresów IP przypuszczalnie aktywnych węzłów Bitcoin. Nowy węzeł może następnie nawiązać połączenia z węzłami na tej liście, aby uzyskać informacje potrzebne do wykonania początkowego pobrania bloku (IBD) i synchronizacji z łańcuchem, który ma najwięcej zgromadzonej pracy. Od 2024 r. znajduje się tutaj lista seedów Bitcoin Core DNS i osób odpowiedzialnych za ich utrzymanie (https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp):

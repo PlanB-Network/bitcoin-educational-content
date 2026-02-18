@@ -1820,7 +1820,7 @@ Kromě velké vzdělávací hodnoty umožňuje tento přístup sdílet mezi skup
 Níže je uveden postup setkání ve Francii v letech 2023-2024. Ke každému tématu je k dispozici prezentace s otevřeným zdrojovým kódem a video, které vám mohou poskytnout nápady na témata, jimiž byste se mohli zabývat na svých vlastních akcích.
 
 
-Další upravitelné materiály naleznete také v [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)!
+Další zdroje jsou také k dispozici v sekci ["Educator Content"](https://planb.academy/educator-content) na Plan ₿ Academy, což je společný prostor, kde vzdělávatelé Bitcoinu z celého světa sdílejí a poskytují své vzdělávací materiály (prezentace, letáky, průvodce, plakáty...) ve formátech připravených k použití nebo upravitelných. Cíl: sdružit úsilí, aby se nemuselo začínat od nuly pokaždé!
 
 
 

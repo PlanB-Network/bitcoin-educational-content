@@ -1,0 +1,9 @@
+question: Hvilken mekanisme utvider søkeområdet når 32-bit nonce er brukt opp?
+answer: Extra-nonce
+wrong_answers:
+  - Super-nonce
+  - Coinbase-nonce
+  - Double-nonce
+explanation: |
+  Ved å endre extra-nonce i coinbase scriptSig, endres Merkle-roten og dermed headeren.
+reviewed: false

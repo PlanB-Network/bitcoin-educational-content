@@ -1,6 +1,7 @@
 ---
-term: WALLET FOOTPRINT
+term: Dấu vết ví
 
+definition: Các đặc điểm nhận dạng quan sát được trong các giao dịch của một ví cho phép truy vết các hoạt động của nó.
 ---
 A set of distinctive characteristics observable in transactions made by the same Bitcoin wallet. These characteristics can include similarities in the use of script types, reuse of addresses, the order of UTXOs, the placement of change outputs, the signaling of RBF (*Replace-by-Fee*), the version number, the `nSequence` field, and the `nLockTime` field.
 

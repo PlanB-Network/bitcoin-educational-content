@@ -1,6 +1,7 @@
 ---
-term: ASSUNZIONE VALIDA
+term: Assume valid
 
+definition: Un parametro Bitcoin Core che consente di saltare la verifica della firma per i blocchi precedenti a un determinato punto, accelerando la sincronizzazione iniziale.
 ---
 Parametro di configurazione nel client maggioritario Bitcoin Core che consente a un nodo appena inizializzato (ma che non ha ancora eseguito l'IBD) di saltare la verifica delle firme per tutte le transazioni incluse nei blocchi precedenti a un determinato blocco. Questo famoso blocco è definito dall'impronta della sua intestazione, cioè il suo hash. Il blocco scelto viene rinnovato a ogni nuova versione di Bitcoin Core. Al momento dell'inizializzazione, se il nodo ha attivato questo parametro, controllerà la catena di intestazione dei blocchi per trovare il ramo con il maggior numero di lavori accumulati. Se il nodo rileva l'hash fornito da Core nel ramo scelto, ometterà la verifica delle firme per i blocchi precedenti. Altrimenti, il nodo procederà con una sincronizzazione tradizionale (IBD) per verificare tutto da solo.
 

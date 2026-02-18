@@ -1,0 +1,9 @@
+question: Čemu služi nonce u zaglavlju bloka?
+answer: Variranju zaglavlja za ponovni pokušaj
+wrong_answers:
+  - Povećanju veličine bloka
+  - Predstavljanju svih transakcija u bloku
+  - Ukazivanju na cilj težine
+explanation: |
+  Promena nonce-a menja ulaz heša i proizvodi potpuno drugačiji otisak. Ovo omogućava ponovni pokušaj pronalaženja validnog heša.
+reviewed: false

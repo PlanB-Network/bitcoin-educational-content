@@ -1,5 +1,6 @@
 ---
-term: BITCOIN (B MAJUSCULE)
+term: Bitcoin (b majuscule)
+definition: Système de cash électronique pair-à-pair désignant le protocole, le réseau ou le système dans son ensemble.
 ---
 
 Bitcoin est le nom du système de cash électronique pair-à-pair créé par Satoshi Nakamoto en 2009. L'utilisation du terme Bitcoin avec un « B » majuscule peut vouloir évoquer trois choses différentes :

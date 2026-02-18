@@ -1,5 +1,6 @@
 ---
-term: RECURSIVE (ANTLAŞMA)
+term: Özyinelemeli (covenant)
+definition: Mevcut işleme ve onu süresiz olarak takip eden tüm işlemlere koşullar dayatan covenant.
 ---
 
 Bitcoin üzerindeki özyinelemeli bir sözleşme, yalnızca mevcut işleme değil, aynı zamanda bu işlemin çıktılarını harcayan gelecekteki işlemlere de koşullar getiren bir Smart contract türüdür. Bu, her birinin zincirdeki ilk işlem tarafından tanımlanan belirli kurallara uyması gereken işlem zincirlerinin oluşturulmasına olanak tanır. Tekrarlanabilirlik, her birinin kısıtlamaları ana işleminden devraldığı bir dizi işlem oluşturur. Bu, bitcoinlerin nasıl harcanabileceği üzerinde karmaşık ve uzun vadeli bir kontrol sağlar, ancak aynı zamanda harcama özgürlüğü ve değiştirilebilirlikle ilgili riskleri de beraberinde getirir.

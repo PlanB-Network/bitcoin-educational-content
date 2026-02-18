@@ -1,9 +1,9 @@
-question: Warum ist es riskant, Entropie manuell für ein HD-Wallet zu generieren?
-answer: Es kann menschliche Schwächen oder vorhersehbare Verzerrungen einführen
+question: Warum ist es riskant, Entropie manuell für eine HD-Wallet zu generieren?
+answer: Es kann menschliche Schwächen oder vorhersehbare Verzerrungen einführen.
 wrong_answers:
-  - Es führt zu ungültigen öffentlichen Schlüsseln
-  - Es blockiert die Ableitung von privaten Schlüsseln
-  - Es begrenzt die Größe der generierten mnemonischen Phrasen
+  - Es führt zu ungültigen öffentlichen Schlüsseln.
+  - Es blockiert die Ableitung von privaten Schlüsseln.
+  - Es begrenzt die Größe der generierten mnemonischen Phrasen.
 explanation: |
   Das manuelle Generieren von Entropie kann Verzerrungen oder Fehler einführen, wodurch die Schlüssel anfälliger für Angriffe werden.
 reviewed: true

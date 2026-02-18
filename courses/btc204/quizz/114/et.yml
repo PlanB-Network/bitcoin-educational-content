@@ -1,4 +1,4 @@
-question: Miks analüütik ei rakenda COINJOINi Stonewall tüüpi tehingule?
+question: Miks analüütik ei rakenda CIOH-d Stonewall-tüüpi tehingule?
 
 answer: Kuna on 2 väljundit sama suurusega summadega
 
@@ -8,6 +8,7 @@ wrong_answers:
   - Kuna väljundeid on rohkem kui sisendeid
 
 explanation: |
-  Stonewall tehingu analüüsimine välisest vaatepunktist ei vii COINJOINi rakendamiseni, kuna kahe sama suurusega summa väljundite olemasolu viitab coinjoin mustrile. Välisest vaatepunktist ei ole COINJOIN seega selles konkreetses juhtumis rakendatav.
+
+  Stonewall-tehingu analüüsimine väljastpoolt ei vii CIOH rakendamiseni, kuna kahe sama summaga väljundi olemasolu viitab coinjoin mustri olemasolule. Välisest vaatenurgast ei ole CIOH seetõttu selles konkreetses juhtumis kohaldatav.
 
 reviewed: false

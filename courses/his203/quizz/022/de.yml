@@ -1,0 +1,11 @@
+question: Was war die wichtigste Finanzinnovation der Bitcoinica-Plattform, die im September 2011 von dem jungen chinesischen Unternehmer Zhou Tong ins Leben gerufen wurde?
+answer: Hebelwirkung und Leerverkäufe
+wrong_answers:
+  - Ausgabe von Aktien und Anleihen
+  - Das besicherte Zinsdarlehen
+  - Fast sofortiger Bargeldumtausch
+explanation: |
+ Bitcoinica war die erste Plattform im Ökosystem, die den Margenhandel anbot, was es den Kunden ermöglichte, ihre Gewinne (und Verluste) durch Hebelwirkung zu verstärken und
+ leerverkäufe zu tätigen, um auf einen fallenden Aktienkurs zu setzen. Nach ihrer Schließung wurde diese Art von Dienstleistung von der Plattform Bitfinex übernommen, die im Oktober 2012 eingeführt wurde und
+ auf demselben Quellcode basierte.
+reviewed: true

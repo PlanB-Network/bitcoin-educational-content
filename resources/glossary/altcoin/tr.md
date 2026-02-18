@@ -1,5 +1,6 @@
 ---
 term: Altcoin
+definition: Bitcoin dışında herhangi bir kripto para birimi anlamına gelir. Alternative ve coin kelimelerinin kısaltması.
 ---
 
-Bitcoin (BTC) dışındaki herhangi bir kripto para birimini ifade eder. "Altcoin" terimi "alternatif" ve "Coin" (alternatif Coin) kelimelerinin kısaltılmış halidir. Bazı Maximalist Bitcoin kullanıcıları altcoinlere atıfta bulunmak için "shitcoins" terimini de kullanmaktadır.
+Bitcoin (BTC) dışındaki tüm kripto para birimlerini ifade eder. "Altcoin" terimi, "alternative" ve "coin" kelimelerinin birleşimidir. Bazı Bitcoin maksimalistleri altcoinleri tanımlamak için "shitcoins" terimini de kullanır.

@@ -1,6 +1,7 @@
 ---
 term: OP_CHECKSIGADD (0XBA)
 
+definition: Opcode de Tapscript que verifica una firma e incrementa un contador si es válida.
 ---
 Extrae los tres valores superiores de la pila: una `clave pública`, un `CScriptNum` `n`, y una `firma`. Si la firma no es el vector vacío y no es válida, el script termina con un error. Si la firma es válida o es el vector vacío (`OP_0`), se presentan dos escenarios:
 

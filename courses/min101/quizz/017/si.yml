@@ -1,0 +1,9 @@
+question: Bit Gold සංකල්පය පිටුපස සිටින්නේ කවුද?
+answer: Nick Szabo
+wrong_answers:
+  - Satoshi Nakamoto
+  - Hal Finney
+  - Wei Dai
+explanation: |
+  Bit Gold යනු Nick Szabo විසින් යෝජනා කරන ලද විද්‍යුත් මුදල් පද්ධතියක සංකල්පීය ව්‍යාපෘතියකි.
+reviewed: false

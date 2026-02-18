@@ -1,0 +1,9 @@
+question: Ukubwa wa nonce katika kichwa cha bloku ni upi?
+answer: Biti 32
+wrong_answers:
+  - Biti 128
+  - Biti 64
+  - Biti 256
+explanation: |
+  Nonce ni sehemu ya biti 32 katika kichwa cha bloku.
+reviewed: false

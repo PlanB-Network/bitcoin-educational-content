@@ -1,0 +1,9 @@
+question: Ai là người khởi xướng khái niệm Bit Gold?
+answer: Nick Szabo
+wrong_answers:
+  - Satoshi Nakamoto
+  - Hal Finney
+  - Wei Dai
+explanation: |
+  Bit Gold là một dự án khái niệm về hệ thống tiền điện tử do Nick Szabo đề xuất.
+reviewed: false

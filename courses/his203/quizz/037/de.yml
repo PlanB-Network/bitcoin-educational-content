@@ -1,0 +1,11 @@
+question: Wie heißt die grafische Oberfläche, die Wladimir van der Laan 2011 für die Hauptsoftware entwickelt hat?
+answer: Bitcoin-Qt
+wrong_answers:
+  - wxWindows-Bitcoin
+  - bitcoind
+  - Bitcoin Kern
+explanation: |
+ Bitcoin-Qt war eine komplette Überarbeitung der grafischen Oberfläche von Bitcoin. Sie wurde ab Juni 2011 entwickelt und in der Version 0.5 in die Hauptsoftware integriert,
+ die am 21. November veröffentlicht wurde. Sie basiert auf dem Qt-Grafik-Framework und ersetzte die ursprünglich von Satoshi verwendete wxWindows-Bibliothek. Metonymisch wurde die Software fortan als
+ Bitcoin-Qt genannt.
+reviewed: true

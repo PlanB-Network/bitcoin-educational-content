@@ -1,6 +1,7 @@
 ---
-term: DOBBELTUTGIFTER (ANGREP)
+term: Dobbeltbruk
 
+definition: Angrep som forsøker å bruke de samme bitcoinene flere ganger for å svindle motparter.
 ---
 Et angrep der en ondsinnet bruker forsøker å bruke samme UTXO (*Unspent Transaction Output*) mer enn én gang for å berike seg selv på bekostning av partene som er involvert i transaksjonene. Når en transaksjon er bekreftet i en blokk og lagt til i blokkjeden, er bruken av disse bitcoinsene i prinsippet permanent registrert, noe som forhindrer videre bruk av de samme bitcoinsene. Å forhindre dobbeltbruk er til og med blokkjedens primære nytteverdi.
 

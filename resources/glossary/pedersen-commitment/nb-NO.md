@@ -1,5 +1,6 @@
 ---
-term: Pedersen commitment
+term: Pedersen-forpliktelse
+definition: Homomorfisk kryptografisk forpliktelse som tillater verifisering av summer uten å avsløre verdier.
 ---
 
 En Pedersen commitment er en type kryptografisk Commitment med den egenskapen at den er homomorfisk i forhold til addisjonsoperasjonen. Dette betyr at det er mulig å validere summen av to forpliktelser uten å avsløre de individuelle verdiene.

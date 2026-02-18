@@ -1,5 +1,6 @@
 ---
-term: VÄLK TEENUSEPAKKUJA
+term: Lightning service provider
+definition: Ettevõte, mis pakub likviidsusteenuseid Lightning Networki kasutajatele.
 ---
 
 Lightningil tegutsev ettevõte, mille äritegevus on pakkuda kasutajatele likviidsusteenuseid.

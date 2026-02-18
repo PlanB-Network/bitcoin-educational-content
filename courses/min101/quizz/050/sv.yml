@@ -1,0 +1,9 @@
+question: När blir transaktionerna i ett block bekräftade?
+answer: När blocket läggs till i blockchain
+wrong_answers:
+  - När transaktionen signeras av minern
+  - När transaktionen sprids av noden
+  - När minern börjar leta efter beviset
+explanation: |
+  Bekräftelsen av en betalning på Bitcoin är konsekvensen av att blocket som innehåller den läggs till i blockchain.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: GUSUBIZA
+term: Urwego
+definition: Protocol yubakiye kuri Bitcoin kugira ngo yongere ubushobozi bwayo, nka Lightning Network.
 ---
 
 Protocole canke urubuga rwubatswe hejuru y’urubuga nyamukuru rwa Bitcoin. Ikoresha urubuga rwa Bitcoin nk’umushinge rero ruvana n’umurongo wayo. Ariko rero, urusobe rwa Bitcoin ntiruvana n’ivyo rushizeko. Akarorero k'ivyo bipfutse ni Lightning Network.

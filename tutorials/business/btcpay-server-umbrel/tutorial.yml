@@ -22,11 +22,12 @@ license: CC-BY-SA-V4
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2025-10-21
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
       - Pivii
-    reward: 1.03
+      - therancedognon-max
+    reward: 0
   - language: cs
     last_contribution_date:
     urgency: 1

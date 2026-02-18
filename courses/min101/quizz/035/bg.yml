@@ -1,0 +1,9 @@
+question: След SegWit, къде се ангажира резюмето на свидетелите на блока?
+answer: В изход (output) на coinbase
+wrong_answers:
+  - В scriptSig на coinbase
+  - В полето version
+  - В таксите на coinbase
+explanation: |
+  SegWit използва ангажимент, вписан в coinbase чрез OP_RETURN изход.
+reviewed: false

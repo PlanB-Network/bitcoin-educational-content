@@ -1,5 +1,6 @@
 ---
 term: HTLC
+definition: Amasezerano ya kigihanga (smart contract) asaba kwerekana ibanga mu gihe runaka kugira ngo ihererekanya ribe.
 ---
 
 Bihagarariye "*Igihe c'Igihe Contract*". Ubu ni uburyo bwa Smart contract bukoreshwa cane cane ku Muravyo. Rimwe na rimwe kandi riboneka mu guhinduranya atome. Mu bisanzwe, HTLC ituma amahera yoherezwa bishingiye ku guhishurirwa kw’ibanga, kandi ikaba irimwo n’igihe co kurinda amahera y’uwayohereje iyo habaye ugucuruzwa kwananiwe.

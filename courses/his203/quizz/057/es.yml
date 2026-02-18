@@ -1,0 +1,11 @@
+question: ¿Qué acontecimiento del 15 de abril de 2011 fue apodado "Viernes Negro" por los jugadores de póquer?
+answer: El FBI cierra las principales plataformas de póquer en línea de EE.UU. por eludir la UIGEA
+wrong_answers:
+  - La oferta de algunos sitios de póquer en línea ofrecía importantes promociones en las comisiones de rake y buy-in
+  - Un grave fallo en el software de póquer en línea permitió desviar fondos para comprar joyas y pelotas de golf
+  - El jugador aficionado Chris Moneymaker ha ganado el torneo principal del Campeonato del Mundo de Póquer tras entrenar en línea
+explanation: |
+ Se les acusaba de hacerse pasar por comerciantes convencionales para que sus bancos validaran las transferencias entrantes, prohibidas por la Unlawful Internet Gambling
+ De 2006. Este cierre fue desastroso para la industria del póquer en línea. Impulsó la creación de varias plataformas de póquer con bitcoin, ya que la
+ criptomoneda no estaba sujeta a las mismas restricciones.
+reviewed: true

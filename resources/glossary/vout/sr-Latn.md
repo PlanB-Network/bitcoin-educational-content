@@ -1,5 +1,6 @@
 ---
 term: VOUT
+definition: Element Bitcoin transakcije koji određuje odredište sredstava sa vrednošću i skriptom za zaključavanje.
 ---
 
 Specifičan element Bitcoin transakcije koji određuje odredište poslatih sredstava. Transakcija može uključivati više izlaza, od kojih je svaki jedinstveno identifikovan kombinacijom identifikatora transakcije (`txid`) i indeksa nazvanog `vout`. Ovaj indeks, počevši od `0`, označava poziciju izlaza u nizu izlaza transakcije. Dakle, prvi izlaz će biti označen sa `"vout": 0`, drugi sa `"vout": 1`, i tako dalje.

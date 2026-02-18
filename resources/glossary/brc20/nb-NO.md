@@ -1,5 +1,6 @@
 ---
 term: BRC-20
 
+definition: Token-standard på Bitcoin basert på Ordinals-inskripsjoner, som bruker JSON-funksjoner.
 ---
 En standard som muliggjør interaksjon med ikke-innfødte tokens på Bitcoin, basert på Ordinals-protokollens inskripsjoner. Denne eksperimentelle standarden ble opprettet av Domo i mars 2023, og har utløst betydelig spekulativ interesse, noe som førte til en historisk økning i transaksjonsgebyrene i april og mai 2023. BRC-20-tokens bruker Bitcoin til å lagre og tidsstemple JSON-funksjoner som administrerer disse eiendelene. Funksjonene er `deploy` (opprettelse av token), `mint` (tokenutstedelse) og `transfer` (tokenoverføring). For å kunne utføre denne protokollen må enkeltpersoner vedlikeholde servere som katalogiserer alle funksjonene. BRC-20-standarden er dermed en svært ineffektiv bruk av Bitcoin sammenlignet med andre protokoller for opprettelse av tokener, for eksempel RGB.

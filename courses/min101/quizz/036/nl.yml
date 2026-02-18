@@ -1,0 +1,9 @@
+question: Na hoeveel bevestigingen worden de outputs van een coinbase besteedbaar?
+answer: 101 bevestigingen
+wrong_answers:
+  - 6 bevestigingen
+  - 201 bevestigingen
+  - 210 bevestigingen
+explanation: |
+  De maturiteitsperiode is 100 blokken, dus er zijn 101 bevestigingen nodig om deze UTXO's besteedbaar te maken.
+reviewed: false

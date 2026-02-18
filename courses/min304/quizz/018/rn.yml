@@ -1,0 +1,11 @@
+question: Ni ingingo ngenderwako iyihe ya Attakai mu bijanye na Bitcoin mining?
+answer: Ingingo ya Attakai yerekeza ku gukoresha neza ubushuhe buva mu kugira Bitcoin mining.
+wrong_answers:
+  - Ingingo ya Attakai yerekeza ku gukoresha inkomoko z’inguvu zishobora gusubirwamwo ku Bitcoin mining.
+  - Ingingo ya Attakai yerekeza ku gukoresha uburyo bwo gukonjesha buteye imbere muri Bitcoin mining.
+  - Ingingo ya Attakai yerekeza ku gukoresha ibikoresho bikoresha inguvu nke muri Bitcoin mining.
+explanation: |
+  Ingingo ngenderwako ya Attakai yerekeza ku ciyumviro c’uko kwegereza mining biciye mu gukoresha neza
+  ubushuhe bwavuyemwo. Ico ciyumviro kivuga ko ibigo bikoresha inguvu cane vyoshobora kwungukira ku bushuhe buva 
+  kuri miners kugira ngo bashushe aho hantu habo.
+reviewed: true

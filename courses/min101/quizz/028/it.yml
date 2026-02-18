@@ -1,0 +1,9 @@
+question: A cosa corrisponde il sussidio di blocco?
+answer: Creazione monetaria
+wrong_answers:
+  - Commissioni delle transazioni
+  - Deposito degli utenti
+  - Penale per lo spam
+explanation: |
+  Il sussidio è la parte della ricompensa que crea nuovi bitcoin ex nihilo secondo le regole del protocollo.
+reviewed: false

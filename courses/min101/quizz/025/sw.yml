@@ -1,0 +1,9 @@
+question: Je, ada za muamala wa Bitcoin ni output?
+answer: Hapana
+wrong_answers:
+  - Ndiyo
+  - Ndiyo, lakini kwa miamala ya SegWit pekee
+  - Hapana, lakini ilikuwa hivyo kabla ya 2012
+explanation: |
+  Ada ni tofauti kati ya jumla ya inputs na jumla ya outputs, si output maalum. Hivyo ndivyo imekuwa tangu mwanzo.
+reviewed: false

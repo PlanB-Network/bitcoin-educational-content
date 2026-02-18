@@ -1,0 +1,9 @@
+question: Kuhusu mempool, ni kauli ipi iliyo sahihi?
+answer: Kila node ina mempool yake yenyewe
+wrong_answers:
+  - Kuna mempool moja pekee ya kipekee
+  - Mempool ni faili iliyo ndani ya kila bloku
+  - Mempool ni seva kuu
+explanation: |
+  Mempool ni ya ndani kwa kila node, kwa hivyo yaliyomo yanaweza kutofautiana kutoka node moja hadi nyingine kulingana na sheria ambazo kila mmoja anatumia.
+reviewed: false

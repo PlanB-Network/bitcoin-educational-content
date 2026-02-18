@@ -1,5 +1,6 @@
 ---
-term: KYC (MENYA UMUKIRIYA WAWE)
+term: KYC (know your customer)
+definition: Uburyo bw'amategeko bwo kwemeza umuntu bukoreshwa n'ibigo bimwe na bimwe vya Bitcoin.
 ---
 
 Uburyo bwo gutegeka bukoreshwa n’amashirahamwe amwe amwe akorera kuri Bitcoin kugira ngo asuzume akaranga k’abaguzi bayo nk’igice c’urugamba rwo kurwanya ugukoresha nabi amahera n’ugufasha iterabwoba. KYC ni ugukusanya no kugenzura amakuru y’umuntu ku giti ciwe. Mu bijanye no kugura ama bitcoins, KYC iratera ingorane nyinshi uwuyikoresha, harimwo:

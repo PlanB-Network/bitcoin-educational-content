@@ -1,5 +1,6 @@
 ---
-term: BLIKSEMAFLEIDER
+term: Lightning service provider
+definition: Bedrijf dat liquiditeitsdiensten levert aan gebruikers van het Lightning Network.
 ---
 
 Onderneming die actief is op Lightning en liquiditeitsdiensten verleent aan gebruikers.

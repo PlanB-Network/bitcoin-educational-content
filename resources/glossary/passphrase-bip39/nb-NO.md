@@ -1,5 +1,6 @@
 ---
-term: PASSORDFRASE (BIP39)
+term: Passfrase (BIP39)
+definition: Valgfritt passord lagt til gjenopprettingsfrasen for å sikre en HD-lommebok.
 ---
 Et valgfritt passord som, når det kombineres med gjenopprettingsfrasen, gir et ekstra sikkerhetslag for deterministiske og hierarkiske Bitcoin-lommebøker. HD-lommebøker genereres vanligvis fra en gjenopprettingsfrase som består av 12 eller 24 ord. Gjenopprettingsfrasen er svært viktig, ettersom den gjør det mulig å gjenopprette alle nøklene i en lommebok i tilfelle tap. Den utgjør imidlertid et enkelt feilpunkt (SPOF). Hvis den kompromitteres, er bitcoinsene i fare. Det er her passordfrasen kommer inn i bildet. Det er et valgfritt passord, valgt av brukeren, som legges til gjenopprettingsfrasen for å forbedre lommebokens sikkerhet. Passordfrasen må ikke forveksles med en PIN-kode eller et vanlig passord, men spiller en rolle i utledningen av kryptografiske nøkler.
 

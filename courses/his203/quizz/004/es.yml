@@ -1,0 +1,10 @@
+question: ¿En qué medio online se publicó el artículo de Adrian Chen que dio a conocer Silk Road el 1 de junio de 2011?
+answer: Gawker
+wrong_answers:
+  - Gizmodo
+  - Slashdot
+  - Hackernews
+explanation: |
+ Gawker.com era un influyente blog en el que multitud de autores publicaban artículos a veces polémicos. Se declaró en quiebra en 2016, tras una demanda de
+ Hulk Hogan y Peter Thiel.
+reviewed: true

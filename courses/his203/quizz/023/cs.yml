@@ -1,0 +1,11 @@
+question: Kdo v dubnu 2011 vytvořil online burzu GLBSE, platformu, která umožnila hráčům v ekosystému Bitcoin vydávat finanční cenné papíry, jako jsou akcie nebo dluhopisy, aby se mohli financovat?
+answer: James McCarthy (Nefario)
+wrong_answers:
+  - Charlie Shrem (Yankee)
+  - Mircea Popescu (MPOE-PR)
+  - Nathaniel Theis (Cuddlefish)
+explanation: |
+ James McCarthy (Nefario) byl Ir žijící v Číně, který působil jako profesor angličtiny na univerzitě. Zajímal se o rakouskou školu
+ a myšlenkami Cypherpunk. V dubnu 2011 založil společnost GLBSE, která svým zákazníkům nabízela nejrůznější finanční služby, mj. možnost
+ vydávání akcií a dluhopisů.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ni kipengele gani muhimu zaidi katika ushindani wa uchimbaji wa viwandani?
+answer: Gharama ya umeme
+wrong_answers:
+  - Kiasi cha gharama za mishahara
+  - Ubora wa miundombinu
+  - Gharama ya leseni za programu
+explanation: |
+  Kwa kiwango kikubwa, faida ya uchimbaji inategemea gharama kwa kila kitengo cha hesabu, ambayo huamuliwa hasa na gharama ya umeme.
+reviewed: false

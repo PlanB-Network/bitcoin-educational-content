@@ -1,5 +1,6 @@
 ---
-term: SIGHASH FLAGGA
+term: Sighash-flagga
+definition: Parameter som bestämmer vilka komponenter i en transaktion som täcks av signaturen.
 ---
 
 En parameter i en Bitcoin-transaktion som avgör vilka komponenter i en transaktion (inmatningar och utmatningar) som omfattas av den associerade signaturen och därmed blir oföränderliga. SigHash Flag är en byte som läggs till den digitala signaturen för varje inmatning. Valet av SigHash-flagga påverkar därför direkt vilka delar av transaktionen som fryses av signaturen och vilka som fortfarande kan ändras i efterhand. Denna mekanism säkerställer att signaturer på ett exakt och säkert sätt binder transaktionsdata i enlighet med undertecknarens avsikt. Det finns tre huvudsakliga SigHash-flaggor:

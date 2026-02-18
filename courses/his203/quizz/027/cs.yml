@@ -1,0 +1,11 @@
+question: Jaký problém vyřešil deterministický koncept wallet, který v červnu 2011 formalizoval vývojář Gregory Maxwell?
+answer: Potřeba pravidelného zálohování soukromých klíčů pro zabezpečení bitcoinů
+wrong_answers:
+  - Riziko pirátství spojené s ukládáním bitcoinů v zařízení připojeném k internetu
+  - Zranitelnost vůči útokům hrubou silou kvůli nízké entropii generátorů náhodných čísel
+  - Nemožnost opakovaného použití účtu v jiném zařízení
+explanation: |
+ Deterministické wallet používají odvozování klíčů: namísto toho, aby byly generated odvozovány jednotlivě náhodně, jak tomu bylo v hlavním softwaru, jsou soukromé klíče odvozovány
+ deterministicky z informací (nazývaných seed) pomocí kryptografických funkcí. Tato metoda byla použita v softwaru BitcoinSpinner a Electrum
+ wallet na konci roku 2011.
+reviewed: true

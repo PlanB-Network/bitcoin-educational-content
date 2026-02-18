@@ -1,0 +1,9 @@
+question: Ni ryari ivyakozwe (transactions) mw'ice (bloc) biba vyemejwe?
+answer: Igihe ico gice gishizwe kuri blockchain
+wrong_answers:
+  - Igihe ico gikorwa gishizweko igikumu n'umucukuzi
+  - Igihe ico gikorwa gikwiragijwe n'inode
+  - Igihe umucukuzi atanguye kurondera ikimenyetso (preuve)
+explanation: |
+  Kwemeza akazi muri Bitcoin biva ku gushira ico gice kirimwo ako kazi kuri blockchain.
+reviewed: false

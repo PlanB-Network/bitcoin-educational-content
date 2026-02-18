@@ -1,6 +1,7 @@
 ---
-term: DERIVASI
+term: Derivasi
 
+definition: Proses menghasilkan kunci turunan dari sepasang kunci induk dalam dompet HD.
 ---
 Mengacu pada proses pembuatan pasangan kunci anak dari pasangan kunci induk (kunci pribadi dan kunci publik) dan sebuah kode rantai dalam sebuah dompet deterministik dan hirarkis (HD _wallet_). Proses ini memungkinkan untuk segmentasi cabang dan pengorganisasian sebuah dompet ke dalam level yang berbeda dengan banyak pasangan kunci anak, yang mana semuanya dapat dipulihkan hanya dengan mengetahui informasi pemulihan dasar (frasa mnemonik dan kata sandi potensial). Untuk mendapatkan kunci anak, fungsi `HMAC-SHA512` digunakan dengan kode rantai induk dan penggabungan kunci induk dan indeks 32-bit. Ada dua jenis turunan:
 

@@ -1,7 +1,8 @@
 ---
-term: CASHU
+term: Cashu
 
+definition: 在比特币和 Lightning 上运行的开源 Chaumian ecash 协议，用于隐私支付。
 ---
 一种用于 Chaumian 数字货币的开源协议，类似于 David Chaum 的电子现金系统，但在比特币和闪电网络上运行。具体来说，Cashu 的受到了来源于 David Wagner 于 1996 年提出的一种名为 “不含 RSA 的超微电子现金”版本的启发。Cashu 可以用于托管钱包，这样服务器就无法识别资金所有者或交易细节，从而提高了私密性。用户可以生成 Cashu 代币来换取比特币，服务器会在不知道用户身份的情况下签名这些代币。然后，这些代币就可以在用户之间即时、私密地转移，而且不收取任何费用。
 
-![](../../dictionnaire/assets/52.webp)
+

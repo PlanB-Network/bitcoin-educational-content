@@ -1,0 +1,10 @@
+question: Welcher einflussreiche Wirtschaftswissenschaftler kritisierte im September 2011 die Bitcoin für ihre rigide, deflationäre Geldpolitik?
+answer: Paul Krugman
+wrong_answers:
+  - Yánis Varoufákis
+  - Alan Greenspan
+  - Barry Eichengreen
+explanation: |
+ Paul Krugman ist ein neokeynesianischer Wirtschaftswissenschaftler und Träger des Wirtschaftsnobelpreises 2008. In einem Artikel mit dem Titel "Golden Cyberfetters", veröffentlicht auf der Website der New York
+ Times-Website am 7. September 2011 veröffentlicht wurde, argumentierte er, dass das "private Goldstandardmodell" von Bitcoin zu dessen Untergang als Tauschmittel führen wird.
+reviewed: true

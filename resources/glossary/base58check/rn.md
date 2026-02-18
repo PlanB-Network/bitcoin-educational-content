@@ -1,6 +1,7 @@
 ---
-term: BASE58CHECK
+term: Base58check
 
+definition: Uburyo bwo kwandika bukoreshwa ku ma aderesi ya Bitcoin Legacy, bukoresha inyuguti 58 zitandukanye neza n'uburyo bwo gusuzuma amakosa mu kwinjiza ivyanditswe.
 ---
 
 `Base58Check` ni ubuhinga bwo gushiramwo amakuru bukoreshwa muri sisitemu ya Bitcoin kugira ngo bugaragaze aderesi zakira Legacy n'ayandi makuru amwamwe, nk'imfunguruzo zagutse, mu buryo bw'imirongo y'inyuguti isomwa n'umuntu. Ni uburyo butandukanye bw'uburyo bwa `Base58`, ubuserukira bw'aho base 58 bugenewe kugabanya amakosa y'abantu yo kwandika. Ikoresha urutonde rw'inyuguti 58 z'inyuguti n'imibare, zigizwe n'imibare kuva kuri `1` gushika kuri `9`, inyuguti nini kuva kuri `A` gushika kuri `Z` (hatarimwo inyuguti `I` na `O` kugira ngo ntizivyivangane n'imibare le `1` na `0`), n'inyuguti nto kuva kuri `c the`lu `l` kugira ngo ntimuvyivangane n'umubare `1`). `Ishingiro58Igenzura` ritandukanye na `Ishingiro58` mu kwongerako umubare w'igenzura. Igereranywa n'uburyo bugabanutse bw'amakuru y'umwimerere (`SHA256d` canke `HASH256`), ku mpera y'amakuru yashizwe muri `Base58`. Igihe umuntu asuzuma, umubare w’ibintu bigenzurwa urasubirwamwo maze ukagereranywa n’uwo wongereweko mu gihe co gushiramwo amakuru. Iyo izo hashes zibiri zihuye, amakuru afatwa ko ari meza; ahandi ho, hariho ugusesagura canke ikosa ryo kwandika.

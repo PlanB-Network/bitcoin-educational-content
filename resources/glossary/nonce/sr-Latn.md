@@ -1,5 +1,6 @@
 ---
-term: Nonce
+term: Nons
+definition: Broj koji se koristi samo jednom, koji rudari menjaju kako bi pronašli važeći heš bloka.
 ---
 
 U kontekstu računarstva, termin "Nonce" odnosi se na broj koji se koristi samo jednom, a zatim zamenjuje. Često je nasumičan ili pseudo-nasumičan. Nonce se koriste u raznim kriptografskim protokolima kako bi se osigurala sigurnost procesa. Na primer, ECDSA potpisi korišćeni unutar Bitcoin protokola uključuju upotrebu Nonce. To znači da ovaj broj mora biti nov za svaki potpis. Ako to nije slučaj, moguće je izračunati privatni ključ korišćenjem poređenja dva potpisa koja koriste isti Nonce.

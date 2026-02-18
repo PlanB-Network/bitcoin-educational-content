@@ -1,9 +1,9 @@
-question: Was ist der Unterschied zwischen einem normalen Kinderschlüssel und einem gehärteten Kinderschlüssel?
-answer: Ein gehärteter Kinderschlüssel benötigt den privaten Schlüssel des Elternteils für seine Ableitung.
+question: Was ist der Unterschied zwischen einem normalen untergeordneten Schlüssel und einem gehärteten untergeordneten Schlüssel?
+answer: Ein gehärteter untergeordneter Schlüssel benötigt den privaten Schlüssel des Elternteils für seine Ableitung.
 wrong_answers:
-  - Ein normaler Kinderschlüssel kann nicht von öffentlichen Schlüsseln abgeleitet werden.
-  - Ein gehärteter Kinderschlüssel verwendet einen ungeraden Index.
-  - Ein normaler Kinderschlüssel ist sicherer als ein gehärteter Kinderschlüssel.
+  - Ein normaler untergeordneter Schlüssel kann nicht von öffentlichen Schlüsseln abgeleitet werden.
+  - Ein gehärteter untergeordneter Schlüssel verwendet einen ungeraden Index.
+  - Ein normaler untergeordneter Schlüssel ist sicherer als ein gehärteter untergeordneter Schlüssel
 explanation: |
-  Ein normaler Kinderschlüssel kann vom öffentlichen Schlüssel des Elternteils abgeleitet werden, im Gegensatz zu einem gehärteten Kinderschlüssel, der den privaten Schlüssel des Elternteils benötigt.
+  Ein normaler untergeordneter Schlüssel kann vom öffentlichen übergeordneten Schlüssel abgeleitet werden, im Gegensatz zu einem gehärteten untergeordneter Schlüssel, der den privaten übergeordneten Schlüssel benötigt.
 reviewed: true

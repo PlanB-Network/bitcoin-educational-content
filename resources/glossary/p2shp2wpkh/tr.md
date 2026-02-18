@@ -1,5 +1,6 @@
 ---
 term: P2SH-P2WPKH
+definition: Uyumluluk için P2SH içine sarılmış SegWit betiği (P2WPKH), adresler 3 ile başlar.
 ---
 
 P2SH-P2WPKH, *Pay to Script Hash - Pay to Witness Public Key Hash* anlamına gelmektedir. "İç İçe SegWit" olarak da bilinen UTXO üzerinde harcama koşulları oluşturmak için kullanılan standart bir senaryo modelidir.

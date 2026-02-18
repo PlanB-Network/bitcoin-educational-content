@@ -1,5 +1,6 @@
 ---
-term: PERCOLATIE
+term: Percolatie
+definition: Model dat de verspreiding van informatie via het netwerk van Bitcoin-nodes beschrijft.
 ---
 
 Verwijst naar een model dat helpt om de verspreiding van informatie (transacties en blokken) over het Bitcoin knooppuntennetwerk te begrijpen. Percolatietheorie is oorspronkelijk een wiskundig en natuurkundig model dat de beweging en filtratie van vloeistoffen door poreuze materialen bestudeert. Het analyseert hoe, voorbij een bepaalde drempel, een verbonden netwerk de vloeistof continu door het materiaal laat stromen. Dit kan worden toegepast op computernetwerken om te zien hoe informatie zich verspreidt door de knooppunten te beschouwen als sites die actief of inactief kunnen zijn. In Bitcoin spelen knooppunten dus de rol van poriën in de percolatietheorie. Elk actief knooppunt ontvangt en verzendt informatie naar andere knooppunten, die de verzending voortzetten of blokkeren. De verspreiding van bepaalde soorten transacties kan worden geanalyseerd in termen van percolatiedrempels, waarbij een bepaald percentage actieve knooppunten nodig is om een Miner te bereiken die het in een blok opneemt. Deze theorie biedt een raamwerk om te beoordelen hoe veranderingen in het netwerk, zoals de wijziging van standaardisatieregels door sommige knooppunten, het cascaderingsmechanisme van de verspreiding van transacties om een Miner te bereiken beïnvloeden.

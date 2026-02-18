@@ -1,0 +1,9 @@
+question: Sehemu ya nbits katika kichwa cha bloku (block header) inalingana na nini?
+answer: Lengo la ugumu lililofichwa (encoded)
+wrong_answers:
+  - Ukubwa wa bloku katika baiti
+  - Idadi ya miamala katika bloku
+  - Muhuri wa muda wa bloku
+explanation: |
+  Sehemu ya nbits inaficha lengo la ugumu linalotumika.
+reviewed: false

@@ -1,6 +1,7 @@
 ---
 term: OP_CHECKSEQUENCEVERIFY (0XB2)
 
+definition: Opcode yang membebankan batasan waktu relatif pada pengeluaran UTXO.
 ---
 Sebuah _opcode_ yang membuat transaksi menjadi tidak valid jika salah satu dari karakteristik ini diamati:
 

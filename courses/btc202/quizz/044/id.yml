@@ -1,5 +1,5 @@
 question: Teknologi apa yang digunakan Umbrel untuk mengisolasi dan mengelola aplikasinya?
-answer: Wadah docker
+answer: Wadah Docker
 wrong_answers:
   - Mesin virtual VirtualBox
   - Skrip Bash

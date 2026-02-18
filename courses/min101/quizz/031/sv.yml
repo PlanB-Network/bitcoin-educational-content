@@ -1,0 +1,9 @@
+question: Vilken är den sista halveringen enligt protokollet?
+answer: Den 33:e
+wrong_answers:
+  - Den 21:a
+  - Den 38:e
+  - Den 64:e
+explanation: |
+  Den 33:e halveringen, vid höjd 6 930 000, kommer att avsluta blocksubventionen eftersom den kommer att falla under minimienheten.
+reviewed: false

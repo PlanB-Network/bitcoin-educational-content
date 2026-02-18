@@ -1,8 +1,9 @@
 ---
 term: ASIC
+definition: Wyspecjalizowany układ scalony przeznaczony do obliczania haszów SHA256 dla górnictwa Bitcoin, oferujący efektywność energetyczną znacznie lepszą niż CPU i GPU.
 ---
 
-ASIC to komponent elektroniczny zaprojektowany do wykonywania określonej funkcji z optymalną wydajnością. W kontekście Bitcoin Mining, ASIC są wyspecjalizowanymi układami scalonymi, które wykonują szybkie, niskoenergetyczne operacje Hash. Specjalizują się one w wykonywaniu funkcji `SHA256` Hash używanej w mechanizmie Proof-of-Work. Początkowo ASIC odnosi się do nazwy układu scalonego. W związku z tym akronim "ASIC" często odnosi się również do maszyny, w której znajduje się ten chip. W ten sposób wyspecjalizowane komputery w Bitcoin Mining są czasami nazywane "ASIC" lub "górnikami" Układy ASIC stopniowo zastąpiły inne metody Mining, takie jak wykorzystanie procesorów (CPU) i kart graficznych (GPU), ze względu na ich wyższą wydajność energetyczną i znacznie wyższą szybkość Hash.
+ASIC to komponent elektroniczny zaprojektowany do wykonywania określonej funkcji z optymalną wydajnością. W kontekście kopania Bitcoina ASIC to wyspecjalizowane układy scalone, które wykonują operacje haszowania z dużą prędkością i niskim zużyciem energii. Są one wyspecjalizowane w wykonywaniu funkcji haszującej `SHA256` wykorzystywanej w mechanizmie proof-of-work. Początkowo ASIC oznacza nazwę układu. W szerszym znaczeniu akronim "ASIC" jest często używany również do określenia maszyny, która zawiera ten układ. W ten sposób komputery wyspecjalizowane w kopaniu Bitcoina są czasami nazywane "ASIC" lub "górnikami". ASIC stopniowo zastąpiły inne metody kopania, takie jak użycie procesorów (CPU) na początku istnienia Bitcoina, a następnie kart graficznych (GPU), ze względu na ich wyższą efektywność energetyczną i znacznie wyższy hashrate.
 
 
-> *Skrót "ASIC" oznacza "układ scalony specyficzny dla aplikacji"* W języku francuskim termin ten można przetłumaczyć jako "układ scalony do konkretnego zastosowania"
+Akronim „*ASIC*” oznacza w języku angielskim „*Application-Specific Integrated Circuit*”.

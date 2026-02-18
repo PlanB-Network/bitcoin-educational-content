@@ -1,0 +1,9 @@
+question: ブロック補助金は何に対応しますか？
+answer: 通貨発行
+wrong_answers:
+  - トランザクション手数料
+  - ユーザーのデポジット
+  - スパムのペナルティ
+explanation: |
+  補助金は、プロトコルのルールに従って、無から（ex nihilo）新しいビットコインを作成する報酬の一部です。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Om de hoeveel blokken wordt de moeilijkheidsgraad aangepast?
+answer: 2016 blokken
+wrong_answers:
+  - 2000 blokken
+  - 2100 blokken
+  - 4096 blokken
+explanation: |
+  De aanpassing vindt elke 2016 blokken plaats, wat ongeveer twee weken is bij 10 minuten per blok.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: KONTROLA NOVČIĆA
+term: Coin control
+definition: Funkcija koja omogućava ručni odabir UTXO-a koji će se koristiti kao ulazi za transakciju.
 ---
 
 Funkcija pronađena u nekim Bitcoin Wallet softverima koja korisnicima daje mogućnost da ručno odaberu specifične UTXO-ove (nepotrošeni izlazi transakcija) za korišćenje kao ulaze za obavljanje transakcije. Drugim rečima, kontrola novčića nudi mogućnost preciznog odabira koji delovi bitkoina će biti potrošeni. Ova funkcionalnost je slična akciji odabira specifičnog novčića iz vašeg Wallet za plaćanje bageta.

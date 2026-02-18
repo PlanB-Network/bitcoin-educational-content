@@ -1,0 +1,9 @@
+question: Phí giao dịch Bitcoin có phải là một đầu ra (output) không?
+answer: Không
+wrong_answers:
+  - Có
+  - Có, nhưng chỉ đối với các giao dịch SegWit
+  - Không, nhưng đó là trường hợp trước năm 2012
+explanation: |
+  Phí là phần chênh lệch giữa tổng đầu vào (inputs) và tổng đầu ra (outputs), không phải là một đầu ra riêng biệt. Điều này luôn luôn như vậy.
+reviewed: false

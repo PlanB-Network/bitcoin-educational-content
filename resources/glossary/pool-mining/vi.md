@@ -1,5 +1,6 @@
 ---
-term: BỂ BƠI (Mining)
+term: Nhóm đào (Mining)
+definition: Nhóm các nhà khai thác kết hợp sức mạnh tính toán của họ để cùng nhau tìm thấy các khối.
 ---
 
 Chỉ một nhóm thợ đào hợp tác bằng cách kết hợp sức mạnh tính toán của họ để tham gia tìm kiếm bằng chứng công việc hợp lệ trên Bitcoin. Việc gộp chung này thành một tổ chức duy nhất là giải pháp cho độ khó ngày càng tăng của Bitcoin Mining, khiến cho một Miner riêng lẻ khó có thể cạnh tranh và kiếm được phần thưởng một cách ổn định. Thợ đào trong Mining pool đóng góp bằng máy móc của họ để tìm kiếm các phần hợp lệ. Khi một khối được nhóm khai thác, phần thưởng - bao gồm bitcoin mới tạo cũng như phí giao dịch có trong khối - được phân phối giữa các thành viên nhóm theo phương thức trả công đã chọn. Sự phân phối này tỷ lệ thuận với sức mạnh tính toán mà mỗi Miner đã đóng góp.

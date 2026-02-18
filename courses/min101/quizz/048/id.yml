@@ -1,0 +1,9 @@
+question: Apa pool penambangan pertama di Bitcoin?
+answer: Braiins Pool
+wrong_answers:
+  - Foundry USA
+  - AntPool
+  - F2Pool
+explanation: |
+  Braiins Pool, sebelumnya Slush Pool dan Bitcoin CZ, adalah pool penambangan pertama di Bitcoin, yang didirikan pada tahun 2010.
+reviewed: false

@@ -1,0 +1,26 @@
+id: a921437d-cf40-4f97-a5ab-a0c3d5fc7493
+start_date: 2026-02-21 11:00:00
+end_date: 2026-02-21 12:00:00
+timezone: America/Asuncion
+address_city_country: Asunción, Paraguay
+address_line_2: Ñu Guasu - ACCESO 1
+address_line_3: 
+name: Caminata ₿itcoin Paraguay 2026
+type: meetup
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: |
+  A Bitcoin community walk returning this Saturday at Ñu Guasu park in Paraguay. The event is open to everyone interested in joining the local Bitcoin community for a morning fitness session. Participants will meet at 8:00 AM at the specific ACCESO 1 entrance and begin walking at 8:15 AM sharp.
+  
+  Warning: information may change. Booking and up-to-date information are on SATLANTIS.
+language:
+  - es
+  - en
+links:
+  website: https://www.satlantis.io/events/1712/Caminata-%E2%82%BFitcoin-Paraguay
+  replay_url: 
+  live_url: 
+tags:
+  - adoption
+  - good-practice

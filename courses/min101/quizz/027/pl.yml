@@ -1,0 +1,9 @@
+question: Jak oblicza się opłaty transakcyjne?
+answer: Wejścia minus wyjścia
+wrong_answers:
+  - Wyjścia minus wejścia
+  - Wejścia plus wyjścia
+  - Wyjścia podzielone przez wejścia
+explanation: |
+  Opłaty odpowiadają wartości zużytej w wejściach, która nie zostaje odtworzona w wyjściach.
+reviewed: false

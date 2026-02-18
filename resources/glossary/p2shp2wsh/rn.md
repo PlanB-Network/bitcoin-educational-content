@@ -1,5 +1,6 @@
 ---
 term: P2SH-P2WSH
+definition: Script ya SegWit (P2WSH) ifunze muri P2SH kubera ukwemerana, aderesi zitangura na 3.
 ---
 
 P2SH-P2WSH bisobanura *Ishura Inyandiko Hash - Ishura Icabona Inyandiko Hash*. Ni urugero rw'inyandiko rusanzwe rukoreshwa mu gushinga ivyangombwa vyo gukoresha kuri UTXO, izwi kandi nka "Nested SegWit".

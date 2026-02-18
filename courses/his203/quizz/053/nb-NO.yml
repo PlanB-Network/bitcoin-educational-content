@@ -1,0 +1,11 @@
+question: Hva het den privat-til-privat valutatjenesten som Jeremias Kangas og broren hans lanserte i juni 2012?
+answer: LocalBitcoins
+wrong_answers:
+  - BTC NÆR MEG
+  - BitInstant
+  - Coinabul
+explanation: |
+ Dette var en matchmaking-plattform, som ble lansert 7. juni. I løpet av sommeren integrerte LocalBitcoins et escrow-system, der bitcoins kunne holdes
+ plattformen kunne oppbevare bitcoins midlertidig og frigjøre dem via SMS for betaling til kjøperen. Dette muliggjorde spesielt ansikt-til-ansikt-bytter, der selgeren ville
+ selgeren frigjorde bitcoinsene så snart pengene var mottatt.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Enligt idén sammanfattad av Satoshi, vad är det enda sättet att säkerställa frånvaron av dubbelspendering (double-spending)?
+answer: Att känna till alla transaktioner
+wrong_answers:
+  - Att känna till alla aktiva noder
+  - Att känna till alla aktiva miners
+  - Att känna till alla privata nycklar
+explanation: |
+  Dubbelspendering upptäcks genom att jämföra en transaktion med tidigare spenderingar registrerade i en delad huvudbok.
+reviewed: false

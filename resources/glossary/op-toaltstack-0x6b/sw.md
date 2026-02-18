@@ -1,5 +1,6 @@
 ---
-term: OP_TOALSTACK (0X6B)
+term: OP_TOALTSTACK (0X6B)
+definition: Opcode inayohamisha sehemu ya juu ya stack kuu kwenda kwenye stack mbadala.
 ---
 
 Huchukua sehemu ya juu ya safu kuu (*bunda kuu*) na kuisogeza hadi kwenye safu mbadala (*alt stack*). Opcode hii inatumika kuhifadhi data kando kwa muda kwa matumizi ya baadaye kwenye hati. Kipengee kilichosogezwa kwa hivyo huondolewa kutoka kwa safu kuu. `OP_FROMALTSTACK` kisha itatumika kuirejesha juu ya rafu kuu.

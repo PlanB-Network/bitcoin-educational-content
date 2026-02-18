@@ -1,6 +1,7 @@
 ---
-term: STANDARD DI TRANSAZIONE
+term: Transazione standard
 
+definition: Transazione che rispetta sia le regole di consenso che le regole di standardizzazione predefinite dei nodi Bitcoin Core.
 ---
 Una transazione Bitcoin che, oltre a rispettare le regole di consenso, rientra anche nelle regole di standardizzazione impostate di default sui nodi Bitcoin Core. Queste regole di standardizzazione sono imposte individualmente da ciascun nodo Bitcoin, oltre alle regole di consenso, per definire la struttura delle transazioni non confermate che accetta nella sua mempool e trasmette ai suoi pari.
 

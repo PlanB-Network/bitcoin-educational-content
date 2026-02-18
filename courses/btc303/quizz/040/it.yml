@@ -1,9 +1,9 @@
-question: In base alla discussione del capitolo sulla compatibilità Bitcoin, che tipo di compatibilità offre un fork morbido?
-answer: Compatibilità sia in avanti che all'indietro, per cui è completamente compatibile con il sistema
+question: In base alla discussione del capitolo sulla compatibilità di Bitcoin, che tipo di compatibilità offre un soft fork?
+answer: Compatibilità sia futura che passata, per cui è completamente compatibile con il sistema
 wrong_answers:
-  - Solo compatibilità all'indietro, consentendo al nuovo software di elaborare i vecchi dati
-  - Solo compatibilità con il futuro, consentendo al vecchio software di elaborare i nuovi dati
+  - Solo retrocompatibilità, consentendo al nuovo software di elaborare i vecchi dati
+  - Solo compatibilità futura, consentendo al vecchio software di elaborare i nuovi dati
   - Non è compatibile né con il futuro né con il passato e richiede aggiornamenti completi del sistema
 explanation: |
-  Il capitolo afferma chiaramente che "Una modifica alle regole di consenso del Bitcoin è detta soft fork se è pienamente compatibile" La definizione di piena compatibilità è quella di compatibilità sia in avanti che all'indietro. Compatibilità in avanti significa che il vecchio software può elaborare i dati delle nuove versioni ignorando le parti che non capisce, mentre compatibilità all'indietro significa che il nuovo software può elaborare i vecchi dati. Questa doppia compatibilità è ciò che rende i soft fork il meccanismo di aggiornamento preferito per Bitcoin, in quanto non rompono i sistemi esistenti pur consentendo nuove funzionalità.
-reviewed: false
+  Il capitolo afferma chiaramente che "Una modifica alle regole di consenso di Bitcoin è detta soft fork se è pienamente compatibile" La definizione di piena compatibilità è quella di compatibilità sia futura che nel passato. Compatibilità futura significa che il vecchio software può elaborare i dati delle nuove versioni ignorando le parti che non capisce, mentre retrocompatibilità significa che il nuovo software può elaborare i vecchi dati. Questa doppia compatibilità è ciò che rende i soft fork il meccanismo di aggiornamento preferito per Bitcoin, in quanto non rompono i sistemi esistenti pur consentendo nuove funzionalità.
+reviewed: true

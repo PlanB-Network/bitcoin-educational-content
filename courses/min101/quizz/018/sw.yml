@@ -1,0 +1,9 @@
+question: Ni tatizo gani hasa ambalo Hashcash ilikuwa ikijaribu kupunguza?
+answer: Barua pepe taka (spam)
+wrong_answers:
+  - Matumizi maradufu
+  - Ulaghai wa DNS (phishing)
+  - Wizi wa funguo binafsi
+explanation: |
+  Hashcash inaweka gharama ya kimahesabu kwa kila ujumbe ili kufanya utumaji mwingi wa barua pepe usilete faida.
+reviewed: false

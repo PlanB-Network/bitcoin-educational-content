@@ -1,0 +1,9 @@
+question: कौन सा Bitcoin Core पैरामीटर डिफ़ॉल्ट न्यूनतम रिले दहलीज (relay threshold) निर्धारित करता है?
+answer: minRelayTxFee
+wrong_answers:
+  - minConfirmTxFee
+  - relayTxWeight
+  - mempoolMinBits
+explanation: |
+  नोड स्थानीय नीतियां लागू करते हैं और Bitcoin Core न्यूनतम रिले दहलीज के लिए minRelayTxFee पैरामीटर का उपयोग करता है।
+reviewed: false

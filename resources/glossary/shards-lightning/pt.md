@@ -1,5 +1,6 @@
 ---
-term: ESTILHAÇOS (RELÂMPAGO)
+term: Shards (lightning)
+definition: Fração de um pagamento roteada separadamente por diferentes rotas Lightning (MPP/AMP).
 ---
 
 No contexto de *Pagamentos de vários caminhos (MPP)* ou *Pagamentos de vários caminhos atômicos (AMP)*, um Shard é uma fração de um pagamento global. Cada Shard representa uma parte do pagamento total, que é encaminhado separadamente através de uma rota diferente no Lightning.

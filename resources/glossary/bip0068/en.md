@@ -1,5 +1,6 @@
 ---
 term: BIP0068
+definition: Introduction of relative timelocks via the nSequence field, allowing a transaction to be blocked for a period after the parent transaction is confirmed.
 ---
 
 BIP68 introduced the ability to use relative lock-times via the `nSequence` field. 

@@ -1,0 +1,9 @@
+question: Zorluk hedefi her kaç blokta bir ayarlanır?
+answer: 2016 blok
+wrong_answers:
+  - 2000 blok
+  - 2100 blok
+  - 4096 blok
+explanation: |
+  Ayarlama her 2016 blokta bir yapılır, bu da blok başına 10 dakikadan yaklaşık iki haftaya tekabül eder.
+reviewed: false

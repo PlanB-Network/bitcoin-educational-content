@@ -1,5 +1,6 @@
 ---
 term: HTLC
+definition: Smart contract conditioning a transfer on the revelation of a secret within a time limit.
 ---
 
 Stands for "*Hashed Timelock Contract*". This is a smart contract mechanism mainly used on Lightning. It is also sometimes found in atomic swaps. Basically, HTLC makes a money transfer conditional on the revelation of a secret, and also includes a time condition to protect the sender's money in the event of a failed transaction.

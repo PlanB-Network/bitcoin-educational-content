@@ -1820,7 +1820,7 @@ I tillegg til den sterke pedagogiske verdien gjør denne tilnærmingen det mulig
 Nedenfor ser du progresjonen for de franske møtene i 2023-2024. For hvert tema finnes det en åpen kildekode-presentasjon og en video, som kan gi deg ideer til temaer du kan ta opp på dine egne arrangementer.
 
 
-Du finner også mer redigerbart materiale i [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)!
+Andre ressurser er også tilgjengelige i seksjonen ["Educator Content"](https://planb.academy/educator-content) på Plan ₿ Academy, et samarbeidsområde hvor Bitcoin-utdannere fra hele verden deler og gjør tilgjengelig sine undervisningsmateriell (presentasjoner, flygeblader, guider, plakater...) i klare til bruk eller redigerbare formater. Målet: samle krefter for ikke å begynne på nytt hver gang!
 
 
 

@@ -1,0 +1,9 @@
+question: Mitä algoritmia Bitcoin ASIC on erityisesti suunniteltu suorittamaan?
+answer: SHA256d
+wrong_answers:
+  - SHA512d
+  - SHA1
+  - SHA512
+explanation: |
+  Bitcoin ASIC -laitteet on erikoistunut kaksinkertaiseen SHA256-algoritmiin, jota Bitcoinin työntodiste (proof-of-work) käyttää.
+reviewed: false

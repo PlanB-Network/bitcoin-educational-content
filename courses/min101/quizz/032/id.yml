@@ -1,0 +1,9 @@
+question: Berapakah jumlah subsidi blok pada saat peluncuran Bitcoin pada tahun 2009?
+answer: 50 BTC
+wrong_answers:
+  - 25 BTC
+  - 12,5 BTC
+  - 100 BTC
+explanation: |
+  Subsidi awal adalah 50 BTC per blok, sebelum pembagian berturut-turut.
+reviewed: false

@@ -1,9 +1,9 @@
-question: None nokora iki na Invoice mu kwimurira RGB?
-answer: Erekana ubwoko bw’ugucuruza, umubare w’ibintu bisabwa be n’igitabu ca Seal Definition c’uwuronka.
+question: Nigiki nshobora gukora hamwe na fagitire mwirungika rya RGB ?
+answer: Erekana ubwoko bw’ihanahanwa, igitigiri c'umutungo ukenewe hamwe ninsiguro ya Serire yakira.
 wrong_answers:
-  - Rema Genesis nshasha y'umutungo
-  - generate Schema nshasha yo guhindura Business Logic y’umutungo.
-  - Kubaka PSBT kugira ngo isubirire igikorwa ca Bitcoin
+  - Gukora Itanguriro nshasha y'umutungo
+  - Gukora igicapo gishasha muguhindura uko ishoramari ry'umutungo rimeze.
+  - Kwubaka PSBT kugira ngo ihanahanwa rya Bitcoin risubirizwe
 explanation: |
-  Invoice ikoreshwa mu kumenyesha uwuyitanga ivy’ugucuruza ubwoko bw’igikorwa, ubwinshi bw’itunga rizokwimurirwa n’aho rizoja (Seal Definition).
-reviewed: false
+  Fagitire ikoreshwa mu kumenyesha uwuyitanga ivy’ihanahanwa ryubwoko ry'ibikorwa, igitigiri c'imitungo ikenewe kurungikwa hamwe n'aho ishikira(Insiguro ya Serire).
+reviewed: true

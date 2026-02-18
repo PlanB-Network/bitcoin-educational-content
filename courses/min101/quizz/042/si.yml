@@ -1,0 +1,9 @@
+question: ASIC යන්නෙන් අදහස් කරන්නේ කුමක්ද?
+answer: Application-Specific Integrated Circuits
+wrong_answers:
+  - Advanced Secure Integrated Circuit
+  - Automated Silicon Integrated Circuit
+  - Application-Shared Integrated Circuit
+explanation: |
+  ASIC යනු එක් කාර්යයක් සඳහා පමණක් නිර්මාණය කරන ලද චිපයකි. එබැවින් එය Application-Specific Integrated Circuits වේ.
+reviewed: false

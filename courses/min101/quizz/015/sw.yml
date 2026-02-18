@@ -1,0 +1,9 @@
+question: Hashcash ilipendekezwa mwaka gani?
+answer: 1997
+wrong_answers:
+  - 1993
+  - 2004
+  - 1995
+explanation: |
+  Hashcash ilitangazwa kwa mara ya kwanza mnamo Machi 1997.
+reviewed: false

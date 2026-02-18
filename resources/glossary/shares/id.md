@@ -1,6 +1,7 @@
 ---
-term: SHARE
+term: Share
 
+definition: Indikator yang mengukur kontribusi penambang individu dalam kolam penambangan.
 ---
 Dalam konteks _pool_ penambangan, _share_ adalah indikator yang digunakan untuk mengukur kontribusi penambang individu di dalam _pool_. Ukuran ini berfungsi sebagai dasar untuk menghitung _reward_ yang didistribusikan oleh _pool_ kepada setiap penambang. Setiap _share_ berhubungan dengan _hash_ yang memenuhi target kesulitan yang lebih rendah dari jaringan Bitcoin.
 
@@ -13,7 +14,7 @@ Untuk setiap _hash_ yang dihitung, seorang penambang individu dalam sebuah _pool
 - Jika _hash_ lebih rendah dari target tingkat kesulitan pada bagian tersebut, tetapi lebih besar atau sama dengan target tingkat kesulitan Bitcoin, maka _hash_ ini merupakan _share_ yang valid, namun tidak cukup untuk memvalidasi blok. Penambang dapat mengirimkan _hash_ ini ke _pool_ mereka untuk mengklaim reward yang terkait dengan _share_ tersebut: `share > hash > block`.
 - Jika _hash_ lebih rendah dari target kesulitan jaringan Bitcoin, maka dianggap sebagai _share_ yang valid dan blok yang valid. Penambang mengirimkan _hash_ ini ke _pool_ mereka, yang kemudian segera mempublikasikannya di jaringan Bitcoin. _Hash_ ini juga dihitung sebagai _share_ yang valid untuk penambang: `share > blok > hash`.
 
-![](../../dictionnaire/assets/32.webp)
+
 
 Sistem pembagian ini digunakan untuk memperkirakan pekerjaan yang dilakukan oleh setiap penambang dalam _pool_, tanpa harus menghitung ulang semua _hash_ yang dihasilkan oleh penambang secara individual, yang mana hal ini akan sangat tidak efisien untuk _pool_.
 

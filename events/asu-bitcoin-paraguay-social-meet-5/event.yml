@@ -1,0 +1,25 @@
+id: 26e5a538-091a-4822-a558-3e01c32c010a
+start_date: 2026-02-21 21:00:00
+end_date: 2026-02-22 01:00:00
+timezone: America/Asuncion
+address_city_country: Fernando de la Mora, Paraguay
+address_line_2: "The Hop: Craft Beer House"
+address_line_3: 10 de Julio casi, Fernando de la Mora 110308, Paraguay
+name: "ASU: Bitcoin Paraguay Social Meet #5"
+type: meetup
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: |
+  Join the Bitcoin Paraguay Community for a social event tailored for expats and English-speaking Paraguayans. This relaxed meetup features no presentations or workshops—just great company, cold drinks, and networking with fellow Bitcoin enthusiasts. Photography and videography are strictly prohibited without prior consent.
+  
+  Warning: information may change. Booking and up-to-date information are on SATLANTIS.
+language:
+  - en
+links:
+  website: https://www.satlantis.io/events/1317/ASU%3A-Bitcoin-Paraguay-Social-Meet-%235
+  replay_url: 
+  live_url: 
+tags:
+  - adoption
+  - use-case

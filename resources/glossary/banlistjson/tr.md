@@ -1,5 +1,6 @@
 ---
-term: BANLIST.JSON
+term: Banlist.json
+definition: Düğümün bağlantı kurmayı reddettiği yasaklı düğümlerin IP adreslerini içeren Bitcoin Core dosyası.
 ---
 
 Kullanıcı tarafından yasaklanan düğümlerin IP adreslerini kaydetmek için Bitcoin core yazılımı tarafından kullanılan dosyanın adı. Bu dosya, düğümün bağlanmayacağı yasaklı düğümlerin bir listesini içerir. Bu özellik, potansiyel olarak zararlı veya kötü niyetli düğümlerle etkileşimleri önlemeye yardımcı olur.

@@ -1,0 +1,9 @@
+question: Menurut ide yang dirangkum oleh Satoshi, apa satu-satunya cara untuk memastikan tidak adanya pengeluaran ganda (double-spending)?
+answer: Mengetahui semua transaksi
+wrong_answers:
+  - Mengetahui semua node yang aktif
+  - Mengetahui semua penambang yang aktif
+  - Mengetahui semua kunci pribadi
+explanation: |
+  Pengeluaran ganda dideteksi dengan membandingkan suatu transaksi dengan pengeluaran masa lalu yang tercatat dalam buku besar bersama.
+reviewed: false

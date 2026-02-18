@@ -1,5 +1,6 @@
 ---
-term: FRAIS DE TRANSACTION
+term: Frais de transaction
+definition: Somme rémunérant les mineurs pour inclure une transaction dans un bloc, calculée comme la différence entre inputs et outputs.
 ---
 
 Les frais de transaction représentent une somme qui vise à rémunérer les mineurs pour leur participation au mécanisme de la preuve de travail. Ces frais incitent les mineurs à inclure les transactions dans les blocs qu'ils créent. Ils sont le résultat de la différence entre le montant total des inputs et le montant total des outputs d’une transaction :

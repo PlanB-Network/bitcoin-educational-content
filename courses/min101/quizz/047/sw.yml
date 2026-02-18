@@ -1,0 +1,9 @@
+question: Ni kanuni gani ya kitakwimu inayoeleza kwamba mzunguko wa bloku zinazopatikana hukaribiana na sehemu ya hashrate kwa muda mrefu?
+answer: Sheria ya nambari kubwa (Law of large numbers)
+wrong_answers:
+  - Nadharia ya Bayes
+  - Kitendawili cha siku ya kuzaliwa
+  - Kanuni ya hatua ndogo zaidi
+explanation: |
+  Mshikamano wa matokeo unatokana na sheria ya nambari kubwa, kwani kila hashi ni jaribio huru.
+reviewed: false

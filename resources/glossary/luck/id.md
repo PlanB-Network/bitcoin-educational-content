@@ -1,6 +1,7 @@
 ---
-term: LUCK
+term: Luck
 
+definition: Indikator yang mengukur kinerja kolam penambangan dibandingkan dengan ekspektasi teoritis.
 ---
 Sebuah indikator yang digunakan dalam _mining pool_ untuk mengukur performa _pool_ relatif terhadap ekspektasi teoritisnya. Seperti namanya, indikator ini mengevaluasi keberuntungan _pool_ dalam menemukan blok. Keberuntungan dihitung dengan membandingkan jumlah keping yang secara teoritis dibutuhkan untuk menemukan blok yang valid, berdasarkan tingkat kesulitan Bitcoin saat ini, dengan jumlah keping yang dihasilkan untuk menemukan blok tersebut. Jumlah _share_ yang lebih rendah dari yang diharapkan mengindikasikan keberuntungan, sementara jumlah yang lebih tinggi mengindikasikan ketidakberuntungan.
 

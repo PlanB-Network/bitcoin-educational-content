@@ -1,6 +1,7 @@
 ---
-term: REKURSIV (PAKT)
+term: Rekursiv (covenant)
 
+definition: Covenant som pålegger betingelser for den gjeldende transaksjonen og alle påfølgende transaksjoner på ubestemt tid.
 ---
 En rekursiv pakt på Bitcoin er en type smartkontrakt som ikke bare stiller betingelser for den aktuelle transaksjonen, men også for fremtidige transaksjoner som bruker utdataene fra denne transaksjonen. Dette gjør det mulig å opprette transaksjonskjeder der hver transaksjon må følge visse regler som er definert av den første i kjeden. Rekursivitet skaper en sekvens av transaksjoner der hver transaksjon arver restriksjonene fra sin overordnede transaksjon. Dette muliggjør kompleks og langsiktig kontroll over hvordan bitcoins kan brukes, men det vil også medføre risiko med hensyn til bruksfrihet og fungibilitet.
 

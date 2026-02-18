@@ -1,0 +1,9 @@
+question: बिटकॉइन में माइनिंग के लिए किस हैश फ़ंक्शन का उपयोग किया जाता है?
+answer: SHA256d
+wrong_answers:
+  - SHA1d
+  - RIPEMD160d
+  - SHA512d
+explanation: |
+  बिटकॉइन माइनिंग में दो बार लागू SHA256 का उपयोग किया जाता है, जिसे आम तौर पर SHA256d के रूप में जाना जाता है।
+reviewed: false

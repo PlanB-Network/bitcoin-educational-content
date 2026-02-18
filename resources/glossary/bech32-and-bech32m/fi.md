@@ -1,6 +1,7 @@
 ---
-term: BECH32 JA BECH32M
+term: Bech32 ja bech32m
 
+definition: SegWit-osoitteiden koodausmuodot (alkavat merkeillä bc1), jotka tarjoavat paremman virheiden havaitsemisen ja paremman luettavuuden verrattuna Legacy-osoitteisiin.
 ---
 `Bech32` ja `Bech32m` ovat kaksi osoitekoodausmuotoa bitcoinien vastaanottamiseen. Ne perustuvat hieman muunneltuun 32:een. Ne sisältävät tarkistussumman, joka perustuu virheenkorjausalgoritmiin nimeltä BCH (*Bose-Chaudhuri-Hocquenghem*). Verrattuna Legacy-osoitteisiin, jotka on koodattu `Base58check`-menetelmällä, `Bech32`- ja `Bech32m`-osoitteissa on tehokkaampi tarkistussumma, joka mahdollistaa kirjoitusvirheiden havaitsemisen ja mahdollisesti automaattisen korjaamisen. Niiden muoto on myös luettavuudeltaan parempi, sillä niissä käytetään vain pieniä kirjaimia. Tässä on tämän muodon yhteenlaskumatriisi 10:stä lähtien:
 

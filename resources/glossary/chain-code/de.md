@@ -1,6 +1,7 @@
 ---
-term: CHAIN CODE
+term: Chain-Code
 
+definition: Kryptografischer Salt-Wert von 256 Bit, der bei der HD-Ableitung von Wallet-Schlüsseln verwendet wird.
 ---
 Im Zusammenhang mit der hierarchisch-deterministischen (HD) Ableitung von Bitcoin-Wallets ist der Kettencode ein kryptografischer 256-Bit-Salzwert, der gemäß dem BIP32-Standard verwendet wird, um aus einem Elternschlüssel Kindschlüssel zu generieren. Der Kettencode wird in Kombination mit dem Elternschlüssel und dem Index des Kindes verwendet, um auf deterministische Weise ein neues Schlüsselpaar (privater Schlüssel und öffentlicher Schlüssel) zu erzeugen, ohne den Elternschlüssel oder andere abgeleitete Kindschlüssel preiszugeben.
 
@@ -8,4 +9,3 @@ Daher gibt es für jedes Schlüsselpaar einen eindeutigen Kettencode. Der Ketten
 
 Es ist unmöglich, Schlüssel abzuleiten, ohne den Kettencode zu kennen, der mit jedem Elternpaar verbunden ist. Es führt Pseudo-Zufallsdaten in den Ableitungsprozess ein, um sicherzustellen, dass die Generierung kryptografischer Schlüssel für Angreifer unvorhersehbar bleibt, während sie für den Inhaber der Brieftasche deterministisch ist.
 
-> ► *Im Englischen wird ein "code de chaîne" als "chain code" und ein "code de chaîne maître" als "master chain code" bezeichnet.*

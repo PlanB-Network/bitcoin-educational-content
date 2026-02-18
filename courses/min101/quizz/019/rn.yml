@@ -1,0 +1,9 @@
+question: Ninde yahimbye Hashcash?
+answer: Adam Back
+wrong_answers:
+  - Nick Szabo
+  - Hal Finney
+  - David Chaum
+explanation: |
+  Hashcash yahimbwe na Adam Back. Ni bwo buryo bwa mbere bw'ikimenyetso c'igikorwa (proof of work).
+reviewed: false

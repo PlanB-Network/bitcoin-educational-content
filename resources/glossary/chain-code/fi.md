@@ -1,6 +1,7 @@
 ---
-term: KETJUKOODI
+term: Ketjukoodi
 
+definition: 256-bittinen kryptografinen suola-arvo, jota käytetään lompakon avainten HD-johtamisessa.
 ---
 Bitcoin-lompakoiden hierarkkisen deterministisen (HD) derivaation yhteydessä ketjukoodi on 256-bittinen kryptografinen suola-arvo, jota käytetään BIP32-standardin mukaisesti lapsiavainten tuottamiseen vanhempien avaimista. Ketjukoodia käytetään yhdessä vanhemman avaimen ja lapsen indeksin kanssa uuden avainparin (yksityinen avain ja julkinen avain) deterministiseen tuottamiseen paljastamatta vanhemman avainta tai muita johdettuja lapsiavaimia.
 
@@ -8,4 +9,3 @@ Näin ollen jokaiselle avainparille on olemassa yksilöllinen ketjukoodi. Ketjuk
 
 Avaimia on mahdotonta johtaa tuntematta kuhunkin vanhempien pariin liittyvää ketjukoodia. Se lisää johdantoprosessiin pseudosattuman, jotta varmistetaan, että kryptografisten avainten tuottaminen on hyökkääjille arvaamatonta ja lompakon haltijalle determinististä.
 
-> ► *Englanniksi "code de chaîne" on "chain code" ja "code de chaîne maître" on "master chain code".*

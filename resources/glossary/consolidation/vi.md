@@ -1,6 +1,7 @@
 ---
-term: CONSOLIDATION
+term: Hợp nhất
 
+definition: Giao dịch hợp nhất nhiều UTXO nhỏ thành một UTXO lớn hơn để giảm phí trong tương lai.
 ---
 A specific transaction in which multiple small UTXOs are merged into one input to form a single, larger UTXO as output. This operation is a transaction made to one's own wallet. The goal of consolidation is to take advantage of periods when fees on the Bitcoin network are low to merge several small UTXOs into one larger in value. Thus, it anticipates mandatory expenses in case of fee increases, allowing for savings on future transaction fees.
 
@@ -8,4 +9,3 @@ Indeed, transactions with many inputs are heavier and, consequently, more expens
 
 However, it is important to note that consolidation transactions are recognizable during a chain analysis. Such a transaction indicates a Common Input Ownership Heuristic (CIOH), meaning that the inputs of the consolidation transaction are owned by a single entity. This can have implications in terms of privacy for the user.
 
-![](../../dictionnaire/assets/7.webp)

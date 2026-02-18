@@ -1,0 +1,9 @@
+question: Kuidas arvutatakse tehingutasusid?
+answer: Sisendid miinus väljundid
+wrong_answers:
+  - Väljundid miinus sisendid
+  - Sisendid pluss väljundid
+  - Väljundid jagatud sisenditega
+explanation: |
+  Tasud vastavad sisendites tarbitud väärtusele, mida ei looda väljundites uuesti.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Apa nama antarmuka grafis yang dikembangkan untuk perangkat lunak utama oleh Wladimir van der Laan pada tahun 2011?
+answer: Bitcoin-Qt
+wrong_answers:
+  - wxWindows-Bitcoin
+  - bitcoind
+  - Inti Bitcoin
+explanation: |
+ Bitcoin-Qt adalah perombakan total antarmuka grafis Bitcoin. Ini dikembangkan dari Juni 2011 dan diintegrasikan ke dalam perangkat lunak utama dalam versi 0.5,
+ dirilis pada 21 November. Berdasarkan kerangka kerja grafis Qt, ia menggantikan pustaka wxWindows yang awalnya digunakan oleh Satoshi. Secara metonimi, perangkat lunak ini disebut
+ Bitcoin-Qt sejak saat itu.
+reviewed: true

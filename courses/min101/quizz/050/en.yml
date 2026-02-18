@@ -1,0 +1,9 @@
+question: When do the transactions in a block become confirmed?
+answer: When the block is added to the blockchain
+wrong_answers:
+  - When the transaction is signed by the miner
+  - When the transaction is broadcast by the node
+  - When the miner starts looking for the proof
+explanation: |
+  The confirmation of a payment in Bitcoin is the consequence of adding the block containing it to the blockchain.
+reviewed: true

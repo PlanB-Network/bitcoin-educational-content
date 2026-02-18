@@ -1,6 +1,7 @@
 ---
-term: DIRECCIÓN ESTÁTICA
+term: Dirección estática
 
+definition: Identificador único de los Silent Payments que permite recibir pagos sin reutilización de direcciones ni vínculo visible on-chain.
 ---
 En el contexto de los pagos silenciosos, se refiere a un identificador único que permite la recepción de pagos sin reutilización de la dirección, sin interacción y sin un vínculo visible en la cadena entre los distintos pagos y la dirección estática. Esta técnica elimina la necesidad de generar nuevas direcciones de recepción no utilizadas para cada transacción, evitando así las interacciones habituales en Bitcoin en las que el receptor debe proporcionar una nueva dirección al pagador. Es algo equivalente al código de pago reutilizable en el contexto de BIP47.
 

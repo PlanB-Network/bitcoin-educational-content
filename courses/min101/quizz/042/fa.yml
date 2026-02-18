@@ -1,0 +1,9 @@
+question: مخفف ASIC به چه معناست؟
+answer: Application-Specific Integrated Circuits
+wrong_answers:
+  - Advanced Secure Integrated Circuit
+  - Automated Silicon Integrated Circuit
+  - Application-Shared Integrated Circuit
+explanation: |
+  یک ASIC تراشه‌ای است که برای یک وظیفه واحد طراحی شده است. بنابراین مخفف Application-Specific Integrated Circuits است.
+reviewed: false

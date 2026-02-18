@@ -1,9 +1,9 @@
-question: Alice (uwurungitse) akwiye gukora iki amaze kwakira Invoice ya Bob?
-answer: Yubaka PSBT ifise UTXO yayo na generate igisagara ca Consignment co kwimurirako
+question: Alice (uwurungitse) akwiye gukora iki amaze kwakira Fagitire ya Bob?
+answer: Ubaka PSBT ifise UTXO yayo hama ukore irungikwa rifse aho rigarukira
 wrong_answers:
-  - Sinya ku giciro ca Bitcoin gikoresha UTXO yaco kirimwo Single-Use Seal.
-  - Injira Consignment muri Wallet yawe bwite kugira ngo ubone amakuru yose ya Contract
-  - Gutanga Invoice nshasha ku kibazo c'umutungo
+  - Tera umukono kw'irungikwa rya Bitcoin rikoresha UTXO yaco Ririmwo Serire ikoreshwa rimwe.
+  - Injira Irungikwa mungodo yawe kumakuru yerekeye amasezerano
+  - Gutanga Fagitire nshasha ku kibazo c'umutungo
 explanation: |
-  Alice itegerezwa gukora PSBT kugira ngo ikoreshe UTXO ijana n'umutungo, hanyuma generate Terminal Consignment irimwo uguhinduka gushasha ku Bob.
-reviewed: false
+  Alice itegerezwa gukora PSBT kugira ngo akoreshe UTXO ijana n'umutungo, hanyuma agakora irungikwa ryanyuma ririmwo ihanahanwa rishasha rya Bob.
+reviewed: true

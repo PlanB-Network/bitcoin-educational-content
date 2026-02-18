@@ -1,8 +1,9 @@
-question: Corvée, ni ukuvuga igikorwa c’agahato kitahembwa cakoreshwa mu kwubaka amabarabara, ni co cari ikintu nyamukuru yariko arahindura. None yarisubirije iki?
-answer: N'umusoro w'amahera
+question: Corvée(ibikorwa vy'agahato), ni ukuvuga igikorwa c’agahato kitahembwa cakoreshwa mu kwubaka amabarabara, ni co cari ikintu nyamukuru yariko arahindura. None yarisubirije iki?
+answer: N'amakori y'amahera
 wrong_answers:
-  - Umusoro mu bintu (ibiva mu buhinzi)
-  - Arasimburana n'ubusa .
+  - Amakori mu bintu (ibiva mu burimyi)
+  - Abisuriza n'ubusa .
   - Biciye mu buryo bw’ubushake .
 explanation: |
-  Turgot yasubirije corvée, ni ukuvuga igikorwa c’agahato kitahembwa, n’umusoro w’amahera, gutyo arakwiragiza umuzigo wo kwubaka amabarabara, abarimyi na bo barava muri iyo nshingano.
+  Turgot yasubirije Ibikorwa vy'agahato bidehemba, n’amakori w’amahera, gutyo arakwiragiza umuzigo wo kwubaka amabarabara, abarimyi na bo barava muri ivyo bikorwa.
+reviewed: true

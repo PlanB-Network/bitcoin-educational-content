@@ -153,7 +153,7 @@ O Mozilla VPN permite-lhe selecionar a sua localização em dois formatos:
 
 
 
-- Single-Hop: que desloca o IP Address do seu computador e encripta os dados para um servidor numa região específica selecionada, no nosso exemplo Sofia na Bielorrússia.
+- Single-Hop: que desloca o IP Address do seu computador e encripta os dados para um servidor numa região específica selecionada, no nosso exemplo Sofia na Bulgária.
 
 
 

@@ -264,7 +264,7 @@ Mu buryo bw’ubuhinga, umuntu yoshobora kwiyumvira ko ibiciro vy’ugucuruza na
 
 
 ```plaintext
-Frais = total inputs - total outputs
+Amafaranga = total inputs - total outputs
 ```
 
 
@@ -278,10 +278,10 @@ Dukoresheje uburyo bw’amahera, turabona ko vy’ukuri hariho `200 Sats` zisiga
 
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+Amafaranga = total inputs - total outputs
+Amafaranga = 10 000 - (4 000 + 5 800)
+Amafaranga = 10 000 - 9 800
+Amafaranga = 200
 ```
 
 
@@ -2205,7 +2205,7 @@ Muri aka karorero, naho igikorwa B gitanga amahera yose hamwe menshi, abacukuzi 
 
 ```text
 TXA: 1994 / 141 = 14 sats/vB
-TXB: 2640 / 220 = 12 sats / vB
+TXB: 2640 / 220 = 12 sats/vB
 ```
 
 
@@ -2493,7 +2493,7 @@ Ariko kandi, CoinJoin iratanga kandi ubushobozi bwo gukomeza ibanga mu gihe c’
 ![BTC204](assets/rn/118.webp)
 
 
-Mu karorero ka mbere, twabonye ingene CoinJoin ishobora kurinda ubuzima bwite bw’icumba mu bijanye n’ivya kera, mu karorero ka kabiri, ingene ishobora kandi gukingira amateka y’icumba mu bijanye n’akazoza kaco. Ni co gituma navuze ko CoinJoin ikwiye gufatwa nk’ikintu kiba rimwe gusa gicapura amateka ya UTXO mu nzira zompi:
+Mu karorero ka mbere, twabonye ingene coinjoin ishobora kurinda ibanga ry’icuma ugereranyije n’ivyo cafuye, no mu karorero ka kabiri, ingene ishobora kandi gukingira amateka y’icuma ugereranyije n’ivyo kizoba. Ni co gituma navuze ko coinjoin ikwiye kubona nk’ikintu kiba rimwe gusa kigabura amateka y’icuma mu mpande zose zibiri:
 
 
 ![BTC204](assets/rn/119.webp)
@@ -2781,7 +2781,7 @@ Uburyo bwo gucunga Exchange na bwo nyene bwatandukanije izo nzira zibiri zo gush
 ![BTC204](assets/rn/139.webp)
 
 
-Na Wabisabi, Wasabi verisiyo 2.0 yarahinduye uburyo bwayo bwo gukoresha amafaranga kugira ngo ihure n'iya Whirlpool. Naho amafaranga y’ubudandaji ya CoinJoin aguma ari manini cane, ubu birashoboka gukora uruzitiro rw’ingendo nyinshi zikurikirana, hakurikijwe uburyo bwa Whirlpool. n’ugucungera ibiciro vya Exchange vyarashizweho umutima cane: bitandukanye na Wasabi 1.0, aho ihinduka ryari rifitaniye isano n’ivyo abakoresha bashiramwo, Wabisabi irondera gucapura iryo hinduka mu mahera makeyi menshi, agabanywemwo amashengero angana ku bari muri iyo nama bose.
+Hamwe na Wabisabi, verisiyo ya 2.0 yarahinduye uburyo yegera coinjoin kugira ngo yegere uburyo bwa Whirlpool. Naho amatransakiyo ya coinjoin aguma ari manini cane, ubu birashoboka gukurikiranya inzinguzingo nyinshi zikurikirana, bikurikije urugero rwa Whirlpool. Haranakozwe akigoro kadasanzwe mu bijanye n’ugutunganya amafaranga asigaye: bitandukanye na Wasabi 1.0, aho ayo mafaranga yari afitaniye isano itaziguye n’ivyo abakoresha binjije, Wabisabi iragerageza kugabanya ayo mafaranga mu turemangingo duto duto, tugabanijwe mu migabane ingana ku bari mu gikorwa bose.
 
 
 Reka tubigereranye n'akarorero koroshe karimwo abakoresha 2 gusa: Alice yipfuza kuvanga 115.000 Sats na Bob, 210.000 Sats. Ukwirengagiza amafaranga, na Wasabi 1.0, ugucuruza kwa CoinJoin kwari gutuma haba ibisubizo 3 vy'ama Sats 100.000, hakongerwako ihinduka 1 ry'ama Sats 15.000 ku Alice n'ihinduka 1 ry'ama Sats 10.000 ku Sats. Ihinduka ry'ibisohoka ryoba rigihuye n'ivyo kwinjiza:
@@ -3031,7 +3031,7 @@ Reka turabe intambwe zitandukanye z’igikoresho ca Whirlpool CoinJoin muri izo 
 Intango ya Whirlpool CoinJoin iyo ari yo yose ni konti ya **ibiziga**. Iyi ni konti ukoresha ubwawe iyo uremye Bitcoin Wallet nshasha. Iyi konti izokenera gushirwamwo ama bitcoins wipfuza guvanga.
 
 
-Tx0" ni intambwe ya mbere mu nzira yo guvanga Whirlpool. Intumbero yayo ni ugutegura no kuringaniza UTXOs za CoinJoin, kuzigabanya mu bice bihuye n'ingero y'ikidengeri catowe, kugira ngo habeho ukuvanga guhuye. As UTXOs rero ziringanijwe ni **the**mi ntishobora kwinjira mu kidengeri, itandukanijwe muri konti yihariye: **banki mbi** (canke "ihinduka rya doxxic").
+`Tx0` ni intambwe ya mbere mu nzira yo guvanga Whirlpool. Intumbero yayo ni ugutegura no kuringaniza UTXOs za CoinJoin, kuzigabanya mu bice bihuye n'ingero y'ikidengeri catowe, kugira ngo habeho ukuvanga guhuye. As UTXOs rero ziringanijwe ni **the**mi ntishobora kwinjira mu kidengeri, itandukanijwe muri konti yihariye: **banki mbi** (canke "ihinduka rya doxxic").
 
 
 Iryo soko rya mbere `Tx0` rikoreshwa kandi mu kwishura amahera y’ibikorwa akwiye guhabwa umuhuzabikorwa wa CoinJoin. Mu buryo butandukanye n’intambwe zikurikira, iyo nzira y’ugucuruza ntabwo ari iyo gukorana, rero uwuyikoresha ategerezwa kwikorera igiciro cose ca Mining:
@@ -3087,7 +3087,7 @@ Ivyo bivanze vya mbere biheze, konti ya **premix** izoba iri ubusa, mu gihe ibic
 ### Gusubiramwo
 
 
-Inyuma y’imivumba ya mbere, ama UTXO aca yimurirwa kuri konti ya **postmix**. Iyi konti ikorakoranya ama UTXO amaze guvangwa n’ayo arindiriye gusubira kuvangwa. Iyo umukiriya wa Whirlpool ariko arakora, UTXO ziri muri konti ya **postmix** zica ziboneka ubwazo kugira ngo zisubirwemwo kandi zizotorwa mu buryo bw’impfagusa kugira ngo zigire uruhara muri izo nzira nshasha.
+Inyuma yo gukora mix ya mbere, UTXO zishirwa kuri konti ya **postmix**. Iyi konti ikusanya UTXO zamaze kumikiswa n’iziriko zirindira kongera kumikiswa. Iyo umukiriya wa Whirlpool akora, UTXO ziri kuri konti ya **postmix** ziboneka ako kanya kugira ngo zongere zimikwe kandi zizotorwa ku buryo bw’impfagusa kugira ngo zigire uruhara muri izo ngendo nshasha.
 
 
 Nk’ukwibutsa, remixs rero ziraba ku buntu 100%: nta yindi mice y’ibikorwa canke amahera ya Mining asabwa. Kugumiza UTXOs muri konti ya **postmix** rero bituma agaciro kazo kagumaho, kandi bigatuma anonsets zazo zitera imbere muri ico gihe nyene. Ni co gituma bihambaye kwemera ko ivyo biceri bigira uruhara mu nzira nyinshi za CoinJoin. Ntaco bigutwara na gato, kandi birongereza ingero zabo zo kutamenyekana.
@@ -3309,7 +3309,7 @@ Nk'akarorero, igikorwa co kwishura gisanzwe gifise inyungu 1 n'inyungu 2 kizogir
 ![BTC204](assets/rn/165.webp)
 
 
-Ku rundi ruhande, imfuruka ya Whirlpool 5x5 ifise $1\,496$ y’imigwi ishoboka:
+Ariko rero, coinjoin yubatswe hakurikijwe urugero rwa Whirlpool 5x5 igaragaza $1\,496$ y’amakombinasoni ashoboka:
 
 
 ![BTC204](assets/rn/166.webp)
@@ -3534,7 +3534,7 @@ Igitigiri ca Boltzmann giharurwa mu kugabanya igitigiri c’insobanuro ikintu ki
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}
@@ -3559,9 +3559,9 @@ Nitwafata akarorero k’Igikoresho ca Whirlpool 8x8 CoinJoin, imeza ya Boltzmann
 Ariko rero, ku bijanye n’ugucuruza kworoshe gufise ikintu kimwe co kwinjiza n’ivyo gusohora 2, ibintu biratandukanye:
 
 
-| Output 0 | Output 1 |
-|----------|----------|
-| Input 0  | 100%     | 100%    |
+| %       | Output 0 | Output 1 |
+|---------|----------|----------|
+| Input 0 | 100%     | 100%     |
 
 
 Aha, turabona ko ubushobozi bw’isohoka ryose riva ku nkuru #0 ari 100%. Gutyo, ubushobozi buke bwerekana ibanga rikomeye, bugatuma amasano ataziguye hagati y’ivyo yinjiza n’ivyo asohoka agenda aragabanuka.
@@ -4073,7 +4073,7 @@ Ariko rero, ubwo buryo bw’ubujuju burafise ingorane nyinshi mu bijanye n’ukw
 ![BTC204](assets/rn/201.webp)
 
 
-Ikindi, nta cizere ko Alice atazoronka urufunguzo rw'ibanga rwa Bob $B$ kandi ko atazokwigera atanga urufunguzo rwiwe rw'ibanga $A$ muri Exchange. Iyi Exchange rero ishingiye ku kwizigirana gukaze hagati y'ababuranyi, kandi ntaco imaze mu gutuma Ownership irungikwa mu mpisho.
+Vyongeye, nta ntabe n’imwe ihari yuko Alice, amaze kuronka urufunguzo rw’ibanga $B$ rwa Bob, nawe yoca atanga urufunguzo rwiwe rw’ibanga $A$. Uku guhana rero gushira imbere icizere kinini hagati y’impande zombi kandi biragaragara ko bidakora neza mu kwizera ihererekanya ry’ibanga ry’itunga mu buryo butekanye.
 
 
 ![BTC204](assets/rn/202.webp)

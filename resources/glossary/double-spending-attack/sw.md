@@ -1,5 +1,6 @@
 ---
-term: MATUMIZI MARA mbili (SHAMBULIZI)
+term: Matumizi mara mbili
+definition: Shambulio linalojaribu kutumia bitcoin zile zile mara nyingi ili kulaghai wahusika wengine.
 ---
 
 Shambulio ambapo mtumiaji hasidi anajaribu kutumia UTXO sawa (*Atokeo la Muamala Usiotumika*) zaidi ya mara moja ili kujitajirisha kwa gharama ya wahusika wanaohusika katika miamala. Kimsingi, mara shughuli inapothibitishwa kwenye kizuizi na kuongezwa kwa Blockchain, matumizi ya bitcoins hizo hurekodiwa kabisa, kuzuia matumizi yoyote zaidi ya bitcoins sawa. Kuzuia matumizi ya mara mbili ni hata matumizi ya msingi ya Blockchain.

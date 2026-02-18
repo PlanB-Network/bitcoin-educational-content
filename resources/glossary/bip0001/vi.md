@@ -1,6 +1,7 @@
 ---
 term: BIP0001
 
+definition: Tài liệu đầu tiên xác định quy trình đề xuất cải tiến cho Bitcoin, thiết lập các danh mục Standards Track, Informational và Process.
 ---
 Document that defines the process for developing and implementing proposed improvements to the Bitcoin protocol. Written by Amir Taaki in August 2011, it establishes a standard methodology for proposing and documenting potential modifications. BIP proposals are then classified into three categories:
 

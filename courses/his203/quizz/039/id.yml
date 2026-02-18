@@ -1,0 +1,10 @@
+question: Apa pengaruh kode operasi OP_EVAL terhadap sistem pemrograman internal Bitcoin?
+answer: Menjalankan skrip di dalam skrip
+wrong_answers:
+  - Meminta tanda tangan peserta
+  - Memotong skrip dan membandingkan hasilnya dengan footprint yang disediakan
+  - Periksa apakah dua nilai sama
+explanation: |
+ Hal ini dijelaskan oleh Nicolas van Saberhagen, alias ByteCoin, yang mendesainnya pada malam tanggal 1 hingga 2 Oktober 2011. Opcode dieksekusi pada akhir kunci
+ untuk menilai keabsahan skrip yang diberikan, yang hash-nya dibandingkan dengan sidik jari yang diberikan.
+reviewed: true

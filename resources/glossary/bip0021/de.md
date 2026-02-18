@@ -1,6 +1,7 @@
 ---
 term: BIP0021
 
+definition: Standard, der das Format von Bitcoin-URIs definiert (Links, die mit bitcoin beginnen), um Zahlungen über Links oder QR-Codes zu erleichtern.
 ---
 Vorschlag von Nils Schneider und Matt Corallo, basierend auf BIP20 von Luke Dashjr, das wiederum aus einem anderen Dokument von Nils Schneider stammt. BIP21 definiert, wie Empfangsadressen in URIs (*Uniform Resource Identifier*) kodiert werden sollten, um Zahlungen zu erleichtern. Ein Bitcoin-URI nach BIP21, in dem ich unter der Bezeichnung "*Pandul*" darum bitte, mir 0,1 BTC zu schicken, würde zum Beispiel so aussehen:
 

@@ -1,12 +1,13 @@
 ---
-term: CHAVE PÚBLICA COMPRIMIDA
+term: Chave pública comprimida
 
+definition: Forma compacta de uma chave pública que utiliza apenas a coordenada x e um prefixo de paridade (02 ou 03).
 ---
 Uma chave pública é utilizada em scripts (quer diretamente na forma de uma chave pública ou como um endereço) para receber e proteger bitcoins. Uma chave pública bruta é representada por um ponto numa curva elíptica, consistindo em duas coordenadas (`x, y`), cada uma com 256 bits. Em formato bruto, uma chave pública mede, portanto, 512 bits, sem contar o byte adicional para identificar o formato. Uma chave pública comprimida, por outro lado, é uma forma mais compacta de representação de chave pública. Utiliza apenas a coordenada `x` e um prefixo (`02` ou `03`) que indica a paridade da coordenada `y` (par ou ímpar).
 
 Se simplificarmos isto para o campo dos números reais, dado que a curva elíptica é simétrica em relação ao eixo x, para qualquer ponto $P$ (`x, y`) na curva, existe um ponto $P'$ (`x, -y`) que também estará nessa mesma curva. Isto significa que para cada `x`, existem apenas dois valores possíveis de `y`, positivo e negativo. Por exemplo, para uma dada abcissa `x`, existiriam dois pontos $P1$ e $P2$ na curva elíptica, partilhando a mesma abcissa mas com ordenadas opostas:
 
-![](../../dictionnaire/assets/29.webp)
+
 
 Para escolher entre os dois pontos potenciais da curva, um prefixo especificando qual `y` escolher é adicionado a `x`. Este método permite reduzir o tamanho de uma chave pública de 520 bits para apenas 264 bits (8 bits do prefixo + 256 bits para `x`). Esta representação é conhecida como a forma comprimida da chave pública.
 

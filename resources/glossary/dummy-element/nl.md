@@ -1,5 +1,6 @@
 ---
-term: DUMMIE ELEMENT
+term: Dummy element
+definition: Dummy-element vereist door multisig-opcodes om een historische off-by-one-fout te compenseren.
 ---
 
 Verwijst naar een extra en onnodig element dat verbruikt wordt door de opcodes `OP_CHECKMULTISIG` en `OP_CHECKMULTISIGVERIFY` tijdens de verificatie van handtekeningen in een transactie. Door een historische off-by-one bug (unit shift fout), verwijderen deze 2 opcodes een extra element van de stack naast hun basisfunctie. Om een fout te voorkomen, is het daarom verplicht om een dummy waarde aan het begin van het `scriptSig` op te nemen om aan de verwijdering te voldoen en de bug te omzeilen. Deze onnodige waarde wordt het "*dummy element*" genoemd. BIP11, die de P2MS standaard introduceerde, adviseerde het gebruik van een `OP_0` als dummy waarde. Deze standaard werd echter niet afgedwongen op het niveau van consensusregels, wat betekende dat elke waarde daar geplaatst kon worden zonder de transactie ongeldig te maken. Het dummy element was dus een vector voor manipuleerbaarheid van transacties. BIP147, geïntroduceerd met SegWit Soft Fork, verplichtte dat dit dummy element strikt een lege byte array (`OP_0`) moest zijn, waardoor de ongeldigheid van dit element werd geëlimineerd door elke niet-conforme transactie ongeldig te maken volgens de consensusregels. Deze regel, genaamd `NULLDUMMY`, is van toepassing op zowel SegWit als pre-SegWit transacties.

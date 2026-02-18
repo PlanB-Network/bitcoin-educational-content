@@ -1,5 +1,6 @@
 ---
-term: UNOS
+term: Input
+definition: UTXO koji se koristi kao izvor sredstava u Bitcoin transakciji, referencirajući prethodni izlaz.
 ---
 
 U kontekstu Bitcoin, ulaz unutar transakcije odnosi se na UTXO (*Unspent Transaction Outputs*) korišćene kao originalna sredstva za ispunjavanje izlaza. Svaki ulaz sadrži reference na prethodne UTXO, koji će zatim biti potrošeni od strane transakcije. Ovi ulazi se koriste za generisanje novih UTXO koji će biti kreirani kao izlazi transakcije, i koji se zatim mogu potrošiti u budućim transakcijama.

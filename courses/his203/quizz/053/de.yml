@@ -1,0 +1,11 @@
+question: Wie hieß der von Jeremias Kangas und seinem Bruder im Juni 2012 ins Leben gerufene private Devisendienst?
+answer: LocalBitcoins
+wrong_answers:
+  - BTC IN DER NÄHE VON MIR
+  - BitInstant
+  - Coinabul
+explanation: |
+ Dabei handelte es sich um eine Matchmaking-Plattform, die am 7. Juni gestartet wurde. Im Laufe des Sommers integrierte LocalBitcoins ein Treuhandsystem, über das Bitcoins vorübergehend von der Plattform
+ kurzzeitig von der Plattform gehalten und per SMS zur Zahlung an den Käufer freigegeben werden konnten. Dies ermöglichte insbesondere den persönlichen Austausch, bei dem der Verkäufer
+ die Bitcoins freigibt, sobald er das Geld erhalten hat.
+reviewed: true

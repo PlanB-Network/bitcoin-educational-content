@@ -1,6 +1,7 @@
 ---
-term: DUSTRELAYFEE
+term: Dustrelayfee
 
+definition: Parámetro de nodo que define la tasa de comisión utilizada para calcular el límite de polvo.
 ---
 Regla de normalización utilizada por los nodos de la red para determinar lo que consideran el "límite de polvo" Este parámetro establece una tasa de comisión en sats por kilobyte virtual (sats/kvB) que sirve de referencia para calcular si el valor de un UTXO es inferior a las comisiones necesarias para incluirlo en una transacción. De hecho, un UTXO se considera "polvo" en Bitcoin si requiere más en tasas para ser transferido que el valor que representa en sí mismo. El cálculo de este límite es el siguiente:
 

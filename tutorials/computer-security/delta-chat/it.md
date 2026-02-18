@@ -5,6 +5,7 @@ description: Guida pratica ad uno strumento di messaggistica decentralizzata
 
 ![image](assets/cover.webp)
 
+
 ## Introduzione – Chat Control e privacy
 
 Negli ultimi anni si parla sempre più spesso di Chat Control, una proposta normativa che punta a introdurre la scansione automatica dei messaggi privati sulle principali piattaforme di comunicazione. L’obiettivo dichiarato è il contrasto a contenuti illegali, il problema è che questo meccanismo comporterebbe di fatto una sorveglianza di massa, andando a minare la cifratura end-to-end e quindi la privacy di tutti gli utenti, non solo di chi commette reati.
@@ -12,6 +13,7 @@ Negli ultimi anni si parla sempre più spesso di Chat Control, una proposta norm
 Il rischio concreto è che le chat diventino ambienti controllati, dove ogni messaggio, immagine o allegato potrebbe essere analizzato prima ancora di arrivare al destinatario. Ed è proprio qui che entra in gioco una possibile soluzione: abbandonare le piattaforme centralizzate e spostarsi verso sistemi di messaggistica decentralizzata, che non dipendono da un singolo provider e non possono essere facilmente soggetti a questo tipo di controllo.
 
 In questo tutorial si presenterà una di queste soluzioni: Delta Chat. Uno strumento maturo e già utilizzabile.
+
 
 ## Perché Delta Chat e come funziona
 
@@ -24,34 +26,34 @@ Un altro punto forte è il supporto alle WebXDC, ovvero piccole applicazioni web
 Dal punto di vista della sicurezza, Delta Chat utilizza una cifratura end-to-end verificata, basata su PGP ma con estensioni moderne che la rendono paragonabile, come livello di protezione, a quella di Signal. L’unica mancanza attuale è la Perfect Forward Secrecy, ma è un aspetto in evoluzione.
 
 Essendo basato esclusivamente sulle email, Delta Chat evita del tutto:
-
 - numeri di telefono obbligatori
 - ID centralizzati
 - registrazioni legate a un singolo servizio
 
 Ed è proprio questo che rende questo strumento molto resistente a normative invasive come il Chat Control.
 
+
 ## Installazione
 
-Dal sito ufficiale di [Delta Chat](https://delta.chat/download) si può andare nella sezione Download. Su Linux è disponibile comodamente tramite Flathub, ma ci sono anche pacchetti per Arch, NixOS, Snap e versioni standalone.
+Dal sito ufficiale di [Delta Chat](https://delta.chat/download) puoi andare nella sezione Download. Su Linux è disponibile comodamente tramite Flathub, ma ci sono anche pacchetti per Arch, NixOS, Snap e versioni standalone.
 
 ![image](assets/it/01.webp)
 
 È disponibile anche per:
-
 - [F-Droid](https://f-droid.org/app/com.b44t.messenger)
 - [Play Store](https://play.google.com/store/apps/details?id=chat.delta)
-- [iOS](https://apps.apple.com/us/app/delta-chat/id1459523234)
+- [iOS](https://apps.apple.com/it/app/delta-chat/id1459523234)
 - [Windows](https://apps.microsoft.com/detail/9pjtxx7hn3pk)
-- [macOS](https://apps.apple.com/us/app/delta-chat-desktop/id1462750497)
+- [macOS](https://apps.apple.com/it/app/delta-chat-desktop/id1462750497)
 - [Ubuntu Touch](https://open-store.io/app/deltatouch.lotharketterer)
 - e altri store...
 
 Se stai cercando una guida per installare F-Droid, questo tutorial potrebbe aiutarti:
 
-https://planb.academy/it/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+https://planb.academy/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 Una cosa molto importante: le versioni desktop non richiedono il telefono. A differenza di WhatsApp o SimpleX Chat, non è necessario registrarsi prima da mobile. È possibile creare il profilo direttamente su PC oppure trasferirlo da un altro dispositivo.
+
 
 ## Creazione del profilo
 
@@ -59,13 +61,11 @@ Una volta aperta l’app, Delta Chat chiede se creare un nuovo profilo o usarne 
 
 ![image](assets/it/02.webp)
 
-Creando un nuovo profilo si può inserire:
-
+Creando un nuovo profilo puoi inserire:
 - un nome
 - un’immagine (opzionale)
 
 Di default viene proposto un server ChatMail, ma è possibile:
-
 - scegliere un altro server ChatMail
 - usare un account email classico
 - configurare manualmente IMAP e SMTP
@@ -75,44 +75,41 @@ Dopo pochi secondi il profilo è pronto e si può iniziare a usare l’app.
 
 ![image](assets/it/03.webp)
 
+
 ## Interfaccia e chat
 
 L’interfaccia è molto semplice e immediata:
-
 - Messaggi di dispositivo, che sono comunicazioni locali
 - Messaggi salvati, simili a quelli di Telegram e sincronizzabili tra dispositivi
 
 ![image](assets/it/04.webp)
   
 Per aggiungere un contatto basta:
-
-- mostrare il proprio QR code
-- scansionare quello dell’altra persona
-- invitare tramite link (condividi collegamento d'invito)
+- Mostrare il proprio QR code
+- Scansionare quello dell’altra persona
+- Invitare tramite link (condividi collegamento d'invito).
 
 ![image](assets/it/05.webp)
   
 Una volta stabilita la connessione, la cifratura end-to-end viene configurata automaticamente. L'interfaccia utente delle chat è molto simile a quella di WhatsApp:
-
 - messaggi di testo e vocali
 - foto, video e file
 - risposte ai messaggi
 - reazioni
 - messaggi a scomparsa
-- notifiche personalizzabili
+- notifiche personalizzabili.
 
 ![image](assets/it/06.webp)
 
 ## WebXDC: le app nelle chat:
 
 Delta Chat permette di usare WebXDC, cioè piccole applicazioni integrate nelle conversazioni. Ecco un breve elenco tra le più utili individuate:
-
 - sondaggi
 - lavagne per disegnare
 - chat private temporanee
 - giochi con punteggi condivisi in chat
 
-Anche giochi più complessi possono essere avviati, e ciò dimostra la flessibilità di questo strumento.
+Possono essere avviati anche giochi più complessi, e ciò dimostra la flessibilità di questo strumento.
 
 ![image](assets/it/07.webp)
 
@@ -121,23 +118,22 @@ Anche giochi più complessi possono essere avviati, e ciò dimostra la flessibil
 È possibile creare gruppi, usare sticker (soprattutto su desktop) e, attivando le opzioni sperimentali, anche canali, simili a quelli di Telegram.
 
 Nelle impostazioni avanzate si possono attivare:
-
 - chiamate vocali (ancora sperimentali)
 - gestione avanzata del profilo email
-- backup completi
+- backup completi.
 
 ![image](assets/it/08.webp)
 
 ## Multidispositivo e backup
 
 Delta Chat supporta perfettamente il multidispositivo:
-
 - è possibile aggiungere un secondo dispositivo tramite QR code
-- si può eseguire un trasferimento completo tramite backup
+- puoi eseguire un trasferimento completo tramite backup.
 
-In pochi secondi si ritrovano chat, gruppi e cronologia completa, senza dipendere da un server centrale.
+In pochi secondi ritroverai chat, gruppi e cronologia completa, senza dipendere da un server centrale.
 
 ![image](assets/it/09.webp)
+
 
 ## Conclusione
 

@@ -1,8 +1,9 @@
-question: Ni ingingo ngenderwako izihe za Marquis d’Argenson Adamu Smith asangiye?
-answer: Ugucapura ibikorwa n'inyungu z'umuntu ku giti ciwe
+question: N'izihe ngingo ngenderwako za Marquis d’Argenson ahuriyeko na Adam Smith?
+answer: Ukugabanganya ibikorwa n'inyungu z'umuntu ku giti ubwiwe
 wrong_answers:
-  - Ukwidegemvya n'inyungu z'umuntu ubwiwe
-  - Ukwidegemvya no kugabanya ibikorwa
+  - Laissez faire n'inyungu z'umuntu ubwiwe
+  -  Laissez faire no kugabanya ibikorwa
   - Ugucapura ibikorwa n'uburinzi
 explanation: |
-  Marquis d’Argenson yari yiteze bimwe mu vyiyumviro nyamukuru vya Adamu Smith, nk’ugucapura ibikorwa n’uruhara rw’inyungu z’umuntu ku giti ciwe mu migenderanire y’ubutunzi. Smith yashize imbere ivyo vyiyumviro mu buryo butunganye cane mu gitabu ciwe citwa "Ubutunzi bw'amahanga".
+  Marquis d’Argenson yari yiteze bimwe mu vyiyumviro nyamukuru vya Adam Smith, nk’ukugabanganya ibikorwa n’uruhara rw’inyungu z’umuntu ku giti ciwe mu migenderanire y’ubutunzi. Smith yashize imbere ivyo vyiyumviro mu buryo butunganye cane mu gitabu ciwe citwa "Ubutunzi bw'amahanga(The Wealth of Nations)".
+reviewed: true

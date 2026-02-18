@@ -1,5 +1,0 @@
----
-term: TUMBLEBIT
----
-
-TumbleBit är ett koncept för en anonym betalningshub som är kompatibel med Bitcoin och som föreslogs 2016 av Ethan Heilman, Leen AlShenibr, Foteini Baldimtsi, Alessandra Scafuro och Sharon Goldberg. TumbleBit är ett Bitcoin-blandningssystem som inte kräver tillit till en mellanhand. Det gör det möjligt för användare att göra snabba, anonyma och off-chain-betalningar genom en koordinator som kallas Tumbler. TumbleBit garanterar anonymitet genom att se till att inte ens Tumbler kan koppla en betalares betalning till mottagaren. TumbleBit-protokollet säkerställer att Tumbler varken kan stjäla bitcoins eller utfärda falska bitcoins genom att göra betalningar till sig själv. Anonymiteten i TumbleBit är jämförbar med den i ett Chaum eCash-system. Detta koncept har dock aldrig använts i någon större utsträckning, utan man har föredragit integritetstekniker som Chaumian CoinJoin.

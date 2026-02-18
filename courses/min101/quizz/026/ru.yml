@@ -1,0 +1,9 @@
+question: Какой параметр Bitcoin Core устанавливает минимальный порог ретрансляции (relay) по умолчанию?
+answer: minRelayTxFee
+wrong_answers:
+  - minConfirmTxFee
+  - relayTxWeight
+  - mempoolMinBits
+explanation: |
+  Узлы применяют локальные политики, и Bitcoin Core использует параметр minRelayTxFee для минимального порога ретрансляции.
+reviewed: false

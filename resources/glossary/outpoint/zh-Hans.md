@@ -1,6 +1,7 @@
 ---
-term: OUTPOINT（外点）
+term: Outpoint
 
+definition: UTXO 的唯一引用，由 txid 和输出索引组成。
 ---
 对未用的交易输出（UTXO）的独特引用。它由两个元素组成：
 

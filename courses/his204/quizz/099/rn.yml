@@ -1,8 +1,9 @@
-question: Ni igiki yaneguye itegeko rya Caisse d’Escompte ryo mu kwezi kwa 11 mu 1789?
-answer: Ni ikigo gifise uburenganzira bwo kwubahiriza amategeko y'uguhiganwa mu mwidegemvyo .
+question: Ni igiki yaneguye itegeko rya Caisse d’Escompte ryo muri MUnyonyo mu 1789?
+answer: Ni ikigo gitwagwa n'abantu bamwe gitegerezwa kubahiriza amategeko n'uguhiganwa mu bwigenge .
 wrong_answers:
   - Rishiraho ikigo kizoremesha ugutanga amahera y'intambara z'ibitero .
-  - Bihungabanya ugutanga ama assignats .
-  - Irakunda abatunzi .
+  - Bihungabanya ugutanga ama kw'ayo mafaranga(assignats) .
+  - Iha agaciro cane abatunzi .
 explanation: |
-  Dupont de Nemours yaraneguye uburenganzira bwo gukora ibintu vyose bwahawe Caisse d’Escompte, yiyumvira ko bubangamira uguhiganwa mu mwidegemvyo kandi bugatuma ubutunzi buhungabana.
+  Dupont de Nemours yaraneguye uburenganzira bwahawe Caisse d’Escompte, yiyumvira ko bubangamira uguhiganwa mu mwidegemvyo kandi bugatuma ubutunzi buhungabana.
+reviewed: true

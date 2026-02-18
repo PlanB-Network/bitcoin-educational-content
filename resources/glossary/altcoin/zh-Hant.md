@@ -1,5 +1,6 @@
 ---
-term: Altcoin
+term: 山寨幣
+definition: 指比特幣之外的任何加密貨幣。是alternative和coin的縮寫。
 ---
 
-指除 Bitcoin (BTC) 以外的任何加密貨幣。Altcoin 「是 」alternative 「和 」coin"（替代幣）的縮寫。有些 Maximalist Bitcoiners 也用 "shitcoins" 來指代替代幣。
+指除比特幣（BTC）之外的任何加密貨幣。「altcoin」一詞是「alternative」與「coin」的縮合。一些比特幣極端主義者也使用「shitcoins」來指稱替代幣。

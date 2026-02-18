@@ -1,0 +1,13 @@
+question: Ni itandukaniro irihe rikomeye hagati ya CPU na ASIC mu bijanye na Bitcoin Mining?
+answer: CPU irashobora gukora ubwoko bwinshi bw’ibiharuro bitandukanye bitagombereye ko itunganywa neza kugira ibashe gukora ubwoko bumwe bw’ibiharuro, mu gihe ASIC izoshobora gukora ubwoko bumwe gusa bw’ibiharuro, ariko ikabikora neza cane. 
+wrong_answers:
+  - CPU ikoresha inguvu nyinshi kuruta ASIC
+  - ASIC irakora vyinshi kurusha CPU
+  - CPU ishobora gukora ubwoko bumwe gusa bw’ibiharuro, mu gihe ASIC ishobora gukora ubwoko bwinshi bw’ibiharuro bitandukanye
+explanation: |
+  ASICs ni chips, zigereranywa na chip ya CPU, ariko rero, zateguwe 
+  kugira ngo zikore ubwoko bumwe gusa bw’uguharura mu buryo bwiza cane. 
+  Mu yandi majambo, CPU irashobora gukora ubwoko bwinshi bw’ibiharuro bitandukanye
+  bitagombereye ko itunganywa neza kugira ibashe gukora ubwoko bumwe bw’ibiharuro, 
+  mu gihe ASIC izoshobora gukora ubwoko bumwe gusa bw’ibiharuro, ariko ikabikora neza cane. 
+reviewed: true

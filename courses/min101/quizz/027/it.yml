@@ -1,0 +1,9 @@
+question: Come si calcolano le commissioni di una transazione?
+answer: Input meno output
+wrong_answers:
+  - Output meno input
+  - Input più output
+  - Output diviso input
+explanation: |
+  Le commissioni corrispondono al valore consumato negli input che non viene ricreato negli output.
+reviewed: false

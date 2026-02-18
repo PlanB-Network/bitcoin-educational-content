@@ -1,6 +1,7 @@
 ---
 term: BIP0352
 
+definition: Silent Payments, metodo che utilizza indirizzi statici per ricevere pagamenti senza riutilizzo visibile degli indirizzi.
 ---
 Proposta di miglioramento da parte di Josibake e Ruben Somsen che introduce i Silent Payments, un metodo per utilizzare indirizzi Bitcoin statici per ricevere pagamenti senza riutilizzare gli indirizzi, senza interazioni e senza un collegamento visibile sulla catena tra i diversi pagamenti. Questa tecnica elimina la necessità di generare nuovi indirizzi di ricezione inutilizzati per ogni transazione, evitando così le consuete interazioni in Bitcoin in cui il destinatario deve fornire un nuovo indirizzo al pagatore.
 

@@ -141,7 +141,7 @@ GrapheneOS 開始畫面
 
 
 
-如果這些簡單的步驟看起來太過分，您可以考慮購買附有 GrapheneOS 軟體 [預先安裝](https://ronindojo.io/en/roninmobile) 的 Pixel。只要注意您對提供者有少許信任即可。
+如果這些簡單的步驟看起來太過分，您可以考慮購買附有 GrapheneOS 軟體預先安裝的 Pixel（有公司銷售它們）。只要注意您對提供者有少許信任即可。
 
 
 ### 預先安裝的應用程式
@@ -333,10 +333,10 @@ https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5
 
 
 
-- [Signal](https://signal.org/)是較受歡迎的端對端加密 (E2EE) 聊天工具之一，擁有良好的記錄和豐富的功能。Signal 需要電話號碼才能註冊，因此如果您打算與不知道您電話號碼的人聊天，或許可以考慮其他的替代方案。Signal 必須透過 Aurora 商店下載。
+- [Signal](https://signal.org/)是較受歡迎的端對端加密 (E2EE) 聊天工具之一，擁有良好的記錄和豐富的功能。Signal 需要電話號碼才能註冊，因此如果您打算與不知道您電話號碼的人聊天，或許可以考慮其他的替代方案**_[或在您的個人資料設定中隱藏您的號碼](https://support.signal.org/hc/en-us/articles/6712070553754-Phone-Number-Privacy-and-Usernames)_**。Signal 必須透過 Aurora 商店下載。
 - [Simplex](https://f-droid.org/en/packages/chat.simplex.app/) 是一個相當新的 E2EE 訊息傳遞工具。它沒有使用者 ID，不需要電話號碼或個人資訊。人們可以透過掃描您的個人 QR 代碼或造訪您的獨特連結找到您。Simplex 也允許進階使用者運行自己的伺服器，以進一步減少對任何中央實體的依賴。Simplex 沒有桌面用戶端，因此如果多裝置是您的優先選項，則可能不太適合。適用於 Android 的 Simplex 可透過 F-Droid 取得。
 - [Threema](https://threema.ch/en/faq/libre_installation)提供類似 Simplex 的體驗，但歷史更悠久，因此感覺上更精進一些。Threema 並非免費，終身授權需要 $4.99，可以用 Bitcoin 購買。Threema 提供網頁用戶端和原生桌面應用程式。Android 應用程式可透過 F-Droid 取得。
-- [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) 是 Android 版 Telegram 官方應用程式的非官方 FOSS Fork。Telegram 有 E2EE「秘密聊天」功能，但預設選項並非隱私。Telegram FOSS 可從 F-Droid 下載。
+- [Mercurygram](https://f-droid.org/en/packages/it.belloworld.mercurygram/) 是 Android 版 Telegram 官方應用程式的非官方 FOSS Fork。Telegram 有 E2EE「秘密聊天」功能，但預設選項並非隱私。Mercurygram 可從 F-Droid 下載。
 
 
 ![image](assets/fr/9.webp)
@@ -359,14 +359,13 @@ https://planb.academy/tutorials/computer-security/communication/threema-24382d25
 
 
 - [Spotube](https://f-droid.org/packages/oss.krtirtho.spotube/)是一個跨平台的 Spotify 用戶端，不需要 Premium 帳戶。Spotube 可透過 F-Droid 使用。
-- [ViMusic](https://f-droid.org/en/packages/it.vfsfitvnm.vimusic/)是一款神奇的應用程式，可免費蒸錄 YouTube 音樂中的任何音樂。ViMusic 可從 F-Droid 購買。
 - [Newpipe](https://f-droid.org/packages/org.schabi.newpipe/)提供沒有惱人廣告和可疑權限的 YouTube 體驗。有了 NewPipe，您可以訂閱頻道、在背景中收聽，甚至下載以供離線觀看。NewPipe 可透過 F-Droid 進行存取。
 - [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/)是一個 Podcast 播放器，可讓您訂閱和管理所有喜愛的節目。AntennaPod 可透過 F-Droid 使用。
 
 
 ![image](assets/fr/11.webp)
 
-左: Spotube, 右：ViMusic
+Spotube
 
 
 ### 地圖
@@ -404,7 +403,7 @@ https://planb.academy/tutorials/computer-security/communication/threema-24382d25
 
 
 
-- [Syncthing](https://f-droid.org/packages/com.nutomic.syncthingandroid/)是一款檔案同步程式。它能在兩部或多部裝置之間即時同步檔案，並安全地防止他人窺探。您的資料是您個人的資料，您理應選擇儲存的地點、是否與第三方共用，以及如何透過網際網路傳輸。Syncthing 可透過 F-Droid 使用。
+- [Syncthing Fork](https://f-droid.org/en/packages/com.github.catfriend1.syncthingfork/)是檔案同步程式的一個分支。它能在兩部或多部裝置之間即時同步檔案，並安全地防止他人窺探。您的資料是您個人的資料，您理應選擇儲存的地點、是否與第三方共用，以及如何透過網際網路傳輸。Syncthing Fork 可透過 F-Droid 使用。
 - [KDE Connect](https://f-droid.org/packages/org.kde.kdeconnect_tp/)當連接到您的家庭網路時，您所有的裝置都可以輕鬆地互相對話。輕鬆地在您所有的裝置上傳送檔案、相片、剪貼簿資料 (甚至在 iOS 上！)。KDE connect 可以從 F-Droid 下載。
 - [Notesnook](https://f-droid.org/en/packages/com.streetwriters.notesnook/)是一款 E2EE 筆記應用程式，可在所有裝置上同步您的想法和待辦事項。他們的免費計劃應可涵蓋大部分的個人使用情況。Notesnook 可在 F-Droid 上使用。
 - [Standard Notes](https://f-droid.org/en/packages/com.standardnotes/) 與 Notesnook 非常相似，但需要付費計劃才能匹配功能集。Standard Notes 可透過 F-Droid 使用。
@@ -421,7 +420,7 @@ https://planb.academy/tutorials/computer-security/communication/threema-24382d25
 
 
 
-- [Geometric Weather](https://f-droid.org/en/packages/wangdaye.com.geometricweather/) 是一款設計精美的開放原始碼天氣應用程式，可透過 F-Droid 使用。它也支援不同尺寸的小工具，讓您可以直接從主螢幕上看到所選地點的天氣。
+- [Breezy Weather](https://f-droid.org/en/packages/org.breezyweather/) 是一款功能豐富的開放原始碼天氣應用程式，採用 Material 3 Expressive 介面；提供周到的視覺化、預報、即時天氣、空氣品質、花粉、來自 50 多個來源的天氣警報。
 - [Translate You](https://f-droid.org/packages/com.bnyro.translate/) 是一款開放原始碼且保護隱私的翻譯應用程式，支援超過 200 種語言。Translate You 可透過 F-Droid 使用。
 - [質子日曆](https://proton.me/calendar/download) 是一款簡單易用的 E2EE，可與您的質子電子郵件帳戶無縫互動。Proton Calendar 可以 APK 或透過 Aurora 商店下載。
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/)是一款用於顯示和儲存登機證、優惠券、電影票和會員卡等的應用程式。只需下載相關的「pkpass」或「espass」檔案，然後用該應用程式開啟即可。PassAndroid 可透過 F-Droid 使用。
@@ -440,7 +439,7 @@ https://planb.academy/tutorials/computer-security/communication/threema-24382d25
 - [Proton Pass](https://proton.me/pass/download) 提供類似 Bitwarden 的免費服務，但 [Proton Unlimited](https://proton.me/pricing) 客戶能使用額外的進階功能。Proton Pass 可透過 APK 或 Aurora 使用。
 - [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/)是一款雙因素驗證應用程式，適用於使用一次性密碼通訊協定的系統。可透過掃描 QR 碼輕鬆添加令牌。FreeOTP 可透過 F-Droid 使用。
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/)是一款免費、安全且開放原始碼的 Android 應用程式，用來管理您線上服務的 2 步驗證代碼。Aegis 可透過 F-Droid 使用。
-- [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/)是一項付費的跨平台服務，可在本機為您的資料加密，以便您可以安全地將資料上傳到您最喜愛的雲端服務。Cryptomator 可透過 F-Droid 下載。
+- [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/)是一項免費的跨平台服務（_僅在 Android 上透過 Google Play 付費_），可在本機為您的資料加密，以便您可以安全地將資料上傳到您最喜愛的雲端服務。Cryptomator 可透過 F-Droid 下載。
 
 
 ![image](assets/fr/21.webp)

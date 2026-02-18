@@ -1,0 +1,9 @@
+question: Kuinka monen vahvistuksen jälkeen coinbase-tulosteet tulevat käytettäviksi?
+answer: 101 vahvistusta
+wrong_answers:
+  - 6 vahvistusta
+  - 201 vahvistusta
+  - 210 vahvistusta
+explanation: |
+  Kypsymisaika on 100 lohkoa, joten tarvitaan 101 vahvistusta, jotta nämä UTXO:t tulevat käytettäviksi.
+reviewed: false

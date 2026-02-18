@@ -1,0 +1,9 @@
+question: Co oznacza akronim RPOW?
+answer: Reusable Proofs of Work
+wrong_answers:
+  - Recursive Proofs of Work
+  - Random Proofs of Work
+  - Replayed Proofs of Work
+explanation: |
+  RPOW oznacza wielokrotnego użytku i wymienialne dowody pracy, zaproponowane przez Hala Finneya w 2004 roku.
+reviewed: false

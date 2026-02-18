@@ -1,0 +1,10 @@
+question: Hashrate ipima iki mu muhora wa Bitcoin?
+answer: Ibiharuro ku musegonda
+wrong_answers:
+  - Igiharuro c’ibikorwa ku segonda
+  - Igiharuro c’ibice bikora
+  - Urugero rw’umuyagankuba ukoreshwa n’ubuga
+explanation: |
+  Hashrate iri mu muhora wa Bitcoin ipima Igiharuro c’ibiharuro bishobora gukorwa ku musegonda. Ni urufunguzo
+  rwikimenyetso c’ubuzima n’umutekano vy’umuhora.
+reviewed: true

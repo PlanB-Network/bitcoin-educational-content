@@ -1,5 +1,6 @@
 ---
 term: CISA
+definition: Tehniline ettepanek ühendada tehingu kõigi sisendite allkirjad üheksainsaks, vähendades suurust ja tasusid.
 ---
 
 Lühend "Cross-Input Signature Aggregation". See on tehniline ettepanek, mille eesmärk on optimeerida Bitcoin tehingute suurust, vähendades nende valideerimiseks vajalike allkirjade arvu.

@@ -1,5 +1,6 @@
 ---
-term: 分支和邊界
+term: 分支定界 (Branch-and-bound)
+definition: Bitcoin Core 中的硬幣選擇算法，旨在最小化找零和交易手續費。
 ---
 
 自 0.17 版起在 Bitcoin 核心 Wallet 中用於選擇輸入的方法，由 Murch 發明。分支與邊界（BnB）是一種尋找UTXOs 集的方法，該UTXOs 集與交易中要完成的輸出的確切數量相匹配，以最小化變更和相關費用。它的目標是減少一個浪費準則，這個準則同時考慮到變更的即時費用和預期的未來費用。與之前的啟發式方法（如 *Knapsack Solver*）相比，此方法在費用方面更為精確。**分支與邊界**的靈感來自 1960 年由 Ailsa Land 和 Alison Harcourt 發明的同名問題解決方法。

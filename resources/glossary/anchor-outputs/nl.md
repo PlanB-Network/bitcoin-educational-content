@@ -1,5 +1,6 @@
 ---
-term: Anchor UITGANGEN
+term: Anchor outputs
+definition: Een mechanisme op Lightning waarmee de kosten van een toezeggingstransactie na de aanmaak kunnen worden aangepast, om snelle kanaalsluitng te garanderen.
 ---
 
 Een voorstel om het beheer van transactiekosten binnen Lightning-kanalen te verbeteren. Bij elke toestandsverandering in een Lightning-kanaal creëren en ondertekenen de belanghebbenden een nieuwe Commitment Transaction die de nieuwe verdeling van fondsen binnen het kanaal weergeeft. Het probleem met dit mechanisme ligt in het bepalen van de transactiekosten op het moment van creatie. De transactiekosten op het Bitcoin netwerk zijn namelijk onderhevig aan grote schommelingen, zowel naar boven als naar beneden. Als de vergoedingen voor de laatste Commitment Transaction ontoereikend zijn op het moment dat het kanaal eenzijdig wordt gesloten, duurt het niet alleen lang voordat de transactie is bevestigd, maar kunnen de tijdelijke vergrendelingsmechanismen (timelocks) ook diefstal van fondsen mogelijk maken. Anchor uitgangen reserveren een klein deel van de fondsen in een Commitment Transaction om toekomstige vergoedingen te dekken. In het geval van netwerkcongestie en stijgende vergoedingen, maken Anchor uitgangen het mogelijk om de transactiekosten te wijzigen na het aanmaken van de Commitment Transaction, waardoor een voldoende snelle afsluiting van het Lightning-kanaal wordt gegarandeerd.

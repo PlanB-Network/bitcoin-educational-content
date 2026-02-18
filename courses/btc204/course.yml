@@ -19,30 +19,30 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 86.55
+    reward: 86.54
   - language: de
     last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
       - alha96
-    reward: 28.87
+    reward: 28.86
   - language: en
     last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
       - 2raj2raj
-    reward: 28.87
+    reward: 28.86
   - language: es
     last_contribution_date: 2024-11-16
     urgency: 1
     contributor_names:
       - OscarG673
-    reward: 28.87
+    reward: 28.86
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 86.55
+    reward: 86.54
   - language: fr
     last_contribution_date: 2025-12-04
     urgency: 1
@@ -57,10 +57,11 @@ proofreading:
     contributor_names:
     reward: 57.73
   - language: ja
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 144.18
+      - yutaro21jp
+    reward: 72.09
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -82,7 +83,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 86.55
+    reward: 86.54
   - language: id
     last_contribution_date:
     urgency: 1
@@ -92,22 +93,23 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 86.55
+    reward: 86.54
   - language: zh-Hans
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 115.36
+      - MilankovicProtocol
+    reward: 57.68
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 86.55
+    reward: 86.54
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 144.18
+    reward: 144.17
   - language: sr-Latn
     last_contribution_date: 2025-08-18
     urgency: 1
@@ -130,17 +132,18 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 86.55
+    reward: 86.54
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 57.73
   - language: nl
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 86.55
+      - Trabolo
+    reward: 43.27
   - language: tr
     last_contribution_date:
     urgency: 1
@@ -155,7 +158,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 144.18
+    reward: 144.17
   - language: bg
     last_contribution_date: 2025-12-29
     urgency: 1

@@ -1,0 +1,9 @@
+question: Welcher Mechanismus erweitert den Suchraum, wenn die 32-Bit-Nonce erschöpft ist?
+answer: Die Extra-Nonce
+wrong_answers:
+  - Die Super-Nonce
+  - Die Coinbase-Nonce
+  - Die Double-Nonce
+explanation: |
+  Durch Ändern der Extra-Nonce im scriptSig der Coinbase-Transaktion wird der Merkle-Root und damit der Header geändert.
+reviewed: false

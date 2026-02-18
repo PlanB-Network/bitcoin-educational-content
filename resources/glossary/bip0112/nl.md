@@ -1,5 +1,6 @@
 ---
 term: BIP0112
+definition: Introductie van de opcode OP_CHECKSEQUENCEVERIFY (CSV) waarmee relatieve timelocks kunnen worden gemaakt in scripts.
 ---
 
 Introduceert de opcode `OP_CHECKSEQUENCEVERIFY` (CSV) in de Bitcoin Script taal. Met deze operatie kunnen transacties worden aangemaakt waarvan de geldigheid pas van kracht wordt na een bepaalde vertraging ten opzichte van een voorgaande transactie, gedefinieerd in het aantal blokken of in tijdsduur. `OP_CHECKSEQUENCEVERIFY` vergelijkt de waarde bovenaan de stapel met de waarde van het `nSequence` veld van de invoer. Als deze groter is en aan alle andere voorwaarden is voldaan, is het script geldig. Dus `OP_CHECKSEQUENCEVERIFY` beperkt de mogelijke waarden voor het `nSequence` veld van de invoer die het uitgeeft, en dit `nSequence` veld zelf beperkt wanneer de transactie die deze invoer bevat kan worden opgenomen in een blok. BIP112 werd geïntroduceerd via een Soft Fork op 4 juli 2016, naast BIP68 en BIP113, voor het eerst geactiveerd met de BIP9 methode.

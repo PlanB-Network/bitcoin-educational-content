@@ -1,0 +1,9 @@
+question: Millest koosneb ploki preemia?
+answer: Toetus + tasud
+wrong_answers:
+  - Toetus + raskusaste
+  - Tasud + nonce
+  - Hashrate + tasud
+explanation: |
+  Preemia koosneb ploki toetusest ja kõigist kaasatud tehingute tasudest.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: SELFISH MINING
+term: Selfish mining
+definition: Strategi penambangan dengan merahasiakan blok untuk mendapatkan keunggulan atas penambang lain.
 ---
 
 Strategi (atau serangan) dalam penambangan Bitcoin, di mana seorang atau sekelompok penambang dengan sengaja menahan blok dengan _Proof-of-Work_ yang valid tanpa segera melepaskannya ke jaringan. Tujuannya adalah untuk tetap berada di depan penambang lain dalam hal _Proof-of-Work_, yang memungkinkan mereka untuk melakukan penambangan beberapa blok secara berurutan dan mempublikasikannya sekaligus, sehingga memaksimalkan keuntungan mereka. Dengan kata lain, kelompok penambang yang menyerang tidak menambang di blok terakhir yang divalidasi oleh seluruh jaringan, melainkan di blok yang mereka buat sendiri, yang berbeda dengan blok yang divalidasi oleh jaringan.

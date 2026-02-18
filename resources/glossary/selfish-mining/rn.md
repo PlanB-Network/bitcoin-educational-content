@@ -1,5 +1,6 @@
 ---
-term: UBWIKUNDA Mining
+term: Selfish mining
+definition: Uburyo bwo kucura aho umuntu agumya amablock mu mwiherero kugira arushishe abandi bacuzi.
 ---
 
 Ingamba (canke igitero) muri Mining, aho Miner canke umugwi w’abacukuzi bafata n’ibigirankana amabuye afise Proof of Work ibereye ataco baciye bayarekura ku rubuga. Intumbero ni uguguma imbere y’abandi bacukuzi mu bijanye na Proof of Work, bikaba bishobora kubashoboza gukora Miner amabuye menshi akurikiranye maze bakayasohora yose icarimwe, gutyo bakaronka inyungu nyinshi. Mu yandi majambo, uwo mugwi w’abacukuzi batera ntucukura ku gice ca nyuma cemejwe n’urubuga rwose, ahubwo ucukura ku gice bo ubwabo baremye, kikaba gitandukanye n’ico cemejwe n’urubuga.

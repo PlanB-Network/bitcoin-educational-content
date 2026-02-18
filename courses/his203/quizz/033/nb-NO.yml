@@ -1,0 +1,10 @@
+question: Hva inneholdt de fleste inskripsjonene som Luke-Jr. gjorde gjennom Eligius i august 2011, i tillegg til identifikatoren til mining-bassenget hans?
+answer: Bønner
+wrong_answers:
+  - Barnepornografi
+  - Memes
+  - Politiske budskap
+explanation: |
+ I tråd med sin katolske (sedevakantistiske) tro inkluderte Luke-Jr bønner og hellige tekster i belønningstransaksjonen for blokker som ble utvunnet av mining-poolen hans,
+ Eligius, uten å konsultere de berørte utvinnerne, noe som skapte en livlig debatt.
+reviewed: true

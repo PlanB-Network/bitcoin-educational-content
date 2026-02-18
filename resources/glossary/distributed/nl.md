@@ -1,5 +1,6 @@
 ---
-term: GEDISTRIBULEERD
+term: Gedistribueerd
+definition: Netwerk waar beslissingsbevoegdheid en controle eerlijk verdeeld zijn over alle deelnemers.
 ---
 
 Attribuut van een computernetwerk waarbij de beslissingsbevoegdheid en controle gelijkmatig verdeeld zijn over alle netwerkdeelnemers. Deze verdeling zorgt voor de veerkracht van het systeem. Het wordt ook een peer-to-peer netwerk genoemd. In tegenstelling tot een gedecentraliseerd netwerk, waar de macht versnipperd en verspreid is over meerdere entiteiten, maar waar sommige centrale autoriteiten meer macht behouden dan de gebruikers, elimineert een gedistribueerd netwerk de centrale autoriteit door het beheer en de controle toe te vertrouwen aan de gebruikers zelf. Bitcoin is een voorbeeld van een gedistribueerd systeem. Bitcoin heeft geen hiërarchie of centrale autoriteit. Het behoud van consensus, de verificatie van transacties en de uitgifte van nieuwe monetaire eenheden wordt uitgevoerd door de gebruikers. Deze gedistribueerde structuur zorgt ervoor dat het systeem veerkrachtig is en bestand tegen censuur, waardoor het heel moeilijk is voor een enkele entiteit om het te controleren of te manipuleren.

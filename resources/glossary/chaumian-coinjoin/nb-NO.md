@@ -1,12 +1,13 @@
 ---
-term: CHAUMIAN COINJOIN
+term: Chaumian coinjoin
 
+definition: Coinjoin-protokoll som bruker Chaums blinde signaturer for å sikre deltakernes personvern.
 ---
 En coinjoin-protokoll som bruker David Chaums blindsignaturer og Tor for kommunikasjon mellom deltakerne og koordinatorens server. Målet med en Chaumian coinjoin er å sikre deltakerne at koordinatoren ikke kan stjele bitcoins, og heller ikke koble inn- og utdataene sammen.
 
 For å oppnå dette sender brukerne inn input og en kryptografisk blindet mottaksadresse til koordinatoren. Denne adressen skal, når den er avblindet, motta bitcoins som en output fra coinjoin. Koordinatoren signerer disse tokens og returnerer dem til brukerne. Brukerne kobler seg deretter anonymt til koordinatorens server med en ny Tor-identitet og avslører utgangsadressene sine i klartekst for transaksjonskonstruksjonen. Koordinatoren kan verifisere at alle disse mottaksadressene kommer fra legitime brukere, siden han tidligere har signert den blinde versjonen av dem med sin private nøkkel. Han kan imidlertid ikke knytte en spesifikk utgangsadresse til en gitt inngangsbruker. Derfor er det ingen kobling mellom inn- og utdataene, selv ikke sett fra koordinatorens perspektiv. Når koordinatoren har konstruert transaksjonen, sender han den tilbake til deltakerne, som signerer den for å låse opp inndataene sine, etter å ha verifisert at utdataene deres faktisk er med i transaksjonen. Deltakerne sender signaturen til koordinatoren. Når alle signaturene er samlet inn, kan koordinatoren kringkaste coinjoin-transaksjonen på Bitcoin-nettverket.
 
-![](../../dictionnaire/assets/38.webp)
+
 
 Denne metoden sikrer at koordinatoren verken kan kompromittere anonymiteten til deltakerne eller stjele bitcoins under hele coinjoin-prosessen.
 

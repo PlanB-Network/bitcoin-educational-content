@@ -1,6 +1,7 @@
 ---
-term: MINERAÇÃO EM POOL DE BITCOIN (BPM)
+term: Bitcoin pooled mining (BPM)
 
+definition: Método de cálculo de recompensas em pools que valoriza as shares com base no tempo decorrido no ciclo.
 ---
 Outro nome dado ao "MÉTODO BASEADO NA PONTUAÇÃO" para calcular a compensação dos mineiros nas pools de mineração. É um método de recompensa proporcional, mas ponderado pelo tempo em que a ação é submetida. O BPM valoriza as acções com base no tempo decorrido desde o início do ciclo de mineração. Quanto mais tarde uma ação for submetida no ciclo, maior será o seu valor. Este método incentiva os mineiros a permanecerem porque cada vez que param de minerar, a sua pontuação estagna enquanto a dos outros aumenta mais rapidamente.
 

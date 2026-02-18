@@ -1,0 +1,9 @@
+question: Hva består blokkbelønningen av?
+answer: Subsidie + gebyrer
+wrong_answers:
+  - Subsidie + vanskelighetsgrad
+  - Gebyrer + nonce
+  - Hashrate + gebyrer
+explanation: |
+  Belønningen er summen av blokksubsidien og alle gebyrene fra de inkluderte transaksjonene.
+reviewed: false

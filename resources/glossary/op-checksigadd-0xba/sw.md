@@ -1,5 +1,6 @@
 ---
 term: OP_CHECKSIGADD (0XBA)
+definition: Opcode ya Tapscript inayothibitisha saini na kuongeza kaunta ikiwa ni halali.
 ---
 
 Hutoa thamani tatu za juu kutoka kwa rafu: `ufunguo wa umma`, `CScriptNum` `n`, na `saini`. Ikiwa sahihi sio vekta tupu na sio halali, hati itaisha kwa hitilafu. Ikiwa sahihi ni halali au ni vekta tupu (`OP_0`), matukio mawili yanawasilishwa:

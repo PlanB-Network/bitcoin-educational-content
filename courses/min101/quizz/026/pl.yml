@@ -1,0 +1,9 @@
+question: Który parametr Bitcoin Core ustala domyślny minimalny próg przekaźnika (relay)?
+answer: minRelayTxFee
+wrong_answers:
+  - minConfirmTxFee
+  - relayTxWeight
+  - mempoolMinBits
+explanation: |
+  Węzły stosują lokalne polityki, a Bitcoin Core używa parametru minRelayTxFee dla minimalnego progu przekaźnika.
+reviewed: false

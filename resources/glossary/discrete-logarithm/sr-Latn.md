@@ -1,5 +1,6 @@
 ---
-term: DISKRETNI LOGARITAM
+term: Diskretni logaritam
+definition: Teško rešiv matematički problem koji čini osnovu kriptografske sigurnosti Bitcoina.
 ---
 
 Diskretni logaritam je matematički problem koji se koristi u nekim kriptografskim algoritmima sa javnim ključem. U cikličkoj grupi reda $q$, sa generatorom $g$, ako imamo jednačinu oblika $g^x = h$, tada je $x$ diskretni logaritam od $h$ u odnosu na bazu $g$, modulo $q$. Jednostavno rečeno, to uključuje određivanje eksponenta $x$ kada su $g$, $h$ i $q$ poznati. Diskretni logaritam je, dakle, inverzija eksponencijacije u konačnoj cikličnoj grupi. Međutim, za velike vrednosti $q$, rešavanje problema diskretnog logaritma se smatra algoritamski teškim. Ovo svojstvo se koristi za obezbeđivanje sigurnosti mnogih kriptografskih protokola, kao što je Diffie-Hellman protokol za ključ Exchange.

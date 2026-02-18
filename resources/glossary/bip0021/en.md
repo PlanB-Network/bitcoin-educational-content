@@ -1,5 +1,6 @@
 ---
 term: BIP0021
+definition: Standard defining the format of Bitcoin URIs (links starting with bitcoin) to facilitate payments via links or QR codes.
 ---
 
 Proposal written by Nils Schneider and Matt Corallo, based on BIP20 written by Luke Dashjr, which itself was derived from another document written by Nils Schneider. 

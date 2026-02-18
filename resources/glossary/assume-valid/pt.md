@@ -1,6 +1,7 @@
 ---
-term: ASSUMIR VÁLIDO
+term: Assume valid
 
+definition: Um parâmetro Bitcoin Core que permite pular a verificação de assinatura para blocos anteriores a um certo ponto, acelerando a sincronização inicial.
 ---
 Parâmetro de configuração no cliente maioritário Bitcoin Core que permite a um nó que acabou de ser inicializado (mas que ainda não realizou o IBD) saltar a verificação das assinaturas de todas as transacções incluídas em blocos anteriores a um determinado bloco. Este famoso bloco é definido pela marca do seu cabeçalho, ou seja, o seu hash. O bloco escolhido é renovado a cada nova versão do Bitcoin Core. Após a sua inicialização, se o nó tiver ativado este parâmetro, verificará a cadeia do cabeçalho do bloco para encontrar o ramo com o trabalho mais acumulado. Se o nó detetar o hash fornecido pelo Core no ramo escolhido, ele omitirá a verificação das assinaturas dos blocos anteriores. Caso contrário, o nó procederá a uma sincronização tradicional (IBD) para verificar tudo sozinho.
 

@@ -1,0 +1,9 @@
+question: Ni jambo gani linalofanya ucheleweshaji kati ya vitalu viwili kuwa wa kubadilika kimsingi?
+answer: Hali ya kimahesabu ya bahati (probabilistic) ya hashing
+wrong_answers:
+  - Hali ya uhakika (deterministic) ya hashing
+  - Hali ya kujirudia (recursive) ya hashing
+  - Hali ya mfululizo (periodic) ya hashing
+explanation: |
+  Kila hashi ni jaribio huru, ambalo hufanya nyakati za ugunduzi kuwa za nasibu hata kwa hashrate isiyobadilika.
+reviewed: false

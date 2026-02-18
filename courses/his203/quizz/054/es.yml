@@ -1,0 +1,10 @@
+question: ¿Qué norma de pago fue registrada en la IANA en septiembre de 2012 por el arquitecto de software Dave Thaler?
+answer: BIP 21 Esquema URI
+wrong_answers:
+  - BIP 32 carteras deterministas jerárquicas
+  - Protocolo de pago BIP 70
+  - BIP 47 códigos de pago reutilizables
+explanation: |
+ Esta norma permitía formalizar las solicitudes de pago, que adoptaban la forma de una cadena de caracteres o un código QR. Tras varias propuestas, en enero de 2012 Matt Corallo
+ fue descrito en enero de 2012 en BIP 21 por Matt Corallo. Dave Thaler lo registró en la IANA en septiembre.
+reviewed: true

@@ -1,6 +1,7 @@
 ---
-term: MEZZOGIORNO
+term: Halving
 
+definition: Evento che dimezza la ricompensa dei miner ogni 210.000 blocchi.
 ---
 Il termine "dimezzamento" si riferisce a un evento programmato che dimezza la ricompensa data ai minatori per ogni blocco estratto attraverso la block subsidy. Questa riduzione si applica in particolare alla parte del block subsidy costituita da nuovi bitcoin creati dal nulla. Il dimezzamento è stato ideato da Satoshi Nakamoto, il creatore di Bitcoin, come meccanismo per controllare l'inflazione e garantire una fornitura limitata di bitcoin.
 

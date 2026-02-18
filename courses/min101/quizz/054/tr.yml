@@ -1,0 +1,9 @@
+question: Bitcoin ödemelerinin geçmişinin yazıldığı paylaşılan halka açık kayıt defterine ne ad verilir?
+answer: Blockchain
+wrong_answers:
+  - Mempool
+  - Cüzdan (wallet)
+  - Hashrate
+explanation: |
+  Tüm işlemleri içeren paylaşılan halka açık defter blockchain'dir.
+reviewed: false

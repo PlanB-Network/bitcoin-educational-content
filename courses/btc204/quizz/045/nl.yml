@@ -2,7 +2,7 @@ question: Wat is het hoofddoel van BIP47?
 answer: Een unieke identificatiecode hebben om BTC te ontvangen zonder adressen te hergebruiken.
 wrong_answers:
   - Vergroot de grootte van blokken voor snellere transacties.
-  - Transacties zonder kosten toestaan op het Bitcoin netwerk.
+  - Transacties zonder kosten toestaan op het Bitcoin-netwerk.
   - Maak transacties volledig anoniem op Bitcoin.
 explanation: |
   Het doel van BIP47 is om een unieke identificatiecode te bieden waarmee bitcoins meerdere keren en van meerdere mensen ontvangen kunnen worden, maar zonder adressen te hergebruiken, omdat dit een zeer slechte praktijk is voor de privacy van gebruikers.

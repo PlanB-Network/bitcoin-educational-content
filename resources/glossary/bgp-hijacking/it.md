@@ -1,5 +1,6 @@
 ---
-term: BGP HIJACKING
+term: Drottamento BGP
+definition: Attacco che manipola l'instradamento di Internet per reindirizzare il traffico verso una rete malevola, utilizzabile per isolare i nodi Bitcoin.
 ---
 
 Attacco in cui un attore malintenzionato manipola le pubblicità BGP per reindirizzare il traffico Internet verso la propria rete. Fingendo di essere l'origine legittima di determinati intervalli IP Address, l'aggressore può intercettare, monitorare o bloccare il traffico destinato a tali indirizzi.

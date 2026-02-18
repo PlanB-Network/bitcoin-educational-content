@@ -1,5 +1,6 @@
 ---
-term: passphrase (BIP39)
+term: Passphrase (BIP39)
+definition: Optioneel wachtwoord toegevoegd aan de herstelzin om een HD-wallet te beveiligen.
 ---
 
 Een optioneel wachtwoord dat, in combinatie met de herstelzin, een extra Layer beveiliging biedt voor deterministische en hiërarchische Bitcoin wallets. HD wallets worden meestal gegenereerd met een herstelzin bestaande uit 12 of 24 woorden. Deze herstelzin is erg belangrijk, omdat hiermee alle sleutels in een Wallet hersteld kunnen worden in geval van verlies. Het is echter een Single Point of Failure (SPOF). Als het gecompromitteerd is, lopen de bitcoins gevaar. Hier komt de passphrase om de hoek kijken. Het is een optioneel wachtwoord, gekozen door de gebruiker, dat wordt toegevoegd aan de herstelzin om de beveiliging van de Wallet te verbeteren. Niet te verwarren met een pincode of een gewoon wachtwoord, speelt de passphrase een rol bij het afleiden van cryptografische sleutels.

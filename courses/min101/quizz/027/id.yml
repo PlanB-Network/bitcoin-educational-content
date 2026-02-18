@@ -1,0 +1,9 @@
+question: Bagaimana cara menghitung biaya transaksi?
+answer: Input dikurangi output
+wrong_answers:
+  - Output dikurangi input
+  - Input ditambah output
+  - Output dibagi input
+explanation: |
+  Biaya sesuai dengan nilai yang dikonsumsi dalam input yang tidak dibuat kembali dalam output.
+reviewed: false

@@ -1,9 +1,9 @@
 question: Chức năng chính của hệ thống thanh toán truyền thống là gì?
-answer: Để cho phép chuyển tiền giữa hai bên
+answer: Để cho phép giao dịch chuyển tiền giữa hai bên
 wrong_answers:
   - Để tạo ra một loại tiền tệ toàn cầu duy nhất được quản lý bởi một cơ quan trung ương
   - Để tạo điều kiện thuận lợi cho thương mại quốc tế
   - Để hạn chế việc chuyển tiền chỉ bằng hình thức trao đổi tiền mặt trực tiếp
 explanation: |
-  Hệ thống thanh toán truyền thống cung cấp cơ chế và cơ sở hạ tầng để chuyển tiền giữa người trả và người thụ hưởng trong cả bối cảnh địa phương và quốc tế.
+  Hệ thống thanh toán truyền thống cung cấp cơ chế và cơ sở hạ tầng để giao dịch chuyển tiền giữa người trả và người thụ hưởng trong lẫn địa phương và cả quốc tế.
 reviewed: true

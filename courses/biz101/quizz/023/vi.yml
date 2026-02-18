@@ -1,9 +1,9 @@
-question: Phương pháp nào sau đây KHÔNG phải là một trong ba phương pháp chính được đề cập để có được Bitcoin?
-answer: Nhận Bitcoin dưới dạng khoản tài trợ của chính phủ cho phát triển doanh nghiệp.
+question: Phương pháp được đề cập nào sau đây KHÔNG phải là một trong ba phương pháp chính để có được Bitcoin?
+answer: Nhận Bitcoin dưới dạng khoản tài trợ của chính phủ cho việc phát triển doanh nghiệp.
 wrong_answers:
   - Nhận Bitcoin để đổi lấy hàng hóa hoặc dịch vụ.
-  - Mining Bitcoin thông qua phần cứng chuyên dụng và sử dụng năng lượng.
-  - Mua Bitcoin từ một nền tảng hoặc nhà môi giới.
+  - Đào/Khai thác Bitcoin thông qua phần cứng chuyên dụng và sử dụng năng lượng.
+  - Mua Bitcoin từ một nền tảng giao dịch hoặc trung gian môi giới.
 explanation: |
-  Chương này nêu ra ba phương pháp chính để có được Bitcoin, bao gồm chấp nhận thanh toán, mining, hoặc mua nó. Việc nhận Bitcoin dưới dạng trợ cấp của chính phủ không phải là một phương pháp mua tiêu chuẩn được công nhận.
+  Chương này nêu ra ba phương pháp chính để có được Bitcoin, bao gồm chấp nhận thanh toán, đào/khai thác, hoặc thu mua. Việc nhận Bitcoin dưới dạng trợ cấp của chính phủ không phải là một phương pháp thu mua được công nhận thông dụng.
 reviewed: true

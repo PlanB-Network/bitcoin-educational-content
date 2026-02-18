@@ -1,9 +1,9 @@
-question: Câu nào sau đây mô tả tốt nhất cách giao dịch Bitcoin đạt được tính cuối cùng?
-answer: Một khi đã được ghi lại trên blockchain, các giao dịch sẽ không thể thay đổi và không thể bị sửa đổi.
+question: Câu nào sau đây mô tả cách giao dịch Bitcoin đạt được tính cuối cùng đúng nhất?
+answer: Một khi đã được ghi lại trên blockchain, các giao dịch sẽ không thể thay đổi hoặc bị sửa đổi.
 wrong_answers:
-  - Các giao dịch có thể bị ngân hàng đảo ngược nếu có tranh chấp phát sinh.
+  - Các giao dịch có thể bị ngân hàng thay đổi nếu có tranh chấp phát sinh.
   - Người dùng phải có được sự chấp thuận từ nhiều cơ quan chính phủ để hoàn tất giao dịch.
-  - Bất kỳ người tham gia nào cũng có thể chỉnh sửa các giao dịch trước đó theo ý muốn nếu họ có mã đặc biệt.
+  - Bất kỳ người tham gia nào cũng có thể chỉnh sửa các giao dịch trước đó theo ý muốn nếu họ có mật mã.
 explanation: |
-  Blockchain của Bitcoin là một sổ cái chống giả mạo. Một khi giao dịch được xác nhận và đưa vào một khối, nó sẽ trở thành một phần của hồ sơ vĩnh viễn, đảm bảo tính cuối cùng.
+  Blockchain của Bitcoin là một cuốn sổ cái chống giả mạo. Một khi giao dịch được xác nhận và đưa vào một khối, nó sẽ vĩnh viễn trở thành một phần của cuốn sổ cái, đảm bảo tính cuối cùng.
 reviewed: true

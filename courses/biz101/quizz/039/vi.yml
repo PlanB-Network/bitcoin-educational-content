@@ -1,9 +1,9 @@
-question: Một điểm khác biệt chính giữa việc coi Bitcoin là tài sản kỹ thuật số so với việc coi nó như một loại tiền tệ trong kế toán là gì?
-answer: Là một tài sản kỹ thuật số, cơ sở chi phí và lãi/lỗ của mỗi giao dịch phải được theo dõi, trong khi nếu được coi như một loại tiền tệ, việc định giá lại sẽ đơn giản hơn và ít thường xuyên hơn.
+question: Điểm khác biệt chính giữa việc xem Bitcoin là tài sản kỹ thuật số so với việc coi nó như một loại tiền tệ trong luật kế toán là gì?
+answer: Khi là một tài sản kỹ thuật số, cơ sở chi phí và lãi/lỗ của mỗi giao dịch phải được theo dõi, trong khi nếu được coi như một loại tiền tệ, việc định giá sẽ đơn giản hơn và không thường xuyên hơn.
 wrong_answers:
-  - Khi được coi là tài sản kỹ thuật số, nó sẽ được miễn hoàn toàn mọi loại thuế.
-  - Khi được coi như một loại tiền tệ, không cần phải ghi chép lại các giao dịch.
+  - Khi được xem là tài sản kỹ thuật số, nó sẽ được miễn hoàn toàn mọi loại thuế.
+  - Khi được xem như một loại tiền tệ, không cần phải ghi lại các giao dịch.
   - Để xử lý nó như một loại tiền tệ, cần phải chuyển ngay sang phần mềm kế toán mới.
 explanation: |
-  Việc xử lý tài sản kỹ thuật số thường bao gồm việc tính toán lãi hoặc lỗ vốn trên mỗi giao dịch, làm tăng thêm tính phức tạp. Nếu Bitcoin được hạch toán như một loại tiền tệ, mọi việc sẽ đơn giản hơn; chỉ cần cập nhật giá trị pháp định định kỳ, như đã làm với các loại tiền tệ khác.
+  Việc xử lý tài sản kỹ thuật số thường bao gồm việc tính toán lãi hoặc lỗ trên vốn của mỗi giao dịch, làm tăng thêm tính phức tạp. Nếu Bitcoin được hạch toán như một loại tiền tệ, mọi việc sẽ đơn giản hơn; chỉ cần cập nhật giá trị định kỳ, như đã làm với các loại tiền tệ khác.
 reviewed: true

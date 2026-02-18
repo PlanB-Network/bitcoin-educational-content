@@ -1,9 +1,9 @@
-question: Làm thế nào để triển khai BTC Pay Server trong môi trường chuyên nghiệp?
-answer: Tại chỗ hoặc thông qua lưu trữ đám mây
+question: Làm thế nào để triển khai BTCPay Server trong môi trường chuyên nghiệp?
+answer: Triển khai tại doanh nghiệp hoặc thông qua điện toán đám mây
 wrong_answers:
   - Chỉ dành riêng cho các thiết bị phần cứng chuyên dụng
-  - Thông qua dịch vụ của bên thứ ba được thuê ngoài hoàn toàn
+  - Thông qua dịch vụ thuê ngoài hoàn toàn của bên cung cấp thứ ba
   - Là một ứng dụng di động
 explanation: |
-  Tính linh hoạt khi triển khai BTC Pay Server tại chỗ hoặc trên đám mây cho phép doanh nghiệp lựa chọn thiết lập phù hợp nhất với nhu cầu hoạt động của mình.
+  Tính linh hoạt khi triển khai BTCPay Server tại chỗ hoặc thông qua điện toán đám mây cho phép doanh nghiệp lựa chọn thiết lập phù hợp nhất với điều kiện hoạt động của mình.
 reviewed: true

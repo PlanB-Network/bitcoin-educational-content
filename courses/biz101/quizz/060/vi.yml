@@ -1,9 +1,9 @@
-question: Yêu cầu phần cứng chính để cấu hình Starter có thể chấp nhận thanh toán Bitcoin là gì?
+question: Yêu cầu cấu hình đơn giản với các phần cứng chính để có thể chấp nhận thanh toán với Bitcoin gồm những gì?
 answer: Một chiếc điện thoại thông minh
 wrong_answers:
-  - Một máy khai thác Bitcoin ASIC
-  - Một phần cứng wallet
+  - Một máy khai thác Bitcoin chuyên dụng ASIC 
+  - Một ví lạnh
   - Một máy chủ tự lưu trữ
 explanation: |
-  Cấu hình Starter chỉ yêu cầu điện thoại thông minh hoặc máy tính bảng có Lightning wallet, khiến nó trở thành giải pháp gọn nhẹ.
+  Cấu hình dành cho người bắt đầu chỉ yêu cầu điện thoại thông minh hoặc máy tính bảng có hỗ trợ ví Lightning, khiến nó trở thành giải pháp gọn nhẹ.
 reviewed: true

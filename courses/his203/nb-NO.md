@@ -191,7 +191,7 @@ Tusen takk til Loïc Morel for hans grundige korrekturlesing!
 
 
 
-Spørsmålet om forholdet mellom kryptovaluta og autoritet dukket ganske raskt opp i historien til Bitcoin. I desember 2010 trakk Satoshi Nakamoto seg fra offentligheten etter publiseringen av en artikkel i PC World som oppfordret WikiLeaks til å bruke Bitcoin. Som for å bekrefte intuisjonen hans, trakk artikkelen massiv oppmerksomhet til Bitcoin, og prisen steg fra 0,20 dollar til 32 dollar på bare noen få måneder. Satoshi fortsatte å kommunisere privat med sine nærmeste medarbeidere og forsvant til slutt våren 2011. Den siste meldingen fra Gavin Andresen, utvikleren som hadde overtatt prosjektet, informerte Bitcoins skaper om at han hadde blitt kontaktet av In-Q-Tel, et investeringsfond som forvaltes av CIA. Pandoras eske var virkelig åpen.
+Spørsmålet om forholdet mellom [kryptovaluta](https://planb.academy/resources/glossary/cryptocurrency) og autoritet dukket ganske raskt opp i historien til Bitcoin. I desember 2010 trakk Satoshi Nakamoto seg fra offentligheten etter publiseringen av en artikkel i PC World som oppfordret WikiLeaks til å bruke Bitcoin. Som for å bekrefte intuisjonen hans, trakk artikkelen massiv oppmerksomhet til Bitcoin, og prisen steg fra 0,20 dollar til 32 dollar på bare noen få måneder. Satoshi fortsatte å kommunisere privat med sine nærmeste medarbeidere og forsvant til slutt våren 2011. Den siste meldingen fra Gavin Andresen, utvikleren som hadde overtatt prosjektet, informerte Bitcoins skaper om at han hadde blitt kontaktet av In-Q-Tel, et investeringsfond som forvaltes av CIA. Pandoras eske var virkelig åpen.
 
 
 
@@ -387,7 +387,7 @@ Ikke alle ønsket publisiteten generated av Gawker-artikkelen velkommen. Det fak
 
 
 
-Spesielt programmereren Jeff Garzik, som var involvert i utviklingen av programvaren på den tiden, likte dårlig denne uvelkomne assosiasjonen. Etter at artikkelen ble publisert, tok han personlig [kontakt](https://www.theatlantic.com/technology/archive/2011/06/libertarian-dream-a-site-where-you-buy-drugs-with-digital-dollars/239776/) Adrien Chen via e-post for å forklare at Bitcoin ikke var så anonymt som det så ut til, ettersom alle transaksjoner ble permanent registrert i blokkjeden. Han avsluttet e-posten sin med denne vurderingen:
+Spesielt programmereren Jeff Garzik, som var involvert i utviklingen av programvaren på den tiden, likte dårlig denne uvelkomne assosiasjonen. Etter at artikkelen ble publisert, tok han personlig [kontakt](https://www.theatlantic.com/technology/archive/2011/06/libertarian-dream-a-site-where-you-buy-drugs-with-digital-dollars/239776/) Adrien Chen via e-post for å forklare at Bitcoin ikke var så anonymt som det så ut til, ettersom alle transaksjoner ble permanent registrert i [blokkjeden](https://planb.academy/resources/glossary/blockchain). Han avsluttet e-posten sin med denne vurderingen:
 
 
 > "Å forsøke å gjennomføre større ulovlige transaksjoner med bitcoin, gitt eksisterende statistiske analyseteknikker som brukes av politimyndigheter, er ganske dumt."
@@ -908,11 +908,11 @@ I 2011 flyttet han til Portsmouth, New Hampshire, som en del av *Free State Proj
 
 > "Den dagen var en av de viktigste dagene i livet mitt. Det var som å oppdage en stor sannhet, som å se inn i fremtiden. Jeg sluttet med alt jeg holdt på med og hoppet ned i kaninhullet."
 
-Motivasjonen hans var hovedsakelig ideologisk: Han lot seg forføre av systemets ustoppelige natur og umuligheten av å skape mer penger enn planlagt. Han [så](https://silverunderground.com/2011/06/bitcoin-the-separation-of-money-and-state/) Bitcoin som legemliggjøringen av "skillet mellom penger og stat". Han var også overbevist av den agoristiske praksisen som Samuel Konkin hadde fremmet, og [mente](https://bitcointalk.org/index.php?topic=34657.msg431717#msg431717) at "Bitcoin er for agorismen det gjellene er for fisken", det vil si et viktig tannhjul.
+Motivasjonen hans var hovedsakelig ideologisk: Han lot seg forføre av systemets ustoppelige natur og umuligheten av å skape mer penger enn planlagt. Han [så](https://silverunderground.com/2011/06/bitcoin-the-separation-of-money-and-state/) Bitcoin som legemliggjøringen av "skillet mellom penger og stat". Han var også overbevist av den agoristiske praksisen som Samuel Konkin hadde fremmet, og [mente](https://bitcointalk.org/index.php?topic=34657.msg431717#msg431717) at "Bitcoin er for [agorismen](https://planb.academy/resources/glossary/agorism) det gjellene er for fisken", det vil si et viktig tannhjul.
 
 
 
-I juni kjøpte Erik Voorhees en stor mengde bitcoins på et tidspunkt da prisen var på sitt høyeste. Han [prøvde](https://bitcointalk.org/index.php?topic=24198.msg300745#msg300745) GPU mining, men kjæresten likte den ikke, og han ble tvunget til å selge maskinene sine. I august reiste han til New York for å delta på en konferanse i regi av Bruce Wagner, der han møtte mange av aktørene i økosystemet.
+I juni kjøpte Erik Voorhees en stor mengde bitcoins på et tidspunkt da prisen var på sitt høyeste. Han [prøvde](https://bitcointalk.org/index.php?topic=24198.msg300745#msg300745) GPU [mining](https://planb.academy/resources/glossary/mining), men kjæresten likte den ikke, og han ble tvunget til å selge maskinene sine. I august reiste han til New York for å delta på en konferanse i regi av Bruce Wagner, der han møtte mange av aktørene i økosystemet.
 
 
 
@@ -932,7 +932,7 @@ Med Bitcoin hadde Ira Miller som mål "å bygge alternative systemer, for å kon
 
 
 
-De to mennene kommer godt overens, og ferdighetene deres utfyller hverandre. I august søkte Erik Voorhees etter en programmerer til å utvikle en av ideene sine, og Ira takket ja. Det var FeedZeBirds (bokstavelig talt "mate fuglene"), en annonseplattform som gjorde det mulig for brukere å booste innhold på Twitter ved å kjøpe retweets, som de [lanserte] (https://bitcointalk.org/index.php?topic=52638.msg628165#msg628165) den 23. november. Det var en tvilsom bruk (Twitter oppmuntret absolutt ikke til denne typen atferd), og utnyttet Bitcoins sensurmotstand og mangel på transaksjonsgebyrer. Den 28. november dukket de to partnerne [opp](https://www.youtube.com/watch?v=VuLAhZsFc1A) på *Bitcoin Show* for å markedsføre produktet sitt. Deretter utviklet de også betalingsprosessoren Paysius og e-postoverføringstjenesten Coinapult.
+De to mennene kommer godt overens, og ferdighetene deres utfyller hverandre. I august søkte Erik Voorhees etter en programmerer til å utvikle en av ideene sine, og Ira takket ja. Det var FeedZeBirds (bokstavelig talt "mate fuglene"), en annonseplattform som gjorde det mulig for brukere å booste innhold på Twitter ved å kjøpe retweets, som de [lanserte] (https://bitcointalk.org/index.php?topic=52638.msg628165#msg628165) den 23. november. Det var en tvilsom bruk (Twitter oppmuntret absolutt ikke til denne typen atferd), og utnyttet Bitcoins sensurmotstand og mangel på [transaksjonsgebyrer](https://planb.academy/resources/glossary/transaction-fees). Den 28. november dukket de to partnerne [opp](https://www.youtube.com/watch?v=VuLAhZsFc1A) på *Bitcoin Show* for å markedsføre produktet sitt. Deretter utviklet de også betalingsprosessoren Paysius og e-postoverføringstjenesten Coinapult.
 
 
 
@@ -1234,7 +1234,7 @@ I 2011 førte Bitcoins manglende behov for autorisasjon til at medlemmene i samf
 
 
 
-En av de involverte i denne bevegelsen var James McCarthy, som brukte pseudonymet Nefario på Bitcoin-forumet, med referanse til figuren med samme navn i animasjonsfilmen *Despicable Me*. Nefario var en ire bosatt i Kina, med jobb som engelskprofessor ved et universitet. Han var interessert i den østerrikske skolen og ideene til cypherpunkerne, og [erklærte](https://web.archive.org/web/20110607050421/http://bitcoinweekly.com/articles/interview-with-nefario-founder-of-bitcoin-global) seg selv for å være "noe av en cypherpunk". Han [oppdaget](https://bitcointalk.org/index.php?topic=2502.msg33800#msg33800) eksistensen av Bitcoin i 2010 og utvunnet over tusen av dem. Deretter ble han involvert i flere prosjekter, blant annet nettmagasinprosjektet Bitcoin Weekly.
+En av de involverte i denne bevegelsen var James McCarthy, som brukte pseudonymet Nefario på Bitcoin-forumet, med referanse til figuren med samme navn i animasjonsfilmen *Despicable Me*. Nefario var en ire bosatt i Kina, med jobb som engelskprofessor ved et universitet. Han var interessert i [den østerrikske skolen](https://planb.academy/resources/glossary/austrian-school) og ideene til cypherpunkerne, og [erklærte](https://web.archive.org/web/20110607050421/http://bitcoinweekly.com/articles/interview-with-nefario-founder-of-bitcoin-global) seg selv for å være "noe av en cypherpunk". Han [oppdaget](https://bitcointalk.org/index.php?topic=2502.msg33800#msg33800) eksistensen av Bitcoin i 2010 og utvunnet over tusen av dem. Deretter ble han involvert i flere prosjekter, blant annet nettmagasinprosjektet Bitcoin Weekly.
 
 
 
@@ -1428,7 +1428,7 @@ Problemet med fullstendige implementasjoner er at de er ressurskrevende og uprak
 
 
 
-Den første ideen var å bruke en node som en ekstern server, som brukeren har full tillit til. I februar 2011 lanserte Amir Taaki [https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538] en programvareklient for å administrere en wallet lokalt ved å koble seg til en eksisterende node kalt Spesmilo. Klienten kjørte opprinnelig på Linux, men ble snart portert til Windows. Navnet var en referanse til spesmilo, den gamle internasjonale valutaenheten som ble foreslått av den sveitsiske matematikeren René de Saussure (broren til lingvisten Ferdinand) i 1907, som en del av Esperanto-prosjektet.
+Den første ideen var å bruke en [node](https://planb.academy/resources/glossary/node) som en ekstern server, som brukeren har full tillit til. I februar 2011 lanserte Amir Taaki [https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538] en programvareklient for å administrere en wallet lokalt ved å koble seg til en eksisterende node kalt Spesmilo. Klienten kjørte opprinnelig på Linux, men ble snart portert til Windows. Navnet var en referanse til spesmilo, den gamle internasjonale valutaenheten som ble foreslått av den sveitsiske matematikeren René de Saussure (broren til lingvisten Ferdinand) i 1907, som en del av Esperanto-prosjektet.
 
 
 
@@ -1498,7 +1498,7 @@ Det ble planlagt to typer avledning. Den ene typen (type 1) var enkel og generer
 
 
 
-Senere, i februar 2012, fant standardiseringen sted med [publiseringen](https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198) av BIP 32. Den beskrev den generelle strukturen til *Hierarkisk deterministisk Wallets*, HD Wallets, der avledninger brukes metodisk til å utlede seed nøkler og adresser. Den har gradvis blitt tatt i bruk av de fleste wallet opp gjennom årene.
+Senere, i februar 2012, fant standardiseringen sted med [publiseringen](https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198) av [BIP](https://planb.academy/resources/glossary/bip) 32. Den beskrev den generelle strukturen til *Hierarkisk deterministisk Wallets*, HD Wallets, der avledninger brukes metodisk til å utlede seed nøkler og adresser. Den har gradvis blitt tatt i bruk av de fleste wallet opp gjennom årene.
 
 
 
@@ -1700,7 +1700,7 @@ Bitbills hadde en viss suksess, men Doug Feigelson slet med å holde tritt med e
 
 
 
-Mike Caldwell var en 33 år gammel amerikansk utvikler som bodde i en forstad til Salt Lake City, Utah, og drev et firma for forretningsautomatisering ved navn [Swipeclock] (https://www.linkedin.com/company/swipeclock/). Pseudonymet hans, Casascius, er en latinisert form av CASAS, initialene til ordtaket *call a spade a spade*. Han var rasjonalist og fascinert av kryptografi, og ble tiltrukket av den tekniske siden ved Bitcoin. Han prøvde seg en stund på mining.
+Mike Caldwell var en 33 år gammel amerikansk utvikler som bodde i en forstad til Salt Lake City, Utah, og drev et firma for forretningsautomatisering ved navn [Swipeclock] (https://www.linkedin.com/company/swipeclock/). Pseudonymet hans, Casascius, er en latinisert form av CASAS, initialene til ordtaket *call a spade a spade*. Han var rasjonalist og fascinert av [kryptografi](https://planb.academy/resources/glossary/cryptography), og ble tiltrukket av den tekniske siden ved Bitcoin. Han prøvde seg en stund på mining.
 
 
 
@@ -1757,7 +1757,7 @@ For å løse dette problemet og bryte sporbarheten av midler, ble løsningen myn
 
 
 
-Den første er BitLaundry. Denne tjenesten ble [lansert](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823) i september 2010 av Peter Vessenes, en amerikansk gründer med en grad i kryptografi som oppdaget eksistensen av Bitcoin på tidspunktet for slashdotting. Blenderen [forsynte](https://maltemoeser.de/paper/money-laundering.pdf#page=5) brukeren med en engangsadresse, som midlene som skulle anonymiseres ble sendt til. Bitcoinsene ble deretter sendt tilbake i form av flere mynter (UTXO), i en transaksjon med flere innganger som inkluderer bitcoins fra andre brukere, noe som gjør blandingen effektiv. Gebyrene som ble belastet var rundt 2,5 % av det involverte beløpet. I mai 2011, da Peter Vessenes [overførte] (https://bitcointalk.org/index.php?topic=963.msg122955#msg122955) tjenesten til Mike Gogulski, en aktivist som var kjent for å være statsløs, etter å ha frasagt seg sitt amerikanske statsborgerskap uten å ha et annet.
+Den første er BitLaundry. Denne tjenesten ble [lansert](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823) i september 2010 av Peter Vessenes, en amerikansk gründer med en grad i kryptografi som oppdaget eksistensen av Bitcoin på tidspunktet for slashdotting. Blenderen [forsynte](https://maltemoeser.de/paper/money-laundering.pdf#page=5) brukeren med en engangsadresse, som midlene som skulle anonymiseres ble sendt til. Bitcoinsene ble deretter sendt tilbake i form av flere mynter ([UTXO](https://planb.academy/resources/glossary/utxo)), i en transaksjon med flere innganger som inkluderer bitcoins fra andre brukere, noe som gjør blandingen effektiv. Gebyrene som ble belastet var rundt 2,5 % av det involverte beløpet. I mai 2011, da Peter Vessenes [overførte] (https://bitcointalk.org/index.php?topic=963.msg122955#msg122955) tjenesten til Mike Gogulski, en aktivist som var kjent for å være statsløs, etter å ha frasagt seg sitt amerikanske statsborgerskap uten å ha et annet.
 
 
 
@@ -1777,7 +1777,7 @@ Den tredje var av et spesielt slag, ettersom det var mikseren som var innebygd i
 
 
 
-Spredningen av sentraliserte miksere hadde effekten av å katalysere tenkningen rundt desentralisert myntmiksing, som begynte sommeren 2011 med et forslag [forslag](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) fremmet av Hashcoin. Dette førte til [formalisering](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902) av CoinJoin av Gregory Maxwell i 2013. Men det er en helt annen historie...
+Spredningen av sentraliserte miksere hadde effekten av å katalysere tenkningen rundt desentralisert myntmiksing, som begynte sommeren 2011 med et forslag [forslag](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) fremmet av Hashcoin. Dette førte til [formalisering](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902) av [CoinJoin](https://planb.academy/resources/glossary/coinjoin) av Gregory Maxwell i 2013. Men det er en helt annen historie...
 
 
 
@@ -2086,7 +2086,7 @@ Etter Satoshi Nakamotos avgang ble programvareutviklingen overtatt av fellesskap
 
 
 
-Vinteren 2011-2012 oppsto det en kontrovers rundt implementeringen av multisignatur i Bitcoin. Det dreide seg blant annet om ordningen kjent som "Pay to Script Hash", eller P2SH. Pete Rizzo og Aaron van Wirdum [ville](https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war) kalle denne konflikten "Slaget om P2SH". Dette var den første store striden om protokollens utvikling, og den første som reiste spørsmålet om styring.
+Vinteren 2011-2012 oppsto det en kontrovers rundt implementeringen av multisignatur i Bitcoin. Det dreide seg blant annet om ordningen kjent som "Pay to [Script](https://planb.academy/resources/glossary/script) Hash", eller P2SH. Pete Rizzo og Aaron van Wirdum [ville](https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war) kalle denne konflikten "Slaget om P2SH". Dette var den første store striden om protokollens utvikling, og den første som reiste spørsmålet om styring.
 
 
 
@@ -2642,7 +2642,7 @@ Til tross for dette tilbakeslaget er Litecoin en suksesshistorie. Sammen med nam
 
 
 
-Muligheten for å tjene penger på å klone Bitcoin og tjene på den stigende verdien av enhetene var åpenbar. Allerede i november 2010, før ideen om BitDNS dukket opp, ble denne muligheten tatt opp på forumet. Ribuck, et aktivt forummedlem på den tiden, [skrev](https://bitcointalk.org/index.php?topic=1647.msg20646#msg20646) en anklage mot fremtidige Bitcoin-kopier, samtidig som han skapte begrepet "shitcoin" i prosessen:
+Muligheten for å tjene penger på å klone Bitcoin og tjene på den stigende verdien av enhetene var åpenbar. Allerede i november 2010, før ideen om BitDNS dukket opp, ble denne muligheten tatt opp på forumet. Ribuck, et aktivt forummedlem på den tiden, [skrev](https://bitcointalk.org/index.php?topic=1647.msg20646#msg20646) en anklage mot fremtidige Bitcoin-kopier, samtidig som han skapte begrepet "[shitcoin](https://planb.academy/resources/glossary/shitcoin)" i prosessen:
 
 
 

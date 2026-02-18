@@ -1428,7 +1428,7 @@ Täydellisten toteutusten ongelmana on se, että ne vaativat paljon resursseja j
 
 
 
-Ensimmäinen ajatus oli käyttää solmua etäpalvelimena, johon käyttäjä luottaa täysin. Helmikuussa 2011 Amir Taaki [julkaisi](https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538) ohjelmistoasiakkaan wallet:n hallintaan paikallisesti liittymällä olemassa olevaan solmuun nimeltä Spesmilo. Asiakasohjelma toimi aluksi Linuxissa, mutta se siirrettiin pian Windowsille. Nimi oli viittaus spesmiloon, muinaiseen kansainväliseen rahayksikköön, jota sveitsiläinen matemaatikko René de Saussure (kielitieteilijä Ferdinandin veli) ehdotti vuonna 1907 osana esperanto-projektia.
+Ensimmäinen ajatus oli käyttää [solmua](https://planb.academy/resources/glossary/node) etäpalvelimena, johon käyttäjä luottaa täysin. Helmikuussa 2011 Amir Taaki [julkaisi](https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538) ohjelmistoasiakkaan wallet:n hallintaan paikallisesti liittymällä olemassa olevaan solmuun nimeltä Spesmilo. Asiakasohjelma toimi aluksi Linuxissa, mutta se siirrettiin pian Windowsille. Nimi oli viittaus spesmiloon, muinaiseen kansainväliseen rahayksikköön, jota sveitsiläinen matemaatikko René de Saussure (kielitieteilijä Ferdinandin veli) ehdotti vuonna 1907 osana esperanto-projektia.
 
 
 
@@ -1498,7 +1498,7 @@ Suunnitelmissa oli kaksi johdannaislajia. Toinen tyyppi (tyyppi 1) oli suoraviiv
 
 
 
-Myöhemmin, helmikuussa 2012, standardointi tapahtui BIP 32:n [julkaisun] (https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198) myötä. Siinä kuvattiin *hierarkkisten determinististen Wallet:ien*, HD Wallet:ien, yleinen rakenne, jossa johdannaisia käytetään metodisesti seed-avainten ja -osoitteiden johtamiseen. Useimmat wallet:t ovat vuosien mittaan vähitellen ottaneet sen käyttöön.
+Myöhemmin, helmikuussa 2012, standardointi tapahtui [BIP](https://planb.academy/resources/glossary/bip) 32:n [julkaisun] (https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198) myötä. Siinä kuvattiin *hierarkkisten determinististen Wallet:ien*, HD Wallet:ien, yleinen rakenne, jossa johdannaisia käytetään metodisesti seed-avainten ja -osoitteiden johtamiseen. Useimmat wallet:t ovat vuosien mittaan vähitellen ottaneet sen käyttöön.
 
 
 
@@ -1600,7 +1600,7 @@ Ensimmäinen kehittäjä, joka käytti tätä kirjastoa, oli foorumin jäsen Dog
 
 
 
-BitcoinJS-kirjastoa [käytti](https://web.archive.org/web/20180611012256/https://github.com/zootreeves/blockchain.info) myös Benjamin Reeves, Yorkissa asuva nuori brittikehittäjä, joka tunnetaan foorumilla nimellä Piuk. Hän oli hyvin erakko, mutta myös työnarkomaani. Elokuussa hän [kehitti](https://bitcointalk.org/index.php?topic=40264.msg500726#msg500726) lohko-etsintäohjelman, joka "sisältää orpoja lohkoja, joita voidaan käyttää mahdollisten tuplalähetysten jäljittämiseen" ja "arvioi toteutuneiden BTC-transaktioiden todellisen määrän (ei vain lähetetyn BTC:n)", ja jota hän isännöi henkilökohtaisella verkkosivustollaan. Se kilpailee Theymosin Bitcoin Block Explorerin (BBE) ja [ABE:n] (https://bitcointalk.org/index.php?topic=22785.msg286515#msg286515) kanssa, joka on avoimen lähdekoodin vaihtoehto, joka on tarkoitettu käyttäjien isännöimäksi. Lokakuussa sivusto [sai](https://bitcointalk.org/index.php?topic=40264.msg576916#msg576916) oman verkkotunnuksen: Blockchain.info. Siitä tuli nopeasti yhteisön jäsenten suosima tutkimusohjelma.
+BitcoinJS-kirjastoa [käytti](https://web.archive.org/web/20180611012256/https://github.com/zootreeves/blockchain.info) myös Benjamin Reeves, Yorkissa asuva nuori brittikehittäjä, joka tunnetaan foorumilla nimellä Piuk. Hän oli hyvin erakko, mutta myös työnarkomaani. Elokuussa hän [kehitti](https://bitcointalk.org/index.php?topic=40264.msg500726#msg500726) [lohko](https://planb.academy/resources/glossary/block)-etsintäohjelman, joka "sisältää orpoja lohkoja, joita voidaan käyttää mahdollisten tuplalähetysten jäljittämiseen" ja "arvioi toteutuneiden BTC-transaktioiden todellisen määrän (ei vain lähetetyn BTC:n)", ja jota hän isännöi henkilökohtaisella verkkosivustollaan. Se kilpailee Theymosin Bitcoin Block Explorerin (BBE) ja [ABE:n] (https://bitcointalk.org/index.php?topic=22785.msg286515#msg286515) kanssa, joka on avoimen lähdekoodin vaihtoehto, joka on tarkoitettu käyttäjien isännöimäksi. Lokakuussa sivusto [sai](https://bitcointalk.org/index.php?topic=40264.msg576916#msg576916) oman verkkotunnuksen: Blockchain.info. Siitä tuli nopeasti yhteisön jäsenten suosima tutkimusohjelma.
 
 
 
@@ -1700,7 +1700,7 @@ Bitbills menestyi jonkin verran, mutta Doug Feigelsonilla oli vaikeuksia pysyä 
 
 
 
-Mike Caldwell oli 33-vuotias yhdysvaltalainen kehittäjä, joka asui Salt Lake Cityn esikaupunkialueella Utahin osavaltiossa ja pyöritti liikeautomaatioyritystä nimeltä [Swipeclock](https://www.linkedin.com/company/swipeclock/). Hänen salanimensä Casascius on latinankielinen muoto sanonnasta CASAS, joka on sanonnan *call a spade a spade* alkukirjaimet. Hän oli rationalisti, mutta kryptografia kiehtoi häntä, ja Bitcoin:n tekninen puoli viehätti häntä. Hän kokeili jonkin aikaa mining:tä.
+Mike Caldwell oli 33-vuotias yhdysvaltalainen kehittäjä, joka asui Salt Lake Cityn esikaupunkialueella Utahin osavaltiossa ja pyöritti liikeautomaatioyritystä nimeltä [Swipeclock](https://www.linkedin.com/company/swipeclock/). Hänen salanimensä Casascius on latinankielinen muoto sanonnasta CASAS, joka on sanonnan *call a spade a spade* alkukirjaimet. Hän oli rationalisti, mutta [kryptografia](https://planb.academy/resources/glossary/cryptography) kiehtoi häntä, ja Bitcoin:n tekninen puoli viehätti häntä. Hän kokeili jonkin aikaa mining:tä.
 
 
 
@@ -1757,7 +1757,7 @@ Tämän ongelman ratkaisemiseksi ja varojen jäljitettävyyden katkaisemiseksi r
 
 
 
-Ensimmäinen on BitLaundry. Tämän palvelun [käynnisti](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823) syyskuussa 2010 Peter Vessenes, amerikkalainen yrittäjä, jolla on tutkinto salakirjoituksesta ja joka löysi Bitcoin:n olemassaolon slashdottingin aikaan. Vessenes [tarjosi](https://maltemoeser.de/paper/money-laundering.pdf#page=5) käyttäjälle kertakäyttöisen osoitteen, johon anonymisoitavat varat lähetettiin. Bitcoineja lähetettiin sitten takaisin useiden kolikoiden muodossa (UTXO), moninkertaisen tapahtuman puitteissa, johon sisältyy muiden käyttäjien bitcoineja, mikä tekee sekoittamisesta tehokasta. Veloitetut maksut olivat noin 2,5 prosenttia kyseisestä summasta. Toukokuussa 2011 Peter Vessenes [siirsi](https://bitcointalk.org/index.php?topic=963.msg122955#msg122955) palvelun Mike Gogulskille, aktivistille, joka on tunnettu siitä, että hän on kansalaisuudeton, sillä hän oli luopunut Yhdysvaltain kansalaisuudesta omistamatta toista kansalaisuutta.
+Ensimmäinen on BitLaundry. Tämän palvelun [käynnisti](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823) syyskuussa 2010 Peter Vessenes, amerikkalainen yrittäjä, jolla on tutkinto salakirjoituksesta ja joka löysi Bitcoin:n olemassaolon slashdottingin aikaan. Vessenes [tarjosi](https://maltemoeser.de/paper/money-laundering.pdf#page=5) käyttäjälle kertakäyttöisen osoitteen, johon anonymisoitavat varat lähetettiin. Bitcoineja lähetettiin sitten takaisin useiden kolikoiden muodossa ([UTXO](https://planb.academy/resources/glossary/utxo)), moninkertaisen tapahtuman puitteissa, johon sisältyy muiden käyttäjien bitcoineja, mikä tekee sekoittamisesta tehokasta. Veloitetut maksut olivat noin 2,5 prosenttia kyseisestä summasta. Toukokuussa 2011 Peter Vessenes [siirsi](https://bitcointalk.org/index.php?topic=963.msg122955#msg122955) palvelun Mike Gogulskille, aktivistille, joka on tunnettu siitä, että hän on kansalaisuudeton, sillä hän oli luopunut Yhdysvaltain kansalaisuudesta omistamatta toista kansalaisuutta.
 
 
 
@@ -1777,7 +1777,7 @@ Kolmas oli erikoislaatuinen, sillä se oli Ben Reevesin Blockchain.info wallet:e
 
 
 
-Keskitettyjen sekoittajien yleistyminen katalysoi ajattelua hajautetun kolikon sekoittamisesta, joka alkoi kesällä 2011 Hashcoinin tekemästä ehdotuksesta [proposal](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793). Tämä johti Gregory Maxwell:n CoinJoin:n [formalisointiin](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902) vuonna 2013. Mutta se on kokonaan toinen tarina...
+Keskitettyjen sekoittajien yleistyminen katalysoi ajattelua hajautetun kolikon sekoittamisesta, joka alkoi kesällä 2011 Hashcoinin tekemästä ehdotuksesta [proposal](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793). Tämä johti Gregory Maxwell:n [CoinJoin](https://planb.academy/resources/glossary/coinjoin):n [formalisointiin](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902) vuonna 2013. Mutta se on kokonaan toinen tarina...
 
 
 
@@ -1996,7 +1996,7 @@ Yksi keino torjua mining-altaan laajan käytön aiheuttamaa keskittämistä oli 
 
 
 
-Malli [perustui](https://im.forre.st/pb/85341005.txt) "sharechainiin, jota ylläpitivät osallistuvat louhijat, jotka olivat yhteydessä vertaisverkkoon, kuten Bitcoin:n lohkoketjussa. Jokainen osake sisältää edellisen osakkeen sormenjäljen, joka yhdistää osakkeet toisiinsa ja varmistaa kokonaisuuden eheyden. Vaikeusastetta (joka on aluksi 600 kertaa pienempi kuin pääverkon vaikeusaste) säädetään säännöllisesti, jotta voidaan taata 5 sekunnin keskimääräinen väli. Korvausmenetelmänä on maksu viimeisen N osakkeen mukaan (PPLNS), joka suoritetaan suoraan palkkiotapahtumassa aina kun lohko löytyy.
+Malli [perustui](https://im.forre.st/pb/85341005.txt) "sharechainiin, jota ylläpitivät osallistuvat louhijat, jotka olivat yhteydessä vertaisverkkoon, kuten Bitcoin:n lohkoketjussa. Jokainen osake sisältää edellisen osakkeen sormenjäljen, joka yhdistää osakkeet toisiinsa ja varmistaa kokonaisuuden eheyden. Vaikeusastetta (joka on aluksi 600 kertaa pienempi kuin pääverkon [vaikeusaste](https://planb.academy/resources/glossary/difficulty)) säädetään säännöllisesti, jotta voidaan taata 5 sekunnin keskimääräinen väli. Korvausmenetelmänä on maksu viimeisen N osakkeen mukaan (PPLNS), joka suoritetaan suoraan palkkiotapahtumassa aina kun lohko löytyy.
 
 
 
@@ -2086,7 +2086,7 @@ Satoshi Nakamoto:n lähdön jälkeen ohjelmistokehitys siirtyi yhteisölle, jonk
 
 
 
-Talvella 2011-2012 syntyi kiistaa Bitcoin:n monialakirjoituksen käyttöönotosta. Se koski muun muassa järjestelmää, joka tunnetaan nimellä "Pay to Script Hash" eli P2SH. Pete Rizzo ja Aaron van Wirdum [haluaisivat](https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war) kutsua tätä kiistaa "Battle for P2SH". Tämä oli ensimmäinen suuri kiista protokollan kehityksestä, ja se oli ensimmäinen, joka nosti esiin kysymyksen hallinnosta.
+Talvella 2011-2012 syntyi kiistaa Bitcoin:n monialakirjoituksen käyttöönotosta. Se koski muun muassa järjestelmää, joka tunnetaan nimellä "Pay to [Script](https://planb.academy/resources/glossary/script) Hash" eli P2SH. Pete Rizzo ja Aaron van Wirdum [haluaisivat](https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war) kutsua tätä kiistaa "Battle for P2SH". Tämä oli ensimmäinen suuri kiista protokollan kehityksestä, ja se oli ensimmäinen, joka nosti esiin kysymyksen hallinnosta.
 
 
 
@@ -2642,7 +2642,7 @@ Tästä takaiskusta huolimatta Litecoin on menestystarina. Se on namecoinin ohel
 
 
 
-Mahdollisuus ansaita rahaa kloonaamalla Bitcoin ja hyötymällä yksiköiden arvon noususta oli ilmeinen. Jo marraskuussa 2010, jo ennen kuin ajatus BitDNS:stä syntyi, tämä mahdollisuus otettiin esille foorumilla. Ribuck, joka oli tuolloin foorumin aktiivinen jäsen, [kirjoitti](https://bitcointalk.org/index.php?topic=1647.msg20646#msg20646) syytöksen Bitcoin:n tulevista kopioista ja keksi samalla termin "shitcoin":
+Mahdollisuus ansaita rahaa kloonaamalla Bitcoin ja hyötymällä yksiköiden arvon noususta oli ilmeinen. Jo marraskuussa 2010, jo ennen kuin ajatus BitDNS:stä syntyi, tämä mahdollisuus otettiin esille foorumilla. Ribuck, joka oli tuolloin foorumin aktiivinen jäsen, [kirjoitti](https://bitcointalk.org/index.php?topic=1647.msg20646#msg20646) syytöksen Bitcoin:n tulevista kopioista ja keksi samalla termin "[shitcoin](https://planb.academy/resources/glossary/shitcoin)":
 
 
 

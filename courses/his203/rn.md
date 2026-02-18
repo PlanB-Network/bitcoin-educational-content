@@ -250,7 +250,7 @@ Nk’uko vyasiguwe, uburyo yakoresheje bwari hejuru ya vyose ubw’uguhindura ib
 
 > "Ubu, intumbero zanje zarahindutse. Ndashaka gukoresha inyigisho y'ubutunzi nk'uburyo bwo gukuraho ikoreshwa ry'uguhatira n'ubukazi mu bantu. Nk'uko ubuja bwakuweho cane hose, nizera ko ubukazi, uguhatira n'ubwoko bwose bw'inguvu umuntu umwe akoresha ku wundi bishobora guhera. iki ni co kintu ngira ubu. Uburyo bwiza bwo guhindura intwaro ni uguhindura ivyiyumviro vy'abarongowe, ariko kugira ngo ivyo bishoboke, ndiko ndarema uburyo bwo kwigana ubutunzi kugira ngo nshobore kubona neza uko vyogenda kubaho mw'isi ata gukoresha inguvu."
 
-Ico ciyumviro nticari gishasha vy’ukuri. Uretse uburyo bw’abanyagihugu gusa, bwari kandi ikigereranyo c’uko aba cypherpunks bari bafise umugambi wo gukoresha “amasoko y’umwirabura” kugira ngo bakoreshe umwidegemvyo wabo mu vy’ubutunzi, ikintu dusanga muri [*Cyphernomicon*] ca Tim May.
+Ico ciyumviro nticari gishasha vy’ukuri. Uretse uburyo bw’abanyagihugu gusa, bwari kandi ikigereranyo c’uko aba [cypherpunks](https://planb.academy/resources/glossary/cypherpunks) bari bafise umugambi wo gukoresha “amasoko y’umwirabura” kugira ngo bakoreshe umwidegemvyo wabo mu vy’ubutunzi, ikintu dusanga muri [*Cyphernomicon*] ca Tim May.
 
 
 
@@ -1498,7 +1498,7 @@ Hari ubwoko bubiri bw’ivyo bivako vyari vyitezwe. Ubwoko bumwe (ubwoko 1) bwar
 
 
 
-Mu nyuma, muri Ruhuhuma 2012, ugushinga urugero kwabayeho n’[ugusohoka] kwa BIP 32. Rwaradondora imiterere rusangi ya *Hierarchical GW-7s,HD2mini-6. aho amajambo akomoka akoreshwa mu buryo bubereye kugira ngo umuntu akureho imfunguruzo n’amaderesi ya seed. Buhoro buhoro ryarashizweho n’indege nyinshi za wallet mu myaka iheze.
+Mu nyuma, muri Ruhuhuma 2012, ugushinga urugero kwabayeho n’[ugusohoka] kwa [BIP](https://planb.academy/resources/glossary/bip) 32. Rwaradondora imiterere rusangi ya *Hierarchical GW-7s,HD2mini-6. aho amajambo akomoka akoreshwa mu buryo bubereye kugira ngo umuntu akureho imfunguruzo n’amaderesi ya seed. Buhoro buhoro ryarashizweho n’indege nyinshi za wallet mu myaka iheze.
 
 
 
@@ -1757,7 +1757,7 @@ Kugira ngo ico kibazo gitorerwe umuti no guhagarika ukuntu amahera ashobora guku
 
 
 
-Irya mbere ni BitLaundry. Iyi serivisi [yatangujwe] muri Nzero 2010 na Peter Vessenes, umunyamerika w’umunyamigambi afise impamyabushobozi mu vy’ubuhinga bwo gukingira amakuru, akaba ari we yasanze hariho Bitcoin ku gihe ca slash. Ico gikoresho [catanze](https://maltemoeser.de/paper/money-laundering.pdf#page=5) uwugikoresha afise aderesi yo gukoresha rimwe gusa, aho amahera azomenyekana yarungikwa. Ivyo biceri vyaciye bisubirwamwo mu buryo bw’ibiceri vyinshi (UTXO), mu gihe c’ugucuruza kw’injiza nyinshi harimwo n’ibiceri vy’abandi bakoresha, bituma iyo nzira yo gukorana igira ico ikoze. Amafaranga yasabwa yari hafi 2,5% y’amahera yarimwo. Muri Rusama 2011, abonye ingorane zo mu vy’amategeko zishobora guterwa n’ico gikorwa, Peter Vessenes [yarungikiye Mike Gogulski, umunyagihugu atagira ubwenegihugu bwa Amerika, azwi cane ko ari umunyagihugu w’Umunyamerika. gutunga uwundi.
+Irya mbere ni BitLaundry. Iyi serivisi [yatangujwe] muri Nzero 2010 na Peter Vessenes, umunyamerika w’umunyamigambi afise impamyabushobozi mu vy’ubuhinga bwo gukingira amakuru, akaba ari we yasanze hariho Bitcoin ku gihe ca slash. Ico gikoresho [catanze](https://maltemoeser.de/paper/money-laundering.pdf#page=5) uwugikoresha afise aderesi yo gukoresha rimwe gusa, aho amahera azomenyekana yarungikwa. Ivyo biceri vyaciye bisubirwamwo mu buryo bw’ibiceri vyinshi ([UTXO](https://planb.academy/resources/glossary/utxo)), mu gihe c’ugucuruza kw’injiza nyinshi harimwo n’ibiceri vy’abandi bakoresha, bituma iyo nzira yo gukorana igira ico ikoze. Amafaranga yasabwa yari hafi 2,5% y’amahera yarimwo. Muri Rusama 2011, abonye ingorane zo mu vy’amategeko zishobora guterwa n’ico gikorwa, Peter Vessenes [yarungikiye Mike Gogulski, umunyagihugu atagira ubwenegihugu bwa Amerika, azwi cane ko ari umunyagihugu w’Umunyamerika. gutunga uwundi.
 
 
 
@@ -1777,7 +1777,7 @@ Ica gatatu cari c'ubwoko budasanzwe, kuko cari igikoresho co guvanga cari mu gik
 
 
 
-Ukwiyongera kw’abavanga ibintu bihurikiye hamwe kwagize ingaruka zo gutuma abantu biyumvira ivy’uguvanga ibiceri bihurikiye hamwe, ivyo bikaba vyatanguye mu ci ca 2011 n’iciyumviro [iciyumviro] Ivyo vyatumye [ugushirwa mu ngiro] kwa CoinJoin na Gregory Maxwell mu 2013. Ariko iyo ni indi nkuru yose hamwe...
+Ukwiyongera kw’abavanga ibintu bihurikiye hamwe kwagize ingaruka zo gutuma abantu biyumvira ivy’uguvanga ibiceri bihurikiye hamwe, ivyo bikaba vyatanguye mu ci ca 2011 n’iciyumviro [iciyumviro] Ivyo vyatumye [ugushirwa mu ngiro] kwa [CoinJoin](https://planb.academy/resources/glossary/coinjoin) na Gregory Maxwell mu 2013. Ariko iyo ni indi nkuru yose hamwe...
 
 
 
@@ -1964,7 +1964,7 @@ Ibikorwa vy’uguseruka vy’ibidengeri vya bose (nka Deepbit, ivyo [vyasohoye](
 
 
 
-Naho ari ukwo, ivyo ni vyo vyabaye mu ntango z’ukwezi kwa Nyakanga, igihe umugabane wa pool ya Tycho Deepbit ku rugero rwa hash rwagereranywa wegera 50% (mu gihe gito). Ubwo butegetsi bwatumye abantu bamwebamwe bo muri iyo nama bavuga bati: "Umutekano wa Bitcoin uri hafi gusenyuka". Ariko ivyo vyemezo vyari birenze urugero gatoyi: abakoresha bafise ivyiyumviro vyiza, barababaye, berekana [ko] (https://bitcointalk.org/index.php?topic=26630.msg333929#msg333929) uwo mukoresha ata nyungu yari afise mu vy’ubutunzi mu gutera urubuga nk’urwo, kandi ko ingaruka z’ico gitero zoba zifise aho zigarukira [ko](ko](https://bitcointalk.org/index.php?topic=26630.msg334029#msg334029) abaje mu nama bafise umwidegemvyo wo guhindura igikorwa igihe cose, kuko "umukoresha w'ikidengeri ntagenzura ibikoresho vy'abagize ikidengeri". Hari rero ingorane yo gushiramwo ibintu vyose hamwe, ariko ntiyari ikomeye nk’uko vyasa.
+Naho ari ukwo, ivyo ni vyo vyabaye mu ntango z’ukwezi kwa Nyakanga, igihe umugabane wa pool ya Tycho Deepbit ku rugero rwa hash rwagereranywa wegera 50% (mu gihe gito). Ubwo butegetsi bwatumye abantu bamwebamwe bo muri iyo nama bavuga bati: "Umutekano wa Bitcoin uri hafi gusenyuka". Ariko ivyo vyemezo vyari birenze urugero gatoyi: abakoresha bafise ivyiyumviro vyiza, barababaye, berekana [ko] (https://bitcointalk.org/index.php?topic=26630.msg333929#msg333929) uwo mukoresha ata nyungu yari afise mu vy’ubutunzi mu gutera urubuga nk’urwo, kandi ko ingaruka z’ico gitero zoba zifise aho zigarukira [ko](ko](https://bitcointalk.org/index.php?topic=26630.msg334029#msg334029) abaje mu nama bafise umwidegemvyo wo guhindura igikorwa igihe cose, kuko "umukoresha w'ikidengeri ntagenzura ibikoresho vy'abagize ikidengeri". Hari rero [ingorane](https://planb.academy/resources/glossary/difficulty) yo gushiramwo ibintu vyose hamwe, ariko ntiyari ikomeye nk’uko vyasa.
 
 
 
@@ -2090,7 +2090,7 @@ Mu rushana rwo mu mwaka w'2011-2012, haradutse impaka ku bijanye n'ugushirwa mu 
 
 
 
-Muri iki gice, turasubira kuraba iki gice kidasanzwe mu mateka y’ubuhinga bwa Bitcoin. Mbere, tuzosuzuma iterambere rya porogarama n’iciyumviro c’umukono mwinshi. Turaheza turabe ivyiyumviro bitandukanye vyo gushirwa mu ngiro ubu buhinga, dutanguriye kuri OP\_EVAL na P2SH. Mu gusozera, turaza kuvuga ingene Pay to Script Hash yakoreshejwe, naho hari ingorane nyinshi zahuye.
+Muri iki gice, turasubira kuraba iki gice kidasanzwe mu mateka y’ubuhinga bwa Bitcoin. Mbere, tuzosuzuma iterambere rya porogarama n’iciyumviro c’umukono mwinshi. Turaheza turabe ivyiyumviro bitandukanye vyo gushirwa mu ngiro ubu buhinga, dutanguriye kuri OP\_EVAL na P2SH. Mu gusozera, turaza kuvuga ingene Pay to [Script](https://planb.academy/resources/glossary/script) Hash yakoreshejwe, naho hari ingorane nyinshi zahuye.
 
 
 
@@ -2200,7 +2200,7 @@ Ivyo birimwo kwongerako amabwirizwa ku rurimi rw’inyandiko, ivyo bikaba bisaba
 
 > Kumbure ndiko ndasoma nabi kode, ariko mbona ko OP\_EVAL itazotuma blockchain igabanywa!
 
-Iciyumviro ciwe gishingiye ku kintu kimwe kiri mu rurimi rwa porogarama rwo mu mutima rwa Bitcoin: abakoresha ba `OP_NOP` bongeweko na Satoshi mu ci ca 2010, ari amabwirizwa atavuga adahindura inyandiko barimwo. irarokoka, mu bihe aho ububasha bwo guharura buyikoresha buri mu bwinshi. Ivyo bihinduwe bizoheza vyitwa soft forks. Birashoboka rero guhindura `OP_NOP1` ngo ibe `OP_EVAL`, no gutunganya ko iryo hinduka rizokoreshwa n'ibidengeri vya mining.
+Iciyumviro ciwe gishingiye ku kintu kimwe kiri mu rurimi rwa porogarama rwo mu mutima rwa Bitcoin: abakoresha ba `OP_NOP` bongeweko na Satoshi mu ci ca 2010, ari amabwirizwa atavuga adahindura inyandiko barimwo. irarokoka, mu bihe aho ububasha bwo guharura buyikoresha buri mu bwinshi. Ivyo bihinduwe bizoheza vyitwa [soft forks](https://planb.academy/resources/glossary/soft-fork). Birashoboka rero guhindura `OP_NOP1` ngo ibe `OP_EVAL`, no gutunganya ko iryo hinduka rizokoreshwa n'ibidengeri vya mining.
 
 
 
@@ -2642,7 +2642,7 @@ Naho ivyo vyasubiye inyuma, Litecoin ni inkuru y’uguterimbere. Imwe mu mafaran
 
 
 
-Ubushobozi bwo kuronka amahera mu guhingura Bitcoin no kuronka inyungu mu kwiyongera kw’agaciro k’ivyo bikoresho vyari bigaragara. Kera mu kwezi kwa 11/2010, mbere n’imbere y’uko iciyumviro ca BitDNS kiza, ivyo bishoboka vyarashizwe ahabona ku nama. Ribuck, umunyamuryango w'ihuriro ry'abanyamwete ico gihe, [yanditse] ikirego c'amakopi ya Bitcoin azoza, mu gihe yariko arahingura ijambo "shitcoin" mu gihe yariko arakora:
+Ubushobozi bwo kuronka amahera mu guhingura Bitcoin no kuronka inyungu mu kwiyongera kw’agaciro k’ivyo bikoresho vyari bigaragara. Kera mu kwezi kwa 11/2010, mbere n’imbere y’uko iciyumviro ca BitDNS kiza, ivyo bishoboka vyarashizwe ahabona ku nama. Ribuck, umunyamuryango w'ihuriro ry'abanyamwete ico gihe, [yanditse] ikirego c'amakopi ya Bitcoin azoza, mu gihe yariko arahingura ijambo "[shitcoin](https://planb.academy/resources/glossary/shitcoin)" mu gihe yariko arakora:
 
 
 
@@ -2675,7 +2675,7 @@ Kuva mu mpera z’umwaka w’2012, ibintu vyaracereje. Naho ari ukwo, amafaranga
 
 
 
-Ikimenyamenya c’uruhara ni ubundi buryo bwo gusubirira proof of work, aho ubushobozi bwo gukora ibuye bugenwa n’ubutunzi bw’ibice aho kugenwa n’amashanyarazi akoreshwa. Yabanje [gusobanurwa] muri Nyakanga 2011 n’umuhinga mu vy’iterambere ry’Umwongereza akaba n’umunyagihugu Ben Laurie, kandi izina ryayo ryari [ryahinguwe]. bamwebamwe b’abahinga mu vy’ubuhinga bwa Quantum ku ihuriro rya Bitcoin.
+Ikimenyamenya c’uruhara ni ubundi buryo bwo gusubirira [proof of work](https://planb.academy/resources/glossary/proof-of-work), aho ubushobozi bwo gukora ibuye bugenwa n’ubutunzi bw’ibice aho kugenwa n’amashanyarazi akoreshwa. Yabanje [gusobanurwa] muri Nyakanga 2011 n’umuhinga mu vy’iterambere ry’Umwongereza akaba n’umunyagihugu Ben Laurie, kandi izina ryayo ryari [ryahinguwe]. bamwebamwe b’abahinga mu vy’ubuhinga bwa Quantum ku ihuriro rya Bitcoin.
 
 
 

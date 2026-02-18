@@ -191,7 +191,7 @@ Terima kasih banyak kepada Loïc Morel atas pengoreksiannya yang cermat!
 
 
 
-Pertanyaan mengenai hubungan antara mata uang kripto dan otoritas muncul dengan cepat dalam sejarah Bitcoin. Pada bulan Desember 2010, Satoshi Nakamoto menarik diri dari perhatian publik setelah publikasi artikel PC World yang mendorong WikiLeaks untuk menggunakan Bitcoin. Seolah-olah mengkonfirmasi intuisinya, artikel tersebut menarik perhatian besar pada Bitcoin, yang harganya melonjak dari $0,20 menjadi $32 hanya dalam beberapa bulan. Satoshi terus berkomunikasi secara pribadi dengan kolaborator terdekatnya dan akhirnya menghilang pada musim semi 2011. Secara simbolis, pesan terakhir dari Gavin Andresen, pengembang yang telah mengambil alih proyek ini, memberitahukan kepada pencipta Bitcoin bahwa dia telah dihubungi oleh In-Q-Tel, sebuah dana investasi yang dikelola oleh CIA. Kotak Pandora benar-benar terbuka.
+Pertanyaan mengenai hubungan antara [mata uang kripto](https://planb.academy/resources/glossary/cryptocurrency) dan otoritas muncul dengan cepat dalam sejarah Bitcoin. Pada bulan Desember 2010, Satoshi Nakamoto menarik diri dari perhatian publik setelah publikasi artikel PC World yang mendorong WikiLeaks untuk menggunakan Bitcoin. Seolah-olah mengkonfirmasi intuisinya, artikel tersebut menarik perhatian besar pada Bitcoin, yang harganya melonjak dari $0,20 menjadi $32 hanya dalam beberapa bulan. Satoshi terus berkomunikasi secara pribadi dengan kolaborator terdekatnya dan akhirnya menghilang pada musim semi 2011. Secara simbolis, pesan terakhir dari Gavin Andresen, pengembang yang telah mengambil alih proyek ini, memberitahukan kepada pencipta Bitcoin bahwa dia telah dihubungi oleh In-Q-Tel, sebuah dana investasi yang dikelola oleh CIA. Kotak Pandora benar-benar terbuka.
 
 
 
@@ -250,7 +250,7 @@ Seperti yang telah dijelaskan, pendekatannya sangat revolusioner, bukan oportuni
 
 > "Sekarang, tujuan saya telah berubah. Saya ingin menggunakan teori ekonomi sebagai sarana untuk menghapuskan penggunaan paksaan dan agresi di antara umat manusia. Seperti halnya perbudakan yang telah dihapuskan di hampir semua tempat, saya yakin kekerasan, pemaksaan, dan semua bentuk kekerasan oleh satu orang terhadap orang lain dapat diakhiri. Penggunaan kekerasan yang paling luas dan sistemik adalah di antara institusi dan pemerintah, jadi ini adalah titik usaha saya saat ini. Namun, cara terbaik untuk mengubah sebuah pemerintahan adalah dengan mengubah pikiran mereka yang diperintah. Untuk itu, saya menciptakan simulasi ekonomi untuk memberikan pengalaman langsung kepada orang-orang tentang bagaimana rasanya hidup di dunia tanpa penggunaan kekerasan secara sistemik."
 
-Gagasan ini sebenarnya bukan hal yang baru. Lebih dari sekadar pendekatan agoris, ini juga merupakan ilustrasi penggunaan "pasar gelap" oleh para cypherpunks untuk menjalankan kebebasan ekonomi mereka, sesuatu yang dapat kita temukan di [*Cyphernomicon*] karya Tim May (https://ia801307.us.archive.org/7/items/cyphernomicon/cyphernomicon.txt).
+Gagasan ini sebenarnya bukan hal yang baru. Lebih dari sekadar pendekatan agoris, ini juga merupakan ilustrasi penggunaan "pasar gelap" oleh para [cypherpunks](https://planb.academy/resources/glossary/cypherpunks) untuk menjalankan kebebasan ekonomi mereka, sesuatu yang dapat kita temukan di [*Cyphernomicon*] karya Tim May (https://ia801307.us.archive.org/7/items/cyphernomicon/cyphernomicon.txt).
 
 
 
@@ -387,7 +387,7 @@ Tidak semua orang menyambut baik publisitas generated oleh artikel Gawker. Fakta
 
 
 
-Secara khusus, programmer Jeff Garzik, yang terlibat dalam pengembangan perangkat lunak pada saat itu, memiliki pandangan yang kurang baik terhadap asosiasi yang tidak disukai ini. Setelah artikel tersebut dipublikasikan, ia secara pribadi [menghubungi] (https://www.theatlantic.com/technology/archive/2011/06/libertarian-dream-a-site-where-you-buy-drugs-with-digital-dollars/239776/) Adrien Chen melalui email untuk menjelaskan bahwa Bitcoin tidak seanonim kelihatannya, semua transaksi dicatat secara permanen di blockchain. Dia mengakhiri emailnya dengan penilaian ini:
+Secara khusus, programmer Jeff Garzik, yang terlibat dalam pengembangan perangkat lunak pada saat itu, memiliki pandangan yang kurang baik terhadap asosiasi yang tidak disukai ini. Setelah artikel tersebut dipublikasikan, ia secara pribadi [menghubungi] (https://www.theatlantic.com/technology/archive/2011/06/libertarian-dream-a-site-where-you-buy-drugs-with-digital-dollars/239776/) Adrien Chen melalui email untuk menjelaskan bahwa Bitcoin tidak seanonim kelihatannya, semua transaksi dicatat secara permanen di [blockchain](https://planb.academy/resources/glossary/blockchain). Dia mengakhiri emailnya dengan penilaian ini:
 
 
 > "Mencoba melakukan transaksi ilegal besar dengan bitcoin, mengingat teknik analisis statistik yang digunakan di lapangan oleh penegak hukum, merupakan tindakan yang sangat bodoh."
@@ -908,7 +908,7 @@ Pada tahun 2011, ia pindah ke Portsmouth, New Hampshire sebagai bagian dari *Fre
 
 > "Hari itu adalah salah satu hari terpenting dalam hidup saya. Rasanya seperti menemukan suatu kebenaran besar, seperti melihat masa depan. Saya berhenti dari semua yang saya lakukan dan melompat ke dalam lubang kelinci."
 
-Motivasinya terutama bersifat ideologis: ia tergoda oleh sifat sistem yang tak terbendung dan ketidakmungkinan untuk menghasilkan lebih banyak uang daripada yang direncanakan. Dia [melihat] (https://silverunderground.com/2011/06/bitcoin-the-separation-of-money-and-state/) Bitcoin sebagai perwujudan dari "pemisahan uang dan negara". Dia juga yakin dengan praktik agoris yang dipromosikan oleh Samuel Konkin dan [percaya] (https://bitcointalk.org/index.php?topic=34657.msg431717#msg431717) bahwa "Bitcoin adalah untuk agorisme seperti insang untuk ikan", yaitu roda penggerak yang penting.
+Motivasinya terutama bersifat ideologis: ia tergoda oleh sifat sistem yang tak terbendung dan ketidakmungkinan untuk menghasilkan lebih banyak uang daripada yang direncanakan. Dia [melihat] (https://silverunderground.com/2011/06/bitcoin-the-separation-of-money-and-state/) Bitcoin sebagai perwujudan dari "pemisahan uang dan negara". Dia juga yakin dengan praktik agoris yang dipromosikan oleh Samuel Konkin dan [percaya] (https://bitcointalk.org/index.php?topic=34657.msg431717#msg431717) bahwa "Bitcoin adalah untuk [agorisme](https://planb.academy/resources/glossary/agorism) seperti insang untuk ikan", yaitu roda penggerak yang penting.
 
 
 
@@ -932,7 +932,7 @@ Dengan Bitcoin, Ira Miller bertujuan "untuk membangun sistem alternatif, untuk b
 
 
 
-Kedua orang ini bergaul dengan sangat baik dan keahlian mereka saling melengkapi. Pada bulan Agustus, Erik Voorhees mencari seorang programmer untuk mengembangkan salah satu idenya, dan Ira menerimanya. Ide tersebut adalah FeedZeBirds (secara harfiah berarti "memberi makan burung"), sebuah platform iklan yang memungkinkan pengguna untuk meningkatkan konten di Twitter dengan membeli retweet, yang mereka luncurkan (https://bitcointalk.org/index.php?topic=52638.msg628165#msg628165) pada tanggal 23 November. Ini adalah penggunaan yang dipertanyakan (Twitter tentu saja tidak mendorong perilaku semacam ini), mengambil keuntungan dari ketahanan sensor Bitcoin dan kurangnya biaya transaksi. Pada tanggal 28 November, kedua mitra ini [muncul] (https://www.youtube.com/watch?v=VuLAhZsFc1A) di acara *Bitcoin Show* untuk mempromosikan produk mereka. Selanjutnya, mereka juga mengembangkan prosesor pembayaran Paysius dan layanan pengiriman uang melalui email Coinapult.
+Kedua orang ini bergaul dengan sangat baik dan keahlian mereka saling melengkapi. Pada bulan Agustus, Erik Voorhees mencari seorang programmer untuk mengembangkan salah satu idenya, dan Ira menerimanya. Ide tersebut adalah FeedZeBirds (secara harfiah berarti "memberi makan burung"), sebuah platform iklan yang memungkinkan pengguna untuk meningkatkan konten di Twitter dengan membeli retweet, yang mereka luncurkan (https://bitcointalk.org/index.php?topic=52638.msg628165#msg628165) pada tanggal 23 November. Ini adalah penggunaan yang dipertanyakan (Twitter tentu saja tidak mendorong perilaku semacam ini), mengambil keuntungan dari ketahanan sensor Bitcoin dan kurangnya [biaya transaksi](https://planb.academy/resources/glossary/transaction-fees). Pada tanggal 28 November, kedua mitra ini [muncul] (https://www.youtube.com/watch?v=VuLAhZsFc1A) di acara *Bitcoin Show* untuk mempromosikan produk mereka. Selanjutnya, mereka juga mengembangkan prosesor pembayaran Paysius dan layanan pengiriman uang melalui email Coinapult.
 
 
 
@@ -1387,7 +1387,7 @@ Pada awal 2012, Paymium mengembangkan aplikasi Kustodiannya sendiri: Paytunia. A
 
 
 
-Ini juga merupakan waktu yang tepat untuk menulis ulang protokol Bitcoin. Perangkat lunak utama, yang pada saat itu disebut "Bitcoin", merupakan sebuah implementasi yang lengkap karena membutuhkan seluruh blockchain untuk dipertahankan dan transaksi serta blok baru yang harus diteruskan. Tetapi itu adalah satu-satunya yang ada, sehingga seluruh jaringan bergantung pada itu saja untuk berfungsi. Oleh karena itu, muncul keinginan untuk mengembangkan implementasi alternatif dari Bitcoin.
+Ini juga merupakan waktu yang tepat untuk menulis ulang protokol Bitcoin. Perangkat lunak utama, yang pada saat itu disebut "Bitcoin", merupakan sebuah implementasi yang lengkap karena membutuhkan seluruh blockchain untuk dipertahankan dan transaksi serta [blok](https://planb.academy/resources/glossary/block) baru yang harus diteruskan. Tetapi itu adalah satu-satunya yang ada, sehingga seluruh jaringan bergantung pada itu saja untuk berfungsi. Oleh karena itu, muncul keinginan untuk mengembangkan implementasi alternatif dari Bitcoin.
 
 
 
@@ -1428,7 +1428,7 @@ Masalah dengan implementasi penuh adalah bahwa mereka intensif sumber daya dan t
 
 
 
-Ide pertama adalah menggunakan node sebagai server jarak jauh, di mana pengguna memiliki kepercayaan penuh. Pada bulan Februari 2011, Amir Taaki [meluncurkan] (https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538) klien perangkat lunak untuk mengelola wallet secara lokal dengan menghubungkan ke node yang sudah ada yang disebut Spesmilo. Klien ini awalnya berjalan di Linux, tetapi segera dipindahkan ke Windows. Nama ini merujuk pada spesmilo, unit mata uang internasional kuno yang diusulkan oleh matematikawan Swiss René de Saussure (saudara laki-laki dari ahli bahasa Ferdinand) pada tahun 1907, sebagai bagian dari proyek Esperanto.
+Ide pertama adalah menggunakan [node](https://planb.academy/resources/glossary/node) sebagai server jarak jauh, di mana pengguna memiliki kepercayaan penuh. Pada bulan Februari 2011, Amir Taaki [meluncurkan] (https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538) klien perangkat lunak untuk mengelola wallet secara lokal dengan menghubungkan ke node yang sudah ada yang disebut Spesmilo. Klien ini awalnya berjalan di Linux, tetapi segera dipindahkan ke Windows. Nama ini merujuk pada spesmilo, unit mata uang internasional kuno yang diusulkan oleh matematikawan Swiss René de Saussure (saudara laki-laki dari ahli bahasa Ferdinand) pada tahun 1907, sebagai bagian dari proyek Esperanto.
 
 
 
@@ -1472,7 +1472,7 @@ wallet berbasis BitCoinJ lainnya yang tersedia di PC adalah MultiBit, yang dibua
 
 
 
-Upaya untuk meningkatkan kegunaan Bitcoin juga menyebabkan munculnya *deterministik wallet*. Ini adalah wallet yang menerapkan penurunan kunci: alih-alih menjadi generated secara individual secara acak, seperti yang dilakukan pada perangkat lunak utama, kunci pribadi diturunkan secara deterministik dari informasi (disebut seed) menggunakan fungsi kriptografi. Dengan mengetahui informasi ini, pengguna dapat memulihkan semua dananya, yang sangat menyederhanakan pencadangan wallet. Tidak perlu menyimpan file `wallet.dat` berulang kali!
+Upaya untuk meningkatkan kegunaan Bitcoin juga menyebabkan munculnya *deterministik wallet*. Ini adalah wallet yang menerapkan penurunan kunci: alih-alih menjadi generated secara individual secara acak, seperti yang dilakukan pada perangkat lunak utama, kunci pribadi diturunkan secara deterministik dari informasi (disebut seed) menggunakan fungsi [kriptografi](https://planb.academy/resources/glossary/cryptography). Dengan mengetahui informasi ini, pengguna dapat memulihkan semua dananya, yang sangat menyederhanakan pencadangan wallet. Tidak perlu menyimpan file `wallet.dat` berulang kali!
 
 
 
@@ -1494,11 +1494,11 @@ Gregory Maxwell memiliki banyak ide tentang cara meningkatkan penggunaan Bitcoin
 
 > "Bitcoin benar-benar harus menawarkan dan secara default menggunakan wallet yang deterministik.   Keamanan tambahan dari pra-generated saat ini cukup kecil mengingat bagaimana kebanyakan orang menggunakan bitcoin dan tanggung jawab bahaya karena cadangan yang tidak mencukupi dan peningkatan tekanan untuk menjaga satu wallet online sangat besar."
 
-Ada dua jenis derivasi yang dipertimbangkan. Satu tipe (tipe 1) sangat mudah, menghasilkan kunci privat secara langsung dari seed. Tipe lainnya (tipe 2) lebih kompleks, tetapi memungkinkan alamat diturunkan dari kunci publik utama yang diperoleh dari seed. Tipe lainnya (tipe 2) lebih kompleks, tetapi memungkinkan alamat diturunkan dari kunci publik utama yang diperoleh dari seed, tanpa mengakses seed itu sendiri. Hal ini memungkinkan perangkat lunak pemrosesan pembayaran untuk memberikan alamat kepada generate untuk setiap transaksi, tanpa mengekspos kunci privat.
+Ada dua jenis derivasi yang dipertimbangkan. Satu tipe (tipe 1) sangat mudah, menghasilkan kunci privat secara langsung dari seed. Tipe lainnya (tipe 2) lebih kompleks, tetapi memungkinkan alamat diturunkan dari [kunci publik](https://planb.academy/resources/glossary/public-key) utama yang diperoleh dari seed. Tipe lainnya (tipe 2) lebih kompleks, tetapi memungkinkan alamat diturunkan dari kunci publik utama yang diperoleh dari seed, tanpa mengakses seed itu sendiri. Hal ini memungkinkan perangkat lunak pemrosesan pembayaran untuk memberikan alamat kepada generate untuk setiap transaksi, tanpa mengekspos kunci privat.
 
 
 
-Kemudian, pada bulan Februari 2012, standarisasi dilakukan dengan [publikasi] (https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198) BIP 32. Publikasi ini menggambarkan struktur umum *Hierarchical Deterministic Wallet*, HD Wallet, di mana turunan digunakan secara metodis untuk mendapatkan kunci dan alamat seed. Ini telah diadopsi secara bertahap oleh sebagian besar wallet selama bertahun-tahun.
+Kemudian, pada bulan Februari 2012, standarisasi dilakukan dengan [publikasi] (https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198) [BIP](https://planb.academy/resources/glossary/bip) 32. Publikasi ini menggambarkan struktur umum *Hierarchical Deterministic Wallet*, HD Wallet, di mana turunan digunakan secara metodis untuk mendapatkan kunci dan alamat seed. Ini telah diadopsi secara bertahap oleh sebagian besar wallet selama bertahun-tahun.
 
 
 
@@ -1757,7 +1757,7 @@ Untuk mengatasi masalah ini dan mematahkan penelusuran dana, solusinya adalah pe
 
 
 
-Yang pertama adalah BitLaundry. Layanan ini [diluncurkan] (https://bitcointalk.org/index.php?topic=963.msg11823#msg11823) pada bulan September 2010 oleh Peter Vessenes, seorang wirausahawan Amerika yang memiliki gelar di bidang kriptografi yang menemukan keberadaan Bitcoin pada saat slashdotting. Blender [disediakan](https://maltemoeser.de/paper/money-laundering.pdf#page=5) kepada pengguna dengan alamat sekali pakai, di mana dana yang akan dianonimkan dikirim. Bitcoin kemudian dikirim kembali dalam bentuk beberapa koin (UTXO), dalam transaksi beberapa entri yang menyertakan bitcoin dari pengguna lain, membuat pencampuran menjadi efektif. Biaya yang dikenakan sekitar 2,5% dari jumlah yang terlibat. Pada bulan Mei 2011, karena menyadari komplikasi hukum yang dapat timbul dari aktivitas ini, Peter Vessenes [mengalihkan] (https://bitcointalk.org/index.php?topic=963.msg122955#msg122955) layanan ini kepada Mike Gogulski, seorang aktivis yang tidak memiliki kewarganegaraan, karena telah melepaskan kewarganegaraan AS tanpa memiliki kewarganegaraan lain.
+Yang pertama adalah BitLaundry. Layanan ini [diluncurkan] (https://bitcointalk.org/index.php?topic=963.msg11823#msg11823) pada bulan September 2010 oleh Peter Vessenes, seorang wirausahawan Amerika yang memiliki gelar di bidang kriptografi yang menemukan keberadaan Bitcoin pada saat slashdotting. Blender [disediakan](https://maltemoeser.de/paper/money-laundering.pdf#page=5) kepada pengguna dengan alamat sekali pakai, di mana dana yang akan dianonimkan dikirim. Bitcoin kemudian dikirim kembali dalam bentuk beberapa koin ([UTXO](https://planb.academy/resources/glossary/utxo)), dalam transaksi beberapa entri yang menyertakan bitcoin dari pengguna lain, membuat pencampuran menjadi efektif. Biaya yang dikenakan sekitar 2,5% dari jumlah yang terlibat. Pada bulan Mei 2011, karena menyadari komplikasi hukum yang dapat timbul dari aktivitas ini, Peter Vessenes [mengalihkan] (https://bitcointalk.org/index.php?topic=963.msg122955#msg122955) layanan ini kepada Mike Gogulski, seorang aktivis yang tidak memiliki kewarganegaraan, karena telah melepaskan kewarganegaraan AS tanpa memiliki kewarganegaraan lain.
 
 
 
@@ -1777,7 +1777,7 @@ Yang ketiga adalah jenis yang istimewa, karena ini adalah mixer yang dibangun ke
 
 
 
-Proliferasi mixer terpusat memiliki efek mengkatalisasi pemikiran seputar pencampuran koin terdesentralisasi, yang dimulai pada musim panas 2011 dengan proposal [proposal] (https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) yang diajukan oleh Hashcoin. Hal ini menyebabkan [formalisasi] (https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902) CoinJoin oleh Gregory Maxwell pada tahun 2013. Tapi itu adalah cerita yang berbeda...
+Proliferasi mixer terpusat memiliki efek mengkatalisasi pemikiran seputar pencampuran koin terdesentralisasi, yang dimulai pada musim panas 2011 dengan proposal [proposal] (https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) yang diajukan oleh Hashcoin. Hal ini menyebabkan [formalisasi] (https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902) [CoinJoin](https://planb.academy/resources/glossary/coinjoin) oleh Gregory Maxwell pada tahun 2013. Tapi itu adalah cerita yang berbeda...
 
 
 
@@ -1808,7 +1808,7 @@ Era Wild West Amerika ditandai dengan demam emas - yaitu migrasi besar-besaran p
 
 
 
-Pada musim gugur 2010, masuknya penambang pertama kali menyebabkan meluasnya penggunaan GPU (unit pemrosesan grafis) mining, yang jauh lebih menguntungkan daripada CPU (unit pemrosesan pusat) mining. Akan tetapi, kemajuan teknis ini meningkatkan kesulitan jaringan sedemikian rupa sehingga penambang kecil tidak dapat lagi berharap untuk menemukan sebuah blok dalam jangka waktu yang masuk akal. Hal ini mendorong terbentuknya kelompok-kelompok penambang, seperti BitcoinCZ Mining, Slush Pool. Momentum tidak berhenti di situ: ketika harga naik pada tahun 2011, masuknya para penambang terus berlanjut, dan pool mining dengan cepat menjadi normal.
+Pada musim gugur 2010, masuknya penambang pertama kali menyebabkan meluasnya penggunaan GPU (unit pemrosesan grafis) mining, yang jauh lebih menguntungkan daripada CPU (unit pemrosesan pusat) mining. Akan tetapi, kemajuan teknis ini meningkatkan [kesulitan](https://planb.academy/resources/glossary/difficulty) jaringan sedemikian rupa sehingga penambang kecil tidak dapat lagi berharap untuk menemukan sebuah blok dalam jangka waktu yang masuk akal. Hal ini mendorong terbentuknya kelompok-kelompok penambang, seperti BitcoinCZ Mining, Slush Pool. Momentum tidak berhenti di situ: ketika harga naik pada tahun 2011, masuknya para penambang terus berlanjut, dan pool mining dengan cepat menjadi normal.
 
 
 
@@ -1920,7 +1920,7 @@ Luke awalnya mengadopsi model pembayaran proporsional. Namun, kekhawatiran tenta
 
 
 
-Eligius juga berinovasi dengan praktik "penandatanganan coinbase", yang terdiri dari penulisan nama pool (di sini `Eligius`) di kolom input transaksi reward blok yang ditambang. Praktik ini, yang membuat pengoperasian pool lebih transparan, diresmikan pada hari peralihan ke model MPPS, pada malam hari tanggal 13-14 Juni, dengan blok [130 635] (https://mempool.space/block/0000000000000a067d94ff753eec72830f1205ad3a4c216a08a80c832e551a52). Ini adalah entri kedua yang dibuat dengan cara ini, mengikuti kutipan lambang dari *Times* yang disertakan oleh Satoshi Nakamoto di blok genesis pada bulan Januari 2009.
+Eligius juga berinovasi dengan praktik "penandatanganan coinbase", yang terdiri dari penulisan nama pool (di sini `Eligius`) di kolom input transaksi reward blok yang ditambang. Praktik ini, yang membuat pengoperasian pool lebih transparan, diresmikan pada hari peralihan ke model MPPS, pada malam hari tanggal 13-14 Juni, dengan blok [130 635] (https://mempool.space/block/0000000000000a067d94ff753eec72830f1205ad3a4c216a08a80c832e551a52). Ini adalah entri kedua yang dibuat dengan cara ini, mengikuti kutipan lambang dari *Times* yang disertakan oleh Satoshi Nakamoto di [blok genesis](https://planb.academy/resources/glossary/genesis-block) pada bulan Januari 2009.
 
 
 
@@ -1996,7 +1996,7 @@ Salah satu cara untuk melawan sentralisasi yang disebabkan oleh meluasnya penggu
 
 
 
-Model ini [bergantung] (https://im.forre.st/pb/85341005.txt) pada "rantai-rantai saham, yang dikelola oleh para penambang yang berpartisipasi yang terhubung secara peer-to-peer, mirip dengan blockchain Bitcoin. Setiap bagian berisi sidik jari dari bagian sebelumnya, yang menghubungkan bagian tersebut bersama-sama dan memastikan integritas keseluruhannya. Tingkat kesulitan (yang awalnya 600 kali lebih rendah dari tingkat kesulitan jaringan utama) disesuaikan secara teratur untuk menjamin interval rata-rata 5 detik. Metode remunerasi adalah pembayaran sesuai dengan N saham terakhir (PPLNS), yang dilakukan secara langsung dalam transaksi hadiah, setiap kali sebuah blok ditemukan.
+Model ini [bergantung] (https://im.forre.st/pb/85341005.txt) pada "rantai-rantai saham, yang dikelola oleh para penambang yang berpartisipasi yang terhubung secara [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p), mirip dengan blockchain Bitcoin. Setiap bagian berisi sidik jari dari bagian sebelumnya, yang menghubungkan bagian tersebut bersama-sama dan memastikan integritas keseluruhannya. Tingkat kesulitan (yang awalnya 600 kali lebih rendah dari tingkat kesulitan jaringan utama) disesuaikan secara teratur untuk menjamin interval rata-rata 5 detik. Metode remunerasi adalah pembayaran sesuai dengan N saham terakhir (PPLNS), yang dilakukan secara langsung dalam transaksi hadiah, setiap kali sebuah blok ditemukan.
 
 
 
@@ -2067,7 +2067,7 @@ Jelas, evolusi mining bukan hanya tentang organisasi hashers; tetapi juga tentan
 
 
 
-Evolusi terakhir ini, [direncanakan] (https://www.metzdowd.com/pipermail/cryptography/2008-November/014815.html) sejak lama oleh Satoshi Nakamoto, secara bertahap dikembangkan berkat sirkuit logika yang dapat diprogram (FPGA), yang memungkinkan untuk mengoptimalkan perangkat keras secara virtual untuk fungsi hash Bitcoin. Algoritma FPGA terbuka pertama adalah [dipublikasikan] (https://bitcointalk.org/index.php?topic=9047.msg130885#msg130885) pada bulan Mei 2011, dan ASIC menerapkan pengoptimalan FPGA pada chip itu sendiri. Pra-penjualan ASIC pertama, oleh perusahaan AS Butterfly Labs, [dilakukan] (https://web.archive.org/web/20120619090952/http://news.yahoo.com/butterfly-labs-announces-next-generation-asic-lineup-054626776.html) pada bulan Juni 2012. Akhirnya, ASIC pertama yang berfungsi, Avalon ASIC, [didistribusikan] (https://bitcointalk.org/index.php?topic=137534.msg1465887#msg1465887) kepada masyarakat umum pada Januari 2013.
+Evolusi terakhir ini, [direncanakan] (https://www.metzdowd.com/pipermail/cryptography/2008-November/014815.html) sejak lama oleh Satoshi Nakamoto, secara bertahap dikembangkan berkat sirkuit logika yang dapat diprogram (FPGA), yang memungkinkan untuk mengoptimalkan perangkat keras secara virtual untuk [fungsi hash](https://planb.academy/resources/glossary/hash-function) Bitcoin. Algoritma FPGA terbuka pertama adalah [dipublikasikan] (https://bitcointalk.org/index.php?topic=9047.msg130885#msg130885) pada bulan Mei 2011, dan ASIC menerapkan pengoptimalan FPGA pada chip itu sendiri. Pra-penjualan ASIC pertama, oleh perusahaan AS Butterfly Labs, [dilakukan] (https://web.archive.org/web/20120619090952/http://news.yahoo.com/butterfly-labs-announces-next-generation-asic-lineup-054626776.html) pada bulan Juni 2012. Akhirnya, ASIC pertama yang berfungsi, Avalon ASIC, [didistribusikan] (https://bitcointalk.org/index.php?topic=137534.msg1465887#msg1465887) kepada masyarakat umum pada Januari 2013.
 
 
 
@@ -2086,7 +2086,7 @@ Setelah kepergian Satoshi Nakamoto, pengembangan perangkat lunak diambil alih ol
 
 
 
-Pada musim dingin 2011-2012, sebuah kontroversi muncul seputar implementasi multisignature di Bitcoin. Kontroversi tersebut antara lain menyangkut skema yang dikenal sebagai "Pay to Script Hash", atau P2SH. Pete Rizzo dan Aaron van Wirdum (https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war) menyebut konflik ini sebagai "Pertempuran untuk P2SH". Ini adalah perselisihan besar pertama mengenai evolusi protokol, dan yang pertama kali menimbulkan pertanyaan tentang tata kelola.
+Pada musim dingin 2011-2012, sebuah kontroversi muncul seputar implementasi multisignature di Bitcoin. Kontroversi tersebut antara lain menyangkut skema yang dikenal sebagai "Pay to [Script](https://planb.academy/resources/glossary/script) Hash", atau P2SH. Pete Rizzo dan Aaron van Wirdum (https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war) menyebut konflik ini sebagai "Pertempuran untuk P2SH". Ini adalah perselisihan besar pertama mengenai evolusi protokol, dan yang pertama kali menimbulkan pertanyaan tentang tata kelola.
 
 
 
@@ -2200,7 +2200,7 @@ Hal ini melibatkan penambahan instruksi pada bahasa scripting, yang membutuhkan 
 
 > Saya mungkin salah membaca kodenya, tetapi saya rasa OP\_EVAL tidak akan menyebabkan perpecahan blockchain!
 
-Idenya didasarkan pada fitur bahasa pemrograman internal Bitcoin: operator `OP_NOP` yang ditambahkan oleh Satoshi pada musim panas 2010, yang merupakan instruksi senyap yang tidak membatalkan skrip yang ada di dalamnya. Hal ini memungkinkan modifikasi protokol yang "kompatibel ke belakang" untuk dibuat untuk versi perangkat lunak yang lebih lama, memastikan bahwa hanya satu string yang bertahan, dalam kasus-kasus di mana daya komputasi yang menggunakannya adalah mayoritas. Modifikasi ini nantinya akan disebut sebagai soft fork. Dengan demikian, dimungkinkan untuk mengubah `OP_NOP1` menjadi `OP_EVAL`, dan mengatur agar perubahan tersebut diterapkan oleh kumpulan mining.
+Idenya didasarkan pada fitur bahasa pemrograman internal Bitcoin: operator `OP_NOP` yang ditambahkan oleh Satoshi pada musim panas 2010, yang merupakan instruksi senyap yang tidak membatalkan skrip yang ada di dalamnya. Hal ini memungkinkan modifikasi protokol yang "kompatibel ke belakang" untuk dibuat untuk versi perangkat lunak yang lebih lama, memastikan bahwa hanya satu string yang bertahan, dalam kasus-kasus di mana daya komputasi yang menggunakannya adalah mayoritas. Modifikasi ini nantinya akan disebut sebagai [soft fork](https://planb.academy/resources/glossary/soft-fork). Dengan demikian, dimungkinkan untuk mengubah `OP_NOP1` menjadi `OP_EVAL`, dan mengatur agar perubahan tersebut diterapkan oleh kumpulan mining.
 
 
 
@@ -2642,7 +2642,7 @@ Terlepas dari kemunduran ini, Litecoin adalah sebuah kisah sukses. Bersama denga
 
 
 
-Kemungkinan menghasilkan uang dengan mengkloning Bitcoin dan mendapatkan keuntungan dari kenaikan nilai unit sudah jelas. Pada awal November 2010, bahkan sebelum ide BitDNS muncul, kemungkinan ini telah dibicarakan di forum. Ribuck, seorang anggota forum yang aktif pada saat itu, [menulis] (https://bitcointalk.org/index.php?topic=1647.msg20646#msg20646) sebuah dakwaan atas salinan Bitcoin di masa depan, sambil menciptakan istilah "shitcoin" dalam prosesnya:
+Kemungkinan menghasilkan uang dengan mengkloning Bitcoin dan mendapatkan keuntungan dari kenaikan nilai unit sudah jelas. Pada awal November 2010, bahkan sebelum ide BitDNS muncul, kemungkinan ini telah dibicarakan di forum. Ribuck, seorang anggota forum yang aktif pada saat itu, [menulis] (https://bitcointalk.org/index.php?topic=1647.msg20646#msg20646) sebuah dakwaan atas salinan Bitcoin di masa depan, sambil menciptakan istilah "[shitcoin](https://planb.academy/resources/glossary/shitcoin)" dalam prosesnya:
 
 
 
@@ -2675,7 +2675,7 @@ Sejak musim semi 2012 dan seterusnya, keadaan menjadi tenang. Namun demikian, be
 
 
 
-Proof of stake adalah alternatif dari proof of work, di mana probabilitas untuk memproduksi sebuah blok ditentukan oleh kepemilikan unit dan bukan oleh listrik yang dikeluarkan. Pertama kali [dijelaskan] (https://www.links.org/files/decentralised-currencies.pdf) pada bulan Juli 2011 oleh pengembang dan aktivis Inggris, Ben Laurie, dan namanya [diciptakan] (https://bitcointalk.org/index.php?topic=27787.msg349645#msg349645) oleh QuantumMechanic tertentu di forum Bitcoin.
+Proof of stake adalah alternatif dari [proof of work](https://planb.academy/resources/glossary/proof-of-work), di mana probabilitas untuk memproduksi sebuah blok ditentukan oleh kepemilikan unit dan bukan oleh listrik yang dikeluarkan. Pertama kali [dijelaskan] (https://www.links.org/files/decentralised-currencies.pdf) pada bulan Juli 2011 oleh pengembang dan aktivis Inggris, Ben Laurie, dan namanya [diciptakan] (https://bitcointalk.org/index.php?topic=27787.msg349645#msg349645) oleh QuantumMechanic tertentu di forum Bitcoin.
 
 
 

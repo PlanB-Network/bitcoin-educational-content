@@ -430,979 +430,476 @@ Questa sezione determina **dove** e **come** il prodotto può essere visualizzat
 Seleziona solo i canali che desideri utilizzare.
 
 
-
-
-
-
-
-
-
-
-
-
 ## Creazione e personalizzazione di pagine e widget del CMS
-
-
 
 ### Pagine CMS obbligatorie
 
-
-
-Andare in `Admin > Merch > CMS`. Vedrete un elenco delle pagine esistenti e potrete aggiungerne di nuove con **Aggiungi pagina CMS**.
-
-
+Vai in `Admin > Merch > CMS`. Vedrai un elenco delle pagine esistenti e potrai aggiungerne di nuove con **Aggiungi pagina CMS**.
 
 Le pagine CMS sono importanti per:
-
-
-
-
-
 - Informare i visitatori (ad es. termini di utilizzo)
 - Rispettare la legge (ad esempio, l'informativa sulla privacy)
 - Spiegare alcune caratteristiche del negozio (ad es. raccolta IP, IVA 0%)
 
-
-
 È possibile aggiungere altre pagine a seconda delle esigenze:
-
-
-
-
-
-- Chi siamo / Chi siamo
+- Qualcosa su di noi / Chi siamo
 - Sosteneteci / Donazioni
 - FAQ
 - Contatto
 - ecc.
 
-
-
-**Suggerimento: fare clic su ciascun link o icona per modificare il contenuto, il titolo o la visibilità di ciascuna pagina.**
-
-
+**Suggerimento: fai clic su ciascun link o icona per modificare il contenuto, il titolo o la visibilità di ciascuna pagina.**
 
 ### Impaginazione e grafica Elements
 
-
-
-Andare a: `Admin > Merch > Layout`. È possibile personalizzare il Elements visivo del sito:
-
-
+Vai a: `Admin > Merch > Layout`. È possibile personalizzare gli elementi visivi del sito:
 
 ![product-options](assets/fr/032.webp)
 
+#### Top Bar (barra superiore)
 
-
-#### Top Bar
-
-
-
-
-
-- Modificare o eliminare i link (EX: HOME, ABOUT US,...)
+- Modifica o elimina i link (EX: HOME, ABOUT US,...)
 - Navigazione tra le sezioni chiave del sito
 
-
-
-#### Navbar (barra di navigazione principale)
-
-
-
-
+#### Nav bBr (barra di navigazione principale)
 
 - Presente nell'area grigia sotto la barra superiore
 - Contiene un accesso rapido a: `Config`, `Impostazioni di pagamento`, `Transazioni`, `Gestione dei nodi`, `Widget`, ecc.
-- Solo per i direttori
-
-
+- Solo per i titolari.
 
 #### Piè di pagina
-
-
-
-
 
 - Modificabile da `Admin > Merch > Layout`
 - Contiene: informazioni di contatto, link utili, avvisi legali....
 
-
-
 #### Personalizzare le immagini
-
-
 
 Vai a: `Admin > Merch > Immagini`
 
-
-
 È possibile:
-
-
-
-
-
 - Cambiare il **logo principale**
 - Modificare o aggiungere il layout **immagini**
 
-
-
 #### Descrizione del sito
-
-
 
 Modificabile anche in `Immagini`, consente di visualizzare un **riassunto o uno slogan** nell'intestazione o nel piè di pagina, a seconda del tema.
 
-
-
-**Nota: ** questo vi permette di adattare l'aspetto alla vostra identità di marca (educativa, commerciale o comunitaria).
-
-
+**Nota**: questo ti permette di adattare l'aspetto al tuo brand identificativo (educativa, commerciale o comunitaria).
 
 ### Integrare i widget nelle pagine del CMS
 
-
-
-I **widget** arricchiscono le pagine del CMS con Elements dinamici o visivi.
-
-
+I **widget** arricchiscono le pagine del CMS con elementi dinamici o visivi.
 
 #### Creazione di widget
 
-
-
-Andare a: `Admin > Widgets`
-
-
+Vai a: `Admin > Widgets`
 
 Esempi di widget disponibili:
-
-
-
-
-
 - **Sfide**: sfide o missioni
 - **Tag**: categorie o parole chiave
 - **Slider**: caroselli di immagini
-- **Specifiche**: Tabelle delle specifiche
+- **Specifiche**: tabelle delle specifiche
 - **Moduli**: moduli (di contatto, di feedback, ecc.)
 - **Conto alla rovescia**: timer
 - **Gallerie**: gallerie di immagini
-- **Classifiche**: classifiche degli utenti
-
-
+- **Classifiche**: classifiche degli utenti.
 
 ![widgets](assets/fr/033.webp)
 
-
-
 #### Integrazione nelle pagine del CMS
 
+Utilizza gli **shortcode** nel contenuto delle tue pagine CMS:
 
-
-Utilizzate gli **shortcode** nel contenuto delle vostre pagine CMS:
-
-
-
-
-| Obiettivo                 | Tag da Inserire                      |
-|--------------------------|---------------------------------------|
-| Visualizzare un prodotto      | `[Product=slug?display=img-1]`        |
-| Visualizzare un'immagine       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Integrare uno slider       | `[Slider=slug?autoplay=3000]`         |
-| Aggiungere una sfida     | `[Challenge=slug]`                    |
-| Aggiungere un conto alla rovescia | `[Countdown=slug]`                 |
-| Integrare un modulo   | `[Form=slug]`                         |
+| Obiettivo                         | Tag da inserire                                   |
+|-----------------------------------|---------------------------------------------------|
+| Visualizzare un prodotto          | `[Product=slug?display=img-1]`                    |
+| Visualizzare un'immagine          | `[Picture=slug width=100 height=100 fit=contain]` |
+| Integrare uno slider              | `[Slider=slug?autoplay=3000]`                     |
+| Aggiungere una sfida              | `[Challenge=slug]`                                |
+| Aggiungere un conto alla rovescia | `[Countdown=slug]`                                |
+| Integrare un modulo               | `[Form=slug]`                                     |
 
 **Parametri attuali**:
-
-
-
-
-
 - `slug`: identificatore unico del widget
 - `display=img-1`: immagine specifica del prodotto
 - `width`, `height`, `fit`: dimensioni e stile dell'immagine
-- autoplay=3000`: tempo in ms tra due diapositive
-
-
+- `autoplay=3000`: tempo in ms tra due diapositive
 
 **Vantaggi**:
-
-
-
-
-
 - Facile da inserire (copia e incolla)
 - Dinamico: qualsiasi modifica al widget si riflette automaticamente
-- Non è necessario uno sviluppatore
-
-
+- Non è necessario uno sviluppatore.
+- 
 
 ## Gestione degli ordini e reportistica
 
-
-
 ### Tracciabilità dell'ordine
 
+Per visualizzare e gestire gli ordini passati, accedi a: `Admin > Transazione > Ordini`
 
-
-Per visualizzare e gestire gli ordini passati, accedere a: `Admin > Transazione > Ordini`
-
-
-
-Qui troverete l'**elenco completo degli ordini** effettuati sul vostro sito.
-
-
+Qui troverai l'**elenco completo degli ordini** effettuati sul tuo sito.
 
 ![orders](assets/fr/034.webp)
 
-
-
 #### Visualizzazione e ricerca
 
-
-
-Il Interface consente di cercare e filtrare gli ordini in base a diversi criteri:
-
-
-
-
-
-- numero d'ordine: numero d'ordine
-- alias prodotto: identificativo o nome del prodotto
-- mezzo di pagamento": metodo di pagamento utilizzato (carta, criptovaluta, ecc.)
-- `Email`: email del cliente
-
-
+L'interfaccia consente di cercare e filtrare gli ordini in base a diversi criteri:
+- `numero d'ordine`: numero d'ordine
+- `alias prodotto`: identificativo o nome del prodotto
+- `mezzo di pagamento`: metodo di pagamento utilizzato (carta, criptovaluta, ecc.)
+- `Email`: email del cliente.
 
 Questi filtri facilitano la ricerca rapida e la gestione mirata.
 
-
-
 #### Dettagli di ogni ordine
 
-
-
 Facendo clic su un ordine, è possibile accedere a un file completo contenente:
-
-
-
-
-
 - Prodotti ordinati
 - Informazioni per i clienti
-- Consegna Address (se applicabile)
-- Eventuali note associate all'ordine
-
-
+- Indirizzo di consegna (se applicabile)
+- Eventuali note associate all'ordine.
 
 #### Possibili azioni su un ordine
 
-
-
 È possibile:
-
-
-
-
-
 - Confermare l'ordine (se in sospeso)
 - Annullare un ordine (in caso di problema o richiesta del cliente)
 - Aggiungere **etichette** (per l'organizzazione interna)
-- Consultare / aggiungere **note interne**
+- Consultare / aggiungere **note interne**.
 
-
-
-**Nota: ** questa sezione è essenziale per una buona logistica e per le relazioni con i clienti.
-
-
+**Nota**: questa sezione è essenziale per una buona logistica e per le relazioni con i clienti.
 
 ### Reporting ed esportazione
 
-
-
 Per accedere alle statistiche di vendita e di pagamento:
 
-
-amministratore > Impostazioni > Reporting
-
-
+`Admin > Impostazioni > Reporting`
 
 ![reporting](assets/fr/035.webp)
 
-
-
-Qui troverete una panoramica della vostra attività, sotto forma di **rapporti mensili e annuali**.
-
-
+Qui troverai una panoramica della tua attività, sotto forma di **rapporti mensili e annuali**.
 
 #### Contenuto del rapporto
 
-
-
 I rapporti sono suddivisi in sezioni:
-
-
-
-
-
 - **Dettaglio ordine**: numero di ordini, stato (confermato, annullato, in sospeso), evoluzione
 - **Dettaglio prodotti**: prodotti venduti, quantità, prodotti popolari
 - **Dettaglio pagamenti**: importi incassati, suddivisi per metodo di pagamento
 
-
-
 #### Esportazione dei dati
 
-
-
 Ogni sezione comprende un pulsante **Esporta CSV**, che consente di:
-
-
-
-
-
 - Scaricare i dati in formato CSV
 - Aprirli in Excel, Google Sheets, ecc.
-- Archiviazione per uso amministrativo o contabile
-- Utilizzateli per i rapporti interni
+- Archiviare per uso amministrativo o contabile
+- Utilizzarli per i rapporti interni.
 
-
-
-**Nota: ** ideale per il monitoraggio delle prestazioni, la contabilità e le presentazioni.
-
+**Nota**: ideale per il monitoraggio delle prestazioni, la contabilità e le presentazioni.
 
 
 ## Configurazione di Nostr Messaging (opzionale)
 
-
-
 ![nostr-config](assets/fr/036.webp)
 
-
-
 La piattaforma supporta il protocollo **Nostr** per alcune funzioni avanzate:
-
-
-
-
-
 - Notifiche decentralizzate
 - Accesso senza password
-- Amministrazione leggera Interface
-
-
+- Interfaccia di amministrazione leggera.
 
 ### Generazione e aggiunta della chiave privata Nostr
 
-
-
 Vai a:
 
-
-admin > Gestione dei nodi > Nostr
-
-
-
-
-
-- Fare clic su **Create nsec** se non ne avete uno.
-- Il sistema può generate automaticamente.
+`Admin > Gestione dei nodi > Nostr`
+- Fai clic su **Create nsec** se non ne hai una.
+- Il sistema può generane automaticamente una.
 - In alternativa, è possibile utilizzare una chiave esistente (ad esempio di Damus o Amethyst).
 
-
-
-Il prossimo:
-
-
-
-
-
-- Copiare la chiave `nsec
-- Aggiungerlo al file `.env.local` (o `.env`): ```env NOSTR_PRIVATE_KEY=TuoNsecIciKey
-
-
+Successivamente:
+- Copia la chiave `nsec`
+- Aggiungila al file `.env.local` (o `.env`): ```env NOSTR_PRIVATE_KEY=TuoNsecIciKey```
 
 ### Caratteristiche attivate con Nostr
 
-
-
 Una volta configurate, sono disponibili diverse funzioni:
 
-
-
 **Notifiche via Nostr**
-
-
-
-
 
 - Invio di avvisi per ordini, pagamenti o eventi di sistema
 - Per gli amministratori o gli utenti
 
-
-
-**Amministrazione leggera Interface**
-
-
-
-
+**Interfaccia di amministrazione leggera**
 
 - Accessibile tramite un client Nostr
 - Consente una gestione rapida e mobile
 
-
-
 **Connessione senza password**
-
-
-
-
 
 - Accesso tramite link sicuro (inviato tramite Nostr)
 - Maggiore sicurezza e fluidità per gli utenti
 
 
-
 ## Personalizzazione del design e del tema
 
-
-
-Per adattare l'aspetto del vostro negozio alla vostra carta grafica, andate su: `Admin > Merchandising > Tema`
-
-
+Per adattare l'aspetto del tuo negozio al tuo tema grafico, andate su: `Admin > Merchandising > Tema`
 
 Qui si trovano tutte le opzioni per **creare** e **configurare** un tema personalizzato.
 
-
-
 ### Creare un tema
-
-
 
 ![theme](assets/fr/037.webp)
 
-
-
 Quando si crea o si modifica un tema, è possibile definire:
-
-
-
-
-
 - **Colori**: per pulsanti, sfondi, testo, link, ecc.
 - **Font**: scelta di caratteri tipografici per titoli, paragrafi, menu
 - **Stili grafici**: bordi, margini, spaziatura, forme a blocchi
 
-
-
 ### Sezioni personalizzabili
 
-
-
 Ogni parte del sito può essere regolata in modo indipendente:
-
-
-
-
-
 - **Intestazione**: barra di navigazione superiore
 - **Corpo**: contenuto principale
-- **Piè di pagina**: fondo pagina
+- **Piè di pagina**: fondo pagina.
 
-
-
-**Nota:** questa granularità assicura la coerenza tra le immagini del sito e l'identità del vostro marchio.
-
-
+**Nota**: questa granularità assicura la coerenza tra le immagini del sito e l'identità del tuo marchio.
 
 ### Attivazione del tema
 
-
-
 Una volta configurato il tema:
+- Clicca su **Salva**
+- Attivalo come **tema principale del negozio**.
 
-
-
-
-
-- Cliccare su **Salva**
-- Attivatelo come **tema principale del negozio**
-
-
-
-**Nota: ** il tema attivo è quello che sarà visibile ai visitatori.
-
+**Nota**: il tema attivo è quello che sarà visibile ai visitatori.
 
 
 ## Configurazione dei modelli di e-mail
 
-
-
-La piattaforma consente di personalizzare le e-mail inviate automaticamente agli utenti. Andare a: `Admin > Impostazioni > Modelli`
-
-
+La piattaforma consente di personalizzare le e-mail inviate automaticamente agli utenti. Vai a: `Admin > Impostazioni > Modelli`
 
 ![emails-templates](assets/fr/038.webp)
 
-
-
 ### Creazione/modifica di modelli
 
-
-
 Ogni e-mail (conferma dell'ordine, password dimenticata, ecc.) ha:
-
-
-
-
-
 - **Oggetto**: l'oggetto dell'e-mail (ad es. "L'ordine è stato convalidato")
 - **Corpo HTML**: Contenuto HTML visualizzato nell'e-mail
 
-
-
-**Nota:** è possibile inserire testo, immagini, link, ecc. a seconda delle esigenze.
-
-
+**Nota**: è possibile inserire testo, immagini, link, ecc. a seconda delle esigenze.
 
 ### Utilizzo di variabili dinamiche
 
+Per rendere le e-mail dinamiche, inserisci variabili come:
+- `{{numero d'ordine}}`: sostituito dal numero d'ordine effettivo
+- `{{fatturaLink}}`: collegamento all'invoice
+- `{{sitoLink}}`: URL del sito web.
 
-
-Per rendere le e-mail dinamiche, inserire variabili come:
-
-
-
-
-
-- `{numero d'ordine}}`: sostituito dal numero d'ordine effettivo
-- `{fatturaLink}}`: collegamento al Invoice
-- `{sitoLink}}`: URL del sito web
-
-
-
-**Nota: ** questi tag vengono sostituiti automaticamente quando vengono inviati.
-
-
+**Nota**: questi tag vengono sostituiti automaticamente quando vengono inviati.
 
 ### Suggerimenti avanzati
 
-
-
-
-
-- Creare email che siano **responsive** per facilitare la lettura su dispositivi mobili
-- Aggiungere **pulsanti di azione** (pagamento, download, tracciamento dell'ordine)
-- Testate le vostre e-mail inviandole a voi stessi prima della pubblicazione
-
+- Crea email che siano **responsive** per facilitare la lettura su dispositivi mobili
+- Aggiungi **pulsanti di azione** (pagamento, download, tracciamento dell'ordine)
+- Testa le tue e-mail inviandole a te stesso prima della pubblicazione.
 
 
 ## Configurazione di tag e widget specifici
 
-
-
 ### Gestione dei tag
-
-
 
 I tag possono essere utilizzati per strutturare e arricchire i contenuti. Per accedervi: `Admin > Widget > Tag`
 
-
-
 ![tags-config](assets/fr/039.webp)
-
-
 
 ### Creazione di un tag
 
-
-
-Compilare i seguenti campi:
-
-
-
-
-
+Compila i seguenti campi:
 - **Nome tag**: nome del tag visualizzato
 - **Slug**: identificativo unico (senza spazi o accenti)
-- **Famiglia di tag**: raggruppa i tag per categoria
-
-
+- **Famiglia di tag**: raggruppa i tag per categoria.
 
 ![targsconfig](assets/fr/040.webp)
 
-
-
 #### Famiglie disponibili:
-
-
-
-
-
-- creatori`: autori o produttori
-- rivenditori: venditori o punti vendita
-- `Temporale`: periodi o date
-- eventi: eventi associati
-
-
+- `creatori`: autori o produttori
+- `rivenditori`: venditori o punti vendita
+- `temporale`: periodi o date
+- `eventi`: eventi associati.
 
 ### Campi opzionali
 
-
-
 Questi campi possono essere utilizzati per arricchire un tag come se fosse una pagina di contenuto:
-
-
-
-
-
-- Titolo
-- Sottotitolo
+- **Titolo**
+- **Sottotitolo**
 - **Contenuto breve**
-- **Contenuto completo** (in francese)
+- **Contenuto completo** (in italiano)
 - **CTA** (pulsanti di azione)
-
-
 
 ### Utilizzo dei tag
 
-
-
 I tag possono essere:
-
-
-
-
-
 - Assegnati ai prodotti
-- Integrato nelle pagine CMS con un tag: [Tag=slug?display=var-1]
-
+- Integrati nelle pagine CMS con un tag: [Tag=slug?display=var-1]
 
 
 ## Configurazione dei file scaricabili
 
-
-
 Per offrire documenti scaricabili ai clienti: `Admin > Merch > Files`
-
-
 
 ### Aggiunta di un file
 
+1. Fai clic su **Nuovo file**
+2. Informa:
+  - **Nome del file** (ad es. *Guida all'installazione*)
+  - **File da caricare** (PDF, immagine, Word...)
 
-
-1. Fare clic su **Nuovo file**
-
-
-2. Informare:
-
-
-
-
-- **Nome del file** (ad es. *Guida all'installazione*)
-- **File da caricare** (PDF, immagine, Word...)
-
-
-
-**Nota:** una volta aggiunto, la piattaforma genera automaticamente un **collegamento permanente**.
-
-
+**Nota**: una volta aggiunto, la piattaforma genera automaticamente un **collegamento permanente**.
 
 ### Utilizzando il link
 
-
-
 Questo link può essere inserito in:
-
-
-
-
-
-- Pagina **CMS** (come link di testo o pulsante)
+- Una pagina **CMS** (come link di testo o pulsante)
 - Un **client di posta elettronica** (tramite un modello)
-- Una **scheda del prodotto** (ad es. download del manuale)
+- Una **scheda del prodotto** (ad es. download del manuale).
 
-
-
-È ideale per fornire *manuali d'uso, guide tecniche, schede prodotto...* senza la necessità di un hosting esterno.
-
+È ideale per fornire _manuali d'uso, guide tecniche, schede prodotto..._ senza la necessità di un hosting esterno.
 
 
 ## Nostr-bot
 
-
-
 La piattaforma offre un'integrazione avanzata con il protocollo **Nostr**, attraverso un bot automatizzato.
 
-
-
-Andare a: gestione dei nodi > Nostr
-
-
+Vai a: `gestione dei nodi > Nostr`
 
 ### Caratteristiche principali
 
+#### Gestione dei relay
 
-
-#### Gestione dei relè
-
-
-
-
-
-- Aggiungere o rimuovere i **relay** utilizzati dal bot
-- Ottimizzare la **raggiunta** e la **affidabilità** dei messaggi inviati
-
-
+- Aggiunge o rimuovi i **relay** utilizzati dal bot
+- Ottimizza la **raggiungibiltà** e l'**affidabilità** dei messaggi inviati.
 
 #### Messaggio di presentazione automatica
 
-
-
-
-
-- Attivare un messaggio automatico alla **prima interazione con l'utente**
+- Attiva un messaggio automatico alla **prima interazione con l'utente**
 - Ideale per:
   - Presentare il servizio
-  - Inviare un link utile (ad es. FAQ, contatto, ordine)
+  - Inviare un link utile (ad es. FAQ, contatto, ordine).
 
+#### Certificazione del tuo `npub`
 
-
-#### Certificazione del vostro `npub
-
-
-
-
-
-- Aggiungete un **logo** e un **nome pubblico**
-- Link a un **dominio web verificato**
-- Aumenta la credibilità e il riconoscimento della vostra identità Nostr
-
-
+- Aggiungi un **logo** e un **nome pubblico**
+- Un link a un **dominio web verificato**
+- Aumenta la credibilità e il riconoscimento della tua identità Nostr
 
 ### Casi d'uso di Nostr-bot
 
-
-
-
-
-- Invio di **conferme d'ordine** a voi
+- Invio di **conferme d'ordine** a te stesso
 - Risposta automatica a **eventi (ad es. un nuovo ordine)**
 - Creazione di una **interazione decentralizzata con i clienti**
 
 
+## Sovrascrittura delle etichette di traduzione
 
-## Sovraccarico delle etichette di traduzione
+be-BOP è multilingue (FR, EN, ES...), ma puoi adattare le traduzioni alle tue esigenze.
 
-
-
-be-BOP è multilingue (FR, EN, ES...), ma potete adattare le traduzioni alle vostre esigenze.
-
-
-
-Per farlo, andare a: `Impostazioni > Lingua`
-
-
+Per farlo, vai a: `Impostazioni > Lingua`
 
 ### Caricamento e modifica
 
-
-
 I file di traduzione sono in JSON. È possibile:
-
-
-
-
-
-- **Scarica** i file di lingua
-- **Modificare** i testi esistenti
-- **Aggiungere** le proprie traduzioni
-
-
+- **Scaricare** i file di lingua
+- **Modificarere** i testi esistenti
+- **Aggiungere** le proprie traduzioni.
 
 Link ai file originali:
 
-
 [https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations](https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations)
 
-
-
-**Esempio: ** sostituire `Aggiungi al carrello` con `Ajouter au panier` o `Acheter`.
-
+**Esempio**: sostituisci `Add to chart` con `Ajggiungi al carrello`.
 
 
 ## Lavoro di squadra e punto vendita (POS)
 
-
-
 ### Gestione degli utenti e dei diritti di accesso
-
-
 
 #### Creazione di ruoli
 
+Vai a: `Admin > Impostazioni > ARM`
 
-
-Andare a: `Admin > Impostazioni > ARM`
-
-
-
-Fare clic su **Crea un ruolo** per creare un ruolo (ad esempio, `Super Admin`, `POS`, `Ticket checker`).
-
-
+Fai clic su **Crea un ruolo** per creare un ruolo (ad esempio, `Super Admin`, `POS`, `Ticket checker`).
 
 Ogni ruolo contiene:
-
-
-
-
-
-- **accesso in scrittura**: accesso in scrittura
-- **accesso in lettura**: accesso in lettura
+- **accesso in scrittura**: accesso alla modifica in scrittura
+- **accesso in lettura**: accesso alla sola lettura
 - **accesso vietato**: sezioni interdette
-
-
 
 #### Creazione dell'utente
 
-
-
-Nello stesso menu `Admin > Impostazioni > ARM`, aggiungere un utente con:
-
-
-
-
-
+Nello stesso menu `Admin > Impostazioni > ARM`, aggiungi un utente con:
 - accesso
 - alias
 - recupero della posta elettronica
 - (opzionale) `recovery npub` per la connessione via Nostr
 
-
-
-Assegnare un ruolo precedentemente definito.
-
-
+Assegna un ruolo precedentemente definito.
 
 ![pos-users](assets/fr/045.webp)
 
-
-
-Gli utenti di **sola lettura** vedranno i menu in *italiano* e non potranno modificare i contenuti.
-
+Gli utenti di **sola lettura** vedranno i menu in _italiano_ e non potranno modificare i contenuti.
 
 
 ## Configurazione del punto vendita (POS)
 
-
-
 ### Assegnazione del ruolo di POS
 
-
-
-Per dare a un utente l'accesso al POS, assegnare il ruolo `Punto vendita (POS)` in: `Admin > Config > ARM`
-
-
+Per dare a un utente l'accesso al POS, assegnali il ruolo `Punto vendita (POS)` in: `Admin > Config > ARM`
 
 Può connettersi tramite l'URL sicuro: `/pos` o `/pos/touch`
 
-
-
 ### Caratteristiche specifiche del POS
 
-
-
-Be-BOP offre un Interface dedicato alle vendite fisiche (negozio, evento, ecc.).
-
-
+be-BOP offre un'interfaccia dedicata alle vendite fisiche (negozio, evento, ecc.).
 
 #### Aggiunta rapida tramite alias
 
-
-
 In `/cart`, un campo consente di aggiungere un prodotto:
-
-
-
-
-
 - Tramite la scansione di un **codice a barre** (ISBN, EAN13)
 - Inserendo manualmente un **alias prodotto**
 
-
-
-**Nota: ** il prodotto viene aggiunto automaticamente al carrello.
-
-
+**Nota**: il prodotto viene aggiunto automaticamente al carrello.
 
 #### Mezzi di pagamento
 
-
-
 Il POS supporta:
-
-
-
-
-
-- Specie
+- Contanti
 - Carta di credito
 - Lightning Network (crittografia)
-- Altri in base alla configurazione
-
-
+- Altri in base alla configurazione.
 
 Sono disponibili due opzioni avanzate:
-
-
-
-
-
 - **Esenzione IVA**: applicabile su giustificazione (ONG, stranieri...)
 - **Sconto regalo**: sconto eccezionale con commento obbligatorio
 
-
-
 #### Visualizzazione lato client
-
-
 
 L'URL `/pos/sessione` è destinato a uno **schermo secondario** (HDMI, tablet...):
 
-
-
 Poster:
-
-
-
-
-
 - Prodotti in corso di realizzazione
 - Importo totale
 - Metodo di pagamento
-- Sconti applicati
+- Sconti applicati.
 
-
-
-**Nota: ** il cliente segue l'ordine in diretta, mentre il venditore lo registra su `/pos`.
-
-
+**Nota**: il cliente segue l'ordine in diretta, mentre il venditore lo registra su `/pos`.
 
 ### Riepilogo POS
 
-
-
-
-
-| Funzione                         | Descrizione                                             |
-|----------------------------------|---------------------------------------------------------|
-| Ruolo POS                         | Assegnato tramite ARM                                         |
-| Interfaccia Principale             | `/pos` o `/pos/touch`                                 |
-| Display Cliente (Schermo 2)       | `/pos/session`                                         |
-| Pagamento                         | Contanti, carta, Lightning, ecc.                         |
-| Aggiunta Prodotto                    | Alias o scansione codice a barre                              |
-| Sconti / IVA                    | Con giustificazione gestionale obbligatoria              |
+| Funzione                    | Descrizione                                  |
+|-----------------------------|----------------------------------------------|
+| Ruolo POS                   | Assegnato tramite ARM                        |
+| Interfaccia Principale      | `/pos` o `/pos/touch`                        |
+| Display Cliente (Schermo 2) | `/pos/session`                               |
+| Pagamento                   | Contanti, carta, Lightning, ecc.             |
+| Aggiunta Prodotto           | Alias o scansione codice a barre             |
+| Sconti / IVA                | Con giustificazione gestionale obbligatoria  |
 
 Grazie per aver seguito con attenzione questa guida.

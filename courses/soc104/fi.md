@@ -826,7 +826,7 @@ Libertaristit suhtautuvat syvästi epäluuloisesti kaikkeen vallan keskittymisee
 2.  **Toinen anarkokapitalisti:** joka uskoo, että valtion toiminnot pitäisi yksityistää ja hoitaa markkinoiden toimesta.
 
 
-Molemmat ovat kuitenkin yhtä mieltä yksilön itsemääräämisoikeuden perusperiaatteesta. Libertaristisia ajatuksia ilmaisivat jo 1700-luvulla fysiokraatit, erityisesti Vincent de Gournay ja Turgot, ja niitä kehittivät Condillac, Jean-Baptiste Say ja Frédéric Bastiat. 1900-luvulla ne otettiin käyttöön ja niitä kehitettiin itävaltalaisessa taloustieteen koulukunnassa, jonka tärkeimpiä kirjoittajia ovat Ludwig von Mises, Friedrich Hayek ja Murray Rothbard.
+Molemmat ovat kuitenkin yhtä mieltä yksilön itsemääräämisoikeuden perusperiaatteesta. Libertaristisia ajatuksia ilmaisivat jo 1700-luvulla fysiokraatit, erityisesti Vincent de Gournay ja Turgot, ja niitä kehittivät Condillac, Jean-Baptiste Say ja Frédéric Bastiat. 1900-luvulla ne otettiin käyttöön ja niitä kehitettiin [itävaltalaisessa taloustieteen koulukunnassa](https://planb.academy/resources/glossary/austrian-school), jonka tärkeimpiä kirjoittajia ovat Ludwig von Mises, Friedrich Hayek ja Murray Rothbard.
 
 
 
@@ -1626,10 +1626,10 @@ Tämän kurssin lopussa on mielestämme tärkeää käsitellä Bitcoin:n ja bitc
 
 
 
-Bitcoin on Satoshi Nakamoton vuonna 2008 luoma hajautettu kryptovaluutta, joka mahdollistaa epäluotettavat, vertaisverkkoon perustuvat rahoitustapahtumat.
+Bitcoin on Satoshi Nakamoton vuonna 2008 luoma hajautettu [kryptovaluutta](https://planb.academy/resources/glossary/cryptocurrency), joka mahdollistaa epäluotettavat, [vertaisverkkoon perustuvat](https://planb.academy/resources/glossary/peertopeer-p2p) rahoitustapahtumat.
 
 
-Bitcoin:ta ohjaa avoimen lähdekoodin ohjelmistoprotokolla, eikä sillä ole toimitusjohtajaa, pääkonttoria, markkinointibudjettia eikä nimettyjä viranomaisia. Tämä tarkoittaa, että mikään poliittinen taho tai hallitus ei valvo sitä.
+Bitcoin:ta ohjaa [avoimen lähdekoodin](https://planb.academy/resources/glossary/foss) ohjelmistoprotokolla, eikä sillä ole toimitusjohtajaa, pääkonttoria, markkinointibudjettia eikä nimettyjä viranomaisia. Tämä tarkoittaa, että mikään poliittinen taho tai hallitus ei valvo sitä.
 
 
 
@@ -1645,7 +1645,7 @@ Vaikka Bitcoin itsessään ei ole oikeistolainen eikä vasemmistolainen eikä se
 
 
 
-Satoshi Nakamoton valkoista kirjaa lukiessamme näemme, että Bitcoin suunniteltiin tarjoamaan innovatiivista suojaa kahta nykyajan suurinta uhkaa vastaan: laajalle levinnyttä valvontaa ja keinotekoisen rahan luomisen kiihdyttämistä vastaan.
+Satoshi Nakamoton [valkoista kirjaa](https://planb.academy/resources/glossary/white-paper) lukiessamme näemme, että Bitcoin suunniteltiin tarjoamaan innovatiivista suojaa kahta nykyajan suurinta uhkaa vastaan: laajalle levinnyttä valvontaa ja keinotekoisen rahan luomisen kiihdyttämistä vastaan.
 
 
 
@@ -1681,7 +1681,7 @@ Satoshi Nakamoton älyllisen lähestymistavan lähtökohtana on siis ihmisten li
 
 
 
-Tämän otsikon sisällyttäminen genesis-lohkoon on tulkinnanvaraista. Se saattaa kuitenkin näyttäytyä Satoshi:n kommenttina perinteisten rahoituslaitosten epäonnistumisista ja Bitcoin:n tavoitteen ilmauksena: tarjota vaihtoehto keskitetyille pankkijärjestelmille.
+Tämän otsikon sisällyttäminen [genesis-lohkoon](https://planb.academy/resources/glossary/genesis-block) on tulkinnanvaraista. Se saattaa kuitenkin näyttäytyä Satoshi:n kommenttina perinteisten rahoituslaitosten epäonnistumisista ja Bitcoin:n tavoitteen ilmauksena: tarjota vaihtoehto keskitetyille pankkijärjestelmille.
 
 
 
@@ -1772,7 +1772,7 @@ Ja hän lisää:
 
 > luottamuksellisuus avoimessa yhteiskunnassa edellyttää anonyymejä tapahtumajärjestelmiä. Tähän asti käteinen raha on ollut tärkein tämäntyyppinen järjestelmä.
 
-Siksi kryptografiaa käytetään vastarinnan välineenä kaikkia valtion ja yritysten hallinnan muotoja vastaan. Se varmistaa, että jokainen transaktion osapuoli tietää vain sen, mikä on ehdottoman välttämätöntä kyseistä transaktiota varten.
+Siksi [kryptografiaa](https://planb.academy/resources/glossary/cryptography) käytetään vastarinnan välineenä kaikkia valtion ja yritysten hallinnan muotoja vastaan. Se varmistaa, että jokainen transaktion osapuoli tietää vain sen, mikä on ehdottoman välttämätöntä kyseistä transaktiota varten.
 
 
 

@@ -826,7 +826,7 @@ In de 20e eeuw ontstonden twee grote trends:
 2.  **De andere anarcho-kapitalist:** die gelooft dat staatsfuncties geprivatiseerd en beheerd moeten worden door de markt.
 
 
-Beide zijn het echter eens over het fundamentele principe van individuele soevereiniteit. Libertarische ideeën werden al in de 18e eeuw geuit door de Fysiocraten, met name Vincent de Gournay en Turgot, en ontwikkeld door Condillac, Jean-Baptiste Say en Frédéric Bastiat. In de 20e eeuw werden ze overgenomen en ontwikkeld door de Oostenrijkse economische school, met als belangrijkste auteurs Ludwig von Mises, Friedrich Hayek en Murray Rothbard.
+Beide zijn het echter eens over het fundamentele principe van individuele soevereiniteit. Libertarische ideeën werden al in de 18e eeuw geuit door de Fysiocraten, met name Vincent de Gournay en Turgot, en ontwikkeld door Condillac, Jean-Baptiste Say en Frédéric Bastiat. In de 20e eeuw werden ze overgenomen en ontwikkeld door de [Oostenrijkse economische school](https://planb.academy/resources/glossary/austrian-school), met als belangrijkste auteurs Ludwig von Mises, Friedrich Hayek en Murray Rothbard.
 
 
 
@@ -1626,10 +1626,10 @@ Aan het einde van deze cursus vinden we het essentieel om in te gaan op de polit
 
 
 
-Bitcoin is een gedecentraliseerde cryptocurrency, gecreëerd door Satoshi Nakamoto in 2008, die niet-vertrouwde, peer-to-peer financiële transacties mogelijk maakt.
+Bitcoin is een gedecentraliseerde [cryptocurrency](https://planb.academy/resources/glossary/cryptocurrency), gecreëerd door Satoshi Nakamoto in 2008, die niet-vertrouwde, [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) financiële transacties mogelijk maakt.
 
 
-Bitcoin wordt bestuurd door een open source softwareprotocol, zonder CEO, zonder hoofdkantoor, zonder marketingbudget en zonder aangewezen autoriteit. Dit betekent dat geen enkele politieke entiteit of regering er controle over heeft.
+Bitcoin wordt bestuurd door een [open source](https://planb.academy/resources/glossary/foss) softwareprotocol, zonder CEO, zonder hoofdkantoor, zonder marketingbudget en zonder aangewezen autoriteit. Dit betekent dat geen enkele politieke entiteit of regering er controle over heeft.
 
 
 
@@ -1645,7 +1645,7 @@ Hoewel Bitcoin zelf niet rechts of links is en ook niet bij een religie hoort, w
 
 
 
-Als we het Satoshi Nakamoto Witboek lezen, zien we dat Bitcoin ontworpen is om innovatieve bescherming te bieden tegen twee grote hedendaagse bedreigingen: wijdverspreide bewaking en de versnelling van kunstmatige geldschepping.
+Als we het Satoshi Nakamoto [Witboek](https://planb.academy/resources/glossary/white-paper) lezen, zien we dat Bitcoin ontworpen is om innovatieve bescherming te bieden tegen twee grote hedendaagse bedreigingen: wijdverspreide bewaking en de versnelling van kunstmatige geldschepping.
 
 
 
@@ -1653,7 +1653,7 @@ Als we het Satoshi Nakamoto Witboek lezen, zien we dat Bitcoin ontworpen is om i
 
 
 
-2. Bitcoin stelt iedereen in staat om zijn spaargeld te beschermen tegen de inbeslagname van privébezit door monetaire inflatie. Het is een poging om de controle van de staat over het beheer van geld als ruilmiddel uit te dagen en dus om met de staat te concurreren. De financiële crisis van 2008 en de Covid 19 pandemie hebben de gebreken van het huidige systeem blootgelegd. De triljoenen dollars die uit het niets werden bijgedrukt om te voorkomen dat de economie verder zou instorten, hadden verwoestende gevolgen, waar we nu nog steeds voor betalen.
+2. Bitcoin stelt iedereen in staat om zijn spaargeld te beschermen tegen de inbeslagname van privébezit door monetaire [inflatie](https://planb.academy/resources/glossary/inflation). Het is een poging om de controle van de staat over het beheer van geld als ruilmiddel uit te dagen en dus om met de staat te concurreren. De financiële crisis van 2008 en de Covid 19 pandemie hebben de gebreken van het huidige systeem blootgelegd. De triljoenen dollars die uit het niets werden bijgedrukt om te voorkomen dat de economie verder zou instorten, hadden verwoestende gevolgen, waar we nu nog steeds voor betalen.
 
 
 
@@ -1681,7 +1681,7 @@ Het uitgangspunt van Satoshi Nakamoto's intellectuele benadering is daarom het o
 
 
 
-De opname van deze titel in het ontstaansblok is voor interpretatie vatbaar. Maar het kan lijken op Satoshi's commentaar op het falen van traditionele financiële instellingen en als een verklaring van Bitcoin's doel: een alternatief bieden voor gecentraliseerde banksystemen.
+De opname van deze titel in het [ontstaansblok](https://planb.academy/resources/glossary/genesis-block) is voor interpretatie vatbaar. Maar het kan lijken op Satoshi's commentaar op het falen van traditionele financiële instellingen en als een verklaring van Bitcoin's doel: een alternatief bieden voor gecentraliseerde banksystemen.
 
 
 
@@ -1725,7 +1725,7 @@ In die zin wordt het gedreven door een visie op de wereld die zowel moreel als p
 
 
 
-Maar Bitcoin verscheen niet uit het niets. Het is gebaseerd op vooruitgang in wiskunde, natuurkunde, computerwetenschap en filosofie. Satoshi Nakamoto, hoewel briljant, bouwde voort op de ideeën van andere vernieuwers. Onder hen de pioniers van de cypherpunk beweging.
+Maar Bitcoin verscheen niet uit het niets. Het is gebaseerd op vooruitgang in wiskunde, natuurkunde, computerwetenschap en filosofie. Satoshi Nakamoto, hoewel briljant, bouwde voort op de ideeën van andere vernieuwers. Onder hen de pioniers van de [cypherpunk](https://planb.academy/resources/glossary/cypherpunks) beweging.
 
 
 
@@ -1772,7 +1772,7 @@ En hij voegt eraan toe:
 
 > vertrouwelijkheid in een open samenleving vereist anonieme transactiesystemen. Tot nu toe was contant geld het belangrijkste systeem van dit type.
 
-Daarom zal cryptografie worden gebruikt als een middel van verzet tegen alle vormen van staats- en bedrijfscontrole. Het zorgt ervoor dat elke partij bij een transactie alleen weet wat strikt noodzakelijk is voor die transactie.
+Daarom zal [cryptografie](https://planb.academy/resources/glossary/cryptography) worden gebruikt als een middel van verzet tegen alle vormen van staats- en bedrijfscontrole. Het zorgt ervoor dat elke partij bij een transactie alleen weet wat strikt noodzakelijk is voor die transactie.
 
 
 

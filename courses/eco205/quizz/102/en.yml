@@ -1,0 +1,8 @@
+question: According to Menger, what is the fundamental condition of barter that limits exchanges in an economy and leads to the emergence of a currency?
+answer: The need to find partners with exactly the goods you need (double coincidence of needs)
+wrong_answers:
+  - "The absence of central authorities to regulate exchanges and guarantee their validity"
+  - Lack of standardized weights and measures to assess the value of goods
+  - "Insufficient means of transport to get goods to remote markets"
+explanation: |
+  The correct answer identifies the central problem of bartering according to Menger: the double coincidence of needs. This condition requires that each barterer find a partner possessing exactly what he desires and desiring exactly what he possesses, which becomes impossible in an economy that goes beyond a restricted circle. The other answers, although they may pose economic challenges, do not, according to Menger, constitute the fundamental constraint that naturally leads to the adoption of exchange intermediaries.

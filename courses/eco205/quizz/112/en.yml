@@ -1,0 +1,8 @@
+question: According to Austrian theory, what would happen if two individuals valued the goods they own in exactly the same way?
+answer: No exchange would take place because there would be no valuation difference to motivate the transaction
+wrong_answers:
+  - "The exchange would take place, but at a perfectly fair price determined by this joint valuation."
+  - The price would be formed automatically at the level of this valuation shared by both parties
+  - "The State should intervene to set a fair price based on this common objective valuation."
+explanation: |
+  Austrian theory explains that exchange is only possible because of the discrepancy between individuals' value judgments. If two people valued their respective goods identically, neither would be motivated to exchange, as they would perceive no mutual benefit. It is precisely because the baker prefers money to her baguette, while the buyer prefers the baguette to his money, that exchange becomes possible and mutually beneficial.

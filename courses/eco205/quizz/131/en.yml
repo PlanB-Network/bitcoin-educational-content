@@ -1,0 +1,8 @@
+question: According to the Austrian school of thought, what is the main role of the interest rate in the allocation of economic resources?
+answer: It allows resources to be allocated over time by coordinating individual temporal preferences
+wrong_answers:
+  - It only regulates the spatial distribution of resources between different economic sectors
+  - It exclusively determines the price level of consumer goods on the markets
+  - "It mainly controls the speed of circulation of money in the national economy"
+explanation: |
+  According to the Austrian school of thought, the interest rate plays a unique role in intertemporal coordination. Unlike ordinary prices, which allocate resources in space, the interest rate allocates resources in time, reflecting the aggregate temporal preferences of individuals. It thus coordinates savings, investment and consumption between the present and the future, making it a fundamental mechanism that differs from other economic prices.

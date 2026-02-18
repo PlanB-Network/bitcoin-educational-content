@@ -1,0 +1,8 @@
+question: How does Menger's marginalist revolution resolve the diamond-and-water paradox that classical theories of labor value could not explain?
+answer: By demonstrating that value depends on the marginal utility of the last available unit and not on total utility or embodied labor
+wrong_answers:
+  - "By proving that diamonds are objectively more labor-intensive than water, and that their price reflects this measurable reality."
+  - By establishing that natural scarcity mechanically determines value independently of individuals' subjective preferences
+  - By showing that the material conditions of production automatically create the hierarchy of values according to historical laws
+explanation: |
+  The paradox of the diamond and the water illustrated the inability of classical theories to explain why essential goods (water) are worth less than superfluous goods (diamonds). Menger solved this paradox with his theory of marginal utility: value does not depend on total utility or embodied labor, but on the utility of the last available unit. Water, which is abundant, has a low marginal utility despite its enormous total utility, while diamonds, which are rare, retain a high marginal utility.

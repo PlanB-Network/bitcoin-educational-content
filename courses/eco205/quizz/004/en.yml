@@ -1,0 +1,8 @@
+question: What does opportunity cost mean according to the Austrian school of economics?
+answer: The value of the best alternative sacrificed when making a choice
+wrong_answers:
+  - "The actual purchase price of a property on the market"
+  - "The total production cost of a good or service"
+  - "The difference between the sale price and the purchase price"
+explanation: |
+  Opportunity cost is a central concept of the Austrian school, representing the value of the best alternative foregone when making a choice. This subjective notion structures all economic decisions made by agents. It is not the purchase price, the cost of production or a price difference, but what we give up by choosing one option over another.

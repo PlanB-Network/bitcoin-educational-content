@@ -1,0 +1,8 @@
+question: According to Carl Menger, what is the main mechanism behind the spontaneous emergence of money on the market?
+answer: A process of imitation and self-interest creating a network externality effect
+wrong_answers:
+  - A collective decision by merchants to standardize commercial exchanges
+  - "The intervention of a central authority that imposes a good as a monetary reference"
+  - "The natural scarcity of a good automatically forces its adoption as currency."
+explanation: |
+  Menger explains that money emerges when the most perceptive economic agents identify the most exchangeable good, then the others imitate this choice out of self-interest. This creates a network externality effect: the more a good is adopted as money, the more exchangeable it becomes, reinforcing its adoption in a virtuous circle. This process is spontaneous and decentralized, without the intervention of a central authority or formal collective decision.

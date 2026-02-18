@@ -1,0 +1,8 @@
+question: What is the direct consequence on the productive structure when the interest rate price signal is distorted in relation to people's real time preferences?
+answer: Major distortions appear in the productive structure, creating a mismatch between resource allocation and genuine time preferences
+wrong_answers:
+  - "Savings automatically adjust to compensate for manipulation, immediately restoring the natural equilibrium of the capital market."
+  - Entrepreneurs spontaneously develop better technical knowledge to compensate for the lack of intertemporal coordination
+  - "Collective time preference gradually changes to adapt to the new level of imposed interest rates"
+explanation: |
+  According to Austrian analysis, the interest rate is a crucial price signal for intertemporal coordination. When it is manipulated, the productive structure no longer reflects true temporal preferences, creating distortions that lead to business cycles. Savings don't adjust automatically, technical knowledge doesn't compensate for this coordination problem, and individual time preferences remain subjective and don't adapt artificially to imposed rates.

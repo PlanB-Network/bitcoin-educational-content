@@ -1,0 +1,8 @@
+question: According to the Austrian school of thought, what is the fundamental mechanism that determines the optimal organization of the production structure from raw materials to the final product?
+answer: The final price paid by the consumer, which retroactively influences the entire production chain
+wrong_answers:
+  - Centralized planning, which calculates production costs and then sets sales prices
+  - "The technical analysis of industrial processes that determines the optimum sequence of transformation"
+  - Direct coordination between different production sectors through specialized committees
+explanation: |
+  For the Austrian school, it's the final price that determines costs, not the other way around, contrary to socialist thinking. The price paid by the consumer influences the organization of the entire production structure, moving up the chain. This inverted logic is crucial: the entrepreneur organizes production according to what the consumer is willing to pay, not by first calculating costs and then setting a price. Other answers reflect a technocratic or planned approach that ignores the central role of price signals.

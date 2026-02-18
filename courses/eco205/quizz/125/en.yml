@@ -1,0 +1,8 @@
+question: According to Hayek, what is the main consequence of the fact that individual economic decisions are made on the basis of limited and scattered information?
+answer: All economic decisions become essentially speculative, but the price system makes it possible to coordinate them efficiently
+wrong_answers:
+  - Markets become inefficient and require government intervention to correct informational imbalances
+  - Economic agents must share all their information if the market is to function properly
+  - "It becomes impossible to make rational decisions, which inevitably leads to the failure of the market system."
+explanation: |
+  For Hayek, the dispersal of information turns all economic decisions into speculations based on partial knowledge. However, the price system solves this problem by serving as a spontaneous coordination mechanism that transmits essential information without the need for central planning. The other answers are incorrect, as they suggest either market failure or the need for external intervention, which contradicts the Hayekian theory of spontaneous order.

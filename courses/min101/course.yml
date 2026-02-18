@@ -23,6 +23,8 @@ tags:
   - user-friendly
   - onchain
 
+test_only: true
+
 # Proofreading metadata
 
 original_language: fr

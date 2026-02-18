@@ -1,4 +1,4 @@
-question: "Chuyển đổi nhóm khai thác" (pool hopping) có nghĩa là gì đối với một thợ đào ủy thác tốc độ băm của mình cho một nhóm khai thác mining?
+question: "\"Chuyển đổi nhóm khai thác\" (pool hopping) có nghĩa là gì đối với một thợ đào ủy thác tốc độ băm của mình cho một nhóm khai thác mining?"
 answer: Ngắt kết nối khỏi nhóm mining sau khi đã gửi một số lượng cổ phần nhất định trong một chu kỳ, và chuyển hướng sức mạnh tính toán sang tài khoản của riêng bạn hoặc sang một nhóm mining khác
 wrong_answers:
   - Áp dụng giao thức truyền thông tiêu tốn nhiều băng thông để tương tác với nhóm mining nhằm giảm thiểu các phần chia sẻ lỗi thời bằng cách đơn giản hóa việc thông báo các khối mới

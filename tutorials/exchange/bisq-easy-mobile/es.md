@@ -1,6 +1,6 @@
 ---
 name: Bisq Easy Mobile
-description: Un protocolo de comercio entre iguales para nuevos usuarios de bitcoin: sin intermediarios, sin KYC.
+description: "Un protocolo de comercio entre iguales para nuevos usuarios de bitcoin: sin intermediarios, sin KYC."
 ---
 ![cover](assets/cover.webp)
 

@@ -141,7 +141,7 @@ Jos haluat ymmärtää paremmin, mistä Bitcoin on peräisin ja mikä tekee siit
 
 https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
-Kuten tiedätte, Plan ₿ Academy-alusta on omistettu yksinomaan Bitcoin:lle. Jos kuitenkin ymmärrät eron muihin kryptovaluuttoihin, voit välttää hyödyttömiin ja joskus jopa vilpillisiin hankkeisiin liittyvät sudenkuopat.
+Kuten tiedätte, Plan ₿ Academy-alusta on omistettu yksinomaan Bitcoin:lle. Jos kuitenkin ymmärrät eron muihin [kryptovaluuttoihin](https://planb.academy/resources/glossary/cryptocurrency), voit välttää hyödyttömiin ja joskus jopa vilpillisiin hankkeisiin liittyvät sudenkuopat.
 
 
 ![image](assets/fi/006.webp)
@@ -260,7 +260,7 @@ Ennen kuin napsautat linkkiä tai ryhdyt mihinkään toimiin, tarkista aina läh
 #### Bitcoin Kovahaarukat
 
 
-Bitcoin on vuosien varrella kokenut useita *Hard haarautumia*, jotka ovat johtaneet alkuperäisen kryptovaluutan vaihtoehtoisten versioiden luomiseen. Yksinkertaisesti sanottuna *Hard Fork* on verkon jakautuminen, joka johtaa kahteen erilliseen lohkoketjuun, joilla molemmilla on sama historia jakautumishetkeen asti. Tällaisia haarautumia tapahtuu yleensä silloin, kun osa kehittäjäyhteisöstä tai laajemmasta Bitcoin-ekosysteemistä haluaa tehdä suuria muutoksia alkuperäiseen protokollaan, mutta ei pääse laajaan yhteisymmärrykseen. Sen sijaan, että he hylkäisivät ideansa, he päättävät julkaista uuden version Bitcoin:sta (muutetuilla säännöillä) toivoen, että käyttäjät ja louhijat valitsevat Fork:n sen sijaan.
+Bitcoin on vuosien varrella kokenut useita *Hard haarautumia*, jotka ovat johtaneet alkuperäisen kryptovaluutan vaihtoehtoisten versioiden luomiseen. Yksinkertaisesti sanottuna *Hard Fork* on verkon jakautuminen, joka johtaa kahteen erilliseen [lohkoketjuun](https://planb.academy/resources/glossary/blockchain), joilla molemmilla on sama historia jakautumishetkeen asti. Tällaisia haarautumia tapahtuu yleensä silloin, kun osa kehittäjäyhteisöstä tai laajemmasta Bitcoin-ekosysteemistä haluaa tehdä suuria muutoksia alkuperäiseen protokollaan, mutta ei pääse laajaan yhteisymmärrykseen. Sen sijaan, että he hylkäisivät ideansa, he päättävät julkaista uuden version Bitcoin:sta (muutetuilla säännöillä) toivoen, että käyttäjät ja louhijat valitsevat Fork:n sen sijaan.
 
 
 ![image](assets/fi/011.webp)
@@ -336,7 +336,7 @@ Viime kädessä paras puolustuskeinosi on henkilökohtainen koulutus, terve skep
 
 - Älä koskaan luota sokeasti: "* Älä luota, tarkista*" ;
 - Suhtaudu epäilevästi taattuihin tai epätavallisen korkeisiin tuottoihin;
-- Älä koskaan jaa yksityisiä avaimiasi kenenkään kanssa;
+- Älä koskaan jaa [yksityisiä avaimiasi](https://planb.academy/resources/glossary/private-key) kenenkään kanssa;
 - Älä lähetä Bitcoin:a (tai mitään kryptoa) tuntemattomiin osoitteisiin;
 - Jos olet epävarma, pysähdy. Astu taaksepäin ja mieti ennen kuin ryhdyt toimiin. FOMO on pahin vihollisesi;
 - Vältä maksullisia kaupparyhmiä tai yhteisöjä, jotka antavat epärealistisia lupauksia;
@@ -569,7 +569,7 @@ Seuraavassa ovat keskeiset kohdat, jotka käymme yhdessä läpi:
 
 
 
-- Varo **Shitcoineja** ja muita hyödyttömiä kryptovaluuttoja;
+- Varo **[Shitcoineja](https://planb.academy/resources/glossary/shitcoin)** ja muita hyödyttömiä kryptovaluuttoja;
 - Sijoita vain **rahaa, jonka sinulla on varaa menettää**;
 - Tiedä ero **kaupankäynnin** ja **sijoittamisen** välillä;
 - Ole tietoinen sijoitustesi **verovaikutuksista**;
@@ -633,7 +633,7 @@ Lähestymällä asiaa tällä tavoin varmistat, ettet aseta taloudellista hyvinv
 ![image](assets/fi/023.webp)
 
 
-Kun budjettisi on määritelty, mieti, miten haluat sijoittaa. Yksi aloittelijoille sopivimmista ja laajalti suositelluista menetelmistä on [Dollar Cost Averaging (DCA)](https://planb.academy/resources/glossary/dollar-cost-averaging-dca), jossa ostetaan kiinteä määrä Bitcoin:tä säännöllisin väliajoin (viikoittain, kuukausittain jne.). Tämä strategia auttaa tasoittamaan keskimääräistä tulohintaasi ajan mittaan ja vähentää hinnanvaihtelujen emotionaalista vaikutusta. Se on fiksu lähestymistapa useimmille ihmisille, erityisesti vasta-alkajille.
+Kun budjettisi on määritelty, mieti, miten haluat sijoittaa. Yksi aloittelijoille sopivimmista ja laajalti suositelluista menetelmistä on Dollar Cost Averaging (DCA), jossa ostetaan kiinteä määrä Bitcoin:tä säännöllisin väliajoin (viikoittain, kuukausittain jne.). Tämä strategia auttaa tasoittamaan keskimääräistä tulohintaasi ajan mittaan ja vähentää hinnanvaihtelujen emotionaalista vaikutusta. Se on fiksu lähestymistapa useimmille ihmisille, erityisesti vasta-alkajille.
 
 
 Kysy sitten itseltäsi: Mikä on aikahorisontti?
@@ -844,10 +844,10 @@ Vuosien mittaan Bitcoin on saanut tunnustusta maailmanlaajuisena rahaverkostona.
 Bitcoin ei syntynyt yhdessä yössä. Se on tulosta vuosikymmenien tutkimus- ja kokeilutyöstä salakirjoituksen, tietojenkäsittelytieteen ja rahateorian alalla. Ennen sen käyttöönottoa vuonna 2009 useat projektit (kuten eCash, b-money, Bit Gold ja RPOW) yrittivät luoda digitaalisia valuuttoja. Kaikilla oli sama keskeinen ongelma: miten estää kaksinkertainen rahankäyttö hajautetussa järjestelmässä turvautumatta keskusviranomaiseen.
 
 
-Tämä haaste pysyi ratkaisemattomana, kunnes vuoden 2008 lopulla Satoshi Nakamoto -nimellä esiintynyt henkilö julkaisi Bitcoin white paperin. Muutamaa kuukautta myöhemmin Bitcoin:n avoimen lähdekoodin ohjelmiston ensimmäinen versio otettiin käyttöön, mikä käynnisti järjestelmän, joka voisi toimia riippumattomasti pankeista tai hallituksista.
+Tämä haaste pysyi ratkaisemattomana, kunnes vuoden 2008 lopulla Satoshi Nakamoto -nimellä esiintynyt henkilö julkaisi Bitcoin [white paperin](https://planb.academy/resources/glossary/white-paper). Muutamaa kuukautta myöhemmin Bitcoin:n [avoimen lähdekoodin](https://planb.academy/resources/glossary/foss) ohjelmiston ensimmäinen versio otettiin käyttöön, mikä käynnisti järjestelmän, joka voisi toimia riippumattomasti pankeista tai hallituksista.
 
 
-Hankkeeseen vaikutti vahvasti Cypherpunk:n eetos; se oli kehittäjien ja ajattelijoiden yhteisö, joka uskoi kryptografian käyttöön yksilönvapauksien suojelemiseksi verkossa. Heille yksityisyys ja hajauttaminen eivät olleet teknisiä mieltymyksiä vaan ideologisia välttämättömyyksiä. Bitcoin oli näiden ihanteiden menestyksekkäin ilmentymä: vertaisverkkoon perustuva rahaverkko, jota kuka tahansa voi käyttää, jota kukaan ei voi hallita ja jonka jokainen voi todentaa.
+Hankkeeseen vaikutti vahvasti [Cypherpunk](https://planb.academy/resources/glossary/cypherpunks):n eetos; se oli kehittäjien ja ajattelijoiden yhteisö, joka uskoi [kryptografian](https://planb.academy/resources/glossary/cryptography) käyttöön yksilönvapauksien suojelemiseksi verkossa. Heille yksityisyys ja hajauttaminen eivät olleet teknisiä mieltymyksiä vaan ideologisia välttämättömyyksiä. Bitcoin oli näiden ihanteiden menestyksekkäin ilmentymä: vertaisverkkoon perustuva rahaverkko, jota kuka tahansa voi käyttää, jota kukaan ei voi hallita ja jonka jokainen voi todentaa.
 
 
 ![image](assets/fi/030.webp)
@@ -873,7 +873,7 @@ Ajatus digitaalisesta valuutasta, joka toimii keskusviranomaisista riippumatta (
 Bitcoin ei ilmestynyt tyhjästä. Se luotiin hyvin erityisellä hetkellä - heti vuoden 2008 maailmanlaajuisen rahoituskriisin jälkeen. Yhdysvaltain asuntomarkkinoiden romahdus ja subprime-lainakriisi aiheuttivat suurten pankkien kaatumisen ja horjuttivat ihmisten luottamusta koko rahoitusjärjestelmään.
 
 
-Bitcoin syntyi tässä pelon ja epävarmuuden ympäristössä. Bitcoin Blockchain:n luoja, joka tunnetaan nimellä Satoshi Nakamoto, sisällytti hyvin symbolisen viestin Bitcoin Blockchain:n ensimmäiseen lohkoon, joka tunnetaan nimellä Genesis. Viesti oli seuraava:
+Bitcoin syntyi tässä pelon ja epävarmuuden ympäristössä. Bitcoin Blockchain:n luoja, joka tunnetaan nimellä Satoshi Nakamoto, sisällytti hyvin symbolisen viestin Bitcoin Blockchain:n ensimmäiseen lohkoon, joka tunnetaan nimellä [Genesis](https://planb.academy/resources/glossary/genesis-block). Viesti oli seuraava:
 
 
 > **"The Times 03/Jan/2009 Liittokansleri toisen pankkien pelastuspaketin partaalla "**
@@ -901,13 +901,13 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 #### Vertaisverkko ilman keskitettyä elintä
 
 
-Bitcoin määritellään "vertaisverkkopohjaiseksi sähköiseksi käteisrahajärjestelmäksi" Tämä tarkoittaa sitä, että kuka tahansa voi liittyä verkkoon asianmukaisen ohjelmiston (Bitcoin-solmun) avulla ja olla suoraan vuorovaikutuksessa muiden käyttäjien kanssa ilman keskitettyä palvelinta. Hajauttamisen tavoitteena on estää yksittäisiä tahoja (kuten pankkeja, hallituksia tai suuryrityksiä) valvomasta, sensuroimasta tai pysäyttämästä järjestelmää. Bitcoin toimii 24/7, maailmanlaajuisesti, ja se on kaikkien käytettävissä ilman ehtoja.
+Bitcoin määritellään "vertaisverkkopohjaiseksi sähköiseksi käteisrahajärjestelmäksi" Tämä tarkoittaa sitä, että kuka tahansa voi liittyä verkkoon asianmukaisen ohjelmiston (Bitcoin-[solmun](https://planb.academy/resources/glossary/node)) avulla ja olla suoraan vuorovaikutuksessa muiden käyttäjien kanssa ilman keskitettyä palvelinta. Hajauttamisen tavoitteena on estää yksittäisiä tahoja (kuten pankkeja, hallituksia tai suuryrityksiä) valvomasta, sensuroimasta tai pysäyttämästä järjestelmää. Bitcoin toimii 24/7, maailmanlaajuisesti, ja se on kaikkien käytettävissä ilman ehtoja.
 
 
 ![image](assets/fi/034.webp)
 
 
-Yksinkertaisesti sanottuna jokaisella Bitcoin-verkon osallistujalla (jota kutsutaan "solmuksi") on täydellinen kopio Ledger-tapahtumasta, jota kutsutaan Blockchain:ksi. Kun uusi transaktio tapahtuu, se lähetetään verkkoon. Louhijat vahvistavat nämä transaktiot ryhmittelemällä ne lohkoiksi, jotka sitten lisätään ketjun loppuun (tästä nimi "Blockchain").
+Yksinkertaisesti sanottuna jokaisella Bitcoin-verkon osallistujalla (jota kutsutaan "solmuksi") on täydellinen kopio Ledger-tapahtumasta, jota kutsutaan Blockchain:ksi. Kun uusi transaktio tapahtuu, se lähetetään verkkoon. [Louhijat](https://planb.academy/resources/glossary/miner) vahvistavat nämä transaktiot ryhmittelemällä ne lohkoiksi, jotka sitten lisätään ketjun loppuun (tästä nimi "Blockchain").
 
 
 ![image](assets/fi/035.webp)
@@ -928,7 +928,7 @@ Ajattele Blockchain:a jättimäisenä kirjanpidollisena Ledger:nä, jossa jokain
 #### Miten lohkot luodaan: Mining
 
 
-Mining on prosessi, jossa tietokoneet (tai suuret Mining-farmit) käyttävät **laskentatehoa** Bitcoin:n transaktiohistorian turvaamiseksi ja uusien lohkojen luomiseksi. Louhijat kilpailevat ratkaistakseen matemaattisen arvoituksen - tarkemmin sanottuna löytääkseen osittaisen Hash-kolarin. Tämä prosessi vaatii paljon energiaa ja resursseja. Kun Miner löytää kelvollisen ratkaisun, se lähettää lohkon verkkoon, joka tarkistaa ja hyväksyy sen kelvolliseksi.
+[Mining](https://planb.academy/resources/glossary/mining) on prosessi, jossa tietokoneet (tai suuret Mining-farmit) käyttävät **laskentatehoa** Bitcoin:n transaktiohistorian turvaamiseksi ja uusien lohkojen luomiseksi. Louhijat kilpailevat ratkaistakseen matemaattisen arvoituksen - tarkemmin sanottuna löytääkseen osittaisen Hash-kolarin. Tämä prosessi vaatii paljon energiaa ja resursseja. Kun Miner löytää kelvollisen ratkaisun, se lähettää lohkon verkkoon, joka tarkistaa ja hyväksyy sen kelvolliseksi.
 
 Palkkioksi Miner saa juuri luotuja bitcoineja (ns. lohkotuki) sekä kaikkien kyseiseen lohkoon sisältyvien transaktioiden transaktiomaksut.
 
@@ -950,7 +950,7 @@ Lopulta, vuoden 2140 tienoilla, tuki on nolla, kun Bitcoin:n Supply:n kokonaisar
 #### Niukkuus ja kiinteä rahapolitiikka
 
 
-Yksi Bitcoin:n tehokkaimmista ominaisuuksista on sen *ennustettava ja muuttumaton rahapolitiikka*. Toisin kuin perinteiset fiat-valuutat (kuten dollari, euro tai jeni), joita keskuspankit voivat painaa mielensä mukaan (mikä usein johtaa inflaatioon tai talouden vääristymiin), Bitcoin toimii sen koodiin upotettujen läpinäkyvien sääntöjen mukaisesti.
+Yksi Bitcoin:n tehokkaimmista ominaisuuksista on sen *ennustettava ja muuttumaton rahapolitiikka*. Toisin kuin perinteiset fiat-valuutat (kuten dollari, euro tai jeni), joita keskuspankit voivat painaa mielensä mukaan (mikä usein johtaa [inflaatioon](https://planb.academy/resources/glossary/inflation) tai talouden vääristymiin), Bitcoin toimii sen koodiin upotettujen läpinäkyvien sääntöjen mukaisesti.
 
 Bitcoineja on aina vain 21 miljoonaa, ja kaikki verkon jäsenet tietävät etukäteen, kuinka nopeasti uusia kolikoita lasketaan liikkeeseen.
 
@@ -978,7 +978,7 @@ Yksi Bitcoin:n aliarvostetuimmista vahvuuksista on sen jaettavuus. Kukin Bitcoin
 
 Bitcoin toimii julkisella, **avoimen lähdekoodin** protokollalla (lähinnä [Bitcoin Core](https://github.com/Bitcoin/Bitcoin)). Tämä tarkoittaa, että sen koodi on vapaasti kaikkien saatavilla tarkastettavaksi, tarkastettavaksi ja parannettavaksi. Bitcoin:ssä ei ole piilomekanismeja tai suljettuja järjestelmiä; kaikki Bitcoin:n toimintaan liittyvä on avointa.
 
-Tämä avoimuuden taso tekee takaovien käyttöönotosta tai salaisten muutosten tekemisestä uskomattoman vaikeaa. Kuka tahansa, jolla on teknisiä taitoja, voi käyttää solmua, osallistua kehitystyöhön tai rakentaa yhteensopivia työkaluja. Bitcoin:ssa luottamus ansaitaan koodin ja konsensuksen kautta, ei keskitetyn valvonnan kautta.
+Tämä avoimuuden taso tekee takaovien käyttöönotosta tai salaisten muutosten tekemisestä uskomattoman vaikeaa. Kuka tahansa, jolla on teknisiä taitoja, voi käyttää solmua, osallistua kehitystyöhön tai rakentaa yhteensopivia työkaluja. Bitcoin:ssa luottamus ansaitaan koodin ja [konsensuksen](https://planb.academy/resources/glossary/consensus) kautta, ei keskitetyn valvonnan kautta.
 
 
 ![image](assets/fi/039.webp)
@@ -1005,7 +1005,7 @@ Vaikka tämä lähestymistapa on teknisempi, se tarjoaa vaativimmillekin käytt�
 #### Kestävä, rajat ylittävä maksutapa
 
 
-Hajautetun luonteensa ansiosta Bitcoin toimii 24/7, eivätkä rajat tai aikavyöhykkeet vaikuta siihen. Alueilla, joilla perinteinen pankki-infrastruktuuri puuttuu, Bitcoin:ää käytetään usein nopeana ja edullisena ratkaisuna varojen lähettämiseen tai vastaanottamiseen ilman kalliita välittäjiä. Vaikka transaktiomaksut voivat vaihdella verkon ruuhkautumisen mukaan, ne ovat yleensä paljon alhaisemmat kuin pankkien kansainvälisistä siirroista perimät maksut. Lisäksi Layer-2 -ratkaisut, kuten [Lightning Network](https://planb.academy/resources/glossary/lightning-network), mahdollistavat vielä nopeammat ja halvemmat Bitcoin-tapahtumat.
+Hajautetun luonteensa ansiosta Bitcoin toimii 24/7, eivätkä rajat tai aikavyöhykkeet vaikuta siihen. Alueilla, joilla perinteinen pankki-infrastruktuuri puuttuu, Bitcoin:ää käytetään usein nopeana ja edullisena ratkaisuna varojen lähettämiseen tai vastaanottamiseen ilman kalliita välittäjiä. Vaikka transaktiomaksut voivat vaihdella verkon ruuhkautumisen mukaan, ne ovat yleensä paljon alhaisemmat kuin pankkien kansainvälisistä siirroista perimät maksut. Lisäksi Layer-2 -ratkaisut, kuten Lightning Network, mahdollistavat vielä nopeammat ja halvemmat Bitcoin-tapahtumat.
 
 
 #### Arvopankki
@@ -1231,7 +1231,7 @@ Bitcoin-käyttäjät ovat eri elämäntilanteista, mutta heillä on yhteinen vis
 - **Cypherpunks**, jotka puolustavat yksityisyyttä ja vastustavat valvontaa;
 - **Sorretut kansalaiset**, jotka etsivät pakopaikkaa autoritaarisista järjestelmistä ja pääoman valvonnasta;
 - **Anarkistit**, jotka pitävät Bitcoin:ta välineenä vapautumiseen valtion valvonnasta;
-- **Itävaltalaiset taloustieteilijät**, jotka kannattavat tervettä rahaa ja vapautta hallituksen manipuloinnista;
+- **[Itävaltalaiset taloustieteilijät](https://planb.academy/resources/glossary/austrian-school)**, jotka kannattavat tervettä rahaa ja vapautta hallituksen manipuloinnista;
 - Insinöörejä, rahoittajia ja sananvapauden puolestapuhujia, jotka tunnistavat tämän uuden rahaparadigman syvälliset yhteiskunnalliset vaikutukset.
 
 
@@ -1536,7 +1536,7 @@ Bitcoin Wallet -teollisuus on jaettu useisiin luokkiin, joista kukin vastaa eril
 
 
 
-- **[Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet) Valmistajat**: Nämä yritykset kehittävät fyysisiä laitteita, jotka on suunniteltu avainten turvalliseen tallentamiseen. Jotkut ovat avoimen lähdekoodin yrityksiä, kun taas toiset tarjoavat omia ratkaisuja, joiden ominaisuudet ja turvallisuustasot vaihtelevat. Tunnettuja nimiä ovat Ledger, Trezor, Coinkite, Foundation ja Shiftcrypto.
+- **Hardware Wallet Valmistajat**: Nämä yritykset kehittävät fyysisiä laitteita, jotka on suunniteltu avainten turvalliseen tallentamiseen. Jotkut ovat avoimen lähdekoodin yrityksiä, kun taas toiset tarjoavat omia ratkaisuja, joiden ominaisuudet ja turvallisuustasot vaihtelevat. Tunnettuja nimiä ovat Ledger, Trezor, Coinkite, Foundation ja Shiftcrypto.
 - **Software Wallet Kehittäjät**: Nämä vaihtelevat yrityksistä itsenäisiin kehittäjiin, jotka luovat mobiili- ja työpöytäsovelluksia. Heidän tarjontansa vaihtelee käyttäjäkokemuksen, turvallisuuden ja ominaisuuksien suhteen. Esimerkkejä ovat Sparrow, Wizard Sardine, Galoy, Synonym ja Blockstream.
 - DIY (*Do It Yourself*) **-lompakot**: Nämä avoimen lähdekoodin ratkaisut on suunniteltu edistyneille käyttäjille, jotka haluavat täyden hallinnan ja mahdollisimman vähän riippuvuutta kolmansista osapuolista. Oman Wallet:n rakentaminen vähentää riippuvuuksia luottamuksesta ja voi lisätä turvallisuustasoasi. Huomionarvoisia DIY-vaihtoehtoja ovat Seedsigner ja Specter DIY.
 
@@ -1547,7 +1547,7 @@ Lompakoilla on perustavanlaatuinen rooli Bitcoin:ssä, ja niihin perehdytään t
 #### Bitcoin Mining
 
 
-Mining on Bitcoin-verkon ydintoiminto. Se varmistaa järjestelmän turvallisuuden ja pitää Blockchain:n toiminnassa. Louhijat validoivat transaktioita ja varmistavat verkon suorittamalla Proof of Work-nimellä tunnettuja energiaintensiivisiä laskutoimituksia. Jokainen uusi louhittu lohko lisää erän transaktioita Blockchain:een ja vapauttaa uusia bitcoineja protokollan liikkeeseenlaskun aikataulun mukaisesti.
+Mining on Bitcoin-verkon ydintoiminto. Se varmistaa järjestelmän turvallisuuden ja pitää Blockchain:n toiminnassa. Louhijat validoivat transaktioita ja varmistavat verkon suorittamalla [Proof of Work](https://planb.academy/resources/glossary/proof-of-work)-nimellä tunnettuja energiaintensiivisiä laskutoimituksia. Jokainen uusi louhittu lohko lisää erän transaktioita Blockchain:een ja vapauttaa uusia bitcoineja protokollan liikkeeseenlaskun aikataulun mukaisesti.
 
 
 Bitcoin:n alkuaikoina Mining voitiin tehdä henkilökohtaiselta tietokoneelta. Nykyään se on kilpailukykyinen, maailmanlaajuinen ala, jota hallitsevat yritykset, joilla on huomattavat taloudelliset ja tekniset resurssit. Halpojen energialähteiden etsimisestä on tullut keskeinen painopiste, kun kaivostoiminnan harjoittajat pyrkivät optimoimaan toimintakustannukset ja kannattavuuden. Mining-toiminnot vaihtelevat nykyään massiivisista teollisuuslaitoksista pienimuotoisiin, kodeissa tai autotalleissa toimiviin laitteistoihin.
@@ -1582,7 +1582,7 @@ Bitcoin:n kehitystä voidaan ymmärtää muutaman eri tekijäryhmän kautta:
 - **Riippumattomat kehittäjät**. Nämä kehittäjät keskittyvät luomaan työkaluja ja sovelluksia käyttäjäkokemuksen parantamiseksi, kuten Mempool.space (visuaalinen Interface tapahtumatoimintojen seurantaan) tai Alby (työkalut Lightning-maksujen käyttämiseen selaimissa ja sovelluksissa).
 
 
-Kuka tahansa voi ehdottaa muutoksia Bitcoin Coreen, mutta prosessi on tarkoituksella tiukka. Uusien ideoiden hiominen vie usein vuosia, ja ne edellyttävät syvällistä teknistä ymmärrystä, yhteisön laajaa osallistumista ja monipuolista tarkastelua. Ehdotukset toimitetaan yleensä **Bitcoin Improvement Proposals (BIPs)** -muodossa, joista osa ei koskaan pääse protokollaan.
+Kuka tahansa voi ehdottaa muutoksia Bitcoin Coreen, mutta prosessi on tarkoituksella tiukka. Uusien ideoiden hiominen vie usein vuosia, ja ne edellyttävät syvällistä teknistä ymmärrystä, yhteisön laajaa osallistumista ja monipuolista tarkastelua. Ehdotukset toimitetaan yleensä **[Bitcoin Improvement Proposals (BIPs)](https://planb.academy/resources/glossary/bip)** -muodossa, joista osa ei koskaan pääse protokollaan.
 
 Innovaatiot ovat tervetulleita, mutta vain silloin, kun niiden taustalla on vankka perustelu, yhteisön yksimielisyys ja huolellinen testaus.
 
@@ -1627,7 +1627,7 @@ Tärkeimpiä Bitcoin-ekosysteemiä rikastuttavia päällekkäisjärjestelmiä ov
 - **Lightning Network**:
 
 
-Thaddeus Dryjan ja Joseph Poonin vuonna 2016 luoma Lightning Network on toinen Layer-ratkaisu, joka on suunniteltu mahdollistamaan välittömät ja edulliset maksut. Kaksi käyttäjää voi avata yksityisen kanavan, jossa he voivat tehdä liiketoimia, ja saldo päivittyy Blockchain:een vain, kun kanava avataan tai suljetaan. Kanavan sisäiset tapahtumat tapahtuvat off-chain:ssä, joten niitä ei tarvitse kirjata erikseen Bitcoin Blockchain:een. Tämä rakenne mahdollistaa välittömät transaktiot ja minimaaliset maksut, joten se on ihanteellinen pienen arvon transaktioihin, jotka vaativat nopean vahvistuksen.
+Thaddeus Dryjan ja Joseph Poonin vuonna 2016 luoma Lightning Network on toinen Layer-ratkaisu, joka on suunniteltu mahdollistamaan välittömät ja edulliset maksut. Kaksi käyttäjää voi avata yksityisen [kanavan](https://planb.academy/resources/glossary/payment-channel), jossa he voivat tehdä liiketoimia, ja saldo päivittyy Blockchain:een vain, kun kanava avataan tai suljetaan. Kanavan sisäiset tapahtumat tapahtuvat off-chain:ssä, joten niitä ei tarvitse kirjata erikseen Bitcoin Blockchain:een. Tämä rakenne mahdollistaa välittömät transaktiot ja minimaaliset maksut, joten se on ihanteellinen pienen arvon transaktioihin, jotka vaativat nopean vahvistuksen.
 
 
 ![image](assets/fi/061.webp)
@@ -1666,7 +1666,7 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 RGB on hajautettu ja yksityisyyteen keskittyvä Smart contract-järjestelmä, joka on suunniteltu toimimaan Bitcoin:n ja Lightning Network:n päällä. Toisin kuin perinteiset Smart contract-alustat, RGB käyttää Client-side Validation-mallia (mikä tarkoittaa, että koko Contract State tallennetaan off-chain:ään ja vain kryptografiset sitoumukset julkaistaan Bitcoin:een Blockchain). Tämä malli parantaa sekä skaalautuvuutta että yksityisyyttä. RGB:n avulla käyttäjät voivat luoda kehittyneitä älykkäitä sopimuksia tokenien, NFT:iden, hajautettujen identiteettien tai jopa DeFi-sovellusten liikkeeseenlaskuun suoraan Bitcoin:ssa tai Lightningissa.
 
 
-RGB:n keskeinen ominaisuus on sen suojaus Double-spending:tä vastaan, joka on saavutettu kryptografisella tekniikalla nimeltä Single-use Seals. Tämä mekanismi perustuu siihen, että Bitcoin:n UTXO:t (Unspent Transaction Outputs) voidaan käyttää vain kerran. Merkkien aitous varmistetaan Contract:n koko historian (sen luomisesta nykyiseen tilaan) validoinnilla käyttäjän puolelta.
+RGB:n keskeinen ominaisuus on sen suojaus Double-spending:tä vastaan, joka on saavutettu kryptografisella tekniikalla nimeltä Single-use Seals. Tämä mekanismi perustuu siihen, että Bitcoin:n [UTXO](https://planb.academy/resources/glossary/utxo):t (Unspent Transaction Outputs) voidaan käyttää vain kerran. Merkkien aitous varmistetaan Contract:n koko historian (sen luomisesta nykyiseen tilaan) validoinnilla käyttäjän puolelta.
 
 
 ![image](assets/fi/062.webp)
@@ -2912,7 +2912,7 @@ https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866
 https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
 
-- **Hot Wallet jokapäiväisiin maksutapahtumiin**, Säännölliseen rahankäyttöön vainoharhaiset käyttäjät valitsevat yksityisyyteen keskittyvät lompakot, kuten Ashigaru, Wasabi Wallet tai Sparrow Wallet. Nämä lompakot tukevat kehittyneitä ominaisuuksia, kuten mini-CoinJoin-käyttötransaktioita, payjoineja, mahdollisesti CoinJoin-työkaluja, kolikonhallintaa, UTXO-merkintää tai mahdollisuutta muodostaa yhteys oman Bitcoin-solmun kautta.
+- **Hot Wallet jokapäiväisiin maksutapahtumiin**, Säännölliseen rahankäyttöön vainoharhaiset käyttäjät valitsevat yksityisyyteen keskittyvät lompakot, kuten Ashigaru, Wasabi Wallet tai Sparrow Wallet. Nämä lompakot tukevat kehittyneitä ominaisuuksia, kuten mini-[CoinJoin](https://planb.academy/resources/glossary/coinjoin)-käyttötransaktioita, payjoineja, mahdollisesti CoinJoin-työkaluja, kolikonhallintaa, UTXO-merkintää tai mahdollisuutta muodostaa yhteys oman Bitcoin-solmun kautta.
 
 
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d

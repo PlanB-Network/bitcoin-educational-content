@@ -1244,7 +1244,7 @@ Parrot OS nayo ikomoka kuri Debian. Itanga ikibanza co gukora pentesting, umutek
 
 
 
-Tails ni distribution ya live  ishingiye kuri Debian, yibanda ku buzima bw'ibanga. Ivyo vyose bica mu rubuga rwa Tor, kandi nta kintu na kimwe kibikwa hagati y'ibihe vy'abakoresha. Ni ugukwiragiza kwiza ku gukoresha rimwe gusa (itangazamakuru, ubukangurambaga, uruvyaro rwa seed Bitcoin...).
+Tails ni distribution ya live  ishingiye kuri Debian, yibanda ku buzima bw'ibanga. Ivyo vyose bica mu rubuga rwa [Tor](https://planb.academy/resources/glossary/tor), kandi nta kintu na kimwe kibikwa hagati y'ibihe vy'abakoresha. Ni ugukwiragiza kwiza ku gukoresha rimwe gusa (itangazamakuru, ubukangurambaga, uruvyaro rwa [seed](https://planb.academy/resources/glossary/seed) Bitcoin...).
 
 
 

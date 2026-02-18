@@ -1240,7 +1240,7 @@ O Parrot OS também é derivado do Debian. Oferece um ambiente para pentesting, 
 
 
 
-Tails é uma distribuição live baseada em Debian, focada na privacidade. Tudo passa através da rede Tor, e nada é armazenado entre as sessões do utilizador. É uma distribuição ideal para usos pontuais sensíveis (jornalismo, ativismo, geração de seed Bitcoin...).
+Tails é uma distribuição live baseada em Debian, focada na privacidade. Tudo passa através da rede [Tor](https://planb.academy/resources/glossary/tor), e nada é armazenado entre as sessões do utilizador. É uma distribuição ideal para usos pontuais sensíveis (jornalismo, ativismo, geração de [seed](https://planb.academy/resources/glossary/seed) Bitcoin...).
 
 
 
@@ -3375,7 +3375,7 @@ Por exemplo, pode estruturar as suas sessões da seguinte forma:
 
 - Uma conta dedicada à sua atividade profissional, onde instala apenas o software de que necessita estritamente (suites de escritório, ferramentas de colaboração, mensagens profissionais...). Esta sessão não deve ser utilizada para navegação gratuita na Web ou para testar software;
 - Uma conta para uso pessoal, utilizada para navegação quotidiana na Web, redes sociais, streaming ou instalação de aplicações de consumo. Normalmente, esta é a sessão mais exposta a ataques ao navegador ou a descarregamentos suspeitos;
-- Uma conta reservada a actividades sensíveis, como a consulta de contas bancárias, a gestão das suas carteiras Bitcoin ou qualquer outra utilização que exija um elevado nível de segurança. Esta conta deve ser utilizada exclusivamente para estas tarefas, com a instalação de software limitada ao estritamente necessário e com uma configuração de rede mais rigorosa;
+- Uma conta reservada a actividades sensíveis, como a consulta de contas bancárias, a gestão das suas [carteiras](https://planb.academy/resources/glossary/wallet) Bitcoin ou qualquer outra utilização que exija um elevado nível de segurança. Esta conta deve ser utilizada exclusivamente para estas tarefas, com a instalação de software limitada ao estritamente necessário e com uma configuração de rede mais rigorosa;
 - Uma conta de convidado ou altamente restrita, destinada exclusivamente à utilização ocasional por membros da família, por exemplo. Esta conta não deve, obviamente, ter direitos de administrador e deve ter acesso limitado.
 
 
@@ -4031,7 +4031,7 @@ Um ficheiro pode estar intacto (não modificado), mas ter sido publicado por uma
 
 
 
-Esta verificação da origem é possível graças à assinatura digital, um mecanismo criptográfico que liga o ficheiro à chave privada do programador. Ao verificar esta assinatura utilizando a chave pública do programador (distribuída através de canais seguros), pode ter a certeza de que o ficheiro provém efetivamente dessa pessoa.
+Esta verificação da origem é possível graças à [assinatura digital](https://planb.academy/resources/glossary/digital-signature), um mecanismo criptográfico que liga o ficheiro à [chave privada](https://planb.academy/resources/glossary/private-key) do programador. Ao verificar esta assinatura utilizando a [chave pública](https://planb.academy/resources/glossary/public-key) do programador (distribuída através de canais seguros), pode ter a certeza de que o ficheiro provém efetivamente dessa pessoa.
 
 
 
@@ -4055,7 +4055,7 @@ A segunda ferramenta é a assinatura digital. Esta verifica a autenticidade do s
 
 
 
-Este sistema baseia-se na criptografia assimétrica e em ferramentas como o GnuPG (linha de comandos) ou o Kleopatra (Interface gráfico para Windows). Estas ferramentas devem ser corretamente configuradas e a chave pública do programador deve ser verificada através de um canal seguro (site oficial, impressão digital no Twitter...). Vejamos os aspectos práticos.
+Este sistema baseia-se na [criptografia](https://planb.academy/resources/glossary/cryptography) assimétrica e em ferramentas como o GnuPG (linha de comandos) ou o Kleopatra (Interface gráfico para Windows). Estas ferramentas devem ser corretamente configuradas e a chave pública do programador deve ser verificada através de um canal seguro (site oficial, impressão digital no Twitter...). Vejamos os aspectos práticos.
 
 
 
@@ -8049,7 +8049,7 @@ A história da Internet remonta ao final dos anos 60, num contexto de investiga�
 ![Image](assets/fr/191.webp)
 
 
-O objetivo era também conceber uma rede resiliente, capaz de continuar a funcionar mesmo que parte dos seus nós fosse destruída (uma necessidade em plena guerra do Cold). A ARPANET permitiu as primeiras comunicações entre computadores remotos em 1969.
+O objetivo era também conceber uma rede resiliente, capaz de continuar a funcionar mesmo que parte dos seus [nós](https://planb.academy/resources/glossary/node) fosse destruída (uma necessidade em plena guerra do Cold). A ARPANET permitiu as primeiras comunicações entre computadores remotos em 1969.
 
 
 ![Image](assets/fr/192.webp)

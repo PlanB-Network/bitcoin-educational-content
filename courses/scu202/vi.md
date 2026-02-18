@@ -1240,7 +1240,7 @@ Parrot OS cũng được phát triển từ Debian. Nó cung cấp một môi tr
 
 
 
-Tails là một bản phân phối trực tiếp dựa trên Debian, tập trung vào quyền riêng tư. Mọi thứ đều đi qua mạng Tor và không có gì được lưu trữ giữa các phiên người dùng. Đây là một bản phân phối lý tưởng cho các mục đích sử dụng riêng lẻ nhạy cảm (báo chí, hoạt động xã hội, thế hệ seed Bitcoin...).
+Tails là một bản phân phối trực tiếp dựa trên Debian, tập trung vào quyền riêng tư. Mọi thứ đều đi qua mạng [Tor](https://planb.academy/resources/glossary/tor) và không có gì được lưu trữ giữa các phiên người dùng. Đây là một bản phân phối lý tưởng cho các mục đích sử dụng riêng lẻ nhạy cảm (báo chí, hoạt động xã hội, thế hệ [seed](https://planb.academy/resources/glossary/seed) Bitcoin...).
 
 
 
@@ -3230,7 +3230,7 @@ BIOS (*Hệ thống Nhập/Xuất Cơ bản*) là tiền thân của UEFI (*Ph�
 
 
 
-Theo mặc định, quyền truy cập vào các thiết lập này không được bảo vệ. Kẻ tấn công có quyền truy cập vật lý vào máy tính của bạn (trong không gian dùng chung, trong trường hợp bị trộm cắp hoặc thậm chí tạm thời mà bạn không biết) có thể xâm nhập vào Interface UEFI và sửa đổi các thiết lập quan trọng. Ví dụ:
+Theo mặc định, quyền truy cập vào các thiết lập này không được bảo vệ. Kẻ tấn công có quyền truy cập vật lý vào máy tính của bạn (trong không gian dùng chung, trong trường hợp bị trộm cắp hoặc thậm chí tạm thời mà bạn không biết) có thể xâm nhập vào Interface UEFI và sửa đổi các thiết lập quan trọng. [Ví](https://planb.academy/resources/glossary/wallet) dụ:
 
 
 
@@ -4031,7 +4031,7 @@ Một tệp có thể còn nguyên vẹn (chưa bị sửa đổi), nhưng đã 
 
 
 
-Việc xác minh nguồn gốc này được thực hiện thông qua chữ ký số, một cơ chế mật mã liên kết tệp với khóa riêng của nhà phát triển. Khi bạn xác minh chữ ký này bằng khóa công khai của nhà phát triển (được phân phối qua các kênh bảo mật), bạn có thể chắc chắn rằng tệp thực sự đến từ người đó.
+Việc xác minh nguồn gốc này được thực hiện thông qua [chữ ký số](https://planb.academy/resources/glossary/digital-signature), một cơ chế mật mã liên kết tệp với khóa riêng của nhà phát triển. Khi bạn xác minh chữ ký này bằng [khóa công khai](https://planb.academy/resources/glossary/public-key) của nhà phát triển (được phân phối qua các kênh bảo mật), bạn có thể chắc chắn rằng tệp thực sự đến từ người đó.
 
 
 
@@ -8049,7 +8049,7 @@ Lịch sử của Internet bắt đầu từ cuối những năm 1960, trong b�
 ![Image](assets/fr/191.webp)
 
 
-Mục tiêu cũng là thiết kế một mạng lưới bền vững, có khả năng tiếp tục hoạt động ngay cả khi một phần các nút mạng bị phá hủy (một điều cần thiết trong bối cảnh Chiến tranh Cold). ARPANET cho phép truyền thông đầu tiên giữa các máy tính từ xa vào năm 1969.
+Mục tiêu cũng là thiết kế một mạng lưới bền vững, có khả năng tiếp tục hoạt động ngay cả khi một phần các [nút](https://planb.academy/resources/glossary/node) mạng bị phá hủy (một điều cần thiết trong bối cảnh Chiến tranh Cold). ARPANET cho phép truyền thông đầu tiên giữa các máy tính từ xa vào năm 1969.
 
 
 ![Image](assets/fr/192.webp)

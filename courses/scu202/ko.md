@@ -1323,7 +1323,7 @@ https://planb.academy/tutorials/computer-security/operating-system/pureos-2b6d5f
 
 
 
-Whonix는 2-VM 아키텍처(게이트웨이 + 워크스테이션)에서 Debian과 Tor 네트워크를 결합합니다. 보안에 중점을 둔 배포판이지만 가상화에 의존합니다. 프라이버시가 정말 필요한 분들에게 추천합니다.
+Whonix는 2-VM 아키텍처(게이트웨이 + 워크스테이션)에서 Debian과 [Tor](https://planb.academy/resources/glossary/tor) 네트워크를 결합합니다. 보안에 중점을 둔 배포판이지만 가상화에 의존합니다. 프라이버시가 정말 필요한 분들에게 추천합니다.
 
 
 
@@ -4046,7 +4046,7 @@ macOS는 특히 애플리케이션 서명 정책과 비교적 폐쇄적인 아�
 
 
 
-이러한 출처 확인은 파일을 개발자의 개인 키에 연결하는 암호화 메커니즘인 디지털 서명을 통해 가능합니다. 개발자의 공개 키(보안 채널을 통해 배포됨)를 사용하여 이 서명을 확인하면 파일이 실제로 해당 개발자로부터 온 파일인지 확인할 수 있습니다.
+이러한 출처 확인은 파일을 개발자의 [개인 키](https://planb.academy/resources/glossary/private-key)에 연결하는 암호화 메커니즘인 [디지털 서명](https://planb.academy/resources/glossary/digital-signature)을 통해 가능합니다. 개발자의 [공개 키](https://planb.academy/resources/glossary/public-key)(보안 채널을 통해 배포됨)를 사용하여 이 서명을 확인하면 파일이 실제로 해당 개발자로부터 온 파일인지 확인할 수 있습니다.
 
 
 
@@ -8110,7 +8110,7 @@ ___
 ![Image](assets/fr/191.webp)
 
 
-또한 일부 노드가 파괴되더라도 계속 작동할 수 있는 탄력적인 네트워크를 설계하는 것이 목표였습니다(Cold 전쟁 중에도 필요했습니다). ARPANET은 1969년 원격 컴퓨터 간의 첫 번째 통신을 가능하게 했습니다.
+또한 일부 [노드](https://planb.academy/resources/glossary/node)가 파괴되더라도 계속 작동할 수 있는 탄력적인 네트워크를 설계하는 것이 목표였습니다(Cold 전쟁 중에도 필요했습니다). ARPANET은 1969년 원격 컴퓨터 간의 첫 번째 통신을 가능하게 했습니다.
 
 
 ![Image](assets/fr/192.webp)

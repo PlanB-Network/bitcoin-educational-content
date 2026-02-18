@@ -1240,7 +1240,7 @@ Systém Parrot OS je rovněž odvozen od Debianu. Nabízí prostředí pro pente
 
 
 
-Tails je live distribuce založená na Debianu a zaměřená na ochranu soukromí. Vše prochází sítí Tor a mezi relacemi uživatele se nic neukládá. Je to ideální distribuce pro citlivé jednorázové použití (žurnalistika, aktivismus, generování seed Bitcoin...).
+Tails je live distribuce založená na Debianu a zaměřená na ochranu soukromí. Vše prochází sítí [Tor](https://planb.academy/resources/glossary/tor) a mezi relacemi uživatele se nic neukládá. Je to ideální distribuce pro citlivé jednorázové použití (žurnalistika, aktivismus, generování [seed](https://planb.academy/resources/glossary/seed) Bitcoin...).
 
 
 
@@ -4051,11 +4051,11 @@ Legitimní vývojář obvykle zveřejňuje na svých oficiálních stránkách s
 
 
 
-Druhým nástrojem je digitální podpis. Ten ověřuje pravost instalačního softwaru. Vývojář podepíše soubor obsahující Hash svým soukromým klíčem a vy můžete tento podpis ověřit pomocí příslušného veřejného klíče. Tím se prokáže, že soubor zveřejnila správná osoba.
+Druhým nástrojem je [digitální podpis](https://planb.academy/resources/glossary/digital-signature). Ten ověřuje pravost instalačního softwaru. Vývojář podepíše soubor obsahující Hash svým soukromým klíčem a vy můžete tento podpis ověřit pomocí příslušného veřejného klíče. Tím se prokáže, že soubor zveřejnila správná osoba.
 
 
 
-Tento systém se opírá o asymetrickou kryptografii a nástroje, jako je GnuPG (příkazový řádek) nebo Kleopatra (grafický Interface pro Windows). Tyto nástroje musí být správně nakonfigurovány a veřejný klíč vývojáře musí být ověřen zabezpečeným kanálem (oficiální webové stránky, otisk prstu na Twitteru...). Podívejme se na praktické aspekty.
+Tento systém se opírá o asymetrickou kryptografii a nástroje, jako je GnuPG (příkazový řádek) nebo Kleopatra (grafický Interface pro Windows). Tyto nástroje musí být správně nakonfigurovány a [veřejný klíč](https://planb.academy/resources/glossary/public-key) vývojáře musí být ověřen zabezpečeným kanálem (oficiální webové stránky, otisk prstu na Twitteru...). Podívejme se na praktické aspekty.
 
 
 

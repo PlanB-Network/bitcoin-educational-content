@@ -1240,7 +1240,7 @@ Parrot OS 也是源自 Debian。它為 pentesting、攻擊性安全和隱私保�
 
 
 
-Tails 是一個以 Debian 為基礎、注重隱私的 Live 發行版。所有東西都會透過 Tor 網路，而且在使用者會話之間不會儲存任何東西。它是敏感的一次性使用 (新聞、激進主義、seed Bitcoin 世代...) 的理想發行版。
+Tails 是一個以 Debian 為基礎、注重隱私的 Live 發行版。所有東西都會透過 [Tor](https://planb.academy/resources/glossary/tor) 網路，而且在使用者會話之間不會儲存任何東西。它是敏感的一次性使用 (新聞、激進主義、seed Bitcoin 世代...) 的理想發行版。
 
 
 
@@ -4031,7 +4031,7 @@ macOS 以其安全性著稱，這主要歸功於其應用程式簽章政策和�
 
 
 
-數位簽章是一種加密機制，可將檔案與開發者的私密金鑰連結起來，因此可以驗證來源。當您使用開發者的公開金鑰 (透過安全管道分發) 驗證此簽章時，您就可以確定檔案確實來自該人。
+[數位簽章](https://planb.academy/resources/glossary/digital-signature)是一種加密機制，可將檔案與開發者的私密金鑰連結起來，因此可以驗證來源。當您使用開發者的公開金鑰 (透過安全管道分發) 驗證此簽章時，您就可以確定檔案確實來自該人。
 
 
 
@@ -8049,7 +8049,7 @@ ___
 ![Image](assets/fr/191.webp)
 
 
-其目的也是為了設計一個彈性網路，即使部分節點被摧毀也能繼續運作（這在 Cold 戰爭中是必要的）。ARPANET 於 1969 年首次實現遠端電腦間的通訊。
+其目的也是為了設計一個彈性網路，即使部分[節點](https://planb.academy/resources/glossary/node)被摧毀也能繼續運作（這在 Cold 戰爭中是必要的）。ARPANET 於 1969 年首次實現遠端電腦間的通訊。
 
 
 ![Image](assets/fr/192.webp)

@@ -1240,7 +1240,7 @@ Parrot OS on samuti tuletatud Debianist. See pakub keskkonda pentestimiseks, rü
 
 
 
-Tails on Debianil põhinev, privaatsusele keskendunud live-distributsioon. Kõik liigub läbi Tor-võrgu ja midagi ei salvestata kasutaja seansside vahel. See on ideaalne distributsioon tundlikuks ühekordseks kasutamiseks (ajakirjandus, aktivism, seed Bitcoin genereerimine...).
+Tails on Debianil põhinev, privaatsusele keskendunud live-distributsioon. Kõik liigub läbi [Tor](https://planb.academy/resources/glossary/tor)-võrgu ja midagi ei salvestata kasutaja seansside vahel. See on ideaalne distributsioon tundlikuks ühekordseks kasutamiseks (ajakirjandus, aktivism, [seed](https://planb.academy/resources/glossary/seed) Bitcoin genereerimine...).
 
 
 
@@ -4055,7 +4055,7 @@ Teine vahend on digitaalallkiri. Sellega kontrollitakse paigaldustarkvara autent
 
 
 
-See süsteem tugineb asümmeetrilisele krüptograafiale ja sellistele vahenditele nagu GnuPG (käsurea) või Kleopatra (Interface graafiline Windowsile). Need tööriistad peavad olema nõuetekohaselt konfigureeritud ja arendaja avalik võti peab olema kontrollitud turvalise kanali kaudu (ametlik veebisait, sõrmejälg Twitteris...). Vaatame praktilisi asjaolusid.
+See süsteem tugineb asümmeetrilisele krüptograafiale ja sellistele vahenditele nagu GnuPG (käsurea) või Kleopatra (Interface graafiline Windowsile). Need tööriistad peavad olema nõuetekohaselt konfigureeritud ja arendaja [avalik võti](https://planb.academy/resources/glossary/public-key) peab olema kontrollitud turvalise kanali kaudu (ametlik veebisait, sõrmejälg Twitteris...). Vaatame praktilisi asjaolusid.
 
 
 
@@ -8236,7 +8236,7 @@ Neid porte kasutatakse ka sellistes süsteemides nagu Bitcoin või Tor, kus konk
 
 - Bitcoin Mainnet P2P ühenduste jaoks kasutatakse porti "8333"
 - Porti "18333" kasutatakse P2P ühenduste jaoks Bitcoin Testnet puhul
-- Interface RPC Bitcoin sõlme jaoks kasutatakse porti "8332"
+- Interface RPC Bitcoin [sõlme](https://planb.academy/resources/glossary/node) jaoks kasutatakse porti "8332"
 - Porti `9050` kasutab Tori SOCKS5 proxy
 - Tor Browser kasutab porti `9150`
 

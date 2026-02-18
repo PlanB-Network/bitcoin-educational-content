@@ -6,4 +6,4 @@ wrong_answers:
   - Không thể thực hiện được
 explanation: |
   Mục tiêu thấp hơn để lại ít kết quả khả thi hơn dưới ngưỡng, vì vậy cần nhiều lần thử hơn để tìm ra mã băm hợp lệ. Điều này có nghĩa là việc khai thác khó khăn hơn.
-reviewed: false
+reviewed: true

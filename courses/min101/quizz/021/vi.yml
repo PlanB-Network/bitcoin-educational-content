@@ -6,4 +6,4 @@ wrong_answers:
   - 4096 khối
 explanation: |
   Việc điều chỉnh được thực hiện sau mỗi 2016 khối, tức là khoảng hai tuần với tốc độ 10 phút mỗi khối.
-reviewed: false
+reviewed: true

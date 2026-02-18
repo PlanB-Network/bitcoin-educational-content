@@ -6,4 +6,4 @@ wrong_answers:
   - mempoolMinBits
 explanation: |
   Các nút áp dụng các chính sách cục bộ và Bitcoin Core sử dụng tham số minRelayTxFee cho ngưỡng chuyển tiếp tối thiểu.
-reviewed: false
+reviewed: true

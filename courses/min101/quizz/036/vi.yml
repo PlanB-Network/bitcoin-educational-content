@@ -6,4 +6,4 @@ wrong_answers:
   - 210 lần xác nhận
 explanation: |
   Thời gian đáo hạn là 100 khối, vì vậy cần 101 lần xác nhận để các UTXO này có thể chi tiêu được.
-reviewed: false
+reviewed: true

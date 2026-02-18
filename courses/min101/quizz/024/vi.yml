@@ -6,4 +6,4 @@ wrong_answers:
   - Tính định kỳ của hàm băm
 explanation: |
   Mỗi lần băm là một lần thử độc lập, điều này làm cho thời gian tìm thấy khối là ngẫu nhiên ngay cả khi tỷ lệ băm không đổi.
-reviewed: false
+reviewed: true

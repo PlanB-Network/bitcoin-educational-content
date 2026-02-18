@@ -6,4 +6,4 @@ wrong_answers:
   - 21.000.000
 explanation: |
   Giao thức áp dụng halving tại mỗi bội số của 210.000 theo chiều cao khối.
-reviewed: false
+reviewed: true

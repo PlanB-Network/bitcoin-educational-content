@@ -6,4 +6,4 @@ wrong_answers:
   - Giá máy ASIC
 explanation: |
   Bằng cách hợp nhất hashrate, một pool biến thu nhập rất thất thường thành các khoản thanh toán đều đặn hơn. Đó là sự giảm bớt biến động thu nhập cho thợ đào.
-reviewed: false
+reviewed: true

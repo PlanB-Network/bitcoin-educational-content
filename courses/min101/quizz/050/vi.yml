@@ -6,4 +6,4 @@ wrong_answers:
   - Khi thợ đào bắt đầu tìm kiếm bằng chứng
 explanation: |
   Xác nhận một khoản thanh toán trên Bitcoin là kết quả của việc thêm khối chứa khoản thanh toán đó vào blockchain.
-reviewed: false
+reviewed: true

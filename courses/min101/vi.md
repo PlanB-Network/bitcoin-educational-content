@@ -333,7 +333,7 @@ Khi khối lượng tính toán đã được xử lý xong, nó sẽ bị khóa
 
 Nói cách khác, proof-of-work đóng vai trò là xương sống của hệ thống đóng dấu thời gian, khiến việc làm giả dữ liệu quá khứ ngày càng tốn kém hơn khi số lượng khối tích lũy. Khi một khối mới được khai thác, tính bảo mật do proof-of-work cung cấp sẽ được áp dụng đồng thời và thống nhất cho tất cả các UTXO hiện có. Với mỗi khối được thêm vào, mỗi UTXO sẽ tích lũy thêm một lượng bảo mật từ Proof-of-Work.
 
-- Xác định nguyên tắc đa số (đồng thuận) và vô hiệu hóa Sybil:**
+- **Xác định nguyên tắc đa số (đồng thuận) và vô hiệu hóa Sybil:**
 
 Proof-of-Work cũng cho phép Bitcoin đạt được sự đồng thuận mà không cần dựa vào quy tắc bỏ phiếu "một ID = một phiếu bầu", điều này có thể dễ dàng bị gian lận bởi việc tạo ra hàng loạt danh tính (địa chỉ IP, nút, khóa...).
 
@@ -367,7 +367,7 @@ Hashcash không phải là về việc tạo ra tiền. Nó nhằm mục đích 
 
 ![Image](assets/fr/008.webp)
 
-### Vàng nhỏ
+### Bit Gold
 
 Vào cuối những năm 1990 và đầu những năm 2000, Nick Szabo đã khám phá ý tưởng về sự khan hiếm kỹ thuật số dựa trên proof-of-work. Dự án ý tưởng của ông, được gọi là Bit Gold, hình dung việc tạo ra các đơn vị giá trị bằng cách giải một bài toán proof-of-work tốn kém, sau đó ghi lại các bằng chứng này vào một sổ đăng ký để thiết lập một hình thức quyền sở hữu.
 
@@ -393,7 +393,7 @@ Bitcoin đặt mục tiêu đạt tốc độ trung bình tìm thấy một kh�
 
 Sự biến thiên này bắt nguồn từ bản chất xác suất của mining: mỗi hàm băm là một lần thử độc lập, với xác suất không đổi (giả sử mục tiêu không thay đổi) để tạo ra kết quả thấp hơn mục tiêu. Do đó, nó có thể được so sánh với một trò chơi xổ số với lượt quay liên tục: càng nhiều hàm băm mà thợ đào tạo ra mỗi giây, thì thời gian chờ đợi dự kiến ​​trước khi xuất hiện một khối hợp lệ càng ngắn, nhưng không bao giờ loại bỏ được tính ngẫu nhiên giữa các lượt quay.
 
-### Tại sao nên đặt mục tiêu 10 phút giữa các hiệp đấu?
+### Tại sao nên đặt mục tiêu 10 phút giữa các khối?
 
 Mặc dù không có bằng chứng nào cho điều này, nhưng Satoshi Nakamoto chắc chắn đã chọn 10 phút như một sự thỏa hiệp thực tế giữa hiệu quả và bảo mật. Khoảng thời gian ngắn hơn sẽ cho phép xác nhận thường xuyên hơn, nhưng sẽ gây ra nhiều sự cố mạng tạm thời hơn. Để hiểu điểm này, chúng ta cần quay lại cách thức lan truyền của một khối.
 
@@ -424,7 +424,7 @@ Nếu mục tiêu không thay đổi thì:
 
 Nói cách khác, nếu mạng Bitcoin trong tương lai tăng gấp đôi sức mạnh tính toán bằng cách kết nối gấp đôi số lượng máy mining, mà không có cơ chế điều chỉnh, thì việc tìm kiếm các khối dữ liệu sẽ nhanh hơn trung bình gấp đôi. Do đó, mục tiêu cần được điều chỉnh để bù đắp cho những biến thể của hashrate.
 
-### Điều chỉnh mục tiêu độ khó
+### Điều chỉnh độ khó mục tiêu 
 
 Bitcoin giải quyết vấn đề này bằng cơ chế điều chỉnh mục tiêu định kỳ, điều chỉnh độ khó của mining. Nguyên tắc như sau: cứ sau 2016 khối (khoảng 2 tuần), mỗi nút sẽ tính toán lại mục tiêu độ khó bằng cách quan sát xem thực tế cần bao nhiêu thời gian để tạo ra 2016 khối này.
 
@@ -608,12 +608,12 @@ Halving không được kích hoạt bởi ngày tháng cụ thể, mà bởi ch
 CAmount GetBlockSubsidy(int nHeight, const Consensus::Params& consensusParams)
 {
 int halvings = nHeight / consensusParams.nSubsidyHalvingInterval;
-// Force block reward to zero when right shift is undefined.
+// Đặt phần thưởng khối về 0 khi phép dịch bit sang phải không còn hợp lệ.
 if (halvings >= 64)
 return 0;
 
 CAmount nSubsidy = 50 * COIN;
-// Subsidy is cut in half every 210,000 blocks which will occur approximately every 4 years.
+// Phần thưởng khối sẽ bị giảm một nửa sau mỗi 210.000 khối, tương đương khoảng mỗi 4 năm.
 nSubsidy >>= halvings;
 return nSubsidy;
 }
@@ -832,7 +832,7 @@ Trong những ngày đầu của Bitcoin, mining không phải là một hoạt 
 
 Qua nhiều năm, hoạt động này đã trải qua một sự chuyển đổi: máy móc đã thay đổi, độ khó tăng lên đáng kể, và mining đã trở thành một ngành công nghiệp riêng. Chúng ta hãy cùng xem xét các khía cạnh vận hành của mining Bitcoin.
 
-### Hướng dẫn bắt đầu: đào với CPU
+### Hướng dẫn bắt đầu: mining với CPU
 
 Vào năm 2009 và những năm đầu, mining chủ yếu được thực hiện bằng CPU của một máy tính thông thường. Bitcoin khi đó chỉ là một phần mềm đơn giản, đóng vai trò như một wallet, một nút mạng và một máy khai thác. Chỉ cần khởi chạy phần mềm Satoshi Nakamoto trên máy tính cá nhân của bạn là đủ để tham gia vào quy trình đào, và trong nhiều trường hợp, để tìm thấy các khối.
 
@@ -878,7 +878,7 @@ Từ thời điểm đó trở đi, chúng ta không còn chỉ nói về một 
 - Tốc độ truyền thông;
 - vân vân.
 
-### Mining farm
+### Mining farms
 
 Một máy riêng lẻ có thể khai thác, nhưng bằng cách nhóm hàng trăm, rồi hàng nghìn máy ASIC lại với nhau tại một địa điểm duy nhất, chúng ta có thể chia sẻ chi phí cố định, tối ưu hóa hậu cần và tiến gần hơn đến mô hình trung tâm dữ liệu chuyên dụng.
 
@@ -921,7 +921,7 @@ Mining và Bitcoin liên quan đến các chi phí phát sinh liên tục và kh
 
 Mining pool là một tổ chức (thường là một dịch vụ trực tuyến) tập hợp sức mạnh tính toán của nhiều thợ đào độc lập, nhằm tăng tần suất nhóm của họ tìm thấy các khối. Khi pool tìm thấy một khối, phần thưởng khối sẽ được phân phối lại cho các thành viên tham gia theo các quy tắc nội bộ của pool (sẽ được đề cập trong khóa học MIN 201, vì chúng quá phức tạp đối với MIN 101).
 
-Những người tham gia vào nhóm mining thường được gọi là "người băm" (haher) thay vì "người khai thác" (miner), vì họ không còn thực hiện toàn bộ công việc của mining nữa, mà chỉ đơn giản là băm dữ liệu được nhóm truyền đến cho họ.
+Những người tham gia vào nhóm mining thường được gọi là "người băm" (hasher) thay vì "người khai thác" (miner), vì họ không còn thực hiện toàn bộ công việc của mining nữa, mà chỉ đơn giản là băm dữ liệu được nhóm truyền đến cho họ.
 
 Cần lưu ý đừng nhầm lẫn giữa "pool" mining và "farm" mining. Đây là hai khái niệm khác nhau. Như chúng ta đã thấy trong chương trước, "farm" là một địa điểm vật lý nơi một thực thể duy nhất vận hành nhiều máy mining. Mặt khác, "pool" chủ yếu là một nhóm ảo: hàng ngàn máy, thường phân tán về mặt địa lý, hoạt động dưới sự điều phối chung. Tuy nhiên, một "farm" vẫn có thể, và thường xuyên, tham gia vào một "pool".
 

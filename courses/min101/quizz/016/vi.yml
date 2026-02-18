@@ -6,4 +6,4 @@ wrong_answers:
   - Replayed Proofs of Work
 explanation: |
   RPOW chỉ các bằng chứng công việc có thể tái sử dụng và trao đổi, được Hal Finney đề xuất vào năm 2004.
-reviewed: false
+reviewed: true

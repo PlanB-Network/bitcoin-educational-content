@@ -6,4 +6,4 @@ wrong_answers:
   - Biết độ khó của khối
 explanation: |
   Gốc Merkle tóm tắt tất cả các giao dịch; nếu một giao dịch thay đổi, gốc cũng thay đổi.
-reviewed: false
+reviewed: true

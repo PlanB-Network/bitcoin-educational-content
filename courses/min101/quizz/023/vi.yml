@@ -6,4 +6,4 @@ wrong_answers:
   - Kích thước khối tăng lên
 explanation: |
   Các khối được tìm thấy quá nhanh cho thấy tỷ lệ băm cao hơn, do đó Bitcoin thắt chặt điều kiện bằng cách hạ thấp mục tiêu.
-reviewed: false
+reviewed: true

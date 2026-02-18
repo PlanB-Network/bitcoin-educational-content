@@ -6,4 +6,4 @@ wrong_answers:
   - Double-nonce
 explanation: |
   Bằng cách sửa đổi extra-nonce trong scriptSig của coinbase, gốc Merkle bị thay đổi và do đó tiêu đề (header) cũng thay đổi.
-reviewed: false
+reviewed: true

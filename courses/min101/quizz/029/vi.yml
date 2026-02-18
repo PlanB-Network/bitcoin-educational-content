@@ -6,4 +6,4 @@ wrong_answers:
   - Hashrate + phí
 explanation: |
   Phần thưởng là tổng của trợ cấp khối và tất cả các phí từ các giao dịch đi kèm.
-reviewed: false
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - Số byte mỗi giây
 explanation: |
   Tỷ lệ băm thể hiện số lần thử băm được thực hiện mỗi giây, tính bằng H/s.
-reviewed: false
+reviewed: true

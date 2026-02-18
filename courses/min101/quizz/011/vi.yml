@@ -6,4 +6,4 @@ wrong_answers:
   - Chỉ ra mục tiêu độ khó
 explanation: |
   Việc thay đổi nonce sẽ thay đổi đầu vào của hàm băm và tạo ra một dấu vân tay hoàn toàn khác. Điều này cho phép thử lại để tìm một mã băm hợp lệ.
-reviewed: false
+reviewed: true

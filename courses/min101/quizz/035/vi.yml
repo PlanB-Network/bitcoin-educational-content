@@ -6,4 +6,4 @@ wrong_answers:
   - Trong phí của coinbase
 explanation: |
   SegWit sử dụng một cam kết được ghi vào coinbase thông qua một đầu ra OP_RETURN.
-reviewed: false
+reviewed: true

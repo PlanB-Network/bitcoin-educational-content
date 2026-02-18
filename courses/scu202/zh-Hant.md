@@ -156,8 +156,6 @@ objectives:
 
 
 
-*注意：如果您在課程中遇到任何不熟悉的詞彙，請參閱 [詞彙表](https://planb.academy/resources/glossary) 以瞭解定義。*
-
 
 
 ## SCU101 的基本重溫

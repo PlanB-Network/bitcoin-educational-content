@@ -101,8 +101,6 @@ Do kraja ovog kursa, imaćete sve praktične alate koji su vam potrebni da sa sa
 Spremni da započnete svoje putovanje u svet Bitcoin? Krenimo!
 
 
-**Napomena**: Ako tokom kursa naiđete na nepoznate termine, molimo vas da pogledate [glosar](https://planb.academy/resources/glossary) za definicije.
-
 # Preduslovi za razumevanje Bitcoin
 
 

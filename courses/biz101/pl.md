@@ -41,8 +41,6 @@ Niezależnie od tego, czy reprezentujesz małe przedsiębiorstwo, czy dużą kor
 Gotowy do zanurzenia się w świecie Bitcoin dla firm? Do dzieła!
 
 
-**Uwaga**: Jeśli podczas kursu napotkasz nieznane terminy, sprawdź definicje w [słowniczku](https://planb.academy/resources/glossary).
-
 # Waluta, systemy płatności i Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>

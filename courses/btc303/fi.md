@@ -75,8 +75,6 @@ Bitcoin:n monimutkaisessa hallintomaailmassa liikkuminen vaatii muutakin kuin te
 Oletko valmis ottamaan seuraavan askeleen Bitcoin-matkallasi? Aloitetaan!
 
 
-***N.B.**: Jos törmäät kurssin aikana Bitcoin:een liittyviin tuntemattomiin termeihin, katso määritelmiä [sanastosta](https://planb.academy/resources/glossary).*
-
 
 
 

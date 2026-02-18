@@ -101,8 +101,6 @@ Cuối cùng, phần thứ tư, "Bảo vệ Người thừa kế và Tài sản 
 Bạn đã sẵn sàng bắt đầu hành trình khám phá thế giới Bitcoin chưa? Bắt đầu thôi!
 
 
-**Lưu ý**: Nếu bạn gặp bất kỳ thuật ngữ nào không quen thuộc trong suốt khóa học, vui lòng tham khảo [thuật ngữ](https://planb.academy/resources/glossary) để biết định nghĩa.
-
 
 # Điều kiện tiên quyết để hiểu Bitcoin
 

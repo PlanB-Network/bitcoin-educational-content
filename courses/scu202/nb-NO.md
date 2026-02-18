@@ -156,8 +156,6 @@ Er du klar til å ta full kontroll over IT-sikkerheten din, styrke din individue
 
 
 
-**NB:** Hvis du støter på ukjente begreper i løpet av kurset, kan du slå opp i [ordlisten](https://planb.academy/resources/glossary) for definisjoner
-
 
 
 ## Grunnleggende oppsummering av SCU101

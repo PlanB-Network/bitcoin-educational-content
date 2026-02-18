@@ -34,8 +34,6 @@ Whether you represent a small enterprise or a large corporation, this course aim
 
 Ready to dive into the world of Bitcoin for businesses? Let's go!
 
-**N.B.**: If you come across any unfamiliar terms during the course, please consult [the glossary](https://planb.academy/resources/glossary) for definitions.
-
 # Currency, payment systems, and Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>

@@ -33,8 +33,6 @@ objectives:
 
 準備好進入比特幣商業世界了嗎？我們出發吧！
 
-**注意**: 如果您在課程中遇到任何不熟悉的術語，請查閱[詞彙表](https://planb.academy/resources/glossary)獲取定義。
-
 # 貨幣、支付系統和 Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>

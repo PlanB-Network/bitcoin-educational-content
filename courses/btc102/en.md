@@ -70,8 +70,6 @@ By the end of this course, you'll have all the practical tools you need to confi
 
 Ready to begin your journey into the world of Bitcoin? Let's go!
 
-**N.B.**: If you come across any unfamiliar terms during the course, please consult [the glossary](https://planb.academy/resources/glossary) for definitions.
-
 # Prerequisites for understanding Bitcoin
 
 <partId>4481fc4b-0f83-489e-ad07-81517c5d6bad</partId>

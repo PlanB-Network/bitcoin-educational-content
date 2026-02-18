@@ -81,8 +81,6 @@ Pour clôturer ce cours, vous pourrez tenter d'avoir votre diplôme en passant l
 
 Prêt à prendre pleinement en main votre sécurité informatique, renforcer votre souveraineté individuelle et garantir votre confidentialité en ligne ? Allons-y !
 
-*P.S. : Si vous rencontrez des termes qui vous sont inconnus au cours de la formation, veuillez consulter [le glossaire](https://planb.academy/resources/glossary) pour en trouver les définitions.*
-
 ## Récapitulatif essentiel de SCU 101
 <chapterId>26cfac35-a3bb-4657-95b3-8508bedfa903</chapterId>
 

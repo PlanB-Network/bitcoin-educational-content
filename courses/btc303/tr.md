@@ -75,8 +75,6 @@ Bitcoin'un karmaşık yönetişim ortamında gezinmek teknik uzmanlıktan daha f
 Bitcoin yolculuğunuzda bir sonraki adımı atmaya hazır mısınız? Hadi başlayalım!
 
 
-***N.B.**: Kurs sırasında Bitcoin ile ilgili bilmediğiniz terimlerle karşılaşırsanız, lütfen tanımları bulmak için [sözlüğe](https://planb.academy/resources/glossary) bakın.*
-
 
 
 

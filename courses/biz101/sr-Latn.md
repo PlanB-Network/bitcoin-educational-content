@@ -33,8 +33,6 @@ Bilo da predstavljate malo preduzeće ili veliku korporaciju, ovaj kurs ima za c
 
 Spremni da zaronite u svet Bitcoina za preduzeća? Idemo!
 
-**Napomena**: Ako tokom kursa naiđete na nepoznate termine, molimo vas da pogledate [glosar](https://planb.academy/resources/glossary) za definicije.
-
 # Valuta, platni sistemi i Bitkoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>

@@ -75,8 +75,6 @@ Das Navigieren in der komplexen Governance-Landschaft von Bitcoin erfordert mehr
 Sind Sie bereit, den nächsten Schritt auf Ihrer Bitcoin-Reise zu tun? Lassen Sie uns beginnen!
 
 
-***N.B.**: Wenn Sie während des Kurses auf unbekannte Begriffe im Zusammenhang mit Bitcoin stoßen, schlagen Sie bitte im [Glossar](https://planb.academy/resources/glossary) nach, um Definitionen zu finden.*
-
 
 
 

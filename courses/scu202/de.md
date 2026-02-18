@@ -129,8 +129,6 @@ Bist du bereit, die volle Kontrolle über deine IT-Sicherheit zu übernehmen, de
 
 
 
-*Hinweis: Wenn du während des Kurses auf unbekannte Begriffe stösst, konsultiere bitte das [das Glossar](https://planb.academy/resources/glossary) für Definitionen.
-
 
 
 

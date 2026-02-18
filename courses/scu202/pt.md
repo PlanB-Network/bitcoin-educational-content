@@ -156,8 +156,6 @@ Está pronto para assumir o controlo total da sua segurança informática, refor
 
 
 
-*N.B.: Se encontrar termos que não lhe são familiares durante o curso, consulte [o glossário](https://planb.academy/resources/glossary) para obter definições*
-
 
 
 ## Recapitulação essencial de SCU101

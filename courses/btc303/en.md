@@ -52,8 +52,6 @@ Navigating the complex governance landscape of Bitcoin requires more than techni
 
 Ready to take the next step in your Bitcoin journey? Let's begin!
 
-***N.B.**: If you encounter any unfamiliar terms related to Bitcoin during the course, please refer to the [glossary](https://planb.academy/resources/glossary) to find definitions.*
-
 
 
 # Bitcoin Central Values

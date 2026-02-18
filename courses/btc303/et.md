@@ -75,8 +75,6 @@ Bitcoin keerulisel juhtimismaastikul navigeerimine nõuab enamat kui tehnilisi t
 Kas olete valmis astuma järgmise sammu oma Bitcoin teekonnal? Alustame!
 
 
-***N.B.**: Kui kursuse käigus tekib mõni Bitcoin-ga seotud tundmatu termin, vaadake [sõnastik](https://planb.academy/resources/glossary), et leida definitsioonid.*
-
 
 
 

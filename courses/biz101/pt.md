@@ -34,8 +34,6 @@ Quer represente uma pequena empresa ou uma grande corporação, este curso tem c
 
 Pronto para mergulhar no mundo do Bitcoin para empresas? Vamos lá!
 
-**N.B.**: Se encontrar termos desconhecidos durante o curso, consulte [o glossário](https://planb.academy/resources/glossary) para definições.
-
 # Moeda, sistemas de pagamento e Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>

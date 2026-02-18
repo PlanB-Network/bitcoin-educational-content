@@ -33,8 +33,6 @@ Egal, ob du ein kleines Unternehmen oder einen großen Konzern vertrittst, diese
 
 Bereit, in die Welt von Bitcoin für Unternehmen einzutauchen? Los geht's!
 
-**Anm.**: Wenn du während des Kurses auf unbekannte Begriffe stößt, konsultiere bitte [das Glossar](https://planb.academy/resources/glossary) für Definitionen.
-
 # Währung, Zahlungssysteme und Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>

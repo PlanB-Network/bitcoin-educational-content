@@ -88,8 +88,6 @@ ___
 **註**：說明是基於 GNU/Linux CentOS 7 系統。然而，在比較 Debian 和 CentOS 系統時，網路配置大體上是相同的。因此，我們不會做任何區分。當有區別時，我們會以特定的標誌作為前綴。
 
 
-**N.B.**：如果您在課程中遇到任何不熟悉的詞彙，請參閱 [詞彙表](https://planb.academy/resources/glossary) 以瞭解定義。
-
 
 
 # TCP/IP 通訊協定

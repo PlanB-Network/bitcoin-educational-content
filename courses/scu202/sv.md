@@ -156,8 +156,6 @@ Som avslutning på kursen kommer du att kunna göra ett slutprov för att få di
 
 
 
-**OBS:** Om du stöter på obekanta termer under kursens gång, vänligen se [ordlistan](https://planb.academy/resources/glossary) för definitioner
-
 
 
 ## Grundläggande sammanfattning av SCU101

@@ -63,8 +63,6 @@ Snalaženje u složenom upravljačkom pejzažu Bitcoina zahteva više od tehnič
 
 Spremni da napravite sledeći korak na svom Bitcoin putovanju? Hajde da počnemo!
 
-***Napomena**: Ako tokom kursa naiđete na bilo koji nepoznat termin vezan za Bitcoin, molimo vas da pogledate [rečnik](https://planb.academy/resources/glossary) kako biste pronašli definicije.
-
 
 
 # Ključne vrednosti Bitcoina

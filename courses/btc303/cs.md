@@ -75,8 +75,6 @@ Orientace ve složitém prostředí řízení Bitcoin vyžaduje více než jen t
 Jste připraveni udělat další krok na cestě ke Bitcoin? Začněme!
 
 
-***N.B.**: Pokud se v průběhu kurzu setkáte s neznámými pojmy týkajícími se Bitcoin, podívejte se prosím do [slovníčku pojmů](https://planb.academy/resources/glossary), kde najdete jejich definice.*
-
 
 
 

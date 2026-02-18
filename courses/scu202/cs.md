@@ -156,8 +156,6 @@ Jste připraveni plně převzít kontrolu nad svým IT zabezpečením, posílit 
 
 
 
-*N.B.: Pokud se v průběhu kurzu setkáte s neznámými pojmy, podívejte se do [slovníčku pojmů](https://planb.academy/resources/glossary), kde najdete jejich definice.*
-
 
 
 ## Základní shrnutí SCU101

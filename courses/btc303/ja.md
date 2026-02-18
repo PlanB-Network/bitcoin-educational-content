@@ -75,8 +75,6 @@ objectives:
 ビットコインの旅で次のステップに進む準備はできていますか？始めよう！
 
 
-**N.B.**：ビットコインに関する用語でわからないものがあれば、[用語集](https://planb.academy/resources/glossary)を参照してください。
-
 
 
 

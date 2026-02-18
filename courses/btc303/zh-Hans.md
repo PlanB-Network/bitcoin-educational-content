@@ -75,8 +75,6 @@ objectives:
 准备好在比特币之旅中迈出下一步了吗？让我们开始吧！
 
 
-***请注意**：如果您在课程中遇到任何与比特币相关的陌生术语，请参阅[词汇表](https://planb.academy/resources/glossary)以查找术语的定义*。
-
 
 
 

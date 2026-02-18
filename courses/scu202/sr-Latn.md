@@ -156,8 +156,6 @@ Da li ste spremni da u potpunosti preuzmete kontrolu nad svojom IT sigurnošću,
 
 
 
-*N.B.: Ako naiđete na bilo koje nepoznate pojmove tokom kursa, molimo vas da se obratite [rečniku](https://planb.academy/resources/glossary) za definicije*
-
 
 
 ## Suštinski pregled SCU101

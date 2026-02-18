@@ -56,8 +56,6 @@ Navigare nel complesso panorama della governance di Bitcoin non richiede solo co
 
 Sei pronto a fare il prossimo passo nel tuo viaggio Bitcoin? Cominciamo!
 
-***N.B.**: Se durante il corso si incontrano termini non familiari relativi al Bitcoin, si prega di fare riferimento al [glossario](https://planb.academy/resources/glossary) per trovare le definizioni.*
-
 
 # Valori Fondamentali di Bitcoin
 

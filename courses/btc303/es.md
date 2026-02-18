@@ -75,8 +75,6 @@ Navegar por el complejo panorama de la gobernanza de Bitcoin requiere algo más 
 ¿Listo para dar el siguiente paso en su viaje hacia Bitcoin? Comencemos.
 
 
-***N.B.**: Si durante el curso encuentra algún término desconocido relacionado con Bitcoin, consulte el [glosario](https://planb.academy/resources/glossary) para encontrar definiciones.*
-
 
 
 

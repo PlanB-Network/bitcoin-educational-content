@@ -156,8 +156,6 @@ Ben je klaar om je IT-beveiliging volledig onder controle te krijgen, je individ
 
 
 
-**N.B.:** Als je tijdens de cursus onbekende termen tegenkomt, raadpleeg dan [de woordenlijst](https://planb.academy/resources/glossary) voor definities
-
 
 
 ## Essentiële samenvatting van SCU101

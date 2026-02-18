@@ -75,8 +75,6 @@ Het navigeren door het complexe bestuurslandschap van Bitcoin vereist meer dan t
 Klaar om de volgende stap te zetten in jouw Bitcoin reis? Laten we beginnen!
 
 
-***N.B.**: Als u tijdens de cursus onbekende termen met betrekking tot Bitcoin tegenkomt, raadpleeg dan de [woordenlijst](https://planb.academy/resources/glossary) om definities te vinden.*
-
 
 
 

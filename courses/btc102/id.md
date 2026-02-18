@@ -101,8 +101,6 @@ Pada akhir kursus ini, Anda akan memiliki semua alat praktis yang Anda butuhkan 
 Siap untuk memulai perjalanan Anda ke dunia Bitcoin? Ayo pergi!
 
 
-**Catatan**: Jika Anda menemukan istilah yang tidak familiar selama kursus, silakan lihat [glosarium](https://planb.academy/resources/glossary) untuk definisi.
-
 # Prasyarat untuk memahami Bitcoin
 
 

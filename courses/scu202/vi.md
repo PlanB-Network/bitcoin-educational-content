@@ -156,8 +156,6 @@ Bạn đã sẵn sàng kiểm soát hoàn toàn bảo mật CNTT, củng cố ch
 
 
 
-*Lưu ý: Nếu bạn gặp bất kỳ thuật ngữ nào không quen thuộc trong suốt khóa học, vui lòng tham khảo [thuật ngữ](https://planb.academy/resources/glossary) để biết định nghĩa*
-
 
 
 ## Tóm tắt cần thiết về SCU101

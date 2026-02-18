@@ -156,8 +156,6 @@ Oletko valmis ottamaan tietoturvan täysin haltuun, vahvistamaan henkilökohtais
 
 
 
-**HUOM:** Jos kurssin aikana tulee vastaan tuntemattomia termejä, katso määritelmät [sanastosta](https://planb.academy/resources/glossary)
-
 
 
 ## SCU101:n olennainen yhteenveto

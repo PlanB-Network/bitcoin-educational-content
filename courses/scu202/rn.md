@@ -156,8 +156,6 @@ Woba witeguriye gufata bikwiriye ububasha bwo kugenzura umutekano w'ikoranabuhan
 
 
 
-*N.B.: Niwahura n'amajambo utamenyereye mw'iki cigwa, usabwe kuraba [urutonde rw'amajambo](https://planb.academy/resources/glossary) kugira ngo ubone insiguro*
-
 
 
 ## Incamake za ngombwa za SCU101

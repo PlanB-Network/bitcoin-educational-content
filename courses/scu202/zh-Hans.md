@@ -156,8 +156,6 @@ objectives:
 
 
 
-*注：如果您在学习过程中遇到任何不熟悉的术语，请查阅 [术语表](https://planb.academy/resources/glossary) 了解其定义。*
-
 
 
 ## SCU101 的基本回顾

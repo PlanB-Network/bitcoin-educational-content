@@ -156,8 +156,6 @@ Para finalizar el curso, podrás realizar el examen final para obtener tu certif
 
 
 
-**N.B.:** Si durante el curso se encuentra con algún término que no le resulte familiar, consulte [el glosario](https://planb.academy/resources/glossary) para obtener las definiciones
-
 
 
 ## Resumen esencial de SCU101

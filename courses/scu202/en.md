@@ -118,8 +118,6 @@ To wrap up the course, you'll be able to attempt the final exam to obtain your c
 Are you ready to fully take control of your IT security, strengthen your individual sovereignty and guarantee your online privacy? Let's go!
 
 
-*N.B.: If you come across any unfamiliar terms during the course, please consult [the glossary](https://planb.academy/resources/glossary) for definitions*
-
 
 ## Essential recap of SCU101
 

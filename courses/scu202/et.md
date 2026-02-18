@@ -156,8 +156,6 @@ Kas olete valmis võtma täielikult kontrolli oma IT-turvalisuse üle, tugevdama
 
 
 
-**NB:** Kui kursuse käigus satute mõne tundmatu terminiga kokku, vaadake [sõnastik](https://planb.academy/resources/glossary), et leida mõisted
-
 
 
 ## SCU101 oluline kokkuvõte

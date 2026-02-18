@@ -72,8 +72,6 @@ Am Ende dieses Kurses verfügst du über alle praktischen Werkzeuge, die du ben�
 
 Bist du bereit, deine Reise in die Welt von Bitcoin zu beginnen? Los geht's!
 
-**Anm.**: Wenn du während des Kurses auf unbekannte Begriffe stösst, konsultiere bitte [das Glossar](https://planb.academy/resources/glossary) für Definitionen.
-
 # Voraussetzungen für das Verständnis von Bitcoin
 
 <partId>4481fc4b-0f83-489e-ad07-81517c5d6bad</partId>

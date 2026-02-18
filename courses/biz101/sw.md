@@ -33,8 +33,6 @@ Iwe unawakilisha biashara ndogo au shirika kubwa, kozi hii inalenga kukupa maari
 
 Je, uko tayari kuingia katika ulimwengu wa Bitcoin kwa biashara? Twende!
 
-**Kumbuka**: Ikiwa utakutana na maneno yasiyojulikana wakati wa kozi, tafadhali angalia [kamusi](https://planb.academy/resources/glossary) kwa ufafanuzi.
-
 # Sarafu, mifumo ya malipo, na Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>

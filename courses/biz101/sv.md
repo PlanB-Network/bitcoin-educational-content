@@ -33,8 +33,6 @@ Oavsett om du representerar ett litet företag eller ett stort bolag syftar den 
 
 Är du redo att dyka ner i Bitcoin-världen för företag? Låt oss gå!
 
-**Obs**: Om du stöter på okända termer under kursen, vänligen konsultera [ordlistan](https://planb.academy/resources/glossary) för definitioner.
-
 # Valuta, betalningssystem och Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>

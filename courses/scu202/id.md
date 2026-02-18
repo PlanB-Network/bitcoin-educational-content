@@ -86,8 +86,6 @@ Untuk mengakhiri kursus ini, Anda akan dapat mengikuti ujian akhir untuk mendapa
 
 Apakah Anda siap untuk sepenuhnya mengambil kendali atas keamanan TI (teknologi informasi) Anda, memperkuat kedaulatan individu Anda, dan menjamin privasi online Anda? Ayo mulai!
 
-*Catatan: Jika Anda menemukan istilah yang tidak dikenal selama kursus, silakan baca [daftar istilah](https://planb.academy/resources/glossary) untuk mendapatkan definisinya
-
 ## Rekapitulasi penting dari SCU101
 
 <chapterId>26cfac35-a3bb-4657-95b3-8508bedfa903</chapterId>

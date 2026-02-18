@@ -75,8 +75,6 @@ Bitcoin의 복잡한 거버넌스 환경을 탐색하려면 기술적 전문성�
 Bitcoin 여정의 다음 단계로 나아갈 준비가 되셨나요? 시작하세요!
 
 
-***N.B.**: 수강 중 Bitcoin와 관련된 생소한 용어가 나오면 [용어집](https://planb.academy/resources/glossary)을 참조하여 정의를 찾아보세요*
-
 
 
 

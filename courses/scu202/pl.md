@@ -156,8 +156,6 @@ Czy jesteś gotowy, aby w pełni przejąć kontrolę nad swoim bezpieczeństwem 
 
 
 
-*Uwaga: Jeśli podczas kursu napotkasz nieznane terminy, zapoznaj się z ich definicjami w [słowniczku](https://planb.academy/resources/glossary)*
-
 
 
 ## Podstawowe podsumowanie SCU101

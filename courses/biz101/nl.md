@@ -33,8 +33,6 @@ Of je nu een klein onderneming vertegenwoordigt of een groot bedrijf, deze cursu
 
 Klaar om in de wereld van Bitcoin voor bedrijven te duiken? Let's go!
 
-**N.B.**: Als u tijdens de cursus onbekende termen tegenkomt, raadpleeg dan [de woordenlijst](https://planb.academy/resources/glossary) voor definities.
-
 # Valuta, betalingssystemen en Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>

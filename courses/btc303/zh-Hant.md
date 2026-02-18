@@ -75,8 +75,6 @@ Bitcoin 不僅是一種加密貨幣，它還體現了一種關於去中心化、
 準備好在您的 Bitcoin 之旅中踏出下一步了嗎？讓我們開始吧
 
 
-**註**：如果您在課程中遇到任何與 Bitcoin 相關的陌生詞彙，請參閱 [詞彙表](https://planb.academy/resources/glossary)以尋找定義。
-
 
 
 

@@ -90,8 +90,6 @@ Gotowy do zanurzenia się w świecie sieci komputerowych? Do dzieła!
 **UWAGA**: Opisy są oparte na systemie GNU/Linux CentOS 7. Jednak konfiguracje sieciowe są w dużej mierze takie same przy porównywaniu Debiana z systemem CentOS. Nie będziemy więc wprowadzać żadnych rozróżnień. Jeśli takowe istnieje, poprzedzimy je konkretnym logo.
 
 
-**N.B.**: Jeśli podczas kursu napotkasz nieznane terminy, zapoznaj się z ich definicjami w [słowniczku](https://planb.academy/resources/glossary).
-
 
 
 # Protokoły TCP/IP

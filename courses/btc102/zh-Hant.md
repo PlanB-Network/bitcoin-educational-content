@@ -101,8 +101,6 @@ https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 準備好開始您的 Bitcoin 世界之旅了嗎？開始吧
 
 
-**注意**: 如果您在課程中遇到任何不熟悉的術語，請查閱[詞彙表](https://planb.academy/resources/glossary)獲取定義。
-
 # 瞭解 Bitcoin 的先決條件
 
 

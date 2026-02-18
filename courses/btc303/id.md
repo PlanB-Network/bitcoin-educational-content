@@ -75,8 +75,6 @@ Menavigasi lanskap tata kelola Bitcoin yang kompleks membutuhkan lebih dari seka
 Siap untuk mengambil langkah selanjutnya dalam perjalanan Bitcoin Anda? Mari kita mulai!
 
 
-*cATATAN **NB**: Jika Anda menemukan istilah asing yang terkait dengan Bitcoin selama kursus, silakan merujuk ke [glosarium](https://planb.academy/resources/glossary) untuk menemukan definisinya.*
-
 
 
 

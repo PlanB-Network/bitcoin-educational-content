@@ -101,8 +101,6 @@ Na konci tohoto kurzu získáte všechny praktické nástroje, které potřebuje
 Jste připraveni vydat se na cestu do světa Bitcoin? Jdeme na to!
 
 
-**Pozn.**: Pokud během kurzu narazíte na neznámé termíny, obraťte se prosím na [slovníček](https://planb.academy/resources/glossary) pro definice.
-
 # Předpoklady pro pochopení Bitcoin
 
 

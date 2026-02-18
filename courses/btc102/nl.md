@@ -70,8 +70,6 @@ Aan het einde van deze cursus beschik je over alle praktische hulpmiddelen die j
 
 Klaar om je reis in de wereld van Bitcoin te beginnen? Laten we gaan!
 
-**N.B.**: Als u tijdens de cursus onbekende termen tegenkomt, raadpleeg dan [de woordenlijst](https://planb.academy/resources/glossary) voor definities.
-
 # Voorwaarden om Bitcoin te begrijpen
 
 <partId>4481fc4b-0f83-489e-ad07-81517c5d6bad</partId>

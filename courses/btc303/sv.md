@@ -75,8 +75,6 @@ Att navigera i det komplexa styrningslandskapet i Bitcoin kräver mer än teknis
 Är du redo att ta nästa steg i din Bitcoin-resa? Låt oss börja!
 
 
-***N.B.**: Om du stöter på några obekanta termer relaterade till Bitcoin under kursen, vänligen se [ordlistan](https://planb.academy/resources/glossary) för att hitta definitioner.*
-
 
 
 

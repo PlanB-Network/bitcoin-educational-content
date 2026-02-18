@@ -128,7 +128,7 @@ BBC'nin "Bitcoin ve Blockchain nasıl çalışır?" başlıklı giriş bölümü
 :::video id=c20b6df7-0c3a-4785-94b9-42ef59093acc:::
 
 
-Bu alıştırma en az dokuz katılımcı gerektirmektedir. Bu alıştırma, Bitcoin'in nasıl çalıştığına dair fiziksel bir anlayış sağlamayı amaçlamaktadır. Ağdaki her bir rolü oynayarak, interaktif ve eğlenceli bir öğrenme yöntemine sahip olacaksınız. Bu alıştırma Lightning Network'yi içermez.
+Bu alıştırma en az dokuz katılımcı gerektirmektedir. Bu alıştırma, Bitcoin'in nasıl çalıştığına dair fiziksel bir anlayış sağlamayı amaçlamaktadır. Ağdaki her bir rolü oynayarak, interaktif ve eğlenceli bir öğrenme yöntemine sahip olacaksınız. Bu alıştırma [Lightning Network](https://planb.academy/resources/glossary/lightning-network)'yi içermez.
 
 
 ### Örnek: 9 / 11 kişi gerektirir
@@ -140,7 +140,7 @@ Roller şunlar:
 
 - 1 Müşteri
 - 1 Tüccar
-- 7 ila 9 Bitcoin düğümü
+- 7 ila 9 Bitcoin [düğümü](https://planb.academy/resources/glossary/node)
 
 
 **Kurulum aşağıdaki gibidir:**
@@ -573,7 +573,7 @@ Bu bölümde şunları öğrendiniz:
 ### Bitcoin anahtarlarının oluşturulmasında neler yer alır?
 
 
-Bitcoin cüzdanları oluşturulduklarında "seed" olarak adlandırılan bir cüzdan oluştururlar. Son hedefte, bir "seed" oluşturdunuz, Daha önce oluşturulan kelime dizileri Mnemonic cümleleri olarak da bilinir. seed, bireysel Bitcoin Anahtarlarını türetmek için kullanılır ve Bitcoin göndermek veya almak için kullanılır. seed cümleleri asla üçüncü taraflarla veya güvenilmeyen eşlerle paylaşılmamalıdır.
+Bitcoin cüzdanları oluşturulduklarında "[seed](https://planb.academy/resources/glossary/seed)" olarak adlandırılan bir cüzdan oluştururlar. Son hedefte, bir "seed" oluşturdunuz, Daha önce oluşturulan kelime dizileri Mnemonic cümleleri olarak da bilinir. seed, bireysel Bitcoin Anahtarlarını türetmek için kullanılır ve Bitcoin göndermek veya almak için kullanılır. seed cümleleri asla üçüncü taraflarla veya güvenilmeyen eşlerle paylaşılmamalıdır.
 
 
 seed üretimi "Hiyerarşik Deterministik" (HD) çerçevesi olarak bilinen endüstri standardına göre gerçekleştirilir.
@@ -1131,7 +1131,7 @@ Sol menü çubuğundaki Lightning Wallet seçeneğinde, sunucu yöneticileri RTL
 #### Dahili düğüm bilgisi
 
 
-Sunucu yöneticileri, sunucu durumlarını (Çevrimiçi/Çevrimdışı) ve Clearnet veya Tor için bağlantı dizesini görüntülemek için dahili düğüm bilgilerine tıklayabilirler.
+Sunucu yöneticileri, sunucu durumlarını (Çevrimiçi/Çevrimdışı) ve Clearnet veya [Tor](https://planb.academy/resources/glossary/tor) için bağlantı dizesini görüntülemek için dahili düğüm bilgilerine tıklayabilirler.
 
 
 ![image](assets/en/033.webp)

@@ -756,7 +756,7 @@ Maar zoals Spinoza zegt, "de waan van de mens houdt daar niet op", en onder alle
 
 
 
-De definitie van inflatie van Keynesiaanse economen en voorstanders van de welvaartsstaat, bijvoorbeeld, illustreert deze paradox ook heel goed. Volgens hen is inflatie een prijsstijging die, volgens sommige centrale bankiers, ofwel uit "het niets" komt, ofwel uit een geopolitieke context die niemand kan controleren of voorzien. Hoewel een prijsstijging inderdaad kan leiden tot cyclische inflatie - wanneer bijvoorbeeld de olieprijs stijgt, zullen ook de prijzen van bepaalde verwerkte goederen stijgen - zijn de echte structurele oorzaken van inflatie voornamelijk gekoppeld aan een stijging van het geld Supply, wat op zijn beurt een daling van de waarde van geld inhoudt en, ipso facto, een mechanische stijging van de prijzen.
+De definitie van [inflatie](https://planb.academy/resources/glossary/inflation) van Keynesiaanse economen en voorstanders van de welvaartsstaat, bijvoorbeeld, illustreert deze paradox ook heel goed. Volgens hen is inflatie een prijsstijging die, volgens sommige centrale bankiers, ofwel uit "het niets" komt, ofwel uit een geopolitieke context die niemand kan controleren of voorzien. Hoewel een prijsstijging inderdaad kan leiden tot cyclische inflatie - wanneer bijvoorbeeld de olieprijs stijgt, zullen ook de prijzen van bepaalde verwerkte goederen stijgen - zijn de echte structurele oorzaken van inflatie voornamelijk gekoppeld aan een stijging van het geld Supply, wat op zijn beurt een daling van de waarde van geld inhoudt en, ipso facto, een mechanische stijging van de prijzen.
 
 
 
@@ -1064,7 +1064,7 @@ Met andere woorden, als we een buitenlander haten, is dat omdat we deze buitenla
 
 
 
-Dit geldt trouwens vooral op het gebied van cryptocurrencies.
+Dit geldt trouwens vooral op het gebied van [cryptocurrencies](https://planb.academy/resources/glossary/cryptocurrency).
 
 
 
@@ -1159,7 +1159,7 @@ Dit is precies waar de rationele filosofie van de Verlichting over ging, met nam
 Met andere woorden, zegt hij, als we zelf denken, als we redeneren als rationele volwassenen, en als we er daarom naar streven om ons te hechten aan de oorzakelijke verbanden tussen dingen, dan hebben we geen morele autoriteit meer nodig om ons bijvoorbeeld de ware deugden van religie of ware ethische waarden op politiek en economisch gebied te leren.
 
 
-Het is een redenering die de link legt met de Oostenrijkse school van liberale economie, geboren in de extreem vruchtbare intellectuele atmosfeer van Wenen voor de Eerste Wereldoorlog. Want het was in deze context dat intellectuelen als Carl Menger (1840-1921), Ludwig von Mises (1883-1979) en Friedrich Hayek (1899-1992) de basis legden voor een nieuwe school van liberale economie, die de basis zou worden voor de overtuigingen van toekomstige cypherpunks. En vandaar de oprichting van Bitcoin.
+Het is een redenering die de link legt met de [Oostenrijkse](https://planb.academy/resources/glossary/austrian-school) school van liberale economie, geboren in de extreem vruchtbare intellectuele atmosfeer van Wenen voor de Eerste Wereldoorlog. Want het was in deze context dat intellectuelen als Carl Menger (1840-1921), Ludwig von Mises (1883-1979) en Friedrich Hayek (1899-1992) de basis legden voor een nieuwe school van liberale economie, die de basis zou worden voor de overtuigingen van toekomstige [cypherpunks](https://planb.academy/resources/glossary/cypherpunks). En vandaar de oprichting van Bitcoin.
 
 
 
@@ -1204,7 +1204,7 @@ Dit zijn de politieke en economische argumenten die naar voren werden gebracht d
 
 
 
-Vooral toen hij de kop van de Times van 3 januari 2009 in de coinbase van het Genesis blok van Blockchain Bitcoin plaatste om het einde van het ene Keynesiaanse tijdperk te illustreren en het begin van een ander tijdperk met liberale, anarchistische en libertaire aspiraties.
+Vooral toen hij de kop van de Times van 3 januari 2009 in de [coinbase](https://planb.academy/resources/glossary/coinbase-transaction) van het [Genesis blok](https://planb.academy/resources/glossary/genesis-block) van [Blockchain](https://planb.academy/resources/glossary/blockchain) Bitcoin plaatste om het einde van het ene Keynesiaanse tijdperk te illustreren en het begin van een ander tijdperk met liberale, anarchistische en libertaire aspiraties.
 
 
 
@@ -1212,7 +1212,7 @@ Vooral toen hij de kop van de Times van 3 januari 2009 in de coinbase van het Ge
 
 
 
-Het witboek dat op 31 oktober 2008 werd gepubliceerd, presenteert Bitcoin als een manier om waarde uit te wisselen op het internet zonder vertrouwde derde partij, gebaseerd op een gedecentraliseerd protocol. Een "Copernicaanse" revolutie die mensen eindelijk in staat zal stellen om hun vermogen tot handelen terug te krijgen, d.w.z. hun vrijheid, hun vrijheid om te handelen, hun recht op eigendom en respect voor hun privacy.
+Het [witboek](https://planb.academy/resources/glossary/white-paper) dat op 31 oktober 2008 werd gepubliceerd, presenteert Bitcoin als een manier om waarde uit te wisselen op het internet zonder vertrouwde derde partij, gebaseerd op een gedecentraliseerd protocol. Een "Copernicaanse" revolutie die mensen eindelijk in staat zal stellen om hun vermogen tot handelen terug te krijgen, d.w.z. hun vrijheid, hun vrijheid om te handelen, hun recht op eigendom en respect voor hun privacy.
 
 
 Waarom? Omdat Bitcoin ons in staat stelt om ons op Spinoza's manier, dankzij de rede, dankzij Galileo's taal van de wiskunde, van deze slavernij te bevrijden. En, zoals Hayek suggereert, zonder dat de staat zich ertegen kan verzetten. En vreedzaam, zonder dwang of proselitisme.

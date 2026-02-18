@@ -756,7 +756,7 @@ Tetapi seperti yang dikatakan Spinoza, "khayalan manusia tidak berakhir di situ"
 
 
 
-Definisi inflasi yang diberikan oleh para ekonom Keynesian dan pendukung negara kesejahteraan, misalnya, juga menggambarkan paradoks ini dengan baik. Menurut mereka, inflasi adalah kenaikan harga yang, menurut beberapa bankir bank sentral, datang entah dari mana, atau dari konteks geopolitik yang tidak dapat dikendalikan atau diantisipasi oleh siapapun. Meskipun kenaikan harga memang dapat menyebabkan inflasi siklis - misalnya, ketika harga minyak naik, harga barang-barang olahan tertentu juga akan naik - penyebab struktural sebenarnya dari inflasi terutama terkait dengan peningkatan Supply uang, yang pada gilirannya mengimplikasikan penurunan nilai uang dan, secara ipso facto, kenaikan harga-harga secara mekanis.
+Definisi [inflasi](https://planb.academy/resources/glossary/inflation) yang diberikan oleh para ekonom Keynesian dan pendukung negara kesejahteraan, misalnya, juga menggambarkan paradoks ini dengan baik. Menurut mereka, inflasi adalah kenaikan harga yang, menurut beberapa bankir bank sentral, datang entah dari mana, atau dari konteks geopolitik yang tidak dapat dikendalikan atau diantisipasi oleh siapapun. Meskipun kenaikan harga memang dapat menyebabkan inflasi siklis - misalnya, ketika harga minyak naik, harga barang-barang olahan tertentu juga akan naik - penyebab struktural sebenarnya dari inflasi terutama terkait dengan peningkatan Supply uang, yang pada gilirannya mengimplikasikan penurunan nilai uang dan, secara ipso facto, kenaikan harga-harga secara mekanis.
 
 
 
@@ -1064,7 +1064,7 @@ Dengan kata lain, jika kita membenci orang asing, itu karena kita mengasosiasika
 
 
 
-Hal ini terutama berlaku di bidang mata uang kripto.
+Hal ini terutama berlaku di bidang [mata uang kripto](https://planb.academy/resources/glossary/cryptocurrency).
 
 
 
@@ -1159,7 +1159,7 @@ Inilah yang dimaksud dengan filosofi rasional Pencerahan, terutama berkat Immanu
 Dengan kata lain, katanya, jika kita berpikir untuk diri kita sendiri, jika kita bernalar sebagai orang dewasa yang rasional, dan jika kita berusaha untuk melekatkan diri kita pada hubungan sebab akibat di antara berbagai hal, kita tidak lagi membutuhkan otoritas moral untuk mengajari kita, misalnya, keutamaan agama yang sebenarnya atau nilai-nilai etika yang sebenarnya dalam bidang politik dan ekonomi.
 
 
-Ini adalah garis penalaran yang membuat hubungan dengan mazhab ekonomi liberal Austria, yang lahir di atmosfer intelektual yang sangat subur di Wina sebelum Perang Dunia Pertama. Karena dalam konteks inilah para intelektual seperti Carl Menger (1840-1921), Ludwig von Mises (1883-1979) dan Friedrich Hayek (1899-1992) meletakkan dasar-dasar bagi mazhab baru ekonomi liberal, yang akan menjadi fondasi bagi keyakinan para cypherpunks di masa depan. Dan karenanya terciptalah Bitcoin.
+Ini adalah garis penalaran yang membuat hubungan dengan mazhab ekonomi liberal [Austria](https://planb.academy/resources/glossary/austrian-school), yang lahir di atmosfer intelektual yang sangat subur di Wina sebelum Perang Dunia Pertama. Karena dalam konteks inilah para intelektual seperti Carl Menger (1840-1921), Ludwig von Mises (1883-1979) dan Friedrich Hayek (1899-1992) meletakkan dasar-dasar bagi mazhab baru ekonomi liberal, yang akan menjadi fondasi bagi keyakinan para [cypherpunks](https://planb.academy/resources/glossary/cypherpunks) di masa depan. Dan karenanya terciptalah Bitcoin.
 
 
 
@@ -1204,7 +1204,7 @@ Ini adalah argumen politik dan ekonomi yang dikemukakan oleh cypherpunks pertama
 
 
 
-Khususnya ketika dia menuliskan judul Times pada 3 Januari 2009 di dasar koin blok Genesis Blockchain Bitcoin untuk menggambarkan akhir dari satu era, Keynesian, dan awal dari era lain dengan aspirasi liberal, anarkis, dan libertarian.
+Khususnya ketika dia menuliskan judul Times pada 3 Januari 2009 di [dasar koin](https://planb.academy/resources/glossary/coinbase-transaction) [blok Genesis](https://planb.academy/resources/glossary/genesis-block) [Blockchain](https://planb.academy/resources/glossary/blockchain) Bitcoin untuk menggambarkan akhir dari satu era, Keynesian, dan awal dari era lain dengan aspirasi liberal, anarkis, dan libertarian.
 
 
 
@@ -1212,7 +1212,7 @@ Khususnya ketika dia menuliskan judul Times pada 3 Januari 2009 di dasar koin bl
 
 
 
-Buku Putih yang diterbitkan pada tanggal 31 Oktober 2008 menyajikan Bitcoin sebagai sarana pertukaran nilai di Internet tanpa pihak ketiga yang tepercaya, berdasarkan protokol yang terdesentralisasi. Sebuah revolusi "Copernican" yang pada akhirnya akan memungkinkan orang untuk mendapatkan kembali kemampuan mereka untuk bertindak, yaitu kebebasan mereka, kebebasan untuk berdagang, hak mereka untuk memiliki properti dan menghormati privasi mereka.
+[Buku Putih](https://planb.academy/resources/glossary/white-paper) yang diterbitkan pada tanggal 31 Oktober 2008 menyajikan Bitcoin sebagai sarana pertukaran nilai di Internet tanpa pihak ketiga yang tepercaya, berdasarkan protokol yang terdesentralisasi. Sebuah revolusi "Copernican" yang pada akhirnya akan memungkinkan orang untuk mendapatkan kembali kemampuan mereka untuk bertindak, yaitu kebebasan mereka, kebebasan untuk berdagang, hak mereka untuk memiliki properti dan menghormati privasi mereka.
 
 
 Mengapa? Karena Bitcoin memungkinkan kita untuk melepaskan diri dari perbudakan ini dengan cara Spinoza, berkat akal, berkat bahasa matematika Galileo. Dan, seperti yang dikatakan Hayek, tanpa negara dapat menentangnya. Dan dengan damai, tanpa paksaan atau dakwah.

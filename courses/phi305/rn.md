@@ -770,7 +770,7 @@ Ariko nk’uko Spinoza abivuga, «ukwihenda kw’abantu ntiguhera ng’aho», ka
 
 
 
-Insobanuro y’ugutera imbere kw’ibiciro yatanzwe n’abahinga mu vy’ubutunzi b’abanya Keynes be n’ababuranira Leta y’imibereho myiza, nk’akarorero, na yo nyene irarerekana neza cane iyo nkuru idasanzwe. Nk'uko babivuga, inflation ni ukuduga kw'ibiciro, nk'uko bamwe mu ba banki nkuru babivuga, biva "aho ataco bivuze", canke biva mu bihe vy'ubuhinga bw'isi ata n'umwe ashobora kugenzura canke kwitega. Naho ukwiyongera kw’ibiciro bishobora vy’ukuri gutuma haba ugutera imbere kw’ibiciro - nk’akarorero, iyo igiciro ca peteroli kiduze, ibiciro vy’ibicuruzwa bimwebimwe bitunganijwe na vyo nyene biraduga - imvo nyazo z’imiterere y’ugutera imbere kw’ibiciro zifitaniye isano cane n’ukwiyongera kw’amahera Supply, ivyo na vyo bikaba bisobanura ko agaciro k’amahera kazoduga, riso mechanical, and prices.
+Insobanuro y’ugutera imbere kw’ibiciro yatanzwe n’abahinga mu vy’ubutunzi b’abanya Keynes be n’ababuranira Leta y’imibereho myiza, nk’akarorero, na yo nyene irarerekana neza cane iyo nkuru idasanzwe. Nk'uko babivuga, [inflation](https://planb.academy/resources/glossary/inflation) ni ukuduga kw'ibiciro, nk'uko bamwe mu ba banki nkuru babivuga, biva "aho ataco bivuze", canke biva mu bihe vy'ubuhinga bw'isi ata n'umwe ashobora kugenzura canke kwitega. Naho ukwiyongera kw’ibiciro bishobora vy’ukuri gutuma haba ugutera imbere kw’ibiciro - nk’akarorero, iyo igiciro ca peteroli kiduze, ibiciro vy’ibicuruzwa bimwebimwe bitunganijwe na vyo nyene biraduga - imvo nyazo z’imiterere y’ugutera imbere kw’ibiciro zifitaniye isano cane n’ukwiyongera kw’amahera Supply, ivyo na vyo bikaba bisobanura ko agaciro k’amahera kazoduga, riso mechanical, and prices.
 
 
 
@@ -1084,7 +1084,7 @@ Mu yandi majambo, iyo twanka umunyamahanga, ni uko uwo munyamahanga dufatanya n�
 
 
 
-Ivyo ni ukuri cane cane, mu nzira, mu bijanye n’amahera y’amahera.
+Ivyo ni ukuri cane cane, mu nzira, mu bijanye n’[amahera y’amahera](https://planb.academy/resources/glossary/cryptocurrency).
 
 
 
@@ -1181,7 +1181,7 @@ Ivyo ni vyo nyene filozofiya y’ubwenge y’Umuco yari ivuga, cane cane Immanue
 Mu yandi majambo, avuga ati: Nitwavyiyumvira ubwacu, nitwazirikana nk’abantu bakuze bafise ivyiyumviro, kandi rero nitwagerageza kwifatanya n’amasano ari hagati y’ibintu, ntituzosubira gukenera ubukuru bwo mu vy’inyifato runtu bwo kutwigisha, nk’akarorero, ingeso nziza z’ukuri z’idini canke ingingo ngenderwako nyazo z’inyifato runtu mu vy’ubutegetsi no mu vy’ubutunzi.
 
 
-Ni umurongo w’ivyiyumviro utuma habaho isano n’ishure ry’ubutunzi ry’i Otirishiya, ryavukiye mu kirere c’ubwenge c’i Vienne imbere y’intambara ya mbere y’isi yose. Kuko muri ivyo ni ho abanyabwenge nka Carl Menger (1840-1921), Ludwig von Mises (1883-1979) na Friedrich Hayek (1899-1992) bashizeho umushinge w’ishure rishasha ry’ubutunzi bw’ubwigenge, ryari rigiye kuba umushinge w’ivyizerwa vy’abanyabwenge bo muri kazoza . Kandi ni co gituma Bitcoin yaremewe.
+Ni umurongo w’ivyiyumviro utuma habaho isano n’ishure ry’ubutunzi ry’i [Otirishiya](https://planb.academy/resources/glossary/austrian-school), ryavukiye mu kirere c’ubwenge c’i Vienne imbere y’intambara ya mbere y’isi yose. Kuko muri ivyo ni ho abanyabwenge nka Carl Menger (1840-1921), Ludwig von Mises (1883-1979) na Friedrich Hayek (1899-1992) bashizeho umushinge w’ishure rishasha ry’ubutunzi bw’ubwigenge, ryari rigiye kuba umushinge w’ivyizerwa vy’abanyabwenge bo muri kazoza . Kandi ni co gituma Bitcoin yaremewe.
 
 
 
@@ -1218,7 +1218,7 @@ Nk'umunya Spinoziste, Hayek asigura muri video ko "kubera ko ubwo bubasha butash
 
 
 
-Izo ni zo mpamvu za politike n’ubutunzi zashizwe imbere n’abahinga mu vy’ubuhinga bwa none ba mbere, Eric Hughes (1953-), mu “nyandiko yiwe ya Cypherpunk”, canke Timothy May (1951-2018) mu “nyandiko yiwe y’abanyagihugu b’abanyagihugu”, kandi Satoshi Nakamoto azosubira kuyifata.
+Izo ni zo mpamvu za politike n’ubutunzi zashizwe imbere n’abahinga mu vy’ubuhinga bwa none ba mbere, Eric Hughes (1953-), mu “nyandiko yiwe ya [Cypherpunk](https://planb.academy/resources/glossary/cypherpunks)”, canke Timothy May (1951-2018) mu “nyandiko yiwe y’abanyagihugu b’abanyagihugu”, kandi Satoshi Nakamoto azosubira kuyifata.
 
 
 
@@ -1226,7 +1226,7 @@ Izo ni zo mpamvu za politike n’ubutunzi zashizwe imbere n’abahinga mu vy’u
 
 
 
-Cane cane igihe yandika umutwe w’ikinyamakuru Times wo ku wa 3 Nzero 2009 mu gice c’amahera c’i Genesis c’i Blockchain Bitcoin kugira ngo yerekane iherezo ry’igihe kimwe, ica Keynes, n’intango y’ikindi gifise ivyipfuzo vy’ukwidegemvya, ivy’abanyagitugu n’ivy’ukwidegemvya.
+Cane cane igihe yandika umutwe w’ikinyamakuru Times wo ku wa 3 Nzero 2009 mu [gice c’amahera](https://planb.academy/resources/glossary/coinbase-transaction) c’i [Genesis](https://planb.academy/resources/glossary/genesis-block) c’i [Blockchain](https://planb.academy/resources/glossary/blockchain) Bitcoin kugira ngo yerekane iherezo ry’igihe kimwe, ica Keynes, n’intango y’ikindi gifise ivyipfuzo vy’ukwidegemvya, ivy’abanyagitugu n’ivy’ukwidegemvya.
 
 
 
@@ -1234,7 +1234,7 @@ Cane cane igihe yandika umutwe w’ikinyamakuru Times wo ku wa 3 Nzero 2009 mu g
 
 
 
-Igitabo cera casohowe ku wa 31 Gitugutu 2008 kirerekana ko Bitcoin ari uburyo bwo guhana agaciro kuri Internet ata muntu agira gatatu yizigirwa, ashingiye ku masezerano yegerejwe. Impinduka "ya Copernic" izotuma amaherezo abantu basubira kuronka ubushobozi bwo gukora, ni ukuvuga umwidegemvyo wabo, umwidegemvyo wabo wo gucuruza, uburenganzira bwabo bwo kuronka itunga no kwubahiriza ubuzima bwabo bwite.
+[Igitabo cera](https://planb.academy/resources/glossary/white-paper) casohowe ku wa 31 Gitugutu 2008 kirerekana ko Bitcoin ari uburyo bwo guhana agaciro kuri Internet ata muntu agira gatatu yizigirwa, ashingiye ku masezerano yegerejwe. Impinduka "ya Copernic" izotuma amaherezo abantu basubira kuronka ubushobozi bwo gukora, ni ukuvuga umwidegemvyo wabo, umwidegemvyo wabo wo gucuruza, uburenganzira bwabo bwo kuronka itunga no kwubahiriza ubuzima bwabo bwite.
 
 
 Kubera iki? Kuko Bitcoin ituma twikura muri ubwo buja mu buryo bwa Spinoza, kubera ivyiyumviro, kubera ururimi rwa Galilée rw’imibare. Kandi nk’uko Hayek abivuga, ata Leta ishobora kubirwanya. Kandi mu mahoro, ata guhatira canke guhindura abantu.

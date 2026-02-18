@@ -124,7 +124,7 @@ be-BOP consente di accettare pagamenti Bitcoin direttamente sulla Blockchain (On
 - compila i seguenti campi:
 
 | Campo                      | Descrizione                                                        | Esempio da Utilizzare                                               |
-|:--------------------------:|--------------------------------------------------------------------|---------------------------------------------------------------------|
+|----------------------------|--------------------------------------------------------------------|---------------------------------------------------------------------|
 | **Standard BIP**           | Il tipo di indirizzamento utilizzato                               | BIP84 (per gli indirizzi nel formato bech32 che iniziano con `bc1`) |
 | **Chiave Pubblica Estesa** | Tuo Zpub (o Xpub a seconda del portafoglio utilizzato)             | `zpub...` (estratto dal tuo portafoglio Bitcoin)                    |
 | **Derivation Index**       | L'indice iniziale per la generazione degli indirizzi               | `1`                                                                 |
@@ -136,592 +136,307 @@ be-BOP consente di accettare pagamenti Bitcoin direttamente sulla Blockchain (On
 
 ### Lightning Network
 
-
-
 be-BOP può anche accettare pagamenti istantanei Bitcoin grazie a Lightning Network. Attualmente sono disponibili due opzioni di configurazione:
-
-
 
 **Phoenixd**
 
-
-
-Andare al menu "Impostazioni di pagamento", cliccare su "Phoenixd"
-
-
+Vai al menu "Impostazioni di pagamento", clicca su "Phoenixd"
 
 ![phoenixd](assets/fr/006.webp)
 
-
-
-Dovrete quindi inserire **la password o l'autenticazione token** che vi connette alla vostra istanza di Phoenixd, un backend sviluppato da Acinq che vi permette di gestire i pagamenti Lightning con il vostro nodo, ma senza la complessità della gestione dei canali di pagamento.
-
-
+Devi quindi inserire **la password o il token di autenticazione** che ti connette alla tua istanza di Phoenixd, un backend sviluppato da Acinq che ti permette di gestire i pagamenti Lightning con il tuo nodo, ma senza la complessità della gestione dei canali di pagamento.
 
 **Swiss Bitcoin Pay**
 
-
-
-Se non volete gestire un nodo Lightning da soli, **Swiss Bitcoin Pay** è una soluzione pronta all'uso e facile da configurare, ideale per iniziare ad accettare pagamenti Lightning senza un'infrastruttura complessa.
-
-
+Se non vuoi gestire un nodo Lightning da solo, **Swiss Bitcoin Pay** è una soluzione pronta all'uso e facile da configurare, ideale per iniziare ad accettare pagamenti Lightning senza un'infrastruttura complessa.
 
 Fasi di configurazione:
+- Nel menu "Impostazioni di pagamento", clicca su "Swiss Bitcoin Pay"
+- Accedi al tuo conto Swiss Bitcoin Pay (o creaene uno se non ne hai già uno)
+- Inserisci la chiave API fornita da Swiss Bitcoin Pay, quindi fai clic su "Salva".
 
-
-
-
-
-- Nel menu "Impostazioni di pagamento", cliccare su "Swiss Bitcoin Pay"
-- Accedete al vostro conto Swiss Bitcoin Pay (o createne uno se non ne avete già uno).
-- Inserire la chiave API fornita da Swiss Bitcoin Pay, quindi fare clic su "Salva"
-
-
-
-Una volta configurato, be-BOP emetterà automaticamente le fatture generate Lightning per i vostri clienti, e riceverete i pagamenti direttamente sul vostro conto Swiss Bitcoin Pay. Questa soluzione è ideale per gli utenti che vogliono evitare la complessità tecnica di un nodo personale, accettando al contempo pagamenti veloci e a basso costo.
-
-
+Una volta configurato, be-BOP emetterà automaticamente le invoice Lightning generate per i tuoi clienti, e riceverai i pagamenti direttamente sul tuo conto Swiss Bitcoin Pay. Questa soluzione è ideale per gli utenti che vogliono evitare la complessità tecnica di un nodo personale, accettando al contempo pagamenti veloci e a basso costo.
 
 ![swissbtcpay](assets/fr/007.webp)
 
-
-
 ### PayPal
-
-
 
 Oltre a Bitcoin, be-BOP consente anche di accettare pagamenti in contanti tramite PayPal, una soluzione internazionale molto conosciuta e diffusa.
 
-
-
 Fasi di configurazione:
-
-
-
-
-
-- Andare al menu "Impostazioni di pagamento"
-- Cliccare su `PayPal
-- Nel vostro conto Paypal (sezione sviluppatori), inserite il `Client ID` e la `Secret`
-- Selezionare la valuta desiderata (ad es. **USD**, **EUR**, **XOF**, ecc.)
-- Fare clic su "Salva
-
-
+- Vai al menu "Impostazioni di pagamento"
+- Clicca su `PayPal
+- Nel tuo conto Paypal (sezione sviluppatori), inserisci il `Client ID` e la `Secret`
+- Seleziona la valuta desiderata (ad es. **USD**, **EUR**, **XOF**, ecc.)
+- Fai clic su "Salva".
 
 ![paypal](assets/fr/008.webp)
 
-
-
-**Nota: ** Per ottenere questi identificatori è necessario disporre di un conto PayPal business. È possibile ottenerli tramite il portale [developer](https://developer.paypal.com)
-
-
+**Nota**: per ottenere questi identificatori è necessario disporre di un conto PayPal business. È possibile ottenerli tramite il portale [developer](https://developer.paypal.com)
 
 ### SumUp
 
-
-
-Il software integra ora la soluzione di pagamento **SumUp**, che consente di accettare pagamenti con carta di credito in modo semplice, sicuro ed efficiente. Per beneficiare di questa funzionalità, è necessaria una configurazione iniziale. Ecco i passi da seguire, numerati per un'implementazione chiara e progressiva:
-
-
-
-
-
-- Iniziate inserendo la vostra **API Key**, una chiave riservata fornita da SumUp quando avete creato il vostro account di sviluppatore. Essa stabilisce una connessione sicura tra il vostro account SumUp e il software.
-- Compilare il campo `Codice commerciante` con il codice univoco che identifica la vostra attività all'interno della piattaforma SumUp. Questo codice è essenziale per associare le transazioni alla vostra attività.
-- Nel campo `Valuta`, scegliere la valuta principale utilizzata per le transazioni (ad esempio **EUR**, **USD**, **CDF**, ecc.).
-- Una volta compilati correttamente tutti i campi, fare clic sul pulsante "Salva" per salvare le impostazioni. Il sistema stabilirà quindi il collegamento con il vostro account SumUp e il vostro software sarà pronto ad accettare i pagamenti.
-
-
+Il software integra ora la soluzione di pagamento **SumUp**, che consente di accettare pagamenti con carta di credito in modo semplice, sicuro ed efficiente. Per beneficiare di questa funzionalità, è necessaria una configurazione iniziale. Ecco i passi da seguire, elencati per un'implementazione chiara e progressiva:
+- Iniziate inserendo la tua **API Key**, una chiave riservata fornita da SumUp quando hai creato il tuo account di sviluppatore. Questa stabilisce una connessione sicura tra il tuo account SumUp e il software.
+- Compila il campo `Codice commerciante` con il codice univoco che identifica la tua attività all'interno della piattaforma SumUp. Questo codice è essenziale per associare le transazioni alla tua attività.
+- Nel campo `Valuta`, scegli la valuta principale utilizzata per le transazioni (ad esempio **EUR**, **USD**, **CDF**, ecc.).
+- Una volta compilati correttamente tutti i campi, fai clic sul pulsante "Salva" per salvare le impostazioni. Il sistema stabilirà quindi il collegamento con il tuo account SumUp e il yuo software sarà pronto ad accettare i pagamenti.
 
 ![payment-sumup](assets/fr/009.webp)
 
-
-
 Dopo questa configurazione, l'integrazione con **SumUp** sarà attiva e operativa, consentendo di incassare rapidamente e di tenere traccia delle transazioni direttamente dal software.
 
-
-
-### Striscia
-
-
+### Stripe
 
 be-BOP offre anche un'integrazione completa con **Stripe**, una delle piattaforme di pagamento online più diffuse. Stripe consente di accettare pagamenti online tramite carta di credito, Wallet digitale e diversi altri metodi di pagamento. Ecco come attivarlo:
-
-
-
-
-
-- Inserire la **chiave segreta** fornita nella dashboard di Stripe.
-- Compilare il campo **chiave pubblica**, anch'esso fornito da Stripe.
-- Selezionare la **valuta principale**.
-- Salvare la configurazione, quindi fare clic su "Salva".
-
-
+- Inserisci la **chiave segreta** fornita nella dashboard di Stripe.
+- Compila il campo **chiave pubblica**, anch'esso fornito da Stripe.
+- Seleziona la **valuta principale**.
+- Salva la configurazione, quindi fai clic su "Salva".
 
 ![payment-stripe](assets/fr/010.webp)
 
-
-
 ⚠️ **Attenzione:** È essenziale conoscere il regime IVA applicabile alla propria attività (ad esempio: vendita con IVA nel paese del venditore, esenzione giustificata o vendita all'aliquota IVA del paese dell'acquirente) per configurare correttamente le opzioni di fatturazione in **be-BOP**.
-
-
 
 ## Configurazione della valuta
 
-
-
 **be-BOP** offre una gestione avanzata delle valute e si adatta ad ambienti multivaluta e a requisiti contabili specifici. Per garantire la coerenza delle operazioni finanziarie e dei rapporti, è essenziale configurare correttamente le diverse valute utilizzate nel sistema. Ecco i passi da seguire per questa configurazione:
-
-
-
-
-
-- Selezionare la **valuta principale** (`Main currency`)
-- Selezionare `Valuta secondaria
+- Seleziona la **valuta principale** (`Main currency`)
+- Seleziona **valuta secondaria**
 - Definire la **valuta di riferimento** (`valuta di riferimento del prezzo`)
-- Indicare "Valuta di contabilità
-
-
+- Indicare **valuta di contabilità**.
 
 Una volta configurate correttamente tutte le valute, il software assicura una conversione automatica e accurata delle transazioni in più valute, mantenendo una rigorosa coerenza contabile.
 
-
-
 ![settings-currencies](assets/fr/011.webp)
-
-
 
 ## Configurazione dell'accesso di recupero via e-mail o Nostr
 
-
-
-Sempre in `/admin/settings', tramite il modulo **ARM**, assicurarsi che l'account di superamministratore includa un **email Address** o un **recovery pub**, facilitando così la procedura se si dimentica la password.
-
-
+Sempre in `/admin/settings`, tramite il modulo **ARM**, assicurarsi che l'account di superamministratore includa un **indirizzo email** o un **recovery pub**, facilitando così la procedura se si dimentica la password.
 
 ![settings-users](assets/fr/012.webp)
 
 
-
 ## Impostazioni della lingua
 
-
-
 Il software offre una funzionalità multilingue per adattarsi a un pubblico internazionale e migliorare l'esperienza dell'utente. Per attivare la funzionalità multilingue, è importante configurare le lingue disponibili e definire una **lingua predefinita**.
-
-
 
 ![settings-languages](assets/fr/13.webp)
 
 
+## Interfaccia e configurazione dell'identità in be-BOP
 
-## Interface e configurazione dell'identità in be-BOP
+**be-BOP** fornisce ai designer tutti gli strumenti necessari per progettare un sito web. Il primo passo è aprire la sezione `Admin > Merch > Layout` nelle impostazioni. Iniziare a configurare la **barra superiore**, la **barra di navigazione** e il **piè di pagina**.
 
+### Top Bar (barra superiore)
 
-
-**be-BOP** fornisce ai designer tutti gli strumenti necessari per progettare un sito web. Il primo passo è aprire la sezione `Admin > Merch > Layout` nelle impostazioni. Iniziare a configurare la **barra superiore**, la **barra di navigazione** e il **piatto inferiore**.
-
-
-
-### Le Top Bar
-
-
-
-La configurazione **Top Bar** consente di personalizzare l'identità visiva del software visualizzando le informazioni chiave fin dalla prima riga del Interface. Questo rafforza il riconoscimento del marchio e fornisce un contesto chiaro agli utenti. Questo rafforza il riconoscimento del marchio e fornisce un contesto chiaro agli utenti.
-
-
+La configurazione della **Top Bar** consente di personalizzare l'identità visiva del software visualizzando le informazioni chiave fin dalla prima riga dell'interfaccia. Questo rafforza il riconoscimento del marchio e fornisce un contesto chiaro agli utenti.
 
 #### Fasi di configurazione:
+- Nel campo `Brand name`, inserisci il nome della tua azienda, organizzazione o prodotto. Questo nome apparirà nella parte superiore dell'interfaccia e rappresenterà la tua principale identità visiva.
+- **Indica il titolo del sito**: il titolo scelto deve riassumere lo scopo della piattaforma. Questo titolo può apparire nell'intestazione o nella scheda del browser.
+- **Aggiungi descrizione del sito web**: qui inserisci una breve descrizione dell'iniziativa. Questa descrizione aiuta a contestualizzare lo strumento per gli utenti e può essere utilizzata anche a fini SEO.
 
-
-
-
-
-- Nel campo `Brand name`, inserire il nome della propria azienda, organizzazione o prodotto. Questo nome apparirà nella parte superiore del Interface e rappresenterà la vostra principale identità visiva.
-- **Indicare il titolo del sito**: il titolo scelto deve riassumere lo scopo della piattaforma. Questo titolo può apparire nell'intestazione o nella scheda del browser.
-- **Aggiungi descrizione del sito web**: qui si inserisce una breve descrizione dell'iniziativa. Questa descrizione aiuta a contestualizzare lo strumento per gli utenti e può essere utilizzata anche a fini SEO.
-
-
-
-Una volta inserite queste informazioni, la **Barra superiore** mostrerà una presentazione chiara, professionale e coerente della vostra soluzione.
-
-
+Una volta inserite queste informazioni, la **Barra superiore** mostrerà una presentazione chiara, professionale e coerente della tua soluzione.
 
 #### Collegamenti nella barra superiore
 
-
-
-La sezione `Links` della barra superiore consente di aggiungere collegamenti a pagine importanti della vostra applicazione o a siti esterni. Questi collegamenti vengono visualizzati direttamente nella barra superiore, offrendo agli utenti un accesso rapido e strutturato.
-
-
+La sezione `Links` della barra superiore consente di aggiungere collegamenti a pagine importanti della tua applicazione o a siti esterni. Questi collegamenti vengono visualizzati direttamente nella barra superiore, offrendo agli utenti un accesso rapido e strutturato.
 
 #### Fasi di configurazione:
+- Inserisci il nome del collegamento (testo): nel campo `Testo`, inserisci il nome o l'etichetta del collegamento così come apparirà (ad esempio, Home, Contatti, Aiuto...).
+- Indica il link all'indirizzo (Url): nel campo `Url`, inserisci l**Indirizzo** completo della pagina di destinazione (interna o esterna).
+- **Aggiungi altri collegamenti, se necessario**: ogni riga di configurazione consente di aggiungere un collegamento supplementare utilizzando i campi `Text` e `Url`.
+- **Salva i link**: una volta inseriti tutti i link, fai clic sul pulsante "Aggiungi link alla barra superiore" per salvarli.
 
-
-
-
-
-- Inserire il nome del collegamento (testo): nel campo `Testo`, inserire il nome o l'etichetta del collegamento così come apparirà (ad esempio, Home, Contatti, Aiuto...).
-- Indicare il link Address (Url): nel campo `Url`, inserire il **Address** completo della pagina di destinazione (interna o esterna).
-- **Aggiungere altri collegamenti, se necessario**: ogni riga di configurazione consente di aggiungere un collegamento supplementare utilizzando i campi `Text` e `Url`.
-- **Salva i link**: una volta inseriti tutti i link, fare clic sul pulsante "Aggiungi link alla barra superiore" per salvarli.
-
-
-
-Questa configurazione vi permette di offrire una navigazione chiara, fluida e accessibile attraverso le diverse sezioni del vostro sito web o verso risorse complementari.
-
-
+Questa configurazione ti permette di offrire una navigazione chiara, fluida e accessibile attraverso le diverse sezioni del tuo sito web o verso risorse complementari.
 
 ![settings-topbar](assets/fr/014.webp)
 
+### Bar Nav (barra di navigazione)
 
-
-### Bar La Nav
-
-
-
-La sezione **Barra di navigazione** consente di configurare il menu di navigazione principale di be-BOP, solitamente situato sul lato o sulla parte superiore del Interface. Questo menu guida gli utenti alle varie pagine e funzioni dell'applicazione. Questo menu guida gli utenti alle varie pagine e funzioni dell'applicazione. La configurazione dei collegamenti è semplice e intuitiva. Ecco come funziona:
-
-
-
-
-
-- Inserire il nome del link (`Text`): nella riga di configurazione, iniziare a compilare il campo `Text`. Questo corrisponde al nome del collegamento visualizzato nella barra di navigazione (esempi: *Dashboard*, *Utenti*, *Impostazioni*...).
-- Inserire il Address del link (`Url`): accanto al campo `Text`, si trova il campo `Url`. In questo campo, inserire il Address della pagina a cui il link deve reindirizzare. Può trattarsi di un percorso interno o di un link a una pagina esterna.
-- **Aggiungere più collegamenti, se necessario**: sotto la prima riga, i nuovi campi `Text` e `Url` sono disponibili per aggiungere tutti i collegamenti necessari. Ogni riga rappresenta un link di navigazione aggiuntivo.
-- **Salva link**: una volta inseriti tutti i Elements, fare clic sul pulsante `Aggiungi link alla barra di navigazione` per salvare e visualizzare i risultati nella barra di navigazione.
-
-
+La sezione **Bar Nav** consente di configurare il menu di navigazione principale di be-BOP, solitamente situato sul lato o sulla parte superiore dell'interfaccia. Questo menu guida gli utenti alle varie pagine e funzioni dell'applicazione. La configurazione dei collegamenti è semplice e intuitiva. Ecco come funziona:
+- Inserisci il nome del link (`Text`): nella riga di configurazione, inizia a compilare il campo `Text`. Questo corrisponde al nome del collegamento visualizzato nella barra di navigazione (esempi: *Dashboard*, *Utenti*, *Impostazioni*...).
+- Inserisci l'indirizzo del link (`Url`): accanto al campo `Text`, si trova il campo `Url`. In questo campo, inserisci l'indirizzo della pagina a cui il link deve reindirizzare. Può trattarsi di un percorso interno o di un link a una pagina esterna.
+- **Aggiungi più collegamenti, se necessario**: sotto la prima riga, i nuovi campi `Text` e `Url` sono disponibili per aggiungere tutti i collegamenti necessari. Ogni riga rappresenta un link di navigazione aggiuntivo.
+- **Salva link**: una volta inseriti tutti gli elementi, fai clic sul pulsante `Aggiungi link alla barra di navigazione` per salvare e visualizzare i risultati nella barra di navigazione.
 
 Questa configurazione consente di strutturare in modo efficiente l'accesso alle diverse parti del software, migliorando l'ergonomia e l'esperienza dell'utente.
 
-
-
 ![navbar](assets/fr/015.webp)
 
-
-
-### Il piè di pagina
-
-
+### Footer (piè di pagina)
 
 La sezione **Footer** consente di personalizzare il piè di pagina del software, aggiungendo informazioni o collegamenti utili. Prima di configurare i collegamenti, è necessario attivare un'opzione specifica:
-
-
-
-
-
-- Abilita la visualizzazione dell'etichetta **"Powered by be-BOP"**: attivare il pulsante `Visualizza Powered by be-BOP` per visualizzare questa etichetta nel piè di pagina.
-- Inserire il nome del link (`Text`): compilare il campo `Text`, che corrisponde alla dicitura del link nel footer (esempi: *Terms*, *Privacy*, *Contact*...).
-- Indicare il link Address (`Url`): nel campo `Url`, inserire il **Address** della pagina di destinazione (interna o esterna).
-- **Aggiungere altri collegamenti se necessario**: utilizzare le righe aggiuntive per creare tutti i collegamenti desiderati.
-- **Salva link**: fare clic sul pulsante "Aggiungi link a piè di pagina" per salvare i link.
-
-
+- Abilita la visualizzazione dell'etichetta **"Powered by be-BOP"**: attiva il pulsante `Visualizza Powered by be-BOP` per visualizzare questa etichetta nel piè di pagina.
+- Inserisci il nome del link (`Text`): compila il campo `Text`, che corrisponde alla dicitura del link nel footer (esempi: *Terms*, *Privacy*, *Contact*...).
+- Indica il link dell'indirizzo (`Url`): nel campo `Url`, inserisci l'**Indirizzo** della pagina di destinazione (interna o esterna).
+- **Aggiungi altri collegamenti se necessario**: utilizza le righe aggiuntive per creare tutti i collegamenti desiderati.
+- **Salva il link**: fai clic sul pulsante "Aggiungi link a piè di pagina" per salvare i link.
 
 ![footer](assets/fr/016.webp)
 
-
-
 ### Personalizzazione visiva
 
-
-
-**⚠️ Non dimenticate di impostare i loghi per i temi chiari e scuri, così come la favicon, tramite** `Admin > Merch > Pictures`.
-
-
+**⚠️ Non dimenticare di impostare i loghi per i temi chiari e scuri, così come la favicon, tramite** `Admin > Merch > Pictures`.
 
 Ecco come personalizzare l'aspetto del sito:
 
-
-
-#### Vai alla sezione Immagini
-
-
+#### Vai alla sezione immagini
 
 Menu `Admin` > `Merch` > `Immagini`.
 
-
-
-#### Aggiungere una nuova immagine
-
-
+#### Aggiungi una nuova immagine
 
 Fare clic su "Nuova immagine".
 
+#### Seleziona un file locale
 
+Fai clic su "Scegli file", quindi seleziona un'immagine dal disco fisso.
 
-#### Selezionare un file locale
+#### Seleziona il file da importare
 
-
-
-Fare clic su "Scegli file", quindi selezionare un'immagine dal disco Hard.
-
-
-
-#### Selezionare il file da importare
-
-
-
-Fare doppio clic sull'immagine da importare (logo chiaro, logo scuro o favicon).
-
-
+Fai doppio clic sull'immagine da importare (logo chiaro, logo scuro o favicon).
 
 #### Denominazione dell'immagine
 
-
-
-Compilare il campo "Nome dell'immagine".
-
-
+Compila il campo "Nome dell'immagine".
 
 #### Aggiungi immagine
 
-
-
-Fare clic su "Aggiungi" per finalizzare l'importazione.
-
-
+Fai clic su "Aggiungi" per finalizzare l'importazione.
 
 ![pictures](assets/fr/017.webp)
 
-
-
 ### Impostazione dell'identità del venditore
-
-
 
 #### Impostazioni dell'identità
 
-
-
 Accessibile tramite `Admin > Identità` (o `Impostazioni > Identità`), questa sezione consente di configurare le informazioni amministrative e legali dell'azienda.
 
-
-
 #### Informazioni legali
-
-
-
-
-
 - **Ragione sociale**: nome ufficiale dell'azienda.
 - **Business ID**: identificativo legale o numero di registrazione (RCCM, SIRET...).
 
-
-
-#### Business Address
-
-
-
-
-
-- **Via**: Address postale (via, numero...).
+#### Indirizzo Business
+- **Via**: indirizzo postale (via, numero...).
 - **Paese**: paese.
 - **Stato**: provincia o regione.
 - **Città**: città.
 - **CAP**: codice postale.
 
-
-
 #### Informazioni di contatto
-
-
-
-
-
-- **Email**: email professionale Address.
+- **Email**: indirizzo email professionale.
 - **Telefono**: numero di telefono dell'azienda.
 
-
-
 #### Conto corrente bancario
-
-
-
-
-
 - **Nome del titolare del conto**: nome del titolare del conto.
-- **Titolare del conto Address**: Address del titolare.
-- **IBAN**: Numero di conto bancario internazionale.
+- **Indirizzo del titolare del conto**: indirizzo del titolare.
+- **IBAN**: numero di conto bancario internazionale.
 - **BIC**: Codice SWIFT/BIC.
-
-
 
 ![bank-account](assets/fr/019.webp)
 
-
-
 #### Fatturazione
 
-
-
-
-
-- Cliccare su `Compilare con le informazioni principali del negozio` per precompilare i dati.
+- Clicca su `Compilare con le informazioni principali del negozio` per precompilare i dati.
 - **Informazioni sull'emittente in alto a destra**: campo per le informazioni legali/fiscali visibili sulle fatture.
-- Fare clic su "Aggiorna" per salvare le modifiche.
+- Fie clic su "Aggiorna" per salvare le modifiche.
 
-
-
-**Nota: ** è possibile inserire ulteriori informazioni da visualizzare sul Invoice, in base alle proprie esigenze.
-
-
+**Nota**: è possibile inserire ulteriori informazioni da visualizzare sulla fattura, in base alle proprie esigenze.
 
 ![vat](assets/fr/019.webp)
 
-
-
 ![issuer-info](assets/fr/020.webp)
 
+#### Indirizzo del negozio fisico
 
-
-#### Negozio fisico Address
-
-
-
-Per chi ha un negozio fisico, aggiungere uno specifico Address completo in `Admin > Impostazioni > Identità` o in una sezione dedicata. In questo modo sarà possibile visualizzarlo sui documenti ufficiali e nel piè di pagina, se necessario.
-
-
+Per chi ha un negozio fisico, aggiungi uno specifico indirizzo completo in `Admin > Impostazioni > Identità` o in una sezione dedicata. In questo modo sarà possibile visualizzarlo sui documenti ufficiali e nel piè di pagina, se necessario.
 
 ![seller-id](assets/fr/021.webp)
 
 
-
 ## Gestione dei prodotti
-
-
 
 ### Creare un nuovo prodotto
 
-
-
-Andare su `Admin > Merch > Products` per aggiungere o modificare un prodotto. Compilate i seguenti campi:
-
-
+Vai su `Admin > Merch > Products` per aggiungere o modificare un prodotto. Compila i seguenti campi:
 
 #### Informazioni di base
-
-
-
-
-
 - **Nome del prodotto**: nome del prodotto (ad es. *T-shirt BOP in edizione limitata*).
 - **Slug**: Identificatore URL senza spazi (ad esempio, `tshirt-bop-edition-limitee`).
-- **Alias** *(opzionale)*: utile per aggiungere rapidamente al carrello un campo dedicato.
-
-
+- **Alias** _(opzionale)_: utile per aggiungere rapidamente al carrello un campo dedicato.
 
 ![product-config](assets/fr/028.webp)
 
-
-
 #### Prezzi
-
-
-
-
 
 - **Importo del prezzo**: prezzo del prodotto (ad esempio, `25,00`).
 - **Prezzo Valuta**: valuta (EUR, USD, BTC, ecc.).
 - **Prodotti speciali**:
   - questo è un prodotto gratuito.
-  - questo è un prodotto a pagamento.
-
-
+  - questo è un prodotto pagamento ad offerta libera.
 
 #### Opzioni di prodotto
 
-
-
-
-
 - Prodotto singolo (`standalone`): è possibile una sola aggiunta per ordine (ad es. donazione, biglietto d'ingresso).
 - **Prodotto con variazioni**:
-  - Non controllare "Standalone".
-  - Controllare `Il prodotto presenta leggere variazioni (nessuna differenza di stock)`.
+  - Non scegliere "Standalone".
+  - Scegli `Il prodotto presenta leggere variazioni (nessuna differenza di stock)`.
   - Aggiungi:
 - **Nome** (ad es. *Dimensione*),
 - **Valori** (ad esempio: S, M, L, XL),
 - **Differenze di prezzo** se applicabili (ad esempio: `+2 USD` per XL).
 
-
-
 ![product-details](assets/fr/029.webp)
-
 
 
 ## Gestione delle scorte
 
-
-
 ### Opzioni avanzate per la creazione di un prodotto (stock, consegna, biglietti, ecc.)
-
-
 
 #### Prodotto con scorte limitate
 
-
-
-Se il prodotto non è disponibile in quantità illimitate, selezionare `Il prodotto ha uno stock limitato`. Questo attiva il monitoraggio automatico delle quantità rimanenti. Una volta selezionata questa casella, appare un campo che indica le **scorte disponibili**.
-
-
+Se il prodotto non è disponibile in quantità illimitate, seleziona `Il prodotto ha uno stock limitato`. Questo attiva il monitoraggio automatico delle quantità rimanenti. Una volta selezionata questa casella, appare un campo che indica le **scorte disponibili**.
 
 Il sistema gestisce:
+- **Scorte riservate** → prodotti non ancora pagati in contenitori separati.
+- **Stock venduto** → prodotti già acquistati.
 
-
-
-
-
-- **Scorte riservate** → prodotti in cestini non ancora pagati
-- **Stock venduto** → prodotti già acquistati
-
-
-
-**Tempo di prenotazione del carrello**: Quando un cliente aggiunge un prodotto al suo carrello, questo viene "riservato" per un tempo limitato. È possibile modificare questo tempo in: `Admin > Config > Prenotazione carrello` (valore in minuti)
-
-
+**Tempo di prenotazione del carrello**: quando un cliente aggiunge un prodotto al suo carrello, questo viene "riservato" per un tempo limitato. È possibile modificare questo tempo in: `Admin > Config > Prenotazione carrello` (valore in minuti)
 
 #### Prodotto da consegnare?
 
-
-
-Selezionare `Il prodotto ha un componente fisico che sarà spedito al Address del cliente`. È utile per tutti i prodotti che devono essere inviati fisicamente (libri, magliette, ecc.)
-
-
+Selezionare `Il prodotto ha un componente fisico che sarà spedito all'indirizzo del cliente`. È utile per tutti i prodotti che devono essere inviati fisicamente (libri, magliette, ecc.)
 
 #### Altre opzioni
-
-
-
-
 
 - **Ticket**: spuntare se il prodotto è un biglietto per un evento
 - **Prenotazione**: controlla se si tratta di uno slot di prenotazione (ad esempio: sessione, appuntamento)
 
-
-
 ![product-options](assets/fr/030.webp)
-
-
 
 ### Impostazioni dell'azione (in basso)
 
-
-
 Questa sezione determina **dove** e **come** il prodotto può essere visualizzato e acquistato:
 
+| Piattaforma                  | Prodotto Visibile | Aggiungibile al Carrello |
+|------------------------------|-------------------|--------------------------|
+| Eshop (sito pubblico)        | ✔️                | ✔️                       |
+| Retail POS (punto vendita)   | ✔️                | ✔️                       |
+| Google Shopping              | ✔️                | ✔️                       |
+| Nostr-bot (vendita via bot)  | ✔️                | ✔️                       |
+
+Seleziona solo i canali che desideri utilizzare.
 
 
 
-| Piattaforma        | Prodotto Visibile | Aggiungibile al Carrello |
-|-------------------|------------------|----------------------|
-| Eshop (sito pubblico)        | ✔️              | ✔️                  |
-| Retail POS (punto vendita)| ✔️              | ✔️                  |
-| Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vendita via bot)  | ✔️              | ✔️                  |
 
-Selezionare solo i canali che si desidera utilizzare.
+
+
+
+
+
 
 
 

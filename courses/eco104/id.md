@@ -1392,6 +1392,7 @@ Dan terakhir…
 #### Perbandingan yang Adil
 
 Kami ingin memulai dengan mengatakan: **Semua mengonsumsi energi**, baik kita sadari atau tidak. Bahkan tindakan sederhana, seperti berlari bersama anjing Anda, memerlukan bahan bakar untuk diri Anda dan teman berbulu Anda. Baik Anda dan anjing Anda adalah konsumen energi.
+
 Sekarang, niat kami bukan untuk mengkritik industri lain atas konsumsi energi mereka karena, seperti yang telah dibahas di atas, penggunaan energi menandakan nilai yang ditemukan orang dalam layanan atau produk yang disediakan. Namun, sangat penting untuk menempatkan penggunaan energi Bitcoin dalam perspektif. Pertimbangkan perbandingan berikut ini:
 
 - Mesin cuci mengonsumsi [18%](https://energypedia.info/wiki/The_Overall_Worldwide_Saving_Potential_from_Domestic_Washing_Machines#:~:text=Today%2C%20840%20million%20domestic%20washing,about%2019%20km3%20of%20water.) lebih banyak energi daripada Bitcoin.
@@ -1420,7 +1421,7 @@ Mari kita sekarang beralih perhatian kita ke kesalahpahaman umum seputar stablec
 ### Kesalahpahaman Stablecoin
 
 1. Kebanyakan stablecoin tidak sepenuhnya didukung oleh cadangan
-2. Bahkan stablecoin yang paling stabil sekalipun bisa terlepas dari peg
+2. Bahkan stablecoin yang paling stabil sekalipun mengalami depegging.
 3. Mengingat kebanyakan stablecoin bersifat terpusat, penerbit dapat membekukan dana Anda
 4. Anda akan kehilangan dana jika rantai yang mendasarinya turun
 5. Baik Bitcoin maupun stablecoin menguntungkan orang kaya di negara berkembang

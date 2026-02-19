@@ -1,5 +1,5 @@
 ---
-name: Giới thiệu về mining Bitcoin
+name: Giới thiệu về Bitcoin mining
 goal: Hiểu về Bitcoin, mining và proof-of-work một cách có hệ thống
 objectives: 
 

@@ -76,7 +76,7 @@ En wat als de sleutel tot het begrijpen van de huidige economie in een eeuwenoud
 ### Hoe geld wordt gecreëerd
 
 
-In ons huidige monetaire systeem wordt geld voornamelijk gecreëerd door een bankpraktijk die bekend staat als "fractioneel reservebankieren" Deze term betekent in wezen dat banken niet verplicht zijn om evenveel reserves aan te houden als ze aan deposito's ontvangen. Bijgevolg kunnen ze nieuwe koopkracht creëren wanneer ze leningen verstrekken en, omgekeerd, koopkracht verminderen wanneer klanten hun leningen terugbetalen.
+In ons huidige monetaire systeem wordt geld voornamelijk gecreëerd door een bankpraktijk die bekend staat als "[fractioneel reservebankieren](https://planb.academy/resources/glossary/fractional-reserves)" Deze term betekent in wezen dat banken niet verplicht zijn om evenveel reserves aan te houden als ze aan deposito's ontvangen. Bijgevolg kunnen ze nieuwe koopkracht creëren wanneer ze leningen verstrekken en, omgekeerd, koopkracht verminderen wanneer klanten hun leningen terugbetalen.
 
 
 Als je bijvoorbeeld je plaatselijke bank benadert om een hypotheek af te sluiten voor de aankoop van een huis, dan ontstaat het geld dat de bank je leent als een boekhoudkundige boeking. In de boekhouding geven we het nettovermogen van een individu meestal weer met een balans, die twee kanten heeft: de activazijde, met alle bezittingen, financiële contracten, inventaris of andere vormen van rijkdom in bezit, en de passivazijde, die de bron van fondsen toont die zijn gebruikt om het kapitaal te creëren dat aan de activazijde staat. Het verschil tussen activa en passiva wordt "eigen vermogen" genoemd en kan worden gezien als het nettovermogen van de entiteit.
@@ -100,7 +100,7 @@ Figuur 1: Geldschepping als boekingen
 > Henry Ford
 
 
-Dit proces stelt banken in staat om alle transacties te registreren, inclusief overboekingen, creditcardaankopen en cheques, gedurende een bepaalde periode (meestal een week of een maand). Vervolgens verrekenen ze deze transacties met elkaar met behulp van bankreserves, een andere vorm van fiatvaluta die nooit door het publiek wordt gebruikt. Bankreserves worden aangehouden bij de centrale bank op een speciale rekening die alleen toegankelijk is voor banken en financiële instellingen met een vergunning.
+Dit proces stelt banken in staat om alle transacties te registreren, inclusief overboekingen, creditcardaankopen en cheques, gedurende een bepaalde periode (meestal een week of een maand). Vervolgens verrekenen ze deze transacties met elkaar met behulp van bankreserves, een andere vorm van [fiatvaluta](https://planb.academy/resources/glossary/fiat) die nooit door het publiek wordt gebruikt. Bankreserves worden aangehouden bij de centrale bank op een speciale rekening die alleen toegankelijk is voor banken en financiële instellingen met een vergunning.
 
 
 ### Instabiliteit van Fractional Reserve Banking en kredietverstrekker in laatste instantie
@@ -175,7 +175,7 @@ Een ander onbedoeld gevolg van ZIRP is dat het overheden aanmoedigt om veel uit 
 Figuur 6: Publieke en private schuld als % van het BBP (wereldwijd, gewogen naar BBP per land) / Bron IMF
 
 
-Nu de inflatie toeneemt als gevolg van de aanzienlijke geldcreatie in reactie op de COVID-gerelateerde lockdowns, verhogen centrale bankiers de beleidsrente in een poging de inflatie te beteugelen. Dit vormt echter een grote uitdaging voor het hele systeem. Banken hebben meer schulden dan ooit, overheden hebben historisch hoge schuldniveaus, de economische groei is traag, tekorten lopen op en consumenten, die worstelen met stijgende prijzen voor essentiële goederen, hebben moeite om de eindjes aan elkaar te knopen. Om de inflatie onder controle te krijgen zouden de rentetarieven moeten worden verhoogd tot een niveau dat regeringen failliet zou kunnen laten gaan, terwijl banken het risico lopen spaarders te verliezen omdat particulieren hun spaargeld uitgeven aan steeds duurdere eerste levensbehoeften of hun heil zoeken in Hard activa en geldmarktfondsen om zich in te dekken tegen inflatie.
+Nu de [inflatie](https://planb.academy/resources/glossary/inflation) toeneemt als gevolg van de aanzienlijke geldcreatie in reactie op de COVID-gerelateerde lockdowns, verhogen centrale bankiers de beleidsrente in een poging de inflatie te beteugelen. Dit vormt echter een grote uitdaging voor het hele systeem. Banken hebben meer schulden dan ooit, overheden hebben historisch hoge schuldniveaus, de economische groei is traag, tekorten lopen op en consumenten, die worstelen met stijgende prijzen voor essentiële goederen, hebben moeite om de eindjes aan elkaar te knopen. Om de inflatie onder controle te krijgen zouden de rentetarieven moeten worden verhoogd tot een niveau dat regeringen failliet zou kunnen laten gaan, terwijl banken het risico lopen spaarders te verliezen omdat particulieren hun spaargeld uitgeven aan steeds duurdere eerste levensbehoeften of hun heil zoeken in Hard activa en geldmarktfondsen om zich in te dekken tegen inflatie.
 
 
 ### Conclusie
@@ -190,7 +190,7 @@ Nu de inflatie toeneemt als gevolg van de aanzienlijke geldcreatie in reactie op
 In wezen staat ons systeem voor grote uitdagingen en Bitcoin komt naar voren als het enige geloofwaardige alternatief. Bitcoin alleen kan de problemen binnen ons monetaire systeem echter niet oplossen. Bovenal hebben we onder de Bitcoin enthousiastelingen mensen nodig die de economische basisprincipes begrijpen, zodat een breder bewustzijn en economisch gezond verstand ons wegleiden van het bouwen van nog een fragiel financieel fundament voor onze beschaving. Het primaire doel van deze cursus is om nieuwe Bitcoin enthousiastelingen te onderwijzen in gezonde economische principes.
 
 
-Om dit doel te bereiken, zullen we de fundamentele principes van de "Oostenrijkse economie" uitleggen, een economische denkschool met een methodologische traditie die teruggaat tot de 16e eeuw, die inzichten verschaft in menselijk handelen onder economische beperkingen. Met deze inleiding begrijp je nu de essentie van geldschepping en de huidige staat van ons financiële en monetaire systeem.
+Om dit doel te bereiken, zullen we de fundamentele principes van de "[Oostenrijkse economie](https://planb.academy/resources/glossary/austrian-school)" uitleggen, een economische denkschool met een methodologische traditie die teruggaat tot de 16e eeuw, die inzichten verschaft in menselijk handelen onder economische beperkingen. Met deze inleiding begrijp je nu de essentie van geldschepping en de huidige staat van ons financiële en monetaire systeem.
 
 
 In het volgende hoofdstuk verdiepen we ons in de hoeksteen van elke economische denkschool: de waardetheorie. In de daaropvolgende hoofdstukken gaan we dieper in op geld als sociale instelling, de theorie van kapitaal en de conjunctuurcyclus, de uitdaging van economische berekening en een kort overzicht van de geschiedenis en methodologie van de Oostenrijkse economische school.

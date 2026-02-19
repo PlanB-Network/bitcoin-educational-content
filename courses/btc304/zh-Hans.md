@@ -193,7 +193,7 @@ Bitcoin 社区往往追求更广泛的目标，特别是关于公众教育的目
 4.揭穿一些公众人物和媒体误导性或毫无根据的说法；
 
 
-5.Bitcoin 与其他加密货币的根本区别；
+5.Bitcoin 与其他[加密货币](https://planb.academy/resources/glossary/cryptocurrency)的根本区别；
 
 
 通过建立未来的第一批 "堡垒"，**全球的 Bitcoin 社区成为抵御虚假信息和审查的堡垒，同时也为学习 Bitcoin 的基本原理**了沃土。它们为新来者，甚至是怀疑论者，提供探索 Bitcoin 真正潜力所需的资源和联系。
@@ -302,7 +302,7 @@ Bitcoin 是去中心化的，因此任何人自然都可以随心所欲。
 从这个意义上说，一个简单的 "经验法则 "可以帮到你：如果在你居住的 30-45 分钟内没有活跃的 Bitcoin 社区，那就值得开始一个新的社区。尽管如此，您还是可以按照自己的意愿行事。
 
 
-当然，如果一个老社区已经 "进化 "到不再符合你的价值观的方向，而你又没有时间或动力去 "橙色填充 "它们，那么创建自己的 Fork 始终是一个选择。
+当然，如果一个老社区已经 "进化 "到不再符合你的价值观的方向，而你又没有时间或动力去 "[橙色填充](https://planb.academy/resources/glossary/orange-pill) "它们，那么创建自己的 [Fork](https://planb.academy/resources/glossary/fork) 始终是一个选择。
 
 
 
@@ -1391,7 +1391,7 @@ Twitter 非常容易使用，要改善隐私，你需要调整一些设置。
 
 
 
-- [Btcmap.org](https://btcmap.org/)**，这是一个每天更新两张地图的网站： **[接受 Bitcoin 的企业世界地图](https://btcmap.org/map)** 和**[世界社区地图](https://btcmap.org/communities/map)**。许多比特币使用者都会定期查看这些地图，无论是旅行还是日常生活，以便结识新朋友或找到Sats的消费场所。Btcmap 是全球参考地图，在这里列出你的社区对提高知名度至关重要**。
+- [Btcmap.org](https://btcmap.org/)**，这是一个每天更新两张地图的网站： **[接受 Bitcoin 的企业世界地图](https://btcmap.org/map)** 和**[世界社区地图](https://btcmap.org/communities/map)**。许多比特币使用者都会定期查看这些地图，无论是旅行还是日常生活，以便结识新朋友或找到[Sats](https://planb.academy/resources/glossary/satoshi-sat)的消费场所。Btcmap 是全球参考地图，在这里列出你的社区对提高知名度至关重要**。
 - [BitcoinerEvents](https://www.bitcoinerevents.com/)，一个由比特币玩家为比特币玩家创建的网站。 **它可以让你发布你的社区即将举行的活动**。不过，在法国，这个网站还没有被广泛使用。
 - 根据您所在的国家，当地可能还有其他活动。例如，法国有一个 [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/)，每月**列出数十个 Bitcoin 活动**。因此，如果您还没有在 Twitter 上关注他们或联系他们，分享有关您所在社区和活动的信息，现在正是时候！**为了帮助更新法国的活动日历，如果所有法国的 Bitcoin 社区都能养成以下习惯，那将会非常棒：**
     - 在 Twitter 上提及 @bitcoinpointfr 的每个新社区活动
@@ -1936,7 +1936,7 @@ Twitter 非常容易使用，要改善隐私，你需要调整一些设置。
 您可以轻松设立的另一个项目是**在您的聚会**创建一个图书馆。
 
 
-您可以邀请希望分享阅读材料的与会者携带一本与 Bitcoin 相关的书籍。如果参加聚会的其他人想借阅这本书，可以通过 "闪电 "向 Exchange 的所有者安排借阅，但需要支付押金，例如 21000 萨托希。
+您可以邀请希望分享阅读材料的与会者携带一本与 Bitcoin 相关的书籍。如果参加聚会的其他人想借阅这本书，可以通过 "[闪电](https://planb.academy/resources/glossary/lightning-network) "向 Exchange 的所有者安排借阅，但需要支付押金，例如 21000 萨托希。
 
 
 对所有者来说，这笔押金有助于弥补潜在的损失或失窃。对借款人来说，这也是一种激励，鼓励他们在未来的聚会上再来取回押金。

@@ -806,7 +806,7 @@ O estudo sistemático das leis econômicas começa na Alta Idade Média. Os prim
 
 ![image](assets/pt/049.webp)
 
-No coração de sua análise monetária está o problema das "mutações" do dinheiro, isto é, alterações no conteúdo metálico das moedas e sua denominação. Essas alterações ocorrem desde o amanhecer dos tempos e estão bem documentadas para a Antiguidade e a Idade Média. Seu efeito mais visível é mudar o poder de compra da unidade monetária, especialmente para diminuí-lo. Esta é uma forma primitiva de inflação que Oresme claramente condena como um mal.
+No coração de sua análise monetária está o problema das "mutações" do dinheiro, isto é, alterações no conteúdo metálico das moedas e sua denominação. Essas alterações ocorrem desde o amanhecer dos tempos e estão bem documentadas para a Antiguidade e a Idade Média. Seu efeito mais visível é mudar o poder de compra da unidade monetária, especialmente para diminuí-lo. Esta é uma forma primitiva de [inflação](https://planb.academy/resources/glossary/inflation) que Oresme claramente condena como um mal.
 
 Oresme imediatamente levanta uma questão central: a inflação é benéfica para a comunidade? Ele responde negativamente, argumentando que a inflação não torna o dinheiro mais ou menos útil para as trocas. A economia pode funcionar bem independentemente do nível de preços, e assim, independentemente da oferta nominal de dinheiro.
 Mas se esse é o caso, outra questão obviamente surge: por que existem alterações na moeda? E, em particular, por que buscar aumentar a oferta de dinheiro? Oresme responde que essas alterações não têm as mesmas consequências para diferentes membros da comunidade. Elas beneficiam certas pessoas em detrimento de outras. Os vencedores das alterações monetárias têm um interesse material em implementá-las. Geralmente, esses vencedores são os homens no poder. Oresme escreve:
@@ -975,7 +975,7 @@ Turgot é um apóstolo do direito natural, que ele também chama de "sistema de 
 
 Aqui, Turgot antecipa em grande parte o argumento de Mises e Hayek sobre a impossibilidade de qualquer cálculo econômico em um sistema econômico socialista.
 
-Dedicando um capítulo ao "Brilho de Turgot", Murray Rothbard, em sua história econômica de uma perspectiva austríaca, enfatiza que "a influência de Turgot no pensamento econômico subsequente foi seriamente restrita (...) pelo mito subsequente de que Adam Smith foi o fundador da economia política." E ele acrescenta, "foi no francês J.B. Say, oficialmente um seguidor de Smith, que Turgot teve a maior influência, particularmente sua teoria do valor de utilidade."
+Dedicando um capítulo ao "Brilho de Turgot", Murray Rothbard, em sua história econômica de uma perspectiva [austríaca](https://planb.academy/resources/glossary/austrian-school), enfatiza que "a influência de Turgot no pensamento econômico subsequente foi seriamente restrita (...) pelo mito subsequente de que Adam Smith foi o fundador da economia política." E ele acrescenta, "foi no francês J.B. Say, oficialmente um seguidor de Smith, que Turgot teve a maior influência, particularmente sua teoria do valor de utilidade."
 
 ### A Obra-prima de Condillac
 
@@ -1513,7 +1513,7 @@ Ele escreve:
 Para Hayek, a instabilidade passada da economia de mercado resulta do fato de que o regulador mais importante dos mecanismos de mercado, a saber, o dinheiro, não poderia ele mesmo ser o produto de um processo de mercado.
 
 ![image](assets/pt/101.webp)
-Hayek acreditava que um mercado livre de moedas privadas levaria a uma maior estabilidade monetária. Quase 50 anos depois, uma criptomoeda como o Bitcoin incorpora a visão competitiva de Hayek ao oferecer uma alternativa descentralizada ao sistema monopolista dos bancos centrais. O Bitcoin, com seu limite de emissão de 21 milhões de unidades, é uma garantia contra a inflação e a arbitrariedade dos reguladores.
+Hayek acreditava que um mercado livre de moedas privadas levaria a uma maior estabilidade monetária. Quase 50 anos depois, uma [criptomoeda](https://planb.academy/resources/glossary/cryptocurrency) como o Bitcoin incorpora a visão competitiva de Hayek ao oferecer uma alternativa descentralizada ao sistema monopolista dos bancos centrais. O Bitcoin, com seu limite de emissão de 21 milhões de unidades, é uma garantia contra a inflação e a arbitrariedade dos reguladores.
 
 
 

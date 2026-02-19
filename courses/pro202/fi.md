@@ -92,7 +92,7 @@ Kuten jokaisella Plan ₿ Academy:n kurssilla, loppuosassa on arviointi, jonka t
 ### Bitcoin Ohjelmoinnin perusteet: Matemaattiset perusrakenteet
 
 
-Tällä kurssilla tiivistetään Bitcoin:n salausjärjestelmien taustalla oleva olennainen matematiikka erittäin käytännönläheiseksi työtavaksi. Käsitteet selitetään, havainnollistetaan esimerkkien avulla ja toteutetaan sitten Jupyter Notebookissa. Johtoajatus on yksinkertainen: kryptografisen primitiivin ymmärtää kunnolla vasta, kun se on koodattu. Kahden päivän aikana opiskelijat generate-testiverkon osoitteita, rakentavat ja lähettävät transaktioita ja ovat lopulta vuorovaikutuksessa verkon kanssa ilman lohko-etsintäohjelmia. Kaikki tämä edellyttää vankkaa pohjaa äärellisistä kentistä ja elliptisistä käyristä.
+Tällä kurssilla tiivistetään Bitcoin:n salausjärjestelmien taustalla oleva olennainen matematiikka erittäin käytännönläheiseksi työtavaksi. Käsitteet selitetään, havainnollistetaan esimerkkien avulla ja toteutetaan sitten Jupyter Notebookissa. Johtoajatus on yksinkertainen: kryptografisen primitiivin ymmärtää kunnolla vasta, kun se on koodattu. Kahden päivän aikana opiskelijat generate-testiverkon osoitteita, rakentavat ja lähettävät [transaktioita](https://planb.academy/resources/glossary/transaction-tx) ja ovat lopulta vuorovaikutuksessa verkon kanssa ilman lohko-etsintäohjelmia. Kaikki tämä edellyttää vankkaa pohjaa äärellisistä kentistä ja elliptisistä käyristä.
 
 
 ### Äärelliset kentät: Kryptografian aritmeettinen moottori
@@ -103,7 +103,7 @@ Tällä kurssilla tiivistetään Bitcoin:n salausjärjestelmien taustalla oleva 
 
 #### Multiplikatiivinen käyttäytyminen
 
-Kun mikä tahansa nollasta poikkeava alkio k kerrotaan kaikilla alkulukukentän alkioilla, saadaan aikaan kentän permutaatio. Tämä ominaisuus takaa yhdenmukaisuuden ja estää rakenteelliset heikkoudet, minkä vuoksi prime-kentät soveltuvat erinomaisesti turvalliseen avainten tuottamiseen ja digitaalisiin allekirjoituksiin.
+Kun mikä tahansa nollasta poikkeava alkio k kerrotaan kaikilla alkulukukentän alkioilla, saadaan aikaan kentän permutaatio. Tämä ominaisuus takaa yhdenmukaisuuden ja estää rakenteelliset heikkoudet, minkä vuoksi prime-kentät soveltuvat erinomaisesti turvalliseen avainten tuottamiseen ja [digitaalisiin allekirjoituksiin](https://planb.academy/resources/glossary/digital-signature).
 
 
 #### Jakaminen ja Fermat'n pieni lause
@@ -112,7 +112,7 @@ Jakaminen toteutetaan multiplikatiivisten käänteislukujen avulla. Fermat'n pie
 
 n^(p-1) ≡ 1 (mod p),
 
-joten käänteisluku on n^(p-2). Python tukee tätä suoraan komennolla `pow(n, -1, p)`. Nämä operaatiot esiintyvät jatkuvasti ECDSA:n ja Bitcoin:n taustalla olevissa kryptografisissa rutiineissa.
+joten käänteisluku on n^(p-2). Python tukee tätä suoraan komennolla `pow(n, -1, p)`. Nämä operaatiot esiintyvät jatkuvasti [ECDSA](https://planb.academy/resources/glossary/ecdsa):n ja Bitcoin:n taustalla olevissa kryptografisissa rutiineissa.
 
 
 ### Elliptiset käyrät: Epälineaariset rakenteet julkisen avaimen turvallisuuteen
@@ -149,13 +149,13 @@ Piste sijaitsee äärellisen kentän elliptisellä käyrällä, jos sen koordina
 
 #### Ryhmän ominaisuudet ja pisteiden lisääminen
 
-Elliptisen käyrän pisteet muodostavat matemaattisen ryhmän yhteenlaskussa. Ryhmä täyttää sulkeutuneisuuden, assosiatiivisuuden, identiteetin (piste äärettömyydessä) ja inversiot (heijastus x-akselin yli). Geometriset konstruktiot vahvistavat nämä ominaisuudet ja tekevät skalaarisesta kertolaskusta (P lisätään itseensä toistuvasti) hyvin määritellyn. Nämä ryhmäsäännöt mahdollistavat elliptisten käyrien kryptografian ja varmistavat johdonmukaisen, ennustettavan käyttäytymisen toistuvissa pisteoperaatioissa.
+Elliptisen käyrän pisteet muodostavat matemaattisen ryhmän yhteenlaskussa. Ryhmä täyttää sulkeutuneisuuden, assosiatiivisuuden, identiteetin (piste äärettömyydessä) ja inversiot (heijastus x-akselin yli). Geometriset konstruktiot vahvistavat nämä ominaisuudet ja tekevät skalaarisesta kertolaskusta (P lisätään itseensä toistuvasti) hyvin määritellyn. Nämä ryhmäsäännöt mahdollistavat elliptisten käyrien [kryptografian](https://planb.academy/resources/glossary/cryptography) ja varmistavat johdonmukaisen, ennustettavan käyttäytymisen toistuvissa pisteoperaatioissa.
 
 
 ### Sykliset ryhmät ja diskreetin logaritmin ongelma
 
 
-Kun valitsemme generaattoripisteen G käyrällä, voimme generate:n avulla muodostaa syklisen ryhmän: G, 2G, 3G, ..., nG = 0. Pisteet näyttävät epälineaarisilta ja arvaamattomilta, vaikka ne olisi generoitu peräkkäin. Tämä arvaamattomuus luo perustan diskreetin logaritmin ongelmalle: P = sG:n laskeminen on helppoa, mutta s:n määrittäminen P:stä on laskennallisesti mahdotonta suurille ryhmille. Tämä yksisuuntainen funktio tekee julkisen avaimen salauksesta turvallisen. Asteikot (yksityiset avaimet) kirjoitetaan pienillä kirjaimilla ja pisteet (julkiset avaimet) isoilla kirjaimilla.
+Kun valitsemme generaattoripisteen G käyrällä, voimme generate:n avulla muodostaa syklisen ryhmän: G, 2G, 3G, ..., nG = 0. Pisteet näyttävät epälineaarisilta ja arvaamattomilta, vaikka ne olisi generoitu peräkkäin. Tämä arvaamattomuus luo perustan diskreetin logaritmin ongelmalle: P = sG:n laskeminen on helppoa, mutta s:n määrittäminen P:stä on laskennallisesti mahdotonta suurille ryhmille. Tämä yksisuuntainen funktio tekee julkisen avaimen salauksesta turvallisen. Asteikot ([yksityiset avaimet](https://planb.academy/resources/glossary/private-key)) kirjoitetaan pienillä kirjaimilla ja pisteet ([julkiset avaimet](https://planb.academy/resources/glossary/public-key)) isoilla kirjaimilla.
 
 
 #### Tehokas skalaarikertolasku
@@ -178,7 +178,7 @@ Yksityinen avain on satunnainen skalaari s; julkinen avain on P = sG. Koska disk
 #### Bitcoin Address Luominen
 
 
-Bitcoin-osoitteet ovat julkisten avainten hasheja, eivät itse avaimia. generate-osoitteen saamiseksi julkinen avain sarjallistetaan SEC-muodossa, lasketaan hash160 (SHA-256, sitten RIPEMD-160), lisätään verkko-etuliite (0x00 mainnet:lle, 0x6F testnetille), lasketaan tarkistussumma käyttämällä kaksinkertaista SHA-256:ta, lisätään neljä ensimmäistä tarkistussumman tavua ja koodataan tulos Base58:lla. Tämä koodaus poistaa moniselitteiset merkit ja sisältää tarkistussumman kirjoitusvirheiden välttämiseksi. Monivaiheinen putki kätkee julkisen avaimen, kunnes käytetään, lisää verkon tunnisteen ja varmistaa ihmisen luettavissa olevat, virheitä kestävät osoitteet.
+Bitcoin-osoitteet ovat julkisten avainten hasheja, eivät itse avaimia. generate-osoitteen saamiseksi julkinen avain sarjallistetaan SEC-muodossa, lasketaan hash160 ([SHA-256](https://planb.academy/resources/glossary/sha256), sitten RIPEMD-160), lisätään verkko-etuliite (0x00 mainnet:lle, 0x6F testnetille), lasketaan tarkistussumma käyttämällä kaksinkertaista SHA-256:ta, lisätään neljä ensimmäistä tarkistussumman tavua ja koodataan tulos Base58:lla. Tämä koodaus poistaa moniselitteiset merkit ja sisältää tarkistussumman kirjoitusvirheiden välttämiseksi. Monivaiheinen putki kätkee julkisen avaimen, kunnes käytetään, lisää verkon tunnisteen ja varmistaa ihmisen luettavissa olevat, virheitä kestävät osoitteet.
 
 
 # Bitcoin-transaktion sisäiset toiminnot
@@ -212,13 +212,13 @@ Bitcoin koodaa ECDSA-allekirjoitukset DER-muodossa:
 - 0x02 + pituus + S tavua
 
 
-Tämä lisää yleiskustannuksia, sillä 64 tavun allekirjoitus kasvaa ~71-72 tavuun. Taproot poistaa tämän tehottomuuden ottamalla käyttöön kiinteän kokoiset Schnorr-allekirjoitukset.
+Tämä lisää yleiskustannuksia, sillä 64 tavun allekirjoitus kasvaa ~71-72 tavuun. [Taproot](https://planb.academy/resources/glossary/taproot) poistaa tämän tehottomuuden ottamalla käyttöön kiinteän kokoiset [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol)-allekirjoitukset.
 
 
 ### Allekirjoitussitoumukset ja allekirjoitusprosessi
 
 
-ECDSA-allekirjoitukset perustuvat sitoutumisyhtälöön: UG + VP = KG. Allekirjoittaja valitsee nollasta poikkeavat U- ja V-arvot sekä satunnaisen nonce-koodin K, jolla hän todistaa tietävänsä yksityisen avaimen paljastamatta sitä. Viesti hakataan Z:hen, luodaan satunnainen K, R on KG:n x-koordinaatti ja S = (Z + RE)/K. Allekirjoitus on pari (R, S). Turvallisuus riippuu ratkaisevasti siitä, että käytetään ainutlaatuista, arvaamatonta K:ta - jos K:ta käytetään uudelleen tai se vuotaa, yksityinen avain on vaarassa. Nykyaikaisissa toteutuksissa käytetään determinististä K:n generointia (RFC 6979), jotta vältytään RNG:n virheiltä.
+ECDSA-allekirjoitukset perustuvat sitoutumisyhtälöön: UG + VP = KG. Allekirjoittaja valitsee nollasta poikkeavat U- ja V-arvot sekä satunnaisen [nonce](https://planb.academy/resources/glossary/nonce)-koodin K, jolla hän todistaa tietävänsä yksityisen avaimen paljastamatta sitä. Viesti hakataan Z:hen, luodaan satunnainen K, R on KG:n x-koordinaatti ja S = (Z + RE)/K. Allekirjoitus on pari (R, S). Turvallisuus riippuu ratkaisevasti siitä, että käytetään ainutlaatuista, arvaamatonta K:ta - jos K:ta käytetään uudelleen tai se vuotaa, yksityinen avain on vaarassa. Nykyaikaisissa toteutuksissa käytetään determinististä K:n generointia (RFC 6979), jotta vältytään RNG:n virheiltä.
 
 
 #### Allekirjoituksen todentaminen
@@ -245,7 +245,7 @@ Bitcoin-tapahtuma koostuu seuraavista osista:
 - locktime (4 tavua)
 
 
-Sisäänmenot viittaavat edellisiin UTXO-operaatioihin niiden tapahtumahashin ja lähtöindeksin avulla, ja ne sisältävät lukituksen avausskriptin (scriptSig) ja sekvenssinumeron, jota käytetään aikalukituksissa tai RBF:ssä. Tuotokset määrittelevät summan (8 tavua) ja lukitusskriptin (scriptPubKey), jotka määrittelevät käyttöehdot. Bitcoin-osoitteet ovat näiden skriptien esityksiä.
+Sisäänmenot viittaavat edellisiin [UTXO](https://planb.academy/resources/glossary/utxo)-operaatioihin niiden tapahtumahashin ja lähtöindeksin avulla, ja ne sisältävät lukituksen avausskriptin (scriptSig) ja sekvenssinumeron, jota käytetään aikalukituksissa tai RBF:ssä. Tuotokset määrittelevät summan (8 tavua) ja lukitusskriptin (scriptPubKey), jotka määrittelevät käyttöehdot. Bitcoin-osoitteet ovat näiden skriptien esityksiä.
 
 
 #### UTXO-malli
@@ -275,7 +275,7 @@ Maksut ovat epäsuoria:
 
 maksu = summa(tuloarvot) - summa(lähtöarvot).
 
-Kaikista määrittämättömistä arvoista tulee maksu, joten oikea muutoslaskenta on olennaisen tärkeää. Ennen SegWit:ta allekirjoitukset mahdollistivat muokattavuuden - S:n muuttaminen N-S:ksi tuotti uuden voimassa olevan tapahtuman eri tunnuksella. Bitcoin panee nyt täytäntöön low-S-säännön, ja SegWit eristää allekirjoitukset txid-laskennasta, mikä tekee tunnuksista vakaita ja mahdollistaa Lightningin kaltaiset toisen tason protokollat.
+Kaikista määrittämättömistä arvoista tulee maksu, joten oikea muutoslaskenta on olennaisen tärkeää. Ennen [SegWit](https://planb.academy/resources/glossary/segwit):ta allekirjoitukset mahdollistivat muokattavuuden - S:n muuttaminen N-S:ksi tuotti uuden voimassa olevan tapahtuman eri tunnuksella. Bitcoin panee nyt täytäntöön low-S-säännön, ja SegWit eristää allekirjoitukset txid-laskennasta, mikä tekee tunnuksista vakaita ja mahdollistaa [Lightningin](https://planb.academy/resources/glossary/lightning-network) kaltaiset toisen tason protokollat.
 
 
 ## Bitcoin Skriptien ja tapahtumien validointi
@@ -292,7 +292,7 @@ Bitcoin Script on pieni, pinoihin perustuva älykäs sopimuskieli, joka määrit
 ### Skriptioperaatiot ja suoritusmalli
 
 
-Skripti on dataelementtien ja opkoodien sarja. Datatykit (allekirjoitukset, julkiset avaimet, hasheet) sijoitetaan pinoon, kun taas `OP_`-alkuiset op-koodit muuttavat pinoa. Suorittamisen jälkeen pinon ylimmän elementin on oltava nollasta poikkeava, jotta se onnistuisi. Esimerkkejä: `OP_DUP` kopioi ylimmän elementin, `OP_HASH160` soveltaa SHA256:ta ja sen jälkeen RIPEMD160:tä ja `OP_CHECKSIG` tarkistaa allekirjoituksen transaktion sighashia ja julkista avainta vastaan, ja jos allekirjoitus on kelvollinen, siirretään 1, jos se on kelvoton, 0 jos se on virheellinen. Parsing-säännöt erottavat toisistaan raakadatan (pituusennuste) ja opcodit (etsitään tavuarvon mukaan), ja pieni virtuaalikone suorittaa ne deterministisesti jokaisessa solmussa.
+Skripti on dataelementtien ja opkoodien sarja. Datatykit (allekirjoitukset, julkiset avaimet, hasheet) sijoitetaan pinoon, kun taas `OP_`-alkuiset op-koodit muuttavat pinoa. Suorittamisen jälkeen pinon ylimmän elementin on oltava nollasta poikkeava, jotta se onnistuisi. Esimerkkejä: `OP_DUP` kopioi ylimmän elementin, `OP_HASH160` soveltaa SHA256:ta ja sen jälkeen RIPEMD160:tä ja `OP_CHECKSIG` tarkistaa allekirjoituksen transaktion sighashia ja julkista avainta vastaan, ja jos allekirjoitus on kelvollinen, siirretään 1, jos se on kelvoton, 0 jos se on virheellinen. Parsing-säännöt erottavat toisistaan raakadatan (pituusennuste) ja opcodit (etsitään tavuarvon mukaan), ja pieni virtuaalikone suorittaa ne deterministisesti jokaisessa [solmussa](https://planb.academy/resources/glossary/node).
 
 
 ### P2PK ja P2PKH: keskeiset maksumallit
@@ -329,7 +329,7 @@ Koska jokainen perintötapahtuman syöttö vaatii oman sighash-laskentansa raken
 ### Skriptiarvoitukset ja tietoturvatunnit
 
 
-Skripti voi ilmaista paljon enemmän kuin pelkkä "yksi allekirjoitus avaa nämä kolikot" Script-arvoitukset osoittavat tämän koodaamalla mielivaltaisia ehtoja - matemaattisia ongelmia, hash-esikuvahaasteita tai jopa törmäyspalkkioita - joissa kuka tahansa, joka antaa oikeat tiedot, voi käyttää kolikot. Pelkkiin julkisiin tietoihin (ei allekirjoituksia) perustuvat tuotokset ovat kuitenkin alttiita louhijoiden etukäteisjohtamiselle: kun kelvollinen ratkaisu ilmestyy mempooliin, kuka tahansa louhija voi kopioida sen ja ohjata voiton itselleen.
+Skripti voi ilmaista paljon enemmän kuin pelkkä "yksi allekirjoitus avaa nämä kolikot" Script-arvoitukset osoittavat tämän koodaamalla mielivaltaisia ehtoja - matemaattisia ongelmia, hash-esikuvahaasteita tai jopa törmäyspalkkioita - joissa kuka tahansa, joka antaa oikeat tiedot, voi käyttää kolikot. Pelkkiin julkisiin tietoihin (ei allekirjoituksia) perustuvat tuotokset ovat kuitenkin alttiita louhijoiden etukäteisjohtamiselle: kun kelvollinen ratkaisu ilmestyy [mempooliin](https://planb.academy/resources/glossary/mempool), kuka tahansa [louhija](https://planb.academy/resources/glossary/miner) voi kopioida sen ja ohjata voiton itselleen.
 
 
 Käytännön opetus on se, että reaalimaailman sopimukset sisältävät lähes aina allekirjoitusten tarkistuksia, vaikka ne sisältäisivätkin monimutkaisempaa logiikkaa, kuten multisig-, timelock- tai hashlock-menetelmiä. Allekirjoitukset sitovat ratkaisun tiettyyn osapuoleen, mikä säilyttää kannustimet ja estää muita varastamasta voittoa. Skriptin pinomallin, vakiomallien ja hienovaraisten sudenkuoppien ymmärtäminen on olennaista turvallisten Bitcoin-älykkäiden sopimusten suunnittelussa ja päättelyssä siitä, miten transaktiot todella validoidaan verkossa.
@@ -402,13 +402,13 @@ P2SH parantaa yksityisyyttä piilottamalla käyttöehdot ensimmäiseen käyttök
 ![lecture](https://www.youtube.com/watch?v=lJYSM1iLWQU)
 
 
-Bitcoin estää ryhmätapahtumat ja suojaa ne proof of work:n avulla. Kukin lohko sisältää 80 tavun otsikon ja luettelon tapahtumista. Huolimatta kelvollisen lohkon tuottamisen suurista energiakustannuksista lohkon todentaminen on halpaa: kaikkien ~900k otsikoiden tallentaminen vaatii vain ~72 Mt, joten pienetkin laitteet voivat todentaa ketjun proof of work:n tehokkaasti.
+Bitcoin estää ryhmätapahtumat ja suojaa ne [proof of work](https://planb.academy/resources/glossary/proof-of-work):n avulla. Kukin [lohko](https://planb.academy/resources/glossary/block) sisältää 80 tavun [otsikon](https://planb.academy/resources/glossary/block-header) ja luettelon tapahtumista. Huolimatta kelvollisen lohkon tuottamisen suurista energiakustannuksista lohkon todentaminen on halpaa: kaikkien ~900k otsikoiden tallentaminen vaatii vain ~72 Mt, joten pienetkin laitteet voivat todentaa ketjun proof of work:n tehokkaasti.
 
 
 ### Coinbase-transaktiot ja lohkopalkkiot
 
 
-Jokainen lohko alkaa täsmälleen yhdellä Coinbase-tapahtumalla - tämä on ainoa tapa, jolla uusia bitcoineja tulee liikkeeseen. Sillä on nollattu prev-tx-hash ja 0xffffffffff-indeksi, joka yksilöi sen yksiselitteisesti. Tuki alkoi 50 BTC:stä, ja se puolittuu 210 000 lohkon välein (50, 25, 12,5, 6,25, 3,125, ...). Louhijat sisällyttävät myös transaktiomaksut. Koska neljän tavun nonce on liian pieni nykyaikaisille ASIC-piireille, louhijat muokkaavat Coinbase-transaktion tietoja muuttaakseen Merkle-juurta ja luodakseen lisää hakutilaa. BIP34 edellyttää lohkon korkeuden upottamista Coinbase scriptSigiin, jotta varmistetaan, että jokainen Coinbase txid on ainutlaatuinen.
+Jokainen lohko alkaa täsmälleen yhdellä [Coinbase-tapahtumalla](https://planb.academy/resources/glossary/coinbase-transaction) - tämä on ainoa tapa, jolla uusia bitcoineja tulee liikkeeseen. Sillä on nollattu prev-tx-hash ja 0xffffffffff-indeksi, joka yksilöi sen yksiselitteisesti. Tuki alkoi 50 BTC:stä, ja se puolittuu 210 000 lohkon välein (50, 25, 12,5, 6,25, 3,125, ...). Louhijat sisällyttävät myös transaktiomaksut. Koska neljän tavun nonce on liian pieni nykyaikaisille ASIC-piireille, louhijat muokkaavat Coinbase-transaktion tietoja muuttaakseen [Merkle](https://planb.academy/resources/glossary/merkle-tree)-juurta ja luodakseen lisää hakutilaa. [BIP](https://planb.academy/resources/glossary/bip)34 edellyttää lohkon korkeuden upottamista Coinbase scriptSigiin, jotta varmistetaan, että jokainen Coinbase txid on ainutlaatuinen.
 
 
 ### Lohkon otsikkokentät ja Soft Fork-signalointi
@@ -425,7 +425,7 @@ Jokainen lohko alkaa täsmälleen yhdellä Coinbase-tapahtumalla - tämä on ain
 - nonce (4 tavua)
 
 
-Versionumerot kehittyivät BIP9:n kautta bittikenttämerkintäjärjestelmäksi, jonka avulla kaivostyöntekijät voivat koordinoida soft-fork-valmiutta. Aikaleima on 32-bittinen Unix-aika, ja se on päivitettävä vuoden 2106 tienoilla.
+Versionumerot kehittyivät BIP9:n kautta bittikenttämerkintäjärjestelmäksi, jonka avulla kaivostyöntekijät voivat koordinoida [soft-fork](https://planb.academy/resources/glossary/soft-fork)-valmiutta. Aikaleima on 32-bittinen Unix-aika, ja se on päivitettävä vuoden 2106 tienoilla.
 
 
 #### Bittien kenttä ja kohteet
@@ -439,7 +439,7 @@ Bitti-kenttä koodaa kohteen kompaktissa muodossa: kohde = kerroin × 256^(ekspo
 Vaikeus määritellään muodossa lowest_target / current_target, mikä ilmaisee, kuinka paljon vaikeampi mining on nykyään verrattuna helpoimpaan mahdolliseen vaikeusasteeseen. Validointi edellyttää vain otsikon hash-arvon vertaamista tavoitteeseen - tämä on erittäin halpaa mining:een verrattuna.
 
 
-Bitcoin säätää vaikeusastetta vuoden 2016 lohkojen välein siten, että se kohdistuu ~10 minuutin lohkoväleihin. Mukautuksessa verrataan edellisen vuoden 2016 lohkojen todellista aikaa odotettuihin kahteen viikkoon. Rajoitukset rajoittavat säätöjä neljän kertoimen sisällä. Suuret reaalimaailman tapahtumat - kuten Kiinan mining-kielto - osoittivat tämän mekanismin kestävyyden, kun hash-aste laski jyrkästi ja vaikeusaste mukautui alaspäin kompensoidakseen sen.
+Bitcoin säätää [vaikeusastetta](https://planb.academy/resources/glossary/difficulty) vuoden 2016 lohkojen välein siten, että se kohdistuu ~10 minuutin lohkoväleihin. Mukautuksessa verrataan edellisen vuoden 2016 lohkojen todellista aikaa odotettuihin kahteen viikkoon. Rajoitukset rajoittavat säätöjä neljän kertoimen sisällä. Suuret reaalimaailman tapahtumat - kuten Kiinan mining-kielto - osoittivat tämän mekanismin kestävyyden, kun hash-aste laski jyrkästi ja vaikeusaste mukautui alaspäin kompensoidakseen sen.
 
 
 ### Ryhmätuki ja kokonaismäärä Supply
@@ -459,13 +459,13 @@ Tuki korkeudella h lasketaan seuraavasti: tuki = 5_000_000_000 >> (h // 210_000)
 ### Bitcoin Verkkoarkkitehtuuri
 
 
-Bitcoin:n vertaisverkko toimii hajautettuna juoru-järjestelmänä, jossa solmut välittävät transaktioita ja lohkoja toisilleen luottamatta toisiinsa. Uudet solmut käynnistyvät ottamalla yhteyttä ydinkehittäjien ylläpitämiin kovakoodattuihin DNS-siemeniin. Nämä DNS-siemenet palauttavat aktiivisten vertaisverkkojen IP-osoitteet, minkä ansiosta solmut voivat löytää verkon ja pyytää uusia vertaisverkkoja getaddr-ohjelman avulla. Verkko ei tarkoituksella ole konsensuskriittinen, joten toteutukset voivat poiketa toisistaan, kunhan konsensussäännöt pysyvät muuttumattomina.
+Bitcoin:n [vertaisverkko](https://planb.academy/resources/glossary/peertopeer-p2p) toimii hajautettuna juoru-järjestelmänä, jossa solmut välittävät transaktioita ja lohkoja toisilleen luottamatta toisiinsa. Uudet solmut käynnistyvät ottamalla yhteyttä ydinkehittäjien ylläpitämiin kovakoodattuihin DNS-siemeniin. Nämä DNS-siemenet palauttavat aktiivisten vertaisverkkojen IP-osoitteet, minkä ansiosta solmut voivat löytää verkon ja pyytää uusia vertaisverkkoja getaddr-ohjelman avulla. Verkko ei tarkoituksella ole konsensuskriittinen, joten toteutukset voivat poiketa toisistaan, kunhan [konsensussäännöt](https://planb.academy/resources/glossary/consensus) pysyvät muuttumattomina.
 
 
 ### Viestin rakenne ja kättely
 
 
-Kaikissa Bitcoin P2P-viesteissä käytetään kiinteää kirjekuorta: 4 tavun maaginen arvo (F9BEB4D9 mainnet:ssä), 12 tavun ASCII-komento, 4 tavun little-endian hyötykuorman pituus, 4 tavun tarkistussumma (hash256:n 4 ensimmäistä tavua) ja hyötykuorma. Yleisiä komentoja ovat version, verack, inv, getdata, tx, block, getheaders, headers, ping ja pong.
+Kaikissa Bitcoin P2P-viesteissä käytetään kiinteää kirjekuorta: 4 tavun maaginen arvo (F9BEB4D9 mainnet:ssä), 12 tavun ASCII-komento, 4 tavun little-endian hyötykuorman pituus, 4 tavun tarkistussumma ([hash](https://planb.academy/resources/glossary/hash-function)256:n 4 ensimmäistä tavua) ja hyötykuorma. Yleisiä komentoja ovat version, verack, inv, getdata, tx, block, getheaders, headers, ping ja pong.
 
 
 Kättely alkaa, kun yhdistävä solmu lähettää versioviestin. Vastaanottaja vastaa verackilla ja omalla versiollaan. Kun molemmat osapuolet ovat vaihtaneet nämä kaksi viestiä, yhteys on aktiivinen ja solmut voivat aloittaa inventaarioiden ja tietojen välittämisen.
@@ -479,7 +479,7 @@ Bitcoin tallentaa jokaisen lohkon otsikkoon yhden 32 tavun Merkle-juuren, joka o
 
 #### Merkle-todistukset ja SPV
 
-Merkle-todistusten avulla voidaan todentaa, että transaktio sisältyy lohkoon lataamatta koko lohkoa. Todiste koostuu sisarhasheista, jotka kulkevat polkua pitkin juureen. Kevyet SPV-asiakkaat tallentavat vain lohkojen otsikot ja pyytävät näitä todisteita täysiltä solmuilta. Koska Merkle-puu kasvaa logaritmisesti, tuhansia transaktioita sisältävään lohkoon kuulumisen todistaminen vaatii vain muutamia satoja tavuja.
+Merkle-todistusten avulla voidaan todentaa, että transaktio sisältyy lohkoon lataamatta koko lohkoa. Todiste koostuu sisarhasheista, jotka kulkevat polkua pitkin juureen. Kevyet SPV-asiakkaat tallentavat vain lohkojen otsikot ja pyytävät näitä todisteita [täysiltä solmuilta](https://planb.academy/resources/glossary/full-node). Koska Merkle-puu kasvaa logaritmisesti, tuhansia transaktioita sisältävään lohkoon kuulumisen todistaminen vaatii vain muutamia satoja tavuja.
 
 
 Taproot laajentaa tätä konseptia sitomalla menoehdot Merklized script tree (MAST) -käsikirjoituspuuhun, joka paljastaa vain suoritetun haaran ja Merkle-todistuksen. Tämä parantaa sekä tehokkuutta että yksityisyyttä.
@@ -515,7 +515,7 @@ Tässä istunnossa yhdistetään kehittynyt P2P-verkko ja Segregated Witness ja 
 ### Lohkopohjainen tapahtumien haku ja yksityisyys
 
 
-Lompakoiden on havaittava saapuvat maksut skannaamalla lohkot niiden scriptPubKey-avaimen mukaisten tuotosten varalta. Kokonaislohkojen hakeminen suojaa yksityisyyttä paremmin kuin yksittäisten transaktioiden pyytäminen, joka antaa voimakkaita signaaleja käyttäjän toiminnasta. Jopa lohkopyynnöt voivat vuotaa tietoja vähäliikenteisistä ketjuista, minkä vuoksi kompaktit lohkosuodattimet (BIP158) ovat välttämättömiä yksityisyyden suojaavia kevytasiakkaita varten. Suodattimet voivat tuottaa vääriä positiivisia mutta eivät koskaan vääriä negatiivisia tuloksia, jolloin asiakkaat voivat ladata vain mahdollisesti merkityksellisiä lohkoja paljastamatta tiettyjä osoitteita.
+[Lompakoiden](https://planb.academy/resources/glossary/wallet) on havaittava saapuvat maksut skannaamalla lohkot niiden scriptPubKey-avaimen mukaisten tuotosten varalta. Kokonaislohkojen hakeminen suojaa yksityisyyttä paremmin kuin yksittäisten transaktioiden pyytäminen, joka antaa voimakkaita signaaleja käyttäjän toiminnasta. Jopa lohkopyynnöt voivat vuotaa tietoja vähäliikenteisistä ketjuista, minkä vuoksi kompaktit lohkosuodattimet (BIP158) ovat välttämättömiä yksityisyyden suojaavia kevytasiakkaita varten. Suodattimet voivat tuottaa vääriä positiivisia mutta eivät koskaan vääriä negatiivisia tuloksia, jolloin asiakkaat voivat ladata vain mahdollisesti merkityksellisiä lohkoja paljastamatta tiettyjä osoitteita.
 
 
 ### Trustless Verkon vuorovaikutus

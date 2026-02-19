@@ -1,0 +1,8 @@
+question: In Austrian business cycle theory, what is the main impact of artificial money creation on the allocation of resources in the economy?
+answer: It creates an illusion of capital abundance while maintaining the real scarcity of material, human and technical resources
+wrong_answers:
+  - It effectively increases the quantity of available resources by stimulating the production of scarce goods
+  - "It redistributes existing resources equitably between all sectors of the economy without creating distortions"
+  - It makes more efficient use of resources by automatically directing investment towards the most productive sectors
+explanation: |
+  According to Mises, money creation cannot create real resources: "Printing money does not print scarce goods". The new money merely creates an illusion of capital abundance, which distorts price signals, leading to malinvestment. Real resources remain limited, but are misallocated to non-viable projects. The other options are incorrect because they assume that money creation can actually increase or better allocate real resources.

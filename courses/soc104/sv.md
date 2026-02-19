@@ -824,7 +824,7 @@ Under 1900-talet växte två stora trender fram:
 2.  **Den andra anarkokapitalisten:** som anser att statliga funktioner bör privatiseras och skötas av marknaden.
 
 
-Båda är dock överens om den grundläggande principen om individuell suveränitet. Libertarianska idéer uttrycktes redan på 1700-talet av fysiokraterna, i synnerhet Vincent de Gournay och Turgot, och utvecklades av Condillac, Jean-Baptiste Say och Frédéric Bastiat. Under 1900-talet togs de upp och utvecklades av den österrikiska ekonomiska skolan, vars främsta författare är Ludwig von Mises, Friedrich Hayek och Murray Rothbard.
+Båda är dock överens om den grundläggande principen om individuell suveränitet. Libertarianska idéer uttrycktes redan på 1700-talet av fysiokraterna, i synnerhet Vincent de Gournay och Turgot, och utvecklades av Condillac, Jean-Baptiste Say och Frédéric Bastiat. Under 1900-talet togs de upp och utvecklades av den [österrikiska ekonomiska skolan](https://planb.academy/resources/glossary/austrian-school), vars främsta författare är Ludwig von Mises, Friedrich Hayek och Murray Rothbard.
 
 
 
@@ -1624,10 +1624,10 @@ I slutet av den här kursen anser vi att det är viktigt att ta upp den politisk
 
 
 
-Bitcoin är en decentraliserad kryptovaluta, skapad av Satoshi Nakamoto 2008, som möjliggör opålitliga, peer-to-peer finansiella transaktioner.
+Bitcoin är en decentraliserad [kryptovaluta](https://planb.academy/resources/glossary/cryptocurrency), skapad av Satoshi Nakamoto 2008, som möjliggör opålitliga, [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) finansiella transaktioner.
 
 
-Bitcoin styrs av ett mjukvaruprotokoll med öppen källkod, utan VD, huvudkontor, marknadsföringsbudget eller utsedd myndighet. Detta innebär att ingen politisk enhet eller regering har kontroll över det.
+Bitcoin styrs av ett mjukvaruprotokoll med [öppen källkod](https://planb.academy/resources/glossary/foss), utan VD, huvudkontor, marknadsföringsbudget eller utsedd myndighet. Detta innebär att ingen politisk enhet eller regering har kontroll över det.
 
 
 
@@ -1643,7 +1643,7 @@ Denna neutralitet är oroande för vissa och kan leda till att man tror att dett
 
 
 
-När vi läser Satoshi Nakamotos vitbok kan vi se att Bitcoin utformades för att erbjuda innovativt skydd mot två stora samtida hot: utbredd övervakning och påskyndande av artificiellt penningskapande.
+När vi läser Satoshi Nakamotos [vitbok](https://planb.academy/resources/glossary/white-paper) kan vi se att Bitcoin utformades för att erbjuda innovativt skydd mot två stora samtida hot: utbredd övervakning och påskyndande av artificiellt penningskapande.
 
 
 
@@ -1651,7 +1651,7 @@ När vi läser Satoshi Nakamotos vitbok kan vi se att Bitcoin utformades för at
 
 
 
-2. Bitcoin gör det möjligt för alla att skydda sina besparingar mot den plundring av privat egendom som monetär inflation innebär. Det är ett försök att utmana statens kontroll över hanteringen av pengar som ett instrument för utbyte och därmed konkurrera med staten. Finanskrisen 2008 och covid 19-pandemin har visat på bristerna i det nuvarande systemet. De biljoner dollar som trycktes upp ur tomma intet för att förhindra att ekonomin skulle kollapsa ytterligare fick förödande effekter, som vi fortfarande betalar för.
+2. Bitcoin gör det möjligt för alla att skydda sina besparingar mot den plundring av privat egendom som monetär [inflation](https://planb.academy/resources/glossary/inflation) innebär. Det är ett försök att utmana statens kontroll över hanteringen av pengar som ett instrument för utbyte och därmed konkurrera med staten. Finanskrisen 2008 och covid 19-pandemin har visat på bristerna i det nuvarande systemet. De biljoner dollar som trycktes upp ur tomma intet för att förhindra att ekonomin skulle kollapsa ytterligare fick förödande effekter, som vi fortfarande betalar för.
 
 
 
@@ -1679,7 +1679,7 @@ Utgångspunkten för Satoshi Nakamotos intellektuella förhållningssätt är d�
 
 
 
-Att denna titel ingår i genesis-blocket är öppet för tolkning. Men den kan framstå som Satoshi:s kommentar till de traditionella finansinstitutens misslyckanden och som ett uttalande om Bitcoin:s mål: att erbjuda ett alternativ till centraliserade banksystem.
+Att denna titel ingår i [genesis-blocket](https://planb.academy/resources/glossary/genesis-block) är öppet för tolkning. Men den kan framstå som Satoshi:s kommentar till de traditionella finansinstitutens misslyckanden och som ett uttalande om Bitcoin:s mål: att erbjuda ett alternativ till centraliserade banksystem.
 
 
 
@@ -1723,7 +1723,7 @@ På så sätt drivs den av en världsbild som är både moralisk och politisk. N
 
 
 
-Men Bitcoin dök inte upp från ingenstans. Den bygger på framsteg inom matematik, fysik, datavetenskap och filosofi. Satoshi Nakamoto, även om han var briljant, byggde på idéer från andra innovatörer. Bland dem pionjärerna inom cypherpunk-rörelsen.
+Men Bitcoin dök inte upp från ingenstans. Den bygger på framsteg inom matematik, fysik, datavetenskap och filosofi. Satoshi Nakamoto, även om han var briljant, byggde på idéer från andra innovatörer. Bland dem pionjärerna inom [cypherpunk](https://planb.academy/resources/glossary/cypherpunks)-rörelsen.
 
 
 
@@ -1770,7 +1770,7 @@ Och han tillägger:
 
 > sekretess i ett öppet samhälle kräver anonyma transaktionssystem. Hittills har kontanter varit det huvudsakliga systemet av denna typ.
 
-Det är därför kryptografi kommer att användas som ett verktyg för motstånd mot alla former av statlig och företagskontroll. Det säkerställer att varje part i en transaktion endast vet vad som är absolut nödvändigt för den transaktionen.
+Det är därför [kryptografi](https://planb.academy/resources/glossary/cryptography) kommer att användas som ett verktyg för motstånd mot alla former av statlig och företagskontroll. Det säkerställer att varje part i en transaktion endast vet vad som är absolut nödvändigt för den transaktionen.
 
 
 

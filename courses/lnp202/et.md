@@ -92,7 +92,7 @@ Kui te järgite seda LNP202 kursust õiges järjekorras, on teil selle lõpuks o
 
 
 
-Enne oma sõlme käivitamist vaadatakse selles peatükis lühidalt üle Lightning Network põhiteooria. On tõepoolest oluline mõista asjaomaseid mehhanisme, sest see võimaldab teil tuvastada riske ja võtta kasutusele häid tavasid nende piiramiseks. Ma ei hakka siinkohal siiski üksikasjadesse laskuma, sest see ei ole selle kursuse peamine eesmärk. Kui soovite teemasse süveneda, siis soovitan tungivalt tutvuda Fanis Michalakise kursusega LNP 201, mis on selles valdkonnas referentsiks:
+Enne oma sõlme käivitamist vaadatakse selles peatükis lühidalt üle [Lightning Network](https://planb.academy/resources/glossary/lightning-network) põhiteooria. On tõepoolest oluline mõista asjaomaseid mehhanisme, sest see võimaldab teil tuvastada riske ja võtta kasutusele häid tavasid nende piiramiseks. Ma ei hakka siinkohal siiski üksikasjadesse laskuma, sest see ei ole selle kursuse peamine eesmärk. Kui soovite teemasse süveneda, siis soovitan tungivalt tutvuda Fanis Michalakise kursusega LNP 201, mis on selles valdkonnas referentsiks:
 
 
 
@@ -102,20 +102,20 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-Läheme tagasi põhitõdede juurde: enne sõlme määratlemist peame mõistma, mis on Lightning Network. See on tippkihi protokoll, mis on ehitatud Bitcoin peal ja mille eesmärk on võimaldada ahelaväliseid BTC tehinguid, mis on kiired (peaaegu kohese lõplikkusega) ja üldiselt odavad. "Offchain" tähendab, et Lightning'iga teostatud tehingud ei ole ette nähtud Bitcoin põhiplokiahelas ilmumiseks. Lightning on ka osaline vastus Bitcoin kasvavale kasutamisele ja ahelasisesele ülekoormusele, mis tekitab muret süsteemi skaleeritavuse pärast.
+Läheme tagasi põhitõdede juurde: enne sõlme määratlemist peame mõistma, mis on Lightning Network. See on tippkihi protokoll, mis on ehitatud Bitcoin peal ja mille eesmärk on võimaldada ahelaväliseid BTC tehinguid, mis on kiired (peaaegu kohese lõplikkusega) ja üldiselt odavad. "[Offchain](https://planb.academy/resources/glossary/offchain)" tähendab, et Lightning'iga teostatud tehingud ei ole ette nähtud Bitcoin põhiplokiahelas ilmumiseks. Lightning on ka osaline vastus Bitcoin kasvavale kasutamisele ja [ahelasisesele](https://planb.academy/resources/glossary/onchain) ülekoormusele, mis tekitab muret süsteemi [skaleeritavuse](https://planb.academy/resources/glossary/scalability) pärast.
 
 
 
-Lightning tugineb toimimiseks osalejate vaheliste maksekanalite avamisele, mille raames saab tehinguid teostada peaaegu koheselt, sageli minimaalsete tasudega, ilma et neid oleks vaja ükshaaval Bitcoin plokiahelas registreerida. Need kanalid võivad jääda avatuks väga pikaks ajaks, nõudes ahelas toimuvaid tehinguid ainult nende avamisel ja sulgemisel.
+Lightning tugineb toimimiseks osalejate vaheliste [maksekanalite](https://planb.academy/resources/glossary/payment-channel) avamisele, mille raames saab tehinguid teostada peaaegu koheselt, sageli minimaalsete tasudega, ilma et neid oleks vaja ükshaaval Bitcoin [plokiahelas](https://planb.academy/resources/glossary/blockchain) registreerida. Need kanalid võivad jääda avatuks väga pikaks ajaks, nõudes ahelas toimuvaid tehinguid ainult nende avamisel ja sulgemisel.
 
 
 
-Lightning-sõlm on Lightning-võrgus osaleja, kes avab kanaleid ja teeb makseid teiste sõlmedega. Konkreetselt öeldes on Lightning-sõlm arvutis töötav tarkvara, mis rakendab Lightning Network protokolli. Näiteks LND, Core Lightning või Eclair. Selle tarkvara peamine roll on:
+[Lightning-sõlm](https://planb.academy/resources/glossary/lightning-node) on Lightning-võrgus osaleja, kes avab kanaleid ja teeb makseid teiste sõlmedega. Konkreetselt öeldes on Lightning-sõlm arvutis töötav tarkvara, mis rakendab Lightning Network protokolli. Näiteks LND, Core Lightning või Eclair. Selle tarkvara peamine roll on:
 
 
 
 
-- ühendada Bitcoin sõlme, et saada teavet peamise plokiahela pealt;
+- ühendada [Bitcoin sõlme](https://planb.academy/resources/glossary/full-node), et saada teavet peamise plokiahela pealt;
 - luua ja hallata kahesuunalisi maksekanaleid teiste sõlmedega;
 - vahetada sõnumeid kogu Lightning-võrguga.
 
@@ -129,7 +129,7 @@ Lightning-sõlm on Lightning-võrgus osaleja, kes avab kanaleid ja teeb makseid 
 
 
 
-Bitcoin (onchain) puhul viitab "*wallet*" tarkvarale, mis haldab teie isiklikke võtmeid, arvutab teie saldot teie UTXO-st ja koostab teie tehinguid. See wallet võib põhineda teie enda Bitcoin sõlmel või kellegi teise omal, kuid tänapäeval on sõlme ja onchain wallet roll selgelt erinev.
+Bitcoin (onchain) puhul viitab "*[wallet](https://planb.academy/resources/glossary/wallet)*" tarkvarale, mis haldab teie [isiklikke võtmeid](https://planb.academy/resources/glossary/private-key), arvutab teie saldot teie [UTXO](https://planb.academy/resources/glossary/utxo)-st ja koostab teie tehinguid. See wallet võib põhineda teie enda Bitcoin sõlmel või kellegi teise omal, kuid tänapäeval on sõlme ja onchain wallet roll selgelt erinev.
 
 
 
@@ -141,7 +141,7 @@ Lightningi puhul on sellist sõnavara keerulisem taaskasutada, ilma et see tekit
 
 
 
-- Hoiuteenuse kasutamine: te kasutate rakendust, mis näitab teile Lightning'is saldot sats-s, kuid taustal on vahendid teenusepakkuja sõlmes (nt Wallet of Satoshi). Teil ei ole võtmeid ega kontrolli kanalite üle. Teie saldo on lihtsalt raamatupidamiskirje ettevõtte andmebaasis. See on võrreldav sellega, et jätate oma bitcoinid vahetusplatvormile, koos kõigi sellega kaasnevate riskidega. Sellisel juhul on teie "*Lightning wallet*" lihtsalt juurdepääs kontole, mida haldab operaator, kes omakorda juhib reaalset Lightning-sõlme.
+- Hoiuteenuse kasutamine: te kasutate rakendust, mis näitab teile Lightning'is saldot [sats](https://planb.academy/resources/glossary/satoshi-sat)-s, kuid taustal on vahendid teenusepakkuja sõlmes (nt Wallet of Satoshi). Teil ei ole võtmeid ega kontrolli kanalite üle. Teie saldo on lihtsalt raamatupidamiskirje ettevõtte andmebaasis. See on võrreldav sellega, et jätate oma bitcoinid vahetusplatvormile, koos kõigi sellega kaasnevate riskidega. Sellisel juhul on teie "*Lightning wallet*" lihtsalt juurdepääs kontole, mida haldab operaator, kes omakorda juhib reaalset Lightning-sõlme.
 
 
 
@@ -161,7 +161,7 @@ Selles jaotises annan teile kiire meeldetuletuse, kuidas Lightning töötab. Vee
 
 
 
-Lightning-võrgu süda põhineb kahesuunalistel maksekanalitel. Kanali saab avada (st luua), uuendada, kui Lightning-tehingud toimuvad, ja seejärel sulgeda. Onchaini seisukohalt ei ole kanal midagi muud kui 2/2 mitme allkirjaga väljund.
+Lightning-võrgu süda põhineb kahesuunalistel maksekanalitel. Kanali saab avada (st luua), uuendada, kui Lightning-tehingud toimuvad, ja seejärel sulgeda. Onchaini seisukohalt ei ole kanal midagi muud kui 2/2 [mitme allkirjaga](https://planb.academy/resources/glossary/multisig) [väljund](https://planb.academy/resources/glossary/output).
 
 
 
@@ -169,7 +169,7 @@ Lightning-võrgu süda põhineb kahesuunalistel maksekanalitel. Kanali saab avad
 
 
 
-Lightning'i seisukohast on tegemist maksekanaliga, mille likviidsus on jagatud kahe osaleja vahel.
+Lightning'i seisukohast on tegemist maksekanaliga, mille [likviidsus](https://planb.academy/resources/glossary/liquidity-lightning) on jagatud kahe osaleja vahel.
 
 
 
@@ -183,7 +183,7 @@ Lightning'i seisukohast on tegemist maksekanaliga, mille likviidsus on jagatud k
 
 
 
-Kaks sõlme otsustavad avada kanali. Üks neist paneb bitcoine ahelasiseses tehingus, mida nimetatakse *finantseerimistehinguks*. See tehing loob väljundi, mis põhineb 2-of-2 multisignatuuriskriptil, mis tähendab, et nende vahendite kulutamiseks Bitcoin-s on vaja mõlema kanali sõlme allkirja. Enne selle tehingu väljastamist palub raha andev pool teisel poolel allkirjastada *väljavõtutehing*, mida ei väljastata ahelas, kuid mis võimaldab tal probleemide korral oma raha tagasi saada.
+Kaks sõlme otsustavad avada kanali. Üks neist paneb bitcoine ahelasiseses tehingus, mida nimetatakse *finantseerimistehinguks*. See tehing loob väljundi, mis põhineb 2-of-2 [multisignatuuriskriptil](https://planb.academy/resources/glossary/script), mis tähendab, et nende vahendite kulutamiseks Bitcoin-s on vaja mõlema kanali sõlme [allkirja](https://planb.academy/resources/glossary/digital-signature). Enne selle tehingu väljastamist palub raha andev pool teisel poolel allkirjastada *väljavõtutehing*, mida ei väljastata ahelas, kuid mis võimaldab tal probleemide korral oma raha tagasi saada.
 
 
 
@@ -197,7 +197,7 @@ Kaks sõlme otsustavad avada kanali. Üks neist paneb bitcoine ahelasiseses tehi
 
 
 
-Kanali seisundit (st sats jaotust A ja B vahel) esindab *commitment transaction*, mis on teada mõlemale sõlmpunktile, kuid mida ei edastata kohe plokiahelas. See tehing kirjeldab, kuidas kanali rahalised vahendid jaotatakse ahelas ümber vastavalt Lightning'ile tehtud maksetele.
+Kanali seisundit (st sats jaotust A ja B vahel) esindab *[commitment transaction](https://planb.academy/resources/glossary/commitment-transaction)*, mis on teada mõlemale sõlmpunktile, kuid mida ei edastata kohe plokiahelas. See tehing kirjeldab, kuidas kanali rahalised vahendid jaotatakse ahelas ümber vastavalt Lightning'ile tehtud maksetele.
 
 
 
@@ -237,7 +237,7 @@ Enne edasist tegevust on siin kaks olulist mõistet, mis aitavad mõista, kuidas
 
 
 - Liquidity*: sats kogus, mis on saadaval kanali ühel poolel;
-- *Kapatsiteet*: see on 2/2 multisig väljundis lukustatud kogusumma, st kanali mõlema poole likviidsuse summa.
+- *[Kapatsiteet](https://planb.academy/resources/glossary/lightning-channel-capacity)*: see on 2/2 multisig väljundis lukustatud kogusumma, st kanali mõlema poole likviidsuse summa.
 
 
 
@@ -249,7 +249,7 @@ Kanal ei ole ainult maksete tegemiseks kahe sõlme vahel: see on osa omavahel ü
 
 
 
-Iga sõlmpunkt teab kuulujutuprotokolli kaudu selle võrgu kaarti: millised kanalid on olemas, millised sõlmed on ühendatud kahesuunalise kanaliga ja millised võimsused on avaldatud. Selleks, et saata makse vastuvõtjale ilma otsekanalita, arvutab oma sõlme marsruudi, mis koosneb mitmest hüppest: oma sõlme → sõlme X → sõlme Y → vastuvõtja sõlme. Igal hüppel läbib makse kanalit, millel peab olema piisav likviidsus makse suunas.
+Iga sõlmpunkt teab [kuulujutuprotokolli](https://planb.academy/resources/glossary/gossip) kaudu selle võrgu kaarti: millised kanalid on olemas, millised sõlmed on ühendatud kahesuunalise kanaliga ja millised võimsused on avaldatud. Selleks, et saata makse vastuvõtjale ilma otsekanalita, arvutab oma sõlme marsruudi, mis koosneb mitmest hüppest: oma sõlme → sõlme X → sõlme Y → vastuvõtja sõlme. Igal hüppel läbib makse kanalit, millel peab olema piisav likviidsus makse suunas.
 
 
 
@@ -265,7 +265,7 @@ Kanali likviidsus ei ole seega sümmeetriline: üks pool võib olla tugevalt koo
 
 
 
-Selleks, et maksed liiguksid läbi vahesõlmede ilma usalduse vajaduseta, kasutab Lightning nutikaid lepinguid nimega *HTLC* (*Hashed Time-Locked Contracts*). Lihtsustatult öeldes seab HTLC raha ülekandmise tingimuseks saladuse avalikustamise ja sisaldab ajalist piirangut, et kaitsta saatjat tehingu ebaõnnestumise korral. Iga makse eeldab seega eelkujutise esitamist (saladus, mille hash vastab kokkulepitud väärtusele). Kui lõplik saaja esitab selle eelkujutise, saab ta raha nõuda, mis omakorda võimaldab igal vahendussõlmel oma raha tagasi saada.
+Selleks, et maksed liiguksid läbi vahesõlmede ilma usalduse vajaduseta, kasutab Lightning [nutikaid lepinguid](https://planb.academy/resources/glossary/smart-contract) nimega *[HTLC](https://planb.academy/resources/glossary/htlc)* (*Hashed Time-Locked Contracts*). Lihtsustatult öeldes seab HTLC raha ülekandmise tingimuseks saladuse avalikustamise ja sisaldab ajalist piirangut, et kaitsta saatjat tehingu ebaõnnestumise korral. Iga makse eeldab seega eelkujutise esitamist (saladus, mille [hash](https://planb.academy/resources/glossary/hash-function) vastab kokkulepitud väärtusele). Kui lõplik saaja esitab selle eelkujutise, saab ta raha nõuda, mis omakorda võimaldab igal vahendussõlmel oma raha tagasi saada.
 
 
 
@@ -281,7 +281,7 @@ Ma säästan teid HTLC töö tehniliste üksikasjadega, kuna need ei ole selle k
 
 
 
-Nagu Bitcoin puhul, on ka Lightning-protokolli rakendamiseks mitmeid lahendusi. Mitmed sõltumatud meeskonnad töötavad välja oma versioone, mis kõik on koostalitlusvõimelised, kuna nad järgivad samu spetsifikaate (BOLTid). Järgnevalt on esitatud peamised praegu kasutusel olevad rakendused.
+Nagu Bitcoin puhul, on ka Lightning-protokolli rakendamiseks mitmeid lahendusi. Mitmed sõltumatud meeskonnad töötavad välja oma versioone, mis kõik on koostalitlusvõimelised, kuna nad järgivad samu spetsifikaate ([BOLTid](https://planb.academy/resources/glossary/bolt)). Järgnevalt on esitatud peamised praegu kasutusel olevad rakendused.
 
 
 
@@ -399,7 +399,7 @@ Tänapäeval on võimalik saada kasutajakogemus, mis on väga lähedane välklam
 
 
 
-Esimene lahendus on lihtsalt mitte kasutada Lightningut algupäraselt, vaid kasutada Bitcoin või Liquid wallet, mis sisaldab aatomivahetusi. Näiteks Aqua või Bull Bitcoin Wallet rakendused kasutavad seda meetodit, võimaldades teil tasuda Lightningi arveid ilma Lightningi sõlme ise käitamata, jäädes samas ise haldusse.
+Esimene lahendus on lihtsalt mitte kasutada Lightningut algupäraselt, vaid kasutada Bitcoin või [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet, mis sisaldab [aatomivahetusi](https://planb.academy/resources/glossary/atomic-swap). Näiteks Aqua või Bull Bitcoin Wallet rakendused kasutavad seda meetodit, võimaldades teil tasuda [Lightningi arveid](https://planb.academy/resources/glossary/invoice-lightning) ilma Lightningi sõlme ise käitamata, jäädes samas ise haldusse.
 
 
 
@@ -411,7 +411,7 @@ Põhimõte on lihtne: teie rahalised vahendid jäävad Bitcoin-sse, kas on-chain
 
 
 
-Selle lähenemisviisi peamine eelis võrreldes tavapärase välkdepositooriumi wallet-ga on see, et teie rahalised vahendid on alati 100% ulatuses teie valduses. Bitcoins on teie onchainis või Liquid wallet, millel on teie enda mnemo fraas. Isegi vahetuse ajal jääte oma rahaliste vahendite valdusesse, sest vahetus on aatomiline. See tugineb krüptograafilisele mehhanismile, mis tagab, et on ainult kaks võimalikku tulemust: kas vahetus õnnestub täielikult või ebaõnnestub ja teenus ei saa teie raha omastada.
+Selle lähenemisviisi peamine eelis võrreldes tavapärase välkdepositooriumi wallet-ga on see, et teie rahalised vahendid on alati 100% ulatuses teie valduses. Bitcoins on teie onchainis või Liquid wallet, millel on teie enda [mnemo fraas](https://planb.academy/resources/glossary/seed). Isegi vahetuse ajal jääte oma rahaliste vahendite valdusesse, sest vahetus on aatomiline. See tugineb krüptograafilisele mehhanismile, mis tagab, et on ainult kaks võimalikku tulemust: kas vahetus õnnestub täielikult või ebaõnnestub ja teenus ei saa teie raha omastada.
 
 
 
@@ -423,7 +423,7 @@ See lahendus pakub huvitavaid eeliseid ka konfidentsiaalsuse osas, eriti kui see
 
 
 
-Teisest küljest on sellel lähenemisviisil omad piirangud. Esiteks, see ei ole hindamatu: te sõltute vahetusteenuse kättesaadavusest ja heast tahtest. Kui see ei soovi enam teie kontot töödelda või lõpetab tegevuse, ei saa te selle kaudu enam välkarvete eest tasuda. Siis on veel märkimisväärsed tasud: te maksate nii onchaini või Liquid tehingutasu kui ka vahetusteenuse vahendustasu. Kui onchaini tasud järsult tõusevad, võib Lightningi kasutamine muutuda väga kalliks.
+Teisest küljest on sellel lähenemisviisil omad piirangud. Esiteks, see ei ole hindamatu: te sõltute vahetusteenuse kättesaadavusest ja heast tahtest. Kui see ei soovi enam teie kontot töödelda või lõpetab tegevuse, ei saa te selle kaudu enam välkarvete eest tasuda. Siis on veel märkimisväärsed tasud: te maksate nii onchaini või Liquid [tehingutasu](https://planb.academy/resources/glossary/transaction-fees) kui ka vahetusteenuse vahendustasu. Kui onchaini tasud järsult tõusevad, võib Lightningi kasutamine muutuda väga kalliks.
 
 
 
@@ -479,7 +479,7 @@ Kolmas lahendus, mida me selles LNP202 kursuses põhjalikumalt vaatleme, on tava
 
 
 
-"Klassikalise" all pean silmas seda, et te paigaldate ja konfigureerite Lightning'i rakenduse (nt LND) ise oma Bitcoin sõlme peale. Te valite oma partnerid, avate oma kanalid, haldate oma sissetulevat ja väljaminevat likviidsust ning määrate oma marsruutimistasu poliitikad.
+"Klassikalise" all pean silmas seda, et te paigaldate ja konfigureerite Lightning'i rakenduse (nt LND) ise oma Bitcoin sõlme peale. Te valite oma partnerid, avate oma kanalid, haldate oma [sissetulevat ja väljaminevat likviidsust](https://planb.academy/resources/glossary/inbound-capacity) ning määrate oma marsruutimistasu poliitikad.
 
 
 
@@ -616,7 +616,7 @@ Seejärel jõuate oma Lightning-sõlme põhiliidesesse. Vasakul leiate oma Bitco
 
 
 
-Keskel on teie Lightning wallet. See kujutab tegelikult teie väljaminevat raha, st bitcoin'e, mida te oma Lightning-kanalites omate.
+Keskel on teie Lightning wallet. See kujutab tegelikult teie [väljaminevat raha](https://planb.academy/resources/glossary/outbound-capacity), st bitcoin'e, mida te oma Lightning-kanalites omate.
 
 
 

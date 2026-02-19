@@ -49,7 +49,7 @@ Et si l’histoire monétaire était en train de se répéter sous nos yeux ? À
 
 ### Les définitions de l’inflation
 
-L'inflation est un concept souvent mal interprété en raison des multiples définitions qui lui sont associées. La perception de l'inflation varie entre différents groupes comme les bitcoiners et les économistes traditionnels. Clarifions d'abord les définitions avant d'aborder l'hyperinflation :
+[L'inflation](https://planb.academy/resources/glossary/inflation) est un concept souvent mal interprété en raison des multiples définitions qui lui sont associées. La perception de l'inflation varie entre différents groupes comme les bitcoiners et les économistes traditionnels. Clarifions d'abord les définitions avant d'aborder l'hyperinflation :
 
 - Définition du Robert : L'inflation est un accroissement excessif des instruments de paiement (billets de banque, capitaux) provoquant une hausse des prix et une dépréciation de la monnaie.
 
@@ -79,7 +79,7 @@ Quand on évoque le phénomène monétaire, on fait référence à la manière d
 
 ![image](assets/fr/002.webp)
 
-Il est crucial de souligner qu'il est possible d'observer de l'hyperinflation principalement avec des monnaies fiduciaires déconnectées de leurs actifs sous-jacents, comme les métaux précieux. Historiquement, lorsqu'une monnaie était basée sur de tels actifs, il y avait des épisodes d'inflation (par exemple, par dévaluation du contenu métallique), mais ces épisodes n'atteignaient jamais les niveaux extrêmes d'hyperinflation. Dans les sections suivantes, nous étudierons en détail les périodes d'évaluation monétaire et les implications de ces différents systèmes monétaires sur l'inflation.
+Il est crucial de souligner qu'il est possible d'observer de l'hyperinflation principalement avec des [monnaies fiduciaires](https://planb.academy/resources/glossary/fiat) déconnectées de leurs actifs sous-jacents, comme les métaux précieux. Historiquement, lorsqu'une monnaie était basée sur de tels actifs, il y avait des épisodes d'inflation (par exemple, par dévaluation du contenu métallique), mais ces épisodes n'atteignaient jamais les niveaux extrêmes d'hyperinflation. Dans les sections suivantes, nous étudierons en détail les périodes d'évaluation monétaire et les implications de ces différents systèmes monétaires sur l'inflation.
 
 ### Étude des Époques de Dévaluation Monétaire
 
@@ -793,7 +793,7 @@ Le phénomène des compagnies zombies ne se limite pas à l'histoire de l'Allema
 
 #### 6. Get rich quick!
 
-Dans l'histoire, on observe des moments où les individus cherchent à s'enrichir rapidement, comme ce fut le cas à Weimar et au Zimbabwe à travers l'arbitrage. Aujourd'hui, on note une tendance similaire avec l'émergence de certaines cryptomonnaies. Les gens sont tentés par des gains rapides, prenant des risques en espérant une multiplication exponentielle de leur investissement. Cette approche peut rappeler celle observée en période d'hyperinflation, où l'arbitrage est utilisé pour obtenir des gains rapides, souvent au détriment d'autres.
+Dans l'histoire, on observe des moments où les individus cherchent à s'enrichir rapidement, comme ce fut le cas à Weimar et au Zimbabwe à travers l'arbitrage. Aujourd'hui, on note une tendance similaire avec l'émergence de certaines [cryptomonnaies](https://planb.academy/resources/glossary/cryptocurrency). Les gens sont tentés par des gains rapides, prenant des risques en espérant une multiplication exponentielle de leur investissement. Cette approche peut rappeler celle observée en période d'hyperinflation, où l'arbitrage est utilisé pour obtenir des gains rapides, souvent au détriment d'autres.
 
 ![image](assets/fr/052.webp)
 

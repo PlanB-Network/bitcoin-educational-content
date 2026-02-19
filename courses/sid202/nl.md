@@ -83,10 +83,10 @@ Klaar om het potentieel van Elements en de Liquid Sidechain te verkennen? Laten 
 :::video id=eae666b4-eddc-4e00-adea-2a5f94396044:::
 
 
-Elements is een open source, Sidechain-geschikt Blockchain platform, dat toegang biedt tot krachtige functies ontwikkeld door leden van de gemeenschap, zoals Confidential Transactions en Issued Assets.
+Elements is een open source, Sidechain-geschikt [Blockchain](https://planb.academy/resources/glossary/blockchain) platform, dat toegang biedt tot krachtige functies ontwikkeld door leden van de gemeenschap, zoals Confidential Transactions en Issued Assets.
 
 
-Elements is in de kern een protocol dat het mogelijk maakt consensus te vormen rond de transactiegeschiedenis en regels die de overdracht en creatie van activa regelen die zijn opgeslagen in een gedistribueerd Blockchain Ledger.
+Elements is in de kern een protocol dat het mogelijk maakt [consensus](https://planb.academy/resources/glossary/consensus) te vormen rond de [transactiegeschiedenis](https://planb.academy/resources/glossary/transaction-tx) en regels die de overdracht en creatie van activa regelen die zijn opgeslagen in een gedistribueerd Blockchain Ledger.
 
 
 Meer achtergrondinformatie over Elements is te vinden op de Elements Project website (https://elementsproject.org/), de officiële Liquid blog (https://blog.Liquid.net/) en het ontwikkelaarsportaal (https://Liquid.net/devs).
@@ -125,7 +125,7 @@ Elements is een Blockchain platform voor algemeen gebruik, dat ook "gekoppeld" k
 #### Getekende blokken
 
 
-Elements gebruikt een Strong Federation van ondertekenaars, Block Signers genaamd, die blokken op een betrouwbare en tijdige manier ondertekenen en aanmaken. Dit verwijdert de transactielatentie van het PoW Mining proces, dat onderhevig is aan grote variatie in bloktijd vanwege de willekeurige poisson verdeling. Het Federated block signing proces bereikt betrouwbare blokcreatie zonder de noodzaak van vertrouwen van derden of computationele `algoritme` gebaseerde Mining.
+Elements gebruikt een Strong Federation van ondertekenaars, Block Signers genaamd, die [blokken](https://planb.academy/resources/glossary/block) op een betrouwbare en tijdige manier ondertekenen en aanmaken. Dit verwijdert de transactielatentie van het PoW Mining proces, dat onderhevig is aan grote variatie in bloktijd vanwege de willekeurige poisson verdeling. Het Federated block signing proces bereikt betrouwbare blokcreatie zonder de noodzaak van vertrouwen van derden of computationele `algoritme` gebaseerde Mining.
 
 
 Elements voegt al deze functies toe aan de Bitcoin Core codebase, breidt de mogelijkheden van het mainchain protocol uit en maakt nieuwe zakelijke gebruikssituaties mogelijk wanneer het wordt ingezet als een Sidechain of als een zelfstandige Blockchain oplossing.
@@ -146,7 +146,7 @@ Elements voegt al deze functies toe aan de Bitcoin Core codebase, breidt de moge
 :::video id=7c8c7981-11e5-47a2-a257-ef998f4892f5:::
 
 
-Elements biedt een technische oplossing voor problemen waar Blockchain gebruikers dagelijks mee te maken hebben; transactietraagheid, gebrek aan privacy en risico op fungibiliteit.
+Elements biedt een technische oplossing voor problemen waar Blockchain gebruikers dagelijks mee te maken hebben; transactietraagheid, gebrek aan privacy en risico op [fungibiliteit](https://planb.academy/resources/glossary/fungibility).
 
 
 Elements overwint deze problemen door het gebruik van Federated block signing en Confidential Transactions.
@@ -182,7 +182,7 @@ De acties die een lid van een Strong Federation kan uitvoeren zijn verdeeld over
 De combinatie van de rollen van deze deelnemers stelt Elements in staat om zowel snelle blokcreatie (snellere en definitieve transactiebevestiging) als verzekerde, overdraagbare activa (gekoppelde activa die direct aan een andere Blockchain gekoppeld kunnen worden) te leveren.
 
 
-Je kunt de whitepaper over sterke federaties hier lezen: https://blockstream.com/strong-federations.pdf
+Je kunt de [whitepaper](https://planb.academy/resources/glossary/white-paper) over sterke federaties hier lezen: https://blockstream.com/strong-federations.pdf
 
 
 ### Blok Ondertekenaars
@@ -232,7 +232,7 @@ Om een Sidechain op een betrouwbare manier te laten werken, moeten deelnemers ku
 De Federated 2-Way Peg functie maakt het mogelijk dat een activum interoperabel is met andere blockchains en representatief is voor het native activum van een andere Blockchain. Door uw Blockchain aan een andere te koppelen, kunt u de mogelijkheden van de mainchain uitbreiden en enkele van zijn inherente beperkingen overwinnen.
 
 
-Op hoog niveau vinden overdrachten naar de Sidechain plaats wanneer iemand tegoeden van de mainchain naar een Address stuurt, die gecontroleerd wordt door een watchmen Wallet met meerdere handtekeningen. Hierdoor worden de tegoeden op de mainchain bevroren. watchmen valideert dan de transactie en geeft hetzelfde bedrag van de bijbehorende activa vrij binnen de Sidechain. De vrijgegeven activa worden naar een Sidechain Wallet gestuurd, die aanspraak kan maken op de oorspronkelijke mainchain activa. Dit proces verplaatst activa van de moederketen naar de Sidechain.
+Op hoog niveau vinden overdrachten naar de Sidechain plaats wanneer iemand tegoeden van de mainchain naar een Address stuurt, die gecontroleerd wordt door een watchmen [Wallet](https://planb.academy/resources/glossary/wallet) met meerdere handtekeningen. Hierdoor worden de tegoeden op de mainchain bevroren. watchmen valideert dan de transactie en geeft hetzelfde bedrag van de bijbehorende activa vrij binnen de Sidechain. De vrijgegeven activa worden naar een Sidechain Wallet gestuurd, die aanspraak kan maken op de oorspronkelijke mainchain activa. Dit proces verplaatst activa van de moederketen naar de Sidechain.
 
 
 Om activa terug te sturen naar de mainchain, maakt een gebruiker een speciale peg-out transactie op de Sidechain. Deze transactie wordt gecontroleerd door watchmen, die vervolgens een transactie-uitgave ondertekenen van de Wallet met meerdere handtekeningen, die ze controleren op de mainchain. Een drempelaantal deelnemers in de federatie moet tekenen voordat de mainchain transactie geldig wordt. Wanneer de watchmen een activum terugsturen naar de mainchain vernietigen ze ook het corresponderende bedrag op de Sidechain, waardoor de activa effectief worden overgedragen tussen blockchains.
@@ -256,7 +256,7 @@ De Elements node software zelf heet `elementsd` en draait als een daemon op de m
 Opmerking: In dit document zullen we altijd verwijzen naar elementsd als de daemon versie, maar alles zou gedaan kunnen worden met Elements-qt, mits de serveroptie is ingeschakeld.
 
 
-De Elements daemon maakt verbinding met andere knooppunten op het netwerk zodat het Exchange transactie- en blokgegevens kan valideren en zijn lokale kopie van de Blockchain van het netwerk kan uitbreiden.
+De Elements daemon maakt verbinding met andere [knooppunten](https://planb.academy/resources/glossary/node) op het netwerk zodat het Exchange transactie- en blokgegevens kan valideren en zijn lokale kopie van de Blockchain van het netwerk kan uitbreiden.
 
 
 De Elements software bestaat ook uit een clientprogramma genaamd `elements-cli` waarmee u Remote Procedure Call (RPC) commando's naar elementsd kunt sturen vanaf de commandoregel. Dit kan bijvoorbeeld gebruikt worden om een Wallet balans op te vragen, transactie- of blokgegevens te bekijken of een transactie uit te zenden. Deze opzet zou bekend moeten zijn bij iedereen die de Bitcoin equivalenten, bitcoind en bitcoin-cli, heeft gebruikt.
@@ -298,8 +298,8 @@ Sommige dingen kunnen worden gewijzigd met deze parameters:
 - Het activum dat moet worden gebruikt bij het betalen van transactiekosten op het netwerk.
 - De opslaglocatie van de Blockchain databestanden.
 - De RPC referenties die gebruikt worden om verbinding te maken met een Bitcoin knooppunt.
-- De `n of m` drempel waaraan moet worden voldaan en de geldige openbare sleutels die blokken kunnen ondertekenen.
-- Het script dat moet worden uitgevoerd om activa in en uit een Sidechain te verplaatsen.
+- De `n of m` drempel waaraan moet worden voldaan en de geldige [openbare sleutels](https://planb.academy/resources/glossary/public-key) die blokken kunnen ondertekenen.
+- Het [script](https://planb.academy/resources/glossary/script) dat moet worden uitgevoerd om activa in en uit een Sidechain te verplaatsen.
 - Of een Bitcoin-knooppunt al dan niet als Sidechain moet worden verbonden.
 
 
@@ -447,7 +447,7 @@ Dat geeft ruwe transactiegegevens. Als je in de vout-sectie kijkt, zie je dat er
 Wat de eerste twee voutsecties laten zien zijn "Blinded ranges" van de waardebedragen en de Commitment gegevens die fungeren als bewijs van het werkelijke bedrag en type activa dat is verhandeld.
 
 
-Zelfs als we de private sleutel van e2 in de Wallet van e1 zouden importeren, zou het nog steeds niet in staat zijn om de bedragen en het type activa dat verhandeld is te zien, omdat het nog steeds geen kennis heeft van de Blinding key die door e2 gebruikt wordt. We zullen dit bewijzen door de private sleutel die gebruikt wordt door e2's Wallet te importeren in die van e1. Eerst moeten we de sleutel van e2 exporteren
+Zelfs als we de [private sleutel](https://planb.academy/resources/glossary/private-key) van e2 in de Wallet van e1 zouden importeren, zou het nog steeds niet in staat zijn om de bedragen en het type activa dat verhandeld is te zien, omdat het nog steeds geen kennis heeft van de Blinding key die door e2 gebruikt wordt. We zullen dit bewijzen door de private sleutel die gebruikt wordt door e2's Wallet te importeren in die van e1. Eerst moeten we de sleutel van e2 exporteren
 
 
 ```
@@ -531,7 +531,7 @@ Een uitgegeven activum profiteert ook van Confidential Transactions en kan opnie
 De eerste stap is dat we toegang nodig hebben tot twee Elements nodes, die we e1 en e2 zullen noemen. De nodes hebben hun blockchains gereset en de default asset tussen hen verdeeld.
 
 
-De twee nodes bevinden zich op hetzelfde lokale netwerk en zijn met elkaar verbonden, en delen daarom dezelfde transacties in hun transactie Mempool en identieke blockchains. Hoewel ze op dezelfde machine draaien, is het de moeite waard om op te merken dat ze niet dezelfde Blockchain bestanden delen. Elke node beheert zijn eigen lokale kopie van de Blockchain, die dezelfde transactiegeschiedenis bevat omdat ze in consensus zijn en zich aan dezelfde protocolregels houden als elkaar.
+De twee nodes bevinden zich op hetzelfde lokale netwerk en zijn met elkaar verbonden, en delen daarom dezelfde transacties in hun transactie [Mempool](https://planb.academy/resources/glossary/mempool) en identieke blockchains. Hoewel ze op dezelfde machine draaien, is het de moeite waard om op te merken dat ze niet dezelfde Blockchain bestanden delen. Elke node beheert zijn eigen lokale kopie van de Blockchain, die dezelfde transactiegeschiedenis bevat omdat ze in consensus zijn en zich aan dezelfde protocolregels houden als elkaar.
 
 
 Laten we beginnen met het controleren van het beeld dat elk knooppunt heeft van de bestaande activa-uitgiftes op het netwerk.
@@ -1268,7 +1268,7 @@ e2-cli importprivkey <priv-key-1>
 ```
 
 
-We moeten nu een aantal blokken rijpen op beide ketens. De rijpheid van blokken is een vereiste van het koppelingproces, omdat het beschermt tegen blokherschikkingen op mainchain die leiden tot een inflatie van pegged asset Supply binnen Sidechain.
+We moeten nu een aantal blokken rijpen op beide ketens. De rijpheid van blokken is een vereiste van het koppelingproces, omdat het beschermt tegen blokherschikkingen op mainchain die leiden tot een [inflatie](https://planb.academy/resources/glossary/inflation) van pegged asset Supply binnen Sidechain.
 
 
 Om dit hoofdstuk gericht te houden op de federated peg, zullen we blokken genereren zonder gebruik te maken van het block signing model dat we in het vorige hoofdstuk bekeken, en terugkeren naar het gebruik van het 'generate' commando om nieuwe blokken te maken.
@@ -1436,7 +1436,7 @@ In dit gedeelte hebben we gezien hoe:
 
 
 
-Om Elements als Sidechain te laten werken, moet het Genesis blok in zijn Blockchain worden aangemaakt met een `fedpegscript` op zijn plaats. Dit wordt gedaan door bij het opstarten van het knooppunt de `fedpegscript` parameter door te geven. Het script maakt dan deel uit van de consensusregels van Elements Blockchain en zorgt ervoor dat peg-in en peg-out verzoeken gevalideerd en uitgevoerd kunnen worden.
+Om Elements als Sidechain te laten werken, moet het [Genesis blok](https://planb.academy/resources/glossary/genesis-block) in zijn Blockchain worden aangemaakt met een `fedpegscript` op zijn plaats. Dit wordt gedaan door bij het opstarten van het knooppunt de `fedpegscript` parameter door te geven. Het script maakt dan deel uit van de consensusregels van Elements Blockchain en zorgt ervoor dat peg-in en peg-out verzoeken gevalideerd en uitgevoerd kunnen worden.
 
 
 Het `fedpegscript` bestaat uit publieke sleutels die beheerd worden door degenen die geautoriseerd zijn om de peg-acties uit te voeren. Het volgende toont het voorbeeldformaat van een 2-of-2 fedpegscript met meerdere handtekeningen:

@@ -387,7 +387,7 @@ Sio kila mtu alikaribisha utangazaji wa generated na makala ya Gawker. Ukweli kw
 
 
 
-Hasa, mpangaji programu Jeff Garzik, ambaye alihusika katika utengenezaji wa programu wakati huo, alipuuza uhusiano huu usiohitajika. Baada ya kuchapishwa kwa makala hiyo, yeye binafsi [aliwasiliana](https://www.theatlantic.com/technology/archive/2011/06/libertarian-dream-a-site-where-you-buy-drugs-with-digital-dollars/239776/) Adrien Chen kwa barua pepe kuelezea kwamba Bitcoin haikuwa isiyojulikana kama ilivyoonekana, miamala yote ikirekodiwa kabisa kwenye blockchain. Alimaliza barua pepe yake na tathmini hii:
+Hasa, mpangaji programu Jeff Garzik, ambaye alihusika katika utengenezaji wa programu wakati huo, alipuuza uhusiano huu usiohitajika. Baada ya kuchapishwa kwa makala hiyo, yeye binafsi [aliwasiliana](https://www.theatlantic.com/technology/archive/2011/06/libertarian-dream-a-site-where-you-buy-drugs-with-digital-dollars/239776/) Adrien Chen kwa barua pepe kuelezea kwamba Bitcoin haikuwa isiyojulikana kama ilivyoonekana, miamala yote ikirekodiwa kabisa kwenye [blockchain](https://planb.academy/resources/glossary/blockchain). Alimaliza barua pepe yake na tathmini hii:
 
 
 > "Kujaribu miamala mikubwa haramu na bitcoin, kutokana na mbinu zilizopo za uchambuzi wa takwimu zinazotumiwa na vyombo vya sheria, ni ujinga sana."
@@ -932,7 +932,7 @@ Akiwa na Bitcoin, Ira Miller alilenga "kujenga mifumo mbadala, kushindana na hal
 
 
 
-Wanaume hao wawili wanaelewana vizuri sana na ujuzi wao unakamilishana. Mnamo Agosti, Erik Voorhees alikuwa akitafuta mpangaji programu ili kutengeneza mojawapo ya mawazo yake, na Ira alikubali. Ilikuwa FeedZeBirds (kihalisi "lisha ndege"), jukwaa la matangazo linalowawezesha watumiaji kuongeza maudhui kwenye Twitter kwa kununua retweet, ambazo [walizizindua](https://bitcointalk.org/index.php?topic=52638.msg628165#msg628165) mnamo Novemba 23. Ilikuwa matumizi yenye shaka (hakika Twitter haikuhimiza aina hii ya tabia), wakitumia fursa ya upinzani wa udhibiti wa Bitcoin na ukosefu wa ada za miamala. Mnamo Novemba 28, washirika hao wawili [walionekana](https://www.youtube.com/watch?v=VuLAhZsFc1A) kwenye *Bitcoin Show* ili kutangaza bidhaa zao. Baadaye, pia walitengeneza kichakataji cha malipo cha Paysius na huduma ya kutuma pesa kwa barua pepe ya Coinapult.
+Wanaume hao wawili wanaelewana vizuri sana na ujuzi wao unakamilishana. Mnamo Agosti, Erik Voorhees alikuwa akitafuta mpangaji programu ili kutengeneza mojawapo ya mawazo yake, na Ira alikubali. Ilikuwa FeedZeBirds (kihalisi "lisha ndege"), jukwaa la matangazo linalowawezesha watumiaji kuongeza maudhui kwenye Twitter kwa kununua retweet, ambazo [walizizindua](https://bitcointalk.org/index.php?topic=52638.msg628165#msg628165) mnamo Novemba 23. Ilikuwa matumizi yenye shaka (hakika Twitter haikuhimiza aina hii ya tabia), wakitumia fursa ya upinzani wa udhibiti wa Bitcoin na ukosefu wa [ada za miamala](https://planb.academy/resources/glossary/transaction-fees). Mnamo Novemba 28, washirika hao wawili [walionekana](https://www.youtube.com/watch?v=VuLAhZsFc1A) kwenye *Bitcoin Show* ili kutangaza bidhaa zao. Baadaye, pia walitengeneza kichakataji cha malipo cha Paysius na huduma ya kutuma pesa kwa barua pepe ya Coinapult.
 
 
 
@@ -1234,7 +1234,7 @@ Mnamo mwaka wa 2011, ukosefu wa uhitaji wa idhini wa Bitcoin uliwafanya wanajami
 
 
 
-Mmoja wa watu waliohusika katika harakati hii alikuwa James McCarthy, ambaye alitumia jina bandia la Nefario kwenye jukwaa la Bitcoin, akimaanisha mhusika wa jina moja katika filamu ya uhuishaji *Despicable Me*. Nefario alikuwa Mwairishi anayeishi China, akiwa na kazi kama profesa wa Kiingereza katika chuo kikuu. Alipendezwa na shule ya Austria na mawazo ya Wacypherpunk, [akitangaza](https://web.archive.org/web/20110607050421/http://bitcoinweekly.com/articles/interview-with-nefario-founder-of-bitcoin-global) mwenyewe kuwa "kitu cha Cypherpunk". [Aligundua](https://bitcointalk.org/index.php?topic=2502.msg33800#msg33800) kuwepo kwa Bitcoin wakati wa 2010 na akachimba zaidi ya elfu moja kati yao. Kisha akajihusisha na miradi kadhaa, ikiwa ni pamoja na mradi wa jarida la mtandaoni la Bitcoin Weekly.
+Mmoja wa watu waliohusika katika harakati hii alikuwa James McCarthy, ambaye alitumia jina bandia la Nefario kwenye jukwaa la Bitcoin, akimaanisha mhusika wa jina moja katika filamu ya uhuishaji *Despicable Me*. Nefario alikuwa Mwairishi anayeishi China, akiwa na kazi kama profesa wa Kiingereza katika chuo kikuu. Alipendezwa na [shule ya Austria](https://planb.academy/resources/glossary/austrian-school) na mawazo ya Wacypherpunk, [akitangaza](https://web.archive.org/web/20110607050421/http://bitcoinweekly.com/articles/interview-with-nefario-founder-of-bitcoin-global) mwenyewe kuwa "kitu cha Cypherpunk". [Aligundua](https://bitcointalk.org/index.php?topic=2502.msg33800#msg33800) kuwepo kwa Bitcoin wakati wa 2010 na akachimba zaidi ya elfu moja kati yao. Kisha akajihusisha na miradi kadhaa, ikiwa ni pamoja na mradi wa jarida la mtandaoni la Bitcoin Weekly.
 
 
 
@@ -1428,7 +1428,7 @@ Tatizo la utekelezaji kamili ni kwamba hutumia rasilimali nyingi na haiwezekani 
 
 
 
-Wazo la kwanza lilikuwa kutumia nodi kama seva ya mbali, ambayo mtumiaji ana imani kamili. Mnamo Februari 2011, Amir Taaki [alizindua](https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538) mteja wa programu wa kusimamia wallet ndani kwa kuunganisha kwenye nodi iliyopo inayoitwa Spesmilo. Mteja huyo awali aliendesha Linux, lakini hivi karibuni alihamishiwa kwenye Windows. Jina hilo lilikuwa marejeleo ya spesmilo, kitengo cha zamani cha sarafu ya kimataifa kilichopendekezwa na mwanahisabati wa Uswisi René de Saussure (kaka wa mwanaisimu Ferdinand) mnamo 1907, kama sehemu ya mradi wa Kiesperanto.
+Wazo la kwanza lilikuwa kutumia [nodi](https://planb.academy/resources/glossary/node) kama seva ya mbali, ambayo mtumiaji ana imani kamili. Mnamo Februari 2011, Amir Taaki [alizindua](https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538) mteja wa programu wa kusimamia wallet ndani kwa kuunganisha kwenye nodi iliyopo inayoitwa Spesmilo. Mteja huyo awali aliendesha Linux, lakini hivi karibuni alihamishiwa kwenye Windows. Jina hilo lilikuwa marejeleo ya spesmilo, kitengo cha zamani cha sarafu ya kimataifa kilichopendekezwa na mwanahisabati wa Uswisi René de Saussure (kaka wa mwanaisimu Ferdinand) mnamo 1907, kama sehemu ya mradi wa Kiesperanto.
 
 
 
@@ -1498,7 +1498,7 @@ Aina mbili za uundaji zilitarajiwa. Aina moja (aina ya 1) ilikuwa rahisi, ikitoa
 
 
 
-Baadaye, mnamo Februari 2012, usanifishaji ulifanyika kwa kutumia [chapisho](https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198) la BIP 32. Ilielezea muundo wa jumla wa *Kihierarkia Kiamua Wallets*, HD Wallets, ambapo vichocheo hutumika kimfumo ili kupata funguo na anwani za seed. Imepitishwa hatua kwa hatua na wallet nyingi kwa miaka mingi.
+Baadaye, mnamo Februari 2012, usanifishaji ulifanyika kwa kutumia [chapisho](https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198) la [BIP](https://planb.academy/resources/glossary/bip) 32. Ilielezea muundo wa jumla wa *Kihierarkia Kiamua Wallets*, HD Wallets, ambapo vichocheo hutumika kimfumo ili kupata funguo na anwani za seed. Imepitishwa hatua kwa hatua na wallet nyingi kwa miaka mingi.
 
 
 
@@ -1664,7 +1664,7 @@ Zana nyingine iliyoonekana wakati huu ilikuwa VanityGen, [iliyoundwa](https://we
 
 
 
-Hatimaye, njia bora zaidi ya ulinzi dhidi ya wizi ni "ubongo wallet", ambayo inahusisha kukariri kifungu cha siri kinachotoa ufikiaji wa bitcoins zilizohifadhiwa kwenye anwani inayolingana. Kwa mfano, kifungu cha siri kinaweza kuhamishwa na SHA-256 ili kupata ufunguo wa kibinafsi unaowezesha fedha kutumika. Njia hii ilipendekezwa [https://bitcointalk.org/index.php?topic=35082.msg436289#msg436289) na Casascius mnamo Agosti 2011 na [iliyoangaziwa] (https://www.forbes.com/sites/jonmatonis/2012/03/12/brainwallet-the-ultimate-in-mobile-money/) katika Forbes na Jon Matonis mnamo Machi 2012. Hata hivyo, ni ukosefu wa usalama sana ikiwa entropy haitoshi. Na, bila shaka, inakabiliwa na mapungufu ya kumbukumbu ya binadamu; Ni onyesho la vitendo zaidi la nguvu ya Bitcoin kuliko matumizi endelevu.
+Hatimaye, njia bora zaidi ya ulinzi dhidi ya wizi ni "ubongo wallet", ambayo inahusisha kukariri kifungu cha [siri](https://planb.academy/resources/glossary/cryptography) kinachotoa ufikiaji wa bitcoins zilizohifadhiwa kwenye anwani inayolingana. Kwa mfano, kifungu cha siri kinaweza kuhamishwa na SHA-256 ili kupata ufunguo wa kibinafsi unaowezesha fedha kutumika. Njia hii ilipendekezwa [https://bitcointalk.org/index.php?topic=35082.msg436289#msg436289) na Casascius mnamo Agosti 2011 na [iliyoangaziwa] (https://www.forbes.com/sites/jonmatonis/2012/03/12/brainwallet-the-ultimate-in-mobile-money/) katika Forbes na Jon Matonis mnamo Machi 2012. Hata hivyo, ni ukosefu wa usalama sana ikiwa entropy haitoshi. Na, bila shaka, inakabiliwa na mapungufu ya kumbukumbu ya binadamu; Ni onyesho la vitendo zaidi la nguvu ya Bitcoin kuliko matumizi endelevu.
 
 
 
@@ -1757,7 +1757,7 @@ Ili kushughulikia tatizo hili na kuvunja ufuatiliaji wa fedha, suluhisho lilikuw
 
 
 
-Ya kwanza ni BitLaundry. Huduma hii [ilizinduliwa](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823) mnamo Septemba 2010 na Peter Vessenes, mjasiriamali wa Marekani mwenye shahada ya usimbaji fiche ambaye aligundua kuwepo kwa Bitcoin wakati wa kufyeka. Mchanganyiko [ulitoa](https://maltemoeser.de/paper/money-laundering.pdf#page=5) mtumiaji mwenye anwani ya matumizi moja, ambapo fedha zilizopaswa kufichwa zilitumwa. Bitcoin kisha zilirudishwa katika mfumo wa sarafu kadhaa (UTXO), ndani ya muamala wa kuingiza nyingi unaojumuisha bitcoin kutoka kwa watumiaji wengine, na kufanya mchanganyiko huo kuwa mzuri. Ada zilizotozwa zilikuwa karibu 2.5% ya kiasi kilichohusika. Mnamo Mei 2011, akihisi matatizo ya kisheria ambayo yanaweza kutokea kutokana na shughuli hii, Peter Vessenes [alihamisha](https://bitcointalk.org/index.php?topic=963.msg122955#msg122955) huduma kwa Mike Gogulski, mwanaharakati mashuhuri kwa kutokuwa na uraia, baada ya kukataa uraia wake wa Marekani bila kuwa na mwingine.
+Ya kwanza ni BitLaundry. Huduma hii [ilizinduliwa](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823) mnamo Septemba 2010 na Peter Vessenes, mjasiriamali wa Marekani mwenye shahada ya usimbaji fiche ambaye aligundua kuwepo kwa Bitcoin wakati wa kufyeka. Mchanganyiko [ulitoa](https://maltemoeser.de/paper/money-laundering.pdf#page=5) mtumiaji mwenye anwani ya matumizi moja, ambapo fedha zilizopaswa kufichwa zilitumwa. Bitcoin kisha zilirudishwa katika mfumo wa sarafu kadhaa ([UTXO](https://planb.academy/resources/glossary/utxo)), ndani ya muamala wa kuingiza nyingi unaojumuisha bitcoin kutoka kwa watumiaji wengine, na kufanya mchanganyiko huo kuwa mzuri. Ada zilizotozwa zilikuwa karibu 2.5% ya kiasi kilichohusika. Mnamo Mei 2011, akihisi matatizo ya kisheria ambayo yanaweza kutokea kutokana na shughuli hii, Peter Vessenes [alihamisha](https://bitcointalk.org/index.php?topic=963.msg122955#msg122955) huduma kwa Mike Gogulski, mwanaharakati mashuhuri kwa kutokuwa na uraia, baada ya kukataa uraia wake wa Marekani bila kuwa na mwingine.
 
 
 
@@ -1777,7 +1777,7 @@ Ya tatu ilikuwa ya aina maalum, kwani ilikuwa ni mchanganyiko uliojengwa ndani y
 
 
 
-Kuenea kwa vichanganyaji vya kati kulikuwa na athari ya kuchochea mawazo kuhusu uchanganyaji wa sarafu uliogawanywa, ambao ulianza katika msimu wa joto wa 2011 na pendekezo [pendekezo](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) lililotolewa na Hashcoin. Hii ilisababisha [urasimishaji](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902) wa CoinJoin na Gregory Maxwell mnamo 2013. Lakini hiyo ni hadithi nyingine kabisa...
+Kuenea kwa vichanganyaji vya kati kulikuwa na athari ya kuchochea mawazo kuhusu uchanganyaji wa sarafu uliogawanywa, ambao ulianza katika msimu wa joto wa 2011 na pendekezo [pendekezo](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) lililotolewa na Hashcoin. Hii ilisababisha [urasimishaji](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902) wa [CoinJoin](https://planb.academy/resources/glossary/coinjoin) na Gregory Maxwell mnamo 2013. Lakini hiyo ni hadithi nyingine kabisa...
 
 
 
@@ -1808,7 +1808,7 @@ Enzi ya Magharibi ya Pori ya Amerika ilijulikana kwa kukimbilia dhahabu—yaani,
 
 
 
-Katika vuli ya mwaka wa 2010, ongezeko la kwanza la wachimbaji lilisababisha matumizi makubwa ya GPU (kitengo cha usindikaji wa michoro) mining, ambayo ilikuwa na faida kubwa zaidi kuliko CPU (kitengo cha usindikaji cha kati) mining. Hata hivyo, maendeleo haya ya kiufundi yaliongeza ugumu wa mtandao kiasi kwamba wachimbaji wadogo hawakuweza tena kutumaini kupata kizuizi ndani ya muda unaofaa. Hii ilisababisha kuundwa kwa vikundi vya wachimbaji, kama vile BitcoinCZ Mining, Slush Pool. Kasi haikuishia hapo: kadri bei ilivyopanda mwaka wa 2011, ongezeko la wachimbaji liliendelea, na bwawa la mining likarudi kawaida haraka.
+Katika vuli ya mwaka wa 2010, ongezeko la kwanza la wachimbaji lilisababisha matumizi makubwa ya GPU (kitengo cha usindikaji wa michoro) mining, ambayo ilikuwa na faida kubwa zaidi kuliko CPU (kitengo cha usindikaji cha kati) mining. Hata hivyo, maendeleo haya ya kiufundi yaliongeza [ugumu](https://planb.academy/resources/glossary/difficulty) wa mtandao kiasi kwamba wachimbaji wadogo hawakuweza tena kutumaini kupata kizuizi ndani ya muda unaofaa. Hii ilisababisha kuundwa kwa vikundi vya wachimbaji, kama vile BitcoinCZ Mining, Slush Pool. Kasi haikuishia hapo: kadri bei ilivyopanda mwaka wa 2011, ongezeko la wachimbaji liliendelea, na bwawa la mining likarudi kawaida haraka.
 
 
 
@@ -2090,7 +2090,7 @@ Katika majira ya baridi ya 2011-2012, utata uliibuka kuhusu utekelezaji wa saini
 
 
 
-Katika sura hii, tunaangalia nyuma kipindi hiki cha kipekee katika historia ya kiufundi ya Bitcoin. Kwanza, tutachambua maendeleo ya programu na wazo la saini nyingi. Kisha tutaangalia mapendekezo mbalimbali ya kutekeleza mbinu hii, tukianza na OP\_EVAL na P2SH. Hatimaye, tutazungumzia jinsi Pay to Script Hash ilivyoamilishwa, licha ya matatizo mengi yaliyojitokeza.
+Katika sura hii, tunaangalia nyuma kipindi hiki cha kipekee katika historia ya kiufundi ya Bitcoin. Kwanza, tutachambua maendeleo ya programu na wazo la saini nyingi. Kisha tutaangalia mapendekezo mbalimbali ya kutekeleza mbinu hii, tukianza na OP\_EVAL na P2SH. Hatimaye, tutazungumzia jinsi Pay to [Script](https://planb.academy/resources/glossary/script) Hash ilivyoamilishwa, licha ya matatizo mengi yaliyojitokeza.
 
 
 
@@ -2642,7 +2642,7 @@ Licha ya kikwazo hiki, Litecoin ni hadithi ya mafanikio. Pamoja na namecoin, ni 
 
 
 
-Uwezekano wa kupata pesa kwa kuiga Bitcoin na kufaidika kutokana na kupanda kwa thamani ya vitengo ulikuwa dhahiri. Mapema Novemba 2010, hata kabla ya wazo la BitDNS kuibuka, uwezekano huu uliibuliwa kwenye jukwaa. Ribuck, mwanachama hai wa jukwaa wakati huo, [aliandika](https://bitcointalk.org/index.php?topic=1647.msg20646#msg20646) mashtaka ya nakala za baadaye za Bitcoin, huku akiunda neno "shitcoin" katika mchakato huo:
+Uwezekano wa kupata pesa kwa kuiga Bitcoin na kufaidika kutokana na kupanda kwa thamani ya vitengo ulikuwa dhahiri. Mapema Novemba 2010, hata kabla ya wazo la BitDNS kuibuka, uwezekano huu uliibuliwa kwenye jukwaa. Ribuck, mwanachama hai wa jukwaa wakati huo, [aliandika](https://bitcointalk.org/index.php?topic=1647.msg20646#msg20646) mashtaka ya nakala za baadaye za Bitcoin, huku akiunda neno "[shitcoin](https://planb.academy/resources/glossary/shitcoin)" katika mchakato huo:
 
 
 

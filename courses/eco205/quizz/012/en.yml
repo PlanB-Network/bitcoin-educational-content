@@ -1,0 +1,8 @@
+question: What is the main difference between the cardinal and ordinal approaches to utility in the text?
+answer: The cardinal approach assumes that utility can be measured in quantifiable units, while the ordinal approach is based on subjective preferences
+wrong_answers:
+  - "The cardinal approach studies individual needs, while the ordinal analyzes the collective needs of society."
+  - "The cardinal approach focuses on labor value, while the ordinal favors value based on the scarcity of goods."
+  - "The cardinal approach sees value as objective, while the ordinal sees it as dependent on the cost of production."
+explanation: |
+  The cardinal approach of Walras and Jevons measures utility in quantifiable points (e.g. 10 points for the first computer, 5 for the second). Menger's ordinal approach rejects this mathematization and asserts that we can only order our preferences (preferring A to B) without measuring the difference in intensity between them. This distinction is fundamental, as it leads to Austrian methodological subjectivism.

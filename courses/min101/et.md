@@ -117,11 +117,11 @@ Kas olete valmis avastama Bitcoin mining? Alustame!
 
 
 
-Enne kui liigume Bitcoin mining üksikasjaliku ja tehnilisema selgituse juurde, tahaksin anda teile ülevaate põhimõttest, mis on teadlikult lihtne ja skemaatiline. Kui teil on juba mõningad põhiteadmised olemas, saate pärast viktoriiniküsimustele vastamist järgmises peatükis otse asja tuumani minna. See peatükk on mõeldud eelkõige algajatele, et anda teile õrnalt alustuseks.
+Enne kui liigume Bitcoin [mining](https://planb.academy/resources/glossary/mining) üksikasjaliku ja tehnilisema selgituse juurde, tahaksin anda teile ülevaate põhimõttest, mis on teadlikult lihtne ja skemaatiline. Kui teil on juba mõningad põhiteadmised olemas, saate pärast viktoriiniküsimustele vastamist järgmises peatükis otse asja tuumani minna. See peatükk on mõeldud eelkõige algajatele, et anda teile õrnalt alustuseks.
 
 
 
-Kujutage Bitcoin ette kui suurt avalikku märkmikku, mida kõik jagavad ja kuhu me paneme kirja, kes kellele bitcoine saatis. Seda märkmikku nimetatakse plokiahelaks. See ei saa olla ainult ühe inimese käes, sest muidu peaks seda usaldama. Selle asemel töötab Bitcoin kollektiivselt: tuhanded arvutid kontrollivad ja haldavad sama versiooni sellest märkmikust.
+Kujutage Bitcoin ette kui suurt avalikku märkmikku, mida kõik jagavad ja kuhu me paneme kirja, kes kellele bitcoine saatis. Seda märkmikku nimetatakse [plokiahelaks](https://planb.academy/resources/glossary/blockchain). See ei saa olla ainult ühe inimese käes, sest muidu peaks seda usaldama. Selle asemel töötab Bitcoin kollektiivselt: tuhanded arvutid kontrollivad ja haldavad sama versiooni sellest märkmikust.
 
 
 
@@ -129,7 +129,7 @@ Kujutage Bitcoin ette kui suurt avalikku märkmikku, mida kõik jagavad ja kuhu 
 
 
 
-Bitcoins loote makse tegemisel tehingu. Seda tehingut ei lisata koheselt märkmikusse. See saadetakse kõigepealt võrku, seejärel oodatakse, kuni see integreeritakse järgmisesse tehingupaketti. Seda paketti nimetatakse plokiks.
+Bitcoins loote makse tegemisel [tehingu](https://planb.academy/resources/glossary/transaction-tx). Seda tehingut ei lisata koheselt märkmikusse. See saadetakse kõigepealt võrku, seejärel oodatakse, kuni see integreeritakse järgmisesse tehingupaketti. Seda paketti nimetatakse [plokiks](https://planb.academy/resources/glossary/block).
 
 
 
@@ -141,11 +141,11 @@ Blokk on lihtsalt tehingute kogum, mis on rühmitatud kokku. Kui plokk on valmis
 
 
 
-Mining on töö, mille käigus valideeritakse plokk energiat tarbides. Kaevandajateks kutsutud tegutsejad kasutavad spetsiaalseid arvuteid. Need masinad tarbivad elektrienergiat, et teha väga palju katseid, kuni nad leiavad tõendi, mille võrk aktsepteerib. Kui kaevandaja leiab selle tõendi, loetakse tema plokk kehtivaks.
+Mining on töö, mille käigus valideeritakse plokk energiat tarbides. [Kaevandajateks](https://planb.academy/resources/glossary/miner) kutsutud tegutsejad kasutavad spetsiaalseid arvuteid. Need masinad tarbivad elektrienergiat, et teha väga palju katseid, kuni nad leiavad tõendi, mille võrk aktsepteerib. Kui kaevandaja leiab selle tõendi, loetakse tema plokk kehtivaks.
 
 
 
-Kui plokk on valideeritud, edastatakse see võrku. Teised sõlmed kontrollivad kiiresti, kas see vastab reeglitele, ja lisavad selle seejärel eelmiste plokkide jadasse. Seepärast nimetatakse seda "plokiahelaks": iga uus plokk tuleb järjestikku teiste järel ja see ahel kasvab vähehaaval.
+Kui plokk on valideeritud, edastatakse see võrku. Teised [sõlmed](https://planb.academy/resources/glossary/node) kontrollivad kiiresti, kas see vastab reeglitele, ja lisavad selle seejärel eelmiste plokkide jadasse. Seepärast nimetatakse seda "plokiahelaks": iga uus plokk tuleb järjestikku teiste järel ja see ahel kasvab vähehaaval.
 
 
 
@@ -153,11 +153,11 @@ Kui plokk on valideeritud, edastatakse see võrku. Teised sõlmed kontrollivad k
 
 
 
-Kokkuvõttes luuakse kõigepealt tehingud. Seejärel rühmitatakse need plokkidesse. Seejärel valideerib kaevandaja selle ploki, tarbides selleks elektrit. Lõpuks lisatakse see plokk plokiahelasse ja selles sisalduvad tehingud kinnitatakse.
+Kokkuvõttes luuakse kõigepealt tehingud. Seejärel rühmitatakse need plokkidesse. Seejärel valideerib kaevandaja selle ploki, tarbides selleks elektrit. Lõpuks lisatakse see plokk plokiahelasse ja selles sisalduvad tehingud [kinnitatakse](https://planb.academy/resources/glossary/confirmation).
 
 
 
-Kui kaevurid tarbivad elektrit, siis mitte sellepärast, et nad on vabatahtlikud. Nad teevad seda sellepärast, et nad saavad selle eest tasu. Kui kaevur valideerib ploki, saab ta kahte liiki tulu. Ühest küljest saab ta äsja loodud bitcoine. Teisest küljest kogub ta kasutajate poolt plokis sisalduvate tehingute eest makstud tasu. Teisisõnu, kaevandaja saab hüvitist nii programmeeritud raha väljaandmise kui ka turu poolt määratud tehingutasude kaudu.
+Kui kaevurid tarbivad elektrit, siis mitte sellepärast, et nad on vabatahtlikud. Nad teevad seda sellepärast, et nad saavad selle eest [tasu](https://planb.academy/resources/glossary/transaction-fees). Kui kaevur valideerib ploki, saab ta kahte liiki tulu. Ühest küljest saab ta äsja loodud bitcoine. Teisest küljest kogub ta kasutajate poolt plokis sisalduvate tehingute eest makstud tasu. Teisisõnu, kaevandaja saab hüvitist nii programmeeritud raha väljaandmise kui ka turu poolt määratud tehingutasude kaudu.
 
 
 
@@ -187,7 +187,7 @@ Selleks, et mõista, mida Bitcoin mining endast kujutab, peame kõigepealt jälg
 
 
 
-Bitcoins on tehing andmestruktuur, mis annab bitcoinide omandiõiguse ühelt kasutajalt teisele üle. Konkreetselt öeldes tarbib see "väljundeid" varasematest tehingutest (nn UTXO), viidates neile kui "sisenditele", ja loob seejärel uued "väljundid", mis määravad, kellele need bitcoinid nüüd kuuluvad ja millistel tingimustel saab neid hiljem kulutada.
+Bitcoins on tehing andmestruktuur, mis annab bitcoinide omandiõiguse ühelt kasutajalt teisele üle. Konkreetselt öeldes tarbib see "väljundeid" varasematest tehingutest (nn [UTXO](https://planb.academy/resources/glossary/utxo)), viidates neile kui "sisenditele", ja loob seejärel uued "väljundid", mis määravad, kellele need bitcoinid nüüd kuuluvad ja millistel tingimustel saab neid hiljem kulutada.
 
 
 
@@ -195,7 +195,7 @@ Bitcoins on tehing andmestruktuur, mis annab bitcoinide omandiõiguse ühelt kas
 
 
 
-Bitcoin oluline punkt on kulutuste lubamine. Bitcoin ei ole kontol, nagu teie raha pangas võib olla, vaid on lukustatud kulutamistingimustega. Kui wallet soovib kasutada UTXO sisendina, peab ta esitama krüptograafilise tõendi, et tal on õigus seda avada. See tõend on sageli digitaalallkirja generated kujul, mis on saadud privaatvõttest. Seepärast nõuavad bitcoin'id oma privaatvõtmete kindlustamist: just need on need, mis vabastavad juurdepääsu teie bitcoinidele ja võimaldavad teil järelikult neid kulutada.
+Bitcoin oluline punkt on kulutuste lubamine. Bitcoin ei ole kontol, nagu teie raha pangas võib olla, vaid on lukustatud kulutamistingimustega. Kui [wallet](https://planb.academy/resources/glossary/wallet) soovib kasutada UTXO [sisendina](https://planb.academy/resources/glossary/input), peab ta esitama krüptograafilise tõendi, et tal on õigus seda avada. See tõend on sageli [digitaalallkirja](https://planb.academy/resources/glossary/digital-signature) generated kujul, mis on saadud [privaatvõttest](https://planb.academy/resources/glossary/private-key). Seepärast nõuavad bitcoin'id oma privaatvõtmete kindlustamist: just need on need, mis vabastavad juurdepääsu teie bitcoinidele ja võimaldavad teil järelikult neid kulutada.
 
 
 
@@ -221,7 +221,7 @@ Kui kasutaja Bitcoin wallet on tehingu korrektselt koostanud ja allkirjastanud, 
 
 
 
-Bitcoin on võrdõiguslik võrk: puudub keskne server, mis võtab vastu ja töötleb kõiki tehinguid. Seda rolli täidavad sõlmed ühiselt. Bitcoin-sõlm on tarkvara (nt Bitcoin Core), mis on ühendatud teiste Bitcoin-võrgu sõlmedega ja mille peamine ülesanne on tehingute ja plokkide kontrollimine, salvestamine ja edastamine.
+Bitcoin on [võrdõiguslik võrk](https://planb.academy/resources/glossary/peertopeer-p2p): puudub keskne server, mis võtab vastu ja töötleb kõiki tehinguid. Seda rolli täidavad sõlmed ühiselt. Bitcoin-sõlm on tarkvara (nt [Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core)), mis on ühendatud teiste Bitcoin-võrgu sõlmedega ja mille peamine ülesanne on tehingute ja plokkide kontrollimine, salvestamine ja edastamine.
 
 
 
@@ -233,7 +233,7 @@ Kui saadate tehingu wallet-st, edastab wallet selle sõlme (teie enda või teenu
 - allkirjad on kehtivad;
 - sisendid viitavad olemasolevatele UTXO-dele (st olemasolevatele bitcoinidele);
 - need UTXO ei ole juba mujal kulutatud;
-- väljundite hulk on väiksem või võrdne sisendite hulgaga (bitcoin'id ei teki tühjalt kohalt);
+- [väljundite](https://planb.academy/resources/glossary/output) hulk on väiksem või võrdne sisendite hulgaga (bitcoin'id ei teki tühjalt kohalt);
 - jne.
 
 
@@ -250,7 +250,7 @@ Kui tehing läbib kõik need kontrollid, edastab sõlmpunkt selle teistele võrg
 
 
 
-Tehingu edastamise ja selle kinnitamise vahel peab see ootama. Seda ooteala nimetatakse **mempool** (lühend sõnadest `memory` ja `pool`). Mempool on seega ajutine salvestusruum kehtivate, kuid veel kinnitamata tehingute jaoks.
+Tehingu edastamise ja selle kinnitamise vahel peab see ootama. Seda ooteala nimetatakse **[mempool](https://planb.academy/resources/glossary/mempool)** (lühend sõnadest `memory` ja `pool`). Mempool on seega ajutine salvestusruum kehtivate, kuid veel kinnitamata tehingute jaoks.
 
 
 
@@ -270,7 +270,7 @@ Selles etapis teab võrk tehingust, on seda kontrollinud ja hoiab seda mälus ku
 
 
 
-Kuna bitcoin on immateriaalne valuuta, peab see lahendama ühe probleemi: vältida topeltkulutusi ilma keskse asutuseta. Kui kaks tehingut üritavad kulutada sama UTXO, peab kõigil olema võimalik läheneda ühele, ühtsele olekule. Satoshi Nakamoto võtab selle probleemi kokku selle kuulsa lausega:
+Kuna bitcoin on immateriaalne valuuta, peab see lahendama ühe probleemi: vältida [topeltkulutusi](https://planb.academy/resources/glossary/double-spending-attack) ilma keskse asutuseta. Kui kaks tehingut üritavad kulutada sama UTXO, peab kõigil olema võimalik läheneda ühele, ühtsele olekule. Satoshi Nakamoto võtab selle probleemi kokku selle kuulsa lausega:
 
 
 
@@ -284,7 +284,7 @@ See ongi plokiahela roll: avalik register, mis sisaldab tehingute ajalugu. Kuid 
 
 
 
-Seda registrit ei saa ümber kirjutada tänu lihtsale põhimõttele: iga plokk sisaldab eelmise ploki krüptograafilist sõrmejälge (hash). Seega on plokid omavahel seotud: kui muuta eelmist plokki, muutub selle hash, mis katkestab seose järgmise plokiga, mis katkestab seose ülejärgmise plokiga jne. Just selline sõltuvuste ahel annab "*blockchainile*" oma nime.
+Seda registrit ei saa ümber kirjutada tänu lihtsale põhimõttele: iga plokk sisaldab eelmise ploki krüptograafilist sõrmejälge ([hash](https://planb.academy/resources/glossary/hash-function)). Seega on plokid omavahel seotud: kui muuta eelmist plokki, muutub selle hash, mis katkestab seose järgmise plokiga, mis katkestab seose ülejärgmise plokiga jne. Just selline sõltuvuste ahel annab "*blockchainile*" oma nime.
 
 
 
@@ -292,7 +292,7 @@ Seda registrit ei saa ümber kirjutada tänu lihtsale põhimõttele: iga plokk s
 
 
 
-Kui me oleme neid Bitcoin põhiprintsiipe mõistnud, saame kirjeldada kaevuri eesmärki konkreetsemalt: ehitada uus plokk, mis laiendab olemasolevat ahelat, kirjutades sinna pooleliolevad tehingud, ja seejärel püüda see kehtivaks muuta (see on kuulus "proof of work", mida me uurime hilisemas peatükis). Kuid kõigepealt avastame koos järgmises peatükis, kuidas kandidaatblokki konstrueeritakse.
+Kui me oleme neid Bitcoin põhiprintsiipe mõistnud, saame kirjeldada kaevuri eesmärki konkreetsemalt: ehitada uus plokk, mis laiendab olemasolevat ahelat, kirjutades sinna pooleliolevad tehingud, ja seejärel püüda see kehtivaks muuta (see on kuulus "[proof of work](https://planb.academy/resources/glossary/proof-of-work)", mida me uurime hilisemas peatükis). Kuid kõigepealt avastame koos järgmises peatükis, kuidas kandidaatblokki konstrueeritakse.
 
 
 
@@ -303,7 +303,7 @@ Kui me oleme neid Bitcoin põhiprintsiipe mõistnud, saame kirjeldada kaevuri ee
 
 
 
-Nüüd olete aru saanud, kuidas Bitcoin tehing toimib ja milline on plokiahela roll. Kuid enne, kui vaatame lähemalt, kuidas proof-of-work töötab, on veel üks oluline samm, mille kaevandaja peab tegema: kandidaatbloki konstrueerimine. Uurime üheskoos, mis on kandidaatblokk ja kuidas kaevandaja selle konstrueerib, enne kui alustame kehtiva tõendi otsimist.
+Nüüd olete aru saanud, kuidas Bitcoin tehing toimib ja milline on plokiahela roll. Kuid enne, kui vaatame lähemalt, kuidas proof-of-work töötab, on veel üks oluline samm, mille kaevandaja peab tegema: [kandidaatbloki](https://planb.academy/resources/glossary/candidate-block) konstrueerimine. Uurime üheskoos, mis on kandidaatblokk ja kuidas kaevandaja selle konstrueerib, enne kui alustame kehtiva tõendi otsimist.
 
 
 
@@ -318,7 +318,7 @@ Miner peavad oma plokid ise ehitama, enne kui nad üritavad neid kaevandada. Iga
 
 - valida, milliseid tehinguid lisada;
 - korraldada need tehingud viisil, mis on kooskõlas Bitcoin eeskirjadega;
-- toota ploki metaandmed, mis on salvestatud selle päisesse.
+- toota ploki metaandmed, mis on salvestatud selle [päisesse](https://planb.academy/resources/glossary/block-header).
 
 
 
@@ -340,7 +340,7 @@ Bitcoin plokk koosneb seega kahest peamisest osast:
 
 
 
-Pealkiri on oluline, kuna seda kasutatakse proof-of-work alusena: Bitcoin puhul ei kaevandata otseselt tervet plokki, vaid ainult ploki päist, mis võtab kokku teabe, mis on vajalik ploki sidumiseks ahelaga ja selle sisu kinnitamiseks. Selleks, et päises oleksid esindatud kõik tehingud, kasutab Bitcoin krüptograafilist vahendit: Merkle'i puu.
+Pealkiri on oluline, kuna seda kasutatakse proof-of-work alusena: Bitcoin puhul ei kaevandata otseselt tervet plokki, vaid ainult ploki päist, mis võtab kokku teabe, mis on vajalik ploki sidumiseks ahelaga ja selle sisu kinnitamiseks. Selleks, et päises oleksid esindatud kõik tehingud, kasutab Bitcoin krüptograafilist vahendit: [Merkle'i puu](https://planb.academy/resources/glossary/merkle-tree).
 
 
 
@@ -348,7 +348,7 @@ Pealkiri on oluline, kuna seda kasutatakse proof-of-work alusena: Bitcoin puhul 
 
 
 
-Kõigi tehingute loetlemine päises oleks võimatu: üks plokk võib sisaldada tuhandeid tehinguid, samas kui päise suurus on fikseeritud (80 baiti). Seepärast on lahendus arvutada unikaalne hash, mis sõltub kõigist plokis olevatest tehingutest: see on Merkle'i juur.
+Kõigi tehingute loetlemine päises oleks võimatu: üks plokk võib sisaldada tuhandeid tehinguid, samas kui päise suurus on fikseeritud (80 baiti). Seepärast on lahendus arvutada unikaalne hash, mis sõltub kõigist plokis olevatest tehingutest: see on [Merkle'i juur](https://planb.academy/resources/glossary/merkle-root).
 
 
 
@@ -371,7 +371,7 @@ Seega, kui üks tehing muutub, isegi ühe bitiga, on tulemuseks selle sõrmejäl
 
 
 
-Alates SegWit oleme eraldanud allkirjad teistest. Nii et tegelikult on igas plokis 2 Merkle'i puud, mis on pesitsetud. See eraldamine mõjutab seda, kuidas me loeme ploki suurust ja teatavaid krüptograafilisi kohustusi, kuid põhiidee jääb samaks: päis peab kompaktselt kinnitama kogu ploki sisu.
+Alates [SegWit](https://planb.academy/resources/glossary/segwit) oleme eraldanud allkirjad teistest. Nii et tegelikult on igas plokis 2 Merkle'i puud, mis on pesitsetud. See eraldamine mõjutab seda, kuidas me loeme ploki suurust ja teatavaid krüptograafilisi kohustusi, kuid põhiidee jääb samaks: päis peab kompaktselt kinnitama kogu ploki sisu.
 
 
 
@@ -402,19 +402,19 @@ Ploki päise pikkus on 80 baiti ja see sisaldab täpselt 6 välja. proof of work
 
 
 
-- Ajatempel: See on kaevandaja valitud ajatempel (Unixi aeg) (kehtivuspiirangutega), mis peab näitama, millal plokk kaevandati. See ei pea olema sekundilise täpsusega, kuid peab vastama teatavatele tingimustele, et see jääks võrgu jaoks vastuvõetavaks.
+- [Ajatempel](https://planb.academy/resources/glossary/timestamp): See on kaevandaja valitud ajatempel (Unixi aeg) (kehtivuspiirangutega), mis peab näitama, millal plokk kaevandati. See ei pea olema sekundilise täpsusega, kuid peab vastama teatavatele tingimustele, et see jääks võrgu jaoks vastuvõetavaks.
 
 
 
 
 
-- Kodeeritud raskusaste (`nbits`): See väli kodeerib praeguse raskusastme eesmärgi. Me läheme täpsemalt raskusi käsitlevas peatükis, kuid pidage meeles, et see parameeter on osa päisest.
+- Kodeeritud raskusaste (`nbits`): See väli kodeerib praeguse [raskusastme eesmärgi](https://planb.academy/resources/glossary/difficulty-target). Me läheme täpsemalt raskusi käsitlevas peatükis, kuid pidage meeles, et see parameeter on osa päisest.
 
 
 
 
 
-- Nonce (mitte üks kord): See on väärtus, mida kaevandaja võib vabalt muuta. See toimib proof-of-work ajal reguleeritava muutujana. Ma selgitan selle rolli üksikasjalikumalt järgmises peatükis, kuid on oluline mõista, et nonce on osa ploki päisest ja on mõeldud selleks, et võimaldada järjestikuseid katseid.
+- [Nonce](https://planb.academy/resources/glossary/nonce) (mitte üks kord): See on väärtus, mida kaevandaja võib vabalt muuta. See toimib proof-of-work ajal reguleeritava muutujana. Ma selgitan selle rolli üksikasjalikumalt järgmises peatükis, kuid on oluline mõista, et nonce on osa ploki päisest ja on mõeldud selleks, et võimaldada järjestikuseid katseid.
 
 
 
@@ -510,7 +510,7 @@ Hash-funktsioon on arvutisüsteemides huvitav, sest sellel on teatud omadused:
 
 
 
-Bitcoin-s mining jaoks kasutatav hash-funktsioon on "SHA256", mida rakendatakse kaks korda järjest. Seda tuntakse kui kahekordset SHA256 või SHA256d. See kahekordne hashimine annab ploki sõrmejälje.
+Bitcoin-s mining jaoks kasutatav hash-funktsioon on "[SHA256](https://planb.academy/resources/glossary/sha256)", mida rakendatakse kaks korda järjest. Seda tuntakse kui kahekordset SHA256 või SHA256d. See kahekordne hashimine annab ploki sõrmejälje.
 
 
 
@@ -618,7 +618,7 @@ mining protsess on väga lihtne:
 
 
 
-Tegelikult ei ole nonce ainus väli, mida saab muuta. Iga muudatus ploki tehingute raames toob kaasa Merkle'i puu juure muutmise ja seega ka selle ploki päise muutmise. Tänapäevase arvutusvõimsuse juures on 4,29 miljardi võimaliku nonce'i väärtuse läbimine võimalik suhteliselt kiiresti. Seepärast on olemas veel üks väli, mida üldiselt nimetatakse "*extra-nonce*", mis mitmekordistab veelgi päise muutmise võimalusi. Me tuleme selle mehhanismi juurde üksikasjalikumalt tagasi hilisemas peatükis.
+Tegelikult ei ole nonce ainus väli, mida saab muuta. Iga muudatus ploki tehingute raames toob kaasa Merkle'i puu juure muutmise ja seega ka selle ploki päise muutmise. Tänapäevase arvutusvõimsuse juures on 4,29 miljardi võimaliku nonce'i väärtuse läbimine võimalik suhteliselt kiiresti. Seepärast on olemas veel üks väli, mida üldiselt nimetatakse "*[extra-nonce](https://planb.academy/resources/glossary/extra-nonce)*", mis mitmekordistab veelgi päise muutmise võimalusi. Me tuleme selle mehhanismi juurde üksikasjalikumalt tagasi hilisemas peatükis.
 
 
 
@@ -630,7 +630,7 @@ Me nimetame seda "tõestuseks", sest tulemus on koheselt kontrollitav: kui plokk
 
 
 
-Bitcoin valges raamatus Satoshi Nakamoto toob proof-of-work süsteemi kasutamise kaks eelist Bitcoin-süsteemis:
+Bitcoin [valges raamatus](https://planb.academy/resources/glossary/white-paper) Satoshi Nakamoto toob proof-of-work süsteemi kasutamise kaks eelist Bitcoin-süsteemis:
 
 
 
@@ -650,7 +650,7 @@ Teisisõnu, proof-of-work on ajamärgistussüsteemi selgroog, mis muudab minevik
 
 
 
-- Määratleda enamuse reegel (konsensus) ja neutraliseerida Sybil:**
+- Määratleda enamuse reegel ([konsensus](https://planb.academy/resources/glossary/consensus)) ja neutraliseerida Sybil:**
 
 
 
@@ -658,7 +658,7 @@ Proof-of-Work võimaldab ka Bitcoin-l jõuda konsensusele, ilma et ta tugineks "
 
 
 
-Bitcoin puhul ei ole "*Majoriteet*" mitte suurim osalejate arv, vaid **ahela, mis kogub kõige rohkem tööd**. Nagu Satoshi ütleb, on see põhimõte "üks protsessor = üks hääl", st hääl, mida kaalutakse kehtivate plokkide tootmiseks kulutatud tegeliku arvutusvõimsuse järgi. Seega ei anna tuhandete sõlmede kasutuselevõtt iseenesest mingit eelist Bitcoin ees. Ilma täiendava arvutusvõimsuseta ei kogune rohkem tõendeid ja Sybil-rünnak muutub kasutuks, samas kui otsustusreegel jääb objektiivseks ja ei nõua osalejate tuvastamist.
+Bitcoin puhul ei ole "*Majoriteet*" mitte suurim osalejate arv, vaid **ahela, mis kogub kõige rohkem tööd**. Nagu Satoshi ütleb, on see põhimõte "üks protsessor = üks hääl", st hääl, mida kaalutakse kehtivate plokkide tootmiseks kulutatud tegeliku arvutusvõimsuse järgi. Seega ei anna tuhandete sõlmede kasutuselevõtt iseenesest mingit eelist Bitcoin ees. Ilma täiendava arvutusvõimsuseta ei kogune rohkem tõendeid ja [Sybil-rünnak](https://planb.academy/resources/glossary/sybil-attack) muutub kasutuks, samas kui otsustusreegel jääb objektiivseks ja ei nõua osalejate tuvastamist.
 
 
 
@@ -689,7 +689,7 @@ Järgmises peatükis teeme lühikese ajaloolise kõrvalepõike proof-of-work põ
 
 
 
-Proof-of-work ei ole Bitcoin jaoks leiutatud. Satoshi Nakamoto võttis üles ja ühendas mitu varasemat ideed, mida oli juba erinevates kontekstides uuritud.
+Proof-of-work ei ole Bitcoin jaoks leiutatud. [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) võttis üles ja ühendas mitu varasemat ideed, mida oli juba erinevates kontekstides uuritud.
 
 
 
@@ -701,7 +701,7 @@ Proof-of-work ei ole Bitcoin jaoks leiutatud. Satoshi Nakamoto võttis üles ja 
 
 
 
-See on Hashcash'i eesmärk, mille Adam Back pakkus välja 1997. aastal ja mida peetakse proof-of-work põhimõtte leiutamiseks. Hashcash'i põhimõte on väga sarnane mining-le: toota hash, mis vastab tingimusele (teatud arv nulle hashi alguses). Tõend on siis sõnumiga kaasas ja vastuvõtja saab seda väga kiiresti kontrollida. Kui saabub e-kiri, mis ei sisalda seda tõendit, võib seda kohe pidada rämpspostiks ja seega filtreerida. Rämpsposti saatjad on siis sunnitud kulutama märkimisväärse hulga energiat miljonite sõnumite saatmiseks, mis vähendab oluliselt (või isegi muudab täielikult olematuks) seda tüüpi tegevuse kasumlikkust, olgu see siis turunduslik või pettuslik.
+See on [Hashcash'i](https://planb.academy/resources/glossary/hashcash) eesmärk, mille Adam Back pakkus välja 1997. aastal ja mida peetakse proof-of-work põhimõtte leiutamiseks. Hashcash'i põhimõte on väga sarnane mining-le: toota hash, mis vastab tingimusele (teatud arv nulle hashi alguses). Tõend on siis sõnumiga kaasas ja vastuvõtja saab seda väga kiiresti kontrollida. Kui saabub e-kiri, mis ei sisalda seda tõendit, võib seda kohe pidada rämpspostiks ja seega filtreerida. Rämpsposti saatjad on siis sunnitud kulutama märkimisväärse hulga energiat miljonite sõnumite saatmiseks, mis vähendab oluliselt (või isegi muudab täielikult olematuks) seda tüüpi tegevuse kasumlikkust, olgu see siis turunduslik või pettuslik.
 
 
 
@@ -792,7 +792,7 @@ Kui selle difusiooniviivituse ajal avastab teine kaevandaja samuti kehtiva ploki
 
 
 
-Need lahkarvamused ei ole katastroofilised. Nakamoto konsensus ennustab, et pikas perspektiivis jääb ainult üks haru valituks: see, mis kogub kõige rohkem tööd. Tõepoolest, niipea kui näiteks ploki A peale kaevandatakse uus plokk, sünkroniseerib kogu võrk selle haru suhtes uuesti ja loobub plokist B, mis muutub seejärel "*tühjaks plokiks*", mida mõnikord ekslikult nimetatakse argikeeles "*orblaseks plokiks*".
+Need lahkarvamused ei ole katastroofilised. Nakamoto konsensus ennustab, et pikas perspektiivis jääb ainult üks haru valituks: see, mis kogub kõige rohkem tööd. Tõepoolest, niipea kui näiteks ploki A peale kaevandatakse uus plokk, sünkroniseerib kogu võrk selle haru suhtes uuesti ja loobub plokist B, mis muutub seejärel "*[tühjaks plokiks](https://planb.academy/resources/glossary/stale-block)*", mida mõnikord ekslikult nimetatakse argikeeles "*orblaseks plokiks*".
 
 
 
@@ -812,7 +812,7 @@ Teisest küljest on neil hind: mõne minuti jooksul töötab murdosa kaevuritest
 
 
 
-*"Hashrate*" viitab sekundis toodetud hash-arvutuste hulgale, olenemata sellest, kas seda teeb üks kaevur, kaevurite rühm või kõik kaevurid Bitcoin-s. Seda väljendatakse ühikutes "H/s" (hashid sekundis), mille kordajad on näiteks "TH/s" (terahashid sekundis) või "EH/s" (eksahashid sekundis). See näitab, mitu katset kaevandajad saavad teha igas sekundis, et saada sihtarvust madalam hash.
+*"[Hashrate](https://planb.academy/resources/glossary/hashrate)*" viitab sekundis toodetud hash-arvutuste hulgale, olenemata sellest, kas seda teeb üks kaevur, kaevurite rühm või kõik kaevurid Bitcoin-s. Seda väljendatakse ühikutes "H/s" (hashid sekundis), mille kordajad on näiteks "TH/s" (terahashid sekundis) või "EH/s" (eksahashid sekundis). See näitab, mitu katset kaevandajad saavad teha igas sekundis, et saada sihtarvust madalam hash.
 
 
 
@@ -833,7 +833,7 @@ Teisisõnu, kui homne Bitcoin võrk kahekordistab oma arvutusvõimsust, ühendad
 
 
 
-Bitcoin lahendab selle probleemi perioodilise sihtmärgi kohandamise mehhanismiga, mis kohandab mining raskust. Põhimõte on järgmine: iga 2016. ploki järel (umbes iga 2 nädala järel) arvutab iga sõlmpunkt raskuse eesmärgi uuesti, jälgides, kui palju aega tegelikult kulus nende 2016. plokkide tootmiseks.
+Bitcoin lahendab selle probleemi perioodilise sihtmärgi kohandamise mehhanismiga, mis kohandab mining [raskust](https://planb.academy/resources/glossary/difficulty-adjustment). Põhimõte on järgmine: iga 2016. ploki järel (umbes iga 2 nädala järel) arvutab iga sõlmpunkt raskuse eesmärgi uuesti, jälgides, kui palju aega tegelikult kulus nende 2016. plokkide tootmiseks.
 
 
 
@@ -959,7 +959,7 @@ See loogika põhineb mänguteoorial: protokoll muudab aususe ratsionaalseks. Kae
 
 
 
-Selle saavutamiseks näeb Bitcoin protokoll ette, et kaevandaja, kes leiab kehtiva ploki, võidab õiguse lisada sellesse konkreetne tehing, mis annab kaevandajale teatud summa BTC. Seda nimetatakse **blokipreemiaks**. Selles esimeses peatükis on eesmärk mõista, millest see koosneb ja kuidas see määratakse. Hiljem näeme, kuidas raha loomise osa aja jooksul areneb (koos poolitustega) ja kuidas seda tegelikult tehniliselt kogutakse (coinbase'i tehingu kaudu).
+Selle saavutamiseks näeb Bitcoin protokoll ette, et kaevandaja, kes leiab kehtiva ploki, võidab õiguse lisada sellesse konkreetne tehing, mis annab kaevandajale teatud summa BTC. Seda nimetatakse **[blokipreemiaks](https://planb.academy/resources/glossary/block-reward)**. Selles esimeses peatükis on eesmärk mõista, millest see koosneb ja kuidas see määratakse. Hiljem näeme, kuidas raha loomise osa aja jooksul areneb (koos poolitustega) ja kuidas seda tegelikult tehniliselt kogutakse (coinbase'i tehingu kaudu).
 
 
 
@@ -976,7 +976,7 @@ Just see sündmus (ploki tegelik lisamine plokiahelasse) käivitab võitnud kaev
 
 
 
-- blokeeritud toetus**;
+- [blokeeritud toetus](https://planb.academy/resources/glossary/block-subsidy)**;
 - tehingutasud**.
 
 
@@ -1091,7 +1091,7 @@ Seetõttu võivad kaks tehingut maksta absoluutarvudes sama suurt tasu, kuid ei 
 
 
 
-Seetõttu väljendame praktikas tehingu konkurentsivõimet tasu suhtarvuga, mis on tavaliselt sats/vB (satoshi virtuaalse baidi kohta). Selle suhtarvu arvutamine on lihtne:
+Seetõttu väljendame praktikas tehingu konkurentsivõimet tasu suhtarvuga, mis on tavaliselt sats/vB ([satoshi](https://planb.academy/resources/glossary/satoshi-sat) virtuaalse baidi kohta). Selle suhtarvu arvutamine on lihtne:
 
 
 
@@ -1142,7 +1142,7 @@ Järgmises peatükis keskendume üksikasjalikumalt blokksubsiidiumile, et mõist
 
 
 
-Eelmises peatükis nägime, et kaevandajad, kes toodavad kehtiva ploki, saavad tasu, mis koosneb plokis sisalduvate tehingute tasudest ja plokkide toetusest. Me ei ole aga veel selgitanud, kuidas selle toetuse suurus määratakse. Mehhanism, mis seda väärtust määrab ja arendab, on tuntud kui ***halving***.
+Eelmises peatükis nägime, et kaevandajad, kes toodavad kehtiva ploki, saavad tasu, mis koosneb plokis sisalduvate tehingute tasudest ja plokkide toetusest. Me ei ole aga veel selgitanud, kuidas selle toetuse suurus määratakse. Mehhanism, mis seda väärtust määrab ja arendab, on tuntud kui ***[halving](https://planb.academy/resources/glossary/halving)***.
 
 
 
@@ -1251,7 +1251,7 @@ Peamine põhjus on mehaaniline. Läbi järjestikuste poolitamiste langeb plokksu
 
 
 
-Lisaks võivad sellele lisanduda ka marginaalsed protokolliga seotud kõrvalekalded. Näiteks võivad mõned kaevandajad harvadel juhtudel jätta oma toetuse täielikult taotlemata, mis vähendab lõplikult tegelikult väljastatud bitcoinide kogust. Samuti võib mainida 3. jaanuaril 2009 Satoshi toodetud genesis-blokki, mille loodud bitcoinid ei ole osa UTXO set-st, samuti teatud ajaloolisi sündmusi, mis on seotud vigadega, näiteks topelt coinbase'i tehingu identifikaatoritega.
+Lisaks võivad sellele lisanduda ka marginaalsed protokolliga seotud kõrvalekalded. Näiteks võivad mõned kaevandajad harvadel juhtudel jätta oma toetuse täielikult taotlemata, mis vähendab lõplikult tegelikult väljastatud bitcoinide kogust. Samuti võib mainida 3. jaanuaril 2009 Satoshi toodetud [genesis-blokki](https://planb.academy/resources/glossary/genesis-block), mille loodud bitcoinid ei ole osa [UTXO set](https://planb.academy/resources/glossary/utxo-set)-st, samuti teatud ajaloolisi sündmusi, mis on seotud vigadega, näiteks topelt coinbase'i tehingu identifikaatoritega.
 
 
 
@@ -1295,7 +1295,7 @@ Eelmistes peatükkides esitasime kaks olulist punkti. Esiteks, kaevandaja, kes s
 
 
 
-Nagu me nägime kursuse esimeses osas, sisaldab iga Bitcoin plokk nimekirja pooleliolevatest tehingutest, mida ta kinnitab. Kõige esimene neist on alati coinbase'i tehing. See on see, mis võimaldab võitnud kaevandajal oma tasu saada.
+Nagu me nägime kursuse esimeses osas, sisaldab iga Bitcoin plokk nimekirja pooleliolevatest tehingutest, mida ta kinnitab. Kõige esimene neist on alati [coinbase'i tehing](https://planb.academy/resources/glossary/coinbase-transaction). See on see, mis võimaldab võitnud kaevandajal oma tasu saada.
 
 
 
@@ -1303,7 +1303,7 @@ Nagu me nägime kursuse esimeses osas, sisaldab iga Bitcoin plokk nimekirja pool
 
 
 
-Esmapilgul näeb see välja nagu klassikaline Bitcoin tehing: sellel on TXID, väljundid ja see sisaldub ploki Merkle-puus. Siiski erineb see ühes olulises osas: see ei kuluta ühtegi olemasolevat UTXO.
+Esmapilgul näeb see välja nagu klassikaline Bitcoin tehing: sellel on [TXID](https://planb.academy/resources/glossary/txid-transaction-identifier), väljundid ja see sisaldub ploki Merkle-puus. Siiski erineb see ühes olulises osas: see ei kuluta ühtegi olemasolevat UTXO.
 
 
 
@@ -1402,7 +1402,7 @@ Aja jooksul on coinbase'i tehingust saanud eriti mugav sisestuspunkt, kuhu saab 
 
 
 
-BIP-34 on 2013. aasta märtsis kasutusele võetud fork soft, alustades plokist 227,930, millega võeti kasutusele Bitcoin plokkide 2. versioon. See uus versioon nõuab, et iga plokk sisaldaks coinbase'i tehingu `scriptSig`-sõnas loodava ploki kõrgust.
+[BIP-34](https://planb.academy/resources/glossary/bip0034) on 2013. aasta märtsis kasutusele võetud fork soft, alustades plokist 227,930, millega võeti kasutusele Bitcoin plokkide 2. versioon. See uus versioon nõuab, et iga plokk sisaldaks coinbase'i tehingu `scriptSig`-sõnas loodava ploki kõrgust.
 
 
 
@@ -1454,7 +1454,7 @@ Operatiivsetel põhjustel kasutavad mining basseinid ka coinbase'i sisendi `scri
 
 
 
-Alates SegWit pehme fork lubamisest 2017. aastal on tunnistajate andmed (st üldiselt allkirjad) eraldatud tehingu põhiandmetest, eelkõige Bitcoin tehingute võltsitavuse probleemi parandamiseks. See eraldamine toob seega kaasa uue elemendi, mis tuleb blokis kinnitada.
+Alates SegWit pehme fork lubamisest 2017. aastal on tunnistajate andmed (st üldiselt allkirjad) eraldatud tehingu põhiandmetest, eelkõige [Bitcoin tehingute võltsitavuse probleemi](https://planb.academy/resources/glossary/malleability-transaction) parandamiseks. See eraldamine toob seega kaasa uue elemendi, mis tuleb blokis kinnitada.
 
 
 
@@ -1500,7 +1500,7 @@ See sõnum, mis on olemas Genesis plokis (Bitcoin kõige esimene plokk), on tege
 ### Lõpptähtaeg
 
 
-Kui plokk on kaevandatud ja levitatud, ilmub coinbase'i tehing plokiahelas nagu iga teine tehing. See loob võitnud kaevandajale UTXO, mis võimaldab tal oma tasu kätte saada. Need UTXO ei ole siiski kohe kulutatavad: nende suhtes kehtib tähtaeg. See tähtaeg on määratud 100 plokki pärast mündipanga sisaldavat plokki. Konkreetselt öeldes peab coinbase'i tehingu kogusumma olema 101 kinnitust, et võitnud kaevandaja saaks selle väljundeid kulutada.
+Kui plokk on kaevandatud ja levitatud, ilmub coinbase'i tehing plokiahelas nagu iga teine tehing. See loob võitnud kaevandajale UTXO, mis võimaldab tal oma tasu kätte saada. Need UTXO ei ole siiski kohe kulutatavad: nende suhtes kehtib [tähtaeg](https://planb.academy/resources/glossary/maturity-period). See tähtaeg on määratud 100 plokki pärast mündipanga sisaldavat plokki. Konkreetselt öeldes peab coinbase'i tehingu kogusumma olema 101 kinnitust, et võitnud kaevandaja saaks selle väljundeid kulutada.
 
 
 ![Image](assets/fr/040.webp)
@@ -1615,7 +1615,7 @@ Just sel hetkel hakkasid mining raskused plahvatuslikult kasvama. Ajavahemikul 2
 
 
 
-GPU ajastu ja kaasaegse ASIC ajastu vahel oli vahepealne etapp: FPGAde kasutamine. FPGA on ümberprogrammeeritav komponent: seda saab konfigureerida nii, et see rakendab otseselt konkreetse arvutuse, antud juhul SHA256d, loogikahela. Idee oli liikuda veelgi kaugemale üldotstarbelisest riistvarast (CPU/GPU), et suurendada energiatõhusust. Kuid peagi rakendatakse virtuaalselt FPGAs tehtud parandusi füüsiliselt kiipidele endile: see on ASIC saabumine.
+GPU ajastu ja kaasaegse [ASIC](https://planb.academy/resources/glossary/asic) ajastu vahel oli vahepealne etapp: FPGAde kasutamine. FPGA on ümberprogrammeeritav komponent: seda saab konfigureerida nii, et see rakendab otseselt konkreetse arvutuse, antud juhul SHA256d, loogikahela. Idee oli liikuda veelgi kaugemale üldotstarbelisest riistvarast (CPU/GPU), et suurendada energiatõhusust. Kuid peagi rakendatakse virtuaalselt FPGAs tehtud parandusi füüsiliselt kiipidele endile: see on ASIC saabumine.
 
 
 
@@ -1667,7 +1667,7 @@ Sellest hetkest alates ei räägi me enam lihtsalt hobist. Me räägime sektoris
 
 
 
-mining-farm on kõige lihtsamal kujul hoone (või konteinerite kogum), mis on täidetud ASIC-ga, mis töötab 24/7. Väljakutse on nüüd stabiilsete töötingimuste säilitamine:
+[mining-farm](https://planb.academy/resources/glossary/mining-farm) on kõige lihtsamal kujul hoone (või konteinerite kogum), mis on täidetud ASIC-ga, mis töötab 24/7. Väljakutse on nüüd stabiilsete töötingimuste säilitamine:
 
 
 
@@ -1724,7 +1724,7 @@ https://planb.academy/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-
 
 
 
-Mining Bitcoin on seotud pidevate ja vältimatute kuludega, mille hulgas on eelkõige masina energiatarbimine. Need kulud tekivad sõltumata mis tahes tulemustest, kuigi mining tulud on oma olemuselt haruldased ja juhuslikud. Ploki leidmine sõltub ainult kaevandaja osakaalust hashrate, mis muudab tulu seda ettearvamatumaks, mida väiksem on see osakaal. Just see praktiline probleem viis kiiresti mining-poolide laialdase kasutamiseni. Selles MIN 101 kursuse viimases peatükis tutvustan Bitcoin mining poolide põhimõtteid ja toimimist.
+Mining Bitcoin on seotud pidevate ja vältimatute kuludega, mille hulgas on eelkõige masina energiatarbimine. Need kulud tekivad sõltumata mis tahes tulemustest, kuigi mining tulud on oma olemuselt haruldased ja juhuslikud. Ploki leidmine sõltub ainult kaevandaja osakaalust hashrate, mis muudab tulu seda ettearvamatumaks, mida väiksem on see osakaal. Just see praktiline probleem viis kiiresti [mining-poolide](https://planb.academy/resources/glossary/pool-mining) laialdase kasutamiseni. Selles MIN 101 kursuse viimases peatükis tutvustan Bitcoin mining poolide põhimõtteid ja toimimist.
 
 
 
@@ -1736,7 +1736,7 @@ mining-pool on organisatsioon (sageli veebipõhine teenus), mis koondab paljude 
 
 
 
-mining-poolis osalejaid nimetatakse siis sageli "hasheriteks", mitte "kaevandajateks", kuna nad ei tee enam kogu mining tööd, vaid lihtsalt hashivad neile poolilt edastatud andmeid.
+mining-poolis osalejaid nimetatakse siis sageli "[hasheriteks](https://planb.academy/resources/glossary/hasher)", mitte "kaevandajateks", kuna nad ei tee enam kogu mining tööd, vaid lihtsalt hashivad neile poolilt edastatud andmeid.
 
 
 
@@ -1807,7 +1807,7 @@ Esimesed basseinid loodi just sellele uuele reaalsusele reageerides. Braiins Poo
 
 
 
-Tehnilisest küljest struktureeriti basseinid seejärel spetsiaalsete kommunikatsiooniprotokollide ümber basseini ja kaevurite vahel (nt Stratum, seejärel Stratum V2), et tõhusalt korraldada hajutatud tööd. Neid kontseptsioone vaatleme lähemalt meie MIN 201 koolituskursusel.
+Tehnilisest küljest struktureeriti basseinid seejärel spetsiaalsete kommunikatsiooniprotokollide ümber basseini ja kaevurite vahel (nt [Stratum](https://planb.academy/resources/glossary/stratum), seejärel Stratum V2), et tõhusalt korraldada hajutatud tööd. Neid kontseptsioone vaatleme lähemalt meie MIN 201 koolituskursusel.
 
 
 

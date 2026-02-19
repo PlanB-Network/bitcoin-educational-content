@@ -1,0 +1,8 @@
+question: According to the methodological individualism of the Austrian school, how should economic phenomena be analyzed?
+answer: Starting from individual actions and intentions to understand collective phenomena
+wrong_answers:
+  - Using mathematical models to analyze the behavior of social groups
+  - "By studying the abstract collective forces that determine the economy as a whole"
+  - By applying deterministic historical laws to the major economic aggregates
+explanation: |
+  Methodological individualism asserts that economic phenomena can only be understood by reducing them to individual actions. This approach is opposed to methods that favor analysis using aggregates, standardized mathematical models or abstract collective forces. For the Austrian school, macroeconomic phenomena are the result of millions of subjective, dynamic individual decisions.

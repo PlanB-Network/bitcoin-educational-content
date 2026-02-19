@@ -65,7 +65,7 @@ E se a história monetária se estivesse a repetir diante dos nossos olhos? Julg
 ### Definições de inflação
 
 
-A inflação é um conceito frequentemente mal compreendido devido às suas múltiplas definições e interpretações. A perceção da inflação varia entre diferentes grupos, como os bitcoiners e os economistas tradicionais. Vamos primeiro esclarecer as definições antes de discutir a hiperinflação:
+A [inflação](https://planb.academy/resources/glossary/inflation) é um conceito frequentemente mal compreendido devido às suas múltiplas definições e interpretações. A perceção da inflação varia entre diferentes grupos, como os bitcoiners e os economistas tradicionais. Vamos primeiro esclarecer as definições antes de discutir a hiperinflação:
 
 
 
@@ -111,7 +111,7 @@ Outro método consistia em reduzir a quantidade de metal precioso nas moedas bas
 ![image](assets/pt/002.webp)
 
 
-É fundamental sublinhar que a hiperinflação é observada principalmente com moedas fiduciárias que não são apoiadas pelos seus activos subjacentes, como os metais preciosos. Historicamente, quando uma moeda era baseada em tais activos, ocorreram episódios de inflação (por exemplo, através da desvalorização do conteúdo metálico), mas esses episódios nunca atingiram os níveis extremos da hiperinflação. Nas secções seguintes, estudaremos em pormenor os períodos de desvalorização monetária e as implicações destes diferentes sistemas monetários na inflação.
+É fundamental sublinhar que a hiperinflação é observada principalmente com [moedas fiduciárias](https://planb.academy/resources/glossary/fiat) que não são apoiadas pelos seus activos subjacentes, como os metais preciosos. Historicamente, quando uma moeda era baseada em tais activos, ocorreram episódios de inflação (por exemplo, através da desvalorização do conteúdo metálico), mas esses episódios nunca atingiram os níveis extremos da hiperinflação. Nas secções seguintes, estudaremos em pormenor os períodos de desvalorização monetária e as implicações destes diferentes sistemas monetários na inflação.
 
 
 ### Estudo dos períodos de desvalorização monetária
@@ -1160,7 +1160,7 @@ O fenómeno das empresas "zombie" não se limita à Alemanha do pós-guerra. Ain
 #### 6. Fique rico rapidamente!
 
 
-A história revela casos em que os indivíduos procuraram acumular riqueza rapidamente, como foi o caso em Weimar e no Zimbabué, através da arbitragem. Atualmente, observa-se uma tendência semelhante com a ascensão de certas criptomoedas. As pessoas são tentadas por ganhos rápidos, assumindo riscos na esperança de um aumento exponencial do seu investimento. Esta abordagem faz lembrar a dos períodos de hiperinflação, em que a arbitragem era utilizada para obter lucros rápidos, muitas vezes à custa de terceiros.
+A história revela casos em que os indivíduos procuraram acumular riqueza rapidamente, como foi o caso em Weimar e no Zimbabué, através da arbitragem. Atualmente, observa-se uma tendência semelhante com a ascensão de certas [criptomoedas](https://planb.academy/resources/glossary/cryptocurrency). As pessoas são tentadas por ganhos rápidos, assumindo riscos na esperança de um aumento exponencial do seu investimento. Esta abordagem faz lembrar a dos períodos de hiperinflação, em que a arbitragem era utilizada para obter lucros rápidos, muitas vezes à custa de terceiros.
 
 
 ![image](assets/pt/052.webp)

@@ -50,7 +50,7 @@ Ikiwa uko tayari kuanza tukio hili, ninakualika ubofye video ifuatayo na uanze n
 > Satoshi Nakamoto, mvumbuzi asiyejulikana wa Bitcoin
 ### Jinsi Pesa Inaundwa
 
-Katika mfumo wetu wa fedha wa siku hizi, pesa kimsingi huundwa kupitia utaratibu wa benki unaojulikana kama "fedha ya akiba ya sehemu." Neno hili kimsingi linamaanisha kuwa benki hazitakiwi kushikilia akiba nyingi kadri zinavyopokea katika amana. Kwa hivyo, wanaweza kuunda nguvu mpya ya ununuzi wakati wa kutoa mikopo na, kinyume chake, kupunguza uwezo wa kununua wateja wanapolipa mikopo yao.
+Katika mfumo wetu wa fedha wa siku hizi, pesa kimsingi huundwa kupitia utaratibu wa benki unaojulikana kama "[fedha ya akiba ya sehemu](https://planb.academy/resources/glossary/fractional-reserves)." Neno hili kimsingi linamaanisha kuwa benki hazitakiwi kushikilia akiba nyingi kadri zinavyopokea katika amana. Kwa hivyo, wanaweza kuunda nguvu mpya ya ununuzi wakati wa kutoa mikopo na, kinyume chake, kupunguza uwezo wa kununua wateja wanapolipa mikopo yao.
 
 Kwa mfano, ikiwa ungewasiliana na benki ya eneo lako ili kupata rehani kwa ununuzi wa nyumba, pesa ulizokopeshwa na benki zingepatikana kama kiingilio cha uwekaji hesabu. Katika uhasibu, kwa kawaida tunawakilisha utajiri wa jumla wa mtu binafsi kwa kutumia mizania, ambayo ina pande mbili: upande wa mali, ikijumuisha mali yoyote, mikataba ya kifedha, orodha au aina nyinginezo za mali zinazomilikiwa, na upande wa dhima, unaoonyesha chanzo cha fedha kilichotumika kuunda mtaji ulioorodheshwa kwenye upande wa mali. Tofauti kati ya mali na dhima inarejelewa kama "sawa" na inaweza kuzingatiwa kama utajiri kamili wa huluki.
 
@@ -66,7 +66,7 @@ Kielelezo cha 1: Uundaji wa Pesa kama Maingizo ya Uwekaji hesabu
 >
 
 > Henry Ford
-Utaratibu huu huruhusu benki kurekodi miamala yote, ikijumuisha uhamishaji wa fedha kupitia kielektroniki, ununuzi wa kadi ya mkopo na hundi, katika kipindi maalum (kwa kawaida wiki au mwezi). Kisha wanatatua miamala hii kwa kutumia akiba ya benki, ambayo ni aina nyingine ya sarafu ya fiat ambayo haijawahi kutumiwa na umma. Akiba ya benki hufanyika katika benki kuu katika akaunti maalum inayopatikana tu kwa benki zilizo na leseni na taasisi za kifedha.
+Utaratibu huu huruhusu benki kurekodi miamala yote, ikijumuisha uhamishaji wa fedha kupitia kielektroniki, ununuzi wa kadi ya mkopo na hundi, katika kipindi maalum (kwa kawaida wiki au mwezi). Kisha wanatatua miamala hii kwa kutumia akiba ya benki, ambayo ni aina nyingine ya [sarafu ya fiat](https://planb.academy/resources/glossary/fiat) ambayo haijawahi kutumiwa na umma. Akiba ya benki hufanyika katika benki kuu katika akaunti maalum inayopatikana tu kwa benki zilizo na leseni na taasisi za kifedha.
 
 ### Kukosekana kwa utulivu wa Benki ya Akiba ya Sehemu na Mkopeshaji wa Hoteli ya Mwisho
 
@@ -116,7 +116,7 @@ Matokeo mengine yasiyotarajiwa ya ZIRP ni kwamba inahimiza serikali kushiriki ka
 
 Kielelezo cha 6: Deni la Umma na Binafsi kama % ya Pato la Taifa (Ulimwengu, uzani wa Pato la Taifa kwa kila nchi) / Chanzo IMF
 
-Huku mfumuko wa bei ukiongezeka kutokana na uundaji mkubwa wa pesa katika kukabiliana na lockdown zinazohusiana na COVID, benki kuu sasa zinapandisha viwango vya sera katika jaribio la kudhibiti mfumuko wa bei. Hata hivyo, hii inaleta changamoto kubwa kwa mfumo mzima. Benki zina faida zaidi kuliko hapo awali, serikali hubeba viwango vya juu vya deni kihistoria, ukuaji wa uchumi unadorora, upungufu unaongezeka, na watumiaji, wakikabiliana na kupanda kwa bei za bidhaa muhimu, wanatatizika kupata riziki. Kudhibiti mfumuko wa bei kutahitaji kupandisha viwango hadi kufikia kiwango ambacho kinaweza kufilisi serikali, huku benki zikiwa katika hatari ya kupoteza wenye amana huku watu binafsi wakitumia akiba zao kwa mambo muhimu yanayozidi kuwa ghali au kutafuta kimbilio katika mali ya Hard na fedha za soko la fedha ili kukabiliana na mfumuko wa bei.
+Huku [mfumuko wa bei](https://planb.academy/resources/glossary/inflation) ukiongezeka kutokana na uundaji mkubwa wa pesa katika kukabiliana na lockdown zinazohusiana na COVID, benki kuu sasa zinapandisha viwango vya sera katika jaribio la kudhibiti mfumuko wa bei. Hata hivyo, hii inaleta changamoto kubwa kwa mfumo mzima. Benki zina faida zaidi kuliko hapo awali, serikali hubeba viwango vya juu vya deni kihistoria, ukuaji wa uchumi unadorora, upungufu unaongezeka, na watumiaji, wakikabiliana na kupanda kwa bei za bidhaa muhimu, wanatatizika kupata riziki. Kudhibiti mfumuko wa bei kutahitaji kupandisha viwango hadi kufikia kiwango ambacho kinaweza kufilisi serikali, huku benki zikiwa katika hatari ya kupoteza wenye amana huku watu binafsi wakitumia akiba zao kwa mambo muhimu yanayozidi kuwa ghali au kutafuta kimbilio katika mali ya Hard na fedha za soko la fedha ili kukabiliana na mfumuko wa bei.
 
 ### Hitimisho
 
@@ -126,7 +126,7 @@ Huku mfumuko wa bei ukiongezeka kutokana na uundaji mkubwa wa pesa katika kukabi
 > John Maynard Keynes
 Kwa hakika, mfumo wetu unakabiliwa na changamoto kubwa, na Bitcoin inaibuka kama njia mbadala inayoaminika. Hata hivyo, Bitcoin pekee haiwezi Address masuala ndani ya mfumo wetu wa fedha. Zaidi ya yote, tunahitaji watu binafsi wanaoelewa kanuni za msingi za kiuchumi miongoni mwa wapenda Bitcoin, kuwezesha uelewa mpana zaidi na akili ya kawaida ya kiuchumi ili kutuongoza mbali na kujenga msingi mwingine dhaifu wa kifedha kwa ajili ya ustaarabu wetu. Lengo kuu la kozi hii ni kuelimisha wapenda Bitcoin wapya katika kanuni bora za kiuchumi.
 
-Ili kufikia lengo hili, tutaeleza kanuni za kimsingi za "Uchumi wa Austria," shule ya mawazo ya kiuchumi yenye mila ya mbinu iliyoanzia karne ya 16, ikitoa maarifa kuhusu hatua za binadamu chini ya vikwazo vya kiuchumi. Kwa utangulizi huu, sasa unafahamu mambo muhimu ya kuunda pesa na hali ya sasa ya mfumo wetu wa kifedha na kifedha.
+Ili kufikia lengo hili, tutaeleza kanuni za kimsingi za "[Uchumi wa Austria](https://planb.academy/resources/glossary/austrian-school)," shule ya mawazo ya kiuchumi yenye mila ya mbinu iliyoanzia karne ya 16, ikitoa maarifa kuhusu hatua za binadamu chini ya vikwazo vya kiuchumi. Kwa utangulizi huu, sasa unafahamu mambo muhimu ya kuunda pesa na hali ya sasa ya mfumo wetu wa kifedha na kifedha.
 
 Katika sura inayokuja, tutazama katika msingi wa shule yoyote ya kiuchumi ya mawazo: nadharia ya thamani. Sura zinazofuata zitachunguza pesa kama taasisi ya kijamii, nadharia ya mtaji na mzunguko wa biashara, changamoto ya ukokotoaji wa uchumi, na muhtasari mfupi wa historia na mbinu ya Shule ya Uchumi ya Austria.
 

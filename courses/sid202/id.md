@@ -57,9 +57,9 @@ Siap untuk menjelajahi potensi Elements dan Liquid sidechain? Ayo mulai!
 
 :::video id=eae666b4-eddc-4e00-adea-2a5f94396044:::
 
-Elements adalah platform blockchain open source berkemampuan sidechain, yang menyediakan akses ke fitur-fitur canggih yang dikembangkan oleh anggota komunitas, seperti Transaksi Rahasia dan Aset yang Diterbitkan.
+Elements adalah platform [blockchain](https://planb.academy/resources/glossary/blockchain) open source berkemampuan sidechain, yang menyediakan akses ke fitur-fitur canggih yang dikembangkan oleh anggota komunitas, seperti [Transaksi](https://planb.academy/resources/glossary/transaction-tx) Rahasia dan Aset yang Diterbitkan.
 
-Elements, pada intinya, merupakan sebuah protokol yang memungkinkan konsensus dibentuk di sekitar riwayat transaksi dan aturan yang mengatur transfer dan pembuatan aset yang disimpan dalam buku besar blockchain yang terdistribusi.
+Elements, pada intinya, merupakan sebuah protokol yang memungkinkan [konsensus](https://planb.academy/resources/glossary/consensus) dibentuk di sekitar riwayat transaksi dan aturan yang mengatur transfer dan pembuatan aset yang disimpan dalam buku besar blockchain yang terdistribusi.
 
 Informasi latar belakang lebih lanjut tentang Elements dapat ditemukan dengan mudah di situs web Elements Project (https://elementsproject.org/), blog resmi Liquid (https://blog.liquid.net/), dan portal pengembang (https://liquid.net/devs).
 
@@ -85,7 +85,7 @@ Elements adalah sebuah platform blockchain tujuan umum yang juga dapat "dipasang
 
 #### Blok yang Ditandatangani
 
-Elements menggunakan Federasi penandatangan yang kuat, yang disebut Penandatangan Blok, yang menandatangani dan membuat blok dengan cara yang dapat diandalkan dan tepat waktu. Hal ini menghilangkan latensi transaksi dari proses penambangan PoW, yang tunduk pada varians waktu blok yang besar karena distribusi poissonnya yang acak. Proses Penandatanganan Blok Federasi mencapai pembuatan blok yang dapat diandalkan tanpa memperkenalkan kebutuhan akan kepercayaan pihak ketiga atau penambangan berbasis algoritma komputasi.
+Elements menggunakan Federasi penandatangan yang kuat, yang disebut Penandatangan [Blok](https://planb.academy/resources/glossary/block), yang menandatangani dan membuat blok dengan cara yang dapat diandalkan dan tepat waktu. Hal ini menghilangkan latensi transaksi dari proses penambangan PoW, yang tunduk pada varians waktu blok yang besar karena distribusi poissonnya yang acak. Proses Penandatanganan Blok Federasi mencapai pembuatan blok yang dapat diandalkan tanpa memperkenalkan kebutuhan akan kepercayaan pihak ketiga atau penambangan berbasis algoritma komputasi.
 
 Elements menambahkan semua fitur ini di atas basis kode Bitcoin Core, memperluas kemampuan protokol mainchain dan memungkinkan kasus penggunaan bisnis baru ketika digunakan sebagai sidechain atau sebagai solusi blockchain mandiri.
 
@@ -99,7 +99,7 @@ Elements menambahkan semua fitur ini di atas basis kode Bitcoin Core, memperluas
 
 :::video id=7c8c7981-11e5-47a2-a257-ef998f4892f5:::
 
-Elements menyediakan solusi teknis untuk masalah yang dihadapi pengguna blockchain setiap hari; latensi transaksi, kurangnya privasi, dan risiko terhadap fungibilitas.
+Elements menyediakan solusi teknis untuk masalah yang dihadapi pengguna blockchain setiap hari; latensi transaksi, kurangnya privasi, dan risiko terhadap [fungibilitas](https://planb.academy/resources/glossary/fungibility).
 
 Elements mengatasi masalah ini melalui penggunaan Penandatanganan Blok Federasi dan Transaksi Rahasia.
 
@@ -123,7 +123,7 @@ Tindakan yang dapat dilakukan oleh anggota Strong Federation dibagi menjadi dua 
 
 Ketika digabungkan, peran para partisipan ini memungkinkan Elements untuk memberikan pembuatan blok yang cepat (konfirmasi transaksi yang lebih cepat dan akhir) dan aset yang terjamin dan dapat ditransfer (aset yang dipatok yang dapat dihubungkan langsung ke blockchain lain).
 
-Anda dapat membaca whitepaper Strong Federations di sini: https://blockstream.com/strong-federations.pdf
+Anda dapat membaca [whitepaper](https://planb.academy/resources/glossary/white-paper) Strong Federations di sini: https://blockstream.com/strong-federations.pdf
 
 ### Penandatangan Blokir
 
@@ -150,7 +150,7 @@ Agar sidechain dapat beroperasi dengan cara yang dapat dipercaya, sidechain haru
 
 Fitur Federated 2-way Peg memungkinkan sebuah aset untuk dapat dioperasikan dengan blockchain lain dan mewakili aset asli blockchain lain. Dengan mematok blockchain Anda ke blockchain lain, Anda dapat memperluas kemampuan blockchain utama dan mengatasi beberapa keterbatasan yang melekat.
 
-Pada tingkat yang lebih tinggi, transfer ke dalam sidechain terjadi ketika seseorang mengirimkan aset mainchain ke alamat yang dikendalikan oleh dompet Watchmen multi-tanda tangan. Ini secara efektif membekukan aset di mainchain. Watchmen kemudian memvalidasi transaksi dan melepaskan jumlah yang sama dari aset terkait di dalam sidechain. Aset yang dilepaskan dikirim ke dompet sidechain yang dapat membuktikan klaim ke aset mainchain asli. Proses ini secara efektif memindahkan aset dari chain induk ke sidechain.
+Pada tingkat yang lebih tinggi, transfer ke dalam sidechain terjadi ketika seseorang mengirimkan aset mainchain ke alamat yang dikendalikan oleh [dompet](https://planb.academy/resources/glossary/wallet) Watchmen multi-tanda tangan. Ini secara efektif membekukan aset di mainchain. Watchmen kemudian memvalidasi transaksi dan melepaskan jumlah yang sama dari aset terkait di dalam sidechain. Aset yang dilepaskan dikirim ke dompet sidechain yang dapat membuktikan klaim ke aset mainchain asli. Proses ini secara efektif memindahkan aset dari chain induk ke sidechain.
 
 Untuk mentransfer aset kembali ke mainchain, pengguna melakukan transaksi peg-out khusus pada sidechain. Transaksi ini diperiksa oleh Watchmen yang kemudian menandatangani pengeluaran transaksi dari dompet multi-tanda tangan yang mereka kendalikan di mainchain. Sejumlah ambang batas peserta dalam federasi harus menandatangani sebelum transaksi mainchain menjadi valid. Ketika Watchmen mengirim aset kembali ke mainchain, mereka juga menghancurkan jumlah yang sesuai di sidechain, secara efektif mentransfer aset antar blockchain.
 
@@ -166,7 +166,7 @@ Perangkat lunak simpul Elements itu sendiri disebut `elementsd` dan berjalan seb
 
 Catatan: Di sepanjang dokumen ini, kita akan selalu merujuk ke elementsd sebagai versi daemon, tetapi semuanya dapat dilakukan dengan elements-qt, asalkan opsi server diaktifkan.
 
-Daemon Elements terhubung ke node lain di jaringan sehingga dapat bertukar data transaksi dan blokir, memvalidasi dan memperluas salinan lokal blockchain jaringan.
+Daemon Elements terhubung ke [node](https://planb.academy/resources/glossary/node) lain di jaringan sehingga dapat bertukar data transaksi dan blokir, memvalidasi dan memperluas salinan lokal blockchain jaringan.
 
 Perangkat lunak Elements juga terdiri dari sebuah program klien yang disebut `elements-cli` yang memungkinkan anda untuk mengirim perintah Remote Procedure Call (RPC) ke elementsd dari baris perintah. Ini dapat digunakan untuk menanyakan saldo dompet, melihat transaksi atau memblokir data atau menyiarkan transaksi misalnya. Pengaturan ini seharusnya tidak asing lagi bagi siapa saja yang pernah menggunakan Bitcoin yang setara; bitcoind dan bitcoin-cli.
 
@@ -196,8 +196,8 @@ Sebagian hal dapat diubah dengan menggunakan parameter ini:
 - Aset yang akan digunakan saat membayar biaya transaksi di jaringan.
 - Lokasi penyimpanan file data blockchain.
 - Kredensial RPC yang digunakan untuk terhubung ke node Bitcoin.
-- Ambang batas `n dari m` yang harus dipenuhi dan kunci publik yang valid yang dapat menandatangani blok.
-- Skrip yang harus dipenuhi untuk mentransfer aset masuk dan keluar dari sidechain.
+- Ambang batas `n dari m` yang harus dipenuhi dan [kunci publik](https://planb.academy/resources/glossary/public-key) yang valid yang dapat menandatangani blok.
+- [Skrip](https://planb.academy/resources/glossary/script) yang harus dipenuhi untuk mentransfer aset masuk dan keluar dari sidechain.
 - Apakah akan terhubung ke node Bitcoin sebagai sidechain atau tidak.
 
 Banyak dari aturan ini merupakan bagian dari aturan konsensus jaringan, sehingga penting untuk diterapkan di semua node pada saat startup. Beberapa dapat diubah setelah rantai diinisialisasi, tetapi beberapa perlu diperbaiki setelah digunakan untuk menginisialisasi rantai.
@@ -301,7 +301,7 @@ Itu mengembalikan detail transaksi mentah. Jika Anda melihat di dalam bagian vou
 
 Apa yang ditunjukkan oleh dua bagian vout pertama adalah "rentang yang dibutakan" dari jumlah nilai dan data komitmen yang bertindak sebagai bukti jumlah aktual dan jenis aset yang ditransaksikan.
 
-Bahkan jika kita mengimpor private key e2 ke dalam dompet e1, dompet e1 masih tidak dapat melihat jumlah dan jenis aset yang ditransaksikan karena ia tidak memiliki pengetahuan tentang blinding key yang digunakan oleh e2. Kita akan membuktikan hal ini dengan mengimpor private key yang digunakan oleh dompet e2 ke dalam dompet e1. Pertama, kita perlu mengekspor kunci dari e2
+Bahkan jika kita mengimpor [private key](https://planb.academy/resources/glossary/private-key) e2 ke dalam dompet e1, dompet e1 masih tidak dapat melihat jumlah dan jenis aset yang ditransaksikan karena ia tidak memiliki pengetahuan tentang blinding key yang digunakan oleh e2. Kita akan membuktikan hal ini dengan mengimpor private key yang digunakan oleh dompet e2 ke dalam dompet e1. Pertama, kita perlu mengekspor kunci dari e2
 
 ```
 e2-cli dumpprivkey <address>
@@ -361,7 +361,7 @@ Aset yang Diterbitkan juga mendapat manfaat dari Transaksi Rahasia dan dapat dit
 
 Langkah pertama adalah kita memerlukan akses ke dua node Elements, yang akan kita sebut e1 dan e2. Node-node tersebut telah disetel ulang blockchain-nya dan aset defaultnya telah dibagi di antara keduanya.
 
-Kedua node berada pada jaringan lokal yang sama, dan terhubung satu sama lain, dan oleh karena itu berbagi transaksi yang sama dalam mempool transaksi dan blockchain yang sama. Walaupun mereka berjalan pada mesin yang sama, perlu dicatat bahwa mereka tidak berbagi file blockchain yang sama. Setiap node mengelola salinan lokal blockchain-nya sendiri, yang berisi riwayat transaksi yang sama karena mereka berada dalam konsensus dan mematuhi aturan protokol yang sama satu sama lain.
+Kedua node berada pada jaringan lokal yang sama, dan terhubung satu sama lain, dan oleh karena itu berbagi transaksi yang sama dalam [mempool](https://planb.academy/resources/glossary/mempool) transaksi dan blockchain yang sama. Walaupun mereka berjalan pada mesin yang sama, perlu dicatat bahwa mereka tidak berbagi file blockchain yang sama. Setiap node mengelola salinan lokal blockchain-nya sendiri, yang berisi riwayat transaksi yang sama karena mereka berada dalam konsensus dan mematuhi aturan protokol yang sama satu sama lain.
 
 Mari kita mulai dengan memeriksa tampilan setiap node dari penerbitan aset yang ada di jaringan.
 
@@ -1016,7 +1016,7 @@ Pada bagian ini, kita sudah melihat bagaimana caranya:
 
 ### FederatedPegScript
 
-Agar Elements dapat bekerja sebagai sidechain, blok genesis dalam blockchain harus dibuat dengan `fedpegscript`. Ini dilakukan dengan memasukkan parameter `fedpegscript` pada saat node dimulai. Skrip ini kemudian akan menjadi bagian dari aturan konsensus blockchain Elements dan memungkinkan permintaan peg-in dan peg-out untuk divalidasi dan ditindaklanjuti.
+Agar Elements dapat bekerja sebagai sidechain, [blok genesis](https://planb.academy/resources/glossary/genesis-block) dalam blockchain harus dibuat dengan `fedpegscript`. Ini dilakukan dengan memasukkan parameter `fedpegscript` pada saat node dimulai. Skrip ini kemudian akan menjadi bagian dari aturan konsensus blockchain Elements dan memungkinkan permintaan peg-in dan peg-out untuk divalidasi dan ditindaklanjuti.
 
 Fedpegscript terdiri dari kunci publik yang dikontrol oleh mereka yang berwenang untuk melakukan tindakan pasak. Berikut ini menunjukkan contoh format dari fedpegscript multisignature 2-dari-2:
 
@@ -1028,7 +1028,7 @@ Catatan: Karakter di luar kunci publik adalah pembatas yang mengindikasikan kunc
 
 ### Peg-in
 
-Sebelum sebuah peg-in dapat diterima oleh sidechain Elements, peg-in tersebut harus memiliki konfirmasi yang cukup di mainchain. Hal ini diperlukan untuk menghindari inflasi dalam pasokan aset yang dipatok di sidechain Elements yang dapat disebabkan oleh pengorganisasian ulang mainchain.
+Sebelum sebuah peg-in dapat diterima oleh sidechain Elements, peg-in tersebut harus memiliki konfirmasi yang cukup di mainchain. Hal ini diperlukan untuk menghindari [inflasi](https://planb.academy/resources/glossary/inflation) dalam pasokan aset yang dipatok di sidechain Elements yang dapat disebabkan oleh pengorganisasian ulang mainchain.
 
 Pengorganisasian ulang yang singkat pada ujung blockchain Bitcoin diharapkan sebagai bagian dari operasi normal mekanisme konsensus Proof of Work (PoW). Dengan demikian, Elements hanya menerima sebuah peg-in yang valid jika memiliki kedalaman yang cukup di dalam blockchain Bitcoin. Hal ini berfungsi untuk mencegah Elements menerima peg-in yang sama lebih dari satu kali.
 

@@ -756,7 +756,7 @@ Ali, kako Spinoza kaže, "obmana ljudi tu ne prestaje", i među svim primerima n
 
 
 
-Definicija inflacije koju daju kejnzijanski ekonomisti i zagovornici države blagostanja, na primer, takođe veoma dobro ilustruje ovaj paradoks. Prema njima, inflacija je povećanje cena koje, prema nekim centralnim bankarima, dolazi ili "niotkuda", ili iz geopolitičkih konteksta koje niko ne može kontrolisati ili predvideti. Iako povećanje cena zaista može dovesti do ciklične inflacije - na primer, kada cena nafte raste, cene određenih prerađenih proizvoda će takođe rasti - stvarni strukturni uzroci inflacije su prvenstveno povezani sa povećanjem novca Supply, što zauzvrat implicira pad vrednosti novca i, ipso facto, mehanički rast cena.
+Definicija inflacije koju daju kejnzijanski ekonomisti i zagovornici države blagostanja, na primer, takođe veoma dobro ilustruje ovaj paradoks. Prema njima, [inflacija](https://planb.academy/resources/glossary/inflation) je povećanje cena koje, prema nekim centralnim bankarima, dolazi ili "niotkuda", ili iz geopolitičkih konteksta koje niko ne može kontrolisati ili predvideti. Iako povećanje cena zaista može dovesti do ciklične inflacije - na primer, kada cena nafte raste, cene određenih prerađenih proizvoda će takođe rasti - stvarni strukturni uzroci inflacije su prvenstveno povezani sa povećanjem novca Supply, što zauzvrat implicira pad vrednosti novca i, ipso facto, mehanički rast cena.
 
 
 
@@ -1064,7 +1064,7 @@ Drugim rečima, ako mrzimo stranca, to je zato što tog stranca povezujemo sa id
 
 
 
-Ovo je posebno tačno, uzgred budi rečeno, u oblasti kriptovaluta.
+Ovo je posebno tačno, uzgred budi rečeno, u oblasti [kriptovaluta](https://planb.academy/resources/glossary/cryptocurrency).
 
 
 
@@ -1159,7 +1159,7 @@ Ovo je upravo ono o čemu je racionalna filozofija prosvetiteljstva govorila, za
 Drugim rečima, kaže on, ako mislimo svojom glavom, ako rasuđujemo kao racionalne odrasle osobe, i ako se stoga trudimo da se povežemo sa uzročno-posledičnim vezama između stvari, više nam neće biti potrebna moralna autoritet da nas uči, na primer, pravim vrlinama religije ili pravim etičkim vrednostima u političkoj i ekonomskoj sferi.
 
 
-To je linija razmišljanja koja povezuje sa austrijskom školom liberalne ekonomije, rođenom u izuzetno plodnoj intelektualnoj atmosferi Beča pre Prvog svetskog rata. Jer upravo u ovom kontekstu intelektualci kao što su Karl Menger (1840-1921), Ludvig fon Mizes (1883-1979) i Fridrih Hajek (1899-1992) postavili su temelje za novu školu liberalne ekonomije, koja je postala osnova za uverenja budućih sajferpankera. I otuda stvaranje Bitcoin.
+To je linija razmišljanja koja povezuje sa [austrijskom](https://planb.academy/resources/glossary/austrian-school) školom liberalne ekonomije, rođenom u izuzetno plodnoj intelektualnoj atmosferi Beča pre Prvog svetskog rata. Jer upravo u ovom kontekstu intelektualci kao što su Karl Menger (1840-1921), Ludvig fon Mizes (1883-1979) i Fridrih Hajek (1899-1992) postavili su temelje za novu školu liberalne ekonomije, koja je postala osnova za uverenja budućih [sajferpankera](https://planb.academy/resources/glossary/cypherpunks). I otuda stvaranje Bitcoin.
 
 
 
@@ -1204,7 +1204,7 @@ Ovo su politički i ekonomski argumenti koje su izneli prvi cypherpunks, Eric Hu
 
 
 
-Posebno kada je upisao naslov iz Times-a od 3. januara 2009. u coinbase bloka Genesis od Blockchain Bitcoin kako bi ilustrovao kraj jedne ere, kejnzijanske, i početak druge sa liberalnim, anarhističkim i libertarijanskim težnjama.
+Posebno kada je upisao naslov iz Times-a od 3. januara 2009. u [coinbase](https://planb.academy/resources/glossary/coinbase-transaction) [bloka Genesis](https://planb.academy/resources/glossary/genesis-block) od [Blockchain](https://planb.academy/resources/glossary/blockchain) Bitcoin kako bi ilustrovao kraj jedne ere, kejnzijanske, i početak druge sa liberalnim, anarhističkim i libertarijanskim težnjama.
 
 
 
@@ -1212,7 +1212,7 @@ Posebno kada je upisao naslov iz Times-a od 3. januara 2009. u coinbase bloka Ge
 
 
 
-Bela knjiga objavljena 31. oktobra 2008. predstavlja Bitcoin kao sredstvo za razmenu vrednosti na Internetu bez pouzdane treće strane, zasnovano na decentralizovanom protokolu. "Kopernikanska" revolucija koja će konačno omogućiti ljudima da povrate svoju sposobnost delovanja, tj. svoju slobodu, slobodu trgovine, pravo na imovinu i poštovanje njihove privatnosti.
+[Bela knjiga](https://planb.academy/resources/glossary/white-paper) objavljena 31. oktobra 2008. predstavlja Bitcoin kao sredstvo za razmenu vrednosti na Internetu bez pouzdane treće strane, zasnovano na decentralizovanom protokolu. "Kopernikanska" revolucija koja će konačno omogućiti ljudima da povrate svoju sposobnost delovanja, tj. svoju slobodu, slobodu trgovine, pravo na imovinu i poštovanje njihove privatnosti.
 
 
 Zašto? Zato što nam Bitcoin omogućava da se oslobodimo ovog ropstva na Spinozin način, zahvaljujući razumu, zahvaljujući Galilejevom jeziku matematike. I, kako Hayek sugeriše, bez da država može da se tome suprotstavi. I to mirno, bez prisile ili prozelitizma.

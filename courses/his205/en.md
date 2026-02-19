@@ -269,7 +269,7 @@ There are several types of barter:
 **Between different communities**, the absence of bonds of personal trust favored the emergence of more formalized exchanges. Certain goods gradually acquired a special status through their ability to be demanded by foreign groups, prefiguring the first forms of proto-currency.
 
 
-The Austrian school of economics interprets this evolution as the spontaneous emergence of privileged exchange goods. Shells, archaeologically attested as early as the Mesolithic, illustrate this phenomenon: found far from their geographical origin (Mediterranean shells in western France, Nordic shells on other sites), they testify to a common recognition of their exchange value.
+The [Austrian school of economics](https://planb.academy/resources/glossary/austrian-school) interprets this evolution as the spontaneous emergence of privileged exchange goods. Shells, archaeologically attested as early as the Mesolithic, illustrate this phenomenon: found far from their geographical origin (Mediterranean shells in western France, Nordic shells on other sites), they testify to a common recognition of their exchange value.
 
 
 These goods are distinguished by their **ability to be demanded by others**, an essential quality that prefigures the monetary function. Although they did not achieve the standardization of historical currencies, they were the first steps towards depersonalized exchange systems, a prerequisite for the development of complex societies beyond the tribal framework.
@@ -456,7 +456,7 @@ Sumerian temples epitomized this tension: they used popular monetary innovations
 The Mesopotamian experience thus set enduring precedents for the evolution of financial systems. It demonstrates that **financial sophistication often precedes technological innovations by several millennia**, which are usually associated with it. The concepts of interest, credit, negotiable instruments and mortgage collateral did not wait for the invention of metallic money to develop.
 
 
-This seminal period also reveals the power issues inherent in any monetary innovation: who controls the technology, who defines the rules, and how formal systems and popular practices are articulated. These fundamental questions have persisted throughout economic history, extending to contemporary debates on digital currencies and cryptocurrencies.
+This seminal period also reveals the power issues inherent in any monetary innovation: who controls the technology, who defines the rules, and how formal systems and popular practices are articulated. These fundamental questions have persisted throughout economic history, extending to contemporary debates on digital currencies and [cryptocurrencies](https://planb.academy/resources/glossary/cryptocurrency).
 
 
 # Economy and money in ancient civilizations
@@ -726,7 +726,7 @@ In China, monetary value was largely fiduciary, based on a social convention amo
 The Chinese state used money as an instrument of economic regulation: in times of monetary abundance, the value of money decreased, making it easier for people to buy goods. Conversely, in times of monetary scarcity, the value of money increased, reinforcing the state's purchasing power for its subsequent operations.
 
 
-A link can be made here with inflation and deflation. With a fixed money supply, if the economy's productivity increases, the value of money rises. Conversely, if productivity falls, the value of money decreases. In this example, however, the opposite is true. Probably because the prince did not have a complete monopoly on the production of money, yet it still indicates that the value of money was linked to economic conditions.
+A link can be made here with [inflation](https://planb.academy/resources/glossary/inflation) and deflation. With a fixed money supply, if the economy's productivity increases, the value of money rises. Conversely, if productivity falls, the value of money decreases. In this example, however, the opposite is true. Probably because the prince did not have a complete monopoly on the production of money, yet it still indicates that the value of money was linked to economic conditions.
 
 
 The philosopher Mo Di (5th-4th century BC) had already analyzed this relationship between price and value: according to him, price variations do not reflect a real notion of cheapness or absolute dearness, but rather a fluctuating relationship between goods and money, independently of the stable nominal value of the currency sign.
@@ -2631,7 +2631,7 @@ This brings us back to the fundamental question of the origins of money: does mo
 ### The Swedish example: Stockholms Banco and Riksens Ständers Bank
 
 
-**Sweden** was a pioneer in central banking: in 1657, Johan Palmstruch created the **Stockholm Banco**, authorized to lend more than its metal reserves, thus marking the birth of fractional reserve banking. But excessive banknote issuance led to panic and a run on the bank in 1663. 
+**Sweden** was a pioneer in central banking: in 1657, Johan Palmstruch created the **Stockholm Banco**, authorized to lend more than its metal reserves, thus marking the birth of [fractional reserve banking](https://planb.academy/resources/glossary/fractional-reserves). But excessive banknote issuance led to panic and a run on the bank in 1663. 
 
 
 In 1668, Riksens Ständers Bank, the world's first true central bank, was founded in Stockholm. However, it too suffered from crises (1709, 1715...) linked to the abuse of banknotes, often to finance the kingdom's wars.

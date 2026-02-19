@@ -806,7 +806,7 @@ Taloudellisten lakien systemaattinen tutkimus alkaa korkeakeskiajalla. Ensimmäi
 
 ![kuva](assets/fi/049.webp)
 
-Hänen rahataloudellisen analyysinsä ytimessä on rahojen "muutosten" ongelma, eli muutokset kolikoiden metallipitoisuudessa ja niiden nimellisarvossa. Tällaisia muutoksia on tapahtunut aikojen alusta lähtien, ja niitä on hyvin dokumentoitu antiikin ja keskiajan osalta. Niiden näkyvin vaikutus on muuttaa rahayksikön ostovoimaa, erityisesti vähentää sitä. Tämä on primitiivinen inflaation muoto, jonka Oresme selvästi tuomitsee pahana.
+Hänen rahataloudellisen analyysinsä ytimessä on rahojen "muutosten" ongelma, eli muutokset kolikoiden metallipitoisuudessa ja niiden nimellisarvossa. Tällaisia muutoksia on tapahtunut aikojen alusta lähtien, ja niitä on hyvin dokumentoitu antiikin ja keskiajan osalta. Niiden näkyvin vaikutus on muuttaa rahayksikön ostovoimaa, erityisesti vähentää sitä. Tämä on primitiivinen [inflaation](https://planb.academy/resources/glossary/inflation) muoto, jonka Oresme selvästi tuomitsee pahana.
 
 Oresme esittää välittömästi keskeisen kysymyksen: onko inflaatio hyödyllistä yhteisölle? Hän vastaa kielteisesti, väittäen, että inflaatio ei tee rahasta yhtään hyödyllisempää vaihdossa. Talous voi toimia hyvin riippumatta hintatasosta, ja siten riippumatta nimellisestä rahamäärästä.
 Mutta jos näin on, toinen kysymys ilmeisesti nousee esiin: miksi rahan arvon muutoksia sitten tapahtuu? Ja erityisesti, miksi pyrkiä lisäämään rahamäärää? Oresme vastaa, että näillä muutoksilla ei ole samoja seurauksia yhteisön eri jäsenille. Ne hyödyttävät tiettyjä ihmisiä toisten kustannuksella. Rahan arvon muutosten voittajilla on materiaalinen etu niiden toteuttamisessa. Yleensä nämä voittajat ovat vallassa olevia ihmisiä. Oresme kirjoittaa:
@@ -974,7 +974,7 @@ Ei ole tarpeen todistaa, että jokainen yksilö on ainoa tuomari arvioidessaan m
 
 Tässä Turgot ennakoi suurelta osin Misesin ja Hayekin argumentin taloudellisen laskennan mahdottomuudesta sosialistisessa talousjärjestelmässä.
 
-Omistaessaan luvun "Turgot'n loistolle", Murray Rothbard taloushistoriassaan itävaltalaisesta näkökulmasta korostaa, että "Turgot'n vaikutus myöhempään talousajatteluun rajoittui vakavasti (...) seuraavan myytin vuoksi, jonka mukaan Adam Smith oli poliittisen talouden perustaja." Ja hän lisää, "se oli ranskalainen J.B. Say, virallisesti Smithin seuraaja, johon Turgot lopulta vaikutti eniten, erityisesti hänen hyötyarvoteoriansa osalta."
+Omistaessaan luvun "Turgot'n loistolle", Murray Rothbard taloushistoriassaan [itävaltalaisesta](https://planb.academy/resources/glossary/austrian-school) näkökulmasta korostaa, että "Turgot'n vaikutus myöhempään talousajatteluun rajoittui vakavasti (...) seuraavan myytin vuoksi, jonka mukaan Adam Smith oli poliittisen talouden perustaja." Ja hän lisää, "se oli ranskalainen J.B. Say, virallisesti Smithin seuraaja, johon Turgot lopulta vaikutti eniten, erityisesti hänen hyötyarvoteoriansa osalta."
 
 ### Condillac'n mestariteos
 
@@ -1523,7 +1523,7 @@ Hän kirjoittaa:
 Hayeken mukaan markkinatalouden menneisyys epävakaus johtuu siitä, että markkinamekanismien tärkein säädin, nimittäin raha, ei itse voinut olla markkinaprosessin tuote.
 
 ![kuva](assets/fi/101.webp)
-Hayek uskoi, että yksityisten valuuttojen vapaa markkinatalous johtaisi suurempaan rahapoliittiseen vakauden. Lähes 50 vuotta myöhemmin kryptovaluutta, kuten Bitcoin, ilmentää Hayekin kilpailullista visiota tarjoten hajautetun vaihtoehdon keskuspankkien monopolistiselle järjestelmälle. Bitcoin, sen 21 miljoonan yksikön emissiorajalla, on takuu inflaatiota ja sääntelijöiden mielivaltaa vastaan.
+Hayek uskoi, että yksityisten valuuttojen vapaa markkinatalous johtaisi suurempaan rahapoliittiseen vakauden. Lähes 50 vuotta myöhemmin [kryptovaluutta](https://planb.academy/resources/glossary/cryptocurrency), kuten Bitcoin, ilmentää Hayekin kilpailullista visiota tarjoten hajautetun vaihtoehdon keskuspankkien monopolistiselle järjestelmälle. Bitcoin, sen 21 miljoonan yksikön emissiorajalla, on takuu inflaatiota ja sääntelijöiden mielivaltaa vastaan.
 
 
 

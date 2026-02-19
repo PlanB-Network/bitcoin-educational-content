@@ -70,14 +70,14 @@ wereldwijde bevolking zonder bankrekeningen
 ### Bitcoin: financiële vrijheid en de invloed ervan op El Salvador
 
 
-Deze lezing, **"Waarom El Salvador Bitcoin nodig heeft,"** geeft een overzicht van het **Bitcoin protocol**, de wortels ervan in de **Cypherpunk beweging**, en de rol ervan als vrijheidsinstrument voor **ongecensureerd geld**, **financiële inclusie**, en nog veel meer.
+Deze lezing, **"Waarom El Salvador Bitcoin nodig heeft,"** geeft een overzicht van het **Bitcoin protocol**, de wortels ervan in de **[Cypherpunk](https://planb.academy/resources/glossary/cypherpunks) beweging**, en de rol ervan als vrijheidsinstrument voor **ongecensureerd geld**, **financiële inclusie**, en nog veel meer.
 
 
 **Definities:**
 
 
 - bitcoin-protocol:_ De regels en structuur die bepalen hoe Bitcoin werkt als gedecentraliseerde digitale valuta.
-- _Cypherpunk-beweging:_ Een groep die pleit voor het gebruik van cryptografie om privacy en vrijheid in digitale ruimtes te garanderen.
+- _Cypherpunk-beweging:_ Een groep die pleit voor het gebruik van [cryptografie](https://planb.academy/resources/glossary/cryptography) om privacy en vrijheid in digitale ruimtes te garanderen.
 - financiële inclusie: toegang bieden tot financiële diensten aan mensen die zijn uitgesloten van traditionele banksystemen, vaak aangeduid als de "unbanked"
 - ongecensureerd geld:_ Geld dat niet gecontroleerd of beperkt kan worden door overheden of financiële instellingen.
 
@@ -90,10 +90,10 @@ Rikki's reis naar Bitcoin is geworteld in zijn werk als voorvechter van mensenre
 ### De wereldwijde betekenis en uitdagingen van Bitcoin
 
 
-Bitcoin is veel meer dan alleen een digitale valuta. Het is een middel om privacy te beschermen en financiële vrijheid te garanderen. Door het gebruik van **private keys**, die fungeren als hoofdwachtwoorden, kunnen gebruikers hun Bitcoin veilig beheren, met volledige controle over hun fondsen.
+Bitcoin is veel meer dan alleen een digitale valuta. Het is een middel om privacy te beschermen en financiële vrijheid te garanderen. Door het gebruik van **[private keys](https://planb.academy/resources/glossary/private-key)**, die fungeren als hoofdwachtwoorden, kunnen gebruikers hun Bitcoin veilig beheren, met volledige controle over hun fondsen.
 
 
-In autoritaire regimes, waar financiële repressie gebruikelijk is, stelt de **ongevoelige aard** van Bitcoin mensen in staat om transacties te doen zonder bang te hoeven zijn dat hun geld wordt bevroren of in beslag genomen. De **open-source** aard moedigt wereldwijde deelname aan, waardoor een gemeenschap ontstaat die het netwerk voortdurend verbetert.
+In autoritaire regimes, waar financiële repressie gebruikelijk is, stelt de **ongevoelige aard** van Bitcoin mensen in staat om [transacties](https://planb.academy/resources/glossary/transaction-tx) te doen zonder bang te hoeven zijn dat hun geld wordt bevroren of in beslag genomen. De **[open-source](https://planb.academy/resources/glossary/foss)** aard moedigt wereldwijde deelname aan, waardoor een gemeenschap ontstaat die het netwerk voortdurend verbetert.
 
 
 ![Image](assets/en/002.webp)
@@ -143,7 +143,7 @@ De **Cypherpunk beweging** ontstond aan het eind van de 20e eeuw en pleitte voor
 #### Oostenrijkse economie
 
 
-Tegelijkertijd leverde **Oostenrijkse Economie** de basis voor de monetaire principes van Bitcoin. Economen als **Ludwig von Mises** en **Friedrich Hayek** stelden dat gezond geld schaars en duurzaam moest zijn, en een goede opslagplaats van waarde moest zijn, kernprincipes die het ontwerp van Bitcoin vorm gaven.
+Tegelijkertijd leverde **[Oostenrijkse Economie](https://planb.academy/resources/glossary/austrian-school)** de basis voor de monetaire principes van Bitcoin. Economen als **Ludwig von Mises** en **Friedrich Hayek** stelden dat gezond geld schaars en duurzaam moest zijn, en een goede opslagplaats van waarde moest zijn, kernprincipes die het ontwerp van Bitcoin vorm gaven.
 
 
 **Definitie:**
@@ -221,7 +221,7 @@ Bedankt voor je betrokkenheid bij dit materiaal!
 
 :::video id=2c008198-7f4e-4e60-87a0-0af17528ad2f:::
 
-In het eerste college van de 'Hoe Bitcoin' cursus, zijn we begonnen met het verkennen van de technologiestack die ten grondslag ligt aan het Bitcoin netwerk. We hebben onderwerpen behandeld als **Hashcash**, **transacties**, de **Blockchain**, de **Lightning Network** en andere belangrijke onderdelen van het Bitcoin protocol.
+In het eerste college van de 'Hoe Bitcoin' cursus, zijn we begonnen met het verkennen van de technologiestack die ten grondslag ligt aan het Bitcoin netwerk. We hebben onderwerpen behandeld als **Hashcash**, **transacties**, de **[Blockchain](https://planb.academy/resources/glossary/blockchain)**, de **[Lightning Network](https://planb.academy/resources/glossary/lightning-network)** en andere belangrijke onderdelen van het Bitcoin protocol.
 
 
 ### Bitcoin's technologische stapel deel 2
@@ -234,13 +234,13 @@ Tijdens de tweede lezing van 'Hoe Bitcoin' gingen we dieper in op de technologie
 ### Bitcoin structuur
 
 
-De oorsprong van Bitcoin is gebaseerd op verschillende belangrijke innovaties, te beginnen met **Adam Back's Hashcash**, een Proof-of-Work (PoW) systeem ontworpen om e-mail spam en denial-of-service aanvallen te voorkomen door van verzenders te eisen dat ze rekentaken uitvoeren. Dit PoW-concept werd een hoeksteen van de beveiliging van Bitcoin.
+De oorsprong van Bitcoin is gebaseerd op verschillende belangrijke innovaties, te beginnen met **Adam Back's Hashcash**, een [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) (PoW) systeem ontworpen om e-mail spam en denial-of-service aanvallen te voorkomen door van verzenders te eisen dat ze rekentaken uitvoeren. Dit PoW-concept werd een hoeksteen van de beveiliging van Bitcoin.
 
 
-Bitcoin vertrouwt op **digitale handtekeningen** met **elliptische curve cryptografie** om transacties te beveiligen en te verifiëren. Het **Elliptic Curve Digital Signature Algorithm (ECDSA)** zorgt ervoor dat alleen de rechtmatige eigenaar van Bitcoin transacties kan autoriseren zonder zijn privé-sleutels te onthullen.
+Bitcoin vertrouwt op **[digitale handtekeningen](https://planb.academy/resources/glossary/digital-signature)** met **elliptische curve cryptografie** om transacties te beveiligen en te verifiëren. Het **Elliptic Curve Digital Signature Algorithm ([ECDSA](https://planb.academy/resources/glossary/ecdsa))** zorgt ervoor dat alleen de rechtmatige eigenaar van Bitcoin transacties kan autoriseren zonder zijn privé-sleutels te onthullen.
 
 
-**Satoshi Nakamoto**, de pseudonieme maker van Bitcoin, breidde deze ideeën uit door het PoW-model om te zetten naar een gedecentraliseerde **Blockchain**. Hierdoor kon een gedistribueerd netwerk van knooppunten transacties valideren en vastleggen zonder een centrale autoriteit, wat een belangrijke evolutie betekende ten opzichte van eerdere pogingen om digitale valuta te ontwikkelen.
+**Satoshi Nakamoto**, de pseudonieme maker van Bitcoin, breidde deze ideeën uit door het PoW-model om te zetten naar een gedecentraliseerde **Blockchain**. Hierdoor kon een gedistribueerd netwerk van [knooppunten](https://planb.academy/resources/glossary/node) transacties valideren en vastleggen zonder een centrale autoriteit, wat een belangrijke evolutie betekende ten opzichte van eerdere pogingen om digitale valuta te ontwikkelen.
 
 
 **Definities:**
@@ -252,16 +252,16 @@ Bitcoin vertrouwt op **digitale handtekeningen** met **elliptische curve cryptog
 ### Blockchain mechanica en transactievalidatie
 
 
-Bitcoin transacties worden gevalideerd en toegevoegd aan blokken door **miners**, die concurreren om een cryptografische puzzel op te lossen met behulp van het Proof-of-Work algoritme. Hierbij wordt een Hash met een specifiek aantal voorloopnullen gevonden door een **Nonce** waarde aan te passen totdat de juiste Hash is gevonden.
+Bitcoin transacties worden gevalideerd en toegevoegd aan blokken door **miners**, die concurreren om een cryptografische puzzel op te lossen met behulp van het Proof-of-Work algoritme. Hierbij wordt een [Hash](https://planb.academy/resources/glossary/hash-function) met een specifiek aantal voorloopnullen gevonden door een **[Nonce](https://planb.academy/resources/glossary/nonce)** waarde aan te passen totdat de juiste Hash is gevonden.
 
 
-Elk **blok** in de Blockchain bestaat uit een **kop** (met gegevens zoals de Hash van het vorige blok) en een lijst met transacties. Het eerste blok, bekend als het **Genesis Blok**, is uniek omdat het geen voorganger heeft.
+Elk **[blok](https://planb.academy/resources/glossary/block)** in de Blockchain bestaat uit een **[kop](https://planb.academy/resources/glossary/block-header)** (met gegevens zoals de Hash van het vorige blok) en een lijst met transacties. Het eerste blok, bekend als het **[Genesis Blok](https://planb.academy/resources/glossary/genesis-block)**, is uniek omdat het geen voorganger heeft.
 
 
 ![Image](assets/en/004.webp)
 
 
-Voordat transacties in een blok worden opgenomen, verblijven ze in de **Mempool**, waar ze wachten op validatie. Zodra ze gevalideerd zijn, worden deze transacties toegevoegd aan het nieuw gemijnde blok en vervolgens aan de Blockchain.
+Voordat transacties in een blok worden opgenomen, verblijven ze in de **[Mempool](https://planb.academy/resources/glossary/mempool)**, waar ze wachten op validatie. Zodra ze gevalideerd zijn, worden deze transacties toegevoegd aan het nieuw gemijnde blok en vervolgens aan de Blockchain.
 
 
 **Definities:**
@@ -274,13 +274,13 @@ Voordat transacties in een blok worden opgenomen, verblijven ze in de **Mempool*
 ### Schaalbaarheid, privacy en ontwikkeling in Bitcoin
 
 
-Bitcoin heeft te maken met uitdagingen op het gebied van schaalbaarheid en privacy. De beperkte transactiecapaciteit van de Blockchain maakt het moeilijk om grote transactievolumes te verwerken. Oplossingen zoals de **Lightning Network** Address maken deze uitdagingen mogelijk door off-chain transacties via betaalkanalen mogelijk te maken, wat de snelheid en privacy verhoogt.
+Bitcoin heeft te maken met uitdagingen op het gebied van schaalbaarheid en privacy. De beperkte transactiecapaciteit van de Blockchain maakt het moeilijk om grote transactievolumes te verwerken. Oplossingen zoals de **Lightning Network** Address maken deze uitdagingen mogelijk door off-chain transacties via [betaalkanalen](https://planb.academy/resources/glossary/payment-channel) mogelijk te maken, wat de snelheid en privacy verhoogt.
 
 
-Het draaien van een **Full node** is essentieel voor het waarborgen van decentralisatie en veiligheid, maar **Simplified Payment Verification (SPV) nodes** maken lichtere deelname mogelijk ten koste van enige veiligheid.
+Het draaien van een **[Full node](https://planb.academy/resources/glossary/full-node)** is essentieel voor het waarborgen van decentralisatie en veiligheid, maar **Simplified Payment Verification (SPV) nodes** maken lichtere deelname mogelijk ten koste van enige veiligheid.
 
 
-Bitcoin ontwikkeling is geëvolueerd om prestaties en veiligheid te verbeteren. Belangrijke upgrades zijn **Gesegregeerde Getuige (SegWit)**, die de vervormbaarheid van transacties aanpakt en de effectieve blokgrootte vergroot, en **Taproot**, die de privacy verbetert en complexere contracten toestaat door **Merkleized Abstract Syntax Trees (MAST)** te gebruiken.
+Bitcoin ontwikkeling is geëvolueerd om prestaties en veiligheid te verbeteren. Belangrijke upgrades zijn **Gesegregeerde Getuige ([SegWit](https://planb.academy/resources/glossary/segwit))**, die de vervormbaarheid van transacties aanpakt en de effectieve blokgrootte vergroot, en **[Taproot](https://planb.academy/resources/glossary/taproot)**, die de privacy verbetert en complexere contracten toestaat door **Merkleized Abstract Syntax Trees (MAST)** te gebruiken.
 
 
 **Definities:**
@@ -307,7 +307,7 @@ De structuur en voortdurende evolutie van Bitcoin tonen de innovatie en het aanp
 
 :::video id=c5e2e575-fa9d-4430-805f-205c2cf6f2a5:::
 
-In deze lezing ontkrachten we veelvoorkomende mythes over **Bitcoin**, **blockchains** en **cryptocurrencies**. Laten we Address misvattingen over het energieverbruik van Bitcoin, crimineel gebruik en de bredere "FUD" (angst, onzekerheid, twijfel) verspreiden over deze technologie.
+In deze lezing ontkrachten we veelvoorkomende mythes over **Bitcoin**, **blockchains** en **[cryptocurrencies](https://planb.academy/resources/glossary/cryptocurrency)**. Laten we Address misvattingen over het energieverbruik van Bitcoin, crimineel gebruik en de bredere "FUD" (angst, onzekerheid, twijfel) verspreiden over deze technologie.
 
 
 ### Bitcoin vs. Blockchain
@@ -325,7 +325,7 @@ Een veel voorkomende misvatting is dat **Bitcoin** en **Blockchain** hetzelfde z
 ### Bitcoin vs. Crypto
 
 
-Een ander belangrijk verschil is dat **Bitcoin** is gecreëerd met als enige doel het bieden van een gedecentraliseerde, censuurbestendige vorm van geld, vrij van controle door een bedrijf of overheid. In tegenstelling hiermee zijn cryptocurrencies **shitcoins** vaak ontworpen met gecentraliseerde controle en bestaan ze voornamelijk om de bedrijven erachter te verrijken door middel van roofpraktijken, pump-and-dump schema's of regelrechte oplichting. Deze tokens dienen meestal geen echt doel, behalve het maken van snelle winst voor hun makers ten koste van onwetende investeerders. Bitcoin staat echter op zichzelf als de enige echt gedecentraliseerde digitale valuta met een bewezen staat van dienst op het gebied van veiligheid en veerkracht.
+Een ander belangrijk verschil is dat **Bitcoin** is gecreëerd met als enige doel het bieden van een gedecentraliseerde, censuurbestendige vorm van geld, vrij van controle door een bedrijf of overheid. In tegenstelling hiermee zijn cryptocurrencies **[shitcoins](https://planb.academy/resources/glossary/shitcoin)** vaak ontworpen met gecentraliseerde controle en bestaan ze voornamelijk om de bedrijven erachter te verrijken door middel van roofpraktijken, pump-and-dump schema's of regelrechte oplichting. Deze tokens dienen meestal geen echt doel, behalve het maken van snelle winst voor hun makers ten koste van onwetende investeerders. Bitcoin staat echter op zichzelf als de enige echt gedecentraliseerde digitale valuta met een bewezen staat van dienst op het gebied van veiligheid en veerkracht.
 
 
 **Definities:**
@@ -339,7 +339,7 @@ Een ander belangrijk verschil is dat **Bitcoin** is gecreëerd met als enige doe
 ### Energieverbruik en milieu-impact
 
 
-Een van de meest gehoorde punten van kritiek op Bitcoin is het energieverbruik**. Bitcoin Mining gebruikt weliswaar energie, maar is goed voor minder dan 1% van het wereldwijde elektriciteitsverbruik en minder dan 3% van de verspilde energie. Bovendien maakt Bitcoin Mining** vaak gebruik van ongebruikte of hernieuwbare energiebronnen, waardoor het groener is dan vaak wordt afgeschilderd.
+Een van de meest gehoorde punten van kritiek op Bitcoin is het energieverbruik**. Bitcoin [Mining](https://planb.academy/resources/glossary/mining) gebruikt weliswaar energie, maar is goed voor minder dan 1% van het wereldwijde elektriciteitsverbruik en minder dan 3% van de verspilde energie. Bovendien maakt Bitcoin Mining** vaak gebruik van ongebruikte of hernieuwbare energiebronnen, waardoor het groener is dan vaak wordt afgeschilderd.
 
 
 **Definities:**
@@ -356,7 +356,7 @@ Bitcoin wordt vaak bekritiseerd omdat het gebruikt wordt voor criminele activite
 ### Privacy en fungibiliteit
 
 
-**Privacy** en **fungibility** zijn essentiële kenmerken van Bitcoin. Privacy beschermt gebruikers in onderdrukkende regimes en fungibiliteit zorgt ervoor dat elke Bitcoin gelijk is, ongeacht zijn geschiedenis. Dit maakt Bitcoin een betrouwbare en eerlijke vorm van geld.
+**Privacy** en **[fungibility](https://planb.academy/resources/glossary/fungibility)** zijn essentiële kenmerken van Bitcoin. Privacy beschermt gebruikers in onderdrukkende regimes en fungibiliteit zorgt ervoor dat elke Bitcoin gelijk is, ongeacht zijn geschiedenis. Dit maakt Bitcoin een betrouwbare en eerlijke vorm van geld.
 
 
 **Definities:**
@@ -397,7 +397,7 @@ In de eerste lezing van de 4e module hebben we de architectuur van Bitcoin en de
 
 **1. Inleiding recap**
 
-Welkom terug! In de vorige sessie behandelden we de fundamentele concepten achter de architectuur van Bitcoin, inclusief de cryptografische basis en de peer-to-peer netwerkstructuur. Vandaag gaan we van theorie naar praktijk door te demonstreren hoe je een Bitcoin knooppunt installeert en configureert.
+Welkom terug! In de vorige sessie behandelden we de fundamentele concepten achter de architectuur van Bitcoin, inclusief de cryptografische basis en de [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) netwerkstructuur. Vandaag gaan we van theorie naar praktijk door te demonstreren hoe je een Bitcoin knooppunt installeert en configureert.
 
 
 **2. Overzicht praktische sessie**
@@ -829,7 +829,7 @@ Specter is een desktop Wallet ontworpen om het aanmaken en beheren van Bitcoin w
 Het Ledger-apparaat, een populaire Hardware Wallet, wordt geroemd om zijn robuuste beveiliging. Het bedrijf achter de Ledger is echter onder vuur komen te liggen vanwege verschillende controverses over de privacy van gebruikersgegevens. Inzicht in het onderscheid tussen de veiligheid van het fysieke apparaat en de praktijken van het bedrijf is cruciaal voor goed geïnformeerd gebruik.
 
 
-**Veiligheidsmodellen: belang van multi-sig portemonnees en diverse hardware**
+**Veiligheidsmodellen: belang van multi-sig [portemonnees](https://planb.academy/resources/glossary/wallet) en diverse hardware**
 
 
 Een belangrijk aspect van de Bitcoin beveiliging is het gebruik van meerdere handtekeningen (multi-sig) wallets. multi-sig wallets vereisen meerdere private sleutels om een transactie te autoriseren, wat de veiligheid aanzienlijk verhoogt. Bovendien diversifieert het gebruik van verschillende soorten hardware wallets het risico en versterkt het het beveiligingsmodel.
@@ -853,7 +853,7 @@ Om Specter te configureren, moet je het verbinden met een Bitcoin core of Electr
 **Uitleg over afleidingspaden en het ophalen van openbare sleutels**
 
 
-Inzicht in afleidingspaden is essentieel voor Wallet beheer. Afleidingspaden definiëren hoe sleutels worden gegenereerd uit een hoofdsleutel. In Specter kunt u publieke sleutels ophalen door uw Hardware Wallet (of emulator) aan te sluiten en door de Wallet Interface te navigeren. Documenteer deze paden voor toekomstig gebruik.
+Inzicht in afleidingspaden is essentieel voor Wallet beheer. Afleidingspaden definiëren hoe sleutels worden gegenereerd uit een hoofdsleutel. In Specter kunt u [publieke sleutels](https://planb.academy/resources/glossary/public-key) ophalen door uw Hardware Wallet (of emulator) aan te sluiten en door de Wallet Interface te navigeren. Documenteer deze paden voor toekomstig gebruik.
 
 
 **Praktische demonstratie: Gebruik van Ledger Emulator**
@@ -1008,7 +1008,7 @@ Inspanningen om de bruikbaarheid van Bitcoin te verbeteren gaan vaak ten koste v
 #### Afweging tussen schaalbaarheid en privacy
 
 
-Schaalbaarheid en privacy staan vaak op gespannen voet met elkaar in het Bitcoin netwerk. Verbeteringen die de schaalbaarheid verbeteren, zoals grotere UTXO's of minder cryptografische verduistering, verminderen over het algemeen de privacy. Omgekeerd verbeteren privacy-gerichte technieken zoals de ringhandtekeningen van Monero de anonimiteit van gebruikers, maar hebben ze een negatieve invloed op de schaalbaarheid. Bovendien biedt de introductie van stateful contracts, zoals in Ethereum, meer flexibiliteit ten koste van de veiligheid en schaalbaarheid. Het in evenwicht brengen van deze afwegingen is een complexe uitdaging die een zorgvuldige afweging vereist.
+Schaalbaarheid en privacy staan vaak op gespannen voet met elkaar in het Bitcoin netwerk. Verbeteringen die de schaalbaarheid verbeteren, zoals grotere [UTXO](https://planb.academy/resources/glossary/utxo)'s of minder cryptografische verduistering, verminderen over het algemeen de privacy. Omgekeerd verbeteren privacy-gerichte technieken zoals de ringhandtekeningen van Monero de anonimiteit van gebruikers, maar hebben ze een negatieve invloed op de schaalbaarheid. Bovendien biedt de introductie van stateful contracts, zoals in Ethereum, meer flexibiliteit ten koste van de veiligheid en schaalbaarheid. Het in evenwicht brengen van deze afwegingen is een complexe uitdaging die een zorgvuldige afweging vereist.
 
 
 ### Privacy-technieken
@@ -1144,7 +1144,7 @@ Om verkiezingen veilig te stellen, kan bijvoorbeeld onpartijdig toezicht of part
 #### Vertrouwensverificatie
 
 
-Vertrouwensverificatie kan worden geïllustreerd met PGP-verificatie (Pretty Good Privacy). Door de vingerafdrukken en handtekeningen van PGP-sleutels te verifiëren, kunnen gebruikers de authenticiteit van digitale identiteiten vaststellen. Vergelijkbare praktijken zijn essentieel bij het verifiëren van de integriteit van software door Hash matching (bijvoorbeeld SHA-256).
+Vertrouwensverificatie kan worden geïllustreerd met PGP-verificatie (Pretty Good Privacy). Door de vingerafdrukken en handtekeningen van PGP-sleutels te verifiëren, kunnen gebruikers de authenticiteit van digitale identiteiten vaststellen. Vergelijkbare praktijken zijn essentieel bij het verifiëren van de integriteit van software door Hash matching (bijvoorbeeld [SHA-256](https://planb.academy/resources/glossary/sha256)).
 
 
 #### Vertrouwensroutes creëren
@@ -1314,7 +1314,7 @@ In dit gedeelte zullen we de toepassing van deze concepten in de echte Bitcoin o
 **Gevolgen voor de veiligheid**: Historische voorbeelden tonen aanzienlijke financiële verliezen door hergebruik van Nonce. Het belang van het genereren van unieke nonces is cruciaal. Het gebruik van vertrouwde bibliotheken zoals LibSecP256k1 zorgt voor robuuste en veilige cryptografische operaties.
 
 
-**Elliptic Curve Cryptography (ECC)**: Handtekeningschema's zijn geëvolueerd van identiteitsprotocollen naar schema's zoals Schnorr-handtekeningen, momenteel gebruikt in Bitcoin (BIP 340). Kennis van elliptische krommen en eindige veldrekenkunde zorgt voor veilige cryptografische implementaties.
+**Elliptic Curve Cryptography (ECC)**: Handtekeningschema's zijn geëvolueerd van identiteitsprotocollen naar schema's zoals [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol)-handtekeningen, momenteel gebruikt in Bitcoin ([BIP](https://planb.academy/resources/glossary/bip) 340). Kennis van elliptische krommen en eindige veldrekenkunde zorgt voor veilige cryptografische implementaties.
 
 
 **Algemeen advies voor ontwikkelaars**: Cryptografische protocollen moeten grondige peer reviews ondergaan. Ontwikkelaars moeten nauwkeurig zijn en elke stap van cryptografische procedures volledig begrijpen. Bewustwording van veelvoorkomende valkuilen in cryptografische implementaties kan aanzienlijke kwetsbaarheden voorkomen.
@@ -1363,10 +1363,10 @@ Bitcoin core en alternatieve implementaties hebben beheerders die toezicht houde
 #### Soft vorken vs Hard vorken
 
 
-Soft forks zijn veranderingen die de bestaande regels van het Bitcoin protocol aanscherpen, waardoor sommige voorheen geldige transacties ongeldig worden. Ze zijn achterwaarts compatibel, wat betekent dat niet-geüpgradede knooppunten de nieuwe regels nog steeds herkennen. Een voorbeeld van een Soft Fork is de fix voor de overflow bug in 2010, die de creatie van geld uit lucht verhinderde.
+[Soft forks](https://planb.academy/resources/glossary/soft-fork) zijn veranderingen die de bestaande regels van het Bitcoin protocol aanscherpen, waardoor sommige voorheen geldige transacties ongeldig worden. Ze zijn achterwaarts compatibel, wat betekent dat niet-geüpgradede knooppunten de nieuwe regels nog steeds herkennen. Een voorbeeld van een Soft Fork is de fix voor de overflow bug in 2010, die de creatie van geld uit lucht verhinderde.
 
 
-Hard forks zijn veranderingen die de bestaande regels versoepelen en nieuwe soorten transacties toestaan. Deze zijn niet achterwaarts compatibel, wat betekent dat niet-geüpgraded knooppunten de nieuwe regels niet zullen herkennen. Een voorbeeld van een Hard Fork zou nodig kunnen zijn voor het Jaar 2106 probleem om ervoor te zorgen dat Bitcoin ook na deze datum blijft functioneren.
+[Hard forks](https://planb.academy/resources/glossary/hard-fork) zijn veranderingen die de bestaande regels versoepelen en nieuwe soorten transacties toestaan. Deze zijn niet achterwaarts compatibel, wat betekent dat niet-geüpgraded knooppunten de nieuwe regels niet zullen herkennen. Een voorbeeld van een Hard Fork zou nodig kunnen zijn voor het Jaar 2106 probleem om ervoor te zorgen dat Bitcoin ook na deze datum blijft functioneren.
 
 
 ![Image](assets/en/020.webp)
@@ -1836,7 +1836,7 @@ Elke transactie in een Bitcoin blok bevat het volgende:
   - Vorige uitvoer (uitvoerpunt)**: De vorige uitvoerreferentie.
     - Hash**: De Hash van de transactie waarnaar verwezen wordt.
     - Index**: De index van de specifieke uitvoer in de transactie, genaamd "vout".
-  - Scriptlengte**: De lengte van het script van de handtekening.
+  - Scriptlengte**: De lengte van het [script](https://planb.academy/resources/glossary/script) van de handtekening.
   - Handtekeningenscript**: Script voor het bevestigen van transactieautorisatie.
   - Volgorde**: Transactieversie zoals gedefinieerd door de verzender.
 - Aantal uitgangen**: Aantal transactie-uitgangen.
@@ -1979,7 +1979,7 @@ Asserties toevoegen om te controleren dat er geen bytes onverteerd achterblijven
 #### Speciale gevallen zoals coinbase transacties
 
 
-Coinbase transacties, die de eerste transactie zijn in een blok dat gebruikt wordt om de Block reward te claimen, hebben unieke kenmerken. We moeten deze speciale gevallen op de juiste manier behandelen.
+[Coinbase](https://planb.academy/resources/glossary/coinbase-transaction) transacties, die de eerste transactie zijn in een blok dat gebruikt wordt om de Block reward te claimen, hebben unieke kenmerken. We moeten deze speciale gevallen op de juiste manier behandelen.
 
 
 ```Rust
@@ -2598,7 +2598,7 @@ Om Address te maken van deze beperkingen, stelde Manny Rosenfeld in 2012 het con
 ### Gehasht tijdslot Contract (HTLC) en implementatie
 
 
-De beperkingen en nadelen van gecentraliseerde hops vroegen om een veiligere en gedecentraliseerde oplossing. Deze behoefte leidde tot de ontwikkeling van het Hashed Time Lock Contract (HTLC), in 2015 voorgesteld door Joseph Poon en Thaddeus Dreijer als onderdeel van Lightning Network. HTLC's combineren de principes van tijdsloten en Hash sloten om atomiciteit en vertrouwelijkheid in transacties te garanderen. Dit betekent dat een transactie ofwel volledig wordt voltooid of helemaal niet plaatsvindt, waardoor de risico's van onvolledige betalingen worden beperkt.
+De beperkingen en nadelen van gecentraliseerde hops vroegen om een veiligere en gedecentraliseerde oplossing. Deze behoefte leidde tot de ontwikkeling van het Hashed Time Lock Contract ([HTLC](https://planb.academy/resources/glossary/htlc)), in 2015 voorgesteld door Joseph Poon en Thaddeus Dreijer als onderdeel van Lightning Network. HTLC's combineren de principes van tijdsloten en Hash sloten om atomiciteit en vertrouwelijkheid in transacties te garanderen. Dit betekent dat een transactie ofwel volledig wordt voltooid of helemaal niet plaatsvindt, waardoor de risico's van onvolledige betalingen worden beperkt.
 
 
 De workflow van HTLC omvat een meerstappenproces dat zorgt voor een veilige routering via meerdere tussenpersonen. Stel dat Alice Eric wil betalen via Bob, Carol en Diana. Elke stap in het proces omvat het aanmaken van Commitment transacties met afnemende tijdsloten en bedragen. Indien nodig kan de laatste stap worden uitgezonden naar het Bitcoin netwerk om de transactie af te ronden.
@@ -2690,7 +2690,7 @@ In essentie vult de Lightning Network het Bitcoin netwerk aan door de beperkinge
 ### **Lightning Network specificaties**
 
 
-Het Lightning Network protocol is nauwkeurig gedefinieerd aan de hand van 10 BOLT's (Basis of Lightning Technology). Deze BOLT's zijn overeengekomen tijdens een conferentie in Milaan en dienen als basis voor verschillende implementaties van Lightning Network.
+Het Lightning Network protocol is nauwkeurig gedefinieerd aan de hand van 10 [BOLT's](https://planb.academy/resources/glossary/bolt) (Basis of Lightning Technology). Deze BOLT's zijn overeengekomen tijdens een conferentie in Milaan en dienen als basis voor verschillende implementaties van Lightning Network.
 
 
 ![bolt](assets/en/049.webp)_BOLT Diagram _
@@ -2764,7 +2764,7 @@ Betalingen worden gerouteerd met behulp van Onion routing, waarbij versleutelde 
 ### Invoice structuur
 
 
-Lightning Network facturen (Bolt 11) zijn gecodeerd in Bech32 en bevatten details zoals betaling Hash, omschrijving en vervaldatum. Elke Invoice moet één keer gebruikt worden om problemen met hergebruik te voorkomen.
+Lightning Network [facturen](https://planb.academy/resources/glossary/invoice-lightning) (Bolt 11) zijn gecodeerd in Bech32 en bevatten details zoals betaling Hash, omschrijving en vervaldatum. Elke Invoice moet één keer gebruikt worden om problemen met hergebruik te voorkomen.
 
 
 ![Invoice structure](assets/en/051.webp)_BOLT11 Invoice_
@@ -3430,5 +3430,5 @@ De uitbreiding en integratie van Lightning-betalingen via verschillende protocol
 
 :::video id=b89f2064-f2e1-49c3-97d0-580891eee1dd:::
 
-Adam Gibson geeft inzicht in Joinmarket en beschrijft hoe deze CoinJoin implementatie de privacy en fungibiliteit van Bitcoin verbetert. Hij bespreekt hoe Joinmarket collaboratieve, Trustless en anonieme transacties mogelijk maakt binnen het Bitcoin ecosysteem. In een tweede deel laat hij zien hoe Joinmarket in Signet werkt.
+Adam Gibson geeft inzicht in Joinmarket en beschrijft hoe deze [CoinJoin](https://planb.academy/resources/glossary/coinjoin) implementatie de privacy en fungibiliteit van Bitcoin verbetert. Hij bespreekt hoe Joinmarket collaboratieve, Trustless en anonieme transacties mogelijk maakt binnen het Bitcoin ecosysteem. In een tweede deel laat hij zien hoe Joinmarket in Signet werkt.
 

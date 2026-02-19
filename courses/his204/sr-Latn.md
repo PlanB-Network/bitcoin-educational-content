@@ -317,7 +317,7 @@ U reakciji na iskustvo Džona Lawa, Kantijon objašnjava šta se dešava ili št
 ![image](assets/sr-Latn/017.webp)
 
 
-Vidi dve glavne posledice zamene valute bez stvarne vrednosti, kao što je papirni novac, za metalnu. Prva posledica je ono što on naziva "narodnim odbacivanjem", što znači rastuće nepoverenje u bezvredni novac. Druga posledica je inflacija: monetarno slabljenje čini da roba postaje skuplja.
+Vidi dve glavne posledice zamene valute bez stvarne vrednosti, kao što je papirni novac, za metalnu. Prva posledica je ono što on naziva "narodnim odbacivanjem", što znači rastuće nepoverenje u bezvredni novac. Druga posledica je [inflacija](https://planb.academy/resources/glossary/inflation): monetarno slabljenje čini da roba postaje skuplja.
 
 
 Četvrto, u svojoj analizi **inflacije**, Cantillon je otišao dalje od svojih savremenika. Posmatrajući kolaps Lawovog sistema, Cantillon je shvatio da monetarna inflacija ne utiče na sve jednako. Naprotiv, ona obogaćuje neke dok osiromašuje druge. Zaključio je da inflacija ima redistributivni efekat: oni koji prvi dobiju novoizdati novac imaju koristi od povećane kupovne moći, dok oni koji ga dobiju kasnije postaju siromašniji kao rezultat izdavanja novog novca zbog porasta stopa inflacije.

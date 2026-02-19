@@ -99,7 +99,7 @@ Ensimmäinen Bitcoinissa käytetty kryptografisten algoritmien tyyppi kattaa hä
 Häsäys on prosessi, joka muuntaa mielivaltaisen pituisen tiedon toiseksi, kiinteän pituiseksi tiedoksi kryptografisen häsäfunktion avulla. Toisin sanoen, häsäfunktio ottaa syötteenä minkä tahansa kokoisen tiedon ja muuntaa sen kiinteän kokoiseksi sormenjäljeksi, jota kutsutaan "häsäykseksi".
 Häsäystä voidaan joskus kutsua myös "digestiksi", "tiivisteeksi", "tiivistetyksi" tai "häsätyksi".
 
-Esimerkiksi SHA256-häsäfunktio tuottaa kiinteän pituisen, 256-bittisen häsäyksen. Jos käytämme syötteenä "_PlanB_", mielivaltaisen pituisen viestin, tuotettu häsäys on seuraava 256-bittinen sormenjälki:
+Esimerkiksi [SHA256](https://planb.academy/resources/glossary/sha256)-häsäfunktio tuottaa kiinteän pituisen, 256-bittisen häsäyksen. Jos käytämme syötteenä "_PlanB_", mielivaltaisen pituisen viestin, tuotettu häsäys on seuraava 256-bittinen sormenjälki:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -177,14 +177,14 @@ Bitcoinissa eniten käytetty hash-funktio on **SHA256** ("_Secure Hash Algorithm
 
 Tätä funktiota käytetään monissa Bitcoinin osa-alueissa. Protokollatasolla se on mukana Proof-of-Work -mekanismissa, jossa sitä sovelletaan kaksinkertaisessa hashauksessa etsittäessä osittaista törmäystä ehdokaslohkon otsikon ja vaikeustavoitteen välillä. Jos tämä osittainen törmäys löytyy, ehdokaslohko muuttuu kelvolliseksi ja sen voi lisätä lohkoketjuun.
 
-SHA256:ta käytetään myös Merkle-puun rakentamisessa, joka on erityisesti transaktioiden tallentamiseen käytetty akkumulaattori lohkoissa. Tätä rakennetta käytetään myös Utreexo-protokollassa, joka mahdollistaa UTXO Setin koon pienentämisen. Lisäksi Taprootin käyttöönoton myötä vuonna 2021, SHA256:ta hyödynnetään MAST:ssa (_Merkelised Alternative Script Tree_), joka mahdollistaa vain käytetyissä skripteissä käytettyjen kulutusehtojen paljastamisen ilman muiden mahdollisten vaihtoehtojen paljastamista. Sitä käytetään myös transaktioidentiteettien laskennassa, pakettien siirrossa P2P-verkossa, sähköisissä allekirjoituksissa... Lopuksi, ja tämä on erityisen kiinnostavaa tässä koulutuksessa, SHA256:ta käytetään sovellustasolla Bitcoin-lompakoiden rakentamisessa ja osoitteiden johdannaisessa.
+SHA256:ta käytetään myös [Merkle-puun](https://planb.academy/resources/glossary/merkle-tree) rakentamisessa, joka on erityisesti transaktioiden tallentamiseen käytetty akkumulaattori lohkoissa. Tätä rakennetta käytetään myös [Utreexo](https://planb.academy/resources/glossary/utreexo)-protokollassa, joka mahdollistaa UTXO Setin koon pienentämisen. Lisäksi Taprootin käyttöönoton myötä vuonna 2021, SHA256:ta hyödynnetään [MAST](https://planb.academy/resources/glossary/mast):ssa (_Merkelised Alternative [Script](https://planb.academy/resources/glossary/script) Tree_), joka mahdollistaa vain käytetyissä skripteissä käytettyjen kulutusehtojen paljastamisen ilman muiden mahdollisten vaihtoehtojen paljastamista. Sitä käytetään myös transaktioidentiteettien laskennassa, pakettien siirrossa P2P-verkossa, sähköisissä allekirjoituksissa... Lopuksi, ja tämä on erityisen kiinnostavaa tässä koulutuksessa, SHA256:ta käytetään sovellustasolla Bitcoin-lompakoiden rakentamisessa ja osoitteiden johdannaisessa.
 
-Useimmiten, kun törmäät SHA256:n käyttöön Bitcoinissa, on kyseessä itse asiassa kaksinkertainen hash SHA256, merkitty "**HASH256**", joka yksinkertaisesti koostuu SHA256:n soveltamisesta kahdesti peräkkäin:
+Useimmiten, kun törmäät SHA256:n käyttöön Bitcoinissa, on kyseessä itse asiassa kaksinkertainen hash SHA256, merkitty "**[HASH256](https://planb.academy/resources/glossary/hash256)**", joka yksinkertaisesti koostuu SHA256:n soveltamisesta kahdesti peräkkäin:
 HASH256(m) = SHA256(SHA256(m))
 
 Tämä kaksinkertaisen hashauksen käytäntö lisää ylimääräisen turvallisuustason tietyiltä mahdollisilta hyökkäyksiltä suojautumiseen, vaikka yksittäinen SHA256 katsotaan nykyään kryptografisesti turvalliseksi.
 
-Toinen Script-kielissä käytettävä hash-funktio vastaanotto-osoitteiden johdannaisessa on RIPEMD160-funktio. Tämä funktio tuottaa 160-bittisen hashin (joka on siis lyhyempi kuin SHA256). Sitä yhdistetään yleensä SHA256:n kanssa muodostamaan HASH160-funktio:
+Toinen Script-kielissä käytettävä hash-funktio vastaanotto-osoitteiden johdannaisessa on [RIPEMD160](https://planb.academy/resources/glossary/ripemd160)-funktio. Tämä funktio tuottaa 160-bittisen hashin (joka on siis lyhyempi kuin SHA256). Sitä yhdistetään yleensä SHA256:n kanssa muodostamaan HASH160-funktio:
 
 $$
 \text{HASH160}(m) = \text{RIPEMD160}(\text{SHA256}(m))
@@ -192,7 +192,7 @@ $$
 
 Tätä yhdistelmää käytetään lyhyempien hashien tuottamiseen, erityisesti tietyntyyppisten Bitcoin-osoitteiden luomisessa, jotka edustavat avainten tai skriptien hash-arvoja, sekä avainten sormenjälkien tuottamiseen.
 
-Lopuksi, vain sovellustasolla, joskus käytetään myös SHA512-funktiota, joka epäsuorasti vaikuttaa avainten johdannaisessa lompakoille. Tämä funktio on hyvin samankaltainen kuin SHA256 toiminnassaan; molemmat kuuluvat samaan SHA2-perheeseen, mutta SHA512 tuottaa, kuten nimestä voi päätellä, 512-bittisen hashin, verrattuna SHA256:n 256 bittiin. Tarkastelemme sen käyttöä tarkemmin seuraavissa luvuissa.
+Lopuksi, vain sovellustasolla, joskus käytetään myös [SHA512](https://planb.academy/resources/glossary/sha512)-funktiota, joka epäsuorasti vaikuttaa avainten johdannaisessa lompakoille. Tämä funktio on hyvin samankaltainen kuin SHA256 toiminnassaan; molemmat kuuluvat samaan SHA2-perheeseen, mutta SHA512 tuottaa, kuten nimestä voi päätellä, 512-bittisen hashin, verrattuna SHA256:n 256 bittiin. Tarkastelemme sen käyttöä tarkemmin seuraavissa luvuissa.
 
 Nyt tiedät olennaiset perustiedot hash-funktioista seuraavaa varten. Seuraavassa luvussa ehdotan, että tutustumme yksityiskohtaisemmin funktioon, joka on Bitcoinin ytimessä: SHA256. Pureudumme siihen ymmärtääksemme, miten se saavuttaa tässä kuvatut ominaisuudet. Seuraava luku on melko pitkä ja tekninen, mutta sen ymmärtäminen ei ole olennaista koulutuksen jatkamisen kannalta. Joten, jos et ymmärrä sitä, älä huolestu ja siirry suoraan seuraavaan lukuun, joka on paljon helpommin saavutettavissa.
 
@@ -532,7 +532,7 @@ Puristusfunktio käyttää myös $\text{ShR}$ operaatiota. Tämä operaatio pois
 Lopuksi, törmäyskestävyyden ominaisuuden osalta, useat parametrit tulevat peliin. Alkuperäisen viestin esikäsittelyllä on olennainen rooli. Ilman tätä esikäsittelyä, törmäysten löytäminen funktiosta saattaisi olla helpompaa. Vaikka teoreettisesti törmäykset ovat olemassa (lintuhäkkiprinsiipin vuoksi), hajautusfunktion rakenne, yhdessä edellä mainittujen ominaisuuksien kanssa, tekee törmäyksen löytämisen todennäköisyyden äärimmäisen matalaksi.
 Jotta hajautusfunktio olisi törmäyskestävä, on olennaista, että:
 
-- Tuloksen ennustamattomuus: Mikä tahansa ennustettavuus voidaan hyödyntää törmäysten löytämiseksi nopeammin kuin brute force -hyökkäyksellä. Funktio varmistaa, että jokainen tuloksen bitti riippuu ei-triviaalilla tavalla syötteestä. Toisin sanoen, funktio on suunniteltu niin, että jokaisen lopputuloksen bitillä on itsenäinen todennäköisyys olla 0 tai 1, vaikka tämä itsenäisyys ei käytännössä olekaan absoluuttinen.
+- Tuloksen ennustamattomuus: Mikä tahansa ennustettavuus voidaan hyödyntää törmäysten löytämiseksi nopeammin kuin [brute force -hyökkäyksellä](https://planb.academy/resources/glossary/brute-force-attack). Funktio varmistaa, että jokainen tuloksen bitti riippuu ei-triviaalilla tavalla syötteestä. Toisin sanoen, funktio on suunniteltu niin, että jokaisen lopputuloksen bitillä on itsenäinen todennäköisyys olla 0 tai 1, vaikka tämä itsenäisyys ei käytännössä olekaan absoluuttinen.
 - Hajautusten jakautuminen on pseudosatunnainen: Tämä varmistaa, että hajautukset ovat tasaisesti jakautuneet.
 - Hajautuksen koko on merkittävä: mitä suurempi mahdollisten tulosten tila on, sitä vaikeampi on löytää törmäys.
 
@@ -542,7 +542,7 @@ Kryptografit suunnittelevat näitä funktioita arvioimalla parhaita mahdollisia 
 
 SHA256:n rakenne perustuu Merkle-Damgårdin rakenteeseen, joka mahdollistaa puristusfunktion muuntamisen hajautusfunktioksi, joka voi käsitellä mielivaltaisen pituisia viestejä. Juuri tämän olemme nähneet tässä luvussa.
 Kuitenkin jotkin vanhat hajautusfunktiot kuten SHA1 tai MD5, jotka käyttävät tätä tiettyä rakennetta, ovat haavoittuvaisia pituuden laajennushyökkäyksille. Tämä on tekniikka, joka mahdollistaa hyökkääjän, joka tietää viestin $M$ hajautusarvon ja $M$:n pituuden (tietämättä itse viestiä), laskea hajautusarvon viestille $M'$, joka muodostuu yhdistämällä $M$ lisäsisällön kanssa.
-SHA256, vaikka se käyttää samaa tyyppistä rakennetta, on teoreettisesti vastustuskykyinen tällaiselle hyökkäykselle, toisin kuin SHA1 ja MD5. Tämä saattaa selittää mysteerin Bitcoinin läpi toteutetusta kaksinkertaisesta hajautuksesta, jonka Satoshi Nakamoto toteutti. Välttääkseen tällaista hyökkäystä, Satoshi on saattanut suosia kaksinkertaista SHA256 käyttöä:
+SHA256, vaikka se käyttää samaa tyyppistä rakennetta, on teoreettisesti vastustuskykyinen tällaiselle hyökkäykselle, toisin kuin SHA1 ja MD5. Tämä saattaa selittää mysteerin Bitcoinin läpi toteutetusta kaksinkertaisesta hajautuksesta, jonka [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) toteutti. Välttääkseen tällaista hyökkäystä, Satoshi on saattanut suosia kaksinkertaista SHA256 käyttöä:
 
 $$
 \text{HASH256}(m) = \text{SHA256}(\text{SHA256}(m))
@@ -648,15 +648,15 @@ Toinen Bitcoinissa käytetty kryptografinen menetelmä liittyy digitaalisiin all
 
 ### Bitcoinit, UTXO:t ja Käyttöehdot
 
-Termi "_lompakko_" Bitcoinissa voi olla melko hämmentävä aloittelijoille. Todellisuudessa sitä, mitä kutsutaan Bitcoin-lompakoksi, on ohjelmisto, joka ei suoraan pidä hallussaan bitcoinejasi, toisin kuin fyysinen lompakko, joka voi pitää sisällään kolikoita tai seteleitä. Bitcoinit ovat yksinkertaisesti tilikirjan yksiköitä. Tämä tilikirjan yksikkö edustetaan **UTXO**:lla (_Unspent Transaction Outputs_, käyttämättömät transaktiotulosteet), jotka ovat käyttämättömiä transaktiotulosteita. Jos nämä tulosteet ovat käyttämättömiä, tarkoittaa se, että ne kuuluvat käyttäjälle. UTXO:t ovat tavallaan bitcoinien palasia, vaihtelevan kokoisia, jotka kuuluvat käyttäjälle.
+Termi "_lompakko_" Bitcoinissa voi olla melko hämmentävä aloittelijoille. Todellisuudessa sitä, mitä kutsutaan Bitcoin-lompakoksi, on ohjelmisto, joka ei suoraan pidä hallussaan bitcoinejasi, toisin kuin fyysinen lompakko, joka voi pitää sisällään kolikoita tai seteleitä. Bitcoinit ovat yksinkertaisesti tilikirjan yksiköitä. Tämä tilikirjan yksikkö edustetaan **[UTXO](https://planb.academy/resources/glossary/utxo)**:lla (_Unspent Transaction Outputs_, käyttämättömät transaktiotulosteet), jotka ovat käyttämättömiä transaktiotulosteita. Jos nämä tulosteet ovat käyttämättömiä, tarkoittaa se, että ne kuuluvat käyttäjälle. UTXO:t ovat tavallaan bitcoinien palasia, vaihtelevan kokoisia, jotka kuuluvat käyttäjälle.
 
 Bitcoin-protokolla on hajautettu ja toimii ilman keskusvaltaa. Siksi se ei ole kuin perinteiset pankkikirjaukset, joissa sinulle kuuluvat eurot yksinkertaisesti yhdistetään henkilöllisyyteesi. Bitcoinissa UTXO:si kuuluvat sinulle, koska ne on suojattu Script-kielen määrittelemillä käyttöehdoilla. Yksinkertaistaaksemme, on olemassa kaksi tyyppistä skriptiä: lukitseva skripti (_scriptPubKey_), joka suojaa UTXO:a, ja avaava skripti (_scriptSig_), joka mahdollistaa UTXO:n avaamisen ja siten bitcoin-yksiköiden käyttämisen.
-Bitcoinin alkuperäinen toimintatapa P2PK-skriptien kanssa sisältää julkisen avaimen käyttämisen varojen lukitsemiseen, määrittelemällä _scriptPubKey_:ssä, että henkilön, joka haluaa käyttää tätä UTXO:a, on toimitettava kelvollinen allekirjoitus yksityisavaimella, joka vastaa tätä julkista avainta. Tämän UTXO:n avaamiseksi on siis tarpeen toimittaa kelvollinen allekirjoitus _scriptSig_:ssä. Kuten nimet vihjaavat, julkinen avain on kaikkien tiedossa, koska se lähetetään lohkoketjussa, kun taas yksityinen avain on vain varojen laillisen omistajan tiedossa.
-Tämä on Bitcoinin perustoiminta, mutta ajan myötä tämä toiminta on muuttunut monimutkaisemmaksi. Aluksi Satoshi esitteli myös P2PKH-skriptejä, jotka käyttävät vastaanotto-osoitetta _scriptPubKey_:ssä, joka edustaa julkisen avaimen hajautusta. Sitten järjestelmästä tuli vielä monimutkaisempi SegWitin ja myöhemmin Taprootin myötä. Kuitenkin yleinen periaate pysyy perustavanlaatuisesti samana: julkista avainta tai sen edustusta käytetään UTXO:jen lukitsemiseen, ja vastaavaa yksityistä avainta vaaditaan niiden avaamiseen ja siten käyttämiseen.
+Bitcoinin alkuperäinen toimintatapa [P2PK](https://planb.academy/resources/glossary/p2pk)-skriptien kanssa sisältää julkisen avaimen käyttämisen varojen lukitsemiseen, määrittelemällä _scriptPubKey_:ssä, että henkilön, joka haluaa käyttää tätä UTXO:a, on toimitettava kelvollinen allekirjoitus yksityisavaimella, joka vastaa tätä julkista avainta. Tämän UTXO:n avaamiseksi on siis tarpeen toimittaa kelvollinen allekirjoitus _scriptSig_:ssä. Kuten nimet vihjaavat, julkinen avain on kaikkien tiedossa, koska se lähetetään lohkoketjussa, kun taas yksityinen avain on vain varojen laillisen omistajan tiedossa.
+Tämä on Bitcoinin perustoiminta, mutta ajan myötä tämä toiminta on muuttunut monimutkaisemmaksi. Aluksi Satoshi esitteli myös [P2PKH](https://planb.academy/resources/glossary/p2pkh)-skriptejä, jotka käyttävät vastaanotto-osoitetta _scriptPubKey_:ssä, joka edustaa julkisen avaimen hajautusta. Sitten järjestelmästä tuli vielä monimutkaisempi SegWitin ja myöhemmin Taprootin myötä. Kuitenkin yleinen periaate pysyy perustavanlaatuisesti samana: julkista avainta tai sen edustusta käytetään UTXO:jen lukitsemiseen, ja vastaavaa yksityistä avainta vaaditaan niiden avaamiseen ja siten käyttämiseen.
 Käyttäjän, joka haluaa tehdä Bitcoin-siirron, on siis luotava digitaalinen allekirjoitus käyttäen omaa yksityistä avaintaan kyseisessä siirrossa. Muut verkon osallistujat voivat tarkistaa allekirjoituksen. Jos se on pätevä, tämä tarkoittaa, että siirtoa aloittava käyttäjä on todellakin yksityisen avaimen omistaja, ja siten myös bitcoinejaan kuluttavan varojen omistaja. Muut käyttäjät voivat sitten hyväksyä ja levittää siirtoa.
 Tuloksena käyttäjän, joka omistaa julkisella avaimella lukittuja bitcoineja, on löydettävä tapa turvallisesti säilyttää se, mikä mahdollistaa varojen lukituksen avaamisen: yksityinen avain. Bitcoin-lompakko on juuri sellainen laite, joka mahdollistaa kaikkien avaimiesi helpon säilyttämisen ilman, että muilla on niihin pääsyä. Se on siis enemmän avainnippu kuin lompakko.
 
-Julkisen avaimen ja yksityisen avaimen välisen matemaattisen yhteyden, sekä kyvyn suorittaa allekirjoitus yksityisen avaimen hallussapidon todistamiseksi paljastamatta sitä, tekee mahdolliseksi digitaalisen allekirjoitus algoritmi. Bitcoin-protokollassa käytetään 2 allekirjoitus algoritmia: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Digital Signature Algorithm_) ja **Schnorrin allekirjoitusjärjestelmä**. ECDSA on digitaalisen allekirjoituksen protokolla, jota on käytetty Bitcoinissa sen alusta lähtien. Schnorr on Bitcoinissa uudempi, sillä se otettiin käyttöön marraskuussa 2021 Taproot-päivityksen myötä.
+Julkisen avaimen ja yksityisen avaimen välisen matemaattisen yhteyden, sekä kyvyn suorittaa allekirjoitus yksityisen avaimen hallussapidon todistamiseksi paljastamatta sitä, tekee mahdolliseksi digitaalisen allekirjoitus algoritmi. Bitcoin-protokollassa käytetään 2 allekirjoitus algoritmia: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Digital Signature Algorithm_) ja **Schnorrin allekirjoitusjärjestelmä**. ECDSA on digitaalisen allekirjoituksen protokolla, jota on käytetty Bitcoinissa sen alusta lähtien. [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol) on Bitcoinissa uudempi, sillä se otettiin käyttöön marraskuussa 2021 Taproot-päivityksen myötä.
 Nämä kaksi algoritmia ovat mekanismeiltaan melko samankaltaisia. Molemmat perustuvat elliptiseen käyräkryptografiaan. Näiden kahden protokollan merkittävin ero on allekirjoituksen rakenteessa ja joissakin erityisissä matemaattisissa ominaisuuksissa. Tutkimme siis näiden algoritmien toimintaa aloittaen vanhimmasta: ECDSA.
 
 ### Elliptinen käyräkryptografia
@@ -679,7 +679,7 @@ $$
 
 ECDSA:n tai Schnorrin käyttämiseksi on valittava elliptisen käyrän parametrit, eli arvot $a$ ja $b$ käyräyhtälössä. On olemassa erilaisia elliptisten käyrien standardeja, jotka ovat maineikkaita kryptografisesti turvallisina. Tunnetuin on _secp256r1_-käyrä, jonka on määritellyt ja suositellut NIST (_National Institute of Standards and Technology_).
 
-Huolimatta tästä, Bitcoinin keksijä Satoshi Nakamoto päätti olla käyttämättä tätä käyrää. Tämän valinnan syy on tuntematon, mutta jotkut uskovat hänen halunneen löytää vaihtoehdon, koska tämän käyrän parametrit saattaisivat sisältää takaportin. Sen sijaan Bitcoin-protokolla käyttää standardia **_secp256k1_**-käyrää. Tämä käyrä on määritelty parametreilla $a = 0$ ja $b = 7$. Sen yhtälö on siis:
+Huolimatta tästä, Bitcoinin keksijä Satoshi Nakamoto päätti olla käyttämättä tätä käyrää. Tämän valinnan syy on tuntematon, mutta jotkut uskovat hänen halunneen löytää vaihtoehdon, koska tämän käyrän parametrit saattaisivat sisältää takaportin. Sen sijaan Bitcoin-protokolla käyttää standardia **_[secp256k1](https://planb.academy/resources/glossary/secp256k1)_**-käyrää. Tämä käyrä on määritelty parametreilla $a = 0$ ja $b = 7$. Sen yhtälö on siis:
 
 $$
 y^2 = x^3 + 7
@@ -729,11 +729,11 @@ https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 :::video id=2fddfb16-5ae3-41da-92f8-ef5d09789804:::
 
-Kuten aiemmin nähtiin, Bitcoinin digitaalisen allekirjoituksen algoritmit perustuvat matemaattisesti yhteydessä olevaan yksityisen ja julkisen avaimen pariin. Tutkitaan yhdessä, mikä tämä matemaattinen yhteys on ja miten ne luodaan.
+Kuten aiemmin nähtiin, Bitcoinin digitaalisen allekirjoituksen algoritmit perustuvat matemaattisesti yhteydessä olevaan yksityisen ja [julkisen avaimen](https://planb.academy/resources/glossary/public-key) pariin. Tutkitaan yhdessä, mikä tämä matemaattinen yhteys on ja miten ne luodaan.
 
 ### Yksityinen avain
 
-Yksityinen avain on yksinkertaisesti satunnainen tai pseudosatunnainen numero. Bitcoinin tapauksessa tämä numero on 256 bittiä suuruinen. Bitcoinin yksityisen avaimen mahdollisuuksien määrä on siis teoreettisesti $2^{256}$.
+[Yksityinen avain](https://planb.academy/resources/glossary/private-key) on yksinkertaisesti satunnainen tai pseudosatunnainen numero. Bitcoinin tapauksessa tämä numero on 256 bittiä suuruinen. Bitcoinin yksityisen avaimen mahdollisuuksien määrä on siis teoreettisesti $2^{256}$.
 **Huomio**: "Pseudosatunnaisluku" on luku, jolla on ominaisuuksia, jotka ovat lähellä todellisen satunnaisluvun ominaisuuksia, mutta se on tuotettu deterministisellä algoritmilla.
 Käytännössä elliptisellä käyrällämme secp256k1 on kuitenkin vain $n$ erillistä pistettä, missä $n$ on käyrän generaattoripisteen $G$ järjestys. Näemme myöhemmin, mitä tämä luku vastaa, mutta muista yksinkertaisesti, että kelvollinen yksityisavain on kokonaisluku välillä $1$ ja $n-1$, tietäen, että $n$ on luku, joka on lähellä mutta hieman pienempi kuin $2^{256}$. Siksi on olemassa joitakin 256-bittisiä lukuja, jotka eivät kelpaa Bitcoinin yksityisavaimiksi, erityisesti kaikki luvut välillä $n$ ja $2^{256}$. Jos satunnaisluvun (yksityisavain) tuottaminen tuottaa arvon $k$ siten, että $k \geq n$, se katsotaan kelvottomaksi, ja uusi satunnaisarvo on tuotettava.
 
@@ -902,7 +902,7 @@ $$
 e = \text{HASH}(m)
 $$
 
-Seuraavaksi laskemme nonce-arvon. Kryptografiassa nonce on yksinkertaisesti satunnaisesti tai pseudo-satunnaisesti generoitu numero, jota käytetään vain kerran. Toisin sanoen, joka kerta kun uusi digitaalinen allekirjoitus tehdään tällä avainparilla, on erittäin tärkeää käyttää eri noncea, muuten se vaarantaa yksityisen avaimen turvallisuuden. Riittää siis määrittää satunnainen ja uniikki kokonaisluku $r$ siten, että $1 \leq r \leq n-1$, missä $n$ on elliptisen käyrän generoivapisteen $G$ järjestys.
+Seuraavaksi laskemme [nonce](https://planb.academy/resources/glossary/nonce)-arvon. Kryptografiassa nonce on yksinkertaisesti satunnaisesti tai pseudo-satunnaisesti generoitu numero, jota käytetään vain kerran. Toisin sanoen, joka kerta kun uusi digitaalinen allekirjoitus tehdään tällä avainparilla, on erittäin tärkeää käyttää eri noncea, muuten se vaarantaa yksityisen avaimen turvallisuuden. Riittää siis määrittää satunnainen ja uniikki kokonaisluku $r$ siten, että $1 \leq r \leq n-1$, missä $n$ on elliptisen käyrän generoivapisteen $G$ järjestys.
 
 Sitten laskemme pisteen $R$ elliptisellä käyrällä koordinaateilla $(x_R, y_R)$ siten, että:
 
@@ -1152,7 +1152,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### HD Lompakot (_Hierarchical Deterministic_)
 
-JBOK-lompakoiden rajoituksen ratkaisemiseksi myöhemmin otettiin käyttöön uusi lompakon rakenne. Vuonna 2012 Pieter Wuille esitteli parannuksen BIP32:n kanssa, joka tuo käyttöön hierarkkiset deterministiset lompakot. HD-lompakon periaate on johtaa kaikki yksityisavaimet yhdestä tietolähteestä, siemenestä, deterministisellä ja hierarkkisella tavalla. Tämä siemen luodaan satunnaisesti, kun lompakko luodaan, ja muodostaa ainutlaatuisen varmuuskopion, joka mahdollistaa kaikkien lompakon yksityisavainten uudelleenluomisen. Näin käyttäjä voi luoda hyvin suuren määrän yksityisavaimia välttääkseen osoitteen uudelleenkäytön ja säilyttääkseen yksityisyytensä, tarviten vain yhden varmuuskopion lompakostaan siemenen kautta.
+JBOK-lompakoiden rajoituksen ratkaisemiseksi myöhemmin otettiin käyttöön uusi lompakon rakenne. Vuonna 2012 Pieter Wuille esitteli parannuksen [BIP32](https://planb.academy/resources/glossary/bip0032):n kanssa, joka tuo käyttöön hierarkkiset deterministiset lompakot. HD-lompakon periaate on johtaa kaikki yksityisavaimet yhdestä tietolähteestä, siemenestä, deterministisellä ja hierarkkisella tavalla. Tämä siemen luodaan satunnaisesti, kun lompakko luodaan, ja muodostaa ainutlaatuisen varmuuskopion, joka mahdollistaa kaikkien lompakon yksityisavainten uudelleenluomisen. Näin käyttäjä voi luoda hyvin suuren määrän yksityisavaimia välttääkseen osoitteen uudelleenkäytön ja säilyttääkseen yksityisyytensä, tarviten vain yhden varmuuskopion lompakostaan siemenen kautta.
 ![CYP201](assets/en/039.webp)
 
 HD-lompakoissa avainten johtaminen suoritetaan hierarkkisen rakenteen mukaisesti, joka mahdollistaa avainten järjestämisen johtamisalasubavaruuteen, jokaista subspacea voidaan edelleen jakaa, helpottamaan varojen hallintaa ja yhteentoimivuutta eri lompakko-ohjelmistojen välillä. Nykyään tämä standardi on hyväksytty valtaosan Bitcoin-käyttäjien toimesta. Tästä syystä tarkastelemme sitä yksityiskohtaisesti seuraavissa luvuissa.
@@ -1171,7 +1171,7 @@ Tulevissa luvuissa tutkimme HD-lompakoiden sisäistä toimintaa, mukaan lukien a
 
 :::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
 
-Nykyajan HD-lompakot (deterministiset ja hierarkkiset) perustuvat yhteen alkuinformaation palaseen, jota kutsutaan "entropiaksi", jotta ne voivat deterministisesti generoida koko avainjoukon. Tämä entropia on pseudo-satunnaisluku, jonka kaaoksen taso osittain määrittää lompakon turvallisuuden.
+Nykyajan HD-lompakot (deterministiset ja hierarkkiset) perustuvat yhteen alkuinformaation palaseen, jota kutsutaan "entropiaksi", jotta ne voivat deterministisesti generoida koko avainjoukon. Tämä [entropia](https://planb.academy/resources/glossary/entropy) on pseudo-satunnaisluku, jonka kaaoksen taso osittain määrittää lompakon turvallisuuden.
 
 ### Entropian määritelmä
 
@@ -1200,7 +1200,7 @@ Seuraavassa luvussa näemme, miten siirrymme satunnaisluvusta 12 tai 24 sanan mu
 
 :::video id=6218472e-b965-484f-b56b-e363f65d2827:::
 
-Mnemoninen lause, jota kutsutaan myös "siemenlauseeksi", "palautuslauseeksi", "salaisuuslauseeksi" tai "24 sanan lauseeksi", on yleensä 12 tai 24 sanasta koostuva jono, joka on generoitu entropiasta. Sitä käytetään deterministisesti johdettamaan kaikki HD-lompakon avaimet. Tämä tarkoittaa, että tästä lauseesta on mahdollista deterministisesti generoida ja uudelleen luoda kaikki Bitcoin-lompakon yksityiset ja julkiset avaimet, ja siten päästä käsiksi sen suojaamiin varoihin. Mnemonisen lauseen tarkoitus on tarjota sekä turvallinen että helppokäyttöinen varmuuskopioinnin ja palautuksen keino bitcoineille. Se otettiin standardeihin käyttöön vuonna 2013 BIP39:n myötä.
+Mnemoninen lause, jota kutsutaan myös "siemenlauseeksi", "palautuslauseeksi", "salaisuuslauseeksi" tai "24 sanan lauseeksi", on yleensä 12 tai 24 sanasta koostuva jono, joka on generoitu entropiasta. Sitä käytetään deterministisesti johdettamaan kaikki HD-lompakon avaimet. Tämä tarkoittaa, että tästä lauseesta on mahdollista deterministisesti generoida ja uudelleen luoda kaikki Bitcoin-lompakon yksityiset ja julkiset avaimet, ja siten päästä käsiksi sen suojaamiin varoihin. Mnemonisen lauseen tarkoitus on tarjota sekä turvallinen että helppokäyttöinen varmuuskopioinnin ja palautuksen keino bitcoineille. Se otettiin standardeihin käyttöön vuonna 2013 [BIP39](https://planb.academy/resources/glossary/bip0039):n myötä.
 Tutkitaan yhdessä, miten entropiasta päästään mnemoniseen lauseeseen.
 
 ### Tarkistussumma
@@ -1447,7 +1447,7 @@ Laajennettu avain on rakenteeltaan seuraava:
 - **Depth**: Hierarkkinen taso HD-lompakossa suhteessa pääavaimeseen (0 pääavaimelle).
 - **Parent Fingerprint**: Vanhemman julkisen avaimen HASH160-hashin ensimmäiset 4 tavua, joita käytetään johtamaan kuormassa oleva avain.
 - **Index Number**: Lapsiavaimen tunniste sisarusavainten joukossa, eli kaikkien samalla johtamistasolla olevien avainten joukossa, joilla on samat vanhemmat avaimet.
-- **Chain Code**: Ainutlaatuinen 32-tavuinen koodi lapsiavainten johtamiseen.
+- **[Chain Code](https://planb.academy/resources/glossary/chain-code)**: Ainutlaatuinen 32-tavuinen koodi lapsiavainten johtamiseen.
 - **Key**: Yksityinen avain (etuliitteellä 1 tavu koolle) tai julkinen avain.
 - **Checksum**: Tarkistussumma, joka on laskettu HASH256-toiminnolla (kaksois SHA256), lisätään myös, mikä mahdollistaa laajennetun avaimen eheyden varmistamisen sen siirron tai tallennuksen aikana.
 
@@ -1755,11 +1755,11 @@ Johdannaispolku viittaa siis indeksien sekvenssiin, jota käytetään lapsiavain
 
 Tämä syvyys vastaa lompakon pääyksityisavainta ja pääketjukoodia. Sitä edustaa notaatio $m/$.
 
-**Syvyys 1: Tarkoitus (BIP43)**
-Tavoite määrittää johdannaisen loogisen rakenteen. Esimerkiksi P2WPKH-osoitteella on syvyydessä 1 $/84'/$ (BIP84:n mukaan), kun taas P2TR-osoitteella on $/86'/$ (BIP86:n mukaan). Tämä kerros helpottaa lompakoiden välistä yhteensopivuutta osoittamalla indeksinumerot, jotka vastaavat BIP-numeroita.
+**Syvyys 1: Tarkoitus ([BIP43](https://planb.academy/resources/glossary/bip0043))**
+Tavoite määrittää johdannaisen loogisen rakenteen. Esimerkiksi P2WPKH-osoitteella on syvyydessä 1 $/84'/$ ([BIP84](https://planb.academy/resources/glossary/bip0084):n mukaan), kun taas P2TR-osoitteella on $/86'/$ ([BIP86](https://planb.academy/resources/glossary/bip0086):n mukaan). Tämä kerros helpottaa lompakoiden välistä yhteensopivuutta osoittamalla indeksinumerot, jotka vastaavat BIP-numeroita.
 Toisin sanoen, kun sinulla on pääavain ja pääketjukoodi, ne toimivat vanhempina avainpareina johdettaessa lapsiavainparia. Tässä johdannaisessa käytettävä indeksi voi olla esimerkiksi $/84'/$, jos lompakko on tarkoitettu käyttämään SegWit v0 -tyyppisiä skriptejä. Tämä avainpari on sitten syvyydessä 1. Sen rooli ei ole lukita bittejä, vaan toimia vain välietappina johdannaisessa hierarkiassa.
 
-**Syvyys 2: Valuuttatyyppi (BIP44)**
+**Syvyys 2: Valuuttatyyppi ([BIP44](https://planb.academy/resources/glossary/bip0044))**
 
 Syvyydessä 1 olevasta avainparista suoritetaan uusi johdannainen saadakseen avainparin syvyydessä 2. Tämä syvyys mahdollistaa Bitcoin-tilien erottamisen muista kryptovaluutoista samassa lompakossa.
 
@@ -1884,13 +1884,13 @@ Juuri *scriptPubKey*:ssa löytyvät vastaanotto-osoitteet. Kuitenkin niiden käy
 
 
 
-| Standardi             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| Standardi             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _[witness](https://planb.academy/resources/glossary/scriptwitness)_ |
 | --------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
 | P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
 | P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
-| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Mielivaltaiset tiedot | |
-| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
-| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| [P2SH](https://planb.academy/resources/glossary/p2sh)                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Mielivaltaiset tiedot | |
+| [P2WPKH](https://planb.academy/resources/glossary/p2wpkh)               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| [P2WSH](https://planb.academy/resources/glossary/p2wsh)                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
 | P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
 | P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
 | P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
@@ -1954,13 +1954,13 @@ Tämä skriptimalli esiteltiin Bitcoinin ensimmäisessä versiossa Satoshi Nakam
 
 **P2PKH (*Pay-to-PubKey-Hash*)**:
 
-Kuten P2PK, myös P2PKH-skripti esiteltiin Bitcoinin lanseerauksen yhteydessä. Toisin kuin edeltäjänsä, se lukitsee bitcoinit käyttäen julkisen avaimen hashia, eikä suoraan raakaa julkista avainta. *scriptSig*:n on sitten annettava vastaanotto-osoitteeseen liitetty julkinen avain sekä validi allekirjoitus. Tähän malliin kuuluvat osoitteet alkavat numerolla `1` ja ne on koodattu *base58check*-muodossa. Tämä skripti kuuluu myös "*Legacy*" -standardiin.
+Kuten P2PK, myös P2PKH-skripti esiteltiin Bitcoinin lanseerauksen yhteydessä. Toisin kuin edeltäjänsä, se lukitsee bitcoinit käyttäen julkisen avaimen hashia, eikä suoraan raakaa julkista avainta. *scriptSig*:n on sitten annettava vastaanotto-osoitteeseen liitetty julkinen avain sekä validi allekirjoitus. Tähän malliin kuuluvat osoitteet alkavat numerolla `1` ja ne on koodattu *[base58check](https://planb.academy/resources/glossary/base58check)*-muodossa. Tämä skripti kuuluu myös "*Legacy*" -standardiin.
 
 **P2SH (*Pay-to-Script-Hash*)**:
 Vuonna 2012 BIP16:n myötä esitelty P2SH-malli mahdollistaa mielivaltaisen skriptin hajautusarvon käytön *scriptPubKey*ssä. Tätä hajautettua skriptiä, jota kutsutaan "*redeemScript*iksi", sisältää ehdot varojen vapauttamiseksi. P2SH:lla lukittujen UTXO:iden käyttämiseksi on tarpeen toimittaa *scriptSig*, joka sisältää alkuperäisen *redeemScript*in sekä tarvittavat tiedot sen validointiin. Tätä mallia käytetään erityisesti vanhoissa multisigeissa. P2SH:aan liittyvät osoitteet alkavat `3`:lla ja ne on koodattu *base58check* -muotoon. Tämä skripti kuuluu myös "*Legacy*" -standardiin.
 **P2WPKH (*Pay-to-Witness-PubKey-Hash*)**:
 Tämä skripti on samankaltainen kuin P2PKH, sillä se myös lukitsee bitcoineja käyttäen julkisen avaimen hajautusarvoa. Toisin kuin P2PKH:ssa, *scriptSig* siirretään erilliseen osioon nimeltä "*Witness*". Tätä kutsutaan joskus "*scriptWitness*iksi" osoittamaan allekirjoituksen ja julkisen avaimen sisältävän kokonaisuuden. Jokaisella SegWit-syötteellä on oma *scriptWitness*insä, ja *scriptWitness*ien kokoelma muodostaa transaktion *Witness*-kentän. Allekirjoitustietojen siirto on innovaatio, jonka SegWit-päivitys toi, erityisesti ECDSA-allekirjoitusten aiheuttaman transaktioiden muunneltavuuden estämiseksi.
-P2WPKH-osoitteet käyttävät *bech32*-koodausta ja alkavat aina `bc1q`:lla. Tämä skriptityyppi vastaa version 0 SegWit-lähtöjä.
+P2WPKH-osoitteet käyttävät *[bech32](https://planb.academy/resources/glossary/bech32-and-bech32m)*-koodausta ja alkavat aina `bc1q`:lla. Tämä skriptityyppi vastaa version 0 SegWit-lähtöjä.
 
 **P2WSH (*Pay-to-Witness-Script-Hash*)**:
 

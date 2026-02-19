@@ -80,13 +80,13 @@ Kas olete valmis sukelduma RGB keerukasse ja põnevasse maailma? Lähme!
 
 :::video id=f27338bc-4210-4a2e-9b27-30278ed3282c:::
 
-RGB on protokoll, mis on loodud digitaalsete õiguste (lepingute ja varade kujul) kohaldamiseks ja jõustamiseks skaleeritaval ja konfidentsiaalsel viisil, mis põhineb Bitcoini plokiahela konsensusreeglitel ja toimingutel. Käesoleva esimese peatüki eesmärk on tutvustada RGB-protokolliga seotud põhimõisteid ja terminoloogiat, rõhutades eelkõige selle tihedat seost selliste põhiliste hajutatud arvutuskontseptsioonide nagu kliendipoolne valideerimine ja ühekordsed pitsatid.
+RGB on protokoll, mis on loodud digitaalsete õiguste (lepingute ja varade kujul) kohaldamiseks ja jõustamiseks skaleeritaval ja konfidentsiaalsel viisil, mis põhineb Bitcoini [plokiahela](https://planb.academy/resources/glossary/blockchain) [konsensusreeglitel](https://planb.academy/resources/glossary/consensus-rules) ja toimingutel. Käesoleva esimese peatüki eesmärk on tutvustada RGB-protokolliga seotud põhimõisteid ja terminoloogiat, rõhutades eelkõige selle tihedat seost selliste põhiliste hajutatud arvutuskontseptsioonide nagu kliendipoolne valideerimine ja ühekordsed pitsatid.
 
 Selles peatükis uurime **jaotatud konsensussüsteemide** põhialuseid ja vaatame, kuidas RGB sobib sellesse tehnoloogiaperekonda. Samuti tutvustame peamisi põhimõtteid, mis aitavad meil mõista, miks RGB eesmärk on olla laiendatav ja sõltumatu Bitcoini enda konsensusmehhanismist, tuginedes samas vajadusel sellele.
 
 ### Sissejuhatus
 
-Jaotatud andmetöötlus, mis on arvutiteaduse eriharu, uurib protokolle, mida kasutatakse teabe levitamiseks ja töötlemiseks sõlmede võrgus. Need sõlmed ja protokollide reeglid moodustavad koos selle, mida nimetatakse hajutatud süsteemiks. Sellist süsteemi iseloomustavate oluliste omaduste hulka kuuluvad :
+Jaotatud andmetöötlus, mis on arvutiteaduse eriharu, uurib protokolle, mida kasutatakse teabe levitamiseks ja töötlemiseks [sõlmede](https://planb.academy/resources/glossary/node) võrgus. Need sõlmed ja protokollide reeglid moodustavad koos selle, mida nimetatakse hajutatud süsteemiks. Sellist süsteemi iseloomustavate oluliste omaduste hulka kuuluvad :
 
 
 - **Võimekus kontrollida ja valideerida** teatavaid andmeid sõltumatult iga sõlme poolt;
@@ -99,11 +99,11 @@ Eelkõige hõlmab mõiste **konsensus** hajutatud süsteemis kahte aspekti:
 - **Seisundi muutuste kehtivuse** tunnustamine (vastavalt protokolli reeglitele);
 - **Kokkulepe nende oleku muutuste järjekorras**, mis muudab võimatuks ümberkirjutamise või tagurpidi valideeritud operatsioonide tagantjärele teostamise (seda tuntakse Bitcoinis ka kui "topeltkulutuste kaitset").
 
-Satoshi Nakamoto võttis Bitcoiniga kasutusele esimese funktsionaalse, lubadusteta jaotatud konsensusmehhanismi, tänu plokiahela andmestruktuuri ja Proof-of-Work (PoW) algoritmi kombineeritud kasutamisele. Selles süsteemis sõltub plokkide ajaloo usaldusväärsus sõlmede (kaevurite) poolt sellele pühendatud arvutusvõimsusest. Bitcoin on seega oluline ja ajalooline näide kõigile avatud hajutatud konsensussüsteemist (*vabaduseta*).
+Satoshi Nakamoto võttis Bitcoiniga kasutusele esimese funktsionaalse, lubadusteta jaotatud konsensusmehhanismi, tänu plokiahela andmestruktuuri ja [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) (PoW) algoritmi kombineeritud kasutamisele. Selles süsteemis sõltub plokkide ajaloo usaldusväärsus sõlmede ([kaevurite](https://planb.academy/resources/glossary/miner)) poolt sellele pühendatud arvutusvõimsusest. Bitcoin on seega oluline ja ajalooline näide kõigile avatud hajutatud konsensussüsteemist (*vabaduseta*).
 
-Plokiahela ja hajutatud arvutuste maailmas võime eristada kahte põhilist paradigmat: ***blockchain*** traditsioonilises mõttes ja ***riigi kanalid***, mille parim näide tootmises on Lightning Network. Plokiahelat defineeritakse kui kronoloogiliselt järjestatud sündmuste registrit, mida reprodutseeritakse konsensuse alusel avatud, lubadusteta võrgus. Seevastu olekukanalid on vastastikused kanalid, mis võimaldavad kahel (või enamal) osalejal säilitada ajakohastatud olekut väljaspool ahelat, kasutades plokiahelat ainult nende kanalite avamisel ja sulgemisel.
+Plokiahela ja hajutatud arvutuste maailmas võime eristada kahte põhilist paradigmat: ***blockchain*** traditsioonilises mõttes ja ***riigi kanalid***, mille parim näide tootmises on [Lightning Network](https://planb.academy/resources/glossary/lightning-network). Plokiahelat defineeritakse kui kronoloogiliselt järjestatud sündmuste registrit, mida reprodutseeritakse konsensuse alusel avatud, lubadusteta võrgus. Seevastu olekukanalid on vastastikused kanalid, mis võimaldavad kahel (või enamal) osalejal säilitada ajakohastatud olekut väljaspool ahelat, kasutades plokiahelat ainult nende kanalite avamisel ja sulgemisel.
 
-Bitcoini kontekstis olete kahtlemata tuttav kaevandamise, detsentraliseerimise ja tehingute lõplikkuse põhimõtetega plokiahelas, samuti sellega, kuidas maksekanalid töötavad. RGBga võtame kasutusele uue paradigma nimega **Kliendipoolne valideerimine**, mis erinevalt plokiahela või Lightningist seisneb nutilepingu oleku üleminekute lokaalses (kliendipoolses) salvestamises ja valideerimises. See erineb teistest "DeFi" tehnikatest (_rollups_, _plasma_, _ARK_ jne) ka selle poolest, et kliendipoolne valideerimine tugineb plokiahelale, et vältida topeltkulutusi ja omada ajatemplisüsteemi, hoides samal ajal ahelaväliseid olekuid ja üleminekuid käsitlevat registrit ainult asjaomaste osalejate juures.
+Bitcoini kontekstis olete kahtlemata tuttav kaevandamise, detsentraliseerimise ja tehingute lõplikkuse põhimõtetega plokiahelas, samuti sellega, kuidas [maksekanalid](https://planb.academy/resources/glossary/payment-channel) töötavad. RGBga võtame kasutusele uue paradigma nimega **Kliendipoolne valideerimine**, mis erinevalt plokiahela või Lightningist seisneb [nutilepingu](https://planb.academy/resources/glossary/smart-contract) oleku üleminekute lokaalses (kliendipoolses) salvestamises ja valideerimises. See erineb teistest "DeFi" tehnikatest (_rollups_, _plasma_, _ARK_ jne) ka selle poolest, et kliendipoolne valideerimine tugineb plokiahelale, et vältida [topeltkulutusi](https://planb.academy/resources/glossary/double-spending-attack) ja omada [ajatemplisüsteemi](https://planb.academy/resources/glossary/timestamp), hoides samal ajal ahelaväliseid olekuid ja üleminekuid käsitlevat registrit ainult asjaomaste osalejate juures.
 
 ![RGB-Bitcoin](assets/en/003.webp)
 
@@ -201,7 +201,7 @@ Bitcoini plokiahela puhul põhineb tehingu valideerimine lihtsal reeglil:
 
 
 - Kõik võrgusõlmed laadivad alla iga ploki ja tehingu;
-- Nad valideerivad need tehingud, et kontrollida UTXO-komplekti (kõik kulutamata väljundid) õiget arengut;
+- Nad valideerivad need tehingud, et kontrollida [UTXO](https://planb.academy/resources/glossary/utxo)-komplekti (kõik kulutamata väljundid) õiget arengut;
 - Nad salvestavad need andmed (plokkide kujul), nii et ajalugu saab vajaduse korral uuesti esitada.
 
 ![RGB-Bitcoin](assets/en/010.webp)
@@ -226,7 +226,7 @@ Kliendipoolne valideerimine põhineb vastupidisel ideel: selle asemel, et nõuda
 
 Samal ajal, et ülejäänud võrk (või täpsemalt, aluseks olev kiht, näiteks Bitcoin) saaks lukustada lõpliku seisundi, ilma et ta näeks nende andmete üksikasju, tugineb kliendipoolne valideerimine ***commitment*** mõistele.
 
-*Kohustus* on krüptograafiline kohustus, tavaliselt _hash_ (näiteks SHA-256), mis lisatakse Bitcoini tehingusse ja mis tõestab, et privaatsed andmed on lisatud, ilma neid andmeid paljastamata.
+*Kohustus* on krüptograafiline kohustus, tavaliselt _hash_ (näiteks [SHA-256](https://planb.academy/resources/glossary/sha256)), mis lisatakse Bitcoini tehingusse ja mis tõestab, et privaatsed andmed on lisatud, ilma neid andmeid paljastamata.
 
 Tänu nendele _kohustustele_ saame tõestada:
 
@@ -279,7 +279,7 @@ Sellise vara nagu valuuta vastuvõtmisel on olulised kaks tagatist:
 
 Füüsilise vara, näiteks pangatähe puhul piisab füüsilisest olemasolust, et tõestada, et seda ei ole dubleeritud. Kuid digitaalses maailmas, kus vara on puhtalt informatiivne, on see kontrollimine keerulisem, sest teave võib kergesti paljuneda ja dubleerida.
 
-Nagu me nägime varem, võimaldab saatja avalikustatud oleku üleminekute ajalugu tagada RGB-märkide autentsuse. Kuna meil on juurdepääs kõikidele tehingutele alates algsest tehingust, saame kinnitada märgi autentsust. See põhimõte on sarnane Bitcoini põhimõttega, kus müntide ajalugu saab nende kehtivuse kontrollimiseks jälgida tagasi algse coinbase'i tehinguni. Kuid erinevalt Bitcoinist on RGB-s see oleku üleminekute ajalugu privaatne ja seda hoitakse kliendi poolel.
+Nagu me nägime varem, võimaldab saatja avalikustatud oleku üleminekute ajalugu tagada RGB-märkide autentsuse. Kuna meil on juurdepääs kõikidele tehingutele alates algsest tehingust, saame kinnitada märgi autentsust. See põhimõte on sarnane Bitcoini põhimõttega, kus müntide ajalugu saab nende kehtivuse kontrollimiseks jälgida tagasi algse [coinbase'i](https://planb.academy/resources/glossary/coinbase-transaction) tehinguni. Kuid erinevalt Bitcoinist on RGB-s see oleku üleminekute ajalugu privaatne ja seda hoitakse kliendi poolel.
 
 RGB-märkide kahekordse kulutamise vältimiseks kasutame mehhanismi nimega "**Korduvkasutatav pitser**". See süsteem tagab, et iga kord kasutatud žetooni ei saa pettuse teel teist korda uuesti kasutada.
 
@@ -400,7 +400,7 @@ Pange tähele, et need tarkvaraplokid on Bitcoini agnostilised; teoreetiliselt v
 
 #### Ühekordsete pitserite laiema kasutamise suunas
 
-Peter Todd lõi ka _Open Timestamps_ protokolli ja ühekordselt kasutatava pitseri kontseptsioon on nende ideede loomulikuks laienduseks. Lisaks RGB-le võib ette näha ka muid kasutusjuhtumeid, näiteks _sidechains_ ehitamine ilma _merge mining'ile_ või drivechainiga seotud ettepanekutele nagu BIP300. Põhimõtteliselt võib seda krüptograafilist primitiivi kasutada iga süsteem, mis nõuab ühekordset kohustust. Täna on RGB esimene suuremahuline täiemahuline rakendus.
+Peter Todd lõi ka _Open Timestamps_ protokolli ja ühekordselt kasutatava pitseri kontseptsioon on nende ideede loomulikuks laienduseks. Lisaks RGB-le võib ette näha ka muid kasutusjuhtumeid, näiteks _[sidechains](https://planb.academy/resources/glossary/sidechain)_ ehitamine ilma _merge mining'ile_ või drivechainiga seotud ettepanekutele nagu BIP300. Põhimõtteliselt võib seda krüptograafilist primitiivi kasutada iga süsteem, mis nõuab ühekordset kohustust. Täna on RGB esimene suuremahuline täiemahuline rakendus.
 
 #### Andmete kättesaadavuse probleemid
 
@@ -408,7 +408,7 @@ Kuna kliendipoolse valideerimise puhul salvestab iga kasutaja oma osa ajaloost, 
 
 #### Jagamine ja lepingu isoleerimine
 
-Iga leping kujutab endast üksikut "killustikku": USDT ja USDC näiteks ei pea oma ajalugu jagama. Aatomivahetused on endiselt võimalikud, kuid see ei hõlma nende registrite ühendamist. Kõik toimub krüptograafiliste kohustuste abil, ilma et iga osaleja saaks kogu ajaloo graafikut avaldada.
+Iga leping kujutab endast üksikut "killustikku": USDT ja USDC näiteks ei pea oma ajalugu jagama. [Aatomivahetused](https://planb.academy/resources/glossary/atomic-swap) on endiselt võimalikud, kuid see ei hõlma nende registrite ühendamist. Kõik toimub krüptograafiliste kohustuste abil, ilma et iga osaleja saaks kogu ajaloo graafikut avaldada.
 
 ### Kokkuvõte
 
@@ -424,11 +424,11 @@ Enne teise peatüki tehnilistesse üksikasjadesse sukeldumist lugege julgelt uue
 
 :::video id=73ddea2d-c243-479d-a3dc-12d7db8eef70:::
 
-Selles peatükis vaatleme kliendipoolse valideerimise ja ühekordselt kasutatavate pitserite rakendamist Bitcoini plokiahelas. Tutvustame RGB **commitment layer** (1. kiht) peamisi põhimõtteid, keskendudes eelkõige **TxO2** skeemile, mida RGB kasutab pitseri defineerimiseks ja sulgemiseks Bitcoini tehingus. Seejärel arutame kahte olulist punkti, mida ei ole veel üksikasjalikult käsitletud:
+Selles peatükis vaatleme [kliendipoolse valideerimise](https://planb.academy/resources/glossary/client-side-validation) ja [ühekordselt kasutatavate pitserite](https://planb.academy/resources/glossary/single-use-seal) rakendamist Bitcoini plokiahelas. Tutvustame RGB **commitment layer** (1. kiht) peamisi põhimõtteid, keskendudes eelkõige **TxO2** skeemile, mida RGB kasutab pitseri defineerimiseks ja sulgemiseks Bitcoini tehingus. Seejärel arutame kahte olulist punkti, mida ei ole veel üksikasjalikult käsitletud:
 
 
 - _deterministlikud Bitcoini kohustused_;
-- Mitme protokolliga seotud kohustused.
+- [Mitme protokolliga seotud kohustused](https://planb.academy/resources/glossary/multi-protocol-commitment).
 
 Just nende mõistete kombinatsioon võimaldab meil ühe UTXO ja seega ühe plokiahela peale panna mitu süsteemi või lepingut.
 
@@ -441,28 +441,28 @@ Nagu me nägime kursuse esimeses peatükis, on ühekordse kasutusega pitsatid ü
 Loogika mõistmiseks tuletame meelde põhiprintsiipi: _korduvkasutatava pitseri_ sulgemiseks kulutame pitseriga kaetud ala, sisestades antud sõnumi kohta _commitment_. Bitcoinis saab seda teha mitmel viisil:
 
 
-- Kasutage avalikku võtit või aadressi
+- Kasutage [avalikku võtit](https://planb.academy/resources/glossary/public-key) või aadressi
 
 Me võime otsustada, et konkreetne avalik võti või aadress on _kasutatav pitsat_. Niipea kui see võti või aadress ilmub tehingus ahelas, tähendab see, et pitser on suletud teatud sõnumiga.
 
 
-- Kasutage **Bitcoin** tehingu väljundit
+- Kasutage **Bitcoin** tehingu [väljundit](https://planb.academy/resources/glossary/output)
 
-See tähendab, et _korduvkasutatav pitsat_ on määratletud täpse _väljundpunktina_ (TXID + väljundnumbri paar). Niipea kui see _väljundpunkt_ on kulutatud, suletakse pitser.
+See tähendab, et _korduvkasutatav pitsat_ on määratletud täpse _[väljundpunktina](https://planb.academy/resources/glossary/outpoint)_ ([TXID](https://planb.academy/resources/glossary/txid-transaction-identifier) + väljundnumbri paar). Niipea kui see _väljundpunkt_ on kulutatud, suletakse pitser.
 
 RGB kallal töötades leidsime vähemalt 4 erinevat võimalust nende pitserite rakendamiseks Bitcoinis:
 
 
 - Määrake pitser avaliku võtme kaudu ja sulgege see _väljundis_ ;
 - Määrake pitsat _väljundiga_ ja sulgege see _väljundiga_ ;
-- Määrake pitser avaliku võtme väärtuse kaudu ja sulgege see _sisendisse_ ;
+- Määrake pitser avaliku võtme väärtuse kaudu ja sulgege see _[sisendisse](https://planb.academy/resources/glossary/input)_ ;
 - Määrake pitsat _väljundpunkti_ kaudu ja sulgege see _sisendpunkti_ kaudu.
 
 | Skeemi nimi  | Pitseri definitsioon      | Pitseri sulgemine       | Lisatingimused                                                  | Peamine rakendus           | Võimalikud kohustuslikud skeemid |
 | ------------- | ------------------------- | ----------------------- | -------------------------------------------------------------- | -------------------------- | -------------------------------- |
 | PkO           | Avaliku võtme väärtus     | Tehingu väljund         | P2(W)PKH                                                        | Hetkel puudub              | Keytweak, taptweak, opret       |
 | TxO2          | Tehingu väljund           | Tehingu väljund         | Nõuab Bitcoinis deterministlikke kohustusi                      | RGBv1 (universaalne)       | Keytweak, tapret, opret         |
-| PkI           | Avaliku võtme väärtus     | Tehingu sisend          | Ainult Taproot & ei ühildu vanade rahakottidega                 | Bitcoinil põhinevad identiteedid | Sigtweak, witweak              |
+| PkI           | Avaliku võtme väärtus     | Tehingu sisend          | Ainult [Taproot](https://planb.academy/resources/glossary/taproot) & ei ühildu vanade rahakottidega                 | Bitcoinil põhinevad identiteedid | Sigtweak, witweak              |
 | TxO1          | Tehingu väljund           | Tehingu sisend          | Ainult Taproot & ei ühildu vanade rahakottidega                 | Hetkel puudub              | Sigtweak, witweak               |
 
 Me ei hakka iga sellise konfiguratsiooni kohta üksikasjalikult rääkima, sest RGB-s oleme otsustanud kasutada **pitseri määratlusena** **väljundit** ja paigutada _sisselülitus_ tehingu väljundisse, mis kulutab seda _väljundit_. Seega võime järgmiseks kasutusele võtta järgmised mõisted:
@@ -481,7 +481,7 @@ Tuletame meelde, et _kasutatava pitseri_ määratlemine ei nõua tingimata ahela
 
 ![RGB-Bitcoin](assets/en/024.webp)
 
-Päeval, mil ta tahab sulgeda pitseri (et anda märku mingist sündmusest või kinnitada mingi konkreetne sõnum), kulutab ta selle UTXO uues tehingus (seda tehingut nimetatakse sageli "_näitlustehinguks_" (ei ole seotud _segwit_ga, see on lihtsalt termin, mille me talle anname). See uus tehing sisaldab sõnumi _commitment_.
+Päeval, mil ta tahab sulgeda pitseri (et anda märku mingist sündmusest või kinnitada mingi konkreetne sõnum), kulutab ta selle UTXO uues tehingus (seda tehingut nimetatakse sageli "_[näitlustehinguks](https://planb.academy/resources/glossary/witness-transaction)_" (ei ole seotud _segwit_ga, see on lihtsalt termin, mille me talle anname). See uus tehing sisaldab sõnumi _commitment_.
 
 ![RGB-Bitcoin](assets/en/025.webp)
 
@@ -547,13 +547,13 @@ Eelmises punktis mainisime lühidalt, kuidas kliendipoolset valideerimismudelit 
 
 Kui te annate kellelegi tõendi, et teatud sõnum on varjatud tehingus, peate olema võimeline tagama, et samas tehingus ei ole teist liiki kohustust (teist, varjatud sõnumit), mida teile ei ole avaldatud. Selleks, et kliendipoolne valideerimine jääks töökindlaks, on vaja **deterministlikku** mehhanismi, millega paigutatakse tehingusse üks _kohustus_, mis sulgeb _ükskordse kasutamise pitseri_.
 
-_tunnistustehing_ kulutab kuulsa UTXO (ehk _pitsatimääruse_) ja see kulu vastab pitsati sulgemisele. Tehniliselt teame, et iga väljundpunkti saab kulutada ainult üks kord. Just see on aluseks Bitcoini vastupidavusele topeltkulutamisele. Kuid kulutamistehingul võib olla mitu _väljundit_, mitu _väljundit_ või see võib olla kompleksselt kokku pandud (coinjoins, Lightning-kanalid jne). Seetõttu tuleb selgelt ja ühetaoliselt määratleda, kuhu selles struktuuris _commitment_ sisestada.
+_tunnistustehing_ kulutab kuulsa UTXO (ehk _pitsatimääruse_) ja see kulu vastab pitsati sulgemisele. Tehniliselt teame, et iga väljundpunkti saab kulutada ainult üks kord. Just see on aluseks Bitcoini vastupidavusele topeltkulutamisele. Kuid kulutamistehingul võib olla mitu _väljundit_, mitu _väljundit_ või see võib olla kompleksselt kokku pandud ([coinjoins](https://planb.academy/resources/glossary/coinjoin), Lightning-kanalid jne). Seetõttu tuleb selgelt ja ühetaoliselt määratleda, kuhu selles struktuuris _commitment_ sisestada.
 
 Olenemata meetodist (PkO, TxO2 jne.), saab _kohustust_ sisestada :
 
 
 - **Sisend** kaudu :
-- **Sigtweak** (muudab ECDSA allkirja "r" komponenti, sarnaselt "Sign-to-contract" põhimõttele) ;
+- **Sigtweak** (muudab [ECDSA](https://planb.academy/resources/glossary/ecdsa) [allkirja](https://planb.academy/resources/glossary/digital-signature) "r" komponenti, sarnaselt "Sign-to-contract" põhimõttele) ;
 - **Witweak** (tehingu _segregeeritud tunnistaja_ andmeid muudetakse).
 - **Väljundis** kaudu :
 - **Keytweak** (vastuvõtja avalik võti "tweakitakse" koos sõnumiga) ;
@@ -568,7 +568,7 @@ Siin on iga meetodi üksikasjad:
 
 ***Sig tweak (lepingu sõlmimine) :***
 
-Varasem skeem hõlmas allkirja juhusliku osa (ECDSA või Schnorr) kasutamist, et varjata _sidus_: see on tehnika, mida tuntakse kui "**allkirja-lepinguks-saamine**". Juhuslikult genereeritud nonce asendatakse andmeid sisaldava hashiga. Sel viisil paljastab allkiri kaudselt teie pühendumuse, ilma et tehingus oleks lisaruumi. Sellel lähenemisviisil on mitmeid eeliseid:
+Varasem skeem hõlmas allkirja juhusliku osa (ECDSA või [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol)) kasutamist, et varjata _sidus_: see on tehnika, mida tuntakse kui "**allkirja-lepinguks-saamine**". Juhuslikult genereeritud [nonce](https://planb.academy/resources/glossary/nonce) asendatakse andmeid sisaldava hashiga. Sel viisil paljastab allkiri kaudselt teie pühendumuse, ilma et tehingus oleks lisaruumi. Sellel lähenemisviisil on mitmeid eeliseid:
 
 
 - Puudub ahelasisene ülekoormus (te kasutate sama kohta, kus põhiline nonce);
@@ -577,14 +577,14 @@ Varasem skeem hõlmas allkirja juhusliku osa (ECDSA või Schnorr) kasutamist, et
 Siiski on ilmnenud 2 peamist puudust:
 
 
-- Multisig enne Taproot: kui teil on mitu allakirjutajat, peate otsustama, milline allkiri kannab _kohustust_. Allkirju võib tellida erinevalt ja kui allakirjutanu keeldub, kaotate kontrolli _commitment_ tulemuse üle;
+- [Multisig](https://planb.academy/resources/glossary/multisig) enne Taproot: kui teil on mitu allakirjutajat, peate otsustama, milline allkiri kannab _kohustust_. Allkirju võib tellida erinevalt ja kui allakirjutanu keeldub, kaotate kontrolli _commitment_ tulemuse üle;
 - MuSig ja jagatud nonce: Schnorr multisig (*MuSig*) puhul on nonce'i genereerimine mitmepoolne algoritm ja nonce'i on praktiliselt võimatu individuaalselt muuta.
 
-Praktikas ei ühildu **sig tweak** ka väga hästi olemasoleva riistvara (riistvara rahakotid) ja formaatidega (Lightning jne). Seega on seda toredat ideed raske ellu viia.
+Praktikas ei ühildu **sig tweak** ka väga hästi olemasoleva riistvara ([riistvara rahakotid](https://planb.academy/resources/glossary/hardware-wallet)) ja formaatidega (Lightning jne). Seega on seda toredat ideed raske ellu viia.
 
 ***Key tweak (pay-to-contract) :***
 
-**Välimalt oluline muudatus** võtab kasutusele ajaloolise kontseptsiooni _maksab lepingust_. Võtame avaliku võtme `X` ja muudame seda, lisades väärtuse `H(sõnum)`. Täpsemalt, kui `X = x * G` ja `h = H(sõnum)`, siis on uus võti `X' = X + h * G`. See muudetud võti peidab `sõnumi` kohustust. Esialgse privaatvõtme omanik saab, lisades `h` oma privaatvõtmele `x`, tõestada, et tal on võti väljundi kulutamiseks. Teoreetiliselt on see elegantne, sest :
+**Välimalt oluline muudatus** võtab kasutusele ajaloolise kontseptsiooni _maksab lepingust_. Võtame avaliku võtme `X` ja muudame seda, lisades väärtuse `H(sõnum)`. Täpsemalt, kui `X = x * G` ja `h = H(sõnum)`, siis on uus võti `X' = X + h * G`. See muudetud võti peidab `sõnumi` kohustust. Esialgse [privaatvõtme](https://planb.academy/resources/glossary/private-key) omanik saab, lisades `h` oma privaatvõtmele `x`, tõestada, et tal on võti väljundi kulutamiseks. Teoreetiliselt on see elegantne, sest :
 
 
 - _commitment_ sisestatakse ilma lisaväljade lisamiseta;
@@ -595,7 +595,7 @@ Praktikas puutume aga kokku järgmiste raskustega:
 
 - Rahakotid ei tunnista enam tavalist avalikku võtit, kuna seda on "muudetud", nii et nad ei saa UTXO-d hõlpsasti teie tavapärase võtmega seostada;
 - Riistvaralised rahakotid ei ole mõeldud allkirjastamiseks võtmega, mis ei ole tuletatud nende standardsest tuletusest;
-- Te peate kohandama oma skripte, kirjeldusi jne.
+- Te peate kohandama oma [skripte](https://planb.academy/resources/glossary/script), kirjeldusi jne.
 
 RGB kontekstis oli see tee ette nähtud kuni 2021. aastani, kuid see osutus liiga keeruliseks, et seda praeguste standardite ja infrastruktuuriga toimima panna.
 
@@ -640,7 +640,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 
 
 - 29 baiti "OP_RESERVED", millele järgneb "OP_RETURN" ja seejärel "OP_PUSHBYTE_33" moodustavad 31 baidi pikkuse _prefix_ osa;
-- Järgneb 32 baidi suurune _commitment_ (tavaliselt Merkle root alates **MPC**), millele lisame 1 baidi **Nonce** (kokku 33 baiti selle teise osa jaoks).
+- Järgneb 32 baidi suurune _commitment_ (tavaliselt [Merkle root](https://planb.academy/resources/glossary/merkle-root) alates **MPC**), millele lisame 1 baidi **Nonce** (kokku 33 baiti selle teise osa jaoks).
 
 Seega näeb 64 baidi pikkune meetod `Tapret` välja nagu `Opret`, millele me oleme ette pannud 29 baiti `OP_RESERVED` ja lisanud ühe lisabaidi Nonce'ina.
 
@@ -660,7 +660,7 @@ Esimesel juhul alustame taproot väljundvõtmest (*Taproot Output Key*) `Q`, mis
 
 
 - "P": _Key Path Spend_ sisemine avalik võti.
-- "G": elliptilise kõvera [secp256k1](https://en.bitcoin.it/wiki/Secp256k1) genereeriv punkt.
+- "G": [elliptilise kõvera](https://planb.academy/resources/glossary/elliptic-curve) [secp256k1](https://en.bitcoin.it/wiki/Secp256k1) genereeriv punkt.
 - t = tH_TWEAK(P)` on tweak-tegur, mis arvutatakse _tagged hash_ abil (nt `SHA-256(SHA-256(TapTweak) || P)`) vastavalt [BIP86](https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki#address-derivation). See tõestab, et varjatud skripti ei ole.
 
 **Tapret** kulukohustuse lisamiseks lisage **Skripti tee kulutused** koos **üheselt mõistetava skriptiga** järgmiselt:
@@ -927,7 +927,7 @@ See mehhanism tagab, et :
 
 Multi Protocol Commitment* (MPC) on põhimõte, mis võimaldab RGB-l koondada mitu lepingut üheks Bitcoini tehinguks, säilitades samal ajal kohustuste unikaalsuse ja konfidentsiaalsuse teiste osalejate suhtes. Tänu puu deterministlikule ehitusele määratakse igale lepingule unikaalne positsioon ja "dummy" lehtede (*Entroopia lehed*) olemasolu varjab osaliselt tehingus osalevate lepingute koguarvu.
 
-Kogu Merkle'i puu ei salvestata kunagi kliendile. Me lihtsalt genereerime iga asjaomase lepingu jaoks _Merkle-puu_, mis edastatakse vastuvõtjale (kes saab seejärel kohustuse kinnitada). Mõnel juhul võib teil olla mitu vara, mis on läbinud sama UTXO. Siis saate ühendada mitu _Merkle-tee_ nn _multiprotokollide kulukohustuste blokki_, et vältida andmete liigset dubleerimist.
+Kogu [Merkle'i puu](https://planb.academy/resources/glossary/merkle-tree) ei salvestata kunagi kliendile. Me lihtsalt genereerime iga asjaomase lepingu jaoks _Merkle-puu_, mis edastatakse vastuvõtjale (kes saab seejärel kohustuse kinnitada). Mõnel juhul võib teil olla mitu vara, mis on läbinud sama UTXO. Siis saate ühendada mitu _Merkle-tee_ nn _multiprotokollide kulukohustuste blokki_, et vältida andmete liigset dubleerimist.
 
 Iga _Merkle tõestus_ on seega kerge, eriti kuna puu sügavus ei ületa RGB-s 32. Samuti on olemas mõiste "Merkle'i plokk", mis säilitab rohkem teavet (ristlõige, entroopia jne), mis on kasulik mitme haru ühendamiseks või eraldamiseks.
 
@@ -1428,7 +1428,7 @@ Seda globaalset olekut saab paigutada avalikele ressurssidele (veebilehed, IPFS,
         - Lihtne `txid`, kui see osutab konkreetsele UTXO-le,
         - Või `WitnessTx`, mis tähistab enesereferentsi: pitser osutab tehingule endale. See on eriti kasulik, kui väline UTXO ei ole kättesaadav, näiteks Lightning-kanali avamistehingute puhul või kui vastuvõtjal puudub UTXO.
 - **vout** : tehingu väljundnumber, mis on märgitud `txptr`. Esineb ainult standardse graafikapitsati puhul (mitte `WitnessTx` puhul);
-- **blinding**: juhuslik 8 baidi suurune number, et tugevdada konfidentsiaalsust ja vältida UTXO identiteedi räpase jõu abil tehtavaid katseid;
+- **blinding**: juhuslik 8 baidi suurune number, et tugevdada konfidentsiaalsust ja vältida UTXO identiteedi [räpase jõu](https://planb.academy/resources/glossary/brute-force-attack) abil tehtavaid katseid;
 - **method**: näitab kasutatud ankurdamismeetodit (`Tapret` või `Opret`).
 
 Pitsatimääratluse *varjatud* vorm on nende 4 välja ühendamise SHA256-hash (märgistatud) koos RGB-le omase märgisega.
@@ -1447,7 +1447,7 @@ RGB määratleb neli võimalikku olekutüüpi (*StateTypes*) Owned State'i jaoks
 
 
 - **Deklaratiivne**: ei sisalda numbrilisi andmeid, vaid ainult deklaratiivset õigust (nt hääleõigus). Varjatud ja avalikustatud vormid on identsed;
-- **Fungible**: esindab asendatavat kogust (nagu žetoonid). Avaldatud kujul on meil "summa" ja "siduva". Varjatud kujul on meil üks *Pederseni kohustus*, mis peidab summa ja siduva;
+- **Fungible**: esindab asendatavat kogust (nagu žetoonid). Avaldatud kujul on meil "summa" ja "siduva". Varjatud kujul on meil üks *[Pederseni kohustus](https://planb.academy/resources/glossary/pedersen-commitment)*, mis peidab summa ja siduva;
 - **Struktureeritud**: salvestab struktureeritud andmeid (kuni 64 kB). Avatud kujul on see andmeplokk. Varjatud kujul on see selle blobi märgistatud hash:
 
 ```txt
@@ -1629,12 +1629,12 @@ Lisaks semantilise koodi versioonimisele sisaldab RGB süsteemi lepingu konsensu
 Kiiresti toimub, kui varem kehtetu reegel muutub kehtivaks. Näiteks kui leping areneb nii, et see lubab uut tüüpi `AssignmentType` või uut välja :
 
 
-- Seda ei saa võrrelda klassikalise plokiahela hardforkiga, kuna RGB töötab kliendipoolses valideerimises ja ei mõjuta plokiahela üldist ühilduvust;
+- Seda ei saa võrrelda klassikalise plokiahela [hardforkiga](https://planb.academy/resources/glossary/hard-fork), kuna RGB töötab kliendipoolses valideerimises ja ei mõjuta plokiahela üldist ühilduvust;
 - Praktikas näitab seda tüüpi muudatust lepinguoperatsiooni väli "Ffv" (*kiirendatud versioon*);
 - Praegused omanikud ei kannata: nende staatus jääb kehtima;
 - Uued abisaajad (või uued kasutajad) peavad seevastu uuendama oma tarkvara (rahakoti), et see tunneks uusi eeskirju.
 
-Tagasilükkamine tähendab, et varem kehtinud reegel muutub kehtetuks. Seega on see reeglite "karmistamine", kuid mitte rangelt võttes softfork:
+Tagasilükkamine tähendab, et varem kehtinud reegel muutub kehtetuks. Seega on see reeglite "karmistamine", kuid mitte rangelt võttes [softfork](https://planb.academy/resources/glossary/soft-fork):
 
 
 - See võib mõjutada olemasolevaid omanikke (nende varad võivad uues versioonis vananeda või muutuda kehtetuks);

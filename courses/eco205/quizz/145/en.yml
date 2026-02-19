@@ -1,0 +1,8 @@
+question: According to Austrian business cycle theory, what is it that fundamentally distinguishes their temporal analysis of crises from that of other economic schools?
+answer: The crisis begins long before the visible recession, sometimes years before, while the recession is merely the final correction of accumulated errors
+wrong_answers:
+  - The crisis only manifests itself during the recession, which is both the beginning and the end of the economic cycle
+  - "The crisis immediately follows the recession, because imbalances are only created after the financial markets have collapsed."
+  - "The crisis and the recession are simultaneous, triggered at the same time by the belated intervention of central banks"
+explanation: |
+  The Austrian theory revolutionized the temporal understanding of cycles by identifying the crisis as early as the artificial boom phase created by central banks. Unlike other schools of thought, which locate the crisis during the recession, the Austrians show that the real problems arise during the monetary expansion that creates malinvestment. The visible recession is merely the painful but necessary adjustment needed to liquidate these misallocations.

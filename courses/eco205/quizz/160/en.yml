@@ -1,0 +1,8 @@
+question: According to the Austrian school, what is the fundamental problem that prevents a central planner from artificially reproducing the price system of a market economy?
+answer: Economic information is constantly changing, and the quantity of information on the individual choices of millions of players is impossible to centralize
+wrong_answers:
+  - Planners lack the technical skills and economic training to correctly calculate optimal prices
+  - Technological and computing resources are insufficient to rapidly process all the necessary economic calculations
+  - Corruption and self-interest systematically distort planners' pricing decisions
+explanation: |
+  Mises and Hayek identified that the problem is not technical or moral, but informational in nature. Economic information, dispersed among millions of players, is constantly changing and cannot be centralized. Even with perfect technology and planners with integrity, it would be impossible to gather and process this dynamic information. Market prices emerge spontaneously from these decentralized interactions, transmitting information that no committee could artificially reproduce.

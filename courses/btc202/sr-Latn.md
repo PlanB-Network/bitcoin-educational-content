@@ -133,7 +133,7 @@ Dakle, jeste li spremni da uključite svoj prvi Bitcoin čvor? Postavite kurs za
 
 
 
-Kako je opisao njegov tvorac, Satoshi Nakamoto, Bitcoin se predstavlja kao peer-to-peer elektronski gotovinski sistem. Ova jednostavna rečenica, koja je naslov Bele knjige, sadrži mnoge tragove o prirodi Bitcoin:
+Kako je opisao njegov tvorac, [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi), Bitcoin se predstavlja kao [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) elektronski gotovinski sistem. Ova jednostavna rečenica, koja je naslov [Bele knjige](https://planb.academy/resources/glossary/white-paper), sadrži mnoge tragove o prirodi Bitcoin:
 
 
 
@@ -144,7 +144,7 @@ Kako je opisao njegov tvorac, Satoshi Nakamoto, Bitcoin se predstavlja kao peer-
 
 
 
-Pošto je Bitcoin sistem, mora se nužno pokretati na računarima. I, zbog svoje peer-to-peer prirode, sami korisnici preuzimaju odgovornost za pokretanje ovih mašina. Ono što nazivamo "Bitcoin čvor" je upravo taj računar na kojem se pokreće softver koji implementira Bitcoin protokol (kao Bitcoin core, ali o tome ćemo kasnije). Ovo je ono što omogućava Bitcoin da funkcioniše bez centralnog autoriteta: validacija se sprovodi na distribuiran način, od strane hiljada nezavisnih mašina koje pripadaju hiljadama korisnika.
+Pošto je Bitcoin sistem, mora se nužno pokretati na računarima. I, zbog svoje peer-to-peer prirode, sami korisnici preuzimaju odgovornost za pokretanje ovih mašina. Ono što nazivamo "Bitcoin [čvor](https://planb.academy/resources/glossary/node)" je upravo taj računar na kojem se pokreće softver koji implementira Bitcoin protokol (kao [Bitcoin core](https://planb.academy/resources/glossary/bitcoin-core), ali o tome ćemo kasnije). Ovo je ono što omogućava Bitcoin da funkcioniše bez centralnog autoriteta: validacija se sprovodi na [distribuiran](https://planb.academy/resources/glossary/distributed) način, od strane hiljada nezavisnih mašina koje pripadaju hiljadama korisnika.
 
 
 
@@ -156,7 +156,7 @@ Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://B
 
 
 
-Upravo ti korisnici osiguravaju bezbednost Bitcoin. Kako Eric Voskuil objašnjava u svojoj knjizi *Cryptoeconomics*, bezbednost Bitcoin ne zavisi ni od Blockchain, ni od snage heširanja, ni od validacije, decentralizacije, kriptografije, otvorenog koda, niti teorije igara. Bezbednost Bitcoin zavisi prvenstveno od pojedinaca koji su spremni da se izlože ličnom riziku. Decentralizacija omogućava da se ovaj rizik raspodeli na veliki broj pojedinaca, i samo njihova sposobnost da odole osigurava otpornost sistema.
+Upravo ti korisnici osiguravaju bezbednost Bitcoin. Kako Eric Voskuil objašnjava u svojoj knjizi *Cryptoeconomics*, bezbednost Bitcoin ne zavisi ni od [Blockchain](https://planb.academy/resources/glossary/blockchain), ni od [snage heširanja](https://planb.academy/resources/glossary/hashrate), ni od validacije, decentralizacije, [kriptografije](https://planb.academy/resources/glossary/cryptography), [otvorenog koda](https://planb.academy/resources/glossary/foss), niti teorije igara. Bezbednost Bitcoin zavisi prvenstveno od pojedinaca koji su spremni da se izlože ličnom riziku. Decentralizacija omogućava da se ovaj rizik raspodeli na veliki broj pojedinaca, i samo njihova sposobnost da odole osigurava otpornost sistema.
 
 
 
@@ -173,9 +173,9 @@ Možemo tako razlikovati i imenovati nekoliko pojmova kako bismo razjasnili stva
 
 
 
-- Bitcoin valuta: jedinica obračuna koja se koristi za transakcije unutar ovog sistema;
+- Bitcoin valuta: jedinica obračuna koja se koristi za [transakcije](https://planb.academy/resources/glossary/transaction-tx) unutar ovog sistema;
 - Mreža Bitcoin: skup svih povezanih čvorova;
-- Bitcoin čvorovi: mašine koje pokreću implementaciju Bitcoin;
+- Bitcoin čvorovi: mašine koje pokreću [implementaciju Bitcoin](https://planb.academy/resources/glossary/bitcoin-implementation);
 - implementacije Bitcoin: softver koji prevodi protokol u izvršne instrukcije;
 - Bitcoin protokol: skup pravila koja upravljaju radom sistema;
 - Sistem Bitcoin: koherentna kombinacija svih ovih Elements.
@@ -190,7 +190,7 @@ Bitcoin čvorovi zajedno formiraju ono što je poznato kao Bitcoin mreža. Oni o
 
 
 
-Od samog početka, Bitcoin je dizajniran da omogući svakom korisniku da pokrene lični čvor. Ovaj slučaj ostaje važeći i sa današnjim Bitcoin core softverom, koji kombinuje uloge Wallet i čvora. Ali danas se ova funkcija često razdvaja: mnogi moderni Bitcoin novčanici su samo novčanici koji se povezuju na eksterne čvorove (u vlasništvu iste osobe ili ne).
+Od samog početka, Bitcoin je dizajniran da omogući svakom korisniku da pokrene lični čvor. Ovaj slučaj ostaje važeći i sa današnjim Bitcoin core softverom, koji kombinuje uloge [Wallet](https://planb.academy/resources/glossary/wallet) i čvora. Ali danas se ova funkcija često razdvaja: mnogi moderni Bitcoin novčanici su samo novčanici koji se povezuju na eksterne čvorove (u vlasništvu iste osobe ili ne).
 
 
 
@@ -198,7 +198,7 @@ Od samog početka, Bitcoin je dizajniran da omogući svakom korisniku da pokrene
 
 
 
-Prvi zadatak čvora je da održava lokalnu kopiju Blockchain. Da bi se sprečio Double-spending na Bitcoin bez uključivanja centralnog autoriteta, svaki korisnik mora proveriti da ne postoji transakcija u sistemu. Jedini način da se u to bude siguran je da se poznaju sve transakcije napravljene na Bitcoin. Iz tog razloga, sve transakcije su vremenski označene i grupisane u blokove, a svaki čvor skladišti ceo Blockchain.
+Prvi zadatak čvora je da održava lokalnu kopiju Blockchain. Da bi se sprečio [Double-spending](https://planb.academy/resources/glossary/double-spending-attack) na Bitcoin bez uključivanja centralnog autoriteta, svaki korisnik mora proveriti da ne postoji transakcija u sistemu. Jedini način da se u to bude siguran je da se poznaju sve transakcije napravljene na Bitcoin. Iz tog razloga, sve transakcije su [vremenski označene](https://planb.academy/resources/glossary/timestamp) i grupisane u [blokove](https://planb.academy/resources/glossary/block), a svaki čvor skladišti ceo Blockchain.
 
 
 
@@ -208,7 +208,7 @@ Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://B
 
 
 
-Blockchain je stoga evoluirajući registar: svaki put kada Miner objavi novi blok, čvor proverava njegovu validnost pre nego što ga doda svojoj lokalnoj kopiji lanca. Zaključno sa današnjim danom (jul 2025), kompletan Blockchain premašuje 675 GB, a ova veličina nastavlja da raste, jer se u proseku novi blok dodaje svakih 10 minuta.
+Blockchain je stoga evoluirajući registar: svaki put kada [Miner](https://planb.academy/resources/glossary/miner) objavi novi blok, čvor proverava njegovu validnost pre nego što ga doda svojoj lokalnoj kopiji lanca. Zaključno sa današnjim danom (jul 2025), kompletan Blockchain premašuje 675 GB, a ova veličina nastavlja da raste, jer se u proseku novi blok dodaje svakih 10 minuta.
 
 
 
@@ -216,7 +216,7 @@ Blockchain je stoga evoluirajući registar: svaki put kada Miner objavi novi blo
 
 
 
-Čvor takođe održava lokalni zapis svih UTXO-a koji postoje u bilo kom trenutku, poznat kao **UTXO skup**. Ova baza podataka sadrži sve nepotrošene Bitcoin fragmente. Ovu temu ćemo detaljno razmotriti u završnom delu kursa.
+Čvor takođe održava lokalni zapis svih [UTXO-a](https://planb.academy/resources/glossary/utxo) koji postoje u bilo kom trenutku, poznat kao **[UTXO skup](https://planb.academy/resources/glossary/utxo-set)**. Ova baza podataka sadrži sve nepotrošene Bitcoin fragmente. Ovu temu ćemo detaljno razmotriti u završnom delu kursa.
 
 
 
@@ -224,14 +224,14 @@ Blockchain je stoga evoluirajući registar: svaki put kada Miner objavi novi blo
 
 
 
-Druga uloga čvora je da osigura verifikaciju i propagaciju transakcija. Kada nova transakcija stigne do čvora (bilo putem Wallet softvera ili drugog čvora), proveriće da li je u skladu sa skupom pravila (pravila konsenzusa i pravila prenosa). Na primer:
+Druga uloga čvora je da osigura verifikaciju i propagaciju transakcija. Kada nova transakcija stigne do čvora (bilo putem Wallet softvera ili drugog čvora), proveriće da li je u skladu sa skupom pravila ([pravila konsenzusa](https://planb.academy/resources/glossary/consensus-rules) i pravila [prenosa](https://planb.academy/resources/glossary/relay)). Na primer:
 
 
 
 
-- potrošeni bitkoini moraju postojati u svom UTXO skupu (bazi podataka nepotrošenih izlaza);
-- potpis mora biti važeći, i svi uslovi potrošnje moraju biti ispunjeni (važeći skript);
-- ukupna količina izlaza ne sme premašiti ukupnu količinu ulaza, što znači da troškovi ne mogu biti negativni.
+- potrošeni bitkoini moraju postojati u svom UTXO skupu (bazi podataka nepotrošenih [izlaza](https://planb.academy/resources/glossary/output));
+- [potpis](https://planb.academy/resources/glossary/digital-signature) mora biti važeći, i svi uslovi potrošnje moraju biti ispunjeni (važeći [skript](https://planb.academy/resources/glossary/script));
+- ukupna količina izlaza ne sme premašiti ukupnu količinu [ulaza](https://planb.academy/resources/glossary/input), što znači da [troškovi](https://planb.academy/resources/glossary/transaction-fees) ne mogu biti negativni.
 
 
 
@@ -239,7 +239,7 @@ Druga uloga čvora je da osigura verifikaciju i propagaciju transakcija. Kada no
 
 
 
-Nakon validacije, transakcija se čuva u čvoru Mempool, privremenom memorijskom prostoru rezervisanom za nepotvrđene transakcije, a zatim se prenosi drugim mrežnim čvorovima na koje je povezana. Ovaj mehanizam distribucije i validacije nastavlja se od čvora do čvora. Na ovaj način, transakcija se propagira kroz Bitcoin mrežu, i svaki čvor je čuva u Mempool dok nije uključena u važeći blok od strane Miner, koji zatim deluje na njenu prvu potvrdu.
+Nakon validacije, transakcija se čuva u čvoru [Mempool](https://planb.academy/resources/glossary/mempool), privremenom memorijskom prostoru rezervisanom za nepotvrđene transakcije, a zatim se prenosi drugim mrežnim čvorovima na koje je povezana. Ovaj mehanizam [distribucije](https://planb.academy/resources/glossary/diffusion) i validacije nastavlja se od čvora do čvora. Na ovaj način, transakcija se propagira kroz Bitcoin mrežu, i svaki čvor je čuva u Mempool dok nije uključena u važeći blok od strane Miner, koji zatim deluje na njenu prvu [potvrdu](https://planb.academy/resources/glossary/confirmation).
 
 
 
@@ -247,7 +247,7 @@ Nakon validacije, transakcija se čuva u čvoru Mempool, privremenom memorijskom
 
 
 
-Treća uloga čvora uključuje upravljanje iskopanim blokovima. Kada Miner otkrije novi blok sa važećim Proof of Work, on se emituje na mreži. Čvorovi ga primaju, proveravaju da li je u skladu sa svim pravilima protokola, i zatim ga integrišu u svoju lokalnu kopiju Blockchain ako je važeći. Kao i kod transakcija, novo potvrđeni blokovi se zatim prenose svim čvorovima povezanim na čvor. Ovaj proces se nastavlja dok svi čvorovi na Bitcoin mreži ne budu obavešteni o novom bloku.
+Treća uloga čvora uključuje upravljanje iskopanim blokovima. Kada Miner otkrije novi blok sa važećim [Proof of Work](https://planb.academy/resources/glossary/proof-of-work), on se emituje na mreži. Čvorovi ga primaju, proveravaju da li je u skladu sa svim pravilima protokola, i zatim ga integrišu u svoju lokalnu kopiju Blockchain ako je važeći. Kao i kod transakcija, novo potvrđeni blokovi se zatim prenose svim čvorovima povezanim na čvor. Ovaj proces se nastavlja dok svi čvorovi na Bitcoin mreži ne budu obavešteni o novom bloku.
 
 
 
@@ -304,7 +304,7 @@ U početku, kada je Bitcoin lansiran od strane Satoshi Nakamoto 2009. godine, o�
 
 
 
-Međutim, sa postepenom popularizacijom Bitcoin i povećanjem broja rudara, konkurentski pejzaž u Mining doživeo je radikalnu promenu. Danas je Mining postala izuzetno konkurentna aktivnost, kojom dominiraju industrijski igrači opremljeni specijalizovanom infrastrukturom. Snaga potrebna za rudarenje novog bloka sada je toliko velika da je praktično nemoguće da pojedinačni korisnik to postigne koristeći samo konvencionalni računar. Kao rezultat toga, Mining se sada prvenstveno obavlja korišćenjem specijalizovanih mašina nazvanih ASICs (*Application-Specific Integrated Circuits*). Ovi čipovi su optimizovani isključivo za pokretanje dvostrukog SHA-256, algoritma koji se koristi za Mining na Bitcoin.
+Međutim, sa postepenom popularizacijom Bitcoin i povećanjem broja rudara, konkurentski pejzaž u Mining doživeo je radikalnu promenu. Danas je Mining postala izuzetno konkurentna aktivnost, kojom dominiraju industrijski igrači opremljeni specijalizovanom infrastrukturom. Snaga potrebna za rudarenje novog bloka sada je toliko velika da je praktično nemoguće da pojedinačni korisnik to postigne koristeći samo konvencionalni računar. Kao rezultat toga, Mining se sada prvenstveno obavlja korišćenjem specijalizovanih mašina nazvanih [ASICs](https://planb.academy/resources/glossary/asic) (*Application-Specific Integrated Circuits*). Ovi čipovi su optimizovani isključivo za pokretanje dvostrukog [SHA-256](https://planb.academy/resources/glossary/sha256), algoritma koji se koristi za Mining na Bitcoin.
 
 
 
@@ -598,7 +598,7 @@ Ovo su osnovna pravila Bitcoin protokola, koja osiguravaju integritet sistema i 
 
 
 
-Promena ovih pravila je ekvivalentna promeni protokola, a samim tim i valute (Hard Fork). Međutim, čak i bez pokušaja da ih modifikujemo, sama činjenica striktne primene postojećih pravila daje određenu moć: ako blok krši pravila, čvor ga odmah odbacuje.
+Promena ovih pravila je ekvivalentna promeni protokola, a samim tim i valute ([Hard Fork](https://planb.academy/resources/glossary/hard-fork)). Međutim, čak i bez pokušaja da ih modifikujemo, sama činjenica striktne primene postojećih pravila daje određenu moć: ako blok krši pravila, čvor ga odmah odbacuje.
 
 
 
@@ -722,7 +722,7 @@ Full node ne mora da veruje nikome jer validira i zna sve informacije u sistemu.
 
 
 
-U praksi, Full node zahteva netrivijalne resurse, uključujući nekoliko stotina gigabajta za blok fajlove, procesor sposoban za validaciju skripti, RAM za Mempool i keš memoriju, kao i stabilnu propusnost. Prva sinhronizacija (*IBD*) čita i verifikuje kompletnu istoriju: to je intenzivno, ali se dešava samo jednom. Full node aktivno učestvuje u mreži, prosleđuje blokove i transakcije, i može prihvatiti dolazne konekcije kako bi pomogao drugim čvorovima.
+U praksi, Full node zahteva netrivijalne resurse, uključujući nekoliko stotina gigabajta za blok fajlove, procesor sposoban za validaciju skripti, RAM za Mempool i keš memoriju, kao i stabilnu propusnost. Prva sinhronizacija (*[IBD](https://planb.academy/resources/glossary/initial-block-download-ibd)*) čita i verifikuje kompletnu istoriju: to je intenzivno, ali se dešava samo jednom. Full node aktivno učestvuje u mreži, prosleđuje blokove i transakcije, i može prihvatiti dolazne konekcije kako bi pomogao drugim čvorovima.
 
 
 
@@ -758,7 +758,7 @@ Ukratko, praćenje Wallet funkcioniše bez problema na pruned čvoru ako kreirat
 
 
 
-SPV (*Simplified Payment Verification*) čvor, ili lagani čvor, zadržava samo zaglavlja blokova, a ne detalje transakcija, i oslanja se na druge pune čvorove da dobije dokaz da je transakcija u bloku (Merkle dokazi putem stabala) za koji ima zaglavlje. Koncept pojednostavljene verifikacije plaćanja nije nov, predložio ga je Satoshi Nakamoto lično u delu 8 Belog papira.
+[SPV](https://planb.academy/resources/glossary/spv-node-light-node) (*Simplified Payment Verification*) čvor, ili lagani čvor, zadržava samo zaglavlja blokova, a ne detalje transakcija, i oslanja se na druge pune čvorove da dobije dokaz da je transakcija u bloku ([Merkle](https://planb.academy/resources/glossary/merkle-tree) dokazi putem stabala) za koji ima zaglavlje. Koncept pojednostavljene verifikacije plaćanja nije nov, predložio ga je Satoshi Nakamoto lično u delu 8 Belog papira.
 
 
 
@@ -812,7 +812,7 @@ Korisnik srednjeg nivoa sa PC-jem može instalirati pruned čvor kako bi iskoris
 
 
 
-Full node ostaje najbolje rešenje ako želite da budete potpuno nezavisni u korišćenju Bitcoin i da se kasnije ne ograničavate na napredne upotrebe kao što su indeksator, Lightning čvor, ili čak Block explorer. Upravo to ćemo istražiti u ovom kursu!
+Full node ostaje najbolje rešenje ako želite da budete potpuno nezavisni u korišćenju Bitcoin i da se kasnije ne ograničavate na napredne upotrebe kao što su indeksator, [Lightning](https://planb.academy/resources/glossary/lightning-network) čvor, ili čak Block explorer. Upravo to ćemo istražiti u ovom kursu!
 
 
 
@@ -853,7 +853,7 @@ Ovo je najviše suvereni i fleksibilni pristup: tačno znate šta se pokreće, g
 
 
 
-[Bitcoin core je ultra-većinski klijent mreže](https://bitcoincore.org/). Preuzima, validira i održava Blockchain, pruža RPC/REST API-je i može integrisati Wallet. Ako preferirate standardne alate i osećate se prijatno da sami dodajete usluge (kao što su Electrum server, explorer i LND), bolje je da koristite Core kakav jeste.
+[Bitcoin core je ultra-većinski klijent mreže](https://bitcoincore.org/). Preuzima, validira i održava Blockchain, pruža [RPC](https://planb.academy/resources/glossary/rpc-remote-procedure-call)/REST API-je i može integrisati Wallet. Ako preferirate standardne alate i osećate se prijatno da sami dodajete usluge (kao što su Electrum server, explorer i LND), bolje je da koristite Core kakav jeste.
 
 
 
@@ -1856,7 +1856,7 @@ Da biste započeli konfiguraciju svog Umbrela, kliknite na dugme "*Start*".
 
 
 
-Izaberite pseudonim ili unesite svoje ime, zatim postavite jaku lozinku. Budite pažljivi: ova lozinka je jedina barijera koja štiti pristup vašem Umbrelu sa vaše mreže (i stoga, potencijalno, vašim bitcoinima ako pokrećete Lightning čvor na Umbrelu). Takođe štiti daljinski pristup putem Tor-a ili VPN-a, ako su ove usluge omogućene.
+Izaberite pseudonim ili unesite svoje ime, zatim postavite jaku lozinku. Budite pažljivi: ova lozinka je jedina barijera koja štiti pristup vašem Umbrelu sa vaše mreže (i stoga, potencijalno, vašim bitcoinima ako pokrećete Lightning čvor na Umbrelu). Takođe štiti daljinski pristup putem [Tor](https://planb.academy/resources/glossary/tor)-a ili VPN-a, ako su ove usluge omogućene.
 
 
 
@@ -2606,7 +2606,7 @@ https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b
 
 
 
-BTCPay Server je besplatan, open-source procesor plaćanja koji vam omogućava da prihvatate uplate putem Bitcoin i Lightning Network bez posrednika, zadržavajući samostalno staranje o sredstvima.
+[BTCPay Server](https://planb.academy/resources/glossary/btcpay-server) je besplatan, open-source procesor plaćanja koji vam omogućava da prihvatate uplate putem Bitcoin i Lightning Network bez posrednika, zadržavajući samostalno staranje o sredstvima.
 
 
 
@@ -2783,7 +2783,7 @@ Uz ove jednostavne navike, vaš Umbrel čvor će ostati stabilan, siguran i kori
 
 
 
-Vaš Bitcoin čvor se pokreće bez ikakvog prethodnog znanja o istoriji transakcija. U početku, to je samo računar koji pokreće softver (Bitcoin core ili sličan). Da bi postao potpuno sinhronizovan i operativan Bitcoin čvor, mora lokalno rekonstruisati stanje Ledger proveravajući sve blokove objavljene od Genesis bloka (blok 0, objavljen od strane Satoshi Nakamoto 3. januara 2009). Ovaj korak se zove **IBD (_Initial Block Download_)**.
+Vaš Bitcoin čvor se pokreće bez ikakvog prethodnog znanja o istoriji transakcija. U početku, to je samo računar koji pokreće softver (Bitcoin core ili sličan). Da bi postao potpuno sinhronizovan i operativan Bitcoin čvor, mora lokalno rekonstruisati stanje Ledger proveravajući sve blokove objavljene od [Genesis bloka](https://planb.academy/resources/glossary/genesis-block) (blok 0, objavljen od strane Satoshi Nakamoto 3. januara 2009). Ovaj korak se zove **IBD (_Initial Block Download_)**.
 
 
 
@@ -2799,7 +2799,7 @@ IBD se sastoji od preuzimanja i verifikacije svakog bloka i transakcije pojedina
 
 
 
-Sinhronizacija počinje sa korakom _**headers-first**_. Vaš čvor zahteva sekvencu zaglavlja blokova od nekoliko vršnjaka i, za svako od njih, proverava Proof of Work, prilagođavanje težine, sintaksu, kao i Timestamp i pravila verzije broja. Ukratko, osigurava da svako primljeno zaglavlje ispunjava pravila konsenzusa.
+Sinhronizacija počinje sa korakom _**headers-first**_. Vaš čvor zahteva sekvencu zaglavlja blokova od nekoliko vršnjaka i, za svako od njih, proverava Proof of Work, [prilagođavanje težine](https://planb.academy/resources/glossary/difficulty-adjustment), sintaksu, kao i Timestamp i pravila verzije broja. Ukratko, osigurava da svako primljeno zaglavlje ispunjava pravila konsenzusa.
 
 
 
@@ -2817,7 +2817,7 @@ Kao podsetnik, Bitcoin blok se sastoji od zaglavlja od 80 bajtova i liste transa
 - Merkle Root transakcija
 - Timestamp (veće od srednjeg vremena prethodnih 11 blokova)
 - ciljna težina
-- Nonce
+- [Nonce](https://planb.academy/resources/glossary/nonce)
 
 
 
@@ -2825,7 +2825,7 @@ Kao podsetnik, Bitcoin blok se sastoji od zaglavlja od 80 bajtova i liste transa
 
 
 
-Transakcije su posvećene Merkle Tree. Ovo je struktura koja sumira veliki skup podataka (u ovom slučaju, sve transakcije u bloku) agregiranjem njihovih heševa progresivno dva po dva do jednog "korena", čime se dokazuje da element pripada skupu (i otkriva bilo kakva modifikacija). Na ovaj način, svaka modifikacija transakcije takođe menja koren Merkle Tree i stoga otisak zaglavlja bloka. SegWit je uveo zaseban dodatni Commitment za kolačiće (potpise), postavljen u coinbase.
+Transakcije su posvećene Merkle Tree. Ovo je struktura koja sumira veliki skup podataka (u ovom slučaju, sve transakcije u bloku) agregiranjem njihovih heševa progresivno dva po dva do jednog "korena", čime se dokazuje da element pripada skupu (i otkriva bilo kakva modifikacija). Na ovaj način, svaka modifikacija transakcije takođe menja koren Merkle Tree i stoga otisak zaglavlja bloka. [SegWit](https://planb.academy/resources/glossary/segwit) je uveo zaseban dodatni Commitment za kolačiće (potpise), postavljen u coinbase.
 
 
 
@@ -2849,7 +2849,7 @@ Kada je IBD završen, čvor ulazi u svoju normalnu fazu: validira nove blokove k
 
 
 
-Bitcoin core uključuje mehanizam dizajniran da smanji vreme potrebno pre nego što čvor postane potpuno operativan, dok zadržava suštinu principa autonomne verifikacije: AssumeValid.
+Bitcoin core uključuje mehanizam dizajniran da smanji vreme potrebno pre nego što čvor postane potpuno operativan, dok zadržava suštinu principa autonomne verifikacije: [AssumeValid](https://planb.academy/resources/glossary/assume-valid).
 
 
 
@@ -2893,7 +2893,7 @@ Kada se čvor ponovo pokrene nakon što je već bio korišćen, Core prvo pokuš
 
 
 
-U ovom slučaju, softver upituje _**DNS seeds**_. To su [serveri koje održavaju priznati programeri ekosistema](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), koji vraćaju listu IP adresa pretpostavljenih aktivnih čvorova. Ove adrese omogućavaju novom čvoru da započne svoje prve konekcije i zatraži potrebne podatke od IBD-a. Evo liste *DNS seeds* aktivnih do danas (avgust 2025):
+U ovom slučaju, softver upituje _**[DNS seeds](https://planb.academy/resources/glossary/dns-seeds)**_. To su [serveri koje održavaju priznati programeri ekosistema](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), koji vraćaju listu IP adresa pretpostavljenih aktivnih čvorova. Ove adrese omogućavaju novom čvoru da započne svoje prve konekcije i zatraži potrebne podatke od IBD-a. Evo liste *DNS seeds* aktivnih do danas (avgust 2025):
 
 
 
@@ -3009,7 +3009,7 @@ Kako bi mogao da se vrati u prošlost tokom reorganizacije, Core čuva, paraleln
 
 
 
-Pretraživanje bloka direktno u flat fajlovima bi bilo previše vremenski zahtevno. Core stoga održava LevelDB bazu podataka u `blocks/index/` koja navodi, za svaki poznati blok, metapodatke kao što su Hash, visina, status validacije, `blk` fajl i pomeraj gde se nalazi. Kada peer zatraži blok, ili kada interni komponent treba da pristupi specifičnom bloku, ovaj indeks omogućava brz pristup. Bez ovog indeksa, bilo bi potrebno previše operacija.
+Pretraživanje bloka direktno u flat fajlovima bi bilo previše vremenski zahtevno. Core stoga održava [LevelDB](https://planb.academy/resources/glossary/leveldb) bazu podataka u `blocks/index/` koja navodi, za svaki poznati blok, metapodatke kao što su Hash, visina, status validacije, `blk` fajl i pomeraj gde se nalazi. Kada peer zatraži blok, ili kada interni komponent treba da pristupi specifičnom bloku, ovaj indeks omogućava brz pristup. Bez ovog indeksa, bilo bi potrebno previše operacija.
 
 
 
@@ -3051,7 +3051,7 @@ Ukupnost svih ovih delova u datom trenutku T čini UTXO skup: veliku listu svih 
 
 
 
-UTXO set je smešten u fascikli `chainstate/` kao kompaktna LevelDB baza podataka. Svaki deo povezuje ključ izveden iz Hash transakcije i izlazni indeks sa vrednošću koja sadrži: iznos, `scriptPubKey` zaključavanje, visinu bloka kreacije i indikator coinbase-a.
+UTXO set je smešten u fascikli `chainstate/` kao kompaktna LevelDB baza podataka. Svaki deo povezuje ključ izveden iz Hash transakcije i izlazni indeks sa vrednošću koja sadrži: iznos, `scriptPubKey` zaključavanje, visinu bloka kreacije i indikator [coinbase](https://planb.academy/resources/glossary/coinbase-transaction)-a.
 
 
 
@@ -3075,13 +3075,13 @@ Imajte na umu da je set UTXO često u centru zabrinutosti oko decentralizacije B
 
 
 
-Rast rasta UTXO takođe proizlazi iz strukture jednostavnih platnih transakcija na Bitcoin. Zaista, kada izvršite uplatu, koristite jedan UTXO kao ulaz i kreirate 2 nova UTXO-a kao izlaz (jedan za uplatu i drugi za Exchange). Na kraju, heuristika analize lanca, nazvana CIOH (*Common Input Ownership Heuristic*), pruža dodatni podsticaj da se izbegne konsolidacija Coin.
+Rast rasta UTXO takođe proizlazi iz strukture jednostavnih platnih transakcija na Bitcoin. Zaista, kada izvršite uplatu, koristite jedan UTXO kao ulaz i kreirate 2 nova UTXO-a kao izlaz (jedan za uplatu i drugi za Exchange). Na kraju, heuristika analize lanca, nazvana [CIOH](https://planb.academy/resources/glossary/cioh) (*Common Input Ownership Heuristic*), pruža dodatni podsticaj da se izbegne konsolidacija Coin.
 
 
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Pošto se deo toga mora čuvati u RAM-u kako bi se transakcije verifikovale u razumnom vremenu, set UTXO može postepeno učiniti rad Full node previše skupim. Da bi se rešio ovaj problem, već postoji nekoliko predloga, posebno [Utreexo](https://planb.academy/resources/glossary/utreexo).
+Pošto se deo toga mora čuvati u RAM-u kako bi se transakcije verifikovale u razumnom vremenu, set UTXO može postepeno učiniti rad Full node previše skupim. Da bi se rešio ovaj problem, već postoji nekoliko predloga, posebno Utreexo.
 
 
 
@@ -3108,7 +3108,7 @@ Važno je napomenuti da čvorovi mempool-a nemaju konsenzusnu vrednost. Bitcoin 
 
 
 
-Kada se transakcija primi, Core primenjuje niz provera prema pravilima konsenzusa (sintaksa, validni skriptovi, bez dvostrukog trošenja, itd.) i Mempool pravilima, koja su lokalna politika (RBF, minimalni pragovi naplate, ograničenje podataka u `OP_RETURN`, itd.). Ako transakcija poštuje ova pravila, ona se čuva u memoriji.
+Kada se transakcija primi, Core primenjuje niz provera prema pravilima konsenzusa (sintaksa, validni skriptovi, bez dvostrukog trošenja, itd.) i Mempool pravilima, koja su lokalna politika ([RBF](https://planb.academy/resources/glossary/rbf-replacebyfee), minimalni pragovi naplate, ograničenje podataka u `OP_RETURN`, itd.). Ako transakcija poštuje ova pravila, ona se čuva u memoriji.
 
 
 
@@ -3349,7 +3349,7 @@ Na nivou mreže, takođe imamo:
 
 
 
-Podrazumevano, vaš čvor komunicira preko clearnet-a, Tor-a i I2P-a. To znači da vršnjaci sa kojima se povezuje na clearnet-u mogu videti vaš javni IP Address, a vaš ISP će verovatno moći da otkrije da pokrećete Bitcoin čvor (iako P2P Transport V2 otežava ISP-u prisluškivanje). Ovo nije nužno problem, ali ako želite da izbegnete bilo kakvo curenje ovih informacija, možete povezati svoj čvor isključivo putem Tor mreže.
+Podrazumevano, vaš čvor komunicira preko clearnet-a, Tor-a i I2P-a. To znači da vršnjaci sa kojima se povezuje na clearnet-u mogu videti vaš javni IP Address, a vaš ISP će verovatno moći da otkrije da pokrećete Bitcoin čvor (iako [P2P Transport V2](https://planb.academy/resources/glossary/p2p-transport-v2) otežava ISP-u prisluškivanje). Ovo nije nužno problem, ali ako želite da izbegnete bilo kakvo curenje ovih informacija, možete povezati svoj čvor isključivo putem Tor mreže.
 
 
 
@@ -3468,7 +3468,7 @@ Evo su napredna podešavanja za Mempool i politiku releja. Ako ste početnik, ne
 
 
 
-- `permitbaremultisig=1`: Omogućava prosleđivanje *bare-Multisig* P2MS transakcija (podrazumevano: `1`). Ovo je najstariji skript šablon za uspostavljanje multisignature uslova na UTXO (izumljen 2011. od strane Gavina Andresena).
+- `permitbaremultisig=1`: Omogućava prosleđivanje *bare-[Multisig](https://planb.academy/resources/glossary/multisig)* P2MS transakcija (podrazumevano: `1`). Ovo je najstariji skript šablon za uspostavljanje multisignature uslova na UTXO (izumljen 2011. od strane Gavina Andresena).
 
 
 

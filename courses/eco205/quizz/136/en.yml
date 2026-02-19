@@ -1,0 +1,8 @@
+question: According to Austrian business cycle theory, what is the main effect of artificially low key interest rates on capital structure?
+answer: Entrepreneurs engage in production detours that do not correspond to consumers' real time preferences
+wrong_answers:
+  - "Commercial banks automatically reduce their fractional reserves to maintain the savings-consumption balance"
+  - "Capital structure adjusts naturally thanks to market mechanisms that compensate for currency distortions"
+  - "Consumers spontaneously modify their time preferences to adapt to manipulated price signals"
+explanation: |
+  The correct answer reflects the core of Austrian theory: low rates send out false signals of capital abundance, pushing entrepreneurs towards unviable projects. The other options are incorrect, as they suggest self-correcting mechanisms that do not exist according to this theory. Banks do not reduce their reserves, the market does not automatically compensate for distortions, and consumers do not change their real preferences.

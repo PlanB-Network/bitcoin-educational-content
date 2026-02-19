@@ -193,7 +193,7 @@ Bitcoin-samfunn har ofte bredere mål, særlig når det gjelder folkeopplysning:
 4. Avkrefte villedende eller grunnløse påstander fra enkelte offentlige personer og medier;
 
 
-5. De grunnleggende forskjellene mellom Bitcoin og andre kryptovalutaer;
+5. De grunnleggende forskjellene mellom Bitcoin og andre [kryptovalutaer](https://planb.academy/resources/glossary/cryptocurrency);
 
 
 Ved å bygge morgendagens første "citadeller" fungerer **Bitcoin-fellesskap over hele verden som et bolverk mot desinformasjon og sensur, samtidig som de gir grobunn for å lære Bitcoins grunnprinsipper**. De tilbyr nykommere, selv skeptikere, de ressursene og kontaktene som trengs for å utforske Bitcoins sanne potensial.
@@ -302,7 +302,7 @@ Det er imidlertid ofte mer fornuftig å slå seg sammen enn å splitte nærligge
 I så måte kan en enkel "tommelfingerregel" være til hjelp: Hvis det ikke finnes et aktivt Bitcoin-fellesskap innen 30-45 minutter fra der du bor, kan det lønne seg å starte et nytt. Når det er sagt, står du alltid fritt til å gjøre som du vil.
 
 
-Og hvis et eldre fellesskap har "utviklet" seg i en retning som ikke lenger er i tråd med dine verdier, og du ikke har tid eller motivasjon til å "oransjepille" dem, er det selvfølgelig alltid et alternativ å lage din egen Fork.
+Og hvis et eldre fellesskap har "utviklet" seg i en retning som ikke lenger er i tråd med dine verdier, og du ikke har tid eller motivasjon til å "[oransjepille](https://planb.academy/resources/glossary/orange-pill)" dem, er det selvfølgelig alltid et alternativ å lage din egen [Fork](https://planb.academy/resources/glossary/fork).
 
 
 
@@ -1391,7 +1391,7 @@ Disse inkluderer:
 
 
 
-- [Btcmap.org](https://btcmap.org/), et nettsted med to kart som oppdateres daglig: **[verdenskartet over virksomheter som godtar Bitcoin](https://btcmap.org/map)** og **[kartet over lokalsamfunn i verden](https://btcmap.org/communities/map)**. Mange bitcoinere sjekker disse kartene regelmessig, enten de er ute og reiser eller går rundt i hverdagen, for å møte nye mennesker eller finne steder å bruke Sats på. Btcmap er den globale referansen, og det er viktig for synligheten din at du lister opp samfunnet ditt der
+- [Btcmap.org](https://btcmap.org/), et nettsted med to kart som oppdateres daglig: **[verdenskartet over virksomheter som godtar Bitcoin](https://btcmap.org/map)** og **[kartet over lokalsamfunn i verden](https://btcmap.org/communities/map)**. Mange bitcoinere sjekker disse kartene regelmessig, enten de er ute og reiser eller går rundt i hverdagen, for å møte nye mennesker eller finne steder å bruke [Sats](https://planb.academy/resources/glossary/satoshi-sat) på. Btcmap er den globale referansen, og det er viktig for synligheten din at du lister opp samfunnet ditt der
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), et nettsted laget av bitcoinere, for bitcoinere. **Her kan du legge ut kommende arrangementer i ditt fellesskap**. I Frankrike er det imidlertid fortsatt ikke mye brukt.
 - avhengig av hvilket land du bor i, kan det finnes andre lokale initiativer. I Frankrike finnes det for eksempel [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), som **lister opp dusinvis av Bitcoin-arrangementer hver måned**. Så hvis du ennå ikke har fulgt dem på Twitter eller kontaktet dem for å dele informasjon om ditt lokalsamfunn og arrangementer, er det på tide nå! **For å holde den franske arrangementskalenderen oppdatert, ville det være flott om alle franske Bitcoin-fellesskap gjorde det til en vane å:**
     - nevner @bitcoinpointfr på Twitter for hvert nye fellesskapsarrangement
@@ -1936,7 +1936,7 @@ På private arenaer som konserter, barer eller stadioner bør du sjekke om det a
 Et annet prosjekt du enkelt kan sette i gang, er å **opprette et bibliotek på møtene dine**.
 
 
-Du kan invitere deltakere som ønsker å dele lesestoffet sitt, til å ta med en Bitcoin-relatert bok. Hvis noen andre på møtet ønsker å låne den, kan et lån avtales med eieren i Exchange mot et depositum, for eksempel 21 000 satoshis via Lyn.
+Du kan invitere deltakere som ønsker å dele lesestoffet sitt, til å ta med en Bitcoin-relatert bok. Hvis noen andre på møtet ønsker å låne den, kan et lån avtales med eieren i Exchange mot et depositum, for eksempel 21 000 satoshis via [Lyn](https://planb.academy/resources/glossary/lightning-network).
 
 
 For eieren bidrar dette depositumet til å dekke potensielt tap eller tyveri. For låntakeren er det et insentiv til å komme tilbake til et fremtidig møte for å hente depositumet.
@@ -2599,7 +2599,7 @@ Med denne økningen i oppmøtet
     - hvis du opplever at antallet deltakere blir overveldende, kan du for fremtidige møter enten **kreve at deltakerne registrerer seg** (via Meetup-appen eller et enkelt skjema) eller **avholde flere møter hver måned** (for eksempel et møte for nybegynnere, et for viderekomne og et for viderekomne).
     - Samtidig kan du forvente mange nykommere i økosystemet, ofte med hovedmål om å tjene penger. For å **holde samtalene fokusert på Bitcoin** i disse raskt voksende møtene, er det en god idé å:
 
-a) Inkluder en **Bitcoin-tema-presentasjon** under disse arrangementene, da dette naturlig vil styre mye av samtalen mot dette temaet (og bort fra det siste angivelig "revolusjonerende" shitcoin-prosjektet);
+a) Inkluder en **Bitcoin-tema-presentasjon** under disse arrangementene, da dette naturlig vil styre mye av samtalen mot dette temaet (og bort fra det siste angivelig "revolusjonerende" [shitcoin-prosjektet](https://planb.academy/resources/glossary/shitcoin));
 
 b) **Unngå å holde deg til andre bitcoinere**. I stedet bør du **gå til nykommere**, selv om det betyr at du må henge bakerst i lokalet for å hilse på dem. Derfra kan du snakke om hvorfor de kom, hva de er ute etter, målene (eller til og med kjerneprinsippene) for fellesskapet ditt, og så videre.
 
@@ -2619,7 +2619,7 @@ Heldigvis er slike situasjoner sjeldne og ofte mer absurde enn truende, men det 
 For din egen sjelefred: Så lenge du ikke personlig bryter loven eller direkte legger til rette for ulovlige transaksjoner, er du ikke juridisk ansvarlig for andres handlinger på arrangementet ditt (i hvert fall ikke i henhold til fransk lov).
 
 
-I en ideell verden ville du hatt et **rom stort nok til å huse flere titalls mennesker** etter hvert som samfunnet vokser, og du ville også bygget **sterke relasjoner mellom bitcoinere** og fremtidige bitcoinere i nedgangstider, slik at når oppgangen kommer, har du så mange som mulig klare til å gi andre oransje piller.
+I en ideell verden ville du hatt et **rom stort nok til å huse flere titalls mennesker** etter hvert som samfunnet vokser, og du ville også bygget **sterke relasjoner mellom bitcoinere** og fremtidige bitcoinere i [nedgangstider](https://planb.academy/resources/glossary/bear-market), slik at når [oppgangen](https://planb.academy/resources/glossary/bull-market) kommer, har du så mange som mulig klare til å gi andre oransje piller.
 
 
 

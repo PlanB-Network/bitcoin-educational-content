@@ -1,0 +1,8 @@
+question: What fundamental difference does Friedrich von Wieser make between the opportunity cost and the historical cost of a resource?
+answer: The cost of a resource is not linked to its actual past cost, but to the value of alternative uses foregone
+wrong_answers:
+  - "Historical cost is subjective, while opportunity cost is objective and mathematically measurable"
+  - "Opportunity cost is calculated solely on past results, unlike historical cost, which anticipates the future"
+  - "Historical cost includes all possible alternative uses, whereas opportunity cost considers only the best choice"
+explanation: |
+  Wieser revolutionizes the concept of cost by showing that the value of a resource does not depend on what it has cost historically, but on what we give up by using it. This distinction is crucial, as it places value in the present and future (the alternatives sacrificed) rather than in the past. Other answers incorrectly invert the characteristics of these concepts or confuse their respective definitions.

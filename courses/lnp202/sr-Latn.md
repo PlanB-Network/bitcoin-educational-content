@@ -92,7 +92,7 @@ Ako pratite ovaj LNP202 kurs redosledom, na kraju ćete imati kompletnu konfigur
 
 
 
-Pre nego što pokrenete svoj čvor, ovo poglavlje ukratko pregledava osnovnu teoriju iza Lightning Network. Zaista je važno razumeti mehanizme koji su uključeni, jer će vam to omogućiti da identifikujete rizike i usvojite dobre prakse kako biste ih ograničili. Neću ulaziti u detalje ovde, međutim, jer to nije glavni cilj ovog kursa. Ako želite dublje da istražite temu, toplo preporučujem da konsultujete Fanis Michalakisov kurs LNP 201, koji je referenca u ovoj oblasti:
+Pre nego što pokrenete svoj čvor, ovo poglavlje ukratko pregledava osnovnu teoriju iza [Lightning Network](https://planb.academy/resources/glossary/lightning-network). Zaista je važno razumeti mehanizme koji su uključeni, jer će vam to omogućiti da identifikujete rizike i usvojite dobre prakse kako biste ih ograničili. Neću ulaziti u detalje ovde, međutim, jer to nije glavni cilj ovog kursa. Ako želite dublje da istražite temu, toplo preporučujem da konsultujete Fanis Michalakisov kurs LNP 201, koji je referenca u ovoj oblasti:
 
 
 
@@ -102,20 +102,20 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-Hajde da se vratimo osnovama: pre nego što definišemo šta je čvor, moramo razumeti šta je Lightning Network. To je protokol najvišeg sloja, izgrađen na vrhu Bitcoin, dizajniran da omogući vanlančane BTC transakcije koje su brze (sa skoro trenutnom finalnošću) i generalno jeftine. "Vanlančano" znači da transakcije obavljene na Lightning-u nisu namenjene da se pojave na glavnom Bitcoin blockchain-u. Lightning je takođe delimičan odgovor na sve veću upotrebu Bitcoin i na zagušenje na lancu, što izaziva zabrinutost u vezi sa skalabilnošću sistema.
+Hajde da se vratimo osnovama: pre nego što definišemo šta je čvor, moramo razumeti šta je Lightning Network. To je protokol najvišeg sloja, izgrađen na vrhu Bitcoin, dizajniran da omogući [vanlančane](https://planb.academy/resources/glossary/offchain) BTC transakcije koje su brze (sa skoro trenutnom finalnošću) i generalno jeftine. "Vanlančano" znači da transakcije obavljene na Lightning-u nisu namenjene da se pojave na glavnom Bitcoin [blockchain-u](https://planb.academy/resources/glossary/blockchain). Lightning je takođe delimičan odgovor na sve veću upotrebu Bitcoin i na zagušenje [na lancu](https://planb.academy/resources/glossary/onchain), što izaziva zabrinutost u vezi sa [skalabilnošću](https://planb.academy/resources/glossary/scalability) sistema.
 
 
 
-Da bi funkcionisao, Lightning se oslanja na otvaranje platnih kanala između učesnika, unutar kojih se transakcije mogu obavljati gotovo trenutno, često uz minimalne naknade, bez potrebe da se registruju jedna po jedna na Bitcoin blokčejnu. Ovi kanali mogu ostati otvoreni veoma dugo, zahtevajući onchain transakcije samo kada se otvaraju i zatvaraju.
+Da bi funkcionisao, Lightning se oslanja na otvaranje [platnih kanala](https://planb.academy/resources/glossary/payment-channel) između učesnika, unutar kojih se transakcije mogu obavljati gotovo trenutno, često uz minimalne naknade, bez potrebe da se registruju jedna po jedna na Bitcoin blokčejnu. Ovi kanali mogu ostati otvoreni veoma dugo, zahtevajući onchain transakcije samo kada se otvaraju i zatvaraju.
 
 
 
-Čvor munje je učesnik u Lightning mreži, otvarajući kanale i vršeći plaćanja sa drugim čvorovima. U konkretnim terminima, čvor munje je softverski program koji se pokreće na računaru i implementira Lightning Network protokol. Primeri uključuju LND, Core Lightning ili Eclair. Glavna uloga ovog softvera je da:
+[Čvor munje](https://planb.academy/resources/glossary/lightning-node) je učesnik u Lightning mreži, otvarajući kanale i vršeći plaćanja sa drugim čvorovima. U konkretnim terminima, čvor munje je softverski program koji se pokreće na računaru i implementira Lightning Network protokol. Primeri uključuju LND, Core Lightning ili Eclair. Glavna uloga ovog softvera je da:
 
 
 
 
-- povežite se sa Bitcoin čvorom da biste dobili informacije iz glavnog blockchaina;
+- povežite se sa [Bitcoin čvorom](https://planb.academy/resources/glossary/full-node) da biste dobili informacije iz glavnog blockchaina;
 - kreirajte i upravljajte dvosmernim kanalima plaćanja sa drugim čvorovima;
 - razmenjivati poruke sa celom Lightning mrežom.
 
@@ -129,7 +129,7 @@ Da bi funkcionisao, Lightning se oslanja na otvaranje platnih kanala između uč
 
 
 
-Na Bitcoin (onchain), "*wallet*" se odnosi na softver koji upravlja vašim privatnim ključevima, izračunava vaš saldo sa vaših UTXO i kreira vaše transakcije. Ovaj wallet može biti zasnovan na vašem sopstvenom Bitcoin čvoru ili na tuđem, ali danas su uloge čvora i onchain wallet jasno različite.
+Na Bitcoin (onchain), "*[wallet](https://planb.academy/resources/glossary/wallet)*" se odnosi na softver koji upravlja vašim [privatnim ključevima](https://planb.academy/resources/glossary/private-key), izračunava vaš saldo sa vaših [UTXO](https://planb.academy/resources/glossary/utxo) i kreira vaše transakcije. Ovaj wallet može biti zasnovan na vašem sopstvenom Bitcoin čvoru ili na tuđem, ali danas su uloge čvora i onchain wallet jasno različite.
 
 
 
@@ -141,7 +141,7 @@ Na Lightningu je teže ponovo koristiti ovu vrstu vokabulara bez stvaranja zabun
 
 
 
-- Da biste koristili uslugu čuvanja: koristite aplikaciju koja vam prikazuje stanje u sats na Lightning-u, ali u pozadini, sredstva su na čvoru provajdera (npr. Wallet of Satoshi). Nemate ni ključeve ni kontrolu nad kanalima. Vaše stanje je samo računovodstveni unos u bazi podataka kompanije. To je uporedivo sa ostavljanjem vaših bitcoina na platformi za razmenu, sa svim povezanim rizicima. U ovom slučaju, vaš "*Lightning wallet*" je samo pristup nalogu kojim upravlja operater koji, zauzvrat, vodi pravi Lightning čvor.
+- Da biste koristili uslugu čuvanja: koristite aplikaciju koja vam prikazuje stanje u [sats](https://planb.academy/resources/glossary/satoshi-sat) na Lightning-u, ali u pozadini, sredstva su na čvoru provajdera (npr. Wallet of Satoshi). Nemate ni ključeve ni kontrolu nad kanalima. Vaše stanje je samo računovodstveni unos u bazi podataka kompanije. To je uporedivo sa ostavljanjem vaših bitcoina na platformi za razmenu, sa svim povezanim rizicima. U ovom slučaju, vaš "*Lightning wallet*" je samo pristup nalogu kojim upravlja operater koji, zauzvrat, vodi pravi Lightning čvor.
 
 
 
@@ -161,7 +161,7 @@ U ovom odeljku, daću vam brz podsetnik o tome kako Lightning funkcioniše. Još
 
 
 
-Srce Lightning mreže zasnovano je na dvosmernim kanalima plaćanja. Kanal se može otvoriti (tj. kreirati), ažurirati kako se odvijaju Lightning transakcije, i na kraju zatvoriti. Sa onchain tačke gledišta, kanal nije ništa drugo do 2/2 multisignature izlaz.
+Srce Lightning mreže zasnovano je na dvosmernim kanalima plaćanja. Kanal se može otvoriti (tj. kreirati), ažurirati kako se odvijaju Lightning transakcije, i na kraju zatvoriti. Sa onchain tačke gledišta, kanal nije ništa drugo do 2/2 [multisignature](https://planb.academy/resources/glossary/multisig) [izlaz](https://planb.academy/resources/glossary/output).
 
 
 
@@ -169,7 +169,7 @@ Srce Lightning mreže zasnovano je na dvosmernim kanalima plaćanja. Kanal se mo
 
 
 
-Iz Lightning-ove perspektive, to je platni kanal sa likvidnošću podeljenom između dva učesnika.
+Iz Lightning-ove perspektive, to je platni kanal sa [likvidnošću](https://planb.academy/resources/glossary/liquidity-lightning) podeljenom između dva učesnika.
 
 
 
@@ -183,7 +183,7 @@ Iz Lightning-ove perspektive, to je platni kanal sa likvidnošću podeljenom izm
 
 
 
-Dva čvora odlučuju da otvore kanal. Jedan od njih ulaže bitkoine u transakciju na lancu koja se zove *transakcija finansiranja*. Ova transakcija kreira izlaz zasnovan na skripti sa više potpisa 2-od-2, što znači da trošenje ovih sredstava na Bitcoin zahteva potpis oba čvora u kanalu. Pre izdavanja ove transakcije, strana koja obezbeđuje sredstva traži od druge da potpiše *transakciju povlačenja*, koja se ne izdaje na lancu, ali omogućava da povrati svoja sredstva u slučaju problema.
+Dva čvora odlučuju da otvore kanal. Jedan od njih ulaže bitkoine u transakciju na lancu koja se zove *transakcija finansiranja*. Ova transakcija kreira izlaz zasnovan na [skripti](https://planb.academy/resources/glossary/script) sa više [potpisa](https://planb.academy/resources/glossary/digital-signature) 2-od-2, što znači da trošenje ovih sredstava na Bitcoin zahteva potpis oba čvora u kanalu. Pre izdavanja ove transakcije, strana koja obezbeđuje sredstva traži od druge da potpiše *transakciju povlačenja*, koja se ne izdaje na lancu, ali omogućava da povrati svoja sredstva u slučaju problema.
 
 
 
@@ -197,7 +197,7 @@ Dva čvora odlučuju da otvore kanal. Jedan od njih ulaže bitkoine u transakcij
 
 
 
-Stanje kanala (tj. distribucija sats između A i B) je predstavljeno *commitment transaction*, poznatim obema čvorovima, ali nije odmah emitovano na blockchain-u. Ova transakcija opisuje kako redistribuirati sredstva kanala na lancu prema plaćanjima izvršenim na Lightning-u.
+Stanje kanala (tj. distribucija sats između A i B) je predstavljeno *[commitment transaction](https://planb.academy/resources/glossary/commitment-transaction)*, poznatim obema čvorovima, ali nije odmah emitovano na blockchain-u. Ova transakcija opisuje kako redistribuirati sredstva kanala na lancu prema plaćanjima izvršenim na Lightning-u.
 
 
 
@@ -237,7 +237,7 @@ Pre nego što nastavimo dalje, evo dva osnovna pojma za razumevanje kako upravlj
 
 
 - Liquidity*: količina sats dostupna na jednoj strani kanala;
-- *Kapacitet*: to je ukupna količina zaključana u 2/2 multisig izlazu, tj. zbir likvidnosti na obe strane kanala.
+- *[Kapacitet](https://planb.academy/resources/glossary/lightning-channel-capacity)*: to je ukupna količina zaključana u 2/2 multisig izlazu, tj. zbir likvidnosti na obe strane kanala.
 
 
 
@@ -249,7 +249,7 @@ Kanal nije samo za plaćanja između dva čvora: to je deo globalne mreže među
 
 
 
-Svaki čvor zna, putem gossip protokola, mapu ove mreže: koji kanali postoje, koji čvorovi su povezani dvosmernim kanalom i koje su kapacitete objavljene. Da biste poslali uplatu primaocu bez direktnog kanala, vaš čvor izračunava rutu koja se sastoji od nekoliko skokova: vaš čvor → čvor X → čvor Y → čvor primaoca. Na svakom skoku, uplata prolazi kroz kanal koji mora imati dovoljno likvidnosti u smeru uplate.
+Svaki čvor zna, putem [gossip protokola](https://planb.academy/resources/glossary/gossip), mapu ove mreže: koji kanali postoje, koji čvorovi su povezani dvosmernim kanalom i koje su kapacitete objavljene. Da biste poslali uplatu primaocu bez direktnog kanala, vaš čvor izračunava rutu koja se sastoji od nekoliko skokova: vaš čvor → čvor X → čvor Y → čvor primaoca. Na svakom skoku, uplata prolazi kroz kanal koji mora imati dovoljno likvidnosti u smeru uplate.
 
 
 
@@ -265,7 +265,7 @@ Likvidnost kanala stoga nije simetrična: jedna strana može biti jako optereće
 
 
 
-Da bi omogućio plaćanja kroz posredničke čvorove bez potrebe za poverenjem, Lightning koristi pametne ugovore zvane *HTLC* (*Hashed Time-Locked Contracts*). U jednostavnim terminima, HTLC čini transfer sredstava uslovljenim otkrivanjem tajne, i uključuje vremensko ograničenje kako bi zaštitio pošiljaoca u slučaju neuspeha transakcije. Svako plaćanje je stoga podložno prezentaciji pre-slike (tajne čiji heš odgovara dogovorenoj vrednosti). Ako krajnji primalac pruži ovu pre-sliku, može preuzeti sredstva, što zauzvrat omogućava svakom posredničkom čvoru da povrati svoja sredstva.
+Da bi omogućio plaćanja kroz posredničke čvorove bez potrebe za poverenjem, Lightning koristi [pametne ugovore](https://planb.academy/resources/glossary/smart-contract) zvane *[HTLC](https://planb.academy/resources/glossary/htlc)* (*Hashed Time-Locked Contracts*). U jednostavnim terminima, HTLC čini transfer sredstava uslovljenim otkrivanjem tajne, i uključuje vremensko ograničenje kako bi zaštitio pošiljaoca u slučaju neuspeha transakcije. Svako plaćanje je stoga podložno prezentaciji pre-slike (tajne čiji [heš](https://planb.academy/resources/glossary/hash-function) odgovara dogovorenoj vrednosti). Ako krajnji primalac pruži ovu pre-sliku, može preuzeti sredstva, što zauzvrat omogućava svakom posredničkom čvoru da povrati svoja sredstva.
 
 
 
@@ -281,7 +281,7 @@ Preskočiću tehničke detalje o tome kako HTLC funkcionišu, jer nisu bitni za 
 
 
 
-Kao i kod Bitcoin, postoji nekoliko implementacija Lightning protokola. Brojni nezavisni timovi razvijaju svoje verzije, koje su sve međusobno interoperabilne jer se pridržavaju istih specifikacija (BOLTs). Ovde su glavne implementacije koje se danas koriste.
+Kao i kod Bitcoin, postoji nekoliko implementacija Lightning protokola. Brojni nezavisni timovi razvijaju svoje verzije, koje su sve međusobno interoperabilne jer se pridržavaju istih specifikacija ([BOLTs](https://planb.academy/resources/glossary/bolt)). Ovde su glavne implementacije koje se danas koriste.
 
 
 
@@ -399,7 +399,7 @@ Danas je moguće imati korisničko iskustvo vrlo blisko onom kod Lightning custo
 
 
 
-Prvo rešenje je jednostavno da se Lightning ne koristi nativno, već da se koristi Bitcoin ili Liquid wallet koji ugrađuju atomske zamene. Na primer, Aqua ili Bull Bitcoin Wallet aplikacije koriste ovu metodu, omogućavajući vam da plaćate Lightning fakture bez upravljanja Lightning čvorom sami, dok ostajete u samostalnom staranju.
+Prvo rešenje je jednostavno da se Lightning ne koristi nativno, već da se koristi Bitcoin ili [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet koji ugrađuju [atomske zamene](https://planb.academy/resources/glossary/atomic-swap). Na primer, Aqua ili Bull Bitcoin Wallet aplikacije koriste ovu metodu, omogućavajući vam da plaćate [Lightning fakture](https://planb.academy/resources/glossary/invoice-lightning) bez upravljanja Lightning čvorom sami, dok ostajete u samostalnom staranju.
 
 
 
@@ -411,7 +411,7 @@ Princip je jednostavan: vaša sredstva ostaju u Bitcoin, bilo on-chain ili na Li
 
 
 
-Glavna prednost ovog pristupa, u poređenju sa konvencionalnim Lightning kustodijalnim wallet, je što ostajete u 100% posedu svojih sredstava u svakom trenutku. Bitcoini su u vašem onchain ili Liquid wallet, sa vašom sopstvenom mnemoničkom frazom. Čak i tokom zamene, ostajete u posedu svojih sredstava, jer je zamena atomska. Oslanja se na kriptografski mehanizam koji osigurava da postoje samo dva moguća ishoda: ili zamena u potpunosti uspeva, ili ne uspeva i usluga ne može prisvojiti vaša sredstva.
+Glavna prednost ovog pristupa, u poređenju sa konvencionalnim Lightning kustodijalnim wallet, je što ostajete u 100% posedu svojih sredstava u svakom trenutku. Bitcoini su u vašem onchain ili Liquid wallet, sa vašom sopstvenom [mnemoničkom frazom](https://planb.academy/resources/glossary/seed). Čak i tokom zamene, ostajete u posedu svojih sredstava, jer je zamena atomska. Oslanja se na kriptografski mehanizam koji osigurava da postoje samo dva moguća ishoda: ili zamena u potpunosti uspeva, ili ne uspeva i usluga ne može prisvojiti vaša sredstva.
 
 
 
@@ -423,7 +423,7 @@ Ovo rešenje takođe nudi zanimljive prednosti u pogledu poverljivosti, posebno 
 
 
 
-S druge strane, ovaj pristup ima svoja ograničenja. Prvo, nije neosporan: zavisite od dostupnosti i dobre volje usluge zamene. Ako više ne želi da obrađuje vaš nalog ili prestane sa radom, više ne možete plaćati Lightning fakture preko nje. Zatim, tu su i ne tako zanemarljive naknade: plaćate i onchain ili Liquid transakcione naknade, kao i proviziju usluge zamene. Takođe, ako onchain naknade naglo porastu, korišćenje Lightning-a može postati veoma skupo.
+S druge strane, ovaj pristup ima svoja ograničenja. Prvo, nije neosporan: zavisite od dostupnosti i dobre volje usluge zamene. Ako više ne želi da obrađuje vaš nalog ili prestane sa radom, više ne možete plaćati Lightning fakture preko nje. Zatim, tu su i ne tako zanemarljive naknade: plaćate i onchain ili Liquid [transakcione naknade](https://planb.academy/resources/glossary/transaction-fees), kao i proviziju usluge zamene. Takođe, ako onchain naknade naglo porastu, korišćenje Lightning-a može postati veoma skupo.
 
 
 
@@ -479,7 +479,7 @@ Treće rešenje, ono koje ćemo detaljnije razmatrati u ovom kursu LNP202, jeste
 
 
 
-Pod "klasičnim" mislim da sami instalirate i konfigurišete Lightning implementaciju (npr. LND) na vrhu vašeg sopstvenog Bitcoin čvora. Birate svoje peer-ove, otvarate svoje kanale, upravljate svojom dolaznom i odlaznom likvidnošću i postavljate svoje politike naknada za rutiranje.
+Pod "klasičnim" mislim da sami instalirate i konfigurišete Lightning implementaciju (npr. LND) na vrhu vašeg sopstvenog Bitcoin čvora. Birate svoje peer-ove, otvarate svoje kanale, upravljate svojom [dolaznom i odlaznom likvidnošću](https://planb.academy/resources/glossary/inbound-capacity) i postavljate svoje politike naknada za rutiranje.
 
 
 
@@ -616,7 +616,7 @@ Zatim ćete stići na glavni interfejs vašeg Lightning čvora. Sa leve strane, 
 
 
 
-U centru ćete pronaći svoj Lightning wallet. On zapravo predstavlja vaš odlazni novac, tj. bitkoine koje posedujete unutar svojih Lightning kanala.
+U centru ćete pronaći svoj Lightning wallet. On zapravo predstavlja vaš [odlazni novac](https://planb.academy/resources/glossary/outbound-capacity), tj. bitkoine koje posedujete unutar svojih Lightning kanala.
 
 
 

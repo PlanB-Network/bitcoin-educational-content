@@ -1,0 +1,8 @@
+question: According to the labor theory of value defended by Adam Smith, David Ricardo and Karl Marx, what determines the exchange value of a good?
+answer: The amount of labor incorporated in its production
+wrong_answers:
+  - "Marginal utility for the consumer"
+  - The absolute rarity of the property on the market
+  - "The individual's subjective judgment of the good"
+explanation: |
+  The labor theory of value, developed by classical economists such as Adam Smith, David Ricardo and Karl Marx, postulates that the exchange value of a good is proportional to the labor incorporated in its production. Ricardo's example illustrates this theory perfectly: if it takes two hours to hunt a beaver and only one hour to capture a turkey, then the beaver is worth twice as much as the turkey. The other answers correspond to later theories: marginal utility and subjective judgment belong to the marginalist revolution of the 1870s, while scarcity alone does not form the basis of the classical theory of labor value.

@@ -1159,7 +1159,7 @@ Nihayetinde bu berraklık, daha sonra Friedrich Nietzsche (1844-1900) tarafında
 Başka bir deyişle, kendimiz için düşünürsek, rasyonel yetişkinler olarak akıl yürütürsek ve bu nedenle kendimizi şeyler arasındaki nedensel bağlantılara bağlamaya çalışırsak, örneğin dinin gerçek erdemlerini veya siyasi ve ekonomik alanlardaki gerçek etik değerleri bize öğretecek ahlaki bir otoriteye artık ihtiyacımız olmayacağını söylüyor.
 
 
-Bu, Birinci Dünya Savaşı öncesinde Viyana'nın son derece verimli entelektüel atmosferinde doğan Avusturya liberal ekonomi okuluyla bağlantı kuran bir akıl yürütme çizgisidir. Zira bu bağlamda Carl Menger (1840-1921), Ludwig von Mises (1883-1979) ve Friedrich Hayek (1899-1992) gibi entelektüeller, gelecekteki cypherpunk'ların inançlarının temeli olacak yeni bir liberal ekonomi okulunun temellerini atmışlardır. Ve dolayısıyla Bitcoin'ün yaratılması.
+Bu, Birinci Dünya Savaşı öncesinde Viyana'nın son derece verimli entelektüel atmosferinde doğan [Avusturya](https://planb.academy/resources/glossary/austrian-school) liberal ekonomi okuluyla bağlantı kuran bir akıl yürütme çizgisidir. Zira bu bağlamda Carl Menger (1840-1921), Ludwig von Mises (1883-1979) ve Friedrich Hayek (1899-1992) gibi entelektüeller, gelecekteki [cypherpunk'ların](https://planb.academy/resources/glossary/cypherpunks) inançlarının temeli olacak yeni bir liberal ekonomi okulunun temellerini atmışlardır. Ve dolayısıyla Bitcoin'ün yaratılması.
 
 
 

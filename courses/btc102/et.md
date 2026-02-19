@@ -101,8 +101,6 @@ Selle kursuse lõpuks on teil kõik praktilised vahendid, mida vajate, et navige
 Kas olete valmis alustama oma teekonda Bitcoin maailma? Läheme!
 
 
-**Märkus**: Kui kursusel satute kokku tundmatute terminitega, palun vaadake [sõnastikust](https://planb.academy/resources/glossary) definitsioonid.
-
 # Bitcoin mõistmise eeldused
 
 
@@ -143,7 +141,7 @@ Kui soovite paremini mõista, kust Bitcoin pärineb ja mis teeb selle tõesti te
 
 https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
-Nagu te teate, on Plan ₿ Academy platvorm pühendatud ainult Bitcoin-le. Siiski aitab teiste krüptovaluutade erinevuse mõistmine vältida kasutute ja mõnikord isegi petturlike projektidega seotud lõkse.
+Nagu te teate, on Plan ₿ Academy platvorm pühendatud ainult Bitcoin-le. Siiski aitab teiste [krüptovaluutade](https://planb.academy/resources/glossary/cryptocurrency) erinevuse mõistmine vältida kasutute ja mõnikord isegi petturlike projektidega seotud lõkse.
 
 
 ![image](assets/et/006.webp)
@@ -256,13 +254,13 @@ Tsentraliseeritud krüptovaluutaprojektid pakuvad mõnikord kasutajate ligimeeli
 Ründajad kasutavad sageli võltsitud veebisaite, sotsiaalmeedia kontosid või petlikke e-kirju, et üritada teie raha varastada. Need petuskeemid võivad toimuda mis tahes suhtluskanalite kaudu: e-posti, sotsiaalvõrgustike, telefonikõnede või isegi traditsioonilise posti kaudu...
 
 
-Enne lingile klõpsamist või mis tahes toimingu sooritamist kontrollige alati kaks korda saatja isikut. Kahtluse korral külastage veebilehte käsitsi, mitte ei kasuta esitatud linki. Kõige tähtsam on, et ärge kunagi jagage oma isiklikke võtmeid või paroole kellegagi.
+Enne lingile klõpsamist või mis tahes toimingu sooritamist kontrollige alati kaks korda saatja isikut. Kahtluse korral külastage veebilehte käsitsi, mitte ei kasuta esitatud linki. Kõige tähtsam on, et ärge kunagi jagage oma [isiklikke võtmeid](https://planb.academy/resources/glossary/private-key) või paroole kellegagi.
 
 
 #### Bitcoin kõvavardad
 
 
-Aastate jooksul on Bitcoin kogenud mitmeid *Hard hargnemisi*, mille tulemusel on loodud algse krüptoraha alternatiivseid versioone. Lihtsustatult öeldes on *Hard Fork* võrgu jagunemine, mis viib kahe eraldi plokiahela tekkimiseni, mis mõlemad jagavad sama ajalugu kuni jagunemise hetkeni. Sellised hargnemised toimuvad tavaliselt siis, kui osa arendajaskonnast või laiemast Bitcoin ökosüsteemist soovib teha algsesse protokolli suuri muudatusi, kuid ei suuda saavutada laialdast konsensust. Selle asemel, et loobuda oma ideedest, otsustavad nad käivitada uue Bitcoin versiooni (muudetud reeglitega), lootes, et kasutajad ja kaevandajad otsustavad selle asemel järgida nende Fork.
+Aastate jooksul on Bitcoin kogenud mitmeid *Hard hargnemisi*, mille tulemusel on loodud algse krüptoraha alternatiivseid versioone. Lihtsustatult öeldes on *Hard Fork* võrgu jagunemine, mis viib kahe eraldi [plokiahela](https://planb.academy/resources/glossary/blockchain) tekkimiseni, mis mõlemad jagavad sama ajalugu kuni jagunemise hetkeni. Sellised hargnemised toimuvad tavaliselt siis, kui osa arendajaskonnast või laiemast Bitcoin ökosüsteemist soovib teha algsesse protokolli suuri muudatusi, kuid ei suuda saavutada laialdast konsensust. Selle asemel, et loobuda oma ideedest, otsustavad nad käivitada uue Bitcoin versiooni (muudetud reeglitega), lootes, et kasutajad ja kaevandajad otsustavad selle asemel järgida nende Fork.
 
 
 ![image](assets/et/011.webp)
@@ -571,7 +569,7 @@ Siin on põhipunktid, mida me koos läbi vaatame:
 
 
 
-- Ettevaatust **Shitcoins** ja muude kasutute krüptovaluutade suhtes;
+- Ettevaatust **[Shitcoins](https://planb.academy/resources/glossary/shitcoin)** ja muude kasutute krüptovaluutade suhtes;
 - Investeeri ainult **raha, mida võid endale lubada kaotada**;
 - Teadke erinevust **kaubanduse** ja **investeerimise** vahel;
 - Olge teadlik oma investeeringute **maksumõjudest**;
@@ -635,7 +633,7 @@ Selline lähenemine tagab, et te ei sea oma rahalist heaolu ohtu, eriti turu lan
 ![image](assets/et/023.webp)
 
 
-Kui teie eelarve on kindlaks määratud, mõelge, kuidas soovite investeerida. Üks kõige algajasõbralikumaid ja laialdaselt soovitatud meetodeid on [Dollar Cost Averaging (DCA)](https://planb.academy/resources/glossary/dollar-cost-averaging-dca), mille puhul ostetakse kindla koguse Bitcoin korrapäraselt (kord nädalas, kuus jne). See strateegia aitab ühtlustada teie keskmist sisenemishinda aja jooksul ja vähendab hinnakõikumiste emotsionaalset mõju. See on enamiku inimeste, eriti uustulnukate jaoks arukas lähenemine.
+Kui teie eelarve on kindlaks määratud, mõelge, kuidas soovite investeerida. Üks kõige algajasõbralikumaid ja laialdaselt soovitatud meetodeid on Dollar Cost Averaging (DCA), mille puhul ostetakse kindla koguse Bitcoin korrapäraselt (kord nädalas, kuus jne). See strateegia aitab ühtlustada teie keskmist sisenemishinda aja jooksul ja vähendab hinnakõikumiste emotsionaalset mõju. See on enamiku inimeste, eriti uustulnukate jaoks arukas lähenemine.
 
 
 Siis küsige endalt: Milline on minu ajahorisont?
@@ -843,10 +841,10 @@ Aastate jooksul on Bitcoin saavutanud tunnustuse kui ülemaailmne rahavõrk. Sed
 #### Cypherpunks ja panganduse kontrolli alt väljapoole jääva süsteemi leiutamine
 
 
-Bitcoin ei sündinud üleöö. See on aastakümnete pikkuste uuringute ja katsetuste tulemus krüptograafia, arvutiteaduse ja rahateooria valdkonnas. Enne selle käivitamist 2009. aastal üritasid mitmed projektid (nagu eCash, b-money, Bit Gold ja RPOW) luua digitaalseid valuutasid. Kõik seisid silmitsi sama põhiprobleemiga: kuidas vältida topeltkulutusi detsentraliseeritud süsteemis, ilma et nad tugineksid keskasutusele.
+Bitcoin ei sündinud üleöö. See on aastakümnete pikkuste uuringute ja katsetuste tulemus [krüptograafia](https://planb.academy/resources/glossary/cryptography), arvutiteaduse ja rahateooria valdkonnas. Enne selle käivitamist 2009. aastal üritasid mitmed projektid (nagu eCash, b-money, Bit Gold ja RPOW) luua digitaalseid valuutasid. Kõik seisid silmitsi sama põhiprobleemiga: kuidas vältida topeltkulutusi detsentraliseeritud süsteemis, ilma et nad tugineksid keskasutusele.
 
 
-See probleem jäi lahendamata kuni 2008. aasta lõpuni, mil keegi, kes kasutas nime Satoshi Nakamoto, avaldas valge raamatu Bitcoin. Mõni kuu hiljem käivitati Bitcoin avatud lähtekoodiga tarkvara esimene versioon, millega käivitati süsteem, mis võiks toimida pankadest ja valitsustest sõltumatult.
+See probleem jäi lahendamata kuni 2008. aasta lõpuni, mil keegi, kes kasutas nime Satoshi Nakamoto, avaldas [valge raamatu](https://planb.academy/resources/glossary/white-paper) Bitcoin. Mõni kuu hiljem käivitati Bitcoin [avatud lähtekoodiga](https://planb.academy/resources/glossary/foss) tarkvara esimene versioon, millega käivitati süsteem, mis võiks toimida pankadest ja valitsustest sõltumatult.
 
 
 Projekti mõjutas tugevalt Cypherpunk eetos; arendajate ja mõtlejate kogukond, kes uskusid krüptograafia kasutamisse, et kaitsta üksikisiku vabadusi internetis. Nende jaoks ei olnud privaatsus ja detsentraliseerimine mitte tehnilised eelistused, vaid ideoloogilised vajadused. Bitcoin kujunes nende ideaalide kõige edukamaks kehastuseks: võrdõiguslik rahavõrk, mida igaüks võis kasutada, mida keegi ei saanud kontrollida ja mida igaüks võis kontrollida.
@@ -855,7 +853,7 @@ Projekti mõjutas tugevalt Cypherpunk eetos; arendajate ja mõtlejate kogukond, 
 ![image](assets/et/030.webp)
 
 
-Cypherpunks on mitteametlik rahvusvaheline kogukond, mis propageerib krüptograafia kasutamist isikuvabaduste kaitsmiseks internetis. Nad usuvad kindlalt üksikisiku õigusesse eraelu puutumatusele, eriti maailmas, mida üha enam kujundab valitsuse jälgimine ja ettevõtete andmete ärakasutamine.
+[Cypherpunks](https://planb.academy/resources/glossary/cypherpunks) on mitteametlik rahvusvaheline kogukond, mis propageerib krüptograafia kasutamist isikuvabaduste kaitsmiseks internetis. Nad usuvad kindlalt üksikisiku õigusesse eraelu puutumatusele, eriti maailmas, mida üha enam kujundab valitsuse jälgimine ja ettevõtete andmete ärakasutamine.
 
 
 Cypherpunk liikumise juured ulatuvad 1990. aastate algusesse, kui krüptograafide, programmeerijate ja libertaarlaste rühmad hakkasid Silicon Valley's toimunud kohtumistel uurima krüptograafia poliitilisi mõjusid. Üks silmapaistvamaid hääli selles kogukonnas oli Tim May, kes kirjutas 1988. aastal krüptoanalarhistliku manifesti, mis on põhitekst, milles visandatakse nägemus maailmast, kus krüpteerimine annaks üksikisikutele võimaluse tegutseda väljaspool valitsuste ja tsentraliseeritud kontrolli.
@@ -909,7 +907,7 @@ Bitcoin on määratletud kui "vastastikune elektrooniline sularahasüsteem" See 
 ![image](assets/et/034.webp)
 
 
-Lihtsustatult öeldes on igal Bitcoin võrgu osalisel (mida nimetatakse "sõlmedeks") täielik koopia tehingust Ledger, mida nimetatakse Blockchain. Kui toimub uus tehing, edastatakse see võrku. Seejärel kinnitavad kaevandajad need tehingud, rühmitades need plokkideks, mis seejärel lisatakse ahela lõppu (sellest ka nimi "Blockchain").
+Lihtsustatult öeldes on igal Bitcoin võrgu osalisel (mida nimetatakse "[sõlmedeks](https://planb.academy/resources/glossary/node)") täielik koopia tehingust Ledger, mida nimetatakse Blockchain. Kui toimub uus tehing, edastatakse see võrku. Seejärel kinnitavad [kaevandajad](https://planb.academy/resources/glossary/miner) need tehingud, rühmitades need plokkideks, mis seejärel lisatakse ahela lõppu (sellest ka nimi "Blockchain").
 
 
 ![image](assets/et/035.webp)
@@ -930,7 +928,7 @@ Mõelge Blockchain-st kui hiiglaslikust raamatupidamislikust Ledger-st, kus iga 
 #### Kuidas plokid luuakse: Mining
 
 
-Mining on protsess, mille käigus arvutid (või suured Mining-farmid) panustavad **arvutusvõimsust** Bitcoin tehinguloo kindlustamiseks ja uute plokkide loomiseks. Kaevandajad võistlevad matemaatilise mõistatuse lahendamisel - täpsemalt öeldes osalise Hash kokkupõrke leidmisel. See protsess nõuab märkimisväärset energiat ja ressursse. Kui Miner leiab kehtiva lahenduse, edastavad nad ploki võrku, mis kontrollib ja aktsepteerib selle kehtivana.
+[Mining](https://planb.academy/resources/glossary/mining) on protsess, mille käigus arvutid (või suured Mining-farmid) panustavad **arvutusvõimsust** Bitcoin tehinguloo kindlustamiseks ja uute plokkide loomiseks. Kaevandajad võistlevad matemaatilise mõistatuse lahendamisel - täpsemalt öeldes osalise Hash kokkupõrke leidmisel. See protsess nõuab märkimisväärset energiat ja ressursse. Kui Miner leiab kehtiva lahenduse, edastavad nad ploki võrku, mis kontrollib ja aktsepteerib selle kehtivana.
 
 Preemiaks saab Miner vastloodud bitcoinid (nn plokksubsiidium) koos kõigi selles plokis sisalduvate tehingute tehingutasudega.
 
@@ -952,12 +950,12 @@ Lõpuks, umbes aastal 2140, jõuab toetus nullini, kuna Bitcoin kogusumma Supply
 #### Puudus ja fikseeritud rahapoliitika
 
 
-Bitcoin üks võimsamaid omadusi on selle *ennustatav ja muutumatu rahapoliitika*. Erinevalt traditsioonilistest fiat-valuutadest (nagu dollar, euro või jeen), mida keskpangad võivad trükkida suvaliselt (mis sageli toob kaasa inflatsiooni või majandusmoonutusi), toimib Bitcoin oma koodis sisalduvate läbipaistvate reeglite alusel.
+Bitcoin üks võimsamaid omadusi on selle *ennustatav ja muutumatu rahapoliitika*. Erinevalt traditsioonilistest fiat-valuutadest (nagu dollar, euro või jeen), mida keskpangad võivad trükkida suvaliselt (mis sageli toob kaasa [inflatsiooni](https://planb.academy/resources/glossary/inflation) või majandusmoonutusi), toimib Bitcoin oma koodis sisalduvate läbipaistvate reeglite alusel.
 
 Bitcoine on alati ainult 21 miljonit ning uute müntide emiteerimise kiirus on kõigile võrgus osalejatele ette teada.
 
 
-Ükski valitsus, institutsioon või üksikisik ei saa ühepoolselt muuta seda Supply ülempiiri või jaotuseeskirju. Ainus võimalus neid parameetreid muuta oleks Bitcoin protokolli muutmine; ja isegi selleks oleks vaja võrgu majanduses osalejate enamuse konsensust.
+Ükski valitsus, institutsioon või üksikisik ei saa ühepoolselt muuta seda Supply ülempiiri või jaotuseeskirju. Ainus võimalus neid parameetreid muuta oleks Bitcoin protokolli muutmine; ja isegi selleks oleks vaja võrgu majanduses osalejate enamuse [konsensust](https://planb.academy/resources/glossary/consensus).
 
 
 See sisseehitatud nappus on oluline tõmbenumber nende jaoks, kes soovivad loobuda ettearvamatust rahapoliitikast või vältida oma ostujõu järkjärgulist vähenemist inflatsiooni tõttu. Aja jooksul võib see tähendada muutust finantsmõtlemises, kus säästmine deflatiivsesse varasse, nagu Bitcoin, muutub atraktiivsemaks kui traditsioonilistesse, inflatsioonile altid valuutadesse toetumine.
@@ -1007,7 +1005,7 @@ Kuigi see lähenemisviis on tehnilisem, pakub see kõige nõudlikumatele kasutaj
 #### Vastupidav piiriülene makseviis
 
 
-Tänu oma detsentraliseeritud olemusele töötab Bitcoin 24/7, mida ei mõjuta piirid ega ajavööndid. Piirkondades, kus traditsiooniline pangainfrastruktuur puudub, kasutatakse Bitcoin sageli kiire ja odava lahendusena raha saatmiseks või vastuvõtmiseks, ilma et oleks vaja kasutada kalleid vahendajaid. Kuigi tehingutasud võivad erineda sõltuvalt võrgu ülekoormusest, on need üldiselt palju madalamad kui pankade poolt rahvusvaheliste ülekannete eest võetavad tasud. Lisaks võimaldavad Layer-2 lahendused, nagu [Lightning Network](https://planb.academy/resources/glossary/lightning-network), veelgi kiiremaid ja odavamaid Bitcoin tehinguid.
+Tänu oma detsentraliseeritud olemusele töötab Bitcoin 24/7, mida ei mõjuta piirid ega ajavööndid. Piirkondades, kus traditsiooniline pangainfrastruktuur puudub, kasutatakse Bitcoin sageli kiire ja odava lahendusena raha saatmiseks või vastuvõtmiseks, ilma et oleks vaja kasutada kalleid vahendajaid. Kuigi tehingutasud võivad erineda sõltuvalt võrgu ülekoormusest, on need üldiselt palju madalamad kui pankade poolt rahvusvaheliste ülekannete eest võetavad tasud. Lisaks võimaldavad Layer-2 lahendused, nagu Lightning Network, veelgi kiiremaid ja odavamaid Bitcoin tehinguid.
 
 
 #### Väärtuse säilitamine
@@ -1233,7 +1231,7 @@ Bitcoini kasutajad on pärit kõikidest eluvaldkondadest, kuid neil on ühine vi
 - **Cypherpunks**, kes võitlevad eraelu puutumatuse eest ja seisavad vastu jälgimisele;
 - **Surnud kodanikud**, kes otsivad varjupaika autoritaarsete režiimide ja kapitalikontrolli eest;
 - **Anarhistid**, kes näevad Bitcoin riigi kontrolli alt vabanemise vahendina;
-- Austria majandusteadlased, kes pooldavad usaldusväärset raha ja vabadust valitsuse manipuleerimisest;
+- [Austria majandusteadlased](https://planb.academy/resources/glossary/austrian-school), kes pooldavad usaldusväärset raha ja vabadust valitsuse manipuleerimisest;
 - Insenerid, finantseerijaid ja sõnavabaduse kaitsjad, kes tunnistavad selle uue rahaparadigma sügavat ühiskondlikku mõju.
 
 
@@ -1538,7 +1536,7 @@ Bitcoin Wallet tööstus jaguneb mitmesse kategooriasse, millest igaüks vastab 
 
 
 
-- **[Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet) Tootjad**: Need ettevõtted arendavad füüsilisi seadmeid, mis on ette nähtud võtmete turvaliseks säilitamiseks. Mõned neist on avatud lähtekoodiga, teised aga pakuvad eri funktsioonide ja turvatasemetega patenteeritud lahendusi. Märkimisväärsed nimed on Ledger, Trezor, Coinkite, Foundation ja Shiftcrypto.
+- **Hardware Wallet Tootjad**: Need ettevõtted arendavad füüsilisi seadmeid, mis on ette nähtud võtmete turvaliseks säilitamiseks. Mõned neist on avatud lähtekoodiga, teised aga pakuvad eri funktsioonide ja turvatasemetega patenteeritud lahendusi. Märkimisväärsed nimed on Ledger, Trezor, Coinkite, Foundation ja Shiftcrypto.
 - **Software Wallet arendajad**: Need ulatuvad ettevõtetest sõltumatute arendajateni, kes loovad mobiil- ja lauaarvutirakendusi. Nende pakkumised erinevad kasutajakogemuse, turvalisuse ja funktsioonide poolest. Näiteks Sparrow, Wizard Sardine, Galoy, Synonym ja Blockstream.
 - DIY (*Do It Yourself*) **rahakotid**: Need avatud lähtekoodiga lahendused on mõeldud edasijõudnud kasutajatele, kes soovivad täielikku kontrolli ja minimaalset sõltuvust kolmandatest osapooltest. Oma Wallet ehitamine vähendab usaldussõltuvust ja võib suurendada teie turvalisuse positsiooni. Märkimisväärsed DIY-variandid on Seedsigner ja Specter DIY.
 
@@ -1549,7 +1547,7 @@ Rahakotid mängivad Bitcoins olulist rolli ja neid käsitletakse põhjalikumalt 
 #### Bitcoin Mining
 
 
-Mining on Bitcoin võrgu põhifunktsioon. See tagab süsteemi turvalisuse ja hoiab Blockchain töökorras. Kaevandajad valideerivad tehinguid ja kindlustavad võrgu, tehes energiamahukaid arvutusi, mida tuntakse Proof of Work nime all. Iga uus kaevandatud plokk lisab tehingupartii Blockchain-le ja vabastab uusi bitcoine vastavalt protokolli väljastamise ajakavale.
+Mining on Bitcoin võrgu põhifunktsioon. See tagab süsteemi turvalisuse ja hoiab Blockchain töökorras. Kaevandajad valideerivad tehinguid ja kindlustavad võrgu, tehes energiamahukaid arvutusi, mida tuntakse [Proof of Work](https://planb.academy/resources/glossary/proof-of-work) nime all. Iga uus kaevandatud plokk lisab tehingupartii Blockchain-le ja vabastab uusi bitcoine vastavalt protokolli väljastamise ajakavale.
 
 
 Bitcoin algusaegadel sai Mining teha personaalarvutist. Tänapäeval on tegemist konkurentsivõimelise, ülemaailmse tööstusharuga, kus domineerivad märkimisväärsete rahaliste ja tehniliste ressurssidega ettevõtted. Odavate energiaallikate otsimine on muutunud peamiseks fookuseks, kuna kaevandajad püüavad optimeerida tegevuskulusid ja kasumlikkust. Mining operatsioonid ulatuvad nüüd massiivsetest tööstusrajatistest kuni kodudes või garaažides töötavate väikesemahuliste seadeldisteni.
@@ -1584,7 +1582,7 @@ Bitcoin arengut saab mõista mõne erineva tegijate rühma kaudu:
 - **Sõltumatud arendajad**. Need arendajad keskenduvad kasutajakogemuse parandamiseks mõeldud tööriistade ja rakenduste loomisele, näiteks Mempool.space (visuaalne Interface tehinguaktiivsuse jälgimiseks) või Alby (vahendid Lightning-maksete kasutamiseks brauserites ja rakendustes).
 
 
-Igaüks võib teha ettepanekuid Bitcoin Core'i muutmiseks, kuid protsess on tahtlikult range. Uute ideede väljatöötamine võtab sageli aastaid ning nõuab põhjalikku tehnilist arusaamist, laiaulatuslikku kaasamist ja mitmekordset läbivaatamist. Ettepanekud esitatakse tavaliselt **Bitcoin parandusettepanekute (BIP) ** vormis; mõned neist ei jõua kunagi protokolli.
+Igaüks võib teha ettepanekuid Bitcoin Core'i muutmiseks, kuid protsess on tahtlikult range. Uute ideede väljatöötamine võtab sageli aastaid ning nõuab põhjalikku tehnilist arusaamist, laiaulatuslikku kaasamist ja mitmekordset läbivaatamist. Ettepanekud esitatakse tavaliselt **Bitcoin parandusettepanekute ([BIP](https://planb.academy/resources/glossary/bip)) ** vormis; mõned neist ei jõua kunagi protokolli.
 
 Uuendused on teretulnud, kuid ainult siis, kui neid toetavad kindlad põhjendused, kogukonna konsensus ja hoolikas testimine.
 
@@ -1629,7 +1627,7 @@ Bitcoin ökosüsteemi rikastavate peamiste kattesüsteemide hulgas on järgmised
 - **Lightning Network**:
 
 
-2016. aastal Thaddeus Dryja ja Joseph Pooni loodud Lightning Network on teine Layer lahendus, mis on mõeldud kiirete ja odavate maksete võimaldamiseks. Kaks kasutajat saavad avada privaatse kanali, kus nad saavad teha tehinguid, kusjuures saldo uuendatakse Blockchain-l ainult siis, kui kanal avatakse või suletakse. Kanalisisesed tehingud toimuvad off-chain, mis tähendab, et neid ei ole vaja eraldi registreerida Bitcoin Blockchain-s. Selline struktuur võimaldab koheseid tehinguid ja minimaalseid tasusid, mis muudab selle ideaalseks väikese väärtusega tehingute jaoks, mis vajavad kiiret kinnitust.
+2016. aastal Thaddeus Dryja ja Joseph Pooni loodud Lightning Network on teine Layer lahendus, mis on mõeldud kiirete ja odavate maksete võimaldamiseks. Kaks kasutajat saavad avada privaatse [kanali](https://planb.academy/resources/glossary/payment-channel), kus nad saavad teha tehinguid, kusjuures saldo uuendatakse Blockchain-l ainult siis, kui kanal avatakse või suletakse. Kanalisisesed tehingud toimuvad off-chain, mis tähendab, et neid ei ole vaja eraldi registreerida Bitcoin Blockchain-s. Selline struktuur võimaldab koheseid tehinguid ja minimaalseid tasusid, mis muudab selle ideaalseks väikese väärtusega tehingute jaoks, mis vajavad kiiret kinnitust.
 
 
 ![image](assets/et/061.webp)
@@ -1668,7 +1666,7 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 RGB on detsentraliseeritud ja privaatsusele keskendunud Smart contract süsteem, mis on mõeldud töötama Bitcoin ja Lightning Network peal. Erinevalt traditsioonilistest Smart contract platvormidest kasutab RGB Client-side Validation mudelit (mis tähendab, et kogu Contract State salvestatakse off-chain ja Bitcoin Blockchain-le avaldatakse ainult krüptograafilised kohustused). Selline ülesehitus parandab nii skaleeritavust kui ka privaatsust. RGB abil saavad kasutajad otse Bitcoin või Lightningi abil luua täiustatud nutikaid lepinguid žetoonide, NFTde, detsentraliseeritud identiteetide või isegi DeFi rakenduste väljastamiseks.
 
 
-RGB peamine omadus on selle kaitse Double-spending vastu, mis on saavutatud krüptograafilise tehnikaga, mida nimetatakse ühekordseks pitsatiks. See mehhanism tugineb asjaolule, et Bitcoin UTXOd (Unspent Transaction Outputs) saab kulutada ainult üks kord. Märgiste autentsus tagatakse Contract kogu ajaloo (alates selle loomisest kuni selle praeguse olekuni) kasutajapoolse valideerimisega.
+RGB peamine omadus on selle kaitse Double-spending vastu, mis on saavutatud krüptograafilise tehnikaga, mida nimetatakse ühekordseks pitsatiks. See mehhanism tugineb asjaolule, et Bitcoin [UTXOd](https://planb.academy/resources/glossary/utxo) (Unspent Transaction Outputs) saab kulutada ainult üks kord. Märgiste autentsus tagatakse Contract kogu ajaloo (alates selle loomisest kuni selle praeguse olekuni) kasutajapoolse valideerimisega.
 
 
 ![image](assets/et/062.webp)
@@ -2369,7 +2367,7 @@ Mõned parimad tavad:
 - Kontrollige perioodiliselt oma taastamislause terviklikkust. Kontrollige, et ümbrikku ei ole võltsitud ja et andmekandja on endiselt loetav. Kui miski ei tundu olevat korras, generate uus varukoopia oma Wallet;
 
 
-Et jälgida oma varusid ilma oma isiklikke võtmeid ohustamata, kaaluge Watch-only wallet kasutamist. See võimaldab teil jälgida saldosid ja tehinguid ainult oma avalike võtmete abil.
+Et jälgida oma varusid ilma oma isiklikke võtmeid ohustamata, kaaluge Watch-only wallet kasutamist. See võimaldab teil jälgida saldosid ja tehinguid ainult oma [avalike võtmete](https://planb.academy/resources/glossary/public-key) abil.
 
 
 https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
@@ -2914,7 +2912,7 @@ https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866
 https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
 
-- **Hot Wallet igapäevasteks tehinguteks**, regulaarsete kulutuste tegemiseks valivad paranoilised kasutajad privaatsusele keskendunud rahakotid nagu Ashigaru, Wasabi Wallet või Sparrow Wallet. Need rahakotid toetavad selliseid täiustatud funktsioone nagu: mini-CoinJoin kulutamistehingud, payjoins, potentsiaalselt CoinJoin tööriistad, mündi kontroll, UTXO märgistamine või võimalus ühendada oma Bitcoin sõlme kaudu.
+- **Hot Wallet igapäevasteks tehinguteks**, regulaarsete kulutuste tegemiseks valivad paranoilised kasutajad privaatsusele keskendunud rahakotid nagu Ashigaru, Wasabi Wallet või Sparrow Wallet. Need rahakotid toetavad selliseid täiustatud funktsioone nagu: mini-[CoinJoin](https://planb.academy/resources/glossary/coinjoin) kulutamistehingud, payjoins, potentsiaalselt CoinJoin tööriistad, mündi kontroll, UTXO märgistamine või võimalus ühendada oma Bitcoin sõlme kaudu.
 
 
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d

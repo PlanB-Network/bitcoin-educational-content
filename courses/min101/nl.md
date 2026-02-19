@@ -117,11 +117,11 @@ Klaar om Bitcoin mining te ontdekken? Laten we beginnen!
 
 
 
-Voordat we overgaan tot een gedetailleerde en meer technische uitleg van Bitcoin mining, wil ik je een overzicht geven van het principe, dat opzettelijk eenvoudig en schematisch is gehouden. Als je al wat basiskennis hebt, kun je in het volgende hoofdstuk, na het beantwoorden van de quizvragen, meteen door naar de kern van de zaak. Dit hoofdstuk is vooral bedoeld voor beginners, om je een zachte start te geven.
+Voordat we overgaan tot een gedetailleerde en meer technische uitleg van Bitcoin [mining](https://planb.academy/resources/glossary/mining), wil ik je een overzicht geven van het principe, dat opzettelijk eenvoudig en schematisch is gehouden. Als je al wat basiskennis hebt, kun je in het volgende hoofdstuk, na het beantwoorden van de quizvragen, meteen door naar de kern van de zaak. Dit hoofdstuk is vooral bedoeld voor beginners, om je een zachte start te geven.
 
 
 
-Stel je Bitcoin voor als een groot openbaar notitieblok, dat door iedereen gedeeld wordt, waarin we opschrijven wie er bitcoins naar wie heeft gestuurd. Dit notitieboek wordt de blockchain genoemd. Het kan niet in het bezit zijn van slechts één persoon, anders zou het vertrouwd moeten worden. In plaats daarvan werkt Bitcoin collectief: duizenden computers verifiëren en onderhouden dezelfde versie van dit notitieblok.
+Stel je Bitcoin voor als een groot openbaar notitieblok, dat door iedereen gedeeld wordt, waarin we opschrijven wie er bitcoins naar wie heeft gestuurd. Dit notitieboek wordt de [blockchain](https://planb.academy/resources/glossary/blockchain) genoemd. Het kan niet in het bezit zijn van slechts één persoon, anders zou het vertrouwd moeten worden. In plaats daarvan werkt Bitcoin collectief: duizenden computers verifiëren en onderhouden dezelfde versie van dit notitieblok.
 
 
 
@@ -129,7 +129,7 @@ Stel je Bitcoin voor als een groot openbaar notitieblok, dat door iedereen gedee
 
 
 
-In Bitcoin maak je een transactie aan wanneer je een betaling doet. Deze transactie wordt niet meteen toegevoegd aan het notitieboek. Hij wordt eerst naar het netwerk gestuurd en wacht dan om in het volgende transactiepakket geïntegreerd te worden. Dit pakket wordt een blok genoemd.
+In Bitcoin maak je een [transactie](https://planb.academy/resources/glossary/transaction-tx) aan wanneer je een betaling doet. Deze transactie wordt niet meteen toegevoegd aan het notitieboek. Hij wordt eerst naar het netwerk gestuurd en wacht dan om in het volgende transactiepakket geïntegreerd te worden. Dit pakket wordt een [blok](https://planb.academy/resources/glossary/block) genoemd.
 
 
 
@@ -141,11 +141,11 @@ Een blok is gewoon een verzameling transacties die gegroepeerd zijn. Als een blo
 
 
 
-Mining is het valideren van een blok door energie te verbruiken. Actoren genaamd miners gebruiken gespecialiseerde computers. Deze machines verbruiken elektriciteit om een zeer groot aantal tests uit te voeren, in een lus, totdat ze een bewijs vinden dat door het netwerk wordt geaccepteerd. Wanneer een miner dit bewijs vindt, wordt zijn blok als geldig beschouwd.
+Mining is het valideren van een blok door energie te verbruiken. Actoren genaamd [miners](https://planb.academy/resources/glossary/miner) gebruiken gespecialiseerde computers. Deze machines verbruiken elektriciteit om een zeer groot aantal tests uit te voeren, in een lus, totdat ze een bewijs vinden dat door het netwerk wordt geaccepteerd. Wanneer een miner dit bewijs vindt, wordt zijn blok als geldig beschouwd.
 
 
 
-Zodra het blok gevalideerd is, wordt het uitgezonden naar het netwerk. De andere knooppunten controleren snel of het aan de regels voldoet en voegen het dan toe aan de reeks vorige blokken. Daarom wordt het een "blockchain" genoemd: elk nieuw blok komt na de anderen, in opeenvolgende volgorde, en deze keten groeit beetje bij beetje.
+Zodra het blok gevalideerd is, wordt het uitgezonden naar het netwerk. De andere [knooppunten](https://planb.academy/resources/glossary/node) controleren snel of het aan de regels voldoet en voegen het dan toe aan de reeks vorige blokken. Daarom wordt het een "blockchain" genoemd: elk nieuw blok komt na de anderen, in opeenvolgende volgorde, en deze keten groeit beetje bij beetje.
 
 
 
@@ -153,11 +153,11 @@ Zodra het blok gevalideerd is, wordt het uitgezonden naar het netwerk. De andere
 
 
 
-Kortom, transacties worden eerst aangemaakt. Daarna worden ze gegroepeerd in een blok. Vervolgens valideert een miner dit blok door elektriciteit te verbruiken. Ten slotte wordt dit blok toegevoegd aan de blockchain en worden de transacties die het bevat bevestigd.
+Kortom, transacties worden eerst aangemaakt. Daarna worden ze gegroepeerd in een blok. Vervolgens valideert een miner dit blok door elektriciteit te verbruiken. Ten slotte wordt dit blok toegevoegd aan de blockchain en worden de transacties die het bevat [bevestigd](https://planb.academy/resources/glossary/confirmation).
 
 
 
-Als mijnwerkers elektriciteit verbruiken, is dat niet omdat ze vrijwilligers zijn. Ze doen het omdat er een beloning tegenover staat. Wanneer een miner een blok valideert, ontvangt hij twee soorten inkomsten. Aan de ene kant ontvangt hij nieuw gecreëerde bitcoins. Anderzijds int hij de vergoedingen die gebruikers betalen voor de transacties in het blok. Met andere woorden, de miner wordt zowel gecompenseerd door geprogrammeerde monetaire uitgifte als door transactievergoedingen die door een markt worden bepaald.
+Als mijnwerkers elektriciteit verbruiken, is dat niet omdat ze vrijwilligers zijn. Ze doen het omdat er een beloning tegenover staat. Wanneer een miner een blok valideert, ontvangt hij twee soorten inkomsten. Aan de ene kant ontvangt hij nieuw gecreëerde bitcoins. Anderzijds int hij de [vergoedingen](https://planb.academy/resources/glossary/transaction-fees) die gebruikers betalen voor de transacties in het blok. Met andere woorden, de miner wordt zowel gecompenseerd door geprogrammeerde monetaire uitgifte als door transactievergoedingen die door een markt worden bepaald.
 
 
 
@@ -187,7 +187,7 @@ Om te begrijpen waar Bitcoin mining allemaal om draait, moeten we eerst het pad 
 
 
 
-In Bitcoin is een transactie een datastructuur die het eigendom van bitcoins overdraagt van de ene gebruiker naar de andere. Concreet verbruikt het `outputs` van eerdere transacties (zogenaamde UTXO's), verwijst ernaar als `inputs`, en creëert vervolgens nieuwe `outputs` die bepalen aan wie deze bitcoins nu toebehoren en onder welke voorwaarden ze later kunnen worden uitgegeven.
+In Bitcoin is een transactie een datastructuur die het eigendom van bitcoins overdraagt van de ene gebruiker naar de andere. Concreet verbruikt het `outputs` van eerdere transacties (zogenaamde [UTXO's](https://planb.academy/resources/glossary/utxo)), verwijst ernaar als `inputs`, en creëert vervolgens nieuwe `outputs` die bepalen aan wie deze bitcoins nu toebehoren en onder welke voorwaarden ze later kunnen worden uitgegeven.
 
 
 
@@ -195,7 +195,7 @@ In Bitcoin is een transactie een datastructuur die het eigendom van bitcoins ove
 
 
 
-Een belangrijk punt bij Bitcoin is de machtiging om uit te geven. Bitcoin's staan niet op een rekening, zoals uw geld op de bank, maar zijn vergrendeld door bestedingsvoorwaarden. Wanneer een wallet een UTXO als invoer wil gebruiken, moet het cryptografisch bewijs leveren dat het het recht heeft om het te ontgrendelen. Dit bewijs neemt vaak de vorm aan van een digitale handtekening generated van een private sleutel. Daarom dringen bitcoiners aan op het beveiligen van je privésleutels: deze ontgrendelen de toegang tot je bitcoins en stellen je dus in staat om ze uit te geven.
+Een belangrijk punt bij Bitcoin is de machtiging om uit te geven. Bitcoin's staan niet op een rekening, zoals uw geld op de bank, maar zijn vergrendeld door bestedingsvoorwaarden. Wanneer een [wallet](https://planb.academy/resources/glossary/wallet) een UTXO als [invoer](https://planb.academy/resources/glossary/input) wil gebruiken, moet het cryptografisch bewijs leveren dat het het recht heeft om het te ontgrendelen. Dit bewijs neemt vaak de vorm aan van een [digitale handtekening](https://planb.academy/resources/glossary/digital-signature) generated van een [private sleutel](https://planb.academy/resources/glossary/private-key). Daarom dringen bitcoiners aan op het beveiligen van je privésleutels: deze ontgrendelen de toegang tot je bitcoins en stellen je dus in staat om ze uit te geven.
 
 
 
@@ -221,7 +221,7 @@ Nadat de transactie correct is opgebouwd en ondertekend door de Bitcoin wallet v
 
 
 
-Bitcoin is een peer-to-peer netwerk: er is geen centrale server die alle transacties ontvangt en verwerkt. Deze rol wordt collectief gespeeld door de nodes. Een Bitcoin knooppunt is een stuk software (bijv. Bitcoin Core) dat verbonden is met andere knooppunten in het Bitcoin netwerk, met als belangrijkste missie het verifiëren, opslaan en doorgeven van transacties en blokken.
+Bitcoin is een [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) netwerk: er is geen centrale server die alle transacties ontvangt en verwerkt. Deze rol wordt collectief gespeeld door de nodes. Een Bitcoin knooppunt is een stuk software (bijv. [Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core)) dat verbonden is met andere knooppunten in het Bitcoin netwerk, met als belangrijkste missie het verifiëren, opslaan en doorgeven van transacties en blokken.
 
 
 
@@ -233,7 +233,7 @@ Wanneer je een transactie verstuurt vanaf een wallet, stuurt de wallet deze door
 - handtekeningen geldig zijn;
 - de ingangen verwijzen naar bestaande UTXO's (d.w.z. bitcoins die bestaan);
 - deze UTXO niet al elders zijn uitgegeven;
-- de hoeveelheid outputs is kleiner dan of gelijk aan de hoeveelheid inputs (bitcoins worden niet uit het niets gecreëerd);
+- de hoeveelheid [outputs](https://planb.academy/resources/glossary/output) is kleiner dan of gelijk aan de hoeveelheid inputs (bitcoins worden niet uit het niets gecreëerd);
 - enz.
 
 
@@ -250,7 +250,7 @@ Als de transactie al deze controles doorstaat, verspreidt het knooppunt de trans
 
 
 
-Tussen het moment dat een transactie wordt uitgezonden en het moment dat het wordt bevestigd in een blok, moet het wachten. Deze wachtruimte wordt **de mempool** genoemd (samentrekking van `memory` en `pool`). Een mempool is dus een tijdelijke opslagruimte voor geldige, maar nog onbevestigde transacties.
+Tussen het moment dat een transactie wordt uitgezonden en het moment dat het wordt bevestigd in een blok, moet het wachten. Deze wachtruimte wordt **de [mempool](https://planb.academy/resources/glossary/mempool)** genoemd (samentrekking van `memory` en `pool`). Een mempool is dus een tijdelijke opslagruimte voor geldige, maar nog onbevestigde transacties.
 
 
 
@@ -270,7 +270,7 @@ In dit stadium is het netwerk op de hoogte van de transactie, heeft het deze gev
 
 
 
-Omdat bitcoin een immateriële valuta is, moet het één probleem aanpakken: het voorkomen van dubbele uitgaven zonder een centrale autoriteit. Als twee transacties hetzelfde UTXO proberen uit te geven, moet iedereen kunnen convergeren naar één coherente staat. Satoshi Nakamoto vat dit probleem samen met deze beroemde zin:
+Omdat bitcoin een immateriële valuta is, moet het één probleem aanpakken: het voorkomen van [dubbele uitgaven](https://planb.academy/resources/glossary/double-spending-attack) zonder een centrale autoriteit. Als twee transacties hetzelfde UTXO proberen uit te geven, moet iedereen kunnen convergeren naar één coherente staat. Satoshi Nakamoto vat dit probleem samen met deze beroemde zin:
 
 
 
@@ -284,7 +284,7 @@ Dit is de rol van de blockchain: een openbaar register dat de geschiedenis van t
 
 
 
-Dit register kan niet herschreven worden dankzij een eenvoudig principe: elk blok bevat de cryptografische vingerafdruk (hash) van het vorige blok. Blokken zijn dus aan elkaar gekoppeld: als je een blok uit het verleden wijzigt, verandert de hash, waardoor de koppeling met het volgende blok verbroken wordt, waardoor de koppeling met het blok daarna verbroken wordt, enzovoort. Het is deze keten van afhankelijkheden die de "*blockchain*" zijn naam geeft.
+Dit register kan niet herschreven worden dankzij een eenvoudig principe: elk blok bevat de cryptografische vingerafdruk ([hash](https://planb.academy/resources/glossary/hash-function)) van het vorige blok. Blokken zijn dus aan elkaar gekoppeld: als je een blok uit het verleden wijzigt, verandert de hash, waardoor de koppeling met het volgende blok verbroken wordt, waardoor de koppeling met het blok daarna verbroken wordt, enzovoort. Het is deze keten van afhankelijkheden die de "*blockchain*" zijn naam geeft.
 
 
 
@@ -292,7 +292,7 @@ Dit register kan niet herschreven worden dankzij een eenvoudig principe: elk blo
 
 
 
-Zodra we deze basisprincipes van Bitcoin begrijpen, kunnen we het doel van een miner in concretere termen beschrijven: een nieuw blok bouwen dat de bestaande keten uitbreidt, door hangende transacties in te schrijven, en dan proberen het geldig te maken (dit is het beroemde "proof of work" dat we in een later hoofdstuk zullen bestuderen). Maar laten we eerst in het volgende hoofdstuk samen ontdekken hoe een kandidaatblok wordt opgebouwd.
+Zodra we deze basisprincipes van Bitcoin begrijpen, kunnen we het doel van een miner in concretere termen beschrijven: een nieuw blok bouwen dat de bestaande keten uitbreidt, door hangende transacties in te schrijven, en dan proberen het geldig te maken (dit is het beroemde "[proof of work](https://planb.academy/resources/glossary/proof-of-work)" dat we in een later hoofdstuk zullen bestuderen). Maar laten we eerst in het volgende hoofdstuk samen ontdekken hoe een kandidaatblok wordt opgebouwd.
 
 
 
@@ -303,7 +303,7 @@ Zodra we deze basisprincipes van Bitcoin begrijpen, kunnen we het doel van een m
 
 
 
-Je hebt nu begrepen hoe een Bitcoin transactie werkt en wat de rol van de blockchain is. Maar voordat we dieper ingaan op hoe proof-of-work werkt, is er nog één essentiële stap die de miner moet uitvoeren: de constructie van een kandidaatblok. Laten we samen uitzoeken wat een kandidaatblok is en hoe de miner het construeert, voordat we op zoek gaan naar een geldig bewijs.
+Je hebt nu begrepen hoe een Bitcoin transactie werkt en wat de rol van de blockchain is. Maar voordat we dieper ingaan op hoe proof-of-work werkt, is er nog één essentiële stap die de miner moet uitvoeren: de constructie van een [kandidaatblok](https://planb.academy/resources/glossary/candidate-block). Laten we samen uitzoeken wat een kandidaatblok is en hoe de miner het construeert, voordat we op zoek gaan naar een geldig bewijs.
 
 
 
@@ -318,7 +318,7 @@ Miner's moeten hun blokken zelf bouwen voordat ze ze proberen te mijnen. Elke mi
 
 - kiezen welke transacties je wilt opnemen;
 - deze transacties organiseren op een manier die compatibel is met de Bitcoin regels;
-- de metadata van het blok produceren, opgeslagen in de koptekst.
+- de metadata van het blok produceren, opgeslagen in de [koptekst](https://planb.academy/resources/glossary/block-header).
 
 
 
@@ -340,7 +340,7 @@ Een Bitcoin blok bestaat daarom uit twee hoofdonderdelen:
 
 
 
-De header is essentieel, want deze wordt gebruikt als basis voor proof-of-work: in Bitcoin wordt niet direct een heel blok gemijnd, maar alleen de header van een blok, die de informatie samenvat die nodig is om het blok aan de keten te koppelen en de inhoud vast te leggen. Om de header in staat te stellen alle transacties te vertegenwoordigen, gebruikt Bitcoin een cryptografisch hulpmiddel: de Merkle boom.
+De header is essentieel, want deze wordt gebruikt als basis voor proof-of-work: in Bitcoin wordt niet direct een heel blok gemijnd, maar alleen de header van een blok, die de informatie samenvat die nodig is om het blok aan de keten te koppelen en de inhoud vast te leggen. Om de header in staat te stellen alle transacties te vertegenwoordigen, gebruikt Bitcoin een cryptografisch hulpmiddel: de [Merkle boom](https://planb.academy/resources/glossary/merkle-tree).
 
 
 
@@ -348,7 +348,7 @@ De header is essentieel, want deze wordt gebruikt als basis voor proof-of-work: 
 
 
 
-Het zou onmogelijk zijn om alle transacties in de header op te sommen: een blok kan duizenden transacties bevatten, terwijl de header een vaste grootte heeft (80 bytes). De oplossing is daarom om een unieke hash te berekenen die afhankelijk is van alle transacties in het blok: dit is de Merkle root.
+Het zou onmogelijk zijn om alle transacties in de header op te sommen: een blok kan duizenden transacties bevatten, terwijl de header een vaste grootte heeft (80 bytes). De oplossing is daarom om een unieke hash te berekenen die afhankelijk is van alle transacties in het blok: dit is de [Merkle root](https://planb.academy/resources/glossary/merkle-root).
 
 
 
@@ -371,7 +371,7 @@ Dus als een enkele transactie verandert, zelfs met een enkele bit, is het result
 
 
 
-Sinds SegWit hebben we de handtekeningen gescheiden van de rest. Dus in werkelijkheid zijn er 2 Merkle bomen genest in elk blok. Deze scheiding heeft gevolgen voor de manier waarop we de grootte van een blok tellen en voor bepaalde cryptografische vastleggingen, maar het basisidee blijft hetzelfde: de header moet op een compacte manier de hele inhoud van het blok vastleggen.
+Sinds [SegWit](https://planb.academy/resources/glossary/segwit) hebben we de handtekeningen gescheiden van de rest. Dus in werkelijkheid zijn er 2 Merkle bomen genest in elk blok. Deze scheiding heeft gevolgen voor de manier waarop we de grootte van een blok tellen en voor bepaalde cryptografische vastleggingen, maar het basisidee blijft hetzelfde: de header moet op een compacte manier de hele inhoud van het blok vastleggen.
 
 
 
@@ -402,19 +402,19 @@ De header van het blok is 80 bytes lang en bevat precies 6 velden. Het zijn deze
 
 
 
-- Tijdstempel: Dit is een tijdstempel (Unix-tijd) gekozen door de miner (met geldigheidsbeperkingen), die moet aangeven wanneer het blok werd gemined. Het hoeft niet tot op de seconde nauwkeurig te zijn, maar het moet aan bepaalde voorwaarden voldoen om acceptabel te blijven voor het netwerk.
+- [Tijdstempel](https://planb.academy/resources/glossary/timestamp): Dit is een tijdstempel (Unix-tijd) gekozen door de miner (met geldigheidsbeperkingen), die moet aangeven wanneer het blok werd gemined. Het hoeft niet tot op de seconde nauwkeurig te zijn, maar het moet aan bepaalde voorwaarden voldoen om acceptabel te blijven voor het netwerk.
 
 
 
 
 
-- Gecodeerd moeilijkheidsdoel (`nbits`): Dit veld codeert het huidige moeilijkheidsdoel. We zullen meer in detail treden in het hoofdstuk over moeilijkheid, maar onthoud dat deze parameter deel uitmaakt van de header.
+- Gecodeerd [moeilijkheidsdoel](https://planb.academy/resources/glossary/difficulty-target) (`nbits`): Dit veld codeert het huidige moeilijkheidsdoel. We zullen meer in detail treden in het hoofdstuk over moeilijkheid, maar onthoud dat deze parameter deel uitmaakt van de header.
 
 
 
 
 
-- Nonce (`nonce`): Dit is een waarde die de mijnwerker vrij kan aanpassen. Het dient als een instelbare variabele tijdens proof-of-work. Ik zal de rol in meer detail uitleggen in het volgende hoofdstuk, maar het is belangrijk om te begrijpen dat de nonce deel uitmaakt van de block header en ontworpen is om opeenvolgende pogingen mogelijk te maken.
+- [Nonce](https://planb.academy/resources/glossary/nonce) (`nonce`): Dit is een waarde die de mijnwerker vrij kan aanpassen. Het dient als een instelbare variabele tijdens proof-of-work. Ik zal de rol in meer detail uitleggen in het volgende hoofdstuk, maar het is belangrijk om te begrijpen dat de nonce deel uitmaakt van de block header en ontworpen is om opeenvolgende pogingen mogelijk te maken.
 
 
 
@@ -510,7 +510,7 @@ De hashfunctie is interessant in computersystemen omdat het bepaalde eigenschapp
 
 
 
-De hashfunctie gebruikt in Bitcoin voor mining is `SHA256`, twee keer achter elkaar toegepast. Dit staat bekend als dubbel SHA256, of `SHA256d`. Het is deze dubbele hashing die de vingerafdruk van het blok produceert.
+De hashfunctie gebruikt in Bitcoin voor mining is `SHA256`, twee keer achter elkaar toegepast. Dit staat bekend als dubbel [SHA256](https://planb.academy/resources/glossary/sha256), of `SHA256d`. Het is deze dubbele hashing die de vingerafdruk van het blok produceert.
 
 
 
@@ -618,7 +618,7 @@ Het mining proces is heel eenvoudig:
 
 
 
-In feite is de nonce niet het enige veld dat gewijzigd kan worden. Elke wijziging binnen de transacties van een blok resulteert in een wijziging van de stam van de Merkle boom, en dus een wijziging van de kop van dat blok. Met moderne rekenkracht kunnen de 4,29 miljard mogelijke waarden van de nonce relatief snel worden doorlopen. Daarom is er nog een veld, meestal aangeduid als "*extra-nonce*", dat de mogelijkheden voor headervariatie verder vermenigvuldigt. We zullen in een later hoofdstuk meer in detail op dit mechanisme terugkomen.
+In feite is de nonce niet het enige veld dat gewijzigd kan worden. Elke wijziging binnen de transacties van een blok resulteert in een wijziging van de stam van de Merkle boom, en dus een wijziging van de kop van dat blok. Met moderne rekenkracht kunnen de 4,29 miljard mogelijke waarden van de nonce relatief snel worden doorlopen. Daarom is er nog een veld, meestal aangeduid als "*[extra-nonce](https://planb.academy/resources/glossary/extra-nonce)*", dat de mogelijkheden voor headervariatie verder vermenigvuldigt. We zullen in een later hoofdstuk meer in detail op dit mechanisme terugkomen.
 
 
 
@@ -630,7 +630,7 @@ We noemen het "bewijs" omdat het resultaat onmiddellijk verifieerbaar is: zodra 
 
 
 
-In het Bitcoin witboek noemt Satoshi Nakamoto twee voordelen van het gebruik van een proof-of-work systeem in Bitcoin:
+In het Bitcoin [witboek](https://planb.academy/resources/glossary/white-paper) noemt Satoshi Nakamoto twee voordelen van het gebruik van een proof-of-work systeem in Bitcoin:
 
 
 
@@ -650,7 +650,7 @@ Met andere woorden, de proof-of-work dient als de ruggengraat van het tijdstempe
 
 
 
-- Definieer meerderheidsregel (consensus) en neutraliseer Sybil:**
+- Definieer meerderheidsregel ([consensus](https://planb.academy/resources/glossary/consensus)) en neutraliseer Sybil:**
 
 
 
@@ -658,7 +658,7 @@ Proof-of-Work stelt Bitcoin ook in staat om consensus te bereiken zonder te vert
 
 
 
-In Bitcoin is de "*meerderheid*" niet het grootste aantal deelnemers, maar de **keten die het meeste werk verzamelt**. Zoals Satoshi het zegt, is dit een "één CPU = één stem" principe, d.w.z. een stem gewogen door de werkelijke rekenkracht die wordt gebruikt om geldige blokken te produceren. Dus het inzetten van duizenden nodes levert geen voordeel op ten opzichte van Bitcoin. Zonder extra rekenkracht worden er geen werkbewijzen meer verzameld en wordt de Sybil-aanval nutteloos, terwijl de beslisregel objectief blijft en geen identificatie van deelnemers vereist.
+In Bitcoin is de "*meerderheid*" niet het grootste aantal deelnemers, maar de **keten die het meeste werk verzamelt**. Zoals Satoshi het zegt, is dit een "één CPU = één stem" principe, d.w.z. een stem gewogen door de werkelijke rekenkracht die wordt gebruikt om geldige blokken te produceren. Dus het inzetten van duizenden nodes levert geen voordeel op ten opzichte van Bitcoin. Zonder extra rekenkracht worden er geen werkbewijzen meer verzameld en wordt de [Sybil-aanval](https://planb.academy/resources/glossary/sybil-attack) nutteloos, terwijl de beslisregel objectief blijft en geen identificatie van deelnemers vereist.
 
 
 
@@ -689,7 +689,7 @@ In het volgende hoofdstuk maken we een korte historische omweg naar het proof-of
 
 
 
-Proof-of-work werd niet uitgevonden voor Bitcoin. Satoshi Nakamoto heeft verschillende oudere ideeën overgenomen en samengevoegd, die al in verschillende contexten waren onderzocht.
+Proof-of-work werd niet uitgevonden voor Bitcoin. [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) heeft verschillende oudere ideeën overgenomen en samengevoegd, die al in verschillende contexten waren onderzocht.
 
 
 
@@ -701,7 +701,7 @@ Eind jaren 1990 werd het probleem van e-mailspam groot. Als het versturen van ee
 
 
 
-Dit is het doel van Hashcash, voorgesteld door Adam Back in 1997, dat beschouwd wordt als de uitvinding van het proof-of-work principe. Het Hashcash principe lijkt erg op mining: produceer een hash die aan een voorwaarde voldoet (met een bepaald aantal nullen aan het begin van de hash). Het bewijs vergezelt dan het bericht en kan zeer snel geverifieerd worden door de ontvanger. Als een e-mail wordt ontvangen die dit bewijs niet bevat, kan deze onmiddellijk als spam worden beschouwd en dus worden gefilterd. Spammers zijn dan gedwongen om een aanzienlijke hoeveelheid energie te steken in het verzenden van miljoenen berichten, wat de winstgevendheid van dit soort operaties, of het nu gaat om marketing of fraude, drastisch vermindert (of zelfs helemaal teniet doet).
+Dit is het doel van [Hashcash](https://planb.academy/resources/glossary/hashcash), voorgesteld door Adam Back in 1997, dat beschouwd wordt als de uitvinding van het proof-of-work principe. Het Hashcash principe lijkt erg op mining: produceer een hash die aan een voorwaarde voldoet (met een bepaald aantal nullen aan het begin van de hash). Het bewijs vergezelt dan het bericht en kan zeer snel geverifieerd worden door de ontvanger. Als een e-mail wordt ontvangen die dit bewijs niet bevat, kan deze onmiddellijk als spam worden beschouwd en dus worden gefilterd. Spammers zijn dan gedwongen om een aanzienlijke hoeveelheid energie te steken in het verzenden van miljoenen berichten, wat de winstgevendheid van dit soort operaties, of het nu gaat om marketing of fraude, drastisch vermindert (of zelfs helemaal teniet doet).
 
 
 
@@ -792,7 +792,7 @@ Als tijdens deze verspreidingsvertraging een andere mijnwerker ook een geldig bl
 
 
 
-Deze verdeeldheid is niet catastrofaal. De Nakamoto consensus voorspelt dat op de lange termijn slechts één tak zal overheersen: degene die het meeste werk verzamelt. Zodra er bijvoorbeeld een nieuw blok wordt gedolven bovenop blok A, zal het hele netwerk opnieuw synchroniseren op deze tak en blok B verlaten, dat dan een "*stale blok*" wordt, in het dagelijks taalgebruik soms ten onrechte een "*orphan blok*" genoemd.
+Deze verdeeldheid is niet catastrofaal. De Nakamoto consensus voorspelt dat op de lange termijn slechts één tak zal overheersen: degene die het meeste werk verzamelt. Zodra er bijvoorbeeld een nieuw blok wordt gedolven bovenop blok A, zal het hele netwerk opnieuw synchroniseren op deze tak en blok B verlaten, dat dan een "*[stale blok](https://planb.academy/resources/glossary/stale-block)*" wordt, in het dagelijks taalgebruik soms ten onrechte een "*orphan blok*" genoemd.
 
 
 
@@ -812,7 +812,7 @@ Het interval van 10 minuten geeft het winnende blok over het algemeen genoeg tij
 
 
 
-*"Hashrate*" verwijst naar de hoeveelheid hashberekeningen die per seconde geproduceerd worden, door een enkele mijnwerker, een groep mijnwerkers of alle mijnwerkers in Bitcoin. Het wordt uitgedrukt in `H/s` (hashes per seconde), met veelvouden als `TH/s` (terahashes per seconde) of `EH/s` (exahashes per seconde). Dit staat voor het aantal pogingen dat miners per seconde kunnen doen om te proberen een hash te krijgen die lager is dan het doel.
+*"[Hashrate](https://planb.academy/resources/glossary/hashrate)*" verwijst naar de hoeveelheid hashberekeningen die per seconde geproduceerd worden, door een enkele mijnwerker, een groep mijnwerkers of alle mijnwerkers in Bitcoin. Het wordt uitgedrukt in `H/s` (hashes per seconde), met veelvouden als `TH/s` (terahashes per seconde) of `EH/s` (exahashes per seconde). Dit staat voor het aantal pogingen dat miners per seconde kunnen doen om te proberen een hash te krijgen die lager is dan het doel.
 
 
 
@@ -905,7 +905,7 @@ Met:
 - `**To = 18.045.755.102**`: Oud doel, d.w.z. de referentiewaarde vóór aanpassing.
 - `**ta = 1.000.000 seconden**`: Tijd die daadwerkelijk is besteed aan het produceren van de laatste 2016 blokken. Aangezien deze tijd minder is dan de doeltijd, heeft het netwerk te snel gemined.
 - `**1.209.600 seconden**`: Richttijd die overeenkomt met 10 minuten per blok voor blokken van 2016, gebruikt als referentie voor aanpassing.
-- `**tn = 14.918.779.020**`: Nieuw doel berekend na moeilijkheidsaanpassing.
+- `**tn = 14.918.779.020**`: Nieuw doel berekend na [moeilijkheidsaanpassing](https://planb.academy/resources/glossary/difficulty-adjustment).
 
 
 
@@ -959,7 +959,7 @@ Deze logica is gebaseerd op speltheorie: het protocol maakt eerlijkheid rationee
 
 
 
-Om dit te bereiken, bepaalt het Bitcoin protocol dat de miner die een geldig blok vindt, het recht wint om er een bepaalde transactie in op te nemen, waardoor de miner een bepaalde som BTC krijgt. Dit staat bekend als **blokbeloning**. In dit eerste hoofdstuk is het de bedoeling om te begrijpen waaruit het bestaat en hoe het wordt bepaald. Later zullen we zien hoe het geldscheppingsgedeelte in de loop van de tijd evolueert (met halvings) en hoe het eigenlijk technisch wordt geïnd (via de coinbase transactie).
+Om dit te bereiken, bepaalt het Bitcoin protocol dat de miner die een geldig blok vindt, het recht wint om er een bepaalde transactie in op te nemen, waardoor de miner een bepaalde som BTC krijgt. Dit staat bekend als **[blokbeloning](https://planb.academy/resources/glossary/block-reward)**. In dit eerste hoofdstuk is het de bedoeling om te begrijpen waaruit het bestaat en hoe het wordt bepaald. Later zullen we zien hoe het geldscheppingsgedeelte in de loop van de tijd evolueert (met halvings) en hoe het eigenlijk technisch wordt geïnd (via de coinbase transactie).
 
 
 
@@ -976,7 +976,7 @@ Het is precies deze gebeurtenis (de eigenlijke toevoeging van het blok aan de bl
 
 
 
-- bloksubsidie**;
+- [bloksubsidie](https://planb.academy/resources/glossary/block-subsidy)**;
 - transactiekosten**.
 
 
@@ -1091,7 +1091,7 @@ Twee transacties kunnen daarom in absolute zin hetzelfde bedrag aan vergoedingen
 
 
 
-Daarom drukken we in de praktijk het concurrentievermogen van een transactie uit met een vergoedingsratio, meestal in `sats/vB` (satoshis per virtuele byte). Het berekenen van deze verhouding is eenvoudig:
+Daarom drukken we in de praktijk het concurrentievermogen van een transactie uit met een vergoedingsratio, meestal in `sats/vB` ([satoshis](https://planb.academy/resources/glossary/satoshi-sat) per virtuele byte). Het berekenen van deze verhouding is eenvoudig:
 
 
 
@@ -1142,7 +1142,7 @@ In het volgende hoofdstuk gaan we dieper in op de bloksubsidie, om precies te be
 
 
 
-In het vorige hoofdstuk zagen we dat miners die een geldig blok produceren een beloning ontvangen die bestaat uit de vergoedingen voor de transacties in het blok, plus een blokkensubsidie. We hebben echter nog niet uitgelegd hoe het bedrag van deze subsidie wordt bepaald. Het mechanisme dat deze waarde bepaalt en evolueert staat bekend als ***halving***.
+In het vorige hoofdstuk zagen we dat miners die een geldig blok produceren een beloning ontvangen die bestaat uit de vergoedingen voor de transacties in het blok, plus een blokkensubsidie. We hebben echter nog niet uitgelegd hoe het bedrag van deze subsidie wordt bepaald. Het mechanisme dat deze waarde bepaalt en evolueert staat bekend als ***[halving](https://planb.academy/resources/glossary/halving)***.
 
 
 
@@ -1251,7 +1251,7 @@ De belangrijkste reden is mechanisch. Door opeenvolgende halvingen valt de bloks
 
 
 
-Daarnaast kunnen marginale protocolgerelateerde afwijkingen hier ook aan bijdragen. In zeldzame gevallen kan het bijvoorbeeld voorkomen dat sommige miners niet hun volledige subsidie hebben geclaimd, waardoor de hoeveelheid Bitcoins die daadwerkelijk zijn uitgegeven definitief afneemt. We kunnen ook het genesisblok noemen, geproduceerd door Satoshi op 3 januari 2009, waarvan de gecreëerde bitcoins geen deel uitmaken van UTXO set, evenals bepaalde historische gebeurtenissen die zijn gekoppeld aan bugs, zoals dubbele coinbase transactie-identifiers.
+Daarnaast kunnen marginale protocolgerelateerde afwijkingen hier ook aan bijdragen. In zeldzame gevallen kan het bijvoorbeeld voorkomen dat sommige miners niet hun volledige subsidie hebben geclaimd, waardoor de hoeveelheid Bitcoins die daadwerkelijk zijn uitgegeven definitief afneemt. We kunnen ook het [genesisblok](https://planb.academy/resources/glossary/genesis-block) noemen, geproduceerd door Satoshi op 3 januari 2009, waarvan de gecreëerde bitcoins geen deel uitmaken van [UTXO set](https://planb.academy/resources/glossary/utxo-set), evenals bepaalde historische gebeurtenissen die zijn gekoppeld aan bugs, zoals dubbele coinbase transactie-identifiers.
 
 
 
@@ -1295,7 +1295,7 @@ Er blijft echter één vraag over: via welk mechanisme int de miner deze belonin
 
 
 
-Zoals we in het eerste deel van de cursus zagen, bevat elk Bitcoin blok een lijst van transacties die het zal bevestigen. De allereerste is altijd de coinbase transactie. Hiermee kan de winnende miner zijn beloning ontvangen.
+Zoals we in het eerste deel van de cursus zagen, bevat elk Bitcoin blok een lijst van transacties die het zal bevestigen. De allereerste is altijd de [coinbase transactie](https://planb.academy/resources/glossary/coinbase-transaction). Hiermee kan de winnende miner zijn beloning ontvangen.
 
 
 
@@ -1303,7 +1303,7 @@ Zoals we in het eerste deel van de cursus zagen, bevat elk Bitcoin blok een lijs
 
 
 
-Op het eerste gezicht lijkt het een klassieke Bitcoin transactie: het heeft een TXID, output en is opgenomen in de Merkle tree van het blok. Ze verschilt echter in één belangrijk opzicht: ze geeft geen bestaande UTXO uit.
+Op het eerste gezicht lijkt het een klassieke Bitcoin transactie: het heeft een [TXID](https://planb.academy/resources/glossary/txid-transaction-identifier), output en is opgenomen in de Merkle tree van het blok. Ze verschilt echter in één belangrijk opzicht: ze geeft geen bestaande UTXO uit.
 
 
 
@@ -1402,7 +1402,7 @@ In de loop der tijd is de coinbase transactie een bijzonder handig invoegpunt ge
 
 
 
-BIP-34 is een fork soft die in maart 2013 werd ingezet, beginnend met blok 227.930, dat versie 2 van Bitcoin blokken introduceerde. Deze nieuwe versie vereist dat elk blok, in de `scriptSig` van de coinbase transactie, de hoogte van het blok dat wordt aangemaakt bevat.
+[BIP-34](https://planb.academy/resources/glossary/bip0034) is een fork soft die in maart 2013 werd ingezet, beginnend met blok 227.930, dat versie 2 van Bitcoin blokken introduceerde. Deze nieuwe versie vereist dat elk blok, in de `scriptSig` van de coinbase transactie, de hoogte van het blok dat wordt aangemaakt bevat.
 
 
 
@@ -1454,7 +1454,7 @@ Om operationele redenen gebruiken mining pools ook het vrije veld van de `script
 
 
 
-Sinds de SegWit zachte fork in 2017 werd ingeschakeld, zijn de getuigegegevens (d.w.z. over het algemeen handtekeningen) gescheiden van de transactiestamgegevens, met name om het probleem van de vervormbaarheid van Bitcoin transacties te corrigeren. Deze scheiding introduceert daarom een nieuw element dat in het blok moet worden vastgelegd.
+Sinds de SegWit zachte fork in 2017 werd ingeschakeld, zijn de getuigegegevens (d.w.z. over het algemeen handtekeningen) gescheiden van de transactiestamgegevens, met name om het probleem van de [vervormbaarheid van Bitcoin transacties](https://planb.academy/resources/glossary/malleability-transaction) te corrigeren. Deze scheiding introduceert daarom een nieuw element dat in het blok moet worden vastgelegd.
 
 
 
@@ -1500,7 +1500,7 @@ Dit bericht, dat aanwezig is in het Genesis blok (het allereerste blok van Bitco
 ### De looptijd
 
 
-Zodra het blok gemined en gedistribueerd is, verschijnt de coinbase transactie op de blockchain zoals elke andere transactie. Het creëert UTXO's voor de winnende miner, zodat hij zijn beloning kan innen. Deze UTXO's zijn echter niet onmiddellijk besteedbaar: ze zijn onderhevig aan een looptijd. Deze looptijd is vastgesteld op 100 blokken na het blok dat de coinbase bevat. Concreet moet de coinbase transactie dus 101 bevestigingen hebben om door de winnende miner uitgegeven te kunnen worden.
+Zodra het blok gemined en gedistribueerd is, verschijnt de coinbase transactie op de blockchain zoals elke andere transactie. Het creëert UTXO's voor de winnende miner, zodat hij zijn beloning kan innen. Deze UTXO's zijn echter niet onmiddellijk besteedbaar: ze zijn onderhevig aan een [looptijd](https://planb.academy/resources/glossary/maturity-period). Deze looptijd is vastgesteld op 100 blokken na het blok dat de coinbase bevat. Concreet moet de coinbase transactie dus 101 bevestigingen hebben om door de winnende miner uitgegeven te kunnen worden.
 
 
 ![Image](assets/fr/040.webp)
@@ -1615,7 +1615,7 @@ Op dat moment begon de moeilijkheidsgraad van mining te exploderen. Tussen medio
 
 
 
-Tussen het GPU tijdperk en het moderne ASIC tijdperk was er een tussenfase: het gebruik van FPGA's. Een FPGA is een herprogrammeerbaar component: het kan worden geconfigureerd om direct een logische schakeling te implementeren die is toegewijd aan een bepaalde berekening, in dit geval `SHA256d`. Het idee was om nog verder weg te gaan van de algemene hardware (CPU/GPU) om energiezuiniger te worden. Maar al snel zouden de verbeteringen die virtueel op FPGA's zijn aangebracht fysiek worden toegepast op de chips zelf: dat is de komst van ASIC.
+Tussen het GPU tijdperk en het moderne [ASIC](https://planb.academy/resources/glossary/asic) tijdperk was er een tussenfase: het gebruik van FPGA's. Een FPGA is een herprogrammeerbaar component: het kan worden geconfigureerd om direct een logische schakeling te implementeren die is toegewijd aan een bepaalde berekening, in dit geval `SHA256d`. Het idee was om nog verder weg te gaan van de algemene hardware (CPU/GPU) om energiezuiniger te worden. Maar al snel zouden de verbeteringen die virtueel op FPGA's zijn aangebracht fysiek worden toegepast op de chips zelf: dat is de komst van ASIC.
 
 
 
@@ -1667,7 +1667,7 @@ Een geïsoleerde machine kan mijnen, maar door honderden, later duizenden ASIC's
 
 
 
-Een mining farm, in zijn eenvoudigste vorm, is een gebouw (of verzameling containers) gevuld met ASIC's die 24/7 draaien. De uitdaging is nu om stabiele bedrijfsomstandigheden te handhaven:
+Een [mining farm](https://planb.academy/resources/glossary/mining-farm), in zijn eenvoudigste vorm, is een gebouw (of verzameling containers) gevuld met ASIC's die 24/7 draaien. De uitdaging is nu om stabiele bedrijfsomstandigheden te handhaven:
 
 
 
@@ -1724,7 +1724,7 @@ https://planb.academy/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-
 
 
 
-Mining Bitcoin brengt lopende en onvermijdelijke kosten met zich mee, waarvan het stroomverbruik van de machine de belangrijkste is. Deze kosten worden onafhankelijk van de resultaten gemaakt, ook al zijn de inkomsten uit mining van nature zeldzaam en willekeurig. De ontdekking van een blok hangt uitsluitend af van het aandeel van de mijnwerker in hashrate, wat de inkomsten des te onvoorspelbaarder maakt naarmate dat aandeel kleiner is. Het is precies dit praktische probleem dat snel leidde tot het wijdverspreide gebruik van mining pools. In dit laatste hoofdstuk van de MIN 101 cursus geef ik een introductie tot de principes en werking van mining pools in Bitcoin.
+Mining Bitcoin brengt lopende en onvermijdelijke kosten met zich mee, waarvan het stroomverbruik van de machine de belangrijkste is. Deze kosten worden onafhankelijk van de resultaten gemaakt, ook al zijn de inkomsten uit mining van nature zeldzaam en willekeurig. De ontdekking van een blok hangt uitsluitend af van het aandeel van de mijnwerker in hashrate, wat de inkomsten des te onvoorspelbaarder maakt naarmate dat aandeel kleiner is. Het is precies dit praktische probleem dat snel leidde tot het wijdverspreide gebruik van [mining pools](https://planb.academy/resources/glossary/pool-mining). In dit laatste hoofdstuk van de MIN 101 cursus geef ik een introductie tot de principes en werking van mining pools in Bitcoin.
 
 
 
@@ -1736,7 +1736,7 @@ Een mining pool is een organisatie (vaak een online dienst) die de rekenkracht v
 
 
 
-Deelnemers aan een mining pool worden dan vaak "hashers" genoemd, in plaats van "miners", omdat ze niet langer al het mining werk uitvoeren, maar alleen de gegevens hashen die hen door de pool worden doorgegeven.
+Deelnemers aan een mining pool worden dan vaak "[hashers](https://planb.academy/resources/glossary/hasher)" genoemd, in plaats van "miners", omdat ze niet langer al het mining werk uitvoeren, maar alleen de gegevens hashen die hen door de pool worden doorgegeven.
 
 
 
@@ -1807,7 +1807,7 @@ De eerste pools ontstonden precies als antwoord op deze nieuwe realiteit. Braiin
 
 
 
-Aan de technische kant werden pools vervolgens gestructureerd rond gespecialiseerde communicatieprotocollen tussen de pool en de miners (bijv. Stratum, daarna Stratum V2), om gedistribueerd werk efficiënt te orkestreren. We gaan dieper in op deze concepten in onze MIN 201 training.
+Aan de technische kant werden pools vervolgens gestructureerd rond gespecialiseerde communicatieprotocollen tussen de pool en de miners (bijv. [Stratum](https://planb.academy/resources/glossary/stratum), daarna Stratum V2), om gedistribueerd werk efficiënt te orkestreren. We gaan dieper in op deze concepten in onze MIN 201 training.
 
 
 

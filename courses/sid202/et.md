@@ -57,9 +57,9 @@ Oled valmis avastama Elements'i ja Liquid sidechain'i potentsiaali? Alustame!
 
 :::video id=eae666b4-eddc-4e00-adea-2a5f94396044:::
 
-Elements on avatud lähtekoodiga, sidechain-võimeline plokiahela platvorm, mis pakub juurdepääsu kogukonna liikmete poolt välja töötatud võimsatele funktsioonidele, nagu Confidential Transactions ja Issued Assets.
+Elements on avatud lähtekoodiga, sidechain-võimeline [plokiahela](https://planb.academy/resources/glossary/blockchain) platvorm, mis pakub juurdepääsu kogukonna liikmete poolt välja töötatud võimsatele funktsioonidele, nagu Confidential Transactions ja Issued Assets.
 
-Elements on oma põhiolemuselt protokoll, mis võimaldab konsensuse saavutamist tehinguajaloo ja reeglite ümber, mis reguleerivad jaotatud plokiahela pearaamatusse salvestatud varade ülekandmist ja loomist.
+Elements on oma põhiolemuselt protokoll, mis võimaldab [konsensuse](https://planb.academy/resources/glossary/consensus) saavutamist [tehinguajaloo](https://planb.academy/resources/glossary/transaction-tx) ja reeglite ümber, mis reguleerivad jaotatud plokiahela pearaamatusse salvestatud varade ülekandmist ja loomist.
 
 Rohkem taustateavet Elements'i kohta leiate hõlpsasti Elements Project'i veebisaidilt (https://elementsproject.org/), ametlikust Liquid'i blogist (https://blog.liquid.net/) ja arendajaportaalist(https://liquid.net/devs).
 
@@ -85,7 +85,7 @@ Elements on üldotstarbeline plokiahelaplatvorm, mida saab ka olemasoleva plokia
 
 #### Allkirjastatud plokid
 
-Elements kasutab tugevat allkirjastajate föderatsiooni, mida nimetatakse plokkide allkirjastajateks, kes allkirjastavad ja loovad plokke usaldusväärselt ja õigeaegselt. See kõrvaldab PoW-kaevandamise protsessi tehinguviivituse, mis on juhusliku poissoni jaotuse tõttu suures plokkide ajavarieeruvuses. Liitplokkide allkirjastamise protsessiga saavutatakse usaldusväärne plokkide loomine, ilma et oleks vaja kolmanda osapoole usaldust või arvutuslikul "algoritmil" põhinevat kaevandamist.
+Elements kasutab tugevat allkirjastajate föderatsiooni, mida nimetatakse plokkide allkirjastajateks, kes allkirjastavad ja loovad [plokke](https://planb.academy/resources/glossary/block) usaldusväärselt ja õigeaegselt. See kõrvaldab PoW-kaevandamise protsessi tehinguviivituse, mis on juhusliku poissoni jaotuse tõttu suures plokkide ajavarieeruvuses. Liitplokkide allkirjastamise protsessiga saavutatakse usaldusväärne plokkide loomine, ilma et oleks vaja kolmanda osapoole usaldust või arvutuslikul "algoritmil" põhinevat kaevandamist.
 
 Elements lisab kõik need funktsioonid Bitcoin Core'i koodibaasi peale, laiendades peahela protokolli võimekust ja võimaldades uusi ärilisi kasutusjuhtumeid, kui neid kasutatakse kõrvalahela või iseseisva plokiahela lahendusena.
 
@@ -99,7 +99,7 @@ Elements lisab kõik need funktsioonid Bitcoin Core'i koodibaasi peale, laiendad
 
 :::video id=7c8c7981-11e5-47a2-a257-ef998f4892f5:::
 
-Elements pakub tehnilise lahenduse probleemidele, millega plokiahela kasutajad igapäevaselt silmitsi seisavad: tehingute hilinemine, privaatsuse puudumine ja asendatavuse oht.
+Elements pakub tehnilise lahenduse probleemidele, millega plokiahela kasutajad igapäevaselt silmitsi seisavad: tehingute hilinemine, privaatsuse puudumine ja [asendatavuse](https://planb.academy/resources/glossary/fungibility) oht.
 
 Elements lahendab need probleemid föderaalse plokkallkirjastamise ja konfidentsiaalsete tehingute kasutamise abil.
 
@@ -123,7 +123,7 @@ Tugeva föderatsiooni liikme tegevused on jagatud kahe erineva rolli vahel, et s
 
 Kombineerituna võimaldab nende osalejate roll Elementsil pakkuda nii kiiret plokkide loomist (kiirem ja lõplik tehingu kinnitamine) kui ka tagatud, ülekantavaid varasid (teise plokiahelaga otseselt seostatavad varad).
 
-Saate lugeda Strong Federations valge paber siin: https://blockstream.com/strong-federations.pdf
+Saate lugeda Strong Federations [valge paber](https://planb.academy/resources/glossary/white-paper) siin: https://blockstream.com/strong-federations.pdf
 
 ### Blokeeri allakirjutajad
 
@@ -150,7 +150,7 @@ Selleks, et külgahela toimiks usaldusväärselt, peab see võimaldama osalejate
 
 Federated 2-way Peg funktsioon võimaldab vara olla koostalitlusvõimeline teiste plokiahelate ja esindab teise plokiahela algupärast vara. Oma plokiahelat teise plokiahelaga sidudes saate laiendada põhiahelate võimalusi ja ületada mõned selle loomupärased piirangud.
 
-Kõrgetasemeliselt toimuvad ülekanded sidechaini, kui keegi saadab põhiahelas olevad varad aadressile, mida kontrollib mitme allkirjaga Watchmeni rahakott. See külmutab sisuliselt varad peahelas. Watchmen valideerib seejärel tehingu ja vabastab sama summa seotud vara sidechainis. Vabastatud varad saadetakse sidechaini rahakotti, mis suudab tõestada, et on õigus algsetele mainchaini varadele. See protsess liigutab varad tegelikult emaahelast kõrvalahelasse.
+Kõrgetasemeliselt toimuvad ülekanded sidechaini, kui keegi saadab põhiahelas olevad varad aadressile, mida kontrollib mitme allkirjaga Watchmeni [rahakott](https://planb.academy/resources/glossary/wallet). See külmutab sisuliselt varad peahelas. Watchmen valideerib seejärel tehingu ja vabastab sama summa seotud vara sidechainis. Vabastatud varad saadetakse sidechaini rahakotti, mis suudab tõestada, et on õigus algsetele mainchaini varadele. See protsess liigutab varad tegelikult emaahelast kõrvalahelasse.
 
 Selleks, et kanda varasid tagasi peahelasse, teeb kasutaja spetsiaalse peg-out-tehingu sidechainis. Seda tehingut kontrollivad valvurid, kes seejärel allkirjastavad tehingu kulutused nende poolt kontrollitavast mitme allkirjaga rahakotist peahelas. Enne kui peahela tehing muutub kehtivaks, peab alla kirjutama künnise võrra rohkem osalejaid föderatsioonis. Kui valvurid saadavad vara tagasi peahelasse, hävitavad nad ka vastava summa sidechainis, viies seega vara tegelikult plokiahelate vahel üle.
 
@@ -162,7 +162,7 @@ Selleks, et kanda varasid tagasi peahelasse, teeb kasutaja spetsiaalse peg-out-t
 
 Kuna Elements põhineb Bitcoini koodibaasil, on toimiva võrgu komponendid väga sarnased.
 
-Elements node'i tarkvara ise kannab nime `elementsd` ja see töötab kasutaja masinas deemonina. Daemon (või teenus Windowsis) on programm, mis töötab taustateenusena ilma sisselogitud kasutaja otsese kontrollimiseta.
+Elements [node'i](https://planb.academy/resources/glossary/node) tarkvara ise kannab nime `elementsd` ja see töötab kasutaja masinas deemonina. Daemon (või teenus Windowsis) on programm, mis töötab taustateenusena ilma sisselogitud kasutaja otsese kontrollimiseta.
 
 Märkus: Kogu käesolevas dokumendis viidatakse elementsd-le alati kui daemon-versioonile, kuid kõike saab teha ka elements-qt-ga, tingimusel, et serveri valik on lubatud.
 
@@ -196,8 +196,8 @@ Mõningaid asju saab nende parameetrite abil muuta:
 - Vara, mida kasutatakse tehingutasude maksmisel võrgus.
 - Plokiahela andmefailide salvestuskoht.
 - RPC-volitused, mida kasutatakse Bitcoini sõlme ühendamiseks.
-- Künnis "n m", mida tuleb täita, ja kehtivad avalikud võtmed, mis võivad plokke allkirjastada.
-- Skript, mis vajab rahuldamist, et kanda varasid sidechaini sisse ja sealt välja.
+- Künnis "n m", mida tuleb täita, ja kehtivad [avalikud võtmed](https://planb.academy/resources/glossary/public-key), mis võivad plokke allkirjastada.
+- [Skript](https://planb.academy/resources/glossary/script), mis vajab rahuldamist, et kanda varasid sidechaini sisse ja sealt välja.
 - Kas ühendada Bitcoini sõlme külgahelana või mitte.
 
 Paljud neist moodustavad osa võrgu konsensusreeglitest, seega on oluline, et neid rakendataks käivitamisel kõigis sõlmedes. Mõnda saab muuta pärast ahela initsialiseerimist, kuid mõned tuleb fikseerida pärast nende kasutamist ahela initsialiseerimiseks.
@@ -301,7 +301,7 @@ See tagastab töötlemata tehingu üksikasjad. Kui te vaatate vout sektsiooni se
 
 Esimesed kaks vout-osa näitavad väärtuse summade "pimendatud vahemikke" ja kulukohustuste andmeid, mis on tõendiks tegeliku tehingu summa ja vara liigi kohta.
 
-Isegi kui me impordiksime e2 privaatvõtme e1-i rahakotti, ei saaks ta ikkagi näha tehtavate tehingute summasid ja varade tüüpi, sest tal ei ole endiselt teadmisi e2-i kasutatavast pimendavast võtmest. Tõestame seda, importides e2 rahakoti kasutatava privaatvõtme e1 rahakotti. Kõigepealt peame eksportima võtme e2-st
+Isegi kui me impordiksime e2 [privaatvõtme](https://planb.academy/resources/glossary/private-key) e1-i rahakotti, ei saaks ta ikkagi näha tehtavate tehingute summasid ja varade tüüpi, sest tal ei ole endiselt teadmisi e2-i kasutatavast pimendavast võtmest. Tõestame seda, importides e2 rahakoti kasutatava privaatvõtme e1 rahakotti. Kõigepealt peame eksportima võtme e2-st
 
 ```
 e2-cli dumpprivkey <address>
@@ -361,7 +361,7 @@ Väljaantud vara saab samuti kasu konfidentsiaalsetest tehingutest ja neid saab 
 
 Esimese sammuna vajame ligipääsu kahele elemendisõlmele, mida nimetame e1 ja e2. Nende sõlmede plokiahelad on nullistatud ja vaikimisi vara nende vahel jagatud.
 
-Need kaks sõlme asuvad samas kohalikus võrgus ja on omavahel ühendatud ning seetõttu jagavad samu tehinguid oma tehingumempoolis ja identsed plokiahelad. Kuigi nad töötavad samas masinas, tasub märkida, et nad ei jaga samu tegelikke plokiahelafaile. Iga sõlm haldab oma plokiahela kohalikku koopiat, mis sisaldab sama tehingulugu, sest nad on konsensuses ja järgivad üksteisega samu protokollireegleid.
+Need kaks sõlme asuvad samas kohalikus võrgus ja on omavahel ühendatud ning seetõttu jagavad samu tehinguid oma [tehingumempoolis](https://planb.academy/resources/glossary/mempool) ja identsed plokiahelad. Kuigi nad töötavad samas masinas, tasub märkida, et nad ei jaga samu tegelikke plokiahelafaile. Iga sõlm haldab oma plokiahela kohalikku koopiat, mis sisaldab sama tehingulugu, sest nad on konsensuses ja järgivad üksteisega samu protokollireegleid.
 
 Alustame sellega, et kontrollime iga sõlme vaadet olemasolevatele varade emissioonidele võrgus.
 
@@ -892,7 +892,7 @@ e1-cli importprivkey <priv-key-1>
 e2-cli importprivkey <priv-key-1>
 ```
 
-Nüüd tuleb meil mõlemas ahelas mõned plokid küpseks teha. Plokkide küpsemine on peg-protsessi nõue, kuna see kaitseb plokkide reorganiseerimise eest peahelas, mis toob kaasa pegitud varade pakkumise inflatsiooni kõrvalahelas.
+Nüüd tuleb meil mõlemas ahelas mõned plokid küpseks teha. Plokkide küpsemine on peg-protsessi nõue, kuna see kaitseb plokkide reorganiseerimise eest peahelas, mis toob kaasa pegitud varade pakkumise [inflatsiooni](https://planb.academy/resources/glossary/inflation) kõrvalahelas.
 
 Et see osa keskenduks föderatiivsele pegile, genereerime plokke ilma plokkide allkirjastamise mudelita, mida vaatasime eelmises osas, ja pöördume tagasi käsu 'generate' kasutamise juurde, et luua uusi plokke.
 
@@ -1016,7 +1016,7 @@ Selles jaotises nägime, kuidas:
 
 ### FederatedPegScript
 
-Selleks, et Elements saaks töötada sidechainina, peab selle plokiahela genesis plokk olema loodud koos `fedpegscript`iga. Seda tehakse, andes sõlme käivitamisel parameetri `fedpegscript`. Seejärel moodustab skript osa Elements blockchaini konsensusreeglitest ning võimaldab peg-in ja peg-out taotluste valideerimist ja täitmist.
+Selleks, et Elements saaks töötada sidechainina, peab selle plokiahela [genesis plokk](https://planb.academy/resources/glossary/genesis-block) olema loodud koos `fedpegscript`iga. Seda tehakse, andes sõlme käivitamisel parameetri `fedpegscript`. Seejärel moodustab skript osa Elements blockchaini konsensusreeglitest ning võimaldab peg-in ja peg-out taotluste valideerimist ja täitmist.
 
 `fedpegscript` koosneb avalikest võtmetest, mida kontrollivad need, kellel on õigus teha peg-toiminguid. Järgnevalt on näidisvorming 2-of-2 mitme allkirjaga fedpegscript:
 

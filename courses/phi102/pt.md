@@ -1117,7 +1117,7 @@ Na lógica da dominação política, o dinheiro deixa de ser uma mercadoria ou u
 
 
 
-Já na Idade Média, Nicolas Oresme analisou os efeitos nocivos da manipulação monetária no comércio. As diminuições monetárias produzem inflação e desestabilizam os preços, uma vez que o sinal monetário se torna incerto quando o mestre das medidas de valor pode alterar arbitrariamente o seu conteúdo. O próprio dinheiro metálico não passava muitas vezes de uma ilusão, com moedas contendo ligas de baixo valor a que alguns escritores liberais do século XIX se referiam como assignats de cobre.
+Já na Idade Média, Nicolas Oresme analisou os efeitos nocivos da manipulação monetária no comércio. As diminuições monetárias produzem [inflação](https://planb.academy/resources/glossary/inflation) e desestabilizam os preços, uma vez que o sinal monetário se torna incerto quando o mestre das medidas de valor pode alterar arbitrariamente o seu conteúdo. O próprio dinheiro metálico não passava muitas vezes de uma ilusão, com moedas contendo ligas de baixo valor a que alguns escritores liberais do século XIX se referiam como assignats de cobre.
 
 
 

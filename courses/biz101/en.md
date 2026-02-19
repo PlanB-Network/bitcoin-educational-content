@@ -34,8 +34,6 @@ Whether you represent a small enterprise or a large corporation, this course aim
 
 Ready to dive into the world of Bitcoin for businesses? Let's go!
 
-**N.B.**: If you come across any unfamiliar terms during the course, please consult [the glossary](https://planb.academy/resources/glossary) for definitions.
-
 # Currency, payment systems, and Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>
@@ -65,7 +63,7 @@ A good currency possesses several essential properties that make it effective fo
 
 - **Secure**: A currency must be protected against theft or unauthorized access, ensuring users can hold and transfer it with confidence. Security is critical for building trust in the system.
 
-- **Counterfeit-Proof**: A currency must be extremely difficult or impossible to counterfeit. This ensures every unit is authentic, maintains its value, and prevents inflation caused by fake units entering circulation. For example, historically, gold has been valued not only for its beauty and rarity, but also because it’s extremely hard to produce. Unlike paper notes or digital entries, you can’t just “make” gold—it must be mined from the earth. This natural scarcity and difficulty of production have helped gold maintain its status as a trusted store of value and a benchmark for authenticity.
+- **Counterfeit-Proof**: A currency must be extremely difficult or impossible to counterfeit. This ensures every unit is authentic, maintains its value, and prevents [inflation](https://planb.academy/resources/glossary/inflation) caused by fake units entering circulation. For example, historically, gold has been valued not only for its beauty and rarity, but also because it’s extremely hard to produce. Unlike paper notes or digital entries, you can’t just “make” gold—it must be mined from the earth. This natural scarcity and difficulty of production have helped gold maintain its status as a trusted store of value and a benchmark for authenticity.
 
 - **Scarce**: A good currency must have a limited supply or controlled issuance. Scarcity ensures that its value is preserved over time, preventing overproduction, which would erode purchasing power. For instance, certain Native American tribes used beads as a form of currency. Initially, these beads were difficult to produce, which maintained their scarcity and value. However, once European traders began mass-producing and flooding the market with beads, their rarity vanished. As the supply soared, the beads lost their purchasing power, undermining their role as a reliable store of value.
 
@@ -73,7 +71,7 @@ A good currency possesses several essential properties that make it effective fo
 
 In the modern era, currencies became fully permissioned under the seigniorage system, meaning only authorized entities—such as central banks or treasuries—could mint coins or print banknotes. Individuals are no longer legally permitted to produce currency, ensuring centralized control over its issuance and supply.
 
-Today, the principle of seigniorage is being challenged by the Bitcoin cryptocurrency, which operates without centralized control. Bitcoin is a "permissionless" system, where anyone can participate in using the currency without permission and contribute to its creation through the mining process. This decentralization removes the monopoly of issuance from governments, raising questions about a potential return to free-market competitive currency systems.
+Today, the principle of seigniorage is being challenged by the Bitcoin [cryptocurrency](https://planb.academy/resources/glossary/cryptocurrency), which operates without centralized control. Bitcoin is a "permissionless" system, where anyone can participate in using the currency without permission and contribute to its creation through the [mining](https://planb.academy/resources/glossary/mining) process. This decentralization removes the monopoly of issuance from governments, raising questions about a potential return to free-market competitive currency systems.
 
 - **Unit of Account**: A currency should provide a standard measure for comparing the value of goods and services. This simplifies trade, making pricing transparent and consistent across all transactions.
 
@@ -83,7 +81,7 @@ Today, the principle of seigniorage is being challenged by the Bitcoin cryptocur
 
 - **Divisible**: A currency should be divisible into smaller units to facilitate transactions of varying sizes. This flexibility ensures it is practical for both small purchases and large-scale trade.
 
-- **Fungible**: All units of a currency must be interchangeable and of equal value. For example, one dollar bill must be equivalent to any other dollar bill. This uniformity ensures fairness and simplicity in transactions.
+- **[Fungible](https://planb.academy/resources/glossary/fungibility)**: All units of a currency must be interchangeable and of equal value. For example, one dollar bill must be equivalent to any other dollar bill. This uniformity ensures fairness and simplicity in transactions.
 
 - **Recognizable**: A currency must be easily identifiable and trusted. Physical currencies achieve this through unique designs and security features, while digital currencies may rely on verification protocols. This ensures widespread acceptance and reduces the risk of fraud.
 
@@ -107,9 +105,9 @@ These modern currency networks came with a significant drawback: a **lack of aud
 
 **From Centralized to Decentralized Currency: Enhancing Trust and Sovereignty**
 
-Today, the emergence of Bitcoin as a decentralized currency represents the next leap in currency networks. Traditional electronic money relies on centralized authorities, such as banks or governments, to manage and verify transactions. While effective, these systems are vulnerable to inefficiencies, censorship, and single points of failure. Decentralized currencies enhance these network properties by **distributing trust and eliminating intermediaries**. It also means that money can move a lot **faster** and **cheaper**, because there are no authorization steps. Ultimately, no human can alter the Bitcoin currency supply schedule, which is enforced by the software.
+Today, the emergence of Bitcoin as a decentralized currency represents the next leap in currency networks. Traditional electronic money relies on centralized authorities, such as banks or governments, to manage and verify transactions. While effective, these systems are vulnerable to inefficiencies, censorship, and [single points of failure](https://planb.academy/resources/glossary/spof). Decentralized currencies enhance these network properties by **[distributing](https://planb.academy/resources/glossary/distributed) trust and eliminating intermediaries**. It also means that money can move a lot **faster** and **cheaper**, because there are no authorization steps. Ultimately, no human can alter the Bitcoin currency [supply schedule](https://planb.academy/resources/glossary/limite-demission), which is enforced by the software.
 
-In decentralized systems, transactions are verified by a global network of participants using blockchain technology, ensuring security, transparency, and resilience. This structure minimizes the risk of fraud, reduces dependence on central authorities, and empowers individuals to have greater control over their finances. By eliminating geographical and institutional barriers, decentralized currencies offer a truly global and inclusive monetary system.
+In decentralized systems, transactions are verified by a global network of participants using [blockchain](https://planb.academy/resources/glossary/blockchain) technology, ensuring security, transparency, and resilience. This structure minimizes the risk of fraud, reduces dependence on central authorities, and empowers individuals to have greater control over their finances. By eliminating geographical and institutional barriers, decentralized currencies offer a truly global and inclusive monetary system.
 
 **The Evolution of Currency Networks**
 
@@ -190,13 +188,13 @@ Just as we moved from paying by the minute for voice calls to using nearly free 
 
 **WHAT IS BITCOIN?**
 
-Bitcoin is a **peer-to-peer digital currency exchange system** (also known as electronic cash). The term "Bitcoin" refers to the following components:
+Bitcoin is a **[peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) digital currency exchange system** (also known as electronic cash). The term "Bitcoin" refers to the following components:
 
-- **A computer protocol** that facilitates value exchange on the internet without intermediaries, without requiring permission, and pseudonymously. It employs advanced cryptographic principles.
-- **A physical network** of machines connected to the internet (nodes, miners, etc.) operated by individuals and businesses, forming a decentralized system (with no central authority or single point of control).
-- **The unit of account** within the system. There will never be more than 21 million bitcoins in existence. Each bitcoin is divisible into 100 million units called “satoshis,” named in honor of its anonymous creator.
+- **A computer protocol** that facilitates value exchange on the internet without intermediaries, without requiring permission, and pseudonymously. It employs advanced [cryptographic](https://planb.academy/resources/glossary/cryptography) principles.
+- **A physical network** of machines connected to the internet ([nodes](https://planb.academy/resources/glossary/node), [miners](https://planb.academy/resources/glossary/miner), etc.) operated by individuals and businesses, forming a decentralized system (with no central authority or single point of control).
+- **The unit of account** within the system. There will never be more than 21 million bitcoins in existence. Each bitcoin is divisible into 100 million units called “[satoshis](https://planb.academy/resources/glossary/satoshi-sat),” named in honor of its anonymous creator.
 
-Together, they make of Bitcoin a **bearer asset** and a digital currency **without an issuer**. Ownership is secured solely by holding the **private cryptographic key**, which grants full control **without the need for intermediaries or trusted third parties**. When transferred, ownership **finality** is immediate: the new holder fully owns it without relying on a central authority for protection or convertibility. Transactions are **immutable**—once recorded on the blockchain, they cannot be altered or deleted.
+Together, they make of Bitcoin a **bearer asset** and a digital currency **without an issuer**. Ownership is secured solely by holding the **[private cryptographic key](https://planb.academy/resources/glossary/private-key)**, which grants full control **without the need for intermediaries or trusted third parties**. When transferred, ownership **finality** is immediate: the new holder fully owns it without relying on a central authority for protection or convertibility. [Transactions](https://planb.academy/resources/glossary/transaction-tx) are **immutable**—once recorded on the blockchain, they cannot be altered or deleted.
 
 ![BIZ101](assets/en/003.webp)
 
@@ -206,7 +204,7 @@ Its technical features surpass those of gold and the dollar combined, making it 
 
 ![BIZ101](assets/en/004.webp)
 
-Bitcoin effectively preserves value because its ledger is tamper-proof. Its value increases due to the rare and limited supply combined with the growing number of exchange opportunities, driven by the increasing number of users.
+Bitcoin effectively preserves value because its [ledger](https://planb.academy/resources/glossary/ledger) is tamper-proof. Its value increases due to the rare and limited supply combined with the growing number of exchange opportunities, driven by the increasing number of users.
 
 Bitcoin is disruptive because it encourages us to learn concepts in mathematics, cryptography, economics, and history that we may not have been taught previously. While often perceived as complex, it is, in fact, an innovation that can be made accessible through practice and experimentation.
 
@@ -215,7 +213,7 @@ Bitcoin challenges us to reconsider the nature of money itself. Could you explai
 **BITCOIN IDENTITY CARD (in 2024)**
 - **Age:** 15 years (January 3, 2009)
 - **Daily exchange value:** $10 billion (> CAC40)
-- **Market capitalization:** $1.8 trillion (> Meta, Visa, Silver ; < Apple, Google, Gold)
+- **[Market capitalization](https://planb.academy/resources/glossary/market-cap-capitalization):** $1.8 trillion (> Meta, Visa, Silver ; < Apple, Google, Gold)
 - **Users:** ~100 to 200 million (1-2% of the global population)
 - **Volatility:** Intrinsically none (1 Bitcoin = 1 Bitcoin), very high externally (in fiat currency exchanges)
 - **Performance:** First transaction at $0.0009; now $100,000 (x100 million)
@@ -223,14 +221,14 @@ Bitcoin challenges us to reconsider the nature of money itself. Could you explai
 - **Declared dead or criticized:** Once a month
 
 **A Marvel of Human Cooperation:**
-- Completely **open-source**
+- Completely **[open-source](https://planb.academy/resources/glossary/foss)**
 - **Legal entity:** None
 - **CEO:** None
 - **Venture capital investment:** None
 - **Marketing:** None
 - **R&D:** Volunteer-driven
 - **Governance:** By the users
-- **Innovative economic model:** Block creation is subsidized by transaction fees (auction-based)
+- **Innovative economic model:** Block creation is [subsidized](https://planb.academy/resources/glossary/block-subsidy) by [transaction fees](https://planb.academy/resources/glossary/transaction-fees) (auction-based)
 
 For more information on Bitcoin, its history, how it works, and its use, I also suggest following this other comprehensive course:
 
@@ -241,17 +239,17 @@ https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 **WHAT IS LIGHTNING?**
 
-The Lightning Network is **a protocol and a network** that facilitates Bitcoin transactions with minimal interaction with Bitcoin's main blockchain. Here's how it works:
+The [Lightning Network](https://planb.academy/resources/glossary/lightning-network) is **a protocol and a network** that facilitates Bitcoin transactions with minimal interaction with Bitcoin's main blockchain. Here's how it works:
 
-- **Initial setup:** Funds are locked (escrowed) on the main blockchain to establish a payment channel between 2 parties.
+- **Initial setup:** Funds are locked (escrowed) on the main blockchain to establish a [payment channel](https://planb.academy/resources/glossary/payment-channel) between 2 parties.
 - **Payment network:** A web of payment channels between multiple parties forms a payment network (routing and interconnection).
-- **Off-chain transactions:** Transactions occur between parties but are **not immediately published** on Bitcoin's main blockchain (**"off-chain"**).
-- **On-chain settlements:** Only **the final balance** of a channel's transactions is published on the Bitcoin main blockchain (**"on-chain"**), allowing numerous transactions to occur in the meantime. This bundling of multiple payments reduces congestion and, consequently, lowers fees compared to making numerous on-chain transactions.
+- **Off-chain transactions:** Transactions occur between parties but are **not immediately published** on Bitcoin's main blockchain (**"[off-chain](https://planb.academy/resources/glossary/offchain)"**).
+- **On-chain settlements:** Only **the final balance** of a channel's transactions is published on the Bitcoin main blockchain (**"[on-chain](https://planb.academy/resources/glossary/onchain)"**), allowing numerous transactions to occur in the meantime. This bundling of multiple payments reduces congestion and, consequently, lowers fees compared to making numerous on-chain transactions.
 - **Channel closure:** A user can close their channel at any time and reclaim their Bitcoin by publishing the latest transaction state. This is the principle of transactions being **"publishable" at any moment but "unpublished"** until necessary. The exit (channel closure) can be unilateral (decided by any of the two parties at any time) or mutually decided (resulting in lower on-chain fees)
 
 ![BIZ101](assets/en/005.webp)
 
-This approach avoids the slowness and complexity of performing every transaction directly on Bitcoin's main blockchain, recording only final balances and retaining its security. The Lightning Network is a layer "on top" of Bitcoin but remains anchored to it.
+This approach avoids the slowness and complexity of performing every transaction directly on Bitcoin's main blockchain, recording only final balances and retaining its security. The Lightning Network is a [layer](https://planb.academy/resources/glossary/layer) "on top" of Bitcoin but remains anchored to it.
 
 **A Global Payment Network**  
 The protocol creates a **network** of machines where channels form a universal payment system. These nodes can be operated freely by individuals or businesses, making it a completely open network.
@@ -318,7 +316,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### A healthy company
 
-**The future is uncertain**, and businesses must navigate this uncertainty with a clear focus on making profits and preserving capital. According to Austrian economics, **profits are the ultimate signal of a company’s health**—they show that the business is meeting consumer needs efficiently. Without profits, a company cannot sustain itself, let alone grow. For a business to remain healthy, it must not only generate profits but also think ahead, **storing capital for future investments and challenges**.
+**The future is uncertain**, and businesses must navigate this uncertainty with a clear focus on making profits and preserving capital. According to [Austrian economics](https://planb.academy/resources/glossary/austrian-school), **profits are the ultimate signal of a company’s health**—they show that the business is meeting consumer needs efficiently. Without profits, a company cannot sustain itself, let alone grow. For a business to remain healthy, it must not only generate profits but also think ahead, **storing capital for future investments and challenges**.
 
 **Capital preservation** is crucial because it enables businesses to adapt and capitalize on opportunities in an unpredictable market. This involves striking a balance between reinvesting earnings to grow and maintaining a financial buffer to weather potential downturns. Austrian economics highlights the importance of **“time preference”**, meaning businesses must carefully decide how much to prioritize immediate returns versus investing for long-term success. A healthy company maintains a strong financial foundation, ensuring flexibility in both good times and bad.
 
@@ -450,7 +448,7 @@ Let’s quickly review the environment in which businesses operate.
 
 **Real inflation**: Much to the dismay of their mandate, central banks target a 2% annual inflation rate, which translates to a 40% loss in currency value over 20 years. Adding periods of more pronounced inflation, it becomes clear that companies cannot rely solely on currency to store the fruits of their labor. They must implement complex financial strategies, necessarily accompanied by a range of risks. These strategies are obviously **inaccessible to very small businesses**, which are already heavily occupied with their core activities.
 
-**Hidden inflation**: In a debt-based, fractional-reserve monetary system supported by central banks, the **overall money supply grows by about 7% per year on average** (e.g., M1 in the Eurozone or the USA). This means your “share of the pie” is cut in half in just a few years—unless you have privileged access to the financial spigot and can continue to grow by leveraging and buying assets quickly at “old prices” before the newly created money drives them up. This is the Cantillon effect, which partly explains the transfer of wealth to the more affluent, while “capital” is wrongly blamed as the culprit (see our introduction on capital above).
+**Hidden inflation**: In a debt-based, [fractional-reserve](https://planb.academy/resources/glossary/fractional-reserves) monetary system supported by central banks, the **overall money supply grows by about 7% per year on average** (e.g., M1 in the Eurozone or the USA). This means your “share of the pie” is cut in half in just a few years—unless you have privileged access to the financial spigot and can continue to grow by leveraging and buying assets quickly at “old prices” before the newly created money drives them up. This is the Cantillon effect, which partly explains the transfer of wealth to the more affluent, while “capital” is wrongly blamed as the culprit (see our introduction on capital above).
 
 **Counterparty risks**: The current financial system is risky, and you might not always have access to “your money.” Without invoking the image of a house of cards, it must be acknowledged that financial institutions privatize profits and socialize losses at the slightest crisis. In a system of “scriptural” money (money recorded in a ledger), the money in the bank is merely a “claim”; you do not truly own it, and the banks themselves “do not have it” (fractional reserves). This money is, in a way, truly magical. Some prestigious banks that once mocked Bitcoin, such as Credit Suisse, no longer exist today.
 
@@ -515,7 +513,7 @@ The growing adoption of Bitcoin in the United States is also influencing mindset
 
 From a purely financial perspective, Bitcoin is recognized as a diversification asset. Not only is it uncorrelated with other asset classes, it also appears to thrive during periods of new liquidity injections—another such episode seems to be beginning with the lowering of interest rates by the ECB, the Fed, and China.
 
-In summary, for the most common use case—investing excess treasury for at least a four-year window—Bitcoin fits perfectly. It’s worthwhile to combine this with a strategy of gradual entry, where you invest fixed amounts at regular intervals to smooth the entry or exit point.
+In summary, for the most common use case—investing excess treasury for at least a four-year window—Bitcoin fits perfectly. It’s worthwhile to combine this with a [strategy of gradual entry](https://planb.academy/resources/glossary/dollar-cost-averaging-dca), where you invest fixed amounts at regular intervals to smooth the entry or exit point.
 
 Other use cases make Bitcoin a strategic treasury asset, for example:
 - Being able to post **collateral** or liquidity 24/7
@@ -525,7 +523,7 @@ Other use cases make Bitcoin a strategic treasury asset, for example:
 
 ### Is Bitcoin too expensive?
 
-You do not have to buy exactly 1 Bitcoin, because Bitcoin is divisible into subunits called satoshis, named in honor of its anonymous creator. One bitcoin equals **100 million satoshis**, allowing users to buy, sell, or trade even **very small fractions of a bitcoin**. In fact, within Bitcoin’s source code, all transactions are accounted for in satoshis, and the term “bitcoin” appears only in the “coinbase,” the special transaction miners create to receive their reward.
+You do not have to buy exactly 1 Bitcoin, because Bitcoin is divisible into subunits called satoshis, named in honor of its anonymous creator. One bitcoin equals **100 million satoshis**, allowing users to buy, sell, or trade even **very small fractions of a bitcoin**. In fact, within Bitcoin’s source code, all transactions are accounted for in satoshis, and the term “bitcoin” appears only in the “[coinbase](https://planb.academy/resources/glossary/coinbase-transaction),” the special transaction miners create to receive their reward.
 
 Moreover, the total of 21 million bitcoins—or **2.1 quadrillion satoshis**—can be efficiently represented by a 64-bit integer. This means that despite a high price per whole bitcoin, it remains accessible to a wide range of investors thanks to its divisibility. You therefore do not need to purchase a whole bitcoin to participate in the network or invest in this digital asset.
 
@@ -575,7 +573,7 @@ This involves earning rewards from operating mining machines. For non-specialize
 To learn more about mining methods, you can [consult the "mining" section in our tutorials](https://planb.academy/tutorials/mining).
 
 - **Buying Bitcoin:**
-This is by far the most common method, typically conducted through peer-to-peer exchanges or specialized trading platforms. But when acquiring Bitcoin as a corporate treasury asset, companies must comply with robust regulatory standards and Know-Your-Customer (KYC) procedures. When they buy it on specialized trading platforms, businesses are typically required to provide detailed company information, including identification documents, financial statements, and proof of address, to satisfy KYC and anti-money laundering (AML) requirements.
+This is by far the most common method, typically conducted through peer-to-peer exchanges or specialized trading platforms. But when acquiring Bitcoin as a corporate treasury asset, companies must comply with robust regulatory standards and Know-Your-Customer ([KYC](https://planb.academy/resources/glossary/kyc-know-your-customer)) procedures. When they buy it on specialized trading platforms, businesses are typically required to provide detailed company information, including identification documents, financial statements, and proof of address, to satisfy KYC and anti-money laundering (AML) requirements.
 
 To learn how to open a business account and use it to buy, sell, and transfer bitcoins, you can check out these two tutorials specifically designed for businesses, covering the Kraken and Bitfinex platforms in their corporate versions:
 
@@ -616,11 +614,11 @@ The real estate industry often repeats that “it’s always the right time to b
 
 You do not physically own Bitcoin. Instead, you hold a cryptographic key that allows you to transfer the ownership of some or all of your units of account to one or more other cryptographic keys. All of this occurs on the Bitcoin blockchain, which is replicated across tens of thousands of nodes worldwide.
 
-This cryptographic key is an extremely large random number. To simplify the user experience, it’s often represented as a sequence of 12 or 24 words. These words can be loaded onto a physical device known as a “hardware wallet.” However, understand that the bitcoins aren’t “inside” this device; it’s simply a tool to sign transactions and broadcast them to the network cryptographically. What truly matters are the 12 or 24 words, which must be kept secure.
+This cryptographic key is an extremely large random number. To simplify the user experience, it’s often represented as a sequence of 12 or 24 words. These words can be loaded onto a physical device known as a “[hardware wallet](https://planb.academy/resources/glossary/hardware-wallet).” However, understand that the bitcoins aren’t “inside” this device; it’s simply a tool to sign transactions and broadcast them to the network cryptographically. What truly matters are the 12 or 24 words, which must be kept secure.
 
 This leads to the issue of custody: holding Bitcoin means holding the key(s) to it. Either you hold them yourself, or you delegate the task to a third party. There are also intermediate solutions. Let’s review the most common scenarios:
 
-- **Self-Custody:**
+- **[Self-Custody](https://planb.academy/resources/glossary/selfcustody):**
 This is the option recommended by true Bitcoin enthusiasts, as it aligns with Bitcoin’s original design. You act as your own bank: there’s no risk of a third party defrauding you, but you are responsible for securing the key(s). You have full access to your funds 24 hours a day, 7 days a week. In a business setting, if multiple people may need to transact, you’ll need appropriate tools and procedures to manage access and security.
 
 - **Third-Party Custody:**
@@ -631,7 +629,7 @@ These are traditional financial instruments that represent fractions of Bitcoin,
 
 ![BIZ101](assets/en/014.webp)
 
-In addition, the form in which you hold Bitcoin significantly impacts the security measures required to safeguard your corporate treasury. Whether you choose self-custody, using single-signature or multi-signature hardware wallets, etc., to maintain direct control of your keys, or delegate this task to third-party custody services or ETFs, each option carries its own risk profile. For instance, self-custody offers full access but demands rigorous internal security protocols, while third-party solutions reduce management burden at the cost of counterparty risk. To further illustrate the distinctions, this graph outlines the security model for each custody type, helping you to select the approach best suited to your organization’s needs :
+In addition, the form in which you hold Bitcoin significantly impacts the security measures required to safeguard your corporate treasury. Whether you choose self-custody, using single-signature or [multi-signature](https://planb.academy/resources/glossary/multisig) hardware wallets, etc., to maintain direct control of your keys, or delegate this task to third-party custody services or ETFs, each option carries its own risk profile. For instance, self-custody offers full access but demands rigorous internal security protocols, while third-party solutions reduce management burden at the cost of counterparty risk. To further illustrate the distinctions, this graph outlines the security model for each custody type, helping you to select the approach best suited to your organization’s needs :
 
 ![BIZ101](assets/en/015.webp)
 
@@ -787,7 +785,7 @@ In the following chapters, we will detail each business profile and the solution
 ## The Starter
 <chapterId>7edda53d-5b9f-432a-8493-115de8c94a67</chapterId>
 
-The Starter profile is designed for businesses, creators, and individuals who wish to explore Bitcoin payments without committing substantial resources or expertise. These are typically those who handle a very small volume of transactions (perhaps a few tips, donations, or occasional sales) and seek a simple, lightweight introduction to the Bitcoin and Lightning Network ecosystem. The key value of the Starter approach lies in its minimal setup: in most cases, all that is required is a smartphone or tablet equipped with a basic Lightning-compatible wallet.
+The Starter profile is designed for businesses, creators, and individuals who wish to explore Bitcoin payments without committing substantial resources or expertise. These are typically those who handle a very small volume of transactions (perhaps a few tips, donations, or occasional sales) and seek a simple, lightweight introduction to the Bitcoin and Lightning Network ecosystem. The key value of the Starter approach lies in its minimal setup: in most cases, all that is required is a smartphone or tablet equipped with a basic Lightning-compatible [wallet](https://planb.academy/resources/glossary/wallet).
 
 ![BIZ101-profiles](assets/en/017.webp)
 
@@ -797,7 +795,7 @@ The two most common wallet setups for the Starter profile involve deciding betwe
 
 ![BIZ101-profiles](assets/en/018.webp)
 
-Although security concerns may seem less urgent when transactions are small, it is nonetheless crucial to implement basic protective measures. Even a single smartphone or tablet used to receive Bitcoin payments should be locked by a password or biometric security, and backup procedures (ranging from keeping track of login credentials for a custodial wallet to safeguarding a seed phrase for a non-custodial one) must be taken seriously. Staff members who handle transactions in a physical setting would benefit from understanding the fundamentals, including how to open the app, present a QR code to the customer, and verify that payment has been received.
+Although security concerns may seem less urgent when transactions are small, it is nonetheless crucial to implement basic protective measures. Even a single smartphone or tablet used to receive Bitcoin payments should be locked by a password or biometric security, and backup procedures (ranging from keeping track of login credentials for a custodial wallet to safeguarding a [seed phrase](https://planb.academy/resources/glossary/recovery-phrase) for a non-custodial one) must be taken seriously. Staff members who handle transactions in a physical setting would benefit from understanding the fundamentals, including how to open the app, present a QR code to the customer, and verify that payment has been received.
 
 Accounting and reporting, while relatively simple under the Starter profile, still warrant careful consideration. Although transaction volumes may be minimal, retaining accurate records prevents confusion down the line and helps maintain transparency in the event of financial audits or tax filings. Many wallet applications enable users to export a basic transaction history as a CSV file; for a small enterprise or a single entrepreneur, saving these files regularly can make reconciling accounts much easier. It is also wise to track the approximate fiat value (for instance, in euros or dollars) at the moment each transaction is received. Since Bitcoin’s price can fluctuate, having a record of conversion rates is invaluable for bookkeeping and tax compliance.
 
@@ -921,7 +919,7 @@ At this scale, the overarching goal is not simply to accept Bitcoin, but to do s
 
 Within an enterprise context, operational complexity becomes especially pronounced. A large corporation may need to accommodate multiple departments (sales, marketing, devops, finance, and accounting), each with distinct responsibilities and data requirements. In this scenario, a Bitcoin payment platform must offer highly granular role management, allowing each department to access precisely the functions relevant to their tasks while preserving rigorous control over security and data integrity. Equally essential is the capacity to customize workflows; for example, inbound payments might trigger updates in inventory systems, send automated notifications to sales managers, and update ledger entries for the finance team, all in real-time. Point-of-sale devices themselves are commonly tailored to the enterprise environment, featuring custom software interfaces that align with the company’s branding and operational needs.
 
-**Security** is paramount for enterprises on a scale. High volumes of transactions and potentially large sums of Bitcoin require a robust infrastructure capable of defending against malicious attacks or insider threats. Best practices often include multi-signature with timelocks treasury configurations, carefully audited codebases, and strict adherence to relevant regulatory frameworks. Furthermore, compliance with local and international financial regulations is integral to preserving the corporation’s reputation and maintaining its license to operate.
+**Security** is paramount for enterprises on a scale. High volumes of transactions and potentially large sums of Bitcoin require a robust infrastructure capable of defending against malicious attacks or insider threats. Best practices often include multi-signature with [timelocks](https://planb.academy/resources/glossary/timelock) treasury configurations, carefully audited codebases, and strict adherence to relevant regulatory frameworks. Furthermore, compliance with local and international financial regulations is integral to preserving the corporation’s reputation and maintaining its license to operate.
 
 The **custom development** involved in creating or integrating an enterprise-grade Bitcoin payment solution extends beyond coding a few application features. It typically requires architectural design, thorough testing protocols, and a structured roll-out that may span multiple phases (initial pilot programs, limited market tests, and eventual global deployment).
 

@@ -54,7 +54,7 @@ E se a chave para entender a economia atual estiver em uma teoria de vários sé
 
 ### Como o Dinheiro é Criado
 
-Em nosso sistema monetário atual, o dinheiro é criado principalmente por meio de uma prática bancária conhecida como "banco de reserva fracionária". Esse termo significa essencialmente que os bancos não são obrigados a manter tantas reservas quanto recebem em depósitos. Consequentemente, eles podem criar novo poder de compra ao conceder empréstimos e, inversamente, reduzir o poder de compra quando os clientes pagam seus empréstimos.
+Em nosso sistema monetário atual, o dinheiro é criado principalmente por meio de uma prática bancária conhecida como "[banco de reserva fracionária](https://planb.academy/resources/glossary/fractional-reserves)". Esse termo significa essencialmente que os bancos não são obrigados a manter tantas reservas quanto recebem em depósitos. Consequentemente, eles podem criar novo poder de compra ao conceder empréstimos e, inversamente, reduzir o poder de compra quando os clientes pagam seus empréstimos.
 
 Por exemplo, se você fosse ao seu banco local para obter um empréstimo hipotecário para comprar uma casa, o dinheiro emprestado pelo banco viria à existência como uma entrada contábil. Na contabilidade, normalmente representamos a riqueza líquida de uma pessoa com um balanço patrimonial, que tem dois lados: o lado do ativo, incluindo qualquer propriedade, contratos financeiros, estoque ou outras formas de riqueza possuídas, e o lado do passivo, mostrando a origem dos fundos usados para criar o capital listado no lado do ativo. A diferença entre ativos e passivos é chamada de "patrimônio líquido" e pode ser considerada como a riqueza líquida da entidade.
 
@@ -70,7 +70,7 @@ Figura 1: Criação de Dinheiro como Entradas Contábeis
 >
 > Henry Ford
 
-Esse processo permite que os bancos registrem todas as transações, incluindo transferências bancárias, compras com cartão de crédito e cheques, ao longo de um período especificado (geralmente uma semana ou um mês). Eles então liquidam essas transações entre si usando reservas bancárias, que são outra forma de moeda fiduciária nunca usada pelo público. As reservas bancárias são mantidas no banco central em uma conta especial acessível apenas a bancos licenciados e instituições financeiras.
+Esse processo permite que os bancos registrem todas as transações, incluindo transferências bancárias, compras com cartão de crédito e cheques, ao longo de um período especificado (geralmente uma semana ou um mês). Eles então liquidam essas transações entre si usando reservas bancárias, que são outra forma de [moeda fiduciária](https://planb.academy/resources/glossary/fiat) nunca usada pelo público. As reservas bancárias são mantidas no banco central em uma conta especial acessível apenas a bancos licenciados e instituições financeiras.
 
 ### Instabilidade do Banco de Reserva Fracionária e Prestamista de Última Instância
 
@@ -120,7 +120,7 @@ Outra consequência não intencional da ZIRP é que ela incentiva os governos a 
 
 Figura 6: Dívida Pública e Privada como % do PIB (Mundo, ponderado pelo PIB por país) / Fonte: FMI
 
-Com a inflação em alta devido à criação substancial de dinheiro em resposta aos bloqueios relacionados à COVID, os banqueiros centrais estão agora elevando as taxas de juros em uma tentativa de conter a inflação. No entanto, isso representa um desafio significativo para todo o sistema. Os bancos estão mais alavancados do que nunca, os governos carregam níveis historicamente altos de dívida, o crescimento econômico é lento, os déficits estão aumentando e os consumidores, lidando com o aumento dos preços de bens essenciais, estão lutando para chegar ao fim do mês. Controlar a inflação exigiria elevar as taxas a um nível que poderia levar à falência dos governos, enquanto os bancos correm o risco de perder depositantes à medida que as pessoas gastam suas economias em itens essenciais cada vez mais caros ou buscam refúgio em ativos tangíveis e fundos de mercado monetário para se protegerem da inflação.
+Com a [inflação](https://planb.academy/resources/glossary/inflation) em alta devido à criação substancial de dinheiro em resposta aos bloqueios relacionados à COVID, os banqueiros centrais estão agora elevando as taxas de juros em uma tentativa de conter a inflação. No entanto, isso representa um desafio significativo para todo o sistema. Os bancos estão mais alavancados do que nunca, os governos carregam níveis historicamente altos de dívida, o crescimento econômico é lento, os déficits estão aumentando e os consumidores, lidando com o aumento dos preços de bens essenciais, estão lutando para chegar ao fim do mês. Controlar a inflação exigiria elevar as taxas a um nível que poderia levar à falência dos governos, enquanto os bancos correm o risco de perder depositantes à medida que as pessoas gastam suas economias em itens essenciais cada vez mais caros ou buscam refúgio em ativos tangíveis e fundos de mercado monetário para se protegerem da inflação.
 
 ### Conclusão
 
@@ -129,7 +129,7 @@ Com a inflação em alta devido à criação substancial de dinheiro em resposta
 > John Maynard Keynes
 
 Em essência, nosso sistema enfrenta desafios substanciais e o Bitcoin surge como a única alternativa credível. No entanto, o Bitcoin sozinho não pode resolver os problemas dentro de nosso sistema monetário. Acima de tudo, precisamos de pessoas que entendam princípios econômicos básicos entre os entusiastas do Bitcoin, permitindo uma conscientização mais ampla e um senso comum econômico para nos guiar longe da construção de outra base financeira frágil para nossa civilização. O objetivo principal deste curso é educar novos entusiastas do Bitcoin em princípios econômicos sólidos.
-Para alcançar esse objetivo, explicaremos os princípios fundamentais da "Economia Austríaca", uma escola de pensamento econômico com uma tradição metodológica que remonta ao século XVI, fornecendo insights sobre a ação humana sob restrições econômicas. Com essa introdução, você agora compreende os fundamentos da criação de dinheiro e o estado atual do nosso sistema financeiro e monetário.
+Para alcançar esse objetivo, explicaremos os princípios fundamentais da "[Economia Austríaca](https://planb.academy/resources/glossary/austrian-school)", uma escola de pensamento econômico com uma tradição metodológica que remonta ao século XVI, fornecendo insights sobre a ação humana sob restrições econômicas. Com essa introdução, você agora compreende os fundamentos da criação de dinheiro e o estado atual do nosso sistema financeiro e monetário.
 No próximo capítulo, aprofundaremos a pedra fundamental de qualquer escola de pensamento econômico: a teoria do valor. Os capítulos subsequentes explorarão o dinheiro como uma instituição social, a teoria do capital e do ciclo de negócios, o desafio do cálculo econômico e uma breve visão geral da história e metodologia da Escola Austríaca de Economia.
 
 # Fundamentos Teóricos

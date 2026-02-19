@@ -63,22 +63,22 @@ Selami dunia sidechain Liquid dan lepaskan potensi penuhnya sekarang juga!
 ### Arsitektur Liquid Network dan Model Konsensus
 
 
-Liquid Network adalah sidechain federasi yang dibangun di atas basis kode Elements, yang dirancang untuk memperluas kemampuan Bitcoin dengan tetap mengandalkan keamanan fundamentalnya. Tidak seperti Bitcoin, Proof-of-Work, Liquid beroperasi dengan model Konsensus Federasi. Jaringan ini dikelola oleh sekelompok anggota yang tersebar secara global, termasuk bursa, meja perdagangan, dan penyedia infrastruktur. Dari keanggotaan ini, lima belas "fungsionaris" dipilih untuk bertindak sebagai penandatangan blok.
+Liquid Network adalah sidechain federasi yang dibangun di atas basis kode Elements, yang dirancang untuk memperluas kemampuan Bitcoin dengan tetap mengandalkan keamanan fundamentalnya. Tidak seperti Bitcoin, [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work), Liquid beroperasi dengan model [Konsensus](https://planb.academy/resources/glossary/consensus) Federasi. Jaringan ini dikelola oleh sekelompok anggota yang tersebar secara global, termasuk bursa, meja perdagangan, dan penyedia infrastruktur. Dari keanggotaan ini, lima belas "fungsionaris" dipilih untuk bertindak sebagai penandatangan [blok](https://planb.academy/resources/glossary/block).
 
 
-Para fungsionaris ini menghasilkan blok secara round-robin deterministik, dengan blok baru yang dihasilkan setiap menit. Waktu yang tepat ini berbeda dengan Bitcoin yang memiliki interval sepuluh menit yang bersifat probabilistik. Agar sebuah blok menjadi valid, dibutuhkan tanda tangan dari setidaknya 11 dari 15 fungsionaris (dua pertiga ditambah satu ambang batas). Mekanisme ini memberikan Liquid dengan "finalitas dua blok," yang berarti bahwa setelah sebuah transaksi memiliki dua konfirmasi (sekitar dua menit), secara matematis tidak mungkin untuk mengatur ulang rantai. Kecepatan dan kepastian ini sangat penting untuk arbitrase, perdagangan otomatis, dan penyelesaian antar bursa yang cepat.
+Para fungsionaris ini menghasilkan blok secara round-robin deterministik, dengan blok baru yang dihasilkan setiap menit. Waktu yang tepat ini berbeda dengan Bitcoin yang memiliki interval sepuluh menit yang bersifat probabilistik. Agar sebuah blok menjadi valid, dibutuhkan tanda tangan dari setidaknya 11 dari 15 fungsionaris (dua pertiga ditambah satu ambang batas). Mekanisme ini memberikan Liquid dengan "finalitas dua blok," yang berarti bahwa setelah sebuah [transaksi](https://planb.academy/resources/glossary/transaction-tx) memiliki dua konfirmasi (sekitar dua menit), secara matematis tidak mungkin untuk mengatur ulang rantai. Kecepatan dan kepastian ini sangat penting untuk arbitrase, perdagangan otomatis, dan penyelesaian antar bursa yang cepat.
 
 
-Federasi ini bersifat dinamis. Melalui protokol Dynamic Federation (Dynafed), jaringan dapat merotasi fungsionaris atau memperbarui parameter tanpa memerlukan fork yang keras. Hal ini memungkinkan sistem untuk berevolusi dan mengganti perangkat keras atau anggota dengan mulus sambil mempertahankan operasi yang berkelanjutan.
+Federasi ini bersifat dinamis. Melalui protokol Dynamic Federation (Dynafed), jaringan dapat merotasi fungsionaris atau memperbarui parameter tanpa memerlukan [fork](https://planb.academy/resources/glossary/fork) yang keras. Hal ini memungkinkan sistem untuk berevolusi dan mengganti perangkat keras atau anggota dengan mulus sambil mempertahankan operasi yang berkelanjutan.
 
 
 ### Confidential Transactions dan Manajemen Aset
 
 
-Fitur yang menentukan dari Liquid adalah dukungan aslinya untuk Confidential Transactions (CT) dan beberapa aset. Pada rantai utama Bitcoin, semua detail transaksi - pengirim, penerima, dan jumlah - bersifat publik. Pada Liquid, CT menggunakan komitmen kriptografi untuk menyembunyikan jenis dan jumlah aset dari buku besar publik, namun tetap mengizinkan jaringan untuk memverifikasi bahwa transaksi tersebut valid (dengan kata lain, tidak ada penggelembungan yang terjadi). Hanya peserta yang memegang kunci blinding yang dapat melihat nilai spesifik, menawarkan tingkat privasi komersial yang penting bagi institusi yang memindahkan posisi besar.
+Fitur yang menentukan dari Liquid adalah dukungan aslinya untuk Confidential Transactions (CT) dan beberapa aset. Pada rantai utama Bitcoin, semua detail transaksi - pengirim, penerima, dan jumlah - bersifat publik. Pada Liquid, CT menggunakan komitmen kriptografi untuk menyembunyikan jenis dan jumlah aset dari buku besar publik, namun tetap mengizinkan jaringan untuk memverifikasi bahwa transaksi tersebut valid (dengan kata lain, tidak ada [penggelembungan](https://planb.academy/resources/glossary/inflation) yang terjadi). Hanya peserta yang memegang kunci blinding yang dapat melihat nilai spesifik, menawarkan tingkat privasi komersial yang penting bagi institusi yang memindahkan posisi besar.
 
 
-Liquid memperlakukan semua aset sebagai warga asli blockchain. Ini termasuk Liquid Bitcoin (LBTC), stablecoin seperti USDT, dan token keamanan. Menerbitkan aset tidak membutuhkan smart contract yang rumit; ini adalah fungsi dasar dari protokol.
+Liquid memperlakukan semua aset sebagai warga asli [blockchain](https://planb.academy/resources/glossary/blockchain). Ini termasuk Liquid Bitcoin (LBTC), stablecoin seperti USDT, dan token keamanan. Menerbitkan aset tidak membutuhkan smart contract yang rumit; ini adalah fungsi dasar dari protokol.
 
 
 #### Aset yang Diatur dan AMP
@@ -97,7 +97,7 @@ Proses "peg-out" memungkinkan pengguna untuk menukarkan LBTC dengan Bitcoin. Pro
 
 #### Modul Keamanan Perangkat Keras (HSM)
 
-Keamanan ditegakkan secara ketat melalui perangkat keras. Para fungsionaris tidak menyimpan kunci pribadi pada server standar; sebagai gantinya, mereka mengoperasikan Modul Keamanan Perangkat Keras (HSM). Perangkat ini terpisah dari logika server host dan diprogram dengan aturan yang ketat. Sebagai contoh, HSM akan menolak untuk menandatangani sebuah blok jika tingginya tidak lebih besar dari yang sebelumnya, mencegah penulisan ulang riwayat. Model keamanan "lawan" ini mengasumsikan bahwa server host dapat disusupi, memastikan bahwa kunci tetap aman walaupun lokasi fisiknya dibobol.
+Keamanan ditegakkan secara ketat melalui perangkat keras. Para fungsionaris tidak menyimpan [kunci pribadi](https://planb.academy/resources/glossary/private-key) pada server standar; sebagai gantinya, mereka mengoperasikan Modul Keamanan Perangkat Keras (HSM). Perangkat ini terpisah dari logika server host dan diprogram dengan aturan yang ketat. Sebagai contoh, HSM akan menolak untuk menandatangani sebuah blok jika tingginya tidak lebih besar dari yang sebelumnya, mencegah penulisan ulang riwayat. Model keamanan "lawan" ini mengasumsikan bahwa server host dapat disusupi, memastikan bahwa kunci tetap aman walaupun lokasi fisiknya dibobol.
 
 
 ## Dasar-dasar Elements
@@ -114,7 +114,7 @@ Keamanan ditegakkan secara ketat melalui perangkat keras. Para fungsionaris tida
 Elements adalah platform blockchain sumber terbuka yang berasal dari basis kode Bitcoin Core. Platform ini memperluas fungsionalitas Bitcoin dengan mengaktifkan sidechains-blockchain independen yang dapat mentransfer aset ke dan dari Bitcoin. Sementara Bitcoin Core memberi kekuatan pada jaringan Bitcoin, Elements adalah mesin perangkat lunak di belakang Liquid Network dan sidechain khusus lainnya.
 
 
-Hubungannya sangat mudah: Liquid adalah "contoh" spesifik dari sidechain Elements, yang dikonfigurasikan untuk penggunaan produksi dengan model konsensus federasi. Pengembang yang terbiasa dengan Bitcoin akan menemukan Elements yang intuitif, karena Elements mempertahankan antarmuka RPC (Panggilan Prosedur Jarak Jauh) yang sama dan struktur baris perintah (`elements-cli`, `elements-d`, `elements-qt`). Perbedaan utama terletak pada konfigurasi: pengaturan `chain=liquidv1` menghubungkan sebuah node ke jaringan utama Liquid, sementara `chain=elementsregtest` menjalankan lingkungan pengujian regresi lokal di mana para pengembang dapat melakukan blok generate secara instan dan melakukan pengujian tanpa ketergantungan eksternal.
+Hubungannya sangat mudah: Liquid adalah "contoh" spesifik dari sidechain Elements, yang dikonfigurasikan untuk penggunaan produksi dengan model konsensus federasi. Pengembang yang terbiasa dengan Bitcoin akan menemukan Elements yang intuitif, karena Elements mempertahankan antarmuka RPC (Panggilan Prosedur Jarak Jauh) yang sama dan struktur baris perintah (`elements-cli`, `elements-d`, `elements-qt`). Perbedaan utama terletak pada konfigurasi: pengaturan `chain=liquidv1` menghubungkan sebuah [node](https://planb.academy/resources/glossary/node) ke jaringan utama Liquid, sementara `chain=elementsregtest` menjalankan lingkungan pengujian regresi lokal di mana para pengembang dapat melakukan blok generate secara instan dan melakukan pengujian tanpa ketergantungan eksternal.
 
 
 #### Penerbitan Aset
@@ -152,7 +152,7 @@ Berinteraksi dengan node Elements terutama dilakukan melalui antarmuka JSON-RPC.
 
 - Pengaturan:** Pengembang biasanya memulai dalam mode `regtest`. Hal ini memungkinkan pembuatan blok secara instan (`generateblock`) untuk mengonfirmasi transaksi dengan segera, melewati waktu blok 1 menit dari jaringan langsung.
 - Perintah:** Perintah standar Bitcoin seperti `getblockchaininfo` tersedia, di samping perintah khusus Elements seperti `dumpblindingkey` (untuk mengaudit CT) atau `pegin` (untuk memindahkan BTC ke dalam sidechain).
-- Alias:** Untuk mengelola beberapa node (misalnya, "pengirim" dan "penerima" untuk pengujian), pengembang sering menggunakan shell alias seperti `e1-cli` dan `e2-cli` yang menunjuk ke direktori data yang berbeda, yang mensimulasikan jaringan peer-to-peer pada satu mesin.
+- Alias:** Untuk mengelola beberapa node (misalnya, "pengirim" dan "penerima" untuk pengujian), pengembang sering menggunakan shell alias seperti `e1-cli` dan `e2-cli` yang menunjuk ke direktori data yang berbeda, yang mensimulasikan jaringan [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) pada satu mesin.
 
 
 Arsitektur ini memberdayakan pengembang untuk membangun aplikasi keuangan yang canggih-seperti platform sekuritas atau gerbang pembayaran pribadi-menggunakan perkakas yang kuat dan familiar dari ekosistem Bitcoin.
@@ -169,10 +169,10 @@ Arsitektur ini memberdayakan pengembang untuk membangun aplikasi keuangan yang c
 ### Infrastruktur Lintas-Layer dan HTLC
 
 
-Ekosistem Bitcoin telah berevolusi menjadi arsitektur berlapis-lapis, dengan Mainchain yang menyediakan penyelesaian, Lightning yang menawarkan kecepatan, dan Liquid yang memungkinkan kemampuan aset tingkat lanjut. Memindahkan nilai di antara lapisan-lapisan ini tanpa perantara terpusat membutuhkan primitif kriptografi yang tidak dapat dipercaya: Hash Time Locked Contract (HTLC).
+Ekosistem Bitcoin telah berevolusi menjadi arsitektur berlapis-lapis, dengan Mainchain yang menyediakan penyelesaian, Lightning yang menawarkan kecepatan, dan Liquid yang memungkinkan kemampuan aset tingkat lanjut. Memindahkan nilai di antara lapisan-lapisan ini tanpa perantara terpusat membutuhkan primitif kriptografi yang tidak dapat dipercaya: [Hash](https://planb.academy/resources/glossary/hash-function) Time Locked Contract ([HTLC](https://planb.academy/resources/glossary/htlc)).
 
 
-HTLC menciptakan saluran pembayaran bersyarat yang menghubungkan sistem independen secara atomis. Ini berfungsi melalui dua batasan utama: **hash lock** dan **waktu lock**.
+HTLC menciptakan [saluran pembayaran](https://planb.academy/resources/glossary/payment-channel) bersyarat yang menghubungkan sistem independen secara atomis. Ini berfungsi melalui dua batasan utama: **hash lock** dan **waktu lock**.
 
 
 - Kunci Hash:** Dana dapat segera dibelanjakan jika penerima mengungkapkan "gambar awal" rahasia yang cocok dengan hash kriptografi tertentu.
@@ -185,20 +185,20 @@ Struktur jalur ganda ini memastikan keamanan. Dalam pertukaran lintas lapisan, k
 ### Peningkatan Taproot dan MuSig2
 
 
-HTLC lama (SegWit v0) berfungsi dengan baik tetapi memiliki kekurangan dalam hal privasi dan efisiensi. Mereka membutuhkan penerbitan seluruh logika skrip on-chain, membuat transaksi swap mudah diidentifikasi oleh analis blockchain dan lebih mahal karena ukuran datanya. Pengenalan Taproot (SegWit v1) dan protokol MuSig2 telah merevolusi arsitektur ini.
+HTLC lama ([SegWit](https://planb.academy/resources/glossary/segwit) v0) berfungsi dengan baik tetapi memiliki kekurangan dalam hal privasi dan efisiensi. Mereka membutuhkan penerbitan seluruh logika [skrip](https://planb.academy/resources/glossary/script) on-chain, membuat transaksi swap mudah diidentifikasi oleh analis blockchain dan lebih mahal karena ukuran datanya. Pengenalan [Taproot](https://planb.academy/resources/glossary/taproot) (SegWit v1) dan protokol MuSig2 telah merevolusi arsitektur ini.
 
 
-Taproot memungkinkan untuk **Key Aggregation** melalui MuSig2. Daripada mengungkapkan skrip yang kompleks dengan beberapa public key, MuSig2 mengizinkan para peserta swap untuk menggabungkan key mereka ke dalam satu public key yang diagregasi.
+Taproot memungkinkan untuk **Key Aggregation** melalui MuSig2. Daripada mengungkapkan skrip yang kompleks dengan beberapa [public key](https://planb.academy/resources/glossary/public-key), MuSig2 mengizinkan para peserta swap untuk menggabungkan key mereka ke dalam satu public key yang diagregasi.
 
 
 - "Jalur Kunci" kooperatif:** Jika kedua belah pihak menyetujui pertukaran ("jalur bahagia"), mereka akan menandatangani bersama transaksi tersebut. Bagi jaringan, ini terlihat identik dengan pembayaran standar dengan tanda tangan tunggal. Ini menghabiskan ruang blok minimal dan sama sekali tidak mengungkapkan informasi tentang kondisi swap.
-- "Jalur Skrip" yang berlawanan:** Jika salah satu pihak menjadi tidak responsif atau jahat, skrip yang mendasarinya (yang berisi kunci hash/waktu) baru akan diungkap saat itu juga. Ini diatur dalam sebuah pohon Merkle, yang memungkinkan pihak yang jujur untuk mengekspos hanya cabang tertentu yang diperlukan untuk memulihkan dana, menjaga logika kontrak lainnya tetap tersembunyi.
+- "Jalur Skrip" yang berlawanan:** Jika salah satu pihak menjadi tidak responsif atau jahat, skrip yang mendasarinya (yang berisi kunci hash/waktu) baru akan diungkap saat itu juga. Ini diatur dalam sebuah pohon [Merkle](https://planb.academy/resources/glossary/merkle-tree), yang memungkinkan pihak yang jujur untuk mengekspos hanya cabang tertentu yang diperlukan untuk memulihkan dana, menjaga logika kontrak lainnya tetap tersembunyi.
 
 
 ### Implementasi Praktis: Liquid-Penukar Petir
 
 
-Dalam praktiknya, protokol ini memungkinkan pertukaran yang mulus di antara lapisan Bitcoin. Pertukaran Liquid-ke-Lightning yang khas dimulai dengan klien yang meminta pertukaran dari penyedia layanan. Klien memberikan faktur Lightning, dan penyedia mengunci Liquid Bitcoin (L-BTC) yang setara dengan Liquid ke dalam alamat HTLC yang mendukung Taproot.
+Dalam praktiknya, protokol ini memungkinkan pertukaran yang mulus di antara lapisan Bitcoin. Pertukaran Liquid-ke-Lightning yang khas dimulai dengan klien yang meminta pertukaran dari penyedia layanan. Klien memberikan [faktur Lightning](https://planb.academy/resources/glossary/invoice-lightning), dan penyedia mengunci Liquid Bitcoin (L-BTC) yang setara dengan Liquid ke dalam alamat HTLC yang mendukung Taproot.
 
 
 Atomisitas diberlakukan ketika pembayaran diselesaikan. Untuk mengklaim L-BTC, penyedia layanan harus memiliki gambar awal. Mereka mendapatkan gambar awal ini hanya ketika mereka berhasil membayar faktur Lightning klien. Saat pembayaran Lightning diselesaikan, preimage terungkap, memungkinkan penyedia untuk membuka dana Liquid.
@@ -206,7 +206,7 @@ Atomisitas diberlakukan ketika pembayaran diselesaikan. Untuk mengklaim L-BTC, p
 
 #### Wallet Abstraksi dan Manajemen UTXO
 
-Untuk pengguna akhir, kerumitan ini sepenuhnya abstrak. Dompet modern seperti Aqua menangani pembuatan kunci, pembuatan faktur, dan proses penandatanganan di latar belakang. Pengguna cukup "membayar" faktur Lightning menggunakan saldo Liquid mereka. Di belakang layar, layanan ini mengelola konsolidasi UTXO, secara berkala menyapu hasil yang kecil, tidak diklaim, atau dikembalikan untuk menjaga efisiensi wallet dan meminimalkan dampak biaya selama periode lalu lintas tinggi.
+Untuk pengguna akhir, kerumitan ini sepenuhnya abstrak. Dompet modern seperti Aqua menangani pembuatan kunci, pembuatan faktur, dan proses penandatanganan di latar belakang. Pengguna cukup "membayar" faktur Lightning menggunakan saldo Liquid mereka. Di belakang layar, layanan ini mengelola konsolidasi [UTXO](https://planb.academy/resources/glossary/utxo), secara berkala menyapu hasil yang kecil, tidak diklaim, atau dikembalikan untuk menjaga efisiensi [wallet](https://planb.academy/resources/glossary/wallet) dan meminimalkan dampak biaya selama periode lalu lintas tinggi.
 
 
 ## Gambaran Umum Liquid Network
@@ -220,7 +220,7 @@ Untuk pengguna akhir, kerumitan ini sepenuhnya abstrak. Dompet modern seperti Aq
 ### Arsitektur dan Konsensus Liquid Network
 
 
-Liquid Network beroperasi sebagai sidechain federasi yang dibangun di atas basis kode **Elements**. Sementara Elements - fork dari Bitcoin Core - menyediakan fondasi perangkat lunak, Liquid adalah implementasi jaringan produksi. Tidak seperti Bitcoin, yang bergantung pada mining yang kompetitif, Liquid menggunakan model **Konsensus Gabungan**.
+Liquid Network beroperasi sebagai sidechain federasi yang dibangun di atas basis kode **Elements**. Sementara Elements - fork dari Bitcoin Core - menyediakan fondasi perangkat lunak, Liquid adalah implementasi jaringan produksi. Tidak seperti Bitcoin, yang bergantung pada [mining](https://planb.academy/resources/glossary/mining) yang kompetitif, Liquid menggunakan model **Konsensus Gabungan**.
 
 
 Jaringan ini dikelola oleh lima belas "fungsionaris" yang didistribusikan secara global Entitas-entitas ini mengoperasikan server khusus yang menjalankan dua peran penting:
@@ -283,7 +283,7 @@ Untuk memastikan umur panjang, Liquid menggunakan Dynafed, sebuah protokol yang 
 ### Liquid Network: Strategi dan Ekosistem Bisnis
 
 
-Liquid lebih dari sekadar sidechain teknis; ini adalah lapisan infrastruktur yang berfokus pada bisnis yang dirancang untuk menangani persyaratan kompleks pasar modal yang tidak dapat didukung secara efisien oleh Bitcoin mainchain. Sementara Lightning Network dioptimalkan untuk pembayaran frekuensi tinggi dan bernilai rendah, Liquid menargetkan transfer bernilai tinggi, penerbitan aset, dan penyelesaian antar-bursa.
+Liquid lebih dari sekadar sidechain teknis; ini adalah lapisan infrastruktur yang berfokus pada bisnis yang dirancang untuk menangani persyaratan kompleks pasar modal yang tidak dapat didukung secara efisien oleh Bitcoin mainchain. Sementara [Lightning Network](https://planb.academy/resources/glossary/lightning-network) dioptimalkan untuk pembayaran frekuensi tinggi dan bernilai rendah, Liquid menargetkan transfer bernilai tinggi, penerbitan aset, dan penyelesaian antar-bursa.
 
 
 Ekosistem ini digerakkan oleh **Liquid Federation**, sebuah konsorsium yang terdiri dari ~73 perusahaan termasuk bursa, meja perdagangan, dan penyedia infrastruktur. Model kolaboratif ini mencerminkan lembaga kliring keuangan tradisional tetapi beroperasi dengan transparansi yang lebih besar dan waktu penyelesaian yang jauh lebih singkat (2 menit vs T+2 hari).
@@ -358,7 +358,7 @@ Proposisi nilai inti platform ini bertumpu pada dua kemampuan utama: visibilitas
 
 #### Pengorbanan Operasional
 
-Arsitektur ini memperkenalkan pertukaran tertentu. Sistem ini bergantung pada ketersediaan server AMP; jika server bertindak sebagai penandatangan bersama dan offline, likuiditas aset akan terhenti. Selain itu, meskipun privasi pengguna-ke-pengguna dipertahankan, investor harus menerima bahwa penerbit memiliki visibilitas penuh ke dalam kepemilikan mereka. Model ini sangat ideal untuk token keamanan yang sesuai tetapi tidak cocok untuk mata uang kripto yang tahan sensor.
+Arsitektur ini memperkenalkan pertukaran tertentu. Sistem ini bergantung pada ketersediaan server AMP; jika server bertindak sebagai penandatangan bersama dan offline, likuiditas aset akan terhenti. Selain itu, meskipun privasi pengguna-ke-pengguna dipertahankan, investor harus menerima bahwa penerbit memiliki visibilitas penuh ke dalam kepemilikan mereka. Model ini sangat ideal untuk token keamanan yang sesuai tetapi tidak cocok untuk [mata uang kripto](https://planb.academy/resources/glossary/cryptocurrency) yang tahan sensor.
 
 
 ### Evolusi Arsitektur dan Jalur Integrasi

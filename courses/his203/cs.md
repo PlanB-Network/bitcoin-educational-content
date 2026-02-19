@@ -387,7 +387,7 @@ Ne všichni uvítali publicitu, kterou generated přinesl článek na Gawkeru. S
 
 
 
-Zejména programátor Jeff Garzik, který se v té době podílel na vývoji softwaru, se na toto nevítané spojení díval s nelibostí. Po zveřejnění článku osobně [kontaktoval](https://www.theatlantic.com/technology/archive/2011/06/libertarian-dream-a-site-where-you-buy-drugs-with-digital-dollars/239776/) Adriena Chena e-mailem, aby mu vysvětlil, že Bitcoin není tak anonymní, jak se zdá, protože všechny transakce jsou trvale zaznamenávány v blockchainu. Svůj e-mail zakončil tímto hodnocením:
+Zejména programátor Jeff Garzik, který se v té době podílel na vývoji softwaru, se na toto nevítané spojení díval s nelibostí. Po zveřejnění článku osobně [kontaktoval](https://www.theatlantic.com/technology/archive/2011/06/libertarian-dream-a-site-where-you-buy-drugs-with-digital-dollars/239776/) Adriena Chena e-mailem, aby mu vysvětlil, že Bitcoin není tak anonymní, jak se zdá, protože všechny transakce jsou trvale zaznamenávány v [blockchainu](https://planb.academy/resources/glossary/blockchain). Svůj e-mail zakončil tímto hodnocením:
 
 
 > "Pokoušet se o velké nelegální transakce s bitcoiny je vzhledem k existujícím technikám statistické analýzy, které v terénu používají orgány činné v trestním řízení, zatraceně hloupé."
@@ -908,7 +908,7 @@ V roce 2011 se přestěhoval do Portsmouthu ve státě New Hampshire v rámci pr
 
 > "Ten den byl jedním z nejdůležitějších v mém životě. Bylo to jako objevit nějakou velkou pravdu, jako vidět budoucnost. Nechal jsem všeho, co jsem dělal, a skočil do králičí nory."
 
-Jeho motivace byla především ideologická: lákal ho nezastavitelný charakter systému a nemožnost vytvořit více peněz, než bylo plánováno. Viděl [https://silverunderground.com/2011/06/bitcoin-the-separation-of-money-and-state/] Bitcoin jako ztělesnění "oddělení peněz od státu". Přesvědčily ho také agoristické postupy prosazované Samuelem Konkinem a [věřil](https://bitcointalk.org/index.php?topic=34657.msg431717#msg431717), že "Bitcoin je pro agorismus tím, čím jsou žábry pro ryby", tj. nezbytným ozubeným kolem.
+Jeho motivace byla především ideologická: lákal ho nezastavitelný charakter systému a nemožnost vytvořit více peněz, než bylo plánováno. Viděl [https://silverunderground.com/2011/06/bitcoin-the-separation-of-money-and-state/] Bitcoin jako ztělesnění "oddělení peněz od státu". Přesvědčily ho také agoristické postupy prosazované Samuelem Konkinem a [věřil](https://bitcointalk.org/index.php?topic=34657.msg431717#msg431717), že "Bitcoin je pro [agorismus](https://planb.academy/resources/glossary/agorism) tím, čím jsou žábry pro ryby", tj. nezbytným ozubeným kolem.
 
 
 
@@ -1387,7 +1387,7 @@ Na začátku roku 2012 vyvinula společnost Paymium vlastní aplikaci Custodial:
 
 
 
-Byla to také vhodná doba pro přepsání protokolu Bitcoin. Hlavní software, tehdy nazývaný jednoduše "Bitcoin", byl kompletní implementací v tom smyslu, že vyžadoval údržbu celého blockchainu a předávání nových transakcí a bloků. Byl však jediný, který existoval, takže celá síť se spoléhala pouze na jeho fungování. Proto vznikla touha vyvinout alternativní implementace Bitcoin.
+Byla to také vhodná doba pro přepsání protokolu Bitcoin. Hlavní software, tehdy nazývaný jednoduše "Bitcoin", byl kompletní implementací v tom smyslu, že vyžadoval údržbu celého blockchainu a předávání nových transakcí a [bloků](https://planb.academy/resources/glossary/block). Byl však jediný, který existoval, takže celá síť se spoléhala pouze na jeho fungování. Proto vznikla touha vyvinout alternativní implementace Bitcoin.
 
 
 
@@ -1428,7 +1428,7 @@ Problémem plných implementací je, že jsou náročné na zdroje a pro mnoho l
 
 
 
-První myšlenkou bylo použít uzel jako vzdálený server, kterému uživatel plně důvěřuje. V únoru 2011 Amir Taaki [spustil](https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538) softwarového klienta pro lokální správu wallet připojením k existujícímu uzlu s názvem Spesmilo. Klient původně běžel v systému Linux, ale brzy byl portován na systém Windows. Název odkazoval na spesmilo, starobylou mezinárodní měnovou jednotku, kterou v roce 1907 navrhl švýcarský matematik René de Saussure (bratr lingvisty Ferdinanda) v rámci projektu esperanto.
+První myšlenkou bylo použít [uzel](https://planb.academy/resources/glossary/node) jako vzdálený server, kterému uživatel plně důvěřuje. V únoru 2011 Amir Taaki [spustil](https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538) softwarového klienta pro lokální správu wallet připojením k existujícímu uzlu s názvem Spesmilo. Klient původně běžel v systému Linux, ale brzy byl portován na systém Windows. Název odkazoval na spesmilo, starobylou mezinárodní měnovou jednotku, kterou v roce 1907 navrhl švýcarský matematik René de Saussure (bratr lingvisty Ferdinanda) v rámci projektu esperanto.
 
 
 
@@ -1498,7 +1498,7 @@ Počítalo se se dvěma typy odvození. Jeden typ (typ 1) byl jednoduchý, gener
 
 
 
-Později, v únoru 2012, proběhla standardizace a byla vydána [publikace](https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198) BIP 32. V ní byla popsána obecná struktura *Hierarchických deterministických Wallet*, HD Wallet, kde se k odvození klíčů a adres seed metodicky používají derivace. V průběhu let ji postupně převzala většina wallet.
+Později, v únoru 2012, proběhla standardizace a byla vydána [publikace](https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198) [BIP](https://planb.academy/resources/glossary/bip) 32. V ní byla popsána obecná struktura *Hierarchických deterministických Wallet*, HD Wallet, kde se k odvození klíčů a adres seed metodicky používají derivace. V průběhu let ji postupně převzala většina wallet.
 
 
 
@@ -1757,7 +1757,7 @@ S popularizací Silk Road a jejím převzetím serverem WikiLeaks v létě 2011 
 
 
 
-První z nich je BitLaundry. Tuto službu [spustil](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823) v září 2010 Peter Vessenes, americký podnikatel s diplomem z kryptografie, který v době slashdottingu objevil existenci Bitcoin. Směšovač [poskytl](https://maltemoeser.de/paper/money-laundering.pdf#page=5) uživateli jednorázovou adresu, na kterou byly zasílány prostředky určené k anonymizaci. Bitcoiny pak byly odeslány zpět ve formě několika mincí (UTXO) v rámci transakce s více vstupy, která zahrnuje bitcoiny od jiných uživatelů, čímž se směšování stalo efektivním. Účtované poplatky se pohybovaly kolem 2,5 % z příslušné částky. V květnu 2011 Peter Vessenes [https://bitcointalk.org/index.php?topic=963.msg122955#msg122955], tušíc právní komplikace, které by z této činnosti mohly vyplynout, převedl službu na Mikea Gogulskiho, aktivistu pozoruhodného tím, že je bez státní příslušnosti, neboť se vzdal amerického občanství, aniž by vlastnil jiné.
+První z nich je BitLaundry. Tuto službu [spustil](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823) v září 2010 Peter Vessenes, americký podnikatel s diplomem z [kryptografie](https://planb.academy/resources/glossary/cryptography), který v době slashdottingu objevil existenci Bitcoin. Směšovač [poskytl](https://maltemoeser.de/paper/money-laundering.pdf#page=5) uživateli jednorázovou adresu, na kterou byly zasílány prostředky určené k anonymizaci. Bitcoiny pak byly odeslány zpět ve formě několika mincí ([UTXO](https://planb.academy/resources/glossary/utxo)) v rámci transakce s více vstupy, která zahrnuje bitcoiny od jiných uživatelů, čímž se směšování stalo efektivním. Účtované poplatky se pohybovaly kolem 2,5 % z příslušné částky. V květnu 2011 Peter Vessenes [https://bitcointalk.org/index.php?topic=963.msg122955#msg122955], tušíc právní komplikace, které by z této činnosti mohly vyplynout, převedl službu na Mikea Gogulskiho, aktivistu pozoruhodného tím, že je bez státní příslušnosti, neboť se vzdal amerického občanství, aniž by vlastnil jiné.
 
 
 
@@ -1777,7 +1777,7 @@ Třetí byl zvláštní, protože se jednalo o mixážní pult zabudovaný do Bl
 
 
 
-Rozšíření centralizovaných mixérů mělo za následek katalyzování úvah o decentralizovaném mixování mincí, které začalo v létě 2011 návrhem [proposal](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) předloženým Hashcoin. To vedlo k [formalizaci](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902) CoinJoin společností Gregory Maxwell v roce 2013. Ale to už je úplně jiný příběh...
+Rozšíření centralizovaných mixérů mělo za následek katalyzování úvah o decentralizovaném mixování mincí, které začalo v létě 2011 návrhem [proposal](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) předloženým Hashcoin. To vedlo k [formalizaci](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902) [CoinJoin](https://planb.academy/resources/glossary/coinjoin) společností Gregory Maxwell v roce 2013. Ale to už je úplně jiný příběh...
 
 
 
@@ -1852,7 +1852,7 @@ Zpočátku Slush Pool používal jednoduchý poměrný model: jeho uživatelé j
 
 
 
-Prvním konkurenčním fondem, který se objevil v roce 2011, byl BitPenny, který se vyznačoval odlišným a jednoduchým modelem odměňování: *PPS (Pay Per Share*). Myšlenka spočívala v okamžité výplatě pracovníkům za každý poskytnutý podíl podle jeho obtížnosti ze zůstatku poolu. Na rozdíl od proporcionálního modelu nesl provozovatel celou odchylku, což pro něj bylo rizikové a odůvodňovalo to vyšší provize. Pool BitPenny byl [spuštěn](https://bitcointalk.org/index.php?topic=3266.msg45809#msg45809) 8. února, ale 2. dubna byl po velkých ztrátách nucen ukončit činnost. Přesto byl [znovu spuštěn](https://bitcointalk.org/index.php?topic=36371.msg447984#msg447984) v srpnu s využitím složitější metody, varianty PPS (*Capped Pay Per Share with Recent Backpay* neboli CPPSRB).
+Prvním konkurenčním fondem, který se objevil v roce 2011, byl BitPenny, který se vyznačoval odlišným a jednoduchým modelem odměňování: *PPS (Pay Per Share*). Myšlenka spočívala v okamžité výplatě pracovníkům za každý poskytnutý podíl podle jeho [obtížnosti](https://planb.academy/resources/glossary/difficulty) ze zůstatku poolu. Na rozdíl od proporcionálního modelu nesl provozovatel celou odchylku, což pro něj bylo rizikové a odůvodňovalo to vyšší provize. Pool BitPenny byl [spuštěn](https://bitcointalk.org/index.php?topic=3266.msg45809#msg45809) 8. února, ale 2. dubna byl po velkých ztrátách nucen ukončit činnost. Přesto byl [znovu spuštěn](https://bitcointalk.org/index.php?topic=36371.msg447984#msg447984) v srpnu s využitím složitější metody, varianty PPS (*Capped Pay Per Share with Recent Backpay* neboli CPPSRB).
 
 
 
@@ -1996,7 +1996,7 @@ Jedním ze způsobů, jak bojovat proti centralizaci vyvolané rozsáhlým použ
 
 
 
-Model [se opíral](https://im.forre.st/pb/85341005.txt) o "sharechain, který udržovali zúčastnění těžaři připojení peer-to-peer, podobně jako blockchain Bitcoin. Každý podíl obsahuje otisk předchozího podílu, který podíly spojuje a zajišťuje integritu celku. Obtížnost (která je zpočátku 600krát nižší než obtížnost hlavní sítě) je pravidelně upravována tak, aby byl zaručen průměrný interval 5 sekund. Metodou odměňování je platba podle posledních N podílů (PPLNS), která se provádí přímo v transakci odměňování, a to pokaždé, když je nalezen blok.
+Model [se opíral](https://im.forre.st/pb/85341005.txt) o "sharechain, který udržovali zúčastnění těžaři připojení [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p), podobně jako blockchain Bitcoin. Každý podíl obsahuje otisk předchozího podílu, který podíly spojuje a zajišťuje integritu celku. Obtížnost (která je zpočátku 600krát nižší než obtížnost hlavní sítě) je pravidelně upravována tak, aby byl zaručen průměrný interval 5 sekund. Metodou odměňování je platba podle posledních N podílů (PPLNS), která se provádí přímo v transakci odměňování, a to pokaždé, když je nalezen blok.
 
 
 
@@ -2086,7 +2086,7 @@ Po odchodu Satoshi Nakamoto převzala vývoj softwaru komunita, která jej musel
 
 
 
-V zimě 2011-2012 vznikla polemika ohledně zavedení vícepodpisu v systému Bitcoin. Týkala se mimo jiné systému známého jako "Pay to Script Hash" neboli P2SH. Pete Rizzo a Aaron van Wirdum [by](https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war) tento konflikt nazvali "bitva o P2SH". Byl to první velký spor o vývoj protokolu a první, který nastolil otázku správy.
+V zimě 2011-2012 vznikla polemika ohledně zavedení vícepodpisu v systému Bitcoin. Týkala se mimo jiné systému známého jako "Pay to [Script](https://planb.academy/resources/glossary/script) Hash" neboli P2SH. Pete Rizzo a Aaron van Wirdum [by](https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war) tento konflikt nazvali "bitva o P2SH". Byl to první velký spor o vývoj protokolu a první, který nastolil otázku správy.
 
 
 
@@ -2642,7 +2642,7 @@ I přes tento neúspěch je Litecoin úspěšný. Spolu s namecoinem je jednou z
 
 
 
-Možnost vydělat peníze klonováním Bitcoin a profitovat z rostoucí hodnoty jednotek byla zřejmá. Již v listopadu 2010, tedy ještě předtím, než se objevila myšlenka BitDNS, se na fóru objevila tato možnost. Ribuck, v té době aktivní člen fóra, [napsal](https://bitcointalk.org/index.php?topic=1647.msg20646#msg20646) obžalobu budoucích kopií Bitcoin, přičemž při tom vymyslel termín "shitcoin":
+Možnost vydělat peníze klonováním Bitcoin a profitovat z rostoucí hodnoty jednotek byla zřejmá. Již v listopadu 2010, tedy ještě předtím, než se objevila myšlenka BitDNS, se na fóru objevila tato možnost. Ribuck, v té době aktivní člen fóra, [napsal](https://bitcointalk.org/index.php?topic=1647.msg20646#msg20646) obžalobu budoucích kopií Bitcoin, přičemž při tom vymyslel termín "[shitcoin](https://planb.academy/resources/glossary/shitcoin)":
 
 
 
@@ -2675,7 +2675,7 @@ Od jara 2012 se situace uklidnila. Přesto se v průběhu roku objevilo několik
 
 
 
-Proof of stake je alternativou ke proof of work, v níž je pravděpodobnost výroby bloku určena vlastnictvím jednotek, nikoli spotřebovanou elektřinou. Poprvé ji [popsal](https://www.links.org/files/decentralised-currencies.pdf) v červenci 2011 britský vývojář a aktivista Ben Laurie a její název [vymyslel](https://bitcointalk.org/index.php?topic=27787.msg349645#msg349645) jistý QuantumMechanic na fóru Bitcoin.
+Proof of stake je alternativou ke [proof of work](https://planb.academy/resources/glossary/proof-of-work), v níž je pravděpodobnost výroby bloku určena vlastnictvím jednotek, nikoli spotřebovanou elektřinou. Poprvé ji [popsal](https://www.links.org/files/decentralised-currencies.pdf) v červenci 2011 britský vývojář a aktivista Ben Laurie a její název [vymyslel](https://bitcointalk.org/index.php?topic=27787.msg349645#msg349645) jistý QuantumMechanic na fóru Bitcoin.
 
 
 

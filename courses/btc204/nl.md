@@ -139,7 +139,7 @@ Bitcoin is in de eerste plaats een valuta, maar weet je eigenlijk wel hoe BTC wo
 ### UTXO's op Bitcoin: wat zijn dat?
 
 
-Het Bitcoin-protocol is gebaseerd op het UTXO-model, wat staat voor "Unspent Transaction Output".
+Het Bitcoin-protocol is gebaseerd op het [UTXO](https://planb.academy/resources/glossary/utxo)-model, wat staat voor "Unspent Transaction Output".
 
 
 Dit model verschilt sterk van traditionele banksystemen, die vertrouwen op een mechanisme van rekeningen en saldi om financiële stromen bij te houden. In het banksysteem worden individuele saldi bijgehouden op rekeningen die gekoppeld zijn aan een identiteit. Als je bijvoorbeeld een stokbrood koopt bij een bakker, schrijft je bank het aankoopbedrag af van je rekening, waardoor je saldo daalt, terwijl de rekening van de bakker wordt gecrediteerd met hetzelfde bedrag, waardoor zijn saldo stijgt. In dit systeem is er geen verband tussen het geld dat op je rekening binnenkomt en het geld dat er weer vanaf gaat, afgezien van transactiegegevens.
@@ -151,7 +151,7 @@ Dit model verschilt sterk van traditionele banksystemen, die vertrouwen op een m
 Bitcoin werkt anders. Het concept van een rekening bestaat niet, en monetaire eenheden worden niet beheerd via saldi, maar via UTXO's. Een UTXO vertegenwoordigt een specifieke hoeveelheid bitcoins die nog niet is uitgegeven, en vormt zo een "stuk bitcoin", dat groot of klein kan zijn. Een UTXO kan bijvoorbeeld `500 BTC` waard zijn of simpelweg `700 sats`.
 
 
-**Herinnering:** De Satoshi, vaak afgekort tot sat, is de kleinste eenheid van Bitcoin, vergelijkbaar met de cent in fiatvaluta.
+**Herinnering:** De [Satoshi](https://planb.academy/resources/glossary/satoshi-sat), vaak afgekort tot sat, is de kleinste eenheid van Bitcoin, vergelijkbaar met de cent in [fiatvaluta](https://planb.academy/resources/glossary/fiat).
 
 
 ```plaintext
@@ -159,10 +159,10 @@ Bitcoin werkt anders. Het concept van een rekening bestaat niet, en monetaire ee
 ```
 
 
-Theoretisch kan één UTXO elke waarde in bitcoins vertegenwoordigen, variërend van een sat tot een theoretisch maximum van ongeveer 21 miljoen BTC. Praktisch gezien is het onmogelijk om alle 21 miljoen bitcoins te bezitten, en er bestaat ook een lagere economische 'dust'-drempel: een ondergrens waaronder het uitgeven van een UTXO economisch onrendabel is.
+Theoretisch kan één UTXO elke waarde in bitcoins vertegenwoordigen, variërend van een sat tot een theoretisch maximum van ongeveer 21 miljoen BTC. Praktisch gezien is het onmogelijk om alle 21 miljoen bitcoins te bezitten, en er bestaat ook een lagere economische '[dust](https://planb.academy/resources/glossary/dust)'-drempel: een ondergrens waaronder het uitgeven van een UTXO economisch onrendabel is.
 
 
-**Wist je dat?** De grootste UTXO ooit gecreëerd op Bitcoin had een waarde van `500.000 BTC`. Hij werd gecreëerd door het Mt. Gox-platform tijdens een consolidatieoperatie in november 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://Mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
+**Wist je dat?** De grootste UTXO ooit gecreëerd op Bitcoin had een waarde van `500.000 BTC`. Hij werd gecreëerd door het Mt. Gox-platform tijdens een [consolidatieoperatie](https://planb.academy/resources/glossary/consolidation) in november 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://Mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
 
 ### UTXO's en bestedingsvoorwaarden
@@ -174,7 +174,7 @@ UTXO's zijn de ruilinstrumenten op Bitcoin. Elke transactie resulteert in het ve
 ![BTC204](assets/nl/007.webp)
 
 
-Alle UTXO's zijn beveiligd door scripts die de voorwaarden bepalen waaronder ze kunnen worden uitgegeven. Om een UTXO te consumeren, moet een gebruiker aan het netwerk aantonen dat hij of zij voldoet aan de voorwaarden van het script die die UTXO beveiligt. UTXO's worden doorgaans beschermd door een publieke sleutel (of een ontvangstadres dat deze publieke sleutel vertegenwoordigt). Om een UTXO geassocieerd met deze publieke sleutel uit te geven, moet de gebruiker bewijzen dat hij de corresponderende privésleutel bezit, door een digitale handtekening te leveren die met deze sleutel is gemaakt. Daarom zeggen we dat je Bitcoin-wallet eigenlijk geen bitcoins bevat, maar je privésleutels opslaat, die je op hun beurt toegang geven tot je UTXO's en, bij uitbreiding, tot de bitcoins die ze vertegenwoordigen.
+Alle UTXO's zijn beveiligd door [scripts](https://planb.academy/resources/glossary/script) die de voorwaarden bepalen waaronder ze kunnen worden uitgegeven. Om een UTXO te consumeren, moet een gebruiker aan het netwerk aantonen dat hij of zij voldoet aan de voorwaarden van het script die die UTXO beveiligt. UTXO's worden doorgaans beschermd door een [publieke sleutel](https://planb.academy/resources/glossary/public-key) (of een [ontvangstadres](https://planb.academy/resources/glossary/receiving-address) dat deze publieke sleutel vertegenwoordigt). Om een UTXO geassocieerd met deze publieke sleutel uit te geven, moet de gebruiker bewijzen dat hij de corresponderende [privésleutel](https://planb.academy/resources/glossary/private-key) bezit, door een [digitale handtekening](https://planb.academy/resources/glossary/digital-signature) te leveren die met deze sleutel is gemaakt. Daarom zeggen we dat je [Bitcoin-wallet](https://planb.academy/resources/glossary/wallet) eigenlijk geen bitcoins bevat, maar je privésleutels opslaat, die je op hun beurt toegang geven tot je UTXO's en, bij uitbreiding, tot de bitcoins die ze vertegenwoordigen.
 
 
 ![BTC204](assets/nl/008.webp)
@@ -208,11 +208,11 @@ Het totale saldo van je wallet zou `17 BTC` zijn.
 
 ### Invoer- en uitvoer-transacties
 
-Een Bitcoin-transactie is een operatie die is vastgelegd op de blockchain die het eigendom van bitcoins overdraagt van de ene persoon naar de andere. Om precies te zijn, aangezien we met een UTXO-model werken en er geen rekeningen zijn, voldoet de transactie aan de bestedingsvoorwaarden die een of meer UTXO's veiligstelden, verbruikt deze en creëert ze gelijkwaardig nieuwe UTXO's met nieuwe bestedingsvoorwaarden. Kortom, een transactie verplaatst bitcoins van een negeleefd script naar een nieuw script dat is ontworpen om ze te beveiligen.
+Een Bitcoin-transactie is een operatie die is vastgelegd op de [blockchain](https://planb.academy/resources/glossary/blockchain) die het eigendom van bitcoins overdraagt van de ene persoon naar de andere. Om precies te zijn, aangezien we met een UTXO-model werken en er geen rekeningen zijn, voldoet de transactie aan de bestedingsvoorwaarden die een of meer UTXO's veiligstelden, verbruikt deze en creëert ze gelijkwaardig nieuwe UTXO's met nieuwe bestedingsvoorwaarden. Kortom, een transactie verplaatst bitcoins van een negeleefd script naar een nieuw script dat is ontworpen om ze te beveiligen.
 
 ![BTC204](assets/nl/010.webp)
 
-Elke Bitcoin-transactie bestaat daarom uit een of meer invoertransacties (inputs) en een of meer uitvoertransacties (outputs). Inputs zijn UTXO's die door de transactie worden verbruikt om outputs te genereren. Outputs zijn nieuwe UTXO's die kunnen worden gebruikt als input voor toekomstige transacties.
+Elke Bitcoin-transactie bestaat daarom uit een of meer invoertransacties ([inputs](https://planb.academy/resources/glossary/input)) en een of meer uitvoertransacties ([outputs](https://planb.academy/resources/glossary/output)). Inputs zijn UTXO's die door de transactie worden verbruikt om outputs te genereren. Outputs zijn nieuwe UTXO's die kunnen worden gebruikt als input voor toekomstige transacties.
 
 ![BTC204](assets/nl/011.webp)
 
@@ -224,7 +224,7 @@ Elke invoer (input) in een Bitcoin-transactie verwijst naar een eerder niet-uitg
 
 Elke uitvoer (output) specificeert op zijn beurt de hoeveelheid bitcoins die moet worden overgedragen, evenals de ontvanger. Deze laatste wordt gedefinieerd door een nieuw script, dat meestal de nieuw aangemaakte UTXO blokkeert met een ontvangstadres of een nieuwe publieke sleutel.
 
-Wil een transactie geldig zijn volgens de consensusregels, dan moet de totale uitvoer (output) kleiner zijn dan of gelijk aan de totale invoer (input). Met andere woorden, de som van de nieuwe UTXO's die door de transactie worden gegenereerd, mag niet groter zijn dan de som van de UTXO's die als invoer (inputs) zijn verbruikt. Dit principe is logisch: als je maar `500.000 sats` hebt, kun je geen aankoop doen van `700.000 sats`.
+Wil een transactie geldig zijn volgens de [consensusregels](https://planb.academy/resources/glossary/consensus-rules), dan moet de totale uitvoer (output) kleiner zijn dan of gelijk aan de totale invoer (input). Met andere woorden, de som van de nieuwe UTXO's die door de transactie worden gegenereerd, mag niet groter zijn dan de som van de UTXO's die als invoer (inputs) zijn verbruikt. Dit principe is logisch: als je maar `500.000 sats` hebt, kun je geen aankoop doen van `700.000 sats`.
 
 ### Wisselgeld (exchange) en samenvoegen (merging) in een Bitcoin-transactie
 
@@ -232,7 +232,7 @@ Het effect van een Bitcoin-transactie op UTXO's kan dus vergeleken worden met he
 
 Dit mechanisme is vergelijkbaar met dat van een gouden munt. Laten we zeggen dat je een munt van 2 ounce bezit en een betaling van 1 ounce wilt doen, ervan uitgaande dat de verkoper je geen wisselgeld kan geven. Je zou dan je munt moeten omsmelten en twee nieuwe munten van elk 1 ounce moeten gieten.
 
-Bitcoin werkt op dezelfde manier. Stel, Alice heeft een UTXO van `10.000 sats` en wil een stokbrood kopen van `4.000 sats`. Alice zal een transactie maken met 1 UTXO van `10.000 sats` als input, die ze volledig zal consumeren, en 2 UTXO's van `4.000 sats` en `6.000 sats` als output. De UTXO van `4.000 sats` gaat naar de bakker als betaling voor het stokbrood, terwijl de UTXO van `6.000 sats` teruggaat naar Alice in de vorm van wisselgeld. Deze UTXO, die terugkeert naar de oorspronkelijke uitgever van de transactie, staat bekend als "exchange" in Bitcoin-jargon.
+Bitcoin werkt op dezelfde manier. Stel, Alice heeft een UTXO van `10.000 sats` en wil een stokbrood kopen van `4.000 sats`. Alice zal een transactie maken met 1 UTXO van `10.000 sats` als input, die ze volledig zal consumeren, en 2 UTXO's van `4.000 sats` en `6.000 sats` als output. De UTXO van `4.000 sats` gaat naar de bakker als betaling voor het stokbrood, terwijl de UTXO van `6.000 sats` teruggaat naar Alice in de vorm van wisselgeld. Deze UTXO, die terugkeert naar de oorspronkelijke uitgever van de transactie, staat bekend als "[exchange](https://planb.academy/resources/glossary/change)" in Bitcoin-jargon.
 
 ![BTC204](assets/nl/013.webp)
 
@@ -242,13 +242,13 @@ Laten we ons nu eens voorstellen dat Alice niet één enkele UTXO van `10.000 sa
 
 ### Transactiekosten
 
-Intuïtief zou je kunnen denken dat transactiekosten ook een output van een transactie vertegenwoordigen. Maar in werkelijkheid is dit niet het geval. Transactiekosten vertegenwoordigen het verschil tussen de totale input en de totale output. Dit betekent dat, nadat een deel van de waarde van de inputs is gebruikt om de gewenste outputs in een transactie te dekken, een bepaald bedrag van de inputs ongebruikt blijft. Dit resterende bedrag vormt de transactiekosten.
+Intuïtief zou je kunnen denken dat transactiekosten ook een output van een transactie vertegenwoordigen. Maar in werkelijkheid is dit niet het geval. [Transactiekosten](https://planb.academy/resources/glossary/transaction-fees) vertegenwoordigen het verschil tussen de totale input en de totale output. Dit betekent dat, nadat een deel van de waarde van de inputs is gebruikt om de gewenste outputs in een transactie te dekken, een bepaald bedrag van de inputs ongebruikt blijft. Dit resterende bedrag vormt de transactiekosten.
 
 ```plaintext
 Transactiekosten = totaal inputs - totaal outputs
 ```
 
-Laten we het voorbeeld nemen van Alice, die een UTXO heeft van `10.000 sats` en een stokbrood wil kopen voor `4.000 sats`. Alice creëert een transactie met haar UTXO van `10.000 sats` als input. Ze genereert dan een output van `4.000 sats` voor de bakker als betaling voor het stokbrood. Om miners aan te moedigen haar transactie in een blok te integreren, voegt Alice een vergoeding van `200 sats` toe. Vervolgens creëert ze een tweede output voor haar wisselgeld (exchange), ter waarde van `5.800 sats`, dat aan haar wordt teruggegeven.
+Laten we het voorbeeld nemen van Alice, die een UTXO heeft van `10.000 sats` en een stokbrood wil kopen voor `4.000 sats`. Alice creëert een transactie met haar UTXO van `10.000 sats` als input. Ze genereert dan een output van `4.000 sats` voor de bakker als betaling voor het stokbrood. Om [miners](https://planb.academy/resources/glossary/miner) aan te moedigen haar transactie in een [blok](https://planb.academy/resources/glossary/block) te integreren, voegt Alice een vergoeding van `200 sats` toe. Vervolgens creëert ze een tweede output voor haar wisselgeld (exchange), ter waarde van `5.800 sats`, dat aan haar wordt teruggegeven.
 
 ![BTC204](assets/nl/015.webp)
 
@@ -261,7 +261,7 @@ Transactiekosten = 10 000 - 9 800
 Transactiekosten = 200
 ```
 
-Wanneer een miner erin slaagt om een blok te valideren, is hij gemachtigd om deze vergoedingen te innen voor alle transacties in zijn blok, via de zogenaamde "coinbase"-transactie.
+Wanneer een miner erin slaagt om een blok te valideren, is hij gemachtigd om deze vergoedingen te innen voor alle transacties in zijn blok, via de zogenaamde "[coinbase](https://planb.academy/resources/glossary/coinbase-transaction)"-transactie.
 
 ### UTXO's aanmaken op Bitcoin
 
@@ -269,13 +269,13 @@ Als je de vorige paragrafen zorgvuldig hebt gevolgd, weet je nu dat UTXO's allee
 
 Het antwoord ligt in de **coinbase-transactie**.
 
-De coinbase is een specifiek type Bitcoin-transactie, die uniek is voor elk blok en altijd de eerste is. Hiermee kan de miner die een geldige Proof of Work heeft gevonden, zijn block reward ontvangen. Deze beloning bestaat uit twee elementen: **bloksubsidie** en **transactievergoedingen**, besproken in de vorige sectie.
+De coinbase is een specifiek type Bitcoin-transactie, die uniek is voor elk blok en altijd de eerste is. Hiermee kan de miner die een geldige [Proof of Work](https://planb.academy/resources/glossary/proof-of-work) heeft gevonden, zijn block reward ontvangen. Deze beloning bestaat uit twee elementen: **[bloksubsidie](https://planb.academy/resources/glossary/block-subsidy)** en **transactievergoedingen**, besproken in de vorige sectie.
 
 De coinbase-transactie is uniek omdat het als enige in staat is om _ex nihilo_ bitcoins te creëren, zonder de noodzaak om inputs te consumeren om outputs te generen. Deze nieuw gecreëerde bitcoins kunnen we "originele UTXO's" noemen.
 
 ![BTC204](assets/nl/016.webp)
 
-Bitcoins met een bloksubsidie zijn nieuwe BTC die vanuit het niets worden aangemaakt, volgens een vooraf vastgesteld uitgifteschema in de consensusregels. De bloksubsidie wordt elke 210.000 blokken gehalveerd, dat wil zeggen ongeveer elke vier jaar, in een proces dat bekend staat als "halving". Oorspronkelijk werden er 50 bitcoins gecreëerd met elke subsidie, maar dit bedrag is geleidelijk afgenomen; momenteel is het 3,125 bitcoins per blok.
+Bitcoins met een bloksubsidie zijn nieuwe BTC die vanuit het niets worden aangemaakt, volgens een vooraf vastgesteld [uitgifteschema](https://planb.academy/resources/glossary/limite-demission) in de consensusregels. De bloksubsidie wordt elke 210.000 blokken gehalveerd, dat wil zeggen ongeveer elke vier jaar, in een proces dat bekend staat als "[halving](https://planb.academy/resources/glossary/halving)". Oorspronkelijk werden er 50 bitcoins gecreëerd met elke subsidie, maar dit bedrag is geleidelijk afgenomen; momenteel is het 3,125 bitcoins per blok.
 
 Transactievergoedingen vertegenwoordigen weliswaar nieuw gecreëerde BTC, maar mogen het verschil tussen de totale inputs en outputs van alle transacties in een blok niet overschrijden. We zagen eerder dat deze vergoedingen het deel van de inputs vertegenwoordigen dat niet wordt gebruikt in de outputs van de transacties. Dit deel is technisch gezien "verloren" gegaan tijdens de transactie, en de miner heeft het recht om deze waarde opnieuw te creëren in de vorm van één of meer nieuwe UTXO's. Dit is een overdracht van waarde tussen de uitgever van de transactie en de miner die het toevoegt aan de blockchain.
 
@@ -285,7 +285,7 @@ Transactievergoedingen vertegenwoordigen weliswaar nieuw gecreëerde BTC, maar m
 
 Ten eerste beïnvloedt het UTXO-model direct de transactiekosten van Bitcoin. Omdat de capaciteit van elk blok beperkt is, geven miners de voorkeur aan transacties die de beste vergoedingen bieden in verhouding tot de ruimte die ze innemen in het blok. Hoe meer UTXO's een transactie bevat in haar inputs en outputs, hoe zwaarder ze is en dus hogere vergoedingen vereist. Dit is een van de redenen waarom we vaak proberen het aantal UTXO's in onze wallet te verminderen, wat ook invloed kan hebben op de vertrouwelijkheid, een onderwerp dat we in detail zullen behandelen in het derde deel van deze cursus.
 
-Ten tweede, zoals vermeld in de vorige paragrafen, zijn bitcoin-munten in wezen een keten van UTXO's. Elke transactie creëert dus een link tussen een UTXO uit het verleden en een UTXO uit de toekomst. UTXO's maken het dus mogelijk om expliciet het pad van bitcoins te volgen vanaf hun creatie tot hun huidige uitgaven. Deze transparantie kan als positief worden beschouwd, omdat het elke gebruiker in staat stelt om de authenticiteit van de ontvangen bitcoins vast te stellen. Het is echter ook op dit principe van traceerbaarheid en controleerbaarheid dat de blockchainanalyse gebaseerd is, een praktijk die ontworpen is om je vertrouwelijkheid in gevaar te brengen. In het tweede deel van de cursus gaan we dieper in op deze praktijk.
+Ten tweede, zoals vermeld in de vorige paragrafen, zijn bitcoin-munten in wezen een keten van UTXO's. Elke transactie creëert dus een link tussen een UTXO uit het verleden en een UTXO uit de toekomst. UTXO's maken het dus mogelijk om expliciet het pad van bitcoins te volgen vanaf hun creatie tot hun huidige uitgaven. Deze transparantie kan als positief worden beschouwd, omdat het elke gebruiker in staat stelt om de authenticiteit van de ontvangen bitcoins vast te stellen. Het is echter ook op dit principe van traceerbaarheid en controleerbaarheid dat de [blockchainanalyse](https://planb.academy/resources/glossary/chain-analysis) gebaseerd is, een praktijk die ontworpen is om je vertrouwelijkheid in gevaar te brengen. In het tweede deel van de cursus gaan we dieper in op deze praktijk.
 
 
 ## Bitcoin's privacymodel
@@ -323,7 +323,7 @@ Als je fysieke valuta gebruikt, is het eerste kenmerk het meest complex om te be
 Authenticiteit is ook een moeilijk kenmerk om te verifiëren op een fysieke gelddrager. De huidige technieken om vals geld te bestrijden worden steeds complexer, waardoor retailers genoodzaakt zijn om te investeren in kostbare verificatiesystemen.
 
 
-Aan de andere kant is dubbele besteding voor fysieke valuta vanwege hun aard geen probleem. Als ik je een biljet van €10 geef, verlaat het onherroepelijk mijn bezit en komt het in jouw bezit. Dit sluit vanzelfsprekend uit dat ik deze monetaire eenheid nogmaals kan uitgeven. Kortom, ik zal dit biljet van €10 niet opnieuw kunnen uitgeven.
+Aan de andere kant is [dubbele besteding](https://planb.academy/resources/glossary/double-spending-attack) voor fysieke valuta vanwege hun aard geen probleem. Als ik je een biljet van €10 geef, verlaat het onherroepelijk mijn bezit en komt het in jouw bezit. Dit sluit vanzelfsprekend uit dat ik deze monetaire eenheid nogmaals kan uitgeven. Kortom, ik zal dit biljet van €10 niet opnieuw kunnen uitgeven.
 
 
 ![BTC204](assets/nl/019.webp)
@@ -347,13 +347,13 @@ De enige manier om deze duplicatie van een digitaal actief te vermijden, is om o
 ![BTC204](assets/nl/021.webp)
 
 
-Op Bitcoin wordt double-spending op dezelfde manier voorkomen. We proberen te bevestigen dat er geen transactie heeft plaatsgevonden waarbij de betreffende munten al zijn uitgegeven. Als de munten nooit zijn gebruikt, kunnen we er zeker van zijn dat er geen dubbele uitgaven zullen plaatsvinden. Dit principe werd beschreven door Satoshi Nakamoto in het witboek met de beroemde zin:
+Op Bitcoin wordt double-spending op dezelfde manier voorkomen. We proberen te bevestigen dat er geen transactie heeft plaatsgevonden waarbij de betreffende munten al zijn uitgegeven. Als de munten nooit zijn gebruikt, kunnen we er zeker van zijn dat er geen dubbele uitgaven zullen plaatsvinden. Dit principe werd beschreven door [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) in het [witboek](https://planb.academy/resources/glossary/white-paper) met de beroemde zin:
 
 
 **De enige manier om de afwezigheid van een transactie te bevestigen is door op de hoogte te zijn van alle transacties**
 
 
-Maar in tegenstelling tot het bankmodel, willen we op Bitcoin geen centrale entiteit vertrouwen. Dus alle gebruikers moeten deze afwezigheid van dubbele uitgaven kunnen bevestigen, zonder afhankelijk te zijn van een derde partij. Iedereen moet dus op de hoogte zijn van alle Bitcoin-transacties. Daarom worden Bitcoin-transacties publiekelijk uitgezonden op alle netwerkknooppunten en in platte tekst opgeslagen op de blockchain.
+Maar in tegenstelling tot het bankmodel, willen we op Bitcoin geen centrale entiteit vertrouwen. Dus alle gebruikers moeten deze afwezigheid van dubbele uitgaven kunnen bevestigen, zonder afhankelijk te zijn van een derde partij. Iedereen moet dus op de hoogte zijn van alle Bitcoin-transacties. Daarom worden Bitcoin-transacties publiekelijk uitgezonden op alle [netwerkknooppunten](https://planb.academy/resources/glossary/node) en in platte tekst opgeslagen op de blockchain.
 
 
 Het is precies deze publieke verspreiding van informatie die de bescherming van de privacy in Bitcoin bemoeilijkt. In het traditionele banksysteem is in theorie alleen de financiële instelling op de hoogte van de uitgevoerde transacties. Bij Bitcoin daarentegen zijn alle gebruikers via hun respectievelijke knooppunten (nodes) op de hoogte van alle transacties.
@@ -407,7 +407,7 @@ Maar omdat Bitcoin-transacties openbaar worden gemaakt, is het nog steeds mogeli
 ### Definitie en werking
 
 
-Blockchainanalyse is de praktijk van het traceren van de stroom bitcoins op de blockchain. Ketenanalyse observeert over het algemeen kenmerken in steekproeven van eerdere transacties. Vervolgens identificeert het dezelfde kenmerken in de transactie die we willen analyseren, om daaruit plausibele interpretaties af te leiden. Deze probleemoplossingsmethode, die een praktische oplossing zoekt die 'goed genoeg' is, noemen we een "heuristiek".
+Blockchainanalyse is de praktijk van het traceren van de stroom bitcoins op de blockchain. Ketenanalyse observeert over het algemeen kenmerken in steekproeven van eerdere transacties. Vervolgens identificeert het dezelfde kenmerken in de transactie die we willen analyseren, om daaruit plausibele interpretaties af te leiden. Deze probleemoplossingsmethode, die een praktische oplossing zoekt die 'goed genoeg' is, noemen we een "[heuristiek](https://planb.academy/resources/glossary/analysis-heuristic)".
 
 
 In lekentaal zijn er drie hoofdfasen in de ketenanalyse:
@@ -431,7 +431,7 @@ Eén van de doelen van de blockchainanalyse is het groeperen van verschillende a
 ![BTC204](assets/nl/027.webp)
 
 
-Denk terug aan het vorige hoofdstuk. Ik heb uitgelegd waarom het privacymodel van Bitcoin oorspronkelijk gebaseerd was op de scheiding van gebruikersidentiteit en transacties. Het zou daarom verleidelijk zijn om te denken dat blockchainanalyse nutteloos is, omdat zelfs als we erin slagen om on-chain activiteiten te aggregeren, we ze niet kunnen associëren met een echte identiteit.
+Denk terug aan het vorige hoofdstuk. Ik heb uitgelegd waarom het privacymodel van Bitcoin oorspronkelijk gebaseerd was op de scheiding van gebruikersidentiteit en transacties. Het zou daarom verleidelijk zijn om te denken dat blockchainanalyse nutteloos is, omdat zelfs als we erin slagen om [on-chain](https://planb.academy/resources/glossary/onchain) activiteiten te aggregeren, we ze niet kunnen associëren met een echte identiteit.
 
 
 Theoretisch is deze bewering correct. In het eerste deel van deze cursus zagen we dat cryptografische sleutelparen gebruikt worden om voorwaarden te stellen aan UTXO's. In essentie geven deze sleutelparen geen informatie vrij over de identiteit van hun houders. Dus zelfs als we erin slagen om de activiteiten geassocieerd met verschillende sleutelparen te groeperen, zegt dit ons niets over de entiteit achter deze activiteiten.
@@ -443,7 +443,7 @@ Theoretisch is deze bewering correct. In het eerste deel van deze cursus zagen w
 De praktische realiteit is echter veel complexer. Er is een veelheid aan gedragingen die een echte identiteit kunnen koppelen aan onchain-activiteiten. In analyse wordt dit een ingangspunt (entry point) genoemd, en er zijn er een heleboel.
 
 
-De meest voorkomende is KYC (*Know Your Customer*). Als je bitcoins opneemt van een gereguleerd platform naar een van je persoonlijke ontvangstadressen, dan zijn sommige mensen in staat om jouw identiteit te koppelen aan dat adres. In bredere zin kan een ingangspunt elke vorm van interactie zijn tussen jouw echte leven en een Bitcoin-transactie. Als je bijvoorbeeld een ontvangstadres publiceert op je sociale netwerken, kan dit een ingang zijn voor analyse. Als je een betaling in bitcoin doet aan je bakker, kan hij je gezicht (deel van je identiteit) associëren met een Bitcoin-adres.
+De meest voorkomende is [KYC](https://planb.academy/resources/glossary/kyc-know-your-customer) (*Know Your Customer*). Als je bitcoins opneemt van een gereguleerd platform naar een van je persoonlijke ontvangstadressen, dan zijn sommige mensen in staat om jouw identiteit te koppelen aan dat adres. In bredere zin kan een ingangspunt elke vorm van interactie zijn tussen jouw echte leven en een Bitcoin-transactie. Als je bijvoorbeeld een ontvangstadres publiceert op je sociale netwerken, kan dit een ingang zijn voor analyse. Als je een betaling in bitcoin doet aan je bakker, kan hij je gezicht (deel van je identiteit) associëren met een Bitcoin-adres.
 
 
 Deze ingangspunten zijn vrijwel onvermijdelijk bij het gebruik van Bitcoin. Ook al proberen we hun draagwijdte te beperken, ze zullen altijd aanwezig zijn. Daarom is het cruciaal om methodes te combineren die gericht zijn op het beschermen van je privacy. Hoewel het handhaven van een scheiding tussen je echte identiteit en je transacties een interessante benadering is, blijft het vandaag de dag onvoldoende. Sterker nog, als al je onchain-activiteiten kunnen worden gegroepeerd, zal zelfs het kleinste toegangspunt waarschijnlijk de enige laag van vertrouwelijkheid die je hebt ingesteld in gevaar brengen.
@@ -461,14 +461,14 @@ We moeten dus ook het hoofd kunnen bieden aan blockchainanalyse in ons gebruik v
 ![BTC204](assets/nl/030.webp)
 
 
-Wat is een betere manier om blockchainanalyse tegen te gaan dan te leren over de methodes die erin gebruikt worden? Als je wilt weten hoe je je privacy op Bitcoin kunt verbeteren, moet je deze methoden begrijpen. Dit geeft je een beter begrip van technieken zoals CoinJoin of PayJoin (technieken die we in de laatste delen van de cursus zullen bekijken), en vermindert de fouten die je zou kunnen maken.
+Wat is een betere manier om blockchainanalyse tegen te gaan dan te leren over de methodes die erin gebruikt worden? Als je wilt weten hoe je je privacy op Bitcoin kunt verbeteren, moet je deze methoden begrijpen. Dit geeft je een beter begrip van technieken zoals [CoinJoin](https://planb.academy/resources/glossary/coinjoin) of [PayJoin](https://planb.academy/resources/glossary/payjoin) (technieken die we in de laatste delen van de cursus zullen bekijken), en vermindert de fouten die je zou kunnen maken.
 
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
 https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
-Hierin kunnen we een analogie trekken met cryptografie en cryptoanalyse. Een goede cryptograaf is eerst en vooral een goede cryptanalist. Om een nieuw versleutelingsalgoritme te bedenken, moet je weten welke aanvallen het zal ondervinden en ook bestuderen waarom eerdere algoritmen gebroken zijn. Hetzelfde principe geldt voor Bitcoin-privacy. Inzicht in blockchainanalyse-methoden is de sleutel tot bescherming ertegen. Daarom heb ik een hele sectie over ketenanalyse in deze training opgenomen.
+Hierin kunnen we een analogie trekken met [cryptografie](https://planb.academy/resources/glossary/cryptography) en cryptoanalyse. Een goede cryptograaf is eerst en vooral een goede cryptanalist. Om een nieuw versleutelingsalgoritme te bedenken, moet je weten welke aanvallen het zal ondervinden en ook bestuderen waarom eerdere algoritmen gebroken zijn. Hetzelfde principe geldt voor Bitcoin-privacy. Inzicht in blockchainanalyse-methoden is de sleutel tot bescherming ertegen. Daarom heb ik een hele sectie over ketenanalyse in deze training opgenomen.
 
 
 ### Ketenanalysemethoden
@@ -498,8 +498,8 @@ De eerste twee heuristieken voor ketenanalyse werden ontdekt door Satoshi Nakamo
 
 
 
-- cIOH (*Common Input Ownership Heuristic*);
-- en adres-hergebruik.
+- [cIOH](https://planb.academy/resources/glossary/cioh) (*Common Input Ownership Heuristic*);
+- en [adres-hergebruik](https://planb.academy/resources/glossary/address-reuse).
 
 
 ![BTC204](assets/nl/031.webp)
@@ -585,7 +585,7 @@ De interpretatie van dit model is dat we te maken hebben met een zelfoverdracht.
 We weten dan dat de waargenomen gebruiker waarschijnlijk nog steeds in het bezit is van deze UTXO. In de context van een ketenanalyse, als we weten dat de UTXO gebruikt als input voor de transactie, toebehoort aan Alice, kunnen we aannemen dat de UTXO gebruikt als output, ook aan haar toebehoort. Wat later interessant wordt, is het vinden van transactie-interne heuristieken die deze aanname kunnen versterken (we bekijken deze heuristieken in hoofdstuk 3.3).
 
 
-Hier is bijvoorbeeld een Bitcoin-transactie die het veegpatroon gebruikt:
+Hier is bijvoorbeeld een Bitcoin-transactie die het [veegpatroon](https://planb.academy/resources/glossary/sweep-transaction) gebruikt:
 
 
 ```plaintext
@@ -652,7 +652,7 @@ Dit model wordt gekenmerkt door het verbruik van een paar UTXO's als input (vaak
 ![BTC204](assets/nl/040.webp)
 
 
-De interpretatie van dit model is dat we te maken hebben met gegroepeerde uitgaven. Het is een praktijk die waarschijnlijk een zeer grote economische activiteit onthult, zoals een exchange-platform. Gegroepeerde uitgaven stellen deze entiteiten in staat om kosten te besparen door hun uitgaven te combineren in een enkele transactie.
+De interpretatie van dit model is dat we te maken hebben met [gegroepeerde uitgaven](https://planb.academy/resources/glossary/batched-spending). Het is een praktijk die waarschijnlijk een zeer grote economische activiteit onthult, zoals een exchange-platform. Gegroepeerde uitgaven stellen deze entiteiten in staat om kosten te besparen door hun uitgaven te combineren in een enkele transactie.
 
 
 We kunnen uit dit model afleiden dat de UTXO in de input afkomstig is van een bedrijf met een hoge economische activiteit, en dat de UTXO's in de output zich zullen verspreiden. Veel zullen toebehoren aan de klanten van het bedrijf die bitcoins hebben opgenomen van het platform. Andere kunnen naar partnerbedrijven gaan. Tot slot zullen er zeker één of meer transacties zijn die teruggaan naar het bedrijf dat ze heeft uitgegeven.
@@ -766,7 +766,7 @@ Deze overeenkomsten tussen inputs en outputs stoppen niet bij adres-hergebruik. 
 ![BTC204](assets/nl/047.webp)
 
 
-Op dit diagram kunnen we zien dat input nr. 0 een P2WPKH script opent (SegWit V0 beginnend met `bc1q`). Output nr. 0 gebruikt hetzelfde type script. Output nr. 1 daarentegen gebruikt een P2TR script (SegWit V1 beginnend met `bc1p`). De interpretatie van dit kenmerk is dat het waarschijnlijk is dat het adres met dezelfde versie als de input het exchange-adres is. Het zou dus altijd aan dezelfde gebruiker toebehoren.
+Op dit diagram kunnen we zien dat input nr. 0 een [P2WPKH](https://planb.academy/resources/glossary/p2wpkh) script opent (SegWit V0 beginnend met `bc1q`). Output nr. 0 gebruikt hetzelfde type script. Output nr. 1 daarentegen gebruikt een [P2TR](https://planb.academy/resources/glossary/p2tr) script (SegWit V1 beginnend met `bc1p`). De interpretatie van dit kenmerk is dat het waarschijnlijk is dat het adres met dezelfde versie als de input het exchange-adres is. Het zou dus altijd aan dezelfde gebruiker toebehoren.
 
 
 Hier is een transactie waarop deze heuristiek waarschijnlijk kan worden toegepast:
@@ -783,10 +783,10 @@ db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578
 Bron : [Mempool.space](https://Mempool.space/tx/db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578)
 
 
-Op de laatste kunnen we zien dat input nr. 0 en output nr. 1 P2WPKH scripts gebruiken (SegWit V0), terwijl output nr. 0 een ander P2PKH script gebruikt (Legacy).
+Op de laatste kunnen we zien dat input nr. 0 en output nr. 1 P2WPKH scripts gebruiken (SegWit V0), terwijl output nr. 0 een ander [P2PKH](https://planb.academy/resources/glossary/p2pkh) script gebruikt (Legacy).
 
 
-In het begin van de jaren 2010 was deze heuristiek op basis van scriptversie relatief nutteloos vanwege de beperkte beschikbare scripttypen. Na verloop van tijd en met opeenvolgende Bitcoin updates is er echter een toenemende diversiteit aan scripttypes geïntroduceerd. Deze heuristiek wordt daarom steeds relevanter, want met een breder scala aan scripttypen verdelen gebruikers zich in kleinere groepen, waardoor de kans toeneemt dat deze interne heuristiek voor hergebruik van versies wordt toegepast. Daarom is het, alleen al vanuit het oogpunt van vertrouwelijkheid, aan te raden om te kiezen voor het meest voorkomende type script. Bijvoorbeeld, terwijl ik deze regels schrijf, worden [Taproot](https://planb.academy/resources/glossary/taproot) scripts (`bc1p`) minder vaak gebruikt dan SegWit V0 scripts (`bc1q`). Hoewel de eerste economische en vertrouwelijkheidsvoordelen bieden in bepaalde specifieke contexten, kan het voor meer traditionele toepassingen met één handtekening zinvol zijn om vast te houden aan een oudere standaard om vertrouwelijkheidsredenen, totdat de nieuwe standaard breder wordt aangenomen.
+In het begin van de jaren 2010 was deze heuristiek op basis van scriptversie relatief nutteloos vanwege de beperkte beschikbare scripttypen. Na verloop van tijd en met opeenvolgende Bitcoin updates is er echter een toenemende diversiteit aan scripttypes geïntroduceerd. Deze heuristiek wordt daarom steeds relevanter, want met een breder scala aan scripttypen verdelen gebruikers zich in kleinere groepen, waardoor de kans toeneemt dat deze interne heuristiek voor hergebruik van versies wordt toegepast. Daarom is het, alleen al vanuit het oogpunt van vertrouwelijkheid, aan te raden om te kiezen voor het meest voorkomende type script. Bijvoorbeeld, terwijl ik deze regels schrijf, worden Taproot scripts (`bc1p`) minder vaak gebruikt dan SegWit V0 scripts (`bc1q`). Hoewel de eerste economische en vertrouwelijkheidsvoordelen bieden in bepaalde specifieke contexten, kan het voor meer traditionele toepassingen met één handtekening zinvol zijn om vast te houden aan een oudere standaard om vertrouwelijkheidsredenen, totdat de nieuwe standaard breder wordt aangenomen.
 
 
 ### Betalingen afronden
@@ -1005,7 +1005,7 @@ De analist heeft ook de mogelijkheid om zich te beroepen op analyses die eerder 
 Op dezelfde manier kun je een analyse uitvoeren door eliminatie. Als bijvoorbeeld bij het analyseren van een transactie met twee outputs, één daarvan betrekking heeft op een adres-cluster dat al bekend is, maar verschilt van de entiteit die we traceren, dan kunnen we interpreteren dat de andere output waarschijnlijk exchange (wisselgeld) voorstelt.
 
 
-Kanaalanalyse omvat ook een iets algemenere OSINT-component (*Open Source Intelligence*), waarbij gezocht wordt op internet. Daarom raden we af om adressen rechtstreeks te publiceren op sociale netwerken of op een website, al dan niet onder een pseudoniem.
+Kanaalanalyse omvat ook een iets algemenere [OSINT](https://planb.academy/resources/glossary/osint)-component (*Open Source Intelligence*), waarbij gezocht wordt op internet. Daarom raden we af om adressen rechtstreeks te publiceren op sociale netwerken of op een website, al dan niet onder een pseudoniem.
 
 
 ![BTC204](assets/nl/063.webp)
@@ -1340,7 +1340,7 @@ a6dbebebca119af3d05c0196b76f80fdbf78f20368ebef1b7fd3476d0814517d
 Als we naar het model van deze transactie kijken, is het duidelijk dat het om een gegroepeerde uitgaven gaat. De transactie heeft namelijk één input en 51 outputs, wat duidt op een hoog niveau van economische activiteit. We kunnen daarom de hypothese stellen dat Loïc bitcoins heeft opgenomen van een exchange-platform.
 
 
-Verschillende factoren versterken deze hypothese. Ten eerste, het type script dat gebruikt werd om de input-UTXO te beveiligen is een P2SH 2/3 Multisig script, wat duidt op een geavanceerd beveiligingsniveau dat typisch is voor exchange-platforms:
+Verschillende factoren versterken deze hypothese. Ten eerste, het type script dat gebruikt werd om de input-UTXO te beveiligen is een [P2SH](https://planb.academy/resources/glossary/p2sh) 2/3 Multisig script, wat duidt op een geavanceerd beveiligingsniveau dat typisch is voor exchange-platforms:
 
 
 ```plaintext
@@ -1487,7 +1487,7 @@ Technisch gezien "ontvangt" een Bitcoin ontvangstadres geen bitcoins in letterli
 Bitcoin-adressen zijn er in verschillende types, afhankelijk van het gebruikte scriptingmodel. De eerste modellen, bekend als **Legacy**, omvatten de `P2PKH` (*Pay-to-PubKey-Hash*) en `P2SH` (*Pay-to-Script-Hash*) adressen. P2PKH-adressen beginnen altijd met `1` en P2SH met `3`. Hoewel deze formaten nog steeds veilig zijn, zijn ze nu verouderd omdat ze hogere transactiekosten met zich meebrengen en minder vertrouwelijkheid bieden dan de nieuwe standaarden.
 
 
-SegWit V0 (`P2WPKH` en `P2WSH`) en Taproot / SegWit V1 (`P2TR`) adressen vertegenwoordigen moderne formaten. SegWit-adressen beginnen met `bc1q` en Taproot-adressen, geïntroduceerd in 2021, beginnen met `bc1p`.
+SegWit V0 (`P2WPKH` en `P2WSH`) en [Taproot](https://planb.academy/resources/glossary/taproot) / SegWit V1 (`P2TR`) adressen vertegenwoordigen moderne formaten. SegWit-adressen beginnen met `bc1q` en Taproot-adressen, geïntroduceerd in 2021, beginnen met `bc1p`.
 
 
 Hier is bijvoorbeeld een Taproot ontvangstadres:
@@ -1772,7 +1772,7 @@ In de vorige paragrafen bespraken we de handmatige selectie van UTXO's die gebru
 UTXO selectiemethoden zoals FIFO (*First In First Out*) en LIFO (*Last In First Out*) behoren tot de eenvoudigste, maar ook de minst efficiënte. Met FIFO worden de oudste UTXO's in de wallet eerst gebruikt. Deze aanpak is over het algemeen inefficiënt, zowel voor het minimaliseren van transactiekosten als voor het bewaren van vertrouwelijkheid, behalve in gevallen waar relatieve tijdsloten worden gebruikt die regelmatig vernieuwd moeten worden. Omgekeerd geeft LIFO voorrang aan het gebruik van de meest recente UTXO's. Hoewel beide methoden eenvoudig zijn, blijken ze vaak niet effectief.
 
 
-Een meer geavanceerde methode is de *Knapsack Solver*. Deze werd gebruikt op de Bitcoin Core wallet tot versie 0.17. Het bestaat uit het iteratief en willekeurig selecteren van UTXO's uit de wallet, ze bij elkaar optellen in deelverzamelingen en de oplossing kiezen die het transactiegewicht zoveel mogelijk vermindert, om de kosten voor de gebruiker te verlagen.
+Een meer geavanceerde methode is de *Knapsack Solver*. Deze werd gebruikt op de [Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core) wallet tot versie 0.17. Het bestaat uit het iteratief en willekeurig selecteren van UTXO's uit de wallet, ze bij elkaar optellen in deelverzamelingen en de oplossing kiezen die het transactiegewicht zoveel mogelijk vermindert, om de kosten voor de gebruiker te verlagen.
 
 
 De *Branch-and-Bound* (BNB), vaak het "Murch-algoritme" genoemd naar de uitvinder, heeft de *Knapsack Solver* vervangen in Bitcoin Core vanaf versie 0.17. Deze meer geavanceerde methode heeft als doel een set UTXO's te vinden die precies overeenkomt met het bedrag dat nodig is om aan de output van een transactie te voldoen. Het doel van BNB is om zowel het exchange bedrag als de kosten te minimaliseren, door het zogenaamde afvalcriterium te verlagen, dat rekening houdt met zowel de directe kosten als de verwachte toekomstige kosten van de exchange (wisselgeld). Deze methode is afgeleid van het oorspronkelijke concept van *Branch-and-Bound*, bedacht in 1960 door Ailsa Land en Alison Harcourt, en biedt een nauwkeurigere optimalisatie van vergoedingen dan de *Knapsack Solver*.
@@ -2283,7 +2283,7 @@ Als je geen eigen Bitcoin-node hebt, ben je gedwongen een node van een derde par
 ![BTC204](assets/nl/105.webp)
 
 
-Het grootste risico wanneer je niet je eigen Bitcoin-node gebruikt, is dat de operator van de node van een derde partij jouw activiteiten op de blockchain kan observeren, of zelfs deze informatie kan delen met andere entiteiten. Om dit risico te beperken, is een tussenoplossing om wallet-software te gebruiken die je verbindingen maskeert via Tor. Dit kan de blootstelling van je gegevens verminderen. De optimale oplossing is echter om je eigen Bitcoin-node te hebben en die te gebruiken om je transacties uit te zenden. Natuurlijk moet je ook oppassen dat je geen informatie lekt via je node, maar dat is een ander onderwerp waar we later naar zullen kijken.
+Het grootste risico wanneer je niet je eigen Bitcoin-node gebruikt, is dat de operator van de node van een derde partij jouw activiteiten op de blockchain kan observeren, of zelfs deze informatie kan delen met andere entiteiten. Om dit risico te beperken, is een tussenoplossing om wallet-software te gebruiken die je verbindingen maskeert via [Tor](https://planb.academy/resources/glossary/tor). Dit kan de blootstelling van je gegevens verminderen. De optimale oplossing is echter om je eigen Bitcoin-node te hebben en die te gebruiken om je transacties uit te zenden. Natuurlijk moet je ook oppassen dat je geen informatie lekt via je node, maar dat is een ander onderwerp waar we later naar zullen kijken.
 
 
 Naast het voor de hand liggende voordeel voor je privacy, verzekert het hebben van je eigen complete node je ook van de waarheidsgetrouwheid van gegevens op blockchain, beschermt het je tegen censuur en stelt het je in staat om actief deel te nemen aan het bestuur van Bitcoin. Door je eigen node te gebruiken, draag je je economische gewicht bij aan de keten van jouw keuze, wat belangrijk is tijdens conflicten binnen de gemeenschap, zoals bijvoorbeeld tijdens de Blocksize War van 2015 tot 2017. In het geval van een fork kan het gebruik van een node van een derde partij ertoe leiden dat je een keten steunt die je niet wilt steunen, omdat de nodeoperator de keuze voor jou maakt.
@@ -2298,7 +2298,7 @@ Zoals je kunt zien, is het in het belang van vertrouwelijkheid en individuele so
 Meer in het algemeen is het belangrijk om de heuristieken waar we het in de vorige sectie over hadden te begrijpen, zodat je ze beter kunt vermijden of misleiden. Het toepassen van een aantal best practices kan nuttig zijn, zelfs als ze niet essentieel zijn. Ze bieden een extra beschermingslaag die belangrijk kan zijn bij het handhaven van vertrouwelijkheid bij het gebruik van Bitcoin.
 
 
-Het eerste advies dat ik kan geven, is om op te gaan in de dichtste menigte. Op Bitcoin betekent dit het gebruik maken van de meest gebruikte scriptsjablonen. P2WSH scripts bijvoorbeeld, vaak gebruikt voor SegWit V0 multisig-configuraties, zijn erg ongebruikelijk. Je kunt je er niet mee verbergen in een grote anonimiteitsset. Hetzelfde geldt voor oudere modellen zoals P2PKH of P2SH. Hoewel ze veel voorkomen in de UTXO-set, worden ze steeds minder gebruikt voor nieuwe transacties.
+Het eerste advies dat ik kan geven, is om op te gaan in de dichtste menigte. Op Bitcoin betekent dit het gebruik maken van de meest gebruikte scriptsjablonen. [P2WSH](https://planb.academy/resources/glossary/p2wsh) scripts bijvoorbeeld, vaak gebruikt voor SegWit V0 multisig-configuraties, zijn erg ongebruikelijk. Je kunt je er niet mee verbergen in een grote anonimiteitsset. Hetzelfde geldt voor oudere modellen zoals P2PKH of P2SH. Hoewel ze veel voorkomen in de UTXO-set, worden ze steeds minder gebruikt voor nieuwe transacties.
 
 
 Over het algemeen is het verstandiger om te kiezen voor de meest recente scriptingstandaard, mits deze voldoende is geadopteerd. Dus als ik in 2022 het gebruik van P2TR (Taproot) zou hebben afgeraden vanwege de lage adoptie, zou ik in 2024 adviseren om in plaats daarvan voor dit type script te kiezen, of als dat niet lukt, voor SegWit V0-script, aangezien het aantal transacties dat P2TR gebruikt een zeer aanzienlijk deel begint uit te maken.
@@ -2627,7 +2627,7 @@ In dezelfde thread vinden we [een bericht van hashcoin in antwoord op Duncan Tow
 ### Zerolink
 
 
-Zerolink is een uitgebreid mengprotocol dat Chaumian coinjoins en verschillende strategieën bevat om de anonimiteit van gebruikers te beschermen tegen verschillende vormen van ketenanalyse, in het bijzonder door fouten te minimaliseren die geassocieerd worden met wallet-beheer. Dit protocol [werd geïntroduceerd door nopara73 en TDevD in 2017](https://github.com/nopara73/ZeroLink/blob/master/README.md).
+[Zerolink](https://planb.academy/resources/glossary/zerolink) is een uitgebreid mengprotocol dat Chaumian coinjoins en verschillende strategieën bevat om de anonimiteit van gebruikers te beschermen tegen verschillende vormen van ketenanalyse, in het bijzonder door fouten te minimaliseren die geassocieerd worden met wallet-beheer. Dit protocol [werd geïntroduceerd door nopara73 en TDevD in 2017](https://github.com/nopara73/ZeroLink/blob/master/README.md).
 
 
 ![BTC204](assets/nl/132.webp)
@@ -3705,7 +3705,7 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d
 
 
 
-Wanneer je een betalingstransactie wilt uitvoeren met behoud van een zekere mate van vertrouwelijkheid, is PayJoin een goede optie. Maar zoals we net hebben gezien, vereist PayJoin de betrokkenheid van de ontvanger. Dus wat doe je als de ontvanger weigert mee te werken aan een PayJoin, of als je hem er gewoon liever niet bij betrekt? Een alternatief is om een Stonewall of Stonewall x2 transactie te gebruiken. Laten we deze twee soorten transacties eens nader bekijken.
+Wanneer je een betalingstransactie wilt uitvoeren met behoud van een zekere mate van vertrouwelijkheid, is PayJoin een goede optie. Maar zoals we net hebben gezien, vereist PayJoin de betrokkenheid van de ontvanger. Dus wat doe je als de ontvanger weigert mee te werken aan een PayJoin, of als je hem er gewoon liever niet bij betrekt? Een alternatief is om een [Stonewall](https://planb.academy/resources/glossary/stonewall) of Stonewall x2 transactie te gebruiken. Laten we deze twee soorten transacties eens nader bekijken.
 
 
 ### De Stonewall-transactie
@@ -4032,7 +4032,7 @@ Bovendien is er geen garantie dat Alice, zodra zij de privésleutel $B$ van Bob 
 Om deze problemen op te lossen en uitwisselingen mogelijk te maken tussen partijen die elkaar niet vertrouwen, gaan we in plaats daarvan smart contract-systemen gebruiken. Een smart contract is een programma dat automatisch wordt uitgevoerd wanneer aan vooraf gedefinieerde voorwaarden wordt voldaan. In ons geval zorgt dit ervoor dat de uitwisseling van eigendom automatisch plaatsvindt, zonder dat wederzijds vertrouwen nodig is.
 
 
-Dit kan met HTLC (*Hash Time-Locked Contracts*) of PTLC (*Point Time-Locked Contracts*). Deze twee protocollen werken op een vergelijkbare manier en gebruiken een tijdvergrendelingssysteem dat ervoor zorgt dat de uitwisseling met succes wordt voltooid of volledig wordt geannuleerd, waardoor de integriteit van de fondsen van beide partijen wordt beschermd. Het belangrijkste verschil tussen HTLC en PTLC is dat HTLC hashes en preimages gebruikt om de transactie te beveiligen, terwijl PTLC Adaptor Signatures gebruikt.
+Dit kan met [HTLC](https://planb.academy/resources/glossary/htlc) (*Hash Time-Locked Contracts*) of PTLC (*Point Time-Locked Contracts*). Deze twee protocollen werken op een vergelijkbare manier en gebruiken een tijdvergrendelingssysteem dat ervoor zorgt dat de uitwisseling met succes wordt voltooid of volledig wordt geannuleerd, waardoor de integriteit van de fondsen van beide partijen wordt beschermd. Het belangrijkste verschil tussen HTLC en PTLC is dat HTLC hashes en preimages gebruikt om de transactie te beveiligen, terwijl PTLC Adaptor Signatures gebruikt.
 
 
 In een coinswap-scenario met HTLC of PTLC tussen Alice en Bob, vindt de exchange veilig plaats: of het slaagt en ieder ontvangt de BTC van de ander, of het mislukt en ieder behoudt zijn eigen BTC. Dit maakt het onmogelijk voor een van de partijen om vals te spelen of de BTC van de ander te stelen.
@@ -4129,7 +4129,7 @@ Op een vergelijkbare manier als coinswap, en met behulp van dezelfde soorten sma
 ![BTC204](assets/nl/203.webp)
 
 
-Atomic swaps en coinswaps hebben een vergelijkbare werkwijze en bieden dezelfde voor- en nadelen op het gebied van vertrouwelijkheid. Vanuit het oogpunt van Bitcoin is een atomic swap namelijk vergelijkbaar met een coinswap die in twee fasen wordt uitgevoerd. Eerst wisselen we onze BTC voor een andere cryptocurrency, dan kan deze cryptocurrency worden geruild voor andere BTC. Uiteindelijk krijgen we de BTC van een andere gebruiker terug. Daarom groepeer ik deze twee protocollen bij de analyse van vertrouwelijkheidsproblemen in de categorie van geheime uitwisselingen voor eigen gebruik.
+[Atomic swaps](https://planb.academy/resources/glossary/atomic-swap) en coinswaps hebben een vergelijkbare werkwijze en bieden dezelfde voor- en nadelen op het gebied van vertrouwelijkheid. Vanuit het oogpunt van Bitcoin is een atomic swap namelijk vergelijkbaar met een coinswap die in twee fasen wordt uitgevoerd. Eerst wisselen we onze BTC voor een andere cryptocurrency, dan kan deze cryptocurrency worden geruild voor andere BTC. Uiteindelijk krijgen we de BTC van een andere gebruiker terug. Daarom groepeer ik deze twee protocollen bij de analyse van vertrouwelijkheidsproblemen in de categorie van geheime uitwisselingen voor eigen gebruik.
 
 
 ![BTC204](assets/nl/204.webp)
@@ -4192,7 +4192,7 @@ In Deel 4 hebben we besproken hoe belangrijk het is om een compleet knooppunt (f
 ### Dandelion
 
 
-Een manier om de verschillende de-anonimiseringsaanvallen te omzeilen is het gebruik van het Dandelion-voorstel. Dit broadcast-protocol werd geformaliseerd in BIP156, maar is nooit geïmplementeerd op Bitcoin.
+Een manier om de verschillende de-anonimiseringsaanvallen te omzeilen is het gebruik van het [Dandelion](https://planb.academy/resources/glossary/dandelion)-voorstel. Dit broadcast-protocol werd geformaliseerd in BIP156, maar is nooit geïmplementeerd op Bitcoin.
 
 
 Het idee achter Dandelion is om de vertrouwelijkheid van de routering van transacties in het Bitcoin-netwerk te verbeteren om verschillende vormen van aanvallen tegen te gaan. Het hoofddoel is het verbergen van het bronknooppunt (source node) dat in eerste instantie een transactie op het netwerk heeft uitgezonden. Openbaarmaking van dit knooppunt zou het mogelijk kunnen maken om een Bitcoin-transactie te linken aan een specifiek IP adres (als het knooppunt opereert op het clearnet), wat een input zou kunnen bieden voor ketenanalyse.
@@ -4479,7 +4479,7 @@ Concreet, om de gecomprimeerde publieke sleutel en stringcode geassocieerd met d
 ### Diffie-Hellman sleuteluitwisseling op elliptische krommen (ECDH)
 
 
-Het cryptografische protocol in het hart van BIP47 staat bekend onder het acroniem ECDH, voor *Elliptic-Curve Diffie-Hellman*. Deze methode is een variant van de originele Diffie-Hellman sleuteluitwisseling.
+Het cryptografische protocol in het hart van BIP47 staat bekend onder het acroniem [ECDH](https://planb.academy/resources/glossary/ecdh), voor *Elliptic-Curve Diffie-Hellman*. Deze methode is een variant van de originele Diffie-Hellman sleuteluitwisseling.
 
 
 Diffie-Hellman, geïntroduceerd in 1976, is een sleutelovereenkomstprotocol waarmee twee partijen, elk uitgerust met een sleutelpaar (openbaar en privé), het eens kunnen worden over een gemeenschappelijk geheim, zelfs als ze alleen communiceren via een openbaar, onbeveiligd kanaal.

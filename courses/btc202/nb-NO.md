@@ -133,7 +133,7 @@ Er du klar til å slå på din første Bitcoin-node? Sett kurs mot suverenitet!
 
 
 
-Slik skaperen, Satoshi Nakamoto, beskriver det, presenterer Bitcoin seg selv som et elektronisk peer-to-peer-kontantsystem. Denne enkle setningen, som er tittelen på hvitboken, inneholder mange ledetråder til Bitcoins natur:
+Slik skaperen, [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi), beskriver det, presenterer Bitcoin seg selv som et elektronisk [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p)-kontantsystem. Denne enkle setningen, som er tittelen på [hvitboken](https://planb.academy/resources/glossary/white-paper), inneholder mange ledetråder til Bitcoins natur:
 
 
 
@@ -144,7 +144,7 @@ Slik skaperen, Satoshi Nakamoto, beskriver det, presenterer Bitcoin seg selv som
 
 
 
-Siden Bitcoin er et system, må det nødvendigvis kjøres på datamaskiner. Og på grunn av dets peer-to-peer-karakter er det brukerne selv som tar ansvar for å drive disse maskinene. Det vi kaller en "Bitcoin-node" er nettopp den datamaskinen som programvaren som implementerer Bitcoin-protokollen (som Bitcoin core, men det kommer vi tilbake til senere) kjører på. Det er dette som gjør at Bitcoin kan operere uten en sentral autoritet: Valideringen utføres på en distribuert måte, av tusenvis av uavhengige maskiner som tilhører tusenvis av brukere.
+Siden Bitcoin er et system, må det nødvendigvis kjøres på datamaskiner. Og på grunn av dets peer-to-peer-karakter er det brukerne selv som tar ansvar for å drive disse maskinene. Det vi kaller en "[Bitcoin-node](https://planb.academy/resources/glossary/node)" er nettopp den datamaskinen som programvaren som [implementerer Bitcoin-protokollen](https://planb.academy/resources/glossary/bitcoin-implementation) (som [Bitcoin core](https://planb.academy/resources/glossary/bitcoin-core), men det kommer vi tilbake til senere) kjører på. Det er dette som gjør at Bitcoin kan operere uten en sentral autoritet: Valideringen utføres på en [distribuert](https://planb.academy/resources/glossary/distributed) måte, av tusenvis av uavhengige maskiner som tilhører tusenvis av brukere.
 
 
 
@@ -156,7 +156,7 @@ Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://B
 
 
 
-Det er nettopp disse brukerne som sørger for Bitcoins sikkerhet. Som Eric Voskuil forklarer i boken *Cryptoeconomics*, er sikkerheten til Bitcoin verken avhengig av Blockchain, hashingkraft, validering, desentralisering, kryptografi, åpen kildekode eller spillteori. Sikkerheten til Bitcoin avhenger først og fremst av individene som er villige til å utsette seg for personlig risiko. Desentralisering gjør det mulig å spre denne risikoen på et stort antall individer, og det er bare deres evne til å stå imot som sikrer systemets robusthet.
+Det er nettopp disse brukerne som sørger for Bitcoins sikkerhet. Som Eric Voskuil forklarer i boken *Cryptoeconomics*, er sikkerheten til Bitcoin verken avhengig av [Blockchain](https://planb.academy/resources/glossary/blockchain), [hashingkraft](https://planb.academy/resources/glossary/hashrate), validering, desentralisering, [kryptografi](https://planb.academy/resources/glossary/cryptography), [åpen kildekode](https://planb.academy/resources/glossary/foss) eller spillteori. Sikkerheten til Bitcoin avhenger først og fremst av individene som er villige til å utsette seg for personlig risiko. Desentralisering gjør det mulig å spre denne risikoen på et stort antall individer, og det er bare deres evne til å stå imot som sikrer systemets robusthet.
 
 
 
@@ -190,7 +190,7 @@ Bitcoin-nodene danner til sammen det som kalles Bitcoin-nettverket. De gjør det
 
 
 
-Fra starten av ble Bitcoin utviklet for at hver bruker skulle kunne kjøre en personlig node. Dette gjelder fortsatt med dagens Bitcoin core-programvare, som kombinerer rollene som Wallet og node. Men i dag er denne funksjonen ofte adskilt: Mange moderne Bitcoin-lommebøker er bare lommebøker som kobles til eksterne noder (eid av samme person eller ikke).
+Fra starten av ble Bitcoin utviklet for at hver bruker skulle kunne kjøre en personlig node. Dette gjelder fortsatt med dagens Bitcoin core-programvare, som kombinerer rollene som [Wallet](https://planb.academy/resources/glossary/wallet) og node. Men i dag er denne funksjonen ofte adskilt: Mange moderne Bitcoin-lommebøker er bare lommebøker som kobles til eksterne noder (eid av samme person eller ikke).
 
 
 
@@ -198,7 +198,7 @@ Fra starten av ble Bitcoin utviklet for at hver bruker skulle kunne kjøre en pe
 
 
 
-Den første oppgaven til en node er å vedlikeholde en lokal kopi av Blockchain. For å forhindre Double-spending på Bitcoin uten å involvere en sentral autoritet, må hver bruker kontrollere at det ikke finnes noen transaksjon i systemet. Den eneste måten å være sikker på dette på, er å kjenne til alle transaksjonene som er gjort på Bitcoin. Derfor er alle transaksjoner tidsstemplet og gruppert i blokker, og hver node lagrer hele Blockchain.
+Den første oppgaven til en node er å vedlikeholde en lokal kopi av Blockchain. For å forhindre [Double-spending](https://planb.academy/resources/glossary/double-spending-attack) på Bitcoin uten å involvere en sentral autoritet, må hver bruker kontrollere at det ikke finnes noen [transaksjon](https://planb.academy/resources/glossary/transaction-tx) i systemet. Den eneste måten å være sikker på dette på, er å kjenne til alle transaksjonene som er gjort på Bitcoin. Derfor er alle transaksjoner [tidsstemplet](https://planb.academy/resources/glossary/timestamp) og gruppert i [blokker](https://planb.academy/resources/glossary/block), og hver node lagrer hele Blockchain.
 
 
 
@@ -208,7 +208,7 @@ Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://B
 
 
 
-Blockchain er derfor et register i utvikling: Hver gang en ny blokk publiseres av en Miner, sjekker noden dens gyldighet før den legges til i sin egen lokale kopi av kjeden. Per i dag (juli 2025) er hele Blockchain på mer enn 675 GB, og denne størrelsen fortsetter å vokse ettersom en ny blokk legges til i gjennomsnitt hvert tiende minutt.
+Blockchain er derfor et register i utvikling: Hver gang en ny blokk publiseres av en [Miner](https://planb.academy/resources/glossary/miner), sjekker noden dens gyldighet før den legges til i sin egen lokale kopi av kjeden. Per i dag (juli 2025) er hele Blockchain på mer enn 675 GB, og denne størrelsen fortsetter å vokse ettersom en ny blokk legges til i gjennomsnitt hvert tiende minutt.
 
 
 
@@ -216,7 +216,7 @@ Blockchain er derfor et register i utvikling: Hver gang en ny blokk publiseres a
 
 
 
-Noden har også en lokal oversikt over alle UTXO-er som finnes til enhver tid, kjent som **UTXO-settet**. Denne databasen inneholder alle de ubrukte Bitcoin-fragmentene. Vi kommer tilbake til dette emnet i detalj i siste del av kurset.
+Noden har også en lokal oversikt over alle [UTXO](https://planb.academy/resources/glossary/utxo)-er som finnes til enhver tid, kjent som **[UTXO-settet](https://planb.academy/resources/glossary/utxo-set)**. Denne databasen inneholder alle de ubrukte Bitcoin-fragmentene. Vi kommer tilbake til dette emnet i detalj i siste del av kurset.
 
 
 
@@ -224,14 +224,14 @@ Noden har også en lokal oversikt over alle UTXO-er som finnes til enhver tid, k
 
 
 
-Den andre rollen en node har, er å sørge for verifisering og videreformidling av transaksjoner. Når en ny transaksjon når noden (enten via Wallet-programvaren eller en annen node), kontrollerer den at den er i samsvar med et sett regler (konsensusregler og reléregler). For eksempel
+Den andre rollen en node har, er å sørge for verifisering og videreformidling av transaksjoner. Når en ny transaksjon når noden (enten via Wallet-programvaren eller en annen node), kontrollerer den at den er i samsvar med et sett regler ([konsensusregler](https://planb.academy/resources/glossary/consensus-rules) og [reléregler](https://planb.academy/resources/glossary/relay)). For eksempel
 
 
 
 
 - brukte bitcoins må finnes i UTXO-settet (databasen med ubrukte utganger);
-- signaturen må være gyldig, og alle utgiftsbetingelser må være oppfylt (gyldig skript);
-- den totale mengden output må ikke overstige den totale mengden input, noe som betyr at kostnadene ikke kan være negative.
+- [signaturen](https://planb.academy/resources/glossary/digital-signature) må være gyldig, og alle utgiftsbetingelser må være oppfylt (gyldig [skript](https://planb.academy/resources/glossary/script));
+- den totale mengden [output](https://planb.academy/resources/glossary/output) må ikke overstige den totale mengden [input](https://planb.academy/resources/glossary/input), noe som betyr at [kostnadene](https://planb.academy/resources/glossary/transaction-fees) ikke kan være negative.
 
 
 
@@ -239,7 +239,7 @@ Den andre rollen en node har, er å sørge for verifisering og videreformidling 
 
 
 
-Etter validering lagres transaksjonen i nodens Mempool, et midlertidig minneområde som er reservert for ubekreftede transaksjoner, og videresendes deretter til de andre nettverksmotpartene som den er koblet til. Denne distribusjons- og valideringsmekanismen fortsetter fra node til node. På denne måten forplantes transaksjonen på tvers av Bitcoin-nettverket, og hver node lagrer den i Mempool til den blir inkludert i en gyldig blokk av en Miner, som deretter handler på den første bekreftelsen.
+Etter validering lagres transaksjonen i nodens [Mempool](https://planb.academy/resources/glossary/mempool), et midlertidig minneområde som er reservert for ubekreftede transaksjoner, og videresendes deretter til de andre nettverksmotpartene som den er koblet til. Denne distribusjons- og valideringsmekanismen fortsetter fra node til node. På denne måten [forplantes](https://planb.academy/resources/glossary/diffusion) transaksjonen på tvers av Bitcoin-nettverket, og hver node lagrer den i Mempool til den blir inkludert i en gyldig blokk av en Miner, som deretter handler på den første [bekreftelsen](https://planb.academy/resources/glossary/confirmation).
 
 
 
@@ -247,7 +247,7 @@ Etter validering lagres transaksjonen i nodens Mempool, et midlertidig minneomr�
 
 
 
-Nodens tredje rolle er å administrere utvunnede blokker. Når en Miner oppdager en ny blokk med en gyldig Proof of Work, sendes den ut i nettverket. Nodene mottar den, kontrollerer at den er i samsvar med alle protokollreglene og integrerer den i sin egen lokale kopi av Blockchain hvis den er gyldig. På samme måte som med transaksjoner, blir nyvaliderte blokker sendt videre til alle andre noder som er koblet til noden. Denne prosessen fortsetter til alle nodene i Bitcoin-nettverket er klar over den nye blokken.
+Nodens tredje rolle er å administrere utvunnede blokker. Når en Miner oppdager en ny blokk med en gyldig [Proof of Work](https://planb.academy/resources/glossary/proof-of-work), sendes den ut i nettverket. Nodene mottar den, kontrollerer at den er i samsvar med alle protokollreglene og integrerer den i sin egen lokale kopi av Blockchain hvis den er gyldig. På samme måte som med transaksjoner, blir nyvaliderte blokker sendt videre til alle andre noder som er koblet til noden. Denne prosessen fortsetter til alle nodene i Bitcoin-nettverket er klar over den nye blokken.
 
 
 
@@ -281,7 +281,7 @@ En Bitcoin Wallet er derimot en programvare som er designet for å lagre og admi
 
 
 
-I noen tilfeller kan disse to funksjonene sameksistere i samme programvare, slik tilfellet er med Bitcoin core, som fungerer som både en Full node og en Wallet. Mange populære Wallet-programmer (Sparrow, BlueWallet osv.) krever imidlertid en tilkobling til en ekstern node (enten det er din egen eller en tredjeparts) for å kringkaste transaksjoner og bestemme Wallet-saldoen.
+I noen tilfeller kan disse to funksjonene sameksistere i samme programvare, slik tilfellet er med Bitcoin core, som fungerer som både en [Full node](https://planb.academy/resources/glossary/full-node) og en Wallet. Mange populære Wallet-programmer (Sparrow, BlueWallet osv.) krever imidlertid en tilkobling til en ekstern node (enten det er din egen eller en tredjeparts) for å kringkaste transaksjoner og bestemme Wallet-saldoen.
 
 
 
@@ -304,7 +304,7 @@ Da Bitcoin ble lansert av Satoshi Nakamoto i 2009, var det forventet at alle bru
 
 
 
-Men med den gradvise populariseringen av Bitcoin og økningen i antall gruvearbeidere, har konkurranselandskapet i Mining gjennomgått et radikalt skifte. I dag har Mining blitt en ekstremt konkurranseutsatt aktivitet, dominert av industrielle aktører utstyrt med spesialisert infrastruktur. Kraften som kreves for å utvinne en ny blokk, er nå så stor at det er praktisk talt umulig for en enkelt bruker å oppnå dette ved hjelp av bare en vanlig datamaskin. Derfor utføres Mining nå primært ved hjelp av spesialiserte maskiner som kalles ASICs (*Application-Specific Integrated Circuits*). Disse brikkene er optimalisert utelukkende for å kjøre dobbel SHA-256, algoritmen som brukes for Mining på Bitcoin.
+Men med den gradvise populariseringen av Bitcoin og økningen i antall gruvearbeidere, har konkurranselandskapet i Mining gjennomgått et radikalt skifte. I dag har Mining blitt en ekstremt konkurranseutsatt aktivitet, dominert av industrielle aktører utstyrt med spesialisert infrastruktur. Kraften som kreves for å utvinne en ny blokk, er nå så stor at det er praktisk talt umulig for en enkelt bruker å oppnå dette ved hjelp av bare en vanlig datamaskin. Derfor utføres Mining nå primært ved hjelp av spesialiserte maskiner som kalles [ASICs](https://planb.academy/resources/glossary/asic) (*Application-Specific Integrated Circuits*). Disse brikkene er optimalisert utelukkende for å kjøre dobbel [SHA-256](https://planb.academy/resources/glossary/sha256), algoritmen som brukes for Mining på Bitcoin.
 
 
 
@@ -328,7 +328,7 @@ En Miner trenger en Bitcoin-node for å samhandle med nettverket.
 
 
 
-Rollen til Miner skilles også noen ganger fra rollen til grind. En grind er en maskin som har som oppgave å Hash malblokker levert av en pool-server, på jakt etter hasher som tilfredsstiller vanskelighetsmålet som er definert for aksjer, og ikke Bitcoin. Resten av Mining-prosessen, som inkluderer faktisk blokkkonstruksjon, transaksjonsvalg eller Proof-of-Work-søk i henhold til Bitcoins egen vanskelighetsgrad, samt distribusjon, utføres direkte av poolene.
+Rollen til Miner skilles også noen ganger fra rollen til grind. En grind er en maskin som har som oppgave å Hash malblokker levert av en [pool](https://planb.academy/resources/glossary/pool-mining)-server, på jakt etter hasher som tilfredsstiller vanskelighetsmålet som er definert for aksjer, og ikke Bitcoin. Resten av Mining-prosessen, som inkluderer faktisk blokkkonstruksjon, transaksjonsvalg eller Proof-of-Work-søk i henhold til Bitcoins egen vanskelighetsgrad, samt distribusjon, utføres direkte av poolene.
 
 
 
@@ -598,7 +598,7 @@ Dette er de grunnleggende reglene i Bitcoin-protokollen, som sikrer systemets in
 
 
 
-Å endre disse reglene er det samme som å endre protokollen, og dermed valutaen (Hard Fork). Men selv om man ikke prøver å endre dem, gir det enkle faktum at de eksisterende reglene anvendes strengt, en viss makt: Hvis en blokk bryter med reglene, avviser noden den umiddelbart.
+Å endre disse reglene er det samme som å endre protokollen, og dermed valutaen ([Hard Fork](https://planb.academy/resources/glossary/hard-fork)). Men selv om man ikke prøver å endre dem, gir det enkle faktum at de eksisterende reglene anvendes strengt, en viss makt: Hvis en blokk bryter med reglene, avviser noden den umiddelbart.
 
 
 
@@ -722,7 +722,7 @@ Full node trenger ikke å stole på noen, fordi den validerer og kjenner all inf
 
 
 
-I praksis krever en Full node ikke ubetydelige ressurser, inkludert flere hundre gigabyte for blokkfiler, en prosessor som kan validere skript, RAM for Mempool og cacher, og stabil båndbredde. Den første synkroniseringen (*IBD*) leser og verifiserer hele historikken: Det er intensivt, men skjer bare én gang. En Full node deltar aktivt i nettverket, videresender blokker og transaksjoner, og kan ta imot innkommende tilkoblinger for å hjelpe andre peers.
+I praksis krever en Full node ikke ubetydelige ressurser, inkludert flere hundre gigabyte for blokkfiler, en prosessor som kan validere skript, RAM for Mempool og cacher, og stabil båndbredde. Den første synkroniseringen (*[IBD](https://planb.academy/resources/glossary/initial-block-download-ibd)*) leser og verifiserer hele historikken: Det er intensivt, men skjer bare én gang. En Full node deltar aktivt i nettverket, videresender blokker og transaksjoner, og kan ta imot innkommende tilkoblinger for å hjelpe andre peers.
 
 
 
@@ -758,7 +758,7 @@ Kort sagt fungerer Wallet-sporing problemfritt på en pruned-node hvis du oppret
 
 
 
-En SPV-node (*Simplified Payment Verification*), eller lettvektsnode, beholder bare blokkoverskrifter, ikke transaksjonsdetaljer, og er avhengig av andre fullstendige noder for å få bevis på at en transaksjon er i en blokk (Merkle-bevis via trær) som den har overskriften for. Konseptet med forenklet betalingsverifisering er ikke nytt, og ble foreslått av Satoshi Nakamoto selv i del 8 av hvitboken.
+En [SPV](https://planb.academy/resources/glossary/spv-node-light-node)-node (*Simplified Payment Verification*), eller lettvektsnode, beholder bare blokkoverskrifter, ikke transaksjonsdetaljer, og er avhengig av andre fullstendige noder for å få bevis på at en transaksjon er i en blokk ([Merkle](https://planb.academy/resources/glossary/merkle-tree)-bevis via trær) som den har overskriften for. Konseptet med forenklet betalingsverifisering er ikke nytt, og ble foreslått av Satoshi Nakamoto selv i del 8 av hvitboken.
 
 
 
@@ -812,7 +812,7 @@ En mellombruker med en PC kan installere en pruned-node for å dra nytte av nest
 
 
 
-En Full node er fortsatt den beste løsningen hvis du vil være helt uavhengig i bruken av Bitcoin og ikke begrense deg senere til avanserte bruksområder som en indekserer, en Lightning-node eller til og med en Block explorer. Det er akkurat det vi skal utforske i dette kurset!
+En Full node er fortsatt den beste løsningen hvis du vil være helt uavhengig i bruken av Bitcoin og ikke begrense deg senere til avanserte bruksområder som en indekserer, en [Lightning](https://planb.academy/resources/glossary/lightning-network)-node eller til og med en Block explorer. Det er akkurat det vi skal utforske i dette kurset!
 
 
 
@@ -853,7 +853,7 @@ Dette er den mest suverene og fleksible tilnærmingen: Du vet nøyaktig hva som 
 
 
 
-[Bitcoin core er nettverkets ultra-majoritetsklient](https://bitcoincore.org/). Den laster ned, validerer og vedlikeholder Blockchain, tilbyr RPC/REST API-er og kan integrere en Wallet. Hvis du foretrekker standardverktøy og føler deg komfortabel med å legge til tjenester selv (for eksempel Electrum-server, explorer og LND), er det bedre å bruke Core som den er.
+[Bitcoin core er nettverkets ultra-majoritetsklient](https://bitcoincore.org/). Den laster ned, validerer og vedlikeholder Blockchain, tilbyr [RPC](https://planb.academy/resources/glossary/rpc-remote-procedure-call)/REST API-er og kan integrere en Wallet. Hvis du foretrekker standardverktøy og føler deg komfortabel med å legge til tjenester selv (for eksempel Electrum-server, explorer og LND), er det bedre å bruke Core som den er.
 
 
 
@@ -1856,7 +1856,7 @@ For å begynne å konfigurere Umbrel klikker du på "*Start*"-knappen.
 
 
 
-Velg et pseudonym eller skriv inn navnet ditt, og angi deretter et sterkt passord. Vær forsiktig: Dette passordet er den eneste barrieren som beskytter tilgangen til Umbrel fra nettverket ditt (og dermed potensielt til bitcoinsene dine hvis du kjører en Lightning-node på Umbrel). Det beskytter også ekstern tilgang via Tor eller VPN, hvis disse tjenestene er aktivert.
+Velg et pseudonym eller skriv inn navnet ditt, og angi deretter et sterkt passord. Vær forsiktig: Dette passordet er den eneste barrieren som beskytter tilgangen til Umbrel fra nettverket ditt (og dermed potensielt til bitcoinsene dine hvis du kjører en Lightning-node på Umbrel). Det beskytter også ekstern tilgang via [Tor](https://planb.academy/resources/glossary/tor) eller VPN, hvis disse tjenestene er aktivert.
 
 
 
@@ -2606,7 +2606,7 @@ https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b
 
 
 
-BTCPay Server er en gratis betalingsprosessor med åpen kildekode som gjør det mulig for deg å akseptere betalinger via Bitcoin og Lightning Network uten mellomledd, samtidig som du beholder egenbevaringen av midlene.
+[BTCPay Server](https://planb.academy/resources/glossary/btcpay-server) er en gratis betalingsprosessor med åpen kildekode som gjør det mulig for deg å akseptere betalinger via Bitcoin og Lightning Network uten mellomledd, samtidig som du beholder egenbevaringen av midlene.
 
 
 
@@ -2783,7 +2783,7 @@ Med disse enkle vanene vil Umbrel-noden forbli stabil, trygg og nyttig, både fo
 
 
 
-Bitcoin-noden starter opp uten noen forhåndskunnskap om transaksjonshistorikk. Til å begynne med er den bare en datamaskin som kjører programvare (Bitcoin core eller lignende). For å bli en fullt synkronisert og operativ Bitcoin-node må den rekonstruere tilstanden til Ledger lokalt ved å sjekke alle blokker som er publisert siden Genesis-blokken (blokk 0, publisert av Satoshi Nakamoto den 3. januar 2009). Dette trinnet kalles **IBD (_Initial Block Download_)**.
+Bitcoin-noden starter opp uten noen forhåndskunnskap om transaksjonshistorikk. Til å begynne med er den bare en datamaskin som kjører programvare (Bitcoin core eller lignende). For å bli en fullt synkronisert og operativ Bitcoin-node må den rekonstruere tilstanden til Ledger lokalt ved å sjekke alle blokker som er publisert siden [Genesis-blokken](https://planb.academy/resources/glossary/genesis-block) (blokk 0, publisert av Satoshi Nakamoto den 3. januar 2009). Dette trinnet kalles **IBD (_Initial Block Download_)**.
 
 
 
@@ -2817,7 +2817,7 @@ Som en påminnelse består en Bitcoin-blokk av et 80 byte stort hode og en liste
 - Merkle Root av transaksjoner
 - Timestamp (større enn mediantiden for de foregående 11 blokkene)
 - vanskelighetsmål
-- Nonce
+- [Nonce](https://planb.academy/resources/glossary/nonce)
 
 
 
@@ -2825,7 +2825,7 @@ Som en påminnelse består en Bitcoin-blokk av et 80 byte stort hode og en liste
 
 
 
-Transaksjoner blir forpliktet til en Merkle Tree. Dette er en struktur som oppsummerer et stort sett med data (i dette tilfellet alle transaksjonene i blokken) ved å aggregere hashene to og to ned til en enkelt "rot", og dermed bevise at et element tilhører settet (og oppdage eventuelle endringer). På denne måten vil enhver endring av en transaksjon også endre roten til Merkle Tree og dermed blokkoverskriftens fingeravtrykk. SegWit har introdusert en separat ekstra Commitment for informasjonskapsler (signaturer), plassert i myntbasen.
+Transaksjoner blir forpliktet til en Merkle Tree. Dette er en struktur som oppsummerer et stort sett med data (i dette tilfellet alle transaksjonene i blokken) ved å aggregere hashene to og to ned til en enkelt "rot", og dermed bevise at et element tilhører settet (og oppdage eventuelle endringer). På denne måten vil enhver endring av en transaksjon også endre roten til Merkle Tree og dermed blokkoverskriftens fingeravtrykk. [SegWit](https://planb.academy/resources/glossary/segwit) har introdusert en separat ekstra Commitment for informasjonskapsler (signaturer), plassert i myntbasen.
 
 
 
@@ -2849,7 +2849,7 @@ Når IBD er fullført, går noden inn i sin normale fase: Den validerer nye blok
 
 
 
-Bitcoin core inneholder en mekanisme som er utformet for å redusere tiden det tar før en node er fullt operativ, samtidig som essensen i det autonome verifiseringsprinsippet beholdes: AssumeValid.
+Bitcoin core inneholder en mekanisme som er utformet for å redusere tiden det tar før en node er fullt operativ, samtidig som essensen i det autonome verifiseringsprinsippet beholdes: [AssumeValid](https://planb.academy/resources/glossary/assume-valid).
 
 
 
@@ -2893,7 +2893,7 @@ Når noden starter på nytt etter å ha vært i bruk, forsøker Core først å k
 
 
 
-I dette tilfellet spør programvaren _**DNS seeds**_. Dette er [servere som vedlikeholdes av anerkjente økosystemutviklere](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), som returnerer en liste over IP-adresser til antatt aktive noder. Disse adressene gjør det mulig for den nye noden å starte sine første tilkoblinger og be om de nødvendige dataene fra IBD-en. Her er listen over *DNS-frø* som er aktive til dags dato (august 2025):
+I dette tilfellet spør programvaren _**[DNS seeds](https://planb.academy/resources/glossary/dns-seeds)**_. Dette er [servere som vedlikeholdes av anerkjente økosystemutviklere](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), som returnerer en liste over IP-adresser til antatt aktive noder. Disse adressene gjør det mulig for den nye noden å starte sine første tilkoblinger og be om de nødvendige dataene fra IBD-en. Her er listen over *DNS-frø* som er aktive til dags dato (august 2025):
 
 
 
@@ -3009,7 +3009,7 @@ For å kunne gå tilbake i tid under en omorganisering, lagrer Core, parallelt m
 
 
 
-Det ville være for tidkrevende å søke etter en blokk direkte i flatfilene. Core vedlikeholder derfor en LevelDB-database i `blocks/index/`, som for hver kjent blokk viser metadata som Hash, høyde, valideringsstatus, `blk`-fil og offset der den er plassert. Når en peer ber om en blokk, eller når en intern komponent trenger tilgang til en bestemt blokk, gir denne indeksen rask tilgang. Uten denne indeksen ville det vært nødvendig med for mange operasjoner.
+Det ville være for tidkrevende å søke etter en blokk direkte i flatfilene. Core vedlikeholder derfor en [LevelDB](https://planb.academy/resources/glossary/leveldb)-database i `blocks/index/`, som for hver kjent blokk viser metadata som Hash, høyde, valideringsstatus, `blk`-fil og offset der den er plassert. Når en peer ber om en blokk, eller når en intern komponent trenger tilgang til en bestemt blokk, gir denne indeksen rask tilgang. Uten denne indeksen ville det vært nødvendig med for mange operasjoner.
 
 
 
@@ -3051,7 +3051,7 @@ Summen av alle disse delene på et gitt tidspunkt T utgjør UTXO-settet: en stor
 
 
 
-UTXO-settet lagres i mappen `chainstate/` som en kompakt LevelDB-database. Hver del assosierer en nøkkel avledet fra Hash for transaksjonen og utgangsindeksen med en verdi som inneholder: beløpet, `scriptPubKey`-låsen, høyden på opprettelsesblokken og en coinbase-indikator.
+UTXO-settet lagres i mappen `chainstate/` som en kompakt LevelDB-database. Hver del assosierer en nøkkel avledet fra Hash for transaksjonen og utgangsindeksen med en verdi som inneholder: beløpet, `scriptPubKey`-låsen, høyden på opprettelsesblokken og en [coinbase](https://planb.academy/resources/glossary/coinbase-transaction)-indikator.
 
 
 
@@ -3075,13 +3075,13 @@ Merk at UTXO-settet ofte er kjernen i bekymringene om Bitcoins desentralisering,
 
 
 
-Veksten i UTXO-settet stammer også fra strukturen til enkle betalingstransaksjoner på Bitcoin. Når du foretar en betaling, bruker du en enkelt UTXO som input og oppretter to nye UTXO-er som output (én for betalingen og én for Exchange). Til slutt gir en kjedeanalyseheuristikk, kalt CIOH (*Common Input Ownership Heuristic*), et ytterligere insentiv til å unngå Coin-konsolidering.
+Veksten i UTXO-settet stammer også fra strukturen til enkle betalingstransaksjoner på Bitcoin. Når du foretar en betaling, bruker du en enkelt UTXO som input og oppretter to nye UTXO-er som output (én for betalingen og én for Exchange). Til slutt gir en kjedeanalyseheuristikk, kalt [CIOH](https://planb.academy/resources/glossary/cioh) (*Common Input Ownership Heuristic*), et ytterligere insentiv til å unngå Coin-konsolidering.
 
 
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Siden en del av den må oppbevares i RAM for å verifisere transaksjoner innen rimelig tid, kan UTXO-settet gradvis gjøre driften av en Full node for kostbar. Det finnes allerede noen få forslag for å løse dette problemet, blant annet [Utreexo](https://planb.academy/resources/glossary/utreexo).
+Siden en del av den må oppbevares i RAM for å verifisere transaksjoner innen rimelig tid, kan UTXO-settet gradvis gjøre driften av en Full node for kostbar. Det finnes allerede noen få forslag for å løse dette problemet, blant annet Utreexo.
 
 
 
@@ -3108,7 +3108,7 @@ Det er viktig å merke seg at node-mempooler ikke har noen konsensusverdi. Bitco
 
 
 
-Når en transaksjon mottas, utfører Core en rekke kontroller mot konsensusregler (syntaks, gyldige skript, ingen dobbeltutgifter osv.) og Mempool-regler, som er en lokal policy (RBF, minimumsgrenser for belastning, datagrense i `OP_RETURN` osv.) Hvis transaksjonen overholder disse reglene, lagres den i minnet.
+Når en transaksjon mottas, utfører Core en rekke kontroller mot konsensusregler (syntaks, gyldige skript, ingen dobbeltutgifter osv.) og Mempool-regler, som er en lokal policy ([RBF](https://planb.academy/resources/glossary/rbf-replacebyfee), minimumsgrenser for belastning, datagrense i `OP_RETURN` osv.) Hvis transaksjonen overholder disse reglene, lagres den i minnet.
 
 
 
@@ -3349,7 +3349,7 @@ På nettverksnivå har vi også
 
 
 
-Som standard kommuniserer noden din over clearnet, Tor og I2P. Dette betyr at de andre nodene den kobler seg til på clearnet kan se din offentlige IP Address, og Internett-leverandøren din vil sannsynligvis kunne oppdage at du kjører en Bitcoin-node (selv om P2P Transport V2 gjør det vanskeligere for en Internett-leverandør å avlytte). Dette er ikke nødvendigvis et problem, men hvis du vil unngå lekkasje av denne informasjonen, kan du koble noden din utelukkende via Tor-nettverket.
+Som standard kommuniserer noden din over clearnet, Tor og I2P. Dette betyr at de andre nodene den kobler seg til på clearnet kan se din offentlige IP Address, og Internett-leverandøren din vil sannsynligvis kunne oppdage at du kjører en Bitcoin-node (selv om [P2P Transport V2](https://planb.academy/resources/glossary/p2p-transport-v2) gjør det vanskeligere for en Internett-leverandør å avlytte). Dette er ikke nødvendigvis et problem, men hvis du vil unngå lekkasje av denne informasjonen, kan du koble noden din utelukkende via Tor-nettverket.
 
 
 
@@ -3492,7 +3492,7 @@ Her er de avanserte innstillingene for Mempool og relépolicy. Hvis du er nybegy
 
 
 
-- `peerbloomfilters=1` : Aktiverer støtte for Bloom-filtre (BIP37) for å levere filtrerte blokker/transaksjoner til lette klienter (standard: `0`). Merk at dette øker belastningen på ressursene dine.
+- `peerbloomfilters=1` : Aktiverer støtte for [Bloom-filtre](https://planb.academy/resources/glossary/bloom-filter) (BIP37) for å levere filtrerte blokker/transaksjoner til lette klienter (standard: `0`). Merk at dette øker belastningen på ressursene dine.
 
 
 

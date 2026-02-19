@@ -352,7 +352,7 @@ Existuje několik druhů barteru:
 
 
 
-Rakouská ekonomická škola interpretuje tento vývoj jako spontánní vznik privilegovaných směnných statků. Tento jev ilustrují mušle, archeologicky doložené již v mezolitu: nalezené daleko od svého geografického původu (středomořské mušle v západní Francii, severské mušle na jiných nalezištích), svědčí o společném uznání jejich směnné hodnoty.
+[Rakouská ekonomická škola](https://planb.academy/resources/glossary/austrian-school) interpretuje tento vývoj jako spontánní vznik privilegovaných směnných statků. Tento jev ilustrují mušle, archeologicky doložené již v mezolitu: nalezené daleko od svého geografického původu (středomořské mušle v západní Francii, severské mušle na jiných nalezištích), svědčí o společném uznání jejich směnné hodnoty.
 
 
 
@@ -605,7 +605,7 @@ Mezopotámská zkušenost je trvalým precedentem pro vývoj finančních systé
 
 
 
-Toto zásadní období také odhaluje mocenské problémy, které jsou neodmyslitelně spjaty s každou měnovou inovací: kdo ovládá technologii, kdo určuje pravidla a jak se formální systémy a lidové praktiky vyjadřují. Tyto základní otázky přetrvávají po celou dobu ekonomických dějin a zasahují i do současných debat o digitálních měnách a kryptoměnách.
+Toto zásadní období také odhaluje mocenské problémy, které jsou neodmyslitelně spjaty s každou měnovou inovací: kdo ovládá technologii, kdo určuje pravidla a jak se formální systémy a lidové praktiky vyjadřují. Tyto základní otázky přetrvávají po celou dobu ekonomických dějin a zasahují i do současných debat o digitálních měnách a [kryptoměnách](https://planb.academy/resources/glossary/cryptocurrency).
 
 
 
@@ -637,7 +637,7 @@ Inkové neměli žádný peněžní systém, ale měli hojnost drahých kovů. T
 > Čím je společnost stratifikovanější a čím je její systém plánování pečlivěji propracovaný, tím méně je pro její obyvatele nutné používat peníze. To může vysvětlovat, proč španělští conquistadoři zjistili, že Mexičané, jejichž vláda byla relativně liberálnější, pravidelně používali jako platidlo zlatý prášek (uchovávaný v průhledných tubách) a kakaové boby (uchovávané pro velké platby v pytlích po 24 000 jednotkách), zatímco naopak Inkové, organizovaní podle mnohem přísnější hierarchie, neměli vůbec žádné platidlo: výjimka potvrzená přísným pravidlem. Vznik peněz v Číně byl zcela nezávislý na jiných civilizacích; relativní blízkost sumerské, egyptské a minojské civilizace však vyvolává pochybnosti o míře jejich příslušné neznalosti peněžních praktik, zejména s ohledem na rozsáhlý obchod zavedený již v nejstarších dobách.
 
 
-V Číně se mince vyvíjely se zcela odlišným přístupem než v západních tradicích. Od počátku se jednalo o fiat peníze. Byly to mince lité.
+V Číně se mince vyvíjely se zcela odlišným přístupem než v západních tradicích. Od počátku se jednalo o [fiat](https://planb.academy/resources/glossary/fiat) peníze. Byly to mince lité.
 
 
 A zde se pan Davies zmiňuje o obchodu. V určitých obdobích skutečně docházelo k výměně mezi Číňany a ostatním obyvatelstvem, ale prostředkem směny pro zahraniční obchod bylo spíše hedvábí. Jak uvidíme později, zlato se používalo také v pohraničních oblastech Číny, kde bylo čínské obyvatelstvo menší. A to ani ne pro mezinárodní obchod; k tomu sloužilo hedvábí.
@@ -994,7 +994,7 @@ V Číně byla peněžní hodnota zcela svěřenecká, založená na společensk
 
 
 
-Zde lze najít souvislost s inflací a deflací. Při fixní peněžní zásobě, pokud se produktivita ekonomiky zvyšuje, hodnota peněz roste. Naopak, pokud produktivita klesá, hodnota peněz se snižuje. V tomto příkladu je však situace opačná. Pravděpodobně proto, že kníže neměl úplný monopol na výrobu peněz, přesto to svědčí o tom, že hodnota peněz souvisela s ekonomickými podmínkami.
+Zde lze najít souvislost s [inflací](https://planb.academy/resources/glossary/inflation) a deflací. Při fixní peněžní zásobě, pokud se produktivita ekonomiky zvyšuje, hodnota peněz roste. Naopak, pokud produktivita klesá, hodnota peněz se snižuje. V tomto příkladu je však situace opačná. Pravděpodobně proto, že kníže neměl úplný monopol na výrobu peněz, přesto to svědčí o tom, že hodnota peněz souvisela s ekonomickými podmínkami.
 
 
 
@@ -3616,7 +3616,7 @@ Přesuňme se do Švédska, kde vznikla první centrální banka.
 
 
 
-**Švédsko** bylo průkopníkem centrálního bankovnictví: v roce 1657 Johan Palmstruch vytvořil **Stockholmskou banku**, která byla oprávněna půjčovat více, než činily její kovové rezervy, čímž se zrodilo bankovnictví s částečnými rezervami. Nadměrná emise bankovek však vedla v roce 1663 k panice a hromadnému útoku na banku. No, no...
+**Švédsko** bylo průkopníkem centrálního bankovnictví: v roce 1657 Johan Palmstruch vytvořil **Stockholmskou banku**, která byla oprávněna půjčovat více, než činily její kovové rezervy, čímž se zrodilo [bankovnictví s částečnými rezervami](https://planb.academy/resources/glossary/fractional-reserves). Nadměrná emise bankovek však vedla v roce 1663 k panice a hromadnému útoku na banku. No, no...
 
 
 

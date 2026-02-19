@@ -133,7 +133,7 @@ Dus, ben je klaar om je eerste Bitcoin node aan te zetten? Zet koers naar soever
 
 
 
-Zoals beschreven door de maker, Satoshi Nakamoto, presenteert Bitcoin zichzelf als een peer-to-peer elektronisch geldsysteem. Deze eenvoudige zin, de titel van het witboek, bevat veel aanwijzingen over de aard van Bitcoin:
+Zoals beschreven door de maker, [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi), presenteert Bitcoin zichzelf als een [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) elektronisch geldsysteem. Deze eenvoudige zin, de titel van het [witboek](https://planb.academy/resources/glossary/white-paper), bevat veel aanwijzingen over de aard van Bitcoin:
 
 
 
@@ -144,7 +144,7 @@ Zoals beschreven door de maker, Satoshi Nakamoto, presenteert Bitcoin zichzelf a
 
 
 
-Omdat Bitcoin een systeem is, moet het noodzakelijkerwijs op computers draaien. En, vanwege het peer-to-peer karakter, zijn het de gebruikers zelf die verantwoordelijk zijn voor het draaien van deze machines. Wat wij een "Bitcoin node" noemen, is precies die computer waarop software draait die het Bitcoin protocol implementeert (net als Bitcoin core, maar daar komen we later op terug). Dit is wat Bitcoin in staat stelt om zonder centrale autoriteit te werken: validatie wordt gedistribueerd uitgevoerd, door duizenden onafhankelijke machines van duizenden gebruikers.
+Omdat Bitcoin een systeem is, moet het noodzakelijkerwijs op computers draaien. En, vanwege het peer-to-peer karakter, zijn het de gebruikers zelf die verantwoordelijk zijn voor het draaien van deze machines. Wat wij een "[Bitcoin node](https://planb.academy/resources/glossary/node)" noemen, is precies die computer waarop software draait die het Bitcoin protocol implementeert (net als [Bitcoin core](https://planb.academy/resources/glossary/bitcoin-core), maar daar komen we later op terug). Dit is wat Bitcoin in staat stelt om zonder centrale autoriteit te werken: validatie wordt [gedistribueerd](https://planb.academy/resources/glossary/distributed) uitgevoerd, door duizenden onafhankelijke machines van duizenden gebruikers.
 
 
 
@@ -156,7 +156,7 @@ Nakamoto, S. (2008). *Bitcoin: Een Peer-to-Peer elektronisch geldsysteem*. https
 
 
 
-Het zijn juist deze gebruikers die de veiligheid van Bitcoin garanderen. Zoals Eric Voskuil uitlegt in zijn boek *Cryptoeconomics*, berust de veiligheid van Bitcoin niet op Blockchain, noch op hashingkracht, noch op validatie, decentralisatie, cryptografie, open source of speltheorie. De veiligheid van Bitcoin hangt voornamelijk af van de individuen die bereid zijn zichzelf bloot te stellen aan persoonlijk risico. Decentralisatie maakt het mogelijk dit risico te spreiden over een groot aantal individuen en alleen hun vermogen om weerstand te bieden garandeert de robuustheid van het systeem.
+Het zijn juist deze gebruikers die de veiligheid van Bitcoin garanderen. Zoals Eric Voskuil uitlegt in zijn boek *Cryptoeconomics*, berust de veiligheid van Bitcoin niet op [Blockchain](https://planb.academy/resources/glossary/blockchain), noch op [hashingkracht](https://planb.academy/resources/glossary/hashrate), noch op validatie, decentralisatie, [cryptografie](https://planb.academy/resources/glossary/cryptography), [open source](https://planb.academy/resources/glossary/foss) of speltheorie. De veiligheid van Bitcoin hangt voornamelijk af van de individuen die bereid zijn zichzelf bloot te stellen aan persoonlijk risico. Decentralisatie maakt het mogelijk dit risico te spreiden over een groot aantal individuen en alleen hun vermogen om weerstand te bieden garandeert de robuustheid van het systeem.
 
 
 
@@ -173,9 +173,9 @@ We kunnen dus verschillende concepten onderscheiden en benoemen om dingen te ver
 
 
 
-- Bitcoin valuta: de rekeneenheid die gebruikt wordt voor transacties binnen dit systeem;
+- Bitcoin valuta: de rekeneenheid die gebruikt wordt voor [transacties](https://planb.academy/resources/glossary/transaction-tx) binnen dit systeem;
 - Het Bitcoin netwerk: de verzameling van alle verbonden nodes;
-- Bitcoin nodes: machines waarop een implementatie van Bitcoin draait;
+- Bitcoin nodes: machines waarop een [implementatie van Bitcoin](https://planb.academy/resources/glossary/bitcoin-implementation) draait;
 - Bitcoin implementaties: software die het protocol vertaalt in uitvoerbare instructies;
 - Bitcoin protocol: de verzameling regels voor de werking van het systeem;
 - Het Bitcoin systeem: de coherente combinatie van al deze elementen.
@@ -190,7 +190,7 @@ De Bitcoin nodes vormen samen het zogenaamde Bitcoin netwerk. Ze maken het mogel
 
 
 
-Vanaf het begin was Bitcoin ontworpen om elke gebruiker een persoonlijke node te laten beheren. Dit geldt nog steeds voor de huidige Bitcoin core software, die de rollen van wallet en node combineert. Maar tegenwoordig wordt deze functie vaak losgekoppeld: veel moderne Bitcoin wallets zijn gewoon wallets die verbinding maken met externe nodes (al dan niet eigendom van dezelfde persoon).
+Vanaf het begin was Bitcoin ontworpen om elke gebruiker een persoonlijke node te laten beheren. Dit geldt nog steeds voor de huidige Bitcoin core software, die de rollen van [wallet](https://planb.academy/resources/glossary/wallet) en node combineert. Maar tegenwoordig wordt deze functie vaak losgekoppeld: veel moderne Bitcoin wallets zijn gewoon wallets die verbinding maken met externe nodes (al dan niet eigendom van dezelfde persoon).
 
 
 
@@ -198,7 +198,7 @@ Vanaf het begin was Bitcoin ontworpen om elke gebruiker een persoonlijke node te
 
 
 
-De eerste taak van een node is om een lokale kopie van Blockchain te onderhouden. Om dubbele uitgaven op Bitcoin te voorkomen zonder een centrale autoriteit in te schakelen, moet elke gebruiker controleren of er geen transactie in het systeem bestaat. De enige manier om hier zeker van te zijn, is door alle transacties op Bitcoin te kennen. Daarom worden alle transacties voorzien van een tijdstempel en gegroepeerd in blokken, en slaat elk node de volledige Blockchain op.
+De eerste taak van een node is om een lokale kopie van Blockchain te onderhouden. Om [dubbele uitgaven](https://planb.academy/resources/glossary/double-spending-attack) op Bitcoin te voorkomen zonder een centrale autoriteit in te schakelen, moet elke gebruiker controleren of er geen transactie in het systeem bestaat. De enige manier om hier zeker van te zijn, is door alle transacties op Bitcoin te kennen. Daarom worden alle transacties voorzien van een [tijdstempel](https://planb.academy/resources/glossary/timestamp) en gegroepeerd in [blokken](https://planb.academy/resources/glossary/block), en slaat elk node de volledige Blockchain op.
 
 
 
@@ -208,7 +208,7 @@ Nakamoto, S. (2008). *Bitcoin: Een Peer-to-Peer elektronisch geldsysteem*. https
 
 
 
-Blockchain is daarom een evoluerend register: elke keer dat een nieuw blok wordt gepubliceerd door een miner, controleert de node de geldigheid ervan voordat het het toevoegt aan zijn eigen lokale kopie van de keten. Op dit moment (juli 2025) is de volledige Blockchain groter dan 675 GB en deze grootte blijft groeien, omdat er gemiddeld elke 10 minuten een nieuw blok wordt toegevoegd.
+Blockchain is daarom een evoluerend register: elke keer dat een nieuw blok wordt gepubliceerd door een [miner](https://planb.academy/resources/glossary/miner), controleert de node de geldigheid ervan voordat het het toevoegt aan zijn eigen lokale kopie van de keten. Op dit moment (juli 2025) is de volledige Blockchain groter dan 675 GB en deze grootte blijft groeien, omdat er gemiddeld elke 10 minuten een nieuw blok wordt toegevoegd.
 
 
 
@@ -216,7 +216,7 @@ Blockchain is daarom een evoluerend register: elke keer dat een nieuw blok wordt
 
 
 
-De node houdt ook een lokaal overzicht bij van alle UTXO's die op een bepaald moment bestaan, bekend als de **UTXO set**. Deze database bevat alle ongebruikte Bitcoin fragmenten. We komen hier in detail op terug in het laatste deel van de cursus.
+De node houdt ook een lokaal overzicht bij van alle [UTXO's](https://planb.academy/resources/glossary/utxo) die op een bepaald moment bestaan, bekend als de **[UTXO set](https://planb.academy/resources/glossary/utxo-set)**. Deze database bevat alle ongebruikte Bitcoin fragmenten. We komen hier in detail op terug in het laatste deel van de cursus.
 
 
 
@@ -224,14 +224,14 @@ De node houdt ook een lokaal overzicht bij van alle UTXO's die op een bepaald mo
 
 
 
-De tweede rol van een node is het verifiëren en verspreiden van transacties. Wanneer een nieuwe transactie de node bereikt (via wallet software of een andere node), controleert het of het voldoet aan een set regels (consensusregels en relaisregels). Bijvoorbeeld:
+De tweede rol van een node is het verifiëren en verspreiden van transacties. Wanneer een nieuwe transactie de node bereikt (via wallet software of een andere node), controleert het of het voldoet aan een set regels ([consensusregels](https://planb.academy/resources/glossary/consensus-rules) en [relaisregels](https://planb.academy/resources/glossary/relay)). Bijvoorbeeld:
 
 
 
 
-- uitgegeven bitcoins moeten bestaan in de UTXO set (de database van niet-uitgegeven outputs);
-- de handtekening moet geldig zijn en aan alle bestedingsvoorwaarden moet zijn voldaan (geldig script);
-- de totale hoeveelheid outputs mag niet groter zijn dan de totale hoeveelheid inputs, wat betekent dat de kosten niet negatief kunnen zijn.
+- uitgegeven bitcoins moeten bestaan in de UTXO set (de database van niet-uitgegeven [outputs](https://planb.academy/resources/glossary/output));
+- de [handtekening](https://planb.academy/resources/glossary/digital-signature) moet geldig zijn en aan alle bestedingsvoorwaarden moet zijn voldaan (geldig [script](https://planb.academy/resources/glossary/script));
+- de totale hoeveelheid outputs mag niet groter zijn dan de totale hoeveelheid [inputs](https://planb.academy/resources/glossary/input), wat betekent dat de [kosten](https://planb.academy/resources/glossary/transaction-fees) niet negatief kunnen zijn.
 
 
 
@@ -239,7 +239,7 @@ De tweede rol van een node is het verifiëren en verspreiden van transacties. Wa
 
 
 
-Na validatie wordt de transactie opgeslagen in de Mempool van de node, een tijdelijke geheugenruimte die gereserveerd is voor onbevestigde transacties, en vervolgens doorgestuurd naar de andere netwerkpeers waarmee het verbonden is. Dit distributie- en validatiemechanisme gaat door van node tot node. Op deze manier wordt de transactie verspreid over het Bitcoin netwerk en elk node slaat het op in Mempool totdat het wordt opgenomen in een geldig blok door een miner, die dan handelt op basis van de eerste bevestiging.
+Na validatie wordt de transactie opgeslagen in de [Mempool](https://planb.academy/resources/glossary/mempool) van de node, een tijdelijke geheugenruimte die gereserveerd is voor onbevestigde transacties, en vervolgens doorgestuurd naar de andere netwerkpeers waarmee het verbonden is. Dit distributie- en validatiemechanisme gaat door van node tot node. Op deze manier wordt de transactie verspreid over het Bitcoin netwerk en elk node slaat het op in Mempool totdat het wordt opgenomen in een geldig blok door een miner, die dan handelt op basis van de eerste [bevestiging](https://planb.academy/resources/glossary/confirmation).
 
 
 
@@ -247,7 +247,7 @@ Na validatie wordt de transactie opgeslagen in de Mempool van de node, een tijde
 
 
 
-De derde rol van de node is het beheren van gemijnde blokken. Wanneer een miner een nieuw blok met een geldige proof of work ontdekt, wordt het uitgezonden naar het netwerk. De nodes ontvangen het, controleren of het voldoet aan alle protocolregels en integreren het in hun eigen lokale kopie van de Blockchain als het geldig is. Net als bij transacties worden nieuw gevalideerde blokken vervolgens doorgestuurd naar alle peers die verbonden zijn met de node. Dit proces gaat door totdat alle nodes op het Bitcoin netwerk op de hoogte zijn van het nieuwe blok.
+De derde rol van de node is het beheren van gemijnde blokken. Wanneer een miner een nieuw blok met een geldige [proof of work](https://planb.academy/resources/glossary/proof-of-work) ontdekt, wordt het [uitgezonden](https://planb.academy/resources/glossary/diffusion) naar het netwerk. De nodes ontvangen het, controleren of het voldoet aan alle protocolregels en integreren het in hun eigen lokale kopie van de Blockchain als het geldig is. Net als bij transacties worden nieuw gevalideerde blokken vervolgens doorgestuurd naar alle peers die verbonden zijn met de node. Dit proces gaat door totdat alle nodes op het Bitcoin netwerk op de hoogte zijn van het nieuwe blok.
 
 
 
@@ -281,7 +281,7 @@ Een Bitcoin wallet, aan de andere kant, is een stuk software dat ontworpen is om
 
 
 
-In sommige gevallen bestaan deze twee functies naast elkaar in dezelfde software, zoals het geval is bij Bitcoin core, dat zowel als full node en als wallet dient. Veel populaire wallet programma's (Sparrow, Bluewallet, etc.) vereisen echter een verbinding met een externe node (van jezelf of van een derde partij) om transacties uit te zenden en het wallet saldo te bepalen.
+In sommige gevallen bestaan deze twee functies naast elkaar in dezelfde software, zoals het geval is bij Bitcoin core, dat zowel als [full node](https://planb.academy/resources/glossary/full-node) en als wallet dient. Veel populaire wallet programma's (Sparrow, Bluewallet, etc.) vereisen echter een verbinding met een externe node (van jezelf of van een derde partij) om transacties uit te zenden en het wallet saldo te bepalen.
 
 
 
@@ -304,7 +304,7 @@ Aanvankelijk, toen Bitcoin in 2009 door Satoshi Nakamoto werd gelanceerd, werd v
 
 
 
-Maar met de geleidelijke popularisering van Bitcoin en de toename van het aantal miners, heeft het mining concurrentielandschap een radicale verandering ondergaan. Vandaag de dag is mining een extreem competitieve activiteit geworden, gedomineerd door industriële spelers met gespecialiseerde infrastructuren. De kracht die nodig is om een nieuw blok te minen is nu zo groot dat het vrijwel onmogelijk is voor een individuele gebruiker om dit te bereiken met alleen een conventionele computer. Als gevolg hiervan wordt mining nu voornamelijk uitgevoerd met behulp van gespecialiseerde machines die ASIC's (*Application-Specific Integrated Circuits*) worden genoemd. Deze chips zijn uitsluitend geoptimaliseerd om dubbele SHA-256 uit te voeren, het algoritme dat gebruikt wordt voor Bitcoin mining.
+Maar met de geleidelijke popularisering van Bitcoin en de toename van het aantal miners, heeft het mining concurrentielandschap een radicale verandering ondergaan. Vandaag de dag is mining een extreem competitieve activiteit geworden, gedomineerd door industriële spelers met gespecialiseerde infrastructuren. De kracht die nodig is om een nieuw blok te minen is nu zo groot dat het vrijwel onmogelijk is voor een individuele gebruiker om dit te bereiken met alleen een conventionele computer. Als gevolg hiervan wordt mining nu voornamelijk uitgevoerd met behulp van gespecialiseerde machines die [ASIC](https://planb.academy/resources/glossary/asic)'s (*Application-Specific Integrated Circuits*) worden genoemd. Deze chips zijn uitsluitend geoptimaliseerd om dubbele [SHA-256](https://planb.academy/resources/glossary/sha256) uit te voeren, het algoritme dat gebruikt wordt voor Bitcoin mining.
 
 
 
@@ -328,7 +328,7 @@ Een miner heeft een Bitcoin node nodig voor interactie met het netwerk.
 
 
 
-De rol van de miner wordt soms ook onderscheiden van die van de grind. Een grind is een machine wiens taak het is om door de pool server aangeleverde sjabloonblokken te hashen, op zoek naar hashes die voldoen aan de moeilijkheidsdoelstelling gedefinieerd voor aandelen, en niet die van Bitcoin. De rest van het mining proces, dat de eigenlijke blokconstructie, transactieselectie of Proof-of-Work zoeken volgens Bitcoin's eigen moeilijkheidsgraad en distributie omvat, wordt direct door de pools uitgevoerd.
+De rol van de miner wordt soms ook onderscheiden van die van de grind. Een grind is een machine wiens taak het is om door de [pool](https://planb.academy/resources/glossary/pool-mining) server aangeleverde sjabloonblokken te hashen, op zoek naar hashes die voldoen aan de moeilijkheidsdoelstelling gedefinieerd voor aandelen, en niet die van Bitcoin. De rest van het mining proces, dat de eigenlijke blokconstructie, transactieselectie of Proof-of-Work zoeken volgens Bitcoin's eigen moeilijkheidsgraad en distributie omvat, wordt direct door de pools uitgevoerd.
 
 
 
@@ -598,7 +598,7 @@ Dit zijn de fundamentele regels van het Bitcoin protocol, die de integriteit van
 
 
 
-Het veranderen van deze regels staat gelijk aan het veranderen van het protocol en dus de munt (Hard Fork). Maar zelfs zonder te proberen om ze te wijzigen, geeft het simpele feit van het strikt toepassen van de bestaande regels een zekere macht: als een blok de regels overtreedt, wijst de node het onmiddellijk af.
+Het veranderen van deze regels staat gelijk aan het veranderen van het protocol en dus de munt ([Hard Fork](https://planb.academy/resources/glossary/hard-fork)). Maar zelfs zonder te proberen om ze te wijzigen, geeft het simpele feit van het strikt toepassen van de bestaande regels een zekere macht: als een blok de regels overtreedt, wijst de node het onmiddellijk af.
 
 
 
@@ -722,7 +722,7 @@ De full node hoeft niemand te vertrouwen omdat hij alle informatie in het systee
 
 
 
-In de praktijk vereist een full node niet-triviale middelen, waaronder enkele honderden gigabytes voor blokbestanden, een processor die scripts kan valideren, RAM voor de Mempool en caches, en een stabiele bandbreedte. De eerste synchronisatie (*IBD*) leest en verifieert de complete geschiedenis: het is intensief, maar gebeurt maar één keer. Een full node neemt actief deel aan het netwerk, geeft blokken en transacties door en kan binnenkomende verbindingen accepteren om andere peers te helpen.
+In de praktijk vereist een full node niet-triviale middelen, waaronder enkele honderden gigabytes voor blokbestanden, een processor die scripts kan valideren, RAM voor de Mempool en caches, en een stabiele bandbreedte. De eerste synchronisatie (*[IBD](https://planb.academy/resources/glossary/initial-block-download-ibd)*) leest en verifieert de complete geschiedenis: het is intensief, maar gebeurt maar één keer. Een full node neemt actief deel aan het netwerk, geeft blokken en transacties door en kan binnenkomende verbindingen accepteren om andere peers te helpen.
 
 
 
@@ -758,7 +758,7 @@ Kortom, wallet traceren werkt probleemloos op een pruned node als je een nieuwe 
 
 
 
-Een SPV (*Simplified Payment Verification*) node, of lichtgewicht node, bewaart alleen blokkoppen, geen transactiedetails, en vertrouwt op andere volledige nodes om bewijs te verkrijgen dat een transactie in een blok zit (Merkle bewijzen via boomstructuren) waarvoor het de kop heeft. Het concept van vereenvoudigde betalingsverificatie is niet nieuw, het werd voorgesteld door Satoshi Nakamoto zelf in deel 8 van het Witboek.
+Een [SPV](https://planb.academy/resources/glossary/spv-node-light-node) (*Simplified Payment Verification*) node, of lichtgewicht node, bewaart alleen blokkoppen, geen transactiedetails, en vertrouwt op andere volledige nodes om bewijs te verkrijgen dat een transactie in een blok zit ([Merkle](https://planb.academy/resources/glossary/merkle-tree) bewijzen via boomstructuren) waarvoor het de kop heeft. Het concept van vereenvoudigde betalingsverificatie is niet nieuw, het werd voorgesteld door Satoshi Nakamoto zelf in deel 8 van het Witboek.
 
 
 
@@ -812,7 +812,7 @@ Een gemiddelde gebruiker met een PC kan een pruned node installeren om te profit
 
 
 
-Een full node blijft de beste oplossing als je volledig onafhankelijk wilt zijn in het gebruik van Bitcoin en je jezelf later niet wilt beperken voor geavanceerd gebruik zoals een indexer, een Lightning node of zelfs een blok explorer. Dat is precies wat we in deze cursus gaan onderzoeken!
+Een full node blijft de beste oplossing als je volledig onafhankelijk wilt zijn in het gebruik van Bitcoin en je jezelf later niet wilt beperken voor geavanceerd gebruik zoals een indexer, een [Lightning](https://planb.academy/resources/glossary/lightning-network) node of zelfs een blok explorer. Dat is precies wat we in deze cursus gaan onderzoeken!
 
 
 
@@ -853,7 +853,7 @@ Dit is de meest soevereine en flexibele aanpak: je weet precies wat er draait, w
 
 
 
-[Bitcoin core is de ultra-majority client van het netwerk](https://bitcoincore.org/). Het downloadt, valideert en onderhoudt de blockchain, biedt RPC/REST API's en kan een wallet integreren. Als je de voorkeur hebt voor standaard tools en je comfortabel voelt om zelf diensten toe te voegen (zoals Electrum server, verkenner en LND), dan kun je Core beter gebruiken zoals het is.
+[Bitcoin core is de ultra-majority client van het netwerk](https://bitcoincore.org/). Het downloadt, valideert en onderhoudt de blockchain, biedt [RPC](https://planb.academy/resources/glossary/rpc-remote-procedure-call)/REST API's en kan een wallet integreren. Als je de voorkeur hebt voor standaard tools en je comfortabel voelt om zelf diensten toe te voegen (zoals Electrum server, verkenner en LND), dan kun je Core beter gebruiken zoals het is.
 
 
 
@@ -1856,7 +1856,7 @@ Om te beginnen met het configureren van je Umbrel, klik je op de knop "*Start*".
 
 
 
-Kies een pseudoniem of voer je naam in en stel dan een sterk wachtwoord in. Wees voorzichtig: dit wachtwoord is de enige barrière voor toegang tot je Umbrel vanaf je netwerk (en dus mogelijk ook tot je bitcoins als je een Lightning-node op Umbrel draait). Het beschermt ook toegang op afstand via Tor of VPN, als deze diensten zijn ingeschakeld.
+Kies een pseudoniem of voer je naam in en stel dan een sterk wachtwoord in. Wees voorzichtig: dit wachtwoord is de enige barrière voor toegang tot je Umbrel vanaf je netwerk (en dus mogelijk ook tot je bitcoins als je een Lightning-node op Umbrel draait). Het beschermt ook toegang op afstand via [Tor](https://planb.academy/resources/glossary/tor) of VPN, als deze diensten zijn ingeschakeld.
 
 
 
@@ -2606,7 +2606,7 @@ https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b
 
 
 
-BTCPay Server is een gratis, open-source betalingsverwerker die je in staat stelt betalingen via het Bitcoin en Lightning Network te accepteren zonder tussenpersonen, met behoud van eigen bewaring van geldmiddelen.
+[BTCPay Server](https://planb.academy/resources/glossary/btcpay-server) is een gratis, open-source betalingsverwerker die je in staat stelt betalingen via het Bitcoin en Lightning Network te accepteren zonder tussenpersonen, met behoud van eigen bewaring van geldmiddelen.
 
 
 
@@ -2799,7 +2799,7 @@ IBD bestaat uit het downloaden en verifiëren van elk blok en elke transactie af
 
 
 
-De synchronisatie begint met de stap _**headers-first**_. Je node vraagt de reeks block headers op bij verschillende peers en controleert voor elk ervan de Proof of Work, moeilijkheidsaanpassing (difficulty adjustment), syntaxis, evenals de timestamp en versienummerregels. Kortom, het zorgt ervoor dat elke ontvangen header voldoet aan de consensusregels.
+De synchronisatie begint met de stap _**headers-first**_. Je node vraagt de reeks block headers op bij verschillende peers en controleert voor elk ervan de Proof of Work, [moeilijkheidsaanpassing](https://planb.academy/resources/glossary/difficulty-adjustment) (difficulty adjustment), syntaxis, evenals de timestamp en versienummerregels. Kortom, het zorgt ervoor dat elke ontvangen header voldoet aan de consensusregels.
 
 
 
@@ -2817,7 +2817,7 @@ Ter herinnering, een Bitcoin blok bestaat uit een header van 80 bytes en een lij
 - Merkle Root van transacties
 - Timestamp (groter dan de mediane tijd van de voorgaande 11 blokken)
 - moeilijkheidsdoel
-- Nonce
+- [Nonce](https://planb.academy/resources/glossary/nonce)
 
 
 
@@ -2825,7 +2825,7 @@ Ter herinnering, een Bitcoin blok bestaat uit een header van 80 bytes en een lij
 
 
 
-Transacties worden vastgelegd in een Merkle Tree. Dit is een structuur die een grote set gegevens samenvat (in dit geval, alle transacties in het blok) door hun hashes progressief twee aan twee samen te voegen tot een enkele "root", en zo te bewijzen dat een element bij de set hoort (en elke wijziging te detecteren). Op deze manier wijzigt elke wijziging aan een transactie ook de root van de Merkle Tree en dus de fingerprint van de block header. SegWit heeft een aparte extra commitment geïntroduceerd voor cookies (handtekeningen), geplaatst in de coinbase.
+Transacties worden vastgelegd in een Merkle Tree. Dit is een structuur die een grote set gegevens samenvat (in dit geval, alle transacties in het blok) door hun hashes progressief twee aan twee samen te voegen tot een enkele "root", en zo te bewijzen dat een element bij de set hoort (en elke wijziging te detecteren). Op deze manier wijzigt elke wijziging aan een transactie ook de root van de Merkle Tree en dus de fingerprint van de block header. [SegWit](https://planb.academy/resources/glossary/segwit) heeft een aparte extra commitment geïntroduceerd voor cookies (handtekeningen), geplaatst in de coinbase.
 
 
 
@@ -2849,7 +2849,7 @@ Zodra de IBD voltooid is, gaat de node zijn normale fase in: het valideert nieuw
 
 
 
-Bitcoin core bevat een mechanisme dat ontworpen is om de tijd te verkorten die nodig is voordat een node volledig operationeel is, terwijl de essentie van het autonome verificatieprincipe behouden blijft: AssumeValid.
+Bitcoin core bevat een mechanisme dat ontworpen is om de tijd te verkorten die nodig is voordat een node volledig operationeel is, terwijl de essentie van het autonome verificatieprincipe behouden blijft: [AssumeValid](https://planb.academy/resources/glossary/assume-valid).
 
 
 
@@ -2893,7 +2893,7 @@ Wanneer de node opnieuw opstart nadat het al eerder is gebruikt, probeert Core e
 
 
 
-In dit geval bevraagt de software _**DNS seeds**_. Dit zijn [servers onderhouden door erkende ontwikkelaars van ecosystemen](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), die een lijst met IP-adressen van vermoedelijk actieve nodes terugsturen. Met deze adressen kan de nieuwe node zijn eerste verbindingen starten en de benodigde gegevens opvragen bij de IBD. Hier is de lijst van *DNS seeds* die tot nu toe actief zijn (augustus 2025):
+In dit geval bevraagt de software _**[DNS seeds](https://planb.academy/resources/glossary/dns-seeds)**_. Dit zijn [servers onderhouden door erkende ontwikkelaars van ecosystemen](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), die een lijst met IP-adressen van vermoedelijk actieve nodes terugsturen. Met deze adressen kan de nieuwe node zijn eerste verbindingen starten en de benodigde gegevens opvragen bij de IBD. Hier is de lijst van *DNS seeds* die tot nu toe actief zijn (augustus 2025):
 
 
 
@@ -3009,7 +3009,7 @@ Om terug te kunnen gaan in de tijd tijdens een reorganisatie, slaat Core, parall
 
 
 
-Direct zoeken naar een blok in de flat files zou te tijdrovend zijn. Core onderhoudt daarom een LevelDB database in `blocks/index/` die voor elk bekend blok metadata zoals hash, hoogte, validatiestatus, `blk` bestand en offset waar het zich bevindt opsomt. Wanneer een peer een blok opvraagt, of wanneer een interne component een specifiek blok moet benaderen, biedt deze index snelle toegang. Zonder deze index zouden er te veel handelingen nodig zijn.
+Direct zoeken naar een blok in de flat files zou te tijdrovend zijn. Core onderhoudt daarom een [LevelDB](https://planb.academy/resources/glossary/leveldb) database in `blocks/index/` die voor elk bekend blok metadata zoals hash, hoogte, validatiestatus, `blk` bestand en offset waar het zich bevindt opsomt. Wanneer een peer een blok opvraagt, of wanneer een interne component een specifiek blok moet benaderen, biedt deze index snelle toegang. Zonder deze index zouden er te veel handelingen nodig zijn.
 
 
 
@@ -3051,7 +3051,7 @@ De totaliteit van al deze onderdelen op een gegeven moment T vormt de UTXO set: 
 
 
 
-De UTXO set wordt opgeslagen in de `chainstate/` map als een compacte LevelDB database. Elk deel associeert een sleutel die is afgeleid van de hash van de transactie en de outputindex met een waarde die het volgende bevat: het bedrag, het `scriptPubKey` slot, de hoogte van het aanmaakblok en een coinbase indicator.
+De UTXO set wordt opgeslagen in de `chainstate/` map als een compacte LevelDB database. Elk deel associeert een sleutel die is afgeleid van de hash van de transactie en de outputindex met een waarde die het volgende bevat: het bedrag, het `scriptPubKey` slot, de hoogte van het aanmaakblok en een [coinbase](https://planb.academy/resources/glossary/coinbase-transaction) indicator.
 
 
 
@@ -3075,13 +3075,13 @@ Merk op dat de UTXO set vaak de kern vormt van de bezorgdheid over de decentrali
 
 
 
-De groei van de UTXO set komt ook voort uit de structuur van eenvoudige betalingstransacties op Bitcoin. Wanneer je een betaling doet, verbruik je een enkele UTXO als input en creëer je 2 nieuwe UTXO's als output (één voor de betaling en de andere voor het wisselgeld ( exchange)). Tenslotte geeft een heuristische ketenanalyse, genaamd CIOH (*Common Input Ownership Heuristic*), een verdere stimulans om coin consolidatie te vermijden.
+De groei van de UTXO set komt ook voort uit de structuur van eenvoudige betalingstransacties op Bitcoin. Wanneer je een betaling doet, verbruik je een enkele UTXO als input en creëer je 2 nieuwe UTXO's als output (één voor de betaling en de andere voor het wisselgeld ( exchange)). Tenslotte geeft een heuristische ketenanalyse, genaamd [CIOH](https://planb.academy/resources/glossary/cioh) (*Common Input Ownership Heuristic*), een verdere stimulans om coin consolidatie te vermijden.
 
 
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Omdat een deel ervan in het RAM moet worden bewaard om transacties binnen een redelijke tijd te kunnen verifiëren, kan de UTXO set de werking van een Full node geleidelijk aan te duur maken. Om dit probleem op te lossen bestaan er al enkele voorstellen, met name [Utreexo](https://planb.academy/resources/glossary/utreexo).
+Omdat een deel ervan in het RAM moet worden bewaard om transacties binnen een redelijke tijd te kunnen verifiëren, kan de UTXO set de werking van een Full node geleidelijk aan te duur maken. Om dit probleem op te lossen bestaan er al enkele voorstellen, met name Utreexo.
 
 
 
@@ -3108,7 +3108,7 @@ Het is belangrijk om op te merken dat node mempools geen consensuswaarde hebben.
 
 
 
-Wanneer een transactie wordt ontvangen, past Core een reeks controles toe op de consensusregels (syntaxis, geldige scripts, geen dubbele uitgaven, etc.) en Mempool regels, die een lokaal beleid zijn (RBF, drempels voor minimale kosten, datalimiet in `OP_RETURN`, etc.). Als de transactie aan deze regels voldoet, wordt deze in het geheugen opgeslagen.
+Wanneer een transactie wordt ontvangen, past Core een reeks controles toe op de consensusregels (syntaxis, geldige scripts, geen dubbele uitgaven, etc.) en Mempool regels, die een lokaal beleid zijn ([RBF](https://planb.academy/resources/glossary/rbf-replacebyfee), drempels voor minimale kosten, datalimiet in `OP_RETURN`, etc.). Als de transactie aan deze regels voldoet, wordt deze in het geheugen opgeslagen.
 
 
 
@@ -3349,7 +3349,7 @@ Op netwerkniveau hebben we ook:
 
 
 
-Standaard communiceert je node over clearnet, Tor en I2P. Dit betekent dat de peers waarmee het verbinding maakt op clearnet je publieke IP adres kunnen zien, en je ISP zal waarschijnlijk kunnen detecteren dat je een Bitcoin node gebruikt (hoewel P2P Transport V2 het moeilijker maakt voor een ISP om af te luisteren). Dit is niet per se een probleem, maar als je wilt voorkomen dat deze informatie uitlekt, kun je je node uitsluitend via het Tor netwerk verbinden.
+Standaard communiceert je node over clearnet, Tor en I2P. Dit betekent dat de peers waarmee het verbinding maakt op clearnet je publieke IP adres kunnen zien, en je ISP zal waarschijnlijk kunnen detecteren dat je een Bitcoin node gebruikt (hoewel [P2P Transport V2](https://planb.academy/resources/glossary/p2p-transport-v2) het moeilijker maakt voor een ISP om af te luisteren). Dit is niet per se een probleem, maar als je wilt voorkomen dat deze informatie uitlekt, kun je je node uitsluitend via het Tor netwerk verbinden.
 
 
 
@@ -3468,7 +3468,7 @@ Hier zijn de geavanceerde instellingen voor Mempool en relay policy. Als je een 
 
 
 
-- `permitbaremultisig=1`: Staat het doorsturen van *bare-Multisig* P2MS transacties toe (standaard: `1`). Dit is het oudste scriptsjabloon voor het instellen van multisignature condities op een UTXO (uitgevonden in 2011 door Gavin Andresen).
+- `permitbaremultisig=1`: Staat het doorsturen van *bare-Multisig* P2MS transacties toe (standaard: `1`). Dit is het oudste scriptsjabloon voor het instellen van [multisignature](https://planb.academy/resources/glossary/multisig) condities op een UTXO (uitgevonden in 2011 door Gavin Andresen).
 
 
 

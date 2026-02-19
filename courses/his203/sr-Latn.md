@@ -191,7 +191,7 @@ Mnogo hvala Loïc Morelu za njegovo pažljivo lektorisanje!
 
 
 
-Pitanje odnosa između kriptovaluta i autoriteta pojavilo se prilično brzo u istoriji Bitcoin. U decembru 2010. godine, Satoshi Nakamoto se povukao iz javnosti nakon objavljivanja članka u PC World-u koji je ohrabrivao WikiLeaks da koristi Bitcoin. Kao da potvrđuje njegovu intuiciju, članak je privukao ogromnu pažnju na Bitcoin, čija je cena skočila sa $0.20 na $32 u samo nekoliko meseci. Satoshi je nastavio da komunicira privatno sa svojim najbližim saradnicima i na kraju nestao u proleće 2011. Prilično simbolično, poslednja poruka od Gavina Andresena, programera koji je preuzeo projekat, obavestila je tvorca Bitcoin da ga je kontaktirao In-Q-Tel, investicioni fond kojim upravlja CIA. Pandorina kutija je zaista bila otvorena.
+Pitanje odnosa između [kriptovaluta](https://planb.academy/resources/glossary/cryptocurrency) i autoriteta pojavilo se prilično brzo u istoriji Bitcoin. U decembru 2010. godine, Satoshi Nakamoto se povukao iz javnosti nakon objavljivanja članka u PC World-u koji je ohrabrivao WikiLeaks da koristi Bitcoin. Kao da potvrđuje njegovu intuiciju, članak je privukao ogromnu pažnju na Bitcoin, čija je cena skočila sa $0.20 na $32 u samo nekoliko meseci. Satoshi je nastavio da komunicira privatno sa svojim najbližim saradnicima i na kraju nestao u proleće 2011. Prilično simbolično, poslednja poruka od Gavina Andresena, programera koji je preuzeo projekat, obavestila je tvorca Bitcoin da ga je kontaktirao In-Q-Tel, investicioni fond kojim upravlja CIA. Pandorina kutija je zaista bila otvorena.
 
 
 
@@ -387,7 +387,7 @@ Nisu svi pozdravili publicitet generated izazvan člankom na Gawkeru. Činjenica
 
 
 
-Posebno, programer Jeff Garzik, koji je bio uključen u razvoj softvera u to vreme, imao je negativan stav prema ovoj neželjenoj asocijaciji. Nakon objavljivanja članka, lično je [kontaktirao](https://www.theatlantic.com/technology/archive/2011/06/libertarian-dream-a-site-where-you-buy-drugs-with-digital-dollars/239776/) Adriena Chena putem e-maila kako bi objasnio da Bitcoin nije toliko anoniman koliko se činilo, jer su sve transakcije trajno zabeležene na blockchainu. Svoj e-mail je završio sledećom procenom:
+Posebno, programer Jeff Garzik, koji je bio uključen u razvoj softvera u to vreme, imao je negativan stav prema ovoj neželjenoj asocijaciji. Nakon objavljivanja članka, lično je [kontaktirao](https://www.theatlantic.com/technology/archive/2011/06/libertarian-dream-a-site-where-you-buy-drugs-with-digital-dollars/239776/) Adriena Chena putem e-maila kako bi objasnio da Bitcoin nije toliko anoniman koliko se činilo, jer su sve transakcije trajno zabeležene na [blockchainu](https://planb.academy/resources/glossary/blockchain). Svoj e-mail je završio sledećom procenom:
 
 
 > "Pokušaj velikih nezakonitih transakcija sa bitcoinom, s obzirom na postojeće tehnike statističke analize koje koriste organi reda, je prilično prokleto glup."
@@ -908,7 +908,7 @@ Ali Roger nije bio jedini vatreni libertarijanac uključen u Bitcoin; tu je bio 
 
 > "Taj dan je bio jedan od najvažnijih dana u mom životu. Bilo je to kao otkrivanje neke velike istine, kao da vidim budućnost. Napustio sam sve što sam radio i skočio niz zečju rupu."
 
-Njegova motivacija je bila uglavnom ideološka: bio je zaveden nezaustavljivom prirodom sistema i nemogućnošću stvaranja više novca nego što je planirano. On je [video](https://silverunderground.com/2011/06/bitcoin-the-separation-of-money-and-state/) Bitcoin kao oličenje "odvajanja novca od države". Takođe ga je uverila agoristička praksa koju je promovisao Samuel Konkin i [verovao](https://bitcointalk.org/index.php?topic=34657.msg431717#msg431717) je da je "Bitcoin za agorizam ono što su škrge za ribu", tj. suštinski zupčanik.
+Njegova motivacija je bila uglavnom ideološka: bio je zaveden nezaustavljivom prirodom sistema i nemogućnošću stvaranja više novca nego što je planirano. On je [video](https://silverunderground.com/2011/06/bitcoin-the-separation-of-money-and-state/) Bitcoin kao oličenje "odvajanja novca od države". Takođe ga je uverila agoristička praksa koju je promovisao Samuel Konkin i [verovao](https://bitcointalk.org/index.php?topic=34657.msg431717#msg431717) je da je "Bitcoin za [agorizam](https://planb.academy/resources/glossary/agorism) ono što su škrge za ribu", tj. suštinski zupčanik.
 
 
 
@@ -1428,7 +1428,7 @@ Problem sa potpunim implementacijama je što su one resursno intenzivne i neprak
 
 
 
-Prva ideja je bila da se koristi čvor kao udaljeni server, u kojem korisnik ima potpuno poverenje. U februaru 2011. godine, Amir Taaki je [pokrenuo](https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538) softverski klijent za upravljanje wallet lokalno povezivanjem na postojeći čvor nazvan Spesmilo. Klijent je u početku radio na Linux-u, ali je ubrzo prebačen na Windows. Ime je bilo referenca na spesmilo, drevnu međunarodnu valutnu jedinicu koju je predložio švajcarski matematičar René de Saussure (brat lingviste Ferdinanda) 1907. godine, kao deo Esperanto projekta.
+Prva ideja je bila da se koristi [čvor](https://planb.academy/resources/glossary/node) kao udaljeni server, u kojem korisnik ima potpuno poverenje. U februaru 2011. godine, Amir Taaki je [pokrenuo](https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538) softverski klijent za upravljanje wallet lokalno povezivanjem na postojeći čvor nazvan Spesmilo. Klijent je u početku radio na Linux-u, ali je ubrzo prebačen na Windows. Ime je bilo referenca na spesmilo, drevnu međunarodnu valutnu jedinicu koju je predložio švajcarski matematičar René de Saussure (brat lingviste Ferdinanda) 1907. godine, kao deo Esperanto projekta.
 
 
 
@@ -1498,7 +1498,7 @@ Predviđene su dve vrste derivacije. Jedan tip (tip 1) bio je jednostavan, gener
 
 
 
-Kasnije, u februaru 2012, došlo je do standardizacije sa [objavljivanjem](https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198) BIP 32. Opisala je opštu strukturu *Hijerarhijski Determinističkih Wallet*, HD Wallet, gde se derivacije koriste metodično za izvođenje seed ključeva i adresa. Postepeno je usvojena od strane većine wallet tokom godina.
+Kasnije, u februaru 2012, došlo je do standardizacije sa [objavljivanjem](https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198) [BIP](https://planb.academy/resources/glossary/bip) 32. Opisala je opštu strukturu *Hijerarhijski Determinističkih Wallet*, HD Wallet, gde se derivacije koriste metodično za izvođenje seed ključeva i adresa. Postepeno je usvojena od strane većine wallet tokom godina.
 
 
 
@@ -1600,7 +1600,7 @@ Prvi programer koji je koristio ovu biblioteku bio je član foruma koji se preds
 
 
 
-Biblioteka BitcoinJS je takođe [korišćena](https://web.archive.org/web/20180611012256/https://github.com/zootreeves/blockchain.info) od strane Benjamina Reevesa, mladog britanskog programera koji živi u Jorku, poznatog na forumu kao Piuk. Veoma povučen, bio je i radoholičar. U avgustu je [razvio](https://bitcointalk.org/index.php?topic=40264.msg500726#msg500726) blok istraživač koji "uključuje napuštene blokove koji se mogu koristiti za praćenje mogućih dvostrukih trošenja" i "procjenjuje stvarni obim transakcija BTC (ne samo BTC poslat)", koji hostuje na svom ličnom sajtu. Takmiči se sa Theymosovim Bitcoin Block Explorer (BBE), i sa [ABE](https://bitcointalk.org/index.php?topic=22785.msg286515#msg286515), open-source alternativom namenjenom za hostovanje od strane korisnika. U oktobru, sajt je [dobio](https://bitcointalk.org/index.php?topic=40264.msg576916#msg576916) sopstveno ime domena: Blockchain.info. Brzo je postao preferirani istraživač za članove zajednice.
+Biblioteka BitcoinJS je takođe [korišćena](https://web.archive.org/web/20180611012256/https://github.com/zootreeves/blockchain.info) od strane Benjamina Reevesa, mladog britanskog programera koji živi u Jorku, poznatog na forumu kao Piuk. Veoma povučen, bio je i radoholičar. U avgustu je [razvio](https://bitcointalk.org/index.php?topic=40264.msg500726#msg500726) [blok](https://planb.academy/resources/glossary/block) istraživač koji "uključuje napuštene blokove koji se mogu koristiti za praćenje mogućih dvostrukih trošenja" i "procjenjuje stvarni obim transakcija BTC (ne samo BTC poslat)", koji hostuje na svom ličnom sajtu. Takmiči se sa Theymosovim Bitcoin Block Explorer (BBE), i sa [ABE](https://bitcointalk.org/index.php?topic=22785.msg286515#msg286515), open-source alternativom namenjenom za hostovanje od strane korisnika. U oktobru, sajt je [dobio](https://bitcointalk.org/index.php?topic=40264.msg576916#msg576916) sopstveno ime domena: Blockchain.info. Brzo je postao preferirani istraživač za članove zajednice.
 
 
 
@@ -1757,7 +1757,7 @@ Da bi se rešio ovaj problem i prekinula mogućnost praćenja sredstava, rešenj
 
 
 
-Prvi je BitLaundry. Ova usluga je [pokrenuta](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823) u septembru 2010. godine od strane Petera Vessenesa, američkog preduzetnika sa diplomom iz kriptografije koji je otkrio postojanje Bitcoin u vreme slashdotting-a. Blender je [obezbedio](https://maltemoeser.de/paper/money-laundering.pdf#page=5) korisniku adresu za jednokratnu upotrebu, na koju su slana sredstva koja treba da budu anonimizovana. Bitcoini su zatim vraćeni u obliku nekoliko kovanica (UTXO), u okviru transakcije sa više unosa koja uključuje bitcoine od drugih korisnika, čineći mešanje efektivnim. Naknade su bile oko 2,5% od uključenog iznosa. U maju 2011. godine, osećajući pravne komplikacije koje bi mogle proizaći iz ove aktivnosti, Peter Vessenes je [prenio](https://bitcointalk.org/index.php?topic=963.msg122955#msg122955) uslugu na Mikea Gogulskog, aktivistu poznatog po tome što je bez državljanstva, jer se odrekao američkog državljanstva bez posedovanja drugog.
+Prvi je BitLaundry. Ova usluga je [pokrenuta](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823) u septembru 2010. godine od strane Petera Vessenesa, američkog preduzetnika sa diplomom iz kriptografije koji je otkrio postojanje Bitcoin u vreme slashdotting-a. Blender je [obezbedio](https://maltemoeser.de/paper/money-laundering.pdf#page=5) korisniku adresu za jednokratnu upotrebu, na koju su slana sredstva koja treba da budu anonimizovana. Bitcoini su zatim vraćeni u obliku nekoliko kovanica ([UTXO](https://planb.academy/resources/glossary/utxo)), u okviru transakcije sa više unosa koja uključuje bitcoine od drugih korisnika, čineći mešanje efektivnim. Naknade su bile oko 2,5% od uključenog iznosa. U maju 2011. godine, osećajući pravne komplikacije koje bi mogle proizaći iz ove aktivnosti, Peter Vessenes je [prenio](https://bitcointalk.org/index.php?topic=963.msg122955#msg122955) uslugu na Mikea Gogulskog, aktivistu poznatog po tome što je bez državljanstva, jer se odrekao američkog državljanstva bez posedovanja drugog.
 
 
 
@@ -1777,7 +1777,7 @@ Treći je bio posebne vrste, jer je to bio mikser ugrađen u Ben Reeves' Blockch
 
 
 
-Proliferacija centralizovanih miksera imala je efekat katalizovanja razmišljanja o decentralizovanom mešanju novčića, što je počelo leta 2011. sa predlogom [proposal](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) koji je izneo Hashcoin. To je dovelo do [formalizacije](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902) CoinJoin od strane Gregory Maxwell u 2013. godini. Ali to je sasvim druga priča...
+Proliferacija centralizovanih miksera imala je efekat katalizovanja razmišljanja o decentralizovanom mešanju novčića, što je počelo leta 2011. sa predlogom [proposal](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) koji je izneo Hashcoin. To je dovelo do [formalizacije](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902) [CoinJoin](https://planb.academy/resources/glossary/coinjoin) od strane Gregory Maxwell u 2013. godini. Ali to je sasvim druga priča...
 
 
 
@@ -1920,7 +1920,7 @@ Luke je u početku usvojio proporcionalni model plaćanja. Međutim, zabrinutost
 
 
 
-Eligius je takođe inovirao praksu "coinbase signing", koja se sastoji u pisanju imena bazena (ovde `Eligius`) u ulaznom polju transakcije nagrade iskopanog bloka. Ova praksa, koja čini rad bazena transparentnijim, inaugurisana je na dan prelaska na MPPS model, u noći između 13. i 14. juna, sa blokom [130 635](https://mempool.space/block/0000000000000a067d94ff753eec72830f1205ad3a4c216a08a80c832e551a52). Ovo je bio drugi unos napravljen na ovaj način, nakon amblematskog citata iz *Times*-a koji je Satoshi Nakamoto uključio u genezis blok u januaru 2009. godine.
+Eligius je takođe inovirao praksu "coinbase signing", koja se sastoji u pisanju imena bazena (ovde `Eligius`) u ulaznom polju transakcije nagrade iskopanog bloka. Ova praksa, koja čini rad bazena transparentnijim, inaugurisana je na dan prelaska na MPPS model, u noći između 13. i 14. juna, sa blokom [130 635](https://mempool.space/block/0000000000000a067d94ff753eec72830f1205ad3a4c216a08a80c832e551a52). Ovo je bio drugi unos napravljen na ovaj način, nakon amblematskog citata iz *Times*-a koji je Satoshi Nakamoto uključio u [genezis blok](https://planb.academy/resources/glossary/genesis-block) u januaru 2009. godine.
 
 
 
@@ -1996,7 +1996,7 @@ Jedan od načina za borbu protiv centralizacije izazvane širokom upotrebom pool
 
 
 
-Model se [oslanjao](https://im.forre.st/pb/85341005.txt) na "sharechain", koji su održavali učesnici rudari povezani peer-to-peer, slično kao Bitcoin-ov blockchain. Svaki deo sadrži otisak prethodnog dela, što povezuje delove zajedno i osigurava integritet celine. Težina (koja je u početku 600 puta niža od težine glavne mreže) se redovno prilagođava kako bi se garantovao prosečan interval od 5 sekundi. Metod naknade je plaćanje prema poslednjim N delovima (PPLNS), koje se vrši direktno u transakciji nagrade, svaki put kada se pronađe blok.
+Model se [oslanjao](https://im.forre.st/pb/85341005.txt) na "sharechain", koji su održavali učesnici rudari povezani peer-to-peer, slično kao Bitcoin-ov blockchain. Svaki deo sadrži otisak prethodnog dela, što povezuje delove zajedno i osigurava integritet celine. [Težina](https://planb.academy/resources/glossary/difficulty) (koja je u početku 600 puta niža od težine glavne mreže) se redovno prilagođava kako bi se garantovao prosečan interval od 5 sekundi. Metod naknade je plaćanje prema poslednjim N delovima (PPLNS), koje se vrši direktno u transakciji nagrade, svaki put kada se pronađe blok.
 
 
 
@@ -2086,7 +2086,7 @@ Nakon odlaska Satoshi Nakamoto, razvoj softvera preuzela je zajednica, koja je m
 
 
 
-Tokom zime 2011-2012, kontroverza je nastala oko implementacije multisignature u Bitcoin. To se ticalo, između ostalog, šeme poznate kao "Pay to Script Hash", ili P2SH. Pete Rizzo i Aaron van Wirdum [bi](https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war) nazvali ovaj sukob "Bitka za P2SH". Ovo je bio prvi veliki spor oko evolucije protokola i prvi koji je postavio pitanje upravljanja.
+Tokom zime 2011-2012, kontroverza je nastala oko implementacije multisignature u Bitcoin. To se ticalo, između ostalog, šeme poznate kao "Pay to [Script](https://planb.academy/resources/glossary/script) Hash", ili P2SH. Pete Rizzo i Aaron van Wirdum [bi](https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war) nazvali ovaj sukob "Bitka za P2SH". Ovo je bio prvi veliki spor oko evolucije protokola i prvi koji je postavio pitanje upravljanja.
 
 
 
@@ -2642,7 +2642,7 @@ Uprkos ovom neuspehu, Litecoin je priča o uspehu. Zajedno sa namecoin-om, to je
 
 
 
-Mogućnost zarađivanja novca kloniranjem Bitcoin i profitiranjem od rastuće vrednosti jedinica bila je očigledna. Još u novembru 2010. godine, čak i pre nego što se pojavila ideja o BitDNS-u, ova mogućnost je pokrenuta na forumu. Ribuck, aktivni član foruma u to vreme, [napisao je](https://bitcointalk.org/index.php?topic=1647.msg20646#msg20646) optužnicu protiv budućih kopija Bitcoin, dok je u tom procesu skovao termin "shitcoin":
+Mogućnost zarađivanja novca kloniranjem Bitcoin i profitiranjem od rastuće vrednosti jedinica bila je očigledna. Još u novembru 2010. godine, čak i pre nego što se pojavila ideja o BitDNS-u, ova mogućnost je pokrenuta na forumu. Ribuck, aktivni član foruma u to vreme, [napisao je](https://bitcointalk.org/index.php?topic=1647.msg20646#msg20646) optužnicu protiv budućih kopija Bitcoin, dok je u tom procesu skovao termin "[shitcoin](https://planb.academy/resources/glossary/shitcoin)":
 
 
 

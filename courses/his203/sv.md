@@ -191,7 +191,7 @@ Stort tack till Loïc Morel för hans noggranna korrekturläsning!
 
 
 
-Frågan om förhållandet mellan kryptovaluta och myndighet dök upp ganska snabbt i Bitcoin:s historia. I december 2010 drog sig Satoshi Nakamoto tillbaka från offentligheten efter publiceringen av en artikel i PC World som uppmuntrade WikiLeaks att använda Bitcoin. Som för att bekräfta hans intuition drog artikeln massiv uppmärksamhet till Bitcoin, vars pris hoppade från 0,20 dollar till 32 dollar på bara några månader. Satoshi fortsatte att kommunicera privat med sina närmaste medarbetare och försvann slutligen under våren 2011. Det sista meddelandet från Gavin Andresen, utvecklaren som hade tagit över projektet, var symboliskt nog ett meddelande från Bitcoin:s skapare om att han hade kontaktats av In-Q-Tel, en investeringsfond som förvaltas av CIA. Pandoras ask var verkligen öppen.
+Frågan om förhållandet mellan [kryptovaluta](https://planb.academy/resources/glossary/cryptocurrency) och myndighet dök upp ganska snabbt i Bitcoin:s historia. I december 2010 drog sig Satoshi Nakamoto tillbaka från offentligheten efter publiceringen av en artikel i PC World som uppmuntrade WikiLeaks att använda Bitcoin. Som för att bekräfta hans intuition drog artikeln massiv uppmärksamhet till Bitcoin, vars pris hoppade från 0,20 dollar till 32 dollar på bara några månader. Satoshi fortsatte att kommunicera privat med sina närmaste medarbetare och försvann slutligen under våren 2011. Det sista meddelandet från Gavin Andresen, utvecklaren som hade tagit över projektet, var symboliskt nog ett meddelande från Bitcoin:s skapare om att han hade kontaktats av In-Q-Tel, en investeringsfond som förvaltas av CIA. Pandoras ask var verkligen öppen.
 
 
 
@@ -387,7 +387,7 @@ Inte alla välkomnade publiciteten generated av Gawker-artikeln. Det faktum att 
 
 
 
-Särskilt programmeraren Jeff Garzik, som vid den tiden var involverad i utvecklingen av programvaran, tog illa vid sig av denna ovälkomna association. Efter publiceringen av artikeln [kontaktade] (https://www.theatlantic.com/technology/archive/2011/06/libertarian-dream-a-site-where-you-buy-drugs-with-digital-dollars/239776/) han personligen Adrien Chen via e-post för att förklara att Bitcoin inte var så anonymt som det verkade, eftersom alla transaktioner registreras permanent i blockkedjan. Han avslutade sitt mejl med denna bedömning:
+Särskilt programmeraren Jeff Garzik, som vid den tiden var involverad i utvecklingen av programvaran, tog illa vid sig av denna ovälkomna association. Efter publiceringen av artikeln [kontaktade] (https://www.theatlantic.com/technology/archive/2011/06/libertarian-dream-a-site-where-you-buy-drugs-with-digital-dollars/239776/) han personligen Adrien Chen via e-post för att förklara att Bitcoin inte var så anonymt som det verkade, eftersom alla transaktioner registreras permanent i [blockkedjan](https://planb.academy/resources/glossary/blockchain). Han avslutade sitt mejl med denna bedömning:
 
 
 > "Att försöka genomföra större olagliga transaktioner med bitcoin, med tanke på befintliga statistiska analysmetoder som används i fält av brottsbekämpande myndigheter, är ganska jävla dumt."
@@ -932,7 +932,7 @@ Med Bitcoin ville Ira Miller "bygga alternativa system, för att konkurrera med 
 
 
 
-De två männen kommer mycket bra överens och deras färdigheter kompletterar varandra. I augusti sökte Erik Voorhees en programmerare för att utveckla en av sina idéer, och Ira tackade ja. Det var FeedZeBirds (bokstavligen "mata fåglarna"), en annonsplattform som gör det möjligt för användare att boosta innehåll på Twitter genom att köpa retweets, som de [lanserade] (https://bitcointalk.org/index.php?topic=52638.msg628165#msg628165) den 23 november. Det var en tvivelaktig användning (Twitter uppmuntrade verkligen inte den här typen av beteende), som utnyttjade Bitcoin:s censurmotstånd och avsaknad av transaktionsavgifter. Den 28 november dök de två partnerna upp (https://www.youtube.com/watch?v=VuLAhZsFc1A) på *Bitcoin Show* för att marknadsföra sin produkt. Därefter utvecklade de också betalningsprocessorn Paysius och e-postöverföringstjänsten Coinapult.
+De två männen kommer mycket bra överens och deras färdigheter kompletterar varandra. I augusti sökte Erik Voorhees en programmerare för att utveckla en av sina idéer, och Ira tackade ja. Det var FeedZeBirds (bokstavligen "mata fåglarna"), en annonsplattform som gör det möjligt för användare att boosta innehåll på Twitter genom att köpa retweets, som de [lanserade] (https://bitcointalk.org/index.php?topic=52638.msg628165#msg628165) den 23 november. Det var en tvivelaktig användning (Twitter uppmuntrade verkligen inte den här typen av beteende), som utnyttjade Bitcoin:s censurmotstånd och avsaknad av [transaktionsavgifter](https://planb.academy/resources/glossary/transaction-fees). Den 28 november dök de två partnerna upp (https://www.youtube.com/watch?v=VuLAhZsFc1A) på *Bitcoin Show* för att marknadsföra sin produkt. Därefter utvecklade de också betalningsprocessorn Paysius och e-postöverföringstjänsten Coinapult.
 
 
 
@@ -1234,7 +1234,7 @@ I början av mars 2012 [accepterade] (https://bitcointalk.org/index.php?topic=67
 
 
 
-En av de personer som deltog i denna rörelse var James McCarthy, som använde pseudonymen Nefario på forumet Bitcoin, med hänvisning till karaktären med samma namn i den animerade filmen *Despicable Me*. Nefario var en irländare som bodde i Kina och arbetade som engelsk professor vid ett universitet. Han var intresserad av den österrikiska skolan och cypherpunkarnas idéer och [förklarade](https://web.archive.org/web/20110607050421/http://bitcoinweekly.com/articles/interview-with-nefario-founder-of-bitcoin-global) sig själv vara "något av en cypherpunk". Han [upptäckte](https://bitcointalk.org/index.php?topic=2502.msg33800#msg33800) förekomsten av Bitcoin under 2010 och utvann över tusen av dem. Han blev sedan involverad i flera projekt, bland annat online-tidningsprojektet Bitcoin Weekly.
+En av de personer som deltog i denna rörelse var James McCarthy, som använde pseudonymen Nefario på forumet Bitcoin, med hänvisning till karaktären med samma namn i den animerade filmen *Despicable Me*. Nefario var en irländare som bodde i Kina och arbetade som engelsk professor vid ett universitet. Han var intresserad av den [österrikiska skolan](https://planb.academy/resources/glossary/austrian-school) och cypherpunkarnas idéer och [förklarade](https://web.archive.org/web/20110607050421/http://bitcoinweekly.com/articles/interview-with-nefario-founder-of-bitcoin-global) sig själv vara "något av en cypherpunk". Han [upptäckte](https://bitcointalk.org/index.php?topic=2502.msg33800#msg33800) förekomsten av Bitcoin under 2010 och utvann över tusen av dem. Han blev sedan involverad i flera projekt, bland annat online-tidningsprojektet Bitcoin Weekly.
 
 
 
@@ -1387,7 +1387,7 @@ I början av 2012 utvecklade Paymium sin egen Custodial-app: Paytunia. Paytunia-
 
 
 
-Det var också en bra tid att skriva om Bitcoin-protokollet. Huvudprogramvaran, som på den tiden helt enkelt kallades "Bitcoin", var en fullständig implementering eftersom den krävde att hela blockkedjan skulle underhållas och att nya transaktioner och block skulle vidarebefordras. Men det var den enda som existerade, så hela nätverket var beroende av den för att fungera. Därav önskan att utveckla alternativa implementeringar av Bitcoin.
+Det var också en bra tid att skriva om Bitcoin-protokollet. Huvudprogramvaran, som på den tiden helt enkelt kallades "Bitcoin", var en fullständig implementering eftersom den krävde att hela blockkedjan skulle underhållas och att nya transaktioner och [block](https://planb.academy/resources/glossary/block) skulle vidarebefordras. Men det var den enda som existerade, så hela nätverket var beroende av den för att fungera. Därav önskan att utveckla alternativa implementeringar av Bitcoin.
 
 
 
@@ -1428,7 +1428,7 @@ Problemet med fullständiga implementeringar är att de är resurskrävande och 
 
 
 
-Den första idén var att använda en nod som en fjärrserver, som användaren har fullt förtroende för. I februari 2011 lanserade Amir Taaki [https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538] en mjukvaruklient för att hantera en wallet lokalt genom att ansluta till en befintlig nod som heter Spesmilo. Klienten kördes ursprungligen på Linux, men portades snart till Windows. Namnet var en referens till spesmilo, den gamla internationella valutaenheten som föreslogs av den schweiziske matematikern René de Saussure (bror till lingvisten Ferdinand) 1907, som en del av Esperanto-projektet.
+Den första idén var att använda en [nod](https://planb.academy/resources/glossary/node) som en fjärrserver, som användaren har fullt förtroende för. I februari 2011 lanserade Amir Taaki [https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538] en mjukvaruklient för att hantera en wallet lokalt genom att ansluta till en befintlig nod som heter Spesmilo. Klienten kördes ursprungligen på Linux, men portades snart till Windows. Namnet var en referens till spesmilo, den gamla internationella valutaenheten som föreslogs av den schweiziske matematikern René de Saussure (bror till lingvisten Ferdinand) 1907, som en del av Esperanto-projektet.
 
 
 
@@ -1498,7 +1498,7 @@ Två typer av härledning övervägdes. Den ena typen (typ 1) var okomplicerad o
 
 
 
-Senare, i februari 2012, skedde en standardisering genom [publiceringen](https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198) av BIP 32. Den beskrev den allmänna strukturen för *Hierarkiska deterministiska Wallet*, HD Wallet, där härledningar används metodiskt för att härleda seed-nycklar och adresser. Den har gradvis antagits av de flesta wallet under årens lopp.
+Senare, i februari 2012, skedde en standardisering genom [publiceringen](https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198) av [BIP](https://planb.academy/resources/glossary/bip) 32. Den beskrev den allmänna strukturen för *Hierarkiska deterministiska Wallet*, HD Wallet, där härledningar används metodiskt för att härleda seed-nycklar och adresser. Den har gradvis antagits av de flesta wallet under årens lopp.
 
 
 
@@ -1700,7 +1700,7 @@ Bitbills hade viss framgång, men Doug Feigelson hade svårt att möta efterfrå
 
 
 
-Mike Caldwell var en 33-årig amerikansk utvecklare som bodde i en förort till Salt Lake City, Utah, och drev ett företag inom affärsautomation som hette [Swipeclock] (https://www.linkedin.com/company/swipeclock/). Hans pseudonym, Casascius, är en latiniserad form av CASAS, initialerna i talesättet *kalla en spade för en spade*. Han var rationalist, fascinerades av kryptografi och lockades av den tekniska sidan av Bitcoin. Han försökte sig på mining under en tid.
+Mike Caldwell var en 33-årig amerikansk utvecklare som bodde i en förort till Salt Lake City, Utah, och drev ett företag inom affärsautomation som hette [Swipeclock] (https://www.linkedin.com/company/swipeclock/). Hans pseudonym, Casascius, är en latiniserad form av CASAS, initialerna i talesättet *kalla en spade för en spade*. Han var rationalist, fascinerades av [kryptografi](https://planb.academy/resources/glossary/cryptography) och lockades av den tekniska sidan av Bitcoin. Han försökte sig på mining under en tid.
 
 
 
@@ -1757,7 +1757,7 @@ För att komma till rätta med detta problem och bryta spårbarheten av medel va
 
 
 
-Den första är BitLaundry. Denna tjänst [lanserades](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823) i september 2010 av Peter Vessenes, en amerikansk entreprenör med en examen i kryptografi som upptäckte förekomsten av Bitcoin vid tidpunkten för slashdotting. Blendern [försåg](https://maltemoeser.de/paper/money-laundering.pdf#page=5) användaren med en engångsadress, till vilken de medel som skulle anonymiseras skickades. Bitcoins skickades sedan tillbaka i form av flera mynt (UTXO), inom en transaktion med flera inmatningar som inkluderar bitcoins från andra användare, vilket gör blandningen effektiv. De avgifter som togs ut var cirka 2,5% av det berörda beloppet. I maj 2011, när Peter Vessenes kände till de juridiska komplikationer som kunde uppstå på grund av denna verksamhet, [överförde](https://bitcointalk.org/index.php?topic=963.msg122955#msg122955) han tjänsten till Mike Gogulski, en aktivist som var känd för att vara statslös, eftersom han hade avsagt sig sitt amerikanska medborgarskap utan att ha något annat.
+Den första är BitLaundry. Denna tjänst [lanserades](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823) i september 2010 av Peter Vessenes, en amerikansk entreprenör med en examen i kryptografi som upptäckte förekomsten av Bitcoin vid tidpunkten för slashdotting. Blendern [försåg](https://maltemoeser.de/paper/money-laundering.pdf#page=5) användaren med en engångsadress, till vilken de medel som skulle anonymiseras skickades. Bitcoins skickades sedan tillbaka i form av flera mynt ([UTXO](https://planb.academy/resources/glossary/utxo)), inom en transaktion med flera inmatningar som inkluderar bitcoins från andra användare, vilket gör blandningen effektiv. De avgifter som togs ut var cirka 2,5% av det berörda beloppet. I maj 2011, när Peter Vessenes kände till de juridiska komplikationer som kunde uppstå på grund av denna verksamhet, [överförde](https://bitcointalk.org/index.php?topic=963.msg122955#msg122955) han tjänsten till Mike Gogulski, en aktivist som var känd för att vara statslös, eftersom han hade avsagt sig sitt amerikanska medborgarskap utan att ha något annat.
 
 
 
@@ -1777,7 +1777,7 @@ Den tredje var av ett speciellt slag, eftersom det var den mixer som var inbyggd
 
 
 
-Spridningen av centraliserade mixers hade effekten att katalysera tänkandet kring decentraliserad myntmixning, vilket började sommaren 2011 med ett förslag [proposal](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) som lades fram av Hashcoin. Detta ledde till [formalization](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902) av CoinJoin av Gregory Maxwell 2013. Men det är en helt annan historia...
+Spridningen av centraliserade mixers hade effekten att katalysera tänkandet kring decentraliserad myntmixning, vilket började sommaren 2011 med ett förslag [proposal](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) som lades fram av Hashcoin. Detta ledde till [formalization](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902) av [CoinJoin](https://planb.academy/resources/glossary/coinjoin) av Gregory Maxwell 2013. Men det är en helt annan historia...
 
 
 
@@ -1808,7 +1808,7 @@ Den amerikanska vilda västerns era kännetecknades av guldruschen - det vill s�
 
 
 
-Under hösten 2010 ledde den första tillströmningen av miners till en utbredd användning av GPU (graphics processing unit) mining, som var betydligt mer lönsam än CPU (central processing unit) mining. Detta tekniska framsteg ökade dock nätverkets svårighetsgrad i sådan utsträckning att små miners inte längre kunde hoppas på att hitta ett block inom en rimlig tidsram. Detta ledde till att det skapades grupper av miners, som BitcoinCZ Mining, Slush Pool. Utvecklingen stannade inte där: när priset steg under 2011 fortsatte tillströmningen av miners, och pool mining normaliserades snabbt.
+Under hösten 2010 ledde den första tillströmningen av miners till en utbredd användning av GPU (graphics processing unit) mining, som var betydligt mer lönsam än CPU (central processing unit) mining. Detta tekniska framsteg ökade dock nätverkets [svårighetsgrad](https://planb.academy/resources/glossary/difficulty) i sådan utsträckning att små miners inte längre kunde hoppas på att hitta ett block inom en rimlig tidsram. Detta ledde till att det skapades grupper av miners, som BitcoinCZ Mining, Slush Pool. Utvecklingen stannade inte där: när priset steg under 2011 fortsatte tillströmningen av miners, och pool mining normaliserades snabbt.
 
 
 
@@ -2067,7 +2067,7 @@ Självklart handlade utvecklingen av mining inte bara om organisationen av hasha
 
 
 
-Denna slutliga utveckling, som [planerades](https://www.metzdowd.com/pipermail/cryptography/2008-November/014815.html) för länge sedan av Satoshi Nakamoto, utvecklades gradvis tack vare programmerbara logikkretsar (FPGA), som gjorde det möjligt att praktiskt taget optimera hårdvaran för Bitcoin:s hashfunktion. Den första öppna FPGA-algoritmen [publicerades] (https://bitcointalk.org/index.php?topic=9047.msg130885#msg130885) i maj 2011, och ASIC tillämpade FPGA-optimeringar på själva chipen. Den första förförsäljningen av ASIC, av det amerikanska företaget Butterfly Labs, [ägde rum](https://web.archive.org/web/20120619090952/http://news.yahoo.com/butterfly-labs-announces-next-generation-asic-lineup-054626776.html) i juni 2012. Slutligen [distribuerades](https://bitcointalk.org/index.php?topic=137534.msg1465887#msg1465887) den första fungerande ASIC, Avalon ASIC, till allmänheten i januari 2013.
+Denna slutliga utveckling, som [planerades](https://www.metzdowd.com/pipermail/cryptography/2008-November/014815.html) för länge sedan av Satoshi Nakamoto, utvecklades gradvis tack vare programmerbara logikkretsar (FPGA), som gjorde det möjligt att praktiskt taget optimera hårdvaran för Bitcoin:s [hashfunktion](https://planb.academy/resources/glossary/hash-function). Den första öppna FPGA-algoritmen [publicerades] (https://bitcointalk.org/index.php?topic=9047.msg130885#msg130885) i maj 2011, och ASIC tillämpade FPGA-optimeringar på själva chipen. Den första förförsäljningen av ASIC, av det amerikanska företaget Butterfly Labs, [ägde rum](https://web.archive.org/web/20120619090952/http://news.yahoo.com/butterfly-labs-announces-next-generation-asic-lineup-054626776.html) i juni 2012. Slutligen [distribuerades](https://bitcointalk.org/index.php?topic=137534.msg1465887#msg1465887) den första fungerande ASIC, Avalon ASIC, till allmänheten i januari 2013.
 
 
 
@@ -2086,7 +2086,7 @@ Efter Satoshi Nakamoto:s avgång togs mjukvaruutvecklingen över av communityn, 
 
 
 
-Under vintern 2011-2012 uppstod en kontrovers kring implementeringen av multisignatur i Bitcoin. Det handlade bland annat om det system som kallas "Pay to Script Hash", eller P2SH. Pete Rizzo och Aaron van Wirdum [skulle](https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war) kalla denna konflikt för "Slaget om P2SH". Detta var den första stora tvisten om protokollets utveckling och den första som tog upp frågan om styrning.
+Under vintern 2011-2012 uppstod en kontrovers kring implementeringen av multisignatur i Bitcoin. Det handlade bland annat om det system som kallas "Pay to [Script](https://planb.academy/resources/glossary/script) Hash", eller P2SH. Pete Rizzo och Aaron van Wirdum [skulle](https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war) kalla denna konflikt för "Slaget om P2SH". Detta var den första stora tvisten om protokollets utveckling och den första som tog upp frågan om styrning.
 
 
 
@@ -2642,7 +2642,7 @@ Trots detta bakslag är Litecoin en framgångssaga. Tillsammans med namecoin är
 
 
 
-Möjligheten att tjäna pengar genom att klona Bitcoin och dra nytta av det stigande värdet på enheterna var uppenbar. Redan i november 2010, till och med innan idén om BitDNS uppstod, togs denna möjlighet upp på forumet. Ribuck, en aktiv forummedlem vid den tiden, [skrev](https://bitcointalk.org/index.php?topic=1647.msg20646#msg20646) en anklagelse mot framtida Bitcoin-kopior, samtidigt som han myntade termen "shitcoin" i processen:
+Möjligheten att tjäna pengar genom att klona Bitcoin och dra nytta av det stigande värdet på enheterna var uppenbar. Redan i november 2010, till och med innan idén om BitDNS uppstod, togs denna möjlighet upp på forumet. Ribuck, en aktiv forummedlem vid den tiden, [skrev](https://bitcointalk.org/index.php?topic=1647.msg20646#msg20646) en anklagelse mot framtida Bitcoin-kopior, samtidigt som han myntade termen "[shitcoin](https://planb.academy/resources/glossary/shitcoin)" i processen:
 
 
 

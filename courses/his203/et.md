@@ -191,7 +191,7 @@ Suur tänu Loïc Morelile hoolika korrektuuri eest!
 
 
 
-Küsimus krüptoraha ja võimu vahelisest suhtest kerkis Bitcoin ajaloos üsna kiiresti esile. Detsembris 2010 tõmbus Satoshi Nakamoto avalikkuse tähelepanu alt välja pärast PC Worldi artikli avaldamist, mis julgustas WikiLeaksit kasutama Bitcoin. Justkui kinnitamaks oma intuitsiooni, tõmbas artikkel Bitcoin-le tohutult tähelepanu, mille hind hüppas vaid mõne kuuga 0,20 dollarilt 32 dollarini. Satoshi jätkas eraviisilist suhtlemist oma lähimate kaastöötajatega ja lõpuks kadus 2011. aasta kevadel. Üsna sümboolselt teatas projekti üle võtnud arendaja Gavin Andreseni viimane sõnum Bitcoin loojale, et temaga on ühendust võtnud In-Q-Tel, LKA hallatav investeerimisfond. Pandora laegas oli tõepoolest avatud.
+Küsimus [krüptoraha](https://planb.academy/resources/glossary/cryptocurrency) ja võimu vahelisest suhtest kerkis Bitcoin ajaloos üsna kiiresti esile. Detsembris 2010 tõmbus Satoshi Nakamoto avalikkuse tähelepanu alt välja pärast PC Worldi artikli avaldamist, mis julgustas WikiLeaksit kasutama Bitcoin. Justkui kinnitamaks oma intuitsiooni, tõmbas artikkel Bitcoin-le tohutult tähelepanu, mille hind hüppas vaid mõne kuuga 0,20 dollarilt 32 dollarini. Satoshi jätkas eraviisilist suhtlemist oma lähimate kaastöötajatega ja lõpuks kadus 2011. aasta kevadel. Üsna sümboolselt teatas projekti üle võtnud arendaja Gavin Andreseni viimane sõnum Bitcoin loojale, et temaga on ühendust võtnud In-Q-Tel, LKA hallatav investeerimisfond. Pandora laegas oli tõepoolest avatud.
 
 
 
@@ -932,7 +932,7 @@ Bitcoin eesmärk oli Ira Milleri sõnul "luua alternatiivsed süsteemid, et konk
 
 
 
-Need kaks meest saavad omavahel väga hästi läbi ja nende oskused täiendavad teineteist. Augustis otsis Erik Voorhees programmeerijat ühe oma idee arendamiseks ja Ira võttis selle vastu. See oli FeedZeBirds (sõna-sõnalt "feed the birds"), reklaamiplatvorm, mis võimaldab kasutajatel Twitteri sisu suurendada, ostes retweete, ja mille nad [käivitasid](https://bitcointalk.org/index.php?topic=52638.msg628165#msg628165) 23. novembril. See oli küsitav kasutus (Twitter kindlasti ei julgustanud sellist käitumist), kasutades ära Bitcoin tsensuurivastasust ja tehingutasude puudumist. 28. novembril [ilmusid](https://www.youtube.com/watch?v=VuLAhZsFc1A) kaks partnerit *Bitcoin Show's*, et reklaamida oma toodet. Seejärel töötasid nad välja ka Paysius-makseprotsessori ja Coinapult e-posti ülekandeteenuse.
+Need kaks meest saavad omavahel väga hästi läbi ja nende oskused täiendavad teineteist. Augustis otsis Erik Voorhees programmeerijat ühe oma idee arendamiseks ja Ira võttis selle vastu. See oli FeedZeBirds (sõna-sõnalt "feed the birds"), reklaamiplatvorm, mis võimaldab kasutajatel Twitteri sisu suurendada, ostes retweete, ja mille nad [käivitasid](https://bitcointalk.org/index.php?topic=52638.msg628165#msg628165) 23. novembril. See oli küsitav kasutus (Twitter kindlasti ei julgustanud sellist käitumist), kasutades ära Bitcoin tsensuurivastasust ja [tehingutasude](https://planb.academy/resources/glossary/transaction-fees) puudumist. 28. novembril [ilmusid](https://www.youtube.com/watch?v=VuLAhZsFc1A) kaks partnerit *Bitcoin Show's*, et reklaamida oma toodet. Seejärel töötasid nad välja ka Paysius-makseprotsessori ja Coinapult e-posti ülekandeteenuse.
 
 
 
@@ -1428,7 +1428,7 @@ Täielike rakenduste probleem on see, et need on ressursimahukad ja paljude inim
 
 
 
-Esimene idee oli kasutada sõlme kui kaugserverit, mida kasutaja täielikult usaldab. 2011. aasta veebruaris [käivitas] Amir Taaki [https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538] tarkvara-kliendi wallet kohalikuks haldamiseks, ühendudes olemasoleva sõlme nimega Spesmilo. Klient jooksis esialgu Linuxi all, kuid peagi portreteeriti see Windowsile. Nimi oli viide spesmilole, iidsele rahvusvahelisele rahaühikule, mille Šveitsi matemaatik René de Saussure (keeleteadlase Ferdinandi vend) pakkus välja 1907. aastal esperanto projekti raames.
+Esimene idee oli kasutada [sõlme](https://planb.academy/resources/glossary/node) kui kaugserverit, mida kasutaja täielikult usaldab. 2011. aasta veebruaris [käivitas] Amir Taaki [https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538] tarkvara-kliendi wallet kohalikuks haldamiseks, ühendudes olemasoleva sõlme nimega Spesmilo. Klient jooksis esialgu Linuxi all, kuid peagi portreteeriti see Windowsile. Nimi oli viide spesmilole, iidsele rahvusvahelisele rahaühikule, mille Šveitsi matemaatik René de Saussure (keeleteadlase Ferdinandi vend) pakkus välja 1907. aastal esperanto projekti raames.
 
 
 
@@ -1498,7 +1498,7 @@ Kavandati kahte liiki tuletamist. Üks tüüp (tüüp 1) oli lihtne, genereeride
 
 
 
-Hiljem, 2012. aasta veebruaris toimus standardimine BIP 32 [avaldamine](https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198). Selles kirjeldati *Hierarhical Deterministic Wallets*, HD Wallets, üldist struktuuri, kus seed võtmete ja aadresside tuletamiseks kasutatakse metoodiliselt tuletusi. See on aastate jooksul järk-järgult üle võetud enamikus wallets.
+Hiljem, 2012. aasta veebruaris toimus standardimine [BIP](https://planb.academy/resources/glossary/bip) 32 [avaldamine](https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198). Selles kirjeldati *Hierarhical Deterministic Wallets*, HD Wallets, üldist struktuuri, kus seed võtmete ja aadresside tuletamiseks kasutatakse metoodiliselt tuletusi. See on aastate jooksul järk-järgult üle võetud enamikus wallets.
 
 
 
@@ -1600,7 +1600,7 @@ Esimene arendaja, kes seda raamatukogu kasutas, oli foorumi liige DogIsland, kes
 
 
 
-BitcoinJS raamatukogu [kasutas](https://web.archive.org/web/20180611012256/https://github.com/zootreeves/blockchain.info) ka Benjamin Reeves, Yorkis elav noor briti arendaja, keda foorumis tuntakse Piukina. Ta oli väga eraklik, aga ka tööhimuline. Augustis [töötas ta välja](https://bitcointalk.org/index.php?topic=40264.msg500726#msg500726) plokkide uurija, mis "sisaldab orvuks jäänud plokke, mida saab kasutada võimalike topeltkulutuste jälgimiseks" ja "hindab BTC tegelikku tehingumahtu (mitte ainult BTC saadetud)", mida ta haldab oma isiklikul veebisaidil. See konkureerib Theymose Bitcoin Block Exploreriga (BBE) ja [ABE] (https://bitcointalk.org/index.php?topic=22785.msg286515#msg286515), mis on avatud lähtekoodiga alternatiiv, mida kasutajad peavad ise haldama. Oktoobris sai sait [sai](https://bitcointalk.org/index.php?topic=40264.msg576916#msg576916) oma domeeninime: Blockchain.info. Sellest sai kiiresti kogukonnaliikmete eelistatud ekspluateerija.
+BitcoinJS raamatukogu [kasutas](https://web.archive.org/web/20180611012256/https://github.com/zootreeves/blockchain.info) ka Benjamin Reeves, Yorkis elav noor briti arendaja, keda foorumis tuntakse Piukina. Ta oli väga eraklik, aga ka tööhimuline. Augustis [töötas ta välja](https://bitcointalk.org/index.php?topic=40264.msg500726#msg500726) plokkide uurija, mis "sisaldab orvuks jäänud [plokke](https://planb.academy/resources/glossary/block), mida saab kasutada võimalike topeltkulutuste jälgimiseks" ja "hindab BTC tegelikku tehingumahtu (mitte ainult BTC saadetud)", mida ta haldab oma isiklikul veebisaidil. See konkureerib Theymose Bitcoin Block Exploreriga (BBE) ja [ABE] (https://bitcointalk.org/index.php?topic=22785.msg286515#msg286515), mis on avatud lähtekoodiga alternatiiv, mida kasutajad peavad ise haldama. Oktoobris sai sait [sai](https://bitcointalk.org/index.php?topic=40264.msg576916#msg576916) oma domeeninime: Blockchain.info. Sellest sai kiiresti kogukonnaliikmete eelistatud ekspluateerija.
 
 
 
@@ -1757,7 +1757,7 @@ Selle probleemi lahendamiseks ja rahaliste vahendite jälgitavuse katkestamiseks
 
 
 
-Esimene neist on BitLaundry. Selle teenuse [käivitas](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823) 2010. aasta septembris Peter Vessenes, Ameerika ettevõtja, kellel on diplom krüptograafia alal, kes avastas Bitcoin olemasolu slashdottimise ajal. Vessenes [andis](https://maltemoeser.de/paper/money-laundering.pdf#page=5) kasutajale ühekordse aadressi, kuhu saadeti anonüümseks muudetavad vahendid. Seejärel saadeti bitcoinid tagasi mitme mündi kujul (UTXO), mitme sisenemisega tehingu raames, mis hõlmab ka teiste kasutajate bitcoine, muutes segamise tõhusaks. Tasud, mida nõuti, olid umbes 2,5% asjaomasest summast. 2011. aasta mais, tajudes sellest tegevusest tuleneda võivaid õiguslikke komplikatsioone, [andis Peter Vessenes [üle](https://bitcointalk.org/index.php?topic=963.msg122955#msg122955) teenuse Mike Gogulskile, kes on tähelepanuväärne aktivist, kes on kodakondsuseta, kuna on loobunud oma USA kodakondsusest, omamata teist kodakondsust.
+Esimene neist on BitLaundry. Selle teenuse [käivitas](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823) 2010. aasta septembris Peter Vessenes, Ameerika ettevõtja, kellel on diplom [krüptograafia](https://planb.academy/resources/glossary/cryptography) alal, kes avastas Bitcoin olemasolu slashdottimise ajal. Vessenes [andis](https://maltemoeser.de/paper/money-laundering.pdf#page=5) kasutajale ühekordse aadressi, kuhu saadeti anonüümseks muudetavad vahendid. Seejärel saadeti bitcoinid tagasi mitme mündi kujul ([UTXO](https://planb.academy/resources/glossary/utxo)), mitme sisenemisega tehingu raames, mis hõlmab ka teiste kasutajate bitcoine, muutes segamise tõhusaks. Tasud, mida nõuti, olid umbes 2,5% asjaomasest summast. 2011. aasta mais, tajudes sellest tegevusest tuleneda võivaid õiguslikke komplikatsioone, [andis Peter Vessenes [üle](https://bitcointalk.org/index.php?topic=963.msg122955#msg122955) teenuse Mike Gogulskile, kes on tähelepanuväärne aktivist, kes on kodakondsuseta, kuna on loobunud oma USA kodakondsusest, omamata teist kodakondsust.
 
 
 
@@ -1777,7 +1777,7 @@ Kolmas oli eriline, sest see oli Ben Reeves'i Blockchain.info wallet-sse ehitatu
 
 
 
-Tsentraliseeritud mikserite levik katalüüsis mõtlemist detsentraliseeritud müntide segamise ümber, mis algas 2011. aasta suvel Hashcoini esitatud ettepanekuga [ettepanek](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793). See viis 2013. aastal CoinJoin [formaliseerimise](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902) Gregory Maxwell poolt. Aga see on hoopis teine lugu...
+Tsentraliseeritud mikserite levik katalüüsis mõtlemist detsentraliseeritud müntide segamise ümber, mis algas 2011. aasta suvel Hashcoini esitatud ettepanekuga [ettepanek](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793). See viis 2013. aastal [CoinJoin](https://planb.academy/resources/glossary/coinjoin) [formaliseerimise](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902) Gregory Maxwell poolt. Aga see on hoopis teine lugu...
 
 
 
@@ -1996,7 +1996,7 @@ Deepbit'i domineerimine saavutas suvel haripunkti, kui 5. augustil mõõdetud os
 
 
 
-Mudel [tugines](https://im.forre.st/pb/85341005.txt) "sharechainile, mida hooldasid osalenud kaevurid, kes olid ühendatud peer-to-peer, sarnaselt Bitcoin plokiahelale. Iga aktsia sisaldab eelmise aktsia sõrmejälge, mis seob aktsiaid omavahel ja tagab terviku terviklikkuse. Raskust (mis on algselt 600 korda madalam kui põhivõrgu raskusaste) kohandatakse regulaarselt, et tagada keskmine 5-sekundiline intervall. Tasustamismeetod on makse vastavalt viimasele N aktsiale (PPLNS), mis tehakse otse tasustamistehingus, iga kord, kui leitakse plokk.
+Mudel [tugines](https://im.forre.st/pb/85341005.txt) "sharechainile, mida hooldasid osalenud kaevurid, kes olid ühendatud peer-to-peer, sarnaselt Bitcoin plokiahelale. Iga aktsia sisaldab eelmise aktsia sõrmejälge, mis seob aktsiaid omavahel ja tagab terviku terviklikkuse. Raskust (mis on algselt 600 korda madalam kui põhivõrgu [raskusaste](https://planb.academy/resources/glossary/difficulty)) kohandatakse regulaarselt, et tagada keskmine 5-sekundiline intervall. Tasustamismeetod on makse vastavalt viimasele N aktsiale (PPLNS), mis tehakse otse tasustamistehingus, iga kord, kui leitakse plokk.
 
 
 
@@ -2086,7 +2086,7 @@ Pärast Satoshi Nakamoto lahkumist võttis tarkvaraarenduse üle kogukond, mis p
 
 
 
-2011-2012. aasta talvel tekkis vaidlus mitme allkirja rakendamise ümber Bitcoin-s. See puudutas muu hulgas kava, mida tuntakse nime all "Pay to Script Hash" ehk P2SH. Pete Rizzo ja Aaron van Wirdum [tahaksid](https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war) nimetavad seda konflikti "Battle for P2SH". See oli esimene suurem vaidlus protokolli arengu üle ja esimene, mis tõstatas juhtimise küsimuse.
+2011-2012. aasta talvel tekkis vaidlus mitme allkirja rakendamise ümber Bitcoin-s. See puudutas muu hulgas kava, mida tuntakse nime all "Pay to [Script](https://planb.academy/resources/glossary/script) Hash" ehk P2SH. Pete Rizzo ja Aaron van Wirdum [tahaksid](https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war) nimetavad seda konflikti "Battle for P2SH". See oli esimene suurem vaidlus protokolli arengu üle ja esimene, mis tõstatas juhtimise küsimuse.
 
 
 
@@ -2642,7 +2642,7 @@ Sellele tagasilöögile vaatamata on Litecoini puhul tegemist edulooga. Koos nam
 
 
 
-Võimalus teenida raha Bitcoin kloonimisega ja saada kasu ühikute kasvavast väärtusest oli ilmne. Juba 2010. aasta novembris, isegi enne BitDNSi idee tekkimist, tõstatati see võimalus foorumis. Ribuck, tol ajal aktiivne foorumi liige, [kirjutas](https://bitcointalk.org/index.php?topic=1647.msg20646#msg20646) süüdistuse Bitcoin tulevaste koopiate kohta, leides samal ajal termini "shitcoin":
+Võimalus teenida raha Bitcoin kloonimisega ja saada kasu ühikute kasvavast väärtusest oli ilmne. Juba 2010. aasta novembris, isegi enne BitDNSi idee tekkimist, tõstatati see võimalus foorumis. Ribuck, tol ajal aktiivne foorumi liige, [kirjutas](https://bitcointalk.org/index.php?topic=1647.msg20646#msg20646) süüdistuse Bitcoin tulevaste koopiate kohta, leides samal ajal termini "[shitcoin](https://planb.academy/resources/glossary/shitcoin)":
 
 
 

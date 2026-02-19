@@ -83,10 +83,10 @@ Här kommer vi att utforska avancerade mekanismer, inklusive federerade block si
 :::video id=eae666b4-eddc-4e00-adea-2a5f94396044:::
 
 
-Elements är en Blockchain-plattform med öppen källkod och Sidechain-kompatibilitet som ger tillgång till kraftfulla funktioner som utvecklats av medlemmar i communityt, till exempel Confidential Transactions och Issued Assets.
+Elements är en [Blockchain](https://planb.academy/resources/glossary/blockchain)-plattform med öppen källkod och Sidechain-kompatibilitet som ger tillgång till kraftfulla funktioner som utvecklats av medlemmar i communityt, till exempel Confidential Transactions och Issued Assets.
 
 
-Elements är i grunden ett protokoll som gör det möjligt att skapa konsensus kring transaktionshistoriken och de regler som styr överföringen och skapandet av tillgångar som lagras i en distribuerad Blockchain Ledger.
+Elements är i grunden ett protokoll som gör det möjligt att skapa [konsensus](https://planb.academy/resources/glossary/consensus) kring [transaktionshistoriken](https://planb.academy/resources/glossary/transaction-tx) och de regler som styr överföringen och skapandet av tillgångar som lagras i en distribuerad Blockchain Ledger.
 
 
 Mer bakgrundsinformation om Elements finns på Elements-projektets webbplats (https://elementsproject.org/), den officiella Liquid-bloggen (https://blog.Liquid.net/) och utvecklarportalen (https://Liquid.net/devs).
@@ -125,7 +125,7 @@ Elements är en Blockchain-plattform för allmänna ändamål som också kan "ko
 #### Signerade block
 
 
-Elements använder en Strong Federation av signatärer, så kallade Block Signers, som signerar och skapar block på ett tillförlitligt sätt och i rätt tid. Detta tar bort transaktionsfördröjningen i PoW Mining-processen, som är föremål för stor blocktidsvarians på grund av dess slumpmässiga poissonfördelning. Den federerade block signing-processen uppnår tillförlitlig blockskapande utan att införa behovet av tredje parts förtroende eller beräkningsalgoritmbaserad Mining.
+Elements använder en Strong Federation av signatärer, så kallade [Block](https://planb.academy/resources/glossary/block) Signers, som signerar och skapar block på ett tillförlitligt sätt och i rätt tid. Detta tar bort transaktionsfördröjningen i PoW Mining-processen, som är föremål för stor blocktidsvarians på grund av dess slumpmässiga poissonfördelning. Den federerade block signing-processen uppnår tillförlitlig blockskapande utan att införa behovet av tredje parts förtroende eller beräkningsalgoritmbaserad Mining.
 
 
 Elements lägger till alla dessa funktioner ovanpå Bitcoin Core-kodbasen, vilket utökar förmågan hos mainchain-protokollet och möjliggör nya affärsanvändningsfall när det distribueras som en Sidechain eller som en fristående Blockchain-lösning.
@@ -146,7 +146,7 @@ Elements lägger till alla dessa funktioner ovanpå Bitcoin Core-kodbasen, vilke
 :::video id=7c8c7981-11e5-47a2-a257-ef998f4892f5:::
 
 
-Elements tillhandahåller en teknisk lösning på problem som Blockchain-användare möter dagligen; transaktionsfördröjning, brist på integritet och risk för fungibilitet.
+Elements tillhandahåller en teknisk lösning på problem som Blockchain-användare möter dagligen; transaktionsfördröjning, brist på integritet och risk för [fungibilitet](https://planb.academy/resources/glossary/fungibility).
 
 
 Elements löser dessa problem genom att använda Federated block signing och Confidential Transactions.
@@ -182,7 +182,7 @@ De åtgärder som en medlem i en Strong Federation kan utföra är uppdelade på
 I kombination gör dessa deltagares roller att Elements kan leverera både snabb blockskapande (snabbare och slutlig transaktionsbekräftelse) och säkra, överförbara tillgångar (peggade tillgångar som är direkt länkbara till en annan Blockchain).
 
 
-Du kan läsa whitepaper om starka federationer här: https://blockstream.com/strong-federations.pdf
+Du kan läsa [whitepaper](https://planb.academy/resources/glossary/white-paper) om starka federationer här: https://blockstream.com/strong-federations.pdf
 
 
 ### Blocktecknare
@@ -232,7 +232,7 @@ För att en Sidechain ska fungera på ett tillförlitligt sätt måste den till�
 Federated 2-Way Peg-funktionen gör det möjligt för en tillgång att vara interoperabel med andra blockkedjor och representativ för en annan Blockchain:s ursprungliga tillgång. Genom att koppla din Blockchain till en annan kan du utöka kapaciteten hos mainchain och övervinna några av dess inneboende begränsningar.
 
 
-På en hög nivå sker överföringar till Sidechain när någon skickar mainchain-tillgångar till en Address som kontrolleras av en watchmen Wallet med flera signaturer. Detta fryser effektivt tillgångarna på mainchain. watchmen validerar sedan transaktionen och frigör samma belopp av den associerade tillgången inom Sidechain. De frigjorda tillgångarna skickas till en Sidechain Wallet som kan bevisa anspråk på de ursprungliga mainchain-tillgångarna. Denna process flyttar effektivt tillgångar från den överordnade kedjan till Sidechain.
+På en hög nivå sker överföringar till Sidechain när någon skickar mainchain-tillgångar till en Address som kontrolleras av en watchmen [Wallet](https://planb.academy/resources/glossary/wallet) med flera signaturer. Detta fryser effektivt tillgångarna på mainchain. watchmen validerar sedan transaktionen och frigör samma belopp av den associerade tillgången inom Sidechain. De frigjorda tillgångarna skickas till en Sidechain Wallet som kan bevisa anspråk på de ursprungliga mainchain-tillgångarna. Denna process flyttar effektivt tillgångar från den överordnade kedjan till Sidechain.
 
 
 För att överföra tillgångar tillbaka till mainchain gör en användare en särskild peg-out-transaktion på Sidechain. Denna transaktion kontrolleras av watchmen som sedan signerar en transaktionsutgift från multisignaturen Wallet som de kontrollerar på mainchain. Ett tröskelantal av deltagare i federationen måste signera innan mainchain-transaktionen blir giltig. När watchmen skickar tillbaka en tillgång till mainchain förstör de också motsvarande belopp på Sidechain, vilket effektivt överför tillgångarna mellan blockkedjorna.
@@ -256,7 +256,7 @@ Själva nodprogramvaran Elements kallas "elementsd" och körs som en daemon på 
 Observera: I det här dokumentet kommer vi alltid att hänvisa till elementsd som daemon-versionen, men allt kan göras med Elements-qt, förutsatt att serveralternativet är aktiverat.
 
 
-Elements daemon ansluter till andra noder i nätverket så att den kan Exchange transaktions- och blockdata, validera och utöka sin lokala kopia av nätverkets Blockchain.
+Elements daemon ansluter till andra [noder](https://planb.academy/resources/glossary/node) i nätverket så att den kan Exchange transaktions- och blockdata, validera och utöka sin lokala kopia av nätverkets Blockchain.
 
 
 Elements-programvaran består också av ett klientprogram som heter `elements-cli` som gör att du kan skicka Remote Procedure Call (RPC)-kommandon till elementsd från kommandoraden. Detta kan t.ex. användas för att fråga om ett Wallet-saldo, visa transaktions- eller blockdata eller sända en transaktion. Den här konfigurationen bör vara bekant för alla som har använt Bitcoin-ekvivalenterna bitcoind och bitcoin-cli.
@@ -298,8 +298,8 @@ Vissa saker kan ändras med hjälp av dessa parametrar:
 - Den tillgång som ska användas vid betalning av transaktionsavgifter i nätverket.
 - Lagringsplatsen för Blockchain-datafilerna.
 - RPC-autentiseringsuppgifter som används för att ansluta till en Bitcoin-nod.
-- Tröskelvärdet "n av m" som ska uppfyllas och de giltiga publika nycklar som kan signera block.
-- Det skript som måste uppfyllas för att överföra tillgångar till och från en Sidechain.
+- Tröskelvärdet "n av m" som ska uppfyllas och de giltiga [publika nycklar](https://planb.academy/resources/glossary/public-key) som kan signera block.
+- Det [skript](https://planb.academy/resources/glossary/script) som måste uppfyllas för att överföra tillgångar till och från en Sidechain.
 - Om du vill ansluta till en Bitcoin-nod som en Sidechain eller inte.
 
 
@@ -447,7 +447,7 @@ Det returnerar rå transaktionsinformation. Om du tittar inom vout-avsnittet kan
 Vad de två första vout-sektionerna visar är "Blinded ranges" av värdebeloppen och Commitment-data som fungerar som bevis på det faktiska beloppet och typen av tillgång som transaktionen avser.
 
 
-Även om vi skulle importera e2:s privata nyckel till e1:s Wallet, skulle den fortfarande inte kunna se beloppen och typen av tillgång som transigerats eftersom den fortfarande inte har någon kunskap om den Blinding key som används av e2. Vi ska bevisa detta genom att importera den privata nyckel som används av e2:s Wallet till e1:s. Först måste vi exportera nyckeln från e2
+Även om vi skulle importera e2:s [privata nyckel](https://planb.academy/resources/glossary/private-key) till e1:s Wallet, skulle den fortfarande inte kunna se beloppen och typen av tillgång som transigerats eftersom den fortfarande inte har någon kunskap om den Blinding key som används av e2. Vi ska bevisa detta genom att importera den privata nyckel som används av e2:s Wallet till e1:s. Först måste vi exportera nyckeln från e2
 
 
 ```
@@ -531,7 +531,7 @@ En utställd tillgång drar också nytta av Confidential Transactions och de kan
 Det första steget är att vi behöver tillgång till två Elements-noder, som vi kallar e1 och e2. Noderna har fått sina blockkedjor återställda och default asset delade mellan dem.
 
 
-De två noderna finns i samma lokala nätverk och är anslutna till varandra, och delar därför samma transaktioner i sina transaktion Mempool och identiska blockkedjor. Även om de körs på samma maskin är det värt att notera att de inte delar samma faktiska Blockchain-filer. Varje nod hanterar sin egen lokala kopia av Blockchain, som innehåller samma transaktionshistorik eftersom de är i konsensus och följer samma protokollregler som varandra.
+De två noderna finns i samma lokala nätverk och är anslutna till varandra, och delar därför samma transaktioner i sina transaktion [Mempool](https://planb.academy/resources/glossary/mempool) och identiska blockkedjor. Även om de körs på samma maskin är det värt att notera att de inte delar samma faktiska Blockchain-filer. Varje nod hanterar sin egen lokala kopia av Blockchain, som innehåller samma transaktionshistorik eftersom de är i konsensus och följer samma protokollregler som varandra.
 
 
 Låt oss börja med att kontrollera varje nods syn på de befintliga tillgångsutgivningarna i nätverket.
@@ -1268,7 +1268,7 @@ e2-cli importprivkey <priv-key-1>
 ```
 
 
-Vi behöver nu mogna några block på båda kedjorna. Att blocken mognar är ett krav för peg-processen eftersom det skyddar mot blockomorganiseringar på mainchain som leder till en inflation av pegged asset Supply inom Sidechain.
+Vi behöver nu mogna några block på båda kedjorna. Att blocken mognar är ett krav för peg-processen eftersom det skyddar mot blockomorganiseringar på mainchain som leder till en [inflation](https://planb.academy/resources/glossary/inflation) av pegged asset Supply inom Sidechain.
 
 
 För att hålla det här avsnittet fokuserat på federated peg kommer vi att generera block utan att använda block signing-modellen som vi tittade på i förra avsnittet, och återgå till att använda kommandot "generate" för att skapa nya block.
@@ -1436,7 +1436,7 @@ I detta avsnitt har vi sett hur man:
 
 
 
-För att Elements ska kunna fungera som en Sidechain måste Genesis-blocket i dess Blockchain skapas med ett `fedpegscript` på plats. Detta görs genom att skicka in parametern `fedpegscript` vid nodstart. Skriptet kommer sedan att utgöra en del av Elements Blockchain:s konsensusregler och tillåta att peg-in- och peg-out-begäranden valideras och åtgärdas.
+För att Elements ska kunna fungera som en Sidechain måste [Genesis-blocket](https://planb.academy/resources/glossary/genesis-block) i dess Blockchain skapas med ett `fedpegscript` på plats. Detta görs genom att skicka in parametern `fedpegscript` vid nodstart. Skriptet kommer sedan att utgöra en del av Elements Blockchain:s konsensusregler och tillåta att peg-in- och peg-out-begäranden valideras och åtgärdas.
 
 
 "Fedpegscript" består av publika nycklar som kontrolleras av dem som är behöriga att utföra peg-handlingarna. Följande visar ett exempel på formatet för ett 2-av-2 multisignatur fedpegscript:

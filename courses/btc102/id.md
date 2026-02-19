@@ -101,8 +101,6 @@ Pada akhir kursus ini, Anda akan memiliki semua alat praktis yang Anda butuhkan 
 Siap untuk memulai perjalanan Anda ke dunia Bitcoin? Ayo pergi!
 
 
-**Catatan**: Jika Anda menemukan istilah yang tidak familiar selama kursus, silakan lihat [glosarium](https://planb.academy/resources/glossary) untuk definisi.
-
 # Prasyarat untuk memahami Bitcoin
 
 
@@ -132,7 +130,7 @@ Sebelum melangkah lebih jauh, penting untuk membedakan secara jelas antara dua d
 
 
 
-- **Industri mata uang kripto**, di sisi lain, jauh lebih besar dan mencakup puluhan ribu proyek yang berbeda, masing-masing dengan tokennya sendiri. Ruang ini sering kali didorong oleh inovasi yang cepat, hype, dan spekulasi keuangan jangka pendek. Banyak dari proyek-proyek ini terpusat, kurang aman, dan tidak menawarkan banyak nilai nyata-meskipun ada janji-janji yang berani dan pemasaran yang mencolok.
+- **Industri [mata uang kripto](https://planb.academy/resources/glossary/cryptocurrency)**, di sisi lain, jauh lebih besar dan mencakup puluhan ribu proyek yang berbeda, masing-masing dengan tokennya sendiri. Ruang ini sering kali didorong oleh inovasi yang cepat, hype, dan spekulasi keuangan jangka pendek. Banyak dari proyek-proyek ini terpusat, kurang aman, dan tidak menawarkan banyak nilai nyata-meskipun ada janji-janji yang berani dan pemasaran yang mencolok.
 
 
 ![image](assets/id/005.webp)
@@ -177,7 +175,7 @@ Penipuan ini biasanya menampilkan :
 Pada akhirnya, semua skema piramida dan Ponzi pasti akan gagal. Kelemahan mendasarnya terletak pada kebutuhan konstan untuk membawa investor baru untuk membayar pengembalian kepada peserta sebelumnya. Kebutuhan ini secara matematis tidak mungkin dipertahankan dari waktu ke waktu karena jumlah anggota baru yang dibutuhkan meningkat secara eksponensial seiring dengan pertumbuhan sistem. Setelah titik kritis tercapai, peserta mulai ragu, kepercayaan menghilang, dan seluruh piramida runtuh. Pada tahap ini, orang-orang terakhir yang bergabung, yang sering kali paling sedikit mendapatkan informasi, kehilangan seluruh investasi mereka tanpa ada cara untuk mendapatkannya kembali, sementara penyelenggara atau investor awal biasanya sudah menarik dana mereka dan meninggalkan sistem.
 
 
-Dalam dunia mata uang kripto, skema Ponzi dapat muncul dalam berbagai bentuk, yang sering kali dirancang untuk menyembunyikan sifat penipuan mereka di balik topeng teknologi atau keuangan. Penipuan ini dapat muncul sebagai penawaran token baru atau Initial Coin Offerings (ICO), yang merupakan operasi penggalangan dana di mana mata uang kripto baru dijual kepada publik. Di balik istilah teknis seperti "Blockchain", "kontrak pintar", atau "staking", beberapa proyek sebenarnya menyembunyikan skema piramida yang rumit. Proyek lainnya mengklaim menawarkan keuntungan yang tinggi dengan menggabungkan aset kripto yang meragukan dengan sistem kompensasi yang sepenuhnya bergantung pada masuknya investor baru secara terus menerus.
+Dalam dunia mata uang kripto, skema Ponzi dapat muncul dalam berbagai bentuk, yang sering kali dirancang untuk menyembunyikan sifat penipuan mereka di balik topeng teknologi atau keuangan. Penipuan ini dapat muncul sebagai penawaran token baru atau Initial Coin Offerings (ICO), yang merupakan operasi penggalangan dana di mana mata uang kripto baru dijual kepada publik. Di balik istilah teknis seperti "[Blockchain](https://planb.academy/resources/glossary/blockchain)", "kontrak pintar", atau "staking", beberapa proyek sebenarnya menyembunyikan skema piramida yang rumit. Proyek lainnya mengklaim menawarkan keuntungan yang tinggi dengan menggabungkan aset kripto yang meragukan dengan sistem kompensasi yang sepenuhnya bergantung pada masuknya investor baru secara terus menerus.
 
 
 Baru-baru ini, skema Ponzi juga telah menyebar ke dunia Keuangan Terdesentralisasi (DeFi). Meskipun DeFi dimaksudkan untuk menyediakan layanan keuangan tanpa perantara, beberapa proyek menggunakannya untuk memberikan kesan legitimasi palsu terhadap penipuan mereka. Platform DeFi tertentu menjanjikan keuntungan yang tinggi dan terjamin dalam Exchange untuk setoran mata uang kripto ke dalam protokol otomatis. Janji-janji yang menarik ini sering kali didukung oleh mekanisme yang tidak jelas dan tidak dapat diverifikasi, dengan token yang dibuat khusus untuk penipuan. Pada kenyataannya, sistem ini tidak memiliki model bisnis yang berkelanjutan - keuntungannya hanya dibayarkan dari dana pengguna baru, seperti skema Ponzi tradisional. Ketika kepercayaan mulai terkikis atau melambatnya peserta baru yang masuk, sistem ini pasti akan runtuh, yang menyebabkan kerugian yang signifikan bagi investor yang tidak jeli dan menaruh curiga.
@@ -256,7 +254,7 @@ Proyek mata uang kripto tersentralisasi terkadang menawarkan token gratis ("*air
 Para penyerang sering kali menggunakan situs web palsu, akun media sosial, atau email yang menipu untuk mencoba mencuri dana Anda. Penipuan ini dapat dilakukan melalui saluran komunikasi apa pun: email, jejaring sosial, panggilan telepon, atau bahkan surat biasa...
 
 
-Sebelum mengklik tautan atau melakukan tindakan apa pun, selalu periksa kembali identitas pengirim. Jika ragu, kunjungi situs web secara manual alih-alih menggunakan tautan yang disediakan. Yang paling penting, jangan pernah membagikan kunci pribadi atau kata sandi Anda kepada siapa pun.
+Sebelum mengklik tautan atau melakukan tindakan apa pun, selalu periksa kembali identitas pengirim. Jika ragu, kunjungi situs web secara manual alih-alih menggunakan tautan yang disediakan. Yang paling penting, jangan pernah membagikan [kunci pribadi](https://planb.academy/resources/glossary/private-key) atau kata sandi Anda kepada siapa pun.
 
 
 #### Bitcoin Hardforks
@@ -570,7 +568,7 @@ Berikut adalah poin-poin penting yang akan kita bahas bersama:
 
 
 
-- Waspadalah terhadap **Shitcoins** dan mata uang kripto lainnya yang tidak berguna;
+- Waspadalah terhadap **[Shitcoins](https://planb.academy/resources/glossary/shitcoin)** dan mata uang kripto lainnya yang tidak berguna;
 - Hanya investasikan **uang yang Anda sanggup untuk kehilangan**;
 - Ketahui perbedaan antara **trading** dan **investasi**;
 - Ketahuilah implikasi pajak dari investasi Anda;
@@ -634,7 +632,7 @@ Dengan melakukan pendekatan seperti ini, Anda tidak akan membahayakan kesehatan 
 ![image](assets/id/023.webp)
 
 
-Setelah anggaran Anda ditentukan, pikirkan bagaimana Anda ingin berinvestasi. Salah satu metode yang paling ramah pemula dan banyak direkomendasikan adalah [Dollar Cost Averaging (DCA)](https://planb.academy/resources/glossary/dollar-cost-averaging-dca), membeli Bitcoin dalam jumlah tetap secara berkala (mingguan, bulanan, dll). Strategi ini membantu memuluskan harga masuk rata-rata Anda dari waktu ke waktu dan mengurangi dampak emosional dari perubahan harga. Ini adalah pendekatan yang cerdas bagi kebanyakan orang, terutama pendatang baru.
+Setelah anggaran Anda ditentukan, pikirkan bagaimana Anda ingin berinvestasi. Salah satu metode yang paling ramah pemula dan banyak direkomendasikan adalah Dollar Cost Averaging (DCA), membeli Bitcoin dalam jumlah tetap secara berkala (mingguan, bulanan, dll). Strategi ini membantu memuluskan harga masuk rata-rata Anda dari waktu ke waktu dan mengurangi dampak emosional dari perubahan harga. Ini adalah pendekatan yang cerdas bagi kebanyakan orang, terutama pendatang baru.
 
 
 Kemudian, tanyakan pada diri sendiri: Apa jangka waktu saya?
@@ -668,7 +666,7 @@ Yang terpenting, jangan pernah berinvestasi lebih dari yang Anda mampu untuk keh
 ### Mengelola dan mengamankan Bitcoin Wallet Anda
 
 
-Salah satu fitur Bitcoin yang paling kuat (dan sering diremehkan) adalah **[self-custody](https://planb.academy/resources/glossary/selfcustody)**. Dengan Wallet yang disimpan sendiri, Anda sendiri yang bertanggung jawab atas dana Anda. Dompet ini biasanya dibuat dari **frase pemulihan** (juga dikenal sebagai frase seed), serangkaian 12 atau 24 kata yang memberikan akses penuh ke BTC Anda. Jika Anda kehilangan frasa ini (atau jika orang lain mendapatkannya), maka bitcoin Anda akan hilang untuk selamanya. **Tidak ada dukungan pelanggan. Tidak ada tombol reset.**
+Salah satu fitur Bitcoin yang paling kuat (dan sering diremehkan) adalah **self-custody**. Dengan Wallet yang disimpan sendiri, Anda sendiri yang bertanggung jawab atas dana Anda. Dompet ini biasanya dibuat dari **frase pemulihan** (juga dikenal sebagai frase seed), serangkaian 12 atau 24 kata yang memberikan akses penuh ke BTC Anda. Jika Anda kehilangan frasa ini (atau jika orang lain mendapatkannya), maka bitcoin Anda akan hilang untuk selamanya. **Tidak ada dukungan pelanggan. Tidak ada tombol reset.**
 
 
 ![image](assets/id/025.webp)
@@ -842,13 +840,13 @@ Selama bertahun-tahun, Bitcoin telah mendapatkan pengakuan sebagai jaringan mone
 #### Cypherpunks dan penemuan sistem di luar kendali perbankan
 
 
-Bitcoin tidak lahir dalam semalam. Ini adalah hasil dari penelitian dan eksperimen selama beberapa dekade dalam kriptografi, ilmu komputer, dan teori moneter. Sebelum diluncurkan pada tahun 2009, beberapa proyek (seperti eCash, b-money, Bit Gold, dan RPOW) mencoba menciptakan mata uang digital. Semuanya menghadapi masalah inti yang sama: bagaimana mencegah pengeluaran ganda dalam sistem yang terdesentralisasi tanpa bergantung pada otoritas pusat.
+Bitcoin tidak lahir dalam semalam. Ini adalah hasil dari penelitian dan eksperimen selama beberapa dekade dalam [kriptografi](https://planb.academy/resources/glossary/cryptography), ilmu komputer, dan teori moneter. Sebelum diluncurkan pada tahun 2009, beberapa proyek (seperti eCash, b-money, Bit Gold, dan RPOW) mencoba menciptakan mata uang digital. Semuanya menghadapi masalah inti yang sama: bagaimana mencegah pengeluaran ganda dalam sistem yang terdesentralisasi tanpa bergantung pada otoritas pusat.
 
 
-Tantangan tersebut masih belum terpecahkan hingga akhir tahun 2008, ketika seseorang yang menggunakan nama Satoshi Nakamoto menerbitkan buku putih Bitcoin. Beberapa bulan kemudian, versi pertama perangkat lunak sumber terbuka Bitcoin diluncurkan, meluncurkan sebuah sistem yang dapat beroperasi secara independen dari bank atau pemerintah.
+Tantangan tersebut masih belum terpecahkan hingga akhir tahun 2008, ketika seseorang yang menggunakan nama Satoshi Nakamoto menerbitkan [buku putih](https://planb.academy/resources/glossary/white-paper) Bitcoin. Beberapa bulan kemudian, versi pertama perangkat lunak [sumber terbuka](https://planb.academy/resources/glossary/foss) Bitcoin diluncurkan, meluncurkan sebuah sistem yang dapat beroperasi secara independen dari bank atau pemerintah.
 
 
-Proyek ini sangat dipengaruhi oleh etos Cypherpunk; sebuah komunitas pengembang dan pemikir yang percaya bahwa penggunaan kriptografi dapat melindungi kebebasan individu secara online. Bagi mereka, privasi dan desentralisasi bukanlah preferensi teknis, tetapi kebutuhan ideologis. Bitcoin muncul sebagai perwujudan paling sukses dari cita-cita tersebut: sebuah jaringan moneter peer-to-peer yang dapat digunakan oleh siapa saja, tidak ada yang dapat mengontrol, dan semua orang dapat memverifikasi.
+Proyek ini sangat dipengaruhi oleh etos [Cypherpunk](https://planb.academy/resources/glossary/cypherpunks); sebuah komunitas pengembang dan pemikir yang percaya bahwa penggunaan kriptografi dapat melindungi kebebasan individu secara online. Bagi mereka, privasi dan desentralisasi bukanlah preferensi teknis, tetapi kebutuhan ideologis. Bitcoin muncul sebagai perwujudan paling sukses dari cita-cita tersebut: sebuah jaringan moneter [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) yang dapat digunakan oleh siapa saja, tidak ada yang dapat mengontrol, dan semua orang dapat memverifikasi.
 
 
 ![image](assets/id/030.webp)
@@ -874,7 +872,7 @@ Ide mata uang digital yang beroperasi secara independen dari otoritas pusat mana
 Bitcoin tidak muncul begitu saja. Ini diciptakan pada saat yang sangat spesifik-tepat setelah krisis keuangan global tahun 2008. Runtuhnya pasar perumahan AS dan krisis pinjaman subprime menyebabkan bank-bank besar gagal dan mengguncang kepercayaan masyarakat terhadap seluruh sistem keuangan.
 
 
-Dalam lingkungan yang penuh ketakutan dan ketidakpastian inilah Bitcoin lahir. Penciptanya, yang dikenal sebagai Satoshi Nakamoto, menyertakan pesan yang sangat simbolis dalam blok pertama Bitcoin Blockchain, yang dikenal sebagai blok Genesis. Pesan itu adalah:
+Dalam lingkungan yang penuh ketakutan dan ketidakpastian inilah Bitcoin lahir. Penciptanya, yang dikenal sebagai Satoshi Nakamoto, menyertakan pesan yang sangat simbolis dalam blok pertama Bitcoin Blockchain, yang dikenal sebagai [blok Genesis](https://planb.academy/resources/glossary/genesis-block). Pesan itu adalah:
 
 
 > **"The Times 03/Jan/2009 Kanselir di ambang bailout kedua untuk bank-bank "**
@@ -902,13 +900,13 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 #### Peer-to-peer dan tidak ada badan pusat
 
 
-Bitcoin didefinisikan sebagai "sistem uang elektronik peer-to-peer" Ini berarti bahwa siapa pun dapat terhubung ke jaringan menggunakan perangkat lunak yang sesuai (node Bitcoin) dan berinteraksi langsung dengan pengguna lain, tanpa bergantung pada server pusat. Tujuan dari desentralisasi ini adalah untuk mencegah satu entitas (seperti bank, pemerintah, atau perusahaan besar) untuk mengontrol, menyensor, atau menghentikan sistem. Bitcoin beroperasi 24/7, secara global, dan dapat diakses oleh semua orang tanpa syarat apa pun.
+Bitcoin didefinisikan sebagai "sistem uang elektronik peer-to-peer" Ini berarti bahwa siapa pun dapat terhubung ke jaringan menggunakan perangkat lunak yang sesuai ([node](https://planb.academy/resources/glossary/node) Bitcoin) dan berinteraksi langsung dengan pengguna lain, tanpa bergantung pada server pusat. Tujuan dari desentralisasi ini adalah untuk mencegah satu entitas (seperti bank, pemerintah, atau perusahaan besar) untuk mengontrol, menyensor, atau menghentikan sistem. Bitcoin beroperasi 24/7, secara global, dan dapat diakses oleh semua orang tanpa syarat apa pun.
 
 
 ![image](assets/id/034.webp)
 
 
-Secara sederhana, setiap peserta dalam jaringan Bitcoin (disebut "node") memiliki salinan lengkap transaksi Ledger (buku besar), yang dikenal sebagai Blockchain. Ketika sebuah transaksi baru terjadi, transaksi tersebut disiarkan ke jaringan. Para penambang kemudian mengonfirmasi transaksi ini dengan mengelompokkannya ke dalam blok-blok yang kemudian ditambahkan ke akhir rantai (oleh karena itu dinamakan "Blockchain").
+Secara sederhana, setiap peserta dalam jaringan Bitcoin (disebut "node") memiliki salinan lengkap transaksi Ledger (buku besar), yang dikenal sebagai Blockchain. Ketika sebuah transaksi baru terjadi, transaksi tersebut disiarkan ke jaringan. Para [penambang](https://planb.academy/resources/glossary/miner) kemudian mengonfirmasi transaksi ini dengan mengelompokkannya ke dalam blok-blok yang kemudian ditambahkan ke akhir rantai (oleh karena itu dinamakan "Blockchain").
 
 
 ![image](assets/id/035.webp)
@@ -929,7 +927,7 @@ Bayangkan Blockchain sebagai Ledger akuntansi raksasa, di mana setiap baris mewa
 #### Bagaimana Blok Dibuat: Mining
 
 
-Mining adalah proses di mana komputer (atau peternakan Mining yang besar) menyumbangkan **kekuatan komputasi** untuk mengamankan riwayat transaksi Bitcoin dan membuat blok baru. Para penambang berkompetisi untuk memecahkan teka-teki matematika-khususnya, menemukan tabrakan parsial Hash. Proses ini membutuhkan energi dan sumber daya yang signifikan. Ketika sebuah Miner menemukan solusi yang valid, mereka akan menyiarkan blok tersebut ke jaringan, yang akan memverifikasi dan menerimanya sebagai solusi yang valid.
+[Mining](https://planb.academy/resources/glossary/mining) adalah proses di mana komputer (atau peternakan Mining yang besar) menyumbangkan **kekuatan komputasi** untuk mengamankan riwayat transaksi Bitcoin dan membuat blok baru. Para penambang berkompetisi untuk memecahkan teka-teki matematika-khususnya, menemukan tabrakan parsial Hash. Proses ini membutuhkan energi dan sumber daya yang signifikan. Ketika sebuah Miner menemukan solusi yang valid, mereka akan menyiarkan blok tersebut ke jaringan, yang akan memverifikasi dan menerimanya sebagai solusi yang valid.
 
 Sebagai hadiah, Miner menerima bitcoin yang baru ditambang (disebut subsidi blok) bersama dengan biaya transaksi dari semua transaksi yang termasuk di dalam blok tersebut.
 
@@ -951,12 +949,12 @@ Pada akhirnya, sekitar tahun 2140, subsidi akan mencapai nol, karena total Bitco
 #### Kelangkaan dan Kebijakan Moneter Tetap
 
 
-Salah satu fitur Bitcoin yang paling kuat adalah *kebijakan moneter yang dapat diprediksi dan tidak dapat diubah*. Tidak seperti mata uang fiat tradisional (seperti dolar, euro, atau yen), yang dapat dicetak sesuka hati oleh bank sentral (yang sering kali menyebabkan inflasi atau distorsi ekonomi), Bitcoin beroperasi di bawah seperangkat aturan transparan yang tertanam dalam kodenya.
+Salah satu fitur Bitcoin yang paling kuat adalah *kebijakan moneter yang dapat diprediksi dan tidak dapat diubah*. Tidak seperti mata uang fiat tradisional (seperti dolar, euro, atau yen), yang dapat dicetak sesuka hati oleh bank sentral (yang sering kali menyebabkan [inflasi](https://planb.academy/resources/glossary/inflation) atau distorsi ekonomi), Bitcoin beroperasi di bawah seperangkat aturan transparan yang tertanam dalam kodenya.
 
 Hanya akan ada 21 juta bitcoin, dan kecepatan penerbitan koin baru sudah diketahui sebelumnya oleh semua orang dalam jaringan.
 
 
-Tidak ada pemerintah, institusi, atau individu yang dapat secara sepihak mengubah batas Supply ini atau aturan distribusinya. Satu-satunya cara untuk mengubah parameter ini adalah dengan mengubah protokol Bitcoin; dan itu pun membutuhkan konsensus dari mayoritas peserta ekonomi jaringan.
+Tidak ada pemerintah, institusi, atau individu yang dapat secara sepihak mengubah batas Supply ini atau aturan distribusinya. Satu-satunya cara untuk mengubah parameter ini adalah dengan mengubah protokol Bitcoin; dan itu pun membutuhkan [konsensus](https://planb.academy/resources/glossary/consensus) dari mayoritas peserta ekonomi jaringan.
 
 
 Kelangkaan bawaan ini merupakan daya tarik utama bagi mereka yang ingin menghindari kebijakan moneter yang tidak dapat diprediksi atau menghindari erosi daya beli mereka secara bertahap melalui inflasi. Seiring waktu, hal ini dapat mewakili pergeseran dalam pemikiran keuangan, di mana menabung dalam aset deflasi seperti Bitcoin menjadi lebih menarik daripada mengandalkan mata uang tradisional yang rentan terhadap inflasi.
@@ -1006,7 +1004,7 @@ Meskipun pendekatan ini lebih bersifat teknis, pendekatan ini menawarkan para pe
 #### Metode Pembayaran Lintas Batas yang Tangguh
 
 
-Karena sifatnya yang terdesentralisasi, Bitcoin beroperasi 24/7, tidak terpengaruh oleh perbatasan atau zona waktu. Di wilayah di mana kurangnya infrastruktur perbankan tradisional, Bitcoin sering digunakan sebagai solusi cepat dan murah untuk mengirim atau menerima dana tanpa bergantung pada perantara yang mahal. Meskipun biaya transaksi dapat bervariasi berdasarkan kepadatan jaringan, biaya ini umumnya jauh lebih rendah daripada biaya yang dikenakan oleh bank untuk transfer internasional. Selain itu, solusi Layer-2 seperti [Lightning Network](https://planb.academy/resources/glossary/lightning-network) memungkinkan transaksi Bitcoin yang lebih cepat dan lebih murah.
+Karena sifatnya yang terdesentralisasi, Bitcoin beroperasi 24/7, tidak terpengaruh oleh perbatasan atau zona waktu. Di wilayah di mana kurangnya infrastruktur perbankan tradisional, Bitcoin sering digunakan sebagai solusi cepat dan murah untuk mengirim atau menerima dana tanpa bergantung pada perantara yang mahal. Meskipun biaya transaksi dapat bervariasi berdasarkan kepadatan jaringan, biaya ini umumnya jauh lebih rendah daripada biaya yang dikenakan oleh bank untuk transfer internasional. Selain itu, solusi Layer-2 seperti Lightning Network memungkinkan transaksi Bitcoin yang lebih cepat dan lebih murah.
 
 
 #### Tempat penyimpanan nilai
@@ -1536,7 +1534,7 @@ Industri Bitcoin Wallet dibagi menjadi beberapa kategori, masing-masing melayani
 
 
 
-- **Produsen [Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet)**: Perusahaan-perusahaan ini mengembangkan perangkat fisik yang dirancang untuk penyimpanan kunci yang aman. Beberapa diantaranya merupakan sumber terbuka, sementara yang lainnya menawarkan solusi eksklusif dengan berbagai fitur dan tingkat keamanan. Nama-nama yang terkenal termasuk Ledger, Trezor, Coinkite, Foundation, dan Shiftcrypto.
+- **Produsen Hardware Wallet**: Perusahaan-perusahaan ini mengembangkan perangkat fisik yang dirancang untuk penyimpanan kunci yang aman. Beberapa diantaranya merupakan sumber terbuka, sementara yang lainnya menawarkan solusi eksklusif dengan berbagai fitur dan tingkat keamanan. Nama-nama yang terkenal termasuk Ledger, Trezor, Coinkite, Foundation, dan Shiftcrypto.
 - **Software Wallet Pengembang**: Mulai dari perusahaan hingga pengembang independen yang membuat aplikasi seluler dan desktop. Penawaran mereka bervariasi dalam hal pengalaman pengguna, keamanan, dan fitur. Contohnya termasuk Sparrow, Wizard Sarden, Galoy, Synonym, dan Blockstream.
 - **Dompet DIY (*Do It Yourself*)**: Solusi sumber terbuka ini dirancang untuk pengguna tingkat lanjut yang menginginkan kontrol penuh dan ketergantungan minimal pada pihak ketiga. Membangun Wallet Anda sendiri akan mengurangi ketergantungan pada pihak ketiga dan dapat meningkatkan postur keamanan Anda. Opsi DIY yang terkenal termasuk Seedsigner dan Specter DIY.
 
@@ -1582,7 +1580,7 @@ Pengembangan Bitcoin dapat dipahami melalui beberapa kelompok kontributor yang b
 - **Pengembang independen**, Pengembang ini fokus pada pembuatan alat dan aplikasi untuk meningkatkan pengalaman pengguna, seperti Mempool.space (Interface visual untuk melacak aktivitas transaksi) atau Alby (alat untuk menggunakan pembayaran Lightning di browser dan aplikasi).
 
 
-Siapa pun dapat mengusulkan perubahan pada Bitcoin Core, tetapi prosesnya sangat ketat. Ide-ide baru sering kali membutuhkan waktu bertahun-tahun untuk disempurnakan dan membutuhkan pemahaman teknis yang mendalam, keterlibatan komunitas yang luas, dan berbagai lapisan peninjauan. Proposal biasanya diajukan dalam bentuk **Proposal Perbaikan Bitcoin (BIP)**; beberapa di antaranya tidak pernah masuk ke dalam protokol.
+Siapa pun dapat mengusulkan perubahan pada Bitcoin Core, tetapi prosesnya sangat ketat. Ide-ide baru sering kali membutuhkan waktu bertahun-tahun untuk disempurnakan dan membutuhkan pemahaman teknis yang mendalam, keterlibatan komunitas yang luas, dan berbagai lapisan peninjauan. Proposal biasanya diajukan dalam bentuk **[Proposal Perbaikan Bitcoin (BIP)](https://planb.academy/resources/glossary/bip)**; beberapa di antaranya tidak pernah masuk ke dalam protokol.
 
 Inovasi disambut baik, tetapi hanya jika didukung oleh alasan yang kuat, konsensus komunitas, dan pengujian yang cermat.
 
@@ -1627,7 +1625,7 @@ Di antara sistem hamparan utama yang memperkaya ekosistem Bitcoin adalah:
 - **Lightning Network**:
 
 
-Lightning Network, yang diciptakan oleh Thaddeus Dryja dan Joseph Poon pada tahun 2016, merupakan solusi Layer kedua yang dirancang untuk memungkinkan pembayaran instan dan berbiaya rendah. Dua pengguna dapat membuka saluran pribadi di mana mereka dapat bertransaksi dengan saldo yang hanya diperbarui pada Blockchain ketika saluran dibuka atau ditutup. Transaksi di dalam saluran terjadi pada off-chain, yang berarti tidak perlu dicatat secara individual pada Bitcoin Blockchain. Struktur ini memungkinkan transaksi instan dengan biaya minimal, sehingga ideal untuk transaksi bernilai rendah yang membutuhkan konfirmasi cepat.
+Lightning Network, yang diciptakan oleh Thaddeus Dryja dan Joseph Poon pada tahun 2016, merupakan solusi Layer kedua yang dirancang untuk memungkinkan pembayaran instan dan berbiaya rendah. Dua pengguna dapat membuka [saluran](https://planb.academy/resources/glossary/payment-channel) pribadi di mana mereka dapat bertransaksi dengan saldo yang hanya diperbarui pada Blockchain ketika saluran dibuka atau ditutup. Transaksi di dalam saluran terjadi pada off-chain, yang berarti tidak perlu dicatat secara individual pada Bitcoin Blockchain. Struktur ini memungkinkan transaksi instan dengan biaya minimal, sehingga ideal untuk transaksi bernilai rendah yang membutuhkan konfirmasi cepat.
 
 
 ![image](assets/id/061.webp)
@@ -1666,7 +1664,7 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 RGB adalah sistem Smart contract yang terdesentralisasi dan berfokus pada privasi yang dirancang untuk bekerja di atas Bitcoin dan Lightning Network. Tidak seperti platform Smart contract tradisional, RGB menggunakan model Client-side Validation (yang berarti bahwa Contract State penuh disimpan off-chain, dan hanya komitmen kriptografi yang dipublikasikan ke Bitcoin Blockchain). Desain ini meningkatkan skalabilitas dan privasi. Dengan RGB, pengguna dapat membuat kontrak pintar tingkat lanjut untuk menerbitkan token, NFT, identitas terdesentralisasi, atau bahkan aplikasi DeFi, langsung di Bitcoin atau Lightning.
 
 
-Fitur utama dari RGB adalah perlindungannya terhadap Double-spending, yang dicapai dengan menggunakan teknik kriptografi yang disebut Segel Sekali Pakai. Mekanisme ini bergantung pada fakta bahwa UTXO (Unspent Transaction Outputs) Bitcoin hanya dapat digunakan satu kali. Keaslian token dipastikan dengan validasi sisi pengguna dari seluruh sejarah Contract (mulai dari pembuatan hingga statusnya saat ini).
+Fitur utama dari RGB adalah perlindungannya terhadap Double-spending, yang dicapai dengan menggunakan teknik kriptografi yang disebut Segel Sekali Pakai. Mekanisme ini bergantung pada fakta bahwa [UTXO](https://planb.academy/resources/glossary/utxo) (Unspent Transaction Outputs) Bitcoin hanya dapat digunakan satu kali. Keaslian token dipastikan dengan validasi sisi pengguna dari seluruh sejarah Contract (mulai dari pembuatan hingga statusnya saat ini).
 
 
 ![image](assets/id/062.webp)
@@ -2909,7 +2907,7 @@ https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866
 https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
 
-- Hot Wallet untuk transaksi sehari-hari, Untuk pengeluaran rutin, pengguna paranoid memilih dompet yang berfokus pada privasi seperti Ashigaru, Wasabi Wallet atau Sparrow Wallet. Dompet-dompet ini mendukung fitur-fitur canggih seperti: transaksi pembelanjaan mini-CoinJoin, payjoin, alat yang berpotensi menjadi CoinJoin, kontrol koin, penandaan UTXO, atau kemampuan untuk terhubung melalui node Bitcoin Anda sendiri.
+- Hot Wallet untuk transaksi sehari-hari, Untuk pengeluaran rutin, pengguna paranoid memilih dompet yang berfokus pada privasi seperti Ashigaru, Wasabi Wallet atau Sparrow Wallet. Dompet-dompet ini mendukung fitur-fitur canggih seperti: transaksi pembelanjaan mini-[CoinJoin](https://planb.academy/resources/glossary/coinjoin), payjoin, alat yang berpotensi menjadi CoinJoin, kontrol koin, penandaan UTXO, atau kemampuan untuk terhubung melalui node Bitcoin Anda sendiri.
 
 
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d

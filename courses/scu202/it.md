@@ -156,8 +156,6 @@ Siete pronti a prendere il pieno controllo della vostra sicurezza informatica, a
 
 
 
-*N.B.: Se durante il corso si incontrano termini non familiari, si prega di consultare [il glossario](https://planb.academy/resources/glossary) per le definizioni*
-
 
 
 ## Riassunto essenziale di SCU101
@@ -1242,7 +1240,7 @@ Anche Parrot OS è derivato da Debian. Offre un ambiente per il pentesting, la s
 
 
 
-Tails è una distribuzione live basata su Debian e incentrata sulla privacy. Tutto passa attraverso la rete Tor e nulla viene memorizzato tra le sessioni dell'utente. È una distribuzione ideale per usi sensibili una tantum (giornalismo, attivismo, generazione di seed Bitcoin...).
+Tails è una distribuzione live basata su Debian e incentrata sulla privacy. Tutto passa attraverso la rete [Tor](https://planb.academy/resources/glossary/tor) e nulla viene memorizzato tra le sessioni dell'utente. È una distribuzione ideale per usi sensibili una tantum (giornalismo, attivismo, generazione di [seed](https://planb.academy/resources/glossary/seed) Bitcoin...).
 
 
 
@@ -4033,7 +4031,7 @@ Un file può essere intatto (non modificato), ma è stato pubblicato da un'entit
 
 
 
-Questa verifica dell'origine è resa possibile dalla firma digitale, un meccanismo crittografico che collega il file alla chiave privata dello sviluppatore. Quando si verifica questa firma utilizzando la chiave pubblica dello sviluppatore (distribuita tramite canali sicuri), si può essere certi che il file provenga effettivamente da quella persona.
+Questa verifica dell'origine è resa possibile dalla [firma digitale](https://planb.academy/resources/glossary/digital-signature), un meccanismo crittografico che collega il file alla [chiave privata](https://planb.academy/resources/glossary/private-key) dello sviluppatore. Quando si verifica questa firma utilizzando la [chiave pubblica](https://planb.academy/resources/glossary/public-key) dello sviluppatore (distribuita tramite canali sicuri), si può essere certi che il file provenga effettivamente da quella persona.
 
 
 
@@ -4057,7 +4055,7 @@ Il secondo strumento è la firma digitale. Questa verifica l'autenticità del so
 
 
 
-Questo sistema si basa sulla crittografia asimmetrica e su strumenti come GnuPG (riga di comando) o Kleopatra (Interface grafico per Windows). Questi strumenti devono essere configurati correttamente e la chiave pubblica dello sviluppatore deve essere verificata tramite un canale sicuro (sito web ufficiale, impronta digitale su Twitter...). Diamo un'occhiata agli aspetti pratici.
+Questo sistema si basa sulla [crittografia](https://planb.academy/resources/glossary/cryptography) asimmetrica e su strumenti come GnuPG (riga di comando) o Kleopatra (Interface grafico per Windows). Questi strumenti devono essere configurati correttamente e la chiave pubblica dello sviluppatore deve essere verificata tramite un canale sicuro (sito web ufficiale, impronta digitale su Twitter...). Diamo un'occhiata agli aspetti pratici.
 
 
 
@@ -8238,7 +8236,7 @@ Queste porte sono utilizzate anche in sistemi come Bitcoin o Tor, dove vengono u
 
 - La porta `8333` è utilizzata per le connessioni P2P su Bitcoin Mainnet
 - La porta `18333` è utilizzata per le connessioni P2P su Bitcoin Testnet
-- La porta `8332` è utilizzata per il Interface RPC di un nodo Bitcoin
+- La porta `8332` è utilizzata per il Interface RPC di un [nodo](https://planb.academy/resources/glossary/node) Bitcoin
 - La porta `9050` è utilizzata dal proxy SOCKS5 di Tor
 - La porta `9150` è utilizzata dal browser Tor
 

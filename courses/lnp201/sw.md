@@ -75,9 +75,9 @@ Je, uko tayari kufichua mbinu za kiufundi za Mtandao wa Umeme? Hebu tuzame ndani
 
 :::video id=4315a277-12fe-4946-bb49-a807e60c09a7:::
 
-Karibu kwenye kozi ya LNP201, ambayo inalenga kueleza utendakazi wa kiufundi wa Lightning Network.
+Karibu kwenye kozi ya LNP201, ambayo inalenga kueleza utendakazi wa kiufundi wa [Lightning Network](https://planb.academy/resources/glossary/lightning-network).
 
-Lightning Network ni mtandao wa njia za malipo zilizojengwa juu ya itifaki ya Bitcoin, inayolenga kuwezesha miamala ya haraka na ya gharama nafuu. Inaruhusu uundaji wa njia za malipo kati ya washiriki, ambapo miamala inaweza kufanywa karibu papo hapo na kwa ada ndogo, bila kulazimika kurekodi kila muamala mmoja mmoja kwenye Blockchain. Kwa hivyo, Lightning Network inalenga kuboresha uimara wa Bitcoin na kuifanya itumike kwa malipo ya bei ya chini.
+Lightning Network ni mtandao wa [njia za malipo](https://planb.academy/resources/glossary/payment-channel) zilizojengwa juu ya itifaki ya Bitcoin, inayolenga kuwezesha miamala ya haraka na ya gharama nafuu. Inaruhusu uundaji wa njia za malipo kati ya washiriki, ambapo miamala inaweza kufanywa karibu papo hapo na kwa ada ndogo, bila kulazimika kurekodi kila muamala mmoja mmoja kwenye [Blockchain](https://planb.academy/resources/glossary/blockchain). Kwa hivyo, Lightning Network inalenga kuboresha [uimara](https://planb.academy/resources/glossary/scalability) wa Bitcoin na kuifanya itumike kwa malipo ya bei ya chini.
 
 Kabla ya kuchunguza kipengele cha "mtandao", ni muhimu kuelewa dhana ya njia ya malipo kwenye Umeme, jinsi inavyofanya kazi, na maelezo yake mahususi. Hili ndilo somo la sura hii ya kwanza.
 
@@ -87,7 +87,7 @@ Njia ya malipo inaruhusu wahusika wawili, hapa Alice na Bob, kufadhili ubadilish
 
 ![LNP201](assets/en/001.webp)
 
-Katika mfano wetu, Alice ana satoshi 100,000 kwa upande wake wa chaneli, na Bob ana 30,000, kwa jumla ya satoshi 130,000, ambazo zinajumuisha uwezo wa kituo.
+Katika mfano wetu, Alice ana [satoshi](https://planb.academy/resources/glossary/satoshi-sat) 100,000 kwa upande wake wa chaneli, na Bob ana 30,000, kwa jumla ya satoshi 130,000, ambazo zinajumuisha [uwezo wa kituo](https://planb.academy/resources/glossary/lightning-channel-capacity).
 
 Je,Satoshi ni nini?
 
@@ -138,7 +138,7 @@ Sura hii ni maalum kidogo kwani haitajitolea moja kwa moja kwa Umeme, lakini kwa
 
 ### Anwani za Bitcoin, Funguo za Kibinafsi, na Funguo za Umma
 
-Anwani ya Bitcoin,ni mfululizo wa vibambo vinavyotokana na ufunguo wa umma, ambao umekokotolewa kutoka kwa ufunguo wa faragha, Kama unavyojua, unatumika kufunga bitcoins, ambayo ni sawa na kuzipokea kwenye Wallet yetu.
+Anwani ya Bitcoin,ni mfululizo wa vibambo vinavyotokana na [ufunguo wa umma](https://planb.academy/resources/glossary/public-key), ambao umekokotolewa kutoka kwa [ufunguo wa faragha](https://planb.academy/resources/glossary/private-key), Kama unavyojua, unatumika kufunga bitcoins, ambayo ni sawa na kuzipokea kwenye Wallet yetu.
 
 Ufunguo wa faragha ni kipengele cha siri ambacho hakipaswi kamwe kushirikiwa,huku ufunguo wa umma na Anwani zinaweza kushirikiwa bila hatari ya usalama (ufichuzi wao unawakilisha hatari kwa faragha yako pekee). Huu hapa ni uwakilishi wa pamoja ambao tutaupitisha katika kipindi chote cha mafunzo haya:
 
@@ -149,7 +149,7 @@ Ufunguo wa faragha ni kipengele cha siri ambacho hakipaswi kamwe kushirikiwa,huk
 
 ### Miamala ya Bitcoin: Kutuma Pesa na Hati
 
-Kwenye Bitcoin, shughuli inahusisha kutuma fedha kutoka Anwani moja hadi nyingine. Hebu tuchukue mfano wa Alice kutuma 0.002 Bitcoin kwa Bob. Alice hutumia ufunguo wa faragha unaohusishwa na Anwani yake ili kutia sahihi muamala, na hivyo kuthibitisha kwamba kwa hakika anaweza kutumia pesa hizi. Lakini ni nini hasa kinatokea nyuma ya shughuli hii? Fedha kwenye Anwani ya Bitcoin zimefungwa na hati , aina ya programu ndogo ambayo inaweka masharti fulani ya kutumia fedha.
+Kwenye Bitcoin, shughuli inahusisha kutuma fedha kutoka Anwani moja hadi nyingine. Hebu tuchukue mfano wa Alice kutuma 0.002 Bitcoin kwa Bob. Alice hutumia ufunguo wa faragha unaohusishwa na Anwani yake ili kutia [sahihi](https://planb.academy/resources/glossary/digital-signature) muamala, na hivyo kuthibitisha kwamba kwa hakika anaweza kutumia pesa hizi. Lakini ni nini hasa kinatokea nyuma ya shughuli hii? Fedha kwenye Anwani ya Bitcoin zimefungwa na [hati](https://planb.academy/resources/glossary/script) , aina ya programu ndogo ambayo inaweka masharti fulani ya kutumia fedha.
 
 Hati ya kawaida zaidi inahitaji sahihu,iliyo na ufunguo wa faragha unaohusishwa na Anwani. Alice anapotia sahihi muamala kwa kutumia ufunguo wake wa faragha, hufungua hati inayozuia pesa, kisha zinaweza kuhamishwa. Uhamishaji wa fedha unahusisha kuongeza hati mpya kwa fedha hizi, ikibainisha kwamba ili kuzitumia wakati huu, sahihi ya ufunguo wa faragha wa Bob itahitajika.
 
@@ -157,7 +157,7 @@ Hati ya kawaida zaidi inahitaji sahihu,iliyo na ufunguo wa faragha unaohusishwa 
 
 ### UTXOs: Matokeo ya Muamala Usiotumika
 
-Kwenye Bitcoin, kile ambacho sisi kwa kweli hubadilishana sio bitcoins moja kwa moja, lakini **[UTXO](https://planb.academy/resources/glossary/utxo)s** (_Matokeo ya Muamala Usiotumia_), ikimaanisha "matokeo ya muamala ambao haujatumika".
+Kwenye Bitcoin, kile ambacho sisi kwa kweli hubadilishana sio bitcoins moja kwa moja, lakini **UTXOs** (_Matokeo ya Muamala Usiotumia_), ikimaanisha "matokeo ya muamala ambao haujatumika".
 
 UTXO ni kipande cha Bitcoin ambacho kinaweza kuwa na thamani yoyote, kwa mfano,  bitcoins 2,000, bitcoins 8, au hata 8,000 Sats. Kila UTXO imefungwa kwa hati, na ili kuitumia, mtu lazima atimize masharti ya hati, mara nyingi sahihi na ufunguo wa faragha unaolingana na kupokea Anwani.
 
@@ -216,9 +216,9 @@ Kama tulivyoona katika sura ya kwanza, njia ya malipo kwenye Umeme inaweza kulin
 Ni muhimu kutofautisha wazi viwango tofauti vya ubadilishanaji kwenye Lightning Network:
 
 
-- Mawasiliano kati ya rika (Itifaki ya umeme): Hizi ndizo jumbe ambazo nodi za Umeme hutuma kwa kila mmoja ili kuwasiliana. Tutawakilisha jumbe hizi kwa mistari nyeusi iliyokatika katika michoro yetu.
+- Mawasiliano [kati ya rika](https://planb.academy/resources/glossary/peertopeer-p2p) (Itifaki ya umeme): Hizi ndizo jumbe ambazo [nodi za Umeme](https://planb.academy/resources/glossary/lightning-node) hutuma kwa kila mmoja ili kuwasiliana. Tutawakilisha jumbe hizi kwa mistari nyeusi iliyokatika katika michoro yetu.
 - Njia za malipo (Itifaki ya Umeme): Hizi ndizo njia za kubadilishana fedha kwenye Umeme, ambazo tutawakilisha kwa njia dhabiti nyeusi.
-- Shughuli za Bitcoin (Itifaki ya Bitcoin): Hizi ni miamala zilizofanywa kwenye mnyororo, ambazo tutawakilisha kwa laini za chungwa.
+- Shughuli za Bitcoin (Itifaki ya Bitcoin): Hizi ni miamala zilizofanywa [kwenye mnyororo](https://planb.academy/resources/glossary/onchain), ambazo tutawakilisha kwa laini za chungwa.
 
 ![LNP201](assets/en/010.webp)
 
@@ -247,7 +247,7 @@ Ni vyema kutambua kwamba nodi ya Umeme inaweza kuwasiliana kupitia itifaki ya P2
 ![LNP201](assets/en/014.webp)
 
 
-- **Sahihi ya Bob**: Alice anatuma muamala wa amana kwa Bob kama uthibitisho na kumwomba atie sahihi katika shughuli ya uondoaji. Mara tu sahihi ya Bob itakapopatikana kwenye shughuli ya uondoaji, Alice anahakikishiwa kuwa ataweza kurejesha pesa zake wakati wowote, kwani ni sahihi yake pekee ndiyo inayohitajika ili kufungua sahihi nyingi.
+- **Sahihi ya Bob**: Alice anatuma muamala wa amana kwa Bob kama [uthibitisho](https://planb.academy/resources/glossary/confirmation) na kumwomba atie sahihi katika shughuli ya uondoaji. Mara tu sahihi ya Bob itakapopatikana kwenye shughuli ya uondoaji, Alice anahakikishiwa kuwa ataweza kurejesha pesa zake wakati wowote, kwani ni sahihi yake pekee ndiyo inayohitajika ili kufungua sahihi nyingi.
 
 ![LNP201](assets/en/015.webp)
 
@@ -258,7 +258,7 @@ Ni vyema kutambua kwamba nodi ya Umeme inaweza kuwasiliana kupitia itifaki ya P2
 
 ### Je, kituo kinafunguliwa lini?
 
-Kituo kinachukuliwa kuwa kimefunguliwa mara tu muamala wa amana unapojumuishwa kwenye kizuizi cha Bitcoin na umefikia kina fulani cha uthibitisho (idadi ya vizuizi vifuatavyo).
+Kituo kinachukuliwa kuwa kimefunguliwa mara tu muamala wa amana unapojumuishwa kwenye [kizuizi](https://planb.academy/resources/glossary/block) cha Bitcoin na umefikia kina fulani cha uthibitisho (idadi ya vizuizi vifuatavyo).
 
 **Unapaswa kukumbuka nini kutoka kwa sura hii?**
 
@@ -291,7 +291,7 @@ Wakati wa kufungua chaneli, Alice aliweka Satoshi 130,000 kwenye sahihi nyingi z
 
 ### Miamala ambayo haijachapishwa: Miamala ya kujitegemea.
 
-Wakati Alice anafanya muamala katika kituo kutuma pesa kwa Bob, muamala mpya wa Bitcoin huundwa ili kuonyesha mabadiliko haya katika usambazaji wa fedha. Muamala huu, unaoitwa Commitment Transaction, haujachapishwa kwenye Blockchain lakini unawakilisha hali mpya ya kituo kufuatia shughuli ya Umeme.
+Wakati Alice anafanya muamala katika kituo kutuma pesa kwa Bob, muamala mpya wa Bitcoin huundwa ili kuonyesha mabadiliko haya katika usambazaji wa fedha. Muamala huu, unaoitwa [Commitment Transaction](https://planb.academy/resources/glossary/commitment-transaction), haujachapishwa kwenye Blockchain lakini unawakilisha hali mpya ya kituo kufuatia shughuli ya Umeme.
 
 Hebu tuchukue mfano na Alice akituma satoshi 30,000 kwa Bob:
 
@@ -371,10 +371,10 @@ Mbaya zaidi, Alice angeweza kuchapisha shughuli ya kwanza kabisa ya uondoaji, il
 Ili kuzuia aina hii ya udanganyifu wa Alice, kwenye Lightning Network, njia za usalama huongezwa kwa miamala ya kujitolea:
 
 
-- **Saa**: Kila kujitolea shughuli inajumuisha muda wa pesa za Alice. Muda wa kufunga ni Smart contract ya awali ambayo huweka masharti ya muda ambayo lazima yatimizwe ili shughuli iongezwe kwenye kizuizi. Hii inamaanisha kuwa Alice hawezi kurejesha pesa zake hadi idadi fulani ya vitalu ipitishwe ikiwa atachapisha moja ya miamala ya kujitolea. Muda huu unaanza kutumika kutoka kwa uthibitisho wa kujitolea shughuli. Muda wake kwa ujumla ni sawia na ukubwa wa kituo, lakini pia inaweza kusanidiwa kwa mikono.
+- **Saa**: Kila kujitolea shughuli inajumuisha [muda](https://planb.academy/resources/glossary/timelock) wa pesa za Alice. Muda wa kufunga ni [Smart contract](https://planb.academy/resources/glossary/smart-contract) ya awali ambayo huweka masharti ya muda ambayo lazima yatimizwe ili shughuli iongezwe kwenye kizuizi. Hii inamaanisha kuwa Alice hawezi kurejesha pesa zake hadi idadi fulani ya vitalu ipitishwe ikiwa atachapisha moja ya miamala ya kujitolea. Muda huu unaanza kutumika kutoka kwa uthibitisho wa kujitolea shughuli. Muda wake kwa ujumla ni sawia na ukubwa wa kituo, lakini pia inaweza kusanidiwa kwa mikono.
 - **Ufunguo wa Kubatilisha**: Pesa za Alice pia zinaweza kutumiwa mara moja na Bob ikiwa ana ufunguo wa kubatilisha. Ufunguo huu una siri iliyoshikiliwa na Alice na siri iliyoshikiliwa na Bob. Kumbuka kuwa siri hii ni tofauti kwa kila kujitolea shughuli.
 
-Shukrani kwa mifumo hii 2 iliyojumuishwa, Bob ana wakati wa kugundua jaribio la Alice la kudanganya, na kumwadhibu kwa kurudisha matokeo yake kwa ufunguo wa kubatilisha, ambao kwa Bob unamaanisha kurejesha pesa zote za kituo. kujitolea shughuli yetu mpya sasa itaonekana kama hii:
+Shukrani kwa mifumo hii 2 iliyojumuishwa, Bob ana wakati wa kugundua jaribio la Alice la kudanganya, na kumwadhibu kwa kurudisha [matokeo](https://planb.academy/resources/glossary/output) yake kwa ufunguo wa kubatilisha, ambao kwa Bob unamaanisha kurejesha pesa zote za kituo. kujitolea shughuli yetu mpya sasa itaonekana kama hii:
 
 ![LNP201](assets/en/025.webp)
 
@@ -386,7 +386,7 @@ Wakati Alice na Bob wanasasisha hali ya kituo kwa muamala mpya wa Umeme, wao huw
 
 
 - Alice na Bob wana shughuli ya kujitolea mpya inayowakilisha usambazaji wa sasa wa fedha baada ya shughuli ya Umeme.
-- Kila mmoja ana siri ya mwingine kwa shughuli ya awali, ambayo inawaruhusu kutumia ufunguo wa kubatilisha tu ikiwa mmoja wao anajaribu kudanganya kwa kuchapisha shughuli na hali ya zamani katika kumbukumbu za nodi za Bitcoin. Hakika, kuadhibu chama kingine, ni muhimu kushikilia siri zote mbili na kujitolea shughuli ya pili, ambayo inajumuisha pembejeo iliyotiwa sahihi. Bila muamala huu, ufunguo wa kubatilisha pekee hauna maana. Njia pekee ya kupata shughuli hii ni kuipata kutoka kwa kumbukumbu (katika shughuli zinazosubiri uthibitisho) au katika shughuli zilizothibitishwa kwenye Blockchain wakati wa muda, ambayo inathibitisha kwamba upande mwingine unajaribu kudanganya, iwe kwa makusudi au la.
+- Kila mmoja ana siri ya mwingine kwa shughuli ya awali, ambayo inawaruhusu kutumia ufunguo wa kubatilisha tu ikiwa mmoja wao anajaribu kudanganya kwa kuchapisha shughuli na hali ya zamani katika [kumbukumbu](https://planb.academy/resources/glossary/mempool) za nodi za Bitcoin. Hakika, kuadhibu chama kingine, ni muhimu kushikilia siri zote mbili na kujitolea shughuli ya pili, ambayo inajumuisha [pembejeo](https://planb.academy/resources/glossary/input) iliyotiwa sahihi. Bila muamala huu, ufunguo wa kubatilisha pekee hauna maana. Njia pekee ya kupata shughuli hii ni kuipata kutoka kwa kumbukumbu (katika shughuli zinazosubiri uthibitisho) au katika shughuli zilizothibitishwa kwenye Blockchain wakati wa muda, ambayo inathibitisha kwamba upande mwingine unajaribu kudanganya, iwe kwa makusudi au la.
 
 Hebu tuchukue mfano ili kuelewa mchakato huu vizuri:
 
@@ -461,7 +461,7 @@ Hebu tuchukue mfano:
 ![LNP201](assets/en/031.webp)
 
 
-- Alice na Bob wanajadiliana pamoja ada za muamala wa kufunga. Ada hizi kwa ujumla huhesabiwa kulingana na soko la ada la Bitcoin wakati wa kufungwa. Ni muhimu kutambua kwamba daima ni mtu aliyefungua chaneli (Alice katika mfano wetu) ndiye hulipa ada za kufunga.
+- Alice na Bob wanajadiliana pamoja [ada](https://planb.academy/resources/glossary/transaction-fees) za muamala wa kufunga. Ada hizi kwa ujumla huhesabiwa kulingana na soko la ada la Bitcoin wakati wa kufungwa. Ni muhimu kutambua kwamba daima ni mtu aliyefungua chaneli (Alice katika mfano wetu) ndiye hulipa ada za kufunga.
 - Wanaunda muamala mpya wa kufunga. Muamala huu unafanana na kujitolea shughuli, lakini bila kufuli muda au taratibu za ubatilishaji, kwa kuwa pande zote mbili zinashirikiana na hakuna hatari ya kudanganya. Muamala huu wa kufunga ushirika kwa hiyo ni tofauti na shughuli za kujitolea.
 
 Kwa mfano, ikiwa Alice anamiliki satoshi 100,000 na Bob 30,000 satoshi, muamala wa kufunga utatuma Satoshi 100,000 kwa Anwani ya Alice na 30,000 Satoshi kwa Anwani ya Bob ya Anwani, bila vikwazo vya muda. Mara tu shughuli hii inapotiwa saini na pande zote mbili, inachapishwa na Alice. Mara tu muamala utakapothibitishwa kwenye Bitcoin Blockchain, chaneli ya Umeme itafungwa rasmi.
@@ -519,11 +519,11 @@ Katika sura zijazo, tutachunguza Lightning Network kutoka kwa mtazamo mpana, tuk
 
 :::video id=38419c23-5592-4573-b0a7-84824a5bfb77:::
 
-Katika sura hii, tutachunguza jinsi malipo kwenye Lightning Network yanaweza kumfikia mpokeaji hata kama hajaunganishwa moja kwa moja na njia ya malipo. Umeme, kwa kweli, ni mtandao wa njia za malipo, ambao unaruhusu pesa kutumwa kwa nodi ya mbali kupitia chaneli za washiriki wengine. Tutagundua jinsi malipo yanavyopitishwa kwenye mtandao, jinsi ukwasi hupita kati ya vituo na jinsi ada za muamala zinavyokokotolewa.
+Katika sura hii, tutachunguza jinsi malipo kwenye Lightning Network yanaweza kumfikia mpokeaji hata kama hajaunganishwa moja kwa moja na njia ya malipo. Umeme, kwa kweli, ni mtandao wa njia za malipo, ambao unaruhusu pesa kutumwa kwa nodi ya mbali kupitia chaneli za washiriki wengine. Tutagundua jinsi malipo yanavyopitishwa kwenye mtandao, jinsi [ukwasi](https://planb.academy/resources/glossary/liquidity-lightning) hupita kati ya vituo na jinsi ada za muamala zinavyokokotolewa.
 
 ### Mtandao wa Njia za Malipo
 
-Kwenye Lightning Network, shughuli inafanana na uhamisho wa fedha kati ya nodi mbili. Kama inavyoonekana katika sura zilizopita, ni muhimu kufungua chaneli na mtu ili kufanya miamala ya Umeme. Kituo hiki kinaruhusu karibu idadi isiyo na kikomo ya miamala ya off-chain kabla ya kuifunga ili kurejesha salio la On-Chain. Hata hivyo, njia hii ina hasara ya kuhitaji njia ya moja kwa moja na mtu mwingine kupokea au kutuma fedha, ambayo ina maana ya shughuli ya ufunguzi na shughuli ya kufunga kwa kila channel. Nikipanga kufanya malipo mengi na mtu huyu, kufungua na kufunga kituo kunakuwa kwa gharama nafuu. Kinyume chake, ikiwa ninahitaji tu kufanya shughuli chache za Umeme, kufungua kituo cha moja kwa moja sio faida, kwani ingenigharimu miamala 2 ya On-Chain kwa idadi ndogo ya shughuli za off-chain. Kesi hii inaweza kutokea, kwa mfano, unapotaka kulipa kwa Umeme kwa mfanyabiashara bila kupanga kurudi.
+Kwenye Lightning Network, shughuli inafanana na uhamisho wa fedha kati ya nodi mbili. Kama inavyoonekana katika sura zilizopita, ni muhimu kufungua chaneli na mtu ili kufanya miamala ya Umeme. Kituo hiki kinaruhusu karibu idadi isiyo na kikomo ya miamala ya [off-chain](https://planb.academy/resources/glossary/offchain) kabla ya kuifunga ili kurejesha salio la On-Chain. Hata hivyo, njia hii ina hasara ya kuhitaji njia ya moja kwa moja na mtu mwingine kupokea au kutuma fedha, ambayo ina maana ya shughuli ya ufunguzi na shughuli ya kufunga kwa kila channel. Nikipanga kufanya malipo mengi na mtu huyu, kufungua na kufunga kituo kunakuwa kwa gharama nafuu. Kinyume chake, ikiwa ninahitaji tu kufanya shughuli chache za Umeme, kufungua kituo cha moja kwa moja sio faida, kwani ingenigharimu miamala 2 ya On-Chain kwa idadi ndogo ya shughuli za off-chain. Kesi hii inaweza kutokea, kwa mfano, unapotaka kulipa kwa Umeme kwa mfanyabiashara bila kupanga kurudi.
 
 Ili kutatua tatizo hili, Lightning Network inaruhusu kuelekeza malipo kupitia njia kadhaa na nodi za kati, na hivyo kuwezesha shughuli bila njia ya moja kwa moja na mtu mwingine.
 
@@ -654,7 +654,7 @@ Katika sura hii, tulichunguza njia za malipo kwenye Lightning Network. Lakini sw
 
 :::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
-Katika sura hii, tutagundua jinsi Umeme huruhusu malipo kupita kupitia nodi za kati bila kuhitaji kuziamini, shukrani kwa **[HTLC](https://planb.academy/resources/glossary/htlc)** (_Kandarasi Zilizofungwa kwa Muda wa Hashed_). Mikataba hii mahiri huhakikisha kwamba kila nodi ya mpatanishi itapokea tu fedha kutoka kwa kituo chake ikiwa itatuma malipo kwa mpokeaji wa mwisho, vinginevyo, malipo hayatathibitishwa.
+Katika sura hii, tutagundua jinsi Umeme huruhusu malipo kupita kupitia nodi za kati bila kuhitaji kuziamini, shukrani kwa **HTLC** (_Kandarasi Zilizofungwa kwa Muda wa Hashed_). Mikataba hii mahiri huhakikisha kwamba kila nodi ya mpatanishi itapokea tu fedha kutoka kwa kituo chake ikiwa itatuma malipo kwa mpokeaji wa mwisho, vinginevyo, malipo hayatathibitishwa.
 
 Suala linalojitokeza kwa uelekezaji wa malipo kwa hivyo ni uaminifu unaohitajika katika nodi za kati, na kati ya nodi za mpatanishi zenyewe. Ili kufafanua hili, hebu tuangalie tena mfano wetu uliorahisishwa wa Lightning Network na nodi 3 na chaneli 2:
 
@@ -684,7 +684,7 @@ Hivi ndivyo mchakato huu unavyofanya kazi katika mfano wetu na Alice, Suzie, na 
 
 ![LNP201](assets/en/048.webp)
 
-Kuunda siri: Bob hutoa siri nasibu iliyobainishwa kama siri (picha), na kukokotoa _h_ yake iliyobainishwa kama _r_ pamoja na chaguo za kukokotoa za Heshi kama _h_. Tunayo:
+Kuunda siri: Bob hutoa siri nasibu iliyobainishwa kama siri (picha), na kukokotoa _h_ yake iliyobainishwa kama _r_ pamoja na [chaguo za kukokotoa za Heshi](https://planb.academy/resources/glossary/hash-function) kama _h_. Tunayo:
 
 $$
 r = h(s)
@@ -797,7 +797,7 @@ Hata na topolojia hii ya Lightning Network, kuna taarifa muhimu ya kuelekeza amb
 
 ### Sasisho la Ramani ya Mtandao
 
-Ili kusasisha ramani ya mtandao wao, nodi mara kwa mara ujumbe wa ubadilishanaji kupitia algoriti inayoitwa "_kusengenya_". Hii ni algoriti iliyosambazwa inayotumiwa kueneza habari kwa njia ya janga kwa nodi zote kwenye mtandao, ambayo inaruhusu ubadilishanaji na usawazishaji wa Global State ya chaneli katika mizunguko michache ya mawasiliano. Kila nodi hueneza habari kwa jirani mmoja au zaidi waliochaguliwa kwa nasibu au la, hawa, kwa upande wake, hueneza habari hiyo kwa majirani wengine na kadhalika hadi hali ya usawazishaji wa kimataifa ipatikane.
+Ili kusasisha ramani ya mtandao wao, nodi mara kwa mara ujumbe wa ubadilishanaji kupitia algoriti inayoitwa "_[kusengenya](https://planb.academy/resources/glossary/gossip)_". Hii ni algoriti iliyosambazwa inayotumiwa kueneza habari kwa njia ya janga kwa nodi zote kwenye mtandao, ambayo inaruhusu ubadilishanaji na usawazishaji wa Global State ya chaneli katika mizunguko michache ya mawasiliano. Kila nodi hueneza habari kwa jirani mmoja au zaidi waliochaguliwa kwa nasibu au la, hawa, kwa upande wake, hueneza habari hiyo kwa majirani wengine na kadhalika hadi hali ya usawazishaji wa kimataifa ipatikane.
 
 Ujumbe 2 kuu unaobadilishana kati ya nodi za Umeme ni kama ifuatavyo:
 
@@ -879,7 +879,7 @@ Katika sura ifuatayo, tutasoma mahususi utendakazi wa ankara, pamoja na zana zin
 
 :::video id=309c3412-506e-4189-ad46-5e5088c55008:::
 
-Katika sura hii, tutaangalia kwa karibu utendakazi wa Umeme  ankara, yaani, maombi ya malipo yaliyotumwa na nodi ya mpokeaji kwa nodi ya mtumaji. Lengo ni kuelewa jinsi ya kulipa na kupokea malipo kwenye Umeme. Pia tutajadili njia 2 mbadala za ankara za kawaida: LNURL na Keysend.
+Katika sura hii, tutaangalia kwa karibu utendakazi wa Umeme  ankara, yaani, maombi ya malipo yaliyotumwa na nodi ya mpokeaji kwa nodi ya mtumaji. Lengo ni kuelewa jinsi ya kulipa na kupokea malipo kwenye Umeme. Pia tutajadili njia 2 mbadala za ankara za kawaida: [LNURL](https://planb.academy/resources/glossary/lnurl) na Keysend.
 
 ![LNP201](assets/en/068.webp)
 
@@ -963,7 +963,7 @@ Upakiaji wa anwani ya ununuzi ni pamoja na vipande kadhaa vya habari muhimu kwa 
 - **Vidokezo vya Njia**: Maelezo ya ziada yanayotolewa na mpokeaji ili kumsaidia mtumaji kuboresha njia ya malipo.
 - **Sahihi**: Inathibitisha uadilifu wa anwani ya ununuzi kwa kuthibitisha taarifa zote.
 
-Kisha ankara husimbwa katika bech32, umbizo sawa na la anwani za Bitcoin SegWit (umbizo linaloanza na `bc1`).
+Kisha ankara husimbwa katika [bech32](https://planb.academy/resources/glossary/bech32-and-bech32m), umbizo sawa na la anwani za Bitcoin [SegWit](https://planb.academy/resources/glossary/segwit) (umbizo linaloanza na `bc1`).
 
 ### Uondoaji wa LNURL
 
@@ -1009,8 +1009,8 @@ Katika sura hii, tutachunguza mikakati ya kusimamia vyema ukwasi kwenye Lightnin
 Kuna wasifu kuu tatu za watumiaji kwenye Umeme, kila moja ikiwa na mahitaji maalum ya ukwasi:
 
 
-- **Mlipaji**: Huyu ndiye anayelipa. Wanahitaji ukwasi unaotoka ili kuweza kuhamisha fedha kwa watumiaji wengine. Kwa mfano, hii inaweza kuwa mtumiaji.
-- **Muuzaji (au Mlipwaji)**: Huyu ndiye anayepokea malipo. Wanahitaji ukwasi unaoingia ili waweze kukubali malipo kwenye nodi zao. Kwa mfano, hii inaweza kuwa biashara au duka la mtandaoni.
+- **Mlipaji**: Huyu ndiye anayelipa. Wanahitaji [ukwasi unaotoka](https://planb.academy/resources/glossary/outbound-capacity) ili kuweza kuhamisha fedha kwa watumiaji wengine. Kwa mfano, hii inaweza kuwa mtumiaji.
+- **Muuzaji (au Mlipwaji)**: Huyu ndiye anayepokea malipo. Wanahitaji [ukwasi unaoingia](https://planb.academy/resources/glossary/inbound-capacity) ili waweze kukubali malipo kwenye nodi zao. Kwa mfano, hii inaweza kuwa biashara au duka la mtandaoni.
 - **Kipanga njia**: Njia ya kati, ambayo mara nyingi ni maalum katika malipo ya uelekezaji, ambao ni lazima uboreshe ukwasi wake katika kila kituo ili kuelekeza malipo mengi iwezekanavyo na kupata ada.
 
 Profaili hizi ni wazi hazijasasishwa; mtumiaji anaweza kubadilisha kati ya mlipaji na anayelipwa kulingana na miamala. Kwa mfano, Bob angeweza kupokea mshahara wake kwenye Umeme kutoka kwa mwajiri wake, na kumweka katika nafasi ya "muuzaji" anayehitaji ukwasi unaoingia. Baadaye, kama anataka kutumia mshahara wake kununua chakula, anakuwa "mlipaji" na lazima awe na ukwasi unaotoka.

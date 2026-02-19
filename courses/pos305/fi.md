@@ -74,7 +74,7 @@ Nicolasin sanojen jälkeen oli aika aloittaa rakentaminen. Merkittävä määrä
 Mitä avoimella lähdekoodilla tarkoitetaan ja mitä tällaiseen hankkeeseen kuuluu?
 
 
-FOSS on lyhenne sanoista Free & Open-Source Software. Ensin mainittu viittaa ehtoihin, joiden mukaan kuka tahansa voi kopioida, muokata ja jopa levittää ohjelmistoversioita (jopa voiton tavoittelemiseksi). Jälkimmäisellä tarkoitetaan lähdekoodin avointa jakamista ja yleisön kannustamista osallistumaan ja parantamaan sitä.
+[FOSS](https://planb.academy/resources/glossary/foss) on lyhenne sanoista Free & Open-Source Software. Ensin mainittu viittaa ehtoihin, joiden mukaan kuka tahansa voi kopioida, muokata ja jopa levittää ohjelmistoversioita (jopa voiton tavoittelemiseksi). Jälkimmäisellä tarkoitetaan lähdekoodin avointa jakamista ja yleisön kannustamista osallistumaan ja parantamaan sitä.
 
 Tämä houkuttelee kokeneita käyttäjiä, jotka ovat innostuneita osallistumaan ohjelmistojen kehittämiseen, joita he jo käyttävät ja joista he saavat arvoa, ja tämä on lopulta osoittautunut onnistuneemmaksi käyttöönotossa kuin omistusoikeudelliset ohjelmistot. Se on yhdenmukainen Bitcoin:n eetoksen kanssa, jonka mukaan "tieto kaipaa vapautta" Se kokoaa yhteen intohimoisia ihmisiä, jotka muodostavat yhteisön, ja se on yksinkertaisesti hauskempaa. Kuten Bitcoin, FOSS on väistämätön.
 
@@ -122,13 +122,13 @@ BTCPay Server Foundation, jonka ansiosta Alekos ja Bas saivat kirjoittaa tämän
 Tämä on luokkahuoneharjoitus, joten jos osallistut kurssille itse, et voi suorittaa sitä, mutta voit silti käydä tämän harjoituksen läpi. Tämän tehtävän suorittamiseen tarvitaan vähintään 9-11 henkilöä.
 
 
-Harjoitus alkaa BBC:n esittelyn "How Bitcoin and the Blockchain works" katsomisen jälkeen.
+Harjoitus alkaa BBC:n esittelyn "How Bitcoin and the [Blockchain](https://planb.academy/resources/glossary/blockchain) works" katsomisen jälkeen.
 
 
 :::video id=c20b6df7-0c3a-4785-94b9-42ef59093acc:::
 
 
-Tähän harjoitukseen tarvitaan vähintään yhdeksän osallistujaa. Harjoituksen tavoitteena on antaa fyysinen käsitys Bitcoin:n toiminnasta. Pelaamalla kutakin roolia verkossa voitte oppia vuorovaikutteisesti ja leikkimielisesti. Tässä harjoituksessa ei käytetä Lightning Network:ää.
+Tähän harjoitukseen tarvitaan vähintään yhdeksän osallistujaa. Harjoituksen tavoitteena on antaa fyysinen käsitys Bitcoin:n toiminnasta. Pelaamalla kutakin roolia verkossa voitte oppia vuorovaikutteisesti ja leikkimielisesti. Tässä harjoituksessa ei käytetä [Lightning Network](https://planb.academy/resources/glossary/lightning-network):ää.
 
 
 ### Esimerkki: Vaatii 9 / 11 henkilöä
@@ -140,7 +140,7 @@ Roolit ovat:
 
 - 1 asiakas
 - 1 kauppias
-- 7-9 Bitcoin-solmua
+- 7-9 Bitcoin-[solmua](https://planb.academy/resources/glossary/node)
 
 
 **Asetukset ovat seuraavat:**
@@ -192,7 +192,7 @@ Asiakkaat ostavat tuotteen kaupasta Bitcoin:llä.
   - Tapahtuma on allekirjoitettu asianmukaisesti ("avattu" asiakkaan toimesta)
   - Jos näin ei ole, tapahtumaa ei siirretä verkon kautta, ja jos näin on, se siirretään ja pidetään odottamassa.
   - Kauppiaat voivat tarkistaa, että maksutapahtuma on vireillä ja odottaa.
-- Yksi tietokone valitaan "satunnaisesti" ehdottamaan ehdotetun transaktion viimeistelyä lähettämällä sen sisältävä "lohko"; jos se on oikein, se saa BTC-palkkion.
+- Yksi tietokone valitaan "satunnaisesti" ehdottamaan ehdotetun transaktion viimeistelyä lähettämällä sen sisältävä "[lohko](https://planb.academy/resources/glossary/block)"; jos se on oikein, se saa BTC-palkkion.
   - VALINNAINEN/LISÄVALINTAINEN - sen sijaan, että tietokone valitaan satunnaisesti, voidaan simuloida Mining:tä antamalla tietokoneiden heittää noppaa, kunnes jokin ennalta määrätty tulos tulee (esim. valitaan se, joka heittää ensimmäisenä tuplakuutosia)
   - Se voi myös näytellä, mitä tapahtuisi, jos kaksi tietokonetta voittaisi suunnilleen samanaikaisesti, jolloin ketju jakautuisi.
   - Tietokoneet tarkistavat voimassaolon, päivittävät/lisäävät tietueita pääkirjoihinsa, jos säännöt täyttyvät, ja lähettävät transaktiolohkon vertaisverkoille.
@@ -234,15 +234,15 @@ Määrittele seuraavat edellisessä jaksossa esitellyt keskeiset termit:
 
 
 - Solmu
-- Mempool
-- Vaikeusaste Tavoite
+- [Mempool](https://planb.academy/resources/glossary/mempool)
+- [Vaikeusaste](https://planb.academy/resources/glossary/difficulty) Tavoite
 - Lohko
 
 
 **Keskustelkaa ryhmässä joidenkin muiden termien merkityksestä:**
 
 
-Blockchain, transaktio, tuplalaskutus, Bysantin kenraaliongelma, Mining, Proof of Work (PoW), Hash Funktio, Block reward, Blockchain, pisin ketju, 51% hyökkäys, ulostulo, ulostulon lukitus, muutos, Satoshi, julkinen/yksityinen avain, Address, julkisen avaimen salaus, digitaalinen allekirjoitus, Wallet
+Blockchain, transaktio, tuplalaskutus, Bysantin kenraaliongelma, Mining, Proof of Work (PoW), Hash Funktio, Block reward, Blockchain, pisin ketju, 51% hyökkäys, ulostulo, ulostulon lukitus, muutos, [Satoshi](https://planb.academy/resources/glossary/satoshi-sat), julkinen/yksityinen avain, Address, julkisen avaimen salaus, [digitaalinen allekirjoitus](https://planb.academy/resources/glossary/digital-signature), Wallet
 
 
 # BTCPay-palvelimen esittely
@@ -573,7 +573,7 @@ Tässä jaksossa opit:
 ### Mitä Bitcoin-avainten tuottamiseen liittyy?
 
 
-Bitcoin-lompakot luovat luodessaan niin sanotun "seed:n". Viimeisessä tavoitteessa luot "seed", Ennen luotu sanasarja tunnetaan myös nimellä Mnemonic-lauseet. seed:tä käytetään yksittäisten Bitcoin-avainten tuottamiseen ja sitä käytetään Bitcoin:n lähettämiseen tai vastaanottamiseen. seed-lauseita ei saa koskaan jakaa kolmansille osapuolille tai epäluotettaville vertaisille.
+Bitcoin-lompakot luovat luodessaan niin sanotun "[seed](https://planb.academy/resources/glossary/seed):n". Viimeisessä tavoitteessa luot "seed", Ennen luotu sanasarja tunnetaan myös nimellä Mnemonic-lauseet. seed:tä käytetään yksittäisten Bitcoin-avainten tuottamiseen ja sitä käytetään Bitcoin:n lähettämiseen tai vastaanottamiseen. seed-lauseita ei saa koskaan jakaa kolmansille osapuolille tai epäluotettaville vertaisille.
 
 
 seed:n sukupolvi tuotetaan teollisuusstandardin mukaisesti, joka tunnetaan nimellä "hierarkkinen deterministinen" (HD) kehys.
@@ -596,7 +596,7 @@ Address johdetaan julkisesta avaimesta "hashausalgoritmin" avulla Useimmat lompa
 
 
 
-- Osoitteet, jotka alkavat sanoilla `bc1...`, ovat hitaasti siirtymässä hyvin yleisiin osoitteisiin. Näitä kutsutaan (natiiveiksi) SegWit-osoitteiksi. Nämä tarjoavat paremman maksurakenteen kuin muut mainitut osoitteet. Natiivit SegWit-osoitteet käyttävät Bech32-koodausta ja sallivat vain pienet kirjaimet.
+- Osoitteet, jotka alkavat sanoilla `bc1...`, ovat hitaasti siirtymässä hyvin yleisiin osoitteisiin. Näitä kutsutaan (natiiveiksi) [SegWit](https://planb.academy/resources/glossary/segwit)-osoitteiksi. Nämä tarjoavat paremman maksurakenteen kuin muut mainitut osoitteet. Natiivit SegWit-osoitteet käyttävät Bech32-koodausta ja sallivat vain pienet kirjaimet.
 
 
 
@@ -618,7 +618,7 @@ Julkisia avaimia käytetään nykyään käytännössä harvemmin. Bitcoin-käyt
 
 
 
-- HD-lompakoissa käytetään kuitenkin erilaista rakennetta. `xpub...`, `ypub...` tai `zpub...` kutsutaan laajennetuiksi julkisiksi avaimiksi eli xpubs. Näitä avaimia käytetään monien julkisten avainten johtamiseen osana HD Wallet:ää. Koska xpub-avaimesi sisältää koko historiasi eli aiemmat ja tulevat tapahtumat, älä koskaan jaa niitä epäluotettaville osapuolille.
+- HD-lompakoissa käytetään kuitenkin erilaista rakennetta. `xpub...`, `ypub...` tai `zpub...` kutsutaan laajennetuiksi julkisiksi avaimiksi eli [xpubs](https://planb.academy/resources/glossary/xpub). Näitä avaimia käytetään monien julkisten avainten johtamiseen osana HD Wallet:ää. Koska xpub-avaimesi sisältää koko historiasi eli aiemmat ja tulevat tapahtumat, älä koskaan jaa niitä epäluotettaville osapuolille.
 
 
 ### Taitojen yhteenveto
@@ -670,7 +670,7 @@ Hot-lompakot ovat kätevin tapa olla vuorovaikutuksessa Bitcoin:n kanssa mobiili
 Yksityishenkilöt siirtävät Bitcoin:nsä Cold:een Wallet:een, koska se voi eristää yksityiset avaimet internetistä ja suojata niitä siten mahdollisilta verkkouhilta. Internet-yhteyden poistaminen yhtälöstä vähentää haittaohjelmien, vakoiluohjelmien ja SIM-korttien vaihtamisen riskiä. Cold-tallennuksen uskotaan olevan turvallisuudeltaan ja riippumattomuudeltaan parempi kuin Hot-tallennuksen, kunhan Bitcoin:n yksityisten avainten katoamisen estämiseksi on toteutettu riittävät varotoimet. Cold-tallennus soveltuu parhaiten suurille Bitcoin-määrille, joita ei ole tarkoitus käyttää usein Wallet-asetusten monimutkaisuuden vuoksi.
 
 
-Bitcoin-avainten tallentamiseen Cold-varastoon on olemassa erilaisia menetelmiä paperilompakoista aivolompakoihin, laitteistolompakoihin tai alusta alkaen Wallet-tiedostoon. Useimmat lompakot käyttävät BIP 39 generate seed-lauseen BIP 39. Bitcoin core-ohjelmiston sisällä ei kuitenkaan ole vielä päästy yksimielisyyteen sen käytöstä. Bitcoin core-ohjelmisto käyttää edelleen generate Wallet.dat-tiedostoa, joka on tallennettava turvalliseen offline-sijaintiin.
+Bitcoin-avainten tallentamiseen Cold-varastoon on olemassa erilaisia menetelmiä paperilompakoista aivolompakoihin, laitteistolompakoihin tai alusta alkaen Wallet-tiedostoon. Useimmat lompakot käyttävät [BIP](https://planb.academy/resources/glossary/bip) 39 generate seed-lauseen BIP 39. Bitcoin core-ohjelmiston sisällä ei kuitenkaan ole vielä päästy yksimielisyyteen sen käytöstä. Bitcoin core-ohjelmisto käyttää edelleen generate Wallet.dat-tiedostoa, joka on tallennettava turvalliseen offline-sijaintiin.
 
 
 ### Taitojen yhteenveto
@@ -717,7 +717,7 @@ BTCPay Server sisältää seuraavat Wallet:n vakio-ominaisuudet:
 - Tarkista
 - Vedä maksut
 - Maksut
-- PSBT
+- [PSBT](https://planb.academy/resources/glossary/psbt)
 - Yleiset asetukset
 
 
@@ -732,8 +732,8 @@ Järjestelmänvalvojat näkevät tapahtumanäkymässä kyseiseen varastoon liite
 | ---------------- | ------------------------------------------------- |
 | Sovellus         | Maksu vastaanotettiin sovelluksen luoman laskun kautta |
 | Lasku            | Maksu vastaanotettiin laskun kautta               |
-| Payjoin          | Ei maksettu, laskun ajastin ei ole vielä umpeutunut |
-| Payjoin-paljastettu | UTXO paljastettiin laskun payjoin-ehdotuksen kautta |
+| [Payjoin](https://planb.academy/resources/glossary/payjoin)          | Ei maksettu, laskun ajastin ei ole vielä umpeutunut |
+| Payjoin-paljastettu | [UTXO](https://planb.academy/resources/glossary/utxo) paljastettiin laskun payjoin-ehdotuksen kautta |
 | Maksupyyntö      | Maksu vastaanotettiin maksupyynnön kautta         |
 | Maksu            | Maksu lähetettiin maksun tai hyvityksen kautta    |
 

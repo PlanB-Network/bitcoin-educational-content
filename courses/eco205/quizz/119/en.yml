@@ -1,0 +1,8 @@
+question: In Hayek's tin mine example, how do economic players adjust their behavior in the face of rising tin prices?
+answer: They save tin, look for substitutes or innovate to use less, without knowing the cause of the increase
+wrong_answers:
+  - "They first investigate the causes of the increase before modifying their purchasing behavior."
+  - "They are waiting for directives from a central authority to know how to react to this price variation."
+  - "They are immediately increasing their tin consumption to build up preventive stocks"
+explanation: |
+  According to Hayek, the genius of the price system lies in the fact that economic players don't need to know the causes of a price variation in order to react effectively. An increase in the price of tin is enough of a signal to automatically encourage people to save this resource, look for alternatives or innovate. This spontaneous reaction then spreads throughout the economic system without central coordination, demonstrating the effectiveness of the price mechanism as a vector of information.

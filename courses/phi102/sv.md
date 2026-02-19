@@ -1117,7 +1117,7 @@ I den politiska dominansens logik upphör pengar att vara en vara eller tjänst 
 
 
 
-Redan på medeltiden analyserade Nicolas Oresme de skadliga effekterna av penningmanipulation på handeln. Monetära minskningar ger upphov till inflation och destabiliserar priserna, eftersom den monetära signalen blir osäker när den som styr värdemåtten godtyckligt kan ändra deras innehåll. Metallpengar i sig var ofta inte mer än en illusion, med mynt som innehöll lågvärdiga legeringar som vissa liberala skribenter på 1800-talet kallade koppar assignats.
+Redan på medeltiden analyserade Nicolas Oresme de skadliga effekterna av penningmanipulation på handeln. Monetära minskningar ger upphov till [inflation](https://planb.academy/resources/glossary/inflation) och destabiliserar priserna, eftersom den monetära signalen blir osäker när den som styr värdemåtten godtyckligt kan ändra deras innehåll. Metallpengar i sig var ofta inte mer än en illusion, med mynt som innehöll lågvärdiga legeringar som vissa liberala skribenter på 1800-talet kallade koppar assignats.
 
 
 

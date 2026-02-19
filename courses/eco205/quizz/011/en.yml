@@ -1,0 +1,8 @@
+question: What paradox revealed a fundamental flaw in Adam Smith's theory of work value?
+answer: The diamond and water paradox
+wrong_answers:
+  - The paradox of the beaver and the turkey
+  - "The paradox of the computer and work"
+  - "The paradox of scarcity and utility"
+explanation: |
+  Adam Smith's paradox of diamond and water revealed the inadequacy of the labor theory of value. This paradox asked why water, essential to life, generally has a low value, while diamonds command a high price, and why in the desert water becomes more valuable than diamonds. The other options are incorrect: the example of the beaver and the turkey illustrated Ricardo's theory, but was not a problematic paradox for this theory.

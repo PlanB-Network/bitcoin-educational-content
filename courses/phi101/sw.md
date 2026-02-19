@@ -855,7 +855,7 @@ Utafiti wa utaratibu wa sheria za kiuchumi huanza katika Zama za Kati. Wanauchum
 
 ![image](assets/sw/049.webp)
 
-Kiini cha uchambuzi wake wa kifedha ni shida ya "mabadiliko" ya pesa, ambayo ni, mabadiliko katika yaliyomo kwenye metali ya sarafu na madhehebu yao. Mabadiliko haya yametokea tangu alfajiri ya wakati na yameandikwa vyema kwa Zama za Kale na Zama za Kati. Athari yao inayoonekana zaidi ni kubadilisha uwezo wa ununuzi wa kitengo cha fedha, haswa kupunguza. Hii ni aina ya mfumko wa bei ambayo Oresme inalaani waziwazi kama uovu.
+Kiini cha uchambuzi wake wa kifedha ni shida ya "mabadiliko" ya pesa, ambayo ni, mabadiliko katika yaliyomo kwenye metali ya sarafu na madhehebu yao. Mabadiliko haya yametokea tangu alfajiri ya wakati na yameandikwa vyema kwa Zama za Kale na Zama za Kati. Athari yao inayoonekana zaidi ni kubadilisha uwezo wa ununuzi wa kitengo cha fedha, haswa kupunguza. Hii ni aina ya [mfumko wa bei](https://planb.academy/resources/glossary/inflation) ambayo Oresme inalaani waziwazi kama uovu.
 
 Oresme mara moja anaibua swali kuu: je mfumuko wa bei una manufaa kwa jamii? Anajibu kwa hasi, akisema kuwa mfumuko wa bei haufanyi pesa zaidi au chini ya manufaa kwa kubadilishana. Uchumi unaweza kufanya kazi vizuri bila kujali kiwango cha bei, na na hivyo bila kujali kiasi cha fedha kinachotolewa (supply).
 
@@ -1033,7 +1033,7 @@ Sio lazima kuthibitisha kwamba kila mtu ndiye mwamuzi pekee wa matumizi ya manuf
 
 Hapa, Turgot anatarajia kwa kiasi kikubwa hoja ya Mises na Hayek juu ya kutowezekana kwa hesabu yoyote ya kiuchumi katika mfumo wa uchumi wa kijamaa.
 
-Akiweka wakfu sura ya "The Brilliance of Turgot," Murray Rothbard katika historia yake ya kiuchumi kutoka kwa mtazamo wa Austria, anasisitiza kwamba "ushawishi wa Turgot juu ya mawazo ya kiuchumi yaliyofuata ulizuiliwa sana (...) na hadithi ifuatayo kwamba Adam Smith alikuwa mwanzilishi wa uchumi wa kisiasa." Na anaongeza, "ilikuwa kwa Mfaransa J.B. Sema, mfuasi rasmi wa Smith, kwamba Turgot alikuwa na ushawishi mkubwa zaidi, haswa nadharia yake ya thamani ya matumizi."
+Akiweka wakfu sura ya "The Brilliance of Turgot," Murray Rothbard katika historia yake ya kiuchumi kutoka kwa mtazamo wa [Austria](https://planb.academy/resources/glossary/austrian-school), anasisitiza kwamba "ushawishi wa Turgot juu ya mawazo ya kiuchumi yaliyofuata ulizuiliwa sana (...) na hadithi ifuatayo kwamba Adam Smith alikuwa mwanzilishi wa uchumi wa kisiasa." Na anaongeza, "ilikuwa kwa Mfaransa J.B. Sema, mfuasi rasmi wa Smith, kwamba Turgot alikuwa na ushawishi mkubwa zaidi, haswa nadharia yake ya thamani ya matumizi."
 
 ### Kito cha Condillac
 
@@ -1600,7 +1600,7 @@ Kwa Hayek, kuyumba kwa uchumi wa soko huko nyuma kunatokana na ukweli kwamba mdh
 
 ![image](assets/sw/101.webp)
 
-Hayek aliamini kuwa soko huria la sarafu za kibinafsi lingesababisha utulivu mkubwa wa kifedha. Takriban miaka 50 baadaye, sarafu-fiche kama Bitcoin inajumuisha maono ya ushindani ya Hayek kwa kutoa njia mbadala iliyogatuliwa kwa mfumo wa ukiritimba wa benki kuu. Bitcoin, ikiwa na kikomo chake cha utoaji wa vitengo milioni 21, ni dhamana dhidi ya mfumuko wa bei na uholela wa vidhibiti.
+Hayek aliamini kuwa soko huria la sarafu za kibinafsi lingesababisha utulivu mkubwa wa kifedha. Takriban miaka 50 baadaye, [sarafu-fiche](https://planb.academy/resources/glossary/cryptocurrency) kama Bitcoin inajumuisha maono ya ushindani ya Hayek kwa kutoa njia mbadala iliyogatuliwa kwa mfumo wa ukiritimba wa benki kuu. Bitcoin, ikiwa na kikomo chake cha utoaji wa vitengo milioni 21, ni dhamana dhidi ya mfumuko wa bei na uholela wa vidhibiti.
 
 ## Hitimisho: nguvu ya mawazo
 

@@ -65,7 +65,7 @@ Bagaimana jika sejarah moneter terulang kembali di depan mata kita? Anda akan me
 ### Definisi inflasi
 
 
-Inflasi adalah sebuah konsep yang sering disalahpahami karena memiliki banyak definisi dan interpretasi. Persepsi inflasi berbeda-beda di antara berbagai kelompok, seperti para pengguna bitcoin dan ekonom tradisional. Pertama-tama, mari kita perjelas definisi-definisi tersebut sebelum membahas hiperinflasi:
+[Inflasi](https://planb.academy/resources/glossary/inflation) adalah sebuah konsep yang sering disalahpahami karena memiliki banyak definisi dan interpretasi. Persepsi inflasi berbeda-beda di antara berbagai kelompok, seperti para pengguna bitcoin dan ekonom tradisional. Pertama-tama, mari kita perjelas definisi-definisi tersebut sebelum membahas hiperinflasi:
 
 
 
@@ -111,7 +111,7 @@ Metode lainnya adalah dengan mengurangi jumlah logam mulia dalam mata uang yang 
 ![image](assets/id/002.webp)
 
 
-Sangat penting untuk menekankan bahwa hiperinflasi terutama terjadi pada mata uang fiat yang tidak didukung oleh aset yang mendasarinya, seperti logam mulia. Secara historis, ketika sebuah mata uang didasarkan pada aset-aset tersebut, episode inflasi (misalnya, melalui devaluasi kandungan logam) terjadi, tetapi episode ini tidak pernah mencapai tingkat hiperinflasi yang ekstrim. Pada bagian berikut, kita akan mempelajari secara rinci periode devaluasi moneter dan implikasi dari sistem moneter yang berbeda ini terhadap inflasi.
+Sangat penting untuk menekankan bahwa hiperinflasi terutama terjadi pada [mata uang fiat](https://planb.academy/resources/glossary/fiat) yang tidak didukung oleh aset yang mendasarinya, seperti logam mulia. Secara historis, ketika sebuah mata uang didasarkan pada aset-aset tersebut, episode inflasi (misalnya, melalui devaluasi kandungan logam) terjadi, tetapi episode ini tidak pernah mencapai tingkat hiperinflasi yang ekstrim. Pada bagian berikut, kita akan mempelajari secara rinci periode devaluasi moneter dan implikasi dari sistem moneter yang berbeda ini terhadap inflasi.
 
 
 ### Studi tentang Periode Devaluasi Moneter
@@ -1160,7 +1160,7 @@ Fenomena perusahaan zombie tidak hanya terjadi di Jerman pascaperang. Bahkan saa
 #### 6. Cepat kaya!
 
 
-Sejarah mengungkapkan contoh-contoh di mana individu berusaha mengumpulkan kekayaan dengan cepat, seperti yang terjadi di Weimar dan Zimbabwe melalui arbitrase. Saat ini, tren serupa dapat diamati dengan munculnya mata uang kripto tertentu. Orang-orang tergoda oleh keuntungan cepat, mengambil risiko dengan harapan peningkatan eksponensial dalam investasi mereka. Pendekatan ini mengingatkan kita pada apa yang terjadi pada masa hiperinflasi, di mana arbitrase digunakan untuk mendapatkan keuntungan cepat, sering kali dengan mengorbankan orang lain.
+Sejarah mengungkapkan contoh-contoh di mana individu berusaha mengumpulkan kekayaan dengan cepat, seperti yang terjadi di Weimar dan Zimbabwe melalui arbitrase. Saat ini, tren serupa dapat diamati dengan munculnya [mata uang kripto](https://planb.academy/resources/glossary/cryptocurrency) tertentu. Orang-orang tergoda oleh keuntungan cepat, mengambil risiko dengan harapan peningkatan eksponensial dalam investasi mereka. Pendekatan ini mengingatkan kita pada apa yang terjadi pada masa hiperinflasi, di mana arbitrase digunakan untuk mendapatkan keuntungan cepat, sering kali dengan mengorbankan orang lain.
 
 
 ![image](assets/id/052.webp)

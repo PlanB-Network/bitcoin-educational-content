@@ -352,7 +352,7 @@ Postoji nekoliko vrsta trampe:
 
 
 
-Austrijska škola ekonomije tumači ovu evoluciju kao spontano pojavljivanje privilegovanih dobara za razmenu. Školjke, arheološki potvrđene još u mezolitu, ilustruju ovaj fenomen: pronađene daleko od svog geografskog porekla (mediteranske školjke u zapadnoj Francuskoj, nordijske školjke na drugim lokacijama), svedoče o zajedničkom priznavanju njihove razmenljive vrednosti.
+[Austrijska škola ekonomije](https://planb.academy/resources/glossary/austrian-school) tumači ovu evoluciju kao spontano pojavljivanje privilegovanih dobara za razmenu. Školjke, arheološki potvrđene još u mezolitu, ilustruju ovaj fenomen: pronađene daleko od svog geografskog porekla (mediteranske školjke u zapadnoj Francuskoj, nordijske školjke na drugim lokacijama), svedoče o zajedničkom priznavanju njihove razmenljive vrednosti.
 
 
 
@@ -605,7 +605,7 @@ Mezopotamsko iskustvo postavlja trajne presedane za evoluciju finansijskih siste
 
 
 
-Ovaj seminalni period takođe otkriva pitanja moći inherentna u bilo kojoj monetarnoj inovaciji: ko kontroliše tehnologiju, ko definiše pravila i kako se formalni sistemi i popularne prakse artikulišu. Ova fundamentalna pitanja su opstala kroz ekonomsku istoriju, proširujući se na savremene debate o digitalnim valutama i kriptovalutama.
+Ovaj seminalni period takođe otkriva pitanja moći inherentna u bilo kojoj monetarnoj inovaciji: ko kontroliše tehnologiju, ko definiše pravila i kako se formalni sistemi i popularne prakse artikulišu. Ova fundamentalna pitanja su opstala kroz ekonomsku istoriju, proširujući se na savremene debate o digitalnim valutama i [kriptovalutama](https://planb.academy/resources/glossary/cryptocurrency).
 
 
 
@@ -637,7 +637,7 @@ Inke nisu imale monetarni sistem, ali su imale obilje plemenitih metala. Prava p
 > Što je društvo više stratifikovano, i što je njegov sistem planiranja metodičnije efikasan, to je manje potrebna upotreba novca za njegovu populaciju. Ovo može objasniti zašto su španski konkvistadori otkrili da su Meksikanci, čija je vlada bila relativno liberalnija, redovno koristili zlatni prah (čuvan u providnim cevima) i kakao zrna (čuvana za velike isplate u vrećama od 24.000 jedinica) kao valutu, dok su, s druge strane, Inke, organizovane prema mnogo rigidnijoj hijerarhiji, bile bez valute: izuzetak potvrđen strogim pravilom. Poreklo novca u Kini bilo je potpuno nezavisno od drugih civilizacija; međutim, relativna blizina sumerske, egipatske i minojske civilizacije izaziva sumnje u pogledu stepena njihovog međusobnog neznanja o monetarnim praksama, posebno s obzirom na opsežnu trgovinu uspostavljenu još od najranijih vremena.
 
 
-U Kini, novčići su razvijeni sa potpuno drugačijim pristupom u odnosu na zapadne tradicije. To je bio fiat novac od samog početka. Bili su liveni novčići.
+U Kini, novčići su razvijeni sa potpuno drugačijim pristupom u odnosu na zapadne tradicije. To je bio [fiat](https://planb.academy/resources/glossary/fiat) novac od samog početka. Bili su liveni novčići.
 
 
 I ovde, gospodin Dejvis pominje trgovinu. Zaista je bilo razmena između Kineza i drugih populacija u određenim periodima, ali sredstvo razmene za spoljnu trgovinu je bila pre svile. Kao što ćemo kasnije videti, zlato je takođe korišćeno u pograničnim oblastima Kine, gde je kineska populacija bila manja. I to čak ne za međunarodnu trgovinu; za to je bila svila.
@@ -994,7 +994,7 @@ Kineska država koristila je novac kao instrument ekonomske regulacije: u vremen
 
 
 
-Veza se može napraviti ovde sa inflacijom i deflacijom. Sa fiksnom količinom novca, ako produktivnost ekonomije raste, vrednost novca raste. Suprotno tome, ako produktivnost opada, vrednost novca se smanjuje. U ovom primeru, međutim, suprotno je tačno. Verovatno zato što princ nije imao potpun monopol na proizvodnju novca, ali to ipak ukazuje da je vrednost novca bila povezana sa ekonomskim uslovima.
+Veza se može napraviti ovde sa [inflacijom](https://planb.academy/resources/glossary/inflation) i deflacijom. Sa fiksnom količinom novca, ako produktivnost ekonomije raste, vrednost novca raste. Suprotno tome, ako produktivnost opada, vrednost novca se smanjuje. U ovom primeru, međutim, suprotno je tačno. Verovatno zato što princ nije imao potpun monopol na proizvodnju novca, ali to ipak ukazuje da je vrednost novca bila povezana sa ekonomskim uslovima.
 
 
 
@@ -3616,7 +3616,7 @@ Hajde da pređemo na Švedsku, gde je stvorena prva centralna banka.
 
 
 
-**Švedska** je bila pionir u centralnom bankarstvu: 1657. godine, Johan Palmstruch je osnovao **Stockholm Banco**, ovlašćen da pozajmljuje više od svojih metalnih rezervi, čime je označen početak bankarstva sa delimičnim rezervama. Ali prekomerno izdavanje novčanica dovelo je do panike i navale na banku 1663. godine. Pa, pa...
+**Švedska** je bila pionir u centralnom bankarstvu: 1657. godine, Johan Palmstruch je osnovao **Stockholm Banco**, ovlašćen da pozajmljuje više od svojih metalnih rezervi, čime je označen početak bankarstva sa [delimičnim rezervama](https://planb.academy/resources/glossary/fractional-reserves). Ali prekomerno izdavanje novčanica dovelo je do panike i navale na banku 1663. godine. Pa, pa...
 
 
 

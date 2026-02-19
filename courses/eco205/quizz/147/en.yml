@@ -1,0 +1,8 @@
+question: In Austrian business cycle theory, why is the bust phase considered necessary and inevitable after an artificial boom?
+answer: It allows malinvestments to be liquidated and an economic equilibrium based on real time preferences to be restored
+wrong_answers:
+  - "It results from a sudden drop in aggregate demand caused by consumer panic."
+  - "It is caused by the inability of central banks to keep interest rates low enough"
+  - "It stems from an imbalance between supply and demand amplified by excessive speculation."
+explanation: |
+  According to Austrian theory, the bust phase is not an accident but a necessary correction. The artificial boom created by rate manipulation generates malinvestment based on false signals. These unviable projects monopolize scarce resources in unproductive activities. The recession allows us to liquidate these misallocations and free up resources for uses more in line with real consumer preferences, thus restoring the natural economic equilibrium.

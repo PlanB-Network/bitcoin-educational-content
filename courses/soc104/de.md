@@ -826,7 +826,7 @@ Im 20. Jahrhundert haben sich zwei große Trends herausgebildet:
 2.  **Der andere Anarchokapitalist:**, der der Meinung ist, dass staatliche Funktionen privatisiert und vom Markt verwaltet werden sollten.
 
 
-Beide sind sich jedoch über das Grundprinzip der individuellen Souveränität einig. Libertäre Ideen wurden bereits im 18. Jahrhundert von den Physiokraten, insbesondere von Vincent de Gournay und Turgot, vertreten und von Condillac, Jean-Baptiste Say und Frédéric Bastiat weiterentwickelt. Im 20. Jahrhundert wurden sie von der österreichischen Schule der Wirtschaftswissenschaften aufgegriffen und weiterentwickelt, deren wichtigste Autoren Ludwig von Mises, Friedrich Hayek und Murray Rothbard sind.
+Beide sind sich jedoch über das Grundprinzip der individuellen Souveränität einig. Libertäre Ideen wurden bereits im 18. Jahrhundert von den Physiokraten, insbesondere von Vincent de Gournay und Turgot, vertreten und von Condillac, Jean-Baptiste Say und Frédéric Bastiat weiterentwickelt. Im 20. Jahrhundert wurden sie von der [österreichischen Schule der Wirtschaftswissenschaften](https://planb.academy/resources/glossary/austrian-school) aufgegriffen und weiterentwickelt, deren wichtigste Autoren Ludwig von Mises, Friedrich Hayek und Murray Rothbard sind.
 
 
 
@@ -1626,10 +1626,10 @@ Am Ende dieses Kurses halten wir es für wichtig, auf die politische Positionier
 
 
 
-Bitcoin ist eine dezentrale Kryptowährung, die 2008 von Satoshi Nakamoto geschaffen wurde und nicht vertrauenswürdige Peer-to-Peer-Finanztransaktionen ermöglicht.
+Bitcoin ist eine dezentrale [Kryptowährung](https://planb.academy/resources/glossary/cryptocurrency), die 2008 von Satoshi Nakamoto geschaffen wurde und nicht vertrauenswürdige [Peer-to-Peer](https://planb.academy/resources/glossary/peertopeer-p2p)-Finanztransaktionen ermöglicht.
 
 
-Bitcoin wird durch ein Open-Source-Softwareprotokoll kontrolliert, ohne CEO, ohne Hauptsitz, ohne Marketingbudget und ohne benannte Behörde. Das bedeutet, dass keine politische Instanz oder Regierung die Kontrolle über das Unternehmen hat.
+Bitcoin wird durch ein [Open-Source](https://planb.academy/resources/glossary/foss)-Softwareprotokoll kontrolliert, ohne CEO, ohne Hauptsitz, ohne Marketingbudget und ohne benannte Behörde. Das bedeutet, dass keine politische Instanz oder Regierung die Kontrolle über das Unternehmen hat.
 
 
 
@@ -1645,7 +1645,7 @@ Bitcoin selbst ist zwar weder rechts noch links und gehört auch keiner Religion
 
 
 
-Aus dem Satoshi-Nakamoto-Weißbuch geht hervor, dass Bitcoin als innovativer Schutz gegen zwei große zeitgenössische Bedrohungen konzipiert wurde: weit verbreitete Überwachung und die Beschleunigung der künstlichen Geldschöpfung.
+Aus dem Satoshi-Nakamoto-[Weißbuch](https://planb.academy/resources/glossary/white-paper) geht hervor, dass Bitcoin als innovativer Schutz gegen zwei große zeitgenössische Bedrohungen konzipiert wurde: weit verbreitete Überwachung und die Beschleunigung der künstlichen Geldschöpfung.
 
 
 
@@ -1653,7 +1653,7 @@ Aus dem Satoshi-Nakamoto-Weißbuch geht hervor, dass Bitcoin als innovativer Sch
 
 
 
-2. Bitcoin ermöglicht es jedem, seine Ersparnisse vor der Enteignung des Privateigentums zu schützen, die in der Geldinflation zum Ausdruck kommt. Es ist ein Versuch, die Kontrolle des Staates über die Verwaltung des Geldes als Tauschmittel in Frage zu stellen und somit dem Staat Konkurrenz zu machen. Die Finanzkrise von 2008 und die Pandemie Covid 19 haben die Schwachstellen des derzeitigen Systems deutlich gemacht. Die Billionen von Dollar, die aus dem Nichts gedruckt wurden, um einen weiteren Zusammenbruch der Wirtschaft zu verhindern, hatten verheerende Auswirkungen, für die wir immer noch bezahlen.
+2. Bitcoin ermöglicht es jedem, seine Ersparnisse vor der Enteignung des Privateigentums zu schützen, die in der [Geldinflation](https://planb.academy/resources/glossary/inflation) zum Ausdruck kommt. Es ist ein Versuch, die Kontrolle des Staates über die Verwaltung des Geldes als Tauschmittel in Frage zu stellen und somit dem Staat Konkurrenz zu machen. Die Finanzkrise von 2008 und die Pandemie Covid 19 haben die Schwachstellen des derzeitigen Systems deutlich gemacht. Die Billionen von Dollar, die aus dem Nichts gedruckt wurden, um einen weiteren Zusammenbruch der Wirtschaft zu verhindern, hatten verheerende Auswirkungen, für die wir immer noch bezahlen.
 
 
 
@@ -1681,7 +1681,7 @@ Der Ausgangspunkt des intellektuellen Ansatzes von Satoshi Nakamoto ist daher da
 
 
 
-Die Aufnahme dieses Titels in den Entstehungsblock ist interpretationsbedürftig. Er könnte jedoch als Kommentar von Satoshi zum Versagen der traditionellen Finanzinstitute und als Erklärung des Ziels von Bitcoin erscheinen: eine Alternative zu zentralisierten Bankensystemen anzubieten.
+Die Aufnahme dieses Titels in den [Entstehungsblock](https://planb.academy/resources/glossary/genesis-block) ist interpretationsbedürftig. Er könnte jedoch als Kommentar von Satoshi zum Versagen der traditionellen Finanzinstitute und als Erklärung des Ziels von Bitcoin erscheinen: eine Alternative zu zentralisierten Bankensystemen anzubieten.
 
 
 
@@ -1725,7 +1725,7 @@ In diesem Sinne wird sie von einer moralischen und politischen Weltanschauung be
 
 
 
-Aber Bitcoin ist nicht aus dem Nichts aufgetaucht. Es basiert auf Fortschritten in der Mathematik, Physik, Informatik und Philosophie. Satoshi Nakamoto, obwohl brillant, baute auf den Ideen anderer Innovatoren auf. Darunter auch die Pioniere der Cypherpunk-Bewegung.
+Aber Bitcoin ist nicht aus dem Nichts aufgetaucht. Es basiert auf Fortschritten in der Mathematik, Physik, Informatik und Philosophie. Satoshi Nakamoto, obwohl brillant, baute auf den Ideen anderer Innovatoren auf. Darunter auch die Pioniere der [Cypherpunk](https://planb.academy/resources/glossary/cypherpunks)-Bewegung.
 
 
 
@@ -1772,7 +1772,7 @@ Und er fügt hinzu:
 
 > die Vertraulichkeit in einer offenen Gesellschaft erfordert anonyme Transaktionssysteme. Bislang war Bargeld das wichtigste System dieser Art.
 
-Aus diesem Grund wird die Kryptographie als Mittel des Widerstands gegen alle Formen staatlicher und unternehmerischer Kontrolle eingesetzt. Sie stellt sicher, dass jede an einer Transaktion beteiligte Partei nur das weiß, was für diese Transaktion unbedingt erforderlich ist.
+Aus diesem Grund wird die [Kryptographie](https://planb.academy/resources/glossary/cryptography) als Mittel des Widerstands gegen alle Formen staatlicher und unternehmerischer Kontrolle eingesetzt. Sie stellt sicher, dass jede an einer Transaktion beteiligte Partei nur das weiß, was für diese Transaktion unbedingt erforderlich ist.
 
 
 

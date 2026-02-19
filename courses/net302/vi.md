@@ -90,8 +90,6 @@ Bạn đã sẵn sàng khám phá thế giới mạng máy tính chưa? Bắt đ
 **LƯU Ý**: Các mô tả được dựa trên hệ thống GNU/Linux CentOS 7. Tuy nhiên, cấu hình mạng phần lớn giống nhau khi so sánh Debian với hệ thống CentOS. Vì vậy, chúng tôi sẽ không phân biệt. Nếu có, chúng tôi sẽ thêm một logo cụ thể vào trước.
 
 
-**Lưu ý**: Nếu bạn gặp bất kỳ thuật ngữ nào không quen thuộc trong suốt khóa học, vui lòng tham khảo [thuật ngữ](https://planb.academy/resources/glossary) để biết định nghĩa.
-
 
 
 # Giao thức TCP/IP

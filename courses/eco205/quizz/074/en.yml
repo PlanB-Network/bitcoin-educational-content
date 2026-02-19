@@ -1,0 +1,8 @@
+question: According to Mises and Hayek, what is the fundamental characteristic that distinguishes their vision of the market from the neoclassical approach?
+answer: The market is a dynamic process in constant evolution, rather than a static state of equilibrium
+wrong_answers:
+  - "The market reaches equilibrium more quickly thanks to better information for players"
+  - The market requires central regulation to efficiently coordinate individual exchanges
+  - The market operates according to perfectly rational trade-offs based on complete information
+explanation: |
+  The Austrian vision of Mises and Hayek conceives of the market as a dynamic, uncertain and subjective process, in contrast to the neoclassical approach, which models it as tending towards a static equilibrium. For the Austrians, the market does not seek to reach a point of perfect equilibrium, but is a mechanism for the continuous coordination of individual actions based on dispersed and imperfect knowledge. This processual conception explains why no central authority can effectively direct this complex system.

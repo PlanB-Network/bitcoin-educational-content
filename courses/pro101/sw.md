@@ -53,7 +53,7 @@ _Unbanked Population_
 
 ### Bitcoin: Uhuru wa Kifedha na Athari Zake kwa El Salvador
 
-Mhadhara huu, **"Kwa Nini El Salvador Inahitaji Bitcoin,"** unatoa muhtasari wa **protocol ya Bitcoin**, roots yake katika harakati za **Cypherpunk**, na jukumu lake kama chombo cha uhuru-kuwezesha **fedha ambazo hazijadhibitiwa**, **ujumuisho wa kifedha**, na mengi zaidi.
+Mhadhara huu, **"Kwa Nini El Salvador Inahitaji Bitcoin,"** unatoa muhtasari wa **protocol ya Bitcoin**, roots yake katika harakati za **[Cypherpunk](https://planb.academy/resources/glossary/cypherpunks)**, na jukumu lake kama chombo cha uhuru-kuwezesha **fedha ambazo hazijadhibitiwa**, **ujumuisho wa kifedha**, na mengi zaidi.
 
 **Ufafanuzi:**
 
@@ -68,9 +68,9 @@ Safari ya Rikki katika Bitcoin inatokana na kazi yake kama mtetezi wa haki za bi
 
 ### Umuhimu wa Kimataifa na Changamoto za Bitcoin
 
-Bitcoin ni zaidi ya sarafu ya kidijitali. Ni chombo cha kulinda faragha na kuhakikisha uhuru wa kifedha. Kwa kutumia **funguo za faragha**, ambazo huwa kama nenosiri kuu, watumiaji wanaweza kudhibiti Bitcoin yao kwa usalama, wakiwa na udhibiti kamili wa fedha zao.
+Bitcoin ni zaidi ya sarafu ya kidijitali. Ni chombo cha kulinda faragha na kuhakikisha uhuru wa kifedha. Kwa kutumia **[funguo za faragha](https://planb.academy/resources/glossary/private-key)**, ambazo huwa kama nenosiri kuu, watumiaji wanaweza kudhibiti Bitcoin yao kwa usalama, wakiwa na udhibiti kamili wa fedha zao.
 
-Katika tawala za kimabavu, ambapo ukandamizaji wa kifedha ni jambo la kawaida, asili isiyoweza kudhibitiwa ya Bitcoin huwaruhusu watu kufanya miamala bila hofu ya pesa zao kufungiwa au kunyang’anywa. Asili yake ya open-source inahimiza ushiriki wa kimataifa, na kukuza jumuiya inayoendelea kuboresha mtandao.
+Katika tawala za kimabavu, ambapo ukandamizaji wa kifedha ni jambo la kawaida, asili isiyoweza kudhibitiwa ya Bitcoin huwaruhusu watu kufanya [miamala](https://planb.academy/resources/glossary/transaction-tx) bila hofu ya pesa zao kufungiwa au kunyang’anywa. Asili yake ya [open-source](https://planb.academy/resources/glossary/foss) inahimiza ushiriki wa kimataifa, na kukuza jumuiya inayoendelea kuboresha mtandao.
 
 ![Image](assets/en/1/4.webp)
 
@@ -97,7 +97,7 @@ Kwa muhtasari, Bitcoin ina ahadi kubwa ya uwezeshaji wa kifedha na ushirikishwaj
 
 #### Mwendo wa Cypherpunk
 
-**Harakati za Cypherpunk** ziliibuka mwishoni mwa karne ya 20, zikitetea ufaragha na uhuru kupitia cryptography. Waanzilishi kama vile **Eric Hughes** na **Tim May** waliamini kuwa usimbaji fiche thabiti ni muhimu ili kulinda uhuru wa kibinafsi katika ulimwengu wa kidijitali. Mawazo yao yaliathiri sana uundaji wa Bitcoin.
+**Harakati za Cypherpunk** ziliibuka mwishoni mwa karne ya 20, zikitetea ufaragha na uhuru kupitia [cryptography](https://planb.academy/resources/glossary/cryptography). Waanzilishi kama vile **Eric Hughes** na **Tim May** waliamini kuwa usimbaji fiche thabiti ni muhimu ili kulinda uhuru wa kibinafsi katika ulimwengu wa kidijitali. Mawazo yao yaliathiri sana uundaji wa Bitcoin.
 
 **Ufafanuzi:**
 
@@ -105,7 +105,7 @@ Kwa muhtasari, Bitcoin ina ahadi kubwa ya uwezeshaji wa kifedha na ushirikishwaj
 - _Cypherpunk:_ Harakati ya kukuza faragha na uhuru kwa kutumia cryptography.
 #### Uchumi wa Austria
 
-Wakati huo huo, **Uchumi wa Austria** ulitoa msingi wa kanuni za fedha za Bitcoin. Wanauchumi kama vile **Ludwig von Mises** na **Friedrich Hayek** walisema kwamba pesa zinazofaa zinapaswa kuwa chache, zidumu, na hazina nzuri ya thamani—kanuni kuu ambazo zilibadilisha muundo wa Bitcoin.
+Wakati huo huo, **[Uchumi wa Austria](https://planb.academy/resources/glossary/austrian-school)** ulitoa msingi wa kanuni za fedha za Bitcoin. Wanauchumi kama vile **Ludwig von Mises** na **Friedrich Hayek** walisema kwamba pesa zinazofaa zinapaswa kuwa chache, zidumu, na hazina nzuri ya thamani—kanuni kuu ambazo zilibadilisha muundo wa Bitcoin.
 
 **Ufafanuzi:**
 
@@ -158,7 +158,7 @@ Asante kwa kujihusisha na nyenzo hii!
 
 :::video id=2c008198-7f4e-4e60-87a0-0af17528ad2f:::
 
-Katika mhadhara wa kwanza wa kozi ya 'How Bitcoin', tulianza kuchunguza msururu wa teknolojia ambayo inasimamia mtandao wa Bitcoin. Tulishughulikia mada kama vile **Hashcash**, **shughuli**, **Blockchain**, **Lightning Network**, na vipengele vingine muhimu vya Protocol ya Bitcoin.
+Katika mhadhara wa kwanza wa kozi ya 'How Bitcoin', tulianza kuchunguza msururu wa teknolojia ambayo inasimamia mtandao wa Bitcoin. Tulishughulikia mada kama vile **Hashcash**, **shughuli**, **[Blockchain](https://planb.academy/resources/glossary/blockchain)**, **[Lightning Network](https://planb.academy/resources/glossary/lightning-network)**, na vipengele vingine muhimu vya Protocol ya Bitcoin.
 
 ### Rafu ya Kiteknolojia ya Bitcoin Sehemu ya 2
 
@@ -168,11 +168,11 @@ Wakati wa mhadhara wa pili wa 'Jinsi Bitcoin', tulifanya uchunguzi wa kina zaidi
 
 ### Muundo wa Bitcoin
 
-Asili za Bitcoin zinatokana na ubunifu kadhaa muhimu, kuanzia **Hashcash ya Adam Back**, mfumo wa Proof-of-Work (PoW) ulioundwa ili kuzuia barua taka za barua pepe na mashambulizi ya kunyimwa huduma kwa kuwahitaji watumaji kukamilisha kazi za kukokotoa. Dhana hii ya PoW ikawa msingi wa usalama wa Bitcoin.
+Asili za Bitcoin zinatokana na ubunifu kadhaa muhimu, kuanzia **Hashcash ya Adam Back**, mfumo wa [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) (PoW) ulioundwa ili kuzuia barua taka za barua pepe na mashambulizi ya kunyimwa huduma kwa kuwahitaji watumaji kukamilisha kazi za kukokotoa. Dhana hii ya PoW ikawa msingi wa usalama wa Bitcoin.
 
-Bitcoin inategemea **digital signatures** kwa kutumia **elliptic curve cryptography** ili kulinda na kuthibitisha miamala. **Algorithm ya Sahihi Dijiti ya Elliptic Curve (ECDSA)** huhakikisha kuwa ni mmiliki halali wa Bitcoin pekee ndiye anayeweza kuidhinisha miamala bila kufichua funguo zao za faragha.
+Bitcoin inategemea **[digital signatures](https://planb.academy/resources/glossary/digital-signature)** kwa kutumia **elliptic curve cryptography** ili kulinda na kuthibitisha miamala. **Algorithm ya Sahihi Dijiti ya Elliptic Curve ([ECDSA](https://planb.academy/resources/glossary/ecdsa))** huhakikisha kuwa ni mmiliki halali wa Bitcoin pekee ndiye anayeweza kuidhinisha miamala bila kufichua funguo zao za faragha.
 
-**Satoshi Nakamoto**, muundaji wa jina bandia la Bitcoin, alipanua mawazo haya kwa kubadilisha muundo wa PoW hadi **Blockchain** uliogatuliwa. Hii iliruhusu mtandao uliosambazwa wa node kuthibitisha na kurekodi miamala bila mamlaka kuu, kuashiria mabadiliko makubwa kutoka kwa majaribio ya awali ya sarafu ya digitali.
+**Satoshi Nakamoto**, muundaji wa jina bandia la Bitcoin, alipanua mawazo haya kwa kubadilisha muundo wa PoW hadi **Blockchain** uliogatuliwa. Hii iliruhusu mtandao uliosambazwa wa [node](https://planb.academy/resources/glossary/node) kuthibitisha na kurekodi miamala bila mamlaka kuu, kuashiria mabadiliko makubwa kutoka kwa majaribio ya awali ya sarafu ya digitali.
 
 **Ufafanuzi:**
 
@@ -181,13 +181,13 @@ Bitcoin inategemea **digital signatures** kwa kutumia **elliptic curve cryptogra
 - _Elliptic Curve Cryptography:_ Mbinu ya  cryptography inayowezesha sahihi, sahihi za kidijitali.
 ### Mitambo ya Blockchain na Uthibitishaji wa Muamala
 
-Malipo ya Bitcoin yanathibitishwa na kuongezwa kwenye blocks na **miners**, wanaoshindana kutatua fumbo la siri kwa kutumia algoriti ya Proof-of-Work. Hii inahusisha kutafuta Hash yenye nambari maalum ya sufuri zinazoongoza kwa kurekebisha thamani ya **Nonce** ​​hadi Hash sahihi igunduliwe.
+Malipo ya Bitcoin yanathibitishwa na kuongezwa kwenye [blocks](https://planb.academy/resources/glossary/block) na **miners**, wanaoshindana kutatua fumbo la siri kwa kutumia algoriti ya Proof-of-Work. Hii inahusisha kutafuta [Hash](https://planb.academy/resources/glossary/hash-function) yenye nambari maalum ya sufuri zinazoongoza kwa kurekebisha thamani ya **[Nonce](https://planb.academy/resources/glossary/nonce)** ​​hadi Hash sahihi igunduliwe.
 
-Kila **block** katika Blockchain ina kichwa **** (yenye data kama vile Hash ya block ya awali) na orodha ya miamala. Sehemu ya kwanza, inayojulikana kama **Genesis Block**, ni ya kipekee kwa sababu haina mtangulizi.
+Kila **block** katika Blockchain ina [kichwa](https://planb.academy/resources/glossary/block-header) **** (yenye data kama vile Hash ya block ya awali) na orodha ya miamala. Sehemu ya kwanza, inayojulikana kama **[Genesis Block](https://planb.academy/resources/glossary/genesis-block)**, ni ya kipekee kwa sababu haina mtangulizi.
 
 ![Image](assets/en/1/6.webp)
 
-Kabla ya muamala kujumuishwa kwenye block, wanakaa katika **Mempool**, ambapo wanangojea uthibitisho. Baada ya kuthibitishwa, shughuli hizi huongezwa kwenye block mpya cha kuminiwa na kisha kwa Blockchain.
+Kabla ya muamala kujumuishwa kwenye block, wanakaa katika **[Mempool](https://planb.academy/resources/glossary/mempool)**, ambapo wanangojea uthibitisho. Baada ya kuthibitishwa, shughuli hizi huongezwa kwenye block mpya cha kuminiwa na kisha kwa Blockchain.
 
 **Ufafanuzi:**
 
@@ -197,11 +197,11 @@ Kabla ya muamala kujumuishwa kwenye block, wanakaa katika **Mempool**, ambapo wa
 - _Mempool:_ Eneo la kungojea miamala ambayo haijathibitishwa kabla ya kuongezwa kwenye block.
 ### Scalability, Faragha, na Maendeleo katika Bitcoin
 
-Bitcoin inakabiliwa na changamoto zinazohusiana na hatari na faragha. Uwezo mdogo wa muamala wa Blockchain hufanya iwe vigumu kushughulikia viwango vya juu vya muamala. Suluhu kama vile **Lightning Network** Address changamoto hizi kwa kuwezesha miamala ya off-chain kupitia njia za malipo, ambayo huongeza kasi na faragha.
+Bitcoin inakabiliwa na changamoto zinazohusiana na hatari na faragha. Uwezo mdogo wa muamala wa Blockchain hufanya iwe vigumu kushughulikia viwango vya juu vya muamala. Suluhu kama vile **Lightning Network** Address changamoto hizi kwa kuwezesha miamala ya off-chain kupitia [njia za malipo](https://planb.academy/resources/glossary/payment-channel), ambayo huongeza kasi na faragha.
 
-Kuendesha **full node** ni muhimu ili kuhakikisha ugatuaji na usalama, lakini **Simplified Payment Verification (SPV) nodes** huruhusu ushiriki mwepesi kwa gharama ya usalama fulani.
+Kuendesha **[full node](https://planb.academy/resources/glossary/full-node)** ni muhimu ili kuhakikisha ugatuaji na usalama, lakini **Simplified Payment Verification (SPV) nodes** huruhusu ushiriki mwepesi kwa gharama ya usalama fulani.
 
-Maendeleo ya Bitcoin yamebadilika ili kuboresha utendaji na usalama. Maboresho makubwa yanajumuisha **Segregated Witness (SegWit (SegWit)**, ambayo hushughulikia kutoweza kuharibika kwa miamala na kuongeza ukubwa unaofaa wa block, na **Taproot**, ambayo huboresha faragha na kuruhusu kandarasi ngumu zaidi kwa kutumia **Merkleized Abstract Syntax Trees (MAST)**.
+Maendeleo ya Bitcoin yamebadilika ili kuboresha utendaji na usalama. Maboresho makubwa yanajumuisha **Segregated Witness ([SegWit (SegWit)](https://planb.academy/resources/glossary/segwit)**, ambayo hushughulikia kutoweza kuharibika kwa miamala na kuongeza ukubwa unaofaa wa block, na **[Taproot](https://planb.academy/resources/glossary/taproot)**, ambayo huboresha faragha na kuruhusu kandarasi ngumu zaidi kwa kutumia **Merkleized Abstract Syntax Trees (MAST)**.
 
 **Ufafanuzi:**
 
@@ -221,7 +221,7 @@ Muundo wa Bitcoin na mageuzi yanayoendelea yanaonyesha uvumbuzi na uwezo wa kuba
 
 :::video id=c5e2e575-fa9d-4430-805f-205c2cf6f2a5:::
 
-Katika mhadhara huu, tunakanusha hadithi za kawaida zinazozunguka **Bitcoin**, **blockchains**, na **cryptocurrencies**. Hebu tuweke dhana potofu za Address kuhusu matumizi ya nishati ya Bitcoin, matumizi ya uhalifu, na "FUD" pana (hofu, kutokuwa na uhakika, shaka) kuenea kwa teknolojia hii.
+Katika mhadhara huu, tunakanusha hadithi za kawaida zinazozunguka **Bitcoin**, **blockchains**, na **[cryptocurrencies](https://planb.academy/resources/glossary/cryptocurrency)**. Hebu tuweke dhana potofu za Address kuhusu matumizi ya nishati ya Bitcoin, matumizi ya uhalifu, na "FUD" pana (hofu, kutokuwa na uhakika, shaka) kuenea kwa teknolojia hii.
 
 ### Bitcoin dhidi ya Blockchain
 
@@ -234,7 +234,7 @@ Dhana potofu ya mara kwa mara ni kwamba **Bitcoin** na **Blockchain** ni sawa. I
 - _lightning network:_ Suluhisho la pili la Layer linaloboresha ufanisi wa muamala wa Bitcoin kwa kuwezesha miamala ya off-chain.
 ### Bitcoin dhidi ya Crypto
 
-Tofauti nyingine kuu ni kwamba **Bitcoin** iliundwa kwa madhumuni ya pekee ya kutoa aina ya pesa iliyogawanywa, inayostahimili udhibiti, isiyodhibitiwa na kampuni au serikali yoyote. Kinyume chake, fedha za siri **shitcoins** mara nyingi huundwa kwa udhibiti wa kati, Unaopatikana kimsingi ili kutajirisha kampuni zilizo nyuma yao kupitia mbinu za unyang’anyi, miradi ya kusukuma na kutupa, au ulaghai wa moja kwa moja. Tokeni hizi kwa kawaida hazina matumizi ya kweli zaidi ya kuwapatia watayarishi wao faida ya haraka kwa gharama ya wawekezaji wasio na taarifa. Bitcoin, hata hivyo, inasimama peke yake kama sarafu pekee ya kidijitali iliyogatuliwa kwa kweli, ikiwa na rekodi iliyothibitishwa ya usalama na uthabiti.
+Tofauti nyingine kuu ni kwamba **Bitcoin** iliundwa kwa madhumuni ya pekee ya kutoa aina ya pesa iliyogawanywa, inayostahimili udhibiti, isiyodhibitiwa na kampuni au serikali yoyote. Kinyume chake, fedha za siri **[shitcoins](https://planb.academy/resources/glossary/shitcoin)** mara nyingi huundwa kwa udhibiti wa kati, Unaopatikana kimsingi ili kutajirisha kampuni zilizo nyuma yao kupitia mbinu za unyang’anyi, miradi ya kusukuma na kutupa, au ulaghai wa moja kwa moja. Tokeni hizi kwa kawaida hazina matumizi ya kweli zaidi ya kuwapatia watayarishi wao faida ya haraka kwa gharama ya wawekezaji wasio na taarifa. Bitcoin, hata hivyo, inasimama peke yake kama sarafu pekee ya kidijitali iliyogatuliwa kwa kweli, ikiwa na rekodi iliyothibitishwa ya usalama na uthabiti.
 
 **Ufafanuzi:**
 
@@ -244,7 +244,7 @@ Tofauti nyingine kuu ni kwamba **Bitcoin** iliundwa kwa madhumuni ya pekee ya ku
 
 ### Matumizi ya Nishati na Athari kwa Mazingira
 
-Mojawapo ya ukosoaji wa kawaida wa Bitcoin ni **matumizi yake ya nishati**. Ingawa mining wa Bitcoin hautumii nishati, unachukua chini ya 1% ya matumizi ya umeme ulimwenguni na chini ya 3% ya nishati inayopotea. Zaidi ya hayo, **mining wa Bitcoin** mara nyingi huingia kwenye vyanzo vya nishati visivyotumika au vinavyoweza kurejeshwa, na kuifanya kuwa ya kijani zaidi kuliko inavyoonyeshwa mara nyingi.
+Mojawapo ya ukosoaji wa kawaida wa Bitcoin ni **matumizi yake ya nishati**. Ingawa [mining wa Bitcoin](https://planb.academy/resources/glossary/mining) hautumii nishati, unachukua chini ya 1% ya matumizi ya umeme ulimwenguni na chini ya 3% ya nishati inayopotea. Zaidi ya hayo, **mining wa Bitcoin** mara nyingi huingia kwenye vyanzo vya nishati visivyotumika au vinavyoweza kurejeshwa, na kuifanya kuwa ya kijani zaidi kuliko inavyoonyeshwa mara nyingi.
 
 **Ufafanuzi:**
 
@@ -256,7 +256,7 @@ Bitcoin mara nyingi inakosolewa kwa kutumika katika shughuli za uhalifu. Hata hi
 
 ### Faragha na Uwazi
 
-**Faragha** na **uwezekano wa kueleweka** ni vipengele muhimu vya Bitcoin. Faragha hulinda watumiaji katika mifumo dhalimu, na uwezekano wa kueleweka huhakikisha kwamba kila Bitcoin ni sawa, bila kujali historia yake. Hii inafanya Bitcoin kuwa aina ya pesa ya kuaminika na ya haki.
+**Faragha** na **[uwezekano wa kueleweka](https://planb.academy/resources/glossary/fungibility)** ni vipengele muhimu vya Bitcoin. Faragha hulinda watumiaji katika mifumo dhalimu, na uwezekano wa kueleweka huhakikisha kwamba kila Bitcoin ni sawa, bila kujali historia yake. Hii inafanya Bitcoin kuwa aina ya pesa ya kuaminika na ya haki.
 
 **Ufafanuzi:**
 
@@ -286,13 +286,13 @@ Katika hotuba ya kwanza ya moduli ya 4, tulichunguza usanifu wa Bitcoin na usaki
 
 **1. Muhtasari wa utangulizi**
 
-Karibu tena! Katika kipindi kilichopita, tulishughulikia dhana za kimsingi nyuma ya usanifu wa Bitcoin, ikijumuisha misingi yake ya   cryptography na muundo wa mtandao wa peer-to-peer. Leo, tutahama kutoka kwa nadharia hadi kufanya mazoezi kwa kuonyesha jinsi ya kusakinisha na kusanidi node ya Bitcoin.
+Karibu tena! Katika kipindi kilichopita, tulishughulikia dhana za kimsingi nyuma ya usanifu wa Bitcoin, ikijumuisha misingi yake ya   cryptography na muundo wa mtandao wa [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p). Leo, tutahama kutoka kwa nadharia hadi kufanya mazoezi kwa kuonyesha jinsi ya kusakinisha na kusanidi node ya Bitcoin.
 
 **2. Muhtasari wa Vitendo wa Kikao**
 
 Katika kipindi hiki, Alekos atatutembeza katika mchakato wa kusanidi node ya Bitcoin kwa kutumia mashine pepe. Mafunzo haya ya vitendo yameundwa ili kukufahamisha na hatua zinazohusika katika kusanidi node yako ili kushiriki katika mtandao wa Bitcoin.
 
-Uendeshaji wa node ya Bitcoin inahusisha kuthibitisha miamala na blocks, kutekeleza sheria za makubaliano, na kusaidia ugatuaji wa mtandao. Kuweka node huhakikisha kuwa una muunganisho wa moja kwa moja kwenye mtandao wa Bitcoin, huku kuruhusu kuchangia usalama na uadilifu wake.
+Uendeshaji wa node ya Bitcoin inahusisha kuthibitisha miamala na blocks, kutekeleza sheria za [makubaliano](https://planb.academy/resources/glossary/consensus), na kusaidia ugatuaji wa mtandao. Kuweka node huhakikisha kuwa una muunganisho wa moja kwa moja kwenye mtandao wa Bitcoin, huku kuruhusu kuchangia usalama na uadilifu wake.
 
 Katika mhadhara huu, utapata mwongozo wa kusakinisha na kuendesha Bitcoin Core yako mwenyewe, jifunze jinsi ya kupogoa Blockchain ili kuokoa nafasi, na anza kufanya majaribio ya programu. Alekos atakuongoza hatua kwa hatua kupitia mchakato huu wa kusisimua.
 
@@ -641,7 +641,7 @@ Ili kusanidi Specter, unahitaji kuiunganisha kwenye server ya Bitcoin Core au El
 
 **Kuelezea Njia za Utoaji na Urejeshaji wa Ufunguo wa Umma**
 
-Kuelewa njia za utokaji ni muhimu kwa usimamizi wa wallet. Njia za utokezi hufafanua jinsi funguo zinatolewa kutoka kwa ufunguo mkuu. Katika Specter, unaweza kupata funguo za umma kwa kuunganisha Hardware Wallet (au emulator) yako na kupitia Wallet Interface. Hakikisha umeandika njia hizi kwa marejeleo ya baadaye.
+Kuelewa njia za utokaji ni muhimu kwa usimamizi wa wallet. Njia za utokezi hufafanua jinsi funguo zinatolewa kutoka kwa ufunguo mkuu. Katika Specter, unaweza kupata [funguo za umma](https://planb.academy/resources/glossary/public-key) kwa kuunganisha Hardware Wallet (au emulator) yako na kupitia Wallet Interface. Hakikisha umeandika njia hizi kwa marejeleo ya baadaye.
 
 **Onyesho la Kivitendo: Kutumia Kiigaji cha Ledger**
 
@@ -745,7 +745,7 @@ Juhudi za kuimarisha utumiaji wa Bitcoin mara nyingi huja kwa gharama ya usalama
 
 #### uwezo wa kupanua na Biashara ya Faragha
 
-Ubora na faragha mara nyingi hutofautiana katika mtandao wa Bitcoin. uboresho ambao unaboresha upanuzi, kama vile UTXO kubwa zaidi au ufiche uliopunguzwa wa cryptography, kwa ujumla hupunguza faragha. Kinyume chake, mbinu zinazolenga faragha kama vile sahihi za pete za Monero huongeza kutokujulikana kwa mtumiaji lakini huathiri vibaya uboreshaji. Zaidi ya hayo, kuanzishwa kwa mikataba ya serikali, kama inavyoonekana katika Ethereum, kunatoa unyumbufu ulioongezeka kwa gharama ya kupunguzwa kwa usalama na hatari. Kusawazisha biashara hizi ni changamoto changamano inayohitaji kuzingatiwa kwa kina.
+Ubora na faragha mara nyingi hutofautiana katika mtandao wa Bitcoin. uboresho ambao unaboresha upanuzi, kama vile [UTXO](https://planb.academy/resources/glossary/utxo) kubwa zaidi au ufiche uliopunguzwa wa cryptography, kwa ujumla hupunguza faragha. Kinyume chake, mbinu zinazolenga faragha kama vile sahihi za pete za Monero huongeza kutokujulikana kwa mtumiaji lakini huathiri vibaya uboreshaji. Zaidi ya hayo, kuanzishwa kwa mikataba ya serikali, kama inavyoonekana katika Ethereum, kunatoa unyumbufu ulioongezeka kwa gharama ya kupunguzwa kwa usalama na hatari. Kusawazisha biashara hizi ni changamoto changamano inayohitaji kuzingatiwa kwa kina.
 
 ### Mbinu za Faragha
 
@@ -837,7 +837,7 @@ Ili kulinda uchaguzi, kwa mfano, uangalizi usio na upendeleo au ufuatiliaji wa v
 
 #### Uthibitishaji wa Amini
 
-Uthibitishaji wa uaminifu unaweza kuonyeshwa kwa uthibitishaji wa PGP (Faragha Nzuri Sana). Kwa kuthibitisha alama za vidole na sahihi za funguo za PGP, watumiaji wanaweza kuthibitisha uhalisi wa vitambulisho vya kidijitali. Mbinu sawia ni muhimu katika kuthibitisha uadilifu wa programu kupitia ulinganishaji wa Hash (k.m., SHA-256).
+Uthibitishaji wa uaminifu unaweza kuonyeshwa kwa uthibitishaji wa PGP (Faragha Nzuri Sana). Kwa kuthibitisha alama za vidole na sahihi za funguo za PGP, watumiaji wanaweza kuthibitisha uhalisi wa vitambulisho vya kidijitali. Mbinu sawia ni muhimu katika kuthibitisha uadilifu wa programu kupitia ulinganishaji wa Hash (k.m., [SHA-256](https://planb.academy/resources/glossary/sha256)).
 
 #### Kuanzisha Njia za Kuaminiana
 
@@ -845,7 +845,7 @@ Kujenga uaminifu si mara moja; inahitaji kuunganisha njia nyingi za uaminifu na 
 
 #### Motisha kwa Usalama
 
-Kuelewa jukumu la motisha ni muhimu katika kudumisha usalama. Kwa mfano, modeli ya usalama ya Bitcoin inategemea motisha ya miners na uthibitishaji wa washiriki wa mtandao, inayoangazia umuhimu wa motisha za kiuchumi katika kulinda mifumo ikolojia ya dijitali.
+Kuelewa jukumu la motisha ni muhimu katika kudumisha usalama. Kwa mfano, modeli ya usalama ya Bitcoin inategemea motisha ya [miners](https://planb.academy/resources/glossary/miner) na uthibitishaji wa washiriki wa mtandao, inayoangazia umuhimu wa motisha za kiuchumi katika kulinda mifumo ikolojia ya dijitali.
 
 #### Kulinda wallet za Bitcoin
 
@@ -953,7 +953,7 @@ Katika sehemu hii, tutachunguza matumizi ya dhana hizi katika maendeleo ya ulimw
 
 **Athari za Usalama**: Mifano ya kihistoria inaonyesha hasara kubwa za kifedha kutokana na kutumia tena Nonce. Kuelewa umuhimu wa kutengeneza nonces za kipekee ni muhimu. Kutumia maktaba zinazoaminika kama LibSecP256k1 huhakikisha utendakazi thabiti na salama wa   cryptography.
 
-**Elliptic Curve Cryptography(ECC)**: Mipangilio ya sahihi imebadilika kutoka protocols za utambulisho hadi mifumo kama vile sahihi za Schnorr, zinazotumika sasa katika Bitcoin (BIP 340). Ujuzi wa mikondo ya duaradufu na hesabu ya uga yenye kikomo huhakikisha utekelezaji salama wa cryptography.
+**Elliptic Curve Cryptography(ECC)**: Mipangilio ya sahihi imebadilika kutoka protocols za utambulisho hadi mifumo kama vile sahihi za [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol), zinazotumika sasa katika Bitcoin ([BIP](https://planb.academy/resources/glossary/bip) 340). Ujuzi wa mikondo ya duaradufu na hesabu ya uga yenye kikomo huhakikisha utekelezaji salama wa cryptography.
 
 **Ushauri wa Jumla kwa Wasanidi**: protocol za cryptography lazima zipitiwe na ukaguzi wa kina wa marafiki. Wasanidi lazima wawe sahihi na waelewe kikamilifu kila hatua ya taratibu za cryptography. Ufahamu wa hitilafu za kawaida katika utekelezaji wa cryptography unaweza kuzuia udhaifu mkubwa.
 
@@ -1061,7 +1061,7 @@ Utata wa mining katika muktadha wa Bitcoin unahusisha hasa kiufundi na kimkakati
 
 4. **Bei ya BTC**: Bei ya BTC ni muhimu ili kuamua faida za mining.
 
-5. **Ugumu wa mtandao**: Ugumu wa mtandao unawakilisha kiasi cha Hashrate kwa wastani kinachohitajika kuchimba block ndani ya dakika 10.
+5. **[Ugumu](https://planb.academy/resources/glossary/difficulty) wa mtandao**: Ugumu wa mtandao unawakilisha kiasi cha Hashrate kwa wastani kinachohitajika kuchimba block ndani ya dakika 10.
 
 6. **Zana za Kimkakati**: Zana kama vile [braiins.com](https://insights.braiins.com) ni muhimu sana kwa kukokotoa faida na kuwasaidia miners kufanya maamuzi yanayotokana na data.
 
@@ -1442,7 +1442,7 @@ Ongeza madai ili kuthibitisha kwamba hakuna bytes zilizobaki bila kugawanywa baa
 
 #### Kesi Maalum kama miamala za Coinbase
 
-Miamala ya Coinbase, ambayo ni shughuli ya kwanza katika block inayotumiwa kudai Block reward, ina sifa za kipekee. Tunahitaji kushughulikia kesi hizi maalum ipasavyo.
+Miamala ya [Coinbase](https://planb.academy/resources/glossary/coinbase-transaction), ambayo ni shughuli ya kwanza katika block inayotumiwa kudai Block reward, ina sifa za kipekee. Tunahitaji kushughulikia kesi hizi maalum ipasavyo.
 
 ```Rust
 struct OutPoint {
@@ -1900,7 +1900,7 @@ Kuhusu changamoto hii, Manny Rosenfeld alipendekeza dhana ya hops kuu mwaka 2012
 
 ### Hashed Time Lock Contract (HTLC) na Utekelezaji
 
-Mapungufu na vikwazo vya humle wa kati viliitaka suluhu iliyo salama zaidi na iliyogatuliwa. Hitaji hili lilisababisha kutengenezwa kwa Njia ya Hashed Time-Lock Contract (HTLC), iliyopendekezwa mwaka wa 2015 na Joseph Poon na Thaddeus Dreijer kama sehemu ya Lightning Network. HTLC huchanganya kanuni za kufuli za saa na kufuli za Hash ili kuhakikisha atomiki na uaminifu katika miamala. Hii ina maana kwamba muamala unakamilika kikamilifu au haufanyiki kabisa, hivyo basi kupunguza hatari zinazohusiana na malipo yasiyokamilika.
+Mapungufu na vikwazo vya humle wa kati viliitaka suluhu iliyo salama zaidi na iliyogatuliwa. Hitaji hili lilisababisha kutengenezwa kwa Njia ya Hashed Time-Lock Contract ([HTLC](https://planb.academy/resources/glossary/htlc)), iliyopendekezwa mwaka wa 2015 na Joseph Poon na Thaddeus Dreijer kama sehemu ya Lightning Network. HTLC huchanganya kanuni za kufuli za saa na kufuli za Hash ili kuhakikisha atomiki na uaminifu katika miamala. Hii ina maana kwamba muamala unakamilika kikamilifu au haufanyiki kabisa, hivyo basi kupunguza hatari zinazohusiana na malipo yasiyokamilika.
 
 Mtiririko wa kazi wa HTLC unahusisha mchakato wa hatua nyingi unaohakikisha uelekezaji salama kupitia wapatanishi wengi. Tuseme Alice anataka kumlipa Eric kupitia waamuzi Bob, Carol, na Diana. Kila hatua katika mchakato inahusisha kuunda miamala ya kujitolea na kupunguza kufuli za muda na kiasi. Ikiwa ni lazima, hatua ya mwisho inaweza kutangazwa kwa mtandao wa Bitcoin ili kukamilisha shughuli.
 
@@ -1962,7 +1962,7 @@ Kimsingi, Lightning Network inakamilisha mtandao wa Bitcoin kwa kushughulikia ma
 
 ### **Vipimo vya Lightning Network**
 
-Protocol ya Lightning Network inafafanuliwa kwa uangalifu kupitia BOLT 10 (Basis of Lightning Technology). BOLT hizi zilikubaliwa wakati wa mkutano huko Milan na hutumika kama msingi wa utekelezaji mbalimbali wa Lightning Network.
+Protocol ya Lightning Network inafafanuliwa kwa uangalifu kupitia [BOLT](https://planb.academy/resources/glossary/bolt) 10 (Basis of Lightning Technology). BOLT hizi zilikubaliwa wakati wa mkutano huko Milan na hutumika kama msingi wa utekelezaji mbalimbali wa Lightning Network.
 
 ![bolt](assets/en/4/6.webp)_BOLT Diagram _
 
@@ -2014,7 +2014,7 @@ Malipo hufanywa kwa kutumia Onion Routing, ambayo inahusisha kuunda pakiti ziliz
 
 ### Muundo wa Invoice
 
-Invoice za Lightning Network (Bolt 11) zimesimbwa katika Bech32 na zinajumuisha maelezo kama vile malipo ya Hash, maelezo na mwisho wa matumizi. Kila Address ya ununuzi lazima itumike mara moja ili kuzuia matatizo ya kutumia tena.
+[Invoice](https://planb.academy/resources/glossary/invoice-lightning) za Lightning Network (Bolt 11) zimesimbwa katika Bech32 na zinajumuisha maelezo kama vile malipo ya Hash, maelezo na mwisho wa matumizi. Kila Address ya ununuzi lazima itumike mara moja ili kuzuia matatizo ya kutumia tena.
 
 ![Invoice structure](assets/en/4/8.webp)_BOLT11 Invoice_
 
@@ -2495,4 +2495,4 @@ Upanuzi na ujumuishaji wa malipo ya Lightning kupitia Protocol mbalimbali na kes
 
 :::video id=b89f2064-f2e1-49c3-97d0-580891eee1dd:::
 
-Adam Gibson anatoa maarifa kuhusu Joinmarket, akieleza kwa kina jinsi utekelezaji huu wa CoinJoin unavyoboresha faragha na usalama wa Bitcoin. Anajadili jinsi Joinmarket inavyowezesha miamala ya ushirikiano, isiyo na haja ya kuamini mtu (trustless), na isiyojulikana ndani ya mfumo ikolojia wa Bitcoin. Kisha, katika sehemu ya pili, anaonyesha jinsi ya kuendesha Joinmarket kwenye Signet.
+Adam Gibson anatoa maarifa kuhusu Joinmarket, akieleza kwa kina jinsi utekelezaji huu wa [CoinJoin](https://planb.academy/resources/glossary/coinjoin) unavyoboresha faragha na usalama wa Bitcoin. Anajadili jinsi Joinmarket inavyowezesha miamala ya ushirikiano, isiyo na haja ya kuamini mtu (trustless), na isiyojulikana ndani ya mfumo ikolojia wa Bitcoin. Kisha, katika sehemu ya pili, anaonyesha jinsi ya kuendesha Joinmarket kwenye Signet.

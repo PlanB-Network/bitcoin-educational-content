@@ -70,8 +70,6 @@ By the end of this course, you'll have all the practical tools you need to confi
 
 Ready to begin your journey into the world of Bitcoin? Let's go!
 
-**N.B.**: If you come across any unfamiliar terms during the course, please consult [the glossary](https://planb.academy/resources/glossary) for definitions.
-
 # Prerequisites for understanding Bitcoin
 
 <partId>4481fc4b-0f83-489e-ad07-81517c5d6bad</partId>
@@ -90,7 +88,7 @@ Before going any further, it's important to clearly distinguish between two fund
 
 - **The Bitcoin ecosystem** is centered around the idea of sound money, built on strong decentralization, long-term resilience, privacy, and individual sovereignty. Since its launch in 2009, Bitcoin has operated reliably and securely, supported by a global, committed community of developers. It is not a passing trend, but a stable and well-established protocol designed to preserve value over time.
 
-- **The cryptocurrency industry**, on the other hand, is much bigger and includes tens of thousands of different projects, each with its own token. This space is often driven by fast innovation, hype, and short-term financial speculation. Many of these projects are centralized, less secure, and don't offer much real value—despite bold promises and flashy marketing.
+- **The [cryptocurrency](https://planb.academy/resources/glossary/cryptocurrency) industry**, on the other hand, is much bigger and includes tens of thousands of different projects, each with its own token. This space is often driven by fast innovation, hype, and short-term financial speculation. Many of these projects are centralized, less secure, and don't offer much real value—despite bold promises and flashy marketing.
 
 ![image](assets/en/005.webp)
 
@@ -121,7 +119,7 @@ These scams usually feature:
 
 Ultimately, all pyramid and Ponzi schemes are doomed to fail. Their fundamental weakness lies in the constant need to bring in new investors to pay returns to earlier participants. This need becomes mathematically impossible to sustain over time because the number of new recruits required increases exponentially as the system grows. Once a critical point is reached, participants start to doubt, trust disappears, and the entire pyramid collapses. At this stage, the last people to join, often the least informed, lose their entire investment with no way to recover it, while the organizers or early investors have typically already withdrawn their funds and left the system.
 
-In the cryptocurrency world, Ponzi schemes can take many forms, often designed to conceal their fraudulent nature behind a technological or financial mask. These scams can appear as new token offerings or Initial Coin Offerings (ICOs), which are fundraising operations where a new cryptocurrency is sold to the public. Behind technical terms like "blockchain," "smart contracts," or "staking," some projects are actually hiding complex pyramid schemes. Others claim to offer high returns by combining questionable crypto-assets with compensation systems that rely entirely on the continuous influx of new investors.
+In the cryptocurrency world, Ponzi schemes can take many forms, often designed to conceal their fraudulent nature behind a technological or financial mask. These scams can appear as new token offerings or Initial Coin Offerings (ICOs), which are fundraising operations where a new cryptocurrency is sold to the public. Behind technical terms like "[blockchain](https://planb.academy/resources/glossary/blockchain)," "smart contracts," or "staking," some projects are actually hiding complex pyramid schemes. Others claim to offer high returns by combining questionable crypto-assets with compensation systems that rely entirely on the continuous influx of new investors.
 
 More recently, Ponzi schemes have also spread into the world of Decentralized Finance (DeFi). While DeFi is intended to provide financial services without intermediaries, some projects use it to lend a false sense of legitimacy to their scams. Certain DeFi platforms promise high, guaranteed returns in exchange for cryptocurrency deposits into automated protocols. These attractive promises are often backed by opaque and unverifiable mechanisms, with tokens created specifically for the scam. In reality, these systems have no sustainable business model—the returns are simply paid from the funds of new users, just like a traditional Ponzi scheme. When trust starts to erode or the influx of new participants slows down, these systems inevitably collapse, leading to significant losses for unsuspecting investors.
 
@@ -175,7 +173,7 @@ Centralized crypto-currency projects sometimes offer free tokens ("*airdrops*") 
 
 Attackers often use fake websites, social media accounts, or deceptive emails to try and steal your funds. These scams can come through any communication channel: email, social networks, phone calls, or even traditional mail...
 
-Before clicking on a link or taking any action, always double-check the sender's identity. When in doubt, visit the website manually instead of using a provided link. Most importantly, never share your private keys or passwords with anyone.
+Before clicking on a link or taking any action, always double-check the sender's identity. When in doubt, visit the website manually instead of using a provided link. Most importantly, never share your [private keys](https://planb.academy/resources/glossary/private-key) or passwords with anyone.
 
 #### Bitcoin Hardforks
 
@@ -385,7 +383,7 @@ In this chapter, I'll share some practical advice and general guidance for anyon
 
 Here are the key points that we will go over together:
 
-- Beware of **Shitcoins** and other useless cryptocurrencies;
+- Beware of **[Shitcoins](https://planb.academy/resources/glossary/shitcoin)** and other useless cryptocurrencies;
 - Only invest **money you can afford to lose**;
 - Know the difference between **trading** and **investing**;
 - Be aware of the **tax implications** of your investments;
@@ -427,7 +425,7 @@ Approaching it this way ensures that you're not putting your financial well-bein
 
 ![image](assets/en/023.webp)
 
-Once your budget is defined, think about how you want to invest. One of the most beginner-friendly and widely recommended methods is [Dollar Cost Averaging (DCA)](https://planb.academy/resources/glossary/dollar-cost-averaging-dca), buying a fixed amount of bitcoin at regular intervals (weekly, monthly, etc.). This strategy helps smooth out your average entry price over time and reduces the emotional impact of price swings. It's a smart approach for most people, especially newcomers.
+Once your budget is defined, think about how you want to invest. One of the most beginner-friendly and widely recommended methods is Dollar Cost Averaging (DCA), buying a fixed amount of bitcoin at regular intervals (weekly, monthly, etc.). This strategy helps smooth out your average entry price over time and reduces the emotional impact of price swings. It's a smart approach for most people, especially newcomers.
 
 Then, ask yourself: What's my time horizon?
 Are you looking to make quick moves in and out of the market (trading)? Or are you more aligned with the long-term mindset of holding Bitcoin over several years (hodler)? If you're a hodler, you're probably less concerned with daily price swings and more focused on long-term security and self-custody. If you're trading, you'll be more exposed to short-term market noise, higher risk, and the stress that often comes with rapid decision-making. There's no one-size-fits-all answer, but knowing your own approach will help guide your decisions.
@@ -449,7 +447,7 @@ Above all, never invest more than you can afford to lose. Avoid borrowing money 
 
 ### Managing and securing your Bitcoin wallet
 
-One of Bitcoin's most powerful (and often underestimated) features is **[self-custody](https://planb.academy/resources/glossary/selfcustody)**. With a self-hosted wallet, you alone are responsible for your funds. These wallets are typically generated from a **recovery phrase** (also known as a [seed phrase](https://planb.academy/resources/glossary/seed)), a series of 12 or 24 words that grants full access to your BTC. If you lose this phrase (or if someone else gets hold of it) your bitcoins are gone for good. **No customer support. No reset button.**
+One of Bitcoin's most powerful (and often underestimated) features is **self-custody**. With a self-hosted wallet, you alone are responsible for your funds. These wallets are typically generated from a **recovery phrase** (also known as a seed phrase), a series of 12 or 24 words that grants full access to your BTC. If you lose this phrase (or if someone else gets hold of it) your bitcoins are gone for good. **No customer support. No reset button.**
 
 ![image](assets/en/025.webp)
 
@@ -565,15 +563,15 @@ Over the years, Bitcoin has gained recognition as a global monetary network. It'
 
 #### Cypherpunks and the invention of a system beyond banking control
 
-Bitcoin wasn't born overnight. Its the result of decades of research and experimentation in cryptography, computer science, and monetary theory. Prior to its launch in 2009, several projects (like eCash, b-money, Bit Gold, and RPOW) attempted to create digital currencies. All faced the same core issue: how to prevent double spending in a decentralized system without relying on a central authority.
+Bitcoin wasn't born overnight. Its the result of decades of research and experimentation in [cryptography](https://planb.academy/resources/glossary/cryptography), computer science, and monetary theory. Prior to its launch in 2009, several projects (like eCash, b-money, Bit Gold, and RPOW) attempted to create digital currencies. All faced the same core issue: how to prevent double spending in a decentralized system without relying on a central authority.
 
-That challenge remained unsolved until late 2008, when someone using the name Satoshi Nakamoto published the Bitcoin white paper. A few months later, the first version of Bitcoin's open-source software went live, launching a system that could operate independently of banks or governments.
+That challenge remained unsolved until late 2008, when someone using the name Satoshi Nakamoto published the Bitcoin [white paper](https://planb.academy/resources/glossary/white-paper). A few months later, the first version of Bitcoin's [open-source](https://planb.academy/resources/glossary/foss) software went live, launching a system that could operate independently of banks or governments.
 
-The project was heavily influenced by the Cypherpunk ethos; a community of developers and thinkers who believed in using cryptography to protect individual freedoms online. For them, privacy and decentralization weren't technical preferences, but ideological necessities. Bitcoin emerged as the most successful embodiment of those ideals: a peer-to-peer monetary network that anyone could use, no one could control, and everyone could verify.
+The project was heavily influenced by the Cypherpunk ethos; a community of developers and thinkers who believed in using cryptography to protect individual freedoms online. For them, privacy and decentralization weren't technical preferences, but ideological necessities. Bitcoin emerged as the most successful embodiment of those ideals: a [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) monetary network that anyone could use, no one could control, and everyone could verify.
 
 ![image](assets/en/030.webp)
 
-The Cypherpunks are an informal, international community of individuals who advocate for the use of cryptography to defend personal freedoms online. They strongly believe in the individual's right to privacy; especially in a world increasingly shaped by government surveillance and corporate data exploitation.
+The [Cypherpunks](https://planb.academy/resources/glossary/cypherpunks) are an informal, international community of individuals who advocate for the use of cryptography to defend personal freedoms online. They strongly believe in the individual's right to privacy; especially in a world increasingly shaped by government surveillance and corporate data exploitation.
 
 The roots of the Cypherpunk movement go back to the early 1990s, when groups of cryptographers, programmers, and libertarians began exploring the political implications of cryptography during meetups in Silicon Valley. One of the most prominent voices in the community was Tim May, who authored the Crypto Anarchist Manifesto in 1988; a foundational text outlining a vision for a world where encryption would empower individuals to operate beyond the reach of governments and centralized control.
 A major milestone in the movement came in 1992 with the creation of the Cypherpunks mailing list, a forum where ideas, projects, and political discussions about privacy and cryptography could flourish. Then, in 1993, Eric Hughes published the Cypherpunk's Manifesto, a brief but powerful declaration that clearly expressed the community's mission and beliefs.
@@ -586,7 +584,7 @@ The idea of a digital currency that operates independently of any central author
 
 Bitcoin didn't just appear out of nowhere. It was created at a very specific moment—right after the global financial crisis of 2008. The collapse of the U.S. housing market and the subprime loan crisis caused major banks to fail and shook people's trust in the entire financial system.
 
-It was in this environment of fear and uncertainty that Bitcoin was born. The creator, known as Satoshi Nakamoto, included a very symbolic message in the very first block of the Bitcoin blockchain, known as the Genesis block. The message was:
+It was in this environment of fear and uncertainty that Bitcoin was born. The creator, known as Satoshi Nakamoto, included a very symbolic message in the very first block of the Bitcoin blockchain, known as the [Genesis block](https://planb.academy/resources/glossary/genesis-block). The message was:
 
 >**"The Times 03/Jan/2009 Chancellor on brink of second bailout for banks"**
 
@@ -606,11 +604,11 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 #### Peer-to-peer and no central body
 
-Bitcoin is defined as a "peer-to-peer electronic cash system." This means that anyone can connect to the network using the appropriate software (a Bitcoin node) and interact directly with other users, without relying on a central server. The goal of this decentralization is to prevent any single entity (such as a bank, government, or large corporation) from controlling, censoring, or halting the system. Bitcoin operates 24/7, globally, and is accessible to everyone without any conditions.
+Bitcoin is defined as a "peer-to-peer electronic cash system." This means that anyone can connect to the network using the appropriate software (a Bitcoin [node](https://planb.academy/resources/glossary/node)) and interact directly with other users, without relying on a central server. The goal of this decentralization is to prevent any single entity (such as a bank, government, or large corporation) from controlling, censoring, or halting the system. Bitcoin operates 24/7, globally, and is accessible to everyone without any conditions.
 
 ![image](assets/en/034.webp)
 
-In simple terms, every participant in the Bitcoin network (called a "node") has a full copy of the transaction ledger, known as the blockchain. When a new transaction happens, it's broadcast to the network. Miners then confirm these transactions by grouping them into blocks which are then added to the end of the chain (hence the name "Blockchain").
+In simple terms, every participant in the Bitcoin network (called a "node") has a full copy of the transaction ledger, known as the blockchain. When a new transaction happens, it's broadcast to the network. [Miners](https://planb.academy/resources/glossary/miner) then confirm these transactions by grouping them into blocks which are then added to the end of the chain (hence the name "Blockchain").
 
 ![image](assets/en/035.webp)
 
@@ -624,7 +622,7 @@ Think of the blockchain as a giant accounting ledger, where every line represent
 
 #### How Blocks Are Created: Mining
 
-Mining is the process by which computers (or large mining farms) contribute **computational power** to secure Bitcoin's transaction history and create new blocks. Miners compete to solve a mathematical puzzle—specifically, finding a partial hash collision. This process requires significant energy and resources. Once a miner finds a valid solution, they broadcast the block to the network, which verifies and accepts it as valid.
+[Mining](https://planb.academy/resources/glossary/mining) is the process by which computers (or large mining farms) contribute **computational power** to secure Bitcoin's transaction history and create new blocks. Miners compete to solve a mathematical puzzle—specifically, finding a partial hash collision. This process requires significant energy and resources. Once a miner finds a valid solution, they broadcast the block to the network, which verifies and accepts it as valid.
 As a reward, the miner receives newly created bitcoins (called the block subsidy) along with the transaction fees from all transactions included in that block.
 
 #### The Halving: Decreasing Block Subsidy
@@ -638,10 +636,10 @@ Eventually, around the year 2140, the subsidy will reach zero, as Bitcoin's tota
 
 #### Scarcity and a Fixed Monetary Policy
 
-One of Bitcoin's most powerful features is its *predictable and unchangeable monetary policy*. Unlike traditional fiat currencies (like the dollar, euro, or yen), which can be printed at will by central banks (often leading to inflation or economic distortions) Bitcoin operates under a transparent set of rules embedded in its code.
+One of Bitcoin's most powerful features is its *predictable and unchangeable monetary policy*. Unlike traditional fiat currencies (like the dollar, euro, or yen), which can be printed at will by central banks (often leading to [inflation](https://planb.academy/resources/glossary/inflation) or economic distortions) Bitcoin operates under a transparent set of rules embedded in its code.
 There will only ever be 21 million bitcoins, and the rate at which new coins are issued is known in advance by everyone in the network.
 
-No government, institution, or individual can unilaterally change this supply cap or the distribution rules. The only way to alter these parameters would be to change Bitcoin's protocol; and even that would require consensus from a majority of the network's economic participants.
+No government, institution, or individual can unilaterally change this supply cap or the distribution rules. The only way to alter these parameters would be to change Bitcoin's protocol; and even that would require [consensus](https://planb.academy/resources/glossary/consensus) from a majority of the network's economic participants.
 
 This built-in scarcity is a major draw for those looking to opt out of unpredictable monetary policies or avoid the gradual erosion of their purchasing power through inflation. Over time, this could represent a shift in financial thinking, where saving in a deflationary asset like Bitcoin becomes more attractive than relying on traditional, inflation-prone currencies.
 
@@ -690,7 +688,7 @@ This characteristic is especially appealing to those who fear censorship or the 
 
 Bitcoin can be seen as a "Zero to One": a radical break with established financial paradigms. For the first time in history, a global monetary network, accessible to all, operates without a central authority, enabling censorship-resistant and private transactions.
 
-Nevertheless, after more than a decade of existence, Bitcoin continues to spark debates and passions. Its adoption is growing, second-layer solutions (like the [Lightning Network](https://planb.academy/resources/glossary/lightning-network)) are emerging to improve transaction speed and lower fees, and businesses worldwide are experimenting with new use cases. It is likely that Bitcoin will continue to influence payment systems and even the way we perceive money for decades to come.
+Nevertheless, after more than a decade of existence, Bitcoin continues to spark debates and passions. Its adoption is growing, second-layer solutions (like the Lightning Network) are emerging to improve transaction speed and lower fees, and businesses worldwide are experimenting with new use cases. It is likely that Bitcoin will continue to influence payment systems and even the way we perceive money for decades to come.
 
 ![image](assets/en/040.webp)
 
@@ -822,7 +820,7 @@ Bitcoiners come from all walks of life, yet they share a common vision: a world 
 - **Cypherpunks**, who champion privacy and resist surveillance;
 - **Oppressed citizens**, seeking refuge from authoritarian regimes and capital controls;
 - **Anarchists**, who view Bitcoin as a tool for liberation from state control;
-- **Austrian economists**, advocating for sound money and freedom from government manipulation;
+- **[Austrian economists](https://planb.academy/resources/glossary/austrian-school)**, advocating for sound money and freedom from government manipulation;
 - **Engineers, financiers, and free speech advocates**, who recognize the profound societal implications of this new monetary paradigm.
 
 ![image](assets/en/051.webp)
@@ -957,7 +955,7 @@ Exchanges play a critical role in the Bitcoin ecosystem, acting as bridges betwe
 - an option for automatic recurring purchases (ARP);
 - easy, free withdrawal of bitcoins to a personal wallet.
 
-Exchanges that comply with local regulations typically have to follow strict **"[Know Your Customer](https://planb.academy/resources/glossary/kyc-know-your-customer)"** (KYC) protocols, requiring users to provide identification documents before accessing services. While these processes are designed to prevent illegal activity, they can compromise the privacy that Bitcoin inherently offers.
+Exchanges that comply with local regulations typically have to follow strict **"Know Your Customer"** (KYC) protocols, requiring users to provide identification documents before accessing services. While these processes are designed to prevent illegal activity, they can compromise the privacy that Bitcoin inherently offers.
 
 ![image](assets/en/058.webp)
 
@@ -1037,7 +1035,7 @@ Each type of wallet offers a different balance of:
 
 The Bitcoin wallet industry is divided into several categories, each catering to different needs and levels of technical expertise:
 
-- **[Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet) Manufacturers**: These companies develop physical devices designed for secure key storage. Some are open-source, while others offer proprietary solutions with varying features and levels of security. Notable names include Ledger, Trezor, Coinkite, Foundation, and Shiftcrypto.
+- **Hardware Wallet Manufacturers**: These companies develop physical devices designed for secure key storage. Some are open-source, while others offer proprietary solutions with varying features and levels of security. Notable names include Ledger, Trezor, Coinkite, Foundation, and Shiftcrypto.
 - **Software Wallet Developers**: These range from companies to independent developers creating mobile and desktop applications. Their offerings vary in user experience, security, and features. Examples include Sparrow, Wizard Sardine, Galoy, Synonym, and Blockstream.
 - **DIY (*Do It Yourself*) Wallets**:These open-source solutions are designed for advanced users who want full control and minimal reliance on third parties. Building your own wallet reduces trust dependencies and can increase your security posture. Notable DIY options include Seedsigner and Specter DIY.
 
@@ -1045,7 +1043,7 @@ Wallets play a fundamental role in Bitcoin and will be explored in more depth la
 
 #### Bitcoin Mining
 
-Mining is a core function of the Bitcoin network. It ensures the system's security and keeps the blockchain operational. Miners validate transactions and secure the network by performing energy-intensive computations known as Proof of Work. Each newly mined block adds a batch of transactions to the blockchain and releases new bitcoins according to the protocol's issuance schedule.
+Mining is a core function of the Bitcoin network. It ensures the system's security and keeps the blockchain operational. Miners validate transactions and secure the network by performing energy-intensive computations known as [Proof of Work](https://planb.academy/resources/glossary/proof-of-work). Each newly mined block adds a batch of transactions to the blockchain and releases new bitcoins according to the protocol's issuance schedule.
 
 In Bitcoin's early days, mining could be done from a personal computer. Today, it's a competitive, global industry dominated by companies with substantial financial and technical resources. The quest for cheap energy sources has become a key focus, as miners aim to optimize operational costs and profitability. Mining operations now range from massive industrial facilities to small-scale setups running in homes or garages..
 
@@ -1069,7 +1067,7 @@ Bitcoin development can be understood through a few distinct groups of contribut
 - **Developers of Layered protocols**,This group works on technologies that build on top of Bitcoin, like the Lightning Network or RGB, aiming to extend Bitcoin's capabilities without changing its core.
 - **Independent developers**, These developers focus on creating tools and applications to improve the user experience, such as Mempool.space (a visual interface for tracking transaction activity) or Alby (tools for using Lightning payments in browsers and apps).
 
-Anyone can propose changes to Bitcoin Core, but the process is intentionally rigorous. New ideas often take years to refine and require deep technical understanding, broad community engagement, and multiple layers of review. Proposals are typically submitted in the form of **Bitcoin Improvement Proposals (BIPs)**;some of which never make it into the protocol.
+Anyone can propose changes to Bitcoin Core, but the process is intentionally rigorous. New ideas often take years to refine and require deep technical understanding, broad community engagement, and multiple layers of review. Proposals are typically submitted in the form of **Bitcoin Improvement Proposals ([BIPs](https://planb.academy/resources/glossary/bip))**;some of which never make it into the protocol.
 Innovation is welcome, but only when it's backed by solid reasoning, community consensus, and careful testing.
 
 ![image](assets/en/059.webp)
@@ -1099,7 +1097,7 @@ Among the main overlay systems enriching the Bitcoin ecosystem are:
 
 - **Lightning Network**:
 
-The Lightning Network, created by Thaddeus Dryja and Joseph Poon in 2016, is a second-layer solution designed to enable instant and low-cost payments. Two users can open a private channel where they can transact with the balance only being updated on the blockchain when the channel is opened or closed. Transactions within the channel occur off-chain, which means they don't need to be recorded individually on the Bitcoin blockchain. This structure enables instantaneous transactions and minimal fees, making it ideal for low-value transactions that require quick confirmation.
+The Lightning Network, created by Thaddeus Dryja and Joseph Poon in 2016, is a second-layer solution designed to enable instant and low-cost payments. Two users can open a private [channel](https://planb.academy/resources/glossary/payment-channel) where they can transact with the balance only being updated on the blockchain when the channel is opened or closed. Transactions within the channel occur off-chain, which means they don't need to be recorded individually on the Bitcoin blockchain. This structure enables instantaneous transactions and minimal fees, making it ideal for low-value transactions that require quick confirmation.
 
 ![image](assets/en/061.webp)
 
@@ -1125,7 +1123,7 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 RGB is a decentralized and privacy-focused smart contract system designed to work on top of Bitcoin and the Lightning Network. Unlike traditional smart contract platforms, RGB uses a client-side validation model (meaning that the full contract state is stored off-chain, and only cryptographic commitments are published to the Bitcoin blockchain). This design improves both scalability and privacy. With RGB, users can create advanced smart contracts for issuing tokens, NFTs, decentralized identities, or even DeFi applications, directly on Bitcoin or Lightning.
 
-A key feature of RGB is its protection against double-spending, achieved using a cryptographic technique called Single-use Seals. This mechanism relies on the fact that Bitcoin's UTXOs (Unspent Transaction Outputs) can only be spent once. The authenticity of tokens is ensured by the user-side validation of the contract's entire history (from its creation to its current state).
+A key feature of RGB is its protection against double-spending, achieved using a cryptographic technique called Single-use Seals. This mechanism relies on the fact that Bitcoin's [UTXOs](https://planb.academy/resources/glossary/utxo) (Unspent Transaction Outputs) can only be spent once. The authenticity of tokens is ensured by the user-side validation of the contract's entire history (from its creation to its current state).
 
 ![image](assets/en/062.webp)
 
@@ -1143,7 +1141,7 @@ This layered design stands in contrast to much of the broader crypto industry, w
 
 ### Merchant Tools for Accepting Bitcoin
 
-Today, there are plenty of tools available for merchants who want to accept Bitcoin as a form of payment. For small businesses looking for a simple setup, using a [hot wallet](https://planb.academy/resources/glossary/hot-wallet--software-wallet) (or even a Lightning wallet) is often enough to start accepting payments directly. Larger businesses that require proper accounting and reporting will usually prefer more advanced payment processing systems. Fortunately, there are several options available depending on your needs.
+Today, there are plenty of tools available for merchants who want to accept Bitcoin as a form of payment. For small businesses looking for a simple setup, using a hot wallet (or even a Lightning wallet) is often enough to start accepting payments directly. Larger businesses that require proper accounting and reporting will usually prefer more advanced payment processing systems. Fortunately, there are several options available depending on your needs.
 
 If you prefer a hands-off solution and want to receive fiat currency directly into your bank account, custodial services like OpenNode offer a streamlined experience:
 
@@ -1605,7 +1603,7 @@ A few best practices:
 - Stay informed on Bitcoin developments, but avoid media hype, especially during downturns;
 - Periodically verify the integrity of your recovery phrase. Check that the envelope hasn't been tampered with and that the medium is still legible. If anything looks off, generate a new backup from your wallet;
 
-To monitor your holdings without compromising your private keys, consider using a watch-only wallet. It lets you track balances and transactions using your public keys only.
+To monitor your holdings without compromising your private keys, consider using a watch-only wallet. It lets you track balances and transactions using your [public keys](https://planb.academy/resources/glossary/public-key) only.
 
 https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
@@ -2147,7 +2145,7 @@ Even after acquiring coins anonymously, it's still possible to leak personal dat
 - **Labeling your UTXOs**;
 - **Practicing coin control when spending**;
 - **Avoiding consolidation of UTXOs**;
-- **Using transaction structures that protect privacy**: coinjoins, payjoins, ricochets, and mini-payment coinjoins...
+- **Using transaction structures that protect privacy**: [coinjoins](https://planb.academy/resources/glossary/coinjoin), payjoins, ricochets, and mini-payment coinjoins...
 
 They're also familiar with the basics of blockchain surveillance and know how companies trace activity. By understanding the heuristics and patterns used by chain analysis firms, they can take active steps to avoid falling into known traps.
 

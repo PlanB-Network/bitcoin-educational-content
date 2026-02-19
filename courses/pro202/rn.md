@@ -98,12 +98,12 @@ Iyi nyigisho ihuriza hamwe imibare y’ingenzi iri inyuma y’imirongo y’ubuhi
 ### Ivyatsi bifise impera: Moteri y'imibare y'ubuhinga bwo gukingira amakuru
 
 
-Igihugu gifise impera F(p) ni uburyo bw'imibare busobanurwa n'umubare w'intango p, urimwo ibintu 0 gushika kuri p–1. Ivyatsi vy'intango bituma ikintu cose kitari zero gifise igihinduka kandi ibikorwa vyose biguma mu mwanya. Imibare izunguruka ikoresheje modulo p mu kwongerako, gukurako no gukubita. Python's `pow(base, exp, mod)` ishoboza gukoresha neza ibiharuro, bihambaye ku biharuro binini bikoreshwa mu bikorwa vy'ukuri vy'ibanga.
+Igihugu gifise impera F(p) ni uburyo bw'imibare busobanurwa n'umubare w'intango p, urimwo ibintu 0 gushika kuri p–1. Ivyatsi vy'intango bituma ikintu cose kitari zero gifise igihinduka kandi [ibikorwa](https://planb.academy/resources/glossary/transaction-tx) vyose biguma mu mwanya. Imibare izunguruka ikoresheje modulo p mu kwongerako, gukurako no gukubita. Python's `pow(base, exp, mod)` ishoboza gukoresha neza ibiharuro, bihambaye ku biharuro binini bikoreshwa mu bikorwa vy'ukuri vy'ibanga.
 
 
 #### Inyifato yo gukuza
 
-Gukubitisha ikintu cose kitari zero k n'ibintu vyose vyo mu murima w'intango bituma habaho uguhinduka kw'umurima. Iyi nzira itanga icemezo c’uguhuza kandi igakingira intege nke z’imiterere, igatuma ivyumba vy’imbere biba vyiza cane ku bijanye n’uguhingura urufunguzo rw’urufunguzo n’imikono y’ubuhinga bwa none.
+Gukubitisha ikintu cose kitari zero k n'ibintu vyose vyo mu murima w'intango bituma habaho uguhinduka kw'umurima. Iyi nzira itanga icemezo c’uguhuza kandi igakingira intege nke z’imiterere, igatuma ivyumba vy’imbere biba vyiza cane ku bijanye n’uguhingura urufunguzo rw’urufunguzo n’[imikono y’ubuhinga bwa none](https://planb.academy/resources/glossary/digital-signature).
 
 
 #### Ugucapura n’Iciyumviro gito ca Fermat
@@ -112,7 +112,7 @@ Ugucapura gushirwa mu ngiro biciye ku bihinduka vy’ugukubita. Iciyumviro gitoy
 
 n^(urupapuro-1) ≡ 1 (uburyo p),
 
-rero igihinduka ni n^(p–2). Inyuguti ishigikira ibi ataco ihinduye na `pow(n, -1, p)`. Ivyo bikorwa biguma biboneka mu mirongo ngenderwako y’ubuhinga bwa ECDSA na Bitcoin.
+rero igihinduka ni n^(p–2). Inyuguti ishigikira ibi ataco ihinduye na `pow(n, -1, p)`. Ivyo bikorwa biguma biboneka mu mirongo ngenderwako y’ubuhinga bwa [ECDSA](https://planb.academy/resources/glossary/ecdsa) na Bitcoin.
 
 
 ### Ivyuma bigoramye: Ivyubatswe bitagira umurongo ku bijanye n'umutekano w'urufunguzo rwa bose
@@ -138,7 +138,7 @@ Ivyatsi bifise impera bitanga imibare igaragara, ihinduka; elliptic curves zitan
 ![lecture](https://www.youtube.com/watch?v=xOXdKuF3UFw)
 
 
-Iki gice kiratanga amabara y’uruzitiro asobanuwe ku bibanza bifise impera kandi kigasigura igituma ari vyo bikora umugongo w’imibare w’ubuhinga bwa Bitcoin. Naho imirongo y’imirongo y’imirongo y’imirongo y’imibare nyayo isa n’iyiryoshe kandi ikomeza, gukoresha izo nkuru nyene ku kibanza gifise impera bituma habaho urutonde rw’uturongo dutandukanye kandi dutatanye. Naho hariho itandukaniro ry’ivyo umuntu abona, amafomula yose yo kwongerako uturongo, amabara y’imirongo n’amategeko y’aligebra yitwararika kimwe nyene—imibare gusa ni yo ihinduka imibare y’ibice. Bitcoin ikoresha umurongo y2 = x3 + 7 (secp256k1), uzigama uburinganire n’inyifato idashingiye ku murongo bihambaye ku mutekano w’ubuhinga bwo gukingira amakuru.
+Iki gice kiratanga amabara y’uruzitiro asobanuwe ku bibanza bifise impera kandi kigasigura igituma ari vyo bikora umugongo w’imibare w’ubuhinga bwa Bitcoin. Naho imirongo y’imirongo y’imirongo y’imirongo y’imibare nyayo isa n’iyiryoshe kandi ikomeza, gukoresha izo nkuru nyene ku kibanza gifise impera bituma habaho urutonde rw’uturongo dutandukanye kandi dutatanye. Naho hariho itandukaniro ry’ivyo umuntu abona, amafomula yose yo kwongerako uturongo, amabara y’imirongo n’amategeko y’aligebra yitwararika kimwe nyene—imibare gusa ni yo ihinduka imibare y’ibice. Bitcoin ikoresha umurongo y2 = x3 + 7 (secp256k1), uzigama uburinganire n’inyifato idashingiye ku murongo bihambaye ku mutekano w’[ubuhinga bwo gukingira amakuru](https://planb.academy/resources/glossary/cryptography).
 
 
 ### Gusuzuma ingingo n'ugushirwa mu ngiro kw'umurima ufise impera
@@ -155,7 +155,7 @@ Ivyiyumviro vy’umurongo w’uruzitiro bikora umugwi w’imibare uri munsi y’
 ### Imigwi y'ingendo n'ikibazo ca logarithme itandukanye
 
 
-Guhitamwo akarongo k’umuyagankuba G ku nzira y’umurongo bituma dushobora generate umugwi w’inzinguzingu: G, 2G, 3G, ..., nG = 0. Izo ntumbero zisa n’izitari mu murongo kandi zidashobora kumenyekana, mbere n’igihe zivugwa zikurikirana. Ukwo kudashobora kumenya imbere y’igihe ni kwo gutuma habaho umushinge w’ingorane y’ubuhinga bwa logarithme butandukanye: guharura P = sG biroroshe, ariko kumenya s kuva kuri P ni ikintu kidashoboka mu kubara ku migwi minini. Iyi nzira imwe ni yo ituma urufunguzo rwa bose rutekanye. Scalars (imfunguruzo z’ibanga) zandikwa mu nyuguti ntoyi; uturongo (imfunguruzo za bose) mu nyuguti nini.
+Guhitamwo akarongo k’umuyagankuba G ku nzira y’umurongo bituma dushobora generate umugwi w’inzinguzingu: G, 2G, 3G, ..., nG = 0. Izo ntumbero zisa n’izitari mu murongo kandi zidashobora kumenyekana, mbere n’igihe zivugwa zikurikirana. Ukwo kudashobora kumenya imbere y’igihe ni kwo gutuma habaho umushinge w’ingorane y’ubuhinga bwa logarithme butandukanye: guharura P = sG biroroshe, ariko kumenya s kuva kuri P ni ikintu kidashoboka mu kubara ku migwi minini. Iyi nzira imwe ni yo ituma urufunguzo rwa bose rutekanye. Scalars ([imfunguruzo z’ibanga](https://planb.academy/resources/glossary/private-key)) zandikwa mu nyuguti ntoyi; uturongo ([imfunguruzo za bose](https://planb.academy/resources/glossary/public-key)) mu nyuguti nini.
 
 
 #### Gukubitisha neza Scalar
@@ -212,13 +212,13 @@ Bitcoin ikoresha imikono ya ECDSA ikoresheje uburyo bwa DER:
 - 0x02 + uburebure + S bytes
 
 
-Ivyo vyongera amafaranga, bikagwiza umukono w’amabayiti 64 gushika ku mabayiti ~71–72. Taproot irakuraho ubwo bushobozi mu kwemera imikono ya Schnorr y’ubunini butahinduka.
+Ivyo vyongera amafaranga, bikagwiza umukono w’amabayiti 64 gushika ku mabayiti ~71–72. [Taproot](https://planb.academy/resources/glossary/taproot) irakuraho ubwo bushobozi mu kwemera imikono ya [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol) y’ubunini butahinduka.
 
 
 ### Ivyemezo vyo gusinya n'uburyo bwo gusinya
 
 
-Imikono ya ECDSA ishingiye ku nsiguro y’ukwiyemeza: UG + VP = KG. Uwushira umukono ahitamwo agaciro ka U na V katari zero, n’agaciro ka nonce K, kerekana ubumenyi bw’urufunguzo rw’ibanga ataco ahishuriye. Ubutumwa burashirwa muri Z, K idasanzwe iravuka, R ni x‐coordinate ya KG, na S = (Z + RE)/K. Umukono ni uwo mubiri (R, S). Umutekano uva cane ku gukoresha K yihariye, itamenyekana—iyo K yongeye gukoreshwa canke igasohoka, urufunguzo rw’ibanga rurahungabana. Ivyiyumviro vy’ubu bikoresha uruvyaro rwa K (RFC 6979) kugira ngo ntihagire ukunanirwa kwa RNG.
+Imikono ya ECDSA ishingiye ku nsiguro y’ukwiyemeza: UG + VP = KG. Uwushira umukono ahitamwo agaciro ka U na V katari zero, n’agaciro ka [nonce](https://planb.academy/resources/glossary/nonce) K, kerekana ubumenyi bw’urufunguzo rw’ibanga ataco ahishuriye. Ubutumwa burashirwa muri Z, K idasanzwe iravuka, R ni x‐coordinate ya KG, na S = (Z + RE)/K. Umukono ni uwo mubiri (R, S). Umutekano uva cane ku gukoresha K yihariye, itamenyekana—iyo K yongeye gukoreshwa canke igasohoka, urufunguzo rw’ibanga rurahungabana. Ivyiyumviro vy’ubu bikoresha uruvyaro rwa K (RFC 6979) kugira ngo ntihagire ukunanirwa kwa RNG.
 
 
 #### Igenzura ry'umukono
@@ -245,7 +245,7 @@ Igurisha rya Bitcoin rigizwe na:
 - Igihe co gufunga (amabayiti 4)
 
 
-Injiza zivuga UTXOs za kera n'urutonde rw'ibikorwa vyazo n'urutonde rw'isohoka, kandi zirimwo inyandiko yo gufungura (scriptSig) n'umubare w'urutonde ukoreshwa ku gufunga igihe canke RBF. Ibisohoka bigaragaza umubare (8 bytes) n'inyandiko yo gufunga (scriptPubKey), bisobanura ivyangombwa vyo gukoresha. Amaderesi ya Bitcoin ni ibimenyetso vy’izo nyandiko.
+Injiza zivuga [UTXOs](https://planb.academy/resources/glossary/utxo) za kera n'urutonde rw'ibikorwa vyazo n'urutonde rw'isohoka, kandi zirimwo [inyandiko](https://planb.academy/resources/glossary/script) yo gufungura (scriptSig) n'umubare w'urutonde ukoreshwa ku gufunga igihe canke RBF. Ibisohoka bigaragaza umubare (8 bytes) n'inyandiko yo gufunga (scriptPubKey), bisobanura ivyangombwa vyo gukoresha. Amaderesi ya Bitcoin ni ibimenyetso vy’izo nyandiko.
 
 
 #### Igishushanyo ca UTXO
@@ -275,7 +275,7 @@ Amafaranga araboneka:
 
 amafaranga = umubare(agaciro k’inyungu) – umubare(agaciro k’isohoka).
 
-Agaciro kose katatanzwe kaba amahera, bigatuma ihinduka ryiza ry’ubwubatsi bw’umusaruro riba ngombwa. Imbere ya SegWit, imikono yaremeza ko umuntu ashobora guhindura S kugira ngo abe N-S vyatuma haba ugucuruza gushasha gufise akamaro gafise ID itandukanye. Bitcoin ubu ishira mu ngiro itegeko rya low‐S, kandi SegWit itandukanya imikono n’ibara rya txid, igatuma IDs zigumaho kandi zishoboza amasezerano y’urugero rwa kabiri nka Lightning.
+Agaciro kose katatanzwe kaba amahera, bigatuma ihinduka ryiza ry’ubwubatsi bw’umusaruro riba ngombwa. Imbere ya [SegWit](https://planb.academy/resources/glossary/segwit), imikono yaremeza ko umuntu ashobora guhindura S kugira ngo abe N-S vyatuma haba ugucuruza gushasha gufise akamaro gafise ID itandukanye. Bitcoin ubu ishira mu ngiro itegeko rya low‐S, kandi SegWit itandukanya imikono n’ibara rya txid, igatuma IDs zigumaho kandi zishoboza amasezerano y’urugero rwa kabiri nka [Lightning](https://planb.academy/resources/glossary/lightning-network).
 
 
 ## Bitcoin inyandiko n'ukwemeza ibikorwa
@@ -329,7 +329,7 @@ Kubera ko ikintu cose cinjijwe mu gucuruza kw’iragi gisaba ibara ryaco ry’ib
 ### Ivyigwa vy'Inyandiko n'Ivyigwa vy'Umutekano
 
 
-Ivyanditswe birashobora guserura ibirenze cane “umukono umwe urafungura ivyo biceri.” Ivyo bigaragazwa n’ibiharuro vy’inyandiko mu gushiramwo ibintu bitari vyo—ingorane z’imibare, ingorane z’imbere y’amashusho, canke mbere n’ibihembo vy’ugutombora—aho umuntu wese atanga amakuru akwiriye ashobora gukoresha ivyo biceri. Ariko rero, ibisohoka bishingiye gusa ku makuru ya bose (nta mikono) birashobora gushikirwa n’ugukora kw’abacukuzi: iyo umuti ubereye ubonetse muri mempool, umucukuzi wese arashobora kuwukopa maze akarungika amahera yishurwa kuri we nyene.
+Ivyanditswe birashobora guserura ibirenze cane “umukono umwe urafungura ivyo biceri.” Ivyo bigaragazwa n’ibiharuro vy’inyandiko mu gushiramwo ibintu bitari vyo—ingorane z’imibare, ingorane z’imbere y’amashusho, canke mbere n’ibihembo vy’ugutombora—aho umuntu wese atanga amakuru akwiriye ashobora gukoresha ivyo biceri. Ariko rero, ibisohoka bishingiye gusa ku makuru ya bose (nta mikono) birashobora gushikirwa n’ugukora kw’abacukuzi: iyo umuti ubereye ubonetse muri [mempool](https://planb.academy/resources/glossary/mempool), [umucukuzi](https://planb.academy/resources/glossary/miner) wese arashobora kuwukopa maze akarungika amahera yishurwa kuri we nyene.
 
 
 Icigwa ngirakamaro ni uko amasezerano y’isi nyakuri hafi y’igihe cose arimwo ivy’ugusuzuma imikono, mbere n’igihe arimwo ivyiyumviro bikomeye cane nk’ivy’amasinyatire menshi, ivy’igihe, canke ivy’amasinyatire. Imikono ibohera umuti ku ruhande runaka, ikazigama inkurikizi kandi ibuza abandi kwiba amahera. Gutahura urugero rwa Script, uburyo busanzwe, n’imitego idasanzwe ni ngombwa mu guhingura amasezerano y’ubwenge ya Bitcoin no gutekereza ku kuntu amafaranga yemezwa ku rubuga.
@@ -402,13 +402,13 @@ P2SH iratuma umuntu agira ubuzima bwite mu guhisha uko akoresha amahera gushika 
 ![lecture](https://www.youtube.com/watch?v=lJYSM1iLWQU)
 
 
-Bitcoin ibuza amafaranga y'imigwi kandi ikayakingira ikoresheje proof of work. Buri bubiko burimwo umutwe w’amabayiti 80 hamwe n’urutonde rw’ibikorwa. Naho igiciro c’inguvu kiremereye co gukora igice gifise akamaro, kugenzura kimwe birahenda: kubika imitwe yose ~900k bisaba gusa ~72 MB, bikaba vyemerera mbere n’ibikoresho bitobito kugenzura neza proof of work y’uruzitiro.
+Bitcoin ibuza amafaranga y'imigwi kandi ikayakingira ikoresheje [proof of work](https://planb.academy/resources/glossary/proof-of-work). Buri bubiko burimwo [umutwe](https://planb.academy/resources/glossary/block-header) w’amabayiti 80 hamwe n’urutonde rw’ibikorwa. Naho igiciro c’inguvu kiremereye co gukora igice gifise akamaro, kugenzura kimwe birahenda: kubika imitwe yose ~900k bisaba gusa ~72 MB, bikaba vyemerera mbere n’ibikoresho bitobito kugenzura neza proof of work y’uruzitiro.
 
 
 ### Ibikorwa vya Coinbase n'Impembo z'Ibubiko
 
 
-Buri block itangura n’ugucuruza kumwe nyakwe kwa Coinbase—uburyo bumwe rudende bitcoin nshasha yinjira mu nzira. Ifise hash ya prev-tx ifise zero n’urutonde rwa 0xffffffff, biyimenyesha mu buryo budasanzwe. Iyo nkunga yatanguye kuri 50 BTC kandi igabanywamwo ibice bibiri buri mabarabara 210.000 (50, 25, 12,5, 6,25, 3,125, ...). Abacukuzi b’amabuye y’agaciro na bo nyene barashiramwo amahera yo gucuruza. Kubera ko nonce ya 4‐byte ari nto cane ku ASIC za none, abacukuzi barahindura amakuru mu gucuruza kwa Coinbase kugira ngo bahindure umuzi wa Merkle maze bareme ikibanza co gushaka congereweko. BIP34 isaba gushiramwo uburebure bw’ibarabara mu nyandiko ya Coinbase kugira ngo umenye neza ko Coinbase txid yose ari iyo kwihariza.
+Buri block itangura n’ugucuruza kumwe nyakwe kwa [Coinbase](https://planb.academy/resources/glossary/coinbase-transaction)—uburyo bumwe rudende bitcoin nshasha yinjira mu nzira. Ifise hash ya prev-tx ifise zero n’urutonde rwa 0xffffffff, biyimenyesha mu buryo budasanzwe. Iyo nkunga yatanguye kuri 50 BTC kandi igabanywamwo ibice bibiri buri mabarabara 210.000 (50, 25, 12,5, 6,25, 3,125, ...). Abacukuzi b’[amabuye](https://planb.academy/resources/glossary/block) y’agaciro na bo nyene barashiramwo amahera yo gucuruza. Kubera ko nonce ya 4‐byte ari nto cane ku ASIC za none, abacukuzi barahindura amakuru mu gucuruza kwa Coinbase kugira ngo bahindure umuzi wa [Merkle](https://planb.academy/resources/glossary/merkle-tree) maze bareme ikibanza co gushaka congereweko. [BIP34](https://planb.academy/resources/glossary/bip) isaba gushiramwo uburebure bw’ibarabara mu nyandiko ya Coinbase kugira ngo umenye neza ko Coinbase txid yose ari iyo kwihariza.
 
 
 ### Imirima y'umutwe w'ibarabara n'ikimenyetso ca Soft Fork
@@ -421,11 +421,11 @@ Umutwe w'amabayiti 80 urimwo:
 - hash y'imbere (bayiti 32)
 - Umuzi wa Merkle (amabayiti 32)
 - ikidodo c'igihe (bytes 4)
-- ibice (ingorane intego, 4 bytes)
+- ibice ([ingorane](https://planb.academy/resources/glossary/difficulty) intego, 4 bytes)
 - noce (amabayiti 4)
 
 
-Igitigiri c’amaverisiyo carahindutse uburyo bwo gutanga ikimenyetso biciye ku BIP9, bituma abacukuzi bashobora guhuza ukwitegura kwa soft-fork. Ikimenyetso c'igihe ni agaciro k'igihe ca Unix 32‐bit kandi kizokenera guhindurwa hafi y'umwaka wa 2106.
+Igitigiri c’amaverisiyo carahindutse uburyo bwo gutanga ikimenyetso biciye ku BIP9, bituma abacukuzi bashobora guhuza ukwitegura kwa [soft-fork](https://planb.academy/resources/glossary/soft-fork). Ikimenyetso c'igihe ni agaciro k'igihe ca Unix 32‐bit kandi kizokenera guhindurwa hafi y'umwaka wa 2106.
 
 
 #### Bits Umurima n'Intego
@@ -459,7 +459,7 @@ Infashanyo ku burebure h ibarwa nk’iyi: infashanyo = 5_000_000_000 >> (h // 21
 ### Bitcoin Ubwubatsi bw'urubuga
 
 
-Bitcoin’s peer-to-peer network ikora nk’uburyo bw’urusaku bwegerejwe aho ama node atanga amakuru n’amabuye ata kwizigirana. Ivyuma bishasha biratangura mu guhura n’imbuto za DNS zifise amakode akomeye zibungabungwa n’abahinguzi b’ingenzi. Izo mbuto za DNS zigarura IPs z’abagenzi bakora, zituma nodes zishobora kumenya urubuga hanyuma zigasaba abagenzi b’inyongera biciye kuri getaddr. Gukorana n’abandi si ikintu gihambaye cane ku bijanye n’uguhurizako, rero ugushirwa mu ngiro gushobora gutandukanywa igihe cose amategeko y’uguhurizako azoguma atahindutse.
+Bitcoin’s [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) network ikora nk’uburyo bw’urusaku bwegerejwe aho ama node atanga amakuru n’amabuye ata kwizigirana. Ivyuma bishasha biratangura mu guhura n’imbuto za DNS zifise amakode akomeye zibungabungwa n’abahinguzi b’ingenzi. Izo mbuto za DNS zigarura IPs z’abagenzi bakora, zituma nodes zishobora kumenya urubuga hanyuma zigasaba abagenzi b’inyongera biciye kuri getaddr. Gukorana n’abandi si ikintu gihambaye cane ku bijanye n’[uguhurizako](https://planb.academy/resources/glossary/consensus), rero ugushirwa mu ngiro gushobora gutandukanywa igihe cose amategeko y’uguhurizako azoguma atahindutse.
 
 
 ### Ubutumwa buteye n'ugufata ukuboko
@@ -474,7 +474,7 @@ Ugufatanya ukuboko gutangura iyo urudodo ruhuza rwohereje ubutumwa bwa verisiyo.
 ### Ibiti vya Merkle n'imizi ya Merkle
 
 
-Bitcoin ibika umuzi umwe wa Merkle w’amabayiti 32 mu mutwe w’ibara ryose nk’ukwiyemeza ku bikorwa vyose biri muri ibara. Ibikorwa vy’ubudandaji birashirwako (hash256), bikajanywa, bikajanywa, bigasubirwamwo gushika hash imwe isigaye. Iyo urugero rufise igiharuro kidasanzwe, hash ya nyuma irasubirwamwo. Imbere, hashes ni big‐endian, mu gihe amakuru y’ibice vy’uruhererekane akoresha little‐endian, bisaba guhindura imbere n’inyuma y’ubwubatsi bw’igiti.
+Bitcoin ibika umuzi umwe wa Merkle w’amabayiti 32 mu mutwe w’ibara ryose nk’ukwiyemeza ku bikorwa vyose biri muri ibara. Ibikorwa vy’ubudandaji birashirwako (hash256), bikajanywa, bikajanywa, bigasubirwamwo gushika hash imwe isigaye. Iyo urugero rufise igiharuro kidasanzwe, hash ya nyuma irasubirwamwo. Imbere, [hashes](https://planb.academy/resources/glossary/hash-function) ni big‐endian, mu gihe amakuru y’ibice vy’uruhererekane akoresha little‐endian, bisaba guhindura imbere n’inyuma y’ubwubatsi bw’igiti.
 
 
 #### Ivyemezo vya Merkle na SPV
@@ -515,7 +515,7 @@ Iki kiganiro gihuza ubuhinga buteye imbere bwa P2P n’Icabona gitandukanye, kig
 ### Gusubirana n'ubuzima bwite bushingiye ku bubiko
 
 
-Amasakoshi ategerezwa kumenya amahera yinjira mu gucapura amabuye y'ibisohoka bihuye n'inyandikoPubKey yabo. Kugarura amabuye yose birakingira ubuzima bwite kurusha gusaba amafaranga y’umuntu ku giti ciwe, ivyo bikaba bitanga ibimenyetso bikomeye ku bikorwa vy’abakoresha. Mbere n’ibisabwa vy’amabuye bishobora gusohoka amakuru ku minyororo y’ijwi ritoyi, bikaba bituma amayunguruzo y’amabuye (BIP158) aba ari ngirakamaro ku bakiriya b’umuco bazigama ubuzima bwite. Amayunguruzo ashobora gutanga ivyiza vy’ibinyoma ariko ntiyigere atanga ivyiza vy’ibinyoma, bikaba vyemerera abaguzi gukuraho gusa amabuye ashobora kuba afise akamaro ata guhishura amaderesi yihariye.
+[Amasakoshi](https://planb.academy/resources/glossary/wallet) ategerezwa kumenya amahera yinjira mu gucapura amabuye y'ibisohoka bihuye n'inyandikoPubKey yabo. Kugarura amabuye yose birakingira ubuzima bwite kurusha gusaba amafaranga y’umuntu ku giti ciwe, ivyo bikaba bitanga ibimenyetso bikomeye ku bikorwa vy’abakoresha. Mbere n’ibisabwa vy’amabuye bishobora gusohoka amakuru ku minyororo y’ijwi ritoyi, bikaba bituma amayunguruzo y’amabuye (BIP158) aba ari ngirakamaro ku bakiriya b’umuco bazigama ubuzima bwite. Amayunguruzo ashobora gutanga ivyiza vy’ibinyoma ariko ntiyigere atanga ivyiza vy’ibinyoma, bikaba vyemerera abaguzi gukuraho gusa amabuye ashobora kuba afise akamaro ata guhishura amaderesi yihariye.
 
 
 ### Trustless Ihuriro ry'urubuga

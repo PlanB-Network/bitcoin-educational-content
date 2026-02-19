@@ -101,7 +101,7 @@ Spremni da zaronite u fascinantan svet Bitkoina i razumete sve njegove unutrašn
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
 
 
-Pre nego što je termin "Bitkoin" postao sinonim za digitalnu valutu i finansijsku transformaciju, osnova za njegovo stvaranje postavljena je nizom ideja, inovacija i društvenih pokreta. Među njima, pokret Cypherpunk ističe se kao ključni element u preistoriji Bitkoina.
+Pre nego što je termin "Bitkoin" postao sinonim za digitalnu valutu i finansijsku transformaciju, osnova za njegovo stvaranje postavljena je nizom ideja, inovacija i društvenih pokreta. Među njima, pokret [Cypherpunk](https://planb.academy/resources/glossary/cypherpunks) ističe se kao ključni element u preistoriji Bitkoina.
 
 
 ### Cypherpunks: vizionari digitalnog sveta
@@ -109,7 +109,7 @@ Pre nego što je termin "Bitkoin" postao sinonim za digitalnu valutu i finansijs
 
 ![image](assets/sr-Latn/003.webp)
 
-U srcu tehnološke evolucije 1980-ih i 1990-ih, grupa ljudi je počela duboko da preispituje ulogu privatnosti i slobode u digitalnom dobu. Ove osobe, koje će kasnije biti poznate kao "cypherpunks", čvrsto su verovale da kriptografija može služiti kao alat za zaštitu individualnih prava od mešanja vlada i velikih korporacija.
+U srcu tehnološke evolucije 1980-ih i 1990-ih, grupa ljudi je počela duboko da preispituje ulogu privatnosti i slobode u digitalnom dobu. Ove osobe, koje će kasnije biti poznate kao "cypherpunks", čvrsto su verovale da [kriptografija](https://planb.academy/resources/glossary/cryptography) može služiti kao alat za zaštitu individualnih prava od mešanja vlada i velikih korporacija.
 
 
 Ikonične ličnosti kao što su Julian Assange, Wei Dai, Tim May i David Chaum odigrale su ključnu ulogu u oblikovanju filozofije i vizije pokreta. Ovi mislioci su delili svoje ideje na uticajnoj mejling listi, gde su učesnici iz celog sveta učestvovali u debatama o najboljim načinima korišćenja tehnologije za veću individualnu slobodu.
@@ -145,10 +145,10 @@ iako ne isključivo Cypherpunk, ovaj tekst odražava osećanja mnogih učesnika 
 ### Prethodnici Bitkoina
 
 
-Pre nego što se pojavio Bitkoin, bilo je nekoliko pokušaja da se stvori digitalna valuta. Na primer, David Chaum je predstavio koncept "anonimnog elektronskog novca" sa svojim projektom "DigiCash" 1980-ih. Nažalost, zbog raznih ograničenja, DigiCash nikada nije doživeo procvat.
+Pre nego što se pojavio Bitkoin, bilo je nekoliko pokušaja da se stvori digitalna valuta. Na primer, David Chaum je predstavio koncept "anonimnog elektronskog novca" sa svojim projektom "[DigiCash](https://planb.academy/resources/glossary/ecash-david-chaum)" 1980-ih. Nažalost, zbog raznih ograničenja, DigiCash nikada nije doživeo procvat.
 
 
-Još jedan važan prethodnik je "B-money" Wei Dai-ja. Iako nikada nije implementiran, predstavio je ideju anonimne digitalne valute gde je otkrivanje prevara vršila zajednica ocenjivača, a ne centralna vlast.
+Još jedan važan prethodnik je "[B-money](https://planb.academy/resources/glossary/bmoney)" Wei Dai-ja. Iako nikada nije implementiran, predstavio je ideju anonimne digitalne valute gde je otkrivanje prevara vršila zajednica ocenjivača, a ne centralna vlast.
 
 
 Slika ispod jasno ilustruje razvoj pokreta kroz njegove mnoge tehnološke inovacije.
@@ -157,7 +157,7 @@ Slika ispod jasno ilustruje razvoj pokreta kroz njegove mnoge tehnološke inovac
 ![image](assets/sr-Latn/005.webp)
 
 
-U ovom plodnom okruženju, misteriozni Satoshi Nakamoto objavio je Bitkoin whitepaper 2008. godine. U ovom dokumentu, on je kombinovao nekoliko ideja iz Cypherpunk pokreta, kao što su [proof of work](https://planb.academy/resources/glossary/proof-of-work) i kriptografski vremenski pečati, kako bi stvorio decentralizovanu i digitalnu valutu otpornu na cenzuru.
+U ovom plodnom okruženju, misteriozni [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) objavio je Bitkoin [whitepaper](https://planb.academy/resources/glossary/white-paper) 2008. godine. U ovom dokumentu, on je kombinovao nekoliko ideja iz Cypherpunk pokreta, kao što su [proof of work](https://planb.academy/resources/glossary/proof-of-work) i kriptografski [vremenski pečati](https://planb.academy/resources/glossary/timestamp), kako bi stvorio [decentralizovanu](https://planb.academy/resources/glossary/distributed) i digitalnu valutu otpornu na cenzuru.
 
 
 Međutim, Bitkoin je bio više od toga: predstavljao je ostvarenje ideala Cypherpunk-a. Pored svoje tehnologije, simbolizovao je revoluciju protiv tradicionalnih finansijskih sistema i ponudio alternativu zasnovanu na transparentnosti, decentralizaciji i individualnom suverenitetu.
@@ -223,7 +223,7 @@ Novac je visoko sofisticiran alat za komunikaciju:
 - Olakšava komunikaciju na univerzalnom jeziku: bez međusobnog poznavanja ili govorenja istim jezikom, dva stranca mogu razmenjivati, trgovati i dogovoriti se o vrednosti stvari.
 
 
-Njegovu funkciju u našem svetu je teško veštački replicirati. U stvari, nijedna osoba ili grupa ne može stvoriti novac, jer je to prirodni fenomen koji mora proizaći iz tržišta i dobrovoljnog konsenzusa. U tom smislu, cene služe kao signali i delovi informacija koji usmeravaju društvo u raspodeli resursa.
+Njegovu funkciju u našem svetu je teško veštački replicirati. U stvari, nijedna osoba ili grupa ne može stvoriti novac, jer je to prirodni fenomen koji mora proizaći iz tržišta i dobrovoljnog [konsenzusa](https://planb.academy/resources/glossary/consensus). U tom smislu, cene služe kao signali i delovi informacija koji usmeravaju društvo u raspodeli resursa.
 
 
 Iz ovih razloga, zlato kao novac je rezultat 4.000 godina monetarnog darvinizma zasnovanog na sledećim Aristotelovim funkcijama:
@@ -248,7 +248,7 @@ Iz ovih razloga, zlato kao novac je rezultat 4.000 godina monetarnog darvinizma 
 Zlato idealno ispunjava kriterijume efikasne valute: njegova prirodna retkost ga čini vrednim, dok njegove hemijske osobine osiguravaju da ne erodira tokom vremena. Ove karakteristike su učinile zlato odličnim **čuvarem vrednosti**, ali ne i uobičajenom valutom, jer ovaj oblik novca nije lako deljiv ili prenosiv na velike udaljenosti. U globalizovanom i digitalnom svetu, zlato se bori da održi korak i zahteva centralni entitet da bi bilo deljivo i lako zamenljivo (npr. kroz kovanje novčića).
 
 
-Nasuprot tome, državne fiducijarne valute (fiat) su lako upotrebljive, ali ih entiteti koji ih kontrolišu (kraljevi, centralne banke, carevi, diktatori) konstantno devalviraju.
+Nasuprot tome, državne fiducijarne valute ([fiat](https://planb.academy/resources/glossary/fiat)) su lako upotrebljive, ali ih entiteti koji ih kontrolišu (kraljevi, centralne banke, carevi, diktatori) konstantno devalviraju.
 
 
 Da bismo bolje objasnili ovaj koncept, istražićemo karakteristike efikasne valute:
@@ -258,7 +258,7 @@ Da bismo bolje objasnili ovaj koncept, istražićemo karakteristike efikasne val
 
 
 
-- **Fungibilnost**, što znači da se može zameniti drugim jedinicama iste vrste bez gubitka vrednosti;
+- **[Fungibilnost](https://planb.academy/resources/glossary/fungibility)**, što znači da se može zameniti drugim jedinicama iste vrste bez gubitka vrednosti;
 - **Deljivost**, jer se može podeliti na manje jedinice kako bi se olakšale transakcije različitih obima;
 - **Likvidnost**, što znači da se lako može pretvoriti u robu ili usluge.
 
@@ -269,10 +269,10 @@ Da bi ispunila ove kriterijume, valuta se istorijski evoluirala kroz različite 
 
 - Sirov kamen -> Novčić
 - Novčanica -> Bankovna kartica
-- Blockchain -> Lightning Network (mreža)
+- [Blockchain](https://planb.academy/resources/glossary/blockchain) -> [Lightning Network](https://planb.academy/resources/glossary/lightning-network) (mreža)
 
 
-Valute i dalje evoluiraju do danas, prilagođavajući svoje oblike kako bi zadovoljile različite slučajeve upotrebe. Kao što smo rekli, iako je zlato odličan čuvar vrednosti, više nije pogodno za trenutnu globalizovanu ekonomiju. Slično tome, fiducijarne valute kao što su dolar i evro su vrlo likvidne i lako prenosive jer su sada uglavnom digitalne, ali njihova vrednost je konstantno smanjena monetarnom inflacijom.
+Valute i dalje evoluiraju do danas, prilagođavajući svoje oblike kako bi zadovoljile različite slučajeve upotrebe. Kao što smo rekli, iako je zlato odličan čuvar vrednosti, više nije pogodno za trenutnu globalizovanu ekonomiju. Slično tome, fiducijarne valute kao što su dolar i evro su vrlo likvidne i lako prenosive jer su sada uglavnom digitalne, ali njihova vrednost je konstantno smanjena monetarnom [inflacijom](https://planb.academy/resources/glossary/inflation).
 
 
 S druge strane, Bitcoin otvara nove perspektive. Njegova svojstva, naročito strogo ograničena ponuda, čine ga odličnim čuvarom vrednosti. Takođe, kao neutralna internet valuta, predstavlja održivo **sredstvo razmene**, sposobno da prevaziđe granice. Ipak, uprkos kontinuiranom usvajanju (što ilustruje [mapa BTCmap](https://btcmap.org/map)), danas još uvek nije široko prihvaćen u trgovini.
@@ -519,7 +519,7 @@ Njegovo monetarno izdavanje može biti ilustrovano krivom koja predstavlja koli�
 ### Kako se stvaraju novi bitkoini?
 
 
-Kreiranje novih bitkoina rezultat je procesa rudarenja. Ukratko, rudari koriste moćne računare koji rešavaju složene matematičke probleme (Hash), koji validiraju i osiguravaju transakcije. Kada je problem rešen (ili je pronađen validan Hash), rudar dodaje novi blok transakcija u Blockchain, decentralizovani i distribuirani Ledger(registar) koji beleži sve transakcije izvršene na mreži. Blockchain obezbeđuje transparentnost i sigurnost, jer je svaki blok povezan sa prethodnim, što čini gotovo nemogućim menjanje prethodnih podataka bez konsenzusa mreže.
+Kreiranje novih bitkoina rezultat je procesa [rudarenja](https://planb.academy/resources/glossary/mining). Ukratko, rudari koriste moćne računare koji rešavaju složene matematičke probleme ([Hash](https://planb.academy/resources/glossary/hash-function)), koji validiraju i osiguravaju transakcije. Kada je problem rešen (ili je pronađen validan Hash), rudar dodaje novi [blok](https://planb.academy/resources/glossary/block) transakcija u Blockchain, decentralizovani i distribuirani Ledger(registar) koji beleži sve transakcije izvršene na mreži. Blockchain obezbeđuje transparentnost i sigurnost, jer je svaki blok povezan sa prethodnim, što čini gotovo nemogućim menjanje prethodnih podataka bez konsenzusa mreže.
 
 
 ![image](assets/sr-Latn/022.webp)
@@ -561,7 +561,7 @@ Limit od 21 milion je osnova oskudice Bitkoina, i garantovana je kroz dva ključ
 
 
 
--  Podešavanje težine rudarenja je proces koji se dešava svakih 2016 blokova, ili otprilike svake dve nedelje, kako bi se osiguralo da se novi blok dodaje u Blockchain u proseku svakih deset minuta. Ova učestalost kreiranja blokova i ukupna količina bitkoina su fiksni aspekti Bitkoin protokola i ne mogu se promeniti bez opšteg konsenzusa, za razliku od proizvoljnih odluka donetih u tradicionalnim monetarnim sistemima.
+-  [Podešavanje težine rudarenja](https://planb.academy/resources/glossary/difficulty-adjustment) je proces koji se dešava svakih 2016 blokova, ili otprilike svake dve nedelje, kako bi se osiguralo da se novi blok dodaje u Blockchain u proseku svakih deset minuta. Ova učestalost kreiranja blokova i ukupna količina bitkoina su fiksni aspekti Bitkoin protokola i ne mogu se promeniti bez opšteg konsenzusa, za razliku od proizvoljnih odluka donetih u tradicionalnim monetarnim sistemima.
 
 
 Težina pronalaženja validnog Hash-a prati neku vrstu ciklusa: ako se broj rudara poveća i više blokova se pronađe brže, to uzrokuje smanjenje prosečnog vremena za pronalaženje bloka i tako se povećava težina. Kao posledica toga, broj blokova koje rudari pronađu se smanjuje, što znači da se mehanizam vraća na prosek od 10 minuta po bloku. Molimo pogledajte sliku ispod za vizuelni prikaz.
@@ -573,7 +573,7 @@ Težina pronalaženja validnog Hash-a prati neku vrstu ciklusa: ako se broj ruda
 S druge strane, ako manje rudara radi i blokovi se pronalaze sporije, težina rudarenja se smanjuje, ubrzavajući prosečno vreme za pronalaženje bloka.
 
 
-Da li ste znali da su rudari motivisani da iskopaju blok kako bi zaradili nove bitkoine kroz subvenciju bloka, kao i naknade za transakcije ikoje uključuju u taj blok?
+Da li ste znali da su rudari motivisani da iskopaju blok kako bi zaradili nove bitkoine kroz [subvenciju bloka](https://planb.academy/resources/glossary/block-subsidy), kao i [naknade za transakcije](https://planb.academy/resources/glossary/transaction-fees) ikoje uključuju u taj blok?
 
 
 Dakle, kako se broj izdatih bitkoina približava granici od 21 milion, rudari će biti više nagrađivani kroz svoje naknade za transakcije nego kroz subvenciju bloka.
@@ -595,7 +595,7 @@ Ideja devalvacije valute je protivna fundamentalnoj filozofiji Bitkoina, tako da
 Osnovna prednost Bitkoina je njegova oskudnost, a maksimalna količina od 21 milion bitkoina u opticaju je javna i proverljiva od strane bilo koga.
 
 
-Zapravo, svako može ovo uraditi putem bitkoin čvora - noda (tj. validatora transakcija) jednostavnim unosom sledeće komande: `bitkoin-cli gettxoutsetinfo`. Ova transparentnost jača poverenje u Bitkoin sistem, koji nije zasnovan na centralnim institucijama ili pojedincima, već na matematičkim i kriptografskim garancijama inherentnim u njegovom protokolu (Naučićete kako ovo lako uraditi u LNP201).
+Zapravo, svako može ovo uraditi putem bitkoin [čvora](https://planb.academy/resources/glossary/node) - noda (tj. validatora transakcija) jednostavnim unosom sledeće komande: `bitkoin-cli gettxoutsetinfo`. Ova transparentnost jača poverenje u Bitkoin sistem, koji nije zasnovan na centralnim institucijama ili pojedincima, već na matematičkim i kriptografskim garancijama inherentnim u njegovom protokolu (Naučićete kako ovo lako uraditi u LNP201).
 
 
 ```json
@@ -632,7 +632,7 @@ Ukratko, Bitkoin, sa svojom decentralizovanom prirodom, programiranom oskudicom 
 <chapterId>1c0166ab-cb7a-5bc6-9175-d13482bd91f1</chapterId>
 
 
-U odeljku 2, istražićemo skladištenje i sigurnost Bitkoina kroz korišćenje novčanika, kako bismo razumeli gde se nalaze ovi poznati bitkoini i kako komunicirati sa njima!
+U odeljku 2, istražićemo skladištenje i sigurnost Bitkoina kroz korišćenje [novčanika](https://planb.academy/resources/glossary/wallet), kako bismo razumeli gde se nalaze ovi poznati bitkoini i kako komunicirati sa njima!
 
 
   ### Demistifikacija Bitkoin novčanika
@@ -659,14 +659,14 @@ Portfolija se tako mogu kategorizovati u široke porodice upotrebe, uvek fokusir
 ### Kako funkcioniše Bitkoin novčanik?
 
 
-Bilo da je to vaš bitkoin "bankar" ili vi sami, velika većina Bitkoin novčanika radi sa sličnom tehnologijom zasnovanom na asimetričnoj kriptografiji, koja uključuje sistem parova ključeva: privatni ključ za trošenje i javni ključ za primanje.
+Bilo da je to vaš bitkoin "bankar" ili vi sami, velika većina Bitkoin novčanika radi sa sličnom tehnologijom zasnovanom na asimetričnoj kriptografiji, koja uključuje sistem parova ključeva: [privatni ključ](https://planb.academy/resources/glossary/private-key) za trošenje i [javni ključ](https://planb.academy/resources/glossary/public-key) za primanje.
 
 
 
 - Privatni ključ
 
 
-Kada inicijalizujete novčanik, generiše se tajna fraza za oporavak, takođe poznata kao Mnemonic fraza (privatni ključ) i prikazuje vam se u obliku od 12 ili 24 reči.
+Kada inicijalizujete novčanik, generiše se [tajna fraza za oporavak](https://planb.academy/resources/glossary/recovery-phrase), takođe poznata kao Mnemonic fraza (privatni ključ) i prikazuje vam se u obliku od 12 ili 24 reči.
 
 
 Privatni ključ je fundamentalan jer predstavlja vlasništvo nad bitkoinom i stoga pravo da ih koristite ili šaljete. Dakle, vlasnik privatnog ključa je pravi vlasnik bitkoina. Kao što popularna izreka kaže, „Nisu tvoji ključevi, nisu tvoji novčići.“
@@ -679,7 +679,7 @@ Ovaj ključ mora biti čuvan u tajnosti i dobro zaštićen, jer otključava tvoj
 - Javni ključ & Adresa 
 
 
-Javni ključ se generiše iz privatnog ključa i povezan je s njim. Deljenje javnog ključa predstavlja rizik za privatnost (jer drugi korisnici mogu videti vaš saldo), ali ne i za sigurnost (jer ne mogu trošiti vaša sredstva bez posedovanja privatnog ključa). Javni ključ se koristi za kreiranje Bitkoin adresa, i na taj način primanje novca.
+Javni ključ se generiše iz privatnog ključa i povezan je s njim. Deljenje javnog ključa predstavlja rizik za privatnost (jer drugi korisnici mogu videti vaš saldo), ali ne i za sigurnost (jer ne mogu trošiti vaša sredstva bez posedovanja privatnog ključa). Javni ključ se koristi za kreiranje [Bitkoin adresa](https://planb.academy/resources/glossary/receiving-address), i na taj način primanje novca.
 
 
 Ove adrese automatski kreira vaš novčanik i mogu se sigurno deliti. Da biste maksimalno zaštitili svoju privatnost, preporučljivo je da ih koristite samo jednom.
@@ -694,7 +694,7 @@ Ukratko, ova tehnologija nam omogućava da primamo bitkoine bez da primalac mož
 ### Da li su bitkoini u novčaniku?
 
 
-Iako su vaši ključevi sačuvani u vašem novčaniku, sami bitkoini su zapravo "sačuvani" u bitkoin Blockchain-u, što je javno distribuirani Ledger(registar) unutar Bitkoin peer-to-peer mreže (o tome ćemo detaljnije govoriti u odeljku 3). To znači da gubitak uređaja koji sadrži vaš novčanik ne dovodi nužno do gubitka vaših bitkoina. Ono što vam omogućava da ponovo kreirate vaš novčanik i trošite vaš bitkoin je zapravo privatni ključ, zato ga uvek pravilno osigurajte!
+Iako su vaši ključevi sačuvani u vašem novčaniku, sami bitkoini su zapravo "sačuvani" u bitkoin Blockchain-u, što je javno distribuirani Ledger(registar) unutar Bitkoin [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) mreže (o tome ćemo detaljnije govoriti u odeljku 3). To znači da gubitak uređaja koji sadrži vaš novčanik ne dovodi nužno do gubitka vaših bitkoina. Ono što vam omogućava da ponovo kreirate vaš novčanik i trošite vaš bitkoin je zapravo privatni ključ, zato ga uvek pravilno osigurajte!
 
 
 ![image](assets/sr-Latn/027.webp)
@@ -706,7 +706,7 @@ Srećom, od 2017. godine, privatni ključ može biti predstavljen jednostavnom l
 ### Šta je sa hakerima?
 
 
-Šta ako neko slučajno pogodi našu listu od 12 ili 24 reči? Kratak odgovor je da je to veoma malo verovatno, zahvaljujući kriptografiji koja se koristi za kreiranje novčanika. Da bismo to stavili u perspektivu, slučajno otkrivanje vaše iste Mnemonic fraze je slično pronalaženju "pravog" broja između 1 i 2 podignuto na stepen 256, što je gotovo ekvivalentno pronalaženju "pravog" atoma u Univerzumu. Međutim, ako niste zadovoljni ovom podrazumevanom sigurnošću, uvek je možete poboljšati dodavanjem passphrase (dodatne reči) vašem bitkoin Wallet.
+Šta ako neko slučajno pogodi našu listu od 12 ili 24 reči? Kratak odgovor je da je to veoma malo verovatno, zahvaljujući kriptografiji koja se koristi za kreiranje novčanika. Da bismo to stavili u perspektivu, slučajno otkrivanje vaše iste Mnemonic fraze je slično pronalaženju "pravog" broja između 1 i 2 podignuto na stepen 256, što je gotovo ekvivalentno pronalaženju "pravog" atoma u Univerzumu. Međutim, ako niste zadovoljni ovom podrazumevanom sigurnošću, uvek je možete poboljšati dodavanjem [passphrase](https://planb.academy/resources/glossary/passphrase-bip39) (dodatne reči) vašem bitkoin Wallet.
 
 
 ![image](assets/sr-Latn/028.webp)
@@ -755,7 +755,7 @@ Ovde dole, definisaćemo nekoliko nivoa bezbednosti:
 
 
 
-- **Nivo 0**, koristite takozvanu "uslužnu službu" gde niste jedini vlasnik svojih bitkoina. Budite svesni da vam ova pouzdana treća strana može ograničiti pristup vašim sredstvima u bilo kom trenutku. U ovom slučaju, vaš nivo finansijskog suvereniteta je sličan onom u tradicionalnom bankarskom sistemu sa bankovnim računom.
+- **Nivo 0**, koristite takozvanu "[uslužnu službu](https://planb.academy/resources/glossary/custody)" gde niste jedini vlasnik svojih bitkoina. Budite svesni da vam ova pouzdana treća strana može ograničiti pristup vašim sredstvima u bilo kom trenutku. U ovom slučaju, vaš nivo finansijskog suvereniteta je sličan onom u tradicionalnom bankarskom sistemu sa bankovnim računom.
 
 
 ![image](assets/sr-Latn/030.webp)
@@ -771,7 +771,7 @@ Na primer, možete koristiti Sparrow novčanik kao Hot Wallet:
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
-- **Nivo 2**, koristite fizički novčanik, i obezbedili ste svoju listu od 12/24 reči. Često se naziva "Cold Wallet" (Hladni novčanik), jer su vaši ključevi pohranjeni na uređaju koji nije povezan na internet. U ovom slučaju, uvek ćete morati da potpisujete svaku transakciju sa svojim uređajem, što čini vaša sredstva manje dostupnim na dnevnoj bazi.
+- **Nivo 2**, koristite fizički novčanik, i obezbedili ste svoju listu od 12/24 reči. Često se naziva "[Cold Wallet](https://planb.academy/resources/glossary/cold-wallet)" (Hladni novčanik), jer su vaši ključevi pohranjeni na uređaju koji nije povezan na internet. U ovom slučaju, uvek ćete morati da potpisujete svaku transakciju sa svojim uređajem, što čini vaša sredstva manje dostupnim na dnevnoj bazi.
 
 
 Na primer, možete koristiti Ledger, Satochip ili Tapsigner:
@@ -799,7 +799,7 @@ https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 
 
 
-- **Nivo 4**, koristite skup novčanika za kreiranje "Multisig" novčanik, što znači da su potrebni višestruki potpisi za obavljanje transakcije. U ovom slučaju, budite svesni da svaki deo Multisig treba biti uskladišten na različitim lokacijama. Ovaj pristup se često smatra naprednom upotrebom Bitkoina, prvenstveno za upravljanje velikim iznosima i za korporativne svrhe.
+- **Nivo 4**, koristite skup novčanika za kreiranje "[Multisig](https://planb.academy/resources/glossary/multisig)" novčanik, što znači da su potrebni višestruki potpisi za obavljanje transakcije. U ovom slučaju, budite svesni da svaki deo Multisig treba biti uskladišten na različitim lokacijama. Ovaj pristup se često smatra naprednom upotrebom Bitkoina, prvenstveno za upravljanje velikim iznosima i za korporativne svrhe.
 
 
 ![image](assets/sr-Latn/033.webp)
@@ -974,7 +974,7 @@ Sada kada smo pokrili osnove Bitkoin novčanika i najbolje prakse za njihovu za�
 ![image](assets/sr-Latn/038.webp)
 
 
-31. oktobar 2008. označava rođenje nove finansijske tehnologije koja se zove Bitkoin. Tog dana, anonimni Satoshi Nakamoto predstavio je svoju inovaciju svetu putem emaila poslatog na mailing listu cypherpunks-a, zajednice entuzijasta kriptografije posvećenih promociji privatnosti na internetu. Ovaj email je sadržao dokument nazvan "[White Paper](https://planb.academy/resources/glossary/white-paper)", koji je predstavio kako Bitkoin funkcioniše.
+31. oktobar 2008. označava rođenje nove finansijske tehnologije koja se zove Bitkoin. Tog dana, anonimni Satoshi Nakamoto predstavio je svoju inovaciju svetu putem emaila poslatog na mailing listu cypherpunks-a, zajednice entuzijasta kriptografije posvećenih promociji privatnosti na internetu. Ovaj email je sadržao dokument nazvan "White Paper", koji je predstavio kako Bitkoin funkcioniše.
 
 
 Ova inicijativa nije odmah izazvala entuzijazam, verovatno zbog prethodnih neuspeha u pokušajima stvaranja sistema digitalnog novca. Ipak, ovaj White Paper je na kraju postao referenca za Bitkoin korisnike i bio je predmet mnogih debata u Bitkoin ekosistemu tokom godina.
@@ -983,7 +983,7 @@ Ova inicijativa nije odmah izazvala entuzijazam, verovatno zbog prethodnih neusp
 ![image](assets/sr-Latn/039.webp)
 
 
-Dana 3. januara 2009. godine, Satoshi je zvanično inaugurisao mrežu Bitkoin kreiranjem prvog bloka, poznatog i kao "Genesis blok", čime je označen početak bitkoin Blockchain-a. Ovaj blok sadrži otkrivajuću poruku koja odražava misiju Bitkoina: "03/jan/2009 Chancellor on brink of second bailout for banks."
+Dana 3. januara 2009. godine, Satoshi je zvanično inaugurisao mrežu Bitkoin kreiranjem prvog bloka, poznatog i kao "[Genesis blok](https://planb.academy/resources/glossary/genesis-block)", čime je označen početak bitkoin Blockchain-a. Ovaj blok sadrži otkrivajuću poruku koja odražava misiju Bitkoina: "03/jan/2009 Chancellor on brink of second bailout for banks."
 
 
 ![image](assets/sr-Latn/040.webp)
@@ -1063,13 +1063,13 @@ U konkretnim terminima, kada Alice otvori svoj novčanik i pritisne "primi", pri
 Nakon toga, Bob obavlja transakciju otvaranjem svog bitkoin Wallet i pritiskom na "send". Zatim kopira i lepi Alice-in Address u traženo polje, dodaje iznos koji želi poslati i odlučuje o naknadama za transakciju, koje služe kao podsticaj rudarima da uključe transakciju u sledeći blok. Zapravo, što veće naknade Bob plati, to su mu veće šanse da transakcija bude uključena u sledeći blok dodat u Blockchain, tj. javni i nepromenljivi Ledger koji beleži sve bitkoin transakcije.
 
 
-Da bi finalizovao transakciju, Bob mora da je potpiše svojim privatnim ključem kako bi potvrdio da je vlasnik bitkoina koje želi da prenese. Ovaj korak je obično automatski na mobilnim novčanicima, ili se pojavljuje kao potvrda na vašem fizičkom novčaniku: "Da li ste sigurni da želite da pošaljete X ka Y? Da ili ne".
+Da bi finalizovao transakciju, Bob mora da je potpiše svojim privatnim ključem kako bi potvrdio da je vlasnik bitkoina koje želi da prenese. Ovaj korak je obično automatski na mobilnim novčanicima, ili se pojavljuje kao [potvrda](https://planb.academy/resources/glossary/confirmation) na vašem fizičkom novčaniku: "Da li ste sigurni da želite da pošaljete X ka Y? Da ili ne".
 
 
 ![image](assets/sr-Latn/045.webp)
 
 
-**Zašto plaćamo naknade?** Naknade su ključne za stvaranje slobodnog tržišta za uključivanje transakcija u blokove. Naime, blok ima veličinu od 1 MB (koja je proširena na 4 MB nakon SegWit ažuriranja), tako da je broj transakcija koje se mogu "ubaciti" u blok ograničen na nekoliko hiljada transakcija po bloku. Veličina transakcije zavisi od njene složenosti. Stoga, složenije transakcije obično podrazumevaju veće naknade.
+**Zašto plaćamo naknade?** Naknade su ključne za stvaranje slobodnog tržišta za uključivanje transakcija u blokove. Naime, blok ima veličinu od 1 MB (koja je proširena na 4 MB nakon [SegWit](https://planb.academy/resources/glossary/segwit) ažuriranja), tako da je broj transakcija koje se mogu "ubaciti" u blok ograničen na nekoliko hiljada transakcija po bloku. Veličina transakcije zavisi od njene složenosti. Stoga, složenije transakcije obično podrazumevaju veće naknade.
 
 
 ### Korak 2: Širenje transakcija kroz čvorove
@@ -1081,10 +1081,10 @@ U ovoj fazi, transakcija je kreirana i Bobov novčanik će je podeliti sa Bitkoi
 ![image](assets/sr-Latn/046.webp)
 
 
-U ovom trenutku, iako je ova transakcija poznata svima (putem alata zvanog Mempool), ne može se smatrati potvrđenom dok ne bude umetnuta u blok od strane rudara, koji je jedini koji potvrđuje transakcije uključujući ih u Blockchain.
+U ovom trenutku, iako je ova transakcija poznata svima (putem alata zvanog [Mempool](https://planb.academy/resources/glossary/mempool)), ne može se smatrati potvrđenom dok ne bude umetnuta u blok od strane rudara, koji je jedini koji potvrđuje transakcije uključujući ih u Blockchain.
 
 
-Zapravo, rudari imaju ulogu prikupljanja važećih i nepotvrđenih transakcija kako bi ih sastavili u blok. Ukratko, moraju rešiti kriptografski zadatak u procesu nazvanom "[proof of work](https://planb.academy/resources/glossary/proof-of-work)"(dokaz o radu) kako bi njihov blok bio sledeći u Bitkoin Blockchain-u.
+Zapravo, rudari imaju ulogu prikupljanja važećih i nepotvrđenih transakcija kako bi ih sastavili u blok. Ukratko, moraju rešiti kriptografski zadatak u procesu nazvanom "proof of work"(dokaz o radu) kako bi njihov blok bio sledeći u Bitkoin Blockchain-u.
 
 
 ![image](assets/sr-Latn/047.webp)
@@ -1093,7 +1093,7 @@ Zapravo, rudari imaju ulogu prikupljanja važećih i nepotvrđenih transakcija k
 ### Korak 3: Transakcija se rudari u bloku pod strane rudara.
 
 
-Sistem [proof of work](https://planb.academy/resources/glossary/proof-of-work) zahteva pronalaženje važećeg "Hash-a" za dati blok: zamislite to kao jedinstveni otisak prsta povezan sa blokom, sastavljen od 256 karaktera. Validnost ovog Hash-a zavisi od stepena težine Bitkoin mreže (o tome ćemo kasnije detaljnije). Za sada, uzmite u obzir da je rudar  pronašao važeći blok, i da je Bobova transakcija ka Alisi uključena u njega. Zatim, novi važeći blok se dodaje u Blockchain, zajednički Ledger za sve korisnike bitkoina.
+Sistem proof of work zahteva pronalaženje važećeg "Hash-a" za dati blok: zamislite to kao jedinstveni otisak prsta povezan sa blokom, sastavljen od 256 karaktera. Validnost ovog Hash-a zavisi od stepena težine Bitkoin mreže (o tome ćemo kasnije detaljnije). Za sada, uzmite u obzir da je rudar  pronašao važeći blok, i da je Bobova transakcija ka Alisi uključena u njega. Zatim, novi važeći blok se dodaje u Blockchain, zajednički Ledger za sve korisnike bitkoina.
 
 
 ![image](assets/sr-Latn/048.webp)
@@ -1207,16 +1207,16 @@ Nakon ove pobede, čvorovi su aktivirali ažuriranje pod nazivom SegWit, otvaraj
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
 
-**Rudari osiguravaju mrežu i dodaju transakcije u blokove. Koriste električnu energiju putem [ASIC](https://planb.academy/resources/glossary/asic) mašina da reše Bitkoin [proof of work](https://planb.academy/resources/glossary/proof-of-work)(dokaz o radu).**
+**Rudari osiguravaju mrežu i dodaju transakcije u blokove. Koriste električnu energiju putem ASIC mašina da reše Bitkoin proof of work(dokaz o radu).**
 
 
 ![image](assets/sr-Latn/054.webp)
 
 
-### Objašnjenje [proof of work](https://planb.academy/resources/glossary/proof-of-work)
+### Objašnjenje proof of work
 
 
-"[proof of work](https://planb.academy/resources/glossary/proof-of-work)" (POW) je mehanizam konsenzusa za bezbednost Bitkoin protokola. To je osnova svega i igra ključnu ulogu u teoriji igara Bitkoina.
+"proof of work" (POW) je mehanizam konsenzusa za bezbednost Bitkoin protokola. To je osnova svega i igra ključnu ulogu u teoriji igara Bitkoina.
 
 
 Da objasnimo kako to funkcioniše, zamislite univerzalnu lutriju u kojoj svako može učestvovati. Cilj je pronaći specifičan broj koji omogućava pobedniku da potpiše validan blok, zarađujući nagradu u bitkoinima. Ovaj broj je veoma jednostavan za verifikaciju korišćenjem SHA-256 Hash funkcije, ali ga je teško pronaći: učesnici (rudari) će pokušavati milijarde i milijarde mogućnosti, kao što su 1, 52, 2648, 26874615, 15344854131318631, i tako dalje, sve dok ne otkriju pravi.
@@ -1224,7 +1224,7 @@ Da objasnimo kako to funkcioniše, zamislite univerzalnu lutriju u kojoj svako m
 
 Ako je izabrani broj tačan: Džekpot! U suprotnom, potraga se nastavlja.
 
-Da bi optimizovali broj pokušaja, koristiće specifične mašine zvane ASIC, koje imaju jedinu ulogu da izračunavaju milijarde mogućnosti po sekundi (ukupna količina pokušaja se zove "Hashrate"). Da bi ove mašine radile, mora se trošiti velika količina električne energije. Stoga, POW pretvara energiju u valutu, povezujući stvarni svet i digitalni svet kako bi stvorio prvu valutu zasnovanu na energiji.
+Da bi optimizovali broj pokušaja, koristiće specifične mašine zvane ASIC, koje imaju jedinu ulogu da izračunavaju milijarde mogućnosti po sekundi (ukupna količina pokušaja se zove "[Hashrate](https://planb.academy/resources/glossary/hashrate)"). Da bi ove mašine radile, mora se trošiti velika količina električne energije. Stoga, POW pretvara energiju u valutu, povezujući stvarni svet i digitalni svet kako bi stvorio prvu valutu zasnovanu na energiji.
 
 
 Mašine rade neprekidno, i nakon prosečno 10 minuta, pojavljuje se pobednik: ovaj učesnik je uspešno pronašao tačan Hash koji je ispod praga težine. Ovaj jedini pobednik će zatim potpisati novi blok vremenskog servera, dodajući ga na Blockchain. Oni dobijaju svoje nagrade i vraćaju se da okušaju sreću u rudarenju sledećeg bloka. Ovaj proces traje više od deset godina, sa pobednikom koji potvrđuje bitkoin transakcije svakih 10 minuta dok takođe osigurava prošle transakcije, čineći Bitkoin Blockchain robusnijim i sigurnijim.
@@ -1245,7 +1245,7 @@ Tokom godina, rudari su se opremili sve efikasnijim računarima kako bi proizvel
 ![image](assets/sr-Latn/056.webp)
 
 
-Hashrate Bitkoin mreže predstavlja broj pokušaja napravljenih po sekundi da se pronađe sledeći blok. Danas Hashrate premašuje 500 TH/s, što je 500.000 milijardi pokušaja po sekundi! Što je veći globalni Hashrate, to je teže za zlonamernog aktera da monopolizuje resurse potrebne za dobijanje većine rudarske snage i potroši svoja sredstva više puta (problem dvostrukog trošenja). Stoga je ekonomski isplativije slediti pravila Bitkoin protokola nego delovati protiv njih.
+Hashrate Bitkoin mreže predstavlja broj pokušaja napravljenih po sekundi da se pronađe sledeći blok. Danas Hashrate premašuje 500 TH/s, što je 500.000 milijardi pokušaja po sekundi! Što je veći globalni Hashrate, to je teže za zlonamernog aktera da monopolizuje resurse potrebne za dobijanje većine rudarske snage i potroši svoja sredstva više puta (problem [dvostrukog trošenja](https://planb.academy/resources/glossary/double-spending-attack)). Stoga je ekonomski isplativije slediti pravila Bitkoin protokola nego delovati protiv njih.
 
 
 ![image](assets/sr-Latn/057.webp)
@@ -1257,7 +1257,7 @@ Hashrate Bitkoin mreže predstavlja broj pokušaja napravljenih po sekundi da se
 Zaglavlje bloka sadrži nekoliko elemenata kao što su vreme, cilj težine, broj poslednjeg bloka, korišćena verzija i Merkle Root prethodnih transakcija.
 
 
-**Coinbase Transaction** je uvek prva transakcija uključena u blok: sadrži nagradu rudara za izvršavanje Proof-of-Work. Zatim dolaze validirane transakcije. Rudari će odabrati da ubace transakcije koje im donose najveći profit, naime transakcije male veličine sa maksimalnim naknadama.
+**[Coinbase Transaction](https://planb.academy/resources/glossary/coinbase-transaction)** je uvek prva transakcija uključena u blok: sadrži nagradu rudara za izvršavanje Proof-of-Work. Zatim dolaze validirane transakcije. Rudari će odabrati da ubace transakcije koje im donose najveći profit, naime transakcije male veličine sa maksimalnim naknadama.
 
 
 ### Nagrada za rudare
@@ -1286,7 +1286,7 @@ Drugi metod kompenzacije definiše se iznosom koji korisnici odaberu za transakc
 ![image](assets/sr-Latn/059.webp)
 
 
-Da bi stabilizovali svoj poslovni model, koji se oslanja na nagrade koje dobijaju za svaki važeći blok, rudari često stvaraju grupe kroz "Rudarske bazene", gde udružuju svoje računarske resurse.
+Da bi stabilizovali svoj poslovni model, koji se oslanja na nagrade koje dobijaju za svaki važeći blok, rudari često stvaraju grupe kroz "[Rudarske bazene](https://planb.academy/resources/glossary/pool-mining)", gde udružuju svoje računarske resurse.
 
 
 ### Zašto se truditi raditi sve ovo?
@@ -1473,7 +1473,7 @@ Zatim, ponovo 2020. godine, tržište je doživelo još jedan špekulativni balo
 ### Bitkoin i volatilnost
 
 
-Na osnovu prethodnih ciklusa, čini se da je periodičnost ekonomskih ciklusa bitkoina ekvivalentna trajanju između dva prepolovljavanja, možda zato što Halving događaj deluje kao okidač smanjujući emisiju novih bitkoina na pola.
+Na osnovu prethodnih ciklusa, čini se da je periodičnost ekonomskih ciklusa bitkoina ekvivalentna trajanju između dva [prepolovljavanja](https://planb.academy/resources/glossary/halving), možda zato što Halving događaj deluje kao okidač smanjujući emisiju novih bitkoina na pola.
 
 
 Ove značajne fluktuacije su Bitkoinu donele reputaciju veoma nestabilne imovine, što često dovodi do značajnih gubitaka za njegove korisnike. Iako cena može pasti za 10%, 20% ili čak 50% u nekoliko dana, važno je razumeti da sam Bitkoin protokol nije pogođen promenama cena.
@@ -1623,7 +1623,7 @@ U konkretnim terminima, postoje dva pitanja koja treba da postavite sebi:
 
 
 
-- Dollar Cost Average (DCA)
+- [Dollar Cost Average (DCA)](https://planb.academy/resources/glossary/dollar-cost-averaging-dca)
 
 
 Ova postepena strategija uključuje ponavljajuće kupovine, što znači kupovinu malih količina bitkoina u redovnim intervalima. Ova metoda izravnava cenu tokom vremena i omogućava kontinuirani rast količine bitkoina u vlasništvu. To je idealno rešenje za dugoročne uštede i ublažava zabrinutosti u vezi sa volatilnošću cene bitkoina. Kada se jednom postavi, možete jednostavno zaboraviti na to i posmatrati kako vaša investicija raste.
@@ -1651,7 +1651,7 @@ U ovom slučaju, treba da budete pažljivi i da kontrolišete svoje emocije, jer
 ### Od koga treba da kupujemo bitcoin?
 
 
-Postoji nekoliko načina za sticanje bitkoina, pri čemu je svaki podložan sopstvenom skupu propisa koji mogu varirati u zavisnosti od jurisdikcije. Neke platforme zahtevaju identifikaciju radi verifikacije (KYC), dok druge ne. Stoga je ključno razumeti propise povezane sa svakom platformom.
+Postoji nekoliko načina za sticanje bitkoina, pri čemu je svaki podložan sopstvenom skupu propisa koji mogu varirati u zavisnosti od jurisdikcije. Neke platforme zahtevaju identifikaciju radi verifikacije ([KYC](https://planb.academy/resources/glossary/kyc-know-your-customer)), dok druge ne. Stoga je ključno razumeti propise povezane sa svakom platformom.
 
 
 
@@ -1768,11 +1768,11 @@ Sada kada poznajete osnove Bitcoin protokola, predstavićemo glavni platni siste
 
 ### Blockchain ne može sve
 
-Bitcoin blockchain je dizajniran tako da ga može proveravati što veći broj ljudi, bez dozvole i bez poverenja. Ovaj zahtev nameće strukturna ograničenja: blockchain ne može obraditi neograničenu količinu transakcija, jer blokovi moraju ostati razumne veličine za preuzimanje, skladištenje i proveru od strane nezavisnih čvorova, bez potrebe za skupim hardverom. Ovaj kompromis se često sažima u tzv. trilemu: decentralizacija, bezbednost, skalabilnost. Sistem zasnovan na blockchainu ne može istovremeno maksimizovati sve tri osobine. Bitcoin daje prednost decentralizaciji i bezbednosti, što prirodno ograničava mogući protok onchain transakcija.
+Bitcoin blockchain je dizajniran tako da ga može proveravati što veći broj ljudi, bez dozvole i bez poverenja. Ovaj zahtev nameće strukturna ograničenja: blockchain ne može obraditi neograničenu količinu transakcija, jer blokovi moraju ostati razumne veličine za preuzimanje, skladištenje i proveru od strane nezavisnih čvorova, bez potrebe za skupim hardverom. Ovaj kompromis se često sažima u tzv. trilemu: decentralizacija, bezbednost, skalabilnost. Sistem zasnovan na blockchainu ne može istovremeno maksimizovati sve tri osobine. Bitcoin daje prednost decentralizaciji i bezbednosti, što prirodno ograničava mogući protok [onchain](https://planb.academy/resources/glossary/onchain) transakcija.
 
 ![image](assets/sr-Latn/081.webp)
 
-Na Bitcoinu su programeri svesno donosili odluke kako bi favorizovali ove ciljeve. Sa jedne strane, veličina blokova ograničena na 1 MB i prosečno vreme od 10 minuta između dva bloka omogućavaju pokretanje Bitcoin čvora uz nizak trošak, što podstiče decentralizaciju mreže. Sa druge strane, proizvodnja blokova putem [proof of work](https://planb.academy/resources/glossary/proof-of-work) mehanizma čini svaki pokušaj prevare izuzetno skupim, dok istovremeno olakšava proveru čvorovima i jača ukupnu bezbednost protokola.
+Na Bitcoinu su programeri svesno donosili odluke kako bi favorizovali ove ciljeve. Sa jedne strane, veličina blokova ograničena na 1 MB i prosečno vreme od 10 minuta između dva bloka omogućavaju pokretanje Bitcoin čvora uz nizak trošak, što podstiče decentralizaciju mreže. Sa druge strane, proizvodnja blokova putem proof of work mehanizma čini svaki pokušaj prevare izuzetno skupim, dok istovremeno olakšava proveru čvorovima i jača ukupnu bezbednost protokola.
 
 Ove odluke, međutim, nameću važno ograničenje: broj transakcija koje se mogu uključiti u svaki blok je ograničen. To odgovara svega nekoliko transakcija u sekundi. Ovaj broj je zanemarljiv u poređenju sa kapacitetima centralizovanih platnih sistema poput Vise (koja ima teorijski maksimalni kapacitet od oko 65.000 transakcija u sekundi), ali to je cena koju treba platiti da bi se omogućile transakcije bez cenzure i bez posrednika od poverenja.
 
@@ -1786,7 +1786,7 @@ Lightning Network je upravo odgovor na ove probleme. Ideja Lightninga uklapa se 
 
 ### Platni kanali usidreni na Bitcoinu
 
-Lightning se zasniva na dvosmernim platnim kanalima. Kanal je tehnički odnos između dva učesnika koji im omogućava razmenu satoshija offchain, odnosno bez upisivanja svake pojedinačne transakcije u blockchain.
+Lightning se zasniva na dvosmernim [platnim kanalima](https://planb.academy/resources/glossary/payment-channel). Kanal je tehnički odnos između dva učesnika koji im omogućava razmenu [satoshija](https://planb.academy/resources/glossary/satoshi-sat) [offchain](https://planb.academy/resources/glossary/offchain), odnosno bez upisivanja svake pojedinačne transakcije u blockchain.
 
 Sa stanovišta Bitcoina (onchain), otvaranje kanala znači zaključavanje sredstava u posebnoj transakciji. To se može posmatrati kao svojevrsni escrow: sredstva su blokirana tako da samo validno zatvaranje kanala može da ih redistribuira.
 
@@ -1812,7 +1812,7 @@ Ovde se pojavljuje važan pojam Lightninga: likvidnost. Kapacitet kanala odgovar
 
 ### Prosleđivanje plaćanja bez poverenja u posrednike
 
-Lightning je dizajniran tako da omogući plaćanja preko posrednika bez potrebe da im se veruje. U tu svrhu, protokol koristi pametne ugovore zvane HTLC (*Hashed Time-Locked Contracts*). Bez ulaženja u sve detalje, važno je zapamtiti opšti mehanizam:
+Lightning je dizajniran tako da omogući plaćanja preko posrednika bez potrebe da im se veruje. U tu svrhu, protokol koristi pametne ugovore zvane [HTLC](https://planb.academy/resources/glossary/htlc) (*Hashed Time-Locked Contracts*). Bez ulaženja u sve detalje, važno je zapamtiti opšti mehanizam:
 * plaćanje je uslovljeno otkrivanjem tajne (preimage);
 * ako krajnji primalac otkrije tu tajnu, on prima sredstva, a posrednici mogu, zauzvrat, naplatiti ono što im pripada;
 * ako plaćanje ne uspe, rokovi ističu i svaka strana vraća svoja sredstva.
@@ -1893,7 +1893,7 @@ Kao što smo videli u prethodnim poglavljima, Bitcoin je dizajniran kao izuzetno
 
 Bitcoin ne evoluira samo kroz izmene svog osnovnog protokola. On se razvija i kroz nadgradnju, uz rešenja koja prave različite kompromise u zavisnosti od cilja. Neka se fokusiraju na skalabilnost plaćanja, druga na programabilnost (u širem smislu) i izdavanje aktiva, a treća pokušavaju da kombinuju oba pristupa.
 
-U ovom poglavlju predstavljamo četiri važna protokola koji svaki nude nove mogućnosti na Bitcoinu: sidechainove (posebno Liquid), Ark, RGB i Taproot Assets.
+U ovom poglavlju predstavljamo četiri važna protokola koji svaki nude nove mogućnosti na Bitcoinu: [sidechainove](https://planb.academy/resources/glossary/sidechain) (posebno Liquid), Ark, RGB i Taproot Assets.
 
 ### Sidechainovi: paralelni blockchainovi povezani sa Bitcoinom
 
@@ -1913,7 +1913,7 @@ https://planb.academy/courses/d3ca6943-b22c-4e50-b62d-9431460525bc
 
 Ark označava porodicu predloga i implementacija čiji je cilj poboljšanje skalabilnosti Bitcoina grupisanjem velikog broja korisničkih operacija u manji broj Bitcoin transakcija. Ideja je prilično jednostavna: umesto da se za svakog korisnika kreira posebna onchain transakcija, kreira se jedna onchain transakcija koja predstavlja paket, a zatim se prava svakog korisnika uglavnom razvijaju offchain, sve do trenutka kada se želi konačno poravnanje na Bitcoinu.
 
-Ovu ideju protokola drugog sloja predstavio je Burak u maju 2023. Kao i Lightning Network, Ark je sistem koji se gradi iznad glavnog Bitcoin lanca. On omogućava brza, anonimna i niskotarifna bitcoin plaćanja van lanca. U poređenju sa Lightningom, Ark ne zahteva ulaznu likvidnost za primanje plaćanja, što značajno poboljšava korisničko iskustvo. Pored toga, nudi nivo privatnosti sličan coinjoin transakcijama. Ark bi takođe mogao biti neinteraktivan ako se u Bitcoin dodaju covenant mehanizmi.
+Ovu ideju protokola drugog sloja predstavio je Burak u maju 2023. Kao i Lightning Network, Ark je sistem koji se gradi iznad glavnog Bitcoin lanca. On omogućava brza, anonimna i niskotarifna bitcoin plaćanja van lanca. U poređenju sa Lightningom, Ark ne zahteva ulaznu likvidnost za primanje plaćanja, što značajno poboljšava korisničko iskustvo. Pored toga, nudi nivo privatnosti sličan [coinjoin](https://planb.academy/resources/glossary/coinjoin) transakcijama. Ark bi takođe mogao biti neinteraktivan ako se u Bitcoin dodaju covenant mehanizmi.
 
 Burak često kritikuje sposobnost Lightninga da se skalira zbog njegove zavisnosti od glavnog lanca i sugeriše da bi Ark teorijski mogao integrisati celokupnu svetsku populaciju u self-custody model. Iako se Ark može posmatrati kao konkurentski protokol Lightning Networku, u praksi oba mogu koegzistirati i čak se međusobno dopunjavati.
 

@@ -1,0 +1,8 @@
+question: What is the main difference between quantitative easing and traditional savings financing from the point of view of economic coordination?
+answer: Quantitative easing creates money without prior savings, disconnecting price signals from economic reality
+wrong_answers:
+  - "Quantitative easing enables a better allocation of resources by circumventing the constraints of limited savings"
+  - "Quantitative easing more accurately reflects the economy's real liquidity needs than traditional savings"
+  - "Quantitative easing better coordinates capital supply and demand by eliminating rigidities in the savings market"
+explanation: |
+  The correct answer identifies the fundamental problem raised by Austrian theory: quantitative easing artificially creates money without any corresponding real savings, thus distorting the price signals essential to the market. Wrong answers incorrectly suggest that this money creation improves economic coordination, whereas according to the analysis presented, it deteriorates it by creating a disconnect between the signals received by entrepreneurs and the real time preferences of consumers.

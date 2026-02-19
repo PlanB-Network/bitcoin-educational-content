@@ -129,8 +129,6 @@ Bist du bereit, die volle Kontrolle über deine IT-Sicherheit zu übernehmen, de
 
 
 
-*Hinweis: Wenn du während des Kurses auf unbekannte Begriffe stösst, konsultiere bitte das [das Glossar](https://planb.academy/resources/glossary) für Definitionen.
-
 
 
 
@@ -1189,7 +1187,7 @@ Parrot OS ist ebenfalls von Debian abgeleitet. Es bietet eine Umgebung für Pent
 
 
 
-Tails ist eine Debian-basierte Live-Distribution, bei der die Privatsphäre im Vordergrund steht. Alles läuft über das Tor-Netzwerk, und nichts wird zwischen den Benutzersitzungen gespeichert. Es ist eine ideale Distribution für sensible, einmalige Anwendungsfälle (Journalismus, Aktivismus, Erzeugung von Bitcoin Seeds...).
+Tails ist eine Debian-basierte Live-Distribution, bei der die Privatsphäre im Vordergrund steht. Alles läuft über das [Tor](https://planb.academy/resources/glossary/tor)-Netzwerk, und nichts wird zwischen den Benutzersitzungen gespeichert. Es ist eine ideale Distribution für sensible, einmalige Anwendungsfälle (Journalismus, Aktivismus, Erzeugung von Bitcoin [Seeds](https://planb.academy/resources/glossary/seed)...).
 
 
 
@@ -3949,7 +3947,7 @@ Eine Datei kann intakt (unverändert) sein, aber von einer böswilligen Organisa
 
 
 
-Diese Überprüfung der Herkunft wird durch die digitale Signatur ermöglicht, einen kryptografischen Mechanismus, der die Datei mit dem privaten Schlüssel des Entwicklers verknüpft. Wenn du diese Signatur mit dem öffentlichen Schlüssel des Entwicklers (der über sichere Kanäle verteilt wird) überprüfst, kannst du sicher sein, dass die Datei tatsächlich von dieser Person stammt.
+Diese Überprüfung der Herkunft wird durch die [digitale Signatur](https://planb.academy/resources/glossary/digital-signature) ermöglicht, einen kryptografischen Mechanismus, der die Datei mit dem privaten Schlüssel des Entwicklers verknüpft. Wenn du diese Signatur mit dem öffentlichen Schlüssel des Entwicklers (der über sichere Kanäle verteilt wird) überprüfst, kannst du sicher sein, dass die Datei tatsächlich von dieser Person stammt.
 
 Indem du sowohl die Authentizität (d.h., dass die Installationsdatei aus der richtigen Quelle stammt) als auch die Integrität (d.h., dass sie seit ihrer Veröffentlichung durch den rechtmässigen Entwickler nicht verändert wurde) überprüfst, kannst du sicher sein, dass du die richtige Software installierst.
 
@@ -3971,7 +3969,7 @@ Das zweite Werkzeug ist die digitale Signatur. Damit wird die Authentizität der
 
 
 
-Dieses System stützt sich auf asymmetrische Kryptographie und Tools wie GnuPG (Befehlszeile) oder Kleopatra (Interface grafisch für Windows). Diese Tools müssen ordnungsgemäss konfiguriert werden, und der öffentliche Schlüssel des Entwicklers muss über einen sicheren Kanal verifiziert werden (offizielle Website, Fingerabdruck auf Twitter...). Werfen wir einen Blick auf die praktischen Aspekte.
+Dieses System stützt sich auf asymmetrische [Kryptographie](https://planb.academy/resources/glossary/cryptography) und Tools wie GnuPG (Befehlszeile) oder Kleopatra (Interface grafisch für Windows). Diese Tools müssen ordnungsgemäss konfiguriert werden, und der öffentliche Schlüssel des Entwicklers muss über einen sicheren Kanal verifiziert werden (offizielle Website, Fingerabdruck auf Twitter...). Werfen wir einen Blick auf die praktischen Aspekte.
 
 
 

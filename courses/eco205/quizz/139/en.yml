@@ -1,0 +1,8 @@
+question: According to the analysis presented, why do the three monetary manipulation mechanisms (key rates, quantitative easing, direct lending) produce the same negative effect on the economy?
+answer: They all create money ex nihilo and distort the price signals essential to the functioning of the market
+wrong_answers:
+  - "They all directly increase inflation without stimulating real economic growth."
+  - "They are all reducing households' ability to save by devaluing their monetary assets."
+  - They all concentrate economic power in the hands of large financial institutions
+explanation: |
+  The correct answer identifies the fundamental problem according to Austrian theory: these three mechanisms artificially create money and distort the price signals that normally coordinate savings and investment. The other answers, while describing possible effects, fail to capture the essence of the dysfunction: artificial money creation that disconnects economic signals from reality, causing a misallocation of resources.

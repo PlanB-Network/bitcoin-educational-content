@@ -1,0 +1,8 @@
+question: How did Carl Menger define economics in his Principles of Political Economy?
+answer: As the theory of the human being's ability to meet his needs
+wrong_answers:
+  - "Like the study of price formation mechanisms on markets"
+  - "Like the statistical analysis of collective consumer behavior"
+  - As the science of optimal distribution of scarce resources
+explanation: |
+  Carl Menger defined economics as the theory of human capacity to meet needs, placing the individual at the center of analysis. This definition stands in contrast to approaches that focus solely on prices, collective statistics or resource distribution, as Menger favored an organic, atomistic approach centered on concrete individual choices.

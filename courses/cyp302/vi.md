@@ -94,7 +94,7 @@ Sẵn sàng khám phá thế giới hấp dẫn của mật mã học chưa? Đi
 
 <chapterId>ae674346-4789-5ab1-9b6f-c8989d83be89</chapterId>
 
-Chúng ta hãy bắt đầu cuộc điều tra của chúng ta về lĩnh vực mật mã với một trong những giai đoạn hấp dẫn và thú vị nhất trong lịch sử của nó: đó là về mật mã Beale. [1]
+Chúng ta hãy bắt đầu cuộc điều tra của chúng ta về lĩnh vực [mật mã](https://planb.academy/resources/glossary/cryptography) với một trong những giai đoạn hấp dẫn và thú vị nhất trong lịch sử của nó: đó là về mật mã Beale. [1]
 
 Theo tôi, câu chuyện về mật mã Beale có nhiều khả năng là hư cấu hơn là thực tế. Nhưng nó được cho là đã diễn ra như sau.
 
@@ -102,7 +102,7 @@ Vào cả mùa đông năm 1820 và 1822, một người đàn ông tên là Tho
 
 Vài tháng sau, Morriss nhận được một lá thư từ Beale có ngày 9 tháng 5 năm 1822. Lá thư nhấn mạnh giá trị to lớn của những thứ bên trong hộp sắt và liên quan đến một số chỉ dẫn cho Morriss: nếu Beale hoặc bất kỳ cộng sự nào của ông không bao giờ đến nhận hộp, ông phải mở nó đúng mười năm kể từ ngày của lá thư (tức là ngày 9 tháng 5 năm 1832). Một số giấy tờ bên trong sẽ được viết bằng văn bản thông thường. Tuy nhiên, một số giấy tờ khác sẽ "không thể hiểu được nếu không có sự trợ giúp của chìa khóa". Sau đó, "chìa khóa" này sẽ được một người bạn giấu tên của Beale chuyển đến Morriss vào tháng 6 năm 1832.
 
-Mặc dù có hướng dẫn rõ ràng, Morriss đã không mở hộp vào tháng 5 năm 1832 và người bạn bí ẩn của Beale không bao giờ xuất hiện vào tháng 6 năm đó. Phải đến năm 1845, chủ quán trọ mới quyết định mở hộp. Trong đó, Morriss tìm thấy một ghi chú giải thích cách Beale và các cộng sự của ông phát hiện ra vàng và bạc ở miền Tây và chôn chúng cùng với một số đồ trang sức để giữ an toàn. Ngoài ra, hộp còn chứa ba **bản mã**: tức là các văn bản được viết bằng mã yêu cầu **khóa mật mã** hoặc bí mật và một thuật toán đi kèm để mở khóa. Quá trình mở khóa bản mã này được gọi là **giải mã**, trong khi quá trình khóa được gọi là **mã hóa**. (Như đã giải thích trong Chương 3, thuật ngữ cipher có thể mang nhiều ý nghĩa khác nhau. Trong tên "Beale ciphers", nó là viết tắt của ciphertexts.)
+Mặc dù có hướng dẫn rõ ràng, Morriss đã không mở hộp vào tháng 5 năm 1832 và người bạn bí ẩn của Beale không bao giờ xuất hiện vào tháng 6 năm đó. Phải đến năm 1845, chủ quán trọ mới quyết định mở hộp. Trong đó, Morriss tìm thấy một ghi chú giải thích cách Beale và các cộng sự của ông phát hiện ra vàng và bạc ở miền Tây và chôn chúng cùng với một số đồ trang sức để giữ an toàn. Ngoài ra, hộp còn chứa ba **bản mã**: tức là các văn bản được viết bằng mã yêu cầu **khóa mật mã** hoặc bí mật và một thuật toán đi kèm để mở khóa. Quá trình mở khóa bản mã này được gọi là **giải mã**, trong khi quá trình khóa được gọi là **[mã hóa](https://planb.academy/resources/glossary/encryption-encrypt)**. (Như đã giải thích trong Chương 3, thuật ngữ cipher có thể mang nhiều ý nghĩa khác nhau. Trong tên "Beale ciphers", nó là viết tắt của ciphertexts.)
 
 Ba bản mã mà Morriss tìm thấy trong hộp sắt đều bao gồm một chuỗi số được phân cách bằng dấu phẩy. Theo ghi chú của Beale, các bản mã này cung cấp riêng vị trí của kho báu, nội dung của kho báu và danh sách tên những người thừa kế hợp pháp của kho báu và cổ phần của họ (thông tin sau có liên quan trong trường hợp Beale và các cộng sự của ông không bao giờ đến nhận hộp).
 
@@ -144,13 +144,13 @@ Một sự phân biệt quan trọng cần ghi nhớ là giữa **sơ đồ mã 
 
 Các chủ đề về tính toàn vẹn và tính xác thực cũng quan trọng như tính bí mật. Các hệ thống truyền thông hiện đại của chúng ta sẽ không thể hoạt động nếu không có sự đảm bảo về tính toàn vẹn và tính xác thực của thông tin liên lạc. Tính không thể chối bỏ cũng là một mối quan tâm quan trọng, chẳng hạn như đối với các hợp đồng kỹ thuật số, nhưng ít cần thiết hơn trong các ứng dụng mật mã so với tính bí mật, tính toàn vẹn và tính xác thực.
 
-Thứ hai, các chương trình mã hóa cổ điển như mật mã Beale luôn liên quan đến một khóa được chia sẻ giữa tất cả các bên liên quan. Tuy nhiên, nhiều chương trình mã hóa hiện đại không chỉ liên quan đến một mà là hai khóa: **khóa riêng tư** và **khóa công khai**. Trong khi khóa trước phải được giữ riêng tư trong bất kỳ ứng dụng nào, thì khóa sau thường là kiến thức công khai (do đó, chúng có tên gọi tương ứng). Trong phạm vi mã hóa, khóa công khai có thể được sử dụng để mã hóa thông điệp, trong khi khóa riêng có thể được sử dụng để giải mã.
+Thứ hai, các chương trình mã hóa cổ điển như mật mã Beale luôn liên quan đến một khóa được chia sẻ giữa tất cả các bên liên quan. Tuy nhiên, nhiều chương trình mã hóa hiện đại không chỉ liên quan đến một mà là hai khóa: **[khóa riêng tư](https://planb.academy/resources/glossary/private-key)** và **[khóa công khai](https://planb.academy/resources/glossary/public-key)**. Trong khi khóa trước phải được giữ riêng tư trong bất kỳ ứng dụng nào, thì khóa sau thường là kiến thức công khai (do đó, chúng có tên gọi tương ứng). Trong phạm vi mã hóa, khóa công khai có thể được sử dụng để mã hóa thông điệp, trong khi khóa riêng có thể được sử dụng để giải mã.
 
 Ngành mật mã học xử lý các lược đồ mà tất cả các bên chia sẻ một khóa được gọi là **mật mã đối xứng**. Khóa duy nhất trong lược đồ như vậy thường được gọi là **khóa riêng** (hoặc khóa bí mật). Ngành mật mã học xử lý các lược đồ yêu cầu cặp khóa riêng-công khai được gọi là **mật mã bất đối xứng**. Các nhánh này đôi khi cũng được gọi là **mật mã khóa riêng** và **mật mã khóa công khai** (mặc dù điều này có thể gây nhầm lẫn, vì các lược đồ mật mã khóa công khai cũng có khóa riêng).
 
 Sự ra đời của mật mã bất đối xứng vào cuối những năm 1970 là một trong những sự kiện quan trọng nhất trong lịch sử mật mã. Nếu không có nó, hầu hết các hệ thống truyền thông hiện đại của chúng ta, bao gồm cả Bitcoin, sẽ không thể thực hiện được hoặc ít nhất là rất không thực tế.
 
-Điều quan trọng là, mật mã học hiện đại không chỉ nghiên cứu các lược đồ mật mã khóa đối xứng và bất đối xứng (mặc dù điều đó bao gồm phần lớn lĩnh vực này). Ví dụ, mật mã học cũng liên quan đến các hàm băm và trình tạo số giả ngẫu nhiên, và bạn có thể xây dựng các ứng dụng trên các nguyên hàm này không liên quan đến mật mã khóa đối xứng hoặc bất đối xứng.
+Điều quan trọng là, mật mã học hiện đại không chỉ nghiên cứu các lược đồ mật mã khóa đối xứng và bất đối xứng (mặc dù điều đó bao gồm phần lớn lĩnh vực này). Ví dụ, mật mã học cũng liên quan đến các [hàm băm](https://planb.academy/resources/glossary/hash-function) và trình tạo số giả ngẫu nhiên, và bạn có thể xây dựng các ứng dụng trên các nguyên hàm này không liên quan đến mật mã khóa đối xứng hoặc bất đối xứng.
 
 Thứ ba, các lược đồ mã hóa cổ điển, như những lược đồ được sử dụng trong mật mã Beale, mang tính nghệ thuật hơn là khoa học. Tính bảo mật được nhận thức của chúng phần lớn dựa trên trực giác về độ phức tạp của chúng. Chúng thường được vá khi phát hiện ra một cuộc tấn công mới vào chúng hoặc bị loại bỏ hoàn toàn nếu cuộc tấn công đặc biệt nghiêm trọng. Tuy nhiên, mật mã học hiện đại là một khoa học nghiêm ngặt với cách tiếp cận toán học chính thức để phát triển và phân tích các lược đồ mật mã. [5]
 
@@ -1740,7 +1740,7 @@ Vậy, điều gì đã xảy ra vào những năm 1970? Làm sao chúng ta có 
 
 Sự kiên trì của Diffie, Hellman và Merkle đã được đền đáp. Ấn phẩm đầu tiên về kết quả của họ là một bài báo của Diffie và Helmann năm 1976 có tựa đề “New Directions in Cryptography.” Trong đó, họ trình bày hai cách ban đầu để giải quyết vấn đề phân phối khóa và quản lý khóa.
 
-Giải pháp đầu tiên mà họ đưa ra là một *giao thức trao đổi khóa* từ xa, tức là một tập hợp các quy tắc để trao đổi một hoặc nhiều khóa đối xứng qua một kênh truyền thông không an toàn. Giao thức này hiện được gọi là *trao đổi khóa Diffie-Helmann* hoặc *trao đổi khóa Diffie-Helmann-Merkle*. [2]
+Giải pháp đầu tiên mà họ đưa ra là một *giao thức trao đổi khóa* từ xa, tức là một tập hợp các quy tắc để trao đổi một hoặc nhiều khóa đối xứng qua một kênh truyền thông không an toàn. Giao thức này hiện được gọi là *trao đổi khóa [Diffie-Helmann](https://planb.academy/resources/glossary/diffiehellman)* hoặc *trao đổi khóa Diffie-Helmann-Merkle*. [2]
 
 Với trao đổi khóa Diffie-Helmann, hai bên đầu tiên trao đổi một số thông tin công khai trên một kênh không an toàn như Internet. Trên cơ sở thông tin đó, sau đó, họ độc lập tạo một khóa đối xứng (hoặc một cặp khóa đối xứng) để giao tiếp an toàn. Trong khi cả hai bên tạo khóa của mình một cách độc lập, thông tin họ chia sẻ công khai đảm bảo rằng quá trình tạo khóa này mang lại cùng một kết quả cho cả hai bên.
 
@@ -1774,7 +1774,7 @@ Các hàm cửa bẫy được sử dụng trong mật mã bất đối xứng (
 
 **Bài toán logarit rời rạc** là bài toán xảy ra trong các nhóm tuần hoàn. Với một bộ tạo trong một nhóm tuần hoàn cụ thể, bài toán này yêu cầu tính toán số mũ duy nhất cần thiết để tạo ra một phần tử khác trong nhóm từ bộ tạo.
 
-Các lược đồ dựa trên logarit rời rạc dựa trên hai loại chính của nhóm tuần hoàn: nhóm nhân số nguyên và nhóm bao gồm các điểm trên đường cong elliptic. Trao đổi khóa Diffie Helmann ban đầu như được trình bày trong “New Directions in Cryptography” hoạt động với nhóm nhân số nguyên tuần hoàn. Thuật toán chữ ký số của Bitcoin và lược đồ chữ ký Schnorr mới được giới thiệu (2021) đều dựa trên bài toán logarit rời rạc cho một nhóm tuần hoàn đường cong elliptic cụ thể.
+Các lược đồ dựa trên logarit rời rạc dựa trên hai loại chính của nhóm tuần hoàn: nhóm nhân số nguyên và nhóm bao gồm các điểm trên [đường cong elliptic](https://planb.academy/resources/glossary/elliptic-curve). Trao đổi khóa Diffie Helmann ban đầu như được trình bày trong “New Directions in Cryptography” hoạt động với nhóm nhân số nguyên tuần hoàn. Thuật toán [chữ ký số](https://planb.academy/resources/glossary/digital-signature) của Bitcoin và lược đồ chữ ký [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol) mới được giới thiệu (2021) đều dựa trên bài toán logarit rời rạc cho một nhóm tuần hoàn đường cong elliptic cụ thể.
 
 Tiếp theo, chúng ta sẽ chuyển sang tổng quan cấp cao về tính bảo mật và xác thực trong bối cảnh bất đối xứng. Tuy nhiên, trước khi thực hiện, chúng ta cần ghi chú lịch sử ngắn gọn.
 
@@ -1838,7 +1838,7 @@ Một ví dụ khác, chữ ký số là một khía cạnh quan trọng của p
 
 Một ví dụ cuối cùng về sức mạnh của chữ ký số, hãy xem xét Bitcoin. Một trong những quan niệm sai lầm phổ biến nhất về Bitcoin, đặc biệt là trên phương tiện truyền thông, là các giao dịch được mã hóa: chúng không được mã hóa. Thay vào đó, các giao dịch Bitcoin hoạt động với chữ ký số để đảm bảo an ninh.
 
-Bitcoin tồn tại theo từng đợt gọi là đầu ra giao dịch chưa sử dụng (hoặc **UTXO**). Giả sử bạn nhận được ba khoản thanh toán trên một địa chỉ Bitcoin cụ thể, mỗi khoản 2 bitcoin. Về mặt kỹ thuật, hiện tại bạn không có 6 bitcoin trên địa chỉ đó. Thay vào đó, bạn có ba đợt, mỗi đợt 2 bitcoin bị khóa bởi một vấn đề mật mã liên quan đến địa chỉ đó. Đối với bất kỳ khoản thanh toán nào bạn thực hiện, bạn có thể sử dụng một, hai hoặc cả ba đợt này, tùy thuộc vào số tiền bạn cần cho giao dịch.
+Bitcoin tồn tại theo từng đợt gọi là đầu ra giao dịch chưa sử dụng (hoặc **[UTXO](https://planb.academy/resources/glossary/utxo)**). Giả sử bạn nhận được ba khoản thanh toán trên một địa chỉ Bitcoin cụ thể, mỗi khoản 2 bitcoin. Về mặt kỹ thuật, hiện tại bạn không có 6 bitcoin trên địa chỉ đó. Thay vào đó, bạn có ba đợt, mỗi đợt 2 bitcoin bị khóa bởi một vấn đề mật mã liên quan đến địa chỉ đó. Đối với bất kỳ khoản thanh toán nào bạn thực hiện, bạn có thể sử dụng một, hai hoặc cả ba đợt này, tùy thuộc vào số tiền bạn cần cho giao dịch.
 
 Bằng chứng về quyền sở hữu đối với các đầu ra giao dịch chưa chi thường được thể hiện thông qua một hoặc nhiều chữ ký số. Bitcoin hoạt động chính xác vì các chữ ký số hợp lệ trên các đầu ra giao dịch chưa chi không khả thi về mặt tính toán để tạo ra, trừ khi bạn sở hữu thông tin bí mật cần thiết để tạo ra chúng.
 
@@ -1884,7 +1884,7 @@ Hãy bắt đầu bằng cách định nghĩa hàm băm. **Hàm băm** là bất
 
 Trong bối cảnh của mật mã học, "hàm băm" thường ám chỉ hàm băm mật mã. Tôi sẽ áp dụng phương pháp đó từ đây trở đi.
 
-Một ví dụ về hàm băm phổ biến là **SHA-256** (thuật toán băm an toàn 256). Bất kể kích thước của đầu vào (ví dụ: 15 bit, 100 bit hoặc 10.000 bit), hàm này sẽ tạo ra giá trị băm 256 bit. Dưới đây, bạn có thể thấy một số ví dụ về đầu ra của hàm SHA-256.
+Một ví dụ về hàm băm phổ biến là **[SHA-256](https://planb.academy/resources/glossary/sha256)** (thuật toán băm an toàn 256). Bất kể kích thước của đầu vào (ví dụ: 15 bit, 100 bit hoặc 10.000 bit), hàm này sẽ tạo ra giá trị băm 256 bit. Dưới đây, bạn có thể thấy một số ví dụ về đầu ra của hàm SHA-256.
 
 “Xin chào”: `185f8db32271fe25f561a6fc938b2e264306ec304eda518007d1764826381969`
 

@@ -81,8 +81,6 @@ Pour clôturer ce cours, vous pourrez tenter d'avoir votre diplôme en passant l
 
 Prêt à prendre pleinement en main votre sécurité informatique, renforcer votre souveraineté individuelle et garantir votre confidentialité en ligne ? Allons-y !
 
-*P.S. : Si vous rencontrez des termes qui vous sont inconnus au cours de la formation, veuillez consulter [le glossaire](https://planb.academy/resources/glossary) pour en trouver les définitions.*
-
 ## Récapitulatif essentiel de SCU 101
 <chapterId>26cfac35-a3bb-4657-95b3-8508bedfa903</chapterId>
 
@@ -96,7 +94,7 @@ https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Naviguer en ligne de façon sécurisée
 
-La navigation internet représente souvent la porte d’entrée principale des menaces informatiques. Dans SCU 101, nous avons vu qu'il est important de rester vigilant face notamment aux téléchargements. Téléchargez uniquement des fichiers provenant de sources fiables, en privilégiant les logiciels libres (open source) qui bénéficient souvent d'une meilleure transparence et de contrôles par la communauté.
+La navigation internet représente souvent la porte d’entrée principale des menaces informatiques. Dans SCU 101, nous avons vu qu'il est important de rester vigilant face notamment aux téléchargements. Téléchargez uniquement des fichiers provenant de sources fiables, en privilégiant les logiciels libres ([open source](https://planb.academy/resources/glossary/foss)) qui bénéficient souvent d'une meilleure transparence et de contrôles par la communauté.
 
 Une autre bonne pratique vue dans la formation concerne les cookies, ces petits fichiers déposés sur votre ordinateur lors de vos visites sur des sites web. Vous devez régulièrement les supprimer ou les limiter pour préserver votre vie privée.
 
@@ -618,7 +616,7 @@ Parrot OS est également dérivée de Debian. Elle propose un environnement pour
 
 - **Tails** :
 
-Tails est une distribution live basée sur Debian, orientée vers la confidentialité. Tout passe par le réseau Tor, rien n’est conservé entre deux sessions utilisateur. C'est une distribution idéale pour des usages ponctuels sensibles (journalisme, activisme, génération de seed Bitcoin...).
+Tails est une distribution live basée sur Debian, orientée vers la confidentialité. Tout passe par le réseau [Tor](https://planb.academy/resources/glossary/tor), rien n’est conservé entre deux sessions utilisateur. C'est une distribution idéale pour des usages ponctuels sensibles (journalisme, activisme, génération de [seed](https://planb.academy/resources/glossary/seed) Bitcoin...).
 
 https://planb.academy/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
@@ -1714,7 +1712,7 @@ Tous les systèmes d’exploitation modernes permettent la création de plusieur
 Par exemple, vous pourriez structurer vos sessions de cette manière :
 - Un compte dédié à votre activité professionnelle, où vous n’installez que les logiciels strictement nécessaires (suites bureautiques, outils de collaboration, messageries professionnelles...). Cette session ne doit pas servir à naviguer librement sur le web ni à tester des logiciels ;
 - Un compte pour les usages personnels, utilisé pour la navigation web quotidienne, les réseaux sociaux, le streaming, ou l’installation d’applications grand public. C’est typiquement la session la plus exposée aux attaques via le navigateur ou les téléchargements douteux ;
-- Un compte réservé aux activités sensibles, comme la consultation de comptes bancaires, la gestion de vos portefeuilles Bitcoin, ou tout autre usage qui nécessite un haut niveau de sécurité. Ce compte doit être utilisé exclusivement pour ces tâches, en limitant les logiciels installés au strict nécessaire et avec une configuration réseau plus stricte ;
+- Un compte réservé aux activités sensibles, comme la consultation de comptes bancaires, la gestion de vos [portefeuilles](https://planb.academy/resources/glossary/wallet) Bitcoin, ou tout autre usage qui nécessite un haut niveau de sécurité. Ce compte doit être utilisé exclusivement pour ces tâches, en limitant les logiciels installés au strict nécessaire et avec une configuration réseau plus stricte ;
 - Un compte invité ou fortement restreint, destiné exclusivement à un usage ponctuel par les membres de votre famille par exemple. Ce compte doit évidemment ne pas avoir de droits administrateurs et être limité dans ses accès.
 
 Il y a plusieurs intérêts à adopter cette approche. D’abord, les applications installées dans une session ne peuvent pas interférer avec celles des autres (sauf élévation de privilège). Ensuite, si une session est compromise, par exemple via un malware téléchargé, l’impact est généralement contenu dans les limites de ce compte. Cela signifie que vos documents professionnels ou vos portefeuilles Bitcoin resteront inaccessibles au logiciel malveillant si ceux-ci sont conservés dans une autre session correctement isolée.
@@ -2040,13 +2038,13 @@ Lorsque vous téléchargez un logiciel depuis Internet, vous faites implicitemen
 
 L’intégrité d’un fichier garantit qu’il n’a pas été modifié, intentionnellement ou non, entre le moment où il a été publié par le développeur et celui où vous l’avez téléchargé. Une modification, même infime, peut suffire à insérer du code malveillant dans un logiciel.
 
-Ces modifications ne sont pas visibles à l’œil nu : le fichier téléchargé peut parfaitement s’ouvrir et s’exécuter normalement, tout en exécutant en parallèle un comportement malveillant. D’où l’importance de vérifier son intégrité à l’aide d’empreintes cryptographiques (le hash).
+Ces modifications ne sont pas visibles à l’œil nu : le fichier téléchargé peut parfaitement s’ouvrir et s’exécuter normalement, tout en exécutant en parallèle un comportement malveillant. D’où l’importance de vérifier son intégrité à l’aide d’empreintes cryptographiques (le [hash](https://planb.academy/resources/glossary/hash-function)).
 
 #### Authenticité : garantir que le logiciel vient bien de la bonne source
 
 Un fichier peut être intègre (non modifié), mais avoir été publié par une entité malveillante usurpant l’identité du développeur légitime. L’authenticité vise donc à confirmer que le fichier provient réellement de la source officielle, et non d’un imposteur, d’un site miroir non vérifié, ou d’un pirate qui aurait compromis le serveur de distribution.
 
-Cette vérification de l'origine est rendue possible par la signature numérique, un mécanisme cryptographique qui lie le fichier à la clé privée du développeur. Lorsque vous vérifiez cette signature à l’aide de la clé publique du développeur (distribuée via des canaux sûrs), vous vous assurez que le fichier provient bien de cette personne.
+Cette vérification de l'origine est rendue possible par la [signature numérique](https://planb.academy/resources/glossary/digital-signature), un mécanisme cryptographique qui lie le fichier à la [clé privée](https://planb.academy/resources/glossary/private-key) du développeur. Lorsque vous vérifiez cette signature à l’aide de la [clé publique](https://planb.academy/resources/glossary/public-key) du développeur (distribuée via des canaux sûrs), vous vous assurez que le fichier provient bien de cette personne.
 
 En vérifiant à la fois l’authenticité (c’est-à-dire que le fichier d’installation provient bien de la bonne source) et l’intégrité (c’est-à-dire qu’il n’a pas été modifié depuis sa publication par le développeur légitime) vous vous assurez d’installer le bon logiciel.
 
@@ -2058,7 +2056,7 @@ Le développeur légitime publie généralement le hash du fichier original sur 
 
 Le second outil est la signature numérique. Elle permet de vérifier l’authenticité du logiciel d'installation. Le développeur signe le fichier contenant les hash avec sa clé privée, et vous pouvez vérifier cette signature en utilisant la clé publique correspondante. Cela prouve que le fichier a été publié par la bonne personne.
 
-Ce système repose sur la cryptographie asymétrique et des outils comme GnuPG (en ligne de commande) ou Kleopatra (interface graphique pour Windows). Ces outils doivent être bien configurés, et la clé publique du développeur doit être vérifiée via un canal sûr (site officiel, fingerprint sur Twitter...). Voyons ensemble comment faire concrètement.
+Ce système repose sur la [cryptographie](https://planb.academy/resources/glossary/cryptography) asymétrique et des outils comme GnuPG (en ligne de commande) ou Kleopatra (interface graphique pour Windows). Ces outils doivent être bien configurés, et la clé publique du développeur doit être vérifiée via un canal sûr (site officiel, fingerprint sur Twitter...). Voyons ensemble comment faire concrètement.
 
 Pour en savoir plus sur les fonctions de hachage cryptographiques et les signatures numériques, je vous invite à suivre le cours gratuit CYP 201 proposé sur Plan ₿ Academy :
 
@@ -4393,7 +4391,7 @@ L’histoire d’Internet remonte à la fin des années 1960, dans un contexte d
 
 ![Image](assets/fr/191.webp)
 
-L’objectif était également de concevoir un réseau résilient, capable de continuer à fonctionner même si une partie de ses nœuds était détruite (une nécessité en pleine Guerre froide). ARPANET a permis de réaliser les premières communications entre ordinateurs distants en 1969.
+L’objectif était également de concevoir un réseau résilient, capable de continuer à fonctionner même si une partie de ses [nœuds](https://planb.academy/resources/glossary/node) était détruite (une nécessité en pleine Guerre froide). ARPANET a permis de réaliser les premières communications entre ordinateurs distants en 1969.
 
 ![Image](assets/fr/192.webp)
 
@@ -4699,7 +4697,7 @@ Ces outils agissent comme un petit serveur DNS à l’intérieur de votre résea
 
 ### Accès distant sécurisé via VPN
 
-Dans certains cas il est utile de pouvoir accéder à votre réseau domestique lorsque vous êtes en déplacement : consulter les fichiers d’un NAS, utiliser un nœud Bitcoin et Lightning, accéder à un serveur auto-hébergé, ou administrer votre réseau. Toutefois, cette connexion à distance doit impérativement être sécurisée.
+Dans certains cas il est utile de pouvoir accéder à votre réseau domestique lorsque vous êtes en déplacement : consulter les fichiers d’un NAS, utiliser un nœud Bitcoin et [Lightning](https://planb.academy/resources/glossary/lightning-network), accéder à un serveur auto-hébergé, ou administrer votre réseau. Toutefois, cette connexion à distance doit impérativement être sécurisée.
 
 Le premier conseil est de ne jamais ouvrir directement un port sur votre routeur pour accéder à un appareil (par exemple via RDP, SSH ou FTP), car cela expose ce service à Internet entier, ce qui constitue une faille. Les attaques automatisées ciblant les ports ouverts sont nombreuses.
 

@@ -1,0 +1,8 @@
+question: What methodological approach characterizes the Austrian school of economics according to Ludwig von Mises?
+answer: An axiomatic-deductive approach based on the axiom of human action
+wrong_answers:
+  - "An empirical and inductive approach based on statistical observation"
+  - "An experimental approach based on the accumulation of quantitative data"
+  - "A historical approach based on the study of economic institutions"
+explanation: |
+  Under the impetus of Mises, the Austrian school developed an axiomatic-deductive method that starts from an irrefutable axiom (man acts) and logically deduces economic laws. This approach is opposed to empirical and inductive methods, which are based on the observation of specific data. It makes it possible to construct a universal, timeless economic theory without recourse to experimentation or statistics, which explains the Austrians' opposition to econometric studies.

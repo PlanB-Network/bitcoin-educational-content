@@ -191,7 +191,7 @@ Grazie a Loïc Morel per la sua attenta correzione delle bozze!
 
 
 
-La questione del rapporto tra criptovaluta e autorità è emersa abbastanza rapidamente nella storia di Bitcoin. Nel dicembre 2010, Satoshi Nakamoto si è ritirato dall'attenzione pubblica in seguito alla pubblicazione di un articolo di PC World che incoraggiava WikiLeaks a utilizzare Bitcoin. Come a confermare la sua intuizione, l'articolo attirò una massiccia attenzione su Bitcoin, il cui prezzo balzò da 0,20 a 32 dollari in pochi mesi. Satoshi ha continuato a comunicare privatamente con i suoi più stretti collaboratori e alla fine è scomparso nella primavera del 2011. Molto simbolicamente, l'ultimo messaggio di Gavin Andresen, lo sviluppatore che aveva rilevato il progetto, informava il creatore di Bitcoin di essere stato contattato da In-Q-Tel, un fondo di investimento gestito dalla CIA. Il vaso di Pandora era davvero aperto.
+La questione del rapporto tra [criptovaluta](https://planb.academy/resources/glossary/cryptocurrency) e autorità è emersa abbastanza rapidamente nella storia di Bitcoin. Nel dicembre 2010, Satoshi Nakamoto si è ritirato dall'attenzione pubblica in seguito alla pubblicazione di un articolo di PC World che incoraggiava WikiLeaks a utilizzare Bitcoin. Come a confermare la sua intuizione, l'articolo attirò una massiccia attenzione su Bitcoin, il cui prezzo balzò da 0,20 a 32 dollari in pochi mesi. Satoshi ha continuato a comunicare privatamente con i suoi più stretti collaboratori e alla fine è scomparso nella primavera del 2011. Molto simbolicamente, l'ultimo messaggio di Gavin Andresen, lo sviluppatore che aveva rilevato il progetto, informava il creatore di Bitcoin di essere stato contattato da In-Q-Tel, un fondo di investimento gestito dalla CIA. Il vaso di Pandora era davvero aperto.
 
 
 
@@ -387,7 +387,7 @@ Non tutti hanno accolto con favore la pubblicità generata dall'articolo di Gawk
 
 
 
-In particolare, il programmatore Jeff Garzik, che all'epoca era coinvolto nello sviluppo del software, non vedeva di buon occhio questa sgradita associazione. Dopo la pubblicazione dell'articolo, ha personalmente [contattato](https://www.theatlantic.com/technology/archive/2011/06/libertarian-dream-a-site-where-you-buy-drugs-with-digital-dollars/239776/) Adrien Chen via e-mail per spiegare che Bitcoin non era così anonimo come sembrava, poiché tutte le transazioni venivano registrate in modo permanente sulla blockchain. Ha concluso la sua e-mail con questa valutazione:
+In particolare, il programmatore Jeff Garzik, che all'epoca era coinvolto nello sviluppo del software, non vedeva di buon occhio questa sgradita associazione. Dopo la pubblicazione dell'articolo, ha personalmente [contattato](https://www.theatlantic.com/technology/archive/2011/06/libertarian-dream-a-site-where-you-buy-drugs-with-digital-dollars/239776/) Adrien Chen via e-mail per spiegare che Bitcoin non era così anonimo come sembrava, poiché tutte le transazioni venivano registrate in modo permanente sulla [blockchain](https://planb.academy/resources/glossary/blockchain). Ha concluso la sua e-mail con questa valutazione:
 
 
 > "Tentare grandi transazioni illecite con i bitcoin, date le attuali tecniche di analisi statistica impiegate sul campo dalle forze dell'ordine, è dannatamente stupido"
@@ -908,11 +908,11 @@ Nel 2011 si è trasferito a Portsmouth, nel New Hampshire, nell'ambito del *Free
 
 > "Quel giorno è stato uno dei più importanti della mia vita. È stato come scoprire una grande verità, come vedere il futuro. Ho lasciato tutto quello che stavo facendo e mi sono buttato nella tana del coniglio"
 
-La sua motivazione era principalmente ideologica: era sedotto dalla natura inarrestabile del sistema e dall'impossibilità di creare più denaro del previsto. Egli [vedeva](https://silverunderground.com/2011/06/bitcoin-the-separation-of-money-and-state/) Bitcoin come l'incarnazione della "separazione tra denaro e Stato". Era anche convinto della pratica agoristica promossa da Samuel Konkin e [credeva](https://bitcointalk.org/index.php?topic=34657.msg431717#msg431717) che "Bitcoin è per l'agorismo ciò che le branchie sono per il pesce", cioè un ingranaggio essenziale.
+La sua motivazione era principalmente ideologica: era sedotto dalla natura inarrestabile del sistema e dall'impossibilità di creare più denaro del previsto. Egli [vedeva](https://silverunderground.com/2011/06/bitcoin-the-separation-of-money-and-state/) Bitcoin come l'incarnazione della "separazione tra denaro e Stato". Era anche convinto della pratica agoristica promossa da Samuel Konkin e [credeva](https://bitcointalk.org/index.php?topic=34657.msg431717#msg431717) che "Bitcoin è per l'[agorismo](https://planb.academy/resources/glossary/agorism) ciò che le branchie sono per il pesce", cioè un ingranaggio essenziale.
 
 
 
-A giugno, Erik Voorhees ha acquistato una grande quantità di bitcoin in un momento in cui il prezzo era al massimo. Ha anche [provato](https://bitcointalk.org/index.php?topic=24198.msg300745#msg300745) la GPU mining, ma la sua ragazza non l'ha gradita ed è stato costretto a vendere le sue macchine. In agosto si è recato a New York per partecipare a una conferenza organizzata da Bruce Wagner, dove ha incontrato molti dei protagonisti dell'ecosistema.
+A giugno, Erik Voorhees ha acquistato una grande quantità di bitcoin in un momento in cui il prezzo era al massimo. Ha anche [provato](https://bitcointalk.org/index.php?topic=24198.msg300745#msg300745) la GPU [mining](https://planb.academy/resources/glossary/mining), ma la sua ragazza non l'ha gradita ed è stato costretto a vendere le sue macchine. In agosto si è recato a New York per partecipare a una conferenza organizzata da Bruce Wagner, dove ha incontrato molti dei protagonisti dell'ecosistema.
 
 
 
@@ -1234,7 +1234,7 @@ Nel 2011, la mancanza di autorizzazione di Bitcoin ha portato i membri della com
 
 
 
-Uno degli individui coinvolti in questo movimento era James McCarthy, che utilizzava lo pseudonimo Nefario sul forum Bitcoin, in riferimento all'omonimo personaggio del film d'animazione *Despicable Me*. Nefario era un irlandese che viveva in Cina e lavorava come professore di inglese in un'università. Era interessato alla scuola austriaca e alle idee dei cypherpunk, [dichiarando](https://web.archive.org/web/20110607050421/http://bitcoinweekly.com/articles/interview-with-nefario-founder-of-bitcoin-global) di essere "qualcosa di cypherpunk". Ha [scoperto](https://bitcointalk.org/index.php?topic=2502.msg33800#msg33800) l'esistenza di Bitcoin nel 2010 e ne ha estratti più di mille. In seguito è stato coinvolto in diversi progetti, tra cui il progetto di rivista online Bitcoin Weekly.
+Uno degli individui coinvolti in questo movimento era James McCarthy, che utilizzava lo pseudonimo Nefario sul forum Bitcoin, in riferimento all'omonimo personaggio del film d'animazione *Despicable Me*. Nefario era un irlandese che viveva in Cina e lavorava come professore di inglese in un'università. Era interessato alla [scuola austriaca](https://planb.academy/resources/glossary/austrian-school) e alle idee dei cypherpunk, [dichiarando](https://web.archive.org/web/20110607050421/http://bitcoinweekly.com/articles/interview-with-nefario-founder-of-bitcoin-global) di essere "qualcosa di cypherpunk". Ha [scoperto](https://bitcointalk.org/index.php?topic=2502.msg33800#msg33800) l'esistenza di Bitcoin nel 2010 e ne ha estratti più di mille. In seguito è stato coinvolto in diversi progetti, tra cui il progetto di rivista online Bitcoin Weekly.
 
 
 
@@ -1340,7 +1340,7 @@ Quando Satoshi è andato in pensione nel dicembre 2010, i nuovi arrivati potevan
 
 
 
-La custodia personale dei bitcoin era un problema complesso, soggetto al dilemma tra perdita e furto. Per detenere i propri bitcoin, era necessario sia mantenere l'accesso alle proprie chiavi private sia impedire ad altri di accedervi, due condizioni che non potevano mai essere raggiunte contemporaneamente. Pertanto, un accesso troppo facile rende il wallet troppo suscettibile al furto, come si è visto con l'hacking dei 25.000 BTC di Allinvain nel giugno 2011. Al contrario, un accesso troppo difficile rende i bitcoin più suscettibili di essere persi, come nel caso dei circa 7.000 BTC di Stefan Thomas [persi](https://bitcointalk.org/index.php?topic=5400.msg259238#msg259238) a causa di una crittografia troppo complessa. È a queste limitazioni che i progettisti del wallet hanno cercato di porre rimedio.
+La custodia personale dei bitcoin era un problema complesso, soggetto al dilemma tra perdita e furto. Per detenere i propri bitcoin, era necessario sia mantenere l'accesso alle proprie chiavi private sia impedire ad altri di accedervi, due condizioni che non potevano mai essere raggiunte contemporaneamente. Pertanto, un accesso troppo facile rende il wallet troppo suscettibile al furto, come si è visto con l'hacking dei 25.000 BTC di Allinvain nel giugno 2011. Al contrario, un accesso troppo difficile rende i bitcoin più suscettibili di essere persi, come nel caso dei circa 7.000 BTC di Stefan Thomas [persi](https://bitcointalk.org/index.php?topic=5400.msg259238#msg259238) a causa di una [crittografia](https://planb.academy/resources/glossary/cryptography) troppo complessa. È a queste limitazioni che i progettisti del wallet hanno cercato di porre rimedio.
 
 
 In questo capitolo studieremo i diversi modi di utilizzare Bitcoin emersi nel periodo citato. Discuteremo innanzitutto delle applicazioni di custodia e delle implementazioni software alternative. Poi, esamineremo più in dettaglio il caso dei wallet leggeri, che hanno portato tra l'altro allo sviluppo di una struttura deterministica per la conservazione delle chiavi private. Presenteremo i paper wallet e le forme fisiche di rappresentazione delle chiavi private che sono state un mezzo per tenere le criptovalute al sicuro dagli hacker. Concluderemo discutendo la nascita dei primi servizi di mixing di bitcoin, che hanno permesso di migliorare la privacy degli utenti.
@@ -1428,7 +1428,7 @@ Il problema delle implementazioni complete è che richiedono molte risorse e son
 
 
 
-La prima idea è stata quella di utilizzare un nodo come server remoto, di cui l'utente si fida completamente. Nel febbraio 2011, Amir Taaki [ha lanciato](https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538) un client software per la gestione di un wallet a livello locale, collegandosi a un nodo esistente chiamato Spesmilo. Inizialmente il client funzionava su Linux, ma è stato presto portato su Windows. Il nome era un riferimento allo spesmilo, l'antica unità monetaria internazionale proposta dal matematico svizzero René de Saussure (fratello del linguista Ferdinand) nel 1907, nell'ambito del progetto Esperanto.
+La prima idea è stata quella di utilizzare un [nodo](https://planb.academy/resources/glossary/node) come server remoto, di cui l'utente si fida completamente. Nel febbraio 2011, Amir Taaki [ha lanciato](https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538) un client software per la gestione di un wallet a livello locale, collegandosi a un nodo esistente chiamato Spesmilo. Inizialmente il client funzionava su Linux, ma è stato presto portato su Windows. Il nome era un riferimento allo spesmilo, l'antica unità monetaria internazionale proposta dal matematico svizzero René de Saussure (fratello del linguista Ferdinand) nel 1907, nell'ambito del progetto Esperanto.
 
 
 
@@ -1494,11 +1494,11 @@ Gregory Maxwell aveva molte idee su come migliorare l'uso di Bitcoin, e la deriv
 
 > "Bitcoin dovrebbe davvero offrire e utilizzare di default i wallet deterministici.   La sicurezza aggiuntiva di quelli attuali pre-generati è piuttosto piccola se si considera il modo in cui la maggior parte delle persone utilizza bitcoin e la responsabilità di danni dovuti a backup insufficienti e all'aumento della pressione per mantenere un singolo wallet online è enorme."
 
-Sono stati previsti due tipi di derivazione. Un tipo (tipo 1) era semplice, in quanto generava chiavi private direttamente dal seed. L'altro (tipo 2) era più complesso, ma permetteva di derivare gli indirizzi da una chiave pubblica master ottenuta dal seed, senza accedere al seed stesso. In questo modo, il software di elaborazione dei pagamenti poteva assegnare un indirizzo per ogni transazione, senza esporre le chiavi private.
+Sono stati previsti due tipi di derivazione. Un tipo (tipo 1) era semplice, in quanto generava chiavi private direttamente dal seed. L'altro (tipo 2) era più complesso, ma permetteva di derivare gli indirizzi da una [chiave pubblica](https://planb.academy/resources/glossary/public-key) master ottenuta dal seed, senza accedere al seed stesso. In questo modo, il software di elaborazione dei pagamenti poteva assegnare un indirizzo per ogni transazione, senza esporre le chiavi private.
 
 
 
-Successivamente, nel febbraio 2012, la standardizzazione ha avuto luogo con la [pubblicazione](https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198) di BIP 32. Il documento descriveva la struttura generale dei *Wallet deterministici gerarchici*, i Wallet HD, in cui le derivazioni sono utilizzate in modo metodico per ricavare le chiavi e gli indirizzi seed . Nel corso degli anni è stata gradualmente adottata dalla maggior parte dei wallet.
+Successivamente, nel febbraio 2012, la standardizzazione ha avuto luogo con la [pubblicazione](https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198) di [BIP](https://planb.academy/resources/glossary/bip) 32. Il documento descriveva la struttura generale dei *Wallet deterministici gerarchici*, i Wallet HD, in cui le derivazioni sono utilizzate in modo metodico per ricavare le chiavi e gli indirizzi seed . Nel corso degli anni è stata gradualmente adottata dalla maggior parte dei wallet.
 
 
 
@@ -1757,7 +1757,7 @@ Per risolvere questo problema e interrompere la tracciabilità dei fondi, la sol
 
 
 
-Il primo è BitLaundry. Questo servizio è stato [lanciato](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823) nel settembre 2010 da Peter Vessenes, un imprenditore americano laureato in crittografia che ha scoperto l'esistenza di Bitcoin all'epoca dello slashdoting. Il tumbler [forniva](https://maltemoeser.de/paper/money-laundering.pdf#page=5) all'utente un indirizzo monouso, al quale venivano inviati i fondi da anonimizzare. I bitcoin venivano poi rispediti sotto forma di diverse monete (UTXO), all'interno di una transazione a entrata multipla che includeva i bitcoin di altri utenti, rendendo efficace il mixing. Le commissioni applicate erano pari a circa il 2,5% dell'importo in questione. Nel maggio 2011, intuendo le complicazioni legali che potevano derivare da questa attività, Peter Vessenes [trasferì](https://bitcointalk.org/index.php?topic=963.msg122955#msg122955) il servizio a Mike Gogulski, un attivista noto per essere apolide, avendo rinunciato alla cittadinanza statunitense senza possederne un'altra.
+Il primo è BitLaundry. Questo servizio è stato [lanciato](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823) nel settembre 2010 da Peter Vessenes, un imprenditore americano laureato in crittografia che ha scoperto l'esistenza di Bitcoin all'epoca dello slashdoting. Il tumbler [forniva](https://maltemoeser.de/paper/money-laundering.pdf#page=5) all'utente un indirizzo monouso, al quale venivano inviati i fondi da anonimizzare. I bitcoin venivano poi rispediti sotto forma di diverse monete ([UTXO](https://planb.academy/resources/glossary/utxo)), all'interno di una transazione a entrata multipla che includeva i bitcoin di altri utenti, rendendo efficace il mixing. Le commissioni applicate erano pari a circa il 2,5% dell'importo in questione. Nel maggio 2011, intuendo le complicazioni legali che potevano derivare da questa attività, Peter Vessenes [trasferì](https://bitcointalk.org/index.php?topic=963.msg122955#msg122955) il servizio a Mike Gogulski, un attivista noto per essere apolide, avendo rinunciato alla cittadinanza statunitense senza possederne un'altra.
 
 
 
@@ -1777,7 +1777,7 @@ Il terzo era di tipo speciale, in quanto si trattava del mixer integrato nel Blo
 
 
 
-La proliferazione dei mixer centralizzati ha avuto l'effetto di catalizzare la riflessione sulla coin mixing decentralizzato, iniziata nell'estate del 2011 con una proposta [proposal](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) avanzata da Hashcoin. Ciò ha portato alla [formalizzazione](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902) di CoinJoin da parte di Gregory Maxwell nel 2013. Ma questa è un'altra storia...
+La proliferazione dei mixer centralizzati ha avuto l'effetto di catalizzare la riflessione sulla coin mixing decentralizzato, iniziata nell'estate del 2011 con una proposta [proposal](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) avanzata da Hashcoin. Ciò ha portato alla [formalizzazione](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902) di [CoinJoin](https://planb.academy/resources/glossary/coinjoin) da parte di Gregory Maxwell nel 2013. Ma questa è un'altra storia...
 
 
 
@@ -1808,7 +1808,7 @@ L'epoca del Far West americano è stata caratterizzata dalla corsa all'oro, ovve
 
 
 
-Nell'autunno 2010, il primo afflusso di miner ha portato all'utilizzo diffuso della GPU (unità di elaborazione grafica) mining, molto più redditizia della CPU (unità di elaborazione centrale) mining. Tuttavia, questo progresso tecnico ha aumentato la difficoltà della rete a tal punto che i piccoli miner non potevano più sperare di trovare un blocco in tempi ragionevoli. Ciò ha portato alla creazione di gruppi di miner, come BitcoinCZ Mining, lo Slush Pool. Lo slancio non si è fermato qui: con l'aumento del prezzo nel 2011, l'afflusso di miner è continuato e la mining pool si è rapidamente normalizzato.
+Nell'autunno 2010, il primo afflusso di miner ha portato all'utilizzo diffuso della GPU (unità di elaborazione grafica) mining, molto più redditizia della CPU (unità di elaborazione centrale) mining. Tuttavia, questo progresso tecnico ha aumentato la [difficoltà](https://planb.academy/resources/glossary/difficulty) della rete a tal punto che i piccoli miner non potevano più sperare di trovare un blocco in tempi ragionevoli. Ciò ha portato alla creazione di gruppi di miner, come BitcoinCZ Mining, lo Slush Pool. Lo slancio non si è fermato qui: con l'aumento del prezzo nel 2011, l'afflusso di miner è continuato e la mining pool si è rapidamente normalizzato.
 
 
 
@@ -1920,7 +1920,7 @@ Inizialmente Luke ha adottato un modello di pagamento proporzionale. Tuttavia, l
 
 
 
-Eligius ha anche innovato con la pratica del "coinbase signing", che consiste nello scrivere il nome del pool (in questo caso `Eligius`) nel campo di input della transazione di ricompensa del blocco minato. Questa pratica, che rende più trasparente il funzionamento dei pool, è stata inaugurata il giorno del passaggio al modello MPPS, nella notte tra il 13 e il 14 giugno, con il blocco [130 635](https://mempool.space/block/0000000000000a067d94ff753eec72830f1205ad3a4c216a08a80c832e551a52). Si tratta del secondo inserimento effettuato in questo modo, dopo l'emblematica citazione del *Times* inserita da Satoshi Nakamoto nel blocco genesi del gennaio 2009.
+Eligius ha anche innovato con la pratica del "coinbase signing", che consiste nello scrivere il nome del pool (in questo caso `Eligius`) nel campo di input della transazione di ricompensa del blocco minato. Questa pratica, che rende più trasparente il funzionamento dei pool, è stata inaugurata il giorno del passaggio al modello MPPS, nella notte tra il 13 e il 14 giugno, con il blocco [130 635](https://mempool.space/block/0000000000000a067d94ff753eec72830f1205ad3a4c216a08a80c832e551a52). Si tratta del secondo inserimento effettuato in questo modo, dopo l'emblematica citazione del *Times* inserita da Satoshi Nakamoto nel [blocco genesi](https://planb.academy/resources/glossary/genesis-block) del gennaio 2009.
 
 
 
@@ -1996,7 +1996,7 @@ Un modo per combattere la centralizzazione indotta dall'uso diffuso della mining
 
 
 
-Il modello [si è basato] (https://im.forre.st/pb/85341005.txt) su una "sharechain, mantenuta dai miner partecipanti collegati peer-to-peer, simile alla blockchain di Bitcoin. Ogni azione contiene l'impronta digitale dell'azione precedente, che collega le azioni tra loro e garantisce l'integrità dell'insieme. La difficoltà (inizialmente 600 volte inferiore a quella della rete principale) viene regolata regolarmente per garantire un intervallo medio di 5 secondi. Il metodo di remunerazione è il pagamento in base alle ultime N azioni (PPLNS), effettuato direttamente nella transazione di ricompensa, ogni volta che viene trovato un blocco.
+Il modello [si è basato] (https://im.forre.st/pb/85341005.txt) su una "sharechain, mantenuta dai miner partecipanti collegati [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p), simile alla blockchain di Bitcoin. Ogni azione contiene l'impronta digitale dell'azione precedente, che collega le azioni tra loro e garantisce l'integrità dell'insieme. La difficoltà (inizialmente 600 volte inferiore a quella della rete principale) viene regolata regolarmente per garantire un intervallo medio di 5 secondi. Il metodo di remunerazione è il pagamento in base alle ultime N azioni (PPLNS), effettuato direttamente nella transazione di ricompensa, ogni volta che viene trovato un blocco.
 
 
 
@@ -2067,7 +2067,7 @@ Ovviamente, l'evoluzione del mining non riguardava solo l'organizzazione degli h
 
 
 
-Questa evoluzione finale, [pianificata](https://www.metzdowd.com/pipermail/cryptography/2008-November/014815.html) da tempo da Satoshi Nakamoto, è stata gradualmente sviluppata grazie ai circuiti logici programmabili (FPGA), che hanno permesso di ottimizzare virtualmente l'hardware per la funzione hash di Bitcoin. Il primo algoritmo FPGA aperto è stato [pubblicato] (https://bitcointalk.org/index.php?topic=9047.msg130885#msg130885) nel maggio 2011 e ASIC ha applicato le ottimizzazioni FPGA ai chip stessi. La prima prevendita di ASIC, da parte dell'azienda statunitense Butterfly Labs, [ha avuto luogo](https://web.archive.org/web/20120619090952/http://news.yahoo.com/butterfly-labs-announces-next-generation-asic-lineup-054626776.html) nel giugno 2012. Infine, il primo ASIC funzionante, l'Avalon ASIC, è stato [distribuito](https://bitcointalk.org/index.php?topic=137534.msg1465887#msg1465887) al pubblico nel gennaio 2013.
+Questa evoluzione finale, [pianificata](https://www.metzdowd.com/pipermail/cryptography/2008-November/014815.html) da tempo da Satoshi Nakamoto, è stata gradualmente sviluppata grazie ai circuiti logici programmabili (FPGA), che hanno permesso di ottimizzare virtualmente l'hardware per la [funzione hash](https://planb.academy/resources/glossary/hash-function) di Bitcoin. Il primo algoritmo FPGA aperto è stato [pubblicato] (https://bitcointalk.org/index.php?topic=9047.msg130885#msg130885) nel maggio 2011 e ASIC ha applicato le ottimizzazioni FPGA ai chip stessi. La prima prevendita di ASIC, da parte dell'azienda statunitense Butterfly Labs, [ha avuto luogo](https://web.archive.org/web/20120619090952/http://news.yahoo.com/butterfly-labs-announces-next-generation-asic-lineup-054626776.html) nel giugno 2012. Infine, il primo ASIC funzionante, l'Avalon ASIC, è stato [distribuito](https://bitcointalk.org/index.php?topic=137534.msg1465887#msg1465887) al pubblico nel gennaio 2013.
 
 
 
@@ -2086,7 +2086,7 @@ Dopo la partenza di Satoshi Nakamoto, lo sviluppo del software è stato ripreso 
 
 
 
-Nell'inverno 2011-2012, è sorta una controversia sull'implementazione della multisig in Bitcoin. Riguardava, tra l'altro, lo schema noto come "Pay to Script Hash", o P2SH. Pete Rizzo e Aaron van Wirdum [avrebbero](https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war) chiamato questo conflitto "la battaglia per P2SH". Questa fu la prima grande disputa sull'evoluzione del protocollo e la prima a sollevare la questione della governance.
+Nell'inverno 2011-2012, è sorta una controversia sull'implementazione della multisig in Bitcoin. Riguardava, tra l'altro, lo schema noto come "Pay to [Script](https://planb.academy/resources/glossary/script) Hash", o P2SH. Pete Rizzo e Aaron van Wirdum [avrebbero](https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war) chiamato questo conflitto "la battaglia per P2SH". Questa fu la prima grande disputa sull'evoluzione del protocollo e la prima a sollevare la questione della governance.
 
 
 
@@ -2200,7 +2200,7 @@ Questo comporta l'aggiunta di un'istruzione al linguaggio di scripting, che rich
 
 > Probabilmente sto leggendo male il codice, ma penso che OP\_EVAL non causerebbe una divisione della blockchain!
 
-La sua idea si basa su una caratteristica del linguaggio di programmazione interno di Bitcoin: gli operatori `OP_NOP`, aggiunti da Satoshi nell'estate 2010, che sono istruzioni silenziose che non invalidano lo script in cui si trovano. Esse consentono di apportare modifiche al protocollo "retrocompatibili" per le versioni più vecchie del software, garantendo la sopravvivenza di un'unica stringa, nei casi in cui la potenza di calcolo che la applica è maggioritaria. Queste modifiche saranno in seguito denominate soft fork. È quindi possibile trasformare `OP_NOP1` in `OP_EVAL` e fare in modo che la modifica venga applicata dai mining pool.
+La sua idea si basa su una caratteristica del linguaggio di programmazione interno di Bitcoin: gli operatori `OP_NOP`, aggiunti da Satoshi nell'estate 2010, che sono istruzioni silenziose che non invalidano lo script in cui si trovano. Esse consentono di apportare modifiche al protocollo "retrocompatibili" per le versioni più vecchie del software, garantendo la sopravvivenza di un'unica stringa, nei casi in cui la potenza di calcolo che la applica è maggioritaria. Queste modifiche saranno in seguito denominate [soft fork](https://planb.academy/resources/glossary/soft-fork). È quindi possibile trasformare `OP_NOP1` in `OP_EVAL` e fare in modo che la modifica venga applicata dai mining pool.
 
 
 
@@ -2642,7 +2642,7 @@ Nonostante questa battuta d'arresto, Litecoin è una storia di successo. Insieme
 
 
 
-La possibilità di fare soldi clonando Bitcoin e di trarre profitto dall'aumento del valore delle unità era evidente. Già nel novembre 2010, prima ancora che emergesse l'idea di BitDNS, questa possibilità era stata sollevata sul forum. Ribuck, un membro attivo del forum all'epoca, [scrisse](https://bitcointalk.org/index.php?topic=1647.msg20646#msg20646) un'accusa alle future copie di Bitcoin, coniando nel contempo il termine "shitcoin":
+La possibilità di fare soldi clonando Bitcoin e di trarre profitto dall'aumento del valore delle unità era evidente. Già nel novembre 2010, prima ancora che emergesse l'idea di BitDNS, questa possibilità era stata sollevata sul forum. Ribuck, un membro attivo del forum all'epoca, [scrisse](https://bitcointalk.org/index.php?topic=1647.msg20646#msg20646) un'accusa alle future copie di Bitcoin, coniando nel contempo il termine "[shitcoin](https://planb.academy/resources/glossary/shitcoin)":
 
 
 
@@ -2683,7 +2683,7 @@ PPCoin nasce dall'idea di un gruppo di persone guidate da uno sviluppatore [che 
 
 
 
-I loro piani vennero messi in atto nell'agosto 2012: la nuova criptovaluta venne [annunciata](https://bitcointalk.org/index.php?topic=99735.msg1091012#msg1091012) il 10 agosto e [lanciata](https://bitcointalk.org/index.php?topic=101820.msg1113938#msg1113938) il 19. La politica monetaria era piuttosto vantaggiosa: non c'erano pre-mining, il tasso di creazione di denaro tramite proof of stake era limitato all'1% all'anno e il tasso di creazione di denaro tramite proof of work dipendeva dalla difficoltà della rete (in modo da ridursi significativamente dopo pochi mesi).
+I loro piani vennero messi in atto nell'agosto 2012: la nuova criptovaluta venne [annunciata](https://bitcointalk.org/index.php?topic=99735.msg1091012#msg1091012) il 10 agosto e [lanciata](https://bitcointalk.org/index.php?topic=101820.msg1113938#msg1113938) il 19. La politica monetaria era piuttosto vantaggiosa: non c'erano pre-mining, il tasso di creazione di denaro tramite proof of stake era limitato all'1% all'anno e il tasso di creazione di denaro tramite [proof of work](https://planb.academy/resources/glossary/proof-of-work) dipendeva dalla difficoltà della rete (in modo da ridursi significativamente dopo pochi mesi).
 
 
 

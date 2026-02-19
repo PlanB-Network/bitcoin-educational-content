@@ -1117,7 +1117,7 @@ Nella logica del dominio politico, il denaro cessa di essere un bene o un serviz
 
 
 
-Già nel Medioevo, Nicolas Oresme analizzò gli effetti dannosi della manipolazione monetaria sul commercio. Le diminuzioni monetarie producono inflazione e destabilizzano i prezzi, poiché il segnale monetario diventa incerto quando il padrone delle misure di valore può alterarne arbitrariamente il contenuto. La stessa moneta metallica spesso non era altro che un'illusione, con monete contenenti leghe di scarso valore che alcuni scrittori liberali del XIX secolo chiamavano assignats di rame.
+Già nel Medioevo, Nicolas Oresme analizzò gli effetti dannosi della manipolazione monetaria sul commercio. Le diminuzioni monetarie producono [inflazione](https://planb.academy/resources/glossary/inflation) e destabilizzano i prezzi, poiché il segnale monetario diventa incerto quando il padrone delle misure di valore può alterarne arbitrariamente il contenuto. La stessa moneta metallica spesso non era altro che un'illusione, con monete contenenti leghe di scarso valore che alcuni scrittori liberali del XIX secolo chiamavano assignats di rame.
 
 
 

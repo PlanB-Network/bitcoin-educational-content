@@ -90,8 +90,6 @@ ___
 **注意**：说明基于 GNU/Linux CentOS 7 系统。然而，在比较 Debian 和 CentOS 系统时，网络配置基本相同。因此，我们不做任何区分。如果有区别，我们会用特定的标识作为前缀。
 
 
-**注**：如果您在学习过程中遇到任何不熟悉的术语，请查阅 [术语表](https://planb.academy/resources/glossary) 了解其定义。
-
 
 
 # TCP/IP 协议

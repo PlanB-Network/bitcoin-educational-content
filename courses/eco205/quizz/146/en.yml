@@ -1,0 +1,8 @@
+question: According to Austrian business cycle theory, what is the main mechanism by which interest rate manipulation by central banks generates malinvestment?
+answer: Artificially lower interest rates distort intertemporal signals, encouraging entrepreneurs to invest in projects that are far removed from production without any corresponding real savings
+wrong_answers:
+  - "Rising interest rates are creating a liquidity shortage that is pushing entrepreneurs towards speculative short-term investments"
+  - "Stable interest rates prevent the natural adjustment of supply and demand, creating lasting sectoral imbalances."
+  - Erratic rate variations disrupt corporate planning, forcing companies to diversify their investments across all sectors
+explanation: |
+  The correct answer captures the essence of Austrian theory: artificially low rates send a false signal of abundant savings, driving entrepreneurs towards long-term investments not backed by real savings. The other options are incorrect, as they describe either rate hikes (contrary to the mechanism described), rate stability (which is not the problem according to the Austrians), or diversification (when the problem is concentration in certain sectors).

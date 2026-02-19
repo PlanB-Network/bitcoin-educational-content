@@ -74,7 +74,7 @@ Etter ordene fra Nicolas var det på tide å begynne å bygge. En betydelig meng
 Hva betyr åpen kildekode, og hva går inn i et slikt prosjekt?
 
 
-FOSS står for Free & Open-Source Software. Førstnevnte betyr at hvem som helst kan kopiere, endre og til og med distribuere versjoner av programvaren (til og med for å tjene penger). Sistnevnte betyr at kildekoden deles åpent, og at allmennheten oppfordres til å bidra og forbedre den.
+[FOSS](https://planb.academy/resources/glossary/foss) står for Free & Open-Source Software. Førstnevnte betyr at hvem som helst kan kopiere, endre og til og med distribuere versjoner av programvaren (til og med for å tjene penger). Sistnevnte betyr at kildekoden deles åpent, og at allmennheten oppfordres til å bidra og forbedre den.
 
 Dette tiltrekker seg erfarne brukere som er entusiastiske når det gjelder å bidra til programvaren de allerede bruker og har nytte av, noe som til syvende og sist viser seg å være mer vellykket enn proprietær programvare. Det er i tråd med Bitcoins etos om at "informasjon lengter etter å være gratis" Det samler lidenskapelige mennesker som danner et fellesskap, og det er rett og slett morsommere. I likhet med Bitcoin er FOSS uunngåelig.
 
@@ -128,7 +128,7 @@ Dette er en klasseromsøvelse, så hvis du tar dette kurset selv, kan du ikke ut
 :::video id=c20b6df7-0c3a-4785-94b9-42ef59093acc:::
 
 
-Denne øvelsen krever minst ni deltakere. Denne øvelsen har som mål å gi en fysisk forståelse av hvordan Bitcoin fungerer. Ved å spille hver rolle i nettverket får du en interaktiv og leken måte å lære på. Denne øvelsen involverer ikke Lightning Network.
+Denne øvelsen krever minst ni deltakere. Denne øvelsen har som mål å gi en fysisk forståelse av hvordan Bitcoin fungerer. Ved å spille hver rolle i nettverket får du en interaktiv og leken måte å lære på. Denne øvelsen involverer ikke [Lightning Network](https://planb.academy/resources/glossary/lightning-network).
 
 
 ### Eksempel: Krever 9 / 11 personer
@@ -140,7 +140,7 @@ Rollene er..:
 
 - 1 Kunde
 - 1 Kjøpmann
-- 7 til 9 Bitcoin-noder
+- 7 til 9 Bitcoin-[noder](https://planb.academy/resources/glossary/node)
 
 
 **Oppsettet er som følger:**
@@ -192,7 +192,7 @@ Kundene kjøper et produkt fra butikken med Bitcoin.
   - Transaksjonen er signert på riktig måte ("låst opp" av kunden)
   - Hvis dette ikke er tilfelle, vil ikke transaksjonen bli forplantet gjennom nettverket, og hvis så er tilfelle, vil den forplante seg og bli holdt i venteposisjon.
   - Forhandlere kan sjekke at transaksjonen er ventende og venter.
-- En datamaskin blir "tilfeldig" valgt til å foreslå å fullføre den foreslåtte transaksjonen ved å kringkaste "en blokk" som inneholder den; hvis den sjekker ut, vil de motta en BTC-belønning.
+- En datamaskin blir "tilfeldig" valgt til å foreslå å fullføre den foreslåtte transaksjonen ved å kringkaste "en [blokk](https://planb.academy/resources/glossary/block)" som inneholder den; hvis den sjekker ut, vil de motta en BTC-belønning.
   - VALGFRI/AVANSERT - i stedet for å velge en datamaskin tilfeldig, kan du simulere Mining ved å la datamaskinene kaste terninger til et forhåndsbestemt resultat inntreffer (f.eks. at den første som slår to seksere, blir valgt)
   - Den kan også spille ut hva som vil skje hvis to datamaskiner vinner omtrent samtidig, noe som resulterer i en kjededeling.
   - Datamaskiner sjekker gyldigheten, oppdaterer/legger til poster i hovedboken hvis reglene er oppfylt, og sender transaksjonsblokken til andre datamaskiner.
@@ -234,15 +234,15 @@ Definer følgende nøkkelbegreper som ble introdusert i forrige avsnitt:
 
 
 - Knutepunkt
-- Mempool
-- Vanskelighetsgrad Mål
+- [Mempool](https://planb.academy/resources/glossary/mempool)
+- [Vanskelighetsgrad](https://planb.academy/resources/glossary/difficulty) Mål
 - Blokk
 
 
 **Diskuter betydningen av noen flere begreper i fellesskap:**
 
 
-Blockchain, Transaksjon, Double-Spend, Bysantinske generalers problem, Mining, Proof of Work (PoW), Hash Funksjon, Block reward, Blockchain, Lengste kjede, 51 %-angrep, Utgang, Utgangslås, Endring, Satoshis, Offentlig/privat nøkkel, Address, Kryptografi med offentlig nøkkel, Digital signatur, Wallet
+Blockchain, Transaksjon, Double-Spend, Bysantinske generalers problem, [Mining](https://planb.academy/resources/glossary/mining), Proof of Work (PoW), Hash Funksjon, Block reward, Blockchain, Lengste kjede, 51 %-angrep, Utgang, Utgangslås, Endring, [Satoshis](https://planb.academy/resources/glossary/satoshi-sat), Offentlig/privat nøkkel, Address, [Kryptografi](https://planb.academy/resources/glossary/cryptography) med [offentlig nøkkel](https://planb.academy/resources/glossary/public-key), [Digital signatur](https://planb.academy/resources/glossary/digital-signature), Wallet
 
 
 # Vi introduserer BTCPay Server
@@ -573,7 +573,7 @@ I denne delen har du lært:
 ### Hva er involvert i generering av Bitcoin-nøkler?
 
 
-Bitcoin lommebøker, når de opprettes, skaper en såkalt "seed". I det siste målet opprettet du en "seed", Ordserien som ble generert før, er også kjent som Mnemonic-fraser. seed brukes til å utlede individuelle Bitcoin-nøkler og brukes til å sende eller motta Bitcoin. seed-fraser skal aldri deles med tredjeparter eller ikke-klarerte motparter.
+Bitcoin lommebøker, når de opprettes, skaper en såkalt "[seed](https://planb.academy/resources/glossary/seed)". I det siste målet opprettet du en "seed", Ordserien som ble generert før, er også kjent som Mnemonic-fraser. seed brukes til å utlede individuelle Bitcoin-nøkler og brukes til å sende eller motta Bitcoin. seed-fraser skal aldri deles med tredjeparter eller ikke-klarerte motparter.
 
 
 seed-generering utføres i henhold til industristandarden kjent som "Hierarchical Deterministic"-rammeverket (HD).
@@ -596,11 +596,11 @@ En Address blir avledet fra den offentlige nøkkelen gjennom en "hashing-algorit
 
 
 
-- Adresser som begynner med `bc1...` er i ferd med å bli svært vanlige adresser. Disse er kjent som (opprinnelige) SegWit-adresser. Disse tilbyr en bedre avgiftsstruktur enn de andre nevnte adressene. Native SegWit-adresser bruker Bech32-koding og tillater bare små bokstaver.
+- Adresser som begynner med `bc1...` er i ferd med å bli svært vanlige adresser. Disse er kjent som (opprinnelige) [SegWit](https://planb.academy/resources/glossary/segwit)-adresser. Disse tilbyr en bedre avgiftsstruktur enn de andre nevnte adressene. Native SegWit-adresser bruker Bech32-koding og tillater bare små bokstaver.
 
 
 
-- Adresser som begynner med `3...` brukes fortsatt ofte av børser for innskuddsadresser. Disse adressene er nevnt i kapittelet "Opprette en ny butikk", innpakkede eller nestede SegWit-adresser. De kan imidlertid også fungere som en "Multisig Address". Når de brukes som en SegWit Address, er det noen besparelser på transaksjonsgebyrer, men igjen mindre enn med innfødte SegWit. P2SH-adresser bruker Base58-koding. Dette gjør den case-sensitiv, som den eldre Address.
+- Adresser som begynner med `3...` brukes fortsatt ofte av børser for innskuddsadresser. Disse adressene er nevnt i kapittelet "Opprette en ny butikk", innpakkede eller nestede SegWit-adresser. De kan imidlertid også fungere som en "Multisig Address". Når de brukes som en SegWit Address, er det noen besparelser på [transaksjonsgebyrer](https://planb.academy/resources/glossary/transaction-fees), men igjen mindre enn med innfødte SegWit. P2SH-adresser bruker Base58-koding. Dette gjør den case-sensitiv, som den eldre Address.
 
 
 
@@ -618,7 +618,7 @@ Offentlige nøkler er mindre brukt i praksis i dag. Over tid har Bitcoin-brukere
 
 
 
-- HD-lommebøker bruker imidlertid en annen struktur. `xpub...`, `ypub...` eller `zpub...` kalles utvidede offentlige nøkler, eller xpubs. Disse nøklene brukes til å utlede mange offentlige nøkler som en del av HD Wallet. Ettersom xpuben din inneholder hele historikken din, det vil si tidligere og fremtidige transaksjoner, må du aldri dele disse med parter som ikke er til å stole på.
+- HD-lommebøker bruker imidlertid en annen struktur. `xpub...`, `ypub...` eller `zpub...` kalles utvidede offentlige nøkler, eller [xpubs](https://planb.academy/resources/glossary/xpub). Disse nøklene brukes til å utlede mange offentlige nøkler som en del av HD Wallet. Ettersom xpuben din inneholder hele historikken din, det vil si tidligere og fremtidige transaksjoner, må du aldri dele disse med parter som ikke er til å stole på.
 
 
 ### Oppsummering av ferdigheter
@@ -670,7 +670,7 @@ Hot-lommebøker er den mest praktiske måten å samhandle med Bitcoin på via mo
 Privatpersoner flytter Bitcoin til en Cold Wallet fordi den kan isolere de private nøklene fra internett, og dermed beskytte dem mot potensielle trusler på nettet. Ved å fjerne internettforbindelsen fra ligningen reduseres risikoen for skadelig programvare, spionprogrammer og SIM-bytte. Cold-lagring antas å være bedre enn Hot-lagring når det gjelder sikkerhet og autonomi, forutsatt at det tas tilstrekkelige forholdsregler for å hindre at de private nøklene i Bitcoin går tapt. Cold-lagring er best egnet for store mengder Bitcoin, som ikke er ment å bli brukt ofte på grunn av Wallet-oppsettets kompleksitet.
 
 
-Det finnes ulike metoder for å lagre Bitcoin-nøkler i Cold-lagring, fra papirlommebøker til hjernelommebøker, maskinvarelommebøker eller, fra begynnelsen av, en Wallet-fil. De fleste lommebøker bruker BIP 39 til generate seed frasen. Innenfor Bitcoin core-programvaren er det imidlertid ennå ikke oppnådd enighet om bruken av den. Bitcoin core-programvaren vil fortsatt generate en Wallet.dat-fil, som du må lagre på et sikkert frakoblet sted.
+Det finnes ulike metoder for å lagre Bitcoin-nøkler i Cold-lagring, fra papirlommebøker til hjernelommebøker, maskinvarelommebøker eller, fra begynnelsen av, en Wallet-fil. De fleste lommebøker bruker [BIP](https://planb.academy/resources/glossary/bip) 39 til generate seed frasen. Innenfor Bitcoin core-programvaren er det imidlertid ennå ikke oppnådd enighet om bruken av den. Bitcoin core-programvaren vil fortsatt generate en Wallet.dat-fil, som du må lagre på et sikkert frakoblet sted.
 
 
 ### Oppsummering av ferdigheter
@@ -717,7 +717,7 @@ BTCPay Server består av følgende standard Wallet-funksjoner:
 - Rescan
 - Trekk betalinger
 - Utbetalinger
-- PSBT
+- [PSBT](https://planb.academy/resources/glossary/psbt)
 - Generelle innstillinger
 
 
@@ -732,8 +732,8 @@ Administratorer kan se innkommende og utgående transaksjoner for On-Chain Walle
 | ----------------- | ------------------------------------------------ |
 | App               | Betaling ble mottatt via en app-opprettet faktura |
 | Faktura           | Betaling ble mottatt via en faktura               |
-| Payjoin           | Ikke betalt, fakturatimeren har ennå ikke utløpt  |
-| Payjoin-eksponert | UTXO ble eksponert via et payjoin-forslag i en faktura |
+| [Payjoin](https://planb.academy/resources/glossary/payjoin)           | Ikke betalt, fakturatimeren har ennå ikke utløpt  |
+| Payjoin-eksponert | [UTXO](https://planb.academy/resources/glossary/utxo) ble eksponert via et payjoin-forslag i en faktura |
 | Betalingsforespørsel | Betaling ble mottatt via en betalingsforespørsel |
 | Utbetaling        | Betaling ble sendt via en utbetaling eller refusjon |
 
@@ -822,7 +822,7 @@ BTCPay Server støtter BIP-329 for etikettadministrasjon. Hvis du overfører fra
 Når du klikker på mottaksknappen i BTCPay Server, genereres det en ubrukt Address som kan brukes til å motta betalinger. Administratorer kan også generate en ny Address ved å opprette en ny "Invoice"
 
 
-BTCPay Server vil alltid be deg om å generate følgende tilgjengelige Address for å forhindre gjenbruk av Address. Etter å ha klikket på "generate neste tilgjengelige BTC Address", genererer BTCPay Server en ny Address og QR. Det lar deg også sette en etikett direkte til Address for bedre administrasjon av adressene dine.
+BTCPay Server vil alltid be deg om å generate følgende tilgjengelige Address for å forhindre gjenbruk av Address. Etter å ha klikket på "generate neste tilgjengelige BTC Address", genererer BTCPay Server en ny Address og QR. Det lar deg også sette en [etikett](https://planb.academy/resources/glossary/label) direkte til Address for bedre administrasjon av adressene dine.
 
 
 ![image](assets/en/018.webp)
@@ -1131,7 +1131,7 @@ I Lightning Wallet-alternativet i menylinjen til venstre finner serveradministra
 #### Intern nodeinformasjon
 
 
-Serveradministratorer kan klikke på den interne nodeinformasjonen for å se serverstatusen (online/offline) og tilkoblingsstrengen for Clearnet eller Tor.
+Serveradministratorer kan klikke på den interne nodeinformasjonen for å se serverstatusen (online/offline) og tilkoblingsstrengen for Clearnet eller [Tor](https://planb.academy/resources/glossary/tor).
 
 
 ![image](assets/en/033.webp)

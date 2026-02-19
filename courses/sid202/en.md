@@ -56,9 +56,9 @@ Ready to explore the potential of Elements and the Liquid sidechain? Let’s get
 
 :::video id=eae666b4-eddc-4e00-adea-2a5f94396044:::
 
-Elements is an open-source, sidechain-capable blockchain platform that provides access to powerful features developed by community members, such as Confidential Transactions and Issued Assets.
+Elements is an open-source, sidechain-capable [blockchain](https://planb.academy/resources/glossary/blockchain) platform that provides access to powerful features developed by community members, such as Confidential [Transactions](https://planb.academy/resources/glossary/transaction-tx) and Issued Assets.
 
-Elements, at its core, is a protocol that enables consensus to be formed around the transaction history and rules governing the transfer and creation of assets stored in a distributed blockchain ledger.
+Elements, at its core, is a protocol that enables [consensus](https://planb.academy/resources/glossary/consensus) to be formed around the transaction history and rules governing the transfer and creation of assets stored in a distributed blockchain ledger.
 
 More background information on Elements can be found readily on the Elements Project website (https://elementsproject.org/), the official Liquid blog (https://blog.liquid.net/), and the developer portal(https://liquid.net/devs).
 
@@ -84,7 +84,7 @@ Elements is a general-purpose blockchain platform that can also be “pegged” 
 
 #### Signed Blocks
 
-Elements uses a Strong Federation of signatories, called Block Signers, who sign and create blocks in a reliable and timely manner. This removes the transaction latency of the PoW mining process, which is subject to large block time variance due to its random Poisson distribution. The Federated Block Signing process achieves reliable block creation without introducing the need for third-party trust or computational `algorithm` based mining.
+Elements uses a Strong Federation of signatories, called Block Signers, who sign and create [blocks](https://planb.academy/resources/glossary/block) in a reliable and timely manner. This removes the transaction latency of the PoW mining process, which is subject to large block time variance due to its random Poisson distribution. The Federated Block Signing process achieves reliable block creation without introducing the need for third-party trust or computational `algorithm` based mining.
 
 Elements adds all these features on top of the Bitcoin Core codebase, extending the ability of the mainchain protocol and enabling new business use cases when deployed as a sidechain or as a standalone blockchain solution.
 
@@ -98,7 +98,7 @@ Elements adds all these features on top of the Bitcoin Core codebase, extending 
 
 :::video id=7c8c7981-11e5-47a2-a257-ef998f4892f5:::
 
-Elements provides a technical solution to problems blockchain users face daily: transaction latency, lack of privacy, and risk to fungibility.
+Elements provides a technical solution to problems blockchain users face daily: transaction latency, lack of privacy, and risk to [fungibility](https://planb.academy/resources/glossary/fungibility).
 
 Elements overcomes these problems through its use of Federated Block Signing and Confidential Transactions.
 
@@ -122,7 +122,7 @@ The actions a member of a Strong Federation can perform are split between two di
 
 When combined, the roles of these participants enable Elements to deliver both rapid block creation (faster and final transaction confirmation) and assured, transferable assets (pegged assets that are directly linkable to another blockchain).
 
-You can read the Strong Federations whitepaper here: https://blockstream.com/strong-federations.pdf
+You can read the Strong Federations [whitepaper](https://planb.academy/resources/glossary/white-paper) here: https://blockstream.com/strong-federations.pdf
 
 ### Block Signers
 
@@ -152,7 +152,7 @@ For a sidechain to operate in a trustworthy manner, it must enable participants 
 
 The Federated 2-way Peg feature enables an asset to be interoperable with other blockchains and represent another blockchain's native asset. By pegging your blockchain to another, you can extend the capabilities of the mainchain and overcome some of its inherent limitations.
 
-At a high level, transfers into the sidechain occur when someone sends mainchain assets to an address controlled by a multi-signature Watchmen wallet. This effectively freezes the assets on the mainchain. Watchmen then validate the transaction and release the same amount of the associated asset within the sidechain. The released assets are sent to a sidechain wallet that can prove a claim to the original mainchain assets. This process effectively moves assets from the parent chain to the sidechain.
+At a high level, transfers into the sidechain occur when someone sends mainchain assets to an address controlled by a multi-signature Watchmen [wallet](https://planb.academy/resources/glossary/wallet). This effectively freezes the assets on the mainchain. Watchmen then validate the transaction and release the same amount of the associated asset within the sidechain. The released assets are sent to a sidechain wallet that can prove a claim to the original mainchain assets. This process effectively moves assets from the parent chain to the sidechain.
 
 To transfer assets back to the main chain, a user initiates a special peg-out transaction on the side chain. This transaction is verified by Watchmen, who then sign a transaction spending from the multi-signature wallet they control on the main chain. A threshold number of participants in the federation must sign before the mainchain transaction before it becomes valid. When the Watchmen send an asset back to the main chain, they also destroy the corresponding amount on the side chain, effectively transferring the assets between blockchains.
 
@@ -164,7 +164,7 @@ To transfer assets back to the main chain, a user initiates a special peg-out tr
 
 As Elements is based on the Bitcoin codebase, the components that make up a functioning network are very similar.
 
-The Elements node software itself is called `elementsd` and runs as a daemon on a user's machine. A daemon (or service in Windows) is a program that runs in the background without requiring direct user intervention.
+The Elements [node](https://planb.academy/resources/glossary/node) software itself is called `elementsd` and runs as a daemon on a user's machine. A daemon (or service in Windows) is a program that runs in the background without requiring direct user intervention.
 
 Note: Throughout this document, we will always refer to elements as the daemon version; however, everything could be done with elements-qt, provided that the server option is enabled.
 
@@ -197,8 +197,8 @@ Some of the things can be changed using these parameters:
 - The asset to be used when paying transaction fees on the network.
 - The storage location of the blockchain data files.
 - The RPC credentials used to connect to a Bitcoin node.
-- The `n of m` threshold to be met and the valid public keys that can sign blocks.
-- The script that needs to be satisfied in order to transfer assets in and out of a sidechain.
+- The `n of m` threshold to be met and the valid [public keys](https://planb.academy/resources/glossary/public-key) that can sign blocks.
+- The [script](https://planb.academy/resources/glossary/script) that needs to be satisfied in order to transfer assets in and out of a sidechain.
 - Whether to connect to a Bitcoin node as a sidechain or not.
 
 Many of these form part of the network's consensus rules, so it is important that they are applied across all nodes on startup. Some can be changed after a chain has been initialized, but some need to be fixed after they are used to initialize a chain.
@@ -305,7 +305,7 @@ That returns raw transaction details. If you look within the vout section, you c
 
 What the first two VOUT sections show are "blinded ranges” of the value amounts and the commitment data, which acts as proof of the actual amount and type of asset transacted.
 
-Even if we were to import e2's private key into e1's wallet, it would still not be able to see the amounts and type of asset transacted because it still has no knowledge of the blinding key used by e2. We'll prove this by importing the private key used by e2's wallet into e1's. First, we need to export the key from e2
+Even if we were to import e2's [private key](https://planb.academy/resources/glossary/private-key) into e1's wallet, it would still not be able to see the amounts and type of asset transacted because it still has no knowledge of the blinding key used by e2. We'll prove this by importing the private key used by e2's wallet into e1's. First, we need to export the key from e2
 
 ```
 e2-cli dumpprivkey <address>
@@ -365,7 +365,7 @@ An Issued Asset also benefits from Confidential Transactions, and they can be re
 
 The first step is that we'll need access to two Elements nodes, which we'll call e1 and e2. The nodes have had their blockchains reset, and the default asset split between them.
 
-The two nodes are on the same local network and are connected to each other; therefore, they share the same transactions in their transaction mempools and identical blockchains. Although they are running on the same machine, it is worth noting that they do not share the same actual blockchain files. Each node manages its own local copy of the blockchain, which contains the same transaction history because they are in consensus and adhere to the same protocol rules as each other.
+The two nodes are on the same local network and are connected to each other; therefore, they share the same transactions in their transaction [mempools](https://planb.academy/resources/glossary/mempool) and identical blockchains. Although they are running on the same machine, it is worth noting that they do not share the same actual blockchain files. Each node manages its own local copy of the blockchain, which contains the same transaction history because they are in consensus and adhere to the same protocol rules as each other.
 
 Let's start by checking each node's view of the existing asset issuances on the network.
 
@@ -904,7 +904,7 @@ e1-cli importprivkey <priv-key-1>
 e2-cli importprivkey <priv-key-1>
 ```
 
-We now need to mature some blocks on both chains. Maturity of blocks is a requirement of the peg process, as it protects against block reorganizations on the main chain, which can lead to inflation of the pegged asset supply within the side chain.
+We now need to mature some blocks on both chains. Maturity of blocks is a requirement of the peg process, as it protects against block reorganizations on the main chain, which can lead to [inflation](https://planb.academy/resources/glossary/inflation) of the pegged asset supply within the side chain.
 
 To keep this section focused on the federated peg, we will generate blocks without using the block signing model examined in the last section and return to using the 'generate' command to create new blocks.
 
@@ -1028,7 +1028,7 @@ In this section, we have seen how to:
 ### FederatedPegScript
 
 
-To enable Elements to function as a sidechain, the genesis block in its blockchain must be created with a `fedpegscript` in place. This is achieved by passing the `fedpegscript` parameter during node startup. The script will then form part of the Elements blockchain's consensus rules, allowing peg-in and peg-out requests to be validated and executed.
+To enable Elements to function as a sidechain, the [genesis block](https://planb.academy/resources/glossary/genesis-block) in its blockchain must be created with a `fedpegscript` in place. This is achieved by passing the `fedpegscript` parameter during node startup. The script will then form part of the Elements blockchain's consensus rules, allowing peg-in and peg-out requests to be validated and executed.
 
 The `fedpegscript` is made up of public keys controlled by those authorized to perform the peg actions. The following shows the example format of a 2-of-2 multisignature fedpegscript:
 

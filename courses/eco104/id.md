@@ -1160,7 +1160,9 @@ Misalnya, jika pengguna ingin membeli bitcoin, mereka dapat dengan mudah membeli
 Dengan ini di pikiran, stablecoin mengubah cara kita bertransaksi dengan aset berdaulat, seperti Bitcoin, dengan menyediakan jembatan yang mulus dan mudah digunakan antara perbankan tradisional dan dunia digital desentralisasi. Seiring dengan terus berkembangnya adopsi stablecoin, kita dapat mengharapkan untuk melihat adopsi Bitcoin yang bahkan lebih besar karena lebih banyak orang menyadari tidak perlu masuk kembali ke dunia perbankan tradisional, mengingat kegunaan dan sifat digital dari stablecoin.
 
 Kesimpulannya, penawaran stablecoin Tether membantu kebebasan dan keamanan finansial tidak hanya untuk individu sehari-hari tetapi juga bagi mereka yang tinggal di daerah terpencil atau tidak stabil dengan akses terbatas ke layanan perbankan yang andal.
+
 Ambil contoh cerita Adanna, yang menggambarkan bagaimana USDt dapat membantu orang-orang seperti dia untuk keluar dari mata uang lokal yang cepat memburuk dan memiliki lebih banyak kontrol atas uang mereka tanpa harus khawatir tentang ketidakstabilan mata uang atau fakta bahwa USDt menawarkan solusi penting bagi populasi yang tidak memiliki rekening bank, memungkinkan akses ke mata uang digital, yang memberdayakan individu yang sebelumnya tidak memiliki kesempatan seperti itu.
+
 Dan jika itu belum cukup, stablecoin ini tidak hanya meningkatkan kegunaan mata uang tradisional, mereka membantu mengurangi biaya yang terkait dengan remitansi, memungkinkan individu untuk mengirim uang kembali ke orang yang mereka cintai tanpa menanggung biaya tinggi.
 
 Secara keseluruhan, stablecoin, seperti USDt dan XAUt, memiliki potensi untuk mengubah kehidupan miliaran orang dengan menawarkan mereka akses ke layanan keuangan yang inklusif dan sangat dibutuhkan.
@@ -1188,15 +1190,20 @@ Sekarang setelah Anda melewati Modul "Stabilitas di Tengah Kekacauan" Anda harus
 Bitcoin telah dikelilingi oleh penolakan, kritik, dan kesalahpahaman sejak kelahirannya pada tahun 2009. Meskipun popularitas dan adopsinya bertumbuh, banyak yang masih menganggapnya sebagai gelembung yang siap meledak. Sejalan dengan hal tersebut, stablecoin juga menarik perhatian dan skeptisisme serupa. Ide mata uang yang didukung oleh aset stabil terdengar menjanjikan, tetapi banyak orang salah paham tentang cara kerja stablecoin dan dampak potensialnya terhadap sistem keuangan.
 
 Dalam bagian ini, kami akan menjelajahi beberapa kesalahpahaman umum mengenai Bitcoin dan stablecoin. Kami akan menggali kebenaran di balik kesalahpahaman ini dan membongkar yang telah menyebabkan kebingungan dan skeptisisme terbanyak. Dari kepercayaan bahwa bitcoin terlalu fluktuatif untuk menjadi mata uang yang layak hingga kekhawatiran tentang penggunaan energinya, kami akan meninjau setiap masalah sehingga Anda dapat membentuk opini Anda sendiri. Di akhir bab ini, Anda akan memiliki pemahaman yang jauh lebih besar tentang teknologi ini dan apakah ada legitimasi di balik penolakan ini.
+
 Kesalahpahaman Bitcoin
 Meskipun ada banyak kesalahpahaman mengenai Bitcoin, mari kita bahas sembilan yang paling menonjol:
 
-1. Bitcoin adalah gelembung yang menunggu untuk pecah
+1. Bitcoin adalah gelembung yang menunggu untuk meledak
 2. Bitcoin terlalu fluktuatif untuk memiliki nilai apa pun
 3. Bitcoin tidak berharga karena tidak didukung oleh apa pun
 4. Teknologi Bitcoin sudah usang
-5. Bitcoin terlalu lambat dan mahal untuk menjadi media pertukaran yang efektif
-   Mari kita selami...
+5. Bitcoin terlalu lambat dan mahal untuk menjadi alat tukar yang efektif
+6. Bitcoin terutama digunakan untuk aktivitas ilegal
+7. Siapa pun dapat menduplikasi kode Bitcoin, sehingga membuatnya tidak berharga
+8. Bitcoin mengkonsumsi terlalu banyak energi
+   
+Mari kita selami...
 
 Kesalahpahaman Pertama: Bitcoin adalah gelembung yang menunggu untuk pecah
 Sejak awal kemunculannya, Bitcoin telah dinyatakan mati dalam media mainstream [473](https://99bitcoins.com/bitcoin-obituaries/) kali (Per Maret 2023), namun terus berfungsi tanpa cacat.
@@ -1210,7 +1217,7 @@ Kedua, terdapat fitur dalam kode Bitcoin yang disebut pemotongan separuh (halvin
 
 _**Catatan Sampingan:** Jika Anda telah mempelajari keuangan, Anda mungkin pernah mendengar tentang "teorema pasar efisien," yang dibangun di sekitar ide bahwa pasar sempurna efisien karena perilaku rasional. Oleh karena itu, teori ini mengemukakan bahwa harga aset di pasar keuangan mencerminkan semua informasi yang tersedia, membuatnya mustahil untuk secara konsisten mencapai pengembalian di atas rata-rata dengan menganalisis data historis atau informasi pasar lainnya._
 
-_Namun, teori ini lupa bahwa pasar terdiri dari individu, dan sifat manusia secara inheren tidak rasional dan dipengaruhi oleh emosi. Irrasionalitas ini menyebabkan bias, perilaku kawanan, dan kesalahan kognitif, menyebabkan harga menyimpang dari nilai sebenarnya. Misalnya, dalam konteks peristiwa pemotongan separuh Bitcoin, pasar rasional seharusnya mengantisipasi dan mencerminkan pasokan yang berkurang di masa depan dalam harga bitcoin saat ini. Namun, lonjakan harga periodik menyoroti bahwa peserta belum memperhitungkan informasi tersebut. Irrasionalitas ini telah terbukti memberikan imbalan finansial yang signifikan bagi pemegang jangka panjang yang sabar._
+_Namun, teori ini lupa bahwa pasar terdiri dari individu, dan sifat manusia secara inheren tidak rasional dan dipengaruhi oleh emosi. Irrasionalitas ini menyebabkan bias, perilaku kawanan, dan kesalahan kognitif, menyebabkan harga menyimpang dari nilai sebenarnya. Misalnya, dalam konteks peristiwa pemotongan separuh Bitcoin, pasar rasional seharusnya mengantisipasi dan mencerminkan pasokan yang berkurang di masa depan dalam harga bitcoin saat ini. Namun, lonjakan harga berkala menunjukkan bahwa para pelaku pasar belum memperhitungkan informasi tersebut. Irrasionalitas ini telah terbukti memberikan imbalan finansial yang signifikan bagi pemegang jangka panjang yang sabar._
 
 Ketiga, Bitcoin memiliki potensi untuk merevolusi pertukaran global. Untuk pertama kalinya dalam sejarah, kita memiliki metode transaksi yang tanpa kepercayaan, tanpa izin, dan terdesentralisasi. Seperti yang dibahas sebelumnya dalam kursus ini, ini tidak ada bandingannya dan menawarkan manfaat yang luar biasa bagi negara-negara maju dan berkembang.
 
@@ -1226,7 +1233,7 @@ Secara keseluruhan, ketika orang menyebut bitcoin sebagai gelembung, baik itu:
 1. Mereka belum melakukan penelitian untuk memahami berbagai manfaat dan kasus penggunaan bitcoin.
 2. Atau mereka salah memahami fungsi Bitcoin dan total nilai yang tersimpan dalam aset di atas yang mana Bitcoin memiliki potensi untuk mengambil bagian dari waktu ke waktu.
 
-#### Kesalahpahaman Dua: Bitcoin terlalu fluktuatif untuk memiliki nilai apa pun
+#### Kesalahpahaman Dua: Bitcoin terlalu fluktuatif untuk memiliki nilai apapun
 
 Kritikus sering menunjukkan bahwa volatilitas bitcoin membuatnya menjadi opsi investasi yang buruk, tetapi argumen ini mengabaikan beberapa fakta penting tentang mengapa bitcoin mengalami volatilitas seperti itu.
 
@@ -1235,6 +1242,7 @@ Pertama, volatilitas bitcoin adalah topik perdebatan yang hangat dan telah menye
 Kedua, volatilitas adalah fenomena alami ketika datang ke adopsi teknologi. Ketika teknologi baru diperkenalkan, pasti ada ketidakpastian dan spekulasi tentang potensinya, yang mengarah ke fluktuasi harga. Kecerdasan buatan (AI) adalah contoh utama dari sektor yang sangat fluktuatif. Dari [2021 hingga 2022](https://www.precedenceresearch.com/artificial-intelligence-market#:~:text=The%20global%20artificial%20intelligence%20(AI,USD%2051%20billion%20in%202021.), total nilai AI meningkat dari \$51 miliar menjadi \$119 miliar. Namun, meskipun volatilitasnya, manfaat berinvestasi di AI tidak bisa diabaikan. Dari mobil otonom hingga perawatan kesehatan personalisasi, aplikasi potensial AI sangat besar. Jadi, jika Anda tertarik dengan AI, Anda tidak ingin melewatkan peluang yang ditawarkannya hanya karena volatilitasnya.
 
 Selanjutnya, volatilitas bitcoin tidak unik. Pasar keuangan tradisional juga mengalami fluktuasi dalam harga aset, seperti pasar saham, pasar komoditas, dan bahkan mata uang. Bahkan, volatilitas bitcoin bisa dibilang kurang parah daripada banyak aset lain.
+
 Terakhir, argumen bahwa bitcoin terlalu fluktuatif gagal mempertimbangkan aspek penting: valuasinya saat ini terikat pada mata uang fiat. Fluktuasi nilai bitcoin yang diamati sebagian besar didorong oleh ketidakstabilan inheren dari unit pengukuran yang mendasarinya, seperti dolar atau mata uang lainnya. Seperti yang Lawrence White dengan tepat tunjukkan dalam bukunya [Better Money](https://amzn.to/3NZnCTm), ayunan harga ini sebagian besar merupakan hasil dari orang-orang yang mencari lindung nilai terhadap inflasi. Dengan kata lain, dalam sistem cadangan fraksional yang diatur oleh bank sentral, mereka yang berada di posisi kekuasaan memiliki kapasitas untuk mengubah pasokan uang yang beredar. Akibatnya, ketika mereka melakukan kebijakan moneter, seperti pelonggaran kuantitatif, harga aset naik, dan ketika mereka mengetatkan, harga turun. Efek ayunan ini adalah produk sampingan dari sistem moneter terpusat, menciptakan ketidakpastian dan ketidakstabilan di pasar keuangan. Oleh karena itu, menilai volatilitas bitcoin berdasarkan perilakunya di bawah standar fiat adalah menyesatkan. Pada dasarnya, hal ini hanya menyoroti volatilitas inheren dari mata uang fiat.
 
 Sebaliknya, Bitcoin beroperasi pada jaringan terdesentralisasi, di mana pasokannya tetap dan tidak dapat dimanipulasi oleh otoritas pusat. Meskipun ini berarti mungkin ada volatilitas jangka pendek, kelangkaan dan prediktabilitas pasokan bitcoin kemungkinan besar akan mengurangi volatilitas dan meningkatkan stabilitas dalam jangka panjang.
@@ -1257,12 +1265,14 @@ Ambil contoh seni. Sebuah lukisan hanyalah kanvas dan cat, namun beberapa karya 
 Hal yang sama berlaku untuk bitcoin. Orang menghargainya karena merupakan mata uang terdesentralisasi yang tidak dikontrol oleh pemerintah atau bank manapun. Ini langka, dengan pasokan terbatas, dan aman karena teknologi di baliknya. Beberapa orang mungkin tidak melihat karakteristik ini sebagai penawaran nilai, dan itu tidak apa-apa. Tapi itu tidak berarti bahwa itu tidak berharga.
 
 Harga adalah cerminan dari apa yang orang bersedia bayar untuk sesuatu. Jika bitcoin benar-benar tidak berharga, karena tidak didukung oleh apa pun, maka itu akan diperdagangkan pada \$0, karena tidak ada yang bersedia menukar uang mereka yang diperoleh dengan susah payah untuk itu.
+
 Selanjutnya, gagasan bahwa mata uang harus didukung oleh sesuatu yang bernilai adalah tidak akurat. Mata uang Fiat, seperti dolar AS, tidak didukung oleh emas atau apapun yang bersifat nyata. Sebaliknya, nilai mereka didasarkan pada kepercayaan pada pemerintah yang menerbitkannya dan keyakinan bahwa mereka dapat ditukar dengan barang dan jasa. Dalam kasus bitcoin, nilainya didasarkan pada kepercayaan pada teknologi yang mendukungnya dan keyakinan bahwa itu dapat digunakan untuk menyimpan nilai atau bertukar barang dan jasa.
+
 Pada akhirnya, gagasan bahwa sesuatu harus didukung oleh sesuatu yang lain yang bernilai untuk menjadi berharga adalah sebuah kesalahpahaman. Nilai adalah subjektif dan didasarkan pada pengalaman dan keyakinan orang. Hanya karena satu orang menganggap sesuatu tidak berharga tidak berarti semua orang melakukannya, dan sebaliknya.
 
 #### Kesalahpahaman Empat: Teknologi Bitcoin Sudah Usang
 
-Mari kita selidiki argumen berulang bahwa Bitcoin sudah usang, dengan menjelaskan mengapa ini sangat jauh dari kebenaran.
+Sekarang mari kita bahas argumen yang berulang kali muncul bahwa Bitcoin sudah usang, dan menguraikan mengapa hal ini sangat jauh dari kebenaran.
 
 Pertama, dalam dunia kriptokurensi, ada ide yang disebut trilema blockchain. Pada dasarnya, ada tiga karakteristik utama yang cenderung difokuskan oleh kriptokurensi:
 
@@ -1277,7 +1287,9 @@ Bitcoin memilih untuk memprioritaskan desentralisasi dan keamanan daripada skala
 Kedua, Bitcoin dibangun di atas konsensus, yang berarti tidak peduli siapa Anda atau di mana Anda tinggal di dunia, dengan menjalankan sebuah perangkat lunak, Anda dapat memiliki suara dalam arah Bitcoin. Ini berarti bahwa seiring kemajuan dunia, Bitcoin dapat beradaptasi dengan lingkungan yang berubah. Hal ini diilustrasikan oleh banyak peningkatan yang telah dibuat pada Bitcoin selama bertahun-tahun, seperti SegWit, yang meningkatkan skalabilitasnya, dan Lightning Network, yang memungkinkan transaksi lebih cepat dan lebih murah.
 
 Terakhir, sementara ada ribuan kriptokurensi lain yang menawarkan manfaat berbeda, Bitcoin tidak mencoba menjadi segalanya bagi semua orang. Sebaliknya, itu mencoba melakukan satu hal dengan sangat baik: menjadi mata uang yang desentralisasi, tanpa kepercayaan, dan tanpa izin. Dan... itu melakukan ini lebih baik daripada siapa pun, seperti yang dibuktikan oleh kapitalisasi pasarnya, yang merupakan kelipatan dari kriptokurensi lainnya.
+
 Namun, perlu dicatat bahwa lanskap "cryptocurrency" sering kali dipenuhi dengan jargon, banyak di antaranya berakar pada ide yang diusulkan, diuji, dan kemudian ditinggalkan oleh para kriptografer OG dan pengembang Bitcoin. Sejumlah contoh menyoroti tren ini: Teknologi zero-knowledge (ZK) yang kini menjadi sorotan menemukan genesisnya dalam diskusi oleh Satoshi sendiri pada tahun 2010 dan Gregory Maxwell pada tahun 2013. Konsep seperti transaksi rahasia (CT) dan bulletproof, yang kini menjadi bagian integral dari Monero dan Grin, diciptakan dan direalisasikan pada dua sidechain Bitcoin, Elements dan Liquid. Konsep "braiding"—menyilangkan atau menghubungkan beberapa rantai blockchain bersama-sama untuk mencapai manfaat atau fungsionalitas tertentu—awalnya diusulkan oleh pengembang Bitcoin sebagai solusi potensial untuk tantangan skalabilitas dan interoperabilitas tertentu dan kini digunakan oleh Kaspa, Byteball, Nano, dan Hedera. Asal-usul banyak inovasi "NFT" dapat ditelusuri kembali ke upaya perintis Bitcoin pada tahun 2013/14/15. Bahkan "Proof of Stake" yang dipasarkan secara luas, yang mendapat prominensi melalui Peercoin, Bitshares, NXT, dan Ethereum, adalah konsep yang dihidupkan kembali yang berasal dari protokol b-money kedua Wei Dai, yang awalnya dikonsepsikan pada tahun 1998—meskipun Satoshi pada akhirnya menolaknya, lebih memilih Proof of Work. Meskipun tidak perlu menggali setiap detail, jelas bahwa "inovasi" yang mendasari banyak koin alternatif menemukan akarnya dalam evolusi Bitcoin itu sendiri.
+
 Oleh karena itu, sekali lagi, argumen bahwa Bitcoin sudah usang adalah tidak berdasar. Mungkin tidak sempurna untuk semua orang, tetapi terus berkembang dan membaik.
 
 #### Kesalahpahaman Lima: Bitcoin terlalu lambat dan mahal untuk menjadi media pertukaran yang efektif
@@ -1292,6 +1304,7 @@ Tetapi Bitcoin juga bersaing dengan metode transaksi lapisan dua, dengan teknolo
 
 Meskipun banyak studi yang membantah klaim palsu, Bitcoin masih sering dikritik sebagai alat yang terutama digunakan untuk aktivitas ilegal. Sekali lagi, ini jauh dari kebenaran.
 Sebuah [penelitian](https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf) yang dilakukan oleh mantan wakil direktur CIA menemukan bahwa "generalisasi luas tentang penggunaan Bitcoin dalam keuangan ilegal sangat dilebih-lebihkan." Faktanya, sejak tahun 2016, kurang dari 1% dari total volume transaksi Bitcoin digunakan untuk aktivitas ilegal. Sebagai perbandingan, "beberapa orang memperkirakan ekonomi bawah tanah mencapai 11% hingga 12% dari produk domestik bruto AS," di mana sebagian besar difasilitasi menggunakan dolar AS.
+
 Dan menurut laporan oleh Chainalysis pada tahun 2020, aktivitas ilegal hanya menyumbang sekitar [0,34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) dari semua transaksi Bitcoin.
 
 Namun, meskipun ada bukti ini, pernyataan yang menyesatkan terus dibuat oleh mereka yang berkuasa, seperti Menteri Keuangan AS Janet Yellen [mengklaim](https://home.treasury.gov/news/press-releases/jy0023), "Cryptocurrency telah digunakan untuk mencuci keuntungan dari pedagang narkoba online; mereka telah menjadi alat untuk membiayai terorisme."
@@ -1315,6 +1328,7 @@ Argumen bahwa kode Bitcoin dapat dengan mudah disalin dan, oleh karena itu, tida
 Salah satu aspek terpenting dari Bitcoin adalah jaringannya. Bitcoin telah ada sejak tahun 2009 dan telah membangun basis pengguna yang signifikan dari waktu ke waktu. Basis pengguna ini mencakup individu, bisnis, dan negara yang telah berinvestasi dalam bitcoin dan menggunakannya sebagai penyimpan nilai atau alat tukar.
 
 Jaringan ini menciptakan insentif kuat bagi orang untuk terus menggunakan Bitcoin. Bahkan jika token baru diciptakan dengan fungsionalitas yang sama seperti Bitcoin, itu tidak akan memiliki tingkat kepercayaan dan adopsi yang sama. Ini karena akan kekurangan jaringan pengguna yang sudah mapan dan sejarah transaksi.
+
 Secara sederhana, sama seperti Anda tidak bisa membuat Facebook baru besok dan mengharapkan nilai yang sama seperti Facebook asli, token baru tidak bisa langsung meniru jaringan Bitcoin dalam semalam. Nilai bitcoin tidak hanya terletak pada kode-nya tetapi pada kepercayaan dan adopsi yang telah dibangun seiring waktu.
 
 Ringkasnya, meskipun kode Bitcoin bersifat open source dan dapat disalin, nilainya berasal dari jaringan penggunanya serta kepercayaan dan adopsi yang telah dibangun seiring waktu. Token baru dengan fungsionalitas yang sama seperti Bitcoin tidak akan memiliki tingkat kepercayaan dan adopsi yang sama dan, oleh karena itu, tidak akan menjadi pengganti yang layak untuk Bitcoin.
@@ -1341,7 +1355,9 @@ Dalam hal ini, mari kita lihat tiga poin diskusi di atas.
 Pada suatu titik, Anda mungkin telah menemui argumen bahwa bitcoin tidak memiliki nilai intrinsik, yang menimbulkan pertanyaan mengapa harus diizinkan untuk mengonsumsi energi.
 
 Seperti yang dibahas dalam kesalahpahaman ketiga, nilai intrinsik adalah subjektif dan tergantung pada keadaan dan kebutuhan individu. Misalnya, bayangkan diri Anda di gurun yang panas, dan seseorang menawarkan Anda jaket tebal. Itu akan menjadi tidak berguna. Sekarang, bayangkan Anda berada di Arktik yang beku. Tiba-tiba, jaket itu menjadi sangat berharga. Ini menunjukkan bahwa nilai tidak melekat pada suatu objek tetapi ditentukan oleh konteks spesifik, kondisi, dan utilitas yang objek tersebut berikan kepada individu dalam memenuhi kebutuhan mereka. Namun, subjektivitas tidak hanya berlaku untuk nilai. Ini juga berlaku untuk konsumsi energi. Jika sesuatu memerlukan energi untuk beroperasi, ini jelas menunjukkan bahwa orang menemukan nilai di dalamnya, karena mereka bersedia mendedikasikan waktu, sumber daya, dan energi mereka untuk itu.
+
 Setiap hari, kita menyaksikan tak terhitung contoh konsumsi energi yang timbul dari nilai yang dirasakan individu terhadap aktivitas atau industri tertentu. Konsumsi energi erat kaitannya dengan penciptaan nilai, mulai dari penggunaan peralatan di rumah kita hingga penambangan Bitcoin hingga energi yang diperlukan untuk menggerakkan infrastruktur luas yang mendorong ekonomi kita.
+
 Pertimbangkan kemajuan dalam teknologi, transportasi, dan hiburan yang telah muncul seiring waktu. Inovasi-inovasi ini seringkali membutuhkan jumlah energi yang signifikan, namun mereka telah secara mendasar mengubah hidup kita dan membawa nilai yang besar. Bitcoin tidak berbeda. Baik itu kemudahan transportasi modern, mata uang digital peer-to-peer, atau kesenangan yang berasal dari berbagai bentuk hiburan, pengalaman dan manfaat ini dimungkinkan oleh konsumsi energi.
 
 Dengan pemikiran ini, penting untuk mengakui bahwa persepsi nilai bervariasi di antara individu dan komunitas. Apa yang mungkin dianggap oleh satu orang sebagai penggunaan energi yang berharga, orang lain mungkin melihat sebagai berlebihan atau tidak perlu. Namun, subjektivitas ini tidak seharusnya mengurangi pengakuan bahwa konsumsi energi secara intrinsik terkait dengan nilai yang orang atributkan pada usaha tertentu.
@@ -1357,6 +1373,7 @@ Dan disinilah Bitcoin masuk. Untuk pertama kalinya dalam sejarah, Bitcoin memung
 Produsen energi kini dapat mengalihkan energi terdampar ke penambangan Bitcoin, memungkinkan mereka untuk mendapatkan Bitcoin dari energi yang tidak terpakai. Pendekatan inovatif ini tidak hanya secara signifikan mengurangi energi yang terbuang, tetapi juga membuka aliran pendapatan tambahan yang sebelumnya tidak dapat diakses. Sebaliknya, pendapatan baru ini membantu menurunkan biaya energi secara keseluruhan bagi semua orang lain, karena dalam pasar energi tradisional, harga energi mencakup biaya energi terdampar yang terbuang. Mengapa? Dengan memanfaatkan penambangan Bitcoin untuk memonetisasi energi yang sebelumnya tidak dapat digunakan ini, produsen energi dapat mengimbangi biaya mereka dan meneruskan manfaat kepada konsumen, mengurangi harga energi.
 
 Mengembangkan konsep ini, jaringan energi kita dirancang untuk beroperasi dengan kapasitas berlebih, biasanya hanya menggunakan 40-60% dari energi yang dapat diproduksi pada setiap saat. Langkah pencegahan ini memungkinkan jaringan untuk dengan cepat mengakomodasi lonjakan permintaan energi yang tak terduga selama peristiwa seperti kondisi cuaca ekstrem, seperti gelombang panas atau dingin, ketika orang meningkatkan penggunaan sistem pendingin atau pemanas mereka. Karena produsen energi tidak dapat meningkatkan output mereka secara instan untuk mencocokkan lonjakan permintaan yang tiba-tiba, menghasilkan surplus energi menjadi perlu, memperkenalkan biaya modal berlebih dan potensi untuk energi yang terbuang.
+
 Dan pemborosan ini tampaknya tidak akan membaik dalam waktu dekat. Karena kekuatan angin berubah-ubah, dan intensitas matahari berkurang dengan adanya penutup awan, energi angin hanya sekitar [15-30%](http://anemoiservices.com/industry-news/how-much-electricity-does-a-wind-turbine-produce/#:~:text=When%20there%20are%20slow%20wind,at%20about%2015%E2%80%9330%25.) efisien dalam kondisi terbaik, sementara energi matahari berada pada kisaran efisiensi sekitar [16-24%](https://www.cleanenergyreviews.info/blog/most-efficient-solar-panels). Mengingat rencana kita untuk beralih sepenuhnya ke sumber energi terbarukan, menjadi perlu untuk memiliki kapasitas energi setidaknya tiga kali lipat dari permintaan maksimum jaringan. Kapasitas surplus ini diperlukan untuk memastikan bahwa jaringan tetap stabil dalam kejadian gangguan pasokan, meminimalkan ancaman pemadaman listrik. Namun, itu juga berarti sebagian besar produksi energi kita akan terdampar kapan saja! Energi ini tidak memiliki penggunaan lain. Tidak ada yang bersedia membelinya.
 Namun, sekarang produsen energi memiliki cara untuk mengkapitalisasi energi terdampar ini yang sebaliknya akan terbuang sia-sia. Dengan memonetisasi energi surplus melalui penambangan Bitcoin, produsen energi dapat mengoptimalkan operasi mereka, mendapatkan keuntungan finansial, dan pada akhirnya mengurangi biaya untuk semua orang di jaringan.
 

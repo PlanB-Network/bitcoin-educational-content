@@ -43,47 +43,6 @@ Na tym kursie omówimy niektóre aspekty pieniężne Bitcoina, w tym jak kupowa�
 
 Ważne jest, aby zrozumieć, że Bitcoin to nowy system monetarny, który całkowicie zmienia nasze relacje z pieniędzmi, więc nauka korzystania z niego jest niezbędną umiejętnością dla każdego, kto chce mieć kontrolę nad własnymi funduszami.
 
-**Sekcja 1 - Wprowadzenie**
-
-- Rozdział 1 - Przegląd kursu
-- Rozdział 2 - Prehistoria Bitcoina
-
-**Sekcja 2 - Pieniądze**
-
-- Rozdział 3 - Pieniądze na przestrzeni dziejów
-- Rozdział 4 - Waluty fiat
-- Rozdział 5 - Hiperinflacja
-- Rozdział 6 - 21 milionów bitcoinów
-- 
-**Sekcja 3 - Portfele Bitcoin**
-
-- Rozdział 7 - Czym jest portfel Bitcoin?
-- Rozdział 8 - Portfele Bitcoin i bezpieczeństwo
-- Rozdział 9 - Konfiguracja portfela
-- Rozdział 10 - Przetrwać próbę czasu
-
-**Sekcja 4 - Aspekty techniczne Bitcoina**
-
-- Rozdział 11 - Uruchomienie Bitcoina
-- Rozdział 12 - Transakcje Bitcoin
-- Rozdział 13 - Węzły Bitcoin
-- Rozdział 14 - Górnicy
-- Rozdział 15 - Bitcoin a ekologia
-
-**Sekcja 5 - Jak zdobyć bitcoiny?**
-
-- Rozdział 16 - Bitcoin nigdy nie śpi!
-- Rozdział 17 - Zarabianie bitcoinów poprzez pracę
-- Rozdział 18 - Oszczędzanie z Bitcoinem
-- Rozdział 19 - Hiperbitcoinizacja
-
-**Sekcja 6 - Przyszłość Bitcoina: sieć Lightning**
-
-- Rozdział 20 - Krótkie wprowadzenie do sieci Lightning
-- Rozdział 21 - Przypadki użycia sieci Lightning
-- Rozdział 22 - Czerwona czy niebieska pigułka?
-
-
 Przed wprowadzeniem definicji pieniądza i jego funkcji w społeczeństwie (Rozdział 1), powinniśmy zacząć od historii powstania Bitcoina. Wprowadzony na rynek w 2009 roku, Bitcoin jest stosunkowo nową technologią, niepodobną do niczego innego. Dlatego normalne jest, że nie rozumiemy wszystkiego od razu. W rzeczywistości, podobnie jak w przypadku nauki korzystania z Internetu lub prowadzenia samochodu, nie musisz od razu znać wszystkich szczegółów technicznych: możesz zacząć od nauki, jak odbierać, płacić i zabezpieczać swoje fundusze, a następnie małymi krokami zgłębiać je dalej.
 
 Jesteśmy dopiero na początkowych etapach jego wdrażania, minęliśmy dopiero fazę startową: jesteś tutaj w samą porę, aby zdobyć tyle wiedzy, ile chcesz, na temat tej ważnej innowacji.
@@ -199,7 +158,7 @@ Aby spełnić te kryteria, waluty w historii ewoluowały krok po kroku:
 
 Dzisiaj waluty nadal ewoluują, dostosowując swoje formy do różnych zastosowań. Chociaż złoto jest doskonałym środkiem przechowywania wartości, nie nadaje się już do łatwego zastosowania w obecnej zglobalizowanej ekonomii. Podobnie, waluty fiducjarne takie jak dolar i euro są bardzo płynne i łatwe w transporcie, ponieważ obecnie są głównie cyfrowe, jednak ich wartość jest ciągle erodowana przez inflację monetarną.
 
-Bitcoin z kolei oferuje nowe możliwości. Dzięki swoim właściwościom, takim jak ściśle ograniczona podaż, jest doskonałym narzędziem przechowywania wartości. Ponadto, jako neutralna waluta internetowa, stanowi dobry **środek wymiany**, który funkcjonuje ponad granicami. Jednakże nie jest jeszcze szeroko akceptowany w handlu, pomimo [ciągłego wdrażania](https://btcmap.org/map).
+Bitcoin z kolei oferuje nowe możliwości. Dzięki swoim właściwościom, takim jak ściśle ograniczona podaż, jest doskonałym narzędziem przechowywania wartości. Ponadto, jako neutralna waluta internetowa, stanowi dobry **środek wymiany**, który funkcjonuje ponad granicami. Jednakże nie jest jeszcze szeroko akceptowany w handlu, pomimo jego ciągłego wdrażania, co ilustruje mapa [the BTC map](https://btcmap.org/map).
 
 ## Waluty fiducjarne
 

@@ -8,9 +8,7 @@ description: Apa itu dompet Watch-Only dan bagaimana cara menggunakannya?
 
 ***PERINGATAN:** Menyusul penangkapan pendiri Samourai Wallet dan penyitaan server mereka pada 24 April, aplikasi Sentinel terus berfungsi, namun **wajib menggunakan Dojo milik sendiri** untuk mengakses informasi blockchain dan menyiarkan transaksi.*
 
-_Kami terus mengikuti perkembangan kasus ini serta perkembangan terkait alat-alat yang berhubungan. Yakinlah bahwa kami akan memperbarui tutorial ini seiring dengan tersedianya informasi baru._
 
-_Tutorial ini disediakan hanya untuk tujuan pendidikan dan informasi. Kami tidak mendukung atau mendorong penggunaan alat-alat ini untuk tujuan kriminal. Tanggung jawab setiap pengguna adalah untuk mematuhi hukum di yurisdiksi mereka._
 
 ---
 
@@ -26,7 +24,7 @@ Jenis aplikasi ini hanya menyimpan data yang diperlukan untuk memantau dompet Bi
 Watch-only umumnya digunakan bersama dengan dompet perangkat keras. Ini memungkinkan penyimpanan kunci privat dompet secara "dingin," pada perangkat yang tidak terhubung ke internet, yang memiliki permukaan serangan minimal, mengisolasi kunci privat dari lingkungan yang berpotensi rentan. Aplikasi watch-only, di sisi lain, secara eksklusif menyimpan kunci publik yang diperluas (`xpub`, `zpub`, dll.) dari dompet Bitcoin. Kunci induk ini tidak memungkinkan untuk menemukan kunci privat yang terkait dan, akibatnya, tidak memungkinkan pengeluaran bitcoin. Namun, ini memungkinkan untuk derivasi kunci publik anak dan alamat penerima. Dengan mengetahui alamat dompet yang diamankan oleh dompet perangkat keras, aplikasi watch-only dapat melacak transaksi ini di jaringan Bitcoin, menawarkan pengguna kemampuan untuk memantau saldo mereka dan menghasilkan alamat penerima baru, tanpa harus menghubungkan dompet perangkat keras mereka setiap waktu.
 
 ## Dompet Watch-Only Mana yang Harus Digunakan?
-Saat ini, aplikasi watch-only yang paling komprehensif adalah [Sentinel](https://sentinel.watch/), yang dikembangkan oleh tim di Samourai Wallet. Ini mencakup semua fitur penting untuk dompet watch-only yang baik:
+Saat ini, aplikasi watch-only yang paling lengkap adalah [Sentinel](https://github.com/wanderingking072/sentinel-android), yang awalnya dikembangkan oleh tim Samourai Wallet dan kini dipelihara oleh komunitas. Aplikasi ini menghimpun semua fitur penting untuk dompet watch-only yang baik:
 - Dukungan untuk kunci yang diperluas, kunci publik, dan alamat;
 - Kemampuan untuk mengorganisir beberapa akun atau dompet ke dalam koleksi;
 - Generasi alamat untuk menerima bitcoin pada dompet perangkat keras seseorang tanpa memerlukan penggunaannya secara langsung;
@@ -38,25 +36,20 @@ Bagi mereka yang ingin melacak dompet multi-tanda tangan, Blue Wallet adalah sat
 Untuk pengguna iOS yang mencari alternatif untuk Sentinel, [Green Wallet](https://blockstream.com/green/) atau [Blue Wallet](https://bluewallet.io/watch-only/) mungkin menjadi pilihan, meskipun fungsionalitas watch-only mereka tidak sekomprehensif Sentinel. ![watch-only](assets/notext/2.webp)
 ## Bagaimana Cara Menggunakan Dompet Watch-Only Sentinel?
 ### Instalasi dan Pengaturan
-Mulailah dengan menginstal aplikasi Sentinel. Anda dapat melakukan ini baik dari Google Play Store atau dengan menggunakan [APK yang tersedia untuk diunduh di situs web resmi](https://sentinel.watch/download/).
+Mulailah dengan menginstal aplikasi Sentinel. Anda dapat melakukannya menggunakan [APK yang tersedia untuk diunduh di repositori github proyek](https://github.com/wanderingking072/sentinel-android/releases).
 
-![watch-only](assets/notext/3.webp)
 
-Saat pertama kali membuka aplikasi, Anda diberi pilihan antara:
-- `Connect to Dojo`;
-- `Connect to Samourai's server`.
 
-Dojo, dikembangkan oleh tim Samourai, adalah versi node Bitcoin penuh yang dapat diinstal secara mandiri atau ditambahkan dalam satu klik ke solusi node-in-box seperti [Umbrel](https://umbrel.com/) dan [RoninDojo](https://ronindojo.io/).
 
-[**-> Temukan cara menginstal RoninDojo v2 di Raspberry Pi.**](https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
 
-Jika Anda memiliki Dojo sendiri, Anda dapat menghubungkannya pada tahap ini. Dengan melakukan ini, Anda akan mendapatkan tingkat privasi tertinggi saat memeriksa informasi transaksi jaringan Bitcoin Anda.
+
+Anda kemudian harus terhubung secara wajib ke Dojo Anda sendiri, karena server Samourai Wallet tidak lagi tersedia. Jika Anda belum memiliki Dojo sendiri, Anda dapat menggunakan Dojo yang disediakan oleh komunitas di situs [The Dojo Bay](https://dojobay.pw/), atau mengikuti tutorial kami untuk menginstal milik Anda sendiri :
+
+https://planb.academy/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9
 
 ![watch-only](assets/notext/4.webp)
 
-Jika tidak, Anda dapat memilih server default Samourai. Anda juga dapat memilih apakah akan terhubung melalui Tor atau tidak.
 
-![watch-only](assets/notext/5.webp)
 
 Anda kemudian akan tiba di halaman utama Sentinel.
 

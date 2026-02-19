@@ -13,3 +13,4 @@ explanation: |
   Bayangkan pasokan uang sebagai sebuah pizza, dan bayangkan itu dipotong menjadi empat bagian.
   Menggandakan pasokan uang tidak sama dengan menggandakan jumlah pizza.
   Sebaliknya, itu sama dengan memotong empat potongan tersebut menjadi dua untuk menciptakan delapan potongan. Kita tidak mendapatkan pizza tambahan. Kita hanya memiliki lebih banyak potongan, masing-masing lebih kecil ukurannya. Oleh karena itu, ketika kita mencetak lebih banyak uang, kita menurunkan nilai uang yang sudah ada.
+reviewed: true

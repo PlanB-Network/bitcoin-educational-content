@@ -8,9 +8,7 @@ description: Mis on Watch-Only rahakott ja kuidas seda kasutada?
 
 ***HOIATUS:** Pärast Samourai Wallet'i asutajate arreteerimist ja nende serverite konfiskeerimist 24. aprillil jätkab Sentinel rakendus töötamist, kuid **on kohustuslik kasutada oma Dojo't**, et pääseda ligi plokiahela informatsioonile ja teostada tehinguid.*
 
-_Jälgime selle juhtumi arenguid ning sellega seotud tööriistade arenguid tähelepanelikult. Võite kindlad olla, et uuendame seda õpetust, kui saabub uut informatsiooni._
 
-_Seda õpetust pakutakse ainult hariduslikel ja informatiivsetel eesmärkidel. Me ei toeta ega julgusta nende tööriistade kasutamist kuritegelikel eesmärkidel. Iga kasutaja vastutab oma jurisdiktsiooni seadustega kooskõlas olemise eest_
 
 ---
 
@@ -26,7 +24,7 @@ See tüüpi rakendus säilitab ainult andmed, mis on vajalikud Bitcoin'i rahakot
 Watch-Only't kasutatakse üldiselt koos riistvara rahakotiga. See võimaldab rahakoti privaatvõtmete "külma" hoiustamist seadmel, mis ei ole ühendatud internetiga, mis omab minimaalset rünnaku pinda, isoleerides privaatvõtmed potentsiaalselt haavatavatest keskkondadest. Watch-Only rakendus seevastu säilitab ainult Bitcoin'i rahakoti laiendatud avaliku võtme (`xpub`, `zpub` jne). See vanemvõti ei võimalda seotud privaatvõtmete avastamist ja seega ei luba bitcoine kulutada. Siiski võimaldab see tuletada alamavalikke võtmeid ja vastuvõtu aadresse. Tundes riistvara rahakoti poolt kaitstud rahakoti aadresse, saab Watch-Only rakendus jälgida neid tehinguid Bitcoin'i võrgus, pakkudes kasutajale võimalust jälgida oma saldot ja genereerida uusi vastuvõtu aadresse, ilma et peaks iga kord oma riistvara rahakotti ühendama.
 
 ## Millist Watch-Only Rahakotti kasutada?
-Praegu on kõige terviklikum Watch-Only rakendus [Sentinel](https://sentinel.watch/), mille on välja töötanud Samourai Wallet'i meeskonnad. See hõlmab kõiki olulisi omadusi hea Watch-Only rahakoti jaoks:
+Praegu on kõige terviklikum watch-only rakendus [Sentinel](https://github.com/wanderingking072/sentinel-android), mille arendasid algselt Samourai Walleti meeskonnad ja mida nüüd haldab kogukond. See koondab kõik olulised funktsioonid hea watch-only rahakoti jaoks:
 - Tugi laiendatud võtmetele, avalikele võtmetele ja aadressidele;
 - Võimalus korraldada mitu kontot või rahakotti kogumitesse;
 - Aadresside genereerimine bitcoinide vastuvõtmiseks oma riistvara rahakotis ilma selle otsese kasutamiseta;
@@ -38,25 +36,20 @@ Neile, kes soovivad jälgida mitme allkirjaga rahakotti, on Blue Wallet ainus ra
 iOS-i kasutajatele, kes otsivad alternatiivi Sentinelile, võivad olla võimalused [Green Wallet](https://blockstream.com/green/) või [Blue Wallet](https://bluewallet.io/watch-only/), kuigi nende ainult-vaatamise funktsionaalsus ei ole nii kõikehõlmav kui Sentinelil. ![watch-only](assets/notext/2.webp)
 ## Kuidas kasutada Sentinel ainult-vaatamise rahakotti?
 ### Paigaldamine ja seadistamine
-Alustage Sentinel rakenduse paigaldamisega. Saate seda teha kas Google Play poest või kasutades [APK-d, mis on allalaadimiseks saadaval ametlikul veebilehel](https://sentinel.watch/download/).
+Alustage Sentinel rakenduse installimisega. Seda saate teha kasutades [APK-d, mis on saadaval allalaadimiseks projekti github repositooriumis](https://github.com/wanderingking072/sentinel-android/releases).
 
-![watch-only](assets/notext/3.webp)
 
-Rakenduse esmakordsel avamisel antakse teile valik:
-- `Ühenda Dojoga`;
-- `Ühenda Samourai serveriga`.
 
-Dojo, mille on välja töötanud Samourai meeskond, on täielik Bitcoin node versioon, mida saab paigaldada iseseisvalt või lisada ühe klikiga node-in-box lahendustele nagu [Umbrel](https://umbrel.com/) ja [RoninDojo](https://ronindojo.io/).
 
-[**-> Avasta, kuidas paigaldada RoninDojo v2 Raspberry Pi-le.**](https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
 
-Kui teil on oma Dojo, saate selles etapis sellega ühenduda. Tehes seda, saate kasu kõrgeimast privaatsuse tasemest, kontrollides oma Bitcoin võrgu tehinguteabeid.
+
+Seejärel peate kohustuslikus korras ühenduma oma Dojoga, kuna Samourai Wallet serverid ei ole enam saadaval. Kui teil ei ole veel oma Dojo't, saate kas kasutada kogukonna poolt veebisaidil [The Dojo Bay](https://dojobay.pw/) kättesaadavaks tehtud Dojo't või järgida meie õpetust oma Dojo installimiseks :
+
+https://planb.academy/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9
 
 ![watch-only](assets/notext/4.webp)
 
-Vastasel juhul on võimalik valida Samourai vaikeserver. Samuti saate valida, kas ühenduda Tori kaudu või mitte.
 
-![watch-only](assets/notext/5.webp)
 
 Seejärel jõuate Sentinel pealehele.
 

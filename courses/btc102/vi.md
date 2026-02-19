@@ -74,7 +74,7 @@ Khi hoàn thành khóa học này, bạn sẽ sở hữu đầy đủ các công
 
 Bạn đã sẵn sàng bắt đầu hành trình khám phá thế giới Bitcoin chưa? Bắt đầu thôi!
 
-**Lưu ý**: Trong quá trình học, nếu bạn gặp thuật ngữ nào chưa quen, hãy tra cứu tại [bảng thuật ngữ](https://planb.academy/resources/glossary) để biết định nghĩa của chúng.
+
 
 # Điều kiện tiên quyết để hiểu Bitcoin
 
@@ -94,7 +94,7 @@ Trước khi đi sâu hơn, điều quan trọng là phải phân biệt rõ rà
 
 - **Hệ sinh thái Bitcoin**: Tập trung vào ý tưởng về một loại tiền tệ vững chắc (sound money), được xây dựng trên nền tảng phi tập trung mạnh mẽ, khả năng phục hồi dài hạn, quyền riêng tư và chủ quyền cá nhân. Kể từ khi ra mắt vào năm 2009, Bitcoin đã vận hành một cách đáng tin cậy và an toàn, được hỗ trợ bởi một cộng đồng các nhà phát triển tận tâm trên toàn cầu. Đây không phải là một xu hướng nhất thời, mà là một giao thức ổn định và được thiết lập tốt, và được thiết kế để bảo toàn giá trị theo thời gian.
 
-- **Ngành công nghiệp tiền điện tử (Cryptocurrency)**: Mặt khác, có quy mô lớn hơn rất nhiều và bao gồm hàng chục nghìn dự án khác nhau, mỗi dự án đi kèm với token riêng. Chúng thường bị chi phối bởi tốc độ đổi mới chóng vánh, sự thổi phồng và đầu cơ tài chính ngắn hạn. Nhiều dự án trong số đó mang tính tập trung cao, kém an toàn và không tạo ra nhiều giá trị thực — dù được quảng bá bằng những lời hứa táo bạo và chiến dịch marketing hào nhoáng.
+- **Ngành công nghiệp [tiền điện tử](https://planb.academy/resources/glossary/cryptocurrency) (Cryptocurrency)**: Mặt khác, có quy mô lớn hơn rất nhiều và bao gồm hàng chục nghìn dự án khác nhau, mỗi dự án đi kèm với token riêng. Chúng thường bị chi phối bởi tốc độ đổi mới chóng vánh, sự thổi phồng và đầu cơ tài chính ngắn hạn. Nhiều dự án trong số đó mang tính tập trung cao, kém an toàn và không tạo ra nhiều giá trị thực — dù được quảng bá bằng những lời hứa táo bạo và chiến dịch marketing hào nhoáng.
 
 ![image](assets/vi/001.webp)
 
@@ -125,7 +125,7 @@ Những trò lừa đảo này thường có đặc điểm:
 
 Sau cùng thì các mô hình kim tự tháp và Ponzi đều sẽ thất bại. Điểm yếu cơ bản của chúng nằm ở việc phải liên tục thu hút các nhà đầu tư mới để trả lợi nhuận cho những người tham gia trước đó. Điều này trở nên bất khả thi về mặt toán học theo thời gian vì số lượng người mới cần tuyển dụng tăng theo cấp số nhân khi hệ thống phát triển. Khi đạt đến điểm giới hạn, những người tham gia bắt đầu nghi ngờ, mất niềm tin, và toàn bộ kim tự tháp sụp đổ. Ở giai đoạn này, những người tham gia cuối cùng, thường là những người ít hiểu biết nhất, sẽ mất toàn bộ khoản đầu tư mà không có cách nào thu hồi lại, trong khi những người tổ chức hoặc nhà đầu tư ban đầu thường đã rút tiền và rời khỏi hệ thống.
 
-Trong thế giới tiền điện tử, các mô hình Ponzi có thể xuất hiện dưới nhiều hình thức, thường được thiết kế để che giấu bản chất gian lận của chúng dưới vỏ bọc công nghệ hoặc tài chính. Những trò lừa đảo này có thể xuất hiện dưới dạng chào bán token mới hoặc "Chào bán Coin Ban đầu" (ICO). Chúng là các hoạt động gây quỹ bằng cách bán một loại tiền điện tử mới ra công chúng. Đằng sau các thuật ngữ kỹ thuật như "Blockchain", "hợp đồng thông minh" hoặc "staking", một số dự án thực chất đang che giấu các mô hình kim tự tháp phức tạp. Một số dự án khác lại hứa hẹn lợi nhuận cao bằng cách kết hợp các tài sản tiền điện tử không rõ ràng với mô hình trả thưởng chỉ tồn tại khi liên tục có người mới tham gia.
+Trong thế giới tiền điện tử, các mô hình Ponzi có thể xuất hiện dưới nhiều hình thức, thường được thiết kế để che giấu bản chất gian lận của chúng dưới vỏ bọc công nghệ hoặc tài chính. Những trò lừa đảo này có thể xuất hiện dưới dạng chào bán token mới hoặc "Chào bán Coin Ban đầu" (ICO). Chúng là các hoạt động gây quỹ bằng cách bán một loại tiền điện tử mới ra công chúng. Đằng sau các thuật ngữ kỹ thuật như "[Blockchain](https://planb.academy/resources/glossary/blockchain)", "hợp đồng thông minh" hoặc "staking", một số dự án thực chất đang che giấu các mô hình kim tự tháp phức tạp. Một số dự án khác lại hứa hẹn lợi nhuận cao bằng cách kết hợp các tài sản tiền điện tử không rõ ràng với mô hình trả thưởng chỉ tồn tại khi liên tục có người mới tham gia.
 
 Gần đây hơn, các mô hình Ponzi cũng đã lan rộng sang lĩnh vực Tài chính Phi tập trung (DeFi). DeFi được thiết kế để cung cấp các dịch vụ tài chính không qua trung gian, một số dự án lại lợi dụng nó để tạo ra vẻ ngoài hợp pháp giả tạo cho các trò lừa đảo của chúng. Một số nền tảng DeFi hứa hẹn lợi nhuận cao, và được đảm bảo khi người dùng gửi tiền điện tử vào các giao thức tự động. Những lời hứa hấp dẫn này thường được hỗ trợ bởi các cơ chế mờ ám và không thể xác minh, với các token được tạo ra dành riêng cho mục đích lừa đảo. Trên thực tế, các hệ thống này không có mô hình kinh doanh bền vững—lợi nhuận chỉ đơn giản được trả từ tiền của người dùng mới, giống như một mô hình Ponzi truyền thống. Khi niềm tin bắt đầu bị xói mòn hoặc số lượng người tham gia mới giảm dần, các hệ thống này chắc chắn sẽ sụp đổ, dẫn đến tổn thất đáng kể cho các nhà đầu tư thiếu cảnh giác.
 
@@ -177,7 +177,8 @@ Các dự án tiền điện tử tập trung đôi khi cung cấp token miễn 
 
 Kẻ tấn công thường sử dụng các trang web giả mạo, tài khoản mạng xã hội hoặc email lừa đảo để cố gắng đánh cắp tiền của bạn. Những trò lừa đảo này có thể đến từ bất kỳ kênh giao tiếp nào: email, mạng xã hội, cuộc gọi điện thoại, hoặc thậm chí là thư tín truyền thống...
 
-Trước khi nhấp vào liên kết hoặc thực hiện bất kỳ hành động nào, hãy luôn kiểm tra kỹ danh tính người gửi. Nếu nghi ngờ, hãy truy cập trang web theo cách thủ công thay vì sử dụng liên kết được cung cấp. Quan trọng nhất, đừng bao giờ chia sẻ khóa riêng tư hoặc mật khẩu của bạn với bất kỳ ai.
+
+Trước khi nhấp vào liên kết hoặc thực hiện bất kỳ hành động nào, hãy luôn kiểm tra kỹ danh tính người gửi. Nếu nghi ngờ, hãy truy cập trang web theo cách thủ công thay vì sử dụng liên kết được cung cấp. Quan trọng nhất, đừng bao giờ chia sẻ [khóa riêng tư](https://planb.academy/resources/glossary/private-key) hoặc mật khẩu của bạn với bất kỳ ai.
 
 #### Bitcoin Hardfork
 
@@ -396,7 +397,9 @@ Trong chương này, tôi sẽ chia sẻ một số lời khuyên thực tế v�
 
 Sau đây là những điểm chính mà chúng ta sẽ cùng nhau xem xét:
 
-- Hãy cẩn thận với **Shitcoin** và các loại tiền điện tử vô dụng khác;
+
+
+- Hãy cẩn thận với **[Shitcoin](https://planb.academy/resources/glossary/shitcoin)** và các loại tiền điện tử vô dụng khác;
 - Chỉ đầu tư **số tiền bạn có thể chấp nhận mất**;
 - Biết sự khác biệt giữa **giao dịch** và **đầu tư**;
 - Hãy lưu ý đến **những tác động về thuế** của khoản đầu tư của bạn;
@@ -586,11 +589,11 @@ Qua nhiều năm, Bitcoin đã được công nhận là một mạng lưới ti
 
 #### Cypherpunks và việc phát minh ra một hệ thống vượt ra ngoài tầm kiểm soát của ngân hàng
 
-Bitcoin không phải sinh ra trong một sớm một chiều. Nó là kết quả của nhiều thập kỷ nghiên cứu và thử nghiệm về mật mã, khoa học máy tính và lý thuyết tiền tệ. Trước khi ra mắt vào năm 2009, một số dự án (như eCash, b-money, Bit Gold và RPOW) đã cố gắng tạo ra tiền kỹ thuật số. Tất cả đều phải đối mặt với cùng một vấn đề cốt lõi: làm thế nào để ngăn chặn chi tiêu gấp đôi trong một hệ thống phi tập trung mà không cần dựa vào một cơ quan quản lý trung ương.
+Bitcoin không phải sinh ra trong một sớm một chiều. Nó là kết quả của nhiều thập kỷ nghiên cứu và thử nghiệm về [mật mã học](https://planb.academy/resources/glossary/cryptography), khoa học máy tính và lý thuyết tiền tệ. Trước khi ra mắt vào năm 2009, một số dự án (như eCash, b-money, Bit Gold và RPOW) đã cố gắng tạo ra tiền kỹ thuật số. Tất cả đều phải đối mặt với cùng một vấn đề cốt lõi: làm thế nào để ngăn chặn chi tiêu gấp đôi trong một hệ thống phi tập trung mà không cần dựa vào một cơ quan quản lý trung ương.
 
-Thách thức đó vẫn chưa được giải quyết cho đến cuối năm 2008, khi một người dùng tên Satoshi Nakamoto công bố sách trắng Bitcoin. Vài tháng sau, phiên bản đầu tiên của phần mềm nguồn mở Bitcoin đã ra mắt, khởi động một hệ thống có thể hoạt động độc lập với các ngân hàng hoặc chính phủ.
+Thách thức đó vẫn chưa được giải quyết cho đến cuối năm 2008, khi một người dùng tên Satoshi Nakamoto công bố [sách trắng](https://planb.academy/resources/glossary/white-paper) Bitcoin. Vài tháng sau, phiên bản đầu tiên của phần mềm nguồn mở Bitcoin đã ra mắt, khởi động một hệ thống có thể hoạt động độc lập với các ngân hàng hoặc chính phủ.
 
-Dự án chịu ảnh hưởng sâu sắc từ tinh thần của Cypherpunk; một cộng đồng các nhà phát triển và tư tưởng gia tin tưởng vào việc sử dụng mật mã để bảo vệ quyền tự do cá nhân trực tuyến. Đối với họ, quyền riêng tư và phi tập trung không phải là những ưu tiên kỹ thuật, mà là những nhu cầu về mặt tư tưởng. Bitcoin nổi lên như hiện thân thành công nhất của những lý tưởng đó: một mạng lưới tiền tệ ngang hàng mà bất kỳ ai cũng có thể sử dụng, không ai có thể kiểm soát, và mọi người đều có thể xác minh.
+Dự án chịu ảnh hưởng sâu sắc từ tinh thần của [Cypherpunk](https://planb.academy/resources/glossary/cypherpunks); một cộng đồng các nhà phát triển và tư tưởng gia tin tưởng vào việc sử dụng mật mã để bảo vệ quyền tự do cá nhân trực tuyến. Đối với họ, quyền riêng tư và phi tập trung không phải là những ưu tiên kỹ thuật, mà là những nhu cầu về mặt tư tưởng. Bitcoin nổi lên như hiện thân thành công nhất của những lý tưởng đó: một mạng lưới tiền tệ ngang hàng mà bất kỳ ai cũng có thể sử dụng, không ai có thể kiểm soát, và mọi người đều có thể xác minh.
 
 ![image](assets/vi/035.webp)
 
@@ -608,7 +611,7 @@ Một cột mốc quan trọng trong phong trào này là vào năm 1992 với v
 
 Bitcoin không phải tự nhiên mà có. Nó được tạo ra vào một thời điểm rất cụ thể - ngay sau cuộc khủng hoảng tài chính toàn cầu năm 2008. Sự sụp đổ của thị trường nhà đất Hoa Kỳ và cuộc khủng hoảng cho vay dưới chuẩn đã khiến các ngân hàng lớn phá sản và làm lung lay niềm tin của mọi người vào toàn bộ hệ thống tài chính.
 
-Chính trong bối cảnh đầy sợ hãi và bất định này, Bitcoin đã ra đời. Người sáng tạo, được biết đến với cái tên Satoshi Nakamoto, đã đưa vào một thông điệp mang tính biểu tượng ngay trong khối đầu tiên của Bitcoin, Blockchain, hay còn gọi là khối Genesis. Thông điệp đó là:
+Chính trong bối cảnh đầy sợ hãi và bất định này, Bitcoin đã ra đời. Người sáng tạo, được biết đến với cái tên Satoshi Nakamoto, đã đưa vào một thông điệp mang tính biểu tượng ngay trong khối đầu tiên của Bitcoin, Blockchain, hay còn gọi là [khối Genesis](https://planb.academy/resources/glossary/genesis-block). Thông điệp đó là:
 
 > **"The Times 03/01/2009 Bộ trưởng Tài chính sắp tung ra gói cứu trợ thứ hai cho các ngân hàng"**
 
@@ -628,11 +631,11 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 #### Ngang hàng và không có cơ quan trung ương
 
-Bitcoin được định nghĩa là "hệ thống tiền điện tử ngang hàng". Điều này có nghĩa là bất kỳ ai cũng có thể kết nối với mạng bằng phần mềm phù hợp (một nút Bitcoin) và tương tác trực tiếp với những người dùng khác mà không cần dựa vào máy chủ trung tâm. Mục tiêu của sự phân quyền này là ngăn chặn bất kỳ thực thể đơn lẻ nào (chẳng hạn như ngân hàng, chính phủ hoặc tập đoàn lớn) kiểm soát, kiểm duyệt hoặc dừng hệ thống. Bitcoin hoạt động 24/7, trên toàn cầu và mọi người đều có thể truy cập mà không cần bất kỳ điều kiện nào.
+Bitcoin được định nghĩa là "hệ thống tiền điện tử ngang hàng". Điều này có nghĩa là bất kỳ ai cũng có thể kết nối với mạng bằng phần mềm phù hợp (một [nút](https://planb.academy/resources/glossary/node) Bitcoin) và tương tác trực tiếp với những người dùng khác mà không cần dựa vào máy chủ trung tâm. Mục tiêu của sự phân quyền này là ngăn chặn bất kỳ thực thể đơn lẻ nào (chẳng hạn như ngân hàng, chính phủ hoặc tập đoàn lớn) kiểm soát, kiểm duyệt hoặc dừng hệ thống. Bitcoin hoạt động 24/7, trên toàn cầu và mọi người đều có thể truy cập mà không cần bất kỳ điều kiện nào.
 
 ![image](assets/vi/036.webp)
 
-Nói một cách đơn giản, mỗi người tham gia mạng lưới Bitcoin (được gọi là "nút") đều có một bản sao đầy đủ của sổ cái giao dịch, được gọi là Blockchain. Khi một giao dịch mới xảy ra, nó sẽ được phát sóng lên mạng lưới. Sau đó, các thợ đào xác nhận các giao dịch này bằng cách nhóm chúng thành các khối, sau đó được thêm vào cuối chuỗi (do đó có tên là "Blockchain").
+Nói một cách đơn giản, mỗi người tham gia mạng lưới Bitcoin (được gọi là "nút") đều có một bản sao đầy đủ của sổ cái giao dịch, được gọi là Blockchain. Khi một giao dịch mới xảy ra, nó sẽ được phát sóng lên mạng lưới. Sau đó, các [thợ đào](https://planb.academy/resources/glossary/miner) xác nhận các giao dịch này bằng cách nhóm chúng thành các khối, sau đó được thêm vào cuối chuỗi (do đó có tên là "Blockchain").
 
 ![image](assets/vi/029.webp)
 
@@ -646,7 +649,7 @@ Hãy tưởng tượng Blockchain như một sổ kế toán khổng lồ, trong
 
 #### Cách tạo khối: Mining
 
-Mining là quá trình mà máy tính (hoặc các trang trại Mining lớn) đóng góp **sức mạnh tính toán** để bảo mật lịch sử giao dịch của Bitcoin và tạo ra các khối mới. Các thợ đào cạnh tranh để giải một bài toán—cụ thể là tìm ra một va chạm Hash cục bộ. Quá trình này đòi hỏi rất nhiều năng lượng và tài nguyên. Khi Miner tìm ra lời giải hợp lệ, chúng sẽ phát khối đó lên mạng lưới, mạng lưới sẽ xác minh và chấp nhận nó là hợp lệ.
+[Mining](https://planb.academy/resources/glossary/mining) là quá trình mà máy tính (hoặc các trang trại Mining lớn) đóng góp **sức mạnh tính toán** để bảo mật lịch sử giao dịch của Bitcoin và tạo ra các khối mới. Các thợ đào cạnh tranh để giải một bài toán—cụ thể là tìm ra một va chạm Hash cục bộ. Quá trình này đòi hỏi rất nhiều năng lượng và tài nguyên. Khi Miner tìm ra lời giải hợp lệ, chúng sẽ phát khối đó lên mạng lưới, mạng lưới sẽ xác minh và chấp nhận nó là hợp lệ.
 
 Như một phần thưởng, Miner sẽ nhận được bitcoin mới được tạo ra (gọi là trợ cấp theo khối) cùng với phí giao dịch từ tất cả các giao dịch có trong khối đó.
 
@@ -662,11 +665,11 @@ Cuối cùng, vào khoảng năm 2140, khoản trợ cấp sẽ bằng 0, vì t�
 
 #### Sự khan hiếm và chính sách tiền tệ cố định
 
-Một trong những tính năng mạnh mẽ nhất của Bitcoin là *chính sách tiền tệ có thể dự đoán và không thể thay đổi*. Không giống như các loại tiền tệ truyền thống (như đô la, euro hoặc yên), vốn có thể được các ngân hàng trung ương in ấn tùy ý (thường dẫn đến lạm phát hoặc biến động kinh tế), Bitcoin hoạt động theo một bộ quy tắc minh bạch được nhúng trong mã nguồn của nó.
+Một trong những tính năng mạnh mẽ nhất của Bitcoin là *chính sách tiền tệ có thể dự đoán và không thể thay đổi*. Không giống như các loại tiền tệ truyền thống (như đô la, euro hoặc yên), vốn có thể được các ngân hàng trung ương in ấn tùy ý (thường dẫn đến [lạm phát](https://planb.academy/resources/glossary/inflation) hoặc biến động kinh tế), Bitcoin hoạt động theo một bộ quy tắc minh bạch được nhúng trong mã nguồn của nó.
 
 Sẽ chỉ có 21 triệu bitcoin và tốc độ phát hành tiền mới sẽ được mọi người trong mạng lưới biết trước.
 
-Không chính phủ, tổ chức hay cá nhân nào có thể đơn phương thay đổi giới hạn Supply này hoặc các quy tắc phân phối. Cách duy nhất để thay đổi các thông số này là thay đổi giao thức Bitcoin; và ngay cả điều đó cũng cần sự đồng thuận từ đa số các bên tham gia kinh tế của mạng lưới.
+Không chính phủ, tổ chức hay cá nhân nào có thể đơn phương thay đổi giới hạn Supply này hoặc các quy tắc phân phối. Cách duy nhất để thay đổi các thông số này là thay đổi giao thức Bitcoin; và ngay cả điều đó cũng cần sự [đồng thuận](https://planb.academy/resources/glossary/consensus) từ đa số các bên tham gia kinh tế của mạng lưới.
 
 Sự khan hiếm cố hữu này là một điểm thu hút lớn đối với những người muốn tránh các chính sách tiền tệ khó lường hoặc tránh sự xói mòn dần dần sức mua của họ do lạm phát. Theo thời gian, điều này có thể đại diện cho một sự thay đổi trong tư duy tài chính, khi việc tiết kiệm bằng một tài sản giảm phát như Bitcoin trở nên hấp dẫn hơn so với việc dựa vào các loại tiền tệ truyền thống dễ bị lạm phát.
 
@@ -680,7 +683,7 @@ Một trong những điểm mạnh bị đánh giá thấp nhất của Bitcoin 
 
 #### Một giao thức công khai, có thể xác minh được bởi tất cả mọi người
 
-Bitcoin chạy trên một giao thức **mã nguồn mở** công khai (đáng chú ý nhất là thông qua [Bitcoin core](https://github.com/Bitcoin/Bitcoin)). Điều này có nghĩa là mã nguồn của nó được cung cấp miễn phí cho bất kỳ ai muốn kiểm tra, đánh giá và cải thiện. Không có cơ chế ẩn hay hệ thống đóng nào; mọi thứ về cách thức hoạt động của Bitcoin đều được công khai.
+Bitcoin chạy trên một giao thức [mã nguồn mở](https://planb.academy/resources/glossary/foss) công khai (đáng chú ý nhất là thông qua [Bitcoin core](https://github.com/Bitcoin/Bitcoin)). Điều này có nghĩa là mã nguồn của nó được cung cấp miễn phí cho bất kỳ ai muốn kiểm tra, đánh giá và cải thiện. Không có cơ chế ẩn hay hệ thống đóng nào; mọi thứ về cách thức hoạt động của Bitcoin đều được công khai.
 
 Mức độ minh bạch này khiến việc cài đặt backdoor hoặc thực hiện các thay đổi bí mật trở nên cực kỳ khó khăn. Bất kỳ ai có kỹ năng kỹ thuật đều có thể vận hành một nút, đóng góp vào quá trình phát triển hoặc xây dựng các công cụ tương thích. Trong Bitcoin, niềm tin được xây dựng thông qua mã nguồn và sự đồng thuận, chứ không phải thông qua kiểm soát tập trung.
 
@@ -701,6 +704,8 @@ Mặc dù phương pháp này mang tính kỹ thuật hơn, nhưng nó cung cấ
 #### Một phương thức thanh toán xuyên biên giới linh hoạt
 
 Nhờ tính chất phi tập trung, Bitcoin hoạt động 24/7, không bị ảnh hưởng bởi biên giới hay múi giờ. Tại những khu vực còn thiếu cơ sở hạ tầng ngân hàng truyền thống, Bitcoin thường được sử dụng như một giải pháp nhanh chóng, chi phí thấp để gửi hoặc nhận tiền mà không cần phụ thuộc vào các trung gian đắt đỏ. Mặc dù phí giao dịch có thể thay đổi tùy theo tình trạng tắc nghẽn mạng, nhưng nhìn chung vẫn thấp hơn nhiều so với phí mà các ngân hàng áp dụng cho các giao dịch chuyển khoản quốc tế. Ngoài ra, các giải pháp Layer-2 như [Lightning Network](https://planb.academy/resources/glossary/lightning-network) cho phép giao dịch Bitcoin nhanh hơn và rẻ hơn.
+
+Nhờ tính chất phi tập trung, Bitcoin hoạt động 24/7, không bị ảnh hưởng bởi biên giới hay múi giờ. Tại những khu vực còn thiếu cơ sở hạ tầng ngân hàng truyền thống, Bitcoin thường được sử dụng như một giải pháp nhanh chóng, chi phí thấp để gửi hoặc nhận tiền mà không cần phụ thuộc vào các trung gian đắt đỏ. Mặc dù phí giao dịch có thể thay đổi tùy theo tình trạng tắc nghẽn mạng, nhưng nhìn chung vẫn thấp hơn nhiều so với phí mà các ngân hàng áp dụng cho các giao dịch chuyển khoản quốc tế. Ngoài ra, các giải pháp Layer-2 như Lightning Network cho phép giao dịch Bitcoin nhanh hơn và rẻ hơn.
 
 #### Một kho lưu trữ giá trị
 
@@ -981,6 +986,7 @@ Vì Bitcoin là một mạng lưới toàn cầu nên các quốc gia đã phả
 
 Chính phủ và các tổ chức thường gặp khó khăn trong việc phân loại chính xác Bitcoin (là tiền, tài sản hay một thứ gì đó hoàn toàn mới?). Do đó, các quy định thường mang tính phản ứng, thiếu nhất quán và liên tục thay đổi. Nếu bạn tham gia vào Bitcoin, điều cần thiết là phải luôn cập nhật thông tin về bối cảnh địa phương; đặc biệt là khi nói đến thuế, quyền truy cập ngân hàng và các quy tắc tuân thủ.
 
+
 ### Quan điểm của Banks về Bitcoin
 
 Là nền tảng của hệ thống tài chính truyền thống, các ngân hàng coi Bitcoin là mối đe dọa trực tiếp đến mô hình kinh tế của họ, vốn tập trung vào việc trung gian và kiểm soát dòng tiền. Điều này giải thích tại sao nhiều ngân hàng trên thế giới đã áp đặt các hạn chế đối với doanh nghiệp và cá nhân sử dụng Bitcoin. Một số ngân hàng thậm chí còn đóng tài khoản hoặc hạn chế quyền truy cập vào các dịch vụ của các công ty hoạt động trong lĩnh vực tiền điện tử, thường viện dẫn các lo ngại về chống rửa tiền (AML) và chống tài trợ khủng bố (CTF).
@@ -1078,7 +1084,7 @@ Mỗi loại Wallet cung cấp sự cân bằng khác nhau:
 
 Ngành công nghiệp Bitcoin Wallet được chia thành nhiều loại, mỗi loại đáp ứng các nhu cầu và trình độ chuyên môn kỹ thuật khác nhau:
 
-- **Các nhà sản xuất [ví cứng (Hardware Wallet)](https://planb.academy/resources/glossary/hardware-wallet)**: Các công ty này phát triển các thiết bị vật lý được thiết kế để lưu trữ khóa an toàn. Một số là mã nguồn mở, trong khi những công ty khác cung cấp các giải pháp độc quyền với nhiều tính năng và mức độ bảo mật khác nhau. Những cái tên đáng chú ý bao gồm Ledger, Trezor, Coinkite, Foundation và Shiftcrypto.
+- **Các nhà sản xuất ví cứng (Hardware Wallet)**: Các công ty này phát triển các thiết bị vật lý được thiết kế để lưu trữ khóa an toàn. Một số là mã nguồn mở, trong khi những công ty khác cung cấp các giải pháp độc quyền với nhiều tính năng và mức độ bảo mật khác nhau. Những cái tên đáng chú ý bao gồm Ledger, Trezor, Coinkite, Foundation và Shiftcrypto.
 - **Software Wallet Developers**: Bao gồm các công ty và nhà phát triển độc lập chuyên tạo ứng dụng di động và máy tính để bàn. Các sản phẩm của họ đa dạng về trải nghiệm người dùng, bảo mật và tính năng. Ví dụ bao gồm Sparrow, Wizard Sardine, Galoy, Synonym và Blockstream.
 - **Ví DIY (*Tự làm*)**: Các giải pháp mã nguồn mở này được thiết kế cho người dùng nâng cao muốn kiểm soát hoàn toàn và ít phụ thuộc vào bên thứ ba. Việc tự xây dựng Wallet giúp giảm thiểu sự phụ thuộc vào độ tin cậy và có thể tăng cường khả năng bảo mật của bạn. Các tùy chọn DIY đáng chú ý bao gồm Seedsigner và Spectre DIY.
 
@@ -1086,7 +1092,7 @@ Ví đóng vai trò cơ bản trong Bitcoin và sẽ được tìm hiểu sâu h
 
 #### Bitcoin Mining
 
-Mining là chức năng cốt lõi của mạng lưới Bitcoin. Nó đảm bảo an ninh hệ thống và duy trì hoạt động của Blockchain. Thợ đào xác thực các giao dịch và bảo mật mạng lưới bằng cách thực hiện các phép tính tốn nhiều năng lượng, được gọi là Proof of Work. Mỗi khối mới được khai thác sẽ thêm một loạt giao dịch vào Blockchain và giải phóng bitcoin mới theo lịch trình phát hành của giao thức.
+Mining là chức năng cốt lõi của mạng lưới Bitcoin. Nó đảm bảo an ninh hệ thống và duy trì hoạt động của Blockchain. Thợ đào xác thực các giao dịch và bảo mật mạng lưới bằng cách thực hiện các phép tính tốn nhiều năng lượng, được gọi là [Proof of Work](https://planb.academy/resources/glossary/proof-of-work). Mỗi khối mới được khai thác sẽ thêm một loạt giao dịch vào Blockchain và giải phóng bitcoin mới theo lịch trình phát hành của giao thức.
 
 Trong những ngày đầu của Bitcoin, Mining có thể được thực hiện từ máy tính cá nhân. Ngày nay, đây là một ngành công nghiệp toàn cầu, cạnh tranh, do các công ty có nguồn lực tài chính và kỹ thuật dồi dào thống trị. Việc tìm kiếm các nguồn năng lượng giá rẻ đã trở thành trọng tâm chính, khi các thợ mỏ hướng đến việc tối ưu hóa chi phí vận hành và lợi nhuận. Hoạt động của Mining hiện nay trải rộng từ các cơ sở công nghiệp quy mô lớn đến các cơ sở quy mô nhỏ hoạt động trong nhà hoặc gara.
 
@@ -1110,7 +1116,7 @@ Sự phát triển của Bitcoin có thể được hiểu thông qua một số
 - **Các nhà phát triển giao thức phân lớp**, Nhóm này nghiên cứu các công nghệ được xây dựng dựa trên Bitcoin, như Lightning Network hoặc RGB, nhằm mục đích mở rộng khả năng của Bitcoin mà không thay đổi lõi của nó.
 - **Các nhà phát triển độc lập**, Những nhà phát triển này tập trung vào việc tạo ra các công cụ và ứng dụng để cải thiện trải nghiệm của người dùng, chẳng hạn như Mempool.space (Interface trực quan để theo dõi hoạt động giao dịch) hoặc Alby (các công cụ để sử dụng thanh toán Lightning trong trình duyệt và ứng dụng).
 
-Bất kỳ ai cũng có thể đề xuất thay đổi đối với Bitcoin core, nhưng quy trình này được thiết kế rất nghiêm ngặt. Các ý tưởng mới thường mất nhiều năm để hoàn thiện và đòi hỏi sự hiểu biết chuyên môn sâu rộng, sự tham gia rộng rãi của cộng đồng và nhiều lớp đánh giá. Các đề xuất thường được nộp dưới dạng **Đề xuất Cải tiến Bitcoin (BIPs)**; một số trong đó không bao giờ được đưa vào giao thức.
+Bất kỳ ai cũng có thể đề xuất thay đổi đối với Bitcoin core, nhưng quy trình này được thiết kế rất nghiêm ngặt. Các ý tưởng mới thường mất nhiều năm để hoàn thiện và đòi hỏi sự hiểu biết chuyên môn sâu rộng, sự tham gia rộng rãi của cộng đồng và nhiều lớp đánh giá. Các đề xuất thường được nộp dưới dạng **Đề xuất Cải tiến Bitcoin ([BIPs](https://planb.academy/resources/glossary/bip))**; một số trong đó không bao giờ được đưa vào giao thức.
 
 Sự đổi mới được hoan nghênh, nhưng chỉ khi nó được hỗ trợ bởi lý lẽ vững chắc, sự đồng thuận của cộng đồng và thử nghiệm cẩn thận.
 
@@ -1142,7 +1148,7 @@ Trong số các hệ thống lớp phủ chính làm phong phú thêm hệ sinh 
 
 - **Lightning Network**:
 
-Lightning Network, được Thaddeus Dryja và Joseph Poon tạo ra vào năm 2016, là giải pháp Layer thứ hai được thiết kế để cho phép thanh toán tức thì và chi phí thấp. Hai người dùng có thể mở một kênh riêng, nơi họ có thể giao dịch và số dư chỉ được cập nhật trên Blockchain khi kênh được mở hoặc đóng. Các giao dịch trong kênh được thực hiện trên off-chain, nghĩa là chúng không cần được ghi lại riêng lẻ trên Bitcoin Blockchain. Cấu trúc này cho phép giao dịch tức thì với mức phí tối thiểu, lý tưởng cho các giao dịch giá trị thấp cần xác nhận nhanh chóng.
+Lightning Network, được Thaddeus Dryja và Joseph Poon tạo ra vào năm 2016, là giải pháp Layer thứ hai được thiết kế để cho phép thanh toán tức thì và chi phí thấp. Hai người dùng có thể mở một [kênh](https://planb.academy/resources/glossary/payment-channel) riêng, nơi họ có thể giao dịch và số dư chỉ được cập nhật trên Blockchain khi kênh được mở hoặc đóng. Các giao dịch trong kênh được thực hiện trên off-chain, nghĩa là chúng không cần được ghi lại riêng lẻ trên Bitcoin Blockchain. Cấu trúc này cho phép giao dịch tức thì với mức phí tối thiểu, lý tưởng cho các giao dịch giá trị thấp cần xác nhận nhanh chóng.
 
 ![image](assets/vi/059.webp)
 
@@ -1168,7 +1174,7 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 RGB là một hệ thống Hợp đồng thông minh (Smart contract) phi tập trung và tập trung vào quyền riêng tư, được thiết kế để hoạt động trên nền tảng Bitcoin và Lightning Network. Không giống như các nền tảng Smart contract truyền thống, RGB sử dụng mô hình Client-side Validation (nghĩa là toàn bộ Contract State được lưu trữ trên off-chain, và chỉ các cam kết mật mã được công bố trên Bitcoin Blockchain). Thiết kế này cải thiện cả khả năng mở rộng và quyền riêng tư. Với RGB, người dùng có thể tạo các hợp đồng thông minh nâng cao để phát hành token, NFT, danh tính phi tập trung, hoặc thậm chí cả các ứng dụng DeFi, trực tiếp trên Bitcoin hoặc Lightning.
 
-Một tính năng quan trọng của RGB là khả năng bảo vệ chống lại Double-spending, đạt được bằng kỹ thuật mã hóa gọi là Dấu niêm phong sử dụng một lần. Cơ chế này dựa trên thực tế là UTXO (Đầu ra giao dịch chưa sử dụng) của Bitcoin chỉ có thể được sử dụng một lần. Tính xác thực của mã thông báo được đảm bảo bằng việc xác thực phía người dùng về toàn bộ lịch sử của Contract (từ khi tạo ra đến trạng thái hiện tại).
+Một tính năng quan trọng của RGB là khả năng bảo vệ chống lại Double-spending, đạt được bằng kỹ thuật mã hóa gọi là Dấu niêm phong sử dụng một lần. Cơ chế này dựa trên thực tế là [UTXO](https://planb.academy/resources/glossary/utxo) (Đầu ra giao dịch chưa sử dụng) của Bitcoin chỉ có thể được sử dụng một lần. Tính xác thực của mã thông báo được đảm bảo bằng việc xác thực phía người dùng về toàn bộ lịch sử của Contract (từ khi tạo ra đến trạng thái hiện tại).
 
 ![image](assets/vi/060.webp)
 
@@ -1654,7 +1660,7 @@ Một số cách thực hành tốt nhất:
 - Hãy cập nhật thông tin về diễn biến của Bitcoin, nhưng tránh xa sự cường điệu của giới truyền thông, đặc biệt là trong thời kỳ suy thoái;
 - Định kỳ kiểm tra tính toàn vẹn của cụm từ khôi phục. Kiểm tra xem phong bì có bị giả mạo không và phương tiện vẫn còn đọc được. Nếu có bất kỳ dấu hiệu bất thường nào, hãy sao lưu lại từ Wallet của bạn;
 
-Để theo dõi tài sản của bạn mà không làm lộ khóa riêng, hãy cân nhắc sử dụng Watch-only wallet. Thiết bị này cho phép bạn theo dõi số dư và giao dịch chỉ bằng khóa công khai.
+Để theo dõi tài sản của bạn mà không làm lộ khóa riêng, hãy cân nhắc sử dụng Watch-only wallet. Thiết bị này cho phép bạn theo dõi số dư và giao dịch chỉ bằng [khóa công khai](https://planb.academy/resources/glossary/public-key).
 
 https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
@@ -2069,7 +2075,7 @@ https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866
 
 https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
-- **Hot Wallet dành cho các giao dịch hàng ngày**. Đối với chi tiêu thường xuyên, người dùng e ngại lựa chọn các ví tập trung vào quyền riêng tư như Ashigaru, Wasabi Wallet hoặc Sparrow wallet. Các ví này hỗ trợ các tính năng nâng cao như: giao dịch chi tiêu mini-CoinJoin, payjoin, công cụ CoinJoin tiềm năng, kiểm soát Coin, gắn thẻ UTXO hoặc khả năng kết nối thông qua nút Bitcoin của riêng bạn.
+- **Hot Wallet dành cho các giao dịch hàng ngày**. Đối với chi tiêu thường xuyên, người dùng e ngại lựa chọn các ví tập trung vào quyền riêng tư như Ashigaru, Wasabi Wallet hoặc Sparrow wallet. Các ví này hỗ trợ các tính năng nâng cao như: giao dịch chi tiêu mini-(https://planb.academy/resources/glossary/coinjoin), payjoin, công cụ CoinJoin tiềm năng, kiểm soát Coin, gắn thẻ UTXO hoặc khả năng kết nối thông qua nút Bitcoin của riêng bạn.
 
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 

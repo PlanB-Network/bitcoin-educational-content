@@ -92,7 +92,7 @@ Se seguir este curso LNP202 na ordem correta, no final terá uma configuração 
 
 
 
-Antes de lançar seu próprio nó, este capítulo faz uma breve revisão da teoria básica por trás do Lightning Network. De facto, é importante compreender os mecanismos envolvidos, uma vez que isso lhe permitirá identificar os riscos e adotar boas práticas para os limitar. No entanto, não entrarei em detalhes aqui, pois este não é o objetivo principal deste curso. Se quiser aprofundar o assunto, recomendo vivamente que consulte o curso LNP 201 de Fanis Michalakis, que é uma referência na matéria:
+Antes de lançar seu próprio nó, este capítulo faz uma breve revisão da teoria básica por trás do [Lightning Network](https://planb.academy/resources/glossary/lightning-network). De facto, é importante compreender os mecanismos envolvidos, uma vez que isso lhe permitirá identificar os riscos e adotar boas práticas para os limitar. No entanto, não entrarei em detalhes aqui, pois este não é o objetivo principal deste curso. Se quiser aprofundar o assunto, recomendo vivamente que consulte o curso LNP 201 de Fanis Michalakis, que é uma referência na matéria:
 
 
 
@@ -102,20 +102,20 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-Vamos voltar ao básico: antes de definir o que é um nó, precisamos entender o que é Lightning Network. É um protocolo de camada superior, construído sobre o Bitcoin, concebido para permitir transacções BTC offchain que são rápidas (com finalização quase instantânea) e geralmente baratas. "Offchain" significa que as transacções efectuadas no Lightning não se destinam a aparecer na blockchain principal do Bitcoin. O Lightning é também uma resposta parcial à crescente utilização do Bitcoin e ao congestionamento na cadeia, que está a levantar preocupações sobre a escalabilidade do sistema.
+Vamos voltar ao básico: antes de definir o que é um nó, precisamos entender o que é Lightning Network. É um protocolo de camada superior, construído sobre o Bitcoin, concebido para permitir transacções BTC [offchain](https://planb.academy/resources/glossary/offchain) que são rápidas (com finalização quase instantânea) e geralmente baratas. "Offchain" significa que as transacções efectuadas no Lightning não se destinam a aparecer na [blockchain](https://planb.academy/resources/glossary/blockchain) principal do Bitcoin. O Lightning é também uma resposta parcial à crescente utilização do Bitcoin e ao congestionamento na cadeia, que está a levantar preocupações sobre a [escalabilidade](https://planb.academy/resources/glossary/scalability) do sistema.
 
 
 
-Para funcionar, a Lightning baseia-se na abertura de canais de pagamento entre os participantes, nos quais as transacções podem ser realizadas quase instantaneamente, muitas vezes com taxas mínimas, sem a necessidade de as registar uma a uma na cadeia de blocos Bitcoin. Estes canais podem permanecer abertos durante muito tempo, exigindo transacções onchain apenas quando são abertos e fechados.
+Para funcionar, a Lightning baseia-se na abertura de [canais de pagamento](https://planb.academy/resources/glossary/payment-channel) entre os participantes, nos quais as transacções podem ser realizadas quase instantaneamente, muitas vezes com taxas mínimas, sem a necessidade de as registar uma a uma na cadeia de blocos Bitcoin. Estes canais podem permanecer abertos durante muito tempo, exigindo transacções [onchain](https://planb.academy/resources/glossary/onchain) apenas quando são abertos e fechados.
 
 
 
-Um nó Lightning é um participante na rede Lightning, abrindo canais e efectuando pagamentos com outros nós. Em termos concretos, um nó Lightning é uma peça de software que corre num computador e implementa o protocolo Lightning Network. Exemplos incluem LND, Core Lightning ou Eclair. O principal papel deste software é:
+Um [nó Lightning](https://planb.academy/resources/glossary/lightning-node) é um participante na rede Lightning, abrindo canais e efectuando pagamentos com outros nós. Em termos concretos, um nó Lightning é uma peça de software que corre num computador e implementa o protocolo Lightning Network. Exemplos incluem LND, Core Lightning ou Eclair. O principal papel deste software é:
 
 
 
 
-- ligar-se a um nó Bitcoin para obter informações da cadeia de blocos principal;
+- ligar-se a um [nó Bitcoin](https://planb.academy/resources/glossary/full-node) para obter informações da cadeia de blocos principal;
 - criar e gerir canais de pagamento bidireccionais com outros nós;
 - trocar mensagens com toda a rede Lightning.
 
@@ -129,7 +129,7 @@ Um nó Lightning é um participante na rede Lightning, abrindo canais e efectuan
 
 
 
-No Bitcoin (onchain), "*wallet*" refere-se ao software que gere as suas chaves privadas, calcula o seu saldo a partir dos seus UTXOs e constrói as suas transacções. Este wallet pode ser baseado no seu próprio nó Bitcoin ou no de outra pessoa, mas atualmente, o papel do nó e o do wallet onchain são claramente distintos.
+No Bitcoin (onchain), "*[wallet](https://planb.academy/resources/glossary/wallet)*" refere-se ao software que gere as suas [chaves privadas](https://planb.academy/resources/glossary/private-key), calcula o seu saldo a partir dos seus [UTXOs](https://planb.academy/resources/glossary/utxo) e constrói as suas transacções. Este wallet pode ser baseado no seu próprio nó Bitcoin ou no de outra pessoa, mas atualmente, o papel do nó e o do wallet onchain são claramente distintos.
 
 
 
@@ -141,7 +141,7 @@ No Lightning, é mais difícil reutilizar este tipo de vocabulário sem criar co
 
 
 
-- Para utilizar um serviço de custódia: utiliza uma aplicação que lhe mostra um saldo em sats no Lightning, mas em segundo plano, os fundos estão num nó de um fornecedor (por exemplo, Wallet of Satoshi). O utilizador não tem nem as chaves nem o controlo dos canais. O seu saldo é apenas um registo contabilístico na base de dados da empresa. É comparável a deixar os seus bitcoins numa plataforma de troca, com todos os riscos associados. Neste caso, o seu "*Lightning wallet*" é apenas um acesso a uma conta gerida por um operador que, por sua vez, gere um verdadeiro nó Lightning.
+- Para utilizar um serviço de custódia: utiliza uma aplicação que lhe mostra um saldo em [sats](https://planb.academy/resources/glossary/satoshi-sat) no Lightning, mas em segundo plano, os fundos estão num nó de um fornecedor (por exemplo, Wallet of Satoshi). O utilizador não tem nem as chaves nem o controlo dos canais. O seu saldo é apenas um registo contabilístico na base de dados da empresa. É comparável a deixar os seus bitcoins numa plataforma de troca, com todos os riscos associados. Neste caso, o seu "*Lightning wallet*" é apenas um acesso a uma conta gerida por um operador que, por sua vez, gere um verdadeiro nó Lightning.
 
 
 
@@ -161,7 +161,7 @@ Nesta secção, vou relembrar rapidamente como funciona o Lightning. Mais uma ve
 
 
 
-O coração da rede Lightning baseia-se em canais de pagamento bidireccionais. Um canal pode ser aberto (ou seja, criado), atualizado à medida que as transações Lightning ocorrem e, finalmente, fechado. Do ponto de vista da onchain, um canal nada mais é do que uma saída 2/2 multisignature.
+O coração da rede Lightning baseia-se em canais de pagamento bidireccionais. Um canal pode ser aberto (ou seja, criado), atualizado à medida que as transações Lightning ocorrem e, finalmente, fechado. Do ponto de vista da onchain, um canal nada mais é do que uma [saída](https://planb.academy/resources/glossary/output) 2/2 [multisignature](https://planb.academy/resources/glossary/multisig).
 
 
 
@@ -169,7 +169,7 @@ O coração da rede Lightning baseia-se em canais de pagamento bidireccionais. U
 
 
 
-Do ponto de vista da Lightning, trata-se de um canal de pagamento com liquidez dividida entre os dois participantes.
+Do ponto de vista da Lightning, trata-se de um canal de pagamento com [liquidez](https://planb.academy/resources/glossary/liquidity-lightning) dividida entre os dois participantes.
 
 
 
@@ -183,7 +183,7 @@ Do ponto de vista da Lightning, trata-se de um canal de pagamento com liquidez d
 
 
 
-Dois nós decidem abrir um canal. Um deles compromete bitcoins numa transação onchain chamada *transação de financiamento*. Esta transação cria uma saída baseada num script 2-of-2 multisignature, o que significa que gastar estes fundos no Bitcoin requer a assinatura de ambos os nós no canal. Antes de emitir esta transação, a parte que fornece os fundos pede à outra que assine uma *transação de levantamento*, que não é emitida na cadeia, mas que lhe permite recuperar os seus fundos em caso de problema.
+Dois nós decidem abrir um canal. Um deles compromete bitcoins numa transação onchain chamada *transação de financiamento*. Esta transação cria uma saída baseada num [script](https://planb.academy/resources/glossary/script) 2-of-2 multisignature, o que significa que gastar estes fundos no Bitcoin requer a [assinatura](https://planb.academy/resources/glossary/digital-signature) de ambos os nós no canal. Antes de emitir esta transação, a parte que fornece os fundos pede à outra que assine uma *transação de levantamento*, que não é emitida na cadeia, mas que lhe permite recuperar os seus fundos em caso de problema.
 
 
 
@@ -197,7 +197,7 @@ Dois nós decidem abrir um canal. Um deles compromete bitcoins numa transação 
 
 
 
-O estado do canal (ou seja, a distribuição de sats entre A e B) é representado por um *commitment transaction*, conhecido por ambos os nós, mas não imediatamente transmitido na blockchain. Esta transação descreve como redistribuir os fundos do canal na cadeia de acordo com os pagamentos efectuados no Lightning.
+O estado do canal (ou seja, a distribuição de sats entre A e B) é representado por um *[commitment transaction](https://planb.academy/resources/glossary/commitment-transaction)*, conhecido por ambos os nós, mas não imediatamente transmitido na blockchain. Esta transação descreve como redistribuir os fundos do canal na cadeia de acordo com os pagamentos efectuados no Lightning.
 
 
 
@@ -237,7 +237,7 @@ Antes de prosseguir, aqui estão dois conceitos essenciais para entender como ge
 
 
 - Liquidity*: a quantidade de sats disponível num dos lados do canal;
-- A *capacidade*: é o montante total bloqueado na saída 2/2 multisig, ou seja, a soma da liquidez em ambos os lados do canal.
+- A *[capacidade](https://planb.academy/resources/glossary/lightning-channel-capacity)*: é o montante total bloqueado na saída 2/2 multisig, ou seja, a soma da liquidez em ambos os lados do canal.
 
 
 
@@ -249,7 +249,7 @@ Um canal não serve apenas para pagamentos entre dois nós: ele faz parte de uma
 
 
 
-Cada nó conhece, através do protocolo gossip, um mapa desta rede: que canais existem, que nós estão ligados por um canal bidirecional e que capacidades estão publicadas. Para enviar um pagamento a um destinatário sem canal direto, o seu nó calcula uma rota composta por vários saltos: o seu nó → nó X → nó Y → nó destinatário. Em cada salto, o pagamento transita por um canal que deve ter liquidez suficiente no sentido do pagamento.
+Cada nó conhece, através do protocolo [gossip](https://planb.academy/resources/glossary/gossip), um mapa desta rede: que canais existem, que nós estão ligados por um canal bidirecional e que capacidades estão publicadas. Para enviar um pagamento a um destinatário sem canal direto, o seu nó calcula uma rota composta por vários saltos: o seu nó → nó X → nó Y → nó destinatário. Em cada salto, o pagamento transita por um canal que deve ter liquidez suficiente no sentido do pagamento.
 
 
 
@@ -265,7 +265,7 @@ A liquidez de um canal não é, portanto, simétrica: um lado pode estar muito c
 
 
 
-Para permitir que os pagamentos passem por nós intermediários sem a necessidade de confiança, o Lightning usa contratos inteligentes chamados *HTLC* (*Hashed Time-Locked Contracts*). Em termos simples, um HTLC condiciona a transferência de fundos à revelação de um segredo e incorpora uma restrição de tempo para proteger o remetente em caso de falha da transação. Assim, cada pagamento está sujeito à apresentação de uma pré-imagem (um segredo cujo hash corresponde a um valor acordado). Se o destinatário final fornecer esta pré-imagem, pode reclamar os fundos, o que, por sua vez, permite a cada nó intermediário recuperar os seus próprios fundos.
+Para permitir que os pagamentos passem por nós intermediários sem a necessidade de confiança, o Lightning usa [contratos inteligentes](https://planb.academy/resources/glossary/smart-contract) chamados *[HTLC](https://planb.academy/resources/glossary/htlc)* (*Hashed Time-Locked Contracts*). Em termos simples, um HTLC condiciona a transferência de fundos à revelação de um segredo e incorpora uma restrição de tempo para proteger o remetente em caso de falha da transação. Assim, cada pagamento está sujeito à apresentação de uma pré-imagem (um segredo cujo [hash](https://planb.academy/resources/glossary/hash-function) corresponde a um valor acordado). Se o destinatário final fornecer esta pré-imagem, pode reclamar os fundos, o que, por sua vez, permite a cada nó intermediário recuperar os seus próprios fundos.
 
 
 
@@ -281,7 +281,7 @@ Vou poupar-vos aos pormenores técnicos do funcionamento dos HTLC, uma vez que n
 
 
 
-Tal como acontece com o Bitcoin, existem várias implementações do protocolo Lightning. Várias equipas independentes estão a desenvolver as suas próprias versões, todas elas interoperáveis, uma vez que seguem as mesmas especificações (as BOLT). Eis as principais implementações atualmente em uso.
+Tal como acontece com o Bitcoin, existem várias implementações do protocolo Lightning. Várias equipas independentes estão a desenvolver as suas próprias versões, todas elas interoperáveis, uma vez que seguem as mesmas especificações (as [BOLT](https://planb.academy/resources/glossary/bolt)). Eis as principais implementações atualmente em uso.
 
 
 
@@ -399,7 +399,7 @@ Hoje em dia, é possível ter uma experiência de utilização muito próxima da
 
 
 
-A primeira solução é simplesmente não utilizar o Lightning nativamente, mas utilizar um Bitcoin ou Liquid wallet que incorpore atomic swaps. Por exemplo, as aplicações Aqua ou Bull Bitcoin Wallet utilizam este método, permitindo-lhe pagar facturas Lightning sem operar um nó Lightning, mantendo-se em autocustódia.
+A primeira solução é simplesmente não utilizar o Lightning nativamente, mas utilizar um Bitcoin ou [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet que incorpore [atomic swaps](https://planb.academy/resources/glossary/atomic-swap). Por exemplo, as aplicações Aqua ou Bull Bitcoin Wallet utilizam este método, permitindo-lhe pagar [facturas Lightning](https://planb.academy/resources/glossary/invoice-lightning) sem operar um nó Lightning, mantendo-se em autocustódia.
 
 
 
@@ -411,7 +411,7 @@ O princípio é simples: os seus fundos permanecem no Bitcoin, no on-chain ou no
 
 
 
-A principal vantagem desta abordagem, em comparação com um wallet de custódia Lightning convencional, é que o utilizador permanece sempre na posse de 100% dos seus fundos. Os bitcoins estão na sua onchain ou Liquid wallet, com a sua própria frase mnemónica. Mesmo durante a troca, o utilizador permanece na posse dos seus fundos, porque a troca é atómica. Baseia-se num mecanismo criptográfico que garante que só há dois resultados possíveis: ou a troca é totalmente bem sucedida, ou falha e o serviço não pode apropriar-se dos seus fundos.
+A principal vantagem desta abordagem, em comparação com um wallet de custódia Lightning convencional, é que o utilizador permanece sempre na posse de 100% dos seus fundos. Os bitcoins estão na sua onchain ou Liquid wallet, com a sua própria [frase mnemónica](https://planb.academy/resources/glossary/seed). Mesmo durante a troca, o utilizador permanece na posse dos seus fundos, porque a troca é atómica. Baseia-se num mecanismo criptográfico que garante que só há dois resultados possíveis: ou a troca é totalmente bem sucedida, ou falha e o serviço não pode apropriar-se dos seus fundos.
 
 
 
@@ -423,7 +423,7 @@ Esta solução também oferece vantagens interessantes em termos de confidencial
 
 
 
-Por outro lado, esta abordagem tem as suas limitações. Em primeiro lugar, não é incensurável: depende da disponibilidade e da boa vontade do serviço de swap. Se este deixar de querer processar a sua conta ou deixar de funcionar, já não poderá pagar as facturas Lightning através dele. Depois, há as taxas não negligenciáveis: paga tanto as taxas de transação onchain ou Liquid, como a comissão do serviço de swap. Além disso, se as taxas onchain aumentarem drasticamente, pode tornar-se muito caro utilizar o Lightning.
+Por outro lado, esta abordagem tem as suas limitações. Em primeiro lugar, não é incensurável: depende da disponibilidade e da boa vontade do serviço de swap. Se este deixar de querer processar a sua conta ou deixar de funcionar, já não poderá pagar as facturas Lightning através dele. Depois, há as taxas não negligenciáveis: paga tanto as [taxas de transação](https://planb.academy/resources/glossary/transaction-fees) onchain ou Liquid, como a comissão do serviço de swap. Além disso, se as taxas onchain aumentarem drasticamente, pode tornar-se muito caro utilizar o Lightning.
 
 
 
@@ -479,7 +479,7 @@ A terceira solução, que será analisada em maior profundidade neste curso LNP2
 
 
 
-Por "clássico" quero dizer que o utilizador instala e configura uma implementação Lightning (por exemplo, LND) em cima do seu próprio nó Bitcoin. Escolhe os seus pares, abre os seus canais, gere a sua liquidez de entrada e saída e define as suas políticas de taxas de encaminhamento.
+Por "clássico" quero dizer que o utilizador instala e configura uma implementação Lightning (por exemplo, LND) em cima do seu próprio nó Bitcoin. Escolhe os seus pares, abre os seus canais, gere a sua [liquidez de entrada e saída](https://planb.academy/resources/glossary/inbound-capacity) e define as suas políticas de taxas de encaminhamento.
 
 
 
@@ -616,7 +616,7 @@ Em seguida, você chegará à interface principal do seu Lightning node. À esqu
 
 
 
-No centro, encontrarás o teu Lightning wallet. Na verdade, representa o seu dinheiro de saída, ou seja, os bitcoins que possui nos seus canais Lightning.
+No centro, encontrarás o teu Lightning wallet. Na verdade, representa o seu [dinheiro de saída](https://planb.academy/resources/glossary/outbound-capacity), ou seja, os bitcoins que possui nos seus canais Lightning.
 
 
 

@@ -53,7 +53,7 @@ Baada ya maneno yaliyosemwa na Nicolas, ilikuwa wakati wa kuanza kujenga. Kazi n
 
 Chanzo wazi kinamaanisha nini, na ni nini kinachoingia kwenye mradi kama huo?
 
-FOSS inawakilisha Programu ya Bure pia fungua-Chanzo. Ya kwanza inarejelea masharti ambayo huruhusu mtu yeyote kunakili, kurekebisha, na hata kusambaza matoleo (hata kwa faida) ya programu. Mwisho unarejelea kushiriki kwa uwazi msimbo wa chanzo, kuhimiza umma kuchangia na kuuboresha.
+[FOSS](https://planb.academy/resources/glossary/foss) inawakilisha Programu ya Bure pia fungua-Chanzo. Ya kwanza inarejelea masharti ambayo huruhusu mtu yeyote kunakili, kurekebisha, na hata kusambaza matoleo (hata kwa faida) ya programu. Mwisho unarejelea kushiriki kwa uwazi msimbo wa chanzo, kuhimiza umma kuchangia na kuuboresha.
 
 Hii huleta watumiaji wazoefu shauku ya kuchangia programu ambayo tayari wanatumia na kupata thamani kutoka kwayo, na hivyo kuthibitisha baada ya muda kushinda katika kupitishwa kwa programu inayomilikiwa. Inalingana na kanuni za Bitcoin kwamba "habari hutamani kuwa huru." Huleta pamoja watu wenye shauku wanaounda jumuiya na ni ya kufurahisha zaidi. Kama Bitcoin, FOSS haiwezi kuepukika.
 
@@ -87,11 +87,11 @@ Wakfu wa BTCPay Server, ulioruhusu Alekos na Bas kuandika kozi hii, uko Tokyo, J
 
 Hili ni zoezi la darasani kwa hivyo ikiwa unachukua kozi hii mwenyewe, huwezi kuifanya lakini unaweza kuendelea na mazoezi haya. Ili kukamilisha kazi hii, idadi ya chini ya watu ni kati ya 9 na 11.
 
-Zoezi hilo linaanza baada ya kutazama utangulizi "Jinsi Bitcoin na Blockchain zinavyofanya kazi" na BBC.
+Zoezi hilo linaanza baada ya kutazama utangulizi "Jinsi Bitcoin na [Blockchain](https://planb.academy/resources/glossary/blockchain) zinavyofanya kazi" na BBC.
 
 ![how bitcoin and the blockchain works](https://youtu.be/mhE_vvwAiRc)
 
-Zoezi hili linahitaji angalau watu tisa kushiriki. Zoezi hili linakusudia kupata wazo la jinsi Bitcoin inavyofanya kazi. Kwa kucheza kwa kila jukumu kwenye mtandao, utakuwa na njia shirikishi na ya kucheza na kujifunza. Zoezi hili halihusishi Lightning Network.
+Zoezi hili linahitaji angalau watu tisa kushiriki. Zoezi hili linakusudia kupata wazo la jinsi Bitcoin inavyofanya kazi. Kwa kucheza kwa kila jukumu kwenye mtandao, utakuwa na njia shirikishi na ya kucheza na kujifunza. Zoezi hili halihusishi [Lightning Network](https://planb.academy/resources/glossary/lightning-network).
 
 ### Mfano; Inahitaji watu 9/11
 
@@ -181,13 +181,13 @@ Bainisha maneno muhimu yafuatayo yaliyoletwa katika sehemu iliyotangulia:
 
 
 - node
-- Mempool
-- Lengo la Ugumu
+- [Mempool](https://planb.academy/resources/glossary/mempool)
+- Lengo la [Ugumu](https://planb.academy/resources/glossary/difficulty)
 - block
 
 **Jadili maana ya baadhi ya istilahi za ziada kama kikundi:**
 
-Blockchain, Transaction, Double-Spend, Byzantine Generals’ Problem, Mining, Proof of Work (PoW), Hash Function, Block reward, Blockchain, Longest Chain, 51% Attack, Output, Output Lock, Change, Satoshis, Public/Private GWKey5 Keygraphy Sahihi, Wallet
+Blockchain, Transaction, Double-Spend, Byzantine Generals’ Problem, Mining, Proof of Work (PoW), Hash Function, Block reward, Blockchain, Longest Chain, 51% Attack, Output, Output Lock, Change, [Satoshis](https://planb.academy/resources/glossary/satoshi-sat), Public/Private GWKey5 Keygraphy Sahihi, Wallet
 
 # Tunakuletea BTCPay Server
 
@@ -415,7 +415,7 @@ Katika sehemu hii, umejifunza:
 
 ### Ni nini kinachohusika katika kutengeneza funguo za Bitcoin?
 
- Wallet za Bitcoin, zinapoundwa, tengeneza kinachojulikana kama "seed". Katika lengo la mwisho, uliunda "seed", Msururu wa maneno yaliyotolewa hapo awali pia hujulikana kama vifungu vya Mnemonic. seed inatumika kupata Funguo za Bitcoin kutoka na kutumika kutuma au kupokea Bitcoin. Vifungu vya seed havipaswi kamwe kushirikiwa na watu wengine au wenzao wasioaminika.
+ Wallet za Bitcoin, zinapoundwa, tengeneza kinachojulikana kama "[seed](https://planb.academy/resources/glossary/seed)". Katika lengo la mwisho, uliunda "seed", Msururu wa maneno yaliyotolewa hapo awali pia hujulikana kama vifungu vya Mnemonic. seed inatumika kupata Funguo za Bitcoin kutoka na kutumika kutuma au kupokea Bitcoin. Vifungu vya seed havipaswi kamwe kushirikiwa na watu wengine au wenzao wasioaminika.
 
 Kizazi cha seed kinafanywa kulingana na kiwango cha sekta kinachojulikana kama mfumo wa "Hierarchical Deterministic" (HD).
 
@@ -429,7 +429,7 @@ Address inatolewa kutoka kwa ufunguo wa Umma kupitia "algorithm ya hashing."  Wa
 
 
 - Address zinazoanza na `1.....` bado ni address za kawaida sana. Kama ilivyotajwa katika sura Kuunda duka jipya, hizi ni address za urithi. Aina hii ya Address inakusudiwa kwa shughuli za P2PKH. P2Pkh hutumia usimbaji wa Base58, ambao hufanya Address kuwa nyeti kwa kesi. Muundo wake unategemea ufunguo wa umma wenye tarakimu 1 ya ziada kama kitambulisho.
-- Address zinazoanza na `bc1...` zinahamia polepole hadi kwenye address za kawaida. Hizi zinajulikana kama (asili) Address za SegWit. Hizi hutoa muundo bora wa ada kuliko Address zingine zilizotajwa. Address za Asili za SegWit hutumia usimbaji wa Bech32 na huruhusu herufi ndogo pekee.
+- Address zinazoanza na `bc1...` zinahamia polepole hadi kwenye address za kawaida. Hizi zinajulikana kama (asili) Address za [SegWit](https://planb.academy/resources/glossary/segwit). Hizi hutoa muundo bora wa ada kuliko Address zingine zilizotajwa. Address za Asili za SegWit hutumia usimbaji wa Bech32 na huruhusu herufi ndogo pekee.
 - Address zinazoanza na `3...` bado hutumiwa na mabadilishano ya address za amana. Address hizi zimetajwa katika sura Kuunda duka jipya, address za SegWit zilizofungwa au zilizowekwa kiota. Walakini, zinaweza pia kufanya kazi kama "Sahihi nyingi". Inapotumika kama Address ya SegWit, kuna akiba kwa ada za muamala tena, chini ya hiyo ya SegWit ya Asili. Address za P2SH hutumia usimbaji wa Base58. Hii inafanya iwe Nyeti, kama Address iliyopitwa na wakati.
 - Address zinazoanza na `2...` ni address za Testnet. Zinakusudiwa kupokea Testnet Bitcoin (tBTC). Hupaswi kamwe kuchanganya hili na kutuma Bitcoin kwa address hizi. Kwa madhumuni ya maendeleo, unaweza kuzalisha  Wallet ya Testnet. Kuna mabomba mengi mtandaoni ili kupata Testnet Bitcoin. Kamwe usinunue Testnet Bitcoin. Testnet Bitcoin inachimbwa. Hii inaweza kuwa sababu ya msanidi programu kutumia Regtest badala yake. Haya ni mazingira ya uwanja wa michezo kwa wasanidi programu, kukosa vipengee fulani vya mtandao.Hata hivyo, kwa madhumuni ya maendeleo, ni muhimu sana.
 
@@ -439,7 +439,7 @@ Vifunguo vya umma vinatumika kidogo katika mazoezi leo. Baada ya muda watumiaji 
 
 
 - Kwanza, `02...` na `03...` ni vitambulishi vya kawaida vya vitufe vya umma vilivyosimbwa katika umbizo la SEC. Hizi zinaweza kuchakatwa na kugeuzwa kuwa address za kupokea, kutumika kuunda address za sahihi nyingi, au kuthibitisha sahihi. Shughuli za mapema za Bitcoin zilitumia vitufe vya umma kama sehemu ya shughuli za P2PK.
--  Wallet za HD, hata hivyo, hutumia muundo tofauti. `xpub...`, `ypub...` au `zpub...` huitwa funguo za umma zilizopanuliwa badala yake huitwa xpub. Vifunguo hivi hutumika kupata funguo nyingi za umma kwani ni sehemu ya  Wallet za HD . Kwa vile xpub yako inashikilia rekodi za historia yako yote, kumaanisha shughuli za awali na zijazo, usiwahi kushiriki hizi na watu wasioaminika.
+-  Wallet za HD, hata hivyo, hutumia muundo tofauti. `xpub...`, `ypub...` au `zpub...` huitwa funguo za umma zilizopanuliwa badala yake huitwa [xpub](https://planb.academy/resources/glossary/xpub). Vifunguo hivi hutumika kupata funguo nyingi za umma kwani ni sehemu ya  Wallet za HD . Kwa vile xpub yako inashikilia rekodi za historia yako yote, kumaanisha shughuli za awali na zijazo, usiwahi kushiriki hizi na watu wasioaminika.
 
 ### Muhtasari wa Ujuzi
 
@@ -474,7 +474,7 @@ Hot wallet ndiyo njia rahisi zaidi ya kuingiliana na Bitcoin kupitia simu, wavut
 
 Watu huhamisha Bitcoin yao hadi Cold Wallet kwa sababu inaweza kutenga funguo za faragha kutoka kwa mtandao. Kuondoa muunganisho wa intaneti kutoka kwa mlinganyo hupunguza hatari ya programu hasidi, vidadisi na  Exchange wa SIM. Hifadhi ya Cold inaaminika kuwa bora kuliko hifadhi ya Hot kwa usalama na uhuru, mradi tu tahadhari za kutosha zichukuliwe ili kuepuka kupoteza funguo za faragha za Bitcoin. Hifadhi ya Cold inafaa zaidi kwa kiasi kikubwa cha Bitcoin, ambayo haijakusudiwa kutumiwa mara nyingi kutokana na utata wa kuanzisha  Wallet.
 
-Kuna mbinu mbalimbali za jinsi ya kuhifadhi funguo za Bitcoin katika hifadhi ya Cold, kutoka kwa  wallet za karatasi hadi kwenye ubongo, hardware wallet, au, tangu mwanzo, faili ya  Wallet.  Wallet nyingi hutumia BIP 39 hadi uzalishaji wa maneno ya seed. Hata hivyo, ndani ya programu ya msingi ya Bitcoin, makubaliano bado hayajafikiwa kuhusu kuitumia. Programu ya Bitcoin Core bado itakuwa inazalisha faili ya  Wallet.dat unayohitaji kuhifadhi katika eneo salama la nje ya mtandao.
+Kuna mbinu mbalimbali za jinsi ya kuhifadhi funguo za Bitcoin katika hifadhi ya Cold, kutoka kwa  wallet za karatasi hadi kwenye ubongo, hardware wallet, au, tangu mwanzo, faili ya  Wallet.  Wallet nyingi hutumia [BIP](https://planb.academy/resources/glossary/bip) 39 hadi uzalishaji wa maneno ya seed. Hata hivyo, ndani ya programu ya msingi ya Bitcoin, makubaliano bado hayajafikiwa kuhusu kuitumia. Programu ya Bitcoin Core bado itakuwa inazalisha faili ya  Wallet.dat unayohitaji kuhifadhi katika eneo salama la nje ya mtandao.
 
 ### Muhtasari wa Ujuzi
 
@@ -505,20 +505,20 @@ BTCPay Server ina vipengele vifuatavyo vya kawaida vya  Wallet:
 - Changanua upya
 - Vuta Malipo
 - Malipo
-- PSBT
+- [PSBT](https://planb.academy/resources/glossary/psbt)
 - Mipangilio ya jumla
 
 ### Shughuli
 
-Wasimamizi wanaweza kuona miamala ya ndani na inayotoka ya  Wallet ya On-Chain iliyounganishwa kwenye duka hili mahususi katika mwonekano wa miamala. Kila muamala una tofauti kati ya kupokewa na kutumwa. Itakayopokelewa itakuwa Kijani na miamala inayotoka itakuwa nyekundu. Ndani ya mwonekano wa muamala wa BTCPay Server, wasimamizi pia wataona seti ya lebo za kawaida.
+Wasimamizi wanaweza kuona miamala ya ndani na inayotoka ya  Wallet ya On-Chain iliyounganishwa kwenye duka hili mahususi katika mwonekano wa miamala. Kila muamala una tofauti kati ya kupokewa na kutumwa. Itakayopokelewa itakuwa Kijani na miamala inayotoka itakuwa nyekundu. Ndani ya mwonekano wa muamala wa BTCPay Server, wasimamizi pia wataona seti ya [lebo](https://planb.academy/resources/glossary/label) za kawaida.
 
 
 | Aina ya Muamala | Maelezo                                          |
 | ---------------- | ------------------------------------------------ |
 | Programu         | Malipo yalipokelewa kupitia ankara iliyoundwa na programu |
 | Ankara           | Malipo yalipokelewa kupitia ankara               |
-| Payjoin          | Haijalipwa, kipima muda cha ankara bado hakijaisha |
-| Payjoin-imefunuliwa | UTXO ilifunuliwa kupitia pendekezo la payjoin kwenye ankara |
+| [Payjoin](https://planb.academy/resources/glossary/payjoin)          | Haijalipwa, kipima muda cha ankara bado hakijaisha |
+| Payjoin-imefunuliwa | [UTXO](https://planb.academy/resources/glossary/utxo) ilifunuliwa kupitia pendekezo la payjoin kwenye ankara |
 | Ombi la malipo   | Malipo yalipokelewa kupitia ombi la malipo       |
 | Malipo           | Malipo yalitumwa kupitia malipo au kurejeshewa   |
 
@@ -803,7 +803,7 @@ Ndani ya chaguo la  wallet ya Lightning katika upau wa menyu wa kushoto, wasimam
 
 #### Maelezo ya node ya ndani
 
-Wasimamizi wa server wanaweza kubofya maelezo ya node ya ndani na kutazama hali ya server zao (Mkondoni/ Nje ya Mtandao) na kamba ya muunganisho ya Clearnet au Tor.
+Wasimamizi wa server wanaweza kubofya maelezo ya node ya ndani na kutazama hali ya server zao (Mkondoni/ Nje ya Mtandao) na kamba ya muunganisho ya Clearnet au [Tor](https://planb.academy/resources/glossary/tor).
 
 ![image](assets/en/033.webp)
 

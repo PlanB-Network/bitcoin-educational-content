@@ -826,7 +826,7 @@ U 20. veku pojavila su se dva glavna trenda:
 2.  **Drugi anarho-kapitalista:** koji veruje da bi državne funkcije trebalo privatizovati i upravljati tržištem.
 
 
-Međutim, oboje se slažu oko fundamentalnog principa individualnog suvereniteta. Libertarijanske ideje su izražene još u 18. veku od strane fiziokrata, posebno Vensana de Gurnea i Turgota, a razvijali su ih Kondijak, Žan-Batist Sej i Frederik Bastija. U 20. veku, te ideje su preuzete i razvijene od strane austrijske škole ekonomije, čiji su glavni autori Ludvig fon Mizes, Fridrih Hajek i Mari Rotbard.
+Međutim, oboje se slažu oko fundamentalnog principa individualnog suvereniteta. Libertarijanske ideje su izražene još u 18. veku od strane fiziokrata, posebno Vensana de Gurnea i Turgota, a razvijali su ih Kondijak, Žan-Batist Sej i Frederik Bastija. U 20. veku, te ideje su preuzete i razvijene od strane [austrijske škole ekonomije](https://planb.academy/resources/glossary/austrian-school), čiji su glavni autori Ludvig fon Mizes, Fridrih Hajek i Mari Rotbard.
 
 
 
@@ -1626,10 +1626,10 @@ Na kraju ovog kursa, smatramo da je neophodno osvrnuti se na političko pozicion
 
 
 
-Bitcoin je decentralizovana kriptovaluta, koju je kreirao Satoshi Nakamoto 2008. godine, koja omogućava nepouzdane, peer-to-peer finansijske transakcije.
+Bitcoin je decentralizovana [kriptovaluta](https://planb.academy/resources/glossary/cryptocurrency), koju je kreirao Satoshi Nakamoto 2008. godine, koja omogućava nepouzdane, [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) finansijske transakcije.
 
 
-Bitcoin je kontrolisan softverskim protokolom otvorenog koda, bez generalnog direktora, centralne kancelarije, marketinškog budžeta i određene vlasti. To znači da nijedan politički entitet ili vlada nema kontrolu nad njim.
+Bitcoin je kontrolisan softverskim protokolom [otvorenog koda](https://planb.academy/resources/glossary/foss), bez generalnog direktora, centralne kancelarije, marketinškog budžeta i određene vlasti. To znači da nijedan politički entitet ili vlada nema kontrolu nad njim.
 
 
 
@@ -1645,7 +1645,7 @@ Iako Bitcoin sam po sebi nije ni desničarski ni levičarski, niti pripada bilo 
 
 
 
-Čitajući Satoshi Nakamoto White Paper, možemo videti da je Bitcoin dizajniran da ponudi inovativnu zaštitu protiv dve glavne savremene pretnje: široko rasprostranjeno nadgledanje i ubrzanje stvaranja veštačkog novca.
+Čitajući Satoshi Nakamoto [White Paper](https://planb.academy/resources/glossary/white-paper), možemo videti da je Bitcoin dizajniran da ponudi inovativnu zaštitu protiv dve glavne savremene pretnje: široko rasprostranjeno nadgledanje i ubrzanje stvaranja veštačkog novca.
 
 
 
@@ -1653,7 +1653,7 @@ Iako Bitcoin sam po sebi nije ni desničarski ni levičarski, niti pripada bilo 
 
 
 
-2. Bitcoin omogućava svima da zaštite svoju ušteđevinu od pljačke privatne svojine utelovljene u monetarnoj inflaciji. To je pokušaj da se ospori kontrola države nad upravljanjem novcem kao instrumentom razmene, i tako da se takmiči sa državom. Finansijska kriza iz 2008. godine i pandemija Covid 19 istakle su nedostatke u trenutnom sistemu. Bilioni dolara odštampani ni iz čega kako bi se sprečilo dalje urušavanje ekonomije imali su razorne efekte, koje i dalje plaćamo.
+2. Bitcoin omogućava svima da zaštite svoju ušteđevinu od pljačke privatne svojine utelovljene u monetarnoj [inflaciji](https://planb.academy/resources/glossary/inflation). To je pokušaj da se ospori kontrola države nad upravljanjem novcem kao instrumentom razmene, i tako da se takmiči sa državom. Finansijska kriza iz 2008. godine i pandemija Covid 19 istakle su nedostatke u trenutnom sistemu. Bilioni dolara odštampani ni iz čega kako bi se sprečilo dalje urušavanje ekonomije imali su razorne efekte, koje i dalje plaćamo.
 
 
 
@@ -1681,7 +1681,7 @@ Polazna tačka intelektualnog pristupa Satoshi Nakamota je stoga prekomerno pove
 
 
 
-Uključivanje ovog naslova u blok geneze je otvoreno za interpretaciju. Ali može se pojaviti kao komentar Satoshi na neuspehe tradicionalnih finansijskih institucija, i kao izjava cilja Bitcoin: da ponudi alternativu centralizovanim bankarskim sistemima.
+Uključivanje ovog naslova u [blok geneze](https://planb.academy/resources/glossary/genesis-block) je otvoreno za interpretaciju. Ali može se pojaviti kao komentar Satoshi na neuspehe tradicionalnih finansijskih institucija, i kao izjava cilja Bitcoin: da ponudi alternativu centralizovanim bankarskim sistemima.
 
 
 
@@ -1725,7 +1725,7 @@ U tom smislu, pokreće ga vizija sveta koja je i moralna i politička. Kada drž
 
 
 
-Ali Bitcoin nije se pojavio niotkuda. Zasniva se na napretku u matematici, fizici, računarstvu i filozofiji. Satoshi Nakamoto, iako briljantan, izgradio je na idejama drugih inovatora. Među njima, pioniri sajferpank pokreta.
+Ali Bitcoin nije se pojavio niotkuda. Zasniva se na napretku u matematici, fizici, računarstvu i filozofiji. Satoshi Nakamoto, iako briljantan, izgradio je na idejama drugih inovatora. Među njima, pioniri [sajferpank](https://planb.academy/resources/glossary/cypherpunks) pokreta.
 
 
 
@@ -1772,7 +1772,7 @@ I dodaje:
 
 > povjerljivost u otvorenom društvu zahtijeva anonimne transakcione sisteme. Do sada je gotovina bila glavni sistem ovog tipa.
 
-Zato će se kriptografija koristiti kao alat otpora protiv svih oblika državne i korporativne kontrole. Ona osigurava da svaka strana u transakciji zna samo ono što je strogo neophodno za tu transakciju.
+Zato će se [kriptografija](https://planb.academy/resources/glossary/cryptography) koristiti kao alat otpora protiv svih oblika državne i korporativne kontrole. Ona osigurava da svaka strana u transakciji zna samo ono što je strogo neophodno za tu transakciju.
 
 
 

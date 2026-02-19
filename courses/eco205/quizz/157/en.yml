@@ -1,0 +1,8 @@
+question: Why does Mises claim that a static equilibrium cannot solve the problem of economic calculation in a socialist regime?
+answer: Because economic information is constantly changing in the real world, making static equilibrium purely conceptual and inapplicable
+wrong_answers:
+  - "Because static equilibrium requires too many computational resources to be calculated by central planners."
+  - "Because static equilibrium ignores individual consumer preferences and favors producers only."
+  - "Because static equilibrium automatically creates monopolies that distort the distribution of wealth."
+explanation: |
+  According to Mises, although theoretically a static equilibrium would allow centralized calculation, this solution remains purely conceptual, as economic information is constantly changing. Consumer preferences, technologies, available resources and production conditions are constantly evolving. A central planner can therefore never have fixed information long enough to carry out his calculations, making rational planning impossible even in this ideal theoretical hypothesis.

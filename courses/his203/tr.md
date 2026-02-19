@@ -191,7 +191,7 @@ Dikkatli redaksiyonu için Loïc Morel'e çok teşekkürler!
 
 
 
-Kripto para ve otorite arasındaki ilişki sorusu Bitcoin'in tarihinde oldukça hızlı bir şekilde ortaya çıktı. Aralık 2010'da Satoshi Nakamoto, WikiLeaks'i Bitcoin kullanmaya teşvik eden bir PC World makalesinin yayınlanmasının ardından kamuoyunun gözünden çekildi. Sezgilerini doğrularcasına, makale Bitcoin'e büyük ilgi çekti ve fiyatı sadece birkaç ay içinde 0,20 $'dan 32 $'a fırladı. Satoshi en yakın işbirlikçileriyle özel olarak iletişim kurmaya devam etti ve nihayetinde 2011 baharında ortadan kayboldu. Oldukça sembolik bir şekilde, projeyi devralan geliştirici Gavin Andresen'den gelen son mesaj, Bitcoin'in yaratıcısını CIA tarafından yönetilen bir yatırım fonu olan In-Q-Tel ile temasa geçtiği konusunda bilgilendirdi. Pandora'nın kutusu gerçekten açılmıştı.
+[Kripto para](https://planb.academy/resources/glossary/cryptocurrency) ve otorite arasındaki ilişki sorusu Bitcoin'in tarihinde oldukça hızlı bir şekilde ortaya çıktı. Aralık 2010'da Satoshi Nakamoto, WikiLeaks'i Bitcoin kullanmaya teşvik eden bir PC World makalesinin yayınlanmasının ardından kamuoyunun gözünden çekildi. Sezgilerini doğrularcasına, makale Bitcoin'e büyük ilgi çekti ve fiyatı sadece birkaç ay içinde 0,20 $'dan 32 $'a fırladı. Satoshi en yakın işbirlikçileriyle özel olarak iletişim kurmaya devam etti ve nihayetinde 2011 baharında ortadan kayboldu. Oldukça sembolik bir şekilde, projeyi devralan geliştirici Gavin Andresen'den gelen son mesaj, Bitcoin'in yaratıcısını CIA tarafından yönetilen bir yatırım fonu olan In-Q-Tel ile temasa geçtiği konusunda bilgilendirdi. Pandora'nın kutusu gerçekten açılmıştı.
 
 
 
@@ -1498,7 +1498,7 @@ Gregory Maxwell'un Bitcoin'in kullanımının nasıl geliştirilebileceğine dai
 
 
 
-Daha sonra, Şubat 2012'de, BIP 32'nin [yayınlanması] (https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198) ile standardizasyon gerçekleşti. seed anahtarlarını ve adreslerini türetmek için türetmelerin yöntemsel olarak kullanıldığı *Hiyerarşik Deterministik Wallet'ların*, HD Wallet'ların genel yapısını tanımlamıştır. Yıllar içinde kademeli olarak çoğu wallet tarafından benimsenmiştir.
+Daha sonra, Şubat 2012'de, BIP 32'[nin](https://planb.academy/resources/glossary/bip) [yayınlanması] (https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198) ile standardizasyon gerçekleşti. seed anahtarlarını ve adreslerini türetmek için türetmelerin yöntemsel olarak kullanıldığı *Hiyerarşik Deterministik Wallet'ların*, HD Wallet'ların genel yapısını tanımlamıştır. Yıllar içinde kademeli olarak çoğu wallet tarafından benimsenmiştir.
 
 
 
@@ -2086,7 +2086,7 @@ Satoshi Nakamoto'nin ayrılmasından sonra yazılım geliştirme, Gavin Andresen
 
 
 
-2011-2012 kışında, Bitcoin'te çoklu imzanın uygulanmasına ilişkin bir tartışma ortaya çıktı. Diğer şeylerin yanı sıra, "Pay to Script Hash" veya P2SH olarak bilinen şema ile ilgiliydi. Pete Rizzo ve Aaron van Wirdum (https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war) bu anlaşmazlığı "P2SH Savaşı" olarak adlandırdı. Bu, protokolün evrimi konusundaki ilk büyük anlaşmazlıktı ve yönetişim sorununu gündeme getiren ilk anlaşmazlıktı.
+2011-2012 kışında, Bitcoin'te çoklu imzanın uygulanmasına ilişkin bir tartışma ortaya çıktı. Diğer şeylerin yanı sıra, "Pay to [Script](https://planb.academy/resources/glossary/script) Hash" veya P2SH olarak bilinen şema ile ilgiliydi. Pete Rizzo ve Aaron van Wirdum (https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war) bu anlaşmazlığı "P2SH Savaşı" olarak adlandırdı. Bu, protokolün evrimi konusundaki ilk büyük anlaşmazlıktı ve yönetişim sorununu gündeme getiren ilk anlaşmazlıktı.
 
 
 

@@ -1215,7 +1215,7 @@ Det systematiska studiet av ekonomiska lagar började under högmedeltiden. De f
 ![image](assets/sv/049.webp)
 
 
-Kärnan i hans monetära analys är problemet med "mutationer" av pengar, det vill säga förändringar i metallinnehållet i mynt och deras valörer. Dessa förändringar har förekommit sedan tidernas begynnelse och är väldokumenterade för antiken och medeltiden. Deras mest synliga effekt är att förändra den monetära enhetens köpkraft, särskilt att minska den. Detta är en primitiv form av inflation som Oresme tydligt fördömer som något ont.
+Kärnan i hans monetära analys är problemet med "mutationer" av pengar, det vill säga förändringar i metallinnehållet i mynt och deras valörer. Dessa förändringar har förekommit sedan tidernas begynnelse och är väldokumenterade för antiken och medeltiden. Deras mest synliga effekt är att förändra den monetära enhetens köpkraft, särskilt att minska den. Detta är en primitiv form av [inflation](https://planb.academy/resources/glossary/inflation) som Oresme tydligt fördömer som något ont.
 
 
 Oresme väcker omedelbart en central fråga: Är inflationen till nytta för samhället? Han svarar nekande och menar att inflationen inte gör pengar mer eller mindre användbara för utbyten. Ekonomin kan fungera väl oavsett prisnivå och därmed oavsett den nominella penningmängden Supply.
@@ -1468,7 +1468,7 @@ Det är onödigt att bevisa att varje individ är den enda domaren av den mest f
 Här föregriper Turgot till stor del Mises och Hayeks argument om att det är omöjligt att göra ekonomiska beräkningar i ett socialistiskt ekonomiskt system.
 
 
-Murray Rothbard ägnar ett kapitel åt "The Brilliance of Turgot" och betonar i sin ekonomiska historia ur ett österrikiskt perspektiv att "Turgots inflytande på senare ekonomiskt tänkande begränsades allvarligt (...) av den följande myten att Adam Smith var grundaren av den politiska ekonomin" Och han tillägger: "Det var på fransmannen J.B. Say, officiellt en anhängare av Smith, som Turgot i slutändan hade störst inflytande, särskilt hans teori om bruksvärde."
+Murray Rothbard ägnar ett kapitel åt "The Brilliance of Turgot" och betonar i sin ekonomiska historia ur ett [österrikiskt](https://planb.academy/resources/glossary/austrian-school) perspektiv att "Turgots inflytande på senare ekonomiskt tänkande begränsades allvarligt (...) av den följande myten att Adam Smith var grundaren av den politiska ekonomin" Och han tillägger: "Det var på fransmannen J.B. Say, officiellt en anhängare av Smith, som Turgot i slutändan hade störst inflytande, särskilt hans teori om bruksvärde."
 
 
 ### Mästerverket i Condillac
@@ -2285,7 +2285,7 @@ Enligt Hayek beror marknadsekonomins tidigare instabilitet på att den viktigast
 ![image](assets/sv/101.webp)
 
 
-Hayek trodde att en fri marknad med privata valutor skulle leda till större monetär stabilitet. Nästan 50 år senare förkroppsligar en kryptovaluta som Bitcoin Hayeks konkurrensvision genom att erbjuda ett decentraliserat alternativ till centralbankernas monopolistiska system. Bitcoin, med sin fasta emissionsgräns på 21 miljoner enheter, fungerar som ett skydd mot inflation och tillsynsmyndigheternas godtycke.
+Hayek trodde att en fri marknad med privata valutor skulle leda till större monetär stabilitet. Nästan 50 år senare förkroppsligar en [kryptovaluta](https://planb.academy/resources/glossary/cryptocurrency) som Bitcoin Hayeks konkurrensvision genom att erbjuda ett decentraliserat alternativ till centralbankernas monopolistiska system. Bitcoin, med sin fasta emissionsgräns på 21 miljoner enheter, fungerar som ett skydd mot inflation och tillsynsmyndigheternas godtycke.
 
 
 

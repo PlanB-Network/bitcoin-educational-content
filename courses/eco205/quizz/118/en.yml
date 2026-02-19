@@ -1,0 +1,8 @@
+question: According to Friedrich Hayek, what happens when the state artificially manipulates market prices?
+answer: It disrupts the communication network and sends out false signals, causing a misallocation of capital
+wrong_answers:
+  - "It improves the coordination of economic agents by centralizing dispersed information"
+  - "It stabilizes market fluctuations by reducing the uncertainty associated with imperfect information"
+  - "It optimizes resource allocation by correcting the failures of the natural price system"
+explanation: |
+  For Hayek, state intervention in prices destroys the natural mechanism for transmitting information. The free price system spontaneously aggregates dispersed information and coordinates individual actions. When the state manipulates prices, it breaks this communication network, sending out erroneous signals that lead actors to make poor investment decisions and misallocate scarce resources.

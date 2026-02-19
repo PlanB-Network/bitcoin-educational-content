@@ -352,7 +352,7 @@ Existen varios tipos de trueque:
 
 
 
-La escuela austriaca de economía interpreta esta evolución como la aparición espontánea de bienes de intercambio privilegiados. Las conchas, atestiguadas arqueológicamente ya en el Mesolítico, ilustran este fenómeno: encontradas lejos de su origen geográfico (conchas mediterráneas en el oeste de Francia, conchas nórdicas en otros yacimientos), atestiguan un reconocimiento común de su valor de cambio.
+La [escuela austriaca de economía](https://planb.academy/resources/glossary/austrian-school) interpreta esta evolución como la aparición espontánea de bienes de intercambio privilegiados. Las conchas, atestiguadas arqueológicamente ya en el Mesolítico, ilustran este fenómeno: encontradas lejos de su origen geográfico (conchas mediterráneas en el oeste de Francia, conchas nórdicas en otros yacimientos), atestiguan un reconocimiento común de su valor de cambio.
 
 
 
@@ -605,7 +605,7 @@ La experiencia mesopotámica sienta precedentes duraderos para la evolución de 
 
 
 
-Este período seminal también revela las cuestiones de poder inherentes a cualquier innovación monetaria: quién controla la tecnología, quién define las reglas y cómo se articulan los sistemas formales y las prácticas populares. Estas cuestiones fundamentales han persistido a lo largo de la historia económica, extendiéndose a los debates contemporáneos sobre las monedas digitales y las criptodivisas.
+Este período seminal también revela las cuestiones de poder inherentes a cualquier innovación monetaria: quién controla la tecnología, quién define las reglas y cómo se articulan los sistemas formales y las prácticas populares. Estas cuestiones fundamentales han persistido a lo largo de la historia económica, extendiéndose a los debates contemporáneos sobre las monedas digitales y las [criptodivisas](https://planb.academy/resources/glossary/cryptocurrency).
 
 
 
@@ -637,7 +637,7 @@ Los incas no tenían sistema monetario, pero sí abundancia de metales preciosos
 > Cuanto más estratificada esté una sociedad y más meticulosamente eficiente sea su sistema de planificación, menos necesario será el uso del dinero para su población. Esto puede explicar por qué los conquistadores españoles descubrieron que los mexicanos, cuyo gobierno era relativamente más liberal, utilizaban regularmente polvo de oro (guardado en tubos transparentes) y granos de cacao (guardados para grandes pagos en bolsas de 24.000 unidades) como moneda, mientras que, por el contrario, los incas, organizados según una jerarquía mucho más rígida, no tenían moneda alguna: una excepción confirmada por una regla estricta. El origen del dinero en China fue totalmente independiente de otras civilizaciones; sin embargo, la relativa proximidad de las civilizaciones sumeria, egipcia y minoica plantea dudas sobre el alcance de su respectivo desconocimiento de las prácticas monetarias, sobre todo teniendo en cuenta el amplio comercio establecido ya en los tiempos más remotos.
 
 
-En China, las monedas se desarrollaron con un enfoque completamente distinto al de las tradiciones occidentales. Era dinero fiduciario desde el principio. Eran monedas de fundición.
+En China, las monedas se desarrollaron con un enfoque completamente distinto al de las tradiciones occidentales. Era [dinero fiduciario](https://planb.academy/resources/glossary/fiat) desde el principio. Eran monedas de fundición.
 
 
 Y aquí, el Sr. Davies menciona el comercio. Efectivamente, hubo intercambios entre los chinos y otras poblaciones en determinadas épocas, pero el medio de cambio para el comercio exterior era más bien la seda. Como veremos más adelante, el oro también se utilizaba en las regiones fronterizas de China, donde la población china era menor. Y ni siquiera para el comercio internacional; para eso, era la seda.
@@ -994,7 +994,7 @@ El Estado chino utilizaba el dinero como instrumento de regulación económica: 
 
 
 
-Se puede establecer aquí un vínculo con la inflación y la deflación. Con una oferta monetaria fija, si aumenta la productividad de la economía, aumenta el valor del dinero. A la inversa, si la productividad cae, el valor del dinero disminuye. En este ejemplo, sin embargo, ocurre lo contrario. Probablemente porque el príncipe no tenía el monopolio total de la producción de dinero, pero aun así indica que el valor del dinero estaba vinculado a las condiciones económicas.
+Se puede establecer aquí un vínculo con la [inflación](https://planb.academy/resources/glossary/inflation) y la deflación. Con una oferta monetaria fija, si aumenta la productividad de la economía, aumenta el valor del dinero. A la inversa, si la productividad cae, el valor del dinero disminuye. En este ejemplo, sin embargo, ocurre lo contrario. Probablemente porque el príncipe no tenía el monopolio total de la producción de dinero, pero aun así indica que el valor del dinero estaba vinculado a las condiciones económicas.
 
 
 
@@ -3616,7 +3616,7 @@ Pasemos a Suecia, donde se creó el primer banco central.
 
 
 
-**Suecia** fue pionera en banca central: en 1657, Johan Palmstruch creó el **Banco de Estocolmo**, autorizado a prestar más que sus reservas de metal, marcando así el nacimiento de la banca de reserva fraccionaria. Pero la excesiva emisión de billetes provocó el pánico y una corrida bancaria en 1663. Vaya, vaya...
+**Suecia** fue pionera en banca central: en 1657, Johan Palmstruch creó el **Banco de Estocolmo**, autorizado a prestar más que sus reservas de metal, marcando así el nacimiento de la banca de [reserva fraccionaria](https://planb.academy/resources/glossary/fractional-reserves). Pero la excesiva emisión de billetes provocó el pánico y una corrida bancaria en 1663. Vaya, vaya...
 
 
 

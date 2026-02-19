@@ -317,7 +317,7 @@ Som en reaksjon på John Law-erfaringen forklarer Cantillon hva som skjer eller 
 ![image](assets/nb-NO/017.webp)
 
 
-Han ser to hovedkonsekvenser av å erstatte en valuta uten reell verdi, som papirpenger, med en metallisk valuta. Den første konsekvensen er det han kaller "folkelig avvisning", det vil si en økende mistillit til verdiløse penger. Den andre konsekvensen er inflasjon: Pengesvekkelsen gjør varer dyrere.
+Han ser to hovedkonsekvenser av å erstatte en valuta uten reell verdi, som papirpenger, med en metallisk valuta. Den første konsekvensen er det han kaller "folkelig avvisning", det vil si en økende mistillit til verdiløse penger. Den andre konsekvensen er [inflasjon](https://planb.academy/resources/glossary/inflation): Pengesvekkelsen gjør varer dyrere.
 
 
 For det fjerde gikk Cantillon lenger enn sin samtid i sin analyse av **inflasjon**. Etter å ha observert sammenbruddet i Laws system, innså Cantillon at monetær inflasjon ikke rammer alle likt. Tvert imot beriker den noen, mens den utarmer andre. Han konkluderte med at inflasjon har en omfordelende effekt: De som først mottar nyutstedte penger, nyter godt av økt kjøpekraft, mens de som mottar dem senere, blir fattigere som følge av at de nye pengene utstedes på grunn av den økte inflasjonsraten.

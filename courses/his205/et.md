@@ -352,7 +352,7 @@ Vahetustehinguid on mitut liiki:
 
 
 
-Austria majandusteaduskond tõlgendab seda arengut kui privilegeeritud vahetuskaupade spontaanset tekkimist. Seda nähtust illustreerivad karbid, mis on arheoloogiliselt tõestatud juba mesoliitikumis: need on leitud kaugel oma geograafilisest päritolust (Vahemere karbid Lääne-Prantsusmaal, Põhjamaade karbid teistes leiukohtades) ja annavad tunnistust nende vahetusväärtuse üldisest tunnustamisest.
+[Austria majandusteaduskond](https://planb.academy/resources/glossary/austrian-school) tõlgendab seda arengut kui privilegeeritud vahetuskaupade spontaanset tekkimist. Seda nähtust illustreerivad karbid, mis on arheoloogiliselt tõestatud juba mesoliitikumis: need on leitud kaugel oma geograafilisest päritolust (Vahemere karbid Lääne-Prantsusmaal, Põhjamaade karbid teistes leiukohtades) ja annavad tunnistust nende vahetusväärtuse üldisest tunnustamisest.
 
 
 
@@ -605,7 +605,7 @@ Mesopotaamia kogemus loob püsivaid pretsedente finantssüsteemide arenguks. See
 
 
 
-See murranguline periood toob esile ka võimuküsimused, mis on omane igale rahalisele uuendusele: kes kontrollib tehnoloogiat, kes määrab reeglid ning kuidas liigendatakse ametlikud süsteemid ja populaarsed tavad. Need põhiküsimused on püsinud kogu majandusajaloo vältel, ulatudes tänapäevastesse aruteludesse digitaalrahade ja krüptovaluutade üle.
+See murranguline periood toob esile ka võimuküsimused, mis on omane igale rahalisele uuendusele: kes kontrollib tehnoloogiat, kes määrab reeglid ning kuidas liigendatakse ametlikud süsteemid ja populaarsed tavad. Need põhiküsimused on püsinud kogu majandusajaloo vältel, ulatudes tänapäevastesse aruteludesse digitaalrahade ja [krüptovaluutade](https://planb.academy/resources/glossary/cryptocurrency) üle.
 
 
 
@@ -637,7 +637,7 @@ Inkadel ei olnud rahasüsteemi, kuid neil oli hulgaliselt väärismetalle. Üsna
 > Mida kihistatum on ühiskond ja mida täpsem on selle planeerimissüsteem, seda vähem on rahakasutust vaja selle elanikkonna jaoks. See võib selgitada, miks hispaania konquistadoorid avastasid, et mehhiklased, kelle valitsus oli suhteliselt liberaalsem, kasutasid regulaarselt kuldpulbrit (mida hoiti läbipaistvates torudes) ja kakaoube (mida hoiti suurte maksete tegemiseks 24 000 ühiku suurustes kottides) rahana, samas kui inkadel, kes olid korraldatud palju rangema hierarhia alusel, ei olnud üldse mingit raha: erand, mida kinnitas range reegel. Raha tekkimine Hiinas oli täiesti sõltumatu teistest tsivilisatsioonidest; siiski tekitab sumerite, egiptlaste ja minoide tsivilisatsioonide suhteline lähedus kahtlusi selles, kuivõrd nad ei teadnud rahapraktikat, eriti kui arvestada juba varaseimatest aegadest peale tekkinud ulatuslikku kaubandust.
 
 
-Hiinas arendati münte lääne traditsioonidest täiesti erinevalt. See oli algusest peale fiatraha. Need olid valatud mündid.
+Hiinas arendati münte lääne traditsioonidest täiesti erinevalt. See oli algusest peale [fiatraha](https://planb.academy/resources/glossary/fiat). Need olid valatud mündid.
 
 
 Ja siinkohal mainib hr Davies kaubandust. Hiina ja teiste rahvaste vahel toimus tõepoolest teatud aegadel kaubavahetus, kuid väliskaubanduse vahetusvahendiks oli pigem siid. Nagu me hiljem näeme, kasutati kulda ka Hiina piirialadel, kus hiinlaste rahvaarv oli väiksem. Ja isegi mitte väliskaubanduses; selleks oli siid.
@@ -994,7 +994,7 @@ Hiina riik kasutas raha majanduse reguleerimise vahendina: rahapaljuse ajal väh
 
 
 
-Siin võib luua seose inflatsiooni ja deflatsiooniga. Fikseeritud rahapakkumise korral tõuseb raha väärtus, kui majanduse tootlikkus suureneb. Kui aga tootlikkus väheneb, siis raha väärtus väheneb. Antud näites on aga vastupidi. Tõenäoliselt seetõttu, et vürstil ei olnud täielik monopol raha tootmisele, kuid see näitab siiski, et raha väärtus oli seotud majandustingimustega.
+Siin võib luua seose [inflatsiooni](https://planb.academy/resources/glossary/inflation) ja deflatsiooniga. Fikseeritud rahapakkumise korral tõuseb raha väärtus, kui majanduse tootlikkus suureneb. Kui aga tootlikkus väheneb, siis raha väärtus väheneb. Antud näites on aga vastupidi. Tõenäoliselt seetõttu, et vürstil ei olnud täielik monopol raha tootmisele, kuid see näitab siiski, et raha väärtus oli seotud majandustingimustega.
 
 
 
@@ -3616,7 +3616,7 @@ Liigume edasi Rootsi, kus loodi esimene keskpank.
 
 
 
-**Rootsi** oli keskpanganduse teerajaja: 1657. aastal lõi Johan Palmstruch **Stockholmi Panga**, mis oli volitatud laenama rohkem kui tema metallivarusid, mis tähistas seega fraktsionaalreservi panganduse sündi. Kuid ülemäärane pangatähtede emiteerimine põhjustas 1663. aastal paanika ja panga ülejooksu. Noh, noh...
+**Rootsi** oli keskpanganduse teerajaja: 1657. aastal lõi Johan Palmstruch **Stockholmi Panga**, mis oli volitatud laenama rohkem kui tema metallivarusid, mis tähistas seega [fraktsionaalreservi panganduse](https://planb.academy/resources/glossary/fractional-reserves) sündi. Kuid ülemäärane pangatähtede emiteerimine põhjustas 1663. aastal paanika ja panga ülejooksu. Noh, noh...
 
 
 

@@ -117,11 +117,11 @@ Uko tayari kugundua Bitcoin mining? Tuanze!
 
 
 
-Kabla ya kuendelea na maelezo ya kina na ya kiufundi zaidi ya Bitcoin mining, ningependa kukupa muhtasari wa kanuni hiyo, ambayo ni rahisi kimakusudi na yenye mpangilio. Ikiwa tayari una ujuzi fulani wa msingi, unaweza kwenda moja kwa moja kwenye kiini cha jambo katika sura inayofuata, baada ya kujibu maswali ya jaribio. Sura hii inalenga hasa wanaoanza, kukupa mwanzo mpole.
+Kabla ya kuendelea na maelezo ya kina na ya kiufundi zaidi ya Bitcoin [mining](https://planb.academy/resources/glossary/mining), ningependa kukupa muhtasari wa kanuni hiyo, ambayo ni rahisi kimakusudi na yenye mpangilio. Ikiwa tayari una ujuzi fulani wa msingi, unaweza kwenda moja kwa moja kwenye kiini cha jambo katika sura inayofuata, baada ya kujibu maswali ya jaribio. Sura hii inalenga hasa wanaoanza, kukupa mwanzo mpole.
 
 
 
-Fikiria Bitcoin kama daftari kubwa la umma, linaloshirikiwa na kila mtu, ambapo tunaandika ni nani aliyemtumia bitcoin nani. Daftari hili linaitwa blockchain. Haliwezi kushikiliwa na mtu mmoja tu, vinginevyo lingepaswa kuaminiwa. Badala yake, Bitcoin inafanya kazi kwa pamoja: maelfu ya kompyuta huthibitisha na kudumisha toleo lile lile la daftari hili.
+Fikiria Bitcoin kama daftari kubwa la umma, linaloshirikiwa na kila mtu, ambapo tunaandika ni nani aliyemtumia bitcoin nani. Daftari hili linaitwa [blockchain](https://planb.academy/resources/glossary/blockchain). Haliwezi kushikiliwa na mtu mmoja tu, vinginevyo lingepaswa kuaminiwa. Badala yake, Bitcoin inafanya kazi kwa pamoja: maelfu ya kompyuta huthibitisha na kudumisha toleo lile lile la daftari hili.
 
 
 
@@ -129,7 +129,7 @@ Fikiria Bitcoin kama daftari kubwa la umma, linaloshirikiwa na kila mtu, ambapo 
 
 
 
-Katika Bitcoin, unapofanya malipo, unaunda muamala. Muamala huu hauongezwi mara moja kwenye daftari. Kwanza hutumwa kwenye mtandao, kisha husubiri kuunganishwa kwenye pakiti inayofuata ya muamala. Pakiti hii inaitwa kizuizi.
+Katika Bitcoin, unapofanya malipo, unaunda [muamala](https://planb.academy/resources/glossary/transaction-tx). Muamala huu hauongezwi mara moja kwenye daftari. Kwanza hutumwa kwenye mtandao, kisha husubiri kuunganishwa kwenye pakiti inayofuata ya muamala. Pakiti hii inaitwa [kizuizi](https://planb.academy/resources/glossary/block).
 
 
 
@@ -141,11 +141,11 @@ Kizuizi ni seti tu ya miamala iliyounganishwa pamoja. Kizuizi kinapokuwa tayari,
 
 
 
-Mining ni kazi ya kuthibitisha kizuizi kwa kutumia nishati. Waigizaji wanaoitwa wachimbaji hutumia kompyuta maalum. Mashine hizi hutumia umeme kufanya idadi kubwa sana ya majaribio, kwa mzunguko, hadi watakapopata uthibitisho ambao mtandao unakubali. Mchimbaji anapopata uthibitisho huu, kizuizi chake kinachukuliwa kuwa halali.
+Mining ni kazi ya kuthibitisha kizuizi kwa kutumia nishati. Waigizaji wanaoitwa [wachimbaji](https://planb.academy/resources/glossary/miner) hutumia kompyuta maalum. Mashine hizi hutumia umeme kufanya idadi kubwa sana ya majaribio, kwa mzunguko, hadi watakapopata uthibitisho ambao mtandao unakubali. Mchimbaji anapopata uthibitisho huu, kizuizi chake kinachukuliwa kuwa halali.
 
 
 
-Mara tu kizuizi kikishathibitishwa, hutangazwa kwenye mtandao. Nodi zingine huangalia haraka kwamba kinafuata sheria, kisha huziongeza kwenye mfuatano wa vizuizi vilivyotangulia. Hii ndiyo sababu inaitwa "mnyororo wa vizuizi": kila kizuizi kipya huja baada ya vingine, kwa mpangilio wa mfuatano, na mnyororo huu hukua kidogo kidogo.
+Mara tu kizuizi kikishathibitishwa, hutangazwa kwenye mtandao. [Nodi](https://planb.academy/resources/glossary/node) zingine huangalia haraka kwamba kinafuata sheria, kisha huziongeza kwenye mfuatano wa vizuizi vilivyotangulia. Hii ndiyo sababu inaitwa "mnyororo wa vizuizi": kila kizuizi kipya huja baada ya vingine, kwa mpangilio wa mfuatano, na mnyororo huu hukua kidogo kidogo.
 
 
 
@@ -153,11 +153,11 @@ Mara tu kizuizi kikishathibitishwa, hutangazwa kwenye mtandao. Nodi zingine huan
 
 
 
-Kwa muhtasari, miamala huundwa kwanza. Kisha, huwekwa pamoja katika kizuizi. Kisha, mchimbaji huthibitisha kizuizi hiki kwa kutumia umeme. Hatimaye, kizuizi hiki huongezwa kwenye kizuizi, na miamala iliyomo huthibitishwa.
+Kwa muhtasari, miamala huundwa kwanza. Kisha, huwekwa pamoja katika kizuizi. Kisha, mchimbaji huthibitisha kizuizi hiki kwa kutumia umeme. Hatimaye, kizuizi hiki huongezwa kwenye kizuizi, na miamala iliyomo [huthibitishwa](https://planb.academy/resources/glossary/confirmation).
 
 
 
-Ikiwa wachimbaji hutumia umeme, si kwa sababu wao ni wajitolea. Wanafanya hivyo kwa sababu kuna zawadi. Mchimbaji anapothibitisha kizuizi, anapokea aina mbili za mapato. Kwa upande mmoja, anapokea bitcoin mpya zilizoundwa. Kwa upande mwingine, anakusanya ada zinazolipwa na watumiaji kwa miamala iliyojumuishwa kwenye kizuizi. Kwa maneno mengine, mchimbaji hulipwa kupitia utoaji wa pesa uliopangwa, na kwa ada za miamala zilizoamuliwa na soko.
+Ikiwa wachimbaji hutumia umeme, si kwa sababu wao ni wajitolea. Wanafanya hivyo kwa sababu kuna zawadi. Mchimbaji anapothibitisha kizuizi, anapokea aina mbili za mapato. Kwa upande mmoja, anapokea bitcoin mpya zilizoundwa. Kwa upande mwingine, anakusanya [ada](https://planb.academy/resources/glossary/transaction-fees) zinazolipwa na watumiaji kwa miamala iliyojumuishwa kwenye kizuizi. Kwa maneno mengine, mchimbaji hulipwa kupitia utoaji wa pesa uliopangwa, na kwa ada za miamala zilizoamuliwa na soko.
 
 
 
@@ -187,7 +187,7 @@ Ili kuelewa Bitcoin mining inahusu nini, kwanza tunahitaji kufuata njia ya muama
 
 
 
-Katika Bitcoin, muamala ni muundo wa data unaohamisha umiliki wa bitcoins kutoka kwa mtumiaji mmoja hadi mwingine. Kwa maneno halisi, hutumia `matokeo` kutoka kwa miamala ya zamani (inayoitwa UTXOs), ikiyarejelea kama `pembejeo`, na kisha huunda `matokeo` mapya ambayo hufafanua bitcoins hizi sasa ni za nani na chini ya hali gani zinaweza kutumika baadaye.
+Katika Bitcoin, muamala ni muundo wa data unaohamisha umiliki wa bitcoins kutoka kwa mtumiaji mmoja hadi mwingine. Kwa maneno halisi, hutumia `matokeo` kutoka kwa miamala ya zamani (inayoitwa [UTXOs](https://planb.academy/resources/glossary/utxo)), ikiyarejelea kama `pembejeo`, na kisha huunda `matokeo` mapya ambayo hufafanua bitcoins hizi sasa ni za nani na chini ya hali gani zinaweza kutumika baadaye.
 
 
 
@@ -195,7 +195,7 @@ Katika Bitcoin, muamala ni muundo wa data unaohamisha umiliki wa bitcoins kutoka
 
 
 
-Jambo muhimu kuhusu Bitcoin ni idhini ya kutumia. Bitcoin hazipo kwenye akaunti, kama pesa zako benki zinavyoweza kuwa, lakini zimefungwa na masharti ya matumizi. Wakati wallet inataka kutumia UTXO kama pembejeo, lazima itoe uthibitisho wa kriptografia kwamba ina haki ya kuifungua. Uthibitisho huu mara nyingi huchukua umbo la sahihi ya kidijitali generated kutoka kwa ufunguo wa faragha. Ndiyo maana watumiaji wa bitcoin wanasisitiza kulinda funguo zako za faragha: ni hizi zinazofungua ufikiaji wa bitcoin zako na, kwa hivyo, kukuwezesha kuzitumia.
+Jambo muhimu kuhusu Bitcoin ni idhini ya kutumia. Bitcoin hazipo kwenye akaunti, kama pesa zako benki zinavyoweza kuwa, lakini zimefungwa na masharti ya matumizi. Wakati [wallet](https://planb.academy/resources/glossary/wallet) inataka kutumia UTXO kama [pembejeo](https://planb.academy/resources/glossary/input), lazima itoe uthibitisho wa kriptografia kwamba ina haki ya kuifungua. Uthibitisho huu mara nyingi huchukua umbo la [sahihi ya kidijitali](https://planb.academy/resources/glossary/digital-signature) generated kutoka kwa [ufunguo wa faragha](https://planb.academy/resources/glossary/private-key). Ndiyo maana watumiaji wa bitcoin wanasisitiza kulinda funguo zako za faragha: ni hizi zinazofungua ufikiaji wa bitcoin zako na, kwa hivyo, kukuwezesha kuzitumia.
 
 
 
@@ -221,7 +221,7 @@ Mara tu muamala utakapokuwa umetengenezwa kwa usahihi na kusainiwa na Bitcoin wa
 
 
 
-Bitcoin ni mtandao wa rika-kwa-rika: hakuna seva kuu inayopokea na kusindika miamala yote. Jukumu hili linachezwa kwa pamoja na nodi. Nodi ya Bitcoin ni kipande cha programu (k.m. Bitcoin Core) iliyounganishwa na nodi zingine katika mtandao wa Bitcoin, ambao dhamira yake kuu ni kuthibitisha, kuhifadhi na kusambaza miamala na vizuizi.
+Bitcoin ni mtandao wa [rika-kwa-rika](https://planb.academy/resources/glossary/peertopeer-p2p): hakuna seva kuu inayopokea na kusindika miamala yote. Jukumu hili linachezwa kwa pamoja na nodi. Nodi ya Bitcoin ni kipande cha programu (k.m. [Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core)) iliyounganishwa na nodi zingine katika mtandao wa Bitcoin, ambao dhamira yake kuu ni kuthibitisha, kuhifadhi na kusambaza miamala na vizuizi.
 
 
 
@@ -233,7 +233,7 @@ Unapotuma muamala kutoka kwa wallet, wallet huisambaza kwenye nodi (yako mwenyew
 - sahihi ni halali;
 - pembejeo hurejelea UTXO zilizopo (yaani bitcoin zilizopo);
 - UTXO hizi hazijatumika kwingineko;
-- kiasi cha matokeo ni kidogo au sawa na kiasi cha pembejeo (bitcoins hazijaundwa kutokana na chochote);
+- kiasi cha [matokeo](https://planb.academy/resources/glossary/output) ni kidogo au sawa na kiasi cha pembejeo (bitcoins hazijaundwa kutokana na chochote);
 - nk.
 
 
@@ -250,7 +250,7 @@ Ikiwa muamala utapita ukaguzi huu wote, nodi huisambaza kwenye nodi zingine kwen
 
 
 
-Kati ya wakati muamala unapotangazwa na wakati unapothibitishwa katika kizuizi, lazima usubiri. Eneo hili la kusubiri linaitwa **mempool** (mkazo wa `kumbukumbu` na `pool`). Kwa hivyo, mempool ni nafasi ya kuhifadhi ya muda kwa miamala halali, lakini bado haijathibitishwa.
+Kati ya wakati muamala unapotangazwa na wakati unapothibitishwa katika kizuizi, lazima usubiri. Eneo hili la kusubiri linaitwa **[mempool](https://planb.academy/resources/glossary/mempool)** (mkazo wa `kumbukumbu` na `pool`). Kwa hivyo, mempool ni nafasi ya kuhifadhi ya muda kwa miamala halali, lakini bado haijathibitishwa.
 
 
 
@@ -270,7 +270,7 @@ Katika hatua hii, mtandao unajua kuhusu muamala huo, umeuthibitisha na unauhifad
 
 
 
-Kwa kuwa bitcoin ni sarafu isiyoshikika, inapaswa kushughulikia tatizo moja: kuzuia matumizi maradufu bila mamlaka kuu. Ikiwa miamala miwili itajaribu kutumia UTXO sawa, kila mtu lazima aweze kuungana katika hali moja na thabiti. Satoshi Nakamoto inafupisha suala hili kwa sentensi hii maarufu:
+Kwa kuwa bitcoin ni sarafu isiyoshikika, inapaswa kushughulikia tatizo moja: kuzuia [matumizi maradufu](https://planb.academy/resources/glossary/double-spending-attack) bila mamlaka kuu. Ikiwa miamala miwili itajaribu kutumia UTXO sawa, kila mtu lazima aweze kuungana katika hali moja na thabiti. Satoshi Nakamoto inafupisha suala hili kwa sentensi hii maarufu:
 
 
 
@@ -284,7 +284,7 @@ Hili ndilo jukumu la blockchain: rejista ya umma yenye historia ya miamala. Laki
 
 
 
-Rejista hii haiwezi kuandikwa upya, kutokana na kanuni rahisi: kila kizuizi kinajumuisha alama ya kidole ya kriptografia (hash) ya kizuizi kilichopita. Kwa hivyo, vizuizi vimeunganishwa: ukibadilisha kizuizi kutoka zamani, hash yake hubadilika, ambayo huvunja kiungo na kizuizi kinachofuata, ambacho huvunja kiungo na kizuizi baada ya hapo, na kadhalika. Ni mnyororo huu wa utegemezi unaoipa "*blockchain*" jina lake.
+Rejista hii haiwezi kuandikwa upya, kutokana na kanuni rahisi: kila kizuizi kinajumuisha alama ya kidole ya kriptografia ([hash](https://planb.academy/resources/glossary/hash-function)) ya kizuizi kilichopita. Kwa hivyo, vizuizi vimeunganishwa: ukibadilisha kizuizi kutoka zamani, hash yake hubadilika, ambayo huvunja kiungo na kizuizi kinachofuata, ambacho huvunja kiungo na kizuizi baada ya hapo, na kadhalika. Ni mnyororo huu wa utegemezi unaoipa "*blockchain*" jina lake.
 
 
 
@@ -292,7 +292,7 @@ Rejista hii haiwezi kuandikwa upya, kutokana na kanuni rahisi: kila kizuizi kina
 
 
 
-Mara tutakapoelewa kanuni hizi za msingi za Bitcoin, tunaweza kuelezea lengo la mchimbaji kwa maneno halisi zaidi: kujenga kizuizi kipya kinachopanua mnyororo uliopo, kwa kuandika miamala inayosubiri, na kisha kujaribu kukifanya kiwe halali (hii ndiyo "proof of work" maarufu ambayo tutaisoma katika sura inayofuata). Lakini kwanza, hebu tugundue pamoja katika sura inayofuata jinsi kizuizi kinachotarajiwa kinavyojengwa.
+Mara tutakapoelewa kanuni hizi za msingi za Bitcoin, tunaweza kuelezea lengo la mchimbaji kwa maneno halisi zaidi: kujenga kizuizi kipya kinachopanua mnyororo uliopo, kwa kuandika miamala inayosubiri, na kisha kujaribu kukifanya kiwe halali (hii ndiyo "[proof of work](https://planb.academy/resources/glossary/proof-of-work)" maarufu ambayo tutaisoma katika sura inayofuata). Lakini kwanza, hebu tugundue pamoja katika sura inayofuata jinsi kizuizi kinachotarajiwa kinavyojengwa.
 
 
 
@@ -311,14 +311,14 @@ Sasa umeelewa jinsi muamala wa Bitcoin unavyofanya kazi, na jukumu la blockchain
 
 
 
-Miner wanapaswa kujenga vitalu vyao wenyewe kabla ya kujaribu kuvichimba. Kila mchimbaji, kwa upande wake, huunda kile kinachojulikana kama vitalu vya mgombea kutoka kwa miamala inayosubiri katika kumbukumbu zake. Kwa hivyo, kujenga vitalu vya mgombea kunajumuisha:
+Miner wanapaswa kujenga vitalu vyao wenyewe kabla ya kujaribu kuvichimba. Kila mchimbaji, kwa upande wake, huunda kile kinachojulikana kama [vitalu vya mgombea](https://planb.academy/resources/glossary/candidate-block) kutoka kwa miamala inayosubiri katika kumbukumbu zake. Kwa hivyo, kujenga vitalu vya mgombea kunajumuisha:
 
 
 
 
 - chagua miamala itakayojumuisha;
 - kupanga miamala hii kwa njia inayoendana na sheria za Bitcoin;
-- kuzalisha metadata ya block, iliyohifadhiwa kwenye kichwa chake cha habari.
+- kuzalisha metadata ya block, iliyohifadhiwa kwenye [kichwa chake cha habari](https://planb.academy/resources/glossary/block-header).
 
 
 
@@ -340,7 +340,7 @@ Kwa hivyo, kizuizi cha Bitcoin kina sehemu mbili kuu:
 
 
 
-Kichwa cha habari ni muhimu, kwani kinatumika kama msingi wa proof-of-work: katika Bitcoin, huchimbi kizuizi kizima moja kwa moja; unachimba kichwa cha habari cha kizuizi pekee, ambacho kinaelezea kwa ufupi taarifa zinazohitajika kuunganisha kizuizi kwenye mnyororo na kuweka yaliyomo ndani yake. Ili kuwezesha kichwa cha habari kuwakilisha miamala yote, Bitcoin hutumia zana ya usimbaji fiche: mti wa Merkle.
+Kichwa cha habari ni muhimu, kwani kinatumika kama msingi wa proof-of-work: katika Bitcoin, huchimbi kizuizi kizima moja kwa moja; unachimba kichwa cha habari cha kizuizi pekee, ambacho kinaelezea kwa ufupi taarifa zinazohitajika kuunganisha kizuizi kwenye mnyororo na kuweka yaliyomo ndani yake. Ili kuwezesha kichwa cha habari kuwakilisha miamala yote, Bitcoin hutumia zana ya usimbaji fiche: [mti wa Merkle](https://planb.academy/resources/glossary/merkle-tree).
 
 
 
@@ -348,7 +348,7 @@ Kichwa cha habari ni muhimu, kwani kinatumika kama msingi wa proof-of-work: kati
 
 
 
-Kuorodhesha miamala yote kwenye kichwa cha habari hakuwezekani: kizuizi kinaweza kuwa na maelfu ya miamala, huku kichwa cha habari kikiwa na ukubwa usiobadilika (baiti 80). Kwa hivyo suluhisho ni kukokotoa hashi ya kipekee ambayo inategemea miamala yote kwenye kizuizi: hii ndiyo mzizi wa Merkle.
+Kuorodhesha miamala yote kwenye kichwa cha habari hakuwezekani: kizuizi kinaweza kuwa na maelfu ya miamala, huku kichwa cha habari kikiwa na ukubwa usiobadilika (baiti 80). Kwa hivyo suluhisho ni kukokotoa hashi ya kipekee ambayo inategemea miamala yote kwenye kizuizi: hii ndiyo [mzizi wa Merkle](https://planb.academy/resources/glossary/merkle-root).
 
 
 
@@ -371,7 +371,7 @@ Kwa hivyo, ikiwa muamala mmoja utabadilika, hata kwa sehemu moja, matokeo yake n
 
 
 
-Tangu SegWit, tumetenganisha sahihi kutoka kwa zingine. Kwa hivyo, kwa kweli, kuna miti 2 ya Merkle iliyojengwa ndani ya kila kizuizi. Mgawanyiko huu una matokeo kwa jinsi tunavyohesabu ukubwa wa kizuizi na kwa ahadi fulani za kriptografia, lakini wazo la msingi linabaki lile lile: kichwa cha habari lazima kitoe, kwa njia ndogo, yaliyomo yote ya kizuizi.
+Tangu [SegWit](https://planb.academy/resources/glossary/segwit), tumetenganisha sahihi kutoka kwa zingine. Kwa hivyo, kwa kweli, kuna miti 2 ya Merkle iliyojengwa ndani ya kila kizuizi. Mgawanyiko huu una matokeo kwa jinsi tunavyohesabu ukubwa wa kizuizi na kwa ahadi fulani za kriptografia, lakini wazo la msingi linabaki lile lile: kichwa cha habari lazima kitoe, kwa njia ndogo, yaliyomo yote ya kizuizi.
 
 
 
@@ -402,19 +402,19 @@ Kichwa cha vitalu kina urefu wa baiti 80 na kina sehemu 6 haswa. Ni vipengele hi
 
 
 
-- Muhuri wa muda: Huu ni muhuri wa muda (muda wa Unix) uliochaguliwa na mchimbaji (wenye vikwazo vya uhalali), ambao lazima uonyeshe wakati kizuizi kilichimbwa. Sio lazima kiwe sahihi kabisa kwa cha pili, lakini lazima kijenge masharti fulani ili kubaki kukubalika kwa mtandao.
+- [Muhuri wa muda](https://planb.academy/resources/glossary/timestamp): Huu ni muhuri wa muda (muda wa Unix) uliochaguliwa na mchimbaji (wenye vikwazo vya uhalali), ambao lazima uonyeshe wakati kizuizi kilichimbwa. Sio lazima kiwe sahihi kabisa kwa cha pili, lakini lazima kijenge masharti fulani ili kubaki kukubalika kwa mtandao.
 
 
 
 
 
-- Lengo la ugumu lililosimbwa (`nbits`): Sehemu hii inasimba lengo la ugumu la sasa. Tutaingia kwa undani zaidi katika sura kuhusu ugumu, lakini kumbuka kwamba kigezo hiki ni sehemu ya kichwa cha habari.
+- [Lengo la ugumu](https://planb.academy/resources/glossary/difficulty-target) lililosimbwa (`nbits`): Sehemu hii inasimba lengo la ugumu la sasa. Tutaingia kwa undani zaidi katika sura kuhusu ugumu, lakini kumbuka kwamba kigezo hiki ni sehemu ya kichwa cha habari.
 
 
 
 
 
-- Nonce (`nonce`): Hii ni thamani ambayo mchimbaji anaweza kurekebisha kwa uhuru. Inatumika kama kigezo kinachoweza kurekebishwa wakati wa proof-of-work. Nitaelezea jukumu lake kwa undani zaidi katika sura inayofuata, lakini ni muhimu kuelewa kwamba nonce ni sehemu ya kichwa cha block na imeundwa kuruhusu majaribio mfululizo.
+- [Nonce](https://planb.academy/resources/glossary/nonce) (`nonce`): Hii ni thamani ambayo mchimbaji anaweza kurekebisha kwa uhuru. Inatumika kama kigezo kinachoweza kurekebishwa wakati wa proof-of-work. Nitaelezea jukumu lake kwa undani zaidi katika sura inayofuata, lakini ni muhimu kuelewa kwamba nonce ni sehemu ya kichwa cha block na imeundwa kuruhusu majaribio mfululizo.
 
 
 
@@ -510,7 +510,7 @@ Kitendakazi cha hashi kinavutia katika mifumo ya kompyuta kwa sababu kina sifa f
 
 
 
-Kitendakazi cha hashi kinachotumika katika Bitcoin kwa mining ni `SHA256`, kinachotumika mara mbili mfululizo. Hii inajulikana kama SHA256 mara mbili, au `SHA256d`. Ni hashi hii mara mbili inayotoa alama za vidole za block.
+Kitendakazi cha hashi kinachotumika katika Bitcoin kwa mining ni `SHA256`, kinachotumika mara mbili mfululizo. Hii inajulikana kama [SHA256](https://planb.academy/resources/glossary/sha256) mara mbili, au `SHA256d`. Ni hashi hii mara mbili inayotoa alama za vidole za block.
 
 
 
@@ -618,7 +618,7 @@ Mchakato wa mining ni rahisi sana:
 
 
 
-Kwa kweli, nonce sio sehemu pekee inayoweza kurekebishwa. Marekebisho yoyote ndani ya miamala ya block husababisha mabadiliko kwenye mzizi wa mti wa Merkle, na kwa hivyo marekebisho kwenye kichwa cha block hiyo. Kwa nguvu ya kisasa ya kompyuta, kupitia thamani zinazowezekana bilioni 4.29 za nonce kunaweza kufanywa haraka kiasi. Ndiyo maana kuna sehemu nyingine, ambayo kwa ujumla hujulikana kama "*extra-nonce*", ambayo huongeza zaidi uwezekano wa tofauti ya kichwa. Tutarudi kwenye utaratibu huu kwa undani zaidi katika sura inayofuata.
+Kwa kweli, nonce sio sehemu pekee inayoweza kurekebishwa. Marekebisho yoyote ndani ya miamala ya block husababisha mabadiliko kwenye mzizi wa mti wa Merkle, na kwa hivyo marekebisho kwenye kichwa cha block hiyo. Kwa nguvu ya kisasa ya kompyuta, kupitia thamani zinazowezekana bilioni 4.29 za nonce kunaweza kufanywa haraka kiasi. Ndiyo maana kuna sehemu nyingine, ambayo kwa ujumla hujulikana kama "*[extra-nonce](https://planb.academy/resources/glossary/extra-nonce)*", ambayo huongeza zaidi uwezekano wa tofauti ya kichwa. Tutarudi kwenye utaratibu huu kwa undani zaidi katika sura inayofuata.
 
 
 
@@ -630,7 +630,7 @@ Tunaiita "uthibitisho" kwa sababu matokeo yanaweza kuthibitishwa mara moja: mara
 
 
 
-Katika Karatasi Nyeupe ya Bitcoin, Satoshi Nakamoto inaweka mbele faida mbili katika kutumia mfumo wa proof-of-work katika Bitcoin:
+Katika [Karatasi Nyeupe](https://planb.academy/resources/glossary/white-paper) ya Bitcoin, Satoshi Nakamoto inaweka mbele faida mbili katika kutumia mfumo wa proof-of-work katika Bitcoin:
 
 
 
@@ -650,7 +650,7 @@ Kwa maneno mengine, proof-of-work hutumika kama uti wa mgongo wa mfumo wa kuweka
 
 
 
-- Fafanua sheria ya wengi (makubaliano) na ubadilishe Sybil:**
+- Fafanua sheria ya wengi ([makubaliano](https://planb.academy/resources/glossary/consensus)) na ubadilishe Sybil:**
 
 
 
@@ -658,7 +658,7 @@ Proof-of-Work pia inaruhusu Bitcoin kufikia makubaliano bila kutegemea kanuni ya
 
 
 
-Katika Bitcoin, "*wengi*" si idadi kubwa zaidi ya washiriki, bali ni mnyororo unaokusanya kazi nyingi zaidi**. Kama Satoshi inavyosema, hii ni kanuni ya "CPU moja = kura moja", yaani kura inayopimwa na nguvu halisi ya kompyuta inayotumika kutengeneza vitalu halali. Kwa hivyo kupeleka maelfu ya nodi hakuleti faida yoyote juu ya Bitcoin. Bila nguvu ya ziada ya kompyuta, hakuna uthibitisho zaidi wa kazi unaokusanywa, na shambulio la Sybil halina maana, huku sheria ya uamuzi ikibaki kuwa ya kweli na haihitaji utambuzi wa washiriki.
+Katika Bitcoin, "*wengi*" si idadi kubwa zaidi ya washiriki, bali ni mnyororo unaokusanya kazi nyingi zaidi**. Kama Satoshi inavyosema, hii ni kanuni ya "CPU moja = kura moja", yaani kura inayopimwa na nguvu halisi ya kompyuta inayotumika kutengeneza vitalu halali. Kwa hivyo kupeleka maelfu ya nodi hakuleti faida yoyote juu ya Bitcoin. Bila nguvu ya ziada ya kompyuta, hakuna uthibitisho zaidi wa kazi unaokusanywa, na [shambulio la Sybil](https://planb.academy/resources/glossary/sybil-attack) halina maana, huku sheria ya uamuzi ikibaki kuwa ya kweli na haihitaji utambuzi wa washiriki.
 
 
 
@@ -689,7 +689,7 @@ Katika sura inayofuata, tutapitia kwa ufupi historia katika kanuni ya proof-of-w
 
 
 
-Uthibitisho wa kazi haukubuniwa kwa ajili ya Bitcoin. Satoshi Nakamoto ilichukua na kukusanya mawazo kadhaa ya zamani, ambayo tayari yamechunguzwa katika miktadha tofauti.
+Uthibitisho wa kazi haukubuniwa kwa ajili ya Bitcoin. [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) ilichukua na kukusanya mawazo kadhaa ya zamani, ambayo tayari yamechunguzwa katika miktadha tofauti.
 
 
 
@@ -701,7 +701,7 @@ Mwishoni mwa miaka ya 1990, tatizo la barua taka likawa kubwa. Hakika, ikiwa kut
 
 
 
-Hili ndilo lengo la Hashcash, lililopendekezwa na Adam Back mwaka wa 1997, ambalo linachukuliwa kuwa uvumbuzi wa kanuni ya proof-of-work. Kanuni ya Hashcash inafanana sana na mining: kutoa hash inayoheshimu sharti (kuwa na idadi fulani ya sifuri mwanzoni mwa hash). Kisha uthibitisho huambatana na ujumbe na unaweza kuthibitishwa haraka sana na mpokeaji. Ikiwa barua pepe itapokelewa ambayo haina uthibitisho huu, inaweza kuchukuliwa mara moja kama barua taka, na kwa hivyo kuchujwa. Watumaji taka hulazimika kutumia kiasi kikubwa cha nishati kutuma mamilioni ya ujumbe, ambayo hupunguza sana (au hata kufuta kabisa) faida ya aina hii ya operesheni, iwe ni uuzaji au ulaghai.
+Hili ndilo lengo la [Hashcash](https://planb.academy/resources/glossary/hashcash), lililopendekezwa na Adam Back mwaka wa 1997, ambalo linachukuliwa kuwa uvumbuzi wa kanuni ya proof-of-work. Kanuni ya Hashcash inafanana sana na mining: kutoa hash inayoheshimu sharti (kuwa na idadi fulani ya sifuri mwanzoni mwa hash). Kisha uthibitisho huambatana na ujumbe na unaweza kuthibitishwa haraka sana na mpokeaji. Ikiwa barua pepe itapokelewa ambayo haina uthibitisho huu, inaweza kuchukuliwa mara moja kama barua taka, na kwa hivyo kuchujwa. Watumaji taka hulazimika kutumia kiasi kikubwa cha nishati kutuma mamilioni ya ujumbe, ambayo hupunguza sana (au hata kufuta kabisa) faida ya aina hii ya operesheni, iwe ni uuzaji au ulaghai.
 
 
 
@@ -812,7 +812,7 @@ Kipindi cha dakika 10 kwa ujumla hutoa muda wa kutosha kwa kizuizi kinachoshinda
 
 
 
-*"Hashrate*" inarejelea kiasi cha hesabu ya hashi inayozalishwa kwa sekunde, iwe na mchimbaji mmoja, kundi la wachimbaji, au wachimbaji wote katika Bitcoin. Inaonyeshwa katika `H/s` (hashi kwa sekunde), na vijisehemu kama vile `TH/s` (terahashi kwa sekunde) au `EH/s` (exahashi kwa sekunde). Hii inawakilisha idadi ya majaribio ambayo wachimbaji wanaweza kufanya kila sekunde kujaribu kupata hashi chini ya shabaha.
+*"[Hashrate](https://planb.academy/resources/glossary/hashrate)*" inarejelea kiasi cha hesabu ya hashi inayozalishwa kwa sekunde, iwe na mchimbaji mmoja, kundi la wachimbaji, au wachimbaji wote katika Bitcoin. Inaonyeshwa katika `H/s` (hashi kwa sekunde), na vijisehemu kama vile `TH/s` (terahashi kwa sekunde) au `EH/s` (exahashi kwa sekunde). Hii inawakilisha idadi ya majaribio ambayo wachimbaji wanaweza kufanya kila sekunde kujaribu kupata hashi chini ya shabaha.
 
 
 
@@ -905,7 +905,7 @@ Na:
 - `**Kwa = 18,045,755,102**`: Lengo la zamani, yaani thamani ya marejeleo kabla ya marekebisho.
 - `**ta = sekunde 1,000,000**`: Muda uliotumika kutengeneza vitalu vya mwisho vya 2016. Kwa kuwa muda huu ni mdogo kuliko muda uliolengwa, mtandao umechimba haraka sana.
 - `**Sekunde 1,209,600**`: Muda lengwa unaolingana na dakika 10 kwa kila kizuizi kwa vizuizi vya 2016, unaotumika kama marejeleo ya marekebisho.
-- `**tn = 14,918,779,020**`: Lengo jipya limehesabiwa baada ya marekebisho ya ugumu.
+- `**tn = 14,918,779,020**`: Lengo jipya limehesabiwa baada ya [marekebisho ya ugumu](https://planb.academy/resources/glossary/difficulty-adjustment).
 
 
 
@@ -959,7 +959,7 @@ Mantiki hii inategemea nadharia ya mchezo: itifaki hufanya uaminifu kuwa wa busa
 
 
 
-Ili kufanikisha hili, itifaki ya Bitcoin inaeleza kwamba mchimbaji anayepata kizuizi halali anapata haki ya kujumuisha muamala fulani ndani yake, ambao humpa mchimbaji kiasi fulani cha BTC. Hii inajulikana kama **zawadi ya kizuizi**. Katika sura hii ya kwanza ya sehemu hii, lengo ni kuelewa imeundwa na nini na jinsi inavyoamuliwa. Baadaye, tutaona jinsi sehemu ya uundaji wa pesa inavyobadilika baada ya muda (kwa nusu) na jinsi inavyokusanywa kitaalamu (kupitia muamala wa coinbase).
+Ili kufanikisha hili, itifaki ya Bitcoin inaeleza kwamba mchimbaji anayepata kizuizi halali anapata haki ya kujumuisha muamala fulani ndani yake, ambao humpa mchimbaji kiasi fulani cha BTC. Hii inajulikana kama **[zawadi ya kizuizi](https://planb.academy/resources/glossary/block-reward)**. Katika sura hii ya kwanza ya sehemu hii, lengo ni kuelewa imeundwa na nini na jinsi inavyoamuliwa. Baadaye, tutaona jinsi sehemu ya uundaji wa pesa inavyobadilika baada ya muda (kwa nusu) na jinsi inavyokusanywa kitaalamu (kupitia muamala wa coinbase).
 
 
 
@@ -976,7 +976,7 @@ Ni tukio hili hasa (kuongezwa halisi kwa kizuizi kwenye blockchain) ndiko kunako
 
 
 
-- ruzuku ya vitalu**;
+- [ruzuku ya vitalu](https://planb.academy/resources/glossary/block-subsidy)**;
 - ada za miamala**.
 
 
@@ -1091,7 +1091,7 @@ Kwa hivyo miamala miwili inaweza kulipa kiasi sawa cha ada kwa maneno kamili, la
 
 
 
-Hii ndiyo sababu, kwa vitendo, tunaelezea ushindani wa muamala wenye uwiano wa ada, kwa kawaida katika `sats/vB` (satoshis kwa baiti pepe). Kuhesabu uwiano huu ni rahisi:
+Hii ndiyo sababu, kwa vitendo, tunaelezea ushindani wa muamala wenye uwiano wa ada, kwa kawaida katika `sats/vB` ([satoshis](https://planb.academy/resources/glossary/satoshi-sat) kwa baiti pepe). Kuhesabu uwiano huu ni rahisi:
 
 
 
@@ -1142,7 +1142,7 @@ Katika sura inayofuata, tutazingatia kwa undani zaidi ruzuku ya vitalu, ili kuel
 
 
 
-Katika sura iliyopita, tuliona kwamba wachimbaji wanaozalisha kitalu halali hupokea zawadi inayojumuisha ada za miamala iliyojumuishwa kwenye kitalu, pamoja na ruzuku ya kitalu. Hata hivyo, bado hatujaelezea jinsi kiasi cha ruzuku hii kinavyoamuliwa. Utaratibu unaoweka na kubadilika thamani hii unajulikana kama ***kupunguza nusu***.
+Katika sura iliyopita, tuliona kwamba wachimbaji wanaozalisha kitalu halali hupokea zawadi inayojumuisha ada za miamala iliyojumuishwa kwenye kitalu, pamoja na ruzuku ya kitalu. Hata hivyo, bado hatujaelezea jinsi kiasi cha ruzuku hii kinavyoamuliwa. Utaratibu unaoweka na kubadilika thamani hii unajulikana kama ***[kupunguza nusu](https://planb.academy/resources/glossary/halving)***.
 
 
 
@@ -1251,7 +1251,7 @@ Sababu kuu ni ya kiufundi. Kupitia nusu mfululizo, ruzuku ya vitalu hatimaye hua
 
 
 
-Kwa kuongezea, kupotoka kwa itifaki ya pembezoni kunaweza pia kuongeza hili. Kwa mfano, katika hali nadra, baadhi ya wachimbaji huenda hawakudai ruzuku yao kamili, ambayo hupunguza kabisa kiasi cha bitcoins zilizotolewa. Tunaweza pia kutaja kizuizi cha genesis, kilichozalishwa na Satoshi mnamo Januari 3, 2009, ambacho bitcoins zake zilizoundwa si sehemu ya UTXO set, pamoja na matukio fulani ya kihistoria yanayohusiana na hitilafu, kama vile vitambulisho vya miamala ya coinbase maradufu.
+Kwa kuongezea, kupotoka kwa itifaki ya pembezoni kunaweza pia kuongeza hili. Kwa mfano, katika hali nadra, baadhi ya wachimbaji huenda hawakudai ruzuku yao kamili, ambayo hupunguza kabisa kiasi cha bitcoins zilizotolewa. Tunaweza pia kutaja [kizuizi cha genesis](https://planb.academy/resources/glossary/genesis-block), kilichozalishwa na Satoshi mnamo Januari 3, 2009, ambacho bitcoins zake zilizoundwa si sehemu ya [UTXO set](https://planb.academy/resources/glossary/utxo-set), pamoja na matukio fulani ya kihistoria yanayohusiana na hitilafu, kama vile vitambulisho vya miamala ya coinbase maradufu.
 
 
 
@@ -1295,7 +1295,7 @@ Hata hivyo, swali moja linabaki: mchimbaji hukusanya zawadi hii kwa utaratibu ga
 
 
 
-Kama tulivyoona katika sehemu ya kwanza ya kozi, kila kizuizi cha Bitcoin kina orodha ya miamala inayosubiri ambayo itathibitisha. Ya kwanza kabisa kati ya haya huwa ni muamala wa sarafu. Ndiyo inayomruhusu mchimbaji aliyeshinda kupokea zawadi yake.
+Kama tulivyoona katika sehemu ya kwanza ya kozi, kila kizuizi cha Bitcoin kina orodha ya miamala inayosubiri ambayo itathibitisha. Ya kwanza kabisa kati ya haya huwa ni [muamala wa sarafu](https://planb.academy/resources/glossary/coinbase-transaction). Ndiyo inayomruhusu mchimbaji aliyeshinda kupokea zawadi yake.
 
 
 
@@ -1303,7 +1303,7 @@ Kama tulivyoona katika sehemu ya kwanza ya kozi, kila kizuizi cha Bitcoin kina o
 
 
 
-Kwa mtazamo wa kwanza, inaonekana kama muamala wa kawaida wa Bitcoin: ina TXID, matokeo, na imejumuishwa katika mti wa Merkle wa block. Hata hivyo, inatofautiana katika jambo moja muhimu: haitumii UTXO yoyote iliyopo.
+Kwa mtazamo wa kwanza, inaonekana kama muamala wa kawaida wa Bitcoin: ina [TXID](https://planb.academy/resources/glossary/txid-transaction-identifier), matokeo, na imejumuishwa katika mti wa Merkle wa block. Hata hivyo, inatofautiana katika jambo moja muhimu: haitumii UTXO yoyote iliyopo.
 
 
 
@@ -1402,7 +1402,7 @@ Baada ya muda, muamala wa coinbase umekuwa sehemu rahisi sana ya kuingiza taarif
 
 
 
-BIP-34 ni fork laini iliyotumika Machi 2013, ikianza na kizuizi 227,930, ambacho kilianzisha toleo la 2 la vizuizi vya Bitcoin. Toleo hili jipya linahitaji kila kizuizi kujumuisha, katika `scriptSig` ya muamala wa coinbase, urefu wa kizuizi kinachoundwa.
+[BIP-34](https://planb.academy/resources/glossary/bip0034) ni fork laini iliyotumika Machi 2013, ikianza na kizuizi 227,930, ambacho kilianzisha toleo la 2 la vizuizi vya Bitcoin. Toleo hili jipya linahitaji kila kizuizi kujumuisha, katika `scriptSig` ya muamala wa coinbase, urefu wa kizuizi kinachoundwa.
 
 
 
@@ -1454,7 +1454,7 @@ Kwa sababu za kiutendaji, mabwawa ya mining pia hutumia sehemu huru ya `scriptSi
 
 
 
-Kwa kuwa fork laini ya SegWit iliwezeshwa mwaka wa 2017, data ya mashahidi (yaani kwa ujumla sahihi) imetenganishwa na data kuu ya miamala, hasa ili kurekebisha tatizo la unyumbulifu wa miamala ya Bitcoin. Kwa hivyo, mtengano huu unaanzisha kipengele kipya cha kuwekwa katika kizuizi.
+Kwa kuwa fork laini ya SegWit iliwezeshwa mwaka wa 2017, data ya mashahidi (yaani kwa ujumla sahihi) imetenganishwa na data kuu ya miamala, hasa ili kurekebisha tatizo la [unyumbulifu wa miamala ya Bitcoin](https://planb.academy/resources/glossary/malleability-transaction). Kwa hivyo, mtengano huu unaanzisha kipengele kipya cha kuwekwa katika kizuizi.
 
 
 
@@ -1500,7 +1500,7 @@ Ujumbe huu, uliopo katika kizuizi cha Genesis (kizuizi cha kwanza kabisa cha Bit
 ### Kipindi cha ukomavu
 
 
-Mara tu kizuizi kikishachimbwa na kusambazwa, muamala wa sarafu huonekana kwenye blockchain kama muamala mwingine wowote. Huunda UTXO kwa mchimbaji aliyeshinda, na kuwawezesha kukusanya zawadi yao. Hata hivyo, UTXO hizi haziwezi kutumika mara moja: zinakabiliwa na kipindi cha ukomavu. Ukomavu huu umewekwa katika vitalu 100 baada ya kizuizi kilicho na sarafu. Kwa maneno halisi, muamala wa sarafu lazima ujumuishe uthibitisho 101 ili matokeo yake yaweze kutumika na mchimbaji aliyeshinda.
+Mara tu kizuizi kikishachimbwa na kusambazwa, muamala wa sarafu huonekana kwenye blockchain kama muamala mwingine wowote. Huunda UTXO kwa mchimbaji aliyeshinda, na kuwawezesha kukusanya zawadi yao. Hata hivyo, UTXO hizi haziwezi kutumika mara moja: zinakabiliwa na [kipindi cha ukomavu](https://planb.academy/resources/glossary/maturity-period). Ukomavu huu umewekwa katika vitalu 100 baada ya kizuizi kilicho na sarafu. Kwa maneno halisi, muamala wa sarafu lazima ujumuishe uthibitisho 101 ili matokeo yake yaweze kutumika na mchimbaji aliyeshinda.
 
 
 ![Image](assets/fr/040.webp)
@@ -1615,7 +1615,7 @@ Ilikuwa katika hatua hii ambapo ugumu wa mining ulianza kupasuka. Kati ya katika
 
 
 
-Kati ya enzi ya GPU na enzi ya kisasa ya ASIC, kulikuwa na awamu ya kati: matumizi ya FPGA. FPGA ni sehemu inayoweza kupangwa upya: inaweza kusanidiwa kutekeleza moja kwa moja saketi ya mantiki iliyojitolea kwa hesabu fulani, katika kesi hii `SHA256d`. Wazo lilikuwa kusonga mbali zaidi na vifaa vya matumizi ya jumla (CPU/GPU) ili kupata ufanisi wa nishati. Lakini hivi karibuni, maboresho yaliyofanywa kwa njia ya mtandao kwenye FPGA yangetumika kimwili kwenye chipsi zenyewe: hiyo ndiyo kuwasili kwa ASIC.
+Kati ya enzi ya GPU na enzi ya kisasa ya [ASIC](https://planb.academy/resources/glossary/asic), kulikuwa na awamu ya kati: matumizi ya FPGA. FPGA ni sehemu inayoweza kupangwa upya: inaweza kusanidiwa kutekeleza moja kwa moja saketi ya mantiki iliyojitolea kwa hesabu fulani, katika kesi hii `SHA256d`. Wazo lilikuwa kusonga mbali zaidi na vifaa vya matumizi ya jumla (CPU/GPU) ili kupata ufanisi wa nishati. Lakini hivi karibuni, maboresho yaliyofanywa kwa njia ya mtandao kwenye FPGA yangetumika kimwili kwenye chipsi zenyewe: hiyo ndiyo kuwasili kwa ASIC.
 
 
 
@@ -1667,7 +1667,7 @@ Mashine iliyotengwa inaweza kuchimba, lakini kwa kuweka mamia, kisha maelfu ya A
 
 
 
-Shamba la mining, katika umbo lake rahisi, ni jengo (au seti ya makontena) yaliyojazwa ASIC zinazofanya kazi masaa 24 kwa siku, siku 7 kwa siku. Changamoto sasa ni kudumisha hali thabiti ya uendeshaji:
+[Shamba la mining](https://planb.academy/resources/glossary/mining-farm), katika umbo lake rahisi, ni jengo (au seti ya makontena) yaliyojazwa ASIC zinazofanya kazi masaa 24 kwa siku, siku 7 kwa siku. Changamoto sasa ni kudumisha hali thabiti ya uendeshaji:
 
 
 
@@ -1724,7 +1724,7 @@ https://planb.academy/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-
 
 
 
-Mining Bitcoin inahusisha gharama zinazoendelea na zisizoepukika, kubwa zaidi ikiwa ni matumizi ya nguvu ya mashine. Gharama hizi hutokea bila kujali matokeo yoyote, ingawa mapato kutoka mining, kwa asili yake, ni nadra na ya nasibu. Ugunduzi wa kizuizi hutegemea tu sehemu ya mchimbaji ya hashrate, ambayo hufanya mapato kuwa yasiyotabirika zaidi kadri sehemu hiyo ilivyo ndogo. Ni tatizo hili la vitendo ambalo lilisababisha matumizi makubwa ya mabwawa ya mining. Katika sura hii ya mwisho ya kozi ya MIN 101, ninatoa utangulizi wa kanuni na uendeshaji wa mabwawa ya mining katika Bitcoin.
+Mining Bitcoin inahusisha gharama zinazoendelea na zisizoepukika, kubwa zaidi ikiwa ni matumizi ya nguvu ya mashine. Gharama hizi hutokea bila kujali matokeo yoyote, ingawa mapato kutoka mining, kwa asili yake, ni nadra na ya nasibu. Ugunduzi wa kizuizi hutegemea tu sehemu ya mchimbaji ya hashrate, ambayo hufanya mapato kuwa yasiyotabirika zaidi kadri sehemu hiyo ilivyo ndogo. Ni tatizo hili la vitendo ambalo lilisababisha matumizi makubwa ya [mabwawa ya mining](https://planb.academy/resources/glossary/pool-mining). Katika sura hii ya mwisho ya kozi ya MIN 101, ninatoa utangulizi wa kanuni na uendeshaji wa mabwawa ya mining katika Bitcoin.
 
 
 
@@ -1807,7 +1807,7 @@ Mabwawa ya kwanza yaliundwa haswa kwa kujibu ukweli huu mpya. Braiins Pool (zama
 
 
 
-Kwa upande wa kiufundi, mabwawa yalijengwa kwa kuzingatia itifaki maalum za mawasiliano kati ya bwawa na wachimbaji (k.m. Stratum, kisha Stratum V2), ili kupanga kazi iliyosambazwa kwa ufanisi. Tutaangalia kwa undani dhana hizi katika kozi yetu ya mafunzo ya MIN 201.
+Kwa upande wa kiufundi, mabwawa yalijengwa kwa kuzingatia itifaki maalum za mawasiliano kati ya bwawa na wachimbaji (k.m. [Stratum](https://planb.academy/resources/glossary/stratum), kisha Stratum V2), ili kupanga kazi iliyosambazwa kwa ufanisi. Tutaangalia kwa undani dhana hizi katika kozi yetu ya mafunzo ya MIN 201.
 
 
 

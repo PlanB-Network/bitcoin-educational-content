@@ -387,7 +387,7 @@ Mais comme dit Spinoza, « le délire des hommes ne s’arrête pas là » et 
 
 ![image](assets/fr/034.webp)
 
-Et la définition que les économistes Keynésiens et les défenseurs de l’État providence donnent par exemple de l’inflation illustre aussi très bien ce paradoxe. Selon eux, l’inflation serait une augmentation des prix qui, d’après certains banquiers centraux, viendrait soit de « nulle part », soit de contextes géopolitiques que personne ne peut donc ni maîtriser, ni anticiper. Alors que si une augmentation des prix peut effectivement aboutir à une inflation conjoncturelle, par exemple quand le prix du pétrole augmente, les prix de certains biens transformés augmenteront également, les vraies causes structurelles de l’inflation sont d’abord liées à une augmentation de la masse monétaire qui implique, elle, une baisse de la valeur de la monnaie et, _ipso facto_, une augmentation mécanique des prix.
+Et la définition que les économistes Keynésiens et les défenseurs de l’État providence donnent par exemple de l’[inflation](https://planb.academy/resources/glossary/inflation) illustre aussi très bien ce paradoxe. Selon eux, l’inflation serait une augmentation des prix qui, d’après certains banquiers centraux, viendrait soit de « nulle part », soit de contextes géopolitiques que personne ne peut donc ni maîtriser, ni anticiper. Alors que si une augmentation des prix peut effectivement aboutir à une inflation conjoncturelle, par exemple quand le prix du pétrole augmente, les prix de certains biens transformés augmenteront également, les vraies causes structurelles de l’inflation sont d’abord liées à une augmentation de la masse monétaire qui implique, elle, une baisse de la valeur de la monnaie et, _ipso facto_, une augmentation mécanique des prix.
 
 Croire ou faire croire le contraire revient ainsi à rêver les yeux ouverts, comme le dit Spinoza moqueur, et à construire un raisonnement qui est faux, ou mensonger, et qui est d’autant plus facile à faire accepter qu’il est entendu comme une réponse attendue pour se donner raison. En l’espèce, quand les défenseurs de l’intervention de l’État considèrent que l’inflation est le meilleur moyen de résoudre les problèmes économiques. 
 
@@ -540,7 +540,7 @@ Spinoza prend ainsi l’exemple de la haine qu’il considère comme un affect p
 
 C’est-à-dire que, si, par exemple, on ressent de la haine vis-à-vis d’un étranger, c’est qu’on associe cet étranger à l’idée qu’on se fait de lui pour des raisons qui nous échappent puisqu’il est étranger et par nature différent. C’est cette idée de cause extérieure, idée à cause de laquelle l’ignorant aura d’ailleurs toujours mécaniquement une forte propension à dire du mal d’un concept qu’il ne connaît pas.
 
-Ce qui est particulièrement vrai, soit dit en passant, dans le domaine des cryptomonnaies.
+Ce qui est particulièrement vrai, soit dit en passant, dans le domaine des [cryptomonnaies](https://planb.academy/resources/glossary/cryptocurrency).
 
 ![image](assets/fr/048.webp)
 
@@ -590,7 +590,7 @@ C’est précisément le propos de la philosophie rationnelle des Lumières, et 
 ![image](assets/fr/051.webp)
 
 En d’autres termes, dit-il, si nous pensons par nous-mêmes, si nous raisonnons en adulte rationnel et si nous nous évertuons, de ce fait, à nous attacher aux liens de causalité des choses, nous n’aurons plus besoin d'une autorité morale pour nous enseigner, par exemple, les vraies vertus de la religion ou les vraies valeurs éthiques dans les domaines politiques et économiques. 
-Un raisonnement qui fera le lien avec l’école d’économie libérale autrichienne née dans l’atmosphère intellectuelle extrêmement fertile de Vienne avant la première guerre mondiale. Car c’est dans ce contexte que des intellectuels comme Carl Menger (1840-1921), Ludwig von Mises (1883-1979) et Friedrich Hayek (1899-1992) vont poser les bases d’une nouvelle école d’obédience libérale à l’origine des convictions des cypherpunks à venir. Et donc de la création de Bitcoin.
+Un raisonnement qui fera le lien avec l’école d’économie libérale [autrichienne](https://planb.academy/resources/glossary/austrian-school) née dans l’atmosphère intellectuelle extrêmement fertile de Vienne avant la première guerre mondiale. Car c’est dans ce contexte que des intellectuels comme Carl Menger (1840-1921), Ludwig von Mises (1883-1979) et Friedrich Hayek (1899-1992) vont poser les bases d’une nouvelle école d’obédience libérale à l’origine des convictions des [cypherpunks](https://planb.academy/resources/glossary/cypherpunks) à venir. Et donc de la création de Bitcoin.
 
 ![image](assets/fr/052.webp)
 
@@ -611,11 +611,11 @@ Et ce sont bien ces arguments politiques et économiques défendus par les premi
 
 ![image](assets/fr/055.webp)
 
-Notamment lorsqu’il inscrit le titre du Times du 3 janvier 2009 dans le coinbase du bloc genesis de la Blockchain Bitcoin pour illustrer la fin d’une époque, keynésienne, et le début d’une autre époque aux aspirations libérales, anarchistes et libertariennes.
+Notamment lorsqu’il inscrit le titre du Times du 3 janvier 2009 dans le [coinbase](https://planb.academy/resources/glossary/coinbase-transaction) du [bloc genesis](https://planb.academy/resources/glossary/genesis-block) de la [Blockchain](https://planb.academy/resources/glossary/blockchain) Bitcoin pour illustrer la fin d’une époque, keynésienne, et le début d’une autre époque aux aspirations libérales, anarchistes et libertariennes.
 
 ![image](assets/fr/056.webp)
 
-Le White Paper publié le 31 octobre 2008 présente ainsi Bitcoin comme un moyen d’échanger de la valeur sur internet sans tiers de confiance, en se fondant sur un protocole décentralisé. Une révolution « copernicienne » qui permet enfin aux hommes de retrouver leur capacité d’agir, c’est-à-dire leur liberté, leur liberté d’échanger, leur droit de propriété et le respect de leur vie privée. 
+Le [White Paper](https://planb.academy/resources/glossary/white-paper) publié le 31 octobre 2008 présente ainsi Bitcoin comme un moyen d’échanger de la valeur sur internet sans tiers de confiance, en se fondant sur un protocole décentralisé. Une révolution « copernicienne » qui permet enfin aux hommes de retrouver leur capacité d’agir, c’est-à-dire leur liberté, leur liberté d’échanger, leur droit de propriété et le respect de leur vie privée. 
 Pourquoi ? Car Bitcoin permet de nous extraire de cette servitude à la façon de Spinoza, grâce à la raison, grâce au langage de Galilée que sont les mathématiques. Et comme le suggère Hayek, sans que les États puissent s’y opposer. Et de façon pacifique, sans contrainte et donc sans prosélytisme.
 
 C’est d’ailleurs le dernier parallèle que je ferai entre le spinozisme et le Bitcoin pour montrer qu’il ne sert à rien de convaincre. Quiconque n’adhère à un concept copernicien ou disruptif autrement que par la raison, l’entendement, la curiosité ou la bonne volonté. 

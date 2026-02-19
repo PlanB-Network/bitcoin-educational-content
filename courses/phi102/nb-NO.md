@@ -1117,7 +1117,7 @@ I den politiske herredømmets logikk opphører penger å være en vare eller tje
 
 
 
-Allerede i middelalderen analyserte Nicolas Oresme de skadelige effektene av pengemanipulasjon på handelen. Pengefall skaper inflasjon og destabiliserer prisene, ettersom pengesignalet blir usikkert når den som styrer verdimålene, vilkårlig kan endre innholdet i dem. Metalliske penger var ofte bare en illusjon, med mynter som inneholdt legeringer med lav verdi, og som enkelte liberale skribenter på 1800-tallet omtalte som kobberassignater.
+Allerede i middelalderen analyserte Nicolas Oresme de skadelige effektene av pengemanipulasjon på handelen. Pengefall skaper [inflasjon](https://planb.academy/resources/glossary/inflation) og destabiliserer prisene, ettersom pengesignalet blir usikkert når den som styrer verdimålene, vilkårlig kan endre innholdet i dem. Metalliske penger var ofte bare en illusjon, med mynter som inneholdt legeringer med lav verdi, og som enkelte liberale skribenter på 1800-tallet omtalte som kobberassignater.
 
 
 

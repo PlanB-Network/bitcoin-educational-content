@@ -826,7 +826,7 @@ I det 20. århundret vokste det frem to store trender:
 2.  **Den andre anarkokapitalisten:** som mener at statens funksjoner bør privatiseres og styres av markedet.
 
 
-Begge er imidlertid enige om det grunnleggende prinsippet om individuell suverenitet. Libertarianske ideer ble uttrykt så tidlig som på 1700-tallet av fysiokratene, særlig Vincent de Gournay og Turgot, og utviklet av Condillac, Jean-Baptiste Say og Frédéric Bastiat. På 1900-tallet ble de tatt opp og videreutviklet av den østerrikske økonomiske skolen, med Ludwig von Mises, Friedrich Hayek og Murray Rothbard som hovedforfattere.
+Begge er imidlertid enige om det grunnleggende prinsippet om individuell suverenitet. Libertarianske ideer ble uttrykt så tidlig som på 1700-tallet av fysiokratene, særlig Vincent de Gournay og Turgot, og utviklet av Condillac, Jean-Baptiste Say og Frédéric Bastiat. På 1900-tallet ble de tatt opp og videreutviklet av [den østerrikske økonomiske skolen](https://planb.academy/resources/glossary/austrian-school), med Ludwig von Mises, Friedrich Hayek og Murray Rothbard som hovedforfattere.
 
 
 
@@ -1626,10 +1626,10 @@ På slutten av dette kurset mener vi det er viktig å ta opp den politiske posis
 
 
 
-Bitcoin er en desentralisert kryptovaluta, opprettet av Satoshi Nakamoto i 2008, som muliggjør upålitelige, peer-to-peer-finansielle transaksjoner.
+Bitcoin er en desentralisert [kryptovaluta](https://planb.academy/resources/glossary/cryptocurrency), opprettet av Satoshi Nakamoto i 2008, som muliggjør upålitelige, [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p)-finansielle transaksjoner.
 
 
-Bitcoin styres av en programvareprotokoll med åpen kildekode, uten administrerende direktør, uten hovedkontor, uten markedsføringsbudsjett og uten noen utpekt myndighet. Dette betyr at ingen politisk enhet eller myndighet har kontroll over det.
+Bitcoin styres av en programvareprotokoll med [åpen kildekode](https://planb.academy/resources/glossary/foss), uten administrerende direktør, uten hovedkontor, uten markedsføringsbudsjett og uten noen utpekt myndighet. Dette betyr at ingen politisk enhet eller myndighet har kontroll over det.
 
 
 
@@ -1645,7 +1645,7 @@ Selv om Bitcoin i seg selv verken er høyre- eller venstreorientert, og heller i
 
 
 
-Når vi leser Satoshi Nakamotos hvitbok, ser vi at Bitcoin ble utformet for å tilby innovativ beskyttelse mot to store trusler i samtiden: utbredt overvåkning og akselerasjon av kunstig pengeskaping.
+Når vi leser Satoshi Nakamotos [hvitbok](https://planb.academy/resources/glossary/white-paper), ser vi at Bitcoin ble utformet for å tilby innovativ beskyttelse mot to store trusler i samtiden: utbredt overvåkning og akselerasjon av kunstig pengeskaping.
 
 
 
@@ -1681,7 +1681,7 @@ Utgangspunktet for Satoshi Nakamotos intellektuelle tilnærming er derfor folks 
 
 
 
-Det er åpent for tolkning hvorfor denne tittelen er tatt med i genesis-blokken. Men den kan fremstå som Satoshis kommentar til de tradisjonelle finansinstitusjonenes fiasko, og som et uttrykk for Bitcoins mål: å tilby et alternativ til sentraliserte banksystemer.
+Det er åpent for tolkning hvorfor denne tittelen er tatt med i [genesis-blokken](https://planb.academy/resources/glossary/genesis-block). Men den kan fremstå som Satoshis kommentar til de tradisjonelle finansinstitusjonenes fiasko, og som et uttrykk for Bitcoins mål: å tilby et alternativ til sentraliserte banksystemer.
 
 
 
@@ -1725,7 +1725,7 @@ Slik sett er den drevet av et verdensbilde som både er moralsk og politisk. Nå
 
 
 
-Men Bitcoin dukket ikke opp ut av intet. Den er basert på fremskritt innen matematikk, fysikk, informatikk og filosofi. Satoshi Nakamoto, selv om han var genial, bygde på ideene til andre innovatører. Blant dem pionerene i cypherpunk-bevegelsen.
+Men Bitcoin dukket ikke opp ut av intet. Den er basert på fremskritt innen matematikk, fysikk, informatikk og filosofi. Satoshi Nakamoto, selv om han var genial, bygde på ideene til andre innovatører. Blant dem pionerene i [cypherpunk](https://planb.academy/resources/glossary/cypherpunks)-bevegelsen.
 
 
 
@@ -1772,7 +1772,7 @@ Og han legger til:
 
 > konfidensialitet i et åpent samfunn krever anonyme transaksjonssystemer. Frem til nå har kontanter vært det viktigste systemet av denne typen.
 
-Det er derfor kryptografi vil bli brukt som et motstandsverktøy mot alle former for statlig og korporativ kontroll. Den sikrer at hver part i en transaksjon bare vet det som er strengt nødvendig for transaksjonen.
+Det er derfor [kryptografi](https://planb.academy/resources/glossary/cryptography) vil bli brukt som et motstandsverktøy mot alle former for statlig og korporativ kontroll. Den sikrer at hver part i en transaksjon bare vet det som er strengt nødvendig for transaksjonen.
 
 
 

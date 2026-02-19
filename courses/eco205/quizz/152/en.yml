@@ -1,0 +1,8 @@
+question: According to Austrian business cycle theory, what does the analysis of the Great Depression reveal about the relationship between monetary expansion and the stock market crash of October 1929?
+answer: The crash of October 1929 was the symptom of the end of the artificial boom created by the 61% monetary expansion between 1921 and 1929, not the cause of the crisis
+wrong_answers:
+  - "The crash of October 1929 was the direct cause of the crisis that subsequently triggered monetary expansion as an economic stimulus measure"
+  - "The 61% monetary expansion was an appropriate response to the October 1929 crash to stabilize financial markets and avoid deflation."
+  - "The crash of October 1929 occurred independently of monetary expansion and was solely the result of excessive investor speculation."
+explanation: |
+  Austrian theory reverses traditional causality: the crash is not the cause but the inevitable consequence of the artificial boom. The 61% monetary expansion by the Federal Reserve between 1921 and 1929 created an unsustainable production structure by distorting price signals. The crash represents the necessary collapse of this artificial structure, marking the end of the cycle rather than its beginning.

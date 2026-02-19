@@ -32,8 +32,6 @@ Baik Anda mewakili perusahaan kecil maupun perusahaan besar, kursus ini bertujua
 
 Siap menyelami dunia Bitcoin untuk bisnis? Ayo mulai!
 
-**Catatan**: Jika Anda menemukan istilah yang tidak familiar selama kursus, silakan lihat [glosarium](https://planb.academy/resources/glossary) untuk definisi.
-
 # Mata uang, sistem pembayaran, dan Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>
@@ -64,20 +62,20 @@ Mata uang yang baik memiliki beberapa sifat penting yang membuatnya efektif untu
 
 
 - **Aman**: Mata uang harus dilindungi dari pencurian atau akses yang tidak sah, memastikan pengguna dapat memegang dan mentransfernya dengan percaya diri. Keamanan sangat penting untuk membangun kepercayaan dalam sistem.
-- **Bukti Pemalsuan**: Mata uang harus sangat sulit atau tidak mungkin dipalsukan. Hal ini memastikan setiap unit mata uang adalah asli, mempertahankan nilainya, dan mencegah inflasi yang disebabkan oleh unit palsu yang beredar. Contohnya, secara historis, emas dihargai bukan hanya karena keindahan dan kelangkaannya, tetapi juga karena sangat sulit untuk diproduksi. Tidak seperti uang kertas atau mata uang digital, Anda tidak bisa "membuat" emas begitu saja-emas harus ditambang dari dalam bumi. Kelangkaan alami dan kesulitan produksi ini telah membantu emas mempertahankan statusnya sebagai penyimpan nilai yang tepercaya dan tolok ukur keasliannya.
+- **Bukti Pemalsuan**: Mata uang harus sangat sulit atau tidak mungkin dipalsukan. Hal ini memastikan setiap unit mata uang adalah asli, mempertahankan nilainya, dan mencegah [inflasi](https://planb.academy/resources/glossary/inflation) yang disebabkan oleh unit palsu yang beredar. Contohnya, secara historis, emas dihargai bukan hanya karena keindahan dan kelangkaannya, tetapi juga karena sangat sulit untuk diproduksi. Tidak seperti uang kertas atau mata uang digital, Anda tidak bisa "membuat" emas begitu saja-emas harus ditambang dari dalam bumi. Kelangkaan alami dan kesulitan produksi ini telah membantu emas mempertahankan statusnya sebagai penyimpan nilai yang tepercaya dan tolok ukur keasliannya.
 - **Langka**: Mata uang yang baik harus memiliki pasokan terbatas atau penerbitan yang terkontrol. Kelangkaan memastikan bahwa nilainya dipertahankan dari waktu ke waktu, mencegah produksi berlebihan, yang akan mengikis daya beli. Contohnya, suku-suku asli Amerika menggunakan manik-manik sebagai bentuk mata uang. Awalnya, manik-manik ini sulit untuk diproduksi, mempertahankan kelangkaan dan nilainya. Namun, begitu para pedagang Eropa mulai memproduksi secara massal dan membanjiri pasar dengan manik-manik, kelangkaannya lenyap. Ketika pasokan melonjak, manik-manik kehilangan daya beli mereka, merusak peran mereka sebagai penyimpan nilai yang dapat diandalkan.
 - **Tanpa izin**: Di masa lalu, mata uang seperti koin emas dan perak sering kali dicetak oleh perorangan, otoritas lokal, atau pedagang yang memiliki akses ke bahan baku. Sistem ini terkadang beroperasi di bawah perjanjian atau lisensi yang diberikan oleh raja atau penguasa. Seiring berjalannya waktu, raja dan pemerintah memusatkan proses ini untuk mendapatkan kontrol yang lebih besar terhadap stabilitas ekonomi, perpajakan, dan sistem moneter. Salah satu contoh yang terkenal adalah **thaler**, koin perak yang pertama kali dicetak pada tahun 1518 di Lembah Joachimsthal (sekarang Jáchymov di Republik Ceko) oleh para penambang dan pemerintah setempat. Nama "thaler" berasal dari kata Jerman **"Thal "** yang berarti "lembah" Koin-koin ini, yang dikenal karena kualitas peraknya yang tinggi, kemudian beredar luas di seluruh Eropa. Seiring berjalannya waktu, istilah ini berkembang secara linguistik dan geografis, yang akhirnya memunculkan nama "dolar", yang diadopsi di Amerika Serikat untuk mata uangnya.
 
 Di era modern, mata uang menjadi sepenuhnya diizinkan di bawah sistem seigniorage, yang berarti hanya entitas yang berwenang-seperti bank sentral atau bendahara-yang dapat mencetak koin atau mencetak uang kertas. Individu tidak lagi diizinkan secara hukum untuk memproduksi mata uang, memastikan kontrol terpusat atas penerbitan dan pasokannya.
 
-Saat ini, prinsip seigniorage ditantang oleh mata uang kripto Bitcoin, yang beroperasi tanpa kontrol terpusat. Bitcoin adalah sebuah sistem "tanpa izin" di mana setiap orang dapat berpartisipasi dalam menggunakan mata uang ini tanpa meminta izin, dan, melalui penambangan, dalam membuatnya. Desentralisasi ini menghilangkan monopoli penerbitan dari pemerintah, sehingga menimbulkan pertanyaan mengenai potensi kembalinya sistem mata uang kompetitif pasar bebas.
+Saat ini, prinsip seigniorage ditantang oleh [mata uang kripto](https://planb.academy/resources/glossary/cryptocurrency) Bitcoin, yang beroperasi tanpa kontrol terpusat. Bitcoin adalah sebuah sistem "tanpa izin" di mana setiap orang dapat berpartisipasi dalam menggunakan mata uang ini tanpa meminta izin, dan, melalui [penambangan](https://planb.academy/resources/glossary/mining), dalam membuatnya. Desentralisasi ini menghilangkan monopoli penerbitan dari pemerintah, sehingga menimbulkan pertanyaan mengenai potensi kembalinya sistem mata uang kompetitif pasar bebas.
 
 
 - **Unit Akun**: Mata uang harus menyediakan ukuran standar untuk membandingkan nilai barang dan jasa. Hal ini menyederhanakan perdagangan dan membuat harga menjadi transparan dan konsisten di seluruh transaksi.
 - **Tahan lama**: Mata uang harus tahan terhadap keausan dan kerusakan dari waktu ke waktu. Mata uang fisik, seperti koin atau uang kertas, harus tahan terhadap kerusakan, sementara mata uang digital harus tetap disimpan dengan aman tanpa risiko kehilangan data.
 - **Mudah dibawa-bawa**: Mata uang harus mudah dibawa dan digunakan, sehingga memungkinkan perdagangan lintas jarak. Hal ini dapat dicapai melalui portabilitas fisik (koin atau uang kertas yang ringan) atau sistem transfer digital.
 - **Dapat dibagi**: Mata uang harus dapat dibagi menjadi unit-unit yang lebih kecil untuk memfasilitasi transaksi dalam berbagai ukuran. Fleksibilitas ini memastikan bahwa mata uang ini praktis untuk pembelian dalam jumlah kecil dan perdagangan berskala besar.
-- **Dapat dipertukarkan**: Semua unit mata uang harus dapat dipertukarkan dan bernilai sama. Misalnya, satu lembar uang dolar harus setara dengan uang dolar lainnya. Keseragaman ini memastikan keadilan dan kesederhanaan dalam transaksi.
+- **[Dapat dipertukarkan](https://planb.academy/resources/glossary/fungibility)**: Semua unit mata uang harus dapat dipertukarkan dan bernilai sama. Misalnya, satu lembar uang dolar harus setara dengan uang dolar lainnya. Keseragaman ini memastikan keadilan dan kesederhanaan dalam transaksi.
 - **Dapat dikenali**: Mata uang harus mudah dikenali dan dipercaya. Mata uang fisik mencapai hal ini melalui desain dan fitur keamanan yang unik, sementara mata uang digital dapat mengandalkan protokol verifikasi. Hal ini memastikan penerimaan yang luas dan mengurangi risiko penipuan.
 
 Karakteristik ini membuat mata uang menjadi praktis, dapat diandalkan, dan efisien untuk memfasilitasi perdagangan dan menyimpan nilai dalam perekonomian.
@@ -100,9 +98,9 @@ Jaringan mata uang modern ini memiliki kekurangan yang signifikan: **kurangnya k
 
 **Dari Mata Uang Terpusat ke Mata Uang Terdesentralisasi: Meningkatkan Kepercayaan dan Kedaulatan**
 
-Saat ini, kemunculan mata uang terdesentralisasi Bitcoin mewakili lompatan berikutnya dalam jaringan mata uang. Uang elektronik tradisional bergantung pada otoritas terpusat, seperti bank atau pemerintah, untuk mengelola dan memverifikasi transaksi. Meskipun efektif, sistem ini rentan terhadap ketidakefisienan, penyensoran, dan satu titik kegagalan. Mata uang terdesentralisasi memperbaiki sifat-sifat jaringan ini dengan mendistribusikan kepercayaan dan menghilangkan perantara. Ini juga berarti bahwa uang dapat bergerak jauh lebih cepat dan lebih murah, karena tidak ada langkah otorisasi. Akhirnya tidak ada manusia yang dapat tergoda untuk mengubah jadwal suplai mata uang Bitcoin, hal ini diberlakukan oleh perangkat lunak.
+Saat ini, kemunculan mata uang terdesentralisasi Bitcoin mewakili lompatan berikutnya dalam jaringan mata uang. Uang elektronik tradisional bergantung pada otoritas terpusat, seperti bank atau pemerintah, untuk mengelola dan memverifikasi transaksi. Meskipun efektif, sistem ini rentan terhadap ketidakefisienan, penyensoran, dan [satu titik kegagalan](https://planb.academy/resources/glossary/spof). Mata uang terdesentralisasi memperbaiki sifat-sifat jaringan ini dengan [mendistribusikan](https://planb.academy/resources/glossary/distributed) kepercayaan dan menghilangkan perantara. Ini juga berarti bahwa uang dapat bergerak jauh lebih cepat dan lebih murah, karena tidak ada langkah otorisasi. Akhirnya tidak ada manusia yang dapat tergoda untuk mengubah jadwal suplai mata uang Bitcoin, hal ini diberlakukan oleh perangkat lunak.
 
-Dalam sistem terdesentralisasi, transaksi diverifikasi oleh jaringan global partisipan menggunakan teknologi blockchain, memastikan keamanan, transparansi, dan ketahanan. Struktur ini meminimalisir risiko penipuan, mengurangi ketergantungan pada otoritas pusat, dan memberdayakan individu untuk memiliki kontrol yang lebih besar atas keuangan mereka. Dengan menghilangkan hambatan geografis dan institusional, mata uang terdesentralisasi menawarkan sebuah sistem moneter yang benar-benar global dan inklusif.
+Dalam sistem terdesentralisasi, transaksi diverifikasi oleh jaringan global partisipan menggunakan teknologi [blockchain](https://planb.academy/resources/glossary/blockchain), memastikan keamanan, transparansi, dan ketahanan. Struktur ini meminimalisir risiko penipuan, mengurangi ketergantungan pada otoritas pusat, dan memberdayakan individu untuk memiliki kontrol yang lebih besar atas keuangan mereka. Dengan menghilangkan hambatan geografis dan institusional, mata uang terdesentralisasi menawarkan sebuah sistem moneter yang benar-benar global dan inklusif.
 
 **Evolusi Jaringan Mata Uang**
 
@@ -190,14 +188,14 @@ Sama seperti kita beralih dari membayar per menit untuk panggilan suara menjadi 
 
 **APA ITU BITCOIN?**
 
-Bitcoin adalah sistem pertukaran mata uang digital peer-to-peer (uang elektronik). Istilah "Bitcoin" mengacu pada komponen-komponen berikut:
+Bitcoin adalah sistem pertukaran mata uang digital [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) (uang elektronik). Istilah "Bitcoin" mengacu pada komponen-komponen berikut:
 
 
-- **Protokol komputer** yang memfasilitasi pertukaran nilai di internet tanpa perantara, tanpa memerlukan izin, dan secara samaran. Protokol ini menggunakan prinsip-prinsip kriptografi tingkat lanjut.
-- **Jaringan fisik** mesin yang terhubung ke internet (node, penambang, dll.) yang dioperasikan oleh individu dan bisnis, membentuk sistem yang terdesentralisasi (tanpa otoritas pusat atau titik kontrol tunggal).
-- Unit **akun** di dalam sistem. Tidak akan pernah ada lebih dari 21 juta bitcoin yang ada. Setiap bitcoin dapat dibagi menjadi 100 juta unit yang disebut "satoshi", yang dinamai untuk menghormati penciptanya yang anonim.
+- **Protokol komputer** yang memfasilitasi pertukaran nilai di internet tanpa perantara, tanpa memerlukan izin, dan secara samaran. Protokol ini menggunakan prinsip-prinsip [kriptografi](https://planb.academy/resources/glossary/cryptography) tingkat lanjut.
+- **Jaringan fisik** mesin yang terhubung ke internet ([node](https://planb.academy/resources/glossary/node), [penambang](https://planb.academy/resources/glossary/miner), dll.) yang dioperasikan oleh individu dan bisnis, membentuk sistem yang terdesentralisasi (tanpa otoritas pusat atau titik kontrol tunggal).
+- Unit **akun** di dalam sistem. Tidak akan pernah ada lebih dari 21 juta bitcoin yang ada. Setiap bitcoin dapat dibagi menjadi 100 juta unit yang disebut "[satoshi](https://planb.academy/resources/glossary/satoshi-sat)", yang dinamai untuk menghormati penciptanya yang anonim.
 
-Bersama-sama, mereka menjadikan Bitcoin sebagai **bearer asset** dan mata uang digital **tanpa penerbit**. Kepemilikan dijamin hanya dengan memegang **kunci kriptografi pribadi**, memberikan kontrol penuh **tanpa perantara atau pihak ketiga yang terpercaya**. Ketika ditransfer, kepemilikan **kepastian** langsung: pemegang baru sepenuhnya memilikinya tanpa bergantung pada otoritas pusat untuk perlindungan atau konvertibilitas. Transaksi tidak dapat diubah - setelah dicatat di blockchain, transaksi tidak dapat diubah atau dihapus.
+Bersama-sama, mereka menjadikan Bitcoin sebagai **bearer asset** dan mata uang digital **tanpa penerbit**. Kepemilikan dijamin hanya dengan memegang **[kunci kriptografi pribadi](https://planb.academy/resources/glossary/private-key)**, memberikan kontrol penuh **tanpa perantara atau pihak ketiga yang terpercaya**. Ketika ditransfer, kepemilikan **kepastian** langsung: pemegang baru sepenuhnya memilikinya tanpa bergantung pada otoritas pusat untuk perlindungan atau konvertibilitas. [Transaksi](https://planb.academy/resources/glossary/transaction-tx) tidak dapat diubah - setelah dicatat di blockchain, transaksi tidak dapat diubah atau dihapus.
 
 ![BIZ101](assets/id/003.webp)
 
@@ -207,7 +205,7 @@ Fitur teknisnya melebihi emas dan dolar, menjadikannya aset keuangan paling suli
 
 ![BIZ101](assets/id/004.webp)
 
-Bitcoin secara efektif menjaga nilai karena buku besar Bitcoin tahan terhadap kerusakan. Nilainya meningkat karena pasokannya yang langka dan terbatas, dikombinasikan dengan semakin banyaknya peluang penukaran, didorong oleh meningkatnya jumlah pengguna.
+Bitcoin secara efektif menjaga nilai karena [buku besar](https://planb.academy/resources/glossary/ledger) Bitcoin tahan terhadap kerusakan. Nilainya meningkat karena pasokannya yang langka dan terbatas, dikombinasikan dengan semakin banyaknya peluang penukaran, didorong oleh meningkatnya jumlah pengguna.
 
 Bitcoin bersifat disruptif karena mendorong kita untuk mempelajari konsep-konsep matematika, kriptografi, ekonomi, dan sejarah yang tidak pernah diajarkan kepada kita. Meskipun sering dianggap rumit, Bitcoin sebenarnya adalah inovasi yang dapat diakses melalui latihan dan eksperimen.
 
@@ -218,7 +216,7 @@ Bitcoin menantang kita untuk mempertimbangkan kembali sifat uang itu sendiri. Da
 
 - **Usia:** 15 tahun (3 Januari 2009)
 - **Nilai tukar harian:** $10 miliar (> CAC40)
-- **Kapitalisasi pasar:** $1,8 triliun (> Meta, Visa, Silver; < Apple, Google, Gold)
+- **[Kapitalisasi pasar](https://planb.academy/resources/glossary/market-cap-capitalization):** $1,8 triliun (> Meta, Visa, Silver; < Apple, Google, Gold)
 - **Pengguna:** ~100 hingga 200 juta (1-2% dari populasi global)
 - **Volatilitas:** Secara intrinsik tidak ada (1 Bitcoin = 1 Bitcoin), sangat tinggi secara eksternal (dalam pertukaran mata uang fiat)
 - **Kinerja:** Transaksi pertama di $0,0009; sekarang $100.000 (x100 juta)
@@ -228,14 +226,14 @@ Bitcoin menantang kita untuk mempertimbangkan kembali sifat uang itu sendiri. Da
 **Keajaiban Kerja Sama Manusia:**
 
 
-- Sepenuhnya **sumber terbuka**
+- Sepenuhnya **[sumber terbuka](https://planb.academy/resources/glossary/foss)**
 - **Badan hukum:** Tidak ada
 - **CEO:** Tidak ada
 - **Investasi modal ventura:** Tidak ada
 - **Pemasaran:** Tidak ada
 - **Penelitian dan Pengembangan:** Digerakkan oleh sukarelawan
 - **Tata Kelola:** Oleh pengguna
-- **Model ekonomi yang inovatif:** Pembuatan blok disubsidi oleh biaya transaksi (berbasis lelang)
+- **Model ekonomi yang inovatif:** Pembuatan blok [disubsidi](https://planb.academy/resources/glossary/block-subsidy) oleh [biaya transaksi](https://planb.academy/resources/glossary/transaction-fees) (berbasis lelang)
 
 Untuk informasi lebih lanjut tentang Bitcoin, sejarahnya, cara kerjanya, dan penggunaannya, saya juga menyarankan untuk mengikuti kursus komprehensif lainnya:
 
@@ -247,18 +245,18 @@ https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 **APA ITU LIGHTNING?**
 
-Lightning Network adalah **protokol dan jaringan** yang memfasilitasi transaksi Bitcoin dengan interaksi minimal dengan blockchain utama Bitcoin. Begini cara kerjanya:
+[Lightning Network](https://planb.academy/resources/glossary/lightning-network) adalah **protokol dan jaringan** yang memfasilitasi transaksi Bitcoin dengan interaksi minimal dengan blockchain utama Bitcoin. Begini cara kerjanya:
 
 
-- **Pengaturan awal:** Dana dikunci (escrow) di blockchain utama untuk membuat saluran pembayaran antara 2 pihak.
+- **Pengaturan awal:** Dana dikunci (escrow) di blockchain utama untuk membuat [saluran pembayaran](https://planb.academy/resources/glossary/payment-channel) antara 2 pihak.
 - **Jaringan pembayaran:** Jaringan saluran pembayaran antara beberapa pihak membentuk jaringan pembayaran (perutean dan interkoneksi).
-- Transaksi off-chain: Transaksi yang terjadi antara para pihak tetapi tidak langsung dipublikasikan di blockchain utama Bitcoin (**"off-chain"**).
-- Penyelesaian on-chain:** Hanya **saldo akhir** dari transaksi saluran yang dipublikasikan di blockchain utama Bitcoin ("on-chain**"), yang memungkinkan banyak transaksi terjadi sementara itu. Penggabungan beberapa pembayaran ini mengurangi kemacetan dan dengan demikian menurunkan biaya dibandingkan dengan melakukan banyak transaksi on-chain.
+- Transaksi [off-chain](https://planb.academy/resources/glossary/offchain): Transaksi yang terjadi antara para pihak tetapi tidak langsung dipublikasikan di blockchain utama Bitcoin (**"off-chain"**).
+- Penyelesaian [on-chain](https://planb.academy/resources/glossary/onchain):** Hanya **saldo akhir** dari transaksi saluran yang dipublikasikan di blockchain utama Bitcoin ("on-chain**"), yang memungkinkan banyak transaksi terjadi sementara itu. Penggabungan beberapa pembayaran ini mengurangi kemacetan dan dengan demikian menurunkan biaya dibandingkan dengan melakukan banyak transaksi on-chain.
 - **Penutupan saluran:** Seorang pengguna dapat menutup saluran mereka kapan saja dan mendapatkan kembali Bitcoin mereka dengan mempublikasikan status transaksi terakhir. Ini adalah prinsip transaksi yang "dapat dipublikasikan" kapan saja, tetapi "tidak dipublikasikan" sampai diperlukan. Keluar (penutupan saluran) dapat dilakukan secara sepihak (diputuskan oleh salah satu dari 2 pihak kapan saja) atau diputuskan bersama (menghasilkan biaya on-chain yang lebih rendah)
 
 ![BIZ101](assets/id/005.webp)
 
-Pendekatan ini menghindari kelambatan dan kerumitan dalam melakukan setiap transaksi secara langsung pada blockchain utama Bitcoin, hanya mencatat saldo akhir dan mempertahankan keamanannya. Lightning Network adalah sebuah lapisan "di atas" Bitcoin tetapi tetap terhubung dengan Bitcoin.
+Pendekatan ini menghindari kelambatan dan kerumitan dalam melakukan setiap transaksi secara langsung pada blockchain utama Bitcoin, hanya mencatat saldo akhir dan mempertahankan keamanannya. Lightning Network adalah sebuah [lapisan](https://planb.academy/resources/glossary/layer) "di atas" Bitcoin tetapi tetap terhubung dengan Bitcoin.
 
 **Jaringan Pembayaran Global**
 
@@ -363,7 +361,7 @@ Dalam teori ekonomi tradisional (Keynesian), modal sering kali dilihat dalam ist
 
 6. Normalisasi budaya dari retorika anti-kapitalis?
 
-Untungnya, Bitcoin memaksa kita untuk memikirkan kembali segala sesuatu dan menantang pemikiran-pemikiran yang sudah ada sebelumnya. Ada sebuah mazhab pemikiran - Mazhab Ekonomi Austria - yang dapat menjelaskan isu-isu ini dan membantu kita untuk mempertimbangkan kembali sifat modal yang sebenarnya.
+Untungnya, Bitcoin memaksa kita untuk memikirkan kembali segala sesuatu dan menantang pemikiran-pemikiran yang sudah ada sebelumnya. Ada sebuah mazhab pemikiran - [Mazhab Ekonomi Austria](https://planb.academy/resources/glossary/austrian-school) - yang dapat menjelaskan isu-isu ini dan membantu kita untuk mempertimbangkan kembali sifat modal yang sebenarnya.
 
 **Suatu ketika**
 
@@ -469,7 +467,7 @@ Mari kita tinjau secara singkat lingkungan tempat bisnis beroperasi.
 
 **Inflasi tersembunyi**: Dalam sistem moneter berbasis utang dan cadangan devisa yang didukung oleh bank sentral, jumlah uang beredar secara keseluruhan rata-rata tumbuh sekitar 7% per tahun (misalnya, M1 di Zona Euro atau AS). Ini berarti "bagian kue" Anda berkurang setengahnya hanya dalam beberapa tahun-kecuali jika Anda memiliki akses istimewa ke keran keuangan dan dapat terus tumbuh dengan memanfaatkan dan membeli aset dengan cepat pada "harga lama" sebelum uang yang baru diciptakan mendorongnya naik. Ini adalah efek Cantillon, yang sebagian menjelaskan transfer kekayaan kepada yang lebih makmur, sementara "modal" secara keliru dituding sebagai biang keladi (lihat pengantar kami tentang modal di atas).
 
-**Risiko counterparty**: Sistem keuangan saat ini berisiko, dan Anda mungkin tidak selalu memiliki akses ke "uang Anda" Tanpa menggunakan gambaran rumah kartu, harus diakui bahwa lembaga keuangan memprivatisasi keuntungan dan mensosialisasikan kerugian pada saat terjadi krisis sekecil apa pun. Dalam sistem uang "kitab suci" (uang yang dicatat dalam buku besar), uang yang ada di bank hanyalah sebuah "klaim"; Anda tidak benar-benar memilikinya, dan bank-bank itu sendiri "tidak memilikinya" (fractional reserve). Uang ini, di satu sisi, benar-benar ajaib. Beberapa bank bergengsi yang pernah mengejek Bitcoin sudah tidak ada lagi saat ini, seperti Credit Suisse.
+**Risiko counterparty**: Sistem keuangan saat ini berisiko, dan Anda mungkin tidak selalu memiliki akses ke "uang Anda" Tanpa menggunakan gambaran rumah kartu, harus diakui bahwa lembaga keuangan memprivatisasi keuntungan dan mensosialisasikan kerugian pada saat terjadi krisis sekecil apa pun. Dalam sistem uang "kitab suci" (uang yang dicatat dalam buku besar), uang yang ada di bank hanyalah sebuah "klaim"; Anda tidak benar-benar memilikinya, dan bank-bank itu sendiri "tidak memilikinya" ([fractional reserve](https://planb.academy/resources/glossary/fractional-reserves)). Uang ini, di satu sisi, benar-benar ajaib. Beberapa bank bergengsi yang pernah mengejek Bitcoin sudah tidak ada lagi saat ini, seperti Credit Suisse.
 
 Kurangnya kepercayaan ini memicu kebangkitan kembali aset-aset "pembawa" seperti emas (meskipun rumit untuk diamankan, diangkut, dan dibagi, dll.) dan, tentu saja, Bitcoin, sang pendatang baru.
 
@@ -533,7 +531,7 @@ Adopsi Bitcoin yang terus meningkat di Amerika Serikat juga memengaruhi pola pik
 
 Dari perspektif keuangan murni, Bitcoin diakui sebagai aset diversifikasi. Tidak hanya tidak berkorelasi dengan kelas aset lainnya, Bitcoin juga tampak berkembang selama periode suntikan likuiditas baru - episode seperti itu tampaknya dimulai dengan penurunan suku bunga oleh ECB, The Fed, dan China.
 
-Singkatnya, untuk kasus penggunaan yang paling umum - menginvestasikan kelebihan harta untuk jangka waktu setidaknya empat tahun - Bitcoin sangat cocok. Ada baiknya untuk menggabungkannya dengan strategi masuk bertahap: menginvestasikan jumlah yang tetap secara berkala untuk memperlancar titik masuk atau keluar.
+Singkatnya, untuk kasus penggunaan yang paling umum - menginvestasikan kelebihan harta untuk jangka waktu setidaknya empat tahun - Bitcoin sangat cocok. Ada baiknya untuk menggabungkannya dengan [strategi masuk bertahap](https://planb.academy/resources/glossary/dollar-cost-averaging-dca): menginvestasikan jumlah yang tetap secara berkala untuk memperlancar titik masuk atau keluar.
 
 Kasus penggunaan lain menjadikan Bitcoin sebagai aset treasury strategis, misalnya:
 
@@ -545,7 +543,7 @@ Kasus penggunaan lain menjadikan Bitcoin sebagai aset treasury strategis, misaln
 
 ### Apakah Bitcoin terlalu mahal?
 
-Anda tidak perlu membeli tepat 1 Bitcoin, karena Bitcoin dapat dibagi menjadi beberapa sub-unit yang disebut satoshi, yang dinamai untuk menghormati penciptanya yang anonim. Satu Bitcoin setara dengan **100 juta satoshi**, yang memungkinkan pengguna untuk membeli, menjual, atau memperdagangkan bahkan dalam pecahan yang sangat kecil sekalipun. Faktanya, dalam sumber kode Bitcoin, semua transaksi dicatat dalam satoshi, dan istilah "bitcoin" hanya muncul di "coinbase", tempat transaksi khusus yang dibuat oleh para penambang untuk menerima imbalannya.
+Anda tidak perlu membeli tepat 1 Bitcoin, karena Bitcoin dapat dibagi menjadi beberapa sub-unit yang disebut satoshi, yang dinamai untuk menghormati penciptanya yang anonim. Satu Bitcoin setara dengan **100 juta satoshi**, yang memungkinkan pengguna untuk membeli, menjual, atau memperdagangkan bahkan dalam pecahan yang sangat kecil sekalipun. Faktanya, dalam sumber kode Bitcoin, semua transaksi dicatat dalam satoshi, dan istilah "bitcoin" hanya muncul di "[coinbase](https://planb.academy/resources/glossary/coinbase-transaction)", tempat transaksi khusus yang dibuat oleh para penambang untuk menerima imbalannya.
 
 Selain itu, total 21 juta bitcoin - atau **2,1 kuadriliun satoshi** - dapat diwakili secara efisien oleh bilangan bulat 64-bit. Ini berarti bahwa meskipun harga per satu bitcoin tinggi, bitcoin tetap dapat diakses oleh berbagai investor berkat kemampuannya untuk dibagi. Oleh karena itu, Anda tidak perlu membeli seluruh bitcoin untuk berpartisipasi dalam jaringan atau berinvestasi dalam aset digital ini.
 
@@ -603,7 +601,7 @@ Untuk mempelajari lebih lanjut tentang metode penambangan, Anda dapat [lihat bag
 
 - **Membeli Bitcoin:**
 
-Sejauh ini, ini adalah metode yang paling umum, dilakukan melalui bursa peer-to-peer atau, biasanya, pada platform perdagangan khusus. Namun, ketika membeli Bitcoin sebagai aset perusahaan, perusahaan harus mematuhi standar regulasi yang kuat dan prosedur Know-Your-Customer (KYC). Ketika mereka membelinya di platform perdagangan khusus, perusahaan biasanya diharuskan untuk memberikan informasi perusahaan yang terperinci, termasuk dokumen identifikasi, laporan keuangan, dan bukti alamat, untuk memenuhi persyaratan KYC dan anti pencucian uang (AML).
+Sejauh ini, ini adalah metode yang paling umum, dilakukan melalui bursa peer-to-peer atau, biasanya, pada platform perdagangan khusus. Namun, ketika membeli Bitcoin sebagai aset perusahaan, perusahaan harus mematuhi standar regulasi yang kuat dan prosedur Know-Your-Customer ([KYC](https://planb.academy/resources/glossary/kyc-know-your-customer)). Ketika mereka membelinya di platform perdagangan khusus, perusahaan biasanya diharuskan untuk memberikan informasi perusahaan yang terperinci, termasuk dokumen identifikasi, laporan keuangan, dan bukti alamat, untuk memenuhi persyaratan KYC dan anti pencucian uang (AML).
 
 Untuk mempelajari cara membuka akun bisnis dan menggunakannya untuk membeli, menjual, dan mentransfer bitcoin, Anda dapat melihat dua tutorial yang dirancang khusus untuk bisnis, yang mencakup platform Kraken dan Bitfinex dalam versi korporatnya:
 
@@ -645,7 +643,7 @@ Industri real estate sering mengulang-ulang bahwa "ini adalah waktu yang tepat u
 
 Anda tidak memiliki Bitcoin secara fisik. Sebaliknya, Anda memegang sebuah kunci kriptografi yang memungkinkan Anda untuk memindahkan kepemilikan sebagian atau seluruh unit akun Anda ke satu atau beberapa kunci kriptografi lainnya. Semua ini terjadi di blockchain Bitcoin, yang direplikasi di puluhan ribu node di seluruh dunia.
 
-Kunci kriptografi ini adalah angka acak yang sangat besar. Untuk menyederhanakan pengalaman pengguna, kunci ini sering kali direpresentasikan sebagai 12 atau 24 kata. Kata-kata ini dapat dimasukkan ke dalam perangkat fisik yang dikenal sebagai "dompet perangkat keras" Akan tetapi, pahamilah bahwa bitcoin tidak berada di "dalam" perangkat ini; ini hanyalah sebuah alat untuk menandatangani transaksi secara kriptografis dan menyiarkannya ke jaringan. Yang benar-benar penting adalah 12 atau 24 kata, yang harus dijaga keamanannya.
+Kunci kriptografi ini adalah angka acak yang sangat besar. Untuk menyederhanakan pengalaman pengguna, kunci ini sering kali direpresentasikan sebagai 12 atau 24 kata. Kata-kata ini dapat dimasukkan ke dalam perangkat fisik yang dikenal sebagai "[dompet perangkat keras](https://planb.academy/resources/glossary/hardware-wallet)" Akan tetapi, pahamilah bahwa bitcoin tidak berada di "dalam" perangkat ini; ini hanyalah sebuah alat untuk menandatangani transaksi secara kriptografis dan menyiarkannya ke jaringan. Yang benar-benar penting adalah 12 atau 24 kata, yang harus dijaga keamanannya.
 
 Hal ini mengarah pada masalah hak asuh: memegang Bitcoin berarti memegang kuncinya. Entah Anda memegangnya sendiri, atau Anda mendelegasikan tugas tersebut kepada pihak ketiga. Ada juga solusi perantara. Mari kita tinjau skenario yang paling umum:
 
@@ -666,7 +664,7 @@ Ini adalah instrumen keuangan tradisional yang mewakili pecahan Bitcoin, yang me
 
 ![BIZ101](assets/id/014.webp)
 
-Selain itu, bentuk penyimpanan Bitcoin yang Anda gunakan juga berdampak pada langkah-langkah keamanan yang diperlukan untuk melindungi harta perusahaan Anda. Baik Anda memilih penyimpanan sendiri, menggunakan dompet perangkat keras dengan tanda tangan tunggal atau multi-tanda tangan, dll. untuk mempertahankan kontrol langsung atas kunci Anda, atau mendelegasikan tugas ini ke layanan penyimpanan pihak ketiga atau ETF, setiap opsi memiliki profil risikonya masing-masing. Contohnya, penyimpanan sendiri menawarkan akses penuh namun menuntut protokol keamanan internal yang ketat, sedangkan solusi pihak ketiga mengurangi beban manajemen dengan mengorbankan risiko mitra. Untuk menggambarkan lebih jauh perbedaannya, grafik ini menguraikan model keamanan untuk setiap jenis kustodi, membantu Anda memilih pendekatan yang paling sesuai dengan kebutuhan organisasi Anda:
+Selain itu, bentuk penyimpanan Bitcoin yang Anda gunakan juga berdampak pada langkah-langkah keamanan yang diperlukan untuk melindungi harta perusahaan Anda. Baik Anda memilih [penyimpanan sendiri](https://planb.academy/resources/glossary/selfcustody), menggunakan dompet perangkat keras dengan tanda tangan tunggal atau [multi-tanda tangan](https://planb.academy/resources/glossary/multisig), dll. untuk mempertahankan kontrol langsung atas kunci Anda, atau mendelegasikan tugas ini ke layanan penyimpanan pihak ketiga atau ETF, setiap opsi memiliki profil risikonya masing-masing. Contohnya, penyimpanan sendiri menawarkan akses penuh namun menuntut protokol keamanan internal yang ketat, sedangkan solusi pihak ketiga mengurangi beban manajemen dengan mengorbankan risiko mitra. Untuk menggambarkan lebih jauh perbedaannya, grafik ini menguraikan model keamanan untuk setiap jenis kustodi, membantu Anda memilih pendekatan yang paling sesuai dengan kebutuhan organisasi Anda:
 
 ![BIZ101](assets/id/015.webp)
 
@@ -845,7 +843,7 @@ Pada bab-bab berikutnya, kami akan merinci setiap profil bisnis dan solusi yang 
 
 <chapterId>7edda53d-5b9f-432a-8493-115de8c94a67</chapterId>
 
-Profil Pemula dirancang untuk bisnis, kreator, dan individu yang ingin mengeksplorasi pembayaran Bitcoin tanpa harus mengeluarkan sumber daya atau keahlian yang besar. Mereka biasanya adalah orang-orang yang menangani volume transaksi yang sangat kecil (mungkin beberapa tip, donasi, atau penjualan sesekali) dan mencari pengenalan yang sederhana dan ringan terhadap ekosistem Bitcoin dan Lightning Network. Nilai utama dari pendekatan Starter terletak pada penyiapannya yang minimal: dalam banyak kasus, yang dibutuhkan hanyalah smartphone atau tablet yang dilengkapi dengan dompet dasar yang kompatibel dengan Lightning.
+Profil Pemula dirancang untuk bisnis, kreator, dan individu yang ingin mengeksplorasi pembayaran Bitcoin tanpa harus mengeluarkan sumber daya atau keahlian yang besar. Mereka biasanya adalah orang-orang yang menangani volume transaksi yang sangat kecil (mungkin beberapa tip, donasi, atau penjualan sesekali) dan mencari pengenalan yang sederhana dan ringan terhadap ekosistem Bitcoin dan Lightning Network. Nilai utama dari pendekatan Starter terletak pada penyiapannya yang minimal: dalam banyak kasus, yang dibutuhkan hanyalah smartphone atau tablet yang dilengkapi dengan [dompet](https://planb.academy/resources/glossary/wallet) dasar yang kompatibel dengan Lightning.
 
 ![BIZ101-profiles](assets/id/017.webp)
 
@@ -855,7 +853,7 @@ Dua pengaturan dompet yang paling umum untuk profil Pemula melibatkan penentuan 
 
 ![BIZ101-profiles](assets/id/018.webp)
 
-Walaupun masalah keamanan mungkin terlihat tidak terlalu mendesak ketika transaksi yang dilakukan kecil, tetap saja sangat penting untuk melakukan langkah-langkah perlindungan dasar. Bahkan sebuah ponsel pintar atau tablet yang digunakan untuk menerima pembayaran Bitcoin harus dikunci dengan kata sandi atau keamanan biometrik, dan prosedur pencadangan (mulai dari melacak kredensial login untuk dompet kustodian sampai dengan menjaga seed phrase untuk dompet non-kustodian) harus dilakukan dengan serius. Anggota staf yang menangani transaksi secara fisik akan mendapatkan keuntungan dengan mengetahui dasar-dasarnya: cara membuka aplikasi, cara menunjukkan kode QR kepada pelanggan, dan cara memeriksa apakah pembayaran telah diterima.
+Walaupun masalah keamanan mungkin terlihat tidak terlalu mendesak ketika transaksi yang dilakukan kecil, tetap saja sangat penting untuk melakukan langkah-langkah perlindungan dasar. Bahkan sebuah ponsel pintar atau tablet yang digunakan untuk menerima pembayaran Bitcoin harus dikunci dengan kata sandi atau keamanan biometrik, dan prosedur pencadangan (mulai dari melacak kredensial login untuk dompet kustodian sampai dengan menjaga [seed phrase](https://planb.academy/resources/glossary/recovery-phrase) untuk dompet non-kustodian) harus dilakukan dengan serius. Anggota staf yang menangani transaksi secara fisik akan mendapatkan keuntungan dengan mengetahui dasar-dasarnya: cara membuka aplikasi, cara menunjukkan kode QR kepada pelanggan, dan cara memeriksa apakah pembayaran telah diterima.
 
 Akuntansi dan pelaporan, meskipun relatif sederhana di bawah profil Pemula, masih memerlukan pertimbangan yang cermat. Walaupun volume transaksi mungkin minimal, menyimpan catatan yang akurat dapat mencegah kebingungan di kemudian hari dan membantu menjaga transparansi dalam hal audit keuangan atau pengajuan pajak. Banyak aplikasi dompet yang memungkinkan pengguna untuk mengekspor riwayat transaksi dasar sebagai sebuah file CSV; untuk sebuah perusahaan kecil atau pengusaha tunggal, menyimpan file-file ini secara teratur dapat membuat rekonsiliasi akun menjadi lebih mudah. Juga merupakan hal yang bijak untuk melacak perkiraan nilai fiat (misalnya, dalam euro atau dolar) pada saat setiap transaksi diterima. Karena harga Bitcoin dapat berfluktuasi, memiliki catatan nilai konversi sangat berharga untuk pembukuan dan kepatuhan pajak.
 
@@ -975,7 +973,7 @@ Pada skala ini, tujuan utamanya bukan hanya untuk menerima Bitcoin, tetapi untuk
 
 Dalam konteks perusahaan, kompleksitas operasional menjadi sangat jelas. Sebuah perusahaan besar mungkin perlu mengakomodasi beberapa departemen (penjualan, pemasaran, devops, keuangan, dan akuntansi) yang masing-masing memiliki tanggung jawab dan kebutuhan data yang berbeda. Dalam skenario ini, platform pembayaran Bitcoin harus menawarkan manajemen peran yang sangat terperinci, yang memungkinkan setiap departemen untuk mengakses fungsi-fungsi yang relevan dengan tugas-tugas mereka dengan tetap menjaga kontrol yang ketat terhadap keamanan dan integritas data. Yang tidak kalah penting adalah kapasitas untuk menyesuaikan alur kerja: misalnya, pembayaran masuk dapat memicu pembaruan dalam sistem inventaris, mengirimkan notifikasi otomatis kepada manajer penjualan, dan memperbarui entri buku besar untuk tim keuangan, semuanya secara real time. Perangkat point-of-sale sendiri biasanya disesuaikan dengan lingkungan perusahaan, dengan antarmuka perangkat lunak khusus yang sesuai dengan merek dan kebutuhan operasional perusahaan.
 
-**Keamanan adalah hal yang sangat penting untuk bisnis skala perusahaan.** Volume transaksi yang tinggi dan jumlah Bitcoin yang berpotensi besar membutuhkan infrastruktur yang kuat yang mampu bertahan dari serangan jahat atau ancaman orang dalam. Praktik terbaik sering kali mencakup multi-tanda tangan dengan konfigurasi perbendaharaan timelock, basis kode yang diaudit dengan cermat, dan kepatuhan yang ketat terhadap kerangka kerja peraturan yang relevan. Selain itu, kepatuhan terhadap peraturan keuangan lokal dan internasional dapat menjadi bagian integral dalam menjaga reputasi dan lisensi perusahaan untuk beroperasi.
+**Keamanan adalah hal yang sangat penting untuk bisnis skala perusahaan.** Volume transaksi yang tinggi dan jumlah Bitcoin yang berpotensi besar membutuhkan infrastruktur yang kuat yang mampu bertahan dari serangan jahat atau ancaman orang dalam. Praktik terbaik sering kali mencakup multi-tanda tangan dengan konfigurasi perbendaharaan [timelock](https://planb.academy/resources/glossary/timelock), basis kode yang diaudit dengan cermat, dan kepatuhan yang ketat terhadap kerangka kerja peraturan yang relevan. Selain itu, kepatuhan terhadap peraturan keuangan lokal dan internasional dapat menjadi bagian integral dalam menjaga reputasi dan lisensi perusahaan untuk beroperasi.
 
 Pengembangan khusus yang terlibat dalam menciptakan atau mengintegrasikan solusi pembayaran Bitcoin tingkat perusahaan lebih dari sekadar pengkodean beberapa fitur aplikasi. Hal ini biasanya membutuhkan desain arsitektur, protokol pengujian menyeluruh, dan peluncuran terstruktur yang mungkin mencakup beberapa fase (program percontohan awal, pengujian pasar terbatas, dan akhirnya penyebaran global).
 

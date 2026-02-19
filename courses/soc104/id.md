@@ -747,7 +747,7 @@ Pada abad ke-20, muncul dua tren utama:
 2.  **Anarko-kapitalis lainnya:** yang percaya bahwa fungsi-fungsi negara harus diprivatisasi dan dikelola oleh pasar.
 
 
-Namun, keduanya setuju dengan prinsip dasar kedaulatan individu. Ide-ide libertarian diekspresikan sejak abad ke-18 oleh kaum Fisiokrat, terutama Vincent de Gournay dan Turgot, dan dikembangkan oleh Condillac, Jean-Baptiste Say, dan Frédéric Bastiat. Pada abad ke-20, teori-teori ini diambil dan dikembangkan oleh mazhab ekonomi Austria, yang penulis utamanya adalah Ludwig von Mises, Friedrich Hayek, dan Murray Rothbard.
+Namun, keduanya setuju dengan prinsip dasar kedaulatan individu. Ide-ide libertarian diekspresikan sejak abad ke-18 oleh kaum Fisiokrat, terutama Vincent de Gournay dan Turgot, dan dikembangkan oleh Condillac, Jean-Baptiste Say, dan Frédéric Bastiat. Pada abad ke-20, teori-teori ini diambil dan dikembangkan oleh [mazhab ekonomi Austria](https://planb.academy/resources/glossary/austrian-school), yang penulis utamanya adalah Ludwig von Mises, Friedrich Hayek, dan Murray Rothbard.
 
 
 
@@ -1527,10 +1527,10 @@ Di akhir kursus ini, kami merasa penting untuk membahas posisi politik Bitcoin d
 
 
 
-Bitcoin adalah mata uang kripto terdesentralisasi yang diciptakan oleh Satoshi Nakamoto pada tahun 2008. Teknologi ini memungkinkan transaksi keuangan langsung antarindividu tanpa perlu saling percaya.
+Bitcoin adalah [mata uang kripto](https://planb.academy/resources/glossary/cryptocurrency) terdesentralisasi yang diciptakan oleh Satoshi Nakamoto pada tahun 2008. Teknologi ini memungkinkan transaksi keuangan langsung [antarindividu](https://planb.academy/resources/glossary/peertopeer-p2p) tanpa perlu saling percaya.
 
 
-Bitcoin dijalankan oleh protokol perangkat lunak sumber terbuka, tanpa CEO, tanpa kantor pusat, tanpa anggaran pemasaran, dan tanpa otoritas resmi. Artinya, tidak ada entitas politik atau pemerintah yang mengendalikannya.
+Bitcoin dijalankan oleh protokol perangkat lunak [sumber terbuka](https://planb.academy/resources/glossary/foss), tanpa CEO, tanpa kantor pusat, tanpa anggaran pemasaran, dan tanpa otoritas resmi. Artinya, tidak ada entitas politik atau pemerintah yang mengendalikannya.
 
 
 Sifat netral ini sering membingungkan sebagian orang, bahkan membuat Bitcoin tampak seperti teknologi yang apolitis, mirip dengan Internet pada abad ke-20 atau mesin cetak pada abad ke-14.
@@ -1543,7 +1543,7 @@ Namun, meskipun Bitcoin bukan milik sayap kanan atau kiri, dan juga tidak terkai
 
 
 
-Membaca Buku Putih Nakamoto Satoshi, kita dapat melihat bahwa Bitcoin dirancang untuk menawarkan perlindungan inovatif terhadap dua ancaman kontemporer utama: pengawasan yang meluas dan percepatan penciptaan uang buatan.
+Membaca [Buku Putih](https://planb.academy/resources/glossary/white-paper) Nakamoto Satoshi, kita dapat melihat bahwa Bitcoin dirancang untuk menawarkan perlindungan inovatif terhadap dua ancaman kontemporer utama: pengawasan yang meluas dan percepatan penciptaan uang buatan.
 
 
 
@@ -1551,7 +1551,7 @@ Membaca Buku Putih Nakamoto Satoshi, kita dapat melihat bahwa Bitcoin dirancang 
 
 
 
-2. Bitcoin memungkinkan siapa pun untuk melindungi tabungan mereka dari penggerusan nilai akibat inflasi moneter, yang pada dasarnya merupakan bentuk pengambilan paksa atas kepemilikan pribadi. Bitcoin berupaya menantang kendali negara dalam pengelolaan uang sebagai alat tukar, dan dengan demikian menjadi pesaing bagi negara. Krisis keuangan 2008 dan pandemi Covid-19 telah menyingkap berbagai kelemahan dalam sistem yang ada. Triliunan dolar yang dicetak demi mencegah keruntuhan ekonomi justru menimbulkan dampak negatif yang besar, dan akibatnya masih kita rasakan hingga hari ini.
+2. Bitcoin memungkinkan siapa pun untuk melindungi tabungan mereka dari penggerusan nilai akibat [inflasi](https://planb.academy/resources/glossary/inflation) moneter, yang pada dasarnya merupakan bentuk pengambilan paksa atas kepemilikan pribadi. Bitcoin berupaya menantang kendali negara dalam pengelolaan uang sebagai alat tukar, dan dengan demikian menjadi pesaing bagi negara. Krisis keuangan 2008 dan pandemi Covid-19 telah menyingkap berbagai kelemahan dalam sistem yang ada. Triliunan dolar yang dicetak demi mencegah keruntuhan ekonomi justru menimbulkan dampak negatif yang besar, dan akibatnya masih kita rasakan hingga hari ini.
 
 
 
@@ -1578,7 +1578,7 @@ Karena itu, titik awal pendekatan intelektual Satoshi Nakamoto adalah kritik ter
 
 
 
-Pencantuman judul ini dalam blok genesis terbuka untuk berbagai tafsir. Namun, hal ini dapat dipahami sebagai komentar Satoshi terhadap kegagalan lembaga keuangan tradisional, sekaligus pernyataan tujuan Bitcoin, yaitu menawarkan alternatif bagi sistem perbankan yang terpusat.
+Pencantuman judul ini dalam [blok genesis](https://planb.academy/resources/glossary/genesis-block) terbuka untuk berbagai tafsir. Namun, hal ini dapat dipahami sebagai komentar Satoshi terhadap kegagalan lembaga keuangan tradisional, sekaligus pernyataan tujuan Bitcoin, yaitu menawarkan alternatif bagi sistem perbankan yang terpusat.
 
 
 Ketika negara menerapkan kontrol ketat atas seluruh transaksi, misalnya dengan membatasi penggunaan uang tunai atau memberlakukan mata uang digital terpusat, negara pada dasarnya memperoleh kendali penuh atas perekonomian. Kondisi ini mengurangi kebebasan individu untuk memilih dan bersikap berdaulat. Dengan memantau semua transaksi, negara juga dapat lebih mudah menemukan sumber pajak baru dan menerapkan regulasi yang semakin ketat.
@@ -1612,7 +1612,7 @@ Itulah sebabnya Bitcoin dibangun di atas satu pengandaian filosofis yang mendasa
 Dalam konteks ini, Bitcoin digerakkan oleh sebuah visi dunia yang bersifat moral sekaligus politis. Ketika negara memonopoli uang, individu berada dalam sistem negara, baik yang berhaluan kanan maupun kiri. Proyek Bitcoin bertujuan menawarkan pasar uang yang bebas dan terbuka bagi semua orang.
 
 
-Namun, Bitcoin tidak muncul begitu saja. Ia bertumpu pada kemajuan di bidang matematika, fisika, ilmu komputer, dan filsafat. Satoshi Nakamoto, meskipun sangat brilian, membangun karyanya di atas gagasan-gagasan para inovator sebelumnya, termasuk para pelopor gerakan cypherpunk.
+Namun, Bitcoin tidak muncul begitu saja. Ia bertumpu pada kemajuan di bidang matematika, fisika, ilmu komputer, dan filsafat. Satoshi Nakamoto, meskipun sangat brilian, membangun karyanya di atas gagasan-gagasan para inovator sebelumnya, termasuk para pelopor gerakan [cypherpunk](https://planb.academy/resources/glossary/cypherpunks).
 
 
 ## Siapakah para cypherpunks itu?
@@ -1634,7 +1634,7 @@ Gerakan ini muncul di tengah pesatnya perkembangan teknologi informasi dan komun
 
 
 
-Gagasannya adalah membuat anonimitas dan kebebasan finansial dapat diakses oleh semua orang melalui penggunaan alat-alat kriptografi digital. Dengan cara ini, otoritas negara tidak lagi memiliki kendali penuh atas aktivitas daring.
+Gagasannya adalah membuat anonimitas dan kebebasan finansial dapat diakses oleh semua orang melalui penggunaan alat-alat [kriptografi](https://planb.academy/resources/glossary/cryptography) digital. Dengan cara ini, otoritas negara tidak lagi memiliki kendali penuh atas aktivitas daring.
 
 
 

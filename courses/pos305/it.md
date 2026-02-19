@@ -53,7 +53,7 @@ Dopo le parole pronunciate da Nicolas, era il momento di iniziare a costruire. �
 
 Cosa significa open-source e cosa comporta un tale progetto?
 
-FOSS sta per Free & Open-Source Software. Il primo termine si riferisce alle condizioni che permettono a chiunque di copiare, modificare e persino distribuire versioni (anche a scopo di lucro) del software. Il secondo termine si riferisce alla condivisione aperta del codice sorgente, incoraggiando il pubblico a contribuire, e a migliorarlo.
+[FOSS](https://planb.academy/resources/glossary/foss) sta per Free & Open-Source Software. Il primo termine si riferisce alle condizioni che permettono a chiunque di copiare, modificare e persino distribuire versioni (anche a scopo di lucro) del software. Il secondo termine si riferisce alla condivisione aperta del codice sorgente, incoraggiando il pubblico a contribuire, e a migliorarlo.
 Questo aspetto attira utenti esperti, entusiasti di contribuire a migliorare il software che già utilizzano e da cui traggono valore, dimostrando nel tempo la superiorità dell'adozione di software FOSS rispetto al software proprietario. È coerente con l'etica di Bitcoin secondo cui "le informazioni aspirano ad essere libere". Questo modo di vedere il software riunisce persone appassionate che formano una comunità e inoltre è semplicemente più divertente. Come Bitcoin, il FOSS è inevitabile.
 
 ### Prima di iniziare
@@ -84,11 +84,11 @@ La Fondazione BTCPay Server, che ha permesso ad Alekos e Bas di scrivere questo 
 
 Questo è un esercizio in classe quindi, se segui questo corso da solo, non puoi eseguirlo ma puoi comunque approfondire questo esercizio. Per completare questo compito, il numero minimo di persone è tra 9 e 11.
 
-L'esercizio inizia dopo aver guardato l'introduzione "Come funzionano Bitcoin e la blockchain" della BBC.
+L'esercizio inizia dopo aver guardato l'introduzione "Come funzionano Bitcoin e la [blockchain](https://planb.academy/resources/glossary/blockchain)" della BBC.
 
 :::video id=c20b6df7-0c3a-4785-94b9-42ef59093acc:::
 
-Questo esercizio richiede la partecipazione di almeno nove persone. L'intento dell'esercizio è di ottenere fisicamente un'idea di come funziona Bitcoin. Interpretando ciascun ruolo nella rete, apprenderai in modo interattivo e divertente. Questo esercizio non coinvolge Lightning Network.
+Questo esercizio richiede la partecipazione di almeno nove persone. L'intento dell'esercizio è di ottenere fisicamente un'idea di come funziona Bitcoin. Interpretando ciascun ruolo nella rete, apprenderai in modo interattivo e divertente. Questo esercizio non coinvolge [Lightning Network](https://planb.academy/resources/glossary/lightning-network).
 
 ### L'Esempio richiede 9 / 11 persone
 
@@ -129,7 +129,7 @@ Il cliente acquista un prodotto dal negozio usando Bitcoin.
 - Ognuno dei 9 Computer possiede un registro storico completo di tutte le transazioni passate (quindi saldi accurati senza falsificazioni), così come un insieme di regole:
   - Verificare che la transazione sia firmata correttamente (la chiave apre la serratura).
   - Trasmettere e ricevere transazioni valide agli altri computer nella rete, scartando le transazioni non valide (incluso qualsiasi tentativo di spendere gli stessi fondi due volte).
-- Aggiornare/Aggiungere periodicamente i registri con nuove transazioni ricevute da un computer "casuale" a patto che tutti i contenuti siano validi (nota: stiamo ignorando, per ora, la componente del Proof of Work, esclusivamente per semplicità), altrimenti dovrà rifiutare queste ultime transazioni e continuare come prima fino a quando il prossimo computer "casuale" invia un aggiornamento.
+- Aggiornare/Aggiungere periodicamente i registri con nuove transazioni ricevute da un computer "casuale" a patto che tutti i contenuti siano validi (nota: stiamo ignorando, per ora, la componente del [Proof of Work](https://planb.academy/resources/glossary/proof-of-work), esclusivamente per semplicità), altrimenti dovrà rifiutare queste ultime transazioni e continuare come prima fino a quando il prossimo computer "casuale" invia un aggiornamento.
   - La quantità appropriata è stata inviata se i contenuti erano validi.
 - Questa è la sequenza degli eventi:
   - Il Cliente - naviga nel negozio online e trova un articolo a $25 che desidera, e informa il Commerciante che vorrebbe acquistarlo.
@@ -140,7 +140,7 @@ Il cliente acquista un prodotto dal negozio usando Bitcoin.
   - Che la transazione sia firmata correttamente (“sbloccata” dal cliente).
   - Se non è così, allora la transazione non verrà propagata attraverso la rete, diversamente verrà propagata e messa in attesa.
   - I commercianti possono controllare che la transazione sia in sospeso e in attesa.
-- Un computer viene "casualmente" scelto per proporre di finalizzare la transazione proposta trasmettendo "un blocco" che la contiene; se risulta corretto riceverà una ricompensa in BTC.
+- Un computer viene "casualmente" scelto per proporre di finalizzare la transazione proposta trasmettendo "un [blocco](https://planb.academy/resources/glossary/block)" che la contiene; se risulta corretto riceverà una ricompensa in BTC.
   - OPZIONALE/AVANZATO - invece di selezionare casualmente un computer, simulare il mining facendo lanciare ai Computer dei dadi fino a quando non si verifica un risultato predeterminato (ad es., il primo che ottiene un doppio sei viene selezionato).
   - Si può anche rappresentare cosa succederebbe se due Computer vincono quasi contemporaneamente, creando in una divisione della catena.
   - I Computer controllano la validità, aggiornano/aggiungono ai loro registri, se le regole sono soddisfatte e trasmettono il blocco ai pari.
@@ -153,7 +153,7 @@ Il cliente acquista un prodotto dal negozio usando Bitcoin.
   - Non è richiesta fiducia tra le persone (sennonché l'invio dell'articolo da parte del Commerciante).
   - Il denaro è gestito e detenuto direttamente dalle persone coinvolte.
   - Il registro di Bitcoin è rappresentato in dollari per semplicità, ma nella realtà è in BTC.
-  - Simuliamo una singola transazione trasmessa, ma effettivamente, molteplici transazioni sono in sospeso nella rete, e i blocchi includono contemporaneamente migliaia di transazioni. I nodi controllano anche che non ci siano transazioni di doppia spesa in sospeso (verrebbero scartate tutte tranne una se fosse il caso).
+  - Simuliamo una singola transazione trasmessa, ma effettivamente, molteplici transazioni sono in sospeso nella rete, e i blocchi includono contemporaneamente migliaia di transazioni. I nodi controllano anche che non ci siano transazioni di [doppia spesa](https://planb.academy/resources/glossary/double-spending-attack) in sospeso (verrebbero scartate tutte tranne una se fosse il caso).
 - Scenari di truffa:
   - Cosa succederebbe se il cliente non avesse $25 in BTC?
     - Non sarebbe in grado di creare la transazione perché “sbloccare i fondi” e “avere proprietà dei fondi” sono la stessa cosa. I computer controllano che la transazione sia firmata correttamente; altrimenti, la rifiutano.
@@ -174,7 +174,7 @@ Discutere alcune semplificazioni fatte nell'esercizio in classe sul secondo scen
 Definire i seguenti termini chiave introdotti nella sezione precedente:
 
 - Nodo
-- Mempool
+- [Mempool](https://planb.academy/resources/glossary/mempool)
 - Difficulty Target
 - Blocco
 
@@ -184,7 +184,7 @@ Definire i seguenti termini chiave introdotti nella sezione precedente:
 - Transazione
 - Doppia Spesa
 - Problema dei Generali Bizantini
-- Mining
+- [Mining](https://planb.academy/resources/glossary/mining)
 - Proof of Work (PoW)
 - Funzione di Hash
 - Block Reward
@@ -193,11 +193,11 @@ Definire i seguenti termini chiave introdotti nella sezione precedente:
 - Output
 - Output Lock
 - Resto
-- satoshi
-- Chiave Pubblica/Privata
+- [satoshi](https://planb.academy/resources/glossary/satoshi-sat)
+- [Chiave Pubblica](https://planb.academy/resources/glossary/public-key)/Privata
 - Indirizzo
-- Crittografia a Chiave Pubblica
-- Firma Digitale
+- [Crittografia](https://planb.academy/resources/glossary/cryptography) a Chiave Pubblica
+- [Firma Digitale](https://planb.academy/resources/glossary/digital-signature)
 - Wallet.
 
 # Introduzione a BTCPay Server
@@ -210,7 +210,7 @@ Definire i seguenti termini chiave introdotti nella sezione precedente:
 
 ### Lavorare con BTCPay Server
 
-L'obiettivo di questa parte del corso sarà acquisire una comprensione generale del software BTCPay Server. In un ambiente condiviso, si raccomanda di seguire la dimostrazione dell'istruttore assieme al Manuale del Corso BTCPay Server. Imparerai come creare un wallet attraverso diversi metodi. Gli esempi includono configurazioni di hot wallet e hardware wallet collegati tramite BTCPay Server Vault. Questi obiettivi verranno realizzati in un ambiente Demo, a cui il tuo istruttore ti darà accesso.
+L'obiettivo di questa parte del corso sarà acquisire una comprensione generale del software BTCPay Server. In un ambiente condiviso, si raccomanda di seguire la dimostrazione dell'istruttore assieme al Manuale del Corso BTCPay Server. Imparerai come creare un wallet attraverso diversi metodi. Gli esempi includono configurazioni di hot wallet e [hardware wallet](https://planb.academy/resources/glossary/hardware-wallet) collegati tramite BTCPay Server Vault. Questi obiettivi verranno realizzati in un ambiente Demo, a cui il tuo istruttore ti darà accesso.
 Se segui questo corso da solo, puoi trovare un elenco di host di terze parti per scopi dimostrativi su https://directory.btcpayserver.org/filter/hosts. Sconsigliamo vivamente l'uso di queste opzioni di terze parti come ambienti di produzione/commercio, ma sono idonei allo scopo per un'introduzione all'uso di Bitcoin e BTCPay Server.
 
 Come tirocinante rockstar di BTCPay Server, potresti avere esperienze precedenti nella configurazione di un nodo Bitcoin, mentre questo corso si riferisce specificamente allo stack software di BTCPay Server.
@@ -413,7 +413,7 @@ In questa sezione, hai imparato:
 
 ### Cosa comporta la generazione delle chiavi Bitcoin?
 
-I wallet Bitcoin, quando vengono creati, generano un cosiddetto "seed", come abbiamo fatto nell'ultimo obiettivo. Le serie di parole generate in precedenza, che compongono parte del seed, sono note anche come mnemonic phrase (frasi mnemoniche). Il seed viene utilizzato per derivare singole chiavi Bitcoin e usato per inviare o ricevere Bitcoin. La seedphrase, o mnemonic phrase, non dovrebbe mai essere condivisa con terze parti o peer non fidati.
+I wallet Bitcoin, quando vengono creati, generano un cosiddetto "[seed](https://planb.academy/resources/glossary/seed)", come abbiamo fatto nell'ultimo obiettivo. Le serie di parole generate in precedenza, che compongono parte del seed, sono note anche come mnemonic phrase (frasi mnemoniche). Il seed viene utilizzato per derivare singole chiavi Bitcoin e usato per inviare o ricevere Bitcoin. La seedphrase, o mnemonic phrase, non dovrebbe mai essere condivisa con terze parti o peer non fidati.
 
 La generazione del seed avviene secondo lo standard di settore noto come framework "Hierarchical Deterministic" (HD).
 
@@ -427,9 +427,9 @@ Un Indirizzo viene derivato dalla chiave pubblica attraverso un "algoritmo di ha
 
 - Gli indirizzi che iniziano con `1.....` sono ancora indirizzi molto comuni. Come menzionato nel capitolo Creazione di un nuovo negozio, questi sono indirizzi legacy. Questo tipo di indirizzo è destinato alle transazioni P2PKH in cui si utilizza la codifica Base58, che rende l'indirizzo sensibile al maiuscolo/minuscolo. La sua struttura si basa sulla chiave pubblica con un ulteriore cifra come identificatore.
 
-- Gli indirizzi che iniziano con `bc1...` stanno lentamente diventando indirizzi molto comuni. Sono noti come indirizzi SegWit (nativi). Offrono una struttura di commissioni migliore rispetto agli altri indirizzi menzionati. Gli indirizzi SegWit nativi utilizzano la codifica Bech32 e consentono solo lettere minuscole.
+- Gli indirizzi che iniziano con `bc1...` stanno lentamente diventando indirizzi molto comuni. Sono noti come indirizzi [SegWit](https://planb.academy/resources/glossary/segwit) (nativi). Offrono una struttura di commissioni migliore rispetto agli altri indirizzi menzionati. Gli indirizzi SegWit nativi utilizzano la codifica Bech32 e consentono solo lettere minuscole.
 
-- Gli indirizzi che iniziano con `3...` sono comunemente ancora utilizzati dagli exchange per gli indirizzi di deposito. Questi indirizzi sono menzionati nel capitolo Creazione di un nuovo negozio, indirizzi SegWit wrapped (avvolti) o nested (nidificati). Tuttavia, potrebbero anche funzionare come "Indirizzo Multisig". Quando utilizzati come indirizzo SegWit, possono portare a risparmiare ulteriormente sulle commissioni di transazione, anche se meno rispetto agli indirizzi SegWit nativi. Gli indirizzi P2SH utilizzano la codifica Base58 e per questo sono sensibili al maiuscolo/minuscolo, come per gli indirizzi legacy.
+- Gli indirizzi che iniziano con `3...` sono comunemente ancora utilizzati dagli exchange per gli indirizzi di deposito. Questi indirizzi sono menzionati nel capitolo Creazione di un nuovo negozio, indirizzi SegWit wrapped (avvolti) o nested (nidificati). Tuttavia, potrebbero anche funzionare come "Indirizzo Multisig". Quando utilizzati come indirizzo SegWit, possono portare a risparmiare ulteriormente sulle [commissioni di transazione](https://planb.academy/resources/glossary/transaction-fees), anche se meno rispetto agli indirizzi SegWit nativi. Gli indirizzi P2SH utilizzano la codifica Base58 e per questo sono sensibili al maiuscolo/minuscolo, come per gli indirizzi legacy.
 
 - Gli indirizzi che iniziano con `2...` sono indirizzi [Testnet](https://planb.academy/it/resources/glossary/testnet) e sono destinati a ricevere bitcoin testnet (tBTC). Non dovresti mai confondere questi indirizzi con quelli precedenti e inviarci dei bitcoin. Per scopi di sviluppo, puoi generare un wallet testnet e ottenere bitcoin testnet da molteplici faucet online. Per questo scopo, non dovresti acquistare mai bitcoin testnet. I Bitcoin testnet sono anch'essi minati, per questo motivo per uno sviluppatore potrebbe essere più efficiente utilizzare la [Regtest](https://planb.academy/it/resources/glossary/regtest). Quest'ultima è un ambiente di sviluppo locale in cui gli sviluppatori effettuano varie prove, poiché privo di alcuni componenti di rete. Il protocollo Bitcoin ha molte utilità per scopi di sviluppo.
 
@@ -439,7 +439,7 @@ Le chiavi pubbliche sono meno utilizzate nella pratica oggi. Nel tempo, gli uten
 
 - Per prima cosa, `02...` e `03...` sono identificatori di molte chiavi pubbliche standard, codificati in formato SEC. Queste possono essere elaborate e trasformati in indirizzi per ricevere, utilizzate per creare indirizzi multi-sig o per verificare una firma. Le transazioni Bitcoin dei primi giorni utilizzavano chiavi pubbliche come parte delle transazioni P2PK.
 
-- Tuttavia, i wallet HD utilizzano una struttura diversa. `xpub...`, `ypub...` o `zpub...` le quali sono chiamate chiavi pubbliche estese, meglio note come xpub. Queste chiavi vengono utilizzate per derivare tutte le chiavi pubbliche poiché fanno parte del wallet HD. Poiché la tua xpub contiene la cronologia di tutte le transazioni, passate e future, non condividerla mai con parti non fidate.
+- Tuttavia, i wallet HD utilizzano una struttura diversa. `xpub...`, `ypub...` o `zpub...` le quali sono chiamate chiavi pubbliche estese, meglio note come [xpub](https://planb.academy/resources/glossary/xpub). Queste chiavi vengono utilizzate per derivare tutte le chiavi pubbliche poiché fanno parte del wallet HD. Poiché la tua xpub contiene la cronologia di tutte le transazioni, passate e future, non condividerla mai con parti non fidate.
 
 ### Riepilogo delle Competenze
 
@@ -463,7 +463,7 @@ Mantieni la tua recovery phrase al sicuro, specialmente con chi avesse intenti m
 
 ### Conservazione Hot e Cold delle chiavi Bitcoin
 
-Di solito, i wallet Bitcoin si dividono in Hot Wallet o Cold Wallet. La maggior parte dei compromessi con cui si ha a che fare si trova nella comodità, facilità d'uso e i rischi per la sicurezza. Ognuno di questi metodi può anche essere visto come una soluzione custodial. Tuttavia, i compromessi qui presenti sono per lo più basati su sicurezza e privacy e vanno oltre l'ambito di questo corso.
+Di solito, i wallet Bitcoin si dividono in Hot Wallet o [Cold Wallet](https://planb.academy/resources/glossary/cold-wallet). La maggior parte dei compromessi con cui si ha a che fare si trova nella comodità, facilità d'uso e i rischi per la sicurezza. Ognuno di questi metodi può anche essere visto come una soluzione custodial. Tuttavia, i compromessi qui presenti sono per lo più basati su sicurezza e privacy e vanno oltre l'ambito di questo corso.
 
 ### Hot wallet
 
@@ -502,7 +502,7 @@ BTCPay Server comprende le seguenti funzionalità standard del wallet:
 - Rescan
 - Pagamenti Pull
 - Pagamenti
-- PSBT
+- [PSBT](https://planb.academy/resources/glossary/psbt)
 - Impostazioni generali
 
 ### Transazioni
@@ -514,8 +514,8 @@ Gli amministratori, nella vista delle transazioni, possono vedere le transazioni
 | -------------------- | ----------------------------------------------- |
 | App                  | Il pagamento è stato ricevuto tramite una fattura creata da un'app |
 | Fattura              | Il pagamento è stato ricevuto tramite una fattura |
-| Payjoin              | Non pagato, il timer della fattura non è ancora scaduto |
-| Payjoin-esposto      | L'UTXO è stato esposto tramite una proposta payjoin nella fattura |
+| [Payjoin](https://planb.academy/resources/glossary/payjoin)              | Non pagato, il timer della fattura non è ancora scaduto |
+| Payjoin-esposto      | L'[UTXO](https://planb.academy/resources/glossary/utxo) è stato esposto tramite una proposta payjoin nella fattura |
 | Richiesta di pagamento | Il pagamento è stato ricevuto tramite una richiesta di pagamento |
 | Pagamento             | Il pagamento è stato inviato tramite un pagamento o un rimborso |
 
@@ -576,7 +576,7 @@ BTCpay Server supporta anche BIP-329 per la gestione e applicazione delle etiche
 
 Quando si fa clic sul pulsante di ricezione in BTCPay Server, viene generato un indirizzo inutilizzato per ricevere il pagamento. Gli amministratori possono anche generare un nuovo indirizzo generando una nuova "Invoice".
 
-BTCPay Server chiederà sempre di utilizzare l'indirizzo successivo BTC disponibile per evitare il riuso degli indirizzi. Dopo aver cliccato su "Genera il prossimo indirizzo BTC disponibile", BTCPay Server genera un nuovo indirizzo e relativo QR code, consentendo nel contempo di impostare direttamente un'etichetta per una migliore gestione dei tuoi indirizzi.
+BTCPay Server chiederà sempre di utilizzare l'indirizzo successivo BTC disponibile per evitare il riuso degli indirizzi. Dopo aver cliccato su "Genera il prossimo indirizzo BTC disponibile", BTCPay Server genera un nuovo indirizzo e relativo QR code, consentendo nel contempo di impostare direttamente un'[etichetta](https://planb.academy/resources/glossary/label) per una migliore gestione dei tuoi indirizzi.
 
 ![immagine](assets/en/018.webp)
 
@@ -624,7 +624,7 @@ BTCPay Server permette di configurare un wallet in due modi. Il primo è importa
 L'opzione di hot wallet in BTCPay Server consente le funzionalità come 'Payjoin' o 'Liquid'. Tuttavia, c'è uno svantaggio: la seedphrase di recupero generata per questo wallet sarà memorizzata sul server, dove, chiunque abbia il controllo come Amministratore, potrebbe leggere la seedphrase di recupero. Poiché la tua chiave privata deriva dalla tua seedphrase di recupero, un attore malevolo potrebbe ottenere accesso ai tuoi fondi attuali e futuri!
 Per mitigare tale rischio in BTCPay Server, un Amministratore può impostare in Impostazioni Server > Politiche > "Consenti ai non-amministratori di creare hot wallet per i loro negozi" su no, come impostazione predefinita. Per migliorare la sicurezza di questi hot wallet, l'amministratore del server dovrebbe abilitare l'autenticazione 2FA sugli account autorizzati ad avere hot wallet. Conservare le chiavi private su un server pubblico è pericoloso e comporta dei rischi. Alcuni sono simili ai rischi di Lightning Network (vedi il capitolo successivo per i rischi di Lightning Network).
 
-La seconda opzione che BTCPay Server offre per generare un nuovo wallet è creando un Watch-Only wallet (wallet di sola visualizzazione). BTCPay Server genererà le tue chiavi private una sola volta. Dopo che l'utente conferma di aver annotato la propria seedphrase, BTCPay Server cancellerà le chiavi private dal server. Di conseguenza, il tuo negozio ora ha collegato un [Watch-Only wallet](https://planb.academy/resources/glossary/watch-only-wallet), per spendere i fondi ricevuti sul tuo Watch-Only wallet, vedi il capitolo 'Come Inviare': si potrà fare sia utilizzando BTCPay Server Vault, sia la PSBT (transazione bitcoin parzialmente firmata), o, meno raccomandato, inserendo manualmente la tua seedphrase.
+La seconda opzione che BTCPay Server offre per generare un nuovo wallet è creando un Watch-Only wallet (wallet di sola visualizzazione). BTCPay Server genererà le tue chiavi private una sola volta. Dopo che l'utente conferma di aver annotato la propria seedphrase, BTCPay Server cancellerà le chiavi private dal server. Di conseguenza, il tuo negozio ora ha collegato un Watch-Only wallet, per spendere i fondi ricevuti sul tuo Watch-Only wallet, vedi il capitolo 'Come Inviare': si potrà fare sia utilizzando BTCPay Server Vault, sia la PSBT (transazione bitcoin parzialmente firmata), o, meno raccomandato, inserendo manualmente la tua seedphrase.
 
 Hai creato un nuovo 'Negozio' nell'ultima parte. La procedura guidata di installazione continuerà chiedendo di "Impostare un wallet" o "Impostare un nodo Lightning". In questo esempio, seguirai la procedura guidata "Impostare un wallet" (1).
 
@@ -787,7 +787,7 @@ Nell'opzione Lightning wallet presente nella barra del menu a sinistra, gli ammi
 
 #### Informazioni nodo interno
 
-Gli amministratori del server possono cliccare sulle informazioni del nodo interno e dare un'occhiata allo stato del loro server (Online/Offline) e alla stringa di connessione per Clearnet o Tor.
+Gli amministratori del server possono cliccare sulle informazioni del nodo interno e dare un'occhiata allo stato del loro server (Online/Offline) e alla stringa di connessione per Clearnet o [Tor](https://planb.academy/resources/glossary/tor).
 
 ![immagine](assets/en/033.webp)
 
@@ -818,7 +818,7 @@ I proprietari dei negozi possono impostare parametri per migliorare l'esperienza
 
 #### LNURL
 
-I proprietari dei negozi possono scegliere di utilizzare o meno [LNURL](https://planb.academy/resources/glossary/lnurl). Un URL della Rete Lightning, o LNURL, è uno standard proposto per le interazioni tra colui che paga ed il beneficiario. In breve, un LNURL è un URL codificato bech32 con il prefisso "lnurl". Il Lightning wallet dovrebbe decodificare l'URL, contattando l'URL in attesa di un file JSON con ulteriori istruzioni, in particolare un tag che definisce il comportamento dell'LNURL.
+I proprietari dei negozi possono scegliere di utilizzare o meno LNURL. Un URL della Rete Lightning, o LNURL, è uno standard proposto per le interazioni tra colui che paga ed il beneficiario. In breve, un LNURL è un URL codificato bech32 con il prefisso "lnurl". Il Lightning wallet dovrebbe decodificare l'URL, contattando l'URL in attesa di un file JSON con ulteriori istruzioni, in particolare un tag che definisce il comportamento dell'LNURL.
 
 - Abilitare LNURL
 - Modalità LNURL Classica

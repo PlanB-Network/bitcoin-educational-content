@@ -756,7 +756,7 @@ Ale jak mówi Spinoza, "złudzenie ludzi nie kończy się na tym", a wśród wsz
 
 
 
-Definicja inflacji podawana na przykład przez ekonomistów keynesowskich i zwolenników państwa opiekuńczego również bardzo dobrze ilustruje ten paradoks. Według nich inflacja to wzrost cen, który według niektórych bankierów centralnych pochodzi albo "znikąd", albo z kontekstów geopolitycznych, których nikt nie może kontrolować ani przewidzieć. Podczas gdy wzrost cen może rzeczywiście prowadzić do cyklicznej inflacji - na przykład, gdy cena ropy wzrośnie, ceny niektórych przetworzonych towarów również wzrosną - prawdziwe strukturalne przyczyny inflacji są przede wszystkim związane ze wzrostem Supply, co z kolei oznacza spadek wartości pieniądza i, ipso facto, mechaniczny wzrost cen.
+Definicja [inflacji](https://planb.academy/resources/glossary/inflation) podawana na przykład przez ekonomistów keynesowskich i zwolenników państwa opiekuńczego również bardzo dobrze ilustruje ten paradoks. Według nich inflacja to wzrost cen, który według niektórych bankierów centralnych pochodzi albo "znikąd", albo z kontekstów geopolitycznych, których nikt nie może kontrolować ani przewidzieć. Podczas gdy wzrost cen może rzeczywiście prowadzić do cyklicznej inflacji - na przykład, gdy cena ropy wzrośnie, ceny niektórych przetworzonych towarów również wzrosną - prawdziwe strukturalne przyczyny inflacji są przede wszystkim związane ze wzrostem Supply, co z kolei oznacza spadek wartości pieniądza i, ipso facto, mechaniczny wzrost cen.
 
 
 
@@ -1064,7 +1064,7 @@ Innymi słowy, jeśli nienawidzimy obcokrajowca, to dlatego, że kojarzymy tego 
 
 
 
-Jest to szczególnie prawdziwe w przypadku kryptowalut.
+Jest to szczególnie prawdziwe w przypadku [kryptowalut](https://planb.academy/resources/glossary/cryptocurrency).
 
 
 
@@ -1159,7 +1159,7 @@ O to właśnie chodziło w oświeceniowej filozofii racjonalnej, w szczególnoś
 Innymi słowy, mówi on, że jeśli będziemy myśleć samodzielnie, jeśli będziemy rozumować jako racjonalni dorośli i jeśli w związku z tym będziemy dążyć do przywiązania się do związków przyczynowych między rzeczami, nie będziemy już potrzebować autorytetu moralnego, który nauczy nas, na przykład, prawdziwych cnót religii lub prawdziwych wartości etycznych w sferze politycznej i gospodarczej.
 
 
-Jest to linia rozumowania, która nawiązuje do austriackiej szkoły ekonomii liberalnej, zrodzonej w niezwykle płodnej atmosferze intelektualnej Wiednia przed I wojną światową. To właśnie w tym kontekście intelektualiści tacy jak Carl Menger (1840-1921), Ludwig von Mises (1883-1979) i Friedrich Hayek (1899-1992) położyli podwaliny pod nową szkołę liberalnej ekonomii, która miała stać się fundamentem przekonań przyszłych cypherpunks. I stąd powstanie Bitcoin.
+Jest to linia rozumowania, która nawiązuje do [austriackiej](https://planb.academy/resources/glossary/austrian-school) szkoły ekonomii liberalnej, zrodzonej w niezwykle płodnej atmosferze intelektualnej Wiednia przed I wojną światową. To właśnie w tym kontekście intelektualiści tacy jak Carl Menger (1840-1921), Ludwig von Mises (1883-1979) i Friedrich Hayek (1899-1992) położyli podwaliny pod nową szkołę liberalnej ekonomii, która miała stać się fundamentem przekonań przyszłych [cypherpunks](https://planb.academy/resources/glossary/cypherpunks). I stąd powstanie Bitcoin.
 
 
 
@@ -1204,7 +1204,7 @@ Są to argumenty polityczne i ekonomiczne przedstawione przez pierwszych cypherp
 
 
 
-Zwłaszcza gdy wpisał nagłówek Timesa z 3 stycznia 2009 r. w coinbase bloku Genesis Blockchain Bitcoin, aby zilustrować koniec jednej ery, keynesistowskiej, i początek innej z liberalnymi, anarchistycznymi i libertariańskimi aspiracjami.
+Zwłaszcza gdy wpisał nagłówek Timesa z 3 stycznia 2009 r. w [coinbase](https://planb.academy/resources/glossary/coinbase-transaction) [bloku Genesis](https://planb.academy/resources/glossary/genesis-block) [Blockchain](https://planb.academy/resources/glossary/blockchain) Bitcoin, aby zilustrować koniec jednej ery, keynesistowskiej, i początek innej z liberalnymi, anarchistycznymi i libertariańskimi aspiracjami.
 
 
 
@@ -1212,7 +1212,7 @@ Zwłaszcza gdy wpisał nagłówek Timesa z 3 stycznia 2009 r. w coinbase bloku G
 
 
 
-Biała księga opublikowana 31 października 2008 r. przedstawia Bitcoin jako środek wymiany wartości w Internecie bez zaufanej strony trzeciej, oparty na zdecentralizowanym protokole. Jest to "kopernikańska" rewolucja, która w końcu pozwoli ludziom odzyskać zdolność do działania, tj. wolność, swobodę handlu, prawo własności i poszanowanie prywatności.
+[Biała księga](https://planb.academy/resources/glossary/white-paper) opublikowana 31 października 2008 r. przedstawia Bitcoin jako środek wymiany wartości w Internecie bez zaufanej strony trzeciej, oparty na zdecentralizowanym protokole. Jest to "kopernikańska" rewolucja, która w końcu pozwoli ludziom odzyskać zdolność do działania, tj. wolność, swobodę handlu, prawo własności i poszanowanie prywatności.
 
 
 Dlaczego? Ponieważ Bitcoin pozwala nam wyrwać się z tego zniewolenia na sposób Spinozy, dzięki rozumowi, dzięki matematycznemu językowi Galileusza. I, jak sugeruje Hayek, bez możliwości przeciwstawienia się temu przez państwo. I pokojowo, bez przymusu czy prozelityzmu.

@@ -74,7 +74,7 @@ Na de woorden van Nicolas was het tijd om te gaan bouwen. Er ging een aanzienlij
 Wat betekent open source en wat komt er kijken bij zo'n project?
 
 
-FOSS staat voor Free & Open-Source Software. Het eerste verwijst naar termen die iedereen toestaan om versies van de software te kopiëren, aan te passen en zelfs te verspreiden (zelfs met winstoogmerk). Het tweede verwijst naar het openlijk delen van de broncode, waardoor het publiek wordt aangemoedigd om bij te dragen en de code te verbeteren.
+[FOSS](https://planb.academy/resources/glossary/foss) staat voor Free & Open-Source Software. Het eerste verwijst naar termen die iedereen toestaan om versies van de software te kopiëren, aan te passen en zelfs te verspreiden (zelfs met winstoogmerk). Het tweede verwijst naar het openlijk delen van de broncode, waardoor het publiek wordt aangemoedigd om bij te dragen en de code te verbeteren.
 
 Dit trekt ervaren gebruikers aan die enthousiast zijn om bij te dragen aan de software die ze al gebruiken en waar ze waarde uit halen, wat uiteindelijk succesvoller blijkt te zijn in de adoptie dan propriëtaire software. Het is in overeenstemming met het Bitcoin ethos dat "informatie vrij wil zijn" Het brengt gepassioneerde mensen samen die een gemeenschap vormen en het is gewoon leuker. Net als Bitcoin is FOSS onvermijdelijk.
 
@@ -122,13 +122,13 @@ De BTCPay Server Foundation, die Alekos en Bas in staat stelde om deze cursus te
 Dit is een klassikale oefening, dus als je deze cursus zelf volgt, kun je hem niet uitvoeren, maar je kunt deze oefening wel doorlopen. Om deze opdracht uit te voeren zijn minimaal 9 tot 11 mensen nodig.
 
 
-De oefening begint na het bekijken van de inleiding "Hoe Bitcoin en de Blockchain werken" door de BBC.
+De oefening begint na het bekijken van de inleiding "Hoe Bitcoin en de [Blockchain](https://planb.academy/resources/glossary/blockchain) werken" door de BBC.
 
 
 :::video id=c20b6df7-0c3a-4785-94b9-42ef59093acc:::
 
 
-Voor deze oefening zijn minimaal negen deelnemers nodig. Deze oefening is bedoeld om fysiek te begrijpen hoe Bitcoin werkt. Door elke rol in het netwerk te spelen, leer je op een interactieve en speelse manier. Bij deze oefening is Lightning Network niet betrokken.
+Voor deze oefening zijn minimaal negen deelnemers nodig. Deze oefening is bedoeld om fysiek te begrijpen hoe Bitcoin werkt. Door elke rol in het netwerk te spelen, leer je op een interactieve en speelse manier. Bij deze oefening is [Lightning Network](https://planb.academy/resources/glossary/lightning-network) niet betrokken.
 
 
 ### Voorbeeld: Vereist 9 / 11 personen
@@ -177,22 +177,22 @@ Klanten kopen een product in de winkel met Bitcoin.
 
 - Opzetten:
   - Zie de diagrammen/uitleg in de bijgevoegde Figjam - [Activiteitenschema](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
-  - Vervang de Bank door negen studenten die de rol spelen van een Computer (Bitcoin Nodes/Miners) in een netwerk om de Bank te vervangen.
+  - Vervang de Bank door negen studenten die de rol spelen van een Computer (Bitcoin [Nodes](https://planb.academy/resources/glossary/node)/Miners) in een netwerk om de Bank te vervangen.
 - Elk van de 9 computers heeft een volledig historisch overzicht van alle transacties die ooit hebben plaatsgevonden (dus nauwkeurige balansen zonder vervalsingen), evenals een aantal regels:
   - Controleer of de transactie correct is ondertekend (thekeyfitsthelock)
   - Geldige transacties uitzenden en ontvangen naar peers in het netwerk, ongeldige transacties weggooien (inclusief transacties die hetzelfde geld twee keer proberen uit te geven)
-- Update/toevoeg records periodiek met nieuwe transacties ontvangen van "willekeurige" computer op voorwaarde dat alle inhoud geldig is (opmerking: we negeren, voor nu, de Proof of Work component van dit alles, voor de eenvoud), anders verwerpen we deze en gaan we verder zoals voorheen totdat de volgende "willekeurige" computer een update stuurt
+- Update/toevoeg records periodiek met nieuwe transacties ontvangen van "willekeurige" computer op voorwaarde dat alle inhoud geldig is (opmerking: we negeren, voor nu, de [Proof of Work](https://planb.academy/resources/glossary/proof-of-work) component van dit alles, voor de eenvoud), anders verwerpen we deze en gaan we verder zoals voorheen totdat de volgende "willekeurige" computer een update stuurt
   - Het juiste bedrag werd beloond als de inhoud geldig was.
 - Speel de volgorde van de gebeurtenissen na:
   - Klant - bladert online door de winkel en vindt een artikel voor $25 dat hij wil hebben en laat de verkoper weten dat hij het wil kopen
-  - Merchant vraagt om betaling door de klant een Invoice/Address van zijn Wallet te sturen.
+  - Merchant vraagt om betaling door de klant een Invoice/Address van zijn [Wallet](https://planb.academy/resources/glossary/wallet) te sturen.
   - Klant- construeert een transactie (waarbij $25 aan BTC naar een Address gestuurd wordt die door de Handelaar voorzien is) en zendt die naar het Bitcoin Netwerk.
 - Computers: ontvangen de transactie en verifiëren deze:
   - Er wordt minstens $25 aan BTC in de Address verzonden van
   - De transactie is correct ondertekend ("ontgrendeld" door de klant)
   - Als dat niet het geval is, dan wordt de transactie niet gepropageerd door het netwerk, en als dat wel het geval is, dan wordt de transactie gepropageerd en in afwachting gehouden.
   - Handelaren kunnen controleren of de transactie in behandeling is en wacht.
-- Eén computer wordt "willekeurig" gekozen om voor te stellen de voorgestelde transactie af te ronden door "een blok" uit te zenden dat de transactie bevat; als het klopt, ontvangen ze een BTC-beloning.
+- Eén computer wordt "willekeurig" gekozen om voor te stellen de voorgestelde transactie af te ronden door "een [blok](https://planb.academy/resources/glossary/block)" uit te zenden dat de transactie bevat; als het klopt, ontvangen ze een BTC-beloning.
   - OPTIONEEL/GEAVANCEERD - in plaats van willekeurig een computer te kiezen, kun je Mining simuleren door computers te laten dobbelen totdat er een vooraf bepaalde uitkomst is (bijv. de eerste die dubbel zessen gooit wordt geselecteerd)
   - Het kan ook uitspelen wat er zou gebeuren als twee Computers ongeveer tegelijkertijd winnen, wat resulteert in een kettingsplitsing.
   - Computers controleren de geldigheid, updaten/toevoegen records aan hun grootboeken als aan de regels wordt voldaan en zenden het transactieblok uit naar peers.
@@ -234,7 +234,7 @@ Definieer de volgende kernbegrippen die in het vorige hoofdstuk zijn geïntroduc
 
 
 - Knooppunt
-- Mempool
+- [Mempool](https://planb.academy/resources/glossary/mempool)
 - Moeilijkheidsdoel
 - Blok
 
@@ -242,7 +242,7 @@ Definieer de volgende kernbegrippen die in het vorige hoofdstuk zijn geïntroduc
 **Bespreek als groep de betekenis van enkele aanvullende termen:**
 
 
-Blockchain, Transactie, Dubbele besteding, Byzantijns Generaalsprobleem, Mining, Proof of Work (PoW), Hash Functie, Block reward, Blockchain, Langste keten, 51%-aanval, Uitgang, Uitgangsslot, Verandering, Satoshis, Publieke/private sleutel, Address, Cryptografie met publieke sleutel, Digitale handtekening, Wallet
+Blockchain, Transactie, Dubbele besteding, Byzantijns Generaalsprobleem, [Mining](https://planb.academy/resources/glossary/mining), Proof of Work (PoW), Hash Functie, Block reward, Blockchain, Langste keten, 51%-aanval, Uitgang, Uitgangsslot, Verandering, [Satoshis](https://planb.academy/resources/glossary/satoshi-sat), Publieke/private sleutel, Address, [Cryptografie](https://planb.academy/resources/glossary/cryptography) met publieke sleutel, [Digitale handtekening](https://planb.academy/resources/glossary/digital-signature), Wallet
 
 
 # Introductie van BTCPay Server
@@ -260,7 +260,7 @@ Blockchain, Transactie, Dubbele besteding, Byzantijns Generaalsprobleem, Mining,
 ### Werken met BTCPay Server
 
 
-Het doel van dit cursusblok is om een algemeen begrip te krijgen van de BTCPay Server software. In een gedeelde omgeving, is het aanbevolen om de demonstratie van de instructeur te volgen en het BTCPay Server Coursebook te raadplegen om mee te volgen met de docent. U leert hoe u een Wallet kunt creëren via verschillende methoden. Voorbeelden zijn Hot Wallet setups en hardware wallets verbonden via BTCPay Server Vault. Deze doelstellingen komen voor in de Demo-omgeving, die wordt weergegeven en waartoe u toegang krijgt van uw cursusleider.
+Het doel van dit cursusblok is om een algemeen begrip te krijgen van de BTCPay Server software. In een gedeelde omgeving, is het aanbevolen om de demonstratie van de instructeur te volgen en het BTCPay Server Coursebook te raadplegen om mee te volgen met de docent. U leert hoe u een Wallet kunt creëren via verschillende methoden. Voorbeelden zijn Hot Wallet setups en [hardware wallets](https://planb.academy/resources/glossary/hardware-wallet) verbonden via BTCPay Server Vault. Deze doelstellingen komen voor in de Demo-omgeving, die wordt weergegeven en waartoe u toegang krijgt van uw cursusleider.
 
 
 Als u deze cursus zelf volgt, kunt u een lijst van hosts van derden voor demo-doeleinden vinden op https://directory.btcpayserver.org/filter/hosts. We raden sterk af om deze opties van derden te gebruiken als productieomgevingen; ze dienen echter het juiste doel om het gebruik van Bitcoin en BTCPay Server te introduceren.
@@ -573,7 +573,7 @@ In dit gedeelte heb je geleerd:
 ### Wat komt er kijken bij het genereren van Bitcoin sleutels?
 
 
-Bitcoin portemonnees creëren een zogenaamde "seed". In het laatste doel heb je een "seed" aangemaakt. De reeks woorden die hiervoor gegenereerd zijn, worden ook wel Mnemonic zinnen genoemd. De seed wordt gebruikt om individuele Bitcoin Sleutels af te leiden en wordt gebruikt om Bitcoin te verzenden of te ontvangen. seed zinnen mogen nooit gedeeld worden met derden of niet-vertrouwde peers.
+Bitcoin portemonnees creëren een zogenaamde "[seed](https://planb.academy/resources/glossary/seed)". In het laatste doel heb je een "seed" aangemaakt. De reeks woorden die hiervoor gegenereerd zijn, worden ook wel Mnemonic zinnen genoemd. De seed wordt gebruikt om individuele Bitcoin Sleutels af te leiden en wordt gebruikt om Bitcoin te verzenden of te ontvangen. seed zinnen mogen nooit gedeeld worden met derden of niet-vertrouwde peers.
 
 
 De seed generatie wordt uitgevoerd volgens de industriestandaard die bekend staat als het "Hierarchical Deterministic" (HD) raamwerk.
@@ -596,11 +596,11 @@ Een Address wordt via een "hashing algoritme" afgeleid van de publieke sleutel D
 
 
 
-- Adressen die beginnen met `bc1...` verhuizen langzaam naar de meest voorkomende adressen. Deze staan bekend als (native) SegWit adressen. Deze bieden een betere tariefstructuur dan de andere genoemde adressen. Native SegWit adressen gebruiken Bech32 codering en laten alleen kleine letters toe.
+- Adressen die beginnen met `bc1...` verhuizen langzaam naar de meest voorkomende adressen. Deze staan bekend als (native) [SegWit](https://planb.academy/resources/glossary/segwit) adressen. Deze bieden een betere tariefstructuur dan de andere genoemde adressen. Native SegWit adressen gebruiken Bech32 codering en laten alleen kleine letters toe.
 
 
 
-- Adressen die beginnen met `3...` worden vaak nog gebruikt door exchanges voor stortingsadressen. Deze adressen worden genoemd in het hoofdstuk "Een nieuwe winkel aanmaken", ingepakte of geneste SegWit adressen. Ze kunnen echter ook functioneren als een "Multisig Address". Bij gebruik als SegWit Address zijn er enige besparingen op transactiekosten, maar ook weer minder dan bij Native SegWit. P2SH Adressen gebruiken Base58 codering. Dit maakt het case Sensitive, net als het oude Address.
+- Adressen die beginnen met `3...` worden vaak nog gebruikt door exchanges voor stortingsadressen. Deze adressen worden genoemd in het hoofdstuk "Een nieuwe winkel aanmaken", ingepakte of geneste SegWit adressen. Ze kunnen echter ook functioneren als een "Multisig Address". Bij gebruik als SegWit Address zijn er enige besparingen op [transactiekosten](https://planb.academy/resources/glossary/transaction-fees), maar ook weer minder dan bij Native SegWit. P2SH Adressen gebruiken Base58 codering. Dit maakt het case Sensitive, net als het oude Address.
 
 
 
@@ -618,7 +618,7 @@ Publieke sleutels worden tegenwoordig in de praktijk minder vaak gebruikt. Na ve
 
 
 
-- HD wallets gebruiken echter een andere structuur. `xpub...`, `ypub...` of `zpub...` worden uitgebreide publieke sleutels genoemd, of xpubs. Deze sleutels worden gebruikt om vele publieke sleutels af te leiden als onderdeel van de HD Wallet. Omdat je xpub de gegevens bevat van je hele geschiedenis, dus van transacties in het verleden en in de toekomst, moet je deze nooit delen met niet-vertrouwde partijen.
+- HD wallets gebruiken echter een andere structuur. `xpub...`, `ypub...` of `zpub...` worden uitgebreide publieke sleutels genoemd, of [xpubs](https://planb.academy/resources/glossary/xpub). Deze sleutels worden gebruikt om vele publieke sleutels af te leiden als onderdeel van de HD Wallet. Omdat je xpub de gegevens bevat van je hele geschiedenis, dus van transacties in het verleden en in de toekomst, moet je deze nooit delen met niet-vertrouwde partijen.
 
 
 ### Vaardigheden
@@ -655,7 +655,7 @@ Houd uw herstelzin veilig. Als iemand toegang heeft, specifiek met kwade bedoeli
 ### Hot en Cold opslag van Bitcoin sleutels
 
 
-Gewoonlijk worden Bitcoin portemonnees aangeduid in een Hot Wallet of een Cold Wallet. De meeste afwegingen liggen in gemak, gebruiksgemak en veiligheidsrisico's. Elk van deze methoden kan ook worden gezien in een bewaaroplossing. De afwegingen zijn hier echter meestal gebaseerd op beveiliging en privacy en vallen buiten het bestek van deze cursus.
+Gewoonlijk worden Bitcoin portemonnees aangeduid in een Hot Wallet of een [Cold Wallet](https://planb.academy/resources/glossary/cold-wallet). De meeste afwegingen liggen in gemak, gebruiksgemak en veiligheidsrisico's. Elk van deze methoden kan ook worden gezien in een bewaaroplossing. De afwegingen zijn hier echter meestal gebaseerd op beveiliging en privacy en vallen buiten het bestek van deze cursus.
 
 
 ### Hot Wallet
@@ -667,10 +667,10 @@ Hot wallets zijn de handigste manier van interactie met Bitcoin via mobiele, web
 ### Cold Wallet
 
 
-Particulieren verhuizen hun Bitcoin naar een Cold Wallet omdat deze de privésleutels kan isoleren van het internet, waardoor ze beschermd zijn tegen potentiële online bedreigingen. Het verwijderen van de internetverbinding vermindert het risico op malware, spyware en SIM-swaps. Cold opslag wordt verondersteld superieur te zijn aan Hot opslag voor veiligheid en autonomie, op voorwaarde dat er voldoende voorzorgsmaatregelen worden genomen om verlies van de Bitcoin private sleutels te voorkomen. Cold opslag is het meest geschikt voor grote hoeveelheden Bitcoin, die niet bedoeld zijn om vaak uitgegeven te worden vanwege de complexiteit van de Wallet opstelling.
+Particulieren verhuizen hun Bitcoin naar een Cold Wallet omdat deze de [privésleutels](https://planb.academy/resources/glossary/private-key) kan isoleren van het internet, waardoor ze beschermd zijn tegen potentiële online bedreigingen. Het verwijderen van de internetverbinding vermindert het risico op malware, spyware en SIM-swaps. Cold opslag wordt verondersteld superieur te zijn aan Hot opslag voor veiligheid en autonomie, op voorwaarde dat er voldoende voorzorgsmaatregelen worden genomen om verlies van de Bitcoin private sleutels te voorkomen. Cold opslag is het meest geschikt voor grote hoeveelheden Bitcoin, die niet bedoeld zijn om vaak uitgegeven te worden vanwege de complexiteit van de Wallet opstelling.
 
 
-Er zijn verschillende methodes om Bitcoin sleutels in Cold op te slaan, van papieren wallets tot brain wallets, hardware wallets of, vanaf het begin, een Wallet bestand. De meeste wallets gebruiken BIP 39 om generate de seed zin. Binnen de Bitcoin Core software is er echter nog geen consensus bereikt over het gebruik ervan. Bitcoin Core-software zal nog steeds generate een Wallet.dat-bestand aanmaken, dat je op een veilige offline locatie moet opslaan.
+Er zijn verschillende methodes om Bitcoin sleutels in Cold op te slaan, van papieren wallets tot brain wallets, hardware wallets of, vanaf het begin, een Wallet bestand. De meeste wallets gebruiken [BIP](https://planb.academy/resources/glossary/bip) 39 om generate de seed zin. Binnen de Bitcoin Core software is er echter nog geen consensus bereikt over het gebruik ervan. Bitcoin Core-software zal nog steeds generate een Wallet.dat-bestand aanmaken, dat je op een veilige offline locatie moet opslaan.
 
 
 ### Vaardigheden
@@ -717,14 +717,14 @@ BTCPay Server bestaat uit de volgende standaard Wallet functies:
 - Opnieuw scannen
 - Betalingen trekken
 - Uitbetalingen
-- PSBT
+- [PSBT](https://planb.academy/resources/glossary/psbt)
 - Algemene instellingen
 
 
 ### Transacties
 
 
-Beheerders kunnen de inkomende en uitgaande transacties voor de On-Chain Wallet die verbonden zijn met deze specifieke winkel zien in het transacties overzicht. Elke transactie heeft een onderscheid tussen de ontvangen en verzonden bedragen. Ontvangen is Green en uitgaande transacties zijn rood. In het BTCPay Server transactieweergave, zullen beheerders ook een set standaard labels zien.
+Beheerders kunnen de inkomende en uitgaande transacties voor de On-Chain Wallet die verbonden zijn met deze specifieke winkel zien in het transacties overzicht. Elke transactie heeft een onderscheid tussen de ontvangen en verzonden bedragen. Ontvangen is Green en uitgaande transacties zijn rood. In het BTCPay Server transactieweergave, zullen beheerders ook een set standaard [labels](https://planb.academy/resources/glossary/label) zien.
 
 
 
@@ -732,8 +732,8 @@ Beheerders kunnen de inkomende en uitgaande transacties voor de On-Chain Wallet 
 | --------------- | ------------------------------------------------- |
 | App              | Betaling is ontvangen via een door een app aangemaakte factuur |
 | Factuur          | Betaling is ontvangen via een factuur             |
-| Payjoin          | Niet betaald, de factuurtimer is nog niet verlopen |
-| Payjoin-blootgesteld | UTXO is blootgesteld via een payjoin-voorstel in een factuur |
+| [Payjoin](https://planb.academy/resources/glossary/payjoin)          | Niet betaald, de factuurtimer is nog niet verlopen |
+| Payjoin-blootgesteld | [UTXO](https://planb.academy/resources/glossary/utxo) is blootgesteld via een payjoin-voorstel in een factuur |
 | Betalingsverzoek | Betaling is ontvangen via een betalingsverzoek    |
 | Uitbetaling      | Betaling is verzonden via een uitbetaling of terugbetaling |
 
@@ -1131,7 +1131,7 @@ Binnen de Lightning Wallet optie in de linker menubalk, zullen server beheerders
 #### Interne knooppuntinformatie
 
 
-Serverbeheerders kunnen op de interne node-info klikken om hun serverstatus (Online/Offline) en verbindingsteken voor Clearnet of Tor te bekijken.
+Serverbeheerders kunnen op de interne node-info klikken om hun serverstatus (Online/Offline) en verbindingsteken voor Clearnet of [Tor](https://planb.academy/resources/glossary/tor) te bekijken.
 
 
 ![image](assets/en/033.webp)

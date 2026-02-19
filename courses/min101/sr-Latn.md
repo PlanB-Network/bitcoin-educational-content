@@ -117,11 +117,11 @@ Spremni da otkrijete Bitcoin mining? Hajde da počnemo!
 
 
 
-Pre nego što pređemo na detaljno i tehničkije objašnjenje Bitcoin mining, želeo bih da vam dam pregled principa, koji je namerno jednostavan i shematski. Ako već imate osnovno znanje, možete odmah preći na suštinu u sledećem poglavlju, nakon što odgovorite na pitanja iz kviza. Ovo poglavlje je prvenstveno namenjeno početnicima, kako bi vam pružilo lagan početak.
+Pre nego što pređemo na detaljno i tehničkije objašnjenje Bitcoin [mining](https://planb.academy/resources/glossary/mining), želeo bih da vam dam pregled principa, koji je namerno jednostavan i shematski. Ako već imate osnovno znanje, možete odmah preći na suštinu u sledećem poglavlju, nakon što odgovorite na pitanja iz kviza. Ovo poglavlje je prvenstveno namenjeno početnicima, kako bi vam pružilo lagan početak.
 
 
 
-Zamislite Bitcoin kao veliku javnu beležnicu, koju svi dele, gde beležimo ko je kome poslao bitkoine. Ova beležnica se zove blokčejn. Ne može je držati samo jedna osoba, inače bi joj se moralo verovati. Umesto toga, Bitcoin radi kolektivno: hiljade računara verifikuju i održavaju istu verziju ove beležnice.
+Zamislite Bitcoin kao veliku javnu beležnicu, koju svi dele, gde beležimo ko je kome poslao bitkoine. Ova beležnica se zove [blokčejn](https://planb.academy/resources/glossary/blockchain). Ne može je držati samo jedna osoba, inače bi joj se moralo verovati. Umesto toga, Bitcoin radi kolektivno: hiljade računara verifikuju i održavaju istu verziju ove beležnice.
 
 
 
@@ -129,7 +129,7 @@ Zamislite Bitcoin kao veliku javnu beležnicu, koju svi dele, gde beležimo ko j
 
 
 
-U Bitcoin, kada izvršite uplatu, kreirate transakciju. Ova transakcija nije odmah dodata u beležnicu. Prvo se šalje na mrežu, zatim čeka da bude integrisana u sledeći paket transakcija. Ovaj paket se zove blok.
+U Bitcoin, kada izvršite uplatu, kreirate [transakciju](https://planb.academy/resources/glossary/transaction-tx). Ova transakcija nije odmah dodata u beležnicu. Prvo se šalje na mrežu, zatim čeka da bude integrisana u sledeći paket transakcija. Ovaj paket se zove [blok](https://planb.academy/resources/glossary/block).
 
 
 
@@ -141,11 +141,11 @@ Blok je jednostavno skup transakcija grupisanih zajedno. Kada je blok spreman, n
 
 
 
-Mining je rad validacije bloka trošenjem energije. Akteri zvani rudari koriste specijalizovane računare. Ove mašine troše električnu energiju da bi izvršile veoma veliki broj testova, u petlji, sve dok ne pronađu dokaz koji mreža prihvata. Kada rudar pronađe ovaj dokaz, njegov blok se smatra validnim.
+Mining je rad validacije bloka trošenjem energije. Akteri zvani [rudari](https://planb.academy/resources/glossary/miner) koriste specijalizovane računare. Ove mašine troše električnu energiju da bi izvršile veoma veliki broj testova, u petlji, sve dok ne pronađu dokaz koji mreža prihvata. Kada rudar pronađe ovaj dokaz, njegov blok se smatra validnim.
 
 
 
-Kada je blok validiran, on se emituje na mrežu. Ostali čvorovi brzo proveravaju da li je u skladu sa pravilima, a zatim ga dodaju u niz prethodnih blokova. Zato se zove "blokčejn": svaki novi blok dolazi posle drugih, u sekvencijalnom redosledu, i ovaj lanac raste malo po malo.
+Kada je blok validiran, on se emituje na mrežu. Ostali [čvorovi](https://planb.academy/resources/glossary/node) brzo proveravaju da li je u skladu sa pravilima, a zatim ga dodaju u niz prethodnih blokova. Zato se zove "blokčejn": svaki novi blok dolazi posle drugih, u sekvencijalnom redosledu, i ovaj lanac raste malo po malo.
 
 
 
@@ -153,11 +153,11 @@ Kada je blok validiran, on se emituje na mrežu. Ostali čvorovi brzo proveravaj
 
 
 
-Da rezimiramo, transakcije se prvo kreiraju. Zatim se grupišu zajedno u blok. Potom, rudar validira ovaj blok trošeći električnu energiju. Na kraju, ovaj blok se dodaje u blokčejn, i transakcije koje sadrži postaju potvrđene.
+Da rezimiramo, transakcije se prvo kreiraju. Zatim se grupišu zajedno u blok. Potom, rudar validira ovaj blok trošeći električnu energiju. Na kraju, ovaj blok se dodaje u blokčejn, i transakcije koje sadrži postaju [potvrđene](https://planb.academy/resources/glossary/confirmation).
 
 
 
-Ako rudari troše struju, to nije zato što su volonteri. Oni to rade zbog nagrade. Kada rudar validira blok, dobija dve vrste prihoda. S jedne strane, dobija novoizgenerisane bitkoine. S druge strane, prikuplja naknade koje plaćaju korisnici za transakcije uključene u blok. Drugim rečima, rudar je kompenzovan i kroz programirano izdavanje novca i kroz transakcione naknade koje određuje tržište.
+Ako rudari troše struju, to nije zato što su volonteri. Oni to rade zbog nagrade. Kada rudar validira blok, dobija dve vrste prihoda. S jedne strane, dobija novoizgenerisane bitkoine. S druge strane, prikuplja [naknade](https://planb.academy/resources/glossary/transaction-fees) koje plaćaju korisnici za transakcije uključene u blok. Drugim rečima, rudar je kompenzovan i kroz programirano izdavanje novca i kroz transakcione naknade koje određuje tržište.
 
 
 
@@ -187,7 +187,7 @@ Da bismo razumeli o čemu se radi kod Bitcoin mining, prvo moramo pratiti put ti
 
 
 
-U Bitcoin, transakcija je struktura podataka koja prenosi vlasništvo nad bitkoinima sa jednog korisnika na drugog. U konkretnim terminima, ona troši `outputs` iz prošlih transakcija (tzv. UTXOs), referišući se na njih kao `inputs`, a zatim kreira nove `outputs` koji definišu kome ovi bitkoini sada pripadaju i pod kojim uslovima mogu biti potrošeni kasnije.
+U Bitcoin, transakcija je struktura podataka koja prenosi vlasništvo nad bitkoinima sa jednog korisnika na drugog. U konkretnim terminima, ona troši `outputs` iz prošlih transakcija (tzv. [UTXOs](https://planb.academy/resources/glossary/utxo)), referišući se na njih kao `inputs`, a zatim kreira nove `outputs` koji definišu kome ovi bitkoini sada pripadaju i pod kojim uslovima mogu biti potrošeni kasnije.
 
 
 
@@ -195,7 +195,7 @@ U Bitcoin, transakcija je struktura podataka koja prenosi vlasništvo nad bitkoi
 
 
 
-Važna tačka o Bitcoin je autorizacija za trošenje. Bitcoin nisu na računu, kao što bi vaš novac mogao biti u banci, već su zaključani uslovima trošenja. Kada wallet želi da koristi UTXO kao ulaz, mora da pruži kriptografski dokaz da ima pravo da ga otključa. Ovaj dokaz često ima oblik digitalnog potpisa generated iz privatnog ključa. Zato bitkoineri insistiraju na obezbeđivanju vaših privatnih ključeva: oni su ti koji otključavaju pristup vašim bitkoinima i, samim tim, omogućavaju vam da ih trošite.
+Važna tačka o Bitcoin je autorizacija za trošenje. Bitcoin nisu na računu, kao što bi vaš novac mogao biti u banci, već su zaključani uslovima trošenja. Kada [wallet](https://planb.academy/resources/glossary/wallet) želi da koristi UTXO kao [ulaz](https://planb.academy/resources/glossary/input), mora da pruži kriptografski dokaz da ima pravo da ga otključa. Ovaj dokaz često ima oblik [digitalnog potpisa](https://planb.academy/resources/glossary/digital-signature) generated iz [privatnog ključa](https://planb.academy/resources/glossary/private-key). Zato bitkoineri insistiraju na obezbeđivanju vaših privatnih ključeva: oni su ti koji otključavaju pristup vašim bitkoinima i, samim tim, omogućavaju vam da ih trošite.
 
 
 
@@ -221,7 +221,7 @@ Kada je transakcija ispravno konstruisana i potpisana od strane korisnikovog Bit
 
 
 
-Bitcoin je peer-to-peer mreža: ne postoji centralni server koji prima i obrađuje sve transakcije. Ovu ulogu kolektivno igraju čvorovi. Bitcoin čvor je deo softvera (npr. Bitcoin Core) povezan sa drugim čvorovima u Bitcoin mreži, čija je glavna misija verifikacija, skladištenje i prenos transakcija i blokova.
+Bitcoin je [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) mreža: ne postoji centralni server koji prima i obrađuje sve transakcije. Ovu ulogu kolektivno igraju čvorovi. Bitcoin čvor je deo softvera (npr. [Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core)) povezan sa drugim čvorovima u Bitcoin mreži, čija je glavna misija verifikacija, skladištenje i prenos transakcija i blokova.
 
 
 
@@ -233,7 +233,7 @@ Kada pošaljete transakciju sa wallet, wallet je prosleđuje čvoru (vašem ili 
 - potpisi su važeći;
 - ulazi se odnose na postojeće UTXOs (tj. bitcoine koji postoje);
 - ove UTXO nisu već potrošene negde drugde;
-- količina izlaza je manja ili jednaka količini ulaza (bitkoini se ne stvaraju ni iz čega);
+- količina [izlaza](https://planb.academy/resources/glossary/output) je manja ili jednaka količini ulaza (bitkoini se ne stvaraju ni iz čega);
 - itd.
 
 
@@ -250,7 +250,7 @@ Ako transakcija prođe sve ove provere, čvor je propagira drugim čvorovima u m
 
 
 
-Između trenutka kada se transakcija emituje i trenutka kada se potvrdi u bloku, mora čekati. Ova zona čekanja se zove **mempool** (skraćenica od `memory` i `pool`). Mempool je stoga privremeni prostor za skladištenje validnih, ali još nepotvrđenih, transakcija.
+Između trenutka kada se transakcija emituje i trenutka kada se potvrdi u bloku, mora čekati. Ova zona čekanja se zove **[mempool](https://planb.academy/resources/glossary/mempool)** (skraćenica od `memory` i `pool`). Mempool je stoga privremeni prostor za skladištenje validnih, ali još nepotvrđenih, transakcija.
 
 
 
@@ -270,7 +270,7 @@ U ovoj fazi, mreža zna za transakciju, verifikovala ju je i drži je u memoriji
 
 
 
-Kako je bitcoin nematerijalna valuta, mora rešiti jedan problem: sprečavanje dvostrukog trošenja bez centralnog autoriteta. Ako dve transakcije pokušaju da potroše isti UTXO, svi moraju biti u stanju da se usaglase na jedno, koherentno stanje. Satoshi Nakamoto sumira ovaj problem ovom čuvenom rečenicom:
+Kako je bitcoin nematerijalna valuta, mora rešiti jedan problem: sprečavanje [dvostrukog trošenja](https://planb.academy/resources/glossary/double-spending-attack) bez centralnog autoriteta. Ako dve transakcije pokušaju da potroše isti UTXO, svi moraju biti u stanju da se usaglase na jedno, koherentno stanje. Satoshi Nakamoto sumira ovaj problem ovom čuvenom rečenicom:
 
 
 
@@ -284,7 +284,7 @@ Ovo je uloga blockchain-a: javni registar koji sadrži istoriju transakcija. Ali
 
 
 
-Ovaj registar ne može biti prepisan, zahvaljujući jednostavnom principu: svaki blok uključuje kriptografski otisak (hash) prethodnog bloka. Tako su blokovi povezani: ako izmenite blok iz prošlosti, njegov hash se menja, što prekida vezu sa sledećim blokom, što prekida vezu sa blokom nakon toga, i tako dalje. Upravo ovaj lanac zavisnosti daje "*blockchain*-u" njegovo ime.
+Ovaj registar ne može biti prepisan, zahvaljujući jednostavnom principu: svaki blok uključuje kriptografski otisak ([hash](https://planb.academy/resources/glossary/hash-function)) prethodnog bloka. Tako su blokovi povezani: ako izmenite blok iz prošlosti, njegov hash se menja, što prekida vezu sa sledećim blokom, što prekida vezu sa blokom nakon toga, i tako dalje. Upravo ovaj lanac zavisnosti daje "*blockchain*-u" njegovo ime.
 
 
 
@@ -292,7 +292,7 @@ Ovaj registar ne može biti prepisan, zahvaljujući jednostavnom principu: svaki
 
 
 
-Jednom kada razumemo ove osnovne principe Bitcoin, možemo opisati cilj rudara u konkretnijim terminima: izgraditi novi blok koji proširuje postojeći lanac, upisivanjem transakcija na čekanju, a zatim pokušati da ga učini validnim (ovo je čuveni "proof of work" koji ćemo proučiti u kasnijem poglavlju). Ali prvo, hajde da zajedno otkrijemo u sledećem poglavlju kako se konstruira blok kandidat.
+Jednom kada razumemo ove osnovne principe Bitcoin, možemo opisati cilj rudara u konkretnijim terminima: izgraditi novi blok koji proširuje postojeći lanac, upisivanjem transakcija na čekanju, a zatim pokušati da ga učini validnim (ovo je čuveni "[proof of work](https://planb.academy/resources/glossary/proof-of-work)" koji ćemo proučiti u kasnijem poglavlju). Ali prvo, hajde da zajedno otkrijemo u sledećem poglavlju kako se konstruira blok kandidat.
 
 
 
@@ -303,7 +303,7 @@ Jednom kada razumemo ove osnovne principe Bitcoin, možemo opisati cilj rudara u
 
 
 
-Sada ste razumeli kako funkcioniše Bitcoin transakcija i ulogu blockchain-a. Međutim, pre nego što detaljnije pogledamo kako funkcioniše proof-of-work, postoji još jedan ključni korak koji rudar mora da izvrši: izgradnja kandidatskog bloka. Hajde da zajedno otkrijemo šta je kandidatski blok i kako ga rudar konstruira, pre nego što krenemo u potragu za validnim dokazom.
+Sada ste razumeli kako funkcioniše Bitcoin transakcija i ulogu blockchain-a. Međutim, pre nego što detaljnije pogledamo kako funkcioniše proof-of-work, postoji još jedan ključni korak koji rudar mora da izvrši: izgradnja kandidatskog bloka. Hajde da zajedno otkrijemo šta je [kandidatski blok](https://planb.academy/resources/glossary/candidate-block) i kako ga rudar konstruira, pre nego što krenemo u potragu za validnim dokazom.
 
 
 
@@ -318,7 +318,7 @@ Miners moraju sami da izgrade svoje blokove pre nego što pokušaju da ih rudare
 
 - izaberite koje transakcije da uključite;
 - organizujte ove transakcije na način koji je kompatibilan sa pravilima Bitcoin;
-- proizvedi metapodatke bloka, pohranjene u njegovom zaglavlju.
+- proizvedi metapodatke bloka, pohranjene u njegovom [zaglavlju](https://planb.academy/resources/glossary/block-header).
 
 
 
@@ -340,7 +340,7 @@ Blok Bitcoin se stoga sastoji od dva glavna dela:
 
 
 
-Zaglavlje je ključno, jer se koristi kao osnova za proof-of-work: u Bitcoin, ne kopate ceo blok direktno; kopate samo zaglavlje bloka, koje rezimira informacije potrebne za povezivanje bloka sa lancem i potvrđivanje njegovog sadržaja. Da bi zaglavlje moglo da predstavlja sve transakcije, Bitcoin koristi kriptografski alat: Merkle stablo.
+Zaglavlje je ključno, jer se koristi kao osnova za proof-of-work: u Bitcoin, ne kopate ceo blok direktno; kopate samo zaglavlje bloka, koje rezimira informacije potrebne za povezivanje bloka sa lancem i potvrđivanje njegovog sadržaja. Da bi zaglavlje moglo da predstavlja sve transakcije, Bitcoin koristi kriptografski alat: [Merkle stablo](https://planb.academy/resources/glossary/merkle-tree).
 
 
 
@@ -348,7 +348,7 @@ Zaglavlje je ključno, jer se koristi kao osnova za proof-of-work: u Bitcoin, ne
 
 
 
-Navođenje svih transakcija u zaglavlju bilo bi nemoguće: blok može sadržati hiljade transakcija, dok zaglavlje ima fiksnu veličinu (80 bajtova). Rešenje je stoga izračunavanje jedinstvenog heša koji zavisi od svih transakcija u bloku: ovo je Merkleov koren.
+Navođenje svih transakcija u zaglavlju bilo bi nemoguće: blok može sadržati hiljade transakcija, dok zaglavlje ima fiksnu veličinu (80 bajtova). Rešenje je stoga izračunavanje jedinstvenog heša koji zavisi od svih transakcija u bloku: ovo je [Merkleov koren](https://planb.academy/resources/glossary/merkle-root).
 
 
 
@@ -371,7 +371,7 @@ Dakle, ako se jedna transakcija promeni, čak i za jedan bit, rezultat je modifi
 
 
 
-Od SegWit, odvojili smo potpise od ostatka. Dakle, u stvarnosti, postoje 2 Merkle stabla ugnježdena unutar svakog bloka. Ovo razdvajanje ima posledice na način na koji računamo veličinu bloka i za određene kriptografske obaveze, ali osnovna ideja ostaje ista: zaglavlje mora na kompaktan način obuhvatiti sav sadržaj bloka.
+Od [SegWit](https://planb.academy/resources/glossary/segwit), odvojili smo potpise od ostatka. Dakle, u stvarnosti, postoje 2 Merkle stabla ugnježdena unutar svakog bloka. Ovo razdvajanje ima posledice na način na koji računamo veličinu bloka i za određene kriptografske obaveze, ali osnovna ideja ostaje ista: zaglavlje mora na kompaktan način obuhvatiti sav sadržaj bloka.
 
 
 
@@ -402,19 +402,19 @@ Zaglavlje bloka je dugo 80 bajtova i sadrži tačno 6 polja. Upravo će ovih še
 
 
 
-- Vremenska oznaka: Ovo je vremenska oznaka (Unix vreme) koju bira rudar (sa ograničenjima validnosti), koja mora naznačiti kada je blok iskopan. Ne mora biti savršeno tačna u sekundu, ali mora ispunjavati određene uslove da bi ostala prihvatljiva za mrežu.
+- [Vremenska oznaka](https://planb.academy/resources/glossary/timestamp): Ovo je vremenska oznaka (Unix vreme) koju bira rudar (sa ograničenjima validnosti), koja mora naznačiti kada je blok iskopan. Ne mora biti savršeno tačna u sekundu, ali mora ispunjavati određene uslove da bi ostala prihvatljiva za mrežu.
 
 
 
 
 
-- Kodirana meta težina (`nbits`): Ovo polje kodira trenutnu meta težinu. Detaljnije ćemo objasniti u poglavlju o težini, ali zapamtite da je ovaj parametar deo zaglavlja.
+- Kodirana [meta težina](https://planb.academy/resources/glossary/difficulty-target) (`nbits`): Ovo polje kodira trenutnu meta težinu. Detaljnije ćemo objasniti u poglavlju o težini, ali zapamtite da je ovaj parametar deo zaglavlja.
 
 
 
 
 
-- Nonce (`nonce`): Ovo je vrednost koju rudar može slobodno menjati. Služi kao podesiva varijabla tokom proof-of-work. Objasniću njegovu ulogu detaljnije u sledećem poglavlju, ali je važno razumeti da je nonce deo zaglavlja bloka i dizajniran je da omogući uzastopne pokušaje.
+- [Nonce](https://planb.academy/resources/glossary/nonce) (`nonce`): Ovo je vrednost koju rudar može slobodno menjati. Služi kao podesiva varijabla tokom proof-of-work. Objasniću njegovu ulogu detaljnije u sledećem poglavlju, ali je važno razumeti da je nonce deo zaglavlja bloka i dizajniran je da omogući uzastopne pokušaje.
 
 
 
@@ -510,7 +510,7 @@ Heš funkcija je zanimljiva u računarskim sistemima jer ima određene osobine:
 
 
 
-Heš funkcija korišćena u Bitcoin za mining je `SHA256`, primenjena dva puta uzastopno. Ovo je poznato kao dupli SHA256, ili `SHA256d`. Upravo ovo duplo heširanje proizvodi otisak bloka.
+Heš funkcija korišćena u Bitcoin za mining je `SHA256`, primenjena dva puta uzastopno. Ovo je poznato kao dupli [SHA256](https://planb.academy/resources/glossary/sha256), ili `SHA256d`. Upravo ovo duplo heširanje proizvodi otisak bloka.
 
 
 
@@ -618,7 +618,7 @@ mining proces je veoma jednostavan:
 
 
 
-Zapravo, nonce nije jedino polje koje se može modifikovati. Bilo kakva izmena unutar transakcija bloka rezultira promenom korena Merkle stabla, a samim tim i izmenom zaglavlja tog bloka. Sa savremenom računarskom snagom, prolazak kroz 4,29 milijardi mogućih vrednosti nonce-a može se obaviti relativno brzo. Zato postoji još jedno polje, koje se obično naziva "*extra-nonce*", koje dodatno umnožava mogućnosti varijacije zaglavlja. Vratit ćemo se na ovaj mehanizam detaljnije u kasnijem poglavlju.
+Zapravo, nonce nije jedino polje koje se može modifikovati. Bilo kakva izmena unutar transakcija bloka rezultira promenom korena Merkle stabla, a samim tim i izmenom zaglavlja tog bloka. Sa savremenom računarskom snagom, prolazak kroz 4,29 milijardi mogućih vrednosti nonce-a može se obaviti relativno brzo. Zato postoji još jedno polje, koje se obično naziva "*[extra-nonce](https://planb.academy/resources/glossary/extra-nonce)*", koje dodatno umnožava mogućnosti varijacije zaglavlja. Vratit ćemo se na ovaj mehanizam detaljnije u kasnijem poglavlju.
 
 
 
@@ -630,7 +630,7 @@ Nazivamo ga "dokaz" jer je rezultat odmah proverljiv: kada je blok proizveden, b
 
 
 
-U Bitcoin Belom Papiru, Satoshi Nakamoto iznosi dve prednosti korišćenja proof-of-work sistema u Bitcoin:
+U Bitcoin [Belom Papiru](https://planb.academy/resources/glossary/white-paper), Satoshi Nakamoto iznosi dve prednosti korišćenja proof-of-work sistema u Bitcoin:
 
 
 
@@ -650,7 +650,7 @@ Drugim rečima, proof-of-work služi kao okosnica sistema vremenskog žigosanja,
 
 
 
-- Definišite pravilo većine (konsenzus) i neutralizujte Sybil:**
+- Definišite pravilo većine ([konsenzus](https://planb.academy/resources/glossary/consensus)) i neutralizujte Sybil:**
 
 
 
@@ -658,7 +658,7 @@ Proof-of-Work takođe omogućava da Bitcoin postigne konsenzus bez oslanjanja na
 
 
 
-U Bitcoin, "*većina*" nije najveći broj učesnika, već **lanac koji akumulira najviše rada**. Kao što Satoshi kaže, ovo je princip "jedan CPU = jedan glas", tj. glas koji je ponderisan stvarnom računarskom snagom potrošenom za proizvodnju validnih blokova. Dakle, postavljanje hiljada čvorova samo po sebi ne donosi prednost u odnosu na Bitcoin. Bez dodatne računarske snage, ne akumulira se više dokaza rada, i Sybil napad postaje beskoristan, dok pravilo odlučivanja ostaje objektivno i ne zahteva identifikaciju učesnika.
+U Bitcoin, "*većina*" nije najveći broj učesnika, već **lanac koji akumulira najviše rada**. Kao što Satoshi kaže, ovo je princip "jedan CPU = jedan glas", tj. glas koji je ponderisan stvarnom računarskom snagom potrošenom za proizvodnju validnih blokova. Dakle, postavljanje hiljada čvorova samo po sebi ne donosi prednost u odnosu na Bitcoin. Bez dodatne računarske snage, ne akumulira se više dokaza rada, i [Sybil napad](https://planb.academy/resources/glossary/sybil-attack) postaje beskoristan, dok pravilo odlučivanja ostaje objektivno i ne zahteva identifikaciju učesnika.
 
 
 
@@ -689,7 +689,7 @@ U sledećem poglavlju, napravićemo kratak istorijski izlet u princip proof-of-w
 
 
 
-Proof-of-work nije izmišljen za Bitcoin. Satoshi Nakamoto je preuzeo i sastavio nekoliko starijih ideja, koje su već istražene u različitim kontekstima.
+Proof-of-work nije izmišljen za Bitcoin. [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) je preuzeo i sastavio nekoliko starijih ideja, koje su već istražene u različitim kontekstima.
 
 
 
@@ -701,7 +701,7 @@ Krajem 1990-ih, problem neželjene e-pošte postao je značajan. Naime, ako slan
 
 
 
-Ovo je cilj Hashcash, koji je predložio Adam Back 1997. godine, a koji se smatra izumom proof-of-work principa. Princip Hashcash je veoma sličan mining: proizvesti hash koji poštuje određeni uslov (ima određeni broj nula na početku hasha). Dokaz zatim prati poruku i primalac ga može vrlo brzo verifikovati. Ako se primi e-mail koji ne sadrži ovaj dokaz, može se odmah smatrati spamom i stoga filtrirati. Spameri su tada primorani da troše znatnu količinu energije da bi poslali milione poruka, što drastično smanjuje (ili čak potpuno poništava) profitabilnost ove vrste operacije, bilo da je reč o marketingu ili prevari.
+Ovo je cilj [Hashcash](https://planb.academy/resources/glossary/hashcash), koji je predložio Adam Back 1997. godine, a koji se smatra izumom proof-of-work principa. Princip Hashcash je veoma sličan mining: proizvesti hash koji poštuje određeni uslov (ima određeni broj nula na početku hasha). Dokaz zatim prati poruku i primalac ga može vrlo brzo verifikovati. Ako se primi e-mail koji ne sadrži ovaj dokaz, može se odmah smatrati spamom i stoga filtrirati. Spameri su tada primorani da troše znatnu količinu energije da bi poslali milione poruka, što drastično smanjuje (ili čak potpuno poništava) profitabilnost ove vrste operacije, bilo da je reč o marketingu ili prevari.
 
 
 
@@ -792,7 +792,7 @@ Ako, tokom ovog kašnjenja u difuziji, drugi rudar takođe otkrije važeći blok
 
 
 
-Ove podele nisu katastrofalne. Nakamoto konsenzus predviđa da će, na duži rok, samo jedna grana prevladati: ona koja akumulira najviše rada. Zaista, čim se novi blok iskopa na vrhu bloka A, na primer, cela mreža se resinhronizuje na ovoj grani i napušta blok B, koji tada postaje "*zastareli blok*", ponekad pogrešno nazvan "*napušteni blok*" u svakodnevnom jeziku.
+Ove podele nisu katastrofalne. Nakamoto konsenzus predviđa da će, na duži rok, samo jedna grana prevladati: ona koja akumulira najviše rada. Zaista, čim se novi blok iskopa na vrhu bloka A, na primer, cela mreža se resinhronizuje na ovoj grani i napušta blok B, koji tada postaje "*[zastareli blok](https://planb.academy/resources/glossary/stale-block)*", ponekad pogrešno nazvan "*napušteni blok*" u svakodnevnom jeziku.
 
 
 
@@ -812,7 +812,7 @@ Interval od 10 minuta generalno omogućava dovoljno vremena da se pobednički bl
 
 
 
-*"Hashrate*" se odnosi na količinu hash proračuna proizvedenog po sekundi, bilo od strane jednog rudara, grupe rudara, ili svih rudara u Bitcoin. Izražava se u `H/s` (hashovi po sekundi), sa višekratnicima kao što su `TH/s` (terahashovi po sekundi) ili `EH/s` (eksahashovi po sekundi). Ovo predstavlja broj pokušaja koje rudari mogu napraviti svake sekunde da pokušaju dobiti hash niži od cilja.
+*"[Hashrate](https://planb.academy/resources/glossary/hashrate)*" se odnosi na količinu hash proračuna proizvedenog po sekundi, bilo od strane jednog rudara, grupe rudara, ili svih rudara u Bitcoin. Izražava se u `H/s` (hashovi po sekundi), sa višekratnicima kao što su `TH/s` (terahashovi po sekundi) ili `EH/s` (eksahashovi po sekundi). Ovo predstavlja broj pokušaja koje rudari mogu napraviti svake sekunde da pokušaju dobiti hash niži od cilja.
 
 
 
@@ -905,7 +905,7 @@ Sa:
 - `**To = 18,045,755,102**`: Stara meta, tj. referentna vrednost pre prilagođavanja.
 - `**ta = 1,000,000 sekundi**`: Vreme stvarno provedeno u proizvodnji poslednjih 2016 blokova. Pošto je ovo vreme manje od ciljanog vremena, mreža je kopala prebrzo.
 - `**1.209.600 sekundi**`: Ciljno vreme koje odgovara 10 minuta po bloku za 2016 blokova, koristi se kao referenca za prilagođavanje.
-- `**tn = 14,918,779,020**`: Novi cilj izračunat nakon prilagođavanja težine.
+- `**tn = 14,918,779,020**`: Novi cilj izračunat nakon [prilagođavanja težine](https://planb.academy/resources/glossary/difficulty-adjustment).
 
 
 
@@ -959,7 +959,7 @@ Ova logika se zasniva na teoriji igara: protokol čini poštenje racionalnim. Ru
 
 
 
-Da bi se to postiglo, protokol Bitcoin propisuje da rudar koji pronađe važeći blok osvaja pravo da u njega uključi određenu transakciju, što rudaru dodeljuje određeni iznos BTC. Ovo je poznato kao **nagrada za blok**. U ovom prvom poglavlju ovog odeljka, cilj je razumeti od čega se sastoji i kako se određuje. Kasnije ćemo videti kako se deo kreiranja novca razvija tokom vremena (sa prepolovljenjima) i kako se tehnički zapravo prikuplja (putem coinbase transakcije).
+Da bi se to postiglo, protokol Bitcoin propisuje da rudar koji pronađe važeći blok osvaja pravo da u njega uključi određenu transakciju, što rudaru dodeljuje određeni iznos BTC. Ovo je poznato kao **[nagrada za blok](https://planb.academy/resources/glossary/block-reward)**. U ovom prvom poglavlju ovog odeljka, cilj je razumeti od čega se sastoji i kako se određuje. Kasnije ćemo videti kako se deo kreiranja novca razvija tokom vremena (sa prepolovljenjima) i kako se tehnički zapravo prikuplja (putem coinbase transakcije).
 
 
 
@@ -976,7 +976,7 @@ Upravo ovaj događaj (stvarno dodavanje bloka u blockchain) pokreće davanje nag
 
 
 
-- subvencija bloka**;
+- [subvencija bloka](https://planb.academy/resources/glossary/block-subsidy)**;
 - naknade za transakcije**.
 
 
@@ -1091,7 +1091,7 @@ Dve transakcije mogu stoga platiti isti iznos naknada u apsolutnim terminima, al
 
 
 
-Zato u praksi izražavamo konkurentnost transakcije odnosom naknade, obično u `sats/vB` (satoshis po virtualnom bajtu). Izračunavanje ovog odnosa je jednostavno:
+Zato u praksi izražavamo konkurentnost transakcije odnosom naknade, obično u `sats/vB` ([satoshis](https://planb.academy/resources/glossary/satoshi-sat) po virtualnom bajtu). Izračunavanje ovog odnosa je jednostavno:
 
 
 
@@ -1142,7 +1142,7 @@ U sledećem poglavlju, fokusiraćemo se detaljnije na blok subvenciju, kako bism
 
 
 
-U prethodnom poglavlju smo videli da rudari koji proizvedu važeći blok dobijaju nagradu koja se sastoji od naknada za transakcije uključene u blok, plus subvencija za blok. Međutim, još nismo objasnili kako se određuje iznos ove subvencije. Mehanizam koji postavlja i razvija ovu vrednost poznat je kao ***prepolovljavanje***.
+U prethodnom poglavlju smo videli da rudari koji proizvedu važeći blok dobijaju nagradu koja se sastoji od naknada za transakcije uključene u blok, plus subvencija za blok. Međutim, još nismo objasnili kako se određuje iznos ove subvencije. Mehanizam koji postavlja i razvija ovu vrednost poznat je kao ***[prepolovljavanje](https://planb.academy/resources/glossary/halving)***.
 
 
 
@@ -1251,7 +1251,7 @@ Glavni razlog je mehanički. Kroz sukcesivna prepolovljavanja, subvencija za blo
 
 
 
-Pored toga, marginalna odstupanja povezana sa protokolom takođe mogu doprineti ovome. Na primer, u retkim slučajevima, neki rudari možda nisu preuzeli svoju punu subvenciju, što definitivno smanjuje količinu stvarno izdatih bitkoina. Takođe možemo pomenuti genesis blok, proizveden od strane Satoshi 3. januara 2009. godine, čiji kreirani bitkoini nisu deo UTXO set, kao i određene istorijske događaje povezane sa greškama, kao što su duplikati identifikatora coinbase transakcija.
+Pored toga, marginalna odstupanja povezana sa protokolom takođe mogu doprineti ovome. Na primer, u retkim slučajevima, neki rudari možda nisu preuzeli svoju punu subvenciju, što definitivno smanjuje količinu stvarno izdatih bitkoina. Takođe možemo pomenuti [genesis blok](https://planb.academy/resources/glossary/genesis-block), proizveden od strane Satoshi 3. januara 2009. godine, čiji kreirani bitkoini nisu deo [UTXO set](https://planb.academy/resources/glossary/utxo-set), kao i određene istorijske događaje povezane sa greškama, kao što su duplikati identifikatora coinbase transakcija.
 
 
 
@@ -1295,7 +1295,7 @@ Međutim, ostaje jedno pitanje: kojim mehanizmom rudar prikuplja ovu nagradu u B
 
 
 
-Kao što smo videli u prvom delu kursa, svaki Bitcoin blok sadrži listu transakcija na čekanju koje će potvrditi. Prva od njih je uvek coinbase transakcija. Ona omogućava pobedničkom rudaru da primi svoju nagradu.
+Kao što smo videli u prvom delu kursa, svaki Bitcoin blok sadrži listu transakcija na čekanju koje će potvrditi. Prva od njih je uvek [coinbase transakcija](https://planb.academy/resources/glossary/coinbase-transaction). Ona omogućava pobedničkom rudaru da primi svoju nagradu.
 
 
 
@@ -1303,7 +1303,7 @@ Kao što smo videli u prvom delu kursa, svaki Bitcoin blok sadrži listu transak
 
 
 
-Na prvi pogled, izgleda kao klasična Bitcoin transakcija: ima TXID, izlaze i uključena je u Merkle stablo bloka. Međutim, razlikuje se u jednom važnom pogledu: ne troši nijedan postojeći UTXO.
+Na prvi pogled, izgleda kao klasična Bitcoin transakcija: ima [TXID](https://planb.academy/resources/glossary/txid-transaction-identifier), izlaze i uključena je u Merkle stablo bloka. Međutim, razlikuje se u jednom važnom pogledu: ne troši nijedan postojeći UTXO.
 
 
 
@@ -1402,7 +1402,7 @@ Tokom vremena, coinbase transakcija je postala posebno pogodno mesto za integrac
 
 
 
-BIP-34 je fork soft uveden u martu 2013, počevši sa blokom 227,930, koji je uveo verziju 2 Bitcoin blokova. Ova nova verzija zahteva da svaki blok uključi, u `scriptSig` coinbase transakcije, visinu bloka koji se kreira.
+[BIP-34](https://planb.academy/resources/glossary/bip0034) je fork soft uveden u martu 2013, počevši sa blokom 227,930, koji je uveo verziju 2 Bitcoin blokova. Ova nova verzija zahteva da svaki blok uključi, u `scriptSig` coinbase transakcije, visinu bloka koji se kreira.
 
 
 
@@ -1454,7 +1454,7 @@ Iz operativnih razloga, mining bazeni takođe koriste slobodno polje `scriptSig`
 
 
 
-Od kada je SegWit soft fork omogućen 2017. godine, podaci svedoka (tj. generalno potpisi) su odvojeni od glavnih podataka transakcije, posebno da bi se ispravio problem promenljivosti Bitcoin transakcija. Ovo razdvajanje stoga uvodi novi element koji treba uključiti u blok.
+Od kada je SegWit soft fork omogućen 2017. godine, podaci svedoka (tj. generalno potpisi) su odvojeni od glavnih podataka transakcije, posebno da bi se ispravio problem [promenljivosti Bitcoin transakcija](https://planb.academy/resources/glossary/malleability-transaction). Ovo razdvajanje stoga uvodi novi element koji treba uključiti u blok.
 
 
 
@@ -1500,7 +1500,7 @@ Ova poruka, prisutna u Genesis bloku (prvom bloku Bitcoin), zapravo je kodirana 
 ### Period dospeća
 
 
-Jednom kada je blok iskopan i distribuiran, coinbase transakcija se pojavljuje na blockchain-u kao i svaka druga transakcija. Ona kreira UTXOs za pobedničkog rudara, omogućavajući mu da prikupi svoju nagradu. Međutim, ovi UTXOs nisu odmah raspoloživi za trošenje: podložni su periodu sazrevanja. Ovo sazrevanje je postavljeno na 100 blokova nakon bloka koji sadrži coinbase. Konkretno, coinbase transakcija mora imati ukupno 101 potvrdu da bi njeni izlazi postali raspoloživi za trošenje od strane pobedničkog rudara.
+Jednom kada je blok iskopan i distribuiran, coinbase transakcija se pojavljuje na blockchain-u kao i svaka druga transakcija. Ona kreira UTXOs za pobedničkog rudara, omogućavajući mu da prikupi svoju nagradu. Međutim, ovi UTXOs nisu odmah raspoloživi za trošenje: podložni su [periodu sazrevanja](https://planb.academy/resources/glossary/maturity-period). Ovo sazrevanje je postavljeno na 100 blokova nakon bloka koji sadrži coinbase. Konkretno, coinbase transakcija mora imati ukupno 101 potvrdu da bi njeni izlazi postali raspoloživi za trošenje od strane pobedničkog rudara.
 
 
 ![Image](assets/fr/040.webp)
@@ -1615,7 +1615,7 @@ U ovom trenutku je težina mining počela da eksplodira. Između sredine 2010. i
 
 
 
-Između ere GPU-a i moderne ere ASIC, postojala je međufaza: korišćenje FPGA-a. FPGA je reprogramabilna komponenta: može se konfigurisati da direktno implementira logičko kolo posvećeno određenom proračunu, u ovom slučaju `SHA256d`. Ideja je bila da se još više udalji od hardvera opšte namene (CPU/GPU) kako bi se postigla energetska efikasnost. Ali ubrzo, poboljšanja napravljena virtuelno na FPGA-ima bila bi primenjena fizički na same čipove: to je dolazak ASIC.
+Između ere GPU-a i moderne ere [ASIC](https://planb.academy/resources/glossary/asic), postojala je međufaza: korišćenje FPGA-a. FPGA je reprogramabilna komponenta: može se konfigurisati da direktno implementira logičko kolo posvećeno određenom proračunu, u ovom slučaju `SHA256d`. Ideja je bila da se još više udalji od hardvera opšte namene (CPU/GPU) kako bi se postigla energetska efikasnost. Ali ubrzo, poboljšanja napravljena virtuelno na FPGA-ima bila bi primenjena fizički na same čipove: to je dolazak ASIC.
 
 
 
@@ -1667,7 +1667,7 @@ Izolovana mašina može da rudari, ali grupisanjem stotina, pa čak i hiljada AS
 
 
 
-Farma mining, u svom najjednostavnijem obliku, je zgrada (ili skup kontejnera) ispunjena ASIC-ovima koji rade 24/7. Izazov sada je održavanje stabilnih uslova rada:
+[Farma mining](https://planb.academy/resources/glossary/mining-farm), u svom najjednostavnijem obliku, je zgrada (ili skup kontejnera) ispunjena ASIC-ovima koji rade 24/7. Izazov sada je održavanje stabilnih uslova rada:
 
 
 
@@ -1724,7 +1724,7 @@ https://planb.academy/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-
 
 
 
-Mining Bitcoin uključuje stalne i neizbežne troškove, među kojima je najvažnija potrošnja energije mašina. Ovi troškovi nastaju nezavisno od bilo kakvih rezultata, iako su prihodi od mining, po svojoj prirodi, retki i nasumični. Otkrivanje bloka zavisi isključivo od udelа rudara u hashrate, što čini zaradu nepredvidljivijom što je taj udeo manji. Upravo ovaj praktični problem je brzo doveo do široke upotrebe mining bazena. U ovom poslednjem poglavlju kursa MIN 101, nudim uvod u principe i rad mining bazena u Bitcoin.
+Mining Bitcoin uključuje stalne i neizbežne troškove, među kojima je najvažnija potrošnja energije mašina. Ovi troškovi nastaju nezavisno od bilo kakvih rezultata, iako su prihodi od mining, po svojoj prirodi, retki i nasumični. Otkrivanje bloka zavisi isključivo od udelа rudara u hashrate, što čini zaradu nepredvidljivijom što je taj udeo manji. Upravo ovaj praktični problem je brzo doveo do široke upotrebe [mining bazena](https://planb.academy/resources/glossary/pool-mining). U ovom poslednjem poglavlju kursa MIN 101, nudim uvod u principe i rad mining bazena u Bitcoin.
 
 
 
@@ -1736,7 +1736,7 @@ mining bazen je organizacija (često online usluga) koja agregira računarsku sn
 
 
 
-Učesnici u mining bazenu se često nazivaju "hashers", umesto "miners", jer više ne obavljaju sav mining posao, već samo heširaju podatke koje im prenosi bazen.
+Učesnici u mining bazenu se često nazivaju "[hashers](https://planb.academy/resources/glossary/hasher)", umesto "miners", jer više ne obavljaju sav mining posao, već samo heširaju podatke koje im prenosi bazen.
 
 
 
@@ -1807,7 +1807,7 @@ Prvi bazeni su stvoreni upravo kao odgovor na ovu novu stvarnost. Braiins Pool (
 
 
 
-Sa tehničke strane, bazeni su tada bili strukturirani oko specijalizovanih komunikacionih protokola između bazena i rudara (npr. Stratum, zatim Stratum V2), kako bi se efikasno organizovao distribuirani rad. Detaljnije ćemo razmotriti ove koncepte u našem kursu obuke MIN 201.
+Sa tehničke strane, bazeni su tada bili strukturirani oko specijalizovanih komunikacionih protokola između bazena i rudara (npr. [Stratum](https://planb.academy/resources/glossary/stratum), zatim Stratum V2), kako bi se efikasno organizovao distribuirani rad. Detaljnije ćemo razmotriti ove koncepte u našem kursu obuke MIN 201.
 
 
 

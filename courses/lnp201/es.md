@@ -78,7 +78,7 @@ Finalmente, concluiremos el curso recapitulando los conceptos tratados y abriend
 :::video id=4315a277-12fe-4946-bb49-a807e60c09a7:::
 
 
-La Red Lightning es una red de canales de pago construida sobre el protocolo de Bitcoin, con el objetivo de habilitar transacciones rápidas y de bajo costo. Permite la creación de canales de pago entre participantes, dentro de los cuales las transacciones pueden realizarse casi instantáneamente y con comisiones mínimas, sin necesidad de registrar cada transacción individualmente en la blockchain. Así, la Red Lightning busca mejorar la escalabilidad de Bitcoin y hacerlo utilizable para pagos de bajo valor.
+La [Red Lightning](https://planb.academy/resources/glossary/lightning-network) es una red de [canales de pago](https://planb.academy/resources/glossary/payment-channel) construida sobre el protocolo de Bitcoin, con el objetivo de habilitar transacciones rápidas y de bajo costo. Permite la creación de canales de pago entre participantes, dentro de los cuales las transacciones pueden realizarse casi instantáneamente y con comisiones mínimas, sin necesidad de registrar cada transacción individualmente en la [blockchain](https://planb.academy/resources/glossary/blockchain). Así, la Red Lightning busca mejorar la [escalabilidad](https://planb.academy/resources/glossary/scalability) de Bitcoin y hacerlo utilizable para pagos de bajo valor.
 
 Antes de explorar el aspecto de "red", es importante entender el concepto de un **canal de pago** en Lightning, cómo funciona y sus especificidades. Este es el tema de este primer capítulo.
 
@@ -88,7 +88,7 @@ Un canal de pago permite a dos partes, aquí **Alice** y **Bob**, intercambiar f
 
 ![LNP201](assets/en/001.webp)
 
-En nuestro ejemplo, Alice tiene 100,000 satoshis de su lado del canal, y Bob tiene 30,000, para un total de 130,000 satoshis, lo que constituye la **capacidad del canal**.
+En nuestro ejemplo, Alice tiene 100,000 [satoshis](https://planb.academy/resources/glossary/satoshi-sat) de su lado del canal, y Bob tiene 30,000, para un total de 130,000 satoshis, lo que constituye la **[capacidad del canal](https://planb.academy/resources/glossary/lightning-channel-capacity)**.
 
 **Pero, ¿qué es un satoshi?**
 
@@ -136,7 +136,7 @@ Este capítulo es un poco especial ya que no estará dedicado directamente a Lig
 
 ### Direcciones de Bitcoin, Claves Privadas y Claves Públicas
 
-Una dirección de Bitcoin es una serie de caracteres derivados de una **clave pública**, que a su vez se calcula a partir de una **clave privada**. Como seguramente sabes, se utiliza para bloquear Bitcoin, lo cual equivale a recibirlo en nuestra billetera.
+Una dirección de Bitcoin es una serie de caracteres derivados de una **[clave pública](https://planb.academy/resources/glossary/public-key)**, que a su vez se calcula a partir de una **[clave privada](https://planb.academy/resources/glossary/private-key)**. Como seguramente sabes, se utiliza para bloquear Bitcoin, lo cual equivale a recibirlo en nuestra billetera.
 
 La clave privada es un elemento secreto que **nunca debe ser compartido**, mientras que la clave pública y la dirección pueden ser compartidas sin riesgo de seguridad (su divulgación solo representa un riesgo para tu privacidad). Aquí hay una representación común que adoptaremos a lo largo de este entrenamiento:
 
@@ -146,7 +146,7 @@ La clave privada es un elemento secreto que **nunca debe ser compartido**, mient
 
 ### Transacciones de Bitcoin: Enviar Fondos y Scripts
 
-En Bitcoin, una transacción implica enviar fondos de una dirección a otra. Tomemos el ejemplo de Alice enviando 0.002 Bitcoin a Bob. Alice usa la clave privada asociada con su dirección para **firmar** la transacción, demostrando así que efectivamente puede gastar esos fondos. Pero, ¿qué sucede exactamente detrás de esta transacción? Los fondos en una dirección de Bitcoin están bloqueados por un **script**, una especie de mini-programa que impone ciertas condiciones para gastar los fondos.
+En Bitcoin, una transacción implica enviar fondos de una dirección a otra. Tomemos el ejemplo de Alice enviando 0.002 Bitcoin a Bob. Alice usa la clave privada asociada con su dirección para **[firmar](https://planb.academy/resources/glossary/digital-signature)** la transacción, demostrando así que efectivamente puede gastar esos fondos. Pero, ¿qué sucede exactamente detrás de esta transacción? Los fondos en una dirección de Bitcoin están bloqueados por un **[script](https://planb.academy/resources/glossary/script)**, una especie de mini-programa que impone ciertas condiciones para gastar los fondos.
 
 El script más común requiere una firma con la clave privada asociada a la dirección. Cuando Alice firma una transacción con su clave privada, ella **desbloquea el script** que bloquea los fondos, y estos pueden entonces ser transferidos. La transferencia de fondos implica añadir un nuevo script a estos fondos, estipulando que para gastarlos esta vez, se requerirá la firma de la clave privada de **Bob**.
 
@@ -154,7 +154,7 @@ El script más común requiere una firma con la clave privada asociada a la dire
 
 ### UTXOs: Salidas de Transacción No Gastadas
 
-En Bitcoin, lo que realmente intercambiamos no son directamente Bitcoin, sino **[UTXO](https://planb.academy/resources/glossary/utxo)s** (_Unspent Transaction Outputs_), que significa "salidas de transacción no gastadas".
+En Bitcoin, lo que realmente intercambiamos no son directamente Bitcoin, sino **UTXOs** (_Unspent Transaction Outputs_), que significa "salidas de transacción no gastadas".
 
 Un UTXO es una pieza de Bitcoin que puede ser de cualquier valor, por ejemplo, **2,000 Bitcoin**, **8 Bitcoin**, o incluso **8,000 sats**. Cada UTXO está bloqueado por un script, y para gastarlo, se deben satisfacer las condiciones del script, a menudo una firma con la clave privada correspondiente a una dirección de recepción dada.
 
@@ -210,9 +210,9 @@ Como vimos en el primer capítulo, un **canal de pago** en Lightning puede compa
 
 Es crucial distinguir claramente los diferentes niveles de intercambio en la Red Lightning:
 
-- **Comunicaciones entre pares (protocolo Lightning)**: Estos son los mensajes que los nodos de Lightning se envían entre sí para comunicarse. Representaremos estos mensajes con líneas negras punteadas en nuestros diagramas.
+- **Comunicaciones [entre pares](https://planb.academy/resources/glossary/peertopeer-p2p) (protocolo Lightning)**: Estos son los mensajes que los [nodos de Lightning](https://planb.academy/resources/glossary/lightning-node) se envían entre sí para comunicarse. Representaremos estos mensajes con líneas negras punteadas en nuestros diagramas.
 - **Canales de pago (protocolo Lightning)**: Estos son los caminos para intercambiar fondos en Lightning, que representaremos con líneas negras sólidas.
-- **Transacciones de Bitcoin (protocolo Bitcoin)**: Estas son las transacciones realizadas en la cadena, que representaremos con líneas naranjas.
+- **Transacciones de Bitcoin (protocolo Bitcoin)**: Estas son las transacciones realizadas [en la cadena](https://planb.academy/resources/glossary/onchain), que representaremos con líneas naranjas.
 
 ![LNP201](assets/en/010.webp)
 
@@ -246,7 +246,7 @@ Es importante señalar que un nodo Lightning puede comunicarse a través del pro
 
 ### ¿Cuándo se considera abierto el canal?
 
-El canal se considera abierto una vez que la transacción de depósito se incluye en un bloque de Bitcoin y ha alcanzado una cierta profundidad de confirmaciones (número de bloques siguientes).
+El canal se considera abierto una vez que la transacción de depósito se incluye en un [bloque](https://planb.academy/resources/glossary/block) de Bitcoin y ha alcanzado una cierta profundidad de [confirmaciones](https://planb.academy/resources/glossary/confirmation) (número de bloques siguientes).
 
 **¿Qué debes recordar de este capítulo?**
 
@@ -350,9 +350,9 @@ Peor aún, Alice podría publicar la primera transacción de retiro, la que se h
 
 Para prevenir este tipo de engaño por parte de Alice, en la Red Lightning, se añaden **mecanismos de seguridad** a las transacciones de compromiso:
 
-- **El timelock**: Cada transacción de compromiso incluye un timelock para los fondos de Alice. El timelock es una primitiva de contrato inteligente que establece una condición de tiempo que debe cumplirse para que una transacción se añada a un bloque. Esto significa que Alice no puede recuperar sus fondos hasta que haya pasado un cierto número de bloques si publica una de las transacciones de compromiso. Este timelock comienza a aplicarse desde la confirmación de la transacción de compromiso. Su duración es generalmente proporcional al tamaño del canal, pero también puede configurarse manualmente.
+- **El [timelock](https://planb.academy/resources/glossary/timelock)**: Cada transacción de compromiso incluye un timelock para los fondos de Alice. El timelock es una primitiva de [contrato inteligente](https://planb.academy/resources/glossary/smart-contract) que establece una condición de tiempo que debe cumplirse para que una transacción se añada a un bloque. Esto significa que Alice no puede recuperar sus fondos hasta que haya pasado un cierto número de bloques si publica una de las transacciones de compromiso. Este timelock comienza a aplicarse desde la confirmación de la transacción de compromiso. Su duración es generalmente proporcional al tamaño del canal, pero también puede configurarse manualmente.
 - **Revocation Key**: Los fondos de Alice también pueden ser gastados inmediatamente por Bob si él posee la **revocation key**. Esta clave consiste en un secreto mantenido por Alice y un secreto mantenido por Bob. Note que este secreto es diferente para cada transacción de compromiso.
-   Gracias a estos 2 mecanismos combinados, Bob tiene tiempo para detectar el intento de Alice de engañar y castigarla recuperando su salida con la llave de revocación, lo que para Bob significa recuperar todos los fondos del canal. Nuestra nueva transacción de compromiso ahora se verá así:
+   Gracias a estos 2 mecanismos combinados, Bob tiene tiempo para detectar el intento de Alice de engañar y castigarla recuperando su [salida](https://planb.academy/resources/glossary/output) con la llave de revocación, lo que para Bob significa recuperar todos los fondos del canal. Nuestra nueva transacción de compromiso ahora se verá así:
   
    ![LNP201](assets/en/025.webp)
 
@@ -363,7 +363,7 @@ Detallemos el funcionamiento de este mecanismo juntos.
 Cuando Alice y Bob actualizan el estado del canal con una nueva transacción de Lightning, intercambian de antemano sus respectivos **secretos** para la transacción de compromiso anterior (la que se volverá obsoleta y podría permitir que uno de ellos engañe). Esto significa que, en el nuevo estado del canal:
 
 - Alice y Bob tienen una nueva transacción de compromiso que representa la distribución actual de fondos después de la transacción de Lightning.
-- Cada uno tiene el secreto del otro para la transacción anterior, lo que les permite usar la llave de revocación solo si uno de ellos intenta engañar publicando una transacción con un estado antiguo en los mempools de los nodos de Bitcoin. De hecho, para castigar a la otra parte, es necesario tener ambos secretos y la transacción de compromiso del otro, que incluye la entrada firmada. Sin esta transacción, la llave de revocación por sí sola es inútil. La única forma de obtener esta transacción es recuperarla de los mempools (en las transacciones esperando confirmación) o en las transacciones confirmadas en la blockchain durante el timelock, lo que demuestra que la otra parte está intentando engañar, ya sea intencionalmente o no.
+- Cada uno tiene el secreto del otro para la transacción anterior, lo que les permite usar la llave de revocación solo si uno de ellos intenta engañar publicando una transacción con un estado antiguo en los [mempools](https://planb.academy/resources/glossary/mempool) de los nodos de Bitcoin. De hecho, para castigar a la otra parte, es necesario tener ambos secretos y la transacción de compromiso del otro, que incluye la [entrada firmada](https://planb.academy/resources/glossary/input). Sin esta transacción, la llave de revocación por sí sola es inútil. La única forma de obtener esta transacción es recuperarla de los mempools (en las transacciones esperando confirmación) o en las transacciones confirmadas en la blockchain durante el timelock, lo que demuestra que la otra parte está intentando engañar, ya sea intencionalmente o no.
 
 Tomemos un ejemplo para entender bien este proceso:
 
@@ -430,7 +430,7 @@ En un **cierre cooperativo**, Alice y Bob acuerdan cerrar el canal. Así es como
 
 ![LNP201](assets/en/031.webp)
 
-- Alice y Bob negocian juntos las tarifas de la **transacción de cierre**. Estas tarifas generalmente se calculan basadas en el mercado de tarifas de Bitcoin en el momento del cierre. Es importante notar que **siempre es la persona que abrió el canal** (Alice en nuestro ejemplo) quien paga las tarifas de cierre.
+- Alice y Bob negocian juntos las [tarifas](https://planb.academy/resources/glossary/transaction-fees) de la **transacción de cierre**. Estas tarifas generalmente se calculan basadas en el mercado de tarifas de Bitcoin en el momento del cierre. Es importante notar que **siempre es la persona que abrió el canal** (Alice en nuestro ejemplo) quien paga las tarifas de cierre.
 - Ellos construyen una nueva **transacción de cierre**. Esta transacción se parece a una transacción de compromiso, pero sin bloqueos de tiempo o mecanismos de revocación, ya que ambas partes están cooperando y no hay riesgo de trampa. Esta transacción de cierre cooperativo es, por lo tanto, diferente de las transacciones de compromiso.
    Por ejemplo, si Alice posee **100,000 satoshis** y Bob **30,000 satoshis**, la transacción de cierre enviará **100,000 satoshis** a la dirección de Alice y **30,000 satoshis** a la dirección de Bob, sin restricciones de timelock. Una vez que esta transacción es firmada por ambas partes, es publicada por Alice. Una vez que la transacción es confirmada en la blockchain de Bitcoin, el canal Lightning será oficialmente cerrado.
 
@@ -484,11 +484,11 @@ Hay tres maneras de cerrar un canal:
 
 :::video id=38419c23-5592-4573-b0a7-84824a5bfb77:::
 
-En este capítulo, exploraremos cómo los pagos en la Red Lightning pueden llegar a un destinatario incluso si no están conectados directamente por un canal de pago. Lightning es, de hecho, una **red de canales de pago**, que permite enviar fondos a un nodo distante a través de los canales de otros participantes. Descubriremos cómo se enrutan los pagos a través de la red, cómo se mueve la liquidez entre canales y cómo se calculan las tarifas de transacción.
+En este capítulo, exploraremos cómo los pagos en la Red Lightning pueden llegar a un destinatario incluso si no están conectados directamente por un canal de pago. Lightning es, de hecho, una **red de canales de pago**, que permite enviar fondos a un nodo distante a través de los canales de otros participantes. Descubriremos cómo se enrutan los pagos a través de la red, cómo se mueve la [liquidez](https://planb.academy/resources/glossary/liquidity-lightning) entre canales y cómo se calculan las tarifas de transacción.
 
 ### La Red de Canales de Pago
 
-En la Red Lightning, una transacción corresponde a una transferencia de fondos entre dos nodos. Como se vio en capítulos anteriores, es necesario abrir un canal con alguien para realizar transacciones Lightning. Este canal permite realizar un número casi infinito de transacciones fuera de la cadena antes de cerrarlo para reclamar el saldo en la cadena. Sin embargo, este método tiene la desventaja de requerir un canal directo con la otra persona para recibir o enviar fondos, lo que implica una transacción de apertura y una transacción de cierre para cada canal. Si planeo hacer un gran número de pagos con esta persona, abrir y cerrar un canal se vuelve rentable. Por el contrario, si solo necesito realizar unas pocas transacciones Lightning, abrir un canal directo no es ventajoso, ya que me costaría 2 transacciones en la cadena por un número limitado de transacciones fuera de la cadena. Este caso podría ocurrir, por ejemplo, cuando se desea pagar con Lightning en un comercio sin planear volver.
+En la Red Lightning, una transacción corresponde a una transferencia de fondos entre dos nodos. Como se vio en capítulos anteriores, es necesario abrir un canal con alguien para realizar transacciones Lightning. Este canal permite realizar un número casi infinito de transacciones [fuera de la cadena](https://planb.academy/resources/glossary/offchain) antes de cerrarlo para reclamar el saldo en la cadena. Sin embargo, este método tiene la desventaja de requerir un canal directo con la otra persona para recibir o enviar fondos, lo que implica una transacción de apertura y una transacción de cierre para cada canal. Si planeo hacer un gran número de pagos con esta persona, abrir y cerrar un canal se vuelve rentable. Por el contrario, si solo necesito realizar unas pocas transacciones Lightning, abrir un canal directo no es ventajoso, ya que me costaría 2 transacciones en la cadena por un número limitado de transacciones fuera de la cadena. Este caso podría ocurrir, por ejemplo, cuando se desea pagar con Lightning en un comercio sin planear volver.
 
 Para resolver este problema, la Red Lightning permite enrutar un pago a través de varios canales y nodos intermediarios, lo que permite realizar una transacción sin un canal directo con la otra persona.
 
@@ -599,7 +599,7 @@ En este capítulo, exploramos el enrutamiento de pagos en la Red Lightning. Pero
 
 :::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
-En este capítulo, descubriremos cómo Lightning permite que los pagos transiten a través de nodos intermediarios sin necesidad de confiar en ellos, gracias a los **[HTLC](https://planb.academy/resources/glossary/htlc)** (_Hashed Time-Locked Contracts_ o Contratos de Tiempo Bloqueado con Hash). Estos contratos inteligentes aseguran que cada nodo intermediario solo recibirá los fondos de su canal si reenvía el pago al destinatario final, de lo contrario, el pago no será validado.
+En este capítulo, descubriremos cómo Lightning permite que los pagos transiten a través de nodos intermediarios sin necesidad de confiar en ellos, gracias a los **HTLC** (_Hashed Time-Locked Contracts_ o Contratos de Tiempo Bloqueado con Hash). Estos contratos inteligentes aseguran que cada nodo intermediario solo recibirá los fondos de su canal si reenvía el pago al destinatario final, de lo contrario, el pago no será validado.
 
 El problema que surge para el enrutamiento de pagos es, por lo tanto, la confianza necesaria en los nodos intermediarios, y entre los propios nodos intermediarios. Para ilustrar esto, revisemos nuestro ejemplo simplificado de la red Lightning con 3 nodos y 2 canales:
 
@@ -627,7 +627,7 @@ Así es como funciona este proceso en nuestro ejemplo con Alice, Suzie y Bob:
 
 ![LNP201](assets/en/048.webp)
 
-**Creando el secreto**: Bob genera un secreto aleatorio denotado como _s_ (la preimage), y calcula su hash denotado como _r_ con la función hash denotada como _h_. Tenemos:
+**Creando el secreto**: Bob genera un secreto aleatorio denotado como _s_ (la preimage), y calcula su hash denotado como _r_ con la [función hash](https://planb.academy/resources/glossary/hash-function) denotada como _h_. Tenemos:
 
 $$
 r = h(s)
@@ -737,7 +737,7 @@ Incluso con esta topología de la Red Lightning, hay información esencial para 
 
 ### Actualización del Mapa de la Red
 
-Para mantener su mapa de la red actualizado, los nodos intercambian regularmente mensajes a través de un algoritmo llamado "**_gossip_**" (chismorreo). Este es un algoritmo distribuido utilizado para difundir información de manera epidémica a todos los nodos en la red, lo que permite el intercambio y sincronización del estado global de los canales en unos pocos ciclos de comunicación. Cada nodo propaga información a uno o más vecinos elegidos al azar o no, estos, a su vez, propagan la información a otros vecinos y así sucesivamente hasta que se logra un estado sincronizado a nivel global.
+Para mantener su mapa de la red actualizado, los nodos intercambian regularmente mensajes a través de un algoritmo llamado "**_[gossip](https://planb.academy/resources/glossary/gossip)_**" (chismorreo). Este es un algoritmo distribuido utilizado para difundir información de manera epidémica a todos los nodos en la red, lo que permite el intercambio y sincronización del estado global de los canales en unos pocos ciclos de comunicación. Cada nodo propaga información a uno o más vecinos elegidos al azar o no, estos, a su vez, propagan la información a otros vecinos y así sucesivamente hasta que se logra un estado sincronizado a nivel global.
 
 Los 2 mensajes principales intercambiados entre los nodos Lightning son los siguientes:
 
@@ -811,7 +811,7 @@ En el siguiente capítulo, estudiaremos específicamente el funcionamiento de la
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
 :::video id=309c3412-506e-4189-ad46-5e5088c55008:::
 
-En este capítulo, vamos a examinar más de cerca el funcionamiento de las **facturas** de Lightning, es decir, solicitudes de pago enviadas por el nodo receptor al nodo emisor. El objetivo es entender cómo pagar y recibir pagos en Lightning. También discutiremos 2 alternativas a las facturas clásicas: LNURL y Keysend.
+En este capítulo, vamos a examinar más de cerca el funcionamiento de las **facturas** de Lightning, es decir, solicitudes de pago enviadas por el nodo receptor al nodo emisor. El objetivo es entender cómo pagar y recibir pagos en Lightning. También discutiremos 2 alternativas a las facturas clásicas: [LNURL](https://planb.academy/resources/glossary/lnurl) y Keysend.
 
 ![LNP201](assets/en/068.webp)
 
@@ -887,7 +887,7 @@ El cuerpo de una factura incluye varias piezas de información necesarias para p
 - **Indicaciones de Enrutamiento**: Información adicional proporcionada por el receptor para ayudar al emisor a optimizar la ruta de pago.
 - **La Firma**: Garantiza la integridad de la factura autenticando toda la información.
 
-Las facturas se codifican entonces en **bech32**, el mismo formato que para las direcciones SegWit de Bitcoin (formato que comienza con `bc1`).
+Las facturas se codifican entonces en **[bech32](https://planb.academy/resources/glossary/bech32-and-bech32m)**, el mismo formato que para las direcciones [SegWit](https://planb.academy/resources/glossary/segwit) de Bitcoin (formato que comienza con `bc1`).
 
 ### Retiro LNURL
 
@@ -928,8 +928,8 @@ En este capítulo, exploraremos estrategias para gestionar efectivamente la liqu
 
 Existen tres perfiles principales de usuarios en Lightning, cada uno con necesidades específicas de liquidez:
 
-- **El Pagador**: Es quien realiza pagos. Necesitan liquidez saliente para poder transferir fondos a otros usuarios. Por ejemplo, esto podría ser un consumidor.
-- **El Vendedor (o Beneficiario)**: Es quien recibe pagos. Necesitan liquidez entrante para poder aceptar pagos en su nodo. Por ejemplo, esto podría ser un negocio o una tienda en línea.
+- **El Pagador**: Es quien realiza pagos. Necesitan [liquidez saliente](https://planb.academy/resources/glossary/outbound-capacity) para poder transferir fondos a otros usuarios. Por ejemplo, esto podría ser un consumidor.
+- **El Vendedor (o Beneficiario)**: Es quien recibe pagos. Necesitan [liquidez entrante](https://planb.academy/resources/glossary/inbound-capacity) para poder aceptar pagos en su nodo. Por ejemplo, esto podría ser un negocio o una tienda en línea.
 - **El Enrutador**: Un nodo intermediario, a menudo especializado en el enrutamiento de pagos, que debe optimizar su liquidez en cada canal para enrutador tantos pagos como sea posible y ganar comisiones.
 
 Estos perfiles obviamente no son fijos; un usuario puede cambiar entre pagador y beneficiario dependiendo de las transacciones. Por ejemplo, Bob podría recibir su salario en Lightning de su empleador, colocándolo en la posición de un "vendedor" que requiere liquidez entrante. Posteriormente, si quiere usar su salario para comprar comida, se convierte en un "pagador" y debe entonces tener liquidez saliente.

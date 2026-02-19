@@ -1117,7 +1117,7 @@ W logice politycznej dominacji pieniądz przestaje być towarem lub usługą jak
 
 
 
-Już w średniowieczu Nicolas Oresme analizował szkodliwy wpływ manipulacji monetarnych na handel. Spadek wartości pieniądza powoduje inflację i destabilizuje ceny, ponieważ sygnał pieniężny staje się niepewny, gdy mistrz miar wartości może arbitralnie zmieniać ich zawartość. Sam pieniądz metaliczny był często jedynie iluzją, z monetami zawierającymi stopy o niskiej wartości, które niektórzy XIX-wieczni liberalni pisarze nazywali miedzianymi assignatami.
+Już w średniowieczu Nicolas Oresme analizował szkodliwy wpływ manipulacji monetarnych na handel. Spadek wartości pieniądza powoduje [inflację](https://planb.academy/resources/glossary/inflation) i destabilizuje ceny, ponieważ sygnał pieniężny staje się niepewny, gdy mistrz miar wartości może arbitralnie zmieniać ich zawartość. Sam pieniądz metaliczny był często jedynie iluzją, z monetami zawierającymi stopy o niskiej wartości, które niektórzy XIX-wieczni liberalni pisarze nazywali miedzianymi assignatami.
 
 
 

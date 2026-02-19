@@ -92,7 +92,7 @@ Seperti halnya setiap kursus Plan ₿ Academy, bagian akhir kursus ini mencakup 
 ### Dasar-dasar Pemrograman Bitcoin: Struktur Matematika Inti
 
 
-Kursus ini memadatkan matematika esensial di balik sistem kriptografi Bitcoin ke dalam alur kerja yang sangat praktis. Konsep-konsep akan dijelaskan, didemonstrasikan dengan contoh-contoh, dan kemudian diimplementasikan dalam Jupyter Notebook. Ide panduannya sederhana: Anda hanya benar-benar memahami primitif kriptografi setelah Anda mengkodekannya. Selama dua hari, para siswa akan mempelajari alamat testnet generate, membangun dan menyiarkan transaksi, dan pada akhirnya berinteraksi dengan jaringan tanpa penjelajah blok. Semua ini membutuhkan fondasi yang kuat dalam bidang terbatas dan kurva elips.
+Kursus ini memadatkan matematika esensial di balik sistem kriptografi Bitcoin ke dalam alur kerja yang sangat praktis. Konsep-konsep akan dijelaskan, didemonstrasikan dengan contoh-contoh, dan kemudian diimplementasikan dalam Jupyter Notebook. Ide panduannya sederhana: Anda hanya benar-benar memahami primitif kriptografi setelah Anda mengkodekannya. Selama dua hari, para siswa akan mempelajari alamat testnet generate, membangun dan menyiarkan [transaksi](https://planb.academy/resources/glossary/transaction-tx), dan pada akhirnya berinteraksi dengan jaringan tanpa penjelajah blok. Semua ini membutuhkan fondasi yang kuat dalam bidang terbatas dan kurva elips.
 
 
 ### Bidang Berhingga: Mesin Aritmatika Kriptografi
@@ -103,7 +103,7 @@ Lapangan terbatas F(p) adalah sistem aritmatika yang didefinisikan oleh bilangan
 
 #### Perilaku Multiplikatif
 
-Mengalikan setiap elemen bukan nol k dengan semua elemen dari sebuah lapangan prima menghasilkan sebuah permutasi dari lapangan tersebut. Sifat ini menjamin keseragaman dan mencegah kelemahan struktural, membuat lapangan prima ideal untuk pembuatan kunci yang aman dan tanda tangan digital.
+Mengalikan setiap elemen bukan nol k dengan semua elemen dari sebuah lapangan prima menghasilkan sebuah permutasi dari lapangan tersebut. Sifat ini menjamin keseragaman dan mencegah kelemahan struktural, membuat lapangan prima ideal untuk pembuatan kunci yang aman dan [tanda tangan digital](https://planb.academy/resources/glossary/digital-signature).
 
 
 #### Pembagian dan Teorema Kecil Fermat
@@ -112,7 +112,7 @@ Pembagian diimplementasikan melalui invers perkalian. Teorema Kecil Fermat menya
 
 n^(p-1) ≡ 1 (mod p),
 
-jadi kebalikannya adalah n^(p-2). Python mendukung hal ini secara langsung dengan `pow(n, -1, p)`. Operasi-operasi ini muncul secara konstan dalam rutinitas kriptografi yang mendasari ECDSA dan Bitcoin.
+jadi kebalikannya adalah n^(p-2). Python mendukung hal ini secara langsung dengan `pow(n, -1, p)`. Operasi-operasi ini muncul secara konstan dalam rutinitas kriptografi yang mendasari [ECDSA](https://planb.academy/resources/glossary/ecdsa) dan Bitcoin.
 
 
 ### Kurva Elips: Struktur Nonlinier untuk Keamanan Kunci Publik
@@ -138,7 +138,7 @@ Bidang terbatas menyediakan aritmatika yang deterministik dan dapat dibalik; kur
 ![lecture](https://www.youtube.com/watch?v=xOXdKuF3UFw)
 
 
-Bab ini memperkenalkan kurva eliptik yang didefinisikan pada bidang terbatas dan menjelaskan mengapa kurva ini membentuk tulang punggung matematika dari kriptografi Bitcoin. Meskipun kurva eliptik pada bilangan real terlihat mulus dan kontinu, menerapkan persamaan yang sama pada bidang yang terbatas akan menghasilkan sekumpulan titik yang diskrit dan tersebar. Terlepas dari perbedaan visual, semua rumus penjumlahan titik, kemiringan, dan aturan aljabar berperilaku sama persis - hanya aritmatika yang berubah menjadi aritmatika modular. Bitcoin menggunakan kurva y² = x³ + 7 (secp256k1), yang mempertahankan simetri dan perilaku nonlinier yang sangat penting untuk keamanan kriptografi.
+Bab ini memperkenalkan kurva eliptik yang didefinisikan pada bidang terbatas dan menjelaskan mengapa kurva ini membentuk tulang punggung matematika dari [kriptografi](https://planb.academy/resources/glossary/cryptography) Bitcoin. Meskipun kurva eliptik pada bilangan real terlihat mulus dan kontinu, menerapkan persamaan yang sama pada bidang yang terbatas akan menghasilkan sekumpulan titik yang diskrit dan tersebar. Terlepas dari perbedaan visual, semua rumus penjumlahan titik, kemiringan, dan aturan aljabar berperilaku sama persis - hanya aritmatika yang berubah menjadi aritmatika modular. Bitcoin menggunakan kurva y² = x³ + 7 (secp256k1), yang mempertahankan simetri dan perilaku nonlinier yang sangat penting untuk keamanan kriptografi.
 
 
 ### Memverifikasi Poin dan Implementasi Lapangan Terbatas
@@ -155,7 +155,7 @@ Titik-titik kurva elips membentuk kelompok matematika di bawah penjumlahan. Grup
 ### Grup Siklik dan Masalah Logaritma Diskrit
 
 
-Memilih titik generator G pada kurva memungkinkan kita untuk membuat grup siklik: G, 2G, 3G, ..., nG = 0. Titik-titik tersebut tampak nonlinier dan tidak dapat diprediksi, bahkan ketika dibangkitkan secara berurutan. Ketidakpastian ini menciptakan fondasi untuk masalah logaritma diskrit: menghitung P = sG adalah mudah, tetapi menentukan s dari P secara komputasi tidak dapat dilakukan untuk grup-grup yang besar. Fungsi satu arah inilah yang membuat kriptografi kunci publik menjadi aman. Skala (kunci privat) ditulis dengan huruf kecil; titik (kunci publik) dengan huruf besar.
+Memilih titik generator G pada kurva memungkinkan kita untuk membuat grup siklik: G, 2G, 3G, ..., nG = 0. Titik-titik tersebut tampak nonlinier dan tidak dapat diprediksi, bahkan ketika dibangkitkan secara berurutan. Ketidakpastian ini menciptakan fondasi untuk masalah logaritma diskrit: menghitung P = sG adalah mudah, tetapi menentukan s dari P secara komputasi tidak dapat dilakukan untuk grup-grup yang besar. Fungsi satu arah inilah yang membuat kriptografi [kunci publik](https://planb.academy/resources/glossary/public-key) menjadi aman. Skala ([kunci privat](https://planb.academy/resources/glossary/private-key)) ditulis dengan huruf kecil; titik (kunci publik) dengan huruf besar.
 
 
 #### Perkalian Skalar yang Efisien
@@ -178,7 +178,7 @@ Kunci privat adalah sebuah skalar acak s; kunci publik adalah P = sG. Karena pem
 #### Bitcoin Address Penciptaan
 
 
-Alamat Bitcoin adalah hash dari kunci publik, bukan kunci mentah itu sendiri. Untuk generate sebuah alamat, serialisasi kunci publik dalam format SEC, hitung hash160 (SHA-256 kemudian RIPEMD-160), tambahkan awalan jaringan (0x00 untuk mainnet, 0x6F untuk testnet), hitung checksum dengan menggunakan SHA-256 ganda, tambahkan empat byte checksum pertama, dan enkode hasilnya dengan menggunakan Base58. Pengkodean ini menghilangkan karakter yang ambigu dan menyertakan checksum untuk mencegah kesalahan transkripsi. Pipeline multi-langkah menyembunyikan kunci publik hingga terjadi pengeluaran, menambahkan identifikasi jaringan, dan memastikan alamat yang dapat dibaca manusia dan tahan terhadap kesalahan.
+Alamat Bitcoin adalah hash dari kunci publik, bukan kunci mentah itu sendiri. Untuk generate sebuah alamat, serialisasi kunci publik dalam format SEC, hitung hash160 ([SHA-256](https://planb.academy/resources/glossary/sha256) kemudian RIPEMD-160), tambahkan awalan jaringan (0x00 untuk mainnet, 0x6F untuk testnet), hitung checksum dengan menggunakan SHA-256 ganda, tambahkan empat byte checksum pertama, dan enkode hasilnya dengan menggunakan Base58. Pengkodean ini menghilangkan karakter yang ambigu dan menyertakan checksum untuk mencegah kesalahan transkripsi. Pipeline multi-langkah menyembunyikan kunci publik hingga terjadi pengeluaran, menambahkan identifikasi jaringan, dan memastikan alamat yang dapat dibaca manusia dan tahan terhadap kesalahan.
 
 
 # Bitcoin Cara Kerja Transaksi Bagian Dalam
@@ -212,13 +212,13 @@ Bitcoin mengkodekan tanda tangan ECDSA menggunakan format DER:
 - 0x02 + panjang + S byte
 
 
-Hal ini menambah overhead, memperluas tanda tangan 64-byte menjadi ~71-72 byte. Taproot menghilangkan ketidakefisienan ini dengan mengadopsi tanda tangan Schnorr ukuran tetap.
+Hal ini menambah overhead, memperluas tanda tangan 64-byte menjadi ~71-72 byte. [Taproot](https://planb.academy/resources/glossary/taproot) menghilangkan ketidakefisienan ini dengan mengadopsi tanda tangan [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol) ukuran tetap.
 
 
 ### Komitmen Tanda Tangan dan Proses Penandatanganan
 
 
-Tanda tangan ECDSA bergantung pada persamaan komitmen: UG + VP = KG. Penanda tangan memilih nilai U dan V yang bukan nol, dan sebuah nonce acak K, yang membuktikan pengetahuan tentang kunci pribadi tanpa mengungkapkannya. Pesan tersebut di-hash menjadi Z, sebuah K acak dibangkitkan, R adalah koordinat x dari KG, dan S = (Z + RE) / K. Tanda tangan adalah pasangan (R, S). Keamanan sangat bergantung pada penggunaan K yang unik dan tidak dapat diprediksi-jika K digunakan kembali atau bocor, kunci privat akan terganggu. Implementasi modern menggunakan pembangkitan K deterministik (RFC 6979) untuk menghindari kegagalan RNG.
+Tanda tangan ECDSA bergantung pada persamaan komitmen: UG + VP = KG. Penanda tangan memilih nilai U dan V yang bukan nol, dan sebuah [nonce](https://planb.academy/resources/glossary/nonce) acak K, yang membuktikan pengetahuan tentang kunci pribadi tanpa mengungkapkannya. Pesan tersebut di-hash menjadi Z, sebuah K acak dibangkitkan, R adalah koordinat x dari KG, dan S = (Z + RE) / K. Tanda tangan adalah pasangan (R, S). Keamanan sangat bergantung pada penggunaan K yang unik dan tidak dapat diprediksi-jika K digunakan kembali atau bocor, kunci privat akan terganggu. Implementasi modern menggunakan pembangkitan K deterministik (RFC 6979) untuk menghindari kegagalan RNG.
 
 
 #### Verifikasi Tanda Tangan
@@ -245,7 +245,7 @@ Transaksi Bitcoin terdiri dari:
 - waktu penguncian (4 byte)
 
 
-Input mereferensikan UTXO sebelumnya berdasarkan hash transaksi dan indeks output, dan termasuk skrip pembuka kunci (scriptSig) dan nomor urut yang digunakan untuk penguncian waktu atau RBF. Keluaran menentukan jumlah (8 byte) dan skrip penguncian (scriptPubKey), yang menentukan kondisi pengeluaran. Alamat Bitcoin adalah representasi dari skrip ini.
+Input mereferensikan [UTXO](https://planb.academy/resources/glossary/utxo) sebelumnya berdasarkan hash transaksi dan indeks output, dan termasuk [skrip](https://planb.academy/resources/glossary/script) pembuka kunci (scriptSig) dan nomor urut yang digunakan untuk penguncian waktu atau RBF. Keluaran menentukan jumlah (8 byte) dan skrip penguncian (scriptPubKey), yang menentukan kondisi pengeluaran. Alamat Bitcoin adalah representasi dari skrip ini.
 
 
 #### Model UTXO
@@ -275,7 +275,7 @@ Biaya bersifat implisit:
 
 biaya = jumlah (nilai input) - jumlah (nilai output).
 
-Setiap nilai yang tidak ditetapkan menjadi biaya, membuat konstruksi keluaran perubahan yang benar menjadi penting. Sebelum SegWit, tanda tangan memungkinkan perubahan S menjadi N-S menghasilkan transaksi baru yang valid dengan ID yang berbeda. Bitcoin sekarang memberlakukan aturan S rendah, dan SegWit mengisolasi tanda tangan dari perhitungan txid, membuat ID stabil dan memungkinkan protokol lapisan kedua seperti Lightning.
+Setiap nilai yang tidak ditetapkan menjadi biaya, membuat konstruksi keluaran perubahan yang benar menjadi penting. Sebelum [SegWit](https://planb.academy/resources/glossary/segwit), tanda tangan memungkinkan perubahan S menjadi N-S menghasilkan transaksi baru yang valid dengan ID yang berbeda. Bitcoin sekarang memberlakukan aturan S rendah, dan SegWit mengisolasi tanda tangan dari perhitungan txid, membuat ID stabil dan memungkinkan protokol lapisan kedua seperti [Lightning](https://planb.academy/resources/glossary/lightning-network).
 
 
 ## Bitcoin Skrip dan Validasi Transaksi
@@ -292,7 +292,7 @@ Bitcoin Script adalah bahasa kontrak pintar kecil berbasis stack yang mendefinis
 ### Operasi Skrip dan Model Eksekusi
 
 
-Skrip adalah urutan elemen data dan opcode. Data push (tanda tangan, kunci publik, hash) ditempatkan pada stack, sementara opcode yang dimulai dengan `OP_` mengubah stack. Setelah dieksekusi, elemen tumpukan paling atas harus bukan nol agar berhasil. Contoh: `OP_DUP` menduplikasi elemen teratas, `OP_HASH160` menerapkan SHA256 kemudian RIPEMD160, dan `OP_CHECKSIG` memverifikasi tanda tangan terhadap sighash transaksi dan kunci publik, dengan memberikan nilai 1 untuk valid, 0 untuk tidak valid. Aturan penguraian membedakan antara data mentah (diawali dengan panjang) dan opcode (dicari berdasarkan nilai byte), dan mesin virtual kecil mengeksekusinya secara deterministik pada setiap node.
+Skrip adalah urutan elemen data dan opcode. Data push (tanda tangan, kunci publik, hash) ditempatkan pada stack, sementara opcode yang dimulai dengan `OP_` mengubah stack. Setelah dieksekusi, elemen tumpukan paling atas harus bukan nol agar berhasil. Contoh: `OP_DUP` menduplikasi elemen teratas, `OP_HASH160` menerapkan SHA256 kemudian RIPEMD160, dan `OP_CHECKSIG` memverifikasi tanda tangan terhadap sighash transaksi dan kunci publik, dengan memberikan nilai 1 untuk valid, 0 untuk tidak valid. Aturan penguraian membedakan antara data mentah (diawali dengan panjang) dan opcode (dicari berdasarkan nilai byte), dan mesin virtual kecil mengeksekusinya secara deterministik pada setiap [node](https://planb.academy/resources/glossary/node).
 
 
 ### P2PK dan P2PKH: Pola Pembayaran Inti
@@ -329,7 +329,7 @@ Karena setiap input dalam transaksi lama membutuhkan komputasi sighash sendiri a
 ### Teka-teki Naskah dan Pelajaran Keamanan
 
 
-Script dapat mengekspresikan lebih dari sekadar "satu tanda tangan membuka koin-koin ini." Teka-teki skrip mendemonstrasikan hal ini dengan mengkodekan kondisi yang berubah-ubah - masalah matematika, tantangan hash preimage, atau bahkan collision bounty - dimana siapa saja yang memberikan data yang benar dapat membelanjakan koin. Akan tetapi, keluaran yang hanya mengandalkan data publik (tanpa tanda tangan) rentan terhadap penambang yang sedang berjalan di depan: setelah solusi yang valid muncul di mempool, penambang manapun dapat menyalinnya dan mengarahkan pembayaran untuk mereka sendiri.
+Script dapat mengekspresikan lebih dari sekadar "satu tanda tangan membuka koin-koin ini." Teka-teki skrip mendemonstrasikan hal ini dengan mengkodekan kondisi yang berubah-ubah - masalah matematika, tantangan hash preimage, atau bahkan collision bounty - dimana siapa saja yang memberikan data yang benar dapat membelanjakan koin. Akan tetapi, keluaran yang hanya mengandalkan data publik (tanpa tanda tangan) rentan terhadap [penambang](https://planb.academy/resources/glossary/miner) yang sedang berjalan di depan: setelah solusi yang valid muncul di [mempool](https://planb.academy/resources/glossary/mempool), penambang manapun dapat menyalinnya dan mengarahkan pembayaran untuk mereka sendiri.
 
 
 Pelajaran praktisnya adalah bahwa kontrak di dunia nyata hampir selalu menyertakan pemeriksaan tanda tangan, bahkan ketika kontrak tersebut mengandung logika yang lebih kompleks seperti multisig, timelock, atau hashlock. Tanda tangan mengikat solusi kepada pihak tertentu, menjaga insentif dan mencegah pihak lain mencuri pembayaran. Memahami model tumpukan Script, pola standar, dan jebakan halus sangat penting untuk merancang kontrak pintar Bitcoin yang aman dan untuk penalaran tentang bagaimana transaksi sebenarnya divalidasi di jaringan.
@@ -402,13 +402,13 @@ P2SH meningkatkan privasi dengan menyembunyikan kondisi pembelanjaan hingga pemb
 ![lecture](https://www.youtube.com/watch?v=lJYSM1iLWQU)
 
 
-Bitcoin memblokir transaksi kelompok dan mengamankannya menggunakan proof of work. Setiap blok mencakup header 80-byte ditambah daftar transaksi. Meskipun biaya energi yang besar untuk memproduksi sebuah blok yang valid, memverifikasi blok tersebut tidaklah mahal: menyimpan semua ~900 ribu header hanya membutuhkan ~72 MB, sehingga memungkinkan perangkat yang kecil sekalipun untuk memverifikasi proof of work rantai secara efisien.
+Bitcoin memblokir transaksi kelompok dan mengamankannya menggunakan [proof of work](https://planb.academy/resources/glossary/proof-of-work). Setiap [blok](https://planb.academy/resources/glossary/block) mencakup [header](https://planb.academy/resources/glossary/block-header) 80-byte ditambah daftar transaksi. Meskipun biaya energi yang besar untuk memproduksi sebuah blok yang valid, memverifikasi blok tersebut tidaklah mahal: menyimpan semua ~900 ribu header hanya membutuhkan ~72 MB, sehingga memungkinkan perangkat yang kecil sekalipun untuk memverifikasi proof of work rantai secara efisien.
 
 
 ### Transaksi Coinbase dan Hadiah Blokir
 
 
-Setiap blok dimulai dengan tepat satu transaksi Coinbase - satu-satunya cara bitcoin baru memasuki sirkulasi. Ia memiliki hash prev-tx nol dan indeks 0xffffffffff, yang secara unik mengidentifikasinya. Subsidi dimulai dari 50 BTC dan dibagi dua setiap 210.000 blok (50, 25, 12,5, 6,25, 3,125,...). Penambang juga memasukkan biaya transaksi. Karena nonce 4-byte terlalu kecil untuk ASIC modern, penambang memodifikasi data dalam transaksi Coinbase untuk mengubah root Merkle dan membuat ruang pencarian tambahan. BIP34 membutuhkan penyematan tinggi blok dalam skrip CoinbaseSig untuk memastikan setiap Coinbase txid unik.
+Setiap blok dimulai dengan tepat satu [transaksi Coinbase](https://planb.academy/resources/glossary/coinbase-transaction) - satu-satunya cara bitcoin baru memasuki sirkulasi. Ia memiliki hash prev-tx nol dan indeks 0xffffffffff, yang secara unik mengidentifikasinya. Subsidi dimulai dari 50 BTC dan dibagi dua setiap 210.000 blok (50, 25, 12,5, 6,25, 3,125,...). Penambang juga memasukkan biaya transaksi. Karena nonce 4-byte terlalu kecil untuk ASIC modern, penambang memodifikasi data dalam transaksi Coinbase untuk mengubah root [Merkle](https://planb.academy/resources/glossary/merkle-tree) dan membuat ruang pencarian tambahan. [BIP](https://planb.academy/resources/glossary/bip)34 membutuhkan penyematan tinggi blok dalam skrip CoinbaseSig untuk memastikan setiap Coinbase txid unik.
 
 
 ### Bidang Header Blok dan Pensinyalan Soft Fork
@@ -421,11 +421,11 @@ Header 80-byte berisi:
 - hash blok sebelumnya (32 byte)
 - Akar Merkle (32 byte)
 - cap waktu (4 byte)
-- bit (target tingkat kesulitan, 4 byte)
+- bit (target [tingkat kesulitan](https://planb.academy/resources/glossary/difficulty), 4 byte)
 - nonce (4 byte)
 
 
-Nomor versi berevolusi menjadi sistem pensinyalan bit-field melalui BIP9, yang memungkinkan para penambang untuk mengoordinasikan kesiapan soft-fork. Stempel waktu adalah nilai waktu Unix 32-bit dan perlu diperbarui sekitar tahun 2106.
+Nomor versi berevolusi menjadi sistem pensinyalan bit-field melalui BIP9, yang memungkinkan para penambang untuk mengoordinasikan kesiapan [soft-fork](https://planb.academy/resources/glossary/soft-fork). Stempel waktu adalah nilai waktu Unix 32-bit dan perlu diperbarui sekitar tahun 2106.
 
 
 #### Bidang Bit dan Target
@@ -459,13 +459,13 @@ Subsidi pada ketinggian h dihitung sebagai: subsidi = 5_000_000_000 >> (h // 210
 ### Arsitektur Jaringan Bitcoin
 
 
-Jaringan peer-to-peer Bitcoin beroperasi sebagai sistem gosip terdesentralisasi di mana node menyampaikan transaksi dan blok tanpa mempercayai satu sama lain. Node baru melakukan bootstrap dengan menghubungi seed DNS yang sudah dikodekan yang dikelola oleh pengembang inti. Seed DNS ini mengembalikan IP dari peers yang aktif, memungkinkan node untuk menemukan jaringan dan kemudian meminta peers tambahan melalui getaddr. Jaringan sengaja tidak bersifat konsensus-kritis, sehingga implementasinya dapat berbeda selama aturan konsensus tidak berubah.
+Jaringan [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) Bitcoin beroperasi sebagai sistem gosip terdesentralisasi di mana node menyampaikan transaksi dan blok tanpa mempercayai satu sama lain. Node baru melakukan bootstrap dengan menghubungi seed DNS yang sudah dikodekan yang dikelola oleh pengembang inti. Seed DNS ini mengembalikan IP dari peers yang aktif, memungkinkan node untuk menemukan jaringan dan kemudian meminta peers tambahan melalui getaddr. Jaringan sengaja tidak bersifat [konsensus](https://planb.academy/resources/glossary/consensus)-kritis, sehingga implementasinya dapat berbeda selama aturan konsensus tidak berubah.
 
 
 ### Struktur Pesan dan Jabat Tangan
 
 
-Semua pesan Bitcoin P2P menggunakan amplop tetap: nilai ajaib 4-byte (F9BEB4D9 untuk mainnet), perintah ASCII 12-byte, panjang payload little-endian 4-byte, checksum 4-byte (4-byte pertama hash256), dan payload. Perintah yang umum termasuk versi, verack, inv, getdata, tx, block, getheader, header, ping, dan pong.
+Semua pesan Bitcoin P2P menggunakan amplop tetap: nilai ajaib 4-byte (F9BEB4D9 untuk mainnet), perintah ASCII 12-byte, panjang payload little-endian 4-byte, checksum 4-byte (4-byte pertama [hash](https://planb.academy/resources/glossary/hash-function)256), dan payload. Perintah yang umum termasuk versi, verack, inv, getdata, tx, block, getheader, header, ping, dan pong.
 
 
 Jabat tangan dimulai ketika simpul penghubung mengirim pesan versi. Penerima membalas dengan verack dan versinya sendiri. Setelah kedua belah pihak bertukar kedua pesan ini, koneksi aktif dan node dapat mulai menyampaikan inventaris dan data.
@@ -479,7 +479,7 @@ Bitcoin menyimpan satu akar Merkle 32-byte di setiap header blok sebagai komitme
 
 #### Bukti Merkle dan SPV
 
-Bukti Merkle memungkinkan untuk memverifikasi bahwa sebuah transaksi termasuk dalam sebuah blok tanpa mengunduh seluruh blok. Bukti ini terdiri dari hash saudara di sepanjang jalur menuju root. Klien SPV yang ringan hanya menyimpan header blok dan meminta bukti-bukti ini dari seluruh node. Karena pohon Merkle tumbuh secara logaritmik, pembuktian penyertaan dalam sebuah blok dengan ribuan transaksi hanya membutuhkan beberapa ratus byte.
+Bukti Merkle memungkinkan untuk memverifikasi bahwa sebuah transaksi termasuk dalam sebuah blok tanpa mengunduh seluruh blok. Bukti ini terdiri dari hash saudara di sepanjang jalur menuju root. Klien SPV yang ringan hanya menyimpan header blok dan meminta bukti-bukti ini dari [seluruh node](https://planb.academy/resources/glossary/full-node). Karena pohon Merkle tumbuh secara logaritmik, pembuktian penyertaan dalam sebuah blok dengan ribuan transaksi hanya membutuhkan beberapa ratus byte.
 
 
 Taproot memperluas konsep ini dengan melakukan kondisi pengeluaran ke pohon skrip Merklized (MAST), yang hanya mengungkapkan cabang yang dieksekusi bersama dengan bukti Merkle. Hal ini meningkatkan efisiensi dan privasi.
@@ -515,7 +515,7 @@ Sesi ini menyatukan jaringan P2P tingkat lanjut dengan Segregated Witness, menun
 ### Pengambilan Transaksi Berbasis Blok dan Privasi
 
 
-Dompet harus mendeteksi pembayaran yang masuk dengan memindai blok untuk mencari output yang sesuai dengan scriptPubKey mereka. Mengambil seluruh blok akan melindungi privasi dengan lebih baik dibandingkan dengan meminta transaksi individu, yang membocorkan sinyal kuat mengenai aktivitas pengguna. Bahkan permintaan blok dapat membocorkan informasi pada rantai bervolume rendah, membuat filter blok ringkas (BIP158) sangat penting untuk klien ringan yang menjaga privasi. Filter dapat menghasilkan positif palsu tetapi tidak pernah negatif palsu, memungkinkan klien untuk mengunduh hanya blok yang berpotensi relevan tanpa mengungkapkan alamat tertentu.
+[Dompet](https://planb.academy/resources/glossary/wallet) harus mendeteksi pembayaran yang masuk dengan memindai blok untuk mencari output yang sesuai dengan scriptPubKey mereka. Mengambil seluruh blok akan melindungi privasi dengan lebih baik dibandingkan dengan meminta transaksi individu, yang membocorkan sinyal kuat mengenai aktivitas pengguna. Bahkan permintaan blok dapat membocorkan informasi pada rantai bervolume rendah, membuat filter blok ringkas (BIP158) sangat penting untuk klien ringan yang menjaga privasi. Filter dapat menghasilkan positif palsu tetapi tidak pernah negatif palsu, memungkinkan klien untuk mengunduh hanya blok yang berpotensi relevan tanpa mengungkapkan alamat tertentu.
 
 
 ### Trustless Interaksi Jaringan

@@ -1,0 +1,8 @@
+question: According to the Austrian school, how do neoclassical economists conceive of capital in their models?
+answer: As a homogeneous mass of production goods without considering its internal composition
+wrong_answers:
+  - As a heterogeneous set of non-interchangeable specialized goods
+  - "As a complex structure of production stages organized over time"
+  - As a system of production detours determined by time preferences
+explanation: |
+  Neoclassical economists, notably in the Solow-Swan model, treat capital as a homogeneous stock without dwelling on its internal composition. This restrictive vision enables them to easily measure capital in their macroeconomic models, but neglects the complexity of the productive structure. In contrast, the Austrian school develops a rich conception of capital as a heterogeneous and complex whole, incorporating notions of time, production detours and time preferences.

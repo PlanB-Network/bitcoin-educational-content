@@ -191,7 +191,7 @@ Vielen Dank an Loïc Morel für sein sorgfältiges Korrekturlesen!
 
 
 
-Die Frage nach der Beziehung zwischen Kryptowährung und Autorität tauchte in der Geschichte von Bitcoin recht schnell auf. Im Dezember 2010 zog sich Satoshi Nakamoto nach der Veröffentlichung eines Artikels in der PC World, in dem WikiLeaks zur Verwendung von Bitcoin ermutigt wurde, aus dem Blickfeld der Öffentlichkeit zurück. Wie zur Bestätigung seiner Intuition lenkte der Artikel die Aufmerksamkeit massiv auf Bitcoin, dessen Preis innerhalb weniger Monate von 0,20 $ auf 32 $ anstieg. Satoshi kommunizierte weiterhin privat mit seinen engsten Mitarbeitern und verschwand schließlich im Frühjahr 2011. Symbolischerweise informierte die letzte Nachricht von Gavin Andresen, dem Entwickler, der das Projekt übernommen hatte, den Schöpfer von Bitcoin darüber, dass er von In-Q-Tel, einem von der CIA verwalteten Investmentfonds, kontaktiert worden war. Die Büchse der Pandora war wirklich offen.
+Die Frage nach der Beziehung zwischen [Kryptowährung](https://planb.academy/resources/glossary/cryptocurrency) und Autorität tauchte in der Geschichte von Bitcoin recht schnell auf. Im Dezember 2010 zog sich Satoshi Nakamoto nach der Veröffentlichung eines Artikels in der PC World, in dem WikiLeaks zur Verwendung von Bitcoin ermutigt wurde, aus dem Blickfeld der Öffentlichkeit zurück. Wie zur Bestätigung seiner Intuition lenkte der Artikel die Aufmerksamkeit massiv auf Bitcoin, dessen Preis innerhalb weniger Monate von 0,20 $ auf 32 $ anstieg. Satoshi kommunizierte weiterhin privat mit seinen engsten Mitarbeitern und verschwand schließlich im Frühjahr 2011. Symbolischerweise informierte die letzte Nachricht von Gavin Andresen, dem Entwickler, der das Projekt übernommen hatte, den Schöpfer von Bitcoin darüber, dass er von In-Q-Tel, einem von der CIA verwalteten Investmentfonds, kontaktiert worden war. Die Büchse der Pandora war wirklich offen.
 
 
 
@@ -250,7 +250,7 @@ Wie bereits erläutert, war sein Ansatz in erster Linie revolutionär und nicht 
 
 > "Jetzt haben sich meine Ziele verschoben. Ich möchte die Wirtschaftstheorie als Mittel zur Abschaffung von Zwang und Aggression unter den Menschen nutzen. So wie die Sklaverei fast überall abgeschafft worden ist, glaube ich, dass Gewalt, Zwang und alle Formen der Gewaltanwendung durch eine Person gegenüber einer anderen ein Ende haben können. Die am weitesten verbreitete und systematischste Form der Gewaltanwendung findet sich bei Institutionen und Regierungen, daher ist dies mein derzeitiger Ansatzpunkt. Der beste Weg, eine Regierung zu ändern, ist jedoch, die Meinung der Regierten zu ändern. Zu diesem Zweck entwickle ich eine Wirtschaftssimulation, mit der die Menschen aus erster Hand erfahren können, wie es wäre, in einer Welt ohne systemische Gewaltanwendung zu leben."
 
-Die Idee war nicht wirklich neu. Es war nicht nur ein agoristischer Ansatz, sondern auch eine Illustration der Absicht der Cypherpunks, "Schwarzmärkte" zu nutzen, um ihre wirtschaftliche Freiheit auszuüben, was wir in Tim Mays [*Cyphernomicon*] (https://ia801307.us.archive.org/7/items/cyphernomicon/cyphernomicon.txt) finden.
+Die Idee war nicht wirklich neu. Es war nicht nur ein agoristischer Ansatz, sondern auch eine Illustration der Absicht der [Cypherpunks](https://planb.academy/resources/glossary/cypherpunks), "Schwarzmärkte" zu nutzen, um ihre wirtschaftliche Freiheit auszuüben, was wir in Tim Mays [*Cyphernomicon*] (https://ia801307.us.archive.org/7/items/cyphernomicon/cyphernomicon.txt) finden.
 
 
 
@@ -387,7 +387,7 @@ Nicht jeder begrüßte die Publicity, die generated durch den Gawker-Artikel erh
 
 
 
-Insbesondere der Programmierer Jeff Garzik, der damals an der Entwicklung der Software beteiligt war, nahm diese unwillkommene Verbindung übel. Nach der Veröffentlichung des Artikels wandte er sich persönlich [an](https://www.theatlantic.com/technology/archive/2011/06/libertarian-dream-a-site-where-you-buy-drugs-with-digital-dollars/239776/) Adrien Chen per E-Mail, um zu erklären, dass Bitcoin nicht so anonym sei, wie es schien, da alle Transaktionen permanent auf der Blockchain aufgezeichnet würden. Er beendete seine E-Mail mit dieser Einschätzung:
+Insbesondere der Programmierer Jeff Garzik, der damals an der Entwicklung der Software beteiligt war, nahm diese unwillkommene Verbindung übel. Nach der Veröffentlichung des Artikels wandte er sich persönlich [an](https://www.theatlantic.com/technology/archive/2011/06/libertarian-dream-a-site-where-you-buy-drugs-with-digital-dollars/239776/) Adrien Chen per E-Mail, um zu erklären, dass Bitcoin nicht so anonym sei, wie es schien, da alle Transaktionen permanent auf der [Blockchain](https://planb.academy/resources/glossary/blockchain) aufgezeichnet würden. Er beendete seine E-Mail mit dieser Einschätzung:
 
 
 > "Der Versuch, größere illegale Transaktionen mit Bitcoin durchzuführen, ist angesichts der bestehenden statistischen Analysetechniken, die von den Strafverfolgungsbehörden vor Ort eingesetzt werden, ziemlich dumm."
@@ -520,7 +520,7 @@ Wie wir bereits Anfang 2011 feststellten, war die Mt. Gox-Plattform nicht sicher
 
 
 
-Am 1. März 2011, gerade als der Transfer offiziell gemacht werden sollte, lösten sich 80.000 Bitcoins [in Luft auf](https://mempool.space/tx/e67a0550848b7932d7796aeea16ab0e48a5cfe81c4e8cca2c5b03e0416850114), dank eines bösartigen Zugriffs auf die wallet.dat-Datei der Website. Am 3. Mai bemerkte Jed McCaleb die Abhebung und [informierte](https://web.archive.org/web/20200427200314/https://courts.ms.gov/appellatecourts/docket/sendPDF.php?f=dc00001_live.SCT.17.M.1681.102741.5.pdf&c=87490&a=N&s=2) Mark im IRC, dass "etwas Schlimmes passiert ist". Es war ein großer Verlust (ein Bitcoin wurde damals für 0,92 $ verkauft), der in den folgenden Monaten mit dem beispiellosen Preisanstieg immer größer wurde.
+Am 1. März 2011, gerade als der Transfer offiziell gemacht werden sollte, lösten sich 80.000 Bitcoins [in Luft auf](https://mempool.space/tx/e67a0550848b7932d7796aeea16ab0e48a5cfe81c4e8cca2c5b03e0416850114), dank eines bösartigen Zugriffs auf die [wallet](https://planb.academy/resources/glossary/wallet).dat-Datei der Website. Am 3. Mai bemerkte Jed McCaleb die Abhebung und [informierte](https://web.archive.org/web/20200427200314/https://courts.ms.gov/appellatecourts/docket/sendPDF.php?f=dc00001_live.SCT.17.M.1681.102741.5.pdf&c=87490&a=N&s=2) Mark im IRC, dass "etwas Schlimmes passiert ist". Es war ein großer Verlust (ein Bitcoin wurde damals für 0,92 $ verkauft), der in den folgenden Monaten mit dem beispiellosen Preisanstieg immer größer wurde.
 
 
 Dieses Problem wurde [erwähnt] (https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) von Jed am 18. April in einer E-Mail an Mark, in der er schrieb:
@@ -908,11 +908,11 @@ Im Jahr 2011 zog er nach Portsmouth, New Hampshire, als Teil des *Free State Pro
 
 > "Dieser Tag war einer der wichtigsten Tage in meinem Leben. Es war wie die Entdeckung einer großen Wahrheit, wie ein Blick in die Zukunft. Ich gab alles auf, was ich tat, und sprang in den Kaninchenbau
 
-Seine Motivation war vor allem ideologischer Natur: Er war verführt von der Unaufhaltsamkeit des Systems und der Unmöglichkeit, mehr Geld als geplant zu schaffen. Er [sah](https://silverunderground.com/2011/06/bitcoin-the-separation-of-money-and-state/) Bitcoin als die Verkörperung der "Trennung von Geld und Staat". Er war auch von der von Samuel Konkin propagierten agoristischen Praxis überzeugt und [glaubte](https://bitcointalk.org/index.php?topic=34657.msg431717#msg431717), dass "Bitcoin für den Agorismus das ist, was Kiemen für Fische sind", d. h. ein wesentliches Zahnrad.
+Seine Motivation war vor allem ideologischer Natur: Er war verführt von der Unaufhaltsamkeit des Systems und der Unmöglichkeit, mehr Geld als geplant zu schaffen. Er [sah](https://silverunderground.com/2011/06/bitcoin-the-separation-of-money-and-state/) Bitcoin als die Verkörperung der "Trennung von Geld und Staat". Er war auch von der von Samuel Konkin propagierten agoristischen Praxis überzeugt und [glaubte](https://bitcointalk.org/index.php?topic=34657.msg431717#msg431717), dass "Bitcoin für den [Agorismus](https://planb.academy/resources/glossary/agorism) das ist, was Kiemen für Fische sind", d. h. ein wesentliches Zahnrad.
 
 
 
-Im Juni kaufte Erik Voorhees eine große Menge Bitcoins zu einem Zeitpunkt, als der Preis am höchsten war. Er probierte auch [https://bitcointalk.org/index.php?topic=24198.msg300745#msg300745] die GPU mining aus, aber seine Freundin mochte sie nicht, und er war gezwungen, seine Maschinen zu verkaufen. Im August reiste er nach New York, um an einer von Bruce Wagner organisierten Konferenz teilzunehmen, wo er viele der Akteure des Ökosystems traf.
+Im Juni kaufte Erik Voorhees eine große Menge Bitcoins zu einem Zeitpunkt, als der Preis am höchsten war. Er probierte auch [https://bitcointalk.org/index.php?topic=24198.msg300745#msg300745] die GPU [mining](https://planb.academy/resources/glossary/mining) aus, aber seine Freundin mochte sie nicht, und er war gezwungen, seine Maschinen zu verkaufen. Im August reiste er nach New York, um an einer von Bruce Wagner organisierten Konferenz teilzunehmen, wo er viele der Akteure des Ökosystems traf.
 
 
 
@@ -932,7 +932,7 @@ Mit Bitcoin wollte Ira Miller "alternative Systeme aufbauen, die mit dem schreck
 
 
 
-Die beiden Männer verstehen sich sehr gut und ihre Fähigkeiten ergänzen sich gegenseitig. Im August suchte Erik Voorhees einen Programmierer, um eine seiner Ideen zu entwickeln, und Ira sagte zu. Es handelte sich um FeedZeBirds (wörtlich: "füttere die Vögel"), eine Werbeplattform, die es den Nutzern ermöglicht, Inhalte auf Twitter durch den Kauf von Retweets aufzuwerten, und die sie am 23. November [starteten](https://bitcointalk.org/index.php?topic=52638.msg628165#msg628165). Es handelte sich um eine fragwürdige Nutzung (Twitter hat diese Art von Verhalten sicherlich nicht gefördert), bei der die Zensurresistenz von Bitcoin und das Fehlen von Transaktionsgebühren ausgenutzt wurden. Am 28. November traten die beiden Partner [auf](https://www.youtube.com/watch?v=VuLAhZsFc1A) in der *Bitcoin Show* auf, um ihr Produkt zu bewerben. In der Folge entwickelten sie auch den Paysius-Zahlungsprozessor und den E-Mail-Überweisungsdienst Coinapult.
+Die beiden Männer verstehen sich sehr gut und ihre Fähigkeiten ergänzen sich gegenseitig. Im August suchte Erik Voorhees einen Programmierer, um eine seiner Ideen zu entwickeln, und Ira sagte zu. Es handelte sich um FeedZeBirds (wörtlich: "füttere die Vögel"), eine Werbeplattform, die es den Nutzern ermöglicht, Inhalte auf Twitter durch den Kauf von Retweets aufzuwerten, und die sie am 23. November [starteten](https://bitcointalk.org/index.php?topic=52638.msg628165#msg628165). Es handelte sich um eine fragwürdige Nutzung (Twitter hat diese Art von Verhalten sicherlich nicht gefördert), bei der die Zensurresistenz von Bitcoin und das Fehlen von [Transaktionsgebühren](https://planb.academy/resources/glossary/transaction-fees) ausgenutzt wurden. Am 28. November traten die beiden Partner [auf](https://www.youtube.com/watch?v=VuLAhZsFc1A) in der *Bitcoin Show* auf, um ihr Produkt zu bewerben. In der Folge entwickelten sie auch den Paysius-Zahlungsprozessor und den E-Mail-Überweisungsdienst Coinapult.
 
 
 
@@ -1234,7 +1234,7 @@ Im Jahr 2011 veranlasste die fehlende Genehmigungspflicht von Bitcoin die Mitgli
 
 
 
-Eine der an dieser Bewegung beteiligten Personen war James McCarthy, der im Bitcoin-Forum das Pseudonym Nefario verwendete, in Anlehnung an die gleichnamige Figur aus dem Zeichentrickfilm *Despicable Me*. Nefario war ein in China lebender Ire, der als Englischprofessor an einer Universität arbeitete. Er interessierte sich für die österreichische Schule und die Ideen der Cypherpunks und [erklärte](https://web.archive.org/web/20110607050421/http://bitcoinweekly.com/articles/interview-with-nefario-founder-of-bitcoin-global) sich selbst als "so etwas wie ein Cypherpunk". Er [entdeckte](https://bitcointalk.org/index.php?topic=2502.msg33800#msg33800) im Jahr 2010 die Existenz von Bitcoin und baute über tausend davon ab. Daraufhin beteiligte er sich an mehreren Projekten, darunter das Online-Magazin-Projekt Bitcoin Weekly.
+Eine der an dieser Bewegung beteiligten Personen war James McCarthy, der im Bitcoin-Forum das Pseudonym Nefario verwendete, in Anlehnung an die gleichnamige Figur aus dem Zeichentrickfilm *Despicable Me*. Nefario war ein in China lebender Ire, der als Englischprofessor an einer Universität arbeitete. Er interessierte sich für die [österreichische Schule](https://planb.academy/resources/glossary/austrian-school) und die Ideen der Cypherpunks und [erklärte](https://web.archive.org/web/20110607050421/http://bitcoinweekly.com/articles/interview-with-nefario-founder-of-bitcoin-global) sich selbst als "so etwas wie ein Cypherpunk". Er [entdeckte](https://bitcointalk.org/index.php?topic=2502.msg33800#msg33800) im Jahr 2010 die Existenz von Bitcoin und baute über tausend davon ab. Daraufhin beteiligte er sich an mehreren Projekten, darunter das Online-Magazin-Projekt Bitcoin Weekly.
 
 
 
@@ -1498,7 +1498,7 @@ Zwei Arten der Ableitung wurden ins Auge gefasst. Die eine Art (Typ 1) war einfa
 
 
 
-Später, im Februar 2012, erfolgte die Standardisierung mit der [Veröffentlichung](https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198) von BIP 32. Darin wurde die allgemeine Struktur von *Hierarchical Deterministic Wallets*, HD Wallets, beschrieben, bei denen Ableitungen methodisch zur Ableitung von seed-Schlüsseln und Adressen verwendet werden. Sie wurde im Laufe der Jahre schrittweise von den meisten wallet übernommen.
+Später, im Februar 2012, erfolgte die Standardisierung mit der [Veröffentlichung](https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198) von [BIP](https://planb.academy/resources/glossary/bip) 32. Darin wurde die allgemeine Struktur von *Hierarchical Deterministic Wallets*, HD Wallets, beschrieben, bei denen Ableitungen methodisch zur Ableitung von seed-Schlüsseln und Adressen verwendet werden. Sie wurde im Laufe der Jahre schrittweise von den meisten wallet übernommen.
 
 
 
@@ -1544,7 +1544,7 @@ Das Ergebnis war die Electrum, die am 5. November [herauskam] (https://bitcointa
 
 
 
-Der Client stellt eine Verbindung zu einem Netz von Spezialservern her, um die Transaktionen abzurufen. Die Server führen die Software (bitcoind) aus und indizieren alle Transaktionen mit Hilfe des ABE-Block-Explorer-Codes. In diesem wallet hat der seed die Form einer hexadezimalen Zeichenkette. Seit dem 10. November [wurde] (https://bitcointalk.org/index.php?topic=51397.msg612674#msg612674) es auch als mnemonische Phrase mit 12 Wörtern dargestellt. Jedes Wort wird aus einer vordefinierten Liste ausgewählt, so dass die Informationsbits dargestellt werden können. Diese Art von Satz wird durch BIP 39 standardisiert, der 2013 [verfasst](https://github.com/trezor/python-mnemonic/blob/217999150812f7d356169661e4ac0b2e09fecd1d/BIP_0039.txt) wurde.
+Der Client stellt eine Verbindung zu einem Netz von Spezialservern her, um die Transaktionen abzurufen. Die Server führen die Software (bitcoind) aus und indizieren alle Transaktionen mit Hilfe des ABE-[Block](https://planb.academy/resources/glossary/block)-Explorer-Codes. In diesem wallet hat der seed die Form einer hexadezimalen Zeichenkette. Seit dem 10. November [wurde] (https://bitcointalk.org/index.php?topic=51397.msg612674#msg612674) es auch als mnemonische Phrase mit 12 Wörtern dargestellt. Jedes Wort wird aus einer vordefinierten Liste ausgewählt, so dass die Informationsbits dargestellt werden können. Diese Art von Satz wird durch BIP 39 standardisiert, der 2013 [verfasst](https://github.com/trezor/python-mnemonic/blob/217999150812f7d356169661e4ac0b2e09fecd1d/BIP_0039.txt) wurde.
 
 
 
@@ -1584,7 +1584,7 @@ Eine hybride Form der wallet kam auf: die *Web-wallet*, die es ermöglichte, üb
 
 
 
-Seit März 2011 hatte Stefan Thomas (justmoon), der deutsche Produzent des Videos "*Was ist Bitcoin?*" und Manager von WeUseCoins, an einer Javascript-Bibliothek (in Node.js) gearbeitet, um mit dem Bitcoin-Protokoll zu interagieren. Diese Bibliothek mit dem Namen BitcoinJS wurde am 5. Mai [veröffentlicht] (https://bitcointalk.org/index.php?topic=7357.msg108003#msg108003). Sie ermöglichte Webentwicklern die Bereitstellung von Clients, die im Browser des Benutzers laufen.
+Seit März 2011 hatte Stefan Thomas (justmoon), der deutsche Produzent des Videos "*Was ist Bitcoin?*" und Manager von WeUseCoins, an einer Javascript-Bibliothek (in [Node](https://planb.academy/resources/glossary/node).js) gearbeitet, um mit dem Bitcoin-Protokoll zu interagieren. Diese Bibliothek mit dem Namen BitcoinJS wurde am 5. Mai [veröffentlicht] (https://bitcointalk.org/index.php?topic=7357.msg108003#msg108003). Sie ermöglichte Webentwicklern die Bereitstellung von Clients, die im Browser des Benutzers laufen.
 
 
 
@@ -1700,7 +1700,7 @@ Bitbills hatte einen gewissen Erfolg, aber Doug Feigelson hatte Mühe, mit der N
 
 
 
-Mike Caldwell war ein 33-jähriger amerikanischer Entwickler, der in den Vororten von Salt Lake City, Utah, lebte und eine Firma für Geschäftsautomatisierung namens [Swipeclock] (https://www.linkedin.com/company/swipeclock/) betrieb. Sein Pseudonym, Casascius, ist eine latinisierte Form von CASAS, den Initialen des Sprichworts *Die Dinge beim Namen nennen*. Als Rationalist war er von der Kryptographie fasziniert und fühlte sich von der technischen Seite von Bitcoin angezogen. Eine Zeit lang versuchte er sich auch an mining.
+Mike Caldwell war ein 33-jähriger amerikanischer Entwickler, der in den Vororten von Salt Lake City, Utah, lebte und eine Firma für Geschäftsautomatisierung namens [Swipeclock] (https://www.linkedin.com/company/swipeclock/) betrieb. Sein Pseudonym, Casascius, ist eine latinisierte Form von CASAS, den Initialen des Sprichworts *Die Dinge beim Namen nennen*. Als Rationalist war er von der [Kryptographie](https://planb.academy/resources/glossary/cryptography) fasziniert und fühlte sich von der technischen Seite von Bitcoin angezogen. Eine Zeit lang versuchte er sich auch an mining.
 
 
 
@@ -1757,7 +1757,7 @@ Um dieses Problem zu lösen und die Rückverfolgbarkeit der Gelder zu unterbrech
 
 
 
-Der erste ist BitLaundry. Dieser Dienst wurde [im September 2010](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823) von Peter Vessenes ins Leben gerufen, einem amerikanischen Unternehmer mit einem Abschluss in Kryptographie, der die Existenz von Bitcoin zur Zeit von Slashdotting entdeckte. Der Blender [versorgte](https://maltemoeser.de/paper/money-laundering.pdf#page=5) den Nutzer mit einer Einwegadresse, an die die zu anonymisierenden Gelder geschickt wurden. Die Bitcoins wurden dann in Form von mehreren Münzen (UTXO) zurückgeschickt, und zwar im Rahmen einer Transaktion mit mehreren Eingängen, die auch Bitcoins anderer Nutzer umfasste, so dass das Blending effektiv war. Die Gebühren betrugen etwa 2,5 % des betreffenden Betrags. Im Mai 2011 übertrug Peter Vessenes [https://bitcointalk.org/index.php?topic=963.msg122955#msg122955] den Dienst an Mike Gogulski, einen Aktivisten, der sich dadurch auszeichnet, dass er staatenlos ist, da er seine US-Staatsbürgerschaft aufgegeben hat, ohne eine andere zu besitzen, da er die rechtlichen Komplikationen, die sich aus dieser Tätigkeit ergeben könnten, spürte.
+Der erste ist BitLaundry. Dieser Dienst wurde [im September 2010](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823) von Peter Vessenes ins Leben gerufen, einem amerikanischen Unternehmer mit einem Abschluss in Kryptographie, der die Existenz von Bitcoin zur Zeit von Slashdotting entdeckte. Der Blender [versorgte](https://maltemoeser.de/paper/money-laundering.pdf#page=5) den Nutzer mit einer Einwegadresse, an die die zu anonymisierenden Gelder geschickt wurden. Die Bitcoins wurden dann in Form von mehreren Münzen ([UTXO](https://planb.academy/resources/glossary/utxo)) zurückgeschickt, und zwar im Rahmen einer Transaktion mit mehreren Eingängen, die auch Bitcoins anderer Nutzer umfasste, so dass das Blending effektiv war. Die Gebühren betrugen etwa 2,5 % des betreffenden Betrags. Im Mai 2011 übertrug Peter Vessenes [https://bitcointalk.org/index.php?topic=963.msg122955#msg122955] den Dienst an Mike Gogulski, einen Aktivisten, der sich dadurch auszeichnet, dass er staatenlos ist, da er seine US-Staatsbürgerschaft aufgegeben hat, ohne eine andere zu besitzen, da er die rechtlichen Komplikationen, die sich aus dieser Tätigkeit ergeben könnten, spürte.
 
 
 
@@ -1777,7 +1777,7 @@ Der dritte war von besonderer Art, denn es handelte sich um den in Ben Reeves' B
 
 
 
-Die Verbreitung zentraler Mischer hatte den Effekt, dass sie das Denken über dezentrales Mischen von Münzen katalysierte, was im Sommer 2011 mit einem Vorschlag [proposal](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) von Hashcoin begann. Dies führte zur [Formalisierung](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902) von CoinJoin durch Gregory Maxwell im Jahr 2013. Aber das ist eine ganz andere Geschichte...
+Die Verbreitung zentraler Mischer hatte den Effekt, dass sie das Denken über dezentrales Mischen von Münzen katalysierte, was im Sommer 2011 mit einem Vorschlag [proposal](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) von Hashcoin begann. Dies führte zur [Formalisierung](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902) von [CoinJoin](https://planb.academy/resources/glossary/coinjoin) durch Gregory Maxwell im Jahr 2013. Aber das ist eine ganz andere Geschichte...
 
 
 
@@ -1996,7 +1996,7 @@ Eine Möglichkeit, die durch die weit verbreitete Nutzung des Pools mining verur
 
 
 
-Das Modell [beruhte] (https://im.forre.st/pb/85341005.txt) auf einer "sharechain", die von teilnehmenden Minern in Peer-to-Peer-Verbindung gepflegt wurde, ähnlich der Blockchain von Bitcoin. Jede Aktie enthält den Fingerabdruck der vorherigen Aktie, der die Aktien miteinander verbindet und die Integrität des Ganzen gewährleistet. Die Schwierigkeit (die anfangs 600 Mal niedriger ist als die des Hauptnetzes) wird regelmäßig angepasst, um ein durchschnittliches Intervall von 5 Sekunden zu gewährleisten. Die Vergütungsmethode ist die Zahlung gemäß den letzten N Anteilen (PPLNS), die jedes Mal, wenn ein Block gefunden wird, direkt in der Reward-Transaktion erfolgt.
+Das Modell [beruhte] (https://im.forre.st/pb/85341005.txt) auf einer "sharechain", die von teilnehmenden Minern in [Peer-to-Peer](https://planb.academy/resources/glossary/peertopeer-p2p)-Verbindung gepflegt wurde, ähnlich der Blockchain von Bitcoin. Jede Aktie enthält den Fingerabdruck der vorherigen Aktie, der die Aktien miteinander verbindet und die Integrität des Ganzen gewährleistet. Die [Schwierigkeit](https://planb.academy/resources/glossary/difficulty) (die anfangs 600 Mal niedriger ist als die des Hauptnetzes) wird regelmäßig angepasst, um ein durchschnittliches Intervall von 5 Sekunden zu gewährleisten. Die Vergütungsmethode ist die Zahlung gemäß den letzten N Anteilen (PPLNS), die jedes Mal, wenn ein Block gefunden wird, direkt in der Reward-Transaktion erfolgt.
 
 
 
@@ -2067,7 +2067,7 @@ Offensichtlich ging es bei der Entwicklung von mining nicht nur um die Organisat
 
 
 
-Diese letzte Entwicklung, [geplant](https://www.metzdowd.com/pipermail/cryptography/2008-November/014815.html) vor langer Zeit von Satoshi Nakamoto, wurde schrittweise dank programmierbarer Logikschaltungen (FPGAs) entwickelt, die es ermöglichten, die Hardware für die Hash-Funktion von Bitcoin praktisch zu optimieren. Der erste offene FPGA-Algorithmus wurde im Mai 2011 [veröffentlicht] (https://bitcointalk.org/index.php?topic=9047.msg130885#msg130885), und ASIC wandte FPGA-Optimierungen auf die Chips selbst an. Der erste ASIC-Vorverkauf durch das US-Unternehmen Butterfly Labs [fand](https://web.archive.org/web/20120619090952/http://news.yahoo.com/butterfly-labs-announces-next-generation-asic-lineup-054626776.html) im Juni 2012 statt. Schließlich wurde der erste funktionierende ASIC, der Avalon ASIC, im Januar 2013 an die Öffentlichkeit [vertrieben](https://bitcointalk.org/index.php?topic=137534.msg1465887#msg1465887).
+Diese letzte Entwicklung, [geplant](https://www.metzdowd.com/pipermail/cryptography/2008-November/014815.html) vor langer Zeit von Satoshi Nakamoto, wurde schrittweise dank programmierbarer Logikschaltungen (FPGAs) entwickelt, die es ermöglichten, die Hardware für die [Hash-Funktion](https://planb.academy/resources/glossary/hash-function) von Bitcoin praktisch zu optimieren. Der erste offene FPGA-Algorithmus wurde im Mai 2011 [veröffentlicht] (https://bitcointalk.org/index.php?topic=9047.msg130885#msg130885), und ASIC wandte FPGA-Optimierungen auf die Chips selbst an. Der erste ASIC-Vorverkauf durch das US-Unternehmen Butterfly Labs [fand](https://web.archive.org/web/20120619090952/http://news.yahoo.com/butterfly-labs-announces-next-generation-asic-lineup-054626776.html) im Juni 2012 statt. Schließlich wurde der erste funktionierende ASIC, der Avalon ASIC, im Januar 2013 an die Öffentlichkeit [vertrieben](https://bitcointalk.org/index.php?topic=137534.msg1465887#msg1465887).
 
 
 
@@ -2086,7 +2086,7 @@ Nach dem Ausscheiden von Satoshi Nakamoto wurde die Softwareentwicklung von der 
 
 
 
-Im Winter 2011-2012 kam es zu einer Kontroverse über die Einführung der Mehrfachsignatur in Bitcoin. Dabei ging es unter anderem um das als "Pay to Script Hash" oder P2SH bekannte System. Pete Rizzo und Aaron van Wirdum [würden](https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war) nennen diesen Konflikt "die Schlacht um P2SH". Dies war der erste größere Streit über die Entwicklung des Protokolls und der erste, der die Frage der Verwaltung aufwirft.
+Im Winter 2011-2012 kam es zu einer Kontroverse über die Einführung der Mehrfachsignatur in Bitcoin. Dabei ging es unter anderem um das als "Pay to [Script](https://planb.academy/resources/glossary/script) Hash" oder P2SH bekannte System. Pete Rizzo und Aaron van Wirdum [würden](https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war) nennen diesen Konflikt "die Schlacht um P2SH". Dies war der erste größere Streit über die Entwicklung des Protokolls und der erste, der die Frage der Verwaltung aufwirft.
 
 
 
@@ -2642,7 +2642,7 @@ Trotz dieses Rückschlags ist Litecoin eine Erfolgsgeschichte. Zusammen mit dem 
 
 
 
-Die Möglichkeit, durch das Klonen von Bitcoin Geld zu verdienen und vom steigenden Wert der Einheiten zu profitieren, war offensichtlich. Bereits im November 2010, noch bevor die Idee von BitDNS aufkam, wurde diese Möglichkeit im Forum angesprochen. Ribuck, ein aktives Forumsmitglied zu dieser Zeit, [schrieb](https://bitcointalk.org/index.php?topic=1647.msg20646#msg20646) eine Anklage gegen zukünftige Bitcoin-Kopien und prägte dabei den Begriff "Shitcoin":
+Die Möglichkeit, durch das Klonen von Bitcoin Geld zu verdienen und vom steigenden Wert der Einheiten zu profitieren, war offensichtlich. Bereits im November 2010, noch bevor die Idee von BitDNS aufkam, wurde diese Möglichkeit im Forum angesprochen. Ribuck, ein aktives Forumsmitglied zu dieser Zeit, [schrieb](https://bitcointalk.org/index.php?topic=1647.msg20646#msg20646) eine Anklage gegen zukünftige Bitcoin-Kopien und prägte dabei den Begriff "[Shitcoin](https://planb.academy/resources/glossary/shitcoin)":
 
 
 
@@ -2675,7 +2675,7 @@ Ab dem Frühjahr 2012 wurde es ruhiger. Dennoch tauchten im Laufe des Jahres ein
 
 
 
-Proof of stake ist eine Alternative zu proof of work, bei der die Wahrscheinlichkeit, einen Block zu erzeugen, durch den Besitz von Einheiten und nicht durch die aufgewendete Elektrizität bestimmt wird. Es wurde erstmals [beschrieben](https://www.links.org/files/decentralised-currencies.pdf) im Juli 2011 von dem britischen Entwickler und Aktivisten Ben Laurie, und sein Name wurde [geprägt](https://bitcointalk.org/index.php?topic=27787.msg349645#msg349645) von einem gewissen QuantumMechanic im Bitcoin-Forum.
+Proof of stake ist eine Alternative zu [proof of work](https://planb.academy/resources/glossary/proof-of-work), bei der die Wahrscheinlichkeit, einen Block zu erzeugen, durch den Besitz von Einheiten und nicht durch die aufgewendete Elektrizität bestimmt wird. Es wurde erstmals [beschrieben](https://www.links.org/files/decentralised-currencies.pdf) im Juli 2011 von dem britischen Entwickler und Aktivisten Ben Laurie, und sein Name wurde [geprägt](https://bitcointalk.org/index.php?topic=27787.msg349645#msg349645) von einem gewissen QuantumMechanic im Bitcoin-Forum.
 
 
 

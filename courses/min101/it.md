@@ -117,11 +117,11 @@ Pronti a scoprire il Bitcoin mining? Iniziamo!
 
 
 
-Prima di passare a una spiegazione dettagliata e più tecnica del Bitcoin mining, vorrei darvi una panoramica del principio, volutamente semplice e schematica. Se avete già delle conoscenze di base, potete entrare direttamente nel vivo della questione nel prossimo capitolo, dopo aver risposto alle domande del quiz. Questo capitolo si rivolge principalmente ai principianti, per fornire loro un inizio delicato.
+Prima di passare a una spiegazione dettagliata e più tecnica del Bitcoin [mining](https://planb.academy/resources/glossary/mining), vorrei darvi una panoramica del principio, volutamente semplice e schematica. Se avete già delle conoscenze di base, potete entrare direttamente nel vivo della questione nel prossimo capitolo, dopo aver risposto alle domande del quiz. Questo capitolo si rivolge principalmente ai principianti, per fornire loro un inizio delicato.
 
 
 
-Immaginate Bitcoin come un grande quaderno pubblico, condiviso da tutti, in cui annotiamo chi ha inviato bitcoin a chi. Questo quaderno si chiama blockchain. Non può essere tenuto da una sola persona, altrimenti ci si dovrebbe fidare di essa. Invece, Bitcoin funziona collettivamente: migliaia di computer verificano e mantengono la stessa versione di questo quaderno.
+Immaginate Bitcoin come un grande quaderno pubblico, condiviso da tutti, in cui annotiamo chi ha inviato bitcoin a chi. Questo quaderno si chiama [blockchain](https://planb.academy/resources/glossary/blockchain). Non può essere tenuto da una sola persona, altrimenti ci si dovrebbe fidare di essa. Invece, Bitcoin funziona collettivamente: migliaia di computer verificano e mantengono la stessa versione di questo quaderno.
 
 
 
@@ -129,7 +129,7 @@ Immaginate Bitcoin come un grande quaderno pubblico, condiviso da tutti, in cui 
 
 
 
-In Bitcoin, quando si effettua un pagamento, si crea una transazione. Questa transazione non viene aggiunta immediatamente al taccuino. Viene prima inviata alla rete, poi attende di essere integrata nel pacchetto di transazioni successivo. Questo pacchetto è chiamato blocco.
+In Bitcoin, quando si effettua un pagamento, si crea una [transazione](https://planb.academy/resources/glossary/transaction-tx). Questa transazione non viene aggiunta immediatamente al taccuino. Viene prima inviata alla rete, poi attende di essere integrata nel pacchetto di transazioni successivo. Questo pacchetto è chiamato [blocco](https://planb.academy/resources/glossary/block).
 
 
 
@@ -141,11 +141,11 @@ Un blocco è semplicemente un insieme di transazioni raggruppate. Quando un bloc
 
 
 
-Il Mining è il lavoro di convalida di un blocco consumando energia. Gli attori chiamati miner utilizzano computer specializzati. Queste macchine consumano elettricità per eseguire un numero molto elevato di prove, in un ciclo, finché non trovano una prova che la rete accetta. Quando un miner trova questa prova, il suo blocco è considerato valido.
+Il Mining è il lavoro di convalida di un blocco consumando energia. Gli attori chiamati [miner](https://planb.academy/resources/glossary/miner) utilizzano computer specializzati. Queste macchine consumano elettricità per eseguire un numero molto elevato di prove, in un ciclo, finché non trovano una prova che la rete accetta. Quando un miner trova questa prova, il suo blocco è considerato valido.
 
 
 
-Una volta convalidato, il blocco viene trasmesso alla rete. Gli altri nodi controllano rapidamente che sia conforme alle regole, quindi lo aggiungono alla sequenza di blocchi precedenti. Per questo si chiama "blockchain": ogni nuovo blocco viene dopo gli altri, in ordine sequenziale, e questa catena cresce poco a poco.
+Una volta convalidato, il blocco viene trasmesso alla rete. Gli altri [nodi](https://planb.academy/resources/glossary/node) controllano rapidamente che sia conforme alle regole, quindi lo aggiungono alla sequenza di blocchi precedenti. Per questo si chiama "blockchain": ogni nuovo blocco viene dopo gli altri, in ordine sequenziale, e questa catena cresce poco a poco.
 
 
 
@@ -153,11 +153,11 @@ Una volta convalidato, il blocco viene trasmesso alla rete. Gli altri nodi contr
 
 
 
-In sintesi, le transazioni vengono prima create. Poi vengono raggruppate in un blocco. Successivamente, un miner convalida il blocco consumando energia elettrica. Infine, il blocco viene aggiunto alla blockchain e le transazioni in esso contenute vengono confermate.
+In sintesi, le transazioni vengono prima create. Poi vengono raggruppate in un blocco. Successivamente, un miner convalida il blocco consumando energia elettrica. Infine, il blocco viene aggiunto alla blockchain e le transazioni in esso contenute vengono [confermate](https://planb.academy/resources/glossary/confirmation).
 
 
 
-Se i miner consumano elettricità, non è perché sono volontari. Lo fanno perché c'è una ricompensa. Quando un miner convalida un blocco, riceve due tipi di reddito. Da un lato, riceve i bitcoin appena creati. Dall'altro, raccoglie le commissioni pagate dagli utenti per le transazioni incluse nel blocco. In altre parole, il miner viene compensato sia attraverso l'emissione monetaria programmata, sia attraverso le commissioni di transazione determinate da un mercato.
+Se i miner consumano elettricità, non è perché sono volontari. Lo fanno perché c'è una ricompensa. Quando un miner convalida un blocco, riceve due tipi di reddito. Da un lato, riceve i bitcoin appena creati. Dall'altro, raccoglie le [commissioni](https://planb.academy/resources/glossary/transaction-fees) pagate dagli utenti per le transazioni incluse nel blocco. In altre parole, il miner viene compensato sia attraverso l'emissione monetaria programmata, sia attraverso le commissioni di transazione determinate da un mercato.
 
 
 
@@ -187,7 +187,7 @@ Per capire che cos'è il Bitcoin mining, dobbiamo innanzitutto seguire il percor
 
 
 
-Nel Bitcoin, una transazione è una struttura di dati che trasferisce la proprietà dei bitcoin da un utente a un altro. In concreto, consuma gli "output" delle transazioni passate (i cosiddetti UTXO), definendoli "input", e poi crea nuovi "output" che definiscono a chi appartengono ora questi bitcoin e a quali condizioni possono essere spesi in seguito.
+Nel Bitcoin, una transazione è una struttura di dati che trasferisce la proprietà dei bitcoin da un utente a un altro. In concreto, consuma gli "[output](https://planb.academy/resources/glossary/output)" delle transazioni passate (i cosiddetti [UTXO](https://planb.academy/resources/glossary/utxo)), definendoli "[input](https://planb.academy/resources/glossary/input)", e poi crea nuovi "output" che definiscono a chi appartengono ora questi bitcoin e a quali condizioni possono essere spesi in seguito.
 
 
 
@@ -195,7 +195,7 @@ Nel Bitcoin, una transazione è una struttura di dati che trasferisce la proprie
 
 
 
-Un punto importante dei Bitcoin è l'autorizzazione alla spesa. I Bitcoin non sono in un conto, come potrebbe essere il vostro denaro in banca, ma sono bloccati dalle condizioni di spesa. Quando un wallet vuole utilizzare un UTXO come input, deve fornire la prova crittografica di avere il diritto di sbloccarlo. Questa prova assume spesso la forma di una firma digitale generata da una chiave privata. Ecco perché i bitcoiners insistono sulla necessità di proteggere le chiavi private: sono queste che sbloccano l'accesso ai bitcoin e, di conseguenza, consentono di spenderli.
+Un punto importante dei Bitcoin è l'autorizzazione alla spesa. I Bitcoin non sono in un conto, come potrebbe essere il vostro denaro in banca, ma sono bloccati dalle condizioni di spesa. Quando un [wallet](https://planb.academy/resources/glossary/wallet) vuole utilizzare un UTXO come input, deve fornire la prova crittografica di avere il diritto di sbloccarlo. Questa prova assume spesso la forma di una [firma digitale](https://planb.academy/resources/glossary/digital-signature) generata da una [chiave privata](https://planb.academy/resources/glossary/private-key). Ecco perché i bitcoiners insistono sulla necessità di proteggere le chiavi private: sono queste che sbloccano l'accesso ai bitcoin e, di conseguenza, consentono di spenderli.
 
 
 
@@ -221,7 +221,7 @@ Una volta che la transazione è stata costruita e firmata correttamente dal wall
 
 
 
-Bitcoin è una rete peer-to-peer: non esiste un server centrale che riceve ed elabora tutte le transazioni. Questo ruolo è svolto collettivamente dai nodi. Un nodo Bitcoin è un software (ad esempio Bitcoin Core) collegato ad altri nodi della rete Bitcoin, la cui missione principale è verificare, memorizzare e trasmettere transazioni e blocchi.
+Bitcoin è una rete [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p): non esiste un server centrale che riceve ed elabora tutte le transazioni. Questo ruolo è svolto collettivamente dai nodi. Un nodo Bitcoin è un software (ad esempio [Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core)) collegato ad altri nodi della rete Bitcoin, la cui missione principale è verificare, memorizzare e trasmettere transazioni e blocchi.
 
 
 
@@ -250,7 +250,7 @@ Se la transazione supera tutti questi controlli, il nodo la propaga agli altri n
 
 
 
-Tra il momento in cui una transazione viene trasmessa e il momento in cui viene confermata in un blocco, deve attendere. Quest'area di attesa è chiamata **mempool** (contrazione di `memory` e `pool`). Un mempool è quindi uno spazio di memoria temporaneo per transazioni valide, ma non ancora confermate.
+Tra il momento in cui una transazione viene trasmessa e il momento in cui viene confermata in un blocco, deve attendere. Quest'area di attesa è chiamata **[mempool](https://planb.academy/resources/glossary/mempool)** (contrazione di `memory` e `pool`). Un mempool è quindi uno spazio di memoria temporaneo per transazioni valide, ma non ancora confermate.
 
 
 
@@ -270,7 +270,7 @@ In questa fase, la rete è a conoscenza della transazione, l'ha verificata e la 
 
 
 
-Essendo una moneta immateriale, il bitcoin deve risolvere un problema: impedire la doppia spesa senza un'autorità centrale. Se due transazioni tentano di spendere lo stesso UTXO, tutti devono essere in grado di convergere su un unico stato coerente. Satoshi Nakamoto riassume questo problema con questa famosa frase:
+Essendo una moneta immateriale, il bitcoin deve risolvere un problema: impedire la [doppia spesa](https://planb.academy/resources/glossary/double-spending-attack) senza un'autorità centrale. Se due transazioni tentano di spendere lo stesso UTXO, tutti devono essere in grado di convergere su un unico stato coerente. Satoshi Nakamoto riassume questo problema con questa famosa frase:
 
 
 
@@ -284,7 +284,7 @@ Questo è il ruolo della blockchain: un registro pubblico contenente la storia d
 
 
 
-Questo registro non può essere riscritto, grazie a un semplice principio: ogni blocco include l'impronta crittografica (hash) del blocco precedente. I blocchi sono quindi collegati tra loro: se si modifica un blocco del passato, il suo hash cambia, il che interrompe il legame con il blocco successivo, che interrompe il legame con il blocco successivo e così via. È questa catena di dipendenze che dà il nome alla "*blockchain*".
+Questo registro non può essere riscritto, grazie a un semplice principio: ogni blocco include l'impronta crittografica ([hash](https://planb.academy/resources/glossary/hash-function)) del blocco precedente. I blocchi sono quindi collegati tra loro: se si modifica un blocco del passato, il suo hash cambia, il che interrompe il legame con il blocco successivo, che interrompe il legame con il blocco successivo e così via. È questa catena di dipendenze che dà il nome alla "*blockchain*".
 
 
 
@@ -292,7 +292,7 @@ Questo registro non può essere riscritto, grazie a un semplice principio: ogni 
 
 
 
-Una volta compresi questi principi di base di Bitcoin, possiamo descrivere l'obiettivo di un miner in termini più concreti: costruire un nuovo blocco che estenda la catena esistente, iscrivendovi le transazioni in sospeso, e poi tentare di renderlo valido (questo è il famoso "proof of work" che studieremo in un capitolo successivo). Ma prima scopriamo insieme, nel prossimo capitolo, come si costruisce un blocco candidato.
+Una volta compresi questi principi di base di Bitcoin, possiamo descrivere l'obiettivo di un miner in termini più concreti: costruire un nuovo blocco che estenda la catena esistente, iscrivendovi le transazioni in sospeso, e poi tentare di renderlo valido (questo è il famoso "[proof of work](https://planb.academy/resources/glossary/proof-of-work)" che studieremo in un capitolo successivo). Ma prima scopriamo insieme, nel prossimo capitolo, come si costruisce un blocco candidato.
 
 
 
@@ -303,7 +303,7 @@ Una volta compresi questi principi di base di Bitcoin, possiamo descrivere l'obi
 
 
 
-Ora avete capito come funziona una transazione Bitcoin e il ruolo della blockchain. Tuttavia, prima di approfondire il funzionamento della proof-of-work, c'è ancora una fase essenziale che il miner deve eseguire: la costruzione di un blocco candidato. Scopriamo insieme cos'è un blocco candidato e come lo costruisce il miner, prima di intraprendere la ricerca di una prova valida.
+Ora avete capito come funziona una transazione Bitcoin e il ruolo della blockchain. Tuttavia, prima di approfondire il funzionamento della proof-of-work, c'è ancora una fase essenziale che il miner deve eseguire: la costruzione di un [blocco candidato](https://planb.academy/resources/glossary/candidate-block). Scopriamo insieme cos'è un blocco candidato e come lo costruisce il miner, prima di intraprendere la ricerca di una prova valida.
 
 
 
@@ -318,7 +318,7 @@ I Miner devono costruire da soli i loro blocchi prima di cercare di estrarli. Og
 
 - scegliere quali transazioni includere;
 - organizzare queste transazioni in modo compatibile con le regole di Bitcoin;
-- produrre i metadati del blocco, memorizzati nella sua intestazione.
+- produrre i metadati del blocco, memorizzati nella sua [intestazione](https://planb.academy/resources/glossary/block-header).
 
 
 
@@ -340,7 +340,7 @@ Un blocco Bitcoin è quindi composto da due parti principali:
 
 
 
-L'intestazione è essenziale, in quanto viene utilizzata come base per la proof-of-work: in Bitcoin, non si estrae direttamente un intero blocco, ma solo l'intestazione di un blocco, che riassume le informazioni necessarie per collegare il blocco alla catena e impegnarne il contenuto. Per far sì che l'intestazione rappresenti tutte le transazioni, Bitcoin utilizza uno strumento crittografico: l'albero di Merkle.
+L'intestazione è essenziale, in quanto viene utilizzata come base per la proof-of-work: in Bitcoin, non si estrae direttamente un intero blocco, ma solo l'intestazione di un blocco, che riassume le informazioni necessarie per collegare il blocco alla catena e impegnarne il contenuto. Per far sì che l'intestazione rappresenti tutte le transazioni, Bitcoin utilizza uno strumento crittografico: [l'albero di Merkle](https://planb.academy/resources/glossary/merkle-tree).
 
 
 
@@ -359,7 +359,7 @@ Il principio è il seguente:
 
 - viene calcolata l'impronta crittografica (hash) di ogni transazione;
 - questi hash vengono accoppiati, concatenati e poi sottoposti a un nuovo hash per formare un nuovo livello di hash;
-- questo processo viene ripetuto fino a ottenere un unico hash finale: la radice di Merkle.
+- questo processo viene ripetuto fino a ottenere un unico hash finale: [la radice di Merkle](https://planb.academy/resources/glossary/merkle-root).
 
 
 
@@ -371,7 +371,7 @@ Quindi, se una singola transazione cambia, anche di un solo bit, il risultato è
 
 
 
-Dal SegWit, abbiamo separato le firme dal resto. Quindi, in realtà, ci sono due alberi di Merkle annidati all'interno di ogni blocco. Questa separazione ha conseguenze sul modo in cui contiamo la dimensione di un blocco e su alcuni impegni crittografici, ma l'idea di base rimane la stessa: l'intestazione deve impegnare, in modo compatto, tutto il contenuto del blocco.
+Dal [SegWit](https://planb.academy/resources/glossary/segwit), abbiamo separato le firme dal resto. Quindi, in realtà, ci sono due alberi di Merkle annidati all'interno di ogni blocco. Questa separazione ha conseguenze sul modo in cui contiamo la dimensione di un blocco e su alcuni impegni crittografici, ma l'idea di base rimane la stessa: l'intestazione deve impegnare, in modo compatto, tutto il contenuto del blocco.
 
 
 
@@ -402,19 +402,19 @@ L'intestazione del blocco è lunga 80 byte e contiene esattamente 6 campi. Sono 
 
 
 
-- Timestamp: Si tratta di un timestamp (ora Unix) scelto dal miner (con vincoli di validità), che deve indicare quando il blocco è stato estratto. Non è necessario che sia perfettamente preciso al secondo, ma deve soddisfare determinate condizioni per rimanere accettabile per la rete.
+- [Timestamp](https://planb.academy/resources/glossary/timestamp): Si tratta di un timestamp (ora Unix) scelto dal miner (con vincoli di validità), che deve indicare quando il blocco è stato estratto. Non è necessario che sia perfettamente preciso al secondo, ma deve soddisfare determinate condizioni per rimanere accettabile per la rete.
 
 
 
 
 
-- Obiettivo di difficoltà codificato (`nbits`): Questo campo codifica l'obiettivo di difficoltà corrente. Si approfondirà nel capitolo sulla difficoltà, ma si ricordi che questo parametro fa parte dell'intestazione.
+- [Obiettivo di difficoltà](https://planb.academy/resources/glossary/difficulty-target) codificato (`nbits`): Questo campo codifica l'obiettivo di difficoltà corrente. Si approfondirà nel capitolo sulla difficoltà, ma si ricordi che questo parametro fa parte dell'intestazione.
 
 
 
 
 
-- Nonce (`nonce`): È un valore che il miner può modificare liberamente. Serve come variabile regolabile durante la proof-of-work. Spiegherò il suo ruolo in modo più dettagliato nel prossimo capitolo, ma è importante capire che il nonce fa parte dell'intestazione del blocco ed è progettato per consentire tentativi successivi.
+- [Nonce](https://planb.academy/resources/glossary/nonce) (`nonce`): È un valore che il miner può modificare liberamente. Serve come variabile regolabile durante la proof-of-work. Spiegherò il suo ruolo in modo più dettagliato nel prossimo capitolo, ma è importante capire che il nonce fa parte dell'intestazione del blocco ed è progettato per consentire tentativi successivi.
 
 
 
@@ -510,7 +510,7 @@ La funzione hash è interessante nei sistemi informatici perché possiede alcune
 
 
 
-La funzione hash utilizzata in Bitcoin per il mining è `SHA256`, applicata due volte di seguito. Questa funzione è nota come doppio SHA256, o `SHA256d`. È questo doppio hashing che produce l'impronta digitale del blocco.
+La funzione hash utilizzata in Bitcoin per il mining è `SHA256`, applicata due volte di seguito. Questa funzione è nota come doppio [SHA256](https://planb.academy/resources/glossary/sha256), o `SHA256d`. È questo doppio hashing che produce l'impronta digitale del blocco.
 
 
 
@@ -618,7 +618,7 @@ Il processo mining è molto semplice:
 
 
 
-In effetti, il nonce non è l'unico campo che può essere modificato. Qualsiasi modifica all'interno delle transazioni di un blocco comporta una modifica alla radice dell'albero di Merkle, e quindi una modifica all'intestazione del blocco stesso. Con la moderna potenza di calcolo, l'esame dei 4,29 miliardi di valori possibili del nonce può essere effettuato in tempi relativamente brevi. Per questo motivo esiste un altro campo, generalmente chiamato "*extra-nonce*", che moltiplica ulteriormente le possibilità di variazione dell'intestazione. Torneremo su questo meccanismo in modo più dettagliato in un capitolo successivo.
+In effetti, il nonce non è l'unico campo che può essere modificato. Qualsiasi modifica all'interno delle transazioni di un blocco comporta una modifica alla radice dell'albero di Merkle, e quindi una modifica all'intestazione del blocco stesso. Con la moderna potenza di calcolo, l'esame dei 4,29 miliardi di valori possibili del nonce può essere effettuato in tempi relativamente brevi. Per questo motivo esiste un altro campo, generalmente chiamato "*[extra-nonce](https://planb.academy/resources/glossary/extra-nonce)*", che moltiplica ulteriormente le possibilità di variazione dell'intestazione. Torneremo su questo meccanismo in modo più dettagliato in un capitolo successivo.
 
 
 
@@ -630,7 +630,7 @@ La chiamiamo "prova" perché il risultato è immediatamente verificabile: una vo
 
 
 
-Nel White Paper di Bitcoin, Satoshi Nakamoto presenta due vantaggi nell'utilizzo di un sistema proof-of-work in Bitcoin:
+Nel [White Paper](https://planb.academy/resources/glossary/white-paper) di Bitcoin, Satoshi Nakamoto presenta due vantaggi nell'utilizzo di un sistema proof-of-work in Bitcoin:
 
 
 
@@ -650,7 +650,7 @@ In altre parole, la proof-of-work funge da spina dorsale del sistema di marcatur
 
 
 
-- **Definire la regola della maggioranza (consenso) e neutralizzare l'attacco Sybil:**
+- **Definire la regola della maggioranza ([consenso](https://planb.academy/resources/glossary/consensus)) e neutralizzare l'[attacco Sybil](https://planb.academy/resources/glossary/sybil-attack):**
 
 
 
@@ -689,7 +689,7 @@ Nel prossimo capitolo, faremo una breve digressione storica sul principio della 
 
 
 
-La Proof-of-work non è stata inventata per Bitcoin. Satoshi Nakamoto ha ripreso e assemblato diverse idee precedenti, già esplorate in contesti diversi.
+La Proof-of-work non è stata inventata per Bitcoin. [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) ha ripreso e assemblato diverse idee precedenti, già esplorate in contesti diversi.
 
 
 
@@ -701,7 +701,7 @@ Alla fine degli anni Novanta, il problema dello spam via e-mail è diventato sig
 
 
 
-Questo è l'obiettivo di Hashcash, proposto da Adam Back nel 1997, che è considerato l'invenzione del principio proof-of-work. Il principio del Hashcash è molto simile a quello del mining: produrre un hash che rispetti una condizione (avere un certo numero di zeri all'inizio dell'hash). La prova accompagna il messaggio e può essere verificata molto rapidamente dal destinatario. Se si riceve un'e-mail che non contiene questa prova, può essere immediatamente considerata come spam e quindi filtrata. Gli spammer sono quindi costretti a spendere una notevole quantità di energia per inviare milioni di messaggi, il che riduce drasticamente (o addirittura annulla del tutto) la redditività di questo tipo di operazioni, siano esse di marketing o fraudolente.
+Questo è l'obiettivo di [Hashcash](https://planb.academy/resources/glossary/hashcash), proposto da Adam Back nel 1997, che è considerato l'invenzione del principio proof-of-work. Il principio del Hashcash è molto simile a quello del mining: produrre un hash che rispetti una condizione (avere un certo numero di zeri all'inizio dell'hash). La prova accompagna il messaggio e può essere verificata molto rapidamente dal destinatario. Se si riceve un'e-mail che non contiene questa prova, può essere immediatamente considerata come spam e quindi filtrata. Gli spammer sono quindi costretti a spendere una notevole quantità di energia per inviare milioni di messaggi, il che riduce drasticamente (o addirittura annulla del tutto) la redditività di questo tipo di operazioni, siano esse di marketing o fraudolente.
 
 
 
@@ -792,7 +792,7 @@ Se, durante questo ritardo di diffusione, un altro miner scopre un blocco valido
 
 
 
-Queste divisioni non sono catastrofiche. Il consenso di Nakamoto prevede che, a lungo termine, prevarrà un solo ramo: quello che accumula più lavoro. Infatti, non appena viene estratto un nuovo blocco sopra il blocco A, ad esempio, l'intera rete si risincronizza su questo ramo e abbandona il blocco B, che diventa così un "*blocco stantio*", talvolta erroneamente chiamato "blocco orfano*" nel linguaggio comune.
+Queste divisioni non sono catastrofiche. Il consenso di Nakamoto prevede che, a lungo termine, prevarrà un solo ramo: quello che accumula più lavoro. Infatti, non appena viene estratto un nuovo blocco sopra il blocco A, ad esempio, l'intera rete si risincronizza su questo ramo e abbandona il blocco B, che diventa così un "*[blocco stantio](https://planb.academy/resources/glossary/stale-block)*", talvolta erroneamente chiamato "blocco orfano*" nel linguaggio comune.
 
 
 
@@ -812,7 +812,7 @@ L'intervallo di 10 minuti consente generalmente al blocco vincente di propagarsi
 
 
 
-*"Hashrate*" si riferisce alla quantità di calcoli hash prodotti al secondo, sia da un singolo miner, sia da un gruppo di miner, sia da tutti i miner di Bitcoin. È espresso in `H/s` (hash al secondo), con multipli come `TH/s` (terahashes al secondo) o `EH/s` (exahashes al secondo). Rappresenta il numero di tentativi che i miner possono fare ogni secondo per cercare di ottenere un hash inferiore all'obiettivo.
+*"[Hashrate](https://planb.academy/resources/glossary/hashrate)*" si riferisce alla quantità di calcoli hash prodotti al secondo, sia da un singolo miner, sia da un gruppo di miner, sia da tutti i miner di Bitcoin. È espresso in `H/s` (hash al secondo), con multipli come `TH/s` (terahashes al secondo) o `EH/s` (exahashes al secondo). Rappresenta il numero di tentativi che i miner possono fare ogni secondo per cercare di ottenere un hash inferiore all'obiettivo.
 
 
 
@@ -833,7 +833,7 @@ In altre parole, se domani la rete Bitcoin raddoppiasse la sua potenza di calcol
 
 
 
-Bitcoin risolve questo problema con un meccanismo di aggiustamento periodico dell'obiettivo, che regola la difficoltà di mining. Il principio è il seguente: ogni 2016 blocchi (circa ogni 2 settimane), ogni nodo ricalcola l'obiettivo di difficoltà osservando quanto tempo è stato effettivamente necessario per produrre questi 2016 blocchi.
+Bitcoin risolve questo problema con un meccanismo di aggiustamento periodico dell'obiettivo, che regola [la difficoltà](https://planb.academy/resources/glossary/difficulty-adjustment) di mining. Il principio è il seguente: ogni 2016 blocchi (circa ogni 2 settimane), ogni nodo ricalcola l'obiettivo di difficoltà osservando quanto tempo è stato effettivamente necessario per produrre questi 2016 blocchi.
 
 
 
@@ -959,7 +959,7 @@ Questa logica si basa sulla teoria dei giochi: il protocollo rende razionale l'o
 
 
 
-A tal fine, il protocollo Bitcoin stabilisce che il miner che trova un blocco valido si aggiudica il diritto di includervi una particolare transazione, che gli vale una certa somma di BTC. Questo è noto come **compenso del blocco**. In questo primo capitolo di questa sezione, l'obiettivo è capire da cosa è composta e come viene determinata. In seguito, vedremo come la parte di creazione del denaro si evolve nel tempo (con i dimezzamenti) e come viene effettivamente riscosso tecnicamente (tramite la transazione su coinbase).
+A tal fine, il protocollo Bitcoin stabilisce che il miner che trova un blocco valido si aggiudica il diritto di includervi una particolare transazione, che gli vale una certa somma di BTC. Questo è noto come **[compenso del blocco](https://planb.academy/resources/glossary/block-reward)**. In questo primo capitolo di questa sezione, l'obiettivo è capire da cosa è composta e come viene determinata. In seguito, vedremo come la parte di creazione del denaro si evolve nel tempo (con i dimezzamenti) e come viene effettivamente riscosso tecnicamente (tramite la transazione su coinbase).
 
 
 
@@ -976,7 +976,7 @@ Nei capitoli precedenti abbiamo visto come i miner riescono a trovare un blocco 
 
 
 
-- sovvenzione in blocco**;
+- [sovvenzione in blocco](https://planb.academy/resources/glossary/block-subsidy)**;
 - spese di transazione**.
 
 
@@ -1091,7 +1091,7 @@ Due transazioni possono quindi pagare lo stesso importo di tasse in termini asso
 
 
 
-Per questo motivo, in pratica, esprimiamo la competitività di una transazione con un rapporto di commissioni, solitamente in `sats/vB` (satoshi per byte virtuale). Il calcolo di questo rapporto è semplice:
+Per questo motivo, in pratica, esprimiamo la competitività di una transazione con un rapporto di commissioni, solitamente in `sats/vB` ([satoshi](https://planb.academy/resources/glossary/satoshi-sat) per byte virtuale). Il calcolo di questo rapporto è semplice:
 
 
 
@@ -1142,7 +1142,7 @@ Nel prossimo capitolo ci concentreremo più dettagliatamente sul sussidio in blo
 
 
 
-Nel capitolo precedente abbiamo visto che i miner che producono un blocco valido ricevono una ricompensa costituita dalle commissioni per le transazioni incluse nel blocco, più una sovvenzione per il blocco. Tuttavia, non abbiamo ancora spiegato come viene determinato l'importo di questa sovvenzione. Il meccanismo che stabilisce ed evolve questo valore è noto come ***halving***.
+Nel capitolo precedente abbiamo visto che i miner che producono un blocco valido ricevono una ricompensa costituita dalle commissioni per le transazioni incluse nel blocco, più una sovvenzione per il blocco. Tuttavia, non abbiamo ancora spiegato come viene determinato l'importo di questa sovvenzione. Il meccanismo che stabilisce ed evolve questo valore è noto come ***[halving](https://planb.academy/resources/glossary/halving)***.
 
 
 
@@ -1251,7 +1251,7 @@ La ragione principale è di tipo meccanico. Attraverso successivi dimezzamenti, 
 
 
 
-A ciò si aggiungono anche deviazioni marginali legate al protocollo. Ad esempio, in rari casi, alcuni miner potrebbero non aver richiesto l'intera sovvenzione, il che riduce definitivamente la quantità di bitcoin effettivamente emessi. Possiamo anche citare il blocco genesis, prodotto da Satoshi il 3 gennaio 2009, i cui bitcoin creati non fanno parte del UTXO set, così come alcuni eventi storici legati ai bug, come la duplicazione degli identificativi delle transazioni su coinbase.
+A ciò si aggiungono anche deviazioni marginali legate al protocollo. Ad esempio, in rari casi, alcuni miner potrebbero non aver richiesto l'intera sovvenzione, il che riduce definitivamente la quantità di bitcoin effettivamente emessi. Possiamo anche citare il [blocco genesis](https://planb.academy/resources/glossary/genesis-block), prodotto da Satoshi il 3 gennaio 2009, i cui bitcoin creati non fanno parte del [UTXO set](https://planb.academy/resources/glossary/utxo-set), così come alcuni eventi storici legati ai bug, come la duplicazione degli identificativi delle transazioni su coinbase.
 
 
 
@@ -1295,7 +1295,7 @@ Rimane tuttavia una domanda: con quale meccanismo il miner raccoglie questa rico
 
 
 
-Come abbiamo visto nella prima parte del corso, ogni blocco Bitcoin contiene un elenco di transazioni in attesa di conferma. La prima di queste è sempre la transazione coinbase. È quella che permette al miner vincitore di ricevere la sua ricompensa.
+Come abbiamo visto nella prima parte del corso, ogni blocco Bitcoin contiene un elenco di transazioni in attesa di conferma. La prima di queste è sempre la [transazione coinbase](https://planb.academy/resources/glossary/coinbase-transaction). È quella che permette al miner vincitore di ricevere la sua ricompensa.
 
 
 
@@ -1303,7 +1303,7 @@ Come abbiamo visto nella prima parte del corso, ogni blocco Bitcoin contiene un 
 
 
 
-A prima vista, sembra una classica transazione Bitcoin: ha un TXID, esce ed è inclusa nell'albero Merkle del blocco. Tuttavia, si differenzia per un aspetto importante: non spende alcun UTXO esistente.
+A prima vista, sembra una classica transazione Bitcoin: ha un [TXID](https://planb.academy/resources/glossary/txid-transaction-identifier), esce ed è inclusa nell'albero Merkle del blocco. Tuttavia, si differenzia per un aspetto importante: non spende alcun UTXO esistente.
 
 
 
@@ -1402,7 +1402,7 @@ Nel corso del tempo, la transazione coinbase è diventata un punto di inseriment
 
 
 
-BIP-34 è un fork soft distribuito nel marzo 2013, a partire dal blocco 227.930, che ha introdotto la versione 2 dei blocchi Bitcoin. Questa nuova versione richiede che ogni blocco includa, nello `scriptSig` della transazione coinbase, l'altezza del blocco creato.
+[BIP-34](https://planb.academy/resources/glossary/bip0034) è un fork soft distribuito nel marzo 2013, a partire dal blocco 227.930, che ha introdotto la versione 2 dei blocchi Bitcoin. Questa nuova versione richiede che ogni blocco includa, nello `scriptSig` della transazione coinbase, l'altezza del blocco creato.
 
 
 
@@ -1454,7 +1454,7 @@ Per ragioni operative, le mining pool sfruttano anche il campo libero del `scrip
 
 
 
-Dall'abilitazione del SegWit soft fork nel 2017, i dati dei testimoni (cioè generalmente le firme) sono stati separati dai dati anagrafici delle transazioni, in particolare per correggere il problema della malleabilità delle transazioni Bitcoin. Questa separazione introduce quindi un nuovo elemento da impegnare nel blocco.
+Dall'abilitazione del SegWit soft fork nel 2017, i dati dei testimoni (cioè generalmente le firme) sono stati separati dai dati anagrafici delle transazioni, in particolare per correggere il problema della [malleabilità delle transazioni Bitcoin](https://planb.academy/resources/glossary/malleability-transaction). Questa separazione introduce quindi un nuovo elemento da impegnare nel blocco.
 
 
 
@@ -1500,7 +1500,7 @@ Questo messaggio, presente nel blocco Genesis (il primo blocco di Bitcoin) è in
 ### Il periodo di maturità
 
 
-Una volta che il blocco è stato estratto e distribuito, la transazione di coinbase appare sulla blockchain come qualsiasi altra transazione. Crea UTXO per il miner vincitore, consentendogli di riscuotere la sua ricompensa. Tuttavia, questi UTXO non sono immediatamente spendibili: sono soggetti a un periodo di maturità. Questa scadenza è fissata a 100 blocchi dopo il blocco contenente il coinbase. In concreto, la transazione coinbase deve quindi totalizzare 101 conferme perché i suoi output diventino spendibili dal miner vincitore.
+Una volta che il blocco è stato estratto e distribuito, la transazione di coinbase appare sulla blockchain come qualsiasi altra transazione. Crea UTXO per il miner vincitore, consentendogli di riscuotere la sua ricompensa. Tuttavia, questi UTXO non sono immediatamente spendibili: sono soggetti a un [periodo di maturità](https://planb.academy/resources/glossary/maturity-period). Questa scadenza è fissata a 100 blocchi dopo il blocco contenente il coinbase. In concreto, la transazione coinbase deve quindi totalizzare 101 conferme perché i suoi output diventino spendibili dal miner vincitore.
 
 
 ![Image](assets/fr/040.webp)
@@ -1615,7 +1615,7 @@ A parità di consumo energetico, una GPU può produrre molti più hash al second
 
 
 
-Tra l'era delle GPU e quella moderna del ASIC, c'è stata una fase intermedia: l'uso degli FPGA. Un FPGA è un componente riprogrammabile: può essere configurato per implementare direttamente un circuito logico dedicato a un particolare calcolo, in questo caso `SHA256d`. L'idea era quella di allontanarsi ancora di più dall'hardware general-purpose (CPU/GPU) per guadagnare in efficienza energetica. Ma presto i miglioramenti apportati virtualmente sulle FPGA sarebbero stati applicati fisicamente ai chip stessi: ecco l'arrivo del ASIC.
+Tra l'era delle GPU e quella moderna del [ASIC](https://planb.academy/resources/glossary/asic), c'è stata una fase intermedia: l'uso degli FPGA. Un FPGA è un componente riprogrammabile: può essere configurato per implementare direttamente un circuito logico dedicato a un particolare calcolo, in questo caso `SHA256d`. L'idea era quella di allontanarsi ancora di più dall'hardware general-purpose (CPU/GPU) per guadagnare in efficienza energetica. Ma presto i miglioramenti apportati virtualmente sulle FPGA sarebbero stati applicati fisicamente ai chip stessi: ecco l'arrivo del ASIC.
 
 
 
@@ -1667,7 +1667,7 @@ Una macchina isolata può essere utilizzata come miniera, ma raggruppando centin
 
 
 
-Una fattoria mining, nella sua forma più semplice, è un edificio (o un insieme di container) pieno di ASIC che funzionano 24 ore su 24, 7 giorni su 7. La sfida è ora quella di mantenere condizioni operative stabili:
+Una [fattoria mining](https://planb.academy/resources/glossary/mining-farm), nella sua forma più semplice, è un edificio (o un insieme di container) pieno di ASIC che funzionano 24 ore su 24, 7 giorni su 7. La sfida è ora quella di mantenere condizioni operative stabili:
 
 
 
@@ -1724,7 +1724,7 @@ https://planb.academy/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-
 
 
 
-Mining Il Bitcoin comporta costi continui e inevitabili, primo fra tutti il consumo di energia della macchina. Queste spese sono sostenute indipendentemente dai risultati, anche se i ricavi del mining sono, per loro stessa natura, rari e casuali. La scoperta di un blocco dipende esclusivamente dalla quota di hashrate del miner, il che rende i guadagni tanto più imprevedibili quanto più piccola è tale quota. È proprio questo problema pratico che ha portato rapidamente alla diffusione delle mining pool. In questo capitolo finale del corso MIN 101, offro un'introduzione ai principi e al funzionamento delle mining pool in Bitcoin.
+Mining Il Bitcoin comporta costi continui e inevitabili, primo fra tutti il consumo di energia della macchina. Queste spese sono sostenute indipendentemente dai risultati, anche se i ricavi del mining sono, per loro stessa natura, rari e casuali. La scoperta di un blocco dipende esclusivamente dalla quota di hashrate del miner, il che rende i guadagni tanto più imprevedibili quanto più piccola è tale quota. È proprio questo problema pratico che ha portato rapidamente alla diffusione delle [mining pool](https://planb.academy/resources/glossary/pool-mining). In questo capitolo finale del corso MIN 101, offro un'introduzione ai principi e al funzionamento delle mining pool in Bitcoin.
 
 
 
@@ -1736,7 +1736,7 @@ Un mining pool è un'organizzazione (spesso un servizio online) che aggrega la p
 
 
 
-I partecipanti a una mining pool sono spesso chiamati "hasher", piuttosto che "miner", poiché non svolgono più tutto il lavoro mining, ma si limitano a eseguire l'hash dei dati trasmessi loro dal pool.
+I partecipanti a una mining pool sono spesso chiamati "[hasher](https://planb.academy/resources/glossary/hasher)", piuttosto che "miner", poiché non svolgono più tutto il lavoro mining, ma si limitano a eseguire l'hash dei dati trasmessi loro dal pool.
 
 
 
@@ -1807,7 +1807,7 @@ I primi pool sono stati creati proprio in risposta a questa nuova realtà. Braii
 
 
 
-Dal punto di vista tecnico, i pool sono stati strutturati attorno a protocolli di comunicazione specializzati tra il pool e i miner (ad esempio Stratum, poi Stratum V2), al fine di orchestrare in modo efficiente il lavoro distribuito. Approfondiremo questi concetti nel nostro corso di formazione MIN 201.
+Dal punto di vista tecnico, i pool sono stati strutturati attorno a protocolli di comunicazione specializzati tra il pool e i miner (ad esempio [Stratum](https://planb.academy/resources/glossary/stratum), poi Stratum V2), al fine di orchestrare in modo efficiente il lavoro distribuito. Approfondiremo questi concetti nel nostro corso di formazione MIN 201.
 
 
 

@@ -1,0 +1,8 @@
+question: According to the Austrian school, why is it impossible to apply the methods of the natural sciences to the study of economics?
+answer: Because individuals act with intention and can modify their behaviour by learning
+wrong_answers:
+  - Because economic data are too complex to measure accurately
+  - "Because economic phenomena take place on a scale too large for observation"
+  - Because measuring instruments are underdeveloped in economics
+explanation: |
+  The Austrian school defends methodological dualism by emphasizing a fundamental difference between the objects of study: unlike atoms, which always react in the same way, humans act with intention, learn from experience and can change their minds. This ability to learn and change preferences makes it impossible to predict constant behavior, as in the natural sciences. The other answers evoke technical problems that could theoretically be solved, whereas the Austrian position focuses on a conceptual impossibility linked to the very nature of human action.

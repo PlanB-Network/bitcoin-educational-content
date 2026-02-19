@@ -1,0 +1,2 @@
+description: |
+  Utexo is a Bitcoin-native execution layer that brings stablecoin payments and settlement to Bitcoin by combining Lightning for instant settlement with RGB for private, non-custodial tokenization. It abstracts channel, routing, and RGB state complexity into a single interface for USDT transfers, liquidity provisioning, and developer integration—unlocking stablecoin liquidity for BTCFi and enabling native yield opportunities for BTC and USDT.

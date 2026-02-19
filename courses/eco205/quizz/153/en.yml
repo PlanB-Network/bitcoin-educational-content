@@ -1,0 +1,8 @@
+question: According to the Austrian theory of business cycles, why is a natural fall in interest rates (due to real savings) fundamentally different from an artificial fall imposed by the central bank?
+answer: The natural decline reflects increased real savings and correctly directs investment towards the later stages of production, while the artificial decline creates false signals with no corresponding savings
+wrong_answers:
+  - "The natural decline only stimulates immediate consumption, while the artificial decline encourages savings and delays consumption by economic agents."
+  - "The natural decline systematically causes inflation, while the artificial decline maintains price stability thanks to the central bank's monetary control."
+  - "The natural fall discourages productive investment by reducing expected profits, unlike the artificial fall, which optimizes the allocation of scarce resources."
+explanation: |
+  This distinction is crucial in Austrian theory. A natural fall in interest rates results in increased real savings, legitimately signalling to entrepreneurs to redirect investment towards longer-term projects. These savings provide the necessary real resources. Conversely, an artificial cut by the central bank creates a misleading signal with no corresponding savings, generating malinvestment because real resources are lacking to support these projects.

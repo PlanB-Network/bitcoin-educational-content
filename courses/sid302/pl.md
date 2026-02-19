@@ -63,22 +63,22 @@ Zanurz się w świecie łańcucha bocznego Liquid i uwolnij jego pełny potencja
 ### Architektura Liquid Network i model konsensusu
 
 
-Liquid Network to sfederowany łańcuch boczny zbudowany na bazie kodu Elements, zaprojektowany w celu rozszerzenia możliwości Bitcoin przy jednoczesnym oparciu się na jego podstawowym bezpieczeństwie. W przeciwieństwie do Bitcoin, Proof-of-Work, Liquid działa w oparciu o model Federated Consensus. Sieć jest utrzymywana przez globalnie rozproszoną grupę członków, w tym giełdy, biura handlowe i dostawców infrastruktury. Spośród tych członków wybieranych jest piętnastu "funkcjonariuszy", którzy działają jako sygnatariusze bloków.
+Liquid Network to sfederowany łańcuch boczny zbudowany na bazie kodu Elements, zaprojektowany w celu rozszerzenia możliwości Bitcoin przy jednoczesnym oparciu się na jego podstawowym bezpieczeństwie. W przeciwieństwie do Bitcoin, [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work), Liquid działa w oparciu o model Federated Consensus. Sieć jest utrzymywana przez globalnie rozproszoną grupę członków, w tym giełdy, biura handlowe i dostawców infrastruktury. Spośród tych członków wybieranych jest piętnastu "funkcjonariuszy", którzy działają jako sygnatariusze bloków.
 
 
-Funkcjonariusze ci tworzą bloki w deterministyczny sposób, generując nowy blok co minutę. Ten precyzyjny czas kontrastuje z probabilistycznymi dziesięciominutowymi interwałami Bitcoin. Aby blok był ważny, wymaga podpisów od co najmniej 11 z 15 funkcjonariuszy (próg dwie trzecie plus jeden). Mechanizm ten zapewnia Liquid "ostateczność dwóch bloków", co oznacza, że gdy transakcja uzyska dwa potwierdzenia (około dwóch minut), reorganizacja łańcucha jest matematycznie niemożliwa. Ta szybkość i pewność mają kluczowe znaczenie dla arbitrażu, zautomatyzowanego handlu i szybkiego rozliczenia między giełdami.
+Funkcjonariusze ci tworzą [bloki](https://planb.academy/resources/glossary/block) w deterministyczny sposób, generując nowy blok co minutę. Ten precyzyjny czas kontrastuje z probabilistycznymi dziesięciominutowymi interwałami Bitcoin. Aby blok był ważny, wymaga podpisów od co najmniej 11 z 15 funkcjonariuszy (próg dwie trzecie plus jeden). Mechanizm ten zapewnia Liquid "ostateczność dwóch bloków", co oznacza, że gdy transakcja uzyska dwa potwierdzenia (około dwóch minut), reorganizacja łańcucha jest matematycznie niemożliwa. Ta szybkość i pewność mają kluczowe znaczenie dla arbitrażu, zautomatyzowanego handlu i szybkiego rozliczenia między giełdami.
 
 
-Federacja jest dynamiczna. Dzięki protokołowi Dynamic Federation (Dynafed) sieć może zmieniać osoby funkcyjne lub aktualizować parametry bez konieczności stosowania twardego fork. Pozwala to systemowi na płynną ewolucję i wymianę sprzętu lub członków przy jednoczesnym zachowaniu ciągłości działania.
+Federacja jest dynamiczna. Dzięki protokołowi Dynamic Federation (Dynafed) sieć może zmieniać osoby funkcyjne lub aktualizować parametry bez konieczności stosowania twardego [fork](https://planb.academy/resources/glossary/fork). Pozwala to systemowi na płynną ewolucję i wymianę sprzętu lub członków przy jednoczesnym zachowaniu ciągłości działania.
 
 
 ### Confidential Transactions i zarządzanie aktywami
 
 
-Cechą charakterystyczną Liquid jest natywna obsługa Confidential Transactions (CT) i wielu aktywów. W głównym łańcuchu Bitcoin wszystkie szczegóły transakcji - nadawca, odbiorca i kwota - są publiczne. W Liquid CT wykorzystuje zobowiązania kryptograficzne, aby ukryć typ aktywów i kwotę przed księgą publiczną, jednocześnie umożliwiając sieci weryfikację, czy transakcja jest ważna (tj. nie wystąpiła inflacja). Tylko uczestnicy posiadający klucze zaślepiające mogą zobaczyć konkretne wartości, oferując poziom prywatności handlowej niezbędny dla instytucji przenoszących duże pozycje.
+Cechą charakterystyczną Liquid jest natywna obsługa Confidential Transactions (CT) i wielu aktywów. W głównym łańcuchu Bitcoin wszystkie szczegóły [transakcji](https://planb.academy/resources/glossary/transaction-tx) - nadawca, odbiorca i kwota - są publiczne. W Liquid CT wykorzystuje zobowiązania kryptograficzne, aby ukryć typ aktywów i kwotę przed księgą publiczną, jednocześnie umożliwiając sieci weryfikację, czy transakcja jest ważna (tj. nie wystąpiła [inflacja](https://planb.academy/resources/glossary/inflation)). Tylko uczestnicy posiadający klucze zaślepiające mogą zobaczyć konkretne wartości, oferując poziom prywatności handlowej niezbędny dla instytucji przenoszących duże pozycje.
 
 
-Liquid traktuje wszystkie aktywa jako "natywnych" obywateli łańcucha bloków. Obejmuje to Liquid Bitcoin (LBTC), stablecoiny, takie jak USDT, oraz tokeny zabezpieczające. Emisja aktywów nie wymaga skomplikowanych inteligentnych kontraktów; jest to podstawowa funkcja protokołu.
+Liquid traktuje wszystkie aktywa jako "natywnych" obywateli [łańcucha bloków](https://planb.academy/resources/glossary/blockchain). Obejmuje to Liquid Bitcoin (LBTC), stablecoiny, takie jak USDT, oraz tokeny zabezpieczające. Emisja aktywów nie wymaga skomplikowanych inteligentnych kontraktów; jest to podstawowa funkcja protokołu.
 
 
 #### Aktywa regulowane i AMP
@@ -97,7 +97,7 @@ Proces "peg-out" umożliwia użytkownikom wymianę LBTC na Bitcoin. Wymaga to sp
 
 #### Sprzętowe moduły bezpieczeństwa (HSM)
 
-Bezpieczeństwo jest ściśle egzekwowane przez sprzęt. Osoby funkcyjne nie przechowują kluczy prywatnych na standardowych serwerach; zamiast tego obsługują sprzętowe moduły bezpieczeństwa (HSM). Urządzenia te są odseparowane od logiki serwera hosta i są zaprogramowane według ścisłych reguł. Na przykład, HSM odmówi podpisania bloku, jeśli jego wysokość nie jest większa niż poprzednia, zapobiegając przepisywaniu historii. Ten "kontradyktoryjny" model bezpieczeństwa zakłada, że serwer hosta może zostać naruszony, zapewniając, że klucze pozostaną bezpieczne, nawet jeśli fizyczna lokalizacja zostanie naruszona.
+Bezpieczeństwo jest ściśle egzekwowane przez sprzęt. Osoby funkcyjne nie przechowują [kluczy prywatnych](https://planb.academy/resources/glossary/private-key) na standardowych serwerach; zamiast tego obsługują sprzętowe moduły bezpieczeństwa (HSM). Urządzenia te są odseparowane od logiki serwera hosta i są zaprogramowane według ścisłych reguł. Na przykład, HSM odmówi podpisania bloku, jeśli jego wysokość nie jest większa niż poprzednia, zapobiegając przepisywaniu historii. Ten "kontradyktoryjny" model bezpieczeństwa zakłada, że serwer hosta może zostać naruszony, zapewniając, że klucze pozostaną bezpieczne, nawet jeśli fizyczna lokalizacja zostanie naruszona.
 
 
 ## Podstawy Elements
@@ -152,7 +152,7 @@ Interakcja z węzłem Elements odbywa się głównie za pośrednictwem interfejs
 
 - Konfiguracja:** Deweloper zazwyczaj rozpoczyna pracę w trybie `regtest`. Pozwala to na natychmiastowe generowanie bloków (`generateblock`) w celu natychmiastowego potwierdzenia transakcji, z pominięciem 1-minutowego czasu bloku w sieci na żywo.
 - Komendy:** Dostępne są standardowe komendy Bitcoin, takie jak `getblockchaininfo`, wraz z komendami specyficznymi dla Elements, takimi jak `dumpblindingkey` (do audytu CT) lub `pegin` (do przenoszenia BTC do łańcucha bocznego).
-- Aby zarządzać wieloma węzłami (np. "nadawcą" i "odbiorcą" do testowania), programiści często używają aliasów powłoki, takich jak `e1-cli` i `e2-cli` wskazujących na różne katalogi danych, symulując sieć peer-to-peer na jednej maszynie.
+- Aby zarządzać wieloma węzłami (np. "nadawcą" i "odbiorcą" do testowania), programiści często używają aliasów powłoki, takich jak `e1-cli` i `e2-cli` wskazujących na różne katalogi danych, symulując sieć [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) na jednej maszynie.
 
 
 Architektura ta umożliwia programistom tworzenie zaawansowanych aplikacji finansowych - takich jak platformy papierów wartościowych lub prywatne bramki płatnicze - przy użyciu solidnych i znanych narzędzi ekosystemu Bitcoin.
@@ -169,10 +169,10 @@ Architektura ta umożliwia programistom tworzenie zaawansowanych aplikacji finan
 ### Infrastruktura Cross-Layer i sterowniki HTLC
 
 
-Ekosystem Bitcoin przekształcił się w wielowarstwową architekturę, w której Mainchain zapewnia rozliczenia, Lightning oferuje szybkość, a Liquid umożliwia zaawansowane możliwości aktywów. Przenoszenie wartości między tymi warstwami bez scentralizowanych pośredników wymaga niezaufanego prymitywu kryptograficznego: Hash Time Locked Contract (HTLC).
+Ekosystem Bitcoin przekształcił się w wielowarstwową architekturę, w której Mainchain zapewnia rozliczenia, Lightning oferuje szybkość, a Liquid umożliwia zaawansowane możliwości aktywów. Przenoszenie wartości między tymi warstwami bez scentralizowanych pośredników wymaga niezaufanego prymitywu kryptograficznego: [Hash](https://planb.academy/resources/glossary/hash-function) Time Locked Contract ([HTLC](https://planb.academy/resources/glossary/htlc)).
 
 
-HTLC tworzy warunkowy kanał płatności, który atomowo łączy niezależne systemy. Działa poprzez dwa podstawowe ograniczenia: **hash lock** i **time lock**.
+HTLC tworzy warunkowy [kanał płatności](https://planb.academy/resources/glossary/payment-channel), który atomowo łączy niezależne systemy. Działa poprzez dwa podstawowe ograniczenia: **hash lock** i **time lock**.
 
 
 - Blokada Hash:** Środki można wydać natychmiast, jeśli odbiorca ujawni tajny "obraz wstępny", który pasuje do określonego skrótu kryptograficznego.
@@ -185,20 +185,20 @@ Ta dwuścieżkowa struktura zapewnia bezpieczeństwo. W wymianie międzywarstwow
 ### Aktualizacja Taproot i MuSig2
 
 
-Starsze HTLC (SegWit v0) działały dobrze, ale miały wady związane z prywatnością i wydajnością. Wymagały one opublikowania całej logiki skryptu on-chain, dzięki czemu transakcje swap były łatwe do zidentyfikowania dla analityków blockchain i droższe ze względu na rozmiar danych. Wprowadzenie Taproot (SegWit v1) i protokołu MuSig2 zrewolucjonizowało tę architekturę.
+Starsze HTLC ([SegWit](https://planb.academy/resources/glossary/segwit) v0) działały dobrze, ale miały wady związane z prywatnością i wydajnością. Wymagały one opublikowania całej logiki [skryptu](https://planb.academy/resources/glossary/script) on-chain, dzięki czemu transakcje swap były łatwe do zidentyfikowania dla analityków blockchain i droższe ze względu na rozmiar danych. Wprowadzenie [Taproot](https://planb.academy/resources/glossary/taproot) (SegWit v1) i protokołu MuSig2 zrewolucjonizowało tę architekturę.
 
 
-Taproot pozwala na **Key Aggregation** poprzez MuSig2. Zamiast ujawniać złożony skrypt z wieloma kluczami publicznymi, MuSig2 pozwala uczestnikom wymiany połączyć swoje klucze w jeden zagregowany klucz publiczny.
+Taproot pozwala na **Key Aggregation** poprzez MuSig2. Zamiast ujawniać złożony skrypt z wieloma [kluczami publicznymi](https://planb.academy/resources/glossary/public-key), MuSig2 pozwala uczestnikom wymiany połączyć swoje klucze w jeden zagregowany klucz publiczny.
 
 
 - Współpracująca "ścieżka klucza":** Jeśli obie strony zgadzają się na wymianę ("szczęśliwa ścieżka"), podpisują transakcję. Dla sieci wygląda to identycznie jak standardowa płatność z jednym podpisem. Zużywa minimalną przestrzeń blokową i nie ujawnia absolutnie żadnych informacji o warunkach wymiany.
-- "Ścieżka skryptu" adwersarza:** Jeśli jedna ze stron przestanie reagować lub stanie się złośliwa, podstawowy skrypt (zawierający hash / blokady czasowe) jest ujawniany tylko wtedy. Jest on zorganizowany w drzewo Merkle'a, dzięki czemu uczciwa strona może ujawnić tylko określoną gałąź potrzebną do odzyskania środków, utrzymując resztę logiki kontraktu w ukryciu.
+- "Ścieżka skryptu" adwersarza:** Jeśli jedna ze stron przestanie reagować lub stanie się złośliwa, podstawowy skrypt (zawierający hash / blokady czasowe) jest ujawniany tylko wtedy. Jest on zorganizowany w [drzewo Merkle'a](https://planb.academy/resources/glossary/merkle-tree), dzięki czemu uczciwa strona może ujawnić tylko określoną gałąź potrzebną do odzyskania środków, utrzymując resztę logiki kontraktu w ukryciu.
 
 
 ### Praktyczne zastosowanie: Liquid-Lightning Swaps
 
 
-W praktyce protokoły te umożliwiają płynną wymianę między warstwami Bitcoin. Typowa wymiana Liquid na Lightning rozpoczyna się od żądania wymiany przez klienta od dostawcy usług. Klient dostarcza fakturę Lightning, a dostawca blokuje ekwiwalent Liquid Bitcoin (L-BTC) na adres HTLC z obsługą Taproot.
+W praktyce protokoły te umożliwiają płynną wymianę między warstwami Bitcoin. Typowa wymiana Liquid na Lightning rozpoczyna się od żądania wymiany przez klienta od dostawcy usług. Klient dostarcza [fakturę Lightning](https://planb.academy/resources/glossary/invoice-lightning), a dostawca blokuje ekwiwalent Liquid Bitcoin (L-BTC) na adres HTLC z obsługą Taproot.
 
 
 Atomowość jest egzekwowana, gdy płatność zostanie rozliczona. Aby ubiegać się o L-BTC, usługodawca musi mieć obraz wstępny. Otrzymuje go tylko wtedy, gdy pomyślnie opłaci fakturę Lightning klienta. W momencie sfinalizowania płatności Lightning obraz wstępny zostaje ujawniony, umożliwiając dostawcy odblokowanie środków Liquid.
@@ -206,7 +206,7 @@ Atomowość jest egzekwowana, gdy płatność zostanie rozliczona. Aby ubiegać 
 
 #### Abstrakcja Wallet i zarządzanie UTXO
 
-Dla użytkowników końcowych ta złożoność jest całkowicie abstrakcyjna. Nowoczesne portfele, takie jak Aqua, obsługują procesy generowania kluczy, tworzenia faktur i podpisywania w tle. Użytkownik po prostu "płaci" fakturę Lightning przy użyciu swojego salda Liquid. Za kulisami usługa zarządza konsolidacją UTXO, okresowo zamiatając małe, nieodebrane lub zwrócone dane wyjściowe, aby utrzymać wydajność wallet i zminimalizować wpływ opłat w okresach dużego ruchu.
+Dla użytkowników końcowych ta złożoność jest całkowicie abstrakcyjna. Nowoczesne portfele, takie jak Aqua, obsługują procesy generowania kluczy, tworzenia faktur i podpisywania w tle. Użytkownik po prostu "płaci" fakturę Lightning przy użyciu swojego salda Liquid. Za kulisami usługa zarządza konsolidacją [UTXO](https://planb.academy/resources/glossary/utxo), okresowo zamiatając małe, nieodebrane lub zwrócone dane wyjściowe, aby utrzymać wydajność [wallet](https://planb.academy/resources/glossary/wallet) i zminimalizować wpływ opłat w okresach dużego ruchu.
 
 
 ## Przegląd Liquid Network
@@ -220,7 +220,7 @@ Dla użytkowników końcowych ta złożoność jest całkowicie abstrakcyjna. No
 ### Architektura i konsensus Liquid Network
 
 
-Liquid Network działa jako federacyjny łańcuch boczny zbudowany na bazie kodu **Elements**. Podczas gdy Elements - fork rdzenia Bitcoin - zapewnia podstawę oprogramowania, Liquid jest implementacją sieci produkcyjnej. W przeciwieństwie do Bitcoin Proof-of-Work, który opiera się na konkurencyjnym mining, Liquid wykorzystuje model **Federated Consensus**.
+Liquid Network działa jako federacyjny łańcuch boczny zbudowany na bazie kodu **Elements**. Podczas gdy Elements - fork rdzenia Bitcoin - zapewnia podstawę oprogramowania, Liquid jest implementacją sieci produkcyjnej. W przeciwieństwie do Bitcoin Proof-of-Work, który opiera się na konkurencyjnym [mining](https://planb.academy/resources/glossary/mining), Liquid wykorzystuje model **Federated Consensus**.
 
 
 Sieć jest utrzymywana przez piętnastu globalnie rozproszonych "funkcjonariuszy" Podmioty te obsługują wyspecjalizowane serwery, które pełnią dwie krytyczne role:
@@ -283,7 +283,7 @@ Aby zapewnić długowieczność, Liquid wykorzystuje Dynafed, protokół, który
 ### Liquid Network: Strategia biznesowa i ekosystem
 
 
-Liquid to coś więcej niż techniczny łańcuch boczny; jest to warstwa infrastruktury skoncentrowana na biznesie, zaprojektowana do obsługi złożonych wymagań rynków kapitałowych, których Bitcoin mainchain nie może skutecznie obsługiwać. Podczas gdy Lightning Network optymalizuje płatności o wysokiej częstotliwości i niskiej wartości, Liquid jest ukierunkowany na transfery o wysokiej wartości, emisję aktywów i rozliczenia między giełdami.
+Liquid to coś więcej niż techniczny łańcuch boczny; jest to warstwa infrastruktury skoncentrowana na biznesie, zaprojektowana do obsługi złożonych wymagań rynków kapitałowych, których Bitcoin mainchain nie może skutecznie obsługiwać. Podczas gdy [Lightning Network](https://planb.academy/resources/glossary/lightning-network) optymalizuje płatności o wysokiej częstotliwości i niskiej wartości, Liquid jest ukierunkowany na transfery o wysokiej wartości, emisję aktywów i rozliczenia między giełdami.
 
 
 Ekosystem jest napędzany przez **Liquid Federation**, konsorcjum ~73 firm, w tym giełd, biur handlowych i dostawców infrastruktury. Ten model współpracy odzwierciedla tradycyjne finansowe izby rozliczeniowe, ale działa z większą przejrzystością i znacznie krótszym czasem rozliczenia (2 minuty w porównaniu do T + 2 dni).
@@ -358,7 +358,7 @@ Podstawowa propozycja wartości platformy opiera się na dwóch podstawowych fun
 
 #### Kompromisy operacyjne
 
-Architektura ta wprowadza określone kompromisy. System opiera się na dostępności serwera AMP; jeśli serwer działa jako współsygnatariusz i przechodzi w tryb offline, płynność aktywów zostaje wstrzymana. Ponadto, chociaż prywatność między użytkownikami jest zachowana, inwestorzy muszą zaakceptować fakt, że emitent ma pełny wgląd w ich zasoby. Model ten jest idealny dla zgodnych tokenów zabezpieczających, ale nieodpowiedni dla kryptowalut odpornych na cenzurę.
+Architektura ta wprowadza określone kompromisy. System opiera się na dostępności serwera AMP; jeśli serwer działa jako współsygnatariusz i przechodzi w tryb offline, płynność aktywów zostaje wstrzymana. Ponadto, chociaż prywatność między użytkownikami jest zachowana, inwestorzy muszą zaakceptować fakt, że emitent ma pełny wgląd w ich zasoby. Model ten jest idealny dla zgodnych tokenów zabezpieczających, ale nieodpowiedni dla [kryptowalut](https://planb.academy/resources/glossary/cryptocurrency) odpornych na cenzurę.
 
 
 ### Ewolucja architektury i ścieżki integracji

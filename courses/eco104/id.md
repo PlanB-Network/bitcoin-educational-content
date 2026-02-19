@@ -1443,18 +1443,19 @@ Kami ingin jelas. Pengamatan ini tidak menyiratkan bahwa kita harus mengabaikan 
 
 Secara keseluruhan, meskipun ada kesalahpahaman tentang stablecoin, dan dengan benar dalam banyak kasus, penting untuk mengakui bahwa setiap stablecoin beroperasi secara unik, dengan berbagai tingkat transparansi dan kehati-hatian. Dengan melakukan penelitian menyeluruh ke dalam stablecoin mana pun yang Anda putuskan untuk menyimpan nilai di dalamnya, Anda dapat mengurangi banyak kesulitan umum yang terkait dengan mata uang kripto.
 
-#### Kesalahpahaman Dua: Bahkan stablecoin yang paling stabil sekalipun bisa terlepas dari peg
+#### Kesalahpahaman Kedua: Bahkan stablecoin yang paling stabil sekalipun bisa mengalami depeg (kehilangan patokan nilai).
 
 Ketika berbicara tentang kesalahpahaman bahwa bahkan stablecoin yang paling stabil sekalipun bisa terlepas dari peg, penting untuk membedakan antara pasar primer dan sekunder.
+
 Pasar primer terjadi antara penerbit stablecoin, yaitu Tether, dan bursa utama yang memiliki kemampuan untuk menebus aset dasar bernilai, seperti USD, atau menerbitkan stablecoin untuk menjaga stabilitas harga. Transaksi pasar primer ini memastikan bahwa stablecoin tetap erat terikat pada nilai yang dimaksudkan.
 
 Di sisi lain, pasar sekunder adalah antara pelanggan dan bursa. Ini adalah tempat individu dapat membeli dan menjual stablecoin, baik untuk perdagangan, investasi, atau apapun yang mereka inginkan.
 
 Depeg terjadi ketika stablecoin tidak lagi memiliki cadangan yang diperlukan untuk memenuhi permintaan penarikan dari pemegangnya atau dalam kejadian hack yang mengkompromikan stablecoin. Namun, penting untuk dicatat bahwa sebagian besar volatilitas harga jangka pendek yang dialami oleh stablecoin tidak menunjukkan depeg. Sebaliknya, seringkali merupakan hasil dari masalah likuiditas.
 
-Mari kita jelaskan. Misalkan sebuah bursa kecil tidak memiliki kemampuan untuk menebus aset dasar bernilai, dan ada tekanan jual yang kuat dari orang-orang yang berusaha menarik aset dasar bernilai yang mendukung stablecoin. Dalam kasus ini, harga stablecoin mungkin sementara turun di bawah harga peg yang ideal. Penyimpangan sementara dari peg adalah kejadian jangka pendek dan harus normal kembali setelah bursa mendapatkan aset dasar yang diperlukan untuk memenuhi kebutuhan pelanggannya. Volatilitas harga sementara ini tidak selalu menunjukkan bahwa stablecoin telah gagal dan runtuh. Sebaliknya, itu mencerminkan tingkat likuiditas rendah yang mempengaruhi kemampuan pengguna untuk menarik dana secara tepat waktu.
+Mari kita jelaskan. Misalkan sebuah bursa kecil tidak memiliki kemampuan untuk menebus aset dasar bernilai, dan ada tekanan jual yang kuat dari orang-orang yang berusaha menarik aset dasar bernilai yang mendukung stablecoin. Dalam hal ini, harga stablecoin mungkin untuk sementara turun di bawah harga ideal yang dipatoknya. Pergeseran sementara dari patokan ini adalah kejadian jangka pendek dan akan kembali normal setelah bursa memperoleh aset dasar yang diperlukan untuk memenuhi kebutuhan pelanggannya. Volatilitas harga sementara ini tidak selalu menunjukkan bahwa stablecoin telah gagal dan runtuh. Sebaliknya, itu mencerminkan tingkat likuiditas rendah yang mempengaruhi kemampuan pengguna untuk menarik dana secara tepat waktu.
 
-Di sisi lain, juga mungkin untuk mengamati stablecoin diperdagangkan di atas harga peg mereka. Situasi ini muncul ketika permintaan untuk stablecoin melebihi kapasitas bursa untuk memenuhi permintaan pelanggan. Biasanya, fenomena ini terjadi pada bursa kecil yang tidak memiliki tautan langsung ke stablecoin dan ketika aset dasar memiliki nilai signifikan, mendorong individu untuk membayar premi untuk memperolehnya. Sebagai contoh, pertimbangkan skenario di mana individu yang tinggal di negara otoriter yang mengalami inflasi tinggi mencari perlindungan dalam stablecoin seperti USDt. Dalam kasus seperti itu, orang mungkin bersedia membayar premi untuk mendapatkan dolar dalam bentuk USDt. Kesediaan ini berasal dari pemahaman bahwa tidak melakukannya akan membuat mereka terpapar pada penurunan daya beli yang lebih besar yang disebabkan oleh lingkungan inflasi.
+Di sisi lain, dimungkinkan juga untuk mengamati perdagangan stablecoin di atas harga yang dipatoknya. Situasi ini muncul ketika permintaan untuk stablecoin melebihi kapasitas bursa untuk memenuhi permintaan pelanggan. Biasanya, fenomena ini terjadi pada bursa kecil yang tidak memiliki tautan langsung ke stablecoin dan ketika aset dasar memiliki nilai signifikan, mendorong individu untuk membayar premi untuk memperolehnya. Sebagai contoh, pertimbangkan skenario di mana individu yang tinggal di negara otoriter yang mengalami inflasi tinggi mencari perlindungan dalam stablecoin seperti USDt. Dalam kasus seperti itu, orang mungkin bersedia membayar premi untuk mendapatkan dolar dalam bentuk USDt. Kesediaan ini berasal dari pemahaman bahwa tidak melakukannya akan membuat mereka terpapar pada penurunan daya beli yang lebih besar yang disebabkan oleh lingkungan inflasi.
 
 Dalam hal ini, volatilitas harga berada di luar kendali penerbit stablecoin, seperti Tether, karena mereka tidak berinteraksi langsung dengan pelanggan. Sebaliknya, pelanggan memperoleh USDt melalui bursa. Oleh karena itu, mereka bergantung pada bursa untuk menjaga likuiditas stablecoin/aset dasar yang cukup untuk memenuhi kebutuhan pelanggan mereka.
 
@@ -1463,6 +1464,7 @@ Singkatnya, lain kali stablecoin diperdagangkan di atas atau di bawah harga yang
 #### Kesalahpahaman Tiga: Mengingat sebagian besar stablecoin bersifat terpusat, penerbit dapat membekukan dana Anda
 
 Dalam mengatasi kesalahpahaman bahwa stablecoin dapat membekukan dana Anda karena sifat terpusatnya, penting untuk menekankan perbedaan antara entitas terpusat dan desentralisasi, masing-masing dengan kelebihan dan kekurangannya sendiri. Meskipun kami sangat mendukung aset desentralisasi seperti Bitcoin, ini tidak berarti stablecoin terpusat kekurangan nilai atau manfaat.
+
 Salah satu keuntungan utama dari sentralisasi adalah kemampuan untuk melakukan intervensi ketika itu adalah demi kepentingan terbaik pengguna dan stabilitas keseluruhan sistem. Memang benar, penerbit stablecoin memiliki potensi untuk membekukan dana. Dalam hampir semua kasus, ini tidak digunakan sebagai serangan jahat terhadap pemegang stablecoin. Sebaliknya, ini dilakukan bersama dengan penegak hukum untuk melindungi konsumen. Contoh yang menonjol adalah kasus runtuhnya bursa FTX. Dalam kolaborasi dengan penegak hukum, Tether membekukan [\$46 juta](https://www.coindesk.com/business/2022/11/10/tether-freezes-46m-of-usdt-following-law-enforcement-request/) nilai USDt untuk melindungi dana konsumen.
 
 Kejadian lain yang menunjukkan manfaat dari intervensi terpusat terjadi setelah [peretasan KuCoin](https://cointelegraph.com/news/tether-freezes-150-million-in-usdt) pada September 2020. Tether membekukan sekitar \$35 juta nilai USDt untuk mencegah peretas mendapatkan keuntungan dari aktivitas ilegal mereka. Contoh-contoh ini menyoroti bagaimana stablecoin terpusat, dalam skenario tertentu, dapat merespon dengan cepat terhadap aktor jahat dan melindungi kepentingan penggunanya.
@@ -1480,7 +1482,8 @@ Ambil contoh, USDt. Banyak yang terjebak dalam pemikiran bahwa dukungan USD dari
 
 Dengan ini di pikiran, ada langkah-langkah yang ditempatkan sehingga bahkan jika rantai dasar dari stablecoin mengalami kesulitan, penerbit stablecoin memiliki langkah-langkah yang dapat mereka ambil sehingga Anda dapat memulihkan dana Anda.
 
-Ringkasnya, sementara itu alami untuk memiliki kekhawatiran tentang kehilangan akses ke dana Anda jika rantai dasar dari stablecoin turun, penting untuk mengakui rencana kontingensi dan proses yang ditetapkan oleh penerbit stablecoin.
+Ringkasnya, sementara itu alami untuk memiliki kekhawatiran tentang kehilangan akses ke dana Anda jika rantai dasar dari stablecoin turun, penting untuk memahami rencana dan proses darurat yang telah ditetapkan oleh penerbit stablecoin.
+
 Sebelum melanjutkan, kami ingin menekankan sekali lagi bahwa setiap stablecoin beroperasi secara berbeda. Oleh karena itu, sangat penting bagi Anda untuk meneliti stablecoin apa pun yang ingin Anda gunakan untuk memahami langkah-langkah keamanan yang diimplementasikan untuk melindungi dana pelanggan.
 
 **Kesimpulan**
@@ -1519,7 +1522,9 @@ Saat dunia menyaksikan dengan ngeri saat Taliban mengambil alih kendali Afganist
 ![image](assets/en/005.webp)
 
 **Gambar:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-bitcoin-to-empower-women/?sh=df9cbbb59724)
+
 Roya Mahboob adalah pelopor di bidang teknologi dan kewirausahaan di Afghanistan. Ia [dinamai](https://www.wto.org/english/thewto_e/acc_e/01_b_roya_mahboob_bio.pdf) sebagai salah satu dari 100 Orang Paling Berpengaruh di Dunia oleh Majalah TIME untuk tahun 2013 setelah "membangun kelas internet di sekolah menengah di Afghanistan." Ia juga mendirikan Perusahaan Perangkat Lunak Afghan Citadel pada tahun 2010, yang bertujuan untuk "menciptakan pekerjaan bagi lulusan universitas baru - khususnya wanita." Dan jika itu belum cukup, ia kemudian memulai Digital Citizen Fund. Organisasi nirlaba ini bekerja untuk memberdayakan wanita dan anak-anak di negara berkembang melalui teknologi.
+
 Namun, sepanjang perjalanan ini, Roya tidak sendirian. Bitcoin telah terbukti menjadi alat yang sangat berharga dalam misinya untuk memberdayakan wanita. Meskipun menghadapi banyak rintangan, termasuk hambatan hukum yang mencegah wanita bekerja dan membuka rekening bank, Roya bertekad untuk menemukan cara untuk membayar wanita yang bekerja dengannya.
 
 Di sinilah Bitcoin masuk... Karena memiliki bitcoin tidak memerlukan pemilik untuk memiliki rekening bank tradisional, siapa pun dengan koneksi internet dapat menggunakannya. Ini berarti bahwa wanita di Afghanistan yang mungkin tidak memiliki akses ke layanan perbankan tradisional masih dapat mengakses layanan keuangan melalui Bitcoin.
@@ -1540,6 +1545,7 @@ Secara keseluruhan, Bitcoin telah menjadi alat yang kuat untuk pemberdayaan fina
 ## Mercedes
 
 <chapterId>dfa10b75-19f6-578a-9d14-a0a541806076</chapterId>
+
 Lahir di Meksiko pada tahun 1949 dalam keadaan miskin, Mercedes mengalami ketidaksetaraan yang mencolok dalam masyarakatnya sejak usia dini. Sepanjang masa kecilnya, ia menghadapi berbagai tantangan, termasuk represi pemerintah terhadap gerakan mahasiswa dan perjuangan unik yang dialami oleh wanita yang hidup dalam kemiskinan. Selain itu, jurang besar antara kaya dan miskin, dikombinasikan dengan akses terbatas ke pendidikan berkualitas, menjebak keluarganya dan banyak orang lain dalam kemiskinan. Frustrasi oleh ketidakadilan ini, Mercedes tertarik pada Marxisme (Komunisme), menganjurkan perubahan sosial dan reformasi ekonomi.
 
 Meskipun memiliki keyakinan Marxisme yang kuat, Mercedes akhirnya mengakui batasan inheren dari sistem tradisional ini dalam hal distribusi kekuasaan dan kekayaan. Kesadaran ini mendorongnya untuk mencari alternatif lain, yang saat itulah ia menemukan Bitcoin dan potensinya untuk menantang sistem keuangan yang telah lama ia kritik. Termotivasi oleh prospek untuk mendorong pembebasan dan pemberdayaan finansial, Mercedes mengalihkan energinya untuk menganjurkan potensi transformatif Bitcoin.
@@ -1561,6 +1567,7 @@ Kehidupan Mercedes telah menjadi perjalanan yang luar biasa, dan dampak Bitcoin 
 ## Cerita Stablecoin
 
 <chapterId>7b6d8d57-905d-5168-9be6-3df7c938de2a</chapterId>
+
 Saat kita mendekati akhir kursus ini, kami ingin menyajikan kumpulan cerita inspiratif tentang stablecoin. Kesaksian ini menampilkan pengalaman nyata dari individu, pemilik bisnis, dan perusahaan yang telah memanfaatkan kekuatan stablecoin untuk meningkatkan kehidupan mereka.
 
 Dalam contoh berikut, Anda akan mendengar langsung dari mereka tentang bagaimana stablecoin telah memberdayakan kelompok orang yang beragam ini untuk menavigasi kompleksitas lanskap keuangan modern dengan lebih mudah dan efisien. Mulai dari transaksi internasional yang lancar dan peluang bisnis yang diperluas hingga inklusivitas keuangan yang ditingkatkan dan penyimpanan nilai yang lebih stabil, setiap cerita menyoroti dampak dari stablecoin pada perjalanan mereka masing-masing.

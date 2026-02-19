@@ -69,7 +69,7 @@ Dengan pemikiran ini, misi kami adalah membawa Anda ke garis depan perubahan dal
 Kami memulai eksplorasi kami dengan mengintip di balik tirai sistem keuangan kita saat ini, di mana sensor keuangan, ketidaksetaraan kekayaan, dan inflasi mengganggu kehidupan sehari-hari kita. Melalui sejarah singkat uang, kami akan melihat bagaimana kita menemukan diri kita di posisi saat ini, menerangi beberapa titik nyeri utama yang kita semua alami.
 
 **Modul 2: Pembebasan Finansial - Pengenalan ke Bitcoin**
-Modul ini akan memecahkan misteri Bitcoin, melampaui jargon untuk membantu Anda memahami apa yang membedakan Bitcoin dari mata uang fiat tradisional. Dari cara kerjanya hingga cara menggunakannya, kami memandu Anda melalui fungsionalitas dan cara berinteraksi dengan Bitcoin.
+Modul ini akan memecahkan misteri Bitcoin, melampaui  istilah-istilah teknis agar kamu bisa memahami apa yang membedakan Bitcoin dari mata uang fiat tradisional. Dari cara kerjanya hingga cara menggunakannya, kami memandu Anda melalui fungsionalitas dan cara berinteraksi dengan Bitcoin.
 
 **Modul 3: Stabilitas di Tengah Kekacauan - Pengenalan ke Tether & Dunia Stablecoin**
 Dalam modul ini, kami melihat lebih dalam ke stablecoin terkemuka, Tether, menjelajahi bagaimana mata uang digital ini mempertahankan nilainya dan berpotensi memberikan kebebasan kepada mereka yang menghadapi pemerintah yang menindas, kurangnya layanan keuangan atau inflasi yang merajalela.
@@ -79,7 +79,7 @@ Untuk menyelesaikan, kami akan menantang kesalahpahaman umum seputar Bitcoin dan
 
 Di akhir kursus ini, Anda tidak hanya akan mendapatkan pengetahuan yang kuat dan alat yang sangat berharga untuk menavigasi lanskap keuangan kita yang kompleks, tetapi Anda juga akan lebih memahami bagaimana Bitcoin dan stablecoin, seperti Tether, memberdayakan pengguna dengan memungkinkan mereka untuk memilih sistem moneter alternatif— satu yang mengutamakan individu, memberikan siapa pun kontrol yang lebih besar atas situasi keuangan mereka. Dengan pemahaman ini, Anda akan lebih siap untuk mengejar kebebasan finansial, pemberdayaan pribadi, dan pembebasan.
 
-Kami sangat senang memiliki Anda bergabung dengan kami dalam perjalanan ini ke kedalaman sistem moneter kita.
+Kami sangat senang memiliki Anda bergabung dengan kami dalam perjalanan ini untuk menyelami lebih dalam sistem moneter kita.
 
 # Harga Kemajuan - Tinjauan Lebih Dekat pada Sistem Keuangan Kita
 
@@ -88,6 +88,7 @@ Kami sangat senang memiliki Anda bergabung dengan kami dalam perjalanan ini ke k
 ## Pengenalan ke Uang
 
 <chapterId>927ad49a-d8d6-5dd3-9250-cdcadcbf425e</chapterId>
+
 Uang adalah bagian yang menarik dan esensial dari kehidupan sehari-hari kita. Kita menggunakannya setiap hari untuk membeli bahan makanan, membayar tagihan, dan melakukan transaksi tak terhitung jumlahnya. Tapi, sebenarnya apa itu uang? Pada intinya, uang hanyalah sebuah alat tukar, sebuah alat yang memungkinkan kita untuk berdagang barang dan jasa satu sama lain. Ini adalah konsep abstrak yang kita anggap remeh, namun fundamental bagi sistem ekonomi kita.
 Namun, tidak semua uang diciptakan sama. Beberapa bentuk uang lebih baik dari yang lain, tergantung pada kemampuannya untuk berfungsi sebagai penyimpan nilai, alat tukar, dan satuan akun. Emas, misalnya, telah sangat dihargai selama ribuan tahun karena ketahanan dan kelangkaannya. Di sisi lain, uang kertas hanya seberharga kepercayaan yang kita tempatkan pada institusi yang menerbitkannya.
 
@@ -101,7 +102,7 @@ Uang memungkinkan kita untuk menukar sumber daya atau jasa kita dengan penyimpan
 
 Bagi orang kebanyakan, uang mempertahankan nilainya karena hanya ada dua metode untuk mendapatkan uang:
 
-1. Kita harus menghabiskan waktu dan energi sebagai imbalan untuk uang (mis. kerja, tenaga, jasa).
+1. Kita harus menghabiskan waktu dan energi sebagai imbalan untuk uang (yaitu pekerjaan, tenaga kerja, jasa).
 2. Kita harus menukar barang atau sumber daya sebagai imbalan untuk uang.
 
 Penting untuk dicatat bahwa pada poin kedua di atas, untuk mendapatkan barang dan sumber daya tersebut untuk ditukar, seseorang pada suatu tahap harus menghabiskan waktu dan energi untuk menciptakannya. Dengan demikian, kita dapat menyimpulkan bahwa kita harus menghabiskan waktu dan energi untuk mendapatkan uang. Oleh karena itu:
@@ -148,7 +149,7 @@ Agar uang menjadi perantara yang efektif untuk membeli dan menjual barang dan ja
 
 **Dapat Dibagi:** Ini adalah karakteristik kritis dari sebuah alat tukar yang baik, yang merujuk pada kemampuan uang untuk dibagi menjadi unit-unit kecil untuk memfasilitasi transaksi dengan berbagai ukuran. Misalnya, melakukan pembelian kecil akan menjadi tantangan jika kita hanya memiliki denominasi uang yang besar. Kemampuan dibagi memungkinkan kita untuk melakukan pembayaran yang tepat, tidak peduli seberapa besar transaksi tersebut, membuat uang lebih berguna dan praktis dalam kehidupan sehari-hari. Pada dasarnya, semakin dapat dibagi sebuah mata uang, semakin nyaman bagi individu untuk menggunakan dan bertransaksi dengannya.
 
-**Diterima:** Ketika kita membahas tentang penerimaan, kita merujuk pada apakah ada penerimaan luas terhadap bentuk uang tertentu. Ini berarti bahwa orang-orang bersedia menerima dan menggunakan bentuk uang ini sebagai alat tukar untuk barang dan jasa. Jika sebuah mata uang secara luas diterima, menjadi lebih mudah bagi orang untuk terlibat dalam perdagangan, karena ada mata uang umum untuk membeli dan menjual barang dan jasa. Semakin luas sebuah mata uang diterima, semakin berharga mata uang tersebut menjadi, karena lebih banyak orang bersedia menggunakannya. Sebaliknya, jika sebuah mata uang tidak luas diterima, ia kehilangan nilainya, karena orang akan ragu untuk menerimanya sebagai alat tukar.
+**Diterima:** Ketika kita membahas tentang penerimaan, kita merujuk pada apakah ada penerimaan luas terhadap bentuk uang tertentu. Ini berarti bahwa orang-orang bersedia menerima dan menggunakan bentuk uang ini sebagai alat tukar untuk barang dan jasa. Jika sebuah mata uang secara luas diterima, menjadi lebih mudah bagi orang untuk terlibat dalam perdagangan, karena ada mata uang umum untuk membeli dan menjual barang dan jasa. Semakin luas sebuah mata uang diterima, semakin berharga nilainya, karena lebih banyak orang bersedia menggunakannya. Sebaliknya, jika sebuah mata uang tidak luas diterima, ia kehilangan nilainya, karena orang akan ragu untuk menerimanya sebagai alat tukar.
 
 #### Unit Akun
 
@@ -172,7 +173,7 @@ Dari zaman barter barang hingga era modern mata uang digital, uang telah mengala
 
 Namun, bagaimana uang yang kita gunakan berevolusi menjadi bagian penting dari kehidupan kita seperti saat ini? Dalam bagian ini, kita akan menjelajahi evolusi uang, dari bentuk awalnya hingga mata uang digital modern yang kita gunakan saat ini. Kita akan menyelami setiap iterasi utama uang, melihat bagaimana mereka telah membantu membentuk masyarakat modern kita.
 
-_**Catatan cepat:** Penting untuk menekankan bahwa bagian ini bukanlah akun kronologis tentang evolusi uang. Sebaliknya, ini lebih merupakan perjalanan edukatif tentang naik turunnya berbagai bentuk uang. Banyak dari media pertukaran ini telah ada secara bersamaan, dan beberapa masih ada hari ini dalam beberapa cara, bentuk, atau bentuk._
+_**Catatan cepat:** Penting untuk menekankan bahwa bagian ini bukanlah akun kronologis tentang evolusi uang. Sebaliknya, ini lebih merupakan perjalanan edukatif tentang naik turunnya berbagai bentuk uang. Banyak dari media pertukaran ini telah ada secara bersamaan, dan sebagian masih ada hingga saat ini dalam berbagai bentuk._
 
 Setelah membaca pengantar ini, Anda mungkin bertanya-tanya: **Mengapa uang perlu berevolusi dan berubah seiring waktu?**
 
@@ -196,6 +197,7 @@ Dengan ini di pikiran, mari kita periksa masing-masing untuk mendapatkan pemaham
 Barter! Ini adalah konsep yang sederhana: Anda menukar sesuatu yang Anda miliki dengan sesuatu yang Anda inginkan atau butuhkan.
 
 Tapi apakah itu praktis?
+
 Masalah dengan sistem barter adalah menemukan seseorang yang menginginkan apa yang Anda miliki dan memiliki apa yang Anda inginkan bisa menjadi tantangan. Sebagai contoh, bayangkan Anda seorang petani gandum yang membutuhkan kemeja baru. Anda mungkin harus mencari jauh dan luas untuk menemukan pembuat kemeja yang bersedia menukar kemeja dengan gandum Anda. Tapi bagaimana jika pembuat kemeja tersebut tidak menginginkan gandum Anda? Masalah ini dikenal sebagai kebetulan ganda dari keinginan. Transaksi yang berhasil memerlukan kebetulan ganda dari keinginan, yang berarti kedua belah pihak harus memiliki sesuatu yang diinginkan oleh pihak lain untuk ditukar.
 
 Masalah lain dengan barter adalah bahwa itu bisa tidak praktis untuk beberapa item. Bagaimana Anda membagi seekor sapi hidup untuk ditukar dengan sepasang sepatu? Dan tanpa satuan akun yang distandarisasi, membandingkan nilai barang dan jasa menjadi sulit. Apakah sapi bernilai lebih atau kurang dari sepuluh karung gandum atau dua gulungan kain?
@@ -219,7 +221,7 @@ Untuk mengatasi masalah ini, orang mulai mencari komoditas yang memiliki kelangk
 
 ### Uang Logam
 
-Meskipun masih secara teknis merupakan uang komoditas, ketika manusia melanjutkan pencarian mereka untuk uang yang lebih unggul, mereka menemukan pahlawan yang tidak terduga: logam mulia. Tidak hanya logam-logam ini indah dan didambakan untuk penggunaan mereka dalam perhiasan, tetapi mereka juga memenuhi banyak kriteria untuk apa yang membuat aset moneter yang luar biasa. Kelangkaan global mereka di alam dan investasi signifikan yang diperlukan untuk menambang, menyuling, dan menyimpan logam-logam ini memberi mereka premi di atas bentuk uang sebelumnya.
+Meskipun masih secara teknis merupakan uang komoditas, ketika manusia melanjutkan pencarian mereka untuk uang yang lebih unggul, mereka menemukan pahlawan yang tidak terduga: logam mulia. Tidak hanya logam-logam ini indah dan didambakan untuk penggunaan mereka dalam perhiasan, tetapi mereka juga memenuhi banyak kriteria untuk apa yang membuat aset moneter yang luar biasa. Kelangkaan global mereka di alam dan investasi signifikan yang diperlukan untuk menambang, menyuling, dan menyimpan logam-logam ini memberikan nilai tambah dibandingkan bentuk uang sebelumnya.
 
 Lebih lanjut, logam seperti emas adalah salah satu elemen paling inert dalam tabel periodik, membuatnya sangat tahan lama dan tahan terhadap korosi.
 
@@ -279,7 +281,7 @@ Sejak penciptaannya, Bitcoin terus tumbuh dalam penerimaan dan adopsi sebagai ba
 
 Beberapa orang pesimis mengklaim bahwa Bitcoin lambat, mahal untuk bertransaksi, dan membuang energi, tapi mari kita tidak terlalu cepat menghakimi. Bagaimana jika kami memberi tahu Anda bahwa Bitcoin mewakili pergeseran paradigma dalam cara kita berpikir tentang uang dan nilai?
 
-Dalam modul yang akan datang, kita akan menjelajahi Bitcoin melalui lensa alternatif, salah satu objektivitas dan intrik. Jadi, bersabarlah dengan kami.
+Di modul-modul berikutnya, kita akan menjelajahi Bitcoin melalui lensa alternatif, salah satu objektivitas dan intrik. Jadi, bersabarlah dengan kami.
 
 Sementara itu, meskipun mata uang digital bank sentral mungkin dilihat sebagai persaingan langsung Bitcoin, banyak yang berpendapat bahwa mereka tidak berbeda dari mata uang fiat digital lainnya kecuali untuk implikasi politik dan sosial yang menakutkan.
 
@@ -510,7 +512,7 @@ Meskipun Digicash digunakan sebagai sistem mikropembayaran di satu bank AS dari 
 
 #### E-gold
 
-Mengikuti jejak Chaum, pada tahun 1996, dua inovator, Douglas Jackson dan Barry Downey, memperkenalkan E-gold, mata uang digital yang pertama kali digunakan secara luas, memungkinkan pengguna untuk mentransfer kepemilikan emas secara elektronik. Konsep ini dengan cepat mendapatkan traksi dan menarik jutaan pengguna yang melihat potensi dari bentuk uang unik ini. Dengan E-gold, orang dapat dengan mudah dan cepat mentransfer dana lintas batas tanpa berurusan dengan sistem perbankan tradisional yang lambat dan merepotkan.
+Mengikuti jejak Chaum, pada tahun 1996, dua inovator, Douglas Jackson dan Barry Downey, memperkenalkan E-gold, mata uang digital yang pertama kali digunakan secara luas, memungkinkan pengguna untuk mentransfer kepemilikan emas secara elektronik. Konsep ini dengan cepat mendapatkan daya tarik dan menarik jutaan pengguna yang melihat potensi dari bentuk uang  yang unik ini. Dengan E-gold, orang dapat dengan mudah dan cepat mentransfer dana lintas batas tanpa berurusan dengan sistem perbankan tradisional yang lambat dan merepotkan.
 
 Namun, seperti halnya teknologi baru, E-gold menghadapi tantangan regulasi dan masalah dengan aktivitas ilegal seperti pencucian uang dan penipuan. Akibatnya, perusahaan tersebut terpaksa menghentikan operasinya, menandai pukulan signifikan bagi perkembangan awal mata uang digital.
 
@@ -624,6 +626,7 @@ Penambang sekarang mengambil transaksi tertunda ini, menggabungkannya menjadi bl
 #### Validasi Transaksi
 
 Setelah transaksi dikonfirmasi, Bob sekarang seharusnya dapat melihat 0,00100000 bitcoin di dompetnya. Namun, tidak berhenti di situ saja. Node kemudian memverifikasi bahwa penambang telah melakukan pekerjaannya dengan benar dan bahwa transaksi yang termasuk dalam blok baru ini memenuhi aturan yang disepakati oleh node. Jika blok tersebut gagal melakukannya, maka blok baru akan ditolak, dan penambang akan kehilangan hadiah penambangannya.
+
 _**Fakta Menarik:** Bahkan setelah transaksi Bitcoin dikonfirmasi, kemungkinan pembalikan masih ada jika node menolak blok. Namun, dengan setiap blok baru yang ditambahkan ke blockchain pasca-transaksi, kemungkinan pembalikan berkurang secara eksponensial. Untuk meningkatkan keamanan, bursa dan dompet sering menahan bitcoin Anda sampai beberapa blok berikutnya ditambahkan— biasanya tiga hingga enam. Ini melindungi dana dan menjamin ketenangan pikiran transaksi._
 
 **Kesimpulan**
@@ -690,7 +693,9 @@ Seiring bitcoin mendapatkan pengakuan sebagai media pertukaran, bitcoin dengan c
 Anda mungkin telah memperhatikan di atas bahwa Bitcoin bukan hanya aset yang kuat untuk menyimpan nilai, tetapi karakteristik uniknya juga membuatnya menjadi jaringan yang sangat aman dan efisien untuk transaksi. Ini mungkin terdengar sedikit membingungkan, jadi izinkan kami menjelaskan. Bitcoin, seperti fiat, terdiri dari dua komponen:
 
 **Aset (disebut sebagai bitcoin dengan “b” huruf kecil)** – Ini adalah apa yang kita beli yang dapat diakses dari dompet kita. Ketika disimpan di luar bursa atau dompet terpusat, ketergantungan kita pada kepercayaan diminimalkan, terutama berpusat pada keamanan perangkat keras kita. Bahkan kemudian, kita dapat meminimalkan kepercayaan itu dengan mengamankan cadangan frasa benih kita atau menggunakan opsi penitipan seperti multi-tanda tangan. Selain itu, mengingat bahwa setiap keputusan yang bertujuan mengubah atribut fundamental Bitcoin, seperti total pasokannya, ditentukan dan dipertahankan oleh komunitas, ada pengamanan yang kuat terhadap implementasi perubahan merugikan yang dapat membahayakan pengguna, misalnya, penurunan nilai mata uang melalui ekspansi pasokan.
+
 **Jaringan (disebut sebagai Bitcoin dengan huruf "B" besar)** - Ini adalah rel yang memfasilitasi perdagangan bitcoin-sebagai-aset. Jaringan ini memungkinkan siapa saja untuk mengirim, memverifikasi, atau mengonfirmasi transaksi. Sifat terdesentralisasi Bitcoin, yang didukung oleh banyak node, penambang, dan pengembang, memastikan struktur terdistribusi di mana tidak ada entitas tunggal yang mendominasi yang lain. Ini menawarkan rasa keamanan dan keandalan yang menenangkan saat bertransaksi, menghilangkan kekhawatiran tentang kemungkinan pembalikan, penolakan, pembekuan, atau gangguan lainnya.
+
 Ketika kita melihat mata uang fiat dari perspektif "aset" dan "jaringan," menjadi jelas bahwa kita harus menempatkan kepercayaan dan ketergantungan yang jauh lebih besar pada pihak ketiga dan perantara. Sebagai contoh:
 
 #### **Aset** - _Mata uang fiat yang kita gunakan sebagai penyimpan nilai (mis. dolar AS, euro, yen, franc, pound sterling, dll.)._
@@ -705,9 +710,10 @@ Sebagai warga negara, kita tunduk pada keputusan yang dibuat oleh mereka yang be
 
 **Ketika membeli kopi menggunakan kartu kredit, ada empat atau lebih perantara yang berbeda** - Pertama adalah bank yang digunakan oleh kedai kopi. Kedua, adalah jaringan komunikasi yang memungkinkan bank untuk mentransfer dana antara satu sama lain. Selanjutnya, ada asosiasi yang memproses transaksi, seperti Visa, Mastercard, atau Discover. Dan akhirnya, ada institusi perbankan kita sendiri, yang memverifikasi dan mencatat transaksi.
 
-**Ketika mengirim transfer kawat, kita berhubungan dengan empat atau lebih pihak ketiga** - Untuk memulai transfer kawat, kita perlu memberikan bank kita dengan detail bank penerima. Karena bank kita mungkin tidak terhubung langsung dengan bank penerima, informasi transaksi dikirim melalui jaringan SWIFT (Society for Worldwide Interbank Financial Telecommunications) menggunakan bank koresponden atau bank perantara. Bank-bank ini kemudian menghubungi bank penerima untuk menyelesaikan transfer.
+**Saat mengirim transfer kawat (wire transfer), kita melibatkan empat atau lebih pihak ketiga.** - Untuk memulai transfer kawat, kita perlu memberikan bank kita dengan detail bank penerima. Karena bank kita mungkin tidak terhubung langsung dengan bank penerima, informasi transaksi dikirim melalui jaringan SWIFT (Society for Worldwide Interbank Financial Telecommunications) menggunakan bank koresponden atau bank perantara. Bank-bank ini kemudian menghubungi bank penerima untuk menyelesaikan transfer.
 
 **Badan regulasi mengawasi berbagai cabang dari rel keuangan yang kita gunakan sehari-hari** - Jika pandangan politik kita bertentangan dengan regulasi yang mengatur jaringan moneter atau bagian mana pun dari proses perantara, transaksi kita mungkin berisiko diblokir, dan aset kita bisa disita. Dalam kasus ekstrem, kita bahkan mungkin menghadapi kemungkinan dikeluarkan dari sistem keuangan secara keseluruhan.
+
 Apakah ini terdengar menakutkan atau tidak mungkin? Pada awal 2022, selama aksi unjuk rasa truk di Kanada, individu-individu menyumbang untuk mendukung penyebab tersebut. Perdana Menteri Trudeau memerintahkan pembekuan rekening bank beberapa individu tersebut. Terlepas dari pendapat seseorang tentang masalah ini, fakta bahwa aset orang-orang disita karena pandangan mereka yang berbeda seharusnya menjadi tanda peringatan.
 
 Dengan ini di pikiran, ada keuntungan besar tidak hanya memiliki akses ke aset yang berharga dan langka, tetapi juga jaringan yang aman, efisien, tanpa kepercayaan, global, dan biaya rendah untuk pertukaran nilai. Dan inilah di mana Bitcoin unggul. Seperti yang telah dibahas panjang lebar, sifat desentralisasi dan digital Bitcoin membuat jaringan yang tak tertandingi untuk transaksi yang cepat, aman, dan hemat biaya tanpa perlu perantara atau pihak ketiga. Berikut adalah beberapa contoh yang mendapat manfaat dari aset dan jaringan Bitcoin yang tak tertandingi:
@@ -727,7 +733,9 @@ Bitcoin menyediakan opsi yang layak untuk memindahkan nilai bagi mereka yang mel
 #### Transfer Uang
 
 Kami akan membahas ini dengan lebih detail di modul berikutnya, tetapi untuk saat ini, kami ingin menyebutkan bahwa Bitcoin menyediakan cara yang efisien dan hemat biaya bagi individu untuk mengirim uang kembali ke orang terkasih di luar negeri. Berbeda dengan metode remitansi tradisional, yang sering melibatkan biaya transaksi tinggi dan waktu pemrosesan yang panjang, transaksi Bitcoin dapat diselesaikan dengan cepat dan dengan biaya minimal.
+
 Dalam hal ini, meskipun bitcoin sebagai aset mungkin menawarkan manfaat signifikan bagi mereka yang ingin menghindari inflasi atau menyimpan nilai dalam mata uang yang lebih aman, kami mengakui bahwa banyak individu mungkin tidak dapat memanfaatkan aset tersebut, yaitu volatilitas bitcoin sebagai aset, mungkin tidak cocok untuk penyimpanan nilai jangka pendek atau bagi mereka dengan tabungan terbatas. Untungnya, jaringan Bitcoin akan memainkan peran penting di sini, terutama bagi individu tanpa akses ke bank atau aset keuangan, mengingat rel pembayaran jaringan memfasilitasi transaksi keuangan digital bagi siapa saja dengan ponsel dan koneksi internet.
+
 Bitcoin juga cepat menjadi protokol transfer nilai dasar internet. Karena kemampuan transaksi biaya rendah, layanan seperti streaming nilai mulai berkembang, menghubungkan pencipta konten langsung dengan audiens mereka. Demikian pula, kemampuan streaming biaya rendah ini melihat terobosan dalam layanan berbayar seperti pengukuran energi, di mana pengguna dapat membayar permintaan instan, streaming bitcoin berdasarkan biaya penggunaan. Penawaran pembayaran peer-to-peer tanpa gesekan merevolusi cara orang berinteraksi dengan barang dan jasa melalui ranah digital.
 
 **Kesimpulan**
@@ -751,6 +759,7 @@ Blockchain Bitcoin terdiri dari blok, seperti namanya. Blok-blok ini memiliki uk
 Oleh karena itu, Anda mungkin bertanya-tanya: Bagaimana mungkin blockchain Bitcoin bersaing dengan jaringan seperti Visa atau Mastercard yang bertransaksi di [1,700 tps](https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
 
 Jawabannya sederhana. Ini tidak bersaing dengan mereka.
+
 Membandingkan blockchain Bitcoin dengan Visa atau Mastercard ibarat membandingkan kapal kontainer internasional dengan kasir di toko perangkat keras lokal. Kapal kontainer ditujukan untuk transaksi besar yang tidak sering terjadi, sedangkan kasir dibangun untuk transaksi kecil berfrekuensi tinggi. Meskipun keduanya memindahkan barang, membandingkannya seperti membandingkan apel dengan jeruk.
 Dengan pemikiran ini, Bitcoin menawarkan transaksi yang tanpa kepercayaan dan tanpa izin dengan penyelesaian akhir, sementara Visa dan Mastercard menyediakan kenyamanan dan kemudahan penggunaan. Namun, bukan berarti blockchain Bitcoin tidak menawarkan hal-hal tersebut juga. Hanya saja, tidak mencoba untuk mencapainya di rantai dasar atau lapisan dasar seperti yang umumnya dikenal.
 
@@ -771,18 +780,20 @@ Namun, meskipun memiliki keunggulan sebagai solusi layer one, Bitcoin juga dapat
 Jika Anda mencari cara yang cukup cepat (tetapi tidak instan), hemat biaya dan aman untuk mengirimkan jumlah uang yang besar, maka Bitcoin layer one adalah pilihan terbaik Anda. Sedangkan, jika Anda ingin bertransaksi hampir secara instan dan dengan biaya sebagian kecil dari sen, Anda akan ingin memperhatikan beberapa teknologi yang dibangun di atas Bitcoin, yang mencakup inovasi seperti [Lightning](https://lightning.network/).
 
 Bitcoin Lightning Network adalah solusi skalabilitas layer two yang dibangun di atas Bitcoin layer one. Ini memungkinkan transaksi hampir instan dengan biaya minimal, membuat mikrotransaksi dan pembelian kecil menjadi mungkin.
+
 Sejak El Salvador mengadopsi bitcoin sebagai alat pembayaran yang sah, banyak orang telah menggunakan Lightning Network untuk melakukan transaksi Bitcoin daripada lapisan standar satu karena manfaatnya. Dengan Lightning Network, pengguna dapat membayar sebagian kecil dari satu sen untuk transaksi yang hampir instan, menjadikannya pilihan yang sempurna bagi pedagang yang ingin menerima pembayaran Bitcoin tanpa biaya yang lebih tinggi dan waktu transaksi yang lebih lambat dari transaksi Bitcoin tradisional di rantai. Ini telah memudahkan dan membuat bitcoin lebih dapat diakses bagi warga El Salvador untuk digunakan dalam transaksi sehari-hari, meningkatkan potensi adopsi Bitcoin sebagai mata uang global.
 Mari kita alihkan fokus kita pada apa yang harus dilakukan setelah Anda mendapatkan beberapa bitcoin atau memutuskan untuk melakukan pembelian.
 
 ### Menjaga Keamanan bitcoin Anda dengan Aman
 
-Apa yang membuat Bitcoin revolusioner adalah bahwa, untuk pertama kalinya dalam sejarah, kita dapat mengambil [hak asuh sendiri](https://planb.academy/resources/glossary/selfcustody) atas aset digital. Prestasi ini tidak bisa dilebih-lebihkan! Sama seperti kita dapat menyimpan uang tunai di bawah bantal kita, kita dapat melakukan hal yang sama dengan bitcoin, tetapi secara digital. Namun, tingkat kontrol baru ini atas uang kita datang dengan tanggung jawab baru. Untuk menjaga bitcoin kita aman, kita harus belajar cara mengamankannya dengan benar. Ini berarti mengambil langkah-langkah untuk melindungi dari kehilangan, pencurian, dan upaya peretasan.
+Yang membuat Bitcoin revolusioner adalah, untuk pertama kalinya dalam sejarah, kita dapat mengambil [hak asuh sendiri](https://planb.academy/resources/glossary/selfcustody) atas aset digital. Prestasi ini tidak bisa dilebih-lebihkan! Sama seperti kita dapat menyimpan uang tunai di bawah bantal kita, kita dapat melakukan hal yang sama dengan bitcoin, tetapi secara digital. Namun, tingkat kontrol baru ini atas uang kita datang dengan tanggung jawab baru. Untuk menjaga bitcoin kita aman, kita harus belajar cara mengamankannya dengan benar. Ini berarti mengambil langkah-langkah untuk melindungi dari kehilangan, pencurian, dan upaya peretasan.
 
 #### Di Mana Menyimpan bitcoin Anda
 
 Langkah pertama dalam mengamankan bitcoin Anda adalah memilih dompet yang tepat. Tanpa terlalu mendalam, ada terutama dua jenis dompet yang tersedia: kustodial dan non-kustodial.
 
 **Dompet Kustodial**
+
 Ini adalah dompet di mana, meskipun Anda dapat mengakses dompet Anda dan memindahkan dana, pihak ketiga menyimpan dan mengamankan bitcoin Anda.
 
 Salah satu contoh umum dari dompet kustodial adalah akun bursa. Ketika Anda membeli bitcoin melalui bursa dan meninggalkan bitcoin Anda di bursa, Anda menggunakan dompet kustodial. Bursa memiliki hak asuh atas bitcoin Anda dan bertanggung jawab untuk menyimpan dan mengamankan dana Anda.
@@ -908,7 +919,9 @@ Dengan ini di pikiran, orang dapat bertransaksi dengan syarat mereka sendiri, te
 Tidak seperti Bitcoin, yang nilainya, untuk keuntungan atau kerugian pemegang, dapat berfluktuasi secara liar dalam jangka pendek, berbagai stablecoin Tether, seperti namanya, berusaha untuk menyediakan stabilitas nilai jangka pendek. Ini membuat mereka menjadi pilihan sempurna untuk menjembatani dunia tradisional mata uang fiat dengan dunia Bitcoin yang terus berkembang dengan memberikan pengguna kemampuan untuk berpindah masuk dan keluar dari Bitcoin tanpa kembali ke rel perbankan tradisional, sesuatu yang tidak mungkin sebelum Tether.
 
 Untuk mencapai stabilitas ini, Tether memastikan setiap token digital didukung dengan jaminan (bersama dengan reputasinya), dan transaksi dapat difasilitasi melalui berbagai sistem peer-to-peer, termasuk blockchain dari cryptocurrency lain. Ini meningkatkan transparansi dan menghilangkan kebutuhan akan perantara seperti bank. Ini tidak hanya memberikan akses ke layanan perbankan bagi mereka yang memiliki koneksi internet, tetapi menghasilkan transaksi cepat, biaya rendah yang dapat diselesaikan 24/7, 365 hari setahun, terlepas dari jam kerja perbankan tradisional atau hari libur.
-Dengan demikian, stablecoin yang ditawarkan oleh Tether, seperti USDt, juga berbeda dari mata uang fiat tradisional. Meskipun mereka mempertahankan nilai tukar terhadap aset seperti USD, mereka bukan mata uang yang dikeluarkan oleh pemerintah dan tidak memiliki keterikatan dengan negara mana pun. Karakteristik ini memberi mereka keuntungan unik, terutama di negara-negara yang bergulat dengan inflasi, di mana mengakses mata uang yang lebih stabil seperti USD bisa menjadi tantangan. Tidak seperti uang tunai fisik, mendapatkan USDt atau stablecoin lainnya melalui bursa online hanya memerlukan koneksi internet, memastikan aksesibilitas terlepas dari lokasi geografis seseorang. Oleh karena itu, perbedaan kunci antara fiat dan berbagai stablecoin Tether terletak pada ketidakpedulian yurisdiksi: ia beroperasi tanpa batas lintas negara, memungkinkan akses global ke mata uang digital yang stabil. Selain itu, stablecoin menawarkan manfaat seperti biaya transaksi yang lebih rendah, transaksi lintas batas yang lebih cepat, dan inklusivitas keuangan yang meningkat, membuatnya menjadi alternatif yang menarik untuk mata uang fiat tradisional.
+
+Dengan demikian, stablecoin yang ditawarkan oleh Tether, seperti USDt, juga berbeda dari mata uang fiat tradisional. Meskipun mereka mempertahankan nilai tukar terhadap aset seperti USD, mereka bukan mata uang yang dikeluarkan oleh pemerintah dan tidak memiliki keterikatan dengan negara mana pun.
+Karakteristik ini memberi mereka keuntungan unik, terutama di negara-negara yang bergulat dengan inflasi, di mana mengakses mata uang yang lebih stabil seperti USD bisa menjadi tantangan. Tidak seperti uang tunai fisik, mendapatkan USDt atau stablecoin lainnya melalui bursa online hanya memerlukan koneksi internet, memastikan aksesibilitas terlepas dari lokasi geografis seseorang. Oleh karena itu, perbedaan kunci antara fiat dan berbagai stablecoin Tether terletak pada ketidakpedulian yurisdiksi: ia beroperasi tanpa batas lintas negara, memungkinkan akses global ke mata uang digital yang stabil. Selain itu, stablecoin menawarkan manfaat seperti biaya transaksi yang lebih rendah, transaksi lintas batas yang lebih cepat, dan inklusivitas keuangan yang meningkat, membuatnya menjadi alternatif yang menarik untuk mata uang fiat tradisional.
 
 #### Berapa banyak jenis stablecoin yang ada?
 
@@ -926,7 +939,7 @@ _**Catatan Samping:** Jangan khawatir jika beberapa istilah ini tidak terlalu ma
 
 <chapterId>174e2cab-ef14-5e14-99c8-8457b6fc5fee</chapterId>
 
-Stablecoin telah menjadi topik populer di dunia cryptocurrency, menawarkan alternatif yang kurang volatil dalam jangka pendek untuk cryptocurrency seperti Bitcoin. Seperti yang dijelaskan dalam pengantar modul ini, stablecoin adalah aset digital yang dikaitkan dengan aset stabil seperti mata uang fiat atau logam mulia, dirancang untuk mempertahankan nilai yang stabil. Mari kita, oleh karena itu, menjelajahi sejarah stablecoin dan melihat lebih dekat beberapa stablecoin pertama, termasuk USDt Tether, stablecoin yang paling terkenal dan banyak digunakan.
+Stablecoin telah menjadi topik populer di dunia cryptocurrency, menawarkan alternatif yang kurang volatil dalam jangka pendek untuk cryptocurrency seperti Bitcoin. Seperti yang dijelaskan dalam pengantar modul ini, stablecoin adalah aset digital yang dikaitkan dengan aset stabil seperti mata uang fiat atau logam mulia, dirancang untuk mempertahankan nilai yang stabil.  Oleh karena itu, mari kita, menjelajahi sejarah stablecoin dan melihat lebih dekat beberapa stablecoin pertama, termasuk USDt Tether, stablecoin yang paling terkenal dan banyak digunakan.
 
 _**Fakta Menarik:** Pada saat penulisan, USDt Tether memiliki volume transaksi harian rata-rata \$20 miliar. Ini melampaui volume harian bitcoin terbaru sebesar \$15 miliar. Selain itu, USDt berada di posisi ketiga untuk kapitalisasi pasar terbesar di belakang Bitcoin dan Ethereum._
 Ide gagasan stablecoin dapat ditelusuri kembali ke hari-hari awal cryptocurrency, dengan konsep cryptocurrency yang didukung oleh aset stabil pertama kali diusulkan pada tahun 2012 oleh proyek Mastercoin. Namun, baru beberapa tahun kemudian stablecoin mulai mendapatkan momentum, dengan proyek seperti Bitshares dan NuBits diluncurkan pada tahun 2014.
@@ -940,7 +953,9 @@ Awalnya, Tether terutama digunakan oleh pedagang untuk memindahkan dana antar bu
 Meskipun penggunaannya luas, Tether tidak terlepas dari kontroversi. Pada tahun 2017, Tether dan BitFinex, keduanya dimiliki oleh iFinex Inc, dituduh menggelembungkan harga bitcoin secara buatan. Tuduhan ini terkait dengan dugaan bahwa Tether dan BitFinex menerbitkan token USDt baru tanpa memiliki jumlah dolar AS yang sesuai untuk mendukungnya. Ini akan meningkatkan pasokan USDt, yang pada gilirannya diduga digunakan untuk menggelembungkan harga bitcoin secara buatan.
 
 Tether secara konsisten menyangkal tuduhan tersebut. Bahkan, audit independen yang dilakukan pada tahun 2017 tidak menemukan bukti upaya manipulasi harga. Lebih lanjut, pertimbangkan ini: jika Bitfinex bermaksud menciptakan USD dari ketiadaan untuk meningkatkan nilai bitcoin secara buatan dan menggelembungkan nilai sendiri, bukankah akan lebih mudah melakukannya secara pribadi dan dapat disangkal dalam akun USD internalnya sendiri, membuat deteksi lebih menantang dibandingkan dengan melakukan tindakan tersebut di buku besar publik seperti USDt?
+
 Namun, para kritikus masih mempertanyakan apakah Tether memiliki cukup dolar AS untuk menjamin semua USDt yang beredar. Untuk mengatasi kekhawatiran ini dan meningkatkan transparansi, Tether kini merilis laporan cadangan triwulanan yang dilakukan oleh firma akuntansi internasional BDO. Laporan-laporan ini menyediakan informasi rinci tentang cadangan Tether. Meskipun beberapa masih meragukan praktik cadangan Tether, upaya perusahaan untuk meningkatkan transparansi telah membantu membangun kepercayaan dengan penggunanya dan komunitas cryptocurrency yang lebih luas.
+
 Dengan demikian, di tengah kontroversi dan pertanyaan tentang cadangannya, USDt telah berhasil mempertahankan stabilitas harga sejak awal peluncurannya. Akibatnya, itu tetap menjadi stablecoin paling populer di pasar, bahkan ketika banyak yang lain muncul dan bersaing untuk pangsa pasar. Saat ini, ada banyak stablecoin yang tersedia, masing-masing dengan mekanisme uniknya sendiri untuk mempertahankan nilai yang stabil.
 
 Selanjutnya, seiring dengan pertumbuhan pasar stablecoin, Tether telah memperluas jangkauannya untuk mengikuti permintaan. Awalnya, Tether hanya menawarkan USDt di blockchain Bitcoin menggunakan metaprotokol Omni, tetapi seiring berkembangnya pasar dan masalah skalabilitas on-chain menjadi lebih jelas, ia mulai [menawarkan](https://tether.to/en/transparency/) representasi USDt di blockchain cryptocurrency lain, termasuk Ethereum, Tron, Algorand, dan lainnya. Saat ini, ada penelitian dan pengembangan aktif untuk sekali lagi menambahkan stablecoin Tether di atas Bitcoin, melalui [RGB](https://www.rgbfaq.com/faq/what-is-rgb) dan [Pear Credit](https://tether.to/en/tether-holepunch-and-synonym-launch-pear-credit-a-p2p-credit-system/). Tether juga telah meluncurkan produk stablecoin baru yang dipegang ke berbagai mata uang fiat seperti euro, yen, dan yuan Cina.
@@ -959,7 +974,7 @@ Pada dasarnya, stablecoin bertindak sebagai jembatan antara aset tradisional dan
 
 Mengenai bagaimana mereka mempertahankan stabilitas harga ini, mari kita lihat…
 
-Mayoritas stablecoin sering memilih untuk menggunakan mata uang fiat sebagai pegnya, dengan dolar AS menjadi salah satu mata uang fiat yang lebih populer untuk dipegang. Untuk alasan ini, kita akan menyelami stablecoin yang didukung fiat terlebih dahulu. Namun, ada beberapa jenis stablecoin, seperti yang didukung komoditas dan algoritmik, yang juga akan kita jelajahi.
+Mayoritas stablecoin sering memilih untuk menggunakan mata uang fiat sebagai patokan nilainya, dengan dolar AS menjadi salah satu mata uang fiat yang lebih populer untuk dipegang. Untuk alasan ini, kita akan menyelami stablecoin yang didukung fiat terlebih dahulu. Namun, ada beberapa jenis stablecoin, seperti yang didukung komoditas dan algoritmik, yang juga akan kita jelajahi.
 
 ### Didukung Fiat
 
@@ -980,16 +995,18 @@ Meskipun sebagian besar institusi ini sangat diatur dan diaudit untuk memastikan
 Misalnya, karena stablecoin ini bergantung tidak hanya pada penerbit terpusat tetapi juga pada lembaga keuangan untuk mengelola mata uang yang dipegang dalam cadangan, jika salah satu dari entitas ini gagal, ada potensi penurunan nilai stablecoin dan kehilangan kepercayaan publik pada penerbit.
 
 Pertimbangkan USDC, stablecoin paling populer kedua setelah USDt. Ketika Silicon Valley Bank [kolaps](https://www.circle.com/blog/an-update-on-usdc-and-silicon-valley-bank) pada Maret 2023, USDC sementara waktu kehilangan peg 1:1-nya terhadap USD dan diperdagangkan serendah [\$0.88](https://www.coingecko.com/en/coins/usd-coin). Itu adalah kehilangan daya beli sebesar 12% dalam semalam, yang mengkhawatirkan untuk sesuatu yang dimaksudkan untuk stabil harganya.
+
 Alasan di balik penurunan harga ini adalah karena Circle, penerbit USDC, telah menyimpan sebagian dari cadangannya di Silicon Valley Bank. Akibatnya, ketika orang mulai menyadarinya, mereka mulai menjual kepemilikan USDC mereka karena takut Circle tidak akan dapat memenuhi semua permintaan penukaran. Beruntung bagi Circle, Federal Reserve dan Federal Deposit Insurance Corporation (FDIC) turun tangan dan menjamin semua deposito bank. Ini berarti Circle tidak akan kehilangan cadangannya, dan USDC dengan cepat pulih ke \$1. Namun, situasi ini bisa dengan mudah berubah sebaliknya, meninggalkan USDC sebagai relik masa lalu. Dengan ini di pikiran, penting untuk meneliti berbagai stablecoin yang tersedia sebelum memilih untuk berinvestasi atau berdagang.
+
 Meskipun memiliki kekurangan, sebagian besar stablecoin terpercaya didukung oleh fiat. Token seperti USDt milik Tether menggunakan metode pendukungan ini dan secara rutin memindahkan \$5 miliar atau lebih setiap hari.
 
 Mari kita sekarang lihat jenis stablecoin berikutnya...
 
-### Commodity-Backed
+### Didukung Komoditas
 
 Sama seperti stablecoin yang didukung fiat, stablecoin yang didukung komoditas memungkinkan aset nyata yang dianggap bernilai di dunia fisik untuk memasuki dunia digital.
 
-Namun, tidak seperti stablecoin yang didukung fiat, yang mengandalkan mata uang yang dikeluarkan pemerintah sebagai pendukungnya, stablecoin yang didukung komoditas menggunakan aset seperti logam mulia, saham, atau bahkan real estat.
+Namun, tidak seperti stablecoin yang didukung fiat, yang mengandalkan mata uang yang dikeluarkan pemerintah sebagai pendukungnya, stablecoin yang didukung komoditas menggunakan aset seperti logam mulia, saham, atau bahkan properti.
 
 Dalam kasus stablecoin yang didukung komoditas, penerbit, biasanya bekerja sama dengan lembaga keuangan, akan memperoleh aset fisik, menyimpannya sebagai cadangan sambil menerbitkan stablecoin yang setara nilainya dengan aset tersebut. Pemilik stablecoin kemudian dapat berdagang token mereka tanpa perlu menangani aset fisik yang mendasarinya atau, dalam beberapa kasus, menukar token mereka dengan komoditas fisik jika diperlukan.
 
@@ -1055,6 +1072,7 @@ Ini hanyalah dua dari banyak manfaat yang terkait dengan stablecoin, seperti USD
 #### Remitansi
 
 Bayangkan sejenak bahwa Anda lahir dan dibesarkan di Tonga. Tapi sebanyak Anda mencintai negara asal Anda, pada usia dini, Anda menyadari bahwa ada peluang kerja yang terbatas di komunitas lokal Anda. Jadi, segera setelah Anda pindah, Anda memutuskan untuk meninggalkan Tonga dan pindah ke negara dengan kolam peluang kerja yang lebih besar. Dengan demikian, Anda sekarang dapat lebih baik mendukung keluarga Anda saat mengirim sebagian dari gaji Anda pulang.
+
 Meskipun skenario ini mungkin tampak tidak mungkin, ini adalah kenyataan bagi miliaran orang di seluruh dunia, terutama mereka yang berada di Tonga. Pada tahun 2021, remitansi—tindakan mengirim uang kembali kepada orang terkasih untuk dukungan—mencakup jumlah yang mengejutkan [45,5%](https://www.theglobaleconomy.com/Tonga/remittances_percent_GDP/#:~:text=Remittances%20as%20percent%20of%20GDP&text=The%20average%20value%20for%20Tonga,171%20countries%20is%205.66%20percent.) dari produk domestik bruto (GDP) Tonga.
 
 Anda mungkin bertanya-tanya: Apa masalahnya di sini?
@@ -1077,6 +1095,7 @@ Berikut adalah contoh berapa banyak Western Union [membebankan biaya](https://ww
   Ini adalah jumlah uang yang mengejutkan yang kini berada di tangan perusahaan besar AS. Dan inilah di mana USDt masuk, karena mereka menyediakan solusi untuk masalah biaya remitansi yang tinggi.
 
 Berbeda dengan layanan transfer uang tradisional, USDt adalah mata uang digital yang, untuk tujuan transaksi, bergerak di atas rel blockchain. Karena tidak memerlukan perantara seperti bank atau layanan transfer uang, biayanya jauh lebih rendah. Selain itu, karena transaksi dilakukan di blockchain publik, ini menjamin transparansi yang lebih besar serta privasi. Ini berarti individu dapat mengirim uang kepada orang terkasih di negara lain hampir secara instan, aman, dan dengan biaya yang jauh lebih rendah.
+
 Misalnya, USDt, yang beroperasi terutama di blockchain Ethereum dan Tron, memiliki biaya transaksi rata-rata [\1.02](https://ycharts.com/indicators/ethereum_average_transaction_fee#:~:text=Ethereum%20Average%20Transaction%20Fee%20is,20.90%25%20from%20one%20year%20ago.) dan [\0.000005](https://bitpowr.com/blog/how-to-send-fee-less-tron-transactions) masing-masing, selama tahun terakhir, terlepas dari jumlah yang dikirim—biayanya tetap sama baik mengirim \$5 atau \$10.000. Dan saat ini, para pengembang sedang mengerjakan [stablecoin](https://www.coindesk.com/tech/2022/09/28/lightning-labs-releases-software-to-allow-bitcoin-developers-to-mint-and-transfer-assets-on-the-blockchain/) yang dibangun di jaringan Lightning Bitcoin, yang akan melihat biaya sekitar [\0.0003](https://www.nasdaq.com/articles/the-state-of-lightning-network-adoption).
 Dengan USDt, orang Tonga, serta semua orang lain yang mengirim uang kembali ke keluarga mereka, dapat menerima jauh lebih banyak dari remitansi mereka, yang dapat secara signifikan meningkatkan kualitas hidup mereka dan berkontribusi pada pengembangan ekonomi negara mereka.
 
@@ -1122,6 +1141,7 @@ Apa yang saya maksud dengan peningkatan kemudahan penggunaan? Mari kita selami b
 Pertama, **kustodi mandiri** memungkinkan kita untuk mengambil kepemilikan uang kita tanpa mengandalkan layanan perbankan terpusat. Ini berarti kita memiliki kontrol penuh atas dana kita dan dapat mengaksesnya kapan pun kita perlu, tanpa perlu perantara. Tidak perlu lagi menunggu bank kita untuk menyelesaikan transaksi atau khawatir tentang akun kita yang dibekukan tanpa alasan—dengan stablecoin, kita yang mengendalikan. Dikatakan demikian, kita belum sepenuhnya menghilangkan pengawasan terpusat dengan mengambil kustodi mandiri. Sebagian besar stablecoin, termasuk milik Tether, dikeluarkan oleh perusahaan terpusat yang dibangun di atas blockchain terpusat seperti Ethereum dan Tron. Oleh karena itu, kita menaruh tingkat kepercayaan yang inheren pada perusahaan dan sistem ini.
 
 Kedua, mengingat stablecoin, seperti USDt dan XAUt, adalah **digital secara alami**, kita dapat melakukan transaksi secara digital, 24/7. Tidak perlu lagi khawatir tentang jam buka bank atau keterlambatan yang disebabkan oleh zona waktu yang berbeda—dengan stablecoin, kita dapat melakukan transaksi kapan pun itu cocok untuk kita, dari mana pun kita berada di dunia.
+
 Biaya yang lebih rendah, seperti yang dibahas di atas, adalah keuntungan besar lain dari stablecoin Tether. Tidak seperti mata uang fiat tradisional, USDt, serta penawaran lainnya, memiliki lebih sedikit perantara yang terlibat dalam setiap transaksi, yang berarti kita mempertahankan lebih banyak dari kekuatan beli kita—dengan stablecoin, kita dapat menyimpan lebih banyak dari apa yang kita peroleh.
 Akhirnya, stablecoin menawarkan **pengawasan yang berkurang**, yang berarti kita memiliki kebebasan yang lebih besar untuk mengarahkan uang kita sesuai dengan yang kita anggap cocok. Tidak seperti mata uang fiat tradisional, yang tunduk pada berbagai jenis regulasi dan pembatasan, stablecoin seperti uang tunai, yang berarti jauh lebih sedikit perantara yang terlibat dalam transaksi. Ini memberi kita kebebasan yang lebih besar untuk memindahkan uang kita lebih mudah tanpa harus khawatir tentang pengawasan pemerintah atau birokrasi.
 

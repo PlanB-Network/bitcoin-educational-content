@@ -8,9 +8,7 @@ description: Mikä on Watch-Only lompakko ja miten sitä käytetään?
 
 ***VAROITUS:** Samourai Walletin perustajien pidätyksen ja heidän palvelimiensa takavarikoinnin jälkeen 24. huhtikuuta, Sentinel-sovellus toimii edelleen, mutta **oman Dojon käyttö on pakollista** päästäksesi käsiksi lohkoketjun tietoihin ja suorittaaksesi siirtoja.*
 
-_Seuraamme tiiviisti tämän tapauksen kehitystä sekä siihen liittyvien työkalujen kehitystä. Voit olla varma, että päivitämme tämän oppaan, kun uutta tietoa tulee saataville._
 
-_Tämä opas on tarkoitettu vain koulutus- ja tiedotustarkoituksiin. Emme kannusta tai hyväksy näiden työkalujen käyttöä rikollisiin tarkoituksiin. Jokaisen käyttäjän on noudatettava oman lainkäyttöalueensa lakeja._
 
 ---
 
@@ -26,7 +24,7 @@ Tämän tyyppinen sovellus säilyttää vain tiedot, jotka ovat tarpeen Bitcoin-
 Watch-Onlya käytetään yleensä yhdessä laitteistolompakon kanssa. Tämä mahdollistaa lompakon yksityisten avainten "kylmän" säilytyksen, laitteella, joka ei ole yhteydessä internetiin, mikä minimoi hyökkäyspinnan eristäen yksityiset avaimet mahdollisesti haavoittuvilta ympäristöiltä. Toisaalta Watch-Only sovellus säilyttää yksinomaan Bitcoin-lompakon laajennetun julkisen avaimen (`xpub`, `zpub` jne.). Tämä vanhempi avain ei mahdollista yhdistettyjen yksityisten avainten löytämistä ja siten ei salli bitcoinien käyttöä. Se kuitenkin mahdollistaa lasten julkisten avainten ja vastaanotto-osoitteiden johdannaisen. Tietäen laitteistolompakon turvaamien osoitteiden tiedot, Watch-Only sovellus voi seurata näitä transaktioita Bitcoin-verkossa, tarjoten käyttäjälle mahdollisuuden seurata saldoaan ja luoda uusia vastaanotto-osoitteita, ilman että laitteistolompakkoa tarvitsee yhdistää joka kerta.
 
 ## Mikä Watch-Only Lompakko kannattaa käyttää?
-Tällä hetkellä kattavin Watch-Only sovellus on [Sentinel](https://sentinel.watch/), jonka ovat kehittäneet Samourai Walletin tiimit. Se kattaa kaikki hyvän Watch-Only lompakon olennaiset ominaisuudet:
+Tällä hetkellä kattavin watch-only-sovellus on [Sentinel](https://github.com/wanderingking072/sentinel-android), jonka Samourai Walletin tiimit alun perin kehittivät ja jota yhteisö nykyisin ylläpitää. Se kokoaa yhteen kaikki olennaiset ominaisuudet hyvää watch-only-lompakkoa varten:
 - Tuki laajennetuille avaimille, julkisille avaimille ja osoitteille;
 - Mahdollisuus järjestää useita tilejä tai lompakoita kokoelmiin;
 - Osoitteiden luominen bitcoineja vastaanottamaan omalle laitteistolompakolle ilman sen suoraa käyttöä;
@@ -38,25 +36,20 @@ Niille, jotka haluavat seurata moniallekirjoituslompakkoa, Blue Wallet on ainoa 
 iOS-käyttäjille, jotka etsivät vaihtoehtoa Sentinelille, [Green Wallet](https://blockstream.com/green/) tai [Blue Wallet](https://bluewallet.io/watch-only/) saattavat olla vaihtoehtoja, vaikka niiden watch-only -toiminnallisuus ei olekaan yhtä kattava kuin Sentinelin.![watch-only](assets/notext/2.webp)
 ## Kuinka käyttää Sentinel Watch-Only -lompakkoa?
 ### Asennus ja asetukset
-Aloita asentamalla Sentinel-sovellus. Voit tehdä tämän joko Google Play Kaupasta tai käyttämällä [virallisella verkkosivustolla ladattavissa olevaa APK-tiedostoa](https://sentinel.watch/download/).
+Aloita asentamalla Sentinel-sovellus. Voit tehdä tämän käyttämällä [APK:ta, joka on ladattavissa projektin github-arkistosta](https://github.com/wanderingking072/sentinel-android/releases).
 
-![watch-only](assets/notext/3.webp)
 
-Sovelluksen ensimmäisellä avaamiskerralla sinulle annetaan valinta:
-- `Yhdistä Dojoon`;
-- `Yhdistä Samourain palvelimeen`.
 
-Dojo, jonka Samourai-tiimi on kehittänyt, on täysi Bitcoin-solmun versio, jonka voi asentaa itsenäisesti tai lisätä yhdellä klikkauksella node-in-box -ratkaisuihin, kuten [Umbrel](https://umbrel.com/) ja [RoninDojo](https://ronindojo.io/).
 
-[**-> Tutustu, kuinka asentaa RoninDojo v2 Raspberry Pi:lle.**](https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
 
-Jos sinulla on oma Dojo, voit yhdistää sen tässä vaiheessa. Näin tehdessäsi hyödyt korkeimmasta yksityisyyden tasosta tarkistaessasi Bitcoin-verkon transaktiotietojasi.
+
+Sen jälkeen sinun on pakollisesti yhdistettävä omaan Dojoosi, sillä Samourai Walletin palvelimet eivät ole enää käytettävissä. Jos sinulla ei vielä ole omaa Dojoa, voit joko käyttää yhteisön sivustolla [The Dojo Bay](https://dojobay.pw/) saataville asettamaa Dojoa tai seurata ohjettamme oman Dojon asentamiseksi :
+
+https://planb.academy/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9
 
 ![watch-only](assets/notext/4.webp)
 
-Muussa tapauksessa on mahdollista valita Samourain oletuspalvelin. Voit myös valita, haluatko yhdistää Torin kautta vai ei.
 
-![watch-only](assets/notext/5.webp)
 
 Tämän jälkeen saavut Sentinelin pääsivulle.
 

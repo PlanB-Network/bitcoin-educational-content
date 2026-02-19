@@ -15,7 +15,7 @@ objectives:
 
 Để hiểu về proof-of-work, bạn cần hiểu cách thức hoạt động của Bitcoin. Nếu không có cơ chế này và cách nó được sử dụng một cách khéo léo, Bitcoin đơn giản là không thể tồn tại. Khóa học này cung cấp cho bạn tất cả lý thuyết về mining – quá trình mà cộng đồng thường gọi là “đào coin”, cần thiết cho hành trình đầu tư Bitcoin của bạn.
 
-MIN 101 chủ yếu dành cho người mới bắt đầu, vì nó giải thích tất cả các khái niệm một cách chính xác từ đầu. Tuy nhiên, nếu bạn đã có kiến ​​thức ở trình độ trung cấp, khóa học này sẽ giúp bạn củng cố hiểu biết, sửa chữa một số trực giác chưa chính xác và khám phá những chi tiết thường bị bỏ qua trong các giải thích thông thường.
+MIN 101 chủ yếu dành cho người mới bắt đầu, vì nó giải thích tất cả các khái niệm một cách chính xác từ đầu. Tuy nhiên, nếu bạn đã có kiến thức ở trình độ trung cấp, khóa học này sẽ giúp bạn củng cố hiểu biết, sửa chữa một số trực giác chưa chính xác và khám phá những chi tiết thường bị bỏ qua trong các giải thích thông thường.
 
 Sau khi hoàn thành khóa học này, bạn sẽ có thể giải thích cách thức hoạt động của proof-of-work một cách đơn giản và chính xác. MIN 101 cũng là bài giới thiệu lý tưởng cho tất cả các khóa học nâng cao khác dành cho Bitcoin, mining và Plan ₿ Academy, dù là lý thuyết hay thực hành.
 
@@ -29,7 +29,7 @@ Sau khi hoàn thành khóa học này, bạn sẽ có thể giải thích cách 
 
 Chào mừng bạn đến với khóa học MIN 101, nơi bạn sẽ khám phá các khái niệm lý thuyết cơ bản về mining và Proof-of-Work trong hệ thống Bitcoin. Khóa học này là bước đầu tiên trong hành trình tìm hiểu Bitcoin của bạn để hiểu cách thức hoạt động của mining. Sau khi hoàn thành, bạn có thể chuyển sang các khóa học lý thuyết nâng cao hơn, hoặc bắt tay vào thực hành và trở thành một người khai thác Bitcoin!
 
-Trong khóa học MIN 101 này, chúng ta sẽ không ôn lại các khái niệm cơ bản về Bitcoin, mà sẽ đi thẳng vào vấn đề chính: mining. Nếu bạn chưa từng nghe về Bitcoin, hoặc nếu những kiến ​​thức cơ bản về nó vẫn còn chưa rõ ràng với bạn, tôi đặc biệt khuyên bạn nên bắt đầu với khóa học giới thiệu BTC 101 của chúng tôi. Sau khi nắm vững những kiến ​​thức cơ bản này, bạn sẽ có thể tự tin tiếp cận khóa học MIN 101:
+Trong khóa học MIN 101 này, chúng ta sẽ không ôn lại các khái niệm cơ bản về Bitcoin, mà sẽ đi thẳng vào vấn đề chính: mining. Nếu bạn chưa từng nghe về Bitcoin, hoặc nếu những kiến thức cơ bản về nó vẫn còn chưa rõ ràng với bạn, tôi đặc biệt khuyên bạn nên bắt đầu với khóa học giới thiệu BTC 101 của chúng tôi. Sau khi nắm vững những kiến thức cơ bản này, bạn sẽ có thể tự tin tiếp cận khóa học MIN 101:
 
 https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
@@ -53,7 +53,7 @@ Phần thứ tư đưa mining trở lại thực tế vận hành. Nó theo dõi
 
 ### Phần 5 - Phần cuối
 
-Ở phần cuối của khóa học, bạn có thể kiểm tra kiến ​​thức của mình về mining bằng cách tham gia kỳ thi lấy chứng chỉ.
+Ở phần cuối của khóa học, bạn có thể kiểm tra kiến thức của mình về mining bằng cách tham gia kỳ thi lấy chứng chỉ.
 
 Mục tiêu của khóa học MIN 101 này là giúp bạn có được sự hiểu biết rõ ràng, có cấu trúc và bền vững về Bitcoin mining, cả về mặt kỹ thuật và kinh tế.
 
@@ -405,7 +405,7 @@ Bitcoin đặt mục tiêu đạt tốc độ trung bình tìm thấy một kh�
 
 ![Image](assets/fr/019.webp)
 
-Sự biến thiên này bắt nguồn từ bản chất xác suất của mining: mỗi hàm băm là một lần thử độc lập, với xác suất không đổi (giả sử mục tiêu không thay đổi) để tạo ra kết quả thấp hơn mục tiêu. Do đó, nó có thể được so sánh với một trò chơi xổ số với lượt quay liên tục: càng nhiều hàm băm mà thợ đào tạo ra mỗi giây, thì thời gian chờ đợi dự kiến ​​trước khi xuất hiện một khối hợp lệ càng ngắn, nhưng không bao giờ loại bỏ được tính ngẫu nhiên giữa các lượt quay.
+Sự biến thiên này bắt nguồn từ bản chất xác suất của mining: mỗi hàm băm là một lần thử độc lập, với xác suất không đổi (giả sử mục tiêu không thay đổi) để tạo ra kết quả thấp hơn mục tiêu. Do đó, nó có thể được so sánh với một trò chơi xổ số với lượt quay liên tục: càng nhiều hàm băm mà thợ đào tạo ra mỗi giây, thì thời gian chờ đợi dự kiến trước khi xuất hiện một khối hợp lệ càng ngắn, nhưng không bao giờ loại bỏ được tính ngẫu nhiên giữa các lượt quay.
 
 ### Tại sao nên đặt mục tiêu 10 phút giữa các khối?
 
@@ -661,9 +661,9 @@ Halving được lặp lại miễn là khoản trợ cấp có thể được b
 
 Khi khoản trợ cấp giảm đi một nửa, cuối cùng chúng ta sẽ đạt đến những phần nhỏ của bitcoin đến mức chúng trở nên nhỏ hơn 1 satoshi. Tại thời điểm này, không còn khả năng tạo ra nửa đơn vị satoshi nữa. Việc tạo ra tiền thông qua trợ cấp khối dừng lại, và thợ đào chỉ được bồi thường dựa trên phí giao dịch. Từ thời điểm này trở đi, tất cả bitcoin sẽ được lưu thông và không còn khả năng tạo ra các đơn vị mới nữa.
 
-Việc chấm dứt hoàn toàn trợ cấp khối sẽ diễn ra ở cấp độ khối 6.930.000, tức là vào lần giảm một nửa thứ 33 và cũng là lần cuối cùng. Sự kiện này dự kiến ​​sẽ diễn ra vào khoảng năm 2140, mặc dù không thể đưa ra một ngày chính xác, vì nó sẽ phụ thuộc vào tốc độ thực tế mà các khối được tìm thấy từ nay đến lúc đó.
+Việc chấm dứt hoàn toàn trợ cấp khối sẽ diễn ra ở cấp độ khối 6.930.000, tức là vào lần giảm một nửa thứ 33 và cũng là lần cuối cùng. Sự kiện này dự kiến sẽ diễn ra vào khoảng năm 2140, mặc dù không thể đưa ra một ngày chính xác, vì nó sẽ phụ thuộc vào tốc độ thực tế mà các khối được tìm thấy từ nay đến lúc đó.
 
-Vì cơ chế trợ cấp khối tuân theo cấp số nhân với tỷ lệ 1/2 sau mỗi lần giảm một nửa, việc tạo ra tiền tệ diễn ra cực kỳ mạnh mẽ trong những ngày đầu của Bitcoin, và sau đó giảm rất nhanh. Đến lần giảm một nửa thứ 7, hơn 99% bitcoin sẽ được đưa vào lưu thông. Ngưỡng 99% dự kiến ​​sẽ bị vượt qua trong khoảng thời gian từ năm 2032 đến năm 2036. Điều này có nghĩa là sẽ mất hơn 100 năm để khai thác 1% bitcoin còn lại. Mặc dù lạm phát tiền tệ rất cao khi Bitcoin được khởi động để cho phép phân phối rộng rãi loại tiền này, hiện nay nó rất thấp và sẽ tiếp tục giảm cho đến khi đạt đến mức của một loại tiền tệ cứng thực sự, mà nguồn cung lưu thông không thể tăng thêm nữa.
+Vì cơ chế trợ cấp khối tuân theo cấp số nhân với tỷ lệ 1/2 sau mỗi lần giảm một nửa, việc tạo ra tiền tệ diễn ra cực kỳ mạnh mẽ trong những ngày đầu của Bitcoin, và sau đó giảm rất nhanh. Đến lần giảm một nửa thứ 7, hơn 99% bitcoin sẽ được đưa vào lưu thông. Ngưỡng 99% dự kiến sẽ bị vượt qua trong khoảng thời gian từ năm 2032 đến năm 2036. Điều này có nghĩa là sẽ mất hơn 100 năm để khai thác 1% bitcoin còn lại. Mặc dù lạm phát tiền tệ rất cao khi Bitcoin được khởi động để cho phép phân phối rộng rãi loại tiền này, hiện nay nó rất thấp và sẽ tiếp tục giảm cho đến khi đạt đến mức của một loại tiền tệ cứng thực sự, mà nguồn cung lưu thông không thể tăng thêm nữa.
 
 ![Image](assets/fr/030.webp)
 
@@ -786,7 +786,7 @@ Kể từ khi SegWit soft fork](https://planb.academy/resources/glossary/soft-fo
 
 ![Image](assets/fr/038.webp)
 
-Tôi sẽ không đi sâu vào chi tiết về cơ chế này trong khóa học này, vì nó nằm ngoài phạm vi của bài viết này, nhưng hãy nhớ rằng kể từ khi SegWit được giới thiệu, giao dịch coinbase đóng vai trò là phương tiện để neo vào khối một dấu vân tay tóm tắt tất cả các bằng chứng SegWit. Các bằng chứng được đặt trong một cây Merkle độc ​​lập, gốc của cây này được ghi vào đầu ra của giao dịch coinbase, và chính giao dịch coinbase này được bao gồm trong cây Merkle chính cùng với tất cả các giao dịch khác, có gốc xuất hiện trong tiêu đề khối. Đây là cách các bằng chứng, được lưu trữ riêng biệt với dữ liệu giao dịch chính, vẫn được ghi vào tiêu đề khối.
+Tôi sẽ không đi sâu vào chi tiết về cơ chế này trong khóa học này, vì nó nằm ngoài phạm vi của bài viết này, nhưng hãy nhớ rằng kể từ khi SegWit được giới thiệu, giao dịch coinbase đóng vai trò là phương tiện để neo vào khối một dấu vân tay tóm tắt tất cả các bằng chứng SegWit. Các bằng chứng được đặt trong một cây Merkle độc lập, gốc của cây này được ghi vào đầu ra của giao dịch coinbase, và chính giao dịch coinbase này được bao gồm trong cây Merkle chính cùng với tất cả các giao dịch khác, có gốc xuất hiện trong tiêu đề khối. Đây là cách các bằng chứng, được lưu trữ riêng biệt với dữ liệu giao dịch chính, vẫn được ghi vào tiêu đề khối.
 
 ![Image](assets/fr/039.webp)
 
@@ -880,7 +880,7 @@ Giai đoạn cuối cùng trong quá trình chuyên môn hóa phần cứng mini
 
 Sự chuyên môn hóa này dẫn đến hai hệ quả chính:
 
-- Đầu tiên là bước nhảy vọt về hiệu năng và hiệu quả. Đối với các thiết bị cùng thế hệ, ASIC tạo ra số lượng băm mỗi giây nhiều hơn đáng kể so với GPU, trong khi tiêu thụ ít điện năng hơn. Đào coin tích hợp GPU nhanh chóng trở nên kém cạnh tranh: mặc dù về mặt kỹ thuật nó vẫn hoạt động, nhưng chi phí điện năng vượt xa doanh thu dự kiến ​​trong hầu hết các trường hợp;
+- Đầu tiên là bước nhảy vọt về hiệu năng và hiệu quả. Đối với các thiết bị cùng thế hệ, ASIC tạo ra số lượng băm mỗi giây nhiều hơn đáng kể so với GPU, trong khi tiêu thụ ít điện năng hơn. Đào coin tích hợp GPU nhanh chóng trở nên kém cạnh tranh: mặc dù về mặt kỹ thuật nó vẫn hoạt động, nhưng chi phí điện năng vượt xa doanh thu dự kiến trong hầu hết các trường hợp;
 - Thứ hai là sự thay đổi mô hình: đầu tư chủ yếu chuyển sang phần cứng cấp công nghiệp. Đào coin hiện nay bao gồm việc mua các máy móc được thiết kế cho mục đích này, vận hành chúng liên tục, làm mát, bảo trì và chấp nhận sự lỗi thời của chúng. Bởi vì ASIC không phải là vĩnh cửu về mặt kinh tế: khi một thế hệ mới, hiệu quả hơn ra mắt thị trường, các máy cũ sẽ ngày càng kém hiệu quả hơn, ngay cả khi chúng vẫn hoạt động được.
 
 Từ thời điểm đó trở đi, chúng ta không còn chỉ nói về một sở thích nữa. Chúng ta đang nói về một lĩnh vực mà khả năng cạnh tranh phụ thuộc vào một phương trình:
@@ -959,7 +959,7 @@ Mô hình nhóm mining thay đổi bản chất của vấn đề này: bằng c
 
 ### Tại sao phương sai lại giảm khi nhóm các dữ liệu lại với nhau?
 
-Khả năng tính toán càng cao, tần suất tìm thấy các khối dự kiến ​​càng cao. Quan trọng hơn, các sự kiện càng xảy ra thường xuyên, kết quả quan sát được càng gần với giá trị trung bình thống kê trong một khoảng thời gian nhất định.
+Khả năng tính toán càng cao, tần suất tìm thấy các khối dự kiến càng cao. Quan trọng hơn, các sự kiện càng xảy ra thường xuyên, kết quả quan sát được càng gần với giá trị trung bình thống kê trong một khoảng thời gian nhất định.
 
 Trên cơ sở cá nhân, một người khai thác quy mô nhỏ có thể trải qua nhiều năm mà không nhận được một khối nào, rồi một ngày nhận được khoản thanh toán lớn, sau đó lại chẳng có gì. Trong một nhóm khai thác (pool), thực tế xác suất tương tự vẫn áp dụng, nhưng nó được làm mượt mà hơn ở quy mô tập thể: nhóm tìm thấy các khối thường xuyên hơn, và việc phân phối lại chuyển đổi những sự kiện này thành các khoản thanh toán đều đặn hơn cho mỗi người tham gia. **Do đó, nhóm mining bán sự ổn định về hoạt động của mining.**
 
@@ -1015,7 +1015,7 @@ Trong một khóa học nâng cao hơn, chúng ta sẽ đi sâu hơn vào hoạt
 
 Chúng ta đã kết thúc khóa học MIN 101. Cảm ơn các bạn đã theo dõi đến hết khóa học. Nếu muốn đánh giá các kỹ năng đã học được trong suốt khóa học, bài kiểm tra cuối kỳ đang chờ các bạn ở phần tiếp theo.
 
-Với những kiến ​​thức cơ bản vừa thu được, bạn có thể tham gia các khóa học nâng cao hơn về mining trên Plan ₿ Academy, dù là lý thuyết như khóa học này hay các khóa học thực hành hơn, để bạn cũng có thể bắt đầu tham gia Bitcoin mining!
+Với những kiến thức cơ bản vừa thu được, bạn có thể tham gia các khóa học nâng cao hơn về mining trên Plan ₿ Academy, dù là lý thuyết như khóa học này hay các khóa học thực hành hơn, để bạn cũng có thể bắt đầu tham gia Bitcoin mining!
 
 # Phần cuối
 

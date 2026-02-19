@@ -164,7 +164,9 @@ Bitcoin z kolei oferuje nowe możliwości. Dzięki swoim właściwościom, takim
 
 <chapterId>25151d46-7db1-5b48-8bba-cbde1944555a</chapterId>
 
-„Ci, którzy nie uczą się historii, są skazani na powtórzenie tych samych błędów”, powiedział George Santayana. Prawda ta rezonuje szczególnie, gdy mowa o obecnym systemie monetarnym.
+> „Ci, którzy nie uczą się historii, są skazani na powtórzenie tych samych błędów”, powiedział George Santayana.
+
+Prawda ta rezonuje szczególnie, gdy mowa o obecnym systemie monetarnym.
 
 ### Fiducjarny = zaufanie
 
@@ -216,7 +218,7 @@ https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 Hiperinflacja to zjawisko monetarne specyficzne dla walut fiducjarnych. Charakteryzuje się całkowitą utratą zaufania do waluty i drastycznym wzrostem inflacji na skutek drukowania pieniędzy przez władze. W rezultacie oszczędności zgromadzone przez jednostki mogą zniknąć w stosunkowo krótkim czasie, popychając kraj na skraj ekonomicznego, społecznego i politycznego upadku.
 
-### Inflacja Nieokiełznana!
+### Inflacja nieokiełznana!
 
 Żeby zrozumieć wpływ inflacji na oszczędności, musimy wziąć pod uwagę różne stopy inflacji.
 
@@ -873,7 +875,8 @@ Istotne jest też omówienie ekonomicznych i środowiskowych konsekwencji przyj�
 
 Szczególnie w porównaniu z obecnym systemem finansowym. Ten ostatni, ze względu na zachęcanie do nadkonsumpcji i zadłużenia, stwarza poważne problemy. Łatwy dostęp do kredytu, emisja pieniądza przez banki i stosowanie systemu rezerw cząstkowych to wszystko czynniki, które promują nadmierne zadłużenie, a co za tym idzie, nadkonsumpcję.
 
-https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+
+![image](assets/en/065.webp)
 
 Konieczna jest reforma systemu monetarnego tak, aby odzwierciedlić rzadkość naszych zasobów poprzez rzadkość naszej waluty. Zachęci to do bardziej odpowiedzialnej konsumpcji i opracowania długoterminowej wizji. Inflacja działa odwrotnie, zachęcając do konsumpcji i inwestycji i ma negatywny długoterminowy wpływ na środowisko.
 
@@ -882,23 +885,24 @@ Obecny system finansowy jest zgodny z ideami keynesizmu które, w przeciwieństw
 ![image](assets/en/66.webp)
 
 Politycy, ze względu na swoją krótkoterminową wizję i potrzebę wykazania wzrostu gospodarczego przed ponownymi wyborami, nie są w stanie rozwiązać problemów ekologicznych na dłuższą metę. Wprowadzenie solidnej waluty, jaką jest bitcoin, jest potencjalną alternatywą, która mogłaby umocnić sytuację ekonomiczną ludzi.
-Politycy nie przyznają, że Bitcoin promuje wykorzystywanie zielonej energii. Dla przykładu, możnaby skończyć z praktyką spalania metanu w szybach naftowych dla uniknięcia katastrofy ekologicznej, ponieważ metan może być przekształcany w elektryczność do zasilania maszyn do kopania bitcoinów, co byłoby korzystne dla środowiska.
+
+Krytycy nie przyznają, że Bitcoin promuje wykorzystywanie zielonej energii. Dla przykładu, możnaby skończyć z praktyką spalania metanu w szybach naftowych dla uniknięcia katastrofy ekologicznej, ponieważ metan może być przekształcany w elektryczność do zasilania maszyn do kopania bitcoinów, co byłoby korzystne dla środowiska.
+
+**Stosuj jedną z zasad Bitcoina: Nie ufaj, sprawdzaj sam!**
 
 
-https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
-
-https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
-
-https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+### Krótkie podsumowanie charakterystyki technicznej Bitcoina
 
 
 Satoshi Nakamoto opublikował protokół Bitcoin w styczniu 2009 roku, który od tego czasu ewoluował dzięki rosnącej społeczności programistów, górników i użytkowników z węzłami Bitcoina. Zachowując własną kopię łańcucha bloków Bitcoina, publicznego rejestru wszystkich transakcji Bitcoina, węzły te mogą zapewnić ważność transakcji zgodnie z zasadami konsensusu Bitcoina. Obejmuje to zapewnienie, że górnicy produkują poprawne bloki, które zawierają tysiące oczekujących transakcji.
+
 Blok jest tworzony średnio co 10 minut, a górnik, który znajdzie ważny hasz dla następnego bloku, jest nagradzany przez protokół nagrodą, której wysokość jest określona przez zasady konsensusu, jak również opłatami transakcyjnymi ze wszystkich transakcji zawartych w ważnym bloku. Ponieważ wynik algorytmu haszującego (SHA256) dla danego wejścia jest uznawany za nieprzewidywalny, proces wydobywania obejmuje budowanie licznych kandydujących bloków i testowanie, czy ich hasz jest ważny, czy nie. Jednakże aby zapewnić, że średni czas między dwoma blokami pozostaje stały (~10 min) niezależnie od liczby górników i ich mocy obliczeniowej, trudność znalezienia ważnego hasza dostosowuje się co 2016 bloków, co około 2 tygodnie. Górnicy z czasem opracowali specjalistyczne maszyny SHA256, zwane ASIC, aby zwiększyć szybkość haszowania na dżul, co oznacza liczbę prób na sekundę i na zużytą energię.
+
 Aby zyski z działalności górników mogły byc jak najwyższe, muszą oni pozyskać możliwie najtańszą elektryczność, która często znajduje się w odległych lokalizacjach, w elektrowniach, które nie są jeszcze podłączone do sieci. Górnik działa wtedy jako kupiec ostatniej instancji, i jak tylko cena elektryczności wzrasta z powodu wzrostu popytu, górnik dąży do przeniesienia swojej działalności gdzie indziej.
 
 Tak więc, Bitcoin jest systemem monetarnym niepodlegającym cenzurze i niezatrzymywalnym, ponieważ każdy komponent protokołu jest rozproszony geograficznie po całym świecie - istnieje około 40 000 węzłów Bitcoina na wszystkich kontynentach. Zasady konsensusu Bitcoina są skonstruowane tak, że bardziej opłacalne ekonomicznie jest ich przestrzeganie niż próba ich złamania i dlatego zaufanie między poszczególnymi stronami nie jest wymagane. Bitcoin nie ma lidera i nie może być zatrzymany. Możliwe jest regulowanie platform wymiany, aby ograniczyć Bitcoina, ale ma to ograniczony wpływ na sieć. Krótko mówiąc, żaden sędzia ani państwo nie może cenzurować ani zatrzymać Bitcoina.
 
-# Jak zdobyć bitcoina?
+# Jak zdobyć bitcoiny?
 
 <partId>517e1bb7-f032-51a0-930a-a91fe5148d3f</partId>
 
@@ -962,9 +966,12 @@ Obecnie Bitcoin nadal istnieje i rośnie jeszcze bardziej, integrując się cora
 Bitcoina można postrzegać jako narzędzie do stworzenia gospodarki równoległej do walut fiducjarnych, ponieważ możliwa jest sprzedaż towarów lub usług i otrzymywanie wypłaty w bitcoinie. Transakcje mogą być przeprowadzane bezpośrednio w sieci Bitcoin bez potrzeby korzystania z platformy wymiany, po prostu z portfela Bitcoin do portfela Bitcoin.
 Gospodarka Bitcoina istnieje i rozwija się w niektórych regionach świata, takich jak Salwador, gdzie bitcoin jest oficjalnym środkiem płatniczym od 2021 roku. Wszędzie wkoło nas osoby, firmy i organizacje już akceptują bitcoiny jako środek płatności za swoje produkty lub usługi.
 
-https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Dodatkowo, aby ułatwić korzystanie z bitcoinów w codziennych transakcjach, uruchomiono projekt open-source oparty na współpracy: BTCMap (https://btcmap.org/map#2/21.28937/5.46680). Ta platforma pokazuje wszystkich sprzedawców, którzy akceptują bitcoiny, oraz różne społeczności Bitcoina na całym świecie. Możesz odwiedzić ich stronę internetową, aby odkryć ekosystem Bitcoina wokół siebie. Tak więc, pomimo trudności i wahania, istnieją inicjatywy takie jak BTCMap, które przyczyniają się do uczynienia gospodarki Bitcoina bardziej dostępną i wygodną dla wszystkich.
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
+
+*Zródło : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
+
+Dodatkowo, aby ułatwić korzystanie z bitcoinów w codziennych transakcjach, uruchomiono projekt open-source oparty na współpracy: [BTCMap](https://btcmap.org/map#2/21.28937/5.46680). Ta platforma pokazuje wszystkich sprzedawców, którzy akceptują bitcoiny, oraz różne społeczności Bitcoina na całym świecie. Możesz odwiedzić ich stronę internetową, aby odkryć ekosystem Bitcoina wokół siebie. Tak więc, pomimo trudności i wahania, istnieją inicjatywy takie jak BTCMap, które przyczyniają się do uczynienia gospodarki Bitcoina bardziej dostępną i wygodną dla wszystkich.
 
 ### Dlaczego akceptować Bitcoiny zamiast je kupować?
 
@@ -1101,11 +1108,11 @@ Jeśli chcesz poszerzyć swoją wiedzę na temat Bitcoina, teraz jest na to świ
 
 > „Myślę, że Internet będzie jedną z głównych sił zmniejszających rolę rządu. Jedyną rzeczą, której brakuje, ale która wkrótce zostanie opracowana, jest niezawodna e-gotówka - metoda, dzięki której w Internecie można przesyłać fundusze od A do B, przy czym A i B nie muszą znac siebie nawzajem”. - Milton Friedman, prognoza z roku 1999 
 
-# Przyszłość Bitcoina: Sieć Lightning
+# Przyszłość Bitcoina
 
 <partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
 
-## Krótkie wprowadzenie do Sieci Lightning
+## Sieć Lightning: szybkie płacenie bitcoinem i niskie opłaty transakcyjne
 
 <chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
 

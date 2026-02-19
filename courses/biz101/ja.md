@@ -7,7 +7,7 @@ objectives:
 - 実際にビットコイン決済を受け入れる方法について具体的なアイデアを持つ
 - 税務および会計要件の管理に備える
 ---
-# ビットコインネットワークでの企業の旅を始めましょう
+# ビットコインネットワーク上で、あなたの会社の旅を始めましょう
 
 ビットコインとライトニングネットワークの実用的な機能を発見し、インターネットと同様に、それらがどのようにビジネス運営を変革できるかを探求してください。財務管理から高速で経済的かつスケーラブルな決済まで、ビットコインは企業向けに幅広いユースケースを提供します。
 
@@ -20,6 +20,7 @@ objectives:
 <partId>326cf945-5d3f-4d86-8c3e-4d1c35959799</partId>
 
 ## コース概要
+
 <chapterId>1be42be9-4080-49f5-b5b2-6b531dd55f5f</chapterId>
 
 BIZ101コースへようこそ！
@@ -1373,6 +1374,3 @@ https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
-
-
-

@@ -1117,7 +1117,7 @@ U logici političke dominacije, novac prestaje da bude roba ili usluga kao bilo 
 
 
 
-Još u srednjem veku, Nicolas Oresme je analizirao štetne efekte monetarne manipulacije na trgovinu. Monetarna smanjenja proizvode inflaciju i destabilizuju cene, jer monetarni signal postaje neizvestan kada gospodar mera vrednosti može proizvoljno menjati njihov sadržaj. Metalni novac sam po sebi često nije bio ništa više od iluzije, sa kovanicama koje su sadržale legure niske vrednosti koje su neki liberalni pisci iz 19. veka nazivali bakarnim asignatima.
+Još u srednjem veku, Nicolas Oresme je analizirao štetne efekte monetarne manipulacije na trgovinu. Monetarna smanjenja proizvode [inflaciju](https://planb.academy/resources/glossary/inflation) i destabilizuju cene, jer monetarni signal postaje neizvestan kada gospodar mera vrednosti može proizvoljno menjati njihov sadržaj. Metalni novac sam po sebi često nije bio ništa više od iluzije, sa kovanicama koje su sadržale legure niske vrednosti koje su neki liberalni pisci iz 19. veka nazivali bakarnim asignatima.
 
 
 

@@ -105,7 +105,7 @@ Ni mwiteguye guhishura uburyo bw’ubuhinga bwa Lightning Network? Reka twinjire
 
 
 
-Lightning Network ni uruja n’uruza rw’imihora yo kwishura yubatswe hejuru y’umurongo wa Bitcoin, ugamije gutuma umuntu ashobora gutanga amafaranga yihuta kandi ataco atwara. Bituma habaho uburyo bwo kwishura hagati y’abaje mu nama, aho amafaranga ashobora gukorwa hafi mu kanya nk’ako gukubita kandi ataco atanga, ataco akeneye kwandika amafaranga yose ku giti ciwe ku gitabu ca Blockchain. Gutyo, Lightning Network irondera gutuma Bitcoin ishobora gukoreshwa neza kandi igakoreshwa mu kwishura amahera y’agaciro gatoyi.
+[Lightning Network](https://planb.academy/resources/glossary/lightning-network) ni uruja n’uruza rw’[imihora yo kwishura](https://planb.academy/resources/glossary/payment-channel) yubatswe hejuru y’umurongo wa Bitcoin, ugamije gutuma umuntu ashobora gutanga amafaranga yihuta kandi ataco atwara. Bituma habaho uburyo bwo kwishura hagati y’abaje mu nama, aho amafaranga ashobora gukorwa hafi mu kanya nk’ako gukubita kandi ataco atanga, ataco akeneye kwandika amafaranga yose ku giti ciwe ku gitabu ca [Blockchain](https://planb.academy/resources/glossary/blockchain). Gutyo, Lightning Network irondera gutuma Bitcoin ishobora gukoreshwa neza kandi igakoreshwa mu kwishura amahera y’agaciro gatoyi.
 
 
 Imbere yo gutohoza uruhande rwa "network", birahambaye gutahura iciyumviro c'**umuhora wo kwishura** kuri Lightning, ingene ukora, n'ibintu vyihariye vyawo. Ivyo ni vyo tuzovuga muri iki kigabane ca mbere.
@@ -120,7 +120,7 @@ Umurongo wo kwishura ushobora gutuma abantu babiri, hano **Alice** na **Bob**, b
 ![LNP201](assets/en/001.webp)
 
 
-Mu karorero kacu, Alice ifise ama satoshis 100.000 ku ruhande rwiwe rw’umuyoboro, Bob na yo ikaba ifise 30.000, vyose hamwe bikaba ari ama satoshis 130.000, ivyo bikaba bigize **ubushobozi bw’umuyoboro**.
+Mu karorero kacu, Alice ifise ama [satoshis](https://planb.academy/resources/glossary/satoshi-sat) 100.000 ku ruhande rwiwe rw’umuyoboro, Bob na yo ikaba ifise 30.000, vyose hamwe bikaba ari ama satoshis 130.000, ivyo bikaba bigize **[ubushobozi bw’umuyoboro](https://planb.academy/resources/glossary/lightning-channel-capacity)**.
 
 
 **Ariko Satoshi ni iki?**
@@ -194,7 +194,7 @@ Iki gice ni ikidasanzwe kuko kitazoba kigenewe Lightning, ahubwo kizoba kigenewe
 ### Bitcoin Aderesi, Imfunguruzo z'Ibanga, n'Imfunguruzo za bose
 
 
-Bitcoin Address ni urutonde rw'inyuguti zikomoka ku **urufunguzo rwa bose**, rwo ubwarwo ruharurwa ruvuye ku **urufunguzo rw'ibanga**. Nk’uko mubizi neza, ikoreshwa mu gufunga ama bitcoins, bikaba bingana no kuyakira muri Wallet yacu.
+Bitcoin Address ni urutonde rw'inyuguti zikomoka ku **[urufunguzo rwa bose](https://planb.academy/resources/glossary/public-key)**, rwo ubwarwo ruharurwa ruvuye ku **[urufunguzo rw'ibanga](https://planb.academy/resources/glossary/private-key)**. Nk’uko mubizi neza, ikoreshwa mu gufunga ama bitcoins, bikaba bingana no kuyakira muri Wallet yacu.
 
 
 Urufunguzo rw’ibanga ni ikintu c’ibanga **kidakwiye kwigera gisangizwa**, mu gihe urufunguzo rwa bose na Address bishobora gusangizwa ata ngorane z’umutekano (gutangazwa kwavyo bigereranya gusa ingorane ku buzima bwite bwawe). Aha niho hari ubuserukira rusangi tuzokwemera muri iri huriro ryose:
@@ -209,10 +209,10 @@ Urufunguzo rw’ibanga ni ikintu c’ibanga **kidakwiye kwigera gisangizwa**, mu
 ### Bitcoin Ibikorwa: Kwohereza Amahera n'Inyandiko
 
 
-Ku Bitcoin, ugucuruza ni ukurungika amahera kuva kuri Address imwe aja ku yindi. Reka dufate akarorero ka Alice yohereza 0.002 Bitcoin kuri Bob. Alice akoresha urufunguzo rw'ibanga rujanye n'urufunguzo rwiwe rwa Address kugira ngo **asinye** iyo nzira, gutyo yerekane ko vy'ukuri ashobora gukoresha ayo mahera. Ariko none, ni igiki nyabuna kiba inyuma y'ivyo bicuruzwa? Amahera ari kuri Bitcoin Address akingirwa n'**inyandiko**, ubwoko bwa porogarama ntoyi ishiraho ibintu bimwebimwe kugira ngo ayo mahera akoreshwe.
+Ku Bitcoin, ugucuruza ni ukurungika amahera kuva kuri Address imwe aja ku yindi. Reka dufate akarorero ka Alice yohereza 0.002 Bitcoin kuri Bob. Alice akoresha urufunguzo rw'ibanga rujanye n'urufunguzo rwiwe rwa Address kugira ngo **asinye** iyo nzira, gutyo yerekane ko vy'ukuri ashobora gukoresha ayo mahera. Ariko none, ni igiki nyabuna kiba inyuma y'ivyo bicuruzwa? Amahera ari kuri Bitcoin Address akingirwa n'**[inyandiko](https://planb.academy/resources/glossary/script)**, ubwoko bwa porogarama ntoyi ishiraho ibintu bimwebimwe kugira ngo ayo mahera akoreshwe.
 
 
-Inyandiko isanzwe cane isaba umukono n'urufunguzo rw'ibanga rujanye n'i Address. Iyo Alice asinye igikorwa n’urufunguzo rwiwe rw’ibanga, **afungura inyandiko** ibuza ayo mahera, hanyuma agashobora kwimurirwa. Ukwo kwimurira amafaranga birimwo kwongerako inyandiko nshasha kuri ayo mahera, ivuga ko kugira ngo umuntu ayakoreshe muri iki gihe, hazokenerwa umukono w’urufunguzo rw’ibanga rwa **Bob**.
+Inyandiko isanzwe cane isaba [umukono](https://planb.academy/resources/glossary/digital-signature) n'urufunguzo rw'ibanga rujanye n'i Address. Iyo Alice asinye igikorwa n’urufunguzo rwiwe rw’ibanga, **afungura inyandiko** ibuza ayo mahera, hanyuma agashobora kwimurirwa. Ukwo kwimurira amafaranga birimwo kwongerako inyandiko nshasha kuri ayo mahera, ivuga ko kugira ngo umuntu ayakoreshe muri iki gihe, hazokenerwa umukono w’urufunguzo rw’ibanga rwa **Bob**.
 
 
 ![LNP201](assets/en/005.webp)
@@ -221,7 +221,7 @@ Inyandiko isanzwe cane isaba umukono n'urufunguzo rw'ibanga rujanye n'i Address.
 ### UTXOs: Ivyiza biva mu bikorwa bitakoreshejwe
 
 
-Ku Bitcoin, ivyo mu vy'ukuri Exchange si bitcoins, ariko **[UTXO](https://planb.academy/resources/glossary/utxo)s** (_Ibiva mu bikorwa bitakoreshejwe_), bisobanura "ibiva mu bikorwa bitakoreshejwe".
+Ku Bitcoin, ivyo mu vy'ukuri Exchange si bitcoins, ariko **UTXOs** (_Ibiva mu bikorwa bitakoreshejwe_), bisobanura "ibiva mu bikorwa bitakoreshejwe".
 
 
 UTXO ni igice ca Bitcoin gishobora kuba c’agaciro ako ari ko kose, nk’akarorero, **amafaranga 2.000**, **amafaranga 8**, canke mbere **8.000 Sats**. Buri UTXO ikingirwa n'inyandiko, kandi kugira ngo umuntu ayikoreshe, ategerezwa gushitsa ivyo inyandiko isaba, akenshi umukono ufise urufunguzo rw'ibanga rujanye n'inyandiko ya Address.
@@ -287,13 +287,13 @@ Iki gice kivuga kuri Bitcoin caratumye dusubiramwo ivyiyumviro bimwebimwe vy’i
 :::id ya videwo=6098amafaranga1-735e-4d8d-9f57-0faf5fef6d76:::
 
 
-Muri iki gice, tuzobona neza ingene twofungura umurongo wo kwishura kuri Lightning Network no gutahura isano riri hagati y’ico gikorwa n’uburyo bwa Bitcoin bushingiyeko.
+Muri iki [gice](https://planb.academy/resources/glossary/block), tuzobona neza ingene twofungura umurongo wo kwishura kuri Lightning Network no gutahura isano riri hagati y’ico gikorwa n’uburyo bwa Bitcoin bushingiyeko.
 
 
 ### Imirongo y'umuravyo
 
 
-Nk'uko twabibonye mu kigabane ca mbere, **umurongo wo kwishura** kuri Lightning ushobora kugereranywa n'"umuyoboro" wo guhana amafaranga hagati y'abantu babiri bari muri iyo nama (**Alice** na **Bob** mu ngero zacu). Ubushobozi bw'uwo muhora bujanye n'umubare w'amahera ariho ku ruhande rumwe rumwe. Mu karorero kacu, Alice ifise **amasatoshi 100.000** na Bob ifise **amasatoshi 30.000**, bikaba bitanga **ubushobozi bwose hamwe** bw'amasatoshi **130.000**.
+Nk'uko twabibonye mu kigabane ca mbere, **umurongo wo kwishura** kuri Lightning ushobora kugereranywa n'"umuyoboro" wo guhana amafaranga [hagati y'abantu](https://planb.academy/resources/glossary/peertopeer-p2p) babiri bari muri iyo nama (**Alice** na **Bob** mu ngero zacu). Ubushobozi bw'uwo muhora bujanye n'umubare w'amahera ariho ku ruhande rumwe rumwe. Mu karorero kacu, Alice ifise **amasatoshi 100.000** na Bob ifise **amasatoshi 30.000**, bikaba bitanga **ubushobozi bwose hamwe** bw'amasatoshi **130.000**.
 
 
 ![LNP201](assets/en/009.webp)
@@ -306,9 +306,9 @@ Ni ngombwa cane gutandukanya neza ingero zitandukanye za Exchange kuri Lightning
 
 
 
-- **Ivy'uguhanahana amakuru hagati y'abantu (Lightning protocol)**: Ubu ni ubutumwa ama node ya Lightning yoherezanya kugira ngo avugane. Tuzoserukira ubwo butumwa n'imirongo y'umwirabura ifise uturongo mu bishushanyo vyacu.
+- **Ivy'uguhanahana amakuru hagati y'abantu (Lightning protocol)**: Ubu ni ubutumwa ama [node ya Lightning](https://planb.academy/resources/glossary/lightning-node) yoherezanya kugira ngo avugane. Tuzoserukira ubwo butumwa n'imirongo y'umwirabura ifise uturongo mu bishushanyo vyacu.
 - **Inzira zo kwishura (Protocole ya Lightning)**: Izo ni zo nzira zo guhana amafaranga kuri Lightning, tuzoziserukira n'imirongo y'umwirabura ikomeye.
-- **Ibikorwa vya Bitcoin (protocole ya Bitcoin)**: Ivyo ni ibikorwa vyakozwe ku ruzitiro, ivyo tuzobiserukira n'imirongo y'umutuku.
+- **Ibikorwa vya Bitcoin (protocole ya Bitcoin)**: Ivyo ni ibikorwa vyakozwe [ku ruzitiro](https://planb.academy/resources/glossary/onchain), ivyo tuzobiserukira n'imirongo y'umutuku.
 
 
 ![LNP201](assets/en/010.webp)
@@ -365,7 +365,7 @@ Ni vyiza kumenya ko node ya Lightning ishobora kuvugana biciye ku nzira ya P2P i
 ### None iyo nzira ifungurwa ryari?
 
 
-Uwo muhora ufatwa nk’uwuguruye iyo igikorwa co gushiramwo amahera kishizwe mu gice ca Bitcoin kandi kikaba cashitse ku burebure bumwe bw’ivyemezo (umubare w’ibice bikurikira).
+Uwo muhora ufatwa nk’uwuguruye iyo igikorwa co gushiramwo amahera kishizwe mu gice ca Bitcoin kandi kikaba cashitse ku burebure bumwe bw’[ivyemezo](https://planb.academy/resources/glossary/confirmation) (umubare w’ibice bikurikira).
 
 
 **Ni igiki ukwiye kwibuka muri iki gice?**
@@ -413,7 +413,7 @@ Igihe uwo muhora wafungurwa, Alice yashize **130.000 satoshis** ku muhora Addres
 ### Ibikorwa bitasohowe: Ibikorwa vya Commitment
 
 
-Iyo Alice ikoze igikorwa mu muhora wo kohereza amahera kuri Bob, igikorwa gishasha ca Bitcoin kiraremwa kugira ngo kigaragaze iryo hinduka mu gutanga amahera. Iryo soko ryitwa **Commitment Transaction**, ntirisohoka kuri Blockchain ariko rigereranya uko umurongo umeze mushasha ukurikije isoko rya Lightning.
+Iyo Alice ikoze igikorwa mu muhora wo kohereza amahera kuri Bob, igikorwa gishasha ca Bitcoin kiraremwa kugira ngo kigaragaze iryo hinduka mu gutanga amahera. Iryo soko ryitwa **[Commitment Transaction](https://planb.academy/resources/glossary/commitment-transaction)**, ntirisohoka kuri Blockchain ariko rigereranya uko umurongo umeze mushasha ukurikije isoko rya Lightning.
 
 
 Reka dufate akarorero ka Alice yohereza amasatoshi 30.000 kuri Bob:
@@ -431,7 +431,7 @@ Kugira ngo ivyo bimenyekane, Alice na Bob barahingura **isoko rishasha rya Bitco
 ### Uburyo bwo kwimurira: Invoice
 
 
-Iyo Bob ashaka kwakira amahera, yohereza Alice **_[invoice](https://planb.academy/resources/glossary/invoice-lightning)_** y’amasatoshi 30.000. Alice rero ibandanya kwishura iyo Invoice mu gutangura kwimurira mu muhora. Nk’uko twabibonye, ​​iyo nzira ishingiye ku kurema no gusinya **Commitment Transaction** nshasha.
+Iyo Bob ashaka kwakira amahera, yohereza Alice **_invoice_** y’amasatoshi 30.000. Alice rero ibandanya kwishura iyo Invoice mu gutangura kwimurira mu muhora. Nk’uko twabibonye, ​​iyo nzira ishingiye ku kurema no gusinya **Commitment Transaction** nshasha.
 
 
 Buri Commitment Transaction igereranya ugusangira amahera gushasha mu muyoboro inyuma y’ugutanga. Muri aka karorero, inyuma y’ugucuruza, Bob irafise amasatoshi 30.000, Alice na yo ikaba ifise amasatoshi 100.000. Iyo umwe muri abo babiri bari muri iyo nama afata ingingo yo gusohora iyi Commitment Transaction kuri Blockchain, vyotuma iyo nzira ifunga, amahera agaca agabanwa hakurikijwe iyo nzira ya nyuma.
@@ -498,7 +498,7 @@ Reka dufate akarorero koroshe:
 ![LNP201](assets/en/022.webp)
 
 
-Igihe cose, abo bompi barashobora gutangaza **Commitment Transaction** nshasha yashizweko umukono kugira ngo bafunge umuhora no gusubirana amahera yabo.
+[Igihe](https://planb.academy/resources/glossary/timelock) cose, abo bompi barashobora gutangaza **Commitment Transaction** nshasha yashizweko umukono kugira ngo bafunge umuhora no gusubirana amahera yabo.
 
 
 ### Ikosa: Guhenda mu Gusohora Ibintu vya kera
@@ -523,7 +523,7 @@ Kugira ngo ntihagire ubwo bwoko bw’ubuhendanyi bukorwa na Alice, kuri Lightnin
 
 
 
-- **Igihe**: Commitment Transaction yose irimwo igihe c'amahera ya Alice. Igihe ni Smart contract primitive ishiraho igihe kigomba gushikwako kugira ngo igikorwa congerewe ku gice. Ivyo bisigura ko Alice adashobora gusubirana amahera yiwe gushika umubare kanaka w'amabuye uheze iyo asohoye kimwe mu bikorwa vya Commitment. Iyi nzira y'igihe itangura gukoreshwa kuva kwemezwa kwa Commitment Transaction. Igihe kimara muri rusangi kijanye n'ubunini bw'umurongo, ariko kandi gishobora gutunganirizwa n'amaboko.
+- **Igihe**: Commitment Transaction yose irimwo igihe c'amahera ya Alice. Igihe ni [Smart contract](https://planb.academy/resources/glossary/smart-contract) primitive ishiraho igihe kigomba gushikwako kugira ngo igikorwa congerewe ku gice. Ivyo bisigura ko Alice adashobora gusubirana amahera yiwe gushika umubare kanaka w'amabuye uheze iyo asohoye kimwe mu bikorwa vya Commitment. Iyi nzira y'igihe itangura gukoreshwa kuva kwemezwa kwa Commitment Transaction. Igihe kimara muri rusangi kijanye n'ubunini bw'umurongo, ariko kandi gishobora gutunganirizwa n'amaboko.
 - **Urufunguzo rwo gukuraho**: Amahera ya Alice na yo nyene arashobora gukoreshwa ubwo nyene na Bob iyo afise **urufunguzo rwo gukuraho**. Urufunguzo rugizwe n'ibanga rifiswe na Alice n'ibanga rifiswe na Bob. Zirikana ko iryo banga ritandukanye kuri buri Commitment Transaction.
 
 Kubera izo nzira 2 zihurikiye hamwe, Bob irafise umwanya wo kumenya ko Alice agerageza guhenda, no kumuhana mu kugarura ivyo yasohoye akoresheje urufunguzo rwo gukuraho, ivyo kuri Bob bisigura kugarura amahera yose y’umuhora. Commitment Transaction yacu nshasha ubu izomera gutya:
@@ -543,7 +543,7 @@ Igihe Alice na Bob basubiramwo ivy’umurongo n’ugucuruza gushasha kwa Lightni
 
 
 - Alice na Bob zifise Commitment Transaction nshasha iserukira ukuntu amafaranga agabanywa ubu inyuma y’ugucuruza kwa Lightning.
-- Umwe wese afise ibanga ry’uwundi ku bijanye n’ugucuruza imbere, ivyo bikaba bituma bakoresha urufunguzo rwo gukuraho gusa iyo umwe muri bo agerageje guhenda mu gutangaza ugucuruza n’igihugu ca kera mu mempools z’ibihimba vya Bitcoin. Nkako, kugira ngo uwundi ahane, birakenewe ko afata amabanga yose hamwe n’igitabu ca Commitment Transaction c’uwundi, kirimwo n’ivyo yashizeko umukono. Iyo ata n’iyi nzira, urufunguruzo rwo gukuraho rwonyene nta co rumaze. Uburyo bumwe rudende bwo kuronka iyo nzira ni ukuyikura mu mempools (mu nzira zitegereje kwemezwa) canke mu nzira zemejwe kuri Blockchain mu gihe c’igihe c’ugufunga, ivyo bikaba bigaragaza ko uwundi ariko aragerageza guhenda, yaba abigiranye ubushake canke atarivyo.
+- Umwe wese afise ibanga ry’uwundi ku bijanye n’ugucuruza imbere, ivyo bikaba bituma bakoresha urufunguzo rwo gukuraho gusa iyo umwe muri bo agerageje guhenda mu gutangaza ugucuruza n’igihugu ca kera mu [mempools](https://planb.academy/resources/glossary/mempool) z’ibihimba vya Bitcoin. Nkako, kugira ngo uwundi ahane, birakenewe ko afata amabanga yose hamwe n’igitabu ca Commitment Transaction c’uwundi, kirimwo n’ivyo yashizeko umukono. Iyo ata n’iyi nzira, urufunguruzo rwo gukuraho rwonyene nta co rumaze. Uburyo bumwe rudende bwo kuronka iyo nzira ni ukuyikura mu mempools (mu nzira zitegereje kwemezwa) canke mu nzira zemejwe kuri Blockchain mu gihe c’igihe c’ugufunga, ivyo bikaba bigaragaza ko uwundi ariko aragerageza guhenda, yaba abigiranye ubushake canke atarivyo.
 
 
 Reka dufate akarorero kugira ngo dutahure neza iyo nzira:
@@ -598,7 +598,7 @@ Muri iki gihe c’amahugurwa, ubu urazi ingene imirongo ya Lightning ifungurwa n
 :::id ya videwo=4d8ad4e6-32ff-46d3-bd17-343929aa863b:::
 
 
-Muri iki gice, tuzovuga ku **gufunga umurongo** kuri Lightning Network, ivyo bikaba bikorwa biciye mu gucuruza Bitcoin, nk’ugufungura umurongo. Amaze kubona ingene amafaranga yo mu muhora akora, ubu ni igihe co kubona ingene wofunga umurongo no kugarura amahera kuri Bitcoin Blockchain.
+Muri iki gice, tuzovuga ku **gufunga umurongo** kuri Lightning Network, ivyo bikaba bikorwa biciye mu gucuruza Bitcoin, nk’ugufungura umurongo. Amaze kubona ingene amafaranga yo mu muhora akora, ubu ni igihe co kubona ingene wofunga umurongo no kugarura [amahera](https://planb.academy/resources/glossary/transaction-fees) kuri Bitcoin Blockchain.
 
 
 ### Ivyibutsa vy'ubuzima bw'umurongo
@@ -732,13 +732,13 @@ Mu bice bizoza, tuzokwihweza Lightning Network mu buryo bwagutse, twibanda ku ku
 :::id ya videwo=38419c23-5592-4573-b0a7-84824a5bfb77::
 
 
-Muri iki kigabane, turaza kuraba ingene amahera yishurwa ku rupapuro rwa Lightning Network ashobora gushikira uwuyakira naho yoba atahujwe ata guca ku ruhande n’umuhora wo kwishura. Umuravyo ni, vy’ukuri, **uruja n’uruza rw’inzira zo kwishura**, rutuma amahera yoherezwa ku nzira ya kure biciye mu nzira z’abandi bari muri iyo nama. Tuzobona ingene amahera yishurwa agendagenda ku rubuga, ingene amahera agenda hagati y’imirongo, n’ingene amahera y’ugucuruza abarwa.
+Muri iki kigabane, turaza kuraba ingene [amahera](https://planb.academy/resources/glossary/liquidity-lightning) yishurwa ku rupapuro rwa Lightning Network ashobora gushikira uwuyakira naho yoba atahujwe ata guca ku ruhande n’umuhora wo kwishura. Umuravyo ni, vy’ukuri, **uruja n’uruza rw’inzira zo kwishura**, rutuma amahera yoherezwa ku nzira ya kure biciye mu nzira z’abandi bari muri iyo nama. Tuzobona ingene amahera yishurwa agendagenda ku rubuga, ingene amahera agenda hagati y’imirongo, n’ingene amahera y’ugucuruza abarwa.
 
 
 ### Urubuga rw'imihora yo kwishura
 
 
-Ku Lightning Network, ugucuruza guhuye n’uguhererekanya amahera hagati y’ibice bibiri. Nk’uko vyabonetse mu bice vyabanje, birakenewe gufungura umurongo n’umuntu wo gukora ibikorwa vy’umuravyo. Uwo muhora uremesha umubare hafi utagira uko ungana w’amafaranga y’ama off-chain imbere y’uko uwufunga kugira ngo asubire kuronka amahera ya On-Chain. Ariko rero, ubwo buryo burafise akaga ko gusaba ko umuntu agira umurongo utaziguye n’uwundi muntu kugira ngo aronke canke yohereze amahera, ivyo bikaba bisobanura ko umuhora wose ushobora gufungura n’ugufunga. Iyo nteguye kwishura amahera menshi n’uwo muntu, gufungura no gufunga umuhora bica biba vyiza. Ku rundi ruhande, iyo nkeneye gukora ibikorwa bikeyi gusa vy’umuravyo, gufungura umurongo utaziguye ntaco bimaze, kuko vyompa ibikorwa 2 vya On-Chain ku bikorwa bikeyi vya off-chain. Ivyo bishobora gushika, nk’akarorero, igihe ushaka kwishura na Lightning ku mudandaza ata mugambi wo kugaruka.
+Ku Lightning Network, ugucuruza guhuye n’uguhererekanya amahera hagati y’ibice bibiri. Nk’uko vyabonetse mu bice vyabanje, birakenewe gufungura umurongo n’umuntu wo gukora ibikorwa vy’umuravyo. Uwo muhora uremesha umubare hafi utagira uko ungana w’amafaranga y’ama [off-chain](https://planb.academy/resources/glossary/offchain) imbere y’uko uwufunga kugira ngo asubire kuronka amahera ya On-Chain. Ariko rero, ubwo buryo burafise akaga ko gusaba ko umuntu agira umurongo utaziguye n’uwundi muntu kugira ngo aronke canke yohereze amahera, ivyo bikaba bisobanura ko umuhora wose ushobora gufungura n’ugufunga. Iyo nteguye kwishura amahera menshi n’uwo muntu, gufungura no gufunga umuhora bica biba vyiza. Ku rundi ruhande, iyo nkeneye gukora ibikorwa bikeyi gusa vy’umuravyo, gufungura umurongo utaziguye ntaco bimaze, kuko vyompa ibikorwa 2 vya On-Chain ku bikorwa bikeyi vya off-chain. Ivyo bishobora gushika, nk’akarorero, igihe ushaka kwishura na Lightning ku mudandaza ata mugambi wo kugaruka.
 
 
 Kugira ngo iyo ngorane itorwe umuti, Lightning Network iremesha guca mu nzira zitandukanye no mu nzira zitandukanye, gutyo bikaba bishoboka ko umuntu ashobora gukorana n’uwundi muntu ata nzira itaziguye.
@@ -916,7 +916,7 @@ Muri iki gice, twasuzumye inzira yo kwishura kuri Lightning Network. Ariko ikiba
 :::id ya videwo::
 
 
-Muri iki gice, tuzobona ingene Lightning ireka amahera ashobora guca mu nzira z’ubuhuza ataco akeneye kwizigira, bivuye kuri **[HTLC](https://planb.academy/resources/glossary/htlc)** (_Amasezerano ya Hashed Time-Locked_). Aya masezerano y’ubwenge atuma buri nzira y’ubuhuza izoronka amahera gusa avuye mu muhora wayo iyo yohereza amahera ku wuzoyakira wa nyuma, ahandi ho, amahera ntazokwemezwa.
+Muri iki gice, tuzobona ingene Lightning ireka amahera ashobora guca mu nzira z’ubuhuza ataco akeneye kwizigira, bivuye kuri **HTLC** (_Amasezerano ya Hashed Time-Locked_). Aya masezerano y’ubwenge atuma buri nzira y’ubuhuza izoronka amahera gusa avuye mu muhora wayo iyo yohereza amahera ku wuzoyakira wa nyuma, ahandi ho, amahera ntazokwemezwa.
 
 
 Ikibazo kivyuka rero ku bijanye n’inzira y’ukwishura ni ukwizigira gukenewe mu bice vy’ubuhuza, no mu bice vy’ubuhuza ubwavyo. Kugira ngo ivyo tubigereranye, reka dusubire kuraba akarorero kacu koroshe ka Lightning Network gafise uturongo 3 n’imirongo 2:
@@ -958,7 +958,7 @@ Ehe ingene iyo nzira ikora mu karorero kacu na Alice, Suzie, na Bob:
 ![LNP201](assets/en/048.webp)
 
 
-**Guhingura ibanga**: Bob itanga ibanga ry'imburakimazi ryanditswe nka _s_ (ishusho y'imbere), maze ibara Hash yayo ryanditswe nka _r_ n'igikorwa ca Hash canditswe nka _h_. Turafise:
+**Guhingura ibanga**: Bob itanga ibanga ry'imburakimazi ryanditswe nka _s_ (ishusho y'imbere), maze ibara Hash yayo ryanditswe nka _r_ n'[igikorwa ca Hash](https://planb.academy/resources/glossary/hash-function) canditswe nka _h_. Turafise:
 
 
 $$
@@ -1116,7 +1116,7 @@ Naho nyene n’iyi topologie ya Lightning Network, hariho amakuru y’ingenzi yo
 ### Ikarita y'urubuga ivuguruwe
 
 
-Kugira ngo ikarita yabo y'urubuga igume igezweho, ubutumwa bwa Exchange buhoraho biciye ku buhinga bwitwa "**_gossip_**". Iyi ni ubuhinga busanzwe bukoreshwa mu gukwiragiza amakuru mu buryo bw’ikiza ku bice vyose biri mu rubuga, ivyo bikaba bituma Exchange n’uguhuza Global State y’imirongo mu nzira nkeyi z’itumanaho. Buri node ikwiragiza amakuru ku mubanyi umwe canke benshi batowe mu buryo bw’impfagusa canke atari bwo, abo na bo bagakwiragiza amakuru ku bandi babanyi n’ibindi gushika hashitse ku rwego rwo guhuza kw’isi yose.
+Kugira ngo ikarita yabo y'urubuga igume igezweho, ubutumwa bwa Exchange buhoraho biciye ku buhinga bwitwa "**_[gossip](https://planb.academy/resources/glossary/gossip)_**". Iyi ni ubuhinga busanzwe bukoreshwa mu gukwiragiza amakuru mu buryo bw’ikiza ku bice vyose biri mu rubuga, ivyo bikaba bituma Exchange n’uguhuza Global State y’imirongo mu nzira nkeyi z’itumanaho. Buri node ikwiragiza amakuru ku mubanyi umwe canke benshi batowe mu buryo bw’impfagusa canke atari bwo, abo na bo bagakwiragiza amakuru ku bandi babanyi n’ibindi gushika hashitse ku rwego rwo guhuza kw’isi yose.
 
 
 Ubutumwa 2 nyamukuru buhanahana hagati y'ibice vy'umuravyo ni ubu:
@@ -1228,7 +1228,7 @@ Mu kigabane gikurikira, tuzokwiga canecane ingene amafagitire akora, hamwe n’i
 :::id ya videwo = 309c3412-506e-4189-ad46-5088c55008:::
 
 
-Muri iki gice, tuzokwihweza neza ingene Lightning **invoices** ikora, ni ukuvuga ibisabwa vyo kwishura vyoherezwa n’umurongo w’uwuronka ku murongo w’uwurungika. Intumbero ni ugutahura ingene umuntu yokwishura no kwakira amahera kuri Lightning. Turaza kandi kuganira ku buryo 2 bwo gukoresha amafagitire ya kera: LNURL na Keysend.
+Muri iki gice, tuzokwihweza neza ingene Lightning **invoices** ikora, ni ukuvuga ibisabwa vyo kwishura vyoherezwa n’umurongo w’uwuronka ku murongo w’uwurungika. Intumbero ni ugutahura ingene umuntu yokwishura no kwakira amahera kuri Lightning. Turaza kandi kuganira ku buryo 2 bwo gukoresha amafagitire ya kera: [LNURL](https://planb.academy/resources/glossary/lnurl) na Keysend.
 
 
 ![LNP201](assets/en/068.webp)
@@ -1339,7 +1339,7 @@ Ivyimburwa vy’ikete Invoice birimwo amakuru menshi akenewe kugira ngo umuntu a
 - **Umukono**: Uremeza ubutungane bwa Invoice mu kwemeza amakuru yose.
 
 
-Amafagitire aca ashirwa mu **bech32**, uburyo bumwe n’ubw’amaderesi ya Bitcoin SegWit (uburyo butangura na `bc1`).
+Amafagitire aca ashirwa mu **[bech32](https://planb.academy/resources/glossary/bech32-and-bech32m)**, uburyo bumwe n’ubw’amaderesi ya Bitcoin [SegWit](https://planb.academy/resources/glossary/segwit) (uburyo butangura na `bc1`).
 
 
 ### Gukuraho LNURL
@@ -1404,8 +1404,8 @@ Hariho imirongo itatu y'abakoresha kuri Lightning, umwe wese afise ivyo akeneye:
 
 
 
-- **Uwuriha**: Uyu ni we akora ivyo kwishura. Bakeneye amahera asohoka kugira ngo bashobore gutanga amahera ku bandi bakoresha. Nk'akarorero, uwo yoshobora kuba ari umuguzi.
-- **Uwugurisha (canke Uwuhembwa)**: Uyu ni we aronka amahera. Bakeneye amahera yinjira kugira ngo bashobore kwemera amahera yishurwa ku node yabo. Nk'akarorero, ivyo vyoshobora kuba ubudandaji canke iduka ryo kuri Internet.
+- **Uwuriha**: Uyu ni we akora ivyo kwishura. Bakeneye [amahera asohoka](https://planb.academy/resources/glossary/outbound-capacity) kugira ngo bashobore gutanga amahera ku bandi bakoresha. Nk'akarorero, uwo yoshobora kuba ari umuguzi.
+- **Uwugurisha (canke Uwuhembwa)**: Uyu ni we aronka amahera. Bakeneye [amahera yinjira](https://planb.academy/resources/glossary/inbound-capacity) kugira ngo bashobore kwemera amahera yishurwa ku node yabo. Nk'akarorero, ivyo vyoshobora kuba ubudandaji canke iduka ryo kuri Internet.
 - **The Router**: Igikoresho co guhuza, akenshi kijejwe gutanga amahera, kigomba gutuma amahera yaco agenda neza mu muhora wose kugira ngo ashobore gutanga amahera menshi ashoboka kandi aronke amahera.
 
 

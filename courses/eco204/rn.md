@@ -65,7 +65,7 @@ Bimeze gute iyo amateka y’amahera asubiramwo imbere y’amaso yacu? Ube umucam
 ### Insobanuro z'ugutera imbere kw'ibiciro
 
 
-Inflation ni iciyumviro gikunda gutahurwa nabi kubera insobanuro n’insobanuro nyinshi gifise. Uko abantu babona ivy’ugutera imbere kw’ibiciro biratandukanye n’imigwi itandukanye, nk’abakoresha ama bitcoin n’abahinga mu vy’ubutunzi ba kera. Reka tubanze dusobanure insobanuro imbere yo kuganira ku bijanye n’ugutera imbere kw’ibiciro:
+[Inflation](https://planb.academy/resources/glossary/inflation) ni iciyumviro gikunda gutahurwa nabi kubera insobanuro n’insobanuro nyinshi gifise. Uko abantu babona ivy’ugutera imbere kw’ibiciro biratandukanye n’imigwi itandukanye, nk’abakoresha ama bitcoin n’abahinga mu vy’ubutunzi ba kera. Reka tubanze dusobanure insobanuro imbere yo kuganira ku bijanye n’ugutera imbere kw’ibiciro:
 
 
 

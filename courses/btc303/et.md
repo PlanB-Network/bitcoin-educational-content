@@ -75,8 +75,6 @@ Bitcoin keerulisel juhtimismaastikul navigeerimine nõuab enamat kui tehnilisi t
 Kas olete valmis astuma järgmise sammu oma Bitcoin teekonnal? Alustame!
 
 
-***N.B.**: Kui kursuse käigus tekib mõni Bitcoin-ga seotud tundmatu termin, vaadake [sõnastik](https://planb.academy/resources/glossary), et leida definitsioonid.*
-
 
 
 
@@ -94,7 +92,7 @@ Kas olete valmis astuma järgmise sammu oma Bitcoin teekonnal? Alustame!
 
 Selles analüüsitakse, mis on detsentraliseerimine ja miks see on Bitcoin toimimiseks hädavajalik. Me eristame
 
-kaevurite detsentraliseerimine ja täisnoodide detsentraliseerimine ning arutame, mida nad toovad kaasa tsensuurivastasuse, mis on üks Bitcoin kõige kesksemaid omadusi.
+[kaevurite](https://planb.academy/resources/glossary/mining) detsentraliseerimine ja [täisnoodide](https://planb.academy/resources/glossary/full-node) detsentraliseerimine ning arutame, mida nad toovad kaasa tsensuurivastasuse, mis on üks Bitcoin kõige kesksemaid omadusi.
 
 
 Seejärel liigub arutelu neutraalsuse ehk kasutajate, kaevurite ja arendajate suhtes lubadusteta suhtumise mõistmisele, mis on iga detsentraliseeritud süsteemi vajalik omadus. Lõpuks käsitleme, kuidas Hard-sugust detsentraliseeritud süsteemi võib olla raske mõista, ning esitame mõned mentaalsed mudelid, mis võivad aidata teil seda mõista.
@@ -109,7 +107,7 @@ Detsentraliseerimine on vahend *tsensuurivastase võitluse* saavutamiseks.
 Bitcoin-s on kaks peamist detsentraliseerimise aspekti: Miner detsentraliseerimine ja Full node detsentraliseerimine.
 
 
-Miner detsentraliseerimine viitab asjaolule, et tehingu töötlemist ei tee ega koordineeri ükski keskne üksus. Full node detsentraliseerimine viitab asjaolule, et plokkide, st kaevurite poolt väljastatud andmete valideerimine toimub võrgu servas, lõppkokkuvõttes selle kasutajate, mitte mõne usaldusväärse asutuse poolt.
+Miner detsentraliseerimine viitab asjaolule, et [tehingu](https://planb.academy/resources/glossary/transaction-tx) töötlemist ei tee ega koordineeri ükski keskne üksus. Full node detsentraliseerimine viitab asjaolule, et [plokkide](https://planb.academy/resources/glossary/block), st kaevurite poolt väljastatud andmete valideerimine toimub võrgu servas, lõppkokkuvõttes selle kasutajate, mitte mõne usaldusväärse asutuse poolt.
 
 
 ![](assets/et/001.webp)
@@ -125,10 +123,10 @@ Enne Bitcoin oli tehtud katseid luua digitaalseid valuutasid, kuid enamik neist 
 Miner detsentraliseerimine Bitcoin-s tähendab, et *tehingute tellimist* ei vii läbi ükski üksus või üksuste fikseeritud kogum. Seda teostavad kollektiivselt kõik osalejad, kes soovivad selles osaleda; see kaevurite kollektiiv on dünaamiline kasutajate kogum. Igaüks võib soovi korral liituda või lahkuda. See omadus muudab Bitcoin tsensuurikindlaks.
 
 
-Kui Bitcoin oleks tsentraliseeritud, oleks see haavatav nende suhtes, kes soovivad seda tsenseerida, näiteks valitsused. Seda tabaks sama saatus nagu varasemaid katseid luua digitaalset raha. [artikli](https://www.blockstream.com/sidechains.pdf) pealkirjaga "Enabling Blockchain Innovations with Pegged Sidechains" sissejuhatuses selgitavad autorid, kuidas digitaalraha varajased versioonid ei olnud vastandlikuks keskkonnaks varustatud (vt ka peatükki "Vastandlik mõtlemine" järgmises osas).
+Kui Bitcoin oleks tsentraliseeritud, oleks see haavatav nende suhtes, kes soovivad seda tsenseerida, näiteks valitsused. Seda tabaks sama saatus nagu varasemaid katseid luua digitaalset raha. [artikli](https://www.blockstream.com/sidechains.pdf) pealkirjaga "Enabling [Blockchain](https://planb.academy/resources/glossary/blockchain) Innovations with Pegged Sidechains" sissejuhatuses selgitavad autorid, kuidas digitaalraha varajased versioonid ei olnud vastandlikuks keskkonnaks varustatud (vt ka peatükki "Vastandlik mõtlemine" järgmises osas).
 
 
-David Chaum tutvustas 1983. aastal digitaalset sularaha kui uurimisteemat, mille puhul kasutatakse keskserverit, mida usaldatakse Double-spending vältimiseks. Selleks et vähendada üksikisikute privaatsusriski, mis tuleneb sellest kesksest usaldusväärsest osapoolest, ja tagada asendatavus, võttis Chaum kasutusele pime allkirja, mida ta kasutas krüptograafilise vahendina, et vältida keskserveri allkirjade (mis esindavad münte) ühendamist, võimaldades samas keskserveril vältida topeltkulutusi.
+David Chaum tutvustas 1983. aastal digitaalset sularaha kui uurimisteemat, mille puhul kasutatakse keskserverit, mida usaldatakse [Double-spending](https://planb.academy/resources/glossary/double-spending-attack) vältimiseks. Selleks et vähendada üksikisikute privaatsusriski, mis tuleneb sellest kesksest usaldusväärsest osapoolest, ja tagada [asendatavus](https://planb.academy/resources/glossary/fungibility), võttis Chaum kasutusele [pime allkirja](https://planb.academy/resources/glossary/blind-signature), mida ta kasutas krüptograafilise vahendina, et vältida keskserveri allkirjade (mis esindavad münte) ühendamist, võimaldades samas keskserveril vältida topeltkulutusi.
 
 Nõue keskse serveri järele sai digitaalse sularaha Achilleuse kannaks[Gri99]. Kuigi on võimalik levitada seda ühte veapunkti, asendades keskserveri allkirja mitme allakirjutaja lävendallkirjaga, on kontrollitavuse seisukohalt oluline, et allakirjutajad oleksid erinevad ja tuvastatavad. See jätab süsteemi ikkagi haavatavaks, kuna iga allakirjutaja võib ükshaaval ebaõnnestuda või teda võidakse panna ebaõnnestuma.
 
@@ -154,17 +152,17 @@ Kui see õnnestub, tulevad samad probleemid tõenäoliselt mingil hetkel tulevik
 Ükski neist võimalustest ei ole kasutajale kasulik.
 
 
-Tsensuurikindlus detsentraliseerimise kaudu on see, mis eristab Bitcoin teistest rahasüsteemidest, kuid *Double-spending probleemi* tõttu ei ole seda lihtne saavutada. See on probleem, mis seisneb selles, et keegi ei saa sama münti kaks korda kulutada, probleem, mida paljud inimesed arvasid, et detsentraliseeritult on võimatu lahendada. Satoshi Nakamoto kirjutab oma [Bitcoin whitepaperis](https://planb.academy/bitcoin.pdf) sellest, kuidas lahendada Double-spending probleem:
+Tsensuurikindlus detsentraliseerimise kaudu on see, mis eristab Bitcoin teistest rahasüsteemidest, kuid *Double-spending probleemi* tõttu ei ole seda lihtne saavutada. See on probleem, mis seisneb selles, et keegi ei saa sama münti kaks korda kulutada, probleem, mida paljud inimesed arvasid, et detsentraliseeritult on võimatu lahendada. Satoshi [Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) kirjutab oma [Bitcoin whitepaperis](https://planb.academy/bitcoin.pdf) sellest, kuidas lahendada Double-spending probleem:
 
 
 > Käesolevas dokumendis pakume välja lahenduse Double-spending probleemile, kasutades võrdõiguslikust jaotatud Timestamp serveriga generate tehingute kronoloogilise järjestuse arvutuslikku tõestamist.
 
 
-Siinkohal kasutab ta omapäraselt kõlavat väljendit "peer-to-peer jaotatud Timestamp server". Võtmesõnaks on siin *hajutatud*, mis selles kontekstis tähendab, et puudub keskne kontrollpunkt. Seejärel selgitab Nakamoto, kuidas Proof-of-Work on lahendus.
+Siinkohal kasutab ta omapäraselt kõlavat väljendit "peer-to-peer jaotatud Timestamp server". Võtmesõnaks on siin *hajutatud*, mis selles kontekstis tähendab, et puudub keskne kontrollpunkt. Seejärel selgitab Nakamoto, kuidas [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) on lahendus.
 
 Siiski ei selgita keegi seda paremini kui
 
-[Gregory Maxwell on Reddit](https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/), kus ta vastab kellelegi, kes teeb ettepaneku piirata kaevurite Hash võimsust, et vältida võimalikke 51% rünnakuid:
+[Gregory Maxwell on Reddit](https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/), kus ta vastab kellelegi, kes teeb ettepaneku piirata kaevurite [Hash](https://planb.academy/resources/glossary/hashrate) võimsust, et vältida võimalikke 51% rünnakuid:
 
 
 > Detsentraliseeritud süsteem nagu Bitcoin kasutab avalikke valimisi. Kuid detsentraliseeritud süsteemis ei saa lihtsalt "rahva" hääletust korraldada, sest selleks oleks vaja tsentraliseeritud osapoolt, kes volitaks inimesi hääletama. Selle asemel kasutab Bitcoin arvutusvõimsuse hääletust, sest arvutusvõimsust on võimalik kontrollida ilma ühegi tsentraliseeritud
@@ -189,10 +187,10 @@ Järeldus on oluline. Kui inimesed ei kaitse Bitcoin detsentraliseeritust, mis o
 Ülaltoodud lõigetes rääkisime peamiselt Miner detsentraliseerimisest ja sellest, kuidas kaevandajate tsentraliseerimine võib võimaldada tsensuuri. Kuid on ka teine detsentraliseerimise aspekt, nimelt *Full node detsentraliseerimine*.
 
 
-Full node detsentraliseerimise tähtsus on seotud usaldamatusega. Oletame, et kasutaja lõpetab oma Full node käitamise näiteks liiga kõrge tegevuskulu tõttu. Sellisel juhul peab ta Bitcoin võrguga suhtlema mõnel muul viisil, kasutades võib-olla veebikassasid või kergekaalu rahakotte, mis eeldab teatud usaldust nende teenuste pakkujate vastu.
+Full node detsentraliseerimise tähtsus on seotud usaldamatusega. Oletame, et kasutaja lõpetab oma Full node käitamise näiteks liiga kõrge tegevuskulu tõttu. Sellisel juhul peab ta Bitcoin võrguga suhtlema mõnel muul viisil, kasutades võib-olla [veebikassasid](https://planb.academy/resources/glossary/wallet) või kergekaalu rahakotte, mis eeldab teatud usaldust nende teenuste pakkujate vastu.
 
 
-Kasutaja läheb võrgu konsensusreeglite otsesest jõustamisest üle usaldusele, et keegi teine seda teeb. Oletame, et enamik kasutajaid delegeerib konsensuse jõustamise usaldusväärsele üksusele. Sellisel juhul võib võrk kiiresti tsentraliseeruda ja võrgu reegleid võivad muuta konspiratiivsed pahatahtlikud osalejad.
+Kasutaja läheb võrgu [konsensusreeglite](https://planb.academy/resources/glossary/consensus-rules) otsesest jõustamisest üle usaldusele, et keegi teine seda teeb. Oletame, et enamik kasutajaid delegeerib [konsensuse](https://planb.academy/resources/glossary/consensus) jõustamise usaldusväärsele üksusele. Sellisel juhul võib võrk kiiresti tsentraliseeruda ja võrgu reegleid võivad muuta konspiratiivsed pahatahtlikud osalejad.
 
 
 In [a
@@ -588,7 +586,7 @@ Artiklis, mida seal käsitleti, Gregory Maxwell [märkis](https://bitcointalk.or
 
 > Rahaline privaatsus on Bitcoin puhul asendatavuse oluline element: kui te suudate ühe mündi teistest oluliselt eristada, siis on nende asendatavus nõrk. Kui meie vahetatavus on praktikas liiga nõrk, siis ei saa me olla detsentraliseeritud: kui keegi oluline teatab nimekirja varastatud müntidest, millest ta ei võta vastu tuletatud münte, siis peate hoolikalt kontrollima münte, mida te aktsepteerite, selle nimekirjaga võrreldes ja tagastama need, mis ei vasta nõuetele.  Igaüks jääb kinni erinevate asutuste väljastatud mustade nimekirjade kontrollimisega, sest selles maailmas ei tahaks me kõik halbu münte kätte saada. See lisab hõõrdumist ja tehingukulusid ning muudab Bitcoin rahana vähem väärtuslikuks.
 
-Siinkohal räägib ta ohust, mis tuleneb asendatavuse puudumisest. Oletame, et teil on UTXO. Selle UTXO ajalugu saab tavaliselt jälgida mitu hopsu tagasi, laiutades hulgaliselt eelnevaid väljundeid. Kui mõni neist väljunditest oli seotud ebaseadusliku, soovimatu või kahtlase tegevusega, siis võivad mõned teie mündi potentsiaalsed vastuvõtjad selle tagasi lükata. Kui arvate, et teie makse saajad kontrollivad teie münte mõne tsentraliseeritud valge või musta nimekirja teenuse alusel, võiksite kindluse mõttes hakata ka teie saadud münte kontrollima. Tulemuseks on see, et halb asendatavus toetab veelgi halvemat asendatavust.
+Siinkohal räägib ta ohust, mis tuleneb asendatavuse puudumisest. Oletame, et teil on [UTXO](https://planb.academy/resources/glossary/utxo). Selle UTXO ajalugu saab tavaliselt jälgida mitu hopsu tagasi, laiutades hulgaliselt eelnevaid väljundeid. Kui mõni neist väljunditest oli seotud ebaseadusliku, soovimatu või kahtlase tegevusega, siis võivad mõned teie mündi potentsiaalsed vastuvõtjad selle tagasi lükata. Kui arvate, et teie makse saajad kontrollivad teie münte mõne tsentraliseeritud valge või musta nimekirja teenuse alusel, võiksite kindluse mõttes hakata ka teie saadud münte kontrollima. Tulemuseks on see, et halb asendatavus toetab veelgi halvemat asendatavust.
 
 
 Adam Back ja Matt Corallo [pidasid 2016. aastal Milanos toimunud Scaling Bitcoin konverentsil ettekande asendatavusest](https://btctranscripts.com/scalingbitcoin/milan-2016/fungibility-overview/). Nad mõtlesid samadel põhimõtetel:
@@ -674,7 +672,7 @@ Selleks, et saada Bitcoin-s korralik privaatsus, peate võtma aktiivseid meetmei
 ![](assets/et/006.webp)
 
 
-Selles peatükis vaadeldakse Bitcoin Supply piiri 21 miljonit BTC, või kui palju see tegelikult on? Räägime sellest, kuidas seda piirmäära jõustatakse ja mida saab teha, et kontrollida, kas sellest kinni peetakse. Lisaks heidame pilgu kristallkuuli ja arutame dünaamikat, mis tuleb mängu, kui Block reward läheb subsiidiumipõhiselt tasupõhiseks üle.
+Selles peatükis vaadeldakse Bitcoin Supply piiri 21 miljonit BTC, või kui palju see tegelikult on? Räägime sellest, kuidas seda piirmäära jõustatakse ja mida saab teha, et kontrollida, kas sellest kinni peetakse. Lisaks heidame pilgu kristallkuuli ja arutame dünaamikat, mis tuleb mängu, kui [Block reward](https://planb.academy/resources/glossary/block-reward) läheb subsiidiumipõhiselt tasupõhiseks üle.
 
 
 Bitcoin fundamentaalseks omaduseks peetakse tuntud piiratud Supply 21 miljonit BTC. Kuid kas see on tõesti kivisse raiutud?
@@ -685,7 +683,7 @@ Alustame sellest, mida ütlevad praegused konsensusreeglid Supply Bitcoin kohta 
 
 > Kui te summeerite kõik need numbrid kokku, saate 20999999.9769 BTC.
 
-Kuid mitmetel põhjustel - näiteks varajased probleemid coinbase'i tehingutega, kaevurid, kes tahtmatult nõuavad vähem kui lubatud, ja privaatvõtmete kadumine - ei jõua see ülempiir kunagi kohale. Wuille järeldab:
+Kuid mitmetel põhjustel - näiteks varajased probleemid [coinbase'i tehingutega](https://planb.academy/resources/glossary/coinbase-transaction), kaevurid, kes tahtmatult nõuavad vähem kui lubatud, ja privaatvõtmete kadumine - ei jõua see ülempiir kunagi kohale. Wuille järeldab:
 
 
 > See jätab meile 20999817.31308491 BTC (võttes arvesse kõike kuni plokki 528333)
@@ -718,7 +716,7 @@ Isegi kui mõned täielikud sõlmed pöörduvad pimedale poole ja otsustavad vas
 
 
 
-Block reward koosneb plokksubsiidiumist ja tehingutasudest. Block reward peab katma Bitcoin turvakulud. Me võime kindlalt öelda, et tänastes tingimustes, mis on seotud plokksubsiidiumi, tehingutasude, Bitcoin hinna, Mempool suuruse, Hash võimsuse, detsentraliseerituse määra jne, on stiimulid igale mängijale reeglite järgimiseks piisavalt suured, et säilitada turvaline rahasüsteem.
+Block reward koosneb [plokksubsiidiumist](https://planb.academy/resources/glossary/block-subsidy) ja tehingutasudest. Block reward peab katma Bitcoin turvakulud. Me võime kindlalt öelda, et tänastes tingimustes, mis on seotud plokksubsiidiumi, [tehingutasude](https://planb.academy/resources/glossary/transaction-fees), Bitcoin hinna, [Mempool](https://planb.academy/resources/glossary/mempool) suuruse, Hash võimsuse, detsentraliseerituse määra jne, on stiimulid igale mängijale reeglite järgimiseks piisavalt suured, et säilitada turvaline rahasüsteem.
 
 
 Mis juhtub, kui blokeeritud toetus läheneb nullile? Et asi oleks lihtne, oletame, et see on tegelikult võrdne nulliga. Sel hetkel kaetakse süsteemi turvakulud ainult tehingutasude kaudu. Mida toob meile tulevik, kui see juhtub, ei saa me teada. Ebakindlustegureid on palju ja me jääme spekuleerima. Näiteks Paul Sztorci panus antud teemasse [tema Truthcoini blogis](https://www.truthcoin.info/blog/security-budget/) on enamasti spekulatsioonid, kuid tal on vähemalt üks kindel punkt (pange tähele, et M2, millele Sztorc viitab, on fiatraha Supply mõõtühik):
@@ -735,7 +733,7 @@ Täna on omanikud need, kes maksavad turvalisuse eest (raha inflatsiooni kaudu).
 Aja möödudes nihkub julgestuskulude kandmine valdajatelt kulutajatele
 
 
-Kui tehingutasud on Mining peamine motivatsioon, muutuvad stiimulid. Eelkõige, kui Mempool Miner ei sisalda piisavalt tehingutasusid, võib selle Miner jaoks muutuda kasumlikumaks Bitcoin ajaloo ümberkirjutamine, selle asemel et seda pikendada. Bitcoin Optechil on konkreetne [seda käitumist käsitlev lõik](https://bitcoinops.org/en/topics/fee-sniping/), mida nimetatakse *fee sniping'iks*, mille on kirjutanud David Harding:
+Kui tehingutasud on Mining peamine motivatsioon, muutuvad stiimulid. Eelkõige, kui Mempool Miner ei sisalda piisavalt tehingutasusid, võib selle Miner jaoks muutuda kasumlikumaks Bitcoin ajaloo ümberkirjutamine, selle asemel et seda pikendada. Bitcoin Optechil on konkreetne [seda käitumist käsitlev lõik](https://bitcoinops.org/en/topics/fee-sniping/), mida nimetatakse *[fee sniping'iks](https://planb.academy/resources/glossary/fee-sniping)*, mille on kirjutanud David Harding:
 
 
 > Tasude kärpimine on probleem, mis võib tekkida, kui Bitcoin toetus jätkab vähenemist ja tehingutasud hakkavad domineerima Bitcoin plokkide preemiates. Kui tehingutasud on kõik, mis loeb, siis Miner, kellel on `x` protsenti Hash määrast, on `x` protsenti tõenäosus Mining järgmises plokis, seega on nende Mempool ausalt Mining oodatav väärtus `x` protsenti [parimast feerate tehingute kogumist](https://bitcoinops.org/en/newsletters/2021/06/02/#candidate-set-based-csb-block-template-construction).
@@ -816,7 +814,7 @@ Standard toetab edasiühilduvust, kui varasematele versioonidele vastav toode su
 Vastupidi, [tagasiühilduvus](https://en.wikipedia.org/wiki/Backward_compatibility) tähendab, et vana tarkvara andmed on kasutatavad uuemates tarkvarades. Muudatus on täielikult ühilduv, kui see on nii edasi- kui ka tagasiühilduv.
 
 
-Bitcoin konsensusreeglitesse tehtud muudatust nimetatakse *Soft Fork*, kui see on täielikult ühilduv. See on kõige tavalisem viis Bitcoin uuendamiseks mitmel põhjusel, mida me käesolevas peatükis veel arutame. Kui Bitcoin konsensusreeglite muudatus on tagasiühilduv, kuid mitte edasiühilduv, nimetatakse seda *Hard Fork*.
+Bitcoin konsensusreeglitesse tehtud muudatust nimetatakse *[Soft Fork](https://planb.academy/resources/glossary/soft-fork)*, kui see on täielikult ühilduv. See on kõige tavalisem viis Bitcoin uuendamiseks mitmel põhjusel, mida me käesolevas peatükis veel arutame. Kui Bitcoin konsensusreeglite muudatus on tagasiühilduv, kuid mitte edasiühilduv, nimetatakse seda *[Hard Fork](https://planb.academy/resources/glossary/hard-fork)*.
 
 
 Tehnilise ülevaate Soft ja Hard hargnemiste kohta leiate [Grokking Bitcoin 11. peatükist](https://rosenbaum.se/book/grokking-Bitcoin-11.html). Selles selgitatakse neid mõisteid ja süvenetakse ka uuendamismehhanismidesse. Soovitatav, kuigi mitte tingimata vajalik, on enne lugemise jätkamist sellega tutvuda.
@@ -831,24 +829,24 @@ Bitcoin ei ole täna sama, mis oli Genesis ploki loomise ajal. Aastate jooksul o
 
 > Tegelikult oli Hard-Fork Bitcoin, mida Satoshi tegi, et me ei teeks seda kunagi nii - see on päris halb viis seda teha. Kui te vaatate git commit kirjeldust siin [[757f076](https://github.com/Bitcoin/Bitcoin/commit/757f0769d8360ea043f469f3a35f6ec204740446)], ütleb ta midagi reverted makefile.unix wx-config versiooni 0.3.6 kohta. Õige. See on kõik, mis seal kirjas on. Selles ei ole mingit märki, et see on üldse murranguline muudatus. Ta põhimõtteliselt peitis selle sinna sisse. Ta postitas ka [bitcointalki](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451) ja ütles, et palun uuenda võimalikult kiiresti 0.3.6-le. Me parandasime rakendusviga, mille puhul on võimalik, et võltsitud tehinguid võidakse kuvada aktsepteerituna. Ärge võtke Bitcoin makseid vastu, kuni te ei ole uuendanud versiooni 0.3.6. Kui te ei saa kohe uuendada, siis oleks parim, kui te oma Bitcoin sõlme enne seda sulgeksite. Ja siis peale selle, ma ei tea, miks ta otsustas ka seda teha, otsustas ta lisada mõned optimeerimised samas koodis. Fikseerib vea ja lisab mõned optimeerimised.
 
-Ta juhib tähelepanu sellele, et kas tahtlikult või mitte, see Hard Fork lõi võimalused tulevaste Soft hargnemiste jaoks, nimelt skriptioperaatorite (opkoodide) OP_NOP1-OP_NOP10 jaoks. Me uurime seda koodimuudatust lähemalt dokumendis cve-2010-5141. Neid opkoode on seni kasutatud kahes Soft hargnemisel:
+Ta juhib tähelepanu sellele, et kas tahtlikult või mitte, see Hard Fork lõi võimalused tulevaste Soft hargnemiste jaoks, nimelt skriptioperaatorite ([opkoodide](https://planb.academy/resources/glossary/opcodes)) OP_NOP1-OP_NOP10 jaoks. Me uurime seda koodimuudatust lähemalt dokumendis cve-2010-5141. Neid opkoode on seni kasutatud kahes Soft hargnemisel:
 
 
 - [BIP65](https://github.com/Bitcoin/bips/blob/master/bip-0065.mediawiki) (OP_CHECKLOCKTIMEVERIFY)
 - [BIP113](https://github.com/Bitcoin/bips/blob/master/bip-0112.mediawiki) (OP_SEQUENCEVERIFY).
 
 
-Lombrozo annab ka ülevaate sellest, kuidas uuendamismehhanismid on aastate jooksul kuni 2017. aastani arenenud. Sellest ajast alates on kasutusele võetud ainult üks teine suurem uuendamine, Taproot. Pikk ja mõnevõrra kaootiline protsess, mis viis selle aktiveerimiseni, on aidanud meil saada täiendavaid teadmisi Bitcoin uuendamismehhanismide kohta.
+Lombrozo annab ka ülevaate sellest, kuidas uuendamismehhanismid on aastate jooksul kuni 2017. aastani arenenud. Sellest ajast alates on kasutusele võetud ainult üks teine suurem uuendamine, [Taproot](https://planb.academy/resources/glossary/taproot). Pikk ja mõnevõrra kaootiline protsess, mis viis selle aktiveerimiseni, on aidanud meil saada täiendavaid teadmisi Bitcoin uuendamismehhanismide kohta.
 
 
 #### SegWit uuendamine
 
 
 
-Kui kõik SegWit-le eelnenud uuendused olid olnud enam-vähem valutult, siis see oli teistsugune. Kui SegWit aktiveerimiskood avaldati 2016. aasta oktoobris, tundus, et Bitcoin kasutajate seas oli selle jaoks ülekaalukas toetus, kuid mingil põhjusel ei andnud kaevurid selle uuenduse toetusest märku, mis pidurdas aktiveerimist ilma lahendust nägemata.
+Kui kõik [SegWit](https://planb.academy/resources/glossary/segwit)-le eelnenud uuendused olid olnud enam-vähem valutult, siis see oli teistsugune. Kui SegWit aktiveerimiskood avaldati 2016. aasta oktoobris, tundus, et Bitcoin kasutajate seas oli selle jaoks ülekaalukas toetus, kuid mingil põhjusel ei andnud kaevurid selle uuenduse toetusest märku, mis pidurdas aktiveerimist ilma lahendust nägemata.
 
 
-Aaron van Wirdum kirjeldab seda käänulist teed oma Bitcoin Magazine'i artiklis [The Long Road To SegWit](https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality). Ta selgitab kõigepealt, mis on SegWit ja kuidas see haakub plokimõõtude aruteluga. Seejärel kirjeldab van Wirdum sündmuste käiku, mis viisid selle lõpliku aktiveerimiseni. Selle protsessi keskmes oli uuendamismehhanism nimega *kasutaja aktiveeritud Soft Fork* ehk lühendatult UASF, mille pakkus välja kasutaja Shaolinfry:
+Aaron van Wirdum kirjeldab seda käänulist teed oma Bitcoin Magazine'i artiklis [The Long Road To SegWit](https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality). Ta selgitab kõigepealt, mis on SegWit ja kuidas see haakub plokimõõtude aruteluga. Seejärel kirjeldab van Wirdum sündmuste käiku, mis viisid selle lõpliku aktiveerimiseni. Selle protsessi keskmes oli uuendamismehhanism nimega *kasutaja aktiveeritud Soft Fork* ehk lühendatult [UASF](https://planb.academy/resources/glossary/uasf), mille pakkus välja kasutaja Shaolinfry:
 
 
 > Shaolinfry pakkus välja alternatiivi: kasutaja aktiveeritud Soft Fork (UASF). Hash võimsuse aktiveerimise asemel oleks kasutaja aktiveeritud Soft Fork puhul ""lipupäeva aktiveerimine", kus sõlmede jõustamine algab eelnevalt kindlaks määratud ajal tulevikus" Niikaua kui selline UASF jõustatakse majandusliku enamuse poolt, peaks see sundima enamikku kaevandajatest järgima (või aktiveerima) Soft Fork.
@@ -1029,7 +1027,7 @@ Bitcoin harmoonias hoidmiseks on Soft hargnemiskohad osutunud sobivaks lahenduse
 Selles peatükis käsitletakse *vastanduslikku mõtlemist*, mõtteviisi, mis keskendub sellele, mis võib valesti minna ja kuidas vastased võivad tegutseda. Alustame Bitcoin turvalisuse eelduste ja turvamudeli arutamisega, misjärel selgitame, kuidas tavakasutajad saavad oma enesevalitsust ja Bitcoin Full node detsentraliseerimist parandada, mõeldes vastandlikult. Seejärel vaatleme mõningaid tegelikke ohte Bitcoin-le ja ka vastase mõttemaailma. Lõpuks räägime *vastupanemise aksoomist*, mis võib aidata teil mõista, miks inimesed üldse Bitcoin kallal töötavad.
 
 
-Erinevate süsteemide turvalisuse üle arutledes on oluline mõista, millised on turvalisuse eeldused. Bitcoin tüüpiliseks turbeülesandeks on "diskreetse logaritmi probleem on Hard lahendatav", mis lihtsustatult öeldes tähendab, et on praktiliselt võimatu leida konkreetsele avalikule võtmele vastavat privaatvõtit. Teine üsna tugev turvaeeldus on see, et enamik võrgu hashpowerist on aus, mis tähendab, et nad mängivad reeglite järgi. Kui need eeldused osutuvad valeks, siis on Bitcoin hädas.
+Erinevate süsteemide turvalisuse üle arutledes on oluline mõista, millised on turvalisuse eeldused. Bitcoin tüüpiliseks turbeülesandeks on "[diskreetse logaritmi](https://planb.academy/resources/glossary/discrete-logarithm) probleem on Hard lahendatav", mis lihtsustatult öeldes tähendab, et on praktiliselt võimatu leida konkreetsele [avalikule võtmele](https://planb.academy/resources/glossary/public-key) vastavat [privaatvõtit](https://planb.academy/resources/glossary/private-key). Teine üsna tugev turvaeeldus on see, et enamik võrgu hashpowerist on aus, mis tähendab, et nad mängivad reeglite järgi. Kui need eeldused osutuvad valeks, siis on Bitcoin hädas.
 
 
 2015. aastal pidas Andrew Poelstra [ettekande](https://btctranscripts.com/scalingbitcoin/hong-kong-2015/security-assumptions/) Hongkongis toimunud konverentsil Scaling Bitcoin, mille käigus ta analüüsis Bitcoin turvalisuse eeldusi. Ta alustab sellest, et paljud süsteemid jätavad vastased mingil määral tähelepanuta; näiteks on tõesti Hard kaitsta hoonet igasuguste vastaste vastu. Selle asemel aktsepteeritakse üldiselt võimalust, et keegi võib hoone maha põletada, ja mingil määral ennetatakse seda ja muid vastase käitumist õiguskaitse jne. abil.
@@ -1066,7 +1064,7 @@ süsteemi enda keerukus.
 
 
 
-Vastupidise mõtlemise tähtsus laieneb mingil määral ka Bitcoin igapäevastele kasutajatele, mitte ainult Bitcoin hardcorearendajatele ja ekspertidele. Ragnar Lifthasir mainib [tweetstormis](https://bitcoinwords.github.io/tweetstorm-on-adversarial-thinking), kuidas lihtsustatud narratiivid Bitcoin ümber - näiteks "lihtsalt HODL" - võivad Bitcoin enda jaoks olla alandavad, ja lõpetab sõnadega, et
+Vastupidise mõtlemise tähtsus laieneb mingil määral ka Bitcoin igapäevastele kasutajatele, mitte ainult Bitcoin hardcorearendajatele ja ekspertidele. Ragnar Lifthasir mainib [tweetstormis](https://bitcoinwords.github.io/tweetstorm-on-adversarial-thinking), kuidas lihtsustatud narratiivid Bitcoin ümber - näiteks "lihtsalt [HODL](https://planb.academy/resources/glossary/hodl)" - võivad Bitcoin enda jaoks olla alandavad, ja lõpetab sõnadega, et
 
 
 > Bitcoin ja meie endi tugevdamiseks peame mõtlema nagu tarkvara insenerid, kes aitavad Bitcoin-le kaasa. Nad teevad vastastikust eksperdihinnangut, otsides halastamatult vigu. Nende tehnikaüritustel räägivad nad igast võimalusest, kuidas ettepanek võib ebaõnnestuda. Nad mõtlevad vastandlikult. Nad on konservatiivsed
@@ -1085,10 +1083,10 @@ Wallet vargused ja teenusetõrjerünnakud:
 
 > Kui ründaja üritab täita võrku enda kontrolli all olevate klientidega, siis on väga tõenäoline, et ühendute ainult ründaja sõlmedega. Kuigi Bitcoin ei kasuta kunagi sõlmede loendust millegi jaoks, võib sõlme täielik isoleerimine ausast võrgust olla kasulik teiste rünnakute teostamisel.
 
-Seda tüüpi rünnakut nimetatakse *Sybil-rünnakuks* ja see toimub alati, kui üks üksus kontrollib võrgus mitut sõlme ja kasutab neid selleks, et esineda mitme üksusena.
+Seda tüüpi rünnakut nimetatakse *[Sybil-rünnakuks](https://planb.academy/resources/glossary/sybil-attack)* ja see toimub alati, kui üks üksus kontrollib võrgus mitut sõlme ja kasutab neid selleks, et esineda mitme üksusena.
 
 
-Nagu tsitaadis ka mainitakse, ei ole Sybil-rünnak Bitcoin võrgus tõhus, sest hääletamine ei toimu sõlmede või muude arvuliste üksuste kaudu, vaid pigem arvutusvõimsuse kaudu. Sellele vaatamata jätab selline lame struktuur süsteemi vastuvõtlikuks teistele rünnakutele. Bitcoin wiki leheküljel kirjeldatakse ka teisi võimalikke rünnakuid, näiteks teabe varjamist (mida sageli nimetatakse *eklipsi rünnakuks*), ja seda, kuidas Bitcoin Core rakendab mõningaid heuristilisi vastumeetmeid selliste rünnakute vastu.
+Nagu tsitaadis ka mainitakse, ei ole Sybil-rünnak Bitcoin võrgus tõhus, sest hääletamine ei toimu sõlmede või muude arvuliste üksuste kaudu, vaid pigem arvutusvõimsuse kaudu. Sellele vaatamata jätab selline lame struktuur süsteemi vastuvõtlikuks teistele rünnakutele. Bitcoin wiki leheküljel kirjeldatakse ka teisi võimalikke rünnakuid, näiteks teabe varjamist (mida sageli nimetatakse *[eklipsi rünnakuks](https://planb.academy/resources/glossary/eclipse-attack)*), ja seda, kuidas [Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core) rakendab mõningaid heuristilisi vastumeetmeid selliste rünnakute vastu.
 
 
 Ülaltoodud on näited reaalsetest ohtudest, mille eest tuleb hoolitseda.
@@ -1110,7 +1108,7 @@ tõhusus.
 Näiteks on olemas lõik selle kohta, kuidas infiltraator võib organisatsioone häirida. Ei ole Hard näha, kuidas sellist taktikat saaks kasutada Bitcoin arendusprotsessi vastu, milles igaüks võib osaleda. Pühendunud ründaja võib pidevalt takistada edasiminekut ebaoluliste küsimuste lõputute probleemidega, tinkida täpsete sõnastuste üle ja püüda korrata arutelusid, mida on juba põhjalikult käsitletud. Ründaja võib palgata ka trolliarmee, et mitmekordistada oma tõhusust; võime seda nimetada sotsiaalseks Sybil-rünnakuks. Kasutades sotsiaalset Sybil-rünnakut, saavad nad jätta mulje, et kavandatava muudatuse vastu on rohkem vastupanu, kui tegelikult on.
 
 
-See toob esile, kuidas sihikindel riik suudab ja teeb kõik endast oleneva, et hävitada vaenlane, sealhulgas lõhkuda teda seestpoolt. Kuna Bitcoin on rahavorm, mis konkureerib väljakujunenud fiat-valuutadega, on tõenäoline, et riigid peavad Bitcoin vaenlaseks.
+See toob esile, kuidas sihikindel riik suudab ja teeb kõik endast oleneva, et hävitada vaenlane, sealhulgas lõhkuda teda seestpoolt. Kuna Bitcoin on rahavorm, mis konkureerib väljakujunenud [fiat-valuutadega](https://planb.academy/resources/glossary/fiat), on tõenäoline, et riigid peavad Bitcoin vaenlaseks.
 
 
 ### Vastupidavuse aksionoom
@@ -1189,7 +1187,7 @@ Järgnevates osades käsitleme Bitcoin-s veel mõningaid huvitavaid avatud läht
 
 
 
-Bitcoin Core'i lähtekoodi hoitakse Git-repositooriumis, mis asub [GitHub](https://github.com/Bitcoin/Bitcoin). Igaüks saab kloonida just seda repositooriumi ilma luba küsimata ja seejärel seda kohapeal kontrollida, ehitada või muuta. See tähendab, et selle repositooriumi koopiaid on üle kogu maailma laiali tuhandeid. Need kõik on ühe ja sama repositooriumi koopiad, nii et mis teeb selle konkreetse GitHubi Bitcoin Core repositooriumi nii eriliseks? Tehniliselt ei ole see üldse eriline, kuid sotsiaalselt on sellest saanud Bitcoin arendamise keskpunkt.
+Bitcoin Core'i lähtekoodi hoitakse [Git](https://planb.academy/resources/glossary/git)-repositooriumis, mis asub [GitHub](https://github.com/Bitcoin/Bitcoin). Igaüks saab kloonida just seda repositooriumi ilma luba küsimata ja seejärel seda kohapeal kontrollida, ehitada või muuta. See tähendab, et selle repositooriumi koopiaid on üle kogu maailma laiali tuhandeid. Need kõik on ühe ja sama repositooriumi koopiad, nii et mis teeb selle konkreetse GitHubi Bitcoin Core repositooriumi nii eriliseks? Tehniliselt ei ole see üldse eriline, kuid sotsiaalselt on sellest saanud Bitcoin arendamise keskpunkt.
 
 
 Bitcoin ja turvalisuse ekspert Jameson Lopp selgitab seda väga hästi [blogipostituses](https://blog.lopp.net/who-controls-Bitcoin-core-/) pealkirjaga "Who Controls Bitcoin Core?":
@@ -1230,10 +1228,10 @@ Tõenäoliselt on sama oluline, et kasutajad võivad Bitcoin peal vabalt arendad
 
 
 
-- Lightning Network: Maksevõrk, mis võimaldab väga väikeste summade kiiret maksmist. See nõuab väga vähe On-Chain Bitcoin tehinguid. On olemas mitmesuguseid koostalitlusvõimelisi rakendusi, näiteks [Core Lightning](https://github.com/ElementsProject/lightning), [LND](https://github.com/lightningnetwork/LND), [Eclair](https://github.com/ACINQ/eclair) ja [Lightning Dev Kit](https://github.com/lightningdevkit).
-- CoinJoin: Mitu osapoolt teevad koostööd, et ühendada oma maksed üheks tehinguks, et Address klastrite moodustamine oleks raskem. On olemas erinevaid rakendusi.
-- Külgahelad: See süsteem võib lukustada mündi Bitcoin Blockchain-s, et avada see mõnes teises Blockchain-s. See võimaldab bitimünte viia mõnele teisele Blockchain-le, nimelt Sidechain-le, et kasutada selle Sidechain funktsioone. Näiteks [Blockstream'i Elements](https://github.com/ElementsProject/Elements).
-- OpenTimestamps: See võimaldab teil [Timestamp dokumenti](https://opentimestamps.org/) Bitcoin Blockchain privaatselt kasutada. Seejärel saate selle Timestamp abil tõestada, et dokument peab olema eksisteerinud enne teatavat aega.
+- [Lightning Network](https://planb.academy/resources/glossary/lightning-network): Maksevõrk, mis võimaldab väga väikeste summade kiiret maksmist. See nõuab väga vähe [On-Chain](https://planb.academy/resources/glossary/onchain) Bitcoin tehinguid. On olemas mitmesuguseid koostalitlusvõimelisi rakendusi, näiteks [Core Lightning](https://github.com/ElementsProject/lightning), [LND](https://github.com/lightningnetwork/LND), [Eclair](https://github.com/ACINQ/eclair) ja [Lightning Dev Kit](https://github.com/lightningdevkit).
+- [CoinJoin](https://planb.academy/resources/glossary/coinjoin): Mitu osapoolt teevad koostööd, et ühendada oma maksed üheks tehinguks, et Address klastrite moodustamine oleks raskem. On olemas erinevaid rakendusi.
+- Külgahelad: See süsteem võib lukustada mündi Bitcoin Blockchain-s, et avada see mõnes teises Blockchain-s. See võimaldab bitimünte viia mõnele teisele Blockchain-le, nimelt [Sidechain](https://planb.academy/resources/glossary/sidechain)-le, et kasutada selle Sidechain funktsioone. Näiteks [Blockstream'i Elements](https://github.com/ElementsProject/Elements).
+- OpenTimestamps: See võimaldab teil [Timestamp dokumenti](https://opentimestamps.org/) Bitcoin Blockchain privaatselt kasutada. Seejärel saate selle [Timestamp](https://planb.academy/resources/glossary/timestamp) abil tõestada, et dokument peab olema eksisteerinud enne teatavat aega.
 
 
 Ilma loata arenguta ei oleks paljud neist projektidest olnud võimalikud. Nagu neutraalsust käsitlevas peatükis öeldud, kui arendajad peaksid Bitcoin peal protokollide loomiseks luba küsima, arendataks ainult neid protokolle, mida keskne arendajaid lubav komitee lubab.
@@ -1326,7 +1324,7 @@ Teel lõpliku vastuvõtmiseni läbib idee tavaliselt mitu arutelu- ja läbivaata
 
 
 - Idee on postitatud Bitcoin-dev postiloendis
-- Idee on vormistatud Bitcoin parendusettepanekuks (BIP)
+- Idee on vormistatud Bitcoin parendusettepanekuks ([BIP](https://planb.academy/resources/glossary/bip))
 - BIP on rakendatud tõmbetaotluses (PR) Bitcoin Core'ile
 - Arutatakse kasutuselevõtumehhanisme
 - Mõned konkureerivad kasutuselevõtumehhanismid on rakendatud Bitcoin Core'ile esitatud tõmbetaotlustes
@@ -1382,7 +1380,7 @@ Ettevõtted, üksikisikud ja organisatsioonid, kes on huvitatud Bitcoin jätkuva
 Inimestele jääb mõnikord mulje, et Bitcoin arendajate seas on palju sisevõitlusi ja lõputuid tuliseid arutelusid ning et nad on võimetud otsuseid tegema.
 
 
-Näiteks Taproot kasutuselevõtumehhanismi üle arutati pikka aega, mille jooksul moodustusid kaks "laagrit". Üks tahtis "ebaõnnestuda" uuenduse puhul, kui kaevurid ei olnud pärast teatud hetke ülekaalukalt uute reeglite poolt hääletanud, samas kui teine tahtis reegleid pärast seda hetke igatahes jõustada. Michael Folkson võtab kahe leeri argumendid kokku [email](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-February/018380.html) postiloendis Bitcoin-dev.
+Näiteks Taproot kasutuselevõtumehhanismi üle arutati pikka aega, mille jooksul moodustusid kaks "laagrit". Üks tahtis "ebaõnnestuda" uuenduse puhul, kui [kaevurid](https://planb.academy/resources/glossary/miner) ei olnud pärast teatud hetke ülekaalukalt uute reeglite poolt hääletanud, samas kui teine tahtis reegleid pärast seda hetke igatahes jõustada. Michael Folkson võtab kahe leeri argumendid kokku [email](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-February/018380.html) postiloendis Bitcoin-dev.
 
 
 Arutelu kestis näiliselt igavesti ja see oli tõesti Hard, et näha, et selles küsimuses kujuneb üksmeel lähiajal. See tekitas inimestes pettumust ja selle tulemusena süvenes kuumus. Gregory Maxwell (kasutajana nullc) muretses [Redditis](https://www.reddit.com/r/Bitcoin/comments/hrlpnc/technical_taproot_why_activate/fyqbn8s/?utm_source=share&utm_medium=web2x&context=3), et pikad arutelud muudavad uuenduse vähem turvaliseks:
@@ -1390,7 +1388,7 @@ Arutelu kestis näiliselt igavesti ja see oli tõesti Hard, et näha, et selles 
 
 > Praegusel hetkel ei lisa täiendav ootamine rohkem ülevaatamist ja kindlustunnet. Selle asemel vähendab täiendav viivitus inertsust ja suurendab potentsiaalselt mõnevõrra riski, kuna inimesed hakkavad unustama üksikasju, lükkavad edasi tööd järgnevate kasutusviiside (nagu Wallet tugi) ja ei investeeri nii palju täiendavat läbivaatamist, kui nad investeeriksid, kui nad oleksid kindlad aktiveerimise ajakava suhtes.
 
-Lõpuks sai see vaidlus lahendatud tänu David Hardingi ja Russel O'Connori uuele ettepanekule nimega Speedy Trial, mis tähendas kaevurite jaoks suhteliselt lühemat signalisatsiooniperioodi, et lukustada Taproot aktiveerimine või ebaõnnestuda kiiresti. Kui nad aktiveeriksid selle ajaakna jooksul, siis Taproot võetaks kasutusele umbes 6 kuud hiljem.
+Lõpuks sai see vaidlus lahendatud tänu David Hardingi ja Russel O'Connori uuele ettepanekule nimega [Speedy Trial](https://planb.academy/resources/glossary/speedy-trial), mis tähendas kaevurite jaoks suhteliselt lühemat signalisatsiooniperioodi, et lukustada Taproot aktiveerimine või ebaõnnestuda kiiresti. Kui nad aktiveeriksid selle ajaakna jooksul, siis Taproot võetaks kasutusele umbes 6 kuud hiljem.
 
 
 Keegi, kes ei ole harjunud Bitcoin arendusprotsessiga, arvab ilmselt, et need tulised arutelud näevad kohutavalt halvad ja isegi mürgised välja. Mõne inimese silmis on vähemalt kaks tegurit, mis panevad need halvasti välja nägema:
@@ -1414,7 +1412,7 @@ arendajad võivad tunduda väga Hard-peaga, mis suhtumine on tavaliselt õigusta
 reprodutseeritavad buildid, lisati uusi sõltuvusi või kui kood ei järginud Bitcoin [parimaid tavasid](https://github.com/Bitcoin/Bitcoin/blob/master/doc/developer-notes.md).
 
 
-See võib uusi (ja vanu) arendajaid frustreerida. Kuid nagu avatud lähtekoodiga tarkvaras tavaks, võite alati Fork repositooriumi, ühendada mis iganes soovite oma Fork, ning ehitada ja käivitada oma binaarsüsteemi.
+See võib uusi (ja vanu) arendajaid frustreerida. Kuid nagu avatud lähtekoodiga tarkvaras tavaks, võite alati [Fork](https://planb.academy/resources/glossary/fork) repositooriumi, ühendada mis iganes soovite oma Fork, ning ehitada ja käivitada oma binaarsüsteemi.
 
 
 ### Kokkuvõte avatud lähtekoodist
@@ -1521,7 +1519,7 @@ Lisaks negatiivsetele mõjudele Full node detsentraliseerimisele võib vertikaal
 - Ploki valideerimine võtab aega.
 
 
-Kuigi plokk 7 levib võrgus, on paljud kaevurid ikka veel Mining ploki 6 peal, sest nad ei ole veel saanud ja valideerinud plokki 7. Kui mõni neist kaevuritest leiab selle aja jooksul uue ploki kõrgusel 7, on sellel kõrgusel kaks konkureerivat plokki. Kõrgusel 7 (või mõnel muul kõrgusel) võib olla ainult üks plokk, mis tähendab, et üks kahest kandidaadist peab muutuma aegunuks.
+Kuigi plokk 7 levib võrgus, on paljud kaevurid ikka veel Mining ploki 6 peal, sest nad ei ole veel saanud ja valideerinud plokki 7. Kui mõni neist kaevuritest leiab selle aja jooksul uue ploki kõrgusel 7, on sellel kõrgusel kaks konkureerivat plokki. Kõrgusel 7 (või mõnel muul kõrgusel) võib olla ainult üks plokk, mis tähendab, et üks kahest kandidaadist peab muutuma [aegunuks](https://planb.academy/resources/glossary/stale-block).
 
 
 Lühidalt öeldes, aegunud plokid tekivad, sest iga ploki levik võtab aega ja mida kauem levik kestab, seda suurem on aegunud plokkide tõenäosus.
@@ -1537,7 +1535,7 @@ stsenaarium. Meetmed, mida nad võivad võtta, hõlmavad järgmist:
 
 
 - Saabuva ploki valideerimise edasilükkamine, tuntud ka kui *valideerimata Mining*. Kaevandajad võivad lihtsalt kontrollida ploki päise Proof-of-Work ja kaevandada selle pealt, samal ajal kui nad laadivad vahepeal alla kogu ploki ja valideerivad selle.
-- Suurema ribalaiuse ja ühenduvuse Mining pool-ga ühendamine.
+- Suurema ribalaiuse ja ühenduvuse [Mining pool](https://planb.academy/resources/glossary/pool-mining)-ga ühendamine.
 
 
 Validatsioonita Mining õõnestab Full node detsentraliseerimist veelgi, kuna Miner kasutab vähemalt ajutiselt sissetulevate plokkide usaldamist. Samuti kahjustab see mingil määral turvalisust, sest osa võrgu arvutusvõimsusest ehitab potentsiaalselt kehtetu Blockchain peale, selle asemel et ehitada tugevaima ja kehtiva ahela peale.
@@ -1594,7 +1592,7 @@ Erinevad read tähistavad Bitcoin Core'i erinevaid versioone. Kõige vasakpoolse
 Parandused võib liigitada kas ruumi (RAM, kettas, ribalaius jne) või arvutusvõimsuse säästmiseks. Mõlemad kategooriad aitavad kaasa eespool esitatud diagrammi parandustele.
 
 
-Hea näide arvutusliku täiustamise kohta on [libsecp256k1](https://github.com/Bitcoin-core/secp256k1) raamatukogu, mis muu hulgas rakendab digitaalallkirjade tegemiseks ja kontrollimiseks vajalikke krüptograafilisi algtõdesid. Pieter Wuille on üks selle raamatukogu toetajatest ja ta kirjutas [Twitteri teema](https://twitter.com/pwuille/status/1450471673321381896), kus ta tutvustab erinevate pull-päringute abil saavutatud jõudluse paranemist.
+Hea näide arvutusliku täiustamise kohta on [libsecp256k1](https://github.com/Bitcoin-core/secp256k1) raamatukogu, mis muu hulgas rakendab [digitaalallkirjade](https://planb.academy/resources/glossary/digital-signature) tegemiseks ja kontrollimiseks vajalikke krüptograafilisi algtõdesid. Pieter Wuille on üks selle raamatukogu toetajatest ja ta kirjutas [Twitteri teema](https://twitter.com/pwuille/status/1450471673321381896), kus ta tutvustab erinevate pull-päringute abil saavutatud jõudluse paranemist.
 
 
 ![](assets/et/013.webp)
@@ -1617,7 +1615,7 @@ On ka mitmeid häid näiteid ruumi kokkuhoiu paranduste kohta, mis aitasid kaasa
 Ruumi kokkuhoid erinevate kulutustüüpide, Taproot ja vanade versioonide puhul.
 
 
-2-ast-3 Multisig, mis kasutab originaalset SegWit, vajaks kokku 104,5+43 vB = 147,5 vB, samas kui Taproot kõige ruumisäästlikum kasutamine nõuaks standardkasutuse korral ainult 57,5+43 vB = 100,5 vB. Halvemal juhul ja harvaesinevatel juhtudel, näiteks kui standardallkirjastaja ei ole mingil põhjusel kättesaadav, kasutaks Taproot 107,5+43 vB = 150,5 vB. Te ei pea kõigist üksikasjadest aru saama, kuid see peaks andma teile ettekujutuse sellest, kuidas arendajad mõtlevad ruumi kokkuhoiust - iga väike bait loeb.
+2-ast-3 [Multisig](https://planb.academy/resources/glossary/multisig), mis kasutab originaalset SegWit, vajaks kokku 104,5+43 vB = 147,5 vB, samas kui Taproot kõige ruumisäästlikum kasutamine nõuaks standardkasutuse korral ainult 57,5+43 vB = 100,5 vB. Halvemal juhul ja harvaesinevatel juhtudel, näiteks kui standardallkirjastaja ei ole mingil põhjusel kättesaadav, kasutaks Taproot 107,5+43 vB = 150,5 vB. Te ei pea kõigist üksikasjadest aru saama, kuid see peaks andma teile ettekujutuse sellest, kuidas arendajad mõtlevad ruumi kokkuhoiust - iga väike bait loeb.
 
 
 Lisaks Bitcoin tarkvara sisemisele skaleerimisele on ka mõned viisid, kuidas kasutajad saavad sisemisele skaleerimisele kaasa aidata. Nad saavad teha oma tehinguid arukamalt, et säästa tehingutasusid, vähendades samal ajal oma jalajälge Full node nõuetele. Kahte tavaliselt kasutatavat meetodit sellise eesmärgi saavutamiseks nimetatakse tehingute pakkimiseks ja väljundi konsolideerimiseks.
@@ -1667,7 +1665,7 @@ See, kuidas see alustamistehing luuakse, on protokollides erinev, kuid ühine on
 Kui käivitamistehing on Blockchain-s, saab protokoll teha seda, mida ta peaks tegema. Näiteks võib see teha osalejate vahelisi ülikiireid makseid, rakendada mõningaid privaatsust suurendavaid tehnikaid või teha täiustatud skriptimist, mida Bitcoin Blockchain ei toeta.
 
 
-Me ei hakka üksikasjalikult kirjeldama, kuidas konkreetsed protokollid töötavad, kuid nagu eelmisest joonisest näha, kasutatakse Blockchain protokolli elutsükli jooksul harva. Kogu mahlakas tegevus toimub *off-chain*. Me nägime, kuidas see võib olla privaatsuse võit, kui seda õigesti teha, kuid see võib olla ka eelis skaleeritavuse jaoks.
+Me ei hakka üksikasjalikult kirjeldama, kuidas konkreetsed protokollid töötavad, kuid nagu eelmisest joonisest näha, kasutatakse Blockchain protokolli elutsükli jooksul harva. Kogu mahlakas tegevus toimub *[off-chain](https://planb.academy/resources/glossary/offchain)*. Me nägime, kuidas see võib olla privaatsuse võit, kui seda õigesti teha, kuid see võib olla ka eelis skaleeritavuse jaoks.
 
 
 Gregory Maxwell selgitab [Redditi postituses](https://www.reddit.com/r/Bitcoin/comments/438hx0/a_trip_to_the_moon_requires_a_rocket_with/) pealkirjaga "Reis Kuule nõuab mitmeastmelist raketti või muidu sööb raketi võrrand sinu lõunasöögi... pakkimine kõik klounautode stiilis trebuchetisse ja lootmine edule on õige out.", miks kihistumine on meie parim võimalus Bitcoin skaalale jõudmiseks suurusjärkude võrra.
@@ -1747,7 +1745,7 @@ See tähendab, et kui leiate turvaprobleemi, peaksite sellest teatama süsteemi 
   - paranduse või lahenduse tagasiportimine master'ist praegusesse avaldatud versiooni
 - Arendajad püüavad tagada, et paranduse avaldamine ei paljastaks haavatavuse olemust, andes pakutud paranduse kogenud arendajatele, keda ei ole teavitatud haavatavusest, teatades neile, et see parandab haavatavuse, ja paludes neil tuvastada haavatavus.
 - Arendajad võivad soovitada teistele Bitcoin rakendustele haavatavuse paranduste vastuvõtmist enne paranduse avaldamist ja laialdast kasutuselevõttu, kui nad saavad seda teha ilma haavatavust avalikustamata; näiteks kui parandusel on märkimisväärne kasu jõudlusele, mis õigustab selle lisamist.
-- Enne haavatavuse avalikuks muutumist soovitavad arendajad üldiselt sõbralikele Altcoin arendajatele, et nad peaksid parandustega järele jõudma. Kuid seda alles pärast seda, kui parandused on Bitcoin võrgus laialdaselt kasutusel.
+- Enne haavatavuse avalikuks muutumist soovitavad arendajad üldiselt sõbralikele [Altcoin](https://planb.academy/resources/glossary/altcoin) arendajatele, et nad peaksid parandustega järele jõudma. Kuid seda alles pärast seda, kui parandused on Bitcoin võrgus laialdaselt kasutusel.
 - Üldiselt ei teavita Altcoin arendajaid, kes on käitunud vaenulikult (nt kasutavad haavatavusi teiste ründamiseks või rikuvad embargot).
 - Bitcoin arendajad ei avalikusta haavatavuse üksikasju enne, kui >80% Bitcoin sõlmedest on parandused kasutusele võtnud. Haavatavuse avastajatel soovitatakse ja palutakse järgida sama poliitikat. [1] [6]
 
@@ -1797,7 +1795,7 @@ Bitcoin wikis on [nimekiri ühistest haavatavustest ja riskipunktidest](https://
 Probleem oli selles, et skriptioperaator `OP_RETURN` lihtsalt lõpetaks programmi täitmise, nii et kui scriptPubKey oli `<pubkey> OP_CHECKSIG` ja scriptSig oli `OP_1 OP_RETURN`, siis scriptPubKey-s olev programmiosa ei käivituks kunagi. Ainus asi, mis juhtuks, oleks `1`, mis pannakse virna ja seejärel `OP_RETURN` põhjustaks programmi väljumise. Mis tahes mittenullväärtus virna peal pärast programmi täitmist tähendab, et kulutamise tingimus on täidetud. Kuna virna ülemine element `1` ei ole null, siis on kulutamine korras.
 
 
-See oli koodi "OP_RETURN" käsitlemiseks:
+See oli koodi "[OP_RETURN](https://planb.academy/resources/glossary/op-return-0x6a)" käsitlemiseks:
 
 
 ```
@@ -2065,7 +2063,7 @@ BIP66-i ümbritsevate sündmuste ajakava. Mustas kirjas olevad punktid on selgit
 
 
 
-Ilma, et keegi oleks sellest probleemist teadlik olnud, oleks seda saanud lahendada nüüdseks laialivalgunud BIP62, mis oli ettepanek vähendada tehingu vormistamise võimalusi. BIP62 kavandatavate muudatuste hulgas oli allkirjade kodeerimise konsensusreeglite karmistamine ehk "range DER-kodeerimine". Pieter Wuille pakkus 2014. aasta juulis välja mõned parandused BIPi, mis oleksid probleemi lahendanud:
+Ilma, et keegi oleks sellest probleemist teadlik olnud, oleks seda saanud lahendada nüüdseks laialivalgunud BIP62, mis oli ettepanek vähendada tehingu vormistamise võimalusi. BIP62 kavandatavate muudatuste hulgas oli allkirjade kodeerimise konsensusreeglite karmistamine ehk "range [DER](https://planb.academy/resources/glossary/der)-kodeerimine". Pieter Wuille pakkus 2014. aasta juulis välja mõned parandused BIPi, mis oleksid probleemi lahendanud:
 
 
 > 2014-Jul-18: Selleks, et Bitcoin allkirjade kodeerimise eeskirjad ei sõltuks OpenSSLi spetsiifilisest parserist, muutsin BIP62 ettepanekut nii, et selle range DER-allkirjade nõue kehtiks ka 1. versiooni tehingute suhtes. Sel ajal ei kaevandatud enam mitte-DER-allkirju plokkidesse, seega eeldati, et sellel ei ole mingit mõju. Vt https://github.com/Bitcoin/bips/pull/90 ja http://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2014-July/006299.html. Sel ajal ei olnud teada, kuid kui see oleks kasutusele võetud, oleks see lahendanud haavatavuse.

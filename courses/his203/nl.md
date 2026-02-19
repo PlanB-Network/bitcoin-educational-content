@@ -250,7 +250,7 @@ Zoals uitgelegd was zijn benadering vooral revolutionair, niet opportunistisch. 
 
 > "Nu zijn mijn doelen verschoven. Ik wil de economische theorie gebruiken als een middel om het gebruik van dwang en agressie onder de mensheid af te schaffen. Net zoals slavernij bijna overal is afgeschaft, geloof ik dat er een einde kan komen aan geweld, dwang en alle vormen van geweld van de ene persoon op de andere. Het meest wijdverspreide en systemische gebruik van geweld is onder instellingen en regeringen, dus dit is mijn huidige punt van inspanning. De beste manier om een regering te veranderen is echter door de gedachten van de geregeerden te veranderen. Daarom ben ik een economische simulatie aan het maken om mensen uit de eerste hand te laten ervaren hoe het zou zijn om in een wereld te leven zonder het systematische gebruik van geweld."
 
-Het idee was niet echt nieuw. Het was meer dan alleen een agoristische benadering, het was ook een illustratie van het beoogde gebruik van "zwarte markten" door de cypherpunks om hun economische vrijheid uit te oefenen, iets wat we terugvinden in Tim May's [*Cyphernomicon*](https://ia801307.us.archive.org/7/items/cyphernomicon/cyphernomicon.txt).
+Het idee was niet echt nieuw. Het was meer dan alleen een agoristische benadering, het was ook een illustratie van het beoogde gebruik van "zwarte markten" door de [cypherpunks](https://planb.academy/resources/glossary/cypherpunks) om hun economische vrijheid uit te oefenen, iets wat we terugvinden in Tim May's [*Cyphernomicon*](https://ia801307.us.archive.org/7/items/cyphernomicon/cyphernomicon.txt).
 
 
 
@@ -387,7 +387,7 @@ Niet iedereen was blij met de publiciteit generated van het Gawker-artikel. Het 
 
 
 
-Met name programmeur Jeff Garzik, die destijds betrokken was bij de ontwikkeling van de software, nam deze ongewenste associatie niet serieus. Na publicatie van het artikel, nam hij persoonlijk [contact op](https://www.theatlantic.com/technology/archive/2011/06/libertarian-dream-a-site-where-you-buy-drugs-with-digital-dollars/239776/) Adrien Chen per e-mail om uit te leggen dat Bitcoin niet zo anoniem was als het leek, alle transacties worden permanent geregistreerd op de blockchain. Hij eindigde zijn e-mail met deze beoordeling:
+Met name programmeur Jeff Garzik, die destijds betrokken was bij de ontwikkeling van de software, nam deze ongewenste associatie niet serieus. Na publicatie van het artikel, nam hij persoonlijk [contact op](https://www.theatlantic.com/technology/archive/2011/06/libertarian-dream-a-site-where-you-buy-drugs-with-digital-dollars/239776/) Adrien Chen per e-mail om uit te leggen dat Bitcoin niet zo anoniem was als het leek, alle transacties worden permanent geregistreerd op de [blockchain](https://planb.academy/resources/glossary/blockchain). Hij eindigde zijn e-mail met deze beoordeling:
 
 
 > "Het proberen van grote illegale transacties met bitcoin is, gezien de bestaande statistische analysetechnieken die in het veld worden gebruikt door wetshandhavers, behoorlijk dom."
@@ -520,7 +520,7 @@ Zoals we begin 2011 al zeiden, was het Mt. Gox platform niet veilig. En het was 
 
 
 
-Op 1 maart 2011, net toen de overdracht officieel zou worden gemaakt, [verdampten](https://mempool.space/tx/e67a0550848b7932d7796aeea16ab0e48a5cfe81c4e8cca2c5b03e0416850114) 80.000 bitcoins in het niets dankzij kwaadwillige toegang tot het wallet.dat bestand van de site. Op de 3e merkte Jed McCaleb de terugtrekking op en [informeerde](https://web.archive.org/web/20200427200314/https://courts.ms.gov/appellatecourts/docket/sendPDF.php?f=dc00001_live.SCT.17.M.1681.102741.5.pdf&c=87490&a=N&s=2) Mark op IRC dat er "iets ergs was gebeurd". Het was een groot verlies (één bitcoin werd verkocht voor $0,92 op dat moment), dat groter en groter zou worden in de daaropvolgende maanden met de ongekende prijsstijging.
+Op 1 maart 2011, net toen de overdracht officieel zou worden gemaakt, [verdampten](https://mempool.space/tx/e67a0550848b7932d7796aeea16ab0e48a5cfe81c4e8cca2c5b03e0416850114) 80.000 bitcoins in het niets dankzij kwaadwillige toegang tot het [wallet](https://planb.academy/resources/glossary/wallet).dat bestand van de site. Op de 3e merkte Jed McCaleb de terugtrekking op en [informeerde](https://web.archive.org/web/20200427200314/https://courts.ms.gov/appellatecourts/docket/sendPDF.php?f=dc00001_live.SCT.17.M.1681.102741.5.pdf&c=87490&a=N&s=2) Mark op IRC dat er "iets ergs was gebeurd". Het was een groot verlies (één bitcoin werd verkocht voor $0,92 op dat moment), dat groter en groter zou worden in de daaropvolgende maanden met de ongekende prijsstijging.
 
 
 Dit probleem werd [genoemd] (https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) door Jed op 18 april in een e-mail aan Mark, waar hij schreef:
@@ -908,11 +908,11 @@ In 2011 verhuisde hij naar Portsmouth, New Hampshire als onderdeel van het *Free
 
 > "Die dag was een van de belangrijkste dagen van mijn leven. Het was alsof ik een grote waarheid ontdekte, alsof ik de toekomst zag. Ik stopte met alles wat ik deed en sprong in het konijnenhol."
 
-Zijn motivatie was vooral ideologisch: hij werd verleid door de onstuitbaarheid van het systeem en de onmogelijkheid om meer geld te creëren dan gepland. Hij [zag](https://silverunderground.com/2011/06/bitcoin-the-separation-of-money-and-state/) Bitcoin als de belichaming van "de scheiding van geld en staat". Hij was ook overtuigd door de agoristische praktijk gepromoot door Samuel Konkin en [geloofde](https://bitcointalk.org/index.php?topic=34657.msg431717#msg431717) dat "Bitcoin voor agorisme is wat kieuwen zijn voor vissen", d.w.z. een essentieel radertje.
+Zijn motivatie was vooral ideologisch: hij werd verleid door de onstuitbaarheid van het systeem en de onmogelijkheid om meer geld te creëren dan gepland. Hij [zag](https://silverunderground.com/2011/06/bitcoin-the-separation-of-money-and-state/) Bitcoin als de belichaming van "de scheiding van geld en staat". Hij was ook overtuigd door de agoristische praktijk gepromoot door Samuel Konkin en [geloofde](https://bitcointalk.org/index.php?topic=34657.msg431717#msg431717) dat "Bitcoin voor [agorisme](https://planb.academy/resources/glossary/agorism) is wat kieuwen zijn voor vissen", d.w.z. een essentieel radertje.
 
 
 
-In juni kocht Erik Voorhees een grote hoeveelheid bitcoins op een moment dat de prijs het hoogst was. Hij [probeerde](https://bitcointalk.org/index.php?topic=24198.msg300745#msg300745) ook GPU mining, maar zijn vriendin vond het maar niks en hij werd gedwongen om zijn machines te verkopen. In augustus reisde hij naar New York om een conferentie bij te wonen die werd georganiseerd door Bruce Wagner, waar hij veel van de spelers in het ecosysteem ontmoette.
+In juni kocht Erik Voorhees een grote hoeveelheid bitcoins op een moment dat de prijs het hoogst was. Hij [probeerde](https://bitcointalk.org/index.php?topic=24198.msg300745#msg300745) ook GPU [mining](https://planb.academy/resources/glossary/mining), maar zijn vriendin vond het maar niks en hij werd gedwongen om zijn machines te verkopen. In augustus reisde hij naar New York om een conferentie bij te wonen die werd georganiseerd door Bruce Wagner, waar hij veel van de spelers in het ecosysteem ontmoette.
 
 
 
@@ -932,7 +932,7 @@ Met Bitcoin wilde Ira Miller "alternatieve systemen bouwen om te concurreren met
 
 
 
-De twee mannen kunnen het goed met elkaar vinden en hun vaardigheden vullen elkaar aan. In augustus zocht Erik Voorhees een programmeur om een van zijn ideeën te ontwikkelen en Ira accepteerde. Het werd FeedZeBirds (letterlijk "voer de vogels"), een advertentieplatform waarmee gebruikers inhoud op Twitter konden stimuleren door retweets te kopen, die ze [lanceerden](https://bitcointalk.org/index.php?topic=52638.msg628165#msg628165) op 23 november. Het was een twijfelachtig gebruik (Twitter moedigde dit soort gedrag zeker niet aan), waarbij ze gebruik maakten van de censuurbestendigheid van Bitcoin en het gebrek aan transactiekosten. Op 28 november [verschenen](https://www.youtube.com/watch?v=VuLAhZsFc1A) de twee partners op de *Bitcoin Show* om hun product te promoten. Vervolgens ontwikkelden ze ook de Paysius betalingsverwerker en de Coinapult e-mail overboekingsdienst.
+De twee mannen kunnen het goed met elkaar vinden en hun vaardigheden vullen elkaar aan. In augustus zocht Erik Voorhees een programmeur om een van zijn ideeën te ontwikkelen en Ira accepteerde. Het werd FeedZeBirds (letterlijk "voer de vogels"), een advertentieplatform waarmee gebruikers inhoud op Twitter konden stimuleren door retweets te kopen, die ze [lanceerden](https://bitcointalk.org/index.php?topic=52638.msg628165#msg628165) op 23 november. Het was een twijfelachtig gebruik (Twitter moedigde dit soort gedrag zeker niet aan), waarbij ze gebruik maakten van de censuurbestendigheid van Bitcoin en het gebrek aan [transactiekosten](https://planb.academy/resources/glossary/transaction-fees). Op 28 november [verschenen](https://www.youtube.com/watch?v=VuLAhZsFc1A) de twee partners op de *Bitcoin Show* om hun product te promoten. Vervolgens ontwikkelden ze ook de Paysius betalingsverwerker en de Coinapult e-mail overboekingsdienst.
 
 
 
@@ -1234,7 +1234,7 @@ In 2011 leidde het feit dat Bitcoin geen autorisatie nodig had ertoe dat leden v
 
 
 
-Een van de betrokkenen bij deze beweging was James McCarthy, die op het Bitcoin forum het pseudoniem Nefario gebruikte, als verwijzing naar het gelijknamige personage in de animatiefilm *Despicable Me*. Nefario was een Ier die in China woonde, met een baan als professor Engels aan een universiteit. Hij was geïnteresseerd in de Oostenrijkse school en de ideeën van de cypherpunks, [verklaarde](https://web.archive.org/web/20110607050421/http://bitcoinweekly.com/articles/interview-with-nefario-founder-of-bitcoin-global) zelf "iets van een cypherpunk" te zijn. Hij [ontdekte](https://bitcointalk.org/index.php?topic=2502.msg33800#msg33800) het bestaan van Bitcoin in 2010 en heeft er meer dan duizend gedolven. Daarna raakte hij betrokken bij verschillende projecten, waaronder het Bitcoin Weekly online magazine project.
+Een van de betrokkenen bij deze beweging was James McCarthy, die op het Bitcoin forum het pseudoniem Nefario gebruikte, als verwijzing naar het gelijknamige personage in de animatiefilm *Despicable Me*. Nefario was een Ier die in China woonde, met een baan als professor Engels aan een universiteit. Hij was geïnteresseerd in de [Oostenrijkse school](https://planb.academy/resources/glossary/austrian-school) en de ideeën van de cypherpunks, [verklaarde](https://web.archive.org/web/20110607050421/http://bitcoinweekly.com/articles/interview-with-nefario-founder-of-bitcoin-global) zelf "iets van een cypherpunk" te zijn. Hij [ontdekte](https://bitcointalk.org/index.php?topic=2502.msg33800#msg33800) het bestaan van Bitcoin in 2010 en heeft er meer dan duizend gedolven. Daarna raakte hij betrokken bij verschillende projecten, waaronder het Bitcoin Weekly online magazine project.
 
 
 
@@ -1428,7 +1428,7 @@ Het probleem met volledige implementaties is dat ze veel middelen vergen en voor
 
 
 
-Het eerste idee was om een knooppunt te gebruiken als server op afstand, waarin de gebruiker volledig vertrouwen heeft. In februari 2011 lanceerde Amir Taaki [https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538] een softwareclient om een wallet lokaal te beheren door verbinding te maken met een bestaande node genaamd Spesmilo. De client draaide in eerste instantie op Linux, maar werd al snel overgezet naar Windows. De naam was een verwijzing naar spesmilo, de oude internationale munteenheid die in 1907 door de Zwitserse wiskundige René de Saussure (de broer van taalkundige Ferdinand) werd voorgesteld als onderdeel van het Esperanto-project.
+Het eerste idee was om een knooppunt te gebruiken als server op afstand, waarin de gebruiker volledig vertrouwen heeft. In februari 2011 lanceerde Amir Taaki [https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538] een softwareclient om een wallet lokaal te beheren door verbinding te maken met een bestaande [node](https://planb.academy/resources/glossary/node) genaamd Spesmilo. De client draaide in eerste instantie op Linux, maar werd al snel overgezet naar Windows. De naam was een verwijzing naar spesmilo, de oude internationale munteenheid die in 1907 door de Zwitserse wiskundige René de Saussure (de broer van taalkundige Ferdinand) werd voorgesteld als onderdeel van het Esperanto-project.
 
 
 
@@ -1498,7 +1498,7 @@ Er werden twee soorten afleidingen overwogen. Het ene type (type 1) was eenvoudi
 
 
 
-Later, in februari 2012, vond standaardisatie plaats met de [publicatie] (https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198) van BIP 32. Het beschreef de algemene structuur van *Hierarchical Deterministic Wallets*, HD Wallets. Het beschreef de algemene structuur van *Hierarchical Deterministic Wallets*, HD Wallets, waarbij afleidingen methodisch worden gebruikt om seed sleutels en adressen af te leiden. Het is in de loop der jaren geleidelijk overgenomen door de meeste wallet's.
+Later, in februari 2012, vond standaardisatie plaats met de [publicatie] (https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198) van [BIP](https://planb.academy/resources/glossary/bip) 32. Het beschreef de algemene structuur van *Hierarchical Deterministic Wallets*, HD Wallets. Het beschreef de algemene structuur van *Hierarchical Deterministic Wallets*, HD Wallets, waarbij afleidingen methodisch worden gebruikt om seed sleutels en adressen af te leiden. Het is in de loop der jaren geleidelijk overgenomen door de meeste wallet's.
 
 
 
@@ -1700,7 +1700,7 @@ Bitbills had enig succes, maar Doug Feigelson had moeite om de vraag bij te bene
 
 
 
-Mike Caldwell was een 33-jarige Amerikaanse ontwikkelaar die in de buitenwijken van Salt Lake City, Utah, woonde en een bedrijfsautomatiseringsbedrijf runde met de naam [Swipeclock](https://www.linkedin.com/company/swipeclock/). Zijn pseudoniem, Casascius, is een gelatiniseerde vorm van CASAS, de initialen van het gezegde *call a spade a spade*. Hij was een rationalist, gefascineerd door cryptografie en werd aangetrokken door de technische kant van Bitcoin. Hij probeerde een tijdje mining.
+Mike Caldwell was een 33-jarige Amerikaanse ontwikkelaar die in de buitenwijken van Salt Lake City, Utah, woonde en een bedrijfsautomatiseringsbedrijf runde met de naam [Swipeclock](https://www.linkedin.com/company/swipeclock/). Zijn pseudoniem, Casascius, is een gelatiniseerde vorm van CASAS, de initialen van het gezegde *call a spade a spade*. Hij was een rationalist, gefascineerd door [cryptografie](https://planb.academy/resources/glossary/cryptography) en werd aangetrokken door de technische kant van Bitcoin. Hij probeerde een tijdje mining.
 
 
 
@@ -1757,7 +1757,7 @@ Om dit probleem aan te pakken en de traceerbaarheid van fondsen te doorbreken, w
 
 
 
-De eerste is BitLaundry. Deze dienst werd [gelanceerd](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823) in september 2010 door Peter Vessenes, een Amerikaanse ondernemer met een graad in cryptografie die het bestaan van Bitcoin ontdekte op het moment van slashdotting. De blender [voorzag](https://maltemoeser.de/paper/money-laundering.pdf#page=5) de gebruiker van een adres voor eenmalig gebruik, waarnaar de te anonimiseren fondsen werden gestuurd. De bitcoins werden vervolgens teruggestuurd in de vorm van meerdere munten (UTXO), binnen een transactie met meerdere ingangen die ook bitcoins van andere gebruikers bevatte, waardoor het mengen effectief was. De in rekening gebrachte kosten bedroegen ongeveer 2,5% van het betrokken bedrag. In mei 2011, zich bewust van de juridische complicaties die zouden kunnen voortvloeien uit deze activiteit, [droeg] Peter Vessenes (https://bitcointalk.org/index.php?topic=963.msg122955#msg122955) de service over aan Mike Gogulski, een activist die bekend staat om zijn statenloosheid, omdat hij afstand had gedaan van zijn Amerikaanse staatsburgerschap zonder een andere te bezitten.
+De eerste is BitLaundry. Deze dienst werd [gelanceerd](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823) in september 2010 door Peter Vessenes, een Amerikaanse ondernemer met een graad in cryptografie die het bestaan van Bitcoin ontdekte op het moment van slashdotting. De blender [voorzag](https://maltemoeser.de/paper/money-laundering.pdf#page=5) de gebruiker van een adres voor eenmalig gebruik, waarnaar de te anonimiseren fondsen werden gestuurd. De bitcoins werden vervolgens teruggestuurd in de vorm van meerdere munten ([UTXO](https://planb.academy/resources/glossary/utxo)), binnen een transactie met meerdere ingangen die ook bitcoins van andere gebruikers bevatte, waardoor het mengen effectief was. De in rekening gebrachte kosten bedroegen ongeveer 2,5% van het betrokken bedrag. In mei 2011, zich bewust van de juridische complicaties die zouden kunnen voortvloeien uit deze activiteit, [droeg] Peter Vessenes (https://bitcointalk.org/index.php?topic=963.msg122955#msg122955) de service over aan Mike Gogulski, een activist die bekend staat om zijn statenloosheid, omdat hij afstand had gedaan van zijn Amerikaanse staatsburgerschap zonder een andere te bezitten.
 
 
 
@@ -1777,7 +1777,7 @@ De derde was van een speciale soort, omdat het de mixer was die was ingebouwd in
 
 
 
-De proliferatie van gecentraliseerde mixers had als effect dat het denken over gedecentraliseerd mixen van munten werd gekatalyseerd. Dit begon in de zomer van 2011 met een voorstel [proposal](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) van Hashcoin. Dit leidde tot de [formalisering](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902) van CoinJoin door Gregory Maxwell in 2013. Maar dat is een heel ander verhaal...
+De proliferatie van gecentraliseerde mixers had als effect dat het denken over gedecentraliseerd mixen van munten werd gekatalyseerd. Dit begon in de zomer van 2011 met een voorstel [proposal](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) van Hashcoin. Dit leidde tot de [formalisering](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902) van [CoinJoin](https://planb.academy/resources/glossary/coinjoin) door Gregory Maxwell in 2013. Maar dat is een heel ander verhaal...
 
 
 
@@ -1808,7 +1808,7 @@ Het tijdperk van het Amerikaanse Wilde Westen werd gekenmerkt door de goudkoorts
 
 
 
-In de herfst van 2010 leidde de eerste toevloed van miners tot het wijdverspreide gebruik van GPU (graphics processing unit) mining, dat veel winstgevender was dan CPU (centrale verwerkingseenheid) mining. Deze technische vooruitgang verhoogde echter de moeilijkheidsgraad van het netwerk zodanig dat kleine miners niet langer konden hopen om binnen een redelijke termijn een blok te vinden. Deze technische vooruitgang verhoogde echter de moeilijkheidsgraad van het netwerk zodanig dat kleine miners niet langer konden hopen om een blok te vinden binnen een redelijk tijdsbestek. Dit leidde tot de oprichting van minersgroepen, zoals BitcoinCZ Mining, de Slush Pool. Het momentum stopte daar niet: toen de prijs in 2011 steeg, ging de toestroom van miners door en pool mining normaliseerde zich snel.
+In de herfst van 2010 leidde de eerste toevloed van miners tot het wijdverspreide gebruik van GPU (graphics processing unit) mining, dat veel winstgevender was dan CPU (centrale verwerkingseenheid) mining. Deze technische vooruitgang verhoogde echter de [moeilijkheidsgraad](https://planb.academy/resources/glossary/difficulty) van het netwerk zodanig dat kleine miners niet langer konden hopen om binnen een redelijke termijn een blok te vinden. Deze technische vooruitgang verhoogde echter de moeilijkheidsgraad van het netwerk zodanig dat kleine miners niet langer konden hopen om een blok te vinden binnen een redelijk tijdsbestek. Dit leidde tot de oprichting van minersgroepen, zoals BitcoinCZ Mining, de Slush Pool. Het momentum stopte daar niet: toen de prijs in 2011 steeg, ging de toestroom van miners door en pool mining normaliseerde zich snel.
 
 
 
@@ -1996,7 +1996,7 @@ Een manier om de centralisatie, veroorzaakt door het wijdverspreide gebruik van 
 
 
 
-Het model [vertrouwde](https://im.forre.st/pb/85341005.txt) op een "sharechain, die werd onderhouden door deelnemende miners die peer-to-peer verbonden waren, vergelijkbaar met de Bitcoin blockchain. Elk aandeel bevat de vingerafdruk van het vorige aandeel, die de aandelen met elkaar verbindt en de integriteit van het geheel garandeert. De moeilijkheidsgraad (die aanvankelijk 600 keer lager is dan de moeilijkheidsgraad van het hoofdnetwerk) wordt regelmatig aangepast om een gemiddelde interval van 5 seconden te garanderen. De beloningsmethode is betaling volgens de laatste N aandelen (PPLNS), direct in de beloningstransactie, elke keer dat er een blok wordt gevonden.
+Het model [vertrouwde](https://im.forre.st/pb/85341005.txt) op een "sharechain, die werd onderhouden door deelnemende miners die [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) verbonden waren, vergelijkbaar met de Bitcoin blockchain. Elk aandeel bevat de vingerafdruk van het vorige aandeel, die de aandelen met elkaar verbindt en de integriteit van het geheel garandeert. De moeilijkheidsgraad (die aanvankelijk 600 keer lager is dan de moeilijkheidsgraad van het hoofdnetwerk) wordt regelmatig aangepast om een gemiddelde interval van 5 seconden te garanderen. De beloningsmethode is betaling volgens de laatste N aandelen (PPLNS), direct in de beloningstransactie, elke keer dat er een blok wordt gevonden.
 
 
 
@@ -2067,7 +2067,7 @@ Uiteraard ging de evolutie van mining niet alleen over de organisatie van hasher
 
 
 
-Deze laatste evolutie, [gepland](https://www.metzdowd.com/pipermail/cryptography/2008-November/014815.html) lang geleden door Satoshi Nakamoto, werd geleidelijk ontwikkeld dankzij programmeerbare logische circuits (FPGA's), die het mogelijk maakten om de hardware virtueel te optimaliseren voor Bitcoin's hashfunctie. Het eerste open FPGA-algoritme werd [gepubliceerd](https://bitcointalk.org/index.php?topic=9047.msg130885#msg130885) in mei 2011, en ASIC paste FPGA-optimalisaties toe op de chips zelf. De eerste voorverkoop van ASIC, door het Amerikaanse bedrijf Butterfly Labs, [vond plaats](https://web.archive.org/web/20120619090952/http://news.yahoo.com/butterfly-labs-announces-next-generation-asic-lineup-054626776.html) in juni 2012. Uiteindelijk werd de eerste werkende ASIC, de Avalon ASIC, [gedistribueerd](https://bitcointalk.org/index.php?topic=137534.msg1465887#msg1465887) aan het grote publiek in januari 2013.
+Deze laatste evolutie, [gepland](https://www.metzdowd.com/pipermail/cryptography/2008-November/014815.html) lang geleden door Satoshi Nakamoto, werd geleidelijk ontwikkeld dankzij programmeerbare logische circuits (FPGA's), die het mogelijk maakten om de hardware virtueel te optimaliseren voor Bitcoin's [hashfunctie](https://planb.academy/resources/glossary/hash-function). Het eerste open FPGA-algoritme werd [gepubliceerd](https://bitcointalk.org/index.php?topic=9047.msg130885#msg130885) in mei 2011, en ASIC paste FPGA-optimalisaties toe op de chips zelf. De eerste voorverkoop van ASIC, door het Amerikaanse bedrijf Butterfly Labs, [vond plaats](https://web.archive.org/web/20120619090952/http://news.yahoo.com/butterfly-labs-announces-next-generation-asic-lineup-054626776.html) in juni 2012. Uiteindelijk werd de eerste werkende ASIC, de Avalon ASIC, [gedistribueerd](https://bitcointalk.org/index.php?topic=137534.msg1465887#msg1465887) aan het grote publiek in januari 2013.
 
 
 
@@ -2086,7 +2086,7 @@ Na het vertrek van Satoshi Nakamoto werd de softwareontwikkeling overgenomen doo
 
 
 
-In de winter van 2011-2012 ontstond er een controverse rond de implementatie van multihandtekening in Bitcoin. Het betrof onder andere het schema dat bekend staat als "Pay to Script Hash", of P2SH. Pete Rizzo en Aaron van Wirdum [zouden](https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war) dit conflict "de strijd om P2SH" noemen. Dit was het eerste grote conflict over de evolutie van het protocol, en het eerste dat de vraag van het bestuur opriep.
+In de winter van 2011-2012 ontstond er een controverse rond de implementatie van multihandtekening in Bitcoin. Het betrof onder andere het schema dat bekend staat als "Pay to [Script](https://planb.academy/resources/glossary/script) Hash", of P2SH. Pete Rizzo en Aaron van Wirdum [zouden](https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war) dit conflict "de strijd om P2SH" noemen. Dit was het eerste grote conflict over de evolutie van het protocol, en het eerste dat de vraag van het bestuur opriep.
 
 
 
@@ -2642,7 +2642,7 @@ Ondanks deze tegenslag is Litecoin een succesverhaal. Samen met namecoin is het 
 
 
 
-De mogelijkheid om geld te verdienen door Bitcoin te klonen en te profiteren van de stijgende waarde van de eenheden lag voor de hand. Al in november 2010, nog voordat het idee van BitDNS opkwam, werd deze mogelijkheid geopperd op het forum. Ribuck, een actief forumlid in die tijd, [schreef](https://bitcointalk.org/index.php?topic=1647.msg20646#msg20646) een aanklacht tegen toekomstige Bitcoin kopieën, en bedacht daarbij de term "shitcoin":
+De mogelijkheid om geld te verdienen door Bitcoin te klonen en te profiteren van de stijgende waarde van de eenheden lag voor de hand. Al in november 2010, nog voordat het idee van BitDNS opkwam, werd deze mogelijkheid geopperd op het forum. Ribuck, een actief forumlid in die tijd, [schreef](https://bitcointalk.org/index.php?topic=1647.msg20646#msg20646) een aanklacht tegen toekomstige Bitcoin kopieën, en bedacht daarbij de term "[shitcoin](https://planb.academy/resources/glossary/shitcoin)":
 
 
 
@@ -2675,7 +2675,7 @@ Vanaf de lente van 2012 werd het rustiger. Toch kwamen er in de loop van het jaa
 
 
 
-Proof of stake is een alternatief voor proof of work, waarbij de waarschijnlijkheid van het produceren van een blok wordt bepaald door het bezit van eenheden in plaats van door de verbruikte elektriciteit. Het werd voor het eerst [beschreven](https://www.links.org/files/decentralised-currencies.pdf) in juli 2011 door de Britse ontwikkelaar en activist Ben Laurie, en de naam werd [bedacht](https://bitcointalk.org/index.php?topic=27787.msg349645#msg349645) door een zekere QuantumMechanic op het Bitcoin forum.
+Proof of stake is een alternatief voor [proof of work](https://planb.academy/resources/glossary/proof-of-work), waarbij de waarschijnlijkheid van het produceren van een blok wordt bepaald door het bezit van eenheden in plaats van door de verbruikte elektriciteit. Het werd voor het eerst [beschreven](https://www.links.org/files/decentralised-currencies.pdf) in juli 2011 door de Britse ontwikkelaar en activist Ben Laurie, en de naam werd [bedacht](https://bitcointalk.org/index.php?topic=27787.msg349645#msg349645) door een zekere QuantumMechanic op het Bitcoin forum.
 
 
 

@@ -317,7 +317,7 @@ Em reação à experiência de John Law, Cantillon explica o que acontece ou dev
 ![image](assets/pt/017.webp)
 
 
-Para ele, há duas consequências principais da substituição de uma moeda sem valor real, como o papel-moeda, por uma moeda metálica. A primeira consequência é o que ele chama de "rejeição popular", o que significa uma desconfiança crescente em relação ao dinheiro sem valor. A segunda consequência é a inflação: o enfraquecimento monetário torna os bens mais caros.
+Para ele, há duas consequências principais da substituição de uma moeda sem valor real, como o papel-moeda, por uma moeda metálica. A primeira consequência é o que ele chama de "rejeição popular", o que significa uma desconfiança crescente em relação ao dinheiro sem valor. A segunda consequência é a [inflação](https://planb.academy/resources/glossary/inflation): o enfraquecimento monetário torna os bens mais caros.
 
 
 Em quarto lugar, na sua análise da **inflação**, Cantillon foi mais longe do que os seus contemporâneos. Tendo observado o colapso do sistema de Law, Cantillon percebeu que a inflação monetária não afecta todos por igual. Pelo contrário, enriquece uns e empobrece outros. Concluiu que a inflação tem um efeito redistributivo: aqueles que recebem a nova moeda emitida beneficiam primeiro do aumento do poder de compra, enquanto os que a recebem mais tarde empobrecem em resultado da emissão de nova moeda devido ao aumento das taxas de inflação.

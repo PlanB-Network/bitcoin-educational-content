@@ -824,7 +824,7 @@ W XX wieku pojawiły się dwa główne trendy:
 2.  **Drugi anarchokapitalista:**, który wierzy, że funkcje państwa powinny zostać sprywatyzowane i zarządzane przez rynek.
 
 
-Oba zgadzają się jednak co do fundamentalnej zasady suwerenności jednostki. Idee libertariańskie zostały wyrażone już w XVIII wieku przez fizjokratów, zwłaszcza Vincenta de Gournaya i Turgota, a następnie rozwinięte przez Condillaca, Jeana-Baptiste'a Saya i Frédérica Bastiata. W XX wieku zostały one podjęte i rozwinięte przez austriacką szkołę ekonomii, której głównymi autorami są Ludwig von Mises, Friedrich Hayek i Murray Rothbard.
+Oba zgadzają się jednak co do fundamentalnej zasady suwerenności jednostki. Idee libertariańskie zostały wyrażone już w XVIII wieku przez fizjokratów, zwłaszcza Vincenta de Gournaya i Turgota, a następnie rozwinięte przez Condillaca, Jeana-Baptiste'a Saya i Frédérica Bastiata. W XX wieku zostały one podjęte i rozwinięte przez [austriacką szkołę ekonomii](https://planb.academy/resources/glossary/austrian-school), której głównymi autorami są Ludwig von Mises, Friedrich Hayek i Murray Rothbard.
 
 
 
@@ -1624,10 +1624,10 @@ Pod koniec tego kursu uważamy, że konieczne jest zajęcie się pozycją polity
 
 
 
-Bitcoin to zdecentralizowana kryptowaluta stworzona przez Satoshi Nakamoto w 2008 r., która umożliwia niezaufane transakcje finansowe peer-to-peer.
+Bitcoin to zdecentralizowana [kryptowaluta](https://planb.academy/resources/glossary/cryptocurrency) stworzona przez Satoshi Nakamoto w 2008 r., która umożliwia niezaufane transakcje finansowe [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p).
 
 
-Bitcoin jest kontrolowany przez protokół oprogramowania open source, bez dyrektora generalnego, bez centrali, bez budżetu marketingowego i bez wyznaczonego organu. Oznacza to, że żaden podmiot polityczny ani rząd nie ma nad nim kontroli.
+Bitcoin jest kontrolowany przez protokół oprogramowania [open source](https://planb.academy/resources/glossary/foss), bez dyrektora generalnego, bez centrali, bez budżetu marketingowego i bez wyznaczonego organu. Oznacza to, że żaden podmiot polityczny ani rząd nie ma nad nim kontroli.
 
 
 
@@ -1643,7 +1643,7 @@ Podczas gdy sam Bitcoin nie jest ani prawicowy, ani lewicowy, ani nie należy do
 
 
 
-Czytając białą księgę Satoshi Nakamoto, widzimy, że Bitcoin został zaprojektowany w celu zaoferowania innowacyjnej ochrony przed dwoma głównymi współczesnymi zagrożeniami: powszechną inwigilacją i przyspieszeniem kreacji sztucznego pieniądza.
+Czytając [białą księgę](https://planb.academy/resources/glossary/white-paper) Satoshi Nakamoto, widzimy, że Bitcoin został zaprojektowany w celu zaoferowania innowacyjnej ochrony przed dwoma głównymi współczesnymi zagrożeniami: powszechną inwigilacją i przyspieszeniem kreacji sztucznego pieniądza.
 
 
 
@@ -1651,7 +1651,7 @@ Czytając białą księgę Satoshi Nakamoto, widzimy, że Bitcoin został zaproj
 
 
 
-2. Bitcoin umożliwia każdemu ochronę swoich oszczędności przed grabieżą własności prywatnej ucieleśnioną w inflacji monetarnej. Jest to próba podważenia kontroli państwa nad zarządzaniem pieniądzem jako instrumentem wymiany, a tym samym konkurowania z państwem. Kryzys finansowy z 2008 r. i pandemia Covid-19 uwypukliły wady obecnego systemu. Biliony dolarów wydrukowane z powietrza, aby zapobiec dalszemu załamaniu gospodarki, miały niszczycielskie skutki, za które wciąż płacimy.
+2. Bitcoin umożliwia każdemu ochronę swoich oszczędności przed grabieżą własności prywatnej ucieleśnioną w [inflacji](https://planb.academy/resources/glossary/inflation) monetarnej. Jest to próba podważenia kontroli państwa nad zarządzaniem pieniądzem jako instrumentem wymiany, a tym samym konkurowania z państwem. Kryzys finansowy z 2008 r. i pandemia Covid-19 uwypukliły wady obecnego systemu. Biliony dolarów wydrukowane z powietrza, aby zapobiec dalszemu załamaniu gospodarki, miały niszczycielskie skutki, za które wciąż płacimy.
 
 
 
@@ -1679,7 +1679,7 @@ Punktem wyjścia intelektualnego podejścia Satoshi Nakamoto jest zatem nadmiern
 
 
 
-Włączenie tego tytułu do bloku genezy jest otwarte na interpretację. Może się jednak wydawać, że jest to komentarz Satoshi na temat niepowodzeń tradycyjnych instytucji finansowych i jako deklaracja celu Bitcoin: zaoferowania alternatywy dla scentralizowanych systemów bankowych.
+Włączenie tego tytułu do [bloku genezy](https://planb.academy/resources/glossary/genesis-block) jest otwarte na interpretację. Może się jednak wydawać, że jest to komentarz Satoshi na temat niepowodzeń tradycyjnych instytucji finansowych i jako deklaracja celu Bitcoin: zaoferowania alternatywy dla scentralizowanych systemów bankowych.
 
 
 
@@ -1723,7 +1723,7 @@ W tym sensie kieruje się wizją świata, która jest zarówno moralna, jak i po
 
 
 
-Ale Bitcoin nie pojawił się znikąd. Opiera się na postępach w matematyce, fizyce, informatyce i filozofii. Satoshi Nakamoto, choć genialny, opierał się na pomysłach innych innowatorów. Wśród nich są pionierzy ruchu cypherpunk.
+Ale Bitcoin nie pojawił się znikąd. Opiera się na postępach w matematyce, fizyce, informatyce i filozofii. Satoshi Nakamoto, choć genialny, opierał się na pomysłach innych innowatorów. Wśród nich są pionierzy ruchu [cypherpunk](https://planb.academy/resources/glossary/cypherpunks).
 
 
 
@@ -1770,7 +1770,7 @@ I dodaje:
 
 > poufność w otwartym społeczeństwie wymaga anonimowych systemów transakcyjnych. Do tej pory głównym systemem tego typu była gotówka.
 
-Właśnie dlatego kryptografia będzie wykorzystywana jako narzędzie oporu przeciwko wszelkim formom kontroli państwowej i korporacyjnej. Zapewnia ona, że każda ze stron transakcji wie tylko to, co jest ściśle niezbędne dla tej transakcji.
+Właśnie dlatego [kryptografia](https://planb.academy/resources/glossary/cryptography) będzie wykorzystywana jako narzędzie oporu przeciwko wszelkim formom kontroli państwowej i korporacyjnej. Zapewnia ona, że każda ze stron transakcji wie tylko to, co jest ściśle niezbędne dla tej transakcji.
 
 
 

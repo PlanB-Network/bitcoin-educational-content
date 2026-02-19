@@ -1117,7 +1117,7 @@ Trong logic thống trị chính trị, tiền không còn là một loại hàn
 
 
 
-Ngay từ thời Trung cổ, Nicolas Oresme đã phân tích những tác hại của việc thao túng tiền tệ đối với thương mại. Việc giảm giá trị tiền tệ gây ra lạm phát và làm bất ổn giá cả, vì tín hiệu tiền tệ trở nên không chắc chắn khi người nắm quyền kiểm soát giá trị có thể tùy ý thay đổi nội dung của chúng. Bản thân tiền kim loại thường chỉ là một ảo ảnh, với những đồng xu chứa các hợp kim có giá trị thấp mà một số nhà văn tự do thế kỷ 19 gọi là "đồng assignat".
+Ngay từ thời Trung cổ, Nicolas Oresme đã phân tích những tác hại của việc thao túng tiền tệ đối với thương mại. Việc giảm giá trị tiền tệ gây ra [lạm phát](https://planb.academy/resources/glossary/inflation) và làm bất ổn giá cả, vì tín hiệu tiền tệ trở nên không chắc chắn khi người nắm quyền kiểm soát giá trị có thể tùy ý thay đổi nội dung của chúng. Bản thân tiền kim loại thường chỉ là một ảo ảnh, với những đồng xu chứa các hợp kim có giá trị thấp mà một số nhà văn tự do thế kỷ 19 gọi là "đồng assignat".
 
 
 

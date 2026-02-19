@@ -118,8 +118,6 @@ To wrap up the course, you'll be able to attempt the final exam to obtain your c
 Are you ready to fully take control of your IT security, strengthen your individual sovereignty and guarantee your online privacy? Let's go!
 
 
-*N.B.: If you come across any unfamiliar terms during the course, please consult [the glossary](https://planb.academy/resources/glossary) for definitions*
-
 
 ## Essential recap of SCU101
 
@@ -928,7 +926,7 @@ Parrot OS is also derived from Debian. It offers an environment for pentesting, 
 - **Tails**:
 
 
-Tails is a Debian-based, privacy-focused live distribution. Everything passes through the Tor network, and nothing is stored between user sessions. It's an ideal distribution for sensitive one-off uses (journalism, activism, seed Bitcoin generation...).
+Tails is a Debian-based, privacy-focused live distribution. Everything passes through the [Tor](https://planb.academy/resources/glossary/tor) network, and nothing is stored between user sessions. It's an ideal distribution for sensitive one-off uses (journalism, activism, [seed](https://planb.academy/resources/glossary/seed) Bitcoin generation...).
 
 
 https://planb.academy/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
@@ -2543,7 +2541,7 @@ For example, you could structure your sessions as follows:
 
 - An account dedicated to your professional activity, where you install only the software you strictly need (office suites, collaboration tools, professional messaging...). This session must not be used for free web browsing or software testing;
 - An account for personal use, used for everyday web browsing, social networking, streaming, or installing consumer applications. This is typically the session most exposed to browser attacks or suspicious downloads;
-- An account reserved for sensitive activities, such as consulting bank accounts, managing your Bitcoin wallets, or any other use requiring a high level of security. This account should be used exclusively for these tasks, with software installed limited to what is strictly necessary, and with a stricter network configuration;
+- An account reserved for sensitive activities, such as consulting bank accounts, managing your Bitcoin [wallets](https://planb.academy/resources/glossary/wallet), or any other use requiring a high level of security. This account should be used exclusively for these tasks, with software installed limited to what is strictly necessary, and with a stricter network configuration;
 - A guest or highly restricted account, intended exclusively for occasional use by family members, for example. This account must obviously have no administrator rights and limited access.
 
 
@@ -3036,7 +3034,7 @@ These modifications are not visible to the naked eye: the downloaded file may op
 A file may be intact (unmodified), but have been published by a malicious entity usurping the identity of the legitimate developer. Authenticity therefore aims to confirm that the file really does come from the official source, and not from an impostor, an unverified mirror site, or a hacker who has compromised the distribution server.
 
 
-This verification of origin is made possible by the digital signature, a cryptographic mechanism that links the file to the developer's private key. When you verify this signature using the developer's public key (distributed via secure channels), you can be sure that the file actually comes from that person.
+This verification of origin is made possible by the [digital signature](https://planb.academy/resources/glossary/digital-signature), a cryptographic mechanism that links the file to the developer's [private key](https://planb.academy/resources/glossary/private-key). When you verify this signature using the developer's [public key](https://planb.academy/resources/glossary/public-key) (distributed via secure channels), you can be sure that the file actually comes from that person.
 
 
 By checking both authenticity (i.e. that the installation file comes from the right source) and integrity (i.e. that it has not been modified since it was published by the legitimate developer), you can be sure you're installing the right software.
@@ -3054,10 +3052,10 @@ The legitimate developer usually publishes the Hash of the original file on its 
 The second tool is the digital signature. This verifies the authenticity of the installation software. The developer signs the file containing Hash with his private key, and you can verify this signature using the corresponding public key. This proves that the file has been published by the right person.
 
 
-This system relies on asymmetric cryptography and tools such as GnuPG (command line) or Kleopatra (Interface graphical for Windows). These tools must be properly configured, and the developer's public key must be verified via a secure channel (official website, fingerprint on Twitter...). Let's take a look at the practicalities.
+This system relies on asymmetric [cryptography](https://planb.academy/resources/glossary/cryptography) and tools such as GnuPG (command line) or Kleopatra (Interface graphical for Windows). These tools must be properly configured, and the developer's public key must be verified via a secure channel (official website, fingerprint on Twitter...). Let's take a look at the practicalities.
 
 
-To learn more about cryptographic hash functions and digital signatures, I invite you to take the free CYP 201 course offered on Plan ₿ Academy:
+To learn more about cryptographic [hash functions](https://planb.academy/resources/glossary/hash-function) and digital signatures, I invite you to take the free CYP 201 course offered on Plan ₿ Academy:
 
 
 https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
@@ -5950,7 +5948,7 @@ The history of the Internet goes back to the late 1960s, in a context of scienti
 
 ![Image](assets/fr/191.webp)
 
-The aim was also to design a resilient network, capable of continuing to operate even if part of its nodes were destroyed (a necessity in the midst of the Cold War). ARPANET enabled the first communications between remote computers in 1969.
+The aim was also to design a resilient network, capable of continuing to operate even if part of its [nodes](https://planb.academy/resources/glossary/node) were destroyed (a necessity in the midst of the Cold War). ARPANET enabled the first communications between remote computers in 1969.
 
 ![Image](assets/fr/192.webp)
 

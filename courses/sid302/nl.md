@@ -63,22 +63,22 @@ Duik in de wereld van de Liquid sidechain en ontketen nu zijn volledige potentie
 ### Liquid Network Architectuur en Consensusmodel
 
 
-De Liquid Network is een gefedereerde sidechain gebouwd op de Elements codebase, ontworpen om de mogelijkheden van Bitcoin uit te breiden terwijl het vertrouwt op zijn fundamentele veiligheid. In tegenstelling tot Bitcoin's Proof-of-Work, werkt Liquid op een Federated Consensus model. Het netwerk wordt onderhouden door een wereldwijd verspreide groep leden, waaronder beurzen, handelsdesks en infrastructuuraanbieders. Uit deze leden worden vijftien "functionarissen" geselecteerd om op te treden als blokondertekenaars.
+De Liquid Network is een gefedereerde sidechain gebouwd op de Elements codebase, ontworpen om de mogelijkheden van Bitcoin uit te breiden terwijl het vertrouwt op zijn fundamentele veiligheid. In tegenstelling tot Bitcoin's [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work), werkt Liquid op een Federated [Consensus](https://planb.academy/resources/glossary/consensus) model. Het netwerk wordt onderhouden door een wereldwijd verspreide groep leden, waaronder beurzen, handelsdesks en infrastructuuraanbieders. Uit deze leden worden vijftien "functionarissen" geselecteerd om op te treden als blokondertekenaars.
 
 
-Deze functionarissen produceren blokken op een deterministische round-robin manier, waarbij elke minuut een nieuw blok wordt gegenereerd. Deze precieze timing staat in contrast met de probabilistische tien-minuten-intervallen van Bitcoin. Om een blok geldig te laten zijn, zijn handtekeningen nodig van minstens 11 van de 15 functionarissen (een drempel van tweederde plus één). Dit mechanisme geeft Liquid "twee-blokken finaliteit", wat betekent dat zodra een transactie twee bevestigingen heeft (ongeveer twee minuten), het mathematisch onmogelijk is om de keten te reorganiseren. Deze snelheid en zekerheid zijn cruciaal voor arbitrage, geautomatiseerde handel en snelle vereffening tussen beurzen.
+Deze functionarissen produceren blokken op een deterministische round-robin manier, waarbij elke minuut een nieuw [blok](https://planb.academy/resources/glossary/block) wordt gegenereerd. Deze precieze timing staat in contrast met de probabilistische tien-minuten-intervallen van Bitcoin. Om een blok geldig te laten zijn, zijn handtekeningen nodig van minstens 11 van de 15 functionarissen (een drempel van tweederde plus één). Dit mechanisme geeft Liquid "twee-blokken finaliteit", wat betekent dat zodra een [transactie](https://planb.academy/resources/glossary/transaction-tx) twee bevestigingen heeft (ongeveer twee minuten), het mathematisch onmogelijk is om de keten te reorganiseren. Deze snelheid en zekerheid zijn cruciaal voor arbitrage, geautomatiseerde handel en snelle vereffening tussen beurzen.
 
 
-De federatie is dynamisch. Via het Dynamic Federation (Dynafed) protocol kan het netwerk functionarissen roteren of parameters bijwerken zonder dat er een harde fork nodig is. Hierdoor kan het systeem naadloos evolueren en hardware of leden vervangen met behoud van continue werking.
+De federatie is dynamisch. Via het Dynamic Federation (Dynafed) protocol kan het netwerk functionarissen roteren of parameters bijwerken zonder dat er een [harde fork](https://planb.academy/resources/glossary/fork) nodig is. Hierdoor kan het systeem naadloos evolueren en hardware of leden vervangen met behoud van continue werking.
 
 
 ### Confidential Transactions en vermogensbeheer
 
 
-Een bepalende eigenschap van Liquid is de ondersteuning voor Confidential Transactions (CT) en meerdere activa. Op de hoofdketen van Bitcoin zijn alle transactiedetails - verzender, ontvanger en bedrag - openbaar. In Liquid gebruikt CT cryptografische verplichtingen om het type activa en het bedrag te verbergen voor het openbare grootboek, terwijl het netwerk nog steeds kan verifiëren dat de transactie geldig is (d.w.z. dat er geen inflatie heeft plaatsgevonden). Alleen de deelnemers met de verblindsleutels kunnen de specifieke waarden zien, wat een niveau van commerciële privacy biedt dat essentieel is voor instellingen die grote posities verplaatsen.
+Een bepalende eigenschap van Liquid is de ondersteuning voor Confidential Transactions (CT) en meerdere activa. Op de hoofdketen van Bitcoin zijn alle transactiedetails - verzender, ontvanger en bedrag - openbaar. In Liquid gebruikt CT cryptografische verplichtingen om het type activa en het bedrag te verbergen voor het openbare grootboek, terwijl het netwerk nog steeds kan verifiëren dat de transactie geldig is (d.w.z. dat er geen [inflatie](https://planb.academy/resources/glossary/inflation) heeft plaatsgevonden). Alleen de deelnemers met de verblindsleutels kunnen de specifieke waarden zien, wat een niveau van commerciële privacy biedt dat essentieel is voor instellingen die grote posities verplaatsen.
 
 
-Liquid behandelt alle activa als "native" burgers van de blockchain. Dit omvat Liquid Bitcoin (LBTC), stablecoins zoals USDT en veiligheidstokens. Voor de uitgifte van activa zijn geen complexe smart contracts nodig; het is een basisfunctie van het protocol.
+Liquid behandelt alle activa als "native" burgers van de [blockchain](https://planb.academy/resources/glossary/blockchain). Dit omvat Liquid Bitcoin (LBTC), stablecoins zoals USDT en veiligheidstokens. Voor de uitgifte van activa zijn geen complexe smart contracts nodig; het is een basisfunctie van het protocol.
 
 
 #### Gereguleerde activa en AMP
@@ -97,7 +97,7 @@ Het "peg-out" proces stelt gebruikers in staat om LBTC in te wisselen voor Bitco
 
 #### Hardwarebeveiligingsmodules (HSM's)
 
-Beveiliging wordt strikt door hardware afgedwongen. Functionarissen bewaren geen privésleutels op standaardservers, maar gebruiken Hardware Security Modules (HSM's). Deze apparaten zijn air-gapped van de logica van de hostserver en zijn geprogrammeerd met strikte regels. Een HSM zal bijvoorbeeld weigeren om een blok te ondertekenen als de hoogte niet groter is dan de vorige, waardoor herschrijven van de geschiedenis wordt voorkomen. Dit "vijandige" beveiligingsmodel gaat ervan uit dat de hostserver gecompromitteerd kan worden, waardoor de sleutels veilig blijven, zelfs als de fysieke locatie wordt gekraakt.
+Beveiliging wordt strikt door hardware afgedwongen. Functionarissen bewaren geen [privésleutels](https://planb.academy/resources/glossary/private-key) op standaardservers, maar gebruiken Hardware Security Modules (HSM's). Deze apparaten zijn air-gapped van de logica van de hostserver en zijn geprogrammeerd met strikte regels. Een HSM zal bijvoorbeeld weigeren om een blok te ondertekenen als de hoogte niet groter is dan de vorige, waardoor herschrijven van de geschiedenis wordt voorkomen. Dit "vijandige" beveiligingsmodel gaat ervan uit dat de hostserver gecompromitteerd kan worden, waardoor de sleutels veilig blijven, zelfs als de fysieke locatie wordt gekraakt.
 
 
 ## Grondbeginselen van Elements
@@ -152,7 +152,7 @@ Interactie met een Elements knooppunt gebeurt voornamelijk via de JSON-RPC inter
 
 - Setup:** Een ontwikkelaar start meestal in de `regtest` modus. Dit maakt het mogelijk om direct blokken te genereren (`generateblock`) om transacties onmiddellijk te bevestigen, waarbij de bloktijd van 1 minuut van het live netwerk wordt omzeild.
 - Commando's:** Standaard Bitcoin commando's zoals `getblockchaininfo` zijn beschikbaar, naast Elements-specifieke commando's zoals `dumpblindingkey` (voor het controleren van CT's) of `pegin` (voor het verplaatsen van BTC naar de sidechain).
-- Aliassen:** Om meerdere nodes te beheren (bijvoorbeeld een "zender" en "ontvanger" voor testen), gebruiken ontwikkelaars vaak shell aliassen zoals `e1-cli` en `e2-cli` die naar verschillende gegevensmappen wijzen, waarmee een peer-to-peer netwerk op een enkele machine wordt gesimuleerd.
+- Aliassen:** Om meerdere [nodes](https://planb.academy/resources/glossary/node) te beheren (bijvoorbeeld een "zender" en "ontvanger" voor testen), gebruiken ontwikkelaars vaak shell aliassen zoals `e1-cli` en `e2-cli` die naar verschillende gegevensmappen wijzen, waarmee een [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) netwerk op een enkele machine wordt gesimuleerd.
 
 
 Deze architectuur stelt ontwikkelaars in staat om geavanceerde financiële toepassingen te bouwen, zoals effectenplatforms of privégateways voor betalingen, met behulp van de robuuste en vertrouwde tools van het Bitcoin ecosysteem.
@@ -169,10 +169,10 @@ Deze architectuur stelt ontwikkelaars in staat om geavanceerde financiële toepa
 ### Dwars-Layer-infrastructuur en HTLC's
 
 
-Het Bitcoin ecosysteem heeft zich ontwikkeld tot een architectuur met meerdere lagen, waarbij de Mainchain voor afwikkeling zorgt, Lightning voor snelheid en Liquid voor geavanceerde vermogensmogelijkheden. Het verplaatsen van waarde tussen deze lagen zonder gecentraliseerde tussenpersonen vereist een cryptografische primitieve zonder vertrouwen: Hash Time Locked Contract (HTLC).
+Het Bitcoin ecosysteem heeft zich ontwikkeld tot een architectuur met meerdere lagen, waarbij de Mainchain voor afwikkeling zorgt, Lightning voor snelheid en Liquid voor geavanceerde vermogensmogelijkheden. Het verplaatsen van waarde tussen deze lagen zonder gecentraliseerde tussenpersonen vereist een cryptografische primitieve zonder vertrouwen: [Hash](https://planb.academy/resources/glossary/hash-function) Time Locked Contract ([HTLC](https://planb.academy/resources/glossary/htlc)).
 
 
-Een HTLC creëert een voorwaardelijk betalingskanaal dat onafhankelijke systemen atomisch verbindt. Het functioneert via twee primaire beperkingen: een **hash lock** en een **time lock**.
+Een HTLC creëert een voorwaardelijk [betalingskanaal](https://planb.academy/resources/glossary/payment-channel) dat onafhankelijke systemen atomisch verbindt. Het functioneert via twee primaire beperkingen: een **hash lock** en een **time lock**.
 
 
 - Het Hash slot:** Gelden kunnen direct worden uitgegeven als de ontvanger een geheime "preimage" onthult die overeenkomt met een specifieke cryptografische hash.
@@ -185,20 +185,20 @@ Deze dual-path structuur zorgt voor veiligheid. Bij een cross-layer swap wordt h
 ### De Taproot en MuSig2 upgrade
 
 
-Oude HTLC's (SegWit v0) functioneerden goed, maar hadden nadelen op het gebied van privacy en efficiëntie. Ze vereisten het publiceren van de volledige scriptlogica on-chain, waardoor swaptransacties gemakkelijk identificeerbaar waren voor blockchainanalisten en duurder waren vanwege de datagrootte. De introductie van Taproot (SegWit v1) en het MuSig2 protocol heeft deze architectuur gerevolutioneerd.
+Oude HTLC's ([SegWit](https://planb.academy/resources/glossary/segwit) v0) functioneerden goed, maar hadden nadelen op het gebied van privacy en efficiëntie. Ze vereisten het publiceren van de volledige [scriptlogica](https://planb.academy/resources/glossary/script) on-chain, waardoor swaptransacties gemakkelijk identificeerbaar waren voor blockchainanalisten en duurder waren vanwege de datagrootte. De introductie van [Taproot](https://planb.academy/resources/glossary/taproot) (SegWit v1) en het MuSig2 protocol heeft deze architectuur gerevolutioneerd.
 
 
-Taproot maakt **Key Aggregation** mogelijk via MuSig2. In plaats van een complex script met meerdere publieke sleutels te onthullen, laat MuSig2 de swapdeelnemers hun sleutels combineren in een enkele geaggregeerde publieke sleutel.
+Taproot maakt **Key Aggregation** mogelijk via MuSig2. In plaats van een complex script met meerdere [publieke sleutels](https://planb.academy/resources/glossary/public-key) te onthullen, laat MuSig2 de swapdeelnemers hun sleutels combineren in een enkele geaggregeerde publieke sleutel.
 
 
 - Coöperatief "Sleutelpad":** Als beide partijen akkoord gaan met de ruil (het "gelukkige pad"), ondertekenen ze de transactie mede. Voor het netwerk ziet dit er identiek uit als een standaard betaling met één handtekening. Het verbruikt minimale blokruimte en onthult absoluut geen informatie over de ruilvoorwaarden.
-- Adversarial "Script Path":** Als een partij niet meer reageert of kwaadwillend is, wordt het onderliggende script (dat de hash/tijdsloten bevat) alleen dan onthuld. Dit is georganiseerd in een Merkle-boom, waardoor de eerlijke partij alleen de specifieke tak onthult die nodig is om geld terug te krijgen en de rest van de contractlogica verborgen blijft.
+- Adversarial "Script Path":** Als een partij niet meer reageert of kwaadwillend is, wordt het onderliggende script (dat de hash/tijdsloten bevat) alleen dan onthuld. Dit is georganiseerd in een [Merkle-boom](https://planb.academy/resources/glossary/merkle-tree), waardoor de eerlijke partij alleen de specifieke tak onthult die nodig is om geld terug te krijgen en de rest van de contractlogica verborgen blijft.
 
 
 ### Praktische implementatie: Liquid Bliksem Wissels
 
 
-In de praktijk maken deze protocollen een naadloze uitwisseling tussen de Bitcoin lagen mogelijk. Een typische Liquid-naar-Lightning swap begint met een cliënt die een swap aanvraagt bij een dienstverlener. De cliënt levert een Lightning-factuur en de provider vergrendelt de equivalente Bitcoin1 (L-BTC) in een Taproot HTLC adres.
+In de praktijk maken deze protocollen een naadloze uitwisseling tussen de Bitcoin lagen mogelijk. Een typische Liquid-naar-Lightning swap begint met een cliënt die een swap aanvraagt bij een dienstverlener. De cliënt levert een [Lightning-factuur](https://planb.academy/resources/glossary/invoice-lightning) en de provider vergrendelt de equivalente Bitcoin1 (L-BTC) in een Taproot HTLC adres.
 
 
 De atomiciteit wordt afgedwongen wanneer de betaling wordt vereffend. Om de L-BTC te claimen, moet de dienstverlener het preimage hebben. Ze krijgen dit preimage alleen wanneer ze de Lightning-factuur van de klant met succes betalen. Op het moment dat de Lightning betaling is afgerond, wordt het preimage onthuld, waardoor de dienstverlener de Liquid fondsen kan ontgrendelen.
@@ -206,7 +206,7 @@ De atomiciteit wordt afgedwongen wanneer de betaling wordt vereffend. Om de L-BT
 
 #### Wallet abstractie en UTXO beheer
 
-Voor eindgebruikers is deze complexiteit volledig geabstraheerd. Moderne wallets zoals Aqua handelen het genereren van sleutels, het aanmaken van facturen en het ondertekenen af op de achtergrond. De gebruiker "betaalt" gewoon een Lightning-factuur met zijn Liquid saldo. Achter de schermen beheert de service de UTXO consolidatie, waarbij kleine, niet-opgeëiste of terugbetaalde uitgangen periodiek worden opgeveegd om de wallet efficiëntie te behouden en de impact op de kosten tijdens drukke periodes te minimaliseren.
+Voor eindgebruikers is deze complexiteit volledig geabstraheerd. Moderne [wallets](https://planb.academy/resources/glossary/wallet) zoals Aqua handelen het genereren van sleutels, het aanmaken van facturen en het ondertekenen af op de achtergrond. De gebruiker "betaalt" gewoon een Lightning-factuur met zijn Liquid saldo. Achter de schermen beheert de service de [UTXO](https://planb.academy/resources/glossary/utxo) consolidatie, waarbij kleine, niet-opgeëiste of terugbetaalde uitgangen periodiek worden opgeveegd om de wallet efficiëntie te behouden en de impact op de kosten tijdens drukke periodes te minimaliseren.
 
 
 ## Liquid Network Overzicht
@@ -220,7 +220,7 @@ Voor eindgebruikers is deze complexiteit volledig geabstraheerd. Moderne wallets
 ### Liquid Network Architectuur en consensus
 
 
-De Liquid Network werkt als een gefedereerde zijketen, gebouwd op de **Elements** codebase. Terwijl Elements - een fork van Bitcoin Core - de softwarebasis levert, is Liquid de implementatie van het productienetwerk. In tegenstelling tot Bitcoin's Proof-of-Work, die vertrouwt op concurrerend mining, gebruikt Liquid een **Federated Consensus** model.
+De Liquid Network werkt als een gefedereerde zijketen, gebouwd op de **Elements** codebase. Terwijl Elements - een fork van Bitcoin Core - de softwarebasis levert, is Liquid de implementatie van het productienetwerk. In tegenstelling tot Bitcoin's Proof-of-Work, die vertrouwt op concurrerend [mining](https://planb.academy/resources/glossary/mining), gebruikt Liquid een **Federated Consensus** model.
 
 
 Het netwerk wordt onderhouden door vijftien wereldwijd verspreide "functionarissen" Deze entiteiten beheren gespecialiseerde servers die twee cruciale rollen vervullen:
@@ -283,7 +283,7 @@ Om een lange levensduur te garanderen, maakt Liquid gebruik van Dynafed, een pro
 ### Liquid Network: Bedrijfsstrategie en ecosysteem
 
 
-Liquid is meer dan een technische sidechain; het is een bedrijfsgerichte infrastructuurlaag die ontworpen is om de complexe vereisten van kapitaalmarkten aan te kunnen die Bitcoin mainchain niet efficiënt kan ondersteunen. Terwijl Lightning Network geoptimaliseerd is voor hoogfrequente betalingen met een lage waarde, richt Liquid zich op overdrachten met een hoge waarde, uitgifte van activa en settlement tussen beurzen.
+Liquid is meer dan een technische sidechain; het is een bedrijfsgerichte infrastructuurlaag die ontworpen is om de complexe vereisten van kapitaalmarkten aan te kunnen die Bitcoin mainchain niet efficiënt kan ondersteunen. Terwijl [Lightning Network](https://planb.academy/resources/glossary/lightning-network) geoptimaliseerd is voor hoogfrequente betalingen met een lage waarde, richt Liquid zich op overdrachten met een hoge waarde, uitgifte van activa en settlement tussen beurzen.
 
 
 Het ecosysteem wordt aangestuurd door de **Liquid Federation**, een consortium van ~73 bedrijven, waaronder beurzen, handelsdesks en infrastructuurleveranciers. Dit samenwerkingsmodel weerspiegelt de traditionele financiële clearinghouses, maar werkt met een grotere transparantie en aanzienlijk kortere afwikkelingstijden (2 minuten vs T+2 dagen).
@@ -358,7 +358,7 @@ De kern van de waardepropositie van het platform berust op twee primaire mogelij
 
 #### Operationele afwegingen
 
-Deze architectuur introduceert specifieke compromissen. Het systeem is afhankelijk van de beschikbaarheid van de AMP-server; als de server als medeondertekenaar optreedt en offline gaat, wordt de liquiditeit van activa onderbroken. Bovendien, terwijl de privacy van gebruiker tot gebruiker behouden blijft, moeten beleggers accepteren dat de uitgever volledig inzicht heeft in hun bezit. Dit model is ideaal voor security tokens die aan de regels voldoen, maar ongeschikt voor censuurbestendige cryptocurrencies.
+Deze architectuur introduceert specifieke compromissen. Het systeem is afhankelijk van de beschikbaarheid van de AMP-server; als de server als medeondertekenaar optreedt en offline gaat, wordt de liquiditeit van activa onderbroken. Bovendien, terwijl de privacy van gebruiker tot gebruiker behouden blijft, moeten beleggers accepteren dat de uitgever volledig inzicht heeft in hun bezit. Dit model is ideaal voor security tokens die aan de regels voldoen, maar ongeschikt voor censuurbestendige [cryptocurrencies](https://planb.academy/resources/glossary/cryptocurrency).
 
 
 ### Evolutie van architectuur en integratietrajecten

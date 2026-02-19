@@ -70,14 +70,14 @@ maailmanlaajuinen pankkitoiminnan ulkopuolelle jäävä väestö
 ### Bitcoin: taloudellinen vapaus ja sen vaikutus El Salvadoriin
 
 
-Tämä luento, **"Miksi El Salvador tarvitsee Bitcoin:n "**, tarjoaa yleiskatsauksen **Bitcoin-protokollaan**, sen juuriin **Cypherpunk-liikkeessä** ja sen rooliin vapautta edistävänä välineenä, joka mahdollistaa **sensuroimattoman rahan**, **rahoituksellisen osallisuuden** ja paljon muuta.
+Tämä luento, **"Miksi El Salvador tarvitsee Bitcoin:n "**, tarjoaa yleiskatsauksen **Bitcoin-protokollaan**, sen juuriin **[Cypherpunk-liikkeessä](https://planb.academy/resources/glossary/cypherpunks)** ja sen rooliin vapautta edistävänä välineenä, joka mahdollistaa **sensuroimattoman rahan**, **rahoituksellisen osallisuuden** ja paljon muuta.
 
 
 **Määritelmät:**
 
 
 - _Bitcoin-protokolla:_ Säännöt ja rakenne, jotka ohjaavat Bitcoin:n toimintaa hajautettuna digitaalisena valuuttana.
-- __Cypherpunk-liike:_ Ryhmä, joka kannattaa salakirjoituksen käyttöä yksityisyyden ja vapauden varmistamiseksi digitaalisissa tiloissa.
+- __Cypherpunk-liike:_ Ryhmä, joka kannattaa [salakirjoituksen](https://planb.academy/resources/glossary/cryptography) käyttöä yksityisyyden ja vapauden varmistamiseksi digitaalisissa tiloissa.
 - _Rahoitusmarkkinoille osallistaminen:_ Rahoituspalvelujen tarjoaminen ihmisille, jotka ovat jääneet perinteisten pankkijärjestelmien ulkopuolelle ja joihin usein viitataan nimellä "ilman pankkitoimintaa"
 - _ Sensuroimaton raha:_ Raha, jota hallitukset tai rahoituslaitokset eivät voi valvoa tai rajoittaa.
 
@@ -90,10 +90,10 @@ Rikkin matka Bitcoin:een juontaa juurensa hänen työhönsä ihmisoikeuksien puo
 ### Bitcoin:n maailmanlaajuinen merkitys ja haasteet
 
 
-Bitcoin on paljon muutakin kuin digitaalinen valuutta. Se on väline yksityisyyden suojaamiseen ja taloudellisen vapauden varmistamiseen. Käyttämällä **yksityisiä avaimia**, jotka toimivat ikään kuin pääsalasanojen tavoin, käyttäjät voivat hallita Bitcoin:ttä turvallisesti ja hallita varojaan täysin.
+Bitcoin on paljon muutakin kuin digitaalinen valuutta. Se on väline yksityisyyden suojaamiseen ja taloudellisen vapauden varmistamiseen. Käyttämällä **[yksityisiä avaimia](https://planb.academy/resources/glossary/private-key)**, jotka toimivat ikään kuin pääsalasanojen tavoin, käyttäjät voivat hallita Bitcoin:ttä turvallisesti ja hallita varojaan täysin.
 
 
-Autoritaarisissa järjestelmissä, joissa taloudellinen sorto on yleistä, Bitcoin:n **sensoimaton luonne** antaa ihmisille mahdollisuuden tehdä liiketoimia ilman pelkoa siitä, että heidän varansa jäädytetään tai takavarikoidaan. Sen **avoimen lähdekoodin** luonne rohkaisee maailmanlaajuista osallistumista ja edistää yhteisöä, joka parantaa verkkoa jatkuvasti.
+Autoritaarisissa järjestelmissä, joissa taloudellinen sorto on yleistä, Bitcoin:n **sensoimaton luonne** antaa ihmisille mahdollisuuden tehdä [liiketoimia](https://planb.academy/resources/glossary/transaction-tx) ilman pelkoa siitä, että heidän varansa jäädytetään tai takavarikoidaan. Sen **[avoimen lähdekoodin](https://planb.academy/resources/glossary/foss)** luonne rohkaisee maailmanlaajuista osallistumista ja edistää yhteisöä, joka parantaa verkkoa jatkuvasti.
 
 
 ![Image](assets/en/002.webp)
@@ -143,7 +143,7 @@ Cypherpunk-liike** syntyi 1900-luvun loppupuolella, ja se ajoi yksityisyyden ja 
 #### Itävaltalainen taloustiede
 
 
-Samaan aikaan **australialainen taloustiede** loi perustan Bitcoin:n rahapoliittisille periaatteille. Taloustieteilijät, kuten **Ludwig von Mises** ja **Friedrich Hayek**, väittivät, että terveen rahan pitäisi olla niukkaa, kestävää ja hyvää arvon säilyttäjää - nämä keskeiset periaatteet muokkasivat Bitcoin:n suunnittelua.
+Samaan aikaan **[australialainen taloustiede](https://planb.academy/resources/glossary/austrian-school)** loi perustan Bitcoin:n rahapoliittisille periaatteille. Taloustieteilijät, kuten **Ludwig von Mises** ja **Friedrich Hayek**, väittivät, että terveen rahan pitäisi olla niukkaa, kestävää ja hyvää arvon säilyttäjää - nämä keskeiset periaatteet muokkasivat Bitcoin:n suunnittelua.
 
 
 **Määritelmä:**
@@ -221,7 +221,7 @@ Kiitos, että olette paneutuneet tähän aineistoon!
 
 :::video id=2c008198-7f4e-4e60-87a0-0af17528ad2f:::
 
-"Miten Bitcoin" -kurssin ensimmäisellä luennolla aloimme tutkia Bitcoin-verkon perustana olevaa teknologiapinoa. Käsittelimme muun muassa **Hashcash**, **transaktiot**, **Blockchain**, **Lightning Network** ja muita Bitcoin-protokollan keskeisiä komponentteja.
+"Miten Bitcoin" -kurssin ensimmäisellä luennolla aloimme tutkia Bitcoin-verkon perustana olevaa teknologiapinoa. Käsittelimme muun muassa **Hashcash**, **transaktiot**, **[Blockchain](https://planb.academy/resources/glossary/blockchain)**, **[Lightning Network](https://planb.academy/resources/glossary/lightning-network)** ja muita Bitcoin-protokollan keskeisiä komponentteja.
 
 
 ### Bitcoin:n teknologinen pino osa 2
@@ -234,13 +234,13 @@ Toisella luennolla "Miten Bitcoin" tutustuimme syvällisemmin Bitcoin:n teknolog
 ### Bitcoin rakenne
 
 
-Bitcoin:n juuret perustuvat useisiin keskeisiin innovaatioihin, alkaen **Adam Backin Hashcashista**, Proof-of-Work (PoW) -järjestelmästä, joka on suunniteltu estämään sähköpostiroskapostia ja palvelunestohyökkäyksiä vaatimalla lähettäjiä suorittamaan laskutehtäviä. Tästä PoW-konseptista tuli Bitcoin:n turvallisuuden kulmakivi.
+Bitcoin:n juuret perustuvat useisiin keskeisiin innovaatioihin, alkaen **Adam Backin Hashcashista**, [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) (PoW) -järjestelmästä, joka on suunniteltu estämään sähköpostiroskapostia ja palvelunestohyökkäyksiä vaatimalla lähettäjiä suorittamaan laskutehtäviä. Tästä PoW-konseptista tuli Bitcoin:n turvallisuuden kulmakivi.
 
 
-Bitcoin perustuu **digitaalisiin allekirjoituksiin**, joissa käytetään **elliptisen käyrän salausta** tapahtumien suojaamiseksi ja todentamiseksi. **Elliptic Curve Digital Signature Algorithm (ECDSA)** varmistaa, että vain Bitcoin:n laillinen omistaja voi valtuuttaa tapahtumat paljastamatta yksityisiä avaimiaan.
+Bitcoin perustuu **[digitaalisiin allekirjoituksiin](https://planb.academy/resources/glossary/digital-signature)**, joissa käytetään **elliptisen käyrän salausta** tapahtumien suojaamiseksi ja todentamiseksi. **Elliptic Curve Digital Signature Algorithm ([ECDSA](https://planb.academy/resources/glossary/ecdsa))** varmistaa, että vain Bitcoin:n laillinen omistaja voi valtuuttaa tapahtumat paljastamatta yksityisiä avaimiaan.
 
 
-**Satoshi Nakamoto**, Bitcoin:n pseudonyymi, laajensi näitä ajatuksia siirtymällä PoW-mallista hajautettuun **Blockchain**-malliin. Tämä mahdollisti sen, että solmujen hajautettu verkko voi validoida ja kirjata transaktioita ilman keskusviranomaista, mikä merkitsi merkittävää kehitystä aiemmista digitaalisen valuutan yrityksistä.
+**Satoshi Nakamoto**, Bitcoin:n pseudonyymi, laajensi näitä ajatuksia siirtymällä PoW-mallista hajautettuun **Blockchain**-malliin. Tämä mahdollisti sen, että [solmujen](https://planb.academy/resources/glossary/node) hajautettu verkko voi validoida ja kirjata transaktioita ilman keskusviranomaista, mikä merkitsi merkittävää kehitystä aiemmista digitaalisen valuutan yrityksistä.
 
 
 **Määritelmät:**
@@ -252,16 +252,16 @@ Bitcoin perustuu **digitaalisiin allekirjoituksiin**, joissa käytetään **elli
 ### Blockchain-mekaniikka ja tapahtumien validointi
 
 
-Bitcoin-transaktiot validoidaan ja lisätään lohkoihin **minereiden** toimesta, jotka kilpailevat Proof-of-Work-algoritmia käyttävän salakirjoituspalapelin ratkaisemisesta. Tehtävänä on löytää Hash, jossa on tietty määrä etunollia, muuttamalla **Nonce**-arvoa, kunnes oikea Hash on löydetty.
+Bitcoin-transaktiot validoidaan ja lisätään lohkoihin **minereiden** toimesta, jotka kilpailevat Proof-of-Work-algoritmia käyttävän salakirjoituspalapelin ratkaisemisesta. Tehtävänä on löytää [Hash](https://planb.academy/resources/glossary/hash-function), jossa on tietty määrä etunollia, muuttamalla **[Nonce](https://planb.academy/resources/glossary/nonce)**-arvoa, kunnes oikea Hash on löydetty.
 
 
-Jokainen **lohko** Blockchain:ssä koostuu **otsikosta** (jossa on edellisen lohkon Hash:n kaltaisia tietoja) ja luettelosta tapahtumista. Ensimmäinen lohko, joka tunnetaan nimellä **Genesis-lohko**, on ainutlaatuinen, koska sillä ei ole edeltäjää.
+Jokainen **[lohko](https://planb.academy/resources/glossary/block)** Blockchain:ssä koostuu **[otsikosta](https://planb.academy/resources/glossary/block-header)** (jossa on edellisen lohkon Hash:n kaltaisia tietoja) ja luettelosta tapahtumista. Ensimmäinen lohko, joka tunnetaan nimellä **[Genesis-lohko](https://planb.academy/resources/glossary/genesis-block)**, on ainutlaatuinen, koska sillä ei ole edeltäjää.
 
 
 ![Image](assets/en/004.webp)
 
 
-Ennen kuin tapahtumat sisällytetään lohkoon, ne ovat **Mempool**:ssä, jossa ne odottavat validointia. Kun transaktiot on validoitu, ne lisätään juuri louhittuun lohkoon ja sen jälkeen Blockchain:een.
+Ennen kuin tapahtumat sisällytetään lohkoon, ne ovat **[Mempool](https://planb.academy/resources/glossary/mempool)**:ssä, jossa ne odottavat validointia. Kun transaktiot on validoitu, ne lisätään juuri louhittuun lohkoon ja sen jälkeen Blockchain:een.
 
 
 **Määritelmät:**
@@ -274,13 +274,13 @@ Ennen kuin tapahtumat sisällytetään lohkoon, ne ovat **Mempool**:ssä, jossa 
 ### Skaalautuvuus, yksityisyys ja kehitys Bitcoin:ssa
 
 
-Bitcoin:n haasteet liittyvät skaalautuvuuteen ja yksityisyyteen. Blockchain:n rajallinen tapahtumakapasiteetti vaikeuttaa suurten tapahtumamäärien käsittelyä. Address:n kaltaiset ratkaisut, kuten **Lightning Network** Address, ratkaisevat nämä haasteet mahdollistamalla off-chain-tapahtumat maksukanavien kautta, mikä lisää nopeutta ja yksityisyyttä.
+Bitcoin:n haasteet liittyvät skaalautuvuuteen ja yksityisyyteen. Blockchain:n rajallinen tapahtumakapasiteetti vaikeuttaa suurten tapahtumamäärien käsittelyä. Address:n kaltaiset ratkaisut, kuten **Lightning Network** Address, ratkaisevat nämä haasteet mahdollistamalla off-chain-tapahtumat [maksukanavien](https://planb.academy/resources/glossary/payment-channel) kautta, mikä lisää nopeutta ja yksityisyyttä.
 
 
-**Full node:n** käyttäminen on välttämätöntä hajauttamisen ja turvallisuuden varmistamiseksi, mutta **Simplified Payment Verification (SPV) -solmut** mahdollistavat kevyemmän osallistumisen jonkin verran turvallisuuden kustannuksella.
+**[Full node](https://planb.academy/resources/glossary/full-node):n** käyttäminen on välttämätöntä hajauttamisen ja turvallisuuden varmistamiseksi, mutta **Simplified Payment Verification (SPV) -solmut** mahdollistavat kevyemmän osallistumisen jonkin verran turvallisuuden kustannuksella.
 
 
-Bitcoin:n kehitys on kehittynyt suorituskyvyn ja turvallisuuden parantamiseksi. Tärkeimpiä parannuksia ovat **Segregated Witness (SegWit)**, joka puuttuu transaktioiden muokattavuuteen ja kasvattaa tehokasta lohkokokoa, sekä **Taproot**, joka parantaa yksityisyyttä ja mahdollistaa monimutkaisemmat sopimukset käyttämällä **Merkleized Abstract Syntax Trees (MAST)**.
+Bitcoin:n kehitys on kehittynyt suorituskyvyn ja turvallisuuden parantamiseksi. Tärkeimpiä parannuksia ovat **Segregated Witness ([SegWit](https://planb.academy/resources/glossary/segwit))**, joka puuttuu transaktioiden muokattavuuteen ja kasvattaa tehokasta lohkokokoa, sekä **[Taproot](https://planb.academy/resources/glossary/taproot)**, joka parantaa yksityisyyttä ja mahdollistaa monimutkaisemmat sopimukset käyttämällä **Merkleized Abstract Syntax Trees (MAST)**.
 
 
 **Määritelmät:**
@@ -307,7 +307,7 @@ Bitcoin:n rakenne ja jatkuva kehitys ovat osoitus sen teknologian innovatiivisuu
 
 :::video id=c5e2e575-fa9d-4430-805f-205c2cf6f2a5:::
 
-Tällä luennolla kumotaan yleisiä myyttejä, jotka liittyvät **Bitcoin:aan**, **lohkoketjuihin** ja **kryptovaluuttoihin**. Käydään läpi Address:n harhaluuloja Bitcoin:n energiankulutuksesta, rikollisesta käytöstä ja laajemmasta "FUD" (pelko, epävarmuus, epäilys) -ilmiöstä, joka on levinnyt tästä teknologiasta.
+Tällä luennolla kumotaan yleisiä myyttejä, jotka liittyvät **Bitcoin:aan**, **lohkoketjuihin** ja **[kryptovaluuttoihin](https://planb.academy/resources/glossary/cryptocurrency)**. Käydään läpi Address:n harhaluuloja Bitcoin:n energiankulutuksesta, rikollisesta käytöstä ja laajemmasta "FUD" (pelko, epävarmuus, epäilys) -ilmiöstä, joka on levinnyt tästä teknologiasta.
 
 
 ### Bitcoin vs. Blockchain
@@ -325,7 +325,7 @@ Yleinen väärinkäsitys on, että **Bitcoin** ja **Blockchain** ovat samat. Bit
 ### Bitcoin vs. Crypto
 
 
-Toinen tärkeä ero on se, että **Bitcoin** luotiin ainoastaan tarjoamaan hajautettu, sensuurin kestävä rahamuoto, joka ei ole minkään yrityksen tai hallituksen valvonnassa. Kryptovaluutat **shitcoins** sen sijaan on usein suunniteltu keskitetysti valvottaviksi, ja ne ovat ensisijaisesti olemassa rikastuttaakseen niiden takana olevia yrityksiä saalistuskäytännöillä, pumppaus- ja myyntijärjestelmillä tai suoranaisilla huijauksilla. Näillä rahakkeilla ei tyypillisesti ole muuta todellista tarkoitusta kuin tuottaa nopeaa voittoa niiden luojille tietämättömien sijoittajien kustannuksella. Bitcoin on kuitenkin ainoa aidosti hajautettu digitaalinen valuutta, jonka turvallisuus ja kestävyys on todistetusti todistettu.
+Toinen tärkeä ero on se, että **Bitcoin** luotiin ainoastaan tarjoamaan hajautettu, sensuurin kestävä rahamuoto, joka ei ole minkään yrityksen tai hallituksen valvonnassa. Kryptovaluutat **[shitcoins](https://planb.academy/resources/glossary/shitcoin)** sen sijaan on usein suunniteltu keskitetysti valvottaviksi, ja ne ovat ensisijaisesti olemassa rikastuttaakseen niiden takana olevia yrityksiä saalistuskäytännöillä, pumppaus- ja myyntijärjestelmillä tai suoranaisilla huijauksilla. Näillä rahakkeilla ei tyypillisesti ole muuta todellista tarkoitusta kuin tuottaa nopeaa voittoa niiden luojille tietämättömien sijoittajien kustannuksella. Bitcoin on kuitenkin ainoa aidosti hajautettu digitaalinen valuutta, jonka turvallisuus ja kestävyys on todistetusti todistettu.
 
 
 **Määritelmät:**
@@ -339,7 +339,7 @@ Toinen tärkeä ero on se, että **Bitcoin** luotiin ainoastaan tarjoamaan hajau
 ### Energiankulutus ja ympäristövaikutukset
 
 
-Yksi Bitcoin:n yleisimmistä kritiikeistä on sen **energiankulutus**. Vaikka Bitcoin Mining kuluttaa energiaa, sen osuus on alle 1 % maailmanlaajuisesta sähkönkulutuksesta ja alle 3 % hukkaenergiasta. Lisäksi **Bitcoin Mining** hyödyntää usein käyttämättömiä tai uusiutuvia energialähteitä, mikä tekee siitä usein esitettyä vihreämmän.
+Yksi Bitcoin:n yleisimmistä kritiikeistä on sen **energiankulutus**. Vaikka Bitcoin [Mining](https://planb.academy/resources/glossary/mining) kuluttaa energiaa, sen osuus on alle 1 % maailmanlaajuisesta sähkönkulutuksesta ja alle 3 % hukkaenergiasta. Lisäksi **Bitcoin Mining** hyödyntää usein käyttämättömiä tai uusiutuvia energialähteitä, mikä tekee siitä usein esitettyä vihreämmän.
 
 
 **Määritelmät:**
@@ -356,7 +356,7 @@ Bitcoin:ää kritisoidaan usein siitä, että sitä käytetään rikollisessa to
 ### Yksityisyys ja korvattavuus
 
 
-*gW-118:n olennaisia ominaisuuksia ovat *Salaisuus** ja **siitettävyys**. Yksityisyys suojaa käyttäjiä sortohallinnoissa, ja korvattavuus varmistaa, että jokainen Bitcoin on samanarvoinen sen historiasta riippumatta. Tämä tekee Bitcoin:sta luotettavan ja oikeudenmukaisen rahan.
+*gW-118:n olennaisia ominaisuuksia ovat *Salaisuus** ja **siitettävyys**. Yksityisyys suojaa käyttäjiä sortohallinnoissa, ja [korvattavuus](https://planb.academy/resources/glossary/fungibility) varmistaa, että jokainen Bitcoin on samanarvoinen sen historiasta riippumatta. Tämä tekee Bitcoin:sta luotettavan ja oikeudenmukaisen rahan.
 
 
 **Määritelmät:**
@@ -853,7 +853,7 @@ Specterin konfiguroimiseksi se on yhdistettävä Bitcoin core- tai Electrum-palv
 **Johdannaispolkujen ja julkisen avaimen haun selittäminen**
 
 
-Johdannaispolkujen ymmärtäminen on olennaista Wallet:n hallinnassa. Johdannaispolut määrittelevät, miten avaimet luodaan pääavaimesta. Specterissä voit hakea julkisia avaimia yhdistämällä Hardware Wallet:n (tai emulaattorin) ja navigoimalla Wallet:n Interface:n kautta. Varmista, että dokumentoit nämä polut tulevaa käyttöä varten.
+Johdannaispolkujen ymmärtäminen on olennaista Wallet:n hallinnassa. Johdannaispolut määrittelevät, miten avaimet luodaan pääavaimesta. Specterissä voit hakea [julkisia avaimia](https://planb.academy/resources/glossary/public-key) yhdistämällä Hardware Wallet:n (tai emulaattorin) ja navigoimalla Wallet:n Interface:n kautta. Varmista, että dokumentoit nämä polut tulevaa käyttöä varten.
 
 
 **Käytännön demonstraatio: Ledger-emulaattorin käyttö**
@@ -1008,7 +1008,7 @@ Bitcoin:n käytettävyyden parantaminen tapahtuu usein turvallisuuden ja yksityi
 #### Skaalautuvuuden ja yksityisyyden suojaa koskevat kompromissit
 
 
-Bitcoin-verkossa skaalautuvuus ja yksityisyys ovat usein ristiriidassa keskenään. Parannukset, jotka parantavat skaalautuvuutta, kuten suuremmat UTXO:t tai vähäisempi salauksen peittäminen, heikentävät yleensä yksityisyyttä. Toisaalta yksityisyyteen keskittyvät tekniikat, kuten Moneron rengasallekirjoitukset, parantavat käyttäjien anonymiteettiä, mutta vaikuttavat negatiivisesti skaalautuvuuteen. Lisäksi tilatietosopimusten käyttöönotto, kuten Ethereumissa, lisää joustavuutta turvallisuuden ja skaalautuvuuden heikkenemisen kustannuksella. Näiden kompromissien tasapainottaminen on monimutkainen haaste, joka vaatii huolellista harkintaa.
+Bitcoin-verkossa skaalautuvuus ja yksityisyys ovat usein ristiriidassa keskenään. Parannukset, jotka parantavat skaalautuvuutta, kuten suuremmat [UTXO](https://planb.academy/resources/glossary/utxo):t tai vähäisempi salauksen peittäminen, heikentävät yleensä yksityisyyttä. Toisaalta yksityisyyteen keskittyvät tekniikat, kuten Moneron rengasallekirjoitukset, parantavat käyttäjien anonymiteettiä, mutta vaikuttavat negatiivisesti skaalautuvuuteen. Lisäksi tilatietosopimusten käyttöönotto, kuten Ethereumissa, lisää joustavuutta turvallisuuden ja skaalautuvuuden heikkenemisen kustannuksella. Näiden kompromissien tasapainottaminen on monimutkainen haaste, joka vaatii huolellista harkintaa.
 
 
 ### Yksityisyyden suojaa koskevat tekniikat
@@ -1144,7 +1144,7 @@ Vaalien turvaamiseksi voidaan esimerkiksi toteuttaa puolueetonta valvontaa tai p
 #### Luottamuksen todentaminen
 
 
-Luottamuksen todentaminen voidaan havainnollistaa PGP (Pretty Good Privacy) -varmennuksella. PGP-avainten sormenjälkien ja allekirjoitusten todentamisella käyttäjät voivat varmistaa digitaalisten identiteettien aitouden. Samanlaiset käytännöt ovat olennaisia, kun ohjelmistojen eheyttä todennetaan Hash-vertailun avulla (esim. SHA-256).
+Luottamuksen todentaminen voidaan havainnollistaa PGP (Pretty Good Privacy) -varmennuksella. PGP-avainten sormenjälkien ja allekirjoitusten todentamisella käyttäjät voivat varmistaa digitaalisten identiteettien aitouden. Samanlaiset käytännöt ovat olennaisia, kun ohjelmistojen eheyttä todennetaan Hash-vertailun avulla (esim. [SHA-256](https://planb.academy/resources/glossary/sha256)).
 
 
 #### Luottamuspolkujen luominen
@@ -1275,7 +1275,7 @@ Tässä osassa perehdymme Bitcoin-kehittäjille olennaisiin kryptografisiin avai
 **Turvallisuusominaisuudet**: Kryptografisten Hash-toimintojen on noudatettava useita turvallisuusominaisuuksia. Esikuvankestävyys varmistaa, että Hash:n tulosteesta ei ole laskennallisesti mahdollista muuntaa alkuperäistä syötettä. Toiseksi pre-image-resistenssi tarkoittaa, että on oltava vaikeaa löytää eri syötettä, joka tuottaa saman Hash-tulosteen. Törmäysresistenssi varmistaa, että on epätodennäköistä löytää kaksi erilaista syötettä, jotka tuottavat saman Hash-tuloksen.
 
 
-**Merkle-puut**: Merkle Tree on tietorakenne, joka mahdollistaa suurten tietokokonaisuuksien tehokkaan ja turvallisen todentamisen. Tietoelementit hakataan pareittain, ja saadut hakat yhdistetään iteratiivisesti yhdeksi juureksi Hash:ksi. Bitcoin:ssa Merkle-puut ovat ratkaisevan tärkeitä lohkojen luomisessa ja tapahtumien todentamisessa, erityisesti yksinkertaistetun maksujen todentamisen (SPV) asiakkaissa ja Taproot:ssä (Mast).
+**[Merkle-puut](https://planb.academy/resources/glossary/merkle-tree)**: Merkle Tree on tietorakenne, joka mahdollistaa suurten tietokokonaisuuksien tehokkaan ja turvallisen todentamisen. Tietoelementit hakataan pareittain, ja saadut hakat yhdistetään iteratiivisesti yhdeksi juureksi Hash:ksi. Bitcoin:ssa Merkle-puut ovat ratkaisevan tärkeitä lohkojen luomisessa ja tapahtumien todentamisessa, erityisesti yksinkertaistetun maksujen todentamisen (SPV) asiakkaissa ja Taproot:ssä (Mast).
 
 
 ![Image](assets/en/016.webp)
@@ -1314,7 +1314,7 @@ Tässä osassa tarkastelemme näiden käsitteiden soveltamista Bitcoin:n käytä
 **Turvallisuusvaikutukset**: Nonce:n uudelleenkäytöstä johtuvat merkittävät taloudelliset tappiot. Yksilöllisten tunnusten luomisen tärkeyden ymmärtäminen on ratkaisevan tärkeää. LibSecP256k1:n kaltaisten luotettavien kirjastojen käyttäminen takaa vankat ja turvalliset salausoperaatiot.
 
 
-**Elliptic Curve Cryptography (ECC)**: Allekirjoitusjärjestelmät ovat kehittyneet identiteettiprotokollista Schnorrin allekirjoitusten kaltaisiin järjestelmiin, joita käytetään tällä hetkellä Bitcoin:ssä (BIP 340). Elliptisten käyrien ja äärellisten kenttien aritmetiikan tuntemus takaa turvalliset kryptografiset toteutukset.
+**Elliptic Curve Cryptography (ECC)**: Allekirjoitusjärjestelmät ovat kehittyneet identiteettiprotokollista Schnorrin allekirjoitusten kaltaisiin järjestelmiin, joita käytetään tällä hetkellä Bitcoin:ssä ([BIP](https://planb.academy/resources/glossary/bip) 340). Elliptisten käyrien ja äärellisten kenttien aritmetiikan tuntemus takaa turvalliset kryptografiset toteutukset.
 
 
 **Yleisiä neuvoja kehittäjille**: Salausprotokollat on arvioitava perusteellisesti vertaisarvioinneissa. Kehittäjien on oltava tarkkoja ja ymmärrettävä kaikki kryptografisten menettelyjen vaiheet. Tietoisuus kryptografisten toteutusten yleisistä sudenkuopista voi ehkäistä merkittäviä haavoittuvuuksia.
@@ -1843,7 +1843,7 @@ Jokainen Bitcoin-lohkon tapahtuma sisältää seuraavat tiedot:
 - Lähdöt**: Sisältää Value ja ScriptPubKey.
   - Arvo**: Transaktion arvo.
   - PubKey-skriptin pituus**: PubKey-skriptin pituus.
-  - PubKey script**: Sisältää julkisen avaimen, joka on asetelma tuotoksen vaatimista varten.
+  - PubKey [script](https://planb.academy/resources/glossary/script)**: Sisältää julkisen avaimen, joka on asetelma tuotoksen vaatimista varten.
 - Lukitusaika**: Osoittaa lohkon korkeuden tai Timestamp, jolla tämä tapahtuma voidaan sisällyttää lohkoon.
 
 
@@ -1979,7 +1979,7 @@ Lisää väitteitä, joilla varmistetaan, että koko lohkon käsittelyn jälkeen
 #### Erikoistapaukset, kuten coinbase-tapahtumat
 
 
-Coinbase-tapahtumilla, jotka ovat ensimmäinen tapahtuma lohkossa, jota käytetään Block reward:n lunastamiseen, on ainutlaatuisia ominaisuuksia. Meidän on käsiteltävä nämä erityistapaukset asianmukaisesti.
+[Coinbase](https://planb.academy/resources/glossary/coinbase-transaction)-tapahtumilla, jotka ovat ensimmäinen tapahtuma lohkossa, jota käytetään Block reward:n lunastamiseen, on ainutlaatuisia ominaisuuksia. Meidän on käsiteltävä nämä erityistapaukset asianmukaisesti.
 
 
 ```Rust
@@ -2598,7 +2598,7 @@ Address Manny Rosenfeld ehdotti vuonna 2012 näiden rajoitusten poistamiseksi ke
 ### Hashed Time Lock Contract (HTLC) ja toteutus
 
 
-Keskitettyjen hopsien rajoitukset ja haitat edellyttivät turvallisempaa ja hajautetumpaa ratkaisua. Tämä tarve johti Hashed Time Lock Contract:n (HTLC) kehittämiseen, jota Joseph Poon ja Thaddeus Dreijer ehdottivat vuonna 2015 osana Lightning Network:tä. HTLC:ssä yhdistyvät aikalukkojen ja Hash-lukkojen periaatteet, joilla varmistetaan transaktioiden atomisuus ja luotettavuus. Tämä tarkoittaa, että transaktio joko suoritetaan kokonaan tai sitä ei tapahdu lainkaan, mikä vähentää epätäydellisiin maksuihin liittyviä riskejä.
+Keskitettyjen hopsien rajoitukset ja haitat edellyttivät turvallisempaa ja hajautetumpaa ratkaisua. Tämä tarve johti Hashed Time Lock Contract:n ([HTLC](https://planb.academy/resources/glossary/htlc)) kehittämiseen, jota Joseph Poon ja Thaddeus Dreijer ehdottivat vuonna 2015 osana Lightning Network:tä. HTLC:ssä yhdistyvät aikalukkojen ja Hash-lukkojen periaatteet, joilla varmistetaan transaktioiden atomisuus ja luotettavuus. Tämä tarkoittaa, että transaktio joko suoritetaan kokonaan tai sitä ei tapahdu lainkaan, mikä vähentää epätäydellisiin maksuihin liittyviä riskejä.
 
 
 HTLC:n työnkulkuun kuuluu monivaiheinen prosessi, joka varmistaa turvallisen reitityksen useiden välittäjien kautta. Oletetaan, että Alice haluaa maksaa Ericille välittäjien Bob, Carol ja Diana kautta. Jokaisessa prosessin vaiheessa luodaan Commitment:n tapahtumia, joiden aikasulut ja summat pienenevät. Tarvittaessa viimeinen vaihe voidaan lähettää Bitcoin-verkkoon tapahtuman viimeistelemiseksi.
@@ -2690,7 +2690,7 @@ Pohjimmiltaan Lightning Network täydentää Bitcoin-verkkoa puuttumalla sen raj
 ### **Lightning Network tekniset tiedot**
 
 
-Lightning Network-protokolla on määritelty huolellisesti 10 BOLT:n (Basis of Lightning Technology) avulla. Nämä BOLTit sovittiin Milanossa pidetyssä konferenssissa, ja ne toimivat perustana Lightning Network:n eri toteutuksille.
+Lightning Network-protokolla on määritelty huolellisesti 10 [BOLT:n](https://planb.academy/resources/glossary/bolt) (Basis of Lightning Technology) avulla. Nämä BOLTit sovittiin Milanossa pidetyssä konferenssissa, ja ne toimivat perustana Lightning Network:n eri toteutuksille.
 
 
 ![bolt](assets/en/049.webp)_BOLT Diagram _
@@ -2764,7 +2764,7 @@ Maksut reititetään käyttäen Onion-reititystä, jossa luodaan salattuja paket
 ### Invoice rakenne
 
 
-Lightning Network-laskut (Bolt 11) on koodattu Bech32-koodilla, ja ne sisältävät yksityiskohtia, kuten maksun Hash, kuvauksen ja voimassaoloajan. Jokaista Invoice on käytettävä kerran uudelleenkäytön estämiseksi.
+Lightning Network-[laskut](https://planb.academy/resources/glossary/invoice-lightning) (Bolt 11) on koodattu Bech32-koodilla, ja ne sisältävät yksityiskohtia, kuten maksun Hash, kuvauksen ja voimassaoloajan. Jokaista Invoice on käytettävä kerran uudelleenkäytön estämiseksi.
 
 
 ![Invoice structure](assets/en/051.webp)_BOLT11 Invoice_
@@ -3430,5 +3430,5 @@ Lightning-maksujen laajentaminen ja integrointi eri protokollien ja käyttötapa
 
 :::video id=b89f2064-f2e1-49c3-97d0-580891eee1dd:::
 
-Adam Gibson tarjoaa tietoa Joinmarketista ja kertoo yksityiskohtaisesti, miten tämä CoinJoin-toteutus parantaa Bitcoin:n yksityisyyttä ja vaihdettavuutta. Hän kertoo, miten Joinmarket helpottaa Trustless-yhteistyötä, Trustless ja anonyymejä liiketoimia Bitcoin-ekosysteemissä. Toisessa osassa hän näyttää, miten Joinmarketia käytetään Signetissä.
+Adam Gibson tarjoaa tietoa Joinmarketista ja kertoo yksityiskohtaisesti, miten tämä [CoinJoin](https://planb.academy/resources/glossary/coinjoin)-toteutus parantaa Bitcoin:n yksityisyyttä ja vaihdettavuutta. Hän kertoo, miten Joinmarket helpottaa Trustless-yhteistyötä, Trustless ja anonyymejä liiketoimia Bitcoin-ekosysteemissä. Toisessa osassa hän näyttää, miten Joinmarketia käytetään Signetissä.
 

@@ -76,7 +76,7 @@ Och tänk om nyckeln till att förstå dagens ekonomi ligger i en teori som är 
 ### Hur pengar skapas
 
 
-I vårt nuvarande monetära system skapas pengar främst genom en bankpraxis som kallas "fractional reserve banking" Begreppet innebär i korthet att bankerna inte behöver hålla lika mycket reserver som de får in i inlåning. Därmed kan de skapa ny köpkraft när de beviljar lån och omvänt minska köpkraften när kunderna betalar tillbaka sina lån.
+I vårt nuvarande monetära system skapas pengar främst genom en bankpraxis som kallas "[fractional reserve banking](https://planb.academy/resources/glossary/fractional-reserves)" Begreppet innebär i korthet att bankerna inte behöver hålla lika mycket reserver som de får in i inlåning. Därmed kan de skapa ny köpkraft när de beviljar lån och omvänt minska köpkraften när kunderna betalar tillbaka sina lån.
 
 
 Om du till exempel vänder dig till din lokala bank för att få ett lån till ett husköp, kommer de pengar som banken lånar ut till dig att bli en bokföringspost. Inom redovisningen brukar en persons nettoförmögenhet presenteras i en balansräkning, som har två sidor: tillgångssidan, som omfattar all egendom, finansiella kontrakt, lager eller andra former av förmögenhet som ägs, och skuldsidan, som visar varifrån de medel kommer som använts för att skapa det kapital som anges på tillgångssidan. Skillnaden mellan tillgångar och skulder benämns "eget kapital" och kan ses som företagets nettoförmögenhet.
@@ -100,7 +100,7 @@ Figur 1: Penningskapande som bokföringsposter
 > Henry Ford
 
 
-Denna process gör det möjligt för banker att registrera alla transaktioner, inklusive banköverföringar, kreditkortsköp och checkar, under en viss period (vanligtvis en vecka eller en månad). De reglerar sedan dessa transaktioner med varandra med hjälp av bankreserver, som är en annan form av fiatvaluta som aldrig används av allmänheten. Bankreserver hålls i centralbanken på ett särskilt konto som endast är tillgängligt för licensierade banker och finansinstitut.
+Denna process gör det möjligt för banker att registrera alla transaktioner, inklusive banköverföringar, kreditkortsköp och checkar, under en viss period (vanligtvis en vecka eller en månad). De reglerar sedan dessa transaktioner med varandra med hjälp av bankreserver, som är en annan form av [fiatvaluta](https://planb.academy/resources/glossary/fiat) som aldrig används av allmänheten. Bankreserver hålls i centralbanken på ett särskilt konto som endast är tillgängligt för licensierade banker och finansinstitut.
 
 
 ### Instabilitet i Fractional Reserve Banking och Lender of Last Resort
@@ -175,7 +175,7 @@ En annan oavsiktlig konsekvens av ZIRP är att den uppmuntrar regeringar att spe
 Figur 6: Offentlig och privat skuldsättning i % av BNP (Världen, viktat med BNP per land) / Källa IMF
 
 
-Med en stigande inflation till följd av ett omfattande penningskapande som svar på covid-19-relaterade nedstängningar höjer centralbankerna nu styrräntorna i ett försök att dämpa inflationen. Detta innebär dock en betydande utmaning för hela systemet. Bankerna är mer belånade än någonsin, regeringarna har historiskt höga skuldnivåer, den ekonomiska tillväxten är trög, underskotten ökar och konsumenterna kämpar med stigande priser på viktiga varor och har svårt att få ekonomin att gå ihop. För att kontrollera inflationen skulle det krävas att räntorna höjdes till en nivå som skulle kunna försätta stater i konkurs, samtidigt som bankerna riskerar att förlora insättare när privatpersoner spenderar sina besparingar på allt dyrare nödvändigheter eller söker skydd i Hard-tillgångar och penningmarknadsfonder för att skydda sig mot inflationen.
+Med en stigande [inflation](https://planb.academy/resources/glossary/inflation) till följd av ett omfattande penningskapande som svar på covid-19-relaterade nedstängningar höjer centralbankerna nu styrräntorna i ett försök att dämpa inflationen. Detta innebär dock en betydande utmaning för hela systemet. Bankerna är mer belånade än någonsin, regeringarna har historiskt höga skuldnivåer, den ekonomiska tillväxten är trög, underskotten ökar och konsumenterna kämpar med stigande priser på viktiga varor och har svårt att få ekonomin att gå ihop. För att kontrollera inflationen skulle det krävas att räntorna höjdes till en nivå som skulle kunna försätta stater i konkurs, samtidigt som bankerna riskerar att förlora insättare när privatpersoner spenderar sina besparingar på allt dyrare nödvändigheter eller söker skydd i Hard-tillgångar och penningmarknadsfonder för att skydda sig mot inflationen.
 
 
 ### Slutsats
@@ -190,7 +190,7 @@ Med en stigande inflation till följd av ett omfattande penningskapande som svar
 I grund och botten står vårt system inför stora utmaningar och Bitcoin framstår som det enda trovärdiga alternativet. Bitcoin kan dock inte ensamt lösa problemen inom vårt monetära system. Framför allt behöver vi individer som förstår grundläggande ekonomiska principer bland Bitcoin-entusiaster, vilket möjliggör en bredare medvetenhet och ekonomiskt sunt förnuft för att vägleda oss bort från att bygga en annan bräcklig ekonomisk grund för vår civilisation. Det primära målet med denna kurs är att utbilda nya Bitcoin-entusiaster i sunda ekonomiska principer.
 
 
-För att uppnå detta mål kommer vi att förklara de grundläggande principerna för "österrikisk ekonomi", en ekonomisk tankeskola med en metodologisk tradition som går tillbaka till 1500-talet och som ger insikter i mänskligt handlande under ekonomiska begränsningar. Med denna introduktion förstår du nu grunderna i penningskapande och det nuvarande tillståndet i vårt finansiella och monetära system.
+För att uppnå detta mål kommer vi att förklara de grundläggande principerna för "[österrikisk ekonomi](https://planb.academy/resources/glossary/austrian-school)", en ekonomisk tankeskola med en metodologisk tradition som går tillbaka till 1500-talet och som ger insikter i mänskligt handlande under ekonomiska begränsningar. Med denna introduktion förstår du nu grunderna i penningskapande och det nuvarande tillståndet i vårt finansiella och monetära system.
 
 
 I det kommande kapitlet kommer vi att fördjupa oss i den grundläggande hörnstenen i alla ekonomiska tankeskolor: värdeteorin. De följande kapitlen handlar om pengar som social institution, teorin om kapital och konjunkturcykeln, utmaningen med ekonomisk kalkylering samt en kort översikt över den österrikiska ekonomiska skolans historia och metodik.

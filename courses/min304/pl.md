@@ -91,7 +91,7 @@ Gotowi na odkrycie świata Bitcoin Mining i podjęcie praktycznego wyzwania Atta
 ### Wyjaśnienie Mining: analogia do puzzli
 
 
-Aby wyjaśnić koncepcję Mining w uproszczony sposób, można użyć odpowiedniej analogii: układanki. Podobnie jak puzzle, Mining jest złożonym zadaniem do wykonania, ale łatwym do zweryfikowania po jego zakończeniu. W kontekście Bitcoin Mining górnicy starają się szybko rozwiązać cyfrową łamigłówkę. Pierwszy Miner, który rozwiąże łamigłówkę, przedstawia swoje rozwiązanie całej sieci, która może następnie łatwo zweryfikować jego poprawność. Pomyślna weryfikacja umożliwia Miner zatwierdzenie nowego bloku i dodanie go do łańcucha Bitcoin Timechain. W uznaniu ich pracy, która wiąże się ze znacznymi kosztami, Miner jest nagradzany określoną liczbą bitcoinów. Nagroda ta służy jako zachęta finansowa dla górników do kontynuowania pracy polegającej na walidacji transakcji i zabezpieczaniu sieci Bitcoin.
+Aby wyjaśnić koncepcję [Mining](https://planb.academy/resources/glossary/mining) w uproszczony sposób, można użyć odpowiedniej analogii: układanki. Podobnie jak puzzle, Mining jest złożonym zadaniem do wykonania, ale łatwym do zweryfikowania po jego zakończeniu. W kontekście Bitcoin Mining górnicy starają się szybko rozwiązać cyfrową łamigłówkę. Pierwszy [Miner](https://planb.academy/resources/glossary/miner), który rozwiąże łamigłówkę, przedstawia swoje rozwiązanie całej sieci, która może następnie łatwo zweryfikować jego poprawność. Pomyślna weryfikacja umożliwia Miner zatwierdzenie nowego [bloku](https://planb.academy/resources/glossary/block) i dodanie go do łańcucha Bitcoin Timechain. W uznaniu ich pracy, która wiąże się ze znacznymi kosztami, Miner jest nagradzany określoną liczbą bitcoinów. Nagroda ta służy jako zachęta finansowa dla górników do kontynuowania pracy polegającej na walidacji [transakcji](https://planb.academy/resources/glossary/transaction-tx) i zabezpieczaniu sieci Bitcoin.
 
 
 ![image](assets/en/001.webp)
@@ -99,7 +99,7 @@ Aby wyjaśnić koncepcję Mining w uproszczony sposób, można użyć odpowiedni
 
 Początkowo w sieci Bitcoin przyznawana nagroda wynosiła 50 bitcoinów co dziesięć minut, równolegle do odkrywania bloku średnio co dziesięć minut przez górników. Nagroda ta podlega Halving co 210 000 bloków, mniej więcej co cztery lata. Wynagrodzenie to służy jako silna zachęta do zachęcania górników do udziału w procesie Mining pomimo kosztów energii. Bez nagrody energochłonny Mining zostałby porzucony, zagrażając bezpieczeństwu i stabilności całej sieci Bitcoin.
 
-Obecna nagroda Mining jest dwojaka. Z jednej strony obejmuje tworzenie nowych bitcoinów, które początkowo spadło z 50 bitcoinów co dziesięć minut do 6,25 bitcoinów dzisiaj (2023). Z drugiej strony obejmuje opłaty transakcyjne lub opłaty Mining od transakcji, które Miner zdecyduje się uwzględnić w swoim bloku. Kiedy dokonywana jest transakcja Bitcoin, uiszczane są opłaty transakcyjne. Opłaty te funkcjonują jako rodzaj aukcji, w której użytkownicy wskazują, ile są skłonni zapłacić, aby ich transakcja została uwzględniona w następnym bloku. Aby zmaksymalizować swoją nagrodę, górnicy, działając we własnym interesie, wybierają najbardziej dochodowe transakcje do uwzględnienia w swoim bloku, biorąc pod uwagę ograniczoną dostępną przestrzeń. W ten sposób nagroda Mining składa się zarówno z generowania nowych bitcoinów, jak i opłat transakcyjnych, zapewniając ciągłą zachętę dla górników i zapewniając długowieczność i bezpieczeństwo sieci Bitcoin.
+Obecna [nagroda Mining](https://planb.academy/resources/glossary/block-reward) jest dwojaka. Z jednej strony obejmuje tworzenie nowych bitcoinów, które początkowo spadło z 50 bitcoinów co dziesięć minut do 6,25 bitcoinów dzisiaj (2023). Z drugiej strony obejmuje [opłaty transakcyjne](https://planb.academy/resources/glossary/transaction-fees) lub opłaty Mining od transakcji, które Miner zdecyduje się uwzględnić w swoim bloku. Kiedy dokonywana jest transakcja Bitcoin, uiszczane są opłaty transakcyjne. Opłaty te funkcjonują jako rodzaj aukcji, w której użytkownicy wskazują, ile są skłonni zapłacić, aby ich transakcja została uwzględniona w następnym bloku. Aby zmaksymalizować swoją nagrodę, górnicy, działając we własnym interesie, wybierają najbardziej dochodowe transakcje do uwzględnienia w swoim bloku, biorąc pod uwagę ograniczoną dostępną przestrzeń. W ten sposób nagroda Mining składa się zarówno z generowania nowych bitcoinów, jak i opłat transakcyjnych, zapewniając ciągłą zachętę dla górników i zapewniając długowieczność i bezpieczeństwo sieci Bitcoin.
 
 
 ### Górnicy i ich narzędzia: Mining
@@ -108,15 +108,15 @@ Obecna nagroda Mining jest dwojaka. Z jednej strony obejmuje tworzenie nowych bi
 Proces Mining polega na znalezieniu prawidłowego Hash, który jest akceptowalny dla sieci Bitcoin. Raz obliczony i znaleziony Hash jest nieodwracalny, podobnie jak ziemniaki zamieniane w tłuczone ziemniaki. Weryfikuje on pewną funkcję bez możliwości powrotu. Górnicy, konkurując ze sobą, używają maszyn do obliczania tych hashy. Chociaż teoretycznie możliwe jest ręczne znalezienie tego Hash, złożoność operacji czyni tę opcję niewykonalną. Komputery, zdolne do szybkiego wykonywania tych obliczeń, są zatem używane, zużywając znaczną ilość energii elektrycznej.
 
 
-Na początku dominowała era CPU, w której górnicy wykorzystywali swoje komputery osobiste do Bitcoin Mining. Odkrycie zalet GPU (kart graficznych) w tym zadaniu stanowiło punkt zwrotny, znacznie zwiększając Hashrate i zmniejszając zużycie energii. Postęp nie zatrzymał się na tym, wraz z późniejszym wprowadzeniem układów FPGA (programowalnych macierzy bramek). FPGA posłużyły jako platforma do rozwoju układów ASIC (układów scalonych specyficznych dla aplikacji).
+Na początku dominowała era CPU, w której górnicy wykorzystywali swoje komputery osobiste do Bitcoin Mining. Odkrycie zalet GPU (kart graficznych) w tym zadaniu stanowiło punkt zwrotny, znacznie zwiększając [Hashrate](https://planb.academy/resources/glossary/hashrate) i zmniejszając zużycie energii. Postęp nie zatrzymał się na tym, wraz z późniejszym wprowadzeniem układów FPGA (programowalnych macierzy bramek). FPGA posłużyły jako platforma do rozwoju układów [ASIC](https://planb.academy/resources/glossary/asic) (układów scalonych specyficznych dla aplikacji).
 
 
 ![image](assets/en/002.webp)
 
 
-Układy ASIC to układy porównywalne z układami CPU, jednak zostały one opracowane w celu wykonywania tylko jednego określonego typu obliczeń w możliwie najbardziej wydajny sposób. Innymi słowy, procesor jest w stanie wykonać wiele różnych typów obliczeń, nie będąc szczególnie zoptymalizowanym pod kątem jednego lub drugiego typu obliczeń, podczas gdy ASIC będzie w stanie wykonać tylko jeden typ obliczeń, ale bardzo wydajnie. W przypadku układów ASIC Bitcoin są one przeznaczone do obliczania algorytmu SHA256.
+Układy ASIC to układy porównywalne z układami CPU, jednak zostały one opracowane w celu wykonywania tylko jednego określonego typu obliczeń w możliwie najbardziej wydajny sposób. Innymi słowy, procesor jest w stanie wykonać wiele różnych typów obliczeń, nie będąc szczególnie zoptymalizowanym pod kątem jednego lub drugiego typu obliczeń, podczas gdy ASIC będzie w stanie wykonać tylko jeden typ obliczeń, ale bardzo wydajnie. W przypadku układów ASIC Bitcoin są one przeznaczone do obliczania algorytmu [SHA256](https://planb.academy/resources/glossary/sha256).
 
-Obecnie górnicy używają wyłącznie układów ASIC dedykowanych tej operacji, zoptymalizowanych pod kątem testowania maksymalnej liczby kombinacji przy jak najmniejszym zużyciu energii i tak szybko, jak to możliwe. Komputery te, niezdolne do wykonywania zadań innych niż Bitcoin Mining, są namacalnym świadectwem ciągłej ewolucji i rosnącej specjalizacji branży Bitcoin Mining. Ta ciągła ewolucja odzwierciedla wewnętrzną dynamikę Bitcoin, gdzie dostosowanie trudności zapewnia produkcję bloku co dziesięć minut, pomimo wykładniczego wzrostu wydajności Mining.
+Obecnie górnicy używają wyłącznie układów ASIC dedykowanych tej operacji, zoptymalizowanych pod kątem testowania maksymalnej liczby kombinacji przy jak najmniejszym zużyciu energii i tak szybko, jak to możliwe. Komputery te, niezdolne do wykonywania zadań innych niż Bitcoin Mining, są namacalnym świadectwem ciągłej ewolucji i rosnącej specjalizacji branży Bitcoin Mining. Ta ciągła ewolucja odzwierciedla wewnętrzną dynamikę Bitcoin, gdzie [dostosowanie trudności](https://planb.academy/resources/glossary/difficulty-adjustment) zapewnia produkcję bloku co dziesięć minut, pomimo wykładniczego wzrostu wydajności Mining.
 
 
 Aby zilustrować intensywność tego procesu, rozważmy typowy Miner zdolny do osiągnięcia 14 TeraHash na sekundę lub 14 bilionów prób w każdej sekundzie, aby znaleźć prawidłowy Hash. W skali sieci Bitcoin osiągamy teraz około 300 ExaHash na sekundę, podkreślając zbiorową moc zmobilizowaną w Bitcoin Mining.
@@ -125,7 +125,7 @@ Aby zilustrować intensywność tego procesu, rozważmy typowy Miner zdolny do o
 ### Dostosowanie trudności
 
 
-Regulacja trudności jest kluczowym mechanizmem w działaniu sieci Bitcoin, zapewniając, że bloki są wydobywane średnio co 10 minut. Czas ten jest średnią, ponieważ proces Mining jest w rzeczywistości grą prawdopodobieństwa, podobną do rzucania kośćmi w nadziei na uzyskanie liczby niższej niż liczba określona przez trudność. Co 2016 bloków sieć dostosowuje trudność Mining w oparciu o średni czas wymagany do wydobycia poprzednich bloków. Jeśli średni czas jest dłuższy niż 10 minut, trudność jest zmniejszana i odwrotnie, jeśli średni czas jest krótszy, trudność jest zwiększana. Ten mechanizm regulacji zapewnia, że czas Mining dla nowych bloków pozostaje stały w czasie, niezależnie od liczby górników lub ogólnej mocy obliczeniowej sieci. Właśnie dlatego Bitcoin Blockchain jest również nazywany Timechain.
+Regulacja trudności jest kluczowym mechanizmem w działaniu sieci Bitcoin, zapewniając, że bloki są wydobywane średnio co 10 minut. Czas ten jest średnią, ponieważ proces Mining jest w rzeczywistości grą prawdopodobieństwa, podobną do rzucania kośćmi w nadziei na uzyskanie liczby niższej niż liczba określona przez trudność. Co 2016 bloków sieć dostosowuje trudność Mining w oparciu o średni czas wymagany do wydobycia poprzednich bloków. Jeśli średni czas jest dłuższy niż 10 minut, trudność jest zmniejszana i odwrotnie, jeśli średni czas jest krótszy, trudność jest zwiększana. Ten mechanizm regulacji zapewnia, że czas Mining dla nowych bloków pozostaje stały w czasie, niezależnie od liczby górników lub ogólnej mocy obliczeniowej sieci. Właśnie dlatego Bitcoin [Blockchain](https://planb.academy/resources/glossary/blockchain) jest również nazywany Timechain.
 
 
 ![image](assets/en/003.webp)
@@ -161,7 +161,7 @@ Podsumowując, branża Bitcoin Mining nadal się dostosowuje i rozwija, a gracze
 ### Pule Mining
 
 
-Obecnie Bitcoin Mining ewoluował w poważną i znaczącą branżę, z wieloma publicznie znanymi graczami i rosnącą liczbą znaczących górników. Ewolucja ta sprawiła, że Mining stał się prawie niedostępny dla małych graczy ze względu na wysokie koszty związane z zakupem nowych maszyn Mining. Rodzi to pytanie o dystrybucję Hashrate wśród różnych graczy rynkowych. Sytuacja jest złożona, ponieważ konieczne jest zbadanie zarówno dystrybucji Hashrate między różnymi firmami, jak i między różnymi pulami Mining.
+Obecnie Bitcoin Mining ewoluował w poważną i znaczącą branżę, z wieloma publicznie znanymi graczami i rosnącą liczbą znaczących górników. Ewolucja ta sprawiła, że Mining stał się prawie niedostępny dla małych graczy ze względu na wysokie koszty związane z zakupem nowych maszyn Mining. Rodzi to pytanie o dystrybucję Hashrate wśród różnych graczy rynkowych. Sytuacja jest złożona, ponieważ konieczne jest zbadanie zarówno dystrybucji Hashrate między różnymi firmami, jak i między różnymi [pulami Mining](https://planb.academy/resources/glossary/pool-mining).
 
 
 ![image](assets/en/005.webp)
@@ -205,7 +205,7 @@ Na przykład we Francji nadwyżki energii elektrycznej z paneli słonecznych są
 ### Centralizacja Mining
 
 
-Centralizacja Mining jest traktowana jako główne wyzwanie. Duzi gracze, tacy jak Foundry, dominują na rynku, co może potencjalnie prowadzić do cenzury transakcji. Ta centralizacja może również sprawić, że sieć będzie podatna na ataki, w tym atak 51%, w którym aktor lub grupa kontroluje ponad 50% mocy obliczeniowej sieci, co pozwala im kontrolować i manipulować siecią.
+Centralizacja Mining jest traktowana jako główne wyzwanie. Duzi gracze, tacy jak Foundry, dominują na rynku, co może potencjalnie prowadzić do cenzury transakcji. Ta centralizacja może również sprawić, że sieć będzie podatna na ataki, w tym [atak 51%](https://planb.academy/resources/glossary/51-percent-attack), w którym aktor lub grupa kontroluje ponad 50% mocy obliczeniowej sieci, co pozwala im kontrolować i manipulować siecią.
 
 
 Podkreśla się, że gdyby kraj taki jak Stany Zjednoczone zdecydował się uregulować lub zakazać niektórych transakcji Bitcoin, mogłoby to mieć znaczący wpływ na sieć, zwłaszcza jeśli duża część mocy hashowania jest scentralizowana w tym kraju.
@@ -219,7 +219,7 @@ Aby zwalczyć tę centralizację, omawiane są różne strategie:
 
 
 - Home Mining: Idea Home Mining opiera się na decentralizacji aktywności Mining. Zachęca ona osoby fizyczne do uczestnictwa w Mining ze swoich domów, rozpowszechniając w ten sposób Hashrate na szerszą skalę.
-- Stratum V2: Protokół Stratum V2 oferuje inne podejście. W przeciwieństwie do swojego poprzednika, Stratum V2 pozwala górnikom wybrać, które transakcje mają być zawarte w wydobywanych przez nich blokach. Zdolność ta wzmacnia odporność na cenzurę i zmniejsza zdolność dużych pul Mining do zdominowania sieci. Dając większą władzę indywidualnym górnikom, protokół Stratum V2 może odegrać decydującą rolę w walce z centralizacją Hashrate.
+- [Stratum V2](https://planb.academy/resources/glossary/stratum-v2): Protokół Stratum V2 oferuje inne podejście. W przeciwieństwie do swojego poprzednika, Stratum V2 pozwala górnikom wybrać, które transakcje mają być zawarte w wydobywanych przez nich blokach. Zdolność ta wzmacnia odporność na cenzurę i zmniejsza zdolność dużych pul Mining do zdominowania sieci. Dając większą władzę indywidualnym górnikom, protokół Stratum V2 może odegrać decydującą rolę w walce z centralizacją Hashrate.
 
 Otwarte oprogramowanie Mining
 
@@ -267,19 +267,19 @@ Kwestia długoterminowej wydajności i wykonalności wykorzystania górników Bi
 ### Dlaczego warto mieć nagrody BTC?
 
 
-Kwestia wynagradzania w Bitcoin, a nie w innej walucie, jest kluczowa w systemie przewidzianym przez Satoshi Nakamoto. Tworzenie Bitcoin charakteryzuje się stałym limitem 21 milionów jednostek. Celem było znalezienie sprawiedliwego sposobu dystrybucji tych nowo utworzonych jednostek. Górnicy, zapewniając swoją moc obliczeniową w celu zabezpieczenia sieci i uczynienia każdego ataku coraz bardziej kosztownym, skutecznie chronią sieć Bitcoin. W zamian za ten kluczowy wkład są oni nagradzani nowo utworzonymi bitcoinami, co ułatwia dystrybucję monet w ekosystemie.
+Kwestia wynagradzania w Bitcoin, a nie w innej walucie, jest kluczowa w systemie przewidzianym przez [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi). Tworzenie Bitcoin charakteryzuje się stałym limitem 21 milionów jednostek. Celem było znalezienie sprawiedliwego sposobu dystrybucji tych nowo utworzonych jednostek. Górnicy, zapewniając swoją moc obliczeniową w celu zabezpieczenia sieci i uczynienia każdego ataku coraz bardziej kosztownym, skutecznie chronią sieć Bitcoin. W zamian za ten kluczowy wkład są oni nagradzani nowo utworzonymi bitcoinami, co ułatwia dystrybucję monet w ekosystemie.
 
 
-Jest to system korzystny dla obu stron. Górnicy są nagradzani zarówno za zabezpieczanie sieci, jak i zatwierdzanie transakcji. Nowo utworzone bitcoiny stanowią zachętę do wzmocnienia bezpieczeństwa, a opłaty transakcyjne są dodatkowym dochodem za zatwierdzanie transakcji. Te dwa Elements łącznie składają się na całkowitą nagrodę za Mining. Pytanie o przyszłość Mining pojawia się ze względu na zaprogramowaną redukcję nagród Mining, Halving co cztery lata, wydarzenie znane jako "Halving". Do 2032 r. Block reward będzie mniejszy niż jeden Bitcoin, a do 2140 r. nie zostaną utworzone żadne nowe bitcoiny. W tym momencie górnicy będą polegać wyłącznie na opłatach transakcyjnych. Sieć Bitcoin będzie musiała obsługiwać dużą liczbę transakcji, z wystarczająco wysokimi opłatami, aby zapewnić rentowność Mining.
+Jest to system korzystny dla obu stron. Górnicy są nagradzani zarówno za zabezpieczanie sieci, jak i zatwierdzanie transakcji. Nowo utworzone bitcoiny stanowią zachętę do wzmocnienia bezpieczeństwa, a opłaty transakcyjne są dodatkowym dochodem za zatwierdzanie transakcji. Te dwa Elements łącznie składają się na całkowitą nagrodę za Mining. Pytanie o przyszłość Mining pojawia się ze względu na zaprogramowaną redukcję nagród Mining, [Halving](https://planb.academy/resources/glossary/halving) co cztery lata, wydarzenie znane jako "Halving". Do 2032 r. Block reward będzie mniejszy niż jeden Bitcoin, a do 2140 r. nie zostaną utworzone żadne nowe bitcoiny. W tym momencie górnicy będą polegać wyłącznie na opłatach transakcyjnych. Sieć Bitcoin będzie musiała obsługiwać dużą liczbę transakcji, z wystarczająco wysokimi opłatami, aby zapewnić rentowność Mining.
 
 
-Wzrost popularności Lightning Network, który pozwala na szybkie i tanie transakcje poza głównym łańcuchem Bitcoin, rodzi pytania o przyszłość Mining. Lightning Network może potencjalnie znacznie obniżyć opłaty transakcyjne, wpływając tym samym na dochody górników. Będzie to jednak zależeć od przyjęcia i wykorzystania Lightning Network w porównaniu z główną siecią Bitcoin. W pesymistycznym scenariuszu górnikom może opłacać się wydobywać nawet ze stratą, jeśli zamortyzowali swoje koszty i mają dostęp do taniej energii elektrycznej. W bardziej optymistycznym scenariuszu opłaty transakcyjne w głównej sieci Bitcoin mogą pozostać wystarczająco wysokie, aby utrzymać rentowność Mining.
+Wzrost popularności [Lightning Network](https://planb.academy/resources/glossary/lightning-network), który pozwala na szybkie i tanie transakcje poza głównym łańcuchem Bitcoin, rodzi pytania o przyszłość Mining. Lightning Network może potencjalnie znacznie obniżyć opłaty transakcyjne, wpływając tym samym na dochody górników. Będzie to jednak zależeć od przyjęcia i wykorzystania Lightning Network w porównaniu z główną siecią Bitcoin. W pesymistycznym scenariuszu górnikom może opłacać się wydobywać nawet ze stratą, jeśli zamortyzowali swoje koszty i mają dostęp do taniej energii elektrycznej. W bardziej optymistycznym scenariuszu opłaty transakcyjne w głównej sieci Bitcoin mogą pozostać wystarczająco wysokie, aby utrzymać rentowność Mining.
 
 
 ### Co powinien zawierać blok Bitcoin?
 
 
-Jeśli chodzi o kwestię tego, co powinien zawierać blok Bitcoin, kluczowe znaczenie ma uwzględnienie komplementarnego charakteru różnych warstw sieci Bitcoin. Chociaż Lightning Network może umożliwić szybsze i tańsze transakcje, nadal opiera się na podstawowym Layer Bitcoin, często określanym jako "rozliczeniowy Layer", do otwierania i zamykania kanałów płatności.
+Jeśli chodzi o kwestię tego, co powinien zawierać blok Bitcoin, kluczowe znaczenie ma uwzględnienie komplementarnego charakteru różnych warstw sieci Bitcoin. Chociaż Lightning Network może umożliwić szybsze i tańsze transakcje, nadal opiera się na podstawowym Layer Bitcoin, często określanym jako "rozliczeniowy Layer", do otwierania i zamykania [kanałów płatności](https://planb.academy/resources/glossary/payment-channel).
 
 
 Wraz z oczekiwanym rozwojem Lightning Network i wynikającym z tego wzrostem liczby otwarć i zamknięć kanałów, przestrzeń w blokach Bitcoin będzie coraz cenniejsza. Społeczność Bitcoin już teraz ceni sobie zachowanie tej przestrzeni, uznając jej nieodłączne ograniczenia. Świadomość ta doprowadziła do dyskusji na temat uzasadnionego wykorzystania przestrzeni blokowej, z obawami o "spam" na Blockchain z transakcji uznanych za nieistotne.
@@ -297,7 +297,7 @@ Spekuluje się na temat przyszłego wykorzystania przestrzeni blokowej, ale ogó
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
 
-Rola górników w sieci Bitcoin była przedmiotem intensywnej debaty podczas wojen o wielkość bloków. Chociaż górnicy są niezbędni dla bezpieczeństwa i funkcjonalności sieci, niekoniecznie posiadają ostateczną władzę w ekosystemie Bitcoin. Równowaga między górnikami, węzłami i użytkownikami końcowymi zapewnia integralność i dystrybucję sieci.
+Rola górników w sieci Bitcoin była przedmiotem intensywnej debaty podczas wojen o wielkość bloków. Chociaż górnicy są niezbędni dla bezpieczeństwa i funkcjonalności sieci, niekoniecznie posiadają ostateczną władzę w ekosystemie Bitcoin. Równowaga między górnikami, [węzłami](https://planb.academy/resources/glossary/node) i użytkownikami końcowymi zapewnia integralność i dystrybucję sieci.
 
 
 ### Wojny o rozmiar bloku
@@ -312,7 +312,7 @@ Podczas wojen o wielkość bloków wielu górników sprzeciwiało się pewnym zm
 Dylemat bezpieczeństwa Bitcoin opiera się na delikatnej równowadze. Podczas gdy górnicy odgrywają kluczową rolę w walidacji i tworzeniu bloków, węzły utrzymują integralność poprzez weryfikację i walidację transakcji i bloków. Nieprawidłowy lub fałszywy blok zostanie odrzucony przez węzły, cenzurując w ten sposób Miner i zachowując bezpieczeństwo sieci. Władza jest również w posiadaniu węzłów i użytkowników sieci Bitcoin. Węzły mają moc weryfikacji i walidacji, podczas gdy użytkownicy mają moc wyboru Blockchain do użycia. Taki podział uprawnień zapewnia dystrybucję i integralność sieci Bitcoin.
 
 
-Wojny o wielkość bloków ujawniły niepewność i napięcie związane z zarządzaniem siecią Bitcoin. Chociaż Bitcoin Core jest obecnie dominującą siecią, debata na temat zarządzania i zarządzania siecią trwa nadal.
+Wojny o wielkość bloków ujawniły niepewność i napięcie związane z zarządzaniem siecią Bitcoin. Chociaż [Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core) jest obecnie dominującą siecią, debata na temat zarządzania i zarządzania siecią trwa nadal.
 
 
 Ostatecznie odpowiedzialność spoczywa na wszystkich uczestnikach sieci Bitcoin. Spadek liczby użytkowników, węzłów lub górników może osłabić sieć, zwiększając ryzyko centralizacji i podatności na ataki. Każdy podmiot przyczynia się do solidności i bezpieczeństwa sieci, wzmacniając znaczenie utrzymania równowagi władzy i odpowiedzialności.
@@ -333,7 +333,7 @@ Centralizacja produkcji sprzętu Mining w Chinach stwarza kolejne ryzyko. Odmowa
 ### Fizyczne połączenie Proof of Work vs Proof of Stake
 
 
-Proof of Work (PoW) jest niezbędny, ponieważ reprezentuje fizyczne połączenie między światem rzeczywistym a Bitcoin. Chociaż bitcoiny są niematerialne, ich produkcja wymaga namacalnej energii, ustanawiając w ten sposób bezpośrednie połączenie ze światem fizycznym i rzeczywistym. To połączenie zapewnia, że produkcja i walidacja bitcoinów i bloków ma rzeczywisty koszt energii, tym samym zakotwiczając sieć Bitcoin w rzeczywistości fizycznej i zapobiegając jej całkowitej dominacji przez potężne podmioty. PoW działa jako bastion przeciwko centralizacji, zapewniając, że uczestnictwo w sieci i walidacja transakcji wymagają inwestycji w zasoby materialne. Zapobiega to monopolizacji sieci przez podmioty, które w przeciwnym razie mogłyby przejąć kontrolę bez znaczącej bariery wejścia, zapewniając w ten sposób bardziej sprawiedliwy podział władzy i wpływów w sieci Bitcoin.
+[Proof of Work (PoW)](https://planb.academy/resources/glossary/proof-of-work) jest niezbędny, ponieważ reprezentuje fizyczne połączenie między światem rzeczywistym a Bitcoin. Chociaż bitcoiny są niematerialne, ich produkcja wymaga namacalnej energii, ustanawiając w ten sposób bezpośrednie połączenie ze światem fizycznym i rzeczywistym. To połączenie zapewnia, że produkcja i walidacja bitcoinów i bloków ma rzeczywisty koszt energii, tym samym zakotwiczając sieć Bitcoin w rzeczywistości fizycznej i zapobiegając jej całkowitej dominacji przez potężne podmioty. PoW działa jako bastion przeciwko centralizacji, zapewniając, że uczestnictwo w sieci i walidacja transakcji wymagają inwestycji w zasoby materialne. Zapobiega to monopolizacji sieci przez podmioty, które w przeciwnym razie mogłyby przejąć kontrolę bez znaczącej bariery wejścia, zapewniając w ten sposób bardziej sprawiedliwy podział władzy i wpływów w sieci Bitcoin.
 
 
 ![image](assets/en/011.webp)
@@ -348,7 +348,7 @@ Z drugiej strony, Proof of Stake (PoS), choć pozwala na uczestnictwo na małą 
 ### Podsumowanie
 
 
-Podsumowując, górnicy wzmacniają sieć Bitcoin przed cenzurą, wykorzystując energię elektryczną do obliczania Bitcoin z Proof of Work i są nagradzani nowymi bitcoinami i opłatami transakcyjnymi. Wraz z profesjonalizacją branży pojawiają się różni gracze, odgrywający różne role, od tworzenia chipów po zarządzanie farmami Mining. Dodatkowo, finanse również odgrywają rolę, sprawując kontrolę poprzez decydowanie o tym, kto przetrwa w różnych fazach rynku. Kwestia centralizacji utrzymuje się, a najbogatsze podmioty potencjalnie dominują na rynku. Opracowywane są jednak alternatywy zarówno na poziomie sprzętu, jak i oprogramowania. To od każdej osoby zależy, czy podejmie działania i przyczyni się do dystrybucji sieci. Bitcoin stanowi niezwykłą szansę nie tylko pod względem wolności, ale także niezależności energetycznej. Pomimo kontrowersji związanych ze zużyciem energii elektrycznej, Bitcoin oferuje ekonomiczną zachętę do przejścia na bardziej racjonalne i obfite wykorzystanie energii, realizując to, co wcześniej było ekologicznym ideałem.
+Podsumowując, górnicy wzmacniają sieć Bitcoin przed cenzurą, wykorzystując energię elektryczną do obliczania Bitcoin z Proof of Work i są nagradzani nowymi bitcoinami i opłatami transakcyjnymi. Wraz z profesjonalizacją branży pojawiają się różni gracze, odgrywający różne role, od tworzenia chipów po zarządzanie [farmami Mining](https://planb.academy/resources/glossary/mining-farm). Dodatkowo, finanse również odgrywają rolę, sprawując kontrolę poprzez decydowanie o tym, kto przetrwa w różnych fazach rynku. Kwestia centralizacji utrzymuje się, a najbogatsze podmioty potencjalnie dominują na rynku. Opracowywane są jednak alternatywy zarówno na poziomie sprzętu, jak i oprogramowania. To od każdej osoby zależy, czy podejmie działania i przyczyni się do dystrybucji sieci. Bitcoin stanowi niezwykłą szansę nie tylko pod względem wolności, ale także niezależności energetycznej. Pomimo kontrowersji związanych ze zużyciem energii elektrycznej, Bitcoin oferuje ekonomiczną zachętę do przejścia na bardziej racjonalne i obfite wykorzystanie energii, realizując to, co wcześniej było ekologicznym ideałem.
 
 
 ## Cena Bitcoin i Hashrate, korelacja?
@@ -429,7 +429,7 @@ Pomimo tych opcji, Mining stanowi poważne wyzwanie. Znane w świecie kryptowalu
 Dążenie do posiadania własnego Hashrate wydaje się obiecującą ścieżką w świecie Mining. Poruszanie się po tym złożonym ekosystemie wymaga jednak ostrożnego podejścia. Obszar Mining w chmurze charakteryzuje się dużą liczbą oszustw, napędzanych brakiem zrozumienia Mining przez wielu inwestorów. Atrakcyjne oferty, opakowane na różne sposoby, mogą łatwo wprowadzić w błąd tych, którzy nie są wystarczająco poinformowani. Z drugiej strony, posiadanie własnego sprzętu Mining oferuje znaczne korzyści. Oprócz osobistej satysfakcji z aktywnego przyczyniania się do bezpieczeństwa sieci Bitcoin i obserwowania, jak nagrody wpadają do Wallet, istnieje atrakcyjny aspekt "dziewiczych bitcoinów" Są to świeżo wydobyte bitcoiny, które nigdy nie zostały wydane i nie mają żadnej historii. Te bitcoiny są często uważane za bardziej wartościowe, ponieważ nigdy nie zostały "skażone", oferując pewną gwarancję przed odrzuceniem przez organy regulacyjne lub główne platformy Exchange.
 
 
-Kolejną wartością dodaną jest możliwość pozyskiwania bitcoinów z Mining przy jednoczesnym unikaniu procedur Poznaj Swojego Klienta (KYC). Wiele pul Mining nie wymaga tożsamości górników, umożliwiając w ten sposób nabywanie bitcoinów bez przechodzenia żmudnych kontroli tożsamości. Dziewicze bitcoiny są postrzegane jako "czyste", bez historii i powiązań. Są one szczególnie poszukiwane przez dużych graczy instytucjonalnych, którzy mogą zagwarantować legalność swoich zasobów cyfrowych w obliczu organów regulacyjnych. Jednak pomimo tych zalet, kluczowe znaczenie ma uznanie, że branża Mining pozostaje niezwykle konkurencyjna i niestabilna, a nieprzewidziane incydenty mogą zakłócić operacje Mining.
+Kolejną wartością dodaną jest możliwość pozyskiwania bitcoinów z Mining przy jednoczesnym unikaniu procedur Poznaj Swojego Klienta ([KYC](https://planb.academy/resources/glossary/kyc-know-your-customer)). Wiele pul Mining nie wymaga tożsamości górników, umożliwiając w ten sposób nabywanie bitcoinów bez przechodzenia żmudnych kontroli tożsamości. Dziewicze bitcoiny są postrzegane jako "czyste", bez historii i powiązań. Są one szczególnie poszukiwane przez dużych graczy instytucjonalnych, którzy mogą zagwarantować legalność swoich zasobów cyfrowych w obliczu organów regulacyjnych. Jednak pomimo tych zalet, kluczowe znaczenie ma uznanie, że branża Mining pozostaje niezwykle konkurencyjna i niestabilna, a nieprzewidziane incydenty mogą zakłócić operacje Mining.
 
 
 W tym kontekście wybór autonomicznego i wyedukowanego podejścia do Mining wydaje się rozsądny. Nabycie własnego Hashrate i inwestowanie w osobisty sprzęt Mining, przy jednoczesnym zachowaniu świadomości ryzyka i wyzwań, może potencjalnie oferować bezpieczniejszą i bardziej satysfakcjonującą ścieżkę do pozyskiwania dziewiczych bitcoinów, zwiększając w ten sposób suwerenność finansową jednostki, jednocześnie wspierając ekosystem Bitcoin jako całość.
@@ -1101,7 +1101,7 @@ No i proszę, gratulacje! Właśnie wymieniłeś całą część mechaniczną Mi
 <chapterId>b57a6105-0a53-5fe9-bad1-d6d9daf97c0d</chapterId>
 
 
-Można sobie wyobrazić Mining pool jako spółdzielnię rolniczą. Rolnicy łączą swoją produkcję, aby zmniejszyć zmienność Supply i popytu, a tym samym uzyskać bardziej stabilny dochód dla swojej działalności. Mining pool działa w ten sam sposób, przy czym współdzielonym zasobem są hashe. Rzeczywiście, odkrycie pojedynczego ważnego Hash pozwala na utworzenie bloku i wygranie coinbase lub nagrody, obecnie 6,25 BTC plus opłaty transakcyjne zawarte w bloku.
+Można sobie wyobrazić Mining pool jako spółdzielnię rolniczą. Rolnicy łączą swoją produkcję, aby zmniejszyć zmienność Supply i popytu, a tym samym uzyskać bardziej stabilny dochód dla swojej działalności. Mining pool działa w ten sam sposób, przy czym współdzielonym zasobem są hashe. Rzeczywiście, odkrycie pojedynczego ważnego Hash pozwala na utworzenie bloku i wygranie [coinbase](https://planb.academy/resources/glossary/coinbase-transaction) lub nagrody, obecnie 6,25 BTC plus opłaty transakcyjne zawarte w bloku.
 
 
 Jeśli wydobywasz sam, zostaniesz nagrodzony tylko wtedy, gdy znajdziesz blok. Konkurując ze wszystkimi innymi górnikami na świecie, miałbyś bardzo małe szanse na wygranie tej loterii i nadal musiałbyś płacić opłaty związane z korzystaniem z Miner bez żadnej gwarancji sukcesu. Mining łączy Address tę kwestię, łącząc moc obliczeniową kilku (tysięcy) górników i dzieląc ich nagrody w oparciu o procentowy udział w Hashrate puli po znalezieniu bloku. Aby zwizualizować swoje szanse na samodzielne Mining bloku, możesz użyć tego narzędzia. Wprowadzając informacje dla Antminera S9, możemy zobaczyć, że szanse na znalezienie Hash, który pozwala na utworzenie bloku, wynoszą 1 na 24 777 849 dla każdego bloku lub 1 na 172 068 dziennie. Średnio (przy stałym Hashrate i poziomie trudności) znalezienie bloku zajęłoby co najmniej 471 lat (wraz ze wzrostem poziomu trudności).
@@ -1124,7 +1124,7 @@ Model wynagradzania, który nas interesuje, to PPS, co oznacza "pay-per-share". 
 
 
 
-- Linecoin: Zaletą Linecoin jest liczba oferowanych funkcji, takich jak szczegółowy pulpit nawigacyjny, możliwość dokonywania wypłat za pomocą Paynym (BIP 47) dla lepszej ochrony prywatności oraz integracja bota Telegram, a także bezpośrednio konfigurowalne automatyzacje w aplikacji mobilnej. Ta pula wydobywa tylko bloki Bitcoin, ale minimalna kwota do wypłaty pozostaje wysoka i wynosi 100 000 Sats. Przeanalizujemy Interface jednej z tych pul bardziej szczegółowo w przyszłym artykule.
+- Linecoin: Zaletą Linecoin jest liczba oferowanych funkcji, takich jak szczegółowy pulpit nawigacyjny, możliwość dokonywania wypłat za pomocą [Paynym](https://planb.academy/resources/glossary/paynym) (BIP 47) dla lepszej ochrony prywatności oraz integracja bota Telegram, a także bezpośrednio konfigurowalne automatyzacje w aplikacji mobilnej. Ta pula wydobywa tylko bloki Bitcoin, ale minimalna kwota do wypłaty pozostaje wysoka i wynosi 100 000 Sats. Przeanalizujemy Interface jednej z tych pul bardziej szczegółowo w przyszłym artykule.
 
 
 Aby skonfigurować pulę w Braiins OS+, należy utworzyć konto w jednej z wybranych pul. Tutaj weźmiemy przykład Linecoin:
@@ -1136,7 +1136,7 @@ Aby skonfigurować pulę w Braiins OS+, należy utworzyć konto w jednej z wybra
 Po utworzeniu konta kliknij przycisk Połącz z pulą
 
 
-Następnie skopiuj Stratum Address i swoją nazwę użytkownika:
+Następnie skopiuj [Stratum](https://planb.academy/resources/glossary/stratum) Address i swoją nazwę użytkownika:
 
 
 ![image](assets/en/077.webp)

@@ -54,7 +54,7 @@ Og hva om nøkkelen til å forstå dagens økonomi ligger i en teori som er fler
 
 ### Hvordan Penger Skapes
 
-I vårt nåværende pengevesen skapes penger primært gjennom en bankpraksis kjent som "fraksjonell reservebankvirksomhet." Dette uttrykket betyr i hovedsak at banker ikke er pålagt å holde like mange reserver som de mottar i innskudd. Følgelig kan de skape ny kjøpekraft når de innvilger lån og omvendt redusere kjøpekraften når kunder betaler tilbake sine lån.
+I vårt nåværende pengevesen skapes penger primært gjennom en bankpraksis kjent som "[fraksjonell reservebankvirksomhet](https://planb.academy/resources/glossary/fractional-reserves)." Dette uttrykket betyr i hovedsak at banker ikke er pålagt å holde like mange reserver som de mottar i innskudd. Følgelig kan de skape ny kjøpekraft når de innvilger lån og omvendt redusere kjøpekraften når kunder betaler tilbake sine lån.
 
 For eksempel, hvis du skulle gå til din lokale bank for å sikre et boliglån for et huskjøp, ville pengene lånt til deg av banken komme til eksistens som en bokføringspost. I regnskap representerer vi typisk en persons nettoformue med en balanse, som har to sider: aktivasiden, inkludert eiendom, finansielle kontrakter, inventar eller andre former for rikdom eid, og passivasiden, som viser kilden til midlene brukt til å skape kapitalen oppført på aktivasiden. Forskjellen mellom eiendeler og forpliktelser refereres til som "egenkapital" og kan tenkes på som enhetens nettoformue.
 
@@ -118,7 +118,7 @@ En annen utilsiktet konsekvens av ZIRP er at det oppmuntrer regjeringer til å e
 
 Figur 6: Offentlig & Privat Gjeld som % av BNP (Verden, vektet etter BNP per land) / Kilde IMF
 
-Med inflasjon på vei opp på grunn av betydelig pengetrykking som respons på COVID-relaterte nedstengninger, hever sentralbankfolk nå politikkratene i et forsøk på å dempe inflasjonen. Dette utgjør imidlertid en betydelig utfordring for hele systemet. Banker er mer belånte enn noensinne, regjeringer bærer historisk høye gjeldsnivåer, økonomisk vekst er treg, underskuddene øker, og forbrukere, som sliter med stigende priser på nødvendige varer, strever med å få endene til å møtes. Å kontrollere inflasjonen ville kreve å heve rentene til et nivå som kunne slå regjeringer konkurs, mens banker risikerer å miste innskytere ettersom individer bruker sine sparepenger på stadig dyrere nødvendigheter eller søker tilflukt i harde eiendeler og pengemarkedsfond for å sikre seg mot inflasjon.
+Med [inflasjon](https://planb.academy/resources/glossary/inflation) på vei opp på grunn av betydelig pengetrykking som respons på COVID-relaterte nedstengninger, hever sentralbankfolk nå politikkratene i et forsøk på å dempe inflasjonen. Dette utgjør imidlertid en betydelig utfordring for hele systemet. Banker er mer belånte enn noensinne, regjeringer bærer historisk høye gjeldsnivåer, økonomisk vekst er treg, underskuddene øker, og forbrukere, som sliter med stigende priser på nødvendige varer, strever med å få endene til å møtes. Å kontrollere inflasjonen ville kreve å heve rentene til et nivå som kunne slå regjeringer konkurs, mens banker risikerer å miste innskytere ettersom individer bruker sine sparepenger på stadig dyrere nødvendigheter eller søker tilflukt i harde eiendeler og pengemarkedsfond for å sikre seg mot inflasjon.
 
 ### Konklusjon
 
@@ -126,7 +126,7 @@ Med inflasjon på vei opp på grunn av betydelig pengetrykking som respons på C
 > John Maynard Keynes
 > I bunn og grunn står systemet vårt overfor betydelige utfordringer, og Bitcoin fremstår som det eneste troverdige alternativet. Men Bitcoin alene kan ikke adressere problemene i vårt monetære system. Fremfor alt trenger vi personer som forstår grunnleggende økonomiske prinsipper blant Bitcoin-entusiaster, noe som muliggjør en bredere bevissthet og økonomisk sunn fornuft for å lede oss bort fra å bygge nok en skjør finansiell grunnmur for vår sivilisasjon. Det primære målet med dette kurset er å utdanne nye Bitcoin-entusiaster i sunne økonomiske prinsipper.
 
-For å oppnå dette målet vil vi forklare de grunnleggende prinsippene i "Austrian Economics", en økonomisk skole med en metodologisk tradisjon som går tilbake til det 16. århundre, og som gir innsikt i menneskelig handling under økonomiske begrensninger. Med denne introduksjonen forstår du nå det grunnleggende om pengekreasjon og den nåværende tilstanden til vårt finansielle og monetære system.
+For å oppnå dette målet vil vi forklare de grunnleggende prinsippene i "[Austrian Economics](https://planb.academy/resources/glossary/austrian-school)", en økonomisk skole med en metodologisk tradisjon som går tilbake til det 16. århundre, og som gir innsikt i menneskelig handling under økonomiske begrensninger. Med denne introduksjonen forstår du nå det grunnleggende om pengekreasjon og den nåværende tilstanden til vårt finansielle og monetære system.
 
 I det kommende kapittelet vil vi dykke ned i grunnsteinen i enhver økonomisk skole: verditeorien. Påfølgende kapitler vil utforske penger som en sosial institusjon, teorien om kapital og konjunktursyklusen, utfordringen med økonomisk kalkulasjon, og en kort oversikt over historien og metodologien til den østerrikske skolen for økonomi.
 

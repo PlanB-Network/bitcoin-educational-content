@@ -105,7 +105,7 @@ Slutligen kommer vi att avsluta utbildningen genom att sammanfatta de begrepp so
 
 
 
-Lightning Network är ett nätverk av betalningskanaler som bygger på Bitcoin-protokollet och syftar till att möjliggöra snabba transaktioner till låg kostnad. Det gör det möjligt att skapa betalningskanaler mellan deltagare, inom vilka transaktioner kan göras nästan omedelbart och med minimala avgifter, utan att behöva registrera varje transaktion individuellt på Blockchain. Lightning Network syftar således till att förbättra Bitcoin:s skalbarhet och göra den användbar för betalningar av lågt värde.
+[Lightning Network](https://planb.academy/resources/glossary/lightning-network) är ett nätverk av [betalningskanaler](https://planb.academy/resources/glossary/payment-channel) som bygger på Bitcoin-protokollet och syftar till att möjliggöra snabba transaktioner till låg kostnad. Det gör det möjligt att skapa betalningskanaler mellan deltagare, inom vilka transaktioner kan göras nästan omedelbart och med minimala avgifter, utan att behöva registrera varje transaktion individuellt på [Blockchain](https://planb.academy/resources/glossary/blockchain). Lightning Network syftar således till att förbättra Bitcoin:s [skalbarhet](https://planb.academy/resources/glossary/scalability) och göra den användbar för betalningar av lågt värde.
 
 
 Innan du utforskar "nätverksaspekten" är det viktigt att förstå konceptet med en **betalningskanal** på Lightning, hur det fungerar och dess detaljer. Detta är ämnet för detta första kapitel.
@@ -120,7 +120,7 @@ En betalningskanal tillåter två parter, här **Alice** och **Bob**, att Exchan
 ![LNP201](assets/en/001.webp)
 
 
-I vårt exempel har Alice 100 000 satoshis på sin sida av kanalen och Bob har 30 000, för totalt 130 000 satoshis, vilket utgör **kanalkapaciteten**.
+I vårt exempel har Alice 100 000 [satoshis](https://planb.academy/resources/glossary/satoshi-sat) på sin sida av kanalen och Bob har 30 000, för totalt 130 000 satoshis, vilket utgör **[kanalkapaciteten](https://planb.academy/resources/glossary/lightning-channel-capacity)**.
 
 
 **Men vad är en Satoshi?**
@@ -194,7 +194,7 @@ Detta kapitel är lite speciellt eftersom det inte kommer att vara direkt tillä
 ### Bitcoin Adresser, privata nycklar och offentliga nycklar
 
 
-En Bitcoin Address är en serie tecken som härleds från en **public key**, som i sin tur beräknas från en **private key**. Som du säkert vet används den för att låsa bitcoins, vilket är likvärdigt med att ta emot dem i vår Wallet.
+En Bitcoin Address är en serie tecken som härleds från en **[public key](https://planb.academy/resources/glossary/public-key)**, som i sin tur beräknas från en **[private key](https://planb.academy/resources/glossary/private-key)**. Som du säkert vet används den för att låsa bitcoins, vilket är likvärdigt med att ta emot dem i vår Wallet.
 
 
 Den privata nyckeln är ett hemligt element som **aldrig bör delas**, medan den offentliga nyckeln och Address kan delas utan säkerhetsrisk (deras avslöjande utgör endast en risk för din integritet). Här är en gemensam representation som vi kommer att använda under hela den här utbildningen:
@@ -209,10 +209,10 @@ Den privata nyckeln är ett hemligt element som **aldrig bör delas**, medan den
 ### Bitcoin Transaktioner: Skicka pengar och skript
 
 
-På Bitcoin innebär en transaktion att skicka pengar från en Address till en annan. Låt oss ta exemplet med Alice som skickar 0,002 Bitcoin till Bob. Alice använder den privata nyckeln som är associerad med hennes Address för att **signera** transaktionen, och bevisar därmed att hon verkligen kan spendera dessa pengar. Men vad är det egentligen som händer bakom den här transaktionen? Pengarna på en Bitcoin Address är låsta av ett **skript**, ett slags miniprogram som ställer vissa villkor för att använda pengarna.
+På Bitcoin innebär en transaktion att skicka pengar från en Address till en annan. Låt oss ta exemplet med Alice som skickar 0,002 Bitcoin till Bob. Alice använder den privata nyckeln som är associerad med hennes Address för att **signera** transaktionen, och bevisar därmed att hon verkligen kan spendera dessa pengar. Men vad är det egentligen som händer bakom den här transaktionen? Pengarna på en Bitcoin Address är låsta av ett **[skript](https://planb.academy/resources/glossary/script)**, ett slags miniprogram som ställer vissa villkor för att använda pengarna.
 
 
-Det vanligaste skriptet kräver en signatur med den privata nyckel som är kopplad till Address. När Alice signerar en transaktion med sin privata nyckel **låser hon upp skriptet** som blockerar pengarna, och de kan då överföras. Överföringen av medel innebär att ett nytt skript läggs till dessa medel, där det anges att **Bob:s** privata nyckelsignatur krävs för att spendera dem den här gången.
+Det vanligaste skriptet kräver en [signatur](https://planb.academy/resources/glossary/digital-signature) med den privata nyckel som är kopplad till Address. När Alice signerar en transaktion med sin privata nyckel **låser hon upp skriptet** som blockerar pengarna, och de kan då överföras. Överföringen av medel innebär att ett nytt skript läggs till dessa medel, där det anges att **Bob:s** privata nyckelsignatur krävs för att spendera dem den här gången.
 
 
 ![LNP201](assets/en/005.webp)
@@ -221,7 +221,7 @@ Det vanligaste skriptet kräver en signatur med den privata nyckel som är koppl
 ### UTXO: Utgångar för oanvända transaktioner
 
 
-På Bitcoin är det vi faktiskt Exchange inte direkt bitcoins, utan **[UTXO](https://planb.academy/resources/glossary/utxo)s** (_Unspent Transaction Outputs_), vilket betyder "outnyttjade transaktionsutgångar".
+På Bitcoin är det vi faktiskt Exchange inte direkt bitcoins, utan **UTXOs** (_Unspent Transaction Outputs_), vilket betyder "outnyttjade transaktionsutgångar".
 
 
 En UTXO är en del av Bitcoin som kan ha vilket värde som helst, till exempel **2 000 bitcoins**, **8 bitcoins** eller till och med **8 000 Sats**. Varje UTXO är låst av ett skript, och för att spendera den måste man uppfylla skriptets villkor, ofta en signatur med den privata nyckeln som motsvarar en given mottagande Address.
@@ -306,9 +306,9 @@ Det är viktigt att tydligt skilja mellan de olika nivåerna av Exchange på Lig
 
 
 
-- **Peer-to-peer-kommunikation (Lightning-protokollet)**: Detta är de meddelanden som Lightning-noderna skickar till varandra för att kommunicera. Vi kommer att representera dessa meddelanden med streckade svarta linjer i våra diagram.
+- **[Peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p)-kommunikation (Lightning-protokollet)**: Detta är de meddelanden som [Lightning-noderna](https://planb.academy/resources/glossary/lightning-node) skickar till varandra för att kommunicera. Vi kommer att representera dessa meddelanden med streckade svarta linjer i våra diagram.
 - **Betalningskanaler (Lightning-protokoll)**: Det här är vägarna för att utbyta pengar på Lightning, som vi kommer att representera med solida svarta linjer.
-- **Bitcoin-transaktioner (Bitcoin-protokoll)**: Det här är de transaktioner som görs på kedjan, som vi kommer att representera med orange linjer.
+- **Bitcoin-transaktioner (Bitcoin-protokoll)**: Det här är de transaktioner som görs [på kedjan](https://planb.academy/resources/glossary/onchain), som vi kommer att representera med orange linjer.
 
 
 ![LNP201](assets/en/010.webp)
@@ -349,7 +349,7 @@ Det är värt att notera att en Lightning-nod kan kommunicera via P2P-protokolle
 
 
 
-- **Bob:s underskrift**: Alice skickar insättningstransaktionen till Bob som bevis och ber honom att underteckna uttagstransaktionen. När Bob:s underskrift har erhållits på uttagstransaktionen är Alice säker på att kunna återfå sina medel när som helst, eftersom endast hennes egen underskrift nu behövs för att låsa upp [multisignature](https://planb.academy/resources/glossary/multisig)n.
+- **Bob:s underskrift**: Alice skickar insättningstransaktionen till Bob som bevis och ber honom att underteckna uttagstransaktionen. När Bob:s underskrift har erhållits på uttagstransaktionen är Alice säker på att kunna återfå sina medel när som helst, eftersom endast hennes egen underskrift nu behövs för att låsa upp multisignaturen.
 
 
 ![LNP201](assets/en/015.webp)
@@ -365,7 +365,7 @@ Det är värt att notera att en Lightning-nod kan kommunicera via P2P-protokolle
 ### När är kanalen öppen?
 
 
-Kanalen anses vara öppen när insättningstransaktionen ingår i ett Bitcoin-block och den har nått ett visst antal bekräftelser (antal följande block).
+Kanalen anses vara öppen när insättningstransaktionen ingår i ett Bitcoin-[block](https://planb.academy/resources/glossary/block) och den har nått ett visst antal [bekräftelser](https://planb.academy/resources/glossary/confirmation) (antal följande block).
 
 
 **Vad ska du komma ihåg från det här kapitlet?**
@@ -413,7 +413,7 @@ Vid tidpunkten för öppnandet av kanalen satte Alice in **130 000 satoshis** p�
 ### Opublicerade transaktioner: Commitment-transaktionerna
 
 
-När Alice gör en transaktion i kanalen för att skicka pengar till Bob, skapas en ny Bitcoin-transaktion för att återspegla denna förändring i fördelningen av pengar. Denna transaktion, som kallas **Commitment Transaction**, publiceras inte på Blockchain men representerar kanalens nya tillstånd efter Lightning-transaktionen.
+När Alice gör en transaktion i kanalen för att skicka pengar till Bob, skapas en ny Bitcoin-transaktion för att återspegla denna förändring i fördelningen av pengar. Denna transaktion, som kallas **[Commitment Transaction](https://planb.academy/resources/glossary/commitment-transaction)**, publiceras inte på Blockchain men representerar kanalens nya tillstånd efter Lightning-transaktionen.
 
 
 Låt oss ta ett exempel där Alice skickar 30 000 satoshis till Bob:
@@ -523,10 +523,10 @@ För att förhindra denna typ av fusk från Alice, på Lightning Network, läggs
 
 
 
-- **Tidslåset**: Varje Commitment Transaction innehåller en tidslåsning för Alice:s medel. Tidslåset är en Smart contract-primitiv som anger ett tidsvillkor som måste uppfyllas för att en transaktion ska läggas till i ett block. Det innebär att Alice inte kan återfå sina medel förrän ett visst antal block har passerat om hon publicerar en av Commitment-transaktionerna. Denna tidslåsning börjar gälla från och med bekräftelsen av Commitment Transaction. Dess varaktighet är i allmänhet proportionell mot kanalens storlek, men den kan också konfigureras manuellt.
+- **Tidslåset**: Varje Commitment Transaction innehåller en [tidslåsning](https://planb.academy/resources/glossary/timelock) för Alice:s medel. Tidslåset är en [Smart contract](https://planb.academy/resources/glossary/smart-contract)-primitiv som anger ett tidsvillkor som måste uppfyllas för att en transaktion ska läggas till i ett block. Det innebär att Alice inte kan återfå sina medel förrän ett visst antal block har passerat om hon publicerar en av Commitment-transaktionerna. Denna tidslåsning börjar gälla från och med bekräftelsen av Commitment Transaction. Dess varaktighet är i allmänhet proportionell mot kanalens storlek, men den kan också konfigureras manuellt.
 - **Återkallelse nyckel**: Alice:s medel kan också omedelbart spenderas av Bob om han innehar **revocation key**. Denna nyckel består av en hemlighet som innehas av Alice och en hemlighet som innehas av Bob. Observera att denna hemlighet är olika för varje Commitment Transaction.
 
-Tack vare dessa 2 kombinerade mekanismer har Bob tid att upptäcka Alice:s försök att fuska och att straffa henne genom att hämta sin utgång med återkallningsnyckeln, vilket för Bob innebär att återställa alla medel i kanalen. Vår nya Commitment Transaction kommer nu att se ut så här:
+Tack vare dessa 2 kombinerade mekanismer har Bob tid att upptäcka Alice:s försök att fuska och att straffa henne genom att hämta sin [utgång](https://planb.academy/resources/glossary/output) med återkallningsnyckeln, vilket för Bob innebär att återställa alla medel i kanalen. Vår nya Commitment Transaction kommer nu att se ut så här:
 
 
 ![LNP201](assets/en/025.webp)
@@ -543,7 +543,7 @@ När Alice och Bob uppdaterar kanalens tillstånd med en ny blixttransaktion, Ex
 
 
 - Alice och Bob har en ny Commitment Transaction som representerar den aktuella fördelningen av medel efter Lightning-transaktionen.
-- Båda har den andras hemlighet för den föregående transaktionen, vilket gör att de kan använda återkallningsnyckeln endast om en av dem försöker fuska genom att publicera en transaktion med ett gammalt tillstånd i Bitcoin-nodernas mempooler. För att straffa den andra parten är det faktiskt nödvändigt att hålla båda hemligheterna och den andra partens Commitment Transaction, som innehåller den signerade inmatningen. Utan denna transaktion är enbart återkallningsnyckeln värdelös. Det enda sättet att få tag på denna transaktion är att hämta den från mempoolerna (i de transaktioner som väntar på bekräftelse) eller i de bekräftade transaktionerna på Blockchain under tidslåset, vilket bevisar att den andra parten försöker fuska, avsiktligt eller inte.
+- Båda har den andras hemlighet för den föregående transaktionen, vilket gör att de kan använda återkallningsnyckeln endast om en av dem försöker fuska genom att publicera en transaktion med ett gammalt tillstånd i Bitcoin-nodernas [mempooler](https://planb.academy/resources/glossary/mempool). För att straffa den andra parten är det faktiskt nödvändigt att hålla båda hemligheterna och den andra partens Commitment Transaction, som innehåller den signerade [inmatningen](https://planb.academy/resources/glossary/input). Utan denna transaktion är enbart återkallningsnyckeln värdelös. Det enda sättet att få tag på denna transaktion är att hämta den från mempoolerna (i de transaktioner som väntar på bekräftelse) eller i de bekräftade transaktionerna på Blockchain under tidslåset, vilket bevisar att den andra parten försöker fuska, avsiktligt eller inte.
 
 
 Låt oss ta ett exempel för att förstå denna process väl:
@@ -648,7 +648,7 @@ I en **kooperativ stängning** kommer Alice och Bob överens om att stänga kana
 
 
 
-- Alice och Bob förhandlar tillsammans om avgifterna för den **avslutande transaktionen**. Dessa avgifter beräknas i allmänhet baserat på Bitcoin:s avgiftsmarknad vid tidpunkten för stängningen. Det är viktigt att notera att **det alltid är den person som öppnade kanalen** (Alice i vårt exempel) som betalar avslutsavgifterna.
+- Alice och Bob förhandlar tillsammans om [avgifterna](https://planb.academy/resources/glossary/transaction-fees) för den **avslutande transaktionen**. Dessa avgifter beräknas i allmänhet baserat på Bitcoin:s avgiftsmarknad vid tidpunkten för stängningen. Det är viktigt att notera att **det alltid är den person som öppnade kanalen** (Alice i vårt exempel) som betalar avslutsavgifterna.
 - De konstruerar en ny **avslutande transaktion**. Denna transaktion liknar en Commitment Transaction, men utan tidslås eller återkallelsemekanismer, eftersom båda parter samarbetar och det inte finns någon risk för fusk. Denna kooperativa avslutande transaktion skiljer sig därför från Commitment-transaktioner.
 
 
@@ -732,13 +732,13 @@ I de kommande kapitlen kommer vi att utforska Lightning Network ur ett bredare p
 :::video id=38419c23-5592-4573-b0a7-84824a5bfb77:::
 
 
-I det här kapitlet kommer vi att undersöka hur betalningar på Lightning Network kan nå en mottagare även om de inte är direkt anslutna via en betalningskanal. Lightning är i själva verket ett **nätverk av betalningskanaler**, som gör det möjligt att skicka pengar till en avlägsen nod via andra deltagares kanaler. Vi kommer att upptäcka hur betalningar dirigeras över nätverket, hur likviditet rör sig mellan kanaler och hur transaktionsavgifter beräknas.
+I det här kapitlet kommer vi att undersöka hur betalningar på Lightning Network kan nå en mottagare även om de inte är direkt anslutna via en betalningskanal. Lightning är i själva verket ett **nätverk av betalningskanaler**, som gör det möjligt att skicka pengar till en avlägsen nod via andra deltagares kanaler. Vi kommer att upptäcka hur betalningar dirigeras över nätverket, hur [likviditet](https://planb.academy/resources/glossary/liquidity-lightning) rör sig mellan kanaler och hur transaktionsavgifter beräknas.
 
 
 ### Nätverket av betalningskanaler
 
 
-På Lightning Network motsvarar en transaktion en överföring av pengar mellan två noder. Som vi sett i tidigare kapitel är det nödvändigt att öppna en kanal med någon för att utföra Lightning-transaktioner. Denna kanal möjliggör ett nästan oändligt antal off-chain-transaktioner innan den stängs för att återfå On-Chain-saldot. Den här metoden har dock nackdelen att det krävs en direktkanal med den andra personen för att ta emot eller skicka pengar, vilket innebär en öppningstransaktion och en stängningstransaktion för varje kanal. Om jag planerar att göra ett stort antal betalningar med den här personen blir det kostnadseffektivt att öppna och stänga en kanal. Om jag däremot bara behöver utföra ett fåtal Lightning-transaktioner är det inte fördelaktigt att öppna en direktkanal, eftersom det skulle kosta mig 2 On-Chain-transaktioner för ett begränsat antal off-chain-transaktioner. Detta fall kan till exempel inträffa när man vill betala med Lightning hos en handlare utan att planera att återvända.
+På Lightning Network motsvarar en transaktion en överföring av pengar mellan två noder. Som vi sett i tidigare kapitel är det nödvändigt att öppna en kanal med någon för att utföra Lightning-transaktioner. Denna kanal möjliggör ett nästan oändligt antal [off-chain](https://planb.academy/resources/glossary/offchain)-transaktioner innan den stängs för att återfå On-Chain-saldot. Den här metoden har dock nackdelen att det krävs en direktkanal med den andra personen för att ta emot eller skicka pengar, vilket innebär en öppningstransaktion och en stängningstransaktion för varje kanal. Om jag planerar att göra ett stort antal betalningar med den här personen blir det kostnadseffektivt att öppna och stänga en kanal. Om jag däremot bara behöver utföra ett fåtal Lightning-transaktioner är det inte fördelaktigt att öppna en direktkanal, eftersom det skulle kosta mig 2 On-Chain-transaktioner för ett begränsat antal off-chain-transaktioner. Detta fall kan till exempel inträffa när man vill betala med Lightning hos en handlare utan att planera att återvända.
 
 
 För att lösa detta problem gör Lightning Network det möjligt att dirigera en betalning genom flera kanaler och mellanliggande noder, vilket möjliggör en transaktion utan en direktkanal med den andra personen.
@@ -916,7 +916,7 @@ I det här kapitlet har vi utforskat betalningsrouting på Lightning Network. Me
 :::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
 
-I det här kapitlet kommer vi att upptäcka hur Lightning gör det möjligt för betalningar att passera genom mellanliggande noder utan att behöva lita på dem, tack vare **[HTLC](https://planb.academy/resources/glossary/htlc)** (_Hashed Time-Locked Contracts_). Dessa smarta kontrakt säkerställer att varje mellanliggande nod endast får pengarna från sin kanal om den vidarebefordrar betalningen till den slutliga mottagaren, annars valideras inte betalningen.
+I det här kapitlet kommer vi att upptäcka hur Lightning gör det möjligt för betalningar att passera genom mellanliggande noder utan att behöva lita på dem, tack vare **HTLC** (_Hashed Time-Locked Contracts_). Dessa smarta kontrakt säkerställer att varje mellanliggande nod endast får pengarna från sin kanal om den vidarebefordrar betalningen till den slutliga mottagaren, annars valideras inte betalningen.
 
 
 Den fråga som uppstår för betalningsdirigering är därför den nödvändiga tilliten till mellanliggande noder och mellan de mellanliggande noderna själva. För att illustrera detta, låt oss återgå till vårt förenklade Lightning Network-exempel med 3 noder och 2 kanaler:
@@ -958,7 +958,7 @@ Så här fungerar den här processen i vårt exempel med Alice, Suzie och Bob:
 ![LNP201](assets/en/048.webp)
 
 
-**Skapande av hemligheten**: Bob genererar en slumpmässig hemlighet med beteckningen _s_ (förbilden) och beräknar dess Hash med beteckningen _r_ med Hash-funktionen med beteckningen _h_. Vi har:
+**Skapande av hemligheten**: Bob genererar en slumpmässig hemlighet med beteckningen _s_ (förbilden) och beräknar dess Hash med beteckningen _r_ med [Hash-funktionen](https://planb.academy/resources/glossary/hash-function) med beteckningen _h_. Vi har:
 
 
 $$
@@ -1116,7 +1116,7 @@ Som vi har sett är det i Lightning den betalningsavsändande noden som måste b
 ### Uppdatering av nätverkskarta
 
 
-För att hålla sin nätverkskarta uppdaterad skickar noderna regelbundet Exchange-meddelanden genom en algoritm som kallas "**_gossip_**". Detta är en distribuerad algoritm som används för att sprida information på ett epidemiskt sätt till alla noder i nätverket, vilket möjliggör Exchange och synkronisering av Global State i kanalerna på några få kommunikationscykler. Varje nod sprider information till en eller flera grannar som väljs slumpmässigt eller inte, dessa sprider i sin tur informationen till andra grannar och så vidare tills ett globalt synkroniserat tillstånd har uppnåtts.
+För att hålla sin nätverkskarta uppdaterad skickar noderna regelbundet Exchange-meddelanden genom en algoritm som kallas "**_[gossip](https://planb.academy/resources/glossary/gossip)_**". Detta är en distribuerad algoritm som används för att sprida information på ett epidemiskt sätt till alla noder i nätverket, vilket möjliggör Exchange och synkronisering av Global State i kanalerna på några få kommunikationscykler. Varje nod sprider information till en eller flera grannar som väljs slumpmässigt eller inte, dessa sprider i sin tur informationen till andra grannar och så vidare tills ett globalt synkroniserat tillstånd har uppnåtts.
 
 
 De två viktigaste meddelandena som utväxlas mellan Lightning-noderna är följande:
@@ -1228,7 +1228,7 @@ I följande kapitel kommer vi särskilt att studera hur fakturor fungerar, utöv
 :::video id=309c3412-506e-4189-ad46-5e5088c55008:::
 
 
-I det här kapitlet tittar vi närmare på hur Lightning **fakturor** fungerar, det vill säga betalningsbegäran som skickas från mottagarnoden till avsändarnoden. Målet är att förstå hur man betalar och tar emot betalningar på Lightning. Vi kommer också att diskutera 2 alternativ till klassiska fakturor: LNURL och Keysend.
+I det här kapitlet tittar vi närmare på hur Lightning **fakturor** fungerar, det vill säga betalningsbegäran som skickas från mottagarnoden till avsändarnoden. Målet är att förstå hur man betalar och tar emot betalningar på Lightning. Vi kommer också att diskutera 2 alternativ till klassiska fakturor: [LNURL](https://planb.academy/resources/glossary/lnurl) och Keysend.
 
 
 ![LNP201](assets/en/068.webp)
@@ -1339,7 +1339,7 @@ Nyttolasten i en Invoice innehåller flera delar av den information som krävs f
 - **Signaturer**: Garanterar Invoice:s integritet genom att autentisera all information.
 
 
-Fakturorna kodas sedan i **bech32**, samma format som för Bitcoin SegWit-adresser (format som börjar med `bc1`).
+Fakturorna kodas sedan i **[bech32](https://planb.academy/resources/glossary/bech32-and-bech32m)**, samma format som för Bitcoin [SegWit](https://planb.academy/resources/glossary/segwit)-adresser (format som börjar med `bc1`).
 
 
 ### LNURL Återkallande
@@ -1404,8 +1404,8 @@ Det finns tre huvudsakliga användarprofiler på Lightning, var och en med speci
 
 
 
-- **Betalaren**: Det här är den som gör betalningar. De behöver utgående likviditet för att kunna överföra pengar till andra användare. Det kan till exempel vara en konsument.
-- **Säljaren (eller betalningsmottagaren)**: Detta är den som tar emot betalningar. De behöver inkommande likviditet för att kunna ta emot betalningar till sin nod. Det kan till exempel vara ett företag eller en webbutik.
+- **Betalaren**: Det här är den som gör betalningar. De behöver [utgående likviditet](https://planb.academy/resources/glossary/outbound-capacity) för att kunna överföra pengar till andra användare. Det kan till exempel vara en konsument.
+- **Säljaren (eller betalningsmottagaren)**: Detta är den som tar emot betalningar. De behöver [inkommande likviditet](https://planb.academy/resources/glossary/inbound-capacity) för att kunna ta emot betalningar till sin nod. Det kan till exempel vara ett företag eller en webbutik.
 - **Routern**: En förmedlande nod, ofta specialiserad på att dirigera betalningar, som måste optimera sin likviditet i varje kanal för att dirigera så många betalningar som möjligt och tjäna avgifter.
 
 

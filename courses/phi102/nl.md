@@ -1117,7 +1117,7 @@ In de logica van politieke overheersing is geld niet langer een goed of dienst a
 
 
 
-Al in de Middeleeuwen analyseerde Nicolas Oresme de schadelijke effecten van monetaire manipulatie op de handel. Monetaire dalingen veroorzaken inflatie en destabiliseren prijzen, omdat het monetaire signaal onzeker wordt wanneer de meester van de waardemaatstaven de inhoud ervan willekeurig kan veranderen. Metalen geld zelf was vaak niet meer dan een illusie, met munten die laagwaardige legeringen bevatten die sommige 19e-eeuwse liberale schrijvers koper assignaten noemden.
+Al in de Middeleeuwen analyseerde Nicolas Oresme de schadelijke effecten van monetaire manipulatie op de handel. Monetaire dalingen veroorzaken [inflatie](https://planb.academy/resources/glossary/inflation) en destabiliseren prijzen, omdat het monetaire signaal onzeker wordt wanneer de meester van de waardemaatstaven de inhoud ervan willekeurig kan veranderen. Metalen geld zelf was vaak niet meer dan een illusie, met munten die laagwaardige legeringen bevatten die sommige 19e-eeuwse liberale schrijvers koper assignaten noemden.
 
 
 

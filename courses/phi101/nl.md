@@ -1219,7 +1219,7 @@ De systematische studie van economische wetten begon in de Hoge Middeleeuwen. De
 ![image](assets/nl/049.webp)
 
 
-De kern van zijn monetaire analyse is het probleem van de "mutaties" van geld, dat wil zeggen veranderingen in de metaalinhoud van munten en hun denominatie. Deze veranderingen komen al voor sinds het begin der tijden en zijn goed gedocumenteerd voor de Oudheid en de Middeleeuwen. Het meest zichtbare effect is dat de koopkracht van de munteenheid verandert en vooral daalt. Dit is een primitieve vorm van inflatie die Oresme duidelijk veroordeelt als een kwaad.
+De kern van zijn monetaire analyse is het probleem van de "mutaties" van geld, dat wil zeggen veranderingen in de metaalinhoud van munten en hun denominatie. Deze veranderingen komen al voor sinds het begin der tijden en zijn goed gedocumenteerd voor de Oudheid en de Middeleeuwen. Het meest zichtbare effect is dat de koopkracht van de munteenheid verandert en vooral daalt. Dit is een primitieve vorm van [inflatie](https://planb.academy/resources/glossary/inflation) die Oresme duidelijk veroordeelt als een kwaad.
 
 
 Oresme werpt meteen een centrale vraag op: Is inflatie gunstig voor de gemeenschap? Hij antwoordt ontkennend en stelt dat inflatie geld niet meer of minder nuttig maakt voor uitwisselingen. De economie kan goed functioneren ongeacht het prijsniveau, en dus ongeacht de nominale geldhoeveelheid Supply.
@@ -1472,7 +1472,7 @@ Het is onnodig om te bewijzen dat elk individu zelf kan bepalen wat het meest vo
 Hier loopt Turgot grotendeels vooruit op het argument van Mises en Hayek over de onmogelijkheid van enige economische berekening in een socialistisch economisch systeem.
 
 
-Murray Rothbard, die een hoofdstuk wijdt aan "De genialiteit van Turgot", benadrukt in zijn economische geschiedenis vanuit een Oostenrijks perspectief dat "de invloed van Turgot op het latere economische denken ernstig werd beperkt (...) door de mythe dat Adam Smith de grondlegger van de politieke economie was" En hij voegt eraan toe: "Het was op de Fransman J.B. Say, officieel een volgeling van Smith, dat Turgot uiteindelijk de meeste invloed had, met name op zijn theorie van nutswaarde."
+Murray Rothbard, die een hoofdstuk wijdt aan "De genialiteit van Turgot", benadrukt in zijn economische geschiedenis vanuit een [Oostenrijks](https://planb.academy/resources/glossary/austrian-school) perspectief dat "de invloed van Turgot op het latere economische denken ernstig werd beperkt (...) door de mythe dat Adam Smith de grondlegger van de politieke economie was" En hij voegt eraan toe: "Het was op de Fransman J.B. Say, officieel een volgeling van Smith, dat Turgot uiteindelijk de meeste invloed had, met name op zijn theorie van nutswaarde."
 
 
 ### Het meesterwerk van Condillac
@@ -2289,7 +2289,7 @@ Voor Hayek komt de instabiliteit van de markteconomie in het verleden voort uit 
 ![image](assets/nl/101.webp)
 
 
-Hayek geloofde dat een vrije markt van privévaluta's zou leiden tot grotere monetaire stabiliteit. Bijna 50 jaar later belichaamt een cryptocurrency als Bitcoin Hayeks concurrerende visie door een gedecentraliseerd alternatief te bieden voor het monopolistische systeem van centrale banken. Bitcoin, met een vaste emissielimiet van 21 miljoen eenheden, dient als bescherming tegen inflatie en de willekeur van toezichthouders.
+Hayek geloofde dat een vrije markt van privévaluta's zou leiden tot grotere monetaire stabiliteit. Bijna 50 jaar later belichaamt een [cryptocurrency](https://planb.academy/resources/glossary/cryptocurrency) als Bitcoin Hayeks concurrerende visie door een gedecentraliseerd alternatief te bieden voor het monopolistische systeem van centrale banken. Bitcoin, met een vaste emissielimiet van 21 miljoen eenheden, dient als bescherming tegen inflatie en de willekeur van toezichthouders.
 
 
 

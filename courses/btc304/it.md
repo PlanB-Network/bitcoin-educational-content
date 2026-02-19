@@ -193,7 +193,7 @@ Le community Bitcoin spesso perseguono obiettivi più ampi, in particolare l'edu
 4. Sfatare le affermazioni fuorvianti o infondate di alcuni personaggi pubblici e dei media;
 
 
-5. Le differenze fondamentali tra Bitcoin e altre criptovalute;
+5. Le differenze fondamentali tra Bitcoin e altre [criptovalute](https://planb.academy/resources/glossary/cryptocurrency);
 
 
 Costruendo le prime "cittadelle" di domani, le community Bitcoin in tutto il mondo fungono da baluardo contro la disinformazione e la censura, fornendo al contempo un terreno fertile per l'apprendimento dei fondamenti di **Bitcoin**. Offrono ai nuovi arrivati, anche agli scettici, le risorse e le connessioni necessarie per esplorare il vero potenziale di Bitcoin.
@@ -302,7 +302,7 @@ Tuttavia, **unire le forze spesso ha più senso che dividere community vicine e 
 In questo senso, può essere utile una semplice "regola empirica": se non c'è una community Bitcoin attiva nel raggio di 30-45 minuti da dove si vive, può valere la pena di crearne una nuova. Detto questo, sei sempre libero di fare come vuoi.
 
 
-E naturalmente, se una vecchia community si è "evoluta" in una direzione che non è più in linea con i tuoi valori, e non hai il tempo o la motivazione per "orange-pillare"(termine derivato dalla metafora di Matrix, nel caso di Bitcoin, significa entrare nel mondo di Bitcoin e scoprirne le sue verità), allora creare la tua fork è sempre un'opzione.
+E naturalmente, se una vecchia community si è "evoluta" in una direzione che non è più in linea con i tuoi valori, e non hai il tempo o la motivazione per "[orange-pillare](https://planb.academy/resources/glossary/orange-pill)"(termine derivato dalla metafora di Matrix, nel caso di Bitcoin, significa entrare nel mondo di Bitcoin e scoprirne le sue verità), allora creare la tua [fork](https://planb.academy/resources/glossary/fork) è sempre un'opzione.
 
 
 
@@ -1391,7 +1391,7 @@ Questi includono:
 
 
 
-- [Btcmap.org](https://btcmap.org/)**, un sito web con due mappe aggiornate quotidianamente: **[la mappa mondiale delle aziende che accettano Bitcoin](https://btcmap.org/map)** e **[la mappa delle community mondiali](https://btcmap.org/communities/map)**. Molti Bitcoiners controllano regolarmente queste mappe, sia in viaggio che nella vita di tutti i giorni, per conoscere nuove persone o trovare luoghi in cui spendere i propri sats. Btcmap è il punto di riferimento globale e inserirvi la propria community è essenziale per la visibilità.**
+- [Btcmap.org](https://btcmap.org/)**, un sito web con due mappe aggiornate quotidianamente: **[la mappa mondiale delle aziende che accettano Bitcoin](https://btcmap.org/map)** e **[la mappa delle community mondiali](https://btcmap.org/communities/map)**. Molti Bitcoiners controllano regolarmente queste mappe, sia in viaggio che nella vita di tutti i giorni, per conoscere nuove persone o trovare luoghi in cui spendere i propri [sats](https://planb.academy/resources/glossary/satoshi-sat). Btcmap è il punto di riferimento globale e inserirvi la propria community è essenziale per la visibilità.**
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), un sito web creato da Bitcoiners, per Bitcoiners. **Consente di pubblicare i prossimi eventi della propria community**. In Francia, tuttavia, non è ancora molto utilizzato.
 - a seconda del tuo Paese, potrebbero esserci altre iniziative locali. In Francia, ad esempio, c'è [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), che **elenca decine di eventi Bitcoin ogni mese**. Quindi, se non li hai ancora seguiti su Twitter o contattati per condividere informazioni sulla tua community e sugli eventi, è il momento giusto! **Per contribuire a mantenere aggiornato il calendario degli eventi in Francia, sarebbe bello se tutte le community Bitcoin francesi prendessero questa abitudine.**
     - menzionando @bitcoinpointfr su Twitter per ogni nuovo evento della community.
@@ -1935,7 +1935,7 @@ In luoghi privati come concerti, bar o stadi, controlla se sono già presenti ad
 Un altro progetto che si può facilmente mettere in piedi è la **creazione di una biblioteca nei tuoi incontri**.
 
 
-Si potrebbero invitare i partecipanti che desiderano condividere il proprio materiale di lettura a portare un libro legato a Bitcoin. Se qualcun altro al meeting-up vuole prenderlo in prestito, si potrebbe concordare un prestito con il proprietario in cambio di un deposito, ad esempio 21.000 satoshi via Lightning.
+Si potrebbero invitare i partecipanti che desiderano condividere il proprio materiale di lettura a portare un libro legato a Bitcoin. Se qualcun altro al meeting-up vuole prenderlo in prestito, si potrebbe concordare un prestito con il proprietario in cambio di un deposito, ad esempio 21.000 satoshi via [Lightning](https://planb.academy/resources/glossary/lightning-network).
 
 
 Per il proprietario, il deposito serve a coprire eventuali perdite o furti. Per il mutuatario, è un incentivo a tornare a un futuro incontro per recuperare il deposito.
@@ -2595,7 +2595,7 @@ Con questa impennata di presenze:
     - se il numero di partecipanti diventa eccessivo, per i prossimi incontri è possibile **richiedere ai partecipanti di registrarsi** (tramite l'app Meetup o un semplice modulo) oppure **organizzare più incontri al mese** (per esempio: un incontro per principianti, uno intermedio e uno avanzato).
     - Allo stesso tempo, aspettati molti nuovi arrivati nell'ecosistema, spesso con l'obiettivo principale di fare soldi. Per **mantenere le conversazioni focalizzate su Bitcoin** in questi meetup in rapida crescita, è una buona idea:
 
-a) Includere una presentazione a tema **Bitcoin** durante questi eventi, in quanto ciò indirizzerà naturalmente gran parte della conversazione verso questo argomento (e lontano dall'ultimo progetto di shitcoin presumibilmente "rivoluzionario");
+a) Includere una presentazione a tema **Bitcoin** durante questi eventi, in quanto ciò indirizzerà naturalmente gran parte della conversazione verso questo argomento (e lontano dall'ultimo progetto di [shitcoin](https://planb.academy/resources/glossary/shitcoin) presumibilmente "rivoluzionario");
 
 b) **Evitare di stare solo con i colleghi Bitcoiners**. Invece, fai in modo di **approcciare i nuovi arrivati**, anche se questo significa stare in fondo alla stanza per salutarli. Da lì, potrai parlare del motivo per cui sono venuti, di cosa stanno cercando, degli obiettivi (o anche dei principi fondamentali) della tua community, e così via.
 
@@ -2615,7 +2615,7 @@ Fortunatamente queste situazioni sono rare e spesso più assurde che minacciose,
 Per stare tranquilli: finché non infrangi personalmente la legge o non agevoli direttamente le transazioni illegali, non sei legalmente responsabile delle azioni altrui durante il tuo evento (almeno secondo la legge francese).
 
 
-In un mondo ideale, avresti uno **spazio abbastanza grande da ospitare diverse decine di persone** man mano che la tua community cresce e creeresti anche **rapporti solidi tra i Bitcoiners** e i futuri Bitcoiners durante il mercato ribassista, in modo che quando arriva la corsa al rialzo, abbiate il maggior numero possibile di persone pronte a orange-pillare agli altri.
+In un mondo ideale, avresti uno **spazio abbastanza grande da ospitare diverse decine di persone** man mano che la tua community cresce e creeresti anche **rapporti solidi tra i Bitcoiners** e i futuri Bitcoiners durante il [mercato ribassista](https://planb.academy/resources/glossary/bear-market), in modo che quando arriva la [corsa al rialzo](https://planb.academy/resources/glossary/bull-market), abbiate il maggior numero possibile di persone pronte a orange-pillare agli altri.
 
 
 

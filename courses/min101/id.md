@@ -117,11 +117,11 @@ Siap untuk menemukan Bitcoin mining? Mari kita mulai!
 
 
 
-Sebelum beralih ke penjelasan yang lebih rinci dan lebih teknis mengenai Bitcoin mining, saya ingin memberi Anda gambaran umum mengenai prinsipnya, yang sengaja dibuat sederhana dan skematis. Jika Anda sudah memiliki pengetahuan dasar, Anda bisa langsung masuk ke inti permasalahan dalam bab berikutnya, setelah menjawab pertanyaan kuis. Bab ini ditujukan terutama untuk pemula, untuk memberi Anda permulaan yang baik.
+Sebelum beralih ke penjelasan yang lebih rinci dan lebih teknis mengenai Bitcoin [mining](https://planb.academy/resources/glossary/mining), saya ingin memberi Anda gambaran umum mengenai prinsipnya, yang sengaja dibuat sederhana dan skematis. Jika Anda sudah memiliki pengetahuan dasar, Anda bisa langsung masuk ke inti permasalahan dalam bab berikutnya, setelah menjawab pertanyaan kuis. Bab ini ditujukan terutama untuk pemula, untuk memberi Anda permulaan yang baik.
 
 
 
-Bayangkan Bitcoin sebagai sebuah buku catatan publik yang besar, yang dapat digunakan oleh semua orang, di mana kita menuliskan siapa yang mengirim bitcoin kepada siapa. Buku catatan ini disebut blockchain. Blockchain tidak bisa dipegang oleh satu orang saja, karena ia harus dipercaya. Sebaliknya, Bitcoin bekerja secara kolektif: ribuan komputer memverifikasi dan memelihara versi yang sama dari buku catatan ini.
+Bayangkan Bitcoin sebagai sebuah buku catatan publik yang besar, yang dapat digunakan oleh semua orang, di mana kita menuliskan siapa yang mengirim bitcoin kepada siapa. Buku catatan ini disebut [blockchain](https://planb.academy/resources/glossary/blockchain). Blockchain tidak bisa dipegang oleh satu orang saja, karena ia harus dipercaya. Sebaliknya, Bitcoin bekerja secara kolektif: ribuan komputer memverifikasi dan memelihara versi yang sama dari buku catatan ini.
 
 
 
@@ -129,7 +129,7 @@ Bayangkan Bitcoin sebagai sebuah buku catatan publik yang besar, yang dapat digu
 
 
 
-Dalam Bitcoin, ketika Anda melakukan pembayaran, Anda membuat transaksi. Transaksi ini tidak langsung ditambahkan ke buku catatan. Transaksi ini terlebih dahulu dikirim ke jaringan, kemudian menunggu untuk diintegrasikan ke dalam paket transaksi berikutnya. Paket ini disebut blok.
+Dalam Bitcoin, ketika Anda melakukan pembayaran, Anda membuat [transaksi](https://planb.academy/resources/glossary/transaction-tx). Transaksi ini tidak langsung ditambahkan ke buku catatan. Transaksi ini terlebih dahulu dikirim ke jaringan, kemudian menunggu untuk diintegrasikan ke dalam paket transaksi berikutnya. Paket ini disebut [blok](https://planb.academy/resources/glossary/block).
 
 
 
@@ -141,11 +141,11 @@ Blok adalah sekumpulan transaksi yang dikelompokkan bersama. Ketika sebuah blok 
 
 
 
-Mining adalah pekerjaan memvalidasi sebuah blok dengan mengkonsumsi energi. Pelaku yang disebut penambang menggunakan komputer khusus. Mesin-mesin ini mengkonsumsi listrik untuk melakukan sejumlah besar pengujian, dalam satu lingkaran, sampai mereka menemukan bukti yang diterima oleh jaringan. Ketika penambang menemukan bukti ini, maka bloknya dianggap valid.
+Mining adalah pekerjaan memvalidasi sebuah blok dengan mengkonsumsi energi. Pelaku yang disebut [penambang](https://planb.academy/resources/glossary/miner) menggunakan komputer khusus. Mesin-mesin ini mengkonsumsi listrik untuk melakukan sejumlah besar pengujian, dalam satu lingkaran, sampai mereka menemukan bukti yang diterima oleh jaringan. Ketika penambang menemukan bukti ini, maka bloknya dianggap valid.
 
 
 
-Setelah blok divalidasi, blok tersebut disiarkan ke jaringan. Node-node lain dengan cepat memeriksa apakah blok tersebut sesuai dengan aturan, kemudian menambahkannya ke urutan blok sebelumnya. Inilah sebabnya mengapa ini disebut "blockchain": setiap blok baru muncul setelah blok yang lain, secara berurutan, dan rantai ini tumbuh sedikit demi sedikit.
+Setelah blok divalidasi, blok tersebut disiarkan ke jaringan. [Node-node](https://planb.academy/resources/glossary/node) lain dengan cepat memeriksa apakah blok tersebut sesuai dengan aturan, kemudian menambahkannya ke urutan blok sebelumnya. Inilah sebabnya mengapa ini disebut "blockchain": setiap blok baru muncul setelah blok yang lain, secara berurutan, dan rantai ini tumbuh sedikit demi sedikit.
 
 
 
@@ -153,11 +153,11 @@ Setelah blok divalidasi, blok tersebut disiarkan ke jaringan. Node-node lain den
 
 
 
-Singkatnya, transaksi pertama kali dibuat. Kemudian, mereka dikelompokkan bersama dalam sebuah blok. Kemudian, penambang memvalidasi blok ini dengan mengonsumsi listrik. Terakhir, blok ini ditambahkan ke blockchain, dan transaksi yang ada di dalamnya menjadi terkonfirmasi.
+Singkatnya, transaksi pertama kali dibuat. Kemudian, mereka dikelompokkan bersama dalam sebuah blok. Kemudian, penambang memvalidasi blok ini dengan mengonsumsi listrik. Terakhir, blok ini ditambahkan ke blockchain, dan transaksi yang ada di dalamnya menjadi [terkonfirmasi](https://planb.academy/resources/glossary/confirmation).
 
 
 
-Jika para penambang menggunakan listrik, itu bukan karena mereka sukarelawan. Mereka melakukannya karena ada imbalannya. Ketika seorang penambang memvalidasi sebuah blok, ia menerima dua jenis pendapatan. Di satu sisi, ia menerima bitcoin yang baru dibuat. Di sisi lain, ia mengumpulkan biaya yang dibayarkan oleh pengguna untuk transaksi yang termasuk dalam blok tersebut. Dengan kata lain, penambang mendapatkan kompensasi baik melalui penerbitan moneter yang terprogram, maupun biaya transaksi yang ditentukan oleh pasar.
+Jika para penambang menggunakan listrik, itu bukan karena mereka sukarelawan. Mereka melakukannya karena ada imbalannya. Ketika seorang penambang memvalidasi sebuah blok, ia menerima dua jenis pendapatan. Di satu sisi, ia menerima bitcoin yang baru dibuat. Di sisi lain, ia mengumpulkan [biaya](https://planb.academy/resources/glossary/transaction-fees) yang dibayarkan oleh pengguna untuk transaksi yang termasuk dalam blok tersebut. Dengan kata lain, penambang mendapatkan kompensasi baik melalui penerbitan moneter yang terprogram, maupun biaya transaksi yang ditentukan oleh pasar.
 
 
 
@@ -187,7 +187,7 @@ Untuk memahami apa itu Bitcoin mining, pertama-tama kita harus mengikuti alur tr
 
 
 
-Dalam Bitcoin, sebuah transaksi adalah sebuah struktur data yang memindahkan kepemilikan bitcoin dari satu pengguna ke pengguna lainnya. Secara konkret, struktur ini mengkonsumsi 'output' dari transaksi-transaksi sebelumnya (yang disebut UTXO), yang disebut sebagai 'input', dan kemudian menciptakan 'output' baru yang menentukan kepada siapa bitcoin tersebut sekarang menjadi milik dan dalam kondisi apa bitcoin tersebut dapat dibelanjakan nantinya.
+Dalam Bitcoin, sebuah transaksi adalah sebuah struktur data yang memindahkan kepemilikan bitcoin dari satu pengguna ke pengguna lainnya. Secara konkret, struktur ini mengkonsumsi '[output](https://planb.academy/resources/glossary/output)' dari transaksi-transaksi sebelumnya (yang disebut [UTXO](https://planb.academy/resources/glossary/utxo)), yang disebut sebagai '[input](https://planb.academy/resources/glossary/input)', dan kemudian menciptakan 'output' baru yang menentukan kepada siapa bitcoin tersebut sekarang menjadi milik dan dalam kondisi apa bitcoin tersebut dapat dibelanjakan nantinya.
 
 
 
@@ -195,7 +195,7 @@ Dalam Bitcoin, sebuah transaksi adalah sebuah struktur data yang memindahkan kep
 
 
 
-Poin penting tentang Bitcoin adalah otorisasi untuk membelanjakannya. Bitcoin tidak berada di dalam rekening, seperti uang Anda di bank, tetapi dikunci oleh ketentuan pembelanjaan. Ketika wallet ingin menggunakan UTXO sebagai input, wallet harus memberikan bukti kriptografi bahwa ia memiliki hak untuk membukanya. Bukti ini sering kali berbentuk tanda tangan digital generated dari private key. Itulah mengapa para pengguna bitcoin bersikeras untuk mengamankan kunci pribadi Anda: kunci inilah yang membuka akses ke bitcoin Anda dan, akibatnya, memungkinkan Anda untuk membelanjakannya.
+Poin penting tentang Bitcoin adalah otorisasi untuk membelanjakannya. Bitcoin tidak berada di dalam rekening, seperti uang Anda di bank, tetapi dikunci oleh ketentuan pembelanjaan. Ketika [wallet](https://planb.academy/resources/glossary/wallet) ingin menggunakan UTXO sebagai input, wallet harus memberikan bukti kriptografi bahwa ia memiliki hak untuk membukanya. Bukti ini sering kali berbentuk [tanda tangan digital](https://planb.academy/resources/glossary/digital-signature) generated dari [private key](https://planb.academy/resources/glossary/private-key). Itulah mengapa para pengguna bitcoin bersikeras untuk mengamankan kunci pribadi Anda: kunci inilah yang membuka akses ke bitcoin Anda dan, akibatnya, memungkinkan Anda untuk membelanjakannya.
 
 
 
@@ -221,7 +221,7 @@ Setelah transaksi dibuat dengan benar dan ditandatangani oleh Bitcoin wallet pen
 
 
 
-Bitcoin adalah jaringan peer-to-peer: tidak ada server pusat yang menerima dan memproses semua transaksi. Peran ini dimainkan secara kolektif oleh node. Node Bitcoin adalah sebuah perangkat lunak (contohnya Bitcoin Core) yang terhubung ke node lain dalam jaringan Bitcoin, yang misi utamanya adalah memverifikasi, menyimpan, dan meneruskan transaksi dan blok.
+Bitcoin adalah jaringan [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p): tidak ada server pusat yang menerima dan memproses semua transaksi. Peran ini dimainkan secara kolektif oleh node. Node Bitcoin adalah sebuah perangkat lunak (contohnya [Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core)) yang terhubung ke node lain dalam jaringan Bitcoin, yang misi utamanya adalah memverifikasi, menyimpan, dan meneruskan transaksi dan blok.
 
 
 
@@ -250,7 +250,7 @@ Jika transaksi lolos dari semua pemeriksaan ini, node akan menyebarkannya ke nod
 
 
 
-Antara saat sebuah transaksi disiarkan dan saat transaksi tersebut dikonfirmasi dalam sebuah blok, transaksi tersebut harus menunggu. Area tunggu ini disebut dengan mempool (kontraksi dari `memory` dan `pool`). Mempool adalah tempat penyimpanan sementara untuk transaksi yang valid, namun belum dikonfirmasi.
+Antara saat sebuah transaksi disiarkan dan saat transaksi tersebut dikonfirmasi dalam sebuah blok, transaksi tersebut harus menunggu. Area tunggu ini disebut dengan [mempool](https://planb.academy/resources/glossary/mempool) (kontraksi dari `memory` dan `pool`). Mempool adalah tempat penyimpanan sementara untuk transaksi yang valid, namun belum dikonfirmasi.
 
 
 
@@ -270,7 +270,7 @@ Pada tahap ini, jaringan mengetahui tentang transaksi tersebut, telah memverifik
 
 
 
-Karena bitcoin merupakan mata uang yang tidak berwujud, maka ia harus mengatasi satu masalah: mencegah pembelanjaan ganda tanpa adanya otoritas pusat. Jika dua transaksi mencoba untuk membelanjakan UTXO yang sama, semua orang harus dapat menyatu pada satu keadaan yang koheren. Satoshi Nakamoto meringkas masalah ini dengan kalimat yang terkenal ini:
+Karena bitcoin merupakan mata uang yang tidak berwujud, maka ia harus mengatasi satu masalah: mencegah [pembelanjaan ganda](https://planb.academy/resources/glossary/double-spending-attack) tanpa adanya otoritas pusat. Jika dua transaksi mencoba untuk membelanjakan UTXO yang sama, semua orang harus dapat menyatu pada satu keadaan yang koheren. Satoshi Nakamoto meringkas masalah ini dengan kalimat yang terkenal ini:
 
 
 
@@ -284,7 +284,7 @@ Inilah peran blockchain: sebuah daftar publik yang berisi riwayat transaksi. Nam
 
 
 
-Register ini tidak dapat ditulis ulang, berkat prinsip sederhana: setiap blok menyertakan sidik jari kriptografi (hash) dari blok sebelumnya. Dengan demikian, blok-blok saling terkait: jika Anda memodifikasi sebuah blok dari masa lalu, maka hash-nya akan berubah, yang memutus hubungan dengan blok berikutnya, yang memutus hubungan dengan blok setelahnya, dan seterusnya. Rantai ketergantungan inilah yang memberi nama "*blockchain*".
+Register ini tidak dapat ditulis ulang, berkat prinsip sederhana: setiap blok menyertakan sidik jari kriptografi ([hash](https://planb.academy/resources/glossary/hash-function)) dari blok sebelumnya. Dengan demikian, blok-blok saling terkait: jika Anda memodifikasi sebuah blok dari masa lalu, maka hash-nya akan berubah, yang memutus hubungan dengan blok berikutnya, yang memutus hubungan dengan blok setelahnya, dan seterusnya. Rantai ketergantungan inilah yang memberi nama "*blockchain*".
 
 
 
@@ -292,7 +292,7 @@ Register ini tidak dapat ditulis ulang, berkat prinsip sederhana: setiap blok me
 
 
 
-Setelah kita memahami prinsip-prinsip dasar Bitcoin ini, kita dapat menjelaskan tujuan penambang dalam istilah yang lebih konkret: membangun blok baru yang memperpanjang rantai yang sudah ada, dengan menuliskan transaksi yang tertunda, dan kemudian mencoba membuatnya valid (ini adalah "proof of work" yang akan kita pelajari di bab selanjutnya). Namun pertama-tama, mari kita pelajari bersama di bab selanjutnya bagaimana sebuah kandidat blok dibangun.
+Setelah kita memahami prinsip-prinsip dasar Bitcoin ini, kita dapat menjelaskan tujuan penambang dalam istilah yang lebih konkret: membangun blok baru yang memperpanjang rantai yang sudah ada, dengan menuliskan transaksi yang tertunda, dan kemudian mencoba membuatnya valid (ini adalah "[proof of work](https://planb.academy/resources/glossary/proof-of-work)" yang akan kita pelajari di bab selanjutnya). Namun pertama-tama, mari kita pelajari bersama di bab selanjutnya bagaimana sebuah kandidat blok dibangun.
 
 
 
@@ -303,7 +303,7 @@ Setelah kita memahami prinsip-prinsip dasar Bitcoin ini, kita dapat menjelaskan 
 
 
 
-Sekarang Anda telah memahami cara kerja transaksi Bitcoin dan peran blockchain. Namun, sebelum kita melihat lebih detail mengenai cara kerja proof-of-work, masih ada satu langkah penting yang harus dilakukan oleh penambang: pembangunan blok kandidat. Mari kita cari tahu bersama apa itu kandidat blok dan bagaimana cara penambang membangunnya, sebelum memulai pencarian bukti yang valid.
+Sekarang Anda telah memahami cara kerja transaksi Bitcoin dan peran blockchain. Namun, sebelum kita melihat lebih detail mengenai cara kerja proof-of-work, masih ada satu langkah penting yang harus dilakukan oleh penambang: pembangunan [blok kandidat](https://planb.academy/resources/glossary/candidate-block). Mari kita cari tahu bersama apa itu kandidat blok dan bagaimana cara penambang membangunnya, sebelum memulai pencarian bukti yang valid.
 
 
 
@@ -318,7 +318,7 @@ Para Miner harus membangun blok mereka sendiri sebelum mencoba menambangnya. Set
 
 - memilih transaksi mana yang akan disertakan;
 - mengatur transaksi-transaksi ini dengan cara yang sesuai dengan aturan Bitcoin;
-- menghasilkan metadata blok, yang disimpan dalam headernya.
+- menghasilkan metadata blok, yang disimpan dalam [headernya](https://planb.academy/resources/glossary/block-header).
 
 
 
@@ -340,7 +340,7 @@ Oleh karena itu, blok Bitcoin terdiri dari dua bagian utama:
 
 
 
-Header sangat penting, karena digunakan sebagai dasar untuk proof-of-work: dalam Bitcoin, Anda tidak menambang seluruh blok secara langsung; Anda hanya menambang header dari sebuah blok, yang meringkas informasi yang diperlukan untuk menghubungkan blok ke rantai dan mengirimkan isinya. Untuk memungkinkan header mewakili semua transaksi, Bitcoin menggunakan alat kriptografi: pohon Merkle.
+Header sangat penting, karena digunakan sebagai dasar untuk proof-of-work: dalam Bitcoin, Anda tidak menambang seluruh blok secara langsung; Anda hanya menambang header dari sebuah blok, yang meringkas informasi yang diperlukan untuk menghubungkan blok ke rantai dan mengirimkan isinya. Untuk memungkinkan header mewakili semua transaksi, Bitcoin menggunakan alat kriptografi: [pohon Merkle](https://planb.academy/resources/glossary/merkle-tree).
 
 
 
@@ -348,7 +348,7 @@ Header sangat penting, karena digunakan sebagai dasar untuk proof-of-work: dalam
 
 
 
-Mencantumkan semua transaksi dalam header tidak mungkin dilakukan: sebuah blok dapat berisi ribuan transaksi, sementara header memiliki ukuran yang tetap (80 byte). Oleh karena itu, solusinya adalah dengan menghitung hash unik yang bergantung pada semua transaksi dalam blok: inilah akar Merkle.
+Mencantumkan semua transaksi dalam header tidak mungkin dilakukan: sebuah blok dapat berisi ribuan transaksi, sementara header memiliki ukuran yang tetap (80 byte). Oleh karena itu, solusinya adalah dengan menghitung hash unik yang bergantung pada semua transaksi dalam blok: inilah [akar Merkle](https://planb.academy/resources/glossary/merkle-root).
 
 
 
@@ -371,7 +371,7 @@ Jadi, jika satu transaksi berubah, bahkan dengan satu bit, hasilnya adalah modif
 
 
 
-Sejak SegWit, kami telah memisahkan tanda tangan dari yang lain. Jadi, pada kenyataannya, ada 2 pohon Merkle yang bersarang di dalam setiap blok. Pemisahan ini memiliki konsekuensi pada cara kita menghitung ukuran blok dan komitmen kriptografi tertentu, tetapi ide dasarnya tetap sama: header harus melakukan komitmen, dengan cara yang ringkas, semua isi blok.
+Sejak [SegWit](https://planb.academy/resources/glossary/segwit), kami telah memisahkan tanda tangan dari yang lain. Jadi, pada kenyataannya, ada 2 pohon Merkle yang bersarang di dalam setiap blok. Pemisahan ini memiliki konsekuensi pada cara kita menghitung ukuran blok dan komitmen kriptografi tertentu, tetapi ide dasarnya tetap sama: header harus melakukan komitmen, dengan cara yang ringkas, semua isi blok.
 
 
 
@@ -402,19 +402,19 @@ Header blok memiliki panjang 80 byte dan berisi tepat 6 field. Keenam elemen ini
 
 
 
-- Cap waktu: Ini merupakan cap waktu (waktu Unix) yang dipilih oleh penambang (dengan batasan validitas), yang harus mengindikasikan kapan blok tersebut ditambang. Cap waktu tidak harus akurat sampai ke detik, tetapi harus memenuhi syarat tertentu agar tetap dapat diterima oleh jaringan.
+- [Cap waktu](https://planb.academy/resources/glossary/timestamp): Ini merupakan cap waktu (waktu Unix) yang dipilih oleh penambang (dengan batasan validitas), yang harus mengindikasikan kapan blok tersebut ditambang. Cap waktu tidak harus akurat sampai ke detik, tetapi harus memenuhi syarat tertentu agar tetap dapat diterima oleh jaringan.
 
 
 
 
 
-- Target tingkat kesulitan yang dikodekan (`nbits`): Bidang ini mengkodekan target tingkat kesulitan saat ini. Kita akan membahas lebih detail dalam bab tentang tingkat kesulitan, tetapi ingatlah bahwa parameter ini adalah bagian dari header.
+- [Target tingkat kesulitan](https://planb.academy/resources/glossary/difficulty-target) yang dikodekan (`nbits`): Bidang ini mengkodekan target tingkat kesulitan saat ini. Kita akan membahas lebih detail dalam bab tentang tingkat kesulitan, tetapi ingatlah bahwa parameter ini adalah bagian dari header.
 
 
 
 
 
-- Nonce (`nonce`): Ini adalah nilai yang dapat dimodifikasi oleh penambang secara bebas. Ini berfungsi sebagai variabel yang dapat disesuaikan selama proof-of-work. Saya akan menjelaskan perannya secara lebih detail pada bab selanjutnya, tetapi penting untuk memahami bahwa nonce merupakan bagian dari header blok dan didesain untuk mengizinkan percobaan yang berurutan.
+- [Nonce](https://planb.academy/resources/glossary/nonce) (`nonce`): Ini adalah nilai yang dapat dimodifikasi oleh penambang secara bebas. Ini berfungsi sebagai variabel yang dapat disesuaikan selama proof-of-work. Saya akan menjelaskan perannya secara lebih detail pada bab selanjutnya, tetapi penting untuk memahami bahwa nonce merupakan bagian dari header blok dan didesain untuk mengizinkan percobaan yang berurutan.
 
 
 
@@ -510,7 +510,7 @@ Fungsi hash menarik dalam sistem komputer karena memiliki sifat-sifat tertentu:
 
 
 
-Fungsi hash yang digunakan dalam Bitcoin untuk mining adalah `SHA256`, diterapkan dua kali secara berurutan. Ini dikenal sebagai SHA256 ganda, atau `SHA256d`. Hash ganda inilah yang menghasilkan sidik jari blok.
+Fungsi hash yang digunakan dalam Bitcoin untuk mining adalah `SHA256`, diterapkan dua kali secara berurutan. Ini dikenal sebagai [SHA256](https://planb.academy/resources/glossary/sha256) ganda, atau `SHA256d`. Hash ganda inilah yang menghasilkan sidik jari blok.
 
 
 
@@ -618,7 +618,7 @@ Proses mining sangat sederhana:
 
 
 
-Pada kenyataannya, nonce bukanlah satu-satunya field yang dapat dimodifikasi. Setiap modifikasi dalam transaksi sebuah blok akan mengakibatkan perubahan pada akar pohon Merkle, dan oleh karena itu modifikasi pada header blok tersebut. Dengan daya komputasi modern, memeriksa 4,29 miliar kemungkinan nilai nonce dapat dilakukan dengan relatif cepat. Itulah mengapa ada bidang lain, umumnya disebut sebagai "*extra-nonce*", yang selanjutnya melipatgandakan kemungkinan variasi header. Kita akan kembali ke mekanisme ini secara lebih rinci di bab selanjutnya.
+Pada kenyataannya, nonce bukanlah satu-satunya field yang dapat dimodifikasi. Setiap modifikasi dalam transaksi sebuah blok akan mengakibatkan perubahan pada akar pohon Merkle, dan oleh karena itu modifikasi pada header blok tersebut. Dengan daya komputasi modern, memeriksa 4,29 miliar kemungkinan nilai nonce dapat dilakukan dengan relatif cepat. Itulah mengapa ada bidang lain, umumnya disebut sebagai "*[extra-nonce](https://planb.academy/resources/glossary/extra-nonce)*", yang selanjutnya melipatgandakan kemungkinan variasi header. Kita akan kembali ke mekanisme ini secara lebih rinci di bab selanjutnya.
 
 
 
@@ -630,7 +630,7 @@ Kami menyebutnya "bukti" karena hasilnya dapat segera diverifikasi: setelah sebu
 
 
 
-Dalam Buku Putih Bitcoin, Satoshi Nakamoto mengedepankan dua keuntungan dalam menggunakan sistem proof-of-work di Bitcoin:
+Dalam [Buku Putih](https://planb.academy/resources/glossary/white-paper) Bitcoin, Satoshi Nakamoto mengedepankan dua keuntungan dalam menggunakan sistem proof-of-work di Bitcoin:
 
 
 
@@ -650,7 +650,7 @@ Dengan kata lain, proof-of-work berfungsi sebagai tulang punggung dari sistem ti
 
 
 
-- Menetapkan aturan mayoritas (konsensus) dan menetralisir Sybil:**
+- Menetapkan aturan mayoritas ([konsensus](https://planb.academy/resources/glossary/consensus)) dan menetralisir Sybil:**
 
 
 
@@ -658,7 +658,7 @@ Proof-of-Work juga memungkinkan Bitcoin untuk mencapai konsensus tanpa bergantun
 
 
 
-Dalam Bitcoin, "*mayoritas*" bukanlah jumlah peserta terbanyak, tetapi *rantai yang mengumpulkan pekerjaan terbanyak*. Seperti yang dikatakan oleh Satoshi, ini adalah prinsip "satu CPU = satu suara", yaitu suara yang dibobot oleh daya komputasi aktual yang dihabiskan untuk menghasilkan blok yang valid. Jadi, menggunakan ribuan node tidak memberikan keuntungan lebih dari Bitcoin. Tanpa daya komputasi tambahan, tidak ada lagi bukti kerja yang terakumulasi, dan serangan Sybil menjadi tidak berguna, sementara aturan keputusan tetap objektif dan tidak memerlukan identifikasi peserta.
+Dalam Bitcoin, "*mayoritas*" bukanlah jumlah peserta terbanyak, tetapi *rantai yang mengumpulkan pekerjaan terbanyak*. Seperti yang dikatakan oleh Satoshi, ini adalah prinsip "satu CPU = satu suara", yaitu suara yang dibobot oleh daya komputasi aktual yang dihabiskan untuk menghasilkan blok yang valid. Jadi, menggunakan ribuan node tidak memberikan keuntungan lebih dari Bitcoin. Tanpa daya komputasi tambahan, tidak ada lagi bukti kerja yang terakumulasi, dan [serangan Sybil](https://planb.academy/resources/glossary/sybil-attack) menjadi tidak berguna, sementara aturan keputusan tetap objektif dan tidak memerlukan identifikasi peserta.
 
 
 
@@ -689,7 +689,7 @@ Dalam bab berikutnya, kita akan membahas sejarah singkat mengenai prinsip proof-
 
 
 
-Proof-of-work tidak diciptakan untuk Bitcoin. Satoshi Nakamoto mengambil dan mengumpulkan beberapa ide lama, yang sudah dieksplorasi dalam konteks yang berbeda.
+Proof-of-work tidak diciptakan untuk Bitcoin. [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) mengambil dan mengumpulkan beberapa ide lama, yang sudah dieksplorasi dalam konteks yang berbeda.
 
 
 
@@ -701,7 +701,7 @@ Pada akhir tahun 1990-an, masalah spam email menjadi signifikan. Memang, jika me
 
 
 
-Ini adalah tujuan dari Hashcash, yang diusulkan oleh Adam Back pada tahun 1997, yang dianggap sebagai penemuan prinsip proof-of-work. Prinsip Hashcash sangat mirip dengan mining: menghasilkan sebuah hash yang sesuai dengan sebuah kondisi (memiliki sejumlah angka nol di awal hash). Bukti tersebut kemudian menyertai pesan dan dapat diverifikasi dengan sangat cepat oleh penerima. Jika sebuah email diterima yang tidak mengandung bukti ini, maka email tersebut dapat langsung dianggap sebagai spam, dan oleh karena itu disaring. Spammer kemudian dipaksa untuk mengeluarkan energi yang cukup besar untuk mengirimkan jutaan pesan, yang secara drastis mengurangi (atau bahkan meniadakan sama sekali) keuntungan dari jenis operasi ini, baik untuk tujuan pemasaran atau penipuan.
+Ini adalah tujuan dari [Hashcash](https://planb.academy/resources/glossary/hashcash), yang diusulkan oleh Adam Back pada tahun 1997, yang dianggap sebagai penemuan prinsip proof-of-work. Prinsip Hashcash sangat mirip dengan mining: menghasilkan sebuah hash yang sesuai dengan sebuah kondisi (memiliki sejumlah angka nol di awal hash). Bukti tersebut kemudian menyertai pesan dan dapat diverifikasi dengan sangat cepat oleh penerima. Jika sebuah email diterima yang tidak mengandung bukti ini, maka email tersebut dapat langsung dianggap sebagai spam, dan oleh karena itu disaring. Spammer kemudian dipaksa untuk mengeluarkan energi yang cukup besar untuk mengirimkan jutaan pesan, yang secara drastis mengurangi (atau bahkan meniadakan sama sekali) keuntungan dari jenis operasi ini, baik untuk tujuan pemasaran atau penipuan.
 
 
 
@@ -792,7 +792,7 @@ Jika, selama penundaan difusi ini, penambang lain juga menemukan blok yang valid
 
 
 
-Pembagian ini bukanlah sebuah bencana. Konsensus Nakamoto memprediksi bahwa, dalam jangka panjang, hanya satu cabang yang akan bertahan: cabang yang paling banyak mengumpulkan pekerjaan. Memang, segera setelah blok baru ditambang di atas blok A, misalnya, seluruh jaringan melakukan sinkronisasi ulang pada cabang ini dan meninggalkan blok B, yang kemudian menjadi "*blok basi*", yang terkadang secara keliru disebut sebagai "*blok yatim piatu*" dalam bahasa sehari-hari.
+Pembagian ini bukanlah sebuah bencana. Konsensus Nakamoto memprediksi bahwa, dalam jangka panjang, hanya satu cabang yang akan bertahan: cabang yang paling banyak mengumpulkan pekerjaan. Memang, segera setelah blok baru ditambang di atas blok A, misalnya, seluruh jaringan melakukan sinkronisasi ulang pada cabang ini dan meninggalkan blok B, yang kemudian menjadi "*[blok basi](https://planb.academy/resources/glossary/stale-block)*", yang terkadang secara keliru disebut sebagai "*blok yatim piatu*" dalam bahasa sehari-hari.
 
 
 
@@ -812,7 +812,7 @@ Interval 10 menit biasanya memberikan waktu yang cukup bagi blok yang menang unt
 
 
 
-*"Hashrate*" merujuk pada jumlah komputasi hash yang dihasilkan per detik, baik oleh satu penambang, sekelompok penambang, atau semua penambang di Bitcoin. Hal ini dinyatakan dalam `H/s` (hash per detik), dengan kelipatannya seperti `TH/s` (terahash per detik) atau `EH/s` (exahash per detik). Ini menunjukkan jumlah percobaan yang dapat dilakukan oleh penambang setiap detiknya untuk mendapatkan hash yang lebih rendah dari target.
+*"[Hashrate](https://planb.academy/resources/glossary/hashrate)*" merujuk pada jumlah komputasi hash yang dihasilkan per detik, baik oleh satu penambang, sekelompok penambang, atau semua penambang di Bitcoin. Hal ini dinyatakan dalam `H/s` (hash per detik), dengan kelipatannya seperti `TH/s` (terahash per detik) atau `EH/s` (exahash per detik). Ini menunjukkan jumlah percobaan yang dapat dilakukan oleh penambang setiap detiknya untuk mendapatkan hash yang lebih rendah dari target.
 
 
 
@@ -833,7 +833,7 @@ Dengan kata lain, jika jaringan Bitcoin besok menggandakan daya komputasinya den
 
 
 
-Bitcoin memecahkan masalah ini dengan mekanisme penyesuaian target secara berkala, yang menyesuaikan tingkat kesulitan mining. Prinsipnya adalah sebagai berikut: setiap 2016 blok (kira-kira setiap 2 minggu), setiap node menghitung ulang target tingkat kesulitan dengan mengamati berapa banyak waktu yang sebenarnya dibutuhkan untuk menghasilkan 2016 blok ini.
+Bitcoin memecahkan masalah ini dengan mekanisme penyesuaian target secara berkala, yang menyesuaikan [tingkat kesulitan](https://planb.academy/resources/glossary/difficulty-adjustment) mining. Prinsipnya adalah sebagai berikut: setiap 2016 blok (kira-kira setiap 2 minggu), setiap node menghitung ulang target tingkat kesulitan dengan mengamati berapa banyak waktu yang sebenarnya dibutuhkan untuk menghasilkan 2016 blok ini.
 
 
 
@@ -959,7 +959,7 @@ Logika ini didasarkan pada teori permainan: protokol ini membuat kejujuran menja
 
 
 
-Untuk mencapai hal ini, protokol Bitcoin menetapkan bahwa penambang yang menemukan blok yang valid akan mendapatkan hak untuk menyertakan transaksi tertentu ke dalamnya, yang akan memberikan penambang sejumlah BTC. Hal ini dikenal sebagai **block reward**. Pada bab pertama bagian ini, tujuannya adalah untuk memahami apa itu terdiri dari dan bagaimana cara menentukannya. Kemudian, kita akan melihat bagaimana bagian penciptaan uang berkembang dari waktu ke waktu (dengan pembagian) dan bagaimana cara pengumpulannya secara teknis (melalui transaksi coinbase).
+Untuk mencapai hal ini, protokol Bitcoin menetapkan bahwa penambang yang menemukan blok yang valid akan mendapatkan hak untuk menyertakan transaksi tertentu ke dalamnya, yang akan memberikan penambang sejumlah BTC. Hal ini dikenal sebagai **[block reward](https://planb.academy/resources/glossary/block-reward)**. Pada bab pertama bagian ini, tujuannya adalah untuk memahami apa itu terdiri dari dan bagaimana cara menentukannya. Kemudian, kita akan melihat bagaimana bagian penciptaan uang berkembang dari waktu ke waktu (dengan pembagian) dan bagaimana cara pengumpulannya secara teknis (melalui transaksi coinbase).
 
 
 
@@ -976,7 +976,7 @@ Peristiwa inilah (penambahan blok ke blockchain) yang memicu pemberian reward ke
 
 
 
-- subsidi blokir**;
+- [subsidi blokir](https://planb.academy/resources/glossary/block-subsidy)**;
 - biaya transaksi**.
 
 
@@ -1091,7 +1091,7 @@ Oleh karena itu, dua transaksi dapat membayar jumlah biaya yang sama secara abso
 
 
 
-Inilah sebabnya, dalam praktiknya, kami mengekspresikan daya saing transaksi dengan rasio biaya, biasanya dalam `sats/vB` (satoshi per byte virtual). Menghitung rasio ini sangat mudah:
+Inilah sebabnya, dalam praktiknya, kami mengekspresikan daya saing transaksi dengan rasio biaya, biasanya dalam `sats/vB` ([satoshi](https://planb.academy/resources/glossary/satoshi-sat) per byte virtual). Menghitung rasio ini sangat mudah:
 
 
 
@@ -1142,7 +1142,7 @@ Pada bab berikutnya, kita akan fokus lebih detail pada subsidi blok, untuk memah
 
 
 
-Pada bab sebelumnya, kita telah melihat bahwa penambang yang menghasilkan sebuah blok yang valid akan menerima upah yang terdiri dari biaya transaksi yang termasuk dalam blok tersebut, ditambah dengan subsidi blok. Akan tetapi, kami belum menjelaskan bagaimana jumlah subsidi ini ditentukan. Mekanisme yang menentukan dan mengembangkan nilai ini dikenal sebagai ***halving***.
+Pada bab sebelumnya, kita telah melihat bahwa penambang yang menghasilkan sebuah blok yang valid akan menerima upah yang terdiri dari biaya transaksi yang termasuk dalam blok tersebut, ditambah dengan subsidi blok. Akan tetapi, kami belum menjelaskan bagaimana jumlah subsidi ini ditentukan. Mekanisme yang menentukan dan mengembangkan nilai ini dikenal sebagai ***[halving](https://planb.academy/resources/glossary/halving)***.
 
 
 
@@ -1251,7 +1251,7 @@ Alasan utamanya adalah mekanis. Melalui pembagian dua yang berurutan, subsidi bl
 
 
 
-Selain itu, penyimpangan terkait protokol marjinal juga dapat menambah hal ini. Sebagai contoh, dalam kasus yang jarang terjadi, beberapa penambang mungkin tidak mengklaim subsidi penuh mereka, yang secara pasti mengurangi jumlah bitcoin yang sebenarnya dikeluarkan. Kita juga dapat menyebutkan blok genesis, yang diproduksi oleh Satoshi pada tanggal 3 Januari 2009, yang bitcoin yang dibuat bukan merupakan bagian dari UTXO set, serta kejadian historis tertentu yang terkait dengan bug, seperti pengidentifikasi transaksi coinbase yang duplikat.
+Selain itu, penyimpangan terkait protokol marjinal juga dapat menambah hal ini. Sebagai contoh, dalam kasus yang jarang terjadi, beberapa penambang mungkin tidak mengklaim subsidi penuh mereka, yang secara pasti mengurangi jumlah bitcoin yang sebenarnya dikeluarkan. Kita juga dapat menyebutkan [blok genesis](https://planb.academy/resources/glossary/genesis-block), yang diproduksi oleh Satoshi pada tanggal 3 Januari 2009, yang bitcoin yang dibuat bukan merupakan bagian dari [UTXO set](https://planb.academy/resources/glossary/utxo-set), serta kejadian historis tertentu yang terkait dengan bug, seperti pengidentifikasi transaksi coinbase yang duplikat.
 
 
 
@@ -1295,7 +1295,7 @@ Namun, ada satu pertanyaan yang tersisa: dengan mekanisme apa penambang mengumpu
 
 
 
-Seperti yang telah kita lihat di bagian pertama kursus ini, setiap blok Bitcoin berisi daftar transaksi tertunda yang akan dikonfirmasikan. Yang pertama selalu merupakan transaksi coinbase. Transaksi inilah yang memungkinkan penambang yang menang untuk menerima hadiah mereka.
+Seperti yang telah kita lihat di bagian pertama kursus ini, setiap blok Bitcoin berisi daftar transaksi tertunda yang akan dikonfirmasikan. Yang pertama selalu merupakan [transaksi coinbase](https://planb.academy/resources/glossary/coinbase-transaction). Transaksi inilah yang memungkinkan penambang yang menang untuk menerima hadiah mereka.
 
 
 
@@ -1303,7 +1303,7 @@ Seperti yang telah kita lihat di bagian pertama kursus ini, setiap blok Bitcoin 
 
 
 
-Sekilas, transaksi ini terlihat seperti transaksi Bitcoin klasik: transaksi ini memiliki TXID, output, dan termasuk dalam pohon Merkle blok. Akan tetapi, transaksi ini berbeda dalam satu hal penting: transaksi ini tidak menggunakan UTXO yang ada.
+Sekilas, transaksi ini terlihat seperti transaksi Bitcoin klasik: transaksi ini memiliki [TXID](https://planb.academy/resources/glossary/txid-transaction-identifier), output, dan termasuk dalam pohon Merkle blok. Akan tetapi, transaksi ini berbeda dalam satu hal penting: transaksi ini tidak menggunakan UTXO yang ada.
 
 
 
@@ -1402,7 +1402,7 @@ Seiring berjalannya waktu, transaksi coinbase telah menjadi titik penyisipan yan
 
 
 
-BIP-34 adalah fork soft yang digunakan pada bulan Maret 2013, dimulai dengan blok 227.930, yang memperkenalkan versi 2 blok Bitcoin. Versi baru ini mengharuskan setiap blok untuk menyertakan, dalam `scriptSig` dari transaksi coinbase, ketinggian blok yang sedang dibuat.
+[BIP-34](https://planb.academy/resources/glossary/bip0034) adalah fork soft yang digunakan pada bulan Maret 2013, dimulai dengan blok 227.930, yang memperkenalkan versi 2 blok Bitcoin. Versi baru ini mengharuskan setiap blok untuk menyertakan, dalam `scriptSig` dari transaksi coinbase, ketinggian blok yang sedang dibuat.
 
 
 
@@ -1454,7 +1454,7 @@ Untuk alasan operasional, pool mining juga mengeksploitasi bidang bebas dari `sc
 
 
 
-Sejak SegWit soft fork diaktifkan pada tahun 2017, data saksi (yaitu umumnya tanda tangan) telah dipisahkan dari data master transaksi, terutama untuk memperbaiki masalah kelenturan transaksi Bitcoin. Oleh karena itu, pemisahan ini memperkenalkan elemen baru yang akan dilakukan dalam blok.
+Sejak SegWit soft fork diaktifkan pada tahun 2017, data saksi (yaitu umumnya tanda tangan) telah dipisahkan dari data master transaksi, terutama untuk memperbaiki masalah [kelenturan transaksi Bitcoin](https://planb.academy/resources/glossary/malleability-transaction). Oleh karena itu, pemisahan ini memperkenalkan elemen baru yang akan dilakukan dalam blok.
 
 
 
@@ -1500,7 +1500,7 @@ Pesan ini, yang ada di blok Genesis (blok pertama dari Bitcoin) sebenarnya dikod
 ### Periode jatuh tempo
 
 
-Setelah blok ditambang dan didistribusikan, transaksi coinbase muncul di blockchain seperti transaksi lainnya. Transaksi ini menciptakan UTXO untuk penambang yang menang, yang memungkinkan mereka untuk mengumpulkan hadiah mereka. Akan tetapi, UTXO ini tidak dapat langsung dibelanjakan: UTXO ini memiliki masa jatuh tempo. Jatuh tempo ini ditetapkan pada 100 blok setelah blok yang berisi coinbase. Secara konkret, transaksi coinbase harus berjumlah 101 konfirmasi agar hasilnya dapat dibelanjakan oleh penambang yang menang.
+Setelah blok ditambang dan didistribusikan, transaksi coinbase muncul di blockchain seperti transaksi lainnya. Transaksi ini menciptakan UTXO untuk penambang yang menang, yang memungkinkan mereka untuk mengumpulkan hadiah mereka. Akan tetapi, UTXO ini tidak dapat langsung dibelanjakan: UTXO ini memiliki [masa jatuh tempo](https://planb.academy/resources/glossary/maturity-period). Jatuh tempo ini ditetapkan pada 100 blok setelah blok yang berisi coinbase. Secara konkret, transaksi coinbase harus berjumlah 101 konfirmasi agar hasilnya dapat dibelanjakan oleh penambang yang menang.
 
 
 ![Image](assets/fr/040.webp)
@@ -1615,7 +1615,7 @@ Pada titik inilah kesulitan mining mulai meledak. Antara pertengahan 2010 dan pe
 
 
 
-Di antara era GPU dan era ASIC modern, terdapat fase peralihan: penggunaan FPGA. FPGA adalah komponen yang dapat diprogram ulang: dapat dikonfigurasikan untuk secara langsung mengimplementasikan sirkuit logika yang didedikasikan untuk perhitungan tertentu, dalam hal ini `SHA256d`. Idenya adalah untuk bergerak lebih jauh lagi dari perangkat keras serba guna (CPU/GPU) untuk mendapatkan efisiensi energi. Namun tak lama kemudian, perbaikan yang dilakukan secara virtual pada FPGA akan diterapkan secara fisik pada chip itu sendiri: itulah kedatangan ASIC.
+Di antara era GPU dan era [ASIC](https://planb.academy/resources/glossary/asic) modern, terdapat fase peralihan: penggunaan FPGA. FPGA adalah komponen yang dapat diprogram ulang: dapat dikonfigurasikan untuk secara langsung mengimplementasikan sirkuit logika yang didedikasikan untuk perhitungan tertentu, dalam hal ini `SHA256d`. Idenya adalah untuk bergerak lebih jauh lagi dari perangkat keras serba guna (CPU/GPU) untuk mendapatkan efisiensi energi. Namun tak lama kemudian, perbaikan yang dilakukan secara virtual pada FPGA akan diterapkan secara fisik pada chip itu sendiri: itulah kedatangan ASIC.
 
 
 
@@ -1667,7 +1667,7 @@ Mesin yang terisolasi dapat menambang, tetapi dengan mengelompokkan ratusan, kem
 
 
 
-Sebuah peternakan mining, dalam bentuk yang paling sederhana, adalah sebuah bangunan (atau sekumpulan kontainer) yang diisi dengan ASIC yang beroperasi 24/7. Tantangannya sekarang adalah mempertahankan kondisi operasi yang stabil:
+Sebuah [peternakan mining](https://planb.academy/resources/glossary/mining-farm), dalam bentuk yang paling sederhana, adalah sebuah bangunan (atau sekumpulan kontainer) yang diisi dengan ASIC yang beroperasi 24/7. Tantangannya sekarang adalah mempertahankan kondisi operasi yang stabil:
 
 
 
@@ -1724,7 +1724,7 @@ https://planb.academy/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-
 
 
 
-Mining Bitcoin melibatkan biaya yang berkelanjutan dan tidak dapat dihindari, yang paling utama adalah konsumsi daya mesin. Biaya-biaya ini dikeluarkan secara independen dari hasil apa pun, meskipun pendapatan dari mining pada dasarnya bersifat langka dan acak. Penemuan sebuah blok bergantung secara eksklusif pada bagian penambang dari hashrate, yang membuat pendapatan semakin tidak dapat diprediksi jika bagian tersebut semakin kecil. Masalah praktis inilah yang dengan cepat menyebabkan meluasnya penggunaan pool mining. Pada bab terakhir dari kursus MIN 101 ini, saya akan memberikan pengantar tentang prinsip-prinsip dan pengoperasian pool mining di Bitcoin.
+Mining Bitcoin melibatkan biaya yang berkelanjutan dan tidak dapat dihindari, yang paling utama adalah konsumsi daya mesin. Biaya-biaya ini dikeluarkan secara independen dari hasil apa pun, meskipun pendapatan dari mining pada dasarnya bersifat langka dan acak. Penemuan sebuah blok bergantung secara eksklusif pada bagian penambang dari hashrate, yang membuat pendapatan semakin tidak dapat diprediksi jika bagian tersebut semakin kecil. Masalah praktis inilah yang dengan cepat menyebabkan meluasnya penggunaan [pool mining](https://planb.academy/resources/glossary/pool-mining). Pada bab terakhir dari kursus MIN 101 ini, saya akan memberikan pengantar tentang prinsip-prinsip dan pengoperasian pool mining di Bitcoin.
 
 
 
@@ -1736,7 +1736,7 @@ mining pool adalah sebuah organisasi (biasanya berupa layanan online) yang mengg
 
 
 
-Peserta dalam pool mining kemudian sering disebut sebagai "hashers", bukan sebagai "penambang", karena mereka tidak lagi melakukan semua pekerjaan mining, tetapi hanya meng-hash data yang dikirimkan kepada mereka oleh pool.
+Peserta dalam pool mining kemudian sering disebut sebagai "[hashers](https://planb.academy/resources/glossary/hasher)", bukan sebagai "penambang", karena mereka tidak lagi melakukan semua pekerjaan mining, tetapi hanya meng-hash data yang dikirimkan kepada mereka oleh pool.
 
 
 
@@ -1807,7 +1807,7 @@ Kolam-kolam pertama dibuat sebagai tanggapan atas kenyataan baru ini. Braiins Po
 
 
 
-Di sisi teknis, pool kemudian disusun berdasarkan protokol komunikasi khusus antara pool dan penambang (misalnya Stratum, kemudian Stratum V2), untuk mengatur pekerjaan yang terdistribusi secara efisien. Kita akan melihat lebih dekat konsep-konsep ini dalam kursus pelatihan MIN 201.
+Di sisi teknis, pool kemudian disusun berdasarkan protokol komunikasi khusus antara pool dan penambang (misalnya [Stratum](https://planb.academy/resources/glossary/stratum), kemudian Stratum V2), untuk mengatur pekerjaan yang terdistribusi secara efisien. Kita akan melihat lebih dekat konsep-konsep ini dalam kursus pelatihan MIN 201.
 
 
 

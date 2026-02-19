@@ -1117,7 +1117,7 @@ Siyasi tahakküm mantığında para, diğerleri gibi bir mal ya da hizmet olmakt
 
 
 
-Nicolas Oresme daha Orta Çağ'ın başlarında parasal manipülasyonun ticaret üzerindeki zararlı etkilerini analiz etmiştir. Parasal düşüşler enflasyon üretir ve fiyatları istikrarsızlaştırır, çünkü değer ölçülerinin efendisi bunların içeriğini keyfi olarak değiştirebildiğinde parasal sinyal belirsizleşir. Metalik paranın kendisi de çoğu zaman bir illüzyondan öteye gitmiyordu. 19. yüzyıl liberal yazarlarından bazılarının bakır assignat olarak adlandırdığı düşük değerli alaşımlar içeren sikkeler.
+Nicolas Oresme daha Orta Çağ'ın başlarında parasal manipülasyonun ticaret üzerindeki zararlı etkilerini analiz etmiştir. Parasal düşüşler [enflasyon](https://planb.academy/resources/glossary/inflation) üretir ve fiyatları istikrarsızlaştırır, çünkü değer ölçülerinin efendisi bunların içeriğini keyfi olarak değiştirebildiğinde parasal sinyal belirsizleşir. Metalik paranın kendisi de çoğu zaman bir illüzyondan öteye gitmiyordu. 19. yüzyıl liberal yazarlarından bazılarının bakır assignat olarak adlandırdığı düşük değerli alaşımlar içeren sikkeler.
 
 
 

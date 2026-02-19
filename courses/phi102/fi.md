@@ -1117,7 +1117,7 @@ Poliittisen hallinnan logiikassa raha lakkaa olemasta tavara tai palvelu, kuten 
 
 
 
-Nicolas Oresme analysoi jo keskiajalla rahan manipuloinnin haitallisia vaikutuksia kauppaan. Rahan arvon aleneminen aiheuttaa inflaatiota ja horjuttaa hintoja, sillä rahamääräinen signaali muuttuu epävarmaksi, kun arvomittareiden hallitsija voi mielivaltaisesti muuttaa niiden sisältöä. Metalliraha itsessään oli usein pelkkää illuusiota, sillä kolikot sisälsivät vähäarvoisia seoksia, joita jotkut 1800-luvun liberaalit kirjailijat kutsuivat kupariassigiaatteiksi.
+Nicolas Oresme analysoi jo keskiajalla rahan manipuloinnin haitallisia vaikutuksia kauppaan. Rahan arvon aleneminen aiheuttaa [inflaatiota](https://planb.academy/resources/glossary/inflation) ja horjuttaa hintoja, sillä rahamääräinen signaali muuttuu epävarmaksi, kun arvomittareiden hallitsija voi mielivaltaisesti muuttaa niiden sisältöä. Metalliraha itsessään oli usein pelkkää illuusiota, sillä kolikot sisälsivät vähäarvoisia seoksia, joita jotkut 1800-luvun liberaalit kirjailijat kutsuivat kupariassigiaatteiksi.
 
 
 

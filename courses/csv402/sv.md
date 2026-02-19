@@ -114,7 +114,7 @@ Den skriftliga versionen av denna utbildning har utarbetats med hjälp av två h
 :::video id=f27338bc-4210-4a2e-9b27-30278ed3282c:::
 
 
-RGB är ett protokoll som är utformat för att tillämpa och genomdriva digitala rättigheter (i form av avtal och tillgångar) på ett skalbart och konfidentiellt sätt, baserat på konsensusreglerna och verksamheten i Bitcoin Blockchain. Syftet med detta första kapitel är att presentera de grundläggande begreppen och terminologin kring RGB-protokollet, och särskilt belysa dess nära kopplingar till grundläggande distribuerade datorkoncept som Client-side Validation och Single-use Seals.
+RGB är ett protokoll som är utformat för att tillämpa och genomdriva digitala rättigheter (i form av avtal och tillgångar) på ett skalbart och konfidentiellt sätt, baserat på [konsensusreglerna](https://planb.academy/resources/glossary/consensus-rules) och verksamheten i Bitcoin [Blockchain](https://planb.academy/resources/glossary/blockchain). Syftet med detta första kapitel är att presentera de grundläggande begreppen och terminologin kring RGB-protokollet, och särskilt belysa dess nära kopplingar till grundläggande distribuerade datorkoncept som Client-side Validation och Single-use Seals.
 
 
 I det här kapitlet utforskar vi grunderna i **distribuerade konsensussystem** och ser hur RGB passar in i denna familj av tekniker. Vi introducerar också huvudprinciperna som hjälper oss att förstå varför RGB strävar efter att vara utbyggbar och oberoende av Bitcoin:s egen konsensusmekanism, samtidigt som den förlitar sig på den när det behövs.
@@ -123,14 +123,14 @@ I det här kapitlet utforskar vi grunderna i **distribuerade konsensussystem** o
 ### Inledning
 
 
-Distributed computing, en särskild gren inom datavetenskapen, studerar de protokoll som används för att cirkulera och bearbeta information i ett nätverk av noder. Tillsammans utgör dessa noder och protokollreglerna det som kallas ett distribuerat system. Bland de väsentliga egenskaper som kännetecknar ett sådant system finns några:
+Distributed computing, en särskild gren inom datavetenskapen, studerar de protokoll som används för att cirkulera och bearbeta information i ett nätverk av [noder](https://planb.academy/resources/glossary/node). Tillsammans utgör dessa noder och protokollreglerna det som kallas ett distribuerat system. Bland de väsentliga egenskaper som kännetecknar ett sådant system finns några:
 
 
 
 
 - Möjligheten till oberoende verifiering och validering av vissa data av varje nod;
 - Möjligheten för noder att (beroende på protokoll) skapa en fullständig eller partiell bild av informationen. Dessa vyer är **tillstånden** i det distribuerade systemet;
-- Den **kronologiska ordningen** av operationer, så att data är tillförlitligt tidsstämplade och det finns ett samförstånd om sekvensen av händelser (sekvens av tillstånd).
+- Den **kronologiska ordningen** av operationer, så att data är tillförlitligt [tidsstämplade](https://planb.academy/resources/glossary/timestamp) och det finns ett samförstånd om sekvensen av händelser (sekvens av tillstånd).
 
 
 Begreppet **konsensus** i ett distribuerat system omfattar framför allt två aspekter:
@@ -139,16 +139,16 @@ Begreppet **konsensus** i ett distribuerat system omfattar framför allt två as
 
 
 - **Erkännande av giltigheten** av tillståndsändringar (enligt protokollregler);
-- Överenskommelsen om ordningen på dessa tillståndsändringar, vilket gör det omöjligt att skriva om eller vända validerade operationer i efterhand (detta kallas också **"double-spend protection"** i Bitcoin).
+- Överenskommelsen om ordningen på dessa tillståndsändringar, vilket gör det omöjligt att skriva om eller vända validerade operationer i efterhand (detta kallas också **"[double-spend protection](https://planb.academy/resources/glossary/double-spending-attack)"** i Bitcoin).
 
 
-Den första funktionella, behörighetsfria implementeringen av en distribuerad konsensusmekanism introducerades av Satoshi Nakamoto med Bitcoin, tack vare den kombinerade användningen av en Blockchain-datastruktur och en Proof-of-Work (PoW)-algoritm. I det här systemet beror blockhistorikens trovärdighet på den datorkraft som noderna (miners) ägnar åt den. Bitcoin är därför ett viktigt och historiskt exempel på ett distribuerat konsensussystem som är öppet för alla (*permissionless*).
+Den första funktionella, behörighetsfria implementeringen av en distribuerad konsensusmekanism introducerades av Satoshi Nakamoto med Bitcoin, tack vare den kombinerade användningen av en Blockchain-datastruktur och en [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) (PoW)-algoritm. I det här systemet beror blockhistorikens trovärdighet på den datorkraft som noderna ([miners](https://planb.academy/resources/glossary/miner)) ägnar åt den. Bitcoin är därför ett viktigt och historiskt exempel på ett distribuerat konsensussystem som är öppet för alla (*permissionless*).
 
 
-I världen av Blockchain och distribuerade datorsystem kan vi urskilja två grundläggande paradigm: ***Blockchain*** i traditionell mening och ***statskanaler***, där det bästa exemplet i produktion är Lightning Network. Blockchain definieras som ett register över kronologiskt ordnade händelser, replikerade genom konsensus inom ett öppet, tillståndsfritt nätverk. State channels, å andra sidan, är peer-to-peer-kanaler som gör det möjligt för två (eller fler) deltagare att upprätthålla ett uppdaterat tillstånd off-chain, med användning av Blockchain endast när dessa kanaler öppnas och stängs.
+I världen av Blockchain och distribuerade datorsystem kan vi urskilja två grundläggande paradigm: ***Blockchain*** i traditionell mening och ***statskanaler***, där det bästa exemplet i produktion är [Lightning Network](https://planb.academy/resources/glossary/lightning-network). Blockchain definieras som ett register över kronologiskt ordnade händelser, replikerade genom konsensus inom ett öppet, tillståndsfritt nätverk. State channels, å andra sidan, är peer-to-peer-kanaler som gör det möjligt för två (eller fler) deltagare att upprätthålla ett uppdaterat tillstånd off-chain, med användning av Blockchain endast när dessa kanaler öppnas och stängs.
 
 
-I samband med Bitcoin är du utan tvekan bekant med principerna för Mining, decentralisering och slutgiltighet av transaktioner på Blockchain, samt hur betalningskanaler fungerar. Med RGB introducerar vi ett nytt paradigm som kallas **Client-side Validation**, som till skillnad från Blockchain eller Lightning består i att lokalt (på klientsidan) lagra och validera tillståndsövergångarna för en Smart contract. Detta skiljer sig också från andra "DeFi-tekniker" (_rollups_, _plasma_, _ARK_, etc.), där Client-side Validation förlitar sig på Blockchain för att förhindra Double-spending och för att ha ett tidsstämplingssystem, samtidigt som registret över off-chain-tillstånd och -övergångar endast hålls tillgängligt för de berörda deltagarna.
+I samband med Bitcoin är du utan tvekan bekant med principerna för Mining, decentralisering och slutgiltighet av transaktioner på Blockchain, samt hur [betalningskanaler](https://planb.academy/resources/glossary/payment-channel) fungerar. Med RGB introducerar vi ett nytt paradigm som kallas **Client-side Validation**, som till skillnad från Blockchain eller Lightning består i att lokalt (på klientsidan) lagra och validera tillståndsövergångarna för en [Smart contract](https://planb.academy/resources/glossary/smart-contract). Detta skiljer sig också från andra "DeFi-tekniker" (_rollups_, _plasma_, _ARK_, etc.), där Client-side Validation förlitar sig på Blockchain för att förhindra Double-spending och för att ha ett tidsstämplingssystem, samtidigt som registret över off-chain-tillstånd och -övergångar endast hålls tillgängligt för de berörda deltagarna.
 
 
 ![RGB-Bitcoin](assets/en/003.webp)
@@ -257,7 +257,7 @@ Blockchain (i det här fallet Bitcoin) fungerar främst som en mekanism för _ti
 Sharding är ett koncept som har sitt ursprung i distribuerade databaser (t.ex. MySQL för sociala nätverk som Facebook eller Twitter). För att lösa problemet med datavolym och synkroniseringsfördröjningar segmenteras databasen i _shards_ (USA, Europa, Asien etc.). Varje segment är lokalt konsekvent och endast delvis synkroniserat med de andra.
 
 
-För smarta kontrakt av typen RGB använder vi Shard enligt själva kontrakten. Varje Contract är en oberoende _shard_. Om du till exempel bara håller USDT-tokens behöver du inte lagra eller validera hela historiken för en annan token som USDC. På Bitcoin gör Blockchain inte _sharding_: du har en global uppsättning UTXO:er. Med Client-side Validation behåller varje deltagare endast de Contract-data som den innehar eller använder.
+För smarta kontrakt av typen RGB använder vi Shard enligt själva kontrakten. Varje Contract är en oberoende _shard_. Om du till exempel bara håller USDT-tokens behöver du inte lagra eller validera hela historiken för en annan token som USDC. På Bitcoin gör Blockchain inte _sharding_: du har en global uppsättning [UTXO](https://planb.academy/resources/glossary/utxo):er. Med Client-side Validation behåller varje deltagare endast de Contract-data som den innehar eller använder.
 
 
 Vi kan därför föreställa oss ekosystemet på följande sätt:
@@ -334,7 +334,7 @@ Client-side Validation bygger på den motsatta idén: i stället för att kräva
 Samtidigt förlitar sig Client-side Validation på begreppet ***Commitment*** så att resten av nätverket (eller mer exakt, den underliggande Layer, såsom Bitcoin) kan låsa det slutliga tillståndet utan att se detaljerna i dessa data.
 
 
-En *Commitment* är en kryptografisk Commitment, vanligtvis en _hash_ (t.ex. SHA-256) som infogas i en Bitcoin-transaktion och som bevisar att privata data har inkluderats, utan att avslöja dessa data.
+En *Commitment* är en kryptografisk Commitment, vanligtvis en _hash_ (t.ex. [SHA-256](https://planb.academy/resources/glossary/sha256)) som infogas i en Bitcoin-transaktion och som bevisar att privata data har inkluderats, utan att avslöja dessa data.
 
 
 Tack vare dessa _engagemang_ kan vi bevisa:
@@ -414,7 +414,7 @@ När man tar emot en tillgång som en valuta är två garantier nödvändiga:
 För fysiska tillgångar, t.ex. en sedel, räcker det med fysisk närvaro för att bevisa att den inte har duplicerats. I den digitala världen, där tillgångarna enbart är information, är denna verifiering dock mer komplicerad, eftersom information lätt kan mångfaldigas och dupliceras.
 
 
-Som vi såg tidigare gör avsändarens avslöjande av historiken för tillståndsövergångar det möjligt för oss att säkerställa äktheten hos en RGB token. Genom att ha tillgång till alla transaktioner sedan Genesis-transaktionen kan vi bekräfta token:s äkthet. Denna princip liknar den i Bitcoin, där myntens historia kan spåras tillbaka till den ursprungliga Coinbase Transaction för att verifiera deras giltighet. Till skillnad från Bitcoin är dock denna historik över tillståndsövergångar i RGB privat och förvaras på klientsidan.
+Som vi såg tidigare gör avsändarens avslöjande av historiken för tillståndsövergångar det möjligt för oss att säkerställa äktheten hos en RGB token. Genom att ha tillgång till alla transaktioner sedan Genesis-transaktionen kan vi bekräfta token:s äkthet. Denna princip liknar den i Bitcoin, där myntens historia kan spåras tillbaka till den ursprungliga [Coinbase Transaction](https://planb.academy/resources/glossary/coinbase-transaction) för att verifiera deras giltighet. Till skillnad från Bitcoin är dock denna historik över tillståndsövergångar i RGB privat och förvaras på klientsidan.
 
 
 För att förhindra Double-spending av RGB-tokens använder vi en mekanism som kallas "**Single-Use Seal**". Detta system säkerställer att varje token, när den väl har använts, inte kan återanvändas på ett bedrägligt sätt en andra gång.
@@ -456,7 +456,7 @@ Följande jämförelse hjälper till att förstå denna princip:
 
 
 
-- **Kryptografisk Commitment (Hash)**: Med en Hash-funktion kan du binda dig till en uppgift (ett nummer) genom att publicera dess Hash. Uppgifterna förblir hemliga tills du avslöjar förbilden, men du kan bevisa att du kände till dem i förväg;
+- **Kryptografisk Commitment (Hash)**: Med en [Hash-funktion](https://planb.academy/resources/glossary/hash-function) kan du binda dig till en uppgift (ett nummer) genom att publicera dess Hash. Uppgifterna förblir hemliga tills du avslöjar förbilden, men du kan bevisa att du kände till dem i förväg;
 - **Timestamp (Blockchain)**: Genom att infoga denna Hash i Blockchain bevisar vi också att vi kände till den vid en exakt tidpunkt (den tidpunkt då den infogades i ett block);
 - **Single-Use Seal**: Med förseglingar för engångsbruk går vi ett steg längre genom att göra Commitment unik. Med en enda Hash kan du skapa flera motsägelsefulla åtaganden parallellt (problemet med läkaren som meddelar "*Det är en pojke*" till familjen och "*Det är en flicka*" i sin personliga dagbok). Single-Use Seal eliminerar denna möjlighet genom att ansluta Commitment till ett bevis-på-publiceringsmedium, såsom Bitcoin Blockchain, så att en utgift av UTXO slutgiltigt förseglar Commitment. När den väl har använts kan samma UTXO inte användas igen för att ersätta Commitment.
 - **Kryptografisk Commitment (Hash)**: Med en Hash-funktion kan du binda dig till en uppgift (ett tal) genom att publicera dess Hash. Uppgifterna förblir hemliga tills du avslöjar förbilden, men du kan bevisa att du kände till dem i förväg;
@@ -587,7 +587,7 @@ Observera att dessa programvarublock är Bitcoin-agnostiska; i teorin kan de til
 #### Mot en bredare användning av engångstätningar
 
 
-Peter Todd skapade också _Open Timestamps_-protokollet, och Single-Use Seal-konceptet är en naturlig förlängning av dessa idéer. Utöver RGB kan man tänka sig andra användningsområden, t.ex. konstruktion av _sidechains_ utan att behöva använda _merge mining_ eller drivechain-relaterade förslag som BIP300. Alla system som kräver en enda Commitment kan i princip utnyttja denna kryptografiska primitivitet. Idag är RGB den första större fullskaliga implementeringen.
+Peter Todd skapade också _Open Timestamps_-protokollet, och Single-Use Seal-konceptet är en naturlig förlängning av dessa idéer. Utöver RGB kan man tänka sig andra användningsområden, t.ex. konstruktion av _[sidechains](https://planb.academy/resources/glossary/sidechain)_ utan att behöva använda _merge mining_ eller drivechain-relaterade förslag som BIP300. Alla system som kräver en enda Commitment kan i princip utnyttja denna kryptografiska primitivitet. Idag är RGB den första större fullskaliga implementeringen.
 
 
 #### Problem med datatillgänglighet
@@ -599,7 +599,7 @@ Eftersom varje användare i Client-side Validation lagrar sin egen del av histor
 #### Sharding och Contract-isolering
 
 
-Varje Contract representerar en isolerad _skärva_: USDT och USDC behöver till exempel inte dela med sig av sin historik. Atombyten är fortfarande möjliga, men detta innebär inte att deras register slås samman. Allt görs med kryptografiska Commitment, utan att avslöja hela historikgrafen för varje deltagare.
+Varje Contract representerar en isolerad _skärva_: USDT och USDC behöver till exempel inte dela med sig av sin historik. [Atombyten](https://planb.academy/resources/glossary/atomic-swap) är fortfarande möjliga, men detta innebär inte att deras register slås samman. Allt görs med kryptografiska Commitment, utan att avslöja hela historikgrafen för varje deltagare.
 
 
 ### Slutsats
@@ -623,13 +623,13 @@ Innan du dyker in i de mer tekniska detaljerna i det andra kapitlet, läs gärna
 :::video id=73ddea2d-c243-479d-a3dc-12d7db8eef70:::
 
 
-I detta kapitel tittar vi på implementeringen av Client-side Validation och engångsförseglingar inom Bitcoin Blockchain. Vi kommer att presentera huvudprinciperna för RGB:s **Commitment Layer** (Layer 1), med särskilt fokus på **TxO2**-systemet, som RGB använder för att definiera och stänga en Seal i en Bitcoin-transaktion. Därefter kommer vi att diskutera två viktiga punkter som ännu inte har behandlats i detalj:
+I detta kapitel tittar vi på implementeringen av [Client-side Validation](https://planb.academy/resources/glossary/client-side-validation) och [engångsförseglingar](https://planb.academy/resources/glossary/single-use-seal) inom Bitcoin Blockchain. Vi kommer att presentera huvudprinciperna för RGB:s **Commitment Layer** (Layer 1), med särskilt fokus på **TxO2**-systemet, som RGB använder för att definiera och stänga en Seal i en Bitcoin-transaktion. Därefter kommer vi att diskutera två viktiga punkter som ännu inte har behandlats i detalj:
 
 
 
 
 - De _deterministiska Bitcoin-åtagandena_;
-- Åtaganden för flera protokoll.
+- [Åtaganden för flera protokoll](https://planb.academy/resources/glossary/multi-protocol-commitment).
 
 
 Det är kombinationen av dessa begrepp som gör det möjligt för oss att lägga flera system eller kontrakt ovanpå en enda UTXO och därmed en enda Blockchain.
@@ -649,7 +649,7 @@ För att förstå logiken, låt oss komma ihåg den grundläggande principen: f�
 
 
 
-- Använd en publik nyckel eller **Address**
+- Använd en [publik nyckel](https://planb.academy/resources/glossary/public-key) eller **Address**
 
 
 Vi kan bestämma att en viss offentlig nyckel eller Address är _försegling för engångsbruk_. Så snart denna nyckel eller Address förekommer On-Chain i en transaktion, betyder det att Seal är stängd med ett visst meddelande.
@@ -660,7 +660,7 @@ Vi kan bestämma att en viss offentlig nyckel eller Address är _försegling fö
 - Använd en **Bitcoin** transaktionsutgång
 
 
-Detta innebär att en _försegling för engångsbruk_ definieras som en exakt _utgångspunkt_ (ett txid + utgångsnummerpar). Så snart denna _utgångspunkt_ är förbrukad stängs Seal.
+Detta innebär att en _försegling för engångsbruk_ definieras som en exakt _utgångspunkt_ (ett [txid](https://planb.academy/resources/glossary/txid-transaction-identifier) + utgångsnummerpar). Så snart denna _utgångspunkt_ är förbrukad stängs Seal.
 
 
 Under arbetet med RGB identifierade vi minst 4 olika sätt att implementera dessa tätningar på Bitcoin:
@@ -668,9 +668,9 @@ Under arbetet med RGB identifierade vi minst 4 olika sätt att implementera dess
 
 
 
-- Definiera Seal via en publik nyckel och stäng den i en _output_;
-- Definiera Seal med en _outpoint_ och stäng den med en _output_;
-- Definiera Seal via värdet på en publik nyckel och stäng den i en _input_;
+- Definiera Seal via en publik nyckel och stäng den i en _[output](https://planb.academy/resources/glossary/output)_;
+- Definiera Seal med en _[outpoint](https://planb.academy/resources/glossary/outpoint)_ och stäng den med en _output_;
+- Definiera Seal via värdet på en publik nyckel och stäng den i en _[input](https://planb.academy/resources/glossary/input)_;
 - Definiera Seal via en _outpoint_ och stäng den i en _input_.
 
 
@@ -678,7 +678,7 @@ Under arbetet med RGB identifierade vi minst 4 olika sätt att implementera dess
 | ----------- | ------------------------- | ------------------------- | -------------------------------------------------------------- | --------------------------- | -------------------------------- |
 | PkO         | Public Key Value          | Transaction Output        | P2(W)PKH                                                       | None at the moment          | Keytweak, taptweak, opret       |
 | TxO2        | Transaction Output        | Transaction Output        | Requires deterministic commitments on Bitcoin                  | RGBv1 (universal)           | Keytweak, tapret, opret         |
-| PkI         | Public Key Value          | Transaction Input         | Taproot only & not compatible with legacy wallets              | Bitcoin-based identities    | Sigtweak, witweak               |
+| PkI         | Public Key Value          | Transaction Input         | [Taproot](https://planb.academy/resources/glossary/taproot) only & not compatible with legacy wallets              | Bitcoin-based identities    | Sigtweak, witweak               |
 | TxO1        | Transaction Output        | Transaction Input         | Taproot only & not compatible with legacy wallets              | None at the moment          | Sigtweak, witweak               |
 
 
@@ -706,7 +706,7 @@ Som en påminnelse kräver inte definitionen av en _försegling för engångsbru
 ![RGB-Bitcoin](assets/en/024.webp)
 
 
-Den dag den vill stänga Seal (för att signalera en händelse eller för att Anchor ett visst meddelande) spenderar den denna UTXO i en ny transaktion (denna transaktion kallas ofta "_vittnestransaktion_" (inte relaterad till _segwit_, det är bara den term vi ger den). Denna nya transaktion kommer att innehålla _åtagandet_ till meddelandet.
+Den dag den vill stänga Seal (för att signalera en händelse eller för att Anchor ett visst meddelande) spenderar den denna UTXO i en ny transaktion (denna transaktion kallas ofta "_[vittnestransaktion](https://planb.academy/resources/glossary/witness-transaction)_" (inte relaterad till _segwit_, det är bara den term vi ger den). Denna nya transaktion kommer att innehålla _åtagandet_ till meddelandet.
 
 
 ![RGB-Bitcoin](assets/en/025.webp)
@@ -806,7 +806,7 @@ I föregående avsnitt nämnde vi kortfattat hur Client-side Validation-modellen
 När du ger någon bevis på att ett visst meddelande är inbäddat i en transaktion, måste du kunna garantera att det inte finns en annan form av Commitment (ett andra, dolt meddelande) i samma transaktion som inte har avslöjats för dig. För att Client-side Validation ska förbli robust behöver du en **deterministisk** mekanism för att placera ett enda _åtagande_ i den transaktion som stänger _förseglingen för engångsbruk_.
 
 
-I _vittnestransaktionen_ spenderas den berömda UTXO (eller _seal definition_) och denna utgift motsvarar stängningen av Seal. Tekniskt sett vet vi att varje outpoint bara kan spenderas en gång. Det är just detta som ligger till grund för Bitcoin:s motstånd mot dubbla utgifter. Men utgiftstransaktionen kan ha flera _inputs_, flera _outputs_ eller vara sammansatt på ett komplext sätt (coinjoins, Lightning channels etc.). Vi måste därför tydligt definiera var vi ska infoga _åtagandet_ i denna struktur, otvetydigt och enhetligt.
+I _vittnestransaktionen_ spenderas den berömda UTXO (eller _seal definition_) och denna utgift motsvarar stängningen av Seal. Tekniskt sett vet vi att varje outpoint bara kan spenderas en gång. Det är just detta som ligger till grund för Bitcoin:s motstånd mot dubbla utgifter. Men utgiftstransaktionen kan ha flera _inputs_, flera _outputs_ eller vara sammansatt på ett komplext sätt ([coinjoins](https://planb.academy/resources/glossary/coinjoin), Lightning channels etc.). Vi måste därför tydligt definiera var vi ska infoga _åtagandet_ i denna struktur, otvetydigt och enhetligt.
 
 
 Oavsett metod (PkO, TxO2, etc.) kan _åtagandet_ införas:
@@ -815,7 +815,7 @@ Oavsett metod (PkO, TxO2, etc.) kan _åtagandet_ införas:
 
 
 - I en **Input** via:
-- **Sigtweak** (modifierar `r`-komponenten i ECDSA-signaturen, liknande "Sign-to-Contract"-principen);
+- **Sigtweak** (modifierar `r`-komponenten i [ECDSA](https://planb.academy/resources/glossary/ecdsa)-signaturen, liknande "Sign-to-Contract"-principen);
 - **Witweak** (transaktionens _segregerade vittnesuppgifter_ ändras).
 - I en **utgång** via:
 - **Keytweak** (mottagarens publika nyckel "tweakas" med meddelandet);
@@ -835,7 +835,7 @@ Här är detaljerna för varje metod:
 ***Sig tweak (sign-to-Contract):***
 
 
-Ett tidigare system innebar att man utnyttjade den slumpmässiga delen av en signatur (ECDSA eller Schnorr) för att bädda in _åtagandet_: detta är den teknik som kallas "**Sign-to-Contract**". Du ersätter den slumpmässigt genererade Nonce med en Hash som innehåller data. På så sätt avslöjar signaturen implicit din Commitment, utan något ytterligare utrymme i transaktionen. Detta tillvägagångssätt har ett antal fördelar:
+Ett tidigare system innebar att man utnyttjade den slumpmässiga delen av en [signatur](https://planb.academy/resources/glossary/digital-signature) (ECDSA eller [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol)) för att bädda in _åtagandet_: detta är den teknik som kallas "**Sign-to-Contract**". Du ersätter den slumpmässigt genererade [Nonce](https://planb.academy/resources/glossary/nonce) med en Hash som innehåller data. På så sätt avslöjar signaturen implicit din Commitment, utan något ytterligare utrymme i transaktionen. Detta tillvägagångssätt har ett antal fördelar:
 
 
 
@@ -849,17 +849,17 @@ Två stora nackdelar har dock framkommit:
 
 
 
-- Multisig före Taproot: När du har flera undertecknare måste du bestämma vilken signatur som ska bära _commitment_. Signaturer kan beställas på olika sätt, och om en undertecknare vägrar förlorar du kontrollen över resultatet av _commitment_;
+- [Multisig](https://planb.academy/resources/glossary/multisig) före Taproot: När du har flera undertecknare måste du bestämma vilken signatur som ska bära _commitment_. Signaturer kan beställas på olika sätt, och om en undertecknare vägrar förlorar du kontrollen över resultatet av _commitment_;
 - MuSig och den delade Nonce: med Schnorr Multisig (*MuSig*) är genereringen av Nonce en flerpartsalgoritm och det blir praktiskt taget omöjligt att justera Nonce individuellt.
 
 
-I praktiken är **sig tweak** inte heller särskilt kompatibel med befintlig hårdvara (hårdvaruplånböcker) och format (Lightning, etc.). Så den här fantastiska idén är Hard att genomföra i praktiken.
+I praktiken är **sig tweak** inte heller särskilt kompatibel med befintlig hårdvara ([hårdvaruplånböcker](https://planb.academy/resources/glossary/hardware-wallet)) och format (Lightning, etc.). Så den här fantastiska idén är Hard att genomföra i praktiken.
 
 
 ***Nyckeljustering (betala till Contract):***
 
 
-**key tweak** tar upp det historiska konceptet _pay-to-contract_. Vi tar den offentliga nyckeln `X` och ändrar den genom att lägga till värdet `H(meddelande)`. Om X = x * G och h = H(meddelande) blir den nya nyckeln X' = X + h * G. Den här modifierade nyckeln döljer Commitment till `meddelandet`. Innehavaren av den ursprungliga privata nyckeln kan, genom att lägga till `h` till sin privata nyckel `x`, bevisa att han har nyckeln för att spendera utmatningen. I teorin är detta elegant, eftersom:
+**key tweak** tar upp det historiska konceptet _pay-to-contract_. Vi tar den offentliga nyckeln `X` och ändrar den genom att lägga till värdet `H(meddelande)`. Om X = x * G och h = H(meddelande) blir den nya nyckeln X' = X + h * G. Den här modifierade nyckeln döljer Commitment till `meddelandet`. Innehavaren av den ursprungliga [privata nyckeln](https://planb.academy/resources/glossary/private-key) kan, genom att lägga till `h` till sin privata nyckel `x`, bevisa att han har nyckeln för att spendera utmatningen. I teorin är detta elegant, eftersom:
 
 
 
@@ -875,7 +875,7 @@ I praktiken stöter vi dock på följande svårigheter:
 
 - Plånböcker känner inte längre igen den publika standardnyckeln, eftersom den har "tweakats", så de kan inte enkelt associera UTXO med din vanliga nyckel;
 - Hårdvaruplånböcker är inte utformade för att signera med en nyckel som inte härrör från deras standardderivat;
-- Du måste anpassa dina skript, beskrivningar etc.
+- Du måste anpassa dina [skript](https://planb.academy/resources/glossary/script), beskrivningar etc.
 
 
 I samband med RGB planerades denna väg fram till 2021, men det visade sig vara för komplicerat att få den att fungera med nuvarande standarder och infrastruktur.
@@ -939,7 +939,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 
 
 - De 29 byte `OP_RESERVED`, följt av `OP_RETURN`, sedan `OP_PUSHBYTE_33`, bildar den 31 byte långa _prefix_-delen;
-- Därefter kommer en 32-byte _commitment_ (vanligtvis Merkle Root från **MPC**), till vilken vi lägger till 1 byte **Nonce** (totalt 33 byte för denna andra del).
+- Därefter kommer en 32-byte _commitment_ (vanligtvis [Merkle Root](https://planb.academy/resources/glossary/merkle-root) från **MPC**), till vilken vi lägger till 1 byte **Nonce** (totalt 33 byte för denna andra del).
 
 
 Så 64-bytesmetoden `Tapret` ser ut som en `Opret` till vilken vi har prefixat 29 byte `OP_RESERVED` och lagt till en extra byte som en Nonce.
@@ -969,7 +969,7 @@ I det här första fallet utgår vi från en Taproot-utmatningsnyckel (*Taproot 
 
 
 - "P": den interna offentliga nyckeln för _Key Path Spend_.
-- `G`: den elliptiska kurvans genereringspunkt [secp256k1](https://en.Bitcoin.it/wiki/Secp256k1).
+- `G`: den [elliptiska kurvans](https://planb.academy/resources/glossary/elliptic-curve) genereringspunkt [secp256k1](https://en.Bitcoin.it/wiki/Secp256k1).
 
 -`t = tH_TWEAK(P)` är tweakfaktorn, beräknad via en _taggad hash_ (t.ex. `SHA-256(SHA-256(TapTweak) || P)`), i enlighet med [BIP86](https://github.com/Bitcoin/bips/blob/master/bip-0086.mediawiki#Address-derivation). Detta bevisar att det inte finns något dolt skript.
 
@@ -1333,7 +1333,7 @@ Denna mekanism säkerställer att:
 Multi Protocol Commitment (MPC) är den princip som gör det möjligt för RGB att aggregera flera kontrakt till en enda Bitcoin-transaktion, samtidigt som åtagandenas unikhet och sekretess gentemot andra deltagare bibehålls. Tack vare den deterministiska konstruktionen av trädet tilldelas varje Contract en unik position, och förekomsten av "dummy"-blad (*Entropy Leaves*) döljer delvis det totala antalet kontrakt som deltar i transaktionen.
 
 
-Hela Merkle Tree lagras aldrig på klienten. Vi gör helt enkelt generate en _Merkle path_ för varje berörd Contract, som överförs till mottagaren (som sedan kan validera Commitment). I vissa fall kan du ha flera tillgångar som har passerat genom samma UTXO. Du kan då slå samman flera _Merkle paths_ till ett s.k. _multiprotokoll Commitment-block_ för att undvika att duplicera för mycket data.
+Hela [Merkle Tree](https://planb.academy/resources/glossary/merkle-tree) lagras aldrig på klienten. Vi gör helt enkelt generate en _Merkle path_ för varje berörd Contract, som överförs till mottagaren (som sedan kan validera Commitment). I vissa fall kan du ha flera tillgångar som har passerat genom samma UTXO. Du kan då slå samman flera _Merkle paths_ till ett s.k. _multiprotokoll Commitment-block_ för att undvika att duplicera för mycket data.
 
 
 Varje _Merkle-bevis_ är därför lättviktigt, särskilt som träddjupet inte kommer att överstiga 32 i RGB. Det finns också ett begrepp "Merkle-block", som innehåller mer information (tvärsnitt, entropi etc.), vilket är användbart för att kombinera eller separera flera grenar.
@@ -2027,7 +2027,7 @@ En av RGB:s stora styrkor ligger i möjligheten att *avslöja* eller dölja (*ko
         - En enkel `txid`, om den pekar på en specifik UTXO,
         - Eller en `WitnessTx`, som betecknar en självreferens: Seal pekar på själva transaktionen. Detta är särskilt användbart när ingen extern UTXO finns tillgänglig, t.ex. vid öppningstransaktioner för blixtkanaler, eller om mottagaren inte har någon UTXO.
 - **vout**: Utgångsnummer för den transaktion som anges av `txptr`. Finns endast för en standardgraf Seal (inte för `WitnessTx`);
-- **blinding**: ett slumpmässigt tal på 8 byte, för att förstärka sekretessen och förhindra brute force-försök på UTXO:s identitet;
+- **blinding**: ett slumpmässigt tal på 8 byte, för att förstärka sekretessen och förhindra [brute force](https://planb.academy/resources/glossary/brute-force-attack)-försök på UTXO:s identitet;
 - **method**: anger den förankringsmetod som används (`Tapret` eller `Opret`).
 
 
@@ -2055,7 +2055,7 @@ RGB definierar fyra möjliga tillståndstyper (*StateTypes*) för en Owned State
 
 
 - **Deklarativ**: innehåller inga numeriska data, utan bara en deklarativ rättighet (t.ex. rösträtt). Den dolda och den avslöjade formen är identiska;
-- **Fungible**: representerar en fungibel kvantitet (som polletter). I avslöjad form har vi `amount` och `blinding`. I dold form har vi en enda *Pedersen commitment* som döljer beloppet och blindningen;
+- **Fungible**: representerar en fungibel kvantitet (som polletter). I avslöjad form har vi `amount` och `blinding`. I dold form har vi en enda *[Pedersen commitment](https://planb.academy/resources/glossary/pedersen-commitment)* som döljer beloppet och blindningen;
 - **Structured**: lagrar strukturerad data (upp till 64 kB). I avslöjad form är det datablobben. I dold form är det en taggad Hash av denna blob:
 
 
@@ -2314,13 +2314,13 @@ En fast-forward inträffar när en tidigare ogiltig regel blir giltig. Till exem
 
 
 
-- Detta kan inte jämföras med en klassisk Blockchain hardfork, eftersom RGB fungerar i Client-side Validation och inte påverkar den övergripande kompatibiliteten hos Blockchain;
+- Detta kan inte jämföras med en klassisk Blockchain [hardfork](https://planb.academy/resources/glossary/hard-fork), eftersom RGB fungerar i Client-side Validation och inte påverkar den övergripande kompatibiliteten hos Blockchain;
 - I praktiken indikeras denna typ av ändring av fältet `Ffv` (*fast-forward version*) i Contract Operation;
 - Nuvarande innehavare skadas inte: deras status förblir giltig;
 - Nya förmånstagare (eller nya användare) måste å andra sidan uppdatera sin programvara (sin Wallet) för att känna igen de nya reglerna.
 
 
-En push-back innebär att en tidigare giltig regel blir ogiltig. Det är därför en "härdning" av reglerna, men inte i strikt mening en softfork:
+En push-back innebär att en tidigare giltig regel blir ogiltig. Det är därför en "härdning" av reglerna, men inte i strikt mening en [softfork](https://planb.academy/resources/glossary/soft-fork):
 
 
 

@@ -250,7 +250,7 @@ Jak wyjaśniono, jego podejście było przede wszystkim rewolucyjne, a nie oport
 
 > "Teraz moje cele się zmieniły. Chcę wykorzystać teorię ekonomii jako środek do zniesienia przymusu i agresji wśród ludzkości. Tak jak niewolnictwo zostało zniesione na całym świecie, wierzę, że przemoc, przymus i wszelkie formy siły stosowane przez jedną osobę wobec drugiej mogą się skończyć. Najbardziej rozpowszechnione i systemowe użycie siły ma miejsce wśród instytucji i rządów, więc jest to mój obecny punkt wysiłków. Najlepszym sposobem na zmianę rządu jest jednak zmiana umysłów rządzonych. W tym celu tworzę symulację ekonomiczną, aby dać ludziom doświadczenie z pierwszej ręki, jak by to było żyć w świecie bez systemowego użycia siły"
 
-Pomysł nie był tak naprawdę nowy. Było to coś więcej niż tylko podejście agorystyczne, ale także ilustracja zamierzonego przez cypherpunks wykorzystania "czarnych rynków" do korzystania z wolności gospodarczej, coś, co znajdujemy w [*Cyphernomicon*] Tima Maya (https://ia801307.us.archive.org/7/items/cyphernomicon/cyphernomicon.txt).
+Pomysł nie był tak naprawdę nowy. Było to coś więcej niż tylko podejście agorystyczne, ale także ilustracja zamierzonego przez [cypherpunks](https://planb.academy/resources/glossary/cypherpunks) wykorzystania "czarnych rynków" do korzystania z wolności gospodarczej, coś, co znajdujemy w [*Cyphernomicon*] Tima Maya (https://ia801307.us.archive.org/7/items/cyphernomicon/cyphernomicon.txt).
 
 
 
@@ -908,7 +908,7 @@ W 2011 roku przeprowadził się do Portsmouth w stanie New Hampshire w ramach *F
 
 > "Ten dzień był jednym z najważniejszych w moim życiu. To było jak odkrycie jakiejś wielkiej prawdy, jak zobaczenie przyszłości. Rzuciłem wszystko, co robiłem i wskoczyłem do króliczej nory"
 
-Jego motywacja była głównie ideologiczna: uwiodła go niepowstrzymana natura systemu i niemożność stworzenia większej ilości pieniędzy niż planowano. Postrzegał on](https://silverunderground.com/2011/06/bitcoin-the-separation-of-money-and-state/) Bitcoin jako ucieleśnienie "rozdziału pieniądza i państwa". Przekonała go również praktyka agorystyczna promowana przez Samuela Konkina i [uważał](https://bitcointalk.org/index.php?topic=34657.msg431717#msg431717), że "Bitcoin jest dla agoryzmu tym, czym skrzela dla ryby", tj. niezbędnym trybikiem.
+Jego motywacja była głównie ideologiczna: uwiodła go niepowstrzymana natura systemu i niemożność stworzenia większej ilości pieniędzy niż planowano. Postrzegał on](https://silverunderground.com/2011/06/bitcoin-the-separation-of-money-and-state/) Bitcoin jako ucieleśnienie "rozdziału pieniądza i państwa". Przekonała go również praktyka agorystyczna promowana przez Samuela Konkina i [uważał](https://bitcointalk.org/index.php?topic=34657.msg431717#msg431717), że "Bitcoin jest dla [agoryzmu](https://planb.academy/resources/glossary/agorism) tym, czym skrzela dla ryby", tj. niezbędnym trybikiem.
 
 
 
@@ -1498,7 +1498,7 @@ Przewidziano dwa rodzaje derywacji. Jeden typ (typ 1) był prosty, generując kl
 
 
 
-Później, w lutym 2012 r., nastąpiła standaryzacja wraz z [publikacją](https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198) BIP 32. Opisano w nim ogólną strukturę *Hierarchicznych Deterministycznych Wallet*, HD Wallet, w których pochodne są wykorzystywane metodycznie do wyprowadzania kluczy i adresów seed. Została ona stopniowo przyjęta przez większość wallet na przestrzeni lat.
+Później, w lutym 2012 r., nastąpiła standaryzacja wraz z [publikacją](https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198) [BIP](https://planb.academy/resources/glossary/bip) 32. Opisano w nim ogólną strukturę *Hierarchicznych Deterministycznych Wallet*, HD Wallet, w których pochodne są wykorzystywane metodycznie do wyprowadzania kluczy i adresów seed. Została ona stopniowo przyjęta przez większość wallet na przestrzeni lat.
 
 
 
@@ -1600,7 +1600,7 @@ Pierwszym deweloperem, który wykorzystał tę bibliotekę był członek forum n
 
 
 
-Biblioteka BitcoinJS była również [używana](https://web.archive.org/web/20180611012256/https://github.com/zootreeves/blockchain.info) przez Benjamina Reevesa, młodego brytyjskiego programistę mieszkającego w Yorku, znanego na forum jako Piuk. Bardzo odludny, był również pracoholikiem. W sierpniu [opracował](https://bitcointalk.org/index.php?topic=40264.msg500726#msg500726) eksplorator bloków, który "zawiera osierocone bloki, które można wykorzystać do śledzenia możliwych podwójnych wydatków" i "szacuje rzeczywistą wielkość transakcji BTC (nie tylko wysłanych BTC)", które hostuje na swojej osobistej stronie internetowej. Konkuruje on z Bitcoin Block Explorer (BBE) firmy Theymos, a także z [ABE](https://bitcointalk.org/index.php?topic=22785.msg286515#msg286515), alternatywą open-source przeznaczoną do hostowania przez użytkowników. W październiku strona [uzyskała](https://bitcointalk.org/index.php?topic=40264.msg576916#msg576916) własną nazwę domeny: Blockchain.info. Szybko stała się ona preferowaną wyszukiwarką dla członków społeczności.
+Biblioteka BitcoinJS była również [używana](https://web.archive.org/web/20180611012256/https://github.com/zootreeves/blockchain.info) przez Benjamina Reevesa, młodego brytyjskiego programistę mieszkającego w Yorku, znanego na forum jako Piuk. Bardzo odludny, był również pracoholikiem. W sierpniu [opracował](https://bitcointalk.org/index.php?topic=40264.msg500726#msg500726) eksplorator bloków, który "zawiera osierocone [bloki](https://planb.academy/resources/glossary/block), które można wykorzystać do śledzenia możliwych podwójnych wydatków" i "szacuje rzeczywistą wielkość transakcji BTC (nie tylko wysłanych BTC)", które hostuje na swojej osobistej stronie internetowej. Konkuruje on z Bitcoin Block Explorer (BBE) firmy Theymos, a także z [ABE](https://bitcointalk.org/index.php?topic=22785.msg286515#msg286515), alternatywą open-source przeznaczoną do hostowania przez użytkowników. W październiku strona [uzyskała](https://bitcointalk.org/index.php?topic=40264.msg576916#msg576916) własną nazwę domeny: Blockchain.info. Szybko stała się ona preferowaną wyszukiwarką dla członków społeczności.
 
 
 
@@ -1757,7 +1757,7 @@ Aby rozwiązać ten problem i złamać identyfikowalność funduszy, rozwiązani
 
 
 
-Pierwszą z nich jest BitLaundry. Usługa ta została [uruchomiona](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823) we wrześniu 2010 roku przez Petera Vessenesa, amerykańskiego przedsiębiorcę z dyplomem z kryptografii, który odkrył istnienie Bitcoin w czasie slashdottingu. Blender [dostarczał](https://maltemoeser.de/paper/money-laundering.pdf#page=5) użytkownikowi jednorazowy adres, na który wysyłane były środki, które miały zostać zanonimizowane. Bitcoiny były następnie odsyłane w formie kilku monet (UTXO), w ramach transakcji wielokrotnego wejścia, która obejmowała bitcoiny od innych użytkowników, dzięki czemu mieszanie było skuteczne. Opłaty wynosiły około 2,5% kwoty transakcji. W maju 2011 r., wyczuwając komplikacje prawne, które mogłyby wyniknąć z tej działalności, Peter Vessenes [przekazał](https://bitcointalk.org/index.php?topic=963.msg122955#msg122955) usługę Mike'owi Gogulskiemu, aktywiście znanemu z bycia bezpaństwowcem, który zrzekł się obywatelstwa USA, nie posiadając innego.
+Pierwszą z nich jest BitLaundry. Usługa ta została [uruchomiona](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823) we wrześniu 2010 roku przez Petera Vessenesa, amerykańskiego przedsiębiorcę z dyplomem z kryptografii, który odkrył istnienie Bitcoin w czasie slashdottingu. Blender [dostarczał](https://maltemoeser.de/paper/money-laundering.pdf#page=5) użytkownikowi jednorazowy adres, na który wysyłane były środki, które miały zostać zanonimizowane. Bitcoiny były następnie odsyłane w formie kilku monet ([UTXO](https://planb.academy/resources/glossary/utxo)), w ramach transakcji wielokrotnego wejścia, która obejmowała bitcoiny od innych użytkowników, dzięki czemu mieszanie było skuteczne. Opłaty wynosiły około 2,5% kwoty transakcji. W maju 2011 r., wyczuwając komplikacje prawne, które mogłyby wyniknąć z tej działalności, Peter Vessenes [przekazał](https://bitcointalk.org/index.php?topic=963.msg122955#msg122955) usługę Mike'owi Gogulskiemu, aktywiście znanemu z bycia bezpaństwowcem, który zrzekł się obywatelstwa USA, nie posiadając innego.
 
 
 
@@ -1777,7 +1777,7 @@ Trzeci był szczególnego rodzaju, ponieważ był to mikser wbudowany w Blockcha
 
 
 
-Rozprzestrzenianie się scentralizowanych mikserów miało wpływ na katalizowanie myślenia o zdecentralizowanym miksowaniu monet, które rozpoczęło się latem 2011 r. wraz z propozycją [propozycja](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) przedstawioną przez Hashcoin. Doprowadziło to do [formalizacji](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902) CoinJoin przez Gregory Maxwell w 2013 roku. Ale to już zupełnie inna historia...
+Rozprzestrzenianie się scentralizowanych mikserów miało wpływ na katalizowanie myślenia o zdecentralizowanym miksowaniu monet, które rozpoczęło się latem 2011 r. wraz z propozycją [propozycja](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) przedstawioną przez Hashcoin. Doprowadziło to do [formalizacji](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902) [CoinJoin](https://planb.academy/resources/glossary/coinjoin) przez Gregory Maxwell w 2013 roku. Ale to już zupełnie inna historia...
 
 
 
@@ -1808,7 +1808,7 @@ Era amerykańskiego Dzikiego Zachodu charakteryzowała się gorączką złota, c
 
 
 
-Jesienią 2010 r. pierwszy napływ górników doprowadził do powszechnego wykorzystania GPU (procesora graficznego) mining, który był znacznie bardziej opłacalny niż CPU (procesor centralny) mining. Jednak ten postęp techniczny zwiększył trudność sieci do tego stopnia, że mali górnicy nie mogli już mieć nadziei na znalezienie bloku w rozsądnych ramach czasowych. Doprowadziło to do powstania grup górników, takich jak BitcoinCZ Mining, Slush Pool. Dynamika nie zatrzymała się na tym: gdy cena wzrosła w 2011 r., napływ górników był kontynuowany, a pula mining szybko się unormowała.
+Jesienią 2010 r. pierwszy napływ górników doprowadził do powszechnego wykorzystania GPU (procesora graficznego) mining, który był znacznie bardziej opłacalny niż CPU (procesor centralny) mining. Jednak ten postęp techniczny zwiększył [trudność](https://planb.academy/resources/glossary/difficulty) sieci do tego stopnia, że mali górnicy nie mogli już mieć nadziei na znalezienie bloku w rozsądnych ramach czasowych. Doprowadziło to do powstania grup górników, takich jak BitcoinCZ Mining, Slush Pool. Dynamika nie zatrzymała się na tym: gdy cena wzrosła w 2011 r., napływ górników był kontynuowany, a pula mining szybko się unormowała.
 
 
 
@@ -1996,7 +1996,7 @@ Jednym ze sposobów walki z centralizacją wywołaną przez powszechne korzystan
 
 
 
-Model [polegał](https://im.forre.st/pb/85341005.txt) na "sharechainie, który był utrzymywany przez uczestniczących górników połączonych peer-to-peer, podobnie jak blockchain Bitcoin. Każdy udział zawiera odcisk palca poprzedniego udziału, który łączy udziały razem i zapewnia integralność całości. Trudność (która jest początkowo 600 razy niższa niż trudność głównej sieci) jest regularnie dostosowywana, aby zagwarantować średni interwał 5 sekund. Metodą wynagradzania jest płatność według ostatnich N udziałów (PPLNS), dokonywana bezpośrednio w transakcji nagrody, za każdym razem, gdy zostanie znaleziony blok.
+Model [polegał](https://im.forre.st/pb/85341005.txt) na "sharechainie, który był utrzymywany przez uczestniczących górników połączonych [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p), podobnie jak blockchain Bitcoin. Każdy udział zawiera odcisk palca poprzedniego udziału, który łączy udziały razem i zapewnia integralność całości. Trudność (która jest początkowo 600 razy niższa niż trudność głównej sieci) jest regularnie dostosowywana, aby zagwarantować średni interwał 5 sekund. Metodą wynagradzania jest płatność według ostatnich N udziałów (PPLNS), dokonywana bezpośrednio w transakcji nagrody, za każdym razem, gdy zostanie znaleziony blok.
 
 
 
@@ -2086,7 +2086,7 @@ Po odejściu Satoshi Nakamoto, rozwój oprogramowania został przejęty przez sp
 
 
 
-Zimą 2011-2012 r. pojawiły się kontrowersje związane z implementacją wielopodpisu w Bitcoin. Dotyczyły one, między innymi, schematu znanego jako "Pay to Script Hash" lub P2SH. Pete Rizzo i Aaron van Wirdum [by](https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war) nazwali ten konflikt "bitwą o P2SH". Był to pierwszy poważny spór dotyczący ewolucji protokołu i pierwszy, który podniósł kwestię zarządzania.
+Zimą 2011-2012 r. pojawiły się kontrowersje związane z implementacją wielopodpisu w Bitcoin. Dotyczyły one, między innymi, schematu znanego jako "Pay to [Script](https://planb.academy/resources/glossary/script) Hash" lub P2SH. Pete Rizzo i Aaron van Wirdum [by](https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war) nazwali ten konflikt "bitwą o P2SH". Był to pierwszy poważny spór dotyczący ewolucji protokołu i pierwszy, który podniósł kwestię zarządzania.
 
 
 
@@ -2642,7 +2642,7 @@ Pomimo tego niepowodzenia, Litecoin jest historią sukcesu. Wraz z namecoinem je
 
 
 
-Możliwość zarabiania pieniędzy poprzez klonowanie Bitcoin i czerpanie zysków z rosnącej wartości jednostek była oczywista. Już w listopadzie 2010 roku, jeszcze przed pojawieniem się idei BitDNS, możliwość ta została poruszona na forum. Ribuck, aktywny członek forum w tamtym czasie, [napisał](https://bitcointalk.org/index.php?topic=1647.msg20646#msg20646) akt oskarżenia przeciwko przyszłym kopiom Bitcoin, tworząc przy okazji termin "shitcoin":
+Możliwość zarabiania pieniędzy poprzez klonowanie Bitcoin i czerpanie zysków z rosnącej wartości jednostek była oczywista. Już w listopadzie 2010 roku, jeszcze przed pojawieniem się idei BitDNS, możliwość ta została poruszona na forum. Ribuck, aktywny członek forum w tamtym czasie, [napisał](https://bitcointalk.org/index.php?topic=1647.msg20646#msg20646) akt oskarżenia przeciwko przyszłym kopiom Bitcoin, tworząc przy okazji termin "[shitcoin](https://planb.academy/resources/glossary/shitcoin)":
 
 
 

@@ -254,6 +254,14 @@ Kanál je považován za otevřený, jakmile je transakce vkladu zahrnuta do Bit
 
 V další kapitole prozkoumáme technické fungování transakce uvnitř kanálu na Lightning Network, tj. když jsou prostředky přesunuty z jedné strany kanálu na druhou.
 
+## Commitment Transaction
+
+<chapterId>7d3fd135-129d-5c5a-b306-d5f2f1e63340</chapterId>
+
+:::video id=c17454f3-14c5-47a0-8c9c-42ee12932bd3:::
+
+V této kapitole se budeme zabývat technickým fungováním transakce v rámci kanálu Lightning Network, přičemž se zaměříme na proces převodu finančních prostředků z jedné strany kanálu na druhou.
+
 ### Připomenutí životního cyklu kanálu
 
 Jak bylo viděno dříve, Lightning kanál začíná **otevřením** prostřednictvím Bitcoinové transakce. Kanál může být kdykoliv **uzavřen**, také prostřednictvím Bitcoinové transakce. Mezi těmito dvěma okamžiky může být v rámci kanálu proveden téměř nekonečný počet transakcí, aniž by procházely Bitcoinovým blockchainem. Podívejme se, co se děje během transakce v kanálu.

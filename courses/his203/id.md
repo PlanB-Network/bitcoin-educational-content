@@ -22,7 +22,6 @@ Selamat datang di kursus yang membahas sejarah Bitcoin antara musim semi 2011 da
 Secara khusus, periode dari musim semi 2011 hingga musim panas 2012 ditandai dengan sikap ketidakpercayaan di antara para pelaku yang terlibat dan hampir tidak adanya regulasi keuangan, sampai-sampai kami menyebutnya di sini sebagai "Wild West of finance". Itu adalah periode kebebasan dan keragaman, di mana banyak proyek yang terkadang aneh bermunculan, yang kurang lebih berhasil, tetapi secara umum bertujuan untuk meningkatkan penggunaan Bitcoin. Meskipun singkat (hampir satu setengah tahun), ini adalah fase pembelajaran dan konstruksi, penuh dengan "yang pertama" dan eksperimen yang kemudian menjadi elemen fundamental dari struktur teknis, ekonomi, dan budaya Bitcoin.
 
 
-
 +++
 
 # Pendahuluan
@@ -38,7 +37,6 @@ Secara khusus, periode dari musim semi 2011 hingga musim panas 2012 ditandai den
 <chapterId>ce630c81-dd1d-59a0-afea-8e6d3313e8ad</chapterId>
 
 
-
 Kursus ini bertujuan untuk membahas bagian pertama dari fase kedua sejarah Bitcoin (2011-2014). Ini mengikuti fase pertama (2008-2011), yang dikenal sebagai fase "pembuktian konsep", yang ditandai dengan kehadiran Satoshi dan kebijaksanaan relatif proyek, dan mendahului fase ketiga (2014-2018), yang secara khusus ditandai oleh *perang ukuran* - konflik internal yang memecah belah komunitas selama beberapa tahun. Kami akan mencoba untuk menangkap keaslian dari periode ini, dan bagaimana periode ini merupakan langkah penting dalam pembangunan Bitcoin.
 
 
@@ -50,13 +48,10 @@ Kursus ini bertujuan untuk membahas bagian pertama dari fase kedua sejarah Bitco
 Kisah yang kami ceritakan di sini berfokus pada periode sejak peluncuran Satoshi Nakamoto pada musim semi 2011 hingga pendirian Bitcoin Foundation pada September 2012. Bagian dari sejarah Bitcoin ini sesuai dengan era yang dikenal sebagai "Wild West of finance", yang ditandai dengan tidak adanya regulasi karena sifat inovasi yang belum pernah ada sebelumnya, yaitu mata uang kripto. Pada saat itu, Bitcoin telah terbukti layak dan mendapatkan liputan media yang semakin meningkat. Selama periode ini, penggunaan Bitcoin menyebar ke orang-orang yang awalnya tidak tertarik dengan mata uang kripto. Kasus penggunaan ilegal berlipat ganda, memberikan "fase berdosa" (meminjam istilah [yang digunakan] (https://theses.fr/2024EHES0127) oleh sosiolog Prancis Maël Rolland) karakter yang khas.
 
 
-
 Istilah "Wild West" digunakan berulang kali oleh para pelaku industri dan jurnalis pada masa itu. Pada awal November 2010, Gavin Andresen [menyebut] (https://bitcointalk.org/index.php?topic=1647.msg20650#msg20650) sebagai "masa-masa Wild West mata uang sumber terbuka" dan mengatakan bahwa ia memperkirakan "orang-orang akan dibakar oleh penipuan, peniru, skema piramida Ponzi, dan gelembung harga". Dalam sebuah artikel yang diterbitkan di Reuters pada tanggal 2 April 2012, jurnalis Naomi O'Leary [menulis] (https://www.reuters.com/article/2012/04/01/traders-bitcoin-idUSL6E8ET5K620120401/) bahwa "Bitcoin telah menjadi Wild West dari keuangan, dengan menjamurnya situs web yang menawarkan replika yang diatur secara longgar dari layanan yang akrab dengan mereka yang berkecimpung di industri keuangan." Dari tahun 2013 dan seterusnya, referensi ke Wild West ini menyebar ke seluruh komunitas, muncul dalam bentuk positif di mulut Erik Voorhees dan [Charlie Shrem] (https://calvinayre.com/2013/07/03/conference/bitcoin-london-recap-bl-video), dua perwakilan utama perusahaan pertukaran BitInstant, atau dibangkitkan dengan cara yang lebih merendahkan oleh orang-orang seperti [Brian Armstrong] (https://a16z.com/bringing-bitcoin-to-everyone/), salah satu pendiri platform Coinbase. Hal ini juga telah diambil oleh para pengkritik Bitcoin, seperti Benjamin Lawsky, Inspektur Departemen Keuangan Negara Bagian New York, yang pada bulan Agustus 2013 [menyebut] (https://www.cbsnews.com/news/ny-regulator-may-crack-down-on-bitcoin/) mata uang kripto sebagai "Wild West virtual untuk pengedar narkotika dan penjahat lainnya".
 
 
-
 Far West memiliki citra yang kuat dalam imajinasi Amerika, dan juga di seluruh Barat yang telah di-Amerika-kan, khususnya berkat Western, sebuah genre film yang sangat populer pada pertengahan abad ke-20. Film ini mewakili cita-cita kemerdekaan, baik untuk atribut positifnya (kebebasan) maupun atribut negatifnya (bahaya). Ini adalah fondasi asli dari "impian Amerika": untuk dapat menetap di negeri yang tidak dikenal dan berjuang untuk sukses, membangun kekayaan dari yang sangat sedikit. Wajar jika Bitcoin dibandingkan dengan ruang kebebasan ini, melalui kemandiriannya dari sistem politik yang ada: Bitcoin memungkinkan segalanya, yang terbaik dan terburuk. Perbandingan ini sangat menginspirasi Erik Voorhees, yang, dalam sebuah wawancara tahun 2013, [berpendapat] (https://bitcoinmagazine.com/culture/erik-voorhees-new-frontier-1374794545) bahwa Bitcoin adalah perbatasan baru, perantara antara peradaban yang sudah mapan dan tanah yang belum dijelajahi. Dia berkata:
-
 
 
 > "Tentu saja, Bitcoin adalah Wild West-nya dunia keuangan, dan syukurlah untuk itu. Ini mewakili seluruh legiun petualang dan wirausahawan, pengambil risiko, penemu, dan pemecah masalah. Ini adalah perbatasan. Kekayaan dalam jumlah besar akan tercipta dan dihancurkan saat lanskap baru ini dipetakan. Saya yakin dampak dari petualangan ini akan sangat besar, karena meskipun 'Wild West' adalah fenomena unik Amerika, Bitcoin adalah fenomena global."
@@ -66,42 +61,31 @@ Far West memiliki citra yang kuat dalam imajinasi Amerika, dan juga di seluruh B
 Bukan tanpa alasan bahwa blogger Jimbobway [menyebut] (https://web.archive.org/web/20100828094955/http://www.bitcoinblogger.com/2010/08/bitcoins-new-digital-gold-rush.html) pengembangan Bitcoin mining pada tahun 2010 sebagai "demam emas digital", sebuah analogi yang telah diulangi oleh orang lain di tahun-tahun berikutnya. Pada tahun 2013, jurnalis Alec Liu juga [menyebutnya] (https://web.archive.org/web/20130328041052/http://motherboard.vice.com/blog/engineering-the-bitcoin-gold-rush-an-interview-with-yifu-guo-creator-of-the-first-asic-based-miner) dalam sebuah artikel untuk Motherload tentang Yifu Guo, penemu salah satu ASIC yang pertama kali berfungsi. Dalam sebuah gerakan yang berlanjut hingga setidaknya tahun 2014, individu dapat menambang bitcoin sendiri berkat peralatan yang semakin canggih, hingga peralatan khusus tersebar luas dan peternakan skala industri pertama dikembangkan.
 
 
-
 "Wild West of cryptocurrency" adalah sebuah periode di mana, seperti yang dijelaskan oleh [Michael del Castillo] (https://www.forbes.com/sites/michaeldelcastillo/2019/01/03/bitcoins-last-gunslinger/), "bitcoin dianggap tidak diatur dan tidak dapat diatur". Karakteristik ini berarti bahwa penggunaan yang biasanya tidak disukai oleh masyarakat umum - ilegal, tidak bermoral, atau kemungkinan besar akan menjadi ilegal - adalah yang pertama kali berkembang.
-
 
 
 Kami melihat perdagangan narkoba menjadi pusat perhatian dengan platform Silk Road, yang menikmati masa kejayaannya selama periode ini, memonopoli hingga 20% dari bisnis rantai pada tahun 2012. Didirikan oleh seorang pemuda Texas bernama Ross Ulbricht, Silk Road merupakan pasar online pertama yang menggunakan Tor dan Bitcoin. Ini memungkinkan pengguna untuk membeli semua jenis produk, termasuk obat-obatan, oleh karena itu dijuluki Amazon-nya obat-obatan. Ross Ulbricht sendiri [menganggap] (https://antilop.cc/sr/users/dpr/threads/20110622-0106-Keep_your_guard_up.html) bahwa Silk Road bukanlah "Wal-Mart, atau bahkan Amazon.com", tetapi itu adalah "Far West" dan ada "banyak penjahat seperti halnya pengusaha dan wanita yang jujur". Platform ini mulai mendapatkan daya tarik pada bulan Juni 2011, setelah sebuah artikel yang diterbitkan di Gawker, sampai-sampai menarik perhatian pihak berwenang.
 
 
-
 Selain Silk Road, Bitcoin menjadi mata uang untuk kejahatan dan kejahatan secara umum, memperoleh reputasi yang nantinya akan sangat sulit untuk dibatalkan. Perjudian online berkembang pesat, dengan terciptanya berbagai platform poker, taruhan, dan kasino. Banyak peretasan terjadi, yang menyebabkan kerugian yang sangat besar dan kebangkrutan perusahaan-perusahaan besar dalam ekosistem seperti Bitcoinica. Berbagai penipuan dilakukan, mengikuti contoh skema piramida Bitcoin Savings & Trust, yang runtuh pada Agustus 2012.
-
 
 
 Di sisi keuangan, platform pertukaran tumbuh sangat pesat, awalnya beroperasi tanpa lisensi perbankan atau prosedur mengenal nasabah (KYC). Mereka menjembatani kesenjangan antara mata uang negara dan bitcoin, terkadang melalui sistem alternatif seperti Liberty Reserve. Spekulasi dengan leverage muncul pada titik ini. Pertukaran online seperti GLBSE memungkinkan proyek-proyek berkembang dengan menerbitkan saham tanpa registrasi dengan pihak berwenang. Akhirnya, kebebasan moneter yang dibawa oleh Bitcoin memungkinkan banyak orang untuk meluncurkan mata uang kripto mereka sendiri, dengan niat yang kurang lebih baik tergantung pada proyeknya.
 
 
-
 Bitcoin menarik semua jenis profil yang tidak lazim dan non-konformis. Bagi Naomi O'Leary, pengguna Bitcoin adalah "kumpulan aneh dari para uber-geek, anarkis, libertarian, penipu, dan pedagang valas". Pada tahun 2017, dalam sebuah artikel nostalgia yang didedikasikan untuk "Hari-hari Terakhir Bitcoin's Wild West", libertarian Bruce Fenton [disebut] (https://www.coindesk.com/markets/2017/04/18/miami-2014-the-last-days-of-bitcoins-wild-west) komunitas Bitcoin sebagai "kelompok geek, jenius, dan pemberontak yang paling menarik dan eklektik yang pernah saya lihat".
-
 
 
 Tema yang berhubungan dengan Wild West yang digunakan pada saat itu adalah pembajakan. Memang, pembajakan itu sendiri menempati tempat penting dalam sejarah Amerika (bajak laut abad ke-17 di Karibia muncul di benak kita). Ide tentang seorang pria mandiri yang mengarungi lautan sangat menarik bagi para penggemar mata uang kripto awal, sehingga beberapa dari mereka menggunakan citra ini, baik atau buruk. Pada awal tahun 2012, Ross Ulbricht menyebut dirinya sebagai Dread Pirate Roberts, yang terinspirasi oleh bajak laut berwarna-warni dari film *The Princess Bride*. Demikian pula, manajer Bitcoin Savings & Trust, Trendon Shavers, menggunakan nama samaran PirateAt40, mengacu pada lagu Jimmy Buffett, "*A Pirate Looks At Forty*".
 
 
-
 Fitur terakhir yang mencolok dari periode ini mungkin adalah usia para promotor utama Bitcoin: sebagian besar dari mereka memang masih muda, bahkan sangat muda. Banyak dari mereka adalah *millenials*, anggota Generasi Y: lahir antara tahun 1981 dan 1996, mereka berusia antara 16 dan 31 tahun pada tahun 2011 ketika Satoshi menghilang untuk selamanya. Usia mereka yang relatif muda membuat mereka sangat antusias, sehingga mereka adalah bahan bakar yang membuat Bitcoin dapat lepas landas. Namun demikian, mereka juga sangat tidak dewasa dan sembrono, terutama dalam hal respons terhadap peraturan. Meskipun mereka diawasi oleh anggota generasi sebelumnya (yang sering kali lebih berhati-hati), mereka melakukan sejumlah besar kesalahan, yang menyebabkan beberapa dari mereka mengalami penindasan dari pihak berwenang atau berakhir di balik jeruji besi.
-
 
 
 ### Garis besar mata kuliah
 
 
-
 Kursus ini dibagi menjadi empat bagian, yang masing-masing berfokus pada konstruksi ekonomi Bitcoin selama gelembung besar tahun 2011 (4 bab), pengembangan teknisnya (3 bab) dan ekses yang mengalir dari sifatnya yang bebas dan tidak dapat dikontrol (4 bab). Secara keseluruhan, buku ini terdiri dari 11 bab, yang tercantum di bawah ini (periode yang relevan ditunjukkan dalam tanda kurung):
-
-
 
 
 
@@ -114,17 +98,14 @@ Kursus ini dibagi menjadi empat bagian, yang masing-masing berfokus pada konstru
 - Pertarungan untuk Pay to Script Hash (Agustus 2011-April 2012)
 - Munculnya mata uang kripto alternatif (April 2011-Agustus 2012)
 - Perdagangan legal dan ilegal (Januari-September 2012)
-- Mata uang kejahatan: perjudian dan pekerja seks (Agustus 2011-Agustus 2012)
-- Mata uang kejahatan: pembajakan dan penipuan (Maret-September 2012)
-
+- Mata uang untuk aktivitas “maksiat”: perjudian dan pekerjaan seks (Agustus 2011–Agustus 2012)
+- Mata uang untuk kejahatan: pembajakan dan penipuan (Maret–September 2012)
 
 
 ### Detail
 
 
-
 Membaca kursus pertama tentang sejarah Bitcoin (berjudul *Sejarah penciptaan Bitcoin*) merupakan prasyarat, terutama jika Anda benar-benar baru mengenal subjek ini. Walaupun narasinya tidak sepenuhnya kronologis, kursus kedua ini melanjutkan dari kursus sebelumnya, sekitar musim semi 2011. Anda dapat mengklik tautan berikut untuk mengikuti kursus pertama:
-
 
 
 https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
@@ -133,8 +114,6 @@ Semua tanggal dan waktu diberikan dalam zona waktu UTC (sesuai dengan meridian G
 
 
 Selain sumber-sumber yang diberikan secara langsung dalam teks yang ditautkan, kami juga menggunakan karya-karya referensi berikut ini:
-
-
 
 
 
@@ -149,7 +128,6 @@ Kami juga mendapatkan inspirasi dari film dokumenter yang meliput bagian sejarah
 
 
 
-
 - [*The Bitcoin Phenomenon*] (https://www.youtube.com/watch?v=6pWblf8COH4), disutradarai oleh Bhu Srinivasan dan dirilis pada tanggal 12 April 2014;
 - [*The Rise and Rise of Bitcoin*] (https://www.youtube.com/watch?v=Yh1dOmQJoWQ), disutradarai oleh Nicholas Mross dan dirilis pada tanggal 10 Oktober 2014;
 - [*Deep Web*] (https://www.youtube.com/watch?v=L7emWKAMEvI), disutradarai oleh Alex Winter, akan dirilis pada tanggal 31 Mei 2015.
@@ -157,8 +135,6 @@ Kami juga mendapatkan inspirasi dari film dokumenter yang meliput bagian sejarah
 
 
 Terakhir, kami memanfaatkan sejumlah arsip dan konten yang tersedia di Internet, termasuk:
-
-
 
 
 
@@ -172,9 +148,7 @@ Terakhir, kami memanfaatkan sejumlah arsip dan konten yang tersedia di Internet,
 ### Terima kasih
 
 
-
 Terima kasih banyak kepada Loïc Morel atas pengoreksiannya yang cermat!
-
 
 
 # Gelembung besar tahun 2011
@@ -183,40 +157,31 @@ Terima kasih banyak kepada Loïc Morel atas pengoreksiannya yang cermat!
 <partId>eb634403-627b-5b21-a0b7-11a4ca8aa2d1</partId>
 
 
-
 ## Jalur Sutra, Amazon-nya obat-obatan terlarang
 
 
 <chapterId>23e6297e-75b3-5c7f-bc29-ce1f6c1b56a4</chapterId>
 
 
-
 Pertanyaan mengenai hubungan antara [mata uang kripto](https://planb.academy/resources/glossary/cryptocurrency) dan otoritas muncul dengan cepat dalam sejarah Bitcoin. Pada bulan Desember 2010, Satoshi Nakamoto menarik diri dari perhatian publik setelah publikasi artikel PC World yang mendorong WikiLeaks untuk menggunakan Bitcoin. Seolah-olah mengkonfirmasi intuisinya, artikel tersebut menarik perhatian besar pada Bitcoin, yang harganya melonjak dari $0,20 menjadi $32 hanya dalam beberapa bulan. Satoshi terus berkomunikasi secara pribadi dengan kolaborator terdekatnya dan akhirnya menghilang pada musim semi 2011. Secara simbolis, pesan terakhir dari Gavin Andresen, pengembang yang telah mengambil alih proyek ini, memberitahukan kepada pencipta Bitcoin bahwa dia telah dihubungi oleh In-Q-Tel, sebuah dana investasi yang dikelola oleh CIA. Kotak Pandora benar-benar terbuka.
-
 
 
 Satoshi Nakamoto memang tepat untuk menyingkir pada saat itu, karena tahun-tahun berikutnya ditandai dengan maraknya penggunaan Bitcoin secara ilegal. Secara logis, para penjahat memiliki kepentingan untuk menggunakan resistensi Bitcoin terhadap sensor untuk melarikan diri dari kontrol negara. Kasus penggunaan yang paling populer mungkin adalah perdagangan narkoba online, yang terjadi melalui pasar yang inovatif: Silk Road.
 
 
-
 Platform ini, yang dengan cepat dijuluki Amazon-nya narkoba, diciptakan oleh seorang pria berusia 26 tahun asal Texas bernama Ross Ulbricht. Cita-cita libertariannya yang kuat mengilhami ide untuk proyek ini. Silk Road sukses besar, dan akhirnya memainkan peran penting dalam ekonomi Bitcoin sehingga kami telah mencurahkan seluruh bab untuk itu di sini. Pertama-tama kami akan memperkenalkan Ross Ulbricht, dalang di balik Silk Road, kemudian membahas tentang masa-masa awal pasar, sebelum melihat kembali kesuksesan awalnya pada tahun 2011.
-
 
 
 ### Ross Ulbricht, libertarianisme dan agorisme
 
 
-
 Lahir pada tahun 1984, Ross William Ulbricht dibesarkan di Austin, Texas, di mana ia menghabiskan masa mudanya yang menyenangkan dengan dikelilingi oleh keluarga yang penuh kasih. Dia adalah seorang anggota pramuka selama bertahun-tahun, yang memberinya rasa suka akan aktivitas luar ruangan seperti hiking dan berkemah, serta olahraga. Sebagai siswa yang cemerlang, ia dianugerahi beasiswa penuh untuk kuliah di universitas, di mana ia memperoleh gelar sarjana fisika dan gelar master di bidang ilmu pengetahuan dan teknik material, dengan spesialisasi di bidang kristalografi.
-
 
 
 ![Ross Ulbricht](assets/en/001.webp)
 
 
-
 *Ross Ulbricht, pada tanggal yang belum ditentukan (sumber: FreeRoss.org)*
-
 
 
 Selama masa kuliahnya, Ross bereksperimen dengan berbagai macam obat, terutama psikedelik. Namun yang terpenting, pada periode inilah ia menjadi sangat tertarik dengan ide-ide libertarian dan mazhab ekonomi Austria, khususnya membaca Ludwig von Mises dan Murray Rothbard, serta Joseph Salerno dan Lew Rockwell. Melalui klub *College Libertarians*, ia [berpartisipasi] (http://web.archive.org/web/20171024194209/http://www.collegian.psu.edu:80/archives/article_1cb3e5e4-6ed2-5bb8-b980-1df989c663f9.html) dalam debat yang mengadvokasi liberalisasi sistem perawatan kesehatan dan legalisasi obat-obatan. In 2008, he [supported](https://web.archive.org/web/20170804183125/http://www.collegian.psu.edu:80/archives/article_239513a3-a577-5732-bab0-9cc27c5d4610.html) Kampanye Libertarian Ron Paul untuk pemilihan pendahuluan Partai Republik.
@@ -231,9 +196,8 @@ Penemuan Ross akan filosofi agoris adalah sebuah wahyu. Ide-ide libertarian memb
 
 
 
-
-> "Saya membaca semua yang saya bisa untuk memperdalam pemahaman saya tentang ekonomi dan kebebasan, tetapi semuanya bersifat intelektual, tidak ada ajakan untuk bertindak kecuali untuk memberi tahu orang-orang di sekitar saya tentang apa yang telah saya pelajari dan mudah-mudahan membuat mereka melihat cahaya.  Sampai akhirnya saya membaca 'Alongside Night' dan karya-karya Samuel Edward Konkin III.
-Akhirnya potongan puzzle yang hilang!  Tiba-tiba saja semuanya menjadi sangat jelas: setiap tindakan yang Anda lakukan di luar lingkup kendali pemerintah akan memperkuat pasar dan melemahkan negara.  Saya melihat bagaimana negara hidup secara parasit dari orang-orang produktif di dunia, dan betapa cepatnya negara akan runtuh jika tidak memiliki pendapatan pajak.  Tidak ada tentara jika Anda tidak bisa membayar mereka.  Tidak ada perang narkoba tanpa miliaran dolar yang disedot dari orang-orang yang Anda tindas."
+> "Saya membaca semua yang saya bisa untuk memperdalam pemahaman saya tentang ekonomi dan kebebasan, tetapi semuanya bersifat intelektual, tidak ada ajakan untuk bertindak kecuali untuk memberi tahu orang-orang di sekitar saya tentang apa yang telah saya pelajari dan mudah-mudahan membuat mereka melihat cahaya. Sampai akhirnya saya membaca 'Alongside Night' dan karya-karya Samuel Edward Konkin III.
+Akhirnya potongan puzzle yang hilang!  Tiba-tiba saja semuanya menjadi sangat jelas: setiap tindakan yang Anda lakukan di luar lingkup kendali pemerintah akan memperkuat pasar dan melemahkan negara. Saya melihat bagaimana negara hidup secara parasit dari orang-orang produktif di dunia, dan betapa cepatnya negara akan runtuh jika tidak memiliki pendapatan pajak. Tidak ada tentara jika Anda tidak bisa membayar mereka. Tidak ada perang narkoba tanpa miliaran dolar yang disedot dari orang-orang yang Anda tindas."
 
 
 ### Asal mula Jalur Sutra

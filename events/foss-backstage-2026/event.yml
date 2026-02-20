@@ -1,0 +1,24 @@
+id: 656802c4-a717-4503-8643-dce282f966dc
+start_date: 2026-03-15 23:00:00
+end_date: 2026-03-16 23:00:00
+timezone: Europe/Berlin
+address_city_country: Berlin, Germany
+address_line_2: 
+address_line_3: 
+name: FOSS Backstage 2026
+type: conference
+book_online: true
+book_in_person: true
+price_dollars: 0
+description: |
+  FOSS Backstage 2026 is a two-day conference exploring the non-technical aspects of Free and Open Source Software. The event brings together community leaders, FOSS practitioners, executives, developers and technologists to discuss community management, compliance, governance, sustainability, funding, legal issues, and diversity & inclusion in open source projects.
+language:
+  - en
+links:
+  website: https://26.foss-backstage.de/
+  replay_url: 
+  live_url: 
+tags:
+  - adoption
+  - regulation
+  - good-practice

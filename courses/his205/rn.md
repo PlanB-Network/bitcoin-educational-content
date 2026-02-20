@@ -1782,7 +1782,7 @@ Rero, abantu barahindura ibintu, bashobora gutanga inguzanyo isubitswe, ariko mu
 
 
 
-Iryo sesangura rituma umuntu yiyumvira cane: aho kurwanya amahera ngo ahindurwe, birabereye cane gutahura ukuntu yaserutse nk’uguhinduka kuva ku mice igoranye y’inguzanyo n’imyenda. Amahera azana ubuhinga bushasha bw’ishimikiro: **ukutamenyekana**. Kandi niho mbona iyo nyigisho y’ubuhinga bw’abantu y’uguseruka kw’amahera iryoshe cane. Nimba muri umugwi mutoyi w’abantu kandi mukahana deferred credit, biragaragara ko mumenyana. Ngira ngo kugira ngo iyo nzira ikore, abantu bategerezwa kumenyana, biragaragara. Kandi ukwishurwa n’amahera bituma umuntu atamenyekana. Bigufasha kwishura ata bantu mbere bazi izina ryawe, ata bantu mbere bazi uwo uriwe. Bashobora gukora uguhinduranya kugira ngo bashobore gutorera umuti ibibazo vy’ubu nyene kandi vy’iherezo. Kandi ivyo ni vyo nyene amahera ashoboza.
+Iryo sesangura rituma umuntu agira ivyiyumviro vyimbitse: aho kurwanya amahera ngo ahindurwe, birabereye cane gutahura ukuntu yaserutse nk’uguhinduka kuva ku mice igoranye y’inguzanyo n’amadeni. Amahera azana ubuhinga bushasha bw’ishimikiro: **ukutamenyekana**. Kandi niho mbona iyo nyigisho y’ubuhinga bw’abantu y’uguseruka kw’amahera iryoshe cane. Nimba muri umugwi mutoyi w’abantu kandi mukahana ungurane, biragaragara ko mumenyana. Ngira ngo kugira ngo iyo nzira ikore, abantu bategerezwa kumenyana, biragaragara. Kandi ukwishurwa n’amahera bituma umuntu atamenyekana. Bigufasha kwishura ata bantu mbere bazi izina ryawe, ata bantu mbere bazi uwo uriwe. Bashobora gukora uguhinduranya kugira ngo bashobore gutorera umuti ibibazo vy’ubu nyene kandi vy’iherezo. Kandi ivyo ni vyo nyene amahera ashoboza.
 
 
 
@@ -1790,11 +1790,11 @@ Mu buryo butandukanye n’inguzanyo, iyo na yo yama ari iyo gutanga izina, amahe
 
 
 
-Gutyo, aho kuba igikoresho gisanzwe co kworohereza uguhanahana ubutunzi, amahera ni ikintu gishasha mu kibano, gifitaniye isano cane n’ugutera imbere kw’inzego n’imigenzo y’abantu, kuva ku ngurane z’umuntu ku giti ciwe **gushika ku buryo bwo kwishura rusangi, butazwi**. Iryo terambere ry’ubuhinga bw’abantu ryerekana ko amahera, atari kure cane y’uburyo bworoshe bwo guhinduranya, aserukira ikigo gikomeye c’imibano, gihingura cane imibano y’abantu, ku buryo mu mibano yacu ya none, aba ari yo ntumbero nyene y’ibikorwa vy’ubutunzi.
+Gutyo, aho kuba igikoresho gisanzwe co kworohereza uguhanahana ubutunzi, amahera ni ikintu gishasha mu kibano, gifitaniye isano cane n’ugutera imbere kw’inzego n’imigenzo y’abantu, kuva ku ngurane z’umuntu ku giti cabo **gushika ku buryo bwo kwishura rusangi, butazwi**. Iryo terambere ry’ubuhinga bw’abantu ryerekana ko amahera, atari kure cane y’uburyo bworoshe bwo guhinduranya, aserukira ikigo gikomeye c’imibano, gihingura cane imibano y’abantu, ku buryo mu mibano yacu ya none, aba ari yo ntumbero nyene y’ibikorwa vy’ubutunzi.
 
 
 
-Aha, turatahura ko mu mpera, mu mibano yacu ya none, intumbero nyene y’uguhinduranya ubutunzi ari ukugira amahera, mu gihe kera, ivyo ntivyari bimeze na gato. Intumbero nyene y’uguhanahana ubutunzi yari iyo kugira ibintu canke ibintu vyo gukoresha. Kandi uno musi, mu gushiramwo ubuhinga bushasha bw’amahera, intumbero y’uguhinduranya ubutunzi ni ukwirundanira ayo mahera, kuko adushoboza kuyahinduranya ivyiza, nk’uko vyemerwa muri rusangi. Turashobora kubihindura ivyiza dukeneye igihe tubikeneye.
+Aha, turatahura ko mu mpera, mu mibano yacu ya none, intumbero nyene y’uguhinduranya ubutunzi ari ukugira amahera, mu gihe kera, ivyo ntivyari bimeze na gato. Intumbero nyene y’uguhanahana ubutunzi yari iyo kugira ibintu canke ibintu vyo gukoresha. Kandi uno musi, mu gushiramwo ubuhinga bushasha bw’amafaranga, intumbero y’uguhinduranya ubutunzi ni ukwirundanira ayo mahera, kuko adushoboza kuyahinduranya umutungo, nk’uko vyemerwa muri rusangi. Turashobora kubihindura umutungo dukeneye igihe tubikeneye.
 
 
 

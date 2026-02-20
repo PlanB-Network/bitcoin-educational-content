@@ -102,7 +102,7 @@ Ainsi la **preuve de travail** est l'élément central du protocole Bitcoin perm
 
 Pour en terminer avec ces rappels théoriques sur le fonctionnement du minage, il convient de savoir distinguer les principaux acteurs du réseau que sont les **nœuds mineurs** et les **nœuds non mineurs.**
 
-Les nœuds **non mineurs**, sont simplement des utilisateurs du réseau, qui stockent le grand livre de compte, vérifient que les blocs ajoutés par les mineurs sont valides, et qui relaient les transactions d'autres nœud du réseau afin que celles-ci aient une chance d'atteindre un nœud mineur pour être ajoutée au registre. Un nœud non mineur sert en quelque sorte de porte d'accès au réseau Bitcoin. Sans nœud vous ne pouvez pas diffuser de transactions sur le réseau (à moins de joindre directement un mineur), ni vérifier le solde de vos adresses et de votre wallet. En synthèse un nœud non mineur permet **d'utiliser** le réseau et de transacter de manière souveraine.
+Les nœuds **non mineurs**, sont simplement des utilisateurs du réseau, qui stockent le grand livre de compte, vérifient que les blocs ajoutés par les mineurs sont valides, et qui relaient les transactions d'autres nœud du réseau afin que celles-ci aient une chance d'atteindre un nœud mineur pour être ajoutée au registre. Un nœud non mineur sert en quelque sorte de porte d'accès au réseau Bitcoin. Sans nœud vous ne pouvez pas diffuser de transactions sur le réseau (à moins de joindre directement un mineur), ni vérifier le solde de vos adresses et de votre wallet. En synthèse un nœud non mineur permet **d'utiliser** le réseau et de transacter de manière souveraine, tout en augmentant la résilience de Bitcoin.
 
 Les **nœuds mineurs** quant à eux possèdent en plus une partie logicielle additionnelle, leur permettant d’interagir avec des machines de minage qu'on appelle aujourd'hui machines **ASIC (Application Specific integrated Circuit)**. Ils sélectionnent les transactions qui les intéressent le plus, généralement celles qui payent le plus de frais et constituent des blocs. Puis ils proposent ces blocs candidats à la machine de minage qui essaye de résoudre le fameux problème cryptographique. Puis en cas de succès le nœud mineur propose le bloc et sa **preuve de travail** au réseau. En synthèse un nœud mineur permet de **faire fonctionner** le réseau.
 
@@ -112,24 +112,23 @@ Les **nœuds mineurs** quant à eux possèdent en plus une partie logicielle add
 
 ### Une industrie du minage ultra compétitive
 
-Une compétition acharnée a lieu depuis plus d'une décennie désormais, entre des mineurs du monde entier, pour tenter de miner le plus de bitcoin , le tout en dépensant le moins d'énergie possible. En effet les machines **ASIC** cherchent à réaliser le plus de calculs à la seconde, nécessitant une puissance électrique considérable. Le challenge pour un mineur est donc de toujours de dépenser le moins d'énergie que la valeur des bitcoins qu'il va générer. La chasse à l'énergie peu cher et à la rationnalisation des couts de maintenance et d'entretien des machines, a nécessairement conduit cette industrie à se professionaliser.
+Une compétition acharnée a lieu depuis plus d'une décennie désormais, entre des mineurs du monde entier, pour tenter de miner le plus de bitcoins , le tout en dépensant le moins d'énergie possible. En effet les machines **ASIC** cherchent à réaliser le plus de calculs à la seconde, nécessitant une puissance électrique considérable. Le challenge pour un mineur est donc de toujours de dépenser moins d'énergie que la valeur des bitcoins qu'il va générer. La chasse à l'énergie peu chère et à la rationalisation des coûts de maintenance et d'entretien des machines, a nécessairement conduit cette industrie à se professionnaliser.
 
-Aujourd'hui les mineurs professionnels ont accès à de l'énergie infiniment moins chère que des particuliers, prisonniers des prix parfois articificellement gonflés par les taxes qu'ils ont à payer, et la mauvaise gestion des réseaux de productions et de distributions en situation de monopoles. Les fermes de minage elles, négocient avec les fournisseurs d'électricité des prix extrèmement avantageux en monétisant les extra-capacités, c'est à dire en achetant à très bas prix (parfois négatifs !!!) de l'énergie qui serait autrement gaspillée par l'énergéticien.
+Aujourd'hui les mineurs professionnels ont accès à de l'énergie infiniment moins chère que des particuliers, prisonniers des prix parfois artificiellement gonflés par les taxes qu'ils ont à payer, et la mauvaise gestion des réseaux de productions et de distributions en situation de monopoles. Les fermes de minage elles, négocient avec les fournisseurs d'électricité des prix extrêmement avantageux en monétisant les extra-capacités, c'est à dire en achetant à très bas prix (parfois négatifs !!!) de l'énergie qui serait autrement gaspillée par l'énergéticien.
 
 ![Image](assets/fr/004.webp)
 
-
-Dans ce cadre, l'efficience atteinte par ces entité géantes est diabolique. C'est à dire que l'énergie nécessaire pour produire un hash cryptographique ne cesse de diminuer au fil du temps. On peut alors légitimement s'interroger sur la possibilité pour un  mineur non professionel, qui ne bénéficie pas de ces prix avantageux de l'énergie, de partciper au fonctionnement du réseau.
+Dans ce cadre, l'efficience atteinte par ces entité géantes est diabolique. C'est à dire que l'énergie nécessaire pour produire un hash cryptographique ne cesse de diminuer au fil du temps. On peut alors légitimement s'interroger sur la possibilité pour un  mineur non professionnel, qui ne bénéficie pas de ces prix avantageux de l'énergie, de participer au fonctionnement du réseau.
 
 ### Quelle place pour le minage des particuliers ?
 
-En effet à quoi bon participer et essayer de miner si on dépense plus d'électrité que ce qu'on récupère en Bitcoin ?
+En effet à quoi bon participer et essayer de miner si on dépense plus électricité que ce qu'on récupère en bitcoins ?
 
-Certains avanceront l'argument de l'**altruisme**. En effet si on veut éviter une centralisation des capacités de minages entre les mains de ces grandes entreprises qui peuvent être soumises facilement aux caprices des politiciens corrompus, il faut miner coûte que coûte. Ceci peut en effet être un sérieux vecteur d'attaque sur  Bitcoin, mais n'est ce pas comme essayer de vider un piscine olympique à la petit cuillère ?
+Certains avanceront l'argument de l'**altruisme**. En effet si on veut éviter une centralisation des capacités de minages entre les mains de ces grandes entreprises qui peuvent être soumises facilement aux caprices de politiciens corrompus, il faut miner coûte que coûte. Ceci peut en effet être un sérieux vecteur d'attaque sur Bitcoin. Mais n'est ce pas comme essayer de vider un piscine olympique à la petit cuillère ?
 
-D'autres vous dirons que miner est rentable si on se projette suffisamment loin dans le futur. En effet la théorie économique voudrait que la valeur de Bitcoin continue à augmenter pour peu que la croissance de la demande perdure. Mais si on est persuadé que la valeur de Bitcoin a vocation à augmenter, ne vaut-il pas mieux acheter directement du BTC plutôt qu'une machine de minage qu'on ne sera jamais certain d'ammortir ?
+D'autres vous dirons que miner est rentable si on se projette suffisamment loin dans le futur. En effet la théorie économique voudrait que la valeur de Bitcoin continue à augmenter pour peu que la croissance de la demande perdure. Mais si on est persuadé que la valeur de Bitcoin a vocation à augmenter, ne vaut-il pas mieux acheter directement du BTC plutôt qu'une machine de minage qu'on ne sera jamais certain d’amortir ?
 
-Quand bien même on aurait décider de miner coûte que coute est-ce vraiment réalisable à la maison ? Après-tout ces grosses machines sont extrèmement couteuses, bruyantes, difficiles à entretenir. La plupart d'entres-elle demandent en plus une telle puissance électrique que les prises domestiques ne peuvent tout simplement pas suivre. Alors est-ce possible pour un simple individu d'apporter se pierre à l'édifice en dehors de l'altruisme ou de la spéculation à long terme ?
+Quand bien même on aurait décider de miner coûte que coûte est-ce vraiment réalisable à la maison ? Après-tout ces grosses machines sont extrêmement coûteuses, bruyantes, difficiles à entretenir. La plupart d'entres-elle demandent en plus une telle puissance électrique que les prises domestiques ne peuvent tout simplement pas suivre. Alors est-ce possible pour un simple individu d'apporter se pierre à l'édifice en dehors de l'altruisme ou de la spéculation à long terme ?
 
 ![Image](assets/fr/005.webp)
 
@@ -143,11 +142,12 @@ On verra même que dans certains cas, miner à la maison peut présenter un cert
 
 # Pourquoi et comment miner soit-même ?
 
-## Pourquoi miner en Pool "mutualiste" (supprimer tout les ##)
+## Pourquoi miner en Pool "mutualiste"
 
-### Qu'est ce qu'une pool de minage ?
+### Qu'est ce qu'une pool de minage "mutualiste" ?
 
-Une **pool de minage** est un regroupement de mineurs qui mettent en commun leur puissance de calcul (hashrate) pour **travailler collectivement** à la recherche de blocs. En effet en tant que mineur  individuel, il est presque impossible de trouver un bloc par soi-même tant notre puissance de calcul est dérisoire comparée à celle de l'ensemble du réseau.
+Tout d'abord commençons par rappeler quel est le rôle d'une pool de mining "mutualiste".
+Une **pool de minage** "mutualiste" est un regroupement de mineurs qui mettent en commun leur puissance de calcul (hashrate) pour **travailler collectivement** à la recherche de blocs. En effet en tant que mineur  individuel, il est presque impossible de trouver un bloc par soi-même tant notre puissance de calcul est dérisoire comparée à celle de l'ensemble du réseau.
 
 Ici, lorsqu'un des mineurs de la pool trouve un bloc, cette dernière reçoit la **récompense complète (3.125 25 BTC + les frais )**, puis la répartit entre ses membres, proportionnellement à leur contribution.
 
@@ -157,39 +157,37 @@ Cela **lisse les revenus** et **réduit la variance**, ce qui est vital pour les
 
 ### Pour des revenus réguliers et prévisibles
 
-Sans cette association entre mineurs qui partagent la récompense lorsque l'un d'entre eux trouve un bloc, un mineur isolé pourrait miner des années sans rien trouver. En rejoignant une pool, les paiements sont réguliers , et prévisibles. La pool demande à chaque mineur du groupe de soumettre des preuves de travail partielles appelées "shares" , puis attribut
+Sans cette association entre mineurs qui partagent la récompense lorsque l'un d'entre eux trouve un bloc, un mineur isolé pourrait miner des années sans rien trouver. En rejoignant une pool, les paiements sont réguliers , et prévisibles. La pool demande à chaque mineur du groupe de soumettre des preuves de travail partielles appelées "shares" , puis attribut sa part de récompense à chaque mineurs individuel.
 
 Cela **réduit la variance** : au lieu de tout miser sur une "loterie" où les chances de miner un bloc seul sont infimes , on obtient  des fractions de BTC régulièrement, quotidiennement ou hebdomadairement, en fonction de son hashrate. 
 
-## Pourquoi faire du solo mining
+## Pourquoi faire du solo mining via un "solopool"
 
 Le **solo mining** (ou minage en solo) consiste à miner  **sans passer par une pool mutualiste**. 
 
-Aujourd'hui les solominer sont clairement extrêmement minoritaires, et sont majoritairement des particuliers qui le font par passion. On se rapporche là de la manière originelle de miner, à l'époque ou Satoshi Nakamoto, Hall Finey, et tous les 1ers Bitcoiners légendaires encaissaient 50 bitcoins toutes les 10 minutes par le seul travail de leur processeur de laptop.
+Aujourd'hui les solominers sont clairement extrêmement minoritaires, et sont majoritairement des particuliers qui le font par passion. On se rapproche là de la manière originelle de miner, à l'époque ou Satoshi Nakamoto, Hall Finey, et tous les premiers Bitcoiners légendaires encaissaient 50 bitcoins toutes les 10 minutes par le seul travail de leur processeur de laptop.
 
-Les professionnels ayant eux besoin de revenus réguliers pour palier à leurs obligations. Cependant comme on le verra ci-dessous, il y a de vraies raisons (techniques, idéologiques et stratégiques) qui peuvent motiver ce choix.
+Cependant comme on le verra ci-dessous, il y a de vraies raisons (techniques, idéologiques et stratégiques) qui peuvent motiver ce choix.
 
 ![Image](assets/fr/006.webp)
 
-### Qu'est-ce que le solomining ?
+### Qu'est-ce que le solomining et à quoi sert une "solopool" ?
 
-On vient de voir que dans le minage en **pool**, on contribue à un effort collectif pour trouver le prochain bloc. On soumet  des “shares” et si le pool trouve un bloc, la récompense (3,125 BTC actuellement + les frais de transaction) est **répartie**  au pro-rata la puissance de chacun.
+On vient de voir que dans le minage en **pool** "mutualiste", on contribue à un effort collectif pour trouver le prochain bloc. On soumet  des “shares” et si le pool trouve un bloc, la récompense (3,125 BTC actuellement + les frais de transaction) est **répartie**  au pro-rata la puissance de chacun.
 
 En **solo mining**, il est soit possible de faire tourner son propre nœud et son propre logiciel de minage afin de miner de manière totalement souveraine.
 Ou bien de passer par un service tiers, une sorte de proxy qu'on appellera "solo pool", et qui nous apportera la couche logicielle nécessaire à la construction des blocs ainsi que le nœud Bitcoin.
 
 Quoi qu'il en soit cette fois-ci quand un mineur trouve un bloc, ce dernier garde **100 % de la récompense**. On peut également préciser que même lorsqu'on choisit le solomining, 2 approches sont possibles:
 
- **La première** consiste à déléguer à un tiers qu'on appellera "solopool", la responsabilité de connecter notre machine de minage au réseau Bitcoin en mettant à notre disposition un nœud Bitcoin, et le logiciel qui sert à construire le bloc template sur lequel va travailler notre machine. Ce tiers prélèvera la plupart du temps des frais pour le service rendu, et est une source de confiance avec des risques de censure ou pourquoi pas de malhonnêteté (le manager de la "solopool" peut théoriquement tenter de tricher et s'auto attribuer la récompense de bloc si le miner n'est pas attentif.
+ **La première** consiste à déléguer à un tiers qu'on appellera **"solopool"**, la responsabilité de connecter notre machine de minage au réseau Bitcoin en mettant à notre disposition un nœud Bitcoin, et le logiciel qui sert à construire le bloc template sur lequel va travailler notre machine. Ce tiers prélèvera la plupart du temps des frais pour le service rendu, et est une source de confiance avec des risques de censure ou pourquoi pas de malhonnêteté (le manager de la "solopool" peut théoriquement tenter de tricher et s'auto attribuer la récompense de bloc si le miner n'est pas attentif. La différence principale entre une "solopool" et une pool "mutualiste" réside donc dans le fait que la première n'a pas à répartir les récompense au prorata du hashrate de chacun.
  
 
 ![Image](assets/fr/007.webp)
 
-**La seconde** consiste pour chaque solominer à auto héberer sur un serveur qui lui appartient le nœud bitcoin et le logiciel de minage qui lui permet de sélectionner lui même les transactions qu'il veut inclure dans sont bloc, et de construire soit-même le bloc template. C'est la manière la plus souveraine de faire du solomining et aujourd'hui les miniserveurs personnels comme Umbrel ou Start9 bien connus des bitoiners, permettent de facilement choisir cette option si on le désire.
+**La seconde** consiste pour chaque solominer à auto héberger sur un serveur qui lui appartient le nœud bitcoin et le logiciel de minage qui lui permet de sélectionner lui même les transactions qu'il veut inclure dans sont bloc, et de construire soit-même le bloc template. C'est la manière la plus souveraine de faire du solomining et aujourd'hui les minis serveurs personnels comme Umbrel ou Start9 bien connus des bitoiners, permettent de facilement choisir cette option si on le désire.
 
 ![Image](assets/fr/008.webp)
-
-
 
 Mais évidemment, quelque soit notre manière de procéder, les chances de succès sont **extrêmement faibles** pour un solominer à la maison avec une puissance de calcul modeste.
 
@@ -201,7 +199,7 @@ Si tu le souhaites, tu **n’as besoin de faire confiance à personne** : ni à 
 Tes blocs (potentiels) et les transactions qui le constituent sont directement soumis à ton propre nœud et ne  sont pas filtrées. En effet une grande pool de mining (solo ou pas) soumise à la régulation pourrait être contrainte de censurer les transactions "non conformes" c'est à dire qui ne plaisent pas au pouvoir politique local.
 En solominant, et dans l'hypothèse ou suffisamment de mineurs autour du monde font de même, on pourrait s'assurer qu'aucune censure n'est possible sur bitcoin puisqu'au moins un bloc par jour par exemple, pourrait être miné par un individus souverain.
 
-On participe ainsi à la **décentralisation du  hasrate**, et chaque mineur indépendant renforce la résilience face à la censure ou à la centralisation des pools. En solo mining, **on devient totalement souverain.**
+On participe ainsi à la **décentralisation du  hashrate**, et chaque mineur indépendant renforce la résilience face à la censure ou à la centralisation des pools. En solo mining, **on devient totalement souverain.**
 
 ### Pour la confidentialité 
 
@@ -209,16 +207,16 @@ Vous n'avez pas à partager vos données de minage (comme votre hashrate ou vos 
 
 ### Pour l’expérimentation et l’apprentissage
 
-C’est une excellente manière de **comprendre Bitcoin techniquement**, notamment :comment fonctionne la propagation des blocs. la communication avec un nœud complet . la logique du Proof-of-Work.Les petits mineurs (avec un Bitaxe, un Antminer, etc.) utilisent souvent le solo mining **à titre pédagogique**.
+C’est une excellente manière de **comprendre Bitcoin techniquement**, notamment :comment fonctionne la propagation des blocs. la communication avec un nœud complet . La logique du Proof-of-Work. Les petits mineurs (avec un Bitaxe, un Avalon MIner, etc.) utilisent souvent le solo mining **à titre pédagogique**.
 
 ### Pour la loterie 
 
-Trouver un bloc, même avec du matériel modeste, c’est **comme gagner au loto**. La récompense actuelle est de 3,125 BTC + frais, mais comme on le verra plus tard, même avec une machine peu puissante et accessible financièrement, qui tourne en permanance dans notre salon , les chances de gagner sont tout de même supérieures à celles d'une loterie traditionelle.
+Trouver un bloc, même avec du matériel modeste, c’est **comme gagner au loto**. La récompense actuelle est de 3,125 BTC + frais, mais comme on le verra plus tard, même avec une machine peu puissante et accessible financièrement, qui tourne en permanence dans notre salon , les chances de gagner sont tout de même supérieures à celles d'une loterie traditionnelle.
 
 Probabilité faible, mais gain énorme — surtout quand on fait tourner la machine pour le plaisir et non pour le profit.
-Par exemple si 1 millions de Bitaxes (petites machines de mining) dont on estime qu'aujourd'hui déjà des centaines de milliers sont en service) minaient en solo, cela représenterait au jour ou ce paragraphe est écrit, environ 1 Eh/s soit 1/1000 du hashrate total. De quoi miner un bloc par semaine. Un ticket de loto par semaine gagné par un individu quelque part dans le monde, de quoi changer une vie.
+Par exemple si 1 millions de Bitaxes (petites machines de mining) dont on estime qu'aujourd'hui déjà que des centaines de milliers sont en service) minaient en solo, cela représenterait au jour ou ce paragraphe est écrit, environ 1 Eh/s soit 1/1000 du hashrate total. De quoi miner un bloc par semaine. Un ticket de loto par semaine gagné par un individu quelque part dans le monde, de quoi changer une vie.
 
-En synthèse et quelque soit la raison qui pousse un individu à solominer, il s'agit là de se reconnecter à la vision originelle de Satoshi où n'importe quel utilisateur du réseau participait à renforcer la sécurité et la décentralisation de celui-ci via un système d'incitations bien alignées. Même un mineur uniquement intéressé par l'aspect loterie du minage de bitcoin devient un maillon important du réseau. En effet les petits ruisseaux faisant les grandes rivières, une généralisation de ce type de comportement pourrait aider de manière substantielles au retour d'une partie significative du hashrate entre les mains des particuliers.
+En synthèse et quelque soit la raison qui pousse un individu à solominer, il s'agit là de se reconnecter à la vision originelle de Bitcoin où n'importe quel utilisateur du réseau participait à renforcer la sécurité et la décentralisation de celui-ci via un système d'incitations bien alignées. Même un mineur uniquement intéressé par l'aspect loterie du minage de bitcoin devient un maillon important du réseau. En effet les petits ruisseaux faisant les grandes rivières, une généralisation de ce type de comportement pourrait aider de manière substantielles au retour d'une partie significative du hashrate entre les mains des particuliers.
 
 | Feature          | Solomining                                                                         | Pool Mining                                                                        |
 | ---------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
@@ -231,24 +229,21 @@ En synthèse et quelque soit la raison qui pousse un individu à solominer, il s
 
 ## Panorama des solutions hardware
 
-Nous allons dans ce paragraphe détailler une partie (nonexhaustive) des solutions matérielles qui s'offrent à vous pour miner à la maison. Les machines que nous présenterons sont "plug & play" et adaptée à un usage domestique, et peuve même tourner dans votre salon.
+Nous allons dans ce paragraphe détailler une partie (non exhaustive) des solutions matérielles qui s'offrent à vous pour miner à la maison. Les machines que nous présenterons sont "plug & play" et adaptées à un usage domestique, et peuvent même tourner dans votre salon.
 
-En effet les machines ASIC "professionelles" qui sont destinées à être installées sur rack dans des conteneurs ou datacenter, sont beaucoup trop bruyants et puissantes pour être utilisée en intérieur.
+En effet les machines ASIC "professionnelles" qui sont destinées à être installées sur rack dans des conteneurs ou datacenters, sont beaucoup trop bruyants et puissantes pour être utilisées en intérieur.
 Ici certaines des machines présentées sont même marketées par leur fabriquant comme des radiateurs, à installer dans les pièces de votre maison en hiver pour vous chauffer.
-
-
-
 ### Bitaxe - Le projet 100% Open Source
 
 ![Image](assets/fr/010.webp)
 
-Le projet Bitaxe est né du constat que la centralisation du minage tant au niveau des pool de minage que de fabricants de machines pouvait à terme causer un problème pour Bitcoin. Il était temps de tenter de reprendre un peu de contrôle sur cet aspect fondamental du projet qu'est le mining.
+Le projet Bitaxe est né du constat que la centralisation du minage tant au niveau des pools de minage que des fabricants de machines pouvait à terme causer un problème pour Bitcoin. Il était temps de tenter de reprendre un peu de contrôle sur cet aspect fondamental du projet qu'est le mining.
 
 Le problème c'est que les puces ASIC qui sont ensuite assemblées par centaines au sein des grosses machines que nous connaissons bien et qu'on retrouve dans les ferme de mining, ne sont pas vendues au détail par leurs fabricants pour être utilisées par qui le veut. Par exemple Bitmain, le plus gros constructeur de machine ASIC du monde, réserve précieusement ses propres puces ASIC à ses propres machines (les fameux Antminer). Et c'est également le cas pour tous les autres fabricants.
 
-Comment faire pour proposer une solution Open Source dans ces conditions. Tout simplement en achetant des machines Antminer complètes, en les désossant, et un déssoudant les puces ASIC, pour les réhabiliter et leur donner une seconde vie au sein du projet de mining open source le plus célèbre de l'écosystème Bitcoin: **[Bitaxe](https://github.com/bitaxeorg)**
+Comment faire pour proposer une solution Open Source dans ces conditions ? Tout simplement en achetant des machines Antminer complètes, en les désossant, et un dessoudant les puces ASIC, pour les réhabiliter et leur donner une seconde vie au sein du projet de mining open source le plus célèbre de l'écosystème Bitcoin: **[Bitaxe](https://github.com/bitaxeorg)**
 
-Cerise sur le gâteau l'ensemble du projet est 100% open source, tant au niveau du hardware que du software. N'importe qui peut donc s'approvisionner en composants et construire sont propre appareil rendant le projet quasiment inaltérable. Dans la pratique les particuliers se fournissent auprès de constructeurs (autrement dit des geeks bricoleurs) spécialisés répartis autour du monde, plutôt que de se munir des pièces et de son faire à souder pour le fabriquer soit-même.
+Cerise sur le gâteau l'ensemble du projet est 100% open source, tant au niveau du hardware que du software. N'importe qui peut donc s'approvisionner en composants et construire sont propre appareil rendant le projet quasiment inaltérable. Dans la pratique les particuliers se fournissent auprès de constructeurs (autrement dit des geeks bricoleurs) spécialisés répartis autour du monde, plutôt que de se munir des pièces et de son fer à souder pour le fabriquer soit-même.
 
 Au moment où ces lignes sont écrites, la version la plus performante du projet Bitaxe est le Bitaxe Gamma, propulsée par une puce Bitmain BM1370, et délivrant environ 1,2 Th/s de hashrate, pour moins de 20W de consommation.
 
@@ -286,14 +281,14 @@ En synthèse cet appareil au design soigné vous permettra de déployer un hasra
 
 ![Image](assets/fr/017.webp)
 
-### La Gamme Avalon Home de Cannan
+### La Gamme Avalon Home de Canaan
 
 ![Image](assets/fr/018.webp)
 
-Canaan est une entreprise Singapourienne et un des 3 plus grands constructeurs de machines de minages et de puces ASIC au monde, au côté de l'indétronable Bitmain et de MicroBT.
+Canaan est une entreprise Singapourienne et un des 3 plus grands constructeurs de machines de minages et de puces ASIC au monde, au côté de l’indétrônable Bitmain et de MicroBT.
 Ils développent une gamme de produits s'adressant aux particuliers qui voudraient miner à la maison tout en utilisant l'énergie dissipée par l'équipement pour chauffer son logement, plutôt que d'évacuer cette chaleur comme le font habituellement les mineurs professionnels.
 
-Le défit est donc de faire entrer dans les foyers des machines suffisament puissantes pour chauffer une potentiellement une pièce entière, tout en garantissant un niveau de bruit minimal des ventilateurs pour ne par perturber la vie quotidienne de l'utilisateur. La gamme de produits "Avalon Home" de Canaan que nous présenterons ci-après relève ce défit avec brio. 
+Le défit est donc de faire entrer dans les foyers des machines suffisamment puissantes pour chauffer une potentiellement une pièce entière, tout en garantissant un niveau de bruit minimal des ventilateurs pour ne par perturber la vie quotidienne de l'utilisateur. La gamme de produits "Avalon Home" de Canaan que nous présenterons ci-après relève ce défit avec brio. 
 
 #### Avalon Nano 3S
 
@@ -322,7 +317,7 @@ Le Avalon Mini 3 quant à lui nous fait passer à la vitresse supérieure en nou
 
 ![Image](assets/fr/022.webp)
 
-Les dimensions sont un peu plus supérieures à ce que le Nano 3S vu au dessus propose évidemment, mais restent raisonnables avec 75 cm de longueur pour en encombrement réduit (L760mm x W104mm x H214.5mm (Net)) et un poid d'environ 8 kg. Celles d'un radiateur classique en somme. 
+Les dimensions sont un peu plus imposante que celles du Nano 3S évidemment, mais restent raisonnables avec 75 cm de longueur pour en encombrement réduit (L760mm x W104mm x H214.5mm (Net)) et un poids d'environ 8 kg. Celles d'un radiateur classique en somme. 
 La connectivité est assurée par le WIFI (possibilité optionnelle d'utiliser du RJ45 via adaptateur). Le bruit est là encore extrèmement bien géré pour un appareil de cette puissance (entre 35dB et 55dB suivant les modes de fonctionnement).
 
 ![Image](assets/fr/023.webp)
@@ -336,10 +331,10 @@ https://bitcoinbazar.fr/en/products/avalon-mini-3
 
 ### Avalon Q
 
-Le Avalon Q est l'appareil le plus puissant de la gamme. Il équivaut en terme de hashrate et de puissance à 2 Avalon Mini 3 très exactement 90 Th/s pour 1700W (grace à 160 puce ASIC Canaan) , le tout avec l'allure d'une unité centrale de vieux PC des années 2000.
+Le Avalon Q est l'appareil le plus puissant de la gamme. Il équivaut en terme de hashrate et de puissance à 2 Avalon Mini 3 très exactement 90 Th/s pour 1700W (grace à 160 puces ASIC Canaan) , le tout avec l'allure d'une unité centrale de vieux PC des années 2000.
 
 ![Image](assets/fr/025.webp)
-Cette impressionante machine se rapproche en terme performance de ce que proposent certaines machines professionelles, mais l'encombrement  (L455mm x W130.5mm x H440mm) et le niveau sonore (45 ~ 65 dB) sont de nouveau si bien gérés que l'appareil trouvera une place de choix dans votre salon et sera en mesure de chauffer une grande pièce de 40 m2.
+Cette impressionnante machine se rapproche en terme performance de ce que proposent certaines machines professionnelles, mais l'encombrement  (L455mm x W130.5mm x H440mm) et le niveau sonore (45 ~ 65 dB) sont de nouveau si bien gérés que l'appareil trouvera une place de choix dans votre salon et sera en mesure de chauffer une grande pièce de 40/50 m2.
 
 
 ![Image](assets/fr/026.webp)
@@ -352,24 +347,78 @@ https://bitcoinbazar.fr/en/products/avalon-q
 
 Lorsqu'il s'agit de matériel de minage, le logiciel installé sur l'appareil  est appelé "firmware". Ce logiciel se compose en synthèse de l'OS (Operating System) de l'appareil, du logiciel de minage, et de l'interface web / application mobile, qui vous permettra d'interagir facilement avec votre miner depuis un navigateur d'ordinateur classique, ou votre smartphone.
 
-Nous présenterons ici un aperçu non exhaustif de certains de ces logiciels en s'attardant davantage sur les machines qui font l'objet de cette formation, c'est à dire celles que nous instrallerons à la maison.
+Les logiciels et OS de mining sont légion et pour ne pas apporter trop de confusion à ce cours centré sur le home mining, nous présenterons ici qu'un aperçu très loins d'être exhaustif de certains de ces logiciels utilisés, puisqu'ils ne seront pas directement utilisés au cours de cette formation centrée sur le home mining et les machines à installer à la maison. 
 
-Aujourd'hui les machines de minage sont livrées avec un firmware préinstallé par le fabricant, vous épargnant de devoir choisir quoi installer que ce soit pour les machines traditionnelles de Bitmain, MicroBT, et Canaan mais également dans notre cas de machine de Home Mining à l'attention de particuliers.
+Aujourd'hui les machines de minage sont toutes livrées avec un firmware pré-installé par le fabricant, vous épargnant de devoir choisir quoi installer que ce soit pour les machines traditionnelles de Bitmain, MicroBT, et Canaan mais également dans notre cas de machine de Home Mining à l'attention de particuliers.
 
-Sachez cependant qu'il est  possible dans certains cas de remplacer le firmware du  constructeur par un autre si on le souhaite, pour bénéficier des certaines fonctionnalitées par exemple.
+Sachez cependant qu'il est souvent possible de remplacer le firmware du  constructeur par un autre si on le souhaite, pour bénéficier des certaines fonctionnalités par exemple.
 
-C'est le cas de Braiins OS qui peut se subtituer au firmware de base des appareils Antminer de Bitmain par exemple. On présentera rapidement l'OS dans le paragraphe suivant puisque que c'est l'OS qui équipe notre appareil Braiins BMM101 présenté plus haut, et qu'elle présente des caractéristiques et fonctionnalitées interessantes.
+C'est le cas de Braiins OS et de Mining OS qui peuvent se substituer au firmware de base des appareils Antminer de Bitmain par exemple. On présentera rapidement ces OS modernes et innovantes dans le paragraphe suivant.
+Braiins OS est d'ailleurs le logiciel qui équipe notre appareil Braiins BMM101 présenté plus haut.
 
-### Braiins OS
+### [Braiins OS](https://braiins.com/os-firmware)
+
+![Image](assets/fr/084.webp)
+
+**Braiins OS** est un **firmware / système d’exploitation Linux** destiné aux **ASICs Bitcoin** (Antminer, etc.). Il remplace (ou contourne) le firmware constructeur et, surtout, le logiciel de minage embarqué type _cgminer/bmminer_ par un mineur développé par Braiins (historiquement **BOSmine**)
+
+L’objectif annoncé : **optimiser le hashrate et/ou l’efficacité (W/TH) à un niveau de puissance donné**, améliorer la stabilité, et faciliter l’exploitation à grande échelle. Comment ?
+
+- **Autotuning** 
+	C'est la fonctionnalité phare. Contrairement au firmware d'usine qui traite tous les composants de la même manière, l'autotuning de Braiins OS analyse chaque puce (**chip**) individuellement. Il identifie les puces "fortes" et les puces "faibles". Il pousse les meilleures et ménage les moins performantes. On obtient ainsi une efficacité accrue (plus de TH/s pour moins de Watts) et une durée de vie prolongée du matériel.
 
 
-### AxeOS & Esp-Miner
+- **Power Scaling**
+	Braiins OS permet de définir une **cible de puissance** précise (en Watts). Si l'électricité est chère, vous pouvez réduire la consommation au minimum tout en gardant une efficacité optimale ($J/TH$).
+    Si vous avez de l'énergie peu chère ou un bon refroidissement, vous pouvez "pousser" la machine bien au-delà de ses réglages d'usine.
+    Le système peut ajuster la puissance en fonction de la température pour éviter la surchauffe.
+
+Braiins OS supporte aussi le refroidissement par immersion (bain d'huile diélectrique) et évidemment Stratum V2, protocole que l'on détaillera un peu plus tard et qui permet au mineurs au seins de la pool "mutualiste", une plus grande autonomie.
+
+![Image](assets/fr/085.webp)
 
 
-### Avalon Family App
+Enfin il est à noter que Braiins OS se concentre principalement sur les modèles de chez **Bitmain (Antminer)**, donc pas vraiment notre cible dans cette formation comme déjà expliqué. Les modèles de chez Bitmains supportés sont indiqués ci-dessous.
+
+![Image](assets/fr/086.webp)
+
+### [MiningOS (MOS)](https://mos.tether.io/)
+
+![Image](assets/fr/087.webp)
+
+Lancé officiellement en **février 2026**, le **MiningOS (MOS)** de Tether, contrairement à Braiins OS qui est un firmware spécialisé dans l'optimisation des puces, se positionne comme une **plateforme d'orchestration complète et souveraine**. Il ne s'agit pas vraiment de controler et d'optimiser une machine à part entière, mais un parc de machines qui peuvent être de différents constructeurs (Bitmain, Canaan, MicroBT et autres).
+
+Là où beaucoup de logiciels de gestion (comme HiveOS ou Foreman) reposent sur des serveurs centralisés (Cloud), Tether a bâti son OS sur une architecture **Peer-to-Peer (P2P)**.
+
+- **Zéro dépendance tierce :** Le système utilise le protocole **Holepunch**. Les machines communiquent entre elles sans passer par un serveur central appartenant à Tether. Si internet est coupé ou si Tether fermait, votre infrastructure continuerait de tourner.
+- **Licence Apache 2.0 :** Le code est totalement ouvert. N'importe qui peut l'auditer, le modifier ou l'améliorer sans payer de licence propriétaire.
+- **Pas de "Backdoors" :** L'accent est mis sur la transparence totale pour rassurer les gros acteurs institutionnels.
+  
+![Image](assets/fr/088.webp)
+
+Tether ne livre pas juste un logiciel "figé", mais une suite d'outils (Mining SDK) permettant:
+
+- **Indépendance des applications :** Chaque fonction (monitoring, gestion de l'énergie, rapports) est une application indépendante connectée par une API partagée.
+- **Personnalisation :** Vous pouvez installer uniquement les modules dont vous avez besoin (ex: ignorer le module de refroidissement si vous êtes en air-cooling classique).
+- **Gestion intelligente de l'énergie**: C'est le point fort pour l'échelle industrielle. MOS permet de coordonner en temps réel la consommation des mineurs avec les sources d'énergie (solaire, éolien, surplus réseau). Il facilite le **load shedding** (délestage), permettant de couper ou réduire la puissance des machines instantanément si la demande du réseau électrique local devient trop forte.
 
 
+Enfin comme déjà évoqué précédemment,  MOS est conçu pour être compatible avec une large gamme d'ASICs (**Antminer, Whatsminer, Avalon**) et gère aussi l'infrastructure environnante : conteneurs, unités de distribution d'énergie (PDU) et systèmes de refroidissement etc...
 
+#### Comparatif : Braiins OS vs Tether MiningOS
+
+Pour comprendre la différence entre Braiins OS et MOS voilà un petit tableau comparatif.
+
+| **Caractéristique**    | **Braiins OS**                            | **Tether MiningOS (MOS)**                        |
+| ---------------------- | ----------------------------------------- | ------------------------------------------------ |
+| **Objectif Principal** | Optimisation des puces (Autotuning)       | Gestion globale d'infrastructure (Orchestration) |
+| **Architecture**       | Firmware local sur l'ASIC                 | Réseau P2P décentralisé (Holepunch)              |
+| **Frais (DevFee)**     | ~2% à 2.5%                                | Gratuit / Open Source (Modèle à définir)         |
+| **Compatibilité**      | Surtout Antminer (Bitmain)                | Multi-constructeurs (Antminer, Whatsminer, etc.) |
+| **Point Fort**         | Gain de Hashrate / Efficacité énergétique | Résilience, vie privée, évolutivité industrielle |
+### AxeOS
+
+Enfin, évoquons AxeOS le logiciel spécialement développé pour la gamme de miners Bitaxe et que nous mentionnons expréssément ici puisqu'il sera exploré en détail dans un paragraphe suivant.
 
 
 # Installer et configurer son premier mineur personnel

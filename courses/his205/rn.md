@@ -1810,39 +1810,39 @@ Aha, turatahura ko mu mpera, mu mibano yacu ya none, intumbero nyene y’uguhind
 
 
 
-Ubu tugiye gutohoza hamwe ivyiyumviro bitandukanye vyo guhuza izo nyigisho zibiri z’amahera, ni ukuvuga, inyigisho y’uguseruka kw’amahera biciye mu myenda-amahera n’inyigisho y’amahera y’uguseruka kw’amahera y’ibicuruzwa. Tugiye kuvuga ku ciyumviro ca Lynn Alden co guhuza abantu mu gitabu ciwe kizwi cane citwa "For Broken Money", umutwe w'ubuhinduzi bwaco bwakozwe na Consensus kumbure uzokwitwa "Rupture monétaire".
+Ubu tugiye kuronderera hamwe ivyiyumviro bitandukanye vyo guhuza izo nyigisho zibiri z’amahera, ni ukuvuga, inyigisho y’ivuka ry’amahera biciye mu madeni-amahera n’inyigisho y’amahera y’ivuka ry’amahera y’ibicuruzwa. Tugiye kuvuga ku ciyumviro ca Lynn Alden co guhuza abantu mu gitabu ciwe kizwi cane citwa "For Broken Money", umutwe w'ubusiguzi bwaco bwakozwe na Consensus kumbure uzokwitwa "Rupture monétaire".
 
 
 
-*Igice c'igitabu c'amahera yavunitse canditswe na Lyn Alden:*
+*Igice c'igitabu Broken Money canditswe na Lyn Alden:*
 
 
 
-> Mu vy’ukuri, amahera ni igitabu c’ivy’ubuhinga. Amahera y’ibicuruzwa ni igitabu kigenzurwa n’ibidukikije. Amahera ya banki ni igitabu kigenzurwa n’ibihugu-bihugu. Amahera yuguruye ni igitabu kigenzurwa n’abakoresha bayo.
+> Mu vy’ukuri, amahera ni igitabu c’ivy’ubuhinga bwoguharura amahera. Amahera y’ibicuruzwa ni igitabu cagizwe nivyo ikibano gikeneye.Amahera ya banki ni igitabu cagizwe n'ibihugu vyunze ubumwe. Amahera open-source ni igitabu cagizwe n’abakoresha bayo.
 
 Aha, Lyn yerekeza kuri Bitcoin.
 
 
 
-### Igipimo c'ububiko n'ubukene
+### Le ratio stock-flux n'ukutaboneka vyoroshe
 
 
 
-> Ibintu bimwebimwe vy’imiti bidasanzwe, nk’akarorero rhodium, biraboneka cane kuruta inzahabu, ariko birafise igitigiri gito c’ibintu bishobora gukoreshwa kubera ko bikoreshwa n’inganda vyihuta nk’uko bicukurwa. Igiceri canke igice c’ibara ry’agahama gishobora kugurwa nk’ikintu kidasanzwe co gukoraniriza hamwe canke ububiko bw’agaciro, ariko ntikibereye nk’amahera yemerwa n’abantu, kandi rero ntigisohoka mu buryo busanzwe nk’amahera.
+> Ama éléments chimiques amwamwe ataroshe kuboneka, nk’akarorero rhodium, ntaboneka cane kuruta inzahabu, mugabo bifise ratios stock-flux irihasi kubera itera ikoreshwa namahinguriro bapfa bazicukira. Igiceri canke ikirundo cade rhodium gishobora kugurwa nk’ikintu kidasanzwe co gukoraniriza hamwe canke ububiko bw’agaciro, ariko ntikibereye nk’amahera yemerwa n’abantu, kandi rero ntigisohoka mu buryo busanzwe nk’amahera.
 
-Saifedean arabivuga cane mu gitabu ciwe "Itegeko rya Bitcoin". Ku batazi igipimo c’ububiko n’ububiko, ni gusa iyo ugereranye ububiko buriho, ububiko buri kw’isoko, ugereranye n’ububiko bushasha buriko buraza, ukwinjira kw’ububiko bushasha. Kenshi na kenshi birahushanye n’ivyo umuntu abona, kuko woshobora kwiyumvira ko ikintu ufise mu bwinshi kitari gito, ariko mu vy’ukuri si ko biri. Ni ikibazo c’ubushobozi ufise bwo kuyitanga. Ahubwo ni ubushobozi dufise bwo kugira ububiko bushasha, hakurikijwe iki kigereranyo, buduha amakuru y’uko ico kintu ari gake canke atari co. Si kubera ko ataco dufise mu bubiko ari gake, ni kumbure gusa ko tutagifise. Rero, nitwafata inzahabu, turafise inzahabu nyinshi kuko zikoreshwa nk’ububiko bw’agaciro, kandi ukwinjira kw’inzahabu nshasha ni nk’ibice 1% gushika kuri 3% ku mwaka vy’inzahabu nshasha yinjira biciye mu nzahabu mining. Ariko, ivyo ariko aravuga hano, nimba turiko turavuga ivy’i rhodium, irake cane kuruta inzahabu, ariko nta stock dufise kuko irafungurwa uko igenda. Ntibisaba rero ibintu vyinshi bishasha kugira ngo umuntu akure kabiri ivyo yari afise. Ariko ku bijanye n’inzahabu, vyofata n’imiburiburi imyaka 50 kugira ngo ivugururwe, kugira ngo ivy’ubutunzi bibe bibiri. Udakunze ibicuruzwa vyinshi bikoreshwa, aho vyoroshe cane, kandi ntibifata imyaka myinshi kugira ngo umuntu akure kabiri ivyo afise, kuko bikoreshwa uko bigenda.
-
-
-
-*"Inzahabu yagumye ifise igipimo c'ububiko n'ubucuruzi kiri hagati ya 25x na 100x muri kahise k'ubu, akenshi hafi 50x canke irenga, mu gihe gitoyi ntiyigeze igwa munsi ya 16x, mbere no mu gihe c'Ikigobe c'Inzahabu co hagati mu kinjana ca 19. "*
+Saifedean arabivuga cane mu gitabu ciwe "L'Étalon bitcoin". Ku batazi le ratio stock-à-flux, ni gusa iyo ugereranye ububiko buriho, ububiko buri kw’isoko, ugereranye n’ububiko bushasha buriko buraza, ukwinjira kw’ububiko bushasha. Kenshi na kenshi birahushanye n’ivyo umuntu abona, kuko woshobora kwiyumvira ko ikintu ufise mu bwinshi kidakenye, ariko mu vy’ukuri si ko biri. Ni ikibazo c’ubushobozi ufise bwo kuyitanga. Ahubwo ni ubushobozi dufise bwo kugira ububiko bushasha, hakurikijwe iki kigereranyo, buduha amakuru y’uko ico kintu ari gake canke atari co. Si kubera ko ataco dufise mu bubiko bisigura ko ari nkeya, ni kumbure gusa ko ataco dufise. Rero, nitwafata inzahabu, turafise inzahabu nyinshi kuko zikoreshwa nk’ububiko bw’agaciro, kandi ukwinjira kw’inzahabu nshasha ni nk’ibice 1% gushika kuri 3% ku mwaka vy’inzahabu nshasha yinjira biciye mugucukura inzahabu. Ariko, ivyo ariko aravuga hano, nimba turiko turavuga ivy’i rhodium, ninkeya cane kuruta inzahabu, ariko nta stock ishoboka kubera ikoreshwa cane. Ntibisaba rero ibintu vyinshi bishasha kugira ngo umuntu akure kabiri ivyo yari afise. Ariko ku bijanye n’inzahabu, vyofata n’imiburiburi imyaka 50 kugira ngo isubire kubaho, kugira ngo ivy’ubutunzi vyirwize incuro zibiri. Udakunze ibicuruzwa vyinshi bikoreshwa, aho vyoroshe cane, kandi ntibifata imyaka myinshi kugira ngo umuntu akure kabiri ivyo afise, kuko bikoreshwa uko bigenda.
 
 
 
-Rero, 25 vyoba bisobanura imyaka 25 kugira ngo umuntu akubye kabiri ivy’ububiko, 100 na vyo bikaba bisobanura imyaka 100 kugira ngo umuntu akubye kabiri ivy’ububiko. Saifedean avuga mu gitabu ciwe ko naho twokubita kabiri inzahabu, kuva ku 1,5% gushika ku 3%, ntivyogira ingaruka nyinshi ku giciro cayo.
+*"Inzahabu yagumye ifise stock-à-flux iri hagati ya 25x na 100x muri kahise k'ubu, akenshi hafi 50x canke irenga, mu gihe gitoyi ntiyigeze igwa munsi ya 16x, mbere no mu gihe c'Ikigobe c'Inzahabu co hagati mu kinjana ca 19. "*
 
 
 
-*"Ifeza muri rusangi ifise igipimo c'ububiko c'ibice 10 canke birenze, ivyo bikaba bikiri vyinshi cane.*
+Rero, 25 vyoba bisobanura imyaka 25 kugira ngo ububiko bwigwize na kabiri, 100 na vyo bikaba bisobanura imyaka 100 kugira ngo ububiko bwigwize na kabiri. Saifedean avuga mu gitabu ciwe ko naho twokubita kabiri inzahabu, kuva ku 1,5% gushika ku 3%, ntivyogira ingaruka nyinshi ku giciro cayo.
+
+
+
+*"Ifeza muri rusangi ifise igipimo c'ububiko c'ibice 10 canke birenga, ivyo bikaba bikiri vyinshi cane.*
 
 
 *Ibindi bicuruzwa vyinshi bifise igipimo c'ububiko kiri munsi ya 1 canke 2. Mbere n'ibintu bidasanzwe, nka platine na rhodium, birafise igipimo c'ububiko buke cane kubera ko bikoreshwa vyihuta mu nganda."*
@@ -1853,7 +1853,7 @@ Rero, 25 vyoba bisobanura imyaka 25 kugira ngo umuntu akubye kabiri ivy’ububik
 
 
 
-*"Muri make, igihe cose amafaranga y'ibicuruzwa yisanze ariko arahiganwa n'inzahabu n'ifeza, ayo mafaranga yama asohoka hejuru mu mpera. Ibindi bicuruzwa vyoshobora kuguma ari amafaranga mu bihe bike canke mu turere twihariye, ariko inzahabu n'ifeza vyama vyerekana ubushobozi bwavyo bwo kuba amafaranga ahanganye kw'isi yose iyo bihuye n'amafaranga y'igihugu. inzahabu n'ifeza vyama bifise ubushobozi bwo guca agaciro k'ubundi buryo bw'amahera, mu gihe abafise ibikoko, amasaro, amatungo, umunyu, impuzu canke ivyuma vy'agaciro gatoyi batashobora kwigera bagabanya agaciro k'inzahabu canke ifeza."*
+*"Muri make, igihe cose amahera y'ibicuruzwa yisanze ariko arahiganwa n'inzahabu n'ifeza, ayo mafaranga yama ahereza ari mwihangana. Ibindi bicuruzwa vyoshobora kuguma ari amahera mu bihe bifise imbibe canke mu turere twihariye, ariko inzahabu n'ifeza vyama vyerekana ubushobozi bwavyo bwo kuba amafaranga ahanganye kw'isi yose iyo bihuye n'amafaranga y'igihugu. inzahabu n'ifeza vyama bifise ubushobozi bwo guca agaciro k'ubundi buryo bw'amahera, mu gihe abafise ibikoko, amasaro, amatungo, umunyu, impuzu canke ivyuma vy'agaciro gatoyi batashobora kwigera bagabanya agaciro k'inzahabu canke ifeza."*
 
 
 

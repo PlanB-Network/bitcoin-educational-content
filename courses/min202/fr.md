@@ -24,7 +24,6 @@ Désormais miner à la maison est devenu simple, les solutions "plug & play" son
 
 # Introduction
 
-
 ## Aperçu du cours
 
 
@@ -53,12 +52,6 @@ Puis nous verrons en détail comment installer l'appareil et le configurer. On e
 Enfin nous en profiterons pour faire un tour complet d'AxeOS le système d'exploitation de votre Bitaxe, afin de comprendre comment le piloter sur le bout des doigts.
 
 Pour finir on passera en revue les bonnes pratiques visant le bon entretien de votre machine afin que celle-ci soit opérationnelle le plus longtemps possible.
-#### Bitaxe le projet 100% Open Source
-
-#### Installation d'un Bitaxe et connexion à une "solopool"
-#### Panorama des différentes Pool de mining
-#### Découverte d'AxeOS 
-#### Entretien de la machine 
 
 ### Partie 4 - Miner via sa propre pool de minage et construire ses propres templates de bloc
 
@@ -386,7 +379,7 @@ Enfin il est à noter que Braiins OS se concentre principalement sur les modèle
 
 ![Image](assets/fr/087.webp)
 
-Lancé officiellement en **février 2026**, le **MiningOS (MOS)** de Tether, contrairement à Braiins OS qui est un firmware spécialisé dans l'optimisation des puces, se positionne comme une **plateforme d'orchestration complète et souveraine**. Il ne s'agit pas vraiment de controler et d'optimiser une machine à part entière, mais un parc de machines qui peuvent être de différents constructeurs (Bitmain, Canaan, MicroBT et autres).
+Lancé officiellement en **février 2026**, le **MiningOS (MOS)** de Tether, contrairement à Braiins OS qui est un firmware spécialisé dans l'optimisation des puces, se positionne comme une **plateforme d'orchestration complète et souveraine**. Il ne s'agit pas vraiment de controler et d'optimiser une machine à part entière, mais plutôt un parc de machines qui peuvent être de différents constructeurs (Bitmain, Canaan, MicroBT et autres).
 
 Là où beaucoup de logiciels de gestion (comme HiveOS ou Foreman) reposent sur des serveurs centralisés (Cloud), Tether a bâti son OS sur une architecture **Peer-to-Peer (P2P)**.
 
@@ -435,28 +428,27 @@ https://planb.academy/fr/tutorials/mining/hardware/canaan-avalon-mini-f2185435-1
 
 https://planb.academy/fr/tutorials/mining/hardware/braiins-mini-miner-f5aec001-fb05-4e89-b3b2-a31abec1253c
 
-Pour rappel un Bitaxe Gamma fournit un hashrate d'environ 1,2 Th/s. C'est à la fois énorme et minuscule. Enorme car une seule de ces petites machines est désormais plus puissante et immensément plus efficiente que les machines les plus performates d'il y 10 ans. Minuscule car en branchant un Bitaxe, vous ne représentez qu'un milliardième du hashrate mondial atuel (évalué à environ 1 Zetahash par seconde au moment où ces lignes sont écrites).
+Pour rappel un Bitaxe Gamma fournit un hashrate d'environ 1,2 Th/s. C'est à la fois énorme et minuscule. Énorme car une seule de ces petites machines est désormais plus puissante et immensément plus efficiente que les machines les plus performantes d'il y a 10 ans. Minuscule car en branchant un Bitaxe, vous ne représentez qu'un milliardième du hashrate mondial actuel (évalué à environ 1 Zetahash par seconde au moment où ces lignes sont écrites).
 
 Cela étant dit il va nous falloir décider comment allouer notre hasrate de la manière la plus "smart" possible. En simple est-il plus malin de miner en pool, ou de solominer avec un Bitaxe ?
 
-**Bitaxe en pool**: avec 1,2 Th/s un Bitaxe vous permettrait au moment où sont écrites ces lignes de générer 4 centimes de dollars par jours de bitcoin, sans compter la dépense énergétique qui dépendra de chacun et qui pour la majorité d'entre nous sera supérieure à la récompense. En dehors du fait d'obtenir quelques sats non KYC, l'intérêt est très limité. C'est pour quoi les Bitaxes sont utilisés dans leur écrasante majorité comme des tickets de lotterie.
+**Bitaxe en pool**: avec 1,2 Th/s un Bitaxe vous permet de générer 50 satoshis par jour, sans compter la dépense énergétique qui dépendra de chacun et qui pour la majorité d'entre nous sera supérieure à la récompense. En dehors du fait de pouvoir obtenir quelques sats non KYC, l'intérêt est très limité. C'est pourquoi les Bitaxes sont utilisés dans leur écrasante majorité comme des tickets de loterie.
 
 ![Image](assets/fr/027.webp)
 
 **Bitaxe en solomining:
 
-Mais alors s'il s'agit de jouer à la lotterie Bitcoin, quelles sont nos chances de tirer le gros et de gagner les 3,125 bitcoins + frais de la récompense de block allouée à chaque mineur chanceux ?
+Mais alors s'il s'agit de jouer à la loterie Bitcoin, quelles sont nos chances de toucher le gros lot et de gagner les 3,125 bitcoins + frais de la récompense de block allouée à chaque mineur chanceux ?
 
-Comme on vient de le voir un peu plus haut un Bitaxe seul, c'est 1 / 1000 000 000 de la puissance de calcul globale déployée sur terre. Est-ce à dire que notre chance de trouver un block est de 1 sur 1 milliard ? Ce serait le cas si on essayait une seule fois de miner un block, c'est à dire qu'on allumerait notre appareil pendant les 10 prochaines minutes en croisant les doigts, jusqu'au prochian bloc miné. Là effectivement nos chances seraient de 1 sur 1 milliard.
+Comme on vient de le voir un peu plus haut un Bitaxe seul, c'est 1 / 1000 000 000 de la puissance de calcul globale déployée sur terre. Est-ce à dire que notre chance de trouver un block est de 1 sur 1 milliard ? Ce serait le cas si on essayait une seule fois de miner un bloc, c'est à dire qu'on allumerait notre appareil pendant les 10 prochaines minutes en croisant les doigts, jusqu'au prochain bloc miné. Là effectivement nos chances seraient de 1 sur 1 milliard.
 
-Mais la beauté de Bitcoin, c'est qu'un nouveau bloc est miné toutes les 10 minutes environ, ce qui nous permet de jouer à la lotterie Bitcoin environ 144 fois par jour. Et ça ça change beaucoup de choses en terme de statistiques, car ça n'étonnera personne: plus on jour, plus on a de chance de gagner.
+Mais la beauté de Bitcoin, c'est qu'un nouveau bloc est miné toutes les 10 minutes environ, ce qui nous permet de jouer à la loterie environ 144 fois par jour. Et ça change beaucoup de choses en terme de statistiques, car ça n'étonnera personne: plus on joue, plus on a de chance de gagner.
 
-Alors quelles sont nos chances exactement ? Des sites existent ([solochance.com](https://solochance.com/) ou [sololuck.com](https://www.sololuck.com/)) nous permettant de calculer cela (même si le calcul n'est aps très compliqué en soit), qui varient légèrement en fonction de leur appréciation du hashrate global et autres paramètres.
+Alors quelles sont nos chances exactement ? Des sites existent ([solochance.com](https://solochance.com/) ou [sololuck.com](https://www.sololuck.com/)) nous permettant de calculer cela (même si le calcul n'est pas très compliqué en soit), qui varient légèrement en fonction de leur appréciation du hashrate global et autres paramètres.
 
 ![Image](assets/fr/028.webp)
 
 ![Image](assets/fr/029.webp)
-
 
 Cela permet quand même de se rendre compte des ordres de grandeurs dont nous parlons.
 
@@ -466,22 +458,22 @@ Cela permet quand même de se rendre compte des ordres de grandeurs dont nous pa
 |                                               | 1 day                       | 144             | 1 / 6000 000              |
 |                                               | 1 year                      | 53560           | 1/ 18 000                 |
 
-Ainsi pour résumer, laisser son Bitaxe Gamma touner toute l'année, revient à effectuer  une fois par an, un tirage au sort avec 1 chance sur 18000 de gagner le jackpot.
+Ainsi pour résumer, laisser son Bitaxe Gamma tourner toute l'année, revient à effectuer  une fois par an, un tirage au sort avec 1 chance sur 18000 de gagner le jackpot.
 
-Mais dans les faits, est-ce que nous avons des exemples de solominers ayant trouvé un blocs et empocher la récompense ?
-Eh bien oui, il suffit pour se faire une idée de suivre l'actualité du solomining sur les réseaux sociaux (X principalement), pour s'en convaincre. Régulièrement, une ou deux fois par moins en 2025, des heureux gagnants sont repérés.
+Mais dans les faits, est-ce que nous avons des exemples de solominers ayant trouvé un bloc et empoché la récompense ?
+Eh bien oui, il suffit pour se faire une idée de suivre l'actualité du solomining sur les réseaux sociaux (X principalement), pour s'en convaincre. Régulièrement, une ou deux fois par mois en 2025, des heureux gagnants sont repérés.
 
 ![Image](assets/fr/042.webp)
 
 ![Image](assets/fr/043.webp)
 
-Si l'on veut un  moyen non exhaustif mais assez fiable d'avoir une idée du nombre de "solo blocs" trouvés, alors il nous faut tout simplement observer les blocs minés par la pus grande solo pool du monde "Solo CkPool": https://mempool.space/mining/pool/solock
+Si l'on veut un  moyen non exhaustif mais assez fiable d'avoir une idée du nombre de "solo blocs" trouvés, alors il nous faut tout simplement observer les blocs minés par la plus grande solo pool du monde "Solo CkPool": https://mempool.space/mining/pool/solock
 
 On remarque alors qu'environ 1 bloc par mois est trouvé par un miner solo via cette pool. Cependant il est à noté qu'un mineur solo peut tout aussi bien être un Bitaxe dans un salon, qu'un mineur  professionel possédant des dizaines de machines dernier cri.
 
 ![Image](assets/fr/044.webp)
 
-Dernière remarque, mais il est à noter que certain chanceux ont eux déjà réussi à miner des blocs sur des pool [auto hébergées sur leur propre serveur Umbrel](https://mempool.space/mining/pool/publicpool). Le meilleur moyen de miner selon moi, comme le faisaient les mineurs des origines, sans dépendre de personne. Et aujourd'hui, c'est à la portée de n'importe qui. On reviendra dans le dernier paragraphe de cette formation sur les applications permettant de miner en tout autonomie et en quelques clics.
+Dernière remarque, il est à noter que certain chanceux ont eux déjà réussi à miner des blocs sur des pool [auto hébergées sur leur propre serveur Umbrel](https://mempool.space/mining/pool/publicpool). Le meilleur moyen de miner selon moi, comme le faisaient les mineurs des origines, sans dépendre de personne. Et aujourd'hui, c'est à la portée de n'importe qui. On reviendra dans le dernier paragraphe de cette formation sur les applications permettant de miner en toute autonomie et en quelques clics.
 
 ![Image](assets/fr/045.webp)
 
@@ -507,7 +499,7 @@ Une fois les champs complétés, cliquez sur "Save", puis "Restart".
 ![Image](assets/fr/032.webp)
 
 
-L'appareil redémarre, et est désormais connecté à votre réseau local. Une adresse IP lui a donc été attribuée qu'il nous conviendra de déterminer car c'est grace à cet identifiant que l'on pourra interagir avec l'appareil.
+L'appareil redémarre, et est désormais connecté à votre réseau local. Une adresse IP lui a donc été attribuée qu'il nous conviendra de déterminer car c'est grâce à cet identifiant que l'on pourra interagir avec l'appareil.
 
 ![Image](assets/fr/033.webp)
 
@@ -526,11 +518,11 @@ En tapant cette adresse dans notre navigateur favori, on arrive sur l'interface 
 Allons configurer maintenant la solopool de minage vers laquelle nous allons pointer notre hashrate. 
 Pour rappel cette pool est chargée de nous donner un accès au réseau Bitcoin, de sélectionner les transactions à inclure dans le bloc sur lequel nous travaillons, et de diffuser notre bloc valide sur le réseau Bitcoin, dans le cas où nous serions chanceux.
 
-**NB: Lorsque vous initialisez pour la première fois votre Bitaxe, des pools et adresses bitcoins sont déjà renseignées par défaut, mais il faut les remplacer autrement vous minerez pour quelqu'un d'autre si vous ne faites rien.
+**NB: Lorsque vous initialisez pour la première fois votre Bitaxe, des pools et adresses bitcoins sont déjà renseignées par défaut, mais il faut les remplacer. Autrement vous minerez pour quelqu'un d'autre si vous ne faites rien.
 
-**La pool renseignée par défaut est Public Pool (Public Pool est un pool au code open source et ouvert, sans frai et conçu pour les petits mineurs comme le Bitaxe.  L'adresse par défaut est celle de l'OSMU l'oraganisation responsable du développement du projet Bitaxe****
+**La pool renseignée par défaut est Public Pool (Public Pool est un pool au code open source et ouvert, sans frais et conçu pour les petits mineurs comme le Bitaxe.  L'adresse par défaut est celle de l'OSMU l'oraganisation responsable du développement du projet Bitaxe****
 
-Ce tutoriel est réalisé sous la version v 2.11.0 d'Axe OS. Il est  possible que les menus soient sensiblement différents suivant la version de l'OS qui flashé sur votre appareil au moment où vous le configurerez. 
+Ce tutoriel est réalisé sous la version v 2.11.0 d'Axe OS. Il est  possible que les menus soient sensiblement différents suivant la version de l'OS qui sera installée sur votre appareil au moment où vous le configurerez. 
 
 Cliquons via le menu de gauche sur "Pool".
 
@@ -545,7 +537,7 @@ Pour chaque Pool les champs à renseigner sont:
 
 ![Image](assets/fr/037.webp)
 
-Nous choisissons en  pool principale Public Pool, une solo Pool très populaire chez les solominers, toujour en quête de son premier bloc miné malgré les quelques  40 Ph/s que des solominer du monde entier pointent vers elle.
+Nous choisissons en  pool principale Public Pool, une solo Pool très populaire chez les solominers, toujours en quête de son premier bloc miné malgré les quelques  40 Ph/s que des solominer du monde entier pointent vers elle.
 
 On verra au pragraphe suivant qu'il existe de multiples services de solopool similaires à celui-ci, et qu'il convient de faire attention car ces fournisseurs de services restent des intermédiares  qui peuvent très bien être malhonnêtes.
 
@@ -571,18 +563,18 @@ Lorsque tout cela est fait, il suffit de cliquer sur "Save" puis "Restart" en ba
 
 Allons maintenant vérifier que Public Pool détecte bien notre hashrate et que tous fonctionne correctement.
 
-Pour ce faire rensignez simplement votre adresse dans le champ prévu à cette effet sur https://web.public-pool.io/#/. Votre adresse Bitcoin vous sert non seulement à recevoir les éventuelles récompense mais également à vous identifier en tant qu'entité minière. Il s'agit en quelque sort de votre identité du point de vue de la pool.
+Pour ce faire rensignez simplement votre adresse dans le champ prévu à cet effet sur https://web.public-pool.io/#/. Votre adresse Bitcoin vous sert non seulement à recevoir les éventuelles récompense mais également à vous identifier en tant qu'entité minière. Il s'agit en quelque sorte de votre identité du point de vue de la pool.
 
 Cliquez ensuite sur le bouton "My Workers" pour visualiser l'ensemble des appareils liés à votre adresse que Public Pool détecte.
 
 
 ![Image](assets/fr/040.webp)
 
-On voit bien ici notre Bitaxe, dénommé par le nom qu'on lui a attribué "bitaxePlanB".
+On voit bien ci-dessous notre Bitaxe, dénommé par le nom qu'on lui a attribué "bitaxePlanB".
 
 Les informations affichées sont en synthèse:
 
-- la difficulté totale du réseau, c'est à dire un nombre déterminé par le protocole et dont l'ajustement permet  l'émission régulière environ toute les 10 minutes, de nouveaux Bitcoin. Plus ce nombre est élevé, plus il sera difficile pour un mineur de "trouver un bloc". Ce nombre est ajusté tous les 2016 blocs soit environ toutes les 2 semaines pour faire varier la difficulté du minage à la hausse ou à la baisse. Ici la difficulté affichée est de 148,2 Téra.
+- la difficulté totale du réseau, c'est à dire un nombre déterminé par le protocole et dont l'ajustement permet  l'émission régulière environ toute les 10 minutes, de nouveaux Bitcoin. Plus ce nombre est élevé, plus il sera difficile pour un mineur de "trouver un bloc". Ce nombre est ajusté tous les 2016 blocs soit environ toutes les 2 semaines pour faire varier la difficulté du minage à la hausse ou à la baisse. Ici la difficulté affichée est de 148,2 Téras.
 - Notre meilleure difficulté personnelle sur la période d'activité du mineur: pour nous 92,77 M (millions). Autrement dit il nous faudra faire environ 1,5 millions de fois mieux pour trouver un bloc...
 - Le hashrate global de 984 Eh/s
 - La hauteur de bloc
@@ -707,29 +699,25 @@ La Pool des "[chauffagistes](![Image](assets/fr/055.webp))" est une petite pool 
 - fiabilité: élevée
 - confiance: intermédiaire / élevée
 
-| Type de Pool | Open Source | Frais |
-| ------------ | ----------- | ----- |
-|              |             |       |
-
 ### Les Pool "Mutualistes" adaptées au HomeMining
 
-Ici nous nous concentrerons uniquement sur les pools de mining "mutualistent" où la récompense est partagé au prorata du hashrate apporté, permettant une distribution des récompenses via le lightning network. Cette caractéristique démontre clairement l'orientation vers les petits home miner de la pool et sa volonté de permettre même au tout petit hashrate de participer.
+Ici nous nous concentrerons uniquement sur les pools de mining "mutualistes" où la récompense est partagée au prorata du hashrate apporté, permettant une distribution des récompenses via le lightning network. Cette caractéristique démontre clairement l'orientation vers les petits home miner de la pool, et sa volonté de permettre même au tout petit hashrate de participer.
 
 #### [Braiins ](https://braiins.com/pool)
 
-Braiins Pool, est la version de Braiins Solo évoquée précédemment. Elle permet les [retrait des récompenses de minage via le lightning network](https://academy.braiins.com/en/braiins-pool/rewards-and-payouts/#lightning-payouts) ce qui est un gros plus pour le petits mineursqui devraient parfois attendre des semaines voir des moins avant de pouvoir récupérer leur récompense on-chain en cas de frais élevés sur le réseau bitcoin, ou pour éviter de se retrouver avec un "UTXO" (un morceau de bitcoin, un "pièce") "trop petite" en portefeuille. 
+Braiins Pool, est la version de Braiins Solo évoquée précédemment. Elle permet les [retrait des récompenses de minage via le lightning network](https://academy.braiins.com/en/braiins-pool/rewards-and-payouts/#lightning-payouts) ce qui est un gros plus pour le petits mineurs qui devraient parfois attendre des semaines voir des moins avant de pouvoir récupérer leur récompense on-chain en cas de frais élevés sur le réseau bitcoin, ou pour éviter de se retrouver avec un "UTXO" (un morceau de bitcoin, un "pièce") "trop petite" en portefeuille. 
 
 *==**Voir avec Loic s'il existe une formation planB qui parle du management des UTXO à insérer ici**==*
 
-Braiins vous permet ainsi de renseigner une adresse Lightning  et de régler une limite "threshold" au delà de laquelle votre un paiement vers votre wallet lightning sera automatiquement déclenché. On voit dans la capture d'écran ci-dessous que dès que la récompense de minage atteint 10000 sats, alors Braiins paiera automatiquement la lightning adresses louferlou@getalby.com.
+Braiins vous permet ainsi de renseigner une adresse Lightning  et de régler une limite "threshold" au delà de laquelle un paiement vers votre wallet lightning sera automatiquement déclenché. On voit dans la capture d'écran ci-dessous que dès que la récompense de minage atteint 10000 sats, alors Braiins paiera automatiquement la lightning adresses louferlou@getalby.com.
 
 ![Image](assets/fr/057.webp)
 
-Par exemple un Avalon Nano 3S qui vous rapporterait environ 200 satoshis par jour, déclencherait une transaction vers votre wallet Lightning tous les moins et demi environ.
+Par exemple un Avalon Nano 3S qui vous rapporterait environ 200 satoshis par jour, déclencherait une transaction vers votre wallet Lightning tous les mois et demi environ.
 
-Pour en savoir plus sur la manière d'obtenir et d'utiliser une LIghtning Address vouspouvez vous référer à **=="Voir avec Loic si ça existe"==**
+Pour en savoir plus sur la manière d'obtenir et d'utiliser une Lightning Address vous pouvez vous référer à **=="Voir avec Loic si ça existe"==**
 
-Vous pouvez bien évidemment régler une limite de retrait automatique plus basse de 10000 sats si vos le souhaitez, ou réaliser des retraits manuels à n'importe quels moments.
+Vous pouvez bien évidemment régler une limite de retrait automatique plus basse de 10000 sats si vos le souhaitez, ou réaliser des retraits manuels à n'importe quel moments.
 
 Les récompenses de minage se font selon le modèle dit [FPPS (Full Pay Per Share) ](https://academy.braiins.com/en/braiins-pool/rewards-and-payouts/#fpps-specification) permettant des revenus garantis pour tous les mineurs même si la pool ne trouve pas de blocs pendant un temps plus élevé qu'habituellement.
 
@@ -763,12 +751,6 @@ Synthèse:
 - frais: 2 % / 1% si payout Lightning
 - fiabilité: élevée
 - confiance: élevée
-
-
-| Type de Pool | Open Source | Frais | Spécificité |     |
-| ------------ | ----------- | ----- | ----------- | --- |
-| Solo         |             |       |             |     |
-| Mutualiste   |             |       |             |     |
 
 
 ## Découverte d'AxeOS (v2.12.2)
@@ -884,9 +866,6 @@ Rien ne dit non plus comme déjà évoqué plus haut, que l'entité manageant la
 Si vous êtes un Bitcoiner souverain adepte du solomining ce qui est le cas de la plupart d'entre vous qui lisez ces lignes, vous serez certainement ravis d'apprendre qu'aujourd'hui il est devenu très facile pour n'importe qui de miner sur sa propre solopool, auto hébergée sur un serveur Umbrel ou Start9 par exemple.
 
 L'autre bonne nouvelle c'est que même lorsqu'on mine en **"pool mutualistes"** pour qui souhaite recevoir des récompenses régulières, des innovations permettent désormais aux mineurs souverains de soumettre leurs propre bloc template. C'est à dire que chaque mineur de la pool sélectionne les transactions qu'il inscrira dans le bloc si c'est lui qui le trouve. Ainsi le pouvoir de censure de la pool est quasiment réduit à néant. Celle ci se cantonne à son rôle de distributeur de récompenses au prorata de la puissance de calcul de chacun.
-
-==Insérer les liens vers les tuto / cours existants==
-
 ## Stratum V2 & Datum (Pool mutualistes)
 
 ![Image](assets/fr/074.webp)
@@ -987,6 +966,11 @@ Une fois l'application installée, c'est du vu et revu lorsqu'il s'agit de point
 En quelques instants, votre Bitaxe est connecté à Bassin et commence à lui proposer des shares.
 
 ![Image](assets/fr/083.webp)
+
+Nous voilà arrivé au bout de cette formation Min202. Vous avez désormais compris les bases du mining à la maison, ses avantages, ses, inconvénients, opportunités et limitations. Vous savez également quelles solutions s'offrent à vous si vous êtes tentés de vous lancer dans l'aventure. 
+
+Aventure qui selon moi ne fait que commencer. Les narratifs "chauffages du domicile" et "loterie mining" sont extrêmement attrayants et porteurs, et les solutions techniques adaptées au plus grand nombre n'ont jamais été aussi nombreuses. D'ici une dizaine d'année, je ne serais pas étonné qu'un bloc par jour (1/144) soit l'oeuvre d'un simple bitcoiner minant depuis chez lui. Qui prend le pari ?
+
 # Partie finale
 
 PARTIE AUTOMATIQUE. NE RIEN NOTER ICI
